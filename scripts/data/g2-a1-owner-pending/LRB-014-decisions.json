@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|öffnen|idx:460|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Avata",
+    "owner_note": "FI öffnen lv: ET Avama → FI Avata for atvērt open. DE untouched."
+  },
+  "g2/a1/fi|oft|idx:461|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Usein",
+    "owner_note": "FI oft lv: ET Sageli → FI Usein for bieži often. DE untouched."
+  },
+  "g2/a1/fi|ohne|idx:462|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ilman",
+    "owner_note": "FI ohne lv: ET Ilma → FI Ilman for bez without. DE untouched."
+  },
+  "g2/a1/fi|Ohr|idx:463|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Korva",
+    "owner_note": "FI Ohr lv: ET Kõrv → FI Korva for auss ear. DE untouched."
+  },
+  "g2/a1/fi|Oktober|idx:464|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lokakuu",
+    "owner_note": "FI Oktober lv: ET Oktoober → FI Lokakuu for oktobris October. DE untouched."
+  },
+  "g2/a1/fi|Onkel|idx:465|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Setä • Eno",
+    "owner_note": "FI Onkel: micro-repair lv Setä • Eno uncle/maternal uncle. DE untouched."
+  },
+  "g2/a1/fi|Orange|idx:466|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Appelsiini",
+    "owner_note": "FI Orange lv: ET Apelsin → FI Appelsiini for apelsīns orange. DE untouched."
+  },
+  "g2/a1/fi|Ostern|idx:467|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pääsiäinen",
+    "owner_note": "FI Ostern lv: ET Lihavõtted → FI Pääsiäinen for Lieldienas Easter. DE untouched."
+  },
+  "g2/a1/fi|Paar|idx:468|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pari",
+    "owner_note": "FI Paar lv: ET Paar → FI Pari for pāris pair/couple. DE untouched."
+  },
+  "g2/a1/fi|Papier|idx:469|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Paperi",
+    "owner_note": "FI Papier lv: ET Paber → FI Paperi for papīrs paper. DE untouched."
+  },
+  "g2/a1/fi|Park|idx:470|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Puisto",
+    "owner_note": "FI Park lv: ET Park → FI Puisto for parks park/green space. DE untouched."
+  },
+  "g2/a1/fi|passen|idx:471|lv; study.explanation; study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sopia • Istua hyvin\",\"study.explanation[0]\":\"Pääajatus: passen tarkoittaa sopima, istua hyvin tai olla sopiva.\",\"study.explanation[1]\":\"Vaatteiden osalta passen tarkoittaa usein sopivaa kokoa.\",\"study.explanation[2]\":\"Värvien tai tyylin osalta passen tarkoittaa sopivaa yhdistelmää.\",\"study.explanation[3]\":\"Hyvin yleinen fraasi on Das passt. = Se sopii.\",\"study.important[0]\":\"passen ei ole vain vaatteista.\",\"study.important[1]\":\"Se voi tarkoittaa myös sitä, että aika, suunnitelma tai ratkaisu sopii.\"}",
+    "owner_note": "FI passen: micro-repair lv Sopia • Istua hyvin fit/size sense. DE untouched."
+  },
+  "g2/a1/fi|Pause|idx:472|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tauko",
+    "owner_note": "FI Pause lv: ET Vaheaeg → FI Tauko for pārtraukums break. DE untouched."
+  },
+  "g2/a1/fi|Person|idx:473|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Henkilö",
+    "owner_note": "FI Person lv: ET Isik → FI Henkilö for persona person. DE untouched."
+  },
+  "g2/a1/fi|Pferd|idx:474|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hevonen",
+    "owner_note": "FI Pferd lv: ET Hobune → FI Hevonen for zirgs horse. DE untouched."
+  },
+  "g2/a1/fi|Pflanze|idx:475|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kasvi",
+    "owner_note": "FI Pflanze lv: ET Taim → FI Kasvi for augs plant. DE untouched."
+  },
+  "g2/a1/fi|Pizza|idx:476|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Pizza lv: Pitsa is standard Finnish for pica pizza. DE untouched."
+  },
+  "g2/a1/fi|Plan|idx:477|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Suunnitelma",
+    "owner_note": "FI Plan lv: ET Plaan → FI Suunnitelma for plāns plan. DE untouched."
+  },
+  "g2/a1/fi|Platz|idx:478|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Paikka",
+    "owner_note": "FI Platz lv: ET Koht → FI Paikka for vieta place. DE untouched."
+  },
+  "g2/a1/fi|Polizei|idx:479|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Poliisi",
+    "owner_note": "FI Polizei lv: ET Politsei → FI Poliisi for policija police. DE untouched."
+  },
+  "g2/a1/fi|Post|idx:480|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Posti",
+    "owner_note": "FI Post lv: ET Post → FI Posti for pasts mail/post. DE untouched."
+  },
+  "g2/a1/fi|Preis|idx:481|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hinta",
+    "owner_note": "FI Preis lv: ET Hind → FI Hinta for cena price. DE untouched."
+  },
+  "g2/a1/fi|probieren|idx:482|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kokeilla • Maistaa",
+    "owner_note": "FI probieren lv: ET Proovima/Maitsma → FI Kokeilla/Maistaa for izmēģināt/nogaršot try/taste. DE untouched."
+  },
+  "g2/a1/fi|Problem|idx:483|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ongelma",
+    "owner_note": "FI Problem lv: ET Probleem → FI Ongelma for problēma problem. DE untouched."
+  },
+  "g2/a1/fi|Programm|idx:484|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ohjelma",
+    "owner_note": "FI Programm lv: ET Programm → FI Ohjelma for programma program. DE untouched."
+  },
+  "g2/a1/fi|Pullover|idx:485|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Neule",
+    "owner_note": "FI Pullover lv: ET Kampsun → FI Neule for džemperis sweater. DE untouched."
+  },
+  "g2/a1/fi|Punkt|idx:486|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Piste",
+    "owner_note": "FI Punkt lv: ET Punkt → FI Piste for punkts point. DE untouched."
+  },
+  "g2/a1/fi|putzen|idx:487|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Puhdistaa • Siivota",
+    "owner_note": "FI putzen: micro-repair lv Puhdistaa • Siivota clean/clean up. DE untouched."
+  },
+  "g2/a1/fi|Rad fahren|idx:488|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pyöräillä",
+    "owner_note": "FI Rad fahren lv: ET Jalgrattaga sõitma → FI Pyöräillä for braukt ar divriteni cycle. DE untouched."
+  },
+  "g2/a1/fi|Radiergummi|idx:489|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pyyhekumi",
+    "owner_note": "FI Radiergummi lv: ET Kustutuskumm → FI Pyyhekumi for dzēšamgumija eraser. DE untouched."
+  },
+  "g2/a1/fi|rauchen|idx:490|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Polttaa",
+    "owner_note": "FI rauchen lv: ET Suitsetama → FI Polttaa for smēķēt smoke. DE untouched."
+  },
+  "g2/a1/fi|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Oikealle • Oikea",
+    "owner_note": "FI rechts native: ET Paremale/Parem → FI Oikealle/Oikea for pa labi/labais right. DE untouched."
+  },
+  "g2/a1/fi|rechts|idx:491|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Oikealle • Oikea",
+    "owner_note": "FI rechts lv: ET Paremale/Parem → FI Oikealle/Oikea for pa labi/labais right. DE untouched."
+  },
+  "g2/a1/fi|reden|idx:492|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Puhua",
+    "owner_note": "FI reden lv: ET Rääkima → FI Puhua for runāt speak. DE untouched."
+  },
+  "g2/a1/fi|Regen|idx:493|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sade",
+    "owner_note": "FI Regen lv: ET Vihm → FI Sade for lietus rain. DE untouched."
+  },
+  "g2/a1/fi|Regenschirm|idx:494|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sateenvarjo",
+    "owner_note": "FI Regenschirm lv: ET Vihmavari → FI Sateenvarjo for lietussargs umbrella. DE untouched."
+  },
+  "g2/a1/fi|regnen|idx:495|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sataa",
+    "owner_note": "FI regnen lv: ET Vihma sadama → FI Sataa for līt to rain. DE untouched."
+  },
+  "g2/a1/fi|Reis|idx:496|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Riisi",
+    "owner_note": "FI Reis lv: ET Riis → FI Riisi for rīsi rice. DE untouched."
+  },
+  "g2/a1/fi|richtig|idx:497|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Oikea",
+    "owner_note": "FI richtig lv: ET Õige → FI Oikea for pareizs correct. DE untouched."
+  },
+  "g2/a1/fi|rosa|idx:498|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI rosa lv: Roosa is accepted Finnish loanword for rozā pink. DE untouched."
+  },
+  "g2/a1/fi|Rose|idx:502|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ruusu",
+    "owner_note": "FI Rose lv: ET Roos → FI Ruusu for roze rose. DE untouched."
+  },
+  "g2/a1/fi|rot|idx:499|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Punainen",
+    "owner_note": "FI rot lv: ET Punane → FI Punainen for sarkans red. DE untouched."
+  },
+  "g2/a1/fi|rufen|idx:500|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kutsua • Huutaa",
+    "owner_note": "FI rufen: micro-repair lv Kutsua • Huutaa call/shout. DE untouched."
+  },
+  "g2/a1/fi|rund|idx:501|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pyöreä",
+    "owner_note": "FI rund lv: ET Ümmargune → FI Pyöreä for apaļš round. DE untouched."
+  },
+  "g2/a1/fi|Sache|idx:503|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Asia",
+    "owner_note": "FI Sache lv: ET Asi → FI Asia for lieta thing/matter. DE untouched."
+  },
+  "g2/a1/fi|Saft|idx:504|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mehu",
+    "owner_note": "FI Saft lv: ET Mahl → FI Mehu for sula juice. DE untouched."
+  },
+  "g2/a1/fi|sagen|idx:505|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sanoa",
+    "owner_note": "FI sagen lv: ET Ütlema → FI Sanoa for teikt say. DE untouched."
+  },
+  "g2/a1/fi|Salat|idx:506|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Salaatti",
+    "owner_note": "FI Salat lv: ET Salat → FI Salaatti for salāti salad. DE untouched."
+  },
+  "g2/a1/fi|Salz|idx:507|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Suola",
+    "owner_note": "FI Salz lv: ET Sool → FI Suola for sāls salt. DE untouched."
+  },
+  "g2/a1/fi|sauber|idx:508|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Puhdas",
+    "owner_note": "FI sauber lv: ET Puhas → FI Puhdas for tīrs clean. DE untouched."
+  }
+}

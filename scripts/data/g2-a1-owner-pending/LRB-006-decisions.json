@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|a1-kosten|a1.card.a1-kosten.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Maksaa (hinta) • Paljonko maksaa",
+    "owner_note": "FI a1-kosten gala: ET leak repair → \"Maksaa (hinta) • Paljonko maksaa\". DE untouched."
+  },
+  "g2/a1/fi|a1-land|a1.card.a1-land.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Valtio • Maa",
+    "owner_note": "FI a1-land gala: ET leak repair → \"Valtio • Maa\". DE untouched."
+  },
+  "g2/a1/fi|a1-land|a1.card.a1-land.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Valtio • Maa",
+    "owner_note": "FI a1-land gala: ET leak repair → \"Valtio • Maa\". DE untouched."
+  },
+  "g2/a1/fi|a1-lang|a1.card.a1-lang.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pitkä • Pitkäkestoinen",
+    "owner_note": "FI a1-lang gala: ET leak repair → \"Pitkä • Pitkäkestoinen\". DE untouched."
+  },
+  "g2/a1/fi|a1-lang|a1.card.a1-lang.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pitkä • Pitkäkestoinen",
+    "owner_note": "FI a1-lang gala: ET leak repair → \"Pitkä • Pitkäkestoinen\". DE untouched."
+  },
+  "g2/a1/fi|a1-lassen|a1.card.a1-lassen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jättää • Antaa",
+    "owner_note": "FI a1-lassen gala: ET leak repair → \"Jättää • Antaa\". DE untouched."
+  },
+  "g2/a1/fi|a1-lassen|a1.card.a1-lassen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jättää • Antaa",
+    "owner_note": "FI a1-lassen gala: ET leak repair → \"Jättää • Antaa\". DE untouched."
+  },
+  "g2/a1/fi|a1-laufen|a1.card.a1-laufen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Juosta • Toimia",
+    "owner_note": "FI a1-laufen gala: ET leak repair → \"Juosta • Toimia\". DE untouched."
+  },
+  "g2/a1/fi|a1-laufen|a1.card.a1-laufen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Juosta • Toimia",
+    "owner_note": "FI a1-laufen gala: ET leak repair → \"Juosta • Toimia\". DE untouched."
+  },
+  "g2/a1/fi|a1-liegen|a1.card.a1-liegen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sijaita • Maata",
+    "owner_note": "FI a1-liegen gala: atrasties•gulēt→Sijaita•Maata; no Olla•Makata. DE untouched."
+  },
+  "g2/a1/fi|a1-liegen|a1.card.a1-liegen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sijaita • Maata",
+    "owner_note": "FI a1-liegen gala: atrasties•gulēt→Sijaita•Maata; no Olla•Makata. DE untouched."
+  },
+  "g2/a1/fi|a1-machen|a1.card.a1-machen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tehdä • Laatia",
+    "owner_note": "FI a1-machen gala: darīt•taisīt→Tehdä•Laatia; no Valmistaa/sagatavot expansion. DE untouched."
+  },
+  "g2/a1/fi|a1-machen|a1.card.a1-machen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tehdä • Laatia",
+    "owner_note": "FI a1-machen gala: darīt•taisīt→Tehdä•Laatia; no Valmistaa/sagatavot expansion. DE untouched."
+  },
+  "g2/a1/fi|a1-mann|a1.card.a1-mann.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mies • Aviomies",
+    "owner_note": "FI a1-mann gala: ET leak repair → \"Mies • Aviomies\". DE untouched."
+  },
+  "g2/a1/fi|a1-mann|a1.card.a1-mann.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mies • Aviomies",
+    "owner_note": "FI a1-mann gala: ET leak repair → \"Mies • Aviomies\". DE untouched."
+  },
+  "g2/a1/fi|a1-nach|a1.card.a1-nach.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "-(i)in • Jälkeen",
+    "owner_note": "FI a1-nach gala: ET leak repair → \"-(i)in • Jälkeen\". DE untouched."
+  },
+  "g2/a1/fi|a1-nach|a1.card.a1-nach.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "-(i)in • Jälkeen",
+    "owner_note": "FI a1-nach gala: ET leak repair → \"-(i)in • Jälkeen\". DE untouched."
+  },
+  "g2/a1/fi|a1-natuerlich|a1.card.a1-natuerlich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tietysti • Luonnollinen",
+    "owner_note": "FI a1-natuerlich gala: ET leak repair → \"Tietysti • Luonnollinen\". DE untouched."
+  },
+  "g2/a1/fi|a1-natuerlich|a1.card.a1-natuerlich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tietysti • Luonnollinen",
+    "owner_note": "FI a1-natuerlich gala: ET leak repair → \"Tietysti • Luonnollinen\". DE untouched."
+  },
+  "g2/a1/fi|a1-nehmen|a1.card.a1-nehmen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ottaa • Ottaa mukaan",
+    "owner_note": "FI a1-nehmen gala: ņemt•paņemt→Ottaa•Ottaa mukaan; no Poimia. DE untouched."
+  },
+  "g2/a1/fi|a1-nehmen|a1.card.a1-nehmen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ottaa • Ottaa mukaan",
+    "owner_note": "FI a1-nehmen gala: ņemt•paņemt→Ottaa•Ottaa mukaan; no Poimia. DE untouched."
+  },
+  "g2/a1/fi|a1-neu|a1.card.a1-neu.study.explanation[5]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vastakohta on alt (vanha); Substantiivi das Neue tarkoittaa jotain uutta.",
+    "owner_note": "FI a1-neu gala: ET leak repair → \"Vastakohta on alt (vanha); Substantiivi das Neue tarkoittaa jotain uutta.\". DE untouched."
+  },
+  "g2/a1/fi|a1-nur-study|a1.card.a1-nur-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vain • Ainoastaan",
+    "owner_note": "FI a1-nur-study gala: ET leak repair → \"Vain • Ainoastaan\". DE untouched."
+  },
+  "g2/a1/fi|a1-nur-study|a1.card.a1-nur-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vain • Ainoastaan",
+    "owner_note": "FI a1-nur-study gala: ET leak repair → \"Vain • Ainoastaan\". DE untouched."
+  },
+  "g2/a1/fi|a1-oder|a1.card.a1-oder.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vai • Tai",
+    "owner_note": "FI a1-oder gala: ET leak repair → \"Vai • Tai\". DE untouched."
+  },
+  "g2/a1/fi|a1-oder|a1.card.a1-oder.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vai • Tai",
+    "owner_note": "FI a1-oder gala: ET leak repair → \"Vai • Tai\". DE untouched."
+  },
+  "g2/a1/fi|a1-passen|a1.card.a1-passen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sopia • Sovittua",
+    "owner_note": "FI a1-passen gala: derēt•piestāvēt→Sopia•Sovittua; no Sopia hyvin. DE untouched."
+  },
+  "g2/a1/fi|a1-passen|a1.card.a1-passen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sopia • Sovittua",
+    "owner_note": "FI a1-passen gala: derēt•piestāvēt→Sopia•Sovittua; no Sopia hyvin. DE untouched."
+  },
+  "g2/a1/fi|a1-probieren|a1.card.a1-probieren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kokeilla • Maistaa",
+    "owner_note": "FI a1-probieren gala: ET leak repair → \"Kokeilla • Maistaa\". DE untouched."
+  },
+  "g2/a1/fi|a1-probieren|a1.card.a1-probieren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kokeilla • Maistaa",
+    "owner_note": "FI a1-probieren gala: ET leak repair → \"Kokeilla • Maistaa\". DE untouched."
+  },
+  "g2/a1/fi|a1-seite|a1.card.a1-seite.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sivu • Puoli",
+    "owner_note": "FI a1-seite gala: ET leak repair → \"Sivu • Puoli\". DE untouched."
+  },
+  "g2/a1/fi|a1-seite|a1.card.a1-seite.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sivu • Puoli",
+    "owner_note": "FI a1-seite gala: ET leak repair → \"Sivu • Puoli\". DE untouched."
+  },
+  "g2/a1/fi|a1-sich|a1.card.a1-sich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Itse • Itselleen",
+    "owner_note": "FI a1-sich gala: ET leak repair → \"Itse • Itselleen\". DE untouched."
+  },
+  "g2/a1/fi|a1-sich|a1.card.a1-sich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Itse • Itselleen",
+    "owner_note": "FI a1-sich gala: ET leak repair → \"Itse • Itselleen\". DE untouched."
+  },
+  "g2/a1/fi|a1-sicher|a1.card.a1-sicher.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Turvallinen • Varmasti",
+    "owner_note": "FI a1-sicher gala: ET leak repair → \"Turvallinen • Varmasti\". DE untouched."
+  },
+  "g2/a1/fi|a1-sicher|a1.card.a1-sicher.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Turvallinen • Varmasti",
+    "owner_note": "FI a1-sicher gala: ET leak repair → \"Turvallinen • Varmasti\". DE untouched."
+  },
+  "g2/a1/fi|a1-ueber|a1.card.a1-ueber.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yllä • Aiheesta",
+    "owner_note": "FI a1-ueber gala: ET leak repair → \"Yllä • Aiheesta\". DE untouched."
+  },
+  "g2/a1/fi|a1-ueber|a1.card.a1-ueber.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yllä • Aiheesta",
+    "owner_note": "FI a1-ueber gala: ET leak repair → \"Yllä • Aiheesta\". DE untouched."
+  },
+  "g2/a1/fi|a1-um|a1.card.a1-um.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Noin • Kello",
+    "owner_note": "FI a1-um gala: ET leak repair → \"Noin • Kello\". DE untouched."
+  },
+  "g2/a1/fi|a1-um|a1.card.a1-um.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Noin • Kello",
+    "owner_note": "FI a1-um gala: ET leak repair → \"Noin • Kello\". DE untouched."
+  },
+  "g2/a1/fi|a1-verstehen|a1.card.a1-verstehen.study.explanation[2]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Suomeksi ei täällä yleensä tarvita sanoja «osata» tai «voida»; Ne vastaavat useammin sanaa können.",
+    "owner_note": "FI a1-verstehen gala: ET leak repair → \"Suomeksi ei täällä yleensä tarvita sanoja «osata» tai «voida»; Ne vastaavat useammin sanaa können.\". DE untouched."
+  },
+  "g2/a1/fi|a1-vor|a1.card.a1-vor.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ennen • Edessä",
+    "owner_note": "FI a1-vor gala: ET leak repair → \"Ennen • Edessä\". DE untouched."
+  },
+  "g2/a1/fi|a1-vor|a1.card.a1-vor.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ennen • Edessä",
+    "owner_note": "FI a1-vor gala: ET leak repair → \"Ennen • Edessä\". DE untouched."
+  },
+  "g2/a1/fi|a1-was|a1.card.a1-was.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mikä • Mitä",
+    "owner_note": "FI a1-was gala: kas•ko→Mikä•Mitä lexical nom/acc fidelity. DE untouched."
+  },
+  "g2/a1/fi|a1-was|a1.card.a1-was.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mikä • Mitä",
+    "owner_note": "FI a1-was gala: kas•ko→Mikä•Mitä lexical nom/acc fidelity. DE untouched."
+  },
+  "g2/a1/fi|a1-wenn|a1.card.a1-wenn.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jos (ehto) • Kun (aika)",
+    "owner_note": "FI a1-wenn gala: ET leak repair → \"Jos (ehto) • Kun (aika)\". DE untouched."
+  },
+  "g2/a1/fi|a1-wenn|a1.card.a1-wenn.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jos (ehto) • Kun (aika)",
+    "owner_note": "FI a1-wenn gala: ET leak repair → \"Jos (ehto) • Kun (aika)\". DE untouched."
+  },
+  "g2/a1/fi|a1-wer|a1.card.a1-wer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuka • Joka",
+    "owner_note": "FI a1-wer gala: kas•kurš→Kuka•Joka; no Kumpi (which-of-two). DE untouched."
+  },
+  "g2/a1/fi|a1-wer|a1.card.a1-wer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuka • Joka",
+    "owner_note": "FI a1-wer gala: kas•kurš→Kuka•Joka; no Kumpi (which-of-two). DE untouched."
+  },
+  "g2/a1/fi|a1-wie|a1.card.a1-wie.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Miten • Kuinka",
+    "owner_note": "FI a1-wie gala: ET leak repair → \"Miten • Kuinka\". DE untouched."
+  }
+}
