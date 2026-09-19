@@ -10889,7 +10889,7 @@
             },
             {
               "de": "Wir machen Urlaub in Spanien.",
-              "lv": "Við verðum í orlofi á Spáni."
+              "lv": "Við erum í orlofi á Spáni."
             },
             {
               "de": "im Urlaub",
@@ -14735,5 +14735,17 @@
     "git_head": "5220cc44fa7b902cc59f9ffad08cdff70c34aa83",
     "pass_proof_sha256": "97b6f67d23360a0239abf72df96aa3a5d4830153416848d9d189b70fce596643",
     "cards_061_080_payload_sha256": "6422ee34c3cec7c77375dae323d94a3de96d1e7572e4dc7c40dc9e68630d335f"
+  },
+  "gala_correction_1_cards_081_100": {
+    "applied_at": "2026-09-19T08:46:00.407Z",
+    "source_head": "adca0e45376b8f0f4bc7313acb40ae02b81bf400",
+    "correction_sha256": "e5a0f359fadb1ebdb8e983f30b997dc5713c0f6768acfc1bfd6576b2e710f8f5",
+    "corrected_keys": [
+      "is|Urlaub"
+    ],
+    "slice": [
+      80,
+      100
+    ]
   }
 }

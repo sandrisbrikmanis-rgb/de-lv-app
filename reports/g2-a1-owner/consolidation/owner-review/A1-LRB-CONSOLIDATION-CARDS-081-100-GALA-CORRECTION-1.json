@@ -1,0 +1,247 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_CARDS_081_100_GALA_CORRECTION_1_READY",
+  "pr": 830,
+  "branch": "cursor/a1-lrb-001-103-consolidation",
+  "base_head": "adca0e45",
+  "scope": {
+    "start_ordinal": 81,
+    "end_ordinal": 100,
+    "labot": 1,
+    "nelabot": 19,
+    "pending": 0
+  },
+  "cursor_action": "COPY_PASTE_ONLY",
+  "changes": [
+    {
+      "target_language": "is",
+      "canonical_card_object_id": "Urlaub",
+      "full_card_owner_new": {
+        "lv": "orlof",
+        "study": {
+          "id": "a1-urlaub",
+          "layout": "standardStudy",
+          "translation": "orlof",
+          "explanation": [
+            "Meginhugmynd: der Urlaub merkir orlof eða frí frá vinnu og er í þýsku yfirleitt notað í eintölu.",
+            "der Urlaub vísar fyrst og fremst til frítíma frá vinnu.",
+            "Í þessari merkingu er þýska orðið notað í eintölu.",
+            "Algeng sambönd eru im Urlaub sein og Urlaub machen."
+          ],
+          "examples": [
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Faðir minn er í orlofi."
+            },
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Faðir minn er í orlofi."
+            },
+            {
+              "de": "Nächste Woche habe ich Urlaub.",
+              "lv": "Ég verð í orlofi í næstu viku."
+            },
+            {
+              "de": "Wir machen Urlaub in Spanien.",
+              "lv": "Við erum í orlofi á Spáni."
+            },
+            {
+              "de": "im Urlaub",
+              "lv": "í orlofi"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Urlaub",
+              "meaning": "orlof frá vinnu (þýska: eintala)",
+              "example": "Mein Vater ist im Urlaub. – Faðir minn er í orlofi."
+            },
+            {
+              "word": "die Ferien",
+              "meaning": "skólafrí (þýska: fleirtala)",
+              "example": "Die Kinder haben Ferien. – Börnin eru í skólafríi."
+            }
+          ],
+          "tip": [
+            "der Urlaub er notað um orlof eða frí frá vinnu og stendur yfirleitt í eintölu.",
+            "Notaðu der Urlaub þegar átt er við frí frá vinnu."
+          ],
+          "important": [
+            "Á A1-stigi er der Urlaub venjulega notað í eintölu.",
+            "Algeng sambönd eru im Urlaub sein og Urlaub machen.",
+            "Fleirtalan die Urlaube er til, en er sjaldgæfari og vísar til fleiri aðskildra orlofa.",
+            "Vinna: der Urlaub (eintala); skóli: die Ferien (fleirtala)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "der Urlaub",
+                "Urlaub",
+                "im Urlaub sein",
+                "Urlaub machen"
+              ],
+              "purple": [
+                "orlof",
+                "frí frá vinnu"
+              ],
+              "yellow": [
+                "eintölu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "í orlofi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "í orlofi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "í orlofi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "í orlofi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "í orlofi"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "green": [
+                  "der Urlaub"
+                ],
+                "purple": [
+                  "orlof",
+                  "frí frá vinnu"
+                ],
+                "yellow": [
+                  "eintölu"
+                ]
+              },
+              {
+                "green": [
+                  "der Urlaub"
+                ],
+                "purple": [
+                  "frí frá vinnu"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "der Urlaub"
+                ],
+                "yellow": [
+                  "eintölu"
+                ]
+              },
+              {
+                "green": [
+                  "im Urlaub sein",
+                  "Urlaub machen"
+                ]
+              },
+              {
+                "green": [
+                  "die Urlaube"
+                ],
+                "yellow": [
+                  "sjaldgæfari"
+                ]
+              },
+              {
+                "green": [
+                  "der Urlaub",
+                  "die Ferien"
+                ],
+                "purple": [
+                  "Vinna",
+                  "skóli"
+                ],
+                "yellow": [
+                  "eintala",
+                  "fleirtala"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "der Urlaub"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "orlof frá vinnu",
+                    "eintala"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Ferien"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "skólafrí",
+                    "fleirtala"
+                  ]
+                },
+                "example": {}
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
