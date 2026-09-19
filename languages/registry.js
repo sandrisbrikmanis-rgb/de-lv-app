@@ -342,8 +342,8 @@
       nativeCode: "HU",
       active: true,
       uiAvailable: true,
-      dataStatus: "complete",
-      hasStudyData: true,
+      dataStatus: "fallback",
+      hasStudyData: false,
       uiPath: "./languages/hu/ui.js",
       dataManifestPath: "./languages/hu/data/manifest.js"
     },

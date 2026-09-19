@@ -35,7 +35,7 @@ window.LANGUAGE_UI_STRINGS = {
     "next": "A következő szó",
     "check": "Ellenőrzés",
     "continue": "Folytatás",
-    "close": "Közeli",
+    "close": "Bezárás",
     "delete": "Töröl",
     "cancel": "Mégsem",
     "restore": "Visszatérés",
@@ -46,7 +46,7 @@ window.LANGUAGE_UI_STRINGS = {
     "weeklyReview": "Heti áttekintés",
     "monthlyReview": "Havi felülvizsgálat",
     "unwantedWords": "Felesleges szavak",
-    "knownWords": "Természetesen",
+    "knownWords": "Ismert szavak",
     "knownWithCount": "Ismert ({count})",
     "markMastered": "100% tudom",
     "shuffleVerbs": "Keverjük össze az igéket",
@@ -79,8 +79,8 @@ window.LANGUAGE_UI_STRINGS = {
     "intense": "Erős"
   },
   "direction": {
-    "deToNative": "🔄 DE ➔ {kód}",
-    "nativeToDe": "🔄 {kód} ➔ DE"
+    "deToNative": "🔄 DE ➔ {code}",
+    "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
     "tapToReveal": "Kattintson a kártyára a fordítás megtekintéséhez.",
@@ -89,7 +89,7 @@ window.LANGUAGE_UI_STRINGS = {
     "trainingCard": "{title} gyakorlatkártya"
   },
   "card": {
-    "pluralLabel": "Sokan látják",
+    "pluralLabel": "Többes szám",
     "spelling": "Helyesírás",
     "spellingVerbs": "Helyesírás · Igék",
     "verbsShuffleTraining": "Igék · Vegyes képzés",
@@ -105,9 +105,9 @@ window.LANGUAGE_UI_STRINGS = {
     "cardNotFound": "A kártya nem található"
   },
   "verb": {
-    "infinitive": "Főnévi igenév",
-    "present": "A jelen",
-    "imperfectIndicative": "Tökéletlen – tájékoztató jellegű",
+    "infinitive": "Infinitív",
+    "present": "Jelen idő",
+    "imperfectIndicative": "Múlt idő – kijelentő mód",
     "imperfectSubjunctive": "Tökéletlen – Szubjunktív",
     "pastParticiple": "Múltnév",
     "infinitiv": "Főnévi igenév",
@@ -120,7 +120,7 @@ window.LANGUAGE_UI_STRINGS = {
     "translationPrefix": "Fordítás:",
     "hintTapAnswer": "Kattintson a kártyára a válasz megtekintéséhez.",
     "hintTapSwitch": "Kattintson a kártyára az alakzat váltásához.",
-    "hintSessionProgress": "{label}: {current} / {total}. {válik}",
+    "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Ennek az igének nincs elég alakja a keveréshez."
   },
   "notices": {
@@ -216,7 +216,7 @@ window.LANGUAGE_UI_STRINGS = {
     "panelLabel": "Pálya",
     "title": "Pálya",
     "subtitle": "A német nyelv alapjai lépésről lépésre",
-    "back": "‹ Természetesen",
+    "back": "‹ Vissza",
     "closeCourse": "Zárja be a tanfolyamot",
     "backToMain": "Térjen vissza a főképernyőre",
     "tipTitle": "Tanács",
@@ -243,8 +243,8 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Hosszú és rövid magánhangzók példákkal.",
     "consonantsTitle": "Mássalhangzók és betűkombinációk",
     "consonantsDesc": "A kezdők számára a legfontosabb mássalhangzók.",
-    "lessonProgress": "{lecke} előadás · Fordította: {current} / {total}",
-    "exerciseProgress": "Előadás {lecke} · Gyakorlat",
+    "lessonProgress": "{lesson} előadás · Fordította: {current} / {total}",
+    "exerciseProgress": "Előadás {lesson} · Gyakorlat",
     "sections": {
       "grammar": "Nyelvtan",
       "exercise": "Gyakorlat",

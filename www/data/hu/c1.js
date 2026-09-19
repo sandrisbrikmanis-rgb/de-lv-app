@@ -792,7 +792,7 @@ const C1_WORDS = [
     "de": "Partei",
     "de_article": "die",
     "de_plural": "die Parteien",
-    "lv": "Party • Party",
+    "lv": "Party",
     "level": "C1",
     "study": {
       "id": "c1-partei",
@@ -1268,7 +1268,7 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenfassen",
-    "lv": "Összefoglal • Összefoglal",
+    "lv": "Összefoglal",
     "level": "C1",
     "study": {
       "id": "c1-zusammenfassen",
@@ -1483,7 +1483,7 @@ const C1_WORDS = [
     "de": "Wahl",
     "de_article": "die",
     "de_plural": "die Wahlen",
-    "lv": "Választás • Választás",
+    "lv": "Választás",
     "level": "C1",
     "study": {
       "id": "c1-wahl",
@@ -1543,7 +1543,7 @@ const C1_WORDS = [
     "de": "Abkommen",
     "de_article": "das",
     "de_plural": "die Abkommen",
-    "lv": "Megállapodás • Megállapodás",
+    "lv": "Megállapodás",
     "level": "C1"
   },
   {
@@ -1624,7 +1624,7 @@ const C1_WORDS = [
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "Zavar • Zavar",
+    "lv": "Zavar",
     "level": "C1"
   },
   {
@@ -1639,7 +1639,7 @@ const C1_WORDS = [
   },
   {
     "de": "beiderseitig",
-    "lv": "Kétoldalas • Kétoldalas",
+    "lv": "Kétoldalas",
     "level": "C1"
   },
   {
@@ -1651,7 +1651,7 @@ const C1_WORDS = [
   },
   {
     "de": "beispielhaft",
-    "lv": "Példamutató • Példamutató",
+    "lv": "Példamutató",
     "level": "C1"
   },
   {
@@ -1946,7 +1946,7 @@ const C1_WORDS = [
   },
   {
     "de": "dessen ungeachtet",
-    "lv": "Annak ellenére • Annak ellenére",
+    "lv": "Annak ellenére",
     "level": "C1"
   },
   {
@@ -2075,7 +2075,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "Hízelegni • Hízelegni",
+    "lv": "Hízelegni",
     "level": "C1"
   },
   {
@@ -2157,7 +2157,7 @@ const C1_WORDS = [
   },
   {
     "de": "entgegensetzen",
-    "lv": "Ellentétes • Ellentétes",
+    "lv": "Ellentétes",
     "level": "C1"
   },
   {
@@ -2167,7 +2167,7 @@ const C1_WORDS = [
   },
   {
     "de": "entschädigen",
-    "lv": "Kompenzál • Kompenzál",
+    "lv": "Kompenzál",
     "level": "C1"
   },
   {
@@ -2223,14 +2223,14 @@ const C1_WORDS = [
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "Tartalék játékos • Tartalék játékos",
+    "lv": "Tartalék játékos",
     "level": "C1"
   },
   {
     "de": "Erstaufführung",
     "de_article": "die",
     "de_plural": "die Erstaufführungen",
-    "lv": "Premier • Premier",
+    "lv": "Premier",
     "level": "C1"
   },
   {
@@ -2604,7 +2604,7 @@ const C1_WORDS = [
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "Egyéni • Egyéni",
+    "lv": "Egyéni",
     "level": "C1"
   },
   {
@@ -2642,7 +2642,7 @@ const C1_WORDS = [
     "de": "Gesamtergebnis",
     "de_article": "das",
     "de_plural": "die Gesamtergebnisse",
-    "lv": "Végeredmény • Végeredmény",
+    "lv": "Végeredmény",
     "level": "C1"
   },
   {
@@ -2690,7 +2690,7 @@ const C1_WORDS = [
   },
   {
     "de": "gesetzmäßig",
-    "lv": "Törvényes • Törvényes",
+    "lv": "Törvényes",
     "level": "C1"
   },
   {
@@ -2702,7 +2702,7 @@ const C1_WORDS = [
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "Horizont • Horizont",
+    "lv": "Horizont",
     "level": "C1"
   },
   {
@@ -2861,7 +2861,7 @@ const C1_WORDS = [
   },
   {
     "de": "herunterstürzen",
-    "lv": "Földre esés • Földre esés",
+    "lv": "Földre esés",
     "level": "C1"
   },
   {
@@ -3075,7 +3075,7 @@ const C1_WORDS = [
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "Cirkálórakéta • Cirkálórakéta",
+    "lv": "Cirkálórakéta",
     "level": "C1"
   },
   {
@@ -3128,7 +3128,7 @@ const C1_WORDS = [
   },
   {
     "de": "niedergeschlagen",
-    "lv": "Depressziós • Depressziós",
+    "lv": "Depressziós",
     "level": "C1"
   },
   {
@@ -3567,7 +3567,7 @@ const C1_WORDS = [
   },
   {
     "de": "veränderlich",
-    "lv": "Változtatható • Változtatható",
+    "lv": "Változtatható",
     "level": "C1"
   },
   {
@@ -3591,7 +3591,7 @@ const C1_WORDS = [
     "de": "Verfassung",
     "de_article": "die",
     "de_plural": "die Verfassungen",
-    "lv": "Alkotmány • Alkotmány",
+    "lv": "Alkotmány",
     "level": "C1"
   },
   {
@@ -3733,7 +3733,7 @@ const C1_WORDS = [
   },
   {
     "de": "verunglücken",
-    "lv": "Balesetben szenved • Balesetben szenved",
+    "lv": "Balesetben szenved",
     "level": "C1"
   },
   {
@@ -3758,21 +3758,21 @@ const C1_WORDS = [
   },
   {
     "de": "verwirklichen",
-    "lv": "Megvalósítani • Megvalósítani",
+    "lv": "Megvalósítani",
     "level": "C1"
   },
   {
     "de": "Volksabstimmung",
     "de_article": "die",
     "de_plural": "die Volksabstimmungen",
-    "lv": "Népszavazás • Népszavazás",
+    "lv": "Népszavazás",
     "level": "C1"
   },
   {
     "de": "Volksbefragung",
     "de_article": "die",
     "de_plural": "die Volksbefragungen",
-    "lv": "Népszavazás • Népszavazás",
+    "lv": "Népszavazás",
     "level": "C1"
   },
   {
@@ -3784,7 +3784,7 @@ const C1_WORDS = [
   },
   {
     "de": "voreingenommen",
-    "lv": "Elfogult • Elfogult",
+    "lv": "Elfogult",
     "level": "C1"
   },
   {
@@ -3907,7 +3907,7 @@ const C1_WORDS = [
   },
   {
     "de": "wahrhaft",
-    "lv": "Tényleg • Tényleg",
+    "lv": "Tényleg",
     "level": "C1"
   },
   {
@@ -3977,7 +3977,7 @@ const C1_WORDS = [
   },
   {
     "de": "wiederherstellen",
-    "lv": "Visszaállítás • Visszaállítás",
+    "lv": "Visszaállítás",
     "level": "C1"
   },
   {
@@ -4147,7 +4147,7 @@ const C1_WORDS = [
   },
   {
     "de": "beziehen / sich beziehen auf",
-    "lv": "Alkalmazni • Alkalmazni",
+    "lv": "Alkalmazni",
     "level": "C1",
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
