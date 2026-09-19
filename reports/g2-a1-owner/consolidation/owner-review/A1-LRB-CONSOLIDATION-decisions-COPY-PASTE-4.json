@@ -15796,102 +15796,1033 @@
     {
       "target_language": "pt",
       "canonical_card_object_id": "gut",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "bom • bem",
+        "study": {
+          "translation": "bom • bem",
+          "explanation": [
+            "gut é um adjetivo que significa ‘bom’ e também pode funcionar como advérbio, com o sentido de ‘bem’.",
+            "Pode descrever qualidade, estado de saúde ou o modo como algo acontece.",
+            "Em expressões como Guten Tag e Guten Morgen, o adjetivo recebe uma terminação por causa da flexão.",
+            "Não confunda gut com das Gut, substantivo que significa ‘bem’ ou ‘propriedade’."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen ist gut.",
+              "lv": "A comida está boa."
+            },
+            {
+              "de": "Wie geht es dir? – Gut, danke!",
+              "lv": "Como você está? – Bem, obrigado!"
+            },
+            {
+              "de": "Er spricht gut Deutsch.",
+              "lv": "Ele fala bem alemão."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Bom dia!"
+            },
+            {
+              "de": "Das ist eine gute Idee.",
+              "lv": "Essa é uma boa ideia."
+            },
+            {
+              "de": "Alles ist gut.",
+              "lv": "Está tudo bem."
+            }
+          ],
+          "tip": [
+            "gut pode significar ‘bom’ como adjetivo e ‘bem’ como advérbio.",
+            "das Gut, com artigo e inicial maiúscula, é um substantivo e significa ‘bem’ ou ‘propriedade’."
+          ],
+          "important": [
+            "gut = bom/bem.",
+            "das Gut = bem ou propriedade; não confunda com gut.",
+            "Guten Tag, Guten Morgen e Guten Abend mostram a flexão de gut."
+          ],
+          "id": "a1-gut-study",
+          "layout": "standardStudy"
+        }
+      }
     },
     {
       "target_language": "pt",
       "canonical_card_object_id": "haben",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "ter",
+        "study": {
+          "translation": "ter",
+          "explanation": [
+            "haben significa ‘ter’ ou possuir algo.",
+            "Em alemão, a construção equivalente a ‘eu tenho’ é Ich habe; o sujeito fica no nominativo.",
+            "Depois de haben, o objeto normalmente aparece no acusativo: Ich habe ein Auto.",
+            "haben também é usado como verbo auxiliar no perfeito: Ich habe gelernt."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe ein Auto.",
+              "lv": "Eu tenho um carro."
+            },
+            {
+              "de": "Hast du Zeit?",
+              "lv": "Você tem tempo?"
+            },
+            {
+              "de": "Wir haben Hunger.",
+              "lv": "Estamos com fome."
+            },
+            {
+              "de": "Ich habe das gemacht.",
+              "lv": "Eu fiz isso."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "haben",
+              "meaning": "ter",
+              "example": "Ich habe Zeit. = Eu tenho tempo."
+            },
+            {
+              "word": "sein",
+              "meaning": "ser/estar",
+              "example": "Ich bin hier. = Eu estou aqui."
+            },
+            {
+              "word": "bekommen",
+              "meaning": "receber",
+              "example": "Ich bekomme ein Geschenk. = Eu recebo um presente."
+            },
+            {
+              "word": "machen",
+              "meaning": "fazer",
+              "example": "Ich mache das. = Eu faço isso."
+            }
+          ],
+          "tip": {
+            "text": "Lembre-se: Ich habe = eu tenho."
+          },
+          "important": [
+            "‘Eu tenho’ em alemão é Ich habe, não *mir habe.",
+            "Com sein e dativo, diz-se Mir ist kalt. = Estou com frio.",
+            "No perfeito, Ich habe gelernt significa ‘eu aprendi’."
+          ],
+          "id": "a1-haben",
+          "layout": "standardStudy"
+        }
+      }
     },
     {
       "target_language": "pt",
       "canonical_card_object_id": "halten",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "segurar • parar",
+        "study": {
+          "translation": "segurar • parar",
+          "explanation": [
+            "halten pode significar ‘segurar’ algo com as mãos.",
+            "Com veículos, halten significa ‘parar’ ou ‘fazer uma parada’.",
+            "A expressão Ich halte das für richtig significa ‘Eu considero isso correto’.",
+            "Bitte halten Sie an usa o verbo separável anhalten e significa ‘Por favor, pare’."
+          ],
+          "examples": [
+            {
+              "de": "Ich halte die Tasche.",
+              "lv": "Eu seguro a bolsa."
+            },
+            {
+              "de": "Der Bus hält hier.",
+              "lv": "O ônibus para aqui."
+            },
+            {
+              "de": "Bitte halten Sie an.",
+              "lv": "Por favor, pare."
+            },
+            {
+              "de": "Ich halte das für richtig.",
+              "lv": "Eu considero isso correto."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "halten",
+              "meaning": "segurar / parar",
+              "example": "Der Bus hält. = O ônibus para."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "pegar",
+              "example": "Ich nehme die Tasche. = Eu pego a bolsa."
+            },
+            {
+              "word": "anhalten",
+              "meaning": "parar",
+              "example": "Bitte halten Sie an. = Por favor, pare."
+            },
+            {
+              "word": "denken",
+              "meaning": "pensar/achar",
+              "example": "Ich denke, das ist richtig. = Eu acho que isso está certo."
+            }
+          ],
+          "tip": {
+            "text": "Com um objeto, halten pode significar ‘segurar’; com transporte, pode significar ‘parar’."
+          },
+          "important": [
+            "halten não significa apenas ‘segurar’; com transporte, frequentemente significa ‘parar’.",
+            "Ich halte das für... é uma expressão para dar uma opinião.",
+            "Bitte halten Sie an usa o verbo separável anhalten."
+          ],
+          "id": "a1-halten",
+          "layout": "standardStudy"
+        }
+      }
     },
     {
       "target_language": "pt",
       "canonical_card_object_id": "Hand",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "mão",
+        "study": {
+          "translation": "mão",
+          "explanation": [
+            "die Hand significa ‘mão’.",
+            "Em alemão, Hand e Arm são partes diferentes do corpo.",
+            "Hand corresponde à mão; Arm corresponde ao braço, do ombro até a mão."
+          ],
+          "examples": [
+            {
+              "de": "Ich wasche meine Hände.",
+              "lv": "Eu lavo as mãos."
+            },
+            {
+              "de": "Sie hält das Glas in der Hand.",
+              "lv": "Ela segura o copo na mão."
+            },
+            {
+              "de": "Mein Arm tut weh.",
+              "lv": "Meu braço dói."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Hand",
+              "meaning": "mão",
+              "example": "in der Hand – na mão"
+            },
+            {
+              "word": "der Arm",
+              "meaning": "braço",
+              "example": "Mein Arm tut weh. – Meu braço dói."
+            }
+          ],
+          "tip": [
+            "Hand = mão.",
+            "Arm = braço, do ombro até a mão."
+          ],
+          "important": [
+            "Em alemão, Hand e Arm não são a mesma palavra."
+          ],
+          "id": "a1-hand-study",
+          "layout": "standardStudy"
+        }
+      }
     },
     {
       "target_language": "pt",
       "canonical_card_object_id": "heißen",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "chamar-se • significar",
+        "study": {
+          "translation": "chamar-se • significar",
+          "explanation": [
+            "heißen é usado principalmente para dizer o nome de uma pessoa: Ich heiße Anna = Eu me chamo Anna.",
+            "Também pode significar ‘significar’, especialmente em perguntas sobre palavras ou expressões.",
+            "No nível A1, a frase mais importante é Wie heißt du? = Como você se chama?"
+          ],
+          "examples": [
+            {
+              "de": "Ich heiße Anna.",
+              "lv": "Eu me chamo Anna."
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Como você se chama?"
+            },
+            {
+              "de": "Wie heißt das auf Deutsch?",
+              "lv": "Como se diz isso em alemão?"
+            },
+            {
+              "de": "Was heißt das?",
+              "lv": "O que isso significa?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "heißen",
+              "meaning": "chamar-se / significar",
+              "example": "Ich heiße Anna. = Eu me chamo Anna."
+            },
+            {
+              "word": "nennen",
+              "meaning": "chamar, dar um nome",
+              "example": "Er nennt mich Tom. = Ele me chama de Tom."
+            },
+            {
+              "word": "bedeuten",
+              "meaning": "significar",
+              "example": "Was bedeutet das? = O que isso significa?"
+            },
+            {
+              "word": "rufen",
+              "meaning": "chamar em voz alta",
+              "example": "Ich rufe dich. = Eu chamo você."
+            },
+            {
+              "word": "anrufen",
+              "meaning": "telefonar",
+              "example": "Ich rufe dich an. = Eu telefono para você."
+            }
+          ],
+          "tip": {
+            "text": "Ich heiße... = Eu me chamo..."
+          },
+          "important": [
+            "Wie heißt du? significa ‘Como você se chama?’.",
+            "Was heißt das? frequentemente significa ‘O que isso significa?’."
+          ],
+          "id": "a1-heißen",
+          "layout": "standardStudy"
+        }
+      }
     },
     {
       "target_language": "pt",
       "canonical_card_object_id": "hoch",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "alto",
+        "study": {
+          "translation": "alto",
+          "explanation": [
+            "hoch descreve grande altura vertical ou um nível elevado.",
+            "Também é usado com preços, aluguéis e valores, com o sentido de ‘alto’ ou ‘elevado’."
+          ],
+          "examples": [
+            {
+              "de": "Der Berg ist hoch.",
+              "lv": "A montanha é alta."
+            },
+            {
+              "de": "Das Regal ist zwei Meter hoch.",
+              "lv": "A estante tem dois metros de altura."
+            },
+            {
+              "de": "Die Miete ist hoch.",
+              "lv": "O aluguel é alto."
+            },
+            {
+              "de": "Die Mauer ist hoch.",
+              "lv": "O muro é alto."
+            },
+            {
+              "de": "Die Preise sind hoch.",
+              "lv": "Os preços são altos."
+            }
+          ],
+          "tip": [
+            "Use hoch para altura vertical ou para valores e níveis elevados.",
+            "Para a altura de uma pessoa, geralmente use groß, não hoch."
+          ],
+          "important": [
+            "Der Berg ist hoch = A montanha é alta.",
+            "Er ist groß = Ele é alto.",
+            "Para a altura de uma pessoa, normalmente não se usa hoch."
+          ],
+          "id": "a1-hoch-study",
+          "layout": "standardStudy"
+        }
+      }
     },
     {
       "target_language": "pt",
       "canonical_card_object_id": "hören",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "ouvir • escutar",
+        "study": {
+          "translation": "ouvir • escutar",
+          "explanation": [
+            "hören significa perceber sons com a audição ou prestar atenção ao que se ouve.",
+            "É usado para sons, música, histórias e pessoas falando.",
+            "Em português, pode ser traduzido como ‘ouvir’ ou ‘escutar’, conforme o contexto."
+          ],
+          "examples": [
+            {
+              "de": "Ich höre Musik.",
+              "lv": "Eu ouço música."
+            },
+            {
+              "de": "Die Kinder hören eine Geschichte.",
+              "lv": "As crianças escutam uma história."
+            },
+            {
+              "de": "Ich höre dich.",
+              "lv": "Eu ouço você."
+            }
+          ],
+          "tip": [
+            "Use hören para ouvir sons, música ou fala.",
+            "‘Ouvir’ e ‘escutar’ são traduções naturais de hören."
+          ],
+          "important": [
+            "hören = ouvir/escutar.",
+            "O contexto determina se a melhor tradução é ‘ouvir’ ou ‘escutar’."
+          ],
+          "id": "a1-hoeren-study",
+          "layout": "standardStudy"
+        }
+      }
     },
     {
       "target_language": "sk",
       "canonical_card_object_id": "a1-wie",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "ako • koľko",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "ako • koľko",
+          "explanation": [
+            "Hlavná myšlienka: wie sa pýta na spôsob alebo vlastnosť; v spojeniach s viel, alt a lange sa pýta na množstvo, vek alebo trvanie.",
+            "Samostatné wie zvyčajne znamená „ako“: Wie geht es dir? = Ako sa máš?",
+            "wie viel(e) = koľko; wie alt = koľko rokov; wie lange = ako dlho.",
+            "V prirovnaní so ... wie zodpovedá slovenskému taký ... ako."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Ako sa máš?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Ako sa voláš?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Koľko to stojí?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Koľko máš rokov?"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Ako dlho trvá film?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Je taký vysoký ako jeho otec."
+            }
+          ],
+          "tip": [
+            "Samostatné wie najčastejšie znamená „ako“.",
+            "wie + viel/alt/lange sa pýta na množstvo, vek alebo trvanie."
+          ],
+          "important": [
+            "wie viel(e) = koľko; wie alt = koľko rokov; wie lange = ako dlho.",
+            "so ... wie = taký ... ako."
+          ]
+        }
+      }
     },
     {
       "target_language": "sk",
       "canonical_card_object_id": "aber",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "ale • avšak",
+        "study": {
+          "id": "a1-aber",
+          "layout": "standardStudy",
+          "translation": "ale • avšak",
+          "explanation": "Používa sa na uvedenie protikladu alebo námietky. Najčastejšie znamená „ale“ alebo „avšak“.",
+          "examples": [
+            {
+              "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
+              "lv": "Chcem ísť s vami, ale nemám čas."
+            },
+            {
+              "de": "Das Essen war lecker, aber zu teuer.",
+              "lv": "Jedlo bolo chutné, ale príliš drahé."
+            },
+            {
+              "de": "Er hat recht, aber ich sehe das anders.",
+              "lv": "Má pravdu, ale ja to vidím inak."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aber",
+              "meaning": "ale • avšak",
+              "example": "Ich komme, aber später. – Prídem, ale neskôr."
+            },
+            {
+              "word": "sondern",
+              "meaning": "ale • lež (po zápore)",
+              "example": "Ich wollte keinen Tee, sondern Kaffee. – Nechcel som čaj, ale kávu."
+            },
+            {
+              "word": "jedoch",
+              "meaning": "avšak • predsa",
+              "example": "Es ist kalt, jedoch sonnig. – Je chladno, avšak slnečno."
+            }
+          ],
+          "tip": {
+            "text": "Protiklad alebo námietka → aber; po zápore „nie..., ale...“ → sondern."
+          },
+          "important": [
+            "aber vyjadruje protiklad alebo námietku.",
+            "V konštrukcii „nie..., ale...“ sa v nemčine zvyčajne používa sondern."
+          ]
+        }
+      }
     },
     {
       "target_language": "sk",
       "canonical_card_object_id": "Appetit",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "chuť do jedla",
+        "study": {
+          "id": "a1-appetit",
+          "layout": "standardStudy",
+          "translation": "chuť do jedla",
+          "explanation": [
+            "Hlavná myšlienka: der Appetit znamená chuť jesť alebo chuť do jedla.",
+            "Používa sa na pomenovanie pocitu, keď chceme jesť.",
+            "Der Appetit je podstatné meno mužského rodu.",
+            "Bežné želanie pred jedlom je Guten Appetit!"
+          ],
+          "examples": [
+            {
+              "de": "Guten Appetit!",
+              "lv": "Dobrú chuť!"
+            },
+            {
+              "de": "Guten Appetit!",
+              "lv": "Prajem dobrú chuť!"
+            },
+            {
+              "de": "Ich habe keinen Appetit.",
+              "lv": "Nemám chuť do jedla."
+            }
+          ],
+          "tip": [
+            "der Appetit = chuť do jedla",
+            "Guten Appetit! = Dobrú chuť!"
+          ],
+          "important": [
+            "Správny člen je der: der Appetit.",
+            "Správne sa hovorí Ich habe Appetit, nie Ich bin Appetit."
+          ]
+        }
+      }
     },
     {
       "target_language": "sk",
       "canonical_card_object_id": "erst",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "až • iba • najprv",
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "až • iba • najprv",
+          "explanation": [
+            "Hlavná myšlienka: erst často znamená „až“ alebo „iba“ a pri poradí môže znamenať „najprv“.",
+            "Pri čase erst často naznačuje, že sa niečo stane neskôr, než sa očakávalo.",
+            "Pri veku alebo dosiahnutom bode môže znamenať „iba“.",
+            "V spojení Erst ..., dann ... vyjadruje poradie: najprv ..., potom ..."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Najprv sa učiť, potom sa hrať."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Prídem až zajtra."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Má iba 18 rokov."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Budeme jesť až o ôsmej."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "až • iba • najprv",
+              "example": "Erst lernen, dann spielen. – Najprv sa učiť, potom sa hrať."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "najprv • spočiatku",
+              "example": "Zuerst frühstücken wir. – Najprv raňajkujeme."
+            },
+            {
+              "word": "nur",
+              "meaning": "iba • len",
+              "example": "Ich habe nur 5 Euro. – Mám iba päť eur."
+            },
+            {
+              "word": "dann",
+              "meaning": "potom",
+              "example": "Dann gehen wir nach Hause. – Potom ideme domov."
+            }
+          ],
+          "tip": {
+            "text": "Čas alebo dosiahnutý bod → erst; obyčajné obmedzenie množstva → nur."
+          },
+          "important": [
+            "erst a nur sa môžu prekladať ako „iba“, ale nepoužívajú sa rovnako.",
+            "zuerst znamená najmä „najprv“ na začiatku poradia."
+          ]
+        }
+      }
     },
     {
       "target_language": "sk",
       "canonical_card_object_id": "leise",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "tichý • ticho • potichu",
+        "study": {
+          "id": "a1-leise-study",
+          "layout": "standardStudy",
+          "translation": "tichý • ticho • potichu",
+          "explanation": [
+            "Hlavná myšlienka: leise označuje malú hlasitosť alebo tichý zvuk.",
+            "Ako prídavné meno znamená „tichý“; ako príslovka „ticho“ alebo „potichu“.",
+            "Často opisuje hlas, hudbu alebo spôsob hovorenia."
+          ],
+          "examples": [
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Prosím, buď ticho."
+            },
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Prosím, buď ticho."
+            },
+            {
+              "de": "Die Musik ist leise.",
+              "lv": "Hudba je tichá."
+            },
+            {
+              "de": "Sprich bitte leise.",
+              "lv": "Prosím, hovor potichu."
+            }
+          ],
+          "tip": [
+            "leise = tichý / ticho / potichu",
+            "Používa sa pri malej hlasitosti."
+          ],
+          "important": [
+            "leise opisuje hlasitosť zvuku.",
+            "Podľa vetnej funkcie môže byť preklad prídavné meno alebo príslovka."
+          ]
+        }
+      }
     },
     {
       "target_language": "sk",
       "canonical_card_object_id": "Liter",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "liter",
+        "study": {
+          "id": "a1-liter",
+          "layout": "standardStudy",
+          "translation": "liter",
+          "explanation": [
+            "V Nemecku sa zvyčajne používa der Liter; v Rakúsku a Švajčiarsku možno počuť aj das Liter. Množné číslo zostáva nezmenené: die Liter."
+          ]
+        }
+      }
     },
     {
       "target_language": "sk",
       "canonical_card_object_id": "machen",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "robiť • vyrábať • pripravovať",
+        "study": {
+          "id": "a1-machen",
+          "layout": "standardStudy",
+          "translation": "robiť • vyrábať • pripravovať",
+          "explanation": [
+            "Hlavná myšlienka: machen je veľmi časté sloveso a znamená najmä robiť alebo vytvárať.",
+            "Pri všeobecnej činnosti sa prekladá ako „robiť“.",
+            "Pri výrobe alebo príprave niečoho môže znamenať „vyrábať“ alebo „pripravovať“.",
+            "V ustálených spojeniach sa prekladá prirodzene podľa významu, nie vždy doslovne."
+          ],
+          "examples": [
+            {
+              "de": "Was machst du?",
+              "lv": "Čo robíš?"
+            },
+            {
+              "de": "Ich mache Hausaufgaben.",
+              "lv": "Robím si domáce úlohy."
+            },
+            {
+              "de": "Wir machen Pizza.",
+              "lv": "Pripravujeme pizzu."
+            },
+            {
+              "de": "Das macht Spaß.",
+              "lv": "Je to zábava."
+            }
+          ],
+          "tip": {
+            "text": "Was machst du? = Čo robíš?"
+          },
+          "important": [
+            "machen má široký význam a preklad závisí od situácie.",
+            "Das macht Spaß znamená „Je to zábava“, nie doslovný preklad jednotlivých slov."
+          ]
+        }
+      }
     },
     {
       "target_language": "sk",
       "canonical_card_object_id": "Mal",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "raz • príležitosť",
+        "study": {
+          "id": "a1-mal",
+          "layout": "standardStudy",
+          "translation": "raz • príležitosť",
+          "explanation": [
+            "Hlavná myšlienka: das Mal označuje jeden výskyt alebo jednu príležitosť.",
+            "Často sa používa s číslami: ein Mal, zwei Mal, drei Mal.",
+            "S radovou číslovkou: das erste Mal, das zweite Mal.",
+            "Nezamieňajte ho s hovorovou časticou mal v spojení Komm mal her!"
+          ],
+          "examples": [
+            {
+              "de": "Das erste Mal war schwer.",
+              "lv": "Prvý raz to bolo ťažké."
+            },
+            {
+              "de": "Ich war schon zwei Mal in Berlin.",
+              "lv": "V Berlíne som už bol dvakrát."
+            },
+            {
+              "de": "Ein Mal reicht.",
+              "lv": "Raz stačí."
+            },
+            {
+              "de": "Noch ein Mal, bitte!",
+              "lv": "Ešte raz, prosím!"
+            }
+          ],
+          "tip": {
+            "text": "das Mal = raz alebo príležitosť; mal bez člena môže byť hovorová častica."
+          },
+          "important": [
+            "das Mal / die Male je podstatné meno.",
+            "ein Mal, zwei Mal vyjadruje počet opakovaní.",
+            "Hovorová častica mal nie je totožná s podstatným menom das Mal."
+          ]
+        }
+      }
     },
     {
       "target_language": "sk",
       "canonical_card_object_id": "werden",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "stať sa • začať byť",
+        "study": {
+          "id": "a1-werden",
+          "layout": "standardStudy",
+          "translation": "stať sa • začať byť",
+          "explanation": [
+            "Hlavná myšlienka: werden na úrovni A1 najčastejšie vyjadruje zmenu a znamená „stať sa“ alebo „začať byť“.",
+            "Používa sa, keď sa mení stav osoby alebo veci.",
+            "V nemčine sa werden používa aj na tvorenie budúceho času a trpného rodu, ale to nie je hlavný význam tejto karty.",
+            "Ich werde müde znamená „Začínam byť unavený.“"
+          ],
+          "examples": [
+            {
+              "de": "Ich werde müde.",
+              "lv": "Začínam byť unavený."
+            },
+            {
+              "de": "Es wird kalt.",
+              "lv": "Začína byť chladno."
+            },
+            {
+              "de": "Sie wird Ärztin.",
+              "lv": "Stáva sa lekárkou."
+            },
+            {
+              "de": "Ich bin müde.",
+              "lv": "Som unavený."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "werden",
+              "meaning": "stať sa • začať byť",
+              "example": "Ich werde müde. – Začínam byť unavený."
+            },
+            {
+              "word": "sein",
+              "meaning": "byť",
+              "example": "Ich bin müde. – Som unavený."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "zostať",
+              "example": "Ich bleibe hier. – Zostávam tu."
+            },
+            {
+              "word": "machen",
+              "meaning": "robiť • vytvárať",
+              "example": "Ich mache das. – Robím to."
+            }
+          ],
+          "tip": {
+            "text": "Zmena stavu → werden; existujúci stav → sein."
+          },
+          "important": [
+            "werden nie je to isté ako sein.",
+            "Ich werde müde = začínam byť unavený; Ich bin müde = som unavený."
+          ]
+        }
+      }
     },
     {
       "target_language": "sk",
       "canonical_card_object_id": "wie",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "ako • koľko",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "ako • koľko",
+          "explanation": [
+            "Hlavná myšlienka: wie sa pýta na spôsob alebo vlastnosť; v spojeniach s viel, alt a lange sa pýta na množstvo, vek alebo trvanie.",
+            "Samostatné wie zvyčajne znamená „ako“: Wie geht es dir? = Ako sa máš?",
+            "wie viel(e) = koľko; wie alt = koľko rokov; wie lange = ako dlho.",
+            "V prirovnaní so ... wie zodpovedá slovenskému taký ... ako."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Ako sa máš?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Ako sa voláš?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Koľko to stojí?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Koľko máš rokov?"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Ako dlho trvá film?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Je taký vysoký ako jeho otec."
+            }
+          ],
+          "tip": [
+            "Samostatné wie najčastejšie znamená „ako“.",
+            "wie + viel/alt/lange sa pýta na množstvo, vek alebo trvanie."
+          ],
+          "important": [
+            "wie viel(e) = koľko; wie alt = koľko rokov; wie lange = ako dlho.",
+            "so ... wie = taký ... ako."
+          ]
+        }
+      }
     },
     {
       "target_language": "sk",
       "canonical_card_object_id": "Zug",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "vlak",
+        "study": {
+          "id": "a1-zug",
+          "layout": "standardStudy",
+          "translation": "vlak",
+          "explanation": [
+            "Hlavná myšlienka: der Zug na úrovni A1 znamená najmä vlak.",
+            "Používa sa pri cestovaní, príchode a odchode.",
+            "Zug má aj iné významy, tie však nie sú hlavnou témou tejto A1 karty.",
+            "Časté spojenia sú mit dem Zug fahren a Der Zug kommt."
+          ],
+          "examples": [
+            {
+              "de": "Der Zug kommt um acht Uhr.",
+              "lv": "Vlak prichádza o ôsmej."
+            },
+            {
+              "de": "Ich fahre mit dem Zug.",
+              "lv": "Cestujem vlakom."
+            },
+            {
+              "de": "Der Zug ist voll.",
+              "lv": "Vlak je plný."
+            },
+            {
+              "de": "Der Bus kommt später.",
+              "lv": "Autobus príde neskôr."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Zug",
+              "meaning": "vlak",
+              "example": "Der Zug kommt. – Vlak prichádza."
+            },
+            {
+              "word": "die Bahn",
+              "meaning": "železnica • cestovanie vlakom",
+              "example": "Ich fahre mit der Bahn. – Cestujem vlakom."
+            },
+            {
+              "word": "der Bus",
+              "meaning": "autobus",
+              "example": "Der Bus kommt. – Autobus prichádza."
+            },
+            {
+              "word": "die Straßenbahn",
+              "meaning": "električka",
+              "example": "Die Straßenbahn ist hier. – Električka je tu."
+            }
+          ],
+          "tip": {
+            "text": "Konkrétny vlak → der Zug."
+          },
+          "important": [
+            "V tejto karte der Zug znamená vlak.",
+            "Menej časté významy slova Zug nepatria do hlavného A1 prekladu."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
       "canonical_card_object_id": "ab",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "od • od ... naprej",
+        "study": {
+          "id": "a1-ab",
+          "layout": "standardStudy",
+          "translation": "od • od ... naprej",
+          "explanation": "Uporablja se, kadar se nekaj začne ob določenem času, kraju ali točki. Pogosto pomeni »od« ali »od ... naprej«.",
+          "examples": [
+            {
+              "de": "ab heute",
+              "lv": "od danes"
+            },
+            {
+              "de": "ab Montag",
+              "lv": "od ponedeljka"
+            },
+            {
+              "de": "ab 8 Uhr",
+              "lv": "od 8. ure"
+            },
+            {
+              "de": "ab Bahnhof",
+              "lv": "od postaje"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ab",
+              "meaning": "od določene točke ali časa",
+              "example": "ab Montag – od ponedeljka"
+            },
+            {
+              "word": "von",
+              "meaning": "od nekoga ali nečesa • izvor",
+              "example": "von mir – od mene"
+            },
+            {
+              "word": "aus",
+              "meaning": "iz notranjosti",
+              "example": "aus dem Haus – iz hiše"
+            }
+          ],
+          "tip": {
+            "text": "Začetna točka v času ali kraju → ab."
+          },
+          "important": [
+            "ab označuje začetno točko v času ali kraju.",
+            "Za izvor ali smer iz notranjosti se pogosteje uporabljata von ali aus."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
       "canonical_card_object_id": "aber",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "ampak • vendar",
+        "study": {
+          "id": "a1-aber",
+          "layout": "standardStudy",
+          "translation": "ampak • vendar",
+          "explanation": "Uporablja se za uvedbo nasprotja ali ugovora. Najpogosteje pomeni »ampak« ali »vendar«.",
+          "examples": [
+            {
+              "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
+              "lv": "Rad bi šel zraven, ampak nimam časa."
+            },
+            {
+              "de": "Das Essen war lecker, aber zu teuer.",
+              "lv": "Hrana je bila okusna, vendar predraga."
+            },
+            {
+              "de": "Er hat recht, aber ich sehe das anders.",
+              "lv": "Ima prav, ampak jaz na to gledam drugače."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aber",
+              "meaning": "ampak • vendar",
+              "example": "Ich komme, aber später. – Pridem, ampak pozneje."
+            },
+            {
+              "word": "sondern",
+              "meaning": "temveč (po zanikanju)",
+              "example": "Ich wollte keinen Tee, sondern Kaffee. – Nisem hotel čaja, temveč kavo."
+            },
+            {
+              "word": "jedoch",
+              "meaning": "vendar • kljub temu",
+              "example": "Es ist kalt, jedoch sonnig. – Hladno je, vendar sončno."
+            }
+          ],
+          "tip": {
+            "text": "Nasprotje ali ugovor → aber; po zanikanju »ne ..., temveč ...« → sondern."
+          },
+          "important": [
+            "aber izraža nasprotje ali ugovor.",
+            "V zgradbi »ne ..., temveč ...« nemščina navadno uporablja sondern."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -16439,6 +17370,24 @@
       ],
       "source_sha256": "b5fa3ad2d21ca8b93b7f6dd50f2e0f4521eefe6fa9c4a391f76520751ddf341d",
       "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_101_120_FULL_CARD_COPY_PASTE_READY"
+    },
+    {
+      "applied_at": "2026-09-19T09:11:20.831Z",
+      "slice": [
+        120,
+        140
+      ],
+      "source_sha256": "d4a29a240af27d156873f9e8544ec9ad58e5d11c0255aaf46922651b8b029399",
+      "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_121_140_FULL_CARD_COPY_PASTE_READY"
+    },
+    {
+      "applied_at": "2026-09-19T09:11:41.326Z",
+      "slice": [
+        120,
+        140
+      ],
+      "source_sha256": "d4a29a240af27d156873f9e8544ec9ad58e5d11c0255aaf46922651b8b029399",
+      "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_121_140_FULL_CARD_COPY_PASTE_READY"
     }
   ],
   "gala_correction_1": {

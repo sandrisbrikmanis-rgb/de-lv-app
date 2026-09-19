@@ -3,7 +3,14 @@
 
 const { runOwnerCopyPasteGates } = require("./g2-a1-lrb-consolidation-owner-copy-paste-gates");
 const { assessFullCompositeCompleteness } = require("./g2-a1-lrb-consolidation-gala-correction-gates");
-const { cardKey } = require("./g2-a1-lrb-consolidation-owner-review-artifacts");
+const { cardKey, deepEqual } = require("./g2-a1-lrb-consolidation-owner-review-artifacts");
+
+function ownerBatchCompositeComplete(key, applied, sourceByKey) {
+  if (assessFullCompositeCompleteness(applied)) return true;
+  const ownerCard = sourceByKey.get(key)?.full_card_owner_new;
+  return Boolean(ownerCard && applied && deepEqual(applied, ownerCard));
+}
+
 function runOwnerCopyPasteExtendedGates({ scopeCards, sourceByKey, appliedByKey }) {
   const base = runOwnerCopyPasteGates({ scopeCards, sourceByKey, appliedByKey });
   const scopeKeys = scopeCards.map((c) => cardKey(c.target_language, c.canonical_card_object_id));
@@ -11,7 +18,7 @@ function runOwnerCopyPasteExtendedGates({ scopeCards, sourceByKey, appliedByKey 
   let fullCompositeFailures = 0;
   for (const key of scopeKeys) {
     const applied = appliedByKey.get(key);
-    if (!assessFullCompositeCompleteness(applied)) fullCompositeFailures += 1;
+    if (!ownerBatchCompositeComplete(key, applied, sourceByKey)) fullCompositeFailures += 1;
   }
 
   const pass = base.pass && fullCompositeFailures === 0;
