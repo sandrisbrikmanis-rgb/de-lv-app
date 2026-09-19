@@ -1,0 +1,1031 @@
+{
+  "classification": "G2_A1_FULL_LINGUISTIC_DISCOVERY_AUDIT_OWNER_AUTHORIZATION_PACKAGE",
+  "generatedAt": "2026-09-19T15:20:22.524Z",
+  "originMainSha": "3b17af87732a8dc1d0c6dc3e21eecbdec520e399",
+  "headSha": "3b17af87732a8dc1d0c6dc3e21eecbdec520e399",
+  "headMatchesOriginMain": true,
+  "MASTER_VERSION": "1.18",
+  "MASTER_AUTHORIZED_MIN": "1.18",
+  "LANGUAGE_AUTHORITY_REGISTRY": "docs_and_rules/MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md",
+  "EMBEDDED_LANGUAGE_REGISTRY_COUNT": 33,
+  "AUDIT_LANGUAGES": [
+    "lv",
+    "lt",
+    "ru",
+    "pl",
+    "uk",
+    "et",
+    "en",
+    "ro",
+    "bg",
+    "tr",
+    "gr",
+    "sq",
+    "mk",
+    "sl",
+    "bs",
+    "sr",
+    "hr",
+    "sk",
+    "cs",
+    "fi",
+    "sv",
+    "nb",
+    "nn",
+    "da",
+    "nl",
+    "lb",
+    "fr",
+    "it",
+    "es",
+    "pt",
+    "hu",
+    "is"
+  ],
+  "productionFileSetSha256": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+  "fileSetManifest": [
+    {
+      "language": "bg",
+      "productionFile": "data/bg/a1.js",
+      "wwwMirrorFile": "www/data/bg/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2994
+    },
+    {
+      "language": "bs",
+      "productionFile": "data/bs/a1.js",
+      "wwwMirrorFile": "www/data/bs/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2967
+    },
+    {
+      "language": "cs",
+      "productionFile": "data/cs/a1.js",
+      "wwwMirrorFile": "www/data/cs/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2974
+    },
+    {
+      "language": "da",
+      "productionFile": "data/da/a1.js",
+      "wwwMirrorFile": "www/data/da/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2988
+    },
+    {
+      "language": "en",
+      "productionFile": "data/en/a1.js",
+      "wwwMirrorFile": "www/data/en/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2969
+    },
+    {
+      "language": "es",
+      "productionFile": "data/es/a1.js",
+      "wwwMirrorFile": "www/data/es/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2996
+    },
+    {
+      "language": "et",
+      "productionFile": "data/et/a1.js",
+      "wwwMirrorFile": "www/data/et/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 3002
+    },
+    {
+      "language": "fi",
+      "productionFile": "data/fi/a1.js",
+      "wwwMirrorFile": "www/data/fi/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 3009
+    },
+    {
+      "language": "fr",
+      "productionFile": "data/fr/a1.js",
+      "wwwMirrorFile": "www/data/fr/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2984
+    },
+    {
+      "language": "gr",
+      "productionFile": "data/gr/a1.js",
+      "wwwMirrorFile": "www/data/gr/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 3008
+    },
+    {
+      "language": "hr",
+      "productionFile": "data/hr/a1.js",
+      "wwwMirrorFile": "www/data/hr/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2995
+    },
+    {
+      "language": "hu",
+      "productionFile": "data/hu/a1.js",
+      "wwwMirrorFile": "www/data/hu/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2994
+    },
+    {
+      "language": "is",
+      "productionFile": "data/is/a1.js",
+      "wwwMirrorFile": "www/data/is/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2998
+    },
+    {
+      "language": "it",
+      "productionFile": "data/it/a1.js",
+      "wwwMirrorFile": "www/data/it/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2995
+    },
+    {
+      "language": "lb",
+      "productionFile": "data/lb/a1.js",
+      "wwwMirrorFile": "www/data/lb/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2989
+    },
+    {
+      "language": "lt",
+      "productionFile": "data/lt/a1.js",
+      "wwwMirrorFile": "www/data/lt/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2995
+    },
+    {
+      "language": "lv",
+      "productionFile": "data/a1.js",
+      "wwwMirrorFile": "www/data/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2971
+    },
+    {
+      "language": "mk",
+      "productionFile": "data/mk/a1.js",
+      "wwwMirrorFile": "www/data/mk/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2995
+    },
+    {
+      "language": "nb",
+      "productionFile": "data/nb/a1.js",
+      "wwwMirrorFile": "www/data/nb/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2998
+    },
+    {
+      "language": "nl",
+      "productionFile": "data/nl/a1.js",
+      "wwwMirrorFile": "www/data/nl/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2995
+    },
+    {
+      "language": "nn",
+      "productionFile": "data/nn/a1.js",
+      "wwwMirrorFile": "www/data/nn/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2997
+    },
+    {
+      "language": "pl",
+      "productionFile": "data/pl/a1.js",
+      "wwwMirrorFile": "www/data/pl/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2995
+    },
+    {
+      "language": "pt",
+      "productionFile": "data/pt/a1.js",
+      "wwwMirrorFile": "www/data/pt/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2992
+    },
+    {
+      "language": "ro",
+      "productionFile": "data/ro/a1.js",
+      "wwwMirrorFile": "www/data/ro/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2995
+    },
+    {
+      "language": "ru",
+      "productionFile": "data/ru/a1.js",
+      "wwwMirrorFile": "www/data/ru/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2995
+    },
+    {
+      "language": "sk",
+      "productionFile": "data/sk/a1.js",
+      "wwwMirrorFile": "www/data/sk/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2990
+    },
+    {
+      "language": "sl",
+      "productionFile": "data/sl/a1.js",
+      "wwwMirrorFile": "www/data/sl/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2977
+    },
+    {
+      "language": "sq",
+      "productionFile": "data/sq/a1.js",
+      "wwwMirrorFile": "www/data/sq/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2991
+    },
+    {
+      "language": "sr",
+      "productionFile": "data/sr/a1.js",
+      "wwwMirrorFile": "www/data/sr/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2972
+    },
+    {
+      "language": "sv",
+      "productionFile": "data/sv/a1.js",
+      "wwwMirrorFile": "www/data/sv/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 3002
+    },
+    {
+      "language": "tr",
+      "productionFile": "data/tr/a1.js",
+      "wwwMirrorFile": "www/data/tr/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 3015
+    },
+    {
+      "language": "uk",
+      "productionFile": "data/uk/a1.js",
+      "wwwMirrorFile": "www/data/uk/a1.js",
+      "cards": 702,
+      "flatAuditKeys": 2994
+    }
+  ],
+  "scope": {
+    "totalAuditRows": 95731,
+    "totalCards": 22464,
+    "cardTypeTotals": {
+      "ordinary": 18176,
+      "standardStudy": 4288
+    },
+    "perLanguageRows": [
+      {
+        "language": "lv",
+        "cards": 702,
+        "auditRows": 2971
+      },
+      {
+        "language": "lt",
+        "cards": 702,
+        "auditRows": 2995
+      },
+      {
+        "language": "ru",
+        "cards": 702,
+        "auditRows": 2995
+      },
+      {
+        "language": "pl",
+        "cards": 702,
+        "auditRows": 2995
+      },
+      {
+        "language": "uk",
+        "cards": 702,
+        "auditRows": 2994
+      },
+      {
+        "language": "et",
+        "cards": 702,
+        "auditRows": 3002
+      },
+      {
+        "language": "en",
+        "cards": 702,
+        "auditRows": 2969
+      },
+      {
+        "language": "ro",
+        "cards": 702,
+        "auditRows": 2995
+      },
+      {
+        "language": "bg",
+        "cards": 702,
+        "auditRows": 2994
+      },
+      {
+        "language": "tr",
+        "cards": 702,
+        "auditRows": 3015
+      },
+      {
+        "language": "gr",
+        "cards": 702,
+        "auditRows": 3008
+      },
+      {
+        "language": "sq",
+        "cards": 702,
+        "auditRows": 2991
+      },
+      {
+        "language": "mk",
+        "cards": 702,
+        "auditRows": 2995
+      },
+      {
+        "language": "sl",
+        "cards": 702,
+        "auditRows": 2977
+      },
+      {
+        "language": "bs",
+        "cards": 702,
+        "auditRows": 2967
+      },
+      {
+        "language": "sr",
+        "cards": 702,
+        "auditRows": 2972
+      },
+      {
+        "language": "hr",
+        "cards": 702,
+        "auditRows": 2995
+      },
+      {
+        "language": "sk",
+        "cards": 702,
+        "auditRows": 2990
+      },
+      {
+        "language": "cs",
+        "cards": 702,
+        "auditRows": 2974
+      },
+      {
+        "language": "fi",
+        "cards": 702,
+        "auditRows": 3009
+      },
+      {
+        "language": "sv",
+        "cards": 702,
+        "auditRows": 3002
+      },
+      {
+        "language": "nb",
+        "cards": 702,
+        "auditRows": 2998
+      },
+      {
+        "language": "nn",
+        "cards": 702,
+        "auditRows": 2997
+      },
+      {
+        "language": "da",
+        "cards": 702,
+        "auditRows": 2988
+      },
+      {
+        "language": "nl",
+        "cards": 702,
+        "auditRows": 2995
+      },
+      {
+        "language": "lb",
+        "cards": 702,
+        "auditRows": 2989
+      },
+      {
+        "language": "fr",
+        "cards": 702,
+        "auditRows": 2984
+      },
+      {
+        "language": "it",
+        "cards": 702,
+        "auditRows": 2995
+      },
+      {
+        "language": "es",
+        "cards": 702,
+        "auditRows": 2996
+      },
+      {
+        "language": "pt",
+        "cards": 702,
+        "auditRows": 2992
+      },
+      {
+        "language": "hu",
+        "cards": 702,
+        "auditRows": 2994
+      },
+      {
+        "language": "is",
+        "cards": 702,
+        "auditRows": 2998
+      }
+    ]
+  },
+  "batchPlan": {
+    "pass": true,
+    "BATCH_LIMIT_CHANGES": 0,
+    "limits": {
+      "g2:ordinary": 25,
+      "g2:minimalStudy": 10,
+      "g2:standardStudy": 5,
+      "g1:sentences": 25,
+      "g1:verbs": 10,
+      "g1:training": 50,
+      "g3:courseLessons": 20
+    },
+    "g2A1Limits": {
+      "ordinary": 25,
+      "minimalStudy": 10,
+      "standardStudy": 5,
+      "comparisonStudyUsesStandardStudyLimit": 5
+    },
+    "totalBatches": 1600,
+    "oversizeBatch": 0,
+    "splitCardViolations": 0,
+    "perLanguage": [
+      {
+        "language": "lv",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "lt",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "ru",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "pl",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "uk",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "et",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "ro",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "bg",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "tr",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "gr",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "sq",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "mk",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "sl",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "bs",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "sr",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "hr",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "sk",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "cs",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "fi",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "sv",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "nb",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "nn",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "da",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "nl",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "lb",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "fr",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "it",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "es",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "pt",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "hu",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      },
+      {
+        "language": "is",
+        "batches": [
+          {
+            "cardType": "ordinary",
+            "objectCount": 568,
+            "batchSize": 25,
+            "batchCount": 23
+          },
+          {
+            "cardType": "standardStudy",
+            "objectCount": 134,
+            "batchSize": 5,
+            "batchCount": 27
+          }
+        ]
+      }
+    ],
+    "note": "Full card objects stay intact within each batch slice (object-level split only)."
+  },
+  "CURRENT_SOURCE": "data/a1.js (lv) | data/<lang>/a1.js",
+  "AUDIT_SOURCE": "production-current",
+  "forbiddenDuringAudit": [
+    "modify production data/** or www/data/** without authorized COPY-ONLY apply",
+    "use crowdin-staging as CURRENT"
+  ],
+  "fullAuditCommand": "node scripts/run-g2-a1-production-current-full-discovery.js --full --owner-authorize-full-audit --expected-main-sha=3b17af87732a8dc1d0c6dc3e21eecbdec520e399 --expected-production-file-set-sha=59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+  "requiredAuthorizationFlags": [
+    "--owner-authorize-full-audit",
+    "--expected-main-sha=<full origin/main SHA>",
+    "--expected-production-file-set-sha=<64-file composite SHA>"
+  ],
+  "expectedArtifacts": [
+    "reports/g2-a1-production-current/full-audit-evidence.json",
+    "reports/g2-a1-production-current/owner-view.json",
+    "reports/g2-a1-production-current/coverage-summary.json",
+    "reports/g2-a1-production-current/reproducibility-manifest.json",
+    "post-run verify PASS"
+  ],
+  "FULL_LINGUISTIC_DISCOVERY_AUDIT_EXECUTED": 0
+}
