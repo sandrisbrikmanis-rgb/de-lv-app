@@ -211,7 +211,10 @@ function main() {
     schema_version: 2,
     generated_at: generatedAt,
     generation_base_sha: identity.head,
-    copy_paste_source: copyPasteMeta,
+    copy_paste_source: {
+      path: copyPasteMeta.path,
+      sha256: copyPasteMeta.file_sha256,
+    },
     before_rebuild: beforeCounts,
     after_rebuild: {
       leaf_decisions: leafDecisions.length,
