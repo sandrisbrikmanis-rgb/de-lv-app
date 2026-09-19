@@ -1,0 +1,38 @@
+{
+  "verdict": "NOT_PRODUCTION_CURRENT_READY",
+  "blockers": [
+    {
+      "code": "STAGING_NOT_PRODUCTION_CURRENT",
+      "detail": "loadG2StagingObjects uses Crowdin flat JSON overlay; auditSource=crowdin-staging"
+    },
+    {
+      "code": "LANG_SCOPE_31_NOT_32",
+      "detail": "TARGET_LANGUAGES=31 (excludes lv as audited target scope)"
+    },
+    {
+      "code": "NO_EMBEDDED_REGISTRY_IN_ORCHESTRATOR",
+      "detail": "phase3 does not call verifyEmbeddedLanguageRegistry or APVIENOTS parser"
+    },
+    {
+      "code": "MASTER_VERSION_CONSTANT_MISMATCH",
+      "detail": "g2-a1-phase3/constants MASTER_STANDARD_VERSION=1.12 vs PROJECT_LANGUAGE_MASTER 1.18"
+    },
+    {
+      "code": "VERDICT_TAXONOMY_MISMATCH",
+      "detail": "Phase3 findings ≠ AUDIT_PASS/FINDING/NEEDS_SOURCE_REVIEW/SOURCE_DE_ISSUE pipeline"
+    },
+    {
+      "code": "EXPORT_ONLY_NOT_PRODUCTION_INVENTORY",
+      "detail": "--export-only runs exportAllCrowdinStaging only"
+    }
+  ],
+  "minimalFixPlan": [
+    "Add run-g2-a1-production-current-full-discovery.js (or extend orchestrator) with CURRENT=loadG2Level/exportG2LevelFlat from data/** for all 32 CONTENT_LANGUAGES.",
+    "Wire verifyEmbeddedLanguageRegistry + APVIENOTS §3 into pre-run gate.",
+    "Implement MASTER 1.18 verdict taxonomy (AUDIT_PASS/FINDING/NEEDS_SOURCE_REVIEW/SOURCE_DE_ISSUE) and coverage equation.",
+    "Fix loadProductionA1Words to use dataRel('lv','a1.js') for lv.",
+    "Set MASTER_STANDARD_VERSION from PROJECT_LANGUAGE_MASTER (1.18) in phase3 constants.",
+    "Keep Crowdin staging as optional comparison layer only (never auditSource=crowdin-staging for production CURRENT audit).",
+    "Add post-run verifier for 100% row coverage + artifact manifest/SHA."
+  ]
+}

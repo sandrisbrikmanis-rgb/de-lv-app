@@ -1,0 +1,17 @@
+{
+  "pass": false,
+  "phase": "full",
+  "authorization": {
+    "pass": false,
+    "blockers": [
+      {
+        "code": "OWNER_AUTHORIZATION_MISSING",
+        "message": "Set G2_A1_PRODUCTION_CURRENT_FULL_OWNER_AUTHORIZED=1 after explicit OWNER authorization for full linguistic audit"
+      }
+    ],
+    "preflightPass": true,
+    "masterVersion": "1.18",
+    "ownerAuthEnv": "G2_A1_PRODUCTION_CURRENT_FULL_OWNER_AUTHORIZED"
+  },
+  "message": "Full linguistic audit (Luna) is not executed in MINIMAL_PRODUCTION_CURRENT_A1_AUDIT_ORCHESTRATOR task. Preflight/authorization gates only; run authorized Luna pass in a follow-up task."
+}

@@ -1,53 +1,23 @@
 {
-  "timestamp": "2026-09-19T15:19:07.399Z",
-  "baseRef": "origin/main",
-  "masterVersion": "1.18",
-  "MASTER_VERSION_CHECK": "PASS",
-  "MASTER_V1_12_PREMERGE_VERIFY": "PASS",
-  "MASTER_V1_12_TOOLING_VERIFY": "PASS",
-  "V1_10_RULES_RETAINED": "100%",
-  "V1_11_RULES_RETAINED": "100%",
-  "V1_12_RULES_RETAINED": "100%",
-  "SECTION_NUMBER_COLLISIONS": 0,
-  "BROKEN_INTERNAL_REFERENCES": 0,
-  "BATCH_TABLE_UNCHANGED": "PASS",
-  "EMBEDDED_LANGUAGE_REGISTRY": "PASS",
-  "EMBEDDED_LANGUAGE_REGISTRY_COUNT": 33,
-  "LANGUAGE_CODE_DUPLICATES": 0,
-  "MISSING_LANGUAGE_CODES": 0,
-  "UNKNOWN_LANGUAGE_CODES": 0,
-  "DOC_REFERENCES_APVIENOTS": "PASS",
-  "PRODUCTION_CHANGES": 0,
-  "DE_CHANGES": 0,
-  "productionFilesChanged": [],
-  "deFilesChanged": [],
-  "rulesMissing": {
-    "v10": [],
-    "v11": [],
-    "v12": []
+  "phase3OwnerPrep": {
+    "supports": [
+      "owner-view.md",
+      "owner-decisions.md/csv",
+      "owner-proof.json",
+      "github links"
+    ],
+    "ownerStatusModel": "PENDING only in owner-prep.js",
+    "fullFinalCards": "Not in phase3 owner-prep (findings rows only)"
   },
-  "sectionCollisions": [],
-  "brokenRefs": [],
-  "versionCheck": {
-    "pass": true,
-    "masterVersion": "1.18",
-    "floor": "1.12",
-    "authorizedMin": "1.18",
-    "reason": null
-  },
-  "batchTable": {
-    "pass": true,
-    "expectedLines": 7,
-    "missing": []
-  },
-  "docRefs": {
-    "pass": true,
-    "missingIn": [],
-    "apvienotsName": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md"
-  },
-  "requiredFiles": {
-    "pass": true,
-    "missing": []
+  "masterApvienotsVerdictModel": {
+    "required": [
+      "AUDIT_PASS",
+      "FINDING",
+      "NEEDS_SOURCE_REVIEW",
+      "SOURCE_DE_ISSUE"
+    ],
+    "equation": "TOTAL_CHECKED = AUDIT_PASS + FINDING + NEEDS_SOURCE_REVIEW + SOURCE_DE_ISSUE",
+    "phase3Orchestrator": "Uses VALIDATED_REAL_FINDING / OWNER_DECISION_REQUIRED — not APVIENOTS verdict taxonomy"
   },
   "embeddedRegistry": {
     "pass": true,
@@ -339,36 +309,7 @@
     ],
     "legacyApvienotsReferences": 0
   },
-  "tooling": {
-    "regressionPass": true,
-    "inventoryOk": true,
-    "inventoryFields": [
-      "lv",
-      "study.translation",
-      "study.title"
-    ],
-    "fixtureResults": [
-      {
-        "id": "case-a-ordinary",
-        "pass": true
-      },
-      {
-        "id": "case-b-standardStudy",
-        "pass": true
-      },
-      {
-        "id": "case-c-standardStudy",
-        "pass": true
-      },
-      {
-        "id": "case-d-standardStudy",
-        "pass": true
-      },
-      {
-        "id": "case-e-valid-explanation",
-        "pass": true
-      }
-    ]
-  },
-  "blockers": []
+  "csvMultipart4Mb": "Not implemented in phase3 owner-prep (single CSV write)",
+  "postRunVerify": "No dedicated production-current A1 post-run verifier on main",
+  "coverage100ProductionCurrent": "Not implemented in phase3 (31 target langs × staging CURRENT)"
 }

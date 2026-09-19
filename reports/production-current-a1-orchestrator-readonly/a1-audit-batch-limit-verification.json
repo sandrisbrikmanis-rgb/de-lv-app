@@ -1,0 +1,28 @@
+{
+  "pass": true,
+  "expected": {
+    "g2:ordinary": 25,
+    "g2:minimalStudy": 10,
+    "g2:standardStudy": 5,
+    "g1:sentences": 25,
+    "g1:verbs": 10,
+    "g1:training": 50,
+    "g3:courseLessons": 20
+  },
+  "lunaPhase1Core": {
+    "g2:ordinary": 25,
+    "g2:minimalStudy": 10,
+    "g2:standardStudy": 5,
+    "g1:sentences": 25,
+    "g1:verbs": 10,
+    "g1:training": 50,
+    "g3:courseLessons": 20
+  },
+  "phase3GetBatchSizeForCardType": {
+    "ordinary": 25,
+    "minimalStudy": 10,
+    "standardStudy": 5
+  },
+  "studyObjectSplitAcrossBatches": "Card-type groups split via splitObjectsByCardType; objects within a type chunked by splitObjectsIntoBatches — full card stays in one batch slice (no field-level split).",
+  "batchLimitChanges": 0
+}

@@ -1,0 +1,18 @@
+{
+  "npmPhase3Discovery": "npm run phase3:g2-a1:discovery → node scripts/run-g2-a1-phase3-full-discovery.js --with-luna --fresh-luna",
+  "npmPhase3ExportOnly": "npm run phase3:g2-a1:export → --export-only (Crowdin staging export only; no production inventory)",
+  "orchestratorMain": [
+    "run-g2-a1-phase3-full-discovery.js:main",
+    "→ exportAllCrowdinStaging (Crowdin)",
+    "→ collectAllDeterministic(STAGING_ROOT) uses loadCrowdinFlat",
+    "→ runLunaForLang → loadG2StagingObjects (staging)",
+    "→ generateOwnerPrep (findings-based)"
+  ],
+  "productionCapableLoaders": [
+    "loadG2Level / exportG2LevelFlat (roundtrip.js) — production data/**",
+    "loadArrayDataset (audit-common.js)"
+  ],
+  "notProductionCurrent": [
+    "loadG2StagingObjects sets auditSource=crowdin-staging and productionFile=crowdin-staging/g2/<lang>-a1.json"
+  ]
+}

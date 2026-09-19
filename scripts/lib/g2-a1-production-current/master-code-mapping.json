@@ -1,0 +1,29 @@
+{
+  "documentSet": [
+    "docs_and_rules/PROJECT_LANGUAGE_MASTER_STANDARD.md",
+    "docs_and_rules/MASTER_1.12_BINDING_WORK_AGREEMENT.md",
+    "docs_and_rules/MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md"
+  ],
+  "checks": [
+    { "code": "SOURCE_CHAIN_APVIENOTS_2", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§2 GALVENAIS PRINCIPS — SOURCE-SUPPORTED AUDIT", "module": "evidence-schema.js", "function": "validateAuditChainMetadata" },
+    { "code": "EMBEDDED_REGISTRY_33", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§3 LANGUAGE AUTHORITY REGISTRY — 33 VALODAS", "module": "preflight.js", "function": "runPreflight → verifyEmbeddedLanguageRegistry" },
+    { "code": "EVIDENCE_FIELDS_APVIENOTS_7", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§7 KATRAI RINDAI OBLIGĀTS PIERĀDĪJUMS", "module": "evidence-schema.js", "function": "validateAuditedEvidenceRecord" },
+    { "code": "CEFR_FIELDS_CONDITIONAL", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§7 CEFR bloks", "module": "evidence-schema.js", "function": "validateCefrWhenApplicable" },
+    { "code": "VERDICT_TAXONOMY_APVIENOTS_8", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§8 AUDITA VERDIKTI", "module": "verdict-validation.js", "function": "validateAuditVerdict" },
+    { "code": "PASS_CLOSED_APVIENOTS_9", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§9 PASS IR SLĒGTS AUDITA REZULTĀTS", "module": "verdict-validation.js", "function": "validatePassRecord" },
+    { "code": "OWNER_SCOPE_APVIENOTS_11", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§11 OWNER REVIEW TVĒRUMS", "module": "owner-scope.js", "function": "isOwnerReviewRow" },
+    { "code": "OWNER_STATUS_APVIENOTS_12", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§12 OWNER LĒMUMU KRITĒRIJI", "module": "constants.js", "function": "OWNER_STATUSES vs AUDIT_VERDICTS" },
+    { "code": "COVERAGE_EQUATION_APVIENOTS_13", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§13 OWNER-PREP", "module": "coverage.js", "function": "validateCoverageEquation" },
+    { "code": "BULK_FORBIDDEN_APVIENOTS_14", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§14 INDIVIDUĀLS AUDITS — BULK VERDIKTI AIZLIEGTI", "module": "bulk-forbidden.js", "function": "rejectBulkPassRationale" },
+    { "code": "AI_ROLE_APVIENOTS_15", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§15 AI/LLM LOMA", "module": "constants.js", "function": "AI_AUDIT_ROLE / AI_NOT_LANGUAGE_AUTHORITY" },
+    { "code": "FILE_SET_64", "masterDocument": "PROJECT_LANGUAGE_MASTER_STANDARD.md", "section": "§7.153–§7.157 (production dataset integrity)", "module": "inventory.js", "function": "buildProductionFileSetInventory" },
+    { "code": "MASTER_PREMERGE_1_18", "masterDocument": "PROJECT_LANGUAGE_MASTER_STANDARD.md", "section": "Versija 1.18", "module": "preflight.js", "function": "runMasterPremergeVerify + readMasterVersion" },
+    { "code": "FULL_AUTH_GATES", "masterDocument": "MASTER_1.12_BINDING_WORK_AGREEMENT.md", "section": "A2b + authorized audit entry", "module": "authorize-full-run.js", "function": "authorizeFullProductionCurrentAudit" },
+    { "code": "POST_RUN_CLOSURE", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§13 + §17 + §18 metadata", "module": "post-run-verify.js", "function": "verifyPostRunClosure" },
+    { "code": "CSV_4MB_MULTIPART", "masterDocument": "PROJECT_LANGUAGE_MASTER_STANDARD.md", "section": "OWNER CSV upload limits (operational)", "module": "csv-multipart.js", "function": "splitCsvMultipart / mergeCsvMultipart" },
+    { "code": "TECHNICAL_INVENTORY_DRY_RUN", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§2–§7 (inventory without verdict)", "module": "audit-rows.js", "function": "buildTechnicalInventoryRowsForLanguage" },
+    { "code": "FULL_A1_SCOPE_INVENTORY", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§1 TVĒRUMS + §6 divpusējā pārbaude", "module": "audit-scope-inventory.js", "function": "buildAuditScopeInventory" },
+    { "code": "BATCH_MANIFEST_G2_A1", "masterDocument": "PROJECT_LANGUAGE_MASTER_STANDARD.md", "section": "Batch limits (unchanged)", "module": "batch-manifest.js", "function": "buildBatchManifest" },
+    { "code": "LOCAL_MERGE_GATE", "masterDocument": "MASTER_1.12_BINDING_WORK_AGREEMENT.md", "section": "A2b audit readiness", "module": "verify-g2-a1-production-current-local-merge-gate.js", "function": "main" }
+  ]
+}

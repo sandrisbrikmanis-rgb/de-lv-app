@@ -1,0 +1,125 @@
+#!/usr/bin/env node
+"use strict";
+
+const path = require("path");
+const { ROOT } = require("../audit-common");
+const { TARGET_LANGUAGES } = require("../content-crowdin-bridge/constants");
+
+const AUDIT_LANGUAGES = ["lv", ...TARGET_LANGUAGES];
+
+const MASTER_AUTHORIZED_MIN = "1.18";
+const MASTER_SEMANTIC_FLOOR = "1.12";
+
+const EXPECTED_APP_LANGUAGES = 32;
+const EXPECTED_CARD_COUNT = 702;
+const LEVEL = "a1";
+
+/** APVIENOTS §8 — lingvistiskā audita verdikti */
+const AUDIT_VERDICTS = Object.freeze([
+  "PASS",
+  "FINDING",
+  "NEEDS_SOURCE_REVIEW",
+  "SOURCE_DE_ISSUE",
+]);
+
+const FORBIDDEN_AUDIT_VERDICTS = Object.freeze([
+  "VALIDATED_REAL_FINDING",
+  "OWNER_DECISION_REQUIRED",
+  "LABOT",
+  "NELABOT",
+  "PENDING",
+  "FALSE_POSITIVE",
+  "AUDIT_PASS",
+]);
+
+/** §13 — skaita kā AUDIT_PASS, nav atsevišķs lingvistiskais verdikts */
+const AUDIT_PASS_LABEL = "AUDIT_PASS";
+
+/** APVIENOTS §12 — OWNER statusi (nav audita verdikti) */
+const OWNER_STATUSES = Object.freeze([
+  "LABOT",
+  "NELABOT",
+  "NEEDS_SOURCE_REVIEW",
+  "FALSE_POSITIVE",
+  "PENDING",
+]);
+
+/** APVIENOTS §15 */
+const AI_AUDIT_ROLE = "AUDIT EXECUTOR / ANALYSIS TOOL";
+const AI_NOT_LANGUAGE_AUTHORITY = "LANGUAGE AUTHORITY";
+
+/** APVIENOTS §14 — aizliegti bulk pamatojumi → PASS */
+const BULK_FORBIDDEN_PASS_RATIONALES = Object.freeze([
+  "UNCHANGED_SINCE_DISCOVERY",
+  "WORD_EXISTS",
+  "TARGET_VALUE_VALID",
+  "LANGUAGE_PRESENT",
+  "AI_CONFIDENCE_HIGH",
+  "TRANSLATOR_MATCH",
+]);
+
+const RECORD_KIND = Object.freeze({
+  TECHNICAL_INVENTORY: "TECHNICAL_INVENTORY",
+  AUDITED_EVIDENCE: "AUDITED_EVIDENCE",
+});
+
+const APVIENOTS_EVIDENCE_FIELDS = Object.freeze([
+  "DE_AUTHORITY",
+  "DE_SOURCE_URL",
+  "DE_SOURCE_ENTRY_OR_RULE",
+  "DE_SOURCE_EVIDENCE",
+  "TARGET_AUTHORITY",
+  "TARGET_SOURCE_URL",
+  "TARGET_SOURCE_ENTRY_OR_RULE",
+  "TARGET_SOURCE_EVIDENCE",
+  "CONTEXT_REASONING",
+  "AUDIT_VERDICT",
+]);
+
+const CEFR_FIELDS = Object.freeze([
+  "CEFR_AUTHORITY",
+  "CEFR_SOURCE_URL",
+  "CEFR_LEVEL",
+  "CEFR_EVIDENCE",
+]);
+
+const FINDING_REQUIRED_FIELDS = Object.freeze([
+  "CURRENT_PROBLEM",
+  "PROPOSED_NEW",
+  "NEW_SOURCE_EVIDENCE",
+]);
+
+const REPORTS_DIR = path.join(ROOT, "reports", "g2-a1-production-current");
+const AUDIT_SOURCE = "production-current";
+const FORBIDDEN_CURRENT_SOURCES = Object.freeze([
+  "crowdin-staging",
+  "reports/staging",
+  "owner-view",
+  "owner-decisions",
+]);
+
+const CSV_MAX_BYTES = 4_000_000;
+
+module.exports = {
+  AUDIT_LANGUAGES,
+  MASTER_AUTHORIZED_MIN,
+  MASTER_SEMANTIC_FLOOR,
+  EXPECTED_APP_LANGUAGES,
+  EXPECTED_CARD_COUNT,
+  LEVEL,
+  AUDIT_VERDICTS,
+  FORBIDDEN_AUDIT_VERDICTS,
+  AUDIT_PASS_LABEL,
+  OWNER_STATUSES,
+  AI_AUDIT_ROLE,
+  AI_NOT_LANGUAGE_AUTHORITY,
+  BULK_FORBIDDEN_PASS_RATIONALES,
+  RECORD_KIND,
+  APVIENOTS_EVIDENCE_FIELDS,
+  CEFR_FIELDS,
+  FINDING_REQUIRED_FIELDS,
+  REPORTS_DIR,
+  AUDIT_SOURCE,
+  FORBIDDEN_CURRENT_SOURCES,
+  CSV_MAX_BYTES,
+};
