@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T12:19:09.804Z",
+  "pass": true,
+  "rollback_test_failures": 0,
+  "tests": [
+    {
+      "name": "before_first_rename",
+      "pass": true
+    },
+    {
+      "name": "after_first_rename",
+      "pass": true
+    },
+    {
+      "name": "mid_write",
+      "pass": true
+    },
+    {
+      "name": "before_last_rename",
+      "pass": true
+    },
+    {
+      "name": "after_data_before_www",
+      "pass": true
+    },
+    {
+      "name": "success_no_fault",
+      "pass": true
+    }
+  ],
+  "data_www_drift": 0,
+  "partial_modified_files": 0,
+  "classification": "A1_LRB_001_103_PRODUCTION_COPY_ONLY_APPLY_TRANSACTION_CORRECTION_2_READY_AWAITING_OWNER_REVERIFICATION"
+}

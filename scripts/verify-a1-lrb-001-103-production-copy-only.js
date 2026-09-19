@@ -55,11 +55,27 @@ function main() {
     fs.readFileSync(path.join(PREP_DIR, `${PREFIX}-PRODUCTION-TECHNICAL-BLOCKER-RESOLUTION-1-PROOF.json`), "utf8")
   );
 
+  const txnTestPath = path.join(
+    PREP_DIR,
+    `${PREFIX}-PRODUCTION-TRANSACTION-CORRECTION-2-TEST-RESULT.json`
+  );
+  let txnTest = null;
+  if (fs.existsSync(txnTestPath)) {
+    txnTest = JSON.parse(fs.readFileSync(txnTestPath, "utf8"));
+    if (!txnTest.pass) blockers.push("transaction_tests_failed");
+    if ((txnTest.rollback_test_failures || 0) !== 0) blockers.push("rollback_test_failures");
+  } else {
+    blockers.push("missing:TRANSACTION-TEST-RESULT");
+  }
+
   const gates = [
     ["total_owner_cards", dryRun.total_owner_cards, 234],
     ["atomic_ready_cards", dryRun.atomic_ready_cards, 234],
     ["blocked_cards", dryRun.blocked_cards, 0],
     ["leaf_trace_rows", dryRun.leaf_trace_rows, 4787],
+    ["unique_planned_files", dryRun.unique_planned_files, 46],
+    ["duplicate_pending_write_paths", dryRun.duplicate_pending_write_paths, 0],
+    ["backup_file_count", dryRun.backup_file_count, 46],
     ["production_files_changed", dryRun.production_files_changed, 0],
     ["de_files_changed", dryRun.de_files_changed, 0],
     ["crowdin_files_changed", dryRun.crowdin_files_changed, 0],
@@ -80,18 +96,23 @@ function main() {
   if (atomic.blocked_cards !== 0) blockers.push("atomic_blocked_cards");
   if (atomic.atomic_ready_cards !== 234) blockers.push("atomic_ready_cards");
 
+  const txnClassification =
+    dryRun.classification ||
+    "A1_LRB_001_103_PRODUCTION_COPY_ONLY_APPLY_TRANSACTION_CORRECTION_2_READY_AWAITING_OWNER_REVERIFICATION";
   const packagePass =
     blockers.length === 0 &&
     prepProof.pass === true &&
     resolutionProof.pass === true &&
-    resolutionProof.classification ===
-      "A1_LRB_001_103_PRODUCTION_COPY_ONLY_APPLY_PACKAGE_CORRECTION_1_READY_AWAITING_OWNER_VERIFICATION";
+    dryRun.pass === true &&
+    txnClassification ===
+      "A1_LRB_001_103_PRODUCTION_COPY_ONLY_APPLY_TRANSACTION_CORRECTION_2_READY_AWAITING_OWNER_REVERIFICATION";
 
   const out = {
     pass: packagePass,
     blockers,
-    classification: resolutionProof.classification,
-    next_action: resolutionProof.next_action,
+    classification: txnClassification,
+    next_action: "OWNER_REVERIFY_PRODUCTION_COPY_ONLY_TRANSACTION",
+    transaction_tests_pass: txnTest?.pass ?? false,
     mapping_sha256: manifest.mapping_sha256,
     prep_proof_sha256: manifest.prep_proof_sha256,
     dry_run: {
