@@ -1,7 +1,7 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.17\
-**Versiju ķēde:** v1.13 (Kurss moduļa metodika, iekļauta šajā izlaidumā) → v1.14 → v1.15 → v1.16 → **v1.17** (šis dokuments)\
+**Versija:** 1.18\
+**Versiju ķēde:** v1.13 (Kurss moduļa metodika, iekļauta šajā izlaidumā) → v1.14 → v1.15 → v1.16 → v1.17 → **v1.18** (šis dokuments)\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -23,6 +23,10 @@ Tas konsolidē un aizstāj kā atsevišķi interpretējamus darba standartus:
 -   `COMPARISON_STUDY_RULES.md`
 -   `NEW LANGUAGE CREATION STANDARD`
 -   `NEW LANGUAGE CREATION — FINAL REPORT STANDARD`
+
+Lingvistiskā audita avotu atbalstīta metodika (33 valodas, PASS/OWNER
+tvērums, reģistrs): `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` — operatīvi
+iekļauta šajā MASTER dokumentā kā **§7.153–§7.157**.
 
 Iepriekšējie dokumenti drīkst palikt repozitorijā tikai kā
 vēsturiski/reference materiāli. Ja ir pretruna starp tiem un šo MASTER
@@ -728,6 +732,12 @@ rezultāts ir `NEEDS OWNER REVIEW`, **nav uzskatāms par pabeigtu**, kamēr
 Cursor/aģents tajā pašā audit posmā nav sagatavojis OWNER pārskatam
 GitHub-atveramus artefaktus.
 
+Pēc §7.155 OWNER-PREP **darba rindās** iekļauj tikai `FINDING`,
+`NEEDS_SOURCE_REVIEW`, `SOURCE_DE_ISSUE` un citus skaidri unresolved statusus.
+`AUDIT_PASS` (avotu atbalstīts audita `PASS`) paliek pilnā audit evidence,
+bet neprasa individuālu OWNER verdictu (sk. `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md`
+§11–§13).
+
 Obligāti jāizveido vismaz šādi faili:
 
 1.  `reports/<scope>-owner-view.md`
@@ -814,24 +824,29 @@ Pirms OWNER-PREP izveides obligāti jāizpilda `PRE_BACKLOG_HISTORY_GATE`
 
 ## 7.7. AUDIT BASELINE / FINDING STABILITY / REPRODUCIBILITY
 
-Pilns LLM lingvistiskais audits ir **DISCOVERY posms**, nevis deterministisks
-closure validators. Viena un tā paša production stāvokļa atkārtota neatkarīga
-LLM discovery palaišana var dot atšķirīgu findingu kopu; tāpēc findingu skaitu
-nedrīkst izmantot kā lineāru kvalitātes metriku bez baseline kontroles.
+**Pilns lingvistiskais discovery audits** (`FULL LINGUISTIC DISCOVERY AUDIT`; agrāk
+dokumentācijā `FULL LLM LINGUISTIC AUDIT`) ir **DISCOVERY posms**, nevis
+deterministisks closure validators. Viena un tā paša production stāvokļa
+atkārtota neatkarīga discovery palaišana var dot atšķirīgu findingu kopu; tāpēc
+findingu skaitu nedrīkst izmantot kā lineāru kvalitātes metriku bez baseline
+kontroles.
 
-Katram pilnam discovery auditam obligāti jāfiksē:
+Katram pilnam discovery auditam obligāti jāfiksē (papildina §7.156):
 
+- `AUDIT_EXECUTOR`;
+- `MODEL_IF_USED` / modelis un precīzs modeļa variants;
+- `PROMPT_VERSION` / audit prompt / task versija vai hash;
+- `LANGUAGE_AUTHORITY_REGISTRY_VERSION`;
+- `SOURCE_ACCESS_DATE`;
 - `DATASET_PRODUCTION_SHA`;
 - `AUDIT_BASELINE_SHA`;
-- modelis un precīzs modeļa variants;
-- audit prompt / task versija vai hash;
 - izmantoto skriptu SHA/versijas;
-- batch izmērs un sadalījums;
+- batch izmērs un sadalījums (§7.31 u.c. dataset tabulas **nemainītas**);
 - temperature/seed/other inference settings, ja pieejami;
 - deterministic pre-processing, normalization un dedup versija;
 - scope un coverage;
 - severity/category definīcijas;
-- audita datums;
+- `AUDIT_DATE`;
 - `AUDIT_MODE = FULL_DISCOVERY`.
 
 Ja šie parametri būtiski atšķiras, divu audit run findingu skaitļi nav
@@ -1959,16 +1974,18 @@ validitāti.
 
 Luna jāatgriež rezultāts par **katru** inventārā iekļauto auditējamo lauku.
 
-Atļautie rezultāti:
+Atļautie **lingvistiskā audita** rezultāti (§7.154):
 
 ```text
 PASS
 FINDING
 NEEDS_SOURCE_REVIEW
+SOURCE_DE_ISSUE
 ```
 
-Nedrīkst uzskatīt lauku par pārbaudītu, ja tam nav neviena no šiem
-rezultātiem.
+`PASS` nozīmē avotu atbalstītu pareizību (`SOURCE-SUPPORTED CORRECT`), nevis
+OWNER `NELABOT`. Nedrīkst uzskatīt lauku par pārbaudītu, ja tam nav neviena
+no šiem rezultātiem.
 
 Katram batch obligāti jābūt:
 
@@ -5295,22 +5312,99 @@ Ja kaut viens vārts nav izpildīts:
 UI_VISUAL_CLOSURE_BLOCKED
 ```
 
+## 7.153. Source-supported linguistic discovery audit (v1.18)
+
+Pilns projekta lingvistiskais audits ir **individuāls, avotu atbalstīts**
+(`SOURCE-SUPPORTED AUDIT`), nevis AI interpretācijas secinājums.
+
+Obligātā secība katram auditējamam laukam/rindai:
+
+```text
+AUTHORITATIVE SOURCE → SOURCE EVIDENCE → CONTEXTUAL ANALYSIS → AUDIT VERDICT
+```
+
+Aizliegts:
+
+```text
+AI INTERPRETATION → AUDIT VERDICT
+```
+
+Pilns valodu avotu reģistrs (33 valodas, ieskaitot `de` kā
+`SOURCE_LANGUAGE` + `STRICT_READ_ONLY`), divu slāņu avoti
+(`LANGUAGE_NORM_AUTHORITY`, `LANGUAGE_LEARNING_CEFR_AUTHORITY`), obligātā
+divpusējā DE + target pārbaude un pierādījumu lauki — sk.
+`MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` §2–§7.
+
+## 7.154. Lingvistiskā audita verdikti (v1.18)
+
+Atļautie **audita** verdikti (atšķirībā no OWNER statusiem §8):
+
+- `PASS` — `SOURCE-SUPPORTED CORRECT`;
+- `FINDING` — pamatota problēma ar `CURRENT` + `PROPOSED_NEW` un avotiem;
+- `NEEDS_SOURCE_REVIEW` — nav droša secinājuma ar pieejamajiem avotiem;
+- `SOURCE_DE_ISSUE` — iespējama STRICT READ-ONLY DE avota problēma.
+
+Bulk verdikti (`WORD_EXISTS → PASS`, `AI_CONFIDENCE_HIGH → PASS`, u.c.) ir
+**aizliegti** (pilns saraksts — grozījumu dok. §14).
+
+## 7.155. Audita `PASS` slēgšana un OWNER-PREP tvērums (v1.18)
+
+Avotu atbalstīts audita `PASS` ir **slēgts lingvistisks audita rezultāts**
+konkrētajā audit/repair ciklā: netiek ievietots OWNER labošanas rindā un
+netiek atkārtoti lingvistiski pārbaudīts bez konkrēta trigger (CURRENT/DE/MASTER/
+normas/avota kļūda/regresija/OWNER pieprasījums — grozījumu dok. §10).
+
+OWNER-PREP saglabā 100% coverage, bet OWNER darba failos obligāti atsevišķi:
+
+```text
+TOTAL_CHECKED = AUDIT_PASS + FINDING + NEEDS_SOURCE_REVIEW + SOURCE_DE_ISSUE
+OWNER_REVIEW_REQUIRED = FINDING + NEEDS_SOURCE_REVIEW + SOURCE_DE_ISSUE (+ unresolved)
+```
+
+`AUDIT_PASS` ieraksti ir audit evidence; tie neprasa OWNER `LABOT`/`NELABOT`.
+
+## 7.156. AI/LLM loma un discovery metadata (v1.18)
+
+AI/LLM/Cursor ir **AUDIT EXECUTOR / ANALYSIS TOOL**, nevis LANGUAGE AUTHORITY.
+AI apgalvojums bez ārēja autoritatīva pierādījuma nav pietiekams `PASS` vai
+`FINDING`.
+
+Terminoloģija: izmantot **`FULL LINGUISTIC DISCOVERY AUDIT`**, nevis
+`FULL LLM LINGUISTIC AUDIT`. Obligātā metadata — §7.7 un grozījumu dok. §18.
+
+## 7.157. Regression vs atkārtots lingvistiskais audits (v1.18)
+
+Pēc COPY-ONLY remonta regresija pārbauda `LABOT` piemērošanu, diff, struktūru
+un deterministic vārtus. **Regresija nav automātisks pilns lingvistiskais
+re-audits** visām iepriekšējām audita `PASS` rindām.
+
+Iepriekšējās `PASS` rindas atkārtoti lingvistiski pārbauda tikai pēc §7.155
+triggeriem. Post-repair discovery joprojām var aptvert visu scope (§11.1), bet
+bez konkrēta triggera iepriekšējo `PASS` nedrīkst pārvērst par jaunu OWNER
+findingu tikai tāpēc, ka audits tika palaists vēlreiz.
+
 ------------------------------------------------------------------------
 
 # 8. OWNER REVIEW
 
-Pēc audita visi reālie findings tiek nodoti OWNER review, izmantojot
-AUDIT stage jau sagatavotos `OWNER VIEW` un `OWNER DECISIONS` failus.
+Pēc audita uz OWNER review nonāk tikai unresolved/problemātiskie ieraksti
+(§7.155): `FINDING`, `NEEDS_SOURCE_REVIEW`, `SOURCE_DE_ISSUE` un citi skaidri
+dokumentēti unresolved gadījumi — nevis parastas audita `PASS` rindas.
+
+OWNER review izmanto AUDIT stage sagatavotos `OWNER VIEW` un `OWNER DECISIONS`
+failus.
 OWNER nedrīkst būt spiests vispirms dot atsevišķu uzdevumu tikai šo failu
 vai GitHub saišu izveidei.
 
 Atļautie statusi: `LABOT`, `NELABOT`, `FALSE_POSITIVE`,
-`NEEDS_SOURCE_REVIEW`.
+`NEEDS_SOURCE_REVIEW`, `PENDING` (pagaidu).
 
 **LABOT** --- OWNER apstiprinājis precīzu gala vērtību. **NELABOT** ---
-CURRENT apzināti saglabājams. **FALSE_POSITIVE** --- auditā atrastais
-nav kļūda. **NEEDS_SOURCE_REVIEW** --- nav pietiekama autoritatīva
-pamata drošam lēmumam.
+CURRENT apzināti saglabājams **konkrētam findingam** (nav tas pats, kas
+audita `PASS` §7.154). **FALSE_POSITIVE** --- auditā atrastais nav kļūda.
+**NEEDS_SOURCE_REVIEW** --- nav pietiekama autoritatīva pamata drošam
+lēmumam. OWNER nepārtaisa jau veikto pilno avotu atbalstīto auditu — tikai
+OWNER review rindā nonākušos gadījumus (§7.155).
 
 `LABOT` ierakstam jābūt pietiekamam deterministiskam COPY-ONLY apply:
 precīzs ID, field/path, `CURRENT`, precīzs `NEW`/`OWNER_DECISION`. Ja
@@ -5420,22 +5514,25 @@ Targeted regression un full discovery audits ir divi dažādi instrumenti, un pi
 
 - **Targeted regression** pierāda, ka OWNER remonts izpildīts pareizi.
 - **Deterministic full gates** pierāda struktūras, sintakses, mirror, routing, remnants, renderer un citu deterministisku kvalitātes prasību stāvokli.
-- **Full LLM discovery re-audit** atkārtoti pārbauda visu datasetu, lai atrastu reālas kļūdas, kuras iepriekšējais discovery audits varēja nepamanīt.
+- **Full linguistic discovery re-audit** (`FULL LINGUISTIC DISCOVERY AUDIT`) atkārtoti pārbauda visu datasetu, lai atrastu reālas kļūdas, kuras iepriekšējais discovery audits varēja nepamanīt.
 
 ## 11.1. Obligātais closure ceļš pēc OWNER repair
 
 Pēc katra COPY-ONLY repair obligāti:
 
 1. targeted regression pret aktuālo OWNER/frozen baseline;
-2. changed-target linguistic recheck;
+2. changed-target linguistic recheck (repair skartie lauki);
 3. deterministic full gates visam datasetam;
 4. Git diff / unexpected-change pārbaude;
-5. **pilns 100% LLM discovery re-audits visam datasetam** ar to pašu MASTER, scope un pēc iespējas identisku audit metodiku;
+5. **pilns 100% linguistic discovery re-audits visam datasetam** ar to pašu MASTER, scope un pēc iespējas identisku audit metodiku (§7.157: iepriekšējie avotu atbalstītie audita `PASS` netiek lingvistiski atkārtoti bez trigger);
 6. visi jaunie findings tiek salīdzināti ar iepriekšējiem baseline/findings un iziet §11.3 acceptance gate;
 7. ja `NEW_VALIDATED_REAL_FINDINGS > 0` → OWNER review → COPY-ONLY repair → targeted regression → vēl viens pilns 100% discovery re-audits;
 8. ja `NEW_VALIDATED_REAL_FINDINGS = 0` un visi pārējie closure gates PASS → final closure.
 
-Tātad pilns post-repair re-audits ir **OBLIGĀTS**. Targeted regression viens pats nav pietiekams pilnam kvalitātes closure, jo tas nevar pierādīt, ka sākotnējais audits nav palaidis garām citus defektus.
+Pilns post-repair discovery re-audits ir **OBLIGĀTS** closure pierādījumam
+(`NEW_VALIDATED_REAL_FINDINGS = 0`), bet **nav** automātisks pilns lingvistiskais
+re-audits visām iepriekšējām audita `PASS` rindām (§7.157). Targeted regression
+viens pats nav pietiekams pilnam closure.
 
 ## 11.2. Iteratīvais discovery closure princips
 
@@ -6725,6 +6822,27 @@ ar MASTER.
 ------------------------------------------------------------------------
 
 # 20. VERSION CHANGELOG
+
+## Version 1.18
+
+Source-supported lingvistiskā audita metodika (MASTER 1.12 grozījumi):
+33-valodu avotu reģistrs, obligāti pierādījumi, audita verdikti
+(`PASS`/`FINDING`/`NEEDS_SOURCE_REVIEW`/`SOURCE_DE_ISSUE`), `PASS` slēgšana
+un re-open triggeri, OWNER-PREP tvērums (`AUDIT_PASS` vs OWNER review),
+bulk verdiktu aizliegums, AI loma, terminoloģija
+`FULL LINGUISTIC DISCOVERY AUDIT`, regression vs atkārtots lingvistiskais
+audits.
+
+Pievienots:
+
+- `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` (pilns grozījumu dokuments);
+- §7.153–§7.157;
+- §7.7, §7.6, §7.30, §8, §11.1 precizējumi.
+
+**Nav mainīts:** §7.31 normatīvā Luna batch hierarhija un dataset-specific
+batch max (25/10/5/50/20 u.c.), §7.46, §7.68, §7.94, §7.134 u.c.
+
+Version 1.17 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.18.
 
 ## Version 1.17
 
