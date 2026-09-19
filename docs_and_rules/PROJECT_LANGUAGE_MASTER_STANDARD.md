@@ -7262,7 +7262,7 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## 18. SAISTOŠAIS DARBA LĪGUMS UN FĀZE 0/1 SPEC (Crowdin / visu valodu saturs)
+## SAISTOŠAIS DARBA LĪGUMS UN FĀZE 0/1 SPEC (Crowdin / visu valodu saturs)
 
 Papildus šim MASTER dokumentam obligāti piemērojami:
 
