@@ -1,0 +1,153 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_CARDS_121_140_GALA_CORRECTION_1_READY",
+  "pr": 830,
+  "branch": "cursor/a1-lrb-001-103-consolidation",
+  "base_head": "005773dbff9c2ff57b34404868a993149ef00920",
+  "scope": {
+    "start_ordinal": 121,
+    "end_ordinal": 140,
+    "labot": 3,
+    "nelabot": 17,
+    "pending": 0
+  },
+  "cursor_action": "COPY_PASTE_ONLY",
+  "changes": [
+    {
+      "target_language": "sk",
+      "canonical_card_object_id": "Appetit",
+      "full_card_owner_new": {
+        "lv": "chuť do jedla",
+        "study": {
+          "id": "a1-appetit",
+          "layout": "standardStudy",
+          "translation": "chuť do jedla",
+          "explanation": [
+            "Hlavná myšlienka: der Appetit znamená chuť jesť alebo chuť do jedla.",
+            "Používa sa na pomenovanie pocitu, keď chceme jesť.",
+            "Der Appetit je podstatné meno mužského rodu.",
+            "V tomto význame sa Appetit zvyčajne používa v jednotnom čísle.",
+            "Bežné želanie pred jedlom je Guten Appetit!"
+          ],
+          "examples": [
+            {
+              "de": "Guten Appetit!",
+              "lv": "Dobrú chuť!"
+            },
+            {
+              "de": "Guten Appetit!",
+              "lv": "Prajem dobrú chuť!"
+            },
+            {
+              "de": "Ich habe keinen Appetit.",
+              "lv": "Nemám chuť do jedla."
+            }
+          ],
+          "tip": [
+            "der Appetit = chuť do jedla",
+            "Guten Appetit! = Dobrú chuť!"
+          ],
+          "important": [
+            "V tomto význame sa Appetit zvyčajne používa v jednotnom čísle.",
+            "Správny člen je der: der Appetit.",
+            "Správne sa hovorí Ich habe Appetit, nie Ich bin Appetit."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sk",
+      "canonical_card_object_id": "Mal",
+      "full_card_owner_new": {
+        "lv": "raz",
+        "study": {
+          "id": "a1-mal",
+          "layout": "standardStudy",
+          "translation": "raz",
+          "explanation": [
+            "Hlavná myšlienka: das Mal označuje jeden výskyt alebo jednu príležitosť.",
+            "Často sa používa s číslami: ein Mal, zwei Mal, drei Mal.",
+            "S radovou číslovkou: das erste Mal, das zweite Mal.",
+            "Nezamieňajte ho s hovorovou časticou mal v spojení Komm mal her!"
+          ],
+          "examples": [
+            {
+              "de": "Das erste Mal war schwer.",
+              "lv": "Prvý raz to bolo ťažké."
+            },
+            {
+              "de": "Ich war schon zwei Mal in Berlin.",
+              "lv": "V Berlíne som už bol dvakrát."
+            },
+            {
+              "de": "Ein Mal reicht.",
+              "lv": "Raz stačí."
+            },
+            {
+              "de": "Noch ein Mal, bitte!",
+              "lv": "Ešte raz, prosím!"
+            }
+          ],
+          "tip": {
+            "text": "das Mal = raz alebo príležitosť; mal bez člena môže byť hovorová častica."
+          },
+          "important": [
+            "das Mal / die Male je podstatné meno.",
+            "ein Mal, zwei Mal vyjadruje počet opakovaní.",
+            "Hovorová častica mal nie je totožná s podstatným menom das Mal."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "aber",
+      "full_card_owner_new": {
+        "lv": "ampak • vendar",
+        "study": {
+          "id": "a1-aber",
+          "layout": "standardStudy",
+          "translation": "ampak • vendar",
+          "explanation": "Uporablja se za uvedbo nasprotja ali ugovora. Najpogosteje pomeni »ampak« ali »vendar«.",
+          "examples": [
+            {
+              "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
+              "lv": "Želim iti zraven, ampak nimam časa."
+            },
+            {
+              "de": "Das Essen war lecker, aber zu teuer.",
+              "lv": "Hrana je bila okusna, vendar predraga."
+            },
+            {
+              "de": "Er hat recht, aber ich sehe das anders.",
+              "lv": "Ima prav, ampak jaz na to gledam drugače."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aber",
+              "meaning": "ampak • vendar",
+              "example": "Ich komme, aber später. – Pridem, ampak pozneje."
+            },
+            {
+              "word": "sondern",
+              "meaning": "temveč (po zanikanju)",
+              "example": "Ich wollte keinen Tee, sondern Kaffee. – Nisem hotel čaja, temveč kavo."
+            },
+            {
+              "word": "jedoch",
+              "meaning": "vendar • kljub temu",
+              "example": "Es ist kalt, jedoch sonnig. – Hladno je, vendar sončno."
+            }
+          ],
+          "tip": {
+            "text": "Nasprotje ali ugovor → aber; po zanikanju »ne ..., temveč ...« → sondern."
+          },
+          "important": [
+            "aber izraža nasprotje ali ugovor.",
+            "V zgradbi »ne ..., temveč ...« nemščina navadno uporablja sondern."
+          ]
+        }
+      }
+    }
+  ]
+}

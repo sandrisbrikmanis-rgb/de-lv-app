@@ -517,6 +517,7 @@
             "Hlavná myšlienka: der Appetit znamená chuť jesť alebo chuť do jedla.",
             "Používa sa na pomenovanie pocitu, keď chceme jesť.",
             "Der Appetit je podstatné meno mužského rodu.",
+            "V tomto význame sa Appetit zvyčajne používa v jednotnom čísle.",
             "Bežné želanie pred jedlom je Guten Appetit!"
           ],
           "examples": [
@@ -538,6 +539,7 @@
             "Guten Appetit! = Dobrú chuť!"
           ],
           "important": [
+            "V tomto význame sa Appetit zvyčajne používa v jednotnom čísle.",
             "Správny člen je der: der Appetit.",
             "Správne sa hovorí Ich habe Appetit, nie Ich bin Appetit."
           ]
@@ -714,11 +716,11 @@
       "target_language": "sk",
       "canonical_card_object_id": "Mal",
       "full_card_owner_new": {
-        "lv": "raz • príležitosť",
+        "lv": "raz",
         "study": {
           "id": "a1-mal",
           "layout": "standardStudy",
-          "translation": "raz • príležitosť",
+          "translation": "raz",
           "explanation": [
             "Hlavná myšlienka: das Mal označuje jeden výskyt alebo jednu príležitosť.",
             "Často sa používa s číslami: ein Mal, zwei Mal, drei Mal.",
@@ -1004,7 +1006,7 @@
           "examples": [
             {
               "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
-              "lv": "Rad bi šel zraven, ampak nimam časa."
+              "lv": "Želim iti zraven, ampak nimam časa."
             },
             {
               "de": "Das Essen war lecker, aber zu teuer.",
