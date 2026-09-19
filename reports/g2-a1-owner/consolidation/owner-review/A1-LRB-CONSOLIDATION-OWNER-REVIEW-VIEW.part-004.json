@@ -6591,7 +6591,53 @@
         "baseline_card_sha256": "4b24ab881075ed6f02f9d95024ad631a9e4b44e6f3431c0af70f98c3d0eaceb8",
         "post_owner_card_sha256": "4b24ab881075ed6f02f9d95024ad631a9e4b44e6f3431c0af70f98c3d0eaceb8"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "ob • na",
+        "study": {
+          "id": "a1-an",
+          "layout": "standardStudy",
+          "translation": "ob • na",
+          "explanation": "Uporablja se, kadar je nekaj ob steni, oknu, vratih, reki, morski obali ali drugi površini oziroma robu.",
+          "examples": [
+            {
+              "de": "an der Wand",
+              "lv": "ob steni / na steni"
+            },
+            {
+              "de": "am Fenster",
+              "lv": "ob oknu"
+            },
+            {
+              "de": "am Meer",
+              "lv": "ob morju"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "an",
+              "meaning": "ob površini ali robu",
+              "example": "an der Wand – ob steni"
+            },
+            {
+              "word": "auf",
+              "meaning": "na vodoravni površini",
+              "example": "auf dem Tisch – na mizi"
+            },
+            {
+              "word": "bei",
+              "meaning": "pri osebi ali kraju",
+              "example": "beim Arzt – pri zdravniku"
+            }
+          ],
+          "tip": {
+            "text": "Zapomni si: ob steni, oknu ali robu → an."
+          },
+          "important": [
+            "an ne pomeni vsakega »pri«; pogosto označuje lego ob površini, steni, oknu ali robu.",
+            "Za lego na vodoravni površini navadno uporabimo auf."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -6805,7 +6851,40 @@
         "baseline_card_sha256": "1169e9210d904cd07d0f769dd8d19a8088eb91d2d95d02a011cec0bd4c8b45a1",
         "post_owner_card_sha256": "1169e9210d904cd07d0f769dd8d19a8088eb91d2d95d02a011cec0bd4c8b45a1"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "tudi",
+        "study": {
+          "id": "a1-auch-study",
+          "layout": "standardStudy",
+          "translation": "tudi",
+          "explanation": [
+            "Glavna misel: auch je najpogostejši in najbolj nevtralen nemški izraz za »tudi«.",
+            "Označuje, da nekaj velja še za dodatno osebo ali stvar."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme auch.",
+              "lv": "Tudi jaz pridem."
+            },
+            {
+              "de": "Sie arbeitet auch hier.",
+              "lv": "Tudi ona dela tukaj."
+            },
+            {
+              "de": "Ich wünsche Ihnen auch einen schönen Tag.",
+              "lv": "Tudi vam želim lep dan."
+            }
+          ],
+          "tip": [
+            "auch = tudi",
+            "V nemškem stavku stoji auch ob delu, na katerega se nanaša."
+          ],
+          "important": [
+            "Pravilno: Ich wünsche Ihnen auch einen schönen Tag.",
+            "Napačno: Ich auch wünsche Ihnen einen schönen Tag."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -7345,7 +7424,90 @@
         "baseline_card_sha256": "d8c3ba84040d8c12f8f2f46fb0d03c5efc481aca173815e4a6838fa7b6d62683",
         "post_owner_card_sha256": "d8c3ba84040d8c12f8f2f46fb0d03c5efc481aca173815e4a6838fa7b6d62683"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "na",
+        "study": {
+          "id": "a1-aufs",
+          "layout": "standardStudy",
+          "translation": "na",
+          "explanation": [
+            "aufs je skrajšana oblika predloga auf in člena das.",
+            "Polna oblika je auf das in pri gibanju odgovarja na vprašanje kam.",
+            "Uporablja se za smer na določeno stvar ali površino.",
+            "V nevtralnem vsakdanjem jeziku se auf das pogosto skrajša v aufs; tudi polna oblika je slovnično pravilna."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe aufs Dach.",
+              "lv": "Grem na streho."
+            },
+            {
+              "de": "Sie setzt sich aufs Sofa.",
+              "lv": "Sede na kavč."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "Peljemo se na podeželje."
+            },
+            {
+              "de": "Stell die Tasche aufs Bett.",
+              "lv": "Postavi torbo na posteljo."
+            },
+            {
+              "de": "Er springt aufs Pferd.",
+              "lv": "Skoči na konja."
+            },
+            {
+              "de": "Leg das Buch aufs Regal.",
+              "lv": "Položi knjigo na polico."
+            },
+            {
+              "de": "Komm schnell aufs Boot!",
+              "lv": "Hitro pridi na čoln!"
+            },
+            {
+              "de": "Wir gehen aufs Fest.",
+              "lv": "Gremo na praznovanje."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aufs",
+              "meaning": "na določeno stvar (tožilnik)",
+              "example": "aufs Dach – na streho"
+            },
+            {
+              "word": "auf",
+              "meaning": "na površino ali navzgor",
+              "example": "auf den Tisch – na mizo"
+            },
+            {
+              "word": "an",
+              "meaning": "ob navpično površino",
+              "example": "an die Wand – ob steno"
+            },
+            {
+              "word": "ins",
+              "meaning": "v notranjost prostora",
+              "example": "ins Zimmer – v sobo"
+            },
+            {
+              "word": "zum",
+              "meaning": "k osebi ali kraju",
+              "example": "zum Arzt – k zdravniku"
+            }
+          ],
+          "tip": [
+            "Zapomni si: auf + das → aufs.",
+            "V vsakdanjem jeziku se auf das pogosto skrajša v aufs."
+          ],
+          "important": [
+            "aufs = auf das in se uporablja samo pred samostalnikom srednjega spola.",
+            "Pri smeri označuje gibanje na določeno mesto ali površino.",
+            "Ne zamenjuj ga z an ob navpični površini ali z ins za gibanje v notranjost."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -7636,7 +7798,53 @@
         "baseline_card_sha256": "ba32055d07ce6bb8f05cc05e8d45336f9b148ae73bf39ee5774f8d357915dd11",
         "post_owner_card_sha256": "3af1f15f5c66e2b992e21284e5a28b9db365e7438154a20e94d8816907029a44"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "pri",
+        "study": {
+          "id": "a1-bei",
+          "layout": "standardStudy",
+          "translation": "pri",
+          "explanation": "Uporablja se, kadar je nekdo pri osebi, organizaciji ali kraju, pa tudi za okoliščine, v katerih se nekaj dogaja.",
+          "examples": [
+            {
+              "de": "Ich bin bei meinem Freund.",
+              "lv": "Sem pri svojem prijatelju."
+            },
+            {
+              "de": "Sie arbeitet bei Siemens.",
+              "lv": "Dela pri Siemensu."
+            },
+            {
+              "de": "Bei Regen bleiben wir zu Hause.",
+              "lv": "Ob dežju ostanemo doma."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bei",
+              "meaning": "pri osebi ali podjetju oziroma v določenih okoliščinah",
+              "example": "Ich bin bei meiner Schwester. – Sem pri svoji sestri."
+            },
+            {
+              "word": "an",
+              "meaning": "ob steni, robu ali obali",
+              "example": "Das Bild hängt an der Wand. – Slika visi na steni."
+            },
+            {
+              "word": "zu",
+              "meaning": "gibanje k osebi",
+              "example": "Ich gehe zu meinem Freund. – Grem k svojemu prijatelju."
+            }
+          ],
+          "tip": {
+            "text": "Zapomni si: pri osebi, kraju ali podjetju → bei."
+          },
+          "important": [
+            "bei pogosto pomeni pri osebi, kraju ali podjetju.",
+            "Za gibanje na površino navadno uporabimo auf, ne bei."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -8027,7 +8235,67 @@
         "baseline_card_sha256": "284d390d52b5039504cecebd5bf9b85c65ff899516f3a55b4fe35410e9d29c60",
         "post_owner_card_sha256": "e94903c5b638b442ea0bb24f0e8ba4db225fe8325e4f1f68029a649854caa330"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "ostati",
+        "study": {
+          "id": "a1-bleiben",
+          "layout": "standardStudy",
+          "translation": "ostati",
+          "explanation": [
+            "Glavna misel: bleiben pomeni ostati.",
+            "Uporablja se, kadar oseba ali stvar ne odide, temveč ostane na istem mestu ali v istem stanju.",
+            "Pri odhodu je nasprotje glagolov gehen in fahren.",
+            "Zelo pogosta zveza je Ich bleibe zu Hause."
+          ],
+          "examples": [
+            {
+              "de": "Ich bleibe zu Hause.",
+              "lv": "Ostanem doma."
+            },
+            {
+              "de": "Bleib hier!",
+              "lv": "Ostani tukaj!"
+            },
+            {
+              "de": "Wir bleiben noch eine Stunde.",
+              "lv": "Ostanemo še eno uro."
+            },
+            {
+              "de": "Ich gehe nach Hause.",
+              "lv": "Grem domov."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bleiben",
+              "meaning": "ostati",
+              "example": "Ich bleibe hier. – Ostanem tukaj."
+            },
+            {
+              "word": "gehen",
+              "meaning": "iti oziroma oditi peš",
+              "example": "Ich gehe nach Hause. – Grem domov."
+            },
+            {
+              "word": "fahren",
+              "meaning": "peljati se oziroma oditi s prevoznim sredstvom",
+              "example": "Ich fahre nach Hause. – Peljem se domov."
+            },
+            {
+              "word": "warten",
+              "meaning": "čakati",
+              "example": "Ich warte hier. – Čakam tukaj."
+            }
+          ],
+          "tip": {
+            "text": "Zapomni si: ne oditi → bleiben; oditi peš → gehen."
+          },
+          "important": [
+            "bleiben pomeni ostati, ne čakati.",
+            "Ich bleibe hier = ostanem tukaj; Ich warte hier = čakam tukaj."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -8444,7 +8712,66 @@
         "baseline_card_sha256": "e0cee3adfcde2b7dbdaae03fe119b9464539efe17f6c4a006793a0f523cdb983",
         "post_owner_card_sha256": "4082d927c8fe8f86bc08dbe522bfe2b1a5320fb43a4d3f39bb6f8ce77296a89c"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "tam • tu",
+        "study": {
+          "id": "a1-da",
+          "layout": "standardStudy",
+          "translation": "tam • tu",
+          "explanation": [
+            "Glavna misel: da na ravni A1 najpogosteje pomeni »tam« ali »tu«.",
+            "Kaže na kraj ali se nanaša na nekaj, kar je bilo že omenjeno.",
+            "Natančen prevod je odvisen od položaja in konteksta."
+          ],
+          "examples": [
+            {
+              "de": "Da ist mein Auto.",
+              "lv": "Tam je moj avto."
+            },
+            {
+              "de": "Ich war da.",
+              "lv": "Bil sem tam."
+            },
+            {
+              "de": "Da kommt er.",
+              "lv": "Glej, prihaja."
+            },
+            {
+              "de": "Komm mal da her!",
+              "lv": "Pridi sem!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "da",
+              "meaning": "tam • tu (splošno)",
+              "example": "Da ist mein Auto. – Tam je moj avto."
+            },
+            {
+              "word": "hier",
+              "meaning": "tukaj (na konkretnem mestu)",
+              "example": "Hier ist mein Auto. – Tukaj je moj avto."
+            },
+            {
+              "word": "dort",
+              "meaning": "tam (bolj oddaljeno)",
+              "example": "Dort ist mein Auto. – Tam je moj avto."
+            },
+            {
+              "word": "dann",
+              "meaning": "potem",
+              "example": "Dann gehen wir nach Hause. – Potem gremo domov."
+            }
+          ],
+          "tip": {
+            "text": "Zapomni si: splošni »tam/tu« → da."
+          },
+          "important": [
+            "da je splošni krajevni prislov.",
+            "hier pomeni konkretno »tukaj«, dort pa bolj oddaljeni »tam«."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -8694,7 +9021,53 @@
         "baseline_card_sha256": "a50550ab7e51d0a247833bcfcbb0c1e4576362eebf7ebdefa52f48e5ddc160d2",
         "post_owner_card_sha256": "a50550ab7e51d0a247833bcfcbb0c1e4576362eebf7ebdefa52f48e5ddc160d2"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "določni člen srednjega spola • to",
+        "study": {
+          "id": "a1-das",
+          "layout": "standardStudy",
+          "translation": "določni člen srednjega spola • to",
+          "explanation": "das se uporablja kot določni člen pri samostalnikih srednjega spola. V stavku je lahko tudi kazalni ali oziralni zaimek.",
+          "examples": [
+            {
+              "de": "Das ist mein Auto.",
+              "lv": "To je moj avto."
+            },
+            {
+              "de": "Das ist gut.",
+              "lv": "To je dobro."
+            },
+            {
+              "de": "Das Buch, das ich lese, ist interessant.",
+              "lv": "Knjiga, ki jo berem, je zanimiva."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das",
+              "meaning": "člen ali zaimek: to",
+              "example": "Das ist mein Auto. – To je moj avto."
+            },
+            {
+              "word": "dies",
+              "meaning": "to oziroma tale",
+              "example": "Dies ist mein Auto. – To je moj avto."
+            },
+            {
+              "word": "welches",
+              "meaning": "kateri oziroma ki",
+              "example": "Das ist das Buch, welches ich lese. – To je knjiga, ki jo berem."
+            }
+          ],
+          "tip": {
+            "text": "Zapomni si: srednji spol → das; veznik »da« → dass."
+          },
+          "important": [
+            "Na ravni A1 se das najprej uči kot določni člen srednjega spola.",
+            "das ni isto kot dass: das je lahko člen ali zaimek, dass pa je veznik."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -9018,7 +9391,68 @@
         "baseline_card_sha256": "c80c59827b43953a15aed9a84a0985035dd38244b47931d2d28af6a64ea9a9c5",
         "post_owner_card_sha256": "c80c59827b43953a15aed9a84a0985035dd38244b47931d2d28af6a64ea9a9c5"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "nedoločni člen",
+        "study": {
+          "id": "a1-ein",
+          "layout": "standardStudy",
+          "translation": "nedoločni člen",
+          "explanation": [
+            "Glavna misel: ein je nedoločni člen.",
+            "V imenovalniku se uporablja pri samostalnikih moškega in srednjega spola: ein Mann, ein Buch.",
+            "Pri ženskem spolu uporabimo eine.",
+            "V tožilniku moškega spola uporabimo einen."
+          ],
+          "examples": [
+            {
+              "de": "Ein Mann wartet draußen.",
+              "lv": "Neki moški čaka zunaj."
+            },
+            {
+              "de": "Ich habe ein Buch.",
+              "lv": "Imam knjigo."
+            },
+            {
+              "de": "Er sucht einen Stift.",
+              "lv": "Išče pisalo."
+            },
+            {
+              "de": "Ein Kind spielt.",
+              "lv": "Otrok se igra."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ein Mann",
+              "meaning": "moški spol",
+              "example": "Ein Mann wartet draußen."
+            },
+            {
+              "word": "eine Frau",
+              "meaning": "ženski spol",
+              "example": "eine Frau"
+            },
+            {
+              "word": "ein Buch",
+              "meaning": "srednji spol",
+              "example": "Ich habe ein Buch."
+            },
+            {
+              "word": "einen Mann",
+              "meaning": "tožilnik moškega spola",
+              "example": "einen Mann"
+            }
+          ],
+          "tip": {
+            "text": "Zapomni si: ein ne pomeni vedno števila »en«; pogosto je samo nedoločni člen."
+          },
+          "important": [
+            "ein: moški ali srednji spol v imenovalniku.",
+            "eine: ženski spol.",
+            "einen: moški spol v tožilniku."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -9445,7 +9879,70 @@
         "baseline_card_sha256": "580a59707be10b681818d584454934f6194178bde5bfb164d0f0533ccaad61c5",
         "post_owner_card_sha256": "580a59707be10b681818d584454934f6194178bde5bfb164d0f0533ccaad61c5"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "led • sladoled",
+        "study": {
+          "id": "a1-eis",
+          "layout": "standardStudy",
+          "translation": "led • sladoled",
+          "explanation": [
+            "Glavna misel: das Eis lahko pomeni led ali sladoled.",
+            "Pri zamrznjeni vodi pomeni led, pri jedi ali sladici pa navadno sladoled.",
+            "Kontekst praviloma jasno pokaže pravi pomen."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse ein Eis.",
+              "lv": "Jem sladoled."
+            },
+            {
+              "de": "Möchtest du ein Eis?",
+              "lv": "Ali želiš sladoled?"
+            },
+            {
+              "de": "Im Winter liegt Eis auf dem See.",
+              "lv": "Pozimi je na jezeru led."
+            },
+            {
+              "de": "Das Eis ist kalt.",
+              "lv": "Led je mrzel."
+            },
+            {
+              "de": "Ich nehme ein Eis mit Schokolade.",
+              "lv": "Vzamem sladoled s čokolado."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Eis",
+              "meaning": "led ali sladoled",
+              "example": "Ich esse ein Eis. – Jem sladoled."
+            },
+            {
+              "word": "der Schnee",
+              "meaning": "sneg",
+              "example": "Der Schnee ist weiß. – Sneg je bel."
+            },
+            {
+              "word": "kalt",
+              "meaning": "mrzel",
+              "example": "Das Wasser ist kalt. – Voda je mrzla."
+            },
+            {
+              "word": "das Dessert",
+              "meaning": "sladica",
+              "example": "Eis ist ein Dessert. – Sladoled je sladica."
+            }
+          ],
+          "tip": {
+            "text": "Zapomni si: jed ali sladica → sladoled; zima ali voda → led."
+          },
+          "important": [
+            "Slovenščina uporablja različni besedi led in sladoled, nemščina pa za oba pomena pogosto uporablja das Eis.",
+            "Pravi pomen določa kontekst."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -9805,7 +10302,65 @@
         "baseline_card_sha256": "0b240af89def9b65ef2df9f0a0d8d2cc9ca898415437841685d8eabd5ed919ca",
         "post_owner_card_sha256": "0b240af89def9b65ef2df9f0a0d8d2cc9ca898415437841685d8eabd5ed919ca"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "šele • najprej",
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "šele • najprej",
+          "explanation": [
+            "Glavna misel: erst pogosto pomeni »šele«, v določenem zaporedju pa tudi »najprej«.",
+            "Pogosto kaže, da se nekaj zgodi pozneje od pričakovanega ali da je količina oziroma starost manjša od pričakovane."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Najprej se uči, potem se igraj."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Pridem šele jutri."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Star je šele 18 let."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Jemo šele ob osmih."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "najprej • šele",
+              "example": "Erst lernen, dann spielen. – Najprej se uči, potem se igraj."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "najprej • na začetku",
+              "example": "Zuerst frühstücken wir. – Najprej zajtrkujemo."
+            },
+            {
+              "word": "nur",
+              "meaning": "samo",
+              "example": "Ich habe nur 5 Euro. – Imam samo 5 evrov."
+            },
+            {
+              "word": "dann",
+              "meaning": "potem",
+              "example": "Dann gehen wir nach Hause. – Potem gremo domov."
+            }
+          ],
+          "tip": {
+            "text": "Zapomni si: poznejši čas ali manjša starost → erst; omejena količina → nur."
+          },
+          "important": [
+            "erst in zuerst nista popolna sopomenki.",
+            "erst pogosto pomeni »šele«, zuerst pa praviloma »najprej«."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -10096,7 +10651,65 @@
         "baseline_card_sha256": "270a8fd84a5373d0b2dc47073e989f05ab15eef21b14291d2f3ac35e6c603ab5",
         "post_owner_card_sha256": "270a8fd84a5373d0b2dc47073e989f05ab15eef21b14291d2f3ac35e6c603ab5"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "počitnice (šolske)",
+        "study": {
+          "id": "a1-ferien",
+          "layout": "standardStudy",
+          "translation": "počitnice (šolske)",
+          "explanation": [
+            "Glavna misel: die Ferien pomenijo šolske ali študijske počitnice in se v nemščini uporabljajo samo v množini.",
+            "Zelo pogosta zveza je in den Ferien."
+          ],
+          "examples": [
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Med počitnicami se peljemo na morje."
+            },
+            {
+              "de": "In den Ferien habe ich viel Zeit.",
+              "lv": "Med počitnicami imam veliko časa."
+            },
+            {
+              "de": "Was macht ihr in den Ferien?",
+              "lv": "Kaj počnete med počitnicami?"
+            },
+            {
+              "de": "Die Schule ist in den Ferien zu.",
+              "lv": "Šola je med počitnicami zaprta."
+            },
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Med počitnicami se peljemo na morje."
+            },
+            {
+              "de": "In den Ferien",
+              "lv": "med šolskimi počitnicami"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Ferien",
+              "meaning": "šolske ali študijske počitnice (samo množina)",
+              "example": "In den Ferien fahren wir weg. – Med počitnicami odpotujemo."
+            },
+            {
+              "word": "der Urlaub",
+              "meaning": "dopust z dela (ednina)",
+              "example": "Ich habe zwei Wochen Urlaub. – Imam dva tedna dopusta."
+            }
+          ],
+          "tip": [
+            "die Ferien se uporablja samo v množini.",
+            "Uporabi ga za šolske ali študijske počitnice."
+          ],
+          "important": [
+            "Pravilno: in den Ferien.",
+            "Napačno: in der Ferien.",
+            "Za dopust z dela nemščina uporablja der Urlaub."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -10212,7 +10825,53 @@
         "RECONSTRUCTION_FAILED"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "biti všeč",
+        "study": {
+          "id": "a1-gefallen-study",
+          "layout": "standardStudy",
+          "translation": "biti všeč",
+          "explanation": [
+            "Glavna misel: gefallen pomeni »biti všeč«, vendar je nemška stavčna zgradba drugačna.",
+            "Stvar, ki je komu všeč, je osebek stavka.",
+            "Oseba, ki ji je nekaj všeč, stoji v dajalniku: mir, dir, ihm, ihr, uns, euch, ihnen."
+          ],
+          "examples": [
+            {
+              "de": "Das gefällt mir.",
+              "lv": "To mi je všeč."
+            },
+            {
+              "de": "Gefällt dir das Kleid?",
+              "lv": "Ti je obleka všeč?"
+            },
+            {
+              "de": "Der Film gefällt uns.",
+              "lv": "Film nam je všeč."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "gefallen",
+              "meaning": "biti všeč; oseba je v dajalniku",
+              "example": "Das gefällt mir. – To mi je všeč."
+            },
+            {
+              "word": "mögen",
+              "meaning": "imeti rad oziroma marati",
+              "example": "Ich mag das. – To mi je všeč."
+            }
+          ],
+          "tip": [
+            "Zapomni si zgradbo: Das gefällt mir.",
+            "Nemške besedne zveze ne sestavljaj z dobesednim prevodom besednega reda."
+          ],
+          "important": [
+            "gefallen zahteva dajalnik osebe: mir, dir, ihm, ihr.",
+            "Das gefällt mir = To mi je všeč."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -10497,7 +11156,52 @@
         "baseline_card_sha256": "09e6b8585a78eaa0276b26cc6d896d5a5ea663ebb74ad6ae8edc7a3ca5ba6c77",
         "post_owner_card_sha256": "09e6b8585a78eaa0276b26cc6d896d5a5ea663ebb74ad6ae8edc7a3ca5ba6c77"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "takoj • enak",
+        "study": {
+          "id": "a1-gleich",
+          "layout": "standardStudy",
+          "translation": "takoj • enak",
+          "explanation": [
+            "Glavna misel: glede na čas gleich pomeni »takoj« ali »čez trenutek«, pri primerjanju pa »enak«.",
+            "Kontekst pokaže, kateri pomen je pravi."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme gleich.",
+              "lv": "Takoj pridem."
+            },
+            {
+              "de": "Wir haben die gleiche Farbe.",
+              "lv": "Imamo enako barvo."
+            },
+            {
+              "de": "Das Essen ist gleich fertig.",
+              "lv": "Hrana bo takoj pripravljena."
+            },
+            {
+              "de": "Beide Wege sind gleich lang.",
+              "lv": "Obe poti sta enako dolgi."
+            },
+            {
+              "de": "Bis gleich!",
+              "lv": "Se vidimo čez trenutek!"
+            },
+            {
+              "de": "Sie sind gleich groß.",
+              "lv": "So enake velikosti."
+            }
+          ],
+          "tip": [
+            "Pri času pomeni »takoj« ali »čez trenutek«.",
+            "Pri primerjanju pomeni »enak« ali »enako«."
+          ],
+          "important": [
+            "gleich = takoj (čas) ali enak (primerjava).",
+            "Bis gleich! je običajen pozdrav ob kratkem slovesu."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -10678,7 +11382,40 @@
         "baseline_card_sha256": "75918f25b7db654865fbdc4637d48924fd28203e0a475cfe2a4b29514ec657af",
         "post_owner_card_sha256": "75918f25b7db654865fbdc4637d48924fd28203e0a475cfe2a4b29514ec657af"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "majhen",
+        "study": {
+          "id": "a1-klein-study",
+          "layout": "standardStudy",
+          "translation": "majhen",
+          "explanation": [
+            "Glavna misel: klein pomeni majhen po velikosti, obsegu ali starosti.",
+            "Lahko opisuje predmet, prostor, količino ali otroka; natančen pomen določa kontekst."
+          ],
+          "examples": [
+            {
+              "de": "Das Zimmer ist klein.",
+              "lv": "Soba je majhna."
+            },
+            {
+              "de": "Das Kind ist noch klein.",
+              "lv": "Otrok je še majhen."
+            },
+            {
+              "de": "Ich habe eine kleine Tasche.",
+              "lv": "Imam majhno torbo."
+            }
+          ],
+          "tip": [
+            "klein = majhen",
+            "Uporabi klein, kadar gre za majhnost po velikosti, obsegu ali starosti."
+          ],
+          "important": [
+            "klein najpogosteje pomeni »majhen«.",
+            "Pri otroku lahko označuje tudi nizko starost."
+          ]
+        }
+      }
     },
     {
       "target_language": "sl",
@@ -10864,7 +11601,52 @@
         "baseline_card_sha256": "5f2d9c70f719e17da5d6c7a7686114c25025cfefff2ceeaf6fbc2245baa36ecf",
         "post_owner_card_sha256": "5f2d9c70f719e17da5d6c7a7686114c25025cfefff2ceeaf6fbc2245baa36ecf"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "govoriti",
+        "study": {
+          "id": "a1-sprechen-study",
+          "layout": "standardStudy",
+          "translation": "govoriti",
+          "explanation": [
+            "Glavna misel: sprechen pomeni govoriti, pogovarjati se ali uporabljati jezik.",
+            "Poudarja proces govorjenja ali sporazumevanje v določenem jeziku."
+          ],
+          "examples": [
+            {
+              "de": "Ich spreche Deutsch.",
+              "lv": "Govorim nemško."
+            },
+            {
+              "de": "Wir sprechen über die Arbeit.",
+              "lv": "Govorimo o delu."
+            },
+            {
+              "de": "Sie spricht mit ihrer Lehrerin.",
+              "lv": "Pogovarja se s svojo učiteljico."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sprechen",
+              "meaning": "govoriti ali se pogovarjati; proces ali jezik",
+              "example": "Wir sprechen über die Arbeit. – Govorimo o delu."
+            },
+            {
+              "word": "sagen",
+              "meaning": "reči določeno sporočilo",
+              "example": "Sag mir die Wahrheit. – Povej mi resnico."
+            }
+          ],
+          "tip": [
+            "sprechen = govoriti",
+            "Uporabi sprechen za proces govorjenja, pogovor ali jezik."
+          ],
+          "important": [
+            "sprechen pomeni govoriti ali se pogovarjati.",
+            "Za določeno izrečeno sporočilo nemščina pogosto uporablja sagen."
+          ]
+        }
+      }
     },
     {
       "target_language": "sq",
@@ -11204,7 +11986,66 @@
         "baseline_card_sha256": "84eee0dfb2e91b967d8b991b449a4b1e3b80fd601ee6e7d03811cf0bc45e996e",
         "post_owner_card_sha256": "14800f3f4540089670bdf915ea6751ff3ac1bd969146ad3cddd491116ed303d9"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "lahem • bëj banjë",
+        "study": {
+          "id": "a1-baden",
+          "layout": "standardStudy",
+          "translation": "lahem • bëj banjë",
+          "explanation": [
+            "Ideja kryesore: baden do të thotë të lahesh, të rrish në ujë ose të shijosh ujin.",
+            "Përdoret për çlodhje në liqen, det ose pishinë dhe mund të nënkuptojë edhe të bësh banjë në vaskë.",
+            "Kur theksi është te lëvizja e notit ose te sporti, gjermanishtja përdor më shpesh schwimmen."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe baden.",
+              "lv": "Po shkoj të lahem."
+            },
+            {
+              "de": "Wir gehen im See baden.",
+              "lv": "Po shkojmë të lahemi në liqen."
+            },
+            {
+              "de": "Er schwimmt sehr gut.",
+              "lv": "Ai noton shumë mirë."
+            },
+            {
+              "de": "Ich schwimme jeden Montag.",
+              "lv": "Unë notoj çdo të hënë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "baden",
+              "meaning": "lahem, rri në ujë ose bëj banjë",
+              "example": "Ich gehe baden. – Po shkoj të lahem."
+            },
+            {
+              "word": "schwimmen",
+              "meaning": "notoj si lëvizje ose sport",
+              "example": "Er schwimmt sehr gut. – Ai noton shumë mirë."
+            },
+            {
+              "word": "duschen",
+              "meaning": "bëj dush",
+              "example": "Ich dusche am Morgen. – Bëj dush në mëngjes."
+            },
+            {
+              "word": "schwimmen gehen",
+              "meaning": "shkoj për të notuar",
+              "example": "Ich gehe heute schwimmen. – Sot po shkoj për të notuar."
+            }
+          ],
+          "tip": {
+            "text": "Mbaj mend: çlodhje ose qëndrim në ujë → baden; lëvizja e notit → schwimmen."
+          },
+          "important": [
+            "baden dhe schwimmen nuk janë sinonime të plota.",
+            "baden thekson më shpesh qëndrimin ose çlodhjen në ujë, ndërsa schwimmen lëvizjen e notit."
+          ]
+        }
+      }
     },
     {
       "target_language": "sq",
@@ -11534,7 +12375,57 @@
         "baseline_card_sha256": "9054b0de0bfd2b4d61c6cc5a13ff5124315c6884c828a89111a7303385dea0ee",
         "post_owner_card_sha256": "7c6b133ea49284dfb934367a06be3c30169243838d768ed1fa88ca843788e746"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "vizitë",
+        "study": {
+          "id": "a1-besuch",
+          "layout": "standardStudy",
+          "translation": "vizitë",
+          "explanation": [
+            "Ideja kryesore: der Besuch do të thotë vizitë ose ardhje për të parë dikë a diçka.",
+            "Mund t'i referohet vizitës në një vend, ngjarje ose te një person.",
+            "Shumësi është die Besuche."
+          ],
+          "examples": [
+            {
+              "de": "Der Besuch im Museum war interessant.",
+              "lv": "Vizita në muze ishte interesante."
+            },
+            {
+              "de": "Danke für deinen Besuch.",
+              "lv": "Faleminderit për vizitën tënde."
+            },
+            {
+              "de": "Der Arzt macht einen Besuch.",
+              "lv": "Mjeku bën një vizitë."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Besuch",
+              "meaning": "vizitë",
+              "example": "Danke für deinen Besuch. – Faleminderit për vizitën tënde."
+            },
+            {
+              "word": "der Besucher",
+              "meaning": "vizitor",
+              "example": "Der Besucher wartet draußen. – Vizitori pret jashtë."
+            },
+            {
+              "word": "besuchen",
+              "meaning": "vizitoj",
+              "example": "Ich besuche meine Großeltern. – Vizitoj gjyshërit e mi."
+            }
+          ],
+          "tip": {
+            "text": "Mbaj mend: Besuch është vizita, ndërsa Besucher është personi që viziton."
+          },
+          "important": [
+            "der Besuch mund të jetë vizitë te një person, në një vend ose në një ngjarje.",
+            "Shumësi: die Besuche."
+          ]
+        }
+      }
     },
     {
       "target_language": "sq",
@@ -11889,7 +12780,56 @@
         "baseline_card_sha256": "726407a47604539fb53c70b055bb034d9d57cf1eaae68c9f97dea2642c52eda7",
         "post_owner_card_sha256": "63f20c2deb42bf9af707e67333d5e2328928ebcfba13083711ab18d4e230eb20"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "vizitoj",
+        "study": {
+          "id": "a1-besuchen",
+          "layout": "standardStudy",
+          "translation": "vizitoj",
+          "explanation": [
+            "Ideja kryesore: besuchen përdoret kur vizitojmë një vend, aktivitet ose person.",
+            "Në gjermanisht përdoret pa parafjalë dhe merr kundrinorin në kallëzore."
+          ],
+          "examples": [
+            {
+              "de": "Ich besuche das Museum.",
+              "lv": "Unë vizitoj muzeun."
+            },
+            {
+              "de": "Wir besuchen einen Deutschkurs.",
+              "lv": "Ne ndjekim një kurs të gjuhës gjermane."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Unë vizitoj gjyshërit e mi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "besuchen",
+              "meaning": "vizitoj një vend, aktivitet ose person",
+              "example": "Ich besuche meine Großeltern. – Unë vizitoj gjyshërit e mi."
+            },
+            {
+              "word": "treffen",
+              "meaning": "takoj",
+              "example": "Ich treffe meinen Freund. – Unë takoj shokun tim."
+            },
+            {
+              "word": "zu jemandem gehen",
+              "meaning": "shkoj te dikush",
+              "example": "Ich gehe zu meinem Freund. – Unë shkoj te shoku im."
+            }
+          ],
+          "tip": {
+            "text": "Mbaj mend: besuchen merr drejtpërdrejt një kundrinor, pa parafjalë."
+          },
+          "important": [
+            "besuchen përdoret pa parafjalë: Ich besuche meine Freundin.",
+            "Mos e ngatërro besuchen me treffen: e para do të thotë të vizitosh, e dyta të takosh."
+          ]
+        }
+      }
     },
     {
       "target_language": "sr",
@@ -12092,7 +13032,53 @@
         "baseline_card_sha256": "d0d5497a9b56c11283e2714fc71f201de19e1f9ed5aad4eb0510100a17abaa17",
         "post_owner_card_sha256": "d0d5497a9b56c11283e2714fc71f201de19e1f9ed5aad4eb0510100a17abaa17"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "дакле • према томе",
+        "study": {
+          "id": "a1-also",
+          "layout": "standardStudy",
+          "translation": "дакле • према томе",
+          "explanation": "Користи се за извођење закључка или приказивање резултата: „дакле“, „према томе“.",
+          "examples": [
+            {
+              "de": "Es regnet, also bleibe ich zu Hause.",
+              "lv": "Пада киша, дакле остајем код куће."
+            },
+            {
+              "de": "Du bist krank, also gehst du nicht zur Arbeit.",
+              "lv": "Болестан си, дакле не идеш на посао."
+            },
+            {
+              "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
+              "lv": "Много сам учио, дакле сада то разумем."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "also",
+              "meaning": "дакле • према томе",
+              "example": "Es regnet, also bleibe ich zu Hause. – Пада киша, дакле остајем код куће."
+            },
+            {
+              "word": "auch",
+              "meaning": "такође",
+              "example": "Ich komme auch. – И ја долазим."
+            },
+            {
+              "word": "deshalb",
+              "meaning": "зато",
+              "example": "Es regnet, deshalb bleibe ich zu Hause. – Пада киша, зато остајем код куће."
+            }
+          ],
+          "tip": {
+            "text": "Запамти: закључак → also."
+          },
+          "important": [
+            "also уводи закључак који произлази из претходно реченог.",
+            "За значење „зато“ немачки често користи deshalb."
+          ]
+        }
+      }
     },
     {
       "target_language": "sr",
@@ -12266,7 +13252,40 @@
         "baseline_card_sha256": "cf4722ed87046a24bf74dba13bf59fc40270136b626c1c5c1fd2d752b39c6241",
         "post_owner_card_sha256": "cf4722ed87046a24bf74dba13bf59fc40270136b626c1c5c1fd2d752b39c6241"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "такође",
+        "study": {
+          "id": "a1-auch-study",
+          "layout": "standardStudy",
+          "translation": "такође",
+          "explanation": [
+            "Главна идеја: auch је најчешћа и најнеутралнија немачка реч за „такође“.",
+            "Означава додавање још једне особе, ствари или радње."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme auch.",
+              "lv": "И ја долазим."
+            },
+            {
+              "de": "Sie arbeitet auch hier.",
+              "lv": "И она ради овде."
+            },
+            {
+              "de": "Ich wünsche Ihnen auch einen schönen Tag.",
+              "lv": "И вама желим пријатан дан."
+            }
+          ],
+          "tip": [
+            "auch = такође",
+            "У немачкој реченици auch стоји уз део на који се односи."
+          ],
+          "important": [
+            "Правилно: Ich wünsche Ihnen auch einen schönen Tag.",
+            "Неправилно: Ich auch wünsche Ihnen einen schönen Tag."
+          ]
+        }
+      }
     }
   ],
   "part": 4,
