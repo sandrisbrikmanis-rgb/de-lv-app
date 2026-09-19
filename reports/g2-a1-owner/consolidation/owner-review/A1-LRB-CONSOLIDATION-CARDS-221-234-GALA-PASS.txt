@@ -1,0 +1,21 @@
+A1 LRB konsolidācija — kartīšu 221–234 GALA PASS
+
+Verdikts: A1_LRB_CONSOLIDATION_CARDS_221_234_GALA_PASS
+
+| Pārbaude | Rezultāts |
+| --- | ---: |
+| Pārbaudītas kartītes | 14/14 |
+| LABOT / NELABOT / PENDING | 0 / 14 / 0 |
+| Precīzi ievietotas OWNER kartītes | 14/14 |
+| Pilno kartīšu pilnīgums | PASS |
+| DE piemēru atbilstības kļūdas | 0 |
+| Nozīmes paplašinājumi/sašaurinājumi | 0 |
+| Nepareizas valodas atlikumi | 0 |
+| Dublikāti/pretrunas | 0 |
+| Tukši mērķa lauki | 0 |
+
+Git HEAD: e226bc2751480177f5511080f04748afd4230c45
+Cards 221–234 payload SHA-256: fdff0dc3ab315e25199870f41046a3835042dee2e0ec28699d8948f61c79b13f
+Pass proof SHA-256: bb59fdd72c112e49e84a304cc1adc1a31284d56e15bc6f568605830cbc434199
+
+COPY-PASTE-4 packs: 234/234 owner payloads; GALA-closed 001–234.
