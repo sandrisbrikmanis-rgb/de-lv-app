@@ -3,7 +3,7 @@ A1 LRB konsolidācija — kartīšu 1–40 GALA korekcija #1 (piemērots)
 Klasifikācija: COPY-PASTE_CORRECTION_1_COMPLETE_AWAITING_GALA_VERDICT
 Bāzes HEAD: 841de1000c998337ac8c93710e15caf2e6626e7d
 Korekcijas SHA-256: c99360cde959bc116ca757465e73bb7f445bf5d0d76b86c27e5fed2cf031a0c4
-Git HEAD: 841de1000c998337ac8c93710e15caf2e6626e7d
+Git HEAD: 2900d410a639474345e190ce7f05e95671fc339f
 
 LABOT (10):
 bg|aufs, bg|gleich, bg|groß, bg|gut, bg|ihr, cs|Mann, da|Laden, en|es, en|klein, es|aufs
