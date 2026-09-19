@@ -1,0 +1,853 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_221_234_FULL_CARD_COPY_PASTE_READY",
+  "source_head": "bf2d311a96f31e7c6bdb6ded4b1fde5dbe78a2fa",
+  "scope": {
+    "start_ordinal": 221,
+    "end_ordinal": 234,
+    "cards": 14,
+    "full_composites": 14,
+    "scalar_cards": 0,
+    "pending": 0
+  },
+  "cursor_action": "COPY_PASTE_ONLY",
+  "cards": [
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "dass",
+      "full_card_owner_new": {
+        "lv": "ki • -diğini/-dığını",
+        "study": {
+          "id": "a1-dass",
+          "layout": "standardStudy",
+          "translation": "ki • -diğini/-dığını",
+          "explanation": [
+            "dass bir olguyu, düşünceyi veya söylenen şeyi bildiren yan cümleyi başlatır.",
+            "Türkçede bağlama göre ki bağlacıyla ya da -diğini/-dığını yapısıyla karşılanır.",
+            "dass ile başlayan yan cümlede çekimli fiil genellikle sonda yer alır."
+          ],
+          "examples": [
+            {
+              "de": "Ich weiß, dass du müde bist.",
+              "lv": "Yorgun olduğunu biliyorum."
+            },
+            {
+              "de": "Er sagt, dass er kommt.",
+              "lv": "O, geleceğini söylüyor."
+            },
+            {
+              "de": "Ich glaube, dass das stimmt.",
+              "lv": "Bunun doğru olduğuna inanıyorum."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "dass",
+              "meaning": "ki; -diğini/-dığını",
+              "example": "Ich weiß, dass er kommt. – Onun geleceğini biliyorum."
+            },
+            {
+              "word": "weil",
+              "meaning": "çünkü",
+              "example": "Ich bleibe zu Hause, weil es regnet. – Yağmur yağdığı için evde kalıyorum."
+            },
+            {
+              "word": "damit",
+              "meaning": "-mesi için",
+              "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Almanya’da çalışabilmek için Almanca öğreniyorum."
+            },
+            {
+              "word": "ob",
+              "meaning": "olup olmadığını",
+              "example": "Ich weiß nicht, ob er kommt. – Onun gelip gelmeyeceğini bilmiyorum."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Bir olgu veya düşünceyi aktaran yan cümle → dass."
+            }
+          ],
+          "important": [
+            "dass bir yan cümleyi başlatır ve Türkçede çoğu zaman ki veya -diğini/-dığını ile karşılanır.",
+            "dass ile artikel ya da zamir olan das aynı sözcük değildir."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "der",
+      "full_card_owner_new": {
+        "lv": "eril belirli artikel",
+        "study": {
+          "id": "a1-der",
+          "layout": "standardStudy",
+          "translation": "eril belirli artikel",
+          "explanation": [
+            "der, Almancada eril cinsiyetteki isimlerle kullanılan belirli artikeldir.",
+            "Bazı cümlelerde der bir zamir veya ilgi zamiri olarak da kullanılabilir.",
+            "Türkçede artikel bulunmadığından der çoğu zaman ayrı bir sözcükle çevrilmez."
+          ],
+          "examples": [
+            {
+              "de": "Der Mann ist hier.",
+              "lv": "Adam burada."
+            },
+            {
+              "de": "Der Bus kommt.",
+              "lv": "Otobüs geliyor."
+            },
+            {
+              "de": "Der Lehrer spricht.",
+              "lv": "Erkek öğretmen konuşuyor."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Eril isim → der."
+            }
+          ],
+          "important": [
+            "A1 düzeyinde der önce eril belirli artikel olarak öğrenilir.",
+            "Zamir ve ilgi zamiri olarak kullanımları daha sonraki düzeylerde ele alınır."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "die",
+      "full_card_owner_new": {
+        "lv": "dişil belirli artikel",
+        "study": {
+          "id": "a1-die",
+          "layout": "standardStudy",
+          "translation": "dişil belirli artikel",
+          "explanation": [
+            "die, Almancada dişil cinsiyetteki isimlerle kullanılan belirli artikeldir.",
+            "Bazı cümlelerde die bir zamir veya ilgi zamiri olarak da kullanılabilir.",
+            "die ayrıca bütün cinsiyetlerin çoğul biçiminde kullanılan belirli artikeldir."
+          ],
+          "examples": [
+            {
+              "de": "Die Frau ist hier.",
+              "lv": "Kadın burada."
+            },
+            {
+              "de": "Die Katze schläft.",
+              "lv": "Dişi kedi uyuyor."
+            },
+            {
+              "de": "Die Lehrerin erklärt.",
+              "lv": "Kadın öğretmen açıklıyor."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Dişil isim → die."
+            }
+          ],
+          "important": [
+            "A1 düzeyinde die önce dişil belirli artikel olarak öğrenilir.",
+            "Çoğulda bütün cinsiyetler için die kullanılır."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "dieser",
+      "full_card_owner_new": {
+        "lv": "bu",
+        "study": {
+          "id": "a1-dieser",
+          "layout": "standardStudy",
+          "translation": "bu",
+          "explanation": [
+            "dieser, belirli veya özellikle vurgulanan eril bir kişiyi ya da nesneyi gösterir.",
+            "Eril bir isimle birlikte kullanılır ve hâle göre biçimi değişir.",
+            "dieser, diese ve dieses isimlerin cinsiyetine göre değişir; çoğul biçim yine diese olur."
+          ],
+          "examples": [
+            {
+              "de": "Dieser Mann ist nett.",
+              "lv": "Bu adam nazik."
+            },
+            {
+              "de": "Ich sehe diesen Hund.",
+              "lv": "Bu köpeği görüyorum."
+            },
+            {
+              "de": "Dieser Stift ist neu.",
+              "lv": "Bu kalem yeni."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Eril bir isimle “bu” → dieser."
+            }
+          ],
+          "important": [
+            "dieser, diese ve dieses cinsiyete göre değişir.",
+            "Çoğul biçim diese’dir."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "ein",
+      "full_card_owner_new": {
+        "lv": "bir • belirsiz artikel",
+        "study": {
+          "id": "a1-ein",
+          "layout": "standardStudy",
+          "translation": "bir • belirsiz artikel",
+          "explanation": [
+            "ein Almancada belirsiz artikeldir.",
+            "Nominatifte eril ve nötr isimlerle ein kullanılır: ein Mann, ein Buch.",
+            "Dişil isimlerde eine kullanılır.",
+            "Eril akuzatif biçim einen’dir."
+          ],
+          "examples": [
+            {
+              "de": "Ein Mann wartet draußen.",
+              "lv": "Bir adam dışarıda bekliyor."
+            },
+            {
+              "de": "Ich habe ein Buch.",
+              "lv": "Bir kitabım var."
+            },
+            {
+              "de": "Er sucht einen Stift.",
+              "lv": "O bir kalem arıyor."
+            },
+            {
+              "de": "Ein Kind spielt.",
+              "lv": "Bir çocuk oynuyor."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ein Mann",
+              "meaning": "eril, nominatif",
+              "example": "Ein Mann wartet draußen. – Bir adam dışarıda bekliyor."
+            },
+            {
+              "word": "eine Frau",
+              "meaning": "dişil",
+              "example": "eine Frau – bir kadın"
+            },
+            {
+              "word": "ein Buch",
+              "meaning": "nötr",
+              "example": "Ich habe ein Buch. – Bir kitabım var."
+            },
+            {
+              "word": "einen Mann",
+              "meaning": "eril, akuzatif",
+              "example": "einen Mann – bir adamı"
+            }
+          ],
+          "tip": [
+            {
+              "text": "ein yalnızca bir sayısı değildir; çoğu zaman belirsiz artikeldir."
+            }
+          ],
+          "important": [
+            "ein: eril nominatif.",
+            "ein: nötr nominatif veya akuzatif.",
+            "eine: dişil.",
+            "einen: eril akuzatif."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "Eis",
+      "full_card_owner_new": {
+        "lv": "buz • dondurma",
+        "study": {
+          "id": "a1-eis",
+          "layout": "standardStudy",
+          "translation": "buz • dondurma",
+          "explanation": [
+            "das Eis hem buz hem de dondurma anlamına gelebilir.",
+            "Donmuş su söz konusuysa Eis buz anlamındadır.",
+            "Yiyecek veya tatlı söz konusuysa günlük dilde Eis dondurma anlamına gelir.",
+            "Hangi anlamın kastedildiğini bağlam gösterir."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse ein Eis.",
+              "lv": "Dondurma yiyorum."
+            },
+            {
+              "de": "Möchtest du ein Eis?",
+              "lv": "Dondurma ister misin?"
+            },
+            {
+              "de": "Im Winter liegt Eis auf dem See.",
+              "lv": "Kışın gölün üzerinde buz olur."
+            },
+            {
+              "de": "Das Eis ist kalt.",
+              "lv": "Buz soğuktur."
+            },
+            {
+              "de": "Ich nehme ein Eis mit Schokolade.",
+              "lv": "Çikolatalı bir dondurma alacağım."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Eis",
+              "meaning": "buz veya dondurma",
+              "example": "Ich esse ein Eis. – Dondurma yiyorum."
+            },
+            {
+              "word": "der Schnee",
+              "meaning": "kar",
+              "example": "Der Schnee ist weiß. – Kar beyazdır."
+            },
+            {
+              "word": "kalt",
+              "meaning": "soğuk",
+              "example": "Das Wasser ist kalt. – Su soğuktur."
+            },
+            {
+              "word": "das Dessert",
+              "meaning": "tatlı",
+              "example": "Eis ist ein Dessert. – Dondurma bir tatlıdır."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Yiyecek bağlamı → dondurma; kış veya donmuş su bağlamı → buz."
+            }
+          ],
+          "important": [
+            "Türkçede buz ve dondurma farklı sözcüklerdir, Almancada ikisi için de das Eis kullanılabilir.",
+            "Doğru anlamı bağlam belirler."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "erst",
+      "full_card_owner_new": {
+        "lv": "ancak • daha • önce",
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "ancak • daha • önce",
+          "explanation": [
+            "erst bağlama göre ancak, daha veya önce anlamına gelir.",
+            "Bir şeyin beklenenden geç gerçekleştiğini ya da yaş veya miktarın beklenenden az olduğunu gösterebilir.",
+            "Bir sıralamada erst önce anlamına gelir: Erst lernen, dann spielen.",
+            "erst ile zuerst tam eş anlamlı değildir; nur ise çoğunlukla yalnızca miktarı sınırlar."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Önce ders çalış, sonra oyna."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Ben ancak yarın geleceğim."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "O daha 18 yaşında."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Biz ancak saat sekizde yemek yiyoruz."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "önce, ancak veya daha",
+              "example": "Erst lernen, dann spielen. – Önce ders çalış, sonra oyna."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "ilk önce veya başlangıçta",
+              "example": "Zuerst frühstücken wir. – Önce kahvaltı yapıyoruz."
+            },
+            {
+              "word": "nur",
+              "meaning": "yalnızca; miktar sınırlaması",
+              "example": "Ich habe nur 5 Euro. – Yalnızca 5 avrom var."
+            },
+            {
+              "word": "dann",
+              "meaning": "sonra",
+              "example": "Dann gehen wir nach Hause. – Sonra eve gidiyoruz."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Zaman, yaş veya sıralama → çoğu zaman erst; yalnızca miktar → çoğu zaman nur."
+            }
+          ],
+          "important": [
+            "erst ve zuerst tam eş anlamlı değildir.",
+            "erst ancak, daha veya önce anlamlarına gelebilir; zuerst esas olarak ilk sırayı belirtir."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "es",
+      "full_card_owner_new": {
+        "lv": "o • öznesiz yapı",
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "o • öznesiz yapı",
+          "explanation": [
+            "es Almancada bir zamirdir.",
+            "Nötr bir isim yerine o anlamında kullanılabilir.",
+            "Hava durumu gibi öznesiz yapılarda Türkçeye çoğu zaman ayrı bir sözcük olarak çevrilmez.",
+            "Türkçedeki ben zamiri Almancada ich’tir; es değildir."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet.",
+              "lv": "Yağmur yağıyor."
+            },
+            {
+              "de": "Es ist kalt.",
+              "lv": "Hava soğuk."
+            },
+            {
+              "de": "Das Kind schläft.",
+              "lv": "Çocuk uyuyor."
+            },
+            {
+              "de": "Es ist müde.",
+              "lv": "O yorgun."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "es",
+              "meaning": "o veya öznesiz yapı",
+              "example": "Es regnet. – Yağmur yağıyor."
+            },
+            {
+              "word": "ich",
+              "meaning": "ben",
+              "example": "Ich lerne Deutsch. – Almanca öğreniyorum."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Türkçedeki ben → ich; Almanca es değildir."
+            }
+          ],
+          "important": [
+            "ich ve es aynı sözcük değildir.",
+            "Almanca es çoğu zaman o anlamına gelir veya Türkçeye ayrıca çevrilmez.",
+            "Türkçedeki ben zamirinin Almancası ich’tir."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "essen",
+      "full_card_owner_new": {
+        "lv": "yemek yemek",
+        "study": {
+          "id": "a1-essen",
+          "layout": "standardStudy",
+          "translation": "yemek yemek",
+          "explanation": [
+            "essen küçük harfle yazıldığında yemek yemek anlamındaki fiildir.",
+            "das Essen ise büyük harfle yazılan bir isimdir ve yemek, yiyecek veya öğün anlamına gelir.",
+            "Fiil olan essen artikelsiz kullanılır; isim olan Essen çoğunlukla das artikeliyle kullanılır."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Pizza.",
+              "lv": "Pizza yemeyi seviyorum."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Siz ne yemek istiyorsunuz?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Saat 12’de yemek yiyoruz."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Yemek hazır."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Yemeğin tadı çok güzel."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Yemeğin tadı güzel."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Fiil: essen = yemek yemek."
+            },
+            {
+              "text": "İsim: das Essen = yemek veya öğün."
+            }
+          ],
+          "important": [
+            "essen artikelsiz kullanılan bir fiildir.",
+            "das Essen ile essen aynı şey değildir.",
+            "Eylem: essen.",
+            "Yemek veya öğün: das Essen."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "fernsehen",
+      "full_card_owner_new": {
+        "lv": "televizyon izlemek",
+        "study": {
+          "id": "a1-fernsehen",
+          "layout": "standardStudy",
+          "translation": "televizyon izlemek",
+          "explanation": [
+            "fernsehen ayrılabilen bir fiildir: ich sehe fern, du siehst fern.",
+            "Televizyon izlemek anlamına gelir.",
+            "Televizyonu bir yayın ortamı veya programların bütünü olarak anlatan isim das Fernsehen’dir."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Bu akşam televizyon izleyeceğim."
+            },
+            {
+              "de": "Siehst du oft fern?",
+              "lv": "Sık sık televizyon izler misin?"
+            },
+            {
+              "de": "Die Kinder sehen am Nachmittag fern.",
+              "lv": "Çocuklar öğleden sonra televizyon izliyor."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fernsehen",
+              "meaning": "televizyon izlemek",
+              "example": "Ich sehe fern. – Televizyon izliyorum."
+            },
+            {
+              "word": "das Fernsehen",
+              "meaning": "yayın ortamı olarak televizyon",
+              "example": "Im Fernsehen läuft ein Film. – Televizyonda bir film gösteriliyor."
+            },
+            {
+              "word": "sehen",
+              "meaning": "görmek",
+              "example": "Ich sehe einen Film. – Bir film görüyorum/izliyorum."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Eylem için fernsehen (ich sehe fern), yayın ortamı veya programlar için das Fernsehen kullanılır."
+            }
+          ],
+          "important": [
+            "fernsehen bir fiildir ve çekimde ayrılır: ich sehe fern.",
+            "das Fernsehen yalnızca tekil kullanılan bir isimdir."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "Fernsehen",
+      "full_card_owner_new": {
+        "lv": "televizyon",
+        "study": {
+          "id": "a1-fernsehen-study",
+          "layout": "standardStudy",
+          "translation": "televizyon",
+          "explanation": [
+            "das Fernsehen bir isimdir ve yalnızca tekil kullanılır.",
+            "Televizyonu bir yayın ortamı veya programların bütünü olarak anlatır.",
+            "fernsehen ise ayrılabilen bir fiildir: ich sehe fern, du siehst fern.",
+            "das Fernsehen’in çoğul biçimi yoktur."
+          ],
+          "examples": [
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Bugün televizyonda ne var?"
+            },
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Bugün televizyonda ne var?"
+            },
+            {
+              "de": "Im Fernsehen läuft ein Film.",
+              "lv": "Televizyonda bir film gösteriliyor."
+            },
+            {
+              "de": "Das Fernsehen ist heute langweilig.",
+              "lv": "Televizyon bugün sıkıcı."
+            },
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Bu akşam televizyon izleyeceğim."
+            },
+            {
+              "de": "Was gibt es im Fernsehen?",
+              "lv": "Televizyonda ne var?"
+            }
+          ],
+          "tip": [
+            {
+              "text": "Eylem için fernsehen (ich sehe fern), yayın ortamı veya programlar için das Fernsehen kullanılır."
+            },
+            {
+              "text": "das Fernsehen yalnızca tekil kullanılan bir isimdir."
+            }
+          ],
+          "important": [
+            "fernsehen ayrılabilen bir fiildir: sehen + fern.",
+            "das Fernsehen’in çoğulu yoktur.",
+            "Yanlış: die Fernsehen. Doğru: das Fernsehen.",
+            "Eylem: fernsehen → ich sehe fern."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "sollen",
+      "full_card_owner_new": {
+        "lv": "-meli/-malı • gerek",
+        "study": {
+          "id": "a1-sollen",
+          "layout": "standardStudy",
+          "translation": "-meli/-malı • gerek",
+          "explanation": [
+            "sollen, birinin bir talimat veya başkasının beklentisi nedeniyle bir şey yapması gerektiğini anlatır.",
+            "Çoğu zaman başka birinin ne yapılacağını söylediğini gösterir.",
+            "müssen kadar güçlü bir zorunluluk bildirmez.",
+            "Was soll ich machen? çok yaygın bir ifadedir ve Ne yapmalıyım? demektir."
+          ],
+          "examples": [
+            {
+              "de": "Was soll ich machen?",
+              "lv": "Ne yapmalıyım?"
+            },
+            {
+              "de": "Du sollst kommen.",
+              "lv": "Gelmelisin."
+            },
+            {
+              "de": "Ich soll zu Hause bleiben.",
+              "lv": "Evde kalmam isteniyor."
+            },
+            {
+              "de": "Ich muss jetzt gehen.",
+              "lv": "Şimdi gitmek zorundayım."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sollen",
+              "meaning": "bir talimat nedeniyle yapması gerekmek",
+              "example": "Was soll ich machen? – Ne yapmalıyım?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "zorunda olmak",
+              "example": "Ich muss gehen. – Gitmek zorundayım."
+            },
+            {
+              "word": "können",
+              "meaning": "yapabilmek",
+              "example": "Ich kann kommen. – Gelebilirim."
+            },
+            {
+              "word": "wollen",
+              "meaning": "istemek",
+              "example": "Ich will bleiben. – Kalmak istiyorum."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Başkasının talimatı → sollen; zorunluluk → müssen."
+            }
+          ],
+          "important": [
+            "Was soll ich machen? çok yaygın bir ifadedir.",
+            "sollen ve müssen tam olarak aynı anlama gelmez."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "zum",
+      "full_card_owner_new": {
+        "lv": "-e/-a • yanına",
+        "study": {
+          "id": "a1-zum",
+          "layout": "standardStudy",
+          "translation": "-e/-a • yanına",
+          "explanation": [
+            "zum, zu edatı ile dem artikelinin birleşmiş biçimidir.",
+            "Tam biçimi zu dem’dir.",
+            "Eril ve nötr isimlerle datifte yön veya amaç belirtmek için kullanılır.",
+            "Bağlama göre bir yere ya da birinin yanına yönelmeyi anlatır.",
+            "Günlük kullanımda zu dem yerine neredeyse her zaman zum denir."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Doktora gidiyorum."
+            },
+            {
+              "de": "Wir fahren zum Bahnhof.",
+              "lv": "İstasyona gidiyoruz."
+            },
+            {
+              "de": "Sie geht zum Supermarkt.",
+              "lv": "O süpermarkete gidiyor."
+            },
+            {
+              "de": "Komm zum Essen!",
+              "lv": "Yemeğe gel!"
+            },
+            {
+              "de": "Er fährt zum Flughafen.",
+              "lv": "O havaalanına gidiyor."
+            },
+            {
+              "de": "Wir gehen zum Konzert.",
+              "lv": "Konsere gidiyoruz."
+            },
+            {
+              "de": "Das Geschenk ist zum Geburtstag.",
+              "lv": "Hediye doğum günü için."
+            },
+            {
+              "de": "Ich gehe zum Friseur.",
+              "lv": "Kuaföre gidiyorum."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zum",
+              "meaning": "-e/-a veya yanına; zu dem",
+              "example": "zum Arzt – doktora"
+            },
+            {
+              "word": "zur",
+              "meaning": "dişil isimlerle -e/-a",
+              "example": "zur Schule – okula"
+            },
+            {
+              "word": "zu",
+              "meaning": "-e/-a, yanında veya fazla",
+              "example": "zu Hause – evde"
+            },
+            {
+              "word": "nach",
+              "meaning": "artikelsiz şehir ve ülkelere doğru",
+              "example": "nach Berlin – Berlin’e"
+            },
+            {
+              "word": "bei",
+              "meaning": "birinin yanında veya bir yerde bulunma",
+              "example": "beim Arzt – doktorda"
+            }
+          ],
+          "tip": [
+            {
+              "text": "zu + dem → zum."
+            },
+            {
+              "text": "Dişil isimlerde zu + der → zur."
+            }
+          ],
+          "important": [
+            "zum = zu dem; eril veya nötr isimlerle datifte kullanılır.",
+            "Yön veya amaç belirtir: doktora, istasyona, birinin yanına.",
+            "Dişil isimlerde zur kullanılır: zur Bank, zur Post.",
+            "Bir yerde bulunmayı bildiren bei ve artikelsiz şehir/ülkelere yön bildiren nach ile karıştırma."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "uk",
+      "canonical_card_object_id": "ihr",
+      "full_card_owner_new": {
+        "lv": "ви • їй • її",
+        "study": {
+          "id": "a1-ihr",
+          "layout": "standardStudy",
+          "translation": "ви • їй • її",
+          "explanation": [
+            "ihr має кілька значень: ви при звертанні до кількох людей, їй як давальний відмінок від sie та її як присвійний займенник.",
+            "Коли ihr є підметом із формою дієслова для другої особи множини, воно означає ви: Kommt ihr mit?",
+            "Як давальний відмінок від sie, ihr означає їй: Ich gebe ihr das Buch.",
+            "Як присвійний займенник перед іменником, ihr означає її: ihr Buch.",
+            "Ввічливе звертання німецькою завжди Sie з великої літери, а не ihr."
+          ],
+          "examples": [
+            {
+              "de": "Kommt ihr heute Abend?",
+              "lv": "Ви прийдете сьогодні ввечері?"
+            },
+            {
+              "de": "Ich gebe ihr das Buch.",
+              "lv": "Я даю їй книжку."
+            },
+            {
+              "de": "Wo wohnt ihr?",
+              "lv": "Де ви живете?"
+            },
+            {
+              "de": "Er schreibt ihr einen Brief.",
+              "lv": "Він пише їй листа."
+            },
+            {
+              "de": "Habt ihr Zeit?",
+              "lv": "У вас є час?"
+            },
+            {
+              "de": "Das ist ihr Auto.",
+              "lv": "Це її автомобіль."
+            }
+          ],
+          "tip": [
+            {
+              "text": "ihr із дієсловом у другій особі множини = ви; ihr як давальний або присвійний займенник = їй або її."
+            },
+            {
+              "text": "Habt ihr...? / Kommt ihr...? = ви; Ich gebe ihr... / ihr Buch = їй / її."
+            }
+          ],
+          "important": [
+            "ihr залежно від контексту означає ви, їй або її.",
+            "Ввічливе звертання — Sie з великої літери, а не ihr.",
+            "Неправильно для ввічливого звертання: ihr. Правильно: Sie."
+          ]
+        }
+      }
+    }
+  ]
+}
