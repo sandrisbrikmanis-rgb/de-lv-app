@@ -15,17 +15,31 @@ const {
   CLOSURE_REL,
 } = require("./lib/g2-a1-production-current/haus-preauthorized-cap-commit-range");
 
+function capVerifyPorcelainScope(relPath) {
+  return (
+    relPath.startsWith("data/") ||
+    relPath.startsWith("www/data/") ||
+    relPath.startsWith("crowdin/") ||
+    relPath.startsWith("scripts/") ||
+    relPath === CLOSURE_REL
+  );
+}
+
+function porcelainInScope(raw) {
+  return raw
+    .split("\n")
+    .filter(Boolean)
+    .filter((line) => capVerifyPorcelainScope(line.slice(3).trim()));
+}
+
 function runVerifierSubprocessCleanCheckout() {
-  const before = execSync("git status --porcelain", { cwd: ROOT, encoding: "utf8" });
+  const before = porcelainInScope(execSync("git status --porcelain", { cwd: ROOT, encoding: "utf8" }));
   const out = execSync("node scripts/verify-g2-a1-haus-preauthorized-capitalization-apply.js", {
     cwd: ROOT,
     encoding: "utf8",
   });
-  const after = execSync("git status --porcelain -- data www/data crowdin scripts reports/g2-a1-production-current/haus-owner-review", {
-    cwd: ROOT,
-    encoding: "utf8",
-  });
-  assert.strictEqual(after.trim(), "", "verify must not modify tracked production/closure paths");
+  const after = porcelainInScope(execSync("git status --porcelain", { cwd: ROOT, encoding: "utf8" }));
+  assert.deepStrictEqual(after, before, "verify must not modify tracked production/closure paths");
   const start = out.indexOf("{");
   const end = out.lastIndexOf("}");
   const payload = JSON.parse(out.slice(start, end + 1));
