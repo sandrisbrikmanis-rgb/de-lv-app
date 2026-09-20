@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-09-20T10:56:26.825Z",
+  "targetEntryValidated": 13,
+  "deValidated": true,
+  "counts": {
+    "PASS": 12,
+    "FINDING": 1,
+    "NEEDS_SOURCE_REVIEW": 19,
+    "SOURCE_DE_ISSUE": 0
+  }
+}
