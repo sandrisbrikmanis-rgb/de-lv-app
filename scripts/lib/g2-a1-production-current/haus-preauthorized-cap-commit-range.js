@@ -2,6 +2,8 @@
 "use strict";
 
 const vm = require("vm");
+const fs = require("fs");
+const path = require("path");
 const crypto = require("crypto");
 const { execSync } = require("child_process");
 const { ROOT } = require("../audit-common");
@@ -275,6 +277,24 @@ function analyzeProductionApplyRange(repoRoot, preApplySha, productionApplySha, 
   return { pass: blockers.length === 0, blockers, metrics };
 }
 
+function loadLexicalStabilityAllowance(repoRoot) {
+  const closurePath = path.join(
+    repoRoot,
+    "reports/g2-a1-production-current/haus-owner-review/haus-owner-lexical-production-apply-closure.json",
+  );
+  if (!fs.existsSync(closurePath)) {
+    return { files: new Set(), rows: [] };
+  }
+  try {
+    const closure = JSON.parse(fs.readFileSync(closurePath, "utf8"));
+    if (!closure.pass) return { files: new Set(), rows: [] };
+    const { OWNER_LEXICAL_APPLY_ROWS, expectedLexicalFiles } = require("./haus-owner-lexical-apply");
+    return { files: expectedLexicalFiles(), rows: OWNER_LEXICAL_APPLY_ROWS };
+  } catch {
+    return { files: new Set(), rows: [] };
+  }
+}
+
 function analyzeProductionStabilityRange(
   repoRoot,
   productionApplySha,
@@ -284,6 +304,7 @@ function analyzeProductionStabilityRange(
   const git = createGit(repoRoot);
   const blockers = [];
   const allowedFiles = expectedAuthorizedFiles(authorizedRows);
+  const lexicalAllow = loadLexicalStabilityAllowance(repoRoot);
 
   const dataWwwFiles = listCommitRangeFiles(git, productionApplySha, verifiedAtHead, "data www/data");
   const crowdinFiles = listCommitRangeFiles(git, productionApplySha, verifiedAtHead, "crowdin");
@@ -293,7 +314,8 @@ function analyzeProductionStabilityRange(
   if (deFiles.length) blockers.push({ code: "DE_FILE_CHANGES_AFTER_APPLY", files: deFiles });
 
   for (const f of dataWwwFiles) {
-    if (!allowedFiles.has(f)) {
+    if (allowedFiles.has(f)) continue;
+    if (!lexicalAllow.files.has(f)) {
       blockers.push({ code: "UNAUTHORIZED_PRODUCTION_FILE_AFTER_APPLY", file: f });
     }
   }
@@ -316,6 +338,34 @@ function analyzeProductionStabilityRange(
     const beforeWords = loadWordsAtCommit(git, productionApplySha, f);
     const afterWords = loadWordsAtCommit(git, verifiedAtHead, f);
     for (const ch of flattenCardFieldChanges(beforeWords, afterWords, f)) {
+      productionChangesAfterApply += 1;
+      if (DE_FIELD_KEYS.has(ch.field)) deChangesAfterApply += 1;
+      blockers.push({
+        code: "STABILITY_RANGE_FIELD_CHANGE",
+        file: f,
+        cardIndex: ch.cardIndex,
+        fieldPath: ch.fieldPath,
+        before: ch.before,
+        after: ch.after,
+      });
+    }
+  }
+
+  for (const f of dataWwwFiles) {
+    if (!lexicalAllow.files.has(f) || allowedFiles.has(f)) continue;
+    const spec = lexicalAllow.rows.find(
+      (s) => productionA1Rel(s.language) === f || wwwA1Rel(s.language) === f,
+    );
+    const beforeWords = loadWordsAtCommit(git, productionApplySha, f);
+    const afterWords = loadWordsAtCommit(git, verifiedAtHead, f);
+    for (const ch of flattenCardFieldChanges(beforeWords, afterWords, f)) {
+      const lexicalAllowed =
+        spec &&
+        ch.cardIndex === spec.cardIndex &&
+        ch.field === "lv" &&
+        ch.before === spec.current &&
+        ch.after === spec.proposed;
+      if (lexicalAllowed) continue;
       productionChangesAfterApply += 1;
       if (DE_FIELD_KEYS.has(ch.field)) deChangesAfterApply += 1;
       blockers.push({
