@@ -162,7 +162,16 @@ function runFirstRunReprocess(options = {}) {
   const missingPath = path.join(REPORTS_DIR, `${prefix}-missing-field-manifest.json`);
   fs.writeFileSync(
     missingPath,
-    `${JSON.stringify({ missingFieldResults: missingFieldPaths.length, rows: missingFieldPaths.slice(0, 5000) }, null, 2)}\n`,
+    `${JSON.stringify(
+      {
+        previewOnly: true,
+        note: "Use npm run build:g2-a1:targeted-missing-field-inventory for full multipart missing inventory (95731 rows).",
+        missingFieldResults: missingFieldPaths.length,
+        rows: missingFieldPaths.slice(0, 5000),
+      },
+      null,
+      2,
+    )}\n`,
   );
   if (options.writeEvidence) {
     fs.writeFileSync(

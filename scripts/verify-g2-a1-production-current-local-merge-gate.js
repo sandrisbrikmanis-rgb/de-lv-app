@@ -22,6 +22,9 @@ const COMMANDS = [
   "npm run test:g2-a1-production-current-owner-authorization-runtime",
   "npm run test:g2-a1-production-current-full-discovery-executor",
   "npm run verify:g2-a1-production-current-full-discovery-executor",
+  "npm run test:g2-a1-field-level-mapping",
+  "npm run verify:g2-a1-field-level-mapping",
+  "npm run verify:g2-a1-targeted-field-level-executor",
 ];
 
 function runStep(cmd) {
