@@ -47,9 +47,11 @@ function main() {
       blockers.push({ code: "UNAUTHORIZED_PRODUCTION_FILE", file: f });
     }
   }
-  for (const f of expectedFiles) {
-    if (!diffFiles.includes(f) && applyReport?.appliedCount === PREAUTHORIZED_CAP_ROWS.length) {
-      blockers.push({ code: "EXPECTED_FILE_NOT_IN_DIFF", file: f });
+  if (applyReport?.appliedCount === PREAUTHORIZED_CAP_ROWS.length && diffFiles.length > 0) {
+    for (const f of expectedFiles) {
+      if (!diffFiles.includes(f)) {
+        blockers.push({ code: "EXPECTED_FILE_NOT_IN_DIFF", file: f });
+      }
     }
   }
 
