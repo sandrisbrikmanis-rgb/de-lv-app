@@ -213,10 +213,14 @@ async function flowRuOrfo(page, lookupTerm, allowedDomains) {
   if (!parsed || !/АКАДЕМОС|стать/i.test(parsed.fragment)) {
     return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
   }
+  const entryUrl =
+    /word=|[?&]q=|%D0%B4|%D0%B|E0%B4/i.test(finalUrl) && !/\/search\/word\/?$/i.test(finalUrl)
+      ? finalUrl
+      : `https://orfo.ruslang.ru/search?word=${encodeURIComponent(lookupTerm)}`;
   return {
     validated: true,
     searchUrl,
-    entryUrl: finalUrl,
+    entryUrl,
     headword: parsed.headword,
     fragment: parsed.fragment,
     entryOrRule: `ORFO АКАДЕМОС: ${parsed.headword}`,

@@ -24,7 +24,6 @@ const { FIXED_FINDING_IDENTITY } = require("./haus-owner-review");
 
 const NSR_LANGUAGES = Object.freeze([
   "bs",
-  "cs",
   "fr",
   "hr",
   "is",

@@ -44,6 +44,12 @@ const HAUS_CAPITALIZATION_REGRESSION = [
     authorityLemma: "дом",
     proposedTarget: "дом",
   },
+  {
+    language: "cs",
+    currentTarget: "Dům",
+    authorityLemma: "dům",
+    proposedTarget: "dům",
+  },
 ];
 
 function productionDiffClean() {
@@ -211,6 +217,15 @@ function main() {
       assertRegressionRow(rows, spec, blockers);
       if (blockers.length === before) hausExplicitRegressionGates.passed += 1;
       else hausExplicitRegressionGates.failed.push(spec.language);
+    }
+
+    const ruRow = rows.find((r) => r.language === "ru");
+    if (ruRow && /^dom$/i.test(String(ruRow.proposedTarget || ""))) {
+      blockers.push({ code: "RU_LATIN_DOM_PROPOSED", got: ruRow.proposedTarget });
+    }
+    const csRow = rows.find((r) => r.language === "cs");
+    if (csRow && csRow.currentTarget === "Dům" && csRow.proposedTarget === "dům" && csRow.verdict === "PASS") {
+      blockers.push({ code: "CS_CAPITALIZATION_CANNOT_BE_PASS" });
     }
 
     const sum = counts.PASS + counts.FINDING + counts.NEEDS_SOURCE_REVIEW + counts.SOURCE_DE_ISSUE;

@@ -5,11 +5,11 @@ const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 const { runHaus32LanguageSourcePilot } = require("./lib/g2-a1-production-current/haus-32-language-source-pilot");
-const { runHausOwnerReviewExecution } = require("./lib/g2-a1-production-current/haus-owner-review-execute");
 const {
   buildHausOwnerReviewPackage,
   writeHausOwnerReviewArtifacts,
   PILOT_DIR,
+  OUT_DIR,
 } = require("./lib/g2-a1-production-current/haus-owner-review");
 
 function writeJsonPilot(name, obj) {
@@ -49,26 +49,38 @@ async function main() {
     }
   }
 
-  const execution = await runHausOwnerReviewExecution();
-  const built = buildHausOwnerReviewPackage(execution);
+  const built = buildHausOwnerReviewPackage();
   if (!built.pass) {
     console.error(JSON.stringify({ pass: false, ...built }, null, 2));
     process.exit(1);
   }
   writeHausOwnerReviewArtifacts(built);
+
+  const legacyExecution = path.join(OUT_DIR, "haus-owner-review-execution.json");
+  if (fs.existsSync(legacyExecution)) {
+    fs.unlinkSync(legacyExecution);
+  }
   fs.writeFileSync(
-    path.join(ROOT, "reports/g2-a1-production-current/haus-owner-review/haus-owner-review-execution.json"),
-    `${JSON.stringify(execution, null, 2)}\n`,
+    path.join(OUT_DIR, "haus-owner-review-execution.json"),
+    `${JSON.stringify(
+      {
+        invalidated: true,
+        reason: "INVALIDATED_UNAUTHORIZED_OWNER_FIELD_POPULATION",
+        replacedBy: "haus-audit-evidence-proposals.json",
+        note: "Prior auto-filled OWNER LABOT rows are void.",
+      },
+      null,
+      2,
+    )}\n`,
   );
+
   console.log(
     JSON.stringify({
       pass: true,
       classification: built.manifest.classification,
       nextAction: built.manifest.nextAction,
-      pilotCounts: built.counts,
+      auditCounts: built.counts,
       ownerDecisionFinal: built.manifest.ownerDecisionFinal,
-      nsrResolved: built.manifest.nsrResolved,
-      nsrUnresolved: built.manifest.nsrUnresolved,
       outDir: "reports/g2-a1-production-current/haus-owner-review",
     }),
   );

@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-09-20T12:56:18.776Z",
+  "role": "AUDIT_EXECUTOR_EVIDENCE_ONLY",
+  "invalidatedUnauthorizedOwnerPopulation": true,
+  "rows": [
+    {
+      "language": "en",
+      "AUDIT_VERDICT": "FINDING",
+      "AUDIT_FINDING_TYPE": "CAPITALIZATION_ERROR",
+      "AUDIT_PROPOSED_NEW": "house",
+      "AUDIT_EVIDENCE_URL": "https://www.oxfordlearnersdictionaries.com/definition/english/house_1",
+      "AUDIT_EVIDENCE_SHA256": "3e10d87dbbdd074b0f72734210d7ca6afa4322ab90013b7ae1cfc717dc51a276"
+    },
+    {
+      "language": "da",
+      "AUDIT_VERDICT": "FINDING",
+      "AUDIT_FINDING_TYPE": "CAPITALIZATION_ERROR",
+      "AUDIT_PROPOSED_NEW": "hus",
+      "AUDIT_EVIDENCE_URL": "https://ordnet.dk/ddo/ordbog/Hus",
+      "AUDIT_EVIDENCE_SHA256": "f74c65de9e204eaf48cc732610c7e4e66599b6079b91d78cebcf0dde43d62a78"
+    },
+    {
+      "language": "tr",
+      "AUDIT_VERDICT": "FINDING",
+      "AUDIT_FINDING_TYPE": "CAPITALIZATION_ERROR",
+      "AUDIT_PROPOSED_NEW": "ev",
+      "AUDIT_EVIDENCE_URL": "https://sozluk.gov.tr/gts?ara=Ev",
+      "AUDIT_EVIDENCE_SHA256": "bc4fa8a3a9b62fca9b815702721f6a96bcd5f0df90db4dbe9483eba707ee0f8b"
+    },
+    {
+      "language": "gr",
+      "AUDIT_VERDICT": "FINDING",
+      "AUDIT_FINDING_TYPE": "CAPITALIZATION_ERROR",
+      "AUDIT_PROPOSED_NEW": "σπίτι",
+      "AUDIT_EVIDENCE_URL": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%A3%CF%80%CE%AF%CF%84%CE%B9",
+      "AUDIT_EVIDENCE_SHA256": "87b558e93c6af1a49a905edd5eb6272b74be886c5c1a0d84250df88b2630c4f4"
+    },
+    {
+      "language": "ru",
+      "AUDIT_VERDICT": "FINDING",
+      "AUDIT_FINDING_TYPE": "CAPITALIZATION_ERROR",
+      "AUDIT_PROPOSED_NEW": "дом",
+      "AUDIT_EVIDENCE_URL": "https://orfo.ruslang.ru/search?word=%D0%B4%D0%BE%D0%BC",
+      "AUDIT_EVIDENCE_SHA256": "e6a31e8e4c485c0326311bd917063e3039ee05dd7d98e713201bd88b1da139f0"
+    },
+    {
+      "language": "cs",
+      "AUDIT_VERDICT": "FINDING",
+      "AUDIT_FINDING_TYPE": "CAPITALIZATION_ERROR",
+      "AUDIT_PROPOSED_NEW": "dům",
+      "AUDIT_EVIDENCE_URL": "https://prirucka.ujc.cas.cz/?id=915#ref_id_2019_15_1",
+      "AUDIT_EVIDENCE_SHA256": "1876c6c100357a4126a20ca88eff1787dddc810d69cef8d63298689baf630aea"
+    },
+    {
+      "language": "sk",
+      "AUDIT_VERDICT": "FINDING",
+      "AUDIT_FINDING_TYPE": "WRONG_TRANSLATION",
+      "AUDIT_PROPOSED_NEW": "dom",
+      "AUDIT_EVIDENCE_URL": "https://slovnik.juls.savba.sk/?w=dom&s=exact&k=Md03&cs=&d=kssj4&d=psp&d=ogs&d=sssj&d=orter&d=scs&d=sss&d=peciar&d=ssn&d=hssj&d=bernolak&d=noundb&d=orient&d=locutio&d=obce&d=priezviska&d=un&d=onom&d=pskfr&d=pskcs&d=psken#",
+      "AUDIT_EVIDENCE_SHA256": "36920edd98ab9f0d5af6deb5cd4e5809f62be348155d8e2d397327f93fba0965"
+    },
+    {
+      "language": "nb",
+      "AUDIT_VERDICT": "FINDING",
+      "AUDIT_FINDING_TYPE": "WRONG_TRANSLATION",
+      "AUDIT_PROPOSED_NEW": "hus",
+      "AUDIT_EVIDENCE_URL": "https://ordbokene.no/nob/bm/hus",
+      "AUDIT_EVIDENCE_SHA256": "7def1d680d33e0148424ebd7df3824e42343ace0b03d88e0f0d4b0a61ecd98e8"
+    },
+    {
+      "language": "nn",
+      "AUDIT_VERDICT": "FINDING",
+      "AUDIT_FINDING_TYPE": "WRONG_TRANSLATION",
+      "AUDIT_PROPOSED_NEW": "hus",
+      "AUDIT_EVIDENCE_URL": "https://ordbokene.no/nob/nn/hus",
+      "AUDIT_EVIDENCE_SHA256": "201c28ab75ef0ffd2cb81687c8c0a9d3db3401a52a872531a5e50642bb89c6db"
+    },
+    {
+      "language": "fi",
+      "AUDIT_VERDICT": "FINDING",
+      "AUDIT_FINDING_TYPE": "WRONG_TRANSLATION",
+      "AUDIT_PROPOSED_NEW": "talo",
+      "AUDIT_EVIDENCE_URL": "https://www.kielitoimistonsanakirja.fi/#/talo?source=suggestion&searchMode=all",
+      "AUDIT_EVIDENCE_SHA256": "3448e61a7cd99d6286416f6404764c62af44e39c0c0df9b45776784c21842452"
+    }
+  ]
+}

@@ -9,12 +9,18 @@ const {
   OUT_DIR,
   FIXED_FINDING_IDENTITY,
   assertFindingIdentity,
+  CURRENT_PILOT_COUNTS,
+  FINDING_DECISION_LANG_ORDER,
 } = require("./lib/g2-a1-production-current/haus-owner-review");
-const { NSR_LANGUAGES } = require("./lib/g2-a1-production-current/haus-owner-review-execute");
+const {
+  ownerFieldsAreEmpty,
+  assertCsNotPassWhenCapitalizationMismatch,
+  assertCurrentPilotCounts,
+  evidenceUrlAcceptable,
+  isLatinDom,
+} = require("./lib/g2-a1-production-current/haus-owner-audit-separation");
 const { isHomepageUrl } = require("./lib/g2-a1-production-current/source-adapters/create-config-adapter");
 const { loadHausProductionInventory } = require("./lib/g2-a1-production-current/haus-32-language-source-pilot");
-
-const ALLOWED_OWNER = new Set(["LABOT", "NELABOT", "NEEDS_SOURCE_REVIEW", "SOURCE_DE_ISSUE"]);
 
 function readJson(rel) {
   const p = path.join(OUT_DIR, rel);
@@ -37,10 +43,8 @@ function main() {
   const decisions = readJson("haus-owner-decisions.json");
   const nsr = readJson("haus-needs-source-review.json");
   const passEv = readJson("haus-pass-evidence.json");
-  const resolution = readJson("haus-source-resolution-summary.json");
-  const verificationPath = path.join(OUT_DIR, "haus-owner-review-verification.json");
-
-  const executed = Boolean(manifest?.executionAt);
+  const executionStub = readJson("haus-owner-review-execution.json");
+  const auditProposals = readJson("haus-audit-evidence-proposals.json");
 
   const required = [
     "haus-owner-view.md",
@@ -52,19 +56,20 @@ function main() {
     "haus-needs-source-review.json",
     "haus-pass-evidence.json",
     "haus-owner-review-manifest.json",
+    "haus-audit-evidence-proposals.json",
+    "haus-source-resolution-summary.json",
+    "haus-source-resolution-summary.md",
+    "haus-manual-evidence-required.csv",
+    "haus-master-source-change-proposals.md",
+    "haus-owner-review-execution.json",
     "README.md",
   ];
-  if (executed) {
-    required.push(
-      "haus-source-resolution-summary.json",
-      "haus-source-resolution-summary.md",
-      "haus-manual-evidence-required.csv",
-      "haus-master-source-change-proposals.md",
-      "haus-owner-review-execution.json",
-    );
-  }
   for (const f of required) {
     if (!fs.existsSync(path.join(OUT_DIR, f))) blockers.push({ code: "MISSING_ARTIFACT", file: f });
+  }
+
+  if (executionStub && !executionStub.invalidated) {
+    blockers.push({ code: "LEGACY_EXECUTION_NOT_INVALIDATED" });
   }
 
   const pilotVerdicts = JSON.parse(
@@ -73,98 +78,79 @@ function main() {
       "utf8",
     ),
   );
+  assertCurrentPilotCounts(pilotVerdicts.counts, blockers);
   assertFindingIdentity(pilotVerdicts.rows, blockers);
-
-  if (manifest?.baselineAtStart) {
-    const b = manifest.baselineAtStart;
-    if (b.FINDING !== 9 || b.NEEDS_SOURCE_REVIEW !== 19) {
-      blockers.push({ code: "MANIFEST_BASELINE_MISMATCH", got: b });
-    }
-  }
+  assertCsNotPassWhenCapitalizationMismatch(pilotVerdicts.rows, blockers);
 
   const findingRows = findings?.rows || [];
   const decisionRows = decisions?.rows || [];
   const nsrRows = nsr?.rows || [];
   const passRows = passEv?.rows || [];
 
-  if (findingRows.length !== 9) blockers.push({ code: "FINDING_EVIDENCE_COUNT", got: findingRows.length });
-  if (decisionRows.length !== 9) blockers.push({ code: "OWNER_DECISION_ROWS", got: decisionRows.length });
-
-  if (executed) {
-    const dc = manifest.ownerDecisionFinal || {};
-    const sum = (dc.LABOT || 0) + (dc.NELABOT || 0) + (dc.NEEDS_SOURCE_REVIEW || 0) + (dc.SOURCE_DE_ISSUE || 0);
-    if (sum !== 9) blockers.push({ code: "OWNER_DECISION_PARTITION", sum, dc });
-    if (manifest.nsrAtStart !== 19) blockers.push({ code: "NSR_START_NOT_19" });
-    const resolvedPlusUnresolved = (manifest.nsrResolved || 0) + (manifest.nsrUnresolved || 0);
-    if (resolvedPlusUnresolved !== 19) {
-      blockers.push({ code: "NSR_RESOLUTION_SUM", got: resolvedPlusUnresolved });
-    }
-    if (nsrRows.length !== manifest.nsrUnresolved) {
-      blockers.push({ code: "NSR_UNRESOLVED_ROW_COUNT", expected: manifest.nsrUnresolved, got: nsrRows.length });
-    }
-  } else if (nsrRows.length !== 19) {
-    blockers.push({ code: "NSR_ROWS", got: nsrRows.length });
+  if (findingRows.length !== 10) blockers.push({ code: "FINDING_EVIDENCE_COUNT", got: findingRows.length });
+  if (decisionRows.length !== 10) blockers.push({ code: "OWNER_DECISION_ROWS", got: decisionRows.length });
+  if (nsrRows.length !== 18) blockers.push({ code: "NSR_ROWS", got: nsrRows.length });
+  if (passRows.length !== 4) blockers.push({ code: "PASS_EVIDENCE_ROWS", got: passRows.length });
+  if (findingRows.length + nsrRows.length + passRows.length !== 32) {
+    blockers.push({ code: "COVERAGE_SUM", got: findingRows.length + nsrRows.length + passRows.length });
   }
 
-  const decisionLangs = new Set(decisionRows.map((d) => d.language));
-  if (decisionLangs.size !== 9) blockers.push({ code: "DECISION_DUPLICATE_LANG" });
-
-  for (const spec of FIXED_FINDING_IDENTITY) {
-    if (!decisionLangs.has(spec.language)) blockers.push({ code: "MISSING_DECISION_LANG", language: spec.language });
+  if (manifest?.ownerDecisionsFilled !== false) {
+    blockers.push({ code: "MANIFEST_OWNER_DECISIONS_FILLED_TRUE" });
   }
 
   for (const d of decisionRows) {
-    if (!ALLOWED_OWNER.has(d.OWNER_STATUS)) {
-      blockers.push({ code: "INVALID_OWNER_STATUS", language: d.language, status: d.OWNER_STATUS });
+    if (!ownerFieldsAreEmpty(d)) {
+      blockers.push({ code: "UNAUTHORIZED_OWNER_FIELD_POPULATION", language: d.language, status: d.OWNER_STATUS });
     }
-    if (d.OWNER_STATUS === "LABOT") {
-      if (d.OWNER_EVIDENCE_ACCEPTED !== "YES") blockers.push({ code: "LABOT_WITHOUT_EVIDENCE", language: d.language });
-      if (!d.OWNER_NEW || !d.targetEntryUrl || isHomepageUrl(d.targetEntryUrl)) {
-        blockers.push({ code: "LABOT_INVALID_NEW_OR_URL", language: d.language });
-      }
-      if (!d.OWNER_REVIEWED_AT) blockers.push({ code: "LABOT_MISSING_REVIEWED_AT", language: d.language });
+    if (d.OWNER_STATUS === "LABOT" || d.OWNER_EVIDENCE_ACCEPTED === "YES") {
+      blockers.push({ code: "AUTO_OWNER_LABOT", language: d.language });
     }
-    if (d.OWNER_STATUS === "NELABOT" && d.OWNER_EVIDENCE_ACCEPTED !== "YES") {
-      blockers.push({ code: "NELABOT_WITHOUT_EVIDENCE", language: d.language });
-    }
-    if (["NEEDS_SOURCE_REVIEW", "SOURCE_DE_ISSUE"].includes(d.OWNER_STATUS) && d.OWNER_NEW) {
-      blockers.push({ code: "NSR_OR_DE_ISSUE_HAS_OWNER_NEW", language: d.language });
-    }
-    const key = `${d.language}|${d.productionFile || ""}|${d.cardId}|${d.fieldPath || ""}`;
-    d._key = key;
-  }
-  const keys = decisionRows.map((d) => d._key);
-  if (new Set(keys).size !== keys.length) blockers.push({ code: "DECISION_ROW_KEY_DUPLICATE" });
-
-  for (const f of findingRows) {
-    if (!f.deEvidenceSha256 || !f.targetEvidenceSha256) {
-      blockers.push({ code: "FINDING_MISSING_EVIDENCE", language: f.language });
-    }
-    if (f.findingType === "CAPITALIZATION_ERROR" && f.proposedNew !== f.targetNormativeLemma) {
-      blockers.push({ code: "CAP_PROPOSED_NE_LEMMA", language: f.language });
-    }
-  }
-
-  if (executed && resolution) {
-    for (const r of resolution.findingResults || []) {
-      if (r.sourceValidated && (!r.targetEntryUrl || isHomepageUrl(r.targetEntryUrl))) {
-        blockers.push({ code: "HOMEPAGE_EVIDENCE", language: r.language });
+    if (d.AUDIT_PROPOSED_NEW && String(d.AUDIT_PROPOSED_NEW) !== String(d.OWNER_NEW || "")) {
+      if (d.OWNER_NEW) {
+        blockers.push({ code: "AUDIT_PROPOSED_COPIED_TO_OWNER_NEW", language: d.language });
       }
     }
-  }
-
-  for (const n of nsrRows) {
-    if (n.approvedProposedNew) blockers.push({ code: "NSR_APPROVED_NEW", language: n.language });
-  }
-
-  const nsrLangSet = new Set(nsrRows.map((n) => n.language));
-  for (const lang of NSR_LANGUAGES) {
-    if (executed && manifest.nsrUnresolved > 0) {
-      const inUnresolved = resolution?.nsrResults?.find((r) => r.language === lang && !r.resolved);
-      if (inUnresolved && !nsrLangSet.has(lang)) {
-        blockers.push({ code: "NSR_LANG_MISSING_FROM_TABLE", language: lang });
+    if (d.language === "ru") {
+      if (isLatinDom(d.AUDIT_PROPOSED_NEW) || isLatinDom(d.OWNER_NEW)) {
+        blockers.push({ code: "RU_LATIN_DOM", language: "ru" });
+      }
+      if (!/\p{Script=Cyrillic}/u.test(String(d.AUDIT_PROPOSED_NEW || ""))) {
+        blockers.push({ code: "RU_AUDIT_PROPOSED_NOT_CYRILLIC" });
       }
     }
+    const urlCheck = evidenceUrlAcceptable(d.AUDIT_EVIDENCE_URL, {
+      language: d.language,
+      auditProposedNew: d.AUDIT_PROPOSED_NEW,
+    });
+    if (!urlCheck.ok) blockers.push({ code: "EVIDENCE_URL_REJECTED", language: d.language, reason: urlCheck.code });
+    if (String(d.AUDIT_EVIDENCE_URL || "").includes("…") || String(d.AUDIT_EVIDENCE_URL || "").includes("...")) {
+      blockers.push({ code: "EVIDENCE_URL_ELLIPSIS", language: d.language });
+    }
+    if (isHomepageUrl(d.AUDIT_EVIDENCE_URL)) {
+      blockers.push({ code: "EVIDENCE_URL_HOMEPAGE", language: d.language });
+    }
+  }
+
+  for (const spec of FIXED_FINDING_IDENTITY) {
+    const d = decisionRows.find((r) => r.language === spec.language);
+    if (!d) blockers.push({ code: "MISSING_DECISION_LANG", language: spec.language });
+    else if (
+      d.currentTarget !== spec.currentTarget ||
+      d.AUDIT_PROPOSED_NEW !== spec.proposedTarget ||
+      d.AUDIT_FINDING_TYPE !== spec.findingType
+    ) {
+      blockers.push({ code: "AUDIT_IDENTITY_MISMATCH", language: spec.language });
+    }
+  }
+
+  const order = decisionRows.map((d) => d.language);
+  if (JSON.stringify(order) !== JSON.stringify(FINDING_DECISION_LANG_ORDER)) {
+    blockers.push({ code: "FINDING_ROW_ORDER" });
+  }
+
+  if (auditProposals?.invalidatedUnauthorizedOwnerPopulation !== true) {
+    blockers.push({ code: "AUDIT_PROPOSALS_FLAG_MISSING" });
   }
 
   const inv = loadHausProductionInventory();
@@ -179,44 +165,34 @@ function main() {
   const crowdinDiff = execSync("git diff --name-only -- crowdin", { cwd: ROOT, encoding: "utf8" }).trim();
   if (crowdinDiff) blockers.push({ code: "CROWDIN_DIRTY", files: crowdinDiff.split("\n") });
 
-  for (const spec of FIXED_FINDING_IDENTITY) {
-    const d = decisionRows.find((r) => r.language === spec.language);
-    if (!d) continue;
-    if (d.currentTarget !== spec.currentTarget || d.proposedNew !== spec.proposedTarget || d.findingType !== spec.findingType) {
-      blockers.push({ code: "DECISION_IDENTITY_MISMATCH", language: spec.language });
-    }
-  }
-
   const classification =
     blockers.length === 0
-      ? manifest?.classification || "G2_A1_HAUS_OWNER_REVIEW_PACKAGE_READY"
-      : "G2_A1_HAUS_OWNER_REVIEW_BLOCKED";
+      ? manifest?.classification || "G2_A1_HAUS_AUDIT_EVIDENCE_READY_FOR_OWNER_DECISION"
+      : "G2_A1_HAUS_OWNER_PACKAGE_CORRECTION_BLOCKED";
 
   const payload = {
     generatedAt: new Date().toISOString(),
     pass: blockers.length === 0,
-    executed,
     gates: {
-      baselineFinding: 9,
-      baselineNsr: 19,
-      ownerDecisionRows: decisionRows.length,
-      ownerDecisionFinal: manifest?.ownerDecisionFinal,
-      nsrUnresolvedRows: nsrRows.length,
-      nsrResolved: manifest?.nsrResolved,
+      auditCounts: CURRENT_PILOT_COUNTS,
+      ownerLabot: 0,
+      ownerNelabot: 0,
+      ownerPending: 0,
+      findingDecisionRows: decisionRows.length,
+      nsrRows: nsrRows.length,
       passEvidenceRows: passRows.length,
+      unauthorizedOwnerFields: decisionRows.filter((d) => !ownerFieldsAreEmpty(d)).length,
       productionChanges: prod.pass ? 0 : prod.diff.length,
-      deChanges: deDiff ? deDiff.split("\n").length : 0,
-      crowdinChanges: crowdinDiff ? crowdinDiff.split("\n").length : 0,
-      fullAuditRun: manifest?.full95731FieldAuditRun === false ? 0 : 1,
-      FULL_LINGUISTIC_AUDITS_EXECUTED: manifest?.FULL_LINGUISTIC_AUDITS_EXECUTED ?? 0,
+      fullAuditRun: 0,
     },
     blockers,
     classification,
-    nextAction: manifest?.nextAction || "RESOLVE_EXACT_EVIDENCE_OR_IDENTITY_BLOCKER",
+    nextAction:
+      blockers.length === 0 ? "OWNER_REVIEW_10_HAUS_FINDINGS" : "REMOVE_UNAUTHORIZED_OWNER_DECISIONS_AND_FIX_EXACT_DATA_ERRORS",
   };
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
-  fs.writeFileSync(verificationPath, `${JSON.stringify(payload, null, 2)}\n`);
+  fs.writeFileSync(path.join(OUT_DIR, "haus-owner-review-verification.json"), `${JSON.stringify(payload, null, 2)}\n`);
 
   console.log(JSON.stringify(payload, null, 2));
   process.exit(payload.pass ? 0 : 1);

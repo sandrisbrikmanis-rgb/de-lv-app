@@ -1,27 +1,24 @@
 {
-  "generatedAt": "2026-09-20T12:39:01.280Z",
+  "generatedAt": "2026-09-20T12:56:19.474Z",
   "pass": true,
-  "executed": true,
   "gates": {
-    "baselineFinding": 9,
-    "baselineNsr": 19,
-    "ownerDecisionRows": 9,
-    "ownerDecisionFinal": {
-      "LABOT": 9,
-      "NELABOT": 0,
-      "NEEDS_SOURCE_REVIEW": 0,
+    "auditCounts": {
+      "PASS": 4,
+      "FINDING": 10,
+      "NEEDS_SOURCE_REVIEW": 18,
       "SOURCE_DE_ISSUE": 0
     },
-    "nsrUnresolvedRows": 18,
-    "nsrResolved": 1,
+    "ownerLabot": 0,
+    "ownerNelabot": 0,
+    "ownerPending": 0,
+    "findingDecisionRows": 10,
+    "nsrRows": 18,
     "passEvidenceRows": 4,
+    "unauthorizedOwnerFields": 0,
     "productionChanges": 0,
-    "deChanges": 0,
-    "crowdinChanges": 0,
-    "fullAuditRun": 0,
-    "FULL_LINGUISTIC_AUDITS_EXECUTED": 0
+    "fullAuditRun": 0
   },
   "blockers": [],
-  "classification": "G2_A1_HAUS_OWNER_FINDINGS_REVIEWED_SOURCE_BLOCKERS_REMAIN",
-  "nextAction": "OWNER_RESOLVE_REMAINING_HAUS_SOURCE_BLOCKERS"
+  "classification": "G2_A1_HAUS_AUDIT_EVIDENCE_READY_FOR_OWNER_DECISION",
+  "nextAction": "OWNER_REVIEW_10_HAUS_FINDINGS"
 }
