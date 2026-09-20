@@ -20,8 +20,25 @@ function checkpointPath(lang, batchId) {
   return path.join(TARGETED_RAW_CHECKPOINT_ROOT, lang, `${safeBatch}.luna-raw.json`);
 }
 
+function verifiedCheckpointPath(lang, batchId) {
+  const safeBatch = batchId.replace(/[/\\:]/g, "_");
+  return path.join(TARGETED_RAW_CHECKPOINT_ROOT, lang, `${safeBatch}.luna-verified.json`);
+}
+
 function loadRawCheckpoint(lang, batchId, auditBaselineSha) {
   const p = checkpointPath(lang, batchId);
+  if (!fs.existsSync(p)) return null;
+  try {
+    const payload = JSON.parse(fs.readFileSync(p, "utf8"));
+    if (payload.auditBaselineSha && payload.auditBaselineSha !== auditBaselineSha) return null;
+    return payload;
+  } catch {
+    return null;
+  }
+}
+
+function loadVerifiedCheckpoint(lang, batchId, auditBaselineSha) {
+  const p = verifiedCheckpointPath(lang, batchId);
   if (!fs.existsSync(p)) return null;
   try {
     const payload = JSON.parse(fs.readFileSync(p, "utf8"));
@@ -35,13 +52,24 @@ function loadRawCheckpoint(lang, batchId, auditBaselineSha) {
 function saveRawCheckpoint(payload, options = {}) {
   if (options.dryRun) return { saved: false, path: checkpointPath(payload.language, payload.batchId) };
   const p = checkpointPath(payload.language, payload.batchId);
-  if (fs.existsSync(p) && !options.overwrite) {
-    return { saved: false, skipped: true, reason: "CHECKPOINT_EXISTS", path: p };
+  if (fs.existsSync(p)) {
+    return { saved: false, skipped: true, reason: "RAW_CHECKPOINT_IMMUTABLE", path: p };
   }
   fs.mkdirSync(path.dirname(p), { recursive: true });
   const text = `${JSON.stringify(payload, null, 2)}\n`;
   fs.writeFileSync(p, text, "utf8");
   return { saved: true, path: p, rawResponseSha256: payload.rawResponseSha256 || sha256Text(text) };
+}
+
+function saveVerifiedCheckpoint(payload) {
+  const p = verifiedCheckpointPath(payload.language, payload.batchId);
+  if (fs.existsSync(p)) {
+    return { saved: false, skipped: true, reason: "VERIFIED_CHECKPOINT_EXISTS", path: p };
+  }
+  fs.mkdirSync(path.dirname(p), { recursive: true });
+  const text = `${JSON.stringify(payload, null, 2)}\n`;
+  fs.writeFileSync(p, text, "utf8");
+  return { saved: true, path: p, sha256: sha256Text(text) };
 }
 
 function buildCheckpointEnvelope(meta, rawResponse) {
@@ -58,8 +86,11 @@ function buildCheckpointEnvelope(meta, rawResponse) {
 module.exports = {
   TARGETED_RAW_CHECKPOINT_ROOT,
   checkpointPath,
+  verifiedCheckpointPath,
   loadRawCheckpoint,
+  loadVerifiedCheckpoint,
   saveRawCheckpoint,
+  saveVerifiedCheckpoint,
   buildCheckpointEnvelope,
   sha256Text,
 };
