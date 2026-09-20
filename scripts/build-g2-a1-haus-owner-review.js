@@ -11,6 +11,9 @@ const {
   PILOT_DIR,
   OUT_DIR,
 } = require("./lib/g2-a1-production-current/haus-owner-review");
+const { CLOSURE_REL } = require("./lib/g2-a1-production-current/haus-preauthorized-cap-commit-range");
+
+const PRODUCTION_APPLY_CLOSURE = path.join(ROOT, CLOSURE_REL);
 
 function writeJsonPilot(name, obj) {
   fs.mkdirSync(PILOT_DIR, { recursive: true });
@@ -40,7 +43,10 @@ async function refreshPilotFromRun() {
 }
 
 async function main() {
-  const skipPilot = process.argv.includes("--skip-pilot-refresh");
+  const skipPilot =
+    process.argv.includes("--skip-pilot-refresh") ||
+    (fs.existsSync(PRODUCTION_APPLY_CLOSURE) &&
+      !process.argv.includes("--force-pilot-refresh"));
   if (!skipPilot) {
     const pilotRefresh = await refreshPilotFromRun();
     if (!pilotRefresh.pass) {

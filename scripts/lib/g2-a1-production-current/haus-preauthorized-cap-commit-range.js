@@ -29,12 +29,31 @@ function sha256(content) {
 function loadArrayDatasetFromSource(code) {
   const ctx = { window: {} };
   vm.createContext(ctx);
-  vm.runInContext(code, ctx);
-  const key = Object.keys(ctx.window).find((k) => Array.isArray(ctx.window[k]));
-  return key ? ctx.window[key] : null;
+  vm.runInContext(
+    `${code}\n;if (typeof A1_WORDS !== "undefined" && Array.isArray(A1_WORDS)) window.__hausCapDataset = A1_WORDS;`,
+    ctx,
+  );
+  const key = Object.keys(ctx.window).find(
+    (k) => k !== "__hausCapDataset" && Array.isArray(ctx.window[k]),
+  );
+  if (key) return ctx.window[key];
+  if (Array.isArray(ctx.window.__hausCapDataset)) return ctx.window.__hausCapDataset;
+  return null;
+}
+
+function fileExistsAtCommit(git, sha, relPath) {
+  try {
+    git(`git cat-file -e ${sha}:${relPath}`);
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 function loadWordsAtCommit(git, sha, relPath) {
+  if (!fileExistsAtCommit(git, sha, relPath)) {
+    throw new Error(`MISSING_AT_COMMIT:${relPath}@${sha}`);
+  }
   const content = git(`git show ${sha}:${relPath}`);
   const words = loadArrayDatasetFromSource(content);
   if (!Array.isArray(words)) {
@@ -147,6 +166,14 @@ function analyzeProductionApplyRange(repoRoot, preApplySha, productionApplySha, 
   const wwwFieldChanges = [];
 
   for (const f of dataWwwFiles) {
+    if (!fileExistsAtCommit(git, preApplySha, f)) {
+      blockers.push({ code: "UNAUTHORIZED_PRODUCTION_FILE", file: f, reason: "absent_at_pre_apply" });
+      continue;
+    }
+    if (!fileExistsAtCommit(git, productionApplySha, f)) {
+      blockers.push({ code: "UNAUTHORIZED_PRODUCTION_FILE", file: f, reason: "absent_at_production_apply" });
+      continue;
+    }
     const beforeWords = loadWordsAtCommit(git, preApplySha, f);
     const afterWords = loadWordsAtCommit(git, productionApplySha, f);
     for (const ch of flattenCardFieldChanges(beforeWords, afterWords, f)) {
@@ -488,6 +515,8 @@ module.exports = {
   DE_FIELD_KEYS,
   createGit,
   loadWordsAtCommit,
+  fileExistsAtCommit,
+  loadArrayDatasetFromSource,
   flattenCardFieldChanges,
   productionFileSetSha,
   expectedAuthorizedFiles,
