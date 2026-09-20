@@ -17,7 +17,7 @@ const BINDING_PATH = path.join(ROOT, "docs_and_rules/MASTER_1.12_BINDING_WORK_AG
 /** Floor for MASTER semantic line retention (v1.12+ standard line). */
 const MASTER_VERSION_FLOOR = "1.12";
 /** Authorized production MASTER on main after PR #831 (do not regress below). */
-const MASTER_VERSION_AUTHORIZED_MIN = "1.18";
+const MASTER_VERSION_AUTHORIZED_MIN = "1.19";
 
 const BATCH_TABLE_LINES = [
   "| G2 ordinary cards | 25 |",
@@ -273,14 +273,17 @@ function checkRequiredMasterFiles() {
 function checkTooling() {
   try {
     execSync("node scripts/test-main-translation-v112-regression.js", { cwd: ROOT, stdio: "pipe" });
+    execSync("node scripts/test-master-capitalization-rule.js", { cwd: ROOT, stdio: "pipe" });
     const lib = require("./main-translation-field-inventory");
     const inventoryOk = lib.INVENTORY_FIELD_PATHS.length >= 3;
     const fixtures = lib.runRegressionFixtures();
+    const capitalizationRule = require("./master-capitalization-rule-verify").verifyMasterCapitalizationRule();
     return {
       regressionPass: fixtures.pass,
       inventoryOk,
       inventoryFields: lib.INVENTORY_FIELD_PATHS,
       fixtureResults: fixtures.results.map((r) => ({ id: r.id, pass: r.pass })),
+      capitalizationRulePass: capitalizationRule.pass,
     };
   } catch (e) {
     return { regressionPass: false, error: e.message };
@@ -322,6 +325,7 @@ function runMasterPremergeVerify(options = {}) {
   const toolingPass =
     tooling.regressionPass &&
     tooling.inventoryOk &&
+    tooling.capitalizationRulePass !== false &&
     require("./main-translation-field-inventory").INVENTORY_FIELD_PATHS.includes("study.translation");
 
   const blockers = [];

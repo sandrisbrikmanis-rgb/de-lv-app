@@ -154,23 +154,30 @@ DE netiek automātiski modificēts.
 
 ---
 
-# 6. OBLIGĀTĀ DIVPUSĒJĀ PĀRBAUDE
+# 6. OBLIGĀTĀ DIVPUSĒJĀ PĀRBAUDE (SOURCE-SUPPORTED SECĪBA)
 
-Katrai lingvistiskajai rindai:
+Katrai lingvistiskajai rindai obligāta secība:
 
-**DE AUTHORITY CHECK**
+1. Fiksēt DE šķirkli, artikulu, vārdšķiru un konkrēto nozīmi.
+2. Saglabāt DE MASTER avota pierādījumu.
+3. Pārbaudīt TARGET `CURRENT` vērtību attiecīgās valodas MASTER avotā.
+4. Saglabāt konkrētu TARGET šķirkli un nozīmes pierādījumu.
+5. Salīdzināt: nozīmi, vārdšķiru, lemmu, rakstību, diakritiku, alfabētu/rakstību,
+   lielos/mazos burtus, reģistru un lietojumu.
+6. Tikai pēc tam piešķirt `PASS`, `FINDING`, `NEEDS_SOURCE_REVIEW` vai
+   `SOURCE_DE_ISSUE`.
 
-↓
+`PASS` bez DE un TARGET evidence ir **aizliegts**.
 
-**TARGET LANGUAGE AUTHORITY CHECK**
+`FINDING` un `PROPOSED_NEW` bez TARGET autoritatīvā pierādījuma ir **aizliegts**.
 
-↓
+Tehnisku piekļuves kļūdu nedrīkst pārvērst par lingvistisku `FINDING` bez
+TARGET avota šķirkļa.
 
-**SEMANTIC / CONTEXTUAL ALIGNMENT**
+Katrai rindai joprojām piemēro divslāņu plūsmu:
 
-↓
-
-**AUDIT VERDICT**
+**DE AUTHORITY CHECK** → **TARGET LANGUAGE AUTHORITY CHECK** →
+**SEMANTIC / CONTEXTUAL ALIGNMENT** → **AUDIT VERDICT**
 
 Nepietiek tikai ar vārda atrašanu vārdnīcā.
 
@@ -396,6 +403,27 @@ AI nav:
 
 **LANGUAGE AUTHORITY**
 
+Autoritatīvais pamats ir MASTER noteiktie valodas avoti, nevis AI modelis.
+
+**AI/LLM drīkst:**
+
+- atrast MASTER atļauta avota šķirkli;
+- nolasīt un strukturēt pierādījumu;
+- salīdzināt DE un TARGET avotu ierakstus;
+- atklāt pierādāmu neatbilstību;
+- sagatavot OWNER pārbaudes artefaktus.
+
+**AI/LLM nedrīkst:**
+
+- izdomāt tulkojumu;
+- izvēlēties “labāk skanošu” variantu bez avota;
+- aizvietot nepieejamu oficiālo avotu ar nejaušu vārdnīcu;
+- piešķirt `PASS` pēc valodas izjūtas;
+- izmantot cita AI verdictu kā avotu;
+- pārvērst tehnisku piekļuves kļūdu par lingvistisku verdictu;
+- automātiski mainīt production saturu;
+- noteikt kapitalizāciju pēc “izskata” bez TARGET normas un avota pierādījuma.
+
 AI drīkst meklēt avotus, analizēt, salīdzināt, sagatavot findings un `PROPOSED_NEW`.
 
 AI apgalvojums bez nepieciešamā ārējā pierādījuma nav pietiekams `PASS` vai `FINDING`.
@@ -490,3 +518,87 @@ AUDIT_DATE
 **Vienreiz kvalitatīvi, individuāli un ar autoritatīviem avotiem pierādīts `PASS` netiek bez konkrēta iemesla pārbaudīts vēlreiz.**
 
 100% audit coverage saglabājas, bet OWNER laiks tiek izmantots tikai tur, kur audits ir atradis reālu problēmu vai nevarējis pieņemt drošu secinājumu.
+
+---
+
+# 20. MĒRĶVALODAS PAMATFORMA, ORTOGRĀFIJA UN KAPITALIZĀCIJA
+
+## 20.1. Pamatnoteikums
+
+1. Vārdnīcas tipa laukā mērķvalodas vērtība jāraksta attiecīgās mērķvalodas
+   normatīvajā pamatformā.
+
+2. Mērķvalodas lemmu, vārdšķiru, rakstību, diakritiku, alfabētu/rakstības
+   sistēmu un lielo vai mazo sākumburtu nosaka attiecīgās mērķvalodas norma un
+   MASTER reģistrētais autoritatīvais avots.
+
+3. **Vācu lietvārda lielais sākumburts netiek automātiski pārnests uz TARGET
+   tulkojumu.**
+
+4. Lielākajā daļā App mērķvalodu sugasvārda vārdnīcas pamatforma sākas ar
+   mazo burtu, ja attiecīgās valodas norma nenosaka citādi.
+
+5. Tas pats princips attiecas uz latīņu, kirilicu, grieķu un citām App
+   izmantotajām rakstības sistēmām.
+
+6. Lielo sākumburtu drīkst saglabāt tikai tad, ja to pamato konkrētās
+   mērķvalodas norma, piemēram: īpašvārds, oficiāls nosaukums, saīsinājums,
+   normatīvs ortogrāfisks izņēmums, vai teikuma sākums laukā, kas tiešām ir
+   pilns teikums.
+
+7. Kartītes, saraksta, tabulas vai UI elementa pirmā pozīcija pati par sevi
+   **nav** lingvistisks pamatojums mainīt vārdnīcas lemmu uz lielo sākumburtu.
+
+8. Vārdnīcas lauks un pilna teikuma lauks jāvērtē atsevišķi:
+
+   - vārdnīcas laukā saglabā normatīvo lemmu;
+   - teikuma sākumā izmanto attiecīgās valodas teikuma kapitalizācijas
+     noteikumus;
+   - nedrīkst mehāniski pazemināt teikuma pirmo burtu;
+   - nedrīkst mehāniski paaugstināt lemmu tikai UI noformējuma dēļ.
+
+9. AI/LLM nedrīkst noteikt kapitalizāciju pēc “izskata” vai valodas izjūtas.
+   Nepieciešams TARGET valodas normatīvā avota pierādījums vai skaidri
+   piemērojams valodas noteikums no MASTER reģistrētā avota.
+
+10. Ja avota šķirklī tehniska noformējuma dēļ visi headword burti parādīti ar
+    lielajiem burtiem, šo vizuālo noformējumu nedrīkst automātiski interpretēt
+    kā normatīvu kapitalizāciju. Jāizmanto strukturētais headword,
+    ortogrāfijas noteikums vai cits autoritatīvs pierādījums.
+
+## 20.2. Normatīvs piemērs (`das Haus`)
+
+**DE:** `das Haus` — vācu valodā lietvārds normatīvi sākas ar lielo burtu.
+
+**TARGET vārdnīcas pamatformas (illustratīvi, ne automātiska apply):**
+
+| Valoda | Piemērs | Nevis |
+|--------|---------|-------|
+| LV | `māja` | `Māja` |
+| EN | `house` | `House` |
+| CS | `dům` | `Dům` |
+| BG | `къща` | `Къща` |
+| GR | `σπίτι` | `Σπίτι` |
+| TR | `ev` | `Ev` |
+
+Paskaidrojums: tās ir vārdnīcas pamatformas; vācu kapitalizācija netiek
+pārnesta; piemērs nenozīmē automātisku visu TARGET vērtību pārveidošanu uz
+mazo burtu; katrai valodai joprojām nepieciešama tās normu pārbaude;
+īpašvārdiem, saīsinājumiem un pilniem teikumiem piemēro attiecīgās valodas
+noteikumus.
+
+## 20.3. Unikālās lingvistiskās vienības princips
+
+Dublētu darbu drīkst samazināt ar unikālo lingvistisko vienību reģistru
+(DE nozīmes ID, mērķvaloda, mērķvalodas lemma, konteksts/nozīme, DE evidence,
+TARGET evidence).
+
+**Aizliegts:**
+
+- viena vārda evidence akli izmantot citai nozīmei;
+- lemmu evidence automātiski attiecināt uz visiem locījumiem;
+- kartītes līmeņa verdictu pavairot visiem laukiem;
+- viena teikuma evidence izmantot citiem kontekstiem;
+- pierādījumu kopēt uz citu valodu.
+
+(Saistīts ar §14 — bulk verdikti un evidence atkārtota lietošana bez konteksta.)
