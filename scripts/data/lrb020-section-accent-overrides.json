@@ -1,0 +1,105 @@
+{
+  "fr": {
+    "Urlaub": {
+      "comparison[1].example": { "green": ["Ferien"], "purple": ["vacances"] }
+    },
+    "Wetter": {
+      "comparison[1].example": { "green": ["Zeit"], "purple": ["temps"] },
+      "comparison[2].example": { "green": ["Regen"], "purple": ["pleut"] },
+      "comparison[3].example": { "green": ["Sonne"], "purple": ["soleil"] }
+    },
+    "Zug": {
+      "comparison[1].example": { "green": ["Bahn"], "purple": ["train"] },
+      "comparison[2].example": { "green": ["Bus"], "purple": ["bus"] },
+      "comparison[3].example": { "green": ["Straßenbahn"], "purple": ["tramway"] }
+    },
+    "unter": {
+      "comparison[1].example": { "green": ["über"], "purple": ["au-dessus"] }
+    },
+    "vom": {
+      "comparison[3].example": { "green": ["ab"], "purple": ["à partir"] }
+    },
+    "wenn": {
+      "comparison[1].example": { "green": ["ob"], "purple": ["si"] },
+      "comparison[3].example": { "green": ["weil"], "purple": ["parce que"] }
+    },
+    "zu": {
+      "comparison[1].example": { "green": ["nach"], "purple": ["à Berlin"] },
+      "comparison[2].example": { "green": ["in"], "purple": ["à l\u2019école"] },
+      "comparison[3].example": { "green": ["bei"], "purple": ["chez"] }
+    },
+    "zum": {
+      "comparison[1].example": { "green": ["zur"], "purple": ["à l\u2019école"] },
+      "comparison[2].example": { "green": ["zu"], "purple": ["chez"] }
+    }
+  },
+  "gr": {
+    "Bitte": {
+      "comparison[1].example": { "green": ["bitte"], "purple": ["παρακαλώ"] }
+    },
+    "Eis": {
+      "comparison[1].example": { "green": ["Schnee"], "purple": ["χιόνι"] },
+      "comparison[2].example": { "green": ["kalt"], "purple": ["κρύο"] },
+      "comparison[3].example": { "green": ["Dessert"], "purple": ["επιδόρπιο"] }
+    },
+    "Geschwister": {
+      "comparison[1].example": { "green": ["Bruder"], "purple": ["αδελφός"] },
+      "comparison[2].example": { "green": ["Schwester"], "purple": ["αδελφή"] }
+    },
+    "Großeltern": {
+      "comparison[1].example": { "green": ["Großmutter"], "purple": ["γιαγιά"] },
+      "comparison[2].example": { "green": ["Großvater"], "purple": ["παππούς"] }
+    },
+    "Hand": {
+      "comparison[1].example": { "green": ["Arm"], "purple": ["βραχίονάς"] }
+    },
+    "Land": {
+      "comparison[1].example": { "green": ["Stadt"], "purple": ["πόλη"] },
+      "comparison[2].example": { "green": ["Dorf"], "purple": ["χωριό"] },
+      "comparison[3].example": { "green": ["Erde"], "purple": ["Γη"] }
+    },
+    "aber": {
+      "comparison[1].example": { "green": ["sondern"], "purple": ["αλλά"] },
+      "comparison[2].example": { "green": ["jedoch"], "purple": ["αλλά"] }
+    },
+    "also": {
+      "comparison[1].example": { "green": ["auch"], "purple": ["κι εγώ"] }
+    },
+    "bitte": {
+      "comparison[1].example": { "green": ["Bitte"], "purple": ["παράκληση"] }
+    },
+    "da": {
+      "comparison[0].example": { "green": ["Da"], "purple": ["Εκεί"] }
+    },
+    "das": {
+      "comparison[2].example": { "green": ["welches"], "purple": ["οποίο"] }
+    },
+    "dass": {
+      "comparison[1].example": { "green": ["weil"], "purple": ["επειδή"] },
+      "comparison[2].example": { "green": ["damit"], "purple": ["για να"] },
+      "comparison[3].example": { "green": ["ob"], "purple": ["αν"] }
+    },
+    "erst": {
+      "comparison[2].example": { "green": ["nur"], "purple": ["μόνο"] }
+    },
+    "es": {
+      "comparison[0].example": { "green": ["Es"] }
+    },
+    "etwas": {
+      "comparison[1].example": { "green": ["was"], "purple": ["κάτι"] },
+      "comparison[2].example": { "green": ["ein bisschen"], "purple": ["λίγο"] }
+    },
+    "euch": {
+      "comparison[2].example": { "green": ["euer"], "purple": ["σας"] }
+    },
+    "kosten": {
+      "comparison[2].example": { "green": ["zahlen"], "purple": ["πληρώσω"] }
+    },
+    "Laden": {
+      "examples[3]": {
+        "de": { "blue": ["laden"] },
+        "lv": { "purple": ["φορτίσω"] }
+      }
+    }
+  }
+}
