@@ -75,6 +75,9 @@
     "build:g2-a1:official-source-adapter-matrix": "node scripts/build-g2-a1-official-source-adapter-matrix.js",
     "build:g2-a1:language-authority-reconciliation": "node scripts/build-g2-a1-language-authority-reconciliation.js",
     "build:g2-a1:official-source-exact-blockers-owner-decision": "node scripts/build-g2-a1-official-source-exact-blockers-owner-decision.js",
+    "build:g2-a1:browser-adapter-pilots": "node scripts/build-g2-a1-browser-adapter-pilots.js",
+    "build:g2-a1:master-registry-extension-proposals-D": "node scripts/build-g2-a1-master-registry-extension-proposals-D.js",
+    "test:g2-a1-browser-adapters-integration": "node scripts/test-g2-a1-browser-adapters-integration.js --browser-integration",
     "verify:g2-a1-official-source-entry-validation-ready": "node scripts/verify-g2-a1-official-source-entry-validation-ready.js",
     "test:g2-a1-phase3-missing-id-retry": "node scripts/test-g2-a1-phase3-missing-id-retry.js",
     "test:master-premerge-section-numbers": "node scripts/test-master-premerge-section-numbers.js",
@@ -134,6 +137,7 @@
     "@capacitor/assets": "^3.0.5",
     "@capacitor/cli": "^8.4.1",
     "google-translate-api-x": "^10.7.3",
+    "playwright": "^1.63.0",
     "yaml": "^2.9.0"
   }
 }

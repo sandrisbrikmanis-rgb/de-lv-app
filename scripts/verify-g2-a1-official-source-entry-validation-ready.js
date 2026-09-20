@@ -36,11 +36,14 @@ async function main() {
         pending: matrix.adaptersPending,
       });
     }
-    if (matrix.liveAdapters !== 32) {
+    const entryValidated = matrix.entryPathsValidatedEstimate;
+    if (entryValidated !== 32) {
       blockers.push({
-        code: "BLOCKED_OFFICIAL_AUTHORITIES",
+        code: entryValidated != null ? "ENTRY_PATHS_NOT_ALL_VALIDATED" : "BLOCKED_OFFICIAL_AUTHORITIES",
         liveAdapters: matrix.liveAdapters,
         blockedOfficialAdapters: matrix.blockedOfficialAdapters,
+        entryPathsValidatedEstimate: entryValidated,
+        matrixClassification: matrix.classification,
         blocked: (matrix.matrix || [])
           .filter((r) => r.liveIntegrationStatus === "BLOCKED")
           .map((r) => ({ language: r.language, outcome: r.blockedOutcome, adapterId: r.adapterId })),
@@ -105,7 +108,9 @@ async function main() {
     multiPilot &&
     multiPilot.pass;
 
-  const blockedAuthorities = blockers.some((b) => b.code === "BLOCKED_OFFICIAL_AUTHORITIES");
+  const blockedAuthorities = blockers.some(
+    (b) => b.code === "BLOCKED_OFFICIAL_AUTHORITIES" || b.code === "ENTRY_PATHS_NOT_ALL_VALIDATED",
+  );
 
   const reconciliationPath = path.join(ROOT, "reports/g2-a1-production-current/language-authority-registry-reconciliation.json");
   let registryReconciliation = null;
@@ -138,13 +143,16 @@ async function main() {
     productionDiffClean: prod.pass,
     classification: ready
       ? "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_READY"
-      : blockedAuthorities
-        ? "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED_AFTER_FULL_REGISTRY_RECONCILIATION"
-        : "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_IN_PROGRESS",
+      : blockedAuthorities && matrixPath && fs.existsSync(matrixPath)
+        ? JSON.parse(fs.readFileSync(matrixPath, "utf8")).classification ||
+          "G2_A1_OFFICIAL_SOURCE_BROWSER_ACCESS_PARTIALLY_BLOCKED"
+        : blockedAuthorities
+          ? "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED_AFTER_FULL_REGISTRY_RECONCILIATION"
+          : "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_IN_PROGRESS",
     nextAction: ready
       ? "OWNER_MAY_AUTHORIZE_FULL_TARGETED_FIELD_LEVEL_AUDIT_RESUME"
       : blockedAuthorities
-        ? "OWNER_DECISION_REQUIRED_FOR_REMAINING_EXACT_BLOCKERS"
+        ? "OWNER_DECISION_REQUIRED_FOR_REMAINING_SPECIFIC_AUTHORITIES"
         : "IMPLEMENT_REMAINING_TARGET_SOURCE_ADAPTERS_AND_NEW_PILOTS",
   };
 

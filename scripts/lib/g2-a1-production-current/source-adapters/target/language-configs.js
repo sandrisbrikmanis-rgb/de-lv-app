@@ -15,6 +15,23 @@ const {
   parseTitleHeadword,
 } = require("../parsers/shared-parsers");
 const { createConfigAdapter } = require("../create-config-adapter");
+const { createBrowserAdapter } = require("../browser/create-browser-adapter");
+
+function browserLang(appLang, standardCode, adapterId, browserFlowId, primaryDomain, positive, negative) {
+  return {
+    appLang,
+    standardCode,
+    adapterId,
+    adapterVersion: "2.0.0",
+    adapterType: ADAPTER_TYPES.PUBLIC_BROWSER_SESSION,
+    lookupType: "public-browser-session",
+    browserFlowId,
+    primaryDomain,
+    positiveFixture: positive,
+    negativeFixture: negative,
+    liveIntegrationStatus: "LIVE",
+  };
+}
 
 function parseValidated(parseFn) {
   return (html, ctx) => {
@@ -73,18 +90,8 @@ const LANGUAGE_CONFIGS = [
     positiveFixture: { lookupTerm: "dřít", expectedHeadword: "dřít" },
     negativeFixture: { lookupTerm: "zzqqxxnotaword999" },
   },
-  blocked(
-    "sk",
-    "sk-juls-js-required",
-    SOURCE_ACCESS_OUTCOME.SOURCE_CONTENT_UNREADABLE,
-    "slovnik.juls.savba.sk returns JS-required gate page without server-rendered dictionary entry",
-  ),
-  blocked(
-    "hr",
-    "hr-pravopis-spa",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "pravopis.hr rječnik search is client-side; ?trazi= query returns shell page without server-rendered entry",
-  ),
+  browserLang("sk", "sk", "sk-juls-browser-entry", "sk-juls", "slovnik.juls.savba.sk", { lookupTerm: "dobrý", expectedHeadword: "dobrý" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("hr", "hr", "hr-rjecnik-browser-entry", "hr-rjecnik", "rjecnik.hr", { lookupTerm: "kuća", expectedHeadword: "kuća" }, { lookupTerm: "zzqqxxnotaword999" }),
   {
     appLang: "sl",
     standardCode: "sl",
@@ -97,30 +104,10 @@ const LANGUAGE_CONFIGS = [
     positiveFixture: { lookupTerm: "hiša", expectedHeadword: "hiša" },
     negativeFixture: { lookupTerm: "zzqqxxnotaword999" },
   },
-  blocked(
-    "ru",
-    "ru-orfo-no-entry-in-search",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "orfo.ruslang.ru search page has no server-rendered article/entry links for automated search→entry chain",
-  ),
-  blocked(
-    "nb",
-    "nb-ordbokene-nuxt-spa",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "ordbokene.no (Bokmålsordboka) is Nuxt/JS-rendered; SSR search page lacks machine-readable entry body",
-  ),
-  blocked(
-    "nn",
-    "nn-ordbokene-nuxt-spa",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "ordbokene.no (Nynorskordboka) is Nuxt/JS-rendered; SSR search page lacks machine-readable entry body",
-  ),
-  blocked(
-    "fi",
-    "fi-kielitoimisto-spa",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "kielitoimistonsanakirja.fi search.php returns minimal shell without server-rendered entry content",
-  ),
+  browserLang("ru", "ru", "ru-orfo-browser-entry", "ru-orfo", "orfo.ruslang.ru", { lookupTerm: "дом", expectedHeadword: "дом" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("nb", "nb", "nb-ordbokene-browser-entry", "nb-ordbokene", "ordbokene.no", { lookupTerm: "hus", expectedHeadword: "hus" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("nn", "nn", "nn-ordbokene-browser-entry", "nn-ordbokene", "ordbokene.no", { lookupTerm: "hus", expectedHeadword: "hus" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("fi", "fi", "fi-kielitoimisto-browser-entry", "fi-kielitoimisto", "kielitoimistonsanakirja.fi", { lookupTerm: "talo", expectedHeadword: "talo" }, { lookupTerm: "zzqqxxnotaword999" }),
   {
     appLang: "tr",
     standardCode: "tr",
@@ -175,78 +162,18 @@ const LANGUAGE_CONFIGS = [
     positiveFixture: { lookupTerm: "māja", expectedHeadword: "māja" },
     negativeFixture: { lookupTerm: "zzqqxxnotaword999" },
   },
-  blocked(
-    "pl",
-    "pl-wsjp-blocked",
-    SOURCE_ACCESS_OUTCOME.SOURCE_ACCESS_BLOCKED,
-    "wsjp.pl returns 403 to automated fetch; rjp.pan.pl has no stable public entry URL adapter verified",
-  ),
-  blocked(
-    "bg",
-    "bg-ibl-beron-blocked",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "ibl.bas.bg lacks verified public entry lookup; beron.mon.bg blocks automated access (403/CF)",
-  ),
-  blocked(
-    "da",
-    "da-dsn-no-entry-url",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "ro.dsn.dk has no verified stable public entry URL for automated lemma lookup in MASTER registry",
-  ),
-  blocked(
-    "nl",
-    "nl-woordenlijst-spa",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "woordenlijst.org entry routes are client-rendered; taalunie.org is not a lemma lookup endpoint",
-  ),
-  blocked(
-    "sv",
-    "sv-svenska-se-spa",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "svenska.se/SAOB requires interactive lookup; no verified server-rendered entry URL",
-  ),
-  blocked(
-    "pt",
-    "pt-acad-dicionario-no-entry",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "dicionario.acad-ciencias.pt has no verified public entry URL pattern for automated lookup",
-  ),
-  blocked(
-    "ro",
-    "ro-doom-no-entry",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "doom.lingv.ro / acad.ro lack verified automated entry lookup endpoints",
-  ),
-  blocked(
-    "uk",
-    "uk-iul-no-entry",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "iul-nasu.org.ua lacks verified public dictionary entry URL for automated lookup",
-  ),
-  blocked(
-    "lt",
-    "lt-lki-no-entry",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "lki.lt / vlkk.lt lack verified automated entry lookup endpoints",
-  ),
-  blocked(
-    "lb",
-    "lb-zls-no-entry",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "zls.lu / lod.lu lack verified automated entry lookup endpoints",
-  ),
-  blocked(
-    "hu",
-    "hu-nytud-no-entry",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "nytud.hu lacks verified automated dictionary entry lookup",
-  ),
-  blocked(
-    "is",
-    "is-bin-no-entry",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "bin.arnastofnun.is / malid.is lack verified automated entry lookup endpoints",
-  ),
+  browserLang("pl", "pl", "pl-wsjp-browser-entry", "pl-wsjp", "wsjp.pl", { lookupTerm: "dom", expectedHeadword: "dom" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("bg", "bg", "bg-beron-browser-entry", "bg-beron", "beron.mon.bg", { lookupTerm: "къща", expectedHeadword: "къща" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("da", "da", "da-ddo-browser-entry", "da-ddo", "ordnet.dk", { lookupTerm: "hus", expectedHeadword: "hus" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("nl", "nl", "nl-woordenlijst-browser-entry", "nl-woordenlijst", "woordenlijst.org", { lookupTerm: "huis", expectedHeadword: "huis" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("sv", "sv", "sv-svenska-browser-entry", "sv-svenska", "svenska.se", { lookupTerm: "hus", expectedHeadword: "hus" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("pt", "pt", "pt-acl-browser-entry", "pt-acl", "dicionario.acad-ciencias.pt", { lookupTerm: "casa", expectedHeadword: "casa" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("ro", "ro", "ro-doom-browser-entry", "ro-doom", "doom.lingv.ro", { lookupTerm: "casa", expectedHeadword: "casa" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("uk", "uk", "uk-dictua-browser-entry", "uk-dictua", "lcorp.ulif.org.ua", { lookupTerm: "дім", expectedHeadword: "дім" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("lt", "lt", "lt-ekalba-browser-entry", "lt-ekalba", "ekalba.lt", { lookupTerm: "namas", expectedHeadword: "namas" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("lb", "lb", "lb-lod-browser-entry", "lb-lod", "lod.lu", { lookupTerm: "Haus", expectedHeadword: "Haus" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("hu", "hu", "hu-nagyszotar-browser-entry", "hu-nagyszotar", "nagyszotar.nytud.hu", { lookupTerm: "ház", expectedHeadword: "ház" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("is", "is", "is-bin-browser-entry", "is-bin", "bin.arnastofnun.is", { lookupTerm: "hús", expectedHeadword: "hús" }, { lookupTerm: "zzqqxxnotaword999" }),
   blocked(
     "bs",
     "bs-izj-no-entry",
@@ -265,24 +192,9 @@ const LANGUAGE_CONFIGS = [
     SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
     "akad.gov.al lacks verified automated dictionary entry lookup",
   ),
-  blocked(
-    "mk",
-    "mk-imj-no-entry",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "imj.ukim.edu.mk lacks verified automated entry lookup",
-  ),
-  blocked(
-    "fr",
-    "fr-academie-no-entry",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "dictionnaire-academie.fr lacks verified public automated entry lookup API/URL",
-  ),
-  blocked(
-    "it",
-    "it-crusca-no-entry",
-    SOURCE_ACCESS_OUTCOME.SOURCE_NO_MACHINE_READABLE_ENTRY,
-    "accademiadellacrusca.it lacks verified automated entry lookup endpoint",
-  ),
+  browserLang("mk", "mk", "mk-drmj-browser-entry", "mk-drmj", "drmj.eu", { lookupTerm: "куќа", expectedHeadword: "куќа" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("fr", "fr", "fr-academie-browser-entry", "fr-academie", "dictionnaire-academie.fr", { lookupTerm: "maison", expectedHeadword: "maison" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("it", "it", "it-lessicografia-browser-entry", "it-lessicografia", "lessicografia.it", { lookupTerm: "casa", expectedHeadword: "casa" }, { lookupTerm: "zzqqxxnotaword999" }),
 ];
 
 function buildAdapterRegistry() {
@@ -290,7 +202,7 @@ function buildAdapterRegistry() {
   for (const cfg of LANGUAGE_CONFIGS) {
     registry[cfg.appLang] = {
       config: cfg,
-      lookup: createConfigAdapter(cfg),
+      lookup: cfg.browserFlowId ? createBrowserAdapter(cfg) : createConfigAdapter(cfg),
       id: cfg.adapterId,
       version: cfg.adapterVersion,
       masterUrl: cfg.masterSourceUrl,

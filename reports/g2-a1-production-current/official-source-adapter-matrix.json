@@ -1,11 +1,17 @@
 {
-  "pass": true,
+  "pass": false,
   "officialSourceAccessVersion": "g2-a1-official-source-v2-entry-validation",
   "targetLanguages": 32,
   "adaptersImplemented": 32,
   "adaptersPending": 0,
-  "liveAdapters": 8,
-  "blockedOfficialAdapters": 24,
+  "liveAdapters": 29,
+  "blockedOfficialAdapters": 3,
+  "browserAdapterPilots": {
+    "positivePilotPass": 6,
+    "browserAdapterCount": 21,
+    "classification": "G2_A1_BROWSER_ADAPTER_PILOTS_PARTIALLY_BLOCKED"
+  },
+  "entryPathsValidatedEstimate": 14,
   "registryComplete": true,
   "missingAdapters": [],
   "deAdapter": {
@@ -128,27 +134,28 @@
       "allowedDomains": [
         "ro.dsn.dk"
       ],
-      "adapterId": "da-dsn-no-entry-url",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "da-ddo-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "ro.dsn.dk has no verified stable public entry URL for automated lemma lookup in MASTER registry",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "hus",
+        "expectedHeadword": "hus"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "et",
@@ -231,27 +238,28 @@
       "allowedDomains": [
         "www.dictionnaire-academie.fr"
       ],
-      "adapterId": "fr-academie-no-entry",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "fr-academie-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "dictionnaire-academie.fr lacks verified public automated entry lookup API/URL",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "maison",
+        "expectedHeadword": "maison"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "hr",
@@ -264,27 +272,28 @@
       "allowedDomains": [
         "pravopis.hr"
       ],
-      "adapterId": "hr-pravopis-spa",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "hr-rjecnik-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "pravopis.hr rječnik search is client-side; ?trazi= query returns shell page without server-rendered entry",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "kuća",
+        "expectedHeadword": "kuća"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "is",
@@ -299,27 +308,28 @@
         "bin.arnastofnun.is",
         "malid.is"
       ],
-      "adapterId": "is-bin-no-entry",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "is-bin-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "bin.arnastofnun.is / malid.is lack verified automated entry lookup endpoints",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "hús",
+        "expectedHeadword": "hús"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "it",
@@ -332,27 +342,28 @@
       "allowedDomains": [
         "accademiadellacrusca.it"
       ],
-      "adapterId": "it-crusca-no-entry",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "it-lessicografia-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "accademiadellacrusca.it lacks verified automated entry lookup endpoint",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "casa",
+        "expectedHeadword": "casa"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "lv",
@@ -405,27 +416,28 @@
         "zls.lu",
         "lod.lu"
       ],
-      "adapterId": "lb-zls-no-entry",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "lb-lod-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "zls.lu / lod.lu lack verified automated entry lookup endpoints",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "Haus",
+        "expectedHeadword": "Haus"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "lt",
@@ -440,27 +452,28 @@
         "lki.lt",
         "vlkk.lt"
       ],
-      "adapterId": "lt-lki-no-entry",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "lt-ekalba-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "lki.lt / vlkk.lt lack verified automated entry lookup endpoints",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "namas",
+        "expectedHeadword": "namas"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "hu",
@@ -473,27 +486,28 @@
       "allowedDomains": [
         "nytud.hu"
       ],
-      "adapterId": "hu-nytud-no-entry",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "hu-nagyszotar-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "nytud.hu lacks verified automated dictionary entry lookup",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "ház",
+        "expectedHeadword": "ház"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "nl",
@@ -508,27 +522,28 @@
         "taalunie.org",
         "woordenlijst.org"
       ],
-      "adapterId": "nl-woordenlijst-spa",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "nl-woordenlijst-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "woordenlijst.org entry routes are client-rendered; taalunie.org is not a lemma lookup endpoint",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "huis",
+        "expectedHeadword": "huis"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "nb",
@@ -543,27 +558,28 @@
         "sprakradet.no",
         "ordbokene.no"
       ],
-      "adapterId": "nb-ordbokene-nuxt-spa",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "nb-ordbokene-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "ordbokene.no (Bokmålsordboka) is Nuxt/JS-rendered; SSR search page lacks machine-readable entry body",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "hus",
+        "expectedHeadword": "hus"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "nn",
@@ -578,27 +594,28 @@
         "sprakradet.no",
         "ordbokene.no"
       ],
-      "adapterId": "nn-ordbokene-nuxt-spa",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "nn-ordbokene-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "ordbokene.no (Nynorskordboka) is Nuxt/JS-rendered; SSR search page lacks machine-readable entry body",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "hus",
+        "expectedHeadword": "hus"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "pl",
@@ -613,27 +630,28 @@
         "rjp.pan.pl",
         "wsjp.pl"
       ],
-      "adapterId": "pl-wsjp-blocked",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "pl-wsjp-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "wsjp.pl returns 403 to automated fetch; rjp.pan.pl has no stable public entry URL adapter verified",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "dom",
+        "expectedHeadword": "dom"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_ACCESS_BLOCKED",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_ACCESS_BLOCKED",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "pt",
@@ -648,27 +666,28 @@
         "www.acad-ciencias.pt",
         "dicionario.acad-ciencias.pt"
       ],
-      "adapterId": "pt-acad-dicionario-no-entry",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "pt-acl-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "dicionario.acad-ciencias.pt has no verified public entry URL pattern for automated lookup",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "casa",
+        "expectedHeadword": "casa"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "ro",
@@ -685,27 +704,28 @@
         "lingv.ro",
         "doom.lingv.ro"
       ],
-      "adapterId": "ro-doom-no-entry",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "ro-doom-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "doom.lingv.ro / acad.ro lack verified automated entry lookup endpoints",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "casa",
+        "expectedHeadword": "casa"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "sq",
@@ -753,27 +773,28 @@
         "www.juls.savba.sk",
         "slovnik.juls.savba.sk"
       ],
-      "adapterId": "sk-juls-js-required",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "sk-juls-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "slovnik.juls.savba.sk returns JS-required gate page without server-rendered dictionary entry",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "dobrý",
+        "expectedHeadword": "dobrý"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_CONTENT_UNREADABLE",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_CONTENT_UNREADABLE",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "sl",
@@ -859,27 +880,28 @@
         "www.kotus.fi",
         "www.kielitoimistonsanakirja.fi"
       ],
-      "adapterId": "fi-kielitoimisto-spa",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "fi-kielitoimisto-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "kielitoimistonsanakirja.fi search.php returns minimal shell without server-rendered entry content",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "talo",
+        "expectedHeadword": "talo"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "sv",
@@ -894,27 +916,28 @@
         "www.svenskaakademien.se",
         "svenska.se"
       ],
-      "adapterId": "sv-svenska-se-spa",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "sv-svenska-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "svenska.se/SAOB requires interactive lookup; no verified server-rendered entry URL",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "hus",
+        "expectedHeadword": "hus"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "tr",
@@ -999,27 +1022,28 @@
         "ibl.bas.bg",
         "beron.mon.bg"
       ],
-      "adapterId": "bg-ibl-beron-blocked",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "bg-beron-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "ibl.bas.bg lacks verified public entry lookup; beron.mon.bg blocks automated access (403/CF)",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "къща",
+        "expectedHeadword": "къща"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "mk",
@@ -1032,27 +1056,28 @@
       "allowedDomains": [
         "imj.ukim.edu.mk"
       ],
-      "adapterId": "mk-imj-no-entry",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "mk-drmj-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "imj.ukim.edu.mk lacks verified automated entry lookup",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "куќа",
+        "expectedHeadword": "куќа"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "ru",
@@ -1067,27 +1092,28 @@
         "ruslang.ru",
         "orfo.ruslang.ru"
       ],
-      "adapterId": "ru-orfo-no-entry-in-search",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "ru-orfo-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "orfo.ruslang.ru search page has no server-rendered article/entry links for automated search→entry chain",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "дом",
+        "expectedHeadword": "дом"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "uk",
@@ -1102,29 +1128,30 @@
         "iul-nasu.org.ua",
         "mon.gov.ua"
       ],
-      "adapterId": "uk-iul-no-entry",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "uk-dictua-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "iul-nasu.org.ua lacks verified public dictionary entry URL for automated lookup",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "дім",
+        "expectedHeadword": "дім"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     }
   ],
-  "classification": "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED_AFTER_FULL_REGISTRY_RECONCILIATION",
-  "nextAction": "OWNER_DECISION_REQUIRED_FOR_REMAINING_EXACT_BLOCKERS"
+  "classification": "G2_A1_OFFICIAL_SOURCE_BROWSER_ACCESS_PARTIALLY_BLOCKED",
+  "nextAction": "OWNER_DECISION_REQUIRED_FOR_REMAINING_SPECIFIC_AUTHORITIES"
 }

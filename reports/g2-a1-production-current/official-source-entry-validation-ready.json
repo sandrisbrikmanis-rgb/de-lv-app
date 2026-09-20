@@ -2,9 +2,11 @@
   "pass": false,
   "blockers": [
     {
-      "code": "BLOCKED_OFFICIAL_AUTHORITIES",
-      "liveAdapters": 8,
-      "blockedOfficialAdapters": 24,
+      "code": "ENTRY_PATHS_NOT_ALL_VALIDATED",
+      "liveAdapters": 29,
+      "blockedOfficialAdapters": 3,
+      "entryPathsValidatedEstimate": 13,
+      "matrixClassification": "G2_A1_OFFICIAL_SOURCE_BROWSER_ACCESS_PARTIALLY_BLOCKED",
       "blocked": [
         {
           "language": "bs",
@@ -12,119 +14,25 @@
           "adapterId": "bs-izj-no-entry"
         },
         {
-          "language": "da",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "da-dsn-no-entry-url"
-        },
-        {
-          "language": "fr",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "fr-academie-no-entry"
-        },
-        {
-          "language": "hr",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "hr-pravopis-spa"
-        },
-        {
-          "language": "is",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "is-bin-no-entry"
-        },
-        {
-          "language": "it",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "it-crusca-no-entry"
-        },
-        {
-          "language": "lb",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "lb-zls-no-entry"
-        },
-        {
-          "language": "lt",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "lt-lki-no-entry"
-        },
-        {
-          "language": "hu",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "hu-nytud-no-entry"
-        },
-        {
-          "language": "nl",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "nl-woordenlijst-spa"
-        },
-        {
-          "language": "nb",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "nb-ordbokene-nuxt-spa"
-        },
-        {
-          "language": "nn",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "nn-ordbokene-nuxt-spa"
-        },
-        {
-          "language": "pl",
-          "outcome": "SOURCE_ACCESS_BLOCKED",
-          "adapterId": "pl-wsjp-blocked"
-        },
-        {
-          "language": "pt",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "pt-acad-dicionario-no-entry"
-        },
-        {
-          "language": "ro",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "ro-doom-no-entry"
-        },
-        {
           "language": "sq",
           "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
           "adapterId": "sq-akad-no-entry"
         },
         {
-          "language": "sk",
-          "outcome": "SOURCE_CONTENT_UNREADABLE",
-          "adapterId": "sk-juls-js-required"
-        },
-        {
           "language": "sr",
           "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
           "adapterId": "sr-isj-no-entry"
-        },
+        }
+      ]
+    },
+    {
+      "code": "V2_MULTI_PILOT_FAIL",
+      "failures": [
         {
-          "language": "fi",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "fi-kielitoimisto-spa"
-        },
-        {
-          "language": "sv",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "sv-svenska-se-spa"
-        },
-        {
-          "language": "bg",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "bg-ibl-beron-blocked"
-        },
-        {
-          "language": "mk",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "mk-imj-no-entry"
-        },
-        {
-          "language": "ru",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "ru-orfo-no-entry-in-search"
-        },
-        {
-          "language": "uk",
-          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-          "adapterId": "uk-iul-no-entry"
+          "id": "de-ru-cyrillic",
+          "deOutcome": "SOURCE_ENTRY_VALIDATED",
+          "targetOutcome": "SOURCE_ENTRY_VALIDATED",
+          "dual": true
         }
       ]
     }
@@ -136,7 +44,7 @@
   "integrationRan": true,
   "integrationSummary": {
     "adaptersImplemented": 32,
-    "liveAdapterCount": 8,
+    "liveAdapterCount": 29,
     "positiveLivePass": 8,
     "negativeLivePass": 32,
     "blockedLanguages": [
@@ -146,128 +54,23 @@
         "adapterId": "bs-izj-no-entry"
       },
       {
-        "language": "da",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "da-dsn-no-entry-url"
-      },
-      {
-        "language": "fr",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "fr-academie-no-entry"
-      },
-      {
-        "language": "hr",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "hr-pravopis-spa"
-      },
-      {
-        "language": "is",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "is-bin-no-entry"
-      },
-      {
-        "language": "it",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "it-crusca-no-entry"
-      },
-      {
-        "language": "lb",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "lb-zls-no-entry"
-      },
-      {
-        "language": "lt",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "lt-lki-no-entry"
-      },
-      {
-        "language": "hu",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "hu-nytud-no-entry"
-      },
-      {
-        "language": "nl",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "nl-woordenlijst-spa"
-      },
-      {
-        "language": "nb",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "nb-ordbokene-nuxt-spa"
-      },
-      {
-        "language": "nn",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "nn-ordbokene-nuxt-spa"
-      },
-      {
-        "language": "pl",
-        "blockedOutcome": "SOURCE_ACCESS_BLOCKED",
-        "adapterId": "pl-wsjp-blocked"
-      },
-      {
-        "language": "pt",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "pt-acad-dicionario-no-entry"
-      },
-      {
-        "language": "ro",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "ro-doom-no-entry"
-      },
-      {
         "language": "sq",
         "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
         "adapterId": "sq-akad-no-entry"
       },
       {
-        "language": "sk",
-        "blockedOutcome": "SOURCE_CONTENT_UNREADABLE",
-        "adapterId": "sk-juls-js-required"
-      },
-      {
         "language": "sr",
         "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
         "adapterId": "sr-isj-no-entry"
-      },
-      {
-        "language": "fi",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "fi-kielitoimisto-spa"
-      },
-      {
-        "language": "sv",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "sv-svenska-se-spa"
-      },
-      {
-        "language": "bg",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "bg-ibl-beron-blocked"
-      },
-      {
-        "language": "mk",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "mk-imj-no-entry"
-      },
-      {
-        "language": "ru",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "ru-orfo-no-entry-in-search"
-      },
-      {
-        "language": "uk",
-        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-        "adapterId": "uk-iul-no-entry"
       }
     ]
   },
   "multiPilot": {
-    "pass": true,
-    "dualValidatedCount": 6,
+    "pass": false,
+    "dualValidatedCount": 7,
     "pilotCount": 8
   },
   "productionDiffClean": true,
-  "classification": "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED_AFTER_FULL_REGISTRY_RECONCILIATION",
-  "nextAction": "OWNER_DECISION_REQUIRED_FOR_REMAINING_EXACT_BLOCKERS"
+  "classification": "G2_A1_OFFICIAL_SOURCE_BROWSER_ACCESS_PARTIALLY_BLOCKED",
+  "nextAction": "OWNER_DECISION_REQUIRED_FOR_REMAINING_SPECIFIC_AUTHORITIES"
 }

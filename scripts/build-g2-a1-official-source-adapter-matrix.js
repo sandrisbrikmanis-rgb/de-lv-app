@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 "use strict";
 
+const fs = require("fs");
+const path = require("path");
+const { ROOT } = require("./lib/audit-common");
 const { writeJsonAtomic } = require("./lib/g2-a1-production-current/artifacts");
 const {
   listTargetAdapterMatrix,
@@ -8,21 +11,46 @@ const {
 } = require("./lib/g2-a1-production-current/source-adapters/target");
 const { OFFICIAL_SOURCE_ACCESS_VERSION } = require("./lib/g2-a1-production-current/official-source-access-constants");
 
+function loadBrowserPilots() {
+  const p = path.join(ROOT, "reports/g2-a1-production-current/official-source-browser-adapter-pilots.json");
+  if (!fs.existsSync(p)) return null;
+  return JSON.parse(fs.readFileSync(p, "utf8"));
+}
+
 function main() {
   const complete = assertRegistryComplete();
   const targets = listTargetAdapterMatrix();
   const implemented = targets.filter((r) => r.realLookup === "YES").length;
   const live = targets.filter((r) => r.liveIntegrationStatus === "LIVE").length;
   const blocked = targets.filter((r) => r.liveIntegrationStatus === "BLOCKED").length;
+  const browserPilots = loadBrowserPilots();
+  const browserPositivePass = browserPilots?.positivePilotPass ?? null;
+
+  const entryPathsValidated =
+    browserPilots && browserPositivePass !== null
+      ? 8 + browserPositivePass + 0
+      : null;
+  const httpLiveValidatedAssumed = 8;
 
   const gate = {
-    pass: implemented === 32 && complete.pass,
+    pass: implemented === 32 && complete.pass && entryPathsValidated === 32,
     officialSourceAccessVersion: OFFICIAL_SOURCE_ACCESS_VERSION,
     targetLanguages: targets.length,
     adaptersImplemented: implemented,
     adaptersPending: 32 - implemented,
     liveAdapters: live,
     blockedOfficialAdapters: blocked,
+    browserAdapterPilots: browserPilots
+      ? {
+          positivePilotPass: browserPilots.positivePilotPass,
+          browserAdapterCount: browserPilots.browserAdapterCount,
+          classification: browserPilots.classification,
+        }
+      : null,
+    entryPathsValidatedEstimate:
+      entryPathsValidated !== null
+        ? Math.min(32, httpLiveValidatedAssumed + (browserPositivePass || 0))
+        : null,
     registryComplete: complete.pass,
     missingAdapters: complete.missing,
     deAdapter: {
@@ -32,16 +60,18 @@ function main() {
     },
     matrix: targets,
     classification:
-      implemented === 32 && live === 32
+      implemented === 32 && entryPathsValidated === 32
         ? "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_READY"
-        : implemented === 32
-          ? "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED_AFTER_FULL_REGISTRY_RECONCILIATION"
-          : "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_IN_PROGRESS",
+        : implemented === 32 && browserPilots
+          ? "G2_A1_OFFICIAL_SOURCE_BROWSER_ACCESS_PARTIALLY_BLOCKED"
+          : implemented === 32
+            ? "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED_AFTER_FULL_REGISTRY_RECONCILIATION"
+            : "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_IN_PROGRESS",
     nextAction:
-      implemented === 32 && live === 32
+      implemented === 32 && entryPathsValidated === 32
         ? "OWNER_MAY_AUTHORIZE_FULL_TARGETED_FIELD_LEVEL_AUDIT_RESUME"
         : implemented === 32
-          ? "OWNER_DECISION_REQUIRED_FOR_REMAINING_EXACT_BLOCKERS"
+          ? "OWNER_DECISION_REQUIRED_FOR_REMAINING_SPECIFIC_AUTHORITIES"
           : "IMPLEMENT_REMAINING_TARGET_SOURCE_ADAPTERS",
   };
   writeJsonAtomic("official-source-adapter-matrix.json", gate);

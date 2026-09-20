@@ -1,19 +1,26 @@
 {
-  "pass": true,
+  "pass": false,
   "pilotCount": 8,
-  "dualValidatedCount": 6,
+  "dualValidatedCount": 7,
   "dualValidatedRequired": 6,
-  "failures": [],
+  "failures": [
+    {
+      "id": "de-ru-cyrillic",
+      "deOutcome": "SOURCE_ENTRY_VALIDATED",
+      "targetOutcome": "SOURCE_ENTRY_VALIDATED",
+      "dual": true
+    }
+  ],
   "results": [
     {
       "id": "de-bg-ordinary",
       "description": "DE + BG (blocked target — expect technical, not dual validated)",
       "deOutcome": "SOURCE_ENTRY_VALIDATED",
-      "targetOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "targetOutcome": "SOURCE_ENTRY_NOT_FOUND",
       "dualValidated": false,
       "pass": true,
       "deEntryUrl": "https://www.dwds.de/wb/lernen",
-      "targetEntryUrl": null
+      "targetEntryUrl": "https://beron.mon.bg/dictionary/search?q=%D1%83%D1%87%D0%B5%D0%BD%D0%B5"
     },
     {
       "id": "de-et-ordinary",
@@ -49,11 +56,11 @@
       "id": "de-ru-cyrillic",
       "description": "DE + RU (Cyrillic target)",
       "deOutcome": "SOURCE_ENTRY_VALIDATED",
-      "targetOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
-      "dualValidated": false,
-      "pass": true,
+      "targetOutcome": "SOURCE_ENTRY_VALIDATED",
+      "dualValidated": true,
+      "pass": false,
       "deEntryUrl": "https://www.dwds.de/wb/lernen",
-      "targetEntryUrl": null
+      "targetEntryUrl": "https://orfo.ruslang.ru/search/word"
     },
     {
       "id": "de-cs-inflection",
@@ -86,5 +93,5 @@
       "targetEntryUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/learn"
     }
   ],
-  "classification": "G2_A1_OFFICIAL_SOURCE_V2_MULTI_PILOT_PASS"
+  "classification": "G2_A1_OFFICIAL_SOURCE_V2_MULTI_PILOT_BLOCKED"
 }

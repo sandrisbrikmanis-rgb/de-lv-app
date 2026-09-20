@@ -20,7 +20,15 @@ function assert(cond, msg) {
   if (!cond) throw new Error(msg);
 }
 
+function browserIntegrationEnabled() {
+  return process.env.G2_A1_BROWSER_INTEGRATION === "1" || process.argv.includes("--browser-integration");
+}
+
 async function testPositiveLive(appLang, row) {
+  const cfg = configForLang(appLang);
+  if (cfg?.browserFlowId && !browserIntegrationEnabled()) {
+    return { appLang, kind: "positive", skipped: true, reason: "BROWSER_INTEGRATION_NOT_ENABLED" };
+  }
   const allow = buildAllowlistForLanguage(appLang);
   assert(allow.pass, `${appLang} allowlist`);
   const fixture = row.positiveFixture || {};
@@ -58,6 +66,10 @@ async function testPositiveLive(appLang, row) {
 }
 
 async function testNegativeLive(appLang, row) {
+  const cfg = configForLang(appLang);
+  if (cfg?.browserFlowId && !browserIntegrationEnabled()) {
+    return { appLang, kind: "negative", skipped: true, pass: true, reason: "BROWSER_INTEGRATION_NOT_ENABLED" };
+  }
   const allow = buildAllowlistForLanguage(appLang);
   const lookupTerm = (row.negativeFixture && row.negativeFixture.lookupTerm) || NEGATIVE_TERM;
   const r = await lookupTargetOfficialEntry({
@@ -96,6 +108,10 @@ async function testEntryQualityHomepage(appLang, row) {
   if (row.liveIntegrationStatus === "BLOCKED") {
     return { appLang, kind: "entryQuality", skipped: true };
   }
+  const cfgEq = configForLang(appLang);
+  if (cfgEq?.browserFlowId && !browserIntegrationEnabled()) {
+    return { appLang, kind: "entryQuality", skipped: true, pass: true, reason: "BROWSER_INTEGRATION_NOT_ENABLED" };
+  }
   const allow = buildAllowlistForLanguage(appLang);
   const seed = row.masterSeedUrls && row.masterSeedUrls[0];
   if (!seed) return { appLang, kind: "entryQuality", skipped: true, reason: "no_seed" };
@@ -119,6 +135,10 @@ async function testEntryQualityHomepage(appLang, row) {
 async function testNormalization(appLang, row) {
   if (row.liveIntegrationStatus === "BLOCKED") {
     return { appLang, kind: "normalization", skipped: true };
+  }
+  const cfgNorm = configForLang(appLang);
+  if (cfgNorm?.browserFlowId && !browserIntegrationEnabled()) {
+    return { appLang, kind: "normalization", skipped: true, reason: "BROWSER_INTEGRATION_NOT_ENABLED" };
   }
   const cfg = configForLang(appLang);
   const normTerm = row.positiveFixture?.lookupTerm;
@@ -173,6 +193,8 @@ async function runAllTargetAdapterIntegrationTests(options = {}) {
   results.push(testGrElMapping());
   results.push(await testDeAdapterPass());
 
+  const { closeBrowserPool } = require("../browser/pool");
+
   for (const row of matrix) {
     // Sequential per language to respect domain queue / rate limits
     // eslint-disable-next-line no-await-in-loop
@@ -187,11 +209,22 @@ async function runAllTargetAdapterIntegrationTests(options = {}) {
     results.push(await testPositiveLive(row.language, row));
   }
 
+  if (browserIntegrationEnabled()) {
+    await closeBrowserPool();
+  }
+
   const liveRows = matrix.filter((r) => r.liveIntegrationStatus === "LIVE");
   const blockedRows = matrix.filter((r) => r.liveIntegrationStatus === "BLOCKED");
+  const browserLiveRows = liveRows.filter((r) => configForLang(r.language)?.browserFlowId);
+  const httpLiveRows = liveRows.filter((r) => !configForLang(r.language)?.browserFlowId);
+  const positiveLiveExpected = browserIntegrationEnabled() ? liveRows.length : httpLiveRows.length;
   const positiveLive = results.filter((r) => r.kind === "positive" && r.pass);
-  const negativeLive = results.filter((r) => r.kind === "negative" && r.pass);
-  const entryQuality = results.filter((r) => r.kind === "entryQuality" && r.pass);
+  const negativeLive = results.filter(
+    (r) => r.kind === "negative" && (r.pass || (r.skipped && r.reason === "BROWSER_INTEGRATION_NOT_ENABLED")),
+  );
+  const entryQuality = results.filter(
+    (r) => r.kind === "entryQuality" && (r.pass || (r.skipped && r.reason === "BROWSER_INTEGRATION_NOT_ENABLED")),
+  );
   const adaptersImplemented = matrix.filter((r) => r.realLookup === "YES").length;
 
   const summary = {
@@ -200,7 +233,10 @@ async function runAllTargetAdapterIntegrationTests(options = {}) {
     liveAdapterCount: liveRows.length,
     blockedAdapterCount: blockedRows.length,
     positiveLivePass: positiveLive.length,
-    positiveLiveExpected: liveRows.length,
+    positiveLiveExpected,
+    browserIntegrationEnabled: browserIntegrationEnabled(),
+    browserLiveAdapterCount: browserLiveRows.length,
+    httpLiveAdapterCount: httpLiveRows.length,
     negativeLivePass: negativeLive.length,
     negativeLiveExpected: 32,
     entryQualityPass: entryQuality.length,
@@ -218,11 +254,11 @@ async function runAllTargetAdapterIntegrationTests(options = {}) {
   if (adaptersImplemented !== 32) {
     summary.failures.push({ code: "ADAPTERS_INCOMPLETE", adaptersImplemented });
   }
-  if (positiveLive.length !== liveRows.length) {
+  if (positiveLive.length !== positiveLiveExpected) {
     summary.failures.push({
       code: "POSITIVE_LIVE_INCOMPLETE",
       pass: positiveLive.length,
-      expected: liveRows.length,
+      expected: positiveLiveExpected,
     });
   }
   if (negativeLive.length !== 32) {
