@@ -80,6 +80,28 @@ function checkMasterVersion(doc) {
   };
 }
 
+function hausPreauthorizedProductionAllowlist() {
+  try {
+    const manifestPath = path.join(
+      ROOT,
+      "reports/g2-a1-production-current/haus-owner-review/haus-owner-review-manifest.json",
+    );
+    if (!fs.existsSync(manifestPath)) return null;
+    const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+    if (manifest.productionApply !== true) return null;
+    const { PREAUTHORIZED_CAP_ROWS } = require("./g2-a1-production-current/haus-preauthorized-capitalization");
+    const { productionA1Rel, wwwA1Rel } = require("./g2-a1-production-current/paths");
+    const allowed = new Set();
+    for (const spec of PREAUTHORIZED_CAP_ROWS) {
+      allowed.add(productionA1Rel(spec.language));
+      allowed.add(wwwA1Rel(spec.language));
+    }
+    return allowed;
+  } catch {
+    return null;
+  }
+}
+
 function checkProductionChanges(baseRef) {
   const files = git(`git diff --name-only ${baseRef}...HEAD`).split("\n").filter(Boolean);
   const productionPatterns = [
@@ -88,7 +110,7 @@ function checkProductionChanges(baseRef) {
     /^www\/(?!data\/de)/,
   ];
   const dePatterns = [/^data\/de/, /^www\/data\/de/];
-  const prodHits = files.filter(
+  let prodHits = files.filter(
     (f) =>
       productionPatterns.some((re) => re.test(f)) &&
       !f.startsWith("reports/") &&
@@ -96,7 +118,20 @@ function checkProductionChanges(baseRef) {
       !f.startsWith("docs_and_rules/"),
   );
   const deHits = files.filter((f) => dePatterns.some((re) => re.test(f)));
-  return { files, prodHits, deHits, productionChanges: prodHits.length, deChanges: deHits.length };
+  const preauthAllow = hausPreauthorizedProductionAllowlist();
+  let preauthorizedProductionFiles = [];
+  if (preauthAllow) {
+    preauthorizedProductionFiles = prodHits.filter((f) => preauthAllow.has(f));
+    prodHits = prodHits.filter((f) => !preauthAllow.has(f));
+  }
+  return {
+    files,
+    prodHits,
+    deHits,
+    preauthorizedProductionFiles,
+    productionChanges: prodHits.length,
+    deChanges: deHits.length,
+  };
 }
 
 /**
