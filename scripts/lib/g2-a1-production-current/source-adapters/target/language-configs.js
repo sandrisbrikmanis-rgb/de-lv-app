@@ -172,7 +172,7 @@ const LANGUAGE_CONFIGS = [
   browserLang("uk", "uk", "uk-dictua-browser-entry", "uk-dictua", "lcorp.ulif.org.ua", { lookupTerm: "дім", expectedHeadword: "дім" }, { lookupTerm: "zzqqxxnotaword999" }),
   browserLang("lt", "lt", "lt-ekalba-browser-entry", "lt-ekalba", "ekalba.lt", { lookupTerm: "namas", expectedHeadword: "namas" }, { lookupTerm: "zzqqxxnotaword999" }),
   browserLang("lb", "lb", "lb-lod-browser-entry", "lb-lod", "lod.lu", { lookupTerm: "Haus", expectedHeadword: "Haus" }, { lookupTerm: "zzqqxxnotaword999" }),
-  browserLang("hu", "hu", "hu-nagyszotar-browser-entry", "hu-nagyszotar", "nagyszotar.nytud.hu", { lookupTerm: "ház", expectedHeadword: "ház" }, { lookupTerm: "zzqqxxnotaword999" }),
+  browserLang("hu", "hu", "hu-nagyszotar-browser-entry", "hu-nagyszotar", "nagyszotar.nytud.hu", { lookupTerm: "asztal", expectedHeadword: "asztal" }, { lookupTerm: "zzqqxxnotaword999" }),
   browserLang("is", "is", "is-bin-browser-entry", "is-bin", "bin.arnastofnun.is", { lookupTerm: "hús", expectedHeadword: "hús" }, { lookupTerm: "zzqqxxnotaword999" }),
   blocked(
     "bs",

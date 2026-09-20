@@ -11,7 +11,16 @@
     "browserAdapterCount": 21,
     "classification": "G2_A1_BROWSER_ADAPTER_PILOTS_PARTIALLY_BLOCKED"
   },
-  "entryPathsValidatedEstimate": 14,
+  "blockerResolution": {
+    "totalEntryPathsVerified": 15,
+    "counts": {
+      "ENTRY_ACCESS_VERIFIED": 1,
+      "MANUAL_OFFICIAL_EVIDENCE_REQUIRED": 13,
+      "MASTER_SOURCE_CHANGE_REQUIRED": 4
+    },
+    "classification": "G2_A1_OFFICIAL_SOURCE_BLOCKERS_INDIVIDUALLY_RESOLVED_AWAITING_OWNER_ACTION"
+  },
+  "entryPathsValidatedEstimate": 15,
   "registryComplete": true,
   "missingAdapters": [],
   "deAdapter": {
@@ -496,8 +505,8 @@
       "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
       "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "ház",
-        "expectedHeadword": "ház"
+        "lookupTerm": "asztal",
+        "expectedHeadword": "asztal"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"

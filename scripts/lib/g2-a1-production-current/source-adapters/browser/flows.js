@@ -144,15 +144,31 @@ async function flowPlWsjp(page, lookupTerm, allowedDomains) {
   await page.goto(searchUrl, { waitUntil: "domcontentloaded" });
   await page.waitForTimeout(2000);
   await page.locator("input").first().fill(lookupTerm);
-  await page.waitForTimeout(2500);
+  await page.waitForTimeout(1500);
+  await page.keyboard.press("Enter");
+  await page.waitForTimeout(3500);
   const esc = String(lookupTerm).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  try {
-    await page.locator("a").filter({ hasText: new RegExp(`^${esc}$`, "i") }).first().click({ timeout: 10000 });
-  } catch {
-    await page.keyboard.press("Enter");
-    await page.waitForTimeout(4000);
+  const entryHref = await page.evaluate((term) => {
+    const re = new RegExp(`^${term}$`, "i");
+    const a = [...document.querySelectorAll('a[href*="/haslo/"]')].find((el) => re.test(el.textContent.trim()));
+    return a ? a.href : null;
+  }, lookupTerm);
+  if (entryHref) {
+    await page.goto(entryHref, { waitUntil: "domcontentloaded" });
+    await page.waitForTimeout(3500);
+  } else {
+    try {
+      await page
+        .locator(`a[href*="/haslo/"]`)
+        .filter({ hasText: new RegExp(`^${esc}$`, "i") })
+        .first()
+        .click({ timeout: 8000 });
+      await page.waitForTimeout(4000);
+    } catch {
+      /* stay on search results */
+    }
   }
-  await page.waitForTimeout(4000);
+  await page.waitForTimeout(1500);
   const finalUrl = page.url();
   const host = new URL(finalUrl).hostname;
   if (!isHostnameAllowed(host, allowedDomains)) {
@@ -254,11 +270,39 @@ const FLOW_RUNNERS = {
       searchUrlTemplate: (t) => `https://rjecnik.hr/?query=${encodeURIComponent(t)}`,
       validateRe: /.+/,
     }),
-  "nl-woordenlijst": (page, term, allow) =>
-    flowGenericSearchUrl(page, term, allow, {
-      searchUrlTemplate: (t) => `https://woordenlijst.org/#/zoeken/${encodeURIComponent(t)}`,
-      validateRe: /werkwoord|zelfstandig|betekenis/i,
-    }),
+  "nl-woordenlijst": async (page, term, allow) => {
+    const searchUrl = `https://woordenlijst.org/#/zoeken/${encodeURIComponent(term)}`;
+    await page.goto(searchUrl, { waitUntil: "domcontentloaded" });
+    await acceptCookiesIfPresent(page);
+    await page.waitForTimeout(5000);
+    const esc = String(term).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    try {
+      await page.locator("a").filter({ hasText: new RegExp(`^${esc}$`, "i") }).first().click({ timeout: 10000 });
+      await page.waitForTimeout(5000);
+    } catch {
+      /* suggestions list may differ */
+    }
+    const finalUrl = page.url();
+    const host = new URL(finalUrl).hostname;
+    if (!isHostnameAllowed(host, allow)) {
+      return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+    }
+    const text = await bodyText(page);
+    const guard = classifyBrowserText(text, finalUrl);
+    if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+    const parsed = extractHeadwordFragment(text, term);
+    if (!parsed || !/werkwoord|zelfstandig|betekenis|spelling/i.test(parsed.fragment)) {
+      return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+    }
+    return {
+      validated: true,
+      searchUrl,
+      entryUrl: finalUrl,
+      headword: parsed.headword,
+      fragment: parsed.fragment,
+      entryOrRule: `Woordenlijst.org: ${parsed.headword}`,
+    };
+  },
   "sv-svenska": (page, term, allow) =>
     flowGenericSearchUrl(page, term, allow, {
       searchUrlTemplate: (t) => `https://svenska.se/saol/#/search/${encodeURIComponent(t)}`,

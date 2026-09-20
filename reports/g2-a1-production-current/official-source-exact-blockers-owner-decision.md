@@ -14,7 +14,7 @@ Live adapters (implemented): **29/32** | Registry-blocked: **3/32** | Entry path
 - **Choices:** A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS | B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED | C. NEEDS_SOURCE_REVIEW | D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE
 
 **MASTER sources probed:**
-- `https://izj.unsa.ba/` → SOURCE_PAGE_FETCHED (HTTP 200, 119291 B)
+- `https://izj.unsa.ba/` → SOURCE_PAGE_FETCHED (HTTP 200, 119664 B)
 
 ### fr (`fr-academie-browser-entry`)
 
@@ -25,8 +25,8 @@ Live adapters (implemented): **29/32** | Registry-blocked: **3/32** | Entry path
 - **Choices:** A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS | B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED | C. NEEDS_SOURCE_REVIEW | D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE
 
 **MASTER sources probed:**
-- `https://www.dictionnaire-academie.fr/` → SOURCE_PAGE_FETCHED (HTTP 200, 209759 B)
-- `https://www.dictionnaire-academie.fr/` → SOURCE_PAGE_FETCHED (HTTP 200, 209759 B)
+- `https://www.dictionnaire-academie.fr/` → SOURCE_PAGE_FETCHED (HTTP 200, 209753 B)
+- `https://www.dictionnaire-academie.fr/` → SOURCE_PAGE_FETCHED (HTTP 200, 209758 B)
 
 ### hr (`hr-rjecnik-browser-entry`)
 
@@ -85,7 +85,7 @@ Live adapters (implemented): **29/32** | Registry-blocked: **3/32** | Entry path
 - **Choices:** A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS | B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED | C. NEEDS_SOURCE_REVIEW | D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE
 
 **MASTER sources probed:**
-- `https://lki.lt/` → SOURCE_PAGE_FETCHED (HTTP 200, 118361 B)
+- `https://lki.lt/` → SOURCE_PAGE_FETCHED (HTTP 200, 118440 B)
 - `https://vlkk.lt/` → SOURCE_ACCESS_BLOCKED (HTTP 403, 5547 B)
 - `https://ekalba.lt/` → SOURCE_PAGE_FETCHED (HTTP 200, 2871 B)
 
@@ -137,7 +137,7 @@ Live adapters (implemented): **29/32** | Registry-blocked: **3/32** | Entry path
 
 **MASTER sources probed:**
 - `https://www.acad-ciencias.pt/` → SOURCE_PAGE_FETCHED (HTTP 200, 361059 B)
-- `https://dicionario.acad-ciencias.pt/` → SOURCE_PAGE_FETCHED (HTTP 200, 180860 B)
+- `https://dicionario.acad-ciencias.pt/` → SOURCE_PAGE_FETCHED (HTTP 200, 180738 B)
 - `https://www.portaldalinguaportuguesa.org/` → SOURCE_PAGE_FETCHED (HTTP 200, 9255 B)
 
 ### ro (`ro-doom-browser-entry`)
@@ -150,7 +150,7 @@ Live adapters (implemented): **29/32** | Registry-blocked: **3/32** | Entry path
 
 **MASTER sources probed:**
 - `https://acad.ro/` → SOURCE_PAGE_FETCHED (HTTP 200, 92 B)
-- `https://doom.lingv.ro/` → SOURCE_PAGE_FETCHED (HTTP 200, 43479 B)
+- `https://doom.lingv.ro/` → SOURCE_PAGE_FETCHED (HTTP 200, 43473 B)
 - `https://lingv.ro/` → SOURCE_PAGE_FETCHED (HTTP 200, 511628 B)
 
 ### sq (`sq-akad-no-entry`)
@@ -222,6 +222,6 @@ Call log:
 - **Choices:** A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS | B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED | C. NEEDS_SOURCE_REVIEW | D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE
 
 **MASTER sources probed:**
-- `https://iul-nasu.org.ua/` → SOURCE_PAGE_FETCHED (HTTP 200, 99833 B)
+- `https://iul-nasu.org.ua/` → SOURCE_PAGE_FETCHED (HTTP 200, 99835 B)
 - `https://lcorp.ulif.org.ua/dictua` → SOURCE_PAGE_FETCHED (HTTP 200, 28518 B)
 - `https://mon.gov.ua/osvita-2/zagalna-serednya-osvita/ukrainskiy-pravopis` → SOURCE_ACCESS_BLOCKED (HTTP 403, 5752 B)

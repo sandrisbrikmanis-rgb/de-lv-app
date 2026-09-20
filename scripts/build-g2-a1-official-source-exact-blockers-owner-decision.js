@@ -148,7 +148,13 @@ async function main() {
   }
 
   const registryBlocked = matrix.filter((r) => r.liveIntegrationStatus === "BLOCKED").length;
+  const resolutionPath = path.join(ROOT, "reports/g2-a1-production-current/official-source-exact-blockers-resolution.json");
+  let resolutionPayload = null;
+  if (fs.existsSync(resolutionPath)) {
+    resolutionPayload = JSON.parse(fs.readFileSync(resolutionPath, "utf8"));
+  }
   const entryPathValidatedCount =
+    resolutionPayload?.totalEntryPathsVerified ??
     (pilotsPayload ? pilotsPayload.positivePilotPass : 0) + httpValidated.size;
   const liveCount = matrix.filter((r) => r.liveIntegrationStatus === "LIVE").length;
 

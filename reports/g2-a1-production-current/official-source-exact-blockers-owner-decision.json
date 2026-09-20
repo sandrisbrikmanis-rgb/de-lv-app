@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T09:05:51.791Z",
+  "generatedAt": "2026-09-20T09:43:04.304Z",
   "ownerDecision": "PUBLIC_BROWSER_SESSION_AUTHORIZED_FOR_LISTED_OFFICIAL_DOMAINS",
   "targetLanguages": 32,
   "liveAdapters": 29,
@@ -30,7 +30,7 @@
           "outcome": "SOURCE_PAGE_FETCHED",
           "httpStatus": 200,
           "finalUrl": "https://izj.unsa.ba/",
-          "htmlLen": 119291,
+          "htmlLen": 119664,
           "preview": "IZJ UNSA Skip to main content +387 33 200 117 Hasana Kikića 12, BA-71000 Sarajevo, BiH info@izj.unsa.ba Početna O Instit"
         }
       ],
@@ -75,7 +75,7 @@
           "outcome": "SOURCE_PAGE_FETCHED",
           "httpStatus": 200,
           "finalUrl": "https://www.dictionnaire-academie.fr/",
-          "htmlLen": 209759,
+          "htmlLen": 209753,
           "preview": "Dictionnaire de l'Académie française En poursuivant votre navigation sur ce site, vous acceptez l’utilisation d’un témoi"
         },
         {
@@ -83,7 +83,7 @@
           "outcome": "SOURCE_PAGE_FETCHED",
           "httpStatus": 200,
           "finalUrl": "https://www.dictionnaire-academie.fr/",
-          "htmlLen": 209759,
+          "htmlLen": 209758,
           "preview": "Dictionnaire de l'Académie française En poursuivant votre navigation sur ce site, vous acceptez l’utilisation d’un témoi"
         }
       ],
@@ -382,7 +382,7 @@
           "outcome": "SOURCE_PAGE_FETCHED",
           "httpStatus": 200,
           "finalUrl": "https://lki.lt/",
-          "htmlLen": 118361,
+          "htmlLen": 118440,
           "preview": "Lietuvių kalbos institutas &#8211; Lietuvių kalbos institutas yra valstybės mokslo institutas. Pagrindinė Instituto veik"
         },
         {
@@ -663,7 +663,7 @@
           "outcome": "SOURCE_PAGE_FETCHED",
           "httpStatus": 200,
           "finalUrl": "https://dicionario.acad-ciencias.pt/",
-          "htmlLen": 180860,
+          "htmlLen": 180738,
           "preview": "Dicionário da Língua Portuguesa Dicionário Acerca do DLP Guia de uso Vocabulário Fundamental Observatório lexical Public"
         },
         {
@@ -734,7 +734,7 @@
           "outcome": "SOURCE_PAGE_FETCHED",
           "httpStatus": 200,
           "finalUrl": "https://doom.lingv.ro/",
-          "htmlLen": 43479,
+          "htmlLen": 43473,
           "preview": "Pagina principală - DOOM 3 DOOM 3 --> Pagina principală Studiu introductiv ÎOOP 6 Ajutor Utile Bibliografie Glosar de te"
         },
         {
@@ -1074,7 +1074,7 @@
           "outcome": "SOURCE_PAGE_FETCHED",
           "httpStatus": 200,
           "finalUrl": "https://iul-nasu.org.ua/",
-          "htmlLen": 99833,
+          "htmlLen": 99835,
           "preview": "Інститут української мови &#8211; НАН України Шановні відвідувачі! Сайт працює в тестовому режимі Докторантура Аспіранту"
         },
         {

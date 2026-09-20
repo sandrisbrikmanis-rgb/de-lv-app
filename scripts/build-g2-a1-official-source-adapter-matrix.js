@@ -17,6 +17,12 @@ function loadBrowserPilots() {
   return JSON.parse(fs.readFileSync(p, "utf8"));
 }
 
+function loadBlockerResolution() {
+  const p = path.join(ROOT, "reports/g2-a1-production-current/official-source-exact-blockers-resolution.json");
+  if (!fs.existsSync(p)) return null;
+  return JSON.parse(fs.readFileSync(p, "utf8"));
+}
+
 function main() {
   const complete = assertRegistryComplete();
   const targets = listTargetAdapterMatrix();
@@ -24,13 +30,10 @@ function main() {
   const live = targets.filter((r) => r.liveIntegrationStatus === "LIVE").length;
   const blocked = targets.filter((r) => r.liveIntegrationStatus === "BLOCKED").length;
   const browserPilots = loadBrowserPilots();
-  const browserPositivePass = browserPilots?.positivePilotPass ?? null;
-
+  const blockerResolution = loadBlockerResolution();
   const entryPathsValidated =
-    browserPilots && browserPositivePass !== null
-      ? 8 + browserPositivePass + 0
-      : null;
-  const httpLiveValidatedAssumed = 8;
+    blockerResolution?.totalEntryPathsVerified ??
+    (browserPilots?.positivePilotPass != null ? 8 + browserPilots.positivePilotPass : null);
 
   const gate = {
     pass: implemented === 32 && complete.pass && entryPathsValidated === 32,
@@ -47,10 +50,14 @@ function main() {
           classification: browserPilots.classification,
         }
       : null,
-    entryPathsValidatedEstimate:
-      entryPathsValidated !== null
-        ? Math.min(32, httpLiveValidatedAssumed + (browserPositivePass || 0))
-        : null,
+    blockerResolution: blockerResolution
+      ? {
+          totalEntryPathsVerified: blockerResolution.totalEntryPathsVerified,
+          counts: blockerResolution.counts,
+          classification: blockerResolution.classification,
+        }
+      : null,
+    entryPathsValidatedEstimate: entryPathsValidated !== null ? Math.min(32, entryPathsValidated) : null,
     registryComplete: complete.pass,
     missingAdapters: complete.missing,
     deAdapter: {
