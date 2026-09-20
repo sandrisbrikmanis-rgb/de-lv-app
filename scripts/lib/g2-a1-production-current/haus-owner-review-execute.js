@@ -314,7 +314,7 @@ function buildManualRows(nsrResults, structured) {
       masterAuthority: row?.PRIMARY_DICTIONARY_AUTHORITY || row?.LANGUAGE_NORM_AUTHORITY,
       officialUrl: r.targetEntryUrl || (row ? allUrlsForLanguage(row)[0] : null),
       searchHeadword: r.lookupTermUsed,
-      senseToVerify: "Building/dwelling (DE das Haus)",
+      senseToVerify: require("./haus-de-sense").HAUS_DE_SENSE_NOTE,
       technicalBlocker: r.technicalBlocker,
       OWNER_STATUS: "",
       OWNER_NEW: "",

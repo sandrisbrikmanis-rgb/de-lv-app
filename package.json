@@ -91,6 +91,8 @@
     "test:haus-owner-preauthorized-capitalization": "node scripts/test-haus-owner-preauthorized-capitalization.js",
     "test:master-initial-case-only": "node scripts/test-haus-owner-preauthorized-capitalization.js",
     "apply:g2-a1:haus-preauthorized-capitalization": "node scripts/apply-g2-a1-haus-preauthorized-capitalization.js",
+    "apply:g2-a1:haus-owner-lexical-fixes": "node scripts/apply-g2-a1-haus-owner-lexical-fixes.js",
+    "verify:g2-a1:haus-owner-lexical-fixes": "node scripts/verify-g2-a1-haus-owner-lexical-fixes.js",
     "verify:g2-a1:haus-preauthorized-capitalization-apply": "node scripts/verify-g2-a1-haus-preauthorized-capitalization-apply.js",
     "test:g2-a1:haus-preauthorized-cap-commit-range-verify": "node scripts/test-g2-a1-haus-preauthorized-cap-commit-range-verify.js",
     "test:g2-a1:haus-preauthorized-cap-git-integration": "node scripts/test-g2-a1-haus-preauthorized-cap-git-integration.js",

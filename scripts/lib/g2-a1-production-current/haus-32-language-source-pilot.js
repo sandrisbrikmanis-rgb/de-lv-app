@@ -312,7 +312,7 @@ async function runHaus32LanguageSourcePilot(options = {}) {
     deContentSha256: deBundle.de.contentSha256,
     deOutcome: deBundle.de.outcome,
     deAuthority: deBundle.de.authorityName,
-    senseNote: "Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise",
+    senseNote: require("./haus-de-sense").HAUS_DE_SENSE_NOTE,
   };
 
   const pilotRows = [];

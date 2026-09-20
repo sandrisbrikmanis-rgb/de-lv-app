@@ -27,6 +27,13 @@ const {
   isPreauthorizedCapitalizationOwnerRow,
   assertPreauthorizedOwnerRow,
 } = require("./lib/g2-a1-production-current/haus-preauthorized-capitalization");
+const {
+  OWNER_LEXICAL_APPLY_ROWS,
+  expectedLexicalFiles,
+  readLexicalClosure,
+  isLexicalOwnerLabotRow,
+  assertLexicalOwnerRow,
+} = require("./lib/g2-a1-production-current/haus-owner-lexical-apply");
 const { productionA1Rel, wwwA1Rel } = require("./lib/g2-a1-production-current/paths");
 const { loadG2Level } = require("./lib/content-crowdin-bridge/roundtrip");
 
@@ -116,8 +123,15 @@ function main() {
     const isPreauth = PREAUTHORIZED_CAP_ROWS.some((s) => s.language === d.language);
 
     if (isLexical) {
-      if (!ownerFieldsAreEmpty(d)) {
-        blockers.push({ code: "LEXICAL_OWNER_MUST_BE_EMPTY", language: d.language });
+      if (ownerFieldsAreEmpty(d)) {
+        blockers.push({ code: "LEXICAL_OWNER_MUST_BE_FILLED", language: d.language });
+      } else if (!isLexicalOwnerLabotRow(d)) {
+        blockers.push({ code: "LEXICAL_OWNER_ROW_INVALID", language: d.language });
+      } else {
+        assertLexicalOwnerRow(d, blockers);
+      }
+      if (String(d.OWNER_NEW) !== String(d.AUDIT_PROPOSED_NEW)) {
+        blockers.push({ code: "LEXICAL_OWNER_NEW_MUST_MATCH_AUDIT", language: d.language });
       }
     } else if (isPreauth) {
       if (!isPreauthorizedCapitalizationOwnerRow(d)) {
@@ -183,6 +197,11 @@ function main() {
     allowedProduction.add(productionA1Rel(spec.language));
     allowedProduction.add(wwwA1Rel(spec.language));
   }
+  const lexicalClosure = readLexicalClosure();
+  const lexicalApplied = lexicalClosure?.pass === true;
+  if (lexicalApplied) {
+    for (const f of expectedLexicalFiles()) allowedProduction.add(f);
+  }
   if (productionApply) {
     if (!prod.pass) {
       for (const f of prod.diff) {
@@ -198,7 +217,21 @@ function main() {
       }
     }
   } else if (!prod.pass) {
-    blockers.push({ code: "PRODUCTION_DIRTY", files: prod.diff });
+    if (lexicalApplied) {
+      for (const f of prod.diff) {
+        if (!allowedProduction.has(f)) {
+          blockers.push({ code: "UNAUTHORIZED_PRODUCTION_DIFF", file: f });
+        }
+      }
+      for (const spec of OWNER_LEXICAL_APPLY_ROWS) {
+        const card = loadG2Level(spec.language, "a1")[spec.cardIndex];
+        if (!card || card.lv !== spec.proposed) {
+          blockers.push({ code: "LEXICAL_POST_APPLY_LV", language: spec.language, got: card?.lv });
+        }
+      }
+    } else {
+      blockers.push({ code: "PRODUCTION_DIRTY", files: prod.diff });
+    }
   }
 
   const deDiff = execSync("git diff --name-only -- data/de", { cwd: ROOT, encoding: "utf8" }).trim();
@@ -208,6 +241,7 @@ function main() {
   if (crowdinDiff) blockers.push({ code: "CROWDIN_DIRTY", files: crowdinDiff.split("\n") });
 
   const preauthLabot = decisionRows.filter((d) => isPreauthorizedCapitalizationOwnerRow(d)).length;
+  const lexicalLabot = decisionRows.filter((d) => isLexicalOwnerLabotRow(d)).length;
   const classification =
     blockers.length === 0
       ? manifest?.classification || "G2_A1_HAUS_PREAUTHORIZED_CAPITALIZATION_OWNER_PACKAGE"
@@ -219,27 +253,29 @@ function main() {
     gates: {
       auditCounts: CURRENT_PILOT_COUNTS,
       ownerPreauthorizedCapitalizationOnly: preauthLabot,
-      ownerIndividualDecisionRequired: LEXICAL_FINDING_LANGS.length,
+      ownerIndividualLabot: lexicalLabot,
+      ownerPendingFindings: 0,
       nsrRemaining: nsrRows.length,
-      ownerLabot: preauthLabot,
+      ownerLabot: preauthLabot + lexicalLabot,
       ownerNelabot: 0,
-      ownerPending: LEXICAL_FINDING_LANGS.length,
+      ownerPending: 0,
       findingDecisionRows: decisionRows.length,
       nsrRows: nsrRows.length,
       passEvidenceRows: passRows.length,
-      lexicalOwnerStillEmpty: LEXICAL_FINDING_LANGS.every((lang) => {
+      lexicalOwnerFilled: LEXICAL_FINDING_LANGS.every((lang) => {
         const d = decisionRows.find((r) => r.language === lang);
-        return d && ownerFieldsAreEmpty(d);
+        return d && isLexicalOwnerLabotRow(d);
       }),
       productionChanges: prod.pass ? 0 : prod.diff.length,
       productionApply,
+      lexicalProductionApply: lexicalApplied,
       fullAuditRun: 0,
     },
     blockers,
     classification,
     nextAction:
       blockers.length === 0
-        ? manifest?.nextAction || "OWNER_REVIEW_4_LEXICAL_HAUS_FINDINGS_AND_18_SOURCE_BLOCKERS"
+        ? manifest?.nextAction || "RESOLVE_18_REMAINING_HAUS_SOURCE_BLOCKERS"
         : "REMOVE_UNAUTHORIZED_OWNER_DECISIONS_AND_FIX_EXACT_DATA_ERRORS",
   };
 

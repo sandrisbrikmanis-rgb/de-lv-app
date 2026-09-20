@@ -103,6 +103,14 @@ function hausPreauthorizedProductionAllowlist() {
       allowed.add(productionA1Rel(spec.language));
       allowed.add(wwwA1Rel(spec.language));
     }
+    const lexicalClosure = path.join(
+      ROOT,
+      "reports/g2-a1-production-current/haus-owner-review/haus-owner-lexical-production-apply-closure.json",
+    );
+    if (fs.existsSync(lexicalClosure)) {
+      const { expectedLexicalFiles } = require("./g2-a1-production-current/haus-owner-lexical-apply");
+      for (const f of expectedLexicalFiles()) allowed.add(f);
+    }
     return allowed;
   } catch {
     return null;

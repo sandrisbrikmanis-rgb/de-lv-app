@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T14:13:33.356Z",
+  "generatedAt": "2026-09-20T14:30:07.421Z",
   "rows": [
     {
       "language": "en",
@@ -14,7 +14,7 @@
       "deEvidence": {
         "deCurrent": "Haus",
         "deArticle": "das",
-        "deSenseNote": "Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise",
+        "deSenseNote": "HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).",
         "deAuthority": "Rat für deutsche Rechtschreibung",
         "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
         "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2"
@@ -49,7 +49,7 @@
       "deEvidence": {
         "deCurrent": "Haus",
         "deArticle": "das",
-        "deSenseNote": "Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise",
+        "deSenseNote": "HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).",
         "deAuthority": "Rat für deutsche Rechtschreibung",
         "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
         "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2"
@@ -84,7 +84,7 @@
       "deEvidence": {
         "deCurrent": "Haus",
         "deArticle": "das",
-        "deSenseNote": "Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise",
+        "deSenseNote": "HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).",
         "deAuthority": "Rat für deutsche Rechtschreibung",
         "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
         "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2"
@@ -119,7 +119,7 @@
       "deEvidence": {
         "deCurrent": "Haus",
         "deArticle": "das",
-        "deSenseNote": "Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise",
+        "deSenseNote": "HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).",
         "deAuthority": "Rat für deutsche Rechtschreibung",
         "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
         "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2"
@@ -154,7 +154,7 @@
       "deEvidence": {
         "deCurrent": "Haus",
         "deArticle": "das",
-        "deSenseNote": "Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise",
+        "deSenseNote": "HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).",
         "deAuthority": "Rat für deutsche Rechtschreibung",
         "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
         "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2"
@@ -189,7 +189,7 @@
       "deEvidence": {
         "deCurrent": "Haus",
         "deArticle": "das",
-        "deSenseNote": "Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise",
+        "deSenseNote": "HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).",
         "deAuthority": "Rat für deutsche Rechtschreibung",
         "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
         "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2"
@@ -224,7 +224,7 @@
       "deEvidence": {
         "deCurrent": "Haus",
         "deArticle": "das",
-        "deSenseNote": "Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise",
+        "deSenseNote": "HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).",
         "deAuthority": "Rat für deutsche Rechtschreibung",
         "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
         "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2"
@@ -240,7 +240,7 @@
         "de": "Haus",
         "de_article": "das",
         "de_plural": "die Häuser",
-        "lv": "Domov",
+        "lv": "dom",
         "level": "A1"
       },
       "AUDIT_PROPOSED_NEW": "dom",
@@ -259,7 +259,7 @@
       "deEvidence": {
         "deCurrent": "Haus",
         "deArticle": "das",
-        "deSenseNote": "Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise",
+        "deSenseNote": "HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).",
         "deAuthority": "Rat für deutsche Rechtschreibung",
         "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
         "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2"
@@ -275,7 +275,7 @@
         "de": "Haus",
         "de_article": "das",
         "de_plural": "die Häuser",
-        "lv": "Maya",
+        "lv": "hus",
         "level": "A1"
       },
       "AUDIT_PROPOSED_NEW": "hus",
@@ -294,7 +294,7 @@
       "deEvidence": {
         "deCurrent": "Haus",
         "deArticle": "das",
-        "deSenseNote": "Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise",
+        "deSenseNote": "HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).",
         "deAuthority": "Rat für deutsche Rechtschreibung",
         "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
         "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2"
@@ -310,7 +310,7 @@
         "de": "Haus",
         "de_article": "das",
         "de_plural": "die Häuser",
-        "lv": "Maya",
+        "lv": "hus",
         "level": "A1"
       },
       "AUDIT_PROPOSED_NEW": "hus",
@@ -329,7 +329,7 @@
       "deEvidence": {
         "deCurrent": "Haus",
         "deArticle": "das",
-        "deSenseNote": "Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise",
+        "deSenseNote": "HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).",
         "deAuthority": "Rat für deutsche Rechtschreibung",
         "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
         "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2"
@@ -345,7 +345,7 @@
         "de": "Haus",
         "de_article": "das",
         "de_plural": "die Häuser",
-        "lv": "Maja",
+        "lv": "talo",
         "level": "A1"
       },
       "AUDIT_PROPOSED_NEW": "talo",

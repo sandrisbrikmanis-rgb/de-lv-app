@@ -1,6 +1,6 @@
 # das Haus — OWNER review package (32-language pilot)
 
-**6 capitalization FINDING rows:** class-level `OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY` (not individual OWNER review). **4 lexical FINDING rows:** OWNER fields empty pending individual decision.
+**6 capitalization FINDING rows:** class-level `OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY`. **4 lexical FINDING rows:** individual OWNER LABOT (sk, nb, nn, fi). **18 NSR** remain open.
 
 ## Counts
 
@@ -15,7 +15,7 @@
 - Authority: Rat für deutsche Rechtschreibung
 - URL: https://www.dwds.de/wb/Haus?o=haus
 - SHA-256: `21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2`
-- Sense: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise
+- Sense: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).
 
 ## 10 FINDING — audit evidence
 
@@ -31,7 +31,7 @@
 | fieldPath | cards[3].lv |
 | deCurrent | Haus |
 | deArticle | das |
-| deSenseNote | Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| deSenseNote | HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | deAuthority | Rat für deutsche Rechtschreibung |
 | deEntryUrl | https://www.dwds.de/wb/Haus?o=haus |
 | deEvidenceFragment | class="dwdswb-artikel"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall &middot; Hausabriss &middot; Hausabwasser &middot; Hausagitation &middot; Hausalarm &middot; Hausaltar &middot; Hausandacht &middot; Hausangestellte &middot; Hausanschluss &middot; Hausantenne &middot; Hausanzug &middot |
@@ -51,7 +51,7 @@
 | AUDIT_VERDICT | FINDING |
 | AUDIT_FINDING_TYPE | CAPITALIZATION_ERROR |
 | AUDIT_PROPOSED_NEW | house |
-| AUDIT_REASON | Official TARGET lemma «house»; CURRENT «House» differs only by capitalization (MASTER §7.158). AUDIT_PROPOSED_NEW «house». DE: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| AUDIT_REASON | Official TARGET lemma «house»; CURRENT «House» differs only by capitalization (MASTER §7.158). AUDIT_PROPOSED_NEW «house». DE: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | AUDIT_EVIDENCE_URL | https://www.oxfordlearnersdictionaries.com/definition/english/house_1 |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 3e10d87dbbdd074b0f72734210d7ca6afa4322ab90013b7ae1cfc717dc51a276 |
@@ -64,7 +64,7 @@
 | OWNER_EVIDENCE_ACCEPTED | YES |
 | OWNER_REVIEWED_AT | 2026-09-20T12:21:17.575Z |
 
-**Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «house» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «House» matches TARGET meaning; only capitalization differs from normative lemma «house». PROPOSED_NEW «house» equals TARGET normative lemma. Authority: Oxford Learner's Dictionaries; entry: https://www.oxfordlearnersdictionaries.com/definition/english/house_1.
+**Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).. TARGET dictionary normative lemma «house» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «House» matches TARGET meaning; only capitalization differs from normative lemma «house». PROPOSED_NEW «house» equals TARGET normative lemma. Authority: Oxford Learner's Dictionaries; entry: https://www.oxfordlearnersdictionaries.com/definition/english/house_1.
 
 ### DA — CAPITALIZATION_ERROR
 
@@ -78,7 +78,7 @@
 | fieldPath | cards[3].lv |
 | deCurrent | Haus |
 | deArticle | das |
-| deSenseNote | Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| deSenseNote | HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | deAuthority | Rat für deutsche Rechtschreibung |
 | deEntryUrl | https://www.dwds.de/wb/Haus?o=haus |
 | deEvidenceFragment | class="dwdswb-artikel"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall &middot; Hausabriss &middot; Hausabwasser &middot; Hausagitation &middot; Hausalarm &middot; Hausaltar &middot; Hausandacht &middot; Hausangestellte &middot; Hausanschluss &middot; Hausantenne &middot; Hausanzug &middot |
@@ -123,7 +123,7 @@ u	kulde	[ˈk |
 | AUDIT_VERDICT | FINDING |
 | AUDIT_FINDING_TYPE | CAPITALIZATION_ERROR |
 | AUDIT_PROPOSED_NEW | hus |
-| AUDIT_REASON | Official TARGET lemma «hus»; CURRENT «Hus» differs only by capitalization (MASTER §7.158). AUDIT_PROPOSED_NEW «hus». DE: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| AUDIT_REASON | Official TARGET lemma «hus»; CURRENT «Hus» differs only by capitalization (MASTER §7.158). AUDIT_PROPOSED_NEW «hus». DE: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | AUDIT_EVIDENCE_URL | https://ordnet.dk/ddo/ordbog/Hus |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | f74c65de9e204eaf48cc732610c7e4e66599b6079b91d78cebcf0dde43d62a78 |
@@ -136,7 +136,7 @@ u	kulde	[ˈk |
 | OWNER_EVIDENCE_ACCEPTED | YES |
 | OWNER_REVIEWED_AT | 2026-09-20T12:21:18.444Z |
 
-**Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «hus» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Hus» matches TARGET meaning; only capitalization differs from normative lemma «hus». PROPOSED_NEW «hus» equals TARGET normative lemma. Authority: Den Danske Ordbog (Det Danske Sprog- og Litteraturselskab / ordnet.dk); entry: https://ordnet.dk/ddo/ordbog/Hus.
+**Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).. TARGET dictionary normative lemma «hus» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Hus» matches TARGET meaning; only capitalization differs from normative lemma «hus». PROPOSED_NEW «hus» equals TARGET normative lemma. Authority: Den Danske Ordbog (Det Danske Sprog- og Litteraturselskab / ordnet.dk); entry: https://ordnet.dk/ddo/ordbog/Hus.
 
 ### TR — CAPITALIZATION_ERROR
 
@@ -150,7 +150,7 @@ u	kulde	[ˈk |
 | fieldPath | cards[3].lv |
 | deCurrent | Haus |
 | deArticle | das |
-| deSenseNote | Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| deSenseNote | HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | deAuthority | Rat für deutsche Rechtschreibung |
 | deEntryUrl | https://www.dwds.de/wb/Haus?o=haus |
 | deEvidenceFragment | class="dwdswb-artikel"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall &middot; Hausabriss &middot; Hausabwasser &middot; Hausagitation &middot; Hausalarm &middot; Hausaltar &middot; Hausandacht &middot; Hausangestellte &middot; Hausanschluss &middot; Hausantenne &middot; Hausanzug &middot |
@@ -170,7 +170,7 @@ u	kulde	[ˈk |
 | AUDIT_VERDICT | FINDING |
 | AUDIT_FINDING_TYPE | CAPITALIZATION_ERROR |
 | AUDIT_PROPOSED_NEW | ev |
-| AUDIT_REASON | Official TARGET lemma «ev»; CURRENT «Ev» differs only by capitalization (MASTER §7.158). AUDIT_PROPOSED_NEW «ev». DE: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| AUDIT_REASON | Official TARGET lemma «ev»; CURRENT «Ev» differs only by capitalization (MASTER §7.158). AUDIT_PROPOSED_NEW «ev». DE: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | AUDIT_EVIDENCE_URL | https://sozluk.gov.tr/gts?ara=Ev |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | bc4fa8a3a9b62fca9b815702721f6a96bcd5f0df90db4dbe9483eba707ee0f8b |
@@ -183,7 +183,7 @@ u	kulde	[ˈk |
 | OWNER_EVIDENCE_ACCEPTED | YES |
 | OWNER_REVIEWED_AT | 2026-09-20T12:27:31.589Z |
 
-**Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «ev» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Ev» matches TARGET meaning; only capitalization differs from normative lemma «ev». PROPOSED_NEW «ev» equals TARGET normative lemma. Authority: TDK Güncel Türkçe Sözlük; entry: https://sozluk.gov.tr/gts?ara=Ev.
+**Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).. TARGET dictionary normative lemma «ev» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Ev» matches TARGET meaning; only capitalization differs from normative lemma «ev». PROPOSED_NEW «ev» equals TARGET normative lemma. Authority: TDK Güncel Türkçe Sözlük; entry: https://sozluk.gov.tr/gts?ara=Ev.
 
 ### GR — CAPITALIZATION_ERROR
 
@@ -197,7 +197,7 @@ u	kulde	[ˈk |
 | fieldPath | cards[3].lv |
 | deCurrent | Haus |
 | deArticle | das |
-| deSenseNote | Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| deSenseNote | HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | deAuthority | Rat für deutsche Rechtschreibung |
 | deEntryUrl | https://www.dwds.de/wb/Haus?o=haus |
 | deEvidenceFragment | class="dwdswb-artikel"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall &middot; Hausabriss &middot; Hausabwasser &middot; Hausagitation &middot; Hausalarm &middot; Hausaltar &middot; Hausandacht &middot; Hausangestellte &middot; Hausanschluss &middot; Hausantenne &middot; Hausanzug &middot |
@@ -217,7 +217,7 @@ u	kulde	[ˈk |
 | AUDIT_VERDICT | FINDING |
 | AUDIT_FINDING_TYPE | CAPITALIZATION_ERROR |
 | AUDIT_PROPOSED_NEW | σπίτι |
-| AUDIT_REASON | Official TARGET lemma «σπίτι»; CURRENT «Σπίτι» differs only by capitalization (MASTER §7.158). AUDIT_PROPOSED_NEW «σπίτι». DE: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| AUDIT_REASON | Official TARGET lemma «σπίτι»; CURRENT «Σπίτι» differs only by capitalization (MASTER §7.158). AUDIT_PROPOSED_NEW «σπίτι». DE: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | AUDIT_EVIDENCE_URL | https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%A3%CF%80%CE%AF%CF%84%CE%B9 |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 87b558e93c6af1a49a905edd5eb6272b74be886c5c1a0d84250df88b2630c4f4 |
@@ -230,7 +230,7 @@ u	kulde	[ˈk |
 | OWNER_EVIDENCE_ACCEPTED | YES |
 | OWNER_REVIEWED_AT | 2026-09-20T12:27:31.882Z |
 
-**Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «σπίτι» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Σπίτι» matches TARGET meaning; only capitalization differs from normative lemma «σπίτι». PROPOSED_NEW «σπίτι» equals TARGET normative lemma. Authority: Λεξικό της κοινής νεοελληνικής (Τριανταφυλλίδης); entry: https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%A3%CF%80%CE%AF%CF%84%CE%B9.
+**Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).. TARGET dictionary normative lemma «σπίτι» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Σπίτι» matches TARGET meaning; only capitalization differs from normative lemma «σπίτι». PROPOSED_NEW «σπίτι» equals TARGET normative lemma. Authority: Λεξικό της κοινής νεοελληνικής (Τριανταφυλλίδης); entry: https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%A3%CF%80%CE%AF%CF%84%CE%B9.
 
 ### RU — CAPITALIZATION_ERROR
 
@@ -244,7 +244,7 @@ u	kulde	[ˈk |
 | fieldPath | cards[3].lv |
 | deCurrent | Haus |
 | deArticle | das |
-| deSenseNote | Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| deSenseNote | HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | deAuthority | Rat für deutsche Rechtschreibung |
 | deEntryUrl | https://www.dwds.de/wb/Haus?o=haus |
 | deEvidenceFragment | class="dwdswb-artikel"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall &middot; Hausabriss &middot; Hausabwasser &middot; Hausagitation &middot; Hausalarm &middot; Hausaltar &middot; Hausandacht &middot; Hausangestellte &middot; Hausanschluss &middot; Hausantenne &middot; Hausanzug &middot |
@@ -284,7 +284,7 @@ u	kulde	[ˈk |
 | AUDIT_VERDICT | FINDING |
 | AUDIT_FINDING_TYPE | CAPITALIZATION_ERROR |
 | AUDIT_PROPOSED_NEW | дом |
-| AUDIT_REASON | Official TARGET lemma «дом»; CURRENT «Дом» differs only by capitalization (MASTER §7.158). AUDIT_PROPOSED_NEW «дом». DE: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| AUDIT_REASON | Official TARGET lemma «дом»; CURRENT «Дом» differs only by capitalization (MASTER §7.158). AUDIT_PROPOSED_NEW «дом». DE: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | AUDIT_EVIDENCE_URL | https://orfo.ruslang.ru/search?word=%D0%B4%D0%BE%D0%BC |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | e6a31e8e4c485c0326311bd917063e3039ee05dd7d98e713201bd88b1da139f0 |
@@ -297,7 +297,7 @@ u	kulde	[ˈk |
 | OWNER_EVIDENCE_ACCEPTED | YES |
 | OWNER_REVIEWED_AT | 2026-09-20T12:28:00.156Z |
 
-**Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «дом» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Дом» matches TARGET meaning; only capitalization differs from normative lemma «дом». PROPOSED_NEW «дом» equals TARGET normative lemma. Authority: Орфографический ресурс АКАДЕМОС (orfo.ruslang.ru); entry: https://orfo.ruslang.ru/search/word.
+**Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).. TARGET dictionary normative lemma «дом» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Дом» matches TARGET meaning; only capitalization differs from normative lemma «дом». PROPOSED_NEW «дом» equals TARGET normative lemma. Authority: Орфографический ресурс АКАДЕМОС (orfo.ruslang.ru); entry: https://orfo.ruslang.ru/search/word.
 
 ### CS — CAPITALIZATION_ERROR
 
@@ -311,7 +311,7 @@ u	kulde	[ˈk |
 | fieldPath | cards[3].lv |
 | deCurrent | Haus |
 | deArticle | das |
-| deSenseNote | Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| deSenseNote | HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | deAuthority | Rat für deutsche Rechtschreibung |
 | deEntryUrl | https://www.dwds.de/wb/Haus?o=haus |
 | deEvidenceFragment | class="dwdswb-artikel"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall &middot; Hausabriss &middot; Hausabwasser &middot; Hausagitation &middot; Hausalarm &middot; Hausaltar &middot; Hausandacht &middot; Hausangestellte &middot; Hausanschluss &middot; Hausantenne &middot; Hausanzug &middot |
@@ -331,7 +331,7 @@ u	kulde	[ˈk |
 | AUDIT_VERDICT | FINDING |
 | AUDIT_FINDING_TYPE | CAPITALIZATION_ERROR |
 | AUDIT_PROPOSED_NEW | dům |
-| AUDIT_REASON | Official TARGET lemma «dům»; CURRENT «Dům» differs only by capitalization (MASTER §7.158). AUDIT_PROPOSED_NEW «dům». DE: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| AUDIT_REASON | Official TARGET lemma «dům»; CURRENT «Dům» differs only by capitalization (MASTER §7.158). AUDIT_PROPOSED_NEW «dům». DE: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | AUDIT_EVIDENCE_URL | https://prirucka.ujc.cas.cz/?id=915#ref_id_2019_15_1 |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 1876c6c100357a4126a20ca88eff1787dddc810d69cef8d63298689baf630aea |
@@ -344,7 +344,7 @@ u	kulde	[ˈk |
 | OWNER_EVIDENCE_ACCEPTED | YES |
 | OWNER_REVIEWED_AT | 2026-09-20T12:21:18.159Z |
 
-**Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «dům» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Dům» matches TARGET meaning; only capitalization differs from normative lemma «dům». PROPOSED_NEW «dům» equals TARGET normative lemma. Authority: Internetová jazyková příručka (lexicon); entry: https://prirucka.ujc.cas.cz/?id=915#ref_id_2019_15_1.
+**Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).. TARGET dictionary normative lemma «dům» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Dům» matches TARGET meaning; only capitalization differs from normative lemma «dům». PROPOSED_NEW «dům» equals TARGET normative lemma. Authority: Internetová jazyková příručka (lexicon); entry: https://prirucka.ujc.cas.cz/?id=915#ref_id_2019_15_1.
 
 ### SK — WRONG_TRANSLATION
 
@@ -358,7 +358,7 @@ u	kulde	[ˈk |
 | fieldPath | cards[3].lv |
 | deCurrent | Haus |
 | deArticle | das |
-| deSenseNote | Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| deSenseNote | HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | deAuthority | Rat für deutsche Rechtschreibung |
 | deEntryUrl | https://www.dwds.de/wb/Haus?o=haus |
 | deEvidenceFragment | class="dwdswb-artikel"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall &middot; Hausabriss &middot; Hausabwasser &middot; Hausagitation &middot; Hausalarm &middot; Hausaltar &middot; Hausandacht &middot; Hausangestellte &middot; Hausanschluss &middot; Hausantenne &middot; Hausanzug &middot |
@@ -388,7 +388,7 @@ dom -u m.
 | AUDIT_VERDICT | FINDING |
 | AUDIT_FINDING_TYPE | WRONG_TRANSLATION |
 | AUDIT_PROPOSED_NEW | dom |
-| AUDIT_REASON | CURRENT «Domov» vs validated TARGET lemma for DE «Haus» dwelling sense. AUDIT_PROPOSED_NEW «dom». |
+| AUDIT_REASON | CURRENT «Domov» vs validated TARGET lemma «dom» for DE «Haus» (HOUSE / MĀJA sense). AUDIT_PROPOSED_NEW «dom». DE: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | AUDIT_EVIDENCE_URL | https://slovnik.juls.savba.sk/?w=dom&s=exact&k=Md03&cs=&d=kssj4&d=psp&d=ogs&d=sssj&d=orter&d=scs&d=sss&d=peciar&d=ssn&d=hssj&d=bernolak&d=noundb&d=orient&d=locutio&d=obce&d=priezviska&d=un&d=onom&d=pskfr&d=pskcs&d=psken# |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 36920edd98ab9f0d5af6deb5cd4e5809f62be348155d8e2d397327f93fba0965 |
@@ -401,13 +401,13 @@ dom -u m.
 | OWNER_EVIDENCE_ACCEPTED |  |
 | OWNER_REVIEWED_AT |  |
 
-**Rationale:** DE «Haus» (Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise). CURRENT production value: «Domov». TARGET authority «Slovníkový portál JÚĽŠ» entry https://slovnik.juls.savba.sk/?w=dom&s=exact&k=Md03&cs=&d=kssj4&d=psp&d=ogs&d=sssj&d=orter&d=scs&d=sss&d=peciar&d=ssn&d=hssj&d=bernolak&d=noundb&d=orient&d=locutio&d=obce&d=priezviska&d=un&d=onom&d=pskfr&d=pskcs&d=psken# gives normative lemma «dom». TARGET building/dwelling sense fragment (excerpt): príd.: d-a farnosť
+**Rationale:** DE «Haus» (HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).). CURRENT production value: «Domov». TARGET authority «Slovníkový portál JÚĽŠ» entry https://slovnik.juls.savba.sk/?w=dom&s=exact&k=Md03&cs=&d=kssj4&d=psp&d=ogs&d=sssj&d=orter&d=scs&d=sss&d=peciar&d=ssn&d=hssj&d=bernolak&d=noundb&d=orient&d=locutio&d=obce&d=priezviska&d=un&d=onom&d=pskfr&d=pskcs&d=psken# gives normative lemma «dom». TARGET HOUSE / MĀJA sense fragment (excerpt): príd.: d-a farnosť
 
 dom -u m.
 
 1. budova, stavba na obývanie: rodinný, nájomný, družstevný d.; stavať d.; strecha d-u, vlastník d-u; Biely d. sídlo prezidenta USA i pren. amer. vláda; nebytový d. nepoužívaný na bývanie; zobudiť celý d. obyvateľov domu
 
-2. inštitúcia organizujúca kult. podujatia al. poskytujúca rozlič. služby: kultúrny d.; d. módy, d. spisovateľov; obchodný d. veľké nákupné stredis CURRENT «Domov» denotes home/homeland sense in Slovak usage; validated entry supports «dom» for building/house sense aligned with DE «Haus» as dwelling. PROPOSED_NEW «dom» matches validated TARGET lemma for DE dwelling sense.
+2. inštitúcia organizujúca kult. podujatia al. poskytujúca rozlič. služby: kultúrny d.; d. módy, d. spisovateľov; obchodný d. veľké nákupné stredis CURRENT «Domov» aligns with home/homeland (not `das Haus` house sense); validated entry supports «dom» for DE «das Haus» (māja), not «Domov» (mājas/home). PROPOSED_NEW «dom» matches validated TARGET lemma for DE «das Haus» (HOUSE / MĀJA sense).
 
 ### NB — WRONG_TRANSLATION
 
@@ -421,7 +421,7 @@ dom -u m.
 | fieldPath | cards[3].lv |
 | deCurrent | Haus |
 | deArticle | das |
-| deSenseNote | Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| deSenseNote | HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | deAuthority | Rat für deutsche Rechtschreibung |
 | deEntryUrl | https://www.dwds.de/wb/Haus?o=haus |
 | deEvidenceFragment | class="dwdswb-artikel"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall &middot; Hausabriss &middot; Hausabwasser &middot; Hausagitation &middot; Hausalarm &middot; Hausaltar &middot; Hausandacht &middot; Hausangestellte &middot; Hausanschluss &middot; Hausantenne &middot; Hausanzug &middot |
@@ -462,7 +462,7 @@ være herre i e |
 | AUDIT_VERDICT | FINDING |
 | AUDIT_FINDING_TYPE | WRONG_TRANSLATION |
 | AUDIT_PROPOSED_NEW | hus |
-| AUDIT_REASON | CURRENT «Maya» vs validated TARGET lemma for DE «Haus» dwelling sense. AUDIT_PROPOSED_NEW «hus». |
+| AUDIT_REASON | CURRENT «Maya» vs validated TARGET lemma «hus» for DE «Haus» (HOUSE / MĀJA sense). AUDIT_PROPOSED_NEW «hus». DE: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | AUDIT_EVIDENCE_URL | https://ordbokene.no/nob/bm/hus |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 7def1d680d33e0148424ebd7df3824e42343ace0b03d88e0f0d4b0a61ecd98e8 |
@@ -475,7 +475,7 @@ være herre i e |
 | OWNER_EVIDENCE_ACCEPTED |  |
 | OWNER_REVIEWED_AT |  |
 
-**Rationale:** DE «Haus» (Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise). CURRENT production value: «Maya». TARGET authority «Bokmålsordboka (ordbokene.no)» entry https://ordbokene.no/nob/bm/hus gives normative lemma «hus». TARGET building/dwelling sense fragment (excerpt): dboka 1
+**Rationale:** DE «Haus» (HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).). CURRENT production value: «Maya». TARGET authority «Bokmålsordboka (ordbokene.no)» entry https://ordbokene.no/nob/bm/hus gives normative lemma «hus». TARGET HOUSE / MĀJA sense fragment (excerpt): dboka 1
  oppslagsord
 hus
 substantiv intetkjønn
@@ -492,7 +492,7 @@ som etterledd i ord som hundehus kulturhus rekkehus sykehus uthus våningshus
 bosted, hjem (
 1
 I, 1)
-E CURRENT «Maya» is unrelated (Mayan language/culture); validated Norwegian entry supports «hus» for building/dwelling matching DE «Haus». PROPOSED_NEW «hus» matches validated TARGET lemma for DE dwelling sense.
+E CURRENT «Maya» is unrelated (Mayan language/culture); validated Norwegian entry supports «hus» for DE «das Haus» (māja), not Gebäude or Zuhause. PROPOSED_NEW «hus» matches validated TARGET lemma for DE «das Haus» (HOUSE / MĀJA sense).
 
 ### NN — WRONG_TRANSLATION
 
@@ -506,7 +506,7 @@ E CURRENT «Maya» is unrelated (Mayan language/culture); validated Norwegian en
 | fieldPath | cards[3].lv |
 | deCurrent | Haus |
 | deArticle | das |
-| deSenseNote | Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| deSenseNote | HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | deAuthority | Rat für deutsche Rechtschreibung |
 | deEntryUrl | https://www.dwds.de/wb/Haus?o=haus |
 | deEvidenceFragment | class="dwdswb-artikel"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall &middot; Hausabriss &middot; Hausabwasser &middot; Hausagitation &middot; Hausalarm &middot; Hausaltar &middot; Hausandacht &middot; Hausangestellte &middot; Hausanschluss &middot; Hausantenne &middot; Hausanzug &middot |
@@ -550,7 +550,7 @@ hu |
 | AUDIT_VERDICT | FINDING |
 | AUDIT_FINDING_TYPE | WRONG_TRANSLATION |
 | AUDIT_PROPOSED_NEW | hus |
-| AUDIT_REASON | CURRENT «Maya» vs validated TARGET lemma for DE «Haus» dwelling sense. AUDIT_PROPOSED_NEW «hus». |
+| AUDIT_REASON | CURRENT «Maya» vs validated TARGET lemma «hus» for DE «Haus» (HOUSE / MĀJA sense). AUDIT_PROPOSED_NEW «hus». DE: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | AUDIT_EVIDENCE_URL | https://ordbokene.no/nob/nn/hus |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 201c28ab75ef0ffd2cb81687c8c0a9d3db3401a52a872531a5e50642bb89c6db |
@@ -563,7 +563,7 @@ hu |
 | OWNER_EVIDENCE_ACCEPTED |  |
 | OWNER_REVIEWED_AT |  |
 
-**Rationale:** DE «Haus» (Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise). CURRENT production value: «Maya». TARGET authority «Nynorskordboka (ordbokene.no)» entry https://ordbokene.no/nob/nn/hus gives normative lemma «hus». TARGET building/dwelling sense fragment (excerpt): dboka 1
+**Rationale:** DE «Haus» (HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).). CURRENT production value: «Maya». TARGET authority «Nynorskordboka (ordbokene.no)» entry https://ordbokene.no/nob/nn/hus gives normative lemma «hus». TARGET HOUSE / MĀJA sense fragment (excerpt): dboka 1
  oppslagsord
 hus
 substantiv inkjekjønn
@@ -580,7 +580,7 @@ som etterledd i ord som hundehus kulturhus rekkjehus sjukehus uthus våningshus
 bustad, heim (
 1
 I, 1)
-Døme CURRENT «Maya» is unrelated (Mayan language/culture); validated Norwegian entry supports «hus» for building/dwelling matching DE «Haus». PROPOSED_NEW «hus» matches validated TARGET lemma for DE dwelling sense.
+Døme CURRENT «Maya» is unrelated (Mayan language/culture); validated Norwegian entry supports «hus» for DE «das Haus» (māja), not Gebäude or Zuhause. PROPOSED_NEW «hus» matches validated TARGET lemma for DE «das Haus» (HOUSE / MĀJA sense).
 
 ### FI — WRONG_TRANSLATION
 
@@ -594,7 +594,7 @@ Døme CURRENT «Maya» is unrelated (Mayan language/culture); validated Norwegia
 | fieldPath | cards[3].lv |
 | deCurrent | Haus |
 | deArticle | das |
-| deSenseNote | Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise |
+| deSenseNote | HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | deAuthority | Rat für deutsche Rechtschreibung |
 | deEntryUrl | https://www.dwds.de/wb/Haus?o=haus |
 | deEvidenceFragment | class="dwdswb-artikel"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall &middot; Hausabriss &middot; Hausabwasser &middot; Hausagitation &middot; Hausalarm &middot; Hausaltar &middot; Hausandacht &middot; Hausangestellte &middot; Hausanschluss &middot; Hausantenne &middot; Hausanzug &middot |
@@ -649,7 +649,7 @@ Yksi-, kuusikerroksinen talo.
 | AUDIT_VERDICT | FINDING |
 | AUDIT_FINDING_TYPE | WRONG_TRANSLATION |
 | AUDIT_PROPOSED_NEW | talo |
-| AUDIT_REASON | CURRENT «Maja» vs validated TARGET lemma for DE «Haus» dwelling sense. AUDIT_PROPOSED_NEW «talo». |
+| AUDIT_REASON | CURRENT «Maja» vs validated TARGET lemma «talo» for DE «Haus» (HOUSE / MĀJA sense). AUDIT_PROPOSED_NEW «talo». DE: HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home). |
 | AUDIT_EVIDENCE_URL | https://www.kielitoimistonsanakirja.fi/#/talo?source=suggestion&searchMode=all |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 3448e61a7cd99d6286416f6404764c62af44e39c0c0df9b45776784c21842452 |
@@ -662,7 +662,7 @@ Yksi-, kuusikerroksinen talo.
 | OWNER_EVIDENCE_ACCEPTED |  |
 | OWNER_REVIEWED_AT |  |
 
-**Rationale:** DE «Haus» (Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise). CURRENT production value: «Maja». TARGET authority «Kielitoimiston sanakirja» entry https://www.kielitoimistonsanakirja.fi/#/talo?source=suggestion&searchMode=all gives normative lemma «talo». TARGET building/dwelling sense fragment (excerpt): avigaatio
+**Rationale:** DE «Haus» (HOUSE / MĀJA sense — German `das Haus`; not `das Gebäude` (ēka/building) and not abstract `das Zuhause` (mājas/home).). CURRENT production value: «Maja». TARGET authority «Kielitoimiston sanakirja» entry https://www.kielitoimistonsanakirja.fi/#/talo?source=suggestion&searchMode=all gives normative lemma «talo». TARGET HOUSE / MĀJA sense fragment (excerpt): avigaatio
 
 Haettiin "talo"
 
@@ -693,7 +693,7 @@ Näytä aina taivutus
 Näytä kaikki esimerkit 
 talo1
 TAIVUTUS 
-substant CURRENT «Maja» is not the validated Finnish house lemma for this sense; TARGET entry supports «talo» for building/dwelling. PROPOSED_NEW «talo» matches validated TARGET lemma for DE dwelling sense.
+substant CURRENT «Maja» is a building/cabin sense (namu/mītnes), not the general «talo» (māja) for DE «das Haus». PROPOSED_NEW «talo» matches validated TARGET lemma for DE «das Haus» (HOUSE / MĀJA sense).
 
 ## 19 NEEDS_SOURCE_REVIEW
 

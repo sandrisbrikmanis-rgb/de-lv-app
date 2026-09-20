@@ -31,6 +31,16 @@ const {
   buildPreauthorizedOwnerFields,
   OWNER_PREAUTHORIZED_CLASS,
 } = require("./haus-preauthorized-capitalization");
+const {
+  OWNER_LEXICAL_APPLY_ROWS,
+  LEXICAL_APPLY_CLOSURE_REL,
+  evaluateLexicalApplyRow,
+  buildLexicalOwnerFields,
+  readLexicalClosure,
+  isLexicalOwnerLabotRow,
+  assertLexicalOwnerRow,
+} = require("./haus-owner-lexical-apply");
+const { HAUS_DE_SENSE_NOTE } = require("./haus-de-sense");
 
 const PILOT_DIR = path.join(ROOT, "reports/g2-a1-production-current/haus-32-language-source-pilot");
 const OUT_DIR = path.join(ROOT, "reports/g2-a1-production-current/haus-owner-review");
@@ -121,24 +131,24 @@ function wrongTranslationRationale(row, deEvidence) {
     `DE «${deEvidence.deHeadword}» (${deEvidence.senseNote}).`,
     `CURRENT production value: «${row.currentTarget}».`,
     `TARGET authority «${row.targetAuthority}» entry ${row.targetEntryUrl} gives normative lemma «${lemma}».`,
-    `TARGET building/dwelling sense fragment (excerpt): ${frag}`,
+    `TARGET HOUSE / MĀJA sense fragment (excerpt): ${frag}`,
   ];
   if (row.language === "sk") {
     lines.push(
-      "CURRENT «Domov» denotes home/homeland sense in Slovak usage; validated entry supports «dom» for building/house sense aligned with DE «Haus» as dwelling.",
+      "CURRENT «Domov» aligns with home/homeland (not `das Haus` house sense); validated entry supports «dom» for DE «das Haus» (māja), not «Domov» (mājas/home).",
     );
   }
   if (row.language === "nb" || row.language === "nn") {
     lines.push(
-      "CURRENT «Maya» is unrelated (Mayan language/culture); validated Norwegian entry supports «hus» for building/dwelling matching DE «Haus».",
+      "CURRENT «Maya» is unrelated (Mayan language/culture); validated Norwegian entry supports «hus» for DE «das Haus» (māja), not Gebäude or Zuhause.",
     );
   }
   if (row.language === "fi") {
     lines.push(
-      "CURRENT «Maja» is not the validated Finnish house lemma for this sense; TARGET entry supports «talo» for building/dwelling.",
+      "CURRENT «Maja» is a building/cabin sense (namu/mītnes), not the general «talo» (māja) for DE «das Haus».",
     );
   }
-  lines.push(`PROPOSED_NEW «${row.proposedTarget}» matches validated TARGET lemma for DE dwelling sense.`);
+  lines.push(`PROPOSED_NEW «${row.proposedTarget}» matches validated TARGET lemma for DE «das Haus» (HOUSE / MĀJA sense).`);
   return lines.join(" ");
 }
 
@@ -303,6 +313,26 @@ function mergePreauthorizedOwnerDecision(auditRow, pilotRow) {
   return { ...auditRow, ...owner };
 }
 
+function mergeLexicalOwnerDecision(auditRow, pilotRow) {
+  const spec = OWNER_LEXICAL_APPLY_ROWS.find((s) => s.language === auditRow.language);
+  if (!spec) return auditRow;
+  const evaluated = evaluateLexicalApplyRow(spec, { skipProductionCheck: true });
+  evaluated.auditCheckedAt = auditRow.AUDIT_CHECKED_AT || pilotRow?.checkedAt;
+  if (!evaluated.eligible) return auditRow;
+  const closure = readLexicalClosure();
+  const reviewedAt = closure?.ownerReviewedAt || closure?.generatedAt || new Date().toISOString();
+  const owner = buildLexicalOwnerFields(spec, evaluated, reviewedAt);
+  return { ...auditRow, ...owner };
+}
+
+function mergeOwnerAuthorizationFields(auditRow, pilotRow) {
+  let row = mergePreauthorizedOwnerDecision(auditRow, pilotRow);
+  if (LEXICAL_FINDING_LANGS.includes(row.language)) {
+    row = mergeLexicalOwnerDecision(row, pilotRow);
+  }
+  return row;
+}
+
 function buildOwnerDecisionRow(row, deEvidence) {
   const audit = buildAuditDecisionRow(row, deEvidence);
   if (audit.error) return audit;
@@ -314,7 +344,7 @@ function buildOwnerDecisionRow(row, deEvidence) {
     ...audit,
     AUDIT_EVIDENCE_URL: urlOk.ok ? urlOk.url : audit.AUDIT_EVIDENCE_URL,
   };
-  return mergePreauthorizedOwnerDecision(merged, row);
+  return mergeOwnerAuthorizationFields(merged, row);
 }
 
 function buildPassEvidenceRow(row, deEvidence) {
@@ -377,7 +407,7 @@ function buildOwnerViewMarkdown({ counts, findings, nsrRows, passRows, deEvidenc
   const lines = [
     "# das Haus — OWNER review package (32-language pilot)",
     "",
-    "**6 capitalization FINDING rows:** class-level `OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY` (not individual OWNER review). **4 lexical FINDING rows:** OWNER fields empty pending individual decision.",
+    "**6 capitalization FINDING rows:** class-level `OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY`. **4 lexical FINDING rows:** individual OWNER LABOT (sk, nb, nn, fi). **18 NSR** remain open.",
     "",
     "## Counts",
     "",
@@ -460,9 +490,11 @@ function buildHausOwnerReviewPackage() {
     return { pass: false, code: pilot.code, blockers: [pilot] };
   }
 
-  const { verdicts, deEvidence } = pilot;
+  const { verdicts, deEvidence: deEvidenceRaw } = pilot;
+  const deEvidence = { ...deEvidenceRaw, senseNote: HAUS_DE_SENSE_NOTE };
   const rows = verdicts.rows || [];
   const counts = verdicts.counts || {};
+  const lexicalClosure = readLexicalClosure();
 
   assertBaselineCounts(counts, blockers);
   assertFindingIdentity(rows, blockers);
@@ -501,8 +533,14 @@ function buildHausOwnerReviewPackage() {
   const ownerDecisions = findingRows.map((r) => buildOwnerDecisionRow(r, deEvidence));
 
   for (const d of ownerDecisions) {
-    if (LEXICAL_FINDING_LANGS.includes(d.language) && !ownerFieldsAreEmpty(d)) {
-      blockers.push({ code: "LEXICAL_OWNER_FIELDS_MUST_BE_EMPTY", language: d.language });
+    if (LEXICAL_FINDING_LANGS.includes(d.language)) {
+      if (ownerFieldsAreEmpty(d)) {
+        blockers.push({ code: "LEXICAL_OWNER_FIELDS_MUST_BE_FILLED", language: d.language });
+      } else if (!isLexicalOwnerLabotRow(d)) {
+        blockers.push({ code: "LEXICAL_OWNER_ROW_INVALID", language: d.language });
+      } else {
+        assertLexicalOwnerRow(d, blockers);
+      }
     }
     const spec = PREAUTHORIZED_CAP_ROWS.find((s) => s.language === d.language);
     if (spec) {
@@ -520,16 +558,21 @@ function buildHausOwnerReviewPackage() {
   }
 
   const preauthLabot = ownerDecisions.filter((d) => d.OWNER_AUTHORIZATION_CLASS === OWNER_PREAUTHORIZED_CLASS).length;
+  const lexicalLabot = ownerDecisions.filter((d) => isLexicalOwnerLabotRow(d)).length;
   const ownerDecisionFinal = {
-    LABOT: preauthLabot,
+    LABOT: preauthLabot + lexicalLabot,
     NELABOT: 0,
-    PENDING: LEXICAL_FINDING_LANGS.length,
+    PENDING: 0,
     NEEDS_SOURCE_REVIEW: 0,
     SOURCE_DE_ISSUE: 0,
-    empty: LEXICAL_FINDING_LANGS.length,
+    empty: 0,
     OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: preauthLabot,
-    OWNER_INDIVIDUAL_DECISION_REQUIRED: LEXICAL_FINDING_LANGS.length,
+    OWNER_INDIVIDUAL_LABOT: lexicalLabot,
+    OWNER_PENDING_FINDINGS: 0,
+    NSR_REMAINING: nsrRows.length,
   };
+
+  const lexicalProductionApplied = lexicalClosure?.pass === true && lexicalLabot === OWNER_LEXICAL_APPLY_ROWS.length;
 
   const manifest = {
     generatedAt: new Date().toISOString(),
@@ -537,11 +580,12 @@ function buildHausOwnerReviewPackage() {
     originalPackageBaseline: ORIGINAL_PACKAGE_BASELINE,
     auditCounts: counts,
     ownerDecisionFinal,
-    ownerDecisionsFilled: preauthLabot > 0,
+    ownerDecisionsFilled: preauthLabot + lexicalLabot > 0,
     ownerPreauthorization: {
       class: OWNER_PREAUTHORIZED_CLASS,
       capitalizationRows: preauthLabot,
-      lexicalRowsPendingIndividualOwner: LEXICAL_FINDING_LANGS.length,
+      lexicalRowsOwnerLabot: lexicalLabot,
+      lexicalRowsPendingIndividualOwner: 0,
       nsrRemaining: nsrRows.length,
     },
     invalidatedPriorRuns: ["INVALIDATED_UNAUTHORIZED_OWNER_FIELD_POPULATION"],
@@ -557,8 +601,14 @@ function buildHausOwnerReviewPackage() {
     full95731FieldAuditRun: false,
     FULL_LINGUISTIC_AUDITS_EXECUTED: 0,
     productionApply: false,
-    classification: "G2_A1_HAUS_PREAUTHORIZED_CAPITALIZATION_OWNER_PACKAGE",
-    nextAction: "APPLY_PREAUTHORIZED_CAPITALIZATION_THEN_OWNER_REVIEW_4_LEXICAL_AND_18_NSR",
+    lexicalProductionApply: lexicalProductionApplied,
+    lexicalProductionApplyClosure: lexicalClosure ? LEXICAL_APPLY_CLOSURE_REL : null,
+    classification: lexicalProductionApplied
+      ? "G2_A1_HAUS_4_OWNER_LEXICAL_FIXES_APPLIED_AND_VERIFIED"
+      : "G2_A1_HAUS_PREAUTHORIZED_CAPITALIZATION_OWNER_PACKAGE",
+    nextAction: lexicalProductionApplied
+      ? "RESOLVE_18_REMAINING_HAUS_SOURCE_BLOCKERS"
+      : "APPLY_OWNER_LEXICAL_FIXES_SK_NB_NN_FI_THEN_RESOLVE_18_NSR",
     languageOrder: order,
   };
 
@@ -605,7 +655,7 @@ function writeHausOwnerReviewArtifacts(result) {
   });
   writeJson("haus-owner-decisions.json", {
     generatedAt: new Date().toISOString(),
-    note: "AUDIT_* = executor evidence. OWNER_* on 6 cap rows = class-level OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY; lexical 4 remain empty for individual OWNER.",
+    note: "AUDIT_* = executor evidence. OWNER_*: 6 cap = OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY; 4 lexical = individual OWNER LABOT.",
     rows: result.ownerDecisions,
   });
   writeJson("haus-owner-review-manifest.json", result.manifest);

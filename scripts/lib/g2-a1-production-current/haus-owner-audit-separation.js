@@ -101,7 +101,8 @@ function buildAuditReason(row, deEvidence, auditProposedNew) {
     const lemma = extractNormativeLemma(row.targetHeadword, row.targetMeaningFragment);
     return `Official TARGET lemma «${lemma}»; CURRENT «${row.currentTarget}» differs only by capitalization (MASTER §7.158). AUDIT_PROPOSED_NEW «${auditProposedNew}». DE: ${deEvidence.senseNote}`;
   }
-  return `CURRENT «${row.currentTarget}» vs validated TARGET lemma for DE «${deEvidence.deHeadword}» dwelling sense. AUDIT_PROPOSED_NEW «${auditProposedNew}».`;
+  const lemma = extractNormativeLemma(row.targetHeadword, row.targetMeaningFragment);
+  return `CURRENT «${row.currentTarget}» vs validated TARGET lemma «${lemma}» for DE «${deEvidence.deHeadword}» (HOUSE / MĀJA sense). AUDIT_PROPOSED_NEW «${auditProposedNew}». DE: ${deEvidence.senseNote}`;
 }
 
 function buildAuditDecisionRow(row, deEvidence) {

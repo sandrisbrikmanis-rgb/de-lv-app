@@ -12,7 +12,7 @@ const {
 
 const deEvidence = {
   deHeadword: "Haus",
-  senseNote: "Building/dwelling sense (das Haus)",
+  senseNote: require("./lib/g2-a1-production-current/haus-de-sense").HAUS_DE_SENSE_NOTE,
   deAuthority: "DWDS",
   deEntryUrl: "https://www.dwds.de/wb/Haus",
 };
