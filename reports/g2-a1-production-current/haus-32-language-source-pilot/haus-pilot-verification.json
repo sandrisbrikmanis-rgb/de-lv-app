@@ -1,14 +1,11 @@
 {
-  "pass": true,
-  "blockers": [],
+  "generatedAt": "2026-09-20T11:52:56.605Z",
+  "pilotRowCount": 32,
   "counts": {
     "PASS": 4,
     "FINDING": 9,
     "NEEDS_SOURCE_REVIEW": 19,
     "SOURCE_DE_ISSUE": 0
   },
-  "classification": "G2_A1_HAUS_32_LANGUAGE_SOURCE_SUPPORTED_PILOT_COMPLETE_AWAITING_OWNER_REVIEW",
-  "nextAction": "OWNER_REVIEW_HAUS_FINDINGS_AND_SOURCE_DECISIONS",
-  "productionDiffClean": true,
-  "full95731AuditRan": false
+  "classification": "G2_A1_HAUS_32_LANGUAGE_SOURCE_SUPPORTED_PILOT_COMPLETE_AWAITING_OWNER_REVIEW"
 }

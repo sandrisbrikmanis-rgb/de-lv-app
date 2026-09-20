@@ -2,6 +2,11 @@
   "pass": true,
   "blockers": [],
   "masterVersion": "1.19",
+  "CAPITALIZATION_FIXTURE_COUNT": 16,
+  "CONTRADICTION_FIXTURE_COUNT": 6,
+  "CONTRADICTION_FIXTURES_PASSED": true,
+  "ACTIVE_CONTRADICTION_COUNT": 0,
+  "activeContradictions": [],
   "checks": {
     "newRuleSection": true,
     "germanCapitalTransferForbidden": true,
@@ -12,7 +17,9 @@
     "passFindingEvidenceRequirements": true,
     "activeContradictionCount": 0,
     "embeddedLanguageCount": 33,
-    "languageAuditPartiallySuperseded": true
+    "languageAuditPartiallySuperseded": true,
+    "localBlockScanner": true,
+    "globalRequiredBanRemoved": true
   },
   "fixtureTests": {
     "pass": true,
@@ -160,6 +167,97 @@
         }
       }
     ]
+  },
+  "contradictionFixtures": {
+    "pass": true,
+    "results": [
+      {
+        "id": "master_two_sections_de_transfer",
+        "pass": true,
+        "found": [
+          {
+            "contradictionId": "de_capital_transfer_to_target",
+            "document": "PROJECT_LANGUAGE_MASTER_STANDARD.md",
+            "section": "Bad section",
+            "line": 5,
+            "startLine": 5,
+            "endLine": 5,
+            "matchedText": "Vācu lietvārda lielais sākumburts jāpārn",
+            "reason": "Local block allows German noun capitalization transfer to TARGET without same-block ban"
+          }
+        ]
+      },
+      {
+        "id": "master_ok_apv_bad",
+        "pass": true,
+        "found": [
+          {
+            "contradictionId": "de_capital_transfer_to_target",
+            "document": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md",
+            "section": "Bad APVIENOTS",
+            "line": 2,
+            "startLine": 2,
+            "endLine": 2,
+            "matchedText": "Vācu lietvārda lielais sākumburts jāpārn",
+            "reason": "Local block allows German noun capitalization transfer to TARGET without same-block ban"
+          }
+        ]
+      },
+      {
+        "id": "master_bad_apv_ok",
+        "pass": true,
+        "found": [
+          {
+            "contradictionId": "de_capital_transfer_to_target",
+            "document": "PROJECT_LANGUAGE_MASTER_STANDARD.md",
+            "section": "Bad MASTER",
+            "line": 2,
+            "startLine": 2,
+            "endLine": 2,
+            "matchedText": "Vācu lietvārda lielais sākumburts jāpārn",
+            "reason": "Local block allows German noun capitalization transfer to TARGET without same-block ban"
+          }
+        ]
+      },
+      {
+        "id": "both_docs_only_ban",
+        "pass": true,
+        "found": []
+      },
+      {
+        "id": "ai_authority_two_sections",
+        "pass": true,
+        "found": [
+          {
+            "contradictionId": "ai_is_language_authority",
+            "document": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md",
+            "section": "Bad AI",
+            "line": 6,
+            "startLine": 6,
+            "endLine": 6,
+            "matchedText": "AI/LLM ir **LANGUAGE AUTHORITY**",
+            "reason": "Local block declares AI/LLM as LANGUAGE AUTHORITY"
+          }
+        ]
+      },
+      {
+        "id": "ui_position_requires_caps",
+        "pass": true,
+        "found": [
+          {
+            "contradictionId": "ui_position_requires_uppercase_lemma",
+            "document": "PROJECT_LANGUAGE_MASTER_STANDARD.md",
+            "section": "UI rule",
+            "line": 2,
+            "startLine": 2,
+            "endLine": 2,
+            "matchedText": "Kartītes pirmā pozīcija prasa vārdnīcas lemmu ar lielo sākumburtu",
+            "reason": "Local block treats UI/list/card position as requiring uppercase dictionary lemma"
+          }
+        ]
+      }
+    ],
+    "count": 6
   },
   "embeddedRegistry": {
     "pass": true,

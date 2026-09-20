@@ -14,7 +14,10 @@ const { stripQuotes, firstToken } = require("./source-adapters/lookup-normalizat
 const { SOURCE_ACCESS_OUTCOME } = require("./official-source-access-constants");
 const { closeBrowserPool } = require("./source-adapters/browser/pool");
 const { rowByAppCode, loadStructuredLanguageAuthoritySources } = require("../master-language-authority-sources-33");
-const { evaluateDictionaryCapitalization } = require("../master-capitalization-rule-verify");
+const {
+  evaluateDictionaryCapitalization,
+  extractNormativeLemma,
+} = require("../master-capitalization-rule-verify");
 
 const VERDICTS = Object.freeze(["PASS", "FINDING", "NEEDS_SOURCE_REVIEW", "SOURCE_DE_ISSUE"]);
 
@@ -131,57 +134,6 @@ function loadHausProductionInventory() {
 function sourceAccessStatus(side) {
   if (isValidatedEntry(side) && evidenceQualityOk(side)) return "SOURCE_ENTRY_VALIDATED";
   return side?.outcome || "UNKNOWN";
-}
-
-/** Normative dictionary lemma from TARGET entry (MASTER v1.19 — not UI title case). */
-function extractNormativeLemma(headword, fragment) {
-  const hw = firstToken(stripQuotes(headword || ""));
-  const frag = String(fragment || "");
-  if (!hw) return null;
-
-  const madde = frag.match(/"madde"\s*:\s*"([^"\\]+)"/);
-  if (madde && madde[1]) {
-    return madde[1].normalize("NFC").trim();
-  }
-
-  const ruLemma = frag.match(/\n([а-яёА-ЯЁ]+),\s*-/);
-  if (ruLemma && normCompare(ruLemma[1], hw) === 0) {
-    return ruLemma[1].normalize("NFC").trim();
-  }
-  if (/^[а-яё]+,\s*-/im.test(frag)) {
-    const m = frag.match(/^([а-яё]+),\s*-/im);
-    if (m && normCompare(m[1], hw) === 0) return m[1].normalize("NFC").trim();
-  }
-
-  const grLemma = frag.match(/\b(σπίτι)\b/i);
-  if (grLemma && normCompare(grLemma[1], hw) === 0) {
-    return grLemma[1].normalize("NFC").trim();
-  }
-
-  const scanLower = frag.match(new RegExp(`\\b(${hw.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})\\b`, "iu"));
-  if (scanLower && scanLower[1] && scanLower[1] === scanLower[1].toLowerCase() && scanLower[1] !== hw) {
-    return scanLower[1].normalize("NFC").trim();
-  }
-
-  const husLine = frag.match(/\n(hus)\s+sb\./i);
-  if (husLine && normCompare(husLine[1], hw) === 0) {
-    return husLine[1].normalize("NFC").trim();
-  }
-
-  if (hw === hw.toUpperCase() && hw.length > 1) {
-    return hw.toLowerCase().normalize("NFC").trim();
-  }
-
-  if (
-    hw[0] === hw[0].toUpperCase() &&
-    hw.slice(1) === hw.slice(1).toLowerCase() &&
-    !/^[A-Z]{2,}$/.test(hw)
-  ) {
-    const lower = hw.toLowerCase().normalize("NFC").trim();
-    if (frag.toLowerCase().includes(lower)) return lower;
-  }
-
-  return hw.normalize("NFC").trim();
 }
 
 function verdictFromCapitalization(current, headword, fragment) {

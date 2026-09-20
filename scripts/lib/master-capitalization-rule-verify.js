@@ -5,6 +5,7 @@ const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./master-premerge-verify-core");
 const { verifyEmbeddedLanguageRegistry } = require("./official-language-sources-registry");
+const { stripQuotes, firstToken } = require("./g2-a1-production-current/source-adapters/lookup-normalization");
 
 const REQUIRED_MASTER_SNIPPETS = [
   "## 7.158. Mērķvalodas pamatforma, ortogrāfija un kapitalizācija",
@@ -31,35 +32,251 @@ const REQUIRED_APVIENOTS_SNIPPETS = [
   "`PASS` bez DE un TARGET evidence",
 ];
 
-/** Per-document contradiction rules (no cross-doc allowIfAlso masking). */
-const DOCUMENT_CONTRADICTION_RULES = [
+function normCompare(a, b) {
+  return stripQuotes(a).normalize("NFC").trim().localeCompare(stripQuotes(b).normalize("NFC").trim(), undefined, {
+    sensitivity: "accent",
+  });
+}
+
+/** Normative dictionary lemma from TARGET entry evidence (shared by Haus pilot + verifier). */
+function extractNormativeLemma(headword, fragment) {
+  const hw = firstToken(stripQuotes(headword || ""));
+  const frag = String(fragment || "");
+  if (!hw) return null;
+
+  const madde = frag.match(/"madde"\s*:\s*"([^"\\]+)"/);
+  if (madde && madde[1]) {
+    return madde[1].normalize("NFC").trim();
+  }
+
+  const ruLemma = frag.match(/\n([а-яёА-ЯЁ]+),\s*-/);
+  if (ruLemma && normCompare(ruLemma[1], hw) === 0) {
+    return ruLemma[1].normalize("NFC").trim();
+  }
+  if (/^[а-яё]+,\s*-/im.test(frag)) {
+    const m = frag.match(/^([а-яё]+),\s*-/im);
+    if (m && normCompare(m[1], hw) === 0) return m[1].normalize("NFC").trim();
+  }
+
+  const grLemma = frag.match(/\b(σπίτι)\b/i);
+  if (grLemma && normCompare(grLemma[1], hw) === 0) {
+    return grLemma[1].normalize("NFC").trim();
+  }
+
+  const scanLower = frag.match(new RegExp(`\\b(${hw.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})\\b`, "iu"));
+  if (scanLower && scanLower[1] && scanLower[1] === scanLower[1].toLowerCase() && scanLower[1] !== hw) {
+    return scanLower[1].normalize("NFC").trim();
+  }
+
+  const husLine = frag.match(/\n(hus)\s+sb\./i);
+  if (husLine && normCompare(husLine[1], hw) === 0) {
+    return husLine[1].normalize("NFC").trim();
+  }
+
+  if (hw === hw.toUpperCase() && hw.length > 1) {
+    return hw.toLowerCase().normalize("NFC").trim();
+  }
+
+  if (
+    hw[0] === hw[0].toUpperCase() &&
+    hw.slice(1) === hw.slice(1).toLowerCase() &&
+    !/^[A-Z]{2,}$/.test(hw)
+  ) {
+    const lower = hw.toLowerCase().normalize("NFC").trim();
+    if (frag.toLowerCase().includes(lower)) return lower;
+  }
+
+  return hw.normalize("NFC").trim();
+}
+
+/** Split markdown into section-scoped paragraph blocks (line numbers 1-based). */
+function splitMarkdownIntoLocalBlocks(document, text) {
+  const lines = text.split(/\n/);
+  const blocks = [];
+  let section = "(preamble)";
+  let paraLines = [];
+  let paraStart = 1;
+
+  function flush(endBeforeLine) {
+    if (!paraLines.length) return;
+    const body = paraLines.join("\n").trim();
+    if (!body) {
+      paraLines = [];
+      return;
+    }
+    blocks.push({
+      document,
+      section,
+      startLine: paraStart,
+      endLine: endBeforeLine - 1 > paraStart ? endBeforeLine - 1 : paraStart + paraLines.length - 1,
+      text: body,
+    });
+    paraLines = [];
+  }
+
+  for (let i = 0; i < lines.length; i++) {
+    const lineNum = i + 1;
+    const line = lines[i];
+    const heading = line.match(/^(#{1,6})\s+(.+)/);
+    if (heading) {
+      flush(lineNum);
+      section = heading[2].trim();
+      continue;
+    }
+    if (line.trim() === "") {
+      flush(lineNum);
+      continue;
+    }
+    if (!paraLines.length) paraStart = lineNum;
+    paraLines.push(line);
+  }
+  flush(lines.length + 1);
+  return blocks;
+}
+
+function locateMatchInBlock(block, matchedText) {
+  const idx = block.text.indexOf(matchedText);
+  const prefix = idx >= 0 ? block.text.slice(0, idx) : "";
+  const line = block.startLine + (prefix.match(/\n/g) || []).length;
+  return {
+    line,
+    startLine: block.startLine,
+    endLine: block.endLine,
+    matchedText,
+  };
+}
+
+const LOCAL_CONTRADICTION_RULES = [
   {
-    id: "de_capital_transfer_allowed_without_ban",
-    scope: "master",
-    affirmative: /vācu lietvārda lielais sākumburts[\s\S]{0,160}?(?:drīkst|jā|obligāti)[\s\S]{0,40}?pārnest/i,
-    requiredBan: /netiek automātiski pārnests/i,
+    contradictionId: "de_capital_transfer_to_target",
+    detectBad(text) {
+      const patterns = [
+        /vācu lietvārda lielais sākumburts[\s\S]{0,120}?(?:jā|drīkst|oblig)[\s\S]{0,60}?pārn/i,
+        /vācu liel[aā][\s\S]{0,60}?(?:drīkst|jā)[\s\S]{0,40}?automātiski pārn/i,
+        /TARGET[\s\S]{0,120}?lielo burtu[\s\S]{0,80}?tikai tāpēc, ka DE/i,
+      ];
+      for (const p of patterns) {
+        const m = text.match(p);
+        if (m) return m[0];
+      }
+      return null;
+    },
+    suppressInBlock(text) {
+      return /netiek automātiski pārnests/i.test(text);
+    },
+    reason: "Local block allows German noun capitalization transfer to TARGET without same-block ban",
   },
   {
-    id: "de_capital_transfer_allowed_without_ban_apv",
-    scope: "apvienots",
-    affirmative: /vācu lietvārda lielais sākumburts[\s\S]{0,160}?(?:drīkst|jā|obligāti)[\s\S]{0,40}?pārnest/i,
-    requiredBan: /netiek automātiski pārnests/i,
+    contradictionId: "ui_position_requires_uppercase_lemma",
+    detectBad(text) {
+      const patterns = [
+        /(?:kartītes|saraksta|tabulas|UI elementa|UI virsraksta)[\s\S]{0,80}?pirmā pozīcija[\s\S]{0,100}?(?:prasa|jā|oblig|must)[\s\S]{0,60}?lielo sākumburtu/i,
+        /pirmā pozīcija[\s\S]{0,80}?(?:prasa|jā|oblig)[\s\S]{0,40}?vārdnīcas lemmu ar lielo/i,
+      ];
+      for (const p of patterns) {
+        const m = text.match(p);
+        if (m) return m[0];
+      }
+      return null;
+    },
+    suppressInBlock(text) {
+      return /pirmā pozīcija[\s\S]{0,60}?\*\*nav\*\*|nav pamatojums|nav lingvistisks pamatojums/i.test(text);
+    },
+    reason: "Local block treats UI/list/card position as requiring uppercase dictionary lemma",
   },
   {
-    id: "ui_position_caps_lemma_required",
-    scope: "master",
-    affirmative: /UI elementa pirmā pozīcija[\s\S]{0,120}?(?:oblig|jā|must)[\s\S]{0,60}?lielo sākumburtu/i,
-    requiredBan: null,
+    contradictionId: "ai_is_language_authority",
+    detectBad(text) {
+      const m = text.match(/AI\/LLM[\s\S]{0,100}?(?:ir|as)[\s\S]{0,30}?\*\*LANGUAGE AUTHORITY\*\*/i);
+      return m ? m[0] : null;
+    },
+    suppressInBlock(text) {
+      return /AI nav:[\s\S]{0,50}\*\*LANGUAGE AUTHORITY\*\*|AI\/LLM[\s\S]{0,40}?nedrīkst[\s\S]{0,80}?valodas izjūtas/i.test(text);
+    },
+    reason: "Local block declares AI/LLM as LANGUAGE AUTHORITY",
   },
   {
-    id: "ai_is_language_authority_apv",
-    scope: "apvienots",
-    affirmative: /AI\/LLM[\s\S]{0,80}?(?:ir|as)\s+\*\*LANGUAGE AUTHORITY\*\*/i,
-    requiredBan: /AI nav:[\s\S]{0,40}\*\*LANGUAGE AUTHORITY\*\*/i,
+    contradictionId: "ai_translation_without_source",
+    detectBad(text) {
+      const m = text.match(/AI\/LLM[\s\S]{0,80}?(?:drīkst|var)[\s\S]{0,60}?noteikt TARGET tulkojumu[\s\S]{0,40}?bez[\s\S]{0,40}?avot/i);
+      return m ? m[0] : null;
+    },
+    suppressInBlock(text) {
+      return /AI\/LLM[\s\S]{0,40}?nedrīkst:[\s\S]{0,200}?izdomāt tulkojumu/i.test(text);
+    },
+    reason: "Local block allows AI to set TARGET translation without authoritative source",
+  },
+  {
+    contradictionId: "pass_without_de_target_evidence_allowed",
+    detectBad(text) {
+      const m = text.match(/`PASS`[\s\S]{0,50}?(?:drīkst|atļauts|allowed)[\s\S]{0,50}?bez[\s\S]{0,40}?(?:DE|TARGET)?[\s\S]{0,30}?evidence/i);
+      if (m) return m[0];
+      const m2 = text.match(/PASS[\s\S]{0,40}?bez[\s\S]{0,30}?TARGET evidence[\s\S]{0,20}?(?:drīkst|pieļauj)/i);
+      return m2 ? m2[0] : null;
+    },
+    suppressInBlock(text) {
+      return /PASS[\s\S]{0,40}?bez[\s\S]{0,40}?(?:DE|TARGET)?[\s\S]{0,30}?evidence[\s\S]{0,20}?aizliegts/i.test(text);
+    },
+    reason: "Local block allows PASS without DE and TARGET evidence",
+  },
+  {
+    contradictionId: "finding_without_target_evidence_allowed",
+    detectBad(text) {
+      const m = text.match(/(?:FINDING|PROPOSED_NEW|NEW)[\s\S]{0,50}?(?:drīkst|atļauts)[\s\S]{0,50}?bez[\s\S]{0,40}?TARGET evidence/i);
+      return m ? m[0] : null;
+    },
+    suppressInBlock(text) {
+      return /FINDING[\s\S]{0,50}?bez[\s\S]{0,30}?TARGET evidence[\s\S]{0,20}?aizliegts/i.test(text);
+    },
+    reason: "Local block allows FINDING/NEW without TARGET evidence",
+  },
+  {
+    contradictionId: "technical_access_as_linguistic_finding_allowed",
+    detectBad(text) {
+      const m = text.match(/tehnisk[\s\S]{0,40}?piekļuves[\s\S]{0,60}?(?:drīkst|jā)[\s\S]{0,40}?FINDING/i);
+      return m ? m[0] : null;
+    },
+    suppressInBlock(text) {
+      return /tehnisk[\s\S]{0,40}?piekļuves[\s\S]{0,60}?nedrīkst pārvērst par lingvistisku/i.test(text);
+    },
+    reason: "Local block allows technical access failure to become linguistic FINDING",
   },
 ];
 
-/** Dictionary-field capitalization check for tooling tests (not production apply). */
+function scanLocalBlocksForContradictions(blocks) {
+  const found = [];
+  for (const block of blocks) {
+    for (const rule of LOCAL_CONTRADICTION_RULES) {
+      const matchedText = rule.detectBad(block.text);
+      if (!matchedText) continue;
+      if (rule.suppressInBlock(block.text)) continue;
+      const loc = locateMatchInBlock(block, matchedText);
+      found.push({
+        contradictionId: rule.contradictionId,
+        document: block.document,
+        section: block.section,
+        line: loc.line,
+        startLine: loc.startLine,
+        endLine: loc.endLine,
+        matchedText: loc.matchedText,
+        reason: rule.reason,
+      });
+    }
+  }
+  return found;
+}
+
+function scanForbiddenContradictions(masterText, apvText) {
+  const masterBlocks = splitMarkdownIntoLocalBlocks("PROJECT_LANGUAGE_MASTER_STANDARD.md", masterText);
+  const apvBlocks = splitMarkdownIntoLocalBlocks("MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", apvText);
+  return scanLocalBlocksForContradictions([...masterBlocks, ...apvBlocks]);
+}
+
+function scanSyntheticDocument(document, text) {
+  return scanLocalBlocksForContradictions(splitMarkdownIntoLocalBlocks(document, text));
+}
+
+/** Dictionary-field capitalization check (shared by Haus pilot + verifier). */
 function evaluateDictionaryCapitalization({ fieldKind, current, authorityLemma, isProperNoun }) {
   const kind = fieldKind || "dictionary";
   if (kind === "sentence") {
@@ -240,20 +457,142 @@ function runCapitalizationRuleTests() {
   return { pass: results.every((r) => r.pass), results };
 }
 
-function scanForbiddenContradictions(masterText, apvText) {
-  const scopes = {
-    master: masterText,
-    apvienots: apvText,
-  };
-  const active = [];
-  for (const rule of DOCUMENT_CONTRADICTION_RULES) {
-    const text = scopes[rule.scope];
-    if (!text) continue;
-    if (!rule.affirmative.test(text)) continue;
-    if (rule.requiredBan && rule.requiredBan.test(text)) continue;
-    active.push({ id: rule.id, scope: rule.scope });
+function assertContradictionExpectation(found, expect) {
+  if (expect.expectPass) {
+    return found.length === 0;
   }
-  return active;
+  const hit = found.find((f) => {
+    if (expect.contradictionId && f.contradictionId !== expect.contradictionId) return false;
+    if (expect.document && !f.document.includes(expect.document) && f.document !== expect.document) return false;
+    if (expect.sectionContains && !String(f.section).includes(expect.sectionContains)) return false;
+    if (expect.matchedTextContains && !String(f.matchedText).includes(expect.matchedTextContains)) return false;
+    return true;
+  });
+  if (!hit) return false;
+  if (expect.lineMin && hit.line < expect.lineMin) return false;
+  return Boolean(hit.matchedText && hit.reason && hit.contradictionId);
+}
+
+function runContradictionScannerTests() {
+  const cases = [
+    {
+      id: "master_two_sections_de_transfer",
+      run() {
+        const doc = `# Good section
+Vācu lietvārda lielais sākumburts netiek automātiski pārnests uz TARGET.
+
+# Bad section
+Vācu lietvārda lielais sākumburts jāpārnes uz TARGET.`;
+        return scanSyntheticDocument("PROJECT_LANGUAGE_MASTER_STANDARD.md", doc);
+      },
+      expectPass: false,
+      contradictionId: "de_capital_transfer_to_target",
+      document: "PROJECT_LANGUAGE_MASTER_STANDARD.md",
+      sectionContains: "Bad section",
+      matchedTextContains: "jāpārn",
+    },
+    {
+      id: "master_ok_apv_bad",
+      run() {
+        const master = `# OK
+Vācu lietvārda lielais sākumburts netiek automātiski pārnests.`;
+        const apv = `# Bad APVIENOTS
+Vācu lietvārda lielais sākumburts jāpārnes uz TARGET.`;
+        return [
+          ...scanSyntheticDocument("PROJECT_LANGUAGE_MASTER_STANDARD.md", master),
+          ...scanSyntheticDocument("MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", apv),
+        ];
+      },
+      expectPass: false,
+      contradictionId: "de_capital_transfer_to_target",
+      document: "MASTER_1.12",
+      sectionContains: "Bad APVIENOTS",
+    },
+    {
+      id: "master_bad_apv_ok",
+      run() {
+        const master = `# Bad MASTER
+Vācu lietvārda lielais sākumburts jāpārnes uz TARGET.`;
+        const apv = `# OK APVIENOTS
+Vācu lietvārda lielais sākumburts netiek automātiski pārnests.`;
+        return [
+          ...scanSyntheticDocument("PROJECT_LANGUAGE_MASTER_STANDARD.md", master),
+          ...scanSyntheticDocument("MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", apv),
+        ];
+      },
+      expectPass: false,
+      contradictionId: "de_capital_transfer_to_target",
+      document: "PROJECT_LANGUAGE_MASTER_STANDARD.md",
+      sectionContains: "Bad MASTER",
+    },
+    {
+      id: "both_docs_only_ban",
+      run() {
+        const master = `# A
+Vācu lietvārda lielais sākumburts netiek automātiski pārnests.`;
+        const apv = `# B
+Vācu lietvārda lielais sākumburts netiek automātiski pārnests.`;
+        return [
+          ...scanSyntheticDocument("PROJECT_LANGUAGE_MASTER_STANDARD.md", master),
+          ...scanSyntheticDocument("MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", apv),
+        ];
+      },
+      expectPass: true,
+    },
+    {
+      id: "ai_authority_two_sections",
+      run() {
+        const doc = `# Good AI
+AI nav:
+**LANGUAGE AUTHORITY**
+
+# Bad AI
+AI/LLM ir **LANGUAGE AUTHORITY** visos gadījumos.`;
+        return scanSyntheticDocument("MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", doc);
+      },
+      expectPass: false,
+      contradictionId: "ai_is_language_authority",
+      document: "MASTER_1.12",
+      sectionContains: "Bad AI",
+    },
+    {
+      id: "ui_position_requires_caps",
+      run() {
+        const doc = `# UI rule
+Kartītes pirmā pozīcija prasa vārdnīcas lemmu ar lielo sākumburtu.`;
+        return scanSyntheticDocument("PROJECT_LANGUAGE_MASTER_STANDARD.md", doc);
+      },
+      expectPass: false,
+      contradictionId: "ui_position_requires_uppercase_lemma",
+      matchedTextContains: "pirmā pozīcija",
+    },
+  ];
+
+  const results = [];
+  for (const c of cases) {
+    const found = c.run();
+    let pass;
+    if (c.expectPass) {
+      pass = found.length === 0;
+    } else {
+      pass = assertContradictionExpectation(found, c);
+    }
+    results.push({ id: c.id, pass, found: found.slice(0, 3) });
+  }
+  return { pass: results.every((r) => r.pass), results, count: cases.length };
+}
+
+function validateContradictionRecords(records) {
+  const invalid = [];
+  for (const r of records) {
+    if (!r.contradictionId || !r.document || !r.section || !r.matchedText || !r.reason) {
+      invalid.push({ record: r, code: "INCOMPLETE_CONTRADICTION_RECORD" });
+    }
+    if (r.line == null && r.startLine == null) {
+      invalid.push({ record: r, code: "MISSING_LINE" });
+    }
+  }
+  return invalid;
 }
 
 function verifyMasterCapitalizationRule(options = {}) {
@@ -279,9 +618,21 @@ function verifyMasterCapitalizationRule(options = {}) {
     blockers.push({ code: "LANGUAGE_AUDIT_BANNER_CONTRADICTION" });
   }
 
-  const contradictions = scanForbiddenContradictions(masterText, apvText);
-  if (contradictions.length) {
-    blockers.push({ code: "ACTIVE_CONTRADICTIONS", items: contradictions });
+  const contradictionFixtures = runContradictionScannerTests();
+  if (!contradictionFixtures.pass) {
+    blockers.push({
+      code: "CONTRADICTION_SCANNER_FIXTURES",
+      results: contradictionFixtures.results.filter((r) => !r.pass),
+    });
+  }
+
+  const activeContradictions = scanForbiddenContradictions(masterText, apvText);
+  const invalidRecords = validateContradictionRecords(activeContradictions);
+  if (invalidRecords.length) {
+    blockers.push({ code: "INVALID_CONTRADICTION_RECORDS", invalidRecords });
+  }
+  if (activeContradictions.length) {
+    blockers.push({ code: "ACTIVE_CONTRADICTIONS", items: activeContradictions });
   }
 
   const fixtureTests = runCapitalizationRuleTests();
@@ -301,6 +652,11 @@ function verifyMasterCapitalizationRule(options = {}) {
     pass: blockers.length === 0,
     blockers,
     masterVersion,
+    CAPITALIZATION_FIXTURE_COUNT: fixtureTests.results.length,
+    CONTRADICTION_FIXTURE_COUNT: contradictionFixtures.count,
+    CONTRADICTION_FIXTURES_PASSED: contradictionFixtures.pass,
+    ACTIVE_CONTRADICTION_COUNT: activeContradictions.length,
+    activeContradictions,
     checks: {
       newRuleSection: missingMaster.length === 0 && missingApv.length === 0,
       germanCapitalTransferForbidden: masterText.includes("netiek automātiski pārnests"),
@@ -309,11 +665,14 @@ function verifyMasterCapitalizationRule(options = {}) {
       cyrillicGreekIncluded: masterText.includes("kirilica, grieķu"),
       aiNotLanguageAuthority: masterText.includes("AI/LLM **nav** valodas autoritāte"),
       passFindingEvidenceRequirements: masterText.includes("TARGET evidence ir aizliegts"),
-      activeContradictionCount: contradictions.length,
+      activeContradictionCount: activeContradictions.length,
       embeddedLanguageCount: embedded.EMBEDDED_LANGUAGE_REGISTRY_COUNT,
       languageAuditPartiallySuperseded: langAuditText.includes("PARTIALLY SUPERSEDED"),
+      localBlockScanner: true,
+      globalRequiredBanRemoved: true,
     },
     fixtureTests,
+    contradictionFixtures,
     embeddedRegistry: embedded,
   };
 }
@@ -321,7 +680,12 @@ function verifyMasterCapitalizationRule(options = {}) {
 module.exports = {
   verifyMasterCapitalizationRule,
   evaluateDictionaryCapitalization,
+  extractNormativeLemma,
   runCapitalizationRuleTests,
+  runContradictionScannerTests,
+  splitMarkdownIntoLocalBlocks,
+  scanForbiddenContradictions,
+  scanLocalBlocksForContradictions,
   REQUIRED_MASTER_SNIPPETS,
   REQUIRED_APVIENOTS_SNIPPETS,
 };
