@@ -4,8 +4,8 @@
   "targetLanguages": 32,
   "adaptersImplemented": 32,
   "adaptersPending": 0,
-  "liveAdapters": 6,
-  "blockedOfficialAdapters": 26,
+  "liveAdapters": 8,
+  "blockedOfficialAdapters": 24,
   "registryComplete": true,
   "missingAdapters": [],
   "deAdapter": {
@@ -197,27 +197,28 @@
         "dle.rae.es",
         "www.rae.es"
       ],
-      "adapterId": "es-rae-dle-blocked",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "es-rae-dle-entry",
+      "adapterVersion": "1.1.0",
+      "adapterType": "HTML_ENTRY_URL",
+      "lookupType": "dle-lemma-path",
+      "queryEntryUrlConstruction": "buildEntryUrls(lookupTerm) per language-configs",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "dle.rae.es / www.rae.es block automated access (Cloudflare); no alternate MASTER URL with machine-readable entry API",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "casa",
+        "expectedHeadword": "casa"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_ACCESS_BLOCKED",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_ACCESS_BLOCKED",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "fr",
@@ -368,27 +369,28 @@
         "mlvv.tezaurs.lv",
         "tezaurs.lv"
       ],
-      "adapterId": "lv-tezaurs-api-auth",
-      "adapterVersion": "1.0.0",
-      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
-      "lookupType": "blocked",
-      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "adapterId": "lv-tezaurs-simplified-entry",
+      "adapterVersion": "1.1.0",
+      "adapterType": "HTML_ENTRY_URL",
+      "lookupType": "tezaurs-lemma-path",
+      "queryEntryUrlConstruction": "buildEntryUrls(lookupTerm) per language-configs",
       "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
-      "entryIdentificationMethod": "mlvv.tezaurs.lv/tezaurs.lv require JS; official api.tezaurs.lv requires API key per MASTER-adjacent official docs",
-      "headwordIdentificationMethod": "n/a",
-      "evidenceFragmentMethod": "n/a",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
       "positiveFixture": {
-        "lookupTerm": "fixture-not-applicable"
+        "lookupTerm": "māja",
+        "expectedHeadword": "māja"
       },
       "negativeFixture": {
         "lookupTerm": "zzqqxxnotaword999"
       },
-      "liveIntegrationStatus": "BLOCKED",
+      "liveIntegrationStatus": "LIVE",
       "knownLimitations": [],
-      "blockedOutcome": "SOURCE_AUTHENTICATION_REQUIRED",
+      "blockedOutcome": null,
       "realLookup": "YES",
-      "entryValidation": "SOURCE_AUTHENTICATION_REQUIRED",
-      "integrationTest": "blocked_negative_only"
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
     },
     {
       "language": "lb",
@@ -1123,6 +1125,6 @@
       "integrationTest": "blocked_negative_only"
     }
   ],
-  "classification": "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED",
-  "nextAction": "OWNER_DECISION_REQUIRED_FOR_EXACT_BLOCKED_AUTHORITIES"
+  "classification": "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED_AFTER_FULL_REGISTRY_RECONCILIATION",
+  "nextAction": "OWNER_DECISION_REQUIRED_FOR_REMAINING_EXACT_BLOCKERS"
 }

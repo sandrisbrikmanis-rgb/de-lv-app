@@ -19,6 +19,39 @@ function headwordMatch(pageHead, expected) {
   return normalizeCompare(pageHead, expected);
 }
 
+function parseRaeDle(html, expectedLemma) {
+  const title = html.match(/<title>([^<]+)<\/title>/i)?.[1] || "";
+  const head = title.split("|")[0].trim();
+  if (!headwordMatch(head, expectedLemma)) return null;
+  const plain = htmlToPlainText(html);
+  if (!/Definición|Diccionario de la lengua española/i.test(plain)) return null;
+  const fragment = plain.slice(0, 1200);
+  if (fragment.length < 40) return null;
+  return {
+    headword: head,
+    fragment,
+    entryOrRule: `RAE DLE: ${head}`,
+    entryUrl: null,
+  };
+}
+
+function parseTezaursLv(html, expectedLemma) {
+  const plain = htmlToPlainText(html);
+  if (/Vārdos nav|nav šķirkļa|Neatradi meklēto|Citās vārdnīcās nav šķirkļa/i.test(plain)) return null;
+  const esc = String(expectedLemma).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  if (!/Tēzaurs|MLVV|Vasaras versija/i.test(plain)) return null;
+  const idx = plain.search(new RegExp(`\\b${esc}\\b`, "iu"));
+  if (idx < 0) return null;
+  const after = plain.slice(idx, idx + 900);
+  const hasEntryBody =
+    /dzimtes|vīriešu|sieviešu|lietvārds|apzīmētājvārds|nozīme/i.test(after) ||
+    /\d+\s+\S+\s+(vīriešu|sieviešu)/i.test(after);
+  if (!hasEntryBody) return null;
+  const fragment = plain.slice(Math.max(0, idx - 10), idx + 800);
+  if (fragment.length < 35) return null;
+  return { headword: expectedLemma, fragment, entryOrRule: `Tēzaurs.lv: ${expectedLemma}` };
+}
+
 function parseOxfordLearners(html, expectedLemma) {
   const title = html.match(/<title>([^<]+)<\/title>/i)?.[1] || "";
   const head = title.split(" noun")[0].split(" verb")[0].split(" adjective")[0].trim();
@@ -111,6 +144,8 @@ function parseTitleHeadword(html, expected) {
 module.exports = {
   normalizeCompare,
   headwordMatch,
+  parseRaeDle,
+  parseTezaursLv,
   parseOxfordLearners,
   parsePriruckaUjc,
   parseJulsSkPortal,

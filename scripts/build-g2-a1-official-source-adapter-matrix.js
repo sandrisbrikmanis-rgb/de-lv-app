@@ -35,13 +35,13 @@ function main() {
       implemented === 32 && live === 32
         ? "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_READY"
         : implemented === 32
-          ? "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED"
+          ? "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED_AFTER_FULL_REGISTRY_RECONCILIATION"
           : "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_IN_PROGRESS",
     nextAction:
       implemented === 32 && live === 32
         ? "OWNER_MAY_AUTHORIZE_FULL_TARGETED_FIELD_LEVEL_AUDIT_RESUME"
         : implemented === 32
-          ? "OWNER_DECISION_REQUIRED_FOR_EXACT_BLOCKED_AUTHORITIES"
+          ? "OWNER_DECISION_REQUIRED_FOR_REMAINING_EXACT_BLOCKERS"
           : "IMPLEMENT_REMAINING_TARGET_SOURCE_ADAPTERS",
   };
   writeJsonAtomic("official-source-adapter-matrix.json", gate);

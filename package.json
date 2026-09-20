@@ -73,6 +73,8 @@
     "run:g2-a1:targeted-field-level-pilot": "node scripts/run-g2-a1-targeted-field-level-pilot.js",
     "verify:g2-a1-targeted-field-source-access-pilot": "node scripts/verify-g2-a1-targeted-field-source-access-pilot.js",
     "build:g2-a1:official-source-adapter-matrix": "node scripts/build-g2-a1-official-source-adapter-matrix.js",
+    "build:g2-a1:language-authority-reconciliation": "node scripts/build-g2-a1-language-authority-reconciliation.js",
+    "build:g2-a1:official-source-exact-blockers-owner-decision": "node scripts/build-g2-a1-official-source-exact-blockers-owner-decision.js",
     "verify:g2-a1-official-source-entry-validation-ready": "node scripts/verify-g2-a1-official-source-entry-validation-ready.js",
     "test:g2-a1-phase3-missing-id-retry": "node scripts/test-g2-a1-phase3-missing-id-retry.js",
     "test:master-premerge-section-numbers": "node scripts/test-master-premerge-section-numbers.js",

@@ -10,6 +10,8 @@ const {
   parseOrfoRuslang,
   parseFranSi,
   parseGreekTriantafyllides,
+  parseRaeDle,
+  parseTezaursLv,
   parseTitleHeadword,
 } = require("../parsers/shared-parsers");
 const { createConfigAdapter } = require("../create-config-adapter");
@@ -145,18 +147,34 @@ const LANGUAGE_CONFIGS = [
     positiveFixture: { lookupTerm: "σπίτι", expectedHeadword: "σπίτι" },
     negativeFixture: { lookupTerm: "zzqqxxnotaword999" },
   },
-  blocked(
-    "es",
-    "es-rae-dle-blocked",
-    SOURCE_ACCESS_OUTCOME.SOURCE_ACCESS_BLOCKED,
-    "dle.rae.es / www.rae.es block automated access (Cloudflare); no alternate MASTER URL with machine-readable entry API",
-  ),
-  blocked(
-    "lv",
-    "lv-tezaurs-api-auth",
-    SOURCE_ACCESS_OUTCOME.SOURCE_AUTHENTICATION_REQUIRED,
-    "mlvv.tezaurs.lv/tezaurs.lv require JS; official api.tezaurs.lv requires API key per MASTER-adjacent official docs",
-  ),
+  {
+    appLang: "es",
+    standardCode: "es",
+    adapterId: "es-rae-dle-entry",
+    adapterVersion: "1.1.0",
+    adapterType: ADAPTER_TYPES.HTML_ENTRY_URL,
+    lookupType: "dle-lemma-path",
+    buildEntryUrls: (t) => [
+      `https://dle.rae.es/${encodeURIComponent(String(t).trim().toLowerCase())}`,
+    ],
+    parseEntry: parseValidated((html, term) => parseRaeDle(html, term)),
+    positiveFixture: { lookupTerm: "casa", expectedHeadword: "casa" },
+    negativeFixture: { lookupTerm: "zzqqxxnotaword999" },
+  },
+  {
+    appLang: "lv",
+    standardCode: "lv",
+    adapterId: "lv-tezaurs-simplified-entry",
+    adapterVersion: "1.1.0",
+    adapterType: ADAPTER_TYPES.HTML_ENTRY_URL,
+    lookupType: "tezaurs-lemma-path",
+    buildEntryUrls: (t) => [
+      `https://tezaurs.lv/${encodeURIComponent(String(t).trim().toLowerCase())}`,
+    ],
+    parseEntry: parseValidated((html, term) => parseTezaursLv(html, term)),
+    positiveFixture: { lookupTerm: "māja", expectedHeadword: "māja" },
+    negativeFixture: { lookupTerm: "zzqqxxnotaword999" },
+  },
   blocked(
     "pl",
     "pl-wsjp-blocked",

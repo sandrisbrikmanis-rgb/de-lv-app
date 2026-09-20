@@ -3,8 +3,8 @@
   "blockers": [
     {
       "code": "BLOCKED_OFFICIAL_AUTHORITIES",
-      "liveAdapters": 6,
-      "blockedOfficialAdapters": 26,
+      "liveAdapters": 8,
+      "blockedOfficialAdapters": 24,
       "blocked": [
         {
           "language": "bs",
@@ -15,11 +15,6 @@
           "language": "da",
           "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
           "adapterId": "da-dsn-no-entry-url"
-        },
-        {
-          "language": "es",
-          "outcome": "SOURCE_ACCESS_BLOCKED",
-          "adapterId": "es-rae-dle-blocked"
         },
         {
           "language": "fr",
@@ -40,11 +35,6 @@
           "language": "it",
           "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
           "adapterId": "it-crusca-no-entry"
-        },
-        {
-          "language": "lv",
-          "outcome": "SOURCE_AUTHENTICATION_REQUIRED",
-          "adapterId": "lv-tezaurs-api-auth"
         },
         {
           "language": "lb",
@@ -139,11 +129,15 @@
       ]
     }
   ],
+  "registryReconciliation": {
+    "classification": "MASTER_REGISTRY_INCOMPLETE",
+    "registryIncomplete": true
+  },
   "integrationRan": true,
   "integrationSummary": {
     "adaptersImplemented": 32,
-    "liveAdapterCount": 6,
-    "positiveLivePass": 6,
+    "liveAdapterCount": 8,
+    "positiveLivePass": 8,
     "negativeLivePass": 32,
     "blockedLanguages": [
       {
@@ -155,11 +149,6 @@
         "language": "da",
         "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
         "adapterId": "da-dsn-no-entry-url"
-      },
-      {
-        "language": "es",
-        "blockedOutcome": "SOURCE_ACCESS_BLOCKED",
-        "adapterId": "es-rae-dle-blocked"
       },
       {
         "language": "fr",
@@ -180,11 +169,6 @@
         "language": "it",
         "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
         "adapterId": "it-crusca-no-entry"
-      },
-      {
-        "language": "lv",
-        "blockedOutcome": "SOURCE_AUTHENTICATION_REQUIRED",
-        "adapterId": "lv-tezaurs-api-auth"
       },
       {
         "language": "lb",
@@ -284,6 +268,6 @@
     "pilotCount": 8
   },
   "productionDiffClean": true,
-  "classification": "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED",
-  "nextAction": "OWNER_DECISION_REQUIRED_FOR_EXACT_BLOCKED_AUTHORITIES"
+  "classification": "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED_AFTER_FULL_REGISTRY_RECONCILIATION",
+  "nextAction": "OWNER_DECISION_REQUIRED_FOR_REMAINING_EXACT_BLOCKERS"
 }

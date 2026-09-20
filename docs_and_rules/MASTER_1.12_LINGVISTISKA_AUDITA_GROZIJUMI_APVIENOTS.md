@@ -87,6 +87,27 @@ MASTER jāuztur viens autoritatīvs valodu avotu reģistrs.
 
 Reģistrā pie katras valodas jāglabā verificētas oficiālās saites.
 
+## 3.1 STRUCTURED LANGUAGE AUTHORITY SOURCES — 33 VALODAS
+
+Papildus §3 tabulas saīsinātajam URL laukam, repozitorijā uztur **pilnu trīsslāņu avotu reģistru** (33 valodas, ieskaitot `de`; app `gr` ↔ standarts `el`):
+
+| Lauks | Nozīme |
+|---|---|
+| `LANGUAGE_NORM_AUTHORITY` | ① Normatīvais / pareizrakstības / valodas padomes avots |
+| `LANGUAGE_NORM_URLS` | ① Oficiālie URL |
+| `PRIMARY_DICTIONARY_AUTHORITY` | ② Primārā vārdnīca / leksikogrāfiskais resurss |
+| `PRIMARY_DICTIONARY_URLS` | ② Oficiālie URL |
+| `ADDITIONAL_AUTHORITY` | ③ Papildu autoritatīvais avots (institūcijas oficiāls portāls) |
+| `ADDITIONAL_AUTHORITY_URLS` | ③ Oficiālie URL |
+| `LANGUAGE_LEARNING_CEFR_AUTHORITY` | CEFR / mācību līmeņa oficiālais avots (ja piemērojams) |
+| `LANGUAGE_LEARNING_CEFR_URLS` | CEFR URL |
+
+**Mašīnlasāms avots (GitHub autoritatīvs):** `scripts/lib/data/master-language-authority-sources-33.json`
+
+G2/A1 oficiālo avotu adapteri un domēnu allowlist izmanto **visu** šo JSON reģistru (①+②+③+CEFR URL), ne tikai §3 tabulas pirmo URL kolonnu. URL bez izsekošanas parametriem (`utm_*` u.c.).
+
+Ja §3.1 JSON ietver oficiālu resursu, kas nav §3 tabulas `urlField` sarakstā, tas ir dokumentēts JSON `registryGapNotes` un §3.1 paplašinājums — nevis neoficiāls avots.
+
 ---
 
 # 4. DIVU AVOTU SLĀŅU SISTĒMA

@@ -107,9 +107,21 @@ async function main() {
 
   const blockedAuthorities = blockers.some((b) => b.code === "BLOCKED_OFFICIAL_AUTHORITIES");
 
+  const reconciliationPath = path.join(ROOT, "reports/g2-a1-production-current/language-authority-registry-reconciliation.json");
+  let registryReconciliation = null;
+  if (fs.existsSync(reconciliationPath)) {
+    registryReconciliation = JSON.parse(fs.readFileSync(reconciliationPath, "utf8"));
+  }
+
   const gate = {
     pass: ready,
     blockers,
+    registryReconciliation: registryReconciliation
+      ? {
+          classification: registryReconciliation.classification,
+          registryIncomplete: registryReconciliation.registryIncomplete,
+        }
+      : null,
     integrationRan: Boolean(integrationSummary),
     integrationSummary: integrationSummary
       ? {
@@ -127,12 +139,12 @@ async function main() {
     classification: ready
       ? "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_READY"
       : blockedAuthorities
-        ? "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED"
+        ? "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_BLOCKED_AFTER_FULL_REGISTRY_RECONCILIATION"
         : "G2_A1_OFFICIAL_SOURCE_ENTRY_VALIDATION_IN_PROGRESS",
     nextAction: ready
       ? "OWNER_MAY_AUTHORIZE_FULL_TARGETED_FIELD_LEVEL_AUDIT_RESUME"
       : blockedAuthorities
-        ? "OWNER_DECISION_REQUIRED_FOR_EXACT_BLOCKED_AUTHORITIES"
+        ? "OWNER_DECISION_REQUIRED_FOR_REMAINING_EXACT_BLOCKERS"
         : "IMPLEMENT_REMAINING_TARGET_SOURCE_ADAPTERS_AND_NEW_PILOTS",
   };
 
