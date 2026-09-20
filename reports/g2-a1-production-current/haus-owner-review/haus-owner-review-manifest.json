@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T13:39:33.580Z",
+  "generatedAt": "2026-09-20T14:12:12.415Z",
   "sourcePilotDir": "reports/g2-a1-production-current/haus-32-language-source-pilot",
   "originalPackageBaseline": {
     "PASS": 4,
@@ -43,9 +43,9 @@
   },
   "full95731FieldAuditRun": false,
   "FULL_LINGUISTIC_AUDITS_EXECUTED": 0,
-  "productionApply": true,
-  "classification": "G2_A1_HAUS_PREAUTHORIZED_CAPITALIZATION_FIXES_APPLIED_AND_VERIFIED",
-  "nextAction": "OWNER_REVIEW_4_LEXICAL_HAUS_FINDINGS_AND_18_SOURCE_BLOCKERS",
+  "productionApply": false,
+  "classification": "G2_A1_HAUS_PREAUTHORIZED_CAPITALIZATION_OWNER_PACKAGE",
+  "nextAction": "APPLY_PREAUTHORIZED_CAPITALIZATION_THEN_OWNER_REVIEW_4_LEXICAL_AND_18_NSR",
   "languageOrder": [
     "bs",
     "en",
@@ -79,8 +79,5 @@
     "mk",
     "ru",
     "uk"
-  ],
-  "productionApplyAt": "2026-09-20T13:39:34.142Z",
-  "preauthorizedCapitalizationApplied": 6,
-  "preauthorizedCapitalizationSkipped": 0
+  ]
 }

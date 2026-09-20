@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T13:39:33.581Z",
+  "generatedAt": "2026-09-20T14:12:12.415Z",
   "rows": [
     {
       "language": "en",
@@ -30,7 +30,7 @@
         "de": "Haus",
         "de_article": "das",
         "de_plural": "die Häuser",
-        "lv": "House",
+        "lv": "house",
         "level": "A1"
       },
       "AUDIT_PROPOSED_NEW": "house",
@@ -65,7 +65,7 @@
         "de": "Haus",
         "de_article": "das",
         "de_plural": "die Häuser",
-        "lv": "Hus",
+        "lv": "hus",
         "level": "A1"
       },
       "AUDIT_PROPOSED_NEW": "hus",
@@ -100,7 +100,7 @@
         "de": "Haus",
         "de_article": "das",
         "de_plural": "die Häuser",
-        "lv": "Ev",
+        "lv": "ev",
         "level": "A1"
       },
       "AUDIT_PROPOSED_NEW": "ev",
@@ -135,7 +135,7 @@
         "de": "Haus",
         "de_article": "das",
         "de_plural": "die Häuser",
-        "lv": "Σπίτι",
+        "lv": "σπίτι",
         "level": "A1"
       },
       "AUDIT_PROPOSED_NEW": "σπίτι",
@@ -170,7 +170,7 @@
         "de": "Haus",
         "de_article": "das",
         "de_plural": "die Häuser",
-        "lv": "Дом",
+        "lv": "дом",
         "level": "A1"
       },
       "AUDIT_PROPOSED_NEW": "дом",
@@ -205,7 +205,7 @@
         "de": "Haus",
         "de_article": "das",
         "de_plural": "die Häuser",
-        "lv": "Dům",
+        "lv": "dům",
         "level": "A1"
       },
       "AUDIT_PROPOSED_NEW": "dům",

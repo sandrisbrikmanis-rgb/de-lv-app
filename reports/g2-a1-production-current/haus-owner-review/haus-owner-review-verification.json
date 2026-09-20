@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T13:40:22.157Z",
+  "generatedAt": "2026-09-20T14:12:13.102Z",
   "pass": true,
   "gates": {
     "auditCounts": {
@@ -18,11 +18,11 @@
     "nsrRows": 18,
     "passEvidenceRows": 4,
     "lexicalOwnerStillEmpty": true,
-    "productionChanges": 12,
-    "productionApply": true,
+    "productionChanges": 0,
+    "productionApply": false,
     "fullAuditRun": 0
   },
   "blockers": [],
-  "classification": "G2_A1_HAUS_PREAUTHORIZED_CAPITALIZATION_FIXES_APPLIED_AND_VERIFIED",
-  "nextAction": "OWNER_REVIEW_4_LEXICAL_HAUS_FINDINGS_AND_18_SOURCE_BLOCKERS"
+  "classification": "G2_A1_HAUS_PREAUTHORIZED_CAPITALIZATION_OWNER_PACKAGE",
+  "nextAction": "APPLY_PREAUTHORIZED_CAPITALIZATION_THEN_OWNER_REVIEW_4_LEXICAL_AND_18_NSR"
 }
