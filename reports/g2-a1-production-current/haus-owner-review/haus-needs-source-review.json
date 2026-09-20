@@ -1,0 +1,451 @@
+{
+  "generatedAt": "2026-09-20T12:11:40.998Z",
+  "rowCount": 19,
+  "rows": [
+    {
+      "language": "bs",
+      "current": "kuća",
+      "masterAuthority": "Institut za jezik Univerziteta u Sarajevu",
+      "masterSourceUrl": "https://izj.unsa.ba/",
+      "attemptedEntryUrl": null,
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "No validated entry URL resolved from MASTER sources (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "concrete validated entry URL",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": false,
+      "needsManualOwnerEvidence": true,
+      "needsMasterSourceDecision": true,
+      "ownerNextAction": "OWNER: confirm MASTER authority URL / adapter path, or supply manual official evidence",
+      "lookupHintOnly": null
+    },
+    {
+      "language": "cs",
+      "current": "Dům",
+      "masterAuthority": "Internetová jazyková příručka (lexicon)",
+      "masterSourceUrl": "https://prirucka.ujc.cas.cz/",
+      "attemptedEntryUrl": "https://prirucka.ujc.cas.cz/?id=915#ref_id_2019_15_1",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://prirucka.ujc.cas.cz/?id=915#ref_id_2019_15_1 did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "dům",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    },
+    {
+      "language": "fr",
+      "current": "Maison",
+      "masterAuthority": "Académie française — Dictionnaire de l'Académie française",
+      "masterSourceUrl": "https://www.dictionnaire-academie.fr/",
+      "attemptedEntryUrl": "https://www.dictionnaire-academie.fr/#/recherche/Maison",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://www.dictionnaire-academie.fr/#/recherche/Maison did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "maison",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    },
+    {
+      "language": "hr",
+      "current": "Куќа",
+      "masterAuthority": "Institut za hrvatski jezik — Školski rječnik / rjecnik.hr",
+      "masterSourceUrl": "https://pravopis.hr/",
+      "attemptedEntryUrl": "https://rjecnik.hr/?query=%D0%9A%D1%83%D1%9C%D0%B0",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://rjecnik.hr/?query=%D0%9A%D1%83%D1%9C%D0%B0 did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND). CURRENT uses Cyrillic script; MASTER target expects Latin Croatian official sources.",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "kuća",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    },
+    {
+      "language": "is",
+      "current": "Maya",
+      "masterAuthority": "Málið.is (Árnastofnun language portal)",
+      "masterSourceUrl": "https://bin.arnastofnun.is/",
+      "attemptedEntryUrl": "https://bin.arnastofnun.is/beygingarstodur/nidur.php?adgerdir=leit&nafn=Maya",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://bin.arnastofnun.is/beygingarstodur/nidur.php?adgerdir=leit&nafn=Maya did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "hús",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    },
+    {
+      "language": "it",
+      "current": "casa",
+      "masterAuthority": "Accademia della Crusca — Lessicografia (lessicografia.it)",
+      "masterSourceUrl": "https://accademiadellacrusca.it/",
+      "attemptedEntryUrl": "https://www.lessicografia.it/search?q=casa",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://www.lessicografia.it/search?q=casa did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "casa",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    },
+    {
+      "language": "lb",
+      "current": "Haus",
+      "masterAuthority": "LOD — Lëtzebuerger Online Dictionnaire",
+      "masterSourceUrl": "https://zls.lu/",
+      "attemptedEntryUrl": "https://lod.lu/search/Haus",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://lod.lu/search/Haus did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "Haus",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    },
+    {
+      "language": "lt",
+      "current": "namas",
+      "masterAuthority": "Valstybinė lietuvių kalbos komisija (VLKK)",
+      "masterSourceUrl": "https://lki.lt/",
+      "attemptedEntryUrl": "https://ekalba.lt/zodynas?q=namas",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://ekalba.lt/zodynas?q=namas did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "namas",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    },
+    {
+      "language": "hu",
+      "current": "Ház",
+      "masterAuthority": "Akadémiai Nagyszótár (nagyszotar.nytud.hu)",
+      "masterSourceUrl": "https://nytud.hu/",
+      "attemptedEntryUrl": "https://nagyszotar.nytud.hu/dictsearch.html?query=H%C3%A1z&mode=normal&hwonly=true",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://nagyszotar.nytud.hu/dictsearch.html?query=H%C3%A1z&mode=normal&hwonly=true did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": null
+    },
+    {
+      "language": "nl",
+      "current": "Huis",
+      "masterAuthority": "Woordenlijst Nederlandse Taal",
+      "masterSourceUrl": "https://taalunie.org/",
+      "attemptedEntryUrl": "https://woordenlijst.org/#/zoeken/Huis",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://woordenlijst.org/#/zoeken/Huis did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "huis",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    },
+    {
+      "language": "pl",
+      "current": "Dom",
+      "masterAuthority": "Wielki słownik języka polskiego PAN (wsjp.pl)",
+      "masterSourceUrl": "https://rjp.pan.pl/",
+      "attemptedEntryUrl": "https://wsjp.pl/",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://wsjp.pl/ did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "dom",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    },
+    {
+      "language": "pt",
+      "current": ")saber",
+      "masterAuthority": "Dicionário Académico de Lisboa",
+      "masterSourceUrl": "https://www.acad-ciencias.pt/",
+      "attemptedEntryUrl": "https://dicionario.acad-ciencias.pt/#/search/)saber",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://dicionario.acad-ciencias.pt/#/search/)saber did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND). Production CURRENT appears corrupted (leading punctuation); adapter used corrupted lookup term.",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "casa",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    },
+    {
+      "language": "ro",
+      "current": "Casa",
+      "masterAuthority": "DOOM — Dicționarul ortografic, ortoepic și morfologic",
+      "masterSourceUrl": "https://acad.ro/",
+      "attemptedEntryUrl": "https://doom.lingv.ro/cautare?q=Casa",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://doom.lingv.ro/cautare?q=Casa did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "casă",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    },
+    {
+      "language": "sq",
+      "current": "Për në shtëpi.",
+      "masterAuthority": "Akademia e Shkencave e Shqipërisë",
+      "masterSourceUrl": "https://akad.gov.al/",
+      "attemptedEntryUrl": null,
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "No validated entry URL resolved from MASTER sources (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "concrete validated entry URL",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": false,
+      "needsManualOwnerEvidence": true,
+      "needsMasterSourceDecision": true,
+      "ownerNextAction": "OWNER: confirm MASTER authority URL / adapter path, or supply manual official evidence",
+      "lookupHintOnly": null
+    },
+    {
+      "language": "sr",
+      "current": "Куќа",
+      "masterAuthority": "Matica srpska",
+      "masterSourceUrl": "https://www.isj.sanu.ac.rs/",
+      "attemptedEntryUrl": null,
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "No validated entry URL resolved from MASTER sources (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "concrete validated entry URL",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": false,
+      "needsManualOwnerEvidence": true,
+      "needsMasterSourceDecision": true,
+      "ownerNextAction": "OWNER: confirm MASTER authority URL / adapter path, or supply manual official evidence",
+      "lookupHintOnly": null
+    },
+    {
+      "language": "sv",
+      "current": "Maja",
+      "masterAuthority": "Svenska Akademiens ord böcker (SAOL / SO / SAOB)",
+      "masterSourceUrl": "https://www.svenskaakademien.se/",
+      "attemptedEntryUrl": "https://svenska.se/saol/#/search/Maja",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://svenska.se/saol/#/search/Maja did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "hus",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    },
+    {
+      "language": "bg",
+      "current": "Къща",
+      "masterAuthority": "Български речник онлайн (BERON)",
+      "masterSourceUrl": "https://ibl.bas.bg/",
+      "attemptedEntryUrl": "https://beron.mon.bg/dictionary/search?q=%D0%9A%D1%8A%D1%89%D0%B0",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://beron.mon.bg/dictionary/search?q=%D0%9A%D1%8A%D1%89%D0%B0 did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "къща",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    },
+    {
+      "language": "mk",
+      "current": "Куќа",
+      "masterAuthority": "Дигитален речник на македонскиот јазик (drmj.eu)",
+      "masterSourceUrl": "https://imj.ukim.edu.mk/",
+      "attemptedEntryUrl": null,
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "No validated entry URL resolved from MASTER sources (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "concrete validated entry URL",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": false,
+      "needsManualOwnerEvidence": true,
+      "needsMasterSourceDecision": true,
+      "ownerNextAction": "OWNER: confirm MASTER authority URL / adapter path, or supply manual official evidence",
+      "lookupHintOnly": null
+    },
+    {
+      "language": "uk",
+      "current": "будинок",
+      "masterAuthority": "Словники України online (УМІФ НАН України)",
+      "masterSourceUrl": "https://iul-nasu.org.ua/",
+      "attemptedEntryUrl": "https://lcorp.ulif.org.ua/dictua/#search=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA",
+      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "technicalBlocker": "Attempted entry https://lcorp.ulif.org.ua/dictua/#search=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND).",
+      "missingEvidence": [
+        "TARGET headword",
+        "TARGET meaning fragment",
+        "validated source access",
+        "normative capitalization proof",
+        "semantic match proof"
+      ],
+      "needsAdapterRework": true,
+      "needsManualOwnerEvidence": false,
+      "needsMasterSourceDecision": false,
+      "ownerNextAction": "Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense fragment",
+      "lookupHintOnly": {
+        "hausPositiveLookupHint": "дім",
+        "note": "Search hint only — not approved PROPOSED_NEW or OWNER LABOT"
+      }
+    }
+  ]
+}

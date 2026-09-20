@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-09-20T12:11:41.669Z",
+  "pass": true,
+  "gates": {
+    "TOTAL": 32,
+    "PASS": 4,
+    "FINDING": 9,
+    "NEEDS_SOURCE_REVIEW": 19,
+    "SOURCE_DE_ISSUE": 0,
+    "ownerDecisionRows": 9,
+    "nsrRows": 19,
+    "passEvidenceRows": 4,
+    "findingWithoutDeEvidence": 0,
+    "findingWithoutTargetEvidence": 0,
+    "ownerStatusAutoFilled": 0,
+    "productionChanges": 0,
+    "deChanges": 0,
+    "crowdinChanges": 0,
+    "fullAuditRun": 0
+  },
+  "blockers": [],
+  "classification": "G2_A1_HAUS_OWNER_REVIEW_PACKAGE_READY",
+  "nextAction": "OWNER_REVIEW_9_HAUS_FINDINGS_AND_19_SOURCE_BLOCKERS"
+}

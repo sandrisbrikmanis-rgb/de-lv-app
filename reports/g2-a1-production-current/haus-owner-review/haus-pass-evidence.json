@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-09-20T12:11:40.998Z",
+  "rowCount": 4,
+  "rows": [
+    {
+      "language": "et",
+      "currentTarget": "maja",
+      "verdict": "PASS",
+      "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
+      "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
+      "deEvidenceFragmentExcerpt": "class=\"dwdswb-artikel\"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall",
+      "targetAuthority": "Eesti Keele Instituut — Sõnaveeb",
+      "targetEntryUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/maja/1/eng",
+      "targetHeadword": "maja",
+      "targetMeaningFragmentExcerpt": "Otsing - maja Otsingu juurde Põhisisu juurde cancel keyboard ET ET RU EN search Juhuslik sõna EST EST RUS ENG apps Sõnaveeb EKI teatmik ÕS 2025 EKI sõnastikud Keeleõppija Sõnaveeb Õpetaja tööriistad Hääldus&shy;harjutused Õpime eesti keelt Pilt&shy;sõnastik Keele&shy;mängud Uued ",
+      "targetEvidenceSha256": "114667734839a8ba2f94821bccedbb8a6fdb65693bb0559da8235b8b18df13e9",
+      "contextComparison": "DE «Haus» ↔ TARGET «maja» matches normative lemma «maja» with validated official entries.",
+      "pilotVerdict": "PASS"
+    },
+    {
+      "language": "es",
+      "currentTarget": "casa",
+      "verdict": "PASS",
+      "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
+      "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
+      "deEvidenceFragmentExcerpt": "class=\"dwdswb-artikel\"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall",
+      "targetAuthority": "Real Academia Española — DLE",
+      "targetEntryUrl": "https://dle.rae.es/casa",
+      "targetHeadword": "casa",
+      "targetMeaningFragmentExcerpt": "casa | Definición | Diccionario de la lengua española | RAE - ASALE Diccionario de la lengua española Real Academia Española Asociación de Academias de la Lengua Española Menú Palabra Filtros por palabras por expresiones exacta empieza por termina en contiene anagramas aleatoria ",
+      "targetEvidenceSha256": "aa8a6282c999f7c32b28cc2f10cef3bacd9c96433e2450eed16963ecf617819b",
+      "contextComparison": "DE «Haus» ↔ TARGET «casa» matches normative lemma «casa» with validated official entries.",
+      "pilotVerdict": "PASS"
+    },
+    {
+      "language": "lv",
+      "currentTarget": "māja",
+      "verdict": "PASS",
+      "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
+      "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
+      "deEvidenceFragmentExcerpt": "class=\"dwdswb-artikel\"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall",
+      "targetAuthority": "MLVV / Tēzaurs.lv",
+      "targetEntryUrl": "https://tezaurs.lv/m%C4%81ja",
+      "targetHeadword": "māja",
+      "targetMeaningFragmentExcerpt": "māja | Tēzaurs Ā Č Ē Ģ Ī Ķ Ļ Ņ Ō Ŗ Š Ū Ž Jūsu pārlūkprogrammai ir atslēgts JavaScript atbalsts, kas nepieciešams Tēzaurs.lv pilnvērtīgai darbībai (t.sk. locījumu tabulu un korpusa piemēru demonstrēšanai), tāpēc Jums tiek piedāvāta Tēzaurs.lv vienkāršota versija. Instrukcija, kā i",
+      "targetEvidenceSha256": "0753c7193598b71a49e59e9529dd9a044b16b7798c640f6186dcfd3c23af48b8",
+      "contextComparison": "DE «Haus» ↔ TARGET «māja» matches normative lemma «māja» with validated official entries.",
+      "pilotVerdict": "PASS"
+    },
+    {
+      "language": "sl",
+      "currentTarget": "hiša",
+      "verdict": "PASS",
+      "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
+      "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
+      "deEvidenceFragmentExcerpt": "class=\"dwdswb-artikel\"> Haus , das Lesezeichen zitieren/teilen zuklappen ausklappen Grammatik Substantiv (Neutrum) · Genitiv Singular: Hauses · Nominativ Plural: Häuser Aussprache Fehler [ haʊ̯s ] Wortbildung mit ›Haus‹ als Erstglied: Hausabbruch … 325 weitere &middot; Hausabfall",
+      "targetAuthority": "FRAN — Slovenski jezik",
+      "targetEntryUrl": "https://fran.si/iskanje?View=1&Query=hi%C5%A1a",
+      "targetHeadword": "hiša",
+      "targetMeaningFragmentExcerpt": "class=\"list-group-item entry\" data-citation=\"&lt;em&gt;Slovar slovenskega knjižnega jezika, druga, dopolnjena in deloma prenovljena izdaja&lt;/em&gt;, www.fran.si, dostop 20. 9. 2026.\"> SSKJ&#178; híša -e ž ( í ) 1. stavba, namenjena zlasti za bivanje ljudi: hiša stoji na samem, ",
+      "targetEvidenceSha256": "7f244aba034965fed2a719a0fe4334edd1d98a93568b9e73142aa5138bc0e8cd",
+      "contextComparison": "DE «Haus» ↔ TARGET «hiša» matches normative lemma «hiša» with validated official entries.",
+      "pilotVerdict": "PASS"
+    }
+  ]
+}
