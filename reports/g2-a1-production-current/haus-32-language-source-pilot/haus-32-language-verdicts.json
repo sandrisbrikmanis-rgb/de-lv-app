@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-20T10:56:26.824Z",
+  "generatedAt": "2026-09-20T11:03:41.189Z",
   "counts": {
-    "PASS": 12,
-    "FINDING": 1,
+    "PASS": 9,
+    "FINDING": 4,
     "NEEDS_SOURCE_REVIEW": 19,
     "SOURCE_DE_ISSUE": 0
   },
@@ -37,7 +37,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:51:09.093Z"
+      "checkedAt": "2026-09-20T10:57:05.264Z"
     },
     {
       "language": "en",
@@ -67,7 +67,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:51:09.396Z"
+      "checkedAt": "2026-09-20T10:57:05.565Z"
     },
     {
       "language": "cs",
@@ -97,7 +97,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "dům",
-      "checkedAt": "2026-09-20T10:51:09.692Z"
+      "checkedAt": "2026-09-20T10:57:05.856Z"
     },
     {
       "language": "da",
@@ -127,7 +127,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:51:09.973Z"
+      "checkedAt": "2026-09-20T10:57:06.153Z"
     },
     {
       "language": "et",
@@ -157,7 +157,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:51:11.440Z"
+      "checkedAt": "2026-09-20T10:57:07.511Z"
     },
     {
       "language": "es",
@@ -187,7 +187,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:51:11.835Z"
+      "checkedAt": "2026-09-20T10:57:07.915Z"
     },
     {
       "language": "fr",
@@ -217,7 +217,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "maison",
-      "checkedAt": "2026-09-20T10:51:25.569Z"
+      "checkedAt": "2026-09-20T10:57:21.740Z"
     },
     {
       "language": "hr",
@@ -247,7 +247,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "kuća",
-      "checkedAt": "2026-09-20T10:51:54.519Z"
+      "checkedAt": "2026-09-20T10:57:50.628Z"
     },
     {
       "language": "is",
@@ -277,7 +277,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "hús",
-      "checkedAt": "2026-09-20T10:52:24.033Z"
+      "checkedAt": "2026-09-20T10:58:20.331Z"
     },
     {
       "language": "it",
@@ -307,7 +307,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "casa",
-      "checkedAt": "2026-09-20T10:52:37.483Z"
+      "checkedAt": "2026-09-20T10:58:33.882Z"
     },
     {
       "language": "lv",
@@ -337,7 +337,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:52:38.301Z"
+      "checkedAt": "2026-09-20T10:58:34.727Z"
     },
     {
       "language": "lb",
@@ -367,7 +367,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "Haus",
-      "checkedAt": "2026-09-20T10:52:51.977Z"
+      "checkedAt": "2026-09-20T10:58:48.507Z"
     },
     {
       "language": "lt",
@@ -397,7 +397,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "namas",
-      "checkedAt": "2026-09-20T10:53:07.651Z"
+      "checkedAt": "2026-09-20T10:59:03.937Z"
     },
     {
       "language": "hu",
@@ -427,7 +427,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:53:14.939Z"
+      "checkedAt": "2026-09-20T10:59:11.089Z"
     },
     {
       "language": "nl",
@@ -457,7 +457,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "huis",
-      "checkedAt": "2026-09-20T10:53:39.925Z"
+      "checkedAt": "2026-09-20T10:59:36.081Z"
     },
     {
       "language": "nb",
@@ -471,23 +471,23 @@
       "currentTarget": "Maya",
       "targetAuthority": "Bokmålsordboka (ordbokene.no)",
       "targetSourceUrl": "https://ordbokene.no/bm",
-      "targetEntryUrl": "https://ordbokene.no/nob/bm/maya",
-      "targetHeadword": "Maya",
-      "targetMeaningFragment": "dboka 1\n oppslagsord\nmaya\nsubstantiv hankjønn\nVis bøyning\nOpphavfra et mayaspråk\nBetydning og bruk\ngruppe av språk som fins i Guatemala, Mexico, Belize og Honduras;\n\nmayaspråk\nperson som har et mayaspråk som morsmål\nKopier lenke\nSiter\nArtikkelside\nLignende oppslagsord:\nabaya\naha\nana\napa\nara\nFant du ordet du lette etter?\nJaNei\nBokmålsordboka og Nynorskordboka viser skrivemåte og bøyning i tråd med norsk rettskrivning. Språkrådet og Universitetet i Bergen står bak ordbøkene.\nTil forsiden\nHjelp\nOm ordbøkene\nInnstillinger\nKontakt oss\nTilgjengelighetserklæring\nPersonvern",
+      "targetEntryUrl": "https://ordbokene.no/nob/bm/hus",
+      "targetHeadword": "hus",
+      "targetMeaningFragment": "dboka 1\n oppslagsord\nhus\nsubstantiv intetkjønn\nVis bøyning\nOpphavnorrønt hús\nBetydning og bruk\nbygning (med tak og vegger) brukt til bo- eller tilholdssted for mennesker eller dyr, til å lagre noe i og lignende\nEksempel\nbygge hus;\nha både hus og hytte;\net toetasjes hus;\nsette opp nye hus på gården\nsom etterledd i ord som hundehus kulturhus rekkehus sykehus uthus våningshus\nbosted, hjem (\n1\nI, 1)\nEksempel\ni pressområder er det vanskelig å skaffe seg hus;\nhusets folk;\nbarna i huset;\nvære herre i eget hus\npersoner som bor i et hus;\n\nhusstand, familie\nEksempel\nen venn av huset;\nvekke hele huset\nkongelig eller adelig familie eller slekt\nsom etterledd i ord som fyrstehus kongehus\ndel av nasjonalforsamling i visse land\nEksempel\nrepresentantenes hus\nsom etterledd i ord som overhus underhus\nbrukt som etterledd i sammensetninger som betegner noe som fungerer som overbygning\ni ord som dekkshus førerhus\nbrukt som etter",
       "sourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "deSourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
-      "orthographyStatus": "PASS",
-      "capitalizationStatus": "PASS",
-      "lemmaStatus": "PASS",
-      "semanticMatchStatus": "PASS",
-      "proposedTarget": null,
-      "verdict": "PASS",
-      "findingType": null,
-      "evidenceSha256": "1c368bd423cea0597b76663899f650a11066ad67964e017a989795ef6b285dd1",
+      "orthographyStatus": "CHECKED",
+      "capitalizationStatus": "CHECKED",
+      "lemmaStatus": "CHECKED",
+      "semanticMatchStatus": "FAIL",
+      "proposedTarget": "hus",
+      "verdict": "FINDING",
+      "findingType": "WRONG_TRANSLATION",
+      "evidenceSha256": "7def1d680d33e0148424ebd7df3824e42343ace0b03d88e0f0d4b0a61ecd98e8",
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
-      "ownerReviewRequired": false,
-      "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:53:40.762Z"
+      "ownerReviewRequired": true,
+      "hausPositiveLookupHint": "hus",
+      "checkedAt": "2026-09-20T10:59:59.622Z"
     },
     {
       "language": "nn",
@@ -501,23 +501,23 @@
       "currentTarget": "Maya",
       "targetAuthority": "Nynorskordboka (ordbokene.no)",
       "targetSourceUrl": "https://ordbokene.no/nn",
-      "targetEntryUrl": "https://ordbokene.no/nob/nn/maya",
-      "targetHeadword": "Maya",
-      "targetMeaningFragment": "dboka 1\n oppslagsord\nmaya\nsubstantiv hankjønn\nVis bøying\nOpphavfrå eit mayaspråk\nTyding og bruk\ngruppe av språk som finst i Guatemala, Mexico, Belize og Honduras;\n\nmayaspråk\nperson som har eit mayaspråk som morsmål\nKopier lenkje\nSiter\nArtikkelside\nLiknande oppslagsord:\nmaga\nmaia\nmaka\nmala\nmana\nFant du ordet du lette etter?\nJaNei\nBokmålsordboka og Nynorskordboka viser skrivemåte og bøyning i tråd med norsk rettskrivning. Språkrådet og Universitetet i Bergen står bak ordbøkene.\nTil forsiden\nHjelp\nOm ordbøkene\nInnstillinger\nKontakt oss\nTilgjengelighetserklæring\nPersonvern",
+      "targetEntryUrl": "https://ordbokene.no/nob/nn/hus",
+      "targetHeadword": "hus",
+      "targetMeaningFragment": "dboka 1\n oppslagsord\nhus\nsubstantiv inkjekjønn\nVis bøying\nOpphavnorrønt hús\nTyding og bruk\nbygning (med tak og vegger) brukt til bu- eller tilhaldsstad for menneske og dyr, til lagringsstad og liknande\nDøme\nbyggje hus;\nha både hus og hytte;\neit hus med tre etasjar;\nsetje opp nye hus på garden\nsom etterledd i ord som hundehus kulturhus rekkjehus sjukehus uthus våningshus\nbustad, heim (\n1\nI, 1)\nDøme\nha hus og heim;\nvere herre i eige hus;\nkona i huset;\nstelle i huset\npersonar som bur i eit hus;\n\nhusstand, huslyd, familie\nDøme\nvekkje heile huset;\nein ven av huset\nkongeleg eller adeleg familie eller slekt\nDøme\nhuset Habsburg styrte Austerrike-Ungarn\nsom etterledd i ord som fyrstehus kongehus\ndel av nasjonalforsamling i visse land\nsom etterledd i ord som overhus underhus\nbrukt som etterledd i samansetningar som nemner noko som tener som overbygning\ni ord som dekkshus førarhus\nbrukt som etterledd i samansetningar",
       "sourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "deSourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
-      "orthographyStatus": "PASS",
-      "capitalizationStatus": "PASS",
-      "lemmaStatus": "PASS",
-      "semanticMatchStatus": "PASS",
-      "proposedTarget": null,
-      "verdict": "PASS",
-      "findingType": null,
-      "evidenceSha256": "51beaee0d76bd778229d70cdaaf1d65310c179934728ff3d791d08451809cc79",
+      "orthographyStatus": "CHECKED",
+      "capitalizationStatus": "CHECKED",
+      "lemmaStatus": "CHECKED",
+      "semanticMatchStatus": "FAIL",
+      "proposedTarget": "hus",
+      "verdict": "FINDING",
+      "findingType": "WRONG_TRANSLATION",
+      "evidenceSha256": "201c28ab75ef0ffd2cb81687c8c0a9d3db3401a52a872531a5e50642bb89c6db",
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
-      "ownerReviewRequired": false,
-      "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:53:41.460Z"
+      "ownerReviewRequired": true,
+      "hausPositiveLookupHint": "hus",
+      "checkedAt": "2026-09-20T11:00:23.216Z"
     },
     {
       "language": "pl",
@@ -529,9 +529,9 @@
       "deValue": "Haus",
       "deArticle": "das",
       "currentTarget": "Dom",
-      "targetAuthority": null,
+      "targetAuthority": "Wielki słownik języka polskiego PAN (wsjp.pl)",
       "targetSourceUrl": "https://wsjp.pl/",
-      "targetEntryUrl": null,
+      "targetEntryUrl": "https://wsjp.pl/",
       "targetHeadword": null,
       "targetMeaningFragment": null,
       "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
@@ -547,7 +547,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "dom",
-      "checkedAt": "2026-09-20T10:53:59.506Z"
+      "checkedAt": "2026-09-20T11:00:42.562Z"
     },
     {
       "language": "pt",
@@ -577,7 +577,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "casa",
-      "checkedAt": "2026-09-20T10:54:42.665Z"
+      "checkedAt": "2026-09-20T11:01:43.337Z"
     },
     {
       "language": "ro",
@@ -607,7 +607,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "casă",
-      "checkedAt": "2026-09-20T10:55:12.506Z"
+      "checkedAt": "2026-09-20T11:02:12.453Z"
     },
     {
       "language": "sq",
@@ -637,7 +637,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:55:13.327Z"
+      "checkedAt": "2026-09-20T11:02:13.380Z"
     },
     {
       "language": "sk",
@@ -667,7 +667,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "dom",
-      "checkedAt": "2026-09-20T10:55:13.897Z"
+      "checkedAt": "2026-09-20T11:02:13.961Z"
     },
     {
       "language": "sl",
@@ -697,7 +697,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:55:14.188Z"
+      "checkedAt": "2026-09-20T11:02:14.726Z"
     },
     {
       "language": "sr",
@@ -727,7 +727,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:55:14.476Z"
+      "checkedAt": "2026-09-20T11:02:15.345Z"
     },
     {
       "language": "fi",
@@ -741,23 +741,23 @@
       "currentTarget": "Maja",
       "targetAuthority": "Kielitoimiston sanakirja",
       "targetSourceUrl": "https://www.kielitoimistonsanakirja.fi/",
-      "targetEntryUrl": "https://www.kielitoimistonsanakirja.fi/#/maja?source=suggestion&searchMode=all",
-      "targetHeadword": "Maja",
-      "targetMeaningFragment": "avigaatio\n\nHaettiin \"Maja\"\n\nmaja\nmajailla\nmajailu\nmajakan­vartija\nmajakka\nmajakka-alus\nmajakka­laiva\nmajan­muutto\nmaja­paikka\nmaja­talo\nmajava\nmajavan­hausta\nmajavan­nahka\nmajava­turkki\nNäytä aina taivutus \nNäytä kaikki esimerkit \nmaja9\nTAIVUTUS \nsubstantiivi\n1.\npieni, yksinkertainen asuin- t. oleskelusuoja; vars. yhdyssanan jälkiosana myös suuremmista majoitussuojista.\nLaudoista kyhätty maja.\nNÄYTÄ KAIKKI ESIMERKIT \n2.\nvars. ylät. (vaatimaton) ihmisasunto, asumus, koti, majapaikka.\nNiin rikkaan palatsissa kuin köyhän majassa.\nNÄYTÄ KAIKKI ESIMERKIT \nKuv.\nMuuttaa, siirtyä manan majoille kuolla.\nNÄYTÄ KAIKKI ESIMERKIT \n\n© 2024 Kotimaisten kielten keskus ja Kielikone Oy\n\nHyppää hakukenttään\nJaa linkki:\nAnna palautetta:\nEvästeet ja tietosuoja\nKäyttöehdot\nSaavutettavuusseloste (avautuu uuteen ikkunaan)\nYhteystiedot\n\nCopyright © 2026 Kotimaisten kielten keskus ja Kielikone Oy. Kaikki oikeudet pidätetään.\n\nKotima",
+      "targetEntryUrl": "https://www.kielitoimistonsanakirja.fi/#/talo?source=suggestion&searchMode=all",
+      "targetHeadword": "talo",
+      "targetMeaningFragment": "avigaatio\n\nHaettiin \"talo\"\n\ntalo\ntalo­johto\ntalo­kauppa\ntalollinen\ntalon­emäntä\ntalon­isäntä\ntalon­kauppa\ntalonki\ntalon­kirja\ntalon­mies\ntalon­omistaja\ntalon­paikka\ntalon­pito\ntalon­poika\ntalon­poikainen\ntalon­poikais­arkkitehtuuri\ntalon­poikais­huone­kalu\ntalon­poikais­johtaja\ntalon­poikais­järki\ntalon­poikais­koti\nSivu 1/9\n1\n9\nNäytä aina taivutus \nNäytä kaikki esimerkit \ntalo1\nTAIVUTUS \nsubstantiivi\n1.\nasuin-, toimisto-, liike- tms. käyttöön tarkoitettu rakennus.\nYksi-, kuusikerroksinen talo.\nNÄYTÄ KAIKKI ESIMERKIT \n2.\nasuinrakennuksen ja sen läheisten talous- ym. rakennusten muodostamasta ryhmästä.\nTalon ulkorakennukset.\n3.\nmaatila rakennuksineen; asuin- tm. rakennus tontteineen.\nIso, varakas talo maalla.\nNÄYTÄ KAIKKI ESIMERKIT \n4.\nrakennus, huoneisto t. asunto asukkaineen, tavaroineen yms., koti, talous.\nHää-, surutalo.\nNÄYTÄ KAIKKI ESIMERKIT \n5.\nasunto-osakeyhtiöstä tm. asunnon hallintoyhteisöstä.\nKorj",
       "sourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "deSourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
-      "orthographyStatus": "PASS",
-      "capitalizationStatus": "PASS",
-      "lemmaStatus": "PASS",
-      "semanticMatchStatus": "PASS",
-      "proposedTarget": null,
-      "verdict": "PASS",
-      "findingType": null,
-      "evidenceSha256": "7e5b4a13ed8090522ef574425911eb4812496cd8c564c77254dbac593c1798cc",
+      "orthographyStatus": "CHECKED",
+      "capitalizationStatus": "CHECKED",
+      "lemmaStatus": "CHECKED",
+      "semanticMatchStatus": "FAIL",
+      "proposedTarget": "talo",
+      "verdict": "FINDING",
+      "findingType": "WRONG_TRANSLATION",
+      "evidenceSha256": "3448e61a7cd99d6286416f6404764c62af44e39c0c0df9b45776784c21842452",
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
-      "ownerReviewRequired": false,
-      "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:55:14.765Z"
+      "ownerReviewRequired": true,
+      "hausPositiveLookupHint": "talo",
+      "checkedAt": "2026-09-20T11:02:29.201Z"
     },
     {
       "language": "sv",
@@ -787,7 +787,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "hus",
-      "checkedAt": "2026-09-20T10:55:41.937Z"
+      "checkedAt": "2026-09-20T11:02:57.001Z"
     },
     {
       "language": "tr",
@@ -817,7 +817,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:55:42.764Z"
+      "checkedAt": "2026-09-20T11:02:57.833Z"
     },
     {
       "language": "gr",
@@ -847,7 +847,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:55:43.568Z"
+      "checkedAt": "2026-09-20T11:02:58.114Z"
     },
     {
       "language": "bg",
@@ -877,7 +877,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "къща",
-      "checkedAt": "2026-09-20T10:55:56.500Z"
+      "checkedAt": "2026-09-20T11:03:11.089Z"
     },
     {
       "language": "mk",
@@ -907,7 +907,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:55:57.705Z"
+      "checkedAt": "2026-09-20T11:03:12.247Z"
     },
     {
       "language": "ru",
@@ -937,7 +937,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:55:58.099Z"
+      "checkedAt": "2026-09-20T11:03:12.648Z"
     },
     {
       "language": "uk",
@@ -967,7 +967,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "дім",
-      "checkedAt": "2026-09-20T10:56:26.782Z"
+      "checkedAt": "2026-09-20T11:03:41.148Z"
     }
   ]
 }

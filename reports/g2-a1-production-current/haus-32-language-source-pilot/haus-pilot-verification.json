@@ -2,8 +2,8 @@
   "pass": true,
   "blockers": [],
   "counts": {
-    "PASS": 12,
-    "FINDING": 1,
+    "PASS": 9,
+    "FINDING": 4,
     "NEEDS_SOURCE_REVIEW": 19,
     "SOURCE_DE_ISSUE": 0
   },

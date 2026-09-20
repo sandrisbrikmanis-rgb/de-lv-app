@@ -19,8 +19,8 @@ Classification: **G2_A1_HAUS_32_LANGUAGE_SOURCE_SUPPORTED_PILOT_COMPLETE_AWAITIN
 | lt | namas | — | NEEDS_SOURCE_REVIEW | — | — |
 | hu | Ház | — | NEEDS_SOURCE_REVIEW | — | — |
 | nl | Huis | — | NEEDS_SOURCE_REVIEW | — | — |
-| nb | Maya | Maya | PASS | — | — |
-| nn | Maya | Maya | PASS | — | — |
+| nb | Maya | hus | FINDING | WRONG_TRANSLATION | hus |
+| nn | Maya | hus | FINDING | WRONG_TRANSLATION | hus |
 | pl | Dom | — | NEEDS_SOURCE_REVIEW | — | — |
 | pt | )saber | — | NEEDS_SOURCE_REVIEW | — | — |
 | ro | Casa | — | NEEDS_SOURCE_REVIEW | — | — |
@@ -28,7 +28,7 @@ Classification: **G2_A1_HAUS_32_LANGUAGE_SOURCE_SUPPORTED_PILOT_COMPLETE_AWAITIN
 | sk | Domov | dom | FINDING | SEMANTIC_MISMATCH | dom |
 | sl | hiša | hiša | PASS | — | — |
 | sr | Куќа | — | NEEDS_SOURCE_REVIEW | — | — |
-| fi | Maja | Maja | PASS | — | — |
+| fi | Maja | talo | FINDING | WRONG_TRANSLATION | talo |
 | sv | Maja | — | NEEDS_SOURCE_REVIEW | — | — |
 | tr | Ev | Ev | PASS | — | — |
 | gr | Σπίτι | Σπίτι | PASS | — | — |
@@ -37,4 +37,4 @@ Classification: **G2_A1_HAUS_32_LANGUAGE_SOURCE_SUPPORTED_PILOT_COMPLETE_AWAITIN
 | ru | Дом | Дом | PASS | — | — |
 | uk | будинок | — | NEEDS_SOURCE_REVIEW | — | — |
 
-PASS: 12 | FINDING: 1 | NSR: 19 | DE_ISSUE: 0
+PASS: 9 | FINDING: 4 | NSR: 19 | DE_ISSUE: 0

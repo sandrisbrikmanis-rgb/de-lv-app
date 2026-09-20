@@ -14,16 +14,16 @@ lb,Haus,NEEDS_SOURCE_REVIEW,,,https://lod.lu/search/Haus,SOURCE_ENTRY_NOT_FOUND,
 lt,namas,NEEDS_SOURCE_REVIEW,,,https://ekalba.lt/zodynas?q=namas,SOURCE_ENTRY_NOT_FOUND,true
 hu,Ház,NEEDS_SOURCE_REVIEW,,,https://nagyszotar.nytud.hu/dictsearch.html?query=H%C3%A1z&mode=normal&hwonly=true,SOURCE_ENTRY_NOT_FOUND,true
 nl,Huis,NEEDS_SOURCE_REVIEW,,,https://woordenlijst.org/#/zoeken/Huis,SOURCE_ENTRY_NOT_FOUND,true
-nb,Maya,PASS,,,https://ordbokene.no/nob/bm/maya,SOURCE_ENTRY_VALIDATED,false
-nn,Maya,PASS,,,https://ordbokene.no/nob/nn/maya,SOURCE_ENTRY_VALIDATED,false
-pl,Dom,NEEDS_SOURCE_REVIEW,,,,SOURCE_ENTRY_NOT_FOUND,true
+nb,Maya,FINDING,WRONG_TRANSLATION,hus,https://ordbokene.no/nob/bm/hus,SOURCE_ENTRY_VALIDATED,true
+nn,Maya,FINDING,WRONG_TRANSLATION,hus,https://ordbokene.no/nob/nn/hus,SOURCE_ENTRY_VALIDATED,true
+pl,Dom,NEEDS_SOURCE_REVIEW,,,https://wsjp.pl/,SOURCE_ENTRY_NOT_FOUND,true
 pt,)saber,NEEDS_SOURCE_REVIEW,,,https://dicionario.acad-ciencias.pt/#/search/)saber,SOURCE_ENTRY_NOT_FOUND,true
 ro,Casa,NEEDS_SOURCE_REVIEW,,,https://doom.lingv.ro/cautare?q=Casa,SOURCE_ENTRY_NOT_FOUND,true
 sq,Për në shtëpi.,NEEDS_SOURCE_REVIEW,,,,SOURCE_ENTRY_NOT_FOUND,true
 sk,Domov,FINDING,SEMANTIC_MISMATCH,dom,https://slovnik.juls.savba.sk/?w=dom&s=exact&k=Md03&cs=&d=kssj4&d=psp&d=ogs&d=sssj&d=orter&d=scs&d=sss&d=peciar&d=ssn&d=hssj&d=bernolak&d=noundb&d=orient&d=locutio&d=obce&d=priezviska&d=un&d=onom&d=pskfr&d=pskcs&d=psken#,SOURCE_ENTRY_VALIDATED,true
 sl,hiša,PASS,,,https://fran.si/iskanje?View=1&Query=hi%C5%A1a,SOURCE_ENTRY_VALIDATED,false
 sr,Куќа,NEEDS_SOURCE_REVIEW,,,,SOURCE_ENTRY_NOT_FOUND,true
-fi,Maja,PASS,,,https://www.kielitoimistonsanakirja.fi/#/maja?source=suggestion&searchMode=all,SOURCE_ENTRY_VALIDATED,false
+fi,Maja,FINDING,WRONG_TRANSLATION,talo,https://www.kielitoimistonsanakirja.fi/#/talo?source=suggestion&searchMode=all,SOURCE_ENTRY_VALIDATED,true
 sv,Maja,NEEDS_SOURCE_REVIEW,,,https://svenska.se/saol/#/search/Maja,SOURCE_ENTRY_NOT_FOUND,true
 tr,Ev,PASS,,,https://sozluk.gov.tr/gts?ara=Ev,SOURCE_ENTRY_VALIDATED,false
 gr,Σπίτι,PASS,,,https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%A3%CF%80%CE%AF%CF%84%CE%B9,SOURCE_ENTRY_VALIDATED,false

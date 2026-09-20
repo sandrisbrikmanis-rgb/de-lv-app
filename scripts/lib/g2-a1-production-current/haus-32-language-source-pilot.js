@@ -31,6 +31,10 @@ const HAUS_POSITIVE_LOOKUP = Object.freeze({
   pt: "casa",
   ro: "casă",
   sv: "hus",
+  fi: "talo",
+  nb: "hus",
+  nn: "hus",
+  is: "hús",
   bg: "къща",
   uk: "дім",
 });
@@ -66,6 +70,11 @@ function hausTargetEntryIsRelevant(appLang, houseLemma, targetSide) {
         /Nový Dům|zeměpisná jména|Zeměpisná jména/i.test(fragment) &&
         !/budov|obýv|bytov|stavba na/i.test(fragment);
       if (placeNameOnly) return false;
+    }
+    if (["nb", "nn"].includes(appLang) && /^maya$/i.test(headToken)) {
+      if (/mayaspråk|mayaspråk|Guatemala|språk som/i.test(fragment) && !/\bhus\b|bolig|bygning/i.test(fragment)) {
+        return false;
+      }
     }
     return true;
   }
