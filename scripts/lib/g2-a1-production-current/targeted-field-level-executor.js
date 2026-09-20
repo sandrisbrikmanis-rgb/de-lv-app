@@ -483,6 +483,21 @@ async function runTargetedFieldLevelAudit(options = {}) {
   writeJsonAtomic("targeted-field-full-audit-evidence.json", ownerBundle.fullAuditEvidence);
   writeJsonAtomic("targeted-field-post-run-verification.json", postRun);
 
+  if (options.pilotOnly) {
+    const pilotPass = state.batchesCompleted >= 1 && state.records.length <= 25;
+    return {
+      pass: pilotPass,
+      phase: "targeted-field-pilot-complete",
+      coverage: coverage.counts,
+      progress: buildProgressSnapshot(state),
+      classification: pilotPass
+        ? "G2_A1_OFFICIAL_SOURCE_ACCESS_PILOT_BATCH_COMPLETE"
+        : "G2_A1_TARGETED_FIELD_LEVEL_AUDIT_BLOCKED",
+      nextAction: "RUN verify:g2-a1-targeted-field-source-access-pilot",
+      FULL_LINGUISTIC_AUDITS_EXECUTED: state.lunaCalls,
+    };
+  }
+
   return {
     pass: postRun.pass && coverage.pass,
     phase: "targeted-field-complete",
