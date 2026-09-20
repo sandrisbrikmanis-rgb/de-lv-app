@@ -5457,6 +5457,22 @@ pievieno tikai pēc `das Haus` pārbaudes un **OWNER apstiprinājuma**; komerci�
 statuss nav noraidījuma iemesls. Kopienas vārdnīcas (klase **E**) nedrīkst būt
 vienīgais pierādījums — obligāts avotu kopums ar DE un TARGET A–D avotiem.
 
+## 7.160. Papildu TARGET vārdnīcas (32 valodas, v1.19)
+
+Katrai TARGET valodai reģistrēts arī papildu vārdnīcas vai leksiskais avots.
+Papildu avotu drīkst izmantot tulkojuma, nozīmes, lemmas, gramatikas vai
+pareizrakstības pārbaudei. Komerciālas profesionāli rediģētas vārdnīcas ir
+atļautas. Kopienas vārdnīca izmantojama kā papildu salīdzināšanas avots, nevis
+kā vienīgais pamats production labojumam. AI un mašīntulkotāji nav lingvistiski
+avoti.
+
+Strukturētais lauks: `ADDITIONAL_DICTIONARY_*` katrā rindā
+`scripts/lib/data/master-language-authority-sources-33.json`. Kanoniskais
+32 valodu URL saraksts: `scripts/lib/data/master-additional-dictionary-sources-32.json`.
+Primārie ①–③ avoti un `de` avoti netiek aizstāti. App kods `gr` ↔ standarts `el`;
+`nb` un `nn` ir atsevišķas valodas; bosniešu, horvātu un serbu avoti netiek
+sapludināti.
+
 ------------------------------------------------------------------------
 
 # 8. OWNER REVIEW

@@ -1,0 +1,431 @@
+{
+  "bs": {
+    "LANGUAGE_NORM_AUTHORITY": "Institut za jezik Univerziteta u Sarajevu",
+    "LANGUAGE_NORM_URLS": [
+      "https://izj.unsa.ba/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": null,
+    "PRIMARY_DICTIONARY_URLS": [],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "bs"
+  },
+  "en": {
+    "LANGUAGE_NORM_AUTHORITY": "Oxford English Dictionary",
+    "LANGUAGE_NORM_URLS": [
+      "https://www.oed.com/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Oxford Learner's Dictionaries",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://www.oxfordlearnersdictionaries.com/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "en"
+  },
+  "cs": {
+    "LANGUAGE_NORM_AUTHORITY": "Ústav pro jazyk český AV ČR — Internetová jazyková příručka",
+    "LANGUAGE_NORM_URLS": [
+      "https://prirucka.ujc.cas.cz/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Internetová jazyková příručka (lexicon)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://prirucka.ujc.cas.cz/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "cs"
+  },
+  "da": {
+    "LANGUAGE_NORM_AUTHORITY": "Dansk Sprognævn — Retskrivningsordbogen",
+    "LANGUAGE_NORM_URLS": [
+      "https://ro.dsn.dk/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Den Danske Ordbog (Det Danske Sprog- og Litteraturselskab / ordnet.dk)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://ordnet.dk/ddo"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "da"
+  },
+  "et": {
+    "LANGUAGE_NORM_AUTHORITY": "Eesti Keele Instituut — ÕS",
+    "LANGUAGE_NORM_URLS": [
+      "https://sonaveeb.ee/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Eesti Keele Instituut — Sõnaveeb",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://sonaveeb.ee/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "et"
+  },
+  "es": {
+    "LANGUAGE_NORM_AUTHORITY": "Real Academia Española — Ortografía",
+    "LANGUAGE_NORM_URLS": [
+      "https://www.rae.es/ortografia"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Real Academia Española — DLE",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://dle.rae.es/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "es"
+  },
+  "fr": {
+    "LANGUAGE_NORM_AUTHORITY": "Académie française — Dictionnaire de l'Académie française",
+    "LANGUAGE_NORM_URLS": [
+      "https://www.dictionnaire-academie.fr/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Académie française — Dictionnaire de l'Académie française",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://www.dictionnaire-academie.fr/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "fr"
+  },
+  "hr": {
+    "LANGUAGE_NORM_AUTHORITY": "Institut za hrvatski jezik — Hrvatski pravopis",
+    "LANGUAGE_NORM_URLS": [
+      "https://pravopis.hr/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Institut za hrvatski jezik — Školski rječnik / rjecnik.hr",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://rjecnik.hr/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "hr"
+  },
+  "is": {
+    "LANGUAGE_NORM_AUTHORITY": "Stofnun Árna Magnússonar — BÍN",
+    "LANGUAGE_NORM_URLS": [
+      "https://bin.arnastofnun.is/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Málið.is (Árnastofnun language portal)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://malid.is/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "is"
+  },
+  "it": {
+    "LANGUAGE_NORM_AUTHORITY": "Accademia della Crusca",
+    "LANGUAGE_NORM_URLS": [
+      "https://accademiadellacrusca.it/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Accademia della Crusca — Lessicografia (lessicografia.it)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://www.lessicografia.it/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "it"
+  },
+  "lv": {
+    "LANGUAGE_NORM_AUTHORITY": "Latviešu valodas aģentūra",
+    "LANGUAGE_NORM_URLS": [
+      "https://valoda.lv/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "MLVV / Tēzaurs.lv",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://mlvv.tezaurs.lv/",
+      "https://tezaurs.lv/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "lv"
+  },
+  "lb": {
+    "LANGUAGE_NORM_AUTHORITY": "Zenter fir d'Lëtzebuerger Sprooch",
+    "LANGUAGE_NORM_URLS": [
+      "https://zls.lu/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "LOD — Lëtzebuerger Online Dictionnaire",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://lod.lu/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "lb"
+  },
+  "lt": {
+    "LANGUAGE_NORM_AUTHORITY": "Lietuvių kalbos institutas",
+    "LANGUAGE_NORM_URLS": [
+      "https://lki.lt/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Valstybinė lietuvių kalbos komisija (VLKK)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://vlkk.lt/"
+    ],
+    "ADDITIONAL_AUTHORITY": "E. kalba — lietuvių kalbos išteklių informacinė sistema",
+    "ADDITIONAL_AUTHORITY_URLS": [
+      "https://ekalba.lt/"
+    ],
+    "standardCode": "lt"
+  },
+  "hu": {
+    "LANGUAGE_NORM_AUTHORITY": "HUN-REN Nyelvtudományi Kutatóközpont",
+    "LANGUAGE_NORM_URLS": [
+      "https://nytud.hu/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Akadémiai Nagyszótár (nagyszotar.nytud.hu)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://nagyszotar.nytud.hu/"
+    ],
+    "ADDITIONAL_AUTHORITY": "MTA helyesírás (helyesiras.mta.hu)",
+    "ADDITIONAL_AUTHORITY_URLS": [
+      "https://helyesiras.mta.hu/"
+    ],
+    "standardCode": "hu"
+  },
+  "nl": {
+    "LANGUAGE_NORM_AUTHORITY": "Nederlandse Taalunie",
+    "LANGUAGE_NORM_URLS": [
+      "https://taalunie.org/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Woordenlijst Nederlandse Taal",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://woordenlijst.org/"
+    ],
+    "ADDITIONAL_AUTHORITY": "Taaladvies.net (Taalunie)",
+    "ADDITIONAL_AUTHORITY_URLS": [
+      "https://taaladvies.net/"
+    ],
+    "standardCode": "nl"
+  },
+  "nb": {
+    "LANGUAGE_NORM_AUTHORITY": "Språkrådet",
+    "LANGUAGE_NORM_URLS": [
+      "https://sprakradet.no/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Bokmålsordboka (ordbokene.no)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://ordbokene.no/bm"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "nb"
+  },
+  "nn": {
+    "LANGUAGE_NORM_AUTHORITY": "Språkrådet",
+    "LANGUAGE_NORM_URLS": [
+      "https://sprakradet.no/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Nynorskordboka (ordbokene.no)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://ordbokene.no/nn"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "nn"
+  },
+  "pl": {
+    "LANGUAGE_NORM_AUTHORITY": "Rada Języka Polskiego",
+    "LANGUAGE_NORM_URLS": [
+      "https://rjp.pan.pl/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Wielki słownik języka polskiego PAN (wsjp.pl)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://wsjp.pl/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "pl"
+  },
+  "pt": {
+    "LANGUAGE_NORM_AUTHORITY": "Academia das Ciências de Lisboa",
+    "LANGUAGE_NORM_URLS": [
+      "https://www.acad-ciencias.pt/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Dicionário Académico de Lisboa",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://dicionario.acad-ciencias.pt/"
+    ],
+    "ADDITIONAL_AUTHORITY": "Portal da Língua Portuguesa",
+    "ADDITIONAL_AUTHORITY_URLS": [
+      "https://www.portaldalinguaportuguesa.org/"
+    ],
+    "standardCode": "pt"
+  },
+  "ro": {
+    "LANGUAGE_NORM_AUTHORITY": "Academia Română",
+    "LANGUAGE_NORM_URLS": [
+      "https://acad.ro/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "DOOM — Dicționarul ortografic, ortoepic și morfologic",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://doom.lingv.ro/"
+    ],
+    "ADDITIONAL_AUTHORITY": "Institutul de Lingvistică — lingv.ro",
+    "ADDITIONAL_AUTHORITY_URLS": [
+      "https://lingv.ro/"
+    ],
+    "standardCode": "ro"
+  },
+  "sq": {
+    "LANGUAGE_NORM_AUTHORITY": "Akademia e Shkencave e Shqipërisë",
+    "LANGUAGE_NORM_URLS": [
+      "https://akad.gov.al/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": null,
+    "PRIMARY_DICTIONARY_URLS": [],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "sq"
+  },
+  "sk": {
+    "LANGUAGE_NORM_AUTHORITY": "Jazykovedný ústav Ľudovíta Štúra SAV",
+    "LANGUAGE_NORM_URLS": [
+      "https://www.juls.savba.sk/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Slovníkový portál JÚĽŠ",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://slovnik.juls.savba.sk/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "sk"
+  },
+  "sl": {
+    "LANGUAGE_NORM_AUTHORITY": "ZRC SAZU",
+    "LANGUAGE_NORM_URLS": [
+      "https://www.zrc-sazu.si/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "FRAN — Slovenski jezik",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://fran.si/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "sl"
+  },
+  "sr": {
+    "LANGUAGE_NORM_AUTHORITY": "Institut za srpski jezik SANU",
+    "LANGUAGE_NORM_URLS": [
+      "https://www.isj.sanu.ac.rs/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Matica srpska",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://www.maticasrpska.org.rs/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "sr"
+  },
+  "fi": {
+    "LANGUAGE_NORM_AUTHORITY": "Kotimaisten kielten keskus",
+    "LANGUAGE_NORM_URLS": [
+      "https://www.kotus.fi/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Kielitoimiston sanakirja",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://www.kielitoimistonsanakirja.fi/"
+    ],
+    "ADDITIONAL_AUTHORITY": "Ohjepankki (Kotus)",
+    "ADDITIONAL_AUTHORITY_URLS": [
+      "https://www.kotus.fi/ohjepankki/"
+    ],
+    "standardCode": "fi"
+  },
+  "sv": {
+    "LANGUAGE_NORM_AUTHORITY": "Svenska Akademien",
+    "LANGUAGE_NORM_URLS": [
+      "https://www.svenskaakademien.se/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Svenska Akademiens ord böcker (SAOL / SO / SAOB)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://svenska.se/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "sv"
+  },
+  "tr": {
+    "LANGUAGE_NORM_AUTHORITY": "Türk Dil Kurumu — Yazım Kılavuzu",
+    "LANGUAGE_NORM_URLS": [
+      "https://tdk.gov.tr/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "TDK Güncel Türkçe Sözlük",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://sozluk.gov.tr/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "tr"
+  },
+  "gr": {
+    "LANGUAGE_NORM_AUTHORITY": "Κέντρο Ελληνικής Γλώσσας",
+    "LANGUAGE_NORM_URLS": [
+      "https://www.greek-language.gr/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Λεξικό της κοινής νεοελληνικής (Τριανταφυλλίδης)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "el"
+  },
+  "bg": {
+    "LANGUAGE_NORM_AUTHORITY": "Институт за български език, БАН",
+    "LANGUAGE_NORM_URLS": [
+      "https://ibl.bas.bg/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Български речник онлайн (BERON)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://beron.mon.bg/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "bg"
+  },
+  "mk": {
+    "LANGUAGE_NORM_AUTHORITY": "Институт за македонски јазик „Крсте Мисирков“",
+    "LANGUAGE_NORM_URLS": [
+      "https://imj.ukim.edu.mk/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Дигитален речник на македонскиот јазик (drmj.eu)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://drmj.eu/"
+    ],
+    "ADDITIONAL_AUTHORITY": null,
+    "ADDITIONAL_AUTHORITY_URLS": [],
+    "standardCode": "mk"
+  },
+  "ru": {
+    "LANGUAGE_NORM_AUTHORITY": "Институт русского языка им. В. В. Виноградова РАН",
+    "LANGUAGE_NORM_URLS": [
+      "https://ruslang.ru/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Орфографический ресурс АКАДЕМОС (orfo.ruslang.ru)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://orfo.ruslang.ru/"
+    ],
+    "ADDITIONAL_AUTHORITY": "Грамота.ру — справочно-информационный портал (ИРЯ РАН)",
+    "ADDITIONAL_AUTHORITY_URLS": [
+      "https://gramota.ru/"
+    ],
+    "standardCode": "ru"
+  },
+  "uk": {
+    "LANGUAGE_NORM_AUTHORITY": "Інститут української мови НАН України",
+    "LANGUAGE_NORM_URLS": [
+      "https://iul-nasu.org.ua/"
+    ],
+    "PRIMARY_DICTIONARY_AUTHORITY": "Словники України online (УМІФ НАН України)",
+    "PRIMARY_DICTIONARY_URLS": [
+      "https://lcorp.ulif.org.ua/dictua/"
+    ],
+    "ADDITIONAL_AUTHORITY": "Український правопис (МОН)",
+    "ADDITIONAL_AUTHORITY_URLS": [
+      "https://mon.gov.ua/osvita-2/zagalna-serednya-osvita/ukrainskiy-pravopis"
+    ],
+    "standardCode": "uk"
+  }
+}

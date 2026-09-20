@@ -87,6 +87,8 @@
     "verify:g2-a1:official-source-18-language-resolution": "node scripts/verify-g2-a1-official-source-18-language-resolution.js",
     "build:g2-a1:german-target-dictionary-registry": "node scripts/build-g2-a1-german-target-dictionary-registry.js",
     "verify:g2-a1:german-target-dictionary-registry": "node scripts/verify-g2-a1-german-target-dictionary-registry.js",
+    "apply:master-additional-dictionary-32": "node scripts/apply-master-additional-dictionary-32.js",
+    "verify:g2-a1:master-additional-dictionary-32": "node scripts/verify-g2-a1-master-additional-dictionary-32.js",
     "build:g2-a1:manual-languages-source-reprobe": "node scripts/build-g2-a1-manual-languages-source-reprobe.js",
     "build:g2-a1:master-source-proposals-owner-review": "node scripts/build-g2-a1-master-source-proposals-owner-review.js",
     "build:g2-a1:haus-32-language-source-pilot": "node scripts/build-g2-a1-haus-32-language-source-pilot.js",

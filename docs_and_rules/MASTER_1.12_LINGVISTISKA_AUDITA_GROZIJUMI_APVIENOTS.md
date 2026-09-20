@@ -102,8 +102,15 @@ Papildus §3 tabulas saīsinātajam URL laukam, repozitorijā uztur **pilnu trī
 | `LANGUAGE_LEARNING_CEFR_AUTHORITY` | CEFR / mācību līmeņa oficiālais avots (ja piemērojams) |
 | `LANGUAGE_LEARNING_CEFR_URLS` | CEFR URL |
 | `GERMAN_TARGET_BILINGUAL_SOURCES` | Vācu→TARGET profesionāli rediģētas / institucionālas divvalodu vārdnīcas (G2/A1 reģistrs; OWNER apstiprinājums obligāts) |
+| `ADDITIONAL_DICTIONARY_AUTHORITY` | ④ Papildu vārdnīca / leksisks avots (A1 auditam; primārie ①–③ avoti nemainīti) |
+| `ADDITIONAL_DICTIONARY_URLS` | ④ Oficiālais URL (viena papildu vārdnīca katram TARGET `appCode`) |
+| `ADDITIONAL_DICTIONARY_ROLE` | Loma (`SUPPLEMENTARY_LEXICAL_A1` — tulkojuma/nozīmes/lemmas/gramatikas/pareizrakstības pārbaudei) |
 
 **Mašīnlasāms avots (GitHub autoritatīvs):** `scripts/lib/data/master-language-authority-sources-33.json`
+
+**Papildu vārdnīcu manifest (32 TARGET valodas):** `scripts/lib/data/master-additional-dictionary-sources-32.json`
+
+Katrai TARGET valodai reģistrēts arī papildu vārdnīcas vai leksiskais avots. Papildu avotu drīkst izmantot tulkojuma, nozīmes, lemmas, gramatikas vai pareizrakstības pārbaudei. Komerciālas profesionāli rediģētas vārdnīcas ir atļautas. Kopienas vārdnīca izmantojama kā papildu salīdzināšanas avots, nevis kā vienīgais pamats production labojumam. AI un mašīntulkotāji nav lingvistiski avoti.
 
 ## 3.2 IZMANTOJAMO AVOTU PRIORITĀTE (A–F)
 
@@ -120,7 +127,7 @@ Komerciālu vārdnīcu nedrīkst noraidīt tikai tāpēc, ka tā ir komerciāla.
 
 **SOURCE-SUPPORTED kopums:** DE avots (vācu vārds + nozīme) + vācu–TARGET vārdnīca (ekvivalents) + pēc vajadzības TARGET D avots (lemma/ortogrāfija). `PASS` tikai ja kopums sedz konkrēto kartītes nozīmi.
 
-G2/A1 oficiālo avotu adapteri un domēnu allowlist izmanto **visu** šo JSON reģistru (①+②+③+CEFR URL), ne tikai §3 tabulas pirmo URL kolonnu. URL bez izsekošanas parametriem (`utm_*` u.c.).
+G2/A1 oficiālo avotu adapteri un domēnu allowlist izmanto **visu** šo JSON reģistru (①+②+③+④+CEFR+bilingvālo URL), ne tikai §3 tabulas pirmo URL kolonnu. URL bez izsekošanas parametriem (`utm_*` u.c.).
 
 Ja §3.1 JSON ietver oficiālu resursu, kas nav §3 tabulas `urlField` sarakstā, tas ir dokumentēts JSON `registryGapNotes` un §3.1 paplašinājums — nevis neoficiāls avots.
 

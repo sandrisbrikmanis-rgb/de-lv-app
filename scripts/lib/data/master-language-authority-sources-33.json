@@ -54,7 +54,13 @@
           "notes": "orthography_only_not_haus_pilot"
         }
       ],
-      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Pravopis bosanskoga jezika",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.pravopis.ba/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "en",
@@ -72,7 +78,13 @@
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": "Council of Europe CEFR (English)",
       "LANGUAGE_LEARNING_CEFR_URLS": [
         "https://www.coe.int/en/web/common-european-framework-reference-languages"
-      ]
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Cambridge Dictionary",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://dictionary.cambridge.org/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "cs",
@@ -88,7 +100,13 @@
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Akademický slovník současné češtiny",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://slovnikcestiny.cz/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "da",
@@ -105,7 +123,13 @@
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
       "LANGUAGE_LEARNING_CEFR_URLS": [],
-      "registryGapNotes": "§3 table lists ro.dsn.dk only; PRIMARY_DICTIONARY ordnet.dk/ddo added in §3.1 (national standard dictionary, DSN-adjacent official resource)."
+      "registryGapNotes": "§3 table lists ro.dsn.dk only; PRIMARY_DICTIONARY ordnet.dk/ddo added in §3.1 (national standard dictionary, DSN-adjacent official resource).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Ordbog over det danske Sprog",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://ordnet.dk/ods"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "et",
@@ -121,7 +145,13 @@
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Eesti etümoloogiasõnaraamat",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.eki.ee/dict/ety"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "es",
@@ -137,7 +167,13 @@
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Diccionario del estudiante — RAE",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.rae.es/diccionario-estudiante"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "fr",
@@ -174,7 +210,13 @@
           "notes": null
         }
       ],
-      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Larousse français",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.larousse.fr/dictionnaires/francais"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "hr",
@@ -191,7 +233,13 @@
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
       "LANGUAGE_LEARNING_CEFR_URLS": [],
-      "registryGapNotes": "§3 table lists pravopis.hr only; rjecnik.hr added in §3.1 as IHJJ primary school dictionary portal."
+      "registryGapNotes": "§3 table lists pravopis.hr only; rjecnik.hr added in §3.1 as IHJJ primary school dictionary portal.",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Hrvatski jezični portal",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://hjp.znanje.hr/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "is",
@@ -246,7 +294,13 @@
           "notes": "unknown_probe_type"
         }
       ],
-      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "ISLEX",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://islex.arnastofnun.is/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "it",
@@ -283,7 +337,13 @@
           "role": "PRIMARY_BILINGUAL",
           "notes": null
         }
-      ]
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Vocabolario Treccani",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.treccani.it/vocabolario"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "lv",
@@ -300,7 +360,13 @@
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Latviešu literārās valodas vārdnīca",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://llvv.tezaurs.lv/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "lb",
@@ -337,7 +403,13 @@
           "notes": null
         }
       ],
-      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Lëtzebuergesch Wiktionary",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://lb.wiktionary.org/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "lt",
@@ -376,7 +448,13 @@
           "role": "PRIMARY_BILINGUAL",
           "notes": "parse_or_sense_failed"
         }
-      ]
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Lietuvių kalbos žodynas",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.lkz.lt/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "hu",
@@ -415,7 +493,13 @@
           "role": "PRIMARY_BILINGUAL",
           "notes": null
         }
-      ]
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Magyar értelmező kéziszótár — Arcanum",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-magyar-ertelmezo-keziszotar-1BE8B"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "nl",
@@ -454,7 +538,13 @@
           "role": "PRIMARY_BILINGUAL",
           "notes": null
         }
-      ]
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Van Dale",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.vandale.nl/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "nb",
@@ -470,7 +560,13 @@
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Det Norske Akademis ordbok",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://naob.no/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "nn",
@@ -486,7 +582,13 @@
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Norsk Ordbok",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://alfa.norsk-ordbok.no/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "pl",
@@ -523,7 +625,13 @@
           "notes": null
         }
       ],
-      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Słownik języka polskiego PWN",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://sjp.pwn.pl/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "pt",
@@ -562,7 +670,13 @@
           "role": "PRIMARY_BILINGUAL",
           "notes": null
         }
-      ]
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Dicionário Priberam",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://dicionario.priberam.org/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "ro",
@@ -601,7 +715,13 @@
           "notes": null
         }
       ],
-      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "PONS German–Romanian",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://en.pons.com/translate/german-romanian"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "sq",
@@ -615,7 +735,13 @@
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Fjalori i Madh i Gjuhës Shqipe",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.fjalori.online/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "sk",
@@ -631,7 +757,13 @@
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Lingea slovníky",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://slovniky.lingea.sk/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "sl",
@@ -647,7 +779,13 @@
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Termania",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.termania.net/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "sr",
@@ -663,7 +801,13 @@
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Расковник",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://raskovnik.org/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "fi",
@@ -682,7 +826,13 @@
       ],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
       "LANGUAGE_LEARNING_CEFR_URLS": [],
-      "registryGapNotes": "Ohjepankki path added in §3.1 under Kotus official site."
+      "registryGapNotes": "Ohjepankki path added in §3.1 under Kotus official site.",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Suomen etymologinen sanakirja",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://kaino.kotus.fi/ses"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "sv",
@@ -719,7 +869,13 @@
           "notes": null
         }
       ],
-      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Lexin",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://lexin.nada.kth.se/lexin"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "tr",
@@ -735,7 +891,13 @@
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Nişanyan Sözlük",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.nisanyansozluk.com/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "gr",
@@ -751,7 +913,13 @@
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Χρηστικό Λεξικό — Ακαδημία Αθηνών",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://christikolexiko.academyofathens.gr/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "bg",
@@ -788,7 +956,13 @@
           "notes": null
         }
       ],
-      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "PONS German–Bulgarian",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://en.pons.com/translate/german-bulgarian"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "mk",
@@ -805,7 +979,13 @@
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
       "LANGUAGE_LEARNING_CEFR_URLS": [],
-      "registryGapNotes": "drmj.eu added in §3.1 as IMJ official digital dictionary (verify reachability separately)."
+      "registryGapNotes": "drmj.eu added in §3.1 as IMJ official digital dictionary (verify reachability separately).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Официјален дигитален толковен речник",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://makedonski.gov.mk/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "ru",
@@ -824,7 +1004,13 @@
       ],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
       "LANGUAGE_LEARNING_CEFR_URLS": [],
-      "registryGapNotes": "gramota.ru added in §3.1 as IRYa RAN official reference portal."
+      "registryGapNotes": "gramota.ru added in §3.1 as IRYa RAN official reference portal.",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Викисловарь",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://ru.wiktionary.org/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "uk",
@@ -863,7 +1049,13 @@
           "role": "PRIMARY_BILINGUAL",
           "notes": "parse_or_sense_failed"
         }
-      ]
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Словник української мови — СУМ-11",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://sum.in.ua/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority."
     },
     {
       "appCode": "de",
@@ -892,5 +1084,11 @@
     "updatedAt": "2026-09-20T17:21:24.976Z",
     "ownerApprovalRequired": true,
     "classification": "G2_A1_GERMAN_TARGET_DICTIONARY_SOURCES_PARTIALLY_READY"
+  },
+  "additionalDictionaryRegistryMeta": {
+    "integratedAt": "2026-09-20T17:26:10.072Z",
+    "targetLanguageCount": 32,
+    "manifestSchema": "g2-a1-master-additional-dictionary-v1",
+    "classification": "MASTER_ADDITIONAL_DICTIONARY_SOURCES_INTEGRATED_32_OF_32"
   }
 }

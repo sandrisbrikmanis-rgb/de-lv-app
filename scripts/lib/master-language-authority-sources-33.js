@@ -45,6 +45,7 @@ function loadStructuredLanguageAuthoritySources(root = ROOT) {
     LANGUAGE_NORM_URLS: normalizeUrlList(row.LANGUAGE_NORM_URLS),
     PRIMARY_DICTIONARY_URLS: normalizeUrlList(row.PRIMARY_DICTIONARY_URLS),
     ADDITIONAL_AUTHORITY_URLS: normalizeUrlList(row.ADDITIONAL_AUTHORITY_URLS),
+    ADDITIONAL_DICTIONARY_URLS: normalizeUrlList(row.ADDITIONAL_DICTIONARY_URLS),
     LANGUAGE_LEARNING_CEFR_URLS: normalizeUrlList(row.LANGUAGE_LEARNING_CEFR_URLS),
   }));
   return { pass: true, schemaVersion: data.schemaVersion, languages };
@@ -58,6 +59,7 @@ function allUrlsForLanguage(row) {
     ...(row.LANGUAGE_NORM_URLS || []),
     ...(row.PRIMARY_DICTIONARY_URLS || []),
     ...(row.ADDITIONAL_AUTHORITY_URLS || []),
+    ...(row.ADDITIONAL_DICTIONARY_URLS || []),
     ...(row.LANGUAGE_LEARNING_CEFR_URLS || []),
     ...bilingual,
   ];
