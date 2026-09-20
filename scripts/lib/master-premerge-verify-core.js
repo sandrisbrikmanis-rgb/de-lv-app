@@ -82,13 +82,20 @@ function checkMasterVersion(doc) {
 
 function hausPreauthorizedProductionAllowlist() {
   try {
+    const closurePath = path.join(
+      ROOT,
+      "reports/g2-a1-production-current/haus-owner-review/haus-preauthorized-capitalization-production-apply-closure.json",
+    );
     const manifestPath = path.join(
       ROOT,
       "reports/g2-a1-production-current/haus-owner-review/haus-owner-review-manifest.json",
     );
-    if (!fs.existsSync(manifestPath)) return null;
-    const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
-    if (manifest.productionApply !== true) return null;
+    let eligible = fs.existsSync(closurePath);
+    if (!eligible && fs.existsSync(manifestPath)) {
+      const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+      eligible = manifest.productionApply === true;
+    }
+    if (!eligible) return null;
     const { PREAUTHORIZED_CAP_ROWS } = require("./g2-a1-production-current/haus-preauthorized-capitalization");
     const { productionA1Rel, wwwA1Rel } = require("./g2-a1-production-current/paths");
     const allowed = new Set();
