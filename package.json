@@ -68,6 +68,8 @@
     "verify:g2-a1-targeted-field-level-executor": "node scripts/verify-g2-a1-targeted-field-level-executor.js",
     "build:g2-a1:targeted-audit-halt-manifest": "node scripts/build-g2-a1-targeted-audit-halt-manifest.js",
     "test:g2-a1-official-source-access-integration": "node scripts/test-g2-a1-official-source-access-integration.js --integration",
+    "test:g2-a1-all-target-adapters-integration": "node scripts/test-g2-a1-all-target-adapters-integration.js --integration",
+    "run:g2-a1:official-source-v2-multi-pilot": "node scripts/run-g2-a1-official-source-v2-multi-pilot.js --integration",
     "run:g2-a1:targeted-field-level-pilot": "node scripts/run-g2-a1-targeted-field-level-pilot.js",
     "verify:g2-a1-targeted-field-source-access-pilot": "node scripts/verify-g2-a1-targeted-field-source-access-pilot.js",
     "build:g2-a1:official-source-adapter-matrix": "node scripts/build-g2-a1-official-source-adapter-matrix.js",

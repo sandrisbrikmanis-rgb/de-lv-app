@@ -1,0 +1,90 @@
+{
+  "pass": true,
+  "pilotCount": 8,
+  "dualValidatedCount": 6,
+  "dualValidatedRequired": 6,
+  "failures": [],
+  "results": [
+    {
+      "id": "de-bg-ordinary",
+      "description": "DE + BG (blocked target — expect technical, not dual validated)",
+      "deOutcome": "SOURCE_ENTRY_VALIDATED",
+      "targetOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "dualValidated": false,
+      "pass": true,
+      "deEntryUrl": "https://www.dwds.de/wb/lernen",
+      "targetEntryUrl": null
+    },
+    {
+      "id": "de-et-ordinary",
+      "description": "DE + ET",
+      "deOutcome": "SOURCE_ENTRY_VALIDATED",
+      "targetOutcome": "SOURCE_ENTRY_VALIDATED",
+      "dualValidated": true,
+      "pass": true,
+      "deEntryUrl": "https://www.dwds.de/wb/lernen",
+      "targetEntryUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%B5ppima/1/eng"
+    },
+    {
+      "id": "de-gr-ordinary",
+      "description": "DE + GR/EL",
+      "deOutcome": "SOURCE_ENTRY_VALIDATED",
+      "targetOutcome": "SOURCE_ENTRY_VALIDATED",
+      "dualValidated": true,
+      "pass": true,
+      "deEntryUrl": "https://www.dwds.de/wb/lernen",
+      "targetEntryUrl": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%83%CF%80%CE%AF%CF%84%CE%B9"
+    },
+    {
+      "id": "de-en-latin",
+      "description": "DE + EN (Latin script target)",
+      "deOutcome": "SOURCE_ENTRY_VALIDATED",
+      "targetOutcome": "SOURCE_ENTRY_VALIDATED",
+      "dualValidated": true,
+      "pass": true,
+      "deEntryUrl": "https://www.dwds.de/wb/lernen",
+      "targetEntryUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/learn"
+    },
+    {
+      "id": "de-ru-cyrillic",
+      "description": "DE + RU (Cyrillic target)",
+      "deOutcome": "SOURCE_ENTRY_VALIDATED",
+      "targetOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "dualValidated": false,
+      "pass": true,
+      "deEntryUrl": "https://www.dwds.de/wb/lernen",
+      "targetEntryUrl": null
+    },
+    {
+      "id": "de-cs-inflection",
+      "description": "DE + CS (inflected target lookup)",
+      "deOutcome": "SOURCE_ENTRY_VALIDATED",
+      "targetOutcome": "SOURCE_ENTRY_VALIDATED",
+      "dualValidated": true,
+      "pass": true,
+      "deEntryUrl": "https://www.dwds.de/wb/lernen",
+      "targetEntryUrl": "https://prirucka.ujc.cas.cz/?id=901"
+    },
+    {
+      "id": "de-et-study",
+      "description": "DE + ET study field",
+      "deOutcome": "SOURCE_ENTRY_VALIDATED",
+      "targetOutcome": "SOURCE_ENTRY_VALIDATED",
+      "dualValidated": true,
+      "pass": true,
+      "deEntryUrl": "https://www.dwds.de/wb/lernen",
+      "targetEntryUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%B5ppima/1/eng"
+    },
+    {
+      "id": "de-en-sentence",
+      "description": "DE + EN full example sentence (lexical aspect only)",
+      "deOutcome": "SOURCE_ENTRY_VALIDATED",
+      "targetOutcome": "SOURCE_ENTRY_VALIDATED",
+      "dualValidated": true,
+      "pass": true,
+      "deEntryUrl": "https://www.dwds.de/wb/lernen",
+      "targetEntryUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/learn"
+    }
+  ],
+  "classification": "G2_A1_OFFICIAL_SOURCE_V2_MULTI_PILOT_PASS"
+}

@@ -33,6 +33,9 @@ function normalizeTargetLookup(fieldRequest) {
   if (path.includes(".study") && original.length > 80) {
     lookupTerm = firstToken(original);
     reason = "Study field sentence — first token only for dictionary lookup (full CURRENT retained)";
+  } else if (path.includes(".example") && /\s/.test(original)) {
+    lookupTerm = firstToken(original);
+    reason = "Example sentence field — first lexical token for entry lookup (full CURRENT retained for context)";
   } else if (/\s/.test(original) && original.length > 40) {
     lookupTerm = firstToken(original);
     reason = "Long multi-word CURRENT — first token for entry lookup";
