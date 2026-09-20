@@ -316,6 +316,7 @@ module.exports = {
   DEFAULT_MODEL_ID: DEFAULT_MODEL,
   assertApiKeyConfigured,
   isApiKeyConfigured,
+  getOpenAIClient,
   parsePhase1LunaResponseStrict,
   parsePhase1LunaResponsePartial,
   auditObjectsBatch,
