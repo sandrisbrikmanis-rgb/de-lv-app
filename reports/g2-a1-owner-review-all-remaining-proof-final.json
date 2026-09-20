@@ -1,0 +1,146 @@
+{
+  "classification": "G2_A1_OWNER_REVIEW_COMPLETED_WITH_OWNER_ESCALATIONS",
+  "sourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
+  "repairedBatchInputHash": "0d3b8fbb1aeed3a694c2301194d950a1034b91f2f376aca7a6a9b6f46588c1bb",
+  "totalRows": 22650,
+  "stableIdCount": 22650,
+  "batchCount": 232,
+  "missingBatches": [],
+  "extraBatches": [],
+  "secondPassExpected": 13512,
+  "secondPassCovered": 13512,
+  "secondPassMissing": 0,
+  "ownerStatusDistribution": {
+    "DECIDED": 14913,
+    "PENDING": 7737
+  },
+  "ownerDecisionDistribution": {
+    "(blank)": 7737,
+    "LABOT": 1476,
+    "NELABOT": 13437
+  },
+  "ownerNewPopulated": 1476,
+  "ownerNotesPopulated": 22650,
+  "ownerFieldGates": {
+    "labotWithoutOwnerNew": 0,
+    "labotSameAsProduction": 0,
+    "nelabotWithOwnerNew": 0,
+    "pendingWithDecisionOrNew": 0,
+    "pendingWithoutMarker": 0
+  },
+  "canonicalBucketDistribution": {
+    "CONTENT_CORRUPTION_OR_UNRELATED": 45,
+    "DUPLICATION": 5,
+    "FORMAT_PLACEHOLDER_OR_ENCODING": 4,
+    "GRAMMAR_MORPHOLOGY_OR_FORM": 163,
+    "MISSING_OR_UNTRANSLATED": 467,
+    "MULTI_TRANSLATION_REVIEW_REQUIRED": 3985,
+    "ORTHOGRAPHY_SPELLING_OR_DIACRITICS": 322,
+    "OTHER_REVIEW_REQUIRED": 14,
+    "SEMANTIC_OR_MEANING_ERROR": 2791,
+    "SOURCE_LV_REVIEW_REQUIRED": 4953,
+    "STYLE_FLUENCY_OR_REGISTER": 35,
+    "WRONG_OR_MIXED_TARGET_LANGUAGE": 9866
+  },
+  "mappingResolutionDistribution": {
+    "COMPOSITE_SCOPE_CAPTURED": 2589,
+    "CONFIRMED_FIELD_ABSENT": 657,
+    "EXACT_FIELD": 4198,
+    "EXPLICIT_FIELD_ALIAS": 15206
+  },
+  "postCrowdinStateDistribution": {
+    "CHANGED_SINCE_DISCOVERY": 15460,
+    "COMPOSITE_SCOPE_CAPTURED": 2589,
+    "CONFIRMED_FIELD_ABSENT": 657,
+    "UNCHANGED_SINCE_DISCOVERY": 3944
+  },
+  "languageDistribution": {
+    "bg": 666,
+    "bs": 511,
+    "cs": 836,
+    "da": 822,
+    "en": 600,
+    "es": 735,
+    "et": 723,
+    "fi": 820,
+    "fr": 708,
+    "gr": 828,
+    "hr": 834,
+    "hu": 752,
+    "is": 814,
+    "it": 670,
+    "lb": 777,
+    "lt": 541,
+    "mk": 731,
+    "nb": 811,
+    "nl": 344,
+    "nn": 817,
+    "pl": 805,
+    "pt": 709,
+    "ro": 782,
+    "ru": 702,
+    "sk": 819,
+    "sl": 754,
+    "sq": 739,
+    "sr": 835,
+    "sv": 819,
+    "tr": 787,
+    "uk": 559
+  },
+  "unresolvedOwnerReviewRequired": 7737,
+  "automaticOwnerDecisions": 0,
+  "productionDiff": 0,
+  "lvDiff": 0,
+  "deDiff": 0,
+  "crowdinDiff": 0,
+  "newRealLunaCalls": 0,
+  "secondPassInputs": {
+    "pending-review-lang-a.csv": {
+      "rows": 1047,
+      "sha256": "1bcc3ec9cc3ece51fb8166a3eea2b2372c5d431d978c21673bb6022d1b4b7789"
+    },
+    "pending-review-lang-b.csv": {
+      "rows": 1538,
+      "sha256": "2f96b5f74f4d8851153c54a56de245fc5faf2c6bace656e352ec622c969851f5"
+    },
+    "pending-review-lang-c.csv": {
+      "rows": 2856,
+      "sha256": "917e9daa80aa75433caf1a0d42a0710c29cf69ba805b6e5edb9c5c6295440936"
+    },
+    "pending-review-lang-d.csv": {
+      "rows": 2477,
+      "sha256": "233e7a2d557014620fce075d0cd2dbfa018517be3ac03d55276758afa25b966d"
+    },
+    "pending-review-lang-e.csv": {
+      "rows": 2311,
+      "sha256": "71f1c990cf35e0b8e8f102843255075dc100b43361fdac992d29e4807b2ac110"
+    },
+    "pending-review-lang-f.csv": {
+      "rows": 3283,
+      "sha256": "5baea0f8384dcdd7bed3fdc4e775aea9e48beafcb782b2ae325b396eb97f1bc7"
+    }
+  },
+  "consolidatedSha256": "37fbe192699bfe2bc5738eaaf3622481ac2ed1335f995032666d2ba8033c25d0",
+  "pendingSha256": "750299e3602769e59a0951f7adbbecdbb4968c09638afbd91025385f4b533414",
+  "delivery": {
+    "transport": "PLAIN_CSV_PARTS_NO_ARCHIVE",
+    "decisions": {
+      "sourceFile": "g2-a1-owner-review-all-remaining-decisions-final.csv",
+      "rows": 22650,
+      "sha256": "37fbe192699bfe2bc5738eaaf3622481ac2ed1335f995032666d2ba8033c25d0",
+      "partCount": 6,
+      "manifest": "g2-a1-owner-review-decisions-parts-manifest.json",
+      "manifestSha256": "c794e4b39d8914aecda8a670db62de205f2fede79f56c5de48b5be7b4ca3e3eb"
+    },
+    "needsOwner": {
+      "sourceFile": "g2-a1-owner-review-needs-owner-final.csv",
+      "rows": 7737,
+      "sha256": "750299e3602769e59a0951f7adbbecdbb4968c09638afbd91025385f4b533414",
+      "partCount": 3,
+      "manifest": "g2-a1-owner-review-needs-owner-parts-manifest.json",
+      "manifestSha256": "1c80377c5eae918c4d38f40add2ba21040b8430b33d92e09edd03a2a07f7d433"
+    },
+    "reconstructionVerifiedByteForByte": true
+  },
+  "errors": []
+}
