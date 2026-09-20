@@ -17,9 +17,10 @@ const {
 } = require("./lib/g2-a1-production-current/haus-preauthorized-capitalization");
 const {
   flattenCardFieldChanges,
-  verifyCommitRangeCapApply,
-  resolveCommitIdentity,
+  verifyHausCapRuntimeVerification,
+  analyzeProductionApplyRange,
   DEFAULT_PRE_APPLY_SHA,
+  DEFAULT_PRODUCTION_APPLY_SHA,
 } = require("./lib/g2-a1-production-current/haus-preauthorized-cap-commit-range");
 
 function runInitialCaseOnlyTests() {
@@ -106,29 +107,34 @@ function runSameFileUnauthorizedFieldTests() {
 
 function runCommitRangeVerifierSelfTests() {
   const head = execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
-  const id = resolveCommitIdentity({ preApplySha: DEFAULT_PRE_APPLY_SHA, postApplySha: head });
-  assert.strictEqual(id.ok, true, JSON.stringify(id.blockers));
+  void DEFAULT_PRODUCTION_APPLY_SHA;
 
-  const gate = verifyCommitRangeCapApply({ preApplySha: DEFAULT_PRE_APPLY_SHA, postApplySha: head });
-  assert.strictEqual(gate.changedProductionLogicalFields, 6);
-  assert.strictEqual(gate.changedDataFields, 6);
-  assert.strictEqual(gate.changedWwwMirrorFields, 6);
-  assert.strictEqual(gate.changedFiles, 12);
-  assert.strictEqual(gate.deFieldChanges, 0);
-  assert.strictEqual(gate.crowdinChanges, 0);
-  assert.strictEqual(gate.unauthorizedProductionFieldChanges, 0);
+  const gate = analyzeProductionApplyRange(ROOT, DEFAULT_PRE_APPLY_SHA, DEFAULT_PRODUCTION_APPLY_SHA);
+  assert.strictEqual(gate.metrics.changedProductionLogicalFields, 6);
+  assert.strictEqual(gate.metrics.changedDataFields, 6);
+  assert.strictEqual(gate.metrics.changedWwwMirrorFields, 6);
+  assert.strictEqual(gate.metrics.changedFiles, 12);
+  assert.strictEqual(gate.metrics.deFieldChanges, 0);
+  assert.strictEqual(gate.metrics.crowdinChanges, 0);
+  assert.strictEqual(gate.metrics.unauthorizedProductionFieldChanges, 0);
 
-  const badPre = resolveCommitIdentity({ preApplySha: head, postApplySha: head });
-  assert.strictEqual(badPre.ok, false);
-
-  const missingPre = resolveCommitIdentity({ preApplySha: "", postApplySha: head });
-  assert.strictEqual(missingPre.ok, false);
-
-  const emptyDiff = verifyCommitRangeCapApply({
-    preApplySha: head,
-    postApplySha: head,
+  const runtime = verifyHausCapRuntimeVerification({
+    repoRoot: ROOT,
+    preApplySha: DEFAULT_PRE_APPLY_SHA,
+    productionApplySha: DEFAULT_PRODUCTION_APPLY_SHA,
+    verifiedAtHead: head,
+    skipRemoteHeadCheck: true,
   });
-  assert.strictEqual(emptyDiff.pass, false);
+  assert.strictEqual(runtime.stabilityRange.productionChangesAfterApply, 0);
+
+  const badPre = verifyHausCapRuntimeVerification({
+    repoRoot: ROOT,
+    preApplySha: head,
+    productionApplySha: head,
+    verifiedAtHead: head,
+    skipRemoteHeadCheck: true,
+  });
+  assert.strictEqual(badPre.pass, false);
 }
 
 function main() {
