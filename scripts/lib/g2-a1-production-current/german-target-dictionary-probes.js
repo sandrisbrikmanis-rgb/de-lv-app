@@ -49,7 +49,9 @@ async function acceptPonsConsent(page) {
   }
 }
 
-async function probePons(entryUrl, expectedTargetLemma, appLang) {
+async function probePons(entryUrl, expectedTargetLemma, appLang, options = {}) {
+  const deLemma = options.deLemma || DE_LEMMA;
+  const pilotId = options.pilotId || "haus";
   return withDomainBrowserSession("en.pons.com", async (page) => {
     await page.goto(entryUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
     await acceptPonsConsent(page);
@@ -67,13 +69,21 @@ async function probePons(entryUrl, expectedTargetLemma, appLang) {
     }
     const lemmaRe = lemmaBoundaryRe(expectedTargetLemma);
     const hasTarget = lemmaRe.test(text) || new RegExp(escapeRe(expectedTargetLemma), "iu").test(text);
-    const hasDe = /\bHaus\b/i.test(text);
+    const deRe = lemmaBoundaryRe(deLemma);
+    const hasDe = deRe.test(text) || new RegExp(`\\b${escapeRe(deLemma)}\\b`, "iu").test(text);
     const esc = escapeRe(expectedTargetLemma);
-    const senseOk =
-      hasTarget &&
-      (rejectWrongDeSense(text) ||
-        new RegExp(`Haus[\\s\\S]{0,200}${esc}`, "iu").test(text) ||
-        new RegExp(`${esc}[\\s\\S]{0,80}Haus`, "iu").test(text));
+    let senseOk = hasTarget && hasDe;
+    if (pilotId === "haus") {
+      senseOk =
+        hasTarget &&
+        (rejectWrongDeSense(text) ||
+          new RegExp(`${escapeRe(deLemma)}[\\s\\S]{0,200}${esc}`, "iu").test(text) ||
+          new RegExp(`${esc}[\\s\\S]{0,80}${escapeRe(deLemma)}`, "iu").test(text));
+    } else if (hasTarget && hasDe) {
+      senseOk =
+        new RegExp(`${escapeRe(deLemma)}[\\s\\S]{0,240}${esc}`, "iu").test(text) ||
+        new RegExp(`${esc}[\\s\\S]{0,120}${escapeRe(deLemma)}`, "iu").test(text);
+    }
     if (!hasDe || !hasTarget || !senseOk) {
       return {
         pass: false,
@@ -87,7 +97,7 @@ async function probePons(entryUrl, expectedTargetLemma, appLang) {
     }
     const idx = text.search(lemmaRe) >= 0 ? text.search(lemmaRe) : text.search(new RegExp(escapeRe(expectedTargetLemma), "iu"));
     const fragment = text.slice(Math.max(0, idx - 40), idx + 900).trim();
-    const negUrl = entryUrl.replace(/\/Haus\b/i, `/${NEGATIVE_TERM}`);
+    const negUrl = entryUrl.replace(new RegExp(`/${escapeRe(deLemma)}\\b`, "i"), `/${NEGATIVE_TERM}`);
     await page.goto(negUrl, { waitUntil: "domcontentloaded", timeout: 60000 });
     await page.waitForTimeout(4000);
     const negText = await page.evaluate(() => document.body?.innerText || "");
@@ -111,7 +121,7 @@ async function probePons(entryUrl, expectedTargetLemma, appLang) {
   });
 }
 
-async function probeDictCc(entryUrl, expectedTargetLemma) {
+async function probeDictCc(entryUrl, expectedTargetLemma, deLemma = DE_LEMMA) {
   const host = new URL(entryUrl).hostname;
   return withDomainBrowserSession(host, async (page) => {
     await page.goto(entryUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
@@ -121,7 +131,9 @@ async function probeDictCc(entryUrl, expectedTargetLemma) {
     const hasPair =
       html.includes(expectedTargetLemma) ||
       html.includes(expectedTargetLemma.charAt(0).toUpperCase() + expectedTargetLemma.slice(1));
-    const hasDe = /\bHaus\b/i.test(text + html);
+    const hasDe =
+      lemmaBoundaryRe(deLemma).test(text + html) ||
+      new RegExp(`\\b${escapeRe(deLemma)}\\b`, "iu").test(text + html);
     if (!hasDe || !hasPair) {
       return {
         pass: false,
@@ -237,4 +249,5 @@ module.exports = {
   probePons,
   probeDictCc,
   probeLod,
+  acceptPonsConsent,
 };
