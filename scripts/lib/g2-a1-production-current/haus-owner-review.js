@@ -24,6 +24,13 @@ const {
   emptyOwnerFields,
   ownerFieldsAreEmpty,
 } = require("./haus-owner-audit-separation");
+const {
+  PREAUTHORIZED_CAP_ROWS,
+  LEXICAL_FINDING_LANGS,
+  evaluatePreauthorizedRow,
+  buildPreauthorizedOwnerFields,
+  OWNER_PREAUTHORIZED_CLASS,
+} = require("./haus-preauthorized-capitalization");
 
 const PILOT_DIR = path.join(ROOT, "reports/g2-a1-production-current/haus-32-language-source-pilot");
 const OUT_DIR = path.join(ROOT, "reports/g2-a1-production-current/haus-owner-review");
@@ -154,7 +161,7 @@ function buildFindingEvidenceRow(row, deEvidence) {
     auditProposedNew: auditRow.AUDIT_PROPOSED_NEW,
   });
   const targetEntryUrl = urlOk.ok ? urlOk.url : auditRow.AUDIT_EVIDENCE_URL;
-  return {
+  const evidenceBase = {
     language: row.language,
     appCode: row.appCode,
     productionFile: row.productionFile,
@@ -191,6 +198,7 @@ function buildFindingEvidenceRow(row, deEvidence) {
     rationale: findingRationale(row, deEvidence),
     ...emptyOwnerFields(),
   };
+  return mergePreauthorizedOwnerDecision(evidenceBase, row);
 }
 
 function nsrMissingEvidence(row) {
@@ -281,6 +289,20 @@ function buildNsrRow(row, structured) {
   };
 }
 
+function mergePreauthorizedOwnerDecision(auditRow, pilotRow) {
+  const spec = PREAUTHORIZED_CAP_ROWS.find((s) => s.language === auditRow.language);
+  if (!spec || LEXICAL_FINDING_LANGS.includes(auditRow.language)) {
+    return auditRow;
+  }
+  const evaluated = evaluatePreauthorizedRow(spec);
+  evaluated.auditCheckedAt = auditRow.AUDIT_CHECKED_AT || pilotRow?.checkedAt;
+  const owner = buildPreauthorizedOwnerFields(spec, evaluated);
+  if (!evaluated.eligible) {
+    return auditRow;
+  }
+  return { ...auditRow, ...owner };
+}
+
 function buildOwnerDecisionRow(row, deEvidence) {
   const audit = buildAuditDecisionRow(row, deEvidence);
   if (audit.error) return audit;
@@ -288,10 +310,11 @@ function buildOwnerDecisionRow(row, deEvidence) {
     language: row.language,
     auditProposedNew: audit.AUDIT_PROPOSED_NEW,
   });
-  return {
+  const merged = {
     ...audit,
     AUDIT_EVIDENCE_URL: urlOk.ok ? urlOk.url : audit.AUDIT_EVIDENCE_URL,
   };
+  return mergePreauthorizedOwnerDecision(merged, row);
 }
 
 function buildPassEvidenceRow(row, deEvidence) {
@@ -354,7 +377,7 @@ function buildOwnerViewMarkdown({ counts, findings, nsrRows, passRows, deEvidenc
   const lines = [
     "# das Haus — OWNER review package (32-language pilot)",
     "",
-    "**OWNER has not decided yet.** Audit FINDING ≠ OWNER LABOT.",
+    "**6 capitalization FINDING rows:** class-level `OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY` (not individual OWNER review). **4 lexical FINDING rows:** OWNER fields empty pending individual decision.",
     "",
     "## Counts",
     "",
@@ -371,7 +394,7 @@ function buildOwnerViewMarkdown({ counts, findings, nsrRows, passRows, deEvidenc
     `- SHA-256: \`${deEvidence.deContentSha256}\``,
     `- Sense: ${deEvidence.senseNote}`,
     "",
-    `## ${counts.FINDING || 10} FINDING — audit evidence (OWNER fields empty)`,
+    `## ${counts.FINDING || 10} FINDING — audit evidence`,
     "",
   ];
 
@@ -478,15 +501,35 @@ function buildHausOwnerReviewPackage() {
   const ownerDecisions = findingRows.map((r) => buildOwnerDecisionRow(r, deEvidence));
 
   for (const d of ownerDecisions) {
-    if (!ownerFieldsAreEmpty(d)) {
-      blockers.push({ code: "OWNER_FIELDS_MUST_BE_EMPTY_AT_BUILD", language: d.language });
+    if (LEXICAL_FINDING_LANGS.includes(d.language) && !ownerFieldsAreEmpty(d)) {
+      blockers.push({ code: "LEXICAL_OWNER_FIELDS_MUST_BE_EMPTY", language: d.language });
+    }
+    const spec = PREAUTHORIZED_CAP_ROWS.find((s) => s.language === d.language);
+    if (spec) {
+      const evaluated = evaluatePreauthorizedRow(spec);
+      if (!evaluated.eligible) {
+        blockers.push({ code: "PREAUTH_ROW_INELIGIBLE", language: d.language, blockers: evaluated.blockers });
+      }
+      if (d.OWNER_AUTHORIZATION_CLASS !== OWNER_PREAUTHORIZED_CLASS) {
+        blockers.push({ code: "PREAUTH_CLASS_MISSING", language: d.language });
+      }
     }
   }
   if (blockers.length) {
     return { pass: false, code: blockers[0].code, blockers };
   }
 
-  const ownerDecisionFinal = { LABOT: 0, NELABOT: 0, PENDING: 0, NEEDS_SOURCE_REVIEW: 0, SOURCE_DE_ISSUE: 0, empty: 10 };
+  const preauthLabot = ownerDecisions.filter((d) => d.OWNER_AUTHORIZATION_CLASS === OWNER_PREAUTHORIZED_CLASS).length;
+  const ownerDecisionFinal = {
+    LABOT: preauthLabot,
+    NELABOT: 0,
+    PENDING: LEXICAL_FINDING_LANGS.length,
+    NEEDS_SOURCE_REVIEW: 0,
+    SOURCE_DE_ISSUE: 0,
+    empty: LEXICAL_FINDING_LANGS.length,
+    OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: preauthLabot,
+    OWNER_INDIVIDUAL_DECISION_REQUIRED: LEXICAL_FINDING_LANGS.length,
+  };
 
   const manifest = {
     generatedAt: new Date().toISOString(),
@@ -494,7 +537,13 @@ function buildHausOwnerReviewPackage() {
     originalPackageBaseline: ORIGINAL_PACKAGE_BASELINE,
     auditCounts: counts,
     ownerDecisionFinal,
-    ownerDecisionsFilled: false,
+    ownerDecisionsFilled: preauthLabot > 0,
+    ownerPreauthorization: {
+      class: OWNER_PREAUTHORIZED_CLASS,
+      capitalizationRows: preauthLabot,
+      lexicalRowsPendingIndividualOwner: LEXICAL_FINDING_LANGS.length,
+      nsrRemaining: nsrRows.length,
+    },
     invalidatedPriorRuns: ["INVALIDATED_UNAUTHORIZED_OWNER_FIELD_POPULATION"],
     priorRunNote:
       "Commit 81a4d7f1 auto-filled OWNER_STATUS/LABOT — void; OWNER fields must be filled only by OWNER.",
@@ -508,8 +557,8 @@ function buildHausOwnerReviewPackage() {
     full95731FieldAuditRun: false,
     FULL_LINGUISTIC_AUDITS_EXECUTED: 0,
     productionApply: false,
-    classification: "G2_A1_HAUS_AUDIT_EVIDENCE_READY_FOR_OWNER_DECISION",
-    nextAction: "OWNER_REVIEW_10_HAUS_FINDINGS",
+    classification: "G2_A1_HAUS_PREAUTHORIZED_CAPITALIZATION_OWNER_PACKAGE",
+    nextAction: "APPLY_PREAUTHORIZED_CAPITALIZATION_THEN_OWNER_REVIEW_4_LEXICAL_AND_18_NSR",
     languageOrder: order,
   };
 
@@ -556,7 +605,7 @@ function writeHausOwnerReviewArtifacts(result) {
   });
   writeJson("haus-owner-decisions.json", {
     generatedAt: new Date().toISOString(),
-    note: "AUDIT_* = executor evidence only. OWNER_* must be filled by OWNER (not AI).",
+    note: "AUDIT_* = executor evidence. OWNER_* on 6 cap rows = class-level OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY; lexical 4 remain empty for individual OWNER.",
     rows: result.ownerDecisions,
   });
   writeJson("haus-owner-review-manifest.json", result.manifest);
@@ -637,6 +686,8 @@ function writeHausOwnerReviewArtifacts(result) {
     "AUDIT_EVIDENCE_SHA256",
     "AUDIT_EVIDENCE_STATUS",
     "AUDIT_CHECKED_AT",
+    "OWNER_AUTHORIZATION_CLASS",
+    "APPLY_STATUS",
     "OWNER_STATUS",
     "OWNER_NEW",
     "OWNER_NOTE",
@@ -657,6 +708,8 @@ function writeHausOwnerReviewArtifacts(result) {
       r.AUDIT_EVIDENCE_SHA256,
       r.AUDIT_EVIDENCE_STATUS,
       r.AUDIT_CHECKED_AT,
+      r.OWNER_AUTHORIZATION_CLASS,
+      r.APPLY_STATUS,
       r.OWNER_STATUS,
       r.OWNER_NEW,
       r.OWNER_NOTE,
@@ -681,7 +734,7 @@ function writeHausOwnerReviewArtifacts(result) {
       "Build: `npm run build:g2-a1:haus-owner-review`",
       "Verify: `npm run verify:g2-a1:haus-owner-review`",
       "",
-      "AUDIT_* fields are prepared by the audit executor. OWNER_* remain empty until OWNER review.",
+      "AUDIT_* from pilot. Six cap rows carry OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY; sk/nb/nn/fi OWNER_* empty.",
     ].join("\n"),
   );
 

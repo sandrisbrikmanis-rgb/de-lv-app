@@ -5424,6 +5424,19 @@ GR `σπίτι`, TR `ev` — nevis mehāniski pārnests DE lielais burts (`House
 `Dům`, `Къща`, `Σπίτι`, `Ev`). Piemērs neuzliek automātisku production labojumu
 bez individuāla avotu atbalstīta audita.
 
+**OWNER iepriekš autorizēta kapitalizācija (šauri, deterministiski):** OWNER
+iepriekš autorizē automātisku TARGET vārdnīcas pamatformas sākumburta labošanu
+no lielā uz mazo tikai tad, ja MASTER norādītais oficiālais TARGET valodas
+avots validē identisku lemmu ar mazo sākumburtu un `CURRENT`/`NEW` atšķiras
+tikai ar pirmā burta reģistru (Unicode NFC; nav transliterācijas, diakritikas,
+skripta, vārdšķiras, nozīmes vai DE izmaiņas). Šāda korekcija ir deterministiska
+ortogrāfiska normalizācija, nevis jauna tulkojuma izvēle. Jebkura leksiska,
+semantiska, gramatiskā, diakritiska, skripta vai vairāk nekā sākumburta izmaiņa
+prasa atsevišķu OWNER lēmumu. Klases atzīme:
+`OWNER_AUTHORIZATION_CLASS=OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY` ar
+reproducējamu oficiāla avota evidence — nav aizstājējs individuālai OWNER
+pārbaudei leksiskiem `FINDING` vai `NEEDS_SOURCE_REVIEW`.
+
 **Unikālās lingvistiskās vienības:** evidence drīkst atkārtoti izmantot tikai
 identiskai DE nozīmei/kontekstam; aizliegts akli kopēt lemma/verdict starp
 nozīmēm, locījumiem, laukiem, kartītēm vai valodām.

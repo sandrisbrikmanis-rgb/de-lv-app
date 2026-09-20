@@ -1,6 +1,6 @@
 # das Haus — OWNER review package (32-language pilot)
 
-**OWNER has not decided yet.** Audit FINDING ≠ OWNER LABOT.
+**6 capitalization FINDING rows:** class-level `OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY` (not individual OWNER review). **4 lexical FINDING rows:** OWNER fields empty pending individual decision.
 
 ## Counts
 
@@ -17,7 +17,7 @@
 - SHA-256: `21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2`
 - Sense: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise
 
-## 10 FINDING — audit evidence (OWNER fields empty)
+## 10 FINDING — audit evidence
 
 ### EN — CAPITALIZATION_ERROR
 
@@ -56,11 +56,13 @@
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 3e10d87dbbdd074b0f72734210d7ca6afa4322ab90013b7ae1cfc717dc51a276 |
 | AUDIT_CHECKED_AT | 2026-09-20T12:21:17.575Z |
-| OWNER_STATUS |  |
-| OWNER_NEW |  |
-| OWNER_NOTE |  |
-| OWNER_EVIDENCE_ACCEPTED |  |
-| OWNER_REVIEWED_AT |  |
+| OWNER_AUTHORIZATION_CLASS | OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY |
+| APPLY_STATUS | LABOT |
+| OWNER_STATUS | LABOT |
+| OWNER_NEW | house |
+| OWNER_NOTE | OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change. |
+| OWNER_EVIDENCE_ACCEPTED | YES |
+| OWNER_REVIEWED_AT | 2026-09-20T12:21:17.575Z |
 
 **Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «house» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «House» matches TARGET meaning; only capitalization differs from normative lemma «house». PROPOSED_NEW «house» equals TARGET normative lemma. Authority: Oxford Learner's Dictionaries; entry: https://www.oxfordlearnersdictionaries.com/definition/english/house_1.
 
@@ -126,11 +128,13 @@ u	kulde	[ˈk |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | f74c65de9e204eaf48cc732610c7e4e66599b6079b91d78cebcf0dde43d62a78 |
 | AUDIT_CHECKED_AT | 2026-09-20T12:21:18.444Z |
-| OWNER_STATUS |  |
-| OWNER_NEW |  |
-| OWNER_NOTE |  |
-| OWNER_EVIDENCE_ACCEPTED |  |
-| OWNER_REVIEWED_AT |  |
+| OWNER_AUTHORIZATION_CLASS | OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY |
+| APPLY_STATUS | LABOT |
+| OWNER_STATUS | LABOT |
+| OWNER_NEW | hus |
+| OWNER_NOTE | OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change. |
+| OWNER_EVIDENCE_ACCEPTED | YES |
+| OWNER_REVIEWED_AT | 2026-09-20T12:21:18.444Z |
 
 **Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «hus» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Hus» matches TARGET meaning; only capitalization differs from normative lemma «hus». PROPOSED_NEW «hus» equals TARGET normative lemma. Authority: Den Danske Ordbog (Det Danske Sprog- og Litteraturselskab / ordnet.dk); entry: https://ordnet.dk/ddo/ordbog/Hus.
 
@@ -171,11 +175,13 @@ u	kulde	[ˈk |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | bc4fa8a3a9b62fca9b815702721f6a96bcd5f0df90db4dbe9483eba707ee0f8b |
 | AUDIT_CHECKED_AT | 2026-09-20T12:27:31.589Z |
-| OWNER_STATUS |  |
-| OWNER_NEW |  |
-| OWNER_NOTE |  |
-| OWNER_EVIDENCE_ACCEPTED |  |
-| OWNER_REVIEWED_AT |  |
+| OWNER_AUTHORIZATION_CLASS | OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY |
+| APPLY_STATUS | LABOT |
+| OWNER_STATUS | LABOT |
+| OWNER_NEW | ev |
+| OWNER_NOTE | OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change. |
+| OWNER_EVIDENCE_ACCEPTED | YES |
+| OWNER_REVIEWED_AT | 2026-09-20T12:27:31.589Z |
 
 **Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «ev» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Ev» matches TARGET meaning; only capitalization differs from normative lemma «ev». PROPOSED_NEW «ev» equals TARGET normative lemma. Authority: TDK Güncel Türkçe Sözlük; entry: https://sozluk.gov.tr/gts?ara=Ev.
 
@@ -216,11 +222,13 @@ u	kulde	[ˈk |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 87b558e93c6af1a49a905edd5eb6272b74be886c5c1a0d84250df88b2630c4f4 |
 | AUDIT_CHECKED_AT | 2026-09-20T12:27:31.882Z |
-| OWNER_STATUS |  |
-| OWNER_NEW |  |
-| OWNER_NOTE |  |
-| OWNER_EVIDENCE_ACCEPTED |  |
-| OWNER_REVIEWED_AT |  |
+| OWNER_AUTHORIZATION_CLASS | OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY |
+| APPLY_STATUS | LABOT |
+| OWNER_STATUS | LABOT |
+| OWNER_NEW | σπίτι |
+| OWNER_NOTE | OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change. |
+| OWNER_EVIDENCE_ACCEPTED | YES |
+| OWNER_REVIEWED_AT | 2026-09-20T12:27:31.882Z |
 
 **Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «σπίτι» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Σπίτι» matches TARGET meaning; only capitalization differs from normative lemma «σπίτι». PROPOSED_NEW «σπίτι» equals TARGET normative lemma. Authority: Λεξικό της κοινής νεοελληνικής (Τριανταφυλλίδης); entry: https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%A3%CF%80%CE%AF%CF%84%CE%B9.
 
@@ -281,11 +289,13 @@ u	kulde	[ˈk |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | e6a31e8e4c485c0326311bd917063e3039ee05dd7d98e713201bd88b1da139f0 |
 | AUDIT_CHECKED_AT | 2026-09-20T12:28:00.156Z |
-| OWNER_STATUS |  |
-| OWNER_NEW |  |
-| OWNER_NOTE |  |
-| OWNER_EVIDENCE_ACCEPTED |  |
-| OWNER_REVIEWED_AT |  |
+| OWNER_AUTHORIZATION_CLASS | OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY |
+| APPLY_STATUS | LABOT |
+| OWNER_STATUS | LABOT |
+| OWNER_NEW | дом |
+| OWNER_NOTE | OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change. |
+| OWNER_EVIDENCE_ACCEPTED | YES |
+| OWNER_REVIEWED_AT | 2026-09-20T12:28:00.156Z |
 
 **Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «дом» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Дом» matches TARGET meaning; only capitalization differs from normative lemma «дом». PROPOSED_NEW «дом» equals TARGET normative lemma. Authority: Орфографический ресурс АКАДЕМОС (orfo.ruslang.ru); entry: https://orfo.ruslang.ru/search/word.
 
@@ -326,11 +336,13 @@ u	kulde	[ˈk |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 1876c6c100357a4126a20ca88eff1787dddc810d69cef8d63298689baf630aea |
 | AUDIT_CHECKED_AT | 2026-09-20T12:21:18.159Z |
-| OWNER_STATUS |  |
-| OWNER_NEW |  |
-| OWNER_NOTE |  |
-| OWNER_EVIDENCE_ACCEPTED |  |
-| OWNER_REVIEWED_AT |  |
+| OWNER_AUTHORIZATION_CLASS | OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY |
+| APPLY_STATUS | LABOT |
+| OWNER_STATUS | LABOT |
+| OWNER_NEW | dům |
+| OWNER_NOTE | OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change. |
+| OWNER_EVIDENCE_ACCEPTED | YES |
+| OWNER_REVIEWED_AT | 2026-09-20T12:21:18.159Z |
 
 **Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «dům» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Dům» matches TARGET meaning; only capitalization differs from normative lemma «dům». PROPOSED_NEW «dům» equals TARGET normative lemma. Authority: Internetová jazyková příručka (lexicon); entry: https://prirucka.ujc.cas.cz/?id=915#ref_id_2019_15_1.
 
@@ -381,6 +393,8 @@ dom -u m.
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 36920edd98ab9f0d5af6deb5cd4e5809f62be348155d8e2d397327f93fba0965 |
 | AUDIT_CHECKED_AT | 2026-09-20T12:27:01.424Z |
+| OWNER_AUTHORIZATION_CLASS |  |
+| APPLY_STATUS |  |
 | OWNER_STATUS |  |
 | OWNER_NEW |  |
 | OWNER_NOTE |  |
@@ -453,6 +467,8 @@ være herre i e |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 7def1d680d33e0148424ebd7df3824e42343ace0b03d88e0f0d4b0a61ecd98e8 |
 | AUDIT_CHECKED_AT | 2026-09-20T12:25:13.721Z |
+| OWNER_AUTHORIZATION_CLASS |  |
+| APPLY_STATUS |  |
 | OWNER_STATUS |  |
 | OWNER_NEW |  |
 | OWNER_NOTE |  |
@@ -539,6 +555,8 @@ hu |
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 201c28ab75ef0ffd2cb81687c8c0a9d3db3401a52a872531a5e50642bb89c6db |
 | AUDIT_CHECKED_AT | 2026-09-20T12:25:14.741Z |
+| OWNER_AUTHORIZATION_CLASS |  |
+| APPLY_STATUS |  |
 | OWNER_STATUS |  |
 | OWNER_NEW |  |
 | OWNER_NOTE |  |
@@ -636,6 +654,8 @@ Yksi-, kuusikerroksinen talo.
 | AUDIT_EVIDENCE_STATUS | SOURCE_ENTRY_VALIDATED |
 | AUDIT_EVIDENCE_SHA256 | 3448e61a7cd99d6286416f6404764c62af44e39c0c0df9b45776784c21842452 |
 | AUDIT_CHECKED_AT | 2026-09-20T12:27:03.535Z |
+| OWNER_AUTHORIZATION_CLASS |  |
+| APPLY_STATUS |  |
 | OWNER_STATUS |  |
 | OWNER_NEW |  |
 | OWNER_NOTE |  |

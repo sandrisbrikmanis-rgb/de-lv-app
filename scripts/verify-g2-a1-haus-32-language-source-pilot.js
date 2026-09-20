@@ -12,6 +12,9 @@ const {
 } = require("./lib/master-capitalization-rule-verify");
 
 const DIR = path.join(ROOT, "reports/g2-a1-production-current/haus-32-language-source-pilot");
+const OWNER_DIR = path.join(ROOT, "reports/g2-a1-production-current/haus-owner-review");
+const { PREAUTHORIZED_CAP_ROWS } = require("./lib/g2-a1-production-current/haus-preauthorized-capitalization");
+const { productionA1Rel, wwwA1Rel } = require("./lib/g2-a1-production-current/paths");
 
 const HAUS_CAPITALIZATION_REGRESSION = [
   {
@@ -233,7 +236,25 @@ function main() {
   }
 
   const prod = productionDiffClean();
-  if (!prod.pass) blockers.push({ code: "PRODUCTION_CHANGE", files: prod.diff });
+  const manifestPath = path.join(OWNER_DIR, "haus-owner-review-manifest.json");
+  const ownerManifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath, "utf8")) : null;
+  const preauthApply = ownerManifest?.productionApply === true;
+  const allowedProduction = new Set();
+  for (const spec of PREAUTHORIZED_CAP_ROWS) {
+    allowedProduction.add(productionA1Rel(spec.language));
+    allowedProduction.add(wwwA1Rel(spec.language));
+  }
+  if (!prod.pass) {
+    if (preauthApply) {
+      for (const f of prod.diff) {
+        if (!allowedProduction.has(f)) {
+          blockers.push({ code: "UNAUTHORIZED_PRODUCTION_CHANGE", file: f });
+        }
+      }
+    } else {
+      blockers.push({ code: "PRODUCTION_CHANGE", files: prod.diff });
+    }
+  }
 
   const csvPath = path.join(DIR, "haus-owner-review.csv");
   if (fs.existsSync(csvPath)) {

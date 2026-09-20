@@ -15,6 +15,10 @@ const REQUIRED_MASTER_SNIPPETS = [
   "`PASS` bez DE **un** TARGET evidence ir aizliegts",
   "kirilica, grieķu",
   "ALL CAPS headword",
+  "OWNER iepriekš autorizēta kapitalizācija",
+  "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+  "Šāda korekcija ir deterministiska",
+  "ortogrāfiska normalizācija",
 ];
 
 const REQUIRED_APVIENOTS_SNIPPETS = [
@@ -30,6 +34,8 @@ const REQUIRED_APVIENOTS_SNIPPETS = [
   "`σπίτι`",
   "`ev`",
   "`PASS` bez DE un TARGET evidence",
+  "20.2.1. OWNER iepriekš autorizēta sākumburta normalizācija",
+  "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
 ];
 
 function normCompare(a, b) {

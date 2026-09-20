@@ -33,6 +33,8 @@ const FINDING_DECISION_LANG_ORDER = Object.freeze([
 
 function emptyOwnerFields() {
   return {
+    OWNER_AUTHORIZATION_CLASS: "",
+    APPLY_STATUS: "",
     OWNER_STATUS: "",
     OWNER_NEW: "",
     OWNER_NOTE: "",
@@ -135,6 +137,8 @@ function buildAuditDecisionRow(row, deEvidence) {
 
 function ownerFieldsAreEmpty(row) {
   return (
+    !String(row.OWNER_AUTHORIZATION_CLASS || "").trim() &&
+    !String(row.APPLY_STATUS || "").trim() &&
     !String(row.OWNER_STATUS || "").trim() &&
     !String(row.OWNER_NEW || "").trim() &&
     !String(row.OWNER_NOTE || "").trim() &&

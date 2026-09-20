@@ -587,6 +587,18 @@ mazo burtu; katrai valodai joprojām nepieciešama tās normu pārbaude;
 īpašvārdiem, saīsinājumiem un pilniem teikumiem piemēro attiecīgās valodas
 noteikumus.
 
+## 20.2.1. OWNER iepriekš autorizēta sākumburta normalizācija
+
+OWNER iepriekš autorizē automātisku TARGET vārdnīcas pamatformas sākumburta
+labošanu no lielā uz mazo tikai tad, ja MASTER norādītais oficiālais TARGET
+valodas avots validē identisku lemmu ar mazo sākumburtu un CURRENT/NEW atšķiras
+tikai ar pirmā burta reģistru. Šāda korekcija ir deterministiska ortogrāfiska
+normalizācija, nevis jauna tulkojuma izvēle. Jebkura leksiska, semantiska,
+gramatiskā, diakritiska, skripta vai vairāk nekā sākumburta izmaiņa prasa
+atsevišķu OWNER lēmumu. Automātiskais apply drīkst ietvert tikai šo klasi
+(`OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY`) ar reproducējamu entry evidence — ne
+leksiskus tulkojumu labojumus un ne NSR slēgšanu.
+
 ## 20.3. Unikālās lingvistiskās vienības princips
 
 Dublētu darbu drīkst samazināt ar unikālo lingvistisko vienību reģistru

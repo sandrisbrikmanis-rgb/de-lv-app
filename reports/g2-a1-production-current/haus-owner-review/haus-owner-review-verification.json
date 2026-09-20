@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T12:56:19.474Z",
+  "generatedAt": "2026-09-20T13:40:22.157Z",
   "pass": true,
   "gates": {
     "auditCounts": {
@@ -8,17 +8,21 @@
       "NEEDS_SOURCE_REVIEW": 18,
       "SOURCE_DE_ISSUE": 0
     },
-    "ownerLabot": 0,
+    "ownerPreauthorizedCapitalizationOnly": 6,
+    "ownerIndividualDecisionRequired": 4,
+    "nsrRemaining": 18,
+    "ownerLabot": 6,
     "ownerNelabot": 0,
-    "ownerPending": 0,
+    "ownerPending": 4,
     "findingDecisionRows": 10,
     "nsrRows": 18,
     "passEvidenceRows": 4,
-    "unauthorizedOwnerFields": 0,
-    "productionChanges": 0,
+    "lexicalOwnerStillEmpty": true,
+    "productionChanges": 12,
+    "productionApply": true,
     "fullAuditRun": 0
   },
   "blockers": [],
-  "classification": "G2_A1_HAUS_AUDIT_EVIDENCE_READY_FOR_OWNER_DECISION",
-  "nextAction": "OWNER_REVIEW_10_HAUS_FINDINGS"
+  "classification": "G2_A1_HAUS_PREAUTHORIZED_CAPITALIZATION_FIXES_APPLIED_AND_VERIFIED",
+  "nextAction": "OWNER_REVIEW_4_LEXICAL_HAUS_FINDINGS_AND_18_SOURCE_BLOCKERS"
 }

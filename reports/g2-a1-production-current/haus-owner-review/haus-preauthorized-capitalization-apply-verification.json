@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-09-20T13:39:34.691Z",
+  "pass": true,
+  "changedProductionFieldCount": 6,
+  "unauthorizedProductionFieldChanges": 0,
+  "deChanges": 0,
+  "crowdinChanges": 0,
+  "mirrorMismatches": 0,
+  "syntaxFailures": 0,
+  "diffFileCount": 12,
+  "blockers": []
+}

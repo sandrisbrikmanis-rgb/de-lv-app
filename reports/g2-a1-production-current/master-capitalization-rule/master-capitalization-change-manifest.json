@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T11:47:42.043Z",
+  "generatedAt": "2026-09-20T13:40:39.717Z",
   "changedDocuments": [
     "docs_and_rules/LANGUAGE_AUDIT_STANDARD.md",
     "docs_and_rules/MASTER_1.12_BINDING_WORK_AGREEMENT.md",
@@ -31,7 +31,7 @@
     "changed": false,
     "embeddedCount": 33
   },
-  "productionDiff": "",
+  "productionDiff": "data/cs/a1.js\ndata/da/a1.js\ndata/en/a1.js\ndata/gr/a1.js\ndata/ru/a1.js\ndata/tr/a1.js\nwww/data/cs/a1.js\nwww/data/da/a1.js\nwww/data/en/a1.js\nwww/data/gr/a1.js\nwww/data/ru/a1.js\nwww/data/tr/a1.js",
   "deDiff": "",
   "crowdinDiff": ""
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T12:56:18.776Z",
-  "note": "AUDIT_* = executor evidence only. OWNER_* must be filled by OWNER (not AI).",
+  "generatedAt": "2026-09-20T13:39:33.581Z",
+  "note": "AUDIT_* = executor evidence. OWNER_* on 6 cap rows = class-level OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY; lexical 4 remain empty for individual OWNER.",
   "rows": [
     {
       "language": "en",
@@ -20,11 +20,13 @@
       "targetNormativeLemma": "house",
       "targetAuthority": "Oxford Learner's Dictionaries",
       "targetHeadword": "house",
-      "OWNER_STATUS": "",
-      "OWNER_NEW": "",
-      "OWNER_NOTE": "",
-      "OWNER_EVIDENCE_ACCEPTED": "",
-      "OWNER_REVIEWED_AT": ""
+      "OWNER_AUTHORIZATION_CLASS": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+      "APPLY_STATUS": "LABOT",
+      "OWNER_STATUS": "LABOT",
+      "OWNER_NEW": "house",
+      "OWNER_NOTE": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change.",
+      "OWNER_EVIDENCE_ACCEPTED": "YES",
+      "OWNER_REVIEWED_AT": "2026-09-20T12:21:17.575Z"
     },
     {
       "language": "da",
@@ -44,11 +46,13 @@
       "targetNormativeLemma": "hus",
       "targetAuthority": "Den Danske Ordbog (Det Danske Sprog- og Litteraturselskab / ordnet.dk)",
       "targetHeadword": "Hus",
-      "OWNER_STATUS": "",
-      "OWNER_NEW": "",
-      "OWNER_NOTE": "",
-      "OWNER_EVIDENCE_ACCEPTED": "",
-      "OWNER_REVIEWED_AT": ""
+      "OWNER_AUTHORIZATION_CLASS": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+      "APPLY_STATUS": "LABOT",
+      "OWNER_STATUS": "LABOT",
+      "OWNER_NEW": "hus",
+      "OWNER_NOTE": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change.",
+      "OWNER_EVIDENCE_ACCEPTED": "YES",
+      "OWNER_REVIEWED_AT": "2026-09-20T12:21:18.444Z"
     },
     {
       "language": "tr",
@@ -68,11 +72,13 @@
       "targetNormativeLemma": "ev",
       "targetAuthority": "TDK Güncel Türkçe Sözlük",
       "targetHeadword": "Ev",
-      "OWNER_STATUS": "",
-      "OWNER_NEW": "",
-      "OWNER_NOTE": "",
-      "OWNER_EVIDENCE_ACCEPTED": "",
-      "OWNER_REVIEWED_AT": ""
+      "OWNER_AUTHORIZATION_CLASS": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+      "APPLY_STATUS": "LABOT",
+      "OWNER_STATUS": "LABOT",
+      "OWNER_NEW": "ev",
+      "OWNER_NOTE": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change.",
+      "OWNER_EVIDENCE_ACCEPTED": "YES",
+      "OWNER_REVIEWED_AT": "2026-09-20T12:27:31.589Z"
     },
     {
       "language": "gr",
@@ -92,11 +98,13 @@
       "targetNormativeLemma": "σπίτι",
       "targetAuthority": "Λεξικό της κοινής νεοελληνικής (Τριανταφυλλίδης)",
       "targetHeadword": "Σπίτι",
-      "OWNER_STATUS": "",
-      "OWNER_NEW": "",
-      "OWNER_NOTE": "",
-      "OWNER_EVIDENCE_ACCEPTED": "",
-      "OWNER_REVIEWED_AT": ""
+      "OWNER_AUTHORIZATION_CLASS": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+      "APPLY_STATUS": "LABOT",
+      "OWNER_STATUS": "LABOT",
+      "OWNER_NEW": "σπίτι",
+      "OWNER_NOTE": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change.",
+      "OWNER_EVIDENCE_ACCEPTED": "YES",
+      "OWNER_REVIEWED_AT": "2026-09-20T12:27:31.882Z"
     },
     {
       "language": "ru",
@@ -116,11 +124,13 @@
       "targetNormativeLemma": "дом",
       "targetAuthority": "Орфографический ресурс АКАДЕМОС (orfo.ruslang.ru)",
       "targetHeadword": "Дом",
-      "OWNER_STATUS": "",
-      "OWNER_NEW": "",
-      "OWNER_NOTE": "",
-      "OWNER_EVIDENCE_ACCEPTED": "",
-      "OWNER_REVIEWED_AT": ""
+      "OWNER_AUTHORIZATION_CLASS": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+      "APPLY_STATUS": "LABOT",
+      "OWNER_STATUS": "LABOT",
+      "OWNER_NEW": "дом",
+      "OWNER_NOTE": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change.",
+      "OWNER_EVIDENCE_ACCEPTED": "YES",
+      "OWNER_REVIEWED_AT": "2026-09-20T12:28:00.156Z"
     },
     {
       "language": "cs",
@@ -140,11 +150,13 @@
       "targetNormativeLemma": "dům",
       "targetAuthority": "Internetová jazyková příručka (lexicon)",
       "targetHeadword": "dům",
-      "OWNER_STATUS": "",
-      "OWNER_NEW": "",
-      "OWNER_NOTE": "",
-      "OWNER_EVIDENCE_ACCEPTED": "",
-      "OWNER_REVIEWED_AT": ""
+      "OWNER_AUTHORIZATION_CLASS": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+      "APPLY_STATUS": "LABOT",
+      "OWNER_STATUS": "LABOT",
+      "OWNER_NEW": "dům",
+      "OWNER_NOTE": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change.",
+      "OWNER_EVIDENCE_ACCEPTED": "YES",
+      "OWNER_REVIEWED_AT": "2026-09-20T12:21:18.159Z"
     },
     {
       "language": "sk",
@@ -164,6 +176,8 @@
       "targetNormativeLemma": "dom",
       "targetAuthority": "Slovníkový portál JÚĽŠ",
       "targetHeadword": "dom",
+      "OWNER_AUTHORIZATION_CLASS": "",
+      "APPLY_STATUS": "",
       "OWNER_STATUS": "",
       "OWNER_NEW": "",
       "OWNER_NOTE": "",
@@ -188,6 +202,8 @@
       "targetNormativeLemma": "hus",
       "targetAuthority": "Bokmålsordboka (ordbokene.no)",
       "targetHeadword": "hus",
+      "OWNER_AUTHORIZATION_CLASS": "",
+      "APPLY_STATUS": "",
       "OWNER_STATUS": "",
       "OWNER_NEW": "",
       "OWNER_NOTE": "",
@@ -212,6 +228,8 @@
       "targetNormativeLemma": "hus",
       "targetAuthority": "Nynorskordboka (ordbokene.no)",
       "targetHeadword": "hus",
+      "OWNER_AUTHORIZATION_CLASS": "",
+      "APPLY_STATUS": "",
       "OWNER_STATUS": "",
       "OWNER_NEW": "",
       "OWNER_NOTE": "",
@@ -236,6 +254,8 @@
       "targetNormativeLemma": "talo",
       "targetAuthority": "Kielitoimiston sanakirja",
       "targetHeadword": "talo",
+      "OWNER_AUTHORIZATION_CLASS": "",
+      "APPLY_STATUS": "",
       "OWNER_STATUS": "",
       "OWNER_NEW": "",
       "OWNER_NOTE": "",

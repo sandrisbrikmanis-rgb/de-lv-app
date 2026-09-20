@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T12:56:18.775Z",
+  "generatedAt": "2026-09-20T13:39:33.580Z",
   "sourcePilotDir": "reports/g2-a1-production-current/haus-32-language-source-pilot",
   "originalPackageBaseline": {
     "PASS": 4,
@@ -14,14 +14,22 @@
     "SOURCE_DE_ISSUE": 0
   },
   "ownerDecisionFinal": {
-    "LABOT": 0,
+    "LABOT": 6,
     "NELABOT": 0,
-    "PENDING": 0,
+    "PENDING": 4,
     "NEEDS_SOURCE_REVIEW": 0,
     "SOURCE_DE_ISSUE": 0,
-    "empty": 10
+    "empty": 4,
+    "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY": 6,
+    "OWNER_INDIVIDUAL_DECISION_REQUIRED": 4
   },
-  "ownerDecisionsFilled": false,
+  "ownerDecisionsFilled": true,
+  "ownerPreauthorization": {
+    "class": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+    "capitalizationRows": 6,
+    "lexicalRowsPendingIndividualOwner": 4,
+    "nsrRemaining": 18
+  },
   "invalidatedPriorRuns": [
     "INVALIDATED_UNAUTHORIZED_OWNER_FIELD_POPULATION"
   ],
@@ -35,9 +43,9 @@
   },
   "full95731FieldAuditRun": false,
   "FULL_LINGUISTIC_AUDITS_EXECUTED": 0,
-  "productionApply": false,
-  "classification": "G2_A1_HAUS_AUDIT_EVIDENCE_READY_FOR_OWNER_DECISION",
-  "nextAction": "OWNER_REVIEW_10_HAUS_FINDINGS",
+  "productionApply": true,
+  "classification": "G2_A1_HAUS_PREAUTHORIZED_CAPITALIZATION_FIXES_APPLIED_AND_VERIFIED",
+  "nextAction": "OWNER_REVIEW_4_LEXICAL_HAUS_FINDINGS_AND_18_SOURCE_BLOCKERS",
   "languageOrder": [
     "bs",
     "en",
@@ -71,5 +79,8 @@
     "mk",
     "ru",
     "uk"
-  ]
+  ],
+  "productionApplyAt": "2026-09-20T13:39:34.142Z",
+  "preauthorizedCapitalizationApplied": 6,
+  "preauthorizedCapitalizationSkipped": 0
 }

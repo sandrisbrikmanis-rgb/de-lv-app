@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T12:56:18.775Z",
+  "generatedAt": "2026-09-20T13:39:33.580Z",
   "deEvidenceShared": {
     "deHeadword": "Haus",
     "deEntryUrl": "https://www.dwds.de/wb/Haus?o=haus",
@@ -45,11 +45,13 @@
       "AUDIT_EVIDENCE_SHA256": "3e10d87dbbdd074b0f72734210d7ca6afa4322ab90013b7ae1cfc717dc51a276",
       "AUDIT_CHECKED_AT": "2026-09-20T12:21:17.575Z",
       "rationale": "DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «house» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «House» matches TARGET meaning; only capitalization differs from normative lemma «house». PROPOSED_NEW «house» equals TARGET normative lemma. Authority: Oxford Learner's Dictionaries; entry: https://www.oxfordlearnersdictionaries.com/definition/english/house_1.",
-      "OWNER_STATUS": "",
-      "OWNER_NEW": "",
-      "OWNER_NOTE": "",
-      "OWNER_EVIDENCE_ACCEPTED": "",
-      "OWNER_REVIEWED_AT": ""
+      "OWNER_AUTHORIZATION_CLASS": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+      "APPLY_STATUS": "LABOT",
+      "OWNER_STATUS": "LABOT",
+      "OWNER_NEW": "house",
+      "OWNER_NOTE": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change.",
+      "OWNER_EVIDENCE_ACCEPTED": "YES",
+      "OWNER_REVIEWED_AT": "2026-09-20T12:21:17.575Z"
     },
     {
       "language": "da",
@@ -86,11 +88,13 @@
       "AUDIT_EVIDENCE_SHA256": "f74c65de9e204eaf48cc732610c7e4e66599b6079b91d78cebcf0dde43d62a78",
       "AUDIT_CHECKED_AT": "2026-09-20T12:21:18.444Z",
       "rationale": "DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «hus» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Hus» matches TARGET meaning; only capitalization differs from normative lemma «hus». PROPOSED_NEW «hus» equals TARGET normative lemma. Authority: Den Danske Ordbog (Det Danske Sprog- og Litteraturselskab / ordnet.dk); entry: https://ordnet.dk/ddo/ordbog/Hus.",
-      "OWNER_STATUS": "",
-      "OWNER_NEW": "",
-      "OWNER_NOTE": "",
-      "OWNER_EVIDENCE_ACCEPTED": "",
-      "OWNER_REVIEWED_AT": ""
+      "OWNER_AUTHORIZATION_CLASS": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+      "APPLY_STATUS": "LABOT",
+      "OWNER_STATUS": "LABOT",
+      "OWNER_NEW": "hus",
+      "OWNER_NOTE": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change.",
+      "OWNER_EVIDENCE_ACCEPTED": "YES",
+      "OWNER_REVIEWED_AT": "2026-09-20T12:21:18.444Z"
     },
     {
       "language": "tr",
@@ -127,11 +131,13 @@
       "AUDIT_EVIDENCE_SHA256": "bc4fa8a3a9b62fca9b815702721f6a96bcd5f0df90db4dbe9483eba707ee0f8b",
       "AUDIT_CHECKED_AT": "2026-09-20T12:27:31.589Z",
       "rationale": "DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «ev» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Ev» matches TARGET meaning; only capitalization differs from normative lemma «ev». PROPOSED_NEW «ev» equals TARGET normative lemma. Authority: TDK Güncel Türkçe Sözlük; entry: https://sozluk.gov.tr/gts?ara=Ev.",
-      "OWNER_STATUS": "",
-      "OWNER_NEW": "",
-      "OWNER_NOTE": "",
-      "OWNER_EVIDENCE_ACCEPTED": "",
-      "OWNER_REVIEWED_AT": ""
+      "OWNER_AUTHORIZATION_CLASS": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+      "APPLY_STATUS": "LABOT",
+      "OWNER_STATUS": "LABOT",
+      "OWNER_NEW": "ev",
+      "OWNER_NOTE": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change.",
+      "OWNER_EVIDENCE_ACCEPTED": "YES",
+      "OWNER_REVIEWED_AT": "2026-09-20T12:27:31.589Z"
     },
     {
       "language": "gr",
@@ -168,11 +174,13 @@
       "AUDIT_EVIDENCE_SHA256": "87b558e93c6af1a49a905edd5eb6272b74be886c5c1a0d84250df88b2630c4f4",
       "AUDIT_CHECKED_AT": "2026-09-20T12:27:31.882Z",
       "rationale": "DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «σπίτι» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Σπίτι» matches TARGET meaning; only capitalization differs from normative lemma «σπίτι». PROPOSED_NEW «σπίτι» equals TARGET normative lemma. Authority: Λεξικό της κοινής νεοελληνικής (Τριανταφυλλίδης); entry: https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%A3%CF%80%CE%AF%CF%84%CE%B9.",
-      "OWNER_STATUS": "",
-      "OWNER_NEW": "",
-      "OWNER_NOTE": "",
-      "OWNER_EVIDENCE_ACCEPTED": "",
-      "OWNER_REVIEWED_AT": ""
+      "OWNER_AUTHORIZATION_CLASS": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+      "APPLY_STATUS": "LABOT",
+      "OWNER_STATUS": "LABOT",
+      "OWNER_NEW": "σπίτι",
+      "OWNER_NOTE": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change.",
+      "OWNER_EVIDENCE_ACCEPTED": "YES",
+      "OWNER_REVIEWED_AT": "2026-09-20T12:27:31.882Z"
     },
     {
       "language": "ru",
@@ -209,11 +217,13 @@
       "AUDIT_EVIDENCE_SHA256": "e6a31e8e4c485c0326311bd917063e3039ee05dd7d98e713201bd88b1da139f0",
       "AUDIT_CHECKED_AT": "2026-09-20T12:28:00.156Z",
       "rationale": "DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «дом» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Дом» matches TARGET meaning; only capitalization differs from normative lemma «дом». PROPOSED_NEW «дом» equals TARGET normative lemma. Authority: Орфографический ресурс АКАДЕМОС (orfo.ruslang.ru); entry: https://orfo.ruslang.ru/search/word.",
-      "OWNER_STATUS": "",
-      "OWNER_NEW": "",
-      "OWNER_NOTE": "",
-      "OWNER_EVIDENCE_ACCEPTED": "",
-      "OWNER_REVIEWED_AT": ""
+      "OWNER_AUTHORIZATION_CLASS": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+      "APPLY_STATUS": "LABOT",
+      "OWNER_STATUS": "LABOT",
+      "OWNER_NEW": "дом",
+      "OWNER_NOTE": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change.",
+      "OWNER_EVIDENCE_ACCEPTED": "YES",
+      "OWNER_REVIEWED_AT": "2026-09-20T12:28:00.156Z"
     },
     {
       "language": "cs",
@@ -250,11 +260,13 @@
       "AUDIT_EVIDENCE_SHA256": "1876c6c100357a4126a20ca88eff1787dddc810d69cef8d63298689baf630aea",
       "AUDIT_CHECKED_AT": "2026-09-20T12:21:18.159Z",
       "rationale": "DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «dům» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Dům» matches TARGET meaning; only capitalization differs from normative lemma «dům». PROPOSED_NEW «dům» equals TARGET normative lemma. Authority: Internetová jazyková příručka (lexicon); entry: https://prirucka.ujc.cas.cz/?id=915#ref_id_2019_15_1.",
-      "OWNER_STATUS": "",
-      "OWNER_NEW": "",
-      "OWNER_NOTE": "",
-      "OWNER_EVIDENCE_ACCEPTED": "",
-      "OWNER_REVIEWED_AT": ""
+      "OWNER_AUTHORIZATION_CLASS": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+      "APPLY_STATUS": "LABOT",
+      "OWNER_STATUS": "LABOT",
+      "OWNER_NEW": "dům",
+      "OWNER_NOTE": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY: official TARGET headword confirms lowercase dictionary lemma; CURRENT and NEW differ only by initial-letter case; no lexical, semantic, script, grammatical or DE-side change.",
+      "OWNER_EVIDENCE_ACCEPTED": "YES",
+      "OWNER_REVIEWED_AT": "2026-09-20T12:21:18.159Z"
     },
     {
       "language": "sk",
@@ -291,6 +303,8 @@
       "AUDIT_EVIDENCE_SHA256": "36920edd98ab9f0d5af6deb5cd4e5809f62be348155d8e2d397327f93fba0965",
       "AUDIT_CHECKED_AT": "2026-09-20T12:27:01.424Z",
       "rationale": "DE «Haus» (Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise). CURRENT production value: «Domov». TARGET authority «Slovníkový portál JÚĽŠ» entry https://slovnik.juls.savba.sk/?w=dom&s=exact&k=Md03&cs=&d=kssj4&d=psp&d=ogs&d=sssj&d=orter&d=scs&d=sss&d=peciar&d=ssn&d=hssj&d=bernolak&d=noundb&d=orient&d=locutio&d=obce&d=priezviska&d=un&d=onom&d=pskfr&d=pskcs&d=psken# gives normative lemma «dom». TARGET building/dwelling sense fragment (excerpt): príd.: d-a farnosť\n\ndom -u m.\n\n1. budova, stavba na obývanie: rodinný, nájomný, družstevný d.; stavať d.; strecha d-u, vlastník d-u; Biely d. sídlo prezidenta USA i pren. amer. vláda; nebytový d. nepoužívaný na bývanie; zobudiť celý d. obyvateľov domu\n\n2. inštitúcia organizujúca kult. podujatia al. poskytujúca rozlič. služby: kultúrny d.; d. módy, d. spisovateľov; obchodný d. veľké nákupné stredis CURRENT «Domov» denotes home/homeland sense in Slovak usage; validated entry supports «dom» for building/house sense aligned with DE «Haus» as dwelling. PROPOSED_NEW «dom» matches validated TARGET lemma for DE dwelling sense.",
+      "OWNER_AUTHORIZATION_CLASS": "",
+      "APPLY_STATUS": "",
       "OWNER_STATUS": "",
       "OWNER_NEW": "",
       "OWNER_NOTE": "",
@@ -332,6 +346,8 @@
       "AUDIT_EVIDENCE_SHA256": "7def1d680d33e0148424ebd7df3824e42343ace0b03d88e0f0d4b0a61ecd98e8",
       "AUDIT_CHECKED_AT": "2026-09-20T12:25:13.721Z",
       "rationale": "DE «Haus» (Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise). CURRENT production value: «Maya». TARGET authority «Bokmålsordboka (ordbokene.no)» entry https://ordbokene.no/nob/bm/hus gives normative lemma «hus». TARGET building/dwelling sense fragment (excerpt): dboka 1\n oppslagsord\nhus\nsubstantiv intetkjønn\nVis bøyning\nOpphavnorrønt hús\nBetydning og bruk\nbygning (med tak og vegger) brukt til bo- eller tilholdssted for mennesker eller dyr, til å lagre noe i og lignende\nEksempel\nbygge hus;\nha både hus og hytte;\net toetasjes hus;\nsette opp nye hus på gården\nsom etterledd i ord som hundehus kulturhus rekkehus sykehus uthus våningshus\nbosted, hjem (\n1\nI, 1)\nE CURRENT «Maya» is unrelated (Mayan language/culture); validated Norwegian entry supports «hus» for building/dwelling matching DE «Haus». PROPOSED_NEW «hus» matches validated TARGET lemma for DE dwelling sense.",
+      "OWNER_AUTHORIZATION_CLASS": "",
+      "APPLY_STATUS": "",
       "OWNER_STATUS": "",
       "OWNER_NEW": "",
       "OWNER_NOTE": "",
@@ -373,6 +389,8 @@
       "AUDIT_EVIDENCE_SHA256": "201c28ab75ef0ffd2cb81687c8c0a9d3db3401a52a872531a5e50642bb89c6db",
       "AUDIT_CHECKED_AT": "2026-09-20T12:25:14.741Z",
       "rationale": "DE «Haus» (Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise). CURRENT production value: «Maya». TARGET authority «Nynorskordboka (ordbokene.no)» entry https://ordbokene.no/nob/nn/hus gives normative lemma «hus». TARGET building/dwelling sense fragment (excerpt): dboka 1\n oppslagsord\nhus\nsubstantiv inkjekjønn\nVis bøying\nOpphavnorrønt hús\nTyding og bruk\nbygning (med tak og vegger) brukt til bu- eller tilhaldsstad for menneske og dyr, til lagringsstad og liknande\nDøme\nbyggje hus;\nha både hus og hytte;\neit hus med tre etasjar;\nsetje opp nye hus på garden\nsom etterledd i ord som hundehus kulturhus rekkjehus sjukehus uthus våningshus\nbustad, heim (\n1\nI, 1)\nDøme CURRENT «Maya» is unrelated (Mayan language/culture); validated Norwegian entry supports «hus» for building/dwelling matching DE «Haus». PROPOSED_NEW «hus» matches validated TARGET lemma for DE dwelling sense.",
+      "OWNER_AUTHORIZATION_CLASS": "",
+      "APPLY_STATUS": "",
       "OWNER_STATUS": "",
       "OWNER_NEW": "",
       "OWNER_NOTE": "",
@@ -414,6 +432,8 @@
       "AUDIT_EVIDENCE_SHA256": "3448e61a7cd99d6286416f6404764c62af44e39c0c0df9b45776784c21842452",
       "AUDIT_CHECKED_AT": "2026-09-20T12:27:03.535Z",
       "rationale": "DE «Haus» (Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise). CURRENT production value: «Maja». TARGET authority «Kielitoimiston sanakirja» entry https://www.kielitoimistonsanakirja.fi/#/talo?source=suggestion&searchMode=all gives normative lemma «talo». TARGET building/dwelling sense fragment (excerpt): avigaatio\n\nHaettiin \"talo\"\n\ntalo\ntalo­johto\ntalo­kauppa\ntalollinen\ntalon­emäntä\ntalon­isäntä\ntalon­kauppa\ntalonki\ntalon­kirja\ntalon­mies\ntalon­omistaja\ntalon­paikka\ntalon­pito\ntalon­poika\ntalon­poikainen\ntalon­poikais­arkkitehtuuri\ntalon­poikais­huone­kalu\ntalon­poikais­johtaja\ntalon­poikais­järki\ntalon­poikais­koti\nSivu 1/9\n1\n9\nNäytä aina taivutus \nNäytä kaikki esimerkit \ntalo1\nTAIVUTUS \nsubstant CURRENT «Maja» is not the validated Finnish house lemma for this sense; TARGET entry supports «talo» for building/dwelling. PROPOSED_NEW «talo» matches validated TARGET lemma for DE dwelling sense.",
+      "OWNER_AUTHORIZATION_CLASS": "",
+      "APPLY_STATUS": "",
       "OWNER_STATUS": "",
       "OWNER_NEW": "",
       "OWNER_NOTE": "",

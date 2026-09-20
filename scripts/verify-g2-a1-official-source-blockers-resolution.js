@@ -14,6 +14,9 @@ const {
 } = require("./lib/g2-a1-production-current/official-source-blocker-resolution");
 
 const TOTAL_BLOCKED_AT_START = 18;
+const OWNER_DIR = path.join(ROOT, "reports/g2-a1-production-current/haus-owner-review");
+const { PREAUTHORIZED_CAP_ROWS } = require("./lib/g2-a1-production-current/haus-preauthorized-capitalization");
+const { productionA1Rel, wwwA1Rel } = require("./lib/g2-a1-production-current/paths");
 
 function productionDiffClean() {
   const diff = execSync("git diff --name-only -- data www/data crowdin/content crowdin/ui", {
@@ -78,8 +81,24 @@ function main() {
   }
 
   const prod = productionDiffClean();
+  const manifestPath = path.join(OWNER_DIR, "haus-owner-review-manifest.json");
+  const ownerManifest = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath, "utf8")) : null;
+  const preauthApply = ownerManifest?.productionApply === true;
+  const allowedProduction = new Set();
+  for (const spec of PREAUTHORIZED_CAP_ROWS) {
+    allowedProduction.add(productionA1Rel(spec.language));
+    allowedProduction.add(wwwA1Rel(spec.language));
+  }
   if (!prod.pass) {
-    blockers.push({ code: "UNEXPECTED_PRODUCTION_OR_CROWDIN_CHANGE", files: prod.diff });
+    if (preauthApply) {
+      for (const f of prod.diff) {
+        if (!allowedProduction.has(f)) {
+          blockers.push({ code: "UNEXPECTED_PRODUCTION_OR_CROWDIN_CHANGE", file: f });
+        }
+      }
+    } else {
+      blockers.push({ code: "UNEXPECTED_PRODUCTION_OR_CROWDIN_CHANGE", files: prod.diff });
+    }
   }
 
   const pass = blockers.length === 0 && payload?.classification?.includes("INDIVIDUALLY_RESOLVED");
