@@ -5444,6 +5444,19 @@ nozīmēm, locījumiem, laukiem, kartītēm vai valodām.
 Pilns normatīvais teksts: `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md`
 §6, §15, §20.
 
+## 7.159. Vācu–mērķvalodas divvalodu vārdnīcas (v1.19)
+
+G2/A1 un SOURCE-SUPPORTED audits drīkst izmantot profesionāli rediģētas
+vācu→TARGET vārdnīcas (piem. PONS, `en.pons.com`) un institucionālus resursus
+(LOD u.c.), ja ir identificējams izdevējs, reproducējams šķirkļa URL un skaidrs
+valodu pāris. Avotu prioritāte un klases **A–F** — APVIENOTS §3.2.
+
+Strukturētais reģistrs: `GERMAN_TARGET_BILINGUAL_SOURCES` laukā
+`scripts/lib/data/master-language-authority-sources-33.json`. Jaunus ierakstus
+pievieno tikai pēc `das Haus` pārbaudes un **OWNER apstiprinājuma**; komerciāls
+statuss nav noraidījuma iemesls. Kopienas vārdnīcas (klase **E**) nedrīkst būt
+vienīgais pierādījums — obligāts avotu kopums ar DE un TARGET A–D avotiem.
+
 ------------------------------------------------------------------------
 
 # 8. OWNER REVIEW

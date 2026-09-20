@@ -51,11 +51,15 @@ function loadStructuredLanguageAuthoritySources(root = ROOT) {
 }
 
 function allUrlsForLanguage(row) {
+  const bilingual = (row.GERMAN_TARGET_BILINGUAL_SOURCES || []).flatMap((s) =>
+    [s.sourceUrl, s.entryUrlTemplateNote, s.entryUrl].filter(Boolean),
+  );
   return [
     ...(row.LANGUAGE_NORM_URLS || []),
     ...(row.PRIMARY_DICTIONARY_URLS || []),
     ...(row.ADDITIONAL_AUTHORITY_URLS || []),
     ...(row.LANGUAGE_LEARNING_CEFR_URLS || []),
+    ...bilingual,
   ];
 }
 

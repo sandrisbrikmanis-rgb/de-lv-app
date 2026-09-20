@@ -7,33 +7,84 @@
       "appCode": "bs",
       "standardCode": "bs",
       "LANGUAGE_NORM_AUTHORITY": "Institut za jezik Univerziteta u Sarajevu",
-      "LANGUAGE_NORM_URLS": ["https://izj.unsa.ba/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://izj.unsa.ba/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": null,
       "PRIMARY_DICTIONARY_URLS": [],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Bosnian",
+          "sourceUrl": "https://debs.dict.cc/",
+          "entryUrlTemplateNote": "https://debs.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→bs",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": "Class E — requires bundle with DE authority + TARGET A–D source for SOURCE-SUPPORTED PASS"
+        },
+        {
+          "sourceName": "Pravopis bosanskoga jezika (Halilović)",
+          "sourceUrl": "https://www.pravopis.ba/",
+          "entryUrlTemplateNote": "https://www.pravopis.ba/",
+          "publisher": "Senahid Halilović / pravopis.ba",
+          "sourceClass": "D",
+          "languagePair": "bs monolingual orthography",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": false,
+          "orthographyEvidenceSupported": true,
+          "editorialProvenance": "professional_institutional_reference",
+          "automationStatus": "PROBE_FAILED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": false,
+          "role": "TARGET_ORTHOGRAPHY",
+          "notes": "orthography_only_not_haus_pilot"
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
     },
     {
       "appCode": "en",
       "standardCode": "en",
       "LANGUAGE_NORM_AUTHORITY": "Oxford English Dictionary",
-      "LANGUAGE_NORM_URLS": ["https://www.oed.com/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://www.oed.com/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Oxford Learner's Dictionaries",
-      "PRIMARY_DICTIONARY_URLS": ["https://www.oxfordlearnersdictionaries.com/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.oxfordlearnersdictionaries.com/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": "Council of Europe CEFR (English)",
-      "LANGUAGE_LEARNING_CEFR_URLS": ["https://www.coe.int/en/web/common-european-framework-reference-languages"]
+      "LANGUAGE_LEARNING_CEFR_URLS": [
+        "https://www.coe.int/en/web/common-european-framework-reference-languages"
+      ]
     },
     {
       "appCode": "cs",
       "standardCode": "cs",
       "LANGUAGE_NORM_AUTHORITY": "Ústav pro jazyk český AV ČR — Internetová jazyková příručka",
-      "LANGUAGE_NORM_URLS": ["https://prirucka.ujc.cas.cz/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://prirucka.ujc.cas.cz/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Internetová jazyková příručka (lexicon)",
-      "PRIMARY_DICTIONARY_URLS": ["https://prirucka.ujc.cas.cz/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://prirucka.ujc.cas.cz/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -43,9 +94,13 @@
       "appCode": "da",
       "standardCode": "da",
       "LANGUAGE_NORM_AUTHORITY": "Dansk Sprognævn — Retskrivningsordbogen",
-      "LANGUAGE_NORM_URLS": ["https://ro.dsn.dk/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://ro.dsn.dk/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Den Danske Ordbog (Det Danske Sprog- og Litteraturselskab / ordnet.dk)",
-      "PRIMARY_DICTIONARY_URLS": ["https://ordnet.dk/ddo"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://ordnet.dk/ddo"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -56,9 +111,13 @@
       "appCode": "et",
       "standardCode": "et",
       "LANGUAGE_NORM_AUTHORITY": "Eesti Keele Instituut — ÕS",
-      "LANGUAGE_NORM_URLS": ["https://sonaveeb.ee/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://sonaveeb.ee/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Eesti Keele Instituut — Sõnaveeb",
-      "PRIMARY_DICTIONARY_URLS": ["https://sonaveeb.ee/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://sonaveeb.ee/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -68,9 +127,13 @@
       "appCode": "es",
       "standardCode": "es",
       "LANGUAGE_NORM_AUTHORITY": "Real Academia Española — Ortografía",
-      "LANGUAGE_NORM_URLS": ["https://www.rae.es/ortografia"],
+      "LANGUAGE_NORM_URLS": [
+        "https://www.rae.es/ortografia"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Real Academia Española — DLE",
-      "PRIMARY_DICTIONARY_URLS": ["https://dle.rae.es/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://dle.rae.es/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -80,21 +143,50 @@
       "appCode": "fr",
       "standardCode": "fr",
       "LANGUAGE_NORM_AUTHORITY": "Académie française — Dictionnaire de l'Académie française",
-      "LANGUAGE_NORM_URLS": ["https://www.dictionnaire-academie.fr/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://www.dictionnaire-academie.fr/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Académie française — Dictionnaire de l'Académie française",
-      "PRIMARY_DICTIONARY_URLS": ["https://www.dictionnaire-academie.fr/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.dictionnaire-academie.fr/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "PONS German–French Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-french/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-french/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→fr",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
     },
     {
       "appCode": "hr",
       "standardCode": "hr",
       "LANGUAGE_NORM_AUTHORITY": "Institut za hrvatski jezik — Hrvatski pravopis",
-      "LANGUAGE_NORM_URLS": ["https://pravopis.hr/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://pravopis.hr/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Institut za hrvatski jezik — Školski rječnik / rjecnik.hr",
-      "PRIMARY_DICTIONARY_URLS": ["https://rjecnik.hr/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://rjecnik.hr/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -105,34 +197,106 @@
       "appCode": "is",
       "standardCode": "is",
       "LANGUAGE_NORM_AUTHORITY": "Stofnun Árna Magnússonar — BÍN",
-      "LANGUAGE_NORM_URLS": ["https://bin.arnastofnun.is/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://bin.arnastofnun.is/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Málið.is (Árnastofnun language portal)",
-      "PRIMARY_DICTIONARY_URLS": ["https://malid.is/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://malid.is/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Icelandic",
+          "sourceUrl": "https://deis.dict.cc/",
+          "entryUrlTemplateNote": "https://deis.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→is",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": "Class E — requires bundle with DE authority + TARGET A–D source for SOURCE-SUPPORTED PASS"
+        },
+        {
+          "sourceName": "Íslensk nútímamál (málfræði) — malid.is",
+          "sourceUrl": "https://malid.is/",
+          "entryUrlTemplateNote": "https://malid.is/",
+          "publisher": "Árnastofnun / Icelandic language resources",
+          "sourceClass": "A",
+          "languagePair": "is monolingual",
+          "accessMode": null,
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": false,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "government_language_institute",
+          "automationStatus": "PROBE_FAILED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": false,
+          "role": "SUPPLEMENTAL_TARGET",
+          "notes": "unknown_probe_type"
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
     },
     {
       "appCode": "it",
       "standardCode": "it",
       "LANGUAGE_NORM_AUTHORITY": "Accademia della Crusca",
-      "LANGUAGE_NORM_URLS": ["https://accademiadellacrusca.it/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://accademiadellacrusca.it/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Accademia della Crusca — Lessicografia (lessicografia.it)",
-      "PRIMARY_DICTIONARY_URLS": ["https://www.lessicografia.it/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.lessicografia.it/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
       "LANGUAGE_LEARNING_CEFR_URLS": [],
-      "registryGapNotes": "§3 table lists accademiadellacrusca.it only; lessicografia.it added in §3.1 as Crusca lexicography portal."
+      "registryGapNotes": "§3 table lists accademiadellacrusca.it only; lessicografia.it added in §3.1 as Crusca lexicography portal. §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "PONS German–Italian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-italian/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-italian/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→it",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ]
     },
     {
       "appCode": "lv",
       "standardCode": "lv",
       "LANGUAGE_NORM_AUTHORITY": "Latviešu valodas aģentūra",
-      "LANGUAGE_NORM_URLS": ["https://valoda.lv/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://valoda.lv/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "MLVV / Tēzaurs.lv",
-      "PRIMARY_DICTIONARY_URLS": ["https://mlvv.tezaurs.lv/", "https://tezaurs.lv/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://mlvv.tezaurs.lv/",
+        "https://tezaurs.lv/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -142,60 +306,167 @@
       "appCode": "lb",
       "standardCode": "lb",
       "LANGUAGE_NORM_AUTHORITY": "Zenter fir d'Lëtzebuerger Sprooch",
-      "LANGUAGE_NORM_URLS": ["https://zls.lu/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://zls.lu/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "LOD — Lëtzebuerger Online Dictionnaire",
-      "PRIMARY_DICTIONARY_URLS": ["https://lod.lu/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://lod.lu/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "Lëtzebuerger Online Dictionnaire (LOD)",
+          "sourceUrl": "https://lod.lu/",
+          "entryUrlTemplateNote": "https://lod.lu/sich/lb/Haus",
+          "publisher": "Zenter fir d'Lëtzebuerger Sprooch (ZLS)",
+          "sourceClass": "A",
+          "languagePair": "de↔lb (Luxembourg institutional)",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": true,
+          "editorialProvenance": "official_language_institute",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
     },
     {
       "appCode": "lt",
       "standardCode": "lt",
       "LANGUAGE_NORM_AUTHORITY": "Lietuvių kalbos institutas",
-      "LANGUAGE_NORM_URLS": ["https://lki.lt/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://lki.lt/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Valstybinė lietuvių kalbos komisija (VLKK)",
-      "PRIMARY_DICTIONARY_URLS": ["https://vlkk.lt/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://vlkk.lt/"
+      ],
       "ADDITIONAL_AUTHORITY": "E. kalba — lietuvių kalbos išteklių informacinė sistema",
-      "ADDITIONAL_AUTHORITY_URLS": ["https://ekalba.lt/"],
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://ekalba.lt/"
+      ],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
       "LANGUAGE_LEARNING_CEFR_URLS": [],
-      "registryGapNotes": "ekalba.lt added in §3.1 as LKI-adjacent official language resources portal."
+      "registryGapNotes": "ekalba.lt added in §3.1 as LKI-adjacent official language resources portal. §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "PONS German–Lithuanian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-lithuanian/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-lithuanian/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→lt",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": false,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "PROBE_FAILED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": false,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": "parse_or_sense_failed"
+        }
+      ]
     },
     {
       "appCode": "hu",
       "standardCode": "hu",
       "LANGUAGE_NORM_AUTHORITY": "HUN-REN Nyelvtudományi Kutatóközpont",
-      "LANGUAGE_NORM_URLS": ["https://nytud.hu/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://nytud.hu/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Akadémiai Nagyszótár (nagyszotar.nytud.hu)",
-      "PRIMARY_DICTIONARY_URLS": ["https://nagyszotar.nytud.hu/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://nagyszotar.nytud.hu/"
+      ],
       "ADDITIONAL_AUTHORITY": "MTA helyesírás (helyesiras.mta.hu)",
-      "ADDITIONAL_AUTHORITY_URLS": ["https://helyesiras.mta.hu/"],
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://helyesiras.mta.hu/"
+      ],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
       "LANGUAGE_LEARNING_CEFR_URLS": [],
-      "registryGapNotes": "Dictionary/spelling URLs added in §3.1 under Nyelvtudományi Kutatóközpont / MTA official resources."
+      "registryGapNotes": "Dictionary/spelling URLs added in §3.1 under Nyelvtudományi Kutatóközpont / MTA official resources. §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "PONS German–Hungarian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-hungarian/",
+          "entryUrlTemplateNote": "https://de.pons.com/%C3%BCbersetzung/deutsch-ungarisch/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→hu",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ]
     },
     {
       "appCode": "nl",
       "standardCode": "nl",
       "LANGUAGE_NORM_AUTHORITY": "Nederlandse Taalunie",
-      "LANGUAGE_NORM_URLS": ["https://taalunie.org/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://taalunie.org/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Woordenlijst Nederlandse Taal",
-      "PRIMARY_DICTIONARY_URLS": ["https://woordenlijst.org/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://woordenlijst.org/"
+      ],
       "ADDITIONAL_AUTHORITY": "Taaladvies.net (Taalunie)",
-      "ADDITIONAL_AUTHORITY_URLS": ["https://taaladvies.net/"],
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://taaladvies.net/"
+      ],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
       "LANGUAGE_LEARNING_CEFR_URLS": [],
-      "registryGapNotes": "taaladvies.net added in §3.1 as Taalunie advice portal."
+      "registryGapNotes": "taaladvies.net added in §3.1 as Taalunie advice portal. §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "PONS German–Dutch Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-dutch/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-dutch/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→nl",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ]
     },
     {
       "appCode": "nb",
       "standardCode": "nb",
       "LANGUAGE_NORM_AUTHORITY": "Språkrådet",
-      "LANGUAGE_NORM_URLS": ["https://sprakradet.no/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://sprakradet.no/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Bokmålsordboka (ordbokene.no)",
-      "PRIMARY_DICTIONARY_URLS": ["https://ordbokene.no/bm"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://ordbokene.no/bm"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -205,9 +476,13 @@
       "appCode": "nn",
       "standardCode": "nn",
       "LANGUAGE_NORM_AUTHORITY": "Språkrådet",
-      "LANGUAGE_NORM_URLS": ["https://sprakradet.no/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://sprakradet.no/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Nynorskordboka (ordbokene.no)",
-      "PRIMARY_DICTIONARY_URLS": ["https://ordbokene.no/nn"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://ordbokene.no/nn"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -217,44 +492,124 @@
       "appCode": "pl",
       "standardCode": "pl",
       "LANGUAGE_NORM_AUTHORITY": "Rada Języka Polskiego",
-      "LANGUAGE_NORM_URLS": ["https://rjp.pan.pl/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://rjp.pan.pl/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Wielki słownik języka polskiego PAN (wsjp.pl)",
-      "PRIMARY_DICTIONARY_URLS": ["https://wsjp.pl/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://wsjp.pl/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "PONS German–Polish Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-polish/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-polish/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→pl",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
     },
     {
       "appCode": "pt",
       "standardCode": "pt",
       "LANGUAGE_NORM_AUTHORITY": "Academia das Ciências de Lisboa",
-      "LANGUAGE_NORM_URLS": ["https://www.acad-ciencias.pt/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://www.acad-ciencias.pt/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Dicionário Académico de Lisboa",
-      "PRIMARY_DICTIONARY_URLS": ["https://dicionario.acad-ciencias.pt/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://dicionario.acad-ciencias.pt/"
+      ],
       "ADDITIONAL_AUTHORITY": "Portal da Língua Portuguesa",
-      "ADDITIONAL_AUTHORITY_URLS": ["https://www.portaldalinguaportuguesa.org/"],
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://www.portaldalinguaportuguesa.org/"
+      ],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
       "LANGUAGE_LEARNING_CEFR_URLS": [],
-      "registryGapNotes": "Portal da Língua Portuguesa added in §3.1 as ACL-adjacent official Portuguese language portal."
+      "registryGapNotes": "Portal da Língua Portuguesa added in §3.1 as ACL-adjacent official Portuguese language portal. §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "PONS German–Portuguese Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-portuguese/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-portuguese/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→pt",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ]
     },
     {
       "appCode": "ro",
       "standardCode": "ro",
       "LANGUAGE_NORM_AUTHORITY": "Academia Română",
-      "LANGUAGE_NORM_URLS": ["https://acad.ro/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://acad.ro/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "DOOM — Dicționarul ortografic, ortoepic și morfologic",
-      "PRIMARY_DICTIONARY_URLS": ["https://doom.lingv.ro/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://doom.lingv.ro/"
+      ],
       "ADDITIONAL_AUTHORITY": "Institutul de Lingvistică — lingv.ro",
-      "ADDITIONAL_AUTHORITY_URLS": ["https://lingv.ro/"],
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://lingv.ro/"
+      ],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "PONS German–Romanian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-romanian/",
+          "entryUrlTemplateNote": "https://de.pons.com/%C3%BCbersetzung/deutsch-rum%C3%A4nisch/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→ro",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
     },
     {
       "appCode": "sq",
       "standardCode": "sq",
       "LANGUAGE_NORM_AUTHORITY": "Akademia e Shkencave e Shqipërisë",
-      "LANGUAGE_NORM_URLS": ["https://akad.gov.al/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://akad.gov.al/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": null,
       "PRIMARY_DICTIONARY_URLS": [],
       "ADDITIONAL_AUTHORITY": null,
@@ -266,9 +621,13 @@
       "appCode": "sk",
       "standardCode": "sk",
       "LANGUAGE_NORM_AUTHORITY": "Jazykovedný ústav Ľudovíta Štúra SAV",
-      "LANGUAGE_NORM_URLS": ["https://www.juls.savba.sk/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://www.juls.savba.sk/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Slovníkový portál JÚĽŠ",
-      "PRIMARY_DICTIONARY_URLS": ["https://slovnik.juls.savba.sk/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://slovnik.juls.savba.sk/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -278,9 +637,13 @@
       "appCode": "sl",
       "standardCode": "sl",
       "LANGUAGE_NORM_AUTHORITY": "ZRC SAZU",
-      "LANGUAGE_NORM_URLS": ["https://www.zrc-sazu.si/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://www.zrc-sazu.si/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "FRAN — Slovenski jezik",
-      "PRIMARY_DICTIONARY_URLS": ["https://fran.si/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://fran.si/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -290,9 +653,13 @@
       "appCode": "sr",
       "standardCode": "sr",
       "LANGUAGE_NORM_AUTHORITY": "Institut za srpski jezik SANU",
-      "LANGUAGE_NORM_URLS": ["https://www.isj.sanu.ac.rs/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://www.isj.sanu.ac.rs/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Matica srpska",
-      "PRIMARY_DICTIONARY_URLS": ["https://www.maticasrpska.org.rs/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.maticasrpska.org.rs/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -302,11 +669,17 @@
       "appCode": "fi",
       "standardCode": "fi",
       "LANGUAGE_NORM_AUTHORITY": "Kotimaisten kielten keskus",
-      "LANGUAGE_NORM_URLS": ["https://www.kotus.fi/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://www.kotus.fi/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Kielitoimiston sanakirja",
-      "PRIMARY_DICTIONARY_URLS": ["https://www.kielitoimistonsanakirja.fi/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.kielitoimistonsanakirja.fi/"
+      ],
       "ADDITIONAL_AUTHORITY": "Ohjepankki (Kotus)",
-      "ADDITIONAL_AUTHORITY_URLS": ["https://www.kotus.fi/ohjepankki/"],
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://www.kotus.fi/ohjepankki/"
+      ],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
       "LANGUAGE_LEARNING_CEFR_URLS": [],
       "registryGapNotes": "Ohjepankki path added in §3.1 under Kotus official site."
@@ -315,21 +688,50 @@
       "appCode": "sv",
       "standardCode": "sv",
       "LANGUAGE_NORM_AUTHORITY": "Svenska Akademien",
-      "LANGUAGE_NORM_URLS": ["https://www.svenskaakademien.se/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://www.svenskaakademien.se/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Svenska Akademiens ord böcker (SAOL / SO / SAOB)",
-      "PRIMARY_DICTIONARY_URLS": ["https://svenska.se/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://svenska.se/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "PONS German–Swedish Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-swedish/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-swedish/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→sv",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
     },
     {
       "appCode": "tr",
       "standardCode": "tr",
       "LANGUAGE_NORM_AUTHORITY": "Türk Dil Kurumu — Yazım Kılavuzu",
-      "LANGUAGE_NORM_URLS": ["https://tdk.gov.tr/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://tdk.gov.tr/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "TDK Güncel Türkçe Sözlük",
-      "PRIMARY_DICTIONARY_URLS": ["https://sozluk.gov.tr/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://sozluk.gov.tr/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -339,9 +741,13 @@
       "appCode": "gr",
       "standardCode": "el",
       "LANGUAGE_NORM_AUTHORITY": "Κέντρο Ελληνικής Γλώσσας",
-      "LANGUAGE_NORM_URLS": ["https://www.greek-language.gr/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://www.greek-language.gr/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Λεξικό της κοινής νεοελληνικής (Τριανταφυλλίδης)",
-      "PRIMARY_DICTIONARY_URLS": ["https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -351,21 +757,50 @@
       "appCode": "bg",
       "standardCode": "bg",
       "LANGUAGE_NORM_AUTHORITY": "Институт за български език, БАН",
-      "LANGUAGE_NORM_URLS": ["https://ibl.bas.bg/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://ibl.bas.bg/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Български речник онлайн (BERON)",
-      "PRIMARY_DICTIONARY_URLS": ["https://beron.mon.bg/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://beron.mon.bg/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
-      "LANGUAGE_LEARNING_CEFR_URLS": []
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "PONS German–Bulgarian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-bulgarian/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-bulgarian/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→bg",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default)."
     },
     {
       "appCode": "mk",
       "standardCode": "mk",
       "LANGUAGE_NORM_AUTHORITY": "Институт за македонски јазик „Крсте Мисирков“",
-      "LANGUAGE_NORM_URLS": ["https://imj.ukim.edu.mk/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://imj.ukim.edu.mk/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Дигитален речник на македонскиот јазик (drmj.eu)",
-      "PRIMARY_DICTIONARY_URLS": ["https://drmj.eu/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://drmj.eu/"
+      ],
       "ADDITIONAL_AUTHORITY": null,
       "ADDITIONAL_AUTHORITY_URLS": [],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
@@ -376,11 +811,17 @@
       "appCode": "ru",
       "standardCode": "ru",
       "LANGUAGE_NORM_AUTHORITY": "Институт русского языка им. В. В. Виноградова РАН",
-      "LANGUAGE_NORM_URLS": ["https://ruslang.ru/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://ruslang.ru/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Орфографический ресурс АКАДЕМОС (orfo.ruslang.ru)",
-      "PRIMARY_DICTIONARY_URLS": ["https://orfo.ruslang.ru/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://orfo.ruslang.ru/"
+      ],
       "ADDITIONAL_AUTHORITY": "Грамота.ру — справочно-информационный портал (ИРЯ РАН)",
-      "ADDITIONAL_AUTHORITY_URLS": ["https://gramota.ru/"],
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://gramota.ru/"
+      ],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
       "LANGUAGE_LEARNING_CEFR_URLS": [],
       "registryGapNotes": "gramota.ru added in §3.1 as IRYa RAN official reference portal."
@@ -389,26 +830,67 @@
       "appCode": "uk",
       "standardCode": "uk",
       "LANGUAGE_NORM_AUTHORITY": "Інститут української мови НАН України",
-      "LANGUAGE_NORM_URLS": ["https://iul-nasu.org.ua/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://iul-nasu.org.ua/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Словники України online (УМІФ НАН України)",
-      "PRIMARY_DICTIONARY_URLS": ["https://lcorp.ulif.org.ua/dictua/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://lcorp.ulif.org.ua/dictua/"
+      ],
       "ADDITIONAL_AUTHORITY": "Український правопис (МОН)",
-      "ADDITIONAL_AUTHORITY_URLS": ["https://mon.gov.ua/osvita-2/zagalna-serednya-osvita/ukrainskiy-pravopis"],
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://mon.gov.ua/osvita-2/zagalna-serednya-osvita/ukrainskiy-pravopis"
+      ],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
       "LANGUAGE_LEARNING_CEFR_URLS": [],
-      "registryGapNotes": "dictua added in §3.1; MON pravopis URL from §3 table."
+      "registryGapNotes": "dictua added in §3.1; MON pravopis URL from §3 table. §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "PONS German–Ukrainian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-ukrainian/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-ukrainian/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→uk",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": false,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "PROBE_FAILED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": false,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": "parse_or_sense_failed"
+        }
+      ]
     },
     {
       "appCode": "de",
       "standardCode": "de",
       "LANGUAGE_NORM_AUTHORITY": "Rat für deutsche Rechtschreibung",
-      "LANGUAGE_NORM_URLS": ["https://www.rechtschreibrat.com/"],
+      "LANGUAGE_NORM_URLS": [
+        "https://www.rechtschreibrat.com/"
+      ],
       "PRIMARY_DICTIONARY_AUTHORITY": "Duden + DWDS (lexicon / usage)",
-      "PRIMARY_DICTIONARY_URLS": ["https://www.duden.de/", "https://www.dwds.de/"],
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.duden.de/",
+        "https://www.dwds.de/"
+      ],
       "ADDITIONAL_AUTHORITY": "Goethe-Institut (CEFR/DaF); IDS grammis",
-      "ADDITIONAL_AUTHORITY_URLS": ["https://www.goethe.de/", "https://grammis.ids-mannheim.de/rechtschreibung"],
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://www.goethe.de/",
+        "https://grammis.ids-mannheim.de/rechtschreibung"
+      ],
       "LANGUAGE_LEARNING_CEFR_AUTHORITY": "Goethe-Institut / GeR",
-      "LANGUAGE_LEARNING_CEFR_URLS": ["https://www.goethe.de/"]
+      "LANGUAGE_LEARNING_CEFR_URLS": [
+        "https://www.goethe.de/"
+      ]
     }
-  ]
+  ],
+  "germanTargetBilingualRegistryMeta": {
+    "updatedAt": "2026-09-20T17:21:24.976Z",
+    "ownerApprovalRequired": true,
+    "classification": "G2_A1_GERMAN_TARGET_DICTIONARY_SOURCES_PARTIALLY_READY"
+  }
 }

@@ -1,0 +1,429 @@
+{
+  "generatedAt": "2026-09-20T17:21:24.976Z",
+  "classification": "G2_A1_GERMAN_TARGET_DICTIONARY_SOURCES_PARTIALLY_READY",
+  "nextAction": "OWNER_REVIEW_REMAINING_EXACT_DICTIONARY_BLOCKERS",
+  "registryRows": [
+    {
+      "language": "bg",
+      "appCode": "bg",
+      "standardCode": "bg",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "PONS German–Bulgarian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-bulgarian/",
+          "entryUrl": "https://en.pons.com/translate/german-bulgarian/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→bg",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "notes": null
+        }
+      ],
+      "bundleComplete": true,
+      "ownerApprovalRequired": true
+    },
+    {
+      "language": "bs",
+      "appCode": "bs",
+      "standardCode": "bs",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "dict.cc German–Bosnian",
+          "sourceUrl": "https://debs.dict.cc/",
+          "entryUrl": "https://debs.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→bs",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "notes": "Class E — requires bundle with DE authority + TARGET A–D source for SOURCE-SUPPORTED PASS"
+        },
+        {
+          "role": "TARGET_ORTHOGRAPHY",
+          "sourceName": "Pravopis bosanskoga jezika (Halilović)",
+          "sourceUrl": "https://www.pravopis.ba/",
+          "entryUrl": "https://www.pravopis.ba/",
+          "publisher": "Senahid Halilović / pravopis.ba",
+          "sourceClass": "D",
+          "languagePair": "bs monolingual orthography",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": false,
+          "orthographyEvidenceSupported": true,
+          "editorialProvenance": "professional_institutional_reference",
+          "automationStatus": "PROBE_FAILED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": false,
+          "notes": "orthography_only_not_haus_pilot"
+        }
+      ],
+      "bundleComplete": true,
+      "ownerApprovalRequired": true
+    },
+    {
+      "language": "fr",
+      "appCode": "fr",
+      "standardCode": "fr",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "PONS German–French Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-french/",
+          "entryUrl": "https://en.pons.com/translate/german-french/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→fr",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "notes": null
+        }
+      ],
+      "bundleComplete": true,
+      "ownerApprovalRequired": true
+    },
+    {
+      "language": "hu",
+      "appCode": "hu",
+      "standardCode": "hu",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "PONS German–Hungarian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-hungarian/",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-ungarisch/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→hu",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "notes": null
+        }
+      ],
+      "bundleComplete": true,
+      "ownerApprovalRequired": true
+    },
+    {
+      "language": "is",
+      "appCode": "is",
+      "standardCode": "is",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "dict.cc German–Icelandic",
+          "sourceUrl": "https://deis.dict.cc/",
+          "entryUrl": "https://deis.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→is",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "notes": "Class E — requires bundle with DE authority + TARGET A–D source for SOURCE-SUPPORTED PASS"
+        },
+        {
+          "role": "SUPPLEMENTAL_TARGET",
+          "sourceName": "Íslensk nútímamál (málfræði) — malid.is",
+          "sourceUrl": "https://malid.is/",
+          "entryUrl": "https://malid.is/",
+          "publisher": "Árnastofnun / Icelandic language resources",
+          "sourceClass": "A",
+          "languagePair": "is monolingual",
+          "accessMode": null,
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": false,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "government_language_institute",
+          "automationStatus": "PROBE_FAILED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": false,
+          "notes": "unknown_probe_type"
+        }
+      ],
+      "bundleComplete": true,
+      "ownerApprovalRequired": true
+    },
+    {
+      "language": "it",
+      "appCode": "it",
+      "standardCode": "it",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "PONS German–Italian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-italian/",
+          "entryUrl": "https://en.pons.com/translate/german-italian/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→it",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "notes": null
+        }
+      ],
+      "bundleComplete": true,
+      "ownerApprovalRequired": true
+    },
+    {
+      "language": "lb",
+      "appCode": "lb",
+      "standardCode": "lb",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "Lëtzebuerger Online Dictionnaire (LOD)",
+          "sourceUrl": "https://lod.lu/",
+          "entryUrl": "https://lod.lu/sich/lb/Haus",
+          "publisher": "Zenter fir d'Lëtzebuerger Sprooch (ZLS)",
+          "sourceClass": "A",
+          "languagePair": "de↔lb (Luxembourg institutional)",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": true,
+          "editorialProvenance": "official_language_institute",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "notes": null
+        }
+      ],
+      "bundleComplete": true,
+      "ownerApprovalRequired": true
+    },
+    {
+      "language": "lt",
+      "appCode": "lt",
+      "standardCode": "lt",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "PONS German–Lithuanian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-lithuanian/",
+          "entryUrl": "https://en.pons.com/translate/german-lithuanian/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→lt",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": false,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "PROBE_FAILED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": false,
+          "notes": "parse_or_sense_failed"
+        }
+      ],
+      "bundleComplete": false,
+      "ownerApprovalRequired": true
+    },
+    {
+      "language": "nl",
+      "appCode": "nl",
+      "standardCode": "nl",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "PONS German–Dutch Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-dutch/",
+          "entryUrl": "https://en.pons.com/translate/german-dutch/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→nl",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "notes": null
+        }
+      ],
+      "bundleComplete": true,
+      "ownerApprovalRequired": true
+    },
+    {
+      "language": "pl",
+      "appCode": "pl",
+      "standardCode": "pl",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "PONS German–Polish Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-polish/",
+          "entryUrl": "https://en.pons.com/translate/german-polish/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→pl",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "notes": null
+        }
+      ],
+      "bundleComplete": true,
+      "ownerApprovalRequired": true
+    },
+    {
+      "language": "pt",
+      "appCode": "pt",
+      "standardCode": "pt",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "PONS German–Portuguese Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-portuguese/",
+          "entryUrl": "https://en.pons.com/translate/german-portuguese/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→pt",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "notes": null
+        }
+      ],
+      "bundleComplete": true,
+      "ownerApprovalRequired": true
+    },
+    {
+      "language": "ro",
+      "appCode": "ro",
+      "standardCode": "ro",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "PONS German–Romanian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-romanian/",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-rum%C3%A4nisch/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→ro",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "notes": null
+        }
+      ],
+      "bundleComplete": true,
+      "ownerApprovalRequired": true
+    },
+    {
+      "language": "sv",
+      "appCode": "sv",
+      "standardCode": "sv",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "PONS German–Swedish Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-swedish/",
+          "entryUrl": "https://en.pons.com/translate/german-swedish/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→sv",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "notes": null
+        }
+      ],
+      "bundleComplete": true,
+      "ownerApprovalRequired": true
+    },
+    {
+      "language": "uk",
+      "appCode": "uk",
+      "standardCode": "uk",
+      "sources": [
+        {
+          "role": "PRIMARY_BILINGUAL",
+          "sourceName": "PONS German–Ukrainian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-ukrainian/",
+          "entryUrl": "https://en.pons.com/translate/german-ukrainian/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→uk",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": false,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "PROBE_FAILED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": false,
+          "notes": "parse_or_sense_failed"
+        }
+      ],
+      "bundleComplete": false,
+      "ownerApprovalRequired": true
+    }
+  ],
+  "summary": {
+    "professionalEditedCount": 9,
+    "browserAutomatable": 12,
+    "bundleCount": 12,
+    "ownerPending": 14,
+    "readyCount": 12,
+    "hausPilotPassCount": 12
+  }
+}

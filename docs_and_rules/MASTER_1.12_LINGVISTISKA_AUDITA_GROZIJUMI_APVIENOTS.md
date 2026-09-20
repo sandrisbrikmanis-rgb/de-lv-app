@@ -101,8 +101,24 @@ Papildus §3 tabulas saīsinātajam URL laukam, repozitorijā uztur **pilnu trī
 | `ADDITIONAL_AUTHORITY_URLS` | ③ Oficiālie URL |
 | `LANGUAGE_LEARNING_CEFR_AUTHORITY` | CEFR / mācību līmeņa oficiālais avots (ja piemērojams) |
 | `LANGUAGE_LEARNING_CEFR_URLS` | CEFR URL |
+| `GERMAN_TARGET_BILINGUAL_SOURCES` | Vācu→TARGET profesionāli rediģētas / institucionālas divvalodu vārdnīcas (G2/A1 reģistrs; OWNER apstiprinājums obligāts) |
 
 **Mašīnlasāms avots (GitHub autoritatīvs):** `scripts/lib/data/master-language-authority-sources-33.json`
+
+## 3.2 IZMANTOJAMO AVOTU PRIORITĀTE (A–F)
+
+| Klase | Nozīme |
+|---|---|
+| **A** | Valsts vai valodas institūcijas tulkojoša/skaidrojoša vārdnīca |
+| **B** | Profesionāli rediģēta komerciāla izdevniecības vārdnīca (piem. PONS) |
+| **C** | Universitātes, valsts iestādes vai atzīta izdevēja mācību materiāls |
+| **D** | Oficiāla vienvalodas TARGET vārdnīca semantikas, lemmas, gramatikas vai ortogrāfijas papildu pārbaudei |
+| **E** | Kopienas vārdnīca **tikai** kopā ar vismaz vienu neatkarīgu A–D avotu |
+| **F** | Mašīntulkojums, AI atbilde vai nezināmas izcelsmes tulkojums — nav pierādījums viens pats |
+
+Komerciālu vārdnīcu nedrīkst noraidīt tikai tāpēc, ka tā ir komerciāla. AI/LLM nav valodas autoritāte.
+
+**SOURCE-SUPPORTED kopums:** DE avots (vācu vārds + nozīme) + vācu–TARGET vārdnīca (ekvivalents) + pēc vajadzības TARGET D avots (lemma/ortogrāfija). `PASS` tikai ja kopums sedz konkrēto kartītes nozīmi.
 
 G2/A1 oficiālo avotu adapteri un domēnu allowlist izmanto **visu** šo JSON reģistru (①+②+③+CEFR URL), ne tikai §3 tabulas pirmo URL kolonnu. URL bez izsekošanas parametriem (`utm_*` u.c.).
 
