@@ -117,6 +117,24 @@ function main() {
 
   if (payload.full95731AuditRan) blockers.push({ code: "FULL_AUDIT_RAN_FORBIDDEN" });
 
+  const resolutionMerged = Boolean(payload.freshLiveResolutionAt);
+  if (resolutionMerged) {
+    const extended = [
+      "sourceType",
+      "officialStatusEvidence",
+      "ownerApprovalStatus",
+      "datasetSha256",
+      "sourceBundleId",
+    ];
+    for (const r of rows) {
+      if (["bg", "bs", "fr", "hr", "hu", "is", "it", "lb", "lt", "mk", "nl", "pl", "pt", "ro", "sq", "sr", "sv", "uk"].includes(r.language)) {
+        for (const f of extended) {
+          if (!(f in r)) blockers.push({ code: "MISSING_RESOLUTION_FIELD", language: r.language, field: f });
+        }
+      }
+    }
+  }
+
   const prodDiff = execSync("git diff --name-only -- data www/data crowdin data/de", {
     cwd: ROOT,
     encoding: "utf8",

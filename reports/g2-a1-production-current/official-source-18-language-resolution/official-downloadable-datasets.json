@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-09-20T15:27:27.890Z",
+  "datasets": [
+    {
+      "language": "bs",
+      "proposalId": "bs-izj-archive-rbj-c4",
+      "downloadUrl": "https://archive.org/details/RjenikBosanskogJezikaInstitutZaJezikSarajevo2007.",
+      "format": "ARCHIVE_ITEM",
+      "datasetSha256": null,
+      "licenseOrAccess": "Internet Archive public borrow/stream; not a substitute for institute-hosted API.",
+      "note": "SHA requires OWNER-approved download pipeline — not executed in this pass"
+    }
+  ]
+}

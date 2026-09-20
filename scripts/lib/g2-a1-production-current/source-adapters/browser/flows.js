@@ -178,7 +178,11 @@ async function flowPlWsjp(page, lookupTerm, allowedDomains) {
   const guard = classifyBrowserText(text, finalUrl);
   if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
   const parsed = extractHeadwordFragment(text, lookupTerm);
-  if (!parsed || !/znaczenie|hasło|wyraz/i.test(parsed.fragment)) {
+  if (
+    !parsed ||
+    !/\/haslo\//i.test(finalUrl) ||
+    !/znaczenie|definicj|budyn|dom\b.*\bm\./i.test(parsed.fragment)
+  ) {
     return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
   }
   return {
@@ -269,11 +273,36 @@ const FLOW_RUNNERS = {
       searchUrlTemplate: (t) => `https://www.dictionnaire-academie.fr/#/recherche/${encodeURIComponent(t)}`,
       validateRe: /.+/,
     }),
-  "hr-rjecnik": (page, term, allow) =>
-    flowGenericSearchUrl(page, term, allow, {
-      searchUrlTemplate: (t) => `https://rjecnik.hr/?query=${encodeURIComponent(t)}`,
-      validateRe: /.+/,
-    }),
+  "hr-rjecnik": async (page, term, allow) => {
+    const searchUrl = "https://rjecnik.hr/";
+    await page.goto(searchUrl, { waitUntil: "networkidle", timeout: 90000 });
+    await acceptCookiesIfPresent(page);
+    await page.waitForTimeout(2500);
+    const inp = page.locator('input[type="text"], input[type="search"]').first();
+    await inp.fill(term);
+    await inp.press("Enter");
+    await page.waitForTimeout(10000);
+    const finalUrl = page.url();
+    const host = new URL(finalUrl).hostname;
+    if (!isHostnameAllowed(host, allow)) {
+      return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+    }
+    const text = await bodyText(page);
+    const guard = classifyBrowserText(text, finalUrl);
+    if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+    const parsed = extractHeadwordFragment(text, term);
+    if (!parsed || !/građevina|im\.\s*ž|stanovanj|zgrada/i.test(parsed.fragment)) {
+      return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+    }
+    return {
+      validated: true,
+      searchUrl,
+      entryUrl: finalUrl,
+      headword: parsed.headword,
+      fragment: parsed.fragment,
+      entryOrRule: `Školski rječnik hrvatskoga jezika: ${parsed.headword}`,
+    };
+  },
   "nl-woordenlijst": async (page, term, allow) => {
     const searchUrl = `https://woordenlijst.org/#/zoeken/${encodeURIComponent(term)}`;
     await page.goto(searchUrl, { waitUntil: "domcontentloaded" });

@@ -171,6 +171,17 @@ Katrai lingvistiskajai rindai obligāta secība:
 
 `FINDING` un `PROPOSED_NEW` bez TARGET autoritatīvā pierādījuma ir **aizliegts**.
 
+Autoritatīvs TARGET pierādījums nav ierobežots tikai ar klasisku tīmekļa vārdnīcas
+entry lapu. Drīkst izmantot arī oficiālas digitālās vārdnīcas, API, lejupielādējamas
+institūciju datu kopas, terminoloģijas datubāzes, valodas korpusus, ortogrāfijas un
+morfoloģijas resursus, institūciju PDF/XML/JSON/CSV/TEI publikācijas un citus oficiālus
+valodas materiālus. Ja viens avots nepierāda visu, drīkst izmantot vairāku oficiālu
+avotu pierādījumu komplektu. AI nav avots un nedrīkst aizpildīt pierādījuma trūkumu.
+
+Joprojām obligāti: DE nozīmes pierādījums; TARGET lemmas pierādījums; TARGET nozīmes
+pierādījums; vārdšķira; rakstība; diakritika; kapitalizācija; reproducējams avots;
+OWNER apstiprinājums MASTER reģistra izmaiņām.
+
 Tehnisku piekļuves kļūdu nedrīkst pārvērst par lingvistisku `FINDING` bez
 TARGET avota šķirkļa.
 

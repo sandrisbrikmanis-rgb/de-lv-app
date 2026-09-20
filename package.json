@@ -83,6 +83,8 @@
     "verify:g2-a1-official-source-blockers-resolution": "node scripts/verify-g2-a1-official-source-blockers-resolution.js",
     "build:g2-a1:official-source-32-language-access": "node scripts/build-g2-a1-official-source-32-language-access.js",
     "verify:g2-a1:official-source-32-language-access": "node scripts/verify-g2-a1-official-source-32-language-access.js",
+    "build:g2-a1:official-source-18-language-resolution": "node scripts/build-g2-a1-official-source-18-language-resolution.js",
+    "verify:g2-a1:official-source-18-language-resolution": "node scripts/verify-g2-a1-official-source-18-language-resolution.js",
     "build:g2-a1:manual-languages-source-reprobe": "node scripts/build-g2-a1-manual-languages-source-reprobe.js",
     "build:g2-a1:master-source-proposals-owner-review": "node scripts/build-g2-a1-master-source-proposals-owner-review.js",
     "build:g2-a1:haus-32-language-source-pilot": "node scripts/build-g2-a1-haus-32-language-source-pilot.js",

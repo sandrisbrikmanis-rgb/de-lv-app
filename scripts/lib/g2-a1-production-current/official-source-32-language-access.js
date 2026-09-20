@@ -26,6 +26,8 @@ const { extractNormativeLemma } = require("../master-capitalization-rule-verify"
 const { closeBrowserPool } = require("./source-adapters/browser/pool");
 
 const OUT_DIR = path.join(ROOT, "reports/g2-a1-production-current/official-source-32-language-access");
+const RESOLUTION_DIR = path.join(ROOT, "reports/g2-a1-production-current/official-source-18-language-resolution");
+const RESOLUTION_JSON = "official-source-18-language-resolution.json";
 const MATRIX_JSON = "official-source-32-language-access-matrix.json";
 const MATRIX_MD = "official-source-32-language-access-matrix.md";
 
@@ -47,6 +49,7 @@ const HAUS_POSITIVE_TEST_LEMMA = Object.freeze({
   sl: "hiša",
   fr: "maison",
   hr: "kuća",
+  hu: "ház",
   is: "hús",
   it: "casa",
   lb: "Haus",
@@ -142,7 +145,14 @@ function automatedAuditUsable(accessStatus) {
   return (
     accessStatus === ACCESS_LEVEL.HTTP ||
     accessStatus === ACCESS_LEVEL.BROWSER ||
-    accessStatus === ACCESS_LEVEL.DATASET
+    accessStatus === ACCESS_LEVEL.DATASET ||
+    accessStatus === "OFFICIAL_ENTRY_HTTP_OR_API" ||
+    accessStatus === "OFFICIAL_BROWSER_ENTRY" ||
+    accessStatus === "OFFICIAL_DOWNLOADABLE_DICTIONARY_DATASET" ||
+    accessStatus === "OFFICIAL_TERMINOLOGY_DATABASE" ||
+    accessStatus === "OFFICIAL_CORPUS_WITH_REPRODUCIBLE_QUERY" ||
+    accessStatus === "OFFICIAL_PDF_XML_JSON_CSV_TEI_MATERIAL" ||
+    accessStatus === "OFFICIAL_MULTI_SOURCE_BUNDLE"
   );
 }
 
@@ -417,31 +427,46 @@ async function buildOfficialSource32LanguageAccess(options = {}) {
   const structured = loadStructuredLanguageAuthoritySources();
   const matrix = listTargetAdapterMatrix();
   const langs = listAllTargetAppLanguages();
-  const resolution = loadJson("reports/g2-a1-production-current/official-source-exact-blockers-resolution.json");
-  const resolutionByLang = new Map((resolution?.resolutions || []).map((r) => [r.language, r]));
+  const blockersResolution = loadJson("reports/g2-a1-production-current/official-source-exact-blockers-resolution.json");
+  const blockersByLang = new Map((blockersResolution?.resolutions || []).map((r) => [r.language, r]));
   const verdicts = loadJson("reports/g2-a1-production-current/haus-32-language-source-pilot/haus-32-language-verdicts.json");
   const verdictByLang = new Map((verdicts?.rows || []).map((r) => [r.language, r]));
 
   const targetRows = [];
+  const resolutionPayload = loadJson(
+    `reports/g2-a1-production-current/official-source-18-language-resolution/${RESOLUTION_JSON}`,
+  );
+  const lang18ByLang = new Map((resolutionPayload?.languageRows || []).map((r) => [r.language, r]));
+
   for (const appLang of langs.sort()) {
     const matrixRow = matrix.find((r) => r.language === appLang);
     const masterRow = structured.pass ? rowByAppCode(structured.languages, appLang) : null;
     const verdictRow = verdictByLang.get(appLang);
-    const resolutionRow = resolutionByLang.get(appLang);
+    const blockersRow = blockersByLang.get(appLang);
     const useCache =
       !live ||
       (reuseValidatedPilot &&
         verdictRow?.sourceAccessStatus === "SOURCE_ENTRY_VALIDATED" &&
         verdictRow.evidenceSha256 &&
-        !resolutionRow);
+        !blockersRow &&
+        !lang18ByLang.has(appLang));
 
-    if (useCache && verdictRow?.sourceAccessStatus === "SOURCE_ENTRY_VALIDATED") {
-      targetRows.push(rowFromPilotCache(appLang, masterRow, matrixRow, verdictRow, resolutionRow));
-    } else if (useCache && resolutionRow && !live) {
-      targetRows.push(rowFromPilotCache(appLang, masterRow, matrixRow, verdictRow, resolutionRow));
+    if (lang18ByLang.has(appLang) && resolutionPayload?.freshLiveProbeAt) {
+      const resRow = lang18ByLang.get(appLang);
+      targetRows.push({
+        ...resRow,
+        entryUrlPattern: matrixRow?.queryEntryUrlConstruction || null,
+        manualOwnerUsable:
+          !resRow.automatedAuditUsable &&
+          (resRow.accessStatus === "OFFICIAL_MANUAL_ONLY" || resRow.accessStatus === ACCESS_LEVEL.MANUAL),
+      });
+    } else if (useCache && verdictRow?.sourceAccessStatus === "SOURCE_ENTRY_VALIDATED") {
+      targetRows.push(rowFromPilotCache(appLang, masterRow, matrixRow, verdictRow, blockersRow));
+    } else if (useCache && blockersRow && !live) {
+      targetRows.push(rowFromPilotCache(appLang, masterRow, matrixRow, verdictRow, blockersRow));
     } else {
       // eslint-disable-next-line no-await-in-loop
-      targetRows.push(await probeLanguageLive(appLang, structured, matrix, resolutionByLang, verdictByLang));
+      targetRows.push(await probeLanguageLive(appLang, structured, matrix, blockersByLang, verdictByLang));
     }
   }
 
@@ -450,9 +475,18 @@ async function buildOfficialSource32LanguageAccess(options = {}) {
   const deRecord = await buildDeRecord(structured, { live: false });
 
   const automatedCount = targetRows.filter((r) => r.automatedAuditUsable).length;
-  const manualCount = targetRows.filter((r) => r.manualOwnerUsable && !r.automatedAuditUsable).length;
+  const manualCount = targetRows.filter(
+    (r) =>
+      !r.automatedAuditUsable &&
+      (r.manualOwnerUsable ||
+        r.accessStatus === ACCESS_LEVEL.MANUAL ||
+        r.accessStatus === "OFFICIAL_MANUAL_ONLY"),
+  ).length;
   const blockedCount = targetRows.filter(
-    (r) => r.accessStatus === ACCESS_LEVEL.NONE && !r.automatedAuditUsable && !r.manualOwnerUsable,
+    (r) =>
+      !r.automatedAuditUsable &&
+      !r.manualOwnerUsable &&
+      (r.accessStatus === ACCESS_LEVEL.NONE || r.accessStatus === "NO_USABLE_OFFICIAL_SOURCE"),
   ).length;
 
   let classification = "G2_A1_OFFICIAL_SOURCE_ACCESS_BLOCKED";
@@ -477,7 +511,19 @@ async function buildOfficialSource32LanguageAccess(options = {}) {
     targetLanguageCount: targetRows.length,
     targetRows,
     deRecord,
-    masterChangeProposals: masterChangeProposals(resolution, targetRows),
+    masterChangeProposals: [
+      ...masterChangeProposals(blockersResolution, targetRows),
+      ...(resolutionPayload?.ownerProposals || []).map((p) => ({
+        language: p.language,
+        currentMasterSourceUrl: p.currentMasterSourceUrl,
+        technicalBlocker: p.currentMasterBlocker,
+        proposedOfficialSource: p.newOfficialSource,
+        proposedUrl: p.sourceUrl,
+        status: p.OWNER_STATUS,
+        recommendedMasterRole: p.recommendedMasterRole,
+      })),
+    ],
+    freshLiveResolutionAt: resolutionPayload?.freshLiveProbeAt || null,
     summary: {
       automatedCount,
       manualCount,
