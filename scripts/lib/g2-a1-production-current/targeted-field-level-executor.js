@@ -33,6 +33,15 @@ const { authorizeTargetedFieldLevelAudit } = require("./authorize-targeted-audit
 const { auditTargetedFieldBatch } = require("./targeted-field-luna-audit");
 const { isApiKeyConfigured } = require("../luna-phase1-openai");
 const { AUDIT_SOURCE, RECORD_KIND } = require("./constants");
+const { OFFICIAL_SOURCE_ACCESS_VERSION, SOURCE_ACCESS_OUTCOME } = require("./official-source-access-constants");
+const { prefetchBatchSourceEvidence } = require("./official-source-access");
+const {
+  validateLinguisticVerdictAgainstSourceAccess,
+  shouldBlockAsTechnical,
+  buildTechnicalSourceAccessRecord,
+} = require("./targeted-source-access-validation");
+const path = require("path");
+const fs = require("fs");
 const { loadState, saveState, appendLog, buildProgressSnapshot, summarizeRecords } = require("./targeted-field-progress");
 const { verifyPostRunClosure } = require("./post-run-verify");
 const { buildOwnerArtifactsFromEvidence } = require("./owner-artifacts");
@@ -78,17 +87,31 @@ function loadMissingRows(options = {}) {
 function planResume(batches, auditBaselineSha) {
   const resume = [];
   for (const b of batches) {
-    const rawCp = loadRawCheckpoint(b.language, b.batchId, auditBaselineSha);
-    const verifiedCp = loadVerifiedCheckpoint(b.language, b.batchId, auditBaselineSha);
+    const rawCp = loadRawCheckpoint(b.language, b.batchId, auditBaselineSha, OFFICIAL_SOURCE_ACCESS_VERSION);
+    const verifiedCp = loadVerifiedCheckpoint(b.language, b.batchId, auditBaselineSha, OFFICIAL_SOURCE_ACCESS_VERSION);
+    const sourceOk =
+      verifiedCp?.sourceAccessVersion === OFFICIAL_SOURCE_ACCESS_VERSION &&
+      verifiedCp?.promptVersion === TARGETED_PROMPT_VERSION;
     resume.push({
       batchId: b.batchId,
       hasRawCheckpoint: Boolean(rawCp?.rawResponse),
-      skipLuna: Boolean(verifiedCp?.completionStatus === "COMPLETE"),
+      skipLuna: Boolean(verifiedCp?.completionStatus === "COMPLETE" && sourceOk),
       checkpointPath: checkpointPath(b.language, b.batchId),
       verifiedCheckpointPath: verifiedCheckpointPath(b.language, b.batchId),
+      obsoleteCheckpoint: Boolean(verifiedCp?.completionStatus === "COMPLETE" && !sourceOk),
     });
   }
   return resume;
+}
+
+function loadPilotVerification() {
+  const p = path.join(ROOT, "reports/g2-a1-production-current/targeted-field-source-access-pilot-verification.json");
+  if (!fs.existsSync(p)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(p, "utf8"));
+  } catch {
+    return null;
+  }
 }
 
 function inventoryRowFromRequest(req, auditBaselineSha) {
@@ -122,24 +145,28 @@ function itemsFromCheckpoint(cp) {
 
 async function processBatch(batch, ctx) {
   const { auditBaselineSha, headSha } = ctx;
-  const existingRaw = loadRawCheckpoint(batch.language, batch.batchId, auditBaselineSha);
-  const existingVerified = loadVerifiedCheckpoint(batch.language, batch.batchId, auditBaselineSha);
+  const existingRaw = loadRawCheckpoint(batch.language, batch.batchId, auditBaselineSha, OFFICIAL_SOURCE_ACCESS_VERSION);
+  const existingVerified = loadVerifiedCheckpoint(batch.language, batch.batchId, auditBaselineSha, OFFICIAL_SOURCE_ACCESS_VERSION);
   let items;
   let validatedItems;
   let lunaCalled = false;
 
-  if (existingVerified?.completionStatus === "COMPLETE") {
+  let sourceEvidenceByKey = null;
+  if (existingVerified?.completionStatus === "COMPLETE" && existingVerified?.sourceAccessVersion === OFFICIAL_SOURCE_ACCESS_VERSION) {
     validatedItems = existingVerified.validatedItems || [];
     items = validatedItems;
   } else {
-    if (existingRaw?.rawResponse) {
+    if (existingRaw?.rawResponse && existingRaw?.sourceAccessVersion === OFFICIAL_SOURCE_ACCESS_VERSION) {
       items = itemsFromCheckpoint(existingRaw);
+      sourceEvidenceByKey = new Map(Object.entries(existingRaw.sourceAccessByKey || {}));
     } else {
       lunaCalled = true;
+      sourceEvidenceByKey = await prefetchBatchSourceEvidence(batch.fieldRequests);
       const scopeId = `g2/a1/targeted-field/${batch.language}/${batch.batchId}`;
       const result = await auditTargetedFieldBatch({
         scopeId,
         fieldRequests: batch.fieldRequests,
+        sourceEvidenceByKey,
       });
       const rawEnvelope = buildCheckpointEnvelope(
         {
@@ -148,12 +175,14 @@ async function processBatch(batch, ctx) {
           auditBaselineSha,
           headSha,
           promptVersion: TARGETED_PROMPT_VERSION,
+          sourceAccessVersion: OFFICIAL_SOURCE_ACCESS_VERSION,
           expectedFieldIdentities: batch.expectedFieldIdentities,
           completionStatus: "RAW_SAVED",
         },
         result.rawResponse,
       );
       rawEnvelope.rawItems = result.items;
+      rawEnvelope.sourceAccessByKey = Object.fromEntries(sourceEvidenceByKey.entries());
       saveRawCheckpoint(rawEnvelope);
       items = result.items;
     }
@@ -170,8 +199,26 @@ async function processBatch(batch, ctx) {
   }
 
   if (!validatedItems) {
+    if (!sourceEvidenceByKey) {
+      sourceEvidenceByKey = new Map(Object.entries(existingRaw?.sourceAccessByKey || {}));
+    }
     validatedItems = [];
     for (const exp of batch.expectedFieldIdentities) {
+      const req = batch.fieldRequests.find((r) => r.identityKey === exp.identityKey);
+      const bundle = sourceEvidenceByKey.get(exp.identityKey);
+      if (!bundle) {
+        return { pass: false, code: TECHNICAL_EXECUTION_STATUS.SOURCE_ACCESS_FAILURE, batchId: batch.batchId, rowId: exp.rowId };
+      }
+      const entryNotFound =
+        bundle.de.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_NOT_FOUND ||
+        bundle.target.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_NOT_FOUND;
+      if (shouldBlockAsTechnical(bundle) || entryNotFound) {
+        const rec = buildTechnicalSourceAccessRecord(req, bundle);
+        rec.sourceAccessProvenance = { de: bundle.de, target: bundle.target };
+        rec.mappingProvenance = "OFFICIAL_SOURCE_ACCESS";
+        validatedItems.push(rec);
+        continue;
+      }
       const item = items.find(
         (it) =>
           fieldIdentityKey({
@@ -191,20 +238,39 @@ async function processBatch(batch, ctx) {
           errors: v.errors,
         };
       }
-      validatedItems.push(v.record);
+      const srcCheck = validateLinguisticVerdictAgainstSourceAccess(v.record, bundle);
+      if (!srcCheck.pass) {
+        return {
+          pass: false,
+          code: TECHNICAL_EXECUTION_STATUS.SOURCE_ACCESS_FAILURE,
+          batchId: batch.batchId,
+          rowId: exp.rowId,
+          errors: [srcCheck.error],
+        };
+      }
+      validatedItems.push({
+        ...v.record,
+        sourceAccessProvenance: { de: bundle.de, target: bundle.target },
+        mappingProvenance: "RAW_LUNA_FIELD_RESULT_WITH_OFFICIAL_SOURCE",
+      });
     }
   }
 
-  if (!existingVerified || existingVerified.completionStatus !== "COMPLETE") {
+  if (
+    !existingVerified ||
+    existingVerified.completionStatus !== "COMPLETE" ||
+    existingVerified.sourceAccessVersion !== OFFICIAL_SOURCE_ACCESS_VERSION
+  ) {
     saveVerifiedCheckpoint({
       language: batch.language,
       batchId: batch.batchId,
       auditBaselineSha,
       headSha,
       promptVersion: TARGETED_PROMPT_VERSION,
+      sourceAccessVersion: OFFICIAL_SOURCE_ACCESS_VERSION,
       completionStatus: "COMPLETE",
       validatedItems,
-      rawCheckpointPath: checkpointPath(batch.language, batch.batchId),
+      rawCheckpointPath: checkpointPath(batch.language, batch.batchId, OFFICIAL_SOURCE_ACCESS_VERSION),
       rawResponseSha256: existingRaw?.rawResponseSha256 || null,
       savedAt: new Date().toISOString(),
     });
@@ -321,9 +387,22 @@ async function runTargetedFieldLevelAudit(options = {}) {
     };
   }
 
+  let batchesToRun = plan.batches;
+  if (options.pilotOnly) {
+    batchesToRun = plan.batches.filter((b) => b.batchId === (options.pilotBatchId || "bg|ordinary|0"));
+    if (!batchesToRun.length) {
+      return {
+        pass: false,
+        phase: "pilot",
+        error: "PILOT_BATCH_NOT_FOUND",
+        FULL_LINGUISTIC_AUDITS_EXECUTED: 0,
+      };
+    }
+  }
+
   const ctx = { auditBaselineSha: auth.auditBaselineSha, headSha: auth.headSha, state };
 
-  for (const batch of plan.batches) {
+  for (const batch of batchesToRun) {
     if (state.processedBatches[batch.batchId]) continue;
 
     appendLog(`batch_start ${batch.batchId} fields=${batch.fieldCount}`);
@@ -432,4 +511,5 @@ module.exports = {
   planResume,
   loadMissingRows,
   processBatch,
+  loadPilotVerification,
 };

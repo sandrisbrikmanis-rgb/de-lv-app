@@ -1,50 +1,63 @@
 #!/usr/bin/env node
 "use strict";
 
-const fs = require("fs");
 const { getOpenAIClient, redactSecrets, DEFAULT_MODEL } = require("../luna-phase1-openai");
 const { TARGETED_PROMPT_VERSION } = require("./targeted-field-payload");
 const { AI_AUDIT_ROLE, AI_NOT_LANGUAGE_AUTHORITY } = require("./constants");
+const { mapPrefetchToPromptEvidence } = require("./official-source-access");
+const { OFFICIAL_SOURCE_ACCESS_VERSION } = require("./official-source-access-constants");
 
 const TARGETED_FIELD_SYSTEM_PROMPT = [
   `Role: ${AI_AUDIT_ROLE}. You are NOT ${AI_NOT_LANGUAGE_AUTHORITY}.`,
   "READ-ONLY G2/A1 production-current field-level linguistic audit (APVIENOTS).",
+  `Official source access version: ${OFFICIAL_SOURCE_ACCESS_VERSION}.`,
+  "Each object includes DE_OFFICIAL_SOURCE and TARGET_OFFICIAL_SOURCE with prefetched read-only evidence from MASTER allowlisted domains.",
+  "You MUST NOT use memory, training data, or unstated URLs as authority.",
+  "Use ONLY the prefetched evidence fragments and URLs in DE_OFFICIAL_SOURCE / TARGET_OFFICIAL_SOURCE for SOURCE_EVIDENCE fields.",
+  "If accessOutcome is not SOURCE_FOUND_AND_READ for either side, return AUDIT_VERDICT null and technicalSourceAccessStatus (do not assign NEEDS_SOURCE_REVIEW).",
+  "NEEDS_SOURCE_REVIEW only when BOTH sides are SOURCE_FOUND_AND_READ but evidence is insufficient for PASS/FINDING.",
   "Return ONLY valid JSON: { \"items\": [ ... ] }.",
   "For EVERY input object id you MUST return exactly one item with the same id.",
   "Never return one shared card-level verdict for multiple field paths.",
   "Each item MUST include the same fieldPath as the input request.",
-  "Required fields per item:",
+  "Required fields per item when linguistic verdict applies:",
   "language, dataset, productionFile, cardId, fieldPath, CURRENT,",
   "DE_AUTHORITY, DE_SOURCE_URL, DE_SOURCE_ENTRY_OR_RULE, DE_SOURCE_EVIDENCE,",
   "TARGET_AUTHORITY, TARGET_SOURCE_URL, TARGET_SOURCE_ENTRY_OR_RULE, TARGET_SOURCE_EVIDENCE,",
   "CONTEXT_REASONING, AUDIT_VERDICT.",
   "FINDING requires CURRENT_PROBLEM, PROPOSED_NEW, NEW_SOURCE_EVIDENCE.",
-  "CEFR fields when applicable.",
-  "Allowed AUDIT_VERDICT only: PASS, FINDING, NEEDS_SOURCE_REVIEW, SOURCE_DE_ISSUE.",
-  "Use only authoritative sources from the request; do not invent translations.",
+  "Allowed AUDIT_VERDICT: PASS, FINDING, NEEDS_SOURCE_REVIEW, SOURCE_DE_ISSUE, or null with technicalSourceAccessStatus.",
   "Chain: AUTHORITATIVE SOURCE → SOURCE EVIDENCE → CONTEXTUAL ANALYSIS → AUDIT VERDICT.",
   "No markdown outside JSON.",
 ].join("\n");
 
-function prepareLunaObjects(fieldRequests) {
-  return fieldRequests.map((req) => ({
-    ...req,
-    id: req.identityKey,
-  }));
+function prepareLunaObjects(fieldRequests, sourceEvidenceByKey) {
+  return fieldRequests.map((req) => {
+    const bundle = sourceEvidenceByKey?.get(req.identityKey);
+    const official = bundle ? mapPrefetchToPromptEvidence(bundle) : null;
+    return {
+      ...req,
+      id: req.identityKey,
+      officialSourceAccessVersion: OFFICIAL_SOURCE_ACCESS_VERSION,
+      ...(official || {}),
+    };
+  });
 }
 
 async function auditTargetedFieldBatch({
   scopeId,
   fieldRequests,
+  sourceEvidenceByKey,
   model = DEFAULT_MODEL,
   client = null,
   signal = null,
 }) {
-  const objects = prepareLunaObjects(fieldRequests);
+  const objects = prepareLunaObjects(fieldRequests, sourceEvidenceByKey);
   const openai = client || getOpenAIClient();
   const payload = {
     adapter: "g2-a1-targeted-field-level-audit",
     promptVersion: TARGETED_PROMPT_VERSION,
+    officialSourceAccessVersion: OFFICIAL_SOURCE_ACCESS_VERSION,
     scopeId,
     auditType: "g2_a1_targeted_field_level",
     objects,
@@ -55,7 +68,7 @@ async function auditTargetedFieldBatch({
       model,
       instructions: TARGETED_FIELD_SYSTEM_PROMPT,
       input: [
-        "Targeted field-level audit. Return valid json with items array — one entry per object id.",
+        "Targeted field-level audit with prefetched official source evidence. Return valid json with items array — one entry per object id.",
         JSON.stringify(payload),
       ].join("\n"),
       text: { format: { type: "json_object" } },
@@ -80,7 +93,12 @@ async function auditTargetedFieldBatch({
   }
   return {
     items,
-    rawResponse: { usage: response.usage || null, model, rawText: redactSecrets(rawText) },
+    rawResponse: {
+      usage: response.usage || null,
+      model,
+      rawText: redactSecrets(rawText),
+      officialSourceAccessVersion: OFFICIAL_SOURCE_ACCESS_VERSION,
+    },
     tokensUsed: response.usage?.total_tokens || 0,
   };
 }

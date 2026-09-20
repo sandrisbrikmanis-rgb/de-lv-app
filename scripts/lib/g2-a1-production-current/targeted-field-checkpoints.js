@@ -11,22 +11,32 @@ const TARGETED_RAW_CHECKPOINT_ROOT = path.join(
   "reports/temp/g2-a1-production-current/targeted-field-luna-raw-checkpoints",
 );
 
+const { OFFICIAL_SOURCE_ACCESS_VERSION } = require("./official-source-access-constants");
+
+function batchFileStem(batchId, sourceAccessVersion) {
+  const safeBatch = batchId.replace(/[/\\:]/g, "_");
+  if (sourceAccessVersion && sourceAccessVersion === OFFICIAL_SOURCE_ACCESS_VERSION) {
+    return `${safeBatch}.${sourceAccessVersion}`;
+  }
+  return safeBatch;
+}
+
 function sha256Text(text) {
   return crypto.createHash("sha256").update(text, "utf8").digest("hex");
 }
 
-function checkpointPath(lang, batchId) {
-  const safeBatch = batchId.replace(/[/\\:]/g, "_");
-  return path.join(TARGETED_RAW_CHECKPOINT_ROOT, lang, `${safeBatch}.luna-raw.json`);
+function checkpointPath(lang, batchId, sourceAccessVersion = null) {
+  const stem = batchFileStem(batchId, sourceAccessVersion);
+  return path.join(TARGETED_RAW_CHECKPOINT_ROOT, lang, `${stem}.luna-raw.json`);
 }
 
-function verifiedCheckpointPath(lang, batchId) {
-  const safeBatch = batchId.replace(/[/\\:]/g, "_");
-  return path.join(TARGETED_RAW_CHECKPOINT_ROOT, lang, `${safeBatch}.luna-verified.json`);
+function verifiedCheckpointPath(lang, batchId, sourceAccessVersion = null) {
+  const stem = batchFileStem(batchId, sourceAccessVersion);
+  return path.join(TARGETED_RAW_CHECKPOINT_ROOT, lang, `${stem}.luna-verified.json`);
 }
 
-function loadRawCheckpoint(lang, batchId, auditBaselineSha) {
-  const p = checkpointPath(lang, batchId);
+function loadRawCheckpoint(lang, batchId, auditBaselineSha, sourceAccessVersion = null) {
+  const p = checkpointPath(lang, batchId, sourceAccessVersion);
   if (!fs.existsSync(p)) return null;
   try {
     const payload = JSON.parse(fs.readFileSync(p, "utf8"));
@@ -37,8 +47,8 @@ function loadRawCheckpoint(lang, batchId, auditBaselineSha) {
   }
 }
 
-function loadVerifiedCheckpoint(lang, batchId, auditBaselineSha) {
-  const p = verifiedCheckpointPath(lang, batchId);
+function loadVerifiedCheckpoint(lang, batchId, auditBaselineSha, sourceAccessVersion = null) {
+  const p = verifiedCheckpointPath(lang, batchId, sourceAccessVersion);
   if (!fs.existsSync(p)) return null;
   try {
     const payload = JSON.parse(fs.readFileSync(p, "utf8"));
@@ -50,8 +60,9 @@ function loadVerifiedCheckpoint(lang, batchId, auditBaselineSha) {
 }
 
 function saveRawCheckpoint(payload, options = {}) {
-  if (options.dryRun) return { saved: false, path: checkpointPath(payload.language, payload.batchId) };
-  const p = checkpointPath(payload.language, payload.batchId);
+  const version = payload.sourceAccessVersion || null;
+  if (options.dryRun) return { saved: false, path: checkpointPath(payload.language, payload.batchId, version) };
+  const p = checkpointPath(payload.language, payload.batchId, version);
   if (fs.existsSync(p)) {
     return { saved: false, skipped: true, reason: "RAW_CHECKPOINT_IMMUTABLE", path: p };
   }
@@ -62,7 +73,8 @@ function saveRawCheckpoint(payload, options = {}) {
 }
 
 function saveVerifiedCheckpoint(payload) {
-  const p = verifiedCheckpointPath(payload.language, payload.batchId);
+  const version = payload.sourceAccessVersion || null;
+  const p = verifiedCheckpointPath(payload.language, payload.batchId, version);
   if (fs.existsSync(p)) {
     return { saved: false, skipped: true, reason: "VERIFIED_CHECKPOINT_EXISTS", path: p };
   }

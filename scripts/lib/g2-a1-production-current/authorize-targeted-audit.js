@@ -2,10 +2,22 @@
 "use strict";
 
 const { execSync } = require("child_process");
+const fs = require("fs");
+const path = require("path");
 const { ROOT } = require("../audit-common");
 const { runPreflight } = require("./preflight");
 const { buildProductionFileSetInventory } = require("./inventory");
 const { isApiKeyConfigured } = require("../luna-phase1-openai");
+
+function loadPilotVerification() {
+  const p = path.join(ROOT, "reports/g2-a1-production-current/targeted-field-source-access-pilot-verification.json");
+  if (!fs.existsSync(p)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(p, "utf8"));
+  } catch {
+    return null;
+  }
+}
 
 function git(cmd) {
   return execSync(cmd, { cwd: ROOT, encoding: "utf8" }).trim();
@@ -67,6 +79,16 @@ function authorizeTargetedFieldLevelAudit(options = {}) {
 
   if (options.executeLuna && !isApiKeyConfigured()) {
     blockers.push({ code: "OPENAI_API_KEY_MISSING" });
+  }
+
+  if (options.executeLuna && !options.pilotOnly) {
+    const pilot = loadPilotVerification();
+    if (!pilot?.pass) {
+      blockers.push({ code: "PILOT_SOURCE_ACCESS_NOT_VERIFIED" });
+    }
+    if (!options.ownerAuthorizeResumeAfterPilot) {
+      blockers.push({ code: "OWNER_RESUME_AFTER_PILOT_NOT_AUTHORIZED" });
+    }
   }
 
   return {

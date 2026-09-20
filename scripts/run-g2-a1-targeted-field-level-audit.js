@@ -11,6 +11,8 @@ function parseArgs(argv) {
     ensureInventory: false,
     help: false,
     ownerAuthorizeTargetedAudit: false,
+    ownerAuthorizeResumeAfterPilot: false,
+    pilotOnly: false,
     expectedMainSha: null,
     expectedProductionFileSetSha: null,
   };
@@ -27,6 +29,8 @@ function parseArgs(argv) {
     else if (arg === "--with-luna") args.executeLuna = true;
     else if (arg === "--ensure-inventory") args.ensureInventory = true;
     else if (arg === "--owner-authorize-targeted-field-audit") args.ownerAuthorizeTargetedAudit = true;
+    else if (arg === "--owner-authorize-resume-after-pilot") args.ownerAuthorizeResumeAfterPilot = true;
+    else if (arg === "--pilot-only") args.pilotOnly = true;
     else if (arg === "--expected-main-sha") args.expectedMainSha = inlineValue ?? argv[++i];
     else if (arg === "--expected-production-file-set-sha") args.expectedProductionFileSetSha = inlineValue ?? argv[++i];
     else throw new Error(`Unknown argument: ${arg}`);
@@ -69,6 +73,8 @@ async function main() {
     expectedMissingCount: 95731,
     useMultipartInventory: true,
     ownerAuthorizeTargetedAudit: args.ownerAuthorizeTargetedAudit,
+    ownerAuthorizeResumeAfterPilot: args.ownerAuthorizeResumeAfterPilot,
+    pilotOnly: args.pilotOnly,
     expectedMainSha: args.expectedMainSha,
     expectedProductionFileSetSha: args.expectedProductionFileSetSha,
   });

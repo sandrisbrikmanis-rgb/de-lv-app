@@ -5,7 +5,7 @@ const { AI_AUDIT_ROLE, AI_NOT_LANGUAGE_AUTHORITY, LEVEL, MASTER_AUTHORIZED_MIN }
 const { bindRegistryAuthorities } = require("./registry-bindings");
 const { loadG2ProductionObjects } = require("./objects");
 
-const TARGETED_PROMPT_VERSION = "g2-a1-targeted-field-level-v1";
+const TARGETED_PROMPT_VERSION = "g2-a1-targeted-field-level-v2-official-source-access";
 
 function findCardObject(lang, cardId) {
   const objects = loadG2ProductionObjects(lang);
