@@ -132,6 +132,29 @@
     return activeLanguage;
   }
 
+  function getStudyCardDeepLinkParam() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get("study") || params.get("card");
+  }
+
+  function hasStudyCardDeepLink() {
+    return Boolean(getStudyCardDeepLinkParam());
+  }
+
+  function resolveSavedLanguageForLaunch(savedLanguage) {
+    if (savedLanguage && window.AppLanguageRegistry.isValid(savedLanguage)) {
+      return savedLanguage;
+    }
+    if (hasStudyCardDeepLink()) {
+      const fallback = window.AppLanguageRegistry.defaultCode;
+      if (window.AppLanguageRegistry.isValid(fallback)) {
+        saveLanguage(fallback);
+        return fallback;
+      }
+    }
+    return savedLanguage;
+  }
+
   async function bootApplicationOnce() {
     if (bootStarted) return;
     bootStarted = true;
@@ -142,18 +165,12 @@
       return;
     }
 
-    const studyCardTestParam = new URLSearchParams(window.location.search).get("study")
-      || new URLSearchParams(window.location.search).get("card");
-
-    if (typeof activateStudyCardTestMode === "function" && await activateStudyCardTestMode(studyCardTestParam)) {
-      return;
-    }
-
     window.bootAppUi();
   }
 
   function shouldShowLanguagePicker(savedLanguage) {
     if (FORCE_LANGUAGE_SELECTION) return true;
+    if (hasStudyCardDeepLink()) return false;
     return !savedLanguage || !window.AppLanguageRegistry.isValid(savedLanguage);
   }
 
@@ -202,7 +219,7 @@
 
     try {
       const minSplashDelay = delay(SPLASH_DURATION_MS);
-      let savedLanguage = getSavedLanguage();
+      let savedLanguage = resolveSavedLanguageForLaunch(getSavedLanguage());
       const needsLanguagePicker = shouldShowLanguagePicker(savedLanguage);
 
       if (!FORCE_LANGUAGE_SELECTION && savedLanguage && !window.AppLanguageRegistry.isValid(savedLanguage)) {
