@@ -2,8 +2,10 @@
 "use strict";
 
 const { AUDIT_VERDICTS, OWNER_STATUSES } = require("./constants");
+const { isLinguisticVerdictClosed } = require("./linguistic-closure");
 
 function isOwnerReviewRow(record) {
+  if (!isLinguisticVerdictClosed(record)) return false;
   const v = record.AUDIT_VERDICT;
   if (v === "FINDING" || v === "NEEDS_SOURCE_REVIEW" || v === "SOURCE_DE_ISSUE") return true;
   if (record.unresolvedDocumented === true) return true;

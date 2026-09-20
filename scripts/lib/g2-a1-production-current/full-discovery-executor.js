@@ -31,6 +31,10 @@ const FULL_DISCOVERY_CHECKPOINT_DIR = path.join(
   ROOT,
   "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints",
 );
+const FULL_DISCOVERY_RAW_LUNA_DIR = path.join(
+  ROOT,
+  "reports/temp/g2-a1-production-current/full-discovery-luna-raw-checkpoints",
+);
 const {
   loadG2ProductionObjects,
   splitObjectsByCardType,
@@ -54,6 +58,33 @@ function loadLangCheckpoint(lang, auditBaselineSha) {
   } catch {
     return null;
   }
+}
+
+function loadLangRawLunaCheckpoint(lang, auditBaselineSha) {
+  const langPath = path.join(FULL_DISCOVERY_RAW_LUNA_DIR, `${lang}.luna-raw.json`);
+  if (!fs.existsSync(langPath)) return null;
+  try {
+    const payload = JSON.parse(fs.readFileSync(langPath, "utf8"));
+    if (payload.auditBaselineSha && payload.auditBaselineSha !== auditBaselineSha) return null;
+    return payload;
+  } catch {
+    return null;
+  }
+}
+
+function saveLangRawLunaCheckpoint(lang, auditBaselineSha, items, meta = {}) {
+  fs.mkdirSync(FULL_DISCOVERY_RAW_LUNA_DIR, { recursive: true });
+  const payload = {
+    language: lang,
+    auditBaselineSha,
+    items,
+    savedAt: new Date().toISOString(),
+    ...meta,
+  };
+  fs.writeFileSync(
+    path.join(FULL_DISCOVERY_RAW_LUNA_DIR, `${lang}.luna-raw.json`),
+    `${JSON.stringify(payload, null, 2)}\n`,
+  );
 }
 
 function saveLangCheckpoint(lang, auditBaselineSha, records, meta = {}) {
@@ -234,22 +265,50 @@ async function runFullDiscoveryAudit(options = {}) {
   let lunaCalls = 0;
 
   for (const lang of AUDIT_LANGUAGES) {
-    const cached = options.useLangCheckpoints !== false ? loadLangCheckpoint(lang, auditBaselineSha) : null;
-    if (cached?.records?.length) {
-      allRecords.push(...cached.records);
-      perLang.push({
-        language: lang,
-        inventoryRows: cached.records.length,
-        lunaItems: null,
-        auditRecords: cached.records.length,
-        resumedFromCheckpoint: true,
-      });
-      continue;
-    }
-
     const row = inventory.rows.find((r) => r.language === lang);
     const datasetProductionSha = row?.dataSha256 || null;
     const inventoryRows = buildTechnicalInventoryRowsForLanguage(lang, datasetProductionSha, auditBaselineSha);
+
+    const rawCached =
+      options.useLangCheckpoints !== false ? loadLangRawLunaCheckpoint(lang, auditBaselineSha) : null;
+    if (rawCached?.items?.length) {
+      const merged = mergeInventoryWithLunaResults(inventoryRows, rawCached.items, lang);
+      if (merged.errors.length) {
+        return { pass: false, phase: "map", lang, mapErrors: merged.errors.slice(0, 5), partialRecords: allRecords.length };
+      }
+      allRecords.push(...merged.records);
+      perLang.push({
+        language: lang,
+        inventoryRows: inventoryRows.length,
+        lunaItems: rawCached.items.length,
+        auditRecords: merged.records.length,
+        resumedFromRawLunaCheckpoint: true,
+      });
+      if (options.useLangCheckpoints !== false) {
+        saveLangCheckpoint(lang, auditBaselineSha, merged.records, {
+          inventoryRows: inventoryRows.length,
+          lunaItems: rawCached.items.length,
+          remappedFromRaw: true,
+        });
+      }
+      continue;
+    }
+
+    if (options.useLangCheckpoints !== false && options.allowLegacyMappedCheckpoint === true) {
+      const cached = loadLangCheckpoint(lang, auditBaselineSha);
+      if (cached?.records?.length) {
+        allRecords.push(...cached.records);
+        perLang.push({
+          language: lang,
+          inventoryRows: cached.records.length,
+          lunaItems: null,
+          auditRecords: cached.records.length,
+          resumedFromCheckpoint: true,
+        });
+        continue;
+      }
+    }
+
     const lunaResult = await runLunaBatchesForLanguage(lang, transport, options);
     if (!lunaResult.ok) {
       return {
@@ -276,6 +335,9 @@ async function runFullDiscoveryAudit(options = {}) {
     };
     perLang.push(langSummary);
     if (options.useLangCheckpoints !== false) {
+      saveLangRawLunaCheckpoint(lang, auditBaselineSha, lunaResult.items, {
+        inventoryRows: inventoryRows.length,
+      });
       saveLangCheckpoint(lang, auditBaselineSha, merged.records, {
         inventoryRows: inventoryRows.length,
         lunaItems: lunaResult.items.length,
@@ -283,7 +345,7 @@ async function runFullDiscoveryAudit(options = {}) {
     }
   }
 
-  const coverage = validateCoverageEquation(tallyAuditedRecords(allRecords));
+  const coverage = validateCoverageEquation(tallyAuditedRecords(allRecords), { requireZeroMissingVerdict: true });
   const metadata = buildFullDiscoveryMetadata({
     executeLuna: true,
     datasetProductionSha: auditBaselineSha,
@@ -344,4 +406,7 @@ module.exports = {
   runLunaBatchesForLanguage,
   verifyG2BatchLimitsOnly,
   writeFullDiscoveryArtifactSet,
+  loadLangRawLunaCheckpoint,
+  saveLangRawLunaCheckpoint,
+  FULL_DISCOVERY_RAW_LUNA_DIR,
 };

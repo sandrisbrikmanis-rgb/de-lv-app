@@ -40,8 +40,12 @@ function lunaPass(overrides) {
   return {
     status: "PASS",
     fieldPath: "a1.card.x.study",
+    DE_AUTHORITY: "DE auth",
+    DE_SOURCE_URL: "https://example.de/",
     DE_SOURCE_ENTRY_OR_RULE: "Lemma x",
     DE_SOURCE_EVIDENCE: "DE evidence for x field only.",
+    TARGET_AUTHORITY: "TARGET auth",
+    TARGET_SOURCE_URL: "https://example.target/",
     TARGET_SOURCE_ENTRY_OR_RULE: "Entry x",
     TARGET_SOURCE_EVIDENCE: "TARGET evidence for x field only.",
     CONTEXT_REASONING: "Aligned in A1 context for this field.",

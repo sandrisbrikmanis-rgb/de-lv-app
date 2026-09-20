@@ -1,0 +1,280 @@
+{
+  "generatedAt": "2026-09-20T05:40:19.424Z",
+  "readOnly": true,
+  "HEAD": "ddde576788556a4b6e847e7bb006551bfa5a08c1",
+  "productionFileSetSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+  "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+  "originMainSha": "4f60ac17c7025f3f4e41d9999e765d2a261101f1",
+  "languagesCompleted": 32,
+  "inventoryRows": 95731,
+  "rawLunaCheckpointFiles": 0,
+  "rawLunaItemCountFromIndex": 22464,
+  "mappedResultRows": 95731,
+  "syntheticFallbackNsrCount": 95731,
+  "postRunPass": false,
+  "promptVersion": "g2-a1-production-current-full-discovery-v1",
+  "modelIfUsed": "gpt-5.6-luna",
+  "archiveDir": "reports/g2-a1-production-current/first-run-evidence/archive",
+  "files": [
+    {
+      "label": "langCheckpointsIndex",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/index.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/index.json",
+      "sha256": "e18e9e55d0cfb832d9201f37cde9f8323b9fbe2fdb29a76af567fa75d24f8bdb"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/bg.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/bg.records.json",
+      "sha256": "848a252954a6281d9eadd6259ddd1df393836c916c70d2f38b1f5f3476f126b3"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/bs.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/bs.records.json",
+      "sha256": "781baadd7bae29b65f721ca17f938c40da6e82ae89d7803cb4cf2d04f3709096"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/cs.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/cs.records.json",
+      "sha256": "71adf07a984728ee15a5add68b22be1206df7b86c162373b9e9ad7226ba2a9d2"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/da.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/da.records.json",
+      "sha256": "9905da6a09df8446528f740667d1efd60b919c20d5690c0ba75ae6404d36a660"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/en.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/en.records.json",
+      "sha256": "75176acdd37401826aee8fc468fd41b14753b25247d78e3e36774ad209db4816"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/es.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/es.records.json",
+      "sha256": "56357fad68d66da81f39e0b9ab57bd1ca2fa15e2874ab9c4c6f597d86110d964"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/et.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/et.records.json",
+      "sha256": "252cddfd1a15c84d1fd7d85f3f669aeb31c7b6f7e8ac008c7c19f7266d402c52"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/fi.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/fi.records.json",
+      "sha256": "0565613c1fd06663d9dac5a0d008d4a57a06300d39aefb310052dfca7a0f9bc7"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/fr.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/fr.records.json",
+      "sha256": "3015ef8cecec85242deced01dcf9620349f70463c63f88dd8a2d260a5d04c28d"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/gr.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/gr.records.json",
+      "sha256": "5ad0b7cf288773a84d60293b4bb789a257266bb8943b799b93b7991f9e1fbcce"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/hr.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/hr.records.json",
+      "sha256": "d0128e4ca2ef8d5d934fad87d4e6fbbe10a2b0d7d0264b2a647399f5f229f2d8"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/hu.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/hu.records.json",
+      "sha256": "3648ee4dabc06b1dded0aa0d0a0b0e080a7f8643e1da56aff210ca67e773fbef"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/is.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/is.records.json",
+      "sha256": "f1a439956fa27fb55419e054f28393184e0dc715f3d868b4d10f14c93e184bbd"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/it.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/it.records.json",
+      "sha256": "9d2c75a97fae8efcc3d03ea0c4fd2c984351585e4abbe59f162d9e436e5dc3ab"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/lb.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/lb.records.json",
+      "sha256": "6456b10d64da87f172fd1bb27ed645081db27db200b2546f3de2415dbeaedd65"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/lt.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/lt.records.json",
+      "sha256": "cec78c0fbbdeee9a929b99fea6c7ff0c55e30c22d56c47e5c3fe85b0e955b8cd"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/lv.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/lv.records.json",
+      "sha256": "e0f62e3e3ad9f695a5c222b0a6537eb2971604c5e38c114c5db486da01bfc280"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/mk.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/mk.records.json",
+      "sha256": "37f69888db0bab5a1df33633b059ae8e279690666643798993e184ec82abe095"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/nb.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/nb.records.json",
+      "sha256": "2f9c8106535738c428e42f274e0859b8d63fa1384d6d7d14964c09d37b903050"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/nl.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/nl.records.json",
+      "sha256": "50e7f0b4bf48548e80ec19e53a281f1d5aa4ab02f60966a999482710f681cc07"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/nn.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/nn.records.json",
+      "sha256": "0352d36d9e4758cee67466eb71c821fdd081c69b7fc6b8c79b581cff90ae48c5"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/pl.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/pl.records.json",
+      "sha256": "b7e2e46359d0a7ae31c4fa675c4babe19fd3004e2cd964f727f89029bcbe9351"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/pt.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/pt.records.json",
+      "sha256": "c28d993e742a4e2f770f6dbb991a9b5b774d3ac5b4a0ac9ab9264a96f61d2361"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/ro.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/ro.records.json",
+      "sha256": "0dac1eef24938a2ad9f55a2866ec7564cefde6eb1a2a4d1fbaef1914ef067e59"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/ru.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/ru.records.json",
+      "sha256": "e47cdf2209f5fd7e1eb49fef343c5eed67bf0d753d8ee5cff59b615c30cfa8b8"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/sk.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/sk.records.json",
+      "sha256": "9fbdcc4ef3f2c76262a7268d5f3915300cfddca0f9697573f66768bc97c7dd42"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/sl.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/sl.records.json",
+      "sha256": "e50fd012e497176df82d630c6ebd5c2e13bf9fee4d20a3de2e520a41f16294be"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/sq.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/sq.records.json",
+      "sha256": "1e9e2a10c57d90350fc5078445f9cf8a9a111016d0e6de9bff49aa8e1a0c5029"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/sr.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/sr.records.json",
+      "sha256": "4452bc1b4d1717e02a4d8d8480755d5abb14b3b62384e2f65120e41f84668409"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/sv.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/sv.records.json",
+      "sha256": "b4bf683e494f7b57a0368e7337faec1d6b25ce7738d0945ad8bad7eb0c07bb9b"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/tr.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/tr.records.json",
+      "sha256": "ed655a2b6893d3cd08ff6f6450acece264db736c556ae25d5495759f0803cfab"
+    },
+    {
+      "label": "langCheckpointRecordsGlob",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-lang-checkpoints/uk.records.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-lang-checkpoints/uk.records.json",
+      "sha256": "75fcf104e93de9b9932656aafb0f365c39ceecd5a5ec662c9938b06b6658a69e"
+    },
+    {
+      "label": "fullDiscoveryMetadata",
+      "path": "reports/g2-a1-production-current/full-discovery-metadata.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/g2-a1-production-current/full-discovery-metadata.json",
+      "sha256": "b6f4896f1492a01e89ab80998e6fbc9d313c61a19ed6f19c5ec7b1e47bdb9589"
+    },
+    {
+      "label": "fullDiscoveryBatchManifest",
+      "path": "reports/g2-a1-production-current/full-discovery-batch-manifest.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/g2-a1-production-current/full-discovery-batch-manifest.json",
+      "sha256": "6b04cd7d7b92b5130d7283c6a6cf3488aeedfc48ed3a261b95e99eef61a5aa59"
+    },
+    {
+      "label": "fullDiscoveryResult",
+      "path": "reports/g2-a1-production-current/full-discovery-result.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/g2-a1-production-current/full-discovery-result.json",
+      "sha256": "48db6c9b0e33288be042baf7559d33e1997f36fc954f705a0fc504f59006abac"
+    },
+    {
+      "label": "postRunVerification",
+      "path": "reports/g2-a1-production-current/post-run-verification.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/g2-a1-production-current/post-run-verification.json",
+      "sha256": "1836557ebf59f71a15dc202ecd84d039aa8e083416b6f3c6b547e2bc2c03ab99"
+    },
+    {
+      "label": "productionInventory",
+      "path": "reports/g2-a1-production-current/production-file-set-inventory.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/g2-a1-production-current/production-file-set-inventory.json",
+      "sha256": "c28a74d3a18f88b59165f3eb0b67ea35b5563ccf8c0a24635d3c4305acf6b80b"
+    },
+    {
+      "label": "reproducibilityManifest",
+      "path": "reports/g2-a1-production-current/reproducibility-manifest.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/g2-a1-production-current/reproducibility-manifest.json",
+      "sha256": "bd6957a74323bbe9cf0cd3ee1efb6c3235550623f3f3b49a290de703f0e2290d"
+    },
+    {
+      "label": "fullAuditEvidence",
+      "path": "reports/g2-a1-production-current/full-audit-evidence.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/g2-a1-production-current/full-audit-evidence.json",
+      "sha256": "b9c8d3c67046b3db55b6e385a770853905b1a775d892122a4d4556fe636f8a03"
+    },
+    {
+      "label": "lunaRunLog",
+      "path": "reports/temp/g2-a1-production-current/full-discovery-luna-run.log",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/full-discovery-luna-run.log",
+      "sha256": "b32f38c2b2fb86e3ba54654e58bdc352151b9514995b19da1c98a3e5a91cf277"
+    },
+    {
+      "label": "ownerAuthorizationRuntime",
+      "path": "reports/temp/g2-a1-production-current/OWNER_AUTHORIZATION_PACKAGE.runtime.json",
+      "archivePath": "reports/g2-a1-production-current/first-run-evidence/archive/temp/g2-a1-production-current/OWNER_AUTHORIZATION_PACKAGE.runtime.json",
+      "sha256": "b63d35b51ad5b36468f3318614f9eca11613eacfd7acf5f050b01e30ad45726c"
+    }
+  ],
+  "missingSources": [
+    {
+      "label": "lunaRawCheckpointsGlob",
+      "rel": "reports/temp/g2-a1-production-current/full-discovery-luna-raw-checkpoints/*.luna-raw.json",
+      "reason": "dir_missing"
+    }
+  ],
+  "note": "First run did not persist per-batch raw Luna JSON; only mapped lang checkpoints and index lunaItems counts remain."
+}
