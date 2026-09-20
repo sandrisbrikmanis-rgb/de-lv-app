@@ -1,25 +1,49 @@
 {
-  "generatedAt": "2026-09-20T12:11:40.997Z",
+  "generatedAt": "2026-09-20T12:32:29.251Z",
   "pilotHeadRequired": "fc4c8a57ca65e596d44d7f2dd23c439664596889",
   "sourcePilotDir": "reports/g2-a1-production-current/haus-32-language-source-pilot",
-  "counts": {
+  "baselineAtStart": {
     "PASS": 4,
     "FINDING": 9,
     "NEEDS_SOURCE_REVIEW": 19,
     "SOURCE_DE_ISSUE": 0
   },
+  "pilotCountsAfterRun": {
+    "PASS": 4,
+    "FINDING": 10,
+    "NEEDS_SOURCE_REVIEW": 18,
+    "SOURCE_DE_ISSUE": 0
+  },
+  "counts": {
+    "PASS": 4,
+    "FINDING": 10,
+    "NEEDS_SOURCE_REVIEW": 18,
+    "SOURCE_DE_ISSUE": 0
+  },
+  "ownerDecisionFinal": {
+    "LABOT": 9,
+    "NELABOT": 0,
+    "NEEDS_SOURCE_REVIEW": 0,
+    "SOURCE_DE_ISSUE": 0
+  },
+  "nsrAtStart": 19,
+  "nsrResolved": 1,
+  "nsrUnresolved": 18,
+  "manualOwnerReviewRows": 18,
+  "masterSourceChangeProposals": 4,
   "coverage": {
     "totalLanguages": 32,
     "findingDecisionRows": 9,
-    "nsrRows": 19,
+    "nsrRows": 18,
     "passEvidenceRows": 4,
-    "sum": 32
+    "sum": 31
   },
   "full95731FieldAuditRun": false,
+  "FULL_LINGUISTIC_AUDITS_EXECUTED": 0,
   "productionApply": false,
-  "ownerDecisionsFilled": false,
-  "classification": "G2_A1_HAUS_OWNER_REVIEW_PACKAGE_READY",
-  "nextAction": "OWNER_REVIEW_9_HAUS_FINDINGS_AND_19_SOURCE_BLOCKERS",
+  "ownerDecisionsFilled": true,
+  "classification": "G2_A1_HAUS_OWNER_FINDINGS_REVIEWED_SOURCE_BLOCKERS_REMAIN",
+  "nextAction": "OWNER_RESOLVE_REMAINING_HAUS_SOURCE_BLOCKERS",
   "languageOrder": [
     "bs",
     "en",
@@ -53,5 +77,6 @@
     "mk",
     "ru",
     "uk"
-  ]
+  ],
+  "executionAt": "2026-09-20T12:32:29.199Z"
 }

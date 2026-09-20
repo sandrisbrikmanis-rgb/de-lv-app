@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-20T11:30:38.766Z",
+  "generatedAt": "2026-09-20T12:28:28.684Z",
   "counts": {
     "PASS": 4,
-    "FINDING": 9,
-    "NEEDS_SOURCE_REVIEW": 19,
+    "FINDING": 10,
+    "NEEDS_SOURCE_REVIEW": 18,
     "SOURCE_DE_ISSUE": 0
   },
   "classification": "G2_A1_HAUS_32_LANGUAGE_SOURCE_SUPPORTED_PILOT_COMPLETE_AWAITING_OWNER_REVIEW",
@@ -37,7 +37,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:25:23.296Z"
+      "checkedAt": "2026-09-20T12:21:17.286Z"
     },
     {
       "language": "en",
@@ -67,7 +67,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:25:23.594Z"
+      "checkedAt": "2026-09-20T12:21:17.575Z"
     },
     {
       "language": "cs",
@@ -82,22 +82,22 @@
       "targetAuthority": "Internetová jazyková příručka (lexicon)",
       "targetSourceUrl": "https://prirucka.ujc.cas.cz/",
       "targetEntryUrl": "https://prirucka.ujc.cas.cz/?id=915#ref_id_2019_15_1",
-      "targetHeadword": null,
-      "targetMeaningFragment": null,
-      "sourceAccessStatus": "SOURCE_ENTRY_NOT_FOUND",
+      "targetHeadword": "dům",
+      "targetMeaningFragment": "Internetová jazyková příručka &ndash; dům Internetová jazyková příručka Ústav pro jazyk český Akademie věd ČR, v.&nbsp;v.&nbsp;i. Hlavní stránka O&nbsp;příručce Nápověda Úpravy v&nbsp;příručce Mobilní verze Návštěvnost English version Související odkazy: Jazyková poradna ČSN&nbsp;01&nbsp;6910 Zajímavé dotazy Databáze dotazů Hledání konkrétního slova nebo tvaru slova. dům dělení: dům 1 rod: m. neživ. jednotné číslo množné číslo 1. pád dům domy 2. pád domu 2 domů 3. pád domu domům 4. pád dům domy 5. pád dome 3 domy 6. pád domě, domu 4 domech 7. pád domem domy příklady: dům U Římanky 5 ; dům U Dvou slunců 5 ; dům U Svaté Trojice 5 , 6 ; Obecní dům (v Praze) 5 ; Bílý dům (ve Washingtonu) 5 ; Lidový dům 5 ; dům Smiřických 5 ; dům Císařské lázně 5 Pražská galerie Dům U Černé Matky Boží/boží vystavuje zajímavá umělecká díla. 5 , 6 V Praze stojí kubistický dům U Černé Matky Boží/boží. 5 , 6 Heslové slovo bylo nalezeno také v následujících slovnících: SSČ , SSJČ SSČ dům, domu m 1. stavení, budova k obývání: obytný, činžovní dům; bydlet v rohovém domě; dům U Dvou slunců; Bílý dům sídlo prezidenta USA; přen. (sběhl se) celý dům všichni obyvatelé domu; publ. evropský dům společenství evropskýc",
+      "sourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "deSourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
-      "orthographyStatus": "NOT_EVALUATED",
-      "capitalizationStatus": "NOT_EVALUATED",
-      "lemmaStatus": "NOT_EVALUATED",
-      "semanticMatchStatus": "NOT_EVALUATED",
-      "proposedTarget": null,
-      "verdict": "NEEDS_SOURCE_REVIEW",
-      "findingType": null,
-      "evidenceSha256": null,
+      "orthographyStatus": "CHECKED",
+      "capitalizationStatus": "FAIL",
+      "lemmaStatus": "CHECKED",
+      "semanticMatchStatus": "PASS",
+      "proposedTarget": "dům",
+      "verdict": "FINDING",
+      "findingType": "CAPITALIZATION_ERROR",
+      "evidenceSha256": "1876c6c100357a4126a20ca88eff1787dddc810d69cef8d63298689baf630aea",
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "dům",
-      "checkedAt": "2026-09-20T11:25:23.902Z"
+      "checkedAt": "2026-09-20T12:21:18.159Z"
     },
     {
       "language": "da",
@@ -127,7 +127,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:25:24.200Z"
+      "checkedAt": "2026-09-20T12:21:18.444Z"
     },
     {
       "language": "et",
@@ -157,7 +157,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:25:25.435Z"
+      "checkedAt": "2026-09-20T12:21:19.856Z"
     },
     {
       "language": "es",
@@ -187,7 +187,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:25:25.842Z"
+      "checkedAt": "2026-09-20T12:21:20.253Z"
     },
     {
       "language": "fr",
@@ -217,7 +217,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "maison",
-      "checkedAt": "2026-09-20T11:25:39.574Z"
+      "checkedAt": "2026-09-20T12:21:48.569Z"
     },
     {
       "language": "hr",
@@ -247,7 +247,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "kuća",
-      "checkedAt": "2026-09-20T11:26:08.456Z"
+      "checkedAt": "2026-09-20T12:22:17.687Z"
     },
     {
       "language": "is",
@@ -277,7 +277,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "hús",
-      "checkedAt": "2026-09-20T11:26:38.178Z"
+      "checkedAt": "2026-09-20T12:22:47.314Z"
     },
     {
       "language": "it",
@@ -307,7 +307,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "casa",
-      "checkedAt": "2026-09-20T11:26:51.684Z"
+      "checkedAt": "2026-09-20T12:23:14.541Z"
     },
     {
       "language": "lv",
@@ -337,7 +337,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:26:52.519Z"
+      "checkedAt": "2026-09-20T12:23:15.384Z"
     },
     {
       "language": "lb",
@@ -367,7 +367,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "Haus",
-      "checkedAt": "2026-09-20T11:27:06.763Z"
+      "checkedAt": "2026-09-20T12:23:44.018Z"
     },
     {
       "language": "lt",
@@ -397,7 +397,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "namas",
-      "checkedAt": "2026-09-20T11:27:22.024Z"
+      "checkedAt": "2026-09-20T12:24:15.047Z"
     },
     {
       "language": "hu",
@@ -427,7 +427,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:27:29.098Z"
+      "checkedAt": "2026-09-20T12:24:22.302Z"
     },
     {
       "language": "nl",
@@ -457,7 +457,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "huis",
-      "checkedAt": "2026-09-20T11:27:54.110Z"
+      "checkedAt": "2026-09-20T12:25:12.589Z"
     },
     {
       "language": "nb",
@@ -487,7 +487,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "hus",
-      "checkedAt": "2026-09-20T11:27:55.705Z"
+      "checkedAt": "2026-09-20T12:25:13.721Z"
     },
     {
       "language": "nn",
@@ -517,7 +517,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "hus",
-      "checkedAt": "2026-09-20T11:27:56.418Z"
+      "checkedAt": "2026-09-20T12:25:14.741Z"
     },
     {
       "language": "pl",
@@ -547,7 +547,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "dom",
-      "checkedAt": "2026-09-20T11:28:14.495Z"
+      "checkedAt": "2026-09-20T12:25:51.438Z"
     },
     {
       "language": "pt",
@@ -577,7 +577,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "casa",
-      "checkedAt": "2026-09-20T11:28:51.983Z"
+      "checkedAt": "2026-09-20T12:26:30.487Z"
     },
     {
       "language": "ro",
@@ -607,7 +607,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "casă",
-      "checkedAt": "2026-09-20T11:29:21.077Z"
+      "checkedAt": "2026-09-20T12:27:00.021Z"
     },
     {
       "language": "sq",
@@ -637,7 +637,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:29:21.949Z"
+      "checkedAt": "2026-09-20T12:27:00.852Z"
     },
     {
       "language": "sk",
@@ -667,7 +667,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "dom",
-      "checkedAt": "2026-09-20T11:29:23.245Z"
+      "checkedAt": "2026-09-20T12:27:01.424Z"
     },
     {
       "language": "sl",
@@ -697,7 +697,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:29:23.554Z"
+      "checkedAt": "2026-09-20T12:27:01.717Z"
     },
     {
       "language": "sr",
@@ -727,7 +727,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:29:23.968Z"
+      "checkedAt": "2026-09-20T12:27:02.633Z"
     },
     {
       "language": "fi",
@@ -757,7 +757,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "talo",
-      "checkedAt": "2026-09-20T11:29:24.790Z"
+      "checkedAt": "2026-09-20T12:27:03.535Z"
     },
     {
       "language": "sv",
@@ -787,7 +787,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "hus",
-      "checkedAt": "2026-09-20T11:29:51.902Z"
+      "checkedAt": "2026-09-20T12:27:30.757Z"
     },
     {
       "language": "tr",
@@ -817,7 +817,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:29:52.708Z"
+      "checkedAt": "2026-09-20T12:27:31.589Z"
     },
     {
       "language": "gr",
@@ -847,7 +847,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:29:52.993Z"
+      "checkedAt": "2026-09-20T12:27:31.882Z"
     },
     {
       "language": "bg",
@@ -877,7 +877,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "къща",
-      "checkedAt": "2026-09-20T11:30:05.871Z"
+      "checkedAt": "2026-09-20T12:27:58.597Z"
     },
     {
       "language": "mk",
@@ -907,7 +907,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:30:08.120Z"
+      "checkedAt": "2026-09-20T12:27:59.762Z"
     },
     {
       "language": "ru",
@@ -937,7 +937,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:30:08.885Z"
+      "checkedAt": "2026-09-20T12:28:00.156Z"
     },
     {
       "language": "uk",
@@ -967,7 +967,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "дім",
-      "checkedAt": "2026-09-20T11:30:38.726Z"
+      "checkedAt": "2026-09-20T12:28:28.663Z"
     }
   ]
 }

@@ -5,7 +5,7 @@ const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("../audit-common");
 const { loadG2Level } = require("../content-crowdin-bridge/roundtrip");
-const { loadHausProductionInventory } = require("./haus-32-language-source-pilot");
+const { loadHausProductionInventory, HAUS_POSITIVE_LOOKUP } = require("./haus-32-language-source-pilot");
 const {
   loadStructuredLanguageAuthoritySources,
   rowByAppCode,
@@ -413,7 +413,7 @@ function buildNsrMarkdown(nsrRows) {
   return lines.join("\n");
 }
 
-function buildHausOwnerReviewPackage() {
+function buildHausOwnerReviewPackage(execution = null) {
   const blockers = [];
   const pilot = readPilotArtifacts();
   if (!pilot.ok) {
@@ -424,7 +424,10 @@ function buildHausOwnerReviewPackage() {
   const rows = verdicts.rows || [];
   const counts = verdicts.counts || {};
 
-  assertBaselineCounts(counts, blockers);
+  const baselineAtStart = { PASS: 4, FINDING: 9, NEEDS_SOURCE_REVIEW: 19, SOURCE_DE_ISSUE: 0 };
+  if (!execution) {
+    assertBaselineCounts(counts, blockers);
+  }
   assertFindingIdentity(rows, blockers);
   if (blockers.length) {
     return { pass: false, code: blockers[0].code, blockers };
@@ -439,38 +442,97 @@ function buildHausOwnerReviewPackage() {
   const nsrRows = rows.filter((r) => r.verdict === "NEEDS_SOURCE_REVIEW").map((r) => buildNsrRow(r, structured));
   const passRows = rows.filter((r) => r.verdict === "PASS").map((r) => buildPassEvidenceRow(r, deEvidence));
   const fullCards = findingRows.map((r) => buildFullCardSnapshot(r, deEvidence));
-  const ownerDecisions = findingRows.map((r) => buildOwnerDecisionRow(r));
+  let ownerDecisions = findingRows.map((r) => buildOwnerDecisionRow(r));
+
+  let mergedFindings = findings;
+  if (execution?.ownerDecisions?.length === 9) {
+    ownerDecisions = execution.ownerDecisions;
+    mergedFindings = findings.map((f) => {
+      const rev = execution.findingResults.find((x) => x.language === f.language);
+      return rev ? { ...f, reverification: rev, targetEntryUrl: rev.targetEntryUrl || f.targetEntryUrl, targetEvidenceSha256: rev.targetEvidenceSha256 || f.targetEvidenceSha256, targetNormativeLemma: rev.targetNormativeLemma || f.targetNormativeLemma, targetMeaningFragment: rev.targetMeaningFragment || f.targetMeaningFragment } : f;
+    });
+  }
+
+  let mergedNsrRows = nsrRows;
+  if (execution?.nsrResults?.length) {
+    const unresolved = execution.nsrResults.filter((r) => !r.resolved);
+    mergedNsrRows = unresolved.map((r) => ({
+      language: r.language,
+      current: r.productionCurrent,
+      masterAuthority: masterAuthorityLabel(structured.pass ? rowByAppCode(structured.languages, r.language) : null),
+      masterSourceUrl: masterAuthorityUrl(structured.pass ? rowByAppCode(structured.languages, r.language) : null),
+      attemptedEntryUrl: r.targetEntryUrl,
+      sourceAccessStatus: r.targetOutcome,
+      technicalBlocker: r.technicalBlocker,
+      missingEvidence: r.sourceValidated ? [] : ["validated TARGET headword", "TARGET meaning fragment", "validated source access"],
+      resolution: r.resolution,
+      ownerNextAction: r.masterProposalRequired ? "OWNER: MASTER source registry decision" : "Engineering or manual official evidence",
+      lookupHintOnly: HAUS_POSITIVE_LOOKUP[r.language]
+        ? { hausPositiveLookupHint: HAUS_POSITIVE_LOOKUP[r.language], note: "Search hint only — not approved PROPOSED_NEW" }
+        : null,
+    }));
+  }
+
+  const decisionCounts = execution?.decisionCounts || { LABOT: 0, NELABOT: 0, NEEDS_SOURCE_REVIEW: 0, SOURCE_DE_ISSUE: 0 };
+  const ownerFilled = Object.values(decisionCounts).reduce((a, b) => a + b, 0) === 9 && decisionCounts.LABOT + decisionCounts.NELABOT + decisionCounts.NEEDS_SOURCE_REVIEW + decisionCounts.SOURCE_DE_ISSUE === 9;
+
+  const nsrUnresolved = execution?.nsrUnresolved ?? nsrRows.length;
+  const nsrResolved = execution?.nsrResolved ?? 0;
+
+  let classification = "G2_A1_HAUS_OWNER_REVIEW_PACKAGE_READY";
+  let nextAction = "OWNER_REVIEW_9_HAUS_FINDINGS_AND_19_SOURCE_BLOCKERS";
+  if (execution) {
+    classification =
+      nsrUnresolved === 0
+        ? "G2_A1_HAUS_32_LANGUAGE_OWNER_REVIEW_COMPLETE"
+        : "G2_A1_HAUS_OWNER_FINDINGS_REVIEWED_SOURCE_BLOCKERS_REMAIN";
+    nextAction =
+      nsrUnresolved === 0
+        ? "PREPARE_OWNER_AUTHORIZED_HAUS_PRODUCTION_APPLY"
+        : "OWNER_RESOLVE_REMAINING_HAUS_SOURCE_BLOCKERS";
+  }
 
   const manifest = {
     generatedAt: new Date().toISOString(),
     pilotHeadRequired: "fc4c8a57ca65e596d44d7f2dd23c439664596889",
     sourcePilotDir: "reports/g2-a1-production-current/haus-32-language-source-pilot",
+    baselineAtStart,
+    pilotCountsAfterRun: counts,
     counts,
+    ownerDecisionFinal: decisionCounts,
+    nsrAtStart: 19,
+    nsrResolved,
+    nsrUnresolved,
+    manualOwnerReviewRows: execution?.manualRows?.length ?? 0,
+    masterSourceChangeProposals: execution?.masterProposals?.length ?? 0,
     coverage: {
       totalLanguages: 32,
       findingDecisionRows: ownerDecisions.length,
-      nsrRows: nsrRows.length,
+      nsrRows: mergedNsrRows.length,
       passEvidenceRows: passRows.length,
-      sum: ownerDecisions.length + nsrRows.length + passRows.length,
+      sum: ownerDecisions.length + mergedNsrRows.length + passRows.length,
     },
     full95731FieldAuditRun: false,
+    FULL_LINGUISTIC_AUDITS_EXECUTED: 0,
     productionApply: false,
-    ownerDecisionsFilled: false,
-    classification: "G2_A1_HAUS_OWNER_REVIEW_PACKAGE_READY",
-    nextAction: "OWNER_REVIEW_9_HAUS_FINDINGS_AND_19_SOURCE_BLOCKERS",
+    ownerDecisionsFilled: ownerFilled,
+    classification,
+    nextAction,
     languageOrder: order,
+    executionAt: execution?.executedAt || null,
   };
 
   return {
     pass: true,
     counts,
-    findings,
-    nsrRows,
+    findings: mergedFindings,
+    nsrRows: mergedNsrRows,
     passRows,
     fullCards,
     ownerDecisions,
     deEvidence,
     manifest,
+    execution,
     outDir: OUT_DIR,
   };
 }
@@ -508,6 +570,88 @@ function writeHausOwnerReviewArtifacts(result) {
     rows: result.ownerDecisions,
   });
   writeJson("haus-owner-review-manifest.json", result.manifest);
+
+  if (result.execution) {
+    writeJson("haus-source-resolution-summary.json", {
+      generatedAt: new Date().toISOString(),
+      baseline: result.execution.baseline,
+      decisionCounts: result.execution.decisionCounts,
+      nsrResolved: result.execution.nsrResolved,
+      nsrUnresolved: result.execution.nsrUnresolved,
+      findingResults: result.execution.findingResults,
+      nsrResults: result.execution.nsrResults,
+    });
+    const sumLines = [
+      "# das Haus — source resolution summary",
+      "",
+      `Executed: ${result.execution.executedAt}`,
+      "",
+      "## 9 FINDING OWNER decisions",
+      "",
+      "| Lang | OWNER_STATUS | OWNER_NEW | Entry URL |",
+      "|------|--------------|-----------|-----------|",
+      ...result.execution.ownerDecisions.map(
+        (d) => `| ${d.language} | ${d.OWNER_STATUS} | ${d.OWNER_NEW || "—"} | ${d.targetEntryUrl || "—"} |`,
+      ),
+      "",
+      `NSR resolved: **${result.execution.nsrResolved}** / 19 · unresolved: **${result.execution.nsrUnresolved}**`,
+      "",
+      "## Unresolved NSR",
+      "",
+      ...result.execution.nsrResults
+        .filter((r) => !r.resolved)
+        .map((r) => `- **${r.language}**: ${r.technicalBlocker}`),
+    ];
+    fs.writeFileSync(path.join(OUT_DIR, "haus-source-resolution-summary.md"), sumLines.join("\n"));
+
+    fs.writeFileSync(
+      path.join(OUT_DIR, "haus-master-source-change-proposals.md"),
+      [
+        "# MASTER source change proposals (OWNER_APPROVAL_REQUIRED)",
+        "",
+        ...result.execution.masterProposals.map(
+          (p) =>
+            `## ${p.language}\n\n- Authority: ${p.currentMasterAuthority}\n- URLs: ${(p.currentMasterUrls || []).join(", ")}\n- Reason: ${p.reason}\n- Action: ${p.proposedAction}\n- Status: **${p.status}**\n`,
+        ),
+      ].join("\n"),
+    );
+
+    const manualHeader = [
+      "language",
+      "productionCurrent",
+      "candidateLookupLemma",
+      "masterAuthority",
+      "officialUrl",
+      "searchHeadword",
+      "senseToVerify",
+      "technicalBlocker",
+      "OWNER_STATUS",
+      "OWNER_NEW",
+      "OWNER_NOTE",
+      "OWNER_EVIDENCE_ACCEPTED",
+      "OWNER_REVIEWED_AT",
+    ].join(",");
+    const manualBody = (result.execution.manualRows || []).map((m) =>
+      [
+        m.language,
+        m.productionCurrent,
+        m.candidateLookupLemma,
+        m.masterAuthority,
+        m.officialUrl,
+        m.searchHeadword,
+        m.senseToVerify,
+        m.technicalBlocker,
+        m.OWNER_STATUS,
+        m.OWNER_NEW,
+        m.OWNER_NOTE,
+        m.OWNER_EVIDENCE_ACCEPTED,
+        m.OWNER_REVIEWED_AT,
+      ]
+        .map(csvEscape)
+        .join(","),
+    );
+    fs.writeFileSync(path.join(OUT_DIR, "haus-manual-evidence-required.csv"), [manualHeader, ...manualBody].join("\n"));
+  }
 
   const csvHeader = [
     "language",
@@ -558,7 +702,7 @@ function writeHausOwnerReviewArtifacts(result) {
       "Build: `npm run build:g2-a1:haus-owner-review`",
       "Verify: `npm run verify:g2-a1:haus-owner-review`",
       "",
-      "OWNER decisions are empty until OWNER fills `haus-owner-decisions.csv` or `.json`.",
+      "After execution pass, OWNER decisions reflect reverified official evidence only.",
     ].join("\n"),
   );
 

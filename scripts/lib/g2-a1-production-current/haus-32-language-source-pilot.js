@@ -333,7 +333,11 @@ async function runHaus32LanguageSourcePilot(options = {}) {
     // eslint-disable-next-line no-await-in-loop
     let bundle = await accessOfficialSourcesForField(fieldRequest);
     const houseLemma = HAUS_POSITIVE_LOOKUP[inv.appCode];
-    if (houseLemma && normCompare(inv.currentTarget, houseLemma) !== 0) {
+    const currentTargetValidated =
+      isValidatedEntry(bundle.target) &&
+      evidenceQualityOk(bundle.target) &&
+      hausTargetEntryIsRelevant(inv.appCode, houseLemma, bundle.target);
+    if (houseLemma && (!currentTargetValidated || normCompare(inv.currentTarget, houseLemma) !== 0)) {
       // eslint-disable-next-line no-await-in-loop
       const houseBundle = await accessOfficialSourcesForField({
         ...fieldRequest,

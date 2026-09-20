@@ -6,8 +6,8 @@
 
 - TOTAL: 32
 - PASS: 4
-- FINDING: 9
-- NEEDS_SOURCE_REVIEW: 19
+- FINDING: 10
+- NEEDS_SOURCE_REVIEW: 18
 - SOURCE_DE_ISSUE: 0
 
 ## DE evidence (shared)
@@ -49,6 +49,7 @@
 | findingType | CAPITALIZATION_ERROR |
 | proposedNew | house |
 | ownerDecisionField |  |
+| reverification | [object Object] |
 
 **Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «house» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «House» matches TARGET meaning; only capitalization differs from normative lemma «house». PROPOSED_NEW «house» equals TARGET normative lemma. Authority: Oxford Learner's Dictionaries; entry: https://www.oxfordlearnersdictionaries.com/definition/english/house_1.
 
@@ -71,7 +72,7 @@
 | deEvidenceSha256 | 21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2 |
 | targetCurrent | Hus |
 | targetAuthority | Den Danske Ordbog (Det Danske Sprog- og Litteraturselskab / ordnet.dk) |
-| targetEntryUrl | https://ordnet.dk/ddo/ordbog/Hus |
+| targetEntryUrl | https://ordnet.dk/ddo/ordbog/hus |
 | targetNormativeLemma | hus |
 | targetMeaningFragment | s flere
 3 RESULTATER
@@ -107,6 +108,7 @@ u	kulde	[ˈk |
 | findingType | CAPITALIZATION_ERROR |
 | proposedNew | hus |
 | ownerDecisionField |  |
+| reverification | [object Object] |
 
 **Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «hus» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Hus» matches TARGET meaning; only capitalization differs from normative lemma «hus». PROPOSED_NEW «hus» equals TARGET normative lemma. Authority: Den Danske Ordbog (Det Danske Sprog- og Litteraturselskab / ordnet.dk); entry: https://ordnet.dk/ddo/ordbog/Hus.
 
@@ -129,7 +131,7 @@ u	kulde	[ˈk |
 | deEvidenceSha256 | 21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2 |
 | targetCurrent | Ev |
 | targetAuthority | TDK Güncel Türkçe Sözlük |
-| targetEntryUrl | https://sozluk.gov.tr/gts?ara=Ev |
+| targetEntryUrl | https://sozluk.gov.tr/gts?ara=ev |
 | targetNormativeLemma | ev |
 | targetMeaningFragment | [{"madde_id":"20063","kac":"0","kelime_no":"17187","cesit":"0","anlam_gor":"0","on_taki":null,"on_taki_html":null,"madde":"ev","madde_html":" ev ","cesit_say":"12","anlam_say":"3","taki":"","cogul_mu":"0","ozel_mi":"0","egik_mi":"0","lisan_kodu":"0","lisan":"","telaffuz_html":"","lisan_html":"","telaffuz":"","birlesikler":"ev adamı, ev altı, ev bark, ev çizgileri, ev ekmeği, ev ekonomisi, ev eşyası, ev gezmesi, ev halkı, ev hanımı, ev işi, ev kadını, ev sahibi, ev sineği, ev yemeği, evi sırtında |
 | targetEvidenceSha256 | bc4fa8a3a9b62fca9b815702721f6a96bcd5f0df90db4dbe9483eba707ee0f8b |
@@ -140,6 +142,7 @@ u	kulde	[ˈk |
 | findingType | CAPITALIZATION_ERROR |
 | proposedNew | ev |
 | ownerDecisionField |  |
+| reverification | [object Object] |
 
 **Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «ev» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Ev» matches TARGET meaning; only capitalization differs from normative lemma «ev». PROPOSED_NEW «ev» equals TARGET normative lemma. Authority: TDK Güncel Türkçe Sözlük; entry: https://sozluk.gov.tr/gts?ara=Ev.
 
@@ -162,10 +165,10 @@ u	kulde	[ˈk |
 | deEvidenceSha256 | 21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2 |
 | targetCurrent | Σπίτι |
 | targetAuthority | Λεξικό της κοινής νεοελληνικής (Τριανταφυλλίδης) |
-| targetEntryUrl | https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%A3%CF%80%CE%AF%CF%84%CE%B9 |
+| targetEntryUrl | https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%83%CF%80%CE%AF%CF%84%CE%B9 |
 | targetNormativeLemma | σπίτι |
-| targetMeaningFragment |  Προβολή &nbsp; Άδειασμα Αναζήτηση για: Σπίτι 3 εγγραφές [1 - 3] &lt;&lt; Πρώτο &lt; Προηγούμενο Επόμενο &gt; Τελευταίο &gt;&gt; σπίτι το [spíti] Ο44 : 1. κτίσμα το οποίο χρησιμοποιείται ως κατοικία: Mονώροφο / διώροφο / τριώροφο ~. ~ από πέτρα / πέτρινο. Ξύλινο ~. ~ με κήπο. Σπίτια προκατασκευασμένα. Tα νεοκλασικά σπίτια της Aθήνας / της Θεσσαλονίκης. Xτίζει καινούριο ~. ~ στην πόλη / στην εξοχή / εξοχικό. Έχουνε ~ στο χωριό. ΠAΡ Aν δεν παινέσεις* το ~ σου θα πέσει να σε πλακώσει. 2. η κατοικία |
-| targetEvidenceSha256 | 87b558e93c6af1a49a905edd5eb6272b74be886c5c1a0d84250df88b2630c4f4 |
+| targetMeaningFragment |  Προβολή &nbsp; Άδειασμα Αναζήτηση για: σπίτι 3 εγγραφές [1 - 3] &lt;&lt; Πρώτο &lt; Προηγούμενο Επόμενο &gt; Τελευταίο &gt;&gt; σπίτι το [spíti] Ο44 : 1. κτίσμα το οποίο χρησιμοποιείται ως κατοικία: Mονώροφο / διώροφο / τριώροφο ~. ~ από πέτρα / πέτρινο. Ξύλινο ~. ~ με κήπο. Σπίτια προκατασκευασμένα. Tα νεοκλασικά σπίτια της Aθήνας / της Θεσσαλονίκης. Xτίζει καινούριο ~. ~ στην πόλη / στην εξοχή / εξοχικό. Έχουνε ~ στο χωριό. ΠAΡ Aν δεν παινέσεις* το ~ σου θα πέσει να σε πλακώσει. 2. η κατοικία |
+| targetEvidenceSha256 | a4f1bd37a58f9ee5661f04d6e52ff790bc612e952421fb8c1df49ae55d8e448c |
 | orthographyStatus | CHECKED |
 | capitalizationStatus | FAIL |
 | lemmaStatus | CHECKED |
@@ -173,6 +176,7 @@ u	kulde	[ˈk |
 | findingType | CAPITALIZATION_ERROR |
 | proposedNew | σπίτι |
 | ownerDecisionField |  |
+| reverification | [object Object] |
 
 **Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «σπίτι» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Σπίτι» matches TARGET meaning; only capitalization differs from normative lemma «σπίτι». PROPOSED_NEW «σπίτι» equals TARGET normative lemma. Authority: Λεξικό της κοινής νεοελληνικής (Τριανταφυλλίδης); entry: https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%A3%CF%80%CE%AF%CF%84%CE%B9.
 
@@ -198,7 +202,7 @@ u	kulde	[ˈk |
 | targetEntryUrl | https://orfo.ruslang.ru/search/word |
 | targetNormativeLemma | дом |
 | targetMeaningFragment | обнее...
-По запросу "Дом" найдено 43 статьи
+По запросу "дом" найдено 43 статьи
 Сохранить
 
 дом, -а, предл. в до́ме и (разг.) в дому́, на до́ме и (до́ма) на дому́, мн. -а́, -о́в; но (как первое слово названий учреждений) До́м, -а, напр.: До́м актёра, До́м учи́теля, До́м кино́, До́м учёных; также: Пу́шкинский До́м (в Петербурге)
@@ -218,7 +222,7 @@ u	kulde	[ˈk |
 До́м инвали́дов (мемориал в Париже)
 
 до́м-интерна́т, до́ма-интерн |
-| targetEvidenceSha256 | e6a31e8e4c485c0326311bd917063e3039ee05dd7d98e713201bd88b1da139f0 |
+| targetEvidenceSha256 | 911aadc032c62f9f849ad274a5f695227d2c030de03365ff670e9834b3388b13 |
 | orthographyStatus | CHECKED |
 | capitalizationStatus | FAIL |
 | lemmaStatus | CHECKED |
@@ -226,6 +230,7 @@ u	kulde	[ˈk |
 | findingType | CAPITALIZATION_ERROR |
 | proposedNew | дом |
 | ownerDecisionField |  |
+| reverification | [object Object] |
 
 **Rationale:** DE lemma «Haus» (das) is normatively capitalized in German (official DE entry: https://www.dwds.de/wb/Haus?o=haus). Sense for this card: Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise. TARGET dictionary normative lemma «дом» starts with lowercase; German capitalization must not be transferred to TARGET (MASTER §7.158; APVIENOTS §20). CURRENT «Дом» matches TARGET meaning; only capitalization differs from normative lemma «дом». PROPOSED_NEW «дом» equals TARGET normative lemma. Authority: Орфографический ресурс АКАДЕМОС (orfo.ruslang.ru); entry: https://orfo.ruslang.ru/search/word.
 
@@ -269,6 +274,7 @@ dom -u m.
 | findingType | WRONG_TRANSLATION |
 | proposedNew | dom |
 | ownerDecisionField |  |
+| reverification | [object Object] |
 
 **Rationale:** DE «Haus» (Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise). CURRENT production value: «Domov». TARGET authority «Slovníkový portál JÚĽŠ» entry https://slovnik.juls.savba.sk/?w=dom&s=exact&k=Md03&cs=&d=kssj4&d=psp&d=ogs&d=sssj&d=orter&d=scs&d=sss&d=peciar&d=ssn&d=hssj&d=bernolak&d=noundb&d=orient&d=locutio&d=obce&d=priezviska&d=un&d=onom&d=pskfr&d=pskcs&d=psken# gives normative lemma «dom». TARGET building/dwelling sense fragment (excerpt): príd.: d-a farnosť
 
@@ -329,6 +335,7 @@ være herre i e |
 | findingType | WRONG_TRANSLATION |
 | proposedNew | hus |
 | ownerDecisionField |  |
+| reverification | [object Object] |
 
 **Rationale:** DE «Haus» (Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise). CURRENT production value: «Maya». TARGET authority «Bokmålsordboka (ordbokene.no)» entry https://ordbokene.no/nob/bm/hus gives normative lemma «hus». TARGET building/dwelling sense fragment (excerpt): dboka 1
  oppslagsord
@@ -403,6 +410,7 @@ hu |
 | findingType | WRONG_TRANSLATION |
 | proposedNew | hus |
 | ownerDecisionField |  |
+| reverification | [object Object] |
 
 **Rationale:** DE «Haus» (Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise). CURRENT production value: «Maya». TARGET authority «Nynorskordboka (ordbokene.no)» entry https://ordbokene.no/nob/nn/hus gives normative lemma «hus». TARGET building/dwelling sense fragment (excerpt): dboka 1
  oppslagsord
@@ -488,6 +496,7 @@ Yksi-, kuusikerroksinen talo.
 | findingType | WRONG_TRANSLATION |
 | proposedNew | talo |
 | ownerDecisionField |  |
+| reverification | [object Object] |
 
 **Rationale:** DE «Haus» (Building/dwelling sense (das Haus); not abstract home/dynasty/chamber unless entry proves otherwise). CURRENT production value: «Maja». TARGET authority «Kielitoimiston sanakirja» entry https://www.kielitoimistonsanakirja.fi/#/talo?source=suggestion&searchMode=all gives normative lemma «talo». TARGET building/dwelling sense fragment (excerpt): avigaatio
 
@@ -526,25 +535,24 @@ substant CURRENT «Maja» is not the validated Finnish house lemma for this sens
 
 | Lang | CURRENT | Blocker | Missing | Next |
 |------|---------|---------|---------|------|
-| bs | kuća | No validated entry URL resolved from MASTER sources (outcome SOURCE_ENTRY_NOT_FOUND). | TARGET headword; TARGET meaning fragment; concrete validated entry URL; validated source access; normative capitalization proof; semantic match proof | OWNER: confirm MASTER authority URL / adapter path, or supply manual official ev |
-| cs | Dům | Attempted entry https://prirucka.ujc.cas.cz/?id=915#ref_id_2019_15_1 did not produce validated headword + meaning fragme | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| fr | Maison | Attempted entry https://www.dictionnaire-academie.fr/#/recherche/Maison did not produce validated headword + meaning fra | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| hr | Куќа | Attempted entry https://rjecnik.hr/?query=%D0%9A%D1%83%D1%9C%D0%B0 did not produce validated headword + meaning fragment | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| is | Maya | Attempted entry https://bin.arnastofnun.is/beygingarstodur/nidur.php?adgerdir=leit&nafn=Maya did not produce validated h | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| it | casa | Attempted entry https://www.lessicografia.it/search?q=casa did not produce validated headword + meaning fragment (outcom | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| lb | Haus | Attempted entry https://lod.lu/search/Haus did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_N | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| lt | namas | Attempted entry https://ekalba.lt/zodynas?q=namas did not produce validated headword + meaning fragment (outcome SOURCE_ | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| hu | Ház | Attempted entry https://nagyszotar.nytud.hu/dictsearch.html?query=H%C3%A1z&mode=normal&hwonly=true did not produce valid | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| nl | Huis | Attempted entry https://woordenlijst.org/#/zoeken/Huis did not produce validated headword + meaning fragment (outcome SO | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| pl | Dom | Attempted entry https://wsjp.pl/ did not produce validated headword + meaning fragment (outcome SOURCE_ENTRY_NOT_FOUND). | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| pt | )saber | Attempted entry https://dicionario.acad-ciencias.pt/#/search/)saber did not produce validated headword + meaning fragmen | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| ro | Casa | Attempted entry https://doom.lingv.ro/cautare?q=Casa did not produce validated headword + meaning fragment (outcome SOUR | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| sq | Për në shtëpi. | No validated entry URL resolved from MASTER sources (outcome SOURCE_ENTRY_NOT_FOUND). | TARGET headword; TARGET meaning fragment; concrete validated entry URL; validated source access; normative capitalization proof; semantic match proof | OWNER: confirm MASTER authority URL / adapter path, or supply manual official ev |
-| sr | Куќа | No validated entry URL resolved from MASTER sources (outcome SOURCE_ENTRY_NOT_FOUND). | TARGET headword; TARGET meaning fragment; concrete validated entry URL; validated source access; normative capitalization proof; semantic match proof | OWNER: confirm MASTER authority URL / adapter path, or supply manual official ev |
-| sv | Maja | Attempted entry https://svenska.se/saol/#/search/Maja did not produce validated headword + meaning fragment (outcome SOU | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| bg | Къща | Attempted entry https://beron.mon.bg/dictionary/search?q=%D0%9A%D1%8A%D1%89%D0%B0 did not produce validated headword + m | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
-| mk | Куќа | No validated entry URL resolved from MASTER sources (outcome SOURCE_ENTRY_NOT_FOUND). | TARGET headword; TARGET meaning fragment; concrete validated entry URL; validated source access; normative capitalization proof; semantic match proof | OWNER: confirm MASTER authority URL / adapter path, or supply manual official ev |
-| uk | будинок | Attempted entry https://lcorp.ulif.org.ua/dictua/#search=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA did not produce vali | TARGET headword; TARGET meaning fragment; validated source access; normative capitalization proof; semantic match proof | Engineering: adapter rework to obtain validated TARGET headword + dwelling-sense |
+| bs | kuća | MASTER-listed source lacks verified automated dictionary entry adapter | validated TARGET headword; TARGET meaning fragment; validated source access | OWNER: MASTER source registry decision |
+| fr | Maison | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «maison» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
+| hr | Куќа | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «kuća» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
+| is | Maya | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «hús» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
+| it | casa | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «casa» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
+| lb | Haus | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «Haus» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
+| lt | namas | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «namas» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
+| hu | Ház | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «Ház» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
+| nl | Huis | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «huis» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
+| pl | Dom | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «dom» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
+| pt | )saber | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «casa» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
+| ro | Casa | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «casă» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
+| sq | Për në shtëpi. | MASTER-listed source lacks verified automated dictionary entry adapter | validated TARGET headword; TARGET meaning fragment; validated source access | OWNER: MASTER source registry decision |
+| sr | Куќа | MASTER-listed source lacks verified automated dictionary entry adapter | validated TARGET headword; TARGET meaning fragment; validated source access | OWNER: MASTER source registry decision |
+| sv | Maja | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «hus» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
+| bg | Къща | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «къща» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
+| mk | Куќа | MASTER-listed source lacks verified automated dictionary entry adapter | validated TARGET headword; TARGET meaning fragment; validated source access | OWNER: MASTER source registry decision |
+| uk | будинок | TARGET outcome SOURCE_ENTRY_NOT_FOUND; lookup «дім» | validated TARGET headword; TARGET meaning fragment; validated source access | Engineering or manual official evidence |
 
 ## 4 PASS (no OWNER decision required)
 

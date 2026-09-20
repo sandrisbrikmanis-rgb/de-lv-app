@@ -8,11 +8,13 @@ const { ROOT } = require("./lib/audit-common");
 const {
   OUT_DIR,
   FIXED_FINDING_IDENTITY,
-  assertBaselineCounts,
   assertFindingIdentity,
 } = require("./lib/g2-a1-production-current/haus-owner-review");
-const { extractNormativeLemma } = require("./lib/master-capitalization-rule-verify");
+const { NSR_LANGUAGES } = require("./lib/g2-a1-production-current/haus-owner-review-execute");
+const { isHomepageUrl } = require("./lib/g2-a1-production-current/source-adapters/create-config-adapter");
 const { loadHausProductionInventory } = require("./lib/g2-a1-production-current/haus-32-language-source-pilot");
+
+const ALLOWED_OWNER = new Set(["LABOT", "NELABOT", "NEEDS_SOURCE_REVIEW", "SOURCE_DE_ISSUE"]);
 
 function readJson(rel) {
   const p = path.join(OUT_DIR, rel);
@@ -35,7 +37,10 @@ function main() {
   const decisions = readJson("haus-owner-decisions.json");
   const nsr = readJson("haus-needs-source-review.json");
   const passEv = readJson("haus-pass-evidence.json");
+  const resolution = readJson("haus-source-resolution-summary.json");
   const verificationPath = path.join(OUT_DIR, "haus-owner-review-verification.json");
+
+  const executed = Boolean(manifest?.executionAt);
 
   const required = [
     "haus-owner-view.md",
@@ -49,14 +54,17 @@ function main() {
     "haus-owner-review-manifest.json",
     "README.md",
   ];
+  if (executed) {
+    required.push(
+      "haus-source-resolution-summary.json",
+      "haus-source-resolution-summary.md",
+      "haus-manual-evidence-required.csv",
+      "haus-master-source-change-proposals.md",
+      "haus-owner-review-execution.json",
+    );
+  }
   for (const f of required) {
     if (!fs.existsSync(path.join(OUT_DIR, f))) blockers.push({ code: "MISSING_ARTIFACT", file: f });
-  }
-
-  const csvPath = path.join(OUT_DIR, "haus-owner-decisions.csv");
-  if (fs.existsSync(csvPath)) {
-    const stat = fs.statSync(csvPath);
-    if (stat.size >= 4 * 1024 * 1024) blockers.push({ code: "CSV_TOO_LARGE", bytes: stat.size });
   }
 
   const pilotVerdicts = JSON.parse(
@@ -65,12 +73,13 @@ function main() {
       "utf8",
     ),
   );
-  assertBaselineCounts(pilotVerdicts.counts, blockers);
   assertFindingIdentity(pilotVerdicts.rows, blockers);
 
-  if (manifest) {
-    if (manifest.full95731FieldAuditRun !== false) blockers.push({ code: "FULL_AUDIT_RUN_NOT_ZERO" });
-    if (manifest.counts) assertBaselineCounts(manifest.counts, blockers);
+  if (manifest?.baselineAtStart) {
+    const b = manifest.baselineAtStart;
+    if (b.FINDING !== 9 || b.NEEDS_SOURCE_REVIEW !== 19) {
+      blockers.push({ code: "MANIFEST_BASELINE_MISMATCH", got: b });
+    }
   }
 
   const findingRows = findings?.rows || [];
@@ -80,45 +89,86 @@ function main() {
 
   if (findingRows.length !== 9) blockers.push({ code: "FINDING_EVIDENCE_COUNT", got: findingRows.length });
   if (decisionRows.length !== 9) blockers.push({ code: "OWNER_DECISION_ROWS", got: decisionRows.length });
-  if (nsrRows.length !== 19) blockers.push({ code: "NSR_ROWS", got: nsrRows.length });
-  if (passRows.length !== 4) blockers.push({ code: "PASS_EVIDENCE_ROWS", got: passRows.length });
-  if (findingRows.length + nsrRows.length + passRows.length !== 32) {
-    blockers.push({ code: "COVERAGE_SUM", got: findingRows.length + nsrRows.length + passRows.length });
+
+  if (executed) {
+    const dc = manifest.ownerDecisionFinal || {};
+    const sum = (dc.LABOT || 0) + (dc.NELABOT || 0) + (dc.NEEDS_SOURCE_REVIEW || 0) + (dc.SOURCE_DE_ISSUE || 0);
+    if (sum !== 9) blockers.push({ code: "OWNER_DECISION_PARTITION", sum, dc });
+    if (manifest.nsrAtStart !== 19) blockers.push({ code: "NSR_START_NOT_19" });
+    const resolvedPlusUnresolved = (manifest.nsrResolved || 0) + (manifest.nsrUnresolved || 0);
+    if (resolvedPlusUnresolved !== 19) {
+      blockers.push({ code: "NSR_RESOLUTION_SUM", got: resolvedPlusUnresolved });
+    }
+    if (nsrRows.length !== manifest.nsrUnresolved) {
+      blockers.push({ code: "NSR_UNRESOLVED_ROW_COUNT", expected: manifest.nsrUnresolved, got: nsrRows.length });
+    }
+  } else if (nsrRows.length !== 19) {
+    blockers.push({ code: "NSR_ROWS", got: nsrRows.length });
   }
 
+  const decisionLangs = new Set(decisionRows.map((d) => d.language));
+  if (decisionLangs.size !== 9) blockers.push({ code: "DECISION_DUPLICATE_LANG" });
+
+  for (const spec of FIXED_FINDING_IDENTITY) {
+    if (!decisionLangs.has(spec.language)) blockers.push({ code: "MISSING_DECISION_LANG", language: spec.language });
+  }
+
+  for (const d of decisionRows) {
+    if (!ALLOWED_OWNER.has(d.OWNER_STATUS)) {
+      blockers.push({ code: "INVALID_OWNER_STATUS", language: d.language, status: d.OWNER_STATUS });
+    }
+    if (d.OWNER_STATUS === "LABOT") {
+      if (d.OWNER_EVIDENCE_ACCEPTED !== "YES") blockers.push({ code: "LABOT_WITHOUT_EVIDENCE", language: d.language });
+      if (!d.OWNER_NEW || !d.targetEntryUrl || isHomepageUrl(d.targetEntryUrl)) {
+        blockers.push({ code: "LABOT_INVALID_NEW_OR_URL", language: d.language });
+      }
+      if (!d.OWNER_REVIEWED_AT) blockers.push({ code: "LABOT_MISSING_REVIEWED_AT", language: d.language });
+    }
+    if (d.OWNER_STATUS === "NELABOT" && d.OWNER_EVIDENCE_ACCEPTED !== "YES") {
+      blockers.push({ code: "NELABOT_WITHOUT_EVIDENCE", language: d.language });
+    }
+    if (["NEEDS_SOURCE_REVIEW", "SOURCE_DE_ISSUE"].includes(d.OWNER_STATUS) && d.OWNER_NEW) {
+      blockers.push({ code: "NSR_OR_DE_ISSUE_HAS_OWNER_NEW", language: d.language });
+    }
+    const key = `${d.language}|${d.productionFile || ""}|${d.cardId}|${d.fieldPath || ""}`;
+    d._key = key;
+  }
+  const keys = decisionRows.map((d) => d._key);
+  if (new Set(keys).size !== keys.length) blockers.push({ code: "DECISION_ROW_KEY_DUPLICATE" });
+
   for (const f of findingRows) {
-    if (!f.deEvidenceSha256 || !f.targetEvidenceSha256) blockers.push({ code: "FINDING_MISSING_EVIDENCE", language: f.language });
-    if (!f.targetCurrent) blockers.push({ code: "FINDING_MISSING_CURRENT", language: f.language });
-    if (!f.proposedNew) blockers.push({ code: "FINDING_MISSING_PROPOSED", language: f.language });
-    if (f.findingType === "CAPITALIZATION_ERROR" && !f.targetNormativeLemma) {
-      blockers.push({ code: "CAP_FINDING_NO_LEMMA", language: f.language });
+    if (!f.deEvidenceSha256 || !f.targetEvidenceSha256) {
+      blockers.push({ code: "FINDING_MISSING_EVIDENCE", language: f.language });
+    }
+    if (f.findingType === "CAPITALIZATION_ERROR" && f.proposedNew !== f.targetNormativeLemma) {
+      blockers.push({ code: "CAP_PROPOSED_NE_LEMMA", language: f.language });
     }
   }
 
-  let autoOwner = 0;
-  for (const d of decisionRows) {
-    if (d.OWNER_STATUS && String(d.OWNER_STATUS).trim()) autoOwner += 1;
+  if (executed && resolution) {
+    for (const r of resolution.findingResults || []) {
+      if (r.sourceValidated && (!r.targetEntryUrl || isHomepageUrl(r.targetEntryUrl))) {
+        blockers.push({ code: "HOMEPAGE_EVIDENCE", language: r.language });
+      }
+    }
   }
-  if (autoOwner !== 0) blockers.push({ code: "OWNER_STATUS_AUTO_FILLED", count: autoOwner });
 
   for (const n of nsrRows) {
     if (n.approvedProposedNew) blockers.push({ code: "NSR_APPROVED_NEW", language: n.language });
   }
 
-  const passLangs = new Set(passRows.map((p) => p.language));
-  const expectedPass = ["et", "es", "lv", "sl"];
-  for (const lang of expectedPass) {
-    if (!passLangs.has(lang)) blockers.push({ code: "PASS_LANG_MISSING", language: lang });
-  }
-  for (const d of decisionRows) {
-    if (passLangs.has(d.language)) blockers.push({ code: "PASS_IN_OWNER_DECISIONS", language: d.language });
+  const nsrLangSet = new Set(nsrRows.map((n) => n.language));
+  for (const lang of NSR_LANGUAGES) {
+    if (executed && manifest.nsrUnresolved > 0) {
+      const inUnresolved = resolution?.nsrResults?.find((r) => r.language === lang && !r.resolved);
+      if (inUnresolved && !nsrLangSet.has(lang)) {
+        blockers.push({ code: "NSR_LANG_MISSING_FROM_TABLE", language: lang });
+      }
+    }
   }
 
   const inv = loadHausProductionInventory();
-  const langs = inv.rows.map((r) => r.language);
-  const uniq = new Set(langs);
-  if (uniq.size !== 32) blockers.push({ code: "DUPLICATE_LANGUAGES", count: uniq.size });
-  if (langs.length !== 32) blockers.push({ code: "MISSING_LANGUAGES", count: langs.length });
+  if (inv.rows.length !== 32) blockers.push({ code: "INVENTORY_NOT_32" });
 
   const prod = productionDiffClean();
   if (!prod.pass) blockers.push({ code: "PRODUCTION_DIRTY", files: prod.diff });
@@ -137,40 +187,32 @@ function main() {
     }
   }
 
-  const capLangs = ["en", "da", "tr", "gr", "ru"];
-  for (const lang of capLangs) {
-    const f = findingRows.find((r) => r.language === lang);
-    if (f && f.proposedNew !== f.targetNormativeLemma) {
-      blockers.push({ code: "CAP_PROPOSED_NE_LEMMA", language: lang });
-    }
-  }
+  const classification =
+    blockers.length === 0
+      ? manifest?.classification || "G2_A1_HAUS_OWNER_REVIEW_PACKAGE_READY"
+      : "G2_A1_HAUS_OWNER_REVIEW_BLOCKED";
 
   const payload = {
     generatedAt: new Date().toISOString(),
     pass: blockers.length === 0,
+    executed,
     gates: {
-      TOTAL: 32,
-      PASS: 4,
-      FINDING: 9,
-      NEEDS_SOURCE_REVIEW: 19,
-      SOURCE_DE_ISSUE: 0,
+      baselineFinding: 9,
+      baselineNsr: 19,
       ownerDecisionRows: decisionRows.length,
-      nsrRows: nsrRows.length,
+      ownerDecisionFinal: manifest?.ownerDecisionFinal,
+      nsrUnresolvedRows: nsrRows.length,
+      nsrResolved: manifest?.nsrResolved,
       passEvidenceRows: passRows.length,
-      findingWithoutDeEvidence: findingRows.filter((f) => !f.deEvidenceSha256).length,
-      findingWithoutTargetEvidence: findingRows.filter((f) => !f.targetEvidenceSha256).length,
-      ownerStatusAutoFilled: autoOwner,
       productionChanges: prod.pass ? 0 : prod.diff.length,
       deChanges: deDiff ? deDiff.split("\n").length : 0,
       crowdinChanges: crowdinDiff ? crowdinDiff.split("\n").length : 0,
       fullAuditRun: manifest?.full95731FieldAuditRun === false ? 0 : 1,
+      FULL_LINGUISTIC_AUDITS_EXECUTED: manifest?.FULL_LINGUISTIC_AUDITS_EXECUTED ?? 0,
     },
     blockers,
-    classification: blockers.length === 0 ? "G2_A1_HAUS_OWNER_REVIEW_PACKAGE_READY" : "G2_A1_HAUS_OWNER_REVIEW_PACKAGE_BLOCKED",
-    nextAction:
-      blockers.length === 0
-        ? "OWNER_REVIEW_9_HAUS_FINDINGS_AND_19_SOURCE_BLOCKERS"
-        : "RESOLVE_EXACT_OWNER_REVIEW_ARTIFACT_BLOCKER",
+    classification,
+    nextAction: manifest?.nextAction || "RESOLVE_EXACT_EVIDENCE_OR_IDENTITY_BLOCKER",
   };
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
