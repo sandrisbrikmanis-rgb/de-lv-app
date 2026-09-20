@@ -294,7 +294,7 @@ CURRENT PRODUCTION
 
 ## 15. SAISTĪTIE DOKUMENTI
 
-- `docs_and_rules/LANGUAGE_AUDIT_STANDARD.md` — §3.2.25 person names, Kurss scope
+- `PROJECT_LANGUAGE_MASTER_STANDARD.md` — §5.1 fictional names, §7.10 Kurss lingvistiskās pārbaudes
 - `reports/da-ui-full-localization-audit.md` — UI/renderer konteksts
 - CS paraugs: `scripts/build-cs-kurss-full-audit-report.js`
 - Verbs paraugs: `scripts/audit-da-verbs-final-post-repair.js`

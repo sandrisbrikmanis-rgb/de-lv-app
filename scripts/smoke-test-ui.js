@@ -2,7 +2,7 @@
 /**
  * {lang}->DE UI smoke tests for benchmark flashcards and study cards.
  * Generalized from the LT-specific smoke-test-lt-ui.js per
- * LANGUAGE_AUDIT_STANDARD.md §5.
+ * PROJECT_LANGUAGE_MASTER_STANDARD.md §7.7.
  *
  * Run: node scripts/smoke-test-ui.js --lang=lt
  * Optional: UI_SMOKE_BASE=http://127.0.0.1:8765 node scripts/smoke-test-ui.js --lang=lt
