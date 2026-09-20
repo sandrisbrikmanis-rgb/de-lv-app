@@ -2,23 +2,19 @@
 "use strict";
 
 const { buildAllowlistForLanguage } = require("./registry-domain-allowlist");
-const {
-  deLookupCandidateUrls,
-  targetLookupCandidateUrls,
-  fetchFirstSuccessful,
-  fetchOfficialUrl,
-} = require("./official-source-fetch");
+const { normalizeDeLemma, normalizeTargetLookup } = require("./source-adapters/lookup-normalization");
+const { lookupDeOfficialEntry } = require("./source-adapters/de");
+const { lookupTargetOfficialEntry } = require("./source-adapters/target");
 const { SOURCE_ACCESS_OUTCOME } = require("./official-source-access-constants");
 
-function deSearchTerm(fieldRequest) {
-  return fieldRequest.cardContext?.de || fieldRequest.DE || fieldRequest.cardId || null;
-}
-
-function targetSearchTerm(fieldRequest) {
-  if (fieldRequest.fieldPath?.includes(".native")) {
-    return fieldRequest.CURRENT || fieldRequest.cardContext?.targetHeadword || null;
-  }
-  return fieldRequest.CURRENT || fieldRequest.cardContext?.targetHeadword || null;
+function attachNormalization(side, norm) {
+  return {
+    ...side,
+    originalCurrent: norm.originalCurrent,
+    lookupTerm: norm.lookupTerm,
+    normalizedHeadword: norm.normalizedHeadword,
+    normalizationReason: norm.normalizationReason,
+  };
 }
 
 async function accessOfficialSourcesForField(fieldRequest) {
@@ -38,32 +34,41 @@ async function accessOfficialSourcesForField(fieldRequest) {
     };
   }
 
-  const deTerm = deSearchTerm(fieldRequest);
-  const targetTerm = targetSearchTerm(fieldRequest);
+  const deNorm = normalizeDeLemma(fieldRequest);
+  const targetNorm = normalizeTargetLookup(fieldRequest);
+  const provenance = {
+    role: null,
+    language: fieldRequest.language,
+    cardId: fieldRequest.cardId,
+    fieldPath: fieldRequest.fieldPath,
+    originalCurrent: fieldRequest.CURRENT,
+    lookupTerm: null,
+    normalizedHeadword: null,
+    normalizationReason: null,
+  };
 
-  const deCandidates = deLookupCandidateUrls(deTerm, allow.de.allowedDomains);
-  const de = await fetchFirstSuccessful(deCandidates, {
-    allowedDomains: allow.de.allowedDomains,
-    searchQuery: `DE:${deTerm}`,
-    searchTerm: deTerm,
-  });
-  de.authorityName = allow.de.authorityName;
+  const de = attachNormalization(
+    await lookupDeOfficialEntry({
+      lookupTerm: deNorm.lookupTerm,
+      allowedDomains: allow.de.allowedDomains,
+      authorityName: allow.de.authorityName,
+      provenance: { ...provenance, role: "DE", language: "de", ...deNorm },
+    }),
+    deNorm,
+  );
   de.role = "DE";
-  de.language = "de";
-  de.cardId = fieldRequest.cardId;
-  de.fieldPath = fieldRequest.fieldPath;
 
-  const targetCandidates = targetLookupCandidateUrls(fieldRequest.language, targetTerm, allow.target.allowedDomains);
-  const target = await fetchFirstSuccessful(targetCandidates, {
-    allowedDomains: allow.target.allowedDomains,
-    searchQuery: `TARGET:${fieldRequest.language}:${targetTerm}`,
-    searchTerm: targetTerm,
-  });
-  target.authorityName = allow.target.authorityName;
+  const target = attachNormalization(
+    await lookupTargetOfficialEntry({
+      appLang: fieldRequest.language,
+      lookupTerm: targetNorm.lookupTerm,
+      allowedDomains: allow.target.allowedDomains,
+      authorityName: allow.target.authorityName,
+      provenance: { ...provenance, role: "TARGET", ...targetNorm },
+    }),
+    targetNorm,
+  );
   target.role = "TARGET";
-  target.language = fieldRequest.language;
-  target.cardId = fieldRequest.cardId;
-  target.fieldPath = fieldRequest.fieldPath;
 
   return {
     language: fieldRequest.language,
@@ -92,25 +97,37 @@ async function prefetchBatchSourceEvidence(fieldRequests, options = {}) {
   return out;
 }
 
-function bothSourcesReadable(bundle) {
+function bothSourcesEntryValidated(bundle) {
   return (
-    bundle?.de?.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_FOUND_AND_READ &&
-    bundle?.target?.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_FOUND_AND_READ
+    bundle?.de?.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED &&
+    bundle?.target?.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED
   );
 }
 
 function isTechnicalSourceAccessOutcome(outcome) {
-  return outcome && outcome !== SOURCE_ACCESS_OUTCOME.SOURCE_FOUND_AND_READ && outcome !== SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_NOT_FOUND;
+  return (
+    outcome &&
+    outcome !== SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED &&
+    outcome !== SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_NOT_FOUND
+  );
 }
 
 function mapPrefetchToPromptEvidence(bundle) {
   const mapSide = (side) => ({
     authorityName: side.authorityName,
     accessOutcome: side.outcome,
+    adapterId: side.adapterId,
+    adapterVersion: side.adapterVersion,
     searchQuery: side.searchQuery,
+    originalCurrent: side.originalCurrent,
+    lookupTerm: side.lookupTerm,
+    normalizedHeadword: side.normalizedHeadword,
+    normalizationReason: side.normalizationReason,
     requestedUrl: side.requestedUrl,
     finalUrl: side.finalUrl,
+    entryUrl: side.entryUrl,
     finalDomain: side.finalDomain,
+    entryHeadwordOrRule: side.entryHeadwordOrRule,
     entryOrRule: side.entryOrRule,
     evidenceFragment: side.evidenceFragment,
     pageTitle: side.pageTitle,
@@ -127,11 +144,11 @@ function mapPrefetchToPromptEvidence(bundle) {
 module.exports = {
   accessOfficialSourcesForField,
   prefetchBatchSourceEvidence,
-  bothSourcesReadable,
+  bothSourcesEntryValidated,
+  bothSourcesReadable: bothSourcesEntryValidated,
   isTechnicalSourceAccessOutcome,
   mapPrefetchToPromptEvidence,
-  deSearchTerm,
-  targetSearchTerm,
-  fetchOfficialUrl,
+  deSearchTerm: (r) => normalizeDeLemma(r).lookupTerm,
+  targetSearchTerm: (r) => normalizeTargetLookup(r).lookupTerm,
   SOURCE_ACCESS_OUTCOME,
 };

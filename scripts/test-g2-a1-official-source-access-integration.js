@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 "use strict";
 
-const { fetchOfficialUrl, deLookupCandidateUrls } = require("./lib/g2-a1-production-current/official-source-fetch");
+const { lookupDeDwds } = require("./lib/g2-a1-production-current/source-adapters/de/dwds-entry-adapter");
+const { lookupDeDuden } = require("./lib/g2-a1-production-current/source-adapters/de/duden-entry-adapter");
+const { lookupEtSonaveeb } = require("./lib/g2-a1-production-current/source-adapters/target/et-sonaveeb-adapter");
+const { fetchAllowlistedPage } = require("./lib/g2-a1-production-current/source-adapters/http-page");
 const { buildAllowlistForLanguage } = require("./lib/g2-a1-production-current/registry-domain-allowlist");
-const { accessOfficialSourcesForField } = require("./lib/g2-a1-production-current/official-source-access");
 const { SOURCE_ACCESS_OUTCOME } = require("./lib/g2-a1-production-current/official-source-access-constants");
-const { bindRegistryAuthorities } = require("./lib/g2-a1-production-current/registry-bindings");
+const { evidenceQualityOk } = require("./lib/g2-a1-production-current/targeted-source-access-validation");
 
 const integration = process.argv.includes("--integration") || process.env.G2_A1_SOURCE_ACCESS_INTEGRATION === "1";
 
@@ -13,93 +15,89 @@ function assert(c, msg) {
   if (!c) throw new Error(msg);
 }
 
-async function testDeDwdsLernen() {
+async function testDeDwdsKnownEntry() {
   const allow = buildAllowlistForLanguage("bg");
-  assert(allow.pass, "allowlist bg");
-  const urls = deLookupCandidateUrls("lernen", allow.de.allowedDomains);
-  assert(urls.length > 0, "de urls");
-  const result = await fetchOfficialUrl(urls[0], {
+  const r = await lookupDeDwds({
+    lookupTerm: "lernen",
     allowedDomains: allow.de.allowedDomains,
-    searchQuery: "DE:lernen",
-    searchTerm: "lernen",
+    authorityName: allow.de.authorityName,
+    provenance: { role: "DE" },
   });
-  assert(result.finalUrl, "final url");
-  assert(result.finalDomain.includes("dwds.de"), "dwds domain");
-  assert(result.evidenceFragment && result.evidenceFragment.length > 20, "fragment");
+  assert(r.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED, r.outcome);
+  assert(evidenceQualityOk(r), "de dwds evidence");
+  assert(r.entryUrl.includes("/wb/lernen"), r.entryUrl);
+  console.log("OK DE DWDS validated entry", r.entryUrl);
+}
+
+async function testDeDudenKnownEntry() {
+  const allow = buildAllowlistForLanguage("bg");
+  const r = await lookupDeDuden({
+    lookupTerm: "lernen",
+    allowedDomains: allow.de.allowedDomains,
+    authorityName: allow.de.authorityName,
+    provenance: { role: "DE" },
+  });
+  assert(r.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED, r.outcome);
+  assert(r.entryUrl.includes("/rechtschreibung/"), r.entryUrl);
+  console.log("OK DE Duden validated entry", r.entryUrl);
+}
+
+async function testDeMissingEntry() {
+  const allow = buildAllowlistForLanguage("bg");
+  const r = await lookupDeDwds({
+    lookupTerm: "zzqqxxnotaword999",
+    allowedDomains: allow.de.allowedDomains,
+    authorityName: allow.de.authorityName,
+    provenance: { role: "DE" },
+  });
   assert(
-    result.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_FOUND_AND_READ ||
-      result.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_NOT_FOUND,
-    result.outcome,
+    r.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_NOT_FOUND ||
+      r.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ACCESS_BLOCKED ||
+      r.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_PAGE_FETCHED,
+    r.outcome,
   );
-  console.log("OK integration DE dwds lernen", result.outcome, result.finalUrl);
+  console.log("OK DE missing/non-entry", r.outcome);
 }
 
-async function testTargetBgField() {
-  const reg = bindRegistryAuthorities("bg");
-  assert(reg.pass, "registry bg");
-  const field = {
-    language: "bg",
-    dataset: "a1",
-    productionFile: "data/bg/a1.js",
-    cardId: "lernen",
-    fieldPath: "a1.card.lernen.native",
-    identityKey: "bg|data/bg/a1.js|lernen|a1.card.lernen.native",
-    CURRENT: "Проучване",
-    DE: "lernen",
-    cardContext: { de: "lernen", targetHeadword: "Проучване" },
-  };
-  const bundle = await accessOfficialSourcesForField(field);
-  assert(bundle.de.requestedUrl, "de requested");
-  assert(bundle.target.requestedUrl, "target requested");
-  assert(bundle.de.finalDomain, "de domain");
-  console.log("OK integration TARGET bg field", bundle.de.outcome, bundle.target.outcome);
-}
-
-async function testRedirectAllowlist() {
-  const allow = buildAllowlistForLanguage("bg");
-  const result = await fetchOfficialUrl("https://dwds.de/wb/lernen", {
-    allowedDomains: allow.de.allowedDomains,
-    searchQuery: "redirect-test",
-    searchTerm: "lernen",
+async function testEtKnownEntry() {
+  const allow = buildAllowlistForLanguage("et");
+  const r = await lookupEtSonaveeb({
+    lookupTerm: "õppima",
+    allowedDomains: allow.target.allowedDomains,
+    authorityName: allow.target.authorityName,
+    provenance: { role: "TARGET", language: "et" },
   });
-  assert(result.finalDomain.includes("dwds.de"), "redirect final domain allowlisted");
-  console.log("OK integration redirect", result.finalUrl);
+  assert(r.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED, r.outcome);
+  assert(evidenceQualityOk(r), "et evidence");
+  console.log("OK ET sonaveeb validated entry", r.entryUrl);
 }
 
 async function testRejectedDomain() {
   const allow = buildAllowlistForLanguage("bg");
-  const result = await fetchOfficialUrl("https://example.com/forbidden", {
-    allowedDomains: allow.de.allowedDomains,
-    searchQuery: "reject",
-    searchTerm: "test",
-  });
-  assert(result.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_DOMAIN_REJECTED, result.outcome);
-  console.log("OK integration rejected domain");
+  const page = await fetchAllowlistedPage("https://example.com/x", { allowedDomains: allow.de.allowedDomains });
+  assert(page.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_DOMAIN_REJECTED, page.outcome);
+  console.log("OK rejected domain");
 }
 
-async function testUnreachable() {
+async function testUnreachableAllowlistedHost() {
   const allow = buildAllowlistForLanguage("bg");
-  const result = await fetchOfficialUrl("https://www.dwds.de:1/no-service", {
-    allowedDomains: allow.de.allowedDomains,
-    searchQuery: "unreachable",
-    searchTerm: "x",
-    timeoutMs: 5000,
-  });
-  assert(result.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ACCESS_BLOCKED, result.outcome);
-  console.log("OK integration unreachable on allowlisted host");
+  const page = await fetchAllowlistedPage("https://www.dwds.de:1/x", { allowedDomains: allow.de.allowedDomains, timeoutMs: 4000 });
+  assert(page.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ACCESS_BLOCKED, page.outcome);
+  console.log("OK unreachable allowlisted host");
 }
 
 async function main() {
   if (!integration) {
-    console.log("SKIP official source integration (set G2_A1_SOURCE_ACCESS_INTEGRATION=1 or --integration)");
+    console.log("SKIP (set G2_A1_SOURCE_ACCESS_INTEGRATION=1 or --integration)");
     process.exit(0);
   }
-  await testDeDwdsLernen();
-  await testTargetBgField();
-  await testRedirectAllowlist();
+  await testDeDwdsKnownEntry();
+  await testDeDudenKnownEntry();
+  await testDeMissingEntry();
+  await testEtKnownEntry();
   await testRejectedDomain();
-  await testUnreachable();
-  console.log("ALL official source access integration tests passed");
+  await testUnreachableAllowlistedHost();
+  console.log("ALL official source entry validation integration tests passed");
 }
 
 main().catch((e) => {
