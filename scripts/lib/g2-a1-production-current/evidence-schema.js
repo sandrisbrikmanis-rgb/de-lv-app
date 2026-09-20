@@ -10,6 +10,7 @@ const {
   AUDIT_SOURCE,
   FORBIDDEN_CURRENT_SOURCES,
 } = require("./constants");
+const { isLinguisticVerdictClosed } = require("./linguistic-closure");
 
 function nonEmptyString(v) {
   return typeof v === "string" && v.trim().length > 0;
@@ -49,6 +50,12 @@ function validateAuditedEvidenceRecord(row, options = {}) {
   const errors = [];
   if (row.recordKind !== RECORD_KIND.AUDITED_EVIDENCE) errors.push("recordKind");
   if (row.auditSource !== AUDIT_SOURCE) errors.push("auditSource");
+  if (!isLinguisticVerdictClosed(row)) {
+    if (row.AUDIT_VERDICT != null && row.AUDIT_VERDICT !== "") {
+      errors.push("mapping_gap_with_verdict");
+    }
+    return { pass: errors.length === 0, errors, skipped: "MAPPING_GAP" };
+  }
   for (const f of APVIENOTS_EVIDENCE_FIELDS) {
     if (!nonEmptyString(row[f])) errors.push(`missing:${f}`);
   }

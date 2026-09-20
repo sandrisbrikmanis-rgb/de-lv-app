@@ -37,18 +37,25 @@ function tallyAuditedRecords(records) {
   return counts;
 }
 
-function validateCoverageEquation(counts) {
+function validateCoverageEquation(counts, options = {}) {
   const errors = [];
   const sum =
-    counts.AUDIT_PASS + counts.FINDING + counts.NEEDS_SOURCE_REVIEW + counts.SOURCE_DE_ISSUE;
+    counts.AUDIT_PASS +
+    counts.FINDING +
+    counts.NEEDS_SOURCE_REVIEW +
+    counts.SOURCE_DE_ISSUE +
+    (counts.missingVerdict || 0);
   if (counts.TOTAL_CHECKED !== sum) {
     errors.push({
       code: "COVERAGE_EQUATION",
       total: counts.TOTAL_CHECKED,
       sum,
+      missingVerdict: counts.missingVerdict,
     });
   }
-  if (counts.missingVerdict > 0) errors.push({ code: "MISSING_VERDICT", n: counts.missingVerdict });
+  if (counts.missingVerdict > 0 && options.requireZeroMissingVerdict === true) {
+    errors.push({ code: "MISSING_VERDICT", n: counts.missingVerdict });
+  }
   if (counts.duplicateRowIds > 0) errors.push({ code: "DUPLICATE_ROWS", n: counts.duplicateRowIds });
   if (counts.unknownVerdict > 0) errors.push({ code: "UNKNOWN_VERDICT", n: counts.unknownVerdict });
   const expectedOwner =

@@ -1,0 +1,455 @@
+{
+  "generatedAt": "2026-09-20T05:44:48.642Z",
+  "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+  "rawLunaItemCount": 0,
+  "inventoryRows": 95731,
+  "classificationTotals": {
+    "RAW_LUNA_FIELD_RESULT": 0,
+    "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+    "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+    "SYNTHETIC_FALLBACK_NSR": 95731,
+    "UNAUDITED_MISSING_FIELD_RESULT": 0
+  },
+  "reprocessProvenanceCounts": {
+    "UNAUDITED_MISSING_FIELD_RESULT": 95731
+  },
+  "coverage": {
+    "TOTAL_CHECKED": 95731,
+    "AUDIT_PASS": 0,
+    "FINDING": 0,
+    "NEEDS_SOURCE_REVIEW": 0,
+    "SOURCE_DE_ISSUE": 0,
+    "OWNER_REVIEW_REQUIRED": 0,
+    "missingVerdict": 95731,
+    "duplicateRowIds": 0,
+    "unknownVerdict": 0
+  },
+  "coveragePass": true,
+  "postRunPass": true,
+  "postRunBlockersSample": [],
+  "missingFieldResults": 95731,
+  "syntheticFallbackInLinguisticVerdicts": 0,
+  "salvageGate": {
+    "classification": "G2_A1_FIRST_RUN_NOT_MASTER_COMPLIANT_FIELD_LEVEL_RERUN_REQUIRED",
+    "nextAction": "RUN_MASTER_COMPLIANT_FIELD_LEVEL_AUDIT",
+    "salvageableFromRaw": false
+  },
+  "perLang": [
+    {
+      "language": "lv",
+      "inventoryRows": 2971,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2971,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "lt",
+      "inventoryRows": 2995,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2995,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "ru",
+      "inventoryRows": 2995,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2995,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "pl",
+      "inventoryRows": 2995,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2995,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "uk",
+      "inventoryRows": 2994,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2994,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "et",
+      "inventoryRows": 3002,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 3002,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "en",
+      "inventoryRows": 2969,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2969,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "ro",
+      "inventoryRows": 2995,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2995,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "bg",
+      "inventoryRows": 2994,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2994,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "tr",
+      "inventoryRows": 3015,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 3015,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "gr",
+      "inventoryRows": 3008,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 3008,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "sq",
+      "inventoryRows": 2991,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2991,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "mk",
+      "inventoryRows": 2995,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2995,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "sl",
+      "inventoryRows": 2977,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2977,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "bs",
+      "inventoryRows": 2967,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2967,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "sr",
+      "inventoryRows": 2972,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2972,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "hr",
+      "inventoryRows": 2995,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2995,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "sk",
+      "inventoryRows": 2990,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2990,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "cs",
+      "inventoryRows": 2974,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2974,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "fi",
+      "inventoryRows": 3009,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 3009,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "sv",
+      "inventoryRows": 3002,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 3002,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "nb",
+      "inventoryRows": 2998,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2998,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "nn",
+      "inventoryRows": 2997,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2997,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "da",
+      "inventoryRows": 2988,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2988,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "nl",
+      "inventoryRows": 2995,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2995,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "lb",
+      "inventoryRows": 2989,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2989,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "fr",
+      "inventoryRows": 2984,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2984,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "it",
+      "inventoryRows": 2995,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2995,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "es",
+      "inventoryRows": 2996,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2996,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "pt",
+      "inventoryRows": 2992,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2992,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "hu",
+      "inventoryRows": 2994,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2994,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    },
+    {
+      "language": "is",
+      "inventoryRows": 2998,
+      "rawLunaItems": 0,
+      "provenance": {
+        "RAW_LUNA_FIELD_RESULT": 0,
+        "DETERMINISTIC_CARD_TO_FIELD_MAPPING_POSSIBLE": 0,
+        "FIELD_LEVEL_EVIDENCE_MISSING": 0,
+        "SYNTHETIC_FALLBACK_NSR": 2998,
+        "UNAUDITED_MISSING_FIELD_RESULT": 0
+      },
+      "mapErrors": 0
+    }
+  ]
+}

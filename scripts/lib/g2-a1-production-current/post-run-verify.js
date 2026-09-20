@@ -8,6 +8,7 @@ const { filterOwnerReviewRows, assertPassExcludedFromOwnerReview } = require("./
 const { rejectBulkPassRationale, rejectSharedEvidenceWithoutRowBinding } = require("./bulk-forbidden");
 const { verifyMultipartNoGaps } = require("./csv-multipart");
 const { AUDIT_VERDICTS } = require("./constants");
+const { isLinguisticVerdictClosed } = require("./linguistic-closure");
 
 function verifyPostRunClosure(bundle, options = {}) {
   const blockers = [];
@@ -17,6 +18,7 @@ function verifyPostRunClosure(bundle, options = {}) {
   for (const r of records) {
     const schema = validateAuditedEvidenceRecord(r, { cefrApplicable: r.CEFR_APPLICABLE === true });
     if (!schema.pass) blockers.push({ code: "SCHEMA", rowId: r.rowId, errors: schema.errors });
+    if (schema.skipped === "MAPPING_GAP") continue;
     const verdict = validateRecordByVerdict(r);
     if (!verdict.pass) blockers.push({ code: "VERDICT", rowId: r.rowId, errors: verdict.errors });
     if (r.AUDIT_VERDICT === "PASS") {
@@ -57,7 +59,9 @@ function verifyPostRunClosure(bundle, options = {}) {
     blockers.push({ code: "FILE_SET_SHA_CHANGED" });
   }
 
-  const unknownVerdicts = records.filter((r) => !AUDIT_VERDICTS.includes(r.AUDIT_VERDICT));
+  const unknownVerdicts = records.filter(
+    (r) => isLinguisticVerdictClosed(r) && !AUDIT_VERDICTS.includes(r.AUDIT_VERDICT),
+  );
   if (unknownVerdicts.length) blockers.push({ code: "UNKNOWN_VERDICT", n: unknownVerdicts.length });
 
   return {

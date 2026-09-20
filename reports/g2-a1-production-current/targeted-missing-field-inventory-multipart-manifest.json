@@ -1,0 +1,145 @@
+{
+  "multipart": true,
+  "totalRows": 95731,
+  "maxBytes": 4000000,
+  "parts": [
+    {
+      "partIndex": 1,
+      "rowStart": 1,
+      "rowEnd": 6807,
+      "rowCount": 6807,
+      "byteLength": 3999910,
+      "sha256": "0e207ec4841e3d1857d160b8fdf5a9fbddae02d62d6852bd25719da40965f350"
+    },
+    {
+      "partIndex": 2,
+      "rowStart": 6808,
+      "rowEnd": 13466,
+      "rowCount": 6659,
+      "byteLength": 3999647,
+      "sha256": "c59238e0481fe43ff0c550a1b4e109b56542c4a586335e8f63c82b4916fa533e"
+    },
+    {
+      "partIndex": 3,
+      "rowStart": 13467,
+      "rowEnd": 20234,
+      "rowCount": 6768,
+      "byteLength": 3999988,
+      "sha256": "476a84b0de8ac289434fba77066b067f1f49e2714d1cdad68615b131272fbc63"
+    },
+    {
+      "partIndex": 4,
+      "rowStart": 20235,
+      "rowEnd": 26938,
+      "rowCount": 6704,
+      "byteLength": 3999645,
+      "sha256": "c870e7df9751af6aa1629ecb78f40b1acdcfb0bb8a30de04d00089ba27347158"
+    },
+    {
+      "partIndex": 5,
+      "rowStart": 26939,
+      "rowEnd": 33613,
+      "rowCount": 6675,
+      "byteLength": 3999598,
+      "sha256": "b3c4f5206677d9d7bac26b1c24e75f21394cacafdcbef17b845f252176c597be"
+    },
+    {
+      "partIndex": 6,
+      "rowStart": 33614,
+      "rowEnd": 40300,
+      "rowCount": 6687,
+      "byteLength": 3999875,
+      "sha256": "b4da5dfabf9fc7a7d5e72f2721f38ba63169a2fdd5be40a6b24cecfa97e1629e"
+    },
+    {
+      "partIndex": 7,
+      "rowStart": 40301,
+      "rowEnd": 47074,
+      "rowCount": 6774,
+      "byteLength": 3999274,
+      "sha256": "6350900396a122a339f6743805a38748b907f5823a7feb04ec26f0c76e82bb5b"
+    },
+    {
+      "partIndex": 8,
+      "rowStart": 47075,
+      "rowEnd": 53804,
+      "rowCount": 6730,
+      "byteLength": 3999809,
+      "sha256": "f6ee0d90144f6f070d385a5335e9ee52e9fe553ef1a4cf898eeb70c999e81f0a"
+    },
+    {
+      "partIndex": 9,
+      "rowStart": 53805,
+      "rowEnd": 60613,
+      "rowCount": 6809,
+      "byteLength": 3999764,
+      "sha256": "0a97da1668845b2c6991fc5837e02b477b41e378f56d5aaf21e933b7aaf4814c"
+    },
+    {
+      "partIndex": 10,
+      "rowStart": 60614,
+      "rowEnd": 67420,
+      "rowCount": 6807,
+      "byteLength": 3999806,
+      "sha256": "bace3bb25815d0425b2ae1d2eedb8bb2df1a99736847946d723039f5348cc241"
+    },
+    {
+      "partIndex": 11,
+      "rowStart": 67421,
+      "rowEnd": 74237,
+      "rowCount": 6817,
+      "byteLength": 3999559,
+      "sha256": "30f587430409c41a0396e864a478453795f886cae051f0ad73bb39a564d7a487"
+    },
+    {
+      "partIndex": 12,
+      "rowStart": 74238,
+      "rowEnd": 81019,
+      "rowCount": 6782,
+      "byteLength": 3999605,
+      "sha256": "1453be4e8be8874dd0772d87873e210e42c94e2d545a466bab5d5b588d9b5cee"
+    },
+    {
+      "partIndex": 13,
+      "rowStart": 81020,
+      "rowEnd": 87806,
+      "rowCount": 6787,
+      "byteLength": 3999536,
+      "sha256": "6454e017f22e4813f54e14e1b60832c03de5a89284d77d84c3e86d3f8ef2e483"
+    },
+    {
+      "partIndex": 14,
+      "rowStart": 87807,
+      "rowEnd": 94599,
+      "rowCount": 6793,
+      "byteLength": 3999646,
+      "sha256": "884038d991dac2ba460ca575b22e1f539e80af8ad8204be30cddb53772763f85"
+    },
+    {
+      "partIndex": 15,
+      "rowStart": 94600,
+      "rowEnd": 95731,
+      "rowCount": 1132,
+      "byteLength": 662855,
+      "sha256": "f8e5a8c343aba8caf1eb27f6d4edf08d6ac5a76f71c7811861e97c344e01dd7f"
+    }
+  ],
+  "combinedSha256": "dcdeffafb540a2cbdc9af2d8f881912741be67fc50817d7edc8242fb385c611e",
+  "files": [
+    "targeted-missing-field-inventory-part-001.json",
+    "targeted-missing-field-inventory-part-002.json",
+    "targeted-missing-field-inventory-part-003.json",
+    "targeted-missing-field-inventory-part-004.json",
+    "targeted-missing-field-inventory-part-005.json",
+    "targeted-missing-field-inventory-part-006.json",
+    "targeted-missing-field-inventory-part-007.json",
+    "targeted-missing-field-inventory-part-008.json",
+    "targeted-missing-field-inventory-part-009.json",
+    "targeted-missing-field-inventory-part-010.json",
+    "targeted-missing-field-inventory-part-011.json",
+    "targeted-missing-field-inventory-part-012.json",
+    "targeted-missing-field-inventory-part-013.json",
+    "targeted-missing-field-inventory-part-014.json",
+    "targeted-missing-field-inventory-part-015.json"
+  ]
+}
