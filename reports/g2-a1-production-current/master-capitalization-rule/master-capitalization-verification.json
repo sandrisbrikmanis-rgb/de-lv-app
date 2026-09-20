@@ -11,7 +11,8 @@
     "aiNotLanguageAuthority": true,
     "passFindingEvidenceRequirements": true,
     "activeContradictionCount": 0,
-    "embeddedLanguageCount": 33
+    "embeddedLanguageCount": 33,
+    "languageAuditPartiallySuperseded": true
   },
   "fixtureTests": {
     "pass": true,
@@ -31,6 +32,60 @@
           "ok": false,
           "findingType": "CAPITALIZATION_ERROR",
           "proposedTarget": "house",
+          "reason": "case_mismatch_same_lemma"
+        }
+      },
+      {
+        "id": "de_haus_da_hus_ok",
+        "pass": true,
+        "got": {
+          "ok": true,
+          "reason": "matches_authority_lemma"
+        }
+      },
+      {
+        "id": "de_haus_da_hus_cap_finding",
+        "pass": true,
+        "got": {
+          "ok": false,
+          "findingType": "CAPITALIZATION_ERROR",
+          "proposedTarget": "hus",
+          "reason": "case_mismatch_same_lemma"
+        }
+      },
+      {
+        "id": "de_haus_tr_ev_ok",
+        "pass": true,
+        "got": {
+          "ok": true,
+          "reason": "matches_authority_lemma"
+        }
+      },
+      {
+        "id": "de_haus_tr_ev_cap_finding",
+        "pass": true,
+        "got": {
+          "ok": false,
+          "findingType": "CAPITALIZATION_ERROR",
+          "proposedTarget": "ev",
+          "reason": "case_mismatch_same_lemma"
+        }
+      },
+      {
+        "id": "de_haus_ru_dom_ok",
+        "pass": true,
+        "got": {
+          "ok": true,
+          "reason": "matches_authority_lemma"
+        }
+      },
+      {
+        "id": "de_haus_ru_dom_cap_finding",
+        "pass": true,
+        "got": {
+          "ok": false,
+          "findingType": "CAPITALIZATION_ERROR",
+          "proposedTarget": "дом",
           "reason": "case_mismatch_same_lemma"
         }
       },
@@ -101,7 +156,7 @@
           "ok": false,
           "findingType": "CAPITALIZATION_ERROR",
           "proposedTarget": "haus",
-          "reason": "case_mismatch_same_lemma"
+          "reason": "all_caps_ui_headword_not_normative_lemma"
         }
       }
     ]

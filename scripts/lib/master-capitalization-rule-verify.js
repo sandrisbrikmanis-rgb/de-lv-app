@@ -31,23 +31,31 @@ const REQUIRED_APVIENOTS_SNIPPETS = [
   "`PASS` bez DE un TARGET evidence",
 ];
 
-const FORBIDDEN_ACTIVE_CONTRADICTIONS = [
+/** Per-document contradiction rules (no cross-doc allowIfAlso masking). */
+const DOCUMENT_CONTRADICTION_RULES = [
   {
-    id: "de_capital_transfer_allowed",
-    pattern: /vācu lietvārda lielais sākumburts.*(?:automātiski )?pārnest/i,
-    allowIfAlso: /netiek automātiski pārnests/i,
-    doc: "MASTER+APVIENOTS",
+    id: "de_capital_transfer_allowed_without_ban",
+    scope: "master",
+    affirmative: /vācu lietvārda lielais sākumburts[\s\S]{0,160}?(?:drīkst|jā|obligāti)[\s\S]{0,40}?pārnest/i,
+    requiredBan: /netiek automātiski pārnests/i,
   },
   {
-    id: "ui_position_caps_lemma",
-    pattern: /UI elementa pirmā pozīcija.*(?:oblig|jā|must).*lielo sākumburtu/i,
-    doc: "MASTER+APVIENOTS",
+    id: "de_capital_transfer_allowed_without_ban_apv",
+    scope: "apvienots",
+    affirmative: /vācu lietvārda lielais sākumburts[\s\S]{0,160}?(?:drīkst|jā|obligāti)[\s\S]{0,40}?pārnest/i,
+    requiredBan: /netiek automātiski pārnests/i,
   },
   {
-    id: "ai_language_authority_capitalization",
-    pattern: /AI\/LLM.*(?:ir|as) LANGUAGE AUTHORITY/i,
-    doc: "APVIENOTS",
-    forbiddenInApvienots: true,
+    id: "ui_position_caps_lemma_required",
+    scope: "master",
+    affirmative: /UI elementa pirmā pozīcija[\s\S]{0,120}?(?:oblig|jā|must)[\s\S]{0,60}?lielo sākumburtu/i,
+    requiredBan: null,
+  },
+  {
+    id: "ai_is_language_authority_apv",
+    scope: "apvienots",
+    affirmative: /AI\/LLM[\s\S]{0,80}?(?:ir|as)\s+\*\*LANGUAGE AUTHORITY\*\*/i,
+    requiredBan: /AI nav:[\s\S]{0,40}\*\*LANGUAGE AUTHORITY\*\*/i,
   },
 ];
 
@@ -64,18 +72,44 @@ function evaluateDictionaryCapitalization({ fieldKind, current, authorityLemma, 
     return { ok: null, reason: "needs_source_review" };
   }
   const norm = (s) => String(s).normalize("NFC").trim();
-  if (norm(current) === norm(authorityLemma)) {
+  const cur = norm(current);
+  const auth = norm(authorityLemma);
+  if (cur === auth) {
     return { ok: true, reason: "matches_authority_lemma" };
   }
-  if (norm(current).toLowerCase() === norm(authorityLemma).toLowerCase()) {
+  if (
+    cur.length > 1 &&
+    cur === cur.toUpperCase() &&
+    auth === auth.toLowerCase() &&
+    cur.toLowerCase() === auth.toLowerCase()
+  ) {
     return {
       ok: false,
       findingType: "CAPITALIZATION_ERROR",
-      proposedTarget: authorityLemma,
+      proposedTarget: auth,
+      reason: "all_caps_ui_headword_not_normative_lemma",
+    };
+  }
+  if (cur.toLowerCase() === auth.toLowerCase()) {
+    return {
+      ok: false,
+      findingType: "CAPITALIZATION_ERROR",
+      proposedTarget: auth,
       reason: "case_mismatch_same_lemma",
     };
   }
   return { ok: false, findingType: "WRONG_TRANSLATION", reason: "lemma_mismatch" };
+}
+
+function assertCaseExpectations(c, r) {
+  let pass = false;
+  if (c.expectOk === true) pass = r.ok === true;
+  else if (c.expectOk === false) pass = r.ok === false;
+  else pass = r.ok === null;
+  if (c.expectFinding) pass = pass && r.findingType === c.expectFinding;
+  if (c.expectProposedTarget) pass = pass && r.proposedTarget === c.expectProposedTarget;
+  if (c.expectReason) pass = pass && r.reason === c.expectReason;
+  return pass;
 }
 
 function runCapitalizationRuleTests() {
@@ -84,39 +118,91 @@ function runCapitalizationRuleTests() {
       id: "de_haus_en_house_ok",
       input: { fieldKind: "dictionary", current: "house", authorityLemma: "house" },
       expectOk: true,
+      expectReason: "matches_authority_lemma",
     },
     {
       id: "de_haus_en_house_cap_finding",
       input: { fieldKind: "dictionary", current: "House", authorityLemma: "house" },
       expectOk: false,
       expectFinding: "CAPITALIZATION_ERROR",
+      expectProposedTarget: "house",
+      expectReason: "case_mismatch_same_lemma",
+    },
+    {
+      id: "de_haus_da_hus_ok",
+      input: { fieldKind: "dictionary", current: "hus", authorityLemma: "hus" },
+      expectOk: true,
+      expectReason: "matches_authority_lemma",
+    },
+    {
+      id: "de_haus_da_hus_cap_finding",
+      input: { fieldKind: "dictionary", current: "Hus", authorityLemma: "hus" },
+      expectOk: false,
+      expectFinding: "CAPITALIZATION_ERROR",
+      expectProposedTarget: "hus",
+      expectReason: "case_mismatch_same_lemma",
+    },
+    {
+      id: "de_haus_tr_ev_ok",
+      input: { fieldKind: "dictionary", current: "ev", authorityLemma: "ev" },
+      expectOk: true,
+      expectReason: "matches_authority_lemma",
+    },
+    {
+      id: "de_haus_tr_ev_cap_finding",
+      input: { fieldKind: "dictionary", current: "Ev", authorityLemma: "ev" },
+      expectOk: false,
+      expectFinding: "CAPITALIZATION_ERROR",
+      expectProposedTarget: "ev",
+      expectReason: "case_mismatch_same_lemma",
+    },
+    {
+      id: "de_haus_ru_dom_ok",
+      input: { fieldKind: "dictionary", current: "дом", authorityLemma: "дом" },
+      expectOk: true,
+      expectReason: "matches_authority_lemma",
+    },
+    {
+      id: "de_haus_ru_dom_cap_finding",
+      input: { fieldKind: "dictionary", current: "Дом", authorityLemma: "дом" },
+      expectOk: false,
+      expectFinding: "CAPITALIZATION_ERROR",
+      expectProposedTarget: "дом",
+      expectReason: "case_mismatch_same_lemma",
     },
     {
       id: "de_haus_bg_kashta_ok",
       input: { fieldKind: "dictionary", current: "къща", authorityLemma: "къща" },
       expectOk: true,
+      expectReason: "matches_authority_lemma",
     },
     {
       id: "de_haus_bg_kashta_cap_finding",
       input: { fieldKind: "dictionary", current: "Къща", authorityLemma: "къща" },
       expectOk: false,
       expectFinding: "CAPITALIZATION_ERROR",
+      expectProposedTarget: "къща",
+      expectReason: "case_mismatch_same_lemma",
     },
     {
       id: "de_haus_gr_ok",
       input: { fieldKind: "dictionary", current: "σπίτι", authorityLemma: "σπίτι" },
       expectOk: true,
+      expectReason: "matches_authority_lemma",
     },
     {
       id: "de_haus_gr_cap_finding",
       input: { fieldKind: "dictionary", current: "Σπίτι", authorityLemma: "σπίτι" },
       expectOk: false,
       expectFinding: "CAPITALIZATION_ERROR",
+      expectProposedTarget: "σπίτι",
+      expectReason: "case_mismatch_same_lemma",
     },
     {
       id: "sentence_starts_upper_ok",
       input: { fieldKind: "sentence", current: "Das ist ein Haus.", authorityLemma: "haus" },
       expectOk: true,
+      expectReason: "sentence_field_exempt_from_lemma_rule",
     },
     {
       id: "proper_noun_ok",
@@ -127,43 +213,45 @@ function runCapitalizationRuleTests() {
         isProperNoun: true,
       },
       expectOk: true,
+      expectReason: "proper_noun_exception",
     },
     {
       id: "ui_title_without_authority_nsr",
       input: { fieldKind: "dictionary", current: "Haus", authorityLemma: null },
       expectOk: null,
+      expectReason: "needs_source_review",
     },
     {
       id: "all_caps_headword_not_auto_target",
       input: { fieldKind: "dictionary", current: "HAUS", authorityLemma: "haus" },
       expectOk: false,
+      expectFinding: "CAPITALIZATION_ERROR",
+      expectProposedTarget: "haus",
+      expectReason: "all_caps_ui_headword_not_normative_lemma",
     },
   ];
 
   const results = [];
   for (const c of cases) {
     const r = evaluateDictionaryCapitalization(c.input);
-    let pass = false;
-    if (c.expectOk === true) pass = r.ok === true;
-    else if (c.expectOk === false) pass = r.ok === false;
-    else pass = r.ok === null;
-    if (c.expectFinding) pass = pass && r.findingType === c.expectFinding;
+    const pass = assertCaseExpectations(c, r);
     results.push({ id: c.id, pass, got: r });
   }
   return { pass: results.every((r) => r.pass), results };
 }
 
 function scanForbiddenContradictions(masterText, apvText) {
+  const scopes = {
+    master: masterText,
+    apvienots: apvText,
+  };
   const active = [];
-  for (const rule of FORBIDDEN_ACTIVE_CONTRADICTIONS) {
-    const hay = `${masterText}\n${apvText}`;
-    if (!rule.pattern.test(hay)) continue;
-    if (rule.allowIfAlso && rule.allowIfAlso.test(hay)) continue;
-    if (rule.forbiddenInApvienots && !rule.pattern.test(apvText)) continue;
-    if (rule.id === "ai_language_authority_capitalization") {
-      if (/AI nav:\s*\n\s*\*\*LANGUAGE AUTHORITY\*\*/.test(apvText)) continue;
-    }
-    active.push(rule.id);
+  for (const rule of DOCUMENT_CONTRADICTION_RULES) {
+    const text = scopes[rule.scope];
+    if (!text) continue;
+    if (!rule.affirmative.test(text)) continue;
+    if (rule.requiredBan && rule.requiredBan.test(text)) continue;
+    active.push({ id: rule.id, scope: rule.scope });
   }
   return active;
 }
@@ -172,8 +260,10 @@ function verifyMasterCapitalizationRule(options = {}) {
   const root = options.root || ROOT;
   const masterPath = path.join(root, "docs_and_rules/PROJECT_LANGUAGE_MASTER_STANDARD.md");
   const apvPath = path.join(root, "docs_and_rules/MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md");
+  const langAuditPath = path.join(root, "docs_and_rules/LANGUAGE_AUDIT_STANDARD.md");
   const masterText = fs.readFileSync(masterPath, "utf8");
   const apvText = fs.readFileSync(apvPath, "utf8");
+  const langAuditText = fs.readFileSync(langAuditPath, "utf8");
 
   const blockers = [];
   const missingMaster = REQUIRED_MASTER_SNIPPETS.filter((s) => !masterText.includes(s));
@@ -181,9 +271,17 @@ function verifyMasterCapitalizationRule(options = {}) {
   if (missingMaster.length) blockers.push({ code: "MASTER_SNIPPETS", missing: missingMaster });
   if (missingApv.length) blockers.push({ code: "APVIENOTS_SNIPPETS", missing: missingApv });
 
+  if (
+    langAuditText.includes("vēsturisks reference") &&
+    /obligāts audita standarts jebkurai jaunai/.test(langAuditText) &&
+    !langAuditText.includes("PARTIALLY SUPERSEDED")
+  ) {
+    blockers.push({ code: "LANGUAGE_AUDIT_BANNER_CONTRADICTION" });
+  }
+
   const contradictions = scanForbiddenContradictions(masterText, apvText);
   if (contradictions.length) {
-    blockers.push({ code: "ACTIVE_CONTRADICTIONS", ids: contradictions });
+    blockers.push({ code: "ACTIVE_CONTRADICTIONS", items: contradictions });
   }
 
   const fixtureTests = runCapitalizationRuleTests();
@@ -213,6 +311,7 @@ function verifyMasterCapitalizationRule(options = {}) {
       passFindingEvidenceRequirements: masterText.includes("TARGET evidence ir aizliegts"),
       activeContradictionCount: contradictions.length,
       embeddedLanguageCount: embedded.EMBEDDED_LANGUAGE_REGISTRY_COUNT,
+      languageAuditPartiallySuperseded: langAuditText.includes("PARTIALLY SUPERSEDED"),
     },
     fixtureTests,
     embeddedRegistry: embedded,

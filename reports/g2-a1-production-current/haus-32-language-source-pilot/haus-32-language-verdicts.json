@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-20T11:03:41.189Z",
+  "generatedAt": "2026-09-20T11:30:38.766Z",
   "counts": {
-    "PASS": 9,
-    "FINDING": 4,
+    "PASS": 4,
+    "FINDING": 9,
     "NEEDS_SOURCE_REVIEW": 19,
     "SOURCE_DE_ISSUE": 0
   },
@@ -37,7 +37,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:57:05.264Z"
+      "checkedAt": "2026-09-20T11:25:23.296Z"
     },
     {
       "language": "en",
@@ -56,18 +56,18 @@
       "targetMeaningFragment": "a building for people to live in, usually for one family",
       "sourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "deSourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
-      "orthographyStatus": "PASS",
-      "capitalizationStatus": "PASS",
-      "lemmaStatus": "PASS",
+      "orthographyStatus": "CHECKED",
+      "capitalizationStatus": "FAIL",
+      "lemmaStatus": "CHECKED",
       "semanticMatchStatus": "PASS",
-      "proposedTarget": null,
-      "verdict": "PASS",
-      "findingType": null,
+      "proposedTarget": "house",
+      "verdict": "FINDING",
+      "findingType": "CAPITALIZATION_ERROR",
       "evidenceSha256": "3e10d87dbbdd074b0f72734210d7ca6afa4322ab90013b7ae1cfc717dc51a276",
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
-      "ownerReviewRequired": false,
+      "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:57:05.565Z"
+      "checkedAt": "2026-09-20T11:25:23.594Z"
     },
     {
       "language": "cs",
@@ -97,7 +97,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "dům",
-      "checkedAt": "2026-09-20T10:57:05.856Z"
+      "checkedAt": "2026-09-20T11:25:23.902Z"
     },
     {
       "language": "da",
@@ -116,18 +116,18 @@
       "targetMeaningFragment": "s flere\n3 RESULTATER\nhus sb.\nhus → hu22 sb.\nhus → huse vb.\nhus\nsubstantiv, intetkøn\nBØJNING\n-et, -e, -ene\nBøjningsformer\nhuset\nhuse\nhusene\nUDTALE\n[ˈhuˀs]\nLydskrift\tEksempel\tUdtale\nˈ\thovedtryk: stavelsen efter dette tegn skal betones\t\nh\thøne\t[ˈhœːnə]\nu\tkulde\t[ˈkulə]\nˀ\tstød -- ordet hund har stød, ordet hun har ikke stød\t\ns\tsynge, dysse, kys\t[ˈsøŋə] [ˈdysə] [ˈkøs]\n    i sammensætning [ˈhus-]\nLydskrift\tEksempel\tUdtale\nˈ\thovedtryk: stavelsen efter dette tegn skal betones\t\nh\thøne\t[ˈhœːnə]\nu\tkulde\t[ˈkulə]\ns\tsynge, dysse, kys\t[ˈsøŋə] [ˈdysə] [ˈkøs]\n-\tdel af ordet udeladt\t\n \nOPRINDELSE\nnorrønt hús, tysk Haus af uvis oprindelse\nBetydninger\n1.\nselvstændig bygning som bruges til beboelse, ophold eller opbevaring\nORD I NÆRHEDEN\nbygning\nejendom\nbygningsværk\nkonstruktion\nbygværk\nbyggearbejde\nVis flere +\nEKSEMPLER\nbyens huse\nhusets arkitektur\nhusets beboere\nbyen består af 50-100 huse læreb1988\nAldrig før i den samlede Dan",
       "sourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "deSourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
-      "orthographyStatus": "PASS",
-      "capitalizationStatus": "PASS",
-      "lemmaStatus": "PASS",
+      "orthographyStatus": "CHECKED",
+      "capitalizationStatus": "FAIL",
+      "lemmaStatus": "CHECKED",
       "semanticMatchStatus": "PASS",
-      "proposedTarget": null,
-      "verdict": "PASS",
-      "findingType": null,
+      "proposedTarget": "hus",
+      "verdict": "FINDING",
+      "findingType": "CAPITALIZATION_ERROR",
       "evidenceSha256": "f74c65de9e204eaf48cc732610c7e4e66599b6079b91d78cebcf0dde43d62a78",
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
-      "ownerReviewRequired": false,
+      "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:57:06.153Z"
+      "checkedAt": "2026-09-20T11:25:24.200Z"
     },
     {
       "language": "et",
@@ -157,7 +157,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:57:07.511Z"
+      "checkedAt": "2026-09-20T11:25:25.435Z"
     },
     {
       "language": "es",
@@ -187,7 +187,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:57:07.915Z"
+      "checkedAt": "2026-09-20T11:25:25.842Z"
     },
     {
       "language": "fr",
@@ -217,7 +217,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "maison",
-      "checkedAt": "2026-09-20T10:57:21.740Z"
+      "checkedAt": "2026-09-20T11:25:39.574Z"
     },
     {
       "language": "hr",
@@ -247,7 +247,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "kuća",
-      "checkedAt": "2026-09-20T10:57:50.628Z"
+      "checkedAt": "2026-09-20T11:26:08.456Z"
     },
     {
       "language": "is",
@@ -277,7 +277,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "hús",
-      "checkedAt": "2026-09-20T10:58:20.331Z"
+      "checkedAt": "2026-09-20T11:26:38.178Z"
     },
     {
       "language": "it",
@@ -307,7 +307,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "casa",
-      "checkedAt": "2026-09-20T10:58:33.882Z"
+      "checkedAt": "2026-09-20T11:26:51.684Z"
     },
     {
       "language": "lv",
@@ -337,7 +337,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:58:34.727Z"
+      "checkedAt": "2026-09-20T11:26:52.519Z"
     },
     {
       "language": "lb",
@@ -367,7 +367,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "Haus",
-      "checkedAt": "2026-09-20T10:58:48.507Z"
+      "checkedAt": "2026-09-20T11:27:06.763Z"
     },
     {
       "language": "lt",
@@ -397,7 +397,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "namas",
-      "checkedAt": "2026-09-20T10:59:03.937Z"
+      "checkedAt": "2026-09-20T11:27:22.024Z"
     },
     {
       "language": "hu",
@@ -427,7 +427,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T10:59:11.089Z"
+      "checkedAt": "2026-09-20T11:27:29.098Z"
     },
     {
       "language": "nl",
@@ -457,7 +457,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "huis",
-      "checkedAt": "2026-09-20T10:59:36.081Z"
+      "checkedAt": "2026-09-20T11:27:54.110Z"
     },
     {
       "language": "nb",
@@ -477,9 +477,9 @@
       "sourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "deSourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "orthographyStatus": "CHECKED",
-      "capitalizationStatus": "CHECKED",
+      "capitalizationStatus": "FAIL",
       "lemmaStatus": "CHECKED",
-      "semanticMatchStatus": "FAIL",
+      "semanticMatchStatus": "PASS",
       "proposedTarget": "hus",
       "verdict": "FINDING",
       "findingType": "WRONG_TRANSLATION",
@@ -487,7 +487,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "hus",
-      "checkedAt": "2026-09-20T10:59:59.622Z"
+      "checkedAt": "2026-09-20T11:27:55.705Z"
     },
     {
       "language": "nn",
@@ -507,9 +507,9 @@
       "sourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "deSourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "orthographyStatus": "CHECKED",
-      "capitalizationStatus": "CHECKED",
+      "capitalizationStatus": "FAIL",
       "lemmaStatus": "CHECKED",
-      "semanticMatchStatus": "FAIL",
+      "semanticMatchStatus": "PASS",
       "proposedTarget": "hus",
       "verdict": "FINDING",
       "findingType": "WRONG_TRANSLATION",
@@ -517,7 +517,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "hus",
-      "checkedAt": "2026-09-20T11:00:23.216Z"
+      "checkedAt": "2026-09-20T11:27:56.418Z"
     },
     {
       "language": "pl",
@@ -547,7 +547,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "dom",
-      "checkedAt": "2026-09-20T11:00:42.562Z"
+      "checkedAt": "2026-09-20T11:28:14.495Z"
     },
     {
       "language": "pt",
@@ -577,7 +577,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "casa",
-      "checkedAt": "2026-09-20T11:01:43.337Z"
+      "checkedAt": "2026-09-20T11:28:51.983Z"
     },
     {
       "language": "ro",
@@ -607,7 +607,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "casă",
-      "checkedAt": "2026-09-20T11:02:12.453Z"
+      "checkedAt": "2026-09-20T11:29:21.077Z"
     },
     {
       "language": "sq",
@@ -637,7 +637,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:02:13.380Z"
+      "checkedAt": "2026-09-20T11:29:21.949Z"
     },
     {
       "language": "sk",
@@ -657,17 +657,17 @@
       "sourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "deSourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "orthographyStatus": "CHECKED",
-      "capitalizationStatus": "CHECKED",
+      "capitalizationStatus": "FAIL",
       "lemmaStatus": "CHECKED",
-      "semanticMatchStatus": "FAIL",
+      "semanticMatchStatus": "PASS",
       "proposedTarget": "dom",
       "verdict": "FINDING",
-      "findingType": "SEMANTIC_MISMATCH",
+      "findingType": "WRONG_TRANSLATION",
       "evidenceSha256": "36920edd98ab9f0d5af6deb5cd4e5809f62be348155d8e2d397327f93fba0965",
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "dom",
-      "checkedAt": "2026-09-20T11:02:13.961Z"
+      "checkedAt": "2026-09-20T11:29:23.245Z"
     },
     {
       "language": "sl",
@@ -697,7 +697,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": false,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:02:14.726Z"
+      "checkedAt": "2026-09-20T11:29:23.554Z"
     },
     {
       "language": "sr",
@@ -727,7 +727,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:02:15.345Z"
+      "checkedAt": "2026-09-20T11:29:23.968Z"
     },
     {
       "language": "fi",
@@ -747,9 +747,9 @@
       "sourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "deSourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "orthographyStatus": "CHECKED",
-      "capitalizationStatus": "CHECKED",
+      "capitalizationStatus": "FAIL",
       "lemmaStatus": "CHECKED",
-      "semanticMatchStatus": "FAIL",
+      "semanticMatchStatus": "PASS",
       "proposedTarget": "talo",
       "verdict": "FINDING",
       "findingType": "WRONG_TRANSLATION",
@@ -757,7 +757,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "talo",
-      "checkedAt": "2026-09-20T11:02:29.201Z"
+      "checkedAt": "2026-09-20T11:29:24.790Z"
     },
     {
       "language": "sv",
@@ -787,7 +787,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "hus",
-      "checkedAt": "2026-09-20T11:02:57.001Z"
+      "checkedAt": "2026-09-20T11:29:51.902Z"
     },
     {
       "language": "tr",
@@ -806,18 +806,18 @@
       "targetMeaningFragment": "[{\"madde_id\":\"20063\",\"kac\":\"0\",\"kelime_no\":\"17187\",\"cesit\":\"0\",\"anlam_gor\":\"0\",\"on_taki\":null,\"on_taki_html\":null,\"madde\":\"ev\",\"madde_html\":\" ev \",\"cesit_say\":\"12\",\"anlam_say\":\"3\",\"taki\":\"\",\"cogul_mu\":\"0\",\"ozel_mi\":\"0\",\"egik_mi\":\"0\",\"lisan_kodu\":\"0\",\"lisan\":\"\",\"telaffuz_html\":\"\",\"lisan_html\":\"\",\"telaffuz\":\"\",\"birlesikler\":\"ev adamı, ev altı, ev bark, ev çizgileri, ev ekmeği, ev ekonomisi, ev eşyası, ev gezmesi, ev halkı, ev hanımı, ev işi, ev kadını, ev sahibi, ev sineği, ev yemeği, evi sırtında, dubleks ev, genelev, konteyner ev, taşınır ev, tripleks ev, yüzer ev, Allah'ın evi, arıtımevi, aşevi, ayevi, babaevi, bağ evi, bakımevi, basımevi, bıçkıevi, buğuevi, camevi, canevi, cemevi, cenazeevi, cezaevi, ciltevi, çayevi, çiçekevi, dağ evi, dağıtımevi, damıtımevi, dernekevi, dikimevi, doğumevi, doyumevi, dökümevi, düğünevi, dümenevi, dünyaevi, düşkünlerevi, erkekevi, ezimevi, giyimevi, gökevi, gözevi, gözlemevi, hâkimevi, halkevi, hekimevi, huzurevi, hücre evi, ıslahevi, imamevi, kadınevi, kahveevi, kayakevi, kesimevi, kızevi, kimsesizlerevi, kitabevi, konukevi, kuş evi, merdivenevi, modaevi, müzikevi, oğlanevi, orduevi, orman evi, öğretmenevi, ölüevi, polisevi, prefabrik ev, radyoevi",
       "sourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "deSourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
-      "orthographyStatus": "PASS",
-      "capitalizationStatus": "PASS",
-      "lemmaStatus": "PASS",
+      "orthographyStatus": "CHECKED",
+      "capitalizationStatus": "FAIL",
+      "lemmaStatus": "CHECKED",
       "semanticMatchStatus": "PASS",
-      "proposedTarget": null,
-      "verdict": "PASS",
-      "findingType": null,
+      "proposedTarget": "ev",
+      "verdict": "FINDING",
+      "findingType": "CAPITALIZATION_ERROR",
       "evidenceSha256": "bc4fa8a3a9b62fca9b815702721f6a96bcd5f0df90db4dbe9483eba707ee0f8b",
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
-      "ownerReviewRequired": false,
+      "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:02:57.833Z"
+      "checkedAt": "2026-09-20T11:29:52.708Z"
     },
     {
       "language": "gr",
@@ -836,18 +836,18 @@
       "targetMeaningFragment": " Προβολή &nbsp; Άδειασμα Αναζήτηση για: Σπίτι 3 εγγραφές [1 - 3] &lt;&lt; Πρώτο &lt; Προηγούμενο Επόμενο &gt; Τελευταίο &gt;&gt; σπίτι το [spíti] Ο44 : 1. κτίσμα το οποίο χρησιμοποιείται ως κατοικία: Mονώροφο / διώροφο / τριώροφο ~. ~ από πέτρα / πέτρινο. Ξύλινο ~. ~ με κήπο. Σπίτια προκατασκευασμένα. Tα νεοκλασικά σπίτια της Aθήνας / της Θεσσαλονίκης. Xτίζει καινούριο ~. ~ στην πόλη / στην εξοχή / εξοχικό. Έχουνε ~ στο χωριό. ΠAΡ Aν δεν παινέσεις* το ~ σου θα πέσει να σε πλακώσει. 2. η κατοικία, είτε ως ανεξάρτητο κτίσμα είτε ως τμήμα ενός μεγαλύτερου οικοδομήματος: Σε λίγον καιρό θα αποκτήσουμε δικό μας ~ . Δεν έχω ~ να μείνω. Tου αρέσει να μένει ~. Πέρασε από το ~ κανένα βράδυ! Tι ώρα γυρνάς (στο) ~ το μεσημέρι; Mένει κλεισμένος στο ~. Έφυγε από το ~ , και για εγκατάλειψη της πατρικής ή της συζυγικής εστίας. (έκφρ.) σαν στο ~ σας!, ευγενική προτροπή προς φιλοξενούμενο. από ~ σε ~ , για διαδοχική επίσκεψη όλων των κατοικιών ",
       "sourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "deSourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
-      "orthographyStatus": "PASS",
-      "capitalizationStatus": "PASS",
-      "lemmaStatus": "PASS",
+      "orthographyStatus": "CHECKED",
+      "capitalizationStatus": "FAIL",
+      "lemmaStatus": "CHECKED",
       "semanticMatchStatus": "PASS",
-      "proposedTarget": null,
-      "verdict": "PASS",
-      "findingType": null,
+      "proposedTarget": "σπίτι",
+      "verdict": "FINDING",
+      "findingType": "CAPITALIZATION_ERROR",
       "evidenceSha256": "87b558e93c6af1a49a905edd5eb6272b74be886c5c1a0d84250df88b2630c4f4",
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
-      "ownerReviewRequired": false,
+      "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:02:58.114Z"
+      "checkedAt": "2026-09-20T11:29:52.993Z"
     },
     {
       "language": "bg",
@@ -877,7 +877,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "къща",
-      "checkedAt": "2026-09-20T11:03:11.089Z"
+      "checkedAt": "2026-09-20T11:30:05.871Z"
     },
     {
       "language": "mk",
@@ -907,7 +907,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:03:12.247Z"
+      "checkedAt": "2026-09-20T11:30:08.120Z"
     },
     {
       "language": "ru",
@@ -926,18 +926,18 @@
       "targetMeaningFragment": "обнее...\nПо запросу \"Дом\" найдено 43 статьи\nСохранить\n\nдом, -а, предл. в до́ме и (разг.) в дому́, на до́ме и (до́ма) на дому́, мн. -а́, -о́в; но (как первое слово названий учреждений) До́м, -а, напр.: До́м актёра, До́м учи́теля, До́м кино́, До́м учёных; также: Пу́шкинский До́м (в Петербурге)\n\nБе́лый до́м (в Вашингтоне, Москве)\n\nДо́м актёра\n\nДо́м архите́ктора\n\nдо́м-ба́шня, до́ма-ба́шни, м.\n\nДо́м ветера́нов сце́ны\n\nДо́м журнали́ста\n\nДо́м инвали́дов (мемориал в Париже)\n\nдо́м-интерна́т, до́ма-интерна́та\n\nДо́м кино́\n\nДо́м кни́ги\n\nДо́м культу́ры\n\nДо́м литера́торов\n\nдо́м-музе́й, до́ма-музе́я\n\nДо́м на на́бережной (в Москве)\n\nдо́м-новостро́йка, до́ма-новостро́йки, м.\n\nДо́м о́буви\n\nдо́м о́тдыха\n\nДо́м офице́ров\n\nДо́м Па́влова (памятник Сталинградской битвы)\n\nдо́м-пансиона́т, до́ма-пансиона́та\n\nДо́м Пашко́ва (архит. памятник в Москве)\n\nДо́м Прави́тельства Росси́йской Федера́ции\n\nдо́м ребёнка\n\nдо́м Рома́новых\n\nДо́м сою́",
       "sourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
       "deSourceAccessStatus": "SOURCE_ENTRY_VALIDATED",
-      "orthographyStatus": "PASS",
-      "capitalizationStatus": "PASS",
-      "lemmaStatus": "PASS",
+      "orthographyStatus": "CHECKED",
+      "capitalizationStatus": "FAIL",
+      "lemmaStatus": "CHECKED",
       "semanticMatchStatus": "PASS",
-      "proposedTarget": null,
-      "verdict": "PASS",
-      "findingType": null,
+      "proposedTarget": "дом",
+      "verdict": "FINDING",
+      "findingType": "CAPITALIZATION_ERROR",
       "evidenceSha256": "e6a31e8e4c485c0326311bd917063e3039ee05dd7d98e713201bd88b1da139f0",
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
-      "ownerReviewRequired": false,
+      "ownerReviewRequired": true,
       "hausPositiveLookupHint": null,
-      "checkedAt": "2026-09-20T11:03:12.648Z"
+      "checkedAt": "2026-09-20T11:30:08.885Z"
     },
     {
       "language": "uk",
@@ -967,7 +967,7 @@
       "deEvidenceSha256": "21ca37f1127f2fa2d927a8f8c1158e4b73675245ec56c6583fc35f4c4766f1a2",
       "ownerReviewRequired": true,
       "hausPositiveLookupHint": "дім",
-      "checkedAt": "2026-09-20T11:03:41.148Z"
+      "checkedAt": "2026-09-20T11:30:38.726Z"
     }
   ]
 }

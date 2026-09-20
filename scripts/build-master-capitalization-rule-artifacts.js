@@ -45,11 +45,11 @@ const INVENTORY_ROWS = [
   },
   {
     document: "LANGUAGE_AUDIT_STANDARD.md",
-    section: "Checklist §24",
-    existingText: "lielo/mazo burtu lietojums teikumu sākumā un īpašvārdos",
-    problem: "Vēsturisks fails; var tikt lasīts kā aktuāla lemma norma visiem laukiem",
+    section: "Galvene + §24",
+    existingText: "SUPERSEDED + obligāts standarts vienlaikus",
+    problem: "Pretruna: viss fails vēsturisks vs pilnībā obligāts",
     action: "CLARIFY",
-    resolution: "SUPERSEDED banner → MASTER §7.158 / grozījumu dok. §20",
+    resolution: "PARTIALLY SUPERSEDED — spēkā tiktāl, ciktāl nav pretrunā MASTER §7.153–§7.158",
   },
   {
     document: "PROJECT_LANGUAGE_MASTER_STANDARD.md",

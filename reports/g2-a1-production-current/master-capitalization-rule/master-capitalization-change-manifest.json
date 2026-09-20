@@ -1,7 +1,10 @@
 {
-  "generatedAt": "2026-09-20T11:16:56.530Z",
+  "generatedAt": "2026-09-20T11:30:51.548Z",
   "changedDocuments": [
-    "docs_and_rules/MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md"
+    "docs_and_rules/LANGUAGE_AUDIT_STANDARD.md",
+    "docs_and_rules/MASTER_1.12_BINDING_WORK_AGREEMENT.md",
+    "docs_and_rules/MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md",
+    "docs_and_rules/PROJECT_LANGUAGE_MASTER_STANDARD.md"
   ],
   "addedSection": {
     "master": "§7.158 Mērķvalodas pamatforma, ortogrāfija un kapitalizācija (v1.19)",

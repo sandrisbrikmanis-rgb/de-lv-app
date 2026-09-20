@@ -5,9 +5,9 @@ Classification: **G2_A1_HAUS_32_LANGUAGE_SOURCE_SUPPORTED_PILOT_COMPLETE_AWAITIN
 | Valoda | CURRENT | Headword | Verdict | Finding | Proposed |
 |--------|---------|----------|---------|---------|----------|
 | bs | kuća | — | NEEDS_SOURCE_REVIEW | — | — |
-| en | House | house | PASS | — | — |
+| en | House | house | FINDING | CAPITALIZATION_ERROR | house |
 | cs | Dům | — | NEEDS_SOURCE_REVIEW | — | — |
-| da | Hus | Hus | PASS | — | — |
+| da | Hus | Hus | FINDING | CAPITALIZATION_ERROR | hus |
 | et | maja | maja | PASS | — | — |
 | es | casa | casa | PASS | — | — |
 | fr | Maison | — | NEEDS_SOURCE_REVIEW | — | — |
@@ -25,16 +25,16 @@ Classification: **G2_A1_HAUS_32_LANGUAGE_SOURCE_SUPPORTED_PILOT_COMPLETE_AWAITIN
 | pt | )saber | — | NEEDS_SOURCE_REVIEW | — | — |
 | ro | Casa | — | NEEDS_SOURCE_REVIEW | — | — |
 | sq | Për në shtëpi. | — | NEEDS_SOURCE_REVIEW | — | — |
-| sk | Domov | dom | FINDING | SEMANTIC_MISMATCH | dom |
+| sk | Domov | dom | FINDING | WRONG_TRANSLATION | dom |
 | sl | hiša | hiša | PASS | — | — |
 | sr | Куќа | — | NEEDS_SOURCE_REVIEW | — | — |
 | fi | Maja | talo | FINDING | WRONG_TRANSLATION | talo |
 | sv | Maja | — | NEEDS_SOURCE_REVIEW | — | — |
-| tr | Ev | Ev | PASS | — | — |
-| gr | Σπίτι | Σπίτι | PASS | — | — |
+| tr | Ev | Ev | FINDING | CAPITALIZATION_ERROR | ev |
+| gr | Σπίτι | Σπίτι | FINDING | CAPITALIZATION_ERROR | σπίτι |
 | bg | Къща | — | NEEDS_SOURCE_REVIEW | — | — |
 | mk | Куќа | — | NEEDS_SOURCE_REVIEW | — | — |
-| ru | Дом | Дом | PASS | — | — |
+| ru | Дом | Дом | FINDING | CAPITALIZATION_ERROR | дом |
 | uk | будинок | — | NEEDS_SOURCE_REVIEW | — | — |
 
-PASS: 9 | FINDING: 4 | NSR: 19 | DE_ISSUE: 0
+PASS: 4 | FINDING: 9 | NSR: 19 | DE_ISSUE: 0
