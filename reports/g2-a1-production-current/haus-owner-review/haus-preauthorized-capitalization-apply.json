@@ -1,9 +1,12 @@
 {
-  "generatedAt": "2026-09-20T13:39:34.142Z",
+  "generatedAt": "2026-09-20T13:52:56.818Z",
   "dryRun": false,
+  "preApplySha": "1b3a1839c306f333ba3cc612fa58658e0a991b90",
+  "postApplySha": "2b481dd99190727167d10991e4981bd7840a9507",
+  "note": "Authoritative post-apply proof is commit-range verification, not this report alone.",
   "pass": true,
   "appliedCount": 6,
-  "skippedCount": 0,
+  "skippedCount": 6,
   "applied": [
     {
       "language": "en",
@@ -13,16 +16,9 @@
       "wwwMirror": "www/data/en/a1.js",
       "current": "House",
       "new": "house",
+      "idempotent": true,
       "evidenceUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/house_1",
-      "evidenceSha256": "3e10d87dbbdd074b0f72734210d7ca6afa4322ab90013b7ae1cfc717dc51a276",
-      "beforeSha256": {
-        "data": "edcf401ca4f5606133eec439a72af25af8d6fd7d98582ac4d53e475ee012985c",
-        "www": "edcf401ca4f5606133eec439a72af25af8d6fd7d98582ac4d53e475ee012985c"
-      },
-      "afterSha256": {
-        "data": "c0c7613bc5a3f383a50d1a8a68fbfd265a722ab1842e9784c13595aca347773c",
-        "www": "c0c7613bc5a3f383a50d1a8a68fbfd265a722ab1842e9784c13595aca347773c"
-      }
+      "evidenceSha256": "3e10d87dbbdd074b0f72734210d7ca6afa4322ab90013b7ae1cfc717dc51a276"
     },
     {
       "language": "da",
@@ -32,16 +28,9 @@
       "wwwMirror": "www/data/da/a1.js",
       "current": "Hus",
       "new": "hus",
+      "idempotent": true,
       "evidenceUrl": "https://ordnet.dk/ddo/ordbog/Hus",
-      "evidenceSha256": "f74c65de9e204eaf48cc732610c7e4e66599b6079b91d78cebcf0dde43d62a78",
-      "beforeSha256": {
-        "data": "ade11202e272179a5b4970e817e5e94f1b3fb2f7bb834c3cced0b7c79357c678",
-        "www": "ade11202e272179a5b4970e817e5e94f1b3fb2f7bb834c3cced0b7c79357c678"
-      },
-      "afterSha256": {
-        "data": "6a73a64b141529938673450fef696a5c168a7bf7be8194cedf74c2e3b6243668",
-        "www": "6a73a64b141529938673450fef696a5c168a7bf7be8194cedf74c2e3b6243668"
-      }
+      "evidenceSha256": "f74c65de9e204eaf48cc732610c7e4e66599b6079b91d78cebcf0dde43d62a78"
     },
     {
       "language": "tr",
@@ -51,16 +40,9 @@
       "wwwMirror": "www/data/tr/a1.js",
       "current": "Ev",
       "new": "ev",
+      "idempotent": true,
       "evidenceUrl": "https://sozluk.gov.tr/gts?ara=Ev",
-      "evidenceSha256": "bc4fa8a3a9b62fca9b815702721f6a96bcd5f0df90db4dbe9483eba707ee0f8b",
-      "beforeSha256": {
-        "data": "e536a225d442590620644cfa791e81fb5e3c42c107295f3982a4b43231f59665",
-        "www": "e536a225d442590620644cfa791e81fb5e3c42c107295f3982a4b43231f59665"
-      },
-      "afterSha256": {
-        "data": "ca757ffc92b24270e1df5f2092af75f99a35c604a079814b397114ced0e379c7",
-        "www": "ca757ffc92b24270e1df5f2092af75f99a35c604a079814b397114ced0e379c7"
-      }
+      "evidenceSha256": "bc4fa8a3a9b62fca9b815702721f6a96bcd5f0df90db4dbe9483eba707ee0f8b"
     },
     {
       "language": "gr",
@@ -70,16 +52,9 @@
       "wwwMirror": "www/data/gr/a1.js",
       "current": "Σπίτι",
       "new": "σπίτι",
+      "idempotent": true,
       "evidenceUrl": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%A3%CF%80%CE%AF%CF%84%CE%B9",
-      "evidenceSha256": "87b558e93c6af1a49a905edd5eb6272b74be886c5c1a0d84250df88b2630c4f4",
-      "beforeSha256": {
-        "data": "28c5a23f5ff8a817e69d6fa27055a0090a1e3e16fd30f19f138d75b239a2bc3e",
-        "www": "28c5a23f5ff8a817e69d6fa27055a0090a1e3e16fd30f19f138d75b239a2bc3e"
-      },
-      "afterSha256": {
-        "data": "a9e50dbc6816340151f832ac2ce7f6310fa45b95410b3894cf033561a5c85477",
-        "www": "a9e50dbc6816340151f832ac2ce7f6310fa45b95410b3894cf033561a5c85477"
-      }
+      "evidenceSha256": "87b558e93c6af1a49a905edd5eb6272b74be886c5c1a0d84250df88b2630c4f4"
     },
     {
       "language": "ru",
@@ -89,16 +64,9 @@
       "wwwMirror": "www/data/ru/a1.js",
       "current": "Дом",
       "new": "дом",
+      "idempotent": true,
       "evidenceUrl": "https://orfo.ruslang.ru/search?word=%D0%B4%D0%BE%D0%BC",
-      "evidenceSha256": "e6a31e8e4c485c0326311bd917063e3039ee05dd7d98e713201bd88b1da139f0",
-      "beforeSha256": {
-        "data": "249cc2c211d97dc28666101ad11dcb33fec4fdc880616fbcd16d2ba0a484db62",
-        "www": "249cc2c211d97dc28666101ad11dcb33fec4fdc880616fbcd16d2ba0a484db62"
-      },
-      "afterSha256": {
-        "data": "928d720e91bbcefb4edd7539f808065cb700b4c0b6d30251f14b934cfbe71030",
-        "www": "928d720e91bbcefb4edd7539f808065cb700b4c0b6d30251f14b934cfbe71030"
-      }
+      "evidenceSha256": "e6a31e8e4c485c0326311bd917063e3039ee05dd7d98e713201bd88b1da139f0"
     },
     {
       "language": "cs",
@@ -108,18 +76,42 @@
       "wwwMirror": "www/data/cs/a1.js",
       "current": "Dům",
       "new": "dům",
+      "idempotent": true,
       "evidenceUrl": "https://prirucka.ujc.cas.cz/?id=915#ref_id_2019_15_1",
-      "evidenceSha256": "1876c6c100357a4126a20ca88eff1787dddc810d69cef8d63298689baf630aea",
-      "beforeSha256": {
-        "data": "d5754c861113128e9836b60d179b3c7a61e141db125cb10c2483e603c8287f78",
-        "www": "d5754c861113128e9836b60d179b3c7a61e141db125cb10c2483e603c8287f78"
-      },
-      "afterSha256": {
-        "data": "cc0a9f5d674dcb46ae7f04d76d2bb02f3c4be221077f5f36df0552946da351c5",
-        "www": "cc0a9f5d674dcb46ae7f04d76d2bb02f3c4be221077f5f36df0552946da351c5"
-      }
+      "evidenceSha256": "1876c6c100357a4126a20ca88eff1787dddc810d69cef8d63298689baf630aea"
     }
   ],
-  "skipped": [],
+  "skipped": [
+    {
+      "language": "en",
+      "reason": "ALREADY_APPLIED",
+      "fieldPath": "cards[3].lv"
+    },
+    {
+      "language": "da",
+      "reason": "ALREADY_APPLIED",
+      "fieldPath": "cards[3].lv"
+    },
+    {
+      "language": "tr",
+      "reason": "ALREADY_APPLIED",
+      "fieldPath": "cards[3].lv"
+    },
+    {
+      "language": "gr",
+      "reason": "ALREADY_APPLIED",
+      "fieldPath": "cards[3].lv"
+    },
+    {
+      "language": "ru",
+      "reason": "ALREADY_APPLIED",
+      "fieldPath": "cards[3].lv"
+    },
+    {
+      "language": "cs",
+      "reason": "ALREADY_APPLIED",
+      "fieldPath": "cards[3].lv"
+    }
+  ],
   "blockers": []
 }

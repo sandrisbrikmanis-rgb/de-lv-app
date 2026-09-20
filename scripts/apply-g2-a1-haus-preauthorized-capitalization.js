@@ -11,6 +11,8 @@ const {
   evaluatePreauthorizedRow,
   patchHausLvInFileContent,
 } = require("./lib/g2-a1-production-current/haus-preauthorized-capitalization");
+const { initialCaseOnlyChange } = require("./lib/master-initial-case-only");
+const { DEFAULT_PRE_APPLY_SHA } = require("./lib/g2-a1-production-current/haus-preauthorized-cap-commit-range");
 const { loadG2Level } = require("./lib/content-crowdin-bridge/roundtrip");
 
 const OUT_DIR = path.join(ROOT, "reports/g2-a1-production-current/haus-owner-review");
@@ -46,9 +48,37 @@ function main() {
       continue;
     }
 
+    const caseGate = initialCaseOnlyChange(spec.current, spec.proposed, spec.language);
+    if (!caseGate.ok) {
+      skipped.push({ language: spec.language, reason: "CASE_GATE", code: caseGate.code });
+      blockers.push({ code: "CASE_GATE_FAILED", language: spec.language, detail: caseGate.code });
+      continue;
+    }
+
     const cards = loadG2Level(spec.language, "a1");
     const card = cards[spec.cardIndex];
-    if (!card || card.lv !== spec.current) {
+    if (!card || card.de !== "Haus" || card.de_article !== "das") {
+      skipped.push({ language: spec.language, reason: "HAUS_CARD_IDENTITY" });
+      blockers.push({ code: "HAUS_CARD_IDENTITY", language: spec.language });
+      continue;
+    }
+    if (card.lv === spec.proposed) {
+      skipped.push({ language: spec.language, reason: "ALREADY_APPLIED", fieldPath: spec.fieldPath });
+      applied.push({
+        language: spec.language,
+        cardId: spec.cardId,
+        fieldPath: spec.fieldPath,
+        productionFile: dataRel,
+        wwwMirror: wwwRel,
+        current: spec.current,
+        new: spec.proposed,
+        idempotent: true,
+        evidenceUrl: evaluated.auditEvidenceUrl,
+        evidenceSha256: evaluated.auditEvidenceSha256,
+      });
+      continue;
+    }
+    if (card.lv !== spec.current) {
       skipped.push({ language: spec.language, reason: "CURRENT_MISMATCH", got: card?.lv });
       continue;
     }
@@ -106,9 +136,13 @@ function main() {
     fs.writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
   }
 
+  const postApplySha = execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
   const report = {
     generatedAt: new Date().toISOString(),
     dryRun: DRY_RUN,
+    preApplySha: DEFAULT_PRE_APPLY_SHA,
+    postApplySha,
+    note: "Authoritative post-apply proof is commit-range verification, not this report alone.",
     pass: blockers.length === 0 && applied.length === PREAUTHORIZED_CAP_ROWS.length,
     appliedCount: applied.length,
     skippedCount: skipped.length,

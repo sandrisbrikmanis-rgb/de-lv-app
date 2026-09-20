@@ -43,7 +43,7 @@ function evaluatePreauthorizedRow(spec, options = {}) {
   if (pilot && pilot.sourceAccessStatus !== "SOURCE_ENTRY_VALIDATED") blockers.push("TARGET_NOT_VALIDATED");
   if (pilot && !pilot.evidenceSha256) blockers.push("MISSING_EVIDENCE_SHA256");
 
-  const caseCheck = initialCaseOnlyChange(spec.current, spec.proposed);
+  const caseCheck = initialCaseOnlyChange(spec.current, spec.proposed, spec.language);
   if (!caseCheck.ok) blockers.push(caseCheck.code);
 
   if (spec.language === "ru" && spec.proposed !== "дом") blockers.push("RU_NOT_CYRILLIC_DOM");
