@@ -18,9 +18,13 @@ function escapeRe(s) {
 }
 
 function filterCandidates(translations, lemma, appCode) {
-  const blocklist = /^(words?|dictionary|german|english|add example|ableitung|derivation|syno|noun|verb)$/i;
+  const blocklist =
+    /^(words?|dictionary|german|english|add example|ableitung|derivation|syno|noun|verb|äöüß|search for|home|contacts)$/i;
   return translations.filter((t) => {
     if (!t || blocklist.test(t)) return false;
+    if (/^DE\s*(<>|–>)/i.test(t)) return false;
+    if (/AUTOMATIC TRANSLATIONS/i.test(t)) return false;
+    if (/^[A-Z]{2}\s*<>\s*DE/i.test(t)) return false;
     if (lemma === "Getriebe" && /^Getreide$/i.test(t)) return false;
     if (lemma === "Route" && /^(Router|Routine)$/i.test(t)) return false;
     if (appCode !== "de" && appCode !== "lb") {
