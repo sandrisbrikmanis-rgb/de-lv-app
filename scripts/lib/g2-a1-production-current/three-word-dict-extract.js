@@ -197,6 +197,9 @@ async function lookupBilingualTranslation({ dictRow, lemma, appCode }) {
 module.exports = {
   buildSearchUrl,
   extractFromDictCcPlainText,
+  extractFromGlosbeText,
+  fetchDictionaryPage,
   lookupBilingualTranslation,
   cleanTarget,
+  filterTranslationCandidates,
 };
