@@ -268,18 +268,27 @@ async function probePrimaryDictionaryUrls({ urls, authorityName, allowedDomains,
 
 function bilingualSpecFromStructured(source, deLemma) {
   const url = source.sourceUrl || "";
+  if (/dict\.cc/i.test(url)) {
+    const base = url.replace(/\/$/, "");
+    return {
+      probeType: "dictcc",
+      entryUrl: `${base}/?s=${encodeURIComponent(deLemma)}`,
+      sourceName: source.sourceName,
+    };
+  }
+  if (/glosbe\.com\/de\//i.test(url)) {
+    const base = url.replace(/\/$/, "");
+    return {
+      probeType: "generic_bilingual",
+      entryUrl: `${base}/${encodeURIComponent(deLemma)}`,
+      sourceName: source.sourceName,
+    };
+  }
   if (/pons\.com\/translate\//i.test(url)) {
     const base = url.replace(/\/$/, "");
     return {
       probeType: "pons",
       entryUrl: `${base}/${encodeURIComponent(deLemma)}`,
-      sourceName: source.sourceName,
-    };
-  }
-  if (/dict\.cc/i.test(url)) {
-    return {
-      probeType: "dictcc",
-      entryUrl: `${url.replace(/\/$/, "")}/?s=${encodeURIComponent(deLemma)}`,
       sourceName: source.sourceName,
     };
   }
@@ -307,6 +316,25 @@ async function probeBilingualStructured(sources, { appCode, pilot, targetLemma }
     } else if (spec.probeType === "lod") {
       // eslint-disable-next-line no-await-in-loop
       r = await probeLod(spec.entryUrl, targetLemma);
+    } else if (spec.probeType === "generic_bilingual") {
+      // eslint-disable-next-line no-await-in-loop
+      const pageHit = await probeUrlList([spec.entryUrl], {
+        allowedDomains: [new URL(spec.entryUrl).hostname],
+        pilotId: pilot.id,
+        deLemma: pilot.deLemma,
+        targetLemma,
+        sourceName: spec.sourceName,
+        bilingualHint: true,
+        monolingualTargetOnly: false,
+      });
+      r = {
+        pass: pageHit.accessResult === "TRANSLATION_PAIR_VERIFIED",
+        entryUrl: pageHit.entryUrl,
+        evidenceFragment: pageHit.evidenceFragment,
+        evidenceSha256: pageHit.contentSha256,
+        accessMode: pageHit.accessMode,
+        accessBlocker: pageHit.technicalBlocker,
+      };
     }
     if (r?.pass) {
       return {

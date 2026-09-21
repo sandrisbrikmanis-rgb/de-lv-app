@@ -5457,6 +5457,21 @@ pievieno tikai pēc `das Haus` pārbaudes un **OWNER apstiprinājuma**; komerci�
 statuss nav noraidījuma iemesls. Kopienas vārdnīcas (klase **E**) nedrīkst būt
 vienīgais pierādījums — obligāts avotu kopums ar DE un TARGET A–D avotiem.
 
+## 7.161. Vācu–TARGET divvalodu vārdnīcas (32 valodas, v1.19)
+
+Tulkojuma pareizības pārbaudē prioritāri izmanto vācu–TARGET divvalodu vārdnīcu, kurā
+konkrētajā rezultātā tieši redzams vācu vārds un TARGET tulkojums.
+
+`TRANSLATION_PAIR_VERIFIED` drīkst piešķirt, ja divvalodu vārdnīcas rezultātā ir
+atrodams pārbaudāmais vācu vārds vai vārdkopa, konkrētais TARGET tulkojums un tieša
+abu valodu savstarpējā atbilstība. Vienvalodas TARGET vārdnīca viena pati to
+neapstiprina — tikai pamatforma, rakstība, gramatika vai nozīmes precizēšanai.
+
+Strukturētie lauki `GERMAN_TARGET_DICTIONARY_*` un manifests:
+`scripts/lib/data/master-german-target-bilingual-dictionaries-32.json`.
+`GERMAN_TARGET_DICTIONARY_ROLE` = `PRIMARY_TRANSLATION_PAIR_SOURCE`. Komerciāls vai
+kopienas avots nav automātisks noraidījuma iemesls. `nb`/`nn` atsevišķi; `gr` ↔ `el`.
+
 ## 7.160. Papildu TARGET vārdnīcas (32 valodas, v1.19)
 
 Katrai TARGET valodai reģistrēts arī papildu vārdnīcas vai leksiskais avots.

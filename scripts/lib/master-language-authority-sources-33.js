@@ -60,6 +60,7 @@ function allUrlsForLanguage(row) {
     ...(row.PRIMARY_DICTIONARY_URLS || []),
     ...(row.ADDITIONAL_AUTHORITY_URLS || []),
     ...(row.ADDITIONAL_DICTIONARY_URLS || []),
+    ...(row.GERMAN_TARGET_DICTIONARY_URL ? [row.GERMAN_TARGET_DICTIONARY_URL] : []),
     ...(row.LANGUAGE_LEARNING_CEFR_URLS || []),
     ...bilingual,
   ];

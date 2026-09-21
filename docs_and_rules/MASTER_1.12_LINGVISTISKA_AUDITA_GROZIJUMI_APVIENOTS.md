@@ -101,7 +101,15 @@ Papildus §3 tabulas saīsinātajam URL laukam, repozitorijā uztur **pilnu trī
 | `ADDITIONAL_AUTHORITY_URLS` | ③ Oficiālie URL |
 | `LANGUAGE_LEARNING_CEFR_AUTHORITY` | CEFR / mācību līmeņa oficiālais avots (ja piemērojams) |
 | `LANGUAGE_LEARNING_CEFR_URLS` | CEFR URL |
-| `GERMAN_TARGET_BILINGUAL_SOURCES` | Vācu→TARGET profesionāli rediģētas / institucionālas divvalodu vārdnīcas (G2/A1 reģistrs; OWNER apstiprinājums obligāts) |
+| `GERMAN_TARGET_BILINGUAL_SOURCES` | Vācu→TARGET profesionāli rediģētas / institucionālas divvalodu vārdnīcas (G2/A1 reģistrs; papildu ieraksti) |
+| `GERMAN_TARGET_DICTIONARY_NAME` | Galvenā vācu–TARGET divvalodu vārdnīca (nosaukums) |
+| `GERMAN_TARGET_DICTIONARY_URL` | Galvenā vācu–TARGET divvalodu vārdnīcas URL |
+| `GERMAN_TARGET_DICTIONARY_TYPE` | Avota tips (piem. dict.cc, institucionāla, komerciāla) |
+| `GERMAN_TARGET_DICTIONARY_ENTRY_COUNT` | Publiski redzamais ierakstu skaits (ja zināms) |
+| `GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS` | Skaita avota statuss (`PUBLICLY_CONFIRMED_*` vai `ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED`) |
+| `GERMAN_TARGET_DICTIONARY_ACCESS` | Piekļuves režīms (piem. `PUBLIC_BROWSER_SESSION`) |
+| `GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR` | Valodu pāris (`de→TARGET`; `gr` ↔ `el`) |
+| `GERMAN_TARGET_DICTIONARY_ROLE` | Vienmēr `PRIMARY_TRANSLATION_PAIR_SOURCE` šim reģistram |
 | `ADDITIONAL_DICTIONARY_AUTHORITY` | ④ Papildu vārdnīca / leksisks avots (A1 auditam; primārie ①–③ avoti nemainīti) |
 | `ADDITIONAL_DICTIONARY_URLS` | ④ Oficiālais URL (viena papildu vārdnīca katram TARGET `appCode`) |
 | `ADDITIONAL_DICTIONARY_ROLE` | Loma (`SUPPLEMENTARY_LEXICAL_A1` — tulkojuma/nozīmes/lemmas/gramatikas/pareizrakstības pārbaudei) |
@@ -109,6 +117,18 @@ Papildus §3 tabulas saīsinātajam URL laukam, repozitorijā uztur **pilnu trī
 **Mašīnlasāms avots (GitHub autoritatīvs):** `scripts/lib/data/master-language-authority-sources-33.json`
 
 **Papildu vārdnīcu manifest (32 TARGET valodas):** `scripts/lib/data/master-additional-dictionary-sources-32.json`
+
+**Vācu–TARGET divvalodu vārdnīca (32 valodas):** kanoniskais manifests `scripts/lib/data/master-german-target-bilingual-dictionaries-32.json`.
+
+Tulkojuma pareizības pārbaudē prioritāri izmanto vācu–TARGET divvalodu vārdnīcu, kurā konkrētajā rezultātā tieši redzams vācu vārds un TARGET tulkojums.
+
+`TRANSLATION_PAIR_VERIFIED` drīkst piešķirt, ja izmantotajā divvalodu vārdnīcas rezultātā ir atrodams: pārbaudāmais vācu vārds vai vārdkopa; konkrētais TARGET tulkojums; tieša abu valodu savstarpējā atbilstība.
+
+Vienvalodas TARGET vārdnīca viena pati neapstiprina vācu–TARGET tulkojuma pāri. To izmanto papildus TARGET pamatformas, rakstības, gramatikas vai nozīmes pārbaudei.
+
+Vārdnīcas komerciālais vai kopienas statuss pats par sevi nav iemesls tās noraidīšanai.
+
+`nb` un `nn` ir atsevišķas auditējamās valodas. App `gr` atbilst valodas kodam `el`.
 
 Katrai TARGET valodai reģistrēts arī papildu vārdnīcas vai leksiskais avots. Papildu avotu drīkst izmantot tulkojuma, nozīmes, lemmas, gramatikas vai pareizrakstības pārbaudei. Komerciālas profesionāli rediģētas vārdnīcas ir atļautas. Kopienas vārdnīca izmantojama kā papildu salīdzināšanas avots, nevis kā vienīgais pamats production labojumam. AI un mašīntulkotāji nav lingvistiski avoti.
 

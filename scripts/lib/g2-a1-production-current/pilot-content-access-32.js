@@ -155,12 +155,38 @@ async function runPilotForLanguage(appCode, structuredRow, options = {}) {
       additional.tier = "ADDITIONAL_DICTIONARY";
     }
 
-    let bilingual = await probeBilingualStructured(structuredRow.GERMAN_TARGET_BILINGUAL_SOURCES, {
-      appCode,
-      pilot,
-      targetLemma,
-    });
-    if (bilingual) bilingual.tier = "BILINGUAL";
+    let primaryBilingual = null;
+    if (structuredRow.GERMAN_TARGET_DICTIONARY_URL) {
+      primaryBilingual = await probeBilingualStructured(
+        [
+          {
+            sourceName: structuredRow.GERMAN_TARGET_DICTIONARY_NAME,
+            sourceUrl: structuredRow.GERMAN_TARGET_DICTIONARY_URL,
+            sourceClass:
+              structuredRow.GERMAN_TARGET_DICTIONARY_TYPE === "COMMUNITY_BILINGUAL_DICT_CC" ? "E" : "B",
+            languagePair: structuredRow.GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR,
+          },
+        ],
+        { appCode, pilot, targetLemma },
+      );
+      if (primaryBilingual) {
+        primaryBilingual.tier = "GERMAN_TARGET_DICTIONARY";
+      }
+    }
+    let bilingual = primaryBilingual || null;
+    if (!bilingual || bilingual.accessResult !== "TRANSLATION_PAIR_VERIFIED") {
+      const fallback = await probeBilingualStructured(structuredRow.GERMAN_TARGET_BILINGUAL_SOURCES, {
+        appCode,
+        pilot,
+        targetLemma,
+      });
+      if (fallback) {
+        fallback.tier = "BILINGUAL_LEGACY";
+        if (!bilingual || bilingual.accessResult !== "TRANSLATION_PAIR_VERIFIED") {
+          bilingual = fallback;
+        }
+      }
+    }
 
     const final = pickBestResult(primary, additional, bilingual, { de: deSide });
 

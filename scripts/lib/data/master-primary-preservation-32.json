@@ -8,6 +8,10 @@
     "PRIMARY_DICTIONARY_URLS": [],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Pravopis bosanskoga jezika",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://www.pravopis.ba/"
+    ],
     "standardCode": "bs"
   },
   "en": {
@@ -21,6 +25,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Cambridge Dictionary",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://dictionary.cambridge.org/"
+    ],
     "standardCode": "en"
   },
   "cs": {
@@ -34,6 +42,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Akademický slovník současné češtiny",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://slovnikcestiny.cz/"
+    ],
     "standardCode": "cs"
   },
   "da": {
@@ -47,6 +59,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Ordbog over det danske Sprog",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://ordnet.dk/ods"
+    ],
     "standardCode": "da"
   },
   "et": {
@@ -60,6 +76,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Eesti etümoloogiasõnaraamat",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://www.eki.ee/dict/ety"
+    ],
     "standardCode": "et"
   },
   "es": {
@@ -73,6 +93,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Diccionario del estudiante — RAE",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://www.rae.es/diccionario-estudiante"
+    ],
     "standardCode": "es"
   },
   "fr": {
@@ -86,6 +110,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Larousse français",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://www.larousse.fr/dictionnaires/francais"
+    ],
     "standardCode": "fr"
   },
   "hr": {
@@ -99,6 +127,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Hrvatski jezični portal",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://hjp.znanje.hr/"
+    ],
     "standardCode": "hr"
   },
   "is": {
@@ -112,6 +144,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "ISLEX",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://islex.arnastofnun.is/"
+    ],
     "standardCode": "is"
   },
   "it": {
@@ -125,6 +161,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Vocabolario Treccani",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://www.treccani.it/vocabolario"
+    ],
     "standardCode": "it"
   },
   "lv": {
@@ -139,6 +179,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Latviešu literārās valodas vārdnīca",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://llvv.tezaurs.lv/"
+    ],
     "standardCode": "lv"
   },
   "lb": {
@@ -152,6 +196,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Lëtzebuergesch Wiktionary",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://lb.wiktionary.org/"
+    ],
     "standardCode": "lb"
   },
   "lt": {
@@ -166,6 +214,10 @@
     "ADDITIONAL_AUTHORITY": "E. kalba — lietuvių kalbos išteklių informacinė sistema",
     "ADDITIONAL_AUTHORITY_URLS": [
       "https://ekalba.lt/"
+    ],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Lietuvių kalbos žodynas",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://www.lkz.lt/"
     ],
     "standardCode": "lt"
   },
@@ -182,6 +234,10 @@
     "ADDITIONAL_AUTHORITY_URLS": [
       "https://helyesiras.mta.hu/"
     ],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Magyar értelmező kéziszótár — Arcanum",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-magyar-ertelmezo-keziszotar-1BE8B"
+    ],
     "standardCode": "hu"
   },
   "nl": {
@@ -197,6 +253,10 @@
     "ADDITIONAL_AUTHORITY_URLS": [
       "https://taaladvies.net/"
     ],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Van Dale",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://www.vandale.nl/"
+    ],
     "standardCode": "nl"
   },
   "nb": {
@@ -210,6 +270,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Det Norske Akademis ordbok",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://naob.no/"
+    ],
     "standardCode": "nb"
   },
   "nn": {
@@ -223,6 +287,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Norsk Ordbok",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://alfa.norsk-ordbok.no/"
+    ],
     "standardCode": "nn"
   },
   "pl": {
@@ -236,6 +304,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Słownik języka polskiego PWN",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://sjp.pwn.pl/"
+    ],
     "standardCode": "pl"
   },
   "pt": {
@@ -250,6 +322,10 @@
     "ADDITIONAL_AUTHORITY": "Portal da Língua Portuguesa",
     "ADDITIONAL_AUTHORITY_URLS": [
       "https://www.portaldalinguaportuguesa.org/"
+    ],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Dicionário Priberam",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://dicionario.priberam.org/"
     ],
     "standardCode": "pt"
   },
@@ -266,6 +342,10 @@
     "ADDITIONAL_AUTHORITY_URLS": [
       "https://lingv.ro/"
     ],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "PONS German–Romanian",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://en.pons.com/translate/german-romanian"
+    ],
     "standardCode": "ro"
   },
   "sq": {
@@ -277,6 +357,10 @@
     "PRIMARY_DICTIONARY_URLS": [],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Fjalori i Madh i Gjuhës Shqipe",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://www.fjalori.online/"
+    ],
     "standardCode": "sq"
   },
   "sk": {
@@ -290,6 +374,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Lingea slovníky",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://slovniky.lingea.sk/"
+    ],
     "standardCode": "sk"
   },
   "sl": {
@@ -303,6 +391,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Termania",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://www.termania.net/"
+    ],
     "standardCode": "sl"
   },
   "sr": {
@@ -316,6 +408,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Расковник",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://raskovnik.org/"
+    ],
     "standardCode": "sr"
   },
   "fi": {
@@ -331,6 +427,10 @@
     "ADDITIONAL_AUTHORITY_URLS": [
       "https://www.kotus.fi/ohjepankki/"
     ],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Suomen etymologinen sanakirja",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://kaino.kotus.fi/ses"
+    ],
     "standardCode": "fi"
   },
   "sv": {
@@ -344,6 +444,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Lexin",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://lexin.nada.kth.se/lexin"
+    ],
     "standardCode": "sv"
   },
   "tr": {
@@ -357,6 +461,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Nişanyan Sözlük",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://www.nisanyansozluk.com/"
+    ],
     "standardCode": "tr"
   },
   "gr": {
@@ -370,6 +478,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Χρηστικό Λεξικό — Ακαδημία Αθηνών",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://christikolexiko.academyofathens.gr/"
+    ],
     "standardCode": "el"
   },
   "bg": {
@@ -383,6 +495,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "PONS German–Bulgarian",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://en.pons.com/translate/german-bulgarian"
+    ],
     "standardCode": "bg"
   },
   "mk": {
@@ -396,6 +512,10 @@
     ],
     "ADDITIONAL_AUTHORITY": null,
     "ADDITIONAL_AUTHORITY_URLS": [],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Официјален дигитален толковен речник",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://makedonski.gov.mk/"
+    ],
     "standardCode": "mk"
   },
   "ru": {
@@ -411,6 +531,10 @@
     "ADDITIONAL_AUTHORITY_URLS": [
       "https://gramota.ru/"
     ],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Викисловарь",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://ru.wiktionary.org/"
+    ],
     "standardCode": "ru"
   },
   "uk": {
@@ -425,6 +549,10 @@
     "ADDITIONAL_AUTHORITY": "Український правопис (МОН)",
     "ADDITIONAL_AUTHORITY_URLS": [
       "https://mon.gov.ua/osvita-2/zagalna-serednya-osvita/ukrainskiy-pravopis"
+    ],
+    "ADDITIONAL_DICTIONARY_AUTHORITY": "Словник української мови — СУМ-11",
+    "ADDITIONAL_DICTIONARY_URLS": [
+      "https://sum.in.ua/"
     ],
     "standardCode": "uk"
   }
