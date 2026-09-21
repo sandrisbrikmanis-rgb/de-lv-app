@@ -94,6 +94,8 @@
     "apply:master-german-target-bilingual-32": "node scripts/apply-master-german-target-bilingual-32.js",
     "build:german-target-bilingual-dictionaries-32": "node scripts/build-german-target-bilingual-dictionaries-32.js",
     "verify:g2-a1:german-target-bilingual-dictionaries-32": "node scripts/verify-g2-a1-german-target-bilingual-dictionaries-32.js",
+    "build:g2-a1:three-word-german-target-pilot-32": "node scripts/build-g2-a1-three-word-german-target-pilot-32.js",
+    "verify:g2-a1:three-word-german-target-pilot-32": "node scripts/verify-g2-a1-three-word-german-target-pilot-32.js",
     "build:g2-a1:manual-languages-source-reprobe": "node scripts/build-g2-a1-manual-languages-source-reprobe.js",
     "build:g2-a1:master-source-proposals-owner-review": "node scripts/build-g2-a1-master-source-proposals-owner-review.js",
     "build:g2-a1:haus-32-language-source-pilot": "node scripts/build-g2-a1-haus-32-language-source-pilot.js",
