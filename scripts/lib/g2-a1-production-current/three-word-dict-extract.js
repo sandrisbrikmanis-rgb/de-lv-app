@@ -35,6 +35,27 @@ function uniqueList(items) {
   return out;
 }
 
+function filterTranslationCandidates(translations, lemma, appCode) {
+  const blocklist = /^(words?|dictionary|german|english|czech|add example|ableitung|derivation)$/i;
+  return translations.filter((t) => {
+    if (!t || blocklist.test(t)) return false;
+    if (lemma === "Reute") {
+      if (/Reutlingen|Getreide|Getriebe/i.test(t)) return false;
+    }
+    if (lemma === "ablehnen") {
+      if (/Ableitende|Harnwege|Ableitung/i.test(t)) return false;
+    }
+    if (lemma === "Getreide") {
+      if (/^Getriebe$/i.test(t)) return false;
+    }
+    if (appCode !== "de" && appCode !== "lb") {
+      if (/[äöüß]/i.test(t) && t.length > 8) return false;
+    }
+    if (t.length > 55) return false;
+    return true;
+  });
+}
+
 function extractFromDictCcPlainText(text, lemma) {
   const esc = escapeRe(lemma);
   const found = [];
@@ -137,6 +158,8 @@ async function lookupBilingualTranslation({ dictRow, lemma, appCode }) {
         if (guess && !new RegExp(escapeRe(lemma), "i").test(guess)) translations = [guess];
       }
     }
+
+    translations = filterTranslationCandidates(translations, lemma, appCode);
 
     if (!translations.length) {
       return {

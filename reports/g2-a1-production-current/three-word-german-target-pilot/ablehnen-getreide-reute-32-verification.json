@@ -1,0 +1,16 @@
+{
+  "verifiedAt": "2026-09-21T15:57:55.251Z",
+  "classification": "G2_A1_THREE_WORD_PILOT_COMPLETE_REUTE_DE_SOURCE_ISSUE",
+  "metrics": {
+    "languages": 32,
+    "records": 96,
+    "ablehnenTranslationFound": 18,
+    "getreideTranslationFound": 19,
+    "reuteTranslationFound": 0,
+    "multipleTranslationsRows": 21,
+    "entryNotFound": 59,
+    "accessBlocked": 0
+  },
+  "recordCount": 96,
+  "reuteDeSourceIssue": true
+}
