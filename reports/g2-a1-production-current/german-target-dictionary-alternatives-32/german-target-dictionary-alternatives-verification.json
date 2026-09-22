@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "g2-a1-german-target-dictionary-alternatives-verification-v1",
+  "generatedAt": "2026-09-22T18:48:13.327Z",
+  "metrics": {
+    "languagesProbed": 32,
+    "languagesWithUsableAlternative": 32,
+    "languagesWithBetterThanMaster": 25,
+    "languagesDictionaryReadyViaRecommended": 27
+  },
+  "constraints": {
+    "productionDataChanged": false,
+    "fullA1AuditRan": false,
+    "aiTranslationUsed": false,
+    "internetPriorityCatalogUsed": true
+  }
+}
