@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "g2-a1-german-target-dictionary-search-overrides-v1",
+  "description": "Search-priority overrides and subscription-only references (does not replace MASTER silently).",
+  "languages": {
+    "et": {
+      "candidateOrder": ["glosbe-de-et-public", "keelevara-tea-subscription"],
+      "subscriptionOnly": {
+        "id": "keelevara-tea-subscription",
+        "name": "Keelevara TEA German–Estonian",
+        "publisher": "TEA Kirjastus / Keelevara",
+        "url": "https://www.keelevara.ee/",
+        "languagePair": "de→et",
+        "access": "SUBSCRIPTION_REQUIRED",
+        "entryCount": null,
+        "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+        "type": "INSTITUTIONAL_BILINGUAL_LEXICON"
+      },
+      "publicPrimary": {
+        "id": "glosbe-de-et-public",
+        "name": "Glosbe German–Estonian (dictionary)",
+        "publisher": "Glosbe (community lexicon)",
+        "url": "https://glosbe.com/de/et",
+        "languagePair": "de→et",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": null,
+        "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+        "type": "COMMUNITY_BILINGUAL_GLOSBE"
+      }
+    },
+    "lb": {
+      "searchMode": "LOD_DE_INPUT",
+      "notes": "Use LOD with German search input (DE), not LB-only mode."
+    },
+    "sl": {
+      "fallbackCandidate": {
+        "id": "glosbe-de-sl-fallback",
+        "name": "Glosbe German–Slovenian (dictionary)",
+        "publisher": "Glosbe (community lexicon)",
+        "url": "https://glosbe.com/de/sl",
+        "languagePair": "de→sl",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": null,
+        "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+        "type": "COMMUNITY_BILINGUAL_GLOSBE"
+      }
+    }
+  }
+}
