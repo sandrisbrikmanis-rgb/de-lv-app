@@ -126,6 +126,14 @@ function buildSearchUrlForCandidate(candidate, lemma) {
     const base = candidate.url.replace(/\/$/, "");
     return `${base}/${encodeURIComponent(lemma)}`;
   }
+  if (/dict\.leo\.org/i.test(candidate.url)) {
+    const base = candidate.url.replace(/\/$/, "");
+    return `${base}/search?query=${encodeURIComponent(lemma)}`;
+  }
+  if (/bab\.la/i.test(candidate.url)) {
+    const base = candidate.url.replace(/\/$/, "");
+    return `${base}/${encodeURIComponent(lemma.toLowerCase())}`;
+  }
   return buildSearchUrl(row, lemma);
 }
 

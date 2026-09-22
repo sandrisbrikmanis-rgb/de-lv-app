@@ -88,41 +88,12 @@ function overrideToCandidate(o, appCode, standardCode) {
   };
 }
 
-/** Ordered candidate dictionaries to try for live search (no AI translation). */
+/** Ordered candidates: full internet-priority list (dict.cc → PONS → Langenscheidt → …). */
 function candidatesForLanguage(appCode, manifest, overrides) {
-  const spec = manifest.sources.find((s) => s.appCode === appCode);
-  if (!spec) throw new Error(`MANIFEST_MISSING_${appCode}`);
-  const ov = overrides.languages?.[appCode] || {};
-  const list = [];
-
-  if (appCode === "et" && ov.publicPrimary) {
-    list.push(overrideToCandidate(ov.publicPrimary, appCode, spec.standardCode));
-    if (ov.subscriptionOnly) {
-      list.push({
-        ...overrideToCandidate(ov.subscriptionOnly, appCode, spec.standardCode),
-        subscriptionReferenceOnly: true,
-      });
-    }
-    return list;
-  }
-
-  if (appCode === "lt" && ov.publicPrimary) {
-    list.push(overrideToCandidate(ov.publicPrimary, appCode, spec.standardCode));
-    if (ov.fallbackCandidate) {
-      list.push(overrideToCandidate(ov.fallbackCandidate, appCode, spec.standardCode));
-    }
-    return list;
-  }
-
-  const primary = manifestToCandidate(spec);
-  if (ov.searchMode) primary.searchMode = ov.searchMode;
-  list.push(primary);
-
-  if (ov.fallbackCandidate) {
-    list.push(overrideToCandidate(ov.fallbackCandidate, appCode, spec.standardCode));
-  }
-
-  return list;
+  const {
+    orderedAlternativeCandidatesForLanguage,
+  } = require("./german-target-dictionary-alternative-catalog");
+  return orderedAlternativeCandidatesForLanguage(appCode, manifest, overrides);
 }
 
 function formatEntryCount(candidate) {
