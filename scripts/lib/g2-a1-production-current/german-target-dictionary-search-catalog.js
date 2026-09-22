@@ -112,4 +112,6 @@ module.exports = {
   loadOverrides,
   candidatesForLanguage,
   formatEntryCount,
+  manifestToCandidate,
+  overrideToCandidate,
 };
