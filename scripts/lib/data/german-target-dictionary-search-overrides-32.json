@@ -27,9 +27,44 @@
         "type": "COMMUNITY_BILINGUAL_GLOSBE"
       }
     },
+    "lt": {
+      "publicPrimary": {
+        "id": "vokieciu-lietuviu-public",
+        "name": "Vokiečių–lietuvių žodynas (vokieciu-lietuviu.com)",
+        "publisher": "LED / vokieciu-lietuviu.com",
+        "url": "http://www.vokieciu-lietuviu.com/",
+        "languagePair": "de→lt",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": 16000,
+        "entryCountStatus": "PUBLICLY_CONFIRMED_PUBLISHER_ESTIMATE",
+        "type": "COMMUNITY_BILINGUAL_LEXICON"
+      },
+      "fallbackCandidate": {
+        "id": "glosbe-de-lt-fallback",
+        "name": "Glosbe German–Lithuanian (dictionary)",
+        "publisher": "Glosbe (community lexicon)",
+        "url": "https://glosbe.com/de/lt",
+        "languagePair": "de→lt",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": null,
+        "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+        "type": "COMMUNITY_BILINGUAL_GLOSBE"
+      }
+    },
     "lb": {
-      "searchMode": "LOD_DE_INPUT",
-      "notes": "Use LOD with German search input (DE), not LB-only mode."
+      "searchMode": "LOD_ADVANCED_SEARCH",
+      "fallbackCandidate": {
+        "id": "glosbe-de-lb-fallback",
+        "name": "Glosbe German–Luxembourgish (dictionary)",
+        "publisher": "Glosbe (community lexicon)",
+        "url": "https://glosbe.com/de/lb",
+        "languagePair": "de→lb",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": null,
+        "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+        "type": "COMMUNITY_BILINGUAL_GLOSBE"
+      },
+      "notes": "LOD advanced search; Glosbe dictionary section as fallback (no Translate)."
     },
     "sl": {
       "fallbackCandidate": {

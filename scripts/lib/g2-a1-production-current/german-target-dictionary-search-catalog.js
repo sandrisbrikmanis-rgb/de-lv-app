@@ -106,6 +106,14 @@ function candidatesForLanguage(appCode, manifest, overrides) {
     return list;
   }
 
+  if (appCode === "lt" && ov.publicPrimary) {
+    list.push(overrideToCandidate(ov.publicPrimary, appCode, spec.standardCode));
+    if (ov.fallbackCandidate) {
+      list.push(overrideToCandidate(ov.fallbackCandidate, appCode, spec.standardCode));
+    }
+    return list;
+  }
+
   const primary = manifestToCandidate(spec);
   if (ov.searchMode) primary.searchMode = ov.searchMode;
   list.push(primary);
