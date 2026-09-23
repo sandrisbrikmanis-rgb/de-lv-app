@@ -102,6 +102,8 @@
     "verify:g2-a1:german-target-dictionary-search-32": "node scripts/verify-g2-a1-german-target-dictionary-search-32.js",
     "build:g2-a1:german-target-dictionary-alternatives-32": "node scripts/build-g2-a1-german-target-dictionary-alternatives-32.js",
     "verify:g2-a1:german-target-dictionary-alternatives-32": "node scripts/verify-g2-a1-german-target-dictionary-alternatives-32.js",
+    "build:g2-a1:german-target-dictionary-owner-preapproval-32": "node scripts/build-g2-a1-german-target-dictionary-owner-preapproval-32.js",
+    "verify:g2-a1:german-target-dictionary-owner-preapproval-32": "node scripts/verify-g2-a1-german-target-dictionary-owner-preapproval-32.js",
     "build:g2-a1:manual-languages-source-reprobe": "node scripts/build-g2-a1-manual-languages-source-reprobe.js",
     "build:g2-a1:master-source-proposals-owner-review": "node scripts/build-g2-a1-master-source-proposals-owner-review.js",
     "build:g2-a1:haus-32-language-source-pilot": "node scripts/build-g2-a1-haus-32-language-source-pilot.js",

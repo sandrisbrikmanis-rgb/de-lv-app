@@ -1,0 +1,1780 @@
+{
+  "schemaVersion": "g2-a1-german-target-dictionary-owner-preapproval-v1",
+  "generatedAt": "2026-09-23T15:51:59.588Z",
+  "classification": "G2_A1_GERMAN_TARGET_DICTIONARY_OWNER_PREAPPROVAL_PACK_READY",
+  "nextAction": "OWNER_REVIEW_AND_APPROVE_25_DICTIONARY_REGISTRY_CHANGES",
+  "languageSetVerification": {
+    "pass": true,
+    "blockers": [],
+    "canonicalTargetAppCodes32": [
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "fr",
+      "gr",
+      "hr",
+      "hu",
+      "is",
+      "it",
+      "lb",
+      "lt",
+      "lv",
+      "mk",
+      "nb",
+      "nl",
+      "nn",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sl",
+      "sq",
+      "sr",
+      "sv",
+      "tr",
+      "uk"
+    ],
+    "artifactTargetAppCodes32": [
+      "bg",
+      "bs",
+      "cs",
+      "da",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "fr",
+      "gr",
+      "hr",
+      "hu",
+      "is",
+      "it",
+      "lb",
+      "lt",
+      "lv",
+      "mk",
+      "nb",
+      "nl",
+      "nn",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sl",
+      "sq",
+      "sr",
+      "sv",
+      "tr",
+      "uk"
+    ],
+    "nbNnDistinct": true,
+    "grMapsToStandardEl": true
+  },
+  "sourceLanguageDe": {
+    "pass": true,
+    "role": "SOURCE_LANGUAGE_AUDIT_DE",
+    "appCode": "de",
+    "standardCode": "de",
+    "notInTarget32": true,
+    "primaryDictionaryAuthority": "Duden + DWDS (lexicon / usage)",
+    "primaryDictionaryUrls": [
+      "https://www.duden.de/",
+      "https://www.dwds.de/"
+    ],
+    "languageNormAuthority": "Rat für deutsche Rechtschreibung",
+    "languageNormUrls": [
+      "https://www.rechtschreibrat.com/"
+    ],
+    "note": "Vācu (de) ir audita avota valoda; nav viens no 32 TARGET locales."
+  },
+  "metrics": {
+    "targetLanguageCount": 32,
+    "proposedMasterChangesCount": 25,
+    "expectedProposedChangesCount": 25,
+    "humanEditedProfessionalCount": 19,
+    "communityCount": 6,
+    "withAutomaticPilotWarning": 3
+  },
+  "proposedMasterChanges": [
+    {
+      "appCode": "bg",
+      "standardCode": "bg",
+      "masterRegistryUrl": "https://bgde.dict.cc/",
+      "masterRegistryName": "dict.cc German–Bulgarian",
+      "proposedDictionaryName": "PONS German–BG Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-bulgarian",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "bs",
+      "standardCode": "bs",
+      "masterRegistryUrl": "https://bsde.dict.cc/",
+      "masterRegistryName": "dict.cc German–Bosnian",
+      "proposedDictionaryName": "Glosbe German–BS (dictionary)",
+      "proposedDictionaryUrl": "https://glosbe.com/de/bs",
+      "platform": "glosbe",
+      "sourceClass": "E",
+      "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+      "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti)",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "NOT_FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "cs",
+      "standardCode": "cs",
+      "masterRegistryUrl": "https://csde.dict.cc/",
+      "masterRegistryName": "dict.cc German–Czech",
+      "proposedDictionaryName": "PONS German–CS Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-czech",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "da",
+      "standardCode": "da",
+      "masterRegistryUrl": "https://dade.dict.cc/",
+      "masterRegistryName": "dict.cc German–Danish",
+      "proposedDictionaryName": "PONS German–DA Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-danish",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "en",
+      "standardCode": "en",
+      "masterRegistryUrl": "https://www.dict.cc/",
+      "masterRegistryName": "dict.cc German–English",
+      "proposedDictionaryName": "PONS German–EN Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-english",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "es",
+      "standardCode": "es",
+      "masterRegistryUrl": "https://dees.dict.cc/",
+      "masterRegistryName": "dict.cc German–Spanish",
+      "proposedDictionaryName": "PONS German–ES Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-spanish",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "et",
+      "standardCode": "et",
+      "masterRegistryUrl": "https://www.keelevara.ee/",
+      "masterRegistryName": "Keelevara Estonian–German (reverse search)",
+      "proposedDictionaryName": "Glosbe German–ET (dictionary)",
+      "proposedDictionaryUrl": "https://glosbe.com/de/et",
+      "platform": "glosbe",
+      "sourceClass": "E",
+      "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+      "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti) BRĪDINĀJUMS: pilotos abholen = tikai automātiskā sadaļa (nav vārdnīcas ieraksts).",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "AUTOMATIC_TRANSLATION_ONLY",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "NOT_FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "Route"
+      ],
+      "automaticTranslationOnlyWords": [
+        "abholen"
+      ],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "fi",
+      "standardCode": "fi",
+      "masterRegistryUrl": "https://defi.dict.cc/",
+      "masterRegistryName": "dict.cc German–Finnish",
+      "proposedDictionaryName": "PONS German–FI Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-finnish",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "fr",
+      "standardCode": "fr",
+      "masterRegistryUrl": "https://defr.dict.cc/",
+      "masterRegistryName": "dict.cc German–French",
+      "proposedDictionaryName": "PONS German–FR Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-french",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "gr",
+      "standardCode": "el",
+      "masterRegistryUrl": "https://deel.dict.cc/",
+      "masterRegistryName": "dict.cc German–Greek",
+      "proposedDictionaryName": "PONS German–EL Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-greek",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "hr",
+      "standardCode": "hr",
+      "masterRegistryUrl": "https://dehr.dict.cc/",
+      "masterRegistryName": "dict.cc German–Croatian",
+      "proposedDictionaryName": "PONS German–HR Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-croatian",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "hu",
+      "standardCode": "hu",
+      "masterRegistryUrl": "https://dehu.dict.cc/",
+      "masterRegistryName": "dict.cc German–Hungarian",
+      "proposedDictionaryName": "PONS German–HU Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-hungarian",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "is",
+      "standardCode": "is",
+      "masterRegistryUrl": "https://deis.dict.cc/",
+      "masterRegistryName": "dict.cc German–Icelandic",
+      "proposedDictionaryName": "PONS German–IS Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-icelandic",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "it",
+      "standardCode": "it",
+      "masterRegistryUrl": "https://deit.dict.cc/",
+      "masterRegistryName": "dict.cc German–Italian",
+      "proposedDictionaryName": "PONS German–IT Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-italian",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "lb",
+      "standardCode": "lb",
+      "masterRegistryUrl": "https://lod.lu/",
+      "masterRegistryName": "Lëtzebuerger Online Dictionnaire (LOD)",
+      "proposedDictionaryName": "Glosbe German–LB (dictionary)",
+      "proposedDictionaryUrl": "https://glosbe.com/de/lb",
+      "platform": "glosbe",
+      "sourceClass": "E",
+      "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+      "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti) BRĪDINĀJUMS: pilotos abholen = tikai automātiskā sadaļa (nav vārdnīcas ieraksts).",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "AUTOMATIC_TRANSLATION_ONLY",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "NOT_FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "Route"
+      ],
+      "automaticTranslationOnlyWords": [
+        "abholen"
+      ],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "lt",
+      "standardCode": "lt",
+      "masterRegistryUrl": "https://www.zodynai.org/",
+      "masterRegistryName": "Žodynai.org German–Lithuanian",
+      "proposedDictionaryName": "Glosbe German–LT (dictionary)",
+      "proposedDictionaryUrl": "https://glosbe.com/de/lt",
+      "platform": "glosbe",
+      "sourceClass": "E",
+      "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+      "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "nl",
+      "standardCode": "nl",
+      "masterRegistryUrl": "https://denl.dict.cc/",
+      "masterRegistryName": "dict.cc German–Dutch",
+      "proposedDictionaryName": "PONS German–NL Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-dutch",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "nn",
+      "standardCode": "nn",
+      "masterRegistryUrl": "https://glosbe.com/de/nn",
+      "masterRegistryName": "Glosbe German–Nynorsk",
+      "proposedDictionaryName": "Langenscheidt German–NN",
+      "proposedDictionaryUrl": "https://en.langenscheidt.com/german-norwegian",
+      "platform": "langenscheidt",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "pl",
+      "standardCode": "pl",
+      "masterRegistryUrl": "https://depl.dict.cc/",
+      "masterRegistryName": "dict.cc German–Polish",
+      "proposedDictionaryName": "PONS German–PL Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-polish",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "sk",
+      "standardCode": "sk",
+      "masterRegistryUrl": "https://desk.dict.cc/",
+      "masterRegistryName": "dict.cc German–Slovak",
+      "proposedDictionaryName": "Langenscheidt German–SK",
+      "proposedDictionaryUrl": "https://en.langenscheidt.com/german-slovak",
+      "platform": "langenscheidt",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "sq",
+      "standardCode": "sq",
+      "masterRegistryUrl": "https://desq.dict.cc/",
+      "masterRegistryName": "dict.cc German–Albanian",
+      "proposedDictionaryName": "Glosbe German–SQ (dictionary)",
+      "proposedDictionaryUrl": "https://glosbe.com/de/sq",
+      "platform": "glosbe",
+      "sourceClass": "E",
+      "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+      "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti) BRĪDINĀJUMS: pilotos abholen = tikai automātiskā sadaļa (nav vārdnīcas ieraksts).",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "AUTOMATIC_TRANSLATION_ONLY",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "NOT_FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "Route"
+      ],
+      "automaticTranslationOnlyWords": [
+        "abholen"
+      ],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "sr",
+      "standardCode": "sr",
+      "masterRegistryUrl": "https://desr.dict.cc/",
+      "masterRegistryName": "dict.cc German–Serbian",
+      "proposedDictionaryName": "PONS German–SR Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-serbian",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "sv",
+      "standardCode": "sv",
+      "masterRegistryUrl": "https://desv.dict.cc/",
+      "masterRegistryName": "dict.cc German–Swedish",
+      "proposedDictionaryName": "PONS German–SV Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-swedish",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "tr",
+      "standardCode": "tr",
+      "masterRegistryUrl": "https://detr.dict.cc/",
+      "masterRegistryName": "dict.cc German–Turkish",
+      "proposedDictionaryName": "PONS German–TR Dictionary",
+      "proposedDictionaryUrl": "https://en.pons.com/translate/german-turkish",
+      "platform": "pons",
+      "sourceClass": "B",
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    },
+    {
+      "appCode": "uk",
+      "standardCode": "uk",
+      "masterRegistryUrl": "https://deuk.dict.cc/",
+      "masterRegistryName": "dict.cc German–Ukrainian",
+      "proposedDictionaryName": "Glosbe German–UK (dictionary)",
+      "proposedDictionaryUrl": "https://glosbe.com/de/uk",
+      "platform": "glosbe",
+      "sourceClass": "E",
+      "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+      "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti)",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotHaus": "FOUND",
+      "pilotAbholen": "FOUND",
+      "pilotRoute": "FOUND",
+      "pilotGetriebe": "FOUND",
+      "dictionaryEntryEvidenceWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "automaticTranslationOnlyWords": [],
+      "ownerApprovalRequired": true,
+      "ownerDecision": "PENDING",
+      "ownerDecisionNote": "Neapstiprināt bez OWNER — pārbaudīt redakcionālo tipu un pilotu URL pierādījumus."
+    }
+  ],
+  "allTargetLanguagesRecommendedProfile": [
+    {
+      "appCode": "lv",
+      "standardCode": "lv",
+      "recommended": {
+        "platform": "master_manifest",
+        "tier": "MASTER_OTHER",
+        "name": "Letonika German–Latvian dictionary",
+        "url": "https://www.letonika.lv/dictionary",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "100000"
+      },
+      "betterThanMaster": false,
+      "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+      "entryEditorialLabelLv": "Kopienas vai reģistra avots — pārbaudīt redakcionālo statusu",
+      "sourceClass": "A",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "lt",
+      "standardCode": "lt",
+      "recommended": {
+        "platform": "glosbe",
+        "tier": "GLOSBE",
+        "name": "Glosbe German–LT (dictionary)",
+        "url": "https://glosbe.com/de/lt",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+      "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti)",
+      "sourceClass": "E",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "ru",
+      "standardCode": "ru",
+      "recommended": {
+        "platform": "dict.cc",
+        "tier": "DICT_CC",
+        "name": "dict.cc German–Russian",
+        "url": "https://deru.dict.cc/",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "131192"
+      },
+      "betterThanMaster": false,
+      "entryEditorialType": "COMMUNITY_DICTIONARY_DICT_CC",
+      "entryEditorialLabelLv": "Kopienas vārdnīca (dict.cc — brīvprātīgi ieraksti; nav oficiāls valodas institūts)",
+      "sourceClass": "E",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "pl",
+      "standardCode": "pl",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–PL Dictionary",
+        "url": "https://en.pons.com/translate/german-polish",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "uk",
+      "standardCode": "uk",
+      "recommended": {
+        "platform": "glosbe",
+        "tier": "GLOSBE",
+        "name": "Glosbe German–UK (dictionary)",
+        "url": "https://glosbe.com/de/uk",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+      "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti)",
+      "sourceClass": "E",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "et",
+      "standardCode": "et",
+      "recommended": {
+        "platform": "glosbe",
+        "tier": "GLOSBE",
+        "name": "Glosbe German–ET (dictionary)",
+        "url": "https://glosbe.com/de/et",
+        "finalStatus": "DICTIONARY_PARTIALLY_READY",
+        "score": 11,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+      "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti)",
+      "sourceClass": "E",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+        "Route": "FOUND",
+        "Getriebe": "NOT_FOUND"
+      },
+      "automaticTranslationOnlyWords": [
+        "abholen"
+      ],
+      "dictionaryEntryWords": [
+        "Haus",
+        "Route"
+      ],
+      "usesAutomaticTranslationAsEvidence": true
+    },
+    {
+      "appCode": "en",
+      "standardCode": "en",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–EN Dictionary",
+        "url": "https://en.pons.com/translate/german-english",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "ro",
+      "standardCode": "ro",
+      "recommended": {
+        "platform": "dict.cc",
+        "tier": "DICT_CC",
+        "name": "dict.cc German–Romanian",
+        "url": "https://dero.dict.cc/",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "123554"
+      },
+      "betterThanMaster": false,
+      "entryEditorialType": "COMMUNITY_DICTIONARY_DICT_CC",
+      "entryEditorialLabelLv": "Kopienas vārdnīca (dict.cc — brīvprātīgi ieraksti; nav oficiāls valodas institūts)",
+      "sourceClass": "E",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "bg",
+      "standardCode": "bg",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–BG Dictionary",
+        "url": "https://en.pons.com/translate/german-bulgarian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "tr",
+      "standardCode": "tr",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–TR Dictionary",
+        "url": "https://en.pons.com/translate/german-turkish",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "gr",
+      "standardCode": "el",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–EL Dictionary",
+        "url": "https://en.pons.com/translate/german-greek",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "sq",
+      "standardCode": "sq",
+      "recommended": {
+        "platform": "glosbe",
+        "tier": "GLOSBE",
+        "name": "Glosbe German–SQ (dictionary)",
+        "url": "https://glosbe.com/de/sq",
+        "finalStatus": "DICTIONARY_PARTIALLY_READY",
+        "score": 11,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+      "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti)",
+      "sourceClass": "E",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+        "Route": "FOUND",
+        "Getriebe": "NOT_FOUND"
+      },
+      "automaticTranslationOnlyWords": [
+        "abholen"
+      ],
+      "dictionaryEntryWords": [
+        "Haus",
+        "Route"
+      ],
+      "usesAutomaticTranslationAsEvidence": true
+    },
+    {
+      "appCode": "mk",
+      "standardCode": "mk",
+      "recommended": {
+        "platform": "master_manifest",
+        "tier": "MASTER_OTHER",
+        "name": "Glosbe German–Macedonian",
+        "url": "https://glosbe.com/de/mk",
+        "finalStatus": "DICTIONARY_PARTIALLY_READY",
+        "score": 22,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": false,
+      "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+      "entryEditorialLabelLv": "Kopienas vai reģistra avots — pārbaudīt redakcionālo statusu",
+      "sourceClass": "A",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [
+        "abholen"
+      ],
+      "dictionaryEntryWords": [
+        "Haus",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": true
+    },
+    {
+      "appCode": "sl",
+      "standardCode": "sl",
+      "recommended": {
+        "platform": "master_manifest",
+        "tier": "MASTER_OTHER",
+        "name": "Langenscheidt German–Slovenian",
+        "url": "https://en.langenscheidt.com/german-slovenian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": false,
+      "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+      "entryEditorialLabelLv": "Kopienas vai reģistra avots — pārbaudīt redakcionālo statusu",
+      "sourceClass": "A",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "bs",
+      "standardCode": "bs",
+      "recommended": {
+        "platform": "glosbe",
+        "tier": "GLOSBE",
+        "name": "Glosbe German–BS (dictionary)",
+        "url": "https://glosbe.com/de/bs",
+        "finalStatus": "DICTIONARY_PARTIALLY_READY",
+        "score": 29,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+      "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti)",
+      "sourceClass": "E",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "NOT_FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "sr",
+      "standardCode": "sr",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–SR Dictionary",
+        "url": "https://en.pons.com/translate/german-serbian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "hr",
+      "standardCode": "hr",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–HR Dictionary",
+        "url": "https://en.pons.com/translate/german-croatian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "sk",
+      "standardCode": "sk",
+      "recommended": {
+        "platform": "langenscheidt",
+        "tier": "LANGENSCHEIDT",
+        "name": "Langenscheidt German–SK",
+        "url": "https://en.langenscheidt.com/german-slovak",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "cs",
+      "standardCode": "cs",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–CS Dictionary",
+        "url": "https://en.pons.com/translate/german-czech",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "fi",
+      "standardCode": "fi",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–FI Dictionary",
+        "url": "https://en.pons.com/translate/german-finnish",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "sv",
+      "standardCode": "sv",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–SV Dictionary",
+        "url": "https://en.pons.com/translate/german-swedish",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "nb",
+      "standardCode": "nb",
+      "recommended": {
+        "platform": "dict.cc",
+        "tier": "DICT_CC",
+        "name": "dict.cc German–Norwegian Bokmål",
+        "url": "https://deno.dict.cc/",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "50665"
+      },
+      "betterThanMaster": false,
+      "entryEditorialType": "COMMUNITY_DICTIONARY_DICT_CC",
+      "entryEditorialLabelLv": "Kopienas vārdnīca (dict.cc — brīvprātīgi ieraksti; nav oficiāls valodas institūts)",
+      "sourceClass": "E",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "nn",
+      "standardCode": "nn",
+      "recommended": {
+        "platform": "langenscheidt",
+        "tier": "LANGENSCHEIDT",
+        "name": "Langenscheidt German–NN",
+        "url": "https://en.langenscheidt.com/german-norwegian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "da",
+      "standardCode": "da",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–DA Dictionary",
+        "url": "https://en.pons.com/translate/german-danish",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "nl",
+      "standardCode": "nl",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–NL Dictionary",
+        "url": "https://en.pons.com/translate/german-dutch",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "lb",
+      "standardCode": "lb",
+      "recommended": {
+        "platform": "glosbe",
+        "tier": "GLOSBE",
+        "name": "Glosbe German–LB (dictionary)",
+        "url": "https://glosbe.com/de/lb",
+        "finalStatus": "DICTIONARY_PARTIALLY_READY",
+        "score": 11,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+      "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti)",
+      "sourceClass": "E",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+        "Route": "FOUND",
+        "Getriebe": "NOT_FOUND"
+      },
+      "automaticTranslationOnlyWords": [
+        "abholen"
+      ],
+      "dictionaryEntryWords": [
+        "Haus",
+        "Route"
+      ],
+      "usesAutomaticTranslationAsEvidence": true
+    },
+    {
+      "appCode": "fr",
+      "standardCode": "fr",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–FR Dictionary",
+        "url": "https://en.pons.com/translate/german-french",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "it",
+      "standardCode": "it",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–IT Dictionary",
+        "url": "https://en.pons.com/translate/german-italian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "es",
+      "standardCode": "es",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–ES Dictionary",
+        "url": "https://en.pons.com/translate/german-spanish",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "pt",
+      "standardCode": "pt",
+      "recommended": {
+        "platform": "dict.cc",
+        "tier": "DICT_CC",
+        "name": "dict.cc German–Portuguese",
+        "url": "https://dept.dict.cc/",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "62569"
+      },
+      "betterThanMaster": false,
+      "entryEditorialType": "COMMUNITY_DICTIONARY_DICT_CC",
+      "entryEditorialLabelLv": "Kopienas vārdnīca (dict.cc — brīvprātīgi ieraksti; nav oficiāls valodas institūts)",
+      "sourceClass": "E",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "hu",
+      "standardCode": "hu",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–HU Dictionary",
+        "url": "https://en.pons.com/translate/german-hungarian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    },
+    {
+      "appCode": "is",
+      "standardCode": "is",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–IS Dictionary",
+        "url": "https://en.pons.com/translate/german-icelandic",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+      "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+      "sourceClass": "B",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "automaticTranslationOnlyWords": [],
+      "dictionaryEntryWords": [
+        "Haus",
+        "abholen",
+        "Route",
+        "Getriebe"
+      ],
+      "usesAutomaticTranslationAsEvidence": false
+    }
+  ],
+  "constraints": {
+    "masterNotModified": true,
+    "productionDataChanged": false,
+    "ownerLabotNelabotAssigned": false
+  }
+}
