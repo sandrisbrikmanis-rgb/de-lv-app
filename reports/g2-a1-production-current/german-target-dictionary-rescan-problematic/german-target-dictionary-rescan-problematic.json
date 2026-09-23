@@ -1,0 +1,318 @@
+{
+  "schemaVersion": "g2-a1-german-target-dictionary-rescan-problematic-v1",
+  "generatedAt": "2026-09-23T18:06:31.301Z",
+  "classification": "G2_A1_GERMAN_TARGET_DICTIONARY_RESCAN_PROBLEMATIC_COMPLETE",
+  "nextAction": "OWNER_REVIEW_RESCAN_PROBLEMATIC_RECOMMENDATIONS",
+  "targetLanguages": [
+    "mk",
+    "nn",
+    "lb"
+  ],
+  "languages": [
+    {
+      "appCode": "mk",
+      "standardCode": "mk",
+      "masterRegistryUrl": "https://glosbe.com/de/mk",
+      "masterRegistryName": "Glosbe German–Macedonian",
+      "recommendedRescan": {
+        "name": "Netzverb / verbformen Deutsch–Mazedonisch",
+        "url": "https://www.verbformen.de/de-mk",
+        "platform": "verbformen",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+        "entryEditorialLabelLv": "Netzverb/verbformen — kopienas/agregēts leksikons (nav MT avots)",
+        "automaticTranslationOnlyWords": []
+      },
+      "candidatesProbed": 5,
+      "ranked": [
+        {
+          "rank": 1,
+          "name": "Netzverb / verbformen Deutsch–Mazedonisch",
+          "url": "https://www.verbformen.de/de-mk",
+          "platform": "verbformen",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Glosbe German–Macedonian",
+          "url": "https://glosbe.com/de/mk",
+          "platform": "glosbe",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 22,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 3,
+          "name": "Multitran German–Macedonian",
+          "url": "https://www.multitran.com/dictionary/german-macedonian",
+          "platform": "multitran",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 4,
+          "name": "Langenscheidt German–Macedonian",
+          "url": "https://en.langenscheidt.com/german-macedonian",
+          "platform": "langenscheidt",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 5,
+          "name": "bab.la German–Macedonian",
+          "url": "https://de.bab.la/woerterbuch/deutsch-mazedonisch",
+          "platform": "bab.la",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        }
+      ]
+    },
+    {
+      "appCode": "nn",
+      "standardCode": "nn",
+      "masterRegistryUrl": "https://glosbe.com/de/nn",
+      "masterRegistryName": "Glosbe German–Nynorsk",
+      "recommendedRescan": {
+        "name": "Langenscheidt German–Norwegian (Nynorsk path)",
+        "url": "https://en.langenscheidt.com/german-norwegian",
+        "platform": "langenscheidt",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+        "entryEditorialLabelLv": "Cilvēku rediģēta profesionāla vārdnīca (izdevējs/redaktors; nav MT)",
+        "automaticTranslationOnlyWords": []
+      },
+      "candidatesProbed": 5,
+      "ranked": [
+        {
+          "rank": 1,
+          "name": "Langenscheidt German–Norwegian (Nynorsk path)",
+          "url": "https://en.langenscheidt.com/german-norwegian",
+          "platform": "langenscheidt",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Netzverb / verbformen Deutsch–Norwegisch",
+          "url": "https://www.verbformen.de/de-no",
+          "platform": "verbformen",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 3,
+          "name": "dict.cc Deutsch–Norwegisch (de-no.dict.cc)",
+          "url": "https://de-no.dict.cc/",
+          "platform": "dict.cc",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_DICTIONARY_DICT_CC",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 4,
+          "name": "Glosbe German–Nynorsk",
+          "url": "https://glosbe.com/de/nn",
+          "platform": "glosbe",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 22,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 5,
+          "name": "bab.la German–Norwegian",
+          "url": "https://de.bab.la/woerterbuch/deutsch-norwegisch",
+          "platform": "bab.la",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        }
+      ]
+    },
+    {
+      "appCode": "lb",
+      "standardCode": "lb",
+      "masterRegistryUrl": "https://lod.lu/",
+      "masterRegistryName": "Lëtzebuerger Online Dictionnaire (LOD)",
+      "recommendedRescan": {
+        "name": "Luxdico Deutsch–Luxemburgisch",
+        "url": "http://dict.luxdico.com/neu",
+        "platform": "luxdico",
+        "finalStatus": "DICTIONARY_PARTIALLY_READY",
+        "score": 18,
+        "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+        "entryEditorialLabelLv": "Luxdico — praktisks divvalodu leksikons (DE↔LB)",
+        "automaticTranslationOnlyWords": []
+      },
+      "candidatesProbed": 5,
+      "ranked": [
+        {
+          "rank": 1,
+          "name": "Luxdico Deutsch–Luxemburgisch",
+          "url": "http://dict.luxdico.com/neu",
+          "platform": "luxdico",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Glosbe German–Luxembourgish",
+          "url": "https://glosbe.com/de/lb",
+          "platform": "glosbe",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 11,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 3,
+          "name": "LOD (advanced search)",
+          "url": "https://lod.lu/",
+          "platform": "lod",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 7,
+          "skippedLivePilots": false,
+          "entryEditorialType": "INSTITUTIONAL_PROFESSIONAL",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 4,
+          "name": "bab.la German–Luxembourgish",
+          "url": "https://de.bab.la/woerterbuch/deutsch-luxemburgisch",
+          "platform": "bab.la",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 5,
+          "name": "Langenscheidt German–Luxembourgish",
+          "url": "https://en.langenscheidt.com/german-luxembourgish",
+          "platform": "langenscheidt",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "aiTranslationUsed": false,
+    "masterNotModified": true
+  },
+  "reportMeta": {
+    "titleLv": "G2/A1 — vācu–TARGET papildu varianti (problemātiskās valodas)",
+    "introLv": "Valodas: **mk, nn, lb** — paplašināts kandidātu saraksts + live piloti (Haus, abholen, Route, Getriebe). Luxdico izmanto `q=` parametru."
+  }
+}

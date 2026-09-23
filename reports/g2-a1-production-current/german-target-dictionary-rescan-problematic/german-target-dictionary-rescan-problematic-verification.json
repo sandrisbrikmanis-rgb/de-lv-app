@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "blockers": [],
+  "targetLanguages": [
+    "mk",
+    "nn",
+    "lb"
+  ],
+  "generatedAt": "2026-09-23T18:06:31.301Z",
+  "recommendations": [
+    {
+      "appCode": "mk",
+      "platform": "verbformen",
+      "finalStatus": "DICTIONARY_READY"
+    },
+    {
+      "appCode": "nn",
+      "platform": "langenscheidt",
+      "finalStatus": "DICTIONARY_READY"
+    },
+    {
+      "appCode": "lb",
+      "platform": "luxdico",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY"
+    }
+  ]
+}
