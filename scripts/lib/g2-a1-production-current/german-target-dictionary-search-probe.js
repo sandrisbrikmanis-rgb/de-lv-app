@@ -12,6 +12,12 @@ const {
 } = require("./three-word-dict-extract");
 const { PILOT_FIELD } = require("./german-target-dictionary-search-catalog");
 const { acceptPonsConsent } = require("./german-target-dictionary-probes");
+const {
+  buildLodDeSearchUrl,
+  buildLodDeSichUrl,
+  extractLbHeadwordsFromLodDeSearchPayload,
+  lookupLodGermanToLuxembourgish,
+} = require("./lod-de-reverse-api");
 
 function escapeRe(s) {
   return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -116,6 +122,9 @@ function isGlosbeAutomaticOnly(text, lemma) {
 
 function buildSearchUrlForCandidate(candidate, lemma) {
   const row = { url: candidate.url, name: candidate.name };
+  if (candidate.searchMode === "LOD_DE_REVERSE_API") {
+    return buildLodDeSearchUrl(lemma);
+  }
   if (candidate.searchMode === "LOD_ADVANCED_SEARCH" || candidate.searchMode === "LOD_DE_INPUT") {
     return `https://lod.lu/advanced-search/1?query=${encodeURIComponent(lemma)}`;
   }
@@ -156,11 +165,28 @@ function buildSearchUrlForCandidate(candidate, lemma) {
 }
 
 async function fetchDictionaryPageForCandidate(candidate, lemma) {
-  if (
-    candidate.searchMode === "LOD_ADVANCED_SEARCH" ||
-    candidate.searchMode === "LOD_DE_INPUT" ||
-    (/lod\.lu/i.test(candidate.url) && candidate.appCode === "lb")
-  ) {
+  if (candidate.searchMode === "LOD_DE_REVERSE_API") {
+    const lookup = await lookupLodGermanToLuxembourgish(lemma);
+    const searchUrl = lookup.searchUrl;
+    if (lookup.error && !lookup.found) {
+      return {
+        blocked: /abort|HTTP_5|HTTP_4/i.test(lookup.error),
+        finalUrl: lookup.entryUrl,
+        text: "",
+        searchUrl,
+        lodLbHeadwords: [],
+      };
+    }
+    return {
+      blocked: false,
+      finalUrl: lookup.entryUrl || buildLodDeSichUrl(lemma),
+      text: lookup.payload ? JSON.stringify(lookup.payload) : "",
+      searchUrl,
+      lodLbHeadwords: lookup.lbHeadwords || [],
+    };
+  }
+
+  if (candidate.searchMode === "LOD_ADVANCED_SEARCH" || candidate.searchMode === "LOD_DE_INPUT") {
     const searchUrl = `https://lod.lu/advanced-search/1?query=${encodeURIComponent(lemma)}`;
     return withDomainBrowserSession("lod.lu", async (page) => {
       await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
@@ -253,10 +279,25 @@ function extractLuxdico(text, lemma) {
   return [];
 }
 
+function extractLodDeReverseApi(page, lemma) {
+  if (Array.isArray(page.lodLbHeadwords) && page.lodLbHeadwords.length) {
+    return page.lodLbHeadwords.map((w) => cleanTarget(w)).filter(Boolean);
+  }
+  if (!page.text) return [];
+  try {
+    const payload = JSON.parse(page.text);
+    return extractLbHeadwordsFromLodDeSearchPayload(payload, lemma).map((w) => cleanTarget(w)).filter(Boolean);
+  } catch {
+    return [];
+  }
+}
+
 function extractTranslations(page, lemma, searchUrl, appCode) {
   if (page.blocked) return [];
   let translations = [];
-  if (/vokieciu-lietuviu\.com/i.test(searchUrl)) {
+  if (/lod\.lu\/api\/de\/search/i.test(searchUrl) || Array.isArray(page.lodLbHeadwords)) {
+    translations = extractLodDeReverseApi(page, lemma);
+  } else if (/vokieciu-lietuviu\.com/i.test(searchUrl)) {
     translations = extractVokieciuLietuviu(page.text, lemma);
   } else if (/dict\.cc/i.test(searchUrl)) {
     translations = extractFromDictCcPlainText(page.text, lemma);

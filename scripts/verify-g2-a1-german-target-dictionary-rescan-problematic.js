@@ -5,8 +5,10 @@ const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 const { RESCAN_LANGS, OUT_DIR } = require("./lib/g2-a1-production-current/german-target-dictionary-rescan-problematic");
+const { SEARCH_PILOT_WORDS } = require("./lib/g2-a1-production-current/german-target-dictionary-search-catalog");
 
 const JSON_PATH = path.join(OUT_DIR, "german-target-dictionary-rescan-problematic.json");
+const PILOT_LEMMAS = SEARCH_PILOT_WORDS.map((w) => w.lemma);
 
 function main() {
   const blockers = [];
@@ -22,11 +24,42 @@ function main() {
   if (data.schemaVersion !== "g2-a1-german-target-dictionary-rescan-problematic-v1") {
     blockers.push({ code: "SCHEMA_VERSION", got: data.schemaVersion });
   }
+
+  const pilotFourOfFour = {};
   for (const code of RESCAN_LANGS) {
     const row = (data.languages || []).find((l) => l.appCode === code);
-    if (!row) blockers.push({ code: "MISSING_LANG", appCode: code });
-    else if (!row.ranked?.length) blockers.push({ code: "NO_CANDIDATES", appCode: code });
-    else if (!row.recommendedRescan) blockers.push({ code: "NO_RECOMMENDATION", appCode: code });
+    if (!row) {
+      blockers.push({ code: "MISSING_LANG", appCode: code });
+      continue;
+    }
+    if (!row.ranked?.length) blockers.push({ code: "NO_CANDIDATES", appCode: code });
+    if (!row.recommendedRescan) blockers.push({ code: "NO_RECOMMENDATION", appCode: code });
+    if (row.recommendedRescan?.finalStatus !== "DICTIONARY_READY") {
+      blockers.push({
+        code: "RECOMMENDED_NOT_DICTIONARY_READY",
+        appCode: code,
+        got: row.recommendedRescan?.finalStatus,
+        platform: row.recommendedRescan?.platform,
+      });
+    }
+
+    const top = row.ranked?.find((r) => r.rank === 1) || row.ranked?.[0];
+    const pilots = top?.pilots || {};
+    const missing = PILOT_LEMMAS.filter((lemma) => pilots[lemma] !== "FOUND");
+    pilotFourOfFour[code] = {
+      platform: top?.platform,
+      pilots,
+      foundCount: PILOT_LEMMAS.length - missing.length,
+      required: PILOT_LEMMAS.length,
+    };
+    if (missing.length) {
+      blockers.push({
+        code: "PILOT_FOUR_OF_FOUR_FAIL",
+        appCode: code,
+        missing,
+        pilots,
+      });
+    }
   }
 
   const pass = blockers.length === 0;
@@ -34,6 +67,9 @@ function main() {
     pass,
     blockers,
     targetLanguages: RESCAN_LANGS,
+    pilotLemmas: PILOT_LEMMAS,
+    pilotFourOfFour,
+    problematicLanguagesResolved: pass,
     generatedAt: data.generatedAt,
     recommendations: (data.languages || []).map((l) => ({
       appCode: l.appCode,

@@ -52,7 +52,7 @@
       }
     },
     "lb": {
-      "searchMode": "LOD_ADVANCED_SEARCH",
+      "searchMode": "LOD_DE_REVERSE_API",
       "fallbackCandidate": {
         "id": "glosbe-de-lb-fallback",
         "name": "Glosbe German–Luxembourgish (dictionary)",

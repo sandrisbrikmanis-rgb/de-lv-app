@@ -292,7 +292,7 @@ function orderedAlternativeCandidatesForLanguage(appCode, manifest, overrides) {
       type: "OFFICIAL_BILINGUAL_LEXICON",
       entryCount: 32000,
       entryCountStatus: "PUBLICLY_CONFIRMED_PUBLISHER_HEADWORD_COUNT",
-      searchMode: "LOD_ADVANCED_SEARCH",
+      searchMode: "LOD_DE_REVERSE_API",
     });
     list.push(lod);
   }

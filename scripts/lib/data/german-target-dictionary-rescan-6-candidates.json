@@ -15,7 +15,7 @@
       { "id": "keelevara-sub", "name": "Keelevara TEA (subscription)", "url": "https://www.keelevara.ee/", "platform": "keelevara", "access": "SUBSCRIPTION_REQUIRED", "subscriptionReferenceOnly": true }
     ],
     "lb": [
-      { "id": "lod-lb", "name": "LOD (advanced search)", "url": "https://lod.lu/", "platform": "lod", "searchMode": "LOD_ADVANCED_SEARCH" },
+      { "id": "lod-lb-de-reverse", "name": "LOD (DE→LB reverse, /api/de/search)", "url": "https://lod.lu/", "platform": "lod", "searchMode": "LOD_DE_REVERSE_API" },
       { "id": "luxdico-de-lb", "name": "Luxdico Deutsch–Luxemburgisch", "url": "http://dict.luxdico.com/neu/", "platform": "luxdico", "luxdicoL1": "deu", "luxdicoL2": "lux" },
       { "id": "glosbe-de-lb", "name": "Glosbe German–Luxembourgish", "url": "https://glosbe.com/de/lb", "platform": "glosbe" },
       { "id": "langenscheidt-de-lb", "name": "Langenscheidt German–Luxembourgish", "url": "https://en.langenscheidt.com/german-luxembourgish/", "platform": "langenscheidt" }

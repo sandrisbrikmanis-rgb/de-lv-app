@@ -5,6 +5,7 @@ const { loadRegistryRows, rowForAppLanguage } = require("../../registry-bindings
 const { domainsFromRegistryUrls } = require("../../registry-domain-allowlist");
 const { ADAPTER_TYPES } = require("../adapter-types");
 const { lookupEtSonaveeb } = require("./et-sonaveeb-adapter");
+const { lookupLbLodDeReverse, ADAPTER_ID: LB_LOD_ADAPTER_ID, ADAPTER_VERSION: LB_LOD_ADAPTER_VERSION } = require("./lb-lod-de-reverse-adapter");
 const { buildAdapterRegistry, LANGUAGE_CONFIGS } = require("./language-configs");
 
 const ET_ADAPTER = {
@@ -21,6 +22,20 @@ const ET_ADAPTER = {
   knownLimitations: [],
 };
 
+const LB_LOD_ADAPTER = {
+  appLang: "lb",
+  standardCode: "lb",
+  adapterId: LB_LOD_ADAPTER_ID,
+  adapterVersion: LB_LOD_ADAPTER_VERSION,
+  adapterType: ADAPTER_TYPES.SERVER_RENDERED_DICTIONARY,
+  lookupType: "lod-de-reverse-api",
+  masterSourceUrl: "https://lod.lu/",
+  positiveFixture: { lookupTerm: "Haus", expectedHeadword: "Haus" },
+  negativeFixture: { lookupTerm: "zzqqxxnotaword999" },
+  liveIntegrationStatus: "LIVE",
+  knownLimitations: [],
+};
+
 function buildTargetAdapterRegistry() {
   const registry = buildAdapterRegistry();
   registry.et = {
@@ -29,6 +44,13 @@ function buildTargetAdapterRegistry() {
     id: ET_ADAPTER.adapterId,
     version: ET_ADAPTER.adapterVersion,
     masterUrl: ET_ADAPTER.masterSourceUrl,
+  };
+  registry.lb = {
+    config: LB_LOD_ADAPTER,
+    lookup: lookupLbLodDeReverse,
+    id: LB_LOD_ADAPTER_ID,
+    version: LB_LOD_ADAPTER_VERSION,
+    masterUrl: LB_LOD_ADAPTER.masterSourceUrl,
   };
   return registry;
 }
