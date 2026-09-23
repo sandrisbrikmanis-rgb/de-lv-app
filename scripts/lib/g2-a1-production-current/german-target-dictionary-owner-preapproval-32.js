@@ -66,6 +66,42 @@ function editorialForPlatform(platform) {
           "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti)",
         sourceClass: "E",
       };
+    case "verbformen":
+      return {
+        entryEditorialType: EDITORIAL_ENTRY_TYPE.COMMUNITY_LEXICON_OTHER,
+        entryEditorialLabelLv: "Netzverb/verbformen — kopienas/agregēts leksikons (nav MT avots)",
+        sourceClass: "E",
+      };
+    case "udew":
+      return {
+        entryEditorialType: EDITORIAL_ENTRY_TYPE.HUMAN_EDITED_PROFESSIONAL,
+        entryEditorialLabelLv: "Leipzig UDEW — pētniecības vārdnīca (cilvēku rediģēts)",
+        sourceClass: "B",
+      };
+    case "luxdico":
+      return {
+        entryEditorialType: EDITORIAL_ENTRY_TYPE.COMMUNITY_LEXICON_OTHER,
+        entryEditorialLabelLv: "Luxdico — praktisks divvalodu leksikons (DE↔LB)",
+        sourceClass: "E",
+      };
+    case "dicts.info":
+      return {
+        entryEditorialType: EDITORIAL_ENTRY_TYPE.COMMUNITY_LEXICON_OTHER,
+        entryEditorialLabelLv: "dicts.info — statisks kopienas vārdnīcas indekss",
+        sourceClass: "E",
+      };
+    case "multitran":
+      return {
+        entryEditorialType: EDITORIAL_ENTRY_TYPE.COMMUNITY_LEXICON_OTHER,
+        entryEditorialLabelLv: "Multitran — lietotāju/specializēts leksikons",
+        sourceClass: "E",
+      };
+    case "vokieciu-lietuviu":
+      return {
+        entryEditorialType: EDITORIAL_ENTRY_TYPE.COMMUNITY_LEXICON_OTHER,
+        entryEditorialLabelLv: "vokieciu-lietuviu.com — kopienas vārdnīca (~16k)",
+        sourceClass: "E",
+      };
     case "letonika":
     case "lod":
       return {
@@ -377,6 +413,7 @@ module.exports = {
   OUT_DIR,
   CANONICAL_TARGET_APP_CODES_32,
   EDITORIAL_ENTRY_TYPE,
+  editorialForPlatform,
   buildOwnerPreapproval32,
   writeOwnerPreapprovalArtifacts,
   verifyTargetLanguageSet,

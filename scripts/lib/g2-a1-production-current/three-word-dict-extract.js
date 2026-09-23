@@ -62,6 +62,8 @@ function extractFromDictCcPlainText(text, lemma) {
   const patterns = [
     new RegExp(`${esc}\\s*\\{[^}]*\\}\\s*\\d+\\s+([^\\n\\t]+)`, "gi"),
     new RegExp(`${esc}\\s*\\{[^}]*\\}\\s*\\n\\s*\\d+\\s*\\n\\s*([^\\n]+)`, "gi"),
+    new RegExp(`${esc}\\s*\\{[^}]*\\}\\s*\\t\\n\\s*\\d+\\s*\\n\\s*([^\\n\\t]+)`, "gi"),
+    new RegExp(`${esc}[^\\n]*\\n\\s*\\d+\\s*\\n\\s*([^\\n\\t]+)`, "gi"),
     new RegExp(`([^\n\t]+?)\\s*\\n\\s*\\d+\\s*\\n\\s*${esc}\\b`, "gi"),
     new RegExp(`\\t([^\t\n]+?)\\t\\n\\d+\\n${esc}\\b`, "gi"),
   ];

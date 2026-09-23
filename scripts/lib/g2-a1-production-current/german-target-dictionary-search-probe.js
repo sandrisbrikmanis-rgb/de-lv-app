@@ -134,6 +134,24 @@ function buildSearchUrlForCandidate(candidate, lemma) {
     const base = candidate.url.replace(/\/$/, "");
     return `${base}/${encodeURIComponent(lemma.toLowerCase())}`;
   }
+  if (/verbformen\.(de|com)/i.test(candidate.url)) {
+    const base = candidate.url.replace(/\/$/, "");
+    return `${base}/${encodeURIComponent(lemma)}`;
+  }
+  if (/udew\.uni-leipzig\.de/i.test(candidate.url)) {
+    return `https://udew.uni-leipzig.de/udew/en/deutsch_ukrainisch_online.htm?input=${encodeURIComponent(lemma)}`;
+  }
+  if (/dict\.luxdico\.com/i.test(candidate.url)) {
+    const l1 = candidate.luxdicoL1 || "deu";
+    const l2 = candidate.luxdicoL2 || "lux";
+    return `http://dict.luxdico.com/neu/index.php?l1=${l1}&l2=${l2}&search=${encodeURIComponent(lemma)}`;
+  }
+  if (/dicts\.info/i.test(candidate.url)) {
+    return `https://www.dicts.info/dictionary.php?l1=german&l2=albanian&word=${encodeURIComponent(lemma)}`;
+  }
+  if (/multitran\.com/i.test(candidate.url)) {
+    return `https://www.multitran.com/m.exe?l1=3&l2=28&s=${encodeURIComponent(lemma)}`;
+  }
   return buildSearchUrl(row, lemma);
 }
 
@@ -175,6 +193,43 @@ async function fetchDictionaryPageForCandidate(candidate, lemma) {
   });
 }
 
+function extractDictsInfo(text, lemma) {
+  const esc = escapeRe(lemma);
+  const re = new RegExp(`${esc}\\s*\\([^)]*\\)\\s+([^\\n|]+)`, "i");
+  const m = text.match(re);
+  if (m?.[1]) return [cleanTarget(m[1])].filter(Boolean);
+  return [];
+}
+
+function extractVerbformen(text, lemma) {
+  const esc = escapeRe(lemma);
+  if (!new RegExp(`\\b${esc}\\b`, "i").test(text)) return [];
+  const block = text.match(new RegExp(`${esc}[\\s\\S]{0,400}`, "i"));
+  if (!block) return [];
+  const lines = block[0].split("\n").map((l) => cleanTarget(l)).filter(Boolean);
+  return lines.filter((l) => !new RegExp(`^${esc}$`, "i").test(l)).slice(0, 4);
+}
+
+function extractUdek(text, lemma) {
+  if (!new RegExp(escapeRe(lemma), "i").test(text)) return [];
+  const lines = text.split("\n").map((l) => cleanTarget(l)).filter(Boolean);
+  const idx = lines.findIndex((l) => new RegExp(escapeRe(lemma), "i").test(l));
+  if (idx < 0) return [];
+  return lines.slice(idx + 1, idx + 5).filter((l) => l.length >= 2 && l.length <= 50);
+}
+
+function extractLuxdico(text, lemma) {
+  if (/kein(e)? (Treffer|Ergebnis)/i.test(text)) return [];
+  const esc = escapeRe(lemma);
+  if (!new RegExp(esc, "i").test(text)) return [];
+  const lines = text.split("\n").map((l) => cleanTarget(l)).filter(Boolean);
+  for (const l of lines) {
+    if (new RegExp(`^${esc}$`, "i").test(l)) continue;
+    if (l.length >= 2 && l.length <= 40 && !/^(Suche|Search|Luxdico)/i.test(l)) return [l];
+  }
+  return [];
+}
+
 function extractTranslations(page, lemma, searchUrl, appCode) {
   if (page.blocked) return [];
   let translations = [];
@@ -188,6 +243,16 @@ function extractTranslations(page, lemma, searchUrl, appCode) {
     if (!translations.length) translations = extractFromDictCcPlainText(page.text, lemma);
   } else if (/lod\.lu/i.test(searchUrl)) {
     translations = extractLodAdvanced(page.text, lemma, appCode);
+  } else if (/verbformen\.(de|com)/i.test(searchUrl)) {
+    translations = extractVerbformen(page.text, lemma);
+  } else if (/udew\.uni-leipzig\.de/i.test(searchUrl)) {
+    translations = extractUdek(page.text, lemma);
+  } else if (/dicts\.info/i.test(searchUrl)) {
+    translations = extractDictsInfo(page.text, lemma);
+  } else if (/dict\.luxdico\.com/i.test(searchUrl)) {
+    translations = extractLuxdico(page.text, lemma);
+  } else if (/multitran\.com/i.test(searchUrl)) {
+    translations = extractFromDictCcPlainText(page.text, lemma);
   } else {
     translations = extractFromDictCcPlainText(page.text, lemma);
     if (!translations.length && new RegExp(escapeRe(lemma), "i").test(page.text)) {
