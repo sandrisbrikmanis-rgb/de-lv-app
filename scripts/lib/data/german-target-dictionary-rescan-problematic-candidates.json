@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "g2-a1-german-target-dictionary-rescan-problematic-v1",
+  "languages": {
+    "mk": [
+      { "id": "glosbe-de-mk", "name": "Glosbe German–Macedonian", "url": "https://glosbe.com/de/mk", "platform": "glosbe" },
+      { "id": "verbformen-de-mk", "name": "Netzverb / verbformen Deutsch–Mazedonisch", "url": "https://www.verbformen.de/de-mk/", "platform": "verbformen" },
+      { "id": "multitran-de-mk", "name": "Multitran German–Macedonian", "url": "https://www.multitran.com/dictionary/german-macedonian", "platform": "multitran" },
+      { "id": "langenscheidt-de-mk", "name": "Langenscheidt German–Macedonian", "url": "https://en.langenscheidt.com/german-macedonian/", "platform": "langenscheidt" },
+      { "id": "babla-de-mk", "name": "bab.la German–Macedonian", "url": "https://de.bab.la/woerterbuch/deutsch-mazedonisch/", "platform": "bab.la" }
+    ],
+    "nn": [
+      { "id": "langenscheidt-de-nn", "name": "Langenscheidt German–Norwegian (Nynorsk path)", "url": "https://en.langenscheidt.com/german-norwegian/", "platform": "langenscheidt" },
+      { "id": "glosbe-de-nn", "name": "Glosbe German–Nynorsk", "url": "https://glosbe.com/de/nn", "platform": "glosbe" },
+      { "id": "verbformen-de-no", "name": "Netzverb / verbformen Deutsch–Norwegisch", "url": "https://www.verbformen.de/de-no/", "platform": "verbformen" },
+      { "id": "dictcc-de-no", "name": "dict.cc Deutsch–Norwegisch (de-no.dict.cc)", "url": "https://de-no.dict.cc/", "platform": "dict.cc" },
+      { "id": "babla-de-nn", "name": "bab.la German–Norwegian", "url": "https://de.bab.la/woerterbuch/deutsch-norwegisch/", "platform": "bab.la" }
+    ],
+    "lb": [
+      { "id": "luxdico-de-lb", "name": "Luxdico Deutsch–Luxemburgisch", "url": "http://dict.luxdico.com/neu/", "platform": "luxdico", "luxdicoL1": "deu", "luxdicoL2": "lux" },
+      { "id": "lod-lb", "name": "LOD (advanced search)", "url": "https://lod.lu/", "platform": "lod", "searchMode": "LOD_ADVANCED_SEARCH" },
+      { "id": "glosbe-de-lb", "name": "Glosbe German–Luxembourgish", "url": "https://glosbe.com/de/lb", "platform": "glosbe" },
+      { "id": "babla-de-lb", "name": "bab.la German–Luxembourgish", "url": "https://de.bab.la/woerterbuch/deutsch-luxemburgisch/", "platform": "bab.la" },
+      { "id": "langenscheidt-de-lb", "name": "Langenscheidt German–Luxembourgish", "url": "https://en.langenscheidt.com/german-luxembourgish/", "platform": "langenscheidt" }
+    ]
+  }
+}

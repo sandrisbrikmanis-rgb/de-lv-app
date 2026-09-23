@@ -136,7 +136,7 @@ function buildSearchUrlForCandidate(candidate, lemma) {
   }
   if (/verbformen\.(de|com)/i.test(candidate.url)) {
     const base = candidate.url.replace(/\/$/, "");
-    return `${base}/${encodeURIComponent(lemma)}`;
+    return `${base}/?w=${encodeURIComponent(lemma)}`;
   }
   if (/udew\.uni-leipzig\.de/i.test(candidate.url)) {
     return `https://udew.uni-leipzig.de/udew/en/deutsch_ukrainisch_online.htm?input=${encodeURIComponent(lemma)}`;
@@ -144,7 +144,7 @@ function buildSearchUrlForCandidate(candidate, lemma) {
   if (/dict\.luxdico\.com/i.test(candidate.url)) {
     const l1 = candidate.luxdicoL1 || "deu";
     const l2 = candidate.luxdicoL2 || "lux";
-    return `http://dict.luxdico.com/neu/index.php?l1=${l1}&l2=${l2}&search=${encodeURIComponent(lemma)}`;
+    return `http://dict.luxdico.com/neu/index.php?l1=${l1}&l2=${l2}&q=${encodeURIComponent(lemma)}`;
   }
   if (/dicts\.info/i.test(candidate.url)) {
     return `https://www.dicts.info/dictionary.php?l1=german&l2=albanian&word=${encodeURIComponent(lemma)}`;
@@ -222,7 +222,30 @@ function extractLuxdico(text, lemma) {
   if (/kein(e)? (Treffer|Ergebnis)/i.test(text)) return [];
   const esc = escapeRe(lemma);
   if (!new RegExp(esc, "i").test(text)) return [];
+
+  const o2Re = /<div id="o2_(\d+)"[^>]*>([^<]*)<\/div>/gi;
+  let m;
+  while ((m = o2Re.exec(text)) !== null) {
+    const idx = m[1];
+    const deSide = cleanTarget(m[2]);
+    if (!new RegExp(`^${esc}$`, "i").test(deSide)) continue;
+    const o1 = text.match(new RegExp(`<div id="o1_${idx}"[^>]*>([^<]*)</div>`, "i"));
+    if (o1?.[1]) {
+      const lbSide = cleanTarget(o1[1]);
+      if (lbSide && lbSide.length >= 2 && lbSide.length <= 60) return [lbSide];
+    }
+    return [lemma];
+  }
+
   const lines = text.split("\n").map((l) => cleanTarget(l)).filter(Boolean);
+  for (let i = 0; i < lines.length; i += 1) {
+    if (!new RegExp(`^${esc}$`, "i").test(lines[i])) continue;
+    const next = lines[i + 1];
+    if (next && !new RegExp(`^${esc}$`, "i").test(next) && next.length >= 2 && next.length <= 60) {
+      return [next];
+    }
+    return [lemma];
+  }
   for (const l of lines) {
     if (new RegExp(`^${esc}$`, "i").test(l)) continue;
     if (l.length >= 2 && l.length <= 40 && !/^(Suche|Search|Luxdico)/i.test(l)) return [l];
