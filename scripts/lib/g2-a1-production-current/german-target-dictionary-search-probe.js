@@ -280,8 +280,20 @@ async function probePilotWord(candidate, lemma, appCode) {
     };
   }
 
-  const page = await fetchDictionaryPageForCandidate(candidate, lemma);
-  const searchUrl = page.searchUrl || buildSearchUrlForCandidate(candidate, lemma);
+  let page;
+  const searchUrlFallback = buildSearchUrlForCandidate(candidate, lemma);
+  try {
+    page = await fetchDictionaryPageForCandidate(candidate, lemma);
+  } catch (e) {
+    return {
+      pilotStatus: PILOT_FIELD.BLOCKED,
+      resultUrl: searchUrlFallback,
+      sampleTranslation: null,
+      note: String(e.message || e).slice(0, 200),
+      access: candidate.access,
+    };
+  }
+  const searchUrl = page.searchUrl || searchUrlFallback;
 
   if (page.blocked) {
     if (page.subscription || candidate.access === "SUBSCRIPTION_REQUIRED") {
