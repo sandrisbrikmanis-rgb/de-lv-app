@@ -6,7 +6,7 @@ Valodas: **mk, nn, lb** — paplašināts kandidātu saraksts + live piloti (Hau
 |--------|----------------------|-----------|---------|---------------------|------------------|
 | mk | Netzverb / verbformen Deutsch–Mazedonisch | verbformen | DICTIONARY_READY | COMMUNITY_LEXICON_OTHER | — |
 | nn | Langenscheidt German–Norwegian (Nynorsk path) | langenscheidt | DICTIONARY_READY | HUMAN_EDITED_PROFESSIONAL | — |
-| lb | Luxdico Deutsch–Luxemburgisch | luxdico | DICTIONARY_PARTIALLY_READY | COMMUNITY_LEXICON_OTHER | — |
+| lb | LOD (DE→LB reverse, /api/de/search) | lod | DICTIONARY_READY | INSTITUTIONAL_PROFESSIONAL | — |
 
 ## Ranžētie kandidāti
 
@@ -28,9 +28,10 @@ Valodas: **mk, nn, lb** — paplašināts kandidātu saraksts + live piloti (Hau
 
 ### lb
 
-- #1 **luxdico**: Luxdico Deutsch–Luxemburgisch — `DICTIONARY_PARTIALLY_READY` score=18
-- #2 **glosbe**: Glosbe German–Luxembourgish — `DICTIONARY_PARTIALLY_READY` score=11
-- #3 **lod**: LOD (advanced search) — `DICTIONARY_PARTIALLY_READY` score=7
-- #4 **bab.la**: bab.la German–Luxembourgish — `NO_SUITABLE_DICTIONARY_FOUND` score=-4
-- #5 **langenscheidt**: Langenscheidt German–Luxembourgish — `NO_SUITABLE_DICTIONARY_FOUND` score=-4
+- #1 **lod**: LOD (DE→LB reverse, /api/de/search) — `DICTIONARY_READY` score=40
+- #2 **luxdico**: Luxdico Deutsch–Luxemburgisch — `DICTIONARY_PARTIALLY_READY` score=18
+- #3 **glosbe**: Glosbe German–Luxembourgish — `DICTIONARY_PARTIALLY_READY` score=11
+- #4 **lod**: LOD (advanced search, legacy) — `DICTIONARY_PARTIALLY_READY` score=7
+- #5 **bab.la**: bab.la German–Luxembourgish — `NO_SUITABLE_DICTIONARY_FOUND` score=-4
+- #6 **langenscheidt**: Langenscheidt German–Luxembourgish — `NO_SUITABLE_DICTIONARY_FOUND` score=-4
 

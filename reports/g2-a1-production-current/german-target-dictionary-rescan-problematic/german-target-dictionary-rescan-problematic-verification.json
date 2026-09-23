@@ -6,7 +6,49 @@
     "nn",
     "lb"
   ],
-  "generatedAt": "2026-09-23T18:06:31.301Z",
+  "pilotLemmas": [
+    "Haus",
+    "abholen",
+    "Route",
+    "Getriebe"
+  ],
+  "pilotFourOfFour": {
+    "mk": {
+      "platform": "verbformen",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "foundCount": 4,
+      "required": 4
+    },
+    "nn": {
+      "platform": "langenscheidt",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "foundCount": 4,
+      "required": 4
+    },
+    "lb": {
+      "platform": "lod",
+      "pilots": {
+        "Haus": "FOUND",
+        "abholen": "FOUND",
+        "Route": "FOUND",
+        "Getriebe": "FOUND"
+      },
+      "foundCount": 4,
+      "required": 4
+    }
+  },
+  "problematicLanguagesResolved": true,
+  "generatedAt": "2026-09-23T18:26:46.736Z",
   "recommendations": [
     {
       "appCode": "mk",
@@ -20,8 +62,8 @@
     },
     {
       "appCode": "lb",
-      "platform": "luxdico",
-      "finalStatus": "DICTIONARY_PARTIALLY_READY"
+      "platform": "lod",
+      "finalStatus": "DICTIONARY_READY"
     }
   ]
 }

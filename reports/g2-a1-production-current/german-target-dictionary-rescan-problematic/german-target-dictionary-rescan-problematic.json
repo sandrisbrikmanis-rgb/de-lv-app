@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-german-target-dictionary-rescan-problematic-v1",
-  "generatedAt": "2026-09-23T18:06:31.301Z",
+  "generatedAt": "2026-09-23T18:26:46.736Z",
   "classification": "G2_A1_GERMAN_TARGET_DICTIONARY_RESCAN_PROBLEMATIC_COMPLETE",
   "nextAction": "OWNER_REVIEW_RESCAN_PROBLEMATIC_RECOMMENDATIONS",
   "targetLanguages": [
@@ -213,19 +213,35 @@
       "masterRegistryUrl": "https://lod.lu/",
       "masterRegistryName": "Lëtzebuerger Online Dictionnaire (LOD)",
       "recommendedRescan": {
-        "name": "Luxdico Deutsch–Luxemburgisch",
-        "url": "http://dict.luxdico.com/neu",
-        "platform": "luxdico",
-        "finalStatus": "DICTIONARY_PARTIALLY_READY",
-        "score": 18,
-        "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
-        "entryEditorialLabelLv": "Luxdico — praktisks divvalodu leksikons (DE↔LB)",
+        "name": "LOD (DE→LB reverse, /api/de/search)",
+        "url": "https://lod.lu/",
+        "platform": "lod",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryEditorialType": "INSTITUTIONAL_PROFESSIONAL",
+        "entryEditorialLabelLv": "Institucionāli uzturēta vārdnīca (valsts/akadēmiska)",
         "automaticTranslationOnlyWords": []
       },
-      "candidatesProbed": 5,
+      "candidatesProbed": 6,
       "ranked": [
         {
           "rank": 1,
+          "name": "LOD (DE→LB reverse, /api/de/search)",
+          "url": "https://lod.lu/",
+          "platform": "lod",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "entryEditorialType": "INSTITUTIONAL_PROFESSIONAL",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 2,
           "name": "Luxdico Deutsch–Luxemburgisch",
           "url": "http://dict.luxdico.com/neu",
           "platform": "luxdico",
@@ -241,7 +257,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Glosbe German–Luxembourgish",
           "url": "https://glosbe.com/de/lb",
           "platform": "glosbe",
@@ -257,8 +273,8 @@
           }
         },
         {
-          "rank": 3,
-          "name": "LOD (advanced search)",
+          "rank": 4,
+          "name": "LOD (advanced search, legacy)",
           "url": "https://lod.lu/",
           "platform": "lod",
           "finalStatus": "DICTIONARY_PARTIALLY_READY",
@@ -273,7 +289,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "bab.la German–Luxembourgish",
           "url": "https://de.bab.la/woerterbuch/deutsch-luxemburgisch",
           "platform": "bab.la",
@@ -289,7 +305,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Langenscheidt German–Luxembourgish",
           "url": "https://en.langenscheidt.com/german-luxembourgish",
           "platform": "langenscheidt",
