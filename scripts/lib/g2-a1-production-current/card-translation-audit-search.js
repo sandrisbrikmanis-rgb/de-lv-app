@@ -156,7 +156,7 @@ function selectProvenDictionaryCandidate(senseAligned, currentTarget) {
     };
   }
 
-  const matchingCurrent = senseAligned.filter((c) => targetLemmaEquals(c.wordLb, current));
+  const matchingCurrent = senseAligned.filter((c) => targetLemmaEquals(c.targetLemma || c.wordLb, current));
   if (matchingCurrent.length > 1) {
     return {
       status: "ambiguous",
@@ -292,7 +292,7 @@ function resolveCardTranslationAuditVerdict(input) {
   }
 
   const selected = pick.selected;
-  const provenLemma = String(selected.wordLb || "").trim();
+  const provenLemma = String(selected.targetLemma || selected.wordLb || "").trim();
   const targetAuthority = input.targetAuthorityForProven || input.targetAuthority;
 
   if (!isTargetOfficialValidated(targetAuthority)) {

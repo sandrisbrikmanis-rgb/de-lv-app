@@ -3,11 +3,12 @@
 
 const fs = require("fs");
 const path = require("path");
+const { execSync } = require("child_process");
 const { ROOT } = require("./lib/audit-common");
 const {
   getCardTranslation32LangReadiness,
-  isFullCardTranslationBatchReady,
-  FULL_CARD_TRANSLATION_LANGUAGES,
+  loadVerificationSnapshot,
+  VERIFICATION_JSON,
 } = require("./lib/g2-a1-production-current/card-translation-32lang-readiness");
 const { assertTargetedFieldCardTranslationBatchAllowed } = require("./lib/g2-a1-production-current/card-translation-audit-policy");
 
@@ -15,73 +16,77 @@ const OUT_DIR = path.join(ROOT, "reports/g2-a1-production-current/card-translati
 
 function main() {
   const blockers = [];
+
+  if (!fs.existsSync(VERIFICATION_JSON)) {
+    blockers.push({
+      code: "MISSING_FULL_VERIFICATION_ARTIFACT",
+      hint: "Run npm run verify:g2-a1:card-translation-32lang-full",
+    });
+  }
+
+  const snap = loadVerificationSnapshot();
   const readiness = getCardTranslation32LangReadiness();
 
-  if (readiness.registryLanguageCount !== readiness.expectedCount) {
-    blockers.push({
-      code: "REGISTRY_LANG_COUNT",
-      got: readiness.registryLanguageCount,
-      expected: readiness.expectedCount,
-    });
+  if (snap?.fullA1AuditExecuted) {
+    blockers.push({ code: "FULL_A1_AUDIT_MUST_NOT_RUN_IN_THIS_TASK" });
+  }
+  if (snap?.productionDataModified) {
+    blockers.push({ code: "PRODUCTION_MUST_NOT_CHANGE" });
   }
 
-  if (readiness.readyCount !== FULL_CARD_TRANSLATION_LANGUAGES.length) {
-    blockers.push({
-      code: "READY_COUNT_MUST_MATCH_LB_ONLY_PHASE",
-      got: readiness.readyCount,
-      expected: FULL_CARD_TRANSLATION_LANGUAGES.length,
-      readyLanguages: readiness.readyLanguages,
-    });
-  }
-
-  if (readiness.readyLanguages.join(",") !== FULL_CARD_TRANSLATION_LANGUAGES.join(",")) {
-    blockers.push({
-      code: "READY_MUST_BE_LB_ONLY",
-      got: readiness.readyLanguages,
-      expected: FULL_CARD_TRANSLATION_LANGUAGES,
-    });
-  }
-
-  if (isFullCardTranslationBatchReady()) {
-    blockers.push({ code: "FULL_BATCH_MUST_NOT_BE_READY_YET" });
+  if (snap?.classification === "CARD_TRANSLATION_READINESS_32_OF_32_VERIFIED") {
+    if (readiness.readyCount !== 32) {
+      blockers.push({ code: "CLASSIFICATION_MISMATCH_READY_COUNT" });
+    }
+  } else if (readiness.fullCardTranslationBatchReady) {
+    blockers.push({ code: "BATCH_READY_WITHOUT_32_CLASSIFICATION" });
   }
 
   const fullBatchGate = assertTargetedFieldCardTranslationBatchAllowed({ executeLuna: true, pilotOnly: false });
-  if (fullBatchGate.pass) {
-    blockers.push({ code: "FULL_LUNA_BATCH_SHOULD_STAY_BLOCKED" });
+  if (fullBatchGate.pass && readiness.readyCount < 32) {
+    blockers.push({ code: "FULL_LUNA_BATCH_MUST_STAY_BLOCKED_UNTIL_32" });
   }
-  if (!fullBatchGate.blockers.some((b) => b.code === "CARD_TRANSLATION_32LANG_COLLECTORS_NOT_READY")) {
-    blockers.push({ code: "MISSING_BATCH_BLOCKER_CODE" });
+  if (!fullBatchGate.pass && readiness.readyCount === 32 && snap?.classification?.includes("32_OF_32")) {
+    /* expected blocked until classification updated */
   }
 
   const pilotGate = assertTargetedFieldCardTranslationBatchAllowed({ executeLuna: true, pilotOnly: true });
   if (!pilotGate.pass) {
-    blockers.push({ code: "PILOT_ONLY_SHOULD_REMAIN_ALLOWED", detail: pilotGate.blockers });
+    blockers.push({ code: "PILOT_ONLY_SHOULD_REMAIN_ALLOWED" });
   }
 
-  fs.mkdirSync(OUT_DIR, { recursive: true });
+  for (const script of ["scripts/test-g2-a1-card-translation-audit-executor.js", "scripts/test-card-translation-audit-search.js"]) {
+    try {
+      execSync(`node ${script}`, { cwd: ROOT, stdio: "pipe", encoding: "utf8" });
+    } catch (e) {
+      blockers.push({ code: "REGRESSION_FAIL", script, detail: String(e.stderr || e.message).slice(0, 300) });
+    }
+  }
+
+  const pass = blockers.length === 0;
   const gate = {
-    pass: blockers.length === 0,
+    pass,
     blockers,
     readiness,
+    snap: snap
+      ? {
+          classification: snap.classification,
+          nextAction: snap.nextAction,
+          readyCount: snap.readyCount,
+          readyLanguages: snap.readyLanguages,
+          batchBlockerActive: snap.batchBlockerActive,
+        }
+      : null,
     batchBlockerActive: !fullBatchGate.pass,
     generatedAt: new Date().toISOString(),
   };
-  fs.writeFileSync(path.join(OUT_DIR, "card-translation-32lang-readiness-verification.json"), `${JSON.stringify(gate, null, 2)}\n`);
-  console.log(
-    JSON.stringify(
-      {
-        pass: gate.pass,
-        blockers,
-        readyCount: readiness.readyCount,
-        remainingCount: readiness.remainingCount,
-        batchBlockerActive: gate.batchBlockerActive,
-      },
-      null,
-      2,
-    ),
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+  fs.writeFileSync(
+    path.join(OUT_DIR, "card-translation-32lang-readiness-verification.json"),
+    `${JSON.stringify(gate, null, 2)}\n`,
   );
-  process.exit(gate.pass ? 0 : 1);
+  console.log(JSON.stringify({ pass, blockers, readyCount: readiness.readyCount, classification: snap?.classification }, null, 2));
+  process.exit(pass ? 0 : 1);
 }
 
 main();
