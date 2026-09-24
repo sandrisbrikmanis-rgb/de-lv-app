@@ -1,6 +1,6 @@
 # G2/A1 — vācu–TARGET papildu varianti (problemātiskās valodas)
 
-Valodas: **mk, nn, lb** — paplašināts kandidātu saraksts + live piloti (Haus, abholen, Route, Getriebe). Luxdico izmanto `q=` parametru.
+Valodas: **mk, nn, lb** — paplašināts kandidātu saraksts + live piloti (Haus, abholen, Route, Getriebe). **lb** izmanto LOD `/api/de/search` (vācu reverso meklēšana).
 
 | Valoda | Ieteicamais (rescan) | Platforma | Statuss | Redakcionālais tips | Auto brīdinājums |
 |--------|----------------------|-----------|---------|---------------------|------------------|

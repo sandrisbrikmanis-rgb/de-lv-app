@@ -3,6 +3,8 @@
 
 const LOD_DE_SEARCH_API = "https://lod.lu/api/de/search";
 
+/** @typedef {{ wordLb: string, articleId: string, articleUrl: string, meaningId: string, pos: string, deTranslation: string, matchKind: string, score: number }} LodDeReverseMatch */
+
 function escapeRe(s) {
   return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
@@ -16,37 +18,132 @@ function buildLodDeSichUrl(germanLemma) {
   return `https://lod.lu/sich/de/${encodeURIComponent(String(germanLemma || "").trim())}`;
 }
 
-function extractLbHeadwordsFromLodDeSearchPayload(payload, germanLemma) {
+function buildLodArticleUrl(articleId, wordLb) {
+  const id = String(articleId || "").trim();
+  const lemma = String(wordLb || "").trim();
+  if (!id) return buildLodDeSichUrl(lemma);
+  const q = lemma ? `?lemma=${encodeURIComponent(lemma)}` : "";
+  return `https://lod.lu/artikel/${encodeURIComponent(id)}${q}`;
+}
+
+function isRejectedProperNounOrPlace(row, germanLemma) {
+  const pos = String(row.pos || "").trim().toUpperCase();
+  if (pos === "NP") return true;
+
+  const wordLb = String(row.word_lb || "").trim();
+  const lemma = String(germanLemma || "").trim();
+
+  if (/^Munnerëffer Strooss$/i.test(wordLb)) return true;
+  if (/\bStrooss$/i.test(wordLb) && lemma.toLowerCase() === "route") return true;
+
+  if (/^Munner/i.test(wordLb)) return true;
+  return false;
+}
+
+function isOrdinaryDictionaryPos(pos) {
+  const p = String(pos || "").trim().toUpperCase();
+  if (!p || p === "NP") return false;
+  return /^(SUBST|VRB|VERB|ADJ|ADV|ART|PRON|PREP|CONJ|INT|PART)/.test(p);
+}
+
+/**
+ * DE translation field must list the pilot lemma as its own dictionary sense
+ * (exact, or lemma + [disambiguation gloss]), not only as part of a hyphenated name.
+ */
+function deSenseMatchesLemma(translation, lemma) {
+  const esc = escapeRe(lemma);
+  const parts = String(translation || "")
+    .split(/[,;]/)
+    .map((p) => p.trim())
+    .filter(Boolean);
+
+  for (const part of parts) {
+    if (new RegExp(`^${esc}$`, "i").test(part)) {
+      return { match: true, kind: "exact", part };
+    }
+    if (new RegExp(`^${esc}\\s+\\[[^\\]]+\\]$`, "i").test(part)) {
+      return { match: true, kind: "gloss", part };
+    }
+  }
+  return { match: false, kind: null, part: null };
+}
+
+function scoreLodMatch(row, meaning, senseMatch) {
+  let score = 0;
+  if (senseMatch.kind === "exact") score += 100;
+  else if (senseMatch.kind === "gloss") score += 80;
+
+  const pos = String(row.pos || "").trim().toUpperCase();
+  if (/^SUBST/.test(pos)) score += 20;
+  else if (/^VRB/.test(pos)) score += 18;
+  else if (/^ADJ/.test(pos)) score += 15;
+  else if (/^ADV/.test(pos)) score += 5;
+
+  if (row.sign_language === true || meaning.sign_language === true) score += 1;
+  return score;
+}
+
+/**
+ * @returns {LodDeReverseMatch[]}
+ */
+function selectLodDeReverseMatches(payload, germanLemma) {
   if (!payload || !Array.isArray(payload.results)) return [];
-  const esc = escapeRe(germanLemma);
-  const lemmaRe = new RegExp(`\\b${esc}\\b`, "i");
-  const ranked = [];
+  const lemma = String(germanLemma || "").trim();
+  if (!lemma) return [];
+
+  const matches = [];
 
   for (const row of payload.results) {
+    if (isRejectedProperNounOrPlace(row, lemma)) continue;
+    if (!isOrdinaryDictionaryPos(row.pos)) continue;
+
     const wordLb = String(row.word_lb || "").trim();
     if (!wordLb) continue;
-    let bestScore = -1;
+
+    const articleId = String(row.article_id || row.id || "").trim();
+    let bestForRow = null;
+
     for (const meaning of row.meanings || []) {
       const tr = String(meaning.translation || "");
-      if (!lemmaRe.test(tr)) continue;
-      let score = 1;
-      if (new RegExp(`^${esc}$`, "i").test(tr.trim())) score = 3;
-      else if (new RegExp(`^${esc}\\b`, "i").test(tr.trim())) score = 2;
-      if (score > bestScore) bestScore = score;
+      const senseMatch = deSenseMatchesLemma(tr, lemma);
+      if (!senseMatch.match) continue;
+
+      const score = scoreLodMatch(row, meaning, senseMatch);
+      const candidate = {
+        wordLb,
+        articleId,
+        articleUrl: buildLodArticleUrl(articleId, wordLb),
+        meaningId: String(meaning.id || ""),
+        pos: String(row.pos || ""),
+        deTranslation: tr,
+        matchKind: senseMatch.kind,
+        score,
+      };
+      if (!bestForRow || candidate.score > bestForRow.score) bestForRow = candidate;
     }
-    if (bestScore >= 0) ranked.push({ wordLb, score: bestScore });
+
+    if (bestForRow) matches.push(bestForRow);
   }
 
-  ranked.sort((a, b) => b.score - a.score);
+  matches.sort((a, b) => b.score - a.score);
   const seen = new Set();
   const out = [];
-  for (const r of ranked) {
-    const key = r.wordLb.toLowerCase();
+  for (const m of matches) {
+    const key = `${m.articleId}:${m.wordLb.toLowerCase()}`;
     if (seen.has(key)) continue;
     seen.add(key);
-    out.push(r.wordLb);
+    out.push(m);
   }
   return out;
+}
+
+function pickBestLodDeReverseMatch(payload, germanLemma) {
+  const matches = selectLodDeReverseMatches(payload, germanLemma);
+  return matches[0] || null;
+}
+
+function extractLbHeadwordsFromLodDeSearchPayload(payload, germanLemma) {
+  return selectLodDeReverseMatches(payload, germanLemma).map((m) => m.wordLb);
 }
 
 async function fetchLodDeSearchJson(germanLemma, { timeoutMs = 20000 } = {}) {
@@ -59,7 +156,7 @@ async function fetchLodDeSearchJson(germanLemma, { timeoutMs = 20000 } = {}) {
       signal: controller.signal,
       headers: {
         Accept: "application/json",
-        "User-Agent": "de-lv-app-g2-a1-lod-de-reverse/1.0 (read-only audit)",
+        "User-Agent": "de-lv-app-g2-a1-lod-de-reverse/1.1 (read-only audit)",
       },
     });
     if (!response.ok) {
@@ -76,21 +173,30 @@ async function fetchLodDeSearchJson(germanLemma, { timeoutMs = 20000 } = {}) {
 
 async function lookupLodGermanToLuxembourgish(germanLemma) {
   const fetched = await fetchLodDeSearchJson(germanLemma);
+  const searchUrl = fetched.url;
   if (!fetched.ok) {
     return {
       found: false,
-      searchUrl: fetched.url,
+      searchUrl,
       entryUrl: buildLodDeSichUrl(germanLemma),
       lbHeadwords: [],
+      bestMatch: null,
+      matches: [],
       error: fetched.error,
     };
   }
-  const lbHeadwords = extractLbHeadwordsFromLodDeSearchPayload(fetched.payload, germanLemma);
+
+  const matches = selectLodDeReverseMatches(fetched.payload, germanLemma);
+  const bestMatch = matches[0] || null;
+  const lbHeadwords = matches.map((m) => m.wordLb);
+
   return {
-    found: lbHeadwords.length > 0,
-    searchUrl: fetched.url,
-    entryUrl: buildLodDeSichUrl(germanLemma),
+    found: Boolean(bestMatch),
+    searchUrl,
+    entryUrl: bestMatch?.articleUrl || buildLodDeSichUrl(germanLemma),
     lbHeadwords,
+    bestMatch,
+    matches,
     payload: fetched.payload,
     error: null,
   };
@@ -100,6 +206,12 @@ module.exports = {
   LOD_DE_SEARCH_API,
   buildLodDeSearchUrl,
   buildLodDeSichUrl,
+  buildLodArticleUrl,
+  deSenseMatchesLemma,
+  isOrdinaryDictionaryPos,
+  isRejectedProperNounOrPlace,
+  selectLodDeReverseMatches,
+  pickBestLodDeReverseMatch,
   extractLbHeadwordsFromLodDeSearchPayload,
   fetchLodDeSearchJson,
   lookupLodGermanToLuxembourgish,

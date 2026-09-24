@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-german-target-dictionary-rescan-problematic-v1",
-  "generatedAt": "2026-09-23T18:26:46.736Z",
+  "generatedAt": "2026-09-24T16:42:06.543Z",
   "classification": "G2_A1_GERMAN_TARGET_DICTIONARY_RESCAN_PROBLEMATIC_COMPLETE",
   "nextAction": "OWNER_REVIEW_RESCAN_PROBLEMATIC_RECOMMENDATIONS",
   "targetLanguages": [
@@ -329,6 +329,6 @@
   },
   "reportMeta": {
     "titleLv": "G2/A1 — vācu–TARGET papildu varianti (problemātiskās valodas)",
-    "introLv": "Valodas: **mk, nn, lb** — paplašināts kandidātu saraksts + live piloti (Haus, abholen, Route, Getriebe). Luxdico izmanto `q=` parametru."
+    "introLv": "Valodas: **mk, nn, lb** — paplašināts kandidātu saraksts + live piloti (Haus, abholen, Route, Getriebe). **lb** izmanto LOD `/api/de/search` (vācu reverso meklēšana)."
   }
 }

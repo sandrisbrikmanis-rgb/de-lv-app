@@ -179,10 +179,11 @@ async function fetchDictionaryPageForCandidate(candidate, lemma) {
     }
     return {
       blocked: false,
-      finalUrl: lookup.entryUrl || buildLodDeSichUrl(lemma),
+      finalUrl: lookup.bestMatch?.articleUrl || lookup.entryUrl || buildLodDeSichUrl(lemma),
       text: lookup.payload ? JSON.stringify(lookup.payload) : "",
       searchUrl,
       lodLbHeadwords: lookup.lbHeadwords || [],
+      lodBestMatch: lookup.bestMatch || null,
     };
   }
 
@@ -399,12 +400,20 @@ async function probePilotWord(candidate, lemma, appCode) {
     };
   }
 
+  const lodMeta = page.lodBestMatch;
+  const resultUrl = lodMeta?.articleUrl || page.finalUrl || searchUrl;
+  const note = lodMeta
+    ? `LOD ${lodMeta.articleId} DE="${lodMeta.deTranslation}"`
+    : null;
+
   return {
     pilotStatus: PILOT_FIELD.FOUND,
-    resultUrl: page.finalUrl || searchUrl,
+    resultUrl,
     sampleTranslation: translations[0],
     alternativeSamples: translations.slice(1, 4),
-    note: null,
+    note,
+    lodArticleId: lodMeta?.articleId || null,
+    lodArticleUrl: lodMeta?.articleUrl || null,
     access: candidate.access,
   };
 }

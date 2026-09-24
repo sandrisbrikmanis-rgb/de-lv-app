@@ -3,13 +3,10 @@
 
 const { validatedEntry, notFound, baseResult } = require("../adapter-result");
 const { SOURCE_ACCESS_OUTCOME } = require("../../official-source-access-constants");
-const {
-  buildLodDeSichUrl,
-  lookupLodGermanToLuxembourgish,
-} = require("../../lod-de-reverse-api");
+const { lookupLodGermanToLuxembourgish } = require("../../lod-de-reverse-api");
 
 const ADAPTER_ID = "lb-lod-de-reverse-api";
-const ADAPTER_VERSION = "1.0.0";
+const ADAPTER_VERSION = "1.1.0";
 
 async function lookupLbLodDeReverse({ lookupTerm, authorityName, provenance }) {
   const term = String(lookupTerm || "").trim();
@@ -26,7 +23,8 @@ async function lookupLbLodDeReverse({ lookupTerm, authorityName, provenance }) {
   }
 
   const lookup = await lookupLodGermanToLuxembourgish(term);
-  if (!lookup.found) {
+  const best = lookup.bestMatch;
+  if (!lookup.found || !best) {
     return notFound({
       adapterId: ADAPTER_ID,
       adapterVersion: ADAPTER_VERSION,
@@ -35,30 +33,38 @@ async function lookupLbLodDeReverse({ lookupTerm, authorityName, provenance }) {
       requestedUrl: lookup.searchUrl,
       finalUrl: lookup.entryUrl,
       entryUrl: lookup.entryUrl,
-      error: lookup.error || "lod_de_reverse_no_lb_headword",
+      error: lookup.error || "lod_de_reverse_no_dictionary_lemma",
       ...provenance,
     });
   }
 
-  const headword = lookup.lbHeadwords[0];
-  const fragment = lookup.lbHeadwords.slice(0, 4).join("; ");
+  const fragment = [
+    `LOD article_id=${best.articleId}`,
+    `LB=${best.wordLb}`,
+    `DE=${best.deTranslation}`,
+    `pos=${best.pos}`,
+    `meaning=${best.meaningId}`,
+  ].join("; ");
+
   return validatedEntry({
     adapterId: ADAPTER_ID,
     adapterVersion: ADAPTER_VERSION,
     authorityName,
     searchQuery: `TARGET:lb:lod-de-reverse:${term}`,
     requestedUrl: lookup.searchUrl,
-    finalUrl: lookup.entryUrl,
-    entryUrl: lookup.entryUrl,
+    finalUrl: best.articleUrl,
+    entryUrl: best.articleUrl,
     finalDomain: "lod.lu",
-    entryHeadwordOrRule: headword,
-    entryOrRule: `LOD DE→LB: ${term} → ${headword}`,
-    evidenceFragment: `LOD /api/de/search DE="${term}" → LB: ${fragment}`,
+    entryHeadwordOrRule: best.wordLb,
+    entryOrRule: `LOD DE→LB: ${term} → ${best.wordLb} (${best.articleId})`,
+    evidenceFragment: fragment,
     pageTitle: `LOD DE reverse: ${term}`,
     accessedAt: new Date().toISOString(),
     contentSha256: null,
     redirectChain: [],
     httpStatus: 200,
+    lodArticleId: best.articleId,
+    lodMeaningId: best.meaningId,
     ...provenance,
   });
 }
@@ -67,5 +73,4 @@ module.exports = {
   ADAPTER_ID,
   ADAPTER_VERSION,
   lookupLbLodDeReverse,
-  buildLodDeSichUrl,
 };

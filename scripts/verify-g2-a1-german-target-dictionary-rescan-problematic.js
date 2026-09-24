@@ -3,6 +3,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { execSync } = require("child_process");
 const { ROOT } = require("./lib/audit-common");
 const { RESCAN_LANGS, OUT_DIR } = require("./lib/g2-a1-production-current/german-target-dictionary-rescan-problematic");
 const { SEARCH_PILOT_WORDS } = require("./lib/g2-a1-production-current/german-target-dictionary-search-catalog");
@@ -12,6 +13,15 @@ const PILOT_LEMMAS = SEARCH_PILOT_WORDS.map((w) => w.lemma);
 
 function main() {
   const blockers = [];
+
+  try {
+    execSync("node scripts/test-lod-de-reverse-api.js", { cwd: ROOT, stdio: "pipe", encoding: "utf8" });
+  } catch (e) {
+    blockers.push({
+      code: "LOD_DE_REVERSE_REGRESSION_FAIL",
+      detail: String(e.stdout || e.stderr || e.message).slice(0, 500),
+    });
+  }
   for (const f of ["german-target-dictionary-rescan-problematic.json", "german-target-dictionary-rescan-problematic.md"]) {
     if (!fs.existsSync(path.join(OUT_DIR, f))) blockers.push({ code: "MISSING_ARTIFACT", file: f });
   }
@@ -59,6 +69,26 @@ function main() {
         missing,
         pilots,
       });
+    }
+
+    if (code === "lb" && row.recommendedRescan?.platform === "lod") {
+      const routePilot = top?.pilots?.Route;
+      if (routePilot !== "FOUND") {
+        blockers.push({ code: "LB_ROUTE_NOT_FOUND", got: routePilot });
+      }
+    }
+  }
+
+  const lbRow = (data.languages || []).find((l) => l.appCode === "lb");
+  const lbJson = lbRow ? JSON.stringify(lbRow) : "";
+  if (/Munnerëffer Strooss/i.test(lbJson)) {
+    blockers.push({ code: "LB_MUNNEREFFER_STROOSS_MUST_NOT_APPEAR_IN_RESCAN" });
+  }
+  if (lbRow?.recommendedRescan?.platform === "lod") {
+    const routeRank = lbRow.ranked?.find((r) => r.platform === "lod" && r.rank === 1);
+    const routeDetail = routeRank?.pilots?.Route;
+    if (routeDetail === "FOUND") {
+      /* sampleTranslation not in ranked summary — regression test enforces Streck */
     }
   }
 
