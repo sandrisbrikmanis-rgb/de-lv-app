@@ -1,0 +1,3796 @@
+# G2/A1 LRB LRB-080 — OWNER VIEW
+
+**Batch:** LRB-080
+**Rows:** 50/50
+**Languages:** PT 50
+**Direction:** DESCENDING
+**Reserved for:** PC2
+**OWNER_AUTHORIZATION_STATUS:** APPROVED
+**Linguistic reviewer:** gpt-5.6-luna
+**Generated:** 2026-09-14T15:50:31.706Z
+**Source commit:** `8665d69109d158ddff1fce76bfc1546d1d95cf6c`
+**Branch:** `cursor/lrb-080-owner-authorization-ed35`
+**Overrides SHA256:** `be29b35415bc10cd89cbcaa62183608b6434f1481a864eb0d2011d614fccb9d9`
+**Classification:** `G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED`
+
+**Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
+
+## Finding 1
+
+**Audit ID:** `LRB080-0001`
+**Finding Stable ID:** `g2/a1/pt|lassen|idx:356|lv, study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `lassen|idx:356`
+**Field / path:** `lv, study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Atributo • Para cima","study.translation":"Atributo • Para cima","study.explanation":"[\"Adestramento Galvenā: let nozīmē atstāt kaut ko vai ųaut kaut kam notikt.\",\"Se algo permanecer no lugar, a soldagem resulta em licença.\",\"Sim kādam dod atļauju, lassen tulko kā ļaut.\",\"Sarunās ļoti bieža forma ir Lass mich! =Liec mani mierā! Vá na coleira!\"]","study.examples":"[{\"de\":\"Ich lasse die Tasche hier.\",\"lv\":\"Isto é o que acontece.\"},{\"de\":\"Lass das bitte auf dem Tisch.\",\"lv\":\"Atstāj to, lūdzu, uz galda.\"},{\"de\":\"Meine Eltern lassen mich gehen.\",\"lv\":\"Vecāki ųauj man iet.\"},{\"de\":\"Lass mich in Ruhe!\",\"lv\":\"Liec mani miera!\"}]","study.comparison":"[{\"word\":\"lassen\",\"meaning\":\"Atstat / ļaut\",\"example\":\"Deixo isso aqui.\"},{\"word\":\"bleiben\",\"meaning\":\"Palikt\",\"example\":\"Fico aqui.\"},{\"word\":\"erlauben\",\"meaning\":\"Atelauta\",\"example\":\"Ela me permite isso.\"},{\"word\":\"geben\",\"meaning\":\"Ver\",\"example\":\"Dá-me o livro.\"}]","study.tip":"{\"text\":\"Atceries: kaut kas paliek → lassen; kādam atļauj → lassen.\"}","study.important":"[\"lassen não é apenas \\\"deixar\\\". Frequentemente também significa \\\"permitir\\\".\",\"Lass mich in Ruhe! é uma frase muito comum: \\\"Deixe-me em paz!\\\"\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"lassen","lv":"Deixar • Permitir","level":"A1","study":{"id":"a1-lassen","layout":"standardStudy","translation":"Deixar • Permitir","explanation":["Ideia principal: lassen significa deixar algo em um lugar ou permitir que algo aconteça.","Quando alguém recebe permissão, lassen corresponde a permitir; em Lass mich in Ruhe!, significa deixar alguém em paz."],"examples":[{"de":"Ich lasse die Tasche hier.","lv":"Eu deixo a bolsa aqui."},{"de":"Lass das bitte auf dem Tisch.","lv":"Deixe isso na mesa, por favor."},{"de":"Meine Eltern lassen mich gehen.","lv":"Meus pais me deixam sair."},{"de":"Lass mich in Ruhe!","lv":"Deixe-me em paz!"}],"comparison":[{"word":"lassen","meaning":"deixar • permitir","example":"Ich lasse das hier. – Eu deixo isso aqui."},{"word":"bleiben","meaning":"ficar • permanecer","example":"Ich bleibe hier. – Eu fico aqui."},{"word":"erlauben","meaning":"permitir","example":"Sie erlaubt mir das. – Ela me permite isso."},{"word":"geben","meaning":"dar","example":"Gib mir das Buch. – Dê-me o livro."}],"tip":["Algo fica ou alguém recebe permissão → lassen."],"important":["lassen não significa apenas “deixar”; também significa “permitir”."]}}
+**Note:** Pilna PT kartīte «lassen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "lassen",
+  "lv": "Deixar • Permitir",
+  "level": "A1",
+  "study": {
+    "id": "a1-lassen",
+    "layout": "standardStudy",
+    "translation": "Deixar • Permitir",
+    "explanation": [
+      "Ideia principal: lassen significa deixar algo em um lugar ou permitir que algo aconteça.",
+      "Quando alguém recebe permissão, lassen corresponde a permitir; em Lass mich in Ruhe!, significa deixar alguém em paz."
+    ],
+    "examples": [
+      {
+        "de": "Ich lasse die Tasche hier.",
+        "lv": "Eu deixo a bolsa aqui."
+      },
+      {
+        "de": "Lass das bitte auf dem Tisch.",
+        "lv": "Deixe isso na mesa, por favor."
+      },
+      {
+        "de": "Meine Eltern lassen mich gehen.",
+        "lv": "Meus pais me deixam sair."
+      },
+      {
+        "de": "Lass mich in Ruhe!",
+        "lv": "Deixe-me em paz!"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "lassen",
+        "meaning": "deixar • permitir",
+        "example": "Ich lasse das hier. – Eu deixo isso aqui."
+      },
+      {
+        "word": "bleiben",
+        "meaning": "ficar • permanecer",
+        "example": "Ich bleibe hier. – Eu fico aqui."
+      },
+      {
+        "word": "erlauben",
+        "meaning": "permitir",
+        "example": "Sie erlaubt mir das. – Ela me permite isso."
+      },
+      {
+        "word": "geben",
+        "meaning": "dar",
+        "example": "Gib mir das Buch. – Dê-me o livro."
+      }
+    ],
+    "tip": [
+      "Algo fica ou alguém recebe permissão → lassen."
+    ],
+    "important": [
+      "lassen não significa apenas “deixar”; também significa “permitir”."
+    ]
+  },
+  "index": 356
+}
+```
+
+---
+
+## Finding 2
+
+**Audit ID:** `LRB080-0002`
+**Finding Stable ID:** `g2/a1/pt|laufen|idx:357|study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `laufen|idx:357`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"id":"a1-laufen","layout":"standardStudy","translation":"Skriet • Darboties","explanation":["Adestramento Galvenā: execute nozīmē skriet, bet ar ierīcēm tas var nozīmēt darboties.","Para cilvēku vai dzīvnieku execute bieži nozīmē skriet vai iet ātrā solī.","Para o filme você poderá planejar novidades e se informar.","Kustībai kājām A1 līmenī visbiežāk salīdzina vá correr."],"examples":[{"de":"Er läuft sehr schnell.","lv":"Viņš escrito ųoti ātri."},{"de":"Die Kinder laufen im Park.","lv":"Bērni skrien parkā."},{"de":"Der Film läuft schon.","lv":"Filmes sim."},{"de":"Die Maschine läuft gut.","lv":"Mašīna darbojas labi."}],"comparison":[{"word":"laufen","meaning":"Skriet/Darboties","example":"Ele corre rápido."},{"word":"gehen","meaning":"O kajam","example":"Vou para casa."},{"word":"fahren","meaning":"Transporte de carro","example":"Viajo de ônibus."},{"word":"funktionieren","meaning":"Darboties","example":"Isso funciona bem."}],"tip":{"text":"Atceries: kājas ātri → laufen; transports → fahren."},"important":["laufen não é apenas \"correr\". Para um filme ou dispositivo, pode significar \"ir\" ou \"funcionar\".","Ich laufe significa movimento a pé, não andar de carro."],"sectionAccents":{"explanation":{"blue":["Galvenā"],"purple":["skriet","darboties","iet"],"green":["cilvēku","dzīvnieku","Galvenā","Galvenā","Galvenā"]},"examples":[{"de":{"blue":["läuft"]},"lv":{"purple":["Viņš"]}},{"de":{"blue":["laufen"]},"lv":{"purple":["skrien"]}},{"de":{"blue":["läuft"]},"lv":{"purple":["Filmes"]}},{"de":{"blue":["läuft"]},"lv":{"purple":["darbojas"]}}],"comparison":[{"word":{"green":["laufen"]},"meaning":{"purple":["skriet","darboties"]},"example":{"blue":["läuft"]}},{"word":{"green":["gehen"]},"meaning":{"purple":["kājam"]},"example":{"yellow":["gehe"]}},{"word":{"green":["fahren"]},"meaning":{"purple":["Transporte"]},"example":{"red":["fahre"]}},{"word":{"green":["funktionieren"]},"meaning":{"purple":["darboties"]},"example":{"green":["funktioniert"]}}],"tip":{"left":{"blue":["laufen"],"purple":["kājas ātri"],"red":["fahren","transports"]}},"important":[{"blue":["laufen"],"purple":["skriet","iet","darboties"]},{"blue":["Ich laufe"],"purple":["kustību kājām"],"red":["braukšanu"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"laufen","lv":"Correr • Funcionar","level":"A1","study":{"id":"a1-laufen","layout":"standardStudy","translation":"Correr • Funcionar","explanation":["Ideia principal: laufen significa correr; com máquinas, programas ou filmes, também pode significar funcionar ou estar em exibição.","Para movimento a pé, distingue-se de fahren, que indica deslocamento em um veículo."],"examples":[{"de":"Er läuft sehr schnell.","lv":"Ele corre muito rápido."},{"de":"Die Kinder laufen im Park.","lv":"As crianças correm no parque."},{"de":"Der Film läuft schon.","lv":"O filme já está passando."},{"de":"Die Maschine läuft gut.","lv":"A máquina funciona bem."}],"comparison":[{"word":"laufen","meaning":"correr • funcionar","example":"Er läuft schnell. – Ele corre rápido."},{"word":"gehen","meaning":"ir a pé","example":"Ich gehe nach Hause. – Eu vou para casa."},{"word":"fahren","meaning":"ir de veículo","example":"Ich fahre mit dem Bus. – Eu vou de ônibus."},{"word":"funktionieren","meaning":"funcionar","example":"Das funktioniert gut. – Isso funciona bem."}],"tip":["Movimento rápido a pé → laufen; transporte → fahren."],"important":["Com um filme ou aparelho, laufen pode significar “estar passando” ou “funcionar”."]}}
+**Note:** Pilna PT kartīte «laufen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "laufen",
+  "lv": "Correr • Funcionar",
+  "level": "A1",
+  "study": {
+    "id": "a1-laufen",
+    "layout": "standardStudy",
+    "translation": "Correr • Funcionar",
+    "explanation": [
+      "Ideia principal: laufen significa correr; com máquinas, programas ou filmes, também pode significar funcionar ou estar em exibição.",
+      "Para movimento a pé, distingue-se de fahren, que indica deslocamento em um veículo."
+    ],
+    "examples": [
+      {
+        "de": "Er läuft sehr schnell.",
+        "lv": "Ele corre muito rápido."
+      },
+      {
+        "de": "Die Kinder laufen im Park.",
+        "lv": "As crianças correm no parque."
+      },
+      {
+        "de": "Der Film läuft schon.",
+        "lv": "O filme já está passando."
+      },
+      {
+        "de": "Die Maschine läuft gut.",
+        "lv": "A máquina funciona bem."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "laufen",
+        "meaning": "correr • funcionar",
+        "example": "Er läuft schnell. – Ele corre rápido."
+      },
+      {
+        "word": "gehen",
+        "meaning": "ir a pé",
+        "example": "Ich gehe nach Hause. – Eu vou para casa."
+      },
+      {
+        "word": "fahren",
+        "meaning": "ir de veículo",
+        "example": "Ich fahre mit dem Bus. – Eu vou de ônibus."
+      },
+      {
+        "word": "funktionieren",
+        "meaning": "funcionar",
+        "example": "Das funktioniert gut. – Isso funciona bem."
+      }
+    ],
+    "tip": [
+      "Movimento rápido a pé → laufen; transporte → fahren."
+    ],
+    "important": [
+      "Com um filme ou aparelho, laufen pode significar “estar passando” ou “funcionar”."
+    ]
+  },
+  "index": 357
+}
+```
+
+---
+
+## Finding 3
+
+**Audit ID:** `LRB080-0003`
+**Finding Stable ID:** `g2/a1/pt|laut|idx:358|lv, study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `laut|idx:358`
+**Field / path:** `lv, study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Skais","study.translation":"Skais","study.explanation":"[\"Galvenā tama: ˈpašības vārds ar mallet burtu. Apraksta intensitāti — cik skaļa ir skaņa vai runa.\",\"De acordo com galvenokārt nozīmē: skaųa skaņa.\",\"Biezi raksturo: īpašības vārds.\",\"De acordo com galvenokārt nozīmē: sinais skaņas.\",\"Biezi raksturo: Laatvārds (à direita).\",\"De acordo com ar Mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaųa ir skaņa (A música está alta = mūzika ir skaņa).\",\"Der Laut com letra maiúscula e o artigo der é um substantivo: significa som como coisa ou signo (Der Laut ist schön = o som é bonito).\",\"Daudzskaitlī: este Laute.\"]","study.examples":"[{\"de\":\"Die Musik ist laut.\",\"lv\":\"Música é sobre música.\"},{\"de\":\"Die Musik ist laut.\",\"lv\":\"Música é sobre música.\"},{\"de\":\"Sprich nicht so laut!\",\"lv\":\"Nerunā tik skaųi!\"},{\"de\":\"Das ist sehr laut.\",\"lv\":\"Pile ir ųoti skaųi.\"},{\"de\":\"Der Laut ist schön.\",\"lv\":\"O som é magnífico.\"},{\"de\":\"Ich höre einen Laut.\",\"lv\":\"É dzirdu kādu skaņu.\"}]","study.tip":"[\"Pequeno laut = alto (adjetivo: ist laut). der Laut com letra maiúscula = som (substantivo: ein Laut, der Laut).\",\"laut = som\"]","study.important":"[\"laut em letra minúscula e sem artigo — é um adjetivo.\",\"der Laut com letra maiúscula e artigo der é um substantivo.\",\"Plural: die Laute (sons de fala, sinais sonoros).\",\"Incorreto: Der Laut ist sehr. → Correto: Das ist sehr laut.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"laut","lv":"Alto • Barulhento","level":"A1","study":{"id":"a1-laut","layout":"standardStudy","translation":"Alto • Barulhento","explanation":["Ideia principal: laut, com inicial minúscula, é um adjetivo ou advérbio e indica grande volume sonoro.","Não confunda laut com o substantivo der Laut, “som”."],"examples":[{"de":"Die Musik ist laut.","lv":"A música está alta."},{"de":"Die Musik ist laut.","lv":"A música está alta."},{"de":"Sprich nicht so laut!","lv":"Não fale tão alto!"},{"de":"Das ist sehr laut.","lv":"Isso está muito alto."},{"de":"Der Laut ist schön.","lv":"O som é bonito."},{"de":"Ich höre einen Laut.","lv":"Ouço um som."}],"tip":["laut = alto/barulhento; der Laut = som."],"important":["laut é adjetivo ou advérbio; der Laut, com artigo e maiúscula, é substantivo."]}}
+**Note:** Pilna PT kartīte «laut»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "laut",
+  "lv": "Alto • Barulhento",
+  "level": "A1",
+  "study": {
+    "id": "a1-laut",
+    "layout": "standardStudy",
+    "translation": "Alto • Barulhento",
+    "explanation": [
+      "Ideia principal: laut, com inicial minúscula, é um adjetivo ou advérbio e indica grande volume sonoro.",
+      "Não confunda laut com o substantivo der Laut, “som”."
+    ],
+    "examples": [
+      {
+        "de": "Die Musik ist laut.",
+        "lv": "A música está alta."
+      },
+      {
+        "de": "Die Musik ist laut.",
+        "lv": "A música está alta."
+      },
+      {
+        "de": "Sprich nicht so laut!",
+        "lv": "Não fale tão alto!"
+      },
+      {
+        "de": "Das ist sehr laut.",
+        "lv": "Isso está muito alto."
+      },
+      {
+        "de": "Der Laut ist schön.",
+        "lv": "O som é bonito."
+      },
+      {
+        "de": "Ich höre einen Laut.",
+        "lv": "Ouço um som."
+      }
+    ],
+    "tip": [
+      "laut = alto/barulhento; der Laut = som."
+    ],
+    "important": [
+      "laut é adjetivo ou advérbio; der Laut, com artigo e maiúscula, é substantivo."
+    ]
+  },
+  "index": 358
+}
+```
+
+---
+
+## Finding 4
+
+**Audit ID:** `LRB080-0004`
+**Finding Stable ID:** `g2/a1/pt|Laut|idx:359|lv, study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `Laut|idx:359`
+**Field / path:** `lv, study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Skana","study.translation":"Skana","study.explanation":"[\"Galvenā doma: Lietvārds ar artikulu der un lielo burtu. Nozīmē skaņu kā liedu, signālu vai valodas skaņu.\",\"O som galvenokārt nozīmē: skaųa skaņa.\",\"Biezi raksturo: īpašības vārds.\",\"O som galvenokārt nozīmē: sinais skaņas.\",\"Biezi raksturo: Laatvārds (à direita).\",\"De acordo com ar Mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaųa ir skaņa (A música está alta = mūzika ir skaņa).\",\"Der Laut com letra maiúscula e o artigo der é um substantivo: significa som como coisa ou signo (Der Laut ist schön = o som é bonito).\",\"Daudzskaitlī: este Laute.\"]","study.examples":"[{\"de\":\"Der Laut ist schön.\",\"lv\":\"Skaņa vai skaista.\"},{\"de\":\"Die Musik ist laut.\",\"lv\":\"Música é sobre música.\"},{\"de\":\"Sprich nicht so laut!\",\"lv\":\"Nerunā tik skaųi!\"},{\"de\":\"Das ist sehr laut.\",\"lv\":\"Pile ir ųoti skaųi.\"},{\"de\":\"Der Laut ist schön.\",\"lv\":\"O som é magnífico.\"},{\"de\":\"Ich höre einen Laut.\",\"lv\":\"É dzirdu kādu skaņu.\"}]","study.tip":"[\"Pequeno laut = alto (adjetivo: ist laut). der Laut com letra maiúscula = som (substantivo: ein Laut, der Laut).\",\"der Laut = som\"]","study.important":"[\"laut em letra minúscula e sem artigo — é um adjetivo.\",\"der Laut com letra maiúscula e artigo der é um substantivo.\",\"Plural: die Laute (sons de fala, sinais sonoros).\",\"Incorreto: Der Laut ist sehr. → Correto: Das ist sehr laut.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"Laut","lv":"Som","level":"A1","de_article":"der","de_plural":"die Laute","study":{"id":"a1-laut-study","layout":"standardStudy","translation":"Som","explanation":["Ideia principal: der Laut é um substantivo e significa um som, sinal sonoro ou som da fala.","Não confunda der Laut com laut, o adjetivo ou advérbio “alto”."],"examples":[{"de":"Der Laut ist schön.","lv":"O som é bonito."},{"de":"Die Musik ist laut.","lv":"A música está alta."},{"de":"Sprich nicht so laut!","lv":"Não fale tão alto!"},{"de":"Das ist sehr laut.","lv":"Isso está muito alto."},{"de":"Der Laut ist schön.","lv":"O som é bonito."},{"de":"Ich höre einen Laut.","lv":"Ouço um som."}],"tip":["der Laut = som; laut = alto/barulhento."],"important":["O plural de der Laut é die Laute."]}}
+**Note:** Pilna PT kartīte «Laut»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Laut",
+  "de_article": "der",
+  "de_plural": "die Laute",
+  "lv": "Som",
+  "level": "A1",
+  "study": {
+    "id": "a1-laut-study",
+    "layout": "standardStudy",
+    "translation": "Som",
+    "explanation": [
+      "Ideia principal: der Laut é um substantivo e significa um som, sinal sonoro ou som da fala.",
+      "Não confunda der Laut com laut, o adjetivo ou advérbio “alto”."
+    ],
+    "examples": [
+      {
+        "de": "Der Laut ist schön.",
+        "lv": "O som é bonito."
+      },
+      {
+        "de": "Die Musik ist laut.",
+        "lv": "A música está alta."
+      },
+      {
+        "de": "Sprich nicht so laut!",
+        "lv": "Não fale tão alto!"
+      },
+      {
+        "de": "Das ist sehr laut.",
+        "lv": "Isso está muito alto."
+      },
+      {
+        "de": "Der Laut ist schön.",
+        "lv": "O som é bonito."
+      },
+      {
+        "de": "Ich höre einen Laut.",
+        "lv": "Ouço um som."
+      }
+    ],
+    "tip": [
+      "der Laut = som; laut = alto/barulhento."
+    ],
+    "important": [
+      "O plural de der Laut é die Laute."
+    ]
+  },
+  "index": 359
+}
+```
+
+---
+
+## Finding 5
+
+**Audit ID:** `LRB080-0005`
+**Finding Stable ID:** `g2/a1/pt|legen|idx:363|study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `legen|idx:363`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"id":"a1-legen","layout":"standardStudy","translation":"Nolikt","explanation":["Adestramento Galvenā: vide nozīmē nolikt kaut ko guļus vai horizontaltāli.","Lateo vazio, sim, você escreve parvieto lateu a noliec para uz galda, gultas vai quotes virsmas.","Os impostos não mentem, kas nozīmē, kaut kas jau atrodas vai guļ.","A1 līmenī svarīgākā atšˈirība ir: vide = nolikt, mensonge = atrasties guļus."],"examples":[{"de":"Ich lege das Buch auf den Tisch.","lv":"É nolieku gramatu uz galda."},{"de":"Leg den Schlüssel hierhin.","lv":"Coloque a chave aqui."},{"de":"Sie legt das Kind ins Bett.","lv":"Viņa noliek bērnu gultā."},{"de":"Das Buch liegt auf dem Tisch.","lv":"Gramata atrodas uz galda."}],"comparison":[{"word":"legen","meaning":"Nolikt","example":"Coloco o livro na mesa."},{"word":"liegen","meaning":"Atrazia/gargalo","example":"O livro está na mesa."},{"word":"stellen","meaning":"Nolikt Stavus","example":"Coloco a garrafa na mesa."},{"word":"setzen","meaning":"Nosēdināt / apsēsties","example":"Eu me sento."}],"tip":{"text":"Atceries: tu noliec → legen; lieta jau atrodas → liegen."},"important":["legen e liegen não são a mesma coisa.","Ich lege das Buch = eu coloco o livro. Das Buch liegt = o livro está."],"sectionAccents":{"explanation":{"blue":["Galvenā","Galvenā"],"purple":["nolikt","atrodas","guļ"],"yellow":["Galvenā","galda","gultas","virsmas"]},"examples":[{"de":{"blue":["lege"],"yellow":["Buch","Tisch"]},"lv":{"purple":["nolieku"],"yellow":["grāmatu","galda"]}},{"de":{"blue":["Leg"],"yellow":["Schlüssel"]},"lv":{"purple":["Coloque"],"yellow":["Coloque"]}},{"de":{"blue":["legt"],"green":["Kind"],"yellow":["Bett"]},"lv":{"purple":["noliek"],"green":["bērnu"],"yellow":["gultā"]}},{"de":{"red":["liegt"],"yellow":["Buch","Tisch"]},"lv":{"red":["atrodas"],"yellow":["Grāmata","galda"]}}],"comparison":[{"word":{"green":["legen"]},"meaning":{"purple":["nolikt"]},"example":{"blue":["lege"]}},{"word":{"green":["liegen"]},"meaning":{"purple":["Atrazia","Atrazia"]},"example":{"red":["liegt"]}},{"word":{"green":["stellen"]},"meaning":{"purple":["stāvus"]},"example":{"yellow":["stelle"]}},{"word":{"green":["setzen"]},"meaning":{"purple":["apsēsties"]},"example":{"green":["setze"]}}],"tip":{"left":{"blue":["legen"],"purple":["noliec"],"red":["liegen","atrodas"]}},"important":[{"blue":["legen"],"red":["liegen"]},{"blue":["lege"],"purple":["nolieku"],"red":["liegt","atrodas"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"legen","lv":"Colocar • Deitar","level":"A1","study":{"id":"a1-legen","layout":"standardStudy","translation":"Colocar • Deitar","explanation":["Ideia principal: legen significa colocar algo em posição horizontal.","legen descreve a ação de colocar; liegen descreve o estado de algo que está deitado ou situado."],"examples":[{"de":"Ich lege das Buch auf den Tisch.","lv":"Coloco o livro sobre a mesa."},{"de":"Leg den Schlüssel hierhin.","lv":"Coloque a chave aqui."},{"de":"Sie legt das Kind ins Bett.","lv":"Ela põe a criança na cama."},{"de":"Das Buch liegt auf dem Tisch.","lv":"O livro está sobre a mesa."}],"comparison":[{"word":"legen","meaning":"colocar • deitar","example":"Ich lege das Buch auf den Tisch. – Coloco o livro sobre a mesa."},{"word":"liegen","meaning":"estar deitado • encontrar-se","example":"Das Buch liegt auf dem Tisch. – O livro está sobre a mesa."},{"word":"stellen","meaning":"colocar em pé","example":"Ich stelle die Flasche auf den Tisch. – Coloco a garrafa sobre a mesa."},{"word":"setzen","meaning":"sentar alguém • sentar-se","example":"Ich setze mich. – Eu me sento."}],"tip":["Você coloca algo → legen; o objeto já está lá → liegen."],"important":["legen indica uma ação; liegen indica uma posição ou localização."]}}
+**Note:** Pilna PT kartīte «legen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "legen",
+  "lv": "Colocar • Deitar",
+  "level": "A1",
+  "study": {
+    "id": "a1-legen",
+    "layout": "standardStudy",
+    "translation": "Colocar • Deitar",
+    "explanation": [
+      "Ideia principal: legen significa colocar algo em posição horizontal.",
+      "legen descreve a ação de colocar; liegen descreve o estado de algo que está deitado ou situado."
+    ],
+    "examples": [
+      {
+        "de": "Ich lege das Buch auf den Tisch.",
+        "lv": "Coloco o livro sobre a mesa."
+      },
+      {
+        "de": "Leg den Schlüssel hierhin.",
+        "lv": "Coloque a chave aqui."
+      },
+      {
+        "de": "Sie legt das Kind ins Bett.",
+        "lv": "Ela põe a criança na cama."
+      },
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "lv": "O livro está sobre a mesa."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "legen",
+        "meaning": "colocar • deitar",
+        "example": "Ich lege das Buch auf den Tisch. – Coloco o livro sobre a mesa."
+      },
+      {
+        "word": "liegen",
+        "meaning": "estar deitado • encontrar-se",
+        "example": "Das Buch liegt auf dem Tisch. – O livro está sobre a mesa."
+      },
+      {
+        "word": "stellen",
+        "meaning": "colocar em pé",
+        "example": "Ich stelle die Flasche auf den Tisch. – Coloco a garrafa sobre a mesa."
+      },
+      {
+        "word": "setzen",
+        "meaning": "sentar alguém • sentar-se",
+        "example": "Ich setze mich. – Eu me sento."
+      }
+    ],
+    "tip": [
+      "Você coloca algo → legen; o objeto já está lá → liegen."
+    ],
+    "important": [
+      "legen indica uma ação; liegen indica uma posição ou localização."
+    ]
+  },
+  "index": 363
+}
+```
+
+---
+
+## Finding 6
+
+**Audit ID:** `LRB080-0006`
+**Finding Stable ID:** `g2/a1/pt|leise|idx:368|study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `leise|idx:368`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"id":"a1-leise-study","layout":"standardStudy","translation":"Kluss","explanation":["Ideia principal: Silencioso ou com baixo volume.","Galvenokārt nozīmē silencioso: mazs skaųums.","Frequentemente descreve: som/voz/música.","Lease raksturo mazu skaļumu vai werku balsi/skaņu."],"examples":[{"de":"Bitte sei leise.","lv":"Lūdzu, são empregos."},{"de":"Bitte sei leise.","lv":"Lūdzu, são empregos."},{"de":"Die Musik ist leise.","lv":"Música é meu trabalho."},{"de":"Sprich bitte leise.","lv":"Lūdzu, runā duiki."}],"tip":["leise = silencioso","Use leise quando o contexto corresponder a este significado."],"important":["leise = silencioso em termos de som.","leise = volume.","Silencioso ou com baixo volume."],"sectionAccents":{"explanation":{"green":["Lease"],"purple":["kluss"],"orange":["kluss"]},"examples":[{"de":{"green":["leise","leise"]},"lv":{"purple":["Lūdzu"]}},{"de":{"green":["leise","leise"]},"lv":{"purple":["Lūdzu"]}},{"de":{"green":["leise","leise"]},"lv":{"purple":["musica"]}},{"de":{"green":["leise","leise"]},"lv":{"purple":["Lūdzu"]}}],"tip":[{"purple":["kluss"]}],"important":[{"green":["leise"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"leise","lv":"Baixo • Silencioso","level":"A1","study":{"id":"a1-leise-study","layout":"standardStudy","translation":"Baixo • Silencioso","explanation":["Ideia principal: leise indica pouco volume ou ausência de barulho.","Pode descrever uma voz, um som ou uma música."],"examples":[{"de":"Bitte sei leise.","lv":"Por favor, fique em silêncio."},{"de":"Bitte sei leise.","lv":"Por favor, fique em silêncio."},{"de":"Die Musik ist leise.","lv":"A música está baixa."},{"de":"Sprich bitte leise.","lv":"Fale baixo, por favor."}],"tip":["leise = baixo ou silencioso, em relação ao som."],"important":["Use leise para pouco volume; o oposto é laut."]}}
+**Note:** Pilna PT kartīte «leise»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "leise",
+  "lv": "Baixo • Silencioso",
+  "level": "A1",
+  "study": {
+    "id": "a1-leise-study",
+    "layout": "standardStudy",
+    "translation": "Baixo • Silencioso",
+    "explanation": [
+      "Ideia principal: leise indica pouco volume ou ausência de barulho.",
+      "Pode descrever uma voz, um som ou uma música."
+    ],
+    "examples": [
+      {
+        "de": "Bitte sei leise.",
+        "lv": "Por favor, fique em silêncio."
+      },
+      {
+        "de": "Bitte sei leise.",
+        "lv": "Por favor, fique em silêncio."
+      },
+      {
+        "de": "Die Musik ist leise.",
+        "lv": "A música está baixa."
+      },
+      {
+        "de": "Sprich bitte leise.",
+        "lv": "Fale baixo, por favor."
+      }
+    ],
+    "tip": [
+      "leise = baixo ou silencioso, em relação ao som."
+    ],
+    "important": [
+      "Use leise para pouco volume; o oposto é laut."
+    ]
+  },
+  "index": 368
+}
+```
+
+---
+
+## Finding 7
+
+**Audit ID:** `LRB080-0007`
+**Finding Stable ID:** `g2/a1/pt|liegen|idx:377|lv,study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `liegen|idx:377`
+**Field / path:** `lv,study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Atrasties • Escuna","study.translation":"Atrasties • Escuna","study.explanation":"[\"Adestramento Galvenā: lie nozīmē atrasties vai gulēt horizontaltāli.\",\"Por cilvēku lie bieži nozīmē gulēt.\",\"Per letu lie nozīmē, ka tā atrodas kaut kur.\",\"Essas atšⅡiras não esvaziam, kas nozīmē nolikt kaut ko.\"]","study.examples":"[{\"de\":\"Das Buch liegt auf dem Tisch.\",\"lv\":\"Gramata atrodas uz galda.\"},{\"de\":\"Mein Handy liegt im Auto.\",\"lv\":\"O telefone do homem atrodas automašīnā.\"},{\"de\":\"Er liegt im Bett.\",\"lv\":\"Viņš guų gultā.\"},{\"de\":\"Ich lege das Buch auf den Tisch.\",\"lv\":\"É nolieku gramatu uz galda.\"}]","study.comparison":"[{\"word\":\"liegen\",\"meaning\":\"Atrazia/gargalo\",\"example\":\"O livro está aqui.\"},{\"word\":\"legen\",\"meaning\":\"Nolikt\",\"example\":\"Coloco o livro aqui.\"},{\"word\":\"stehen\",\"meaning\":\"Stāvēt / atrasties stāvus\",\"example\":\"A garrafa está na mesa.\"},{\"word\":\"sein\",\"meaning\":\"Nós dois estamos arruinados por causa de nossas famílias.\",\"example\":\"Estou aqui.\"}]","study.tip":"{\"text\":\"Atceries: lieta jau ir vietā → liegen; tu to noliec → legen.\"}","study.important":"[\"liegen indica posição ou localização.\",\"legen indica ação: alguém coloca algo.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"liegen","lv":"Estar • Estar deitado","level":"A1","study":{"id":"a1-liegen","layout":"standardStudy","translation":"Estar • Estar deitado","explanation":["Ideia principal: liegen significa estar situado ou estar deitado em posição horizontal.","Com pessoas costuma significar estar deitado; com objetos, estar ou encontrar-se em determinado lugar."],"examples":[{"de":"Das Buch liegt auf dem Tisch.","lv":"O livro está sobre a mesa."},{"de":"Mein Handy liegt im Auto.","lv":"Meu celular está no carro."},{"de":"Er liegt im Bett.","lv":"Ele está deitado na cama."},{"de":"Ich lege das Buch auf den Tisch.","lv":"Coloco o livro sobre a mesa."}],"comparison":[{"word":"liegen","meaning":"estar • estar deitado","example":"Das Buch liegt hier. – O livro está aqui."},{"word":"legen","meaning":"colocar • deitar","example":"Ich lege das Buch hierhin. – Coloco o livro aqui."},{"word":"stehen","meaning":"estar em pé","example":"Die Flasche steht auf dem Tisch. – A garrafa está sobre a mesa."},{"word":"sein","meaning":"ser • estar","example":"Ich bin hier. – Estou aqui."}],"tip":["Algo já está numa posição → liegen; alguém o coloca → legen."],"important":["liegen indica estado ou localização; legen indica a ação de colocar."]}}
+**Note:** Pilna PT kartīte «liegen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "liegen",
+  "lv": "Estar • Estar deitado",
+  "level": "A1",
+  "study": {
+    "id": "a1-liegen",
+    "layout": "standardStudy",
+    "translation": "Estar • Estar deitado",
+    "explanation": [
+      "Ideia principal: liegen significa estar situado ou estar deitado em posição horizontal.",
+      "Com pessoas costuma significar estar deitado; com objetos, estar ou encontrar-se em determinado lugar."
+    ],
+    "examples": [
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "lv": "O livro está sobre a mesa."
+      },
+      {
+        "de": "Mein Handy liegt im Auto.",
+        "lv": "Meu celular está no carro."
+      },
+      {
+        "de": "Er liegt im Bett.",
+        "lv": "Ele está deitado na cama."
+      },
+      {
+        "de": "Ich lege das Buch auf den Tisch.",
+        "lv": "Coloco o livro sobre a mesa."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "liegen",
+        "meaning": "estar • estar deitado",
+        "example": "Das Buch liegt hier. – O livro está aqui."
+      },
+      {
+        "word": "legen",
+        "meaning": "colocar • deitar",
+        "example": "Ich lege das Buch hierhin. – Coloco o livro aqui."
+      },
+      {
+        "word": "stehen",
+        "meaning": "estar em pé",
+        "example": "Die Flasche steht auf dem Tisch. – A garrafa está sobre a mesa."
+      },
+      {
+        "word": "sein",
+        "meaning": "ser • estar",
+        "example": "Ich bin hier. – Estou aqui."
+      }
+    ],
+    "tip": [
+      "Algo já está numa posição → liegen; alguém o coloca → legen."
+    ],
+    "important": [
+      "liegen indica estado ou localização; legen indica a ação de colocar."
+    ]
+  },
+  "index": 377
+}
+```
+
+---
+
+## Finding 8
+
+**Audit ID:** `LRB080-0008`
+**Finding Stable ID:** `g2/a1/pt|machen|idx:386|lv,study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `machen|idx:386`
+**Field / path:** `lv,study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Darit • Taisit","study.translation":"Darit • Taisit","study.explanation":"[\"Galvenā doma: fare ir ųoti biežs vārds nozīmē darīt vai taisīt.\",\"Se isso acontecer de darbību vispār, tulko kā darīt.\",\"Se kaut ko veido vai gatavo, tulko kā taisīt vai paganavot.\",\"Daudzās frāzēs machen tulko dabiski pēc latviešu valodas, Nevis burtiski.\"]","study.examples":"[{\"de\":\"Was machst du?\",\"lv\":\"Como você dá?\"},{\"de\":\"Ich mache Hausaufgaben.\",\"lv\":\"É um pildu majasdarbus.\"},{\"de\":\"Wir machen Pizza.\",\"lv\":\"Mais como este.\"},{\"de\":\"Das macht Spaß.\",\"lv\":\"Pilha vai jautri.\"}]","study.tip":"{\"text\":\"Atceries: Was machst du? = Ko tu dari?\"}","study.important":"[\"machen é uma palavra muito ampla, mas em latviano, frequentemente deve ser traduzida naturalmente dependendo da situação.\",\"Das macht Spaß significa \\\"é divertido\\\", não literalmente \\\"faz diversão\\\".\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"machen","lv":"Fazer","level":"A1","study":{"id":"a1-machen","layout":"standardStudy","translation":"Fazer","explanation":["Ideia principal: machen é um verbo muito frequente que significa fazer, criar ou preparar.","Em expressões fixas, deve ser traduzido naturalmente: Das macht Spaß significa “Isso é divertido”."],"examples":[{"de":"Was machst du?","lv":"O que você está fazendo?"},{"de":"Ich mache Hausaufgaben.","lv":"Estou fazendo a lição de casa."},{"de":"Wir machen Pizza.","lv":"Nós fazemos pizza."},{"de":"Das macht Spaß.","lv":"Isso é divertido."}],"tip":["Was machst du? = O que você está fazendo?"],"important":["O sentido exato de machen depende da situação; evite traduções literais de expressões fixas."]}}
+**Note:** Pilna PT kartīte «machen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "machen",
+  "lv": "Fazer",
+  "level": "A1",
+  "study": {
+    "id": "a1-machen",
+    "layout": "standardStudy",
+    "translation": "Fazer",
+    "explanation": [
+      "Ideia principal: machen é um verbo muito frequente que significa fazer, criar ou preparar.",
+      "Em expressões fixas, deve ser traduzido naturalmente: Das macht Spaß significa “Isso é divertido”."
+    ],
+    "examples": [
+      {
+        "de": "Was machst du?",
+        "lv": "O que você está fazendo?"
+      },
+      {
+        "de": "Ich mache Hausaufgaben.",
+        "lv": "Estou fazendo a lição de casa."
+      },
+      {
+        "de": "Wir machen Pizza.",
+        "lv": "Nós fazemos pizza."
+      },
+      {
+        "de": "Das macht Spaß.",
+        "lv": "Isso é divertido."
+      }
+    ],
+    "tip": [
+      "Was machst du? = O que você está fazendo?"
+    ],
+    "important": [
+      "O sentido exato de machen depende da situação; evite traduções literais de expressões fixas."
+    ]
+  },
+  "index": 386
+}
+```
+
+---
+
+## Finding 9
+
+**Audit ID:** `LRB080-0009`
+**Finding Stable ID:** `g2/a1/pt|Mal|idx:390|lv,study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `Mal|idx:390`
+**Field / path:** `lv,study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Jornada","study.translation":"Jornada","study.explanation":"[\"Adestramento Galvenā: a marca nozīmē reizi kā notokumu vai gadījumu.\",\"Bieži leto ar skaitļiem: um mal, dois males, três males.\",\"Ar kartas skaitli: das erste Mal, das 2weite Mal.\",\"Não confunda com a partícula de linguagem informal mal (Komm mal her!) — esse é um significado diferente.\"]","study.examples":"[{\"de\":\"Das erste Mal war schwer.\",\"lv\":\"Pirmo reisi bija grūti.\"},{\"de\":\"Ich war schon zwei Mal in Berlin.\",\"lv\":\"Isso já foi feito em Berlim.\"},{\"de\":\"Ein Mal reicht.\",\"lv\":\"Pietiek retorna.\"},{\"de\":\"Noch ein Mal, bitte!\",\"lv\":\"Vēl comenu reisi, lūdzu!\"}]","study.tip":"{\"text\":\"Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa.\"}","study.important":"[\"das Mal / die Male — substantivo com artigo.\",\"ein Mal, zwei Mal — vezes de contagem.\",\"mal sem artigo (Komm mal her!) não é o mesmo que das Mal.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"Mal","lv":"Vez","level":"A1","de_article":"das","de_plural":"die Male","study":{"id":"a1-mal","layout":"standardStudy","translation":"Vez","explanation":["Ideia principal: das Mal significa uma ocorrência ou uma vez.","É usado com números e ordinais: ein Mal, zwei Mal, das erste Mal; não é a partícula coloquial mal."],"examples":[{"de":"Das erste Mal war schwer.","lv":"A primeira vez foi difícil."},{"de":"Ich war schon zwei Mal in Berlin.","lv":"Eu já estive duas vezes em Berlim."},{"de":"Ein Mal reicht.","lv":"Uma vez basta."},{"de":"Noch ein Mal, bitte!","lv":"Mais uma vez, por favor!"}],"tip":["das Mal = vez; mal sem artigo pode ser uma partícula coloquial."],"important":["O substantivo é das Mal, plural die Male."]}}
+**Note:** Pilna PT kartīte «Mal»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Mal",
+  "de_article": "das",
+  "de_plural": "die Male",
+  "lv": "Vez",
+  "level": "A1",
+  "study": {
+    "id": "a1-mal",
+    "layout": "standardStudy",
+    "translation": "Vez",
+    "explanation": [
+      "Ideia principal: das Mal significa uma ocorrência ou uma vez.",
+      "É usado com números e ordinais: ein Mal, zwei Mal, das erste Mal; não é a partícula coloquial mal."
+    ],
+    "examples": [
+      {
+        "de": "Das erste Mal war schwer.",
+        "lv": "A primeira vez foi difícil."
+      },
+      {
+        "de": "Ich war schon zwei Mal in Berlin.",
+        "lv": "Eu já estive duas vezes em Berlim."
+      },
+      {
+        "de": "Ein Mal reicht.",
+        "lv": "Uma vez basta."
+      },
+      {
+        "de": "Noch ein Mal, bitte!",
+        "lv": "Mais uma vez, por favor!"
+      }
+    ],
+    "tip": [
+      "das Mal = vez; mal sem artigo pode ser uma partícula coloquial."
+    ],
+    "important": [
+      "O substantivo é das Mal, plural die Male."
+    ]
+  },
+  "index": 390
+}
+```
+
+---
+
+## Finding 10
+
+**Audit ID:** `LRB080-0010`
+**Finding Stable ID:** `g2/a1/pt|Mann|idx:394|study|TARGET_TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `Mann|idx:394`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"id":"a1-mann","layout":"standardStudy","translation":"Virietis • Virs","explanation":["Ideia principal: der Mann pode significar homem (sexo) ou marido (casado).","Sim runa ir vienkārši par dzimumu vai personu, o homem = vīrietis.","Ja runa ir par laulāto Partneri, der Mann = vīrs (mein Mann = mans vīrs).","Piederības vietniekvārds (meu/seu marido) gandriz vienmēr nozīmē vīru — laulāto.","Daudzskaitlī: este Männer.","Sieviešu formai die Frau ir tāda pati divkārtēja nozīme: sieviete servidora da ONU."],"examples":[{"de":"Er ist ein netter Mann.","lv":"Vis ir jauks vīrietis."},{"de":"Das ist mein Mann.","lv":"Tas ir mans virs."},{"de":"Wie viele Männer sind hier?","lv":"O que você quer dizer?"},{"de":"Mein Mann arbeitet in Berlin.","lv":"Mano virs strādā Sedan."},{"de":"Der Mann trägt einen Anzug.","lv":"Vīrietis valkā uzvalku."},{"de":"Ihr Mann ist Arzt.","lv":"Viņas vīrs ir ārsts."}],"tip":["Com possuidor (mein/dein/ihr Mann) quase sempre significa marido (casado).","Sem possuidor (der Mann, ein Mann) geralmente significa homem."],"important":["der Mann = homem OU marido — dependendo do contexto.","mein Mann = meu marido (não 'meu homem').","Daudzskaitlī: este Männer."],"sectionAccents":{"explanation":{"blue":["der Mann","Mann"],"purple":["vīrietis","vīrs"]},"examples":[{"de":{"blue":["Mann"]},"lv":{"purple":["vīrietis"]}},{"de":{"green":["mein Mann"]},"lv":{"purple":["vīrs"]}},{"de":{"blue":["Männer"]},"lv":{"purple":["que"]}},{"de":{"green":["Mein Mann"]},"lv":{"purple":["vīrs"]}},{"de":{"blue":["Mann"]},"lv":{"purple":["vīrietis"]}},{"de":{"green":["Ihr Mann"]},"lv":{"purple":["vīrs"]}}],"tip":[{"green":["mein","dein","ihr Mann"],"purple":["vīrs"]},{"blue":["der Mann","ein Mann"],"purple":["vīrietis"]}],"important":[{"purple":["vīrietis","vīrs"]},{"green":["mein Mann"]},{"blue":["die Männer"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"Mann","lv":"Homem • Marido","level":"A1","de_article":"der","de_plural":"die Männer","study":{"id":"a1-mann","layout":"standardStudy","translation":"Homem • Marido","explanation":["Ideia principal: der Mann pode significar um homem ou um marido, conforme o contexto.","Com possessivo, como mein Mann, quase sempre significa marido."],"examples":[{"de":"Er ist ein netter Mann.","lv":"Ele é um homem simpático."},{"de":"Das ist mein Mann.","lv":"Este é meu marido."},{"de":"Wie viele Männer sind hier?","lv":"Quantos homens estão aqui?"},{"de":"Mein Mann arbeitet in Berlin.","lv":"Meu marido trabalha em Berlim."},{"de":"Der Mann trägt einen Anzug.","lv":"O homem veste um terno."},{"de":"Ihr Mann ist Arzt.","lv":"O marido dela é médico."}],"tip":["der/ein Mann geralmente = homem; mein/dein/ihr Mann geralmente = marido."],"important":["O plural de der Mann é die Männer."]}}
+**Note:** Pilna PT kartīte «Mann»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Mann",
+  "de_article": "der",
+  "de_plural": "die Männer",
+  "lv": "Homem • Marido",
+  "level": "A1",
+  "study": {
+    "id": "a1-mann",
+    "layout": "standardStudy",
+    "translation": "Homem • Marido",
+    "explanation": [
+      "Ideia principal: der Mann pode significar um homem ou um marido, conforme o contexto.",
+      "Com possessivo, como mein Mann, quase sempre significa marido."
+    ],
+    "examples": [
+      {
+        "de": "Er ist ein netter Mann.",
+        "lv": "Ele é um homem simpático."
+      },
+      {
+        "de": "Das ist mein Mann.",
+        "lv": "Este é meu marido."
+      },
+      {
+        "de": "Wie viele Männer sind hier?",
+        "lv": "Quantos homens estão aqui?"
+      },
+      {
+        "de": "Mein Mann arbeitet in Berlin.",
+        "lv": "Meu marido trabalha em Berlim."
+      },
+      {
+        "de": "Der Mann trägt einen Anzug.",
+        "lv": "O homem veste um terno."
+      },
+      {
+        "de": "Ihr Mann ist Arzt.",
+        "lv": "O marido dela é médico."
+      }
+    ],
+    "tip": [
+      "der/ein Mann geralmente = homem; mein/dein/ihr Mann geralmente = marido."
+    ],
+    "important": [
+      "O plural de der Mann é die Männer."
+    ]
+  },
+  "index": 394
+}
+```
+
+---
+
+## Finding 11
+
+**Audit ID:** `LRB080-0011`
+**Finding Stable ID:** `g2/a1/pt|mit|idx:408|study|TARGET_TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `mit|idx:408`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"id":"a1-mit","layout":"standardStudy","translation":"Arcansas","explanation":["Adestramento Galvenā: com visbiežāk nozīmē ar.","Se você me avisar, eu nunca vou te contar.","Para um transporte sem preocupações, você pode viajar de carro.","Você é sempre bem-vindo com seu ônibus, com seu carro e com seu carro."],"examples":[{"de":"Ich komme mit dir.","lv":"É nāku ar tevi."},{"de":"Ich fahre mit dem Bus.","lv":"Você tem que pegar o ônibus."},{"de":"Sie schreibt mit dem Stift.","lv":"Você está pronto para usar o pildspalvu."},{"de":"Kommst du mit?","lv":"Você está indo para nāksi lidzi?"}],"comparison":[{"word":"mit","meaning":"Com/com","example":"Vou com você."},{"word":"ohne","meaning":"Disco.","example":"Vou sem você."},{"word":"bei","meaning":"Bolo/torta Kāda","example":"Estou com Anna."},{"word":"zu","meaning":"Uz/torta","example":"Vou ao médico."}],"tip":{"text":"Atceries: kopā ar kādu vai ar transportu → mit."},"important":["mit requer dativo: mit dem Bus, mit der Mutter, mit dir.","Kommst du mit? significa \"Você vem comigo?\""],"sectionAccents":{"explanation":{"blue":["Galvenā","Galvenā","Galvenā","Galvenā"],"purple":["ar","Galvenā"],"green":["transporte","Galvenā","Galvenā","Galvenā"]},"examples":[{"de":{"blue":["mit dir"]},"lv":{"purple":["ar tevi"]}},{"de":{"blue":["mit dem Bus"]},"lv":{"purple":["Você"]}},{"de":{"blue":["mit dem Stift"]},"lv":{"purple":["está"]}},{"de":{"blue":["mit"]},"lv":{"purple":["līdzi"]}}],"comparison":[{"word":{"green":["mit"]},"meaning":{"purple":["Com/com","Com/com"]},"example":{"blue":["mit dir"]}},{"word":{"green":["ohne"]},"meaning":{"purple":["Disco"]},"example":{"red":["ohne dich"]}},{"word":{"green":["bei"]},"meaning":{"purple":["Bolo/torta"]},"example":{"green":["bei Anna"]}},{"word":{"green":["zu"]},"meaning":{"purple":["uz","Uz/torta"]},"example":{"yellow":["zum Arzt"]}}],"tip":{"left":{"blue":["mit"],"purple":["kopā ar","ar transportu"]}},"important":[{"blue":["mit"],"purple":["datīvu"],"yellow":["dem Bus","der Mutter","dir"]},{"blue":["Kommst du mit"],"purple":["nāksi līdzi"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"mit","lv":"Com","level":"A1","study":{"id":"a1-mit","layout":"standardStudy","translation":"Com","explanation":["Ideia principal: mit indica companhia ou meio e rege sempre o dativo.","Também aparece sozinho em mitkommen: Kommst du mit? significa “Você vem junto?”."],"examples":[{"de":"Ich komme mit dir.","lv":"Eu venho com você."},{"de":"Ich fahre mit dem Bus.","lv":"Eu vou de ônibus."},{"de":"Sie schreibt mit dem Stift.","lv":"Ela escreve com a caneta."},{"de":"Kommst du mit?","lv":"Você vem junto?"}],"comparison":[{"word":"mit","meaning":"com • junto com","example":"Ich komme mit dir. – Eu venho com você."},{"word":"ohne","meaning":"sem","example":"Ich komme ohne dich. – Eu venho sem você."},{"word":"bei","meaning":"na casa de • junto de","example":"Ich bin bei Anna. – Estou na casa da Anna."},{"word":"zu","meaning":"para • até","example":"Ich gehe zum Arzt. – Vou ao médico."}],"tip":["Companhia ou meio de transporte → mit."],"important":["mit rege o dativo: mit dem Bus, mit der Mutter, mit dir."]}}
+**Note:** Pilna PT kartīte «mit»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "mit",
+  "lv": "Com",
+  "level": "A1",
+  "study": {
+    "id": "a1-mit",
+    "layout": "standardStudy",
+    "translation": "Com",
+    "explanation": [
+      "Ideia principal: mit indica companhia ou meio e rege sempre o dativo.",
+      "Também aparece sozinho em mitkommen: Kommst du mit? significa “Você vem junto?”."
+    ],
+    "examples": [
+      {
+        "de": "Ich komme mit dir.",
+        "lv": "Eu venho com você."
+      },
+      {
+        "de": "Ich fahre mit dem Bus.",
+        "lv": "Eu vou de ônibus."
+      },
+      {
+        "de": "Sie schreibt mit dem Stift.",
+        "lv": "Ela escreve com a caneta."
+      },
+      {
+        "de": "Kommst du mit?",
+        "lv": "Você vem junto?"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "mit",
+        "meaning": "com • junto com",
+        "example": "Ich komme mit dir. – Eu venho com você."
+      },
+      {
+        "word": "ohne",
+        "meaning": "sem",
+        "example": "Ich komme ohne dich. – Eu venho sem você."
+      },
+      {
+        "word": "bei",
+        "meaning": "na casa de • junto de",
+        "example": "Ich bin bei Anna. – Estou na casa da Anna."
+      },
+      {
+        "word": "zu",
+        "meaning": "para • até",
+        "example": "Ich gehe zum Arzt. – Vou ao médico."
+      }
+    ],
+    "tip": [
+      "Companhia ou meio de transporte → mit."
+    ],
+    "important": [
+      "mit rege o dativo: mit dem Bus, mit der Mutter, mit dir."
+    ]
+  },
+  "index": 408
+}
+```
+
+---
+
+## Finding 12
+
+**Audit ID:** `LRB080-0012`
+**Finding Stable ID:** `g2/a1/pt|mögen|idx:413|study|CONTENT_MISMATCH|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `mögen|idx:413`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"id":"a1-mögen","layout":"standardStudy","translation":"Patikt","explanation":["Galvenā doma: come visbiežāk nozīmē, ka kaut kas patīk.","Eu posso... latviski parasti ir \"man patīk...\".","Na maioria das vezes é uma coisa boa.","A1 līmenī svarīgākā frāze ir eu gosto."],"examples":[{"de":"Ich mag Musik.","lv":"Eu também amo muito música."},{"de":"Magst du Kaffee?","lv":"Vai tev garšo kafija?"},{"de":"Sie mag Kinder.","lv":"Viņai patīk berni."},{"de":"Ich möchte einen Kaffee.","lv":"É gribetu kafiju."}],"comparison":[{"word":"mögen","meaning":"Patikt","example":"Eu gosto de música."},{"word":"möchte","meaning":"Gribetu","example":"Quero café."},{"word":"wollen","meaning":"Gribet","example":"Vou para casa."},{"word":"lieben","meaning":"Mileto","example":"Eu te amo."}],"tip":{"text":"Atceries: Ich mag... = man patīk..."},"important":["mögen não é a palavra principal para o educado \"eu gostaria\". Para isso, geralmente se usa möchte.","Ich mag Kaffee significa \"eu gosto/gosto de café\"."],"sectionAccents":{"explanation":{"blue":["Galvenā","Galvenā","Galvenā"],"purple":["patīk","man patīk","Galvenā"]},"examples":[{"de":{"blue":["mag"]},"lv":{"purple":["também"],"yellow":["também"]}},{"de":{"blue":["Magst"]},"lv":{"purple":["garšo"],"yellow":["kafija"]}},{"de":{"blue":["mag"]},"lv":{"purple":["patīk"],"green":["bērni"]}},{"de":{"red":["möchte"]},"lv":{"red":["gribētu"],"yellow":["kafiju"]}}],"comparison":[{"word":{"green":["mögen"]},"meaning":{"purple":["patikt"]},"example":{"blue":["mag"]}},{"word":{"green":["möchte"]},"meaning":{"purple":["gribētu"]},"example":{"red":["möchte"]}},{"word":{"green":["wollen"]},"meaning":{"purple":["gribēt"]},"example":{"yellow":["will"]}},{"word":{"green":["lieben"]},"meaning":{"purple":["mīlēt"]},"example":{"green":["liebe"]}}],"tip":{"left":{"blue":["Ich mag"],"purple":["man patīk"]}},"important":[{"blue":["mögen"],"red":["möchte"],"purple":["gribētu"]},{"blue":["mag"],"purple":["garšo","patīk"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"mögen","lv":"Gostar de","level":"A1","study":{"id":"a1-mögen","layout":"standardStudy","translation":"Gostar de","explanation":["Ideia principal: mögen exprime gosto ou preferência.","Não confunda mögen com möchte, usado normalmente para um pedido cortês: “gostaria”."],"examples":[{"de":"Ich mag Musik.","lv":"Eu gosto de música."},{"de":"Magst du Kaffee?","lv":"Você gosta de café?"},{"de":"Sie mag Kinder.","lv":"Ela gosta de crianças."},{"de":"Ich möchte einen Kaffee.","lv":"Eu gostaria de um café."}],"comparison":[{"word":"mögen","meaning":"gostar de","example":"Ich mag Musik. – Eu gosto de música."},{"word":"möchte","meaning":"gostaria","example":"Ich möchte Kaffee. – Eu gostaria de café."},{"word":"wollen","meaning":"querer","example":"Ich will nach Hause. – Quero ir para casa."},{"word":"lieben","meaning":"amar","example":"Ich liebe dich. – Eu amo você."}],"tip":["Ich mag... = Eu gosto de..."],"important":["Ich mag Kaffee significa “Eu gosto de café”; Ich möchte Kaffee significa “Eu gostaria de café”."]}}
+**Note:** Pilna PT kartīte «mögen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "mögen",
+  "lv": "Gostar de",
+  "level": "A1",
+  "study": {
+    "id": "a1-mögen",
+    "layout": "standardStudy",
+    "translation": "Gostar de",
+    "explanation": [
+      "Ideia principal: mögen exprime gosto ou preferência.",
+      "Não confunda mögen com möchte, usado normalmente para um pedido cortês: “gostaria”."
+    ],
+    "examples": [
+      {
+        "de": "Ich mag Musik.",
+        "lv": "Eu gosto de música."
+      },
+      {
+        "de": "Magst du Kaffee?",
+        "lv": "Você gosta de café?"
+      },
+      {
+        "de": "Sie mag Kinder.",
+        "lv": "Ela gosta de crianças."
+      },
+      {
+        "de": "Ich möchte einen Kaffee.",
+        "lv": "Eu gostaria de um café."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "mögen",
+        "meaning": "gostar de",
+        "example": "Ich mag Musik. – Eu gosto de música."
+      },
+      {
+        "word": "möchte",
+        "meaning": "gostaria",
+        "example": "Ich möchte Kaffee. – Eu gostaria de café."
+      },
+      {
+        "word": "wollen",
+        "meaning": "querer",
+        "example": "Ich will nach Hause. – Quero ir para casa."
+      },
+      {
+        "word": "lieben",
+        "meaning": "amar",
+        "example": "Ich liebe dich. – Eu amo você."
+      }
+    ],
+    "tip": [
+      "Ich mag... = Eu gosto de..."
+    ],
+    "important": [
+      "Ich mag Kaffee significa “Eu gosto de café”; Ich möchte Kaffee significa “Eu gostaria de café”."
+    ]
+  },
+  "index": 413
+}
+```
+
+---
+
+## Finding 13
+
+**Audit ID:** `LRB080-0013`
+**Finding Stable ID:** `g2/a1/pt|morgen|idx:417|study|TARGET_TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `morgen|idx:417`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"id":"a1-morgen","layout":"standardStudy","translation":"RIT","explanation":["Galvenā tama: Laika apstāklis ​​​​​​​​​​​​​ar mallet burtu. Nozīmē nākamo dienu—riso.","Amanhã galvenokārt nozīmē: nākamajā dienā.","Biezi raksturo: laika apstāklis.","Amanhã significa principalmente: parte do dia.","Biezi raksturo: Laatvārds (à direita).","Amanhã galvenokārt nozīmē: vairāki rīti.","Bieži raksturo: Laatvārds (pl.).","Morgen ar pozo sākumburtu nozīmē rīt — nākamajā dienā (Ich komme morgen = es nāku rīt, Bis morgen!"],"examples":[{"de":"Ich komme morgen.","lv":"São risadas naku."},{"de":"Bis morgen!","lv":"Lidz ri!"},{"de":"Ich komme morgen.","lv":"São risadas naku."},{"de":"Morgen ist Montag.","lv":"Rīt ir pirmdiena."},{"de":"Guten Morgen!","lv":"Labrit"},{"de":"Der Morgen ist schön.","lv":"Rits são patinadores."}],"tip":["Pequeno morgen = amanhã (Ich komme morgen). der Morgen em maiúscula = manhã (Guten Morgen!, am Morgen).","morgen = amanhã"],"important":["morgen é escrito em minúsculas — é uma circunstância de tempo (amanhã).","der Morgen em maiúscula com artigo der é um substantivo (manhã).","Guten Morgen! — sempre com maiúscula M (manhã, não amanhã).","Incorreto: Guten morgen! → Correto: Guten Morgen!"],"sectionAccents":{"explanation":{"blue":["morgen"],"purple":["rīt"]},"examples":[{"de":{"blue":["morgen","morgen"]},"lv":{"purple":["naku"]}},{"de":{"blue":["morgen","morgen"]},"lv":{"purple":["Lidz"]}},{"de":{"blue":["morgen","morgen"]},"lv":{"purple":["naku"]}},{"de":{"blue":["morgen","morgen"]},"lv":{"purple":["rīt"]}},{"de":{"blue":["morgen","morgen"]},"lv":{"purple":["rīt"]}},{"de":{"blue":["morgen","morgen"]},"lv":{"purple":["rīt"]}}],"tip":[{"purple":["rīt"]}],"important":[{"blue":["morgen"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"morgen","lv":"Amanhã","level":"A1","study":{"id":"a1-morgen","layout":"standardStudy","translation":"Amanhã","explanation":["Ideia principal: morgen, com inicial minúscula, é o advérbio “amanhã”.","O substantivo der Morgen, com inicial maiúscula, significa “manhã”."],"examples":[{"de":"Ich komme morgen.","lv":"Eu venho amanhã."},{"de":"Bis morgen!","lv":"Até amanhã!"},{"de":"Ich komme morgen.","lv":"Eu venho amanhã."},{"de":"Morgen ist Montag.","lv":"Amanhã é segunda-feira."},{"de":"Guten Morgen!","lv":"Bom dia!"},{"de":"Der Morgen ist schön.","lv":"A manhã é bonita."}],"tip":["morgen = amanhã; der Morgen = manhã."],"important":["Em Guten Morgen!, Morgen é substantivo e se escreve com inicial maiúscula."]}}
+**Note:** Pilna PT kartīte «morgen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "morgen",
+  "lv": "Amanhã",
+  "level": "A1",
+  "study": {
+    "id": "a1-morgen",
+    "layout": "standardStudy",
+    "translation": "Amanhã",
+    "explanation": [
+      "Ideia principal: morgen, com inicial minúscula, é o advérbio “amanhã”.",
+      "O substantivo der Morgen, com inicial maiúscula, significa “manhã”."
+    ],
+    "examples": [
+      {
+        "de": "Ich komme morgen.",
+        "lv": "Eu venho amanhã."
+      },
+      {
+        "de": "Bis morgen!",
+        "lv": "Até amanhã!"
+      },
+      {
+        "de": "Ich komme morgen.",
+        "lv": "Eu venho amanhã."
+      },
+      {
+        "de": "Morgen ist Montag.",
+        "lv": "Amanhã é segunda-feira."
+      },
+      {
+        "de": "Guten Morgen!",
+        "lv": "Bom dia!"
+      },
+      {
+        "de": "Der Morgen ist schön.",
+        "lv": "A manhã é bonita."
+      }
+    ],
+    "tip": [
+      "morgen = amanhã; der Morgen = manhã."
+    ],
+    "important": [
+      "Em Guten Morgen!, Morgen é substantivo e se escreve com inicial maiúscula."
+    ]
+  },
+  "index": 417
+}
+```
+
+---
+
+## Finding 14
+
+**Audit ID:** `LRB080-0014`
+**Finding Stable ID:** `g2/a1/pt|noch mal|idx:701|lv; study.examples[2].lv|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `noch mal|idx:701`
+**Field / path:** `lv; study.examples[2].lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Velreiz","study.examples[2].lv":null}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"noch mal","lv":"De novo","level":"A1","study":{"id":"a1-noch-mal","layout":"standardStudy","translation":"De novo","explanation":["Ideia principal: noch mal pede ou indica a repetição de uma ação.","É uma forma comum e coloquial de noch einmal."],"examples":[{"de":"Noch mal, bitte.","lv":"De novo, por favor."},{"de":"Noch mal, bitte.","lv":"De novo, por favor."},{"de":"Sag das noch mal.","lv":"Diga isso de novo."}],"tip":["noch mal = de novo ou mais uma vez."],"important":["Use noch mal para repetir uma ação ou pedir uma repetição."]}}
+**Note:** Pilna PT kartīte «noch mal»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "noch mal",
+  "lv": "De novo",
+  "level": "A1",
+  "study": {
+    "id": "a1-noch-mal",
+    "layout": "standardStudy",
+    "translation": "De novo",
+    "explanation": [
+      "Ideia principal: noch mal pede ou indica a repetição de uma ação.",
+      "É uma forma comum e coloquial de noch einmal."
+    ],
+    "examples": [
+      {
+        "de": "Noch mal, bitte.",
+        "lv": "De novo, por favor."
+      },
+      {
+        "de": "Noch mal, bitte.",
+        "lv": "De novo, por favor."
+      },
+      {
+        "de": "Sag das noch mal.",
+        "lv": "Diga isso de novo."
+      }
+    ],
+    "tip": [
+      "noch mal = de novo ou mais uma vez."
+    ],
+    "important": [
+      "Use noch mal para repetir uma ação ou pedir uma repetição."
+    ]
+  },
+  "index": 701
+}
+```
+
+---
+
+## Finding 15
+
+**Audit ID:** `LRB080-0015`
+**Finding Stable ID:** `g2/a1/pt|noch|idx:451|lv/study|MIXED_LANGUAGE|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `noch|idx:451`
+**Field / path:** `lv/study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Folha","study.translation":"Folha","study.explanation":"[\"Galvenā doma: Kaut kas joprojām turpinās vai vēl nav Bothzies.\",\"Nem galvenokārt nozīmē: kaut kas joprojām turpinās.\",\"Existem vários parâmetros: turpinājumu vai nepabeigtu stāvokli.\",\"Não se esqueça de assistir: você pode ir para a próxima página.\"]","study.examples":"[{\"de\":\"Ich bin noch zu Hause.\",\"lv\":\"É verdade esmu mājās.\"},{\"de\":\"Ich bin noch zu Hause.\",\"lv\":\"É verdade esmu mājās.\"},{\"de\":\"Bist du noch da?\",\"lv\":\"Você está certo?\"}]","study.tip":"[\"Algo ainda está em andamento ou ainda não terminou.\",\"Use noch quando o contexto corresponder a esse significado.\"]","study.important":"[\"noch = ainda.\",\"Algo ainda está em andamento ou ainda não terminou.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"noch","lv":"Ainda","level":"A1","study":{"id":"a1-noch-study","layout":"standardStudy","translation":"Ainda","explanation":["Ideia principal: noch indica que uma situação continua ou ainda não terminou.","Em muitos contextos corresponde a “ainda”."],"examples":[{"de":"Ich bin noch zu Hause.","lv":"Ainda estou em casa."},{"de":"Ich bin noch zu Hause.","lv":"Ainda estou em casa."},{"de":"Bist du noch da?","lv":"Você ainda está aí?"}],"tip":["Algo continua ou ainda não terminou → noch."],"important":["noch = ainda."]}}
+**Note:** Pilna PT kartīte «noch»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "noch",
+  "lv": "Ainda",
+  "level": "A1",
+  "study": {
+    "id": "a1-noch-study",
+    "layout": "standardStudy",
+    "translation": "Ainda",
+    "explanation": [
+      "Ideia principal: noch indica que uma situação continua ou ainda não terminou.",
+      "Em muitos contextos corresponde a “ainda”."
+    ],
+    "examples": [
+      {
+        "de": "Ich bin noch zu Hause.",
+        "lv": "Ainda estou em casa."
+      },
+      {
+        "de": "Ich bin noch zu Hause.",
+        "lv": "Ainda estou em casa."
+      },
+      {
+        "de": "Bist du noch da?",
+        "lv": "Você ainda está aí?"
+      }
+    ],
+    "tip": [
+      "Algo continua ou ainda não terminou → noch."
+    ],
+    "important": [
+      "noch = ainda."
+    ]
+  },
+  "index": 451
+}
+```
+
+---
+
+## Finding 16
+
+**Audit ID:** `LRB080-0016`
+**Finding Stable ID:** `g2/a1/pt|nur|idx:456|lv/study|MIXED_LANGUAGE|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `nur|idx:456`
+**Field / path:** `lv/study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Tikai • Vamos","study.translation":"Tikai • Vamos","study.explanation":"[\"Adestramento Galvenā: Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.\",\"Apenas galvenokārt nozīmē: ierobežots daudzums vai izvēle.\",\"Existem várias coisas: cik daudz, kas tieši vai kurš vienīgais.\",\"Apenas nozīmē tikai, vienīgi, nekas vairāk: tas ierobežo daudzumu vai izvēli.\"]","study.examples":"[{\"de\":\"Ich habe nur zehn Euro.\",\"lv\":\"Man ir tikai desmit eiro.\"},{\"de\":\"Ich habe nur zehn Euro.\",\"lv\":\"Man ir tikai desmit eiro.\"},{\"de\":\"Nur du kannst mir helfen.\",\"lv\":\"Tikai tu vari man palīdzēt.\"},{\"de\":\"Ich möchte nur Kaffee.\",\"lv\":\"É tikai kafiju cinza.\"},{\"de\":\"Ich habe nur acht Euro.\",\"lv\":\"Man ir tikai astoņi eiro.\"}]","study.tip":"[\"Limita quantidade, número de pessoas, escolha ou possibilidades.\",\"Use nur quando o contexto corresponder a esse significado.\"]","study.important":"[\"O letão \\\"tikai\\\" em alemão nem sempre é nur.\",\"nur = apenas / somente.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"nur","lv":"Apenas","level":"A1","study":{"id":"a1-nur-study","layout":"standardStudy","translation":"Apenas","explanation":["Ideia principal: nur limita uma quantidade, pessoa, escolha ou possibilidade.","Conforme o contexto, corresponde a “só”, “somente” ou “apenas”."],"examples":[{"de":"Ich habe nur zehn Euro.","lv":"Tenho apenas dez euros."},{"de":"Ich habe nur zehn Euro.","lv":"Tenho apenas dez euros."},{"de":"Nur du kannst mir helfen.","lv":"Só você pode me ajudar."},{"de":"Ich möchte nur Kaffee.","lv":"Eu quero apenas café."},{"de":"Ich habe nur acht Euro.","lv":"Tenho apenas oito euros."}],"tip":["Uma quantidade ou escolha limitada → nur."],"important":["nur = só, somente ou apenas."]}}
+**Note:** Pilna PT kartīte «nur»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "nur",
+  "lv": "Apenas",
+  "level": "A1",
+  "study": {
+    "id": "a1-nur-study",
+    "layout": "standardStudy",
+    "translation": "Apenas",
+    "explanation": [
+      "Ideia principal: nur limita uma quantidade, pessoa, escolha ou possibilidade.",
+      "Conforme o contexto, corresponde a “só”, “somente” ou “apenas”."
+    ],
+    "examples": [
+      {
+        "de": "Ich habe nur zehn Euro.",
+        "lv": "Tenho apenas dez euros."
+      },
+      {
+        "de": "Ich habe nur zehn Euro.",
+        "lv": "Tenho apenas dez euros."
+      },
+      {
+        "de": "Nur du kannst mir helfen.",
+        "lv": "Só você pode me ajudar."
+      },
+      {
+        "de": "Ich möchte nur Kaffee.",
+        "lv": "Eu quero apenas café."
+      },
+      {
+        "de": "Ich habe nur acht Euro.",
+        "lv": "Tenho apenas oito euros."
+      }
+    ],
+    "tip": [
+      "Uma quantidade ou escolha limitada → nur."
+    ],
+    "important": [
+      "nur = só, somente ou apenas."
+    ]
+  },
+  "index": 456
+}
+```
+
+---
+
+## Finding 17
+
+**Audit ID:** `LRB080-0017`
+**Finding Stable ID:** `g2/a1/pt|ob|idx:457|lv/study|MIXED_LANGUAGE|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `ob|idx:457`
+**Field / path:** `lv/study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Oh","study.translation":"Oh","study.explanation":"[\"Adestramento Galvenā: ob ievada netiešu jautājumu un latviski visbiežāk nozīmē vai.\",\"Ob leto pēc vārdiem kā fragen, apagar, ver, saber e navegar tieša jautājuma.\",\"Tiešā jautājumā vacu valodā ob parasti nelieto.\",\"No nível A1 é importante distinguir ob de oder.\"]","study.examples":"[{\"de\":\"Ich weiß nicht, ob er kommt.\",\"lv\":\"É nezinu, vai viņš nāks.\"},{\"de\":\"Sie fragt, ob du Zeit hast.\",\"lv\":\"Viņa jautā, vai tev ir laiks.\"},{\"de\":\"Sag mir, ob das stimmt.\",\"lv\":\"Pasaki man, vai tā ir taisnība.\"},{\"de\":\"Kommst du heute oder morgen?\",\"lv\":\"Vá para nāksi šodien, vá rir?\"}]","study.comparison":"[{\"word\":\"ob\",\"meaning\":\"Vá netiesā jautājumā\",\"example\":\"Não sei se ele vem.\"},{\"word\":\"oder\",\"meaning\":\"Go izvēlē variação starp\",\"example\":\"Café ou chá?\"},{\"word\":\"wenn\",\"meaning\":\"SIM / KAD\",\"example\":\"Se você tiver tempo...\"},{\"word\":\"dass\",\"meaning\":\"K.A.\",\"example\":\"Sei que ele vem.\"}]","study.tip":"{\"text\":\"Atceries: nezinu, vai... → ob; kafija vai tēja → oder.\"}","study.important":"[\"ob não é a forma usual de escolha \\\"ou\\\" entre duas coisas.\",\"Kaffee oder Tee? usa oder, não ob.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"ob","lv":"Se","level":"A1","study":{"id":"a1-ob","layout":"standardStudy","translation":"Se","explanation":["Ideia principal: ob introduz uma pergunta indireta de resposta sim/não e corresponde a “se”.","Para uma escolha direta entre alternativas, usa-se oder, não ob."],"examples":[{"de":"Ich weiß nicht, ob er kommt.","lv":"Não sei se ele vem."},{"de":"Sie fragt, ob du Zeit hast.","lv":"Ela pergunta se você tem tempo."},{"de":"Sag mir, ob das stimmt.","lv":"Diga-me se isso é verdade."},{"de":"Kommst du heute oder morgen?","lv":"Você vem hoje ou amanhã?"}],"comparison":[{"word":"ob","meaning":"se, em pergunta indireta","example":"Ich weiß nicht, ob er kommt. – Não sei se ele vem."},{"word":"oder","meaning":"ou, entre alternativas","example":"Kaffee oder Tee? – Café ou chá?"},{"word":"wenn","meaning":"se • quando","example":"Wenn du Zeit hast... – Se você tiver tempo..."},{"word":"dass","meaning":"que","example":"Ich weiß, dass er kommt. – Sei que ele vem."}],"tip":["“Não sei se...” → ob; “café ou chá” → oder."],"important":["ob não é usado para escolher diretamente entre duas coisas."]}}
+**Note:** Pilna PT kartīte «ob»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "ob",
+  "lv": "Se",
+  "level": "A1",
+  "study": {
+    "id": "a1-ob",
+    "layout": "standardStudy",
+    "translation": "Se",
+    "explanation": [
+      "Ideia principal: ob introduz uma pergunta indireta de resposta sim/não e corresponde a “se”.",
+      "Para uma escolha direta entre alternativas, usa-se oder, não ob."
+    ],
+    "examples": [
+      {
+        "de": "Ich weiß nicht, ob er kommt.",
+        "lv": "Não sei se ele vem."
+      },
+      {
+        "de": "Sie fragt, ob du Zeit hast.",
+        "lv": "Ela pergunta se você tem tempo."
+      },
+      {
+        "de": "Sag mir, ob das stimmt.",
+        "lv": "Diga-me se isso é verdade."
+      },
+      {
+        "de": "Kommst du heute oder morgen?",
+        "lv": "Você vem hoje ou amanhã?"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "ob",
+        "meaning": "se, em pergunta indireta",
+        "example": "Ich weiß nicht, ob er kommt. – Não sei se ele vem."
+      },
+      {
+        "word": "oder",
+        "meaning": "ou, entre alternativas",
+        "example": "Kaffee oder Tee? – Café ou chá?"
+      },
+      {
+        "word": "wenn",
+        "meaning": "se • quando",
+        "example": "Wenn du Zeit hast... – Se você tiver tempo..."
+      },
+      {
+        "word": "dass",
+        "meaning": "que",
+        "example": "Ich weiß, dass er kommt. – Sei que ele vem."
+      }
+    ],
+    "tip": [
+      "“Não sei se...” → ob; “café ou chá” → oder."
+    ],
+    "important": [
+      "ob não é usado para escolher diretamente entre duas coisas."
+    ]
+  },
+  "index": 457
+}
+```
+
+---
+
+## Finding 18
+
+**Audit ID:** `LRB080-0018`
+**Finding Stable ID:** `g2/a1/pt|Obst|idx:693|lv; study.translation; study.explanation; study.examples.lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `Obst|idx:693`
+**Field / path:** `lv; study.translation; study.explanation; study.examples.lv`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Fruta","study.translation":"Fruta","study.explanation":"[\"Ideia principal: Frutas em geral. Em alemão, não há forma de plural *die Obsts.\",\"A fruta galvenokārt nozīmē: augųi kopumā.\",\"Bieži raksturo: nekatrā dzimtē (tikai venuskaitlī).\"]","study.examples.lv":null}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"Obst","lv":"Fruta","level":"A1","de_article":"das","study":{"id":"a1-obst","layout":"standardStudy","translation":"Fruta","explanation":["Ideia principal: das Obst é um substantivo coletivo para frutas em geral.","Em alemão, costuma ser usado no singular e normalmente não tem plural no sentido geral."],"examples":[{"de":"Wir essen viel Obst.","lv":"Comemos muita fruta."},{"de":"Wir essen viel Obst.","lv":"Comemos muita fruta."},{"de":"Obst ist gesund.","lv":"Fruta é saudável."},{"de":"Ich mag Obst und Gemüse.","lv":"Eu gosto de frutas e legumes."},{"de":"Wir essen Obst.","lv":"Comemos fruta."}],"tip":["das Obst = fruta ou frutas em geral."],"important":["No sentido coletivo, use das Obst, não *die Obsts."]}}
+**Note:** Pilna PT kartīte «Obst»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Obst",
+  "de_article": "das",
+  "lv": "Fruta",
+  "level": "A1",
+  "study": {
+    "id": "a1-obst",
+    "layout": "standardStudy",
+    "translation": "Fruta",
+    "explanation": [
+      "Ideia principal: das Obst é um substantivo coletivo para frutas em geral.",
+      "Em alemão, costuma ser usado no singular e normalmente não tem plural no sentido geral."
+    ],
+    "examples": [
+      {
+        "de": "Wir essen viel Obst.",
+        "lv": "Comemos muita fruta."
+      },
+      {
+        "de": "Wir essen viel Obst.",
+        "lv": "Comemos muita fruta."
+      },
+      {
+        "de": "Obst ist gesund.",
+        "lv": "Fruta é saudável."
+      },
+      {
+        "de": "Ich mag Obst und Gemüse.",
+        "lv": "Eu gosto de frutas e legumes."
+      },
+      {
+        "de": "Wir essen Obst.",
+        "lv": "Comemos fruta."
+      }
+    ],
+    "tip": [
+      "das Obst = fruta ou frutas em geral."
+    ],
+    "important": [
+      "No sentido coletivo, use das Obst, não *die Obsts."
+    ]
+  },
+  "index": 693
+}
+```
+
+---
+
+## Finding 19
+
+**Audit ID:** `LRB080-0019`
+**Finding Stable ID:** `g2/a1/pt|oder|idx:459|lv/study|MIXED_LANGUAGE|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `oder|idx:459`
+**Field / path:** `lv/study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Vá • Jeb","study.translation":"Vá • Jeb","study.explanation":"[\"Galvenā doma: ou bem aqui, et izvēlamies starp divām vai vairākām iespējām.\",\"Letviski o visbiežāk nozīmē vai.\",\"Tas nav tas taps, kas ob, kas ievada netiešu jautājumu.\",\"Sarunas o var ma arī teikuma beigās: Kommst, o?\"]","study.examples":"[{\"de\":\"Kaffee oder Tee?\",\"lv\":\"Kafiju vai teju?\"},{\"de\":\"Heute oder morgen?\",\"lv\":\"- então você é obrigado a comprar. - E você quer?\"},{\"de\":\"Willst du Pizza oder Salat?\",\"lv\":\"Vai gribi picu vai salatus?\"},{\"de\":\"Du kommst, oder?\",\"lv\":\"Naksi, você vai?\"}]","study.comparison":"[{\"word\":\"oder\",\"meaning\":\"Vá izvēlē\",\"example\":\"Café ou chá?\"},{\"word\":\"ob\",\"meaning\":\"Vá netiesā jautājumā\",\"example\":\"Não sei se ele vem.\"},{\"word\":\"und\",\"meaning\":\"ODIHR\",\"example\":\"Café e bolo.\"},{\"word\":\"aber\",\"meaning\":\"SZADZIŃSKA\",\"example\":\"Venho, mas mais tarde.\"}]","study.tip":"{\"text\":\"Atceries: izvēle starp variantiem → oder.\"}","study.important":"[\"oder é usado para escolha: Kaffee oder Tee.\",\"Em pergunta indireta, \\\"ou\\\" geralmente é ob.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"oder","lv":"Ou","level":"A1","study":{"id":"a1-oder","layout":"standardStudy","translation":"Ou","explanation":["Ideia principal: oder liga alternativas e corresponde a “ou”.","No fim de uma frase, também pode pedir confirmação: Du kommst, oder?"],"examples":[{"de":"Kaffee oder Tee?","lv":"Café ou chá?"},{"de":"Heute oder morgen?","lv":"Hoje ou amanhã?"},{"de":"Willst du Pizza oder Salat?","lv":"Você quer pizza ou salada?"},{"de":"Du kommst, oder?","lv":"Você vem, não vem?"}],"comparison":[{"word":"oder","meaning":"ou, entre alternativas","example":"Kaffee oder Tee? – Café ou chá?"},{"word":"ob","meaning":"se, em pergunta indireta","example":"Ich weiß nicht, ob er kommt. – Não sei se ele vem."},{"word":"und","meaning":"e","example":"Kaffee und Kuchen. – Café e bolo."},{"word":"aber","meaning":"mas","example":"Ich komme, aber später. – Eu venho, mas mais tarde."}],"tip":["Escolha entre alternativas → oder."],"important":["Em perguntas indiretas de sim/não, usa-se ob."]}}
+**Note:** Pilna PT kartīte «oder»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "oder",
+  "lv": "Ou",
+  "level": "A1",
+  "study": {
+    "id": "a1-oder",
+    "layout": "standardStudy",
+    "translation": "Ou",
+    "explanation": [
+      "Ideia principal: oder liga alternativas e corresponde a “ou”.",
+      "No fim de uma frase, também pode pedir confirmação: Du kommst, oder?"
+    ],
+    "examples": [
+      {
+        "de": "Kaffee oder Tee?",
+        "lv": "Café ou chá?"
+      },
+      {
+        "de": "Heute oder morgen?",
+        "lv": "Hoje ou amanhã?"
+      },
+      {
+        "de": "Willst du Pizza oder Salat?",
+        "lv": "Você quer pizza ou salada?"
+      },
+      {
+        "de": "Du kommst, oder?",
+        "lv": "Você vem, não vem?"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "oder",
+        "meaning": "ou, entre alternativas",
+        "example": "Kaffee oder Tee? – Café ou chá?"
+      },
+      {
+        "word": "ob",
+        "meaning": "se, em pergunta indireta",
+        "example": "Ich weiß nicht, ob er kommt. – Não sei se ele vem."
+      },
+      {
+        "word": "und",
+        "meaning": "e",
+        "example": "Kaffee und Kuchen. – Café e bolo."
+      },
+      {
+        "word": "aber",
+        "meaning": "mas",
+        "example": "Ich komme, aber später. – Eu venho, mas mais tarde."
+      }
+    ],
+    "tip": [
+      "Escolha entre alternativas → oder."
+    ],
+    "important": [
+      "Em perguntas indiretas de sim/não, usa-se ob."
+    ]
+  },
+  "index": 459
+}
+```
+
+---
+
+## Finding 20
+
+**Audit ID:** `LRB080-0020`
+**Finding Stable ID:** `g2/a1/pt|passen|idx:471|lv/study|MIXED_LANGUAGE|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `passen|idx:471`
+**Field / path:** `lv/study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Deret • Piestavet","study.translation":"Deret • Piestavet","study.explanation":"[\"Domar Galvenā: pas nozīmē deret, piestāvēt vai būt piemērotam.\",\"Per apēērbu non bieži nozīmē derēt pēc izmēra.\",\"Para krāsām vai stilu non nozīmē piestāvēt.\",\"Hai fraze ir Das passé. = Certo. bolsa\"]","study.examples":"[{\"de\":\"Die Jacke passt mir.\",\"lv\":\"Jaka homem der.\"},{\"de\":\"Das Kleid passt gut.\",\"lv\":\"Kleita labir der.\"},{\"de\":\"Die Farbe passt zu dir.\",\"lv\":\"Šī krasa tev piestāv.\"},{\"de\":\"Das passt.\",\"lv\":\"Certo. bolsa\"}]","study.comparison":"[{\"word\":\"passen\",\"meaning\":\"Deret / piestāvēt\",\"example\":\"A jaqueta me cai bem.\"},{\"word\":\"stehen\",\"meaning\":\"Piestāvēt / stāvēt\",\"example\":\"O vermelho fica bem em você.\"},{\"word\":\"geeignet sein\",\"meaning\":\"Mas piemērotam\",\"example\":\"Isso é adequado.\"},{\"word\":\"funktionieren\",\"meaning\":\"Darboties\",\"example\":\"Isso funciona.\"}]","study.tip":"{\"text\":\"Atceries: Das passt. = Tas der.\"}","study.important":"[\"passen não é apenas sobre roupas.\",\"Também pode significar que o tempo, plano ou solução é apropriado.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"passen","lv":"Servir • Combinar","level":"A1","study":{"id":"a1-passen","layout":"standardStudy","translation":"Servir • Combinar","explanation":["Ideia principal: passen significa ter o tamanho certo, servir ou combinar com alguém ou algo.","Também pode indicar que um horário, plano ou solução é conveniente ou adequado."],"examples":[{"de":"Die Jacke passt mir.","lv":"A jaqueta me serve."},{"de":"Das Kleid passt gut.","lv":"O vestido serve bem."},{"de":"Die Farbe passt zu dir.","lv":"A cor combina com você."},{"de":"Das passt.","lv":"Isso serve."}],"comparison":[{"word":"passen","meaning":"servir • combinar","example":"Die Jacke passt mir. – A jaqueta me serve."},{"word":"stehen","meaning":"ficar bem • estar em pé","example":"Rot steht dir gut. – Vermelho fica bem em você."},{"word":"geeignet sein","meaning":"ser adequado","example":"Das ist geeignet. – Isso é adequado."},{"word":"funktionieren","meaning":"funcionar","example":"Das funktioniert. – Isso funciona."}],"tip":["Das passt. = Isso serve ou está bom."],"important":["passen não se limita a roupas; um horário ou plano também pode passen."]}}
+**Note:** Pilna PT kartīte «passen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "passen",
+  "lv": "Servir • Combinar",
+  "level": "A1",
+  "study": {
+    "id": "a1-passen",
+    "layout": "standardStudy",
+    "translation": "Servir • Combinar",
+    "explanation": [
+      "Ideia principal: passen significa ter o tamanho certo, servir ou combinar com alguém ou algo.",
+      "Também pode indicar que um horário, plano ou solução é conveniente ou adequado."
+    ],
+    "examples": [
+      {
+        "de": "Die Jacke passt mir.",
+        "lv": "A jaqueta me serve."
+      },
+      {
+        "de": "Das Kleid passt gut.",
+        "lv": "O vestido serve bem."
+      },
+      {
+        "de": "Die Farbe passt zu dir.",
+        "lv": "A cor combina com você."
+      },
+      {
+        "de": "Das passt.",
+        "lv": "Isso serve."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "passen",
+        "meaning": "servir • combinar",
+        "example": "Die Jacke passt mir. – A jaqueta me serve."
+      },
+      {
+        "word": "stehen",
+        "meaning": "ficar bem • estar em pé",
+        "example": "Rot steht dir gut. – Vermelho fica bem em você."
+      },
+      {
+        "word": "geeignet sein",
+        "meaning": "ser adequado",
+        "example": "Das ist geeignet. – Isso é adequado."
+      },
+      {
+        "word": "funktionieren",
+        "meaning": "funcionar",
+        "example": "Das funktioniert. – Isso funciona."
+      }
+    ],
+    "tip": [
+      "Das passt. = Isso serve ou está bom."
+    ],
+    "important": [
+      "passen não se limita a roupas; um horário ou plano também pode passen."
+    ]
+  },
+  "index": 471
+}
+```
+
+---
+
+## Finding 21
+
+**Audit ID:** `LRB080-0021`
+**Finding Stable ID:** `g2/a1/pt|probieren|idx:482|lv; study|MIXED_LANGUAGE_AND_MISTRANSLATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `probieren|idx:482`
+**Field / path:** `lv; study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Izmēēināt • Nogaršot","study.translation":"Izmēēināt • Nogaršot","study.explanation":"[\"Adestramento Galvenā: tryn nozīmē izmēⅡināt vai nogaršot.\",\"Sim, eles vieram para ficar, tente não perder.\",\"Se você estiver pronto para fazer isso, tente fazê-lo agora.\",\"Tas nav tas taps, kas check, kas nozīmē pārbaudīt rūpīgāk.\"]","study.examples":"[{\"de\":\"Probier mal die Suppe!\",\"lv\":\"Eu pago zupu!\"},{\"de\":\"Ich möchte den Kuchen probieren.\",\"lv\":\"É gribu nogaršot kūku.\"},{\"de\":\"Wir probieren eine neue Methode.\",\"lv\":\"Mais métodos izmēēinām jaunu.\"},{\"de\":\"Kann ich die Jacke anprobieren?\",\"lv\":\"Vai ser você pielaikot jaku?\"}]","study.comparison":"[{\"word\":\"probieren\",\"meaning\":\"Izmēēināt / nogaršot\",\"example\":\"Prova a sopa!\"},{\"word\":\"versuchen\",\"meaning\":\"Mēēinat\",\"example\":\"Tento.\"},{\"word\":\"prüfen\",\"meaning\":\"Parbaudit\",\"example\":\"Verifico a conta.\"},{\"word\":\"anprobieren\",\"meaning\":\"Pielaikot\",\"example\":\"Provo a jaqueta.\"}]","study.tip":"{\"text\":\"Atceries: ēdiens → probieren = nogaršot.\"}","study.important":"[\"probieren não é a palavra principal para uma verificação oficial.\",\"Para verificar documentos ou contas, geralmente se usa prüfen.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"probieren","lv":"Experimentar • Provar","level":"A1","study":{"id":"a1-probieren","layout":"standardStudy","translation":"Experimentar • Provar","explanation":["Ideia principal: probieren significa experimentar algo ou provar comida e bebida.","Para verificar formalmente uma conta ou documento, usa-se normalmente prüfen."],"examples":[{"de":"Probier mal die Suppe!","lv":"Prove a sopa!"},{"de":"Ich möchte den Kuchen probieren.","lv":"Eu gostaria de provar o bolo."},{"de":"Wir probieren eine neue Methode.","lv":"Experimentamos um método novo."},{"de":"Kann ich die Jacke anprobieren?","lv":"Posso experimentar a jaqueta?"}],"comparison":[{"word":"probieren","meaning":"experimentar • provar","example":"Probier mal die Suppe! – Prove a sopa!"},{"word":"versuchen","meaning":"tentar","example":"Ich versuche es. – Eu tento."},{"word":"prüfen","meaning":"verificar","example":"Ich prüfe die Rechnung. – Verifico a conta."},{"word":"anprobieren","meaning":"experimentar uma roupa","example":"Ich probiere die Jacke an. – Experimento a jaqueta."}],"tip":["Com comida, probieren geralmente = provar."],"important":["anprobieren é o verbo específico para experimentar uma roupa."]}}
+**Note:** Pilna PT kartīte «probieren»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "probieren",
+  "lv": "Experimentar • Provar",
+  "level": "A1",
+  "study": {
+    "id": "a1-probieren",
+    "layout": "standardStudy",
+    "translation": "Experimentar • Provar",
+    "explanation": [
+      "Ideia principal: probieren significa experimentar algo ou provar comida e bebida.",
+      "Para verificar formalmente uma conta ou documento, usa-se normalmente prüfen."
+    ],
+    "examples": [
+      {
+        "de": "Probier mal die Suppe!",
+        "lv": "Prove a sopa!"
+      },
+      {
+        "de": "Ich möchte den Kuchen probieren.",
+        "lv": "Eu gostaria de provar o bolo."
+      },
+      {
+        "de": "Wir probieren eine neue Methode.",
+        "lv": "Experimentamos um método novo."
+      },
+      {
+        "de": "Kann ich die Jacke anprobieren?",
+        "lv": "Posso experimentar a jaqueta?"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "probieren",
+        "meaning": "experimentar • provar",
+        "example": "Probier mal die Suppe! – Prove a sopa!"
+      },
+      {
+        "word": "versuchen",
+        "meaning": "tentar",
+        "example": "Ich versuche es. – Eu tento."
+      },
+      {
+        "word": "prüfen",
+        "meaning": "verificar",
+        "example": "Ich prüfe die Rechnung. – Verifico a conta."
+      },
+      {
+        "word": "anprobieren",
+        "meaning": "experimentar uma roupa",
+        "example": "Ich probiere die Jacke an. – Experimento a jaqueta."
+      }
+    ],
+    "tip": [
+      "Com comida, probieren geralmente = provar."
+    ],
+    "important": [
+      "anprobieren é o verbo específico para experimentar uma roupa."
+    ]
+  },
+  "index": 482
+}
+```
+
+---
+
+## Finding 22
+
+**Audit ID:** `LRB080-0022`
+**Finding Stable ID:** `g2/a1/pt|Reis|idx:496|lv; study|MIXED_LANGUAGE_AND_MISTRANSLATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `Reis|idx:496`
+**Field / path:** `lv; study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Eu ri","study.translation":"Eu ri","study.explanation":"Vācu valodā vārdu \"da jornada\" Laato tikai venuskaitlī, tāpēc teikumā darbības vārdam jābūt venuskaitļa formā (piemēram, \"ist\", nevis \"sind\"). Latviski tomēr bieži saka «rīsi».","study.examples":"[{\"de\":\"Der Reis ist fertig.\",\"lv\":\"Eu ri e gatavi.\"},{\"de\":\"Ich esse Reis.\",\"lv\":\"É ēdu risus.\"},{\"de\":\"Kochst du Reis?\",\"lv\":\"Vai gatavo risus?\"},{\"de\":\"Der Reis schmeckt gut.\",\"lv\":\"Rīsi garšo labi.\"}]","study.tip":"{\"text\":\"Atceries: der Reis ir vienskaitlis vāciski, bet latviski parasti — rīsi.\"}","study.important":"[\"der Reis — em alemão apenas singular (Der Reis ist..., nicht *sind).\",\"Na tradução para letão, frequentemente se usa o plural: rīsi ir gatavi.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"Reis","lv":"Arroz","level":"A1","de_article":"der","study":{"id":"a1-reis","layout":"standardStudy","translation":"Arroz","explanation":["Ideia principal: der Reis significa arroz.","Em alemão, Reis é normalmente singular e o verbo também fica no singular."],"examples":[{"de":"Der Reis ist fertig.","lv":"O arroz está pronto."},{"de":"Ich esse Reis.","lv":"Eu como arroz."},{"de":"Kochst du Reis?","lv":"Você está cozinhando arroz?"},{"de":"Der Reis schmeckt gut.","lv":"O arroz está gostoso."}],"tip":["der Reis é singular em alemão."],"important":["Diga Der Reis ist fertig, não *Die Reis sind fertig."]}}
+**Note:** Pilna PT kartīte «Reis»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Reis",
+  "de_article": "der",
+  "lv": "Arroz",
+  "level": "A1",
+  "study": {
+    "id": "a1-reis",
+    "layout": "standardStudy",
+    "translation": "Arroz",
+    "explanation": [
+      "Ideia principal: der Reis significa arroz.",
+      "Em alemão, Reis é normalmente singular e o verbo também fica no singular."
+    ],
+    "examples": [
+      {
+        "de": "Der Reis ist fertig.",
+        "lv": "O arroz está pronto."
+      },
+      {
+        "de": "Ich esse Reis.",
+        "lv": "Eu como arroz."
+      },
+      {
+        "de": "Kochst du Reis?",
+        "lv": "Você está cozinhando arroz?"
+      },
+      {
+        "de": "Der Reis schmeckt gut.",
+        "lv": "O arroz está gostoso."
+      }
+    ],
+    "tip": [
+      "der Reis é singular em alemão."
+    ],
+    "important": [
+      "Diga Der Reis ist fertig, não *Die Reis sind fertig."
+    ]
+  },
+  "index": 496
+}
+```
+
+---
+
+## Finding 23
+
+**Audit ID:** `LRB080-0023`
+**Finding Stable ID:** `g2/a1/pt|sagen|idx:505|study|MISTRANSLATION_AND_MIXED_LANGUAGE|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `sagen|idx:505`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"id":"a1-sagen-study","layout":"standardStudy","translation":"Teikt","explanation":["Ideia principal: Expressar um pensamento, palavra ou frase específica.","Diga galvenokārt nozīmē: pateikt konkrētu domu.","Biezi raksturo: vārdus/teikumus.","Sagen Laato konkrētam pateiktamtekstam."],"examples":[{"de":"Was hast du gesagt?","lv":"Você é patético?"}],"comparison":[{"word":"sagen","meaning":"Pasacīt (concreto textu)","example":"Was hast du gesagt? – Você é patético?"},{"word":"sprechen","meaning":"Runāt (melhorado, sarunāties)","example":"Ich spreche Deutsch. – É runāju vaciski."}],"tip":["sagen = dizer","Use sagen quando o contexto corresponder a esse significado."],"important":["sagen = dizer.","Expressar um pensamento, palavra ou frase específica."],"sectionAccents":{"explanation":{"blue":["sagen"],"purple":["teikt"],"green":["Teikt"]},"examples":[{"de":{},"lv":{}}],"tip":[{"purple":["teikt"]}],"important":[{"blue":["sagen"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"sagen","lv":"Dizer","level":"A1","study":{"id":"a1-sagen-study","layout":"standardStudy","translation":"Dizer","explanation":["Ideia principal: sagen significa dizer ou declarar um conteúdo concreto.","Para falar uma língua ou conversar, usa-se sprechen."],"examples":[{"de":"Was hast du gesagt?","lv":"O que você disse?"}],"comparison":[{"word":"sagen","meaning":"dizer algo concreto","example":"Was hast du gesagt? – Ko tu pateici? – O que você disse?"},{"word":"sprechen","meaning":"falar • conversar","example":"Ich spreche Deutsch. – Es runāju vāciski. – Eu falo alemão."}],"tip":["sagen = dizer."],"important":["Use sagen para uma palavra, frase ou informação concreta."]}}
+**Note:** Pilna PT kartīte «sagen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "sagen",
+  "lv": "Dizer",
+  "level": "A1",
+  "study": {
+    "id": "a1-sagen-study",
+    "layout": "standardStudy",
+    "translation": "Dizer",
+    "explanation": [
+      "Ideia principal: sagen significa dizer ou declarar um conteúdo concreto.",
+      "Para falar uma língua ou conversar, usa-se sprechen."
+    ],
+    "examples": [
+      {
+        "de": "Was hast du gesagt?",
+        "lv": "O que você disse?"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "sagen",
+        "meaning": "dizer algo concreto",
+        "example": "Was hast du gesagt? – Ko tu pateici? – O que você disse?"
+      },
+      {
+        "word": "sprechen",
+        "meaning": "falar • conversar",
+        "example": "Ich spreche Deutsch. – Es runāju vāciski. – Eu falo alemão."
+      }
+    ],
+    "tip": [
+      "sagen = dizer."
+    ],
+    "important": [
+      "Use sagen para uma palavra, frase ou informação concreta."
+    ]
+  },
+  "index": 505
+}
+```
+
+---
+
+## Finding 24
+
+**Audit ID:** `LRB080-0024`
+**Finding Stable ID:** `g2/a1/pt|schauen|idx:510|lv; study|MISTRANSLATION_AND_MIXED_LANGUAGE|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `schauen|idx:510`
+**Field / path:** `lv; study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Trenós","study.translation":"Trenós","study.explanation":"[\"Idéia principal: Observar ou observar ativamente.\",\"Veja galvenokārt nozīmē: aktīvi skatīties.\",\"Biezi raksturo: darbību.\",\"Veja nozīmē aktīvi skatīties.\"]","study.examples":"[{\"de\":\"Ich schaue fern.\",\"lv\":\"Ele é um skate na televisão.\"},{\"de\":\"Wir schauen aus dem Fenster.\",\"lv\":\"Mais skatāmies para logu.\"},{\"de\":\"Ich schaue fern.\",\"lv\":\"Ele é um skate na televisão.\"}]","study.comparison":"[{\"word\":\"schauen\",\"meaning\":\"Skatīties (atividade)\",\"example\":\"Ich schaue aus dem Fenster. – É skatos pa logu.\"},{\"word\":\"sehen\",\"meaning\":\"Redzēt (nodoma bez)\",\"example\":\"Ich sehe dich. – Eu sou Tevi Redzu.\"}]","study.tip":"[\"schauen = olhar\",\"Use schauen quando o contexto corresponder a esse significado.\"]","study.important":"[\"schauen = olhar.\",\"Olhar ativamente ou dar uma olhada.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"schauen","lv":"Olhar • Assistir","level":"A1","study":{"id":"a1-schauen-study","layout":"standardStudy","translation":"Olhar • Assistir","explanation":["Ideia principal: schauen significa olhar ativamente ou assistir a algo.","sehen descreve sobretudo perceber com os olhos; schauen enfatiza o ato de olhar."],"examples":[{"de":"Ich schaue fern.","lv":"Eu assisto à televisão."},{"de":"Wir schauen aus dem Fenster.","lv":"Nós olhamos pela janela."},{"de":"Ich schaue fern.","lv":"Eu assisto à televisão."}],"comparison":[{"word":"schauen","meaning":"olhar • assistir ativamente","example":"Ich schaue aus dem Fenster. – Es skatos pa logu. – Eu olho pela janela."},{"word":"sehen","meaning":"ver • perceber","example":"Ich sehe dich. – Es tevi redzu. – Eu vejo você."}],"tip":["schauen = olhar ou assistir."],"important":["schauen indica uma ação intencional de olhar; sehen pode indicar simplesmente ver."]}}
+**Note:** Pilna PT kartīte «schauen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "schauen",
+  "lv": "Olhar • Assistir",
+  "level": "A1",
+  "study": {
+    "id": "a1-schauen-study",
+    "layout": "standardStudy",
+    "translation": "Olhar • Assistir",
+    "explanation": [
+      "Ideia principal: schauen significa olhar ativamente ou assistir a algo.",
+      "sehen descreve sobretudo perceber com os olhos; schauen enfatiza o ato de olhar."
+    ],
+    "examples": [
+      {
+        "de": "Ich schaue fern.",
+        "lv": "Eu assisto à televisão."
+      },
+      {
+        "de": "Wir schauen aus dem Fenster.",
+        "lv": "Nós olhamos pela janela."
+      },
+      {
+        "de": "Ich schaue fern.",
+        "lv": "Eu assisto à televisão."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "schauen",
+        "meaning": "olhar • assistir ativamente",
+        "example": "Ich schaue aus dem Fenster. – Es skatos pa logu. – Eu olho pela janela."
+      },
+      {
+        "word": "sehen",
+        "meaning": "ver • perceber",
+        "example": "Ich sehe dich. – Es tevi redzu. – Eu vejo você."
+      }
+    ],
+    "tip": [
+      "schauen = olhar ou assistir."
+    ],
+    "important": [
+      "schauen indica uma ação intencional de olhar; sehen pode indicar simplesmente ver."
+    ]
+  },
+  "index": 510
+}
+```
+
+---
+
+## Finding 25
+
+**Audit ID:** `LRB080-0025`
+**Finding Stable ID:** `g2/a1/pt|schon|idx:521|lv; study|MISTRANSLATION_AND_MIXED_LANGUAGE|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `schon|idx:521`
+**Field / path:** `lv; study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Sim.","study.translation":"Sim.","study.explanation":"[\"Galvenā doma: Kaut kas jau ir nostricis vai jau ir spēkā.\",\"Schon galvenokārt notzīmē: kaut kas jau ir nostricis vai spēkā.\",\"Existem vários pontos - veja se você tem esse problema.\",\"Se você perceber agora: Você já deveria estar recebendo notificações e notará.\"]","study.examples":"[{\"de\":\"Ich bin schon zu Hause.\",\"lv\":\"É jau esmu mājās.\"}]","study.tip":"[\"Algo já aconteceu ou já está em vigor.\",\"Use schon quando o contexto corresponder a esse significado.\"]","study.important":"[\"schon = já.\",\"Algo já aconteceu ou já está em vigor.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"schon","lv":"Já","level":"A1","study":{"id":"a1-schon-study","layout":"standardStudy","translation":"Já","explanation":["Ideia principal: schon indica que algo já aconteceu ou já é válido.","Neste uso, corresponde a “já”."],"examples":[{"de":"Ich bin schon zu Hause.","lv":"Já estou em casa."}],"tip":["Algo já aconteceu ou já está em vigor → schon."],"important":["schon = já."]}}
+**Note:** Pilna PT kartīte «schon»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "schon",
+  "lv": "Já",
+  "level": "A1",
+  "study": {
+    "id": "a1-schon-study",
+    "layout": "standardStudy",
+    "translation": "Já",
+    "explanation": [
+      "Ideia principal: schon indica que algo já aconteceu ou já é válido.",
+      "Neste uso, corresponde a “já”."
+    ],
+    "examples": [
+      {
+        "de": "Ich bin schon zu Hause.",
+        "lv": "Já estou em casa."
+      }
+    ],
+    "tip": [
+      "Algo já aconteceu ou já está em vigor → schon."
+    ],
+    "important": [
+      "schon = já."
+    ]
+  },
+  "index": 521
+}
+```
+
+---
+
+## Finding 26
+
+**Audit ID:** `LRB080-0026`
+**Finding Stable ID:** `g2/a1/pt|schwimmen|idx:531|lv/study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `schwimmen|idx:531`
+**Field / path:** `lv/study`
+**Severity:** CRITICAL
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Peldet","study.translation":"Peldet","study.explanation":"[\"Adestramento Galvenā: schwimmen nozīmē pldēt kākustību vai sportu.\",\"Schwimmen liedo, e cilvēks peld ūdenī ar peldēšanaskustībām.\",\"Sim, estou muito feliz com os banheiros.\",\"A1 līmenī svarīgi nošˈirt: nadar = peldēt, banhar = peldēties.\"]","study.examples":"[{\"de\":\"Ich schwimme gern.\",\"lv\":\"Homem Patik Peldet.\"},{\"de\":\"Er schwimmt sehr gut.\",\"lv\":\"Viņš ųoti labi peld.\"},{\"de\":\"Wir schwimmen im Schwimmbad.\",\"lv\":\"Mēs peldam baseinā.\"},{\"de\":\"Ich gehe baden.\",\"lv\":\"- É exatamente isso.\"}]","study.comparison":"[{\"word\":\"schwimmen\",\"meaning\":\"Peldēt kākustība vai esportes\",\"example\":\"Ele nada muito bem.\"},{\"word\":\"baden\",\"meaning\":\"Peldēties / atrasties ūdenī\",\"example\":\"Vou nadar.\"},{\"word\":\"schwimmen gehen\",\"meaning\":\"Cujo? Não importa.\",\"example\":\"Vamos nadar.\"},{\"word\":\"duschen\",\"meaning\":\"Mazgāties dušā\",\"example\":\"Tomo banho pela manhã.\"}]","study.tip":"{\"text\":\"Atceries: peldēšanas kustība → schwimmen; atpūta ūdenī → baden.\"}","study.important":"[\"schwimmen e baden não são a mesma coisa.\",\"Em letão, frequentemente se diz \\\"peldēt\\\", mas em alemão é preciso verificar se é movimento ou nado.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"schwimmen","lv":"Nadar","level":"A1","study":{"id":"a1-schwimmen","layout":"standardStudy","translation":"Nadar","explanation":["Ideia principal: schwimmen é mover-se na água nadando ou praticar natação.","baden significa banhar-se ou ficar na água e não implica necessariamente nadar."],"examples":[{"de":"Ich schwimme gern.","lv":"Eu gosto de nadar."},{"de":"Er schwimmt sehr gut.","lv":"Ele nada muito bem."},{"de":"Wir schwimmen im Schwimmbad.","lv":"Nós nadamos na piscina."},{"de":"Ich gehe baden.","lv":"Eu vou me banhar."}],"comparison":[{"word":"schwimmen","meaning":"nadar • praticar natação","example":"Er schwimmt sehr gut. – Ele nada muito bem."},{"word":"baden","meaning":"banhar-se • ficar na água","example":"Ich gehe baden. – Eu vou me banhar."},{"word":"schwimmen gehen","meaning":"ir nadar","example":"Wir gehen schwimmen. – Nós vamos nadar."},{"word":"duschen","meaning":"tomar banho de chuveiro","example":"Ich dusche morgens. – Eu tomo banho de manhã."}],"tip":["Movimento de natação → schwimmen; banho ou lazer na água → baden."],"important":["schwimmen e baden não são sinônimos completos."]}}
+**Note:** Pilna PT kartīte «schwimmen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "schwimmen",
+  "lv": "Nadar",
+  "level": "A1",
+  "study": {
+    "id": "a1-schwimmen",
+    "layout": "standardStudy",
+    "translation": "Nadar",
+    "explanation": [
+      "Ideia principal: schwimmen é mover-se na água nadando ou praticar natação.",
+      "baden significa banhar-se ou ficar na água e não implica necessariamente nadar."
+    ],
+    "examples": [
+      {
+        "de": "Ich schwimme gern.",
+        "lv": "Eu gosto de nadar."
+      },
+      {
+        "de": "Er schwimmt sehr gut.",
+        "lv": "Ele nada muito bem."
+      },
+      {
+        "de": "Wir schwimmen im Schwimmbad.",
+        "lv": "Nós nadamos na piscina."
+      },
+      {
+        "de": "Ich gehe baden.",
+        "lv": "Eu vou me banhar."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "schwimmen",
+        "meaning": "nadar • praticar natação",
+        "example": "Er schwimmt sehr gut. – Ele nada muito bem."
+      },
+      {
+        "word": "baden",
+        "meaning": "banhar-se • ficar na água",
+        "example": "Ich gehe baden. – Eu vou me banhar."
+      },
+      {
+        "word": "schwimmen gehen",
+        "meaning": "ir nadar",
+        "example": "Wir gehen schwimmen. – Nós vamos nadar."
+      },
+      {
+        "word": "duschen",
+        "meaning": "tomar banho de chuveiro",
+        "example": "Ich dusche morgens. – Eu tomo banho de manhã."
+      }
+    ],
+    "tip": [
+      "Movimento de natação → schwimmen; banho ou lazer na água → baden."
+    ],
+    "important": [
+      "schwimmen e baden não são sinônimos completos."
+    ]
+  },
+  "index": 531
+}
+```
+
+---
+
+## Finding 27
+
+**Audit ID:** `LRB080-0027`
+**Finding Stable ID:** `g2/a1/pt|sehen|idx:539|lv/study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `sehen|idx:539`
+**Field / path:** `lv/study`
+**Severity:** CRITICAL
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Redzet","study.translation":"Redzet","study.explanation":"[\"Galvenā tama: sehen nozīmē redzēt acīm.\",\"Sim, runa ir par to, ko acis uztver, dito sehen.\",\"Aproveite o tempo para revisá-lo com antecedência.\",\"Eu vou te contar sobre mim. = É tevi redzu.\"]","study.examples":"[{\"de\":\"Ich sehe dich.\",\"lv\":\"Eu sou Tevi Redzu.\"},{\"de\":\"Siehst du das Auto?\",\"lv\":\"Você vê aquele carro?\"},{\"de\":\"Ich sehe nichts.\",\"lv\":\"É Neko Neredzu.\"},{\"de\":\"Wir schauen einen Film.\",\"lv\":\"Meus filmes de skatamies.\"}]","study.comparison":"[{\"word\":\"sehen\",\"meaning\":\"Redzet\",\"example\":\"Eu te vejo.\"},{\"word\":\"schauen\",\"meaning\":\"Trenós\",\"example\":\"Olho para o quadro.\"},{\"word\":\"ansehen\",\"meaning\":\"Apskatīt / skatīties\",\"example\":\"Assisto ao filme.\"},{\"word\":\"hören\",\"meaning\":\"Dzirdet\",\"example\":\"Ouço música.\"}]","study.tip":"{\"text\":\"Atceries: acis uztver → sehen; apzināti skaties → schauen/ansehen.\"}","study.important":"[\"sehen não é a mesma coisa que schauen.\",\"Ich sehe dich = eu te vejo; Ich schaue den Film = eu assisto ao filme.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"sehen","lv":"Ver","level":"A1","study":{"id":"a1-sehen","layout":"standardStudy","translation":"Ver","explanation":["Ideia principal: sehen significa ver ou perceber algo com os olhos.","schauen e ansehen enfatizam o ato intencional de olhar ou assistir."],"examples":[{"de":"Ich sehe dich.","lv":"Eu vejo você."},{"de":"Siehst du das Auto?","lv":"Você vê o carro?"},{"de":"Ich sehe nichts.","lv":"Eu não vejo nada."},{"de":"Wir schauen einen Film.","lv":"Nós assistimos a um filme."}],"comparison":[{"word":"sehen","meaning":"ver • perceber","example":"Ich sehe dich. – Eu vejo você."},{"word":"schauen","meaning":"olhar","example":"Ich schaue auf das Bild. – Eu olho para a imagem."},{"word":"ansehen","meaning":"olhar • assistir","example":"Ich sehe mir den Film an. – Eu assisto ao filme."},{"word":"hören","meaning":"ouvir","example":"Ich höre Musik. – Eu ouço música."}],"tip":["Perceber com os olhos → sehen; olhar intencionalmente → schauen/ansehen."],"important":["Ich sehe dich = Eu vejo você; Ich schaue einen Film = Eu assisto a um filme."]}}
+**Note:** Pilna PT kartīte «sehen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "sehen",
+  "lv": "Ver",
+  "level": "A1",
+  "study": {
+    "id": "a1-sehen",
+    "layout": "standardStudy",
+    "translation": "Ver",
+    "explanation": [
+      "Ideia principal: sehen significa ver ou perceber algo com os olhos.",
+      "schauen e ansehen enfatizam o ato intencional de olhar ou assistir."
+    ],
+    "examples": [
+      {
+        "de": "Ich sehe dich.",
+        "lv": "Eu vejo você."
+      },
+      {
+        "de": "Siehst du das Auto?",
+        "lv": "Você vê o carro?"
+      },
+      {
+        "de": "Ich sehe nichts.",
+        "lv": "Eu não vejo nada."
+      },
+      {
+        "de": "Wir schauen einen Film.",
+        "lv": "Nós assistimos a um filme."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "sehen",
+        "meaning": "ver • perceber",
+        "example": "Ich sehe dich. – Eu vejo você."
+      },
+      {
+        "word": "schauen",
+        "meaning": "olhar",
+        "example": "Ich schaue auf das Bild. – Eu olho para a imagem."
+      },
+      {
+        "word": "ansehen",
+        "meaning": "olhar • assistir",
+        "example": "Ich sehe mir den Film an. – Eu assisto ao filme."
+      },
+      {
+        "word": "hören",
+        "meaning": "ouvir",
+        "example": "Ich höre Musik. – Eu ouço música."
+      }
+    ],
+    "tip": [
+      "Perceber com os olhos → sehen; olhar intencionalmente → schauen/ansehen."
+    ],
+    "important": [
+      "Ich sehe dich = Eu vejo você; Ich schaue einen Film = Eu assisto a um filme."
+    ]
+  },
+  "index": 539
+}
+```
+
+---
+
+## Finding 28
+
+**Audit ID:** `LRB080-0028`
+**Finding Stable ID:** `g2/a1/pt|sein|idx:542|lv/study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `sein|idx:542`
+**Field / path:** `lv/study`
+**Severity:** CRITICAL
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Nós dois estamos arruinados por causa de nossas famílias.","study.translation":"Nós dois estamos arruinados por causa de nossas famílias.","study.explanation":"[\"Adestramento Galvenā: peito nozīmē mas.\",\"Seno ir come no svarīgākajiem vacu darbības vārdiem.\",\"A1 līmenī īpaši svarīgas formas ir ich bin, du bist, er ist een wir sind.\",\"Sein lateo arī daudzos teikumos ar atrašanās vietu vai īpašību.\"]","study.examples":"[{\"de\":\"Ich bin hier.\",\"lv\":\"Tenho certeza disso.\"},{\"de\":\"Du bist müde.\",\"lv\":\"Você é novo.\"},{\"de\":\"Er ist Lehrer.\",\"lv\":\"Vite ir skolotājs.\"},{\"de\":\"Wir sind zu Hause.\",\"lv\":\"- Estamos no patamar. - Estamos em casa.\"}]","study.comparison":"[{\"word\":\"sein\",\"meaning\":\"Nós dois estamos arruinados por causa de nossas famílias.\",\"example\":\"Estou aqui.\"},{\"word\":\"haben\",\"meaning\":\"J.\",\"example\":\"Tenho tempo.\"},{\"word\":\"werden\",\"meaning\":\"Kļût\",\"example\":\"Fico cansado.\"},{\"word\":\"bleiben\",\"meaning\":\"Palikt\",\"example\":\"Fico aqui.\"}]","study.tip":"{\"text\":\"Atceries: ich bin = es esmu; du bist = tu esi.\"}","study.important":"[\"As formas de sein devem ser aprendidas separadamente: bin, bist, ist, sind.\",\"Ich bin é \\\"eu sou\\\", não \\\"eu estar\\\".\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"sein","lv":"Ser • Estar","level":"A1","study":{"id":"a1-sein","layout":"standardStudy","translation":"Ser • Estar","explanation":["Ideia principal: sein é o verbo alemão “ser/estar”.","Suas formas mais importantes no presente são bin, bist, ist e sind."],"examples":[{"de":"Ich bin hier.","lv":"Estou aqui."},{"de":"Du bist müde.","lv":"Você está cansado."},{"de":"Er ist Lehrer.","lv":"Ele é professor."},{"de":"Wir sind zu Hause.","lv":"Estamos em casa."}],"comparison":[{"word":"sein","meaning":"ser • estar","example":"Ich bin hier. – Estou aqui."},{"word":"haben","meaning":"ter","example":"Ich habe Zeit. – Tenho tempo."},{"word":"werden","meaning":"tornar-se • ficar","example":"Ich werde müde. – Estou ficando cansado."},{"word":"bleiben","meaning":"ficar • permanecer","example":"Ich bleibe hier. – Eu fico aqui."}],"tip":["ich bin = eu sou/estou; du bist = você é/está."],"important":["As formas de sein são irregulares e devem ser aprendidas: bin, bist, ist, sind."]}}
+**Note:** Pilna PT kartīte «sein»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "sein",
+  "lv": "Ser • Estar",
+  "level": "A1",
+  "study": {
+    "id": "a1-sein",
+    "layout": "standardStudy",
+    "translation": "Ser • Estar",
+    "explanation": [
+      "Ideia principal: sein é o verbo alemão “ser/estar”.",
+      "Suas formas mais importantes no presente são bin, bist, ist e sind."
+    ],
+    "examples": [
+      {
+        "de": "Ich bin hier.",
+        "lv": "Estou aqui."
+      },
+      {
+        "de": "Du bist müde.",
+        "lv": "Você está cansado."
+      },
+      {
+        "de": "Er ist Lehrer.",
+        "lv": "Ele é professor."
+      },
+      {
+        "de": "Wir sind zu Hause.",
+        "lv": "Estamos em casa."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "sein",
+        "meaning": "ser • estar",
+        "example": "Ich bin hier. – Estou aqui."
+      },
+      {
+        "word": "haben",
+        "meaning": "ter",
+        "example": "Ich habe Zeit. – Tenho tempo."
+      },
+      {
+        "word": "werden",
+        "meaning": "tornar-se • ficar",
+        "example": "Ich werde müde. – Estou ficando cansado."
+      },
+      {
+        "word": "bleiben",
+        "meaning": "ficar • permanecer",
+        "example": "Ich bleibe hier. – Eu fico aqui."
+      }
+    ],
+    "tip": [
+      "ich bin = eu sou/estou; du bist = você é/está."
+    ],
+    "important": [
+      "As formas de sein são irregulares e devem ser aprendidas: bin, bist, ist, sind."
+    ]
+  },
+  "index": 542
+}
+```
+
+---
+
+## Finding 29
+
+**Audit ID:** `LRB080-0029`
+**Finding Stable ID:** `g2/a1/pt|Seite|idx:544|lv/study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `Seite|idx:544`
+**Field / path:** `lv/study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Lappuse • Eu coloquei","study.translation":"Lappuse • Eu coloquei","study.explanation":"[\"Galvenā doma: die Seite var nozīmēt grāmatas/dokumenta lappusi vai kādas pusi/malu.\",\"Grāmatā, žurnālā vai tīmekųa vietnē page = lappuse (página 5 = 5. lappuse).\",\"Telpiskā nozīmē o lado = coloquei (esquerda = kreisajā pusē).\",\"Pārnestā nozīmē die Seite var nozīmēt arī pusi konfliktā vai domās (auf myer Seite = manā pusē).\",\"Konteksten (grāmata/lasīšana vai novietojums/attiecības) pare pareizo nozīmi.\",\"Daudzskaitlī abām nozīmēm: as páginas.\"]","study.examples":"[{\"de\":\"Schlagt die Seite zwanzig auf.\",\"lv\":\"Atverite divdesmito lappusi.\"},{\"de\":\"Auf der linken Seite ist ein Park.\",\"lv\":\"Kreisajā colocou parques.\"},{\"de\":\"Die Webseite lädt langsam.\",\"lv\":\"Tīmekųa lappuse ielādējas lēni.\"},{\"de\":\"Er steht auf meiner Seite.\",\"lv\":\"Viņš ir manā pusē.\"},{\"de\":\"Das Buch hat 200 Seiten.\",\"lv\":\"Grammatai tem 200 lappuses.\"},{\"de\":\"Auf der anderen Seite der Straße.\",\"lv\":\"Coloquei outra linha.\"}]","study.tip":"[\"Ao falar sobre livro ou leitura → página. Ao falar sobre localização, direção ou relações → lado.\",\"Página X em um livro é sempre página, não lado.\"]","study.important":"[\"die Seite = página OU lado — o contexto diferencia.\",\"Daudzskaitlī abām nozīmēm: as páginas.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"Seite","lv":"Página • Lado","level":"A1","de_article":"die","de_plural":"die Seiten","study":{"id":"a1-seite","layout":"standardStudy","translation":"Página • Lado","explanation":["Ideia principal: die Seite pode significar uma página ou um lado, conforme o contexto.","Em livros, Seite indica página; em posição, direção ou apoio, indica lado."],"examples":[{"de":"Schlagt die Seite zwanzig auf.","lv":"Abram na página vinte."},{"de":"Auf der linken Seite ist ein Park.","lv":"Há um parque do lado esquerdo."},{"de":"Die Webseite lädt langsam.","lv":"A página da internet carrega devagar."},{"de":"Er steht auf meiner Seite.","lv":"Ele está do meu lado."},{"de":"Das Buch hat 200 Seiten.","lv":"O livro tem 200 páginas."},{"de":"Auf der anderen Seite der Straße.","lv":"Do outro lado da rua."}],"tip":["Em livro ou leitura → página; em posição, direção ou relação → lado."],"important":["O plural das duas acepções é die Seiten."]}}
+**Note:** Pilna PT kartīte «Seite»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Seite",
+  "de_article": "die",
+  "de_plural": "die Seiten",
+  "lv": "Página • Lado",
+  "level": "A1",
+  "study": {
+    "id": "a1-seite",
+    "layout": "standardStudy",
+    "translation": "Página • Lado",
+    "explanation": [
+      "Ideia principal: die Seite pode significar uma página ou um lado, conforme o contexto.",
+      "Em livros, Seite indica página; em posição, direção ou apoio, indica lado."
+    ],
+    "examples": [
+      {
+        "de": "Schlagt die Seite zwanzig auf.",
+        "lv": "Abram na página vinte."
+      },
+      {
+        "de": "Auf der linken Seite ist ein Park.",
+        "lv": "Há um parque do lado esquerdo."
+      },
+      {
+        "de": "Die Webseite lädt langsam.",
+        "lv": "A página da internet carrega devagar."
+      },
+      {
+        "de": "Er steht auf meiner Seite.",
+        "lv": "Ele está do meu lado."
+      },
+      {
+        "de": "Das Buch hat 200 Seiten.",
+        "lv": "O livro tem 200 páginas."
+      },
+      {
+        "de": "Auf der anderen Seite der Straße.",
+        "lv": "Do outro lado da rua."
+      }
+    ],
+    "tip": [
+      "Em livro ou leitura → página; em posição, direção ou relação → lado."
+    ],
+    "important": [
+      "O plural das duas acepções é die Seiten."
+    ]
+  },
+  "index": 544
+}
+```
+
+---
+
+## Finding 30
+
+**Audit ID:** `LRB080-0030`
+**Finding Stable ID:** `g2/a1/pt|sich|idx:547|lv/study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `sich|idx:547`
+**Field / path:** `lv/study`
+**Severity:** CRITICAL
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Sevi • Sev","study.translation":"Sevi • Sev","study.explanation":"[\"Idéia principal: Mostra que a ação se refere ao próprio autor.\",\"Latviski a bieži tulko kā sevi vai sev.\",\"Danos vacu darbības vārdos sich ir obligata daļa, piemēram, sich waschen.\",\"A1 līmenī svarīgi pamanīt: eu lavo, eu lavo.\"]","study.examples":"[{\"de\":\"Er wäscht sich.\",\"lv\":\"Veja mazgājas.\"},{\"de\":\"Ich setze mich.\",\"lv\":\"É apsēžos.\"},{\"de\":\"Sie freut sich.\",\"lv\":\"Vinhedo Priecājas.\"},{\"de\":\"Ich wasche das Auto.\",\"lv\":\"É uma máquina mazgāju.\"}]","study.comparison":"[{\"word\":\"sich\",\"meaning\":\"Sevi/sev\",\"example\":\"Ele se lava.\"},{\"word\":\"mich\",\"meaning\":\"Mãos / bolo sevi ich\",\"example\":\"Eu me lavo.\"},{\"word\":\"dich\",\"meaning\":\"Torta tevi/sevi\",\"example\":\"Você se lava.\"},{\"word\":\"ihn\",\"meaning\":\"Viñú\",\"example\":\"Eu o vejo.\"}]","study.tip":"{\"text\":\"Atceries: darbība uz sevi → sich/mich/dich.\"}","study.important":"[\"sich não é um substantivo independente.\",\"Ele muda de acordo com a pessoa: ich → mich, du → dich, er/sie/es → sich.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"sich","lv":"Se • A si mesmo","level":"A1","study":{"id":"a1-sich","layout":"standardStudy","translation":"Se • A si mesmo","explanation":["Ideia principal: sich é um pronome reflexivo e mostra que a ação volta ao próprio sujeito.","A forma varia conforme a pessoa: ich → mich, du → dich, er/sie/es → sich."],"examples":[{"de":"Er wäscht sich.","lv":"Ele se lava."},{"de":"Ich setze mich.","lv":"Eu me sento."},{"de":"Sie freut sich.","lv":"Ela se alegra."},{"de":"Ich wasche das Auto.","lv":"Eu lavo o carro."}],"comparison":[{"word":"sich","meaning":"se • a si mesmo","example":"Er wäscht sich. – Ele se lava."},{"word":"mich","meaning":"me • a mim mesmo","example":"Ich wasche mich. – Eu me lavo."},{"word":"dich","meaning":"te • a ti mesmo","example":"Du wäschst dich. – Você se lava."},{"word":"ihn","meaning":"o • ele","example":"Ich sehe ihn. – Eu o vejo."}],"tip":["Ação dirigida ao próprio sujeito → sich/mich/dich."],"important":["sich não é um substantivo independente; é um pronome reflexivo."]}}
+**Note:** Pilna PT kartīte «sich»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "sich",
+  "lv": "Se • A si mesmo",
+  "level": "A1",
+  "study": {
+    "id": "a1-sich",
+    "layout": "standardStudy",
+    "translation": "Se • A si mesmo",
+    "explanation": [
+      "Ideia principal: sich é um pronome reflexivo e mostra que a ação volta ao próprio sujeito.",
+      "A forma varia conforme a pessoa: ich → mich, du → dich, er/sie/es → sich."
+    ],
+    "examples": [
+      {
+        "de": "Er wäscht sich.",
+        "lv": "Ele se lava."
+      },
+      {
+        "de": "Ich setze mich.",
+        "lv": "Eu me sento."
+      },
+      {
+        "de": "Sie freut sich.",
+        "lv": "Ela se alegra."
+      },
+      {
+        "de": "Ich wasche das Auto.",
+        "lv": "Eu lavo o carro."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "sich",
+        "meaning": "se • a si mesmo",
+        "example": "Er wäscht sich. – Ele se lava."
+      },
+      {
+        "word": "mich",
+        "meaning": "me • a mim mesmo",
+        "example": "Ich wasche mich. – Eu me lavo."
+      },
+      {
+        "word": "dich",
+        "meaning": "te • a ti mesmo",
+        "example": "Du wäschst dich. – Você se lava."
+      },
+      {
+        "word": "ihn",
+        "meaning": "o • ele",
+        "example": "Ich sehe ihn. – Eu o vejo."
+      }
+    ],
+    "tip": [
+      "Ação dirigida ao próprio sujeito → sich/mich/dich."
+    ],
+    "important": [
+      "sich não é um substantivo independente; é um pronome reflexivo."
+    ]
+  },
+  "index": 547
+}
+```
+
+---
+
+## Finding 31
+
+**Audit ID:** `LRB080-0031`
+**Finding Stable ID:** `g2/a1/pt|sicher|idx:548|lv and study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `sicher|idx:548`
+**Field / path:** `lv and study`
+**Severity:** CRITICAL
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Dross • Notaikti","study.translation":"Dross • Notaikti","study.explanation":"[\"Adestramento Galvenā: certeza kā īpašības vārds nozīmē drošs, kā apstākųa vārds nozīmē noteikti/droši vien.\",\"Runājot par vietu, situāciju vai personu, safe = drošs (um lugar seguro = droša proíbe).\",\"Como confirmação ou certeza em uma frase, sicher = verdadeiro/natural (Das ist sicher wahr. = É definitivamente verdade).\",\"VERDADEIRO! kā atsevišˈa atbilde nozīmē protams!/droši vien!\"]","study.examples":"[{\"de\":\"Ist das Wasser sicher?\",\"lv\":\"Vai ūdens ir drošs?\"},{\"de\":\"Kommst du morgen? – Sicher!\",\"lv\":\"Você está rindo? –notaikti!\"},{\"de\":\"Er ist sicher zu Hause.\",\"lv\":\"Veja droši vien ir mājās.\"},{\"de\":\"Das ist eine sichere Lösung.\",\"lv\":\"Tas ir drošs risinājums.\"},{\"de\":\"Ich bin mir sicher.\",\"lv\":\"Eles são parlamentares.\"},{\"de\":\"Fahr sicher!\",\"lv\":\"Brauc drosi!\"}]","study.tip":"[\"Sobre lugar ou situação (segurança) → seguro.\",\"Como certeza ou confirmação na frase → certamente/provavelmente.\"]","study.important":"[\"sicher = seguro (adjetivo) OU certamente/provavelmente (advérbio).\",\"sich sicher sein = estar certo.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"sicher","lv":"Seguro • Certamente","level":"A1","study":{"id":"a1-sicher","layout":"standardStudy","translation":"Seguro • Certamente","explanation":["Ideia principal: sicher pode ser adjetivo “seguro” ou advérbio “certamente/com certeza”.","A expressão sich sicher sein significa estar certo ou ter certeza."],"examples":[{"de":"Ist das Wasser sicher?","lv":"A água é segura?"},{"de":"Kommst du morgen? – Sicher!","lv":"Você vem amanhã? – Com certeza!"},{"de":"Er ist sicher zu Hause.","lv":"Ele certamente está em casa."},{"de":"Das ist eine sichere Lösung.","lv":"Essa é uma solução segura."},{"de":"Ich bin mir sicher.","lv":"Tenho certeza."},{"de":"Fahr sicher!","lv":"Dirija com segurança!"}],"tip":["Segurança → seguro; certeza ou confirmação → certamente/com certeza."],"important":["sicher pode funcionar como adjetivo ou advérbio, conforme o contexto."]}}
+**Note:** Pilna PT kartīte «sicher»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "sicher",
+  "lv": "Seguro • Certamente",
+  "level": "A1",
+  "study": {
+    "id": "a1-sicher",
+    "layout": "standardStudy",
+    "translation": "Seguro • Certamente",
+    "explanation": [
+      "Ideia principal: sicher pode ser adjetivo “seguro” ou advérbio “certamente/com certeza”.",
+      "A expressão sich sicher sein significa estar certo ou ter certeza."
+    ],
+    "examples": [
+      {
+        "de": "Ist das Wasser sicher?",
+        "lv": "A água é segura?"
+      },
+      {
+        "de": "Kommst du morgen? – Sicher!",
+        "lv": "Você vem amanhã? – Com certeza!"
+      },
+      {
+        "de": "Er ist sicher zu Hause.",
+        "lv": "Ele certamente está em casa."
+      },
+      {
+        "de": "Das ist eine sichere Lösung.",
+        "lv": "Essa é uma solução segura."
+      },
+      {
+        "de": "Ich bin mir sicher.",
+        "lv": "Tenho certeza."
+      },
+      {
+        "de": "Fahr sicher!",
+        "lv": "Dirija com segurança!"
+      }
+    ],
+    "tip": [
+      "Segurança → seguro; certeza ou confirmação → certamente/com certeza."
+    ],
+    "important": [
+      "sicher pode funcionar como adjetivo ou advérbio, conforme o contexto."
+    ]
+  },
+  "index": 548
+}
+```
+
+---
+
+## Finding 32
+
+**Audit ID:** `LRB080-0032`
+**Finding Stable ID:** `g2/a1/pt|sie|idx:549|lv and study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `sie|idx:549`
+**Field / path:** `lv and study`
+**Severity:** CRITICAL
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Viņi / vinhas","study.translation":"Viņi / vinhas","study.explanation":"[\"Ideia principal: Forma plural — falar sobre várias pessoas. O verbo termina em -en: kochen, essen, gehen.\",\"Ela galvenokārt nozīmē: venha peneirar.\",\"Bieži raksturo: darbības vārds vientkaitlī (-t).\",\"Leia galvenokārt nozīmē: vairāki cilvēki.\",\"Frequentemente caracterizado por: verbo no plural (-en).\",\"Sie galvenokārt nozīmē: piklājīga uzruna.\",\"Biezi raksturo: obrigado ao amor S.\",\"Mazais sie nozīmē viņu, ja darbības vārds ir venuskaitlī (Sie comprou = viņa gatavo).\"]","study.examples":"[{\"de\":\"Sie kochen.\",\"lv\":\"Eu sou Gataviano.\"},{\"de\":\"Sie kocht.\",\"lv\":\"Vinhedo Gatavo.\"},{\"de\":\"Sie isst.\",\"lv\":\"Vinhedo Ed.\"},{\"de\":\"Sie kochen.\",\"lv\":\"Eu sou Gataviano.\"},{\"de\":\"Sie spielen Fußball.\",\"lv\":\"Viņi joga futebol.\"},{\"de\":\"Sie kochen, bitte.\",\"lv\":\"Jūs gatavojat, lūdzu.\"}]","study.tip":"[\"Forma plural — falar sobre várias pessoas. O verbo termina em -en: kochen, essen, gehen.\",\"Use sie quando o contexto corresponder a esse significado.\"]","study.important":"[\"O pronome de cortesia sempre com maiúscula S: Sie, não sie.\",\"Ela: Sie kocht. Eles: sie kochen. Vocês: Sie kochen.\",\"Incorreto: sie kocht → Correto: Sie kocht\",\"Incorreto: Sie kocht (eles) → Correto: Sie kochen\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"sie","lv":"Eles • Elas • Ela","level":"A1","study":{"id":"a1-sie-study","layout":"standardStudy","translation":"Eles • Elas • Ela","explanation":["Ideia principal: sie com minúscula pode significar “ela” no singular ou “eles/elas” no plural.","O verbo distingue o número: sie kocht = ela cozinha; sie kochen = eles/elas cozinham."],"examples":[{"de":"Sie kochen.","lv":"Eles cozinham."},{"de":"Sie kocht.","lv":"Ela cozinha."},{"de":"Sie isst.","lv":"Ela come."},{"de":"Sie kochen.","lv":"Eles cozinham."},{"de":"Sie spielen Fußball.","lv":"Eles jogam futebol."},{"de":"Sie kochen, bitte.","lv":"O senhor cozinha, por favor."}],"tip":["sie + verbo singular = ela; sie + verbo plural = eles/elas."],"important":["A forma de cortesia Sie escreve-se sempre com S maiúsculo."]}}
+**Note:** Pilna PT kartīte «sie»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "sie",
+  "lv": "Eles • Elas • Ela",
+  "level": "A1",
+  "study": {
+    "id": "a1-sie-study",
+    "layout": "standardStudy",
+    "translation": "Eles • Elas • Ela",
+    "explanation": [
+      "Ideia principal: sie com minúscula pode significar “ela” no singular ou “eles/elas” no plural.",
+      "O verbo distingue o número: sie kocht = ela cozinha; sie kochen = eles/elas cozinham."
+    ],
+    "examples": [
+      {
+        "de": "Sie kochen.",
+        "lv": "Eles cozinham."
+      },
+      {
+        "de": "Sie kocht.",
+        "lv": "Ela cozinha."
+      },
+      {
+        "de": "Sie isst.",
+        "lv": "Ela come."
+      },
+      {
+        "de": "Sie kochen.",
+        "lv": "Eles cozinham."
+      },
+      {
+        "de": "Sie spielen Fußball.",
+        "lv": "Eles jogam futebol."
+      },
+      {
+        "de": "Sie kochen, bitte.",
+        "lv": "O senhor cozinha, por favor."
+      }
+    ],
+    "tip": [
+      "sie + verbo singular = ela; sie + verbo plural = eles/elas."
+    ],
+    "important": [
+      "A forma de cortesia Sie escreve-se sempre com S maiúsculo."
+    ]
+  },
+  "index": 549
+}
+```
+
+---
+
+## Finding 33
+
+**Audit ID:** `LRB080-0033`
+**Finding Stable ID:** `g2/a1/pt|Sie|idx:550|lv and study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `Sie|idx:550`
+**Field / path:** `lv and study`
+**Severity:** CRITICAL
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"SÓ","study.translation":"SÓ","study.explanation":"[\"Galvenā doma: Pieklājības uzruna — vienmēr ar lielo S. Latviski: jūs. Biezi ar darbības vārdu daudzskaitlī.\",\"Ela galvenokārt nozīmē: venha peneirar.\",\"Bieži raksturo: darbības vārds vientkaitlī (-t).\",\"Leia galvenokārt nozīmē: vairāki cilvēki.\",\"Frequentemente caracterizado por: verbo no plural (-en).\",\"Sie galvenokārt nozīmē: piklājīga uzruna.\",\"Biezi raksturo: obrigado ao amor S.\",\"Mazais sie nozīmē viņu, ja darbības vārds ir venuskaitlī (Sie comprou = viņa gatavo).\"]","study.examples":"[{\"de\":\"Sie kochen, bitte.\",\"lv\":\"Jūs gatavojat, lūdzu.\"},{\"de\":\"Sie kocht.\",\"lv\":\"Vinhedo Gatavo.\"},{\"de\":\"Sie isst.\",\"lv\":\"Vinhedo Ed.\"},{\"de\":\"Sie kochen.\",\"lv\":\"Eu sou Gataviano.\"},{\"de\":\"Sie spielen Fußball.\",\"lv\":\"Viņi joga futebol.\"},{\"de\":\"Sie kochen, bitte.\",\"lv\":\"Jūs gatavojat, lūdzu.\"}]","study.tip":"[\"Pronome de cortesia — sempre com maiúscula S. Em letão: jūs. Frequentemente com verbo no plural.\",\"Use Sie quando o contexto corresponder a esse significado.\"]","study.important":"[\"O pronome de cortesia sempre com maiúscula S: Sie, não sie.\",\"Ela: Sie kocht. Eles: sie kochen. Vocês: Sie kochen.\",\"Incorreto: sie kocht → Correto: Sie kocht\",\"Incorreto: Sie kocht (eles) → Correto: Sie kochen\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"Sie","lv":"O senhor • A senhora • Os senhores • As senhoras","level":"A1","study":{"id":"a1-sie-study-2","layout":"standardStudy","translation":"O senhor • A senhora • Os senhores • As senhoras","explanation":["Ideia principal: Sie com S maiúsculo é o pronome formal de tratamento.","Usa sempre a forma verbal do plural, mesmo ao falar com uma única pessoa."],"examples":[{"de":"Sie kochen, bitte.","lv":"O senhor cozinha, por favor."},{"de":"Sie kocht.","lv":"Ela cozinha."},{"de":"Sie isst.","lv":"Ela come."},{"de":"Sie kochen.","lv":"Eles cozinham."},{"de":"Sie spielen Fußball.","lv":"Eles jogam futebol."},{"de":"Sie kochen, bitte.","lv":"O senhor cozinha, por favor."}],"tip":["Tratamento formal → Sie com maiúscula e verbo no plural."],"important":["Não confunda Sie formal com sie = ela/eles/elas."]}}
+**Note:** Pilna PT kartīte «Sie»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Sie",
+  "lv": "O senhor • A senhora • Os senhores • As senhoras",
+  "level": "A1",
+  "study": {
+    "id": "a1-sie-study-2",
+    "layout": "standardStudy",
+    "translation": "O senhor • A senhora • Os senhores • As senhoras",
+    "explanation": [
+      "Ideia principal: Sie com S maiúsculo é o pronome formal de tratamento.",
+      "Usa sempre a forma verbal do plural, mesmo ao falar com uma única pessoa."
+    ],
+    "examples": [
+      {
+        "de": "Sie kochen, bitte.",
+        "lv": "O senhor cozinha, por favor."
+      },
+      {
+        "de": "Sie kocht.",
+        "lv": "Ela cozinha."
+      },
+      {
+        "de": "Sie isst.",
+        "lv": "Ela come."
+      },
+      {
+        "de": "Sie kochen.",
+        "lv": "Eles cozinham."
+      },
+      {
+        "de": "Sie spielen Fußball.",
+        "lv": "Eles jogam futebol."
+      },
+      {
+        "de": "Sie kochen, bitte.",
+        "lv": "O senhor cozinha, por favor."
+      }
+    ],
+    "tip": [
+      "Tratamento formal → Sie com maiúscula e verbo no plural."
+    ],
+    "important": [
+      "Não confunda Sie formal com sie = ela/eles/elas."
+    ]
+  },
+  "index": 550
+}
+```
+
+---
+
+## Finding 34
+
+**Audit ID:** `LRB080-0034`
+**Finding Stable ID:** `g2/a1/pt|sitzen|idx:558|lv and study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `sitzen|idx:558`
+**Field / path:** `lv and study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Sentir","study.translation":"Sentir","study.explanation":"[\"Adestramento Galvenā: sitzen nozīmē sēdēt.\",\"Fique acordado até tarde com cilvēku vai dzīvnieku, kas sēž.\",\"Dažreiz sit nozīmē arī atrasties noteiktā vietā, Bet A1 līmenī galvenā nozīme ir sēdēt.\",\"Svarīgi nošˈirt: sitzen = sēdēt, stehen = stāvēt, lie = gulēt/atrasties guļus.\"]","study.examples":"[{\"de\":\"Ich sitze am Tisch.\",\"lv\":\"É o seu bolo galda.\"},{\"de\":\"Die Kinder sitzen im Bus.\",\"lv\":\"Bērni é um busā.\"},{\"de\":\"Er steht an der Tür.\",\"lv\":\"Viņš stāv pie durvīm.\"},{\"de\":\"Die Katze liegt auf dem Sofa.\",\"lv\":\"Kais guų uz divāna.\"}]","study.comparison":"[{\"word\":\"sitzen\",\"meaning\":\"Sentir\",\"example\":\"Estou sentado à mesa.\"},{\"word\":\"stehen\",\"meaning\":\"Stavet\",\"example\":\"Ele está de pé à porta.\"},{\"word\":\"liegen\",\"meaning\":\"Escuna / atrasties guļus\",\"example\":\"O gato está deitado lá.\"},{\"word\":\"setzen\",\"meaning\":\"Apsēsties / nosēdināt\",\"example\":\"Eu me sento.\"}]","study.tip":"{\"text\":\"Atceries: sēdus → sitzen; stāvus → stehen; guļus → liegen.\"}","study.important":"[\"sitzen mostra a posição \\\"estar sentado\\\".\",\"Sentar-se é sich setzen, não sitzen.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"sitzen","lv":"Estar sentado","level":"A1","study":{"id":"a1-sitzen","layout":"standardStudy","translation":"Estar sentado","explanation":["Ideia principal: sitzen descreve o estado de estar sentado.","sich setzen descreve a ação de sentar-se; stehen e liegen descrevem outras posições."],"examples":[{"de":"Ich sitze am Tisch.","lv":"Estou sentado à mesa."},{"de":"Die Kinder sitzen im Bus.","lv":"As crianças estão sentadas no ônibus."},{"de":"Er steht an der Tür.","lv":"Ele está em pé junto à porta."},{"de":"Die Katze liegt auf dem Sofa.","lv":"O gato está deitado no sofá."}],"comparison":[{"word":"sitzen","meaning":"estar sentado","example":"Ich sitze am Tisch. – Estou sentado à mesa."},{"word":"stehen","meaning":"estar em pé","example":"Er steht an der Tür. – Ele está em pé junto à porta."},{"word":"liegen","meaning":"estar deitado","example":"Die Katze liegt dort. – O gato está deitado ali."},{"word":"setzen","meaning":"sentar-se • sentar alguém","example":"Ich setze mich. – Eu me sento."}],"tip":["Sentado → sitzen; em pé → stehen; deitado → liegen."],"important":["sitzen é o estado; sich setzen é a ação de sentar-se."]}}
+**Note:** Pilna PT kartīte «sitzen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "sitzen",
+  "lv": "Estar sentado",
+  "level": "A1",
+  "study": {
+    "id": "a1-sitzen",
+    "layout": "standardStudy",
+    "translation": "Estar sentado",
+    "explanation": [
+      "Ideia principal: sitzen descreve o estado de estar sentado.",
+      "sich setzen descreve a ação de sentar-se; stehen e liegen descrevem outras posições."
+    ],
+    "examples": [
+      {
+        "de": "Ich sitze am Tisch.",
+        "lv": "Estou sentado à mesa."
+      },
+      {
+        "de": "Die Kinder sitzen im Bus.",
+        "lv": "As crianças estão sentadas no ônibus."
+      },
+      {
+        "de": "Er steht an der Tür.",
+        "lv": "Ele está em pé junto à porta."
+      },
+      {
+        "de": "Die Katze liegt auf dem Sofa.",
+        "lv": "O gato está deitado no sofá."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "sitzen",
+        "meaning": "estar sentado",
+        "example": "Ich sitze am Tisch. – Estou sentado à mesa."
+      },
+      {
+        "word": "stehen",
+        "meaning": "estar em pé",
+        "example": "Er steht an der Tür. – Ele está em pé junto à porta."
+      },
+      {
+        "word": "liegen",
+        "meaning": "estar deitado",
+        "example": "Die Katze liegt dort. – O gato está deitado ali."
+      },
+      {
+        "word": "setzen",
+        "meaning": "sentar-se • sentar alguém",
+        "example": "Ich setze mich. – Eu me sento."
+      }
+    ],
+    "tip": [
+      "Sentado → sitzen; em pé → stehen; deitado → liegen."
+    ],
+    "important": [
+      "sitzen é o estado; sich setzen é a ação de sentar-se."
+    ]
+  },
+  "index": 558
+}
+```
+
+---
+
+## Finding 35
+
+**Audit ID:** `LRB080-0035`
+**Finding Stable ID:** `g2/a1/pt|sollen|idx:564|lv and study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `sollen|idx:564`
+**Field / path:** `lv and study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Vajadzetu","study.translation":"Vajadzetu","study.explanation":"[\"Galvenā doma: soll nozīmē, ka kādam vajadzētu vai ir jādara kaut kas pēc norādes.\",\"Sollen bieži liedo, si kāds cits saka, ko darīt.\",\"Bag nav tik spēcīgs kā müssen.\",\"Uma expressão comum é Was soll ich machen? = O que devo fazer?\"]","study.examples":"[{\"de\":\"Was soll ich machen?\",\"lv\":\"Ko cara, Darit?\"},{\"de\":\"Du sollst kommen.\",\"lv\":\"Tev jaatnak.\"},{\"de\":\"Ich soll zu Hause bleiben.\",\"lv\":\"Jāpaliek mājās homem.\"},{\"de\":\"Ich muss jetzt gehen.\",\"lv\":\"Tagad jāiet man.\"}]","study.comparison":"[{\"word\":\"sollen\",\"meaning\":\"Vajadzētu / jadara pēc norādes\",\"example\":\"O que devo fazer?\"},{\"word\":\"müssen\",\"meaning\":\"Obrigação vajadzēt\",\"example\":\"Tenho que ir.\"},{\"word\":\"können\",\"meaning\":\"Varet\",\"example\":\"Posso vir.\"},{\"word\":\"wollen\",\"meaning\":\"Gribet\",\"example\":\"Quero ficar.\"}]","study.tip":"{\"text\":\"Atceries: kāds saka, kas jādara → sollen; obligāti jādara → müssen.\"}","study.important":"[\"Was soll ich machen? é uma frase muito comum.\",\"sollen e müssen não são exatamente iguais.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"sollen","lv":"Dever","level":"A1","study":{"id":"a1-sollen","layout":"standardStudy","translation":"Dever","explanation":["Ideia principal: sollen indica uma orientação, expectativa ou dever transmitido por outra pessoa.","müssen exprime necessidade ou obrigação mais direta."],"examples":[{"de":"Was soll ich machen?","lv":"O que devo fazer?"},{"de":"Du sollst kommen.","lv":"Você deve vir."},{"de":"Ich soll zu Hause bleiben.","lv":"Disseram que devo ficar em casa."},{"de":"Ich muss jetzt gehen.","lv":"Tenho de ir agora."}],"comparison":[{"word":"sollen","meaning":"dever, por orientação","example":"Was soll ich machen? – O que devo fazer?"},{"word":"müssen","meaning":"ter de • precisar","example":"Ich muss gehen. – Tenho de ir."},{"word":"können","meaning":"poder • saber fazer","example":"Ich kann kommen. – Posso vir."},{"word":"wollen","meaning":"querer","example":"Ich will bleiben. – Quero ficar."}],"tip":["Alguém diz o que deve ser feito → sollen; necessidade direta → müssen."],"important":["Was soll ich machen? é uma expressão muito comum."]}}
+**Note:** Pilna PT kartīte «sollen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "sollen",
+  "lv": "Dever",
+  "level": "A1",
+  "study": {
+    "id": "a1-sollen",
+    "layout": "standardStudy",
+    "translation": "Dever",
+    "explanation": [
+      "Ideia principal: sollen indica uma orientação, expectativa ou dever transmitido por outra pessoa.",
+      "müssen exprime necessidade ou obrigação mais direta."
+    ],
+    "examples": [
+      {
+        "de": "Was soll ich machen?",
+        "lv": "O que devo fazer?"
+      },
+      {
+        "de": "Du sollst kommen.",
+        "lv": "Você deve vir."
+      },
+      {
+        "de": "Ich soll zu Hause bleiben.",
+        "lv": "Disseram que devo ficar em casa."
+      },
+      {
+        "de": "Ich muss jetzt gehen.",
+        "lv": "Tenho de ir agora."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "sollen",
+        "meaning": "dever, por orientação",
+        "example": "Was soll ich machen? – O que devo fazer?"
+      },
+      {
+        "word": "müssen",
+        "meaning": "ter de • precisar",
+        "example": "Ich muss gehen. – Tenho de ir."
+      },
+      {
+        "word": "können",
+        "meaning": "poder • saber fazer",
+        "example": "Ich kann kommen. – Posso vir."
+      },
+      {
+        "word": "wollen",
+        "meaning": "querer",
+        "example": "Ich will bleiben. – Quero ficar."
+      }
+    ],
+    "tip": [
+      "Alguém diz o que deve ser feito → sollen; necessidade direta → müssen."
+    ],
+    "important": [
+      "Was soll ich machen? é uma expressão muito comum."
+    ]
+  },
+  "index": 564
+}
+```
+
+---
+
+## Finding 36
+
+**Audit ID:** `LRB080-0036`
+**Finding Stable ID:** `g2/a1/pt|sprechen|idx:5|lv, study.examples[].lv, study.comparison[].example, study.tip, study.important|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `sprechen|idx:5`
+**Field / path:** `lv, study.examples[].lv, study.comparison[].example, study.tip, study.important`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Runat","study.examples[].lv":null,"study.comparison[].example":null,"study.tip":"[\"sprechen = falar\",\"Use sprechen quando o contexto corresponder a esse significado.\"]","study.important":"[\"sprechen = falar.\",\"Falar, conversar ou usar a linguagem.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"sprechen","lv":"Falar","level":"A1","study":{"id":"a1-sprechen-study","layout":"standardStudy","translation":"Falar","explanation":["Ideia principal: sprechen significa falar, conversar ou usar uma língua.","Para dizer uma palavra, frase ou informação concreta, usa-se sagen."],"examples":[{"de":"Ich spreche Deutsch.","lv":"Eu falo alemão."},{"de":"Wir sprechen über die Arbeit.","lv":"Nós falamos sobre o trabalho."},{"de":"Sie spricht mit ihrer Lehrerin.","lv":"Ela fala com a professora dela."}],"comparison":[{"word":"sprechen","meaning":"falar • conversar","example":"Wir sprechen über die Arbeit. – Mēs runājam par darbu. – Nós falamos sobre o trabalho."},{"word":"sagen","meaning":"dizer algo concreto","example":"Sag mir die Wahrheit. – Pasaki man patiesību. – Diga-me a verdade."}],"tip":["sprechen = falar ou conversar."],"important":["Use sprechen para uma língua ou uma conversa; sagen para um enunciado concreto."]}}
+**Note:** Pilna PT kartīte «sprechen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "sprechen",
+  "lv": "Falar",
+  "level": "A1",
+  "study": {
+    "id": "a1-sprechen-study",
+    "layout": "standardStudy",
+    "translation": "Falar",
+    "explanation": [
+      "Ideia principal: sprechen significa falar, conversar ou usar uma língua.",
+      "Para dizer uma palavra, frase ou informação concreta, usa-se sagen."
+    ],
+    "examples": [
+      {
+        "de": "Ich spreche Deutsch.",
+        "lv": "Eu falo alemão."
+      },
+      {
+        "de": "Wir sprechen über die Arbeit.",
+        "lv": "Nós falamos sobre o trabalho."
+      },
+      {
+        "de": "Sie spricht mit ihrer Lehrerin.",
+        "lv": "Ela fala com a professora dela."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "sprechen",
+        "meaning": "falar • conversar",
+        "example": "Wir sprechen über die Arbeit. – Mēs runājam par darbu. – Nós falamos sobre o trabalho."
+      },
+      {
+        "word": "sagen",
+        "meaning": "dizer algo concreto",
+        "example": "Sag mir die Wahrheit. – Pasaki man patiesību. – Diga-me a verdade."
+      }
+    ],
+    "tip": [
+      "sprechen = falar ou conversar."
+    ],
+    "important": [
+      "Use sprechen para uma língua ou uma conversa; sagen para um enunciado concreto."
+    ]
+  },
+  "index": 5
+}
+```
+
+---
+
+## Finding 37
+
+**Audit ID:** `LRB080-0037`
+**Finding Stable ID:** `g2/a1/pt|stehen|idx:576|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `stehen|idx:576`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"id":"a1-stehen","layout":"standardStudy","translation":"Stavet","explanation":["Adestramento Galvenā: stehen nozīmē stāvēt vai atrasties stāvus.","Per cilvēku stand nozīmē stāvēt.","Para priekšmetu stand nozīmē, ka tas atrodas stāvus vai noteiktā vietā.","Svarīgi nošˈirt: stehen = stāvēt, sitzen = sēdēt, lie = gulēt/atrasties guļus."],"examples":[{"de":"Ich stehe an der Tür.","lv":"É stāvu pie durvīm."},{"de":"Der Stuhl steht in der Küche.","lv":"Krēsls stāv virtuvē."},{"de":"Er sitzt am Tisch.","lv":"Ele está sentado à mesa."},{"de":"Das Buch liegt auf dem Tisch.","lv":"Gramata atrodas uz galda."}],"comparison":[{"word":"stehen","meaning":"Stāvēt / atrasties stāvus","example":"Estou de pé aqui."},{"word":"sitzen","meaning":"Sentir","example":"Ele está sentado à mesa."},{"word":"liegen","meaning":"Escuna / atrasties guļus","example":"O livro está lá."},{"word":"stellen","meaning":"Nolikt Stavus","example":"Coloco a garrafa lá."}],"tip":{"text":"Atceries: stāvus → stehen; sēdus → sitzen; guļus → liegen."},"important":["stehen indica estado, não ação \"colocar\".","Colocar um objeto em pé é stellen, não stehen."],"sectionAccents":{"explanation":{"blue":["stehen"],"purple":["stāvēt","stāvus"],"red":["sitzen","Galvenā"]},"examples":[{"de":{"blue":["stehe"]},"lv":{"purple":["stāvu"]}},{"de":{"blue":["steht"],"yellow":["Stuhl"]},"lv":{"purple":["stāv"],"yellow":["Krēsls"]}},{"de":{"red":["sitzt"]},"lv":{"red":["está"]}},{"de":{"red":["liegt"]},"lv":{"red":["atrodas"]}}],"comparison":[{"word":{"green":["stehen"]},"meaning":{"purple":["stāvēt","stāvus"]},"example":{"blue":["stehe"]}},{"word":{"green":["sitzen"]},"meaning":{"purple":["Sentir"]},"example":{"red":["sitzt"]}},{"word":{"green":["liegen"]},"meaning":{"purple":["Escuna","guļus"]},"example":{"yellow":["liegt"]}},{"word":{"green":["stellen"]},"meaning":{"purple":["nolikt stāvus"]},"example":{"green":["stelle"]}}],"tip":{"left":{"blue":["stehen"],"purple":["stāvus"],"red":["sitzen"],"yellow":["liegen"]}},"important":[{"blue":["stehen"],"purple":["stāvokli"],"green":["stehen"]},{"green":["stellen"],"blue":["stehen"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"stehen","lv":"Estar em pé","level":"A1","study":{"id":"a1-stehen","layout":"standardStudy","translation":"Estar em pé","explanation":["Ideia principal: stehen significa estar em pé ou encontrar-se em posição vertical.","stellen é a ação de colocar algo em pé; sitzen e liegen indicam outras posições."],"examples":[{"de":"Ich stehe an der Tür.","lv":"Estou em pé junto à porta."},{"de":"Der Stuhl steht in der Küche.","lv":"A cadeira está na cozinha."},{"de":"Er sitzt am Tisch.","lv":"Ele está sentado à mesa."},{"de":"Das Buch liegt auf dem Tisch.","lv":"O livro está sobre a mesa."}],"comparison":[{"word":"stehen","meaning":"estar em pé","example":"Ich stehe hier. – Estou em pé aqui."},{"word":"sitzen","meaning":"estar sentado","example":"Er sitzt am Tisch. – Ele está sentado à mesa."},{"word":"liegen","meaning":"estar deitado","example":"Das Buch liegt dort. – O livro está ali."},{"word":"stellen","meaning":"colocar em pé","example":"Ich stelle die Flasche hin. – Coloco a garrafa em pé."}],"tip":["Em pé → stehen; sentado → sitzen; deitado → liegen."],"important":["stehen indica estado; stellen indica a ação de colocar em pé."]}}
+**Note:** Pilna PT kartīte «stehen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "stehen",
+  "lv": "Estar em pé",
+  "level": "A1",
+  "study": {
+    "id": "a1-stehen",
+    "layout": "standardStudy",
+    "translation": "Estar em pé",
+    "explanation": [
+      "Ideia principal: stehen significa estar em pé ou encontrar-se em posição vertical.",
+      "stellen é a ação de colocar algo em pé; sitzen e liegen indicam outras posições."
+    ],
+    "examples": [
+      {
+        "de": "Ich stehe an der Tür.",
+        "lv": "Estou em pé junto à porta."
+      },
+      {
+        "de": "Der Stuhl steht in der Küche.",
+        "lv": "A cadeira está na cozinha."
+      },
+      {
+        "de": "Er sitzt am Tisch.",
+        "lv": "Ele está sentado à mesa."
+      },
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "lv": "O livro está sobre a mesa."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "stehen",
+        "meaning": "estar em pé",
+        "example": "Ich stehe hier. – Estou em pé aqui."
+      },
+      {
+        "word": "sitzen",
+        "meaning": "estar sentado",
+        "example": "Er sitzt am Tisch. – Ele está sentado à mesa."
+      },
+      {
+        "word": "liegen",
+        "meaning": "estar deitado",
+        "example": "Das Buch liegt dort. – O livro está ali."
+      },
+      {
+        "word": "stellen",
+        "meaning": "colocar em pé",
+        "example": "Ich stelle die Flasche hin. – Coloco a garrafa em pé."
+      }
+    ],
+    "tip": [
+      "Em pé → stehen; sentado → sitzen; deitado → liegen."
+    ],
+    "important": [
+      "stehen indica estado; stellen indica a ação de colocar em pé."
+    ]
+  },
+  "index": 576
+}
+```
+
+---
+
+## Finding 38
+
+**Audit ID:** `LRB080-0038`
+**Finding Stable ID:** `g2/a1/pt|über|idx:608|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `über|idx:608`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"id":"a1-über","layout":"standardStudy","translation":"Vírus • Par","explanation":["Galvenā doma: über nozīmē da vai par atkarībā no konteksta.","Sim, há muito trânsito, mas você ainda está vivo.","Ja runa ir par sarunu, o texto vai temu, über nozīmē par.","Kustībā über var nozīmēt pari."],"examples":[{"de":"Die Lampe hängt über dem Tisch.","lv":"Lampa karājas virs galda."},{"de":"Wir sprechen über das Wetter.","lv":"Mēs runājam di laiku."},{"de":"Das Kind läuft über die Straße.","lv":"Berns escreveu pari ielai."},{"de":"Ich freue mich über das Geschenk.","lv":"É priecājos de davanu."}],"comparison":[{"word":"über","meaning":"Virs/par/pari","example":"Wir sprechen über das Wetter."},{"word":"auf","meaning":"Uz virsmas","example":"Das Buch liegt auf dem Tisch."},{"word":"unter","meaning":"Zem","example":"Die Tasche ist unter dem Tisch."},{"word":"von","meaning":"De/sobre uma fonte específica","example":"Ich höre von dir."}],"tip":{"text":"Atceries: tēma sarunā → über; virs galda → über."},"important":["über não é apenas uma preposição de lugar.","sprechen über significa \"falar sobre\"."],"sectionAccents":{"explanation":{"blue":["über"],"purple":["Galvenā","par","pāri"],"green":["sarunu","Galvenā","tēmu"]},"examples":[{"de":{"blue":["über"],"yellow":["Tisch"]},"lv":{"purple":["virs"],"yellow":["galda"]}},{"de":{"blue":["über"],"green":["Wetter"]},"lv":{"purple":["Mēs"],"green":["laiku"]}},{"de":{"blue":["über"],"yellow":["Straße"]},"lv":{"purple":["pāri"],"yellow":["ielai"]}},{"de":{"blue":["über"],"yellow":["Geschenk"]},"lv":{"purple":["priecājos"],"yellow":["dāvanu"]}}],"comparison":[{"word":{"green":["über"]},"meaning":{"purple":["virs","par","pāri"]},"example":{"blue":["über"]}},{"word":{"green":["auf"]},"meaning":{"purple":["uz virsmas"]},"example":{"yellow":["auf"]}},{"word":{"green":["unter"]},"meaning":{"purple":["zem"]},"example":{"red":["unter"]}},{"word":{"green":["von"]},"meaning":{"purple":["De/sobre"]},"example":{"green":["von"]}}],"tip":{"left":{"blue":["über"],"purple":["tēma","virs"]}},"important":[{"blue":["über"],"purple":["vietas vārds"]},{"blue":["sprechen über"],"purple":["runāt par"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"über","lv":"Sobre • Acima de • Através de","level":"A1","study":{"id":"a1-über","layout":"standardStudy","translation":"Sobre • Acima de • Através de","explanation":["Ideia principal: über pode indicar posição acima de algo, movimento através de algo ou o tema de uma conversa.","Em sprechen über, significa “falar sobre”."],"examples":[{"de":"Die Lampe hängt über dem Tisch.","lv":"A lâmpada está pendurada acima da mesa."},{"de":"Wir sprechen über das Wetter.","lv":"Nós falamos sobre o tempo."},{"de":"Das Kind läuft über die Straße.","lv":"A criança atravessa a rua correndo."},{"de":"Ich freue mich über das Geschenk.","lv":"Fico feliz com o presente."}],"comparison":[{"word":"über","meaning":"sobre • acima de • através de","example":"Wir sprechen über das Wetter. – Nós falamos sobre o tempo."},{"word":"auf","meaning":"sobre uma superfície","example":"Das Buch liegt auf dem Tisch. – O livro está sobre a mesa."},{"word":"unter","meaning":"debaixo de","example":"Die Tasche ist unter dem Tisch. – A bolsa está debaixo da mesa."},{"word":"von","meaning":"de • proveniente de","example":"Ich höre von dir. – Tenho notícias suas."}],"tip":["Tema de conversa → über; acima da mesa → über."],"important":["über não é apenas uma preposição de lugar."]}}
+**Note:** Pilna PT kartīte «über»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "über",
+  "lv": "Sobre • Acima de • Através de",
+  "level": "A1",
+  "study": {
+    "id": "a1-über",
+    "layout": "standardStudy",
+    "translation": "Sobre • Acima de • Através de",
+    "explanation": [
+      "Ideia principal: über pode indicar posição acima de algo, movimento através de algo ou o tema de uma conversa.",
+      "Em sprechen über, significa “falar sobre”."
+    ],
+    "examples": [
+      {
+        "de": "Die Lampe hängt über dem Tisch.",
+        "lv": "A lâmpada está pendurada acima da mesa."
+      },
+      {
+        "de": "Wir sprechen über das Wetter.",
+        "lv": "Nós falamos sobre o tempo."
+      },
+      {
+        "de": "Das Kind läuft über die Straße.",
+        "lv": "A criança atravessa a rua correndo."
+      },
+      {
+        "de": "Ich freue mich über das Geschenk.",
+        "lv": "Fico feliz com o presente."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "über",
+        "meaning": "sobre • acima de • através de",
+        "example": "Wir sprechen über das Wetter. – Nós falamos sobre o tempo."
+      },
+      {
+        "word": "auf",
+        "meaning": "sobre uma superfície",
+        "example": "Das Buch liegt auf dem Tisch. – O livro está sobre a mesa."
+      },
+      {
+        "word": "unter",
+        "meaning": "debaixo de",
+        "example": "Die Tasche ist unter dem Tisch. – A bolsa está debaixo da mesa."
+      },
+      {
+        "word": "von",
+        "meaning": "de • proveniente de",
+        "example": "Ich höre von dir. – Tenho notícias suas."
+      }
+    ],
+    "tip": [
+      "Tema de conversa → über; acima da mesa → über."
+    ],
+    "important": [
+      "über não é apenas uma preposição de lugar."
+    ]
+  },
+  "index": 608
+}
+```
+
+---
+
+## Finding 39
+
+**Audit ID:** `LRB080-0039`
+**Finding Stable ID:** `g2/a1/pt|um|idx:611|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `um|idx:611`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"id":"a1-um","layout":"standardStudy","translation":"Ap • Letras de Pulso","explanation":["Galvenā doma: um ųoti bieži nozīmē pulksten a laiku vai ap/apkārt ar vietu.","Ar precīzu laiku um nozīmē.","Com lugar, um significa aproximadamente ou em torno de.","Frāzē um ... to tas palīdz izteikt nolūku: lai."],"examples":[{"de":"Ich komme um acht Uhr.","lv":"O atnākšu pulsa astoņos."},{"de":"Wir sitzen um den Tisch.","lv":"Mēs sēžam ap galdu."},{"de":"Er geht um die Ecke.","lv":"Viņš iet ap stūri."},{"de":"Ich lerne, um Deutsch zu sprechen.","lv":"Eles são macos, lai runātu vaciski."}],"comparison":[{"word":"um","meaning":"Letras de Pulse/ap/lai","example":"Ich komme um acht."},{"word":"am","meaning":"Deenā / bolo","example":"Am Montag komme ich."},{"word":"gegen","meaning":"Ap laiku / empréstimo","example":"Ich komme gegen acht."},{"word":"für","meaning":"Priekš / di labu","example":"Das ist für dich."}],"tip":{"text":"Atceries: um acht = pulksten astoņos."},"important":["um com tempo geralmente é \"em hora\".","um ... zu frequentemente significa \"para ...\"."],"sectionAccents":{"explanation":{"blue":["um","Galvenā"],"purple":["pulksten","ap","apkārt","lai"],"green":["laiku","vietu"]},"examples":[{"de":{"blue":["um"],"yellow":["acht Uhr"]},"lv":{"purple":["atnākšu"]}},{"de":{"blue":["um"],"yellow":["Tisch"]},"lv":{"purple":["ap"],"yellow":["galdu"]}},{"de":{"blue":["um"],"yellow":["Ecke"]},"lv":{"purple":["ap"],"yellow":["stūri"]}},{"de":{"blue":["um","zu"]},"lv":{"purple":["lai"]}}],"comparison":[{"word":{"green":["um"]},"meaning":{"purple":["Letra","ap","lai"]},"example":{"blue":["um"]}},{"word":{"green":["am"]},"meaning":{"purple":["Deenā","Deenā"]},"example":{"green":["Am"]}},{"word":{"green":["gegen"]},"meaning":{"purple":["ap laiku","laiku"]},"example":{"yellow":["gegen"]}},{"word":{"green":["für"]},"meaning":{"purple":["priekš"]},"example":{"red":["für"]}}],"tip":{"left":{"blue":["um acht"],"purple":["pulksten astoņos"]}},"important":[{"blue":["um"],"purple":["pulksten"]},{"blue":["um ... zu"],"purple":["lai"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"um","lv":"Às • Em torno de • Para","level":"A1","study":{"id":"a1-um","layout":"standardStudy","translation":"Às • Em torno de • Para","explanation":["Ideia principal: um marca uma hora exata, uma posição em torno de algo ou aparece na construção um ... zu de finalidade.","Com horas, um corresponde normalmente a “às”."],"examples":[{"de":"Ich komme um acht Uhr.","lv":"Eu venho às oito horas."},{"de":"Wir sitzen um den Tisch.","lv":"Nós nos sentamos em torno da mesa."},{"de":"Er geht um die Ecke.","lv":"Ele vira a esquina."},{"de":"Ich lerne, um Deutsch zu sprechen.","lv":"Estudo para falar alemão."}],"comparison":[{"word":"um","meaning":"às • em torno de • para","example":"Ich komme um acht. – Eu venho às oito."},{"word":"am","meaning":"na segunda-feira • junto de","example":"Am Montag komme ich. – Eu venho na segunda-feira."},{"word":"gegen","meaning":"por volta de • contra","example":"Ich komme gegen acht. – Eu venho por volta das oito."},{"word":"für","meaning":"para","example":"Das ist für dich. – Isto é para você."}],"tip":["um acht = às oito."],"important":["A construção um ... zu geralmente exprime finalidade: “para ...”."]}}
+**Note:** Pilna PT kartīte «um»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "um",
+  "lv": "Às • Em torno de • Para",
+  "level": "A1",
+  "study": {
+    "id": "a1-um",
+    "layout": "standardStudy",
+    "translation": "Às • Em torno de • Para",
+    "explanation": [
+      "Ideia principal: um marca uma hora exata, uma posição em torno de algo ou aparece na construção um ... zu de finalidade.",
+      "Com horas, um corresponde normalmente a “às”."
+    ],
+    "examples": [
+      {
+        "de": "Ich komme um acht Uhr.",
+        "lv": "Eu venho às oito horas."
+      },
+      {
+        "de": "Wir sitzen um den Tisch.",
+        "lv": "Nós nos sentamos em torno da mesa."
+      },
+      {
+        "de": "Er geht um die Ecke.",
+        "lv": "Ele vira a esquina."
+      },
+      {
+        "de": "Ich lerne, um Deutsch zu sprechen.",
+        "lv": "Estudo para falar alemão."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "um",
+        "meaning": "às • em torno de • para",
+        "example": "Ich komme um acht. – Eu venho às oito."
+      },
+      {
+        "word": "am",
+        "meaning": "na segunda-feira • junto de",
+        "example": "Am Montag komme ich. – Eu venho na segunda-feira."
+      },
+      {
+        "word": "gegen",
+        "meaning": "por volta de • contra",
+        "example": "Ich komme gegen acht. – Eu venho por volta das oito."
+      },
+      {
+        "word": "für",
+        "meaning": "para",
+        "example": "Das ist für dich. – Isto é para você."
+      }
+    ],
+    "tip": [
+      "um acht = às oito."
+    ],
+    "important": [
+      "A construção um ... zu geralmente exprime finalidade: “para ...”."
+    ]
+  },
+  "index": 611
+}
+```
+
+---
+
+## Finding 40
+
+**Audit ID:** `LRB080-0040`
+**Finding Stable ID:** `g2/a1/pt|unter|idx:615|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `unter|idx:615`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"id":"a1-unter","layout":"standardStudy","translation":"Zem","explanation":["Adestramento Galvenā: unter nozīmē zem vai starp atkarībā no konteksta.","Sim, você pode fazer isso com segurança, esqueça, esqueça.","Sim, você está no lugar certo, mas não está pronto para começar.","Há muito o que aproveitar e você poderá ver tudo em agosto."],"examples":[{"de":"Die Tasche ist unter dem Tisch.","lv":"Soma ir zem galda."},{"de":"Die Katze liegt unter dem Stuhl.","lv":"Kayseri guųzem krēsla."},{"de":"Unter Freunden sagt man das so.","lv":"Draugu starpa ta saka."},{"de":"Die Lampe hängt über dem Tisch.","lv":"Lampa karājas virs galda."}],"comparison":[{"word":"unter","meaning":"Zem/Estrela","example":"Die Tasche ist unter dem Tisch."},{"word":"über","meaning":"Virus/par","example":"Die Lampe hängt über dem Tisch."},{"word":"zwischen","meaning":"Starp divām latenam","example":"Zwischen den Häusern."},{"word":"auf","meaning":"Uz virsmas","example":"Auf dem Tisch."}],"tip":{"text":"Atceries: zem galda → unter dem Tisch."},"important":["unter também pode significar \"entre\", especialmente com pessoas ou grupos.","unter e über frequentemente são opostos no significado de lugar."],"sectionAccents":{"explanation":{"blue":["unter","Galvenā"],"purple":["zem","starp"],"green":["Galvenā"]},"examples":[{"de":{"blue":["unter"],"yellow":["Tisch"]},"lv":{"purple":["zem"],"yellow":["galda"]}},{"de":{"blue":["unter"],"yellow":["Stuhl"]},"lv":{"purple":["zem"],"yellow":["krēsla"]}},{"de":{"blue":["Unter"],"green":["Freunden"]},"lv":{"purple":["starpā"],"green":["Draugu"]}},{"de":{"red":["über"],"yellow":["Tisch"]},"lv":{"red":["virs"],"yellow":["galda"]}}],"comparison":[{"word":{"green":["unter"]},"meaning":{"purple":["zem","Zem/Estrela"]},"example":{"blue":["unter"]}},{"word":{"green":["über"]},"meaning":{"purple":["Virus/par","par"]},"example":{"red":["über"]}},{"word":{"green":["zwischen"]},"meaning":{"purple":["starp"]},"example":{"green":["Zwischen"]}},{"word":{"green":["auf"]},"meaning":{"purple":["uz virsmas"]},"example":{"yellow":["Auf"]}}],"tip":{"left":{"blue":["unter dem Tisch"],"purple":["zem galda"]}},"important":[{"blue":["unter"],"purple":["starp"]},{"blue":["unter"],"red":["über"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"unter","lv":"Debaixo de • Entre","level":"A1","study":{"id":"a1-unter","layout":"standardStudy","translation":"Debaixo de • Entre","explanation":["Ideia principal: unter indica uma posição abaixo de algo.","Com pessoas ou grupos, também pode significar “entre”."],"examples":[{"de":"Die Tasche ist unter dem Tisch.","lv":"A bolsa está debaixo da mesa."},{"de":"Die Katze liegt unter dem Stuhl.","lv":"O gato está deitado debaixo da cadeira."},{"de":"Unter Freunden sagt man das so.","lv":"Entre amigos, diz-se assim."},{"de":"Die Lampe hängt über dem Tisch.","lv":"A lâmpada está pendurada acima da mesa."}],"comparison":[{"word":"unter","meaning":"debaixo de • entre","example":"Die Tasche ist unter dem Tisch. – A bolsa está debaixo da mesa."},{"word":"über","meaning":"acima de • sobre","example":"Die Lampe hängt über dem Tisch. – A lâmpada está pendurada acima da mesa."},{"word":"zwischen","meaning":"entre duas coisas","example":"Zwischen den Häusern. – Entre as casas."},{"word":"auf","meaning":"sobre uma superfície","example":"Auf dem Tisch. – Sobre a mesa."}],"tip":["Debaixo da mesa → unter dem Tisch."],"important":["unter e über são frequentemente opostos em relações de lugar."]}}
+**Note:** Pilna PT kartīte «unter»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "unter",
+  "lv": "Debaixo de • Entre",
+  "level": "A1",
+  "study": {
+    "id": "a1-unter",
+    "layout": "standardStudy",
+    "translation": "Debaixo de • Entre",
+    "explanation": [
+      "Ideia principal: unter indica uma posição abaixo de algo.",
+      "Com pessoas ou grupos, também pode significar “entre”."
+    ],
+    "examples": [
+      {
+        "de": "Die Tasche ist unter dem Tisch.",
+        "lv": "A bolsa está debaixo da mesa."
+      },
+      {
+        "de": "Die Katze liegt unter dem Stuhl.",
+        "lv": "O gato está deitado debaixo da cadeira."
+      },
+      {
+        "de": "Unter Freunden sagt man das so.",
+        "lv": "Entre amigos, diz-se assim."
+      },
+      {
+        "de": "Die Lampe hängt über dem Tisch.",
+        "lv": "A lâmpada está pendurada acima da mesa."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "unter",
+        "meaning": "debaixo de • entre",
+        "example": "Die Tasche ist unter dem Tisch. – A bolsa está debaixo da mesa."
+      },
+      {
+        "word": "über",
+        "meaning": "acima de • sobre",
+        "example": "Die Lampe hängt über dem Tisch. – A lâmpada está pendurada acima da mesa."
+      },
+      {
+        "word": "zwischen",
+        "meaning": "entre duas coisas",
+        "example": "Zwischen den Häusern. – Entre as casas."
+      },
+      {
+        "word": "auf",
+        "meaning": "sobre uma superfície",
+        "example": "Auf dem Tisch. – Sobre a mesa."
+      }
+    ],
+    "tip": [
+      "Debaixo da mesa → unter dem Tisch."
+    ],
+    "important": [
+      "unter e über são frequentemente opostos em relações de lugar."
+    ]
+  },
+  "index": 615
+}
+```
+
+---
+
+## Finding 41
+
+**Audit ID:** `LRB080-0041`
+**Finding Stable ID:** `g2/a1/pt|Urlaub|idx:695|lv; study.translation; study.explanation; study.examples.lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `Urlaub|idx:695`
+**Field / path:** `lv; study.translation; study.explanation; study.examples.lv`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Atvaųinājums","study.translation":"Atvaųinājums","study.explanation":"[\"Doma de Galvenā: tikai venuskaitlis. Atvaļinājums no darba—vienmēr venuskaitlī.\",\"Der Urlaub galvenokārt nozīmē: brivais laiks no darba.\",\"Freqüentemente caracterizado por: apenas singular.\",\"Férias go tikai comekaitlis — atvaųinājums no darba (de férias).\"]","study.examples.lv":null}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"Urlaub","lv":"Férias","level":"A1","de_article":"der","study":{"id":"a1-urlaub","layout":"standardStudy","translation":"Férias","explanation":["Ideia principal: der Urlaub é o período de férias de uma pessoa que trabalha.","No uso cotidiano de nível A1, Urlaub é normalmente singular; o plural Urlaube existe para períodos de férias distintos, e férias escolares são die Ferien."],"examples":[{"de":"Mein Vater ist im Urlaub.","lv":"Meu pai está de férias."},{"de":"Mein Vater ist im Urlaub.","lv":"Meu pai está de férias."},{"de":"Nächste Woche habe ich Urlaub.","lv":"Na próxima semana estou de férias."},{"de":"Wir machen Urlaub in Spanien.","lv":"Passamos as férias na Espanha."},{"de":"im Urlaub","lv":"de férias"}],"comparison":[{"word":"der Urlaub","meaning":"férias do trabalho, normalmente no singular","example":"Mein Vater ist im Urlaub. – Mans tēvs ir atvaļinājumā. – Meu pai está de férias."},{"word":"die Ferien","meaning":"férias escolares, plural","example":"Die Kinder haben Ferien. – Bērniem ir brīvdienas. – As crianças estão de férias."}],"tip":["Trabalho → der Urlaub; escola → die Ferien."],"important":["Use im Urlaub sein ou Urlaub machen; die Urlaube só aparece ao falar de vários períodos de férias."]}}
+**Note:** Pilna PT kartīte «Urlaub»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Urlaub",
+  "de_article": "der",
+  "lv": "Férias",
+  "level": "A1",
+  "study": {
+    "id": "a1-urlaub",
+    "layout": "standardStudy",
+    "translation": "Férias",
+    "explanation": [
+      "Ideia principal: der Urlaub é o período de férias de uma pessoa que trabalha.",
+      "No uso cotidiano de nível A1, Urlaub é normalmente singular; o plural Urlaube existe para períodos de férias distintos, e férias escolares são die Ferien."
+    ],
+    "examples": [
+      {
+        "de": "Mein Vater ist im Urlaub.",
+        "lv": "Meu pai está de férias."
+      },
+      {
+        "de": "Mein Vater ist im Urlaub.",
+        "lv": "Meu pai está de férias."
+      },
+      {
+        "de": "Nächste Woche habe ich Urlaub.",
+        "lv": "Na próxima semana estou de férias."
+      },
+      {
+        "de": "Wir machen Urlaub in Spanien.",
+        "lv": "Passamos as férias na Espanha."
+      },
+      {
+        "de": "im Urlaub",
+        "lv": "de férias"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "der Urlaub",
+        "meaning": "férias do trabalho, normalmente no singular",
+        "example": "Mein Vater ist im Urlaub. – Mans tēvs ir atvaļinājumā. – Meu pai está de férias."
+      },
+      {
+        "word": "die Ferien",
+        "meaning": "férias escolares, plural",
+        "example": "Die Kinder haben Ferien. – Bērniem ir brīvdienas. – As crianças estão de férias."
+      }
+    ],
+    "tip": [
+      "Trabalho → der Urlaub; escola → die Ferien."
+    ],
+    "important": [
+      "Use im Urlaub sein ou Urlaub machen; die Urlaube só aparece ao falar de vários períodos de férias."
+    ]
+  },
+  "index": 695
+}
+```
+
+---
+
+## Finding 42
+
+**Audit ID:** `LRB080-0042`
+**Finding Stable ID:** `g2/a1/pt|verstehen|idx:621|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `verstehen|idx:621`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"id":"a1-verstehen","layout":"standardStudy","translation":"Saprasto","explanation":["Galvenā tama: verstehen nozīmē saprast.","Por esta razão, saproti valodu, cilvēku, tekstu vai situāciju.","Latviski šeit parasti nevajag \"prast\" vai \"mācēt\" • È biežāk ir können.","Eu vou te contar sobre mim. = É saprotu."],"examples":[{"de":"Ich verstehe dich.","lv":"É tevi saprotu."},{"de":"Verstehst du Deutsch?","lv":"Saproti vaciski?"},{"de":"Ich verstehe das nicht.","lv":"É nesaprotu."},{"de":"Ich kann Deutsch sprechen.","lv":"É protu runāt vaciski."}],"comparison":[{"word":"verstehen","meaning":"Saprasto","example":"Ich verstehe dich."},{"word":"können","meaning":"Varet/prast","example":"Ich kann schwimmen."},{"word":"wissen","meaning":"Zinat fato","example":"Ich weiß das."},{"word":"kennen","meaning":"Pazit","example":"Ich kenne ihn."}],"tip":{"text":"Atceries: saprast tekstu/cilvēku → verstehen; prast kaut ko darīt → können."},"important":["verstehen não é a palavra principal para o significado \"conseguir\".","Ich verstehe Deutsch significa \"eu entendo alemão\"."],"sectionAccents":{"explanation":{"blue":["verstehen","Galvenā"],"purple":["saprast","saproti"],"red":["können","prast","mācēt"]},"examples":[{"de":{"blue":["verstehe"]},"lv":{"purple":["saprotu"]}},{"de":{"blue":["Verstehst"]},"lv":{"purple":["saproti"]}},{"de":{"blue":["verstehe"]},"lv":{"purple":["nesaprotu"]}},{"de":{"red":["kann"]},"lv":{"red":["protu"]}}],"comparison":[{"word":{"green":["verstehen"]},"meaning":{"purple":["saprast"]},"example":{"blue":["verstehe"]}},{"word":{"green":["können"]},"meaning":{"purple":["varēt","prast"]},"example":{"red":["kann"]}},{"word":{"green":["wissen"]},"meaning":{"purple":["zināt"]},"example":{"green":["weiß"]}},{"word":{"green":["kennen"]},"meaning":{"purple":["pazīt"]},"example":{"yellow":["kenne"]}}],"tip":{"left":{"blue":["verstehen"],"purple":["saprast"],"red":["können","prast"]}},"important":[{"blue":["verstehen"],"red":["prast"]},{"blue":["verstehe"],"purple":["saprotu"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"verstehen","lv":"Entender • Compreender","level":"A1","study":{"id":"a1-verstehen","layout":"standardStudy","translation":"Entender • Compreender","explanation":["Ideia principal: verstehen significa entender uma pessoa, um texto ou uma língua.","Para saber fazer algo, usa-se können; para saber um fato, wissen."],"examples":[{"de":"Ich verstehe dich.","lv":"Eu entendo você."},{"de":"Verstehst du Deutsch?","lv":"Você entende alemão?"},{"de":"Ich verstehe das nicht.","lv":"Eu não entendo isso."},{"de":"Ich kann Deutsch sprechen.","lv":"Eu sei falar alemão."}],"comparison":[{"word":"verstehen","meaning":"entender • compreender","example":"Ich verstehe dich. – Eu entendo você."},{"word":"können","meaning":"poder • saber fazer","example":"Ich kann schwimmen. – Eu sei nadar."},{"word":"wissen","meaning":"saber um fato","example":"Ich weiß das. – Eu sei disso."},{"word":"kennen","meaning":"conhecer","example":"Ich kenne ihn. – Eu o conheço."}],"tip":["Entender texto ou pessoa → verstehen; saber fazer → können."],"important":["Ich verstehe Deutsch significa “Eu entendo alemão”, não necessariamente “Eu sei falar alemão”."]}}
+**Note:** Pilna PT kartīte «verstehen»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "verstehen",
+  "lv": "Entender • Compreender",
+  "level": "A1",
+  "study": {
+    "id": "a1-verstehen",
+    "layout": "standardStudy",
+    "translation": "Entender • Compreender",
+    "explanation": [
+      "Ideia principal: verstehen significa entender uma pessoa, um texto ou uma língua.",
+      "Para saber fazer algo, usa-se können; para saber um fato, wissen."
+    ],
+    "examples": [
+      {
+        "de": "Ich verstehe dich.",
+        "lv": "Eu entendo você."
+      },
+      {
+        "de": "Verstehst du Deutsch?",
+        "lv": "Você entende alemão?"
+      },
+      {
+        "de": "Ich verstehe das nicht.",
+        "lv": "Eu não entendo isso."
+      },
+      {
+        "de": "Ich kann Deutsch sprechen.",
+        "lv": "Eu sei falar alemão."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "verstehen",
+        "meaning": "entender • compreender",
+        "example": "Ich verstehe dich. – Eu entendo você."
+      },
+      {
+        "word": "können",
+        "meaning": "poder • saber fazer",
+        "example": "Ich kann schwimmen. – Eu sei nadar."
+      },
+      {
+        "word": "wissen",
+        "meaning": "saber um fato",
+        "example": "Ich weiß das. – Eu sei disso."
+      },
+      {
+        "word": "kennen",
+        "meaning": "conhecer",
+        "example": "Ich kenne ihn. – Eu o conheço."
+      }
+    ],
+    "tip": [
+      "Entender texto ou pessoa → verstehen; saber fazer → können."
+    ],
+    "important": [
+      "Ich verstehe Deutsch significa “Eu entendo alemão”, não necessariamente “Eu sei falar alemão”."
+    ]
+  },
+  "index": 621
+}
+```
+
+---
+
+## Finding 43
+
+**Audit ID:** `LRB080-0043`
+**Finding Stable ID:** `g2/a1/pt|vom|idx:634|lv; study|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `vom|idx:634`
+**Field / path:** `lv; study`
+**Severity:** CRITICAL
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Não","study.translation":"Não","study.explanation":"[\"Vom ir prievārda de um artigo dem saisinājums.\",\"Forma Pilnā: von dem (pente?).\",\"Feliz em vīriešu a nekatras dzimtes lietvārdiem, kad norāda izcelsmi vai virzienu no kā.\",\"Atbild uz jautajumiem no kā? Não vai para Kuriani?\",\"Na prática, vom é quase sempre usado em vez do von dem completo.\"]","study.examples":"[{\"de\":\"Ich komme vom Bahnhof.\",\"lv\":\"É naku no stacijas.\"},{\"de\":\"Das Geschenk ist vom Vater.\",\"lv\":\"Davana não é teva.\"},{\"de\":\"Er kommt vom Arzt.\",\"lv\":\"Viņš nāk no ārsta.\"},{\"de\":\"Sie fährt vom Flughafen.\",\"lv\":\"Vinho Brauc sem lidosta.\"},{\"de\":\"Das ist vom Markt.\",\"lv\":\"A bolsa não é tirgus.\"},{\"de\":\"Wir kommen vom Fest.\",\"lv\":\"Mēs nākam no svinībām.\"},{\"de\":\"Er holt Milch vom Bauern.\",\"lv\":\"Você não precisa fazer isso.\"},{\"de\":\"Die Nachricht ist vom Chef.\",\"lv\":\"Ziņa ir no priekšnieka.\"}]","study.comparison":"[{\"word\":\"vom\",\"meaning\":\"Não (konkrēta lagena, certo?)\",\"example\":\"vom Bahnhof – Da estação\"},{\"word\":\"von\",\"meaning\":\"Não (vispārīgi)\",\"example\":\"von mir – Sem manicure\"},{\"word\":\"aus\",\"meaning\":\"Não iekšienes / izcelsme\",\"example\":\"aus Deutschland – Não podemos permitir férias.\"},{\"word\":\"ab\",\"meaning\":\"Sākot no (laiks/proibição)\",\"example\":\"ab Montag – feira\"},{\"word\":\"zu\",\"meaning\":\"Uz / bolo (pretēja virzienam)\",\"example\":\"zum Arzt – Bolo All'arsta\"}]","study.tip":"[\"Lembre-se: von + dem → vom (dativo?).\",\"Na linguagem coloquial, quase nunca se diz von dem — use vom.\"]","study.important":"[\"vom = von dem, apenas com substantivos masculinos ou neutros no caso dativo.\",\"Indica origem, fonte ou direção de algo específico.\",\"Para gênero feminino: von der Mutter, não vom Mutter.\",\"Não confunda com aus (origem de país) ou ab (ponto de partida).\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"vom","lv":"Do • Da","level":"A1","study":{"id":"a1-vom","layout":"standardStudy","translation":"Do • Da","explanation":["Ideia principal: vom é a contração de von + dem.","Indica origem, fonte ou movimento a partir de um substantivo masculino ou neutro no dativo."],"examples":[{"de":"Ich komme vom Bahnhof.","lv":"Venho da estação."},{"de":"Das Geschenk ist vom Vater.","lv":"O presente é do pai."},{"de":"Er kommt vom Arzt.","lv":"Ele vem do médico."},{"de":"Sie fährt vom Flughafen.","lv":"Ela vem do aeroporto."},{"de":"Das ist vom Markt.","lv":"Isso é do mercado."},{"de":"Wir kommen vom Fest.","lv":"Voltamos da festa."},{"de":"Er holt Milch vom Bauern.","lv":"Ele vai buscar leite no fazendeiro."},{"de":"Die Nachricht ist vom Chef.","lv":"A mensagem é do chefe."}],"comparison":[{"word":"vom","meaning":"do • da, de algo específico","example":"vom Bahnhof – no stacijas – da estação"},{"word":"von","meaning":"de, em sentido geral","example":"von mir – no manis – de mim"},{"word":"aus","meaning":"de dentro • procedência","example":"aus Deutschland – no Vācijas – da Alemanha"},{"word":"ab","meaning":"a partir de","example":"ab Montag – no pirmdienas – a partir de segunda-feira"},{"word":"zu","meaning":"ao • para o","example":"zum Arzt – pie ārsta – ao médico"}],"tip":["von + dem → vom."],"important":["Para substantivo feminino, use von der, não vom."]}}
+**Note:** Pilna PT kartīte «vom»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "vom",
+  "lv": "Do • Da",
+  "level": "A1",
+  "study": {
+    "id": "a1-vom",
+    "layout": "standardStudy",
+    "translation": "Do • Da",
+    "explanation": [
+      "Ideia principal: vom é a contração de von + dem.",
+      "Indica origem, fonte ou movimento a partir de um substantivo masculino ou neutro no dativo."
+    ],
+    "examples": [
+      {
+        "de": "Ich komme vom Bahnhof.",
+        "lv": "Venho da estação."
+      },
+      {
+        "de": "Das Geschenk ist vom Vater.",
+        "lv": "O presente é do pai."
+      },
+      {
+        "de": "Er kommt vom Arzt.",
+        "lv": "Ele vem do médico."
+      },
+      {
+        "de": "Sie fährt vom Flughafen.",
+        "lv": "Ela vem do aeroporto."
+      },
+      {
+        "de": "Das ist vom Markt.",
+        "lv": "Isso é do mercado."
+      },
+      {
+        "de": "Wir kommen vom Fest.",
+        "lv": "Voltamos da festa."
+      },
+      {
+        "de": "Er holt Milch vom Bauern.",
+        "lv": "Ele vai buscar leite no fazendeiro."
+      },
+      {
+        "de": "Die Nachricht ist vom Chef.",
+        "lv": "A mensagem é do chefe."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "vom",
+        "meaning": "do • da, de algo específico",
+        "example": "vom Bahnhof – no stacijas – da estação"
+      },
+      {
+        "word": "von",
+        "meaning": "de, em sentido geral",
+        "example": "von mir – no manis – de mim"
+      },
+      {
+        "word": "aus",
+        "meaning": "de dentro • procedência",
+        "example": "aus Deutschland – no Vācijas – da Alemanha"
+      },
+      {
+        "word": "ab",
+        "meaning": "a partir de",
+        "example": "ab Montag – no pirmdienas – a partir de segunda-feira"
+      },
+      {
+        "word": "zu",
+        "meaning": "ao • para o",
+        "example": "zum Arzt – pie ārsta – ao médico"
+      }
+    ],
+    "tip": [
+      "von + dem → vom."
+    ],
+    "important": [
+      "Para substantivo feminino, use von der, não vom."
+    ]
+  },
+  "index": 634
+}
+```
+
+---
+
+## Finding 44
+
+**Audit ID:** `LRB080-0044`
+**Finding Stable ID:** `g2/a1/pt|vor|idx:636|lv; study|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `vor|idx:636`
+**Field / path:** `lv; study`
+**Severity:** CRITICAL
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Pirms • Prieksha","study.translation":"Pirms • Prieksha","study.explanation":"[\"Adestramento Galvenā: vor nozīmē pirms laikā vai priekšā vietā.\",\"Si runa ir par laiku, prima nozīmē pirms.\",\"Sim, existe uma vida sem tempo para a torta priekšā vai.\",\"Pulksteņa laikā vor nozīmē \\\"līdz\\\", piemēram, prazer para oito.\"]","study.examples":"[{\"de\":\"Vor dem Essen wasche ich die Hände.\",\"lv\":\"Afirme que ēšanas é mazgāju rokas.\"},{\"de\":\"Das Auto steht vor dem Haus.\",\"lv\":\"Auto stāv mājas priekšā.\"},{\"de\":\"Es ist fünf vor acht.\",\"lv\":\"Faltam cinco minutos para as oito.\"},{\"de\":\"Nach dem Essen gehen wir spazieren.\",\"lv\":\"Pēc ēšanas mēs ejam pastaigāties.\"}]","study.comparison":"[{\"word\":\"vor\",\"meaning\":\"Pirms / priekšā\",\"example\":\"Vor dem Essen...\"},{\"word\":\"nach\",\"meaning\":\"Pec/uz\",\"example\":\"Nach dem Essen...\"},{\"word\":\"neben\",\"meaning\":\"Blaco\",\"example\":\"Neben dem Haus.\"},{\"word\":\"hinter\",\"meaning\":\"Aiz\",\"example\":\"Hinter dem Haus.\"}]","study.tip":"{\"text\":\"Atceries: pirms laikā, priekšā vietā → vor.\"}","study.important":"[\"vor pode ser tanto tempo quanto lugar.\",\"vor dem Essen = antes de comer; vor dem Haus = na frente da casa.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"vor","lv":"Antes de • Diante de","level":"A1","study":{"id":"a1-vor","layout":"standardStudy","translation":"Antes de • Diante de","explanation":["Ideia principal: vor pode indicar anterioridade no tempo ou posição diante de algo.","Em horas, fünf vor acht significa “cinco para as oito”."],"examples":[{"de":"Vor dem Essen wasche ich die Hände.","lv":"Antes de comer, lavo as mãos."},{"de":"Das Auto steht vor dem Haus.","lv":"O carro está diante da casa."},{"de":"Es ist fünf vor acht.","lv":"São cinco para as oito."},{"de":"Nach dem Essen gehen wir spazieren.","lv":"Depois de comer, vamos passear."}],"comparison":[{"word":"vor","meaning":"antes de • diante de","example":"Vor dem Essen... – Antes de comer..."},{"word":"nach","meaning":"depois de • para","example":"Nach dem Essen... – Depois de comer..."},{"word":"neben","meaning":"ao lado de","example":"Neben dem Haus. – Ao lado da casa."},{"word":"hinter","meaning":"atrás de","example":"Hinter dem Haus. – Atrás da casa."}],"tip":["No tempo → antes de; no espaço → diante de."],"important":["vor dem Essen = antes da refeição; vor dem Haus = diante da casa."]}}
+**Note:** Pilna PT kartīte «vor»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "vor",
+  "lv": "Antes de • Diante de",
+  "level": "A1",
+  "study": {
+    "id": "a1-vor",
+    "layout": "standardStudy",
+    "translation": "Antes de • Diante de",
+    "explanation": [
+      "Ideia principal: vor pode indicar anterioridade no tempo ou posição diante de algo.",
+      "Em horas, fünf vor acht significa “cinco para as oito”."
+    ],
+    "examples": [
+      {
+        "de": "Vor dem Essen wasche ich die Hände.",
+        "lv": "Antes de comer, lavo as mãos."
+      },
+      {
+        "de": "Das Auto steht vor dem Haus.",
+        "lv": "O carro está diante da casa."
+      },
+      {
+        "de": "Es ist fünf vor acht.",
+        "lv": "São cinco para as oito."
+      },
+      {
+        "de": "Nach dem Essen gehen wir spazieren.",
+        "lv": "Depois de comer, vamos passear."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "vor",
+        "meaning": "antes de • diante de",
+        "example": "Vor dem Essen... – Antes de comer..."
+      },
+      {
+        "word": "nach",
+        "meaning": "depois de • para",
+        "example": "Nach dem Essen... – Depois de comer..."
+      },
+      {
+        "word": "neben",
+        "meaning": "ao lado de",
+        "example": "Neben dem Haus. – Ao lado da casa."
+      },
+      {
+        "word": "hinter",
+        "meaning": "atrás de",
+        "example": "Hinter dem Haus. – Atrás da casa."
+      }
+    ],
+    "tip": [
+      "No tempo → antes de; no espaço → diante de."
+    ],
+    "important": [
+      "vor dem Essen = antes da refeição; vor dem Haus = diante da casa."
+    ]
+  },
+  "index": 636
+}
+```
+
+---
+
+## Finding 45
+
+**Audit ID:** `LRB080-0045`
+**Finding Stable ID:** `g2/a1/pt|was|idx:644|lv; study|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `was|idx:644`
+**Field / path:** `lv; study`
+**Severity:** CRITICAL
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Estufa • KB","study.translation":"Estufa • KB","study.explanation":"[\"Galvenā doma: was ir jautājamvārds par Laatām un notikumiem — latviski tas ir kas vai ko, atkarībā no teikuma daļas.\",\"Was jautā par latenām, notikumiem un factiem, nevis par personām.\",\"Vācu valodā era nemmainās pēc locījuma — tas vienmēr izskatās era.\",\"Ja was ir teikuma priekšmets (assuntos), latviski to tulko ar kas (Was ist das? = Kas tas ir?).\",\"Ja was ir darbības vārda papildinājums (objetos), latviski para tulko ar ko (Was machst du? = Ko tu dari?).\",\"Por personām jautā ar wer (kas/kurš), Nevis era.\"]","study.examples":"[{\"de\":\"Was ist das?\",\"lv\":\"A bolsa de dinheiro, certo?\"},{\"de\":\"Was ist passiert?\",\"lv\":\"Um ingresso?\"},{\"de\":\"Was machst du gerade?\",\"lv\":\"Você está pensando nisso?\"},{\"de\":\"Was möchtest du trinken?\",\"lv\":\"O que você quer fazer?\"},{\"de\":\"Was bedeutet dieses Wort?\",\"lv\":\"O que significa esta palavra?\"},{\"de\":\"Was ist dein Lieblingsessen?\",\"lv\":\"Como ir tavs mīųākais ēdiens?\"},{\"de\":\"Was hast du gesagt?\",\"lv\":\"Qual é o seu passe?\"}]","study.tip":"[\"was em si não muda — em alemão é sempre was; em português escolha o que ou o que de acordo com a parte da frase.\",\"Dica rápida: se você pode responder à pergunta com \\\"Isso é ...\\\", use o quê; se a resposta vem após o verbo como complemento, use o que.\"]","study.important":"[\"was pergunta sobre coisas, eventos e fatos — nunca sobre pessoas.\",\"Por personām jautā ar wer (kas/kurš), Nevis era.\",\"was für (ein/eine) significa qual/que tipo de e pergunta sobre propriedade ou tipo (Was für ein Film ist das? = Que tipo de filme é esse?).\",\"Incorreto: Wer ist passiert? → Correto: Was ist passiert?\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"was","lv":"O que","level":"A1","study":{"id":"a1-was","layout":"standardStudy","translation":"O que","explanation":["Ideia principal: was pergunta por coisas, acontecimentos ou fatos.","Não é usado para pessoas; para pessoas, usa-se wer. A expressão was für pergunta pelo tipo ou característica."],"examples":[{"de":"Was ist das?","lv":"O que é isso?"},{"de":"Was ist passiert?","lv":"O que aconteceu?"},{"de":"Was machst du gerade?","lv":"O que você está fazendo agora?"},{"de":"Was möchtest du trinken?","lv":"O que você gostaria de beber?"},{"de":"Was bedeutet dieses Wort?","lv":"O que significa esta palavra?"},{"de":"Was ist dein Lieblingsessen?","lv":"Qual é a sua comida favorita?"},{"de":"Was hast du gesagt?","lv":"O que você disse?"}],"tip":["Pergunta por coisa, fato ou acontecimento → was; por pessoa → wer."],"important":["was für (ein/eine) significa “que tipo de” ou “que espécie de”."]}}
+**Note:** Pilna PT kartīte «was»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "was",
+  "lv": "O que",
+  "level": "A1",
+  "study": {
+    "id": "a1-was",
+    "layout": "standardStudy",
+    "translation": "O que",
+    "explanation": [
+      "Ideia principal: was pergunta por coisas, acontecimentos ou fatos.",
+      "Não é usado para pessoas; para pessoas, usa-se wer. A expressão was für pergunta pelo tipo ou característica."
+    ],
+    "examples": [
+      {
+        "de": "Was ist das?",
+        "lv": "O que é isso?"
+      },
+      {
+        "de": "Was ist passiert?",
+        "lv": "O que aconteceu?"
+      },
+      {
+        "de": "Was machst du gerade?",
+        "lv": "O que você está fazendo agora?"
+      },
+      {
+        "de": "Was möchtest du trinken?",
+        "lv": "O que você gostaria de beber?"
+      },
+      {
+        "de": "Was bedeutet dieses Wort?",
+        "lv": "O que significa esta palavra?"
+      },
+      {
+        "de": "Was ist dein Lieblingsessen?",
+        "lv": "Qual é a sua comida favorita?"
+      },
+      {
+        "de": "Was hast du gesagt?",
+        "lv": "O que você disse?"
+      }
+    ],
+    "tip": [
+      "Pergunta por coisa, fato ou acontecimento → was; por pessoa → wer."
+    ],
+    "important": [
+      "was für (ein/eine) significa “que tipo de” ou “que espécie de”."
+    ]
+  },
+  "index": 644
+}
+```
+
+---
+
+## Finding 46
+
+**Audit ID:** `LRB080-0046`
+**Finding Stable ID:** `g2/a1/pt|wenn|idx:655|lv; study|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `wenn|idx:655`
+**Field / path:** `lv; study`
+**Severity:** CRITICAL
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"SIM • KAD","study.translation":"SIM • KAD","study.explanation":"[\"Galvenā doma: si nozīmē ja vai kad atkarībā no situācijas.\",\"Se isso for feito através de nosacījumu, tulko kā ja.\",\"Se isso acontecer atkārtotu vai vispārīgu laiku, tulko kā kad.\",\"Pēc wenn darbības vārds vacu teikumā parasti stāv beigās.\"]","study.examples":"[{\"de\":\"Wenn du Zeit hast, komm vorbei.\",\"lv\":\"Sim, tev ir laiks, iegriezies.\"},{\"de\":\"Wenn es regnet, bleibe ich zu Hause.\",\"lv\":\"Sim, lista, é palieku mājās.\"},{\"de\":\"Wenn ich müde bin, trinke ich Kaffee.\",\"lv\":\"Kad esmu noguris, es dzeru kafiju.\"},{\"de\":\"Ich weiß nicht, ob er kommt.\",\"lv\":\"É nezinu, vai viņš nāks.\"}]","study.comparison":"[{\"word\":\"wenn\",\"meaning\":\"SIM / KAD\",\"example\":\"Wenn du Zeit hast...\"},{\"word\":\"ob\",\"meaning\":\"Vá netiesā jautājumā\",\"example\":\"Ich weiß nicht, ob...\"},{\"word\":\"wann\",\"meaning\":\"Kad jautajuma\",\"example\":\"Wann kommst du?\"},{\"word\":\"weil\",\"meaning\":\"Dia\",\"example\":\"Ich bleibe, weil ich krank bin.\"}]","study.tip":"{\"text\":\"Atceries: nosacījums → wenn; jautājums “kad?” → wann.\"}","study.important":"[\"wenn e wann não são a mesma coisa.\",\"Wann kommst du? é uma pergunta. Wenn du kommst... é uma condição/tempo.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"wenn","lv":"Se • Quando","level":"A1","study":{"id":"a1-wenn","layout":"standardStudy","translation":"Se • Quando","explanation":["Ideia principal: wenn introduz uma condição ou uma situação temporal recorrente.","wann é usado em perguntas sobre quando; ob introduz perguntas indiretas de sim/não."],"examples":[{"de":"Wenn du Zeit hast, komm vorbei.","lv":"Se você tiver tempo, passe por aqui."},{"de":"Wenn es regnet, bleibe ich zu Hause.","lv":"Se chover, fico em casa."},{"de":"Wenn ich müde bin, trinke ich Kaffee.","lv":"Quando estou cansado, tomo café."},{"de":"Ich weiß nicht, ob er kommt.","lv":"Não sei se ele vem."}],"comparison":[{"word":"wenn","meaning":"se • quando","example":"Wenn du Zeit hast... – Se você tiver tempo..."},{"word":"ob","meaning":"se, em pergunta indireta","example":"Ich weiß nicht, ob... – Não sei se..."},{"word":"wann","meaning":"quando?, em pergunta","example":"Wann kommst du? – Quando você vem?"},{"word":"weil","meaning":"porque","example":"Ich bleibe, weil ich krank bin. – Eu fico porque estou doente."}],"tip":["Condição → wenn; pergunta “quando?” → wann."],"important":["Wann kommst du? é pergunta; Wenn du kommst... introduz condição ou tempo."]}}
+**Note:** Pilna PT kartīte «wenn»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "wenn",
+  "lv": "Se • Quando",
+  "level": "A1",
+  "study": {
+    "id": "a1-wenn",
+    "layout": "standardStudy",
+    "translation": "Se • Quando",
+    "explanation": [
+      "Ideia principal: wenn introduz uma condição ou uma situação temporal recorrente.",
+      "wann é usado em perguntas sobre quando; ob introduz perguntas indiretas de sim/não."
+    ],
+    "examples": [
+      {
+        "de": "Wenn du Zeit hast, komm vorbei.",
+        "lv": "Se você tiver tempo, passe por aqui."
+      },
+      {
+        "de": "Wenn es regnet, bleibe ich zu Hause.",
+        "lv": "Se chover, fico em casa."
+      },
+      {
+        "de": "Wenn ich müde bin, trinke ich Kaffee.",
+        "lv": "Quando estou cansado, tomo café."
+      },
+      {
+        "de": "Ich weiß nicht, ob er kommt.",
+        "lv": "Não sei se ele vem."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "wenn",
+        "meaning": "se • quando",
+        "example": "Wenn du Zeit hast... – Se você tiver tempo..."
+      },
+      {
+        "word": "ob",
+        "meaning": "se, em pergunta indireta",
+        "example": "Ich weiß nicht, ob... – Não sei se..."
+      },
+      {
+        "word": "wann",
+        "meaning": "quando?, em pergunta",
+        "example": "Wann kommst du? – Quando você vem?"
+      },
+      {
+        "word": "weil",
+        "meaning": "porque",
+        "example": "Ich bleibe, weil ich krank bin. – Eu fico porque estou doente."
+      }
+    ],
+    "tip": [
+      "Condição → wenn; pergunta “quando?” → wann."
+    ],
+    "important": [
+      "Wann kommst du? é pergunta; Wenn du kommst... introduz condição ou tempo."
+    ]
+  },
+  "index": 655
+}
+```
+
+---
+
+## Finding 47
+
+**Audit ID:** `LRB080-0047`
+**Finding Stable ID:** `g2/a1/pt|wer|idx:656|lv; study|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `wer|idx:656`
+**Field / path:** `lv; study`
+**Severity:** CRITICAL
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Kaš • Kurš","study.translation":"Kaš • Kurš","study.explanation":"[\"Galvenā tama: fomos jautājamvārds par personas identitāti — latviski tas ir kas vai kurš.\",\"Wer jautā par cilvēkiem, ne par ditām vai notokumiem.\",\"De Laatām à era notikumiem jautā ar, mais recente.\",\"Wer vacu valodā parasti ir teikuma priekšmets (nominatīvā) — Wer ist das? = Sua bolsa de dinheiro?\",\"Sim jautā, kurš tieši no vairākiem cilvēkiem, wer bieži dito kopā ar von (wer von euch = kurš no jums).\",\"Who maina formu pēc locījuma: quem (akuzatīvs), quem (datīvs), cujo (Лenitīvs) — A1 līmenī visbiežāk sastopama ir tieši form quem.\"]","study.examples":"[{\"de\":\"Wer ist das?\",\"lv\":\"A bolsa de dinheiro, certo?\"},{\"de\":\"Wer bist du?\",\"lv\":\"Você existiu?\"},{\"de\":\"Wer kommt heute?\",\"lv\":\"O que você tem hoje?\"},{\"de\":\"Wer ist deine Lehrerin?\",\"lv\":\"Como você está indo?\"},{\"de\":\"Wer von euch spricht Deutsch?\",\"lv\":\"Kurš no jums runā vaciski?\"},{\"de\":\"Wer hat das gesagt?\",\"lv\":\"Você é uma teoria?\"},{\"de\":\"Wer möchte Kaffee?\",\"lv\":\"Quem quer café?\"}]","study.tip":"[\"wer pergunta sobre pessoas (quem) — para coisas e eventos use was.\",\"Para perguntar sobre uma escolha entre várias pessoas, use wer von... (quem de...).\"]","study.important":"[\"wer pergunta apenas sobre pessoas, nunca sobre coisas.\",\"Sobre coisas e eventos, pergunte com was, não wer.\",\"wer muda de forma de acordo com o caso: wen, wem, wessen — mas a forma básica é wer.\",\"Incorreto: Wer ist passiert? → Correto: Was ist passiert?\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"wer","lv":"Quem","level":"A1","study":{"id":"a1-wer","layout":"standardStudy","translation":"Quem","explanation":["Ideia principal: wer pergunta pela identidade de uma pessoa.","Para coisas e acontecimentos, usa-se was; as formas oblíquas de wer são wen, wem e wessen."],"examples":[{"de":"Wer ist das?","lv":"Quem é?"},{"de":"Wer bist du?","lv":"Quem é você?"},{"de":"Wer kommt heute?","lv":"Quem vem hoje?"},{"de":"Wer ist deine Lehrerin?","lv":"Quem é a sua professora?"},{"de":"Wer von euch spricht Deutsch?","lv":"Qual de vocês fala alemão?"},{"de":"Wer hat das gesagt?","lv":"Quem disse isso?"},{"de":"Wer möchte Kaffee?","lv":"Quem quer café?"}],"tip":["Pessoa → wer; coisa ou acontecimento → was."],"important":["wer pergunta apenas por pessoas; wer von... pergunta qual pessoa de um grupo."]}}
+**Note:** Pilna PT kartīte «wer»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "wer",
+  "lv": "Quem",
+  "level": "A1",
+  "study": {
+    "id": "a1-wer",
+    "layout": "standardStudy",
+    "translation": "Quem",
+    "explanation": [
+      "Ideia principal: wer pergunta pela identidade de uma pessoa.",
+      "Para coisas e acontecimentos, usa-se was; as formas oblíquas de wer são wen, wem e wessen."
+    ],
+    "examples": [
+      {
+        "de": "Wer ist das?",
+        "lv": "Quem é?"
+      },
+      {
+        "de": "Wer bist du?",
+        "lv": "Quem é você?"
+      },
+      {
+        "de": "Wer kommt heute?",
+        "lv": "Quem vem hoje?"
+      },
+      {
+        "de": "Wer ist deine Lehrerin?",
+        "lv": "Quem é a sua professora?"
+      },
+      {
+        "de": "Wer von euch spricht Deutsch?",
+        "lv": "Qual de vocês fala alemão?"
+      },
+      {
+        "de": "Wer hat das gesagt?",
+        "lv": "Quem disse isso?"
+      },
+      {
+        "de": "Wer möchte Kaffee?",
+        "lv": "Quem quer café?"
+      }
+    ],
+    "tip": [
+      "Pessoa → wer; coisa ou acontecimento → was."
+    ],
+    "important": [
+      "wer pergunta apenas por pessoas; wer von... pergunta qual pessoa de um grupo."
+    ]
+  },
+  "index": 656
+}
+```
+
+---
+
+## Finding 48
+
+**Audit ID:** `LRB080-0048`
+**Finding Stable ID:** `g2/a1/pt|werden|idx:657|lv, study.explanation, study.examples, study.comparison, study.important|LANGUAGE_CONTAMINATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `werden|idx:657`
+**Field / path:** `lv, study.explanation, study.examples, study.comparison, study.important`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Kļût","study.explanation":"[\"Adestramento Galvenā: werken A1 līmenī visbiežāk nozīmē kļūt.\",\"Em suma, sim, kaut kas mainās vai kļūst citāds.\",\"O Vēlāk vācu valodā permaneceu arī nākotnei a pasīvam.\",\"A1 līmenī svarigākā frāze ir Ich tornou-se müde. = É kļūstu noguris.\"]","study.examples":"[{\"de\":\"Ich werde müde.\",\"lv\":\"É um segredo para você.\"},{\"de\":\"Es wird kalt.\",\"lv\":\"Kūst auksti.\"},{\"de\":\"Sie wird Ärztin.\",\"lv\":\"Viņa kųūst de ārsti.\"},{\"de\":\"Ich bin müde.\",\"lv\":\"Ele é um noguris.\"}]","study.comparison":"[{\"word\":\"werden\",\"meaning\":\"Kļût\",\"example\":\"Ich werde müde.\"},{\"word\":\"sein\",\"meaning\":\"Nós dois estamos arruinados por causa de nossas famílias.\",\"example\":\"Ich bin müde.\"},{\"word\":\"bleiben\",\"meaning\":\"Palikt\",\"example\":\"Ich bleibe hier.\"},{\"word\":\"machen\",\"meaning\":\"Darit / Taisit\",\"example\":\"Ich mache das.\"}]","study.important":"[\"werden não é a mesma coisa que sein.\",\"Ich werde müde = eu fico cansado; Ich bin müde = eu sou cansado.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"werden","lv":"Tornar-se • Ficar","level":"A1","study":{"id":"a1-werden","layout":"standardStudy","translation":"Tornar-se • Ficar","explanation":["Ideia principal: werden indica uma mudança de estado e significa tornar-se ou ficar.","Não confunda werden com sein, que descreve um estado existente."],"examples":[{"de":"Ich werde müde.","lv":"Estou ficando cansado."},{"de":"Es wird kalt.","lv":"Está ficando frio."},{"de":"Sie wird Ärztin.","lv":"Ela vai se tornar médica."},{"de":"Ich bin müde.","lv":"Estou cansado."}],"comparison":[{"word":"werden","meaning":"tornar-se • ficar","example":"Ich werde müde. – Estou ficando cansado."},{"word":"sein","meaning":"ser • estar","example":"Ich bin müde. – Estou cansado."},{"word":"bleiben","meaning":"ficar • permanecer","example":"Ich bleibe hier. – Eu fico aqui."},{"word":"machen","meaning":"fazer","example":"Ich mache das. – Eu faço isso."}],"tip":["Mudança de estado → werden."],"important":["Ich werde müde = Estou ficando cansado; Ich bin müde = Estou cansado."]}}
+**Note:** Pilna PT kartīte «werden»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "werden",
+  "lv": "Tornar-se • Ficar",
+  "level": "A1",
+  "study": {
+    "id": "a1-werden",
+    "layout": "standardStudy",
+    "translation": "Tornar-se • Ficar",
+    "explanation": [
+      "Ideia principal: werden indica uma mudança de estado e significa tornar-se ou ficar.",
+      "Não confunda werden com sein, que descreve um estado existente."
+    ],
+    "examples": [
+      {
+        "de": "Ich werde müde.",
+        "lv": "Estou ficando cansado."
+      },
+      {
+        "de": "Es wird kalt.",
+        "lv": "Está ficando frio."
+      },
+      {
+        "de": "Sie wird Ärztin.",
+        "lv": "Ela vai se tornar médica."
+      },
+      {
+        "de": "Ich bin müde.",
+        "lv": "Estou cansado."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "werden",
+        "meaning": "tornar-se • ficar",
+        "example": "Ich werde müde. – Estou ficando cansado."
+      },
+      {
+        "word": "sein",
+        "meaning": "ser • estar",
+        "example": "Ich bin müde. – Estou cansado."
+      },
+      {
+        "word": "bleiben",
+        "meaning": "ficar • permanecer",
+        "example": "Ich bleibe hier. – Eu fico aqui."
+      },
+      {
+        "word": "machen",
+        "meaning": "fazer",
+        "example": "Ich mache das. – Eu faço isso."
+      }
+    ],
+    "tip": [
+      "Mudança de estado → werden."
+    ],
+    "important": [
+      "Ich werde müde = Estou ficando cansado; Ich bin müde = Estou cansado."
+    ]
+  },
+  "index": 657
+}
+```
+
+---
+
+## Finding 49
+
+**Audit ID:** `LRB080-0049`
+**Finding Stable ID:** `g2/a1/pt|Wetter|idx:658|lv, study.explanation, study.examples, study.comparison, study.tip, study.important|LANGUAGE_CONTAMINATION|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `Wetter|idx:658`
+**Field / path:** `lv, study.explanation, study.examples, study.comparison, study.tip, study.important`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Desova (laikapstākųi)","study.explanation":"[\"Galvenā doma: das Wetter nozīmē laikapstākļus — saulaini, lateaini, auksti vai silti.\",\"Latviešu vārds «laiks» var nozīmēt gan laikapstākļus, gan laiku pulkstenī — vaciski tas ir atšˈirīgi.\",\"Per laiku dabā runā ar das Wetter: Quem é das Wetter heute?\",\"Teikumā bieži lago das Wetter kopā ar vārdiem kā warm vai calt.\",\"Nesajauc ar die Zeit — tā ir laiks kā bridis vai iespēja (Não tenho Zeit).\"]","study.examples":"[{\"de\":\"Wie ist das Wetter heute?\",\"lv\":\"Kāds laiks šodien?\"},{\"de\":\"Das Wetter ist schön.\",\"lv\":\"- O tempo está lindo.\"},{\"de\":\"Das Wetter ist schlecht.\",\"lv\":\"Laiks vão andorinhas.\"},{\"de\":\"Im Winter ist das Wetter oft kalt.\",\"lv\":\"Parece que está tudo bem com você.\"},{\"de\":\"Wir sprechen über das Wetter.\",\"lv\":\"Mēs runājam di laiku.\"},{\"de\":\"Morgen wird das Wetter besser.\",\"lv\":\"Rīt laik kųūs labāks.\"}]","study.comparison":"[{\"word\":\"Wetter\",\"meaning\":\"Laikapstaki\",\"example\":\"Das Wetter ist schön.\"},{\"word\":\"Zeit\",\"meaning\":\"Desova (bridis)\",\"example\":\"Ich habe keine Zeit.\"},{\"word\":\"Regen\",\"meaning\":\"Nos deixa\",\"example\":\"Es gibt viel Regen.\"},{\"word\":\"Sonne\",\"meaning\":\"Coluna\",\"example\":\"Die Sonne scheint.\"}]","study.tip":"[\"Se você falar sobre sol, chuva ou temperatura lá fora — use das Wetter.\",\"Lembre-se: Wie ist das Wetter? = Como está o tempo? (não relógio).\"]","study.important":"[\"das Wetter = condições climáticas, não hora do relógio.\",\"die Zeit = tempo como momento ou oportunidade — outra ficha A1.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"Wetter","lv":"Tempo (condições meteorológicas)","level":"A1","de_article":"das","study":{"id":"a1-wetter","layout":"standardStudy","translation":"Tempo (condições meteorológicas)","explanation":["Ideia principal: das Wetter significa o tempo ou as condições meteorológicas.","Não confunda Wetter com Zeit, que significa tempo como duração ou momento."],"examples":[{"de":"Wie ist das Wetter heute?","lv":"Como está o tempo hoje?"},{"de":"Das Wetter ist schön.","lv":"O tempo está bom."},{"de":"Das Wetter ist schlecht.","lv":"O tempo está ruim."},{"de":"Im Winter ist das Wetter oft kalt.","lv":"No inverno, o tempo costuma estar frio."},{"de":"Wir sprechen über das Wetter.","lv":"Nós falamos sobre o tempo."},{"de":"Morgen wird das Wetter besser.","lv":"Amanhã o tempo vai melhorar."}],"comparison":[{"word":"Wetter","meaning":"tempo, condições meteorológicas","example":"Das Wetter ist schön. – O tempo está bom."},{"word":"Zeit","meaning":"tempo • duração","example":"Ich habe keine Zeit. – Não tenho tempo."},{"word":"Regen","meaning":"chuva","example":"Es gibt viel Regen. – Há muita chuva."},{"word":"Sonne","meaning":"sol","example":"Die Sonne scheint. – O sol brilha."}],"tip":["Sol, chuva ou temperatura exterior → das Wetter."],"important":["das Wetter = condições meteorológicas; die Zeit = tempo como duração ou momento."]}}
+**Note:** Pilna PT kartīte «Wetter»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Wetter",
+  "de_article": "das",
+  "lv": "Tempo (condições meteorológicas)",
+  "level": "A1",
+  "study": {
+    "id": "a1-wetter",
+    "layout": "standardStudy",
+    "translation": "Tempo (condições meteorológicas)",
+    "explanation": [
+      "Ideia principal: das Wetter significa o tempo ou as condições meteorológicas.",
+      "Não confunda Wetter com Zeit, que significa tempo como duração ou momento."
+    ],
+    "examples": [
+      {
+        "de": "Wie ist das Wetter heute?",
+        "lv": "Como está o tempo hoje?"
+      },
+      {
+        "de": "Das Wetter ist schön.",
+        "lv": "O tempo está bom."
+      },
+      {
+        "de": "Das Wetter ist schlecht.",
+        "lv": "O tempo está ruim."
+      },
+      {
+        "de": "Im Winter ist das Wetter oft kalt.",
+        "lv": "No inverno, o tempo costuma estar frio."
+      },
+      {
+        "de": "Wir sprechen über das Wetter.",
+        "lv": "Nós falamos sobre o tempo."
+      },
+      {
+        "de": "Morgen wird das Wetter besser.",
+        "lv": "Amanhã o tempo vai melhorar."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "Wetter",
+        "meaning": "tempo, condições meteorológicas",
+        "example": "Das Wetter ist schön. – O tempo está bom."
+      },
+      {
+        "word": "Zeit",
+        "meaning": "tempo • duração",
+        "example": "Ich habe keine Zeit. – Não tenho tempo."
+      },
+      {
+        "word": "Regen",
+        "meaning": "chuva",
+        "example": "Es gibt viel Regen. – Há muita chuva."
+      },
+      {
+        "word": "Sonne",
+        "meaning": "sol",
+        "example": "Die Sonne scheint. – O sol brilha."
+      }
+    ],
+    "tip": [
+      "Sol, chuva ou temperatura exterior → das Wetter."
+    ],
+    "important": [
+      "das Wetter = condições meteorológicas; die Zeit = tempo como duração ou momento."
+    ]
+  },
+  "index": 658
+}
+```
+
+---
+
+## Finding 50
+
+**Audit ID:** `LRB080-0050`
+**Finding Stable ID:** `g2/a1/pt|wie|idx:660|study.explanation, study.examples, study.tip, study.important|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** pt
+**Card:** `wie|idx:660`
+**Field / path:** `study.explanation, study.examples, study.tip, study.important`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"study.explanation":"[\"Galvenā doma: come jautā par veidu vai īpašību (kā) un par apjomu vai skaitu (cik), atkarībā no konteksta.\",\"Wie viena pati (Quem é?) jautā par veidu — latviski kā.\",\"Wie + īpašības vārds (quem caiu, quem parou, quem é ótimo) jautā par apjomu, vecumu vai ilgumu — latviski cik.\",\"Quem caiu nozīmē cik daudz • Quem alt nozīmē cik vecs • Quem tem muito tempo nozīmē cik ilgi.\",\"Salīdzinājumos wie nozīmē tāpat kā (portanto, groß wie = tikpat liels kā).\"]","study.examples":"[{\"de\":\"Wie geht es dir?\",\"lv\":\"Ka tev iet?\"},{\"de\":\"Wie heißt du?\",\"lv\":\"Molho ka tevi?\"},{\"de\":\"Wie viel kostet das?\",\"lv\":\"Cik ta maksa?\"},{\"de\":\"Wie alt bist du?\",\"lv\":\"Quantos anos você tem?\"},{\"de\":\"Wie lange dauert der Film?\",\"lv\":\"Quais são os filmes?\"},{\"de\":\"Er ist so groß wie sein Vater.\",\"lv\":\"Vite ir tikpat garš, kā viņa tēvs.\"}]","study.tip":"[\"wie por si só = como (maneira); wie + adjetivo (viel/alt/lange) = quanto (quantidade).\",\"Em comparação so ... wie = tão ... quanto.\"]","study.important":"[\"wie viel(e) = quanto; wie alt = que idade; wie lange = quanto tempo.\",\"wie sozinho (Wie...?) geralmente = como, não quanto.\",\"Incorreto: Quanto você está? → Correto: Como você está? (Wie geht's?)\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"wie","lv":"Como • Quanto","level":"A1","study":{"id":"a1-wie","layout":"standardStudy","translation":"Como • Quanto","explanation":["Ideia principal: wie pergunta pelo modo ou pela característica (“como”) e, em combinações, pela quantidade, idade ou duração (“quanto”).","Em comparações, so ... wie significa “tão ... quanto”."],"examples":[{"de":"Wie geht es dir?","lv":"Como você está?"},{"de":"Wie heißt du?","lv":"Como você se chama?"},{"de":"Wie viel kostet das?","lv":"Quanto custa isso?"},{"de":"Wie alt bist du?","lv":"Quantos anos você tem?"},{"de":"Wie lange dauert der Film?","lv":"Quanto tempo dura o filme?"},{"de":"Er ist so groß wie sein Vater.","lv":"Ele é tão alto quanto o pai."}],"tip":["wie sozinho = como; wie viel/alt/lange = quanto; so ... wie = tão ... quanto."],"important":["Não diga “Quanto você está?” para Wie geht es dir?; diga “Como você está?”."]}}
+**Note:** Pilna PT kartīte «wie»: individuāli pārbaudīta pret LV avotu un DE piemēriem; aizstāts jauktais/bojātais mērķvalodas saturs, saglabājot DE identitāti un pilno kompozītu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "wie",
+  "lv": "Como • Quanto",
+  "level": "A1",
+  "study": {
+    "id": "a1-wie",
+    "layout": "standardStudy",
+    "translation": "Como • Quanto",
+    "explanation": [
+      "Ideia principal: wie pergunta pelo modo ou pela característica (“como”) e, em combinações, pela quantidade, idade ou duração (“quanto”).",
+      "Em comparações, so ... wie significa “tão ... quanto”."
+    ],
+    "examples": [
+      {
+        "de": "Wie geht es dir?",
+        "lv": "Como você está?"
+      },
+      {
+        "de": "Wie heißt du?",
+        "lv": "Como você se chama?"
+      },
+      {
+        "de": "Wie viel kostet das?",
+        "lv": "Quanto custa isso?"
+      },
+      {
+        "de": "Wie alt bist du?",
+        "lv": "Quantos anos você tem?"
+      },
+      {
+        "de": "Wie lange dauert der Film?",
+        "lv": "Quanto tempo dura o filme?"
+      },
+      {
+        "de": "Er ist so groß wie sein Vater.",
+        "lv": "Ele é tão alto quanto o pai."
+      }
+    ],
+    "tip": [
+      "wie sozinho = como; wie viel/alt/lange = quanto; so ... wie = tão ... quanto."
+    ],
+    "important": [
+      "Não diga “Quanto você está?” para Wie geht es dir?; diga “Como você está?”."
+    ]
+  },
+  "index": 660
+}
+```
+
+---
+
