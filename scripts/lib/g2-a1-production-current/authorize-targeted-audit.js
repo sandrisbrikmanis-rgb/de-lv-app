@@ -8,6 +8,7 @@ const { ROOT } = require("../audit-common");
 const { runPreflight } = require("./preflight");
 const { buildProductionFileSetInventory } = require("./inventory");
 const { isApiKeyConfigured } = require("../luna-phase1-openai");
+const { assertTargetedFieldCardTranslationBatchAllowed } = require("./card-translation-audit-policy");
 
 function loadEntryValidationReady() {
   const p = path.join(ROOT, "reports/g2-a1-production-current/official-source-entry-validation-ready.json");
@@ -79,6 +80,11 @@ function authorizeTargetedFieldLevelAudit(options = {}) {
 
   if (options.executeLuna && !isApiKeyConfigured()) {
     blockers.push({ code: "OPENAI_API_KEY_MISSING" });
+  }
+
+  const cardTranslationBatch = assertTargetedFieldCardTranslationBatchAllowed(options);
+  if (!cardTranslationBatch.pass) {
+    blockers.push(...cardTranslationBatch.blockers);
   }
 
   if (options.executeLuna && !options.pilotOnly) {

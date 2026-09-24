@@ -36,25 +36,40 @@ async function main() {
   const mockDe = {
     outcome: SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED,
     entryUrl: "https://www.dwds.de/wb/Route",
-    evidenceFragment: "Route, die — Weg, Strecke",
+    evidenceFragment: "Route, die — Weg, Strecke entlang einer Linie",
     entryHeadwordOrRule: "Route",
     authorityName: "DWDS",
+    adapterId: "de-dwds-wb-entry",
+    adapterVersion: "1.0.0",
+    contentSha256: "a".repeat(64),
   };
   const mockTarget = {
     outcome: SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED,
     entryHeadwordOrRule: "Streck",
     entryUrl: "https://lod.lu/artikel/STRECK2?lemma=Streck",
-    evidenceFragment: "LOD lb/search: Streck (STRECK2)",
-    authorityName: "LOD",
+    evidenceFragment: "LOD lb/search official headword: Streck (article STRECK2)",
+    authorityName: "LOD (Lëtzebuergesch)",
+    adapterId: "lb-lod-official-lb-search",
+    adapterVersion: "1.0.0",
+    contentSha256: "b".repeat(64),
   };
 
+  const findingCandidate = {
+    ...mockCandidate,
+    deTranslation: "Route [Weg]",
+  };
   const finding = resolveCardTranslationAuditVerdict({
-    cardGerman: { lemma: "Route", partOfSpeech: "noun" },
+    cardGerman: {
+      lemma: "Route",
+      partOfSpeech: "noun",
+      germanMeaning: "Weg Strecke die Route Fahrstrecke",
+    },
     deAuthority: mockDe,
-    dictionaryCandidates: [mockCandidate],
+    dictionaryCandidates: [findingCandidate],
     rejectedCandidates: [],
     currentTarget: "Munnerëffer Strooss",
     targetAuthorityForProven: mockTarget,
+    appLang: "lb",
   });
   if (finding.verdict !== TRANSLATION_AUDIT_VERDICT.FINDING) {
     blockers.push({ code: "ROUTE_WRONG_CURRENT_SHOULD_FINDING", verdict: finding.verdict });
@@ -64,12 +79,13 @@ async function main() {
   }
 
   const validated = resolveCardTranslationAuditVerdict({
-    cardGerman: { lemma: "Route", partOfSpeech: "noun" },
+    cardGerman: { lemma: "Route", partOfSpeech: "noun", germanMeaning: "Weg Strecke die Route" },
     deAuthority: mockDe,
-    dictionaryCandidates: [mockCandidate],
+    dictionaryCandidates: [{ ...mockCandidate, deTranslation: "Route [Weg]" }],
     rejectedCandidates: [],
     currentTarget: "Streck",
     targetAuthorityForProven: mockTarget,
+    appLang: "lb",
   });
   if (validated.verdict !== TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED) {
     blockers.push({ code: "ROUTE_STRECK_VALIDATED", verdict: validated.verdict });

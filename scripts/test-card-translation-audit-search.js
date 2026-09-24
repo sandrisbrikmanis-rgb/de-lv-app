@@ -29,21 +29,27 @@ async function main() {
   const mockDe = {
     outcome: SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED,
     entryUrl: "https://www.dwds.de/wb/Route",
-    evidenceFragment: "Route, die — Weg, Strecke",
+    evidenceFragment: "Route, die — Weg, Strecke entlang einer Linie",
     entryHeadwordOrRule: "Route",
+    adapterId: "de-dwds-wb-entry",
+    contentSha256: "c".repeat(64),
   };
   const mockTarget = {
     outcome: SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED,
     entryHeadwordOrRule: "Streck",
     entryUrl: "https://lod.lu/artikel/STRECK2?lemma=Streck",
+    evidenceFragment: "LOD lb/search official headword: Streck (article STRECK2)",
+    adapterId: "lb-lod-official-lb-search",
+    contentSha256: "d".repeat(64),
   };
   const routeResolved = resolveCardTranslationAuditVerdict({
     cardGerman: { lemma: "Route", partOfSpeech: "noun", germanMeaning: "Route, die Weg Strecke" },
     deAuthority: mockDe,
     dictionaryCandidates: routeAudit.eligible.filter((c) => c.wordLb === "Streck"),
     rejectedCandidates: routeAudit.rejected,
-    targetAuthority: mockTarget,
-    expectedTargetLemma: "Streck",
+    targetAuthorityForProven: mockTarget,
+    currentTarget: "Streck",
+    appLang: "lb",
   });
   if (routeResolved.verdict !== TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED) {
     blockers.push({ code: "ROUTE_MOCK_NOT_VALIDATED", verdict: routeResolved.verdict });

@@ -64,12 +64,12 @@ function collectLodDeReverseAuditPayload(payload, germanLemma) {
  * @param {string} currentTarget — kartītes CURRENT (production TARGET); pilotos = pareizais variants
  */
 async function runLodLbCardTranslationAudit(cardGerman, currentTarget) {
-  const allowDe = buildAllowlistForLanguage("en");
+  const allowDe = buildAllowlistForLanguage("lb");
   const deAuthority = await lookupDeOfficialEntry({
     lookupTerm: cardGerman.lemma,
     allowedDomains: allowDe.de.allowedDomains,
     authorityName: allowDe.de.authorityName,
-    provenance: { role: "DE", cardLemma: cardGerman.lemma },
+    provenance: { role: "DE", cardLemma: cardGerman.lemma, note: "DWDS/Duden only — LOD is lb TARGET" },
   });
 
   const fetched = await fetchLodDeSearchJson(cardGerman.lemma);
@@ -92,6 +92,7 @@ async function runLodLbCardTranslationAudit(cardGerman, currentTarget) {
     dictionaryCandidates: eligible,
     rejectedCandidates: rejected,
     currentTarget,
+    appLang: "lb",
   });
 
   let targetAuthority = null;
@@ -107,6 +108,7 @@ async function runLodLbCardTranslationAudit(cardGerman, currentTarget) {
       dictionaryCandidates: eligible,
       rejectedCandidates: rejected,
       currentTarget,
+      appLang: "lb",
       targetAuthorityForProven: targetAuthority,
     });
   }

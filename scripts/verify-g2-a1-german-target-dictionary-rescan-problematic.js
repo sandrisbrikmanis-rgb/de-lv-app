@@ -68,11 +68,17 @@ function main() {
         blockers.push({ code: "LB_RECOMMENDED_MUST_BE_LOD", got: row.recommendedRescan?.platform });
       }
     } else {
-      const missing = PILOT_LEMMAS.filter(
-        (lemma) => pilots[lemma] !== PILOT_FIELD.FOUND && pilots[lemma] !== PILOT_FIELD.TRANSLATION_VALIDATED,
-      );
+      const missing = PILOT_LEMMAS.filter((lemma) => pilots[lemma] !== PILOT_FIELD.FOUND);
       if (missing.length) {
-        blockers.push({ code: "PILOT_FOUR_OF_FOUR_FAIL", appCode: code, missing, pilots });
+        blockers.push({ code: "PILOT_FOUR_OF_FOUR_FOUND_ONLY", appCode: code, missing, pilots });
+      }
+      const wronglyValidated = PILOT_LEMMAS.filter((lemma) => pilots[lemma] === PILOT_FIELD.TRANSLATION_VALIDATED);
+      if (wronglyValidated.length) {
+        blockers.push({
+          code: "NON_LB_MUST_NOT_USE_TRANSLATION_VALIDATED",
+          appCode: code,
+          lemmas: wronglyValidated,
+        });
       }
       if (row.recommendedRescan?.finalStatus !== "DICTIONARY_READY") {
         blockers.push({

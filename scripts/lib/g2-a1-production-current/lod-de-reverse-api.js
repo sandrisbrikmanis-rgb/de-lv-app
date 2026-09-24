@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 "use strict";
 
+const crypto = require("crypto");
+const { SOURCE_ACCESS_OUTCOME } = require("./official-source-access-constants");
+
 const LOD_DE_SEARCH_API = "https://lod.lu/api/de/search";
 const LOD_LB_SEARCH_API = "https://lod.lu/api/lb/search";
 
@@ -189,9 +192,13 @@ async function fetchLodLbSearchJson(lbLemma, { timeoutMs = 20000 } = {}) {
       return { ok: false, url, status: response.status, payload: null, error: `HTTP_${response.status}` };
     }
     const payload = await response.json();
-    return { ok: true, url, status: response.status, payload, error: null };
+    const contentSha256 = crypto
+      .createHash("sha256")
+      .update(JSON.stringify(payload), "utf8")
+      .digest("hex");
+    return { ok: true, url, status: response.status, payload, contentSha256, error: null };
   } catch (e) {
-    return { ok: false, url, status: null, payload: null, error: String(e.message || e) };
+    return { ok: false, url, status: null, payload: null, contentSha256: null, error: String(e.message || e) };
   } finally {
     clearTimeout(timer);
   }
@@ -229,11 +236,14 @@ async function lookupLodOfficialLbEntry(lbLemma, expectedArticleId = null) {
     sameHeadword[0];
   const articleId = String(hit.article_id || hit.id || "").trim();
   return {
-    outcome: "SOURCE_ENTRY_VALIDATED",
+    outcome: SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED,
+    authorityName: "LOD (Lëtzebuergesch)",
+    adapterId: "lb-lod-official-lb-search",
+    adapterVersion: "1.0.0",
     entryHeadwordOrRule: hit.word_lb,
     entryUrl: buildLodArticleUrl(articleId, hit.word_lb),
-    evidenceFragment: `LOD lb/search: ${hit.word_lb} (${articleId})`,
-    contentSha256: "lod-json-api",
+    evidenceFragment: `LOD lb/search official headword: ${hit.word_lb} (article ${articleId})`,
+    contentSha256: fetched.contentSha256 || "lod-lb-search-json",
   };
 }
 

@@ -57,6 +57,13 @@ function isDeLemmaConfirmed(deAuthority) {
   );
 }
 
+/** Re-export policy check at verdict layer (avoid circular import in policy). */
+let _policy;
+function getPolicy() {
+  if (!_policy) _policy = require("./card-translation-audit-policy");
+  return _policy;
+}
+
 function deLemmaMatchesCard(deAuthority, cardGerman) {
   if (!cardGerman?.lemma) return false;
   const hw = String(deAuthority?.entryHeadwordOrRule || deAuthority?.entryOrRule || "").trim();
@@ -199,6 +206,22 @@ function resolveCardTranslationAuditVerdict(input) {
     };
   }
 
+  if (!getPolicy().isGermanDeAuthorityDwdsOrDuden(deAuthority)) {
+    return {
+      verdict: TRANSLATION_AUDIT_VERDICT.DE_NOT_CONFIRMED,
+      blockers: [
+        {
+          code: "DE_MUST_BE_DWDS_OR_DUDEN_NOT_LOD",
+          adapterId: deAuthority.adapterId,
+          entryUrl: deAuthority.entryUrl,
+        },
+      ],
+      selectedCandidate: null,
+      eligibleCount: eligible.length,
+      rejectedCount: rejected.length,
+    };
+  }
+
   if (!deLemmaMatchesCard(deAuthority, cardGerman)) {
     return {
       verdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
@@ -299,7 +322,28 @@ function resolveCardTranslationAuditVerdict(input) {
     };
   }
 
+  const appLang = input.appLang || input.language || null;
+  const senseAlignedCount = senseAligned.length;
+
   if (pick.mismatchCurrent) {
+    const findingGate = getPolicy().canEmitFindingWithProposedNew({
+      senseAlignedCount,
+      cardGerman,
+      selectedCandidate: selected,
+      deAuthority,
+      targetAuthority,
+    });
+    if (!findingGate.ok) {
+      return {
+        verdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+        blockers: [{ code: findingGate.code, detail: findingGate.alignment || null }],
+        selectedCandidate: selected,
+        provenTargetLemma: provenLemma,
+        currentTarget: stripQuotes(currentTarget),
+        eligibleCount: senseAlignedCount,
+        rejectedCount: rejected.length,
+      };
+    }
     return {
       verdict: TRANSLATION_AUDIT_VERDICT.FINDING,
       blockers: [
@@ -313,7 +357,26 @@ function resolveCardTranslationAuditVerdict(input) {
       selectedCandidate: selected,
       provenTargetLemma: provenLemma,
       currentTarget: stripQuotes(currentTarget),
-      eligibleCount: senseAligned.length,
+      eligibleCount: senseAlignedCount,
+      rejectedCount: rejected.length,
+    };
+  }
+
+  const validatedGate = getPolicy().canEmitTranslationValidated({
+    appLang,
+    deAuthority,
+    targetAuthority,
+    senseAlignedCount,
+    pick,
+  });
+  if (!validatedGate.ok) {
+    return {
+      verdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+      blockers: [{ code: validatedGate.code }],
+      selectedCandidate: selected,
+      provenTargetLemma: provenLemma,
+      currentTarget: stripQuotes(currentTarget),
+      eligibleCount: senseAlignedCount,
       rejectedCount: rejected.length,
     };
   }
@@ -324,7 +387,7 @@ function resolveCardTranslationAuditVerdict(input) {
     selectedCandidate: selected,
     provenTargetLemma: provenLemma,
     currentTarget: stripQuotes(currentTarget),
-    eligibleCount: senseAligned.length,
+    eligibleCount: senseAlignedCount,
     rejectedCount: rejected.length,
   };
 }

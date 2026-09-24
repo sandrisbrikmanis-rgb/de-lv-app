@@ -7,7 +7,11 @@ const { runLodLbCardTranslationAudit, TRANSLATION_AUDIT_VERDICT } = require("./l
 const { effectiveDeSenseText } = require("./card-translation-audit-search");
 const { stripQuotes } = require("./source-adapters/lookup-normalization");
 
-const EXECUTOR_VERSION = "g2-a1-card-translation-audit-executor-v1";
+const EXECUTOR_VERSION = "g2-a1-card-translation-audit-executor-v2";
+const {
+  languageMayReceiveTranslationValidated,
+  isGermanDeAuthorityDwdsOrDuden,
+} = require("./card-translation-audit-policy");
 
 function mapTranslationVerdictToAuditVerdict(translationVerdict) {
   switch (translationVerdict) {
@@ -71,6 +75,10 @@ async function runCardTranslationAuditForField(fieldRequest) {
 
   if (fieldRequest.language === "lb") {
     const audit = await runLodLbCardTranslationAudit(cardGerman, currentTarget);
+    if (audit.deAuthority && !isGermanDeAuthorityDwdsOrDuden(audit.deAuthority)) {
+      audit.verdict = TRANSLATION_AUDIT_VERDICT.DE_NOT_CONFIRMED;
+      audit.blockers = [{ code: "DE_MUST_BE_DWDS_OR_DUDEN_NOT_LOD" }];
+    }
     return {
       executorVersion: EXECUTOR_VERSION,
       pass: true,
@@ -85,14 +93,26 @@ async function runCardTranslationAuditForField(fieldRequest) {
     pass: false,
     translationVerdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
     verdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
-    blockers: [{ code: "NO_DE_TO_TARGET_COLLECTOR_FOR_LANGUAGE", language: fieldRequest.language }],
+    blockers: [
+      {
+        code: "TRANSLATION_VALIDATED_LB_ONLY_OTHERS_FOUND_PILOT",
+        language: fieldRequest.language,
+        note: "mk/nn/other languages: dictionary FOUND access pilots only until DE→TARGET collectors + TARGET official validation for all 32.",
+      },
+    ],
     cardGerman,
     currentTarget,
   };
 }
 
 function buildApvienotsAuditRecord(fieldRequest, audit) {
-  const translationVerdict = audit.verdict || audit.translationVerdict;
+  let translationVerdict = audit.verdict || audit.translationVerdict;
+  if (
+    translationVerdict === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED &&
+    !languageMayReceiveTranslationValidated(fieldRequest.language)
+  ) {
+    translationVerdict = TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW;
+  }
   const auditVerdict = mapTranslationVerdictToAuditVerdict(translationVerdict);
   const de = audit.deAuthority || {};
   const target = audit.targetAuthority || {};
