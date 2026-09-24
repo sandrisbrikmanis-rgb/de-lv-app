@@ -5,7 +5,10 @@ const { buildAllowlistForLanguage } = require("./registry-domain-allowlist");
 const { lookupDeOfficialEntry } = require("./source-adapters/de");
 const { lookupTargetOfficialEntry } = require("./source-adapters/target");
 const { runLodLbCardTranslationAudit } = require("./lod-card-translation-audit");
-const { collectDeTargetCandidatesFromBilingualDictionary, manifestRowForLang } = require("./card-translation-bilingual-collector");
+const {
+  collectDeTargetFromCatalog,
+  selectedDictionaryCandidateForLang,
+} = require("./card-translation-catalog-collector");
 const {
   TRANSLATION_AUDIT_VERDICT,
   resolveCardTranslationAuditVerdict,
@@ -42,8 +45,8 @@ async function runCardTranslationAuditForLanguage(appLang, cardGerman, currentTa
   }
 
   const deAuthority = await lookupDeForCard(cardGerman);
-  const collected = await collectDeTargetCandidatesFromBilingualDictionary(appLang, cardGerman);
-  const manifest = manifestRowForLang(appLang);
+  let collected = await collectDeTargetFromCatalog(appLang, cardGerman);
+  const catalogCandidate = collected.catalogCandidate || selectedDictionaryCandidateForLang(appLang);
   const targetMeta = getTargetAdapterMeta(appLang);
 
   if (!collected.ok) {
@@ -55,8 +58,12 @@ async function runCardTranslationAuditForLanguage(appLang, cardGerman, currentTa
       dictionaryCandidates: [],
       rejectedCandidates: collected.rejected,
       bilingualMeta: collected.bilingualMeta,
-      collectorId: collected.bilingualMeta?.sourceId || manifest?.overrideId || `manifest-${appLang}`,
-      targetValidatorId: targetMeta?.adapterId || null,
+      catalogCandidate,
+      collectorId: collected.bilingualMeta?.sourceId || catalogCandidate?.id || `catalog-${appLang}`,
+      targetValidatorId: targetMeta?.id || null,
+      bilingualSourceUrl: collected.bilingualMeta?.sourceUrl || catalogCandidate?.url || null,
+      bilingualResultUrl: collected.bilingualMeta?.resultUrl || null,
+      deSourceUrl: deAuthority?.entryUrl || null,
     };
   }
 
@@ -91,9 +98,11 @@ async function runCardTranslationAuditForLanguage(appLang, cardGerman, currentTa
     ...resolved,
     deAuthority,
     bilingualMeta: collected.bilingualMeta,
-    collectorId: collected.bilingualMeta?.sourceId || `manifest-${appLang}`,
-    targetValidatorId: targetMeta?.adapterId || null,
-    bilingualSourceUrl: collected.bilingualMeta?.sourceUrl || manifest?.url || null,
+    collectorId: collected.bilingualMeta?.sourceId || catalogCandidate?.id,
+    targetValidatorId: targetMeta?.id || null,
+    bilingualSourceUrl: collected.bilingualMeta?.sourceUrl || catalogCandidate?.url || null,
+    bilingualResultUrl: collected.bilingualMeta?.resultUrl || null,
+    deSourceUrl: deAuthority?.entryUrl || null,
     targetAuthorityName: targetMeta?.authorityName || null,
     dictionaryCandidates: collected.eligible,
     rejectedCandidates: collected.rejected,

@@ -483,6 +483,8 @@ async function probePilotWord(candidate, lemma, appCode, pilotWordSpec = null) {
 module.exports = {
   probePilotWord,
   buildSearchUrlForCandidate,
+  fetchDictionaryPageForCandidate,
+  extractTranslations,
   isGlosbeAutomaticOnly,
   isSubscriptionWall,
 };

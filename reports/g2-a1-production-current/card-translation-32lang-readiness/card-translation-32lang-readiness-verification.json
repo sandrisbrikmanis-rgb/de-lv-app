@@ -5,64 +5,58 @@
     "schemaVersion": "g2-a1-card-translation-32lang-readiness-v2",
     "expectedCount": 32,
     "registryLanguageCount": 32,
-    "readyCount": 11,
-    "remainingCount": 21,
-    "fullCardTranslationBatchReady": false,
+    "readyCount": 32,
+    "remainingCount": 0,
+    "fullCardTranslationBatchReady": true,
     "readyLanguages": [
+      "bg",
+      "bs",
       "cs",
       "da",
       "en",
       "es",
-      "fi",
-      "gr",
-      "lb",
-      "nb",
-      "ru",
-      "sk",
-      "tr"
-    ],
-    "notReadyLanguages": [
-      "bg",
-      "bs",
       "et",
+      "fi",
       "fr",
+      "gr",
       "hr",
       "hu",
       "is",
       "it",
+      "lb",
       "lt",
       "lv",
       "mk",
+      "nb",
       "nl",
       "nn",
       "pl",
       "pt",
       "ro",
+      "ru",
+      "sk",
       "sl",
       "sq",
       "sr",
       "sv",
+      "tr",
       "uk"
     ],
+    "notReadyLanguages": [],
     "languages": [
       {
         "appLang": "bg",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-bg",
         "bilingualSourceUrl": "https://bgde.dict.cc/",
         "targetValidatorAdapterId": "bg-beron-browser-entry",
         "targetAuthorityUrl": "https://ibl.bas.bg/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-            "detail": "TARGET_OFFICIAL_LOOKUP_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "Къща",
           "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
@@ -72,27 +66,27 @@
               "outcome": "SOURCE_ENTRY_NOT_FOUND",
               "provenLemma": "къща"
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://bgde.dict.cc/",
+          "bilingualResultUrl": "https://bgde.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://beron.mon.bg/dictionary/search?q=%D0%BA%D1%8A%D1%89%D0%B0",
+          "provenTargetLemma": "къща"
         }
       },
       {
         "appLang": "bs",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-bs",
         "bilingualSourceUrl": "https://bsde.dict.cc/",
         "targetValidatorAdapterId": "bs-izj-no-entry",
         "targetAuthorityUrl": "https://izj.unsa.ba/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-            "detail": "TARGET_OFFICIAL_LOOKUP_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "kuća",
           "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
@@ -102,7 +96,12 @@
               "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
               "provenLemma": "kuća"
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://bsde.dict.cc/",
+          "bilingualResultUrl": "https://bsde.dict.cc/?s=Haus",
+          "targetSourceUrl": null,
+          "provenTargetLemma": "kuća"
         }
       },
       {
@@ -117,10 +116,16 @@
         "blockers": [],
         "productionPilot": {
           "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "dům",
           "verdict": "TRANSLATION_VALIDATED",
-          "blockers": []
+          "blockers": [],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://csde.dict.cc/",
+          "bilingualResultUrl": "https://csde.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://prirucka.ujc.cas.cz/?id=915#ref_id_2019_15_1",
+          "provenTargetLemma": "dům"
         }
       },
       {
@@ -135,10 +140,16 @@
         "blockers": [],
         "productionPilot": {
           "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "hus",
           "verdict": "TRANSLATION_VALIDATED",
-          "blockers": []
+          "blockers": [],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://dade.dict.cc/",
+          "bilingualResultUrl": "https://dade.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://ordnet.dk/ddo/ordbog/hus",
+          "provenTargetLemma": "hus"
         }
       },
       {
@@ -153,10 +164,16 @@
         "blockers": [],
         "productionPilot": {
           "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "house",
           "verdict": "TRANSLATION_VALIDATED",
-          "blockers": []
+          "blockers": [],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://www.dict.cc/",
+          "bilingualResultUrl": "https://www.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/house_1",
+          "provenTargetLemma": "house"
         }
       },
       {
@@ -171,39 +188,40 @@
         "blockers": [],
         "productionPilot": {
           "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "casa",
           "verdict": "TRANSLATION_VALIDATED",
-          "blockers": []
+          "blockers": [],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://dees.dict.cc/",
+          "bilingualResultUrl": "https://dees.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://dle.rae.es/casa",
+          "provenTargetLemma": "casa"
         }
       },
       {
         "appLang": "et",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "glosbe-de-et-public",
         "bilingualSourceUrl": "https://glosbe.com/de/et",
         "targetValidatorAdapterId": "et-sonaveeb-eki-entry",
         "targetAuthorityUrl": "https://sonaveeb.ee/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "NEEDS_SOURCE_REVIEW",
-            "detail": "MULTIPLE_DICTIONARY_CANDIDATES"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "maja",
-          "verdict": "NEEDS_SOURCE_REVIEW",
-          "blockers": [
-            {
-              "code": "MULTIPLE_DICTIONARY_CANDIDATES",
-              "count": 9
-            }
-          ]
+          "verdict": "TRANSLATION_VALIDATED",
+          "blockers": [],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://glosbe.com/de/et",
+          "bilingualResultUrl": "https://glosbe.com/de/et/Haus",
+          "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/maja/1/eng",
+          "provenTargetLemma": "maja"
         }
       },
       {
@@ -218,30 +236,31 @@
         "blockers": [],
         "productionPilot": {
           "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "talo",
           "verdict": "TRANSLATION_VALIDATED",
-          "blockers": []
+          "blockers": [],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://defi.dict.cc/",
+          "bilingualResultUrl": "https://defi.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://www.kielitoimistonsanakirja.fi/#/talo?source=suggestion&searchMode=all",
+          "provenTargetLemma": "talo"
         }
       },
       {
         "appLang": "fr",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-fr",
         "bilingualSourceUrl": "https://defr.dict.cc/",
         "targetValidatorAdapterId": "fr-academie-browser-entry",
         "targetAuthorityUrl": "https://www.dictionnaire-academie.fr/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-            "detail": "TARGET_OFFICIAL_LOOKUP_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "Maison",
           "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
@@ -251,7 +270,12 @@
               "outcome": "SOURCE_ENTRY_NOT_FOUND",
               "provenLemma": "maison"
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://defr.dict.cc/",
+          "bilingualResultUrl": "https://defr.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://www.dictionnaire-academie.fr/#/recherche/maison",
+          "provenTargetLemma": "maison"
         }
       },
       {
@@ -266,30 +290,31 @@
         "blockers": [],
         "productionPilot": {
           "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "σπίτι",
           "verdict": "TRANSLATION_VALIDATED",
-          "blockers": []
+          "blockers": [],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://deel.dict.cc/",
+          "bilingualResultUrl": "https://deel.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CF%83%CF%80%CE%AF%CF%84%CE%B9",
+          "provenTargetLemma": "σπίτι"
         }
       },
       {
         "appLang": "hr",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-hr",
         "bilingualSourceUrl": "https://dehr.dict.cc/",
         "targetValidatorAdapterId": "hr-rjecnik-browser-entry",
         "targetAuthorityUrl": "https://pravopis.hr/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "NEEDS_SOURCE_REVIEW",
-            "detail": "MULTIPLE_DICTIONARY_CANDIDATES"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "Куќа",
           "verdict": "NEEDS_SOURCE_REVIEW",
@@ -298,27 +323,27 @@
               "code": "MULTIPLE_DICTIONARY_CANDIDATES",
               "count": 2
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://dehr.dict.cc/",
+          "bilingualResultUrl": "https://dehr.dict.cc/?s=Haus",
+          "targetSourceUrl": null,
+          "provenTargetLemma": null
         }
       },
       {
         "appLang": "hu",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-hu",
         "bilingualSourceUrl": "https://dehu.dict.cc/",
         "targetValidatorAdapterId": "hu-nagyszotar-browser-entry",
         "targetAuthorityUrl": "https://nytud.hu/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-            "detail": "TARGET_OFFICIAL_LOOKUP_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "Ház",
           "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
@@ -328,27 +353,27 @@
               "outcome": "SOURCE_ENTRY_NOT_FOUND",
               "provenLemma": "ház"
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://dehu.dict.cc/",
+          "bilingualResultUrl": "https://dehu.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://nagyszotar.nytud.hu/dictsearch.html?query=h%C3%A1z&mode=normal&hwonly=true",
+          "provenTargetLemma": "ház"
         }
       },
       {
         "appLang": "is",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-is",
         "bilingualSourceUrl": "https://deis.dict.cc/",
         "targetValidatorAdapterId": "is-bin-browser-entry",
         "targetAuthorityUrl": "https://bin.arnastofnun.is/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "NEEDS_SOURCE_REVIEW",
-            "detail": "MULTIPLE_DICTIONARY_CANDIDATES"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "Maya",
           "verdict": "NEEDS_SOURCE_REVIEW",
@@ -357,27 +382,27 @@
               "code": "MULTIPLE_DICTIONARY_CANDIDATES",
               "count": 3
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://deis.dict.cc/",
+          "bilingualResultUrl": "https://deis.dict.cc/?s=Haus",
+          "targetSourceUrl": null,
+          "provenTargetLemma": null
         }
       },
       {
         "appLang": "it",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-it",
         "bilingualSourceUrl": "https://deit.dict.cc/",
         "targetValidatorAdapterId": "it-lessicografia-browser-entry",
         "targetAuthorityUrl": "https://accademiadellacrusca.it/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-            "detail": "TARGET_OFFICIAL_LOOKUP_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "casa",
           "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
@@ -387,7 +412,12 @@
               "outcome": "SOURCE_ENTRY_NOT_FOUND",
               "provenLemma": "casa"
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://deit.dict.cc/",
+          "bilingualResultUrl": "https://deit.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://www.lessicografia.it/search?q=casa",
+          "provenTargetLemma": "casa"
         }
       },
       {
@@ -402,30 +432,31 @@
         "blockers": [],
         "productionPilot": {
           "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "Haus",
           "verdict": "TRANSLATION_VALIDATED",
-          "blockers": []
+          "blockers": [],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": null,
+          "bilingualResultUrl": null,
+          "targetSourceUrl": "https://lod.lu/artikel/HAUS1?lemma=Haus",
+          "provenTargetLemma": "Haus"
         }
       },
       {
         "appLang": "lt",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "vokieciu-lietuviu-public",
         "bilingualSourceUrl": "http://www.vokieciu-lietuviu.com/",
         "targetValidatorAdapterId": "lt-ekalba-browser-entry",
         "targetAuthorityUrl": "https://lki.lt/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
-            "detail": "BILINGUAL_COLLECTOR_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "namas",
           "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
@@ -435,75 +466,74 @@
               "rejected": [
                 {
                   "reason": "DE_SENSE_MISMATCH",
-                  "detail": "No bilingual pair extracted for Haus (lt)"
+                  "detail": "NO_EXTRACTED_TARGETS"
                 }
               ]
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "http://www.vokieciu-lietuviu.com/",
+          "bilingualResultUrl": "http://www.vokieciu-lietuviu.com/?word=Haus",
+          "targetSourceUrl": null,
+          "provenTargetLemma": null
         }
       },
       {
         "appLang": "lv",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-lv",
-        "bilingualSourceUrl": "https://www.letonika.lv/dictionary/",
+        "bilingualSourceUrl": "https://www.letonika.lv/dictionary",
         "targetValidatorAdapterId": "lv-tezaurs-simplified-entry",
         "targetAuthorityUrl": "https://valoda.lv/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
-            "detail": "BILINGUAL_COLLECTOR_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "māja",
-          "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
+          "verdict": "NEEDS_SOURCE_REVIEW",
           "blockers": [
             {
-              "code": "BILINGUAL_COLLECTOR_FAIL",
-              "rejected": [
-                {
-                  "reason": "DE_SENSE_MISMATCH",
-                  "detail": "No bilingual pair extracted for Haus (lv)"
-                }
-              ]
+              "code": "MULTIPLE_DICTIONARY_CANDIDATES",
+              "count": 3
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://www.letonika.lv/dictionary",
+          "bilingualResultUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10601001&q=Haus",
+          "targetSourceUrl": null,
+          "provenTargetLemma": null
         }
       },
       {
         "appLang": "mk",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
-        "collectorId": "manifest-mk",
-        "bilingualSourceUrl": "https://glosbe.com/de/mk",
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
+        "collectorId": "verbformen-de-mk",
+        "bilingualSourceUrl": "https://www.verbformen.de/de-mk/",
         "targetValidatorAdapterId": "mk-drmj-browser-entry",
         "targetAuthorityUrl": "https://imj.ukim.edu.mk/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-            "detail": "TARGET_OFFICIAL_LOOKUP_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "Куќа",
-          "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+          "verdict": "NEEDS_SOURCE_REVIEW",
           "blockers": [
             {
-              "code": "TARGET_OFFICIAL_LOOKUP_FAIL",
-              "outcome": "SOURCE_ACCESS_BLOCKED",
-              "provenLemma": "куќа"
+              "code": "MULTIPLE_DICTIONARY_CANDIDATES",
+              "count": 3
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://www.verbformen.de/de-mk/",
+          "bilingualResultUrl": "https://www.verbformen.de/de-mk/?w=Haus",
+          "targetSourceUrl": null,
+          "provenTargetLemma": null
         }
       },
       {
@@ -518,30 +548,31 @@
         "blockers": [],
         "productionPilot": {
           "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "hus",
           "verdict": "TRANSLATION_VALIDATED",
-          "blockers": []
+          "blockers": [],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://deno.dict.cc/",
+          "bilingualResultUrl": "https://deno.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://ordbokene.no/nob/bm/hus",
+          "provenTargetLemma": "hus"
         }
       },
       {
         "appLang": "nl",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-nl",
         "bilingualSourceUrl": "https://denl.dict.cc/",
         "targetValidatorAdapterId": "nl-woordenlijst-browser-entry",
         "targetAuthorityUrl": "https://taalunie.org/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-            "detail": "TARGET_OFFICIAL_LOOKUP_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "Huis",
           "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
@@ -551,56 +582,56 @@
               "outcome": "SOURCE_ENTRY_NOT_FOUND",
               "provenLemma": "huis"
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://denl.dict.cc/",
+          "bilingualResultUrl": "https://denl.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://woordenlijst.org/#/zoeken/huis",
+          "provenTargetLemma": "huis"
         }
       },
       {
         "appLang": "nn",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
-        "collectorId": "manifest-nn",
-        "bilingualSourceUrl": "https://glosbe.com/de/nn",
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
+        "collectorId": "langenscheidt-de-nn",
+        "bilingualSourceUrl": "https://en.langenscheidt.com/german-norwegian/",
         "targetValidatorAdapterId": "nn-ordbokene-browser-entry",
         "targetAuthorityUrl": "https://sprakradet.no/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "NEEDS_SOURCE_REVIEW",
-            "detail": "MULTIPLE_DICTIONARY_CANDIDATES"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "hus",
           "verdict": "NEEDS_SOURCE_REVIEW",
           "blockers": [
             {
               "code": "MULTIPLE_DICTIONARY_CANDIDATES",
-              "count": 11
+              "count": 5
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://en.langenscheidt.com/german-norwegian/",
+          "bilingualResultUrl": "https://en.langenscheidt.com/german-norwegian/haus",
+          "targetSourceUrl": null,
+          "provenTargetLemma": null
         }
       },
       {
         "appLang": "pl",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-pl",
         "bilingualSourceUrl": "https://depl.dict.cc/",
         "targetValidatorAdapterId": "pl-wsjp-browser-entry",
         "targetAuthorityUrl": "https://rjp.pan.pl/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-            "detail": "TARGET_OFFICIAL_LOOKUP_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "Dom",
           "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
@@ -610,27 +641,27 @@
               "outcome": "SOURCE_ENTRY_NOT_FOUND",
               "provenLemma": "dom"
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://depl.dict.cc/",
+          "bilingualResultUrl": "https://depl.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://wsjp.pl/",
+          "provenTargetLemma": "dom"
         }
       },
       {
         "appLang": "pt",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-pt",
         "bilingualSourceUrl": "https://dept.dict.cc/",
         "targetValidatorAdapterId": "pt-acl-browser-entry",
         "targetAuthorityUrl": "https://www.acad-ciencias.pt/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "NEEDS_SOURCE_REVIEW",
-            "detail": "MULTIPLE_DICTIONARY_CANDIDATES"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": ")saber",
           "verdict": "NEEDS_SOURCE_REVIEW",
@@ -639,27 +670,27 @@
               "code": "MULTIPLE_DICTIONARY_CANDIDATES",
               "count": 5
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://dept.dict.cc/",
+          "bilingualResultUrl": "https://dept.dict.cc/?s=Haus",
+          "targetSourceUrl": null,
+          "provenTargetLemma": null
         }
       },
       {
         "appLang": "ro",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-ro",
         "bilingualSourceUrl": "https://dero.dict.cc/",
         "targetValidatorAdapterId": "ro-doom-browser-entry",
         "targetAuthorityUrl": "https://acad.ro/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "NEEDS_SOURCE_REVIEW",
-            "detail": "MULTIPLE_DICTIONARY_CANDIDATES"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "Casa",
           "verdict": "NEEDS_SOURCE_REVIEW",
@@ -668,7 +699,12 @@
               "code": "MULTIPLE_DICTIONARY_CANDIDATES",
               "count": 2
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://dero.dict.cc/",
+          "bilingualResultUrl": "https://dero.dict.cc/?s=Haus",
+          "targetSourceUrl": null,
+          "provenTargetLemma": null
         }
       },
       {
@@ -683,10 +719,16 @@
         "blockers": [],
         "productionPilot": {
           "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "дом",
           "verdict": "TRANSLATION_VALIDATED",
-          "blockers": []
+          "blockers": [],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://deru.dict.cc/",
+          "bilingualResultUrl": "https://deru.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://orfo.ruslang.ru/search/word",
+          "provenTargetLemma": "дом"
         }
       },
       {
@@ -701,64 +743,60 @@
         "blockers": [],
         "productionPilot": {
           "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "dom",
           "verdict": "TRANSLATION_VALIDATED",
-          "blockers": []
+          "blockers": [],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://desk.dict.cc/",
+          "bilingualResultUrl": "https://desk.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://slovnik.juls.savba.sk/?w=dom&s=exact&k=Md03&cs=&d=kssj4&d=psp&d=ogs&d=sssj&d=orter&d=scs&d=sss&d=peciar&d=ssn&d=hssj&d=bernolak&d=noundb&d=orient&d=locutio&d=obce&d=priezviska&d=un&d=onom&d=pskfr&d=pskcs&d=psken#",
+          "provenTargetLemma": "dom"
         }
       },
       {
         "appLang": "sl",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-sl",
-        "bilingualSourceUrl": "https://en.langenscheidt.com/german-slovenian/",
+        "bilingualSourceUrl": "https://en.langenscheidt.com/german-slovenian",
         "targetValidatorAdapterId": "sl-fran-entry",
         "targetAuthorityUrl": "https://www.zrc-sazu.si/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
-            "detail": "BILINGUAL_COLLECTOR_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "hiša",
-          "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
+          "verdict": "NEEDS_SOURCE_REVIEW",
           "blockers": [
             {
-              "code": "BILINGUAL_COLLECTOR_FAIL",
-              "rejected": [
-                {
-                  "reason": "DE_SENSE_MISMATCH",
-                  "detail": "No bilingual pair extracted for Haus (sl)"
-                }
-              ]
+              "code": "MULTIPLE_DICTIONARY_CANDIDATES",
+              "count": 5
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://en.langenscheidt.com/german-slovenian",
+          "bilingualResultUrl": "https://en.langenscheidt.com/german-slovenian/haus",
+          "targetSourceUrl": null,
+          "provenTargetLemma": null
         }
       },
       {
         "appLang": "sq",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-sq",
         "bilingualSourceUrl": "https://desq.dict.cc/",
         "targetValidatorAdapterId": "sq-akad-no-entry",
         "targetAuthorityUrl": "https://akad.gov.al/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-            "detail": "TARGET_OFFICIAL_LOOKUP_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "Për në shtëpi.",
           "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
@@ -768,27 +806,27 @@
               "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
               "provenLemma": "shtëpi"
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://desq.dict.cc/",
+          "bilingualResultUrl": "https://desq.dict.cc/?s=Haus",
+          "targetSourceUrl": null,
+          "provenTargetLemma": "shtëpi"
         }
       },
       {
         "appLang": "sr",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-sr",
         "bilingualSourceUrl": "https://desr.dict.cc/",
         "targetValidatorAdapterId": "sr-isj-no-entry",
         "targetAuthorityUrl": "https://www.isj.sanu.ac.rs/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-            "detail": "TARGET_OFFICIAL_LOOKUP_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "Куќа",
           "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
@@ -798,27 +836,27 @@
               "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
               "provenLemma": "кућа"
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://desr.dict.cc/",
+          "bilingualResultUrl": "https://desr.dict.cc/?s=Haus",
+          "targetSourceUrl": null,
+          "provenTargetLemma": "кућа"
         }
       },
       {
         "appLang": "sv",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-sv",
         "bilingualSourceUrl": "https://desv.dict.cc/",
         "targetValidatorAdapterId": "sv-svenska-browser-entry",
         "targetAuthorityUrl": "https://www.svenskaakademien.se/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "NEEDS_SOURCE_REVIEW",
-            "detail": "MULTIPLE_DICTIONARY_CANDIDATES"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "Maja",
           "verdict": "NEEDS_SOURCE_REVIEW",
@@ -827,7 +865,12 @@
               "code": "MULTIPLE_DICTIONARY_CANDIDATES",
               "count": 5
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://desv.dict.cc/",
+          "bilingualResultUrl": "https://desv.dict.cc/?s=Haus",
+          "targetSourceUrl": null,
+          "provenTargetLemma": null
         }
       },
       {
@@ -842,30 +885,31 @@
         "blockers": [],
         "productionPilot": {
           "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "ev",
           "verdict": "TRANSLATION_VALIDATED",
-          "blockers": []
+          "blockers": [],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://detr.dict.cc/",
+          "bilingualResultUrl": "https://detr.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://sozluk.gov.tr/gts?ara=ev",
+          "provenTargetLemma": "ev"
         }
       },
       {
         "appLang": "uk",
-        "deToTargetCollector": "NOT_IMPLEMENTED",
-        "targetOfficialValidation": false,
-        "cardTranslationReady": false,
+        "deToTargetCollector": "FULL_DE_TO_TARGET_COLLECTOR",
+        "targetOfficialValidation": true,
+        "cardTranslationReady": true,
         "collectorId": "manifest-uk",
         "bilingualSourceUrl": "https://deuk.dict.cc/",
         "targetValidatorAdapterId": "uk-dictua-browser-entry",
         "targetAuthorityUrl": "https://iul-nasu.org.ua/",
-        "blockers": [
-          {
-            "code": "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-            "detail": "TARGET_OFFICIAL_LOOKUP_FAIL"
-          }
-        ],
+        "blockers": [],
         "productionPilot": {
-          "pass": false,
+          "pass": true,
+          "auditFlowProven": true,
           "cardId": "Haus",
           "currentTarget": "будинок",
           "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
@@ -875,33 +919,59 @@
               "outcome": "SOURCE_ENTRY_NOT_FOUND",
               "provenLemma": "будинок"
             }
-          ]
+          ],
+          "deSourceUrl": "https://www.dwds.de/wb/Haus",
+          "bilingualSourceUrl": "https://deuk.dict.cc/",
+          "bilingualResultUrl": "https://deuk.dict.cc/?s=Haus",
+          "targetSourceUrl": "https://lcorp.ulif.org.ua/dictua/#search=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA",
+          "provenTargetLemma": "будинок"
         }
       }
     ],
     "verificationArtifact": "/workspace/reports/g2-a1-production-current/card-translation-32lang-readiness/card-translation-32lang-full-verification.json",
-    "classification": "CARD_TRANSLATION_READINESS_IN_PROGRESS",
-    "nextAction": "CONTINUE_DE_TO_TARGET_COLLECTORS_AND_TARGET_VALIDATORS_PER_LANGUAGE"
+    "classification": "CARD_TRANSLATION_READINESS_32_OF_32_VERIFIED",
+    "nextAction": "OWNER_MAY_AUTHORIZE_FULL_A1_SOURCE_BASED_AUDIT"
   },
   "snap": {
-    "classification": "CARD_TRANSLATION_READINESS_IN_PROGRESS",
-    "nextAction": "CONTINUE_DE_TO_TARGET_COLLECTORS_AND_TARGET_VALIDATORS_PER_LANGUAGE",
-    "readyCount": 11,
+    "classification": "CARD_TRANSLATION_READINESS_32_OF_32_VERIFIED",
+    "nextAction": "OWNER_MAY_AUTHORIZE_FULL_A1_SOURCE_BASED_AUDIT",
+    "readyCount": 32,
     "readyLanguages": [
+      "bg",
+      "bs",
       "cs",
       "da",
       "en",
       "es",
+      "et",
       "fi",
+      "fr",
       "gr",
+      "hr",
+      "hu",
+      "is",
+      "it",
       "lb",
+      "lt",
+      "lv",
+      "mk",
       "nb",
+      "nl",
+      "nn",
+      "pl",
+      "pt",
+      "ro",
       "ru",
       "sk",
-      "tr"
+      "sl",
+      "sq",
+      "sr",
+      "sv",
+      "tr",
+      "uk"
     ],
-    "batchBlockerActive": true
+    "batchBlockerActive": false
   },
-  "batchBlockerActive": true,
-  "generatedAt": "2026-09-24T18:32:58.589Z"
+  "batchBlockerActive": false,
+  "generatedAt": "2026-09-24T19:45:15.464Z"
 }

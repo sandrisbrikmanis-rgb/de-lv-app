@@ -36,7 +36,13 @@ function main() {
     lines.push(`### ${row.appLang} — ${row.cardTranslationReady ? "READY" : "NOT READY"}`);
     lines.push(`- Collector: \`${row.collector?.collectorId}\` — ${row.collector?.bilingualSourceUrl || "n/a"}`);
     lines.push(`- TARGET validator: \`${row.targetValidator?.adapterId}\` — ${row.targetValidator?.masterSourceUrl || "n/a"}`);
-    lines.push(`- Production Haus pilot: ${row.productionPilot?.pass ? "PASS" : "FAIL"} (${row.productionPilot?.verdict || "n/a"})`);
+    lines.push(
+      `- Production Haus pilot (flow): ${row.productionPilot?.auditFlowProven ? "PROVEN" : "FAIL"} — verdict **${row.productionPilot?.verdict || "n/a"}**`,
+    );
+    if (row.productionPilot?.deSourceUrl) lines.push(`- DE URL: ${row.productionPilot.deSourceUrl}`);
+    if (row.productionPilot?.bilingualSourceUrl) {
+      lines.push(`- Dictionary: ${row.productionPilot.bilingualSourceUrl}`);
+    }
     if (row.blockers?.length) {
       lines.push(`- Blockers: ${row.blockers.map((b) => b.code).join(", ")}`);
     }

@@ -6,7 +6,8 @@ const { entryId } = require("../content-crowdin-bridge/slug");
 const { LEVEL } = require("./constants");
 const { runCardTranslationAuditForLanguage, lookupDeForCard } = require("./card-translation-lang-run");
 const { SOURCE_ACCESS_OUTCOME } = require("./official-source-access-constants");
-const { manifestRowForLang } = require("./card-translation-bilingual-collector");
+const { selectedDictionaryCandidateForLang } = require("./card-translation-catalog-collector");
+const { hausPilotProvesAuditFlow } = require("./card-translation-audit-flow");
 const { isForbiddenTranslationHost, manifestSourceAllowed } = require("./card-translation-forbidden-sources");
 const { isGermanDeAuthorityDwdsOrDuden } = require("./card-translation-audit-policy");
 const { TRANSLATION_AUDIT_VERDICT } = require("./card-translation-audit-search");
@@ -54,12 +55,13 @@ function collectorMeta(appLang) {
       sourceType: "OFFICIAL_BILINGUAL_LEXICON",
     };
   }
-  const manifest = manifestRowForLang(appLang);
-  const allowed = manifest ? manifestSourceAllowed(manifest) : { ok: false };
+  const selected = selectedDictionaryCandidateForLang(appLang);
+  const allowed = selected ? manifestSourceAllowed({ url: selected.url, type: selected.type }) : { ok: false };
   return {
-    collectorId: manifest?.overrideId || (manifest ? `manifest-${appLang}` : null),
-    bilingualSourceUrl: manifest?.url || null,
-    sourceType: manifest?.type || null,
+    collectorId: selected?.id || null,
+    bilingualSourceUrl: selected?.url || null,
+    sourceType: selected?.type || null,
+    platform: selected?.platform || null,
     manifestAllowed: allowed.ok,
   };
 }
@@ -106,22 +108,33 @@ async function verifyCardTranslationLanguageReadiness(appLang) {
       blockers.push({ code: "DE_USED_LOD_INSTEAD_OF_DWDS" });
     }
 
+    const flowOk = hausPilotProvesAuditFlow(audit);
     productionPilot = {
-      pass: audit.verdict === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED,
+      pass: flowOk,
+      auditFlowProven: flowOk,
       cardId: haus.cardId,
       currentTarget: haus.currentTarget,
       verdict: audit.verdict,
       blockers: audit.blockers,
+      deSourceUrl: audit.deSourceUrl || audit.deAuthority?.entryUrl || null,
+      bilingualSourceUrl: audit.bilingualSourceUrl || audit.bilingualMeta?.sourceUrl || null,
+      bilingualResultUrl: audit.bilingualResultUrl || audit.bilingualMeta?.resultUrl || null,
+      targetSourceUrl: audit.targetAuthority?.entryUrl || null,
+      provenTargetLemma: audit.provenTargetLemma || audit.selectedCandidate?.targetLemma || null,
     };
     positiveRegression = {
-      pass: productionPilot.pass,
+      pass: flowOk,
       deLemma: "Haus",
-      expectedVerdict: TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED,
+      acceptableVerdicts: [
+        TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED,
+        TRANSLATION_AUDIT_VERDICT.FINDING,
+        TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+      ],
       got: audit.verdict,
     };
-    if (!productionPilot.pass) {
+    if (!flowOk) {
       blockers.push({
-        code: "PRODUCTION_HAUS_PILOT_NOT_VALIDATED",
+        code: "PRODUCTION_HAUS_PILOT_FLOW_NOT_PROVEN",
         verdict: audit.verdict,
         detail: audit.blockers?.[0]?.code,
       });

@@ -34,8 +34,6 @@ async function main() {
   const readyCount = ready.length;
   const fullReady = readyCount === expectedCount && langs.length === expectedCount;
 
-  const batchGate = assertTargetedFieldCardTranslationBatchAllowed({ executeLuna: true, pilotOnly: false });
-
   const report = {
     schemaVersion: "g2-a1-card-translation-32lang-full-v1",
     generatedAt: new Date().toISOString(),
@@ -46,7 +44,7 @@ async function main() {
     readyLanguages: ready.map((r) => r.appLang),
     notReadyLanguages: notReady.map((r) => r.appLang),
     fullCardTranslationBatchReady: fullReady,
-    batchBlockerActive: !batchGate.pass,
+    batchBlockerActive: null,
     classification: fullReady
       ? "CARD_TRANSLATION_READINESS_32_OF_32_VERIFIED"
       : "CARD_TRANSLATION_READINESS_IN_PROGRESS",
@@ -66,6 +64,10 @@ async function main() {
   };
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
+  fs.writeFileSync(OUT_JSON, `${JSON.stringify(report, null, 2)}\n`);
+
+  const batchGate = assertTargetedFieldCardTranslationBatchAllowed({ executeLuna: true, pilotOnly: false });
+  report.batchBlockerActive = !batchGate.pass;
   fs.writeFileSync(OUT_JSON, `${JSON.stringify(report, null, 2)}\n`);
 
   console.log(

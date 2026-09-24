@@ -11,7 +11,7 @@ const path = require("path");
 const { ROOT } = require("../audit-common");
 const { EXPECTED_APP_LANGUAGES } = require("./constants");
 const { listAllTargetAppLanguages } = require("./source-adapters/target");
-const { manifestRowForLang } = require("./card-translation-bilingual-collector");
+const { selectedDictionaryCandidateForLang } = require("./card-translation-catalog-collector");
 const { getTargetAdapterMeta } = require("./source-adapters/target");
 
 const COLLECTOR_STAGE = Object.freeze({
@@ -46,10 +46,10 @@ function staticMeta(appLang) {
       targetValidatorAdapterId: "lb-lod-official-lb-search",
     };
   }
-  const m = manifestRowForLang(appLang);
+  const m = selectedDictionaryCandidateForLang(appLang);
   const t = getTargetAdapterMeta(appLang);
   return {
-    collectorId: m?.overrideId || (m ? `manifest-${appLang}` : null),
+    collectorId: m?.id || null,
     bilingualSourceUrl: m?.url || null,
     targetValidatorAdapterId: t?.id || null,
   };
