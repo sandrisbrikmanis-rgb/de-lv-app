@@ -11,6 +11,7 @@ const {
   mapTranslationVerdictToAuditVerdict,
 } = require("./lib/g2-a1-production-current/card-translation-audit-executor");
 const { buildCardGermanFromFieldRequest } = require("./lib/g2-a1-production-current/card-german-from-field-request");
+const { assertTargetedFieldCardTranslationBatchAllowed } = require("./lib/g2-a1-production-current/card-translation-audit-policy");
 const { buildTargetedFieldRequest } = require("./lib/g2-a1-production-current/targeted-field-payload");
 const { SOURCE_ACCESS_OUTCOME } = require("./lib/g2-a1-production-current/official-source-access-constants");
 
@@ -114,6 +115,13 @@ async function main() {
   }
   if (cardGerman.germanMeaning) {
     blockers.push({ code: "MUST_NOT_INVENT_GERMAN_MEANING" });
+  }
+
+  if (assertTargetedFieldCardTranslationBatchAllowed({ executeLuna: true, pilotOnly: false }).pass) {
+    blockers.push({ code: "FULL_BATCH_SHOULD_BE_BLOCKED" });
+  }
+  if (!assertTargetedFieldCardTranslationBatchAllowed({ executeLuna: true, pilotOnly: true }).pass) {
+    blockers.push({ code: "PILOT_BATCH_SHOULD_BE_ALLOWED" });
   }
 
   const pass = blockers.length === 0;
