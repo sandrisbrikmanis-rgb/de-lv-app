@@ -2,6 +2,7 @@
 "use strict";
 
 const LOD_DE_SEARCH_API = "https://lod.lu/api/de/search";
+const LOD_LB_SEARCH_API = "https://lod.lu/api/lb/search";
 
 /** @typedef {{ wordLb: string, articleId: string, articleUrl: string, meaningId: string, pos: string, deTranslation: string, matchKind: string, score: number }} LodDeReverseMatch */
 
@@ -171,6 +172,71 @@ async function fetchLodDeSearchJson(germanLemma, { timeoutMs = 20000 } = {}) {
   }
 }
 
+async function fetchLodLbSearchJson(lbLemma, { timeoutMs = 20000 } = {}) {
+  const url = `${LOD_LB_SEARCH_API}?query=${encodeURIComponent(String(lbLemma || "").trim())}&lang=lb`;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, {
+      method: "GET",
+      signal: controller.signal,
+      headers: {
+        Accept: "application/json",
+        "User-Agent": "de-lv-app-g2-a1-lod-lb-official/1.0 (read-only audit)",
+      },
+    });
+    if (!response.ok) {
+      return { ok: false, url, status: response.status, payload: null, error: `HTTP_${response.status}` };
+    }
+    const payload = await response.json();
+    return { ok: true, url, status: response.status, payload, error: null };
+  } catch (e) {
+    return { ok: false, url, status: null, payload: null, error: String(e.message || e) };
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+/**
+ * Oficiālā LOD (TARGET) lemmas pārbaude — nevis DE→LB reverss.
+ */
+async function lookupLodOfficialLbEntry(lbLemma, expectedArticleId = null) {
+  const term = String(lbLemma || "").trim();
+  const fetched = await fetchLodLbSearchJson(term);
+  if (!fetched.ok) {
+    return {
+      outcome: "SOURCE_ACCESS_BLOCKED",
+      entryHeadwordOrRule: null,
+      entryUrl: null,
+      error: fetched.error,
+    };
+  }
+  const results = fetched.payload?.results || [];
+  const sameHeadword = results.filter(
+    (r) => String(r.word_lb || "").trim().toLowerCase() === term.toLowerCase(),
+  );
+  if (!sameHeadword.length) {
+    return {
+      outcome: "SOURCE_ENTRY_NOT_FOUND",
+      entryHeadwordOrRule: null,
+      entryUrl: null,
+      error: "lod_lb_search_no_headword",
+    };
+  }
+  const hit =
+    (expectedArticleId &&
+      sameHeadword.find((r) => String(r.article_id || r.id || "") === expectedArticleId)) ||
+    sameHeadword[0];
+  const articleId = String(hit.article_id || hit.id || "").trim();
+  return {
+    outcome: "SOURCE_ENTRY_VALIDATED",
+    entryHeadwordOrRule: hit.word_lb,
+    entryUrl: buildLodArticleUrl(articleId, hit.word_lb),
+    evidenceFragment: `LOD lb/search: ${hit.word_lb} (${articleId})`,
+    contentSha256: "lod-json-api",
+  };
+}
+
 async function lookupLodGermanToLuxembourgish(germanLemma) {
   const fetched = await fetchLodDeSearchJson(germanLemma);
   const searchUrl = fetched.url;
@@ -215,4 +281,6 @@ module.exports = {
   extractLbHeadwordsFromLodDeSearchPayload,
   fetchLodDeSearchJson,
   lookupLodGermanToLuxembourgish,
+  fetchLodLbSearchJson,
+  lookupLodOfficialLbEntry,
 };

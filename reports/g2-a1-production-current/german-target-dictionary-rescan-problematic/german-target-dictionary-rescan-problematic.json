@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-german-target-dictionary-rescan-problematic-v1",
-  "generatedAt": "2026-09-24T16:42:06.543Z",
+  "generatedAt": "2026-09-24T17:15:58.983Z",
   "classification": "G2_A1_GERMAN_TARGET_DICTIONARY_RESCAN_PROBLEMATIC_COMPLETE",
   "nextAction": "OWNER_REVIEW_RESCAN_PROBLEMATIC_RECOMMENDATIONS",
   "targetLanguages": [
@@ -217,7 +217,7 @@
         "url": "https://lod.lu/",
         "platform": "lod",
         "finalStatus": "DICTIONARY_READY",
-        "score": 40,
+        "score": 48,
         "entryEditorialType": "INSTITUTIONAL_PROFESSIONAL",
         "entryEditorialLabelLv": "Institucionāli uzturēta vārdnīca (valsts/akadēmiska)",
         "automaticTranslationOnlyWords": []
@@ -230,14 +230,14 @@
           "url": "https://lod.lu/",
           "platform": "lod",
           "finalStatus": "DICTIONARY_READY",
-          "score": 40,
+          "score": 48,
           "skippedLivePilots": false,
           "entryEditorialType": "INSTITUTIONAL_PROFESSIONAL",
           "pilots": {
-            "Haus": "FOUND",
-            "abholen": "FOUND",
-            "Route": "FOUND",
-            "Getriebe": "FOUND"
+            "Haus": "TRANSLATION_VALIDATED",
+            "abholen": "TRANSLATION_VALIDATED",
+            "Route": "TRANSLATION_VALIDATED",
+            "Getriebe": "TRANSLATION_VALIDATED"
           }
         },
         {

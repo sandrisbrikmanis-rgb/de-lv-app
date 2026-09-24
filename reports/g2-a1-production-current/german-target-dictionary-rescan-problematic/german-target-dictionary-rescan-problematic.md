@@ -28,7 +28,7 @@ Valodas: **mk, nn, lb** — paplašināts kandidātu saraksts + live piloti (Hau
 
 ### lb
 
-- #1 **lod**: LOD (DE→LB reverse, /api/de/search) — `DICTIONARY_READY` score=40
+- #1 **lod**: LOD (DE→LB reverse, /api/de/search) — `DICTIONARY_READY` score=48
 - #2 **luxdico**: Luxdico Deutsch–Luxemburgisch — `DICTIONARY_PARTIALLY_READY` score=18
 - #3 **glosbe**: Glosbe German–Luxembourgish — `DICTIONARY_PARTIALLY_READY` score=11
 - #4 **lod**: LOD (advanced search, legacy) — `DICTIONARY_PARTIALLY_READY` score=7

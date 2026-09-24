@@ -11,6 +11,7 @@ const {
   cleanTarget,
 } = require("./three-word-dict-extract");
 const { PILOT_FIELD } = require("./german-target-dictionary-search-catalog");
+const { runLodLbCardTranslationAudit, TRANSLATION_AUDIT_VERDICT } = require("./lod-card-translation-audit");
 const { acceptPonsConsent } = require("./german-target-dictionary-probes");
 const {
   buildLodDeSearchUrl,
@@ -334,7 +335,60 @@ function extractTranslations(page, lemma, searchUrl, appCode) {
   return filterTranslationCandidates(translations, lemma, appCode);
 }
 
-async function probePilotWord(candidate, lemma, appCode) {
+async function probePilotWord(candidate, lemma, appCode, pilotWordSpec = null) {
+  if (
+    appCode === "lb" &&
+    candidate.searchMode === "LOD_DE_REVERSE_API" &&
+    pilotWordSpec?.expectedTargetLb
+  ) {
+    const audit = await runLodLbCardTranslationAudit(
+      {
+        lemma,
+        partOfSpeech: pilotWordSpec.partOfSpeech,
+        article: pilotWordSpec.article,
+        germanMeaning: pilotWordSpec.deSenseNote || null,
+      },
+      pilotWordSpec.expectedTargetLb,
+    );
+    const sel = audit.selectedCandidate;
+    const base = {
+      resultUrl: sel?.articleUrl || audit.lodSearchUrl,
+      sampleTranslation: sel?.wordLb || null,
+      lodArticleId: sel?.articleId || null,
+      lodArticleUrl: sel?.articleUrl || null,
+      translationAuditVerdict: audit.verdict,
+      translationAuditBlockers: audit.blockers,
+      dictionaryCandidateCount: audit.dictionaryCandidates?.length ?? 0,
+      rejectedCandidateCount: audit.rejectedCandidates?.length ?? 0,
+      access: candidate.access,
+    };
+    if (audit.verdict === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED) {
+      return {
+        ...base,
+        pilotStatus: PILOT_FIELD.TRANSLATION_VALIDATED,
+        note: `LOD ${sel?.articleId} DE="${sel?.deTranslation}" TARGET official OK`,
+      };
+    }
+    if (
+      audit.verdict === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW ||
+      audit.verdict === TRANSLATION_AUDIT_VERDICT.DE_NOT_CONFIRMED ||
+      audit.verdict === TRANSLATION_AUDIT_VERDICT.TARGET_OFFICIAL_NOT_VALIDATED
+    ) {
+      return {
+        ...base,
+        pilotStatus: PILOT_FIELD.NEEDS_SOURCE_REVIEW,
+        sampleTranslation: sel?.wordLb || base.sampleTranslation,
+        note: (audit.blockers?.[0]?.code || audit.verdict || "NEEDS_SOURCE_REVIEW").slice(0, 200),
+      };
+    }
+    return {
+      ...base,
+      pilotStatus: PILOT_FIELD.NOT_FOUND,
+      sampleTranslation: null,
+      note: audit.blockers?.[0]?.code || audit.verdict,
+    };
+  }
+
   if (candidate.subscriptionReferenceOnly) {
     return {
       pilotStatus: PILOT_FIELD.BLOCKED,

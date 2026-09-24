@@ -21,14 +21,30 @@ const { probePilotWord } = require("./german-target-dictionary-search-probe");
 const OUT_DIR = path.join(ROOT, "reports/g2-a1-production-current/german-target-dictionary-search-32");
 
 function scoreCandidate(pilotResults) {
-  const counts = { FOUND: 0, NOT_FOUND: 0, BLOCKED: 0, AUTOMATIC_TRANSLATION_ONLY: 0 };
+  const counts = {
+    TRANSLATION_VALIDATED: 0,
+    FOUND: 0,
+    NOT_FOUND: 0,
+    BLOCKED: 0,
+    AUTOMATIC_TRANSLATION_ONLY: 0,
+    NEEDS_SOURCE_REVIEW: 0,
+  };
   for (const p of pilotResults) counts[p.pilotStatus] = (counts[p.pilotStatus] || 0) + 1;
-  return counts.FOUND * 10 - counts.NOT_FOUND - counts.BLOCKED * 5 - counts.AUTOMATIC_TRANSLATION_ONLY * 8;
+  return (
+    counts.TRANSLATION_VALIDATED * 12 +
+    counts.FOUND * 10 -
+    counts.NOT_FOUND -
+    counts.BLOCKED * 5 -
+    counts.AUTOMATIC_TRANSLATION_ONLY * 8 -
+    counts.NEEDS_SOURCE_REVIEW * 3
+  );
 }
 
 function classifyLanguage(candidate, pilotMap, triedSubscriptionOnly) {
   const statuses = SEARCH_PILOT_WORDS.map((w) => pilotMap[w.lemma].pilotStatus);
-  const found = statuses.filter((s) => s === PILOT_FIELD.FOUND).length;
+  const found = statuses.filter(
+    (s) => s === PILOT_FIELD.FOUND || s === PILOT_FIELD.TRANSLATION_VALIDATED,
+  ).length;
   const blocked = statuses.every((s) => s === PILOT_FIELD.BLOCKED);
   const autoOnly = statuses.every((s) => s === PILOT_FIELD.AUTOMATIC_TRANSLATION_ONLY);
 
@@ -46,7 +62,7 @@ async function evaluateCandidate(candidate, appCode) {
   const pilots = {};
   for (const word of SEARCH_PILOT_WORDS) {
     // eslint-disable-next-line no-await-in-loop
-    pilots[word.lemma] = await probePilotWord(candidate, word.lemma, appCode);
+    pilots[word.lemma] = await probePilotWord(candidate, word.lemma, appCode, word);
   }
   const triedSubscriptionOnly = Boolean(candidate.subscriptionReferenceOnly);
   const finalStatus = classifyLanguage(candidate, pilots, triedSubscriptionOnly);

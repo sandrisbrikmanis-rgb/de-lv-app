@@ -6,7 +6,7 @@ const path = require("path");
 const { execSync } = require("child_process");
 const { ROOT } = require("./lib/audit-common");
 const { RESCAN_LANGS, OUT_DIR } = require("./lib/g2-a1-production-current/german-target-dictionary-rescan-problematic");
-const { SEARCH_PILOT_WORDS } = require("./lib/g2-a1-production-current/german-target-dictionary-search-catalog");
+const { SEARCH_PILOT_WORDS, PILOT_FIELD } = require("./lib/g2-a1-production-current/german-target-dictionary-search-catalog");
 
 const JSON_PATH = path.join(OUT_DIR, "german-target-dictionary-rescan-problematic.json");
 const PILOT_LEMMAS = SEARCH_PILOT_WORDS.map((w) => w.lemma);
@@ -14,14 +14,18 @@ const PILOT_LEMMAS = SEARCH_PILOT_WORDS.map((w) => w.lemma);
 function main() {
   const blockers = [];
 
-  try {
-    execSync("node scripts/test-lod-de-reverse-api.js", { cwd: ROOT, stdio: "pipe", encoding: "utf8" });
-  } catch (e) {
-    blockers.push({
-      code: "LOD_DE_REVERSE_REGRESSION_FAIL",
-      detail: String(e.stdout || e.stderr || e.message).slice(0, 500),
-    });
+  for (const script of ["scripts/test-lod-de-reverse-api.js", "scripts/test-card-translation-audit-search.js"]) {
+    try {
+      execSync(`node ${script}`, { cwd: ROOT, stdio: "pipe", encoding: "utf8" });
+    } catch (e) {
+      blockers.push({
+        code: "REGRESSION_SCRIPT_FAIL",
+        script,
+        detail: String(e.stdout || e.stderr || e.message).slice(0, 400),
+      });
+    }
   }
+
   for (const f of ["german-target-dictionary-rescan-problematic.json", "german-target-dictionary-rescan-problematic.md"]) {
     if (!fs.existsSync(path.join(OUT_DIR, f))) blockers.push({ code: "MISSING_ARTIFACT", file: f });
   }
@@ -35,7 +39,8 @@ function main() {
     blockers.push({ code: "SCHEMA_VERSION", got: data.schemaVersion });
   }
 
-  const pilotFourOfFour = {};
+  const pilotAuditSummary = {};
+
   for (const code of RESCAN_LANGS) {
     const row = (data.languages || []).find((l) => l.appCode === code);
     if (!row) {
@@ -44,52 +49,44 @@ function main() {
     }
     if (!row.ranked?.length) blockers.push({ code: "NO_CANDIDATES", appCode: code });
     if (!row.recommendedRescan) blockers.push({ code: "NO_RECOMMENDATION", appCode: code });
-    if (row.recommendedRescan?.finalStatus !== "DICTIONARY_READY") {
-      blockers.push({
-        code: "RECOMMENDED_NOT_DICTIONARY_READY",
-        appCode: code,
-        got: row.recommendedRescan?.finalStatus,
-        platform: row.recommendedRescan?.platform,
-      });
-    }
 
     const top = row.ranked?.find((r) => r.rank === 1) || row.ranked?.[0];
     const pilots = top?.pilots || {};
-    const missing = PILOT_LEMMAS.filter((lemma) => pilots[lemma] !== "FOUND");
-    pilotFourOfFour[code] = {
-      platform: top?.platform,
-      pilots,
-      foundCount: PILOT_LEMMAS.length - missing.length,
-      required: PILOT_LEMMAS.length,
-    };
-    if (missing.length) {
-      blockers.push({
-        code: "PILOT_FOUR_OF_FOUR_FAIL",
-        appCode: code,
-        missing,
-        pilots,
-      });
-    }
+    pilotAuditSummary[code] = pilots;
 
-    if (code === "lb" && row.recommendedRescan?.platform === "lod") {
-      const routePilot = top?.pilots?.Route;
-      if (routePilot !== "FOUND") {
-        blockers.push({ code: "LB_ROUTE_NOT_FOUND", got: routePilot });
+    if (code === "lb") {
+      for (const lemma of PILOT_LEMMAS) {
+        if (pilots[lemma] !== PILOT_FIELD.TRANSLATION_VALIDATED) {
+          blockers.push({
+            code: "LB_REQUIRES_TRANSLATION_VALIDATED",
+            lemma,
+            got: pilots[lemma],
+          });
+        }
+      }
+      if (row.recommendedRescan?.platform !== "lod") {
+        blockers.push({ code: "LB_RECOMMENDED_MUST_BE_LOD", got: row.recommendedRescan?.platform });
+      }
+    } else {
+      const missing = PILOT_LEMMAS.filter(
+        (lemma) => pilots[lemma] !== PILOT_FIELD.FOUND && pilots[lemma] !== PILOT_FIELD.TRANSLATION_VALIDATED,
+      );
+      if (missing.length) {
+        blockers.push({ code: "PILOT_FOUR_OF_FOUR_FAIL", appCode: code, missing, pilots });
+      }
+      if (row.recommendedRescan?.finalStatus !== "DICTIONARY_READY") {
+        blockers.push({
+          code: "RECOMMENDED_NOT_DICTIONARY_READY",
+          appCode: code,
+          got: row.recommendedRescan?.finalStatus,
+        });
       }
     }
   }
 
-  const lbRow = (data.languages || []).find((l) => l.appCode === "lb");
-  const lbJson = lbRow ? JSON.stringify(lbRow) : "";
+  const lbJson = JSON.stringify((data.languages || []).find((l) => l.appCode === "lb") || {});
   if (/Munnerëffer Strooss/i.test(lbJson)) {
     blockers.push({ code: "LB_MUNNEREFFER_STROOSS_MUST_NOT_APPEAR_IN_RESCAN" });
-  }
-  if (lbRow?.recommendedRescan?.platform === "lod") {
-    const routeRank = lbRow.ranked?.find((r) => r.platform === "lod" && r.rank === 1);
-    const routeDetail = routeRank?.pilots?.Route;
-    if (routeDetail === "FOUND") {
-      /* sampleTranslation not in ranked summary — regression test enforces Streck */
-    }
   }
 
   const pass = blockers.length === 0;
@@ -98,8 +95,10 @@ function main() {
     blockers,
     targetLanguages: RESCAN_LANGS,
     pilotLemmas: PILOT_LEMMAS,
-    pilotFourOfFour,
+    pilotAuditSummary,
     problematicLanguagesResolved: pass,
+    auditNote:
+      "lb: 4× TRANSLATION_VALIDATED (DE + LOD kandidāti + TARGET oficiālais); mk/nn: 4× FOUND (vārdnīcu piekļuve).",
     generatedAt: data.generatedAt,
     recommendations: (data.languages || []).map((l) => ({
       appCode: l.appCode,

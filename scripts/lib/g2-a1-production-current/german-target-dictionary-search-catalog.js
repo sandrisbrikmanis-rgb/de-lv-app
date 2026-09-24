@@ -11,10 +11,10 @@ const MANIFEST_REL = "scripts/lib/data/master-german-target-bilingual-dictionari
 const OVERRIDES_REL = "scripts/lib/data/german-target-dictionary-search-overrides-32.json";
 
 const SEARCH_PILOT_WORDS = Object.freeze([
-  { id: "haus", lemma: "Haus" },
-  { id: "abholen", lemma: "abholen" },
-  { id: "route", lemma: "Route" },
-  { id: "getriebe", lemma: "Getriebe" },
+  { id: "haus", lemma: "Haus", partOfSpeech: "noun", article: "das", expectedTargetLb: "Haus" },
+  { id: "abholen", lemma: "abholen", partOfSpeech: "verb", article: null, expectedTargetLb: "ofhuelen" },
+  { id: "route", lemma: "Route", partOfSpeech: "noun", article: "die", expectedTargetLb: "Streck" },
+  { id: "getriebe", lemma: "Getriebe", partOfSpeech: "noun", article: "das", expectedTargetLb: "Boîte" },
 ]);
 
 const FINAL_STATUS = Object.freeze({
@@ -31,6 +31,10 @@ const PILOT_FIELD = Object.freeze({
   NOT_FOUND: "NOT_FOUND",
   BLOCKED: "BLOCKED",
   AUTOMATIC_TRANSLATION_ONLY: "AUTOMATIC_TRANSLATION_ONLY",
+  /** Vārdnīcā kaut kas atrasts, bet kartītes audita kārtā nav TRANSLATION_VALIDATED */
+  NEEDS_SOURCE_REVIEW: "NEEDS_SOURCE_REVIEW",
+  /** Pilns kartītes tulkošanas audits (DE + vārdnīca + TARGET oficiālais) */
+  TRANSLATION_VALIDATED: "TRANSLATION_VALIDATED",
 });
 
 function loadManifest() {

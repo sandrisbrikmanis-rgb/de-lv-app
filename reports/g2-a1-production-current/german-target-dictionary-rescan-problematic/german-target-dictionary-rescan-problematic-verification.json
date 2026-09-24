@@ -12,43 +12,29 @@
     "Route",
     "Getriebe"
   ],
-  "pilotFourOfFour": {
+  "pilotAuditSummary": {
     "mk": {
-      "platform": "verbformen",
-      "pilots": {
-        "Haus": "FOUND",
-        "abholen": "FOUND",
-        "Route": "FOUND",
-        "Getriebe": "FOUND"
-      },
-      "foundCount": 4,
-      "required": 4
+      "Haus": "FOUND",
+      "abholen": "FOUND",
+      "Route": "FOUND",
+      "Getriebe": "FOUND"
     },
     "nn": {
-      "platform": "langenscheidt",
-      "pilots": {
-        "Haus": "FOUND",
-        "abholen": "FOUND",
-        "Route": "FOUND",
-        "Getriebe": "FOUND"
-      },
-      "foundCount": 4,
-      "required": 4
+      "Haus": "FOUND",
+      "abholen": "FOUND",
+      "Route": "FOUND",
+      "Getriebe": "FOUND"
     },
     "lb": {
-      "platform": "lod",
-      "pilots": {
-        "Haus": "FOUND",
-        "abholen": "FOUND",
-        "Route": "FOUND",
-        "Getriebe": "FOUND"
-      },
-      "foundCount": 4,
-      "required": 4
+      "Haus": "TRANSLATION_VALIDATED",
+      "abholen": "TRANSLATION_VALIDATED",
+      "Route": "TRANSLATION_VALIDATED",
+      "Getriebe": "TRANSLATION_VALIDATED"
     }
   },
   "problematicLanguagesResolved": true,
-  "generatedAt": "2026-09-24T16:42:06.543Z",
+  "auditNote": "lb: 4× TRANSLATION_VALIDATED (DE + LOD kandidāti + TARGET oficiālais); mk/nn: 4× FOUND (vārdnīcu piekļuve).",
+  "generatedAt": "2026-09-24T17:15:58.983Z",
   "recommendations": [
     {
       "appCode": "mk",
