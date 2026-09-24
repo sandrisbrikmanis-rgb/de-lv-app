@@ -1,0 +1,117 @@
+{
+  "generatedAt": "2026-09-20T13:52:56.818Z",
+  "dryRun": false,
+  "preApplySha": "1b3a1839c306f333ba3cc612fa58658e0a991b90",
+  "postApplySha": "2b481dd99190727167d10991e4981bd7840a9507",
+  "note": "Authoritative post-apply proof is commit-range verification, not this report alone.",
+  "pass": true,
+  "appliedCount": 6,
+  "skippedCount": 6,
+  "applied": [
+    {
+      "language": "en",
+      "cardId": "a1-haus-en-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/en/a1.js",
+      "wwwMirror": "www/data/en/a1.js",
+      "current": "House",
+      "new": "house",
+      "idempotent": true,
+      "evidenceUrl": "https://www.oxfordlearnersdictionaries.com/definition/english/house_1",
+      "evidenceSha256": "3e10d87dbbdd074b0f72734210d7ca6afa4322ab90013b7ae1cfc717dc51a276"
+    },
+    {
+      "language": "da",
+      "cardId": "a1-haus-da-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/da/a1.js",
+      "wwwMirror": "www/data/da/a1.js",
+      "current": "Hus",
+      "new": "hus",
+      "idempotent": true,
+      "evidenceUrl": "https://ordnet.dk/ddo/ordbog/Hus",
+      "evidenceSha256": "f74c65de9e204eaf48cc732610c7e4e66599b6079b91d78cebcf0dde43d62a78"
+    },
+    {
+      "language": "tr",
+      "cardId": "a1-haus-tr-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/tr/a1.js",
+      "wwwMirror": "www/data/tr/a1.js",
+      "current": "Ev",
+      "new": "ev",
+      "idempotent": true,
+      "evidenceUrl": "https://sozluk.gov.tr/gts?ara=Ev",
+      "evidenceSha256": "bc4fa8a3a9b62fca9b815702721f6a96bcd5f0df90db4dbe9483eba707ee0f8b"
+    },
+    {
+      "language": "gr",
+      "cardId": "a1-haus-gr-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/gr/a1.js",
+      "wwwMirror": "www/data/gr/a1.js",
+      "current": "Σπίτι",
+      "new": "σπίτι",
+      "idempotent": true,
+      "evidenceUrl": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq=%CE%A3%CF%80%CE%AF%CF%84%CE%B9",
+      "evidenceSha256": "87b558e93c6af1a49a905edd5eb6272b74be886c5c1a0d84250df88b2630c4f4"
+    },
+    {
+      "language": "ru",
+      "cardId": "a1-haus-ru-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/ru/a1.js",
+      "wwwMirror": "www/data/ru/a1.js",
+      "current": "Дом",
+      "new": "дом",
+      "idempotent": true,
+      "evidenceUrl": "https://orfo.ruslang.ru/search?word=%D0%B4%D0%BE%D0%BC",
+      "evidenceSha256": "e6a31e8e4c485c0326311bd917063e3039ee05dd7d98e713201bd88b1da139f0"
+    },
+    {
+      "language": "cs",
+      "cardId": "a1-haus-cs-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/cs/a1.js",
+      "wwwMirror": "www/data/cs/a1.js",
+      "current": "Dům",
+      "new": "dům",
+      "idempotent": true,
+      "evidenceUrl": "https://prirucka.ujc.cas.cz/?id=915#ref_id_2019_15_1",
+      "evidenceSha256": "1876c6c100357a4126a20ca88eff1787dddc810d69cef8d63298689baf630aea"
+    }
+  ],
+  "skipped": [
+    {
+      "language": "en",
+      "reason": "ALREADY_APPLIED",
+      "fieldPath": "cards[3].lv"
+    },
+    {
+      "language": "da",
+      "reason": "ALREADY_APPLIED",
+      "fieldPath": "cards[3].lv"
+    },
+    {
+      "language": "tr",
+      "reason": "ALREADY_APPLIED",
+      "fieldPath": "cards[3].lv"
+    },
+    {
+      "language": "gr",
+      "reason": "ALREADY_APPLIED",
+      "fieldPath": "cards[3].lv"
+    },
+    {
+      "language": "ru",
+      "reason": "ALREADY_APPLIED",
+      "fieldPath": "cards[3].lv"
+    },
+    {
+      "language": "cs",
+      "reason": "ALREADY_APPLIED",
+      "fieldPath": "cards[3].lv"
+    }
+  ],
+  "blockers": []
+}

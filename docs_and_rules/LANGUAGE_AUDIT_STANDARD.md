@@ -1,6 +1,13 @@
 # Valodu audita standarts (LT-DE un turpmākajām valodām)
 
-Šis dokuments ir obligāts audita standarts jebkurai jaunai `{LANG}-DE` valodai lietotnē (pirmais pielietojums: LT-DE; tas pats process bez izmaiņām attiecas uz RU-DE, PL-DE, UK-DE, ET-DE un jebkuru nākamo valodu).
+> **PARTIALLY SUPERSEDED — šis dokuments paliek spēkā tiktāl, ciktāl tas nav pretrunā
+> aktuālajam MASTER.** Autoritatīvā prioritāte: `PROJECT_LANGUAGE_MASTER_STANDARD.md` un
+> `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md`.
+> SOURCE-SUPPORTED lingvistiskā metodika, AI loma, TARGET pamatforma un kapitalizācija
+> tiek noteikta MASTER **§7.153–§7.158** un APVIENOTS **§6, §15, §20**. Pārējie tehniskie
+> un procesa noteikumi šeit paliek piemērojami, ja tie nav pretrunā MASTER.
+
+Šis dokuments ir obligāts audita standarts jebkurai jaunai `{LANG}-DE` valodai lietotnē **tiktāl, ciktāl tas nav pretrunā aktuālajam MASTER** (pirmais pielietojums: LT-DE; tas pats process bez izmaiņām attiecas uz RU-DE, PL-DE, UK-DE, ET-DE un jebkuru nākamo valodu).
 
 Standarts nemaina renderer darbību, dizainu, krāsu sistēmu vai datu formātu. Tas nosaka, KĀ pārbaudīt jaunas valodas kvalitāti, pirms tā tiek uzskatīta par gatavu produkcijai.
 

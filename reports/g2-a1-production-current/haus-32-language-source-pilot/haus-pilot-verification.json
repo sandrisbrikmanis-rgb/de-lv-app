@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "blockers": [],
+  "counts": {
+    "PASS": 4,
+    "FINDING": 10,
+    "NEEDS_SOURCE_REVIEW": 18,
+    "SOURCE_DE_ISSUE": 0
+  },
+  "HAUS_EXPLICIT_REGRESSION_GATES": {
+    "total": 5,
+    "passed": 5,
+    "failed": []
+  },
+  "classification": "G2_A1_HAUS_32_LANGUAGE_SOURCE_SUPPORTED_PILOT_COMPLETE_AWAITING_OWNER_REVIEW",
+  "nextAction": "OWNER_REVIEW_HAUS_FINDINGS_AND_SOURCE_DECISIONS",
+  "productionDiffClean": true,
+  "full95731AuditRan": false
+}

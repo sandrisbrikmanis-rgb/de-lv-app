@@ -1,0 +1,55 @@
+{
+  "pass": true,
+  "blockers": [],
+  "targetLanguages": [
+    "mk",
+    "nn",
+    "lb"
+  ],
+  "pilotLemmas": [
+    "Haus",
+    "abholen",
+    "Route",
+    "Getriebe"
+  ],
+  "pilotAuditSummary": {
+    "mk": {
+      "Haus": "FOUND",
+      "abholen": "FOUND",
+      "Route": "FOUND",
+      "Getriebe": "FOUND"
+    },
+    "nn": {
+      "Haus": "FOUND",
+      "abholen": "FOUND",
+      "Route": "FOUND",
+      "Getriebe": "FOUND"
+    },
+    "lb": {
+      "Haus": "TRANSLATION_VALIDATED",
+      "abholen": "TRANSLATION_VALIDATED",
+      "Route": "TRANSLATION_VALIDATED",
+      "Getriebe": "TRANSLATION_VALIDATED"
+    }
+  },
+  "problematicLanguagesResolved": true,
+  "auditNote": "lb: 4× TRANSLATION_VALIDATED (DE + LOD kandidāti + TARGET oficiālais); mk/nn: 4× FOUND (vārdnīcu piekļuve).",
+  "generatedAt": "2026-09-24T17:15:58.983Z",
+  "recommendations": [
+    {
+      "appCode": "mk",
+      "platform": "verbformen",
+      "finalStatus": "DICTIONARY_READY"
+    },
+    {
+      "appCode": "nn",
+      "platform": "langenscheidt",
+      "finalStatus": "DICTIONARY_READY"
+    },
+    {
+      "appCode": "lb",
+      "platform": "lod",
+      "finalStatus": "DICTIONARY_READY"
+    }
+  ]
+}

@@ -1,0 +1,1166 @@
+{
+  "pass": false,
+  "officialSourceAccessVersion": "g2-a1-official-source-v2-entry-validation",
+  "targetLanguages": 32,
+  "adaptersImplemented": 32,
+  "adaptersPending": 0,
+  "liveAdapters": 29,
+  "blockedOfficialAdapters": 3,
+  "browserAdapterPilots": {
+    "positivePilotPass": 6,
+    "browserAdapterCount": 21,
+    "classification": "G2_A1_BROWSER_ADAPTER_PILOTS_PARTIALLY_BLOCKED"
+  },
+  "blockerResolution": {
+    "totalEntryPathsVerified": 15,
+    "counts": {
+      "ENTRY_ACCESS_VERIFIED": 1,
+      "MANUAL_OFFICIAL_EVIDENCE_REQUIRED": 13,
+      "MASTER_SOURCE_CHANGE_REQUIRED": 4
+    },
+    "classification": "G2_A1_OFFICIAL_SOURCE_BLOCKERS_INDIVIDUALLY_RESOLVED_AWAITING_OWNER_ACTION"
+  },
+  "entryPathsValidatedEstimate": 15,
+  "registryComplete": true,
+  "missingAdapters": [],
+  "deAdapter": {
+    "adapterId": "de-dwds-wb-entry+de-duden-rechtschreibung-entry",
+    "realLookup": "YES",
+    "entryValidation": "SOURCE_ENTRY_VALIDATED"
+  },
+  "matrix": [
+    {
+      "language": "bs",
+      "standardCode": "bs",
+      "authorityName": "Institut za jezik Univerziteta u Sarajevu",
+      "masterSourceUrl": "https://izj.unsa.ba/",
+      "masterSeedUrls": [
+        "https://izj.unsa.ba/"
+      ],
+      "allowedDomains": [
+        "izj.unsa.ba"
+      ],
+      "adapterId": "bs-izj-no-entry",
+      "adapterVersion": "1.0.0",
+      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
+      "lookupType": "blocked",
+      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "izj.unsa.ba lacks verified automated dictionary entry lookup",
+      "headwordIdentificationMethod": "n/a",
+      "evidenceFragmentMethod": "n/a",
+      "positiveFixture": {
+        "lookupTerm": "fixture-not-applicable"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "BLOCKED",
+      "knownLimitations": [],
+      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "integrationTest": "blocked_negative_only"
+    },
+    {
+      "language": "en",
+      "standardCode": "en",
+      "authorityName": "Oxford English Dictionary / Oxford Learner's Dictionaries",
+      "masterSourceUrl": "https://www.oed.com/",
+      "masterSeedUrls": [
+        "https://www.oed.com/",
+        "https://www.oxfordlearnersdictionaries.com/"
+      ],
+      "allowedDomains": [
+        "www.oed.com",
+        "www.oxfordlearnersdictionaries.com"
+      ],
+      "adapterId": "en-oald-entry",
+      "adapterVersion": "1.0.0",
+      "adapterType": "HTML_ENTRY_URL",
+      "lookupType": "lemma-slug-entry",
+      "queryEntryUrlConstruction": "buildEntryUrls(lookupTerm) per language-configs",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "house",
+        "expectedHeadword": "house"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "cs",
+      "standardCode": "cs",
+      "authorityName": "Ústav pro jazyk český AV ČR — Internetová jazyková příručka",
+      "masterSourceUrl": "https://prirucka.ujc.cas.cz/",
+      "masterSeedUrls": [
+        "https://prirucka.ujc.cas.cz/"
+      ],
+      "allowedDomains": [
+        "prirucka.ujc.cas.cz"
+      ],
+      "adapterId": "cs-prirucka-ujc-entry",
+      "adapterVersion": "1.0.0",
+      "adapterType": "HTML_SEARCH_THEN_ENTRY",
+      "lookupType": "slovo-query",
+      "queryEntryUrlConstruction": "buildEntryUrls(lookupTerm) per language-configs",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "dřít",
+        "expectedHeadword": "dřít"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "da",
+      "standardCode": "da",
+      "authorityName": "Dansk Sprognævn — Retskrivningsordbogen",
+      "masterSourceUrl": "https://ro.dsn.dk/",
+      "masterSeedUrls": [
+        "https://ro.dsn.dk/"
+      ],
+      "allowedDomains": [
+        "ro.dsn.dk"
+      ],
+      "adapterId": "da-ddo-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "hus",
+        "expectedHeadword": "hus"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "et",
+      "standardCode": "et",
+      "authorityName": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+      "masterSourceUrl": "https://sonaveeb.ee/",
+      "masterSeedUrls": [
+        "https://sonaveeb.ee/"
+      ],
+      "allowedDomains": [
+        "sonaveeb.ee"
+      ],
+      "adapterId": "et-sonaveeb-eki-entry",
+      "adapterVersion": "1.0.0",
+      "adapterType": "SERVER_RENDERED_DICTIONARY",
+      "lookupType": "sonaveeb-search-entry",
+      "queryEntryUrlConstruction": "Sõnaveeb search → entry page",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "õppima",
+        "expectedHeadword": "õppima"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "es",
+      "standardCode": "es",
+      "authorityName": "Real Academia Española — DLE / Ortografía",
+      "masterSourceUrl": "https://dle.rae.es/",
+      "masterSeedUrls": [
+        "https://dle.rae.es/",
+        "https://www.rae.es/ortografia"
+      ],
+      "allowedDomains": [
+        "dle.rae.es",
+        "www.rae.es"
+      ],
+      "adapterId": "es-rae-dle-entry",
+      "adapterVersion": "1.1.0",
+      "adapterType": "HTML_ENTRY_URL",
+      "lookupType": "dle-lemma-path",
+      "queryEntryUrlConstruction": "buildEntryUrls(lookupTerm) per language-configs",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "casa",
+        "expectedHeadword": "casa"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "fr",
+      "standardCode": "fr",
+      "authorityName": "Académie française — Dictionnaire de l’Académie française",
+      "masterSourceUrl": "https://www.dictionnaire-academie.fr/",
+      "masterSeedUrls": [
+        "https://www.dictionnaire-academie.fr/"
+      ],
+      "allowedDomains": [
+        "www.dictionnaire-academie.fr"
+      ],
+      "adapterId": "fr-academie-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "maison",
+        "expectedHeadword": "maison"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "hr",
+      "standardCode": "hr",
+      "authorityName": "Institut za hrvatski jezik — Hrvatski pravopis",
+      "masterSourceUrl": "https://pravopis.hr/",
+      "masterSeedUrls": [
+        "https://pravopis.hr/"
+      ],
+      "allowedDomains": [
+        "pravopis.hr"
+      ],
+      "adapterId": "hr-rjecnik-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "kuća",
+        "expectedHeadword": "kuća"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "is",
+      "standardCode": "is",
+      "authorityName": "Stofnun Árna Magnússonar — BÍN / Málið.is",
+      "masterSourceUrl": "https://bin.arnastofnun.is/",
+      "masterSeedUrls": [
+        "https://bin.arnastofnun.is/",
+        "https://malid.is/"
+      ],
+      "allowedDomains": [
+        "bin.arnastofnun.is",
+        "malid.is"
+      ],
+      "adapterId": "is-bin-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "hús",
+        "expectedHeadword": "hús"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "it",
+      "standardCode": "it",
+      "authorityName": "Accademia della Crusca",
+      "masterSourceUrl": "https://accademiadellacrusca.it/",
+      "masterSeedUrls": [
+        "https://accademiadellacrusca.it/"
+      ],
+      "allowedDomains": [
+        "accademiadellacrusca.it"
+      ],
+      "adapterId": "it-lessicografia-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "casa",
+        "expectedHeadword": "casa"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "lv",
+      "standardCode": "lv",
+      "authorityName": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+      "masterSourceUrl": "https://valoda.lv/",
+      "masterSeedUrls": [
+        "https://valoda.lv/",
+        "https://mlvv.tezaurs.lv/",
+        "https://tezaurs.lv/"
+      ],
+      "allowedDomains": [
+        "valoda.lv",
+        "mlvv.tezaurs.lv",
+        "tezaurs.lv"
+      ],
+      "adapterId": "lv-tezaurs-simplified-entry",
+      "adapterVersion": "1.1.0",
+      "adapterType": "HTML_ENTRY_URL",
+      "lookupType": "tezaurs-lemma-path",
+      "queryEntryUrlConstruction": "buildEntryUrls(lookupTerm) per language-configs",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "māja",
+        "expectedHeadword": "māja"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "lb",
+      "standardCode": "lb",
+      "authorityName": "Zenter fir d'Lëtzebuerger Sprooch — LOD",
+      "masterSourceUrl": "https://zls.lu/",
+      "masterSeedUrls": [
+        "https://zls.lu/",
+        "https://lod.lu/"
+      ],
+      "allowedDomains": [
+        "zls.lu",
+        "lod.lu"
+      ],
+      "adapterId": "lb-lod-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "Haus",
+        "expectedHeadword": "Haus"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "lt",
+      "standardCode": "lt",
+      "authorityName": "Lietuvių kalbos institutas + VLKK",
+      "masterSourceUrl": "https://lki.lt/",
+      "masterSeedUrls": [
+        "https://lki.lt/",
+        "https://vlkk.lt/"
+      ],
+      "allowedDomains": [
+        "lki.lt",
+        "vlkk.lt"
+      ],
+      "adapterId": "lt-ekalba-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "namas",
+        "expectedHeadword": "namas"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "hu",
+      "standardCode": "hu",
+      "authorityName": "HUN-REN Nyelvtudományi Kutatóközpont",
+      "masterSourceUrl": "https://nytud.hu/",
+      "masterSeedUrls": [
+        "https://nytud.hu/"
+      ],
+      "allowedDomains": [
+        "nytud.hu"
+      ],
+      "adapterId": "hu-nagyszotar-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "asztal",
+        "expectedHeadword": "asztal"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "nl",
+      "standardCode": "nl",
+      "authorityName": "Nederlandse Taalunie — Woordenlijst Nederlandse Taal",
+      "masterSourceUrl": "https://taalunie.org/",
+      "masterSeedUrls": [
+        "https://taalunie.org/",
+        "https://woordenlijst.org/"
+      ],
+      "allowedDomains": [
+        "taalunie.org",
+        "woordenlijst.org"
+      ],
+      "adapterId": "nl-woordenlijst-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "huis",
+        "expectedHeadword": "huis"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "nb",
+      "standardCode": "nb",
+      "authorityName": "Språkrådet / Bokmålsordboka",
+      "masterSourceUrl": "https://sprakradet.no/",
+      "masterSeedUrls": [
+        "https://sprakradet.no/",
+        "https://ordbokene.no/bm"
+      ],
+      "allowedDomains": [
+        "sprakradet.no",
+        "ordbokene.no"
+      ],
+      "adapterId": "nb-ordbokene-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "hus",
+        "expectedHeadword": "hus"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "nn",
+      "standardCode": "nn",
+      "authorityName": "Språkrådet / Nynorskordboka",
+      "masterSourceUrl": "https://sprakradet.no/",
+      "masterSeedUrls": [
+        "https://sprakradet.no/",
+        "https://ordbokene.no/nn"
+      ],
+      "allowedDomains": [
+        "sprakradet.no",
+        "ordbokene.no"
+      ],
+      "adapterId": "nn-ordbokene-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "hus",
+        "expectedHeadword": "hus"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "pl",
+      "standardCode": "pl",
+      "authorityName": "Rada Języka Polskiego + WSJP PAN",
+      "masterSourceUrl": "https://rjp.pan.pl/",
+      "masterSeedUrls": [
+        "https://rjp.pan.pl/",
+        "https://wsjp.pl/"
+      ],
+      "allowedDomains": [
+        "rjp.pan.pl",
+        "wsjp.pl"
+      ],
+      "adapterId": "pl-wsjp-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "dom",
+        "expectedHeadword": "dom"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "pt",
+      "standardCode": "pt",
+      "authorityName": "Academia das Ciências de Lisboa",
+      "masterSourceUrl": "https://www.acad-ciencias.pt/",
+      "masterSeedUrls": [
+        "https://www.acad-ciencias.pt/",
+        "https://dicionario.acad-ciencias.pt/"
+      ],
+      "allowedDomains": [
+        "www.acad-ciencias.pt",
+        "dicionario.acad-ciencias.pt"
+      ],
+      "adapterId": "pt-acl-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "casa",
+        "expectedHeadword": "casa"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "ro",
+      "standardCode": "ro",
+      "authorityName": "Academia Română / Institutul de Lingvistică — DOOM",
+      "masterSourceUrl": "https://acad.ro/",
+      "masterSeedUrls": [
+        "https://acad.ro/",
+        "https://lingv.ro/",
+        "https://doom.lingv.ro/"
+      ],
+      "allowedDomains": [
+        "acad.ro",
+        "lingv.ro",
+        "doom.lingv.ro"
+      ],
+      "adapterId": "ro-doom-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "casa",
+        "expectedHeadword": "casa"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "sq",
+      "standardCode": "sq",
+      "authorityName": "Akademia e Shkencave e Shqipërisë",
+      "masterSourceUrl": "https://akad.gov.al/",
+      "masterSeedUrls": [
+        "https://akad.gov.al/"
+      ],
+      "allowedDomains": [
+        "akad.gov.al"
+      ],
+      "adapterId": "sq-akad-no-entry",
+      "adapterVersion": "1.0.0",
+      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
+      "lookupType": "blocked",
+      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "akad.gov.al lacks verified automated dictionary entry lookup",
+      "headwordIdentificationMethod": "n/a",
+      "evidenceFragmentMethod": "n/a",
+      "positiveFixture": {
+        "lookupTerm": "fixture-not-applicable"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "BLOCKED",
+      "knownLimitations": [],
+      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "integrationTest": "blocked_negative_only"
+    },
+    {
+      "language": "sk",
+      "standardCode": "sk",
+      "authorityName": "Jazykovedný ústav Ľudovíta Štúra SAV",
+      "masterSourceUrl": "https://www.juls.savba.sk/",
+      "masterSeedUrls": [
+        "https://www.juls.savba.sk/",
+        "https://slovnik.juls.savba.sk/"
+      ],
+      "allowedDomains": [
+        "www.juls.savba.sk",
+        "slovnik.juls.savba.sk"
+      ],
+      "adapterId": "sk-juls-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "dobrý",
+        "expectedHeadword": "dobrý"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "sl",
+      "standardCode": "sl",
+      "authorityName": "ZRC SAZU — FRAN",
+      "masterSourceUrl": "https://www.zrc-sazu.si/",
+      "masterSeedUrls": [
+        "https://www.zrc-sazu.si/",
+        "https://fran.si/"
+      ],
+      "allowedDomains": [
+        "www.zrc-sazu.si",
+        "fran.si"
+      ],
+      "adapterId": "sl-fran-entry",
+      "adapterVersion": "1.0.0",
+      "adapterType": "HTML_SEARCH_THEN_ENTRY",
+      "lookupType": "fran-search",
+      "queryEntryUrlConstruction": "buildEntryUrls(lookupTerm) per language-configs",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "hiša",
+        "expectedHeadword": "hiša"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "sr",
+      "standardCode": "sr",
+      "authorityName": "Institut za srpski jezik SANU + Matica srpska",
+      "masterSourceUrl": "https://www.isj.sanu.ac.rs/",
+      "masterSeedUrls": [
+        "https://www.isj.sanu.ac.rs/",
+        "https://www.maticasrpska.org.rs/"
+      ],
+      "allowedDomains": [
+        "www.isj.sanu.ac.rs",
+        "www.maticasrpska.org.rs"
+      ],
+      "adapterId": "sr-isj-no-entry",
+      "adapterVersion": "1.0.0",
+      "adapterType": "BLOCKED_OFFICIAL_SOURCE",
+      "lookupType": "blocked",
+      "queryEntryUrlConstruction": "n/a — blocked official source",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "isj.sanu.ac.rs / maticasrpska.org.rs lack verified automated entry lookup",
+      "headwordIdentificationMethod": "n/a",
+      "evidenceFragmentMethod": "n/a",
+      "positiveFixture": {
+        "lookupTerm": "fixture-not-applicable"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "BLOCKED",
+      "knownLimitations": [],
+      "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "integrationTest": "blocked_negative_only"
+    },
+    {
+      "language": "fi",
+      "standardCode": "fi",
+      "authorityName": "Kotimaisten kielten keskus — Kielitoimiston sanakirja",
+      "masterSourceUrl": "https://www.kotus.fi/",
+      "masterSeedUrls": [
+        "https://www.kotus.fi/",
+        "https://www.kielitoimistonsanakirja.fi/"
+      ],
+      "allowedDomains": [
+        "www.kotus.fi",
+        "www.kielitoimistonsanakirja.fi"
+      ],
+      "adapterId": "fi-kielitoimisto-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "talo",
+        "expectedHeadword": "talo"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "sv",
+      "standardCode": "sv",
+      "authorityName": "Svenska Akademien — SAOL / SO / SAOB",
+      "masterSourceUrl": "https://www.svenskaakademien.se/",
+      "masterSeedUrls": [
+        "https://www.svenskaakademien.se/",
+        "https://svenska.se/"
+      ],
+      "allowedDomains": [
+        "www.svenskaakademien.se",
+        "svenska.se"
+      ],
+      "adapterId": "sv-svenska-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "hus",
+        "expectedHeadword": "hus"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "tr",
+      "standardCode": "tr",
+      "authorityName": "Türk Dil Kurumu — Güncel Türkçe Sözlük / Yazım Kılavuzu",
+      "masterSourceUrl": "https://tdk.gov.tr/",
+      "masterSeedUrls": [
+        "https://tdk.gov.tr/",
+        "https://sozluk.gov.tr/"
+      ],
+      "allowedDomains": [
+        "tdk.gov.tr",
+        "sozluk.gov.tr"
+      ],
+      "adapterId": "tr-tdk-gts-entry",
+      "adapterVersion": "1.0.0",
+      "adapterType": "HTML_SEARCH_THEN_ENTRY",
+      "lookupType": "gts-ara",
+      "queryEntryUrlConstruction": "buildEntryUrls(lookupTerm) per language-configs",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "ev",
+        "expectedHeadword": "ev"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "gr",
+      "standardCode": "el",
+      "authorityName": "Κέντρο Ελληνικής Γλώσσας",
+      "masterSourceUrl": "https://www.greek-language.gr/",
+      "masterSeedUrls": [
+        "https://www.greek-language.gr/"
+      ],
+      "allowedDomains": [
+        "www.greek-language.gr"
+      ],
+      "adapterId": "el-greek-language-triantafyllides",
+      "adapterVersion": "1.0.0",
+      "adapterType": "HTML_SEARCH_THEN_ENTRY",
+      "lookupType": "triantafyllides-search",
+      "queryEntryUrlConstruction": "buildEntryUrls(lookupTerm) per language-configs",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "σπίτι",
+        "expectedHeadword": "σπίτι"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "bg",
+      "standardCode": "bg",
+      "authorityName": "Институт за български език, БАН — Официален правописен речник",
+      "masterSourceUrl": "https://ibl.bas.bg/",
+      "masterSeedUrls": [
+        "https://ibl.bas.bg/",
+        "https://beron.mon.bg/"
+      ],
+      "allowedDomains": [
+        "ibl.bas.bg",
+        "beron.mon.bg"
+      ],
+      "adapterId": "bg-beron-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "къща",
+        "expectedHeadword": "къща"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "mk",
+      "standardCode": "mk",
+      "authorityName": "Институт за македонски јазик „Крсте Мисирков“",
+      "masterSourceUrl": "https://imj.ukim.edu.mk/",
+      "masterSeedUrls": [
+        "https://imj.ukim.edu.mk/"
+      ],
+      "allowedDomains": [
+        "imj.ukim.edu.mk"
+      ],
+      "adapterId": "mk-drmj-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "куќа",
+        "expectedHeadword": "куќа"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "ru",
+      "standardCode": "ru",
+      "authorityName": "Институт русского языка им. В. В. Виноградова РАН",
+      "masterSourceUrl": "https://ruslang.ru/",
+      "masterSeedUrls": [
+        "https://ruslang.ru/",
+        "https://orfo.ruslang.ru/"
+      ],
+      "allowedDomains": [
+        "ruslang.ru",
+        "orfo.ruslang.ru"
+      ],
+      "adapterId": "ru-orfo-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "дом",
+        "expectedHeadword": "дом"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    },
+    {
+      "language": "uk",
+      "standardCode": "uk",
+      "authorityName": "Інститут української мови НАН України + Український правопис",
+      "masterSourceUrl": "https://iul-nasu.org.ua/",
+      "masterSeedUrls": [
+        "https://iul-nasu.org.ua/",
+        "https://mon.gov.ua/osvita-2/zagalna-serednya-osvita/ukrainskiy-pravopis"
+      ],
+      "allowedDomains": [
+        "iul-nasu.org.ua",
+        "mon.gov.ua"
+      ],
+      "adapterId": "uk-dictua-browser-entry",
+      "adapterVersion": "2.0.0",
+      "adapterType": "PUBLIC_BROWSER_SESSION",
+      "lookupType": "public-browser-session",
+      "queryEntryUrlConstruction": "unknown",
+      "redirectPolicy": "manual follow; reject if final domain not in MASTER allowlist",
+      "entryIdentificationMethod": "parseEntry(html) with headword + evidence fragment >= 25 chars",
+      "headwordIdentificationMethod": "parser headword vs fixture + normalization NFC compare",
+      "evidenceFragmentMethod": "htmlToPlainText on entry body / definition block",
+      "positiveFixture": {
+        "lookupTerm": "дім",
+        "expectedHeadword": "дім"
+      },
+      "negativeFixture": {
+        "lookupTerm": "zzqqxxnotaword999"
+      },
+      "liveIntegrationStatus": "LIVE",
+      "knownLimitations": [],
+      "blockedOutcome": null,
+      "realLookup": "YES",
+      "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
+      "integrationTest": "required_live"
+    }
+  ],
+  "classification": "G2_A1_OFFICIAL_SOURCE_BROWSER_ACCESS_PARTIALLY_BLOCKED",
+  "nextAction": "OWNER_DECISION_REQUIRED_FOR_REMAINING_SPECIFIC_AUTHORITIES"
+}

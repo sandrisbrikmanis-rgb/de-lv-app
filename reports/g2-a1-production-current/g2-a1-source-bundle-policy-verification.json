@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-09-20T17:21:24.976Z",
+  "policy": "DE authority + bilingual dictionary + optional TARGET D-source orthography; PASS only when bundle covers sense.",
+  "rows": [
+    {
+      "language": "bg",
+      "bundleComplete": true,
+      "communityPrimary": false
+    },
+    {
+      "language": "bs",
+      "bundleComplete": true,
+      "communityPrimary": true
+    },
+    {
+      "language": "fr",
+      "bundleComplete": true,
+      "communityPrimary": false
+    },
+    {
+      "language": "hu",
+      "bundleComplete": true,
+      "communityPrimary": false
+    },
+    {
+      "language": "is",
+      "bundleComplete": true,
+      "communityPrimary": true
+    },
+    {
+      "language": "it",
+      "bundleComplete": true,
+      "communityPrimary": false
+    },
+    {
+      "language": "lb",
+      "bundleComplete": true,
+      "communityPrimary": false
+    },
+    {
+      "language": "lt",
+      "bundleComplete": false,
+      "communityPrimary": false
+    },
+    {
+      "language": "nl",
+      "bundleComplete": true,
+      "communityPrimary": false
+    },
+    {
+      "language": "pl",
+      "bundleComplete": true,
+      "communityPrimary": false
+    },
+    {
+      "language": "pt",
+      "bundleComplete": true,
+      "communityPrimary": false
+    },
+    {
+      "language": "ro",
+      "bundleComplete": true,
+      "communityPrimary": false
+    },
+    {
+      "language": "sv",
+      "bundleComplete": true,
+      "communityPrimary": false
+    },
+    {
+      "language": "uk",
+      "bundleComplete": false,
+      "communityPrimary": false
+    }
+  ]
+}

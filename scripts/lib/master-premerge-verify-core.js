@@ -17,7 +17,7 @@ const BINDING_PATH = path.join(ROOT, "docs_and_rules/MASTER_1.12_BINDING_WORK_AG
 /** Floor for MASTER semantic line retention (v1.12+ standard line). */
 const MASTER_VERSION_FLOOR = "1.12";
 /** Authorized production MASTER on main after PR #831 (do not regress below). */
-const MASTER_VERSION_AUTHORIZED_MIN = "1.18";
+const MASTER_VERSION_AUTHORIZED_MIN = "1.19";
 
 const BATCH_TABLE_LINES = [
   "| G2 ordinary cards | 25 |",
@@ -80,6 +80,43 @@ function checkMasterVersion(doc) {
   };
 }
 
+function hausPreauthorizedProductionAllowlist() {
+  try {
+    const closurePath = path.join(
+      ROOT,
+      "reports/g2-a1-production-current/haus-owner-review/haus-preauthorized-capitalization-production-apply-closure.json",
+    );
+    const manifestPath = path.join(
+      ROOT,
+      "reports/g2-a1-production-current/haus-owner-review/haus-owner-review-manifest.json",
+    );
+    let eligible = fs.existsSync(closurePath);
+    if (!eligible && fs.existsSync(manifestPath)) {
+      const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+      eligible = manifest.productionApply === true;
+    }
+    if (!eligible) return null;
+    const { PREAUTHORIZED_CAP_ROWS } = require("./g2-a1-production-current/haus-preauthorized-capitalization");
+    const { productionA1Rel, wwwA1Rel } = require("./g2-a1-production-current/paths");
+    const allowed = new Set();
+    for (const spec of PREAUTHORIZED_CAP_ROWS) {
+      allowed.add(productionA1Rel(spec.language));
+      allowed.add(wwwA1Rel(spec.language));
+    }
+    const lexicalClosure = path.join(
+      ROOT,
+      "reports/g2-a1-production-current/haus-owner-review/haus-owner-lexical-production-apply-closure.json",
+    );
+    if (fs.existsSync(lexicalClosure)) {
+      const { expectedLexicalFiles } = require("./g2-a1-production-current/haus-owner-lexical-apply");
+      for (const f of expectedLexicalFiles()) allowed.add(f);
+    }
+    return allowed;
+  } catch {
+    return null;
+  }
+}
+
 function checkProductionChanges(baseRef) {
   const files = git(`git diff --name-only ${baseRef}...HEAD`).split("\n").filter(Boolean);
   const productionPatterns = [
@@ -88,7 +125,7 @@ function checkProductionChanges(baseRef) {
     /^www\/(?!data\/de)/,
   ];
   const dePatterns = [/^data\/de/, /^www\/data\/de/];
-  const prodHits = files.filter(
+  let prodHits = files.filter(
     (f) =>
       productionPatterns.some((re) => re.test(f)) &&
       !f.startsWith("reports/") &&
@@ -96,7 +133,20 @@ function checkProductionChanges(baseRef) {
       !f.startsWith("docs_and_rules/"),
   );
   const deHits = files.filter((f) => dePatterns.some((re) => re.test(f)));
-  return { files, prodHits, deHits, productionChanges: prodHits.length, deChanges: deHits.length };
+  const preauthAllow = hausPreauthorizedProductionAllowlist();
+  let preauthorizedProductionFiles = [];
+  if (preauthAllow) {
+    preauthorizedProductionFiles = prodHits.filter((f) => preauthAllow.has(f));
+    prodHits = prodHits.filter((f) => !preauthAllow.has(f));
+  }
+  return {
+    files,
+    prodHits,
+    deHits,
+    preauthorizedProductionFiles,
+    productionChanges: prodHits.length,
+    deChanges: deHits.length,
+  };
 }
 
 /**
@@ -273,14 +323,17 @@ function checkRequiredMasterFiles() {
 function checkTooling() {
   try {
     execSync("node scripts/test-main-translation-v112-regression.js", { cwd: ROOT, stdio: "pipe" });
+    execSync("node scripts/test-master-capitalization-rule.js", { cwd: ROOT, stdio: "pipe" });
     const lib = require("./main-translation-field-inventory");
     const inventoryOk = lib.INVENTORY_FIELD_PATHS.length >= 3;
     const fixtures = lib.runRegressionFixtures();
+    const capitalizationRule = require("./master-capitalization-rule-verify").verifyMasterCapitalizationRule();
     return {
       regressionPass: fixtures.pass,
       inventoryOk,
       inventoryFields: lib.INVENTORY_FIELD_PATHS,
       fixtureResults: fixtures.results.map((r) => ({ id: r.id, pass: r.pass })),
+      capitalizationRulePass: capitalizationRule.pass,
     };
   } catch (e) {
     return { regressionPass: false, error: e.message };
@@ -322,6 +375,7 @@ function runMasterPremergeVerify(options = {}) {
   const toolingPass =
     tooling.regressionPass &&
     tooling.inventoryOk &&
+    tooling.capitalizationRulePass !== false &&
     require("./main-translation-field-inventory").INVENTORY_FIELD_PATHS.includes("study.translation");
 
   const blockers = [];

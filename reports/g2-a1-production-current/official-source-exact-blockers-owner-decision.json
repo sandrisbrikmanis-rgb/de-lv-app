@@ -1,0 +1,1128 @@
+{
+  "generatedAt": "2026-09-20T09:43:04.304Z",
+  "ownerDecision": "PUBLIC_BROWSER_SESSION_AUTHORIZED_FOR_LISTED_OFFICIAL_DOMAINS",
+  "targetLanguages": 32,
+  "liveAdapters": 29,
+  "registryBlockedAdapters": 3,
+  "entryPathsValidatedEstimate": 14,
+  "remainingBlockerRows": 18,
+  "browserPilotSummary": {
+    "positivePilotPass": 6,
+    "browserAdapterCount": 21
+  },
+  "blockers": [
+    {
+      "language": "bs",
+      "standardCode": "bs",
+      "masterSourcesChecked": {
+        "norm": "Institut za jezik Univerziteta u Sarajevu",
+        "normUrls": [
+          "https://izj.unsa.ba/"
+        ],
+        "primaryDictionary": null,
+        "primaryDictionaryUrls": [],
+        "additional": null,
+        "additionalUrls": []
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://izj.unsa.ba/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://izj.unsa.ba/",
+          "htmlLen": 119664,
+          "preview": "IZJ UNSA Skip to main content +387 33 200 117 Hasana Kikića 12, BA-71000 Sarajevo, BiH info@izj.unsa.ba Početna O Instit"
+        }
+      ],
+      "adapterId": "bs-izj-no-entry",
+      "adapterIntegrationStatus": "BLOCKED",
+      "adapterBlockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "positiveFixtureOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "browserPilot": null,
+      "accessMethod": null,
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_NO_MACHINE_READABLE_ENTRY"
+    },
+    {
+      "language": "fr",
+      "standardCode": "fr",
+      "masterSourcesChecked": {
+        "norm": "Académie française — Dictionnaire de l'Académie française",
+        "normUrls": [
+          "https://www.dictionnaire-academie.fr/"
+        ],
+        "primaryDictionary": "Académie française — Dictionnaire de l'Académie française",
+        "primaryDictionaryUrls": [
+          "https://www.dictionnaire-academie.fr/"
+        ],
+        "additional": null,
+        "additionalUrls": []
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://www.dictionnaire-academie.fr/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.dictionnaire-academie.fr/",
+          "htmlLen": 209753,
+          "preview": "Dictionnaire de l'Académie française En poursuivant votre navigation sur ce site, vous acceptez l’utilisation d’un témoi"
+        },
+        {
+          "url": "https://www.dictionnaire-academie.fr/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.dictionnaire-academie.fr/",
+          "htmlLen": 209758,
+          "preview": "Dictionnaire de l'Académie française En poursuivant votre navigation sur ce site, vous acceptez l’utilisation d’un témoi"
+        }
+      ],
+      "adapterId": "fr-academie-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "maison",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": "https://www.dictionnaire-academie.fr/#/recherche/maison",
+        "error": "parse_failed",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "hr",
+      "standardCode": "hr",
+      "masterSourcesChecked": {
+        "norm": "Institut za hrvatski jezik — Hrvatski pravopis",
+        "normUrls": [
+          "https://pravopis.hr/"
+        ],
+        "primaryDictionary": "Institut za hrvatski jezik — Školski rječnik / rjecnik.hr",
+        "primaryDictionaryUrls": [
+          "https://rjecnik.hr/"
+        ],
+        "additional": null,
+        "additionalUrls": []
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://pravopis.hr/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://pravopis.hr/",
+          "htmlLen": 4776,
+          "preview": "Hrvatski pravopis Pravila Rječnik Pojmovnik Hrvatski pravopis Početna Impresum Izvori Recenzije Iz medija &copy; 2026. I"
+        },
+        {
+          "url": "https://rjecnik.hr/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://rjecnik.hr/",
+          "htmlLen": 59249,
+          "preview": "Školski rječnik hrvatskoga jezika Upišite pojam za pretragu... O rječniku A B C Č Ć D Dž Đ E F G H I J K L Lj M N Nj O P"
+        }
+      ],
+      "adapterId": "hr-rjecnik-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "kuća",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": "https://rjecnik.hr/?query=ku%C4%87a",
+        "error": "parse_failed",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "is",
+      "standardCode": "is",
+      "masterSourcesChecked": {
+        "norm": "Stofnun Árna Magnússonar — BÍN",
+        "normUrls": [
+          "https://bin.arnastofnun.is/"
+        ],
+        "primaryDictionary": "Málið.is (Árnastofnun language portal)",
+        "primaryDictionaryUrls": [
+          "https://malid.is/"
+        ],
+        "additional": null,
+        "additionalUrls": []
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://bin.arnastofnun.is/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://bin.arnastofnun.is/",
+          "htmlLen": 3600,
+          "preview": "Beygingarlýsing íslensks nútímamáls You need to enable JavaScript to run this app."
+        },
+        {
+          "url": "https://malid.is/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://malid.is/",
+          "htmlLen": 2068,
+          "preview": "Málið.is You need to enable JavaScript to run this app."
+        }
+      ],
+      "adapterId": "is-bin-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "hús",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": "https://bin.arnastofnun.is/beygingarstodur/nidur.php?adgerdir=leit&nafn=h%C3%BAs",
+        "error": "parse_failed",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "it",
+      "standardCode": "it",
+      "masterSourcesChecked": {
+        "norm": "Accademia della Crusca",
+        "normUrls": [
+          "https://accademiadellacrusca.it/"
+        ],
+        "primaryDictionary": "Accademia della Crusca — Lessicografia (lessicografia.it)",
+        "primaryDictionaryUrls": [
+          "https://www.lessicografia.it/"
+        ],
+        "additional": null,
+        "additionalUrls": []
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://accademiadellacrusca.it/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://accademiadellacrusca.it/",
+          "htmlLen": 73932,
+          "preview": "Pagina d&#39;entrata - Accademia della Crusca Italiano English L&#39;Accademia Presentazione Redazione del sito Informaz"
+        },
+        {
+          "url": "https://www.lessicografia.it/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lessicografia.it/",
+          "htmlLen": 10903,
+          "preview": "Vocabolario degli Accademici della Crusca - Lessicografia della crusca in rete, Accademia della Crusca, Firenze &nbsp; S"
+        }
+      ],
+      "adapterId": "it-lessicografia-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "casa",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": "https://www.lessicografia.it/search?q=casa",
+        "error": "CAPTCHA_OR_BOT_CHALLENGE",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "lb",
+      "standardCode": "lb",
+      "masterSourcesChecked": {
+        "norm": "Zenter fir d'Lëtzebuerger Sprooch",
+        "normUrls": [
+          "https://zls.lu/"
+        ],
+        "primaryDictionary": "LOD — Lëtzebuerger Online Dictionnaire",
+        "primaryDictionaryUrls": [
+          "https://lod.lu/"
+        ],
+        "additional": null,
+        "additionalUrls": []
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://zls.lu/",
+          "outcome": "SOURCE_DOMAIN_REJECTED",
+          "httpStatus": null,
+          "finalUrl": "https://ssl.education.lu/eduLink/Redirector/Redirect?Host=zls.lu&Path=/&Query=",
+          "htmlLen": 0,
+          "preview": ""
+        },
+        {
+          "url": "https://lod.lu/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://lod.lu/",
+          "htmlLen": 2259,
+          "preview": "LOD - Lëtzebuerger Online Dictionnaire - LOD We're sorry but lod-frontend doesn't work properly without JavaScript enabl"
+        }
+      ],
+      "adapterId": "lb-lod-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "Haus",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": "https://lod.lu/search/Haus",
+        "error": "parse_failed",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "lt",
+      "standardCode": "lt",
+      "masterSourcesChecked": {
+        "norm": "Lietuvių kalbos institutas",
+        "normUrls": [
+          "https://lki.lt/"
+        ],
+        "primaryDictionary": "Valstybinė lietuvių kalbos komisija (VLKK)",
+        "primaryDictionaryUrls": [
+          "https://vlkk.lt/"
+        ],
+        "additional": "E. kalba — lietuvių kalbos išteklių informacinė sistema",
+        "additionalUrls": [
+          "https://ekalba.lt/"
+        ]
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://lki.lt/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://lki.lt/",
+          "htmlLen": 118440,
+          "preview": "Lietuvių kalbos institutas &#8211; Lietuvių kalbos institutas yra valstybės mokslo institutas. Pagrindinė Instituto veik"
+        },
+        {
+          "url": "https://vlkk.lt/",
+          "outcome": "SOURCE_ACCESS_BLOCKED",
+          "httpStatus": 403,
+          "finalUrl": "https://vlkk.lt/",
+          "htmlLen": 5547,
+          "preview": "Just a moment... Enable JavaScript and cookies to continue"
+        },
+        {
+          "url": "https://ekalba.lt/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://ekalba.lt/",
+          "htmlLen": 2871,
+          "preview": "--> Lietuvių kalbos išteklių informacinė sistema E. KALBA -->"
+        }
+      ],
+      "adapterId": "lt-ekalba-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "namas",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": "https://ekalba.lt/zodynas?q=namas",
+        "error": "parse_failed",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "hu",
+      "standardCode": "hu",
+      "masterSourcesChecked": {
+        "norm": "HUN-REN Nyelvtudományi Kutatóközpont",
+        "normUrls": [
+          "https://nytud.hu/"
+        ],
+        "primaryDictionary": "Akadémiai Nagyszótár (nagyszotar.nytud.hu)",
+        "primaryDictionaryUrls": [
+          "https://nagyszotar.nytud.hu/"
+        ],
+        "additional": "MTA helyesírás (helyesiras.mta.hu)",
+        "additionalUrls": [
+          "https://helyesiras.mta.hu/"
+        ]
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://nytud.hu/",
+          "outcome": "SOURCE_ACCESS_BLOCKED",
+          "httpStatus": 403,
+          "finalUrl": "https://nytud.hu/",
+          "htmlLen": 321,
+          "preview": "403 Forbidden Forbidden You don't have permission to access / on this server. Additionally, a 403 Forbidden error was en"
+        },
+        {
+          "url": "https://nagyszotar.nytud.hu/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://nagyszotar.nytud.hu/index.html",
+          "htmlLen": 122232,
+          "preview": "A magyar nyelv nagyszótára Toggle navigation Toggle search ❖ NsztWeb A szótárról Tájékoztató A Nagyszótár előszava A Nag"
+        },
+        {
+          "url": "https://helyesiras.mta.hu/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://helyesiras.mta.hu/",
+          "htmlLen": 29379,
+          "preview": "helyesiras.mta.hu device height maximum-scale = 1.0 retains dimensions instead of zooming in if page width hirdetés --> "
+        }
+      ],
+      "adapterId": "hu-nagyszotar-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "ház",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": "https://nagyszotar.nytud.hu/dictsearch.html?query=h%C3%A1z&mode=normal&hwonly=true",
+        "error": "entry_not_found",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "nl",
+      "standardCode": "nl",
+      "masterSourcesChecked": {
+        "norm": "Nederlandse Taalunie",
+        "normUrls": [
+          "https://taalunie.org/"
+        ],
+        "primaryDictionary": "Woordenlijst Nederlandse Taal",
+        "primaryDictionaryUrls": [
+          "https://woordenlijst.org/"
+        ],
+        "additional": "Taaladvies.net (Taalunie)",
+        "additionalUrls": [
+          "https://taaladvies.net/"
+        ]
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://taalunie.org/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://taalunie.org/",
+          "htmlLen": 232671,
+          "preview": "Taalunie Thema&#039;s Agenda Actueel Over de Taalunie Taalvragen Subsidies mijnNederlands Contact Privacyverklaring Vrij"
+        },
+        {
+          "url": "https://woordenlijst.org/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://woordenlijst.org/",
+          "htmlLen": 31426,
+          "preview": "Spellingregels Taaladvies Woordsoorten zijn selecteerbaar Als je met een joker zoekt, krijg je eerst een rij zoeksuggest"
+        },
+        {
+          "url": "https://taaladvies.net/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://taaladvies.net/",
+          "htmlLen": 122752,
+          "preview": "Taaladvies - Taaladvies.net &darr; Doorgaan naar hoofdinhoud Taaladvies.net Het antwoord op al uw vragen over taal Hoofd"
+        }
+      ],
+      "adapterId": "nl-woordenlijst-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "huis",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": "https://woordenlijst.org/#/zoeken/huis",
+        "error": "parse_failed",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "pl",
+      "standardCode": "pl",
+      "masterSourcesChecked": {
+        "norm": "Rada Języka Polskiego",
+        "normUrls": [
+          "https://rjp.pan.pl/"
+        ],
+        "primaryDictionary": "Wielki słownik języka polskiego PAN (wsjp.pl)",
+        "primaryDictionaryUrls": [
+          "https://wsjp.pl/"
+        ],
+        "additional": null,
+        "additionalUrls": []
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://rjp.pan.pl/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://rjp.pan.pl/",
+          "htmlLen": 95898,
+          "preview": "Rada Języka Polskiego PAN RADA JĘZYKA POLSKIEGO AKTUALNOŚCI DZIAŁALNOŚĆ RJP ZMIANY PISOWNI 2026 PORADNIE JĘZYKOWE I SŁOW"
+        },
+        {
+          "url": "https://wsjp.pl/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://wsjp.pl/",
+          "htmlLen": 93763,
+          "preview": "Wielki słownik języka polskiego PAN (WSJP PAN) Historia słownika Jak korzystać Podstawy naukowe Autorzy A fronte A tergo"
+        }
+      ],
+      "adapterId": "pl-wsjp-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "dom",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": null,
+        "error": "homepage_not_entry",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "pt",
+      "standardCode": "pt",
+      "masterSourcesChecked": {
+        "norm": "Academia das Ciências de Lisboa",
+        "normUrls": [
+          "https://www.acad-ciencias.pt/"
+        ],
+        "primaryDictionary": "Dicionário Académico de Lisboa",
+        "primaryDictionaryUrls": [
+          "https://dicionario.acad-ciencias.pt/"
+        ],
+        "additional": "Portal da Língua Portuguesa",
+        "additionalUrls": [
+          "https://www.portaldalinguaportuguesa.org/"
+        ]
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://www.acad-ciencias.pt/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.acad-ciencias.pt/",
+          "htmlLen": 361059,
+          "preview": "Academia das Ciências de Lisboa &#8211; Uma das mais antigas instituições científicas nacionais, ativa desde 1779. Promo"
+        },
+        {
+          "url": "https://dicionario.acad-ciencias.pt/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://dicionario.acad-ciencias.pt/",
+          "htmlLen": 180738,
+          "preview": "Dicionário da Língua Portuguesa Dicionário Acerca do DLP Guia de uso Vocabulário Fundamental Observatório lexical Public"
+        },
+        {
+          "url": "https://www.portaldalinguaportuguesa.org/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.portaldalinguaportuguesa.org/",
+          "htmlLen": 9255,
+          "preview": "Portal da Língua Portuguesa &nbsp; In&iacute;cio Vocabulário Lince Acordo Ortogr&aacute;fico Recursos Ficha &nbsp; igual"
+        }
+      ],
+      "adapterId": "pt-acl-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "casa",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": "https://dicionario.acad-ciencias.pt/#/search/casa",
+        "error": "parse_failed",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "ro",
+      "standardCode": "ro",
+      "masterSourcesChecked": {
+        "norm": "Academia Română",
+        "normUrls": [
+          "https://acad.ro/"
+        ],
+        "primaryDictionary": "DOOM — Dicționarul ortografic, ortoepic și morfologic",
+        "primaryDictionaryUrls": [
+          "https://doom.lingv.ro/"
+        ],
+        "additional": "Institutul de Lingvistică — lingv.ro",
+        "additionalUrls": [
+          "https://lingv.ro/"
+        ]
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://acad.ro/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://acad.ro/",
+          "htmlLen": 92,
+          "preview": ""
+        },
+        {
+          "url": "https://doom.lingv.ro/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://doom.lingv.ro/",
+          "htmlLen": 43473,
+          "preview": "Pagina principală - DOOM 3 DOOM 3 --> Pagina principală Studiu introductiv ÎOOP 6 Ajutor Utile Bibliografie Glosar de te"
+        },
+        {
+          "url": "https://lingv.ro/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://lingv.ro/",
+          "htmlLen": 511628,
+          "preview": "Institutul de Lingvistică al Academiei Române „Iorgu Iordan &#8211; Al. Rosetti” &#8211; Casa Academiei, Calea 13 Septem"
+        }
+      ],
+      "adapterId": "ro-doom-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "casa",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": "https://doom.lingv.ro/cautare?q=casa",
+        "error": "parse_failed",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "sq",
+      "standardCode": "sq",
+      "masterSourcesChecked": {
+        "norm": "Akademia e Shkencave e Shqipërisë",
+        "normUrls": [
+          "https://akad.gov.al/"
+        ],
+        "primaryDictionary": null,
+        "primaryDictionaryUrls": [],
+        "additional": null,
+        "additionalUrls": []
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://akad.gov.al/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://akad.gov.al/",
+          "htmlLen": 262842,
+          "preview": "Home - Akad Kreu Rreth ASHSH Historiku Kryetar në vite Godina Monument Kulture Misioni ASH Asambleja Anëtarë të Asambles"
+        }
+      ],
+      "adapterId": "sq-akad-no-entry",
+      "adapterIntegrationStatus": "BLOCKED",
+      "adapterBlockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "positiveFixtureOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "browserPilot": null,
+      "accessMethod": null,
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_NO_MACHINE_READABLE_ENTRY"
+    },
+    {
+      "language": "sr",
+      "standardCode": "sr",
+      "masterSourcesChecked": {
+        "norm": "Institut za srpski jezik SANU",
+        "normUrls": [
+          "https://www.isj.sanu.ac.rs/"
+        ],
+        "primaryDictionary": "Matica srpska",
+        "primaryDictionaryUrls": [
+          "https://www.maticasrpska.org.rs/"
+        ],
+        "additional": null,
+        "additionalUrls": []
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://www.isj.sanu.ac.rs/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.isj.sanu.ac.rs/",
+          "htmlLen": 99962,
+          "preview": "Институт за српски језик САНУ Новости Дигитални ресурси Издања Часописи Јужнословенски филолог Српски дијалектолошки збо"
+        },
+        {
+          "url": "https://www.maticasrpska.org.rs/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.maticasrpska.org.rs/",
+          "htmlLen": 80402,
+          "preview": "Матица српска - Најстарија српска књижевна, културна и научна институција Srpski English Matica srpska Матица српска Нај"
+        }
+      ],
+      "adapterId": "sr-isj-no-entry",
+      "adapterIntegrationStatus": "BLOCKED",
+      "adapterBlockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "positiveFixtureOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+      "browserPilot": null,
+      "accessMethod": null,
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_NO_MACHINE_READABLE_ENTRY"
+    },
+    {
+      "language": "sv",
+      "standardCode": "sv",
+      "masterSourcesChecked": {
+        "norm": "Svenska Akademien",
+        "normUrls": [
+          "https://www.svenskaakademien.se/"
+        ],
+        "primaryDictionary": "Svenska Akademiens ord böcker (SAOL / SO / SAOB)",
+        "primaryDictionaryUrls": [
+          "https://svenska.se/"
+        ],
+        "additional": null,
+        "additionalUrls": []
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://www.svenskaakademien.se/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://www.svenskaakademien.se/",
+          "htmlLen": 86230,
+          "preview": "Svenska Akademien Hoppa till innehåll SÖK Press Kontakt In English Om Akademien Språket Litteraturen Nobelpriset Priser "
+        },
+        {
+          "url": "https://svenska.se/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://svenska.se/",
+          "htmlLen": 43266,
+          "preview": "Svenska Akademiens ordböcker – SAOL, SO och SAOB Hoppa till huvudinnehåll Hem Om Hjälp Svenska Akademien Kontakt MENY Öp"
+        }
+      ],
+      "adapterId": "sv-svenska-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "hus",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": "https://svenska.se/saol/#/search/hus",
+        "error": "parse_failed",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "bg",
+      "standardCode": "bg",
+      "masterSourcesChecked": {
+        "norm": "Институт за български език, БАН",
+        "normUrls": [
+          "https://ibl.bas.bg/"
+        ],
+        "primaryDictionary": "Български речник онлайн (BERON)",
+        "primaryDictionaryUrls": [
+          "https://beron.mon.bg/"
+        ],
+        "additional": null,
+        "additionalUrls": []
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://ibl.bas.bg/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://ibl.bas.bg/",
+          "htmlLen": 494591,
+          "preview": "ИНСТИТУТ ЗА БЪЛГАРСКИ ЕЗИК Skip to content Начало Информация Menu Toggle Структура Menu Toggle Съвременен български език"
+        },
+        {
+          "url": "https://beron.mon.bg/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://beron.mon.bg/",
+          "htmlLen": 261710,
+          "preview": "Български езикови ресурси онлайн • БЕРОН БЕРОН Институт за български език при БАН Министерство на образованието и наукат"
+        }
+      ],
+      "adapterId": "bg-beron-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "къща",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": "https://beron.mon.bg/dictionary/search?q=%D0%BA%D1%8A%D1%89%D0%B0",
+        "error": "CAPTCHA_OR_BOT_CHALLENGE",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "mk",
+      "standardCode": "mk",
+      "masterSourcesChecked": {
+        "norm": "Институт за македонски јазик „Крсте Мисирков“",
+        "normUrls": [
+          "https://imj.ukim.edu.mk/"
+        ],
+        "primaryDictionary": "Дигитален речник на македонскиот јазик (drmj.eu)",
+        "primaryDictionaryUrls": [
+          "https://drmj.eu/"
+        ],
+        "additional": null,
+        "additionalUrls": []
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://imj.ukim.edu.mk/",
+          "outcome": "SOURCE_ACCESS_BLOCKED",
+          "finalUrl": "https://imj.ukim.edu.mk/",
+          "htmlLen": 0,
+          "preview": ""
+        },
+        {
+          "url": "https://drmj.eu/",
+          "outcome": "SOURCE_ACCESS_BLOCKED",
+          "finalUrl": "https://drmj.eu/",
+          "htmlLen": 0,
+          "preview": ""
+        }
+      ],
+      "adapterId": "mk-drmj-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ACCESS_BLOCKED",
+      "browserPilot": {
+        "lookupTerm": "куќа",
+        "outcome": "SOURCE_ACCESS_BLOCKED",
+        "entryUrl": null,
+        "error": "page.goto: net::ERR_CONNECTION_CLOSED at https://drmj.eu/search?q=%D0%BA%D1%83%D1%9C%D0%B0\nCall log:\n  - navigating to \"https://drmj.eu/search?q=%D0%BA%D1%83%D1%9C%D0%B0\", waiting until \"domcontentloaded\"\n",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": false,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    },
+    {
+      "language": "uk",
+      "standardCode": "uk",
+      "masterSourcesChecked": {
+        "norm": "Інститут української мови НАН України",
+        "normUrls": [
+          "https://iul-nasu.org.ua/"
+        ],
+        "primaryDictionary": "Словники України online (УМІФ НАН України)",
+        "primaryDictionaryUrls": [
+          "https://lcorp.ulif.org.ua/dictua"
+        ],
+        "additional": "Український правопис (МОН)",
+        "additionalUrls": [
+          "https://mon.gov.ua/osvita-2/zagalna-serednya-osvita/ukrainskiy-pravopis"
+        ]
+      },
+      "sourceProbeResults": [
+        {
+          "url": "https://iul-nasu.org.ua/",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://iul-nasu.org.ua/",
+          "htmlLen": 99835,
+          "preview": "Інститут української мови &#8211; НАН України Шановні відвідувачі! Сайт працює в тестовому режимі Докторантура Аспіранту"
+        },
+        {
+          "url": "https://lcorp.ulif.org.ua/dictua",
+          "outcome": "SOURCE_PAGE_FETCHED",
+          "httpStatus": 200,
+          "finalUrl": "https://lcorp.ulif.org.ua/dictua/",
+          "htmlLen": 28518,
+          "preview": "Словники України online - УКРАЇНСЬКИЙ МОВНО-ІНФОРМАЦІЙНИЙ ФОНД НАН УКРАЇНИ УКРАЇНСЬКИЙ МОВНО-ІНФОРМАЦІЙНИЙ ФОНД НАН УКРА"
+        },
+        {
+          "url": "https://mon.gov.ua/osvita-2/zagalna-serednya-osvita/ukrainskiy-pravopis",
+          "outcome": "SOURCE_ACCESS_BLOCKED",
+          "httpStatus": 403,
+          "finalUrl": "https://mon.gov.ua/osvita-2/zagalna-serednya-osvita/ukrainskiy-pravopis",
+          "htmlLen": 5752,
+          "preview": "Just a moment... Enable JavaScript and cookies to continue"
+        }
+      ],
+      "adapterId": "uk-dictua-browser-entry",
+      "adapterIntegrationStatus": "LIVE",
+      "adapterBlockedOutcome": null,
+      "positiveFixtureOutcome": "SOURCE_ENTRY_NOT_FOUND",
+      "browserPilot": {
+        "lookupTerm": "дім",
+        "outcome": "SOURCE_ENTRY_NOT_FOUND",
+        "entryUrl": "https://lcorp.ulif.org.ua/dictua/#search=%D0%B4%D1%96%D0%BC",
+        "error": "parse_failed",
+        "accessMethod": "PUBLIC_BROWSER_SESSION",
+        "contentSha256": null,
+        "pass": false
+      },
+      "accessMethod": "PUBLIC_BROWSER_SESSION",
+      "browserManualAccessLikely": true,
+      "authenticationLikely": false,
+      "paidSource": false,
+      "officialApiDocumented": false,
+      "ownerProvidedAccessNeeded": false,
+      "recommendedOwnerChoice": "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+      "allowedOwnerChoices": [
+        "A. OWNER_PROVIDES_OFFICIAL_SOURCE_ACCESS",
+        "B. MANUAL_OFFICIAL_SOURCE_EVIDENCE_REQUIRED",
+        "C. NEEDS_SOURCE_REVIEW",
+        "D. OWNER_AUTHORIZES_MASTER_SOURCE_REGISTRY_CHANGE"
+      ],
+      "technicalSummary": "SOURCE_ENTRY_VALIDATED-capable"
+    }
+  ],
+  "classification": "G2_A1_OFFICIAL_SOURCE_BROWSER_ACCESS_PARTIALLY_BLOCKED",
+  "nextAction": "OWNER_DECISION_REQUIRED_FOR_REMAINING_SPECIFIC_AUTHORITIES"
+}

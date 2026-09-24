@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-20T14:30:08.059Z",
+  "pass": true,
+  "gates": {
+    "auditCounts": {
+      "PASS": 4,
+      "FINDING": 10,
+      "NEEDS_SOURCE_REVIEW": 18,
+      "SOURCE_DE_ISSUE": 0
+    },
+    "ownerPreauthorizedCapitalizationOnly": 6,
+    "ownerIndividualLabot": 4,
+    "ownerPendingFindings": 0,
+    "nsrRemaining": 18,
+    "ownerLabot": 10,
+    "ownerNelabot": 0,
+    "ownerPending": 0,
+    "findingDecisionRows": 10,
+    "nsrRows": 18,
+    "passEvidenceRows": 4,
+    "lexicalOwnerFilled": true,
+    "productionChanges": 8,
+    "productionApply": false,
+    "lexicalProductionApply": true,
+    "fullAuditRun": 0
+  },
+  "blockers": [],
+  "classification": "G2_A1_HAUS_4_OWNER_LEXICAL_FIXES_APPLIED_AND_VERIFIED",
+  "nextAction": "RESOLVE_18_REMAINING_HAUS_SOURCE_BLOCKERS"
+}

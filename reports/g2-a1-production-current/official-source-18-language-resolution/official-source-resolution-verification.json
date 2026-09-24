@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-09-20T15:35:12.283Z",
+  "pass": true,
+  "blockers": [],
+  "freshLiveProbeAt": "2026-09-20T15:27:27.890Z",
+  "automatedReady": 4,
+  "classification": "G2_A1_OFFICIAL_SOURCE_18_LANGUAGE_RESOLUTION_PARTIAL",
+  "nextAction": "OWNER_REVIEW_REMAINING_EXACT_SOURCE_BLOCKERS"
+}

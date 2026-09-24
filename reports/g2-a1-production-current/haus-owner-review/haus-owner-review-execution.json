@@ -1,0 +1,6 @@
+{
+  "invalidated": true,
+  "reason": "INVALIDATED_UNAUTHORIZED_OWNER_FIELD_POPULATION",
+  "replacedBy": "haus-audit-evidence-proposals.json",
+  "note": "Prior auto-filled OWNER LABOT rows are void."
+}

@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-09-20T14:30:07.421Z",
+  "note": "Audit-only summary; no OWNER decisions.",
+  "auditCounts": {
+    "PASS": 4,
+    "FINDING": 10,
+    "NEEDS_SOURCE_REVIEW": 18,
+    "SOURCE_DE_ISSUE": 0
+  },
+  "nsrUnresolved": 18,
+  "invalidatedPriorRuns": [
+    "INVALIDATED_UNAUTHORIZED_OWNER_FIELD_POPULATION"
+  ]
+}
