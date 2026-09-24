@@ -111,6 +111,7 @@
     "test:g2-a1:card-translation-audit-search": "node scripts/test-card-translation-audit-search.js",
     "test:g2-a1:card-translation-audit-executor": "node scripts/test-g2-a1-card-translation-audit-executor.js",
     "verify:g2-a1:card-translation-production-a1": "node scripts/verify-g2-a1-card-translation-production-a1.js",
+    "verify:g2-a1:card-translation-32lang-readiness": "node scripts/verify-g2-a1-card-translation-32lang-readiness.js",
     "build:g2-a1:manual-languages-source-reprobe": "node scripts/build-g2-a1-manual-languages-source-reprobe.js",
     "build:g2-a1:master-source-proposals-owner-review": "node scripts/build-g2-a1-master-source-proposals-owner-review.js",
     "build:g2-a1:haus-32-language-source-pilot": "node scripts/build-g2-a1-haus-32-language-source-pilot.js",

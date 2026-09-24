@@ -94,7 +94,13 @@ function canEmitTranslationValidated({ appLang, deAuthority, targetAuthority, se
   return { ok: true };
 }
 
-/** Pilna targeted-field-level plūsma ar kartes tulkošanas executoru — bloķēta līdz 32 valodu kolektoriem. */
+const { getCardTranslation32LangReadiness, isFullCardTranslationBatchReady } = require("./card-translation-32lang-readiness");
+
+/**
+ * Pilna targeted-field-level Luna batch — atļauta tikai kad visas 32 valodas ir
+ * cardTranslationReady (DE→TARGET kolektors + TARGET oficiālā validācija).
+ * Nav atsevišķa “bypass” karoga: reģistrs jāaizpilda implementācijā.
+ */
 function assertTargetedFieldCardTranslationBatchAllowed(options = {}) {
   if (options.pilotOnly === true) {
     return { pass: true, blockers: [] };
@@ -102,6 +108,12 @@ function assertTargetedFieldCardTranslationBatchAllowed(options = {}) {
   if (options.executeLuna !== true) {
     return { pass: true, blockers: [] };
   }
+
+  if (isFullCardTranslationBatchReady()) {
+    return { pass: true, blockers: [] };
+  }
+
+  const readiness = getCardTranslation32LangReadiness();
   return {
     pass: false,
     blockers: [
@@ -109,6 +121,10 @@ function assertTargetedFieldCardTranslationBatchAllowed(options = {}) {
         code: "CARD_TRANSLATION_32LANG_COLLECTORS_NOT_READY",
         message:
           "Do not run full targeted-field-level Luna batch until DE→TARGET collectors and TARGET official validation exist for all 32 languages. Use pilot-only or card-translation production verify scripts.",
+        readyCount: readiness.readyCount,
+        expectedCount: readiness.expectedCount,
+        readyLanguages: readiness.readyLanguages,
+        remainingCount: readiness.remainingCount,
       },
     ],
   };
@@ -122,4 +138,5 @@ module.exports = {
   canEmitFindingWithProposedNew,
   canEmitTranslationValidated,
   assertTargetedFieldCardTranslationBatchAllowed,
+  isFullCardTranslationBatchReady,
 };
