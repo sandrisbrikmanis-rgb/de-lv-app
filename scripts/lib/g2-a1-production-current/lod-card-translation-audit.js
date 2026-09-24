@@ -59,7 +59,11 @@ function collectLodDeReverseAuditPayload(payload, germanLemma) {
   return { eligible, rejected };
 }
 
-async function runLodLbCardTranslationAudit(cardGerman, expectedTargetLemma) {
+/**
+ * @param {object} cardGerman
+ * @param {string} currentTarget — kartītes CURRENT (production TARGET); pilotos = pareizais variants
+ */
+async function runLodLbCardTranslationAudit(cardGerman, currentTarget) {
   const allowDe = buildAllowlistForLanguage("en");
   const deAuthority = await lookupDeOfficialEntry({
     lookupTerm: cardGerman.lemma,
@@ -80,30 +84,32 @@ async function runLodLbCardTranslationAudit(cardGerman, expectedTargetLemma) {
     };
   }
 
-  let { eligible, rejected } = collectLodDeReverseAuditPayload(fetched.payload, cardGerman.lemma);
+  const { eligible, rejected } = collectLodDeReverseAuditPayload(fetched.payload, cardGerman.lemma);
 
-  if (expectedTargetLemma) {
-    const want = String(expectedTargetLemma).trim().toLowerCase();
-    const narrowed = eligible.filter((c) => String(c.wordLb || "").trim().toLowerCase() === want);
-    if (narrowed.length) eligible = narrowed;
-  }
-
-  const expectedArticleId =
-    eligible.length === 1 ? eligible[0].articleId : eligible.find((c) => c.wordLb === expectedTargetLemma)?.articleId;
-
-  let targetAuthority = null;
-  if (expectedTargetLemma) {
-    targetAuthority = await lookupLodOfficialLbEntry(expectedTargetLemma, expectedArticleId || null);
-  }
-
-  const resolved = resolveCardTranslationAuditVerdict({
+  let resolved = resolveCardTranslationAuditVerdict({
     cardGerman,
     deAuthority,
     dictionaryCandidates: eligible,
     rejectedCandidates: rejected,
-    targetAuthority,
-    expectedTargetLemma,
+    currentTarget,
   });
+
+  let targetAuthority = null;
+  if (
+    resolved.selectedCandidate &&
+    resolved.verdict === TRANSLATION_AUDIT_VERDICT.TARGET_OFFICIAL_NOT_VALIDATED
+  ) {
+    const sel = resolved.selectedCandidate;
+    targetAuthority = await lookupLodOfficialLbEntry(sel.wordLb, sel.articleId || null);
+    resolved = resolveCardTranslationAuditVerdict({
+      cardGerman,
+      deAuthority,
+      dictionaryCandidates: eligible,
+      rejectedCandidates: rejected,
+      currentTarget,
+      targetAuthorityForProven: targetAuthority,
+    });
+  }
 
   return {
     ...resolved,

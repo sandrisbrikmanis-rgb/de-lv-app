@@ -349,7 +349,7 @@ async function probePilotWord(candidate, lemma, appCode, pilotWordSpec = null) {
         germanMeaning: pilotWordSpec.deSenseNote || null,
       },
       pilotWordSpec.expectedTargetLb,
-    );
+    ); /* currentTarget = pilot CORRECT form (simulates matching CURRENT on card) */
     const sel = audit.selectedCandidate;
     const base = {
       resultUrl: sel?.articleUrl || audit.lodSearchUrl,
@@ -367,6 +367,14 @@ async function probePilotWord(candidate, lemma, appCode, pilotWordSpec = null) {
         ...base,
         pilotStatus: PILOT_FIELD.TRANSLATION_VALIDATED,
         note: `LOD ${sel?.articleId} DE="${sel?.deTranslation}" TARGET official OK`,
+      };
+    }
+    if (audit.verdict === TRANSLATION_AUDIT_VERDICT.FINDING) {
+      return {
+        ...base,
+        pilotStatus: PILOT_FIELD.NEEDS_SOURCE_REVIEW,
+        sampleTranslation: sel?.wordLb || base.sampleTranslation,
+        note: `FINDING: CURRENT≠${sel?.wordLb}`,
       };
     }
     if (

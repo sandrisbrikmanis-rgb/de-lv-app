@@ -2,10 +2,12 @@
 "use strict";
 
 const { SOURCE_ACCESS_OUTCOME } = require("./official-source-access-constants");
+const { stripQuotes } = require("./source-adapters/lookup-normalization");
 
 /** Kartītes / A1–C2 audita galīgais tulkošanas secinājums (nav tikai vārdnīcas “FOUND”). */
 const TRANSLATION_AUDIT_VERDICT = Object.freeze({
   TRANSLATION_VALIDATED: "TRANSLATION_VALIDATED",
+  FINDING: "FINDING",
   NEEDS_SOURCE_REVIEW: "NEEDS_SOURCE_REVIEW",
   DE_NOT_CONFIRMED: "DE_NOT_CONFIRMED",
   NO_ELIGIBLE_DICTIONARY_CANDIDATE: "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
@@ -71,7 +73,16 @@ function escapeRe(s) {
  * Salīdzina vārdnīcas DE nozīmes tekstu ar kartītes DE nozīmi (fragmentu).
  * Nav pilnīga semantikas AI — tikai pierādāma saderība vai NEEDS_SOURCE_REVIEW.
  */
-function dictionaryDeSenseAlignsWithCard(cardGerman, dictionaryDeTranslation) {
+function effectiveDeSenseText(cardGerman, deAuthority) {
+  const fromCard = String(cardGerman?.germanMeaning || cardGerman?.deSenseNote || "").trim();
+  if (fromCard) return { text: fromCard, provenance: "card" };
+  if (isDeLemmaConfirmed(deAuthority) && deAuthority.evidenceFragment) {
+    return { text: String(deAuthority.evidenceFragment).trim().slice(0, 600), provenance: "de_authority" };
+  }
+  return { text: "", provenance: "none" };
+}
+
+function dictionaryDeSenseAlignsWithCard(cardGerman, dictionaryDeTranslation, deAuthority = null) {
   const tr = String(dictionaryDeTranslation || "").trim();
   const lemma = String(cardGerman?.lemma || "").trim();
   if (!lemma || !tr) return { aligned: false, reason: "missing_text" };
@@ -83,7 +94,7 @@ function dictionaryDeSenseAlignsWithCard(cardGerman, dictionaryDeTranslation) {
   );
   if (!exactPart) return { aligned: false, reason: "de_lemma_not_own_sense_segment" };
 
-  const cardMeaning = String(cardGerman?.germanMeaning || cardGerman?.deSenseNote || "").trim();
+  const cardMeaning = effectiveDeSenseText(cardGerman, deAuthority).text;
   if (!cardMeaning || cardMeaning.length < 12) {
     return { aligned: true, reason: "card_meaning_not_provided_accept_lemma_match" };
   }
@@ -115,14 +126,61 @@ function targetHeadwordMatchesExpected(targetAuthority, expectedTargetLemma) {
   return hw.toLowerCase() === String(expectedTargetLemma).trim().toLowerCase();
 }
 
+function normalizeTargetLemmaForCompare(value) {
+  return stripQuotes(value).trim().toLowerCase();
+}
+
+function targetLemmaEquals(a, b) {
+  return normalizeTargetLemmaForCompare(a) === normalizeTargetLemmaForCompare(b);
+}
+
+/**
+ * Pēc nozīmes + POS filtra — izvēlas pierādāmo kandidātu un salīdzina ar CURRENT.
+ * @returns {{ status: "none"|"ambiguous"|"selected", selected?: object, mismatchCurrent?: boolean, blockers?: object[] }}
+ */
+function selectProvenDictionaryCandidate(senseAligned, currentTarget) {
+  if (!senseAligned.length) return { status: "none" };
+
+  const current = stripQuotes(currentTarget || "");
+  if (!current) {
+    return {
+      status: "ambiguous",
+      blockers: [{ code: "MISSING_CURRENT_TARGET_ON_CARD" }],
+    };
+  }
+
+  const matchingCurrent = senseAligned.filter((c) => targetLemmaEquals(c.wordLb, current));
+  if (matchingCurrent.length > 1) {
+    return {
+      status: "ambiguous",
+      blockers: [{ code: "MULTIPLE_DICTIONARY_CANDIDATES_MATCH_CURRENT", count: matchingCurrent.length }],
+      ambiguousCandidates: matchingCurrent,
+    };
+  }
+  if (matchingCurrent.length === 1) {
+    return { status: "selected", selected: matchingCurrent[0], mismatchCurrent: false };
+  }
+
+  if (senseAligned.length === 1) {
+    return { status: "selected", selected: senseAligned[0], mismatchCurrent: true };
+  }
+
+  return {
+    status: "ambiguous",
+    blockers: [{ code: "MULTIPLE_DICTIONARY_CANDIDATES", count: senseAligned.length }],
+    ambiguousCandidates: senseAligned,
+  };
+}
+
 /**
  * @param {object} input
  * @param {object} input.cardGerman — { lemma, partOfSpeech, article?, germanMeaning?, deSenseNote? }
  * @param {object} input.deAuthority — oficiālā DE avota lookup rezultāts
  * @param {object[]} input.dictionaryCandidates — { wordLb, articleId, articleUrl, pos, deTranslation, ... }
  * @param {object[]} input.rejectedCandidates — { wordLb?, reason, detail? }
- * @param {object} [input.targetAuthority] — oficiālā TARGET vārdnīca
- * @param {string} [input.expectedTargetLemma] — kartītes TARGET lemmas
+ * @param {object} [input.targetAuthorityForProven] — oficiālā TARGET vārdnīca pierādītajam kandidātam
+ * @param {string} input.currentTarget — kartītes CURRENT (production TARGET)
+ * @param {string} [input.expectedTargetLemma] — @deprecated alias currentTarget
  */
 function resolveCardTranslationAuditVerdict(input) {
   const blockers = [];
@@ -164,7 +222,7 @@ function resolveCardTranslationAuditVerdict(input) {
 
   const senseAligned = [];
   for (const c of posFiltered) {
-    const sense = dictionaryDeSenseAlignsWithCard(cardGerman, c.deTranslation);
+    const sense = dictionaryDeSenseAlignsWithCard(cardGerman, c.deTranslation, deAuthority);
     if (sense.aligned) senseAligned.push({ ...c, senseAlignment: sense.reason });
   }
 
@@ -178,12 +236,27 @@ function resolveCardTranslationAuditVerdict(input) {
     };
   }
 
-  if (senseAligned.length > 1) {
+  const currentTarget =
+    input.currentTarget != null && String(input.currentTarget).trim() !== ""
+      ? input.currentTarget
+      : input.expectedTargetLemma;
+
+  const pick = selectProvenDictionaryCandidate(senseAligned, currentTarget);
+  if (pick.status === "none") {
+    return {
+      verdict: TRANSLATION_AUDIT_VERDICT.NO_ELIGIBLE_DICTIONARY_CANDIDATE,
+      blockers: [{ code: "DE_SENSE_ALIGNMENT_FAIL" }],
+      selectedCandidate: null,
+      eligibleCount: 0,
+      rejectedCount: rejected.length,
+    };
+  }
+  if (pick.status === "ambiguous") {
     return {
       verdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
-      blockers: [{ code: "MULTIPLE_DICTIONARY_CANDIDATES", count: senseAligned.length }],
+      blockers: pick.blockers,
       selectedCandidate: null,
-      ambiguousCandidates: senseAligned.map((c) => ({
+      ambiguousCandidates: (pick.ambiguousCandidates || senseAligned).map((c) => ({
         wordLb: c.wordLb,
         articleId: c.articleId,
         articleUrl: c.articleUrl,
@@ -195,57 +268,52 @@ function resolveCardTranslationAuditVerdict(input) {
     };
   }
 
-  const selected = senseAligned[0];
-  const expectedTarget = input.expectedTargetLemma;
+  const selected = pick.selected;
+  const provenLemma = String(selected.wordLb || "").trim();
+  const targetAuthority = input.targetAuthorityForProven || input.targetAuthority;
 
-  if (!expectedTarget) {
-    return {
-      verdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
-      blockers: [{ code: "MISSING_EXPECTED_TARGET_LEMMA_FOR_OFFICIAL_CHECK" }],
-      selectedCandidate: selected,
-      eligibleCount: 1,
-      rejectedCount: rejected.length,
-    };
-  }
-
-  if (!isTargetOfficialValidated(input.targetAuthority)) {
+  if (!isTargetOfficialValidated(targetAuthority)) {
     return {
       verdict: TRANSLATION_AUDIT_VERDICT.TARGET_OFFICIAL_NOT_VALIDATED,
-      blockers: [{ code: "TARGET_OFFICIAL_LOOKUP_FAIL", outcome: input.targetAuthority?.outcome }],
+      blockers: [{ code: "TARGET_OFFICIAL_LOOKUP_FAIL", outcome: targetAuthority?.outcome, provenLemma }],
       selectedCandidate: selected,
-      eligibleCount: 1,
+      eligibleCount: senseAligned.length,
       rejectedCount: rejected.length,
+      pendingProvenLemma: provenLemma,
     };
   }
 
-  if (!targetHeadwordMatchesExpected(input.targetAuthority, expectedTarget)) {
+  if (!targetHeadwordMatchesExpected(targetAuthority, provenLemma)) {
     return {
       verdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
       blockers: [
         {
           code: "TARGET_OFFICIAL_HEADWORD_MISMATCH",
-          expected: expectedTarget,
-          got: input.targetAuthority?.entryHeadwordOrRule,
+          expected: provenLemma,
+          got: targetAuthority?.entryHeadwordOrRule,
         },
       ],
       selectedCandidate: selected,
-      eligibleCount: 1,
+      eligibleCount: senseAligned.length,
       rejectedCount: rejected.length,
     };
   }
 
-  if (expectedTarget.toLowerCase() !== String(selected.wordLb || "").toLowerCase()) {
+  if (pick.mismatchCurrent) {
     return {
-      verdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+      verdict: TRANSLATION_AUDIT_VERDICT.FINDING,
       blockers: [
         {
-          code: "DICTIONARY_LB_HEADWORD_NE_OFFICIAL_TARGET",
-          dictionaryLb: selected.wordLb,
-          officialTarget: expectedTarget,
+          code: "CURRENT_NE_PROVEN_DICTIONARY_CANDIDATE",
+          currentTarget: stripQuotes(currentTarget),
+          provenTargetLemma: provenLemma,
+          dictionaryUrl: selected.articleUrl,
         },
       ],
       selectedCandidate: selected,
-      eligibleCount: 1,
+      provenTargetLemma: provenLemma,
+      currentTarget: stripQuotes(currentTarget),
+      eligibleCount: senseAligned.length,
       rejectedCount: rejected.length,
     };
   }
@@ -254,7 +322,9 @@ function resolveCardTranslationAuditVerdict(input) {
     verdict: TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED,
     blockers: [],
     selectedCandidate: selected,
-    eligibleCount: 1,
+    provenTargetLemma: provenLemma,
+    currentTarget: stripQuotes(currentTarget),
+    eligibleCount: senseAligned.length,
     rejectedCount: rejected.length,
   };
 }
@@ -266,6 +336,9 @@ module.exports = {
   cardPosMatchesLodPos,
   isDeLemmaConfirmed,
   deLemmaMatchesCard,
+  effectiveDeSenseText,
   dictionaryDeSenseAlignsWithCard,
+  selectProvenDictionaryCandidate,
+  targetLemmaEquals,
   resolveCardTranslationAuditVerdict,
 };
