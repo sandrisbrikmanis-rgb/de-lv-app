@@ -39,7 +39,7 @@ function main() {
     { verdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW, deAuthority: deAuth(), blockers: [{ code: "MULTIPLE_DICTIONARY_CANDIDATES" }] },
     cardGerman,
   );
-  if (!nsr.pass) blockers.push({ code: "NSR_SHOULD_PASS", detail: nsr });
+  if (nsr.pass) blockers.push({ code: "NSR_MUST_NOT_PASS_READINESS", detail: nsr });
 
   const pass = blockers.length === 0;
   console.log(JSON.stringify({ pass, blockers }, null, 2));

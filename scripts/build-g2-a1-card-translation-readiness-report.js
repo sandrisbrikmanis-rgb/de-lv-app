@@ -49,7 +49,9 @@ function main() {
   lines.push("");
   lines.push("## Per language");
   for (const row of snap.languages || []) {
-    lines.push(`### ${row.appLang} — ${row.cardTranslationReady ? "READY" : "NOT READY"}`);
+    lines.push(
+      `### ${row.appLang} — ${row.cardTranslationReady ? "READY" : "NOT READY"} (targetOfficialValidation: ${row.targetOfficialValidation === true ? "true" : "false"})`,
+    );
     lines.push(`- Collector: \`${row.collector?.collectorId}\` — ${row.collector?.bilingualSourceUrl || "n/a"}`);
     lines.push(`- TARGET validator: \`${row.targetValidator?.adapterId}\` — ${row.targetValidator?.masterSourceUrl || "n/a"}`);
     lines.push(

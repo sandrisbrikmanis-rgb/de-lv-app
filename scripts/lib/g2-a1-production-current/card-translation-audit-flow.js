@@ -1,21 +1,75 @@
 #!/usr/bin/env node
 "use strict";
 
-const { TRANSLATION_AUDIT_VERDICT } = require("./card-translation-audit-search");
+const {
+  TRANSLATION_AUDIT_VERDICT,
+  isTargetOfficialValidated,
+} = require("./card-translation-audit-search");
 const {
   isGermanDeAuthorityDwdsOrDuden,
   canEmitFindingWithProposedNew,
 } = require("./card-translation-audit-policy");
 
-const ACCEPTABLE_READINESS_VERDICTS = Object.freeze([
+/** Verdicti, kas var apmierināt pozitīvo regresiju (NSR nav gatavība). */
+const POSITIVE_REGRESSION_VERDICTS = Object.freeze([
   TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED,
   TRANSLATION_AUDIT_VERDICT.FINDING,
-  TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
 ]);
 
+function provenTargetLemmaFromAudit(audit) {
+  return (
+    audit?.provenTargetLemma ||
+    audit?.selectedCandidate?.targetLemma ||
+    audit?.selectedCandidate?.wordLb ||
+    null
+  );
+}
+
+function targetSourceUrlFromAudit(audit) {
+  return audit?.targetAuthority?.entryUrl || audit?.targetAuthority?.finalUrl || null;
+}
+
 /**
- * Pozitīvā regresija (Haus) — gatavībai drīkst būt tikai TV, pierādījumos balstīts FINDING
- * vai pamatots NEEDS_SOURCE_REVIEW. TARGET_OFFICIAL_NOT_VALIDATED un NO_ELIGIBLE nav gatavība.
+ * TARGET oficiālā validācija gatavībai — obligāti URL + lemma + SOURCE_ENTRY_VALIDATED.
+ */
+function assessHausPilotTargetOfficialValidation(audit) {
+  const targetSourceUrl = targetSourceUrlFromAudit(audit);
+  const provenTargetLemma = provenTargetLemmaFromAudit(audit);
+  if (!targetSourceUrl || !String(provenTargetLemma || "").trim()) {
+    return {
+      valid: false,
+      targetSourceUrl,
+      provenTargetLemma,
+      code: "MISSING_TARGET_URL_OR_PROVEN_LEMMA",
+    };
+  }
+  if (!isTargetOfficialValidated(audit?.targetAuthority)) {
+    return {
+      valid: false,
+      targetSourceUrl,
+      provenTargetLemma,
+      code: "TARGET_AUTHORITY_NOT_VALIDATED",
+    };
+  }
+  return { valid: true, targetSourceUrl, provenTargetLemma, code: null };
+}
+
+function assessBilingualCollectorProven(audit, appLang) {
+  if (appLang === "lb") {
+    return Boolean(audit?.bilingualResultUrl || audit?.bilingualMeta?.resultUrl || audit?.dictionaryCandidates?.length);
+  }
+  const resultUrl = audit?.bilingualResultUrl || audit?.bilingualMeta?.resultUrl;
+  const hasDictionaryPath = Boolean(audit?.bilingualSourceUrl || audit?.bilingualMeta?.sourceUrl);
+  const hasCandidates =
+    (audit?.dictionaryCandidates?.length || 0) > 0 ||
+    audit?.verdict === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED ||
+    audit?.verdict === TRANSLATION_AUDIT_VERDICT.FINDING;
+  return Boolean(resultUrl && hasDictionaryPath && hasCandidates);
+}
+
+/**
+ * Pozitīvā regresija — tikai TRANSLATION_VALIDATED vai pierādījumos balstīts FINDING.
+ * NEEDS_SOURCE_REVIEW nekad nav gatavība.
  */
 function assessPositiveRegressionVerdict(audit, cardGerman) {
   if (!audit || !isGermanDeAuthorityDwdsOrDuden(audit.deAuthority)) {
@@ -27,19 +81,22 @@ function assessPositiveRegressionVerdict(audit, cardGerman) {
   }
 
   const got = audit.verdict;
-  if (!ACCEPTABLE_READINESS_VERDICTS.includes(got)) {
+
+  if (got === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW) {
+    return {
+      pass: false,
+      code: "NSR_NOT_READINESS_VERDICT",
+      got,
+      auditVerdictPreserved: true,
+    };
+  }
+
+  if (!POSITIVE_REGRESSION_VERDICTS.includes(got)) {
     return {
       pass: false,
       code: "VERDICT_NOT_ACCEPTABLE_FOR_READINESS",
       got,
     };
-  }
-
-  if (got === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW) {
-    if (!(audit.blockers?.length)) {
-      return { pass: false, code: "NSR_WITHOUT_JUSTIFICATION", got };
-    }
-    return { pass: true, got, justification: audit.blockers.map((b) => b.code) };
   }
 
   if (got === TRANSLATION_AUDIT_VERDICT.FINDING) {
@@ -54,19 +111,21 @@ function assessPositiveRegressionVerdict(audit, cardGerman) {
     if (!gate.ok) {
       return { pass: false, code: gate.code, got };
     }
-    return { pass: true, got };
   }
 
   return { pass: true, got };
 }
 
-/** @deprecated use assessPositiveRegressionVerdict — kept for callers migrating wording */
 function hausPilotProvesAuditFlow(audit, cardGerman) {
   return assessPositiveRegressionVerdict(audit, cardGerman).pass;
 }
 
 module.exports = {
-  ACCEPTABLE_READINESS_VERDICTS,
+  POSITIVE_REGRESSION_VERDICTS,
+  provenTargetLemmaFromAudit,
+  targetSourceUrlFromAudit,
+  assessHausPilotTargetOfficialValidation,
+  assessBilingualCollectorProven,
   assessPositiveRegressionVerdict,
   hausPilotProvesAuditFlow,
 };

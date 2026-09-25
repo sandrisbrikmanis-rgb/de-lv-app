@@ -398,6 +398,7 @@ module.exports = {
   lodPosFamily,
   cardPosMatchesLodPos,
   isDeLemmaConfirmed,
+  isTargetOfficialValidated,
   deLemmaMatchesCard,
   effectiveDeSenseText,
   dictionaryDeSenseAlignsWithCard,

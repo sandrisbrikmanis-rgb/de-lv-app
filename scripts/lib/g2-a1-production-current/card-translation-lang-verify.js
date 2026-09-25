@@ -7,7 +7,13 @@ const { LEVEL } = require("./constants");
 const { runCardTranslationAuditForLanguage, lookupDeForCard } = require("./card-translation-lang-run");
 const { SOURCE_ACCESS_OUTCOME } = require("./official-source-access-constants");
 const { selectedDictionaryCandidateForLang } = require("./card-translation-catalog-collector");
-const { assessPositiveRegressionVerdict } = require("./card-translation-audit-flow");
+const {
+  assessPositiveRegressionVerdict,
+  assessHausPilotTargetOfficialValidation,
+  assessBilingualCollectorProven,
+  provenTargetLemmaFromAudit,
+  targetSourceUrlFromAudit,
+} = require("./card-translation-audit-flow");
 const { isForbiddenTranslationHost, manifestSourceAllowed } = require("./card-translation-forbidden-sources");
 const { isGermanDeAuthorityDwdsOrDuden } = require("./card-translation-audit-policy");
 const { TRANSLATION_AUDIT_VERDICT } = require("./card-translation-audit-search");
@@ -109,19 +115,26 @@ async function verifyCardTranslationLanguageReadiness(appLang) {
     }
 
     const regression = assessPositiveRegressionVerdict(audit, cardGerman);
+    const targetOfficial = assessHausPilotTargetOfficialValidation(audit);
+    const bilingualProven = assessBilingualCollectorProven(audit, appLang);
+    const targetSourceUrl = targetSourceUrlFromAudit(audit);
+    const provenTargetLemma = provenTargetLemmaFromAudit(audit);
+
     productionPilot = {
-      pass: regression.pass,
+      pass: false,
       positiveRegressionPass: regression.pass,
       cardId: haus.cardId,
       currentTarget: haus.currentTarget,
       verdict: audit.verdict,
       blockers: audit.blockers,
       regressionDetail: regression.code || null,
+      targetOfficialValidation: targetOfficial.valid,
+      bilingualCollectorProven: bilingualProven,
       deSourceUrl: audit.deSourceUrl || audit.deAuthority?.entryUrl || null,
       bilingualSourceUrl: audit.bilingualSourceUrl || audit.bilingualMeta?.sourceUrl || null,
       bilingualResultUrl: audit.bilingualResultUrl || audit.bilingualMeta?.resultUrl || null,
-      targetSourceUrl: audit.targetAuthority?.entryUrl || null,
-      provenTargetLemma: audit.provenTargetLemma || audit.selectedCandidate?.targetLemma || null,
+      targetSourceUrl,
+      provenTargetLemma,
     };
     positiveRegression = {
       pass: regression.pass,
@@ -129,18 +142,37 @@ async function verifyCardTranslationLanguageReadiness(appLang) {
       acceptableVerdicts: [
         TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED,
         TRANSLATION_AUDIT_VERDICT.FINDING,
-        TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
       ],
       got: audit.verdict,
-      detail: regression.code || regression.justification || null,
+      detail: regression.code || null,
     };
-    if (!regression.pass) {
+
+    if (!bilingualProven) {
+      blockers.push({ code: "BILINGUAL_COLLECTOR_NOT_PROVEN", verdict: audit.verdict });
+    }
+    if (!targetOfficial.valid) {
+      blockers.push({
+        code: "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
+        verdict: audit.verdict,
+        detail: targetOfficial.code,
+        targetSourceUrl,
+        provenTargetLemma,
+      });
+    }
+    if (audit.verdict === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW) {
+      blockers.push({
+        code: "NSR_DOES_NOT_SATISFY_READINESS",
+        verdict: audit.verdict,
+        auditBlockers: audit.blockers?.map((b) => b.code),
+      });
+    } else if (!regression.pass) {
       blockers.push({
         code: "PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL",
         verdict: audit.verdict,
         detail: regression.code || audit.blockers?.[0]?.code,
       });
     }
+
   } else {
     blockers.push({ code: "PRODUCTION_HAUS_CARD_NOT_FOUND" });
   }
@@ -163,10 +195,14 @@ async function verifyCardTranslationLanguageReadiness(appLang) {
   }
 
   const cardTranslationReady = blockers.length === 0;
+  if (productionPilot.cardId) {
+    productionPilot.pass = cardTranslationReady;
+  }
 
   return {
     appLang,
     cardTranslationReady,
+    targetOfficialValidation: Boolean(productionPilot?.targetOfficialValidation),
     blockers,
     collector: col,
     targetValidator: tgt,

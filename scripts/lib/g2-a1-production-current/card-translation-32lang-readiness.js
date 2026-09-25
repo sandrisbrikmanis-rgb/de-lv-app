@@ -64,7 +64,7 @@ function buildRowFromVerification(appLang, verifiedLang) {
     deToTargetCollector: ready
       ? COLLECTOR_STAGE.FULL_DE_TO_TARGET_COLLECTOR
       : COLLECTOR_STAGE.NOT_IMPLEMENTED,
-    targetOfficialValidation: ready,
+    targetOfficialValidation: Boolean(verifiedLang?.targetOfficialValidation),
     cardTranslationReady: ready,
     collectorId: col.collectorId,
     bilingualSourceUrl: col.bilingualSourceUrl,
