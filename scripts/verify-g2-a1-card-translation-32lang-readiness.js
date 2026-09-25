@@ -31,8 +31,14 @@ function main() {
     blockers.push({ code: "FULL_A1_AUDIT_MUST_NOT_RUN_IN_THIS_TASK" });
   }
   if (snap?.productionDataModified) {
-    blockers.push({ code: "PRODUCTION_MUST_NOT_CHANGE" });
+    blockers.push({
+      code: "PRODUCTION_MUST_NOT_CHANGE",
+      pr843Paths: snap.productionGit?.pr843ProductionPaths || [],
+      workingTree: snap.productionGit?.workingTreeProductionPaths || [],
+    });
   }
+
+  const fullBatchGate = assertTargetedFieldCardTranslationBatchAllowed({ executeLuna: true, pilotOnly: false });
 
   if (snap?.classification === "CARD_TRANSLATION_READINESS_32_OF_32_VERIFIED") {
     if (readiness.readyCount !== 32) {
@@ -42,12 +48,11 @@ function main() {
     blockers.push({ code: "BATCH_READY_WITHOUT_32_CLASSIFICATION" });
   }
 
-  const fullBatchGate = assertTargetedFieldCardTranslationBatchAllowed({ executeLuna: true, pilotOnly: false });
   if (fullBatchGate.pass && readiness.readyCount < 32) {
     blockers.push({ code: "FULL_LUNA_BATCH_MUST_STAY_BLOCKED_UNTIL_32" });
   }
-  if (!fullBatchGate.pass && readiness.readyCount === 32 && snap?.classification?.includes("32_OF_32")) {
-    /* expected blocked until classification updated */
+  if (!fullBatchGate.pass && readiness.readyCount === 32) {
+    blockers.push({ code: "BATCH_BLOCKER_MUST_RELEASE_WHEN_32_READY" });
   }
 
   const pilotGate = assertTargetedFieldCardTranslationBatchAllowed({ executeLuna: true, pilotOnly: true });
@@ -55,7 +60,11 @@ function main() {
     blockers.push({ code: "PILOT_ONLY_SHOULD_REMAIN_ALLOWED" });
   }
 
-  for (const script of ["scripts/test-g2-a1-card-translation-audit-executor.js", "scripts/test-card-translation-audit-search.js"]) {
+  for (const script of [
+    "scripts/test-g2-a1-card-translation-audit-flow.js",
+    "scripts/test-g2-a1-card-translation-audit-executor.js",
+    "scripts/test-card-translation-audit-search.js",
+  ]) {
     try {
       execSync(`node ${script}`, { cwd: ROOT, stdio: "pipe", encoding: "utf8" });
     } catch (e) {

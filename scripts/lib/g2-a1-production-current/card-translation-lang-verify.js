@@ -7,7 +7,7 @@ const { LEVEL } = require("./constants");
 const { runCardTranslationAuditForLanguage, lookupDeForCard } = require("./card-translation-lang-run");
 const { SOURCE_ACCESS_OUTCOME } = require("./official-source-access-constants");
 const { selectedDictionaryCandidateForLang } = require("./card-translation-catalog-collector");
-const { hausPilotProvesAuditFlow } = require("./card-translation-audit-flow");
+const { assessPositiveRegressionVerdict } = require("./card-translation-audit-flow");
 const { isForbiddenTranslationHost, manifestSourceAllowed } = require("./card-translation-forbidden-sources");
 const { isGermanDeAuthorityDwdsOrDuden } = require("./card-translation-audit-policy");
 const { TRANSLATION_AUDIT_VERDICT } = require("./card-translation-audit-search");
@@ -108,14 +108,15 @@ async function verifyCardTranslationLanguageReadiness(appLang) {
       blockers.push({ code: "DE_USED_LOD_INSTEAD_OF_DWDS" });
     }
 
-    const flowOk = hausPilotProvesAuditFlow(audit);
+    const regression = assessPositiveRegressionVerdict(audit, cardGerman);
     productionPilot = {
-      pass: flowOk,
-      auditFlowProven: flowOk,
+      pass: regression.pass,
+      positiveRegressionPass: regression.pass,
       cardId: haus.cardId,
       currentTarget: haus.currentTarget,
       verdict: audit.verdict,
       blockers: audit.blockers,
+      regressionDetail: regression.code || null,
       deSourceUrl: audit.deSourceUrl || audit.deAuthority?.entryUrl || null,
       bilingualSourceUrl: audit.bilingualSourceUrl || audit.bilingualMeta?.sourceUrl || null,
       bilingualResultUrl: audit.bilingualResultUrl || audit.bilingualMeta?.resultUrl || null,
@@ -123,7 +124,7 @@ async function verifyCardTranslationLanguageReadiness(appLang) {
       provenTargetLemma: audit.provenTargetLemma || audit.selectedCandidate?.targetLemma || null,
     };
     positiveRegression = {
-      pass: flowOk,
+      pass: regression.pass,
       deLemma: "Haus",
       acceptableVerdicts: [
         TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED,
@@ -131,12 +132,13 @@ async function verifyCardTranslationLanguageReadiness(appLang) {
         TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
       ],
       got: audit.verdict,
+      detail: regression.code || regression.justification || null,
     };
-    if (!flowOk) {
+    if (!regression.pass) {
       blockers.push({
-        code: "PRODUCTION_HAUS_PILOT_FLOW_NOT_PROVEN",
+        code: "PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL",
         verdict: audit.verdict,
-        detail: audit.blockers?.[0]?.code,
+        detail: regression.code || audit.blockers?.[0]?.code,
       });
     }
   } else {

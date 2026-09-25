@@ -22,7 +22,23 @@ function main() {
   lines.push(`- **Ready:** ${snap.readyCount}/${snap.expectedCount}`);
   lines.push(`- **Next action:** ${snap.nextAction}`);
   lines.push(`- **Full A1 audit executed:** ${snap.fullA1AuditExecuted}`);
-  lines.push(`- **Production modified:** ${snap.productionDataModified}`);
+  lines.push(`- **Production modified (this PR / working tree):** ${snap.productionDataModified}`);
+  if (snap.productionGit) {
+    lines.push(
+      `- **Inherited PR #842 production paths (main→#842 base, ${snap.productionGit.inheritedFromPr842?.pathCount || 0}):** ${
+        snap.productionGit.inheritedFromPr842?.paths?.length
+          ? snap.productionGit.inheritedFromPr842.paths.map((p) => `\`${p}\``).join(", ")
+          : "(none)"
+      }`,
+    );
+    lines.push(
+      `- **PR #843-only production diff (#842…HEAD):** ${
+        snap.productionGit.pr843ProductionPaths?.length
+          ? snap.productionGit.pr843ProductionPaths.map((p) => `\`${p}\``).join(", ")
+          : "(none)"
+      }`,
+    );
+  }
   lines.push(`- **Batch blocker active:** ${snap.batchBlockerActive}`);
   lines.push("");
   lines.push("## Ready languages");
@@ -37,7 +53,7 @@ function main() {
     lines.push(`- Collector: \`${row.collector?.collectorId}\` — ${row.collector?.bilingualSourceUrl || "n/a"}`);
     lines.push(`- TARGET validator: \`${row.targetValidator?.adapterId}\` — ${row.targetValidator?.masterSourceUrl || "n/a"}`);
     lines.push(
-      `- Production Haus pilot (flow): ${row.productionPilot?.auditFlowProven ? "PROVEN" : "FAIL"} — verdict **${row.productionPilot?.verdict || "n/a"}**`,
+      `- Haus positive regression: ${row.positiveRegression?.pass ? "PASS" : "FAIL"} — verdict **${row.productionPilot?.verdict || "n/a"}**`,
     );
     if (row.productionPilot?.deSourceUrl) lines.push(`- DE URL: ${row.productionPilot.deSourceUrl}`);
     if (row.productionPilot?.bilingualSourceUrl) {
