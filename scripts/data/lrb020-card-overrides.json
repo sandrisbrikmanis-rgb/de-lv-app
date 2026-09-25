@@ -1,0 +1,220 @@
+{
+  "fr": {
+    "unter": {
+      "study.tip.text": "Rappelez-vous : sous la table → unter dem Tisch.",
+      "study.comparison[1].meaning": "Au-dessus / à propos de"
+    },
+    "Urlaub": {
+      "study.important[2]": "Incorrect : die Urlaube → Correct : der Urlaub"
+    },
+    "verstehen": {
+      "lv": "Comprendre",
+      "study.translation": "Comprendre",
+      "study.explanation[2]": "Verstehen signifie comprendre une langue, une personne, un texte ou une situation ; können exprime plutôt une capacité ou une possibilité.",
+      "study.comparison[0].meaning": "Comprendre"
+    },
+    "vom": {
+      "lv": "De",
+      "study.translation": "De",
+      "study.tip[0]": "Rappelez-vous : von + dem → vom (Dativ)."
+    },
+    "was": {
+      "lv": "Quoi • Que",
+      "study.translation": "Quoi • Que",
+      "study.important[3]": "Incorrect : Qu'est-ce que ça passe ? → Correct : Qu'est-ce qui s'est passé ?"
+    },
+    "wenn": {
+      "study.important[0]": "Wann viens-tu ? est une question. Wenn du kommst... est une condition ou un temps."
+    },
+    "wer": {
+      "lv": "Qui",
+      "study.translation": "Qui",
+      "study.examples[0].lv": "Qui est-ce ?",
+      "study.examples[2].lv": "Qui vient aujourd'hui ?",
+      "study.important[3]": "Incorrect : Qu'est-ce que ça passe ? → Correct : Qu'est-ce qui s'est passé ?"
+    },
+    "werden": {
+      "study.important[0]": "Werden n'est pas la même chose que sein."
+    },
+    "Wetter": {
+      "study.examples[0].lv": "Quel temps fait-il aujourd'hui ?",
+      "study.tip[1]": "Rappelez-vous : Wie ist das Wetter ? = Quel temps fait-il ? (pas l'heure)."
+    },
+    "wie": {
+      "study.important[2]": "Incorrect : Quel âge as-tu ? → Correct : Wie alt bist du ?"
+    },
+    "zu": {
+      "lv": "À • Chez",
+      "study.translation": "À • Chez"
+    },
+    "zum": {
+      "lv": "Au • Chez le",
+      "study.translation": "Au • Chez le",
+      "study.tip[0]": "Rappelez-vous : zu + dem → zum (Dativ)."
+    }
+  },
+  "gr": {
+    "ab": {
+      "lv": "Από",
+      "study.translation": "Από"
+    },
+    "aber": {
+      "lv": "Αλλά",
+      "study.translation": "Αλλά",
+      "study.comparison[0].meaning": "Αντίθεση • Αλλά",
+      "study.comparison[1].example": "Ich wollte keinen Tee, sondern Kaffee. – Δεν ήθελα τσάι, αλλά καφέ."
+    },
+    "also": {
+      "study.explanation": "Χρησιμοποιείται για την εξαγωγή συμπερασμάτων ή την εμφάνιση ενός αποτελέσματος. Σημαίνει «άρα», «λοιπόν».",
+      "study.comparison[1].meaning": "Επίσης",
+      "study.tip.text": "Θυμήσου: συμπέρασμα → also = άρα / λοιπόν.",
+      "study.important[0]": "Το also δείχνει ένα συμπέρασμα: η επόμενη ιδέα προκύπτει από την προηγούμενη.",
+      "study.important[1]": "Το also μπορεί συχνά να αποδοθεί ως άρα, λοιπόν ή επομένως."
+    },
+    "Bitte": {
+      "lv": "Αίτημα",
+      "study.translation": "Αίτημα",
+      "study.explanation[1]": "Die Bitte σημαίνει κυρίως: αίτημα.",
+      "study.explanation[3]": "Die Bitte σημαίνει κυρίως: αίτημα ή παράκληση.",
+      "study.examples[1].lv": "Εκπληρώνει το αίτημά μου.",
+      "study.examples[2].lv": "Έχει δύο αιτήματα.",
+      "study.examples[5].lv": "Το αίτημα είναι σημαντικό.",
+      "study.comparison[0].meaning": "Αίτημα",
+      "study.tip[0]": "Μικρό bitte = παρακαλώ (Bitte schön!, Kaffee, bitte). Die Bitte με κεφαλαίο = αίτημα.",
+      "study.important[2]": "Πληθυντικός: die Bitten (αιτήματα)."
+    },
+    "bleiben": {
+      "lv": "Μένω",
+      "study.translation": "Μένω",
+      "study.comparison[0].meaning": "Μένω"
+    },
+    "bringen": {
+      "lv": "Φέρνω • Μεταφέρω",
+      "study.translation": "Φέρνω • Μεταφέρω",
+      "study.examples[0].lv": "Σου φέρνω ένα βιβλίο.",
+      "study.examples[1].lv": "Φέρνω το δέμα στο ταχυδρομείο.",
+      "study.examples[2].lv": "Πηγαίνω τα παιδιά στο σχολείο.",
+      "study.comparison[0].meaning": "Φέρνω / μεταφέρω",
+      "study.comparison[1].meaning": "Παραλαμβάνω / φέρνω",
+      "study.comparison[2].meaning": "Πηγαίνω / φέρνω",
+      "study.comparison[3].meaning": "Φέρνω μαζί μου"
+    },
+    "das": {
+      "study.comparison[2].meaning": "Ποιο • Ποια • Τι",
+      "study.important[1]": "Το das δεν είναι το ίδιο με το dass — το das μπορεί να είναι άρθρο ή αντωνυμία, το dass σημαίνει «ότι»."
+    },
+    "dass": {
+      "study.comparison[0].example": "Ich weiß, dass er kommt. – Ξέρω ότι έρχεται.",
+      "study.comparison[2].meaning": "Ώστε να",
+      "study.important[0]": "Dass σημαίνει «ότι» και ξεκινά μια δευτερεύουσα πρόταση."
+    },
+    "Eis": {
+      "lv": "Πάγος • Παγωτό",
+      "study.translation": "Πάγος • Παγωτό",
+      "study.explanation[0]": "Κύρια ιδέα: das Eis μπορεί να σημαίνει και πάγο και παγωτό.",
+      "study.comparison[0].meaning": "Πάγος / παγωτό"
+    },
+    "erst": {
+      "lv": "Μόνο • Πρώτα",
+      "study.translation": "Μόνο • Πρώτα",
+      "study.examples[0].lv": "Πρώτα μαθαίνουμε, μετά παίζουμε."
+    },
+    "es": {
+      "lv": "Το • Αυτό • Απρόσωπη μορφή",
+      "study.translation": "Το • Αυτό • Απρόσωπη μορφή",
+      "study.examples[0].lv": "Βρέχει.",
+      "study.examples[1].lv": "Κάνει κρύο.",
+      "study.examples[2].lv": "Το παιδί κοιμάται.",
+      "study.examples[3].lv": "Είναι κουρασμένο.",
+      "study.examples[4].lv": "Βρέχει.",
+      "study.examples[5].lv": "Χιονίζει."
+    },
+    "euch": {
+      "study.translation": "Εσάς"
+    },
+    "Frau": {
+      "study.translation": "Γυναίκα • Σύζυγος",
+      "study.explanation[0]": "Κύρια ιδέα: die Frau μπορεί να σημαίνει γυναίκα (φύλο) ή σύζυγος (σύζυγος)."
+    },
+    "Geschwister": {
+      "lv": "Αδέλφια",
+      "study.translation": "Αδέλφια",
+      "study.examples[0].lv": "Έχω δύο αδέλφια.",
+      "study.examples[1].lv": "Τα αδέλφια μου ζουν στο Βερολίνο.",
+      "study.comparison[0].meaning": "Αδέλφια"
+    },
+    "gleich": {
+      "study.examples[5].lv": "Έχουν το ίδιο ύψος."
+    },
+    "groß": {
+      "study.examples[1].lv": "Το Βερολίνο είναι μια μεγάλη πόλη."
+    },
+    "Großeltern": {
+      "lv": "Παππούδες και γιαγιάδες",
+      "study.translation": "Παππούδες και γιαγιάδες",
+      "study.examples[0].lv": "Οι παππούδες και οι γιαγιάδες μου ζουν στην ύπαιθρο.",
+      "study.examples[1].lv": "Επισκέπτομαι τους παππούδες και τις γιαγιάδες μου."
+    },
+    "gut": {
+      "study.explanation[0]": "Κύρια ιδέα: το gut είναι επίθετο/επίρρημα — καλό, καλά, καλά.",
+      "study.explanation[1]": "Το gut περιγράφει την ποιότητα, την υγεία ή το πώς πάει κάτι (Es geht mir gut. = τα πάω καλά.).",
+      "study.explanation[3]": "Όταν το gut περιγράφει ένα ρήμα, είναι επίρρημα (gut schwimmen = κολυμπάω καλά).",
+      "study.important[0]": "gut = καλό/καλά (επίθετο/επίρρημα).",
+      "study.important[2]": "Guten Tag/Morgen/Abend — το gut αλλάζει την κατάληξη ανάλογα με την πτώση."
+    },
+    "haben": {
+      "study.explanation[1]": "Στα ελληνικά, η έκφραση «έχω» αντιστοιχεί στο Ich habe ..., Du hast ..., Er hat ... — όχι *mir habe."
+    },
+    "halten": {
+      "lv": "Κρατώ • Σταματώ",
+      "study.translation": "Κρατώ • Σταματώ",
+      "study.comparison[0].meaning": "Κρατώ / σταματώ"
+    },
+    "Hand": {
+      "lv": "Χέρι",
+      "study.translation": "Χέρι",
+      "study.explanation[0]": "Κύρια ιδέα: die Hand σημαίνει χέρι.",
+      "study.examples[0].lv": "Πλένω τα χέρια μου.",
+      "study.examples[1].lv": "Κρατάει το ποτήρι στο χέρι της.",
+      "study.examples[2].lv": "Ο βραχίονας μου πονάει.",
+      "study.comparison[0].meaning": "Χέρι",
+      "study.comparison[0].example": "in der Hand – στο χέρι",
+      "study.comparison[1].meaning": "Βραχίονας"
+    },
+    "hoch": {
+      "lv": "Ψηλός",
+      "study.translation": "Ψηλός",
+      "study.examples[1].lv": "Το ράφι είναι δύο μέτρα ψηλό."
+    },
+    "können": {
+      "lv": "Μπορώ • Μπορώ να",
+      "study.translation": "Μπορώ • Μπορώ να",
+      "study.explanation[1]": "Όταν πρόκειται για ικανότητα ή δεξιότητα, στα ελληνικά λέγεται συχνά μπορώ.",
+      "study.explanation[2]": "Όταν πρόκειται για δυνατότητα, συχνά λέγεται μπορώ να.",
+      "study.comparison[0].meaning": "Μπορώ / μπορώ να"
+    },
+    "kosten": {
+      "lv": "Κοστίζει",
+      "study.translation": "Κοστίζει",
+      "study.explanation[3]": "Η ελληνική λέξη κοστίζει είναι σωστή σε αυτό το πλαίσιο: Das kostet 5 Euro. = Κοστίζει 5 ευρώ.",
+      "study.important[2]": "Στα ελληνικά, η λέξη πληρώνω χρησιμοποιείται για την πράξη, αλλά στα γερμανικά πρέπει να επιλέξετε ανάλογα με την κατάσταση."
+    },
+    "lang": {
+      "lv": "Μακρύς • Μακράς",
+      "study.translation": "Μακρύς • Μακράς"
+    },
+    "lassen": {
+      "lv": "Αφήνω • Επιτρέπω",
+      "study.translation": "Αφήνω • Επιτρέπω",
+      "study.explanation[1]": "Όταν κάτι παραμένει στη θέση του, το lassen μεταφράζεται ως αφήνω.",
+      "study.comparison[0].meaning": "Αφήνω / επιτρέπω"
+    },
+    "laufen": {
+      "lv": "Τρέχω • Λειτουργεί",
+      "study.translation": "Τρέχω • Λειτουργεί",
+      "study.explanation[0]": "Κύρια ιδέα: laufen σημαίνει τρέξιμο, αλλά για εξοπλισμό μπορεί να σημαίνει λειτουργία.",
+      "study.comparison[0].meaning": "Τρέχω / λειτουργεί",
+      "study.comparison[3].meaning": "Λειτουργεί"
+    }
+  }
+}
