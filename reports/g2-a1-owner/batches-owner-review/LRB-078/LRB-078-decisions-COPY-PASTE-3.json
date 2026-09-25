@@ -1,0 +1,65 @@
+{
+  "batch_id": "LRB-078",
+  "correction_round": 3,
+  "apply_mode": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+  "reviewed_commit": "cd7036283bf968127d5301d66f54f52bf51247dd",
+  "owner_verdict": "FAIL_REQUIRES_METADATA_COPY_PASTE_REPAIR",
+  "gala_pass": false,
+  "target_file": "reports/g2-a1-owner/batches-owner-review/LRB-078/LRB-078-decisions-COPY-PASTE.json",
+  "card_data_changes": 0,
+  "replacements": [
+    {
+      "json_pointer": "/counts/required_after_apply/LABOT",
+      "old": 49,
+      "new": 50
+    },
+    {
+      "json_pointer": "/counts/required_after_apply/NELABOT",
+      "old": 1,
+      "new": 0
+    },
+    {
+      "json_pointer": "/apply_instructions/1",
+      "old": "49 LABOT rindām owner_new saglabāt kā pilnu approved_card kompozītu; vienīgo NELABOT rindu saglabāt bez owner_new.",
+      "new": "50 LABOT rindām owner_new saglabāt kā pilnu approved_card kompozītu; NELABOT rindu nav."
+    },
+    {
+      "json_pointer": "/required_fresh_gates/LABOT",
+      "old": 49,
+      "new": 50
+    },
+    {
+      "json_pointer": "/required_fresh_gates/NELABOT",
+      "old": 1,
+      "new": 0
+    },
+    {
+      "json_pointer": "/required_fresh_gates/OWNER_NEW_PARSEABLE",
+      "old": "49/49",
+      "new": "50/50"
+    },
+    {
+      "json_pointer": "/required_fresh_gates/OWNER_NEW_FULL_COMPOSITE_ALIGNMENT",
+      "old": "49/49",
+      "new": "50/50"
+    }
+  ],
+  "must_remain_unchanged": {
+    "approved_cards": "50 existing full cards",
+    "unchanged_cards": "empty",
+    "counts.current_phase1": "historical pre-review counts",
+    "DE": true,
+    "production": true,
+    "Crowdin": true,
+    "ingest_apply": true
+  },
+  "required_after_apply": {
+    "LABOT": 50,
+    "NELABOT": 0,
+    "PENDING": 0,
+    "OWNER_NEW_PARSEABLE": "50/50",
+    "OWNER_NEW_FULL_COMPOSITE_ALIGNMENT": "50/50",
+    "stale_49_1_final_metadata": 0,
+    "galaPass": false
+  }
+}
