@@ -253,20 +253,7 @@ async function collectFromSingleCandidate(candidate, appLang, cardGerman, search
   };
 }
 
-async function collectDeTargetFromCatalog(appLang, cardGerman) {
-  const { searchLemma, displayLemma, strategy } = dictionarySearchLemma(cardGerman);
-  const candidates = orderedDictionaryCandidatesForLang(appLang);
-  if (!candidates.length) {
-    return {
-      ok: false,
-      eligible: [],
-      rejected: [{ reason: REJECT_REASON.DE_SENSE_MISMATCH, detail: "NO_CATALOG_CANDIDATE" }],
-      bilingualMeta: null,
-      catalogCandidate: null,
-      sourcesTried: [],
-    };
-  }
-
+async function tryCollectAcrossSources(candidates, appLang, cardGerman, searchLemma, strategy) {
   let mergedEligible = [];
   const rejected = [];
   const sourcesTried = [];
@@ -290,7 +277,50 @@ async function collectDeTargetFromCatalog(appLang, cardGerman) {
       mergedEligible = mergeEligibleUnique(mergedEligible, attempt.eligible, attempt.bilingualMeta);
       winningCandidate = winningCandidate || attempt.catalogCandidate || candidate;
       lastMeta = attempt.bilingualMeta;
-      break;
+    }
+  }
+
+  return { mergedEligible, rejected, sourcesTried, lastMeta, winningCandidate };
+}
+
+async function collectDeTargetFromCatalog(appLang, cardGerman) {
+  const { searchLemma, displayLemma, strategy, morphHint } = dictionarySearchLemma(cardGerman);
+  const candidates = orderedDictionaryCandidatesForLang(appLang);
+  if (!candidates.length) {
+    return {
+      ok: false,
+      eligible: [],
+      rejected: [{ reason: REJECT_REASON.DE_SENSE_MISMATCH, detail: "NO_CATALOG_CANDIDATE" }],
+      bilingualMeta: null,
+      catalogCandidate: null,
+      sourcesTried: [],
+    };
+  }
+
+  let {
+    mergedEligible,
+    rejected,
+    sourcesTried,
+    lastMeta,
+    winningCandidate,
+  } = await tryCollectAcrossSources(candidates, appLang, cardGerman, searchLemma, strategy);
+
+  if (!mergedEligible.length && morphHint && morphHint !== searchLemma) {
+    const morphPass = await tryCollectAcrossSources(
+      candidates,
+      appLang,
+      cardGerman,
+      morphHint,
+      `${strategy}+MORPH_HINT_${morphHint}`,
+    );
+    rejected.push(...morphPass.rejected);
+    sourcesTried.push(...morphPass.sourcesTried);
+    if (morphPass.mergedEligible.length) {
+      mergedEligible = morphPass.mergedEligible;
+      lastMeta = { ...morphPass.lastMeta, morphHintLemma: morphHint, primarySearchLemma: searchLemma };
+      winningCandidate = morphPass.winningCandidate;
+    } else if (morphPass.lastMeta) {
+      lastMeta = morphPass.lastMeta;
     }
   }
 
@@ -305,6 +335,8 @@ async function collectDeTargetFromCatalog(appLang, cardGerman) {
       searchLemma,
       displayLemma,
       dictionarySearchStrategy: strategy,
+      morphHintLemma: morphHint || null,
+      needsAdditionalBilingualSource: true,
     };
   }
 

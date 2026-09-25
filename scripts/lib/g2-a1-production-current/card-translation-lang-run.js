@@ -15,7 +15,9 @@ const {
 } = require("./card-translation-audit-search");
 const { getTargetAdapterMeta } = require("./source-adapters/target");
 const { deAuthorityLookupTerms } = require("./card-translation-de-lemma");
+const { targetLookupVariants } = require("./card-translation-target-lookup");
 const { SOURCE_ACCESS_OUTCOME } = require("./official-source-access-constants");
+const { isTargetOfficialValidated } = require("./card-translation-audit-search");
 
 async function lookupDeForCard(cardGerman) {
   const allowDe = buildAllowlistForLanguage("lb");
@@ -89,6 +91,10 @@ async function runCardTranslationAuditForLanguage(appLang, cardGerman, currentTa
       bilingualSourceUrl: collected.bilingualMeta?.sourceUrl || catalogCandidate?.url || null,
       bilingualResultUrl: collected.bilingualMeta?.resultUrl || null,
       deSourceUrl: deAuthority?.entryUrl || null,
+      needsAdditionalBilingualSource: collected.needsAdditionalBilingualSource === true,
+      sourcesTried: collected.sourcesTried,
+      searchLemma: collected.searchLemma,
+      dictionarySearchStrategy: collected.dictionarySearchStrategy,
     };
   }
 
@@ -101,22 +107,39 @@ async function runCardTranslationAuditForLanguage(appLang, cardGerman, currentTa
     appLang,
   });
 
-  if (
-    resolved.selectedCandidate &&
-    resolved.verdict === TRANSLATION_AUDIT_VERDICT.TARGET_OFFICIAL_NOT_VALIDATED
-  ) {
+  if (resolved.selectedCandidate && resolved.verdict === TRANSLATION_AUDIT_VERDICT.TARGET_OFFICIAL_NOT_VALIDATED) {
     const provenLemma = resolved.selectedCandidate.targetLemma || resolved.selectedCandidate.wordLb;
-    const targetAuthority = await lookupTargetForProvenLemma(appLang, provenLemma);
-    resolved = resolveCardTranslationAuditVerdict({
-      cardGerman,
-      deAuthority,
-      dictionaryCandidates: collected.eligible,
-      rejectedCandidates: collected.rejected,
-      currentTarget,
-      appLang,
-      targetAuthorityForProven: targetAuthority,
-    });
-    resolved.targetAuthority = targetAuthority;
+    const variants = targetLookupVariants(provenLemma, currentTarget);
+    let best = resolved;
+    for (const lookupTerm of variants) {
+      // eslint-disable-next-line no-await-in-loop
+      const targetAuthority = await lookupTargetForProvenLemma(appLang, lookupTerm);
+      const retry = resolveCardTranslationAuditVerdict({
+        cardGerman,
+        deAuthority,
+        dictionaryCandidates: collected.eligible,
+        rejectedCandidates: collected.rejected,
+        currentTarget,
+        appLang,
+        targetAuthorityForProven: targetAuthority,
+      });
+      retry.targetAuthority = targetAuthority;
+      if (
+        retry.verdict !== TRANSLATION_AUDIT_VERDICT.TARGET_OFFICIAL_NOT_VALIDATED &&
+        isTargetOfficialValidated(targetAuthority)
+      ) {
+        best = retry;
+        break;
+      }
+      if (isTargetOfficialValidated(targetAuthority) && retry.verdict === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED) {
+        best = retry;
+        break;
+      }
+      if (isTargetOfficialValidated(targetAuthority)) {
+        best = retry;
+      }
+    }
+    resolved = best;
   }
 
   return {

@@ -2,29 +2,29 @@
 "use strict";
 
 /**
- * DE vārdnīcas meklēšanai — participle/adjective no infinitīva (gefüllt ← füllen).
+ * Divvalodu meklēšana — primāri kartes lemma; morfoloģiskie hinti tikai papildus.
  */
 function dictionarySearchLemma(cardGerman) {
   const lemma = String(cardGerman?.lemma || "").trim();
   const pos = String(cardGerman?.partOfSpeech || "").trim().toLowerCase();
+  let morphHint = null;
   if (lemma === "gefüllt" && (pos === "adjective" || pos === "participle")) {
-    return {
-      searchLemma: "füllen",
-      displayLemma: lemma,
-      strategy: "PARTICIPLE_VIA_INFINITIVE_FUELLEN",
-    };
+    morphHint = "füllen";
   }
-  return { searchLemma: lemma, displayLemma: lemma, strategy: "DIRECT" };
+  return {
+    searchLemma: lemma,
+    displayLemma: lemma,
+    strategy: "DIRECT",
+    morphHint,
+  };
 }
 
-/** DWDS/Duden lookup secība — vispirms kartes lemma, tad atvasinātais. */
+/** DWDS/Duden — vispirms kartes lemma, tad morfoloģiskais hints. */
 function deAuthorityLookupTerms(cardGerman) {
   const lemma = String(cardGerman?.lemma || "").trim();
   const terms = [lemma];
-  const { searchLemma, strategy } = dictionarySearchLemma(cardGerman);
-  if (strategy !== "DIRECT" && searchLemma && !terms.includes(searchLemma)) {
-    terms.push(searchLemma);
-  }
+  const { morphHint } = dictionarySearchLemma(cardGerman);
+  if (morphHint && !terms.includes(morphHint)) terms.push(morphHint);
   return terms;
 }
 

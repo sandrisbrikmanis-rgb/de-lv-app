@@ -12,6 +12,21 @@ const {
   targetSourceUrlFromAudit,
   assessHausPilotTargetOfficialValidation,
 } = require("./lib/g2-a1-production-current/card-translation-audit-flow");
+const { targetLemmaEquals } = require("./lib/g2-a1-production-current/card-translation-audit-search");
+
+function currentAmongDictionaryCandidates(currentTarget, candidates) {
+  const cur = String(currentTarget || "").trim();
+  if (!cur) return false;
+  return (candidates || []).some((c) => targetLemmaEquals(c.targetLemma || c.wordLb, cur));
+}
+
+function assessPilotPass(row) {
+  if (row.verdict === "TRANSLATION_VALIDATED" || row.verdict === "FINDING") return true;
+  if (row.verdict === "NEEDS_SOURCE_REVIEW" && currentAmongDictionaryCandidates(row.currentTarget, row.dictionaryCandidates)) {
+    return true;
+  }
+  return false;
+}
 const { closeBrowserPool } = require("./lib/g2-a1-production-current/source-adapters/browser/pool");
 
 const OUT_DIR = path.join(ROOT, "reports/g2-a1-production-current/card-translation-sample-lemmas");
@@ -75,6 +90,13 @@ function summarizeAudit(appLang, spec, audit, currentTarget) {
     searchLemma: audit.searchLemma || audit.blockers?.[0]?.searchLemma || null,
     dictionarySearchStrategy: audit.dictionarySearchStrategy || audit.blockers?.[0]?.dictionarySearchStrategy || null,
     uiNoiseRejected: candidates.some((c) => /words:\s*(others|verbs)/i.test(c.targetLemma || "")),
+    pilotPass: assessPilotPass({
+      verdict: audit.verdict,
+      currentTarget,
+      dictionaryCandidates: candidates,
+    }),
+    needsAdditionalBilingualSource: audit.needsAdditionalBilingualSource === true,
+    currentInDictionaryCandidates: currentAmongDictionaryCandidates(currentTarget, candidates),
   };
 }
 
@@ -116,14 +138,24 @@ async function main() {
     byVerdict[r.verdict] = (byVerdict[r.verdict] || 0) + 1;
   }
 
+  const pilotPassCount = rows.filter((r) => r.pilotPass).length;
+  const needsAdditionalBilingualSource = rows
+    .filter((r) => r.verdict === "NO_ELIGIBLE_DICTIONARY_CANDIDATE" && r.needsAdditionalBilingualSource)
+    .map((r) => ({ appLang: r.appLang, level: r.level, deLemma: r.deLemma, sourcesTriedCount: r.sourcesTried?.length || 0 }));
+
   const report = {
-    schemaVersion: "g2-a1-card-translation-sample-lemmas-v1",
+    schemaVersion: "g2-a1-card-translation-sample-lemmas-v2",
     generatedAt: new Date().toISOString(),
-    policy: "DE DWDS/Duden + catalog DE→TARGET + TARGET official validator; production CURRENT from data/**",
+    policy:
+      "DE DWDS/Duden + all registered DE→TARGET sources + TARGET variants; CURRENT honored in dictionary; production CURRENT from data/**",
     lemmaCount: lemmas.length,
     languageCount: langs.length,
     rowCount: rows.length,
     verdictCounts: byVerdict,
+    pilotPassCount,
+    pilotPassRate: `${pilotPassCount}/${rows.length}`,
+    needsAdditionalBilingualSource,
+    uiNoiseInCandidates: rows.filter((r) => r.uiNoiseRejected).length,
     rows,
   };
 
@@ -137,6 +169,8 @@ async function main() {
         path: path.relative(ROOT, OUT_JSON),
         rowCount: rows.length,
         verdictCounts: byVerdict,
+        pilotPassCount,
+        needsAdditionalBilingualSourceCount: needsAdditionalBilingualSource.length,
       },
       null,
       2,

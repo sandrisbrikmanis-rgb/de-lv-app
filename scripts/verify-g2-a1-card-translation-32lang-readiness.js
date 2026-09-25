@@ -62,6 +62,7 @@ function main() {
 
   for (const script of [
     "scripts/test-three-word-dict-extract-ui.js",
+    "scripts/test-g2-a1-card-translation-current-honor.js",
     "scripts/test-g2-a1-card-translation-audit-flow.js",
     "scripts/test-g2-a1-card-translation-audit-executor.js",
     "scripts/test-card-translation-audit-search.js",
