@@ -1,0 +1,3126 @@
+{
+  "batchId": "LRB-085",
+  "sourceCommit": "547e750e91c2fe88feb5b0ad75209744a5caea1f",
+  "reviewer": "GPT-5.6 Luna",
+  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE",
+  "cards": [
+    {
+      "auditId": "LRB085-0001",
+      "cardId": "a1-natuerlich",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «natürlich»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Конечно • Естественный",
+        "study": {
+          "id": "a1-natuerlich",
+          "layout": "standardStudy",
+          "translation": "Конечно • Естественный",
+          "explanation": [
+            "Основная идея: natürlich как наречие означает «конечно», а как прилагательное — «естественный».",
+            "В ответе или подтверждении natürlich = «конечно» (Kommst du mit? – Natürlich! = Ты идёшь с нами? – Конечно!).",
+            "Когда речь идёт о природе, происхождении или свойстве, natürlich = «естественный» (natürliche Schönheit = естественная красота).",
+            "Нужное значение определяется контекстом: ответом/подтверждением или описанием."
+          ],
+          "examples": [
+            {
+              "de": "Kommst du mit? – Natürlich!",
+              "lv": "Ты идёшь с нами? – Конечно!"
+            },
+            {
+              "de": "Das ist eine natürliche Reaktion.",
+              "lv": "Это естественная реакция."
+            },
+            {
+              "de": "Natürlich helfe ich dir.",
+              "lv": "Конечно, я тебе помогу."
+            },
+            {
+              "de": "Sie hat natürliche rote Haare.",
+              "lv": "У неё от природы рыжие волосы."
+            },
+            {
+              "de": "Natürlich kann ich das machen.",
+              "lv": "Конечно, я могу это сделать."
+            },
+            {
+              "de": "Das ist ganz natürlich.",
+              "lv": "Это совершенно естественно."
+            }
+          ],
+          "tip": [
+            "Как отдельный ответ или подтверждение → «конечно».",
+            "Перед существительным при описании происхождения или свойства → «естественный»."
+          ],
+          "important": [
+            "natürlich = «конечно» (наречие, подтверждение) ИЛИ «естественный» (прилагательное).",
+            "Natürlich! как отдельное восклицание означает «Конечно!»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0002",
+      "cardId": "a1-natuerlich",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «natürlich»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Конечно • Естественный",
+        "study": {
+          "id": "a1-natuerlich",
+          "layout": "standardStudy",
+          "translation": "Конечно • Естественный",
+          "explanation": [
+            "Основная идея: natürlich как наречие означает «конечно», а как прилагательное — «естественный».",
+            "В ответе или подтверждении natürlich = «конечно» (Kommst du mit? – Natürlich! = Ты идёшь с нами? – Конечно!).",
+            "Когда речь идёт о природе, происхождении или свойстве, natürlich = «естественный» (natürliche Schönheit = естественная красота).",
+            "Нужное значение определяется контекстом: ответом/подтверждением или описанием."
+          ],
+          "examples": [
+            {
+              "de": "Kommst du mit? – Natürlich!",
+              "lv": "Ты идёшь с нами? – Конечно!"
+            },
+            {
+              "de": "Das ist eine natürliche Reaktion.",
+              "lv": "Это естественная реакция."
+            },
+            {
+              "de": "Natürlich helfe ich dir.",
+              "lv": "Конечно, я тебе помогу."
+            },
+            {
+              "de": "Sie hat natürliche rote Haare.",
+              "lv": "У неё от природы рыжие волосы."
+            },
+            {
+              "de": "Natürlich kann ich das machen.",
+              "lv": "Конечно, я могу это сделать."
+            },
+            {
+              "de": "Das ist ganz natürlich.",
+              "lv": "Это совершенно естественно."
+            }
+          ],
+          "tip": [
+            "Как отдельный ответ или подтверждение → «конечно».",
+            "Перед существительным при описании происхождения или свойства → «естественный»."
+          ],
+          "important": [
+            "natürlich = «конечно» (наречие, подтверждение) ИЛИ «естественный» (прилагательное).",
+            "Natürlich! как отдельное восклицание означает «Конечно!»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0003",
+      "cardId": "a1-nehmen",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «nehmen»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Брать • Взять",
+        "study": {
+          "id": "a1-nehmen",
+          "layout": "standardStudy",
+          "translation": "Брать • Взять",
+          "explanation": [
+            "Основная идея: nehmen означает «брать» или «взять».",
+            "nehmen употребляют, когда берут что-либо себе или выбирают.",
+            "Это не то же самое, что bringen: bringen означает принести, отнести или доставить кому-либо.",
+            "holen означает сходить за чем-либо или кем-либо и принести либо привести."
+          ],
+          "examples": [
+            {
+              "de": "Ich nehme den Bus.",
+              "lv": "Я еду на автобусе."
+            },
+            {
+              "de": "Nimm das Buch!",
+              "lv": "Возьми книгу!"
+            },
+            {
+              "de": "Ich bringe dir das Buch.",
+              "lv": "Я принесу тебе книгу."
+            },
+            {
+              "de": "Ich hole dich ab.",
+              "lv": "Я заеду за тобой."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "nehmen",
+              "meaning": "Брать • Взять",
+              "example": "Nimm das Buch! – Возьми книгу!"
+            },
+            {
+              "word": "bringen",
+              "meaning": "Принести • Отнести • Доставить",
+              "example": "Ich bringe dir das Buch. – Я принесу тебе книгу."
+            },
+            {
+              "word": "holen",
+              "meaning": "Сходить за • Принести",
+              "example": "Ich hole Wasser. – Я принесу воды."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "Взять с собой",
+              "example": "Ich nehme dich mit. – Я возьму тебя с собой."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: взять себе → nehmen; принести кому-либо → bringen."
+          },
+          "important": [
+            "Ich nehme den Bus означает «Я еду на автобусе».",
+            "nehmen — не то же самое, что bringen."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0004",
+      "cardId": "a1-nehmen",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «nehmen»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Брать • Взять",
+        "study": {
+          "id": "a1-nehmen",
+          "layout": "standardStudy",
+          "translation": "Брать • Взять",
+          "explanation": [
+            "Основная идея: nehmen означает «брать» или «взять».",
+            "nehmen употребляют, когда берут что-либо себе или выбирают.",
+            "Это не то же самое, что bringen: bringen означает принести, отнести или доставить кому-либо.",
+            "holen означает сходить за чем-либо или кем-либо и принести либо привести."
+          ],
+          "examples": [
+            {
+              "de": "Ich nehme den Bus.",
+              "lv": "Я еду на автобусе."
+            },
+            {
+              "de": "Nimm das Buch!",
+              "lv": "Возьми книгу!"
+            },
+            {
+              "de": "Ich bringe dir das Buch.",
+              "lv": "Я принесу тебе книгу."
+            },
+            {
+              "de": "Ich hole dich ab.",
+              "lv": "Я заеду за тобой."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "nehmen",
+              "meaning": "Брать • Взять",
+              "example": "Nimm das Buch! – Возьми книгу!"
+            },
+            {
+              "word": "bringen",
+              "meaning": "Принести • Отнести • Доставить",
+              "example": "Ich bringe dir das Buch. – Я принесу тебе книгу."
+            },
+            {
+              "word": "holen",
+              "meaning": "Сходить за • Принести",
+              "example": "Ich hole Wasser. – Я принесу воды."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "Взять с собой",
+              "example": "Ich nehme dich mit. – Я возьму тебя с собой."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: взять себе → nehmen; принести кому-либо → bringen."
+          },
+          "important": [
+            "Ich nehme den Bus означает «Я еду на автобусе».",
+            "nehmen — не то же самое, что bringen."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0005",
+      "cardId": "a1-neu",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «neu»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Новый (о вещах)",
+        "study": {
+          "id": "a1-neu",
+          "layout": "standardStudy",
+          "translation": "Новый (о вещах)",
+          "explanation": [
+            "Основная идея: neu означает «новый» применительно к вещи — недавно созданной, приобретённой или впервые используемой.",
+            "neu описывает вещи, устройства, одежду, дом, идею и т. п., а не возраст человека или животного.",
+            "В русском слово «новый» отличается от «молодой»: jung означает молодой по возрасту, а neu — новый или недавно созданный.",
+            "О возрасте человека или животного говорят jung, а не neu.",
+            "neu употребляется и переносно: новая работа, новая информация, новое начало.",
+            "Противоположность — alt («старый»); существительное das Neue означает «что-то новое»."
+          ],
+          "examples": [
+            {
+              "de": "Mein Handy ist neu.",
+              "lv": "Мой телефон новый."
+            },
+            {
+              "de": "Wir haben ein neues Auto.",
+              "lv": "У нас новая машина."
+            },
+            {
+              "de": "Das ist meine neue Wohnung.",
+              "lv": "Это моя новая квартира."
+            },
+            {
+              "de": "Ich habe neue Schuhe gekauft.",
+              "lv": "Я купил новые туфли."
+            },
+            {
+              "de": "Das ist eine neue Idee.",
+              "lv": "Это новая идея."
+            },
+            {
+              "de": "Er hat einen neuen Job.",
+              "lv": "У него новая работа."
+            },
+            {
+              "de": "Was gibt es Neues?",
+              "lv": "Что нового?"
+            }
+          ],
+          "tip": [
+            "neu относится к вещам и новому; говоря о возрасте человека, употребляйте jung.",
+            "Противоположность: neu ↔ alt («новый» ↔ «старый»)."
+          ],
+          "important": [
+            "neu описывает вещи и новое, а не возраст человека или животного.",
+            "О возрасте человека или животного говорят jung, а не neu.",
+            "Неверно: Meine Schwester ist neu. → Верно: Meine Schwester ist jung."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0006",
+      "cardId": "a1-nur-study",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «nur»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Только • Лишь",
+        "study": {
+          "id": "a1-nur-study",
+          "layout": "standardStudy",
+          "translation": "Только • Лишь",
+          "explanation": [
+            "Основная идея: nur ограничивает количество, число людей, выбор или возможности.",
+            "Главное значение nur — ограниченное количество или выбор.",
+            "Часто речь идёт о том, сколько именно, что именно или кто единственный.",
+            "nur означает «только», «лишь», «ничего больше» и тем самым ограничивает количество или выбор."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "У меня только десять евро."
+            },
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "У меня только десять евро."
+            },
+            {
+              "de": "Nur du kannst mir helfen.",
+              "lv": "Только ты можешь мне помочь."
+            },
+            {
+              "de": "Ich möchte nur Kaffee.",
+              "lv": "Я хочу только кофе."
+            },
+            {
+              "de": "Ich habe nur acht Euro.",
+              "lv": "У меня всего восемь евро."
+            }
+          ],
+          "tip": [
+            "nur ограничивает количество, число людей, выбор или возможности.",
+            "Употребляйте nur, когда требуется такое ограничение."
+          ],
+          "important": [
+            "Русскому «только» в немецком не всегда соответствует nur.",
+            "nur = «только» • «лишь»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0007",
+      "cardId": "a1-nur-study",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «nur»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Только • Лишь",
+        "study": {
+          "id": "a1-nur-study",
+          "layout": "standardStudy",
+          "translation": "Только • Лишь",
+          "explanation": [
+            "Основная идея: nur ограничивает количество, число людей, выбор или возможности.",
+            "Главное значение nur — ограниченное количество или выбор.",
+            "Часто речь идёт о том, сколько именно, что именно или кто единственный.",
+            "nur означает «только», «лишь», «ничего больше» и тем самым ограничивает количество или выбор."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "У меня только десять евро."
+            },
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "У меня только десять евро."
+            },
+            {
+              "de": "Nur du kannst mir helfen.",
+              "lv": "Только ты можешь мне помочь."
+            },
+            {
+              "de": "Ich möchte nur Kaffee.",
+              "lv": "Я хочу только кофе."
+            },
+            {
+              "de": "Ich habe nur acht Euro.",
+              "lv": "У меня всего восемь евро."
+            }
+          ],
+          "tip": [
+            "nur ограничивает количество, число людей, выбор или возможности.",
+            "Употребляйте nur, когда требуется такое ограничение."
+          ],
+          "important": [
+            "Русскому «только» в немецком не всегда соответствует nur.",
+            "nur = «только» • «лишь»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0008",
+      "cardId": "a1-oder",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «oder»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Или • Либо",
+        "study": {
+          "id": "a1-oder",
+          "layout": "standardStudy",
+          "translation": "Или • Либо",
+          "explanation": [
+            "Основная идея: oder употребляют при выборе между двумя или несколькими вариантами.",
+            "Чаще всего oder означает «или».",
+            "Это не то же самое, что ob, которое вводит косвенный вопрос.",
+            "В разговорной речи oder может стоять и в конце предложения: Du kommst, oder?"
+          ],
+          "examples": [
+            {
+              "de": "Kaffee oder Tee?",
+              "lv": "Кофе или чай?"
+            },
+            {
+              "de": "Heute oder morgen?",
+              "lv": "Сегодня или завтра?"
+            },
+            {
+              "de": "Willst du Pizza oder Salat?",
+              "lv": "Ты хочешь пиццу или салат?"
+            },
+            {
+              "de": "Du kommst, oder?",
+              "lv": "Ты придёшь, правда?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "oder",
+              "meaning": "Или • Либо при выборе",
+              "example": "Kaffee oder Tee? – Кофе или чай?"
+            },
+            {
+              "word": "ob",
+              "meaning": "Ли в косвенном вопросе",
+              "example": "Ich weiß nicht, ob er kommt. – Я не знаю, придёт ли он."
+            },
+            {
+              "word": "und",
+              "meaning": "И",
+              "example": "Kaffee und Kuchen. – Кофе и пирог."
+            },
+            {
+              "word": "aber",
+              "meaning": "Но",
+              "example": "Ich komme, aber später. – Я приду, но позже."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: выбор между вариантами → oder."
+          },
+          "important": [
+            "oder употребляют для выбора: Kaffee oder Tee.",
+            "В косвенном вопросе русскому «ли» обычно соответствует ob."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0009",
+      "cardId": "a1-oder",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «oder»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Или • Либо",
+        "study": {
+          "id": "a1-oder",
+          "layout": "standardStudy",
+          "translation": "Или • Либо",
+          "explanation": [
+            "Основная идея: oder употребляют при выборе между двумя или несколькими вариантами.",
+            "Чаще всего oder означает «или».",
+            "Это не то же самое, что ob, которое вводит косвенный вопрос.",
+            "В разговорной речи oder может стоять и в конце предложения: Du kommst, oder?"
+          ],
+          "examples": [
+            {
+              "de": "Kaffee oder Tee?",
+              "lv": "Кофе или чай?"
+            },
+            {
+              "de": "Heute oder morgen?",
+              "lv": "Сегодня или завтра?"
+            },
+            {
+              "de": "Willst du Pizza oder Salat?",
+              "lv": "Ты хочешь пиццу или салат?"
+            },
+            {
+              "de": "Du kommst, oder?",
+              "lv": "Ты придёшь, правда?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "oder",
+              "meaning": "Или • Либо при выборе",
+              "example": "Kaffee oder Tee? – Кофе или чай?"
+            },
+            {
+              "word": "ob",
+              "meaning": "Ли в косвенном вопросе",
+              "example": "Ich weiß nicht, ob er kommt. – Я не знаю, придёт ли он."
+            },
+            {
+              "word": "und",
+              "meaning": "И",
+              "example": "Kaffee und Kuchen. – Кофе и пирог."
+            },
+            {
+              "word": "aber",
+              "meaning": "Но",
+              "example": "Ich komme, aber später. – Я приду, но позже."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: выбор между вариантами → oder."
+          },
+          "important": [
+            "oder употребляют для выбора: Kaffee oder Tee.",
+            "В косвенном вопросе русскому «ли» обычно соответствует ob."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0010",
+      "cardId": "a1-passen",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «passen»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Подходить • Идти",
+        "study": {
+          "id": "a1-passen",
+          "layout": "standardStudy",
+          "translation": "Подходить • Идти",
+          "explanation": [
+            "Основная идея: passen означает «подходить», «идти» или «быть подходящим».",
+            "Об одежде passen часто означает подходить по размеру.",
+            "О цвете или стиле passen означает идти, подходить.",
+            "Очень частая фраза: Das passt. = Это подходит."
+          ],
+          "examples": [
+            {
+              "de": "Die Jacke passt mir.",
+              "lv": "Куртка мне подходит."
+            },
+            {
+              "de": "Das Kleid passt gut.",
+              "lv": "Платье хорошо сидит."
+            },
+            {
+              "de": "Die Farbe passt zu dir.",
+              "lv": "Этот цвет тебе идёт."
+            },
+            {
+              "de": "Das passt.",
+              "lv": "Это подходит."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "passen",
+              "meaning": "Подходить • Идти",
+              "example": "Die Jacke passt mir. – Куртка мне подходит."
+            },
+            {
+              "word": "stehen",
+              "meaning": "Идти • Стоять",
+              "example": "Rot steht dir gut. – Красный цвет тебе идёт."
+            },
+            {
+              "word": "geeignet sein",
+              "meaning": "Быть подходящим",
+              "example": "Das ist geeignet. – Это подходит."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "Работать • Функционировать",
+              "example": "Das funktioniert. – Это работает."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: Das passt. = Это подходит."
+          },
+          "important": [
+            "passen употребляется не только об одежде.",
+            "Оно может означать и то, что время, план или решение подходят."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0011",
+      "cardId": "a1-passen",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «passen»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Подходить • Идти",
+        "study": {
+          "id": "a1-passen",
+          "layout": "standardStudy",
+          "translation": "Подходить • Идти",
+          "explanation": [
+            "Основная идея: passen означает «подходить», «идти» или «быть подходящим».",
+            "Об одежде passen часто означает подходить по размеру.",
+            "О цвете или стиле passen означает идти, подходить.",
+            "Очень частая фраза: Das passt. = Это подходит."
+          ],
+          "examples": [
+            {
+              "de": "Die Jacke passt mir.",
+              "lv": "Куртка мне подходит."
+            },
+            {
+              "de": "Das Kleid passt gut.",
+              "lv": "Платье хорошо сидит."
+            },
+            {
+              "de": "Die Farbe passt zu dir.",
+              "lv": "Этот цвет тебе идёт."
+            },
+            {
+              "de": "Das passt.",
+              "lv": "Это подходит."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "passen",
+              "meaning": "Подходить • Идти",
+              "example": "Die Jacke passt mir. – Куртка мне подходит."
+            },
+            {
+              "word": "stehen",
+              "meaning": "Идти • Стоять",
+              "example": "Rot steht dir gut. – Красный цвет тебе идёт."
+            },
+            {
+              "word": "geeignet sein",
+              "meaning": "Быть подходящим",
+              "example": "Das ist geeignet. – Это подходит."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "Работать • Функционировать",
+              "example": "Das funktioniert. – Это работает."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: Das passt. = Это подходит."
+          },
+          "important": [
+            "passen употребляется не только об одежде.",
+            "Оно может означать и то, что время, план или решение подходят."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0012",
+      "cardId": "a1-probieren",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «probieren»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Пробовать • Пробовать на вкус",
+        "study": {
+          "id": "a1-probieren",
+          "layout": "standardStudy",
+          "translation": "Пробовать • Пробовать на вкус",
+          "explanation": [
+            "Основная идея: probieren означает «пробовать» или «дегустировать».",
+            "Когда речь идёт о еде или напитке, probieren часто означает попробовать на вкус.",
+            "Когда речь идёт о действии, способе или предмете, probieren означает испытать или попробовать.",
+            "Это не то же самое, что prüfen, то есть тщательно проверять."
+          ],
+          "examples": [
+            {
+              "de": "Probier mal die Suppe!",
+              "lv": "Попробуй суп!"
+            },
+            {
+              "de": "Ich möchte den Kuchen probieren.",
+              "lv": "Я хочу попробовать торт."
+            },
+            {
+              "de": "Wir probieren eine neue Methode.",
+              "lv": "Мы пробуем новый метод."
+            },
+            {
+              "de": "Kann ich die Jacke anprobieren?",
+              "lv": "Можно мне примерить куртку?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "probieren",
+              "meaning": "Пробовать • Пробовать на вкус",
+              "example": "Probier mal die Suppe! – Попробуй суп!"
+            },
+            {
+              "word": "versuchen",
+              "meaning": "Пытаться • Пробовать",
+              "example": "Ich versuche es. – Я попробую."
+            },
+            {
+              "word": "prüfen",
+              "meaning": "Проверять",
+              "example": "Ich prüfe die Rechnung. – Я проверяю счёт."
+            },
+            {
+              "word": "anprobieren",
+              "meaning": "Примерять",
+              "example": "Ich probiere die Jacke an. – Я примеряю куртку."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: еда → probieren = «попробовать на вкус»."
+          },
+          "important": [
+            "probieren — не основное слово для официальной проверки.",
+            "Документ или счёт обычно проверяют с помощью глагола prüfen."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0013",
+      "cardId": "a1-probieren",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «probieren»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Пробовать • Пробовать на вкус",
+        "study": {
+          "id": "a1-probieren",
+          "layout": "standardStudy",
+          "translation": "Пробовать • Пробовать на вкус",
+          "explanation": [
+            "Основная идея: probieren означает «пробовать» или «дегустировать».",
+            "Когда речь идёт о еде или напитке, probieren часто означает попробовать на вкус.",
+            "Когда речь идёт о действии, способе или предмете, probieren означает испытать или попробовать.",
+            "Это не то же самое, что prüfen, то есть тщательно проверять."
+          ],
+          "examples": [
+            {
+              "de": "Probier mal die Suppe!",
+              "lv": "Попробуй суп!"
+            },
+            {
+              "de": "Ich möchte den Kuchen probieren.",
+              "lv": "Я хочу попробовать торт."
+            },
+            {
+              "de": "Wir probieren eine neue Methode.",
+              "lv": "Мы пробуем новый метод."
+            },
+            {
+              "de": "Kann ich die Jacke anprobieren?",
+              "lv": "Можно мне примерить куртку?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "probieren",
+              "meaning": "Пробовать • Пробовать на вкус",
+              "example": "Probier mal die Suppe! – Попробуй суп!"
+            },
+            {
+              "word": "versuchen",
+              "meaning": "Пытаться • Пробовать",
+              "example": "Ich versuche es. – Я попробую."
+            },
+            {
+              "word": "prüfen",
+              "meaning": "Проверять",
+              "example": "Ich prüfe die Rechnung. – Я проверяю счёт."
+            },
+            {
+              "word": "anprobieren",
+              "meaning": "Примерять",
+              "example": "Ich probiere die Jacke an. – Я примеряю куртку."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: еда → probieren = «попробовать на вкус»."
+          },
+          "important": [
+            "probieren — не основное слово для официальной проверки.",
+            "Документ или счёт обычно проверяют с помощью глагола prüfen."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0014",
+      "cardId": "a1-sehen",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «sehen»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Видеть",
+        "study": {
+          "id": "a1-sehen",
+          "layout": "standardStudy",
+          "translation": "Видеть",
+          "explanation": [
+            "Основная идея: sehen означает «видеть» глазами.",
+            "Когда речь идёт о зрительном восприятии, употребляют sehen.",
+            "Намеренно смотреть часто передаётся глаголами schauen или ansehen.",
+            "Очень частая фраза: Ich sehe dich. = Я тебя вижу."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe dich.",
+              "lv": "Я тебя вижу."
+            },
+            {
+              "de": "Siehst du das Auto?",
+              "lv": "Ты видишь эту машину?"
+            },
+            {
+              "de": "Ich sehe nichts.",
+              "lv": "Я ничего не вижу."
+            },
+            {
+              "de": "Wir schauen einen Film.",
+              "lv": "Мы смотрим фильм."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sehen",
+              "meaning": "Видеть",
+              "example": "Ich sehe dich. – Я тебя вижу."
+            },
+            {
+              "word": "schauen",
+              "meaning": "Смотреть",
+              "example": "Ich schaue auf das Bild. – Я смотрю на картину."
+            },
+            {
+              "word": "ansehen",
+              "meaning": "Рассматривать • Смотреть",
+              "example": "Ich sehe mir den Film an. – Я смотрю фильм."
+            },
+            {
+              "word": "hören",
+              "meaning": "Слышать",
+              "example": "Ich höre Musik. – Я слушаю музыку."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: воспринимать глазами → sehen; намеренно смотреть → schauen/ansehen."
+          },
+          "important": [
+            "sehen — не то же самое, что anschauen.",
+            "Ich sehe dich = Я тебя вижу; Ich schaue den Film = Я смотрю фильм."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0015",
+      "cardId": "a1-seite",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «Seite»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Страница • Сторона",
+        "study": {
+          "id": "a1-seite",
+          "layout": "standardStudy",
+          "translation": "Страница • Сторона",
+          "explanation": [
+            "Основная идея: die Seite может означать страницу книги/документа или сторону/край чего-либо.",
+            "В книге, журнале или на сайте die Seite = «страница» (Seite 5 = страница 5).",
+            "В пространственном значении die Seite = «сторона» (auf der linken Seite = с левой стороны).",
+            "Переносно die Seite может означать и сторону в споре или отношениях (auf meiner Seite = на моей стороне).",
+            "Правильное значение определяется контекстом: чтением либо расположением/отношениями.",
+            "Множественное число для обоих значений: die Seiten."
+          ],
+          "examples": [
+            {
+              "de": "Schlagt die Seite zwanzig auf.",
+              "lv": "Откройте двадцатую страницу."
+            },
+            {
+              "de": "Auf der linken Seite ist ein Park.",
+              "lv": "С левой стороны находится парк."
+            },
+            {
+              "de": "Die Webseite lädt langsam.",
+              "lv": "Веб-страница загружается медленно."
+            },
+            {
+              "de": "Er steht auf meiner Seite.",
+              "lv": "Он на моей стороне."
+            },
+            {
+              "de": "Das Buch hat 200 Seiten.",
+              "lv": "В книге 200 страниц."
+            },
+            {
+              "de": "Auf der anderen Seite der Straße.",
+              "lv": "На другой стороне улицы."
+            }
+          ],
+          "tip": [
+            "Если речь о книге или чтении → «страница»; о расположении, направлении или отношениях → «сторона».",
+            "Seite X в книге всегда означает страницу, а не сторону."
+          ],
+          "important": [
+            "die Seite = «страница» ИЛИ «сторона» — значение определяет контекст.",
+            "Множественное число для обоих значений: die Seiten."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0016",
+      "cardId": "a1-seite",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «Seite»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Страница • Сторона",
+        "study": {
+          "id": "a1-seite",
+          "layout": "standardStudy",
+          "translation": "Страница • Сторона",
+          "explanation": [
+            "Основная идея: die Seite может означать страницу книги/документа или сторону/край чего-либо.",
+            "В книге, журнале или на сайте die Seite = «страница» (Seite 5 = страница 5).",
+            "В пространственном значении die Seite = «сторона» (auf der linken Seite = с левой стороны).",
+            "Переносно die Seite может означать и сторону в споре или отношениях (auf meiner Seite = на моей стороне).",
+            "Правильное значение определяется контекстом: чтением либо расположением/отношениями.",
+            "Множественное число для обоих значений: die Seiten."
+          ],
+          "examples": [
+            {
+              "de": "Schlagt die Seite zwanzig auf.",
+              "lv": "Откройте двадцатую страницу."
+            },
+            {
+              "de": "Auf der linken Seite ist ein Park.",
+              "lv": "С левой стороны находится парк."
+            },
+            {
+              "de": "Die Webseite lädt langsam.",
+              "lv": "Веб-страница загружается медленно."
+            },
+            {
+              "de": "Er steht auf meiner Seite.",
+              "lv": "Он на моей стороне."
+            },
+            {
+              "de": "Das Buch hat 200 Seiten.",
+              "lv": "В книге 200 страниц."
+            },
+            {
+              "de": "Auf der anderen Seite der Straße.",
+              "lv": "На другой стороне улицы."
+            }
+          ],
+          "tip": [
+            "Если речь о книге или чтении → «страница»; о расположении, направлении или отношениях → «сторона».",
+            "Seite X в книге всегда означает страницу, а не сторону."
+          ],
+          "important": [
+            "die Seite = «страница» ИЛИ «сторона» — значение определяет контекст.",
+            "Множественное число для обоих значений: die Seiten."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0017",
+      "cardId": "a1-sich",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «sich»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Себя • Себе",
+        "study": {
+          "id": "a1-sich",
+          "layout": "standardStudy",
+          "translation": "Себя • Себе",
+          "explanation": [
+            "Основная идея: sich показывает, что действие направлено на самого действующего.",
+            "По-русски оно часто переводится формами «себя» или «себе».",
+            "В некоторых немецких глаголах sich является обязательной частью, например sich waschen.",
+            "На уровне A1 важно различать: ich wasche mich, er wäscht sich."
+          ],
+          "examples": [
+            {
+              "de": "Er wäscht sich.",
+              "lv": "Он умывается."
+            },
+            {
+              "de": "Ich setze mich.",
+              "lv": "Я сажусь."
+            },
+            {
+              "de": "Sie freut sich.",
+              "lv": "Она радуется."
+            },
+            {
+              "de": "Ich wasche das Auto.",
+              "lv": "Я мою машину."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sich",
+              "meaning": "Себя • Себе",
+              "example": "Er wäscht sich. – Он умывается."
+            },
+            {
+              "word": "mich",
+              "meaning": "Меня • Себя при ich",
+              "example": "Ich wasche mich. – Я умываюсь."
+            },
+            {
+              "word": "dich",
+              "meaning": "Тебя • Себя при du",
+              "example": "Du wäschst dich. – Ты умываешься."
+            },
+            {
+              "word": "ihn",
+              "meaning": "Его",
+              "example": "Ich sehe ihn. – Я вижу его."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: действие направлено на себя → sich/mich/dich."
+          },
+          "important": [
+            "sich не является самостоятельным существительным.",
+            "Форма меняется по лицам: ich → mich, du → dich, er/sie/es → sich."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0018",
+      "cardId": "a1-sich",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «sich»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Себя • Себе",
+        "study": {
+          "id": "a1-sich",
+          "layout": "standardStudy",
+          "translation": "Себя • Себе",
+          "explanation": [
+            "Основная идея: sich показывает, что действие направлено на самого действующего.",
+            "По-русски оно часто переводится формами «себя» или «себе».",
+            "В некоторых немецких глаголах sich является обязательной частью, например sich waschen.",
+            "На уровне A1 важно различать: ich wasche mich, er wäscht sich."
+          ],
+          "examples": [
+            {
+              "de": "Er wäscht sich.",
+              "lv": "Он умывается."
+            },
+            {
+              "de": "Ich setze mich.",
+              "lv": "Я сажусь."
+            },
+            {
+              "de": "Sie freut sich.",
+              "lv": "Она радуется."
+            },
+            {
+              "de": "Ich wasche das Auto.",
+              "lv": "Я мою машину."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sich",
+              "meaning": "Себя • Себе",
+              "example": "Er wäscht sich. – Он умывается."
+            },
+            {
+              "word": "mich",
+              "meaning": "Меня • Себя при ich",
+              "example": "Ich wasche mich. – Я умываюсь."
+            },
+            {
+              "word": "dich",
+              "meaning": "Тебя • Себя при du",
+              "example": "Du wäschst dich. – Ты умываешься."
+            },
+            {
+              "word": "ihn",
+              "meaning": "Его",
+              "example": "Ich sehe ihn. – Я вижу его."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: действие направлено на себя → sich/mich/dich."
+          },
+          "important": [
+            "sich не является самостоятельным существительным.",
+            "Форма меняется по лицам: ich → mich, du → dich, er/sie/es → sich."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0019",
+      "cardId": "a1-sicher",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «sicher»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Безопасный • Наверняка",
+        "study": {
+          "id": "a1-sicher",
+          "layout": "standardStudy",
+          "translation": "Безопасный • Наверняка",
+          "explanation": [
+            "Основная идея: sicher как прилагательное означает «безопасный» или «уверенный», а как наречие — «наверняка» или «вероятно».",
+            "О месте или ситуации sicher = «безопасный» (ein sicherer Ort = безопасное место).",
+            "Как выражение уверенности sicher = «наверняка» или «точно» (Das ist sicher wahr. = Это наверняка правда.).",
+            "Sicher! как отдельный ответ означает «Конечно!»."
+          ],
+          "examples": [
+            {
+              "de": "Ist das Wasser sicher?",
+              "lv": "Эта вода безопасна?"
+            },
+            {
+              "de": "Kommst du morgen? – Sicher!",
+              "lv": "Ты придёшь завтра? – Конечно!"
+            },
+            {
+              "de": "Er ist sicher zu Hause.",
+              "lv": "Он наверняка дома."
+            },
+            {
+              "de": "Das ist eine sichere Lösung.",
+              "lv": "Это безопасное решение."
+            },
+            {
+              "de": "Ich bin mir sicher.",
+              "lv": "Я уверен."
+            },
+            {
+              "de": "Fahr sicher!",
+              "lv": "Езжай осторожно!"
+            }
+          ],
+          "tip": [
+            "О месте или ситуации с точки зрения безопасности → «безопасный».",
+            "При выражении уверенности → «наверняка», «точно»."
+          ],
+          "important": [
+            "sicher = «безопасный» (прилагательное) ИЛИ «наверняка» (наречие).",
+            "sich sicher sein = «быть уверенным»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0020",
+      "cardId": "a1-sicher",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «sicher»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Безопасный • Наверняка",
+        "study": {
+          "id": "a1-sicher",
+          "layout": "standardStudy",
+          "translation": "Безопасный • Наверняка",
+          "explanation": [
+            "Основная идея: sicher как прилагательное означает «безопасный» или «уверенный», а как наречие — «наверняка» или «вероятно».",
+            "О месте или ситуации sicher = «безопасный» (ein sicherer Ort = безопасное место).",
+            "Как выражение уверенности sicher = «наверняка» или «точно» (Das ist sicher wahr. = Это наверняка правда.).",
+            "Sicher! как отдельный ответ означает «Конечно!»."
+          ],
+          "examples": [
+            {
+              "de": "Ist das Wasser sicher?",
+              "lv": "Эта вода безопасна?"
+            },
+            {
+              "de": "Kommst du morgen? – Sicher!",
+              "lv": "Ты придёшь завтра? – Конечно!"
+            },
+            {
+              "de": "Er ist sicher zu Hause.",
+              "lv": "Он наверняка дома."
+            },
+            {
+              "de": "Das ist eine sichere Lösung.",
+              "lv": "Это безопасное решение."
+            },
+            {
+              "de": "Ich bin mir sicher.",
+              "lv": "Я уверен."
+            },
+            {
+              "de": "Fahr sicher!",
+              "lv": "Езжай осторожно!"
+            }
+          ],
+          "tip": [
+            "О месте или ситуации с точки зрения безопасности → «безопасный».",
+            "При выражении уверенности → «наверняка», «точно»."
+          ],
+          "important": [
+            "sicher = «безопасный» (прилагательное) ИЛИ «наверняка» (наречие).",
+            "sich sicher sein = «быть уверенным»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0021",
+      "cardId": "a1-ueber",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «über»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Над • О",
+        "study": {
+          "id": "a1-über",
+          "layout": "standardStudy",
+          "translation": "Над • О",
+          "explanation": [
+            "Основная идея: über означает «над» или «о» в зависимости от контекста.",
+            "При обозначении местоположения über часто означает «над».",
+            "С разговором, текстом или темой über означает «о».",
+            "При движении über может означать «через»."
+          ],
+          "examples": [
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "Лампа висит над столом."
+            },
+            {
+              "de": "Wir sprechen über das Wetter.",
+              "lv": "Мы говорим о погоде."
+            },
+            {
+              "de": "Das Kind läuft über die Straße.",
+              "lv": "Ребёнок перебегает через улицу."
+            },
+            {
+              "de": "Ich freue mich über das Geschenk.",
+              "lv": "Я рад подарку."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "über",
+              "meaning": "Над • О • Через",
+              "example": "Wir sprechen über das Wetter. – Мы говорим о погоде."
+            },
+            {
+              "word": "auf",
+              "meaning": "На поверхности",
+              "example": "Das Buch liegt auf dem Tisch. – Книга лежит на столе."
+            },
+            {
+              "word": "unter",
+              "meaning": "Под",
+              "example": "Die Tasche ist unter dem Tisch. – Сумка находится под столом."
+            },
+            {
+              "word": "von",
+              "meaning": "От • Из источника",
+              "example": "Ich höre von dir. – Я получаю от тебя известия."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: тема разговора → über; над столом → über."
+          },
+          "important": [
+            "über обозначает не только место.",
+            "sprechen über означает «говорить о»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0022",
+      "cardId": "a1-ueber",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «über»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Над • О",
+        "study": {
+          "id": "a1-über",
+          "layout": "standardStudy",
+          "translation": "Над • О",
+          "explanation": [
+            "Основная идея: über означает «над» или «о» в зависимости от контекста.",
+            "При обозначении местоположения über часто означает «над».",
+            "С разговором, текстом или темой über означает «о».",
+            "При движении über может означать «через»."
+          ],
+          "examples": [
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "Лампа висит над столом."
+            },
+            {
+              "de": "Wir sprechen über das Wetter.",
+              "lv": "Мы говорим о погоде."
+            },
+            {
+              "de": "Das Kind läuft über die Straße.",
+              "lv": "Ребёнок перебегает через улицу."
+            },
+            {
+              "de": "Ich freue mich über das Geschenk.",
+              "lv": "Я рад подарку."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "über",
+              "meaning": "Над • О • Через",
+              "example": "Wir sprechen über das Wetter. – Мы говорим о погоде."
+            },
+            {
+              "word": "auf",
+              "meaning": "На поверхности",
+              "example": "Das Buch liegt auf dem Tisch. – Книга лежит на столе."
+            },
+            {
+              "word": "unter",
+              "meaning": "Под",
+              "example": "Die Tasche ist unter dem Tisch. – Сумка находится под столом."
+            },
+            {
+              "word": "von",
+              "meaning": "От • Из источника",
+              "example": "Ich höre von dir. – Я получаю от тебя известия."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: тема разговора → über; над столом → über."
+          },
+          "important": [
+            "über обозначает не только место.",
+            "sprechen über означает «говорить о»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0023",
+      "cardId": "a1-uhr",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «Uhr»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Часы",
+        "study": {
+          "id": "a1-uhr",
+          "layout": "standardStudy",
+          "translation": "Часы",
+          "explanation": [
+            "Основная идея: die Uhr означает часы как прибор, в том числе наручные, а также обозначает время: Es ist acht Uhr.",
+            "Главные значения die Uhr — прибор и указание времени.",
+            "Слово часто употребляется при назывании точного времени.",
+            "die Uhr = часы как прибор (meine Uhr) или указание времени (acht Uhr)."
+          ],
+          "examples": [
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Сейчас восемь часов."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Сейчас восемь часов."
+            },
+            {
+              "de": "Meine Uhr ist kaputt.",
+              "lv": "Мои часы сломаны."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Сейчас восемь часов."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Сейчас восемь часов."
+            },
+            {
+              "de": "die Uhr",
+              "lv": "Часы как прибор • Время на часах"
+            }
+          ],
+          "tip": [
+            "die Uhr означает часы как прибор, а также употребляется при указании времени: Es ist acht Uhr.",
+            "Употребляйте die Uhr в этих двух контекстах."
+          ],
+          "important": [
+            "die Uhr: прибор (meine Uhr) или время (acht Uhr).",
+            "Перед переводом die Uhr определите значение по контексту."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0024",
+      "cardId": "a1-um",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «um»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "В • Вокруг",
+        "study": {
+          "id": "a1-um",
+          "layout": "standardStudy",
+          "translation": "В • Вокруг",
+          "explanation": [
+            "Основная идея: um с точным временем означает «в», а при обозначении места — «вокруг» или «за».",
+            "С точным временем um переводится как «в».",
+            "При обозначении места um означает «вокруг» или движение за угол.",
+            "В конструкции um ... zu глагол помогает выразить цель: «чтобы»."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme um acht Uhr.",
+              "lv": "Я приду в восемь часов."
+            },
+            {
+              "de": "Wir sitzen um den Tisch.",
+              "lv": "Мы сидим вокруг стола."
+            },
+            {
+              "de": "Er geht um die Ecke.",
+              "lv": "Он заходит за угол."
+            },
+            {
+              "de": "Ich lerne, um Deutsch zu sprechen.",
+              "lv": "Я учусь, чтобы говорить по-немецки."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "um",
+              "meaning": "В (о времени) • Вокруг • Чтобы",
+              "example": "Ich komme um acht. – Я приду в восемь."
+            },
+            {
+              "word": "am",
+              "meaning": "В (о дне) • У",
+              "example": "Am Montag komme ich. – Я приду в понедельник."
+            },
+            {
+              "word": "gegen",
+              "meaning": "Около (о времени) • Против",
+              "example": "Ich komme gegen acht. – Я приду около восьми."
+            },
+            {
+              "word": "für",
+              "meaning": "Для • За",
+              "example": "Das ist für dich. – Это для тебя."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: um acht = в восемь часов."
+          },
+          "important": [
+            "С точным временем um обычно переводится как «в».",
+            "um ... zu часто означает «чтобы ...»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0025",
+      "cardId": "a1-um",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «um»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "В • Вокруг",
+        "study": {
+          "id": "a1-um",
+          "layout": "standardStudy",
+          "translation": "В • Вокруг",
+          "explanation": [
+            "Основная идея: um с точным временем означает «в», а при обозначении места — «вокруг» или «за».",
+            "С точным временем um переводится как «в».",
+            "При обозначении места um означает «вокруг» или движение за угол.",
+            "В конструкции um ... zu глагол помогает выразить цель: «чтобы»."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme um acht Uhr.",
+              "lv": "Я приду в восемь часов."
+            },
+            {
+              "de": "Wir sitzen um den Tisch.",
+              "lv": "Мы сидим вокруг стола."
+            },
+            {
+              "de": "Er geht um die Ecke.",
+              "lv": "Он заходит за угол."
+            },
+            {
+              "de": "Ich lerne, um Deutsch zu sprechen.",
+              "lv": "Я учусь, чтобы говорить по-немецки."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "um",
+              "meaning": "В (о времени) • Вокруг • Чтобы",
+              "example": "Ich komme um acht. – Я приду в восемь."
+            },
+            {
+              "word": "am",
+              "meaning": "В (о дне) • У",
+              "example": "Am Montag komme ich. – Я приду в понедельник."
+            },
+            {
+              "word": "gegen",
+              "meaning": "Около (о времени) • Против",
+              "example": "Ich komme gegen acht. – Я приду около восьми."
+            },
+            {
+              "word": "für",
+              "meaning": "Для • За",
+              "example": "Das ist für dich. – Это для тебя."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: um acht = в восемь часов."
+          },
+          "important": [
+            "С точным временем um обычно переводится как «в».",
+            "um ... zu часто означает «чтобы ...»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0026",
+      "cardId": "a1-verstehen",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «verstehen»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Понимать",
+        "study": {
+          "id": "a1-verstehen",
+          "layout": "standardStudy",
+          "translation": "Понимать",
+          "explanation": [
+            "Основная идея: verstehen означает «понимать».",
+            "Его употребляют, когда понимают язык, человека, текст или ситуацию.",
+            "Здесь не подходят значения «уметь» или «мочь»: их обычно выражает können.",
+            "Очень частая фраза: Ich verstehe. = Я понимаю."
+          ],
+          "examples": [
+            {
+              "de": "Ich verstehe dich.",
+              "lv": "Я тебя понимаю."
+            },
+            {
+              "de": "Verstehst du Deutsch?",
+              "lv": "Ты понимаешь по-немецки?"
+            },
+            {
+              "de": "Ich verstehe das nicht.",
+              "lv": "Я этого не понимаю."
+            },
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Я умею говорить по-немецки."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "verstehen",
+              "meaning": "Понимать",
+              "example": "Ich verstehe dich. – Я тебя понимаю."
+            },
+            {
+              "word": "können",
+              "meaning": "Мочь • Уметь",
+              "example": "Ich kann schwimmen. – Я умею плавать."
+            },
+            {
+              "word": "wissen",
+              "meaning": "Знать факт",
+              "example": "Ich weiß das. – Я это знаю."
+            },
+            {
+              "word": "kennen",
+              "meaning": "Знать • Быть знакомым",
+              "example": "Ich kenne ihn. – Я его знаю."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: понимать текст или человека → verstehen; уметь что-либо делать → können."
+          },
+          "important": [
+            "verstehen не означает «уметь».",
+            "Ich verstehe Deutsch означает «Я понимаю по-немецки»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0027",
+      "cardId": "a1-vor",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «vor»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Перед • До",
+        "study": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "Перед • До",
+          "explanation": [
+            "Основная идея: vor означает «до/перед» во времени или «перед» в пространстве.",
+            "Если речь идёт о времени, vor означает «до» или «перед».",
+            "Если речь идёт о месте, vor означает «перед».",
+            "При указании времени на часах vor означает «без», например fünf vor acht = без пяти восемь."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "Перед едой я мою руки."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "Машина стоит перед домом."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "Сейчас без пяти восемь."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "После еды мы идём гулять."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "До • Перед",
+              "example": "Vor dem Essen... – Перед едой..."
+            },
+            {
+              "word": "nach",
+              "meaning": "После • В (направление)",
+              "example": "Nach dem Essen... – После еды..."
+            },
+            {
+              "word": "neben",
+              "meaning": "Рядом с",
+              "example": "Neben dem Haus. – Рядом с домом."
+            },
+            {
+              "word": "hinter",
+              "meaning": "За • Позади",
+              "example": "Hinter dem Haus. – За домом."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: до/перед во времени и перед в пространстве → vor."
+          },
+          "important": [
+            "vor может иметь временное и пространственное значение.",
+            "vor dem Essen = перед едой; vor dem Haus = перед домом."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0028",
+      "cardId": "a1-vor",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «vor»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Перед • До",
+        "study": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "Перед • До",
+          "explanation": [
+            "Основная идея: vor означает «до/перед» во времени или «перед» в пространстве.",
+            "Если речь идёт о времени, vor означает «до» или «перед».",
+            "Если речь идёт о месте, vor означает «перед».",
+            "При указании времени на часах vor означает «без», например fünf vor acht = без пяти восемь."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "Перед едой я мою руки."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "Машина стоит перед домом."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "Сейчас без пяти восемь."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "После еды мы идём гулять."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "До • Перед",
+              "example": "Vor dem Essen... – Перед едой..."
+            },
+            {
+              "word": "nach",
+              "meaning": "После • В (направление)",
+              "example": "Nach dem Essen... – После еды..."
+            },
+            {
+              "word": "neben",
+              "meaning": "Рядом с",
+              "example": "Neben dem Haus. – Рядом с домом."
+            },
+            {
+              "word": "hinter",
+              "meaning": "За • Позади",
+              "example": "Hinter dem Haus. – За домом."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: до/перед во времени и перед в пространстве → vor."
+          },
+          "important": [
+            "vor может иметь временное и пространственное значение.",
+            "vor dem Essen = перед едой; vor dem Haus = перед домом."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0029",
+      "cardId": "a1-vor",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «vor»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Перед • До",
+        "study": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "Перед • До",
+          "explanation": [
+            "Основная идея: vor означает «до/перед» во времени или «перед» в пространстве.",
+            "Если речь идёт о времени, vor означает «до» или «перед».",
+            "Если речь идёт о месте, vor означает «перед».",
+            "При указании времени на часах vor означает «без», например fünf vor acht = без пяти восемь."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "Перед едой я мою руки."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "Машина стоит перед домом."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "Сейчас без пяти восемь."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "После еды мы идём гулять."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "До • Перед",
+              "example": "Vor dem Essen... – Перед едой..."
+            },
+            {
+              "word": "nach",
+              "meaning": "После • В (направление)",
+              "example": "Nach dem Essen... – После еды..."
+            },
+            {
+              "word": "neben",
+              "meaning": "Рядом с",
+              "example": "Neben dem Haus. – Рядом с домом."
+            },
+            {
+              "word": "hinter",
+              "meaning": "За • Позади",
+              "example": "Hinter dem Haus. – За домом."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: до/перед во времени и перед в пространстве → vor."
+          },
+          "important": [
+            "vor может иметь временное и пространственное значение.",
+            "vor dem Essen = перед едой; vor dem Haus = перед домом."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0030",
+      "cardId": "a1-was",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «was»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Что",
+        "study": {
+          "id": "a1-was",
+          "layout": "standardStudy",
+          "translation": "Что",
+          "explanation": [
+            "Основная идея: was — вопросительное слово о вещах, событиях и фактах; по-русски это «что».",
+            "was спрашивает о вещах, событиях и фактах, а не о людях.",
+            "В немецком was не изменяется по падежам и всегда имеет форму was.",
+            "Когда was является подлежащим: Was ist das? = Что это?",
+            "Когда was является дополнением: Was machst du? = Что ты делаешь?",
+            "О людях спрашивают с помощью wer, а не was."
+          ],
+          "examples": [
+            {
+              "de": "Was ist das?",
+              "lv": "Что это?"
+            },
+            {
+              "de": "Was ist passiert?",
+              "lv": "Что случилось?"
+            },
+            {
+              "de": "Was machst du gerade?",
+              "lv": "Что ты сейчас делаешь?"
+            },
+            {
+              "de": "Was möchtest du trinken?",
+              "lv": "Что ты хочешь выпить?"
+            },
+            {
+              "de": "Was bedeutet dieses Wort?",
+              "lv": "Что означает это слово?"
+            },
+            {
+              "de": "Was ist dein Lieblingsessen?",
+              "lv": "Какое твоё любимое блюдо?"
+            },
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Что ты сказал?"
+            }
+          ],
+          "tip": [
+            "was не изменяется: в немецком оно всегда остаётся was, а по-русски обычно переводится как «что».",
+            "Подсказка: если вопрос относится к вещи, событию или факту, используйте was; о человеке спрашивают с wer."
+          ],
+          "important": [
+            "was спрашивает о вещах, событиях и фактах, а не о людях.",
+            "О людях спрашивают с помощью wer, а не was.",
+            "was für (ein/eine) означает «что за» или «какой» и спрашивает о виде или свойстве.",
+            "Неверно: Wer ist passiert? → Верно: Was ist passiert?"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0031",
+      "cardId": "a1-was",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «was»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Что",
+        "study": {
+          "id": "a1-was",
+          "layout": "standardStudy",
+          "translation": "Что",
+          "explanation": [
+            "Основная идея: was — вопросительное слово о вещах, событиях и фактах; по-русски это «что».",
+            "was спрашивает о вещах, событиях и фактах, а не о людях.",
+            "В немецком was не изменяется по падежам и всегда имеет форму was.",
+            "Когда was является подлежащим: Was ist das? = Что это?",
+            "Когда was является дополнением: Was machst du? = Что ты делаешь?",
+            "О людях спрашивают с помощью wer, а не was."
+          ],
+          "examples": [
+            {
+              "de": "Was ist das?",
+              "lv": "Что это?"
+            },
+            {
+              "de": "Was ist passiert?",
+              "lv": "Что случилось?"
+            },
+            {
+              "de": "Was machst du gerade?",
+              "lv": "Что ты сейчас делаешь?"
+            },
+            {
+              "de": "Was möchtest du trinken?",
+              "lv": "Что ты хочешь выпить?"
+            },
+            {
+              "de": "Was bedeutet dieses Wort?",
+              "lv": "Что означает это слово?"
+            },
+            {
+              "de": "Was ist dein Lieblingsessen?",
+              "lv": "Какое твоё любимое блюдо?"
+            },
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Что ты сказал?"
+            }
+          ],
+          "tip": [
+            "was не изменяется: в немецком оно всегда остаётся was, а по-русски обычно переводится как «что».",
+            "Подсказка: если вопрос относится к вещи, событию или факту, используйте was; о человеке спрашивают с wer."
+          ],
+          "important": [
+            "was спрашивает о вещах, событиях и фактах, а не о людях.",
+            "О людях спрашивают с помощью wer, а не was.",
+            "was für (ein/eine) означает «что за» или «какой» и спрашивает о виде или свойстве.",
+            "Неверно: Wer ist passiert? → Верно: Was ist passiert?"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0032",
+      "cardId": "a1-was",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «was»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Что",
+        "study": {
+          "id": "a1-was",
+          "layout": "standardStudy",
+          "translation": "Что",
+          "explanation": [
+            "Основная идея: was — вопросительное слово о вещах, событиях и фактах; по-русски это «что».",
+            "was спрашивает о вещах, событиях и фактах, а не о людях.",
+            "В немецком was не изменяется по падежам и всегда имеет форму was.",
+            "Когда was является подлежащим: Was ist das? = Что это?",
+            "Когда was является дополнением: Was machst du? = Что ты делаешь?",
+            "О людях спрашивают с помощью wer, а не was."
+          ],
+          "examples": [
+            {
+              "de": "Was ist das?",
+              "lv": "Что это?"
+            },
+            {
+              "de": "Was ist passiert?",
+              "lv": "Что случилось?"
+            },
+            {
+              "de": "Was machst du gerade?",
+              "lv": "Что ты сейчас делаешь?"
+            },
+            {
+              "de": "Was möchtest du trinken?",
+              "lv": "Что ты хочешь выпить?"
+            },
+            {
+              "de": "Was bedeutet dieses Wort?",
+              "lv": "Что означает это слово?"
+            },
+            {
+              "de": "Was ist dein Lieblingsessen?",
+              "lv": "Какое твоё любимое блюдо?"
+            },
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Что ты сказал?"
+            }
+          ],
+          "tip": [
+            "was не изменяется: в немецком оно всегда остаётся was, а по-русски обычно переводится как «что».",
+            "Подсказка: если вопрос относится к вещи, событию или факту, используйте was; о человеке спрашивают с wer."
+          ],
+          "important": [
+            "was спрашивает о вещах, событиях и фактах, а не о людях.",
+            "О людях спрашивают с помощью wer, а не was.",
+            "was für (ein/eine) означает «что за» или «какой» и спрашивает о виде или свойстве.",
+            "Неверно: Wer ist passiert? → Верно: Was ist passiert?"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0033",
+      "cardId": "a1-wenn",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «wenn»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Если • Когда",
+        "study": {
+          "id": "a1-wenn",
+          "layout": "standardStudy",
+          "translation": "Если • Когда",
+          "explanation": [
+            "Основная идея: wenn означает «если» или «когда» в зависимости от ситуации.",
+            "При условии wenn переводится как «если».",
+            "При повторяющемся или общем времени wenn переводится как «когда».",
+            "В придаточном предложении с wenn спрягаемый глагол обычно стоит в конце."
+          ],
+          "examples": [
+            {
+              "de": "Wenn du Zeit hast, komm vorbei.",
+              "lv": "Если у тебя есть время, заходи."
+            },
+            {
+              "de": "Wenn es regnet, bleibe ich zu Hause.",
+              "lv": "Если идёт дождь, я остаюсь дома."
+            },
+            {
+              "de": "Wenn ich müde bin, trinke ich Kaffee.",
+              "lv": "Когда я устаю, я пью кофе."
+            },
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Я не знаю, придёт ли он."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wenn",
+              "meaning": "Если • Когда",
+              "example": "Wenn du Zeit hast... – Если у тебя есть время..."
+            },
+            {
+              "word": "ob",
+              "meaning": "Ли в косвенном вопросе",
+              "example": "Ich weiß nicht, ob... – Я не знаю, ... ли..."
+            },
+            {
+              "word": "wann",
+              "meaning": "Когда в вопросе",
+              "example": "Wann kommst du? – Когда ты придёшь?"
+            },
+            {
+              "word": "weil",
+              "meaning": "Потому что",
+              "example": "Ich bleibe, weil ich krank bin. – Я остаюсь, потому что болен."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: условие → wenn; вопрос «когда?» → wann."
+          },
+          "important": [
+            "wenn и wann — не одно и то же.",
+            "Wann kommst du? — вопрос. Wenn du kommst... — условие или указание времени."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0034",
+      "cardId": "a1-wenn",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «wenn»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Если • Когда",
+        "study": {
+          "id": "a1-wenn",
+          "layout": "standardStudy",
+          "translation": "Если • Когда",
+          "explanation": [
+            "Основная идея: wenn означает «если» или «когда» в зависимости от ситуации.",
+            "При условии wenn переводится как «если».",
+            "При повторяющемся или общем времени wenn переводится как «когда».",
+            "В придаточном предложении с wenn спрягаемый глагол обычно стоит в конце."
+          ],
+          "examples": [
+            {
+              "de": "Wenn du Zeit hast, komm vorbei.",
+              "lv": "Если у тебя есть время, заходи."
+            },
+            {
+              "de": "Wenn es regnet, bleibe ich zu Hause.",
+              "lv": "Если идёт дождь, я остаюсь дома."
+            },
+            {
+              "de": "Wenn ich müde bin, trinke ich Kaffee.",
+              "lv": "Когда я устаю, я пью кофе."
+            },
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Я не знаю, придёт ли он."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wenn",
+              "meaning": "Если • Когда",
+              "example": "Wenn du Zeit hast... – Если у тебя есть время..."
+            },
+            {
+              "word": "ob",
+              "meaning": "Ли в косвенном вопросе",
+              "example": "Ich weiß nicht, ob... – Я не знаю, ... ли..."
+            },
+            {
+              "word": "wann",
+              "meaning": "Когда в вопросе",
+              "example": "Wann kommst du? – Когда ты придёшь?"
+            },
+            {
+              "word": "weil",
+              "meaning": "Потому что",
+              "example": "Ich bleibe, weil ich krank bin. – Я остаюсь, потому что болен."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: условие → wenn; вопрос «когда?» → wann."
+          },
+          "important": [
+            "wenn и wann — не одно и то же.",
+            "Wann kommst du? — вопрос. Wenn du kommst... — условие или указание времени."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0035",
+      "cardId": "a1-wer",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «wer»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Кто",
+        "study": {
+          "id": "a1-wer",
+          "layout": "standardStudy",
+          "translation": "Кто",
+          "explanation": [
+            "Основная идея: wer — вопросительное слово о личности человека; по-русски это «кто».",
+            "wer спрашивает о людях, а не о вещах или событиях.",
+            "О вещах и событиях спрашивают с помощью was, а не wer.",
+            "wer обычно является подлежащим в именительном падеже: Wer ist das? = Кто это?",
+            "Чтобы спросить, кто именно из нескольких людей, часто употребляют wer von: wer von euch = кто из вас.",
+            "Форма меняется по падежам: wen (винительный), wem (дательный), wessen (родительный); на уровне A1 чаще всего встречается wer."
+          ],
+          "examples": [
+            {
+              "de": "Wer ist das?",
+              "lv": "Кто это?"
+            },
+            {
+              "de": "Wer bist du?",
+              "lv": "Кто ты?"
+            },
+            {
+              "de": "Wer kommt heute?",
+              "lv": "Кто сегодня придёт?"
+            },
+            {
+              "de": "Wer ist deine Lehrerin?",
+              "lv": "Кто твоя учительница?"
+            },
+            {
+              "de": "Wer von euch spricht Deutsch?",
+              "lv": "Кто из вас говорит по-немецки?"
+            },
+            {
+              "de": "Wer hat das gesagt?",
+              "lv": "Кто это сказал?"
+            },
+            {
+              "de": "Wer möchte Kaffee?",
+              "lv": "Кто хочет кофе?"
+            }
+          ],
+          "tip": [
+            "wer спрашивает о людях; о вещах и событиях спрашивают с was.",
+            "Для выбора из нескольких людей используйте wer von... = «кто из...»."
+          ],
+          "important": [
+            "wer спрашивает только о людях, а не о вещах.",
+            "О вещах и событиях спрашивают с was, а не wer.",
+            "Падежные формы: wen, wem, wessen; основная форма — wer.",
+            "Неверно: Wer ist passiert? → Верно: Was ist passiert?"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0036",
+      "cardId": "a1-wer",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «wer»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Кто",
+        "study": {
+          "id": "a1-wer",
+          "layout": "standardStudy",
+          "translation": "Кто",
+          "explanation": [
+            "Основная идея: wer — вопросительное слово о личности человека; по-русски это «кто».",
+            "wer спрашивает о людях, а не о вещах или событиях.",
+            "О вещах и событиях спрашивают с помощью was, а не wer.",
+            "wer обычно является подлежащим в именительном падеже: Wer ist das? = Кто это?",
+            "Чтобы спросить, кто именно из нескольких людей, часто употребляют wer von: wer von euch = кто из вас.",
+            "Форма меняется по падежам: wen (винительный), wem (дательный), wessen (родительный); на уровне A1 чаще всего встречается wer."
+          ],
+          "examples": [
+            {
+              "de": "Wer ist das?",
+              "lv": "Кто это?"
+            },
+            {
+              "de": "Wer bist du?",
+              "lv": "Кто ты?"
+            },
+            {
+              "de": "Wer kommt heute?",
+              "lv": "Кто сегодня придёт?"
+            },
+            {
+              "de": "Wer ist deine Lehrerin?",
+              "lv": "Кто твоя учительница?"
+            },
+            {
+              "de": "Wer von euch spricht Deutsch?",
+              "lv": "Кто из вас говорит по-немецки?"
+            },
+            {
+              "de": "Wer hat das gesagt?",
+              "lv": "Кто это сказал?"
+            },
+            {
+              "de": "Wer möchte Kaffee?",
+              "lv": "Кто хочет кофе?"
+            }
+          ],
+          "tip": [
+            "wer спрашивает о людях; о вещах и событиях спрашивают с was.",
+            "Для выбора из нескольких людей используйте wer von... = «кто из...»."
+          ],
+          "important": [
+            "wer спрашивает только о людях, а не о вещах.",
+            "О вещах и событиях спрашивают с was, а не wer.",
+            "Падежные формы: wen, wem, wessen; основная форма — wer.",
+            "Неверно: Wer ist passiert? → Верно: Was ist passiert?"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0037",
+      "cardId": "a1-werden",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «werden»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Становиться • Стать",
+        "study": {
+          "id": "a1-werden",
+          "layout": "standardStudy",
+          "translation": "Становиться • Стать",
+          "explanation": [
+            "Основная идея: на уровне A1 werden чаще всего означает «становиться» или «стать».",
+            "Его употребляют, когда что-либо меняется или переходит в другое состояние.",
+            "Позже werden также используется для образования будущего времени и пассивного залога.",
+            "Важная фраза уровня A1: Ich werde müde. = Я устаю."
+          ],
+          "examples": [
+            {
+              "de": "Ich werde müde.",
+              "lv": "Я устаю."
+            },
+            {
+              "de": "Es wird kalt.",
+              "lv": "Становится холодно."
+            },
+            {
+              "de": "Sie wird Ärztin.",
+              "lv": "Она становится врачом."
+            },
+            {
+              "de": "Ich bin müde.",
+              "lv": "Я устал."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "werden",
+              "meaning": "Становиться • Стать",
+              "example": "Ich werde müde. – Я устаю."
+            },
+            {
+              "word": "sein",
+              "meaning": "Быть",
+              "example": "Ich bin müde. – Я устал."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "Оставаться",
+              "example": "Ich bleibe hier. – Я остаюсь здесь."
+            },
+            {
+              "word": "machen",
+              "meaning": "Делать",
+              "example": "Ich mache das. – Я это делаю."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: изменение или переход в другое состояние → werden."
+          },
+          "important": [
+            "werden — не то же самое, что sein.",
+            "Ich werde müde = Я устаю; Ich bin müde = Я устал."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0038",
+      "cardId": "a1-wie",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «wie»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Как • Сколько",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "Как • Сколько",
+          "explanation": [
+            "Основная идея: wie спрашивает о способе или свойстве («как»), а в сочетаниях — о степени, количестве, возрасте или длительности.",
+            "Самостоятельное wie (Wie geht's?) спрашивает о способе или состоянии: «как».",
+            "wie + слово количества либо прилагательное (wie viel, wie alt, wie lange) спрашивает о количестве, возрасте или длительности.",
+            "wie viel(e) = «сколько»; wie alt = «сколько лет»; wie lange = «как долго».",
+            "В сравнении wie означает «как»: so groß wie = «такой же высокий, как»."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Как у тебя дела?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Как тебя зовут?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Сколько это стоит?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Сколько тебе лет?"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Как долго длится фильм?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Он такой же высокий, как его отец."
+            }
+          ],
+          "tip": [
+            "Самостоятельное wie = «как»; в сочетаниях wie viel/alt/lange оно вводит вопрос о количестве, возрасте или длительности.",
+            "В сравнении so ... wie = «такой же ... как»."
+          ],
+          "important": [
+            "wie viel(e) = «сколько»; wie alt = «сколько лет»; wie lange = «как долго».",
+            "Самостоятельное wie в вопросе обычно переводится как «как».",
+            "Неверно: «Сколько у тебя дела?» → Верно: «Как у тебя дела?» (Wie geht's?)"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0039",
+      "cardId": "a1-wie",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «wie»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Как • Сколько",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "Как • Сколько",
+          "explanation": [
+            "Основная идея: wie спрашивает о способе или свойстве («как»), а в сочетаниях — о степени, количестве, возрасте или длительности.",
+            "Самостоятельное wie (Wie geht's?) спрашивает о способе или состоянии: «как».",
+            "wie + слово количества либо прилагательное (wie viel, wie alt, wie lange) спрашивает о количестве, возрасте или длительности.",
+            "wie viel(e) = «сколько»; wie alt = «сколько лет»; wie lange = «как долго».",
+            "В сравнении wie означает «как»: so groß wie = «такой же высокий, как»."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Как у тебя дела?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Как тебя зовут?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Сколько это стоит?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Сколько тебе лет?"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Как долго длится фильм?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Он такой же высокий, как его отец."
+            }
+          ],
+          "tip": [
+            "Самостоятельное wie = «как»; в сочетаниях wie viel/alt/lange оно вводит вопрос о количестве, возрасте или длительности.",
+            "В сравнении so ... wie = «такой же ... как»."
+          ],
+          "important": [
+            "wie viel(e) = «сколько»; wie alt = «сколько лет»; wie lange = «как долго».",
+            "Самостоятельное wie в вопросе обычно переводится как «как».",
+            "Неверно: «Сколько у тебя дела?» → Верно: «Как у тебя дела?» (Wie geht's?)"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0040",
+      "cardId": "a1-wie",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «wie»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Как • Сколько",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "Как • Сколько",
+          "explanation": [
+            "Основная идея: wie спрашивает о способе или свойстве («как»), а в сочетаниях — о степени, количестве, возрасте или длительности.",
+            "Самостоятельное wie (Wie geht's?) спрашивает о способе или состоянии: «как».",
+            "wie + слово количества либо прилагательное (wie viel, wie alt, wie lange) спрашивает о количестве, возрасте или длительности.",
+            "wie viel(e) = «сколько»; wie alt = «сколько лет»; wie lange = «как долго».",
+            "В сравнении wie означает «как»: so groß wie = «такой же высокий, как»."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Как у тебя дела?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Как тебя зовут?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Сколько это стоит?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Сколько тебе лет?"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Как долго длится фильм?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Он такой же высокий, как его отец."
+            }
+          ],
+          "tip": [
+            "Самостоятельное wie = «как»; в сочетаниях wie viel/alt/lange оно вводит вопрос о количестве, возрасте или длительности.",
+            "В сравнении so ... wie = «такой же ... как»."
+          ],
+          "important": [
+            "wie viel(e) = «сколько»; wie alt = «сколько лет»; wie lange = «как долго».",
+            "Самостоятельное wie в вопросе обычно переводится как «как».",
+            "Неверно: «Сколько у тебя дела?» → Верно: «Как у тебя дела?» (Wie geht's?)"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0041",
+      "cardId": "a1-wie",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «wie»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Как • Сколько",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "Как • Сколько",
+          "explanation": [
+            "Основная идея: wie спрашивает о способе или свойстве («как»), а в сочетаниях — о степени, количестве, возрасте или длительности.",
+            "Самостоятельное wie (Wie geht's?) спрашивает о способе или состоянии: «как».",
+            "wie + слово количества либо прилагательное (wie viel, wie alt, wie lange) спрашивает о количестве, возрасте или длительности.",
+            "wie viel(e) = «сколько»; wie alt = «сколько лет»; wie lange = «как долго».",
+            "В сравнении wie означает «как»: so groß wie = «такой же высокий, как»."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Как у тебя дела?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Как тебя зовут?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Сколько это стоит?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Сколько тебе лет?"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Как долго длится фильм?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Он такой же высокий, как его отец."
+            }
+          ],
+          "tip": [
+            "Самостоятельное wie = «как»; в сочетаниях wie viel/alt/lange оно вводит вопрос о количестве, возрасте или длительности.",
+            "В сравнении so ... wie = «такой же ... как»."
+          ],
+          "important": [
+            "wie viel(e) = «сколько»; wie alt = «сколько лет»; wie lange = «как долго».",
+            "Самостоятельное wie в вопросе обычно переводится как «как».",
+            "Неверно: «Сколько у тебя дела?» → Верно: «Как у тебя дела?» (Wie geht's?)"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0042",
+      "cardId": "a1-wie",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «wie»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Как • Сколько",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "Как • Сколько",
+          "explanation": [
+            "Основная идея: wie спрашивает о способе или свойстве («как»), а в сочетаниях — о степени, количестве, возрасте или длительности.",
+            "Самостоятельное wie (Wie geht's?) спрашивает о способе или состоянии: «как».",
+            "wie + слово количества либо прилагательное (wie viel, wie alt, wie lange) спрашивает о количестве, возрасте или длительности.",
+            "wie viel(e) = «сколько»; wie alt = «сколько лет»; wie lange = «как долго».",
+            "В сравнении wie означает «как»: so groß wie = «такой же высокий, как»."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Как у тебя дела?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Как тебя зовут?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Сколько это стоит?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Сколько тебе лет?"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Как долго длится фильм?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Он такой же высокий, как его отец."
+            }
+          ],
+          "tip": [
+            "Самостоятельное wie = «как»; в сочетаниях wie viel/alt/lange оно вводит вопрос о количестве, возрасте или длительности.",
+            "В сравнении so ... wie = «такой же ... как»."
+          ],
+          "important": [
+            "wie viel(e) = «сколько»; wie alt = «сколько лет»; wie lange = «как долго».",
+            "Самостоятельное wie в вопросе обычно переводится как «как».",
+            "Неверно: «Сколько у тебя дела?» → Верно: «Как у тебя дела?» (Wie geht's?)"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0043",
+      "cardId": "a1-zu",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «zu»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "К • Слишком",
+        "study": {
+          "id": "a1-zu",
+          "layout": "standardStudy",
+          "translation": "К • Слишком",
+          "explanation": [
+            "Основная идея: zu часто означает направление «к», но также употребляется с прилагательными и инфинитивом.",
+            "С людьми и учреждениями zu часто указывает направление: «к» или, по контексту, «в».",
+            "С прилагательным zu означает «слишком».",
+            "В конструкции zu + инфинитив частица помогает образовать инфинитив: zu lernen, zu gehen."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Я иду к врачу."
+            },
+            {
+              "de": "Wir gehen zur Schule.",
+              "lv": "Мы идём в школу."
+            },
+            {
+              "de": "Das ist zu teuer.",
+              "lv": "Это слишком дорого."
+            },
+            {
+              "de": "Ich habe keine Zeit zu lernen.",
+              "lv": "У меня нет времени учиться."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zu",
+              "meaning": "К • Слишком • Частица инфинитива",
+              "example": "Ich gehe zum Arzt. – Я иду к врачу."
+            },
+            {
+              "word": "nach",
+              "meaning": "В/на с городами и странами",
+              "example": "Ich fahre nach Berlin. – Я еду в Берлин."
+            },
+            {
+              "word": "in",
+              "meaning": "Внутрь • В место",
+              "example": "Ich gehe in die Schule. – Я иду в школу."
+            },
+            {
+              "word": "bei",
+              "meaning": "У кого-либо • При",
+              "example": "Ich bin bei Anna. – Я у Анны."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: к врачу → zum Arzt; слишком дорого → zu teuer."
+          },
+          "important": [
+            "У zu много функций, поэтому всегда смотрите на конструкцию.",
+            "zu teuer означает «слишком дорого»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0044",
+      "cardId": "a1-zu",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «zu»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "К • Слишком",
+        "study": {
+          "id": "a1-zu",
+          "layout": "standardStudy",
+          "translation": "К • Слишком",
+          "explanation": [
+            "Основная идея: zu часто означает направление «к», но также употребляется с прилагательными и инфинитивом.",
+            "С людьми и учреждениями zu часто указывает направление: «к» или, по контексту, «в».",
+            "С прилагательным zu означает «слишком».",
+            "В конструкции zu + инфинитив частица помогает образовать инфинитив: zu lernen, zu gehen."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Я иду к врачу."
+            },
+            {
+              "de": "Wir gehen zur Schule.",
+              "lv": "Мы идём в школу."
+            },
+            {
+              "de": "Das ist zu teuer.",
+              "lv": "Это слишком дорого."
+            },
+            {
+              "de": "Ich habe keine Zeit zu lernen.",
+              "lv": "У меня нет времени учиться."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zu",
+              "meaning": "К • Слишком • Частица инфинитива",
+              "example": "Ich gehe zum Arzt. – Я иду к врачу."
+            },
+            {
+              "word": "nach",
+              "meaning": "В/на с городами и странами",
+              "example": "Ich fahre nach Berlin. – Я еду в Берлин."
+            },
+            {
+              "word": "in",
+              "meaning": "Внутрь • В место",
+              "example": "Ich gehe in die Schule. – Я иду в школу."
+            },
+            {
+              "word": "bei",
+              "meaning": "У кого-либо • При",
+              "example": "Ich bin bei Anna. – Я у Анны."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: к врачу → zum Arzt; слишком дорого → zu teuer."
+          },
+          "important": [
+            "У zu много функций, поэтому всегда смотрите на конструкцию.",
+            "zu teuer означает «слишком дорого»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0045",
+      "cardId": "a1-zum",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «zum»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "К • В",
+        "study": {
+          "id": "a1-zum",
+          "layout": "standardStudy",
+          "translation": "К • В",
+          "explanation": [
+            "zum — сокращение предлога zu и артикля dem.",
+            "Полная форма: zu dem.",
+            "Употребляется с существительными мужского и среднего рода для обозначения направления или цели.",
+            "Часто переводится как «к» или «в»: к врачу, на вокзал, к другу.",
+            "На практике почти всегда употребляют zum, а не полную форму zu dem."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Я иду к врачу."
+            },
+            {
+              "de": "Wir fahren zum Bahnhof.",
+              "lv": "Мы едем на вокзал."
+            },
+            {
+              "de": "Sie geht zum Supermarkt.",
+              "lv": "Она идёт в супермаркет."
+            },
+            {
+              "de": "Komm zum Essen!",
+              "lv": "Иди есть!"
+            },
+            {
+              "de": "Er fährt zum Flughafen.",
+              "lv": "Он едет в аэропорт."
+            },
+            {
+              "de": "Wir gehen zum Konzert.",
+              "lv": "Мы идём на концерт."
+            },
+            {
+              "de": "Das Geschenk ist zum Geburtstag.",
+              "lv": "Этот подарок ко дню рождения."
+            },
+            {
+              "de": "Ich gehe zum Friseur.",
+              "lv": "Я иду к парикмахеру."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zum",
+              "meaning": "К • В (zu + dem)",
+              "example": "zum Arzt – к врачу"
+            },
+            {
+              "word": "zur",
+              "meaning": "К • В с существительным женского рода",
+              "example": "zur Schule – в школу"
+            },
+            {
+              "word": "zu",
+              "meaning": "К • Слишком • Частица инфинитива",
+              "example": "zu Hause – дома"
+            },
+            {
+              "word": "nach",
+              "meaning": "В/на с городами и странами",
+              "example": "nach Berlin – в Берлин"
+            },
+            {
+              "word": "bei",
+              "meaning": "У • При (местонахождение)",
+              "example": "beim Arzt – у врача"
+            }
+          ],
+          "tip": [
+            "Запомните: zu + dem → zum.",
+            "С существительными женского рода: zu + der → zur."
+          ],
+          "important": [
+            "zum = zu dem и употребляется с существительными мужского или среднего рода в дательном падеже.",
+            "Обычно обозначает направление или цель: к врачу, на вокзал, к другу.",
+            "С существительными женского рода употребляется zur: zur Bank, zur Post.",
+            "Не путайте с bei (местонахождение) и nach (направление с городами и странами без артикля)."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0046",
+      "cardId": "a1-zum",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «zum»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "К • В",
+        "study": {
+          "id": "a1-zum",
+          "layout": "standardStudy",
+          "translation": "К • В",
+          "explanation": [
+            "zum — сокращение предлога zu и артикля dem.",
+            "Полная форма: zu dem.",
+            "Употребляется с существительными мужского и среднего рода для обозначения направления или цели.",
+            "Часто переводится как «к» или «в»: к врачу, на вокзал, к другу.",
+            "На практике почти всегда употребляют zum, а не полную форму zu dem."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Я иду к врачу."
+            },
+            {
+              "de": "Wir fahren zum Bahnhof.",
+              "lv": "Мы едем на вокзал."
+            },
+            {
+              "de": "Sie geht zum Supermarkt.",
+              "lv": "Она идёт в супермаркет."
+            },
+            {
+              "de": "Komm zum Essen!",
+              "lv": "Иди есть!"
+            },
+            {
+              "de": "Er fährt zum Flughafen.",
+              "lv": "Он едет в аэропорт."
+            },
+            {
+              "de": "Wir gehen zum Konzert.",
+              "lv": "Мы идём на концерт."
+            },
+            {
+              "de": "Das Geschenk ist zum Geburtstag.",
+              "lv": "Этот подарок ко дню рождения."
+            },
+            {
+              "de": "Ich gehe zum Friseur.",
+              "lv": "Я иду к парикмахеру."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zum",
+              "meaning": "К • В (zu + dem)",
+              "example": "zum Arzt – к врачу"
+            },
+            {
+              "word": "zur",
+              "meaning": "К • В с существительным женского рода",
+              "example": "zur Schule – в школу"
+            },
+            {
+              "word": "zu",
+              "meaning": "К • Слишком • Частица инфинитива",
+              "example": "zu Hause – дома"
+            },
+            {
+              "word": "nach",
+              "meaning": "В/на с городами и странами",
+              "example": "nach Berlin – в Берлин"
+            },
+            {
+              "word": "bei",
+              "meaning": "У • При (местонахождение)",
+              "example": "beim Arzt – у врача"
+            }
+          ],
+          "tip": [
+            "Запомните: zu + dem → zum.",
+            "С существительными женского рода: zu + der → zur."
+          ],
+          "important": [
+            "zum = zu dem и употребляется с существительными мужского или среднего рода в дательном падеже.",
+            "Обычно обозначает направление или цель: к врачу, на вокзал, к другу.",
+            "С существительными женского рода употребляется zur: zur Bank, zur Post.",
+            "Не путайте с bei (местонахождение) и nach (направление с городами и странами без артикля)."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0047",
+      "cardId": "also|idx:26",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «also»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Итак • Следовательно",
+        "study": {
+          "id": "a1-also",
+          "layout": "standardStudy",
+          "translation": "Итак • Следовательно",
+          "explanation": "Употребляется, чтобы сделать вывод или показать результат. Означает «итак», «следовательно», «стало быть».",
+          "examples": [
+            {
+              "de": "Es regnet, also bleibe ich zu Hause.",
+              "lv": "Идёт дождь, поэтому я остаюсь дома."
+            },
+            {
+              "de": "Du bist krank, also gehst du nicht zur Arbeit.",
+              "lv": "Ты болен, поэтому не идёшь на работу."
+            },
+            {
+              "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
+              "lv": "Я много учился, поэтому теперь это понимаю."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "also",
+              "meaning": "Итак • Следовательно",
+              "example": "Es regnet, also bleibe ich zu Hause. – Идёт дождь, поэтому я остаюсь дома."
+            },
+            {
+              "word": "auch",
+              "meaning": "Тоже • Также",
+              "example": "Ich komme auch. – Я тоже приду."
+            },
+            {
+              "word": "deshalb",
+              "meaning": "Поэтому",
+              "example": "Es regnet, deshalb bleibe ich zu Hause. – Идёт дождь, поэтому я остаюсь дома."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: вывод → also."
+          },
+          "important": [
+            "also показывает вывод: следующая мысль следует из сказанного ранее.",
+            "Немецкое also означает «итак» или «следовательно»; не путайте его с auch и deshalb."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0048",
+      "cardId": "Appetit|idx:689",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «Appetit»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Аппетит",
+        "study": {
+          "id": "a1-appetit",
+          "layout": "standardStudy",
+          "translation": "Аппетит",
+          "explanation": [
+            "Основная идея: der Appetit — желание есть.",
+            "der Appetit означает аппетит или желание поесть.",
+            "Обычно это существительное употребляется в единственном числе.",
+            "На уровне A1 часто встречается выражение Guten Appetit! = «Приятного аппетита!»."
+          ],
+          "examples": [
+            {
+              "de": "Guten Appetit!",
+              "lv": "Приятного аппетита!"
+            },
+            {
+              "de": "Guten Appetit!",
+              "lv": "Приятного аппетита!"
+            },
+            {
+              "de": "Ich habe keinen Appetit.",
+              "lv": "У меня нет аппетита."
+            }
+          ],
+          "tip": [
+            "der Appetit = «аппетит».",
+            "Употребляйте der Appetit, когда говорите об аппетите или желании поесть."
+          ],
+          "important": [
+            "der Appetit обычно употребляется в единственном числе.",
+            "Неверно: die Appetite → Верно: der Appetit.",
+            "Неверно: Ich bin Appetit. → Верно: Ich habe Appetit.",
+            "Запомните: der Appetit."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0049",
+      "cardId": "auch|idx:48",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «auch»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "Тоже • Также",
+        "study": {
+          "id": "a1-auch-study",
+          "layout": "standardStudy",
+          "translation": "Тоже • Также",
+          "explanation": [
+            "Основная идея: auch — самое частое и нейтральное немецкое слово со значением «тоже» или «также».",
+            "Главное значение auch — добавление: «тоже».",
+            "Оно показывает, что сообщаемое относится ещё к одному человеку, предмету или действию.",
+            "auch — обычное нейтральное слово для значения «тоже/также»."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme auch.",
+              "lv": "Я тоже приду."
+            },
+            {
+              "de": "Sie arbeitet auch hier.",
+              "lv": "Она тоже работает здесь."
+            },
+            {
+              "de": "Ich wünsche Ihnen auch einen schönen Tag.",
+              "lv": "Я тоже желаю Вам хорошего дня."
+            }
+          ],
+          "tip": [
+            "auch = «тоже» • «также».",
+            "Употребляйте auch, когда добавляете ещё одного участника, предмет или действие."
+          ],
+          "important": [
+            "auch — самое частое нейтральное слово со значением «тоже/также».",
+            "Верно: Ich wünsche Ihnen auch einen schönen Tag.",
+            "Неверно: Ich auch wünsche Ihnen einen schönen Tag."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB085-0050",
+      "cardId": "auf|idx:49",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «auf»: individuāli pārbaudīta un pilnībā atjaunota pēc oriģinālās LV→DE mācību kartītes; saglabāti visi DE piemēri un kontrasti.",
+      "new": {
+        "lv": "На",
+        "study": {
+          "id": "a1-auf",
+          "layout": "standardStudy",
+          "translation": "На",
+          "explanation": "Употребляется для обозначения направления на место или поверхность.",
+          "examples": [
+            {
+              "de": "Ich stelle das Buch auf den Tisch.",
+              "lv": "Я ставлю книгу на стол."
+            },
+            {
+              "de": "Wir fahren auf den Berg.",
+              "lv": "Мы едем на гору."
+            },
+            {
+              "de": "Die Katze springt auf das Sofa.",
+              "lv": "Кошка прыгает на диван."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "auf",
+              "meaning": "На поверхность или вверх",
+              "example": "Ich stelle das Glas auf den Tisch. – Я ставлю стакан на стол."
+            },
+            {
+              "word": "an",
+              "meaning": "К вертикальной поверхности",
+              "example": "Ich hänge das Bild an die Wand. – Я вешаю картину на стену."
+            },
+            {
+              "word": "in",
+              "meaning": "Внутрь",
+              "example": "Ich lege das Buch in die Tasche. – Я кладу книгу в сумку."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: на поверхность или наверх → auf."
+          },
+          "important": [
+            "auf — не просто любое русское «на»: часто оно обозначает движение или положение на поверхности.",
+            "У вертикальной поверхности часто требуется an, а внутри — in."
+          ]
+        }
+      }
+    }
+  ]
+}
