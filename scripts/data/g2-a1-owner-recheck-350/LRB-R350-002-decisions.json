@@ -1,0 +1,302 @@
+{
+  "g2/a1/it|Garage|idx:220|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IT Garage/lv: «Autorimessa» is standard Italian for garage/garāža; no correction needed."
+  },
+  "g2/a1/it|Gramm|idx:246|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IT Gramm/lv: «Grammo» correctly renders gram/grams in metric vocabulary."
+  },
+  "g2/a1/it|Grammatik|idx:247|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IT Grammatik/lv: «Grammatica» is the expected Italian noun for grammar/gramatika."
+  },
+  "g2/a1/it|Gruppe|idx:255|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IT Gruppe/lv: «Gruppo» accurately translates group/grupa."
+  },
+  "g2/a1/it|Gruß|idx:256|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IT Gruß/lv: «Saluto» is idiomatic Italian for greeting/sveiciens."
+  },
+  "g2/a1/it|Hauptstadt|idx:272|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Capitale",
+    "owner_note": "IT Hauptstadt/lv: production «La capitale...» has truncation ellipsis; replace with clean headword «Capitale» for galvaspilsēta."
+  },
+  "g2/a1/it|Meter|idx:404|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IT Meter/lv: «Metro» is correct Italian for meter/metrs."
+  },
+  "g2/a1/it|Minute|idx:407|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IT Minute/lv: «Minuto» correctly maps minute/minūte."
+  },
+  "g2/a1/it|Musik|idx:422|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IT Musik/lv: «Musica» is standard Italian for music/mūzika."
+  },
+  "g2/a1/it|Ostern|idx:467|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IT Ostern/lv: «Pasqua» is the correct Italian holiday name for Easter/Lieldienas."
+  },
+  "g2/a1/it|Polizei|idx:479|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IT Polizei/lv: «Polizia» correctly translates police/policija."
+  },
+  "g2/a1/it|Punkt|idx:486|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IT Punkt/lv: «Punto» is appropriate for point/punkts in A1 vocabulary."
+  },
+  "g2/a1/it|September|idx:546|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IT September/lv: «Settembre» is the standard Italian month for September/septembris."
+  },
+  "g2/a1/mk|a1-aus|a1.card.a1-aus.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Од",
+    "owner_note": "MK aus native: LV has single «no»; duplicate «Од • Од» is mechanical—keep one Macedonian preposition."
+  },
+  "g2/a1/mk|a1-aus|a1.card.a1-aus.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Од",
+    "owner_note": "MK aus study.translation: duplicate «Од • Од» repeats identical meaning; LABOT to single «Од» for LV «no»."
+  },
+  "g2/a1/mk|a1-ein|a1.card.a1-ein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK ein native: three segments cover indefinite article/one/some senses from LV nenoteiktais artikuls."
+  },
+  "g2/a1/mk|a1-ein|a1.card.a1-ein.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK ein study.translation: consistent with native field; Neопределен член • Еден • Некој preserves LV distinctions."
+  },
+  "g2/a1/mk|a1-eis|a1.card.a1-eis.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Eis native: Мраз • Сладолед distinguishes ice vs ice-cream from LV ledus • saldējums."
+  },
+  "g2/a1/mk|a1-eis|a1.card.a1-eis.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Eis study.translation: mirrors native ice/cream split; production already target-language Macedonian."
+  },
+  "g2/a1/mk|a1-etwas|a1.card.a1-etwas.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK etwas native: Нешто • Малку maps something/a-little senses from LV kaut kas."
+  },
+  "g2/a1/mk|a1-etwas|a1.card.a1-etwas.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK etwas study.translation: consistent with native; both Macedonian segments are valid."
+  },
+  "g2/a1/mk|a1-frau|a1.card.a1-frau.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Frau native: Жена • Сопруга preserves woman/wife contrast from LV sieviete."
+  },
+  "g2/a1/mk|a1-frau|a1.card.a1-frau.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Frau study.translation: matches native woman/wife glosses in Macedonian Cyrillic."
+  },
+  "g2/a1/mk|a1-fuer|a1.card.a1-fuer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "За",
+    "owner_note": "MK für native: duplicate «За • За» repeats identical meaning; LABOT to single «За» for LV «priekš»."
+  },
+  "g2/a1/mk|a1-fuer|a1.card.a1-fuer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "За",
+    "owner_note": "MK für study.translation: study field should not repeat bullet duplicate; single «За» for priekš is sufficient."
+  },
+  "g2/a1/mk|a1-oder|a1.card.a1-oder.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK oder native: Или • Или covers LV vai • jeb disjunction/or alternatives at A1."
+  },
+  "g2/a1/mk|a1-oder|a1.card.a1-oder.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK oder study.translation: consistent with native; Macedonian или suffices for both LV particles."
+  },
+  "g2/a1/mk|a1-wenn|a1.card.a1-wenn.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK wenn native: Ако • Кога distinguishes if/when from LV ja • kad."
+  },
+  "g2/a1/mk|a1-wenn|a1.card.a1-wenn.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK wenn study.translation: mirrors native if/when contrast in Macedonian."
+  },
+  "g2/a1/mk|Auto|idx:63|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Auto/lv: «Автомобил» is correct Macedonian Cyrillic for car/automašīna."
+  },
+  "g2/a1/mk|Bad|idx:64|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Bad/lv: «Бања» appropriately renders bathroom/vannas istaba for Bad in A1 context."
+  },
+  "g2/a1/mk|Badezimmer|idx:65|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Badezimmer/lv: «Бања» matches bathroom sense; same MK lemma as Bad is acceptable for learners."
+  },
+  "g2/a1/mk|Balkon|idx:70|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Balkon/lv: «Балкон» is standard Macedonian for balcony/balkons."
+  },
+  "g2/a1/mk|Ball|idx:71|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Ball/lv: «Топка» correctly translates ball/bumba."
+  },
+  "g2/a1/mk|Banane|idx:72|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Banane/lv: «Банана» is the expected Macedonian fruit term for banana/banāns."
+  },
+  "g2/a1/mk|Bein|idx:80|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Bein/lv: «Нога» correctly maps leg/kāja."
+  },
+  "g2/a1/mk|Beispiel|idx:81|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Beispiel/lv: «Пример» is standard Macedonian for example/piemērs."
+  },
+  "g2/a1/mk|Berg|idx:84|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Berg/lv: «Планина» appropriately renders mountain/kalns."
+  },
+  "g2/a1/mk|Besuch|idx:87|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Besuch/lv: «посета» is valid Macedonian noun for visit/apmeklējums (lowercase acceptable in data)."
+  },
+  "g2/a1/mk|besuchen|idx:89|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK besuchen/lv: «посети» is correct Macedonian verb for to visit/apmeklēt."
+  },
+  "g2/a1/mk|bis|idx:91|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK bis/lv: «До» correctly translates until/up to/līdz."
+  },
+  "g2/a1/mk|E-Mail|idx:159|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK E-Mail/lv: «Е-пошта» is idiomatic Macedonian for email/e-pasts."
+  },
+  "g2/a1/mk|Ecke|idx:152|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Ecke/lv: «Агол» correctly maps corner/stūris."
+  },
+  "g2/a1/mk|eins|idx:156|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK eins/lv: «Еден» is the Macedonian numeral for one/viens."
+  },
+  "g2/a1/mk|Eltern|idx:160|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Eltern/lv: «Родители» correctly translates parents/vecāki."
+  },
+  "g2/a1/mk|Ende|idx:161|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Ende/lv: «Крај» appropriately renders end/beigas."
+  },
+  "g2/a1/mk|er|idx:162|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK er/lv: «Тој» is correct Macedonian pronoun for he/viņš."
+  },
+  "g2/a1/mk|Erbse|idx:163|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Erbse/lv: «Грашок» is standard Macedonian for pea/zirnis."
+  },
+  "g2/a1/mk|Erdbeere|idx:76|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Erdbeere/lv: «Јагода» correctly translates strawberry/zemene."
+  },
+  "g2/a1/mk|Fehler|idx:179|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "MK Fehler/lv: «Грешка» is the expected Macedonian noun for error/kļūda."
+  }
+}
