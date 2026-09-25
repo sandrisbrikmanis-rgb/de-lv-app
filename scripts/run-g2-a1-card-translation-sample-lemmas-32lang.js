@@ -71,6 +71,10 @@ function summarizeAudit(appLang, spec, audit, currentTarget) {
     blockers: audit.blockers || [],
     dictionaryCandidates: candidates,
     rejectedCount: audit.rejectedCandidates?.length || 0,
+    sourcesTried: audit.sourcesTried || audit.blockers?.[0]?.sourcesTried || null,
+    searchLemma: audit.searchLemma || audit.blockers?.[0]?.searchLemma || null,
+    dictionarySearchStrategy: audit.dictionarySearchStrategy || audit.blockers?.[0]?.dictionarySearchStrategy || null,
+    uiNoiseRejected: candidates.some((c) => /words:\s*(others|verbs)/i.test(c.targetLemma || "")),
   };
 }
 

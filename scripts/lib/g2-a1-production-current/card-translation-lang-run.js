@@ -14,15 +14,32 @@ const {
   resolveCardTranslationAuditVerdict,
 } = require("./card-translation-audit-search");
 const { getTargetAdapterMeta } = require("./source-adapters/target");
+const { deAuthorityLookupTerms } = require("./card-translation-de-lemma");
+const { SOURCE_ACCESS_OUTCOME } = require("./official-source-access-constants");
 
 async function lookupDeForCard(cardGerman) {
   const allowDe = buildAllowlistForLanguage("lb");
-  return lookupDeOfficialEntry({
-    lookupTerm: cardGerman.lemma,
-    allowedDomains: allowDe.de.allowedDomains,
-    authorityName: allowDe.de.authorityName,
-    provenance: { role: "DE", cardLemma: cardGerman.lemma },
-  });
+  const terms = deAuthorityLookupTerms(cardGerman);
+  let last = null;
+  for (const lookupTerm of terms) {
+    // eslint-disable-next-line no-await-in-loop
+    last = await lookupDeOfficialEntry({
+      lookupTerm,
+      allowedDomains: allowDe.de.allowedDomains,
+      authorityName: allowDe.de.authorityName,
+      provenance: { role: "DE", cardLemma: cardGerman.lemma, lookupTerm },
+    });
+    if (last?.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED) {
+      return { ...last, cardLemma: cardGerman.lemma, deLookupTermUsed: lookupTerm };
+    }
+  }
+  return last
+    ? { ...last, cardLemma: cardGerman.lemma, deLookupTermUsed: terms[terms.length - 1] }
+    : {
+        outcome: SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_NOT_FOUND,
+        cardLemma: cardGerman.lemma,
+        deLookupTermUsed: terms[0],
+      };
 }
 
 async function lookupTargetForProvenLemma(appLang, provenLemma) {
@@ -52,7 +69,15 @@ async function runCardTranslationAuditForLanguage(appLang, cardGerman, currentTa
   if (!collected.ok) {
     return {
       verdict: TRANSLATION_AUDIT_VERDICT.NO_ELIGIBLE_DICTIONARY_CANDIDATE,
-      blockers: [{ code: "BILINGUAL_COLLECTOR_FAIL", rejected: collected.rejected }],
+      blockers: [
+        {
+          code: "BILINGUAL_COLLECTOR_FAIL",
+          rejected: collected.rejected,
+          sourcesTried: collected.sourcesTried,
+          searchLemma: collected.searchLemma,
+          dictionarySearchStrategy: collected.dictionarySearchStrategy,
+        },
+      ],
       deAuthority,
       targetAuthority: null,
       dictionaryCandidates: [],
@@ -106,6 +131,9 @@ async function runCardTranslationAuditForLanguage(appLang, cardGerman, currentTa
     targetAuthorityName: targetMeta?.authorityName || null,
     dictionaryCandidates: collected.eligible,
     rejectedCandidates: collected.rejected,
+    sourcesTried: collected.sourcesTried,
+    searchLemma: collected.searchLemma || collected.bilingualMeta?.searchLemma,
+    dictionarySearchStrategy: collected.dictionarySearchStrategy || collected.bilingualMeta?.dictionarySearchStrategy,
   };
 }
 

@@ -294,19 +294,20 @@ function extractLodDeReverseApi(page, lemma) {
   }
 }
 
-function extractTranslations(page, lemma, searchUrl, appCode) {
+function extractTranslations(page, lemma, searchUrl, appCode, cardGerman = null) {
   if (page.blocked) return [];
+  const dictOpts = { partOfSpeech: cardGerman?.partOfSpeech };
   let translations = [];
   if (/lod\.lu\/api\/de\/search/i.test(searchUrl) || Array.isArray(page.lodLbHeadwords)) {
     translations = extractLodDeReverseApi(page, lemma);
   } else if (/vokieciu-lietuviu\.com/i.test(searchUrl)) {
     translations = extractVokieciuLietuviu(page.text, lemma);
   } else if (/dict\.cc/i.test(searchUrl)) {
-    translations = extractFromDictCcPlainText(page.text, lemma);
+    translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
   } else if (/glosbe\.com/i.test(searchUrl)) {
     translations = extractGlosbeDictionarySection(page.text, lemma);
     if (!translations.length) translations = extractFromGlosbeText(page.text, lemma);
-    if (!translations.length) translations = extractFromDictCcPlainText(page.text, lemma);
+    if (!translations.length) translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
   } else if (/lod\.lu/i.test(searchUrl)) {
     translations = extractLodAdvanced(page.text, lemma, appCode);
   } else if (/verbformen\.(de|com)/i.test(searchUrl)) {
@@ -318,9 +319,9 @@ function extractTranslations(page, lemma, searchUrl, appCode) {
   } else if (/dict\.luxdico\.com/i.test(searchUrl)) {
     translations = extractLuxdico(page.text, lemma);
   } else if (/multitran\.com/i.test(searchUrl)) {
-    translations = extractFromDictCcPlainText(page.text, lemma);
+    translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
   } else {
-    translations = extractFromDictCcPlainText(page.text, lemma);
+    translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
     if (!translations.length && new RegExp(escapeRe(lemma), "i").test(page.text)) {
       const idx = page.text.search(new RegExp(escapeRe(lemma), "i"));
       const chunk = page.text.slice(idx, idx + 800);
