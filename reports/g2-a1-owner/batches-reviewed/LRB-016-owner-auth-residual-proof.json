@@ -1,0 +1,25 @@
+{
+  "batch_id": "LRB-016",
+  "classification": "LRB_016_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "reviewer": "gpt-5.6-luna",
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 47,
+  "nelabot": 3,
+  "pending": 0,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0
+  },
+  "nelabot_cards": [
+    "Tee",
+    "teuer",
+    "und"
+  ],
+  "failures": [],
+  "verdict": "LRB_016_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-12T13:49:54.132Z"
+}
