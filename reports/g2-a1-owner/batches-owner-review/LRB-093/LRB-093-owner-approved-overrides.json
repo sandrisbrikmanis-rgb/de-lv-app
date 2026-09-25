@@ -1,0 +1,3607 @@
+{
+  "batchId": "LRB-093",
+  "sourceCommit": "a765928f2ed9ea1405e2d8c1fe88fe8be72746d3",
+  "reviewer": "GPT-5.6 Luna",
+  "reviewType": "FULL_50_50_INDIVIDUAL_LINGUISTIC_REVIEW",
+  "cards": [
+    {
+      "auditId": "LRB093-0001",
+      "cardId": "sitzen|idx:558",
+      "status": "LABOT",
+      "reason": "sitzen: názov bol v rozkazovacom spôsobe a karta zamieňala státie, ležanie aj sadnutie si.",
+      "new": {
+        "lv": "sedieť",
+        "study": {
+          "id": "a1-sitzen",
+          "layout": "standardStudy",
+          "translation": "sedieť",
+          "explanation": [
+            "Hlavná myšlienka: sitzen znamená sedieť a opisuje polohu človeka alebo zvieraťa.",
+            "Treba ho odlíšiť od stehen, teda stáť, a liegen, teda ležať."
+          ],
+          "examples": [
+            {
+              "de": "Ich sitze am Tisch.",
+              "lv": "Sedím pri stole."
+            },
+            {
+              "de": "Die Kinder sitzen im Bus.",
+              "lv": "Deti sedia v autobuse."
+            },
+            {
+              "de": "Er steht an der Tür.",
+              "lv": "On stojí pri dverách."
+            },
+            {
+              "de": "Die Katze liegt auf dem Sofa.",
+              "lv": "Mačka leží na pohovke."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sitzen",
+              "meaning": "sedieť",
+              "example": "Ich sitze am Tisch. — Sedím pri stole."
+            },
+            {
+              "word": "stehen",
+              "meaning": "stáť",
+              "example": "Er steht an der Tür. — On stojí pri dverách."
+            },
+            {
+              "word": "liegen",
+              "meaning": "ležať",
+              "example": "Die Katze liegt dort. — Mačka tam leží."
+            },
+            {
+              "word": "setzen",
+              "meaning": "sadnúť si • posadiť",
+              "example": "Ich setze mich. — Sadnem si."
+            }
+          ],
+          "tip": {
+            "text": "Poloha v sede → sitzen; zaujatie tejto polohy → sich setzen."
+          },
+          "important": [
+            "sitzen vyjadruje stav, nie dej sadnutia si."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0002",
+      "cardId": "sollen|idx:564",
+      "status": "LABOT",
+      "reason": "sollen: karta menila osobu pri du a zamieňala pokyn s nutnosťou, schopnosťou a želaním.",
+      "new": {
+        "lv": "mať niečo urobiť",
+        "study": {
+          "id": "a1-sollen",
+          "layout": "standardStudy",
+          "translation": "mať niečo urobiť",
+          "explanation": [
+            "Hlavná myšlienka: sollen vyjadruje, že má niekto niečo urobiť podľa pokynu alebo očakávania.",
+            "Je spravidla menej kategorické než müssen."
+          ],
+          "examples": [
+            {
+              "de": "Was soll ich machen?",
+              "lv": "Čo mám robiť?"
+            },
+            {
+              "de": "Du sollst kommen.",
+              "lv": "Máš prísť."
+            },
+            {
+              "de": "Ich soll zu Hause bleiben.",
+              "lv": "Mám zostať doma."
+            },
+            {
+              "de": "Ich muss jetzt gehen.",
+              "lv": "Teraz musím ísť."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sollen",
+              "meaning": "mať niečo urobiť podľa pokynu",
+              "example": "Was soll ich machen? — Čo mám robiť?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "musieť",
+              "example": "Ich muss gehen. — Musím ísť."
+            },
+            {
+              "word": "können",
+              "meaning": "môcť",
+              "example": "Ich kann kommen. — Môžem prísť."
+            },
+            {
+              "word": "wollen",
+              "meaning": "chcieť",
+              "example": "Ich will bleiben. — Chcem zostať."
+            }
+          ],
+          "tip": {
+            "text": "Pokyn alebo očakávanie → sollen; nevyhnutnosť → müssen."
+          },
+          "important": [
+            "Was soll ich machen? je veľmi častá otázka.",
+            "sollen a müssen nie sú úplné synonymá."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0003",
+      "cardId": "sprechen|idx:5",
+      "status": "LABOT",
+      "reason": "sprechen: tretí príklad bol kópiou prvého a zmenil osobu aj význam.",
+      "new": {
+        "lv": "hovoriť • rozprávať sa",
+        "study": {
+          "id": "a1-sprechen-study",
+          "layout": "standardStudy",
+          "translation": "hovoriť • rozprávať sa",
+          "explanation": [
+            "Hlavná myšlienka: sprechen znamená hovoriť, rozprávať sa alebo používať jazyk.",
+            "sagen sa používa skôr pri konkrétnom výroku."
+          ],
+          "examples": [
+            {
+              "de": "Ich spreche Deutsch.",
+              "lv": "Hovorím po nemecky."
+            },
+            {
+              "de": "Wir sprechen über die Arbeit.",
+              "lv": "Hovoríme o práci."
+            },
+            {
+              "de": "Sie spricht mit ihrer Lehrerin.",
+              "lv": "Hovorí so svojou učiteľkou."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sprechen",
+              "meaning": "hovoriť ako činnosť alebo používať jazyk",
+              "example": "Wir sprechen über die Arbeit. — Hovoríme o práci."
+            },
+            {
+              "word": "sagen",
+              "meaning": "povedať konkrétny výrok",
+              "example": "Sag mir die Wahrheit. — Povedz mi pravdu."
+            }
+          ],
+          "tip": {
+            "text": "Jazyk alebo rozhovor → sprechen."
+          },
+          "important": [
+            "sprechen a sagen nie sú zameniteľné vo všetkých vetách."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0004",
+      "cardId": "stehen|idx:576",
+      "status": "LABOT",
+      "reason": "stehen: názov a porovnania boli nesprávne rozkazy alebo podstatné mená a kontrasty stratili význam.",
+      "new": {
+        "lv": "stáť",
+        "study": {
+          "id": "a1-stehen",
+          "layout": "standardStudy",
+          "translation": "stáť",
+          "explanation": [
+            "Hlavná myšlienka: stehen znamená stáť alebo byť vo zvislej polohe.",
+            "sitzen znamená sedieť, liegen ležať a stellen postaviť niečo zvislo."
+          ],
+          "examples": [
+            {
+              "de": "Ich stehe an der Tür.",
+              "lv": "Stojím pri dverách."
+            },
+            {
+              "de": "Der Stuhl steht in der Küche.",
+              "lv": "Stolička stojí v kuchyni."
+            },
+            {
+              "de": "Er sitzt am Tisch.",
+              "lv": "On sedí pri stole."
+            },
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Kniha leží na stole."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "stehen",
+              "meaning": "stáť • byť vo zvislej polohe",
+              "example": "Ich stehe hier. — Stojím tu."
+            },
+            {
+              "word": "sitzen",
+              "meaning": "sedieť",
+              "example": "Er sitzt am Tisch. — On sedí pri stole."
+            },
+            {
+              "word": "liegen",
+              "meaning": "ležať",
+              "example": "Das Buch liegt dort. — Kniha tam leží."
+            },
+            {
+              "word": "stellen",
+              "meaning": "postaviť zvislo",
+              "example": "Ich stelle die Flasche hin. — Postavím fľašu sem."
+            }
+          ],
+          "tip": {
+            "text": "Zvislá poloha → stehen; uvedenie do tejto polohy → stellen."
+          },
+          "important": [
+            "stehen vyjadruje stav, nie dej postavenia predmetu."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0005",
+      "cardId": "über|idx:608",
+      "status": "LABOT",
+      "reason": "über: karta prekladala Wetter ako čas, Freude ako spokojnosť a v porovnaniach odstránila nemecké príklady.",
+      "new": {
+        "lv": "nad • cez • o",
+        "study": {
+          "id": "a1-über",
+          "layout": "standardStudy",
+          "translation": "nad • cez • o",
+          "explanation": [
+            "Hlavná myšlienka: über znamená nad pri polohe, cez pri pohybe a o pri téme.",
+            "Konkrétny význam určuje väzba a kontext."
+          ],
+          "examples": [
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "Lampa visí nad stolom."
+            },
+            {
+              "de": "Wir sprechen über das Wetter.",
+              "lv": "Hovoríme o počasí."
+            },
+            {
+              "de": "Das Kind läuft über die Straße.",
+              "lv": "Dieťa beží cez ulicu."
+            },
+            {
+              "de": "Ich freue mich über das Geschenk.",
+              "lv": "Teším sa z darčeka."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "über",
+              "meaning": "nad • cez • o",
+              "example": "Wir sprechen über das Wetter. — Hovoríme o počasí."
+            },
+            {
+              "word": "auf",
+              "meaning": "na povrchu",
+              "example": "Das Buch liegt auf dem Tisch. — Kniha leží na stole."
+            },
+            {
+              "word": "unter",
+              "meaning": "pod",
+              "example": "Die Tasche ist unter dem Tisch. — Taška je pod stolom."
+            },
+            {
+              "word": "von",
+              "meaning": "od • o zdroji",
+              "example": "Ich höre von dir. — Počujem od teba."
+            }
+          ],
+          "tip": {
+            "text": "Téma rozhovoru → über; poloha vyššie → über."
+          },
+          "important": [
+            "sprechen über znamená hovoriť o."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0006",
+      "cardId": "um|idx:611",
+      "status": "LABOT",
+      "reason": "um: názov tvrdil približný čas a posledný príklad nevyjadril účel konštrukcie um ... zu.",
+      "new": {
+        "lv": "o • okolo • aby",
+        "study": {
+          "id": "a1-um",
+          "layout": "standardStudy",
+          "translation": "o • okolo • aby",
+          "explanation": [
+            "Hlavná myšlienka: um znamená o pri presnom čase a okolo pri priestore.",
+            "Konštrukcia um ... zu vyjadruje účel."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme um acht Uhr.",
+              "lv": "Prídem o ôsmej."
+            },
+            {
+              "de": "Wir sitzen um den Tisch.",
+              "lv": "Sedíme okolo stola."
+            },
+            {
+              "de": "Er geht um die Ecke.",
+              "lv": "Ide za roh."
+            },
+            {
+              "de": "Ich lerne, um Deutsch zu sprechen.",
+              "lv": "Učím sa, aby som hovoril po nemecky."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "um",
+              "meaning": "o • okolo • aby",
+              "example": "Ich komme um acht. — Prídem o ôsmej."
+            },
+            {
+              "word": "am",
+              "meaning": "v určitý deň • pri",
+              "example": "Am Montag komme ich. — Prídem v pondelok."
+            },
+            {
+              "word": "gegen",
+              "meaning": "okolo približného času • proti",
+              "example": "Ich komme gegen acht. — Prídem okolo ôsmej."
+            },
+            {
+              "word": "für",
+              "meaning": "pre",
+              "example": "Das ist für dich. — To je pre teba."
+            }
+          ],
+          "tip": {
+            "text": "Presný čas → um; účel → um ... zu."
+          },
+          "important": [
+            "um acht znamená o ôsmej."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0007",
+      "cardId": "unter|idx:615",
+      "status": "LABOT",
+      "reason": "unter: karta menila ležanie mačky na spánok a porovnanie über prekladala nezmyselne.",
+      "new": {
+        "lv": "pod • medzi",
+        "study": {
+          "id": "a1-unter",
+          "layout": "standardStudy",
+          "translation": "pod • medzi",
+          "explanation": [
+            "Hlavná myšlienka: unter znamená pod pri polohe a medzi pri skupine ľudí alebo vecí.",
+            "V priestorovom význame je často opakom über."
+          ],
+          "examples": [
+            {
+              "de": "Die Tasche ist unter dem Tisch.",
+              "lv": "Taška je pod stolom."
+            },
+            {
+              "de": "Die Katze liegt unter dem Stuhl.",
+              "lv": "Mačka leží pod stoličkou."
+            },
+            {
+              "de": "Unter Freunden sagt man das so.",
+              "lv": "Medzi priateľmi sa to hovorí takto."
+            },
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "Lampa visí nad stolom."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "unter",
+              "meaning": "pod • medzi",
+              "example": "Die Tasche ist unter dem Tisch. — Taška je pod stolom."
+            },
+            {
+              "word": "über",
+              "meaning": "nad • o",
+              "example": "Die Lampe hängt über dem Tisch. — Lampa visí nad stolom."
+            },
+            {
+              "word": "zwischen",
+              "meaning": "medzi dvoma vecami",
+              "example": "Zwischen den Häusern. — Medzi domami."
+            },
+            {
+              "word": "auf",
+              "meaning": "na povrchu",
+              "example": "Auf dem Tisch. — Na stole."
+            }
+          ],
+          "tip": {
+            "text": "Pod stolom → unter dem Tisch."
+          },
+          "important": [
+            "unter Freunden znamená medzi priateľmi."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0008",
+      "cardId": "Urlaub|idx:695",
+      "status": "LABOT",
+      "reason": "Urlaub: názov ho zamieňal s prázdninami a porovnania mali nesprávne číslo aj význam.",
+      "new": {
+        "lv": "dovolenka",
+        "study": {
+          "id": "a1-urlaub",
+          "layout": "standardStudy",
+          "translation": "dovolenka",
+          "explanation": [
+            "Hlavná myšlienka: der Urlaub je pracovná dovolenka a v tomto význame sa používa v jednotnom čísle.",
+            "die Ferien označuje školské alebo študijné prázdniny a používa sa v množnom čísle."
+          ],
+          "examples": [
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Môj otec je na dovolenke."
+            },
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Môj otec je na dovolenke."
+            },
+            {
+              "de": "Nächste Woche habe ich Urlaub.",
+              "lv": "Budúci týždeň mám dovolenku."
+            },
+            {
+              "de": "Wir machen Urlaub in Spanien.",
+              "lv": "Dovolenkujeme v Španielsku."
+            },
+            {
+              "de": "im Urlaub",
+              "lv": "na dovolenke"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Urlaub",
+              "meaning": "pracovná dovolenka v jednotnom čísle",
+              "example": "Mein Vater ist im Urlaub. — Môj otec je na dovolenke."
+            },
+            {
+              "word": "die Ferien",
+              "meaning": "školské prázdniny v množnom čísle",
+              "example": "Die Kinder haben Ferien. — Deti majú prázdniny."
+            }
+          ],
+          "tip": {
+            "text": "Pracovné voľno → der Urlaub; školské voľno → die Ferien."
+          },
+          "important": [
+            "der Urlaub sa na úrovni A1 používa v jednotnom čísle.",
+            "im Urlaub sein a Urlaub machen sú bežné spojenia."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0009",
+      "cardId": "verstehen|idx:621",
+      "status": "LABOT",
+      "reason": "verstehen: názov bol rozkaz, prvý príklad mal chybný slovosled a karta zamieňala vedieť fakt s poznať osobu.",
+      "new": {
+        "lv": "rozumieť",
+        "study": {
+          "id": "a1-verstehen",
+          "layout": "standardStudy",
+          "translation": "rozumieť",
+          "explanation": [
+            "Hlavná myšlienka: verstehen znamená rozumieť jazyku, osobe, textu alebo situácii.",
+            "können vyjadruje schopnosť niečo urobiť."
+          ],
+          "examples": [
+            {
+              "de": "Ich verstehe dich.",
+              "lv": "Rozumiem ti."
+            },
+            {
+              "de": "Verstehst du Deutsch?",
+              "lv": "Rozumieš po nemecky?"
+            },
+            {
+              "de": "Ich verstehe das nicht.",
+              "lv": "Tomuto nerozumiem."
+            },
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Viem hovoriť po nemecky."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "verstehen",
+              "meaning": "rozumieť",
+              "example": "Ich verstehe dich. — Rozumiem ti."
+            },
+            {
+              "word": "können",
+              "meaning": "môcť • vedieť",
+              "example": "Ich kann schwimmen. — Viem plávať."
+            },
+            {
+              "word": "wissen",
+              "meaning": "vedieť fakt",
+              "example": "Ich weiß das. — Viem to."
+            },
+            {
+              "word": "kennen",
+              "meaning": "poznať",
+              "example": "Ich kenne ihn. — Poznám ho."
+            }
+          ],
+          "tip": {
+            "text": "Textu alebo človeku rozumieme pomocou verstehen; schopnosť vyjadruje können."
+          },
+          "important": [
+            "Ich verstehe znamená Rozumiem."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0010",
+      "cardId": "vom|idx:634",
+      "status": "LABOT",
+      "reason": "vom: príklady zamieňali príchod s pôvodom a odchodom, názov bol neúplný a skloňovacie vysvetlenia chybné.",
+      "new": {
+        "lv": "od • zo",
+        "study": {
+          "id": "a1-vom",
+          "layout": "standardStudy",
+          "translation": "od • zo",
+          "explanation": [
+            "Hlavná myšlienka: vom je skrátené von dem a vyjadruje pôvod alebo smer od konkrétneho mužského či stredného podstatného mena.",
+            "Spája sa s datívom."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme vom Bahnhof.",
+              "lv": "Prichádzam zo stanice."
+            },
+            {
+              "de": "Das Geschenk ist vom Vater.",
+              "lv": "Darček je od otca."
+            },
+            {
+              "de": "Er kommt vom Arzt.",
+              "lv": "Prichádza od lekára."
+            },
+            {
+              "de": "Sie fährt vom Flughafen.",
+              "lv": "Odchádza z letiska."
+            },
+            {
+              "de": "Das ist vom Markt.",
+              "lv": "Je to z trhu."
+            },
+            {
+              "de": "Wir kommen vom Fest.",
+              "lv": "Prichádzame z oslavy."
+            },
+            {
+              "de": "Er holt Milch vom Bauern.",
+              "lv": "Berie mlieko od farmára."
+            },
+            {
+              "de": "Die Nachricht ist vom Chef.",
+              "lv": "Správa je od šéfa."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vom",
+              "meaning": "od • zo s von dem",
+              "example": "vom Bahnhof — zo stanice"
+            },
+            {
+              "word": "von",
+              "meaning": "od",
+              "example": "von mir — odo mňa"
+            },
+            {
+              "word": "aus",
+              "meaning": "z vnútra • pôvod",
+              "example": "aus Deutschland — z Nemecka"
+            },
+            {
+              "word": "ab",
+              "meaning": "od určitého času",
+              "example": "ab Montag — od pondelka"
+            },
+            {
+              "word": "zu",
+              "meaning": "k • ku",
+              "example": "zum Arzt — k lekárovi"
+            }
+          ],
+          "tip": {
+            "text": "von + dem → vom."
+          },
+          "important": [
+            "Pre ženský rod sa používa von der, nie vom."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0011",
+      "cardId": "vor|idx:636",
+      "status": "LABOT",
+      "reason": "vor: názov zdvojoval časový význam a preklad hodiny Je päť až osem bol nesprávny.",
+      "new": {
+        "lv": "pred",
+        "study": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "pred",
+          "explanation": [
+            "Hlavná myšlienka: vor znamená pred v časovom aj priestorovom význame.",
+            "Pri udávaní času označuje počet minút do nasledujúcej hodiny."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "Pred jedlom si umývam ruky."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "Auto stojí pred domom."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "Je päť minút pred ôsmou."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "Po jedle sa ideme prejsť."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "pred",
+              "example": "Vor dem Essen... — Pred jedlom ..."
+            },
+            {
+              "word": "nach",
+              "meaning": "po • do",
+              "example": "Nach dem Essen... — Po jedle ..."
+            },
+            {
+              "word": "neben",
+              "meaning": "vedľa",
+              "example": "Neben dem Haus. — Vedľa domu."
+            },
+            {
+              "word": "hinter",
+              "meaning": "za",
+              "example": "Hinter dem Haus. — Za domom."
+            }
+          ],
+          "tip": {
+            "text": "Čas alebo poloha pred niečím → vor."
+          },
+          "important": [
+            "fünf vor acht znamená päť minút pred ôsmou."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0012",
+      "cardId": "was|idx:644",
+      "status": "LABOT",
+      "reason": "was: názov zahŕňal kto a niektoré otázky mali chýbajúcu interpunkciu alebo nenaturalizovaný slovosled.",
+      "new": {
+        "lv": "čo",
+        "study": {
+          "id": "a1-was",
+          "layout": "standardStudy",
+          "translation": "čo",
+          "explanation": [
+            "Hlavná myšlienka: was je opytovacie zámeno pre veci, udalosti a fakty.",
+            "Na osoby sa pýtame pomocou wer."
+          ],
+          "examples": [
+            {
+              "de": "Was ist das?",
+              "lv": "Čo je to?"
+            },
+            {
+              "de": "Was ist passiert?",
+              "lv": "Čo sa stalo?"
+            },
+            {
+              "de": "Was machst du gerade?",
+              "lv": "Čo práve robíš?"
+            },
+            {
+              "de": "Was möchtest du trinken?",
+              "lv": "Čo chceš piť?"
+            },
+            {
+              "de": "Was bedeutet dieses Wort?",
+              "lv": "Čo znamená toto slovo?"
+            },
+            {
+              "de": "Was ist dein Lieblingsessen?",
+              "lv": "Aké je tvoje obľúbené jedlo?"
+            },
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Čo si povedal?"
+            }
+          ],
+          "tip": {
+            "text": "Vec, udalosť alebo fakt → was."
+          },
+          "important": [
+            "was sa v nemčine neskloňuje; was für ein sa pýta na druh."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0013",
+      "cardId": "wenn|idx:655",
+      "status": "LABOT",
+      "reason": "wenn: názov chybne používal kedy, prvý príklad zmenil tykanie na vykanie a porovnanie ob na alebo.",
+      "new": {
+        "lv": "ak • keď",
+        "study": {
+          "id": "a1-wenn",
+          "layout": "standardStudy",
+          "translation": "ak • keď",
+          "explanation": [
+            "Hlavná myšlienka: wenn znamená ak pri podmienke a keď pri opakovanom alebo všeobecnom čase.",
+            "wann je opytovacie kedy; ob uvádza nepriamu otázku s či."
+          ],
+          "examples": [
+            {
+              "de": "Wenn du Zeit hast, komm vorbei.",
+              "lv": "Ak máš čas, zastav sa."
+            },
+            {
+              "de": "Wenn es regnet, bleibe ich zu Hause.",
+              "lv": "Ak prší, zostanem doma."
+            },
+            {
+              "de": "Wenn ich müde bin, trinke ich Kaffee.",
+              "lv": "Keď som unavený, pijem kávu."
+            },
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Neviem, či príde."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wenn",
+              "meaning": "ak • keď",
+              "example": "Wenn du Zeit hast... — Ak máš čas ..."
+            },
+            {
+              "word": "ob",
+              "meaning": "či v nepriamej otázke",
+              "example": "Ich weiß nicht, ob... — Neviem, či ..."
+            },
+            {
+              "word": "wann",
+              "meaning": "kedy v otázke",
+              "example": "Wann kommst du? — Kedy prídeš?"
+            },
+            {
+              "word": "weil",
+              "meaning": "pretože",
+              "example": "Ich bleibe, weil ich krank bin. — Zostávam, pretože som chorý."
+            }
+          ],
+          "tip": {
+            "text": "Podmienka → wenn; otázka kedy → wann."
+          },
+          "important": [
+            "V závislej vete s wenn je určité sloveso na konci."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0014",
+      "cardId": "wer|idx:656",
+      "status": "LABOT",
+      "reason": "wer: dva príklady prekladali osobu ako čo a ďalší zmenil učiteľku na učiteľa.",
+      "new": {
+        "lv": "kto",
+        "study": {
+          "id": "a1-wer",
+          "layout": "standardStudy",
+          "translation": "kto",
+          "explanation": [
+            "Hlavná myšlienka: wer je opytovacie zámeno pre osobu a znamená kto.",
+            "Na veci a udalosti sa pýtame pomocou was."
+          ],
+          "examples": [
+            {
+              "de": "Wer ist das?",
+              "lv": "Kto je to?"
+            },
+            {
+              "de": "Wer bist du?",
+              "lv": "Kto si?"
+            },
+            {
+              "de": "Wer kommt heute?",
+              "lv": "Kto dnes príde?"
+            },
+            {
+              "de": "Wer ist deine Lehrerin?",
+              "lv": "Kto je tvoja učiteľka?"
+            },
+            {
+              "de": "Wer von euch spricht Deutsch?",
+              "lv": "Kto z vás hovorí po nemecky?"
+            },
+            {
+              "de": "Wer hat das gesagt?",
+              "lv": "Kto to povedal?"
+            },
+            {
+              "de": "Wer möchte Kaffee?",
+              "lv": "Kto chce kávu?"
+            }
+          ],
+          "tip": {
+            "text": "Osoba → wer; vec alebo udalosť → was."
+          },
+          "important": [
+            "Pádové tvary sú wen, wem a wessen."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0015",
+      "cardId": "werden|idx:657",
+      "status": "LABOT",
+      "reason": "werden: názov bol rozkaz, prvé porovnanie bolo nezmyselné a pri Ärztin sa stratila ženská rodová forma.",
+      "new": {
+        "lv": "stať sa",
+        "study": {
+          "id": "a1-werden",
+          "layout": "standardStudy",
+          "translation": "stať sa",
+          "explanation": [
+            "Hlavná myšlienka: werden na úrovni A1 znamená najmä stať sa a vyjadruje zmenu stavu.",
+            "sein opisuje stav, werden jeho zmenu."
+          ],
+          "examples": [
+            {
+              "de": "Ich werde müde.",
+              "lv": "Začínam byť unavený."
+            },
+            {
+              "de": "Es wird kalt.",
+              "lv": "Začína byť chladno."
+            },
+            {
+              "de": "Sie wird Ärztin.",
+              "lv": "Stáva sa lekárkou."
+            },
+            {
+              "de": "Ich bin müde.",
+              "lv": "Som unavený."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "werden",
+              "meaning": "stať sa",
+              "example": "Ich werde müde. — Začínam byť unavený."
+            },
+            {
+              "word": "sein",
+              "meaning": "byť",
+              "example": "Ich bin müde. — Som unavený."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "zostať",
+              "example": "Ich bleibe hier. — Zostávam tu."
+            },
+            {
+              "word": "machen",
+              "meaning": "robiť",
+              "example": "Ich mache das. — Robím to."
+            }
+          ],
+          "tip": {
+            "text": "Zmena stavu → werden."
+          },
+          "important": [
+            "Ich werde müde nie je to isté ako Ich bin müde."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0016",
+      "cardId": "wie|idx:660",
+      "status": "LABOT",
+      "reason": "wie: karta obsahovala preklepy bez diakritiky, cenu prekladala ako neurčité Koľko to je a trvanie filmu ako jeho dĺžku.",
+      "new": {
+        "lv": "ako • koľko",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "ako • koľko",
+          "explanation": [
+            "Hlavná myšlienka: wie sa pýta na spôsob alebo vlastnosť; v spojeniach wie viel, wie alt a wie lange sa pýta na množstvo, vek alebo trvanie.",
+            "V prirovnaní so ... wie znamená taký ... ako."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Ako sa máš?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Ako sa voláš?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Koľko to stojí?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Koľko máš rokov?"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Ako dlho trvá film?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Je taký vysoký ako jeho otec."
+            }
+          ],
+          "tip": {
+            "text": "Samostatné wie → ako; wie s množstvom, vekom alebo trvaním → koľko alebo ako dlho."
+          },
+          "important": [
+            "V prirovnaní wie znamená ako."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0017",
+      "cardId": "Zug|idx:671",
+      "status": "LABOT",
+      "reason": "Zug: porovnanie die Bahn opakovalo vlakom bez významu železnice a veta bola štylisticky nejednotná.",
+      "new": {
+        "lv": "vlak",
+        "study": {
+          "id": "a1-zug",
+          "layout": "standardStudy",
+          "translation": "vlak",
+          "explanation": [
+            "Hlavná myšlienka: der Zug na úrovni A1 znamená najmä vlak.",
+            "Používa sa pri cestovaní, príchode a odchode."
+          ],
+          "examples": [
+            {
+              "de": "Der Zug kommt um acht Uhr.",
+              "lv": "Vlak prichádza o ôsmej."
+            },
+            {
+              "de": "Ich fahre mit dem Zug.",
+              "lv": "Cestujem vlakom."
+            },
+            {
+              "de": "Der Zug ist voll.",
+              "lv": "Vlak je plný."
+            },
+            {
+              "de": "Der Bus kommt später.",
+              "lv": "Autobus príde neskôr."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Zug",
+              "meaning": "vlak",
+              "example": "Der Zug kommt. — Vlak prichádza."
+            },
+            {
+              "word": "die Bahn",
+              "meaning": "železnica • cestovanie vlakom",
+              "example": "Ich fahre mit der Bahn. — Cestujem vlakom."
+            },
+            {
+              "word": "der Bus",
+              "meaning": "autobus",
+              "example": "Der Bus kommt. — Autobus prichádza."
+            },
+            {
+              "word": "die Straßenbahn",
+              "meaning": "električka",
+              "example": "Die Straßenbahn ist hier. — Električka je tu."
+            }
+          ],
+          "tip": {
+            "text": "Konkrétny vlak → der Zug."
+          },
+          "important": [
+            "Menej časté významy slova Zug nie sú potrebné v hlavnom nadpise A1."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0018",
+      "cardId": "zum|idx:672",
+      "status": "LABOT",
+      "reason": "zum: názov obsahoval hodiny, porovnania mali nezmyselné rodové a smerové popisy a Friseur zmenil pohlavie.",
+      "new": {
+        "lv": "k • na",
+        "study": {
+          "id": "a1-zum",
+          "layout": "standardStudy",
+          "translation": "k • na",
+          "explanation": [
+            "Hlavná myšlienka: zum je skrátené zu dem a vyjadruje smer alebo účel s mužským či stredným podstatným menom.",
+            "Pre ženský rod sa používa zur."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Idem k lekárovi."
+            },
+            {
+              "de": "Wir fahren zum Bahnhof.",
+              "lv": "Ideme na stanicu."
+            },
+            {
+              "de": "Sie geht zum Supermarkt.",
+              "lv": "Ide do supermarketu."
+            },
+            {
+              "de": "Komm zum Essen!",
+              "lv": "Poď jesť!"
+            },
+            {
+              "de": "Er fährt zum Flughafen.",
+              "lv": "Ide na letisko."
+            },
+            {
+              "de": "Wir gehen zum Konzert.",
+              "lv": "Ideme na koncert."
+            },
+            {
+              "de": "Das Geschenk ist zum Geburtstag.",
+              "lv": "Darček je k narodeninám."
+            },
+            {
+              "de": "Ich gehe zum Friseur.",
+              "lv": "Idem ku kaderníkovi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zum",
+              "meaning": "k s zu dem",
+              "example": "zum Arzt — k lekárovi"
+            },
+            {
+              "word": "zur",
+              "meaning": "k • do s zu der",
+              "example": "zur Schule — do školy"
+            },
+            {
+              "word": "zu",
+              "meaning": "k • pri • doma",
+              "example": "zu Hause — doma"
+            },
+            {
+              "word": "nach",
+              "meaning": "do mesta alebo krajiny",
+              "example": "nach Berlin — do Berlína"
+            },
+            {
+              "word": "bei",
+              "meaning": "pri bez pohybu",
+              "example": "beim Arzt — u lekára"
+            }
+          ],
+          "tip": {
+            "text": "zu + dem → zum; zu + der → zur."
+          },
+          "important": [
+            "bei zvyčajne opisuje polohu, zum smer."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0019",
+      "cardId": "ab|idx:17",
+      "status": "LABOT",
+      "reason": "ab: naslov, razlaga, nasvet, poudarki in primerjalni nemški deli so ostali v latvijščini.",
+      "new": {
+        "lv": "od",
+        "study": {
+          "id": "a1-ab",
+          "layout": "standardStudy",
+          "translation": "od",
+          "explanation": [
+            "Glavna ideja: ab označuje začetek pri določenem času, kraju ali izhodišču.",
+            "Pogosto pomeni začenši od."
+          ],
+          "examples": [
+            {
+              "de": "ab heute",
+              "lv": "od danes",
+              "level": "A1"
+            },
+            {
+              "de": "ab Montag",
+              "lv": "od ponedeljka"
+            },
+            {
+              "de": "ab 8 Uhr",
+              "lv": "od 8. ure"
+            },
+            {
+              "de": "ab Bahnhof",
+              "lv": "od postaje"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ab",
+              "meaning": "začenši od točke ali časa",
+              "example": "ab Montag — od ponedeljka"
+            },
+            {
+              "word": "von",
+              "meaning": "od osebe ali stvari • izvor",
+              "example": "von mir — od mene"
+            },
+            {
+              "word": "aus",
+              "meaning": "iz notranjosti",
+              "example": "aus dem Haus — iz hiše • ven iz hiše"
+            }
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "tip": {
+            "text": "Začetna točka v času ali prostoru → ab."
+          },
+          "important": [
+            "Za izvor ali gibanje iz notranjosti navadno uporabimo von oziroma aus."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0020",
+      "cardId": "aber|idx:21",
+      "status": "LABOT",
+      "reason": "aber: razlaga in nasvet sta ostala latvijska, drugi primer je imel pretipkano predorga, primerjava sondern pa latvijski ostanek.",
+      "new": {
+        "lv": "ampak",
+        "study": {
+          "id": "a1-aber",
+          "layout": "standardStudy",
+          "translation": "ampak",
+          "explanation": [
+            "Glavna ideja: aber uvaja nasprotje ali ugovor in pomeni ampak oziroma vendar.",
+            "Za vzorec ne ... temveč ... se uporablja sondern."
+          ],
+          "examples": [
+            {
+              "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
+              "lv": "Rad bi šel zraven, ampak nimam časa."
+            },
+            {
+              "de": "Das Essen war lecker, aber zu teuer.",
+              "lv": "Hrana je bila okusna, ampak predraga."
+            },
+            {
+              "de": "Er hat recht, aber ich sehe das anders.",
+              "lv": "Prav ima, vendar jaz to vidim drugače."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aber",
+              "meaning": "nasprotje • ugovor",
+              "example": "Ich komme, aber später. — Pridem, ampak pozneje."
+            },
+            {
+              "word": "sondern",
+              "meaning": "ne ... temveč ...",
+              "example": "Ich wollte keinen Tee, sondern Kaffee. — Nisem hotel čaja, temveč kavo."
+            },
+            {
+              "word": "jedoch",
+              "meaning": "vendar",
+              "example": "Es ist kalt, jedoch sonnig. — Mrzlo je, vendar sončno."
+            }
+          ],
+          "tip": {
+            "text": "Nasprotje ali ugovor → aber."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "Za ne ... temveč ... nemščina navadno uporablja sondern."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0021",
+      "cardId": "also|idx:26",
+      "status": "LABOT",
+      "reason": "also: drugi primer je spreminjal povedni prihodnjik v velelnik, v besedilu pa so ostali latvijski deli.",
+      "new": {
+        "lv": "torej",
+        "study": {
+          "id": "a1-also",
+          "layout": "standardStudy",
+          "translation": "torej",
+          "explanation": [
+            "Glavna ideja: also uvaja sklep, ki izhaja iz prejšnje trditve.",
+            "V slovenščini ga glede na sobesedilo prevedemo kot torej ali zato."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet, also bleibe ich zu Hause.",
+              "lv": "Dežuje, zato ostanem doma."
+            },
+            {
+              "de": "Du bist krank, also gehst du nicht zur Arbeit.",
+              "lv": "Bolan si, torej ne greš v službo."
+            },
+            {
+              "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
+              "lv": "Veliko sem se učil, zato zdaj razumem."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "also",
+              "meaning": "torej • zato",
+              "example": "Es regnet, also bleibe ich zu Hause. — Dežuje, zato ostanem doma."
+            },
+            {
+              "word": "auch",
+              "meaning": "tudi",
+              "example": "Ich komme auch. — Tudi jaz pridem."
+            },
+            {
+              "word": "deshalb",
+              "meaning": "zato",
+              "example": "Es regnet, deshalb bleibe ich zu Hause. — Dežuje, zato ostanem doma."
+            }
+          ],
+          "tip": {
+            "text": "Sklep iz prejšnje trditve → also."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "also izraža sklep; deshalb pogosto pomeni zato."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0022",
+      "cardId": "an|idx:12",
+      "status": "LABOT",
+      "reason": "an: celotna razlaga in nasvet sta bila latvijska, naslov pa ni podal naravnega slovenskega pomena za an der Wand.",
+      "new": {
+        "lv": "ob • na",
+        "study": {
+          "id": "a1-an",
+          "layout": "standardStudy",
+          "translation": "ob • na",
+          "explanation": [
+            "Glavna ideja: an označuje položaj ob robu ali stik z navpično površino.",
+            "Pri steni je slovenski prevod pogosto na, pri oknu ali morju pa ob."
+          ],
+          "examples": [
+            {
+              "de": "an der Wand",
+              "lv": "na steni"
+            },
+            {
+              "de": "am Fenster",
+              "lv": "ob oknu"
+            },
+            {
+              "de": "am Meer",
+              "lv": "ob morju"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "an",
+              "meaning": "ob robu ali na navpični površini",
+              "example": "an der Wand — na steni"
+            },
+            {
+              "word": "auf",
+              "meaning": "na vodoravni površini",
+              "example": "auf dem Tisch — na mizi"
+            },
+            {
+              "word": "bei",
+              "meaning": "pri osebi ali ustanovi",
+              "example": "beim Arzt — pri zdravniku"
+            }
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "tip": {
+            "text": "Stena, okno ali rob → an."
+          },
+          "important": [
+            "Za vodoravno površino se navadno uporablja auf."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0023",
+      "cardId": "Appetit|idx:689",
+      "status": "LABOT",
+      "reason": "Appetit: Guten Appetit je bil dobesedno in napačno preveden kot Labu apetit ali dober apetit, pojasnila pa so ostala latvijska.",
+      "new": {
+        "lv": "apetit",
+        "study": {
+          "id": "a1-appetit",
+          "layout": "standardStudy",
+          "translation": "apetit",
+          "explanation": [
+            "Glavna ideja: der Appetit pomeni apetit in se v nemščini uporablja v ednini.",
+            "Guten Appetit! je ustaljena želja Dober tek!."
+          ],
+          "examples": [
+            {
+              "de": "Guten Appetit!",
+              "lv": "Dober tek!"
+            },
+            {
+              "de": "Guten Appetit!",
+              "lv": "Dober tek!"
+            },
+            {
+              "de": "Ich habe keinen Appetit.",
+              "lv": "Nimam apetita."
+            }
+          ],
+          "tip": {
+            "text": "der Appetit = apetit."
+          },
+          "important": [
+            "Pravilno je Ich habe Appetit, ne Ich bin Appetit."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0024",
+      "cardId": "auch|idx:48",
+      "status": "LABOT",
+      "reason": "auch: drugi in tretji ciljni primer sta bila zamaknjena in sta ostala v latvijščini.",
+      "new": {
+        "lv": "tudi",
+        "study": {
+          "id": "a1-auch-study",
+          "layout": "standardStudy",
+          "translation": "tudi",
+          "explanation": [
+            "Glavna ideja: auch je nevtralna beseda za dodajanje osebe, dejanja ali lastnosti in pomeni tudi."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme auch.",
+              "lv": "Tudi jaz pridem."
+            },
+            {
+              "de": "Sie arbeitet auch hier.",
+              "lv": "Tudi ona dela tukaj."
+            },
+            {
+              "de": "Ich wünsche Ihnen auch einen schönen Tag.",
+              "lv": "Tudi vam želim lep dan."
+            }
+          ],
+          "tip": {
+            "text": "auch = tudi."
+          },
+          "important": [
+            "Besedni red v Ich wünsche Ihnen auch einen schönen Tag ohrani auch ob dodani informaciji."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0025",
+      "cardId": "auf|idx:49",
+      "status": "LABOT",
+      "reason": "auf: naslov, razlaga in opombe so ostali latvijski, čeprav so bili posamezni primeri slovenski.",
+      "new": {
+        "lv": "na",
+        "study": {
+          "id": "a1-auf",
+          "layout": "standardStudy",
+          "translation": "na",
+          "explanation": [
+            "Glavna ideja: auf pri gibanju pogosto pomeni na površino ali navzgor.",
+            "Z akuzativom odgovarja na vprašanje kam."
+          ],
+          "examples": [
+            {
+              "de": "Ich stelle das Buch auf den Tisch.",
+              "lv": "Knjigo postavim na mizo."
+            },
+            {
+              "de": "Wir fahren auf den Berg.",
+              "lv": "Peljemo se na goro."
+            },
+            {
+              "de": "Die Katze springt auf das Sofa.",
+              "lv": "Mačka skoči na kavč."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "auf",
+              "meaning": "na površino ali navzgor",
+              "example": "Ich stelle das Glas auf den Tisch. — Kozarec postavim na mizo."
+            },
+            {
+              "word": "an",
+              "meaning": "na navpično površino",
+              "example": "Ich hänge das Bild an die Wand. — Sliko obesim na steno."
+            },
+            {
+              "word": "in",
+              "meaning": "v notranjost",
+              "example": "Ich lege das Buch in die Tasche. — Knjigo dam v torbo."
+            }
+          ],
+          "tip": {
+            "text": "Na površino ali navzgor → auf."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "Za navpično površino pogosto uporabimo an, za notranjost pa in."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0026",
+      "cardId": "aufs|idx:60",
+      "status": "LABOT",
+      "reason": "aufs: polovica primerov je ostala latvijska, prvi je imel napačen sklon, naslov in pojasnila pa niso bila slovenska.",
+      "new": {
+        "lv": "na",
+        "study": {
+          "id": "a1-aufs",
+          "layout": "standardStudy",
+          "translation": "na",
+          "explanation": [
+            "Glavna ideja: aufs je skrajšana oblika auf das in z akuzativom označuje gibanje na določeno mesto ali površino.",
+            "V vsakdanji nemščini se auf das pogosto skrajša v aufs."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe aufs Dach.",
+              "lv": "Grem na streho."
+            },
+            {
+              "de": "Sie setzt sich aufs Sofa.",
+              "lv": "Usede se na kavč."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "Peljemo se na podeželje."
+            },
+            {
+              "de": "Stell die Tasche aufs Bett.",
+              "lv": "Postavi torbo na posteljo."
+            },
+            {
+              "de": "Er springt aufs Pferd.",
+              "lv": "Skoči na konja."
+            },
+            {
+              "de": "Leg das Buch aufs Regal.",
+              "lv": "Položi knjigo na polico."
+            },
+            {
+              "de": "Komm schnell aufs Boot!",
+              "lv": "Hitro pridi na čoln!"
+            },
+            {
+              "de": "Wir gehen aufs Fest.",
+              "lv": "Gremo na praznovanje."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aufs",
+              "meaning": "na določeno stvar z akuzativom",
+              "example": "aufs Dach — na streho"
+            },
+            {
+              "word": "auf",
+              "meaning": "na površino ali navzgor",
+              "example": "auf den Tisch — na mizo"
+            },
+            {
+              "word": "an",
+              "meaning": "na navpično površino",
+              "example": "an die Wand — na steno"
+            },
+            {
+              "word": "ins",
+              "meaning": "v notranjost",
+              "example": "ins Zimmer — v sobo"
+            },
+            {
+              "word": "zum",
+              "meaning": "k osebi ali ustanovi",
+              "example": "zum Arzt — k zdravniku"
+            }
+          ],
+          "tip": {
+            "text": "auf + das → aufs."
+          },
+          "important": [
+            "aufs izraža gibanje na določeno mesto ali površino.",
+            "Ne zamenjuj ga z an ali ins."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0027",
+      "cardId": "aus|idx:57",
+      "status": "LABOT",
+      "reason": "aus: naslov, razlaga in opombe so ostali latvijski in celotna sestavljena kartica ni bila v slovenščini.",
+      "new": {
+        "lv": "iz",
+        "study": {
+          "id": "a1-aus",
+          "layout": "standardStudy",
+          "translation": "iz",
+          "explanation": [
+            "Glavna ideja: aus pomeni iz notranjosti ali označuje izvor.",
+            "von se uporablja za osebo, kraj ali površino, ab pa za začetno točko."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme aus Deutschland.",
+              "lv": "Prihajam iz Nemčije."
+            },
+            {
+              "de": "Er geht aus dem Haus.",
+              "lv": "Gre iz hiše."
+            },
+            {
+              "de": "Ich nehme das Buch aus der Tasche.",
+              "lv": "Knjigo vzamem iz torbe."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aus",
+              "meaning": "iz notranjosti • izvor",
+              "example": "aus dem Haus — iz hiše"
+            },
+            {
+              "word": "von",
+              "meaning": "od osebe, kraja ali površine",
+              "example": "von meinem Freund — od mojega prijatelja"
+            },
+            {
+              "word": "ab",
+              "meaning": "začenši od točke ali časa",
+              "example": "ab Montag — od ponedeljka"
+            }
+          ],
+          "tip": {
+            "text": "Gibanje iz notranjosti → aus."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "aus pogosto označuje gibanje iz notranjosti ali poreklo."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0028",
+      "cardId": "baden|idx:68",
+      "status": "LABOT",
+      "reason": "baden: naslov ga je enačil s plavanjem, drugi primer je imel napačen predlog, zadnji primer pa je ostal latvijski.",
+      "new": {
+        "lv": "kopati se",
+        "study": {
+          "id": "a1-baden",
+          "layout": "standardStudy",
+          "translation": "kopati se",
+          "explanation": [
+            "Glavna ideja: baden pomeni kopati se ali biti v vodi zaradi sprostitve.",
+            "schwimmen poudarja plavalno gibanje ali šport."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe baden.",
+              "lv": "Grem se kopat."
+            },
+            {
+              "de": "Wir gehen im See baden.",
+              "lv": "Gremo se kopat v jezero."
+            },
+            {
+              "de": "Er schwimmt sehr gut.",
+              "lv": "Zelo dobro plava."
+            },
+            {
+              "de": "Ich schwimme jeden Montag.",
+              "lv": "Vsak ponedeljek plavam."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "baden",
+              "meaning": "kopati se • biti v vodi",
+              "example": "Ich gehe baden. — Grem se kopat."
+            },
+            {
+              "word": "schwimmen",
+              "meaning": "plavati kot gibanje ali šport",
+              "example": "Er schwimmt sehr gut. — Zelo dobro plava."
+            },
+            {
+              "word": "duschen",
+              "meaning": "prhati se",
+              "example": "Ich dusche am Morgen. — Zjutraj se prham."
+            },
+            {
+              "word": "schwimmen gehen",
+              "meaning": "iti plavat",
+              "example": "Ich gehe heute schwimmen. — Danes grem plavat."
+            }
+          ],
+          "tip": {
+            "text": "Sprostitev v vodi → baden; plavalno gibanje → schwimmen."
+          },
+          "important": [
+            "baden in schwimmen nista popolni sopomenki."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0029",
+      "cardId": "bei|idx:78",
+      "status": "LABOT",
+      "reason": "bei: drugi primer je ostal latvijski, smer zu je bila prevedena z napačnim pri, pojasnila pa niso bila slovenska.",
+      "new": {
+        "lv": "pri",
+        "study": {
+          "id": "a1-bei",
+          "layout": "standardStudy",
+          "translation": "pri",
+          "explanation": [
+            "Glavna ideja: bei pomeni pri osebi ali ustanovi in se uporablja tudi za okoliščine.",
+            "Za smer k osebi se uporablja zu."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin bei meinem Freund.",
+              "lv": "Sem pri svojem prijatelju."
+            },
+            {
+              "de": "Sie arbeitet bei Siemens.",
+              "lv": "Dela pri Siemensu."
+            },
+            {
+              "de": "Bei Regen bleiben wir zu Hause.",
+              "lv": "Ob dežju ostanemo doma."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bei",
+              "meaning": "pri osebi, podjetju ali v določenih okoliščinah",
+              "example": "Ich bin bei meiner Schwester. — Sem pri svoji sestri."
+            },
+            {
+              "word": "an",
+              "meaning": "na steni, robu ali obali",
+              "example": "Das Bild hängt an der Wand. — Slika visi na steni."
+            },
+            {
+              "word": "zu",
+              "meaning": "k osebi • smer",
+              "example": "Ich gehe zu meinem Freund. — Grem k svojemu prijatelju."
+            }
+          ],
+          "tip": {
+            "text": "Oseba, ustanova ali okoliščina → bei."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "Za gibanje k osebi navadno uporabimo zu."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0030",
+      "cardId": "Besuch|idx:87",
+      "status": "LABOT",
+      "reason": "Besuch: tretji primer je bil nenaraven dobesedni prevod, pomen pa se je v primerjavah mehansko potrojil.",
+      "new": {
+        "lv": "obisk",
+        "study": {
+          "id": "a1-besuch",
+          "layout": "standardStudy",
+          "translation": "obisk",
+          "explanation": [
+            "Glavna ideja: der Besuch pomeni obisk kot dogodek ali vizito.",
+            "der Besucher je obiskovalec, besuchen pa glagol obiskati."
+          ],
+          "examples": [
+            {
+              "de": "Der Besuch im Museum war interessant.",
+              "lv": "Obisk muzeja je bil zanimiv."
+            },
+            {
+              "de": "Danke für deinen Besuch.",
+              "lv": "Hvala za tvoj obisk."
+            },
+            {
+              "de": "Der Arzt macht einen Besuch.",
+              "lv": "Zdravnik opravi obisk."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Besuch",
+              "meaning": "obisk • vizita",
+              "example": "Danke für deinen Besuch. — Hvala za tvoj obisk."
+            },
+            {
+              "word": "der Besucher",
+              "meaning": "obiskovalec",
+              "example": "Der Besucher wartet draußen. — Obiskovalec čaka zunaj."
+            },
+            {
+              "word": "besuchen",
+              "meaning": "obiskati",
+              "example": "Ich besuche meine Großeltern. — Obiščem stare starše."
+            }
+          ],
+          "tip": {
+            "text": "Besuch je dogodek; Besucher je oseba."
+          },
+          "important": [
+            "Množina je die Besuche."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0031",
+      "cardId": "besuchen|idx:89",
+      "status": "LABOT",
+      "reason": "besuchen: prevod starih staršev je imel napačno sklonsko ujemanje, smer v primerjavi pa je bila pri namesto k.",
+      "new": {
+        "lv": "obiskati",
+        "study": {
+          "id": "a1-besuchen",
+          "layout": "standardStudy",
+          "translation": "obiskati",
+          "explanation": [
+            "Glavna ideja: besuchen pomeni obiskati kraj, dogodek ali osebo.",
+            "V nemščini se uporablja brez predloga."
+          ],
+          "examples": [
+            {
+              "de": "Ich besuche das Museum.",
+              "lv": "Obiščem muzej."
+            },
+            {
+              "de": "Wir besuchen einen Deutschkurs.",
+              "lv": "Obiskujemo tečaj nemščine."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Obiščem stare starše."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "besuchen",
+              "meaning": "obiskati kraj, dogodek ali osebo",
+              "example": "Ich besuche meine Großeltern. — Obiščem stare starše."
+            },
+            {
+              "word": "treffen",
+              "meaning": "srečati",
+              "example": "Ich treffe meinen Freund. — Srečam svojega prijatelja."
+            },
+            {
+              "word": "zu jemandem gehen",
+              "meaning": "iti k nekomu",
+              "example": "Ich gehe zu meinem Freund. — Grem k svojemu prijatelju."
+            }
+          ],
+          "tip": {
+            "text": "besuchen se uporablja neposredno s predmetom."
+          },
+          "important": [
+            "Pravilno je Ich besuche meine Freundin, brez predloga."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0032",
+      "cardId": "bis|idx:91",
+      "status": "LABOT",
+      "reason": "bis: prvi primer je imel napačen sklon, vse tri primerjave pa so bile vsebinsko zamenjane in vsebovale latvijščino.",
+      "new": {
+        "lv": "do • dokler",
+        "study": {
+          "id": "a1-bis",
+          "layout": "standardStudy",
+          "translation": "do • dokler",
+          "explanation": [
+            "Glavna ideja: bis označuje mejo v času ali prostoru; pred odvisnikom lahko pomeni dokler.",
+            "bis zu stoji pred določeno mejo, bis jetzt pa pomeni do zdaj."
+          ],
+          "examples": [
+            {
+              "de": "Ich warte bis zu deiner Ankunft.",
+              "lv": "Čakam do tvojega prihoda."
+            },
+            {
+              "de": "Bleib hier, bis ich zurückkomme.",
+              "lv": "Ostani tukaj, dokler se ne vrnem."
+            },
+            {
+              "de": "Ich lerne Deutsch bis zum Abend.",
+              "lv": "Nemščino se učim do večera."
+            },
+            {
+              "de": "Bis jetzt habe ich nichts verstanden.",
+              "lv": "Do zdaj nisem ničesar razumel."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bis",
+              "meaning": "do časovne ali prostorske meje",
+              "example": "Ich bleibe bis morgen. — Ostanem do jutri."
+            },
+            {
+              "word": "bis zu",
+              "meaning": "do določene meje",
+              "example": "bis zum Bahnhof — do postaje"
+            },
+            {
+              "word": "bis jetzt",
+              "meaning": "do zdaj",
+              "example": "Bis jetzt habe ich nichts verstanden. — Do zdaj nisem ničesar razumel."
+            }
+          ],
+          "tip": {
+            "text": "Meja v času, prostoru ali pogoju → bis."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "bis zu stoji pred določeno mejo; bis jetzt pomeni do zdaj."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0033",
+      "cardId": "bleiben|idx:101",
+      "status": "LABOT",
+      "reason": "bleiben: osnovni primeri so bili sprejemljivi, vendar so razlaga, nasvet in poudarki ostali latvijski, zato celotna kartica ni bila zaključena.",
+      "new": {
+        "lv": "ostati",
+        "study": {
+          "id": "a1-bleiben",
+          "layout": "standardStudy",
+          "translation": "ostati",
+          "explanation": [
+            "Glavna ideja: bleiben pomeni ostati in ne oditi.",
+            "warten pomeni čakati in ni sopomenka."
+          ],
+          "examples": [
+            {
+              "de": "Ich bleibe zu Hause.",
+              "lv": "Ostanem doma."
+            },
+            {
+              "de": "Bleib hier!",
+              "lv": "Ostani tukaj!"
+            },
+            {
+              "de": "Wir bleiben noch eine Stunde.",
+              "lv": "Ostanemo še eno uro."
+            },
+            {
+              "de": "Ich gehe nach Hause.",
+              "lv": "Grem domov."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bleiben",
+              "meaning": "ostati",
+              "example": "Ich bleibe hier. — Ostanem tukaj."
+            },
+            {
+              "word": "gehen",
+              "meaning": "iti peš • oditi",
+              "example": "Ich gehe nach Hause. — Grem domov."
+            },
+            {
+              "word": "fahren",
+              "meaning": "peljati se • oditi s prevozom",
+              "example": "Ich fahre nach Hause. — Peljem se domov."
+            },
+            {
+              "word": "warten",
+              "meaning": "čakati",
+              "example": "Ich warte hier. — Čakam tukaj."
+            }
+          ],
+          "tip": {
+            "text": "Ne oditi → bleiben; oditi peš → gehen."
+          },
+          "important": [
+            "bleiben pomeni ostati, ne čakati."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0034",
+      "cardId": "da|idx:126",
+      "status": "LABOT",
+      "reason": "da: četrti primer je obrnil smer iz pridi v pojdi, razlaga in opombe pa so ostale latvijske.",
+      "new": {
+        "lv": "tam • tu",
+        "study": {
+          "id": "a1-da",
+          "layout": "standardStudy",
+          "translation": "tam • tu",
+          "explanation": [
+            "Glavna ideja: da je splošen krajevni prislov za tam ali tu.",
+            "hier je izrecno tukaj, dort pa bolj oddaljeno tam."
+          ],
+          "examples": [
+            {
+              "de": "Da ist mein Auto.",
+              "lv": "Tam je moj avto."
+            },
+            {
+              "de": "Ich war da.",
+              "lv": "Bil sem tam."
+            },
+            {
+              "de": "Da kommt er.",
+              "lv": "Tam prihaja."
+            },
+            {
+              "de": "Komm mal da her!",
+              "lv": "Pridi sem!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "da",
+              "meaning": "tam • tu",
+              "example": "Da ist mein Auto. — Tam je moj avto."
+            },
+            {
+              "word": "hier",
+              "meaning": "tukaj na določenem mestu",
+              "example": "Hier ist mein Auto. — Tukaj je moj avto."
+            },
+            {
+              "word": "dort",
+              "meaning": "tam bolj daleč",
+              "example": "Dort ist mein Auto. — Tam je moj avto."
+            },
+            {
+              "word": "dann",
+              "meaning": "potem",
+              "example": "Dann gehen wir nach Hause. — Potem gremo domov."
+            }
+          ],
+          "tip": {
+            "text": "Splošni krajevni pomen tam ali tu → da."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "hier pomeni konkretno tukaj, dort bolj oddaljeno tam."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0035",
+      "cardId": "das|idx:129",
+      "status": "LABOT",
+      "reason": "das: oziralni primer je zamenjal prvo osebo z množino, primerjave pa niso jasno ločile členka in zaimkov.",
+      "new": {
+        "lv": "določni člen srednjega spola • to",
+        "study": {
+          "id": "a1-das",
+          "layout": "standardStudy",
+          "translation": "določni člen srednjega spola • to",
+          "explanation": [
+            "Glavna ideja: das je določni člen srednjega spola, uporablja pa se tudi kot zaimek to in kot oziralni zaimek.",
+            "das ni isto kot veznik dass."
+          ],
+          "examples": [
+            {
+              "de": "Das ist mein Auto.",
+              "lv": "To je moj avto."
+            },
+            {
+              "de": "Das ist gut.",
+              "lv": "To je dobro."
+            },
+            {
+              "de": "Das Buch, das ich lese, ist interessant.",
+              "lv": "Knjiga, ki jo berem, je zanimiva."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das",
+              "meaning": "člen ali zaimek to",
+              "example": "Das ist mein Auto. — To je moj avto."
+            },
+            {
+              "word": "dies",
+              "meaning": "tole",
+              "example": "Dies ist mein Auto. — Tole je moj avto."
+            },
+            {
+              "word": "welches",
+              "meaning": "ki • kateri",
+              "example": "Das ist das Buch, welches ich lese. — To je knjiga, ki jo berem."
+            }
+          ],
+          "tip": {
+            "text": "Srednji spol → das; veznik da → dass."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "Na ravni A1 se das najprej uči kot določni člen srednjega spola."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0036",
+      "cardId": "der|idx:134",
+      "status": "LABOT",
+      "reason": "der: drugi primer je prihod avtobusa zamenjal z vožnjo, razlaga in nasvet pa sta ostala latvijska.",
+      "new": {
+        "lv": "določni člen moškega spola",
+        "study": {
+          "id": "a1-der",
+          "layout": "standardStudy",
+          "translation": "določni člen moškega spola",
+          "explanation": [
+            "Glavna ideja: der je določni člen moškega spola v imenovalniku ednine.",
+            "Stoji pred samostalniki moškega spola, na primer der Mann."
+          ],
+          "examples": [
+            {
+              "de": "Der Mann ist hier.",
+              "lv": "Moški je tukaj."
+            },
+            {
+              "de": "Der Bus kommt.",
+              "lv": "Avtobus prihaja."
+            },
+            {
+              "de": "Der Lehrer spricht.",
+              "lv": "Učitelj govori."
+            }
+          ],
+          "tip": {
+            "text": "Moški spol v imenovalniku ednine → der."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "important": [
+            "Na ravni A1 se der najprej uči kot določni člen moškega spola."
+          ],
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0037",
+      "cardId": "dieser|idx:139",
+      "status": "LABOT",
+      "reason": "dieser: drugi primer je videti psa zamenjal z všečnostjo, kartica pa ni bila v celoti prevedena v slovenščino.",
+      "new": {
+        "lv": "ta • tale",
+        "study": {
+          "id": "a1-dieser",
+          "layout": "standardStudy",
+          "translation": "ta • tale",
+          "explanation": [
+            "Glavna ideja: dieser je kazalni zaimek ta oziroma tale za moški spol.",
+            "Oblike diese in dieses se spreminjajo po spolu in sklonu."
+          ],
+          "examples": [
+            {
+              "de": "Dieser Mann ist nett.",
+              "lv": "Ta moški je prijazen."
+            },
+            {
+              "de": "Ich sehe diesen Hund.",
+              "lv": "Vidim tega psa."
+            },
+            {
+              "de": "Dieser Stift ist neu.",
+              "lv": "To pisalo je novo."
+            }
+          ],
+          "tip": {
+            "text": "Moški spol v imenovalniku → dieser."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "important": [
+            "dieser, diese in dieses se spreminjajo po spolu; množinska oblika je diese."
+          ],
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0038",
+      "cardId": "ein|idx:154",
+      "status": "LABOT",
+      "reason": "ein: naslov in pojasnila so ostali latvijski, primerjave pa so člen mestoma prevajale kot števnik.",
+      "new": {
+        "lv": "nedoločni člen • en",
+        "study": {
+          "id": "a1-ein",
+          "layout": "standardStudy",
+          "translation": "nedoločni člen • en",
+          "explanation": [
+            "Glavna ideja: ein je nedoločni člen in lahko pomeni tudi en.",
+            "Oblika je odvisna od spola in sklona samostalnika."
+          ],
+          "examples": [
+            {
+              "de": "Ein Mann wartet draußen.",
+              "lv": "Moški čaka zunaj."
+            },
+            {
+              "de": "Ich habe ein Buch.",
+              "lv": "Imam knjigo."
+            },
+            {
+              "de": "Er sucht einen Stift.",
+              "lv": "Išče pisalo."
+            },
+            {
+              "de": "Ein Kind spielt.",
+              "lv": "Otrok se igra."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ein Mann",
+              "meaning": "moški spol",
+              "example": "Ein Mann wartet draußen. — Moški čaka zunaj."
+            },
+            {
+              "word": "eine Frau",
+              "meaning": "ženski spol",
+              "example": "eine Frau — neka ženska"
+            },
+            {
+              "word": "ein Buch",
+              "meaning": "srednji spol",
+              "example": "Ich habe ein Buch. — Imam knjigo."
+            },
+            {
+              "word": "einen Mann",
+              "meaning": "tožilnik moškega spola",
+              "example": "einen Mann — nekega moškega"
+            }
+          ],
+          "tip": {
+            "text": "ein pogosto deluje samo kot nedoločni člen, ne kot poudarjeno število."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "ein je za moški in srednji spol; eine za ženski; einen za tožilnik moškega spola."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0039",
+      "cardId": "Eis|idx:157",
+      "status": "LABOT",
+      "reason": "Eis: vprašanje je bilo slovnično napačno, Dessert je bil napačno puding, razlaga in nasvet pa latvijska.",
+      "new": {
+        "lv": "led • sladoled",
+        "study": {
+          "id": "a1-eis",
+          "layout": "standardStudy",
+          "translation": "led • sladoled",
+          "explanation": [
+            "Glavna ideja: das Eis pomeni led ali sladoled; pomen določa sobesedilo.",
+            "Pri hrani pomeni sladoled, pri zamrznjeni vodi led."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse ein Eis.",
+              "lv": "Jem sladoled."
+            },
+            {
+              "de": "Möchtest du ein Eis?",
+              "lv": "Bi sladoled?"
+            },
+            {
+              "de": "Im Winter liegt Eis auf dem See.",
+              "lv": "Pozimi je na jezeru led."
+            },
+            {
+              "de": "Das Eis ist kalt.",
+              "lv": "Led je mrzel."
+            },
+            {
+              "de": "Ich nehme ein Eis mit Schokolade.",
+              "lv": "Vzamem čokoladni sladoled."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Eis",
+              "meaning": "led • sladoled",
+              "example": "Ich esse ein Eis. — Jem sladoled."
+            },
+            {
+              "word": "der Schnee",
+              "meaning": "sneg",
+              "example": "Der Schnee ist weiß. — Sneg je bel."
+            },
+            {
+              "word": "kalt",
+              "meaning": "mrzel",
+              "example": "Das Wasser ist kalt. — Voda je mrzla."
+            },
+            {
+              "word": "das Dessert",
+              "meaning": "sladica",
+              "example": "Eis ist ein Dessert. — Sladoled je sladica."
+            }
+          ],
+          "tip": {
+            "text": "Hrana → sladoled; zima ali voda → led."
+          },
+          "important": [
+            "Kontekst loči led od sladoleda."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0040",
+      "cardId": "erst|idx:165",
+      "status": "LABOT",
+      "reason": "erst: prvi primer je zamenjal učenje z delom in pijačo, primerjava pa je vsebovala več latvijskih ter nemških ostankov.",
+      "new": {
+        "lv": "šele • najprej",
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "šele • najprej",
+          "explanation": [
+            "Glavna ideja: erst pomeni šele pri časovni ali količinski omejitvi, lahko pa pomeni tudi najprej v zaporedju.",
+            "zuerst poudarja prvi korak, nur pa omejuje količino."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Najprej se uči, nato se igraj."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Pridem šele jutri."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Star je šele 18 let."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Jemo šele ob osmih."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "šele • najprej",
+              "example": "Erst lernen, dann spielen. — Najprej se uči, nato se igraj."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "najprej • na začetku",
+              "example": "Zuerst frühstücken wir. — Najprej zajtrkujemo."
+            },
+            {
+              "word": "nur",
+              "meaning": "samo",
+              "example": "Ich habe nur 5 Euro. — Imam samo 5 evrov."
+            },
+            {
+              "word": "dann",
+              "meaning": "potem",
+              "example": "Dann gehen wir nach Hause. — Potem gremo domov."
+            }
+          ],
+          "tip": {
+            "text": "Čas ali zaporedje → erst; gola količinska omejitev → nur."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "erst in zuerst nista popolni sopomenki."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0041",
+      "cardId": "es|idx:167",
+      "status": "LABOT",
+      "reason": "es: vsi štirje ciljni primeri so bili zamaknjeni latvijski prevodi drugih povedi in niso ustrezali nemškim virom.",
+      "new": {
+        "lv": "to • brezosebni zaimek",
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "to • brezosebni zaimek",
+          "explanation": [
+            "Glavna ideja: es je zaimek srednjega spola in stoji tudi v brezosebnih povedih.",
+            "Slovenski prevod je lahko to, on ali pa se es sploh ne izrazi."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet.",
+              "lv": "Dežuje."
+            },
+            {
+              "de": "Es ist kalt.",
+              "lv": "Mrzlo je."
+            },
+            {
+              "de": "Das Kind schläft.",
+              "lv": "Otrok spi."
+            },
+            {
+              "de": "Es ist müde.",
+              "lv": "Utrujeno je."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "es",
+              "meaning": "to • brezosebna oblika",
+              "example": "Es regnet. — Dežuje."
+            },
+            {
+              "word": "ich",
+              "meaning": "jaz kot oseba",
+              "example": "Ich lerne Deutsch. — Učim se nemščino."
+            }
+          ],
+          "tip": {
+            "text": "Nemški es ni slovenski jaz."
+          },
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "es se v vremenskih povedih pogosto ne prevaja z ločeno besedo."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0042",
+      "cardId": "essen|idx:690",
+      "status": "LABOT",
+      "reason": "essen: prvi primer je izražal imeti rad pico namesto rad jo jesti, razlaga in opombe pa so ostale latvijske.",
+      "new": {
+        "lv": "jesti",
+        "study": {
+          "id": "a1-essen",
+          "layout": "standardStudy",
+          "translation": "jesti",
+          "explanation": [
+            "Glavna ideja: essen je glagol jesti.",
+            "das Essen je samostalnik za hrano ali jed in ni isto kot glagol."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Pizza.",
+              "lv": "Rad jem pico."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Kaj želite jesti?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Jemo ob 12. uri."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Hrana je pripravljena."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Hrana je zelo okusna."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Hrana je okusna."
+            }
+          ],
+          "tip": {
+            "text": "essen = jesti."
+          },
+          "important": [
+            "Glagol essen je brez člena; das Essen je samostalnik."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0043",
+      "cardId": "Essen|idx:691",
+      "status": "LABOT",
+      "reason": "Essen: nasvet je napačno enačil samostalnik z glagolom ēst, razlaga in opombe pa so ostale latvijske.",
+      "new": {
+        "lv": "hrana • jed",
+        "study": {
+          "id": "a1-essen-study",
+          "layout": "standardStudy",
+          "translation": "hrana • jed",
+          "explanation": [
+            "Glavna ideja: das Essen je samostalnik za hrano, jed ali obrok.",
+            "Glagol essen pomeni jesti."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Hrana je okusna."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Kaj želite jesti?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Jemo ob 12. uri."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Hrana je pripravljena."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Hrana je zelo okusna."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Hrana je okusna."
+            }
+          ],
+          "tip": {
+            "text": "das Essen = hrana ali jed."
+          },
+          "important": [
+            "das Essen je samostalnik; essen je glagol."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0044",
+      "cardId": "etwas|idx:169",
+      "status": "LABOT",
+      "reason": "etwas: peti primer je ostal latvijski, primerjava was je izgubila osebo, nichts pa je imel hudo slovnično napako.",
+      "new": {
+        "lv": "nekaj • malo",
+        "study": {
+          "id": "a1-etwas",
+          "layout": "standardStudy",
+          "translation": "nekaj • malo",
+          "explanation": [
+            "Glavna ideja: etwas pomeni nekaj pri stvari in malo pri stopnji.",
+            "Pred pridevnikom pogosto pomeni nekoliko ali malo."
+          ],
+          "examples": [
+            {
+              "de": "Ich möchte etwas trinken.",
+              "lv": "Rad bi nekaj spil."
+            },
+            {
+              "de": "Hast du etwas Zeit?",
+              "lv": "Imaš nekaj časa?"
+            },
+            {
+              "de": "Ich bin etwas müde.",
+              "lv": "Malo sem utrujen."
+            },
+            {
+              "de": "Ich habe etwas für dich.",
+              "lv": "Nekaj imam zate."
+            },
+            {
+              "de": "Das ist etwas teuer.",
+              "lv": "To je nekoliko drago."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "etwas",
+              "meaning": "nekaj • malo",
+              "example": "Ich brauche etwas. — Nekaj potrebujem."
+            },
+            {
+              "word": "was",
+              "meaning": "nekaj v pogovornem jeziku",
+              "example": "Willst du was trinken? — Ali želiš kaj piti?"
+            },
+            {
+              "word": "ein bisschen",
+              "meaning": "malo",
+              "example": "Ich bin ein bisschen müde. — Malo sem utrujen."
+            },
+            {
+              "word": "nichts",
+              "meaning": "nič",
+              "example": "Ich brauche nichts. — Ničesar ne potrebujem."
+            }
+          ],
+          "tip": {
+            "text": "Stvar → nekaj; stopnja → malo."
+          },
+          "important": [
+            "etwas pomeni, da nekaj obstaja; nichts pomeni nič."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0045",
+      "cardId": "euch|idx:170",
+      "status": "LABOT",
+      "reason": "euch: prvi primer je množino vas zamenjal z ednino te, razlaga in nasvet pa sta ostala latvijska.",
+      "new": {
+        "lv": "vas • vam",
+        "study": {
+          "id": "a1-euch",
+          "layout": "standardStudy",
+          "translation": "vas • vam",
+          "explanation": [
+            "Glavna ideja: euch je tožilniška ali dajalniška oblika osebnega zaimka ihr.",
+            "V slovenščini se po vlogi v stavku prevede kot vas ali vam."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe euch.",
+              "lv": "Vidim vas."
+            },
+            {
+              "de": "Ich helfe euch.",
+              "lv": "Pomagam vam."
+            },
+            {
+              "de": "Ich gebe euch das Buch.",
+              "lv": "Dam vam knjigo."
+            },
+            {
+              "de": "Ich danke euch.",
+              "lv": "Zahvaljujem se vam."
+            },
+            {
+              "de": "Ihr erinnert euch.",
+              "lv": "Spomnite se."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ihr",
+              "meaning": "vi",
+              "example": "Ihr seid freundlich. — Prijazni ste."
+            },
+            {
+              "word": "euch",
+              "meaning": "vas • vam",
+              "example": "Ich helfe euch. — Pomagam vam."
+            },
+            {
+              "word": "euer",
+              "meaning": "vaš",
+              "example": "Das ist euer Haus. — To je vaša hiša."
+            }
+          ],
+          "tip": {
+            "text": "Predmet dejanja → euch; osebek → ihr."
+          },
+          "important": [
+            "euch lahko pomeni vas ali vam, odvisno od glagolske vezave."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0046",
+      "cardId": "Ferien|idx:694",
+      "status": "LABOT",
+      "reason": "Ferien: dva primera sta počitnice zamenjala z vikendi, vprašanje je zamenjalo množino z ednino, razlaga pa je ostala latvijska.",
+      "new": {
+        "lv": "počitnice",
+        "study": {
+          "id": "a1-ferien",
+          "layout": "standardStudy",
+          "translation": "počitnice",
+          "explanation": [
+            "Glavna ideja: die Ferien so šolske ali študijske počitnice in se uporabljajo samo v množini.",
+            "der Urlaub je dopust od dela in je v tem pomenu edninski."
+          ],
+          "examples": [
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Med počitnicami se odpeljemo na morje."
+            },
+            {
+              "de": "In den Ferien habe ich viel Zeit.",
+              "lv": "Med počitnicami imam veliko časa."
+            },
+            {
+              "de": "Was macht ihr in den Ferien?",
+              "lv": "Kaj delate med počitnicami?"
+            },
+            {
+              "de": "Die Schule ist in den Ferien zu.",
+              "lv": "Šola je med počitnicami zaprta."
+            },
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Med počitnicami se odpeljemo na morje."
+            },
+            {
+              "de": "In den Ferien",
+              "lv": "med počitnicami"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Ferien",
+              "meaning": "šolske ali študijske počitnice v množini",
+              "example": "In den Ferien fahren wir weg. — Med počitnicami odpotujemo."
+            },
+            {
+              "word": "der Urlaub",
+              "meaning": "dopust od dela v ednini",
+              "example": "Ich habe zwei Wochen Urlaub. — Imam dva tedna dopusta."
+            }
+          ],
+          "tip": {
+            "text": "Šolski premor → die Ferien; dopust od dela → der Urlaub."
+          },
+          "important": [
+            "Pravilno je in den Ferien.",
+            "die Ferien se uporablja samo v množini."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0047",
+      "cardId": "fernsehen|idx:687",
+      "status": "LABOT",
+      "reason": "fernsehen: razlaga, nasvet in opozorilo so ostali latvijski, ena slovenska poved pa je imela napačen predlog za televizijo.",
+      "new": {
+        "lv": "gledati televizijo",
+        "study": {
+          "id": "a1-fernsehen",
+          "layout": "standardStudy",
+          "translation": "gledati televizijo",
+          "explanation": [
+            "Glavna ideja: fernsehen je ločljivi glagol za gledanje televizije.",
+            "das Fernsehen je samostalnik za televizijo kot medij ali program."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Nocoj gledam televizijo."
+            },
+            {
+              "de": "Siehst du oft fern?",
+              "lv": "Ali pogosto gledaš televizijo?"
+            },
+            {
+              "de": "Die Kinder sehen am Nachmittag fern.",
+              "lv": "Otroci popoldne gledajo televizijo."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fernsehen",
+              "meaning": "gledati televizijo",
+              "example": "Ich sehe fern. — Gledam televizijo."
+            },
+            {
+              "word": "das Fernsehen",
+              "meaning": "televizija kot medij",
+              "example": "Im Fernsehen läuft ein Film. — Na televiziji predvajajo film."
+            },
+            {
+              "word": "sehen",
+              "meaning": "videti",
+              "example": "Ich sehe einen Film. — Vidim film."
+            }
+          ],
+          "tip": {
+            "text": "Dejanje → fernsehen; medij ali program → das Fernsehen."
+          },
+          "important": [
+            "fernsehen je ločljiv glagol: ich sehe fern."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0048",
+      "cardId": "Fernsehen|idx:688",
+      "status": "LABOT",
+      "reason": "Fernsehen: celotna razlaga in opozorila so ostala latvijska, teči pri programu pa je bilo prevedeno z nenatančnim je.",
+      "new": {
+        "lv": "televizija",
+        "study": {
+          "id": "a1-fernsehen-study",
+          "layout": "standardStudy",
+          "translation": "televizija",
+          "explanation": [
+            "Glavna ideja: das Fernsehen je samostalnik za televizijo kot medij ali televizijski program.",
+            "Glagol fernsehen pomeni gledati televizijo."
+          ],
+          "examples": [
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Kaj je danes na televiziji?"
+            },
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Kaj je danes na televiziji?"
+            },
+            {
+              "de": "Im Fernsehen läuft ein Film.",
+              "lv": "Na televiziji predvajajo film."
+            },
+            {
+              "de": "Das Fernsehen ist heute langweilig.",
+              "lv": "Televizijski program je danes dolgočasen."
+            },
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Nocoj gledam televizijo."
+            },
+            {
+              "de": "Was gibt es im Fernsehen?",
+              "lv": "Kaj je na televiziji?"
+            }
+          ],
+          "tip": {
+            "text": "Medij ali program → das Fernsehen; dejanje → fernsehen."
+          },
+          "important": [
+            "das Fernsehen nima množinske oblike."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": []
+          },
+          "comparison": []
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0049",
+      "cardId": "finden|idx:187",
+      "status": "LABOT",
+      "reason": "finden: vsi trije ciljni primeri so bili zamaknjeni latvijski stavki in niso ustrezali svojim nemškim virom.",
+      "new": {
+        "lv": "najti • zdeti se",
+        "study": {
+          "id": "a1-finden",
+          "layout": "standardStudy",
+          "translation": "najti • zdeti se",
+          "explanation": [
+            "Glavna ideja: finden pomeni najti stvar; v zvezi Ich finde das gut izraža mnenje.",
+            "Pomen določa predmet in sobesedilo."
+          ],
+          "examples": [
+            {
+              "de": "Ich finde meinen Schlüssel.",
+              "lv": "Najdem svoj ključ."
+            },
+            {
+              "de": "Ich finde das gut.",
+              "lv": "To se mi zdi dobro."
+            },
+            {
+              "de": "Wie findest du den Film?",
+              "lv": "Kaj meniš o filmu?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "finden",
+              "meaning": "najti • meniti",
+              "example": "Ich finde das gut. — To se mi zdi dobro."
+            }
+          ],
+          "tip": {
+            "text": "Izgubljena stvar → finden; mnenje → ich finde ..."
+          },
+          "important": [
+            "finden ne pomeni samo najti."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB093-0050",
+      "cardId": "geben|idx:223",
+      "status": "LABOT",
+      "reason": "geben: drugi primer je bil slovnično nesmiseln, razlaga in opombe pa so ostale latvijske.",
+      "new": {
+        "lv": "dati",
+        "study": {
+          "id": "a1-geben",
+          "layout": "standardStudy",
+          "translation": "dati",
+          "explanation": [
+            "Glavna ideja: geben pomeni dati nekaj drugi osebi.",
+            "nehmen pomeni vzeti, bekommen pa dobiti ali prejeti."
+          ],
+          "examples": [
+            {
+              "de": "Gib mir bitte das Buch.",
+              "lv": "Daj mi, prosim, knjigo."
+            },
+            {
+              "de": "Ich gebe dir meine Nummer.",
+              "lv": "Dam ti svojo številko."
+            },
+            {
+              "de": "Ich nehme das Buch.",
+              "lv": "Vzamem knjigo."
+            },
+            {
+              "de": "Ich bekomme ein Geschenk.",
+              "lv": "Dobim darilo."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "geben",
+              "meaning": "dati",
+              "example": "Gib mir das Buch. — Daj mi knjigo."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "vzeti",
+              "example": "Ich nehme das Buch. — Vzamem knjigo."
+            },
+            {
+              "word": "bekommen",
+              "meaning": "dobiti • prejeti",
+              "example": "Ich bekomme ein Geschenk. — Dobim darilo."
+            },
+            {
+              "word": "bringen",
+              "meaning": "prinesti",
+              "example": "Ich bringe dir das Buch. — Prinesem ti knjigo."
+            }
+          ],
+          "tip": {
+            "text": "Nekaj dati proč → geben; nekaj vzeti zase → nehmen."
+          },
+          "important": [
+            "geben in nehmen izražata nasprotni smer.",
+            "bekommen pomeni dobiti, ne dati."
+          ],
+          "sectionAccents": {
+            "examples": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "comparison": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
