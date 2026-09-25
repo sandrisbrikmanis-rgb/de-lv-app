@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|Stadt|idx:696|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaupunki",
+    "owner_note": "FI Stadt lv: ET Linn → FI Kaupunki. DE untouched."
+  },
+  "g2/a1/fi|Student|idx:581|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Opiskelija",
+    "owner_note": "FI Student lv: ET Üliõpilane → FI Opiskelija. DE untouched."
+  },
+  "g2/a1/fi|Stuhl|idx:582|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tuoli",
+    "owner_note": "FI Stuhl lv: ET Tool → FI Tuoli. DE untouched."
+  },
+  "g2/a1/fi|Stunde|idx:583|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tunti",
+    "owner_note": "FI Stunde lv: ET Tund → FI Tunti. DE untouched."
+  },
+  "g2/a1/fi|suchen|idx:584|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Etsiä",
+    "owner_note": "FI suchen lv: ET Otsima → FI Etsiä. DE untouched."
+  },
+  "g2/a1/fi|süß|idx:585|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Makea",
+    "owner_note": "FI süß lv: ET Magus → FI Makea. DE untouched."
+  },
+  "g2/a1/fi|Tag|idx:586|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Päivä",
+    "owner_note": "FI Tag lv: ET Päev → FI Päivä. DE untouched."
+  },
+  "g2/a1/fi|Tante|idx:587|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Täti",
+    "owner_note": "FI Tante lv: ET Tädi → FI Täti. DE untouched."
+  },
+  "g2/a1/fi|tanzen|idx:588|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tanssia",
+    "owner_note": "FI tanzen lv: ET Tantsima → FI Tanssia. DE untouched."
+  },
+  "g2/a1/fi|Tasche|idx:589|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Laukku",
+    "owner_note": "FI Tasche lv: ET Kott → FI Laukku. DE untouched."
+  },
+  "g2/a1/fi|Tasse|idx:590|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuppi",
+    "owner_note": "FI Tasse lv: ET Tass → FI Kuppi. DE untouched."
+  },
+  "g2/a1/fi|Taxi|idx:591|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Taksi",
+    "owner_note": "FI Taxi lv: ET Takso → FI Taksi. DE untouched."
+  },
+  "g2/a1/fi|Tee|idx:592|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Tee lv: production Tee already correct Finnish for tēja (tea). DE untouched."
+  },
+  "g2/a1/fi|Telefon|idx:593|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Puhelin",
+    "owner_note": "FI Telefon lv: ET Telefon → FI Puhelin. DE untouched."
+  },
+  "g2/a1/fi|telefonieren|idx:594|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Soittaa",
+    "owner_note": "FI telefonieren lv: ET Telefoniga helistama → FI Soittaa. DE untouched."
+  },
+  "g2/a1/fi|Teller|idx:595|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lautanen",
+    "owner_note": "FI Teller lv: ET Taldrik → FI Lautanen. DE untouched."
+  },
+  "g2/a1/fi|teuer|idx:596|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI teuer lv: production Kallis already correct Finnish for dārgs (expensive). DE untouched."
+  },
+  "g2/a1/fi|Text|idx:597|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Teksti",
+    "owner_note": "FI Text lv: ET Tekst → FI Teksti. DE untouched."
+  },
+  "g2/a1/fi|Tier|idx:598|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Eläin",
+    "owner_note": "FI Tier lv: ET Loom → FI Eläin. DE untouched."
+  },
+  "g2/a1/fi|Tisch|idx:599|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pöytä",
+    "owner_note": "FI Tisch lv: ET Laud → FI Pöytä. DE untouched."
+  },
+  "g2/a1/fi|Tochter|idx:600|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tytär",
+    "owner_note": "FI Tochter lv: ET Tütar → FI Tytär. DE untouched."
+  },
+  "g2/a1/fi|Toilette|idx:601|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vessa",
+    "owner_note": "FI Toilette lv: ET Tualett → FI Vessa. DE untouched."
+  },
+  "g2/a1/fi|Tomate|idx:602|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tomaatti",
+    "owner_note": "FI Tomate lv: ET Tomat → FI Tomaatti. DE untouched."
+  },
+  "g2/a1/fi|Treppe|idx:603|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Portaat",
+    "owner_note": "FI Treppe lv: ET Trepp → FI Portaat. DE untouched."
+  },
+  "g2/a1/fi|trinken|idx:604|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Juoda",
+    "owner_note": "FI trinken lv: ET Jooma → FI Juoda. DE untouched."
+  },
+  "g2/a1/fi|tun|idx:605|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tehdä",
+    "owner_note": "FI tun lv: ET Tegema → FI Tehdä. DE untouched."
+  },
+  "g2/a1/fi|Tür|idx:606|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ovi",
+    "owner_note": "FI Tür lv: ET Uks → FI Ovi. DE untouched."
+  },
+  "g2/a1/fi|U-Bahn|idx:607|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Metro",
+    "owner_note": "FI U-Bahn lv: ET Metroo → FI Metro. DE untouched."
+  },
+  "g2/a1/fi|überall|idx:609|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaikkialla",
+    "owner_note": "FI überall lv: ET Kõikjal → FI Kaikkialla. DE untouched."
+  },
+  "g2/a1/fi|übermorgen|idx:610|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ylihuomen",
+    "owner_note": "FI übermorgen lv: ET Ülehomme → FI Ylihuomen. DE untouched."
+  },
+  "g2/a1/fi|Uhr|idx:698|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kello\",\"study.translation\":\"Kello\",\"study.explanation[0]\":\"Pääajatus: die Uhr tarkoittaa kelloa — käekelloa tai seinäkelloa.\",\"study.explanation[1]\":\"Es ist acht Uhr tarkoittaa, että kello on kahdeksan.\",\"study.explanation[2]\":\"Kontekstista riippuu, tarkoitetaanko kellolaitetta vai kellonaikaa.\",\"study.explanation[3]\":\"Yleisiä esimerkkejä: Meine Uhr ist kaputt. = Kelloni on rikki.\",\"study.examples[0].lv\":\"Kello on kahdeksan.\",\"study.examples[1].lv\":\"Kello on kahdeksan.\",\"study.examples[2].lv\":\"Kelloni on rikki.\",\"study.examples[3].lv\":\"Kello on kahdeksan.\",\"study.examples[4].lv\":\"Kello on kahdeksan.\",\"study.examples[5].lv\":\"Kello\",\"study.tip[0]\":\"Kello tai rannekello. Myös aika kellolla: Es ist acht Uhr.\",\"study.tip[1]\":\"Käytä die Uhr, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"die Uhr: laite (meine Uhr) tai aika (acht Uhr).\",\"study.important[1]\":\"die Uhr: tarkista konteksti ennen käyttöä.\",\"study.sectionAccents\":{\"explanation\":{\"blue\":[\"Uhr\"],\"purple\":[\"Kello\"]},\"examples\":[{\"de\":{\"blue\":[\"uhr\"]},\"lv\":{\"purple\":[\"kahdeksan\"]}},{\"de\":{\"blue\":[\"uhr\"]},\"lv\":{\"purple\":[\"kahdeksan\"]}},{\"de\":{\"blue\":[\"uhr\"]},\"lv\":{\"purple\":[\"Kelloni\",\"rikki\"]}},{\"de\":{\"blue\":[\"uhr\"]},\"lv\":{\"purple\":[\"kahdeksan\"]}},{\"de\":{\"blue\":[\"uhr\"]},\"lv\":{\"purple\":[\"kahdeksan\"]}},{\"de\":{\"blue\":[\"die Uhr\",\"uhr\"]},\"lv\":{\"purple\":[\"Kello\"]}}],\"tip\":[{\"purple\":[\"Kello\"]}],\"important\":[{\"blue\":[\"die Uhr\"]}]}}",
+    "owner_note": "FI Uhr composite repair: Kell→Kello; examples[5]=Kello; sectionAccents.examples FI-aligned (no kell/kaheksa/aega ET highlights). DE untouched."
+  },
+  "g2/a1/fi|und|idx:612|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI und lv: production Ja already correct Finnish for un (and). DE untouched."
+  },
+  "g2/a1/fi|unser|idx:613|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Meidän",
+    "owner_note": "FI unser lv: ET Meie → FI Meidän. DE untouched."
+  },
+  "g2/a1/fi|unten|idx:614|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Alhaalla",
+    "owner_note": "FI unten lv: ET All → FI Alhaalla. DE untouched."
+  },
+  "g2/a1/fi|Vase|idx:616|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Maljakko",
+    "owner_note": "FI Vase lv: ET Vaas → FI Maljakko. DE untouched."
+  },
+  "g2/a1/fi|Vater|idx:617|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Isä",
+    "owner_note": "FI Vater lv: ET Isa → FI Isä. DE untouched."
+  },
+  "g2/a1/fi|verheiratet|idx:618|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Naimisissa",
+    "owner_note": "FI verheiratet lv: ET Abielus → FI Naimisissa. DE untouched."
+  },
+  "g2/a1/fi|verkaufen|idx:619|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Myydä",
+    "owner_note": "FI verkaufen lv: ET Müüma → FI Myydä. DE untouched."
+  },
+  "g2/a1/fi|verlieren|idx:620|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Menettää",
+    "owner_note": "FI verlieren lv: ET Kaotama → FI Menettää. DE untouched."
+  },
+  "g2/a1/fi|versuchen|idx:622|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yrittää",
+    "owner_note": "FI versuchen lv: ET Üritama → FI Yrittää. DE untouched."
+  },
+  "g2/a1/fi|viel|idx:623|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Paljon",
+    "owner_note": "FI viel lv: ET Palju → FI Paljon. DE untouched."
+  },
+  "g2/a1/fi|vielleicht|idx:624|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ehkä",
+    "owner_note": "FI vielleicht lv: ET Võib-olla → FI Ehkä. DE untouched."
+  },
+  "g2/a1/fi|vier|idx:625|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Neljä",
+    "owner_note": "FI vier lv: ET Neli → FI Neljä. DE untouched."
+  },
+  "g2/a1/fi|vierhundert|idx:626|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Neljäsataa",
+    "owner_note": "FI vierhundert lv: ET Nelisada → FI Neljäsataa. DE untouched."
+  },
+  "g2/a1/fi|vierte|idx:627|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Neljäs",
+    "owner_note": "FI vierte lv: ET Neljas → FI Neljäs. DE untouched."
+  },
+  "g2/a1/fi|vierzehn|idx:628|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Neljätoista",
+    "owner_note": "FI vierzehn lv: ET Neliteist → FI Neljätoista. DE untouched."
+  },
+  "g2/a1/fi|vierzehnte|idx:629|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Neljästoista",
+    "owner_note": "FI vierzehnte lv: ET Neljateistkümnes → FI Neljästoista. DE untouched."
+  },
+  "g2/a1/fi|vierzig|idx:630|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Neljäkymmentä",
+    "owner_note": "FI vierzig lv: ET Nelikümmend → FI Neljäkymmentä. DE untouched."
+  },
+  "g2/a1/fi|vierzigste|idx:631|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Neljäskymmenes",
+    "owner_note": "FI vierzigste lv: ET Neljakümnes → FI Neljäskymmenes. DE untouched."
+  },
+  "g2/a1/fi|Vogel|idx:632|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lintu",
+    "owner_note": "FI Vogel lv: ET Lind → FI Lintu. DE untouched."
+  }
+}
