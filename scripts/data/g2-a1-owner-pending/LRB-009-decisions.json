@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|er|idx:162|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hän",
+    "owner_note": "FI er lv: ET Tema → FI Hän for viņš he pronoun. DE untouched."
+  },
+  "g2/a1/fi|Erbse|idx:163|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Herne",
+    "owner_note": "FI Erbse lv: ET Hernes → FI Herne for zirnis pea. DE untouched."
+  },
+  "g2/a1/fi|Erdbeere|idx:76|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mansikka",
+    "owner_note": "FI Erdbeere lv: ET Maasikas → FI Mansikka for zemene strawberry. DE untouched."
+  },
+  "g2/a1/fi|Erde|idx:164|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Erde lv: Maa is genuine Finnish for zeme earth/land. DE untouched."
+  },
+  "g2/a1/fi|erst|idx:165|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vain • Vasta\",\"study.translation\":\"Vain • Vasta\",\"study.explanation[0]\":\"Pääajatus: erst useimmiten tarkoittaa vain. Tietyissä yhteyksissä se voi tarkoittaa myös ensin.\",\"study.explanation[1]\":\"erst usein osoittaa, että jotain tapahtuu myöhemmin kuin odotettiin.\",\"study.explanation[2]\":\"Ich bin erst 18. — Olen vain 18-vuotias.\",\"study.explanation[3]\":\"Es ist erst Montag. — On vasta maanantai.\",\"study.explanation[4]\":\"Erst lernen, dann spielen. — Ensin opiskella, sitten leikkiä.\",\"study.examples[0].lv\":\"Ensin opiskella, sitten leikkiä.\",\"study.examples[1].lv\":\"Tulen vasta huomenna.\",\"study.examples[2].lv\":\"Hän on vasta 18-vuotias.\",\"study.examples[3].lv\":\"Syömme vasta kahdeksalta.\",\"study.comparison[0].meaning\":\"Vasta • vain\",\"study.comparison[0].example\":\"Erst lernen, dann spielen. – Ensin opiskellaan, sitten leikitään.\",\"study.comparison[1].meaning\":\"Ensin • alussa\",\"study.comparison[1].example\":\"Zuerst frühstücken wir. – Ensin aamiaistamme.\",\"study.comparison[2].meaning\":\"Vain\",\"study.comparison[2].example\":\"Ich habe nur 5 Euro. – Minulla on vain 5 euroa.\",\"study.comparison[3].meaning\":\"Sitten\",\"study.comparison[3].example\":\"Dann gehen wir nach Hause. – Sitten menemme kotiin.\",\"study.tip.text\":\"Muista: aika/määrä → erst; määrärajoitus → nur.\",\"study.important[0]\":\"erst ja nur voivat molemmat kuulostaa \\\"vain\\\", mutta ne eivät ole sama asia.\",\"study.important[1]\":\"erst puhuu usein ajasta, järjestyksestä tai vasta saavutetusta pisteestä; nur rajoittaa määrää.\",\"study.important[2]\":\"zuerst tarkoittaa useimmiten: ensin.\"}",
+    "owner_note": "FI erst PDF reaudit: comparison[0] single DE→FI pair; erst/zuerst/nur/dann contrast; DE↔FI aligned; no scrambled pairs. DE untouched."
+  },
+  "g2/a1/fi|erste|idx:166|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ensimmäinen",
+    "owner_note": "FI erste lv: ET Esimene → FI Ensimmäinen for pirmais first ordinal. DE untouched."
+  },
+  "g2/a1/fi|es|idx:167|lv, study.examples|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Se • Se • Persoonaton muoto\",\"study.translation\":\"Se • Se • Persoonaton muoto\",\"study.examples[0].lv\":\"Sataa.\",\"study.examples[1].lv\":\"On kylmä.\",\"study.examples[2].lv\":\"Lapsi nukkuu.\",\"study.examples[3].lv\":\"Se on väsynyt.\",\"study.examples[4].lv\":\"Sataa.\",\"study.examples[5].lv\":\"Sataa lunta.\"}",
+    "owner_note": "FI es FULL repair: ET See/Ta/Umbisikuline + mismatched examples → FI Se/Persoonaton muoto with DE-aligned weather/impersonal lines. DE untouched."
+  },
+  "g2/a1/fi|Esslöffel|idx:168|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ruokalusikka",
+    "owner_note": "FI Esslöffel lv: ET Supilusikas → FI Ruokalusikka for ēdamkarote tablespoon. DE untouched."
+  },
+  "g2/a1/fi|etwas|idx:169|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Jotain • Vähän\",\"study.translation\":\"Jotain • Vähän\",\"study.explanation[0]\":\"Pääajatus: etwas tarkoittaa kontekstista riippuen jotain tai vähän.\",\"study.explanation[1]\":\"Kun etwas korvaa tuntemattoman asian, suomeksi sanotaan yleensä jotain.\",\"study.explanation[2]\":\"Kun etwas on adjektiivin tai määrän edessä, se tarkoittaa usein vähän.\",\"study.examples[0].lv\":\"Haluaisin juoda jotain.\",\"study.examples[1].lv\":\"Onko sinulla vähän aikaa?\",\"study.examples[2].lv\":\"Olen hieman väsynyt.\",\"study.examples[3].lv\":\"Minulla on sinulle jotain.\",\"study.examples[4].lv\":\"Se on hieman kallis.\",\"study.comparison[0].meaning\":\"Jotain / vähän\",\"study.comparison[0].example\":\"Ich brauche etwas. = Tarvitsen jotain.\",\"study.comparison[1].meaning\":\"Jotain (puhekielessä)\",\"study.comparison[1].example\":\"Willst du was trinken? = Haluatko jotain juoda?\",\"study.comparison[2].meaning\":\"Vähän\",\"study.comparison[2].example\":\"Ich bin ein bisschen müde. = Olen hieman väsynyt.\",\"study.comparison[3].meaning\":\"Ei mitään\",\"study.comparison[3].example\":\"Ich brauche nichts. = En tarvitse mitään.\",\"study.tip.text\":\"Muista: asia → jotain; astetta → vähän.\",\"study.important[0]\":\"etwas ei ole sama kuin nichts: etwas tarkoittaa, että jotain on, mutta nichts tarkoittaa ei mitään.\",\"study.important[1]\":\"Suomeksi joskus kuulostaa paremmin jotain juoda kuin jotain juoda: etwas trinken = jotain juoda.\",\"study.important[2]\":\"Suomeksi joskus kuulostaa paremmin jotain, ei jotkin, esimerkiksi: etwas trinken = jotain juoda.\"}",
+    "owner_note": "FI etwas FULL repair: ET Midagi/Veidi + eesti keeles explanations → FI Jotain/Vähän with natural Finnish study fields. DE untouched."
+  },
+  "g2/a1/fi|euch|idx:170|lv, study.translation, study.examples, study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Teitä • Teille\",\"study.translation\":\"Teitä • Teille\",\"study.examples[0].lv\":\"Näen teid.\",\"study.examples[1].lv\":\"Autan teitä.\",\"study.examples[2].lv\":\"Annan teille kirjan.\",\"study.examples[3].lv\":\"Kiitän teitä.\",\"study.examples[4].lv\":\"Te muistatte.\",\"study.comparison[0].meaning\":\"Te\",\"study.comparison[0].example\":\"Ihr seid freundlich. = Te olette ystävällisiä.\",\"study.comparison[1].meaning\":\"Teitä / teille\",\"study.comparison[1].example\":\"Ich helfe euch. = Autan teitä.\",\"study.comparison[2].meaning\":\"Teidän\",\"study.comparison[2].example\":\"Das ist euer Haus. = Se on teidän talo.\"}",
+    "owner_note": "FI euch FULL repair: ET Teid/Teile examples + comparison → FI Teitä/Teille accusative/dative jūs • jums. DE untouched."
+  },
+  "g2/a1/fi|euer|idx:171|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Teidän",
+    "owner_note": "FI euer lv: ET Teie → FI Teidän for jūsu your possessive plural. DE untouched."
+  },
+  "g2/a1/fi|fahren|idx:172|lv, study.translation, study.explanation, study.examples, study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ajaa • Kuljettaa • Viedä\",\"study.translation\":\"Ajaa • Kuljettaa • Viedä\",\"study.explanation[0]\":\"Pääajatus: fahren tarkoittaa ajaa ajoneuvolla ja joissain lauseissa myös kuljettaa tai viedä jotakuta.\",\"study.explanation[1]\":\"Fahren käytetään, kun liikkuminen tapahtuu autolla, bussilla, junalla, polkupyörällä tai muulla ajoneuvolla.\",\"study.explanation[2]\":\"Kun lauseessa on henkilö objektina, fahren voi tarkoittaa kuljettaa tai viedä.\",\"study.explanation[3]\":\"Kun liikutaan jalan, käytetään yleensä gehen tai laufen.\",\"study.examples[0].lv\":\"Ajan Berliiniin.\",\"study.examples[1].lv\":\"Ajan autolla.\",\"study.examples[2].lv\":\"Vien tyttäreni kouluun.\",\"study.examples[3].lv\":\"Vien sinut kotiin.\",\"study.examples[4].lv\":\"Ajamme huomenna Müncheniin.\",\"study.comparison[0].meaning\":\"Ajaa ajoneuvolla\",\"study.comparison[0].example\":\"Ich fahre mit dem Bus.\",\"study.comparison[1].meaning\":\"Kävellä\",\"study.comparison[1].example\":\"Ich gehe nach Hause.\",\"study.comparison[2].meaning\":\"Juosta / kävellä\",\"study.comparison[2].example\":\"Er läuft schnell.\",\"study.comparison[3].meaning\":\"Tuoda / toimittaa paikalle\",\"study.comparison[3].example\":\"Ich bringe das Buch.\",\"study.comparison[4].meaning\":\"Ottaa mukaan\",\"study.comparison[4].example\":\"Ich nehme dich mit.\"}",
+    "owner_note": "FI fahren FULL repair: ET Sõitma/Vedama/Ära viima + examples → FI Ajaa/Kuljettaa/Viedä for braukt. DE untouched."
+  },
+  "g2/a1/fi|falsch|idx:173|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Väärä",
+    "owner_note": "FI falsch lv: ET Vale → FI Väärä for nepareizs wrong. DE untouched."
+  },
+  "g2/a1/fi|Familie|idx:174|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Perhe",
+    "owner_note": "FI Familie lv: ET Perekond → FI Perhe for ģimene family. DE untouched."
+  },
+  "g2/a1/fi|Farbe|idx:176|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Väri",
+    "owner_note": "FI Farbe lv: ET Värv → FI Väri for krāsa color. DE untouched."
+  },
+  "g2/a1/fi|fast|idx:177|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lähes",
+    "owner_note": "FI fast lv: ET Peaaegu → FI Lähes for gandrīz almost. DE untouched."
+  },
+  "g2/a1/fi|Februar|idx:178|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Helmikuu",
+    "owner_note": "FI Februar lv: ET Veebruar → FI Helmikuu for februāris February. DE untouched."
+  },
+  "g2/a1/fi|Fehler|idx:179|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Virhe",
+    "owner_note": "FI Fehler lv: ET Viga → FI Virhe for kļūda error. DE untouched."
+  },
+  "g2/a1/fi|Fenster|idx:180|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ikkuna",
+    "owner_note": "FI Fenster lv: ET Aken → FI Ikkuna for logs window. DE untouched."
+  },
+  "g2/a1/fi|finden|idx:187|lv, study.translation, study.explanation, study.examples, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Löytää • Pitää\",\"study.translation\":\"Löytää • Pitää\",\"study.explanation[0]\":\"Pääajatus: finden tarkoittaa useimmiten löytää.\",\"study.explanation[1]\":\"Keskusteluissa finden tarkoittaa hyvin usein myös pitää jotakin jonakin tai ajatella jotakin.\",\"study.explanation[2]\":\"Kun puhutaan kadonneesta asiasta, käännetään löytää.\",\"study.explanation[3]\":\"Kun puhutaan mielipiteestä, käännetään pitää tai tuntua.\",\"study.examples[0].lv\":\"Löydän avaimeni.\",\"study.examples[1].lv\":\"Pidän siitä.\",\"study.examples[2].lv\":\"Mitä mieltä olet elokuvasta?\",\"study.examples[3].lv\":\"Miltä elokuva sinusta tuntuu?\",\"study.important[0]\":\"finden ei ole pelkästään \\\"löytää\\\".\",\"study.important[1]\":\"Ich finde das gut tarkoittaa \\\"pidän siitä\\\", ei \\\"löydän sen hyväksi\\\".\"}",
+    "owner_note": "FI finden FULL repair: ET Leidma/Arvama + mismatched examples → FI Löytää/Pitää find vs opinion for atrast. DE untouched."
+  },
+  "g2/a1/fi|Frau|idx:198|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Nainen • Vaimo\",\"study.translation\":\"Nainen • Vaimo\",\"study.explanation[0]\":\"Pääajatus: die Frau voi tarkoittaa naista (sukupuoli) tai vaimoa (puoliso).\",\"study.explanation[1]\":\"Kun puhutaan sukupuolesta tai henkilöstä, die Frau = nainen.\",\"study.explanation[2]\":\"Kun puhutaan puolisosta, die Frau = vaimo (meine Frau = vaimoni).\",\"study.explanation[3]\":\"Omistuspronomini (meine/deine/seine Frau) tarkoittaa lähes aina vaimoa — puolisoa.\",\"study.explanation[4]\":\"Monikossa: die Frauen.\",\"study.explanation[5]\":\"Miespuolisella der Mann on sama kaksiselitteinen merkitys: mies JA aviomies.\",\"study.examples[0].lv\":\"Hän on mukava nainen.\",\"study.examples[1].lv\":\"Tämä on vaimoni.\",\"study.examples[2].lv\":\"Kuinka monta naista on täällä?\",\"study.examples[3].lv\":\"Vaimoni työskentelee Berliinissä.\",\"study.examples[4].lv\":\"Nainen käyttää mekkoa.\",\"study.examples[5].lv\":\"Hänen vaimonsa on lääkäri.\",\"study.tip[0]\":\"Omistuspronominilla (meine/deine/seine Frau) tarkoitetaan lähes aina vaimoa (puolisoa).\",\"study.tip[1]\":\"Ilman omistuspronominia (die Frau, eine Frau) tarkoitetaan yleensä naista.\",\"study.important[0]\":\"die Frau = nainen TAI vaimo — riippuen kontekstista.\",\"study.important[1]\":\"meine Frau = vaimoni (ei \\\"minun naiseni\\\").\",\"study.important[2]\":\"Monikossa: die Frauen.\"}",
+    "owner_note": "FI Frau FULL repair: ET Naine/Abikaasa + examples → FI Nainen/Vaimo woman vs wife for sieviete. DE untouched."
+  },
+  "g2/a1/fi|fünf|idx:209|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Viisi",
+    "owner_note": "FI fünf lv: ET Viis → FI Viisi for pieci five. DE untouched."
+  },
+  "g2/a1/fi|fünfhundert|idx:210|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Viisisataa",
+    "owner_note": "FI fünfhundert lv: ET Viissada → FI Viisisataa for piecsimt five hundred. DE untouched."
+  },
+  "g2/a1/fi|fünfte|idx:211|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Viides",
+    "owner_note": "FI fünfte lv: ET Viies → FI Viides for piektais fifth ordinal. DE untouched."
+  },
+  "g2/a1/fi|fünfzehn|idx:212|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Viisitoista",
+    "owner_note": "FI fünfzehn lv: ET Viisteist → FI Viisitoista for piecpadsmit fifteen. DE untouched."
+  },
+  "g2/a1/fi|fünfzehnte|idx:213|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Viidestoista",
+    "owner_note": "FI fünfzehnte lv: ET Viieteistkümnes → FI Viidestoista for piecpadsmitais fifteenth. DE untouched."
+  },
+  "g2/a1/fi|fünfzig|idx:214|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Viisikymmentä",
+    "owner_note": "FI fünfzig lv: ET Viiskümmend → FI Viisikymmentä for piecdesmit fifty. DE untouched."
+  },
+  "g2/a1/fi|fünfzigste|idx:215|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Viideskymmenes",
+    "owner_note": "FI fünfzigste lv: ET Viiekümnes → FI Viideskymmenes for piecdesmitais fiftieth. DE untouched."
+  },
+  "g2/a1/fi|für|idx:216|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Varten • Puolesta\",\"study.translation\":\"Varten • Puolesta\",\"study.explanation[0]\":\"Pääajatus: für on prepositio, joka vaatii aina akkusatiivin — suomeksi yleensä varten tai puolesta.\",\"study.explanation[1]\":\"Kun puhutaan vastaanottajasta tai tarkoituksesta, für = varten (für dich = sinulle).\",\"study.explanation[2]\":\"Kun puhutaan vaihdosta, maksusta tai syystä, für = puolesta (danke für das Geschenk = kiitos lahjasta).\",\"study.explanation[3]\":\"Für vaatii aina akkusatiivin riippumatta merkityksestä.\",\"study.examples[0].lv\":\"Tämä on sinulle.\",\"study.examples[1].lv\":\"Kiitos avusta.\",\"study.examples[2].lv\":\"Ostan lahjan äidilleni.\",\"study.examples[3].lv\":\"Kuinka paljon maksat autosta?\",\"study.examples[4].lv\":\"Kirja on lapsille.\",\"study.examples[5].lv\":\"Tälle päivälle se riittää.\",\"study.tip[0]\":\"für aina vaatii akkusatiivin riippumatta merkityksestä.\",\"study.tip[1]\":\"Vastaanottaja/tarkoitus → varten; vaihto/syy/maksu → puolesta.\",\"study.important[0]\":\"für + akkusatiivi aina, esimerkiksi für mich, für dich, für das Kind.\",\"study.important[1]\":\"danke für / bezahlen für = 'puolesta', ei 'varten'.\"}",
+    "owner_note": "FI für FULL repair: ET Jaoks/Eest + examples → FI Varten/Puolesta for priekš for/benefit. DE untouched."
+  },
+  "g2/a1/fi|Fuß|idx:217|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jalka",
+    "owner_note": "FI Fuß lv: ET Jalg → FI Jalka for pēda foot. DE untouched."
+  },
+  "g2/a1/fi|Fußball|idx:218|lv, study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[1].meaning\":\"Kaikki\"}",
+    "owner_note": "FI Fußball micro-repair: study already genuine Finnish; comparison[1] ET Kõik → FI Kaikki for alles contrast. DE untouched."
+  },
+  "g2/a1/fi|ganz|idx:219|lv, study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Koko • Täysin\",\"study.translation\":\"Koko • Täysin\",\"study.comparison[1].meaning\":\"Kaikki\"}",
+    "owner_note": "FI ganz FULL repair: lv ET Terve (wrong sense) → FI Koko/Täysin for vesels whole; comparison ET Kõik → Kaikki. DE untouched."
+  },
+  "g2/a1/fi|Garage|idx:220|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Autotalli",
+    "owner_note": "FI Garage lv: ET Garaaž → FI Autotalli for garāža garage. DE untouched."
+  },
+  "g2/a1/fi|Garten|idx:221|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Puutarha",
+    "owner_note": "FI Garten lv: ET Aed → FI Puutarha for dārzs garden. DE untouched."
+  },
+  "g2/a1/fi|Gast|idx:222|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vieras",
+    "owner_note": "FI Gast lv: ET Külaline → FI Vieras for viesis guest. DE untouched."
+  },
+  "g2/a1/fi|geben|idx:223|lv, study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Antaa\",\"study.translation\":\"Antaa\",\"study.explanation[0]\":\"Pääajatus: geben tarkoittaa antamista.\",\"study.explanation[1]\":\"Geben käytetään, kun joku antaa jotain toiselle henkilölle.\",\"study.explanation[2]\":\"Se on vastakkainen suunta verbiin nehmen.\",\"study.explanation[3]\":\"Bekommen tarkoittaa saada, eli olla se, joka saa jotain käsiinsä.\",\"study.examples[0].lv\":\"Anna minulle kirja, ole hyvä.\",\"study.examples[1].lv\":\"Annan sinulle numeroni.\",\"study.examples[2].lv\":\"Otan kirjan.\",\"study.examples[3].lv\":\"Saan lahjan.\",\"study.comparison[0].meaning\":\"Antaa\",\"study.comparison[0].example\":\"Gib mir das Buch.\",\"study.comparison[1].meaning\":\"Ottaa\",\"study.comparison[1].example\":\"Ich nehme das Buch.\",\"study.comparison[2].meaning\":\"Saada\",\"study.comparison[2].example\":\"Ich bekomme ein Geschenk.\",\"study.comparison[3].meaning\":\"Tuoda / toimittaa paikalle\",\"study.comparison[3].example\":\"Ich bringe dir das Buch.\",\"study.tip.text\":\"Muista: antaa pois → geben; ottaa itselleen → nehmen.\",\"study.important[0]\":\"geben ja nehmen ovat vastakkaisia suuntia.\",\"study.important[1]\":\"bekommen tarkoittaa saada, ei antaa.\"}",
+    "owner_note": "FI geben FULL repair: ET Andma + examples/comparison/tip → FI Antaa give for dot. DE untouched."
+  },
+  "g2/a1/fi|geboren|idx:224|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Syntynyt",
+    "owner_note": "FI geboren lv: ET Sündinud → FI Syntynyt for dzimis born. DE untouched."
+  },
+  "g2/a1/fi|gefallen|idx:225|lv, study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Miellyttää\",\"study.translation\":\"Miellyttää\"}",
+    "owner_note": "FI gefallen micro-repair: ET Meeldima headword → FI Miellyttää; study content already natural Finnish for patikt. DE untouched."
+  },
+  "g2/a1/fi|gegen|idx:226|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vastaan",
+    "owner_note": "FI gegen lv: ET Vastu → FI Vastaan for pret against. DE untouched."
+  },
+  "g2/a1/fi|gehen|idx:227|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mennä",
+    "owner_note": "FI gehen lv: ET Minema → FI Mennä for iet go/walk. DE untouched."
+  },
+  "g2/a1/fi|gelb|idx:228|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Keltainen",
+    "owner_note": "FI gelb lv: ET Kollane → FI Keltainen for dzeltens yellow. DE untouched."
+  },
+  "g2/a1/fi|Geld|idx:229|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Geld lv: Raha is genuine Finnish for nauda money. DE untouched."
+  },
+  "g2/a1/fi|genug|idx:230|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tarpeeksi",
+    "owner_note": "FI genug lv: ET Piisavalt → FI Tarpeeksi for pietiekami enough. DE untouched."
+  },
+  "g2/a1/fi|geradeaus|idx:231|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Suoraan eteenpäin",
+    "owner_note": "FI geradeaus lv: ET Otse edasi → FI Suoraan eteenpäin for taisni uz priekšu straight ahead. DE untouched."
+  },
+  "g2/a1/fi|gern|idx:232|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mielellään",
+    "owner_note": "FI gern lv: ET Meelsasti → FI Mielellään for labprāt gladly. DE untouched."
+  },
+  "g2/a1/fi|Geschichte|idx:233|lv, study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.tip[0]\":\"eine Geschichte ja die Geschichten tarkoittavat yleensä tarinaa tai tarinoita.\",\"study.tip[1]\":\"Oppiaineena tai historiallisessa merkityksessä Geschichte tarkoittaa historiaa.\"}",
+    "owner_note": "FI Geschichte PDF reaudit: tip distinguishes tarina/tarinat vs historia; keine Widersprüche tip/explanation/comparison. DE untouched."
+  },
+  "g2/a1/fi|Geschwister|idx:234|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[1].meaning\":\"Veli\",\"study.comparison[2].meaning\":\"Sisko\"}",
+    "owner_note": "FI Geschwister micro-repair: study already FI; comparison ET Vend/Õde → FI Veli/Sisko for brālis/māsa. DE untouched."
+  },
+  "g2/a1/fi|Gesicht|idx:235|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kasvot",
+    "owner_note": "FI Gesicht lv: ET Nägu → FI Kasvot for seja face. DE untouched."
+  },
+  "g2/a1/fi|gestern|idx:236|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Eilen",
+    "owner_note": "FI gestern lv: ET Eile → FI Eilen for vakar yesterday. DE untouched."
+  },
+  "g2/a1/fi|gesund|idx:237|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI gesund lv: Terve is genuine Finnish for vesels healthy. DE untouched."
+  }
+}
