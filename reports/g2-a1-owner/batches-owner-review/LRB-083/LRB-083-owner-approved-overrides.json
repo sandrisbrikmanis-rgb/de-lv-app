@@ -1,0 +1,3289 @@
+{
+  "batchId": "LRB-083",
+  "sourceCommit": "542ed4f7a9885141e7a89276bb3aeeb8874c7bb3",
+  "reviewer": "GPT-5.6 Luna",
+  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_2",
+  "correctionRound": 2,
+  "cards": [
+    {
+      "auditId": "LRB083-0001",
+      "cardId": "verstehen|idx:621",
+      "status": "LABOT",
+      "reason": "Pilna RO kartīte «verstehen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "verstehen",
+        "level": "A1",
+        "lv": "A înțelege",
+        "study": {
+          "id": "a1-verstehen",
+          "layout": "standardStudy",
+          "translation": "A înțelege",
+          "explanation": [
+            "Ideea principală: verstehen înseamnă «a înțelege».",
+            "Se folosește când înțelegi o limbă, o persoană, un text sau o situație.",
+            "Pentru capacitatea de a face ceva se folosește mai curând können.",
+            "O expresie foarte frecventă este Ich verstehe. = Înțeleg."
+          ],
+          "examples": [
+            {
+              "de": "Ich verstehe dich.",
+              "lv": "Te înțeleg."
+            },
+            {
+              "de": "Verstehst du Deutsch?",
+              "lv": "Înțelegi germana?"
+            },
+            {
+              "de": "Ich verstehe das nicht.",
+              "lv": "Nu înțeleg asta."
+            },
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Știu să vorbesc germană."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "verstehen",
+              "meaning": "A înțelege",
+              "example": "Ich verstehe dich. – Te înțeleg."
+            },
+            {
+              "word": "können",
+              "meaning": "A putea • A ști să",
+              "example": "Ich kann schwimmen. – Știu să înot."
+            },
+            {
+              "word": "wissen",
+              "meaning": "A ști un fapt",
+              "example": "Ich weiß das. – Știu asta."
+            },
+            {
+              "word": "kennen",
+              "meaning": "A cunoaște",
+              "example": "Ich kenne ihn. – Îl cunosc."
+            }
+          ],
+          "tip": {
+            "text": "Reține: a înțelege un text sau o persoană → verstehen; a ști să faci ceva → können."
+          },
+          "important": [
+            "verstehen nu înseamnă în primul rând «a ști să».",
+            "Ich verstehe Deutsch înseamnă «Înțeleg germana»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0002",
+      "cardId": "vom|idx:634",
+      "status": "LABOT",
+      "reason": "Pilna RO kartīte «vom»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "vom",
+        "level": "A1",
+        "lv": "De la",
+        "study": {
+          "id": "a1-vom",
+          "layout": "standardStudy",
+          "translation": "De la",
+          "explanation": [
+            "vom este contragerea prepoziției von cu articolul dem.",
+            "Forma completă este von dem, cu dativul.",
+            "Se folosește cu substantive masculine și neutre pentru a indica originea, sursa sau direcția dinspre ceva.",
+            "Răspunde la întrebările «de la cine?» sau «de unde?». ",
+            "În practică se folosește aproape întotdeauna vom, nu forma necontractată von dem."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme vom Bahnhof.",
+              "lv": "Vin de la gară."
+            },
+            {
+              "de": "Das Geschenk ist vom Vater.",
+              "lv": "Cadoul este de la tată."
+            },
+            {
+              "de": "Er kommt vom Arzt.",
+              "lv": "El vine de la medic."
+            },
+            {
+              "de": "Sie fährt vom Flughafen.",
+              "lv": "Ea pleacă de la aeroport."
+            },
+            {
+              "de": "Das ist vom Markt.",
+              "lv": "Asta este de la piață."
+            },
+            {
+              "de": "Wir kommen vom Fest.",
+              "lv": "Venim de la petrecere."
+            },
+            {
+              "de": "Er holt Milch vom Bauern.",
+              "lv": "El ia lapte de la fermier."
+            },
+            {
+              "de": "Die Nachricht ist vom Chef.",
+              "lv": "Mesajul este de la șef."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vom",
+              "meaning": "De la • Dinspre (cu articolul dem)",
+              "example": "vom Bahnhof – de la gară"
+            },
+            {
+              "word": "von",
+              "meaning": "De la • Din partea",
+              "example": "von mir – de la mine"
+            },
+            {
+              "word": "aus",
+              "meaning": "Din interior • Dintr-o țară",
+              "example": "aus Deutschland – din Germania"
+            },
+            {
+              "word": "ab",
+              "meaning": "Începând de la (timp sau loc)",
+              "example": "ab Montag – de luni"
+            },
+            {
+              "word": "zu",
+              "meaning": "La • Către",
+              "example": "zum Arzt – la medic"
+            }
+          ],
+          "tip": [
+            "Reține: von + dem → vom.",
+            "În limba curentă se folosește contragerea vom."
+          ],
+          "important": [
+            "vom = von dem și se folosește cu substantive masculine sau neutre la dativ.",
+            "Indică originea, sursa sau direcția dinspre ceva concret.",
+            "La feminin se spune von der Mutter, nu vom Mutter.",
+            "Nu confunda vom cu aus sau ab."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0003",
+      "cardId": "vor|idx:636",
+      "status": "LABOT",
+      "reason": "Pilna RO kartīte «vor»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "vor",
+        "level": "A1",
+        "lv": "Înainte de • În fața",
+        "study": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "Înainte de • În fața",
+          "explanation": [
+            "Ideea principală: vor înseamnă «înainte de» în timp sau «în fața» în spațiu.",
+            "Pentru timp, vor se traduce prin «înainte de».",
+            "Pentru loc, vor se traduce prin «în fața».",
+            "La indicarea orei, vor înseamnă «fără», de exemplu fünf vor acht."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "Înainte de masă mă spăl pe mâini."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "Mașina este în fața casei."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "Este opt fără cinci."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "După masă mergem la plimbare."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "Înainte de • În fața",
+              "example": "Vor dem Essen... – Înainte de masă..."
+            },
+            {
+              "word": "nach",
+              "meaning": "După • Spre",
+              "example": "Nach dem Essen... – După masă..."
+            },
+            {
+              "word": "neben",
+              "meaning": "Lângă",
+              "example": "Neben dem Haus. – Lângă casă."
+            },
+            {
+              "word": "hinter",
+              "meaning": "În spatele",
+              "example": "Hinter dem Haus. – În spatele casei."
+            }
+          ],
+          "tip": {
+            "text": "Reține: înainte în timp, în față în spațiu → vor."
+          },
+          "important": [
+            "vor poate exprima atât timpul, cât și locul.",
+            "vor dem Essen = înainte de masă; vor dem Haus = în fața casei."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0004",
+      "cardId": "was|idx:644",
+      "status": "LABOT",
+      "reason": "Pilna RO kartīte «was»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "was",
+        "level": "A1",
+        "lv": "Ce",
+        "study": {
+          "id": "a1-was",
+          "layout": "standardStudy",
+          "translation": "Ce",
+          "explanation": [
+            "Ideea principală: was este un cuvânt interogativ referitor la lucruri, evenimente și fapte.",
+            "was nu se folosește pentru persoane.",
+            "În germană, forma was nu se schimbă după caz.",
+            "Ca subiect sau complement, în română se traduce de regulă prin «ce».",
+            "În funcție de rolul din propoziție, răspunsul poate desemna subiectul sau obiectul acțiunii.",
+            "Pentru persoane se folosește wer, nu was."
+          ],
+          "examples": [
+            {
+              "de": "Was ist das?",
+              "lv": "Ce este asta?"
+            },
+            {
+              "de": "Was ist passiert?",
+              "lv": "Ce s-a întâmplat?"
+            },
+            {
+              "de": "Was machst du gerade?",
+              "lv": "Ce faci acum?"
+            },
+            {
+              "de": "Was möchtest du trinken?",
+              "lv": "Ce ai vrea să bei?"
+            },
+            {
+              "de": "Was bedeutet dieses Wort?",
+              "lv": "Ce înseamnă acest cuvânt?"
+            },
+            {
+              "de": "Was ist dein Lieblingsessen?",
+              "lv": "Care este mâncarea ta preferată?"
+            },
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Ce ai spus?"
+            }
+          ],
+          "tip": [
+            "was rămâne neschimbat în germană și se traduce de obicei prin «ce».",
+            "Pentru persoane folosește wer."
+          ],
+          "important": [
+            "was întreabă despre lucruri, evenimente și fapte, nu despre persoane.",
+            "Pentru persoane se folosește wer.",
+            "was für (ein/eine) înseamnă «ce fel de». ",
+            "Corect: Was ist passiert?; nu Wer ist passiert?"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0005",
+      "cardId": "wenn|idx:655",
+      "status": "LABOT",
+      "reason": "Pilna RO kartīte «wenn»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "wenn",
+        "level": "A1",
+        "lv": "Dacă • Când",
+        "study": {
+          "id": "a1-wenn",
+          "layout": "standardStudy",
+          "translation": "Dacă • Când",
+          "explanation": [
+            "Ideea principală: wenn înseamnă «dacă» sau «când», în funcție de context.",
+            "Pentru o condiție, se traduce prin «dacă».",
+            "Pentru o situație repetată sau generală în timp, se traduce prin «când». ",
+            "În propoziția introdusă de wenn, verbul german stă de obicei la sfârșit."
+          ],
+          "examples": [
+            {
+              "de": "Wenn du Zeit hast, komm vorbei.",
+              "lv": "Dacă ai timp, treci pe la mine."
+            },
+            {
+              "de": "Wenn es regnet, bleibe ich zu Hause.",
+              "lv": "Dacă plouă, rămân acasă."
+            },
+            {
+              "de": "Wenn ich müde bin, trinke ich Kaffee.",
+              "lv": "Când sunt obosit, beau cafea."
+            },
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Nu știu dacă vine."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wenn",
+              "meaning": "Dacă • Când",
+              "example": "Wenn du Zeit hast... – Dacă ai timp..."
+            },
+            {
+              "word": "ob",
+              "meaning": "Dacă (întrebare indirectă)",
+              "example": "Ich weiß nicht, ob... – Nu știu dacă..."
+            },
+            {
+              "word": "wann",
+              "meaning": "Când? (întrebare)",
+              "example": "Wann kommst du? – Când vii?"
+            },
+            {
+              "word": "weil",
+              "meaning": "Pentru că",
+              "example": "Ich bleibe, weil ich krank bin. – Rămân pentru că sunt bolnav."
+            }
+          ],
+          "tip": {
+            "text": "Reține: condiție sau situație repetată → wenn; întrebarea «când?» → wann."
+          },
+          "important": [
+            "wenn și wann nu sunt același lucru.",
+            "Wann kommst du? este o întrebare; Wenn du kommst... introduce o condiție sau un reper temporal."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0006",
+      "cardId": "wer|idx:656",
+      "status": "LABOT",
+      "reason": "Pilna RO kartīte «wer»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "wer",
+        "level": "A1",
+        "lv": "Cine",
+        "study": {
+          "id": "a1-wer",
+          "layout": "standardStudy",
+          "translation": "Cine",
+          "explanation": [
+            "Ideea principală: wer întreabă despre identitatea unei persoane.",
+            "Se folosește pentru persoane, nu pentru lucruri sau evenimente.",
+            "Pentru lucruri și evenimente se folosește was.",
+            "wer este forma de nominativ: Wer ist das? = Cine este?",
+            "Pentru alegerea dintre mai multe persoane se poate spune wer von euch = care dintre voi.",
+            "Formele după caz sunt wen, wem și wessen."
+          ],
+          "examples": [
+            {
+              "de": "Wer ist das?",
+              "lv": "Cine este?"
+            },
+            {
+              "de": "Wer bist du?",
+              "lv": "Cine ești?"
+            },
+            {
+              "de": "Wer kommt heute?",
+              "lv": "Cine vine astăzi?"
+            },
+            {
+              "de": "Wer ist deine Lehrerin?",
+              "lv": "Cine este profesoara ta?"
+            },
+            {
+              "de": "Wer von euch spricht Deutsch?",
+              "lv": "Care dintre voi vorbește germană?"
+            },
+            {
+              "de": "Wer hat das gesagt?",
+              "lv": "Cine a spus asta?"
+            },
+            {
+              "de": "Wer möchte Kaffee?",
+              "lv": "Cine dorește cafea?"
+            }
+          ],
+          "tip": [
+            "wer întreabă despre persoane; pentru lucruri și evenimente se folosește was.",
+            "Pentru o alegere între persoane: wer von... = care dintre..."
+          ],
+          "important": [
+            "wer se referă numai la persoane.",
+            "Pentru lucruri și evenimente se folosește was.",
+            "Formele flexionate sunt wen, wem și wessen; forma de bază este wer.",
+            "Corect: Was ist passiert?; nu Wer ist passiert?"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0007",
+      "cardId": "werden|idx:657",
+      "status": "LABOT",
+      "reason": "Pilna RO kartīte «werden»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "werden",
+        "level": "A1",
+        "lv": "A deveni",
+        "study": {
+          "id": "a1-werden",
+          "layout": "standardStudy",
+          "translation": "A deveni",
+          "explanation": [
+            "Ideea principală: la nivelul A1, werden înseamnă cel mai des «a deveni».",
+            "Se folosește când ceva se schimbă sau ajunge într-o altă stare.",
+            "În alte construcții, werden este folosit și pentru viitor și diateza pasivă.",
+            "O propoziție importantă este Ich werde müde. = Devin obosit."
+          ],
+          "examples": [
+            {
+              "de": "Ich werde müde.",
+              "lv": "Devin obosit."
+            },
+            {
+              "de": "Es wird kalt.",
+              "lv": "Se face frig."
+            },
+            {
+              "de": "Sie wird Ärztin.",
+              "lv": "Ea devine medic."
+            },
+            {
+              "de": "Ich bin müde.",
+              "lv": "Sunt obosit."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "werden",
+              "meaning": "A deveni",
+              "example": "Ich werde müde. – Devin obosit."
+            },
+            {
+              "word": "sein",
+              "meaning": "A fi",
+              "example": "Ich bin müde. – Sunt obosit."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "A rămâne",
+              "example": "Ich bleibe hier. – Rămân aici."
+            },
+            {
+              "word": "machen",
+              "meaning": "A face",
+              "example": "Ich mache das. – Fac asta."
+            }
+          ],
+          "tip": {
+            "text": "Reține: o schimbare de stare → werden."
+          },
+          "important": [
+            "werden nu este același lucru cu sein.",
+            "Ich werde müde = Devin obosit; Ich bin müde = Sunt obosit."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0008",
+      "cardId": "Wetter|idx:658",
+      "status": "LABOT",
+      "reason": "Pilna RO kartīte «Wetter»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Wetter",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Vreme",
+        "study": {
+          "id": "a1-wetter",
+          "layout": "standardStudy",
+          "translation": "Vreme",
+          "explanation": [
+            "Ideea principală: das Wetter înseamnă vremea de afară.",
+            "În germană, Wetter este vremea, iar Zeit este timpul.",
+            "Pentru soare, ploaie, frig sau căldură se folosește das Wetter.",
+            "Întrebarea frecventă este Wie ist das Wetter heute?",
+            "Nu confunda das Wetter cu die Zeit."
+          ],
+          "examples": [
+            {
+              "de": "Wie ist das Wetter heute?",
+              "lv": "Cum este vremea astăzi?"
+            },
+            {
+              "de": "Das Wetter ist schön.",
+              "lv": "Vremea este frumoasă."
+            },
+            {
+              "de": "Das Wetter ist schlecht.",
+              "lv": "Vremea este rea."
+            },
+            {
+              "de": "Im Winter ist das Wetter oft kalt.",
+              "lv": "Iarna, vremea este adesea rece."
+            },
+            {
+              "de": "Wir sprechen über das Wetter.",
+              "lv": "Vorbim despre vreme."
+            },
+            {
+              "de": "Morgen wird das Wetter besser.",
+              "lv": "Mâine vremea va fi mai bună."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Wetter",
+              "meaning": "Vreme",
+              "example": "Das Wetter ist schön. – Vremea este frumoasă."
+            },
+            {
+              "word": "Zeit",
+              "meaning": "Timp",
+              "example": "Ich habe keine Zeit. – Nu am timp."
+            },
+            {
+              "word": "Regen",
+              "meaning": "Ploaie",
+              "example": "Es gibt viel Regen. – Plouă mult."
+            },
+            {
+              "word": "Sonne",
+              "meaning": "Soare",
+              "example": "Die Sonne scheint. – Soarele strălucește."
+            }
+          ],
+          "tip": [
+            "Pentru soare, ploaie sau temperatura de afară folosește das Wetter.",
+            "Wie ist das Wetter? = Cum este vremea?"
+          ],
+          "important": [
+            "das Wetter = vreme, nu timpul indicat de ceas.",
+            "die Zeit = timp; este un alt cuvânt."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0009",
+      "cardId": "wie|idx:660",
+      "status": "LABOT",
+      "reason": "Pilna RO kartīte «wie»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "wie",
+        "level": "A1",
+        "lv": "Cum • Cât",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "Cum • Cât",
+          "explanation": [
+            "Ideea principală: wie întreabă despre fel sau calitate («cum») și, în unele construcții, despre cantitate («cât»).",
+            "wie singur întreabă de obicei «cum». ",
+            "wie + adjectiv sau adverb, ca wie viel, wie alt și wie lange, înseamnă «cât». ",
+            "wie viel(e) înseamnă «cât» sau «câți»; wie alt întreabă vârsta; wie lange întreabă durata.",
+            "În comparații, so ... wie înseamnă «la fel de ... ca»."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Cum te simți?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Cum te numești?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Cât costă asta?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Câți ani ai?"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Cât durează filmul?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Este la fel de înalt ca tatăl său."
+            }
+          ],
+          "tip": [
+            "wie singur = cum; wie + viel/alt/lange = cât.",
+            "În comparații: so ... wie = la fel de ... ca."
+          ],
+          "important": [
+            "wie viel(e) = cât; wie alt = câți ani; wie lange = cât timp.",
+            "wie singur înseamnă de obicei «cum».",
+            "Wie geht es dir? = Cum te simți?"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0010",
+      "cardId": "zu|idx:668",
+      "status": "LABOT",
+      "reason": "Pilna RO kartīte «zu»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "zu",
+        "level": "A1",
+        "lv": "La • Către",
+        "study": {
+          "id": "a1-zu",
+          "layout": "standardStudy",
+          "translation": "La • Către",
+          "explanation": [
+            "Ideea principală: zu înseamnă adesea «la» sau «către», dar are și alte funcții.",
+            "Cu persoane și instituții, zu indică direcția către acestea.",
+            "Înaintea adjectivelor, zu poate însemna «prea».",
+            "În construcția zu + infinitiv, marchează infinitivul: zu lernen, zu gehen."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Merg la medic."
+            },
+            {
+              "de": "Wir gehen zur Schule.",
+              "lv": "Mergem la școală."
+            },
+            {
+              "de": "Das ist zu teuer.",
+              "lv": "Este prea scump."
+            },
+            {
+              "de": "Ich habe keine Zeit zu lernen.",
+              "lv": "Nu am timp să învăț."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zu",
+              "meaning": "La • Către • Prea • Marcă a infinitivului",
+              "example": "Ich gehe zum Arzt. – Merg la medic."
+            },
+            {
+              "word": "nach",
+              "meaning": "Spre (cu orașe și țări)",
+              "example": "Ich fahre nach Berlin. – Merg la Berlin."
+            },
+            {
+              "word": "in",
+              "meaning": "În • Înăuntru",
+              "example": "Ich gehe in die Schule. – Intru în școală."
+            },
+            {
+              "word": "bei",
+              "meaning": "La cineva • La locul de muncă",
+              "example": "Ich bin bei Anna. – Sunt la Anna."
+            }
+          ],
+          "tip": {
+            "text": "Reține: la medic → zum Arzt; prea scump → zu teuer."
+          },
+          "important": [
+            "zu are mai multe utilizări; urmărește construcția.",
+            "zu teuer înseamnă «prea scump»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0011",
+      "cardId": "Zug|idx:671",
+      "status": "LABOT",
+      "reason": "Pilna RO kartīte «Zug»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Zug",
+        "de_article": "der",
+        "de_plural": "die Züge",
+        "level": "A1",
+        "lv": "Tren",
+        "study": {
+          "id": "a1-zug",
+          "layout": "standardStudy",
+          "translation": "Tren",
+          "explanation": [
+            "Ideea principală: la nivelul A1, der Zug înseamnă cel mai des «tren». ",
+            "Se folosește în situații cotidiene despre călătorie, sosire și plecare.",
+            "Zug are și alte sensuri, dar acestea nu sunt sensurile principale la A1.",
+            "Expresii frecvente sunt mit dem Zug fahren și Der Zug kommt."
+          ],
+          "examples": [
+            {
+              "de": "Der Zug kommt um acht Uhr.",
+              "lv": "Trenul sosește la ora opt."
+            },
+            {
+              "de": "Ich fahre mit dem Zug.",
+              "lv": "Călătoresc cu trenul."
+            },
+            {
+              "de": "Der Zug ist voll.",
+              "lv": "Trenul este plin."
+            },
+            {
+              "de": "Der Bus kommt später.",
+              "lv": "Autobuzul sosește mai târziu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Zug",
+              "meaning": "Tren",
+              "example": "Der Zug kommt. – Trenul sosește."
+            },
+            {
+              "word": "die Bahn",
+              "meaning": "Cale ferată • Transport feroviar",
+              "example": "Ich fahre mit der Bahn. – Călătoresc cu trenul."
+            },
+            {
+              "word": "der Bus",
+              "meaning": "Autobuz",
+              "example": "Der Bus kommt. – Autobuzul sosește."
+            },
+            {
+              "word": "die Straßenbahn",
+              "meaning": "Tramvai",
+              "example": "Die Straßenbahn ist hier. – Tramvaiul este aici."
+            }
+          ],
+          "tip": {
+            "text": "Reține: un tren concret → der Zug."
+          },
+          "important": [
+            "În această fișă, der Zug înseamnă «tren».",
+            "Sensurile mai rare nu sunt necesare în titlul A1."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0012",
+      "cardId": "zum|idx:672",
+      "status": "LABOT",
+      "reason": "Pilna RO kartīte «zum»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "zum",
+        "level": "A1",
+        "lv": "La • Către",
+        "study": {
+          "id": "a1-zum",
+          "layout": "standardStudy",
+          "translation": "La • Către",
+          "explanation": [
+            "zum este contragerea prepoziției zu cu articolul dem.",
+            "Forma completă este zu dem, cu dativul.",
+            "Se folosește cu substantive masculine și neutre pentru direcție sau scop.",
+            "În română se traduce adesea prin «la» sau «către». ",
+            "În practică se folosește aproape întotdeauna zum, nu zu dem."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Merg la medic."
+            },
+            {
+              "de": "Wir fahren zum Bahnhof.",
+              "lv": "Mergem la gară."
+            },
+            {
+              "de": "Sie geht zum Supermarkt.",
+              "lv": "Ea merge la supermarket."
+            },
+            {
+              "de": "Komm zum Essen!",
+              "lv": "Vino la masă!"
+            },
+            {
+              "de": "Er fährt zum Flughafen.",
+              "lv": "El merge la aeroport."
+            },
+            {
+              "de": "Wir gehen zum Konzert.",
+              "lv": "Mergem la concert."
+            },
+            {
+              "de": "Das Geschenk ist zum Geburtstag.",
+              "lv": "Cadoul este pentru ziua de naștere."
+            },
+            {
+              "de": "Ich gehe zum Friseur.",
+              "lv": "Merg la coafor."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zum",
+              "meaning": "La • Către (zu + dem)",
+              "example": "zum Arzt – la medic"
+            },
+            {
+              "word": "zur",
+              "meaning": "La • Către (zu + der)",
+              "example": "zur Schule – la școală"
+            },
+            {
+              "word": "zu",
+              "meaning": "La • Către • Prea",
+              "example": "zu Hause – acasă"
+            },
+            {
+              "word": "nach",
+              "meaning": "Spre (orașe și țări)",
+              "example": "nach Berlin – spre Berlin"
+            },
+            {
+              "word": "bei",
+              "meaning": "La (poziție)",
+              "example": "beim Arzt – la medic"
+            }
+          ],
+          "tip": [
+            "Reține: zu + dem → zum.",
+            "Cu substantive feminine: zu + der → zur."
+          ],
+          "important": [
+            "zum = zu dem și se folosește cu substantive masculine sau neutre la dativ.",
+            "Indică direcția sau scopul.",
+            "La feminin se folosește zur: zur Bank, zur Post.",
+            "Nu confunda zum cu bei sau nach."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0013",
+      "cardId": "a1-ab",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «ab»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "ab",
+        "level": "A1",
+        "lv": "С • Начиная с",
+        "study": {
+          "id": "a1-ab",
+          "layout": "standardStudy",
+          "translation": "С • Начиная с",
+          "explanation": "Употребляется, когда что-либо начинается с определённого времени, места или пункта. Часто означает «начиная с».",
+          "examples": [
+            {
+              "de": "ab heute",
+              "lv": "С сегодняшнего дня",
+              "level": "A1"
+            },
+            {
+              "de": "ab Montag",
+              "lv": "С понедельника"
+            },
+            {
+              "de": "ab 8 Uhr",
+              "lv": "С восьми часов"
+            },
+            {
+              "de": "ab Bahnhof",
+              "lv": "От вокзала"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ab",
+              "meaning": "Начиная с момента или пункта",
+              "example": "ab Montag – с понедельника"
+            },
+            {
+              "word": "von",
+              "meaning": "От кого-либо или чего-либо • Источник",
+              "example": "von mir – от меня"
+            },
+            {
+              "word": "aus",
+              "meaning": "Изнутри • Из",
+              "example": "aus dem Haus – из дома"
+            }
+          ],
+          "tip": {
+            "text": "Запомните: начальный момент или пункт → ab."
+          },
+          "important": [
+            "ab указывает начальный момент или пункт во времени либо пространстве.",
+            "Для происхождения или движения изнутри чаще употребляются von или aus."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0014",
+      "cardId": "a1-aber",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «aber»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "aber",
+        "level": "A1",
+        "lv": "Но • Однако",
+        "study": {
+          "id": "a1-aber",
+          "layout": "standardStudy",
+          "translation": "Но • Однако",
+          "explanation": "Употребляется для противопоставления или возражения. Часто означает «но», «однако» или «всё же».",
+          "examples": [
+            {
+              "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
+              "lv": "Я хочу пойти с вами, но у меня нет времени."
+            },
+            {
+              "de": "Das Essen war lecker, aber zu teuer.",
+              "lv": "Еда была вкусной, но слишком дорогой."
+            },
+            {
+              "de": "Er hat recht, aber ich sehe das anders.",
+              "lv": "Он прав, однако я смотрю на это иначе."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aber",
+              "meaning": "Но • Однако • Возражение",
+              "example": "Ich komme, aber später. – Я приду, но позже."
+            },
+            {
+              "word": "sondern",
+              "meaning": "Не..., а...",
+              "example": "Ich wollte keinen Tee, sondern Kaffee. – Я хотел не чай, а кофе."
+            },
+            {
+              "word": "jedoch",
+              "meaning": "Однако",
+              "example": "Es ist kalt, jedoch sonnig. – Холодно, однако солнечно."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: противопоставление или возражение → aber."
+          },
+          "important": [
+            "aber выражает противопоставление или возражение.",
+            "В конструкции «не..., а...» обычно употребляется sondern."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0015",
+      "cardId": "a1-also",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «also»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "also",
+        "level": "A1",
+        "lv": "Итак • Поэтому",
+        "study": {
+          "id": "a1-also",
+          "layout": "standardStudy",
+          "translation": "Итак • Поэтому",
+          "explanation": "Употребляется, чтобы сделать вывод или показать результат. Означает «итак», «следовательно» или «поэтому».",
+          "examples": [
+            {
+              "de": "Es regnet, also bleibe ich zu Hause.",
+              "lv": "Идёт дождь, поэтому я остаюсь дома."
+            },
+            {
+              "de": "Du bist krank, also gehst du nicht zur Arbeit.",
+              "lv": "Ты болен, поэтому не идёшь на работу."
+            },
+            {
+              "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
+              "lv": "Я много учился, поэтому теперь это понимаю."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "also",
+              "meaning": "Итак • Поэтому",
+              "example": "Es regnet, also bleibe ich zu Hause. – Идёт дождь, поэтому я остаюсь дома."
+            },
+            {
+              "word": "auch",
+              "meaning": "Тоже • Также",
+              "example": "Ich komme auch. – Я тоже приду."
+            },
+            {
+              "word": "deshalb",
+              "meaning": "Поэтому",
+              "example": "Es regnet, deshalb bleibe ich zu Hause. – Идёт дождь, поэтому я остаюсь дома."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: вывод или следствие → also."
+          },
+          "important": [
+            "also показывает вывод: следующая мысль следует из сказанного ранее.",
+            "Русскому «поэтому» часто соответствует также deshalb."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0016",
+      "cardId": "a1-an",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «an»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "an",
+        "level": "A1",
+        "lv": "У • На • К",
+        "study": {
+          "id": "a1-an",
+          "layout": "standardStudy",
+          "translation": "У • На • К",
+          "explanation": "Употребляется, когда что-либо находится у стены, окна, двери, реки, берега моря или другой границы либо поверхности.",
+          "examples": [
+            {
+              "de": "an der Wand",
+              "lv": "На стене • У стены"
+            },
+            {
+              "de": "am Fenster",
+              "lv": "У окна"
+            },
+            {
+              "de": "am Meer",
+              "lv": "У моря"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "an",
+              "meaning": "У поверхности или границы • На поверхности",
+              "example": "an der Wand – на стене"
+            },
+            {
+              "word": "auf",
+              "meaning": "На горизонтальной поверхности",
+              "example": "auf dem Tisch – на столе"
+            },
+            {
+              "word": "bei",
+              "meaning": "У человека • В определённом месте",
+              "example": "beim Arzt – у врача"
+            }
+          ],
+          "tip": {
+            "text": "Запомните: у стены, окна или края → an."
+          },
+          "important": [
+            "an часто означает положение у поверхности, стены, окна или края.",
+            "Для положения на горизонтальной поверхности обычно употребляется auf."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0017",
+      "cardId": "a1-an",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «an»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "an",
+        "level": "A1",
+        "lv": "У • На • К",
+        "study": {
+          "id": "a1-an",
+          "layout": "standardStudy",
+          "translation": "У • На • К",
+          "explanation": "Употребляется, когда что-либо находится у стены, окна, двери, реки, берега моря или другой границы либо поверхности.",
+          "examples": [
+            {
+              "de": "an der Wand",
+              "lv": "На стене • У стены"
+            },
+            {
+              "de": "am Fenster",
+              "lv": "У окна"
+            },
+            {
+              "de": "am Meer",
+              "lv": "У моря"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "an",
+              "meaning": "У поверхности или границы • На поверхности",
+              "example": "an der Wand – на стене"
+            },
+            {
+              "word": "auf",
+              "meaning": "На горизонтальной поверхности",
+              "example": "auf dem Tisch – на столе"
+            },
+            {
+              "word": "bei",
+              "meaning": "У человека • В определённом месте",
+              "example": "beim Arzt – у врача"
+            }
+          ],
+          "tip": {
+            "text": "Запомните: у стены, окна или края → an."
+          },
+          "important": [
+            "an часто означает положение у поверхности, стены, окна или края.",
+            "Для положения на горизонтальной поверхности обычно употребляется auf."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0018",
+      "cardId": "a1-auf",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «auf»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "auf",
+        "level": "A1",
+        "lv": "На",
+        "study": {
+          "id": "a1-auf",
+          "layout": "standardStudy",
+          "translation": "На",
+          "explanation": "Употребляется для указания направления на поверхность или положения на ней.",
+          "examples": [
+            {
+              "de": "Ich stelle das Buch auf den Tisch.",
+              "lv": "Я ставлю книгу на стол."
+            },
+            {
+              "de": "Wir fahren auf den Berg.",
+              "lv": "Мы едем на гору."
+            },
+            {
+              "de": "Die Katze springt auf das Sofa.",
+              "lv": "Кошка прыгает на диван."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "auf",
+              "meaning": "На поверхность • Наверх",
+              "example": "Ich stelle das Glas auf den Tisch. – Я ставлю стакан на стол."
+            },
+            {
+              "word": "an",
+              "meaning": "К вертикальной поверхности • На неё",
+              "example": "Ich hänge das Bild an die Wand. – Я вешаю картину на стену."
+            },
+            {
+              "word": "in",
+              "meaning": "Внутрь",
+              "example": "Ich lege das Buch in die Tasche. – Я кладу книгу в сумку."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: на поверхность или наверх → auf."
+          },
+          "important": [
+            "auf часто обозначает движение на поверхность или положение на ней.",
+            "У вертикальной поверхности часто употребляется an, а внутри чего-либо — in."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0019",
+      "cardId": "a1-aus",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «aus»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "aus",
+        "level": "A1",
+        "lv": "Из • Изнутри",
+        "study": {
+          "id": "a1-aus",
+          "layout": "standardStudy",
+          "translation": "Из • Изнутри",
+          "explanation": "Употребляется, когда что-либо выходит изнутри или когда указывается происхождение.",
+          "examples": [
+            {
+              "de": "Ich komme aus Deutschland.",
+              "lv": "Я из Германии."
+            },
+            {
+              "de": "Er geht aus dem Haus.",
+              "lv": "Он выходит из дома."
+            },
+            {
+              "de": "Ich nehme das Buch aus der Tasche.",
+              "lv": "Я достаю книгу из сумки."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aus",
+              "meaning": "Изнутри • Из",
+              "example": "aus dem Haus – из дома"
+            },
+            {
+              "word": "von",
+              "meaning": "От человека, места или поверхности",
+              "example": "von meinem Freund – от моего друга"
+            },
+            {
+              "word": "ab",
+              "meaning": "Начиная с момента или пункта",
+              "example": "ab Montag – с понедельника"
+            }
+          ],
+          "tip": {
+            "text": "Запомните: движение изнутри наружу → aus."
+          },
+          "important": [
+            "aus обычно указывает движение изнутри или происхождение.",
+            "Для начального момента либо пункта чаще употребляется ab."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0020",
+      "cardId": "a1-aus",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «aus»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "aus",
+        "level": "A1",
+        "lv": "Из • Изнутри",
+        "study": {
+          "id": "a1-aus",
+          "layout": "standardStudy",
+          "translation": "Из • Изнутри",
+          "explanation": "Употребляется, когда что-либо выходит изнутри или когда указывается происхождение.",
+          "examples": [
+            {
+              "de": "Ich komme aus Deutschland.",
+              "lv": "Я из Германии."
+            },
+            {
+              "de": "Er geht aus dem Haus.",
+              "lv": "Он выходит из дома."
+            },
+            {
+              "de": "Ich nehme das Buch aus der Tasche.",
+              "lv": "Я достаю книгу из сумки."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aus",
+              "meaning": "Изнутри • Из",
+              "example": "aus dem Haus – из дома"
+            },
+            {
+              "word": "von",
+              "meaning": "От человека, места или поверхности",
+              "example": "von meinem Freund – от моего друга"
+            },
+            {
+              "word": "ab",
+              "meaning": "Начиная с момента или пункта",
+              "example": "ab Montag – с понедельника"
+            }
+          ],
+          "tip": {
+            "text": "Запомните: движение изнутри наружу → aus."
+          },
+          "important": [
+            "aus обычно указывает движение изнутри или происхождение.",
+            "Для начального момента либо пункта чаще употребляется ab."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0021",
+      "cardId": "a1-besuch",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «Besuch»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Besuch",
+        "de_article": "der",
+        "de_plural": "die Besuche",
+        "level": "A1",
+        "lv": "Посещение • Визит",
+        "study": {
+          "id": "a1-besuch",
+          "layout": "standardStudy",
+          "translation": "Посещение • Визит",
+          "explanation": [
+            "Основная идея: der Besuch означает посещение, визит или приход в гости.",
+            "Если речь идёт о месте или мероприятии, подходит слово «посещение».",
+            "Если речь идёт о человеке, подходит «визит» или «приход в гости».",
+            "Множественное число: die Besuche."
+          ],
+          "examples": [
+            {
+              "de": "Der Besuch im Museum war interessant.",
+              "lv": "Посещение музея было интересным."
+            },
+            {
+              "de": "Danke für deinen Besuch.",
+              "lv": "Спасибо за твой визит."
+            },
+            {
+              "de": "Der Arzt macht einen Besuch.",
+              "lv": "Врач идёт на визит."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Besuch",
+              "meaning": "Посещение • Визит • Приход в гости",
+              "example": "Danke für deinen Besuch. – Спасибо за твой визит."
+            },
+            {
+              "word": "der Besucher",
+              "meaning": "Посетитель",
+              "example": "Der Besucher wartet draußen. – Посетитель ждёт снаружи."
+            },
+            {
+              "word": "besuchen",
+              "meaning": "Посещать • Навещать",
+              "example": "Ich besuche meine Großeltern. – Я навещаю бабушку и дедушку."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: Besuch — посещение или визит, а Besucher — человек."
+          },
+          "important": [
+            "der Besuch может означать посещение, визит или приход в гости.",
+            "Множественное число: die Besuche."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0022",
+      "cardId": "a1-besuchen",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «besuchen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "besuchen",
+        "level": "A1",
+        "lv": "Посещать • Навещать",
+        "study": {
+          "id": "a1-besuchen",
+          "layout": "standardStudy",
+          "translation": "Посещать • Навещать",
+          "explanation": [
+            "Основная идея: besuchen употребляется при посещении места, мероприятия или человека.",
+            "Место, мероприятие или курс обычно посещают.",
+            "Человека обычно навещают.",
+            "В немецком besuchen употребляется без предлога и требует винительного падежа."
+          ],
+          "examples": [
+            {
+              "de": "Ich besuche das Museum.",
+              "lv": "Я посещаю музей."
+            },
+            {
+              "de": "Wir besuchen einen Deutschkurs.",
+              "lv": "Мы посещаем курс немецкого языка."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Я навещаю бабушку и дедушку."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "besuchen",
+              "meaning": "Посещать место или мероприятие • Навещать человека",
+              "example": "Ich besuche meine Großeltern. – Я навещаю бабушку и дедушку."
+            },
+            {
+              "word": "treffen",
+              "meaning": "Встречать • Встречаться",
+              "example": "Ich treffe meinen Freund. – Я встречаюсь с другом."
+            },
+            {
+              "word": "zu jemandem gehen",
+              "meaning": "Идти к кому-либо",
+              "example": "Ich gehe zu meinem Freund. – Я иду к другу."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: место посещают, а человека навещают."
+          },
+          "important": [
+            "besuchen употребляется без предлога: Ich besuche meine Freundin.",
+            "Русский перевод зависит от объекта: посещать место, навещать человека."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0023",
+      "cardId": "a1-bis",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «bis»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "bis",
+        "level": "A1",
+        "lv": "До • Пока не",
+        "study": {
+          "id": "a1-bis",
+          "layout": "standardStudy",
+          "translation": "До • Пока не",
+          "explanation": "Указывает границу, момент времени или условие.",
+          "examples": [
+            {
+              "de": "Ich warte bis zu deiner Ankunft.",
+              "lv": "Я жду до твоего приезда."
+            },
+            {
+              "de": "Bleib hier, bis ich zurückkomme.",
+              "lv": "Оставайся здесь, пока я не вернусь."
+            },
+            {
+              "de": "Ich lerne Deutsch bis zum Abend.",
+              "lv": "Я учу немецкий до вечера."
+            },
+            {
+              "de": "Bis jetzt habe ich nichts verstanden.",
+              "lv": "До сих пор я ничего не понял."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bis",
+              "meaning": "До момента или границы • Пока не",
+              "example": "Ich bleibe bis morgen. – Я остаюсь до завтра."
+            },
+            {
+              "word": "bis zu",
+              "meaning": "До конкретной границы",
+              "example": "bis zum Bahnhof – до вокзала"
+            },
+            {
+              "word": "bis jetzt",
+              "meaning": "До сих пор",
+              "example": "Bis jetzt habe ich nichts verstanden. – До сих пор я ничего не понял."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: граница во времени или условии → bis."
+          },
+          "important": [
+            "bis указывает границу или момент времени.",
+            "bis zu употребляется перед конкретной границей: bis zum Bahnhof.",
+            "bis jetzt означает «до сих пор»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0024",
+      "cardId": "a1-bleiben",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «bleiben»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "bleiben",
+        "level": "A1",
+        "lv": "Оставаться",
+        "study": {
+          "id": "a1-bleiben",
+          "layout": "standardStudy",
+          "translation": "Оставаться",
+          "explanation": [
+            "Основная идея: bleiben означает «оставаться».",
+            "bleiben употребляется, если человек или предмет не уходит и остаётся в том же месте либо состоянии.",
+            "При уходе противопоставляются глаголы gehen и fahren.",
+            "Очень частая фраза: Ich bleibe zu Hause."
+          ],
+          "examples": [
+            {
+              "de": "Ich bleibe zu Hause.",
+              "lv": "Я остаюсь дома."
+            },
+            {
+              "de": "Bleib hier!",
+              "lv": "Оставайся здесь!"
+            },
+            {
+              "de": "Wir bleiben noch eine Stunde.",
+              "lv": "Мы останемся ещё на час."
+            },
+            {
+              "de": "Ich gehe nach Hause.",
+              "lv": "Я иду домой."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bleiben",
+              "meaning": "Оставаться",
+              "example": "Ich bleibe hier. – Я остаюсь здесь."
+            },
+            {
+              "word": "gehen",
+              "meaning": "Идти • Уходить пешком",
+              "example": "Ich gehe nach Hause. – Я иду домой."
+            },
+            {
+              "word": "fahren",
+              "meaning": "Ехать на транспорте",
+              "example": "Ich fahre nach Hause. – Я еду домой."
+            },
+            {
+              "word": "warten",
+              "meaning": "Ждать",
+              "example": "Ich warte hier. – Я жду здесь."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: не уходить → bleiben; уходить пешком → gehen."
+          },
+          "important": [
+            "bleiben означает «оставаться», а не «ждать».",
+            "Ich bleibe hier = Я остаюсь здесь; Ich warte hier = Я жду здесь."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0025",
+      "cardId": "a1-bringen",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «bringen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "bringen",
+        "level": "A1",
+        "lv": "Приносить • Относить • Отвозить",
+        "study": {
+          "id": "a1-bringen",
+          "layout": "standardStudy",
+          "translation": "Приносить • Относить • Отвозить",
+          "explanation": [
+            "Основная идея: bringen означает доставлять что-либо человеку или в определённое место.",
+            "По-русски bringen переводится по-разному.",
+            "Часто: приносить.",
+            "В зависимости от ситуации: относить, отвозить или доставлять.",
+            "Перевод определяется контекстом."
+          ],
+          "examples": [
+            {
+              "de": "Ich bringe dir ein Buch.",
+              "lv": "Я принесу тебе книгу."
+            },
+            {
+              "de": "Ich bringe das Paket zur Post.",
+              "lv": "Я отнесу посылку на почту."
+            },
+            {
+              "de": "Ich bringe die Kinder zur Schule.",
+              "lv": "Я отвезу детей в школу."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bringen",
+              "meaning": "Приносить",
+              "example": "Ich bringe dir ein Buch. – Я принесу тебе книгу."
+            },
+            {
+              "word": "bringen",
+              "meaning": "Относить",
+              "example": "Ich bringe das Paket zur Post. – Я отнесу посылку на почту."
+            },
+            {
+              "word": "bringen",
+              "meaning": "Отвозить",
+              "example": "Ich bringe die Kinder zur Schule. – Я отвезу детей в школу."
+            },
+            {
+              "word": "bringen",
+              "meaning": "Доставлять",
+              "example": "Ich bringe dir ein Buch. – Я доставлю тебе книгу."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "Брать",
+              "example": "Ich nehme das Buch. – Я беру книгу."
+            }
+          ],
+          "tip": {
+            "text": "Если предмет попадает к другому человеку или в другое место, часто употребляется bringen."
+          },
+          "important": [
+            "nehmen означает «брать».",
+            "bringen означает «доставлять».",
+            "Русский перевод зависит от контекста."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0026",
+      "cardId": "a1-bringen",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «bringen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "bringen",
+        "level": "A1",
+        "lv": "Приносить • Относить • Отвозить",
+        "study": {
+          "id": "a1-bringen",
+          "layout": "standardStudy",
+          "translation": "Приносить • Относить • Отвозить",
+          "explanation": [
+            "Основная идея: bringen означает доставлять что-либо человеку или в определённое место.",
+            "По-русски bringen переводится по-разному.",
+            "Часто: приносить.",
+            "В зависимости от ситуации: относить, отвозить или доставлять.",
+            "Перевод определяется контекстом."
+          ],
+          "examples": [
+            {
+              "de": "Ich bringe dir ein Buch.",
+              "lv": "Я принесу тебе книгу."
+            },
+            {
+              "de": "Ich bringe das Paket zur Post.",
+              "lv": "Я отнесу посылку на почту."
+            },
+            {
+              "de": "Ich bringe die Kinder zur Schule.",
+              "lv": "Я отвезу детей в школу."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bringen",
+              "meaning": "Приносить",
+              "example": "Ich bringe dir ein Buch. – Я принесу тебе книгу."
+            },
+            {
+              "word": "bringen",
+              "meaning": "Относить",
+              "example": "Ich bringe das Paket zur Post. – Я отнесу посылку на почту."
+            },
+            {
+              "word": "bringen",
+              "meaning": "Отвозить",
+              "example": "Ich bringe die Kinder zur Schule. – Я отвезу детей в школу."
+            },
+            {
+              "word": "bringen",
+              "meaning": "Доставлять",
+              "example": "Ich bringe dir ein Buch. – Я доставлю тебе книгу."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "Брать",
+              "example": "Ich nehme das Buch. – Я беру книгу."
+            }
+          ],
+          "tip": {
+            "text": "Если предмет попадает к другому человеку или в другое место, часто употребляется bringen."
+          },
+          "important": [
+            "nehmen означает «брать».",
+            "bringen означает «доставлять».",
+            "Русский перевод зависит от контекста."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0027",
+      "cardId": "a1-da",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «da»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "da",
+        "level": "A1",
+        "lv": "Там • Здесь",
+        "study": {
+          "id": "a1-da",
+          "layout": "standardStudy",
+          "translation": "Там • Здесь",
+          "explanation": [
+            "Основная идея: на уровне A1 da чаще всего означает «там».",
+            "da указывает место или отсылает к уже упомянутому.",
+            "В зависимости от ситуации переводится также как «здесь» или «вот». ",
+            "На уровне A1 da изучается как общее указание места."
+          ],
+          "examples": [
+            {
+              "de": "Da ist mein Auto.",
+              "lv": "Вот моя машина."
+            },
+            {
+              "de": "Ich war da.",
+              "lv": "Я был там."
+            },
+            {
+              "de": "Da kommt er.",
+              "lv": "Вот он идёт."
+            },
+            {
+              "de": "Komm mal da her!",
+              "lv": "Иди сюда!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "da",
+              "meaning": "Там • Здесь • Вот",
+              "example": "Da ist mein Auto. – Вот моя машина."
+            },
+            {
+              "word": "hier",
+              "meaning": "Здесь (в конкретном месте)",
+              "example": "Hier ist mein Auto. – Здесь моя машина."
+            },
+            {
+              "word": "dort",
+              "meaning": "Там (дальше)",
+              "example": "Dort ist mein Auto. – Там моя машина."
+            },
+            {
+              "word": "dann",
+              "meaning": "Тогда • Затем",
+              "example": "Dann gehen wir nach Hause. – Тогда мы идём домой."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: общее указание «там/здесь» → da."
+          },
+          "important": [
+            "da — общее указание места.",
+            "hier означает конкретное «здесь», а dort — более далёкое «там»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0028",
+      "cardId": "a1-das",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «das»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "das",
+        "level": "A1",
+        "lv": "Определённый артикль среднего рода • Это",
+        "study": {
+          "id": "a1-das",
+          "layout": "standardStudy",
+          "translation": "Определённый артикль среднего рода • Это",
+          "explanation": "Употребляется с существительными среднего рода. В некоторых предложениях das также выступает как указательное или относительное местоимение.",
+          "examples": [
+            {
+              "de": "Das ist mein Auto.",
+              "lv": "Это моя машина."
+            },
+            {
+              "de": "Das ist gut.",
+              "lv": "Это хорошо."
+            },
+            {
+              "de": "Das Buch, das ich lese, ist interessant.",
+              "lv": "Книга, которую я читаю, интересная."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das",
+              "meaning": "Артикль среднего рода • Это",
+              "example": "Das ist mein Auto. – Это моя машина."
+            },
+            {
+              "word": "dies",
+              "meaning": "Это • Этот",
+              "example": "Dies ist mein Auto. – Это моя машина."
+            },
+            {
+              "word": "welches",
+              "meaning": "Который • Которая • Которое",
+              "example": "Das ist das Buch, welches ich lese. – Это книга, которую я читаю."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: средний род → das; союз «что» → dass."
+          },
+          "important": [
+            "На уровне A1 das прежде всего изучается как артикль среднего рода.",
+            "das и dass — разные слова: das может быть артиклем или местоимением, а dass означает союз «что»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0029",
+      "cardId": "a1-dass",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «dass»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "dass",
+        "level": "A1",
+        "lv": "Что",
+        "study": {
+          "id": "a1-dass",
+          "layout": "standardStudy",
+          "translation": "Что",
+          "explanation": "Вводит придаточное предложение, выражающее факт, мысль или высказывание.",
+          "examples": [
+            {
+              "de": "Ich weiß, dass du müde bist.",
+              "lv": "Я знаю, что ты устал."
+            },
+            {
+              "de": "Er sagt, dass er kommt.",
+              "lv": "Он говорит, что придёт."
+            },
+            {
+              "de": "Ich glaube, dass das stimmt.",
+              "lv": "Я думаю, что это верно."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "dass",
+              "meaning": "Что",
+              "example": "Ich weiß, dass er kommt. – Я знаю, что он придёт."
+            },
+            {
+              "word": "weil",
+              "meaning": "Потому что",
+              "example": "Ich bleibe zu Hause, weil es regnet. – Я остаюсь дома, потому что идёт дождь."
+            },
+            {
+              "word": "damit",
+              "meaning": "Чтобы",
+              "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Я учу немецкий, чтобы работать в Германии."
+            },
+            {
+              "word": "ob",
+              "meaning": "Ли • Будет ли",
+              "example": "Ich weiß nicht, ob er kommt. – Я не знаю, придёт ли он."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: союз «что» → dass."
+          },
+          "important": [
+            "dass означает союз «что» и вводит придаточное предложение.",
+            "Не путайте dass с das, которое может быть артиклем или местоимением."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0030",
+      "cardId": "a1-ein",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «ein»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "ein",
+        "level": "A1",
+        "lv": "Неопределённый артикль • Один",
+        "study": {
+          "id": "a1-ein",
+          "layout": "standardStudy",
+          "translation": "Неопределённый артикль • Один",
+          "explanation": [
+            "Основная идея: ein — неопределённый артикль.",
+            "ein употребляется с существительными мужского и среднего рода в именительном падеже.",
+            "Мужской род: ein Mann.",
+            "Средний род: ein Buch.",
+            "Женский род: eine.",
+            "Винительный падеж мужского рода: einen."
+          ],
+          "examples": [
+            {
+              "de": "Ein Mann wartet draußen.",
+              "lv": "Какой-то мужчина ждёт снаружи."
+            },
+            {
+              "de": "Ich habe ein Buch.",
+              "lv": "У меня есть книга."
+            },
+            {
+              "de": "Er sucht einen Stift.",
+              "lv": "Он ищет ручку."
+            },
+            {
+              "de": "Ein Kind spielt.",
+              "lv": "Ребёнок играет."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ein Mann",
+              "meaning": "Мужской род",
+              "example": "Ein Mann wartet draußen. – Мужчина ждёт снаружи."
+            },
+            {
+              "word": "eine Frau",
+              "meaning": "Женский род",
+              "example": "eine Frau – женщина"
+            },
+            {
+              "word": "ein Buch",
+              "meaning": "Средний род",
+              "example": "Ich habe ein Buch. – У меня есть книга."
+            },
+            {
+              "word": "einen Mann",
+              "meaning": "Винительный падеж",
+              "example": "einen Mann – мужчину"
+            }
+          ],
+          "tip": {
+            "text": "Запомните: ein — не только «один», но часто просто неопределённый артикль."
+          },
+          "important": [
+            "ein — мужской род.",
+            "ein — средний род.",
+            "eine — женский род.",
+            "einen — винительный падеж мужского рода."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0031",
+      "cardId": "a1-ein",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «ein»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "ein",
+        "level": "A1",
+        "lv": "Неопределённый артикль • Один",
+        "study": {
+          "id": "a1-ein",
+          "layout": "standardStudy",
+          "translation": "Неопределённый артикль • Один",
+          "explanation": [
+            "Основная идея: ein — неопределённый артикль.",
+            "ein употребляется с существительными мужского и среднего рода в именительном падеже.",
+            "Мужской род: ein Mann.",
+            "Средний род: ein Buch.",
+            "Женский род: eine.",
+            "Винительный падеж мужского рода: einen."
+          ],
+          "examples": [
+            {
+              "de": "Ein Mann wartet draußen.",
+              "lv": "Какой-то мужчина ждёт снаружи."
+            },
+            {
+              "de": "Ich habe ein Buch.",
+              "lv": "У меня есть книга."
+            },
+            {
+              "de": "Er sucht einen Stift.",
+              "lv": "Он ищет ручку."
+            },
+            {
+              "de": "Ein Kind spielt.",
+              "lv": "Ребёнок играет."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ein Mann",
+              "meaning": "Мужской род",
+              "example": "Ein Mann wartet draußen. – Мужчина ждёт снаружи."
+            },
+            {
+              "word": "eine Frau",
+              "meaning": "Женский род",
+              "example": "eine Frau – женщина"
+            },
+            {
+              "word": "ein Buch",
+              "meaning": "Средний род",
+              "example": "Ich habe ein Buch. – У меня есть книга."
+            },
+            {
+              "word": "einen Mann",
+              "meaning": "Винительный падеж",
+              "example": "einen Mann – мужчину"
+            }
+          ],
+          "tip": {
+            "text": "Запомните: ein — не только «один», но часто просто неопределённый артикль."
+          },
+          "important": [
+            "ein — мужской род.",
+            "ein — средний род.",
+            "eine — женский род.",
+            "einen — винительный падеж мужского рода."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0032",
+      "cardId": "a1-einmal",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «einmal»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "einmal",
+        "level": "A1",
+        "lv": "Однажды • Один раз",
+        "study": {
+          "id": "a1-einmal",
+          "layout": "standardStudy",
+          "translation": "Однажды • Один раз",
+          "explanation": [
+            "Основная идея: einmal указывает на один случай или на неопределённый момент в прошлом.",
+            "einmal может означать «один раз».",
+            "В рассказе о прошлом einmal часто переводится как «однажды».",
+            "Точное значение определяется контекстом."
+          ],
+          "examples": [
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "Я однажды был в Берлине."
+            },
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "Я один раз был в Берлине."
+            }
+          ],
+          "tip": [
+            "einmal = однажды • один раз",
+            "Употребляйте einmal, когда речь идёт об одном случае или неопределённом моменте."
+          ],
+          "important": [
+            "einmal означает «однажды» или «один раз».",
+            "Значение определяется контекстом."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0033",
+      "cardId": "a1-einmal",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «einmal»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "einmal",
+        "level": "A1",
+        "lv": "Однажды • Один раз",
+        "study": {
+          "id": "a1-einmal",
+          "layout": "standardStudy",
+          "translation": "Однажды • Один раз",
+          "explanation": [
+            "Основная идея: einmal указывает на один случай или на неопределённый момент в прошлом.",
+            "einmal может означать «один раз».",
+            "В рассказе о прошлом einmal часто переводится как «однажды».",
+            "Точное значение определяется контекстом."
+          ],
+          "examples": [
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "Я однажды был в Берлине."
+            },
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "Я один раз был в Берлине."
+            }
+          ],
+          "tip": [
+            "einmal = однажды • один раз",
+            "Употребляйте einmal, когда речь идёт об одном случае или неопределённом моменте."
+          ],
+          "important": [
+            "einmal означает «однажды» или «один раз».",
+            "Значение определяется контекстом."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0034",
+      "cardId": "a1-eis",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «Eis»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Eis",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Лёд • Мороженое",
+        "study": {
+          "id": "a1-eis",
+          "layout": "standardStudy",
+          "translation": "Лёд • Мороженое",
+          "explanation": [
+            "Основная идея: das Eis может означать и лёд, и мороженое.",
+            "Замёрзшая вода — лёд.",
+            "Еда или десерт — мороженое.",
+            "Контекст обычно ясно показывает нужное значение.",
+            "Важные фразы уровня A1: ein Eis essen и Eis im Glas."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse ein Eis.",
+              "lv": "Я ем мороженое."
+            },
+            {
+              "de": "Möchtest du ein Eis?",
+              "lv": "Ты хочешь мороженое?"
+            },
+            {
+              "de": "Im Winter liegt Eis auf dem See.",
+              "lv": "Зимой на озере лежит лёд."
+            },
+            {
+              "de": "Das Eis ist kalt.",
+              "lv": "Лёд холодный."
+            },
+            {
+              "de": "Ich nehme ein Eis mit Schokolade.",
+              "lv": "Я возьму шоколадное мороженое."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Eis",
+              "meaning": "Лёд • Мороженое",
+              "example": "Ich esse ein Eis. – Я ем мороженое."
+            },
+            {
+              "word": "der Schnee",
+              "meaning": "Снег",
+              "example": "Der Schnee ist weiß. – Снег белый."
+            },
+            {
+              "word": "kalt",
+              "meaning": "Холодный",
+              "example": "Das Wasser ist kalt. – Вода холодная."
+            },
+            {
+              "word": "das Dessert",
+              "meaning": "Десерт",
+              "example": "Eis ist ein Dessert. – Мороженое — это десерт."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: еда → мороженое; зима или вода → лёд."
+          },
+          "important": [
+            "В русском «лёд» и «мороженое» — разные слова, а в немецком для обоих часто употребляется das Eis.",
+            "Контекст определяет значение: десерт — мороженое, замёрзшая вода — лёд."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0035",
+      "cardId": "a1-eis",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «Eis»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Eis",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Лёд • Мороженое",
+        "study": {
+          "id": "a1-eis",
+          "layout": "standardStudy",
+          "translation": "Лёд • Мороженое",
+          "explanation": [
+            "Основная идея: das Eis может означать и лёд, и мороженое.",
+            "Замёрзшая вода — лёд.",
+            "Еда или десерт — мороженое.",
+            "Контекст обычно ясно показывает нужное значение.",
+            "Важные фразы уровня A1: ein Eis essen и Eis im Glas."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse ein Eis.",
+              "lv": "Я ем мороженое."
+            },
+            {
+              "de": "Möchtest du ein Eis?",
+              "lv": "Ты хочешь мороженое?"
+            },
+            {
+              "de": "Im Winter liegt Eis auf dem See.",
+              "lv": "Зимой на озере лежит лёд."
+            },
+            {
+              "de": "Das Eis ist kalt.",
+              "lv": "Лёд холодный."
+            },
+            {
+              "de": "Ich nehme ein Eis mit Schokolade.",
+              "lv": "Я возьму шоколадное мороженое."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Eis",
+              "meaning": "Лёд • Мороженое",
+              "example": "Ich esse ein Eis. – Я ем мороженое."
+            },
+            {
+              "word": "der Schnee",
+              "meaning": "Снег",
+              "example": "Der Schnee ist weiß. – Снег белый."
+            },
+            {
+              "word": "kalt",
+              "meaning": "Холодный",
+              "example": "Das Wasser ist kalt. – Вода холодная."
+            },
+            {
+              "word": "das Dessert",
+              "meaning": "Десерт",
+              "example": "Eis ist ein Dessert. – Мороженое — это десерт."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: еда → мороженое; зима или вода → лёд."
+          },
+          "important": [
+            "В русском «лёд» и «мороженое» — разные слова, а в немецком для обоих часто употребляется das Eis.",
+            "Контекст определяет значение: десерт — мороженое, замёрзшая вода — лёд."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0036",
+      "cardId": "a1-erst",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «erst»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "erst",
+        "level": "A1",
+        "lv": "Сначала • Только",
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "Сначала • Только",
+          "explanation": [
+            "Основная идея: erst часто означает «только», а в контексте последовательности — «сначала».",
+            "erst нередко указывает, что что-либо происходит позже ожидаемого.",
+            "Ich bin erst 18. — Мне только 18 лет.",
+            "Es ist erst Montag. — Ещё только понедельник.",
+            "Erst lernen, dann spielen. — Сначала учиться, потом играть."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Сначала учись, потом играй."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Я приеду только завтра."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Ему всего 18 лет."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Мы едим только в восемь часов."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "Сначала • Только",
+              "example": "Erst lernen, dann spielen. – Сначала учись, потом играй."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "Сначала • Вначале",
+              "example": "Zuerst frühstücken wir. – Сначала мы завтракаем."
+            },
+            {
+              "word": "nur",
+              "meaning": "Только",
+              "example": "Ich habe nur 5 Euro. – У меня только пять евро."
+            },
+            {
+              "word": "dann",
+              "meaning": "Затем • Тогда",
+              "example": "Dann gehen wir nach Hause. – Затем мы идём домой."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: время или достигнутый момент → erst; ограничение количества → nur."
+          },
+          "important": [
+            "erst и zuerst — не полные синонимы.",
+            "erst часто означает «только».",
+            "zuerst чаще означает «сначала»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0037",
+      "cardId": "a1-erst",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «erst»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "erst",
+        "level": "A1",
+        "lv": "Сначала • Только",
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "Сначала • Только",
+          "explanation": [
+            "Основная идея: erst часто означает «только», а в контексте последовательности — «сначала».",
+            "erst нередко указывает, что что-либо происходит позже ожидаемого.",
+            "Ich bin erst 18. — Мне только 18 лет.",
+            "Es ist erst Montag. — Ещё только понедельник.",
+            "Erst lernen, dann spielen. — Сначала учиться, потом играть."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Сначала учись, потом играй."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Я приеду только завтра."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Ему всего 18 лет."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Мы едим только в восемь часов."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "Сначала • Только",
+              "example": "Erst lernen, dann spielen. – Сначала учись, потом играй."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "Сначала • Вначале",
+              "example": "Zuerst frühstücken wir. – Сначала мы завтракаем."
+            },
+            {
+              "word": "nur",
+              "meaning": "Только",
+              "example": "Ich habe nur 5 Euro. – У меня только пять евро."
+            },
+            {
+              "word": "dann",
+              "meaning": "Затем • Тогда",
+              "example": "Dann gehen wir nach Hause. – Затем мы идём домой."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: время или достигнутый момент → erst; ограничение количества → nur."
+          },
+          "important": [
+            "erst и zuerst — не полные синонимы.",
+            "erst часто означает «только».",
+            "zuerst чаще означает «сначала»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0038",
+      "cardId": "a1-erst",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «erst»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "erst",
+        "level": "A1",
+        "lv": "Сначала • Только",
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "Сначала • Только",
+          "explanation": [
+            "Основная идея: erst часто означает «только», а в контексте последовательности — «сначала».",
+            "erst нередко указывает, что что-либо происходит позже ожидаемого.",
+            "Ich bin erst 18. — Мне только 18 лет.",
+            "Es ist erst Montag. — Ещё только понедельник.",
+            "Erst lernen, dann spielen. — Сначала учиться, потом играть."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Сначала учись, потом играй."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Я приеду только завтра."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Ему всего 18 лет."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Мы едим только в восемь часов."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "Сначала • Только",
+              "example": "Erst lernen, dann spielen. – Сначала учись, потом играй."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "Сначала • Вначале",
+              "example": "Zuerst frühstücken wir. – Сначала мы завтракаем."
+            },
+            {
+              "word": "nur",
+              "meaning": "Только",
+              "example": "Ich habe nur 5 Euro. – У меня только пять евро."
+            },
+            {
+              "word": "dann",
+              "meaning": "Затем • Тогда",
+              "example": "Dann gehen wir nach Hause. – Затем мы идём домой."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: время или достигнутый момент → erst; ограничение количества → nur."
+          },
+          "important": [
+            "erst и zuerst — не полные синонимы.",
+            "erst часто означает «только».",
+            "zuerst чаще означает «сначала»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0039",
+      "cardId": "a1-erst",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «erst»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "erst",
+        "level": "A1",
+        "lv": "Сначала • Только",
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "Сначала • Только",
+          "explanation": [
+            "Основная идея: erst часто означает «только», а в контексте последовательности — «сначала».",
+            "erst нередко указывает, что что-либо происходит позже ожидаемого.",
+            "Ich bin erst 18. — Мне только 18 лет.",
+            "Es ist erst Montag. — Ещё только понедельник.",
+            "Erst lernen, dann spielen. — Сначала учиться, потом играть."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Сначала учись, потом играй."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Я приеду только завтра."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Ему всего 18 лет."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Мы едим только в восемь часов."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "Сначала • Только",
+              "example": "Erst lernen, dann spielen. – Сначала учись, потом играй."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "Сначала • Вначале",
+              "example": "Zuerst frühstücken wir. – Сначала мы завтракаем."
+            },
+            {
+              "word": "nur",
+              "meaning": "Только",
+              "example": "Ich habe nur 5 Euro. – У меня только пять евро."
+            },
+            {
+              "word": "dann",
+              "meaning": "Затем • Тогда",
+              "example": "Dann gehen wir nach Hause. – Затем мы идём домой."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: время или достигнутый момент → erst; ограничение количества → nur."
+          },
+          "important": [
+            "erst и zuerst — не полные синонимы.",
+            "erst часто означает «только».",
+            "zuerst чаще означает «сначала»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0040",
+      "cardId": "a1-es",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «es»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "es",
+        "level": "A1",
+        "lv": "Оно • Это • Безличное местоимение",
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "Оно • Это • Безличное местоимение",
+          "explanation": [
+            "Основная идея: es — местоимение.",
+            "Оно означает «оно/это» или служит формальным подлежащим в безличных конструкциях."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet.",
+              "lv": "Идёт дождь."
+            },
+            {
+              "de": "Es ist kalt.",
+              "lv": "Холодно."
+            },
+            {
+              "de": "Das Kind schläft.",
+              "lv": "Ребёнок спит."
+            },
+            {
+              "de": "Es ist müde.",
+              "lv": "Оно устало."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "es",
+              "meaning": "Оно • Это • Безличное местоимение",
+              "example": "Es regnet. – Идёт дождь."
+            },
+            {
+              "word": "ich",
+              "meaning": "Я (говорящий)",
+              "example": "Ich lerne Deutsch. – Я учу немецкий язык."
+            }
+          ],
+          "info": [
+            "Латышское es = немецкое ich",
+            "Немецкое es = оно • это • безличное местоимение"
+          ],
+          "tip": {
+            "text": "Запомните: латышское es («я») по-немецки ich, а не es."
+          },
+          "important": [
+            "ich и es — разные местоимения.",
+            "Немецкое es — не латышское «я».",
+            "Латышское es по-немецки ich; немецкое es часто означает «оно/это» или не переводится."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0041",
+      "cardId": "a1-es",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «es»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "es",
+        "level": "A1",
+        "lv": "Оно • Это • Безличное местоимение",
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "Оно • Это • Безличное местоимение",
+          "explanation": [
+            "Основная идея: es — местоимение.",
+            "Оно означает «оно/это» или служит формальным подлежащим в безличных конструкциях."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet.",
+              "lv": "Идёт дождь."
+            },
+            {
+              "de": "Es ist kalt.",
+              "lv": "Холодно."
+            },
+            {
+              "de": "Das Kind schläft.",
+              "lv": "Ребёнок спит."
+            },
+            {
+              "de": "Es ist müde.",
+              "lv": "Оно устало."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "es",
+              "meaning": "Оно • Это • Безличное местоимение",
+              "example": "Es regnet. – Идёт дождь."
+            },
+            {
+              "word": "ich",
+              "meaning": "Я (говорящий)",
+              "example": "Ich lerne Deutsch. – Я учу немецкий язык."
+            }
+          ],
+          "info": [
+            "Латышское es = немецкое ich",
+            "Немецкое es = оно • это • безличное местоимение"
+          ],
+          "tip": {
+            "text": "Запомните: латышское es («я») по-немецки ich, а не es."
+          },
+          "important": [
+            "ich и es — разные местоимения.",
+            "Немецкое es — не латышское «я».",
+            "Латышское es по-немецки ich; немецкое es часто означает «оно/это» или не переводится."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0042",
+      "cardId": "a1-es",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «es»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "es",
+        "level": "A1",
+        "lv": "Оно • Это • Безличное местоимение",
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "Оно • Это • Безличное местоимение",
+          "explanation": [
+            "Основная идея: es — местоимение.",
+            "Оно означает «оно/это» или служит формальным подлежащим в безличных конструкциях."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet.",
+              "lv": "Идёт дождь."
+            },
+            {
+              "de": "Es ist kalt.",
+              "lv": "Холодно."
+            },
+            {
+              "de": "Das Kind schläft.",
+              "lv": "Ребёнок спит."
+            },
+            {
+              "de": "Es ist müde.",
+              "lv": "Оно устало."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "es",
+              "meaning": "Оно • Это • Безличное местоимение",
+              "example": "Es regnet. – Идёт дождь."
+            },
+            {
+              "word": "ich",
+              "meaning": "Я (говорящий)",
+              "example": "Ich lerne Deutsch. – Я учу немецкий язык."
+            }
+          ],
+          "info": [
+            "Латышское es = немецкое ich",
+            "Немецкое es = оно • это • безличное местоимение"
+          ],
+          "tip": {
+            "text": "Запомните: латышское es («я») по-немецки ich, а не es."
+          },
+          "important": [
+            "ich и es — разные местоимения.",
+            "Немецкое es — не латышское «я».",
+            "Латышское es по-немецки ich; немецкое es часто означает «оно/это» или не переводится."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0043",
+      "cardId": "a1-es",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «es»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "es",
+        "level": "A1",
+        "lv": "Оно • Это • Безличное местоимение",
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "Оно • Это • Безличное местоимение",
+          "explanation": [
+            "Основная идея: es — местоимение.",
+            "Оно означает «оно/это» или служит формальным подлежащим в безличных конструкциях."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet.",
+              "lv": "Идёт дождь."
+            },
+            {
+              "de": "Es ist kalt.",
+              "lv": "Холодно."
+            },
+            {
+              "de": "Das Kind schläft.",
+              "lv": "Ребёнок спит."
+            },
+            {
+              "de": "Es ist müde.",
+              "lv": "Оно устало."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "es",
+              "meaning": "Оно • Это • Безличное местоимение",
+              "example": "Es regnet. – Идёт дождь."
+            },
+            {
+              "word": "ich",
+              "meaning": "Я (говорящий)",
+              "example": "Ich lerne Deutsch. – Я учу немецкий язык."
+            }
+          ],
+          "info": [
+            "Латышское es = немецкое ich",
+            "Немецкое es = оно • это • безличное местоимение"
+          ],
+          "tip": {
+            "text": "Запомните: латышское es («я») по-немецки ich, а не es."
+          },
+          "important": [
+            "ich и es — разные местоимения.",
+            "Немецкое es — не латышское «я».",
+            "Латышское es по-немецки ich; немецкое es часто означает «оно/это» или не переводится."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0044",
+      "cardId": "a1-essen-study",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «Essen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Essen",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Еда • Приём пищи",
+        "study": {
+          "id": "a1-essen-study",
+          "layout": "standardStudy",
+          "translation": "Еда • Приём пищи",
+          "explanation": [
+            "Основная идея: существительное das Essen означает еду или приём пищи.",
+            "Глагол essen означает «есть». ",
+            "das Essen с артиклем является существительным.",
+            "das Essen может обозначать пищу или трапезу.",
+            "Контекст различает действие essen и существительное das Essen.",
+            "essen — глагол «есть».",
+            "das Essen — еда или приём пищи."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Еда вкусная."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Что вы хотите есть?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Мы едим в двенадцать часов."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Еда готова."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Еда очень вкусная."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Еда вкусная."
+            }
+          ],
+          "tip": [
+            "das Essen = еда • приём пищи",
+            "essen без артикля = есть"
+          ],
+          "important": [
+            "essen — глагол без артикля.",
+            "das Essen — существительное.",
+            "Действие: essen.",
+            "Еда или приём пищи: das Essen."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0045",
+      "cardId": "a1-essen-study",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «Essen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Essen",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Еда • Приём пищи",
+        "study": {
+          "id": "a1-essen-study",
+          "layout": "standardStudy",
+          "translation": "Еда • Приём пищи",
+          "explanation": [
+            "Основная идея: существительное das Essen означает еду или приём пищи.",
+            "Глагол essen означает «есть». ",
+            "das Essen с артиклем является существительным.",
+            "das Essen может обозначать пищу или трапезу.",
+            "Контекст различает действие essen и существительное das Essen.",
+            "essen — глагол «есть».",
+            "das Essen — еда или приём пищи."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Еда вкусная."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Что вы хотите есть?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Мы едим в двенадцать часов."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Еда готова."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Еда очень вкусная."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Еда вкусная."
+            }
+          ],
+          "tip": [
+            "das Essen = еда • приём пищи",
+            "essen без артикля = есть"
+          ],
+          "important": [
+            "essen — глагол без артикля.",
+            "das Essen — существительное.",
+            "Действие: essen.",
+            "Еда или приём пищи: das Essen."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0046",
+      "cardId": "a1-etwas",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «etwas»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "etwas",
+        "level": "A1",
+        "lv": "Что-то • Немного",
+        "study": {
+          "id": "a1-etwas",
+          "layout": "standardStudy",
+          "translation": "Что-то • Немного",
+          "explanation": [
+            "Основная идея: etwas означает «что-то» или «немного» в зависимости от контекста.",
+            "Как неопределённое местоимение etwas означает «что-то». ",
+            "Перед прилагательным или при указании количества etwas часто означает «немного»."
+          ],
+          "examples": [
+            {
+              "de": "Ich möchte etwas trinken.",
+              "lv": "Я хотел бы что-нибудь выпить."
+            },
+            {
+              "de": "Hast du etwas Zeit?",
+              "lv": "У тебя есть немного времени?"
+            },
+            {
+              "de": "Ich bin etwas müde.",
+              "lv": "Я немного устал."
+            },
+            {
+              "de": "Ich habe etwas für dich.",
+              "lv": "У меня есть кое-что для тебя."
+            },
+            {
+              "de": "Das ist etwas teuer.",
+              "lv": "Это немного дороговато."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "etwas",
+              "meaning": "Что-то • Немного",
+              "example": "Ich brauche etwas. – Мне кое-что нужно."
+            },
+            {
+              "word": "was",
+              "meaning": "Что-то (разговорное)",
+              "example": "Willst du was trinken? – Хочешь что-нибудь выпить?"
+            },
+            {
+              "word": "ein bisschen",
+              "meaning": "Немного",
+              "example": "Ich bin ein bisschen müde. – Я немного устал."
+            },
+            {
+              "word": "nichts",
+              "meaning": "Ничего",
+              "example": "Ich brauche nichts. – Мне ничего не нужно."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: предмет или неопределённая вещь → что-то; степень → немного."
+          },
+          "important": [
+            "Перед прилагательным etwas часто означает «немного».",
+            "etwas и nichts противоположны: etwas — что-то, nichts — ничего.",
+            "Форма русского перевода зависит от предложения: etwas trinken = что-нибудь выпить."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0047",
+      "cardId": "a1-etwas",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «etwas»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "etwas",
+        "level": "A1",
+        "lv": "Что-то • Немного",
+        "study": {
+          "id": "a1-etwas",
+          "layout": "standardStudy",
+          "translation": "Что-то • Немного",
+          "explanation": [
+            "Основная идея: etwas означает «что-то» или «немного» в зависимости от контекста.",
+            "Как неопределённое местоимение etwas означает «что-то». ",
+            "Перед прилагательным или при указании количества etwas часто означает «немного»."
+          ],
+          "examples": [
+            {
+              "de": "Ich möchte etwas trinken.",
+              "lv": "Я хотел бы что-нибудь выпить."
+            },
+            {
+              "de": "Hast du etwas Zeit?",
+              "lv": "У тебя есть немного времени?"
+            },
+            {
+              "de": "Ich bin etwas müde.",
+              "lv": "Я немного устал."
+            },
+            {
+              "de": "Ich habe etwas für dich.",
+              "lv": "У меня есть кое-что для тебя."
+            },
+            {
+              "de": "Das ist etwas teuer.",
+              "lv": "Это немного дороговато."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "etwas",
+              "meaning": "Что-то • Немного",
+              "example": "Ich brauche etwas. – Мне кое-что нужно."
+            },
+            {
+              "word": "was",
+              "meaning": "Что-то (разговорное)",
+              "example": "Willst du was trinken? – Хочешь что-нибудь выпить?"
+            },
+            {
+              "word": "ein bisschen",
+              "meaning": "Немного",
+              "example": "Ich bin ein bisschen müde. – Я немного устал."
+            },
+            {
+              "word": "nichts",
+              "meaning": "Ничего",
+              "example": "Ich brauche nichts. – Мне ничего не нужно."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: предмет или неопределённая вещь → что-то; степень → немного."
+          },
+          "important": [
+            "Перед прилагательным etwas часто означает «немного».",
+            "etwas и nichts противоположны: etwas — что-то, nichts — ничего.",
+            "Форма русского перевода зависит от предложения: etwas trinken = что-нибудь выпить."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0048",
+      "cardId": "a1-euch",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «euch»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "euch",
+        "level": "A1",
+        "lv": "Вас • Вам",
+        "study": {
+          "id": "a1-euch",
+          "layout": "standardStudy",
+          "translation": "Вас • Вам",
+          "explanation": "euch — местоимение второго лица множественного числа. Это форма винительного падежа «вас» и дательного падежа «вам».",
+          "examples": [
+            {
+              "de": "Ich sehe euch.",
+              "lv": "Я вижу вас."
+            },
+            {
+              "de": "Ich helfe euch.",
+              "lv": "Я помогаю вам."
+            },
+            {
+              "de": "Ich gebe euch das Buch.",
+              "lv": "Я даю вам книгу."
+            },
+            {
+              "de": "Ich danke euch.",
+              "lv": "Я благодарю вас."
+            },
+            {
+              "de": "Ihr erinnert euch.",
+              "lv": "Вы вспоминаете."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ihr",
+              "meaning": "Вы",
+              "example": "Ihr seid freundlich. – Вы дружелюбны."
+            },
+            {
+              "word": "euch",
+              "meaning": "Вас • Вам",
+              "example": "Ich helfe euch. – Я помогаю вам."
+            },
+            {
+              "word": "euer",
+              "meaning": "Ваш",
+              "example": "Das ist euer Haus. – Это ваш дом."
+            }
+          ],
+          "info": [
+            "ihr = вы (форма подлежащего)",
+            "euch = вас (винительный падеж) • вам (дательный падеж)",
+            "euer = ваш (притяжательная форма)"
+          ],
+          "tip": {
+            "text": "euch отвечает на вопросы «кого?» или «кому?» при обращении к нескольким людям.",
+            "example": "Ich helfe euch. = Я помогаю вам. Ich sehe euch. = Я вижу вас. Ich erzähle euch. = Я рассказываю вам."
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0049",
+      "cardId": "a1-euch",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «euch»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "euch",
+        "level": "A1",
+        "lv": "Вас • Вам",
+        "study": {
+          "id": "a1-euch",
+          "layout": "standardStudy",
+          "translation": "Вас • Вам",
+          "explanation": "euch — местоимение второго лица множественного числа. Это форма винительного падежа «вас» и дательного падежа «вам».",
+          "examples": [
+            {
+              "de": "Ich sehe euch.",
+              "lv": "Я вижу вас."
+            },
+            {
+              "de": "Ich helfe euch.",
+              "lv": "Я помогаю вам."
+            },
+            {
+              "de": "Ich gebe euch das Buch.",
+              "lv": "Я даю вам книгу."
+            },
+            {
+              "de": "Ich danke euch.",
+              "lv": "Я благодарю вас."
+            },
+            {
+              "de": "Ihr erinnert euch.",
+              "lv": "Вы вспоминаете."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ihr",
+              "meaning": "Вы",
+              "example": "Ihr seid freundlich. – Вы дружелюбны."
+            },
+            {
+              "word": "euch",
+              "meaning": "Вас • Вам",
+              "example": "Ich helfe euch. – Я помогаю вам."
+            },
+            {
+              "word": "euer",
+              "meaning": "Ваш",
+              "example": "Das ist euer Haus. – Это ваш дом."
+            }
+          ],
+          "info": [
+            "ihr = вы (форма подлежащего)",
+            "euch = вас (винительный падеж) • вам (дательный падеж)",
+            "euer = ваш (притяжательная форма)"
+          ],
+          "tip": {
+            "text": "euch отвечает на вопросы «кого?» или «кому?» при обращении к нескольким людям.",
+            "example": "Ich helfe euch. = Я помогаю вам. Ich sehe euch. = Я вижу вас. Ich erzähle euch. = Я рассказываю вам."
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB083-0050",
+      "cardId": "a1-fahren",
+      "status": "LABOT",
+      "reason": "Pilna RU kartīte «fahren»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "fahren",
+        "level": "A1",
+        "lv": "Ехать • Ездить • Везти",
+        "study": {
+          "id": "a1-fahren",
+          "layout": "standardStudy",
+          "translation": "Ехать • Ездить • Везти",
+          "explanation": [
+            "Основная идея: fahren означает ехать или ездить на транспорте, а в некоторых предложениях — везти или отвозить кого-либо.",
+            "fahren употребляют при передвижении на автомобиле, автобусе, поезде, велосипеде или другом транспортном средстве.",
+            "Если в предложении есть человек как объект, fahren может означать «везти» или «отвозить».",
+            "Если передвижение происходит пешком, обычно употребляют gehen или laufen."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "Я еду в Берлин."
+            },
+            {
+              "de": "Ich fahre mit dem Auto.",
+              "lv": "Я еду на машине."
+            },
+            {
+              "de": "Ich fahre meine Tochter zur Schule.",
+              "lv": "Я отвожу свою дочь в школу."
+            },
+            {
+              "de": "Ich fahre dich nach Hause.",
+              "lv": "Я отвожу тебя домой."
+            },
+            {
+              "de": "Wir fahren morgen nach München.",
+              "lv": "Завтра мы едем в Мюнхен."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fahren",
+              "meaning": "Ехать • Ездить на транспорте",
+              "example": "Ich fahre mit dem Bus. – Я еду на автобусе."
+            },
+            {
+              "word": "gehen",
+              "meaning": "Идти пешком",
+              "example": "Ich gehe nach Hause. – Я иду домой."
+            },
+            {
+              "word": "laufen",
+              "meaning": "Бежать • Идти",
+              "example": "Er läuft schnell. – Он быстро бежит."
+            },
+            {
+              "word": "bringen",
+              "meaning": "Приносить • Доставлять",
+              "example": "Ich bringe das Buch. – Я приношу книгу."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "Брать с собой",
+              "example": "Ich nehme dich mit. – Я беру тебя с собой."
+            }
+          ],
+          "tip": {
+            "text": "Запомните: транспортное средство → fahren; пешком → gehen."
+          },
+          "important": {
+            "text": "fahren означает не только «ехать»",
+            "example": "В зависимости от контекста fahren может означать «ехать», «ездить», «везти» или «отвозить»."
+          }
+        }
+      }
+    }
+  ]
+}

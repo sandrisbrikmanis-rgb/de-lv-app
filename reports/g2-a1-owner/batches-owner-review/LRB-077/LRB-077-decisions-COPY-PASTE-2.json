@@ -1,0 +1,152 @@
+{
+  "batch_id": "LRB-077",
+  "correction_round": 2,
+  "apply_mode": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+  "reviewed_commit": "54181fb47d26d5fc3a0cd9d8ca024f292c4992c4",
+  "input_mapping_sha256": "27f60ad228d2f39c9e0a1a2d24ac99e83ee4e982df2ff2f3de6766ca6690fc4c",
+  "owner_verdict": "FAIL_REQUIRES_COPY_PASTE_REPAIR",
+  "gala_pass": false,
+  "counts_before": {
+    "LABOT": 50,
+    "NELABOT": 0,
+    "PENDING": 0,
+    "PL": 50,
+    "PT": 0
+  },
+  "counts_required_after_apply": {
+    "LABOT": 50,
+    "NELABOT": 0,
+    "PENDING": 0,
+    "PL": 50,
+    "PT": 0
+  },
+  "instructions": [
+    "Ievietot zemāk doto pilno owner_new vērtību precīzi, bez jaunas lingvistiskas analīzes.",
+    "Sinhronizēt visus replace_targets laukus ar vienu un to pašu pilno owner_new objektu.",
+    "Nemainīt pārējo 49 kartīšu lingvistisko saturu, DE piemērus, card_id, source-row identity, production data, Crowdin vai ingest/apply.",
+    "Pēc ievietošanas pārbūvēt tikai LRB-077 OWNER artefaktus un svaigi pārrēķināt proof, anti-bulk, manifesta un checkpoint hashus.",
+    "galaPass atstāt false līdz neatkarīgai OWNER atkārtotai pārbaudei."
+  ],
+  "corrections": [
+    {
+      "language": "PL",
+      "card_id": "kennen|idx:310",
+      "row_numbers": [
+        29
+      ],
+      "existing_decision": "LABOT",
+      "required_decision": "LABOT",
+      "defect": "Pilnajā COPY-PASTE specifikācijā ir obligātais top-level id, bet materializētajos owner_new/new laukos tas ir pazudis; proof kļūdaini ziņo OWNER_NEW_MISSING_IDENTITY_FIELDS=0.",
+      "required_identity": {
+        "id": "a1-kennen",
+        "study_id": "a1-kennen-study"
+      },
+      "replace_targets": [
+        "LRB-077-owner-approved-overrides.json → new",
+        "LRB-077-gala-cards.json → ownerNew",
+        "LRB-077-owner-view.md → NEW (OWNER mapping)",
+        "LRB-077-owner-decisions.md → NEW",
+        "LRB-077-owner-corrections.md → NEW",
+        "LRB-077-decisions.csv → owner_new",
+        "scripts/data/g2-a1-owner-pending/LRB-077-decisions.json → owner_new"
+      ],
+      "already_correct_do_not_change": [
+        "LRB-077-decisions-COPY-PASTE.json → approved_card",
+        "LRB-077-gala-cards.json → approvedGalaCard"
+      ],
+      "owner_note": "Pilna PL kartīte «kennen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "owner_new": {
+        "de": "kennen",
+        "lv": "znać",
+        "level": "A1",
+        "id": "a1-kennen",
+        "study": {
+          "id": "a1-kennen-study",
+          "layout": "standardStudy",
+          "translation": "znać",
+          "explanation": [
+            "Główna idea: kennen oznacza znać osobę, miejsce lub rzecz z doświadczenia.",
+            "Używa się go, gdy ktoś jest nam znajomy.",
+            "wissen oznacza wiedzieć jakiś fakt lub informację.",
+            "kennenlernen oznacza poznawać lub poznać kogoś."
+          ],
+          "examples": [
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Znam go."
+            },
+            {
+              "de": "Kennen Sie diese Frau?",
+              "lv": "Czy zna pan/pani tę kobietę?"
+            },
+            {
+              "de": "Wo habt ihr euch kennengelernt?",
+              "lv": "Gdzie się poznaliście?"
+            },
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Znam go."
+            },
+            {
+              "de": "kennen",
+              "lv": "znać"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kennen",
+              "meaning": "znać",
+              "example": "Ich kenne ihn. – Znam go."
+            },
+            {
+              "word": "wissen",
+              "meaning": "wiedzieć",
+              "example": "Ich weiß seinen Namen. – Wiem, jak ma na imię."
+            }
+          ],
+          "tip": [
+            "Osoba lub miejsce: kennen = znać.",
+            "Fakt lub informacja: wissen = wiedzieć."
+          ],
+          "important": [
+            "kennen + osoba/rzecz; wissen + informacja.",
+            "kennenlernen = poznawać lub poznać."
+          ]
+        }
+      }
+    }
+  ],
+  "required_fresh_gates": {
+    "ROWS": "50/50",
+    "PL": 50,
+    "PT": 0,
+    "LABOT": 50,
+    "NELABOT": 0,
+    "PENDING": 0,
+    "UNIQUE_TARGET_CARDS": 50,
+    "FULL_STUDY_CARDS": 50,
+    "SOURCE_ROW_IDENTITY_ALIGNMENT": "50/50",
+    "SOURCE_ROW_IDENTITY_DRIFT": 0,
+    "OWNER_NEW_PARSEABLE": "50/50",
+    "OWNER_NEW_FULL_COMPOSITE_ALIGNMENT": "50/50",
+    "OWNER_NEW_MISSING_IDENTITY_FIELDS": 0,
+    "OWNER_NEW_DRIFT": 0,
+    "APPROVED_COMPOSITE_DRIFT": 0,
+    "WRONG_LANGUAGE_RESIDUE": 0,
+    "NULL_TARGET_VALUES": 0,
+    "DE_EXAMPLE_INDEX_ALIGNMENT": "236/236",
+    "COMPARISON_ALIGNMENT": "86/86",
+    "SEMANTIC_ALIGNMENT_VIOLATIONS": 0,
+    "DEGENERATE_EXAMPLE_PAIRS": 0,
+    "INTERNAL_CARD_CONTRADICTIONS": 0,
+    "FULL_COMPOSITE_COMPLETENESS": "PASS",
+    "ANTI_BULK": "PASS",
+    "NEW_LUNA_CALLS": 0,
+    "PRODUCTION_CHANGES": 0,
+    "DE_CHANGES": 0,
+    "CROWDIN_CHANGES": 0,
+    "INGEST_APPLY": 0,
+    "SCRIPT_CHANGES": 0,
+    "pass": true
+  }
+}
