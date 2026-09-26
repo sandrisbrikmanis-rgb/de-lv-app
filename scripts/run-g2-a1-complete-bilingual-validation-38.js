@@ -36,8 +36,9 @@ const {
   TARGET_LEMMA_STATUS,
   resolveTranslationPairStatus,
   resolveTargetLemmaStatus,
-  resolveGalaConclusion,
-  applyTargetLemmaToGala,
+  resolveFinalGalaConclusion,
+  targetStatusWhenPairNotFound,
+  GALA_CONCLUSION,
 } = require("./lib/g2-a1-production-current/g2-a1-bilingual-row-status");
 const { loadG2Level } = require("./lib/content-crowdin-bridge/roundtrip");
 
@@ -288,16 +289,23 @@ async function validateRow(fullRow, deAuthority) {
   }
 
   const pair = resolveTranslationPairStatus(pool, currentTarget);
-  const target = await resolveTargetLemmaStatus(
-    appLang,
-    currentTarget,
-    pair.pairLemma,
-    lookupTargetForProvenLemma,
-    targetLookupVariants,
-  );
+  const target =
+    pair.translationPairStatus === TRANSLATION_PAIR_STATUS.NOT_FOUND
+      ? targetStatusWhenPairNotFound()
+      : await resolveTargetLemmaStatus(
+          appLang,
+          currentTarget,
+          pair.pairLemma,
+          lookupTargetForProvenLemma,
+          targetLookupVariants,
+        );
 
-  let gala = resolveGalaConclusion(pair.translationPairStatus, pair.pairLemma, currentTarget);
-  gala = applyTargetLemmaToGala(gala, target.targetLemmaStatus, target.targetReason);
+  const gala = resolveFinalGalaConclusion({
+    translationPairStatus: pair.translationPairStatus,
+    targetLemmaStatus: target.targetLemmaStatus,
+    pairLemma: pair.pairLemma,
+    currentTarget,
+  });
 
   const displayTarget =
     pair.translationPairStatus === TRANSLATION_PAIR_STATUS.VALIDATED && pair.pairLemma
@@ -372,25 +380,35 @@ async function main() {
     process.stderr.write(`${r.galaConclusion} pair=${r.translationPairStatus} target=${r.targetLemmaStatus} ${r.appLang} ${r.deLemma}\n`);
   }
 
-  const tv = results.filter((r) => r.galaConclusion === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED);
-  const finding = results.filter((r) => r.galaConclusion === TRANSLATION_AUDIT_VERDICT.FINDING);
-  const nsr = results.filter((r) => r.galaConclusion === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW);
-  const nf = results.filter((r) => r.galaConclusion === "NOT_FOUND");
+  const tv = results.filter((r) => r.galaConclusion === GALA_CONCLUSION.TRANSLATION_VALIDATED);
+  const finding = results.filter((r) => r.galaConclusion === GALA_CONCLUSION.FINDING);
+  const pairPending = results.filter(
+    (r) => r.galaConclusion === GALA_CONCLUSION.TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING,
+  );
+  const capPending = results.filter(
+    (r) => r.galaConclusion === GALA_CONCLUSION.CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING,
+  );
+  const nsr = results.filter((r) => r.galaConclusion === GALA_CONCLUSION.NEEDS_SOURCE_REVIEW);
+  const nf = results.filter((r) => r.galaConclusion === GALA_CONCLUSION.NOT_FOUND);
   const pairValidated = results.filter((r) => r.translationPairStatus === TRANSLATION_PAIR_STATUS.VALIDATED);
   const targetValidated = results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.VALIDATED);
+  const targetNotApplicable = results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.NOT_APPLICABLE);
 
   const payload = {
-    schemaVersion: "g2-a1-complete-bilingual-validation-38-v4",
+    schemaVersion: "g2-a1-complete-bilingual-validation-38-v5",
     generatedAt: new Date().toISOString(),
     rowCount: results.length,
     translationValidatedCount: tv.length,
     findingCount: finding.length,
+    translationPairValidatedTargetLemmaPendingCount: pairPending.length,
+    capitalizationCandidateTargetValidationPendingCount: capPending.length,
     needsSourceReviewCount: nsr.length,
     notFoundCount: nf.length,
     translationPairValidatedCount: pairValidated.length,
     targetLemmaValidatedCount: targetValidated.length,
+    targetLemmaNotApplicableCount: targetNotApplicable.length,
     policy:
-      "Split TRANSLATION_PAIR_STATUS + TARGET_LEMMA_STATUS; DE DWDS/Duden; EN helper only; bilingual pair not annulled by TARGET pending",
+      "v5 gala: pair VALIDATED + target pending ≠ TRANSLATION_VALIDATED; cap pending ≠ FINDING; NOT_FOUND → target N/A",
     results,
   };
 
@@ -401,21 +419,30 @@ async function main() {
     "",
     `Ģenerēts: ${payload.generatedAt}`,
     "",
-    `**Gala secinājums:** TRANSLATION_VALIDATED ${tv.length}/38 | FINDING ${finding.length}/38 | NEEDS_SOURCE_REVIEW ${nsr.length}/38 | NOT_FOUND ${nf.length}/38`,
+    "**Gala secinājums:**",
+    `- TRANSLATION_VALIDATED: ${tv.length}/38`,
+    `- FINDING: ${finding.length}/38`,
+    `- TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING: ${pairPending.length}/38`,
+    `- CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING: ${capPending.length}/38`,
+    `- NEEDS_SOURCE_REVIEW: ${nsr.length}/38`,
+    `- NOT_FOUND: ${nf.length}/38`,
     "",
     `**TRANSLATION_PAIR_STATUS:** VALIDATED ${pairValidated.length}/38 | MULTIPLE_CANDIDATES ${results.filter((r) => r.translationPairStatus === TRANSLATION_PAIR_STATUS.MULTIPLE_CANDIDATES).length}/38 | NOT_FOUND ${results.filter((r) => r.translationPairStatus === TRANSLATION_PAIR_STATUS.NOT_FOUND).length}/38`,
     "",
-    `**TARGET_LEMMA_STATUS:** VALIDATED ${targetValidated.length}/38 | VALIDATION_PENDING ${results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.VALIDATION_PENDING).length}/38 | NOT_VALIDATED ${results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.NOT_VALIDATED).length}/38`,
+    `**TARGET_LEMMA_STATUS:** VALIDATED ${targetValidated.length}/38 | VALIDATION_PENDING ${results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.VALIDATION_PENDING).length}/38 | NOT_VALIDATED ${results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.NOT_VALIDATED).length}/38 | NOT_APPLICABLE ${targetNotApplicable.length}/38`,
     "",
     "| Valoda | DE vārds | CURRENT | TARGET tulkojums | Divvalodu vārdnīca | URL | TRANSLATION_PAIR_STATUS | TARGET_LEMMA_STATUS | Gala secinājums |",
     "|--------|----------|---------|------------------|-------------------|-----|-------------------------|---------------------|-----------------|",
   ];
 
   for (const r of results) {
-    const gala =
-      r.galaConclusion === TRANSLATION_AUDIT_VERDICT.FINDING
-        ? `${r.galaConclusion} (${r.findingType}${r.proposedNew ? ` → ${r.proposedNew}` : ""})`
-        : r.galaConclusion;
+    let gala = r.galaConclusion;
+    if (
+      r.galaConclusion === GALA_CONCLUSION.FINDING ||
+      r.galaConclusion === GALA_CONCLUSION.CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING
+    ) {
+      gala = `${r.galaConclusion}${r.proposedNew ? ` → ${r.proposedNew}` : ""}`;
+    }
     md.push(
       `| ${r.appLang} | ${r.deLemma} | ${r.currentTarget || "—"} | ${r.targetTranslationDisplay} | ${r.dictionaryName || "—"} | ${r.resultUrl || "—"} | ${r.translationPairStatus} | ${r.targetLemmaStatus} | ${gala} |`,
     );
@@ -427,10 +454,13 @@ async function main() {
       {
         TRANSLATION_VALIDATED: tv.length,
         FINDING: finding.length,
+        TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING: pairPending.length,
+        CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING: capPending.length,
         NEEDS_SOURCE_REVIEW: nsr.length,
         NOT_FOUND: nf.length,
         TRANSLATION_PAIR_VALIDATED: pairValidated.length,
         TARGET_LEMMA_VALIDATED: targetValidated.length,
+        TARGET_LEMMA_NOT_APPLICABLE: targetNotApplicable.length,
         out: OUT_JSON,
       },
       null,

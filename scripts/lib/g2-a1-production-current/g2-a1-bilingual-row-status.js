@@ -20,6 +20,17 @@ const TARGET_LEMMA_STATUS = Object.freeze({
   VALIDATED: "VALIDATED",
   VALIDATION_PENDING: "VALIDATION_PENDING",
   NOT_VALIDATED: "NOT_VALIDATED",
+  NOT_APPLICABLE: "NOT_APPLICABLE",
+});
+
+/** Gala secinājumi (paplašināti v5). */
+const GALA_CONCLUSION = Object.freeze({
+  TRANSLATION_VALIDATED: TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED,
+  FINDING: TRANSLATION_AUDIT_VERDICT.FINDING,
+  NEEDS_SOURCE_REVIEW: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+  NOT_FOUND: "NOT_FOUND",
+  TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING: "TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING",
+  CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING: "CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING",
 });
 
 function resolveTranslationPairStatus(filteredCandidates, currentTarget) {
@@ -138,13 +149,29 @@ async function resolveTargetLemmaStatus(appLang, currentTarget, pairLemma, looku
   };
 }
 
-function resolveGalaConclusion(translationPairStatus, pairLemma, currentTarget) {
+function capitalizationCandidate(current, dictLemma) {
+  if (!targetLemmaEquals(current, dictLemma) || stripQuotes(current) === stripQuotes(dictLemma)) {
+    return null;
+  }
+  const cap = evaluateDictionaryCapitalization({
+    fieldKind: "dictionary",
+    current: stripQuotes(current),
+    authorityLemma: stripQuotes(dictLemma),
+    isProperNoun: false,
+  });
+  return cap.findingType === "CAPITALIZATION_ERROR" ? cap : null;
+}
+
+/**
+ * Gala secinājums no pāra + TARGET statusa (vārdnīcas pāris netiek mainīts).
+ */
+function resolveFinalGalaConclusion({ translationPairStatus, targetLemmaStatus, pairLemma, currentTarget }) {
   const current = stripQuotes(currentTarget || "");
   const dictLemma = stripQuotes(pairLemma || "");
 
   if (translationPairStatus === TRANSLATION_PAIR_STATUS.NOT_FOUND) {
     return {
-      galaConclusion: "NOT_FOUND",
+      galaConclusion: GALA_CONCLUSION.NOT_FOUND,
       findingType: null,
       proposedNew: null,
       galaReason: "NO_BILINGUAL_PAIR",
@@ -153,7 +180,7 @@ function resolveGalaConclusion(translationPairStatus, pairLemma, currentTarget) 
 
   if (translationPairStatus === TRANSLATION_PAIR_STATUS.MULTIPLE_CANDIDATES) {
     return {
-      galaConclusion: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+      galaConclusion: GALA_CONCLUSION.NEEDS_SOURCE_REVIEW,
       findingType: null,
       proposedNew: null,
       galaReason: "AMBIGUOUS_BILINGUAL_PAIR",
@@ -162,32 +189,64 @@ function resolveGalaConclusion(translationPairStatus, pairLemma, currentTarget) 
 
   if (!dictLemma) {
     return {
-      galaConclusion: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+      galaConclusion: GALA_CONCLUSION.NEEDS_SOURCE_REVIEW,
       findingType: null,
       proposedNew: null,
       galaReason: "PAIR_LEMMA_MISSING",
     };
   }
 
-  if (current === dictLemma) {
+  const exact = current === dictLemma;
+  const cap = capitalizationCandidate(current, dictLemma);
+  const alignsWithPair = exact || Boolean(cap);
+
+  if (!alignsWithPair) {
     return {
-      galaConclusion: TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED,
+      galaConclusion: GALA_CONCLUSION.NEEDS_SOURCE_REVIEW,
       findingType: null,
       proposedNew: null,
-      galaReason: "CURRENT_EXACT_BILINGUAL_LEMMA",
+      galaReason: "CURRENT_NOT_BILINGUAL_PAIR_LEMMA",
     };
   }
 
-  if (targetLemmaEquals(current, dictLemma)) {
-    const cap = evaluateDictionaryCapitalization({
-      fieldKind: "dictionary",
-      current,
-      authorityLemma: dictLemma,
-      isProperNoun: false,
-    });
-    if (cap.findingType === "CAPITALIZATION_ERROR") {
+  if (targetLemmaStatus === TARGET_LEMMA_STATUS.NOT_VALIDATED) {
+    return {
+      galaConclusion: GALA_CONCLUSION.NEEDS_SOURCE_REVIEW,
+      findingType: null,
+      proposedNew: null,
+      galaReason: "TARGET_LEMMA_NOT_VALIDATED",
+    };
+  }
+
+  if (targetLemmaStatus === TARGET_LEMMA_STATUS.VALIDATION_PENDING) {
+    if (cap) {
       return {
-        galaConclusion: TRANSLATION_AUDIT_VERDICT.FINDING,
+        galaConclusion: GALA_CONCLUSION.CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING,
+        findingType: "CAPITALIZATION_ERROR",
+        proposedNew: cap.proposedTarget || dictLemma,
+        galaReason: cap.reason || "case_mismatch_same_lemma",
+      };
+    }
+    return {
+      galaConclusion: GALA_CONCLUSION.TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING,
+      findingType: null,
+      proposedNew: null,
+      galaReason: "BILINGUAL_PAIR_OK_TARGET_OFFICIAL_PENDING",
+    };
+  }
+
+  if (targetLemmaStatus === TARGET_LEMMA_STATUS.VALIDATED) {
+    if (exact) {
+      return {
+        galaConclusion: GALA_CONCLUSION.TRANSLATION_VALIDATED,
+        findingType: null,
+        proposedNew: null,
+        galaReason: "CURRENT_EXACT_BILINGUAL_AND_TARGET_OFFICIAL",
+      };
+    }
+    if (cap) {
+      return {
+        galaConclusion: GALA_CONCLUSION.FINDING,
         findingType: "CAPITALIZATION_ERROR",
         proposedNew: cap.proposedTarget || dictLemma,
         galaReason: cap.reason || "case_mismatch_same_lemma",
@@ -196,38 +255,29 @@ function resolveGalaConclusion(translationPairStatus, pairLemma, currentTarget) 
   }
 
   return {
-    galaConclusion: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+    galaConclusion: GALA_CONCLUSION.NEEDS_SOURCE_REVIEW,
     findingType: null,
     proposedNew: null,
-    galaReason: "CURRENT_NOT_BILINGUAL_PAIR_LEMMA",
+    galaReason: "UNRESOLVED_GALA",
   };
 }
 
-/**
- * TARGET NOT_VALIDATED neannulē pāri, bet ietekmē gala secinājumu, ja CURRENT nav pierādīts.
- */
-function applyTargetLemmaToGala(baseGala, targetLemmaStatus, targetReason) {
-  if (baseGala.galaConclusion !== TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED) {
-    return { ...baseGala, targetLemmaStatus, targetReason };
-  }
-  if (targetLemmaStatus === TARGET_LEMMA_STATUS.NOT_VALIDATED) {
-    return {
-      galaConclusion: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
-      findingType: null,
-      proposedNew: null,
-      galaReason: `TARGET_${targetReason || "NOT_VALIDATED"}`,
-      targetLemmaStatus,
-      targetReason,
-    };
-  }
-  return { ...baseGala, targetLemmaStatus, targetReason };
+function targetStatusWhenPairNotFound() {
+  return {
+    targetLemmaStatus: TARGET_LEMMA_STATUS.NOT_APPLICABLE,
+    targetReason: "NO_BILINGUAL_PAIR",
+    targetSourceUrl: null,
+    normativeLemma: null,
+  };
 }
 
 module.exports = {
   TRANSLATION_PAIR_STATUS,
   TARGET_LEMMA_STATUS,
+  GALA_CONCLUSION,
   resolveTranslationPairStatus,
   resolveTargetLemmaStatus,
-  resolveGalaConclusion,
-  applyTargetLemmaToGala,
+  resolveFinalGalaConclusion,
+  targetStatusWhenPairNotFound,
+  capitalizationCandidate,
 };
