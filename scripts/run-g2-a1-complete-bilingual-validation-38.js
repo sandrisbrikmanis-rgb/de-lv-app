@@ -4,10 +4,7 @@
 const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
-const {
-  TRANSLATION_AUDIT_VERDICT,
-  targetLemmaEquals,
-} = require("./lib/g2-a1-production-current/card-translation-audit-search");
+const { TRANSLATION_AUDIT_VERDICT } = require("./lib/g2-a1-production-current/card-translation-audit-search");
 const { lookupDeForCard, lookupTargetForProvenLemma } = require("./lib/g2-a1-production-current/card-translation-lang-run");
 const { targetLookupVariants } = require("./lib/g2-a1-production-current/card-translation-target-lookup");
 const { mapTargetsToCandidates } = require("./lib/g2-a1-production-current/card-translation-bilingual-collector");
@@ -31,11 +28,17 @@ const {
 const {
   loadCardSenseContext,
   filterStrictCandidates,
-  resolveStrictBilingualFinalStatus,
-  applyDeAndTargetAuthorityGates,
   cardMeaningDisplayLabel,
   sanitizeDeEvidenceText,
 } = require("./lib/g2-a1-production-current/g2-a1-bilingual-validation-strict");
+const {
+  TRANSLATION_PAIR_STATUS,
+  TARGET_LEMMA_STATUS,
+  resolveTranslationPairStatus,
+  resolveTargetLemmaStatus,
+  resolveGalaConclusion,
+  applyTargetLemmaToGala,
+} = require("./lib/g2-a1-production-current/g2-a1-bilingual-row-status");
 const { loadG2Level } = require("./lib/content-crowdin-bridge/roundtrip");
 
 const RESCAN6 = JSON.parse(
@@ -214,24 +217,6 @@ function productionCardFields(appLang, level, lemma) {
   }
 }
 
-async function gateVerdict(verdict, filtered, ctx) {
-  const current = stripQuotes(ctx.currentTarget || "");
-  const matches = filtered.filter((c) => targetLemmaEquals(c.targetLemma || c.wordLb, current));
-  const enriched = {
-    ...verdict,
-    candidates: filtered,
-    matchedLemma: matches.length === 1 ? stripQuotes(matches[0].targetLemma || matches[0].wordLb) : verdict.matchedLemma,
-  };
-  return applyDeAndTargetAuthorityGates(enriched, {
-    appLang: ctx.appLang,
-    currentTarget: ctx.currentTarget,
-    cardGerman: ctx.cardGerman,
-    deAuthority: ctx.deAuthority,
-    lookupTargetForProvenLemma,
-    targetLookupVariants,
-  });
-}
-
 async function validateRow(fullRow, deAuthority) {
   const appLang = fullRow.appLang;
   const lemma = fullRow.deLemma;
@@ -254,14 +239,6 @@ async function validateRow(fullRow, deAuthority) {
   let allCandidates = [];
   let winningSource = null;
   let winningUrl = null;
-  let winningTranslations = [];
-  let finalStatus = "NOT_FOUND";
-  let finalReason = "NO_SOURCE_SUCCEEDED";
-  let findingType = null;
-  let proposedNew = null;
-  let deSenseConfirmed = null;
-  let targetOfficialValidated = null;
-  let targetSourceUrl = null;
   const attempts = [];
 
   for (const spec of chain) {
@@ -295,78 +272,36 @@ async function validateRow(fullRow, deAuthority) {
     if (!translations.length) continue;
 
     allCandidates = mergeCandidates(allCandidates, batch, sourceMeta);
-    const { filtered } = applyStrictPool(allCandidates, cardGerman, deAuthority, appLang);
-    let verdict = resolveStrictBilingualFinalStatus(cardGerman, deAuthority, filtered, currentTarget);
-    verdict = await gateVerdict(verdict, filtered, { appLang, currentTarget, cardGerman, deAuthority });
-    if (verdict.finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED) {
-      finalStatus = verdict.finalStatus;
-      finalReason = verdict.reason;
-      findingType = verdict.findingType || null;
-      proposedNew = verdict.proposedNew || null;
+    if (!winningSource && translations.length) {
       winningSource = spec.name;
       winningUrl = resultUrl;
-      winningTranslations = filtered.map((c) => c.targetLemma);
-      break;
-    }
-    if (verdict.finalStatus === TRANSLATION_AUDIT_VERDICT.FINDING) {
-      finalStatus = verdict.finalStatus;
-      finalReason = verdict.reason;
-      findingType = verdict.findingType || null;
-      proposedNew = verdict.proposedNew || null;
-      winningSource = spec.name;
-      winningUrl = resultUrl;
-      winningTranslations = filtered.map((c) => c.targetLemma);
-      break;
-    }
-    if (verdict.finalStatus === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW) {
-      finalStatus = verdict.finalStatus;
-      finalReason = verdict.reason;
-      findingType = verdict.findingType || null;
-      proposedNew = verdict.proposedNew || null;
-      winningSource = spec.name;
-      winningUrl = resultUrl;
-      winningTranslations = filtered.map((c) => c.targetLemma);
     }
   }
 
-  let filteredFinal = applyStrictPool(allCandidates, cardGerman, deAuthority, appLang);
-
-  if (
-    finalStatus === "NOT_FOUND" ||
-    finalStatus === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW ||
-    finalStatus === TRANSLATION_AUDIT_VERDICT.FINDING ||
-    finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED
-  ) {
-    let verdict = resolveStrictBilingualFinalStatus(
-      cardGerman,
-      deAuthority,
-      filteredFinal.filtered,
-      currentTarget,
-    );
-    verdict = await gateVerdict(verdict, filteredFinal.filtered, {
-      appLang,
-      currentTarget,
-      cardGerman,
-      deAuthority,
-    });
-    finalStatus = verdict.finalStatus;
-    finalReason = verdict.reason;
-    findingType = verdict.findingType || null;
-    proposedNew = verdict.proposedNew || null;
-    deSenseConfirmed = verdict.deSenseConfirmed;
-    targetOfficialValidated = verdict.targetOfficialValidated;
-    targetSourceUrl = verdict.targetSourceUrl || null;
-    if (!winningSource && attempts.find((a) => a.ok)) {
-      const hit = attempts.find((a) => a.ok);
-      winningSource = chain.find((s) => s.id === hit.sourceId)?.name || null;
-      winningUrl = hit.resultUrl;
-    }
-  }
-
+  const filteredFinal = applyStrictPool(allCandidates, cardGerman, deAuthority, appLang);
   const pool = filteredFinal.filtered;
+
+  if (!winningSource && attempts.find((a) => a.ok)) {
+    const hit = attempts.find((a) => a.ok);
+    winningSource = chain.find((s) => s.id === hit.sourceId)?.name || null;
+    winningUrl = hit.resultUrl;
+  }
+
+  const pair = resolveTranslationPairStatus(pool, currentTarget);
+  const target = await resolveTargetLemmaStatus(
+    appLang,
+    currentTarget,
+    pair.pairLemma,
+    lookupTargetForProvenLemma,
+    targetLookupVariants,
+  );
+
+  let gala = resolveGalaConclusion(pair.translationPairStatus, pair.pairLemma, currentTarget);
+  gala = applyTargetLemmaToGala(gala, target.targetLemmaStatus, target.targetReason);
+
   const displayTarget =
-    finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED
-      ? stripQuotes(currentTarget)
+    pair.translationPairStatus === TRANSLATION_PAIR_STATUS.VALIDATED && pair.pairLemma
+      ? pair.pairLemma
       : pool.length
         ? [...new Set(pool.map((c) => c.targetLemma))].slice(0, 6).join("; ")
         : "—";
@@ -380,17 +315,23 @@ async function validateRow(fullRow, deAuthority) {
     germanMeaning: cardGerman.deSenseProof || "—",
     cardSenseEnHelper: cardGerman.cardSenseEnHelper || "",
     deSourceUrl: deAuthority?.entryUrl || fullRow.deSourceUrl || null,
-    deSenseConfirmed,
-    targetOfficialValidated,
-    targetSourceUrl,
     currentTarget: stripQuotes(currentTarget),
     targetTranslationDisplay: displayTarget,
     dictionaryName: winningSource || (attempts.length ? chain[0]?.name : null),
     resultUrl: winningUrl || attempts.find((a) => a.resultUrl)?.resultUrl || null,
-    finalStatus,
-    finalReason,
-    findingType,
-    proposedNew,
+    translationPairStatus: pair.translationPairStatus,
+    translationPairReason: pair.pairReason,
+    pairLemma: pair.pairLemma,
+    targetLemmaStatus: target.targetLemmaStatus,
+    targetLemmaReason: target.targetReason,
+    targetSourceUrl: target.targetSourceUrl,
+    normativeTargetLemma: target.normativeLemma,
+    galaConclusion: gala.galaConclusion,
+    galaReason: gala.galaReason,
+    finalStatus: gala.galaConclusion,
+    finalReason: gala.galaReason,
+    findingType: gala.findingType || null,
+    proposedNew: gala.proposedNew || null,
     sourcesTried: attempts,
     candidateCount: pool.length,
     candidateCountRaw: allCandidates.length,
@@ -428,24 +369,28 @@ async function main() {
     // eslint-disable-next-line no-await-in-loop
     const r = await validateRow(row, deAuthorityByLemma.get(row.deLemma));
     results.push(r);
-    process.stderr.write(`${r.finalStatus} ${r.appLang} ${r.deLemma}\n`);
+    process.stderr.write(`${r.galaConclusion} pair=${r.translationPairStatus} target=${r.targetLemmaStatus} ${r.appLang} ${r.deLemma}\n`);
   }
 
-  const tv = results.filter((r) => r.finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED);
-  const finding = results.filter((r) => r.finalStatus === TRANSLATION_AUDIT_VERDICT.FINDING);
-  const nsr = results.filter((r) => r.finalStatus === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW);
-  const nf = results.filter((r) => r.finalStatus === "NOT_FOUND");
+  const tv = results.filter((r) => r.galaConclusion === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED);
+  const finding = results.filter((r) => r.galaConclusion === TRANSLATION_AUDIT_VERDICT.FINDING);
+  const nsr = results.filter((r) => r.galaConclusion === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW);
+  const nf = results.filter((r) => r.galaConclusion === "NOT_FOUND");
+  const pairValidated = results.filter((r) => r.translationPairStatus === TRANSLATION_PAIR_STATUS.VALIDATED);
+  const targetValidated = results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.VALIDATED);
 
   const payload = {
-    schemaVersion: "g2-a1-complete-bilingual-validation-38-v3",
+    schemaVersion: "g2-a1-complete-bilingual-validation-38-v4",
     generatedAt: new Date().toISOString(),
     rowCount: results.length,
     translationValidatedCount: tv.length,
     findingCount: finding.length,
     needsSourceReviewCount: nsr.length,
     notFoundCount: nf.length,
+    translationPairValidatedCount: pairValidated.length,
+    targetLemmaValidatedCount: targetValidated.length,
     policy:
-      "DE sense DWDS/Duden only; EN helper non-proof; bilingual DE→TARGET extract; TARGET official gate; POS filter; MASTER cap FINDING",
+      "Split TRANSLATION_PAIR_STATUS + TARGET_LEMMA_STATUS; DE DWDS/Duden; EN helper only; bilingual pair not annulled by TARGET pending",
     results,
   };
 
@@ -456,18 +401,23 @@ async function main() {
     "",
     `Ģenerēts: ${payload.generatedAt}`,
     "",
-    `**TRANSLATION_VALIDATED:** ${tv.length}/38 | **FINDING:** ${finding.length}/38 | **NEEDS_SOURCE_REVIEW:** ${nsr.length}/38 | **NOT_FOUND:** ${nf.length}/38`,
+    `**Gala secinājums:** TRANSLATION_VALIDATED ${tv.length}/38 | FINDING ${finding.length}/38 | NEEDS_SOURCE_REVIEW ${nsr.length}/38 | NOT_FOUND ${nf.length}/38`,
     "",
-    "| Valoda | DE vārds | Kartītes nozīme/POS | TARGET tulkojums | Vārdnīca | Precīzs ieraksta URL | Gala statuss | FINDING | PROPOSED_NEW |",
-    "|--------|----------|---------------------|------------------|----------|----------------------|--------------|---------|--------------|",
+    `**TRANSLATION_PAIR_STATUS:** VALIDATED ${pairValidated.length}/38 | MULTIPLE_CANDIDATES ${results.filter((r) => r.translationPairStatus === TRANSLATION_PAIR_STATUS.MULTIPLE_CANDIDATES).length}/38 | NOT_FOUND ${results.filter((r) => r.translationPairStatus === TRANSLATION_PAIR_STATUS.NOT_FOUND).length}/38`,
+    "",
+    `**TARGET_LEMMA_STATUS:** VALIDATED ${targetValidated.length}/38 | VALIDATION_PENDING ${results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.VALIDATION_PENDING).length}/38 | NOT_VALIDATED ${results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.NOT_VALIDATED).length}/38`,
+    "",
+    "| Valoda | DE vārds | CURRENT | TARGET tulkojums | Divvalodu vārdnīca | URL | TRANSLATION_PAIR_STATUS | TARGET_LEMMA_STATUS | Gala secinājums |",
+    "|--------|----------|---------|------------------|-------------------|-----|-------------------------|---------------------|-----------------|",
   ];
 
   for (const r of results) {
-    const col = (r.cardMeaningLabel || r.cardPos || "—").replace(/\|/g, "/").slice(0, 100);
-    const findingCol = r.findingType || "—";
-    const proposedCol = r.proposedNew || "—";
+    const gala =
+      r.galaConclusion === TRANSLATION_AUDIT_VERDICT.FINDING
+        ? `${r.galaConclusion} (${r.findingType}${r.proposedNew ? ` → ${r.proposedNew}` : ""})`
+        : r.galaConclusion;
     md.push(
-      `| ${r.appLang} | ${r.deLemma} | ${col} | ${r.targetTranslationDisplay} | ${r.dictionaryName || "—"} | ${r.resultUrl || "—"} | ${r.finalStatus} | ${findingCol} | ${proposedCol} |`,
+      `| ${r.appLang} | ${r.deLemma} | ${r.currentTarget || "—"} | ${r.targetTranslationDisplay} | ${r.dictionaryName || "—"} | ${r.resultUrl || "—"} | ${r.translationPairStatus} | ${r.targetLemmaStatus} | ${gala} |`,
     );
   }
 
@@ -479,6 +429,8 @@ async function main() {
         FINDING: finding.length,
         NEEDS_SOURCE_REVIEW: nsr.length,
         NOT_FOUND: nf.length,
+        TRANSLATION_PAIR_VALIDATED: pairValidated.length,
+        TARGET_LEMMA_VALIDATED: targetValidated.length,
         out: OUT_JSON,
       },
       null,

@@ -75,6 +75,7 @@ function blockedBySenseGuard(deLemma, appLang, targetLemma) {
   const perLemmaLang = {
     stinken: {
       sq: [/^(duket|urre)$/i],
+      bs: [/izgledati/i],
     },
     bewirten: {
       uk: [/^гостинність$/iu],
@@ -84,9 +85,6 @@ function blockedBySenseGuard(deLemma, appLang, targetLemma) {
     },
     Goldader: {
       "*": [/hemoroid/i, /haemorrhoid/i, /rrhoid/i, /варикоз/i, /сплетення/i],
-    },
-    stinken: {
-      bs: [/izgledati/i],
     },
     glotzen: {
       sq: [/televizor/i, /sy hapur/i],
@@ -359,8 +357,11 @@ function sanitizeDeEvidenceText(raw) {
     .replace(/Lesezeichen|zitieren\/teilen|zuklappen|ausklappen|Grammatik|DWDS\s+›/gi, " ")
     .replace(/^>\s*/, "")
     .replace(/Aussprache Fehler Worttrennung[\s\S]*$/i, "")
+    .replace(/\bWort(bildung|zerlegung|artikel)\b[\s\S]*$/i, "")
+    .replace(/&middot;|&nbsp;/g, " ")
     .replace(/\s+/g, " ")
-    .trim();
+    .trim()
+    .slice(0, 500);
 }
 
 function cardMeaningDisplayLabel(cardGerman, deAuthority) {
