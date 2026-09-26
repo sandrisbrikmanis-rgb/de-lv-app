@@ -1,29 +1,33 @@
 {
-  "schemaVersion": "g2-a1-complete-bilingual-validation-38-v2",
-  "generatedAt": "2026-09-26T09:53:36.063Z",
+  "schemaVersion": "g2-a1-complete-bilingual-validation-38-v3",
+  "generatedAt": "2026-09-26T14:39:08.269Z",
   "rowCount": 38,
-  "translationValidatedCount": 2,
-  "findingCount": 5,
-  "needsSourceReviewCount": 6,
+  "translationValidatedCount": 0,
+  "findingCount": 0,
+  "needsSourceReviewCount": 13,
   "notFoundCount": 25,
-  "policy": "Dictionary-section extract; card EN sense + POS; strict lemma filter; MASTER capitalization FINDING; no invented translations",
+  "policy": "DE sense DWDS/Duden only; EN helper non-proof; bilingual DE→TARGET extract; TARGET official gate; POS filter; MASTER cap FINDING",
   "results": [
     {
       "appLang": "sq",
       "deLemma": "Besucher",
       "level": "a1",
       "cardPos": "noun (der)",
-      "cardMeaningLabel": "noun (der); Visitor",
-      "germanMeaning": "Visitor",
-      "cardSenseEn": "Visitor",
+      "cardMeaningLabel": "noun (der); DE: > Besucher , der Substantiv (Maskulinum) · Genitiv Singular: Besuchers · Nominativ Plural: [EN palīgs: Visitor]",
+      "germanMeaning": "> Besucher , der Substantiv (Maskulinum) · Genitiv Singular: Besuchers · Nominativ Plural: Besucher Aussprache Fehler [ bəˈzuːχɐ ] Worttrennung Be | su | cher Wortzerlegung besuchen 1 -er Wortbildung mit ›Besucher‹ als Erstglied: Besucherandrang … 30 weitere &middot; Besucheransturm &middot; Besucheraufkommen &middot; Besuchereingang &middot; Besuchererfolg &middot; Besucherfrequenz &middot; besucherfreundlich &middot; Besuchergruppe &middot; Besucherin &middot; Besucherinformation &middot; Besuchermagnet &middot; Besuchermasse &middot; besuchermäßig &middot; Besucherminus &middot; Besucherparkplatz &middot; Besucherplus &middot; Besucherrat &middot; Besucherrekord &middot; Besucherresonanz &middot; Besucherring &middot; Besucherrückgang &middot; Besucherschar &middot; Besucherschwund &middot; Besucherservice &middot; Besucherstamm &middot; Besucherstatistik &middot; Besucherstrom &middot; Besucherstuhl &middot; Besucherverkehr &middot; Besucherzahl &middot; Besucherzentrum … weniger &nbsp;·&nbsp; mit ›Besucher‹ als Letztglied: Ausstellungsbesucher … 15 weitere &middot; Fachbesucher &middot; Galeriebes",
+      "cardSenseEnHelper": "Visitor",
+      "deSourceUrl": "https://www.dwds.de/wb/Besucher",
+      "deSenseConfirmed": true,
+      "targetOfficialValidated": false,
+      "targetSourceUrl": null,
       "currentTarget": "Vizitor",
       "targetTranslationDisplay": "mysafir; pjesëmarrës; vizitor",
       "dictionaryName": "Netzverb / verbformen Deutsch–Albanisch",
       "resultUrl": "https://www.verbformen.de/de-sq/?w=Besucher",
-      "finalStatus": "FINDING",
-      "finalReason": "case_mismatch_same_lemma",
-      "findingType": "CAPITALIZATION_ERROR",
-      "proposedNew": "vizitor",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "TARGET_OFFICIAL_NOT_VALIDATED",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-sq",
@@ -45,6 +49,27 @@
           "extractedCount": 3,
           "resultUrl": "https://www.verbformen.de/de-sq/?w=Besucher",
           "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "dicts-info-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian&word=Besucher",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/sq/Besucher",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
         }
       ],
       "candidateCount": 3,
@@ -56,15 +81,19 @@
       "deLemma": "stinken",
       "level": "a2",
       "cardPos": "verb",
-      "cardMeaningLabel": "verb; To smell",
-      "germanMeaning": "To smell",
-      "cardSenseEn": "To smell",
+      "cardMeaningLabel": "verb; DE: > stinken Verb · stinkt , stank , hat gestunken Aussprache Fehler Worttrennung stin | ken  [EN palīgs: To smell]",
+      "germanMeaning": "> stinken Verb · stinkt , stank , hat gestunken Aussprache Fehler Worttrennung stin | ken formal verwandt mit Stinkadores Wortbildung mit ›stinken‹ als Erstglied: Stinkbombe … 16 weitere &middot; Stinkbude &middot; Stinkdrüse &middot; Stinkefinger / Stinkfinger &middot; Stinkekäse / Stinkkäse &middot; Stinkepeter / Stinkpeter &middot; Stinker &middot; Stinkfrucht &middot; stinkig &middot; Stinkkäfer &middot; Stinkmarder &middot; Stinkmolch &middot; Stinkmorchel &middot; Stinknase &middot; Stinkstiefel &middot; Stinktier &middot; Stinkwanze … weniger &nbsp;·&nbsp; mit ›stinken‹ als Letztglied: abstinken … 3 weitere &middot; anstinken &middot; erstinken &middot; verstinken … weniger &nbsp;·&nbsp; mit ›stinken‹ als Grundform: Gestank &middot; stink- / stinke- Mehrwortausdrücke der Fisch stinkt vom Kopf her / der Fisch stinkt vom Kopf &middot; Eigenlob stinkt / Selbstlob stinkt &middot; es stinkt wie im Pumakäfig / es stinkt wie in einem Pumakäfig … 5 weitere &middot; Geld stinkt nicht &middot; stinken wie die Pest &middot; stinken wie ein Iltis &middot; stinken wie ein Wiedehopf &middot; zum Himmel stinke",
+      "cardSenseEnHelper": "To smell",
+      "deSourceUrl": "https://www.dwds.de/wb/stinken",
+      "deSenseConfirmed": true,
+      "targetOfficialValidated": false,
+      "targetSourceUrl": null,
       "currentTarget": "smrdjeti",
-      "targetTranslationDisplay": "smrdjeti",
+      "targetTranslationDisplay": "smrdjeti; biti odvratan",
       "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
       "resultUrl": "https://www.verbformen.de/de-bs/?w=stinken",
-      "finalStatus": "TRANSLATION_VALIDATED",
-      "finalReason": "CURRENT_EXACT_MATCH_DICTIONARY",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "TARGET_OFFICIAL_NOT_VALIDATED",
       "findingType": null,
       "proposedNew": null,
       "sourcesTried": [
@@ -88,20 +117,37 @@
           "extractedCount": 4,
           "resultUrl": "https://www.verbformen.de/de-bs/?w=stinken",
           "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/bs/stinken",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 3,
+      "candidateCount": 2,
       "candidateCountRaw": 4,
-      "rejectedStrictCount": 1
+      "rejectedStrictCount": 2
     },
     {
       "appLang": "sq",
       "deLemma": "stinken",
       "level": "a2",
       "cardPos": "verb",
-      "cardMeaningLabel": "verb; To smell",
-      "germanMeaning": "To smell",
-      "cardSenseEn": "To smell",
+      "cardMeaningLabel": "verb; DE: > stinken Verb · stinkt , stank , hat gestunken Aussprache Fehler Worttrennung stin | ken  [EN palīgs: To smell]",
+      "germanMeaning": "> stinken Verb · stinkt , stank , hat gestunken Aussprache Fehler Worttrennung stin | ken formal verwandt mit Stinkadores Wortbildung mit ›stinken‹ als Erstglied: Stinkbombe … 16 weitere &middot; Stinkbude &middot; Stinkdrüse &middot; Stinkefinger / Stinkfinger &middot; Stinkekäse / Stinkkäse &middot; Stinkepeter / Stinkpeter &middot; Stinker &middot; Stinkfrucht &middot; stinkig &middot; Stinkkäfer &middot; Stinkmarder &middot; Stinkmolch &middot; Stinkmorchel &middot; Stinknase &middot; Stinkstiefel &middot; Stinktier &middot; Stinkwanze … weniger &nbsp;·&nbsp; mit ›stinken‹ als Letztglied: abstinken … 3 weitere &middot; anstinken &middot; erstinken &middot; verstinken … weniger &nbsp;·&nbsp; mit ›stinken‹ als Grundform: Gestank &middot; stink- / stinke- Mehrwortausdrücke der Fisch stinkt vom Kopf her / der Fisch stinkt vom Kopf &middot; Eigenlob stinkt / Selbstlob stinkt &middot; es stinkt wie im Pumakäfig / es stinkt wie in einem Pumakäfig … 5 weitere &middot; Geld stinkt nicht &middot; stinken wie die Pest &middot; stinken wie ein Iltis &middot; stinken wie ein Wiedehopf &middot; zum Himmel stinke",
+      "cardSenseEnHelper": "To smell",
+      "deSourceUrl": "https://www.dwds.de/wb/stinken",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Koku",
       "targetTranslationDisplay": "kundërmoj",
       "dictionaryName": "Netzverb / verbformen Deutsch–Albanisch",
@@ -163,9 +209,12 @@
       "deLemma": "Kleingeld",
       "level": "a2",
       "cardPos": "noun (das)",
-      "cardMeaningLabel": "noun (das); Petty cash",
-      "germanMeaning": "Petty cash",
-      "cardSenseEn": "Petty cash",
+      "cardMeaningLabel": "noun (das); DE: > Kleingeld , das Substantiv (Neutrum) · Genitiv Singular: Kleingeld(e)s · Nominativ Plura [EN palīgs: Petty cash]",
+      "germanMeaning": "> Kleingeld , das Substantiv (Neutrum) · Genitiv Singular: Kleingeld(e)s · Nominativ Plural: Kleingelder · wird im Plural nur selten verwendet Aussprache Fehler Worttrennung Klein | geld Wortzerlegung klein Geld Bedeutung eWDG 1969 Geld von geringem, niedrigem Wert Beispiele: ich habe kein Kleingeld bei mir sich [Dativ] Kleingeld einstecken das Kleingeld bitte bereithalten! scherzhaft jmd. hat das nötige Kleingeld (= hat genug Geld) Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Kleingeld · Restgeld · Wechselgeld &nbsp;●&nbsp; Rausgeld &nbsp; ugs. · Rückgeld &nbsp; ugs. Oberbegriffe Geld &nbsp;●&nbsp; klingende Münze &nbsp; fig. · Asche &nbsp; ugs. · Bimbes &nbsp; ugs. · Chlübis &nbsp; ugs. , schweiz. · Devisen &nbsp; ugs. · Diridari &nbsp; ugs. , bairisch · Eier &nbsp; ugs. · Euronen &nbsp; ugs. · Flöhe &nbsp; ugs. · Forinthen &nbsp; ugs. · Heu &nbsp; ugs. · Kies &nbsp; ugs. · Klicker &nbsp; ugs. · Klöpse &nbsp; ugs. · Knack &nbsp; ugs. · Knete &nbsp; ugs. · Kohle &nbsp; ugs. · Koks &nbsp; ugs. · Krönchen &nbsp; ugs. · Kröten &nbsp; ugs. · Lehm &nbsp; ugs. · Mammon &nbsp; geh. , abwert",
+      "cardSenseEnHelper": "Petty cash",
+      "deSourceUrl": "https://www.dwds.de/wb/Kleingeld",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "sitni novac",
       "targetTranslationDisplay": "kovanice; sitniš",
       "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
@@ -220,9 +269,12 @@
       "deLemma": "Kleingeld",
       "level": "a2",
       "cardPos": "noun (das)",
-      "cardMeaningLabel": "noun (das); Petty cash",
-      "germanMeaning": "Petty cash",
-      "cardSenseEn": "Petty cash",
+      "cardMeaningLabel": "noun (das); DE: > Kleingeld , das Substantiv (Neutrum) · Genitiv Singular: Kleingeld(e)s · Nominativ Plura [EN palīgs: Petty cash]",
+      "germanMeaning": "> Kleingeld , das Substantiv (Neutrum) · Genitiv Singular: Kleingeld(e)s · Nominativ Plural: Kleingelder · wird im Plural nur selten verwendet Aussprache Fehler Worttrennung Klein | geld Wortzerlegung klein Geld Bedeutung eWDG 1969 Geld von geringem, niedrigem Wert Beispiele: ich habe kein Kleingeld bei mir sich [Dativ] Kleingeld einstecken das Kleingeld bitte bereithalten! scherzhaft jmd. hat das nötige Kleingeld (= hat genug Geld) Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Kleingeld · Restgeld · Wechselgeld &nbsp;●&nbsp; Rausgeld &nbsp; ugs. · Rückgeld &nbsp; ugs. Oberbegriffe Geld &nbsp;●&nbsp; klingende Münze &nbsp; fig. · Asche &nbsp; ugs. · Bimbes &nbsp; ugs. · Chlübis &nbsp; ugs. , schweiz. · Devisen &nbsp; ugs. · Diridari &nbsp; ugs. , bairisch · Eier &nbsp; ugs. · Euronen &nbsp; ugs. · Flöhe &nbsp; ugs. · Forinthen &nbsp; ugs. · Heu &nbsp; ugs. · Kies &nbsp; ugs. · Klicker &nbsp; ugs. · Klöpse &nbsp; ugs. · Knack &nbsp; ugs. · Knete &nbsp; ugs. · Kohle &nbsp; ugs. · Koks &nbsp; ugs. · Krönchen &nbsp; ugs. · Kröten &nbsp; ugs. · Lehm &nbsp; ugs. · Mammon &nbsp; geh. , abwert",
+      "cardSenseEnHelper": "Petty cash",
+      "deSourceUrl": "https://www.dwds.de/wb/Kleingeld",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "peenraha",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Glosbe German–Estonian",
@@ -270,9 +322,12 @@
       "deLemma": "Kleingeld",
       "level": "a2",
       "cardPos": "noun (das)",
-      "cardMeaningLabel": "noun (das); Petty cash",
-      "germanMeaning": "Petty cash",
-      "cardSenseEn": "Petty cash",
+      "cardMeaningLabel": "noun (das); DE: > Kleingeld , das Substantiv (Neutrum) · Genitiv Singular: Kleingeld(e)s · Nominativ Plura [EN palīgs: Petty cash]",
+      "germanMeaning": "> Kleingeld , das Substantiv (Neutrum) · Genitiv Singular: Kleingeld(e)s · Nominativ Plural: Kleingelder · wird im Plural nur selten verwendet Aussprache Fehler Worttrennung Klein | geld Wortzerlegung klein Geld Bedeutung eWDG 1969 Geld von geringem, niedrigem Wert Beispiele: ich habe kein Kleingeld bei mir sich [Dativ] Kleingeld einstecken das Kleingeld bitte bereithalten! scherzhaft jmd. hat das nötige Kleingeld (= hat genug Geld) Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Kleingeld · Restgeld · Wechselgeld &nbsp;●&nbsp; Rausgeld &nbsp; ugs. · Rückgeld &nbsp; ugs. Oberbegriffe Geld &nbsp;●&nbsp; klingende Münze &nbsp; fig. · Asche &nbsp; ugs. · Bimbes &nbsp; ugs. · Chlübis &nbsp; ugs. , schweiz. · Devisen &nbsp; ugs. · Diridari &nbsp; ugs. , bairisch · Eier &nbsp; ugs. · Euronen &nbsp; ugs. · Flöhe &nbsp; ugs. · Forinthen &nbsp; ugs. · Heu &nbsp; ugs. · Kies &nbsp; ugs. · Klicker &nbsp; ugs. · Klöpse &nbsp; ugs. · Knack &nbsp; ugs. · Knete &nbsp; ugs. · Kohle &nbsp; ugs. · Koks &nbsp; ugs. · Krönchen &nbsp; ugs. · Kröten &nbsp; ugs. · Lehm &nbsp; ugs. · Mammon &nbsp; geh. , abwert",
+      "cardSenseEnHelper": "Petty cash",
+      "deSourceUrl": "https://www.dwds.de/wb/Kleingeld",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Elde Taşınabilir Nakit",
       "targetTranslationDisplay": "monedha të vogla",
       "dictionaryName": "Netzverb / verbformen Deutsch–Albanisch",
@@ -334,9 +389,12 @@
       "deLemma": "aufkommen",
       "level": "a2",
       "cardPos": "verb",
-      "cardMeaningLabel": "verb; Occur",
-      "germanMeaning": "Occur",
-      "cardSenseEn": "Occur",
+      "cardMeaningLabel": "verb; DE: > aufkommen Verb · kommt auf , kam auf , ist aufgekommen Aussprache Fehler Worttrennung au [EN palīgs: Occur]",
+      "germanMeaning": "> aufkommen Verb · kommt auf , kam auf , ist aufgekommen Aussprache Fehler Worttrennung auf | kom | men Wortzerlegung auf- kommen Wortbildung mit ›aufkommen‹ als Grundform: Aufkommen Bedeutungsübersicht 1. ⟨etw. kommt auf⟩, ⟨etw. aufkommen lassen⟩ (unvermutet) entstehen 2. ... a) ⟨für etw., jmdn. aufkommen⟩ entstehende Kosten übernehmen b) ⟨für etw., jmdn. aufkommen⟩ für etw. tätige Verantwortung tragen 3. ⟨gegen jmdn., etw. aufkommen⟩ a) sich gegenüber jmdm., etw. durchsetzen b) ⟨dagegen aufkommen⟩ jmdm. gleichkommen; an jmdn. heranreichen 4. ⟨jmd. kommt (wieder) auf⟩ a) sich erheben, wieder aufstehen können b) [ gehoben ] wieder gesund werden 5. [ landschaftlich ] ⟨etw. kommt auf⟩ entdeckt werden, bekannt werden, herauskommen 6. ⟨etw. kommt (auf etw.) auf⟩ beim Sprung oder Fall auf etw. auftreffen, aufsetzen 7. [ Sport ] ⟨jmd. kommt auf⟩ aufholen; besser, überlegen werden 8. [ Seemannssprache ] von Schiffen: in Sicht kommen, herankommen Bedeutungen Duden, GWDS, 1999, DWDS 2017 1. ⟨ etw. kommt auf ⟩ , ⟨ etw. aufkommen lassen ⟩ (unvermutet) entstehen Kollokationen: mit Adverbialbestimmung: plötzlich, a",
+      "cardSenseEnHelper": "Occur",
+      "deSourceUrl": "https://www.dwds.de/wb/aufkommen",
+      "deSenseConfirmed": false,
+      "targetSourceUrl": null,
       "currentTarget": "nastati",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Bosnisch (de-bs.dict.cc)",
@@ -391,9 +449,12 @@
       "deLemma": "aufkommen",
       "level": "a2",
       "cardPos": "verb",
-      "cardMeaningLabel": "verb; Occur",
-      "germanMeaning": "Occur",
-      "cardSenseEn": "Occur",
+      "cardMeaningLabel": "verb; DE: > aufkommen Verb · kommt auf , kam auf , ist aufgekommen Aussprache Fehler Worttrennung au [EN palīgs: Occur]",
+      "germanMeaning": "> aufkommen Verb · kommt auf , kam auf , ist aufgekommen Aussprache Fehler Worttrennung auf | kom | men Wortzerlegung auf- kommen Wortbildung mit ›aufkommen‹ als Grundform: Aufkommen Bedeutungsübersicht 1. ⟨etw. kommt auf⟩, ⟨etw. aufkommen lassen⟩ (unvermutet) entstehen 2. ... a) ⟨für etw., jmdn. aufkommen⟩ entstehende Kosten übernehmen b) ⟨für etw., jmdn. aufkommen⟩ für etw. tätige Verantwortung tragen 3. ⟨gegen jmdn., etw. aufkommen⟩ a) sich gegenüber jmdm., etw. durchsetzen b) ⟨dagegen aufkommen⟩ jmdm. gleichkommen; an jmdn. heranreichen 4. ⟨jmd. kommt (wieder) auf⟩ a) sich erheben, wieder aufstehen können b) [ gehoben ] wieder gesund werden 5. [ landschaftlich ] ⟨etw. kommt auf⟩ entdeckt werden, bekannt werden, herauskommen 6. ⟨etw. kommt (auf etw.) auf⟩ beim Sprung oder Fall auf etw. auftreffen, aufsetzen 7. [ Sport ] ⟨jmd. kommt auf⟩ aufholen; besser, überlegen werden 8. [ Seemannssprache ] von Schiffen: in Sicht kommen, herankommen Bedeutungen Duden, GWDS, 1999, DWDS 2017 1. ⟨ etw. kommt auf ⟩ , ⟨ etw. aufkommen lassen ⟩ (unvermutet) entstehen Kollokationen: mit Adverbialbestimmung: plötzlich, a",
+      "cardSenseEnHelper": "Occur",
+      "deSourceUrl": "https://www.dwds.de/wb/aufkommen",
+      "deSenseConfirmed": false,
+      "targetSourceUrl": null,
       "currentTarget": "Meydana gelmek",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
@@ -455,9 +516,12 @@
       "deLemma": "aufkommen",
       "level": "a2",
       "cardPos": "verb",
-      "cardMeaningLabel": "verb; Occur",
-      "germanMeaning": "Occur",
-      "cardSenseEn": "Occur",
+      "cardMeaningLabel": "verb; DE: > aufkommen Verb · kommt auf , kam auf , ist aufgekommen Aussprache Fehler Worttrennung au [EN palīgs: Occur]",
+      "germanMeaning": "> aufkommen Verb · kommt auf , kam auf , ist aufgekommen Aussprache Fehler Worttrennung auf | kom | men Wortzerlegung auf- kommen Wortbildung mit ›aufkommen‹ als Grundform: Aufkommen Bedeutungsübersicht 1. ⟨etw. kommt auf⟩, ⟨etw. aufkommen lassen⟩ (unvermutet) entstehen 2. ... a) ⟨für etw., jmdn. aufkommen⟩ entstehende Kosten übernehmen b) ⟨für etw., jmdn. aufkommen⟩ für etw. tätige Verantwortung tragen 3. ⟨gegen jmdn., etw. aufkommen⟩ a) sich gegenüber jmdm., etw. durchsetzen b) ⟨dagegen aufkommen⟩ jmdm. gleichkommen; an jmdn. heranreichen 4. ⟨jmd. kommt (wieder) auf⟩ a) sich erheben, wieder aufstehen können b) [ gehoben ] wieder gesund werden 5. [ landschaftlich ] ⟨etw. kommt auf⟩ entdeckt werden, bekannt werden, herauskommen 6. ⟨etw. kommt (auf etw.) auf⟩ beim Sprung oder Fall auf etw. auftreffen, aufsetzen 7. [ Sport ] ⟨jmd. kommt auf⟩ aufholen; besser, überlegen werden 8. [ Seemannssprache ] von Schiffen: in Sicht kommen, herankommen Bedeutungen Duden, GWDS, 1999, DWDS 2017 1. ⟨ etw. kommt auf ⟩ , ⟨ etw. aufkommen lassen ⟩ (unvermutet) entstehen Kollokationen: mit Adverbialbestimmung: plötzlich, a",
+      "cardSenseEnHelper": "Occur",
+      "deSourceUrl": "https://www.dwds.de/wb/aufkommen",
+      "deSenseConfirmed": false,
+      "targetSourceUrl": null,
       "currentTarget": "відбуваються",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Netzverb verbformen DE–UK",
@@ -524,17 +588,21 @@
       "deLemma": "bewirten",
       "level": "b1",
       "cardPos": "verb",
-      "cardMeaningLabel": "verb; To host / serve guests",
-      "germanMeaning": "To host / serve guests",
-      "cardSenseEn": "To host / serve guests",
+      "cardMeaningLabel": "verb; DE: > bewirten Verb · bewirtet , bewirtete , hat bewirtet Aussprache Fehler Worttrennung be |  [EN palīgs: To host / serve guests]",
+      "germanMeaning": "> bewirten Verb · bewirtet , bewirtete , hat bewirtet Aussprache Fehler Worttrennung be | wir | ten Wortzerlegung be- Wirt Wortbildung mit ›bewirten‹ als Erstglied: Bewirtung Bedeutung eWDG 1967 , DWDS 2022 ⟨ jmd. bewirtet jmdn. ⟩ Gäste mit Speisen, Getränken versorgen ; einem Gast Speisen, Getränke servieren siehe auch verköstigen (1) , bedienen (1 b) , bekochen Beispiele: seinen Besuch, seine Gäste gut, reichlich, glänzend bewirten eWDG , 1967 auf ihrer Geburtstagsfeier wurden wir mit Kaffee und Kuchen, einem kleinen Imbiss bewirtet eWDG , 1967 In Gaststätten dürfen im Innenbereich künftig wieder bis zu acht Personen an einem Tisch bewirtet werden, im Außenbereich bis zu zwölf Personen […] . [ Süddeutsche Zeitung, 07.09.2021] […] Im Frühjahr öffnet die Familie einmalig ihren großen Garten, um in »Theresas Rosencafé« Hunderte von Gästen zu bewirten . [ Welt am Sonntag, 02.11.2014] Jeder von euch wird abwechselnd einen Abend für die anderen vier Gäste kochen und sie zu Hause bewirten . [ Abedi, Isabel / Henze, Dagmar: 5 Sterne für Lola. Bindlach 2012] ... 4 weitere Belege Zur klösterlichen Mildtätigke",
+      "cardSenseEnHelper": "To host / serve guests",
+      "deSourceUrl": "https://www.dwds.de/wb/bewirten",
+      "deSenseConfirmed": true,
+      "targetOfficialValidated": false,
+      "targetSourceUrl": null,
       "currentTarget": "Ugostiti",
       "targetTranslationDisplay": "nahraniti; ugostiti",
       "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
       "resultUrl": "https://www.verbformen.de/de-bs/?w=bewirten",
-      "finalStatus": "FINDING",
-      "finalReason": "case_mismatch_same_lemma",
-      "findingType": "CAPITALIZATION_ERROR",
-      "proposedNew": "ugostiti",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "TARGET_OFFICIAL_NOT_VALIDATED",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-bs",
@@ -556,6 +624,20 @@
           "extractedCount": 2,
           "resultUrl": "https://www.verbformen.de/de-bs/?w=bewirten",
           "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/bs/bewirten",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
         }
       ],
       "candidateCount": 2,
@@ -567,9 +649,12 @@
       "deLemma": "bewirten",
       "level": "b1",
       "cardPos": "verb",
-      "cardMeaningLabel": "verb; To host / serve guests",
-      "germanMeaning": "To host / serve guests",
-      "cardSenseEn": "To host / serve guests",
+      "cardMeaningLabel": "verb; DE: > bewirten Verb · bewirtet , bewirtete , hat bewirtet Aussprache Fehler Worttrennung be |  [EN palīgs: To host / serve guests]",
+      "germanMeaning": "> bewirten Verb · bewirtet , bewirtete , hat bewirtet Aussprache Fehler Worttrennung be | wir | ten Wortzerlegung be- Wirt Wortbildung mit ›bewirten‹ als Erstglied: Bewirtung Bedeutung eWDG 1967 , DWDS 2022 ⟨ jmd. bewirtet jmdn. ⟩ Gäste mit Speisen, Getränken versorgen ; einem Gast Speisen, Getränke servieren siehe auch verköstigen (1) , bedienen (1 b) , bekochen Beispiele: seinen Besuch, seine Gäste gut, reichlich, glänzend bewirten eWDG , 1967 auf ihrer Geburtstagsfeier wurden wir mit Kaffee und Kuchen, einem kleinen Imbiss bewirtet eWDG , 1967 In Gaststätten dürfen im Innenbereich künftig wieder bis zu acht Personen an einem Tisch bewirtet werden, im Außenbereich bis zu zwölf Personen […] . [ Süddeutsche Zeitung, 07.09.2021] […] Im Frühjahr öffnet die Familie einmalig ihren großen Garten, um in »Theresas Rosencafé« Hunderte von Gästen zu bewirten . [ Welt am Sonntag, 02.11.2014] Jeder von euch wird abwechselnd einen Abend für die anderen vier Gäste kochen und sie zu Hause bewirten . [ Abedi, Isabel / Henze, Dagmar: 5 Sterne für Lola. Bindlach 2012] ... 4 weitere Belege Zur klösterlichen Mildtätigke",
+      "cardSenseEnHelper": "To host / serve guests",
+      "deSourceUrl": "https://www.dwds.de/wb/bewirten",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "kostitama",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Glosbe German–Estonian",
@@ -617,9 +702,12 @@
       "deLemma": "bewirten",
       "level": "b1",
       "cardPos": "verb",
-      "cardMeaningLabel": "verb; To host / serve guests",
-      "germanMeaning": "To host / serve guests",
-      "cardSenseEn": "To host / serve guests",
+      "cardMeaningLabel": "verb; DE: > bewirten Verb · bewirtet , bewirtete , hat bewirtet Aussprache Fehler Worttrennung be |  [EN palīgs: To host / serve guests]",
+      "germanMeaning": "> bewirten Verb · bewirtet , bewirtete , hat bewirtet Aussprache Fehler Worttrennung be | wir | ten Wortzerlegung be- Wirt Wortbildung mit ›bewirten‹ als Erstglied: Bewirtung Bedeutung eWDG 1967 , DWDS 2022 ⟨ jmd. bewirtet jmdn. ⟩ Gäste mit Speisen, Getränken versorgen ; einem Gast Speisen, Getränke servieren siehe auch verköstigen (1) , bedienen (1 b) , bekochen Beispiele: seinen Besuch, seine Gäste gut, reichlich, glänzend bewirten eWDG , 1967 auf ihrer Geburtstagsfeier wurden wir mit Kaffee und Kuchen, einem kleinen Imbiss bewirtet eWDG , 1967 In Gaststätten dürfen im Innenbereich künftig wieder bis zu acht Personen an einem Tisch bewirtet werden, im Außenbereich bis zu zwölf Personen […] . [ Süddeutsche Zeitung, 07.09.2021] […] Im Frühjahr öffnet die Familie einmalig ihren großen Garten, um in »Theresas Rosencafé« Hunderte von Gästen zu bewirten . [ Welt am Sonntag, 02.11.2014] Jeder von euch wird abwechselnd einen Abend für die anderen vier Gäste kochen und sie zu Hause bewirten . [ Abedi, Isabel / Henze, Dagmar: 5 Sterne für Lola. Bindlach 2012] ... 4 weitere Belege Zur klösterlichen Mildtätigke",
+      "cardSenseEnHelper": "To host / serve guests",
+      "deSourceUrl": "https://www.dwds.de/wb/bewirten",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Hoşgör",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
@@ -681,9 +769,12 @@
       "deLemma": "bewirten",
       "level": "b1",
       "cardPos": "verb",
-      "cardMeaningLabel": "verb; To host / serve guests",
-      "germanMeaning": "To host / serve guests",
-      "cardSenseEn": "To host / serve guests",
+      "cardMeaningLabel": "verb; DE: > bewirten Verb · bewirtet , bewirtete , hat bewirtet Aussprache Fehler Worttrennung be |  [EN palīgs: To host / serve guests]",
+      "germanMeaning": "> bewirten Verb · bewirtet , bewirtete , hat bewirtet Aussprache Fehler Worttrennung be | wir | ten Wortzerlegung be- Wirt Wortbildung mit ›bewirten‹ als Erstglied: Bewirtung Bedeutung eWDG 1967 , DWDS 2022 ⟨ jmd. bewirtet jmdn. ⟩ Gäste mit Speisen, Getränken versorgen ; einem Gast Speisen, Getränke servieren siehe auch verköstigen (1) , bedienen (1 b) , bekochen Beispiele: seinen Besuch, seine Gäste gut, reichlich, glänzend bewirten eWDG , 1967 auf ihrer Geburtstagsfeier wurden wir mit Kaffee und Kuchen, einem kleinen Imbiss bewirtet eWDG , 1967 In Gaststätten dürfen im Innenbereich künftig wieder bis zu acht Personen an einem Tisch bewirtet werden, im Außenbereich bis zu zwölf Personen […] . [ Süddeutsche Zeitung, 07.09.2021] […] Im Frühjahr öffnet die Familie einmalig ihren großen Garten, um in »Theresas Rosencafé« Hunderte von Gästen zu bewirten . [ Welt am Sonntag, 02.11.2014] Jeder von euch wird abwechselnd einen Abend für die anderen vier Gäste kochen und sie zu Hause bewirten . [ Abedi, Isabel / Henze, Dagmar: 5 Sterne für Lola. Bindlach 2012] ... 4 weitere Belege Zur klösterlichen Mildtätigke",
+      "cardSenseEnHelper": "To host / serve guests",
+      "deSourceUrl": "https://www.dwds.de/wb/bewirten",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "терпіти",
       "targetTranslationDisplay": "пригощати",
       "dictionaryName": "Netzverb verbformen DE–UK",
@@ -717,9 +808,7 @@
         {
           "sourceId": "udew-leipzig",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://udew.uni-leipzig.de/udew/en/deutsch_ukrainisch_online.htm?input=bewirten",
-          "parserOnlyEmpty": false
+          "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://udew.uni-leipzig.de/udew/en/"
         },
         {
           "sourceId": "langenscheidt-de-uk",
@@ -752,17 +841,20 @@
       "deLemma": "Attacke",
       "level": "b1",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Attack",
-      "germanMeaning": "Attack",
-      "cardSenseEn": "Attack",
+      "cardMeaningLabel": "noun (die); DE: > Attacke , die Substantiv (Femininum) · Genitiv Singular: Attacke · Nominativ Plural: Att [EN palīgs: Attack]",
+      "germanMeaning": "> Attacke , die Substantiv (Femininum) · Genitiv Singular: Attacke · Nominativ Plural: Attacken Aussprache Fehler [ aˈtakə ] Worttrennung At | ta | cke Wortbildung mit ›Attacke‹ als Erstglied: attackieren &nbsp;·&nbsp; mit ›Attacke‹ als Letztglied: Brandattacke … 18 weitere &middot; Cyberattacke / Cyber-Attacke &middot; DDoS-Attacke &middot; Drohnenattacke &middot; Fieberattacke &middot; Fressattacke &middot; Hackerattacke &middot; Heißhungerattacke &middot; Herzattacke &middot; Konterattacke &middot; Messerattacke &middot; Müdigkeitsattacke &middot; Nadelattacke &middot; Panikattacke &middot; Presseattacke &middot; Reiterattacke &middot; Schusswaffenattacke &middot; Terrorattacke &middot; Verbalattacke … weniger Mehrwortausdrücke eine Attacke gegen jmdn., etw. reiten / eine Attacke auf jmdn., etw. reiten Herkunft aus attaque frz ‘Sturmangriff’ &lt; attaquer mfrz frz ‘angreifen’ Bedeutungsübersicht 1. Angriff, Reiterangriff ● [ übertragen ] ⟨eine Attacke gegen jmdn. reiten⟩ 2. [ Medizin ] Anfall Bedeutungen eWDG 1967 1. Angriff, Reiterangriff Beispiele: eine forsche, schneidige, heftige, mörderische At",
+      "cardSenseEnHelper": "Attack",
+      "deSourceUrl": "https://www.dwds.de/wb/Attacke",
+      "deSenseConfirmed": false,
+      "targetSourceUrl": null,
       "currentTarget": "Napad",
       "targetTranslationDisplay": "napad",
       "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
       "resultUrl": "https://www.verbformen.de/de-bs/?w=Attacke",
-      "finalStatus": "FINDING",
-      "finalReason": "case_mismatch_same_lemma",
-      "findingType": "CAPITALIZATION_ERROR",
-      "proposedNew": "napad",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "DE_SENSE_MULTIPLE_NUMBERED_SENSES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-bs",
@@ -784,6 +876,20 @@
           "extractedCount": 1,
           "resultUrl": "https://www.verbformen.de/de-bs/?w=Attacke",
           "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/bs/Attacke",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
         }
       ],
       "candidateCount": 1,
@@ -795,9 +901,12 @@
       "deLemma": "Attacke",
       "level": "b1",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Attack",
-      "germanMeaning": "Attack",
-      "cardSenseEn": "Attack",
+      "cardMeaningLabel": "noun (die); DE: > Attacke , die Substantiv (Femininum) · Genitiv Singular: Attacke · Nominativ Plural: Att [EN palīgs: Attack]",
+      "germanMeaning": "> Attacke , die Substantiv (Femininum) · Genitiv Singular: Attacke · Nominativ Plural: Attacken Aussprache Fehler [ aˈtakə ] Worttrennung At | ta | cke Wortbildung mit ›Attacke‹ als Erstglied: attackieren &nbsp;·&nbsp; mit ›Attacke‹ als Letztglied: Brandattacke … 18 weitere &middot; Cyberattacke / Cyber-Attacke &middot; DDoS-Attacke &middot; Drohnenattacke &middot; Fieberattacke &middot; Fressattacke &middot; Hackerattacke &middot; Heißhungerattacke &middot; Herzattacke &middot; Konterattacke &middot; Messerattacke &middot; Müdigkeitsattacke &middot; Nadelattacke &middot; Panikattacke &middot; Presseattacke &middot; Reiterattacke &middot; Schusswaffenattacke &middot; Terrorattacke &middot; Verbalattacke … weniger Mehrwortausdrücke eine Attacke gegen jmdn., etw. reiten / eine Attacke auf jmdn., etw. reiten Herkunft aus attaque frz ‘Sturmangriff’ &lt; attaquer mfrz frz ‘angreifen’ Bedeutungsübersicht 1. Angriff, Reiterangriff ● [ übertragen ] ⟨eine Attacke gegen jmdn. reiten⟩ 2. [ Medizin ] Anfall Bedeutungen eWDG 1967 1. Angriff, Reiterangriff Beispiele: eine forsche, schneidige, heftige, mörderische At",
+      "cardSenseEnHelper": "Attack",
+      "deSourceUrl": "https://www.dwds.de/wb/Attacke",
+      "deSenseConfirmed": false,
+      "targetSourceUrl": null,
       "currentTarget": "Runnak",
       "targetTranslationDisplay": "anfall; attakk; offensiv",
       "dictionaryName": "DinOrdbok Tysk–Nynorsk",
@@ -838,17 +947,21 @@
       "deLemma": "glotzen",
       "level": "b2",
       "cardPos": "verb",
-      "cardMeaningLabel": "verb; Stare",
-      "germanMeaning": "Stare",
-      "cardSenseEn": "Stare",
+      "cardMeaningLabel": "verb; DE: > glotzen Verb · glotzt , glotzte , hat geglotzt Aussprache Fehler Worttrennung glot | zen [EN palīgs: Stare]",
+      "germanMeaning": "> glotzen Verb · glotzt , glotzte , hat geglotzt Aussprache Fehler Worttrennung glot | zen Wortbildung mit ›glotzen‹ als Erstglied: Glotzauge … 5 weitere &middot; Glotzer &middot; Glotzkasten &middot; Glotzkiste &middot; Glotzkopf &middot; Glotzophon / Glotzofon … weniger &nbsp;·&nbsp; mit ›glotzen‹ als Letztglied: anglotzen … 5 weitere &middot; beglotzen &middot; herglotzen &middot; herüberglotzen &middot; hinabglotzen &middot; hinüberglotzen … weniger &nbsp;·&nbsp; mit ›glotzen‹ als Grundform: Glotze Bedeutung eWDG 1969 salopp , abwertend ausdruckslos, starr vor sich hinsehen Beispiele: glotze nicht! er glotzte dumm, stumm, trübe, verständnislos, wie ein Fisch in die Karten, auf ein Bild, durch das Fenster glotzen ... 4 weitere Beispiele sie glotzten mit aufgerissenen Augen dorthin glotzende Augen ein glotzendes Tier ein einfältiges Glotzen ... weniger Beispiele was stehen Sie da und glotzen ? [ Frisch Biedermann 6 ] Er glotzte wie ein abgestochenes Kalb [ O. M. Graf Bolwieser 73 ] Etymologie Etymologisches Wörterbuch (Wolfgang Pfeifer) glotzen · Glotzauge · Glotze glotzen Vb. ‘ausdruckslos, starr bl",
+      "cardSenseEnHelper": "Stare",
+      "deSourceUrl": "https://www.dwds.de/wb/glotzen",
+      "deSenseConfirmed": true,
+      "targetOfficialValidated": false,
+      "targetSourceUrl": null,
       "currentTarget": "Buljiti",
       "targetTranslationDisplay": "buljiti; zabuljiti",
       "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
       "resultUrl": "https://www.verbformen.de/de-bs/?w=glotzen",
-      "finalStatus": "FINDING",
-      "finalReason": "case_mismatch_same_lemma",
-      "findingType": "CAPITALIZATION_ERROR",
-      "proposedNew": "buljiti",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "TARGET_OFFICIAL_NOT_VALIDATED",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-bs",
@@ -870,6 +983,20 @@
           "extractedCount": 2,
           "resultUrl": "https://www.verbformen.de/de-bs/?w=glotzen",
           "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/bs/glotzen",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
         }
       ],
       "candidateCount": 2,
@@ -881,9 +1008,12 @@
       "deLemma": "glotzen",
       "level": "b2",
       "cardPos": "verb",
-      "cardMeaningLabel": "verb; Stare",
-      "germanMeaning": "Stare",
-      "cardSenseEn": "Stare",
+      "cardMeaningLabel": "verb; DE: > glotzen Verb · glotzt , glotzte , hat geglotzt Aussprache Fehler Worttrennung glot | zen [EN palīgs: Stare]",
+      "germanMeaning": "> glotzen Verb · glotzt , glotzte , hat geglotzt Aussprache Fehler Worttrennung glot | zen Wortbildung mit ›glotzen‹ als Erstglied: Glotzauge … 5 weitere &middot; Glotzer &middot; Glotzkasten &middot; Glotzkiste &middot; Glotzkopf &middot; Glotzophon / Glotzofon … weniger &nbsp;·&nbsp; mit ›glotzen‹ als Letztglied: anglotzen … 5 weitere &middot; beglotzen &middot; herglotzen &middot; herüberglotzen &middot; hinabglotzen &middot; hinüberglotzen … weniger &nbsp;·&nbsp; mit ›glotzen‹ als Grundform: Glotze Bedeutung eWDG 1969 salopp , abwertend ausdruckslos, starr vor sich hinsehen Beispiele: glotze nicht! er glotzte dumm, stumm, trübe, verständnislos, wie ein Fisch in die Karten, auf ein Bild, durch das Fenster glotzen ... 4 weitere Beispiele sie glotzten mit aufgerissenen Augen dorthin glotzende Augen ein glotzendes Tier ein einfältiges Glotzen ... weniger Beispiele was stehen Sie da und glotzen ? [ Frisch Biedermann 6 ] Er glotzte wie ein abgestochenes Kalb [ O. M. Graf Bolwieser 73 ] Etymologie Etymologisches Wörterbuch (Wolfgang Pfeifer) glotzen · Glotzauge · Glotze glotzen Vb. ‘ausdruckslos, starr bl",
+      "cardSenseEnHelper": "Stare",
+      "deSourceUrl": "https://www.dwds.de/wb/glotzen",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "jõllitama",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Glosbe German–Estonian",
@@ -931,9 +1061,12 @@
       "deLemma": "glotzen",
       "level": "b2",
       "cardPos": "verb",
-      "cardMeaningLabel": "verb; Stare",
-      "germanMeaning": "Stare",
-      "cardSenseEn": "Stare",
+      "cardMeaningLabel": "verb; DE: > glotzen Verb · glotzt , glotzte , hat geglotzt Aussprache Fehler Worttrennung glot | zen [EN palīgs: Stare]",
+      "germanMeaning": "> glotzen Verb · glotzt , glotzte , hat geglotzt Aussprache Fehler Worttrennung glot | zen Wortbildung mit ›glotzen‹ als Erstglied: Glotzauge … 5 weitere &middot; Glotzer &middot; Glotzkasten &middot; Glotzkiste &middot; Glotzkopf &middot; Glotzophon / Glotzofon … weniger &nbsp;·&nbsp; mit ›glotzen‹ als Letztglied: anglotzen … 5 weitere &middot; beglotzen &middot; herglotzen &middot; herüberglotzen &middot; hinabglotzen &middot; hinüberglotzen … weniger &nbsp;·&nbsp; mit ›glotzen‹ als Grundform: Glotze Bedeutung eWDG 1969 salopp , abwertend ausdruckslos, starr vor sich hinsehen Beispiele: glotze nicht! er glotzte dumm, stumm, trübe, verständnislos, wie ein Fisch in die Karten, auf ein Bild, durch das Fenster glotzen ... 4 weitere Beispiele sie glotzten mit aufgerissenen Augen dorthin glotzende Augen ein glotzendes Tier ein einfältiges Glotzen ... weniger Beispiele was stehen Sie da und glotzen ? [ Frisch Biedermann 6 ] Er glotzte wie ein abgestochenes Kalb [ O. M. Graf Bolwieser 73 ] Etymologie Etymologisches Wörterbuch (Wolfgang Pfeifer) glotzen · Glotzauge · Glotze glotzen Vb. ‘ausdruckslos, starr bl",
+      "cardSenseEnHelper": "Stare",
+      "deSourceUrl": "https://www.dwds.de/wb/glotzen",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Zez",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Netzverb / verbformen Deutsch–Albanisch",
@@ -995,17 +1128,21 @@
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Gold vein",
-      "germanMeaning": "Gold vein",
-      "cardSenseEn": "Gold vein",
+      "cardMeaningLabel": "noun (die); DE: > Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: G [EN palīgs: Gold vein]",
+      "germanMeaning": "> Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: Goldadern Aussprache Fehler Worttrennung Gold | ader Wortzerlegung Gold Ader Bedeutung eWDG 1969 goldhaltige Ader im Gestein Beispiele: nach einer Goldader suchen bildlich das Herz, woran ich bei Emil nie gezweifelt habe, aber wovon wir so lange umsonst die Goldadern suchten [ Federer Berge 212 ] Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Goldader · Goldbergwerk · Goldgrube · Goldmine Typische Verbindungen zu ›Goldader‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Goldader‹ . anbohren aufspüren ausbeuten entdecken Entdeckung ergiebig erschließen riesig stoßen versiegen Legende: Adjektive Substantive Verben Verwendungsbeispiele für ›Goldader‹ DWDS-Beispielextraktor maschinell ausgesucht aus den DWDS-Korpora Gemeinsam mit diesem haben die Bayern eine neue geschäftliche Goldader angebaggert. [Süddeutsche Zeitung, 02.04.2001] In einem einsamen Wald entdeckten sie jetzt die Goldader mit mindestens 24 Tonnen Gold. [Bild, 30.01.2002] Drüben sehe ich den Herrn",
+      "cardSenseEnHelper": "Gold vein",
+      "deSourceUrl": "https://www.dwds.de/wb/Goldader",
+      "deSenseConfirmed": true,
+      "targetOfficialValidated": false,
+      "targetSourceUrl": null,
       "currentTarget": "Zlatna vena",
       "targetTranslationDisplay": "zlatna žila; zlatna vena",
       "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
       "resultUrl": "https://www.verbformen.de/de-bs/?w=Goldader",
-      "finalStatus": "FINDING",
-      "finalReason": "case_mismatch_same_lemma",
-      "findingType": "CAPITALIZATION_ERROR",
-      "proposedNew": "zlatna vena",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "TARGET_OFFICIAL_NOT_VALIDATED",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-bs",
@@ -1027,6 +1164,20 @@
           "extractedCount": 3,
           "resultUrl": "https://www.verbformen.de/de-bs/?w=Goldader",
           "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/bs/Goldader",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
         }
       ],
       "candidateCount": 2,
@@ -1038,9 +1189,12 @@
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Gold vein",
-      "germanMeaning": "Gold vein",
-      "cardSenseEn": "Gold vein",
+      "cardMeaningLabel": "noun (die); DE: > Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: G [EN palīgs: Gold vein]",
+      "germanMeaning": "> Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: Goldadern Aussprache Fehler Worttrennung Gold | ader Wortzerlegung Gold Ader Bedeutung eWDG 1969 goldhaltige Ader im Gestein Beispiele: nach einer Goldader suchen bildlich das Herz, woran ich bei Emil nie gezweifelt habe, aber wovon wir so lange umsonst die Goldadern suchten [ Federer Berge 212 ] Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Goldader · Goldbergwerk · Goldgrube · Goldmine Typische Verbindungen zu ›Goldader‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Goldader‹ . anbohren aufspüren ausbeuten entdecken Entdeckung ergiebig erschließen riesig stoßen versiegen Legende: Adjektive Substantive Verben Verwendungsbeispiele für ›Goldader‹ DWDS-Beispielextraktor maschinell ausgesucht aus den DWDS-Korpora Gemeinsam mit diesem haben die Bayern eine neue geschäftliche Goldader angebaggert. [Süddeutsche Zeitung, 02.04.2001] In einem einsamen Wald entdeckten sie jetzt die Goldader mit mindestens 24 Tonnen Gold. [Bild, 30.01.2002] Drüben sehe ich den Herrn",
+      "cardSenseEnHelper": "Gold vein",
+      "deSourceUrl": "https://www.dwds.de/wb/Goldader",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "kullasoon",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Glosbe German–Estonian",
@@ -1088,9 +1242,12 @@
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Gold vein",
-      "germanMeaning": "Gold vein",
-      "cardSenseEn": "Gold vein",
+      "cardMeaningLabel": "noun (die); DE: > Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: G [EN palīgs: Gold vein]",
+      "germanMeaning": "> Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: Goldadern Aussprache Fehler Worttrennung Gold | ader Wortzerlegung Gold Ader Bedeutung eWDG 1969 goldhaltige Ader im Gestein Beispiele: nach einer Goldader suchen bildlich das Herz, woran ich bei Emil nie gezweifelt habe, aber wovon wir so lange umsonst die Goldadern suchten [ Federer Berge 212 ] Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Goldader · Goldbergwerk · Goldgrube · Goldmine Typische Verbindungen zu ›Goldader‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Goldader‹ . anbohren aufspüren ausbeuten entdecken Entdeckung ergiebig erschließen riesig stoßen versiegen Legende: Adjektive Substantive Verben Verwendungsbeispiele für ›Goldader‹ DWDS-Beispielextraktor maschinell ausgesucht aus den DWDS-Korpora Gemeinsam mit diesem haben die Bayern eine neue geschäftliche Goldader angebaggert. [Süddeutsche Zeitung, 02.04.2001] In einem einsamen Wald entdeckten sie jetzt die Goldader mit mindestens 24 Tonnen Gold. [Bild, 30.01.2002] Drüben sehe ich den Herrn",
+      "cardSenseEnHelper": "Gold vein",
+      "deSourceUrl": "https://www.dwds.de/wb/Goldader",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "aukso gysla",
       "targetTranslationDisplay": "—",
       "dictionaryName": "vokieciu-lietuviu.com",
@@ -1138,9 +1295,12 @@
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Gold vein",
-      "germanMeaning": "Gold vein",
-      "cardSenseEn": "Gold vein",
+      "cardMeaningLabel": "noun (die); DE: > Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: G [EN palīgs: Gold vein]",
+      "germanMeaning": "> Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: Goldadern Aussprache Fehler Worttrennung Gold | ader Wortzerlegung Gold Ader Bedeutung eWDG 1969 goldhaltige Ader im Gestein Beispiele: nach einer Goldader suchen bildlich das Herz, woran ich bei Emil nie gezweifelt habe, aber wovon wir so lange umsonst die Goldadern suchten [ Federer Berge 212 ] Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Goldader · Goldbergwerk · Goldgrube · Goldmine Typische Verbindungen zu ›Goldader‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Goldader‹ . anbohren aufspüren ausbeuten entdecken Entdeckung ergiebig erschließen riesig stoßen versiegen Legende: Adjektive Substantive Verben Verwendungsbeispiele für ›Goldader‹ DWDS-Beispielextraktor maschinell ausgesucht aus den DWDS-Korpora Gemeinsam mit diesem haben die Bayern eine neue geschäftliche Goldader angebaggert. [Süddeutsche Zeitung, 02.04.2001] In einem einsamen Wald entdeckten sie jetzt die Goldader mit mindestens 24 Tonnen Gold. [Bild, 30.01.2002] Drüben sehe ich den Herrn",
+      "cardSenseEnHelper": "Gold vein",
+      "deSourceUrl": "https://www.dwds.de/wb/Goldader",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Kullasoon",
       "targetTranslationDisplay": "—",
       "dictionaryName": "DinOrdbok Tysk–Nynorsk",
@@ -1181,9 +1341,12 @@
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Gold vein",
-      "germanMeaning": "Gold vein",
-      "cardSenseEn": "Gold vein",
+      "cardMeaningLabel": "noun (die); DE: > Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: G [EN palīgs: Gold vein]",
+      "germanMeaning": "> Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: Goldadern Aussprache Fehler Worttrennung Gold | ader Wortzerlegung Gold Ader Bedeutung eWDG 1969 goldhaltige Ader im Gestein Beispiele: nach einer Goldader suchen bildlich das Herz, woran ich bei Emil nie gezweifelt habe, aber wovon wir so lange umsonst die Goldadern suchten [ Federer Berge 212 ] Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Goldader · Goldbergwerk · Goldgrube · Goldmine Typische Verbindungen zu ›Goldader‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Goldader‹ . anbohren aufspüren ausbeuten entdecken Entdeckung ergiebig erschließen riesig stoßen versiegen Legende: Adjektive Substantive Verben Verwendungsbeispiele für ›Goldader‹ DWDS-Beispielextraktor maschinell ausgesucht aus den DWDS-Korpora Gemeinsam mit diesem haben die Bayern eine neue geschäftliche Goldader angebaggert. [Süddeutsche Zeitung, 02.04.2001] In einem einsamen Wald entdeckten sie jetzt die Goldader mit mindestens 24 Tonnen Gold. [Bild, 30.01.2002] Drüben sehe ich den Herrn",
+      "cardSenseEnHelper": "Gold vein",
+      "deSourceUrl": "https://www.dwds.de/wb/Goldader",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Złota żyła",
       "targetTranslationDisplay": "zlatá žila",
       "dictionaryName": "Netzverb verbformen DE–SK",
@@ -1231,9 +1394,12 @@
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Gold vein",
-      "germanMeaning": "Gold vein",
-      "cardSenseEn": "Gold vein",
+      "cardMeaningLabel": "noun (die); DE: > Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: G [EN palīgs: Gold vein]",
+      "germanMeaning": "> Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: Goldadern Aussprache Fehler Worttrennung Gold | ader Wortzerlegung Gold Ader Bedeutung eWDG 1969 goldhaltige Ader im Gestein Beispiele: nach einer Goldader suchen bildlich das Herz, woran ich bei Emil nie gezweifelt habe, aber wovon wir so lange umsonst die Goldadern suchten [ Federer Berge 212 ] Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Goldader · Goldbergwerk · Goldgrube · Goldmine Typische Verbindungen zu ›Goldader‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Goldader‹ . anbohren aufspüren ausbeuten entdecken Entdeckung ergiebig erschließen riesig stoßen versiegen Legende: Adjektive Substantive Verben Verwendungsbeispiele für ›Goldader‹ DWDS-Beispielextraktor maschinell ausgesucht aus den DWDS-Korpora Gemeinsam mit diesem haben die Bayern eine neue geschäftliche Goldader angebaggert. [Süddeutsche Zeitung, 02.04.2001] In einem einsamen Wald entdeckten sie jetzt die Goldader mit mindestens 24 Tonnen Gold. [Bild, 30.01.2002] Drüben sehe ich den Herrn",
+      "cardSenseEnHelper": "Gold vein",
+      "deSourceUrl": "https://www.dwds.de/wb/Goldader",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Złota żyła",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
@@ -1295,15 +1461,19 @@
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Gold vein",
-      "germanMeaning": "Gold vein",
-      "cardSenseEn": "Gold vein",
+      "cardMeaningLabel": "noun (die); DE: > Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: G [EN palīgs: Gold vein]",
+      "germanMeaning": "> Goldader , die Substantiv (Femininum) · Genitiv Singular: Goldader · Nominativ Plural: Goldadern Aussprache Fehler Worttrennung Gold | ader Wortzerlegung Gold Ader Bedeutung eWDG 1969 goldhaltige Ader im Gestein Beispiele: nach einer Goldader suchen bildlich das Herz, woran ich bei Emil nie gezweifelt habe, aber wovon wir so lange umsonst die Goldadern suchten [ Federer Berge 212 ] Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Goldader · Goldbergwerk · Goldgrube · Goldmine Typische Verbindungen zu ›Goldader‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Goldader‹ . anbohren aufspüren ausbeuten entdecken Entdeckung ergiebig erschließen riesig stoßen versiegen Legende: Adjektive Substantive Verben Verwendungsbeispiele für ›Goldader‹ DWDS-Beispielextraktor maschinell ausgesucht aus den DWDS-Korpora Gemeinsam mit diesem haben die Bayern eine neue geschäftliche Goldader angebaggert. [Süddeutsche Zeitung, 02.04.2001] In einem einsamen Wald entdeckten sie jetzt die Goldader mit mindestens 24 Tonnen Gold. [Bild, 30.01.2002] Drüben sehe ich den Herrn",
+      "cardSenseEnHelper": "Gold vein",
+      "deSourceUrl": "https://www.dwds.de/wb/Goldader",
+      "deSenseConfirmed": true,
+      "targetOfficialValidated": false,
+      "targetSourceUrl": "https://lcorp.ulif.org.ua/dictua/#search=%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%B0",
       "currentTarget": "золота жила",
       "targetTranslationDisplay": "золота жила",
       "dictionaryName": "Netzverb verbformen DE–UK",
       "resultUrl": "https://www.verbformen.de/de-uk/?w=Goldader",
-      "finalStatus": "TRANSLATION_VALIDATED",
-      "finalReason": "CURRENT_EXACT_MATCH_DICTIONARY",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "TARGET_OFFICIAL_NOT_VALIDATED",
       "findingType": null,
       "proposedNew": null,
       "sourcesTried": [
@@ -1313,20 +1483,63 @@
           "extractedCount": 2,
           "resultUrl": "https://www.verbformen.de/de-uk/?w=Goldader",
           "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "dictcc-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-uk.dict.cc/?s=Goldader",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-deuk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://deuk.dict.cc/?s=Goldader",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "udew-leipzig",
+          "ok": false,
+          "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://udew.uni-leipzig.de/udew/en/"
+        },
+        {
+          "sourceId": "langenscheidt-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/uk/Goldader",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "multitran-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.multitran.com/m.exe?l1=3&l2=28&s=Goldader",
+          "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 2,
+      "candidateCount": 1,
       "candidateCountRaw": 2,
-      "rejectedStrictCount": 0
+      "rejectedStrictCount": 1
     },
     {
       "appLang": "bs",
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "cardMeaningLabel": "noun (der); Border conflict",
-      "germanMeaning": "Border conflict",
-      "cardSenseEn": "Border conflict",
+      "cardMeaningLabel": "noun (der); DE: > Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nomi [EN palīgs: Border conflict]",
+      "germanMeaning": "> Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nominativ Plural: Grenzkonflikte Aussprache Fehler Worttrennung Grenz | kon | flikt Wortzerlegung Grenze Konflikt Bedeutung Duden, GWDS, 1999 (bewaffnete militärische) Auseinandersetzung zwischen zwei Staaten wegen des Verlaufs einer gemeinsamen Grenze Typische Verbindungen zu ›Grenzkonflikt‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Grenzkonflikt‹ . andauernd aufflammen ausgebrochen austragen Beendigung beilegen Beilegung bewaffnet blutig entfachen entschärfen Eskalation eskalieren eskalierend jahrzehntealt jahrzehntelang kriegerisch latent Nachbarland Nachbarstaat provozieren schwelen schwelend ungelöst Vermittlung verschärfen verwickeln zuspitzen Legende: Adjektive Substantive Verben Zitationshilfe „Grenzkonflikt“, bereitgestellt durch das Digitale Wörterbuch der deutschen Sprache, &lt;https://www.dwds.de/wb/Grenzkonflikt&gt; . Weitere Informationen &hellip; Diesen Artikel teilen: <span class=\"share-telegra",
+      "cardSenseEnHelper": "Border conflict",
+      "deSourceUrl": "https://www.dwds.de/wb/Grenzkonflikt",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Granični sukob",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Bosnisch (de-bs.dict.cc)",
@@ -1381,9 +1594,12 @@
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "cardMeaningLabel": "noun (der); Border conflict",
-      "germanMeaning": "Border conflict",
-      "cardSenseEn": "Border conflict",
+      "cardMeaningLabel": "noun (der); DE: > Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nomi [EN palīgs: Border conflict]",
+      "germanMeaning": "> Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nominativ Plural: Grenzkonflikte Aussprache Fehler Worttrennung Grenz | kon | flikt Wortzerlegung Grenze Konflikt Bedeutung Duden, GWDS, 1999 (bewaffnete militärische) Auseinandersetzung zwischen zwei Staaten wegen des Verlaufs einer gemeinsamen Grenze Typische Verbindungen zu ›Grenzkonflikt‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Grenzkonflikt‹ . andauernd aufflammen ausgebrochen austragen Beendigung beilegen Beilegung bewaffnet blutig entfachen entschärfen Eskalation eskalieren eskalierend jahrzehntealt jahrzehntelang kriegerisch latent Nachbarland Nachbarstaat provozieren schwelen schwelend ungelöst Vermittlung verschärfen verwickeln zuspitzen Legende: Adjektive Substantive Verben Zitationshilfe „Grenzkonflikt“, bereitgestellt durch das Digitale Wörterbuch der deutschen Sprache, &lt;https://www.dwds.de/wb/Grenzkonflikt&gt; . Weitere Informationen &hellip; Diesen Artikel teilen: <span class=\"share-telegra",
+      "cardSenseEnHelper": "Border conflict",
+      "deSourceUrl": "https://www.dwds.de/wb/Grenzkonflikt",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "piirikonflikt",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Glosbe German–Estonian",
@@ -1431,9 +1647,12 @@
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "cardMeaningLabel": "noun (der); Border conflict",
-      "germanMeaning": "Border conflict",
-      "cardSenseEn": "Border conflict",
+      "cardMeaningLabel": "noun (der); DE: > Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nomi [EN palīgs: Border conflict]",
+      "germanMeaning": "> Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nominativ Plural: Grenzkonflikte Aussprache Fehler Worttrennung Grenz | kon | flikt Wortzerlegung Grenze Konflikt Bedeutung Duden, GWDS, 1999 (bewaffnete militärische) Auseinandersetzung zwischen zwei Staaten wegen des Verlaufs einer gemeinsamen Grenze Typische Verbindungen zu ›Grenzkonflikt‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Grenzkonflikt‹ . andauernd aufflammen ausgebrochen austragen Beendigung beilegen Beilegung bewaffnet blutig entfachen entschärfen Eskalation eskalieren eskalierend jahrzehntealt jahrzehntelang kriegerisch latent Nachbarland Nachbarstaat provozieren schwelen schwelend ungelöst Vermittlung verschärfen verwickeln zuspitzen Legende: Adjektive Substantive Verben Zitationshilfe „Grenzkonflikt“, bereitgestellt durch das Digitale Wörterbuch der deutschen Sprache, &lt;https://www.dwds.de/wb/Grenzkonflikt&gt; . Weitere Informationen &hellip; Diesen Artikel teilen: <span class=\"share-telegra",
+      "cardSenseEnHelper": "Border conflict",
+      "deSourceUrl": "https://www.dwds.de/wb/Grenzkonflikt",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "pasienio konfliktas",
       "targetTranslationDisplay": "—",
       "dictionaryName": "vokieciu-lietuviu.com",
@@ -1481,9 +1700,12 @@
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "cardMeaningLabel": "noun (der); Border conflict",
-      "germanMeaning": "Border conflict",
-      "cardSenseEn": "Border conflict",
+      "cardMeaningLabel": "noun (der); DE: > Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nomi [EN palīgs: Border conflict]",
+      "germanMeaning": "> Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nominativ Plural: Grenzkonflikte Aussprache Fehler Worttrennung Grenz | kon | flikt Wortzerlegung Grenze Konflikt Bedeutung Duden, GWDS, 1999 (bewaffnete militärische) Auseinandersetzung zwischen zwei Staaten wegen des Verlaufs einer gemeinsamen Grenze Typische Verbindungen zu ›Grenzkonflikt‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Grenzkonflikt‹ . andauernd aufflammen ausgebrochen austragen Beendigung beilegen Beilegung bewaffnet blutig entfachen entschärfen Eskalation eskalieren eskalierend jahrzehntealt jahrzehntelang kriegerisch latent Nachbarland Nachbarstaat provozieren schwelen schwelend ungelöst Vermittlung verschärfen verwickeln zuspitzen Legende: Adjektive Substantive Verben Zitationshilfe „Grenzkonflikt“, bereitgestellt durch das Digitale Wörterbuch der deutschen Sprache, &lt;https://www.dwds.de/wb/Grenzkonflikt&gt; . Weitere Informationen &hellip; Diesen Artikel teilen: <span class=\"share-telegra",
+      "cardSenseEnHelper": "Border conflict",
+      "deSourceUrl": "https://www.dwds.de/wb/Grenzkonflikt",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Piirikonflikt",
       "targetTranslationDisplay": "—",
       "dictionaryName": "DinOrdbok Tysk–Nynorsk",
@@ -1510,9 +1732,7 @@
         {
           "sourceId": "glosbe-de-nn",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://glosbe.com/de/nn/Grenzkonflikt",
-          "parserOnlyEmpty": false
+          "error": "page.waitForTimeout: Target page, context or browser has been closed"
         }
       ],
       "candidateCount": 0,
@@ -1524,13 +1744,16 @@
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "cardMeaningLabel": "noun (der); Border conflict",
-      "germanMeaning": "Border conflict",
-      "cardSenseEn": "Border conflict",
+      "cardMeaningLabel": "noun (der); DE: > Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nomi [EN palīgs: Border conflict]",
+      "germanMeaning": "> Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nominativ Plural: Grenzkonflikte Aussprache Fehler Worttrennung Grenz | kon | flikt Wortzerlegung Grenze Konflikt Bedeutung Duden, GWDS, 1999 (bewaffnete militärische) Auseinandersetzung zwischen zwei Staaten wegen des Verlaufs einer gemeinsamen Grenze Typische Verbindungen zu ›Grenzkonflikt‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Grenzkonflikt‹ . andauernd aufflammen ausgebrochen austragen Beendigung beilegen Beilegung bewaffnet blutig entfachen entschärfen Eskalation eskalieren eskalierend jahrzehntealt jahrzehntelang kriegerisch latent Nachbarland Nachbarstaat provozieren schwelen schwelend ungelöst Vermittlung verschärfen verwickeln zuspitzen Legende: Adjektive Substantive Verben Zitationshilfe „Grenzkonflikt“, bereitgestellt durch das Digitale Wörterbuch der deutschen Sprache, &lt;https://www.dwds.de/wb/Grenzkonflikt&gt; . Weitere Informationen &hellip; Diesen Artikel teilen: <span class=\"share-telegra",
+      "cardSenseEnHelper": "Border conflict",
+      "deSourceUrl": "https://www.dwds.de/wb/Grenzkonflikt",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Konflikt graniczny",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Netzverb verbformen DE–SK",
-      "resultUrl": "https://www.verbformen.de/de-sk/?w=Grenzkonflikt",
+      "resultUrl": null,
       "finalStatus": "NOT_FOUND",
       "finalReason": "NO_DICTIONARY_CANDIDATES",
       "findingType": null,
@@ -1539,30 +1762,22 @@
         {
           "sourceId": "verbformen-de-sk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://www.verbformen.de/de-sk/?w=Grenzkonflikt",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed\nBrowser logs"
         },
         {
           "sourceId": "dictcc-de-sk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://de-sk.dict.cc/?s=Grenzkonflikt",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "dictcc-desk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://desk.dict.cc/?s=Grenzkonflikt",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "glosbe-de-sk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://glosbe.com/de/sk/Grenzkonflikt",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         }
       ],
       "candidateCount": 0,
@@ -1574,13 +1789,16 @@
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "cardMeaningLabel": "noun (der); Border conflict",
-      "germanMeaning": "Border conflict",
-      "cardSenseEn": "Border conflict",
+      "cardMeaningLabel": "noun (der); DE: > Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nomi [EN palīgs: Border conflict]",
+      "germanMeaning": "> Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nominativ Plural: Grenzkonflikte Aussprache Fehler Worttrennung Grenz | kon | flikt Wortzerlegung Grenze Konflikt Bedeutung Duden, GWDS, 1999 (bewaffnete militärische) Auseinandersetzung zwischen zwei Staaten wegen des Verlaufs einer gemeinsamen Grenze Typische Verbindungen zu ›Grenzkonflikt‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Grenzkonflikt‹ . andauernd aufflammen ausgebrochen austragen Beendigung beilegen Beilegung bewaffnet blutig entfachen entschärfen Eskalation eskalieren eskalierend jahrzehntealt jahrzehntelang kriegerisch latent Nachbarland Nachbarstaat provozieren schwelen schwelend ungelöst Vermittlung verschärfen verwickeln zuspitzen Legende: Adjektive Substantive Verben Zitationshilfe „Grenzkonflikt“, bereitgestellt durch das Digitale Wörterbuch der deutschen Sprache, &lt;https://www.dwds.de/wb/Grenzkonflikt&gt; . Weitere Informationen &hellip; Diesen Artikel teilen: <span class=\"share-telegra",
+      "cardSenseEnHelper": "Border conflict",
+      "deSourceUrl": "https://www.dwds.de/wb/Grenzkonflikt",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Konflikt graniczny",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
-      "resultUrl": "https://de-sq.dict.cc/?s=Grenzkonflikt",
+      "resultUrl": null,
       "finalStatus": "NOT_FOUND",
       "finalReason": "NO_DICTIONARY_CANDIDATES",
       "findingType": null,
@@ -1589,44 +1807,32 @@
         {
           "sourceId": "dictcc-de-sq",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://de-sq.dict.cc/?s=Grenzkonflikt",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "dictcc-desq",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://desq.dict.cc/?s=Grenzkonflikt",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "verbformen-de-sq",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://www.verbformen.de/de-sq/?w=Grenzkonflikt",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "dicts-info-de-sq",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian&word=Grenzkonflikt",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "glosbe-de-sq",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://glosbe.com/de/sq/Grenzkonflikt",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "langenscheidt-de-sq",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://en.langenscheidt.com/",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         }
       ],
       "candidateCount": 0,
@@ -1638,13 +1844,16 @@
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "cardMeaningLabel": "noun (der); Border conflict",
-      "germanMeaning": "Border conflict",
-      "cardSenseEn": "Border conflict",
+      "cardMeaningLabel": "noun (der); DE: > Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nomi [EN palīgs: Border conflict]",
+      "germanMeaning": "> Grenzkonflikt , der Substantiv (Maskulinum) · Genitiv Singular: Grenzkonflikt(e)s · Nominativ Plural: Grenzkonflikte Aussprache Fehler Worttrennung Grenz | kon | flikt Wortzerlegung Grenze Konflikt Bedeutung Duden, GWDS, 1999 (bewaffnete militärische) Auseinandersetzung zwischen zwei Staaten wegen des Verlaufs einer gemeinsamen Grenze Typische Verbindungen zu ›Grenzkonflikt‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Grenzkonflikt‹ . andauernd aufflammen ausgebrochen austragen Beendigung beilegen Beilegung bewaffnet blutig entfachen entschärfen Eskalation eskalieren eskalierend jahrzehntealt jahrzehntelang kriegerisch latent Nachbarland Nachbarstaat provozieren schwelen schwelend ungelöst Vermittlung verschärfen verwickeln zuspitzen Legende: Adjektive Substantive Verben Zitationshilfe „Grenzkonflikt“, bereitgestellt durch das Digitale Wörterbuch der deutschen Sprache, &lt;https://www.dwds.de/wb/Grenzkonflikt&gt; . Weitere Informationen &hellip; Diesen Artikel teilen: <span class=\"share-telegra",
+      "cardSenseEnHelper": "Border conflict",
+      "deSourceUrl": "https://www.dwds.de/wb/Grenzkonflikt",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "прикордонний конфлікт",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Netzverb verbformen DE–UK",
-      "resultUrl": "https://www.verbformen.de/de-uk/?w=Grenzkonflikt",
+      "resultUrl": null,
       "finalStatus": "NOT_FOUND",
       "finalReason": "NO_DICTIONARY_CANDIDATES",
       "findingType": null,
@@ -1653,49 +1862,37 @@
         {
           "sourceId": "verbformen-de-uk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://www.verbformen.de/de-uk/?w=Grenzkonflikt",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "dictcc-de-uk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://de-uk.dict.cc/?s=Grenzkonflikt",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "dictcc-deuk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://deuk.dict.cc/?s=Grenzkonflikt",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "udew-leipzig",
           "ok": false,
-          "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://udew.uni-leipzig.de/udew/en/"
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "langenscheidt-de-uk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://en.langenscheidt.com/",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "glosbe-de-uk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://glosbe.com/de/uk/Grenzkonflikt",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "multitran-de-uk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://www.multitran.com/m.exe?l1=3&l2=28&s=Grenzkonflikt",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         }
       ],
       "candidateCount": 0,
@@ -1707,13 +1904,16 @@
       "deLemma": "Machtgier",
       "level": "b2",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Lust for power",
-      "germanMeaning": "Lust for power",
-      "cardSenseEn": "Lust for power",
+      "cardMeaningLabel": "noun (die); DE: > Machtgier , die Substantiv (Femininum) · Genitiv Singular: Machtgier · wird nur im Singu [EN palīgs: Lust for power]",
+      "germanMeaning": "> Machtgier , die Substantiv (Femininum) · Genitiv Singular: Machtgier · wird nur im Singular verwendet Aussprache Fehler Worttrennung Macht | gier Wortzerlegung Macht Gier Wortbildung mit ›Machtgier‹ als Erstglied: machtgierig Bedeutung eWDG 1974 Beispiel: dann waren die Kirchen ihrer [der Faschisten] Machtgier im Wege [ Kellerm. Totentanz 11 ] Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Machtgier · Machthunger · Machtstreben · hegemoniale Ansprüche · hegemoniale Bestrebungen · hegemonialer Anspruch Typische Verbindungen zu ›Machtgier‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Machtgier‹ . befriedigen blind brutalstmöglich Eitelkeit grenzenlos Korruption krankhaft nackt pur Rachsucht rein schier schnöd treiben unersättlich ungezügelt unterstellen vorwerfen Legende: Adjektive Substantive Verben Verwendungsbeispiele für ›Machtgier‹ DWDS-Beispielextraktor maschinell ausgesucht aus den DWDS-Korpora Es sieht nicht so aus, als wüßte er es in seiner Machtgier noch heute. [Die Zeit, 31.03.1999] Der Mann, der den größten Teil seines Lebens Unifor",
+      "cardSenseEnHelper": "Lust for power",
+      "deSourceUrl": "https://www.dwds.de/wb/Machtgier",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "võimuiha",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Glosbe German–Estonian",
-      "resultUrl": "https://glosbe.com/de/et/Machtgier",
+      "resultUrl": null,
       "finalStatus": "NOT_FOUND",
       "finalReason": "NO_DICTIONARY_CANDIDATES",
       "findingType": null,
@@ -1722,30 +1922,22 @@
         {
           "sourceId": "glosbe-de-et",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://glosbe.com/de/et/Machtgier",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "verbformen-de-et",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://www.verbformen.de/de-et/?w=Machtgier",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "langenscheidt-de-et",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://en.langenscheidt.com/",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "keelevara-sub",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://keelevara.ee/et/search?query=Machtgier",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         }
       ],
       "candidateCount": 0,
@@ -1757,13 +1949,16 @@
       "deLemma": "Machtgier",
       "level": "b2",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Lust for power",
-      "germanMeaning": "Lust for power",
-      "cardSenseEn": "Lust for power",
+      "cardMeaningLabel": "noun (die); DE: > Machtgier , die Substantiv (Femininum) · Genitiv Singular: Machtgier · wird nur im Singu [EN palīgs: Lust for power]",
+      "germanMeaning": "> Machtgier , die Substantiv (Femininum) · Genitiv Singular: Machtgier · wird nur im Singular verwendet Aussprache Fehler Worttrennung Macht | gier Wortzerlegung Macht Gier Wortbildung mit ›Machtgier‹ als Erstglied: machtgierig Bedeutung eWDG 1974 Beispiel: dann waren die Kirchen ihrer [der Faschisten] Machtgier im Wege [ Kellerm. Totentanz 11 ] Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Machtgier · Machthunger · Machtstreben · hegemoniale Ansprüche · hegemoniale Bestrebungen · hegemonialer Anspruch Typische Verbindungen zu ›Machtgier‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Machtgier‹ . befriedigen blind brutalstmöglich Eitelkeit grenzenlos Korruption krankhaft nackt pur Rachsucht rein schier schnöd treiben unersättlich ungezügelt unterstellen vorwerfen Legende: Adjektive Substantive Verben Verwendungsbeispiele für ›Machtgier‹ DWDS-Beispielextraktor maschinell ausgesucht aus den DWDS-Korpora Es sieht nicht so aus, als wüßte er es in seiner Machtgier noch heute. [Die Zeit, 31.03.1999] Der Mann, der den größten Teil seines Lebens Unifor",
+      "cardSenseEnHelper": "Lust for power",
+      "deSourceUrl": "https://www.dwds.de/wb/Machtgier",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "valdžios geidulys",
       "targetTranslationDisplay": "—",
       "dictionaryName": "vokieciu-lietuviu.com",
-      "resultUrl": "http://www.vokieciu-lietuviu.com/?word=Machtgier",
+      "resultUrl": null,
       "finalStatus": "NOT_FOUND",
       "finalReason": "NO_DICTIONARY_CANDIDATES",
       "findingType": null,
@@ -1772,30 +1967,22 @@
         {
           "sourceId": "vokieciu-lietuviu",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "http://www.vokieciu-lietuviu.com/?word=Machtgier",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "lietuviu-vokieciu",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "http://www.lietuviu-vokieciu.com/?word=Machtgier",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "glosbe-de-lt",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://glosbe.com/de/lt/Machtgier",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "glosbe-de-lt",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://glosbe.com/de/lt/Machtgier",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         }
       ],
       "candidateCount": 0,
@@ -1807,13 +1994,16 @@
       "deLemma": "Machtgier",
       "level": "b2",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Lust for power",
-      "germanMeaning": "Lust for power",
-      "cardSenseEn": "Lust for power",
+      "cardMeaningLabel": "noun (die); DE: > Machtgier , die Substantiv (Femininum) · Genitiv Singular: Machtgier · wird nur im Singu [EN palīgs: Lust for power]",
+      "germanMeaning": "> Machtgier , die Substantiv (Femininum) · Genitiv Singular: Machtgier · wird nur im Singular verwendet Aussprache Fehler Worttrennung Macht | gier Wortzerlegung Macht Gier Wortbildung mit ›Machtgier‹ als Erstglied: machtgierig Bedeutung eWDG 1974 Beispiel: dann waren die Kirchen ihrer [der Faschisten] Machtgier im Wege [ Kellerm. Totentanz 11 ] Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Machtgier · Machthunger · Machtstreben · hegemoniale Ansprüche · hegemoniale Bestrebungen · hegemonialer Anspruch Typische Verbindungen zu ›Machtgier‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Machtgier‹ . befriedigen blind brutalstmöglich Eitelkeit grenzenlos Korruption krankhaft nackt pur Rachsucht rein schier schnöd treiben unersättlich ungezügelt unterstellen vorwerfen Legende: Adjektive Substantive Verben Verwendungsbeispiele für ›Machtgier‹ DWDS-Beispielextraktor maschinell ausgesucht aus den DWDS-Korpora Es sieht nicht so aus, als wüßte er es in seiner Machtgier noch heute. [Die Zeit, 31.03.1999] Der Mann, der den größten Teil seines Lebens Unifor",
+      "cardSenseEnHelper": "Lust for power",
+      "deSourceUrl": "https://www.dwds.de/wb/Machtgier",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Võimuiha",
       "targetTranslationDisplay": "—",
       "dictionaryName": "DinOrdbok Tysk–Nynorsk",
-      "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Machtgier",
+      "resultUrl": null,
       "finalStatus": "NOT_FOUND",
       "finalReason": "NO_DICTIONARY_CANDIDATES",
       "findingType": null,
@@ -1822,23 +2012,17 @@
         {
           "sourceId": "dinordbok-nn",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Machtgier",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "langenscheidt-nn",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://en.langenscheidt.com/german-norwegian/",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "glosbe-de-nn",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://glosbe.com/de/nn/Machtgier",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         }
       ],
       "candidateCount": 0,
@@ -1850,13 +2034,16 @@
       "deLemma": "Machtgier",
       "level": "b2",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Lust for power",
-      "germanMeaning": "Lust for power",
-      "cardSenseEn": "Lust for power",
+      "cardMeaningLabel": "noun (die); DE: > Machtgier , die Substantiv (Femininum) · Genitiv Singular: Machtgier · wird nur im Singu [EN palīgs: Lust for power]",
+      "germanMeaning": "> Machtgier , die Substantiv (Femininum) · Genitiv Singular: Machtgier · wird nur im Singular verwendet Aussprache Fehler Worttrennung Macht | gier Wortzerlegung Macht Gier Wortbildung mit ›Machtgier‹ als Erstglied: machtgierig Bedeutung eWDG 1974 Beispiel: dann waren die Kirchen ihrer [der Faschisten] Machtgier im Wege [ Kellerm. Totentanz 11 ] Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Machtgier · Machthunger · Machtstreben · hegemoniale Ansprüche · hegemoniale Bestrebungen · hegemonialer Anspruch Typische Verbindungen zu ›Machtgier‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Machtgier‹ . befriedigen blind brutalstmöglich Eitelkeit grenzenlos Korruption krankhaft nackt pur Rachsucht rein schier schnöd treiben unersättlich ungezügelt unterstellen vorwerfen Legende: Adjektive Substantive Verben Verwendungsbeispiele für ›Machtgier‹ DWDS-Beispielextraktor maschinell ausgesucht aus den DWDS-Korpora Es sieht nicht so aus, als wüßte er es in seiner Machtgier noch heute. [Die Zeit, 31.03.1999] Der Mann, der den größten Teil seines Lebens Unifor",
+      "cardSenseEnHelper": "Lust for power",
+      "deSourceUrl": "https://www.dwds.de/wb/Machtgier",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Żądza władzy",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Netzverb verbformen DE–SK",
-      "resultUrl": "https://www.verbformen.de/de-sk/?w=Machtgier",
+      "resultUrl": null,
       "finalStatus": "NOT_FOUND",
       "finalReason": "NO_DICTIONARY_CANDIDATES",
       "findingType": null,
@@ -1865,30 +2052,22 @@
         {
           "sourceId": "verbformen-de-sk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://www.verbformen.de/de-sk/?w=Machtgier",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "dictcc-de-sk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://de-sk.dict.cc/?s=Machtgier",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "dictcc-desk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://desk.dict.cc/?s=Machtgier",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "glosbe-de-sk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://glosbe.com/de/sk/Machtgier",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         }
       ],
       "candidateCount": 0,
@@ -1900,13 +2079,16 @@
       "deLemma": "Machtgier",
       "level": "b2",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Lust for power",
-      "germanMeaning": "Lust for power",
-      "cardSenseEn": "Lust for power",
+      "cardMeaningLabel": "noun (die); DE: > Machtgier , die Substantiv (Femininum) · Genitiv Singular: Machtgier · wird nur im Singu [EN palīgs: Lust for power]",
+      "germanMeaning": "> Machtgier , die Substantiv (Femininum) · Genitiv Singular: Machtgier · wird nur im Singular verwendet Aussprache Fehler Worttrennung Macht | gier Wortzerlegung Macht Gier Wortbildung mit ›Machtgier‹ als Erstglied: machtgierig Bedeutung eWDG 1974 Beispiel: dann waren die Kirchen ihrer [der Faschisten] Machtgier im Wege [ Kellerm. Totentanz 11 ] Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Machtgier · Machthunger · Machtstreben · hegemoniale Ansprüche · hegemoniale Bestrebungen · hegemonialer Anspruch Typische Verbindungen zu ›Machtgier‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Machtgier‹ . befriedigen blind brutalstmöglich Eitelkeit grenzenlos Korruption krankhaft nackt pur Rachsucht rein schier schnöd treiben unersättlich ungezügelt unterstellen vorwerfen Legende: Adjektive Substantive Verben Verwendungsbeispiele für ›Machtgier‹ DWDS-Beispielextraktor maschinell ausgesucht aus den DWDS-Korpora Es sieht nicht so aus, als wüßte er es in seiner Machtgier noch heute. [Die Zeit, 31.03.1999] Der Mann, der den größten Teil seines Lebens Unifor",
+      "cardSenseEnHelper": "Lust for power",
+      "deSourceUrl": "https://www.dwds.de/wb/Machtgier",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "Güç arzusu",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
-      "resultUrl": "https://de-sq.dict.cc/?s=Machtgier",
+      "resultUrl": null,
       "finalStatus": "NOT_FOUND",
       "finalReason": "NO_DICTIONARY_CANDIDATES",
       "findingType": null,
@@ -1915,44 +2097,32 @@
         {
           "sourceId": "dictcc-de-sq",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://de-sq.dict.cc/?s=Machtgier",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "dictcc-desq",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://desq.dict.cc/?s=Machtgier",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "verbformen-de-sq",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://www.verbformen.de/de-sq/?w=Machtgier",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "dicts-info-de-sq",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian&word=Machtgier",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "glosbe-de-sq",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://glosbe.com/de/sq/Machtgier",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "langenscheidt-de-sq",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://en.langenscheidt.com/",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         }
       ],
       "candidateCount": 0,
@@ -1964,13 +2134,16 @@
       "deLemma": "Machtgier",
       "level": "b2",
       "cardPos": "noun (die)",
-      "cardMeaningLabel": "noun (die); Lust for power",
-      "germanMeaning": "Lust for power",
-      "cardSenseEn": "Lust for power",
+      "cardMeaningLabel": "noun (die); DE: > Machtgier , die Substantiv (Femininum) · Genitiv Singular: Machtgier · wird nur im Singu [EN palīgs: Lust for power]",
+      "germanMeaning": "> Machtgier , die Substantiv (Femininum) · Genitiv Singular: Machtgier · wird nur im Singular verwendet Aussprache Fehler Worttrennung Macht | gier Wortzerlegung Macht Gier Wortbildung mit ›Machtgier‹ als Erstglied: machtgierig Bedeutung eWDG 1974 Beispiel: dann waren die Kirchen ihrer [der Faschisten] Machtgier im Wege [ Kellerm. Totentanz 11 ] Bedeutungsverwandte Ausdrücke www.openthesaurus.de ( 04/2026 ) Machtgier · Machthunger · Machtstreben · hegemoniale Ansprüche · hegemoniale Bestrebungen · hegemonialer Anspruch Typische Verbindungen zu ›Machtgier‹ (berechnet) DWDS-Wortprofil Detailliertere Informationen bietet das DWDS-Wortprofil zu ›Machtgier‹ . befriedigen blind brutalstmöglich Eitelkeit grenzenlos Korruption krankhaft nackt pur Rachsucht rein schier schnöd treiben unersättlich ungezügelt unterstellen vorwerfen Legende: Adjektive Substantive Verben Verwendungsbeispiele für ›Machtgier‹ DWDS-Beispielextraktor maschinell ausgesucht aus den DWDS-Korpora Es sieht nicht so aus, als wüßte er es in seiner Machtgier noch heute. [Die Zeit, 31.03.1999] Der Mann, der den größten Teil seines Lebens Unifor",
+      "cardSenseEnHelper": "Lust for power",
+      "deSourceUrl": "https://www.dwds.de/wb/Machtgier",
+      "deSenseConfirmed": true,
+      "targetSourceUrl": null,
       "currentTarget": "жага влади",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Netzverb verbformen DE–UK",
-      "resultUrl": "https://www.verbformen.de/de-uk/?w=Machtgier",
+      "resultUrl": null,
       "finalStatus": "NOT_FOUND",
       "finalReason": "NO_DICTIONARY_CANDIDATES",
       "findingType": null,
@@ -1979,49 +2152,37 @@
         {
           "sourceId": "verbformen-de-uk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://www.verbformen.de/de-uk/?w=Machtgier",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "dictcc-de-uk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://de-uk.dict.cc/?s=Machtgier",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "dictcc-deuk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://deuk.dict.cc/?s=Machtgier",
-          "parserOnlyEmpty": true
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "udew-leipzig",
           "ok": false,
-          "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://udew.uni-leipzig.de/udew/en/"
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "langenscheidt-de-uk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://en.langenscheidt.com/",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "glosbe-de-uk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://glosbe.com/de/uk/Machtgier",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         },
         {
           "sourceId": "multitran-de-uk",
           "ok": false,
-          "extractedCount": 0,
-          "resultUrl": "https://www.multitran.com/m.exe?l1=3&l2=28&s=Machtgier",
-          "parserOnlyEmpty": false
+          "error": "browser.newContext: Target page, context or browser has been closed"
         }
       ],
       "candidateCount": 0,

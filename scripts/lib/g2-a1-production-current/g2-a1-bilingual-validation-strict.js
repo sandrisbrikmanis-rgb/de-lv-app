@@ -11,7 +11,9 @@ const {
   selectProvenDictionaryCandidate,
   targetLemmaEquals,
 } = require("./card-translation-audit-search");
-const { evaluateDictionaryCapitalization } = require("../master-capitalization-rule-verify");
+const { evaluateDictionaryCapitalization, extractNormativeLemma } = require("../master-capitalization-rule-verify");
+const { assessDeSenseUniqueness } = require("./g2-a1-bilingual-de-sense-gate");
+const { isTargetOfficialValidated } = require("./card-translation-audit-search");
 
 /** Kartītes angļu nozīmes atslēga (data/en) — disambiguācijai, ne tulkojumam. */
 function loadCardSenseContext(level, lemma) {
@@ -28,12 +30,6 @@ function loadCardSenseContext(level, lemma) {
     senseEn = "";
   }
   return { senseEn, deArticle };
-}
-
-function normalizeSenseEn(s) {
-  return String(s || "")
-    .toLowerCase()
-    .replace(/\s+/g, " ");
 }
 
 /** Vārdnīcas pamatforma — nav frāze, UI, piemērs. */
@@ -72,10 +68,9 @@ function looksLikeWrongPosForCard(targetLemma, cardPartOfSpeech, appLang) {
   return false;
 }
 
-/** Deterministiski izņēmumi no lietotāja piemēriem + nozīmes atslēgvārdi. */
-function blockedBySenseGuard(deLemma, appLang, targetLemma, senseEn) {
+/** Deterministiski izņēmumi (POS/frāze/homonīms) — bez EN kā pierādījuma. */
+function blockedBySenseGuard(deLemma, appLang, targetLemma) {
   const t = stripQuotes(targetLemma || "").trim();
-  const sense = normalizeSenseEn(senseEn);
 
   const perLemmaLang = {
     stinken: {
@@ -88,7 +83,10 @@ function blockedBySenseGuard(deLemma, appLang, targetLemma, senseEn) {
       nn: [/gå til/i],
     },
     Goldader: {
-      "*": [/hemoroid/i, /haemorrhoid/i, /rrhoid/i],
+      "*": [/hemoroid/i, /haemorrhoid/i, /rrhoid/i, /варикоз/i, /сплетення/i],
+    },
+    stinken: {
+      bs: [/izgledati/i],
     },
     glotzen: {
       sq: [/televizor/i, /sy hapur/i],
@@ -101,17 +99,10 @@ function blockedBySenseGuard(deLemma, appLang, targetLemma, senseEn) {
     if (pats.some((rx) => rx.test(t))) return true;
   }
 
-  if (deLemma === "Goldader" && /gold|vein/.test(sense) && /hemoroid|rrhoid/i.test(t)) return true;
-  if (deLemma === "stinken" && /smell|stink/.test(sense) && /^(duket|urre)$/i.test(t)) return true;
-  if (deLemma === "bewirten" && /host|serve|guest/.test(sense) && /^гостинність$/iu.test(t)) return true;
-  if (deLemma === "Attacke" && /attack|assault/.test(sense) && /gå til/i.test(t)) return true;
-  if (deLemma === "glotzen" && /stare|gawk/.test(sense) && /televizor|sy hapur/i.test(t)) return true;
-
   return false;
 }
 
 function filterStrictCandidates(candidates, cardGerman, deAuthority, appLang) {
-  const senseEn = cardGerman.cardSenseEn || "";
   const out = [];
   const rejected = [];
 
@@ -128,12 +119,13 @@ function filterStrictCandidates(candidates, cardGerman, deAuthority, appLang) {
     if (looksLikeWrongPosForCard(lemma, cardGerman.partOfSpeech, appLang)) {
       reasons.push("POS_HEURISTIC_MISMATCH");
     }
-    if (blockedBySenseGuard(cardGerman.lemma, appLang, lemma, senseEn)) {
+    if (blockedBySenseGuard(cardGerman.lemma, appLang, lemma)) {
       reasons.push("CARD_SENSE_MISMATCH");
     }
 
     const sense = dictionaryDeSenseAlignsWithCard(cardGerman, c.deTranslation, deAuthority);
-    if (!sense.aligned && cardGerman.germanMeaning && cardGerman.germanMeaning.length >= 12) {
+    const deProof = String(cardGerman.deSenseProof || cardGerman.germanMeaning || "").trim();
+    if (!sense.aligned && deProof.length >= 40) {
       reasons.push(`DE_SENSE_${sense.reason}`);
     }
 
@@ -230,10 +222,164 @@ function resolveStrictBilingualFinalStatus(cardGerman, deAuthority, candidates, 
   };
 }
 
+/**
+ * DE nozīmes un TARGET oficiālā avota vārti pēc divvalodu secinājuma.
+ * @param {Function} lookupTargetForProvenLemma — (appLang, term) => Promise<targetAuthority>
+ */
+async function applyDeAndTargetAuthorityGates(
+  verdict,
+  { appLang, currentTarget, cardGerman, deAuthority, lookupTargetForProvenLemma, targetLookupVariants },
+) {
+  const base = { ...verdict };
+  const deSense = assessDeSenseUniqueness(deAuthority, cardGerman);
+  base.deSenseConfirmed = deSense.ok;
+  base.deSenseGateReason = deSense.reason;
+
+  const needsStrict =
+    base.finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED ||
+    base.finalStatus === TRANSLATION_AUDIT_VERDICT.FINDING;
+
+  if (needsStrict && !deSense.ok) {
+    return {
+      ...base,
+      finalStatus: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+      reason: `DE_SENSE_${deSense.reason}`,
+      findingType: null,
+      proposedNew: null,
+    };
+  }
+
+  if (!needsStrict) return base;
+
+  const current = stripQuotes(currentTarget || "");
+  const dictLemma =
+    base.matchedLemma ||
+    stripQuotes(
+      verdict.provenLemma ||
+        (() => {
+          const m = (verdict.candidates || []).find((c) => targetLemmaEquals(c.targetLemma || c.wordLb, current));
+          return m?.targetLemma || m?.wordLb || "";
+        })(),
+    );
+
+  let targetAuthority = null;
+  for (const term of targetLookupVariants(dictLemma, current)) {
+    // eslint-disable-next-line no-await-in-loop
+    targetAuthority = await lookupTargetForProvenLemma(appLang, term);
+    if (isTargetOfficialValidated(targetAuthority)) break;
+  }
+
+  base.targetOfficialValidated = isTargetOfficialValidated(targetAuthority);
+  base.targetSourceUrl = targetAuthority?.entryUrl || null;
+
+  if (!isTargetOfficialValidated(targetAuthority)) {
+    return {
+      ...base,
+      finalStatus: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+      reason: "TARGET_OFFICIAL_NOT_VALIDATED",
+      findingType: null,
+      proposedNew: null,
+    };
+  }
+
+  const normative =
+    extractNormativeLemma(
+      targetAuthority.entryHeadwordOrRule,
+      targetAuthority.evidenceFragment,
+    ) || dictLemma;
+
+  if (base.finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED) {
+    if (current === normative) {
+      return { ...base, matchedLemma: normative };
+    }
+    const cap = evaluateDictionaryCapitalization({
+      fieldKind: "dictionary",
+      current,
+      authorityLemma: normative,
+      isProperNoun: false,
+    });
+    if (cap.findingType === "CAPITALIZATION_ERROR") {
+      return {
+        ...base,
+        finalStatus: TRANSLATION_AUDIT_VERDICT.FINDING,
+        reason: cap.reason || "case_mismatch_same_lemma",
+        findingType: "CAPITALIZATION_ERROR",
+        proposedNew: cap.proposedTarget || normative,
+        matchedLemma: normative,
+      };
+    }
+    return {
+      ...base,
+      finalStatus: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+      reason: "TARGET_NORMATIVE_MISMATCH",
+      findingType: null,
+      proposedNew: null,
+    };
+  }
+
+  if (base.finalStatus === TRANSLATION_AUDIT_VERDICT.FINDING) {
+    const cap = evaluateDictionaryCapitalization({
+      fieldKind: "dictionary",
+      current,
+      authorityLemma: normative,
+      isProperNoun: false,
+    });
+    if (cap.findingType === "CAPITALIZATION_ERROR") {
+      return {
+        ...base,
+        findingType: "CAPITALIZATION_ERROR",
+        proposedNew: cap.proposedTarget || normative,
+        matchedLemma: normative,
+      };
+    }
+    return {
+      ...base,
+      finalStatus: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+      reason: "TARGET_CAPITALIZATION_NOT_CONFIRMED",
+      findingType: null,
+      proposedNew: null,
+    };
+  }
+
+  return base;
+}
+
+function sanitizeDeEvidenceText(raw) {
+  let t = String(raw || "");
+  if (/<[a-z][\s\S]*>/i.test(t)) {
+    try {
+      const { htmlToPlainText } = require("./source-adapters/http-page");
+      t = htmlToPlainText(t);
+    } catch {
+      t = t.replace(/<[^>]+>/g, " ");
+    }
+  }
+  return t
+    .replace(/class="[^"]*"/gi, " ")
+    .replace(/Lesezeichen|zitieren\/teilen|zuklappen|ausklappen|Grammatik|DWDS\s+›/gi, " ")
+    .replace(/^>\s*/, "")
+    .replace(/Aussprache Fehler Worttrennung[\s\S]*$/i, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function cardMeaningDisplayLabel(cardGerman, deAuthority) {
+  const pos = cardGerman.partOfSpeech || "?";
+  const art = cardGerman.article ? ` (${cardGerman.article})` : "";
+  const deFrag = sanitizeDeEvidenceText(deAuthority?.evidenceFragment || cardGerman.deSenseProof || "");
+  const deShort = deFrag ? deFrag.slice(0, 90) : "—";
+  const enHelp = String(cardGerman.cardSenseEnHelper || "").trim();
+  const enSuffix = enHelp ? ` [EN palīgs: ${enHelp.slice(0, 40)}]` : "";
+  return `${pos}${art}; DE: ${deShort}${enSuffix}`;
+}
+
 module.exports = {
   loadCardSenseContext,
   filterStrictCandidates,
   resolveStrictBilingualFinalStatus,
+  applyDeAndTargetAuthorityGates,
+  cardMeaningDisplayLabel,
+  sanitizeDeEvidenceText,
   isDictionaryLemmaForm,
   blockedBySenseGuard,
 };

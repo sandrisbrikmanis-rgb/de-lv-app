@@ -4,8 +4,12 @@
 const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
-const { SOURCE_ACCESS_OUTCOME } = require("./lib/g2-a1-production-current/official-source-access-constants");
-const { TRANSLATION_AUDIT_VERDICT } = require("./lib/g2-a1-production-current/card-translation-audit-search");
+const {
+  TRANSLATION_AUDIT_VERDICT,
+  targetLemmaEquals,
+} = require("./lib/g2-a1-production-current/card-translation-audit-search");
+const { lookupDeForCard, lookupTargetForProvenLemma } = require("./lib/g2-a1-production-current/card-translation-lang-run");
+const { targetLookupVariants } = require("./lib/g2-a1-production-current/card-translation-target-lookup");
 const { mapTargetsToCandidates } = require("./lib/g2-a1-production-current/card-translation-bilingual-collector");
 const {
   fetchDictionaryPageForCandidate,
@@ -28,6 +32,9 @@ const {
   loadCardSenseContext,
   filterStrictCandidates,
   resolveStrictBilingualFinalStatus,
+  applyDeAndTargetAuthorityGates,
+  cardMeaningDisplayLabel,
+  sanitizeDeEvidenceText,
 } = require("./lib/g2-a1-production-current/g2-a1-bilingual-validation-strict");
 const { loadG2Level } = require("./lib/content-crowdin-bridge/roundtrip");
 
@@ -91,30 +98,6 @@ function sourcesForLang(appLang) {
     ];
   }
   return fromRescan;
-}
-
-const dwdsGlossCache = new Map();
-
-async function fetchDwdsGloss(lemma) {
-  if (dwdsGlossCache.has(lemma)) return dwdsGlossCache.get(lemma);
-  let gloss = "";
-  try {
-    const res = await fetch(`https://www.dwds.de/wb/${encodeURIComponent(lemma)}`, {
-      headers: { "User-Agent": "de-lv-app-g2-a1-bilingual-validation/1.0" },
-      redirect: "follow",
-    });
-    const html = await res.text();
-    const meta = html.match(/<meta\s+name="description"\s+content="([^"]*)"/i);
-    if (meta?.[1]) gloss = meta[1].replace(/&quot;/g, '"').replace(/&amp;/g, "&").trim().slice(0, 220);
-    if (!gloss) {
-      const h = html.match(/<h2[^>]*>([^<]{10,200})<\/h2>/i);
-      if (h?.[1]) gloss = h[1].trim();
-    }
-  } catch {
-    gloss = "";
-  }
-  dwdsGlossCache.set(lemma, gloss);
-  return gloss;
 }
 
 function specToCandidate(spec, appLang) {
@@ -195,28 +178,6 @@ function extractFromPage(spec, page, lemma, appLang, cardGerman) {
   return extractFromDictCcPlainText(text, lemma, { partOfSpeech: cardGerman.partOfSpeech });
 }
 
-function buildDeAuthority(row, germanMeaning) {
-  const url = row.deSourceUrl || "";
-  const confirmed = /dwds\.de|duden\.de/i.test(url);
-  return {
-    outcome: confirmed ? SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED : "SOURCE_LOOKUP_FAIL",
-    entryUrl: url,
-    evidenceFragment: germanMeaning || row.deLemma,
-    entryHeadwordOrRule: row.deLemma,
-    adapterId: /duden/i.test(url) ? "duden" : "dwds",
-  };
-}
-
-function cardMeaningLabel(cardGerman) {
-  const en = String(cardGerman.cardSenseEn || "").trim();
-  const dw = String(cardGerman.germanMeaning || "").trim();
-  const pos = cardGerman.partOfSpeech || "?";
-  const art = cardGerman.article ? ` (${cardGerman.article})` : "";
-  if (en) return `${pos}${art}; ${en}`;
-  if (dw) return `${pos}${art}; ${dw.slice(0, 100)}`;
-  return `${pos}${art}`;
-}
-
 function applyStrictPool(allCandidates, cardGerman, deAuthority, appLang) {
   return filterStrictCandidates(allCandidates, cardGerman, deAuthority, appLang);
 }
@@ -239,30 +200,55 @@ function posLabel(row) {
   return `${p}${a}`;
 }
 
-function productionCurrent(appLang, level, lemma) {
+function productionCardFields(appLang, level, lemma) {
   try {
     const cards = loadG2Level(appLang, level);
     const card = cards.find((c) => String(c.de || "").trim() === lemma);
-    return card?.lv != null ? String(card.lv).trim() : null;
+    return {
+      currentTarget: card?.lv != null ? String(card.lv).trim() : null,
+      deArticle: card?.de_article || null,
+      dePlural: card?.de_plural || null,
+    };
   } catch {
-    return null;
+    return { currentTarget: null, deArticle: null, dePlural: null };
   }
 }
 
-async function validateRow(fullRow, germanMeaning) {
+async function gateVerdict(verdict, filtered, ctx) {
+  const current = stripQuotes(ctx.currentTarget || "");
+  const matches = filtered.filter((c) => targetLemmaEquals(c.targetLemma || c.wordLb, current));
+  const enriched = {
+    ...verdict,
+    candidates: filtered,
+    matchedLemma: matches.length === 1 ? stripQuotes(matches[0].targetLemma || matches[0].wordLb) : verdict.matchedLemma,
+  };
+  return applyDeAndTargetAuthorityGates(enriched, {
+    appLang: ctx.appLang,
+    currentTarget: ctx.currentTarget,
+    cardGerman: ctx.cardGerman,
+    deAuthority: ctx.deAuthority,
+    lookupTargetForProvenLemma,
+    targetLookupVariants,
+  });
+}
+
+async function validateRow(fullRow, deAuthority) {
   const appLang = fullRow.appLang;
   const lemma = fullRow.deLemma;
   const senseCtx = loadCardSenseContext(fullRow.level, lemma);
+  const prod = productionCardFields(appLang, fullRow.level, lemma);
+  const deProof = sanitizeDeEvidenceText(deAuthority?.evidenceFragment || "");
   const cardGerman = {
     lemma,
     partOfSpeech: fullRow.partOfSpeech,
-    article: fullRow.article || senseCtx.deArticle,
-    cardSenseEn: senseCtx.senseEn,
-    germanMeaning: senseCtx.senseEn || germanMeaning,
-    deSenseNote: senseCtx.senseEn || germanMeaning,
+    article: fullRow.article || prod.deArticle || senseCtx.deArticle,
+    dePlural: prod.dePlural,
+    cardSenseEnHelper: senseCtx.senseEn,
+    deSenseProof: deProof,
+    germanMeaning: deProof,
+    deSenseNote: deProof,
   };
-  const deAuthority = buildDeAuthority(fullRow, germanMeaning);
-  const currentTarget = productionCurrent(appLang, fullRow.level, lemma) ?? fullRow.currentTarget;
+  const currentTarget = prod.currentTarget ?? fullRow.currentTarget;
   const chain = sourcesForLang(appLang);
 
   let allCandidates = [];
@@ -271,6 +257,11 @@ async function validateRow(fullRow, germanMeaning) {
   let winningTranslations = [];
   let finalStatus = "NOT_FOUND";
   let finalReason = "NO_SOURCE_SUCCEEDED";
+  let findingType = null;
+  let proposedNew = null;
+  let deSenseConfirmed = null;
+  let targetOfficialValidated = null;
+  let targetSourceUrl = null;
   const attempts = [];
 
   for (const spec of chain) {
@@ -305,10 +296,13 @@ async function validateRow(fullRow, germanMeaning) {
 
     allCandidates = mergeCandidates(allCandidates, batch, sourceMeta);
     const { filtered } = applyStrictPool(allCandidates, cardGerman, deAuthority, appLang);
-    const verdict = resolveStrictBilingualFinalStatus(cardGerman, deAuthority, filtered, currentTarget);
+    let verdict = resolveStrictBilingualFinalStatus(cardGerman, deAuthority, filtered, currentTarget);
+    verdict = await gateVerdict(verdict, filtered, { appLang, currentTarget, cardGerman, deAuthority });
     if (verdict.finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED) {
       finalStatus = verdict.finalStatus;
       finalReason = verdict.reason;
+      findingType = verdict.findingType || null;
+      proposedNew = verdict.proposedNew || null;
       winningSource = spec.name;
       winningUrl = resultUrl;
       winningTranslations = filtered.map((c) => c.targetLemma);
@@ -317,6 +311,8 @@ async function validateRow(fullRow, germanMeaning) {
     if (verdict.finalStatus === TRANSLATION_AUDIT_VERDICT.FINDING) {
       finalStatus = verdict.finalStatus;
       finalReason = verdict.reason;
+      findingType = verdict.findingType || null;
+      proposedNew = verdict.proposedNew || null;
       winningSource = spec.name;
       winningUrl = resultUrl;
       winningTranslations = filtered.map((c) => c.targetLemma);
@@ -325,6 +321,8 @@ async function validateRow(fullRow, germanMeaning) {
     if (verdict.finalStatus === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW) {
       finalStatus = verdict.finalStatus;
       finalReason = verdict.reason;
+      findingType = verdict.findingType || null;
+      proposedNew = verdict.proposedNew || null;
       winningSource = spec.name;
       winningUrl = resultUrl;
       winningTranslations = filtered.map((c) => c.targetLemma);
@@ -332,43 +330,37 @@ async function validateRow(fullRow, germanMeaning) {
   }
 
   let filteredFinal = applyStrictPool(allCandidates, cardGerman, deAuthority, appLang);
-  let findingType = null;
-  let proposedNew = null;
 
-  if (finalStatus === "NOT_FOUND" || finalStatus === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW) {
-    const verdict = resolveStrictBilingualFinalStatus(
+  if (
+    finalStatus === "NOT_FOUND" ||
+    finalStatus === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW ||
+    finalStatus === TRANSLATION_AUDIT_VERDICT.FINDING ||
+    finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED
+  ) {
+    let verdict = resolveStrictBilingualFinalStatus(
       cardGerman,
       deAuthority,
       filteredFinal.filtered,
       currentTarget,
     );
+    verdict = await gateVerdict(verdict, filteredFinal.filtered, {
+      appLang,
+      currentTarget,
+      cardGerman,
+      deAuthority,
+    });
     finalStatus = verdict.finalStatus;
     finalReason = verdict.reason;
     findingType = verdict.findingType || null;
     proposedNew = verdict.proposedNew || null;
+    deSenseConfirmed = verdict.deSenseConfirmed;
+    targetOfficialValidated = verdict.targetOfficialValidated;
+    targetSourceUrl = verdict.targetSourceUrl || null;
     if (!winningSource && attempts.find((a) => a.ok)) {
       const hit = attempts.find((a) => a.ok);
       winningSource = chain.find((s) => s.id === hit.sourceId)?.name || null;
       winningUrl = hit.resultUrl;
     }
-  } else if (finalStatus === TRANSLATION_AUDIT_VERDICT.FINDING) {
-    const verdict = resolveStrictBilingualFinalStatus(
-      cardGerman,
-      deAuthority,
-      filteredFinal.filtered,
-      currentTarget,
-    );
-    findingType = verdict.findingType;
-    proposedNew = verdict.proposedNew;
-  } else if (finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED) {
-    const verdict = resolveStrictBilingualFinalStatus(
-      cardGerman,
-      deAuthority,
-      filteredFinal.filtered,
-      currentTarget,
-    );
-    findingType = verdict.findingType;
-    proposedNew = verdict.proposedNew;
   }
 
   const pool = filteredFinal.filtered;
@@ -384,9 +376,13 @@ async function validateRow(fullRow, germanMeaning) {
     deLemma: lemma,
     level: fullRow.level,
     cardPos: posLabel(fullRow),
-    cardMeaningLabel: cardMeaningLabel(cardGerman),
-    germanMeaning: cardGerman.germanMeaning || germanMeaning || "—",
-    cardSenseEn: cardGerman.cardSenseEn || "",
+    cardMeaningLabel: cardMeaningDisplayLabel(cardGerman, deAuthority),
+    germanMeaning: cardGerman.deSenseProof || "—",
+    cardSenseEnHelper: cardGerman.cardSenseEnHelper || "",
+    deSourceUrl: deAuthority?.entryUrl || fullRow.deSourceUrl || null,
+    deSenseConfirmed,
+    targetOfficialValidated,
+    targetSourceUrl,
     currentTarget: stripQuotes(currentTarget),
     targetTranslationDisplay: displayTarget,
     dictionaryName: winningSource || (attempts.length ? chain[0]?.name : null),
@@ -415,16 +411,22 @@ async function main() {
   }
 
   const lemmas = [...new Set(rows.map((r) => r.deLemma))];
+  const deAuthorityByLemma = new Map();
   for (const lemma of lemmas) {
+    const spec = rows.find((r) => r.deLemma === lemma);
     // eslint-disable-next-line no-await-in-loop
-    await fetchDwdsGloss(lemma);
+    const deAuthority = await lookupDeForCard({
+      lemma,
+      partOfSpeech: spec.partOfSpeech,
+      article: spec.article || null,
+    });
+    deAuthorityByLemma.set(lemma, deAuthority);
   }
 
   const results = [];
   for (const row of rows) {
-    const gloss = dwdsGlossCache.get(row.deLemma) || "";
     // eslint-disable-next-line no-await-in-loop
-    const r = await validateRow(row, gloss);
+    const r = await validateRow(row, deAuthorityByLemma.get(row.deLemma));
     results.push(r);
     process.stderr.write(`${r.finalStatus} ${r.appLang} ${r.deLemma}\n`);
   }
@@ -435,7 +437,7 @@ async function main() {
   const nf = results.filter((r) => r.finalStatus === "NOT_FOUND");
 
   const payload = {
-    schemaVersion: "g2-a1-complete-bilingual-validation-38-v2",
+    schemaVersion: "g2-a1-complete-bilingual-validation-38-v3",
     generatedAt: new Date().toISOString(),
     rowCount: results.length,
     translationValidatedCount: tv.length,
@@ -443,7 +445,7 @@ async function main() {
     needsSourceReviewCount: nsr.length,
     notFoundCount: nf.length,
     policy:
-      "Dictionary-section extract; card EN sense + POS; strict lemma filter; MASTER capitalization FINDING; no invented translations",
+      "DE sense DWDS/Duden only; EN helper non-proof; bilingual DE→TARGET extract; TARGET official gate; POS filter; MASTER cap FINDING",
     results,
   };
 
