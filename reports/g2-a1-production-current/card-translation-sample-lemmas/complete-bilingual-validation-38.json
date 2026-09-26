@@ -1,24 +1,29 @@
 {
-  "schemaVersion": "g2-a1-complete-bilingual-validation-38-v1",
-  "generatedAt": "2026-09-26T09:22:02.570Z",
+  "schemaVersion": "g2-a1-complete-bilingual-validation-38-v2",
+  "generatedAt": "2026-09-26T09:53:36.063Z",
   "rowCount": 38,
-  "translationValidatedCount": 7,
-  "needsSourceReviewCount": 7,
-  "notFoundCount": 24,
-  "policy": "Dictionary-section extract only; POS + DE sense + CURRENT alignment; no TARGET official gate; no invented translations",
+  "translationValidatedCount": 2,
+  "findingCount": 5,
+  "needsSourceReviewCount": 6,
+  "notFoundCount": 25,
+  "policy": "Dictionary-section extract; card EN sense + POS; strict lemma filter; MASTER capitalization FINDING; no invented translations",
   "results": [
     {
       "appLang": "sq",
       "deLemma": "Besucher",
       "level": "a1",
       "cardPos": "noun (der)",
-      "germanMeaning": "Besucher – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (der); Visitor",
+      "germanMeaning": "Visitor",
+      "cardSenseEn": "Visitor",
       "currentTarget": "Vizitor",
-      "targetTranslationDisplay": "Vizitor",
+      "targetTranslationDisplay": "mysafir; pjesëmarrës; vizitor",
       "dictionaryName": "Netzverb / verbformen Deutsch–Albanisch",
       "resultUrl": "https://www.verbformen.de/de-sq/?w=Besucher",
-      "finalStatus": "TRANSLATION_VALIDATED",
-      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "finalStatus": "FINDING",
+      "finalReason": "case_mismatch_same_lemma",
+      "findingType": "CAPITALIZATION_ERROR",
+      "proposedNew": "vizitor",
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-sq",
@@ -42,20 +47,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 3
+      "candidateCount": 3,
+      "candidateCountRaw": 3,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "bs",
       "deLemma": "stinken",
       "level": "a2",
       "cardPos": "verb",
-      "germanMeaning": "stinken – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "verb; To smell",
+      "germanMeaning": "To smell",
+      "cardSenseEn": "To smell",
       "currentTarget": "smrdjeti",
       "targetTranslationDisplay": "smrdjeti",
       "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
       "resultUrl": "https://www.verbformen.de/de-bs/?w=stinken",
       "finalStatus": "TRANSLATION_VALIDATED",
-      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "finalReason": "CURRENT_EXACT_MATCH_DICTIONARY",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-bs",
@@ -79,20 +90,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 4
+      "candidateCount": 3,
+      "candidateCountRaw": 4,
+      "rejectedStrictCount": 1
     },
     {
       "appLang": "sq",
       "deLemma": "stinken",
       "level": "a2",
       "cardPos": "verb",
-      "germanMeaning": "stinken – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "verb; To smell",
+      "germanMeaning": "To smell",
+      "cardSenseEn": "To smell",
       "currentTarget": "Koku",
-      "targetTranslationDisplay": "kundërmoj; duket; urre",
+      "targetTranslationDisplay": "kundërmoj",
       "dictionaryName": "Netzverb / verbformen Deutsch–Albanisch",
       "resultUrl": "https://www.verbformen.de/de-sq/?w=stinken",
       "finalStatus": "NEEDS_SOURCE_REVIEW",
-      "finalReason": "MULTIPLE_DICTIONARY_CANDIDATES",
+      "finalReason": "CURRENT_NOT_IN_FILTERED_DICTIONARY_LIST",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-sq",
@@ -137,20 +154,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 3
+      "candidateCount": 1,
+      "candidateCountRaw": 3,
+      "rejectedStrictCount": 2
     },
     {
       "appLang": "bs",
       "deLemma": "Kleingeld",
       "level": "a2",
       "cardPos": "noun (das)",
-      "germanMeaning": "Kleingeld – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (das); Petty cash",
+      "germanMeaning": "Petty cash",
+      "cardSenseEn": "Petty cash",
       "currentTarget": "sitni novac",
       "targetTranslationDisplay": "kovanice; sitniš",
       "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
       "resultUrl": "https://www.verbformen.de/de-bs/?w=Kleingeld",
       "finalStatus": "NEEDS_SOURCE_REVIEW",
       "finalReason": "MULTIPLE_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-bs",
@@ -188,20 +211,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 2
+      "candidateCount": 2,
+      "candidateCountRaw": 2,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "et",
       "deLemma": "Kleingeld",
       "level": "a2",
       "cardPos": "noun (das)",
-      "germanMeaning": "Kleingeld – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (das); Petty cash",
+      "germanMeaning": "Petty cash",
+      "cardSenseEn": "Petty cash",
       "currentTarget": "peenraha",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Glosbe German–Estonian",
       "resultUrl": "https://glosbe.com/de/et/Kleingeld",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "glosbe-de-et",
@@ -232,20 +261,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "sq",
       "deLemma": "Kleingeld",
       "level": "a2",
       "cardPos": "noun (das)",
-      "germanMeaning": "Kleingeld – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (das); Petty cash",
+      "germanMeaning": "Petty cash",
+      "cardSenseEn": "Petty cash",
       "currentTarget": "Elde Taşınabilir Nakit",
       "targetTranslationDisplay": "monedha të vogla",
       "dictionaryName": "Netzverb / verbformen Deutsch–Albanisch",
       "resultUrl": "https://www.verbformen.de/de-sq/?w=Kleingeld",
       "finalStatus": "NEEDS_SOURCE_REVIEW",
-      "finalReason": "CURRENT_NOT_IN_DICTIONARY_LIST",
+      "finalReason": "CURRENT_NOT_IN_FILTERED_DICTIONARY_LIST",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-sq",
@@ -290,20 +325,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 1
+      "candidateCount": 1,
+      "candidateCountRaw": 1,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "bs",
       "deLemma": "aufkommen",
       "level": "a2",
       "cardPos": "verb",
-      "germanMeaning": "aufkommen – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "verb; Occur",
+      "germanMeaning": "Occur",
+      "cardSenseEn": "Occur",
       "currentTarget": "nastati",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Bosnisch (de-bs.dict.cc)",
       "resultUrl": "https://de-bs.dict.cc/?s=aufkommen",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-bs",
@@ -341,20 +382,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "sq",
       "deLemma": "aufkommen",
       "level": "a2",
       "cardPos": "verb",
-      "germanMeaning": "aufkommen – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "verb; Occur",
+      "germanMeaning": "Occur",
+      "cardSenseEn": "Occur",
       "currentTarget": "Meydana gelmek",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
       "resultUrl": "https://de-sq.dict.cc/?s=aufkommen",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-sq",
@@ -399,20 +446,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "uk",
       "deLemma": "aufkommen",
       "level": "a2",
       "cardPos": "verb",
-      "germanMeaning": "aufkommen – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "verb; Occur",
+      "germanMeaning": "Occur",
+      "cardSenseEn": "Occur",
       "currentTarget": "відбуваються",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Netzverb verbformen DE–UK",
       "resultUrl": "https://www.verbformen.de/de-uk/?w=aufkommen",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "verbformen-de-uk",
@@ -462,20 +515,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "bs",
       "deLemma": "bewirten",
       "level": "b1",
       "cardPos": "verb",
-      "germanMeaning": "bewirten – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "verb; To host / serve guests",
+      "germanMeaning": "To host / serve guests",
+      "cardSenseEn": "To host / serve guests",
       "currentTarget": "Ugostiti",
-      "targetTranslationDisplay": "Ugostiti",
+      "targetTranslationDisplay": "nahraniti; ugostiti",
       "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
       "resultUrl": "https://www.verbformen.de/de-bs/?w=bewirten",
-      "finalStatus": "TRANSLATION_VALIDATED",
-      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "finalStatus": "FINDING",
+      "finalReason": "case_mismatch_same_lemma",
+      "findingType": "CAPITALIZATION_ERROR",
+      "proposedNew": "ugostiti",
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-bs",
@@ -499,20 +558,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 2
+      "candidateCount": 2,
+      "candidateCountRaw": 2,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "et",
       "deLemma": "bewirten",
       "level": "b1",
       "cardPos": "verb",
-      "germanMeaning": "bewirten – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "verb; To host / serve guests",
+      "germanMeaning": "To host / serve guests",
+      "cardSenseEn": "To host / serve guests",
       "currentTarget": "kostitama",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Glosbe German–Estonian",
       "resultUrl": "https://glosbe.com/de/et/bewirten",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "glosbe-de-et",
@@ -543,20 +608,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "sq",
       "deLemma": "bewirten",
       "level": "b1",
       "cardPos": "verb",
-      "germanMeaning": "bewirten – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "verb; To host / serve guests",
+      "germanMeaning": "To host / serve guests",
+      "cardSenseEn": "To host / serve guests",
       "currentTarget": "Hoşgör",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
       "resultUrl": "https://de-sq.dict.cc/?s=bewirten",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-sq",
@@ -601,20 +672,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "uk",
       "deLemma": "bewirten",
       "level": "b1",
       "cardPos": "verb",
-      "germanMeaning": "bewirten – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "verb; To host / serve guests",
+      "germanMeaning": "To host / serve guests",
+      "cardSenseEn": "To host / serve guests",
       "currentTarget": "терпіти",
-      "targetTranslationDisplay": "гостинність; пригощати",
+      "targetTranslationDisplay": "пригощати",
       "dictionaryName": "Netzverb verbformen DE–UK",
       "resultUrl": "https://www.verbformen.de/de-uk/?w=bewirten",
       "finalStatus": "NEEDS_SOURCE_REVIEW",
-      "finalReason": "MULTIPLE_DICTIONARY_CANDIDATES",
+      "finalReason": "CURRENT_NOT_IN_FILTERED_DICTIONARY_LIST",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "verbformen-de-uk",
@@ -666,20 +743,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 2
+      "candidateCount": 1,
+      "candidateCountRaw": 2,
+      "rejectedStrictCount": 1
     },
     {
       "appLang": "bs",
       "deLemma": "Attacke",
       "level": "b1",
       "cardPos": "noun (die)",
-      "germanMeaning": "Attacke – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Attack",
+      "germanMeaning": "Attack",
+      "cardSenseEn": "Attack",
       "currentTarget": "Napad",
-      "targetTranslationDisplay": "Napad",
+      "targetTranslationDisplay": "napad",
       "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
       "resultUrl": "https://www.verbformen.de/de-bs/?w=Attacke",
-      "finalStatus": "TRANSLATION_VALIDATED",
-      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "finalStatus": "FINDING",
+      "finalReason": "case_mismatch_same_lemma",
+      "findingType": "CAPITALIZATION_ERROR",
+      "proposedNew": "napad",
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-bs",
@@ -703,20 +786,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 1
+      "candidateCount": 1,
+      "candidateCountRaw": 1,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "nn",
       "deLemma": "Attacke",
       "level": "b1",
       "cardPos": "noun (die)",
-      "germanMeaning": "Attacke – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Attack",
+      "germanMeaning": "Attack",
+      "cardSenseEn": "Attack",
       "currentTarget": "Runnak",
-      "targetTranslationDisplay": "anfall; attakk; gå til åtak på; offensiv",
+      "targetTranslationDisplay": "anfall; attakk; offensiv",
       "dictionaryName": "DinOrdbok Tysk–Nynorsk",
       "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Attacke",
       "finalStatus": "NEEDS_SOURCE_REVIEW",
       "finalReason": "MULTIPLE_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dinordbok-nn",
@@ -740,20 +829,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 4
+      "candidateCount": 3,
+      "candidateCountRaw": 4,
+      "rejectedStrictCount": 1
     },
     {
       "appLang": "bs",
       "deLemma": "glotzen",
       "level": "b2",
       "cardPos": "verb",
-      "germanMeaning": "glotzen – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "verb; Stare",
+      "germanMeaning": "Stare",
+      "cardSenseEn": "Stare",
       "currentTarget": "Buljiti",
-      "targetTranslationDisplay": "Buljiti",
+      "targetTranslationDisplay": "buljiti; zabuljiti",
       "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
       "resultUrl": "https://www.verbformen.de/de-bs/?w=glotzen",
-      "finalStatus": "TRANSLATION_VALIDATED",
-      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "finalStatus": "FINDING",
+      "finalReason": "case_mismatch_same_lemma",
+      "findingType": "CAPITALIZATION_ERROR",
+      "proposedNew": "buljiti",
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-bs",
@@ -777,20 +872,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 2
+      "candidateCount": 2,
+      "candidateCountRaw": 2,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "et",
       "deLemma": "glotzen",
       "level": "b2",
       "cardPos": "verb",
-      "germanMeaning": "glotzen – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "verb; Stare",
+      "germanMeaning": "Stare",
+      "cardSenseEn": "Stare",
       "currentTarget": "jõllitama",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Glosbe German–Estonian",
       "resultUrl": "https://glosbe.com/de/et/glotzen",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "glosbe-de-et",
@@ -821,20 +922,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "sq",
       "deLemma": "glotzen",
       "level": "b2",
       "cardPos": "verb",
-      "germanMeaning": "glotzen – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "verb; Stare",
+      "germanMeaning": "Stare",
+      "cardSenseEn": "Stare",
       "currentTarget": "Zez",
-      "targetTranslationDisplay": "shikoj me sy hapur; shikoj televizor; shoh televizor",
+      "targetTranslationDisplay": "—",
       "dictionaryName": "Netzverb / verbformen Deutsch–Albanisch",
       "resultUrl": "https://www.verbformen.de/de-sq/?w=glotzen",
-      "finalStatus": "NEEDS_SOURCE_REVIEW",
-      "finalReason": "MULTIPLE_DICTIONARY_CANDIDATES",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-sq",
@@ -879,20 +986,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 3
+      "candidateCount": 0,
+      "candidateCountRaw": 3,
+      "rejectedStrictCount": 3
     },
     {
       "appLang": "bs",
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Gold vein",
+      "germanMeaning": "Gold vein",
+      "cardSenseEn": "Gold vein",
       "currentTarget": "Zlatna vena",
-      "targetTranslationDisplay": "Zlatna vena",
+      "targetTranslationDisplay": "zlatna žila; zlatna vena",
       "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
       "resultUrl": "https://www.verbformen.de/de-bs/?w=Goldader",
-      "finalStatus": "TRANSLATION_VALIDATED",
-      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "finalStatus": "FINDING",
+      "finalReason": "case_mismatch_same_lemma",
+      "findingType": "CAPITALIZATION_ERROR",
+      "proposedNew": "zlatna vena",
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-bs",
@@ -916,20 +1029,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 3
+      "candidateCount": 2,
+      "candidateCountRaw": 3,
+      "rejectedStrictCount": 1
     },
     {
       "appLang": "et",
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Gold vein",
+      "germanMeaning": "Gold vein",
+      "cardSenseEn": "Gold vein",
       "currentTarget": "kullasoon",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Glosbe German–Estonian",
       "resultUrl": "https://glosbe.com/de/et/Goldader",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "glosbe-de-et",
@@ -960,20 +1079,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "lt",
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Gold vein",
+      "germanMeaning": "Gold vein",
+      "cardSenseEn": "Gold vein",
       "currentTarget": "aukso gysla",
       "targetTranslationDisplay": "—",
       "dictionaryName": "vokieciu-lietuviu.com",
       "resultUrl": "http://www.vokieciu-lietuviu.com/?word=Goldader",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "vokieciu-lietuviu",
@@ -1004,20 +1129,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "nn",
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Gold vein",
+      "germanMeaning": "Gold vein",
+      "cardSenseEn": "Gold vein",
       "currentTarget": "Kullasoon",
       "targetTranslationDisplay": "—",
       "dictionaryName": "DinOrdbok Tysk–Nynorsk",
       "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Goldader",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dinordbok-nn",
@@ -1041,20 +1172,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "sk",
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Gold vein",
+      "germanMeaning": "Gold vein",
+      "cardSenseEn": "Gold vein",
       "currentTarget": "Złota żyła",
-      "targetTranslationDisplay": "zlatá žila; hemoroid",
+      "targetTranslationDisplay": "zlatá žila",
       "dictionaryName": "Netzverb verbformen DE–SK",
       "resultUrl": "https://www.verbformen.de/de-sk/?w=Goldader",
       "finalStatus": "NEEDS_SOURCE_REVIEW",
-      "finalReason": "MULTIPLE_DICTIONARY_CANDIDATES",
+      "finalReason": "CURRENT_NOT_IN_FILTERED_DICTIONARY_LIST",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "verbformen-de-sk",
@@ -1085,20 +1222,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 2
+      "candidateCount": 1,
+      "candidateCountRaw": 2,
+      "rejectedStrictCount": 1
     },
     {
       "appLang": "sq",
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Gold vein",
+      "germanMeaning": "Gold vein",
+      "cardSenseEn": "Gold vein",
       "currentTarget": "Złota żyła",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
       "resultUrl": "https://de-sq.dict.cc/?s=Goldader",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-sq",
@@ -1143,20 +1286,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "uk",
       "deLemma": "Goldader",
       "level": "b2",
       "cardPos": "noun (die)",
-      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Gold vein",
+      "germanMeaning": "Gold vein",
+      "cardSenseEn": "Gold vein",
       "currentTarget": "золота жила",
       "targetTranslationDisplay": "золота жила",
       "dictionaryName": "Netzverb verbformen DE–UK",
       "resultUrl": "https://www.verbformen.de/de-uk/?w=Goldader",
       "finalStatus": "TRANSLATION_VALIDATED",
-      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "finalReason": "CURRENT_EXACT_MATCH_DICTIONARY",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "verbformen-de-uk",
@@ -1166,20 +1315,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 2
+      "candidateCount": 2,
+      "candidateCountRaw": 2,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "bs",
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (der); Border conflict",
+      "germanMeaning": "Border conflict",
+      "cardSenseEn": "Border conflict",
       "currentTarget": "Granični sukob",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Bosnisch (de-bs.dict.cc)",
       "resultUrl": "https://de-bs.dict.cc/?s=Grenzkonflikt",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-bs",
@@ -1217,20 +1372,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "et",
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (der); Border conflict",
+      "germanMeaning": "Border conflict",
+      "cardSenseEn": "Border conflict",
       "currentTarget": "piirikonflikt",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Glosbe German–Estonian",
       "resultUrl": "https://glosbe.com/de/et/Grenzkonflikt",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "glosbe-de-et",
@@ -1261,20 +1422,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "lt",
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (der); Border conflict",
+      "germanMeaning": "Border conflict",
+      "cardSenseEn": "Border conflict",
       "currentTarget": "pasienio konfliktas",
       "targetTranslationDisplay": "—",
       "dictionaryName": "vokieciu-lietuviu.com",
       "resultUrl": "http://www.vokieciu-lietuviu.com/?word=Grenzkonflikt",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "vokieciu-lietuviu",
@@ -1305,20 +1472,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "nn",
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (der); Border conflict",
+      "germanMeaning": "Border conflict",
+      "cardSenseEn": "Border conflict",
       "currentTarget": "Piirikonflikt",
       "targetTranslationDisplay": "—",
       "dictionaryName": "DinOrdbok Tysk–Nynorsk",
       "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Grenzkonflikt",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dinordbok-nn",
@@ -1342,20 +1515,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "sk",
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (der); Border conflict",
+      "germanMeaning": "Border conflict",
+      "cardSenseEn": "Border conflict",
       "currentTarget": "Konflikt graniczny",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Netzverb verbformen DE–SK",
       "resultUrl": "https://www.verbformen.de/de-sk/?w=Grenzkonflikt",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "verbformen-de-sk",
@@ -1386,20 +1565,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "sq",
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (der); Border conflict",
+      "germanMeaning": "Border conflict",
+      "cardSenseEn": "Border conflict",
       "currentTarget": "Konflikt graniczny",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
       "resultUrl": "https://de-sq.dict.cc/?s=Grenzkonflikt",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-sq",
@@ -1444,20 +1629,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "uk",
       "deLemma": "Grenzkonflikt",
       "level": "b2",
       "cardPos": "noun (der)",
-      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (der); Border conflict",
+      "germanMeaning": "Border conflict",
+      "cardSenseEn": "Border conflict",
       "currentTarget": "прикордонний конфлікт",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Netzverb verbformen DE–UK",
       "resultUrl": "https://www.verbformen.de/de-uk/?w=Grenzkonflikt",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "verbformen-de-uk",
@@ -1507,20 +1698,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "et",
       "deLemma": "Machtgier",
       "level": "b2",
       "cardPos": "noun (die)",
-      "germanMeaning": "Machtgier – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Lust for power",
+      "germanMeaning": "Lust for power",
+      "cardSenseEn": "Lust for power",
       "currentTarget": "võimuiha",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Glosbe German–Estonian",
       "resultUrl": "https://glosbe.com/de/et/Machtgier",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "glosbe-de-et",
@@ -1551,20 +1748,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "lt",
       "deLemma": "Machtgier",
       "level": "b2",
       "cardPos": "noun (die)",
-      "germanMeaning": "Machtgier – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Lust for power",
+      "germanMeaning": "Lust for power",
+      "cardSenseEn": "Lust for power",
       "currentTarget": "valdžios geidulys",
       "targetTranslationDisplay": "—",
       "dictionaryName": "vokieciu-lietuviu.com",
       "resultUrl": "http://www.vokieciu-lietuviu.com/?word=Machtgier",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "vokieciu-lietuviu",
@@ -1595,20 +1798,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "nn",
       "deLemma": "Machtgier",
       "level": "b2",
       "cardPos": "noun (die)",
-      "germanMeaning": "Machtgier – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Lust for power",
+      "germanMeaning": "Lust for power",
+      "cardSenseEn": "Lust for power",
       "currentTarget": "Võimuiha",
       "targetTranslationDisplay": "—",
       "dictionaryName": "DinOrdbok Tysk–Nynorsk",
       "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Machtgier",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dinordbok-nn",
@@ -1632,20 +1841,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "sk",
       "deLemma": "Machtgier",
       "level": "b2",
       "cardPos": "noun (die)",
-      "germanMeaning": "Machtgier – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Lust for power",
+      "germanMeaning": "Lust for power",
+      "cardSenseEn": "Lust for power",
       "currentTarget": "Żądza władzy",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Netzverb verbformen DE–SK",
       "resultUrl": "https://www.verbformen.de/de-sk/?w=Machtgier",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "verbformen-de-sk",
@@ -1676,20 +1891,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "sq",
       "deLemma": "Machtgier",
       "level": "b2",
       "cardPos": "noun (die)",
-      "germanMeaning": "Machtgier – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Lust for power",
+      "germanMeaning": "Lust for power",
+      "cardSenseEn": "Lust for power",
       "currentTarget": "Güç arzusu",
       "targetTranslationDisplay": "—",
       "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
       "resultUrl": "https://de-sq.dict.cc/?s=Machtgier",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "dictcc-de-sq",
@@ -1734,20 +1955,26 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     },
     {
       "appLang": "uk",
       "deLemma": "Machtgier",
       "level": "b2",
       "cardPos": "noun (die)",
-      "germanMeaning": "Machtgier – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "cardMeaningLabel": "noun (die); Lust for power",
+      "germanMeaning": "Lust for power",
+      "cardSenseEn": "Lust for power",
       "currentTarget": "жага влади",
       "targetTranslationDisplay": "—",
       "dictionaryName": "Netzverb verbformen DE–UK",
       "resultUrl": "https://www.verbformen.de/de-uk/?w=Machtgier",
       "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "finalReason": "NO_DICTIONARY_CANDIDATES",
+      "findingType": null,
+      "proposedNew": null,
       "sourcesTried": [
         {
           "sourceId": "verbformen-de-uk",
@@ -1797,7 +2024,9 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0
+      "candidateCount": 0,
+      "candidateCountRaw": 0,
+      "rejectedStrictCount": 0
     }
   ]
 }

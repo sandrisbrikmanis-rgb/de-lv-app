@@ -5,15 +5,8 @@ const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 const { SOURCE_ACCESS_OUTCOME } = require("./lib/g2-a1-production-current/official-source-access-constants");
-const {
-  cardPosMatchesLodPos,
-  dictionaryDeSenseAlignsWithCard,
-  isDeLemmaConfirmed,
-  selectProvenDictionaryCandidate,
-  targetLemmaEquals,
-  TRANSLATION_AUDIT_VERDICT,
-} = require("./lib/g2-a1-production-current/card-translation-audit-search");
-const { mapTargetsToCandidates, cardPosToLodTag } = require("./lib/g2-a1-production-current/card-translation-bilingual-collector");
+const { TRANSLATION_AUDIT_VERDICT } = require("./lib/g2-a1-production-current/card-translation-audit-search");
+const { mapTargetsToCandidates } = require("./lib/g2-a1-production-current/card-translation-bilingual-collector");
 const {
   fetchDictionaryPageForCandidate,
   buildSearchUrlForCandidate,
@@ -31,6 +24,12 @@ const {
   fetchVerifyPage,
   extractForPlatform,
 } = require("./run-g2-a1-verify-additional-bilingual-38");
+const {
+  loadCardSenseContext,
+  filterStrictCandidates,
+  resolveStrictBilingualFinalStatus,
+} = require("./lib/g2-a1-production-current/g2-a1-bilingual-validation-strict");
+const { loadG2Level } = require("./lib/content-crowdin-bridge/roundtrip");
 
 const RESCAN6 = JSON.parse(
   fs.readFileSync(
@@ -208,57 +207,18 @@ function buildDeAuthority(row, germanMeaning) {
   };
 }
 
-/**
- * Bilingual-only gala statuss (bez TARGET oficiālā validatora).
- */
-function resolveBilingualFinalStatus(cardGerman, deAuthority, candidates, currentTarget) {
-  if (!isDeLemmaConfirmed(deAuthority)) {
-    return { finalStatus: "NOT_FOUND", reason: "DE_NOT_CONFIRMED", candidates: [] };
-  }
-  if (!candidates.length) {
-    return { finalStatus: "NOT_FOUND", reason: "NO_DICTIONARY_CANDIDATES", candidates: [] };
-  }
+function cardMeaningLabel(cardGerman) {
+  const en = String(cardGerman.cardSenseEn || "").trim();
+  const dw = String(cardGerman.germanMeaning || "").trim();
+  const pos = cardGerman.partOfSpeech || "?";
+  const art = cardGerman.article ? ` (${cardGerman.article})` : "";
+  if (en) return `${pos}${art}; ${en}`;
+  if (dw) return `${pos}${art}; ${dw.slice(0, 100)}`;
+  return `${pos}${art}`;
+}
 
-  let posFiltered = candidates.filter((c) => cardPosMatchesLodPos(cardGerman.partOfSpeech, c.pos));
-  if (!posFiltered.length) {
-    posFiltered = candidates;
-  }
-
-  const senseAligned = [];
-  for (const c of posFiltered) {
-    const sense = dictionaryDeSenseAlignsWithCard(cardGerman, c.deTranslation, deAuthority);
-    if (sense.aligned) senseAligned.push({ ...c, senseAlignment: sense.reason });
-  }
-  const pool = senseAligned.length ? senseAligned : posFiltered;
-
-  const pick = selectProvenDictionaryCandidate(pool, currentTarget);
-  if (pick.status === "none") {
-    return { finalStatus: "NOT_FOUND", reason: "NO_SENSE_ALIGNED", candidates: pool };
-  }
-  if (pick.status === "ambiguous") {
-    return {
-      finalStatus: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
-      reason: pick.blockers?.[0]?.code || "AMBIGUOUS",
-      candidates: pool,
-      pick,
-    };
-  }
-  if (pick.mismatchCurrent) {
-    return {
-      finalStatus: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
-      reason: "CURRENT_NOT_IN_DICTIONARY_LIST",
-      candidates: pool,
-      pick,
-      provenLemma: pick.selected?.targetLemma,
-    };
-  }
-  return {
-    finalStatus: TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED,
-    reason: "CURRENT_MATCHES_DICTIONARY",
-    candidates: pool,
-    pick,
-    provenLemma: pick.selected?.targetLemma,
-  };
+function applyStrictPool(allCandidates, cardGerman, deAuthority, appLang) {
+  return filterStrictCandidates(allCandidates, cardGerman, deAuthority, appLang);
 }
 
 function mergeCandidates(existing, incoming, sourceMeta) {
@@ -279,18 +239,30 @@ function posLabel(row) {
   return `${p}${a}`;
 }
 
+function productionCurrent(appLang, level, lemma) {
+  try {
+    const cards = loadG2Level(appLang, level);
+    const card = cards.find((c) => String(c.de || "").trim() === lemma);
+    return card?.lv != null ? String(card.lv).trim() : null;
+  } catch {
+    return null;
+  }
+}
+
 async function validateRow(fullRow, germanMeaning) {
   const appLang = fullRow.appLang;
   const lemma = fullRow.deLemma;
+  const senseCtx = loadCardSenseContext(fullRow.level, lemma);
   const cardGerman = {
     lemma,
     partOfSpeech: fullRow.partOfSpeech,
-    article: fullRow.article,
-    germanMeaning,
-    deSenseNote: germanMeaning,
+    article: fullRow.article || senseCtx.deArticle,
+    cardSenseEn: senseCtx.senseEn,
+    germanMeaning: senseCtx.senseEn || germanMeaning,
+    deSenseNote: senseCtx.senseEn || germanMeaning,
   };
   const deAuthority = buildDeAuthority(fullRow, germanMeaning);
-  const currentTarget = fullRow.currentTarget;
+  const currentTarget = productionCurrent(appLang, fullRow.level, lemma) ?? fullRow.currentTarget;
   const chain = sourcesForLang(appLang);
 
   let allCandidates = [];
@@ -332,13 +304,22 @@ async function validateRow(fullRow, germanMeaning) {
     if (!translations.length) continue;
 
     allCandidates = mergeCandidates(allCandidates, batch, sourceMeta);
-    const verdict = resolveBilingualFinalStatus(cardGerman, deAuthority, allCandidates, currentTarget);
+    const { filtered } = applyStrictPool(allCandidates, cardGerman, deAuthority, appLang);
+    const verdict = resolveStrictBilingualFinalStatus(cardGerman, deAuthority, filtered, currentTarget);
     if (verdict.finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED) {
       finalStatus = verdict.finalStatus;
       finalReason = verdict.reason;
       winningSource = spec.name;
       winningUrl = resultUrl;
-      winningTranslations = translations;
+      winningTranslations = filtered.map((c) => c.targetLemma);
+      break;
+    }
+    if (verdict.finalStatus === TRANSLATION_AUDIT_VERDICT.FINDING) {
+      finalStatus = verdict.finalStatus;
+      finalReason = verdict.reason;
+      winningSource = spec.name;
+      winningUrl = resultUrl;
+      winningTranslations = filtered.map((c) => c.targetLemma);
       break;
     }
     if (verdict.finalStatus === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW) {
@@ -346,28 +327,56 @@ async function validateRow(fullRow, germanMeaning) {
       finalReason = verdict.reason;
       winningSource = spec.name;
       winningUrl = resultUrl;
-      winningTranslations = translations;
-      /* turpinām — varbūt cits avots dod TV */
+      winningTranslations = filtered.map((c) => c.targetLemma);
     }
   }
 
-  if (finalStatus === "NOT_FOUND" && allCandidates.length) {
-    const verdict = resolveBilingualFinalStatus(cardGerman, deAuthority, allCandidates, currentTarget);
+  let filteredFinal = applyStrictPool(allCandidates, cardGerman, deAuthority, appLang);
+  let findingType = null;
+  let proposedNew = null;
+
+  if (finalStatus === "NOT_FOUND" || finalStatus === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW) {
+    const verdict = resolveStrictBilingualFinalStatus(
+      cardGerman,
+      deAuthority,
+      filteredFinal.filtered,
+      currentTarget,
+    );
     finalStatus = verdict.finalStatus;
     finalReason = verdict.reason;
+    findingType = verdict.findingType || null;
+    proposedNew = verdict.proposedNew || null;
     if (!winningSource && attempts.find((a) => a.ok)) {
       const hit = attempts.find((a) => a.ok);
       winningSource = chain.find((s) => s.id === hit.sourceId)?.name || null;
       winningUrl = hit.resultUrl;
     }
-    winningTranslations = allCandidates.map((c) => c.targetLemma);
+  } else if (finalStatus === TRANSLATION_AUDIT_VERDICT.FINDING) {
+    const verdict = resolveStrictBilingualFinalStatus(
+      cardGerman,
+      deAuthority,
+      filteredFinal.filtered,
+      currentTarget,
+    );
+    findingType = verdict.findingType;
+    proposedNew = verdict.proposedNew;
+  } else if (finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED) {
+    const verdict = resolveStrictBilingualFinalStatus(
+      cardGerman,
+      deAuthority,
+      filteredFinal.filtered,
+      currentTarget,
+    );
+    findingType = verdict.findingType;
+    proposedNew = verdict.proposedNew;
   }
 
+  const pool = filteredFinal.filtered;
   const displayTarget =
     finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED
       ? stripQuotes(currentTarget)
-      : allCandidates.length
-        ? [...new Set(allCandidates.map((c) => c.targetLemma))].slice(0, 6).join("; ")
+      : pool.length
+        ? [...new Set(pool.map((c) => c.targetLemma))].slice(0, 6).join("; ")
         : "—";
 
   return {
@@ -375,15 +384,21 @@ async function validateRow(fullRow, germanMeaning) {
     deLemma: lemma,
     level: fullRow.level,
     cardPos: posLabel(fullRow),
-    germanMeaning: germanMeaning || "—",
+    cardMeaningLabel: cardMeaningLabel(cardGerman),
+    germanMeaning: cardGerman.germanMeaning || germanMeaning || "—",
+    cardSenseEn: cardGerman.cardSenseEn || "",
     currentTarget: stripQuotes(currentTarget),
     targetTranslationDisplay: displayTarget,
     dictionaryName: winningSource || (attempts.length ? chain[0]?.name : null),
     resultUrl: winningUrl || attempts.find((a) => a.resultUrl)?.resultUrl || null,
     finalStatus,
     finalReason,
+    findingType,
+    proposedNew,
     sourcesTried: attempts,
-    candidateCount: allCandidates.length,
+    candidateCount: pool.length,
+    candidateCountRaw: allCandidates.length,
+    rejectedStrictCount: filteredFinal.rejected.length,
   };
 }
 
@@ -415,18 +430,20 @@ async function main() {
   }
 
   const tv = results.filter((r) => r.finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED);
+  const finding = results.filter((r) => r.finalStatus === TRANSLATION_AUDIT_VERDICT.FINDING);
   const nsr = results.filter((r) => r.finalStatus === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW);
   const nf = results.filter((r) => r.finalStatus === "NOT_FOUND");
 
   const payload = {
-    schemaVersion: "g2-a1-complete-bilingual-validation-38-v1",
+    schemaVersion: "g2-a1-complete-bilingual-validation-38-v2",
     generatedAt: new Date().toISOString(),
     rowCount: results.length,
     translationValidatedCount: tv.length,
+    findingCount: finding.length,
     needsSourceReviewCount: nsr.length,
     notFoundCount: nf.length,
     policy:
-      "Dictionary-section extract only; POS + DE sense + CURRENT alignment; no TARGET official gate; no invented translations",
+      "Dictionary-section extract; card EN sense + POS; strict lemma filter; MASTER capitalization FINDING; no invented translations",
     results,
   };
 
@@ -437,18 +454,18 @@ async function main() {
     "",
     `Ģenerēts: ${payload.generatedAt}`,
     "",
-    `**TRANSLATION_VALIDATED:** ${tv.length}/38 | **NEEDS_SOURCE_REVIEW:** ${nsr.length}/38 | **NOT_FOUND:** ${nf.length}/38`,
+    `**TRANSLATION_VALIDATED:** ${tv.length}/38 | **FINDING:** ${finding.length}/38 | **NEEDS_SOURCE_REVIEW:** ${nsr.length}/38 | **NOT_FOUND:** ${nf.length}/38`,
     "",
-    "| Valoda | DE vārds | Kartītes nozīme/POS | TARGET tulkojums | Vārdnīca | Precīzs ieraksta URL | Gala statuss |",
-    "|--------|----------|---------------------|------------------|----------|----------------------|--------------|",
+    "| Valoda | DE vārds | Kartītes nozīme/POS | TARGET tulkojums | Vārdnīca | Precīzs ieraksta URL | Gala statuss | FINDING | PROPOSED_NEW |",
+    "|--------|----------|---------------------|------------------|----------|----------------------|--------------|---------|--------------|",
   ];
 
   for (const r of results) {
-    const meaning = (r.germanMeaning || "—").replace(/\|/g, "/").slice(0, 80);
-    const pos = r.cardPos || "—";
-    const col = `${pos}; ${meaning}`;
+    const col = (r.cardMeaningLabel || r.cardPos || "—").replace(/\|/g, "/").slice(0, 100);
+    const findingCol = r.findingType || "—";
+    const proposedCol = r.proposedNew || "—";
     md.push(
-      `| ${r.appLang} | ${r.deLemma} | ${col} | ${r.targetTranslationDisplay} | ${r.dictionaryName || "—"} | ${r.resultUrl || "—"} | ${r.finalStatus} |`,
+      `| ${r.appLang} | ${r.deLemma} | ${col} | ${r.targetTranslationDisplay} | ${r.dictionaryName || "—"} | ${r.resultUrl || "—"} | ${r.finalStatus} | ${findingCol} | ${proposedCol} |`,
     );
   }
 
@@ -457,6 +474,7 @@ async function main() {
     JSON.stringify(
       {
         TRANSLATION_VALIDATED: tv.length,
+        FINDING: finding.length,
         NEEDS_SOURCE_REVIEW: nsr.length,
         NOT_FOUND: nf.length,
         out: OUT_JSON,
