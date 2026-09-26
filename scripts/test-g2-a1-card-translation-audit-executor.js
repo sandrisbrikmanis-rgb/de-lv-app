@@ -11,7 +11,10 @@ const {
   mapTranslationVerdictToAuditVerdict,
 } = require("./lib/g2-a1-production-current/card-translation-audit-executor");
 const { buildCardGermanFromFieldRequest } = require("./lib/g2-a1-production-current/card-german-from-field-request");
-const { assertTargetedFieldCardTranslationBatchAllowed } = require("./lib/g2-a1-production-current/card-translation-audit-policy");
+const {
+  assertTargetedFieldCardTranslationBatchAllowed,
+  isFullCardTranslationBatchReady,
+} = require("./lib/g2-a1-production-current/card-translation-audit-policy");
 const { buildTargetedFieldRequest } = require("./lib/g2-a1-production-current/targeted-field-payload");
 const { SOURCE_ACCESS_OUTCOME } = require("./lib/g2-a1-production-current/official-source-access-constants");
 
@@ -117,8 +120,13 @@ async function main() {
     blockers.push({ code: "MUST_NOT_INVENT_GERMAN_MEANING" });
   }
 
-  if (assertTargetedFieldCardTranslationBatchAllowed({ executeLuna: true, pilotOnly: false }).pass) {
-    blockers.push({ code: "FULL_BATCH_SHOULD_BE_BLOCKED" });
+  const fullBatchGate = assertTargetedFieldCardTranslationBatchAllowed({ executeLuna: true, pilotOnly: false });
+  const batchReady = isFullCardTranslationBatchReady();
+  if (batchReady && !fullBatchGate.pass) {
+    blockers.push({ code: "FULL_BATCH_SHOULD_BE_ALLOWED_WHEN_32_OF_32_READY" });
+  }
+  if (!batchReady && fullBatchGate.pass) {
+    blockers.push({ code: "FULL_BATCH_SHOULD_BE_BLOCKED_UNTIL_32_OF_32_READY" });
   }
   if (!assertTargetedFieldCardTranslationBatchAllowed({ executeLuna: true, pilotOnly: true }).pass) {
     blockers.push({ code: "PILOT_BATCH_SHOULD_BE_ALLOWED" });

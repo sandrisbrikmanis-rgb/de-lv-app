@@ -2,98 +2,121 @@
 "use strict";
 
 /**
- * Kartes tulkošanas audita gatavība pa valodām (DE→TARGET kolektors + oficiālā TARGET validācija).
- *
- * Nākamais lielais darbs: tāda pati loģika kā lb (LOD) pārējām 31 valodai.
- * Kamēr readyCount < 32 — pilnu targeted-field-level Luna batch nedrīkst atvērt.
+ * Kartes tulkošanas gatavība — balstīta uz verify-g2-a1-card-translation-32lang-full.js artefaktu.
+ * Valodu nedrīkst atzīmēt FULL ar manuālu karogu.
  */
 
+const fs = require("fs");
+const path = require("path");
+const { ROOT } = require("../audit-common");
 const { EXPECTED_APP_LANGUAGES } = require("./constants");
 const { listAllTargetAppLanguages } = require("./source-adapters/target");
+const { selectedDictionaryCandidateForLang } = require("./card-translation-catalog-collector");
+const { getTargetAdapterMeta } = require("./source-adapters/target");
 
 const COLLECTOR_STAGE = Object.freeze({
-  /** Nav DE→TARGET kartes audita kolektora */
   NOT_IMPLEMENTED: "NOT_IMPLEMENTED",
-  /** Tikai vārdnīcas pieejamības piloti (FOUND) — nav TRANSLATION_VALIDATED */
   DICTIONARY_FOUND_PILOT_ONLY: "DICTIONARY_FOUND_PILOT_ONLY",
-  /** Pilns DE→TARGET kandidātu vākums + salīdzinājums ar CURRENT (kā lb) */
   FULL_DE_TO_TARGET_COLLECTOR: "FULL_DE_TO_TARGET_COLLECTOR",
 });
 
-/** Vienīgā valoda ar pilnu kartes tulkošanas ceļu šajā repo versijā. */
-const FULL_CARD_TRANSLATION_LANGUAGES = Object.freeze(["lb"]);
+const VERIFICATION_JSON = path.join(
+  ROOT,
+  "reports/g2-a1-production-current/card-translation-32lang-readiness/card-translation-32lang-full-verification.json",
+);
 
-/**
- * Manuāli uzturēts statuss — papildināt, kad valodai pievieno kolektoru + TARGET oficiālo validāciju.
- * @type {Record<string, { deToTargetCollector: string, targetOfficialValidation: boolean, note?: string, collectorRef?: string }>}
- */
-const LANGUAGE_READINESS_OVERRIDES = Object.freeze({
-  lb: {
-    deToTargetCollector: COLLECTOR_STAGE.FULL_DE_TO_TARGET_COLLECTOR,
-    targetOfficialValidation: true,
-    collectorRef: "lod-card-translation-audit.js + lookupLodOfficialLbEntry",
-    note: "DE: DWDS/Duden; TARGET: LOD lb/search",
-  },
-  mk: {
-    deToTargetCollector: COLLECTOR_STAGE.DICTIONARY_FOUND_PILOT_ONLY,
-    targetOfficialValidation: false,
-    note: "verbformen DE→mk FOUND pilot only",
-  },
-  nn: {
-    deToTargetCollector: COLLECTOR_STAGE.DICTIONARY_FOUND_PILOT_ONLY,
-    targetOfficialValidation: false,
-    note: "Langenscheidt DE→nn FOUND pilot only",
-  },
-});
+function loadVerificationSnapshot() {
+  if (!fs.existsSync(VERIFICATION_JSON)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(VERIFICATION_JSON, "utf8"));
+  } catch {
+    return null;
+  }
+}
 
-function defaultLangRow(appLang) {
+function isLanguageCardTranslationReady(row) {
+  return Boolean(row.cardTranslationReady);
+}
+
+function staticMeta(appLang) {
+  if (appLang === "lb") {
+    return {
+      collectorId: "lb-lod-de-reverse-api",
+      bilingualSourceUrl: "https://lod.lu/api/de/search",
+      targetValidatorAdapterId: "lb-lod-official-lb-search",
+    };
+  }
+  const m = selectedDictionaryCandidateForLang(appLang);
+  const t = getTargetAdapterMeta(appLang);
+  return {
+    collectorId: m?.id || null,
+    bilingualSourceUrl: m?.url || null,
+    targetValidatorAdapterId: t?.id || null,
+  };
+}
+
+function buildRowFromVerification(appLang, verifiedLang) {
+  const col = verifiedLang?.collector || staticMeta(appLang);
+  const tgt = verifiedLang?.targetValidator || { adapterId: staticMeta(appLang).targetValidatorAdapterId };
+  const ready = Boolean(verifiedLang?.cardTranslationReady);
+  return {
+    appLang,
+    deToTargetCollector: ready
+      ? COLLECTOR_STAGE.FULL_DE_TO_TARGET_COLLECTOR
+      : COLLECTOR_STAGE.NOT_IMPLEMENTED,
+    targetOfficialValidation: Boolean(verifiedLang?.targetOfficialValidation),
+    cardTranslationReady: ready,
+    collectorId: col.collectorId,
+    bilingualSourceUrl: col.bilingualSourceUrl,
+    targetValidatorAdapterId: tgt.adapterId,
+    targetAuthorityUrl: tgt.masterSourceUrl,
+    blockers: verifiedLang?.blockers || [{ code: "NOT_VERIFIED_RUN_FULL_VERIFY" }],
+    productionPilot: verifiedLang?.productionPilot || null,
+  };
+}
+
+function defaultNotVerifiedRow(appLang) {
+  const meta = staticMeta(appLang);
   return {
     appLang,
     deToTargetCollector: COLLECTOR_STAGE.NOT_IMPLEMENTED,
     targetOfficialValidation: false,
     cardTranslationReady: false,
-    note: "Awaiting DE→TARGET collector + TARGET official validation (same contract as lb)",
+    collectorId: meta.collectorId,
+    bilingualSourceUrl: meta.bilingualSourceUrl,
+    targetValidatorAdapterId: meta.targetValidatorAdapterId,
+    blockers: [{ code: "RUN_verify-g2-a1-card-translation-32lang-full" }],
   };
-}
-
-function isLanguageCardTranslationReady(row) {
-  return (
-    row.deToTargetCollector === COLLECTOR_STAGE.FULL_DE_TO_TARGET_COLLECTOR &&
-    row.targetOfficialValidation === true
-  );
 }
 
 function getCardTranslation32LangReadiness() {
   const appLangs = listAllTargetAppLanguages().sort();
+  const snap = loadVerificationSnapshot();
+  const byLang = new Map((snap?.languages || []).map((r) => [r.appLang, r]));
+
   const languages = appLangs.map((appLang) => {
-    const override = LANGUAGE_READINESS_OVERRIDES[appLang];
-    const base = defaultLangRow(appLang);
-    if (override) {
-      base.deToTargetCollector = override.deToTargetCollector;
-      base.targetOfficialValidation = Boolean(override.targetOfficialValidation);
-      base.note = override.note || base.note;
-      base.collectorRef = override.collectorRef || null;
-    }
-    base.cardTranslationReady = isLanguageCardTranslationReady(base);
-    return base;
+    const v = byLang.get(appLang);
+    if (v) return buildRowFromVerification(appLang, v);
+    return defaultNotVerifiedRow(appLang);
   });
 
   const ready = languages.filter((l) => l.cardTranslationReady);
   const notReady = languages.filter((l) => !l.cardTranslationReady);
-  const expectedCount = EXPECTED_APP_LANGUAGES;
 
   return {
-    schemaVersion: "g2-a1-card-translation-32lang-readiness-v1",
-    expectedCount,
+    schemaVersion: "g2-a1-card-translation-32lang-readiness-v2",
+    expectedCount: EXPECTED_APP_LANGUAGES,
     registryLanguageCount: appLangs.length,
     readyCount: ready.length,
-    remainingCount: expectedCount - ready.length,
-    fullCardTranslationBatchReady: ready.length === expectedCount && appLangs.length === expectedCount,
+    remainingCount: EXPECTED_APP_LANGUAGES - ready.length,
+    fullCardTranslationBatchReady:
+      snap?.fullCardTranslationBatchReady === true && ready.length === EXPECTED_APP_LANGUAGES,
     readyLanguages: ready.map((l) => l.appLang),
     notReadyLanguages: notReady.map((l) => l.appLang),
     languages,
-    nextWork:
-      "Implement FULL_DE_TO_TARGET_COLLECTOR + targetOfficialValidation for each notReady language (31 remaining after lb). Do not remove batch blocker until fullCardTranslationBatchReady is true.",
+    verificationArtifact: fs.existsSync(VERIFICATION_JSON) ? VERIFICATION_JSON : null,
+    classification: snap?.classification || "CARD_TRANSLATION_READINESS_IN_PROGRESS",
+    nextAction: snap?.nextAction || "CONTINUE_DE_TO_TARGET_COLLECTORS_AND_TARGET_VALIDATORS_PER_LANGUAGE",
   };
 }
 
@@ -103,9 +126,9 @@ function isFullCardTranslationBatchReady() {
 
 module.exports = {
   COLLECTOR_STAGE,
-  FULL_CARD_TRANSLATION_LANGUAGES,
-  LANGUAGE_READINESS_OVERRIDES,
   getCardTranslation32LangReadiness,
   isLanguageCardTranslationReady,
   isFullCardTranslationBatchReady,
+  loadVerificationSnapshot,
+  VERIFICATION_JSON,
 };
