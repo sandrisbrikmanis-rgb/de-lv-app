@@ -1,0 +1,1803 @@
+{
+  "schemaVersion": "g2-a1-complete-bilingual-validation-38-v1",
+  "generatedAt": "2026-09-26T09:22:02.570Z",
+  "rowCount": 38,
+  "translationValidatedCount": 7,
+  "needsSourceReviewCount": 7,
+  "notFoundCount": 24,
+  "policy": "Dictionary-section extract only; POS + DE sense + CURRENT alignment; no TARGET official gate; no invented translations",
+  "results": [
+    {
+      "appLang": "sq",
+      "deLemma": "Besucher",
+      "level": "a1",
+      "cardPos": "noun (der)",
+      "germanMeaning": "Besucher – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Vizitor",
+      "targetTranslationDisplay": "Vizitor",
+      "dictionaryName": "Netzverb / verbformen Deutsch–Albanisch",
+      "resultUrl": "https://www.verbformen.de/de-sq/?w=Besucher",
+      "finalStatus": "TRANSLATION_VALIDATED",
+      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-sq.dict.cc/?s=Besucher",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-desq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://desq.dict.cc/?s=Besucher",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-sq",
+          "ok": true,
+          "extractedCount": 3,
+          "resultUrl": "https://www.verbformen.de/de-sq/?w=Besucher",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 3
+    },
+    {
+      "appLang": "bs",
+      "deLemma": "stinken",
+      "level": "a2",
+      "cardPos": "verb",
+      "germanMeaning": "stinken – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "smrdjeti",
+      "targetTranslationDisplay": "smrdjeti",
+      "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
+      "resultUrl": "https://www.verbformen.de/de-bs/?w=stinken",
+      "finalStatus": "TRANSLATION_VALIDATED",
+      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-bs.dict.cc/?s=stinken",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-bsde",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://bsde.dict.cc/?s=stinken",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-bs",
+          "ok": true,
+          "extractedCount": 4,
+          "resultUrl": "https://www.verbformen.de/de-bs/?w=stinken",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 4
+    },
+    {
+      "appLang": "sq",
+      "deLemma": "stinken",
+      "level": "a2",
+      "cardPos": "verb",
+      "germanMeaning": "stinken – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Koku",
+      "targetTranslationDisplay": "kundërmoj; duket; urre",
+      "dictionaryName": "Netzverb / verbformen Deutsch–Albanisch",
+      "resultUrl": "https://www.verbformen.de/de-sq/?w=stinken",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "MULTIPLE_DICTIONARY_CANDIDATES",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-sq.dict.cc/?s=stinken",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-desq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://desq.dict.cc/?s=stinken",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-sq",
+          "ok": true,
+          "extractedCount": 3,
+          "resultUrl": "https://www.verbformen.de/de-sq/?w=stinken",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "dicts-info-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian&word=stinken",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/sq/stinken",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 3
+    },
+    {
+      "appLang": "bs",
+      "deLemma": "Kleingeld",
+      "level": "a2",
+      "cardPos": "noun (das)",
+      "germanMeaning": "Kleingeld – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "sitni novac",
+      "targetTranslationDisplay": "kovanice; sitniš",
+      "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
+      "resultUrl": "https://www.verbformen.de/de-bs/?w=Kleingeld",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "MULTIPLE_DICTIONARY_CANDIDATES",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-bs.dict.cc/?s=Kleingeld",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-bsde",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://bsde.dict.cc/?s=Kleingeld",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-bs",
+          "ok": true,
+          "extractedCount": 2,
+          "resultUrl": "https://www.verbformen.de/de-bs/?w=Kleingeld",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/bs/Kleingeld",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 2
+    },
+    {
+      "appLang": "et",
+      "deLemma": "Kleingeld",
+      "level": "a2",
+      "cardPos": "noun (das)",
+      "germanMeaning": "Kleingeld – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "peenraha",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "Glosbe German–Estonian",
+      "resultUrl": "https://glosbe.com/de/et/Kleingeld",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "glosbe-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/et/Kleingeld",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "verbformen-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-et/?w=Kleingeld",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "langenscheidt-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "keelevara-sub",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://keelevara.ee/et/search?query=Kleingeld",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "sq",
+      "deLemma": "Kleingeld",
+      "level": "a2",
+      "cardPos": "noun (das)",
+      "germanMeaning": "Kleingeld – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Elde Taşınabilir Nakit",
+      "targetTranslationDisplay": "monedha të vogla",
+      "dictionaryName": "Netzverb / verbformen Deutsch–Albanisch",
+      "resultUrl": "https://www.verbformen.de/de-sq/?w=Kleingeld",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "CURRENT_NOT_IN_DICTIONARY_LIST",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-sq.dict.cc/?s=Kleingeld",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-desq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://desq.dict.cc/?s=Kleingeld",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-sq",
+          "ok": true,
+          "extractedCount": 1,
+          "resultUrl": "https://www.verbformen.de/de-sq/?w=Kleingeld",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "dicts-info-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian&word=Kleingeld",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/sq/Kleingeld",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 1
+    },
+    {
+      "appLang": "bs",
+      "deLemma": "aufkommen",
+      "level": "a2",
+      "cardPos": "verb",
+      "germanMeaning": "aufkommen – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "nastati",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "dict.cc Deutsch–Bosnisch (de-bs.dict.cc)",
+      "resultUrl": "https://de-bs.dict.cc/?s=aufkommen",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-bs.dict.cc/?s=aufkommen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-bsde",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://bsde.dict.cc/?s=aufkommen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-bs/?w=aufkommen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "glosbe-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/bs/aufkommen",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "sq",
+      "deLemma": "aufkommen",
+      "level": "a2",
+      "cardPos": "verb",
+      "germanMeaning": "aufkommen – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Meydana gelmek",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
+      "resultUrl": "https://de-sq.dict.cc/?s=aufkommen",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-sq.dict.cc/?s=aufkommen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-desq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://desq.dict.cc/?s=aufkommen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-sq/?w=aufkommen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dicts-info-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian&word=aufkommen",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/sq/aufkommen",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "uk",
+      "deLemma": "aufkommen",
+      "level": "a2",
+      "cardPos": "verb",
+      "germanMeaning": "aufkommen – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "відбуваються",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "Netzverb verbformen DE–UK",
+      "resultUrl": "https://www.verbformen.de/de-uk/?w=aufkommen",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "verbformen-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-uk/?w=aufkommen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-uk.dict.cc/?s=aufkommen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-deuk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://deuk.dict.cc/?s=aufkommen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "udew-leipzig",
+          "ok": false,
+          "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://udew.uni-leipzig.de/udew/en/"
+        },
+        {
+          "sourceId": "langenscheidt-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/uk/aufkommen",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "multitran-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.multitran.com/m.exe?l1=3&l2=28&s=aufkommen",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "bs",
+      "deLemma": "bewirten",
+      "level": "b1",
+      "cardPos": "verb",
+      "germanMeaning": "bewirten – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Ugostiti",
+      "targetTranslationDisplay": "Ugostiti",
+      "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
+      "resultUrl": "https://www.verbformen.de/de-bs/?w=bewirten",
+      "finalStatus": "TRANSLATION_VALIDATED",
+      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-bs.dict.cc/?s=bewirten",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-bsde",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://bsde.dict.cc/?s=bewirten",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-bs",
+          "ok": true,
+          "extractedCount": 2,
+          "resultUrl": "https://www.verbformen.de/de-bs/?w=bewirten",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 2
+    },
+    {
+      "appLang": "et",
+      "deLemma": "bewirten",
+      "level": "b1",
+      "cardPos": "verb",
+      "germanMeaning": "bewirten – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "kostitama",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "Glosbe German–Estonian",
+      "resultUrl": "https://glosbe.com/de/et/bewirten",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "glosbe-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/et/bewirten",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "verbformen-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-et/?w=bewirten",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "langenscheidt-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "keelevara-sub",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://keelevara.ee/et/search?query=bewirten",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "sq",
+      "deLemma": "bewirten",
+      "level": "b1",
+      "cardPos": "verb",
+      "germanMeaning": "bewirten – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Hoşgör",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
+      "resultUrl": "https://de-sq.dict.cc/?s=bewirten",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-sq.dict.cc/?s=bewirten",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-desq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://desq.dict.cc/?s=bewirten",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-sq/?w=bewirten",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dicts-info-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian&word=bewirten",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/sq/bewirten",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "uk",
+      "deLemma": "bewirten",
+      "level": "b1",
+      "cardPos": "verb",
+      "germanMeaning": "bewirten – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "терпіти",
+      "targetTranslationDisplay": "гостинність; пригощати",
+      "dictionaryName": "Netzverb verbformen DE–UK",
+      "resultUrl": "https://www.verbformen.de/de-uk/?w=bewirten",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "MULTIPLE_DICTIONARY_CANDIDATES",
+      "sourcesTried": [
+        {
+          "sourceId": "verbformen-de-uk",
+          "ok": true,
+          "extractedCount": 2,
+          "resultUrl": "https://www.verbformen.de/de-uk/?w=bewirten",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "dictcc-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-uk.dict.cc/?s=bewirten",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-deuk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://deuk.dict.cc/?s=bewirten",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "udew-leipzig",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://udew.uni-leipzig.de/udew/en/deutsch_ukrainisch_online.htm?input=bewirten",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/uk/bewirten",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "multitran-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.multitran.com/m.exe?l1=3&l2=28&s=bewirten",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 2
+    },
+    {
+      "appLang": "bs",
+      "deLemma": "Attacke",
+      "level": "b1",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Attacke – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Napad",
+      "targetTranslationDisplay": "Napad",
+      "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
+      "resultUrl": "https://www.verbformen.de/de-bs/?w=Attacke",
+      "finalStatus": "TRANSLATION_VALIDATED",
+      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-bs.dict.cc/?s=Attacke",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-bsde",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://bsde.dict.cc/?s=Attacke",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-bs",
+          "ok": true,
+          "extractedCount": 1,
+          "resultUrl": "https://www.verbformen.de/de-bs/?w=Attacke",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 1
+    },
+    {
+      "appLang": "nn",
+      "deLemma": "Attacke",
+      "level": "b1",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Attacke – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Runnak",
+      "targetTranslationDisplay": "anfall; attakk; gå til åtak på; offensiv",
+      "dictionaryName": "DinOrdbok Tysk–Nynorsk",
+      "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Attacke",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "MULTIPLE_DICTIONARY_CANDIDATES",
+      "sourcesTried": [
+        {
+          "sourceId": "dinordbok-nn",
+          "ok": true,
+          "extractedCount": 4,
+          "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Attacke",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-nn",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/german-norwegian/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-nn",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/nn/Attacke",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 4
+    },
+    {
+      "appLang": "bs",
+      "deLemma": "glotzen",
+      "level": "b2",
+      "cardPos": "verb",
+      "germanMeaning": "glotzen – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Buljiti",
+      "targetTranslationDisplay": "Buljiti",
+      "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
+      "resultUrl": "https://www.verbformen.de/de-bs/?w=glotzen",
+      "finalStatus": "TRANSLATION_VALIDATED",
+      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-bs.dict.cc/?s=glotzen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-bsde",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://bsde.dict.cc/?s=glotzen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-bs",
+          "ok": true,
+          "extractedCount": 2,
+          "resultUrl": "https://www.verbformen.de/de-bs/?w=glotzen",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 2
+    },
+    {
+      "appLang": "et",
+      "deLemma": "glotzen",
+      "level": "b2",
+      "cardPos": "verb",
+      "germanMeaning": "glotzen – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "jõllitama",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "Glosbe German–Estonian",
+      "resultUrl": "https://glosbe.com/de/et/glotzen",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "glosbe-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/et/glotzen",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "verbformen-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-et/?w=glotzen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "langenscheidt-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "keelevara-sub",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://keelevara.ee/et/search?query=glotzen",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "sq",
+      "deLemma": "glotzen",
+      "level": "b2",
+      "cardPos": "verb",
+      "germanMeaning": "glotzen – Schreibung, Definition, Bedeutung, Etymologie, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Zez",
+      "targetTranslationDisplay": "shikoj me sy hapur; shikoj televizor; shoh televizor",
+      "dictionaryName": "Netzverb / verbformen Deutsch–Albanisch",
+      "resultUrl": "https://www.verbformen.de/de-sq/?w=glotzen",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "MULTIPLE_DICTIONARY_CANDIDATES",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-sq.dict.cc/?s=glotzen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-desq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://desq.dict.cc/?s=glotzen",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-sq",
+          "ok": true,
+          "extractedCount": 3,
+          "resultUrl": "https://www.verbformen.de/de-sq/?w=glotzen",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "dicts-info-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian&word=glotzen",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/sq/glotzen",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 3
+    },
+    {
+      "appLang": "bs",
+      "deLemma": "Goldader",
+      "level": "b2",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Zlatna vena",
+      "targetTranslationDisplay": "Zlatna vena",
+      "dictionaryName": "Netzverb / verbformen Deutsch–Bosnisch",
+      "resultUrl": "https://www.verbformen.de/de-bs/?w=Goldader",
+      "finalStatus": "TRANSLATION_VALIDATED",
+      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-bs.dict.cc/?s=Goldader",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-bsde",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://bsde.dict.cc/?s=Goldader",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-bs",
+          "ok": true,
+          "extractedCount": 3,
+          "resultUrl": "https://www.verbformen.de/de-bs/?w=Goldader",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 3
+    },
+    {
+      "appLang": "et",
+      "deLemma": "Goldader",
+      "level": "b2",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "kullasoon",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "Glosbe German–Estonian",
+      "resultUrl": "https://glosbe.com/de/et/Goldader",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "glosbe-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/et/Goldader",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "verbformen-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-et/?w=Goldader",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "langenscheidt-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "keelevara-sub",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://keelevara.ee/et/search?query=Goldader",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "lt",
+      "deLemma": "Goldader",
+      "level": "b2",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "aukso gysla",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "vokieciu-lietuviu.com",
+      "resultUrl": "http://www.vokieciu-lietuviu.com/?word=Goldader",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "vokieciu-lietuviu",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "http://www.vokieciu-lietuviu.com/?word=Goldader",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "lietuviu-vokieciu",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "http://www.lietuviu-vokieciu.com/?word=Goldader",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-lt",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/lt/Goldader",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-lt",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/lt/Goldader",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "nn",
+      "deLemma": "Goldader",
+      "level": "b2",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Kullasoon",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "DinOrdbok Tysk–Nynorsk",
+      "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Goldader",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "dinordbok-nn",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Goldader",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-nn",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/german-norwegian/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-nn",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/nn/Goldader",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "sk",
+      "deLemma": "Goldader",
+      "level": "b2",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Złota żyła",
+      "targetTranslationDisplay": "zlatá žila; hemoroid",
+      "dictionaryName": "Netzverb verbformen DE–SK",
+      "resultUrl": "https://www.verbformen.de/de-sk/?w=Goldader",
+      "finalStatus": "NEEDS_SOURCE_REVIEW",
+      "finalReason": "MULTIPLE_DICTIONARY_CANDIDATES",
+      "sourcesTried": [
+        {
+          "sourceId": "verbformen-de-sk",
+          "ok": true,
+          "extractedCount": 2,
+          "resultUrl": "https://www.verbformen.de/de-sk/?w=Goldader",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "dictcc-de-sk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-sk.dict.cc/?s=Goldader",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-desk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://desk.dict.cc/?s=Goldader",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "glosbe-de-sk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/sk/Goldader",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 2
+    },
+    {
+      "appLang": "sq",
+      "deLemma": "Goldader",
+      "level": "b2",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Złota żyła",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
+      "resultUrl": "https://de-sq.dict.cc/?s=Goldader",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-sq.dict.cc/?s=Goldader",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-desq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://desq.dict.cc/?s=Goldader",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-sq/?w=Goldader",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dicts-info-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian&word=Goldader",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/sq/Goldader",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "uk",
+      "deLemma": "Goldader",
+      "level": "b2",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Goldader – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "золота жила",
+      "targetTranslationDisplay": "золота жила",
+      "dictionaryName": "Netzverb verbformen DE–UK",
+      "resultUrl": "https://www.verbformen.de/de-uk/?w=Goldader",
+      "finalStatus": "TRANSLATION_VALIDATED",
+      "finalReason": "CURRENT_MATCHES_DICTIONARY",
+      "sourcesTried": [
+        {
+          "sourceId": "verbformen-de-uk",
+          "ok": true,
+          "extractedCount": 2,
+          "resultUrl": "https://www.verbformen.de/de-uk/?w=Goldader",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 2
+    },
+    {
+      "appLang": "bs",
+      "deLemma": "Grenzkonflikt",
+      "level": "b2",
+      "cardPos": "noun (der)",
+      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "currentTarget": "Granični sukob",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "dict.cc Deutsch–Bosnisch (de-bs.dict.cc)",
+      "resultUrl": "https://de-bs.dict.cc/?s=Grenzkonflikt",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-bs.dict.cc/?s=Grenzkonflikt",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-bsde",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://bsde.dict.cc/?s=Grenzkonflikt",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-bs/?w=Grenzkonflikt",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "glosbe-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/bs/Grenzkonflikt",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-bs",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "et",
+      "deLemma": "Grenzkonflikt",
+      "level": "b2",
+      "cardPos": "noun (der)",
+      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "currentTarget": "piirikonflikt",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "Glosbe German–Estonian",
+      "resultUrl": "https://glosbe.com/de/et/Grenzkonflikt",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "glosbe-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/et/Grenzkonflikt",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "verbformen-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-et/?w=Grenzkonflikt",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "langenscheidt-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "keelevara-sub",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://keelevara.ee/et/search?query=Grenzkonflikt",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "lt",
+      "deLemma": "Grenzkonflikt",
+      "level": "b2",
+      "cardPos": "noun (der)",
+      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "currentTarget": "pasienio konfliktas",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "vokieciu-lietuviu.com",
+      "resultUrl": "http://www.vokieciu-lietuviu.com/?word=Grenzkonflikt",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "vokieciu-lietuviu",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "http://www.vokieciu-lietuviu.com/?word=Grenzkonflikt",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "lietuviu-vokieciu",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "http://www.lietuviu-vokieciu.com/?word=Grenzkonflikt",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-lt",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/lt/Grenzkonflikt",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-lt",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/lt/Grenzkonflikt",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "nn",
+      "deLemma": "Grenzkonflikt",
+      "level": "b2",
+      "cardPos": "noun (der)",
+      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "currentTarget": "Piirikonflikt",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "DinOrdbok Tysk–Nynorsk",
+      "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Grenzkonflikt",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "dinordbok-nn",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Grenzkonflikt",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-nn",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/german-norwegian/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-nn",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/nn/Grenzkonflikt",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "sk",
+      "deLemma": "Grenzkonflikt",
+      "level": "b2",
+      "cardPos": "noun (der)",
+      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "currentTarget": "Konflikt graniczny",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "Netzverb verbformen DE–SK",
+      "resultUrl": "https://www.verbformen.de/de-sk/?w=Grenzkonflikt",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "verbformen-de-sk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-sk/?w=Grenzkonflikt",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-de-sk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-sk.dict.cc/?s=Grenzkonflikt",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-desk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://desk.dict.cc/?s=Grenzkonflikt",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "glosbe-de-sk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/sk/Grenzkonflikt",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "sq",
+      "deLemma": "Grenzkonflikt",
+      "level": "b2",
+      "cardPos": "noun (der)",
+      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "currentTarget": "Konflikt graniczny",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
+      "resultUrl": "https://de-sq.dict.cc/?s=Grenzkonflikt",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-sq.dict.cc/?s=Grenzkonflikt",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-desq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://desq.dict.cc/?s=Grenzkonflikt",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-sq/?w=Grenzkonflikt",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dicts-info-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian&word=Grenzkonflikt",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/sq/Grenzkonflikt",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "uk",
+      "deLemma": "Grenzkonflikt",
+      "level": "b2",
+      "cardPos": "noun (der)",
+      "germanMeaning": "Grenzkonflikt – Schreibung, Definition, Bedeutung, Beispiele | DWDS",
+      "currentTarget": "прикордонний конфлікт",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "Netzverb verbformen DE–UK",
+      "resultUrl": "https://www.verbformen.de/de-uk/?w=Grenzkonflikt",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "verbformen-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-uk/?w=Grenzkonflikt",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-uk.dict.cc/?s=Grenzkonflikt",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-deuk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://deuk.dict.cc/?s=Grenzkonflikt",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "udew-leipzig",
+          "ok": false,
+          "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://udew.uni-leipzig.de/udew/en/"
+        },
+        {
+          "sourceId": "langenscheidt-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/uk/Grenzkonflikt",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "multitran-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.multitran.com/m.exe?l1=3&l2=28&s=Grenzkonflikt",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "et",
+      "deLemma": "Machtgier",
+      "level": "b2",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Machtgier – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "võimuiha",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "Glosbe German–Estonian",
+      "resultUrl": "https://glosbe.com/de/et/Machtgier",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "glosbe-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/et/Machtgier",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "verbformen-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-et/?w=Machtgier",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "langenscheidt-de-et",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "keelevara-sub",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://keelevara.ee/et/search?query=Machtgier",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "lt",
+      "deLemma": "Machtgier",
+      "level": "b2",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Machtgier – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "valdžios geidulys",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "vokieciu-lietuviu.com",
+      "resultUrl": "http://www.vokieciu-lietuviu.com/?word=Machtgier",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "vokieciu-lietuviu",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "http://www.vokieciu-lietuviu.com/?word=Machtgier",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "lietuviu-vokieciu",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "http://www.lietuviu-vokieciu.com/?word=Machtgier",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-lt",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/lt/Machtgier",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-lt",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/lt/Machtgier",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "nn",
+      "deLemma": "Machtgier",
+      "level": "b2",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Machtgier – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Võimuiha",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "DinOrdbok Tysk–Nynorsk",
+      "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Machtgier",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "dinordbok-nn",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.dinordbok.no/tysk-nynorsk/?q=Machtgier",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-nn",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/german-norwegian/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-nn",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/nn/Machtgier",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "sk",
+      "deLemma": "Machtgier",
+      "level": "b2",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Machtgier – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Żądza władzy",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "Netzverb verbformen DE–SK",
+      "resultUrl": "https://www.verbformen.de/de-sk/?w=Machtgier",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "verbformen-de-sk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-sk/?w=Machtgier",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-de-sk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-sk.dict.cc/?s=Machtgier",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-desk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://desk.dict.cc/?s=Machtgier",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "glosbe-de-sk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/sk/Machtgier",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "sq",
+      "deLemma": "Machtgier",
+      "level": "b2",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Machtgier – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "Güç arzusu",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
+      "resultUrl": "https://de-sq.dict.cc/?s=Machtgier",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "dictcc-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-sq.dict.cc/?s=Machtgier",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-desq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://desq.dict.cc/?s=Machtgier",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "verbformen-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-sq/?w=Machtgier",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dicts-info-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian&word=Machtgier",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/sq/Machtgier",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "langenscheidt-de-sq",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    },
+    {
+      "appLang": "uk",
+      "deLemma": "Machtgier",
+      "level": "b2",
+      "cardPos": "noun (die)",
+      "germanMeaning": "Machtgier – Schreibung, Definition, Bedeutung, Synonyme, Beispiele | DWDS",
+      "currentTarget": "жага влади",
+      "targetTranslationDisplay": "—",
+      "dictionaryName": "Netzverb verbformen DE–UK",
+      "resultUrl": "https://www.verbformen.de/de-uk/?w=Machtgier",
+      "finalStatus": "NOT_FOUND",
+      "finalReason": "NO_SOURCE_SUCCEEDED",
+      "sourcesTried": [
+        {
+          "sourceId": "verbformen-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.verbformen.de/de-uk/?w=Machtgier",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://de-uk.dict.cc/?s=Machtgier",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "dictcc-deuk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://deuk.dict.cc/?s=Machtgier",
+          "parserOnlyEmpty": true
+        },
+        {
+          "sourceId": "udew-leipzig",
+          "ok": false,
+          "error": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://udew.uni-leipzig.de/udew/en/"
+        },
+        {
+          "sourceId": "langenscheidt-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://en.langenscheidt.com/",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "glosbe-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://glosbe.com/de/uk/Machtgier",
+          "parserOnlyEmpty": false
+        },
+        {
+          "sourceId": "multitran-de-uk",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.multitran.com/m.exe?l1=3&l2=28&s=Machtgier",
+          "parserOnlyEmpty": false
+        }
+      ],
+      "candidateCount": 0
+    }
+  ]
+}

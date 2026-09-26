@@ -1,0 +1,475 @@
+#!/usr/bin/env node
+"use strict";
+
+const fs = require("fs");
+const path = require("path");
+const { ROOT } = require("./lib/audit-common");
+const { SOURCE_ACCESS_OUTCOME } = require("./lib/g2-a1-production-current/official-source-access-constants");
+const {
+  cardPosMatchesLodPos,
+  dictionaryDeSenseAlignsWithCard,
+  isDeLemmaConfirmed,
+  selectProvenDictionaryCandidate,
+  targetLemmaEquals,
+  TRANSLATION_AUDIT_VERDICT,
+} = require("./lib/g2-a1-production-current/card-translation-audit-search");
+const { mapTargetsToCandidates, cardPosToLodTag } = require("./lib/g2-a1-production-current/card-translation-bilingual-collector");
+const {
+  fetchDictionaryPageForCandidate,
+  buildSearchUrlForCandidate,
+  extractTranslations,
+  isGlosbeAutomaticOnly,
+} = require("./lib/g2-a1-production-current/german-target-dictionary-search-probe");
+const {
+  extractFromDictCcPlainText,
+  filterTranslationCandidates,
+  cleanTarget,
+} = require("./lib/g2-a1-production-current/three-word-dict-extract");
+const { pageTextIsAutomaticTranslationOnly } = require("./lib/g2-a1-production-current/card-translation-forbidden-sources");
+const { stripQuotes } = require("./lib/g2-a1-production-current/source-adapters/lookup-normalization");
+const {
+  fetchVerifyPage,
+  extractForPlatform,
+} = require("./run-g2-a1-verify-additional-bilingual-38");
+
+const RESCAN6 = JSON.parse(
+  fs.readFileSync(
+    path.join(ROOT, "scripts/lib/data/german-target-dictionary-rescan-6-candidates.json"),
+    "utf8",
+  ),
+);
+
+const AUDIT_JSON = path.join(
+  ROOT,
+  "reports/g2-a1-production-current/card-translation-sample-lemmas/sample-lemmas-32lang-audit.json",
+);
+const OUT_JSON = path.join(
+  ROOT,
+  "reports/g2-a1-production-current/card-translation-sample-lemmas/complete-bilingual-validation-38.json",
+);
+const OUT_MD = path.join(
+  ROOT,
+  "reports/g2-a1-production-current/card-translation-sample-lemmas/complete-bilingual-validation-38.md",
+);
+
+const SK_SOURCES = [
+  { id: "verbformen-de-sk", name: "Netzverb verbformen DE–SK", url: "https://www.verbformen.de/de-sk/", platform: "verbformen" },
+  { id: "dictcc-de-sk", name: "dict.cc de-sk", url: "https://de-sk.dict.cc/", platform: "dict.cc" },
+  { id: "dictcc-desk", name: "dict.cc desk", url: "https://desk.dict.cc/", platform: "dict.cc" },
+  { id: "glosbe-de-sk", name: "Glosbe DE–SK", url: "https://glosbe.com/de/sk", platform: "glosbe" },
+];
+
+const NN_SOURCES = [
+  { id: "dinordbok-nn", name: "DinOrdbok Tysk–Nynorsk", url: "https://www.dinordbok.no/tysk-nynorsk/", platform: "dinordbok" },
+  { id: "langenscheidt-nn", name: "Langenscheidt German–Norwegian", url: "https://en.langenscheidt.com/german-norwegian/", platform: "langenscheidt" },
+  { id: "glosbe-de-nn", name: "Glosbe DE–NN", url: "https://glosbe.com/de/nn", platform: "glosbe" },
+];
+
+function sourcesForLang(appLang) {
+  const fromRescan = (RESCAN6.languages[appLang] || []).map((c) => ({
+    id: c.id,
+    name: c.name,
+    url: c.url,
+    platform: c.platform,
+  }));
+  if (appLang === "uk") {
+    const vf = {
+      id: "verbformen-de-uk",
+      name: "Netzverb verbformen DE–UK",
+      url: "https://www.verbformen.de/de-uk/",
+      platform: "verbformen",
+    };
+    return [vf, ...fromRescan.filter((s) => s.platform !== "keelevara")];
+  }
+  if (appLang === "sk") return SK_SOURCES;
+  if (appLang === "nn") return NN_SOURCES;
+  if (appLang === "lt") {
+    return [
+      { id: "vokieciu-lietuviu", name: "vokieciu-lietuviu.com", url: "http://www.vokieciu-lietuviu.com/", platform: "vokieciu-lietuviu" },
+      { id: "lietuviu-vokieciu", name: "lietuviu-vokieciu.com", url: "http://www.lietuviu-vokieciu.com/", platform: "lietuviu-vokieciu-reverse" },
+      { id: "glosbe-de-lt", name: "Glosbe DE–LT", url: "https://glosbe.com/de/lt", platform: "glosbe" },
+      ...fromRescan.filter((s) => s.platform === "glosbe"),
+    ];
+  }
+  return fromRescan;
+}
+
+const dwdsGlossCache = new Map();
+
+async function fetchDwdsGloss(lemma) {
+  if (dwdsGlossCache.has(lemma)) return dwdsGlossCache.get(lemma);
+  let gloss = "";
+  try {
+    const res = await fetch(`https://www.dwds.de/wb/${encodeURIComponent(lemma)}`, {
+      headers: { "User-Agent": "de-lv-app-g2-a1-bilingual-validation/1.0" },
+      redirect: "follow",
+    });
+    const html = await res.text();
+    const meta = html.match(/<meta\s+name="description"\s+content="([^"]*)"/i);
+    if (meta?.[1]) gloss = meta[1].replace(/&quot;/g, '"').replace(/&amp;/g, "&").trim().slice(0, 220);
+    if (!gloss) {
+      const h = html.match(/<h2[^>]*>([^<]{10,200})<\/h2>/i);
+      if (h?.[1]) gloss = h[1].trim();
+    }
+  } catch {
+    gloss = "";
+  }
+  dwdsGlossCache.set(lemma, gloss);
+  return gloss;
+}
+
+function specToCandidate(spec, appLang) {
+  return {
+    id: spec.id,
+    name: spec.name,
+    url: spec.url,
+    platform: spec.platform,
+    appCode: appLang,
+    access: "PUBLIC_BROWSER_SESSION",
+  };
+}
+
+async function fetchSourcePage(spec, appLang, lemma) {
+  const platform = spec.platform;
+  if (platform === "verbformen" || platform === "dinordbok" || platform === "lietuviu-vokieciu-reverse") {
+    const verifySpec = {
+      dictionaryName: spec.name,
+      url: spec.url,
+      platform: platform === "lietuviu-vokieciu-reverse" ? "lietuviu-vokieciu-reverse" : platform,
+    };
+    return fetchVerifyPage(verifySpec, lemma);
+  }
+  const candidate = specToCandidate(spec, appLang);
+  return fetchDictionaryPageForCandidate(candidate, lemma);
+}
+
+function extractVokieciuForward(text, lemma, appCode) {
+  const { extractVokieciuLietuviu } = require("./lib/g2-a1-production-current/german-target-dictionary-search-probe");
+  /* extractVokieciuLietuviu not exported — inline minimal */
+  if (/Nėra vertimo/i.test(text)) return [];
+  const lines = text.split("\n").map((l) => l.trim()).filter(Boolean);
+  const esc = lemma.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const idx = lines.findIndex((l) => new RegExp(`^${esc}$`, "i").test(l));
+  if (idx >= 0) {
+    for (const l of lines.slice(idx + 1, idx + 10)) {
+      if (/\[papildyti\]|©|Pradžia|Versti/i.test(l)) continue;
+      const t = cleanTarget(l);
+      if (t && t.length >= 2) return filterTranslationCandidates([t], lemma, appCode);
+    }
+  }
+  return [];
+}
+
+function extractFromPage(spec, page, lemma, appLang, cardGerman) {
+  if (page.blocked) return [];
+  const text = page.text || "";
+  const searchUrl = page.searchUrl || page.finalUrl || spec.url;
+  const platform = spec.platform;
+
+  if (platform === "verbformen" || platform === "dinordbok" || platform === "lietuviu-vokieciu-reverse") {
+    return extractForPlatform(
+      platform === "lietuviu-vokieciu-reverse" ? "lietuviu-vokieciu-reverse" : platform,
+      text,
+      lemma,
+      appLang,
+    );
+  }
+
+  if (platform === "dict.cc") {
+    return extractFromDictCcPlainText(text, lemma, { partOfSpeech: cardGerman.partOfSpeech });
+  }
+
+  if (platform === "glosbe") {
+    if (isGlosbeAutomaticOnly(text, lemma) || pageTextIsAutomaticTranslationOnly(text)) {
+      const probeOnly = extractTranslations(page, lemma, searchUrl, appLang, cardGerman);
+      if (!probeOnly.length) return [];
+      return probeOnly;
+    }
+    return extractTranslations(page, lemma, searchUrl, appLang, cardGerman);
+  }
+
+  if (platform === "vokieciu-lietuviu") {
+    return extractVokieciuForward(text, lemma, appLang);
+  }
+
+  /* langenscheidt / multitran / dicts.info — dict.cc-style plain extract */
+  return extractFromDictCcPlainText(text, lemma, { partOfSpeech: cardGerman.partOfSpeech });
+}
+
+function buildDeAuthority(row, germanMeaning) {
+  const url = row.deSourceUrl || "";
+  const confirmed = /dwds\.de|duden\.de/i.test(url);
+  return {
+    outcome: confirmed ? SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED : "SOURCE_LOOKUP_FAIL",
+    entryUrl: url,
+    evidenceFragment: germanMeaning || row.deLemma,
+    entryHeadwordOrRule: row.deLemma,
+    adapterId: /duden/i.test(url) ? "duden" : "dwds",
+  };
+}
+
+/**
+ * Bilingual-only gala statuss (bez TARGET oficiālā validatora).
+ */
+function resolveBilingualFinalStatus(cardGerman, deAuthority, candidates, currentTarget) {
+  if (!isDeLemmaConfirmed(deAuthority)) {
+    return { finalStatus: "NOT_FOUND", reason: "DE_NOT_CONFIRMED", candidates: [] };
+  }
+  if (!candidates.length) {
+    return { finalStatus: "NOT_FOUND", reason: "NO_DICTIONARY_CANDIDATES", candidates: [] };
+  }
+
+  let posFiltered = candidates.filter((c) => cardPosMatchesLodPos(cardGerman.partOfSpeech, c.pos));
+  if (!posFiltered.length) {
+    posFiltered = candidates;
+  }
+
+  const senseAligned = [];
+  for (const c of posFiltered) {
+    const sense = dictionaryDeSenseAlignsWithCard(cardGerman, c.deTranslation, deAuthority);
+    if (sense.aligned) senseAligned.push({ ...c, senseAlignment: sense.reason });
+  }
+  const pool = senseAligned.length ? senseAligned : posFiltered;
+
+  const pick = selectProvenDictionaryCandidate(pool, currentTarget);
+  if (pick.status === "none") {
+    return { finalStatus: "NOT_FOUND", reason: "NO_SENSE_ALIGNED", candidates: pool };
+  }
+  if (pick.status === "ambiguous") {
+    return {
+      finalStatus: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+      reason: pick.blockers?.[0]?.code || "AMBIGUOUS",
+      candidates: pool,
+      pick,
+    };
+  }
+  if (pick.mismatchCurrent) {
+    return {
+      finalStatus: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+      reason: "CURRENT_NOT_IN_DICTIONARY_LIST",
+      candidates: pool,
+      pick,
+      provenLemma: pick.selected?.targetLemma,
+    };
+  }
+  return {
+    finalStatus: TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED,
+    reason: "CURRENT_MATCHES_DICTIONARY",
+    candidates: pool,
+    pick,
+    provenLemma: pick.selected?.targetLemma,
+  };
+}
+
+function mergeCandidates(existing, incoming, sourceMeta) {
+  const seen = new Set(existing.map((e) => String(e.targetLemma).toLowerCase()));
+  const out = [...existing];
+  for (const c of incoming) {
+    const k = String(c.targetLemma || "").toLowerCase();
+    if (!k || seen.has(k)) continue;
+    seen.add(k);
+    out.push({ ...c, bilingualSourceId: sourceMeta.sourceId, sourceUrl: sourceMeta.resultUrl });
+  }
+  return out;
+}
+
+function posLabel(row) {
+  const p = row.partOfSpeech || "?";
+  const a = row.article ? ` (${row.article})` : "";
+  return `${p}${a}`;
+}
+
+async function validateRow(fullRow, germanMeaning) {
+  const appLang = fullRow.appLang;
+  const lemma = fullRow.deLemma;
+  const cardGerman = {
+    lemma,
+    partOfSpeech: fullRow.partOfSpeech,
+    article: fullRow.article,
+    germanMeaning,
+    deSenseNote: germanMeaning,
+  };
+  const deAuthority = buildDeAuthority(fullRow, germanMeaning);
+  const currentTarget = fullRow.currentTarget;
+  const chain = sourcesForLang(appLang);
+
+  let allCandidates = [];
+  let winningSource = null;
+  let winningUrl = null;
+  let winningTranslations = [];
+  let finalStatus = "NOT_FOUND";
+  let finalReason = "NO_SOURCE_SUCCEEDED";
+  const attempts = [];
+
+  for (const spec of chain) {
+    let page;
+    try {
+      // eslint-disable-next-line no-await-in-loop
+      page = await fetchSourcePage(spec, appLang, lemma);
+    } catch (e) {
+      attempts.push({ sourceId: spec.id, ok: false, error: String(e.message || e).slice(0, 80) });
+      continue;
+    }
+
+    const resultUrl = page.finalUrl || page.searchUrl || buildSearchUrlForCandidate(specToCandidate(spec, appLang), lemma);
+    const translations = extractFromPage(spec, page, lemma, appLang, cardGerman);
+    const sourceMeta = {
+      sourceId: spec.id,
+      sourceName: spec.name,
+      sourceUrl: spec.url,
+      resultUrl,
+      platform: spec.platform,
+    };
+    const batch = mapTargetsToCandidates(translations, cardGerman, sourceMeta);
+    attempts.push({
+      sourceId: spec.id,
+      ok: translations.length > 0,
+      extractedCount: translations.length,
+      resultUrl,
+      parserOnlyEmpty: !translations.length && !page.blocked && /verbformen|dict\.cc/i.test(resultUrl),
+    });
+
+    if (!translations.length) continue;
+
+    allCandidates = mergeCandidates(allCandidates, batch, sourceMeta);
+    const verdict = resolveBilingualFinalStatus(cardGerman, deAuthority, allCandidates, currentTarget);
+    if (verdict.finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED) {
+      finalStatus = verdict.finalStatus;
+      finalReason = verdict.reason;
+      winningSource = spec.name;
+      winningUrl = resultUrl;
+      winningTranslations = translations;
+      break;
+    }
+    if (verdict.finalStatus === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW) {
+      finalStatus = verdict.finalStatus;
+      finalReason = verdict.reason;
+      winningSource = spec.name;
+      winningUrl = resultUrl;
+      winningTranslations = translations;
+      /* turpinām — varbūt cits avots dod TV */
+    }
+  }
+
+  if (finalStatus === "NOT_FOUND" && allCandidates.length) {
+    const verdict = resolveBilingualFinalStatus(cardGerman, deAuthority, allCandidates, currentTarget);
+    finalStatus = verdict.finalStatus;
+    finalReason = verdict.reason;
+    if (!winningSource && attempts.find((a) => a.ok)) {
+      const hit = attempts.find((a) => a.ok);
+      winningSource = chain.find((s) => s.id === hit.sourceId)?.name || null;
+      winningUrl = hit.resultUrl;
+    }
+    winningTranslations = allCandidates.map((c) => c.targetLemma);
+  }
+
+  const displayTarget =
+    finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED
+      ? stripQuotes(currentTarget)
+      : allCandidates.length
+        ? [...new Set(allCandidates.map((c) => c.targetLemma))].slice(0, 6).join("; ")
+        : "—";
+
+  return {
+    appLang,
+    deLemma: lemma,
+    level: fullRow.level,
+    cardPos: posLabel(fullRow),
+    germanMeaning: germanMeaning || "—",
+    currentTarget: stripQuotes(currentTarget),
+    targetTranslationDisplay: displayTarget,
+    dictionaryName: winningSource || (attempts.length ? chain[0]?.name : null),
+    resultUrl: winningUrl || attempts.find((a) => a.resultUrl)?.resultUrl || null,
+    finalStatus,
+    finalReason,
+    sourcesTried: attempts,
+    candidateCount: allCandidates.length,
+  };
+}
+
+async function main() {
+  const audit = JSON.parse(fs.readFileSync(AUDIT_JSON, "utf8"));
+  const keys = new Set(
+    (audit.needsAdditionalBilingualSource || []).map((r) => `${r.appLang}|${r.level}|${r.deLemma}`),
+  );
+  const rows = audit.rows.filter(
+    (r) => r.needsAdditionalBilingualSource && keys.has(`${r.appLang}|${r.level}|${r.deLemma}`),
+  );
+  if (rows.length !== 38) {
+    console.warn(`Expected 38 full rows, got ${rows.length}`);
+  }
+
+  const lemmas = [...new Set(rows.map((r) => r.deLemma))];
+  for (const lemma of lemmas) {
+    // eslint-disable-next-line no-await-in-loop
+    await fetchDwdsGloss(lemma);
+  }
+
+  const results = [];
+  for (const row of rows) {
+    const gloss = dwdsGlossCache.get(row.deLemma) || "";
+    // eslint-disable-next-line no-await-in-loop
+    const r = await validateRow(row, gloss);
+    results.push(r);
+    process.stderr.write(`${r.finalStatus} ${r.appLang} ${r.deLemma}\n`);
+  }
+
+  const tv = results.filter((r) => r.finalStatus === TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED);
+  const nsr = results.filter((r) => r.finalStatus === TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW);
+  const nf = results.filter((r) => r.finalStatus === "NOT_FOUND");
+
+  const payload = {
+    schemaVersion: "g2-a1-complete-bilingual-validation-38-v1",
+    generatedAt: new Date().toISOString(),
+    rowCount: results.length,
+    translationValidatedCount: tv.length,
+    needsSourceReviewCount: nsr.length,
+    notFoundCount: nf.length,
+    policy:
+      "Dictionary-section extract only; POS + DE sense + CURRENT alignment; no TARGET official gate; no invented translations",
+    results,
+  };
+
+  fs.writeFileSync(OUT_JSON, `${JSON.stringify(payload, null, 2)}\n`);
+
+  const md = [
+    "# G2/A1 — pilna divvalodu validācija (38 rindas)",
+    "",
+    `Ģenerēts: ${payload.generatedAt}`,
+    "",
+    `**TRANSLATION_VALIDATED:** ${tv.length}/38 | **NEEDS_SOURCE_REVIEW:** ${nsr.length}/38 | **NOT_FOUND:** ${nf.length}/38`,
+    "",
+    "| Valoda | DE vārds | Kartītes nozīme/POS | TARGET tulkojums | Vārdnīca | Precīzs ieraksta URL | Gala statuss |",
+    "|--------|----------|---------------------|------------------|----------|----------------------|--------------|",
+  ];
+
+  for (const r of results) {
+    const meaning = (r.germanMeaning || "—").replace(/\|/g, "/").slice(0, 80);
+    const pos = r.cardPos || "—";
+    const col = `${pos}; ${meaning}`;
+    md.push(
+      `| ${r.appLang} | ${r.deLemma} | ${col} | ${r.targetTranslationDisplay} | ${r.dictionaryName || "—"} | ${r.resultUrl || "—"} | ${r.finalStatus} |`,
+    );
+  }
+
+  fs.writeFileSync(OUT_MD, `${md.join("\n")}\n`);
+  console.log(
+    JSON.stringify(
+      {
+        TRANSLATION_VALIDATED: tv.length,
+        NEEDS_SOURCE_REVIEW: nsr.length,
+        NOT_FOUND: nf.length,
+        out: OUT_JSON,
+      },
+      null,
+      2,
+    ),
+  );
+}
+
+if (require.main === module) {
+  main().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}

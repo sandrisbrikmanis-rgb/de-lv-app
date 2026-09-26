@@ -417,3 +417,13 @@ if (require.main === module) {
     process.exit(1);
   });
 }
+
+module.exports = {
+  P1_BY_LANG,
+  fetchVerifyPage,
+  extractForPlatform,
+  extractVerbformenDictionarySection,
+  extractDinordbokDictionarySection,
+  extractLietuviuReverseDictionarySection,
+  uniqueTargets,
+};
