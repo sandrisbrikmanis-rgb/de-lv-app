@@ -16,7 +16,19 @@ const {
   buildSearchUrlForCandidate,
   isGlosbeAutomaticOnly,
 } = require("./german-target-dictionary-search-probe");
-const { manifestSourceAllowed, pageTextIsAutomaticTranslationOnly } = require("./card-translation-forbidden-sources");
+const {
+  manifestSourceAllowed,
+  pageTextIsAutomaticTranslationOnly,
+  sourceQualifiesAsBilingualDictionaryEvidence,
+} = require("./card-translation-forbidden-sources");
+const {
+  rescan6InstitutionalCandidatesForLang,
+  isAutomaticTranslationDictionaryEvidence,
+} = require("./card-translation-evidence-ladder");
+const {
+  lookupDigarDeEtBilingual,
+  lookupDigarEtDeReverseForDeEtPair,
+} = require("./digar-de-et-bilingual-lookup");
 const { REJECT_REASON } = require("./card-translation-audit-search");
 const { mapTargetsToCandidates } = require("./card-translation-bilingual-collector");
 const { dictionarySearchLemma } = require("./card-translation-de-lemma");
@@ -127,6 +139,7 @@ function orderedDictionaryCandidatesForLang(appLang) {
     seen.add(key);
     out.push(c);
   };
+  for (const c of rescan6InstitutionalCandidatesForLang(appLang)) add(c);
   add(primary);
   for (const c of all) add(c);
   return out.slice(0, MAX_FALLBACK_SOURCES);
@@ -144,9 +157,92 @@ function mergeEligibleUnique(existing, incoming, sourceMeta) {
   return out;
 }
 
-async function collectFromSingleCandidate(candidate, appLang, cardGerman, searchLemma) {
+async function collectFromSingleCandidate(candidate, appLang, cardGerman, searchLemma, ctx = {}) {
   const rejected = [];
-  const spec = { url: candidate.url, type: candidate.type, appCode: appLang };
+  const spec = {
+    url: candidate.url,
+    type: candidate.type,
+    appCode: appLang,
+    platform: candidate.platform,
+  };
+
+  if (candidate.platform === "digar-de-et") {
+    const lookup = await lookupDigarDeEtBilingual(searchLemma);
+    if (!lookup.ok || !lookup.targetTranslations?.length) {
+      return {
+        ok: false,
+        eligible: [],
+        rejected: [
+          {
+            reason: lookup.lookupStatus || "NOT_FOUND_IN_DICTIONARY",
+            detail: candidate.id,
+            sourceId: candidate.id,
+          },
+        ],
+        bilingualMeta: {
+          sourceId: candidate.id,
+          sourceName: candidate.name,
+          sourceUrl: candidate.url,
+          resultUrl: lookup.resultUrl,
+          platform: candidate.platform,
+          bilingualLookupStatus: lookup.lookupStatus,
+          bilingualLookupMode: lookup.lookupMode,
+        },
+        tryNext: true,
+      };
+    }
+    const sourceMeta = {
+      sourceId: candidate.id,
+      sourceName: candidate.name,
+      sourceUrl: candidate.url,
+      resultUrl: lookup.resultUrl,
+      platform: candidate.platform,
+      searchLemma,
+      bilingualLookupStatus: lookup.lookupStatus,
+      bilingualLookupMode: lookup.lookupMode,
+    };
+    const eligible = mapTargetsToCandidates(lookup.targetTranslations, cardGerman, sourceMeta);
+    return { ok: true, eligible, rejected, bilingualMeta: sourceMeta, catalogCandidate: candidate, tryNext: false };
+  }
+
+  if (candidate.platform === "digar-et-de-reverse") {
+    const lookup = await lookupDigarEtDeReverseForDeEtPair(searchLemma, ctx.currentTarget);
+    if (!lookup.ok || !lookup.targetTranslations?.length) {
+      return {
+        ok: false,
+        eligible: [],
+        rejected: [
+          {
+            reason: lookup.lookupStatus || "REVERSE_LOOKUP_FAIL",
+            detail: candidate.id,
+            sourceId: candidate.id,
+          },
+        ],
+        bilingualMeta: {
+          sourceId: candidate.id,
+          sourceUrl: candidate.url,
+          resultUrl: lookup.resultUrl,
+          platform: candidate.platform,
+          bilingualLookupStatus: lookup.lookupStatus,
+          bilingualLookupMode: lookup.lookupMode,
+        },
+        tryNext: true,
+      };
+    }
+    const sourceMeta = {
+      sourceId: candidate.id,
+      sourceName: candidate.name,
+      sourceUrl: candidate.url,
+      resultUrl: lookup.resultUrl,
+      platform: candidate.platform,
+      searchLemma,
+      bilingualLookupStatus: lookup.lookupStatus,
+      bilingualLookupMode: lookup.lookupMode,
+    };
+    const eligible = mapTargetsToCandidates(lookup.targetTranslations, cardGerman, sourceMeta);
+    return { ok: true, eligible, rejected, bilingualMeta: sourceMeta, catalogCandidate: candidate, tryNext: false };
+  }
+
   const allowed = manifestSourceAllowed(spec);
   if (!allowed.ok) {
     return {
@@ -214,6 +310,37 @@ async function collectFromSingleCandidate(candidate, appLang, cardGerman, search
     }
   }
 
+  if (
+    isAutomaticTranslationDictionaryEvidence({
+      platform: candidate.platform,
+      sourceId: candidate.id,
+      sourceUrl: candidate.url,
+      pageText: page.text,
+    })
+  ) {
+    return {
+      ok: false,
+      eligible: [],
+      rejected: [{ reason: "AUTOMATIC_TRANSLATION_NOT_DICTIONARY_EVIDENCE", detail: candidate.id, sourceId: candidate.id }],
+      bilingualMeta: { sourceId: candidate.id, sourceUrl: candidate.url, resultUrl: page.finalUrl || searchUrl },
+      tryNext: true,
+    };
+  }
+
+  const evidenceOk = sourceQualifiesAsBilingualDictionaryEvidence(
+    { url: candidate.url, type: candidate.type, platform: candidate.platform },
+    page.text || "",
+  );
+  if (!evidenceOk.ok) {
+    return {
+      ok: false,
+      eligible: [],
+      rejected: [{ reason: "NOT_BILINGUAL_DICTIONARY_EVIDENCE", detail: evidenceOk.code, sourceId: candidate.id }],
+      bilingualMeta: { sourceId: candidate.id, sourceUrl: candidate.url, resultUrl: page.finalUrl || searchUrl },
+      tryNext: true,
+    };
+  }
+
   const translations = extractTranslations(page, searchLemma, searchUrl, appLang, cardGerman);
   if (!translations.length) {
     return {
@@ -253,7 +380,7 @@ async function collectFromSingleCandidate(candidate, appLang, cardGerman, search
   };
 }
 
-async function tryCollectAcrossSources(candidates, appLang, cardGerman, searchLemma, strategy) {
+async function tryCollectAcrossSources(candidates, appLang, cardGerman, searchLemma, strategy, ctx = {}) {
   let mergedEligible = [];
   const rejected = [];
   const sourcesTried = [];
@@ -262,7 +389,7 @@ async function tryCollectAcrossSources(candidates, appLang, cardGerman, searchLe
 
   for (const candidate of candidates) {
     // eslint-disable-next-line no-await-in-loop
-    const attempt = await collectFromSingleCandidate(candidate, appLang, cardGerman, searchLemma);
+    const attempt = await collectFromSingleCandidate(candidate, appLang, cardGerman, searchLemma, ctx);
     sourcesTried.push({
       sourceId: candidate.id,
       sourceUrl: candidate.url,
@@ -283,9 +410,10 @@ async function tryCollectAcrossSources(candidates, appLang, cardGerman, searchLe
   return { mergedEligible, rejected, sourcesTried, lastMeta, winningCandidate };
 }
 
-async function collectDeTargetFromCatalog(appLang, cardGerman) {
+async function collectDeTargetFromCatalog(appLang, cardGerman, options = {}) {
   const { searchLemma, displayLemma, strategy, morphHint } = dictionarySearchLemma(cardGerman);
   const candidates = orderedDictionaryCandidatesForLang(appLang);
+  const ctx = { currentTarget: options.currentTarget };
   if (!candidates.length) {
     return {
       ok: false,
@@ -303,7 +431,7 @@ async function collectDeTargetFromCatalog(appLang, cardGerman) {
     sourcesTried,
     lastMeta,
     winningCandidate,
-  } = await tryCollectAcrossSources(candidates, appLang, cardGerman, searchLemma, strategy);
+  } = await tryCollectAcrossSources(candidates, appLang, cardGerman, searchLemma, strategy, ctx);
 
   if (!mergedEligible.length && morphHint && morphHint !== searchLemma) {
     const morphPass = await tryCollectAcrossSources(
@@ -312,6 +440,7 @@ async function collectDeTargetFromCatalog(appLang, cardGerman) {
       cardGerman,
       morphHint,
       `${strategy}+MORPH_HINT_${morphHint}`,
+      ctx,
     );
     rejected.push(...morphPass.rejected);
     sourcesTried.push(...morphPass.sourcesTried);

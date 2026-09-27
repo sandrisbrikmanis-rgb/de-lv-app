@@ -120,11 +120,13 @@ Papildus §3 tabulas saīsinātajam URL laukam, repozitorijā uztur **pilnu trī
 
 **Vācu–TARGET divvalodu vārdnīca (32 valodas):** kanoniskais manifests `scripts/lib/data/master-german-target-bilingual-dictionaries-32.json`.
 
-Tulkojuma pareizības pārbaudē prioritāri izmanto vācu–TARGET divvalodu vārdnīcu, kurā konkrētajā rezultātā tieši redzams vācu vārds un TARGET tulkojums.
+**Kartīšu tulkojuma pāris (MASTER v1.20 §7.162):** vispirms PDF/skenēta/institucionāla divvalodu vārdnīca — **DE→TARGET**, tad **TARGET→DE** (reverso); abi virzieni ir derīgs pierādījums. Ja tiešs pāris nav atrodams: salīdzina **DE definīciju (DWDS/Duden)** ar **TARGET definīciju (oficiālais MASTER avots)** — skaidra sakritība → `TRANSLATION_VALIDATED`, neskaidra → `NEEDS_SOURCE_REVIEW`. AI kandidāts obligāti jāapstiprina ar šo kārtību. **Glosbe Translate**, **Google Translate** un citi automātiskie tulkojumi nav vārdnīcas pierādījums.
+
+Tulkojuma pareizības pārbaudē prioritāri izmanto vācu–TARGET divvalodu vārdnīcu, kurā konkrētajā rezultātā tieši redzams vācu vārds un TARGET tulkojums (vai reverso šķirklis).
 
 `TRANSLATION_PAIR_VERIFIED` drīkst piešķirt, ja izmantotajā divvalodu vārdnīcas rezultātā ir atrodams: pārbaudāmais vācu vārds vai vārdkopa; konkrētais TARGET tulkojums; tieša abu valodu savstarpējā atbilstība.
 
-Vienvalodas TARGET vārdnīca viena pati neapstiprina vācu–TARGET tulkojuma pāri. To izmanto papildus TARGET pamatformas, rakstības, gramatikas vai nozīmes pārbaudei.
+Vienvalodas TARGET vārdnīca viena pati neapstiprina vācu–TARGET tulkojuma pāri. To izmanto papildus TARGET pamatformas, rakstības, gramatikas vai nozīmes pārbaudei (un §7.162.2 definīciju salīdzinājumam kopā ar DWDS/Duden).
 
 Vārdnīcas komerciālais vai kopienas statuss pats par sevi nav iemesls tās noraidīšanai.
 

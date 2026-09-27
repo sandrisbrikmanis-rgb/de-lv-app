@@ -14,6 +14,11 @@ function isDeLemmaConfirmed(deAuthority) {
 
 const { getCardTranslation32LangReadiness } = require("./card-translation-32lang-readiness");
 
+/**
+ * Kartīšu tulkojuma pierādījumu kārtība: MASTER §7.162 + card-translation-evidence-ladder.js
+ * (PDF divvalodu DE→TARGET / TARGET→DE, tad DWDS/Duden + TARGET oficiālā definīcija).
+ */
+
 /** Vācu DE avots kartes auditā — tikai šie (LOD ir lb TARGET, ne DE nozīme). */
 const GERMAN_DE_AUTHORITY_ADAPTER_PREFIXES = Object.freeze(["de-dwds", "de-duden"]);
 

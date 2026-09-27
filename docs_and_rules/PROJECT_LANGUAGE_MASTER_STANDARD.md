@@ -1,7 +1,7 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.19\
-**Versiju ķēde:** v1.13 (Kurss moduļa metodika, iekļauta šajā izlaidumā) → v1.14 → v1.15 → v1.16 → v1.17 → v1.18 → **v1.19** (šis dokuments)\
+**Versija:** 1.20\
+**Versiju ķēde:** v1.13 (Kurss moduļa metodika, iekļauta šajā izlaidumā) → v1.14 → v1.15 → v1.16 → v1.17 → v1.18 → v1.19 → **v1.20** (šis dokuments)\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -26,8 +26,8 @@ Tas konsolidē un aizstāj kā atsevišķi interpretējamus darba standartus:
 
 Lingvistiskā audita avotu atbalstīta metodika (33 valodas, PASS/OWNER
 tvērums, reģistrs): `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` — operatīvi
-iekļauta šajā MASTER dokumentā kā **§7.153–§7.158** (kapitalizācija/pamatforma —
-§7.158 + grozījumu dok. §20).
+iekļauta šajā MASTER dokumentā kā **§7.153–§7.162** (kapitalizācija/pamatforma —
+§7.158; kartīšu tulkojuma pierādījumi — §7.162 + grozījumu dok. §20).
 
 Iepriekšējie dokumenti drīkst palikt repozitorijā tikai kā
 vēsturiski/reference materiāli. Ja ir pretruna starp tiem un šo MASTER
@@ -5457,20 +5457,68 @@ pievieno tikai pēc `das Haus` pārbaudes un **OWNER apstiprinājuma**; komerci�
 statuss nav noraidījuma iemesls. Kopienas vārdnīcas (klase **E**) nedrīkst būt
 vienīgais pierādījums — obligāts avotu kopums ar DE un TARGET A–D avotiem.
 
-## 7.161. Vācu–TARGET divvalodu vārdnīcas (32 valodas, v1.19)
+## 7.161. Vācu–TARGET divvalodu vārdnīcas (32 valodas, v1.19–v1.20)
 
-Tulkojuma pareizības pārbaudē prioritāri izmanto vācu–TARGET divvalodu vārdnīcu, kurā
-konkrētajā rezultātā tieši redzams vācu vārds un TARGET tulkojums.
+Tulkojuma **pāra** pierādījumam prioritāri izmanto pieejamās **PDF / skenētās /
+institucionālās** divvalodu vārdnīcas šādā secībā:
 
-`TRANSLATION_PAIR_VERIFIED` drīkst piešķirt, ja divvalodu vārdnīcas rezultātā ir
-atrodams pārbaudāmais vācu vārds vai vārdkopa, konkrētais TARGET tulkojums un tieša
-abu valodu savstarpējā atbilstība. Vienvalodas TARGET vārdnīca viena pati to
-neapstiprina — tikai pamatforma, rakstība, gramatika vai nozīmes precizēšanai.
+1. **DE→TARGET** (vācu šķirkļis ar mērķvalodas tulkojumu);
+2. **TARGET→DE** (reverso šķirkļis — derīgs pierādījums tam pašam DE↔TARGET pārim).
+
+Abi virzieni ir vienlīdz derīgs tiešs tulkojuma pāra pierādījums. Implementācija:
+`scripts/lib/g2-a1-production-current/card-translation-evidence-ladder.js` un
+valodas rescan manifests (piem. DIGAR Valgus DE–ET / ET–DE).
+
+`TRANSLATION_PAIR_VERIFIED` / `translationPairStatus = VALIDATED` drīkst balstīt
+uz šiem avotiem, ja konkrētajā šķirklī redzams pārbaudāmais DE lemmas un TARGET
+tulkojums (vai reverso gadījumā — TARGET lemmas ar DE glossu, kas saskan ar karti).
+
+Vienvalodas TARGET vārdnīca **viena pati** neaizstāj divvalodu pāri — tikai
+pamatforma, rakstība, gramatika vai **2. līmeņa** nozīmes salīdzinājumam (sk. §7.162).
 
 Strukturētie lauki `GERMAN_TARGET_DICTIONARY_*` un manifests:
 `scripts/lib/data/master-german-target-bilingual-dictionaries-32.json`.
-`GERMAN_TARGET_DICTIONARY_ROLE` = `PRIMARY_TRANSLATION_PAIR_SOURCE`. Komerciāls vai
-kopienas avots nav automātisks noraidījuma iemesls. `nb`/`nn` atsevišķi; `gr` ↔ `el`.
+`GERMAN_TARGET_DICTIONARY_ROLE` = `PRIMARY_TRANSLATION_PAIR_SOURCE`. Komerciāls
+profesionāli rediģēts avots nav automātisks noraidījums; **Glosbe Translate**,
+**Google Translate** un citi **automātiskie** tulkojumi **nav** divvalodu
+vārdnīcas pierādījums (§7.162.4). `nb`/`nn` atsevišķi; `gr` ↔ `el`.
+
+## 7.162. Kartīšu tulkojuma pierādījumu kārtība (v1.20)
+
+G2/A1 un kartīšu tulkošanas audits (`card-translation-*`) piemēro šo secību:
+
+### 7.162.1. Divvalodu vārdnīca (PDF / skenēta / institucionāla)
+
+Vispirms **DE→TARGET**, pēc tam **TARGET→DE** (reverso). Atrodams tiešs pāris →
+`TRANSLATION_VALIDATED`, ja papildus izpildās DE (DWDS/Duden) un TARGET oficiālā
+validācija (`card-translation-audit-policy.js`).
+
+### 7.162.2. Definīciju salīdzinājums (ja tiešs pāris nav atrodams)
+
+Salīdzina:
+
+- **DE definīciju / nozīmi** no **DWDS** vai **Duden**;
+- **TARGET definīciju** no attiecīgās valodas **oficiālā MASTER avota** (①–③ reģistrs).
+
+**Nepārprotama** nozīmju sakritība (deterministiski, reproducējami signāli, nevis
+AI “izjūta”) → `TRANSLATION_VALIDATED`. **Neskaidra** atbilstība →
+`NEEDS_SOURCE_REVIEW`. Implementācija: `assessDefinitionSemanticTranslationEvidence()`.
+
+### 7.162.3. AI / LLM kandidāti
+
+AI drīkst **atrast** tulkojuma kandidātu un sagatavot `PROPOSED_NEW`, bet
+`TRANSLATION_VALIDATED` vai `FINDING` **obligāti** jābalsta uz §7.162.1 vai
+§7.162.2. AI secinājums bez ārēja pierādījuma nav pietiekams (APVIENOTS §15).
+
+### 7.162.4. Aizliegti automātiskie “vārdnīcu” avoti
+
+**Glosbe Translate**, **Google Translate**, DeepL, Microsoft Translator, Reverso
+mašīntulkojumu režīmi un lapas, kurās dominē **automatic / algorithmically
+generated** tulkojumi, **nedrīkst** izmantot kā divvalodu vārdnīcas pierādījumu.
+Kopienas Glosbe ieraksts bez rediģēta šķirkļa un bez automātiskā slāņa var
+kalpot tikai kā **papildu** meklēšanas hints, nevis kā vienīgais VALIDATED pamats.
+
+Kods: `card-translation-forbidden-sources.js`, `card-translation-evidence-ladder.js`.
 
 ## 7.160. Papildu TARGET vārdnīcas (32 valodas, v1.19)
 
