@@ -1,0 +1,323 @@
+{
+  "generatedAt": "2026-09-27T13:21:37.915Z",
+  "rowCount": 5,
+  "passCount": 5,
+  "failCount": 0,
+  "audits": [
+    {
+      "key": "et|Kleingeld",
+      "deLemma": "Kleingeld",
+      "appLang": "et",
+      "currentTarget": "peenraha",
+      "pass": true,
+      "blockers": [],
+      "checks": [
+        {
+          "id": "1_bilingual_pair_in_named_dictionary",
+          "pass": true,
+          "dictionary": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+          "winningSourceId": "digar-saksa-eesti-valgus-1976",
+          "bilingualLookupStatus": "BILINGUAL_ENTRY_FOUND",
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/465",
+          "pairLemma": "peenraha"
+        },
+        {
+          "id": "1b_live_digar_reverify",
+          "pass": true,
+          "mode": "FORWARD_DE_ET",
+          "lookupStatus": "BILINGUAL_ENTRY_FOUND",
+          "ok": true,
+          "readTargets": [
+            "peenraha",
+            "vahetusraha"
+          ],
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/465",
+          "detail": null
+        },
+        {
+          "id": "2_report_url_and_read_target",
+          "pass": true,
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/465",
+          "targetTranslationDisplay": "peenraha",
+          "pairLemma": "peenraha"
+        },
+        {
+          "id": "3_de_sense_dwds",
+          "pass": true,
+          "deSourceUrl": "https://www.dwds.de/wb/Kleingeld",
+          "cardPos": "noun (das)"
+        },
+        {
+          "id": "4_target_official_master",
+          "pass": true,
+          "targetMaster": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+          "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/peenraha/1/eng",
+          "normativeTargetLemma": "peenraha"
+        },
+        {
+          "id": "5_not_automatic_translation",
+          "pass": true,
+          "winningSourceId": "digar-saksa-eesti-valgus-1976",
+          "glosbeHadCandidates": false
+        }
+      ],
+      "galaConclusion": "TRANSLATION_VALIDATED",
+      "dictionaryName": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+      "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/465",
+      "targetMaster": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+      "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/peenraha/1/eng",
+      "revisedRow": null
+    },
+    {
+      "key": "et|bewirten",
+      "deLemma": "bewirten",
+      "appLang": "et",
+      "currentTarget": "kostitama",
+      "pass": true,
+      "blockers": [],
+      "checks": [
+        {
+          "id": "1_bilingual_pair_in_named_dictionary",
+          "pass": true,
+          "dictionary": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+          "winningSourceId": "digar-saksa-eesti-valgus-1976",
+          "bilingualLookupStatus": "BILINGUAL_ENTRY_FOUND",
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/144",
+          "pairLemma": "kostitama"
+        },
+        {
+          "id": "1b_live_digar_reverify",
+          "pass": true,
+          "mode": "FORWARD_DE_ET",
+          "lookupStatus": "BILINGUAL_ENTRY_FOUND",
+          "ok": true,
+          "readTargets": [
+            "kostitama",
+            "võõrustama"
+          ],
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/144",
+          "detail": null
+        },
+        {
+          "id": "2_report_url_and_read_target",
+          "pass": true,
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/144",
+          "targetTranslationDisplay": "kostitama",
+          "pairLemma": "kostitama"
+        },
+        {
+          "id": "3_de_sense_dwds",
+          "pass": true,
+          "deSourceUrl": "https://www.dwds.de/wb/bewirten",
+          "cardPos": "verb"
+        },
+        {
+          "id": "4_target_official_master",
+          "pass": true,
+          "targetMaster": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+          "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/kostitama/1/eng",
+          "normativeTargetLemma": "kostitama"
+        },
+        {
+          "id": "5_not_automatic_translation",
+          "pass": true,
+          "winningSourceId": "digar-saksa-eesti-valgus-1976",
+          "glosbeHadCandidates": false
+        }
+      ],
+      "galaConclusion": "TRANSLATION_VALIDATED",
+      "dictionaryName": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+      "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/144",
+      "targetMaster": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+      "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/kostitama/1/eng",
+      "revisedRow": null
+    },
+    {
+      "key": "et|glotzen",
+      "deLemma": "glotzen",
+      "appLang": "et",
+      "currentTarget": "jõllitama",
+      "pass": true,
+      "blockers": [],
+      "checks": [
+        {
+          "id": "1_bilingual_pair_in_named_dictionary",
+          "pass": true,
+          "dictionary": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+          "winningSourceId": "digar-saksa-eesti-valgus-1976",
+          "bilingualLookupStatus": "BILINGUAL_ENTRY_FOUND",
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/355",
+          "pairLemma": "jõllitama"
+        },
+        {
+          "id": "1b_live_digar_reverify",
+          "pass": true,
+          "mode": "FORWARD_DE_ET",
+          "lookupStatus": "BILINGUAL_ENTRY_FOUND",
+          "ok": true,
+          "readTargets": [
+            "jõllitama"
+          ],
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/355",
+          "detail": null
+        },
+        {
+          "id": "2_report_url_and_read_target",
+          "pass": true,
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/355",
+          "targetTranslationDisplay": "jõllitama",
+          "pairLemma": "jõllitama"
+        },
+        {
+          "id": "3_de_sense_dwds",
+          "pass": true,
+          "deSourceUrl": "https://www.dwds.de/wb/glotzen",
+          "cardPos": "verb"
+        },
+        {
+          "id": "4_target_official_master",
+          "pass": true,
+          "targetMaster": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+          "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/j%C3%B5llitama/1/eng",
+          "normativeTargetLemma": "jõllitama"
+        },
+        {
+          "id": "5_not_automatic_translation",
+          "pass": true,
+          "winningSourceId": "digar-saksa-eesti-valgus-1976",
+          "glosbeHadCandidates": false
+        }
+      ],
+      "galaConclusion": "TRANSLATION_VALIDATED",
+      "dictionaryName": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+      "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/355",
+      "targetMaster": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+      "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/j%C3%B5llitama/1/eng",
+      "revisedRow": null
+    },
+    {
+      "key": "et|Goldader",
+      "deLemma": "Goldader",
+      "appLang": "et",
+      "currentTarget": "kullasoon",
+      "pass": true,
+      "blockers": [],
+      "checks": [
+        {
+          "id": "1_bilingual_pair_in_named_dictionary",
+          "pass": true,
+          "dictionary": "Eesti-saksa sõnaraamat (DIGAR Valgus 1987, reverso DE→ET)",
+          "winningSourceId": "digar-eesti-saksa-valgus-1987",
+          "bilingualLookupStatus": "BILINGUAL_ENTRY_FOUND",
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:680924/430971/page/333",
+          "pairLemma": "kullasoon"
+        },
+        {
+          "id": "1b_live_digar_reverify",
+          "pass": true,
+          "mode": "REVERSE_ET_DE",
+          "lookupStatus": "BILINGUAL_ENTRY_FOUND",
+          "ok": true,
+          "readTarget": "kullasoon",
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:680924/430971/page/333",
+          "detail": null
+        },
+        {
+          "id": "2_report_url_and_read_target",
+          "pass": true,
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:680924/430971/page/333",
+          "targetTranslationDisplay": "kullasoon",
+          "pairLemma": "kullasoon"
+        },
+        {
+          "id": "3_de_sense_dwds",
+          "pass": true,
+          "deSourceUrl": "https://www.dwds.de/wb/Goldader",
+          "cardPos": "noun (die)"
+        },
+        {
+          "id": "4_target_official_master",
+          "pass": true,
+          "targetMaster": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+          "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/kullasoon/1/eng",
+          "normativeTargetLemma": "kullasoon"
+        },
+        {
+          "id": "5_not_automatic_translation",
+          "pass": true,
+          "winningSourceId": "digar-eesti-saksa-valgus-1987",
+          "glosbeHadCandidates": false
+        }
+      ],
+      "galaConclusion": "TRANSLATION_VALIDATED",
+      "dictionaryName": "Eesti-saksa sõnaraamat (DIGAR Valgus 1987, reverso DE→ET)",
+      "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:680924/430971/page/333",
+      "targetMaster": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+      "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/kullasoon/1/eng",
+      "revisedRow": null
+    },
+    {
+      "key": "et|Machtgier",
+      "deLemma": "Machtgier",
+      "appLang": "et",
+      "currentTarget": "võimuiha",
+      "pass": true,
+      "blockers": [],
+      "checks": [
+        {
+          "id": "1_bilingual_pair_in_named_dictionary",
+          "pass": true,
+          "dictionary": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+          "winningSourceId": "digar-saksa-eesti-valgus-1976",
+          "bilingualLookupStatus": "BILINGUAL_ENTRY_FOUND",
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/537",
+          "pairLemma": "võimuiha"
+        },
+        {
+          "id": "1b_live_digar_reverify",
+          "pass": true,
+          "mode": "FORWARD_DE_ET",
+          "lookupStatus": "BILINGUAL_ENTRY_FOUND",
+          "ok": true,
+          "readTargets": [
+            "võimuiha"
+          ],
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/537",
+          "detail": null
+        },
+        {
+          "id": "2_report_url_and_read_target",
+          "pass": true,
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/537",
+          "targetTranslationDisplay": "võimuiha",
+          "pairLemma": "võimuiha"
+        },
+        {
+          "id": "3_de_sense_dwds",
+          "pass": true,
+          "deSourceUrl": "https://www.dwds.de/wb/Machtgier",
+          "cardPos": "noun (die)"
+        },
+        {
+          "id": "4_target_official_master",
+          "pass": true,
+          "targetMaster": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+          "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/v%C3%B5imuiha/1/eng",
+          "normativeTargetLemma": "võimuiha"
+        },
+        {
+          "id": "5_not_automatic_translation",
+          "pass": true,
+          "winningSourceId": "digar-saksa-eesti-valgus-1976",
+          "glosbeHadCandidates": false
+        }
+      ],
+      "galaConclusion": "TRANSLATION_VALIDATED",
+      "dictionaryName": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+      "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/537",
+      "targetMaster": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+      "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/v%C3%B5imuiha/1/eng",
+      "revisedRow": null
+    }
+  ]
+}
