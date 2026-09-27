@@ -41,7 +41,11 @@ const {
   GALA_CONCLUSION,
 } = require("./lib/g2-a1-production-current/g2-a1-bilingual-row-status");
 const { loadG2Level } = require("./lib/content-crowdin-bridge/roundtrip");
-const { lookupDigarDeEtBilingual } = require("./lib/g2-a1-production-current/digar-de-et-bilingual-lookup");
+const {
+  lookupDigarDeEtBilingual,
+  lookupDigarEtDeReverseForDeEtPair,
+  BILINGUAL_ENTRY_FOUND,
+} = require("./lib/g2-a1-production-current/digar-de-et-bilingual-lookup");
 
 const RESCAN6 = JSON.parse(
   fs.readFileSync(
@@ -116,10 +120,20 @@ function specToCandidate(spec, appLang) {
   };
 }
 
-async function fetchSourcePage(spec, appLang, lemma) {
+async function fetchSourcePage(spec, appLang, lemma, ctx = {}) {
   const platform = spec.platform;
   if (platform === "digar-de-et") {
     const digarLookup = await lookupDigarDeEtBilingual(lemma);
+    return {
+      blocked: false,
+      digarLookup,
+      searchUrl: digarLookup.resultUrl,
+      finalUrl: digarLookup.resultUrl,
+      text: "",
+    };
+  }
+  if (platform === "digar-et-de-reverse") {
+    const digarLookup = await lookupDigarEtDeReverseForDeEtPair(lemma, ctx.currentTarget);
     return {
       blocked: false,
       digarLookup,
@@ -163,7 +177,7 @@ function extractFromPage(spec, page, lemma, appLang, cardGerman) {
   const searchUrl = page.searchUrl || page.finalUrl || spec.url;
   const platform = spec.platform;
 
-  if (platform === "digar-de-et") {
+  if (platform === "digar-de-et" || platform === "digar-et-de-reverse") {
     const lookup = page.digarLookup;
     if (!lookup?.ok || !lookup.targetTranslations?.length) return [];
     return filterTranslationCandidates(lookup.targetTranslations, lemma, appLang);
@@ -263,7 +277,7 @@ async function validateRow(fullRow, deAuthority) {
     let page;
     try {
       // eslint-disable-next-line no-await-in-loop
-      page = await fetchSourcePage(spec, appLang, lemma);
+      page = await fetchSourcePage(spec, appLang, lemma, { currentTarget });
     } catch (e) {
       attempts.push({ sourceId: spec.id, ok: false, error: String(e.message || e).slice(0, 80) });
       continue;
@@ -287,6 +301,7 @@ async function validateRow(fullRow, deAuthority) {
       resultUrl,
       parserOnlyEmpty: !translations.length && !page.blocked && /verbformen|dict\.cc/i.test(resultUrl),
       ...(digarLookup?.lookupStatus ? { bilingualLookupStatus: digarLookup.lookupStatus } : {}),
+      ...(digarLookup?.lookupMode ? { bilingualLookupMode: digarLookup.lookupMode } : {}),
     });
 
     if (!translations.length) continue;
@@ -334,7 +349,10 @@ async function validateRow(fullRow, deAuthority) {
         : "—";
 
   const digarWin = attempts.find(
-    (a) => a.sourceId === "digar-saksa-eesti-valgus-1976" && a.bilingualLookupStatus,
+    (a) =>
+      (a.sourceId === "digar-saksa-eesti-valgus-1976" ||
+        a.sourceId === "digar-eesti-saksa-valgus-1987") &&
+      a.bilingualLookupStatus === BILINGUAL_ENTRY_FOUND,
   );
 
   return {

@@ -37,6 +37,15 @@
       "ok": false
     }
   ],
-  "manifestSchema": "g2-a1-german-target-dictionary-de-et-used-sources-v1",
+  "reverseLiveChecks": [
+    {
+      "deLemma": "Goldader",
+      "cardEt": "kullasoon",
+      "lookupStatus": "BILINGUAL_ENTRY_FOUND",
+      "ok": true,
+      "page": 333
+    }
+  ],
+  "manifestSchema": "g2-a1-german-target-dictionary-de-et-used-sources-v2",
   "productionChanges": 0
 }

@@ -19,6 +19,18 @@
         "publisher": "Valgus",
         "year": 1976
       },
+      {
+        "id": "digar-eesti-saksa-valgus-1987",
+        "name": "Eesti-saksa sõnaraamat (DIGAR Valgus 1987, reverso DE→ET)",
+        "url": "https://www.digar.ee/viewer/et/nlib-digar:680924/430971/",
+        "platform": "digar-et-de-reverse",
+        "dictionaryManifestId": "digar-eesti-saksa-valgus-1987",
+        "publisher": "Valgus",
+        "year": 1987,
+        "direction": "et→de",
+        "approxEntryCount": 60000,
+        "digarArchiveUrl": "https://www.digar.ee/arhiiv/et/raamatud/192867"
+      },
       { "id": "glosbe-de-et", "name": "Glosbe German–Estonian", "url": "https://glosbe.com/de/et", "platform": "glosbe" },
       { "id": "verbformen-de-et", "name": "Netzverb / verbformen Deutsch–Estnisch", "url": "https://www.verbformen.de/de-et/", "platform": "verbformen" },
       { "id": "langenscheidt-de-et", "name": "Langenscheidt German–Estonian", "url": "https://en.langenscheidt.com/german-estonian/", "platform": "langenscheidt" },

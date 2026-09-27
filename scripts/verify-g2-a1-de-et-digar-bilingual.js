@@ -8,6 +8,7 @@ const { ROOT } = require("./lib/audit-common");
 const MANIFEST = require("./lib/data/german-target-dictionary-de-et-used-sources.json");
 const {
   lookupDigarDeEtBilingual,
+  lookupDigarEtDeReverseForDeEtPair,
   BILINGUAL_ENTRY_FOUND,
   NOT_FOUND_IN_DICTIONARY,
 } = require("./lib/g2-a1-production-current/digar-de-et-bilingual-lookup");
@@ -66,14 +67,35 @@ async function main() {
     ),
   ).languages.et;
   if (!etChain?.[0] || etChain[0].platform !== "digar-de-et") {
-    blockers.push({ code: "ET_CHAIN_DIGAR_NOT_FIRST", first: etChain?.[0]?.id });
+    blockers.push({ code: "ET_CHAIN_DIGAR_1976_NOT_FIRST", first: etChain?.[0]?.id });
   }
+  if (!etChain?.[1] || etChain[1].platform !== "digar-et-de-reverse") {
+    blockers.push({ code: "ET_CHAIN_DIGAR_1987_REVERSE_MISSING", second: etChain?.[1]?.id });
+  }
+
+  const reverseGoldader = await lookupDigarEtDeReverseForDeEtPair("Goldader", "kullasoon");
+  if (reverseGoldader.lookupStatus !== BILINGUAL_ENTRY_FOUND) {
+    blockers.push({
+      code: "REVERSE_GOLDADER_LOOKUP_FAIL",
+      got: reverseGoldader.lookupStatus,
+    });
+  }
+  const reverseLiveChecks = [
+    {
+      deLemma: "Goldader",
+      cardEt: "kullasoon",
+      lookupStatus: reverseGoldader.lookupStatus,
+      ok: reverseGoldader.ok,
+      page: reverseGoldader.page,
+    },
+  ];
 
   const pass = blockers.length === 0;
   const out = {
     pass,
     blockers,
     liveChecks,
+    reverseLiveChecks,
     manifestSchema: MANIFEST.schemaVersion,
     productionChanges: prodDiff ? prodDiff.split("\n").filter(Boolean).length : 0,
   };

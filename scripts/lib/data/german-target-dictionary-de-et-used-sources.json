@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "g2-a1-german-target-dictionary-de-et-used-sources-v1",
+  "schemaVersion": "g2-a1-german-target-dictionary-de-et-used-sources-v2",
   "languagePair": "de→et",
   "dictionaries": [
     {
@@ -8,18 +8,40 @@
       "authors": ["Elisabeth Kibbermann", "Salme Kirotar", "Paula Koppel"],
       "publisher": "Valgus",
       "year": 1976,
+      "direction": "de→et",
       "type": "INSTITUTIONAL_BILINGUAL_LEXICON_DIGAR",
       "access": "PUBLIC_BROWSER_SESSION",
       "viewerBaseUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/",
+      "digarArchiveUrl": null,
       "digarViewerCode": "nlib-digar:447887",
       "digarFileId": 394314,
       "digarSearchObjectId": 164571,
       "platform": "digar-de-et",
       "searchApiUrlTemplate": "https://www.digar.ee/viewer/api/search/{objectId}",
       "notes": "DIGAR OCR fulltext search; ET glosses transcribed from viewer pages for pilot lemmas."
+    },
+    {
+      "id": "digar-eesti-saksa-valgus-1987",
+      "name": "Eesti-saksa sõnaraamat / Estnisch-deutsches Wörterbuch",
+      "publisher": "Valgus",
+      "year": 1987,
+      "direction": "et→de",
+      "approxEntryCount": 60000,
+      "allowsDeEtReversePairValidation": true,
+      "type": "INSTITUTIONAL_BILINGUAL_LEXICON_DIGAR",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "digarArchiveUrl": "https://www.digar.ee/arhiiv/et/raamatud/192867",
+      "viewerBaseUrl": "https://www.digar.ee/viewer/et/nlib-digar:680924/430971/",
+      "digarViewerCode": "nlib-digar:680924",
+      "digarFileId": 430971,
+      "digarSearchObjectId": 192867,
+      "platform": "digar-et-de-reverse",
+      "searchApiUrlTemplate": "https://www.digar.ee/viewer/api/search/{objectId}",
+      "notes": "ET headword search; DE gloss confirms DE→ET card pair via reverse entry (e.g. kullasoon → die Goldader)."
     }
   ],
   "primaryDictionaryId": "digar-saksa-eesti-valgus-1976",
+  "reverseDictionaryId": "digar-eesti-saksa-valgus-1987",
   "verifiedEntries": {
     "Machtgier": {
       "status": "BILINGUAL_ENTRY_FOUND",
@@ -50,13 +72,25 @@
       "status": "NOT_FOUND_IN_DICTIONARY",
       "page": null,
       "viewerUrl": null,
-      "targetTranslations": []
+      "targetTranslations": [],
+      "forwardDictionaryId": "digar-saksa-eesti-valgus-1976",
+      "note": "Absent in Valgus 1976 DE→ET; pair validated via Valgus 1987 reverse entry."
     },
     "Grenzkonflikt": {
       "status": "NOT_FOUND_IN_DICTIONARY",
       "page": null,
       "viewerUrl": null,
       "targetTranslations": []
+    }
+  },
+  "verifiedReverseEntries": {
+    "Goldader": {
+      "status": "BILINGUAL_ENTRY_FOUND",
+      "etHeadword": "kullasoon",
+      "deGlossDisplay": "die Goldader",
+      "page": 333,
+      "viewerUrl": "https://www.digar.ee/viewer/et/nlib-digar:680924/430971/page/333",
+      "dictionaryId": "digar-eesti-saksa-valgus-1987"
     }
   }
 }

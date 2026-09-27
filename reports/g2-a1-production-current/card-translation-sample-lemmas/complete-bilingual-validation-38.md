@@ -1,18 +1,18 @@
 # G2/A1 — pilna divvalodu validācija (38 rindas)
 
-Ģenerēts: 2026-09-27T11:51:22.288Z
+Ģenerēts: 2026-09-27T12:05:04.741Z
 
 **Gala secinājums:**
-- TRANSLATION_VALIDATED: 4/38
+- TRANSLATION_VALIDATED: 5/38
 - FINDING: 0/38
 - TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING: 1/38
 - CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING: 5/38
 - NEEDS_SOURCE_REVIEW: 7/38
-- NOT_FOUND: 21/38
+- NOT_FOUND: 20/38
 
-**TRANSLATION_PAIR_STATUS:** VALIDATED 15/38 | MULTIPLE_CANDIDATES 2/38 | NOT_FOUND 21/38
+**TRANSLATION_PAIR_STATUS:** VALIDATED 16/38 | MULTIPLE_CANDIDATES 2/38 | NOT_FOUND 20/38
 
-**TARGET_LEMMA_STATUS:** VALIDATED 4/38 | VALIDATION_PENDING 10/38 | NOT_VALIDATED 3/38 | NOT_APPLICABLE 21/38
+**TARGET_LEMMA_STATUS:** VALIDATED 5/38 | VALIDATION_PENDING 10/38 | NOT_VALIDATED 3/38 | NOT_APPLICABLE 20/38
 
 | Valoda | DE vārds | CURRENT | TARGET tulkojums | Divvalodu vārdnīca | URL | TRANSLATION_PAIR_STATUS | TARGET_LEMMA_STATUS | Gala secinājums |
 |--------|----------|---------|------------------|-------------------|-----|-------------------------|---------------------|-----------------|
@@ -35,7 +35,7 @@
 | et | glotzen | jõllitama | jõllitama | Saksa-eesti sõnaraamat (DIGAR Valgus 1976) | https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/355 | VALIDATED | VALIDATED | TRANSLATION_VALIDATED |
 | sq | glotzen | Zez | — | Netzverb / verbformen Deutsch–Albanisch | https://www.verbformen.de/de-sq/?w=glotzen | NOT_FOUND | NOT_APPLICABLE | NOT_FOUND |
 | bs | Goldader | Zlatna vena | zlatna vena | Netzverb / verbformen Deutsch–Bosnisch | https://www.verbformen.de/de-bs/?w=Goldader | VALIDATED | VALIDATION_PENDING | CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING → zlatna vena |
-| et | Goldader | kullasoon | — | Saksa-eesti sõnaraamat (DIGAR Valgus 1976) | https://www.digar.ee/viewer/et/nlib-digar:447887/394314/ | NOT_FOUND | NOT_APPLICABLE | NOT_FOUND |
+| et | Goldader | kullasoon | kullasoon | Eesti-saksa sõnaraamat (DIGAR Valgus 1987, reverso DE→ET) | https://www.digar.ee/viewer/et/nlib-digar:680924/430971/page/333 | VALIDATED | VALIDATED | TRANSLATION_VALIDATED |
 | lt | Goldader | aukso gysla | — | vokieciu-lietuviu.com | http://www.vokieciu-lietuviu.com/?word=Goldader | NOT_FOUND | NOT_APPLICABLE | NOT_FOUND |
 | nn | Goldader | Kullasoon | — | DinOrdbok Tysk–Nynorsk | https://www.dinordbok.no/tysk-nynorsk/?q=Goldader | NOT_FOUND | NOT_APPLICABLE | NOT_FOUND |
 | sk | Goldader | Złota żyła | zlatá žila | Netzverb verbformen DE–SK | https://www.verbformen.de/de-sk/?w=Goldader | VALIDATED | VALIDATION_PENDING | NEEDS_SOURCE_REVIEW |
