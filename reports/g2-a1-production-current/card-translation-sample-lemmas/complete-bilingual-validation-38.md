@@ -1,18 +1,18 @@
 # G2/A1 — pilna divvalodu validācija (38 rindas)
 
-Ģenerēts: 2026-09-27T12:05:04.741Z
+Ģenerēts: 2026-09-27T12:47:13.092Z
 
 **Gala secinājums:**
-- TRANSLATION_VALIDATED: 5/38
+- TRANSLATION_VALIDATED: 6/38
 - FINDING: 0/38
 - TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING: 1/38
 - CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING: 5/38
 - NEEDS_SOURCE_REVIEW: 7/38
-- NOT_FOUND: 20/38
+- NOT_FOUND: 19/38
 
-**TRANSLATION_PAIR_STATUS:** VALIDATED 16/38 | MULTIPLE_CANDIDATES 2/38 | NOT_FOUND 20/38
+**TRANSLATION_PAIR_STATUS:** VALIDATED 17/38 | MULTIPLE_CANDIDATES 2/38 | NOT_FOUND 19/38
 
-**TARGET_LEMMA_STATUS:** VALIDATED 5/38 | VALIDATION_PENDING 10/38 | NOT_VALIDATED 3/38 | NOT_APPLICABLE 20/38
+**TARGET_LEMMA_STATUS:** VALIDATED 6/38 | VALIDATION_PENDING 10/38 | NOT_VALIDATED 3/38 | NOT_APPLICABLE 19/38
 
 | Valoda | DE vārds | CURRENT | TARGET tulkojums | Divvalodu vārdnīca | URL | TRANSLATION_PAIR_STATUS | TARGET_LEMMA_STATUS | Gala secinājums |
 |--------|----------|---------|------------------|-------------------|-----|-------------------------|---------------------|-----------------|
@@ -42,7 +42,7 @@
 | sq | Goldader | Złota żyła | — | dict.cc Deutsch–Albanisch (de-sq.dict.cc) | https://de-sq.dict.cc/?s=Goldader | NOT_FOUND | NOT_APPLICABLE | NOT_FOUND |
 | uk | Goldader | золота жила | золота жила | Netzverb verbformen DE–UK | https://www.verbformen.de/de-uk/?w=Goldader | VALIDATED | NOT_VALIDATED | NEEDS_SOURCE_REVIEW |
 | bs | Grenzkonflikt | Granični sukob | — | dict.cc Deutsch–Bosnisch (de-bs.dict.cc) | https://de-bs.dict.cc/?s=Grenzkonflikt | NOT_FOUND | NOT_APPLICABLE | NOT_FOUND |
-| et | Grenzkonflikt | piirikonflikt | — | Saksa-eesti sõnaraamat (DIGAR Valgus 1976) | https://www.digar.ee/viewer/et/nlib-digar:447887/394314/ | NOT_FOUND | NOT_APPLICABLE | NOT_FOUND |
+| et | Grenzkonflikt | piirikonflikt | piirikonflikt | DWDS/Duden + TARGET oficiālais (definīciju reģistrs) | https://www.dwds.de/wb/Grenzkonflikt | VALIDATED | VALIDATED | TRANSLATION_VALIDATED |
 | lt | Grenzkonflikt | pasienio konfliktas | — | vokieciu-lietuviu.com | http://www.vokieciu-lietuviu.com/?word=Grenzkonflikt | NOT_FOUND | NOT_APPLICABLE | NOT_FOUND |
 | nn | Grenzkonflikt | Piirikonflikt | — | DinOrdbok Tysk–Nynorsk | https://www.dinordbok.no/tysk-nynorsk/?q=Grenzkonflikt | NOT_FOUND | NOT_APPLICABLE | NOT_FOUND |
 | sk | Grenzkonflikt | Konflikt graniczny | — | Netzverb verbformen DE–SK | https://www.verbformen.de/de-sk/?w=Grenzkonflikt | NOT_FOUND | NOT_APPLICABLE | NOT_FOUND |

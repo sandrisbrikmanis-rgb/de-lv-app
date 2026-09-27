@@ -46,6 +46,10 @@ const {
   lookupDigarEtDeReverseForDeEtPair,
   BILINGUAL_ENTRY_FOUND,
 } = require("./lib/g2-a1-production-current/digar-de-et-bilingual-lookup");
+const {
+  EVIDENCE_TIER,
+  assessDefinitionSemanticTranslationEvidence,
+} = require("./lib/g2-a1-production-current/card-translation-evidence-ladder");
 
 const RESCAN6 = JSON.parse(
   fs.readFileSync(
@@ -322,8 +326,36 @@ async function validateRow(fullRow, deAuthority) {
     winningUrl = hit.resultUrl;
   }
 
-  const pair = resolveTranslationPairStatus(pool, currentTarget);
-  const target =
+  let pair = resolveTranslationPairStatus(pool, currentTarget);
+  let definitionEvidence = null;
+
+  if (pair.translationPairStatus === TRANSLATION_PAIR_STATUS.NOT_FOUND && !pool.length) {
+    const current = stripQuotes(currentTarget || "");
+    const variants = targetLookupVariants(current, current);
+    for (const term of variants) {
+      // eslint-disable-next-line no-await-in-loop
+      const targetAuthority = await lookupTargetForProvenLemma(appLang, term);
+      // eslint-disable-next-line no-await-in-loop
+      const defMatch = assessDefinitionSemanticTranslationEvidence(
+        deAuthority,
+        targetAuthority,
+        cardGerman,
+        currentTarget,
+        appLang,
+      );
+      if (defMatch.tier === EVIDENCE_TIER.DEFINITION_SEMANTIC_CLEAR) {
+        definitionEvidence = defMatch;
+        pair = {
+          translationPairStatus: TRANSLATION_PAIR_STATUS.VALIDATED,
+          pairReason: "DEFINITION_SEMANTIC_REGISTRY",
+          pairLemma: term,
+        };
+        break;
+      }
+    }
+  }
+
+  let target =
     pair.translationPairStatus === TRANSLATION_PAIR_STATUS.NOT_FOUND
       ? targetStatusWhenPairNotFound()
       : await resolveTargetLemmaStatus(
@@ -346,7 +378,9 @@ async function validateRow(fullRow, deAuthority) {
       ? pair.pairLemma
       : pool.length
         ? [...new Set(pool.map((c) => c.targetLemma))].slice(0, 6).join("; ")
-        : "—";
+        : definitionEvidence
+          ? stripQuotes(currentTarget)
+          : "—";
 
   const digarWin = attempts.find(
     (a) =>
@@ -366,8 +400,15 @@ async function validateRow(fullRow, deAuthority) {
     deSourceUrl: deAuthority?.entryUrl || fullRow.deSourceUrl || null,
     currentTarget: stripQuotes(currentTarget),
     targetTranslationDisplay: displayTarget,
-    dictionaryName: winningSource || (attempts.length ? chain[0]?.name : null),
-    resultUrl: winningUrl || attempts.find((a) => a.resultUrl)?.resultUrl || null,
+    dictionaryName:
+      winningSource ||
+      (definitionEvidence ? "DWDS/Duden + TARGET oficiālais (definīciju reģistrs)" : null) ||
+      (attempts.length ? chain[0]?.name : null),
+    resultUrl:
+      winningUrl ||
+      (definitionEvidence ? deAuthority?.entryUrl : null) ||
+      attempts.find((a) => a.resultUrl)?.resultUrl ||
+      null,
     translationPairStatus: pair.translationPairStatus,
     translationPairReason: pair.pairReason,
     pairLemma: pair.pairLemma,
@@ -387,6 +428,13 @@ async function validateRow(fullRow, deAuthority) {
     rejectedStrictCount: filteredFinal.rejected.length,
     ...(appLang === "et" && digarWin?.bilingualLookupStatus
       ? { deEtInstitutionalBilingualLookupStatus: digarWin.bilingualLookupStatus }
+      : {}),
+    ...(definitionEvidence
+      ? {
+          definitionSemanticEvidence: definitionEvidence.tier,
+          definitionSemanticReason: definitionEvidence.reason,
+          definitionRegistryPairId: definitionEvidence.registryPairId,
+        }
       : {}),
   };
 }

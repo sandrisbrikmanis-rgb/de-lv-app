@@ -5500,9 +5500,13 @@ Salīdzina:
 - **DE definīciju / nozīmi** no **DWDS** vai **Duden**;
 - **TARGET definīciju** no attiecīgās valodas **oficiālā MASTER avota** (①–③ reģistrs).
 
-**Nepārprotama** nozīmju sakritība (deterministiski, reproducējami signāli, nevis
-AI “izjūta”) → `TRANSLATION_VALIDATED`. **Neskaidra** atbilstība →
-`NEEDS_SOURCE_REVIEW`. Implementācija: `assessDefinitionSemanticTranslationEvidence()`.
+**Nepārprotama** nozīmju sakritība (reģistrēts pāris + valodas **iekšējie**
+definīciju marķieri; **aizliegta** vienkārša DE/TARGET vārdu tokenu sakritība
+ starp valodām) → `TRANSLATION_VALIDATED`. AI drīkst semantiski salīdzināt
+ avotus, bet kods piešķir VALIDATED tikai reģistrētām nepārprotamām pāriem.
+ **Neskaidra** atbilstība → `NEEDS_SOURCE_REVIEW`. Implementācija:
+ `card-translation-definition-semantic-pairs.json`,
+ `assessDefinitionSemanticTranslationEvidence()`.
 
 ### 7.162.3. AI / LLM kandidāti
 

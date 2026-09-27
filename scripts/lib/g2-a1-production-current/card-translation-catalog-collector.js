@@ -297,7 +297,8 @@ async function collectFromSingleCandidate(candidate, appLang, cardGerman, search
 
   if (/glosbe\.com/i.test(searchUrl)) {
     const autoOnly =
-      isGlosbeAutomaticOnly(page.text, searchLemma) || pageTextIsAutomaticTranslationOnly(page.text || "");
+      isGlosbeAutomaticOnly(page.text, searchLemma) ||
+      pageTextIsAutomaticTranslationOnly(page.text || "", searchLemma);
     const extracted = extractTranslations(page, searchLemma, searchUrl, appLang, cardGerman);
     if (autoOnly && !extracted.length) {
       return {
@@ -330,6 +331,7 @@ async function collectFromSingleCandidate(candidate, appLang, cardGerman, search
   const evidenceOk = sourceQualifiesAsBilingualDictionaryEvidence(
     { url: candidate.url, type: candidate.type, platform: candidate.platform },
     page.text || "",
+    searchLemma,
   );
   if (!evidenceOk.ok) {
     return {

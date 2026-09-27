@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "g2-a1-card-translation-definition-semantic-pairs-v1",
+  "description": "Language-internal definition markers for unambiguous DEFINITION_SEMANTIC_CLEAR (no cross-language token overlap).",
+  "pairs": [
+    {
+      "id": "grenzkonflikt-et-piirikonflikt",
+      "deLemma": "Grenzkonflikt",
+      "appLang": "et",
+      "targetLemma": "piirikonflikt",
+      "deAuthorityKinds": ["dwds", "duden"],
+      "targetAuthorityIdPattern": "sonaveeb|et-eki",
+      "deDefinitionIncludes": ["grenz", "konflikt"],
+      "targetDefinitionIncludes": ["piiri", "konflikt"],
+      "semanticLabel": "BORDER_CONFLICT"
+    },
+    {
+      "id": "goldader-et-kullasoon-etymology",
+      "deLemma": "Goldader",
+      "appLang": "et",
+      "targetLemma": "kullasoon",
+      "deAuthorityKinds": ["dwds", "duden"],
+      "targetAuthorityIdPattern": "sonaveeb|et-eki",
+      "deDefinitionIncludes": ["gold"],
+      "targetEtymologyReferencesDeLemma": true,
+      "semanticLabel": "GOLD_VEIN"
+    }
+  ]
+}

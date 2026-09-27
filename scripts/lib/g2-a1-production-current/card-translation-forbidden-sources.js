@@ -59,28 +59,71 @@ function manifestSourceAllowed(manifestRow) {
   return { ok: true };
 }
 
+function glosbeTextBeforeAutomaticSection(text) {
+  const t = String(text || "");
+  const autoIdx = t.search(/AUTOMATIC TRANSLATIONS|SHOW ALGORITHMICALLY GENERATED TRANSLATIONS/i);
+  return autoIdx >= 0 ? t.slice(0, autoIdx) : t;
+}
+
+/**
+ * Glosbe: tikai skaidri identificēts vārdnīcas ieraksts (pirms automātiskās sadaļas).
+ */
+function glosbePageHasIdentifiedDictionaryEntry(pageText, lemma) {
+  const lemmaStr = String(lemma || "").trim();
+  if (!lemmaStr) return false;
+  const preAuto = glosbeTextBeforeAutomaticSection(pageText);
+  if (/translation memory only/i.test(preAuto)) return false;
+  if (/glosbe translate/i.test(preAuto)) return false;
+
+  let extractGlosbeDictionarySection;
+  try {
+    ({ extractGlosbeDictionarySection } = require("./german-target-dictionary-search-probe"));
+  } catch {
+    return false;
+  }
+  if (extractGlosbeDictionarySection(preAuto, lemmaStr).length > 0) return true;
+  if (/phrase dictionary/i.test(preAuto) && new RegExp(`\\b${lemmaStr.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(preAuto)) {
+    return true;
+  }
+  return false;
+}
+
+function pageTextIsAutomaticTranslationOnly(text, lemma = "") {
+  const t = String(text || "");
+  if (/translation memory only/i.test(t)) return true;
+  if (/google translate/i.test(t)) return true;
+  if (/glosbe translate/i.test(t)) return true;
+  if (/algorithmically generated translations/i.test(t)) return true;
+
+  const hasAutoSection = /automatic translations/i.test(t);
+  if (!hasAutoSection) {
+    return AUTOMATIC_TRANSLATION_MARKERS.some((re) => re.test(t) && !/phrase dictionary/i.test(t));
+  }
+
+  if (lemma && /glosbe/i.test(t)) {
+    return !glosbePageHasIdentifiedDictionaryEntry(t, lemma);
+  }
+
+  return true;
+}
+
 /** Vai avots drīkst dot TRANSLATION_PAIR pierādījumu (nevis tikai meklēt kandidātus). */
-function sourceQualifiesAsBilingualDictionaryEvidence(manifestRow, pageText) {
+function sourceQualifiesAsBilingualDictionaryEvidence(manifestRow, pageText, lemma = "") {
   const base = manifestSourceAllowed(manifestRow);
   if (!base.ok) return base;
   const url = manifestRow?.url || "";
   if (isForbiddenBilingualDictionaryEvidenceHost(url)) {
     return { ok: false, code: "FORBIDDEN_AUTO_TRANSLATOR_NOT_DICTIONARY_EVIDENCE" };
   }
+  if (pageTextIsAutomaticTranslationOnly(pageText || "", lemma)) {
+    return { ok: false, code: "AUTOMATIC_TRANSLATION_NOT_DICTIONARY_EVIDENCE" };
+  }
   if (manifestRow?.platform === "glosbe" || /glosbe\.com/i.test(url)) {
-    if (pageTextIsAutomaticTranslationOnly(pageText || "")) {
-      return { ok: false, code: "GLOSBE_AUTOMATIC_TRANSLATION_NOT_DICTIONARY_EVIDENCE" };
+    if (!glosbePageHasIdentifiedDictionaryEntry(pageText || "", lemma)) {
+      return { ok: false, code: "GLOSBE_NO_IDENTIFIED_DICTIONARY_ENTRY" };
     }
   }
   return { ok: true };
-}
-
-function pageTextIsAutomaticTranslationOnly(text) {
-  const t = String(text || "");
-  const hasAuto = AUTOMATIC_TRANSLATION_MARKERS.some((re) => re.test(t));
-  const hasDictionaryPair = /dict\.cc|translation memory|phrase dictionary|vocabulary|vok/i.test(t);
-  if (hasAuto && !hasDictionaryPair) return true;
-  return false;
 }
 
 module.exports = {
@@ -91,4 +134,6 @@ module.exports = {
   manifestSourceAllowed,
   sourceQualifiesAsBilingualDictionaryEvidence,
   pageTextIsAutomaticTranslationOnly,
+  glosbePageHasIdentifiedDictionaryEntry,
+  glosbeTextBeforeAutomaticSection,
 };

@@ -3,10 +3,6 @@
 
 /**
  * Kartīšu tulkojuma pierādījumu kārtība (MASTER §7.162).
- * 1) PDF/skenēta divvalodu vārdnīca: DE→TARGET, tad TARGET→DE (reverso).
- * 2) Ja nav tieša pāra: DWDS/Duden DE definīcija + TARGET oficiālā definīcija.
- * 3) AI kandidāti — tikai pēc apstiprināšanas ar 1 vai 2.
- * 4) Glosbe Translate / Google Translate u.c. — nav vārdnīcas pierādījums.
  */
 
 const { assessDeSenseUniqueness } = require("./g2-a1-bilingual-de-sense-gate");
@@ -18,6 +14,7 @@ const {
   deLemmaMatchesCard,
 } = require("./card-translation-audit-search");
 const { stripQuotes } = require("./source-adapters/lookup-normalization");
+const { assessRegistryDefinitionAlignment } = require("./card-translation-definition-semantic");
 
 const EVIDENCE_TIER = Object.freeze({
   BILINGUAL_PDF_FORWARD: "BILINGUAL_PDF_FORWARD_DE_TARGET",
@@ -55,69 +52,26 @@ function isAutomaticTranslationDictionaryEvidence({ platform, sourceId, sourceUr
   const p = String(platform || "").trim();
   const id = String(sourceId || "").trim().toLowerCase();
   const url = String(sourceUrl || "").trim().toLowerCase();
+  const text = String(pageText || "");
 
   if (AUTOMATIC_TRANSLATION_PLATFORMS.includes(p)) return true;
-  if (/^glosbe-de-/i.test(id) && /automatic translations|algorithmically generated/i.test(String(pageText || ""))) {
+  if (/translate\.google\.com|translate\.googleapis\.com/i.test(url)) return true;
+  if (/glosbe\.com\/.*\/translate/i.test(url)) return true;
+  if (/translation memory only/i.test(text)) return true;
+  if (/glosbe translate/i.test(text)) return true;
+  if (/^glosbe-de-/i.test(id) && /automatic translations|algorithmically generated/i.test(text)) {
     return true;
   }
-  if (/glosbe\.com\/.*\/translate/i.test(url)) return true;
-  if (/translate\.google\.com|translate\.googleapis\.com/i.test(url)) return true;
   return false;
 }
 
-function normalizeForTokenCompare(text) {
-  return String(text || "")
-    .toLowerCase()
-    .replace(/[^\p{L}\p{N}\s-]/gu, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-const STOP_DE = new Set([
-  "der",
-  "die",
-  "das",
-  "den",
-  "dem",
-  "des",
-  "ein",
-  "eine",
-  "einer",
-  "eines",
-  "und",
-  "oder",
-  "mit",
-  "von",
-  "für",
-  "substantiv",
-  "verb",
-  "femininum",
-  "maskulinum",
-  "neutrum",
-]);
-
-function contentTokens(text, minLen = 4) {
-  const out = new Set();
-  for (const w of normalizeForTokenCompare(text).split(/\s+/)) {
-    if (w.length < minLen || STOP_DE.has(w)) continue;
-    out.add(w);
-  }
-  return out;
-}
-
-function deLemmaReferencedInTargetText(deLemma, targetText) {
-  const lemma = String(deLemma || "").trim();
-  if (!lemma || !targetText) return false;
-  const esc = lemma.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  return new RegExp(`\\b${esc}\\b`, "i").test(String(targetText));
-}
-
 /**
- * Deterministiska DE+TARGET definīciju salīdzināšana (nav AI verdicts).
- * @returns {{ tier: string, reason: string, signals: string[] }}
+ * Definīciju salīdzinājums: tikai reģistrētas nepārprotamas pāris + valodas iekšējie marķieri.
+ * Nav krusteniskas DE/TARGET vārdu tokenu sakritības.
  */
-function assessDefinitionSemanticTranslationEvidence(deAuthority, targetAuthority, cardGerman, currentTarget) {
+function assessDefinitionSemanticTranslationEvidence(deAuthority, targetAuthority, cardGerman, currentTarget, appLang) {
   const signals = [];
+  const lang = String(appLang || "").trim();
 
   if (!isDeLemmaConfirmed(deAuthority) || !isGermanDeAuthorityDwdsOrDuden(deAuthority)) {
     return { tier: EVIDENCE_TIER.NONE, reason: "DE_NOT_DWDS_OR_DUDEN", signals };
@@ -147,36 +101,39 @@ function assessDefinitionSemanticTranslationEvidence(deAuthority, targetAuthorit
   }
   signals.push("DE_SENSE_UNIQUELY_ATTESTED");
 
-  if (deLemmaReferencedInTargetText(cardGerman.lemma, targetFrag)) {
-    signals.push("DE_LEMMA_IN_TARGET_DEFINITION");
+  const registry = assessRegistryDefinitionAlignment(
+    deAuthority,
+    targetAuthority,
+    cardGerman,
+    currentTarget,
+    lang,
+  );
+
+  if (registry.matched) {
+    signals.push(`REGISTRY_${registry.pairId}`);
+    if (registry.semanticLabel) signals.push(registry.semanticLabel);
+    return {
+      tier: EVIDENCE_TIER.DEFINITION_SEMANTIC_CLEAR,
+      reason: registry.reason,
+      signals,
+      registryPairId: registry.pairId,
+    };
   }
 
-  const deTokens = contentTokens(deFrag);
-  const targetTokens = contentTokens(targetFrag);
-  let overlap = 0;
-  for (const t of deTokens) {
-    if (targetTokens.has(t)) overlap += 1;
+  if (registry.partial || registry.reason === "NO_REGISTERED_DEFINITION_PAIR") {
+    return {
+      tier: EVIDENCE_TIER.DEFINITION_SEMANTIC_UNCLEAR,
+      reason: registry.reason || "DEFINITION_SEMANTIC_NOT_UNAMBIGUOUS",
+      signals,
+      registryPairId: registry.pairId,
+    };
   }
-  if (overlap >= 2) signals.push(`SHARED_CONTENT_TOKENS_${overlap}`);
 
-  const hasStrong =
-    signals.includes("DE_LEMMA_IN_TARGET_DEFINITION") ||
-    (signals.includes("DE_SENSE_UNIQUELY_ATTESTED") && overlap >= 3);
-
-  const hasWeak =
-    signals.includes("DE_SENSE_UNIQUELY_ATTESTED") &&
-    (signals.includes("DE_LEMMA_IN_TARGET_DEFINITION") || overlap >= 1);
-
-  if (hasStrong) {
-    return { tier: EVIDENCE_TIER.DEFINITION_SEMANTIC_CLEAR, reason: "UNAMBIGUOUS_DEFINITION_ALIGNMENT", signals };
-  }
-  if (hasWeak && overlap >= 2) {
-    return { tier: EVIDENCE_TIER.DEFINITION_SEMANTIC_CLEAR, reason: "DEFINITION_TOKEN_ALIGNMENT", signals };
-  }
-  if (hasWeak) {
-    return { tier: EVIDENCE_TIER.DEFINITION_SEMANTIC_UNCLEAR, reason: "PARTIAL_DEFINITION_ALIGNMENT", signals };
-  }
-  return { tier: EVIDENCE_TIER.NONE, reason: "NO_DEFINITION_ALIGNMENT", signals };
+  return {
+    tier: EVIDENCE_TIER.DEFINITION_SEMANTIC_UNCLEAR,
+    reason: registry.reason || "DEFINITION_ALIGNMENT_REQUIRES_REVIEW",
+    signals,
+  };
 }
 
 function bilingualEvidenceTierFromMeta(meta) {

@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-09-27T12:35:49.898Z",
+  "pass": true,
+  "blockers": [],
+  "cases": [
+    {
+      "id": "grenzkonflikt-et-positive",
+      "tier": "DEFINITION_SEMANTIC_CLEAR",
+      "reason": "REGISTERED_UNAMBIGUOUS_DEFINITION_PAIR",
+      "signals": [
+        "DE_SENSE_UNIQUELY_ATTESTED",
+        "REGISTRY_grenzkonflikt-et-piirikonflikt",
+        "BORDER_CONFLICT"
+      ],
+      "registryPairId": "grenzkonflikt-et-piirikonflikt",
+      "expectedVerdict": "TRANSLATION_VALIDATED"
+    },
+    {
+      "id": "grenzkonflikt-et-partial-negative",
+      "tier": "DEFINITION_SEMANTIC_UNCLEAR",
+      "reason": "NO_REGISTERED_DEFINITION_PAIR",
+      "signals": [
+        "DE_SENSE_UNIQUELY_ATTESTED"
+      ],
+      "registryPairId": null,
+      "expectedVerdict": "NEEDS_SOURCE_REVIEW"
+    }
+  ]
+}

@@ -486,6 +486,7 @@ module.exports = {
   buildSearchUrlForCandidate,
   fetchDictionaryPageForCandidate,
   extractTranslations,
+  extractGlosbeDictionarySection,
   isGlosbeAutomaticOnly,
   isSubscriptionWall,
 };

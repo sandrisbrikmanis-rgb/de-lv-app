@@ -84,6 +84,7 @@ async function runCardTranslationAuditForLanguage(appLang, cardGerman, currentTa
           targetAuthority,
           cardGerman,
           currentTarget,
+          appLang,
         );
         if (defMatch.tier === EVIDENCE_TIER.DEFINITION_SEMANTIC_CLEAR) {
           const validatedGate = require("./card-translation-audit-policy").canEmitTranslationValidated({
