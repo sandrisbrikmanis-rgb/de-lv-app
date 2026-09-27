@@ -41,6 +41,7 @@ const {
   GALA_CONCLUSION,
 } = require("./lib/g2-a1-production-current/g2-a1-bilingual-row-status");
 const { loadG2Level } = require("./lib/content-crowdin-bridge/roundtrip");
+const { lookupDigarDeEtBilingual } = require("./lib/g2-a1-production-current/digar-de-et-bilingual-lookup");
 
 const RESCAN6 = JSON.parse(
   fs.readFileSync(
@@ -117,6 +118,16 @@ function specToCandidate(spec, appLang) {
 
 async function fetchSourcePage(spec, appLang, lemma) {
   const platform = spec.platform;
+  if (platform === "digar-de-et") {
+    const digarLookup = await lookupDigarDeEtBilingual(lemma);
+    return {
+      blocked: false,
+      digarLookup,
+      searchUrl: digarLookup.resultUrl,
+      finalUrl: digarLookup.resultUrl,
+      text: "",
+    };
+  }
   if (platform === "verbformen" || platform === "dinordbok" || platform === "lietuviu-vokieciu-reverse") {
     const verifySpec = {
       dictionaryName: spec.name,
@@ -151,6 +162,12 @@ function extractFromPage(spec, page, lemma, appLang, cardGerman) {
   const text = page.text || "";
   const searchUrl = page.searchUrl || page.finalUrl || spec.url;
   const platform = spec.platform;
+
+  if (platform === "digar-de-et") {
+    const lookup = page.digarLookup;
+    if (!lookup?.ok || !lookup.targetTranslations?.length) return [];
+    return filterTranslationCandidates(lookup.targetTranslations, lemma, appLang);
+  }
 
   if (platform === "verbformen" || platform === "dinordbok" || platform === "lietuviu-vokieciu-reverse") {
     return extractForPlatform(
@@ -262,12 +279,14 @@ async function validateRow(fullRow, deAuthority) {
       platform: spec.platform,
     };
     const batch = mapTargetsToCandidates(translations, cardGerman, sourceMeta);
+    const digarLookup = page.digarLookup;
     attempts.push({
       sourceId: spec.id,
       ok: translations.length > 0,
       extractedCount: translations.length,
       resultUrl,
       parserOnlyEmpty: !translations.length && !page.blocked && /verbformen|dict\.cc/i.test(resultUrl),
+      ...(digarLookup?.lookupStatus ? { bilingualLookupStatus: digarLookup.lookupStatus } : {}),
     });
 
     if (!translations.length) continue;
@@ -314,6 +333,10 @@ async function validateRow(fullRow, deAuthority) {
         ? [...new Set(pool.map((c) => c.targetLemma))].slice(0, 6).join("; ")
         : "—";
 
+  const digarWin = attempts.find(
+    (a) => a.sourceId === "digar-saksa-eesti-valgus-1976" && a.bilingualLookupStatus,
+  );
+
   return {
     appLang,
     deLemma: lemma,
@@ -344,6 +367,9 @@ async function validateRow(fullRow, deAuthority) {
     candidateCount: pool.length,
     candidateCountRaw: allCandidates.length,
     rejectedStrictCount: filteredFinal.rejected.length,
+    ...(appLang === "et" && digarWin?.bilingualLookupStatus
+      ? { deEtInstitutionalBilingualLookupStatus: digarWin.bilingualLookupStatus }
+      : {}),
   };
 }
 
@@ -468,6 +494,8 @@ async function main() {
     ),
   );
 }
+
+module.exports = { validateRow, sourcesForLang };
 
 if (require.main === module) {
   main().catch((e) => {

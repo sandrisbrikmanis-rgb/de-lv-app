@@ -1,14 +1,14 @@
 {
   "schemaVersion": "g2-a1-complete-bilingual-validation-38-v5",
-  "generatedAt": "2026-09-26T17:37:11.519Z",
+  "generatedAt": "2026-09-27T11:51:22.288Z",
   "rowCount": 38,
-  "translationValidatedCount": 0,
+  "translationValidatedCount": 4,
   "findingCount": 0,
   "needsSourceReviewCount": 7,
-  "notFoundCount": 25,
-  "translationPairValidatedCount": 11,
-  "targetLemmaValidatedCount": 0,
-  "policy": "v5 gala recompute on v4 bilingual evidence; pair VALIDATED + target pending; cap pending; NOT_FOUND → target N/A",
+  "notFoundCount": 21,
+  "translationPairValidatedCount": 15,
+  "targetLemmaValidatedCount": 4,
+  "policy": "v5 gala; ET rows refreshed via DIGAR Valgus 1976 (merge-g2-a1-validation-38-et-digar.js)",
   "results": [
     {
       "appLang": "sq",
@@ -302,23 +302,31 @@
       "cardSenseEnHelper": "Petty cash",
       "deSourceUrl": "https://www.dwds.de/wb/Kleingeld",
       "currentTarget": "peenraha",
-      "targetTranslationDisplay": "—",
-      "dictionaryName": "Glosbe German–Estonian",
-      "resultUrl": "https://glosbe.com/de/et/Kleingeld",
-      "translationPairStatus": "NOT_FOUND",
-      "translationPairReason": "NO_FILTERED_BILINGUAL_CANDIDATES",
-      "pairLemma": null,
-      "targetLemmaStatus": "NOT_APPLICABLE",
-      "targetLemmaReason": "NO_BILINGUAL_PAIR",
-      "targetSourceUrl": null,
-      "normativeTargetLemma": null,
-      "galaConclusion": "NOT_FOUND",
-      "galaReason": "NO_BILINGUAL_PAIR",
-      "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_BILINGUAL_PAIR",
+      "targetTranslationDisplay": "peenraha",
+      "dictionaryName": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+      "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/465",
+      "translationPairStatus": "VALIDATED",
+      "translationPairReason": "CARD_CURRENT_UNIQUELY_IN_FILTERED_SET",
+      "pairLemma": "peenraha",
+      "targetLemmaStatus": "VALIDATED",
+      "targetLemmaReason": "TARGET_OFFICIAL_MATCHES_CURRENT",
+      "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/peenraha/1/eng",
+      "normativeTargetLemma": "peenraha",
+      "galaConclusion": "TRANSLATION_VALIDATED",
+      "galaReason": "CURRENT_EXACT_BILINGUAL_AND_TARGET_OFFICIAL",
+      "finalStatus": "TRANSLATION_VALIDATED",
+      "finalReason": "CURRENT_EXACT_BILINGUAL_AND_TARGET_OFFICIAL",
       "findingType": null,
       "proposedNew": null,
       "sourcesTried": [
+        {
+          "sourceId": "digar-saksa-eesti-valgus-1976",
+          "ok": true,
+          "extractedCount": 2,
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/465",
+          "parserOnlyEmpty": false,
+          "bilingualLookupStatus": "BILINGUAL_ENTRY_FOUND"
+        },
         {
           "sourceId": "glosbe-de-et",
           "ok": false,
@@ -348,9 +356,10 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0,
-      "candidateCountRaw": 0,
-      "rejectedStrictCount": 0
+      "candidateCount": 2,
+      "candidateCountRaw": 2,
+      "rejectedStrictCount": 0,
+      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND"
     },
     {
       "appLang": "sq",
@@ -725,23 +734,31 @@
       "cardSenseEnHelper": "To host / serve guests",
       "deSourceUrl": "https://www.dwds.de/wb/bewirten",
       "currentTarget": "kostitama",
-      "targetTranslationDisplay": "—",
-      "dictionaryName": "Glosbe German–Estonian",
-      "resultUrl": "https://glosbe.com/de/et/bewirten",
-      "translationPairStatus": "NOT_FOUND",
-      "translationPairReason": "NO_FILTERED_BILINGUAL_CANDIDATES",
-      "pairLemma": null,
-      "targetLemmaStatus": "NOT_APPLICABLE",
-      "targetLemmaReason": "NO_BILINGUAL_PAIR",
-      "targetSourceUrl": null,
-      "normativeTargetLemma": null,
-      "galaConclusion": "NOT_FOUND",
-      "galaReason": "NO_BILINGUAL_PAIR",
-      "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_BILINGUAL_PAIR",
+      "targetTranslationDisplay": "kostitama",
+      "dictionaryName": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+      "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/144",
+      "translationPairStatus": "VALIDATED",
+      "translationPairReason": "CARD_CURRENT_UNIQUELY_IN_FILTERED_SET",
+      "pairLemma": "kostitama",
+      "targetLemmaStatus": "VALIDATED",
+      "targetLemmaReason": "TARGET_OFFICIAL_MATCHES_CURRENT",
+      "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/kostitama/1/eng",
+      "normativeTargetLemma": "kostitama",
+      "galaConclusion": "TRANSLATION_VALIDATED",
+      "galaReason": "CURRENT_EXACT_BILINGUAL_AND_TARGET_OFFICIAL",
+      "finalStatus": "TRANSLATION_VALIDATED",
+      "finalReason": "CURRENT_EXACT_BILINGUAL_AND_TARGET_OFFICIAL",
       "findingType": null,
       "proposedNew": null,
       "sourcesTried": [
+        {
+          "sourceId": "digar-saksa-eesti-valgus-1976",
+          "ok": true,
+          "extractedCount": 2,
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/144",
+          "parserOnlyEmpty": false,
+          "bilingualLookupStatus": "BILINGUAL_ENTRY_FOUND"
+        },
         {
           "sourceId": "glosbe-de-et",
           "ok": false,
@@ -771,9 +788,10 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0,
-      "candidateCountRaw": 0,
-      "rejectedStrictCount": 0
+      "candidateCount": 2,
+      "candidateCountRaw": 2,
+      "rejectedStrictCount": 0,
+      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND"
     },
     {
       "appLang": "sq",
@@ -1125,23 +1143,31 @@
       "cardSenseEnHelper": "Stare",
       "deSourceUrl": "https://www.dwds.de/wb/glotzen",
       "currentTarget": "jõllitama",
-      "targetTranslationDisplay": "—",
-      "dictionaryName": "Glosbe German–Estonian",
-      "resultUrl": "https://glosbe.com/de/et/glotzen",
-      "translationPairStatus": "NOT_FOUND",
-      "translationPairReason": "NO_FILTERED_BILINGUAL_CANDIDATES",
-      "pairLemma": null,
-      "targetLemmaStatus": "NOT_APPLICABLE",
-      "targetLemmaReason": "NO_BILINGUAL_PAIR",
-      "targetSourceUrl": null,
-      "normativeTargetLemma": null,
-      "galaConclusion": "NOT_FOUND",
-      "galaReason": "NO_BILINGUAL_PAIR",
-      "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_BILINGUAL_PAIR",
+      "targetTranslationDisplay": "jõllitama",
+      "dictionaryName": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+      "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/355",
+      "translationPairStatus": "VALIDATED",
+      "translationPairReason": "SINGLE_FILTERED_BILINGUAL_CANDIDATE",
+      "pairLemma": "jõllitama",
+      "targetLemmaStatus": "VALIDATED",
+      "targetLemmaReason": "TARGET_OFFICIAL_MATCHES_CURRENT",
+      "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/j%C3%B5llitama/1/eng",
+      "normativeTargetLemma": "jõllitama",
+      "galaConclusion": "TRANSLATION_VALIDATED",
+      "galaReason": "CURRENT_EXACT_BILINGUAL_AND_TARGET_OFFICIAL",
+      "finalStatus": "TRANSLATION_VALIDATED",
+      "finalReason": "CURRENT_EXACT_BILINGUAL_AND_TARGET_OFFICIAL",
       "findingType": null,
       "proposedNew": null,
       "sourcesTried": [
+        {
+          "sourceId": "digar-saksa-eesti-valgus-1976",
+          "ok": true,
+          "extractedCount": 1,
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/355",
+          "parserOnlyEmpty": false,
+          "bilingualLookupStatus": "BILINGUAL_ENTRY_FOUND"
+        },
         {
           "sourceId": "glosbe-de-et",
           "ok": false,
@@ -1171,9 +1197,10 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0,
-      "candidateCountRaw": 0,
-      "rejectedStrictCount": 0
+      "candidateCount": 1,
+      "candidateCountRaw": 1,
+      "rejectedStrictCount": 0,
+      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND"
     },
     {
       "appLang": "sq",
@@ -1327,8 +1354,8 @@
       "deSourceUrl": "https://www.dwds.de/wb/Goldader",
       "currentTarget": "kullasoon",
       "targetTranslationDisplay": "—",
-      "dictionaryName": "Glosbe German–Estonian",
-      "resultUrl": "https://glosbe.com/de/et/Goldader",
+      "dictionaryName": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+      "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/",
       "translationPairStatus": "NOT_FOUND",
       "translationPairReason": "NO_FILTERED_BILINGUAL_CANDIDATES",
       "pairLemma": null,
@@ -1343,6 +1370,14 @@
       "findingType": null,
       "proposedNew": null,
       "sourcesTried": [
+        {
+          "sourceId": "digar-saksa-eesti-valgus-1976",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/",
+          "parserOnlyEmpty": false,
+          "bilingualLookupStatus": "NOT_FOUND_IN_DICTIONARY"
+        },
         {
           "sourceId": "glosbe-de-et",
           "ok": false,
@@ -1374,7 +1409,8 @@
       ],
       "candidateCount": 0,
       "candidateCountRaw": 0,
-      "rejectedStrictCount": 0
+      "rejectedStrictCount": 0,
+      "deEtInstitutionalBilingualLookupStatus": "NOT_FOUND_IN_DICTIONARY"
     },
     {
       "appLang": "lt",
@@ -1780,8 +1816,8 @@
       "deSourceUrl": "https://www.dwds.de/wb/Grenzkonflikt",
       "currentTarget": "piirikonflikt",
       "targetTranslationDisplay": "—",
-      "dictionaryName": "Glosbe German–Estonian",
-      "resultUrl": "https://glosbe.com/de/et/Grenzkonflikt",
+      "dictionaryName": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+      "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/",
       "translationPairStatus": "NOT_FOUND",
       "translationPairReason": "NO_FILTERED_BILINGUAL_CANDIDATES",
       "pairLemma": null,
@@ -1796,6 +1832,14 @@
       "findingType": null,
       "proposedNew": null,
       "sourcesTried": [
+        {
+          "sourceId": "digar-saksa-eesti-valgus-1976",
+          "ok": false,
+          "extractedCount": 0,
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/",
+          "parserOnlyEmpty": false,
+          "bilingualLookupStatus": "NOT_FOUND_IN_DICTIONARY"
+        },
         {
           "sourceId": "glosbe-de-et",
           "ok": false,
@@ -1827,7 +1871,8 @@
       ],
       "candidateCount": 0,
       "candidateCountRaw": 0,
-      "rejectedStrictCount": 0
+      "rejectedStrictCount": 0,
+      "deEtInstitutionalBilingualLookupStatus": "NOT_FOUND_IN_DICTIONARY"
     },
     {
       "appLang": "lt",
@@ -2167,23 +2212,31 @@
       "cardSenseEnHelper": "Lust for power",
       "deSourceUrl": "https://www.dwds.de/wb/Machtgier",
       "currentTarget": "võimuiha",
-      "targetTranslationDisplay": "—",
-      "dictionaryName": "Glosbe German–Estonian",
-      "resultUrl": "https://glosbe.com/de/et/Machtgier",
-      "translationPairStatus": "NOT_FOUND",
-      "translationPairReason": "NO_FILTERED_BILINGUAL_CANDIDATES",
-      "pairLemma": null,
-      "targetLemmaStatus": "NOT_APPLICABLE",
-      "targetLemmaReason": "NO_BILINGUAL_PAIR",
-      "targetSourceUrl": null,
-      "normativeTargetLemma": null,
-      "galaConclusion": "NOT_FOUND",
-      "galaReason": "NO_BILINGUAL_PAIR",
-      "finalStatus": "NOT_FOUND",
-      "finalReason": "NO_BILINGUAL_PAIR",
+      "targetTranslationDisplay": "võimuiha",
+      "dictionaryName": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+      "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/537",
+      "translationPairStatus": "VALIDATED",
+      "translationPairReason": "SINGLE_FILTERED_BILINGUAL_CANDIDATE",
+      "pairLemma": "võimuiha",
+      "targetLemmaStatus": "VALIDATED",
+      "targetLemmaReason": "TARGET_OFFICIAL_MATCHES_CURRENT",
+      "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/v%C3%B5imuiha/1/eng",
+      "normativeTargetLemma": "võimuiha",
+      "galaConclusion": "TRANSLATION_VALIDATED",
+      "galaReason": "CURRENT_EXACT_BILINGUAL_AND_TARGET_OFFICIAL",
+      "finalStatus": "TRANSLATION_VALIDATED",
+      "finalReason": "CURRENT_EXACT_BILINGUAL_AND_TARGET_OFFICIAL",
       "findingType": null,
       "proposedNew": null,
       "sourcesTried": [
+        {
+          "sourceId": "digar-saksa-eesti-valgus-1976",
+          "ok": true,
+          "extractedCount": 1,
+          "resultUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/537",
+          "parserOnlyEmpty": false,
+          "bilingualLookupStatus": "BILINGUAL_ENTRY_FOUND"
+        },
         {
           "sourceId": "glosbe-de-et",
           "ok": false,
@@ -2213,9 +2266,10 @@
           "parserOnlyEmpty": false
         }
       ],
-      "candidateCount": 0,
-      "candidateCountRaw": 0,
-      "rejectedStrictCount": 0
+      "candidateCount": 1,
+      "candidateCountRaw": 1,
+      "rejectedStrictCount": 0,
+      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND"
     },
     {
       "appLang": "lt",
@@ -2546,5 +2600,5 @@
   ],
   "translationPairValidatedTargetLemmaPendingCount": 1,
   "capitalizationCandidateTargetValidationPendingCount": 5,
-  "targetLemmaNotApplicableCount": 25
+  "targetLemmaNotApplicableCount": 21
 }

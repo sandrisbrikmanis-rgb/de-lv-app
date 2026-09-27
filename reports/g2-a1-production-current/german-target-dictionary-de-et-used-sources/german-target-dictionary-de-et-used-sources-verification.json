@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "blockers": [],
+  "liveChecks": [
+    {
+      "lemma": "Machtgier",
+      "lookupStatus": "BILINGUAL_ENTRY_FOUND",
+      "ok": true,
+      "page": 537
+    },
+    {
+      "lemma": "Kleingeld",
+      "lookupStatus": "BILINGUAL_ENTRY_FOUND",
+      "ok": true,
+      "page": 465
+    },
+    {
+      "lemma": "glotzen",
+      "lookupStatus": "BILINGUAL_ENTRY_FOUND",
+      "ok": true,
+      "page": 355
+    },
+    {
+      "lemma": "bewirten",
+      "lookupStatus": "BILINGUAL_ENTRY_FOUND",
+      "ok": true,
+      "page": 144
+    },
+    {
+      "lemma": "Goldader",
+      "lookupStatus": "NOT_FOUND_IN_DICTIONARY",
+      "ok": false
+    },
+    {
+      "lemma": "Grenzkonflikt",
+      "lookupStatus": "NOT_FOUND_IN_DICTIONARY",
+      "ok": false
+    }
+  ],
+  "manifestSchema": "g2-a1-german-target-dictionary-de-et-used-sources-v1",
+  "productionChanges": 0
+}

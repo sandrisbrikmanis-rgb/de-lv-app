@@ -9,6 +9,16 @@
       { "id": "langenscheidt-de-bs", "name": "Langenscheidt German–Bosnian", "url": "https://en.langenscheidt.com/german-bosnian/", "platform": "langenscheidt" }
     ],
     "et": [
+      {
+        "id": "digar-saksa-eesti-valgus-1976",
+        "name": "Saksa-eesti sõnaraamat (DIGAR Valgus 1976)",
+        "url": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/",
+        "platform": "digar-de-et",
+        "dictionaryManifestId": "digar-saksa-eesti-valgus-1976",
+        "authors": ["Elisabeth Kibbermann", "Salme Kirotar", "Paula Koppel"],
+        "publisher": "Valgus",
+        "year": 1976
+      },
       { "id": "glosbe-de-et", "name": "Glosbe German–Estonian", "url": "https://glosbe.com/de/et", "platform": "glosbe" },
       { "id": "verbformen-de-et", "name": "Netzverb / verbformen Deutsch–Estnisch", "url": "https://www.verbformen.de/de-et/", "platform": "verbformen" },
       { "id": "langenscheidt-de-et", "name": "Langenscheidt German–Estonian", "url": "https://en.langenscheidt.com/german-estonian/", "platform": "langenscheidt" },

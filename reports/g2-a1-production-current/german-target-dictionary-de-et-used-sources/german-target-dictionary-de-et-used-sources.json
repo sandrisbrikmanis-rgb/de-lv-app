@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "g2-a1-german-target-dictionary-de-et-used-sources-v1",
+  "languagePair": "de→et",
+  "dictionaries": [
+    {
+      "id": "digar-saksa-eesti-valgus-1976",
+      "name": "Saksa-eesti sõnaraamat",
+      "authors": [
+        "Elisabeth Kibbermann",
+        "Salme Kirotar",
+        "Paula Koppel"
+      ],
+      "publisher": "Valgus",
+      "year": 1976,
+      "type": "INSTITUTIONAL_BILINGUAL_LEXICON_DIGAR",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "viewerBaseUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/",
+      "digarViewerCode": "nlib-digar:447887",
+      "digarFileId": 394314,
+      "digarSearchObjectId": 164571,
+      "platform": "digar-de-et",
+      "searchApiUrlTemplate": "https://www.digar.ee/viewer/api/search/{objectId}",
+      "notes": "DIGAR OCR fulltext search; ET glosses transcribed from viewer pages for pilot lemmas."
+    }
+  ],
+  "primaryDictionaryId": "digar-saksa-eesti-valgus-1976",
+  "verifiedEntries": {
+    "Machtgier": {
+      "status": "BILINGUAL_ENTRY_FOUND",
+      "page": 537,
+      "viewerUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/537",
+      "targetTranslations": [
+        "võimuiha"
+      ]
+    },
+    "Kleingeld": {
+      "status": "BILINGUAL_ENTRY_FOUND",
+      "page": 465,
+      "viewerUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/465",
+      "targetTranslations": [
+        "peenraha",
+        "vahetusraha"
+      ]
+    },
+    "glotzen": {
+      "status": "BILINGUAL_ENTRY_FOUND",
+      "page": 355,
+      "viewerUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/355",
+      "targetTranslations": [
+        "jõllitama"
+      ],
+      "digarSearchNote": "OCR returns two hits (pp. 48, 355); headword entry on p. 355."
+    },
+    "bewirten": {
+      "status": "BILINGUAL_ENTRY_FOUND",
+      "page": 144,
+      "viewerUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/144",
+      "targetTranslations": [
+        "kostitama",
+        "võõrustama"
+      ]
+    },
+    "Goldader": {
+      "status": "NOT_FOUND_IN_DICTIONARY",
+      "page": null,
+      "viewerUrl": null,
+      "targetTranslations": []
+    },
+    "Grenzkonflikt": {
+      "status": "NOT_FOUND_IN_DICTIONARY",
+      "page": null,
+      "viewerUrl": null,
+      "targetTranslations": []
+    }
+  },
+  "generatedAt": "2026-09-27T11:35:36.721Z",
+  "reportClassification": "G2_A1_DE_ET_BILINGUAL_DICTIONARY_USED_SOURCES"
+}
