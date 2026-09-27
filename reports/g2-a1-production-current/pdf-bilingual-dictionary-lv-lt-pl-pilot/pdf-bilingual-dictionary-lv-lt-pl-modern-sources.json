@@ -1,0 +1,409 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-lv-lt-pl-modern-sources-v1",
+  "generatedAt": "2026-09-27",
+  "verificationNote": "Each candidate opened in this run (HTTP fetch and/or Playwright browser). Catalog-only or stub PDFs marked NOT_USABLE.",
+  "languages": {
+    "lv": {
+      "primaryModern": [
+        {
+          "id": "letonika-de-lv-2001-plus",
+          "name": "Letonika.lv — Vācu–latviešu vārdnīca",
+          "direction": "de→lv",
+          "yearBase": "2001 (Šteinberga u.c.), papildinājumi incl. Avots 2004 slānis",
+          "approxEntries": "68500+ šķirkļi (DE→LV)",
+          "accessType": "PROFESSIONAL_DIGITAL_LEXICON",
+          "portalUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062",
+          "searchUrlTemplate": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062&q={lemma}",
+          "status": "VERIFIED_USABLE_PRIMARY"
+        },
+        {
+          "id": "letonika-lv-de-2001-plus",
+          "name": "Letonika.lv — Latviešu–vācu vārdnīca",
+          "direction": "lv→de",
+          "yearBase": "2001 (Šteinberga u.c.)",
+          "approxEntries": "55000+ šķirkļi (LV→DE)",
+          "accessType": "PROFESSIONAL_DIGITAL_LEXICON",
+          "portalUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031",
+          "searchUrlTemplate": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031&q={lemma}",
+          "status": "VERIFIED_USABLE_PRIMARY"
+        }
+      ],
+      "supplementaryHistorical": [
+        {
+          "id": "haessel-jbc-ia",
+          "name": "Haessel Nowy dokładny… (JBC mirrors on Internet Archive)",
+          "direction": "both",
+          "status": "VERIFIED_HISTORICAL_SUPPLEMENT",
+          "seeAlso": "../pdf-bilingual-dictionary-lv-lt-pl-pilot-verification.json"
+        },
+        {
+          "id": "stender-1789-ia",
+          "name": "Stender Lettisches Lexicon (1789)",
+          "direction": "both",
+          "status": "VERIFIED_HISTORICAL_LIMITED",
+          "seeAlso": "../pdf-bilingual-dictionary-lv-lt-pl-pilot-verification.json"
+        }
+      ],
+      "rejectedNotUsable": [
+        {
+          "id": "forssman-gbv-pdf",
+          "name": "Forssman Lettisch-Deutsch / Deutsch-Lettisch (gbv.de PDF link)",
+          "reason": "Downloaded PDF is 2 pages (TOC/front matter only), not full dictionary text.",
+          "url": "https://www.gbv.de/dms/zbw/570518822.pdf",
+          "status": "CATALOG_OR_STUB_ONLY"
+        },
+        {
+          "id": "avots-print-only",
+          "name": "Avots vācu–latviešu / latviešu–vācu (2002–2006 print editions)",
+          "reason": "No public full-text PDF or institutional viewer opened; shop/catalog metadata only. Lexical content partially reachable via Letonika (Avots 2004 copyright on Kleingeld entry).",
+          "status": "NOT_VERIFIED_OPEN"
+        }
+      ],
+      "pilotResults": {
+        "de→lv": [
+          {
+            "lemma": "Haus",
+            "found": true,
+            "targetGloss": "māja, nams (u.c.)",
+            "entryUrl": "https://www.letonika.lv/groups/default.aspx?r=10311062&q=Haus&cid=190080",
+            "evidenceSnippet": "Haus , das … 1. māja , nams … zu Hause - mājās"
+          },
+          {
+            "lemma": "arbeiten",
+            "found": true,
+            "targetGloss": "strādāt; darboties",
+            "entryUrl": "https://www.letonika.lv/groups/default.aspx?r=10311062&q=arbeiten&cid=198925",
+            "evidenceSnippet": "arbeiten I. vi 1. strādāt ; darboties … geistig arbeiten - strādāt garīgu darbu"
+          },
+          {
+            "lemma": "Kleingeld",
+            "found": true,
+            "targetGloss": "sīknauda",
+            "entryUrl": "https://www.letonika.lv/groups/default.aspx?r=10311062&q=Kleingeld&cid=175950",
+            "evidenceSnippet": "Kleingeld , das sīknauda © … Avots, 2004"
+          },
+          {
+            "lemma": "bewirten",
+            "found": true,
+            "targetGloss": "cienāt, mielot; pacienāt, pamielot",
+            "entryUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062&q=bewirten",
+            "evidenceSnippet": "bewirten vt cienāt, mielot; pacienāt, pamielot"
+          },
+          {
+            "lemma": "Grenzkonflikt",
+            "found": false,
+            "entryUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062&q=Grenzkonflikt",
+            "note": "Nekas netika atrasts"
+          },
+          {
+            "lemma": "Machtgier",
+            "found": false,
+            "entryUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062&q=Machtgier",
+            "note": "Nekas netika atrasts"
+          }
+        ],
+        "lv→de": [
+          {
+            "lemma": "māja",
+            "found": true,
+            "targetGloss": "Haus (via symmetric DE→LV + LV→DE šķirklis)",
+            "entryUrl": "https://www.letonika.lv/groups/default.aspx?r=10621031&q=m%C4%81ja&cid=575766",
+            "evidenceSnippet": "DE→LV Haus → māja, nams; LV→DE meklēšana: mājaLV-DE Tulkojumi"
+          },
+          {
+            "lemma": "strādāt",
+            "found": true,
+            "targetGloss": "arbeiten (symmetric ar DE→LV arbeiten → strādāt)",
+            "entryUrl": "https://www.letonika.lv/groups/default.aspx?r=10621031&q=str%C4%81d%C4%81t&cid=575106"
+          },
+          {
+            "lemma": "sīknauda",
+            "found": true,
+            "targetGloss": "Kleingeld",
+            "entryUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031&q=s%C4%ABknauda",
+            "evidenceSnippet": "LV sīknauda … DE Kleingeld"
+          },
+          {
+            "lemma": "pacienāt",
+            "found": true,
+            "targetGloss": "bewirten (symmetric)",
+            "entryUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031&q=pacien%C4%81t",
+            "evidenceSnippet": "bewirten vt … pacienāt, pamielot"
+          },
+          {
+            "lemma": "robežkonflikts",
+            "found": false,
+            "entryUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031&q=robe%C5%BEkonflikts"
+          },
+          {
+            "lemma": "varas tiekme",
+            "found": false,
+            "entryUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031&q=varas%20tiekme"
+          }
+        ]
+      }
+    },
+    "lt": {
+      "primaryModern": [
+        {
+          "id": "vokieciu-lietuviu-com",
+          "name": "vokieciu-lietuviu.com (DE→LT)",
+          "direction": "de→lt",
+          "yearBase": "community/professional HTML lexicon (~16k public estimate in repo manifests)",
+          "accessType": "PROFESSIONAL_DIGITAL_LEXICON_HTML",
+          "portalUrl": "http://www.vokieciu-lietuviu.com/",
+          "searchUrlTemplate": "http://www.vokieciu-lietuviu.com/?word={lemma}",
+          "status": "VERIFIED_USABLE_PRIMARY"
+        },
+        {
+          "id": "lietuviu-vokieciu-com",
+          "name": "lietuviu-vokieciu.com (LT→DE)",
+          "direction": "lt→de",
+          "accessType": "PROFESSIONAL_DIGITAL_LEXICON_HTML",
+          "portalUrl": "http://www.lietuviu-vokieciu.com/",
+          "searchUrlTemplate": "http://www.lietuviu-vokieciu.com/?word={lemma}",
+          "status": "VERIFIED_USABLE_PARTIAL",
+          "note": "Smaller / uneven coverage vs DE→LT; pilot compounds often missing."
+        }
+      ],
+      "supplementaryHistorical": [
+        {
+          "id": "lki-senn-salys-vol3-ia",
+          "name": "LKI Lietuvių rašomosios kalbos žodynas vol. 3 (1957) — IA OCR",
+          "direction": "lt→de",
+          "status": "VERIFIED_PARTIAL_VOLUME",
+          "portalUrl": "https://archive.org/details/zodynas-t.-3-1957"
+        },
+        {
+          "id": "epaveldas-kurschat-1883",
+          "name": "Kurschat Littauisch-deutsches Wörterbuch (1883) — epaveldas.lt",
+          "direction": "lt→de",
+          "status": "HISTORICAL_SCAN_VIEWER",
+          "portalUrl": "https://www.epaveldas.lt/preview?id=C1R0000119065",
+          "note": "Not opened for pilot lemmas this run; historical LT→DE only."
+        }
+      ],
+      "rejectedNotUsable": [
+        {
+          "id": "epaveldas-brodowski-pdf-direct",
+          "name": "Brodowski manuscript (Lituanistika / epaveldas)",
+          "reason": "Direct PDF fetch returned HTML/404; not verified as searchable bilingual pair.",
+          "status": "NOT_VERIFIED_OPEN"
+        }
+      ],
+      "pilotResults": {
+        "de→lt": [
+          {
+            "lemma": "Haus",
+            "found": true,
+            "targetGloss": "namas, trobesys; namai",
+            "entryUrl": "http://www.vokieciu-lietuviu.com/?word=Haus",
+            "evidenceSnippet": "n -es, ¨er 1 namas, trobesys; namai"
+          },
+          {
+            "lemma": "arbeiten",
+            "found": true,
+            "targetGloss": "dirbti; triūsti; veikti",
+            "entryUrl": "http://www.vokieciu-lietuviu.com/?word=arbeiten",
+            "evidenceSnippet": "I vi dirbti; triūsti; veikti"
+          },
+          {
+            "lemma": "Kleingeld",
+            "found": true,
+            "targetGloss": "smulkūs pinigai",
+            "entryUrl": "http://www.vokieciu-lietuviu.com/?word=Kleingeld"
+          },
+          {
+            "lemma": "bewirten",
+            "found": true,
+            "targetGloss": "vaišinti",
+            "entryUrl": "http://www.vokieciu-lietuviu.com/?word=bewirten"
+          },
+          {
+            "lemma": "Grenzkonflikt",
+            "found": false,
+            "entryUrl": "http://www.vokieciu-lietuviu.com/?word=Grenzkonflikt",
+            "note": "Nėra vertimo"
+          },
+          {
+            "lemma": "Machtgier",
+            "found": false,
+            "entryUrl": "http://www.vokieciu-lietuviu.com/?word=Machtgier",
+            "note": "Nėra vertimo"
+          }
+        ],
+        "lt→de": [
+          {
+            "lemma": "namas",
+            "found": true,
+            "targetGloss": "Haus n -es, er",
+            "entryUrl": "http://www.lietuviu-vokieciu.com/?word=namas"
+          },
+          {
+            "lemma": "dirbti",
+            "found": "PARTIAL",
+            "targetGloss": "dirbtinis (not arbeiten — wrong homograph path)",
+            "entryUrl": "http://www.lietuviu-vokieciu.com/?word=dirbti",
+            "note": "Use dirbti sense verified via DE→LT arbeiten → dirbti on vokieciu-lietuviu.com"
+          },
+          {
+            "lemma": "smulkūs pinigai",
+            "found": false,
+            "entryUrl": "http://www.lietuviu-vokieciu.com/?word=smulk%C5%ABs%20pinigai"
+          },
+          {
+            "lemma": "vaišinti",
+            "found": true,
+            "targetGloss": "bewirten vt",
+            "entryUrl": "http://www.lietuviu-vokieciu.com/?word=vai%C5%A1inti"
+          },
+          {
+            "lemma": "pasienio konfliktas",
+            "found": false,
+            "entryUrl": "http://www.lietuviu-vokieciu.com/?word=pasienio%20konfliktas"
+          },
+          {
+            "lemma": "valdžios geidulys",
+            "found": false,
+            "entryUrl": "http://www.lietuviu-vokieciu.com/?word=vald%C5%BEios%20geidulys"
+          }
+        ]
+      }
+    },
+    "pl": {
+      "primaryModern": [
+        {
+          "id": "pons-de-pl",
+          "name": "PONS Wörterbuch Deutsch–Polnisch (de.pons.com)",
+          "direction": "de→pl",
+          "yearBase": "current editorial online lexicon",
+          "accessType": "PROFESSIONAL_DIGITAL_LEXICON",
+          "portalUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/",
+          "searchUrlTemplate": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/{lemma}",
+          "status": "VERIFIED_USABLE_PRIMARY"
+        },
+        {
+          "id": "pons-pl-de",
+          "name": "PONS Wörterbuch Polnisch–Deutsch (de.pons.com)",
+          "direction": "pl→de",
+          "accessType": "PROFESSIONAL_DIGITAL_LEXICON",
+          "portalUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/",
+          "searchUrlTemplate": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/{lemma}",
+          "status": "VERIFIED_USABLE_PRIMARY"
+        }
+      ],
+      "supplementaryHistorical": [
+        {
+          "id": "haessel-jbc-ia",
+          "name": "Haessel / JBC (Internet Archive mirrors)",
+          "direction": "both",
+          "status": "VERIFIED_HISTORICAL_SUPPLEMENT",
+          "seeAlso": "pdf-bilingual-dictionary-lv-lt-pl-pilot-verification.json"
+        },
+        {
+          "id": "wbc-trojanski-1844",
+          "name": "WBC Poznań — Trojański DE↔PL (1844–1847 scan)",
+          "direction": "both",
+          "status": "HISTORICAL_INSTITUTIONAL_VIEWER",
+          "portalUrl": "https://www.wbc.poznan.pl/dlibra/publication/150136",
+          "note": "Live viewer uses same PoW captcha pattern as JBC; not headless-verified this run."
+        }
+      ],
+      "rejectedNotUsable": [
+        {
+          "id": "pwn-wielki-bibliotekacyfrowa",
+          "name": "PWN Wielki słownik niemiecko-polski (Biblioteka Cyfrowa UWr edition record)",
+          "reason": "dlibra doccontent timed out (504); DJVU shell is multimedia product metadata, not opened searchable dictionary text.",
+          "url": "https://bibliotekacyfrowa.pl/dlibra/publication/139190/edition/128477/",
+          "status": "CATALOG_ONLY"
+        },
+        {
+          "id": "jbc-wbc-live-dlibra",
+          "name": "JBC / WBC live dLibra",
+          "reason": "PoW captcha on doccontent (curl shows captcha_pow cookie setup).",
+          "status": "BLOCKED_HEADLESS"
+        }
+      ],
+      "pilotResults": {
+        "de→pl": [
+          {
+            "lemma": "Haus",
+            "found": true,
+            "targetGloss": "dom m",
+            "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/Haus"
+          },
+          {
+            "lemma": "arbeiten",
+            "found": true,
+            "targetGloss": "pracować",
+            "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/arbeiten"
+          },
+          {
+            "lemma": "Kleingeld",
+            "found": true,
+            "targetGloss": "drobne Pl",
+            "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/Kleingeld"
+          },
+          {
+            "lemma": "bewirten",
+            "found": true,
+            "targetGloss": "ugaszczać / ugościć; podejmować poczęstunkiem",
+            "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/bewirten"
+          },
+          {
+            "lemma": "Grenzkonflikt",
+            "found": true,
+            "targetGloss": "konflikt m graniczny",
+            "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/Grenzkonflikt"
+          },
+          {
+            "lemma": "Machtgier",
+            "found": "PARTIAL",
+            "targetGloss": "no dedicated headword; nearby Machthunger / Machthaber",
+            "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch?q=Machtgier",
+            "note": "Query redirects to search; not a clean single-entry match."
+          }
+        ],
+        "pl→de": [
+          {
+            "lemma": "dom",
+            "found": true,
+            "targetGloss": "Haus nt",
+            "entryUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/dom"
+          },
+          {
+            "lemma": "pracować",
+            "found": true,
+            "targetGloss": "arbeiten",
+            "entryUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/pracowa%C4%87"
+          },
+          {
+            "lemma": "drobiazg",
+            "found": true,
+            "targetGloss": "Kleinigkeit f (not Kleingeld — use drobne / DE→PL Kleingeld)",
+            "entryUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/drobiazg",
+            "note": "Reverse for Kleingeld: DE→PL verified; PL lemma drobne not re-probed."
+          },
+          {
+            "lemma": "ugościć",
+            "found": "PARTIAL",
+            "targetGloss": "ugotować (PONS headword page; bewirten best via DE→PL)",
+            "entryUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/ugo%C5%9Bci%C4%87"
+          },
+          {
+            "lemma": "konflikt graniczny",
+            "found": false,
+            "targetGloss": null,
+            "entryUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/konflikt+graniczny",
+            "note": "No DE gloss block on page body (related entries only)."
+          },
+          {
+            "lemma": "żądza władzy",
+            "found": false,
+            "entryUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/%C5%BC%C4%85dza+w%C5%82adzy"
+          }
+        ]
+      }
+    }
+  }
+}
