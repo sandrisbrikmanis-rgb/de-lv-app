@@ -108,6 +108,7 @@
     "build:g2-a1:de-et-bilingual-dictionary-used-sources": "node scripts/build-g2-a1-de-et-bilingual-dictionary-used-sources.js",
     "verify:g2-a1:de-et-digar-bilingual": "node scripts/verify-g2-a1-de-et-digar-bilingual.js",
     "build:g2-a1:card-translation-definition-semantic-regression": "node scripts/build-g2-a1-card-translation-definition-semantic-regression-report.js",
+    "build:g2-a1:pdf-bilingual-dictionary-discovery-32": "node scripts/build-g2-a1-pdf-bilingual-dictionary-discovery-32-report.js",
     "build:g2-a1:german-target-dictionary-rescan-problematic": "node scripts/build-g2-a1-german-target-dictionary-rescan-problematic.js",
     "verify:g2-a1:german-target-dictionary-rescan-problematic": "node scripts/verify-g2-a1-german-target-dictionary-rescan-problematic.js",
     "test:g2-a1:lod-de-reverse-api": "node scripts/test-lod-de-reverse-api.js",
