@@ -34,12 +34,16 @@ const {
 const {
   TRANSLATION_PAIR_STATUS,
   TARGET_LEMMA_STATUS,
+  DEFINITION_EQUIVALENCE_STATUS,
   resolveTranslationPairStatus,
   resolveTargetLemmaStatus,
   resolveFinalGalaConclusion,
+  resolveDefinitionEquivalenceGalaConclusion,
   targetStatusWhenPairNotFound,
   GALA_CONCLUSION,
 } = require("./lib/g2-a1-production-current/g2-a1-bilingual-row-status");
+const { getTargetAdapterMeta } = require("./lib/g2-a1-production-current/source-adapters/target");
+const { loadRegistryRows, rowForAppLanguage } = require("./lib/g2-a1-production-current/registry-bindings");
 const { loadG2Level } = require("./lib/content-crowdin-bridge/roundtrip");
 const {
   lookupDigarDeEtBilingual,
@@ -326,8 +330,11 @@ async function validateRow(fullRow, deAuthority) {
     winningUrl = hit.resultUrl;
   }
 
-  let pair = resolveTranslationPairStatus(pool, currentTarget);
+  const pair = resolveTranslationPairStatus(pool, currentTarget);
   let definitionEvidence = null;
+  let definitionEquivalenceStatus = DEFINITION_EQUIVALENCE_STATUS.NOT_APPLICABLE;
+  let definitionTargetAuthority = null;
+  let definitionAlignedLemma = null;
 
   if (pair.translationPairStatus === TRANSLATION_PAIR_STATUS.NOT_FOUND && !pool.length) {
     const current = stripQuotes(currentTarget || "");
@@ -335,7 +342,6 @@ async function validateRow(fullRow, deAuthority) {
     for (const term of variants) {
       // eslint-disable-next-line no-await-in-loop
       const targetAuthority = await lookupTargetForProvenLemma(appLang, term);
-      // eslint-disable-next-line no-await-in-loop
       const defMatch = assessDefinitionSemanticTranslationEvidence(
         deAuthority,
         targetAuthority,
@@ -345,40 +351,76 @@ async function validateRow(fullRow, deAuthority) {
       );
       if (defMatch.tier === EVIDENCE_TIER.DEFINITION_SEMANTIC_CLEAR) {
         definitionEvidence = defMatch;
-        pair = {
-          translationPairStatus: TRANSLATION_PAIR_STATUS.VALIDATED,
-          pairReason: "DEFINITION_SEMANTIC_REGISTRY",
-          pairLemma: term,
-        };
+        definitionEquivalenceStatus = DEFINITION_EQUIVALENCE_STATUS.VALIDATED;
+        definitionTargetAuthority = targetAuthority;
+        definitionAlignedLemma = term;
+        break;
+      }
+      if (
+        defMatch.tier === EVIDENCE_TIER.DEFINITION_SEMANTIC_UNCLEAR &&
+        defMatch.reason === "DEFINITION_SEMANTIC_MISMATCH"
+      ) {
+        definitionEvidence = defMatch;
+        definitionEquivalenceStatus = DEFINITION_EQUIVALENCE_STATUS.UNCLEAR;
+        definitionTargetAuthority = targetAuthority;
+        definitionAlignedLemma = term;
         break;
       }
     }
   }
 
-  let target =
-    pair.translationPairStatus === TRANSLATION_PAIR_STATUS.NOT_FOUND
-      ? targetStatusWhenPairNotFound()
-      : await resolveTargetLemmaStatus(
-          appLang,
-          currentTarget,
-          pair.pairLemma,
-          lookupTargetForProvenLemma,
-          targetLookupVariants,
-        );
+  const onDefinitionPath = definitionEquivalenceStatus !== DEFINITION_EQUIVALENCE_STATUS.NOT_APPLICABLE;
 
-  const gala = resolveFinalGalaConclusion({
-    translationPairStatus: pair.translationPairStatus,
-    targetLemmaStatus: target.targetLemmaStatus,
-    pairLemma: pair.pairLemma,
-    currentTarget,
-  });
+  let target;
+  if (onDefinitionPath) {
+    target = await resolveTargetLemmaStatus(
+      appLang,
+      currentTarget,
+      definitionAlignedLemma,
+      lookupTargetForProvenLemma,
+      targetLookupVariants,
+    );
+  } else if (pair.translationPairStatus === TRANSLATION_PAIR_STATUS.NOT_FOUND) {
+    target = targetStatusWhenPairNotFound();
+  } else {
+    target = await resolveTargetLemmaStatus(
+      appLang,
+      currentTarget,
+      pair.pairLemma,
+      lookupTargetForProvenLemma,
+      targetLookupVariants,
+    );
+  }
+
+  const gala = onDefinitionPath
+    ? resolveDefinitionEquivalenceGalaConclusion({
+        definitionEquivalenceStatus,
+        targetLemmaStatus: target.targetLemmaStatus,
+        currentTarget,
+        definitionAlignedLemma,
+      })
+    : resolveFinalGalaConclusion({
+        translationPairStatus: pair.translationPairStatus,
+        targetLemmaStatus: target.targetLemmaStatus,
+        pairLemma: pair.pairLemma,
+        currentTarget,
+      });
+
+  const targetMeta = getTargetAdapterMeta(appLang);
+  const registryRows = loadRegistryRows().rows || [];
+  const targetAuthorityName =
+    rowForAppLanguage(appLang, registryRows)?.authorityName || targetMeta?.masterUrl || appLang;
+  const definitionSourceLabel =
+    onDefinitionPath && deAuthority
+      ? `DE: DWDS/Duden · TARGET: ${targetAuthorityName}`
+      : null;
 
   const displayTarget =
     pair.translationPairStatus === TRANSLATION_PAIR_STATUS.VALIDATED && pair.pairLemma
       ? pair.pairLemma
       : pool.length
         ? [...new Set(pool.map((c) => c.targetLemma))].slice(0, 6).join("; ")
-        : definitionEvidence
+        : onDefinitionPath
           ? stripQuotes(currentTarget)
           : "—";
 
@@ -402,11 +444,15 @@ async function validateRow(fullRow, deAuthority) {
     targetTranslationDisplay: displayTarget,
     dictionaryName:
       winningSource ||
-      (definitionEvidence ? "DWDS/Duden + TARGET oficiālais (definīciju reģistrs)" : null) ||
+      definitionSourceLabel ||
       (attempts.length ? chain[0]?.name : null),
     resultUrl:
       winningUrl ||
-      (definitionEvidence ? deAuthority?.entryUrl : null) ||
+      (onDefinitionPath
+        ? [deAuthority?.entryUrl, definitionTargetAuthority?.entryUrl || definitionTargetAuthority?.finalUrl]
+            .filter(Boolean)
+            .join(" · ") || null
+        : null) ||
       attempts.find((a) => a.resultUrl)?.resultUrl ||
       null,
     translationPairStatus: pair.translationPairStatus,
@@ -429,11 +475,14 @@ async function validateRow(fullRow, deAuthority) {
     ...(appLang === "et" && digarWin?.bilingualLookupStatus
       ? { deEtInstitutionalBilingualLookupStatus: digarWin.bilingualLookupStatus }
       : {}),
+    definitionEquivalenceStatus,
     ...(definitionEvidence
       ? {
           definitionSemanticEvidence: definitionEvidence.tier,
           definitionSemanticReason: definitionEvidence.reason,
-          definitionRegistryPairId: definitionEvidence.registryPairId,
+          definitionConceptId: definitionEvidence.definitionConceptId,
+          definitionTargetSourceUrl:
+            definitionTargetAuthority?.entryUrl || definitionTargetAuthority?.finalUrl || null,
         }
       : {}),
   };
@@ -473,6 +522,7 @@ async function main() {
   }
 
   const tv = results.filter((r) => r.galaConclusion === GALA_CONCLUSION.TRANSLATION_VALIDATED);
+  const defEq = results.filter((r) => r.galaConclusion === GALA_CONCLUSION.DEFINITION_EQUIVALENCE_VALIDATED);
   const finding = results.filter((r) => r.galaConclusion === GALA_CONCLUSION.FINDING);
   const pairPending = results.filter(
     (r) => r.galaConclusion === GALA_CONCLUSION.TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING,
@@ -491,6 +541,7 @@ async function main() {
     generatedAt: new Date().toISOString(),
     rowCount: results.length,
     translationValidatedCount: tv.length,
+    definitionEquivalenceValidatedCount: defEq.length,
     findingCount: finding.length,
     translationPairValidatedTargetLemmaPendingCount: pairPending.length,
     capitalizationCandidateTargetValidationPendingCount: capPending.length,
@@ -500,7 +551,7 @@ async function main() {
     targetLemmaValidatedCount: targetValidated.length,
     targetLemmaNotApplicableCount: targetNotApplicable.length,
     policy:
-      "v5 gala: pair VALIDATED + target pending ≠ TRANSLATION_VALIDATED; cap pending ≠ FINDING; NOT_FOUND → target N/A",
+      "v5 gala: bilingual pair path + definition equivalence path; candidateCount 0 ⇒ pair NOT_FOUND; cap pending ≠ FINDING",
     results,
   };
 
@@ -513,6 +564,7 @@ async function main() {
     "",
     "**Gala secinājums:**",
     `- TRANSLATION_VALIDATED: ${tv.length}/38`,
+    `- DEFINITION_EQUIVALENCE_VALIDATED: ${defEq.length}/38`,
     `- FINDING: ${finding.length}/38`,
     `- TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING: ${pairPending.length}/38`,
     `- CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING: ${capPending.length}/38`,
@@ -523,8 +575,8 @@ async function main() {
     "",
     `**TARGET_LEMMA_STATUS:** VALIDATED ${targetValidated.length}/38 | VALIDATION_PENDING ${results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.VALIDATION_PENDING).length}/38 | NOT_VALIDATED ${results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.NOT_VALIDATED).length}/38 | NOT_APPLICABLE ${targetNotApplicable.length}/38`,
     "",
-    "| Valoda | DE vārds | CURRENT | TARGET tulkojums | Divvalodu vārdnīca | URL | TRANSLATION_PAIR_STATUS | TARGET_LEMMA_STATUS | Gala secinājums |",
-    "|--------|----------|---------|------------------|-------------------|-----|-------------------------|---------------------|-----------------|",
+    "| Valoda | DE vārds | CURRENT | TARGET tulkojums | Avots | URL | TRANSLATION_PAIR_STATUS | DEFINITION_EQUIVALENCE | TARGET_LEMMA_STATUS | Gala secinājums |",
+    "|--------|----------|---------|------------------|-------|-----|-------------------------|------------------------|---------------------|-----------------|",
   ];
 
   for (const r of results) {
@@ -535,8 +587,9 @@ async function main() {
     ) {
       gala = `${r.galaConclusion}${r.proposedNew ? ` → ${r.proposedNew}` : ""}`;
     }
+    const defCol = r.definitionEquivalenceStatus || DEFINITION_EQUIVALENCE_STATUS.NOT_APPLICABLE;
     md.push(
-      `| ${r.appLang} | ${r.deLemma} | ${r.currentTarget || "—"} | ${r.targetTranslationDisplay} | ${r.dictionaryName || "—"} | ${r.resultUrl || "—"} | ${r.translationPairStatus} | ${r.targetLemmaStatus} | ${gala} |`,
+      `| ${r.appLang} | ${r.deLemma} | ${r.currentTarget || "—"} | ${r.targetTranslationDisplay} | ${r.dictionaryName || "—"} | ${r.resultUrl || "—"} | ${r.translationPairStatus} | ${defCol} | ${r.targetLemmaStatus} | ${gala} |`,
     );
   }
 
@@ -545,6 +598,7 @@ async function main() {
     JSON.stringify(
       {
         TRANSLATION_VALIDATED: tv.length,
+        DEFINITION_EQUIVALENCE_VALIDATED: defEq.length,
         FINDING: finding.length,
         TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING: pairPending.length,
         CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING: capPending.length,

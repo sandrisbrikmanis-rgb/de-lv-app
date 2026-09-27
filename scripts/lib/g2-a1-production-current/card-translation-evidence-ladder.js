@@ -14,7 +14,7 @@ const {
   deLemmaMatchesCard,
 } = require("./card-translation-audit-search");
 const { stripQuotes } = require("./source-adapters/lookup-normalization");
-const { assessRegistryDefinitionAlignment } = require("./card-translation-definition-semantic");
+const { assessConceptDefinitionEquivalence } = require("./card-translation-definition-semantic");
 
 const EVIDENCE_TIER = Object.freeze({
   BILINGUAL_PDF_FORWARD: "BILINGUAL_PDF_FORWARD_DE_TARGET",
@@ -66,8 +66,7 @@ function isAutomaticTranslationDictionaryEvidence({ platform, sourceId, sourceUr
 }
 
 /**
- * Definīciju salīdzinājums: tikai reģistrētas nepārprotamas pāris + valodas iekšējie marķieri.
- * Nav krusteniskas DE/TARGET vārdu tokenu sakritības.
+ * Definīciju salīdzinājums: DE (DWDS/Duden) + TARGET oficiālais; jēdzienu profila marķieri (nav iepriekš noteikta DE→TARGET pāra).
  */
 function assessDefinitionSemanticTranslationEvidence(deAuthority, targetAuthority, cardGerman, currentTarget, appLang) {
   const signals = [];
@@ -101,7 +100,7 @@ function assessDefinitionSemanticTranslationEvidence(deAuthority, targetAuthorit
   }
   signals.push("DE_SENSE_UNIQUELY_ATTESTED");
 
-  const registry = assessRegistryDefinitionAlignment(
+  const concept = assessConceptDefinitionEquivalence(
     deAuthority,
     targetAuthority,
     cardGerman,
@@ -109,30 +108,36 @@ function assessDefinitionSemanticTranslationEvidence(deAuthority, targetAuthorit
     lang,
   );
 
-  if (registry.matched) {
-    signals.push(`REGISTRY_${registry.pairId}`);
-    if (registry.semanticLabel) signals.push(registry.semanticLabel);
+  if (concept.matched) {
+    signals.push(`CONCEPT_${concept.conceptId}`);
+    if (concept.semanticLabel) signals.push(concept.semanticLabel);
     return {
       tier: EVIDENCE_TIER.DEFINITION_SEMANTIC_CLEAR,
-      reason: registry.reason,
+      reason: concept.reason,
       signals,
-      registryPairId: registry.pairId,
+      definitionConceptId: concept.conceptId,
+      conceptPartial: false,
     };
   }
 
-  if (registry.partial || registry.reason === "NO_REGISTERED_DEFINITION_PAIR") {
+  if (concept.partial && concept.reason === "DEFINITION_SEMANTIC_MISMATCH") {
+    signals.push(`CONCEPT_PARTIAL_${concept.conceptId || "unknown"}`);
     return {
       tier: EVIDENCE_TIER.DEFINITION_SEMANTIC_UNCLEAR,
-      reason: registry.reason || "DEFINITION_SEMANTIC_NOT_UNAMBIGUOUS",
+      reason: "DEFINITION_SEMANTIC_MISMATCH",
       signals,
-      registryPairId: registry.pairId,
+      definitionConceptId: concept.conceptId,
+      conceptPartial: true,
+      detail: concept.detail || null,
     };
   }
 
   return {
     tier: EVIDENCE_TIER.DEFINITION_SEMANTIC_UNCLEAR,
-    reason: registry.reason || "DEFINITION_ALIGNMENT_REQUIRES_REVIEW",
+    reason: concept.reason || "DEFINITION_ALIGNMENT_REQUIRES_REVIEW",
     signals,
+    definitionConceptId: concept.conceptId,
+    conceptPartial: Boolean(concept.partial),
   };
 }
 

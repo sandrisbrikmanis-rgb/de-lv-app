@@ -7,8 +7,10 @@ const { ROOT } = require("./lib/audit-common");
 const {
   TRANSLATION_PAIR_STATUS,
   TARGET_LEMMA_STATUS,
+  DEFINITION_EQUIVALENCE_STATUS,
   GALA_CONCLUSION,
   resolveFinalGalaConclusion,
+  resolveDefinitionEquivalenceGalaConclusion,
   targetStatusWhenPairNotFound,
 } = require("./lib/g2-a1-production-current/g2-a1-bilingual-row-status");
 
@@ -24,12 +26,16 @@ const OUT_MD = path.join(
 
 function recomputeRow(row) {
   const pairStatus = row.translationPairStatus;
+  const defEq =
+    row.definitionEquivalenceStatus || DEFINITION_EQUIVALENCE_STATUS.NOT_APPLICABLE;
+  const onDefinitionPath = defEq !== DEFINITION_EQUIVALENCE_STATUS.NOT_APPLICABLE;
+
   let targetLemmaStatus = row.targetLemmaStatus;
   let targetLemmaReason = row.targetLemmaReason;
   let targetSourceUrl = row.targetSourceUrl;
   let normativeTargetLemma = row.normativeTargetLemma;
 
-  if (pairStatus === TRANSLATION_PAIR_STATUS.NOT_FOUND) {
+  if (pairStatus === TRANSLATION_PAIR_STATUS.NOT_FOUND && !onDefinitionPath) {
     const na = targetStatusWhenPairNotFound();
     targetLemmaStatus = na.targetLemmaStatus;
     targetLemmaReason = na.targetReason;
@@ -37,12 +43,19 @@ function recomputeRow(row) {
     normativeTargetLemma = na.normativeLemma;
   }
 
-  const gala = resolveFinalGalaConclusion({
-    translationPairStatus: pairStatus,
-    targetLemmaStatus,
-    pairLemma: row.pairLemma,
-    currentTarget: row.currentTarget,
-  });
+  const gala = onDefinitionPath
+    ? resolveDefinitionEquivalenceGalaConclusion({
+        definitionEquivalenceStatus: defEq,
+        targetLemmaStatus,
+        currentTarget: row.currentTarget,
+        definitionAlignedLemma: row.pairLemma || row.currentTarget,
+      })
+    : resolveFinalGalaConclusion({
+        translationPairStatus: pairStatus,
+        targetLemmaStatus,
+        pairLemma: row.pairLemma,
+        currentTarget: row.currentTarget,
+      });
 
   return {
     ...row,
@@ -61,6 +74,7 @@ function recomputeRow(row) {
 
 function buildMd(results, generatedAt) {
   const tv = results.filter((r) => r.galaConclusion === GALA_CONCLUSION.TRANSLATION_VALIDATED);
+  const defEq = results.filter((r) => r.galaConclusion === GALA_CONCLUSION.DEFINITION_EQUIVALENCE_VALIDATED);
   const finding = results.filter((r) => r.galaConclusion === GALA_CONCLUSION.FINDING);
   const pairPending = results.filter(
     (r) => r.galaConclusion === GALA_CONCLUSION.TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING,
@@ -81,6 +95,7 @@ function buildMd(results, generatedAt) {
     "",
     "**Gala secinājums:**",
     `- TRANSLATION_VALIDATED: ${tv.length}/38`,
+    `- DEFINITION_EQUIVALENCE_VALIDATED: ${defEq.length}/38`,
     `- FINDING: ${finding.length}/38`,
     `- TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING: ${pairPending.length}/38`,
     `- CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING: ${capPending.length}/38`,
@@ -91,8 +106,8 @@ function buildMd(results, generatedAt) {
     "",
     `**TARGET_LEMMA_STATUS:** VALIDATED ${targetValidated.length}/38 | VALIDATION_PENDING ${results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.VALIDATION_PENDING).length}/38 | NOT_VALIDATED ${results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.NOT_VALIDATED).length}/38 | NOT_APPLICABLE ${targetNotApplicable.length}/38`,
     "",
-    "| Valoda | DE vārds | CURRENT | TARGET tulkojums | Divvalodu vārdnīca | URL | TRANSLATION_PAIR_STATUS | TARGET_LEMMA_STATUS | Gala secinājums |",
-    "|--------|----------|---------|------------------|-------------------|-----|-------------------------|---------------------|-----------------|",
+    "| Valoda | DE vārds | CURRENT | TARGET tulkojums | Avots | URL | TRANSLATION_PAIR_STATUS | DEFINITION_EQUIVALENCE | TARGET_LEMMA_STATUS | Gala secinājums |",
+    "|--------|----------|---------|------------------|-------|-----|-------------------------|------------------------|---------------------|-----------------|",
   ];
 
   for (const r of results) {
@@ -103,11 +118,24 @@ function buildMd(results, generatedAt) {
     ) {
       gala = `${r.galaConclusion}${r.proposedNew ? ` → ${r.proposedNew}` : ""}`;
     }
+    const defCol = r.definitionEquivalenceStatus || DEFINITION_EQUIVALENCE_STATUS.NOT_APPLICABLE;
     md.push(
-      `| ${r.appLang} | ${r.deLemma} | ${r.currentTarget || "—"} | ${r.targetTranslationDisplay} | ${r.dictionaryName || "—"} | ${r.resultUrl || "—"} | ${r.translationPairStatus} | ${r.targetLemmaStatus} | ${gala} |`,
+      `| ${r.appLang} | ${r.deLemma} | ${r.currentTarget || "—"} | ${r.targetTranslationDisplay} | ${r.dictionaryName || "—"} | ${r.resultUrl || "—"} | ${r.translationPairStatus} | ${defCol} | ${r.targetLemmaStatus} | ${gala} |`,
     );
   }
-  return { md: md.join("\n") + "\n", tv, finding, pairPending, capPending, nsr, nf, pairValidated, targetValidated, targetNotApplicable };
+  return {
+    md: md.join("\n") + "\n",
+    tv,
+    defEq,
+    finding,
+    pairPending,
+    capPending,
+    nsr,
+    nf,
+    pairValidated,
+    targetValidated,
+    targetNotApplicable,
+  };
 }
 
 function main() {
@@ -122,6 +150,7 @@ function main() {
     generatedAt,
     rowCount: results.length,
     translationValidatedCount: summary.tv.length,
+    definitionEquivalenceValidatedCount: summary.defEq.length,
     findingCount: summary.finding.length,
     translationPairValidatedTargetLemmaPendingCount: summary.pairPending.length,
     capitalizationCandidateTargetValidationPendingCount: summary.capPending.length,
@@ -131,7 +160,7 @@ function main() {
     targetLemmaValidatedCount: summary.targetValidated.length,
     targetLemmaNotApplicableCount: summary.targetNotApplicable.length,
     policy:
-      "v5 gala recompute on v4 bilingual evidence; pair VALIDATED + target pending; cap pending; NOT_FOUND → target N/A",
+      "v5 gala: bilingual pair path + definition equivalence path (separate statuses); NOT_FOUND pair ≠ VALIDATED",
     results,
   };
 
@@ -142,6 +171,7 @@ function main() {
     JSON.stringify(
       {
         TRANSLATION_VALIDATED: summary.tv.length,
+        DEFINITION_EQUIVALENCE_VALIDATED: summary.defEq.length,
         FINDING: summary.finding.length,
         TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING: summary.pairPending.length,
         CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING: summary.capPending.length,

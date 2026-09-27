@@ -1,28 +1,43 @@
 {
-  "schemaVersion": "g2-a1-card-translation-definition-semantic-pairs-v1",
-  "description": "Language-internal definition markers for unambiguous DEFINITION_SEMANTIC_CLEAR (no cross-language token overlap).",
-  "pairs": [
+  "schemaVersion": "g2-a1-card-translation-definition-concept-profiles-v2",
+  "description": "Jēdzienu profili un valodas marķieri pārbaudei. verificationExamples ir regresijas piemēri — nevis iepriekš noteikts gala tulkojums.",
+  "conceptProfiles": [
     {
-      "id": "grenzkonflikt-et-piirikonflikt",
-      "deLemma": "Grenzkonflikt",
+      "id": "BORDER_CONFLICT",
       "appLang": "et",
-      "targetLemma": "piirikonflikt",
+      "deLemmaExamples": ["Grenzkonflikt"],
+      "verificationExamples": [
+        {
+          "note": "Regresijas pozitīvs — DWDS + Sõnaveeb",
+          "deLemmaExample": "Grenzkonflikt",
+          "targetLemmaExample": "piirikonflikt"
+        }
+      ],
       "deAuthorityKinds": ["dwds", "duden"],
       "targetAuthorityIdPattern": "sonaveeb|et-eki",
-      "deDefinitionIncludes": ["grenz", "konflikt"],
-      "targetDefinitionIncludes": ["piiri", "konflikt"],
-      "semanticLabel": "BORDER_CONFLICT"
+      "deMarkersRequired": ["grenz", "konflikt"],
+      "deMarkersExcluded": [],
+      "targetMarkersRequired": ["piiri", "konflikt"],
+      "targetMarkersExcluded": ["töökonflikt", "töökoht", "tööandja", "organisatsioon"]
     },
     {
-      "id": "goldader-et-kullasoon-etymology",
-      "deLemma": "Goldader",
+      "id": "GOLD_VEIN",
       "appLang": "et",
-      "targetLemma": "kullasoon",
+      "deLemmaExamples": ["Goldader"],
+      "verificationExamples": [
+        {
+          "note": "Etimoloģijas atsauce DE lemmai",
+          "deLemmaExample": "Goldader",
+          "targetLemmaExample": "kullasoon"
+        }
+      ],
       "deAuthorityKinds": ["dwds", "duden"],
       "targetAuthorityIdPattern": "sonaveeb|et-eki",
-      "deDefinitionIncludes": ["gold"],
-      "targetEtymologyReferencesDeLemma": true,
-      "semanticLabel": "GOLD_VEIN"
+      "deMarkersRequired": ["gold"],
+      "deMarkersExcluded": [],
+      "targetMarkersRequired": [],
+      "targetMarkersExcluded": [],
+      "targetEtymologyReferencesDeLemma": true
     }
   ]
 }

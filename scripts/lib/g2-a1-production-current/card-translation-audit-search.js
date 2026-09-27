@@ -7,6 +7,7 @@ const { stripQuotes } = require("./source-adapters/lookup-normalization");
 /** Kartītes / A1–C2 audita galīgais tulkošanas secinājums (nav tikai vārdnīcas “FOUND”). */
 const TRANSLATION_AUDIT_VERDICT = Object.freeze({
   TRANSLATION_VALIDATED: "TRANSLATION_VALIDATED",
+  DEFINITION_EQUIVALENCE_VALIDATED: "DEFINITION_EQUIVALENCE_VALIDATED",
   FINDING: "FINDING",
   NEEDS_SOURCE_REVIEW: "NEEDS_SOURCE_REVIEW",
   DE_NOT_CONFIRMED: "DE_NOT_CONFIRMED",

@@ -16,6 +16,13 @@ const TRANSLATION_PAIR_STATUS = Object.freeze({
   NOT_FOUND: "NOT_FOUND",
 });
 
+/** Nav divvalodu vārdnīcas pāra — definīciju ekvivalences ceļš (MASTER §7.162.2). */
+const DEFINITION_EQUIVALENCE_STATUS = Object.freeze({
+  NOT_APPLICABLE: "NOT_APPLICABLE",
+  VALIDATED: "DEFINITION_EQUIVALENCE_VALIDATED",
+  UNCLEAR: "DEFINITION_EQUIVALENCE_UNCLEAR",
+});
+
 const TARGET_LEMMA_STATUS = Object.freeze({
   VALIDATED: "VALIDATED",
   VALIDATION_PENDING: "VALIDATION_PENDING",
@@ -26,6 +33,7 @@ const TARGET_LEMMA_STATUS = Object.freeze({
 /** Gala secinājumi (paplašināti v5). */
 const GALA_CONCLUSION = Object.freeze({
   TRANSLATION_VALIDATED: TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED,
+  DEFINITION_EQUIVALENCE_VALIDATED: "DEFINITION_EQUIVALENCE_VALIDATED",
   FINDING: TRANSLATION_AUDIT_VERDICT.FINDING,
   NEEDS_SOURCE_REVIEW: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
   NOT_FOUND: "NOT_FOUND",
@@ -271,13 +279,80 @@ function targetStatusWhenPairNotFound() {
   };
 }
 
+/**
+ * Gala secinājums definīciju ekvivalences ceļam (divvalodu pāris nav atrasts).
+ */
+function resolveDefinitionEquivalenceGalaConclusion({
+  definitionEquivalenceStatus,
+  targetLemmaStatus,
+  currentTarget,
+  definitionAlignedLemma,
+}) {
+  const current = stripQuotes(currentTarget || "");
+  const aligned = stripQuotes(definitionAlignedLemma || "");
+
+  if (definitionEquivalenceStatus === DEFINITION_EQUIVALENCE_STATUS.UNCLEAR) {
+    return {
+      galaConclusion: GALA_CONCLUSION.NEEDS_SOURCE_REVIEW,
+      findingType: null,
+      proposedNew: null,
+      galaReason: "DEFINITION_SEMANTIC_MISMATCH",
+    };
+  }
+
+  if (definitionEquivalenceStatus !== DEFINITION_EQUIVALENCE_STATUS.VALIDATED) {
+    return {
+      galaConclusion: GALA_CONCLUSION.NOT_FOUND,
+      findingType: null,
+      proposedNew: null,
+      galaReason: "NO_BILINGUAL_OR_DEFINITION_EQUIVALENCE",
+    };
+  }
+
+  if (targetLemmaStatus === TARGET_LEMMA_STATUS.NOT_VALIDATED) {
+    return {
+      galaConclusion: GALA_CONCLUSION.NEEDS_SOURCE_REVIEW,
+      findingType: null,
+      proposedNew: null,
+      galaReason: "TARGET_LEMMA_NOT_VALIDATED",
+    };
+  }
+
+  if (targetLemmaStatus === TARGET_LEMMA_STATUS.VALIDATION_PENDING) {
+    return {
+      galaConclusion: GALA_CONCLUSION.TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING,
+      findingType: null,
+      proposedNew: null,
+      galaReason: "DEFINITION_EQUIVALENCE_TARGET_OFFICIAL_PENDING",
+    };
+  }
+
+  if (targetLemmaStatus === TARGET_LEMMA_STATUS.VALIDATED && aligned && current === aligned) {
+    return {
+      galaConclusion: GALA_CONCLUSION.DEFINITION_EQUIVALENCE_VALIDATED,
+      findingType: null,
+      proposedNew: null,
+      galaReason: "DEFINITION_EQUIVALENCE_UNAMBIGUOUS",
+    };
+  }
+
+  return {
+    galaConclusion: GALA_CONCLUSION.NEEDS_SOURCE_REVIEW,
+    findingType: null,
+    proposedNew: null,
+    galaReason: "DEFINITION_EQUIVALENCE_UNRESOLVED",
+  };
+}
+
 module.exports = {
   TRANSLATION_PAIR_STATUS,
+  DEFINITION_EQUIVALENCE_STATUS,
   TARGET_LEMMA_STATUS,
   GALA_CONCLUSION,
   resolveTranslationPairStatus,
   resolveTargetLemmaStatus,
   resolveFinalGalaConclusion,
+  resolveDefinitionEquivalenceGalaConclusion,
   targetStatusWhenPairNotFound,
   capitalizationCandidate,
 };

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
-const PAIRS = require("../data/card-translation-definition-semantic-pairs.json");
+const DATA = require("../data/card-translation-definition-semantic-pairs.json");
 
 function normalizeFrag(text) {
   return String(text || "")
@@ -12,6 +12,11 @@ function normalizeFrag(text) {
 function includesAllMarkers(fragment, markers) {
   const f = normalizeFrag(fragment);
   return (markers || []).every((m) => f.includes(String(m).toLowerCase()));
+}
+
+function includesAnyMarker(fragment, markers) {
+  const f = normalizeFrag(fragment);
+  return (markers || []).some((m) => f.includes(String(m).toLowerCase()));
 }
 
 function adapterKind(adapterId, entryUrl) {
@@ -30,63 +35,134 @@ function targetAdapterMatches(pattern, targetAuthority) {
   return re.test(id) || re.test(url);
 }
 
-function findRegistryPair(deLemma, appLang, targetLemma) {
-  const de = String(deLemma || "").trim();
+function conceptProfilesForLemma(appLang, deLemma) {
   const lang = String(appLang || "").trim();
-  const target = String(targetLemma || "").trim().toLowerCase();
-  return (PAIRS.pairs || []).find(
-    (p) =>
-      p.deLemma === de &&
-      p.appLang === lang &&
-      String(p.targetLemma || "").trim().toLowerCase() === target,
+  const lemma = String(deLemma || "").trim();
+  return (DATA.conceptProfiles || []).filter(
+    (p) => p.appLang === lang && (p.deLemmaExamples || []).includes(lemma),
   );
 }
 
-/**
- * Valodas iekšējie marķieri + reģistrs — nav krusteniskas DE/ET vārdu tokenu sakritības.
- */
-function assessRegistryDefinitionAlignment(deAuthority, targetAuthority, cardGerman, currentTarget, appLang) {
-  const targetLemma = String(currentTarget || "").trim();
-  const pair = findRegistryPair(cardGerman?.lemma, appLang, targetLemma);
-  if (!pair) {
-    return { matched: false, reason: "NO_REGISTERED_DEFINITION_PAIR", pairId: null };
+function evaluateConceptProfile(profile, deAuthority, targetAuthority, cardGerman, deFrag, targetFrag) {
+  const deKind = adapterKind(deAuthority?.adapterId, deAuthority?.entryUrl);
+  if (profile.deAuthorityKinds?.length && !profile.deAuthorityKinds.includes(deKind)) {
+    return { ok: false, partial: false, reason: "DE_AUTHORITY_KIND_MISMATCH", conceptId: profile.id };
+  }
+  if (!targetAdapterMatches(profile.targetAuthorityIdPattern, targetAuthority)) {
+    return { ok: false, partial: false, reason: "TARGET_AUTHORITY_PATTERN_MISMATCH", conceptId: profile.id };
   }
 
-  const deKind = adapterKind(deAuthority?.adapterId, deAuthority?.entryUrl);
-  if (pair.deAuthorityKinds?.length && !pair.deAuthorityKinds.includes(deKind)) {
-    return { matched: false, reason: "DE_AUTHORITY_KIND_MISMATCH", pairId: pair.id, deKind };
+  const targetHeadword = String(targetAuthority?.entryHeadwordOrRule || "").trim();
+  const targetMarkerHaystack = `${targetFrag} ${targetHeadword}`.trim();
+
+  const deRequiredOk = includesAllMarkers(deFrag, profile.deMarkersRequired);
+  const deExcludedHit = includesAnyMarker(deFrag, profile.deMarkersExcluded);
+  const targetRequiredOk = profile.targetMarkersRequired?.length
+    ? includesAllMarkers(targetMarkerHaystack, profile.targetMarkersRequired)
+    : true;
+  const targetExcludedHit = includesAnyMarker(targetMarkerHaystack, profile.targetMarkersExcluded);
+
+  if (profile.targetEtymologyReferencesDeLemma) {
+    const esc = String(cardGerman?.lemma || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    if (!new RegExp(`\\b${esc}\\b`, "i").test(targetFrag)) {
+      return {
+        ok: false,
+        partial: deRequiredOk,
+        reason: "TARGET_ETYMOLOGY_DE_LEMMA_MISSING",
+        conceptId: profile.id,
+      };
+    }
   }
-  if (!targetAdapterMatches(pair.targetAuthorityIdPattern, targetAuthority)) {
-    return { matched: false, reason: "TARGET_AUTHORITY_PATTERN_MISMATCH", pairId: pair.id };
+
+  if (!deRequiredOk || deExcludedHit) {
+    return {
+      ok: false,
+      partial: includesAnyMarker(deFrag, profile.deMarkersRequired),
+      reason: deExcludedHit ? "DE_DEFINITION_EXCLUDED_MARKER" : "DE_CONCEPT_MARKERS_INCOMPLETE",
+      conceptId: profile.id,
+    };
+  }
+
+  if (targetExcludedHit) {
+    return {
+      ok: false,
+      partial: true,
+      reason: "DEFINITION_SEMANTIC_MISMATCH",
+      conceptId: profile.id,
+      detail: "TARGET_DEFINITION_EXCLUDED_MARKER",
+    };
+  }
+
+  if (!targetRequiredOk) {
+    const sharedPartial =
+      profile.targetMarkersRequired?.length &&
+      includesAnyMarker(targetFrag, profile.targetMarkersRequired);
+    return {
+      ok: false,
+      partial: Boolean(sharedPartial),
+      reason: "DEFINITION_SEMANTIC_MISMATCH",
+      conceptId: profile.id,
+      detail: "TARGET_CONCEPT_MARKERS_INCOMPLETE",
+    };
+  }
+
+  return {
+    ok: true,
+    reason: "CONCEPT_DEFINITION_UNAMBIGUOUS",
+    conceptId: profile.id,
+    semanticLabel: profile.id,
+  };
+}
+
+/**
+ * Jēdzienu profila salīdzinājums (nav iepriekš reģistrēta DE→TARGET pāra kā vārtejas).
+ */
+function assessConceptDefinitionEquivalence(deAuthority, targetAuthority, cardGerman, currentTarget, appLang) {
+  const profiles = conceptProfilesForLemma(appLang, cardGerman?.lemma);
+  if (!profiles.length) {
+    return {
+      matched: false,
+      partial: false,
+      reason: "NO_CONCEPT_PROFILE_FOR_LEMMA",
+      conceptId: null,
+    };
   }
 
   const deFrag = deAuthority?.evidenceFragment || "";
   const targetFrag = targetAuthority?.evidenceFragment || "";
 
-  if (pair.deDefinitionIncludes?.length && !includesAllMarkers(deFrag, pair.deDefinitionIncludes)) {
-    return { matched: false, partial: true, reason: "DE_DEFINITION_MARKERS_INCOMPLETE", pairId: pair.id };
-  }
-
-  if (pair.targetEtymologyReferencesDeLemma) {
-    const esc = String(cardGerman.lemma || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    if (!new RegExp(`\\b${esc}\\b`, "i").test(targetFrag)) {
-      return { matched: false, partial: true, reason: "TARGET_ETYMOLOGY_DE_LEMMA_MISSING", pairId: pair.id };
+  let bestPartial = null;
+  for (const profile of profiles) {
+    const ev = evaluateConceptProfile(profile, deAuthority, targetAuthority, cardGerman, deFrag, targetFrag);
+    if (ev.ok) {
+      return {
+        matched: true,
+        partial: false,
+        reason: ev.reason,
+        conceptId: ev.conceptId,
+        semanticLabel: ev.semanticLabel,
+      };
     }
-  } else if (pair.targetDefinitionIncludes?.length && !includesAllMarkers(targetFrag, pair.targetDefinitionIncludes)) {
-    return { matched: false, partial: true, reason: "TARGET_DEFINITION_MARKERS_INCOMPLETE", pairId: pair.id };
+    if (ev.partial) {
+      bestPartial = ev;
+    } else if (!bestPartial) {
+      bestPartial = ev;
+    }
   }
 
   return {
-    matched: true,
-    reason: "REGISTERED_UNAMBIGUOUS_DEFINITION_PAIR",
-    pairId: pair.id,
-    semanticLabel: pair.semanticLabel,
+    matched: false,
+    partial: Boolean(bestPartial?.partial),
+    reason: bestPartial?.reason || "DEFINITION_SEMANTIC_MISMATCH",
+    conceptId: bestPartial?.conceptId || profiles[0]?.id,
+    detail: bestPartial?.detail || null,
   };
 }
 
 module.exports = {
-  PAIRS,
-  findRegistryPair,
-  assessRegistryDefinitionAlignment,
+  DATA,
+  conceptProfilesForLemma,
+  assessConceptDefinitionEquivalence,
   includesAllMarkers,
+  includesAnyMarker,
 };

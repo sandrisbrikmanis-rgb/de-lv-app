@@ -80,7 +80,11 @@ function main() {
     "piirikonflikt",
     "et",
   );
-  cases.push({ id: "grenzkonflikt-et-positive", ...grenzMatch, expectedVerdict: TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED });
+  cases.push({
+    id: "grenzkonflikt-et-positive",
+    ...grenzMatch,
+    expectedVerdict: TRANSLATION_AUDIT_VERDICT.DEFINITION_EQUIVALENCE_VALIDATED,
+  });
   if (grenzMatch.tier !== EVIDENCE_TIER.DEFINITION_SEMANTIC_CLEAR) {
     blockers.push({ code: "GRENZKONFLIKT_DEFINITION_CLEAR", tier: grenzMatch.tier, reason: grenzMatch.reason });
   }
@@ -88,14 +92,15 @@ function main() {
   const dePartial = { ...deGrenz };
   const etPartial = {
     ...etGrenz,
-    evidenceFragment: "konflikt · üldine vastuolu bez piirialast konteksti",
-    entryHeadwordOrRule: "konflikt",
+    evidenceFragment:
+      "töökonflikt · töötajate ja tööandja vastuolu; mitte riikide konflikt piiri ümber",
+    entryHeadwordOrRule: "töökonflikt",
   };
   const partialMatch = assessDefinitionSemanticTranslationEvidence(
     dePartial,
     etPartial,
     { lemma: "Grenzkonflikt", partOfSpeech: "noun" },
-    "konflikt",
+    "töökonflikt",
     "et",
   );
   cases.push({
@@ -105,6 +110,12 @@ function main() {
   });
   if (partialMatch.tier !== EVIDENCE_TIER.DEFINITION_SEMANTIC_UNCLEAR) {
     blockers.push({ code: "PARTIAL_SHOULD_BE_UNCLEAR", tier: partialMatch.tier, reason: partialMatch.reason });
+  }
+  if (partialMatch.reason !== "DEFINITION_SEMANTIC_MISMATCH") {
+    blockers.push({ code: "PARTIAL_SHOULD_BE_SEMANTIC_MISMATCH", reason: partialMatch.reason });
+  }
+  if (!partialMatch.conceptPartial) {
+    blockers.push({ code: "PARTIAL_SHOULD_FLAG_CONCEPT_PARTIAL" });
   }
 
   const pass = blockers.length === 0;

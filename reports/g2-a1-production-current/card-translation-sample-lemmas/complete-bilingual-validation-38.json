@@ -1,14 +1,14 @@
 {
   "schemaVersion": "g2-a1-complete-bilingual-validation-38-v5",
-  "generatedAt": "2026-09-27T12:47:13.092Z",
+  "generatedAt": "2026-09-27T13:11:26.580Z",
   "rowCount": 38,
-  "translationValidatedCount": 6,
+  "translationValidatedCount": 5,
   "findingCount": 0,
   "needsSourceReviewCount": 7,
   "notFoundCount": 19,
-  "translationPairValidatedCount": 17,
+  "translationPairValidatedCount": 16,
   "targetLemmaValidatedCount": 6,
-  "policy": "v5 gala recompute on v4 bilingual evidence; pair VALIDATED + target pending; cap pending; NOT_FOUND → target N/A",
+  "policy": "v5 gala: bilingual pair path + definition equivalence path (separate statuses); NOT_FOUND pair ≠ VALIDATED",
   "results": [
     {
       "appLang": "sq",
@@ -369,7 +369,8 @@
       "candidateCount": 2,
       "candidateCountRaw": 2,
       "rejectedStrictCount": 0,
-      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND"
+      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND",
+      "definitionEquivalenceStatus": "NOT_APPLICABLE"
     },
     {
       "appLang": "sq",
@@ -811,7 +812,8 @@
       "candidateCount": 2,
       "candidateCountRaw": 2,
       "rejectedStrictCount": 0,
-      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND"
+      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND",
+      "definitionEquivalenceStatus": "NOT_APPLICABLE"
     },
     {
       "appLang": "sq",
@@ -1230,7 +1232,8 @@
       "candidateCount": 1,
       "candidateCountRaw": 1,
       "rejectedStrictCount": 0,
-      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND"
+      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND",
+      "definitionEquivalenceStatus": "NOT_APPLICABLE"
     },
     {
       "appLang": "sq",
@@ -1450,7 +1453,8 @@
       "candidateCount": 1,
       "candidateCountRaw": 1,
       "rejectedStrictCount": 0,
-      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND"
+      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND",
+      "definitionEquivalenceStatus": "NOT_APPLICABLE"
     },
     {
       "appLang": "lt",
@@ -1856,19 +1860,19 @@
       "deSourceUrl": "https://www.dwds.de/wb/Grenzkonflikt",
       "currentTarget": "piirikonflikt",
       "targetTranslationDisplay": "piirikonflikt",
-      "dictionaryName": "DWDS/Duden + TARGET oficiālais (definīciju reģistrs)",
-      "resultUrl": "https://www.dwds.de/wb/Grenzkonflikt",
-      "translationPairStatus": "VALIDATED",
-      "translationPairReason": "DEFINITION_SEMANTIC_REGISTRY",
-      "pairLemma": "piirikonflikt",
+      "dictionaryName": "DE: DWDS/Duden · TARGET: Eesti Keele Instituut — ÕS / Sõnaveeb",
+      "resultUrl": "https://www.dwds.de/wb/Grenzkonflikt · https://sonaveeb.ee/search/unif/dlall/dsall/piirikonflikt/1/eng",
+      "translationPairStatus": "NOT_FOUND",
+      "translationPairReason": "NO_FILTERED_BILINGUAL_CANDIDATES",
+      "pairLemma": null,
       "targetLemmaStatus": "VALIDATED",
       "targetLemmaReason": "TARGET_OFFICIAL_MATCHES_CURRENT",
       "targetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/piirikonflikt/1/eng",
       "normativeTargetLemma": "piirikonflikt",
-      "galaConclusion": "TRANSLATION_VALIDATED",
-      "galaReason": "CURRENT_EXACT_BILINGUAL_AND_TARGET_OFFICIAL",
-      "finalStatus": "TRANSLATION_VALIDATED",
-      "finalReason": "CURRENT_EXACT_BILINGUAL_AND_TARGET_OFFICIAL",
+      "galaConclusion": "DEFINITION_EQUIVALENCE_VALIDATED",
+      "galaReason": "DEFINITION_EQUIVALENCE_UNAMBIGUOUS",
+      "finalStatus": "DEFINITION_EQUIVALENCE_VALIDATED",
+      "finalReason": "DEFINITION_EQUIVALENCE_UNAMBIGUOUS",
       "findingType": null,
       "proposedNew": null,
       "sourcesTried": [
@@ -1922,9 +1926,11 @@
       "candidateCount": 0,
       "candidateCountRaw": 0,
       "rejectedStrictCount": 0,
+      "definitionEquivalenceStatus": "DEFINITION_EQUIVALENCE_VALIDATED",
       "definitionSemanticEvidence": "DEFINITION_SEMANTIC_CLEAR",
-      "definitionSemanticReason": "REGISTERED_UNAMBIGUOUS_DEFINITION_PAIR",
-      "definitionRegistryPairId": "grenzkonflikt-et-piirikonflikt"
+      "definitionSemanticReason": "CONCEPT_DEFINITION_UNAMBIGUOUS",
+      "definitionConceptId": "BORDER_CONFLICT",
+      "definitionTargetSourceUrl": "https://sonaveeb.ee/search/unif/dlall/dsall/piirikonflikt/1/eng"
     },
     {
       "appLang": "lt",
@@ -2331,7 +2337,8 @@
       "candidateCount": 1,
       "candidateCountRaw": 1,
       "rejectedStrictCount": 0,
-      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND"
+      "deEtInstitutionalBilingualLookupStatus": "BILINGUAL_ENTRY_FOUND",
+      "definitionEquivalenceStatus": "NOT_APPLICABLE"
     },
     {
       "appLang": "lt",
@@ -2662,5 +2669,6 @@
   ],
   "translationPairValidatedTargetLemmaPendingCount": 1,
   "capitalizationCandidateTargetValidationPendingCount": 5,
-  "targetLemmaNotApplicableCount": 19
+  "targetLemmaNotApplicableCount": 19,
+  "definitionEquivalenceValidatedCount": 1
 }

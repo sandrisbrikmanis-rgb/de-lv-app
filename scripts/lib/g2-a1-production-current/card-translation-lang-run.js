@@ -95,7 +95,7 @@ async function runCardTranslationAuditForLanguage(appLang, cardGerman, currentTa
           });
           if (validatedGate.ok) {
             return {
-              verdict: TRANSLATION_AUDIT_VERDICT.TRANSLATION_VALIDATED,
+              verdict: TRANSLATION_AUDIT_VERDICT.DEFINITION_EQUIVALENCE_VALIDATED,
               blockers: [],
               deAuthority,
               targetAuthority,
@@ -113,6 +113,7 @@ async function runCardTranslationAuditForLanguage(appLang, cardGerman, currentTa
               evidenceTier: defMatch.tier,
               evidenceReason: defMatch.reason,
               definitionMatchSignals: defMatch.signals,
+              definitionConceptId: defMatch.definitionConceptId,
               sourcesTried: collected.sourcesTried,
               searchLemma: collected.searchLemma,
               dictionarySearchStrategy: collected.dictionarySearchStrategy,

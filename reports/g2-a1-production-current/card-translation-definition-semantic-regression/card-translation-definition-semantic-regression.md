@@ -1,25 +1,25 @@
 # Kartīšu tulkojums — definīciju semantikas regresija
 
-Ģenerēts: 2026-09-27T12:35:49.898Z
+Ģenerēts: 2026-09-27T13:01:19.506Z
 
 **Tests:** `node scripts/test-g2-a1-card-translation-evidence-ladder.js` → **PASS**
 
-## Pozitīvs piemērs (TRANSLATION_VALIDATED ceļš)
+## Pozitīvs piemērs (definīciju ekvivalence)
 
 | DE | TARGET | Avoti | Rezultāts |
 |----|--------|-------|-----------|
-| Grenzkonflikt | piirikonflikt | DWDS + EKI Sõnaveeb | `DEFINITION_SEMANTIC_CLEAR` → gala `TRANSLATION_VALIDATED` (ja TARGET oficiāli apstiprināts) |
+| Grenzkonflikt | piirikonflikt | DWDS + EKI Sõnaveeb | `DEFINITION_SEMANTIC_CLEAR` → gala `DEFINITION_EQUIVALENCE_VALIDATED` (bez divvalodu pāra) |
 
-## Negatīvs piemērs (daļēja līdzība)
+## Negatīvs piemērs (daļēja jēdzieniska līdzība, cita nozīme)
 
 | DE | TARGET | Rezultāts |
 |----|--------|-----------|
-| Grenzkonflikt | konflikt (tikai daļēji) | `DEFINITION_SEMANTIC_UNCLEAR` → `NEEDS_SOURCE_REVIEW` |
+| Grenzkonflikt (piiri konflikts) | töökonflikt | `DEFINITION_SEMANTIC_MISMATCH` → `NEEDS_SOURCE_REVIEW` |
 
 ## Testa kastu kopsavilkums
 
 | ID | tier | reason |
 |----|------|--------|
-| grenzkonflikt-et-positive | DEFINITION_SEMANTIC_CLEAR | REGISTERED_UNAMBIGUOUS_DEFINITION_PAIR |
-| grenzkonflikt-et-partial-negative | DEFINITION_SEMANTIC_UNCLEAR | NO_REGISTERED_DEFINITION_PAIR |
+| grenzkonflikt-et-positive | DEFINITION_SEMANTIC_CLEAR | CONCEPT_DEFINITION_UNAMBIGUOUS |
+| grenzkonflikt-et-partial-negative | DEFINITION_SEMANTIC_UNCLEAR | DEFINITION_SEMANTIC_MISMATCH |
 

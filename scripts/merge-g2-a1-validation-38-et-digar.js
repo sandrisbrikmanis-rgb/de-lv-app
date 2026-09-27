@@ -12,6 +12,7 @@ const { lookupDeForCard } = require("./lib/g2-a1-production-current/card-transla
 const {
   TRANSLATION_PAIR_STATUS,
   TARGET_LEMMA_STATUS,
+  DEFINITION_EQUIVALENCE_STATUS,
   GALA_CONCLUSION,
 } = require("./lib/g2-a1-production-current/g2-a1-bilingual-row-status");
 
@@ -77,6 +78,7 @@ async function main() {
 
   const generatedAt = new Date().toISOString();
   const tv = results.filter((r) => r.galaConclusion === GALA_CONCLUSION.TRANSLATION_VALIDATED);
+  const defEq = results.filter((r) => r.galaConclusion === GALA_CONCLUSION.DEFINITION_EQUIVALENCE_VALIDATED);
   const finding = results.filter((r) => r.galaConclusion === GALA_CONCLUSION.FINDING);
   const pairPending = results.filter(
     (r) => r.galaConclusion === GALA_CONCLUSION.TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING,
@@ -94,6 +96,7 @@ async function main() {
     ...prior,
     generatedAt,
     translationValidatedCount: tv.length,
+    definitionEquivalenceValidatedCount: defEq.length,
     findingCount: finding.length,
     translationPairValidatedTargetLemmaPendingCount: pairPending.length,
     capitalizationCandidateTargetValidationPendingCount: capPending.length,
@@ -116,6 +119,7 @@ async function main() {
     "",
     "**Gala secinājums:**",
     `- TRANSLATION_VALIDATED: ${tv.length}/38`,
+    `- DEFINITION_EQUIVALENCE_VALIDATED: ${defEq.length}/38`,
     `- FINDING: ${finding.length}/38`,
     `- TRANSLATION_PAIR_VALIDATED_TARGET_LEMMA_PENDING: ${pairPending.length}/38`,
     `- CAPITALIZATION_CANDIDATE_TARGET_VALIDATION_PENDING: ${capPending.length}/38`,
@@ -126,8 +130,8 @@ async function main() {
     "",
     `**TARGET_LEMMA_STATUS:** VALIDATED ${targetValidated.length}/38 | VALIDATION_PENDING ${results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.VALIDATION_PENDING).length}/38 | NOT_VALIDATED ${results.filter((r) => r.targetLemmaStatus === TARGET_LEMMA_STATUS.NOT_VALIDATED).length}/38 | NOT_APPLICABLE ${targetNotApplicable.length}/38`,
     "",
-    "| Valoda | DE vārds | CURRENT | TARGET tulkojums | Divvalodu vārdnīca | URL | TRANSLATION_PAIR_STATUS | TARGET_LEMMA_STATUS | Gala secinājums |",
-    "|--------|----------|---------|------------------|-------------------|-----|-------------------------|---------------------|-----------------|",
+    "| Valoda | DE vārds | CURRENT | TARGET tulkojums | Avots | URL | TRANSLATION_PAIR_STATUS | DEFINITION_EQUIVALENCE | TARGET_LEMMA_STATUS | Gala secinājums |",
+    "|--------|----------|---------|------------------|-------|-----|-------------------------|------------------------|---------------------|-----------------|",
   ];
 
   for (const r of results) {
@@ -138,8 +142,9 @@ async function main() {
     ) {
       gala = `${r.galaConclusion}${r.proposedNew ? ` → ${r.proposedNew}` : ""}`;
     }
+    const defCol = r.definitionEquivalenceStatus || DEFINITION_EQUIVALENCE_STATUS.NOT_APPLICABLE;
     md.push(
-      `| ${r.appLang} | ${r.deLemma} | ${r.currentTarget || "—"} | ${r.targetTranslationDisplay} | ${r.dictionaryName || "—"} | ${r.resultUrl || "—"} | ${r.translationPairStatus} | ${r.targetLemmaStatus} | ${gala} |`,
+      `| ${r.appLang} | ${r.deLemma} | ${r.currentTarget || "—"} | ${r.targetTranslationDisplay} | ${r.dictionaryName || "—"} | ${r.resultUrl || "—"} | ${r.translationPairStatus} | ${defCol} | ${r.targetLemmaStatus} | ${gala} |`,
     );
   }
   fs.writeFileSync(OUT_MD, `${md.join("\n")}\n`);
