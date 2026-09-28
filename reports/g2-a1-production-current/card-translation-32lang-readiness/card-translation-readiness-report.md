@@ -1,7 +1,7 @@
 # G2/A1 card translation readiness (32 languages)
 
 - **Classification:** CARD_TRANSLATION_READINESS_IN_PROGRESS
-- **Ready:** 12/32
+- **Ready:** 13/32
 - **Next action:** CONTINUE_DE_TO_TARGET_COLLECTORS_AND_TARGET_VALIDATORS_PER_LANGUAGE
 - **Full A1 audit executed:** false
 - **Production modified (this PR / working tree):** false
@@ -18,6 +18,7 @@
 - fi
 - gr
 - lb
+- lv
 - nb
 - ru
 - sk
@@ -32,7 +33,6 @@
 - is
 - it
 - lt
-- lv
 - mk
 - nl
 - nn
@@ -158,20 +158,19 @@
 - DE URL: https://www.dwds.de/wb/Haus
 
 ### lt — NOT READY (targetOfficialValidation: false)
-- Collector: `vokieciu-lietuviu-public` — http://www.vokieciu-lietuviu.com/
+- Collector: `ekalba-de-lt` — https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas
 - TARGET validator: `lt-ekalba-browser-entry` — https://lki.lt/
-- Haus positive regression: FAIL — verdict **NO_ELIGIBLE_DICTIONARY_CANDIDATE**
+- Haus positive regression: FAIL — verdict **TARGET_OFFICIAL_NOT_VALIDATED**
 - DE URL: https://www.dwds.de/wb/Haus
-- Dictionary: http://www.vokieciu-lietuviu.com/
-- Blockers: BILINGUAL_COLLECTOR_NOT_PROVEN, TARGET_OFFICIAL_VALIDATION_INCOMPLETE, PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL
+- Dictionary: https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas
+- Blockers: TARGET_OFFICIAL_VALIDATION_INCOMPLETE, PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL
 
-### lv — NOT READY (targetOfficialValidation: false)
-- Collector: `manifest-lv` — https://www.letonika.lv/dictionary
+### lv — READY (targetOfficialValidation: true)
+- Collector: `letonika-de-lv-2001-plus` — https://www.letonika.lv/groups/default.aspx?g=2&r=10311062
 - TARGET validator: `lv-tezaurs-simplified-entry` — https://valoda.lv/
-- Haus positive regression: FAIL — verdict **NEEDS_SOURCE_REVIEW**
+- Haus positive regression: PASS — verdict **TRANSLATION_VALIDATED**
 - DE URL: https://www.dwds.de/wb/Haus
-- Dictionary: https://www.letonika.lv/dictionary
-- Blockers: TARGET_OFFICIAL_VALIDATION_INCOMPLETE, NSR_DOES_NOT_SATISFY_READINESS
+- Dictionary: https://www.letonika.lv/groups/default.aspx?g=2&r=10311062
 
 ### mk — NOT READY (targetOfficialValidation: false)
 - Collector: `verbformen-de-mk` — https://www.verbformen.de/de-mk/
@@ -205,11 +204,11 @@
 - Blockers: TARGET_OFFICIAL_VALIDATION_INCOMPLETE, NSR_DOES_NOT_SATISFY_READINESS
 
 ### pl — NOT READY (targetOfficialValidation: false)
-- Collector: `manifest-pl` — https://depl.dict.cc/
+- Collector: `pons-de-pl` — https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch
 - TARGET validator: `pl-wsjp-browser-entry` — https://rjp.pan.pl/
 - Haus positive regression: FAIL — verdict **TARGET_OFFICIAL_NOT_VALIDATED**
 - DE URL: https://www.dwds.de/wb/Haus
-- Dictionary: https://depl.dict.cc/
+- Dictionary: https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch
 - Blockers: TARGET_OFFICIAL_VALIDATION_INCOMPLETE, PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL
 
 ### pt — NOT READY (targetOfficialValidation: false)

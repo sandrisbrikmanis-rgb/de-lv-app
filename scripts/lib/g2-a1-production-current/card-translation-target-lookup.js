@@ -3,6 +3,14 @@
 
 const { stripQuotes } = require("./source-adapters/lookup-normalization");
 
+function foldDiacritics(value) {
+  return stripQuotes(String(value || ""))
+    .trim()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .normalize("NFC");
+}
+
 function targetLookupVariants(provenLemma, currentTarget) {
   const seen = new Set();
   const out = [];
@@ -18,6 +26,8 @@ function targetLookupVariants(provenLemma, currentTarget) {
   add(currentTarget);
   if (provenLemma) add(String(provenLemma).toLowerCase());
   if (currentTarget) add(String(currentTarget).toLowerCase());
+  if (provenLemma) add(foldDiacritics(provenLemma));
+  if (currentTarget) add(foldDiacritics(currentTarget));
   const cur = stripQuotes(currentTarget || "");
   if (cur.includes(" ")) add(cur.split(/\s+/)[0]);
   return out;
@@ -25,4 +35,5 @@ function targetLookupVariants(provenLemma, currentTarget) {
 
 module.exports = {
   targetLookupVariants,
+  foldDiacritics,
 };

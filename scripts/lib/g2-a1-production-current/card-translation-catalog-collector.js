@@ -13,6 +13,7 @@ const {
 const {
   fetchDictionaryPageForCandidate,
   extractTranslations,
+  extractReverseTargetDePair,
   buildSearchUrlForCandidate,
   isGlosbeAutomaticOnly,
 } = require("./german-target-dictionary-search-probe");
@@ -46,6 +47,17 @@ const RESCAN_PLATFORM_BY_LANG = Object.freeze({
 });
 
 const MAX_FALLBACK_SOURCES = 12;
+
+const INSTITUTIONAL_BILINGUAL_AUDIT_LANGS = Object.freeze(new Set(["lv", "lt", "pl"]));
+
+function reversePrimaryCandidateForLang(appLang) {
+  const overrides = loadOverrides();
+  const o = overrides.languages?.[appLang]?.reversePrimary;
+  if (!o) return null;
+  const manifest = loadManifest();
+  const spec = manifest.sources.find((s) => s.appCode === appLang);
+  return overrideToCandidate(o, appLang, spec?.standardCode || appLang);
+}
 
 function loadSearch32Row(appLang) {
   const p = path.join(ROOT, "reports/g2-a1-production-current/german-target-dictionary-search-32/german-target-dictionary-search-32.json");
@@ -382,6 +394,82 @@ async function collectFromSingleCandidate(candidate, appLang, cardGerman, search
   };
 }
 
+async function collectFromReversePrimaryCandidate(candidate, appLang, cardGerman, targetLemma) {
+  const target = String(targetLemma || "").trim();
+  const deLemma = String(cardGerman.lemma || "").trim();
+  if (!target || !deLemma) {
+    return { ok: false, eligible: [], rejected: [{ reason: "MISSING_REVERSE_LEMMA", sourceId: candidate.id }], tryNext: false };
+  }
+
+  const spec = { url: candidate.url, type: candidate.type, appCode: appLang, platform: candidate.platform };
+  const allowed = manifestSourceAllowed(spec);
+  if (!allowed.ok) {
+    return {
+      ok: false,
+      eligible: [],
+      rejected: [{ reason: "FORBIDDEN_SOURCE", detail: allowed.code, sourceId: candidate.id }],
+      tryNext: false,
+    };
+  }
+
+  const searchUrlFallback = buildSearchUrlForCandidate(candidate, target);
+  let page;
+  try {
+    page = await fetchDictionaryPageForCandidate(candidate, target);
+  } catch (e) {
+    return {
+      ok: false,
+      eligible: [],
+      rejected: [{ reason: "SOURCE_ACCESS_BLOCKED", detail: String(e.message || e).slice(0, 120), sourceId: candidate.id }],
+      bilingualMeta: { sourceId: candidate.id, sourceUrl: candidate.url, resultUrl: searchUrlFallback },
+      tryNext: false,
+    };
+  }
+
+  const searchUrl = page.searchUrl || searchUrlFallback;
+  if (page.blocked) {
+    return {
+      ok: false,
+      eligible: [],
+      rejected: [{ reason: "SOURCE_ACCESS_BLOCKED", sourceId: candidate.id }],
+      bilingualMeta: { sourceId: candidate.id, sourceUrl: candidate.url, resultUrl: page.finalUrl || searchUrl },
+      tryNext: false,
+    };
+  }
+
+  const confirmed = extractReverseTargetDePair(page.text, target, deLemma);
+  if (!confirmed.length) {
+    return {
+      ok: false,
+      eligible: [],
+      rejected: [{ reason: REJECT_REASON.DE_SENSE_MISMATCH, detail: "REVERSE_PAIR_NOT_CONFIRMED", sourceId: candidate.id }],
+      bilingualMeta: {
+        sourceId: candidate.id,
+        sourceName: candidate.name,
+        sourceUrl: candidate.url,
+        resultUrl: page.finalUrl || searchUrl,
+        platform: candidate.platform,
+        searchLemma: target,
+        dictionarySearchStrategy: "TARGET_TO_DE_PRIMARY",
+      },
+      tryNext: false,
+    };
+  }
+
+  const sourceMeta = {
+    sourceId: candidate.id,
+    sourceName: candidate.name,
+    sourceUrl: candidate.url,
+    resultUrl: page.finalUrl || searchUrl,
+    platform: candidate.platform,
+    searchUrl,
+    searchLemma: target,
+    dictionarySearchStrategy: "TARGET_TO_DE_PRIMARY",
+  };
+  const eligible = mapTargetsToCandidates(confirmed, cardGerman, sourceMeta);
+  return { ok: true, eligible, rejected: [], bilingualMeta: sourceMeta, catalogCandidate: candidate, tryNext: false };
+}
+
 async function tryCollectAcrossSources(candidates, appLang, cardGerman, searchLemma, strategy, ctx = {}) {
   let mergedEligible = [];
   const rejected = [];
@@ -414,8 +502,105 @@ async function tryCollectAcrossSources(candidates, appLang, cardGerman, searchLe
 
 async function collectDeTargetFromCatalog(appLang, cardGerman, options = {}) {
   const { searchLemma, displayLemma, strategy, morphHint } = dictionarySearchLemma(cardGerman);
-  const candidates = orderedDictionaryCandidatesForLang(appLang);
   const ctx = { currentTarget: options.currentTarget };
+
+  if (INSTITUTIONAL_BILINGUAL_AUDIT_LANGS.has(appLang)) {
+    const primary = selectedDictionaryCandidateForLang(appLang);
+    const forwardList = primary ? [primary] : [];
+    if (!forwardList.length) {
+      return {
+        ok: false,
+        eligible: [],
+        rejected: [{ reason: REJECT_REASON.DE_SENSE_MISMATCH, detail: "NO_INSTITUTIONAL_PRIMARY" }],
+        bilingualMeta: null,
+        catalogCandidate: null,
+        sourcesTried: [],
+      };
+    }
+
+    let {
+      mergedEligible,
+      rejected,
+      sourcesTried,
+      lastMeta,
+      winningCandidate,
+    } = await tryCollectAcrossSources(forwardList, appLang, cardGerman, searchLemma, "DE_TO_TARGET_PRIMARY", ctx);
+
+    if (!mergedEligible.length && morphHint && morphHint !== searchLemma) {
+      const morphPass = await tryCollectAcrossSources(
+        forwardList,
+        appLang,
+        cardGerman,
+        morphHint,
+        "DE_TO_TARGET_PRIMARY+MORPH_HINT",
+        ctx,
+      );
+      rejected.push(...morphPass.rejected);
+      sourcesTried.push(...morphPass.sourcesTried);
+      if (morphPass.mergedEligible.length) {
+        mergedEligible = morphPass.mergedEligible;
+        lastMeta = morphPass.lastMeta;
+        winningCandidate = morphPass.winningCandidate;
+      }
+    }
+
+    const current = ctx.currentTarget != null ? String(ctx.currentTarget).trim() : "";
+    if (!mergedEligible.length && current) {
+      const reverseCand = reversePrimaryCandidateForLang(appLang);
+      if (reverseCand) {
+        const rev = await collectFromReversePrimaryCandidate(reverseCand, appLang, cardGerman, current);
+        sourcesTried.push({
+          sourceId: reverseCand.id,
+          sourceUrl: reverseCand.url,
+          ok: rev.ok,
+          extractedCount: rev.eligible?.length || 0,
+          searchLemma: current,
+          dictionarySearchStrategy: "TARGET_TO_DE_PRIMARY",
+        });
+        rejected.push(...(rev.rejected || []));
+        if (rev.ok && rev.eligible?.length) {
+          mergedEligible = rev.eligible;
+          lastMeta = rev.bilingualMeta;
+          winningCandidate = reverseCand;
+        } else if (rev.bilingualMeta) {
+          lastMeta = rev.bilingualMeta;
+        }
+      }
+    }
+
+    if (!mergedEligible.length) {
+      return {
+        ok: false,
+        eligible: [],
+        rejected,
+        bilingualMeta: lastMeta,
+        catalogCandidate: primary,
+        sourcesTried,
+        searchLemma,
+        displayLemma,
+        dictionarySearchStrategy: "DE_TO_TARGET_PRIMARY_THEN_TARGET_TO_DE",
+        morphHintLemma: morphHint || null,
+        needsAdditionalBilingualSource: true,
+      };
+    }
+
+    return {
+      ok: true,
+      eligible: mergedEligible,
+      rejected,
+      bilingualMeta: {
+        ...lastMeta,
+        displayLemma,
+        searchLemma,
+        dictionarySearchStrategy: lastMeta?.dictionarySearchStrategy || "DE_TO_TARGET_PRIMARY",
+        sourcesTriedCount: sourcesTried.length,
+      },
+      catalogCandidate: winningCandidate || primary,
+      sourcesTried,
+    };
+  }
+
+  const candidates = orderedDictionaryCandidatesForLang(appLang);
   if (!candidates.length) {
     return {
       ok: false,

@@ -135,7 +135,12 @@ function targetHeadwordMatchesExpected(targetAuthority, expectedTargetLemma) {
 }
 
 function normalizeTargetLemmaForCompare(value) {
-  return stripQuotes(value).trim().toLowerCase();
+  return stripQuotes(value)
+    .trim()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .normalize("NFC")
+    .toLowerCase();
 }
 
 function targetLemmaEquals(a, b) {
@@ -166,7 +171,16 @@ function selectProvenDictionaryCandidate(senseAligned, currentTarget) {
     };
   }
   if (matchingCurrent.length === 1) {
-    return { status: "selected", selected: matchingCurrent[0], mismatchCurrent: false };
+    const sel = matchingCurrent[0];
+    return {
+      status: "selected",
+      selected: {
+        ...sel,
+        targetLemma: current,
+        wordLb: current,
+      },
+      mismatchCurrent: false,
+    };
   }
 
   if (senseAligned.length === 1) {

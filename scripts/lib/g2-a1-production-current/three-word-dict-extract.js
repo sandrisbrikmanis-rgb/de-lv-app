@@ -176,10 +176,10 @@ function buildSearchUrl(dictRow, lemma) {
     return `https://www.letonika.lv/groups/default.aspx?g=2&r=${r}&q=${encodeURIComponent(lemma)}`;
   }
   if (/ekalba\.lt\/vokieciu-lietuviu/i.test(base)) {
-    return `https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/${encodeURIComponent(lemma)}`;
+    return `https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/${encodeURIComponent(lemma)}?paieska=${encodeURIComponent(lemma)}`;
   }
   if (/ekalba\.lt\/lietuviu-vokieciu/i.test(base)) {
-    return `https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/${encodeURIComponent(lemma)}`;
+    return `https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/${encodeURIComponent(lemma)}?paieska=${encodeURIComponent(lemma)}`;
   }
   if (/pons\.com/i.test(base)) {
     return `${base.replace(/\/$/, "")}/${encodeURIComponent(lemma)}`;

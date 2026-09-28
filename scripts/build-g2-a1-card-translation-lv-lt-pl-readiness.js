@@ -55,8 +55,21 @@ function main() {
     if (lang.cardTranslation32LangSnapshot) {
       const s = lang.cardTranslation32LangSnapshot;
       lines.push(
-        `### 32 valodu snapshots: cardTranslationReady=${s.cardTranslationReady}, collector=\`${s.collectorId}\`, blockers=${(s.blockers || []).join(", ") || "(none)"}`,
+        `### 32 valodu live verifikācija: cardTranslationReady=${s.cardTranslationReady}, Haus verdict=${s.productionPilotVerdict || "n/a"}, collector=\`${s.collectorId}\``,
       );
+      if (s.blockers?.length) lines.push(`- Blockers: ${s.blockers.join(", ")}`);
+      if (s.sixLemmaLiveAudit?.rows?.length) {
+        lines.push("");
+        lines.push("#### Live audits (6 DE lemmas, production CURRENT)");
+        lines.push("| Lemma | Strategy | Platform | Verdict | Bilingual URL |");
+        lines.push("| --- | --- | --- | --- | --- |");
+        for (const row of s.sixLemmaLiveAudit.rows) {
+          const url = row.bilingualResultUrl ? `[link](${row.bilingualResultUrl})` : "—";
+          lines.push(
+            `| ${row.deLemma} | ${row.dictionarySearchStrategy || "—"} | ${row.institutionalPlatform || "—"} | ${row.verdict}${row.definitionFallbackUsed ? " (def.)" : ""} | ${url} |`,
+          );
+        }
+      }
       lines.push("");
     }
   }

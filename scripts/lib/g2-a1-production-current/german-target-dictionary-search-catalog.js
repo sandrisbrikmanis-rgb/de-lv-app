@@ -74,20 +74,31 @@ function publisherForType(spec) {
   return spec.name;
 }
 
+function platformFromDictionaryUrl(url) {
+  const u = String(url || "").toLowerCase();
+  if (/letonika\.lv/i.test(u)) return "letonika";
+  if (/ekalba\.lt/i.test(u)) return "ekalba";
+  if (/pons\.com/i.test(u)) return "pons";
+  if (/vokieciu-lietuviu\.com/i.test(u)) return "vokieciu-lietuviu";
+  return "override_primary";
+}
+
 function overrideToCandidate(o, appCode, standardCode) {
+  const url = stripTrackingParams(o.url);
   return {
     id: o.id,
     appCode,
     standardCode,
     name: o.name,
     publisher: o.publisher,
-    url: stripTrackingParams(o.url),
+    url,
     languagePair: o.languagePair,
     access: o.access,
     entryCount: o.entryCount ?? null,
     entryCountStatus: o.entryCountStatus || "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
     type: o.type,
     searchMode: o.searchMode || null,
+    platform: o.platform || platformFromDictionaryUrl(url),
     fromMasterManifest: false,
   };
 }

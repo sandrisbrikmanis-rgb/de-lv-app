@@ -2,6 +2,7 @@
 "use strict";
 
 const { loadG2Level } = require("../content-crowdin-bridge/roundtrip");
+const { G2_LEVELS } = require("../content-crowdin-bridge/constants");
 const { entryId } = require("../content-crowdin-bridge/slug");
 const { LEVEL } = require("./constants");
 const { runCardTranslationAuditForLanguage, lookupDeForCard } = require("./card-translation-lang-run");
@@ -20,6 +21,38 @@ const { TRANSLATION_AUDIT_VERDICT } = require("./card-translation-audit-search")
 const { getTargetAdapterMeta } = require("./source-adapters/target");
 const { loadRegistryRows } = require("./registry-bindings");
 const { matrixRowForLanguage } = require("./source-adapters/target");
+
+const INSTITUTIONAL_SIX_LEMMA_PILOT = Object.freeze([
+  "Haus",
+  "arbeiten",
+  "Kleingeld",
+  "bewirten",
+  "Grenzkonflikt",
+  "Machtgier",
+]);
+
+const INSTITUTIONAL_BILINGUAL_LANGS = Object.freeze(new Set(["lv", "lt", "pl"]));
+
+function findProductionCardByDe(appLang, deLemma) {
+  for (const level of G2_LEVELS) {
+    const cards = loadG2Level(appLang, level);
+    for (let index = 0; index < cards.length; index += 1) {
+      const card = cards[index];
+      if (card.de === deLemma) {
+        return {
+          level,
+          index,
+          cardId: entryId(card, index),
+          de: card.de,
+          currentTarget: card.lv,
+          partOfSpeech: card.pos || (card.de_article ? "noun" : "verb"),
+          article: card.de_article || null,
+        };
+      }
+    }
+  }
+  return null;
+}
 
 function findHausProductionCard(appLang) {
   const cards = loadG2Level(appLang, LEVEL);
@@ -194,6 +227,41 @@ async function verifyCardTranslationLanguageReadiness(appLang) {
     blockers.push({ code: "NEGATIVE_REGRESSION_FAIL", got: negativeRegression.got });
   }
 
+  let sixLemmaLiveAudit = null;
+  if (INSTITUTIONAL_BILINGUAL_LANGS.has(appLang)) {
+    const rows = [];
+    for (const deLemma of INSTITUTIONAL_SIX_LEMMA_PILOT) {
+      const card = findProductionCardByDe(appLang, deLemma);
+      const cardGerman = {
+        lemma: deLemma,
+        partOfSpeech: card?.partOfSpeech || (deLemma[0] === deLemma[0].toUpperCase() ? "noun" : "verb"),
+        article: card?.article || null,
+        germanMeaning: null,
+      };
+      const currentTarget = card?.currentTarget || null;
+      // eslint-disable-next-line no-await-in-loop
+      const audit = await runCardTranslationAuditForLanguage(appLang, cardGerman, currentTarget);
+      const collectorId = audit.collectorId || audit.bilingualMeta?.sourceId || col.collectorId;
+      const strategy = audit.dictionarySearchStrategy || audit.bilingualMeta?.dictionarySearchStrategy || null;
+      rows.push({
+        deLemma,
+        productionTarget: currentTarget,
+        productionCardFound: Boolean(card),
+        verdict: audit.verdict,
+        evidenceTier: audit.evidenceTier || null,
+        dictionarySearchStrategy: strategy,
+        bilingualSourceId: collectorId,
+        bilingualSourceUrl: audit.bilingualSourceUrl || audit.bilingualMeta?.sourceUrl || null,
+        bilingualResultUrl: audit.bilingualResultUrl || audit.bilingualMeta?.resultUrl || null,
+        institutionalPlatform: audit.bilingualMeta?.platform || col.platform || null,
+        definitionFallbackUsed:
+          audit.verdict === TRANSLATION_AUDIT_VERDICT.DEFINITION_EQUIVALENCE_VALIDATED ||
+          String(audit.evidenceTier || "").includes("DEFINITION_SEMANTIC"),
+      });
+    }
+    sixLemmaLiveAudit = { pilotLemmas: INSTITUTIONAL_SIX_LEMMA_PILOT, rows };
+  }
+
   const cardTranslationReady = blockers.length === 0;
   if (productionPilot.cardId) {
     productionPilot.pass = cardTranslationReady;
@@ -210,6 +278,7 @@ async function verifyCardTranslationLanguageReadiness(appLang) {
     positiveRegression,
     negativeRegression,
     productionPilot,
+    sixLemmaLiveAudit,
   };
 }
 

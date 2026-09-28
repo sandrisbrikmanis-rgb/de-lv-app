@@ -29,18 +29,34 @@ async function main() {
 
   await closeBrowserPool();
 
-  const ready = languageResults.filter((r) => r.cardTranslationReady);
-  const notReady = languageResults.filter((r) => !r.cardTranslationReady);
   const expectedCount = 32;
+  const allAppLangs = listAllTargetAppLanguages().sort();
+  const partialMerge = filterEnv && filterEnv.trim() !== "all" && langs.length < allAppLangs.length;
+  let mergedLanguageRows = languageResults;
+  if (partialMerge && fs.existsSync(OUT_JSON)) {
+    try {
+      const prior = JSON.parse(fs.readFileSync(OUT_JSON, "utf8"));
+      const byLang = new Map((prior.languages || []).map((r) => [r.appLang, r]));
+      for (const row of languageResults) byLang.set(row.appLang, row);
+      mergedLanguageRows = allAppLangs.map((l) => byLang.get(l)).filter(Boolean);
+    } catch {
+      mergedLanguageRows = languageResults;
+    }
+  }
+
+  const ready = mergedLanguageRows.filter((r) => r.cardTranslationReady);
+  const notReady = mergedLanguageRows.filter((r) => !r.cardTranslationReady);
   const readyCount = ready.length;
-  const fullReady = readyCount === expectedCount && langs.length === expectedCount;
+  const fullReady = readyCount === expectedCount && mergedLanguageRows.length === expectedCount;
   const productionGit = assessCardTranslationProductionGitState();
 
   const report = {
     schemaVersion: "g2-a1-card-translation-32lang-full-v1",
     generatedAt: new Date().toISOString(),
     expectedCount,
-    verifiedLanguageCount: langs.length,
+    verifiedLanguageCount: mergedLanguageRows.length,
+    partialVerifyLangs: partialMerge ? langs : null,
+    liveVerifiedThisRun: langs,
     readyCount,
     remainingCount: expectedCount - readyCount,
     readyLanguages: ready.map((r) => r.appLang),
@@ -56,7 +72,7 @@ async function main() {
     fullA1AuditExecuted: false,
     productionDataModified: productionGit.productionDataModified,
     productionGit,
-    languages: languageResults,
+    languages: mergedLanguageRows,
     blockersSummary: notReady.map((r) => ({
       appLang: r.appLang,
       blockers: r.blockers,

@@ -158,6 +158,8 @@ function buildLvLtPlReadinessReport() {
             collectorId: snapRow.collector?.collectorId,
             bilingualSourceUrl: snapRow.collector?.bilingualSourceUrl,
             blockers: snapRow.blockers?.map((b) => b.code) || [],
+            productionPilotVerdict: snapRow.productionPilot?.verdict || null,
+            sixLemmaLiveAudit: snapRow.sixLemmaLiveAudit || null,
           }
         : null,
       readinessClassification: regGate.pass

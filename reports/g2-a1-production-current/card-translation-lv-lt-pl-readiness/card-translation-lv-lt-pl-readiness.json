@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-card-translation-lv-lt-pl-readiness-v1",
-  "generatedAt": "2026-09-28T14:35:15.778Z",
+  "generatedAt": "2026-09-28T15:44:02.085Z",
   "auditSequence": [
     {
       "step": 1,
@@ -145,13 +145,101 @@
         ]
       },
       "cardTranslation32LangSnapshot": {
-        "cardTranslationReady": false,
-        "collectorId": "manifest-lv",
-        "bilingualSourceUrl": "https://www.letonika.lv/dictionary",
-        "blockers": [
-          "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
-          "NSR_DOES_NOT_SATISFY_READINESS"
-        ]
+        "cardTranslationReady": true,
+        "collectorId": "letonika-de-lv-2001-plus",
+        "bilingualSourceUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062",
+        "blockers": [],
+        "productionPilotVerdict": "TRANSLATION_VALIDATED",
+        "sixLemmaLiveAudit": {
+          "pilotLemmas": [
+            "Haus",
+            "arbeiten",
+            "Kleingeld",
+            "bewirten",
+            "Grenzkonflikt",
+            "Machtgier"
+          ],
+          "rows": [
+            {
+              "deLemma": "Haus",
+              "productionTarget": "māja",
+              "productionCardFound": true,
+              "verdict": "TRANSLATION_VALIDATED",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
+              "bilingualSourceId": "letonika-de-lv-2001-plus",
+              "bilingualSourceUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062",
+              "bilingualResultUrl": "https://www.letonika.lv/groups/default.aspx?cid=190080&r=10311062&lid=190080&g=2&q=Haus&h=1738",
+              "institutionalPlatform": "letonika",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "arbeiten",
+              "productionTarget": "strādāt",
+              "productionCardFound": true,
+              "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY_THEN_TARGET_TO_DE",
+              "bilingualSourceId": "letonika-lv-de-2001-plus",
+              "bilingualSourceUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031",
+              "bilingualResultUrl": "https://www.letonika.lv/groups/default.aspx?cid=575106&r=10621031&lid=575106&g=2&q=str%C4%81d%C4%81t&h=3586",
+              "institutionalPlatform": "letonika",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "Kleingeld",
+              "productionTarget": "sīknauda",
+              "productionCardFound": true,
+              "verdict": "TRANSLATION_VALIDATED",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "TARGET_TO_DE_PRIMARY",
+              "bilingualSourceId": "letonika-lv-de-2001-plus",
+              "bilingualSourceUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031",
+              "bilingualResultUrl": "https://www.letonika.lv/groups/default.aspx?cid=570215&r=10621031&lid=570215&g=2&q=s%C4%ABknauda&h=3366",
+              "institutionalPlatform": "letonika",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "bewirten",
+              "productionTarget": "pacienāt",
+              "productionCardFound": true,
+              "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY_THEN_TARGET_TO_DE",
+              "bilingualSourceId": "letonika-lv-de-2001-plus",
+              "bilingualSourceUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031",
+              "bilingualResultUrl": "https://www.letonika.lv/groups/default.aspx?cid=595020&r=10621031&lid=595020&g=2&q=pacien%C4%81t&h=2266",
+              "institutionalPlatform": "letonika",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "Grenzkonflikt",
+              "productionTarget": "robežkonflikts",
+              "productionCardFound": true,
+              "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY_THEN_TARGET_TO_DE",
+              "bilingualSourceId": "letonika-lv-de-2001-plus",
+              "bilingualSourceUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031",
+              "bilingualResultUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031&q=robe%C5%BEkonflikts",
+              "institutionalPlatform": "letonika",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "Machtgier",
+              "productionTarget": "varaskāre",
+              "productionCardFound": true,
+              "verdict": "NEEDS_SOURCE_REVIEW",
+              "evidenceTier": "DEFINITION_SEMANTIC_UNCLEAR",
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY_THEN_TARGET_TO_DE",
+              "bilingualSourceId": "letonika-lv-de-2001-plus",
+              "bilingualSourceUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031",
+              "bilingualResultUrl": "https://www.letonika.lv/groups/default.aspx?cid=990672&r=10621031&lid=990672&g=2&q=varask%C4%81re&h=4752",
+              "institutionalPlatform": "letonika",
+              "definitionFallbackUsed": false
+            }
+          ]
+        }
       },
       "readinessClassification": "LV_LT_PL_BILINGUAL_AUDIT_SOURCES_AND_REGRESSION_DOCUMENTED"
     },
@@ -298,13 +386,103 @@
       },
       "cardTranslation32LangSnapshot": {
         "cardTranslationReady": false,
-        "collectorId": "vokieciu-lietuviu-public",
-        "bilingualSourceUrl": "http://www.vokieciu-lietuviu.com/",
+        "collectorId": "ekalba-de-lt",
+        "bilingualSourceUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas",
         "blockers": [
-          "BILINGUAL_COLLECTOR_NOT_PROVEN",
           "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
           "PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL"
-        ]
+        ],
+        "productionPilotVerdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+        "sixLemmaLiveAudit": {
+          "pilotLemmas": [
+            "Haus",
+            "arbeiten",
+            "Kleingeld",
+            "bewirten",
+            "Grenzkonflikt",
+            "Machtgier"
+          ],
+          "rows": [
+            {
+              "deLemma": "Haus",
+              "productionTarget": "namas",
+              "productionCardFound": true,
+              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
+              "bilingualSourceId": "ekalba-de-lt",
+              "bilingualSourceUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas",
+              "bilingualResultUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Haus?paieska=Haus&i=32b14ac4-c7e6-4aca-b722-bde8f8168bad",
+              "institutionalPlatform": "ekalba",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "arbeiten",
+              "productionTarget": "dirbti",
+              "productionCardFound": true,
+              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
+              "bilingualSourceId": "ekalba-de-lt",
+              "bilingualSourceUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas",
+              "bilingualResultUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/arbeiten?paieska=arbeiten&i=2aeb2719-576a-4819-83ec-4fa822c20c2d",
+              "institutionalPlatform": "ekalba",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "Kleingeld",
+              "productionTarget": "smulkūs pinigai",
+              "productionCardFound": true,
+              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
+              "bilingualSourceId": "ekalba-de-lt",
+              "bilingualSourceUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas",
+              "bilingualResultUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Kleingeld?paieska=Kleingeld&i=f8697769-4fb6-471a-96ca-b0b2e63d899d",
+              "institutionalPlatform": "ekalba",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "bewirten",
+              "productionTarget": "pavaišinti",
+              "productionCardFound": true,
+              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
+              "bilingualSourceId": "ekalba-de-lt",
+              "bilingualSourceUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas",
+              "bilingualResultUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/bewirten?paieska=bewirten&i=1501ec18-60c5-43d9-9faf-e23d0840edd0",
+              "institutionalPlatform": "ekalba",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "Grenzkonflikt",
+              "productionTarget": "pasienio konfliktas",
+              "productionCardFound": true,
+              "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY_THEN_TARGET_TO_DE",
+              "bilingualSourceId": "ekalba-lt-de",
+              "bilingualSourceUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas",
+              "bilingualResultUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/pasienio%20konfliktas?paieska=pasienio%20konfliktas",
+              "institutionalPlatform": "ekalba",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "Machtgier",
+              "productionTarget": "valdžios geidulys",
+              "productionCardFound": true,
+              "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY_THEN_TARGET_TO_DE",
+              "bilingualSourceId": "ekalba-lt-de",
+              "bilingualSourceUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas",
+              "bilingualResultUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/vald%C5%BEios%20geidulys?paieska=vald%C5%BEios%20geidulys",
+              "institutionalPlatform": "ekalba",
+              "definitionFallbackUsed": false
+            }
+          ]
+        }
       },
       "readinessClassification": "LV_LT_PL_BILINGUAL_AUDIT_SOURCES_AND_REGRESSION_DOCUMENTED"
     },
@@ -421,12 +599,103 @@
       },
       "cardTranslation32LangSnapshot": {
         "cardTranslationReady": false,
-        "collectorId": "manifest-pl",
-        "bilingualSourceUrl": "https://depl.dict.cc/",
+        "collectorId": "pons-de-pl",
+        "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch",
         "blockers": [
           "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
           "PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL"
-        ]
+        ],
+        "productionPilotVerdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+        "sixLemmaLiveAudit": {
+          "pilotLemmas": [
+            "Haus",
+            "arbeiten",
+            "Kleingeld",
+            "bewirten",
+            "Grenzkonflikt",
+            "Machtgier"
+          ],
+          "rows": [
+            {
+              "deLemma": "Haus",
+              "productionTarget": "Dom",
+              "productionCardFound": true,
+              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
+              "bilingualSourceId": "pons-de-pl",
+              "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch",
+              "bilingualResultUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/Haus",
+              "institutionalPlatform": "pons",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "arbeiten",
+              "productionTarget": "Pracować",
+              "productionCardFound": true,
+              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "TARGET_TO_DE_PRIMARY",
+              "bilingualSourceId": "pons-pl-de",
+              "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch",
+              "bilingualResultUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/pracowa%C4%87?q=Pracowa%C4%87",
+              "institutionalPlatform": "pons",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "Kleingeld",
+              "productionTarget": "Podręczna gotówka",
+              "productionCardFound": true,
+              "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY_THEN_TARGET_TO_DE",
+              "bilingualSourceId": "pons-pl-de",
+              "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch",
+              "bilingualResultUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/podr%C4%99czna+got%C3%B3wka?q=Podr%C4%99czna+got%C3%B3wka",
+              "institutionalPlatform": "pons",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "bewirten",
+              "productionTarget": "Tolerować",
+              "productionCardFound": true,
+              "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY_THEN_TARGET_TO_DE",
+              "bilingualSourceId": "pons-pl-de",
+              "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch",
+              "bilingualResultUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/tolerowa%C4%87?q=Tolerowa%C4%87",
+              "institutionalPlatform": "pons",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "Grenzkonflikt",
+              "productionTarget": "Konflikt graniczny",
+              "productionCardFound": true,
+              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "TARGET_TO_DE_PRIMARY",
+              "bilingualSourceId": "pons-pl-de",
+              "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch",
+              "bilingualResultUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/konflikt+graniczny?q=Konflikt+graniczny",
+              "institutionalPlatform": "pons",
+              "definitionFallbackUsed": false
+            },
+            {
+              "deLemma": "Machtgier",
+              "productionTarget": "Żądza władzy",
+              "productionCardFound": true,
+              "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
+              "evidenceTier": null,
+              "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY_THEN_TARGET_TO_DE",
+              "bilingualSourceId": "pons-pl-de",
+              "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch",
+              "bilingualResultUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/%C5%BC%C4%85dza+w%C5%82adzy?q=%C5%BB%C4%85dza+w%C5%82adzy",
+              "institutionalPlatform": "pons",
+              "definitionFallbackUsed": false
+            }
+          ]
+        }
       },
       "readinessClassification": "LV_LT_PL_BILINGUAL_AUDIT_SOURCES_AND_REGRESSION_DOCUMENTED"
     }
