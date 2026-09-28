@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|Arbeit|idx:42|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"starf\"}",
+    "owner_note": "IS Arbeit lv: NO Også→starf for darbs work. DE untouched."
+  },
+  "g2/a1/is|Arm|idx:44|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"armur\"}",
+    "owner_note": "IS Arm lv: ET Käsi→armur for roka arm. DE untouched."
+  },
+  "g2/a1/is|Armbanduhr|idx:45|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"armbandsúr\"}",
+    "owner_note": "IS Armbanduhr lv gala: úr→armbandsúr for rokas pulkstenis wristwatch. DE untouched."
+  },
+  "g2/a1/is|Ärztin|idx:46|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"læknir\"}",
+    "owner_note": "IS Ärztin lv: ET Naisarst→læknir for ārste female doctor. DE untouched."
+  },
+  "g2/a1/is|auch|idx:48|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"líka\",\"study.explanation\":\"Notað til að bæta við eða taka með eitthvað sem áður var nefnt. Þýðir „líka“, „einnig“.\",\"study.examples[0].lv\":\"Ég kem líka.\",\"study.examples[1].lv\":\"Hún vinnur líka hér.\",\"study.examples[2].lv\":\"Ég óska þér líka góðs dags.\",\"study.comparison[0].meaning\":\"líka\",\"study.comparison[0].example\":\"Ich komme auch. – Ég kem líka.\",\"study.comparison[1].meaning\":\"einnig\",\"study.comparison[1].example\":\"Sie arbeitet auch hier. – Hún vinnur einnig hér.\",\"study.tip[0]\":\"auch = líka / einnig.\",\"study.tip[1]\":\"Notaðu auch þegar samhengið passar við þessa merkingu.\",\"study.important[0]\":\"Ich auch wünsche Ihnen er ekki rétt orðaröð.\",\"study.important[1]\":\"auch = líka.\",\"study.important[2]\":\"Rangt: Ich auch wünsche Ihnen einen schönen Tag.\"}",
+    "owner_note": "IS auch composite gala: examples[2]→Ég óska þér líka góðs dags for Ich wünsche Ihnen auch; full IS DE↔IS pass. DE untouched."
+  },
+  "g2/a1/is|auf dem Bahnhof|idx:59|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"á lestarstöðinni\"}",
+    "owner_note": "IS auf dem Bahnhof lv: garbage James→á lestarstöðinni for stacijā at station. DE untouched."
+  },
+  "g2/a1/is|auf dem Boden|idx:58|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"á gólfinu\"}",
+    "owner_note": "IS auf dem Boden lv: ET Põrandal→á gólfinu for uz grīdas on floor. DE untouched."
+  },
+  "g2/a1/is|auf|idx:49|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"á\",\"study.explanation\":\"Notað þegar eitthvað fer á yfirborð eða upp á ákveðinn stað.\",\"study.examples[0].lv\":\"Ég set bókina á borðið.\",\"study.examples[1].lv\":\"Við keyrum upp á fjallið.\",\"study.examples[2].lv\":\"Kötturinn hoppar upp á sófann.\",\"study.comparison[0].meaning\":\"á (yfirborð eða upp á)\",\"study.comparison[0].example\":\"Ich stelle das Glas auf den Tisch. – Ég set glasið á borðið.\",\"study.comparison[1].meaning\":\"við (lóðrétt yfirborð)\",\"study.comparison[1].example\":\"Ich hänge das Bild an die Wand. – Ég hengi myndina á vegginn.\",\"study.comparison[2].meaning\":\"í (inn í)\",\"study.comparison[2].example\":\"Ich lege das Buch in die Tasche. – Ég set bókina í töskuna.\",\"study.tip.text\":\"Mundu: á yfirborði/upp á → auf.\",\"study.important[0]\":\"auf er ekki hvaða „á“ sem er. Það þýðir oft hreyfingu eða staðsetningu á yfirborði/ofan.\",\"study.important[1]\":\"Ef eitthvað er við lóðréttan flöt, þarftu oft an; ef það er inni, þarftu in.\"}",
+    "owner_note": "IS auf composite: ET Peale/Vi ses→á throughout study fields for uz. DE untouched."
+  },
+  "g2/a1/is|aufmachen|idx:50|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"opna\"}",
+    "owner_note": "IS aufmachen lv: ET Avama→opna for atvērt open. DE untouched."
+  },
+  "g2/a1/is|aufpassen|idx:51|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"passa\"}",
+    "owner_note": "IS aufpassen lv: ET Ettevaatlik olema→passa for uzmanīties watch out. DE untouched."
+  },
+  "g2/a1/is|aufs|idx:60|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"á • á það\",\"study.explanation\":\"aufs er stytting fyrir auf das (þolfall). Notað þegar hreyfing fer á ákveðið yfirborð eða hlut.\",\"study.examples[0].lv\":\"Ég fer upp á þakið.\",\"study.examples[1].lv\":\"Hún setur sig á sófann.\",\"study.examples[2].lv\":\"Við keyrum út á land.\",\"study.examples[3].lv\":\"Settu töskuna á rúmið.\",\"study.examples[4].lv\":\"Hann hoppar upp á hestinn.\",\"study.examples[5].lv\":\"Legg bókina á hilluna.\",\"study.examples[6].lv\":\"Komdu fljótt á bátinn!\",\"study.examples[7].lv\":\"Við förum á hátíðina.\",\"study.comparison[0].meaning\":\"á ákveðið yfirborð (þolfall)\",\"study.comparison[0].example\":\"aufs Dach – upp á þakið\",\"study.comparison[1].meaning\":\"á yfirborð\",\"study.comparison[1].example\":\"auf den Tisch – á borðið\",\"study.comparison[2].meaning\":\"við lóðrétt yfirborð\",\"study.comparison[2].example\":\"an die Wand – á vegginn\",\"study.comparison[3].meaning\":\"inn í\",\"study.comparison[3].example\":\"ins Zimmer – inn í herbergið\",\"study.comparison[4].meaning\":\"til (þágufall)\",\"study.comparison[4].example\":\"zum Arzt – til læknisins\",\"study.tip[0]\":\"Mundu: auf + das → aufs (hvert?).\",\"study.tip[1]\":\"Í talmáli er sjaldan sagt auf das — notað er aufs.\",\"study.important[0]\":\"aufs = auf das, aðeins með hvorki kynjaðri nafnorði í þolfalli.\",\"study.important[1]\":\"Svarar spurningunni hvert? — hreyfing á ákveðinn stað eða yfirborð.\",\"study.important[2]\":\"Á láréttri yfirborði notarðu oft auf den, ekki aufs.\",\"study.important[3]\":\"Ekki rugla saman við an (við vegg) eða ins (inn í herbergi).\"}",
+    "owner_note": "IS aufs composite: ET/NO Peale/Kattesele→á•á það throughout study fields for uz. DE untouched."
+  },
+  "g2/a1/is|aufstehen|idx:52|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"standa upp\"}",
+    "owner_note": "IS aufstehen lv: ET Püsti nousma→standa upp for piecelties get up. DE untouched."
+  },
+  "g2/a1/is|aufwärts|idx:53|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"upp á við\"}",
+    "owner_note": "IS aufwärts lv: ET Ülespoole→upp á við for uz augšu upward. DE untouched."
+  },
+  "g2/a1/is|Auge|idx:54|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"auga\"}",
+    "owner_note": "IS Auge lv: ET Silm→auga for acs eye. DE untouched."
+  },
+  "g2/a1/is|Augenblick|idx:55|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"augnablik\"}",
+    "owner_note": "IS Augenblick lv: NO Varm→augnablik for acumirklis moment. DE untouched."
+  },
+  "g2/a1/is|Augenbraue|idx:61|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"augabrún\"}",
+    "owner_note": "IS Augenbraue lv: garbage Klimaks→augabrún for uzacs eyebrow. DE untouched."
+  },
+  "g2/a1/is|Augenfarbe|idx:62|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"augna litur\"}",
+    "owner_note": "IS Augenfarbe lv: ET Silmed sving→augna litur for acu krāsa eye color. DE untouched."
+  },
+  "g2/a1/is|aus|idx:57|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"úr • frá\",\"study.explanation\":\"Notað þegar eitthvað kemur úr eða frá innan rýmis, staðar eða uppruna.\",\"study.examples[0].lv\":\"Ég kem frá Þýskalandi.\",\"study.examples[1].lv\":\"Hann fer út úr húsinu.\",\"study.examples[2].lv\":\"Ég tek bókina úr töskunni.\",\"study.comparison[0].meaning\":\"úr / út úr / frá\",\"study.comparison[0].example\":\"aus dem Haus – út úr húsinu\",\"study.comparison[1].meaning\":\"frá\",\"study.comparison[1].example\":\"von meinem Freund – frá vini mínum\",\"study.comparison[2].meaning\":\"frá (frá noteikta laika/punkta)\",\"study.comparison[2].example\":\"ab Montag – frá mánudegi\",\"study.tip.text\":\"Mundu: úr innan / frá uppruna → aus.\",\"study.important[0]\":\"aus sýnir venjulega hreyfingu úr innan eða uppruna.\",\"study.important[1]\":\"Ef um er að ræða aðeins upphafspunkt í tíma eða stað, notarðu oft ab.\"}",
+    "owner_note": "IS aus composite gala: úr•frá; Deutschland/Haus/Tasche context forms; no út af gloss; von/ab comparison IS. DE untouched."
+  },
+  "g2/a1/is|Auto|idx:63|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bíll\"}",
+    "owner_note": "IS Auto lv: NO/DK Bil→bíll for automašīna car. DE untouched."
+  },
+  "g2/a1/is|Bad|idx:64|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"baðherbergi\"}",
+    "owner_note": "IS Bad lv: NO Badestamp→baðherbergi for vannas istaba bathroom. DE untouched."
+  },
+  "g2/a1/is|baden|idx:68|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"baða sig\",\"study.translation\":\"baða sig\",\"study.explanation\":[\"Meginhugsun: baden þýðir að baða sig eða vera í vatni til skemmtunar.\",\"Notað þegar talað er um vatn, vatns, sjó eða bað.\",\"baden getur líka þýtt að fara í bað.\",\"Ef um er að ræða sundhreyfingu eða íþrótt, nota þýskir oft schwimmen.\"],\"study.examples[0].lv\":\"Ég fer að baða mig.\",\"study.examples[1].lv\":\"Við förum að baða okkur í vatninu.\",\"study.examples[2].lv\":\"Hann syndir mjög vel.\",\"study.examples[3].lv\":\"Ég syndi á hverjum mánudegi.\",\"study.comparison[0].meaning\":\"baða sig / vera í vatni\",\"study.comparison[0].example\":\"Ég fer að baða mig.\",\"study.comparison[1].meaning\":\"synda\",\"study.comparison[1].example\":\"Hann syndir mjög vel.\",\"study.comparison[2].meaning\":\"fara í sturtu\",\"study.comparison[2].example\":\"Ég fer í sturtu á morgnana.\",\"study.comparison[3].meaning\":\"fara að synda\",\"study.comparison[3].example\":\"Ég fer að synda í dag.\",\"study.tip.text\":\"Mundu: afslöppun í vatni → baden; sundhreyfing → schwimmen.\",\"study.important[0]\":\"baden og schwimmen eru ekki samheiti.\",\"study.important[1]\":\"Á íslensku velurðu orð eftir samhengi — baða sig, fara í bað eða synda.\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"baden\\\"],\\\"purple\\\":[\\\"baða sig\\\",\\\"vera í vatni\\\",\\\"fara í bað\\\"],\\\"green\\\":[\\\"vatni\\\",\\\"sjó\\\",\\\"baði\\\"],\\\"red\\\":[\\\"schwimmen\\\",\\\"synda\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"baden\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"baða\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"baden\\\"],\\\"green\\\":[\\\"See\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"baða\\\"],\\\"green\\\":[\\\"vatninu\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"schwimmt\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"syndir\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"schwimme\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"syndi\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"baden\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"baða sig\\\",\\\"vera í vatni\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"baden\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"schwimmen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"synda\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"schwimmt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"duschen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"fara í sturtu\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"dusche\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"schwimmen gehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"fara að synda\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"schwimmen\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"baden\\\"],\\\"purple\\\":[\\\"Mundu\\\"],\\\"red\\\":[\\\"schwimmen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"baden\\\"],\\\"red\\\":[\\\"schwimmen\\\"]},{\\\"purple\\\":[\\\"Á íslensku\\\"]}]}\"}",
+    "owner_note": "IS baden composite gala: full lv/study/sectionAccents IS; baden≠schwimmen; examples DE↔IS aligned; no ET/NO/LV residue. DE untouched."
+  },
+  "g2/a1/is|Badezimmer|idx:65|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"baðherbergi\"}",
+    "owner_note": "IS Badezimmer lv: NO Badestamp→baðherbergi for vannas istaba. DE untouched."
+  },
+  "g2/a1/is|Balkon|idx:70|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"svalir\"}",
+    "owner_note": "IS Balkon lv: ET Rõdu→svalir for balkons balcony. DE untouched."
+  },
+  "g2/a1/is|Ball|idx:71|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bolti\"}",
+    "owner_note": "IS Ball lv: NO Krakk→bolti for bumba ball. DE untouched."
+  },
+  "g2/a1/is|Banane|idx:72|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"banani\"}",
+    "owner_note": "IS Banane lv: NL Bananen→banani for banāns banana. DE untouched."
+  },
+  "g2/a1/is|Bauch|idx:73|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"magi\"}",
+    "owner_note": "IS Bauch lv: ET Köht→magi for vēders belly. DE untouched."
+  },
+  "g2/a1/is|Baum|idx:74|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tré\"}",
+    "owner_note": "IS Baum lv: NO Bæsj→tré for koks tree. DE untouched."
+  },
+  "g2/a1/is|bedeuten|idx:75|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þýða\"}",
+    "owner_note": "IS bedeuten lv: ET Tähendama→þýða for nozīmēt mean. DE untouched."
+  },
+  "g2/a1/is|bei|idx:78|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hjá\",\"study.translation\":\"hjá\",\"study.explanation\":\"Notað þegar eitthvað er við mann, fyrirtæki eða stað, eða við ákveðnar aðstæður.\",\"study.examples[0].lv\":\"Ég er hjá vini mínum.\",\"study.examples[1].lv\":\"Hún vinnur hjá Siemens.\",\"study.examples[2].lv\":\"Við rigningu verðum við heima.\",\"study.comparison[0].meaning\":\"hjá manni, fyrirtæki eða við ákveðnar aðstæður\",\"study.comparison[0].example\":\"Ich bin bei meiner Schwester. – Ég er hjá systur minni.\",\"study.comparison[1].meaning\":\"við (yfirborð/brún)\",\"study.comparison[1].example\":\"Das Bild hängt an der Wand. – Myndin hangir á veggnum.\",\"study.comparison[2].meaning\":\"til (átt)\",\"study.comparison[2].example\":\"Ich gehe zu meinem Freund. – Ég fer til vinar míns.\",\"study.tip.text\":\"Mundu: hjá manni/stað/fyrirtæki → bei.\",\"study.important[0]\":\"bei þýðir oft við mann, stað eða fyrirtæki.\",\"study.important[1]\":\"Ef um hreyfingu á yfirborð er að ræða, notarðu venjulega auf, ekki bei.\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"blue\\\":[\\\"bei\\\"],\\\"de\\\":{\\\"blue\\\":[\\\"bei\\\"]}},{\\\"blue\\\":[\\\"bei\\\"],\\\"de\\\":{\\\"blue\\\":[\\\"bei\\\"]}},{\\\"blue\\\":[\\\"Bei\\\"],\\\"de\\\":{\\\"blue\\\":[\\\"Bei\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"purple\\\":[\\\"bei\\\"]},\\\"example\\\":{\\\"purple\\\":[\\\"bei\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"an\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"an\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zu\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"zu\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"purple\\\":[\\\"bei\\\"],\\\"green\\\":[\\\"Mundu\\\"]}},\\\"important\\\":[{\\\"purple\\\":[\\\"bei\\\"],\\\"green\\\":[\\\"bei\\\"]},{\\\"blue\\\":[\\\"auf\\\"],\\\"red\\\":[\\\"bei\\\"],\\\"purple\\\":[\\\"hreyfingu\\\"]}]}\"}",
+    "owner_note": "IS bei composite gala: hjá fields + sectionAccents Atceries→Mundu IS tokens. DE untouched."
+  },
+  "g2/a1/is|Bein|idx:80|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fótur\"}",
+    "owner_note": "IS Bein lv: NO Jakt→fótur for kāja leg. DE untouched."
+  },
+  "g2/a1/is|Beispiel|idx:81|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"dæmi\"}",
+    "owner_note": "IS Beispiel lv: NO Nei→dæmi for piemērs example. DE untouched."
+  },
+  "g2/a1/is|bekommen|idx:82|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fá\"}",
+    "owner_note": "IS bekommen lv: ET Saama→fá for saņemt get/receive. DE untouched."
+  },
+  "g2/a1/is|benutzen|idx:83|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"nota\"}",
+    "owner_note": "IS benutzen lv: ET Kasutama→nota for lietot use. DE untouched."
+  },
+  "g2/a1/is|besser|idx:85|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"betri\"}",
+    "owner_note": "IS besser lv: ET Parem→betri for labāks better. DE untouched."
+  },
+  "g2/a1/is|beste|idx:86|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"besti\"}",
+    "owner_note": "IS beste lv: ET Parim→besti for vislabākais best. DE untouched."
+  },
+  "g2/a1/is|Besuch|idx:87|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"heimsókn\",\"study.translation\":\"heimsókn\",\"study.explanation\":\"der Besuch þýðir heimsókn til manneskju, staðar eða viðburðar.\",\"study.examples[0].lv\":\"Heimsóknin á safnið var áhugaverð.\",\"study.examples[1].lv\":\"Takk fyrir heimsóknina þína.\",\"study.examples[2].lv\":\"Læknirinn fer í heimsókn.\",\"study.comparison[0].meaning\":\"heimsókn\",\"study.comparison[0].example\":\"Danke für deinen Besuch. – Takk fyrir heimsóknina þína.\",\"study.comparison[1].meaning\":\"gestur\",\"study.comparison[1].example\":\"Der Besucher wartet draußen. – Gesturinn bíður úti.\",\"study.comparison[2].meaning\":\"heimsækja\",\"study.comparison[2].example\":\"Ich besuche meine Großeltern. – Ég heimsæki ömmu og afa.\",\"study.tip.text\":\"Mundu: Besuch er heimsókn, en Besucher er manneskjan sem heimsækir.\",\"study.important[0]\":\"der Besuch = heimsókn.\",\"study.important[1]\":\"Fleirtala: die Besuche.\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"der Besuch\\\",\\\"die Besuche\\\"],\\\"purple\\\":[\\\"heimsókn\\\",\\\"viðburð\\\",\\\"manneskju\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Besuch\\\"],\\\"green\\\":[\\\"Museum\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"heimsókn\\\"],\\\"green\\\":[\\\"safnið\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Besuch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"heimsóknina\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Besuch\\\"],\\\"green\\\":[\\\"Arzt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"heimsókn\\\"],\\\"green\\\":[\\\"læknirinn\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"der Besuch\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"heimsókn\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"der Besucher\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"gestur\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"besuchen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"heimsækja\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Besuch\\\"],\\\"purple\\\":[\\\"heimsókn\\\"],\\\"green\\\":[\\\"Besucher\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"der Besuch\\\"],\\\"purple\\\":[\\\"heimsókn\\\"]},{\\\"blue\\\":[\\\"die Besuche\\\"]}]}\"}",
+    "owner_note": "IS Besuch composite gala: heimsókn-only gloss; sectionAccents LV→IS; die Besuche kept. DE untouched."
+  },
+  "g2/a1/is|besuchen|idx:89|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"heimsækja\",\"study.translation\":\"heimsækja\",\"study.explanation\":\"Notað þegar maður fer á stað, viðburð eða heimsækir mann.\",\"study.examples[0].lv\":\"Ég heimsæki safnið.\",\"study.examples[1].lv\":\"Við heimsækjum þýskukennslustund.\",\"study.examples[2].lv\":\"Ég heimsæki ömmu og afa.\",\"study.comparison[0].meaning\":\"heimsækja stað eða viðburð\",\"study.comparison[0].example\":\"Ich besuche meine Großeltern. – Ég heimsæki ömmu og afa.\",\"study.comparison[1].meaning\":\"hitta\",\"study.comparison[1].example\":\"Ich treffe meinen Freund. – Ég hitti vini minn.\",\"study.comparison[2].meaning\":\"fara til einhvers\",\"study.comparison[2].example\":\"Ich gehe zu meinem Freund. – Ég fer til vinar míns.\",\"study.tip.text\":\"Mundu: staður → heimsækja; manneskja → heimsækja eða hitta.\",\"study.important[0]\":\"besuchen er notað án forsetnings: Ich besuche meine Freundin.\",\"study.important[1]\":\"Íslenska þýðingin fer eftir hlutnum: heimsækja stað, heimsækja mann.\"}",
+    "owner_note": "IS besuchen composite: NO Bring vennene/LV apmeklēt residue→heimsækja throughout lv/study fields. DE untouched."
+  },
+  "g2/a1/is|Besucher|idx:88|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gestur\"}",
+    "owner_note": "IS Besucher lv: ET Külastaja→gestur for apmeklētājs visitor. DE untouched."
+  },
+  "g2/a1/is|Bett|idx:90|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"rúm\"}",
+    "owner_note": "IS Bett lv: garbage Woody→rúm for gulta bed. DE untouched."
+  },
+  "g2/a1/is|Bier|idx:96|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bjór\"}",
+    "owner_note": "IS Bier lv: ET Õlu→bjór for alus beer. DE untouched."
+  },
+  "g2/a1/is|Bild|idx:97|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"mynd\"}",
+    "owner_note": "IS Bild lv: garbage Pil→mynd for attēls picture. DE untouched."
+  },
+  "g2/a1/is|bis|idx:91|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"til\",\"study.translation\":\"til\",\"study.explanation\":\"Vísar til tímamarka, skilyrða eða marka.\",\"study.examples[0].lv\":\"Ég bíð þangað til þú kemur.\",\"study.examples[1].lv\":\"Vertu hér þangað til ég kem aftur.\",\"study.examples[2].lv\":\"Ég læri þýsku til kvölds.\",\"study.examples[3].lv\":\"Til þessa hef ég ekki skilið neitt.\",\"study.comparison[0].meaning\":\"til\",\"study.comparison[0].example\":\"Ich bleibe bis morgen. – Ég verð til morguns.\",\"study.comparison[1].meaning\":\"til (ákveðinn tími)\",\"study.comparison[1].example\":\"bis zum Bahnhof – til lestarstöðvarinnar\",\"study.comparison[2].meaning\":\"til þessa\",\"study.comparison[2].example\":\"Bis jetzt habe ich nichts verstanden. – Til þessa hef ég ekki skilið neitt.\",\"study.comparison[3].meaning\":\"þangað til\",\"study.comparison[3].example\":\"Bis jetzt ist alles gut. – Til þessa hefur allt gengið vel.\",\"study.tip.text\":\"Mundu: mörk í tíma/skilyrði → bis.\",\"study.important[0]\":\"bis = til marka eða tímamarks.\",\"study.important[1]\":\"bis jetzt = til þessa; bis dass = þangað til.\",\"study.important[2]\":\"bis jetzt þýðir til þessa.\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"purple\\\":[\\\"bis\\\"]},{\\\"purple\\\":[\\\"bis\\\"]},{\\\"purple\\\":[\\\"bis\\\"]},{\\\"blue\\\":[\\\"Bis jetzt\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"purple\\\":[\\\"bis\\\"]},\\\"example\\\":{\\\"purple\\\":[\\\"bis\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bis zu\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"bis\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bis jetzt\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"bis dass\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"purple\\\":[\\\"bis\\\"],\\\"green\\\":[\\\"Mundu\\\"]}},\\\"important\\\":[{\\\"purple\\\":[\\\"bis\\\"],\\\"green\\\":[\\\"bis\\\"]}]}\"}",
+    "owner_note": "IS bis composite gala: til fields + sectionAccents Atceries/Kuni→Mundu/til IS tokens. DE untouched."
+  },
+  "g2/a1/is|bitte|idx:93|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"vinsamlegast\",\"study.explanation\":\"Viðurkenningarorð með litlu bókstaf. Notað til að vera kurteis — vinsamlegast, takk.\",\"study.examples[0].lv\":\"Einn bolli af kaffi, vinsamlegast.\",\"study.examples[1].lv\":\"Komdu inn, vinsamlegast.\",\"study.examples[2].lv\":\"Vinsamlegast!\",\"study.examples[3].lv\":\"Má ég spyrja, vinsamlegast?\",\"study.examples[4].lv\":\"Ég hef beiðni.\",\"study.examples[5].lv\":\"Beiðnin er mikilvæg.\",\"study.comparison[0].meaning\":\"vinsamlegast\",\"study.comparison[0].example\":\"Komm bitte herein. – Komdu inn, vinsamlegast.\",\"study.comparison[1].meaning\":\"beiðni\",\"study.comparison[1].example\":\"Ich habe eine Bitte. – Ég hef beiðni.\",\"study.tip[0]\":\"Lítið bitte = vinsamlegast (Bitte schön!, Kaffee, bitte). Stórt die Bitte = beiðni.\",\"study.tip[1]\":\"Viðurkenningarorð með litlu bókstaf. Notað til kurteisi — vinsamlegast.\",\"study.important[0]\":\"bitte með litlu bókstaf er viðurkenningarorð, ekki nafnorð.\",\"study.important[1]\":\"die Bitte með stóru B og greinirnum die er nafnorð.\",\"study.important[2]\":\"Fleirtala: die Bitten (beiðnir).\"}",
+    "owner_note": "IS bitte composite: ET/NO Palun/Hva skal du gjøre→vinsamlegast throughout study fields for lūdzu. DE untouched."
+  },
+  "g2/a1/is|Bitte|idx:94|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"beiðni\",\"study.explanation\":\"Nafnorð með greinirnum die og stóru B. Ákveðin beiðni eða ósk.\",\"study.examples[0].lv\":\"Ég hef beiðni.\",\"study.examples[1].lv\":\"Hann uppfyllir beiðni mína.\",\"study.examples[2].lv\":\"Hún hefur tvær beiðnir.\",\"study.examples[3].lv\":\"Má ég spyrja, vinsamlegast?\",\"study.examples[4].lv\":\"Ég hef beiðni.\",\"study.examples[5].lv\":\"Beiðnin er mikilvæg.\",\"study.comparison[0].meaning\":\"beiðni\",\"study.comparison[0].example\":\"Ich habe eine Bitte. – Ég hef beiðni.\",\"study.comparison[1].meaning\":\"vinsamlegast\",\"study.comparison[1].example\":\"Komm bitte herein. – Komdu inn, vinsamlegast.\",\"study.tip[0]\":\"Lítið bitte = vinsamlegast. Stórt die Bitte = beiðni.\",\"study.tip[1]\":\"Nafnorð með greinirnum die og stóru B. Ákveðin beiðni eða ósk.\",\"study.important[0]\":\"bitte með litlu bókstaf er viðurkenningarorð, ekki nafnorð.\",\"study.important[1]\":\"die Bitte með stóru B og greinirnum die er nafnorð.\",\"study.important[2]\":\"Fleirtala: die Bitten (beiðnir).\"}",
+    "owner_note": "IS Bitte composite: ET/NO Palve/Mul på→beiðni throughout study fields for lūgums. DE untouched."
+  },
+  "g2/a1/is|bitten|idx:98|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"biðja\"}",
+    "owner_note": "IS bitten lv: ET Paluma→biðja for lūgt ask/request. DE untouched."
+  },
+  "g2/a1/is|Blatt|idx:99|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"blað\"}",
+    "owner_note": "IS Blatt lv: NO Lys→blað for lapa leaf/sheet. DE untouched."
+  },
+  "g2/a1/is|blau|idx:100|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"blár\"}",
+    "owner_note": "IS blau lv: SC Blå→blár for zils blue. DE untouched."
+  },
+  "g2/a1/is|bleiben|idx:101|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"verða eftir\",\"study.explanation\":\"Notað þegar maður eða hlutur fer ekki burt og helst á sama stað eða í sömu stöðu.\",\"study.examples[0].lv\":\"Ég verð heima.\",\"study.examples[1].lv\":\"Vertu hér!\",\"study.examples[2].lv\":\"Við verðum enn í eina klukkustund.\",\"study.examples[3].lv\":\"Ég fer heim.\",\"study.comparison[0].meaning\":\"verða eftir\",\"study.comparison[0].example\":\"Ég verð hér.\",\"study.comparison[1].meaning\":\"fara\",\"study.comparison[1].example\":\"Ég fer heim.\",\"study.comparison[2].meaning\":\"keyra\",\"study.comparison[2].example\":\"Ég keyri heim.\",\"study.comparison[3].meaning\":\"bíða\",\"study.comparison[3].example\":\"Ég bíð hér.\",\"study.tip.text\":\"Mundu: ekki fara burt → bleiben; fara á fætur → gehen.\",\"study.important[0]\":\"bleiben þýðir vera á stað, ekki bíða.\",\"study.important[1]\":\"Ich bleibe hier = ég verð hér; Ich warte hier = ég bíð hér.\"}",
+    "owner_note": "IS bleiben composite: ET/NO Jääma/Kom igjen→verða eftir throughout study fields for palikt. DE untouched."
+  },
+  "g2/a1/is|Bleistift|idx:102|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"blýantur\"}",
+    "owner_note": "IS Bleistift lv: NO/DK Blyanter→blýantur for zīmulis pencil. DE untouched."
+  },
+  "g2/a1/is|blond|idx:103|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ljóshærður\"}",
+    "owner_note": "IS blond lv: SC Blond→ljóshærður for blonds blond. DE untouched."
+  }
+}
