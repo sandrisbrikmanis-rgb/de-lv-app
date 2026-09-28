@@ -1,0 +1,821 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-cs-sk-uk-pilot-v1",
+  "generatedAt": "2026-09-28",
+  "verificationNote": "PONS/Langenscheidt/UDEW opened in this run (Playwright for PONS+UDEW; HTTP for Langenscheidt).",
+  "sources": [
+    {
+      "id": "pons-de-cs",
+      "lang": "cs",
+      "name": "PONS Wörterbuch Deutsch–Tschechisch",
+      "direction": "de→cs",
+      "yearBase": "PONS digital (redaktionell geprüft)",
+      "approxEntries": "~120000+ (publisks meklētājs de.pons.com)",
+      "portalUrl": "https://de.pons.com/übersetzung/deutsch-tschechisch/",
+      "status": "VERIFIED_USABLE_PRIMARY",
+      "pilotHitCount": 6,
+      "pilotTotal": 6,
+      "pilots": [
+        {
+          "deLemma": "Haus",
+          "queryLemma": "Haus",
+          "found": true,
+          "targetGloss": "dům; sněmovna; veselá kopa",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Haus",
+          "evidenceSnippet": "Wörterbuch Konjugation Abos & Preise Shop Anmelden PONS Pur kaufen Suche Wörterbuch Beispielsätze IM PONS WÖRTERBUCH Haus <-es, Häuser> SUBST nt Haus (Firma) dům m Haus (Parlament) sněmovna f ein fideles Haus (Person) veselá kopa f von Haus",
+          "error": null
+        },
+        {
+          "deLemma": "arbeiten",
+          "queryLemma": "arbeiten",
+          "found": true,
+          "targetGloss": "pracovat; Arbeit; práce; Arbeit",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/arbeiten",
+          "evidenceSnippet": "Wörterbuch Konjugation Abos & Preise Shop Anmelden PONS Pur kaufen Suche Wörterbuch Verbtabellen Beispielsätze IM PONS WÖRTERBUCH arbeiten arbeiten pracovat arbeiten (Maschine) jít, být v činnosti an einer Sache dat arbeiten pracovat na čem",
+          "error": null
+        },
+        {
+          "deLemma": "Kleingeld",
+          "queryLemma": "Kleingeld",
+          "found": true,
+          "targetGloss": "Kleinhandel; Kleinhändler; Kleinholz",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kleingeld",
+          "evidenceSnippet": "Wörterbuch Konjugation Abos & Preise Shop Anmelden PONS Pur kaufen Suche Wörterbuch Beispielsätze IM PONS WÖRTERBUCH Kleingeld SUBST nt Kleingeld drobné m/pl das nötige Kleingeld haben být zámožný Beispiele aus dem PONS Wörterbuch (redaktio",
+          "error": null
+        },
+        {
+          "deLemma": "bewirten",
+          "queryLemma": "bewirten",
+          "found": true,
+          "targetGloss": "Präsens; Präteritum; Perfekt",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/bewirten",
+          "evidenceSnippet": "Wörterbuch Konjugation Abos & Preise Shop Anmelden PONS Pur kaufen Suche Wörterbuch Verbtabellen Beispielsätze IM PONS WÖRTERBUCH bewirten <ohne ge> +haben bewirten [perf po] hostit (mit dat I) Präsens ich bewirte du bewirtest er/sie/es bew",
+          "error": null
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "queryLemma": "Grenzkonflikt",
+          "found": true,
+          "targetGloss": "pohraniční spor",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Grenzkonflikt",
+          "evidenceSnippet": "Wörterbuch Konjugation Abos & Preise Shop Anmelden PONS Pur kaufen Suche Wörterbuch Beispielsätze IM PONS WÖRTERBUCH Grenzkonflikt SUBST m Grenzkonflikt pohraniční spor m Keine Beispielsätze verfügbar Versuche es mit einem anderen Eintrag. ",
+          "error": null
+        },
+        {
+          "deLemma": "Machtgier",
+          "queryLemma": "Machtgier",
+          "found": true,
+          "targetGloss": "Machthaber; mächtig; Machtkampf",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch?q=Machtgier",
+          "evidenceSnippet": "Wörterbuch Konjugation Abos & Preise Shop Anmelden PONS Pur kaufen Suche Wörterbuch Meintest du? Machthaber , Raffgier , oder Nachtportier IM PONS WÖRTERBUCH Machthaber <-s, Machthaber> SUBST m Machthaber držitel m moci Nachtportier SUBST m",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "pons-cs-de",
+      "lang": "cs",
+      "name": "PONS Wörterbuch Tschechisch–Deutsch",
+      "direction": "cs→de",
+      "yearBase": "PONS digital",
+      "approxEntries": "~120000+",
+      "portalUrl": "https://de.pons.com/übersetzung/tschechisch-deutsch/",
+      "status": "VERIFIED_USABLE_PRIMARY",
+      "pilotHitCount": 5,
+      "pilotTotal": 6,
+      "pilots": [
+        {
+          "deLemma": "Haus",
+          "queryLemma": "dům",
+          "found": true,
+          "targetGloss": "Haus",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/d%C5%AFm",
+          "evidenceSnippet": "Wörterbuch Konjugation Abos & Preise Shop Anmelden PONS Pur kaufen Suche Wörterbuch Beispielsätze IM PONS WÖRTERBUCH dům <dom-> SUBST m dům Haus n dům fig Haushalt m dům fig Familie f obchodní dům Kaufhaus n rodný dům Vaterhaus, Elternhaus ",
+          "error": null
+        },
+        {
+          "deLemma": "arbeiten",
+          "queryLemma": "pracovat",
+          "found": true,
+          "targetGloss": "arbeiten",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/pracovat",
+          "evidenceSnippet": "Wörterbuch Konjugation Abos & Preise Shop Anmelden PONS Pur kaufen Suche Wörterbuch Beispielsätze IM PONS WÖRTERBUCH pracovat <perf na-, perf po-, perf u-, perf za-, -cuji> pracovat arbeiten pracovat na čem, o čem an, über et. arbeiten prac",
+          "error": null
+        },
+        {
+          "deLemma": "Kleingeld",
+          "queryLemma": "drobné",
+          "found": true,
+          "targetGloss": "Kleingeld",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/drobn%C3%A9",
+          "evidenceSnippet": "Wörterbuch Konjugation Abos & Preise Shop Anmelden PONS Pur kaufen Suche Wörterbuch Beispielsätze IM PONS WÖRTERBUCH drobné <adj> SUBST m/pl drobné Kleingeld n Beispiele aus dem PONS Wörterbuch (redaktionell geprüft) drobné peníze Kleingeld",
+          "error": null
+        },
+        {
+          "deLemma": "bewirten",
+          "queryLemma": "pohostit",
+          "found": true,
+          "targetGloss": "bewirten",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/pohostit",
+          "evidenceSnippet": "Wörterbuch Konjugation Abos & Preise Shop Anmelden PONS Pur kaufen Suche Wörterbuch Beispielsätze IM PONS WÖRTERBUCH pohostit <perf, -štěn> VERB pohostit bewirten pohostit gastlich aufnehmen Keine Beispielsätze verfügbar Versuche es mit ein",
+          "error": null
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "queryLemma": "pohraniční spor",
+          "found": true,
+          "targetGloss": "Grenzkonflikt",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/pohrani%C4%8Dn%C3%AD+spor",
+          "evidenceSnippet": "Wörterbuch Konjugation Abos & Preise Shop Anmelden PONS Pur kaufen Suche Wörterbuch Beispielsätze IM PONS WÖRTERBUCH Grenzkonflikt pohraniční spor m Keine Beispielsätze verfügbar Versuche es mit einem anderen Eintrag. Durchsuche das Wörterb",
+          "error": null
+        },
+        {
+          "deLemma": "Machtgier",
+          "queryLemma": "touha po moci",
+          "found": false,
+          "targetGloss": "",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch?q=touha+po+moci",
+          "evidenceSnippet": "Wörterbuch Konjugation Abos & Preise Shop Anmelden PONS Pur kaufen Suche Wörterbuch Meintest du? touha IM PONS WÖRTERBUCH moci, moct <mohu, můžu/můžeš … usw./3. Pl. mohou, můžou/mohl, moz!> perf z- moci können, imstande sein, die Möglichkei",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "langenscheidt-de-cs",
+      "lang": "cs",
+      "name": "Langenscheidt Wörterbuch Deutsch–Tschechisch",
+      "direction": "de→cs",
+      "yearBase": "Langenscheidt online (PONS-Gruppe)",
+      "approxEntries": "Pilns digitālais saturs (tūkstošiem šķirkļu)",
+      "portalUrl": "https://en.langenscheidt.com/german-czech",
+      "status": "VERIFIED_USABLE_PRIMARY",
+      "pilotHitCount": 5,
+      "pilotTotal": 6,
+      "pilots": [
+        {
+          "deLemma": "Haus",
+          "queryLemma": "Haus",
+          "found": true,
+          "targetGloss": "dům; snĕmovna",
+          "entryUrl": "https://en.langenscheidt.com/german-czech/haus",
+          "evidenceSnippet": " Haus - Translation in Czech - Langenscheidt dictionary German-Czech var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since the",
+          "error": null
+        },
+        {
+          "deLemma": "arbeiten",
+          "queryLemma": "arbeiten",
+          "found": true,
+          "targetGloss": "pracovat; jít; být v činnosti",
+          "entryUrl": "https://en.langenscheidt.com/german-czech/arbeiten",
+          "evidenceSnippet": " arbeiten - Translation in Czech - Langenscheidt dictionary German-Czech var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since",
+          "error": null
+        },
+        {
+          "deLemma": "Kleingeld",
+          "queryLemma": "Kleingeld",
+          "found": true,
+          "targetGloss": "drobné",
+          "entryUrl": "https://en.langenscheidt.com/german-czech/kleingeld",
+          "evidenceSnippet": " Kleingeld - Translation in Czech - Langenscheidt dictionary German-Czech var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and sinc",
+          "error": null
+        },
+        {
+          "deLemma": "bewirten",
+          "queryLemma": "bewirten",
+          "found": true,
+          "targetGloss": "hostit",
+          "entryUrl": "https://en.langenscheidt.com/german-czech/bewirten",
+          "evidenceSnippet": " bewirten - Translation in Czech - Langenscheidt dictionary German-Czech var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since",
+          "error": null
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "queryLemma": "Grenzkonflikt",
+          "found": true,
+          "targetGloss": "pohraniční spor",
+          "entryUrl": "https://en.langenscheidt.com/german-czech/grenzkonflikt",
+          "evidenceSnippet": " Grenzkonflikt - Translation in Czech - Langenscheidt dictionary German-Czech var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and ",
+          "error": null
+        },
+        {
+          "deLemma": "Machtgier",
+          "queryLemma": "Machtgier",
+          "found": false,
+          "targetGloss": "",
+          "entryUrl": "https://en.langenscheidt.com/german-czech/",
+          "evidenceSnippet": " German-Czech dictionary - translation - Langenscheidt var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since there * is an und",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "langenscheidt-cs-de",
+      "lang": "cs",
+      "name": "Langenscheidt Wörterbuch Tschechisch–Deutsch",
+      "direction": "cs→de",
+      "yearBase": "Langenscheidt online",
+      "approxEntries": "Pilns digitālais saturs",
+      "portalUrl": "https://en.langenscheidt.com/czech-german",
+      "status": "VERIFIED_USABLE_PRIMARY",
+      "pilotHitCount": 4,
+      "pilotTotal": 6,
+      "pilots": [
+        {
+          "deLemma": "Haus",
+          "queryLemma": "dům",
+          "found": true,
+          "targetGloss": "Haus",
+          "entryUrl": "https://en.langenscheidt.com/czech-german/d%C5%AFm",
+          "evidenceSnippet": " dům - Translation in German - Langenscheidt dictionary Czech-German var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since the",
+          "error": null
+        },
+        {
+          "deLemma": "arbeiten",
+          "queryLemma": "pracovat",
+          "found": true,
+          "targetGloss": "arbeiten",
+          "entryUrl": "https://en.langenscheidt.com/czech-german/pracovat",
+          "evidenceSnippet": " pracovat - Translation in German - Langenscheidt dictionary Czech-German var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and sinc",
+          "error": null
+        },
+        {
+          "deLemma": "Kleingeld",
+          "queryLemma": "drobné",
+          "found": true,
+          "targetGloss": "Kleingeld",
+          "entryUrl": "https://en.langenscheidt.com/czech-german/drobn%C3%A9",
+          "evidenceSnippet": " drobné - Translation in German - Langenscheidt dictionary Czech-German var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since ",
+          "error": null
+        },
+        {
+          "deLemma": "bewirten",
+          "queryLemma": "pohostit",
+          "found": true,
+          "targetGloss": "bewirten",
+          "entryUrl": "https://en.langenscheidt.com/czech-german/pohostit",
+          "evidenceSnippet": " pohostit - Translation in German - Langenscheidt dictionary Czech-German var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and sinc",
+          "error": null
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "queryLemma": "pohraniční spor",
+          "found": false,
+          "targetGloss": "",
+          "entryUrl": "https://en.langenscheidt.com/czech-german/",
+          "evidenceSnippet": " Czech-German dictionary - translation - Langenscheidt var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since there * is an und",
+          "error": null
+        },
+        {
+          "deLemma": "Machtgier",
+          "queryLemma": "touha po moci",
+          "found": false,
+          "targetGloss": "",
+          "entryUrl": "https://en.langenscheidt.com/czech-german/",
+          "evidenceSnippet": " Czech-German dictionary - translation - Langenscheidt var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since there * is an und",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "langenscheidt-de-sk",
+      "lang": "sk",
+      "name": "Langenscheidt Wörterbuch Deutsch–Slowakisch",
+      "direction": "de→sk",
+      "yearBase": "Langenscheidt online",
+      "approxEntries": "Pilns digitālais saturs",
+      "portalUrl": "https://en.langenscheidt.com/german-slovak",
+      "status": "VERIFIED_USABLE_PRIMARY",
+      "pilotHitCount": 4,
+      "pilotTotal": 6,
+      "pilots": [
+        {
+          "deLemma": "Haus",
+          "queryLemma": "Haus",
+          "found": true,
+          "targetGloss": "dom",
+          "entryUrl": "https://en.langenscheidt.com/german-slovak/haus",
+          "evidenceSnippet": " Haus - Translation in Slovak - Langenscheidt dictionary German-Slovak var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since t",
+          "error": null
+        },
+        {
+          "deLemma": "arbeiten",
+          "queryLemma": "arbeiten",
+          "found": true,
+          "targetGloss": "robiť; pracovať",
+          "entryUrl": "https://en.langenscheidt.com/german-slovak/arbeiten",
+          "evidenceSnippet": " arbeiten - Translation in Slovak - Langenscheidt dictionary German-Slovak var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and sin",
+          "error": null
+        },
+        {
+          "deLemma": "Kleingeld",
+          "queryLemma": "Kleingeld",
+          "found": true,
+          "targetGloss": "drobné peniaze",
+          "entryUrl": "https://en.langenscheidt.com/german-slovak/kleingeld",
+          "evidenceSnippet": " Kleingeld - Translation in Slovak - Langenscheidt dictionary German-Slovak var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and si",
+          "error": null
+        },
+        {
+          "deLemma": "bewirten",
+          "queryLemma": "bewirten",
+          "found": true,
+          "targetGloss": "hostiť",
+          "entryUrl": "https://en.langenscheidt.com/german-slovak/bewirten",
+          "evidenceSnippet": " bewirten - Translation in Slovak - Langenscheidt dictionary German-Slovak var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and sin",
+          "error": null
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "queryLemma": "Grenzkonflikt",
+          "found": false,
+          "targetGloss": "",
+          "entryUrl": "https://en.langenscheidt.com/german-slovak/",
+          "evidenceSnippet": " German-Slovak dictionary - translation - Langenscheidt var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since there * is an un",
+          "error": null
+        },
+        {
+          "deLemma": "Machtgier",
+          "queryLemma": "Machtgier",
+          "found": false,
+          "targetGloss": "",
+          "entryUrl": "https://en.langenscheidt.com/german-slovak/",
+          "evidenceSnippet": " German-Slovak dictionary - translation - Langenscheidt var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since there * is an un",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "langenscheidt-sk-de",
+      "lang": "sk",
+      "name": "Langenscheidt Wörterbuch Slowakisch–Deutsch",
+      "direction": "sk→de",
+      "yearBase": "Langenscheidt online",
+      "approxEntries": "Pilns digitālais saturs",
+      "portalUrl": "https://en.langenscheidt.com/slovak-german",
+      "status": "PARTIAL",
+      "pilotHitCount": 3,
+      "pilotTotal": 6,
+      "pilots": [
+        {
+          "deLemma": "Haus",
+          "queryLemma": "dom",
+          "found": true,
+          "targetGloss": "Haus",
+          "entryUrl": "https://en.langenscheidt.com/slovak-german/dom",
+          "evidenceSnippet": " dom - Translation in German - Langenscheidt dictionary Slovak-German var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since th",
+          "error": null
+        },
+        {
+          "deLemma": "arbeiten",
+          "queryLemma": "pracovať",
+          "found": true,
+          "targetGloss": "arbeiten",
+          "entryUrl": "https://en.langenscheidt.com/slovak-german/pracova%C5%A5",
+          "evidenceSnippet": " pracovať - Translation in German - Langenscheidt dictionary Slovak-German var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and sin",
+          "error": null
+        },
+        {
+          "deLemma": "Kleingeld",
+          "queryLemma": "drobné",
+          "found": true,
+          "targetGloss": "Kleingeld",
+          "entryUrl": "https://en.langenscheidt.com/slovak-german/drobn%C3%A9",
+          "evidenceSnippet": " drobné - Translation in German - Langenscheidt dictionary Slovak-German var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since",
+          "error": null
+        },
+        {
+          "deLemma": "bewirten",
+          "queryLemma": "pohostiť",
+          "found": false,
+          "targetGloss": "",
+          "entryUrl": "https://en.langenscheidt.com/slovak-german/",
+          "evidenceSnippet": " Slovak-German dictionary - translation - Langenscheidt var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since there * is an un",
+          "error": null
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "queryLemma": "hraničný konflikt",
+          "found": false,
+          "targetGloss": "",
+          "entryUrl": "https://en.langenscheidt.com/slovak-german/",
+          "evidenceSnippet": " Slovak-German dictionary - translation - Langenscheidt var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since there * is an un",
+          "error": null
+        },
+        {
+          "deLemma": "Machtgier",
+          "queryLemma": "túžba po moci",
+          "found": false,
+          "targetGloss": "",
+          "entryUrl": "https://en.langenscheidt.com/slovak-german/",
+          "evidenceSnippet": " Slovak-German dictionary - translation - Langenscheidt var postLoads=postLoads || []; function OptanonWrapper() { /* Ticket #62384.5: GA4 Integration - start */ /* Since the old UA tracking has been discontinued, and since there * is an un",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dict-cc-de-cs",
+      "lang": "cs",
+      "name": "dict.cc Německo-český slovník",
+      "direction": "de→cs",
+      "yearBase": "dict.cc (MASTER manifest, kopiena uzturēts)",
+      "approxEntries": "~35211 (manifest)",
+      "portalUrl": "https://csde.dict.cc/",
+      "status": "PARTIAL",
+      "pilotHitCount": 1,
+      "pilotTotal": 6,
+      "pilots": [
+        {
+          "deLemma": "Haus",
+          "queryLemma": "Haus",
+          "found": true,
+          "targetGloss": "dům; barák; domek; domovní",
+          "entryUrl": "https://csde.dict.cc/?s=Haus",
+          "error": null
+        },
+        {
+          "deLemma": "arbeiten",
+          "queryLemma": "arbeiten",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://csde.dict.cc/?s=arbeiten",
+          "error": null
+        },
+        {
+          "deLemma": "Kleingeld",
+          "queryLemma": "Kleingeld",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://csde.dict.cc/?s=Kleingeld",
+          "error": null
+        },
+        {
+          "deLemma": "bewirten",
+          "queryLemma": "bewirten",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://csde.dict.cc/?s=bewirten",
+          "error": null
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "queryLemma": "Grenzkonflikt",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://csde.dict.cc/?s=Grenzkonflikt",
+          "error": null
+        },
+        {
+          "deLemma": "Machtgier",
+          "queryLemma": "Machtgier",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://csde.dict.cc/?s=Machtgier",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dict-cc-cs-de",
+      "lang": "cs",
+      "name": "dict.cc Česko-německý slovník",
+      "direction": "cs→de",
+      "yearBase": "dict.cc",
+      "approxEntries": "~35211",
+      "portalUrl": "https://decs.dict.cc/",
+      "status": "PARTIAL",
+      "pilotHitCount": 1,
+      "pilotTotal": 6,
+      "pilots": [
+        {
+          "deLemma": "Haus",
+          "queryLemma": "dům",
+          "found": true,
+          "targetGloss": "Haus → Haus",
+          "entryUrl": "https://decs.dict.cc/?s=d%C5%AFm",
+          "error": null
+        },
+        {
+          "deLemma": "arbeiten",
+          "queryLemma": "pracovat",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://decs.dict.cc/?s=pracovat",
+          "error": null
+        },
+        {
+          "deLemma": "Kleingeld",
+          "queryLemma": "drobné",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://decs.dict.cc/?s=drobn%C3%A9",
+          "error": null
+        },
+        {
+          "deLemma": "bewirten",
+          "queryLemma": "pohostit",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://decs.dict.cc/?s=pohostit",
+          "error": null
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "queryLemma": "pohraniční spor",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://decs.dict.cc/?s=pohrani%C4%8Dn%C3%AD%20spor",
+          "error": null
+        },
+        {
+          "deLemma": "Machtgier",
+          "queryLemma": "touha po moci",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://decs.dict.cc/?s=touha%20po%20moci",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dict-cc-de-sk",
+      "lang": "sk",
+      "name": "dict.cc Nemecko-slovenský slovník",
+      "direction": "de→sk",
+      "yearBase": "dict.cc (MASTER manifest)",
+      "approxEntries": "~102192 (manifest)",
+      "portalUrl": "https://desk.dict.cc/",
+      "status": "PARTIAL",
+      "pilotHitCount": 2,
+      "pilotTotal": 6,
+      "pilots": [
+        {
+          "deLemma": "Haus",
+          "queryLemma": "Haus",
+          "found": true,
+          "targetGloss": "dom",
+          "entryUrl": "https://desk.dict.cc/?s=Haus",
+          "error": null
+        },
+        {
+          "deLemma": "arbeiten",
+          "queryLemma": "arbeiten",
+          "found": true,
+          "targetGloss": "pracovať",
+          "entryUrl": "https://desk.dict.cc/?s=arbeiten",
+          "error": null
+        },
+        {
+          "deLemma": "Kleingeld",
+          "queryLemma": "Kleingeld",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://desk.dict.cc/?s=Kleingeld",
+          "error": null
+        },
+        {
+          "deLemma": "bewirten",
+          "queryLemma": "bewirten",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://desk.dict.cc/?s=bewirten",
+          "error": null
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "queryLemma": "Grenzkonflikt",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://desk.dict.cc/?s=Grenzkonflikt",
+          "error": null
+        },
+        {
+          "deLemma": "Machtgier",
+          "queryLemma": "Machtgier",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://desk.dict.cc/?s=Machtgier",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dict-cc-sk-de",
+      "lang": "sk",
+      "name": "dict.cc Slovensko-nemecký slovník",
+      "direction": "sk→de",
+      "yearBase": "dict.cc",
+      "approxEntries": "~102192",
+      "portalUrl": "https://sk-de.dict.cc/",
+      "status": "PARTIAL",
+      "pilotHitCount": 2,
+      "pilotTotal": 6,
+      "pilots": [
+        {
+          "deLemma": "Haus",
+          "queryLemma": "dom",
+          "found": true,
+          "targetGloss": "Haus → Haus",
+          "entryUrl": "https://sk-de.dict.cc/?s=dom",
+          "error": null
+        },
+        {
+          "deLemma": "arbeiten",
+          "queryLemma": "pracovať",
+          "found": true,
+          "targetGloss": "arbeiten → arbeiten",
+          "entryUrl": "https://sk-de.dict.cc/?s=pracova%C5%A5",
+          "error": null
+        },
+        {
+          "deLemma": "Kleingeld",
+          "queryLemma": "drobné",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://sk-de.dict.cc/?s=drobn%C3%A9",
+          "error": null
+        },
+        {
+          "deLemma": "bewirten",
+          "queryLemma": "pohostiť",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://sk-de.dict.cc/?s=pohosti%C5%A5",
+          "error": null
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "queryLemma": "hraničný konflikt",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://sk-de.dict.cc/?s=hrani%C4%8Dn%C3%BD%20konflikt",
+          "error": null
+        },
+        {
+          "deLemma": "Machtgier",
+          "queryLemma": "túžba po moci",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://sk-de.dict.cc/?s=t%C3%BA%C5%BEba%20po%20moci",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dict-cc-de-uk",
+      "lang": "uk",
+      "name": "dict.cc Deutsch–Ukrainisch",
+      "direction": "de→uk",
+      "yearBase": "dict.cc (MASTER manifest)",
+      "approxEntries": "~66145 (manifest)",
+      "portalUrl": "https://deuk.dict.cc/",
+      "status": "PARTIAL",
+      "pilotHitCount": 2,
+      "pilotTotal": 6,
+      "pilots": [
+        {
+          "deLemma": "Haus",
+          "queryLemma": "Haus",
+          "found": true,
+          "targetGloss": "будинок",
+          "entryUrl": "https://deuk.dict.cc/?s=Haus",
+          "error": null
+        },
+        {
+          "deLemma": "arbeiten",
+          "queryLemma": "arbeiten",
+          "found": true,
+          "targetGloss": "працювати",
+          "entryUrl": "https://deuk.dict.cc/?s=arbeiten",
+          "error": null
+        },
+        {
+          "deLemma": "Kleingeld",
+          "queryLemma": "Kleingeld",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://deuk.dict.cc/?s=Kleingeld",
+          "error": null
+        },
+        {
+          "deLemma": "bewirten",
+          "queryLemma": "bewirten",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://deuk.dict.cc/?s=bewirten",
+          "error": null
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "queryLemma": "Grenzkonflikt",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://deuk.dict.cc/?s=Grenzkonflikt",
+          "error": null
+        },
+        {
+          "deLemma": "Machtgier",
+          "queryLemma": "Machtgier",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://deuk.dict.cc/?s=Machtgier",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dict-cc-uk-de",
+      "lang": "uk",
+      "name": "dict.cc Ukrainisch–Deutsch",
+      "direction": "uk→de",
+      "yearBase": "dict.cc",
+      "approxEntries": "~66145",
+      "portalUrl": "https://ukde.dict.cc/",
+      "status": "PARTIAL",
+      "pilotHitCount": 2,
+      "pilotTotal": 6,
+      "pilots": [
+        {
+          "deLemma": "Haus",
+          "queryLemma": "будинок",
+          "found": true,
+          "targetGloss": "Gebäude → Haus",
+          "entryUrl": "https://ukde.dict.cc/?s=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA",
+          "error": null
+        },
+        {
+          "deLemma": "arbeiten",
+          "queryLemma": "працювати",
+          "found": true,
+          "targetGloss": "arbeiten → arbeiten",
+          "entryUrl": "https://ukde.dict.cc/?s=%D0%BF%D1%80%D0%B0%D1%86%D1%8E%D0%B2%D0%B0%D1%82%D0%B8",
+          "error": null
+        },
+        {
+          "deLemma": "Kleingeld",
+          "queryLemma": "дрібні",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://ukde.dict.cc/?s=%D0%B4%D1%80%D1%96%D0%B1%D0%BD%D1%96",
+          "error": null
+        },
+        {
+          "deLemma": "bewirten",
+          "queryLemma": "гостувати",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://ukde.dict.cc/?s=%D0%B3%D0%BE%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%82%D0%B8",
+          "error": null
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "queryLemma": "прикордонний конфлікт",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://ukde.dict.cc/?s=%D0%BF%D1%80%D0%B8%D0%BA%D0%BE%D1%80%D0%B4%D0%BE%D0%BD%D0%BD%D0%B8%D0%B9%20%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D1%96%D0%BA%D1%82",
+          "error": null
+        },
+        {
+          "deLemma": "Machtgier",
+          "queryLemma": "прагнення до влади",
+          "found": false,
+          "targetGloss": null,
+          "entryUrl": "https://ukde.dict.cc/?s=%D0%BF%D1%80%D0%B0%D0%B3%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F%20%D0%B4%D0%BE%20%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8",
+          "error": null
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "lang": "cs",
+      "id": "kramerius-sterzinger",
+      "name": "Sterzinger, Encyklopedický německo-český slovník (NKP Kramerius, 1916–1935)",
+      "url": "https://kramerius5.nkp.cz/",
+      "reason": "NDK/Kramerius satur vēsturiskos sējumus ar OCR, bet šajā runā nav atvērts konkrēts viewer URL ar visiem 6 pilotiem; paliek papildinājums pēc PONS/Langenscheidt.",
+      "status": "HISTORICAL_SUPPLEMENT_NOT_PILOTED_THIS_RUN"
+    },
+    {
+      "lang": "sk",
+      "id": "snk-catalog-only",
+      "name": "SNK digitālie fondi (bez konkrēta DE↔SK viewer URL)",
+      "url": "https://www.snk.sk/",
+      "reason": "Tikai bibliotēkas katalogs — nav izmantojams bez atvērta pilna teksta skatītāja.",
+      "status": "CATALOG_OR_STUB_ONLY"
+    },
+    {
+      "lang": "uk",
+      "id": "langenscheidt-de-uk-redirect",
+      "name": "Langenscheidt Deutsch–Ukrainisch (en.langenscheidt.com/german-ukrainian/…)",
+      "url": "https://en.langenscheidt.com/german-ukrainian",
+      "reason": "Lemma URL pāradresē uz sākumlapu — nav atvērts pilns šķirkļa saturs šajā runā.",
+      "status": "CATALOG_OR_STUB_ONLY"
+    },
+    {
+      "lang": "uk",
+      "id": "udew-uni-leipzig",
+      "name": "UDEW Ukrainisch–Deutsch (Universität Leipzig)",
+      "url": "https://udew.uni-leipzig.de/udew/en/ukrainisch_deutsch_online.htm",
+      "reason": "Institucionālais leksikons; piekļuve no šīs vides neizdevās (HTTP/2 / tukša atbilde).",
+      "status": "TECHNICAL_ACCESS_BLOCKED"
+    }
+  ]
+}
