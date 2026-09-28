@@ -48,7 +48,7 @@ const RESCAN_PLATFORM_BY_LANG = Object.freeze({
 
 const MAX_FALLBACK_SOURCES = 12;
 
-const INSTITUTIONAL_BILINGUAL_AUDIT_LANGS = Object.freeze(new Set(["lv", "lt", "pl"]));
+const INSTITUTIONAL_BILINGUAL_AUDIT_LANGS = Object.freeze(new Set(["lv", "lt", "pl", "uk"]));
 
 function reversePrimaryCandidateForLang(appLang) {
   const overrides = loadOverrides();
@@ -437,7 +437,14 @@ async function collectFromReversePrimaryCandidate(candidate, appLang, cardGerman
     };
   }
 
-  const confirmed = extractReverseTargetDePair(page.text, target, deLemma);
+  let confirmed = extractReverseTargetDePair(page.text, target, deLemma);
+  if (!confirmed.length && /udew\.uni-leipzig\.de/i.test(searchUrl) && page.html) {
+    const { extractUewGermanFromHtml } = require("./udew-http-fetch");
+    const germanHits = extractUewGermanFromHtml(page.html, deLemma);
+    if (germanHits.some((g) => new RegExp(`^${deLemma}$`, "i").test(g))) {
+      confirmed = [deLemma];
+    }
+  }
   if (!confirmed.length) {
     return {
       ok: false,
@@ -564,6 +571,30 @@ async function collectDeTargetFromCatalog(appLang, cardGerman, options = {}) {
           winningCandidate = reverseCand;
         } else if (rev.bilingualMeta) {
           lastMeta = rev.bilingualMeta;
+        }
+      }
+    }
+
+    if (!mergedEligible.length) {
+      const fallbackSpec = loadOverrides().languages?.[appLang]?.fallbackCandidate;
+      if (fallbackSpec) {
+        const manifest = loadManifest();
+        const spec = manifest.sources.find((s) => s.appCode === appLang);
+        const fbCand = overrideToCandidate(fallbackSpec, appLang, spec?.standardCode || appLang);
+        const fbPass = await tryCollectAcrossSources(
+          [fbCand],
+          appLang,
+          cardGerman,
+          searchLemma,
+          "DE_TO_TARGET_FALLBACK",
+          ctx,
+        );
+        rejected.push(...fbPass.rejected);
+        sourcesTried.push(...fbPass.sourcesTried);
+        if (fbPass.mergedEligible.length) {
+          mergedEligible = fbPass.mergedEligible;
+          lastMeta = fbPass.lastMeta;
+          winningCandidate = fbPass.winningCandidate;
         }
       }
     }

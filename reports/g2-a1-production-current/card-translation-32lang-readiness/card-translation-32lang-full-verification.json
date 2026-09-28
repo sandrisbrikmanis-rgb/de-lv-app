@@ -1,15 +1,13 @@
 {
   "schemaVersion": "g2-a1-card-translation-32lang-full-v1",
-  "generatedAt": "2026-09-28T16:10:11.631Z",
+  "generatedAt": "2026-09-28T18:49:14.579Z",
   "expectedCount": 32,
   "verifiedLanguageCount": 32,
   "partialVerifyLangs": [
-    "lt",
-    "pl"
+    "uk"
   ],
   "liveVerifiedThisRun": [
-    "lt",
-    "pl"
+    "uk"
   ],
   "readyCount": 15,
   "remainingCount": 17,
@@ -2408,8 +2406,8 @@
         {
           "code": "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
           "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-          "detail": "TARGET_AUTHORITY_NOT_VALIDATED",
-          "targetSourceUrl": "https://lcorp.ulif.org.ua/dictua/#search=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA",
+          "detail": "MISSING_TARGET_URL_OR_PROVEN_LEMMA",
+          "targetSourceUrl": null,
           "provenTargetLemma": "будинок"
         },
         {
@@ -2419,10 +2417,10 @@
         }
       ],
       "collector": {
-        "collectorId": "manifest-uk",
-        "bilingualSourceUrl": "https://deuk.dict.cc/",
-        "sourceType": "COMMUNITY_BILINGUAL_DICT_CC",
-        "platform": "dict.cc",
+        "collectorId": "udew-uk-de-bidir",
+        "bilingualSourceUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+        "sourceType": "INSTITUTIONAL_BILINGUAL_LEXICON",
+        "platform": "udew",
         "manifestAllowed": true
       },
       "targetValidator": {
@@ -2460,7 +2458,6 @@
         "blockers": [
           {
             "code": "TARGET_OFFICIAL_LOOKUP_FAIL",
-            "outcome": "SOURCE_ENTRY_NOT_FOUND",
             "provenLemma": "будинок"
           }
         ],
@@ -2468,11 +2465,12 @@
         "targetOfficialValidation": false,
         "bilingualCollectorProven": true,
         "deSourceUrl": "https://www.dwds.de/wb/Haus",
-        "bilingualSourceUrl": "https://deuk.dict.cc/",
-        "bilingualResultUrl": "https://deuk.dict.cc/?s=Haus",
-        "targetSourceUrl": "https://lcorp.ulif.org.ua/dictua/#search=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA",
+        "bilingualSourceUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+        "bilingualResultUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=Haus",
+        "targetSourceUrl": null,
         "provenTargetLemma": "будинок"
-      }
+      },
+      "sixLemmaLiveAudit": null
     }
   ],
   "blockersSummary": [
@@ -3338,8 +3336,8 @@
         {
           "code": "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
           "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-          "detail": "TARGET_AUTHORITY_NOT_VALIDATED",
-          "targetSourceUrl": "https://lcorp.ulif.org.ua/dictua/#search=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA",
+          "detail": "MISSING_TARGET_URL_OR_PROVEN_LEMMA",
+          "targetSourceUrl": null,
           "provenTargetLemma": "будинок"
         },
         {
@@ -3349,10 +3347,10 @@
         }
       ],
       "collector": {
-        "collectorId": "manifest-uk",
-        "bilingualSourceUrl": "https://deuk.dict.cc/",
-        "sourceType": "COMMUNITY_BILINGUAL_DICT_CC",
-        "platform": "dict.cc",
+        "collectorId": "udew-uk-de-bidir",
+        "bilingualSourceUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+        "sourceType": "INSTITUTIONAL_BILINGUAL_LEXICON",
+        "platform": "udew",
         "manifestAllowed": true
       },
       "targetValidator": {
@@ -3371,7 +3369,6 @@
         "blockers": [
           {
             "code": "TARGET_OFFICIAL_LOOKUP_FAIL",
-            "outcome": "SOURCE_ENTRY_NOT_FOUND",
             "provenLemma": "будинок"
           }
         ],
@@ -3379,9 +3376,9 @@
         "targetOfficialValidation": false,
         "bilingualCollectorProven": true,
         "deSourceUrl": "https://www.dwds.de/wb/Haus",
-        "bilingualSourceUrl": "https://deuk.dict.cc/",
-        "bilingualResultUrl": "https://deuk.dict.cc/?s=Haus",
-        "targetSourceUrl": "https://lcorp.ulif.org.ua/dictua/#search=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA",
+        "bilingualSourceUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+        "bilingualResultUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=Haus",
+        "targetSourceUrl": null,
         "provenTargetLemma": "будинок"
       }
     }

@@ -252,7 +252,8 @@ function buildSearchUrlForCandidate(candidate, lemma) {
     return `${base}/?w=${encodeURIComponent(lemma)}`;
   }
   if (/udew\.uni-leipzig\.de/i.test(candidate.url)) {
-    return `https://udew.uni-leipzig.de/udew/en/deutsch_ukrainisch_online.htm?input=${encodeURIComponent(lemma)}`;
+    const { buildUewSearchUrl } = require("./udew-http-fetch");
+    return buildUewSearchUrl(lemma);
   }
   if (/dict\.luxdico\.com/i.test(candidate.url)) {
     const l1 = candidate.luxdicoL1 || "deu";
@@ -326,6 +327,30 @@ async function fetchDictionaryPageForCandidate(candidate, lemma) {
       const text = await page.evaluate(() => document.body?.innerText || "");
       return { blocked: false, finalUrl, text, searchUrl };
     });
+  }
+
+  if (candidate.platform === "udew" || /udew\.uni-leipzig\.de/i.test(candidate.url)) {
+    const { fetchUewHtml } = require("./udew-http-fetch");
+    try {
+      const uew = await fetchUewHtml(lemma);
+      const blocked = !uew.html || uew.html.length < 400;
+      return {
+        blocked,
+        finalUrl: uew.finalUrl,
+        text: uew.text,
+        html: uew.html,
+        searchUrl: uew.searchUrl,
+      };
+    } catch (e) {
+      return {
+        blocked: true,
+        finalUrl: buildSearchUrlForCandidate(candidate, lemma),
+        text: "",
+        html: "",
+        searchUrl: buildSearchUrlForCandidate(candidate, lemma),
+        error: String(e.message || e),
+      };
+    }
   }
 
   const searchUrl = buildSearchUrlForCandidate(candidate, lemma);
@@ -458,7 +483,13 @@ function extractTranslations(page, lemma, searchUrl, appCode, cardGerman = null)
   } else if (/verbformen\.(de|com)/i.test(searchUrl)) {
     translations = extractVerbformen(page.text, lemma);
   } else if (/udew\.uni-leipzig\.de/i.test(searchUrl)) {
-    translations = extractUdek(page.text, lemma);
+    const { extractUewUkrainianFromHtml } = require("./udew-http-fetch");
+    if (page.html) {
+      translations = extractUewUkrainianFromHtml(page.html, lemma);
+    }
+    if (!translations.length) {
+      translations = extractUdek(page.text, lemma);
+    }
   } else if (/dicts\.info/i.test(searchUrl)) {
     translations = extractDictsInfo(page.text, lemma);
   } else if (/dict\.luxdico\.com/i.test(searchUrl)) {

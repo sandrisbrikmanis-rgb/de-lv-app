@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "g2-a1-card-translation-bilingual-audit-uk-v1",
+  "description": "Kartīšu tulkojuma audits — Ukraina (uk): UDEW primāri, dict.cc rezerve; Lingea dict.com tikai ja pieejams bez botu sienas.",
+  "auditSequence": [
+    {
+      "step": 1,
+      "rule": "Meklē tiešo pāri DE→TARGET UDEW (Leipzig) bidirectionālajā tiešsaistes vārdnīcā."
+    },
+    {
+      "step": 2,
+      "rule": "Ja nav, meklē TARGET→DE tajā pašā UDEW (ukrainisch_deutsch_online.htm?input=…)."
+    },
+    {
+      "step": 3,
+      "rule": "Ja UDEW nepieejams, izmanto dict.cc DE→UK / UK→DE (MASTER rezerve)."
+    },
+    {
+      "step": 4,
+      "rule": "Pārbaudi vārdšķiru un konkrētās kartītes vācu nozīmi; citai nozīmei piederošu ekvivalentu nepieņem."
+    },
+    {
+      "step": 5,
+      "rule": "Automātiskos tulkojumus un botu sienas lapas neizmanto kā pierādījumu."
+    },
+    {
+      "step": 6,
+      "rule": "Saglabā avota nosaukumu, virzienu, variantus un precīzo meklējuma URL."
+    }
+  ],
+  "regressionPilotDeLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+  "languages": {
+    "uk": {
+      "primaryModern": [
+        {
+          "id": "udew-uk-de-bidir",
+          "name": "UDEW Ukrainisch–Deutsch–Ukrainisch Online-Wörterbuch",
+          "direction": "de→uk",
+          "portalUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+          "searchUrlTemplate": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input={lemma}"
+        },
+        {
+          "id": "udew-uk-de-bidir-reverse",
+          "name": "UDEW Ukrainisch–Deutsch–Ukrainisch Online-Wörterbuch",
+          "direction": "uk→de",
+          "portalUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+          "searchUrlTemplate": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input={lemma}"
+        }
+      ],
+      "fallbackDigital": [
+        {
+          "id": "dict-cc-de-uk",
+          "name": "dict.cc Deutsch–Ukrainisch",
+          "direction": "de→uk",
+          "portalUrl": "https://deuk.dict.cc/"
+        },
+        {
+          "id": "dict-cc-uk-de",
+          "name": "dict.cc Ukrainisch–Deutsch",
+          "direction": "uk→de",
+          "portalUrl": "https://ukde.dict.cc/"
+        }
+      ],
+      "rejectedNotUsable": [
+        {
+          "id": "lingea-dict-com-de-uk",
+          "name": "dict.com / Lingea німецько-український",
+          "reason": "Cloudflare bot verification — vārdnīcas šķirkļa saturs nav verificējams šajā vidē.",
+          "portalUrl": "https://dict.com/німецько-український"
+        }
+      ],
+      "collectorOverrideId": "udew-uk-de-bidir"
+    }
+  }
+}

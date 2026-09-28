@@ -138,6 +138,43 @@
         "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
         "type": "COMMUNITY_BILINGUAL_GLOSBE"
       }
+    },
+    "uk": {
+      "publicPrimary": {
+        "id": "udew-uk-de-bidir",
+        "name": "UDEW Ukrainisch–Deutsch–Ukrainisch Online-Wörterbuch",
+        "publisher": "Universität Leipzig (UDEW)",
+        "url": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+        "languagePair": "de→uk",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": 60000,
+        "entryCountStatus": "PUBLICLY_CONFIRMED_PUBLISHER_ESTIMATE",
+        "type": "INSTITUTIONAL_BILINGUAL_LEXICON",
+        "platform": "udew"
+      },
+      "reversePrimary": {
+        "id": "udew-uk-de-bidir-reverse",
+        "name": "UDEW Ukrainisch–Deutsch–Ukrainisch Online-Wörterbuch",
+        "publisher": "Universität Leipzig (UDEW)",
+        "url": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+        "languagePair": "uk→de",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": 60000,
+        "entryCountStatus": "PUBLICLY_CONFIRMED_PUBLISHER_ESTIMATE",
+        "type": "INSTITUTIONAL_BILINGUAL_LEXICON",
+        "platform": "udew"
+      },
+      "fallbackCandidate": {
+        "id": "dict-cc-de-uk-fallback",
+        "name": "dict.cc Deutsch–Ukrainisch",
+        "publisher": "dict.cc (community-maintained)",
+        "url": "https://deuk.dict.cc/",
+        "languagePair": "de→uk",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": 66145,
+        "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+        "type": "COMMUNITY_BILINGUAL_DICT_CC"
+      }
     }
   }
 }
