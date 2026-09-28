@@ -132,6 +132,17 @@ function buildSearchUrlForCandidate(candidate, lemma) {
   if (/vokieciu-lietuviu\.com/i.test(candidate.url)) {
     return `http://www.vokieciu-lietuviu.com/?word=${encodeURIComponent(lemma)}`;
   }
+  if (/ekalba\.lt\/vokieciu-lietuviu/i.test(candidate.url)) {
+    return `https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/${encodeURIComponent(lemma)}`;
+  }
+  if (/ekalba\.lt\/lietuviu-vokieciu/i.test(candidate.url)) {
+    return `https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/${encodeURIComponent(lemma)}`;
+  }
+  if (/letonika\.lv/i.test(candidate.url)) {
+    const rMatch = candidate.url.match(/[?&]r=(\d+)/);
+    const r = rMatch ? rMatch[1] : "10311062";
+    return `https://www.letonika.lv/groups/default.aspx?g=2&r=${r}&q=${encodeURIComponent(lemma)}`;
+  }
   if (/pons\.com\/translate\//i.test(candidate.url)) {
     const base = candidate.url.replace(/\/$/, "");
     return `${base}/${encodeURIComponent(lemma)}`;
@@ -302,6 +313,13 @@ function extractTranslations(page, lemma, searchUrl, appCode, cardGerman = null)
     translations = extractLodDeReverseApi(page, lemma);
   } else if (/vokieciu-lietuviu\.com/i.test(searchUrl)) {
     translations = extractVokieciuLietuviu(page.text, lemma);
+  } else if (/ekalba\.lt/i.test(searchUrl)) {
+    translations = extractVokieciuLietuviu(page.text, lemma);
+    if (!translations.length) translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
+  } else if (/letonika\.lv/i.test(searchUrl)) {
+    translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
+  } else if (/pons\.com/i.test(searchUrl)) {
+    translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
   } else if (/dict\.cc/i.test(searchUrl)) {
     translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
   } else if (/glosbe\.com/i.test(searchUrl)) {

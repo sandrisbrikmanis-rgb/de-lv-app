@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-lv-lt-pl-modern-sources-v1",
-  "generatedAt": "2026-09-27",
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-lv-lt-pl-modern-sources-v2",
+  "generatedAt": "2026-09-28",
   "verificationNote": "Each candidate opened in this run (HTTP fetch and/or Playwright browser). Catalog-only or stub PDFs marked NOT_USABLE.",
   "languages": {
     "lv": {
@@ -146,41 +146,65 @@
     "lt": {
       "primaryModern": [
         {
-          "id": "vokieciu-lietuviu-com",
-          "name": "vokieciu-lietuviu.com (DE→LT)",
+          "id": "ekalba-de-lt",
+          "name": "eKalba Vokiečių–lietuvių kalbų žodynas",
           "direction": "de→lt",
-          "yearBase": "community/professional HTML lexicon (~16k public estimate in repo manifests)",
-          "accessType": "PROFESSIONAL_DIGITAL_LEXICON_HTML",
-          "portalUrl": "http://www.vokieciu-lietuviu.com/",
-          "searchUrlTemplate": "http://www.vokieciu-lietuviu.com/?word={lemma}",
+          "yearBase": "LKI / eKalba.lt (15262 šķirkļi publiskā skaitā)",
+          "accessType": "INSTITUTIONAL_BILINGUAL_LEXICON",
+          "portalUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/",
+          "searchUrlTemplate": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/{lemma}",
           "status": "VERIFIED_USABLE_PRIMARY"
         },
         {
-          "id": "lietuviu-vokieciu-com",
-          "name": "lietuviu-vokieciu.com (LT→DE)",
+          "id": "ekalba-lt-de",
+          "name": "eKalba Lietuvių–vokiečių kalbų žodynas",
           "direction": "lt→de",
-          "accessType": "PROFESSIONAL_DIGITAL_LEXICON_HTML",
-          "portalUrl": "http://www.lietuviu-vokieciu.com/",
-          "searchUrlTemplate": "http://www.lietuviu-vokieciu.com/?word={lemma}",
-          "status": "VERIFIED_USABLE_PARTIAL",
-          "note": "Smaller / uneven coverage vs DE→LT; pilot compounds often missing."
+          "accessType": "INSTITUTIONAL_BILINGUAL_LEXICON",
+          "portalUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/",
+          "searchUrlTemplate": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/{lemma}",
+          "status": "VERIFIED_USABLE_PRIMARY"
         }
       ],
       "supplementaryHistorical": [
         {
-          "id": "lki-senn-salys-vol3-ia",
-          "name": "LKI Lietuvių rašomosios kalbos žodynas vol. 3 (1957) — IA OCR",
+          "id": "lki-zodynas-ia-vol1",
+          "name": "Lietuvių rašomosios kalbos žodynas, 1. sējums (A–K, 1932)",
           "direction": "lt→de",
-          "status": "VERIFIED_PARTIAL_VOLUME",
+          "status": "VERIFIED_SUPPLEMENT_BOOKREADER",
+          "alphabetRange": "A–K",
+          "portalUrl": "https://archive.org/details/zodynas-t.-1-1932"
+        },
+        {
+          "id": "lki-zodynas-ia-vol2",
+          "name": "Lietuvių rašomosios kalbos žodynas, 2. sējums (L–Pa, 1951)",
+          "direction": "lt→de",
+          "status": "VERIFIED_SUPPLEMENT_BOOKREADER",
+          "alphabetRange": "L–Pa",
+          "portalUrl": "https://archive.org/details/zodynas-t.-2-1951"
+        },
+        {
+          "id": "lki-zodynas-ia-vol3",
+          "name": "Lietuvių rašomosios kalbos žodynas, 3. sējums (Pe–Sk, 1957)",
+          "direction": "lt→de",
+          "status": "VERIFIED_SUPPLEMENT_BOOKREADER",
+          "alphabetRange": "Pe–Sk",
           "portalUrl": "https://archive.org/details/zodynas-t.-3-1957"
         },
         {
-          "id": "epaveldas-kurschat-1883",
-          "name": "Kurschat Littauisch-deutsches Wörterbuch (1883) — epaveldas.lt",
+          "id": "lki-zodynas-ia-vol4",
+          "name": "Lietuvių rašomosios kalbos žodynas, 4. sējums (Sl–Tev, 1963)",
           "direction": "lt→de",
-          "status": "HISTORICAL_SCAN_VIEWER",
-          "portalUrl": "https://www.epaveldas.lt/preview?id=C1R0000119065",
-          "note": "Not opened for pilot lemmas this run; historical LT→DE only."
+          "status": "HISTORICAL_SUPPLEMENT",
+          "alphabetRange": "Sl–Tev",
+          "portalUrl": "https://archive.org/details/zodynas-t.-4-1963"
+        },
+        {
+          "id": "lki-zodynas-ia-vol5",
+          "name": "Lietuvių rašomosios kalbos žodynas, 5. sējums (Tėv–Ž, 1968)",
+          "direction": "lt→de",
+          "status": "VERIFIED_SUPPLEMENT_BOOKREADER",
+          "alphabetRange": "Tėv–Ž",
+          "portalUrl": "https://archive.org/details/zodynas-t.-5-1968"
         }
       ],
       "rejectedNotUsable": [
@@ -196,76 +220,74 @@
           {
             "lemma": "Haus",
             "found": true,
-            "targetGloss": "namas, trobesys; namai",
-            "entryUrl": "http://www.vokieciu-lietuviu.com/?word=Haus",
-            "evidenceSnippet": "n -es, ¨er 1 namas, trobesys; namai"
+            "targetGloss": "namas (card dwelling sense; pastatas excluded)",
+            "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Haus?i=32b14ac4-c7e6-4aca-b722-bde8f8168bad"
           },
           {
             "lemma": "arbeiten",
             "found": true,
-            "targetGloss": "dirbti; triūsti; veikti",
-            "entryUrl": "http://www.vokieciu-lietuviu.com/?word=arbeiten",
-            "evidenceSnippet": "I vi dirbti; triūsti; veikti"
+            "targetGloss": "dirbti",
+            "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/arbeiten?i=2aeb2719-576a-4819-83ec-4fa822c20c2d"
           },
           {
             "lemma": "Kleingeld",
             "found": true,
             "targetGloss": "smulkūs pinigai",
-            "entryUrl": "http://www.vokieciu-lietuviu.com/?word=Kleingeld"
+            "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Kleingeld?paieska=Kleingeld&i=f8697769-4fb6-471a-96ca-b0b2e63d899d"
           },
           {
             "lemma": "bewirten",
             "found": true,
-            "targetGloss": "vaišinti",
-            "entryUrl": "http://www.vokieciu-lietuviu.com/?word=bewirten"
+            "targetGloss": "vaišinti svečią",
+            "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/bewirten?paieska=bewirten&i=1501ec18-60c5-43d9-9faf-e23d0840edd0"
           },
           {
             "lemma": "Grenzkonflikt",
             "found": false,
-            "entryUrl": "http://www.vokieciu-lietuviu.com/?word=Grenzkonflikt",
-            "note": "Nėra vertimo"
+            "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/?paieska=Grenzkonflikt",
+            "note": "0 results eKalba DE→LT"
           },
           {
             "lemma": "Machtgier",
             "found": false,
-            "entryUrl": "http://www.vokieciu-lietuviu.com/?word=Machtgier",
-            "note": "Nėra vertimo"
+            "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/?paieska=Machtgier",
+            "note": "0 results eKalba DE→LT"
           }
         ],
         "lt→de": [
           {
             "lemma": "namas",
             "found": true,
-            "targetGloss": "Haus n -es, er",
-            "entryUrl": "http://www.lietuviu-vokieciu.com/?word=namas"
+            "targetGloss": "Haus; Wohnhaus",
+            "entryUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/namas?i=0cdbd720-ccec-48f1-a8a1-e3cd960c1301"
           },
           {
             "lemma": "dirbti",
-            "found": "PARTIAL",
-            "targetGloss": "dirbtinis (not arbeiten — wrong homograph path)",
-            "entryUrl": "http://www.lietuviu-vokieciu.com/?word=dirbti",
-            "note": "Use dirbti sense verified via DE→LT arbeiten → dirbti on vokieciu-lietuviu.com"
+            "found": true,
+            "targetGloss": "arbeiten",
+            "entryUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/dirbti?i=3ed0c8c1-5f67-4dde-9f74-4f1eca06eaf6"
           },
           {
             "lemma": "smulkūs pinigai",
-            "found": false,
-            "entryUrl": "http://www.lietuviu-vokieciu.com/?word=smulk%C5%ABs%20pinigai"
+            "found": true,
+            "targetGloss": "Kleingeld (via smulkus entry)",
+            "entryUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/smulkus?i=0e556c07-f528-4bc7-aef1-6c786ac7814e"
           },
           {
             "lemma": "vaišinti",
             "found": true,
-            "targetGloss": "bewirten vt",
-            "entryUrl": "http://www.lietuviu-vokieciu.com/?word=vai%C5%A1inti"
+            "targetGloss": "bewirten",
+            "entryUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/vai%C5%A1inti?paieska=vai%C5%A1inti&i=99055672-eaf3-4960-a8c1-f2950de4631d"
           },
           {
             "lemma": "pasienio konfliktas",
             "found": false,
-            "entryUrl": "http://www.lietuviu-vokieciu.com/?word=pasienio%20konfliktas"
+            "entryUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/?paieska=pasienio%20konfliktas"
           },
           {
             "lemma": "valdžios geidulys",
             "found": false,
-            "entryUrl": "http://www.lietuviu-vokieciu.com/?word=vald%C5%BEios%20geidulys"
+            "entryUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/?paieska=vald%C5%BEios%20geidulys"
           }
         ]
       }

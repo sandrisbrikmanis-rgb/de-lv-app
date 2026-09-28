@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "g2-a1-card-translation-bilingual-audit-lv-lt-pl-v1",
+  "description": "Kartīšu tulkojuma audits — primārie divvalodu avoti lv/lt/pl, papildavoti un meklēšanas secība (DE→TARGET, tad TARGET→DE, papildavoti tikai ja primārais neko nedod).",
+  "auditSequence": [
+    {
+      "step": 1,
+      "rule": "Meklē tiešo pāri DE→TARGET primārajā digitālajā vārdnīcā."
+    },
+    {
+      "step": 2,
+      "rule": "Ja nav, meklē TARGET→DE primārajā pretējā virziena vārdnīcā."
+    },
+    {
+      "step": 3,
+      "rule": "Vēsturiskos / skenuotos papildavotus izmanto tikai tad, ja abi primārie virzieni nedod derīgu pāri."
+    },
+    {
+      "step": 4,
+      "rule": "Pārbaudi vārdšķiru un konkrētās kartītes vācu nozīmi; citai nozīmei piederošu ekvivalentu nepieņem."
+    },
+    {
+      "step": 5,
+      "rule": "Automātiskos tulkotājus (Glosbe Translate u.c.) neizmanto kā pierādījumu."
+    },
+    {
+      "step": 6,
+      "rule": "Saglabā avota nosaukumu, virzienu, atrasto pāri un precīzo šķirkļa vai lapas URL."
+    }
+  ],
+  "regressionPilotDeLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+  "languages": {
+    "lv": {
+      "primaryModern": [
+        {
+          "id": "letonika-de-lv",
+          "name": "Letonika vācu–latviešu vārdnīca",
+          "direction": "de→lv",
+          "portalUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062",
+          "searchUrlTemplate": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062&q={lemma}"
+        },
+        {
+          "id": "letonika-lv-de",
+          "name": "Letonika latviešu–vācu vārdnīca",
+          "direction": "lv→de",
+          "portalUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031",
+          "searchUrlTemplate": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031&q={lemma}"
+        }
+      ],
+      "supplementaryHistorical": [
+        {
+          "id": "stender-1789-ia",
+          "name": "Stender Lettisches Lexicon (1789) — Internet Archive",
+          "direction": "both",
+          "role": "supplement_only",
+          "portalUrl": "https://archive.org/details/stenderlettische00sten"
+        },
+        {
+          "id": "forssman-historical",
+          "name": "Forssman u.c. vēsturiskie DE↔LV avoti (skat. pdf-bilingual-dictionary-lv-lt-pl-pilot)",
+          "direction": "both",
+          "role": "supplement_only"
+        }
+      ],
+      "collectorOverrideId": "letonika-de-lv-2001-plus"
+    },
+    "lt": {
+      "primaryModern": [
+        {
+          "id": "ekalba-de-lt",
+          "name": "eKalba Vokiečių–lietuvių kalbų žodynas",
+          "direction": "de→lt",
+          "portalUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/",
+          "searchUrlTemplate": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/{lemma}"
+        },
+        {
+          "id": "ekalba-lt-de",
+          "name": "eKalba Lietuvių–vokiečių kalbų žodynas",
+          "direction": "lt→de",
+          "portalUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/",
+          "searchUrlTemplate": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/{lemma}"
+        }
+      ],
+      "supplementaryHistorical": [
+        {
+          "id": "lki-zodynas-ia-vol1",
+          "name": "Lietuvių rašomosios kalbos žodynas, 1. sējums (A–K, 1932)",
+          "direction": "lt→de",
+          "role": "supplement_only",
+          "alphabetRange": "A–K",
+          "portalUrl": "https://archive.org/details/zodynas-t.-1-1932"
+        },
+        {
+          "id": "lki-zodynas-ia-vol2",
+          "name": "Lietuvių rašomosios kalbos žodynas, 2. sējums (L–Pa, 1951)",
+          "direction": "lt→de",
+          "role": "supplement_only",
+          "alphabetRange": "L–Pa",
+          "portalUrl": "https://archive.org/details/zodynas-t.-2-1951"
+        },
+        {
+          "id": "lki-zodynas-ia-vol3",
+          "name": "Lietuvių rašomosios kalbos žodynas, 3. sējums (Pe–Sk, 1957)",
+          "direction": "lt→de",
+          "role": "supplement_only",
+          "alphabetRange": "Pe–Sk",
+          "portalUrl": "https://archive.org/details/zodynas-t.-3-1957"
+        },
+        {
+          "id": "lki-zodynas-ia-vol4",
+          "name": "Lietuvių rašomosios kalbos žodynas, 4. sējums (Sl–Tev, 1963)",
+          "direction": "lt→de",
+          "role": "supplement_only",
+          "alphabetRange": "Sl–Tev",
+          "portalUrl": "https://archive.org/details/zodynas-t.-4-1963"
+        },
+        {
+          "id": "lki-zodynas-ia-vol5",
+          "name": "Lietuvių rašomosios kalbos žodynas, 5. sējums (Tėv–Ž, 1968)",
+          "direction": "lt→de",
+          "role": "supplement_only",
+          "alphabetRange": "Tėv–Ž",
+          "portalUrl": "https://archive.org/details/zodynas-t.-5-1968"
+        }
+      ],
+      "collectorOverrideId": "ekalba-de-lt"
+    },
+    "pl": {
+      "primaryModern": [
+        {
+          "id": "pons-de-pl",
+          "name": "PONS vācu–poļu vārdnīca",
+          "direction": "de→pl",
+          "portalUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/",
+          "searchUrlTemplate": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/{lemma}"
+        },
+        {
+          "id": "pons-pl-de",
+          "name": "PONS poļu–vācu vārdnīca",
+          "direction": "pl→de",
+          "portalUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/",
+          "searchUrlTemplate": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/{lemma}"
+        }
+      ],
+      "supplementaryHistorical": [
+        {
+          "id": "haessel-jbc-ia",
+          "name": "Haessel / JBC sējumi — Internet Archive",
+          "direction": "both",
+          "role": "supplement_only"
+        },
+        {
+          "id": "wbc-trojanski-1844",
+          "name": "WBC Poznań — Trojański DE↔PL (1844–1847)",
+          "direction": "both",
+          "role": "supplement_only",
+          "portalUrl": "https://www.wbc.poznan.pl/dlibra/publication/150136"
+        }
+      ],
+      "collectorOverrideId": "pons-de-pl"
+    }
+  }
+}

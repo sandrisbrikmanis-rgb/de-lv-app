@@ -171,7 +171,18 @@ function buildSearchUrl(dictRow, lemma) {
     return `https://www.keelevara.ee/et/search?query=${encodeURIComponent(lemma)}`;
   }
   if (/letonika\.lv/i.test(base)) {
-    return `https://www.letonika.lv/groups/default.aspx?g=2&r=10601001&q=${encodeURIComponent(lemma)}`;
+    const rMatch = base.match(/[?&]r=(\d+)/);
+    const r = rMatch ? rMatch[1] : "10311062";
+    return `https://www.letonika.lv/groups/default.aspx?g=2&r=${r}&q=${encodeURIComponent(lemma)}`;
+  }
+  if (/ekalba\.lt\/vokieciu-lietuviu/i.test(base)) {
+    return `https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/${encodeURIComponent(lemma)}`;
+  }
+  if (/ekalba\.lt\/lietuviu-vokieciu/i.test(base)) {
+    return `https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/${encodeURIComponent(lemma)}`;
+  }
+  if (/pons\.com/i.test(base)) {
+    return `${base.replace(/\/$/, "")}/${encodeURIComponent(lemma)}`;
   }
   if (/zodynai\.org/i.test(base)) {
     return `https://www.zodynai.org/vok/${encodeURIComponent(lemma)}`;
@@ -179,10 +190,24 @@ function buildSearchUrl(dictRow, lemma) {
   return `${base}/?s=${encodeURIComponent(lemma)}`;
 }
 
+async function acceptPonsConsentIfNeeded(page, url) {
+  if (!/pons\.com/i.test(url)) return;
+  try {
+    const btn = page.locator('button:has-text("Accept"), button:has-text("Akzeptieren"), #onetrust-accept-btn-handler');
+    if (await btn.first().isVisible({ timeout: 3000 })) {
+      await btn.first().click({ timeout: 5000 });
+      await page.waitForTimeout(1500);
+    }
+  } catch {
+    /* optional consent banner */
+  }
+}
+
 async function fetchDictionaryPage(url) {
   const host = new URL(url).hostname;
   return withDomainBrowserSession(host, async (page) => {
     await page.goto(url, { waitUntil: "domcontentloaded", timeout: 90000 });
+    await acceptPonsConsentIfNeeded(page, url);
     await page.waitForTimeout(8000);
     const finalUrl = page.url();
     const text = await page.evaluate(() => document.body?.innerText || "");

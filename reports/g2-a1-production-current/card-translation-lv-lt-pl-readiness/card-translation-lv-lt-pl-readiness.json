@@ -1,0 +1,446 @@
+{
+  "schemaVersion": "g2-a1-card-translation-lv-lt-pl-readiness-v1",
+  "generatedAt": "2026-09-28T14:35:15.778Z",
+  "auditSequence": [
+    {
+      "step": 1,
+      "rule": "Meklē tiešo pāri DE→TARGET primārajā digitālajā vārdnīcā."
+    },
+    {
+      "step": 2,
+      "rule": "Ja nav, meklē TARGET→DE primārajā pretējā virziena vārdnīcā."
+    },
+    {
+      "step": 3,
+      "rule": "Vēsturiskos / skenuotos papildavotus izmanto tikai tad, ja abi primārie virzieni nedod derīgu pāri."
+    },
+    {
+      "step": 4,
+      "rule": "Pārbaudi vārdšķiru un konkrētās kartītes vācu nozīmi; citai nozīmei piederošu ekvivalentu nepieņem."
+    },
+    {
+      "step": 5,
+      "rule": "Automātiskos tulkotājus (Glosbe Translate u.c.) neizmanto kā pierādījumu."
+    },
+    {
+      "step": 6,
+      "rule": "Saglabā avota nosaukumu, virzienu, atrasto pāri un precīzo šķirkļa vai lapas URL."
+    }
+  ],
+  "automaticTranslationEvidenceForbidden": true,
+  "productionOrOwnerDecisionsModified": false,
+  "languages": [
+    {
+      "appLang": "lv",
+      "bilingualAuditSourcesRegistered": true,
+      "primaryModern": [
+        {
+          "id": "letonika-de-lv",
+          "name": "Letonika vācu–latviešu vārdnīca",
+          "direction": "de→lv",
+          "portalUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062",
+          "searchUrlTemplate": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062&q={lemma}"
+        },
+        {
+          "id": "letonika-lv-de",
+          "name": "Letonika latviešu–vācu vārdnīca",
+          "direction": "lv→de",
+          "portalUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031",
+          "searchUrlTemplate": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031&q={lemma}"
+        }
+      ],
+      "supplementaryHistorical": [
+        {
+          "id": "stender-1789-ia",
+          "name": "Stender Lettisches Lexicon (1789) — Internet Archive",
+          "direction": "both",
+          "role": "supplement_only",
+          "portalUrl": "https://archive.org/details/stenderlettische00sten"
+        },
+        {
+          "id": "forssman-historical",
+          "name": "Forssman u.c. vēsturiskie DE↔LV avoti (skat. pdf-bilingual-dictionary-lv-lt-pl-pilot)",
+          "direction": "both",
+          "role": "supplement_only"
+        }
+      ],
+      "collectorOverrideId": "letonika-de-lv-2001-plus",
+      "regressionPilotDe": [
+        {
+          "deLemma": "Haus",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→lv",
+          "sourceName": "Letonika vācu–latviešu vārdnīca",
+          "pairFound": true,
+          "targetGloss": "māja, nams (u.c.)",
+          "entryUrl": "https://www.letonika.lv/groups/default.aspx?r=10311062&q=Haus&cid=190080",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→lv",
+          "sourceName": "Letonika vācu–latviešu vārdnīca",
+          "pairFound": true,
+          "targetGloss": "strādāt; darboties",
+          "entryUrl": "https://www.letonika.lv/groups/default.aspx?r=10311062&q=arbeiten&cid=198925",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→lv",
+          "sourceName": "Letonika vācu–latviešu vārdnīca",
+          "pairFound": true,
+          "targetGloss": "sīknauda",
+          "entryUrl": "https://www.letonika.lv/groups/default.aspx?r=10311062&q=Kleingeld&cid=175950",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→lv",
+          "sourceName": "Letonika vācu–latviešu vārdnīca",
+          "pairFound": true,
+          "targetGloss": "cienāt, mielot; pacienāt, pamielot",
+          "entryUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062&q=bewirten",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "auditStepUsed": 2,
+          "primaryDirection": "de→lv",
+          "sourceName": "Letonika vācu–latviešu vārdnīca",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062&q=Grenzkonflikt",
+          "note": "Nekas netika atrasts",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier",
+          "auditStepUsed": 2,
+          "primaryDirection": "de→lv",
+          "sourceName": "Letonika vācu–latviešu vārdnīca",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062&q=Machtgier",
+          "note": "Nekas netika atrasts",
+          "supplementUsed": false
+        }
+      ],
+      "regressionGate": {
+        "pass": true,
+        "missingLemmas": [],
+        "corePrimaryFound": true,
+        "coreFailures": [],
+        "compoundDocumented": true,
+        "compoundNotFoundOnPrimary": [
+          "Grenzkonflikt",
+          "Machtgier"
+        ]
+      },
+      "cardTranslation32LangSnapshot": {
+        "cardTranslationReady": false,
+        "collectorId": "manifest-lv",
+        "bilingualSourceUrl": "https://www.letonika.lv/dictionary",
+        "blockers": [
+          "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
+          "NSR_DOES_NOT_SATISFY_READINESS"
+        ]
+      },
+      "readinessClassification": "LV_LT_PL_BILINGUAL_AUDIT_SOURCES_AND_REGRESSION_DOCUMENTED"
+    },
+    {
+      "appLang": "lt",
+      "bilingualAuditSourcesRegistered": true,
+      "primaryModern": [
+        {
+          "id": "ekalba-de-lt",
+          "name": "eKalba Vokiečių–lietuvių kalbų žodynas",
+          "direction": "de→lt",
+          "portalUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/",
+          "searchUrlTemplate": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/{lemma}"
+        },
+        {
+          "id": "ekalba-lt-de",
+          "name": "eKalba Lietuvių–vokiečių kalbų žodynas",
+          "direction": "lt→de",
+          "portalUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/",
+          "searchUrlTemplate": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/{lemma}"
+        }
+      ],
+      "supplementaryHistorical": [
+        {
+          "id": "lki-zodynas-ia-vol1",
+          "name": "Lietuvių rašomosios kalbos žodynas, 1. sējums (A–K, 1932)",
+          "direction": "lt→de",
+          "role": "supplement_only",
+          "alphabetRange": "A–K",
+          "portalUrl": "https://archive.org/details/zodynas-t.-1-1932"
+        },
+        {
+          "id": "lki-zodynas-ia-vol2",
+          "name": "Lietuvių rašomosios kalbos žodynas, 2. sējums (L–Pa, 1951)",
+          "direction": "lt→de",
+          "role": "supplement_only",
+          "alphabetRange": "L–Pa",
+          "portalUrl": "https://archive.org/details/zodynas-t.-2-1951"
+        },
+        {
+          "id": "lki-zodynas-ia-vol3",
+          "name": "Lietuvių rašomosios kalbos žodynas, 3. sējums (Pe–Sk, 1957)",
+          "direction": "lt→de",
+          "role": "supplement_only",
+          "alphabetRange": "Pe–Sk",
+          "portalUrl": "https://archive.org/details/zodynas-t.-3-1957"
+        },
+        {
+          "id": "lki-zodynas-ia-vol4",
+          "name": "Lietuvių rašomosios kalbos žodynas, 4. sējums (Sl–Tev, 1963)",
+          "direction": "lt→de",
+          "role": "supplement_only",
+          "alphabetRange": "Sl–Tev",
+          "portalUrl": "https://archive.org/details/zodynas-t.-4-1963"
+        },
+        {
+          "id": "lki-zodynas-ia-vol5",
+          "name": "Lietuvių rašomosios kalbos žodynas, 5. sējums (Tėv–Ž, 1968)",
+          "direction": "lt→de",
+          "role": "supplement_only",
+          "alphabetRange": "Tėv–Ž",
+          "portalUrl": "https://archive.org/details/zodynas-t.-5-1968"
+        }
+      ],
+      "collectorOverrideId": "ekalba-de-lt",
+      "regressionPilotDe": [
+        {
+          "deLemma": "Haus",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→lt",
+          "sourceName": "eKalba Vokiečių–lietuvių kalbų žodynas",
+          "pairFound": true,
+          "targetGloss": "namas",
+          "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Haus?i=32b14ac4-c7e6-4aca-b722-bde8f8168bad",
+          "note": "card sense LT: namas; excluded: pastatas",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→lt",
+          "sourceName": "eKalba Vokiečių–lietuvių kalbų žodynas",
+          "pairFound": true,
+          "targetGloss": "dirbti",
+          "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/arbeiten?i=2aeb2719-576a-4819-83ec-4fa822c20c2d",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→lt",
+          "sourceName": "eKalba Vokiečių–lietuvių kalbų žodynas",
+          "pairFound": true,
+          "targetGloss": "smulkūs pinigai",
+          "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Kleingeld?paieska=Kleingeld&i=f8697769-4fb6-471a-96ca-b0b2e63d899d",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→lt",
+          "sourceName": "eKalba Vokiečių–lietuvių kalbų žodynas",
+          "pairFound": true,
+          "targetGloss": "vaišinti svečią",
+          "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/bewirten?paieska=bewirten&i=1501ec18-60c5-43d9-9faf-e23d0840edd0",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→lt",
+          "sourceName": "eKalba Vokiečių–lietuvių kalbų žodynas",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/?paieska=Grenzkonflikt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→lt",
+          "sourceName": "eKalba Vokiečių–lietuvių kalbų žodynas",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/?paieska=Machtgier",
+          "note": null,
+          "supplementUsed": false
+        }
+      ],
+      "regressionGate": {
+        "pass": true,
+        "missingLemmas": [],
+        "corePrimaryFound": true,
+        "coreFailures": [],
+        "compoundDocumented": true,
+        "compoundNotFoundOnPrimary": [
+          "Grenzkonflikt",
+          "Machtgier"
+        ]
+      },
+      "cardTranslation32LangSnapshot": {
+        "cardTranslationReady": false,
+        "collectorId": "vokieciu-lietuviu-public",
+        "bilingualSourceUrl": "http://www.vokieciu-lietuviu.com/",
+        "blockers": [
+          "BILINGUAL_COLLECTOR_NOT_PROVEN",
+          "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
+          "PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL"
+        ]
+      },
+      "readinessClassification": "LV_LT_PL_BILINGUAL_AUDIT_SOURCES_AND_REGRESSION_DOCUMENTED"
+    },
+    {
+      "appLang": "pl",
+      "bilingualAuditSourcesRegistered": true,
+      "primaryModern": [
+        {
+          "id": "pons-de-pl",
+          "name": "PONS vācu–poļu vārdnīca",
+          "direction": "de→pl",
+          "portalUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/",
+          "searchUrlTemplate": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/{lemma}"
+        },
+        {
+          "id": "pons-pl-de",
+          "name": "PONS poļu–vācu vārdnīca",
+          "direction": "pl→de",
+          "portalUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/",
+          "searchUrlTemplate": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/{lemma}"
+        }
+      ],
+      "supplementaryHistorical": [
+        {
+          "id": "haessel-jbc-ia",
+          "name": "Haessel / JBC sējumi — Internet Archive",
+          "direction": "both",
+          "role": "supplement_only"
+        },
+        {
+          "id": "wbc-trojanski-1844",
+          "name": "WBC Poznań — Trojański DE↔PL (1844–1847)",
+          "direction": "both",
+          "role": "supplement_only",
+          "portalUrl": "https://www.wbc.poznan.pl/dlibra/publication/150136"
+        }
+      ],
+      "collectorOverrideId": "pons-de-pl",
+      "regressionPilotDe": [
+        {
+          "deLemma": "Haus",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→pl",
+          "sourceName": "PONS vācu–poļu vārdnīca",
+          "pairFound": true,
+          "targetGloss": "dom m",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/Haus",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→pl",
+          "sourceName": "PONS vācu–poļu vārdnīca",
+          "pairFound": true,
+          "targetGloss": "pracować",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/arbeiten",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→pl",
+          "sourceName": "PONS vācu–poļu vārdnīca",
+          "pairFound": true,
+          "targetGloss": "drobne Pl",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/Kleingeld",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→pl",
+          "sourceName": "PONS vācu–poļu vārdnīca",
+          "pairFound": true,
+          "targetGloss": "ugaszczać / ugościć; podejmować poczęstunkiem",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/bewirten",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→pl",
+          "sourceName": "PONS vācu–poļu vārdnīca",
+          "pairFound": true,
+          "targetGloss": "konflikt m graniczny",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/Grenzkonflikt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→pl",
+          "sourceName": "PONS vācu–poļu vārdnīca",
+          "pairFound": true,
+          "targetGloss": "no dedicated headword; nearby Machthunger / Machthaber",
+          "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch?q=Machtgier",
+          "note": "Query redirects to search; not a clean single-entry match.",
+          "supplementUsed": false
+        }
+      ],
+      "regressionGate": {
+        "pass": true,
+        "missingLemmas": [],
+        "corePrimaryFound": true,
+        "coreFailures": [],
+        "compoundDocumented": true,
+        "compoundNotFoundOnPrimary": []
+      },
+      "cardTranslation32LangSnapshot": {
+        "cardTranslationReady": false,
+        "collectorId": "manifest-pl",
+        "bilingualSourceUrl": "https://depl.dict.cc/",
+        "blockers": [
+          "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
+          "PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL"
+        ]
+      },
+      "readinessClassification": "LV_LT_PL_BILINGUAL_AUDIT_SOURCES_AND_REGRESSION_DOCUMENTED"
+    }
+  ],
+  "summary": {
+    "languageCount": 3,
+    "sourcesRegisteredCount": 3,
+    "regressionDocumentedPass": true,
+    "note": "Šī atskaite reģistrē divvalodu avotus un pārbaudes secību; 32 valodu cardTranslationReady joprojām no atsevišķā verify artefakta."
+  },
+  "inputs": {
+    "auditCatalog": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-lv-lt-pl.json",
+    "modernSources": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-modern-sources.json",
+    "ltPilotVerification": "reports/g2-a1-production-current/lt-de-pilot-ekalba-lki-zodynas/lt-de-pilot-ekalba-lki-zodynas-verification.json",
+    "cardTranslation32LangVerification": "card-translation-32lang-full-verification.json"
+  }
+}
