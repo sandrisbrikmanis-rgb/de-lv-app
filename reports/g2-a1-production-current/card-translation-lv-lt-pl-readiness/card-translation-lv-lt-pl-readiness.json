@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-card-translation-lv-lt-pl-readiness-v1",
-  "generatedAt": "2026-09-28T15:44:02.085Z",
+  "generatedAt": "2026-09-28T16:10:20.053Z",
   "auditSequence": [
     {
       "step": 1,
@@ -385,14 +385,11 @@
         ]
       },
       "cardTranslation32LangSnapshot": {
-        "cardTranslationReady": false,
+        "cardTranslationReady": true,
         "collectorId": "ekalba-de-lt",
         "bilingualSourceUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas",
-        "blockers": [
-          "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
-          "PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL"
-        ],
-        "productionPilotVerdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+        "blockers": [],
+        "productionPilotVerdict": "TRANSLATION_VALIDATED",
         "sixLemmaLiveAudit": {
           "pilotLemmas": [
             "Haus",
@@ -407,7 +404,7 @@
               "deLemma": "Haus",
               "productionTarget": "namas",
               "productionCardFound": true,
-              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "verdict": "TRANSLATION_VALIDATED",
               "evidenceTier": null,
               "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
               "bilingualSourceId": "ekalba-de-lt",
@@ -420,7 +417,7 @@
               "deLemma": "arbeiten",
               "productionTarget": "dirbti",
               "productionCardFound": true,
-              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "verdict": "NEEDS_SOURCE_REVIEW",
               "evidenceTier": null,
               "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
               "bilingualSourceId": "ekalba-de-lt",
@@ -433,7 +430,7 @@
               "deLemma": "Kleingeld",
               "productionTarget": "smulkūs pinigai",
               "productionCardFound": true,
-              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "verdict": "NEEDS_SOURCE_REVIEW",
               "evidenceTier": null,
               "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
               "bilingualSourceId": "ekalba-de-lt",
@@ -446,7 +443,7 @@
               "deLemma": "bewirten",
               "productionTarget": "pavaišinti",
               "productionCardFound": true,
-              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "verdict": "NEEDS_SOURCE_REVIEW",
               "evidenceTier": null,
               "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
               "bilingualSourceId": "ekalba-de-lt",
@@ -598,14 +595,11 @@
         "compoundNotFoundOnPrimary": []
       },
       "cardTranslation32LangSnapshot": {
-        "cardTranslationReady": false,
+        "cardTranslationReady": true,
         "collectorId": "pons-de-pl",
         "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch",
-        "blockers": [
-          "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
-          "PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL"
-        ],
-        "productionPilotVerdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+        "blockers": [],
+        "productionPilotVerdict": "TRANSLATION_VALIDATED",
         "sixLemmaLiveAudit": {
           "pilotLemmas": [
             "Haus",
@@ -620,7 +614,7 @@
               "deLemma": "Haus",
               "productionTarget": "Dom",
               "productionCardFound": true,
-              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "verdict": "TRANSLATION_VALIDATED",
               "evidenceTier": null,
               "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
               "bilingualSourceId": "pons-de-pl",
@@ -633,7 +627,7 @@
               "deLemma": "arbeiten",
               "productionTarget": "Pracować",
               "productionCardFound": true,
-              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "verdict": "TRANSLATION_VALIDATED",
               "evidenceTier": null,
               "dictionarySearchStrategy": "TARGET_TO_DE_PRIMARY",
               "bilingualSourceId": "pons-pl-de",
@@ -659,20 +653,20 @@
               "deLemma": "bewirten",
               "productionTarget": "Tolerować",
               "productionCardFound": true,
-              "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
-              "evidenceTier": null,
+              "verdict": "NEEDS_SOURCE_REVIEW",
+              "evidenceTier": "DEFINITION_SEMANTIC_UNCLEAR",
               "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY_THEN_TARGET_TO_DE",
               "bilingualSourceId": "pons-pl-de",
               "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch",
               "bilingualResultUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/tolerowa%C4%87?q=Tolerowa%C4%87",
               "institutionalPlatform": "pons",
-              "definitionFallbackUsed": false
+              "definitionFallbackUsed": true
             },
             {
               "deLemma": "Grenzkonflikt",
               "productionTarget": "Konflikt graniczny",
               "productionCardFound": true,
-              "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+              "verdict": "NEEDS_SOURCE_REVIEW",
               "evidenceTier": null,
               "dictionarySearchStrategy": "TARGET_TO_DE_PRIMARY",
               "bilingualSourceId": "pons-pl-de",

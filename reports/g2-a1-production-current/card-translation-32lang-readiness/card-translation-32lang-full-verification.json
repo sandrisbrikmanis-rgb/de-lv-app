@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-card-translation-32lang-full-v1",
-  "generatedAt": "2026-09-28T15:42:36.366Z",
+  "generatedAt": "2026-09-28T16:10:11.631Z",
   "expectedCount": 32,
   "verifiedLanguageCount": 32,
   "partialVerifyLangs": [
@@ -11,8 +11,8 @@
     "lt",
     "pl"
   ],
-  "readyCount": 13,
-  "remainingCount": 19,
+  "readyCount": 15,
+  "remainingCount": 17,
   "readyLanguages": [
     "cs",
     "da",
@@ -22,8 +22,10 @@
     "fi",
     "gr",
     "lb",
+    "lt",
     "lv",
     "nb",
+    "pl",
     "ru",
     "sk",
     "tr"
@@ -36,11 +38,9 @@
     "hu",
     "is",
     "it",
-    "lt",
     "mk",
     "nl",
     "nn",
-    "pl",
     "pt",
     "ro",
     "sl",
@@ -1075,22 +1075,9 @@
     },
     {
       "appLang": "lt",
-      "cardTranslationReady": false,
-      "targetOfficialValidation": false,
-      "blockers": [
-        {
-          "code": "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
-          "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-          "detail": "MISSING_TARGET_URL_OR_PROVEN_LEMMA",
-          "targetSourceUrl": null,
-          "provenTargetLemma": "namas"
-        },
-        {
-          "code": "PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL",
-          "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-          "detail": "VERDICT_NOT_ACCEPTABLE_FOR_READINESS"
-        }
-      ],
+      "cardTranslationReady": true,
+      "targetOfficialValidation": true,
+      "blockers": [],
       "collector": {
         "collectorId": "ekalba-de-lt",
         "bilingualSourceUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas",
@@ -1110,14 +1097,14 @@
         "testedHost": "translate.google.com"
       },
       "positiveRegression": {
-        "pass": false,
+        "pass": true,
         "deLemma": "Haus",
         "acceptableVerdicts": [
           "TRANSLATION_VALIDATED",
           "FINDING"
         ],
-        "got": "TARGET_OFFICIAL_NOT_VALIDATED",
-        "detail": "VERDICT_NOT_ACCEPTABLE_FOR_READINESS"
+        "got": "TRANSLATION_VALIDATED",
+        "detail": null
       },
       "negativeRegression": {
         "pass": true,
@@ -1125,24 +1112,19 @@
         "mode": "de_authority_reject"
       },
       "productionPilot": {
-        "pass": false,
-        "positiveRegressionPass": false,
+        "pass": true,
+        "positiveRegressionPass": true,
         "cardId": "Haus",
         "currentTarget": "namas",
-        "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-        "blockers": [
-          {
-            "code": "TARGET_OFFICIAL_LOOKUP_FAIL",
-            "provenLemma": "namas"
-          }
-        ],
-        "regressionDetail": "VERDICT_NOT_ACCEPTABLE_FOR_READINESS",
-        "targetOfficialValidation": false,
+        "verdict": "TRANSLATION_VALIDATED",
+        "blockers": [],
+        "regressionDetail": null,
+        "targetOfficialValidation": true,
         "bilingualCollectorProven": true,
         "deSourceUrl": "https://www.dwds.de/wb/Haus",
         "bilingualSourceUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas",
         "bilingualResultUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Haus?paieska=Haus&i=32b14ac4-c7e6-4aca-b722-bde8f8168bad",
-        "targetSourceUrl": null,
+        "targetSourceUrl": "https://ekalba.lt/lietuviu-kalbos-zodynas/namas?paieska=namas&i=35acc0e5-cc86-449f-b8ec-193edba6bb1d",
         "provenTargetLemma": "namas"
       },
       "sixLemmaLiveAudit": {
@@ -1159,7 +1141,7 @@
             "deLemma": "Haus",
             "productionTarget": "namas",
             "productionCardFound": true,
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+            "verdict": "TRANSLATION_VALIDATED",
             "evidenceTier": null,
             "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
             "bilingualSourceId": "ekalba-de-lt",
@@ -1172,7 +1154,7 @@
             "deLemma": "arbeiten",
             "productionTarget": "dirbti",
             "productionCardFound": true,
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+            "verdict": "NEEDS_SOURCE_REVIEW",
             "evidenceTier": null,
             "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
             "bilingualSourceId": "ekalba-de-lt",
@@ -1185,7 +1167,7 @@
             "deLemma": "Kleingeld",
             "productionTarget": "smulkūs pinigai",
             "productionCardFound": true,
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+            "verdict": "NEEDS_SOURCE_REVIEW",
             "evidenceTier": null,
             "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
             "bilingualSourceId": "ekalba-de-lt",
@@ -1198,7 +1180,7 @@
             "deLemma": "bewirten",
             "productionTarget": "pavaišinti",
             "productionCardFound": true,
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+            "verdict": "NEEDS_SOURCE_REVIEW",
             "evidenceTier": null,
             "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
             "bilingualSourceId": "ekalba-de-lt",
@@ -1662,22 +1644,9 @@
     },
     {
       "appLang": "pl",
-      "cardTranslationReady": false,
-      "targetOfficialValidation": false,
-      "blockers": [
-        {
-          "code": "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
-          "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-          "detail": "MISSING_TARGET_URL_OR_PROVEN_LEMMA",
-          "targetSourceUrl": null,
-          "provenTargetLemma": "Dom"
-        },
-        {
-          "code": "PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL",
-          "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-          "detail": "VERDICT_NOT_ACCEPTABLE_FOR_READINESS"
-        }
-      ],
+      "cardTranslationReady": true,
+      "targetOfficialValidation": true,
+      "blockers": [],
       "collector": {
         "collectorId": "pons-de-pl",
         "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch",
@@ -1697,14 +1666,14 @@
         "testedHost": "translate.google.com"
       },
       "positiveRegression": {
-        "pass": false,
+        "pass": true,
         "deLemma": "Haus",
         "acceptableVerdicts": [
           "TRANSLATION_VALIDATED",
           "FINDING"
         ],
-        "got": "TARGET_OFFICIAL_NOT_VALIDATED",
-        "detail": "VERDICT_NOT_ACCEPTABLE_FOR_READINESS"
+        "got": "TRANSLATION_VALIDATED",
+        "detail": null
       },
       "negativeRegression": {
         "pass": true,
@@ -1712,24 +1681,19 @@
         "mode": "de_authority_reject"
       },
       "productionPilot": {
-        "pass": false,
-        "positiveRegressionPass": false,
+        "pass": true,
+        "positiveRegressionPass": true,
         "cardId": "Haus",
         "currentTarget": "Dom",
-        "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-        "blockers": [
-          {
-            "code": "TARGET_OFFICIAL_LOOKUP_FAIL",
-            "provenLemma": "Dom"
-          }
-        ],
-        "regressionDetail": "VERDICT_NOT_ACCEPTABLE_FOR_READINESS",
-        "targetOfficialValidation": false,
+        "verdict": "TRANSLATION_VALIDATED",
+        "blockers": [],
+        "regressionDetail": null,
+        "targetOfficialValidation": true,
         "bilingualCollectorProven": true,
         "deSourceUrl": "https://www.dwds.de/wb/Haus",
         "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch",
         "bilingualResultUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/Haus",
-        "targetSourceUrl": null,
+        "targetSourceUrl": "https://wsjp.pl/haslo/podglad/25833/dom",
         "provenTargetLemma": "Dom"
       },
       "sixLemmaLiveAudit": {
@@ -1746,7 +1710,7 @@
             "deLemma": "Haus",
             "productionTarget": "Dom",
             "productionCardFound": true,
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+            "verdict": "TRANSLATION_VALIDATED",
             "evidenceTier": null,
             "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY",
             "bilingualSourceId": "pons-de-pl",
@@ -1759,7 +1723,7 @@
             "deLemma": "arbeiten",
             "productionTarget": "Pracować",
             "productionCardFound": true,
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+            "verdict": "TRANSLATION_VALIDATED",
             "evidenceTier": null,
             "dictionarySearchStrategy": "TARGET_TO_DE_PRIMARY",
             "bilingualSourceId": "pons-pl-de",
@@ -1785,20 +1749,20 @@
             "deLemma": "bewirten",
             "productionTarget": "Tolerować",
             "productionCardFound": true,
-            "verdict": "NO_ELIGIBLE_DICTIONARY_CANDIDATE",
-            "evidenceTier": null,
+            "verdict": "NEEDS_SOURCE_REVIEW",
+            "evidenceTier": "DEFINITION_SEMANTIC_UNCLEAR",
             "dictionarySearchStrategy": "DE_TO_TARGET_PRIMARY_THEN_TARGET_TO_DE",
             "bilingualSourceId": "pons-pl-de",
             "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch",
             "bilingualResultUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/tolerowa%C4%87?q=Tolerowa%C4%87",
             "institutionalPlatform": "pons",
-            "definitionFallbackUsed": false
+            "definitionFallbackUsed": true
           },
           {
             "deLemma": "Grenzkonflikt",
             "productionTarget": "Konflikt graniczny",
             "productionCardFound": true,
-            "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
+            "verdict": "NEEDS_SOURCE_REVIEW",
             "evidenceTier": null,
             "dictionarySearchStrategy": "TARGET_TO_DE_PRIMARY",
             "bilingualSourceId": "pons-pl-de",
@@ -2886,58 +2850,6 @@
       }
     },
     {
-      "appLang": "lt",
-      "blockers": [
-        {
-          "code": "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
-          "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-          "detail": "MISSING_TARGET_URL_OR_PROVEN_LEMMA",
-          "targetSourceUrl": null,
-          "provenTargetLemma": "namas"
-        },
-        {
-          "code": "PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL",
-          "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-          "detail": "VERDICT_NOT_ACCEPTABLE_FOR_READINESS"
-        }
-      ],
-      "collector": {
-        "collectorId": "ekalba-de-lt",
-        "bilingualSourceUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas",
-        "sourceType": "INSTITUTIONAL_BILINGUAL_LEXICON",
-        "platform": "ekalba",
-        "manifestAllowed": true
-      },
-      "targetValidator": {
-        "adapterId": "lt-ekalba-browser-entry",
-        "authorityName": "Lietuvių kalbos institutas + VLKK",
-        "masterSourceUrl": "https://lki.lt/",
-        "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
-        "liveIntegrationStatus": "LIVE"
-      },
-      "productionPilot": {
-        "pass": false,
-        "positiveRegressionPass": false,
-        "cardId": "Haus",
-        "currentTarget": "namas",
-        "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-        "blockers": [
-          {
-            "code": "TARGET_OFFICIAL_LOOKUP_FAIL",
-            "provenLemma": "namas"
-          }
-        ],
-        "regressionDetail": "VERDICT_NOT_ACCEPTABLE_FOR_READINESS",
-        "targetOfficialValidation": false,
-        "bilingualCollectorProven": true,
-        "deSourceUrl": "https://www.dwds.de/wb/Haus",
-        "bilingualSourceUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas",
-        "bilingualResultUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Haus?paieska=Haus&i=32b14ac4-c7e6-4aca-b722-bde8f8168bad",
-        "targetSourceUrl": null,
-        "provenTargetLemma": "namas"
-      }
-    },
-    {
       "appLang": "mk",
       "blockers": [
         {
@@ -3096,58 +3008,6 @@
         "bilingualResultUrl": "https://en.langenscheidt.com/german-norwegian/haus",
         "targetSourceUrl": null,
         "provenTargetLemma": null
-      }
-    },
-    {
-      "appLang": "pl",
-      "blockers": [
-        {
-          "code": "TARGET_OFFICIAL_VALIDATION_INCOMPLETE",
-          "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-          "detail": "MISSING_TARGET_URL_OR_PROVEN_LEMMA",
-          "targetSourceUrl": null,
-          "provenTargetLemma": "Dom"
-        },
-        {
-          "code": "PRODUCTION_HAUS_POSITIVE_REGRESSION_FAIL",
-          "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-          "detail": "VERDICT_NOT_ACCEPTABLE_FOR_READINESS"
-        }
-      ],
-      "collector": {
-        "collectorId": "pons-de-pl",
-        "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch",
-        "sourceType": "PROFESSIONAL_BILINGUAL_COMMERCIAL",
-        "platform": "pons",
-        "manifestAllowed": true
-      },
-      "targetValidator": {
-        "adapterId": "pl-wsjp-browser-entry",
-        "authorityName": "Rada Języka Polskiego + WSJP PAN",
-        "masterSourceUrl": "https://rjp.pan.pl/",
-        "entryValidation": "SOURCE_ENTRY_VALIDATED-capable",
-        "liveIntegrationStatus": "LIVE"
-      },
-      "productionPilot": {
-        "pass": false,
-        "positiveRegressionPass": false,
-        "cardId": "Haus",
-        "currentTarget": "Dom",
-        "verdict": "TARGET_OFFICIAL_NOT_VALIDATED",
-        "blockers": [
-          {
-            "code": "TARGET_OFFICIAL_LOOKUP_FAIL",
-            "provenLemma": "Dom"
-          }
-        ],
-        "regressionDetail": "VERDICT_NOT_ACCEPTABLE_FOR_READINESS",
-        "targetOfficialValidation": false,
-        "bilingualCollectorProven": true,
-        "deSourceUrl": "https://www.dwds.de/wb/Haus",
-        "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch",
-        "bilingualResultUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/Haus",
-        "targetSourceUrl": null,
-        "provenTargetLemma": "Dom"
       }
     },
     {
