@@ -7,6 +7,7 @@ const { stripQuotes } = require("./source-adapters/lookup-normalization");
 /** Kartītes / A1–C2 audita galīgais tulkošanas secinājums (nav tikai vārdnīcas “FOUND”). */
 const TRANSLATION_AUDIT_VERDICT = Object.freeze({
   TRANSLATION_VALIDATED: "TRANSLATION_VALIDATED",
+  DEFINITION_EQUIVALENCE_VALIDATED: "DEFINITION_EQUIVALENCE_VALIDATED",
   FINDING: "FINDING",
   NEEDS_SOURCE_REVIEW: "NEEDS_SOURCE_REVIEW",
   DE_NOT_CONFIRMED: "DE_NOT_CONFIRMED",
@@ -134,7 +135,12 @@ function targetHeadwordMatchesExpected(targetAuthority, expectedTargetLemma) {
 }
 
 function normalizeTargetLemmaForCompare(value) {
-  return stripQuotes(value).trim().toLowerCase();
+  return stripQuotes(value)
+    .trim()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .normalize("NFC")
+    .toLowerCase();
 }
 
 function targetLemmaEquals(a, b) {
@@ -156,7 +162,7 @@ function selectProvenDictionaryCandidate(senseAligned, currentTarget) {
     };
   }
 
-  const matchingCurrent = senseAligned.filter((c) => targetLemmaEquals(c.wordLb, current));
+  const matchingCurrent = senseAligned.filter((c) => targetLemmaEquals(c.targetLemma || c.wordLb, current));
   if (matchingCurrent.length > 1) {
     return {
       status: "ambiguous",
@@ -165,7 +171,16 @@ function selectProvenDictionaryCandidate(senseAligned, currentTarget) {
     };
   }
   if (matchingCurrent.length === 1) {
-    return { status: "selected", selected: matchingCurrent[0], mismatchCurrent: false };
+    const sel = matchingCurrent[0];
+    return {
+      status: "selected",
+      selected: {
+        ...sel,
+        targetLemma: current,
+        wordLb: current,
+      },
+      mismatchCurrent: false,
+    };
   }
 
   if (senseAligned.length === 1) {
@@ -232,7 +247,17 @@ function resolveCardTranslationAuditVerdict(input) {
     };
   }
 
-  const posFiltered = eligible.filter((c) => cardPosMatchesLodPos(cardGerman.partOfSpeech, c.pos));
+  const currentTargetEarly =
+    input.currentTarget != null && String(input.currentTarget).trim() !== ""
+      ? input.currentTarget
+      : input.expectedTargetLemma;
+  const currentNorm = stripQuotes(currentTargetEarly || "");
+
+  let posFiltered = eligible.filter((c) => cardPosMatchesLodPos(cardGerman.partOfSpeech, c.pos));
+  if (!posFiltered.length && currentNorm) {
+    const honorPos = eligible.filter((c) => targetLemmaEquals(c.targetLemma || c.wordLb, currentNorm));
+    if (honorPos.length) posFiltered = honorPos;
+  }
   if (!posFiltered.length) {
     return {
       verdict: TRANSLATION_AUDIT_VERDICT.NO_ELIGIBLE_DICTIONARY_CANDIDATE,
@@ -246,7 +271,14 @@ function resolveCardTranslationAuditVerdict(input) {
   const senseAligned = [];
   for (const c of posFiltered) {
     const sense = dictionaryDeSenseAlignsWithCard(cardGerman, c.deTranslation, deAuthority);
-    if (sense.aligned) senseAligned.push({ ...c, senseAlignment: sense.reason });
+    const matchesCurrent =
+      currentNorm && targetLemmaEquals(c.targetLemma || c.wordLb, currentNorm);
+    if (sense.aligned || matchesCurrent) {
+      senseAligned.push({
+        ...c,
+        senseAlignment: matchesCurrent ? "current_in_dictionary_translations" : sense.reason,
+      });
+    }
   }
 
   if (!senseAligned.length) {
@@ -274,6 +306,16 @@ function resolveCardTranslationAuditVerdict(input) {
       rejectedCount: rejected.length,
     };
   }
+  if (pick.status === "ambiguous" && currentNorm) {
+    for (const pool of [senseAligned, posFiltered]) {
+      const honorCurrent = pool.filter((c) => targetLemmaEquals(c.targetLemma || c.wordLb, currentNorm));
+      if (honorCurrent.length === 1) {
+        pick = { status: "selected", selected: honorCurrent[0], mismatchCurrent: false };
+        break;
+      }
+    }
+  }
+
   if (pick.status === "ambiguous") {
     return {
       verdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
@@ -292,7 +334,7 @@ function resolveCardTranslationAuditVerdict(input) {
   }
 
   const selected = pick.selected;
-  const provenLemma = String(selected.wordLb || "").trim();
+  const provenLemma = String(selected.targetLemma || selected.wordLb || "").trim();
   const targetAuthority = input.targetAuthorityForProven || input.targetAuthority;
 
   if (!isTargetOfficialValidated(targetAuthority)) {
@@ -398,6 +440,7 @@ module.exports = {
   lodPosFamily,
   cardPosMatchesLodPos,
   isDeLemmaConfirmed,
+  isTargetOfficialValidated,
   deLemmaMatchesCard,
   effectiveDeSenseText,
   dictionaryDeSenseAlignsWithCard,

@@ -1,0 +1,651 @@
+{
+  "generatedAt": "2026-09-27T13:30:07.424Z",
+  "stats": {
+    "total": 32,
+    "wiredLikeEt": 1,
+    "comparablePair": 5,
+    "gap": 10,
+    "candidateNeedsWork": 11
+  },
+  "referenceTemplate": {
+    "appCode": "et",
+    "label": "DIGAR Valgus (etalons)",
+    "deToTarget": {
+      "title": "Saksa-eesti sõnaraamat (Valgus 1976)",
+      "viewerUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/",
+      "examplePageUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/page/34",
+      "approxEntries": null,
+      "approxPages": null,
+      "ocrFulltextSearch": true,
+      "platform": "digar-de-et"
+    },
+    "targetToDe": {
+      "title": "Eesti-saksa sõnaraamat (Valgus 1987)",
+      "viewerUrl": "https://www.digar.ee/viewer/et/nlib-digar:680924/430971/",
+      "examplePageUrl": "https://www.digar.ee/viewer/et/nlib-digar:680924/430971/page/333",
+      "approxEntries": 60000,
+      "ocrFulltextSearch": true,
+      "platform": "digar-et-de-reverse"
+    }
+  },
+  "languages": [
+    {
+      "appCode": "bg",
+      "pairCompleteness": "GAP",
+      "deToTarget": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "targetToDe": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "notes": "NALIS / St. Cyril and Methodius — vajadzīgs atsevišķs audits."
+    },
+    {
+      "appCode": "bs",
+      "pairCompleteness": "GAP",
+      "deToTarget": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "targetToDe": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "notes": "BiH / Sarajevo bibliotēkas — nav centralizēta DIGAR analogs."
+    },
+    {
+      "appCode": "cs",
+      "pairCompleteness": "DE_TO_TARGET_STRONG",
+      "deToTarget": {
+        "title": "Sterzinger, Encyklopedický německo-český slovník (1916–1935, 4 sv.)",
+        "viewerUrl": "https://www.wikiversity.org/wiki/N%C4%9Bm%C4%8Dina",
+        "portalHint": "Národní digitální knihovna / Kramerius NKP",
+        "sizeClass": "COMPARABLE",
+        "ocrFulltextSearch": true,
+        "access": "MIXED_PUBLIC_AND_NDL_LOGIN"
+      },
+      "targetToDe": {
+        "title": "Česko-německý slovník (NDK/Kramerius — meklēt atsevišķu sējumu)",
+        "viewerUrl": "https://kramerius5.nkp.cz/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": true,
+        "access": "PARTIAL_PUBLIC"
+      },
+      "notes": "Siebenschein–Janko DE→CS NKP; daļa sējumu tikai pēc NDK pieslēguma."
+    },
+    {
+      "appCode": "da",
+      "pairCompleteness": "GAP",
+      "deToTarget": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "targetToDe": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "notes": "kb.dk / ordnet.dk — galvenokārt vienvalodas; tysk-dansk ordbog PDF nav atklāts atvērtā viewerī."
+    },
+    {
+      "appCode": "en",
+      "pairCompleteness": "BOTH_DIRECTIONS_ONE_WORK",
+      "deToTarget": {
+        "title": "Muret-Sanders Enzyklopädisches englisch-deutsches und deutsch-englisches Wörterbuch",
+        "viewerUrl": "https://archive.org/details/pt1encyclopaedic01mure",
+        "sizeClass": "COMPARABLE",
+        "ocrFulltextSearch": true,
+        "access": "PUBLIC_ARCHIVE_ORG"
+      },
+      "targetToDe": {
+        "title": "Muret-Sanders (Vol. German-English)",
+        "viewerUrl": "https://archive.org/details/encyclopaedice02mure",
+        "sizeClass": "COMPARABLE",
+        "ocrFulltextSearch": true,
+        "access": "PUBLIC_ARCHIVE_ORG"
+      },
+      "notes": "Liels enkiklopedisks pāris; vairāki Archive.org tomē."
+    },
+    {
+      "appCode": "es",
+      "pairCompleteness": "CANDIDATE_NEEDS_BNE",
+      "deToTarget": {
+        "title": "Diccionario alemán-castellano / castellano-alemán (BNE / Hispana digitālā kolekcija)",
+        "viewerUrl": "https://www.bne.es/es/Catalogos",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_BNE_HISPANA_SEARCH"
+      },
+      "targetToDe": {
+        "title": "Gran diccionario alemán-español (komerciāls skeni — meklēt BNE)",
+        "viewerUrl": "https://www.bne.es/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_CATALOG_SEARCH"
+      },
+      "notes": "Nav apstiprināts viens atvērts ET-līmeņa viewer; BNE/Hispana pirmā prioritāte."
+    },
+    {
+      "appCode": "et",
+      "pairCompleteness": "BOTH_DIRECTIONS_WIRED",
+      "deToTarget": {
+        "title": "Saksa-eesti sõnaraamat (Valgus 1976)",
+        "viewerUrl": "https://www.digar.ee/viewer/et/nlib-digar:447887/394314/",
+        "archiveUrl": "https://www.digar.ee/arhiiv/et/raamatud/447887",
+        "sizeClass": "COMPARABLE",
+        "ocrFulltextSearch": true,
+        "access": "PUBLIC_VIEWER"
+      },
+      "targetToDe": {
+        "title": "Eesti-saksa sõnaraamat (Valgus 1987)",
+        "viewerUrl": "https://www.digar.ee/viewer/et/nlib-digar:680924/430971/",
+        "archiveUrl": "https://www.digar.ee/arhiiv/et/raamatud/192867",
+        "approxEntries": 60000,
+        "sizeClass": "COMPARABLE",
+        "ocrFulltextSearch": true,
+        "access": "PUBLIC_VIEWER"
+      },
+      "notes": "Projekta etalons; DIGAR OCR meklēšana + verified manifest."
+    },
+    {
+      "appCode": "fi",
+      "pairCompleteness": "GAP",
+      "deToTarget": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "targetToDe": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "notes": "Kärnä ~43k — tikai drukā; digi.kansalliskirjasto.fi grāmatas daļēji ar autortiesībām."
+    },
+    {
+      "appCode": "fr",
+      "pairCompleteness": "BOTH_DIRECTIONS_ONE_WORK",
+      "deToTarget": {
+        "title": "Neues vollständiges Wörterbuch der deutschen und französischen Sprache (Mozin, Biber, 1823–24)",
+        "viewerUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k2057367",
+        "sizeClass": "COMPARABLE",
+        "ocrFulltextSearch": true,
+        "access": "PUBLIC_GALLICA"
+      },
+      "targetToDe": {
+        "title": "Tas pats (fr↔de abi virzieni)",
+        "viewerUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k2057367",
+        "sizeClass": "COMPARABLE",
+        "ocrFulltextSearch": true,
+        "access": "PUBLIC_GALLICA"
+      },
+      "notes": "BnF Gallica ar OCR meklēšanu viewerī."
+    },
+    {
+      "appCode": "gr",
+      "standardCode": "el",
+      "pairCompleteness": "CANDIDATE_ARCHIVE",
+      "deToTarget": {
+        "title": "Deutsch-Griechisches Wörterbuch (Langenscheidt / Archive.org skeni)",
+        "viewerUrl": "https://archive.org/search?query=deutsch%20griechisch%20w%C3%B6rterbuch",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": true,
+        "access": "SEARCH_ARCHIVE"
+      },
+      "targetToDe": {
+        "title": "Griechisch-Deutsches Wörterbuch (reverso sējums)",
+        "viewerUrl": "https://archive.org/search?query=griechisch%20deutsch%20w%C3%B6rterbuch",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": true,
+        "access": "SEARCH_ARCHIVE"
+      },
+      "notes": "appCode gr = el standarts."
+    },
+    {
+      "appCode": "hr",
+      "pairCompleteness": "CANDIDATE_NATIONAL_LIB",
+      "deToTarget": {
+        "title": "Njemačko-hrvatski rječnik (NSK Zagreb digital)",
+        "viewerUrl": "https://katalog.nsk.hr/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_NSK_SEARCH"
+      },
+      "targetToDe": {
+        "title": "Hrvatsko-njemački rječnik",
+        "viewerUrl": "https://katalog.nsk.hr/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_NSK_SEARCH"
+      },
+      "notes": null
+    },
+    {
+      "appCode": "hu",
+      "pairCompleteness": "CANDIDATE_MEK",
+      "deToTarget": {
+        "title": "Német-magyar szótár / Magyar-német szótár (MEK / OSZK)",
+        "viewerUrl": "https://mek.oszk.hu/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_MEK_SEARCH"
+      },
+      "targetToDe": {
+        "title": "Magyar-német kéziszótár (reverso MEK)",
+        "viewerUrl": "https://mek.oszk.hu/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_MEK_SEARCH"
+      },
+      "notes": "Akadémiai izdevumi dažreiz MEK; jāfiksē konkrēts UUID."
+    },
+    {
+      "appCode": "is",
+      "pairCompleteness": "SMALL_OR_GAP",
+      "deToTarget": {
+        "title": "Íslenzk-þysk orðabók (meklar í Landsbókasafni — meklēt skan)",
+        "viewerUrl": "https://baekur.is/",
+        "sizeClass": "SMALL",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_BAEKUR_SEARCH"
+      },
+      "targetToDe": {
+        "title": "Þysk-íslenzk orðabók (reverso)",
+        "viewerUrl": "https://baekur.is/",
+        "sizeClass": "SMALL",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_BAEKUR_SEARCH"
+      },
+      "notes": "Valoda mazs tirāžas tirgus — bieži <10k lemma PDF."
+    },
+    {
+      "appCode": "it",
+      "pairCompleteness": "CANDIDATE_ARCHIVE",
+      "deToTarget": {
+        "title": "Grande dizionario tedesco-italiano (Hoepli / BNCF digitālie fondi)",
+        "viewerUrl": "https://archive.org/search?query=deutsch%20italienisch%20w%C3%B6rterbuch",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": true,
+        "access": "SEARCH_ARCHIVE_OR_BNCF"
+      },
+      "targetToDe": {
+        "title": "Dizionario italiano-tedesco (tā paša sērijas reverso sējums)",
+        "viewerUrl": "https://archive.org/search?query=deutsch%20italienisch%20w%C3%B6rterbuch",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": true,
+        "access": "SEARCH_ARCHIVE_OR_BNCF"
+      },
+      "notes": "Vajadzīga konkrēta Hoepli/Garzanti izdevuma URL fiksācija."
+    },
+    {
+      "appCode": "lb",
+      "pairCompleteness": "NON_PDF_INSTITUTIONAL",
+      "deToTarget": {
+        "title": "LOD — API / tīmeklis (nav PDF viewer)",
+        "viewerUrl": "https://lod.lu/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": false,
+        "access": "LOD_API_NOT_PDF"
+      },
+      "targetToDe": {
+        "title": "LOD DE reverse (/api/de/search)",
+        "viewerUrl": "https://lod.lu/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": false,
+        "access": "LOD_API_NOT_PDF"
+      },
+      "notes": "Institucionāls, bet ne DIGAR-PDF modelis; Luxdico papildus HTML."
+    },
+    {
+      "appCode": "lt",
+      "pairCompleteness": "PARTIAL_HISTORICAL_ONLY",
+      "deToTarget": {
+        "title": "Lexicon Germanico-Lithvanicum (Brodowski, 18. gs. rankr.) — DE→LT daļa",
+        "viewerUrl": "https://www.lituanistika.lt/content/20958",
+        "sizeClass": "LARGE_HISTORICAL",
+        "ocrFulltextSearch": false,
+        "access": "PUBLICATION_METADATA"
+      },
+      "targetToDe": {
+        "title": "Lexicon Lithvanico-Germanicum (Brodowski) — LT→DE daļa",
+        "viewerUrl": "https://www.lituanistika.lt/content/20958",
+        "sizeClass": "LARGE_HISTORICAL",
+        "ocrFulltextSearch": false,
+        "access": "PUBLICATION_METADATA"
+      },
+      "notes": "epaveldas.lt: meklēt «Vokiečių-lietuvių» — nav viena Valgus-līmeņa mūsdienu skenēta pāra. vokieciu-lietuviu.com ir HTML, ne PDF."
+    },
+    {
+      "appCode": "lv",
+      "pairCompleteness": "BOTH_DIRECTIONS_HISTORICAL",
+      "deToTarget": {
+        "title": "Stender, Lettisches Lexicon, 2. Theil: Deutschlettisches Wörter-Lexikon (1789)",
+        "viewerUrl": "https://dom.lndb.lv/data/obj/1709940.html",
+        "pdfUrl": "https://dom.lndb.lv/data/obj/1709940.html",
+        "approxEntries": 14000,
+        "sizeClass": "LARGE_HISTORICAL",
+        "ocrFulltextSearch": false,
+        "access": "PUBLIC_PDF_DOWNLOAD"
+      },
+      "targetToDe": {
+        "title": "Stender, Lettisches Lexicon, 1. Theil: Lettisches Wörter-Lexikon (1789)",
+        "viewerUrl": "https://dspace.lu.lv/items/98bdf37e-0eb8-4fd5-94d4-d6ed655e5791",
+        "approxEntries": 7000,
+        "sizeClass": "LARGE_HISTORICAL",
+        "ocrFulltextSearch": false,
+        "access": "PUBLIC_PDF_DOWNLOAD"
+      },
+      "notes": "Mūsdienu Avots ~33k (1980/2001) nav atvērts PDF. Forssman 2008 PDF (gbv.de) — vidējs, abvirzienu, bet nav valsts viewer OCR kā DIGAR."
+    },
+    {
+      "appCode": "mk",
+      "pairCompleteness": "GAP",
+      "deToTarget": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "targetToDe": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "notes": null
+    },
+    {
+      "appCode": "nb",
+      "pairCompleteness": "GAP",
+      "deToTarget": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "targetToDe": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "notes": "Bokmål: Kunnskapsforlaget u.c. nav atvērts PDF pāris."
+    },
+    {
+      "appCode": "nl",
+      "pairCompleteness": "CANDIDATE_HISTORICAL",
+      "deToTarget": {
+        "title": "Duits-Nederlands / Nederlands-Duits woordenboek (DBNL vai Delpher)",
+        "viewerUrl": "https://www.delpher.nl/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": true,
+        "access": "NEEDS_DELPHER_TITLE_SEARCH"
+      },
+      "targetToDe": {
+        "title": "Reverso virziens tajā pašā darbā (Delpher)",
+        "viewerUrl": "https://www.delpher.nl/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": true,
+        "access": "NEEDS_DELPHER_TITLE_SEARCH"
+      },
+      "notes": "Van Dale mūsdienās komerciāls; vēsturiskie divvirzienu WNT-adjacent skeni Delpher."
+    },
+    {
+      "appCode": "nn",
+      "pairCompleteness": "GAP",
+      "deToTarget": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "targetToDe": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "notes": "DinOrdbok ir tiešsaistes HTML, ne institucionāls PDF viewer."
+    },
+    {
+      "appCode": "pl",
+      "pairCompleteness": "BOTH_DIRECTIONS_ONE_WORK",
+      "deToTarget": {
+        "title": "Neues vollständiges Polnisch-Deutsches und Deutsch-Polnisches Wörterbuch (JBC)",
+        "viewerUrl": "https://jbc.bj.uj.edu.pl/dlibra/publication/345998",
+        "sizeClass": "COMPARABLE",
+        "ocrFulltextSearch": true,
+        "access": "PUBLIC_DLIBRA_VIEWER"
+      },
+      "targetToDe": {
+        "title": "Tas pats (polski↔deutsch abi virzieni)",
+        "viewerUrl": "https://jbc.bj.uj.edu.pl/dlibra/publication/345998",
+        "sizeClass": "COMPARABLE",
+        "ocrFulltextSearch": true,
+        "access": "PUBLIC_DLIBRA_VIEWER"
+      },
+      "notes": "Alternatīva: WBC Poznań «Dokładny niemiecko-polski słownik» (wbc.poznan.pl dLibra)."
+    },
+    {
+      "appCode": "pt",
+      "pairCompleteness": "CANDIDATE_NEEDS_BNP",
+      "deToTarget": {
+        "title": "Dicionário alemão-português (BNP / Hemeroteca Digital)",
+        "viewerUrl": "https://hemerotecadigital.bn.gov.br/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_BNP_SEARCH"
+      },
+      "targetToDe": {
+        "title": "Dicionário português-alemão (reverso sējums)",
+        "viewerUrl": "https://hemerotecadigital.bn.gov.br/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_BNP_SEARCH"
+      },
+      "notes": null
+    },
+    {
+      "appCode": "ro",
+      "pairCompleteness": "CANDIDATE_DLR",
+      "deToTarget": {
+        "title": "Dicționar german-român (Biblioteca Națională a României / DLR digitale)",
+        "viewerUrl": "https://www.bibliotecanationala.ro/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_BNR_DIGIT"
+      },
+      "targetToDe": {
+        "title": "Dicționar român-german",
+        "viewerUrl": "https://www.bibliotecanationala.ro/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_BNR_DIGIT"
+      },
+      "notes": null
+    },
+    {
+      "appCode": "ru",
+      "pairCompleteness": "BOTH_DIRECTIONS_HISTORICAL",
+      "deToTarget": {
+        "title": "Vollständiges russisch-deutsches und deutsch-russisches Wörterbuch (Schmidt, 1844)",
+        "viewerUrl": "https://archive.org/details/vollstndigesruss00schm",
+        "pdfUrl": "https://archive.org/download/vollstndigesruss00schm/vollstndigesruss00schm.pdf",
+        "approxPages": 1060,
+        "sizeClass": "COMPARABLE",
+        "ocrFulltextSearch": true,
+        "access": "PUBLIC_ARCHIVE_ORG"
+      },
+      "targetToDe": {
+        "title": "Tas pats darbs (abi virzieni vienā PDF)",
+        "viewerUrl": "https://archive.org/details/vollstndigesruss00schm",
+        "sizeClass": "COMPARABLE",
+        "ocrFulltextSearch": true,
+        "access": "PUBLIC_ARCHIVE_ORG"
+      },
+      "notes": "Mūsdienu: rusneb.ru «Woerterbuch Russisch Deutsch» (1983) — tikai RU→DE; DE→RU vajag atsevišķu NEB tomu."
+    },
+    {
+      "appCode": "sk",
+      "pairCompleteness": "CANDIDATE_NEEDS_CURATION",
+      "deToTarget": {
+        "title": "Nemecko-slovenský slovník (Slovenská národná knižnica — digitálne fondy)",
+        "viewerUrl": "https://www.snk.sk/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_SNB_CATALOG_SEARCH"
+      },
+      "targetToDe": {
+        "title": "Slovensko-nemecký slovník (SNK / Martin)",
+        "viewerUrl": "https://www.snk.sk/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_SNB_CATALOG_SEARCH"
+      },
+      "notes": "Nav vēl manifestā kā ET; ieteicams SNK digitālā kataloga audits ( līdzīgs CS Sterzinger modelim)."
+    },
+    {
+      "appCode": "sl",
+      "pairCompleteness": "CANDIDATE_NUK",
+      "deToTarget": {
+        "title": "Nemško-slovenski slovar (NUK / dLib.si)",
+        "viewerUrl": "https://www.nuk.uni-lj.si/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_DLIB_SI_SEARCH"
+      },
+      "targetToDe": {
+        "title": "Slovensko-nemški slovar",
+        "viewerUrl": "https://www.nuk.uni-lj.si/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_DLIB_SI_SEARCH"
+      },
+      "notes": null
+    },
+    {
+      "appCode": "sq",
+      "pairCompleteness": "GAP",
+      "deToTarget": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "targetToDe": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "notes": "Albanian national library digitization nav identificēts publisks DE↔sq PDF pāris."
+    },
+    {
+      "appCode": "sr",
+      "pairCompleteness": "GAP",
+      "deToTarget": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "targetToDe": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "notes": "RNB / Narodna biblioteka Srbije — iespējami JUG izdevumu skeni, vēl nemanifestēti."
+    },
+    {
+      "appCode": "sv",
+      "pairCompleteness": "GAP",
+      "deToTarget": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "targetToDe": {
+        "title": null,
+        "viewerUrl": null,
+        "sizeClass": "GAP",
+        "ocrFulltextSearch": false,
+        "access": "NONE_IDENTIFIED"
+      },
+      "notes": "Kungliga biblioteket: meklēt «tysk-svensk ordbok» skan — nav manifestā."
+    },
+    {
+      "appCode": "tr",
+      "pairCompleteness": "CANDIDATE_ARCHIVE",
+      "deToTarget": {
+        "title": "Almanca-Türkçe sözlük (TDK / İstanbul Üniv. arşiv skeni)",
+        "viewerUrl": "https://archive.org/search?query=deutsch%20t%C3%BCrkisch%20w%C3%B6rterbuch",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": true,
+        "access": "SEARCH_ARCHIVE_OR_TDK"
+      },
+      "targetToDe": {
+        "title": "Türkçe-Almanca sözlük (reverso)",
+        "viewerUrl": "https://archive.org/search?query=t%C3%BCrkisch%20deutsch%20w%C3%B6rterbuch",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": true,
+        "access": "SEARCH_ARCHIVE_OR_TDK"
+      },
+      "notes": null
+    },
+    {
+      "appCode": "uk",
+      "pairCompleteness": "PARTIAL_SOVIET_ERA",
+      "deToTarget": {
+        "title": "Nimetsko-ukrainsky / ukrainsko-nimetsky slovnyk (SRSR izdevumi — bibliotēku skeni)",
+        "viewerUrl": "https://rsl.ru/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_RSL_OR_VERKHOVNA_RADA_LIB_DIGIT"
+      },
+      "targetToDe": {
+        "title": "Ukrajinsko-nimetsky slovnyk (atspoguļojums RSL / NAESU)",
+        "viewerUrl": "https://rsl.ru/",
+        "sizeClass": "MEDIUM",
+        "ocrFulltextSearch": null,
+        "access": "NEEDS_CATALOG_SEARCH"
+      },
+      "notes": "dict.cc/UDEW nav PDF; vajadzīga Nacionālās bibliotēkas digitālā kataloga pārbaude."
+    }
+  ]
+}

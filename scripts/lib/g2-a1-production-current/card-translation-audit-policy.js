@@ -12,8 +12,12 @@ function isDeLemmaConfirmed(deAuthority) {
   );
 }
 
-/** Pilna kartes tulkošanas validācija (ne tikai vārdnīcas FOUND) — tikai lb. */
-const TRANSLATION_VALIDATED_LANGUAGES = Object.freeze(["lb"]);
+const { getCardTranslation32LangReadiness } = require("./card-translation-32lang-readiness");
+
+/**
+ * Kartīšu tulkojuma pierādījumu kārtība: MASTER §7.162 + card-translation-evidence-ladder.js
+ * (PDF divvalodu DE→TARGET / TARGET→DE, tad DWDS/Duden + TARGET oficiālā definīcija).
+ */
 
 /** Vācu DE avots kartes auditā — tikai šie (LOD ir lb TARGET, ne DE nozīme). */
 const GERMAN_DE_AUTHORITY_ADAPTER_PREFIXES = Object.freeze(["de-dwds", "de-duden"]);
@@ -35,7 +39,9 @@ function isGermanDeAuthorityDwdsOrDuden(deAuthority) {
 }
 
 function languageMayReceiveTranslationValidated(appLang) {
-  return TRANSLATION_VALIDATED_LANGUAGES.includes(String(appLang || "").trim());
+  const lang = String(appLang || "").trim();
+  const row = getCardTranslation32LangReadiness().languages.find((l) => l.appLang === lang);
+  return Boolean(row?.cardTranslationReady);
 }
 
 /**
@@ -71,10 +77,7 @@ function canEmitFindingWithProposedNew({
   return { ok: true };
 }
 
-function canEmitTranslationValidated({ appLang, deAuthority, targetAuthority, senseAlignedCount, pick }) {
-  if (!languageMayReceiveTranslationValidated(appLang)) {
-    return { ok: false, code: "TRANSLATION_VALIDATED_LB_ONLY" };
-  }
+function canEmitTranslationValidated({ deAuthority, targetAuthority, senseAlignedCount, pick }) {
   if (!isGermanDeAuthorityDwdsOrDuden(deAuthority)) {
     return { ok: false, code: "VALIDATED_REQUIRES_DWDS_OR_DUDEN_DE" };
   }
@@ -94,7 +97,7 @@ function canEmitTranslationValidated({ appLang, deAuthority, targetAuthority, se
   return { ok: true };
 }
 
-const { getCardTranslation32LangReadiness, isFullCardTranslationBatchReady } = require("./card-translation-32lang-readiness");
+const { isFullCardTranslationBatchReady } = require("./card-translation-32lang-readiness");
 
 /**
  * Pilna targeted-field-level Luna batch — atļauta tikai kad visas 32 valodas ir
@@ -131,7 +134,6 @@ function assertTargetedFieldCardTranslationBatchAllowed(options = {}) {
 }
 
 module.exports = {
-  TRANSLATION_VALIDATED_LANGUAGES,
   GERMAN_DE_AUTHORITY_ADAPTER_PREFIXES,
   isGermanDeAuthorityDwdsOrDuden,
   languageMayReceiveTranslationValidated,

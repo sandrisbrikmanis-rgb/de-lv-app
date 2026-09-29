@@ -3,15 +3,13 @@
 
 const { LEVEL } = require("./constants");
 const { buildCardGermanFromFieldRequest } = require("./card-german-from-field-request");
-const { runLodLbCardTranslationAudit, TRANSLATION_AUDIT_VERDICT } = require("./lod-card-translation-audit");
+const { TRANSLATION_AUDIT_VERDICT } = require("./lod-card-translation-audit");
+const { runCardTranslationAuditForLanguage } = require("./card-translation-lang-run");
 const { effectiveDeSenseText } = require("./card-translation-audit-search");
 const { stripQuotes } = require("./source-adapters/lookup-normalization");
 
 const EXECUTOR_VERSION = "g2-a1-card-translation-audit-executor-v2";
-const {
-  languageMayReceiveTranslationValidated,
-  isGermanDeAuthorityDwdsOrDuden,
-} = require("./card-translation-audit-policy");
+const { languageMayReceiveTranslationValidated, isGermanDeAuthorityDwdsOrDuden } = require("./card-translation-audit-policy");
 
 function mapTranslationVerdictToAuditVerdict(translationVerdict) {
   switch (translationVerdict) {
@@ -73,35 +71,35 @@ async function runCardTranslationAuditForField(fieldRequest) {
     };
   }
 
-  if (fieldRequest.language === "lb") {
-    const audit = await runLodLbCardTranslationAudit(cardGerman, currentTarget);
-    if (audit.deAuthority && !isGermanDeAuthorityDwdsOrDuden(audit.deAuthority)) {
-      audit.verdict = TRANSLATION_AUDIT_VERDICT.DE_NOT_CONFIRMED;
-      audit.blockers = [{ code: "DE_MUST_BE_DWDS_OR_DUDEN_NOT_LOD" }];
-    }
+  if (!languageMayReceiveTranslationValidated(fieldRequest.language)) {
     return {
       executorVersion: EXECUTOR_VERSION,
-      pass: true,
+      pass: false,
+      translationVerdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+      verdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
+      blockers: [
+        {
+          code: "LANGUAGE_NOT_CARD_TRANSLATION_READY",
+          language: fieldRequest.language,
+          note: "Run verify-g2-a1-card-translation-32lang-full and pass all gates for this language.",
+        },
+      ],
       cardGerman,
       currentTarget,
-      ...audit,
     };
   }
 
+  const audit = await runCardTranslationAuditForLanguage(fieldRequest.language, cardGerman, currentTarget);
+  if (audit.deAuthority && !isGermanDeAuthorityDwdsOrDuden(audit.deAuthority)) {
+    audit.verdict = TRANSLATION_AUDIT_VERDICT.DE_NOT_CONFIRMED;
+    audit.blockers = [{ code: "DE_MUST_BE_DWDS_OR_DUDEN_NOT_LOD" }];
+  }
   return {
     executorVersion: EXECUTOR_VERSION,
-    pass: false,
-    translationVerdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
-    verdict: TRANSLATION_AUDIT_VERDICT.NEEDS_SOURCE_REVIEW,
-    blockers: [
-      {
-        code: "TRANSLATION_VALIDATED_LB_ONLY_OTHERS_FOUND_PILOT",
-        language: fieldRequest.language,
-        note: "mk/nn/other languages: dictionary FOUND access pilots only until DE→TARGET collectors + TARGET official validation for all 32.",
-      },
-    ],
+    pass: true,
     cardGerman,
     currentTarget,
+    ...audit,
   };
 }
 

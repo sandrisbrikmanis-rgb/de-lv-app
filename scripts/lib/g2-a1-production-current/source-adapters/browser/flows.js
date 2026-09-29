@@ -27,6 +27,93 @@ function isLikelyNoResults(text) {
   );
 }
 
+function foldUkLemma(value) {
+  return String(value || "")
+    .trim()
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .normalize("NFC")
+    .toLowerCase();
+}
+
+function headwordFromDictUaArticleHtml(html, lookupTerm) {
+  const m = String(html || "").match(/class="word_style"\s*>([^<]+)</i);
+  if (!m) return null;
+  const raw = m[1].replace(/\s+/g, " ").trim();
+  if (foldUkLemma(raw) !== foldUkLemma(lookupTerm)) return null;
+  return String(lookupTerm).trim();
+}
+
+async function flowUkDictua(page, lookupTerm, allowedDomains) {
+  const term = String(lookupTerm || "").trim();
+  const searchUrl = `https://lcorp.ulif.org.ua/dictua/?s=${encodeURIComponent(term)}`;
+  await page.goto("https://lcorp.ulif.org.ua/dictua/", { waitUntil: "domcontentloaded", timeout: 90000 });
+  await acceptCookiesIfPresent(page);
+  await page.waitForTimeout(2000);
+  const inp = page.locator("#ContentPlaceHolder1_tsearch");
+  await inp.fill(term);
+  await page.locator("#ContentPlaceHolder1_search").click();
+  await page.waitForTimeout(5500);
+  const want = foldUkLemma(term);
+  const picked = await page.evaluate((wantLemma) => {
+    function fold(s) {
+      return String(s || "")
+        .trim()
+        .normalize("NFD")
+        .replace(/\p{M}/gu, "")
+        .normalize("NFC")
+        .toLowerCase();
+    }
+    for (const a of document.querySelectorAll("#ContentPlaceHolder1_dgv a")) {
+      if (fold(a.textContent) === wantLemma) {
+        a.click();
+        return true;
+      }
+    }
+    return false;
+  }, want);
+  if (picked) await page.waitForTimeout(4500);
+  let finalUrl = page.url();
+  let host;
+  try {
+    host = new URL(finalUrl).hostname;
+  } catch {
+    return { validated: false, reason: "BAD_URL", searchUrl, finalUrl };
+  }
+  if (!isHostnameAllowed(host, allowedDomains)) {
+    return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+  }
+  let articleHtml = await page.locator("#ContentPlaceHolder1_article").innerHTML().catch(() => "");
+  let headword = headwordFromDictUaArticleHtml(articleHtml, term);
+  if (!headword) {
+    await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
+    await page.waitForTimeout(4000);
+    finalUrl = page.url();
+    articleHtml = await page.locator("#ContentPlaceHolder1_article").innerHTML().catch(() => "");
+    headword = headwordFromDictUaArticleHtml(articleHtml, term);
+  }
+  const text = await bodyText(page);
+  const guard = classifyBrowserText(text, finalUrl);
+  if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+  if (!headword) {
+    return { validated: false, reason: "entry_not_found", searchUrl, finalUrl };
+  }
+  const fragment = extractHeadwordFragment(text, term, 25);
+  const fragText = fragment?.fragment || text.slice(0, 900);
+  if (!/іменник|дієслово|прикметник|значення/i.test(fragText)) {
+    return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+  }
+  const entryUrl = searchUrl;
+  return {
+    validated: true,
+    searchUrl,
+    entryUrl,
+    headword,
+    fragment: fragText,
+    entryOrRule: `DictUA (ULIF): ${headword}`,
+  };
+}
+
 function extractHeadwordFragment(text, lookupTerm, minFrag = 40) {
   if (isLikelyNoResults(text)) return null;
   const esc = String(lookupTerm).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -139,20 +226,70 @@ async function flowOrdbokeneNo(page, lookupTerm, allowedDomains, bmOrNn) {
   };
 }
 
+async function flowLtEkalbaLkz(page, lookupTerm, allowedDomains) {
+  const term = String(lookupTerm || "").trim();
+  const searchUrl = `https://ekalba.lt/lietuviu-kalbos-zodynas/${encodeURIComponent(term)}?paieska=${encodeURIComponent(term)}`;
+  await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
+  await acceptCookiesIfPresent(page);
+  await page.waitForTimeout(4000);
+  if (!/i=[0-9a-f-]{36}/i.test(page.url())) {
+    try {
+      await page.getByText(term, { exact: true }).first().click({ timeout: 8000 });
+      await page.waitForTimeout(4000);
+    } catch {
+      /* entry may load without explicit click */
+    }
+  }
+  const finalUrl = page.url();
+  let host;
+  try {
+    host = new URL(finalUrl).hostname;
+  } catch {
+    return { validated: false, reason: "BAD_URL", searchUrl, finalUrl };
+  }
+  if (!isHostnameAllowed(host, allowedDomains)) {
+    return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+  }
+  const text = await bodyText(page);
+  const guard = classifyBrowserText(text, finalUrl);
+  if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+  const folded = term.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+  const textFolded = text.normalize("NFD").replace(/\p{M}/gu, "");
+  if (!new RegExp(`\\b${folded.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(textFolded)) {
+    return { validated: false, reason: "entry_not_found", searchUrl, finalUrl };
+  }
+  if (!/Lietuvių kalbos žodynas|LKŽ/i.test(text) || !/\bsm\.|\bdv\.|\bv\.|gyvenam|trobes/i.test(text)) {
+    return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+  }
+  const parsed = extractHeadwordFragment(text, term, 30);
+  return {
+    validated: true,
+    searchUrl,
+    entryUrl: finalUrl,
+    headword: parsed?.headword || term,
+    fragment: parsed?.fragment || text.slice(0, 900),
+    entryOrRule: `LKŽ (eKalba): ${term}`,
+  };
+}
+
 async function flowPlWsjp(page, lookupTerm, allowedDomains) {
+  const term = String(lookupTerm || "").trim();
   const searchUrl = "https://wsjp.pl/";
-  await page.goto(searchUrl, { waitUntil: "domcontentloaded" });
+  await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
   await page.waitForTimeout(2000);
-  await page.locator("input").first().fill(lookupTerm);
+  const inp = page.locator("#tftextinput, input[name=szukaj]").first();
+  await inp.fill(term);
   await page.waitForTimeout(1500);
-  await page.keyboard.press("Enter");
-  await page.waitForTimeout(3500);
-  const esc = String(lookupTerm).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const entryHref = await page.evaluate((term) => {
-    const re = new RegExp(`^${term}$`, "i");
-    const a = [...document.querySelectorAll('a[href*="/haslo/"]')].find((el) => re.test(el.textContent.trim()));
+  await inp.press("Enter");
+  await page.waitForTimeout(4500);
+  const esc = String(term).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const entryHref = await page.evaluate((lemma) => {
+    const want = String(lemma || "").trim().toLowerCase();
+    const a = [...document.querySelectorAll('a[href*="/haslo/"]')].find(
+      (el) => el.textContent.trim().toLowerCase() === want,
+    );
     return a ? a.href : null;
-  }, lookupTerm);
+  }, term);
   if (entryHref) {
     await page.goto(entryHref, { waitUntil: "domcontentloaded" });
     await page.waitForTimeout(3500);
@@ -177,11 +314,11 @@ async function flowPlWsjp(page, lookupTerm, allowedDomains) {
   const text = await bodyText(page);
   const guard = classifyBrowserText(text, finalUrl);
   if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
-  const parsed = extractHeadwordFragment(text, lookupTerm);
+  const parsed = extractHeadwordFragment(text, term, 25);
   if (
     !parsed ||
     !/\/haslo\//i.test(finalUrl) ||
-    !/znaczenie|definicj|budyn|dom\b.*\bm\./i.test(parsed.fragment)
+    !/budynek|mieszkanie|znacze|rodzina|gospodarstwo|Hasło ma wiele/i.test(text)
   ) {
     return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
   }
@@ -391,11 +528,7 @@ const FLOW_RUNNERS = {
       searchUrlTemplate: (t) => `https://dicionario.acad-ciencias.pt/#/search/${encodeURIComponent(t)}`,
       validateRe: /substantivo|adjetivo|significado/i,
     }),
-  "uk-dictua": (page, term, allow) =>
-    flowGenericSearchUrl(page, term, allow, {
-      searchUrlTemplate: (t) => `https://lcorp.ulif.org.ua/dictua/#search=${encodeURIComponent(t)}`,
-      validateRe: /іменник|дієслово|значення/i,
-    }),
+  "uk-dictua": flowUkDictua,
   "ru-orfo": flowRuOrfo,
   "bg-beron": (page, term, allow) =>
     flowGenericSearchUrl(page, term, allow, {
@@ -413,11 +546,7 @@ const FLOW_RUNNERS = {
       searchUrlTemplate: (t) => `https://malid.is/leit?q=${encodeURIComponent(t)}`,
       validateRe: /.+/,
     }),
-  "lt-ekalba": (page, term, allow) =>
-    flowGenericSearchUrl(page, term, allow, {
-      searchUrlTemplate: (t) => `https://ekalba.lt/zodynas?q=${encodeURIComponent(t)}`,
-      validateRe: /daiktavardis|veiksmažodis|reikšm/i,
-    }),
+  "lt-ekalba": flowLtEkalbaLkz,
   "hu-nagyszotar": async (page, term, allow) => {
     const searchUrl = "https://nagyszotar.nytud.hu/index.html";
     await page.goto(searchUrl, { waitUntil: "domcontentloaded" });

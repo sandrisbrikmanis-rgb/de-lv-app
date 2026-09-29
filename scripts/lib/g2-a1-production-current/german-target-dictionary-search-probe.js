@@ -61,6 +61,98 @@ function extractGlosbeDictionarySection(text, lemma) {
   return uniq;
 }
 
+function extractLetonikaDeLvEntry(text, lemma) {
+  const esc = escapeRe(lemma);
+  if (!new RegExp(`${esc},\\s*das|${esc}\\s*,\\s*das`, "i").test(text)) return [];
+  const numbered = text.match(new RegExp(`${esc},\\s*das[\\s\\S]{0,200}?1\\.\\s*([^\\n]+)`, "i"));
+  if (numbered?.[1]) {
+    return numbered[1]
+      .split(/[,;]/)
+      .map((p) => cleanTarget(p))
+      .filter(Boolean)
+      .slice(0, 4);
+  }
+  const verbBlock = text.match(new RegExp(`${esc}[\\s\\S]{0,220}?1\\.\\s*([^\\n]+)`, "i"));
+  if (verbBlock?.[1]) {
+    return verbBlock[1]
+      .split(/[,;]/)
+      .map((p) => cleanTarget(p))
+      .filter(Boolean)
+      .slice(0, 4);
+  }
+  return [];
+}
+
+function extractEkalbaDeLtEntry(text, lemma) {
+  const esc = escapeRe(lemma);
+  const normalized = String(text || "").normalize("NFC");
+  const line =
+    normalized.match(new RegExp(`${esc}\\s+n\\s+-es[^\\n]+`, "i"))?.[0] ||
+    normalized.match(new RegExp(`${esc}\\s+I\\.\\s*vi[^\\n]+`, "i"))?.[0] ||
+    normalized.match(new RegExp(`${esc}\\s+vt[^\\n]+`, "i"))?.[0];
+  if (!line) return [];
+  const segment = line.split(";")[0];
+  const found = [];
+  for (const part of segment.split(",")) {
+    if (/-es\b/i.test(part) && !/[ãõęėįšųūž]/i.test(part)) continue;
+    let p = part.trim().replace(/^[ivx\d.]+\s*/i, "");
+    p = p.replace(/^(\p{Script=Latin}+(?:\s+\p{Script=Latin}+)*)\s+/u, "");
+    const words = p.split(/\s+/).filter(Boolean);
+    if (words.length >= 2) {
+      const ltWord = words.find((x) => /[ãõęėįšųūž]/i.test(x) || (!/[äöüß]/i.test(x) && x.length >= 4));
+      if (ltWord) p = ltWord;
+      else p = words[words.length - 1];
+    }
+    const w = cleanTarget(p);
+    if (!w || w.length < 3) continue;
+    if (/^[-–—]/.test(w)) continue;
+    if (/^(es|er|haus|häuser|n|vi|vt|mn|nach|zu|von)$/i.test(w)) continue;
+    if (/^[A-ZÄÖÜ]/.test(w)) continue;
+    if (/^[a-zäöüß-]+$/i.test(w) && !/[ãõęėįšųūž]/i.test(w)) continue;
+    found.push(w);
+  }
+  const seen = new Set();
+  return found.filter((w) => {
+    const k = w.toLowerCase();
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  }).slice(0, 4);
+}
+
+function extractPonsDeTarget(text, lemma) {
+  const esc = escapeRe(lemma);
+  if (!new RegExp(`\\b${esc}\\b`, "i").test(text)) return [];
+  const block = text.match(new RegExp(`1\\.\\s*${esc}:\\s*([\\s\\S]{0,500})`, "i"));
+  if (!block?.[1]) return [];
+  const lines = block[1].split("\n").map((l) => l.trim()).filter(Boolean);
+  const out = [];
+  for (const l of lines) {
+    if (/^SUBST|^VERB|^ADJ|Gebäude|Wohnung|^\d+\./i.test(l)) continue;
+    if (new RegExp(`^${esc}\\b`, "i").test(l)) continue;
+    const t = cleanTarget(l.replace(/\s+(m|f|nt|pl|mf|vi|präp)\.?$/i, ""));
+    if (t && t.length >= 2 && t.length <= 40) out.push(t);
+    if (out.length) break;
+  }
+  return out;
+}
+
+function extractLetonikaOrEkalbaForward(text, lemma, searchUrl) {
+  if (/letonika\.lv/i.test(searchUrl)) return extractLetonikaDeLvEntry(text, lemma);
+  if (/ekalba\.lt\/vokieciu-lietuviu/i.test(searchUrl)) return extractEkalbaDeLtEntry(text, lemma);
+  return [];
+}
+
+function extractReverseTargetDePair(pageText, targetLemma, deLemma) {
+  const text = String(pageText || "");
+  const deEsc = escapeRe(deLemma);
+  const tgtEsc = escapeRe(targetLemma);
+  if (!new RegExp(`\\b${deEsc}\\b`, "i").test(text)) return [];
+  if (!new RegExp(tgtEsc, "i").test(text)) return [];
+  const tgt = cleanTarget(targetLemma);
+  return tgt ? [tgt] : [];
+}
+
 function extractVokieciuLietuviu(text, lemma) {
   if (/Nėra vertimo/i.test(text)) return [];
   const blocklist = /^(Pradžia|Versti|Įveskite|Atraskite|draugai|©)/i;
@@ -132,6 +224,17 @@ function buildSearchUrlForCandidate(candidate, lemma) {
   if (/vokieciu-lietuviu\.com/i.test(candidate.url)) {
     return `http://www.vokieciu-lietuviu.com/?word=${encodeURIComponent(lemma)}`;
   }
+  if (/ekalba\.lt\/vokieciu-lietuviu/i.test(candidate.url)) {
+    return `https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/${encodeURIComponent(lemma)}?paieska=${encodeURIComponent(lemma)}`;
+  }
+  if (/ekalba\.lt\/lietuviu-vokieciu/i.test(candidate.url)) {
+    return `https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/${encodeURIComponent(lemma)}?paieska=${encodeURIComponent(lemma)}`;
+  }
+  if (/letonika\.lv/i.test(candidate.url)) {
+    const rMatch = candidate.url.match(/[?&]r=(\d+)/);
+    const r = rMatch ? rMatch[1] : "10311062";
+    return `https://www.letonika.lv/groups/default.aspx?g=2&r=${r}&q=${encodeURIComponent(lemma)}`;
+  }
   if (/pons\.com\/translate\//i.test(candidate.url)) {
     const base = candidate.url.replace(/\/$/, "");
     return `${base}/${encodeURIComponent(lemma)}`;
@@ -149,7 +252,8 @@ function buildSearchUrlForCandidate(candidate, lemma) {
     return `${base}/?w=${encodeURIComponent(lemma)}`;
   }
   if (/udew\.uni-leipzig\.de/i.test(candidate.url)) {
-    return `https://udew.uni-leipzig.de/udew/en/deutsch_ukrainisch_online.htm?input=${encodeURIComponent(lemma)}`;
+    const { buildUdewSearchUrl } = require("./udew-http-fetch");
+    return buildUdewSearchUrl(lemma);
   }
   if (/dict\.luxdico\.com/i.test(candidate.url)) {
     const l1 = candidate.luxdicoL1 || "deu";
@@ -163,6 +267,32 @@ function buildSearchUrlForCandidate(candidate, lemma) {
     return `https://www.multitran.com/m.exe?l1=3&l2=28&s=${encodeURIComponent(lemma)}`;
   }
   return buildSearchUrl(row, lemma);
+}
+
+async function deepenInstitutionalDictionaryPage(page, lemma, searchUrl) {
+  if (/letonika\.lv/i.test(searchUrl)) {
+    const href = await page.evaluate((lem) => {
+      const links = Array.from(document.querySelectorAll('a[href*="cid="]'));
+      for (const a of links) {
+        const t = (a.textContent || "").trim();
+        if (t.toLowerCase() === lem.toLowerCase()) return a.href;
+      }
+      return null;
+    }, lemma);
+    if (href) {
+      await page.goto(href, { waitUntil: "networkidle", timeout: 120000 }).catch(() => {});
+      await page.waitForTimeout(6000);
+    }
+    return;
+  }
+  if (/ekalba\.lt/i.test(searchUrl)) {
+    try {
+      await page.getByText(lemma, { exact: true }).first().click({ timeout: 8000 });
+      await page.waitForTimeout(4000);
+    } catch {
+      /* entry may already be open */
+    }
+  }
 }
 
 async function fetchDictionaryPageForCandidate(candidate, lemma) {
@@ -199,6 +329,30 @@ async function fetchDictionaryPageForCandidate(candidate, lemma) {
     });
   }
 
+  if (candidate.platform === "udew" || /udew\.uni-leipzig\.de/i.test(candidate.url)) {
+    const { fetchUdewHtml } = require("./udew-http-fetch");
+    try {
+      const uew = await fetchUdewHtml(lemma);
+      const blocked = !uew.html || uew.html.length < 400;
+      return {
+        blocked,
+        finalUrl: uew.finalUrl,
+        text: uew.text,
+        html: uew.html,
+        searchUrl: uew.searchUrl,
+      };
+    } catch (e) {
+      return {
+        blocked: true,
+        finalUrl: buildSearchUrlForCandidate(candidate, lemma),
+        text: "",
+        html: "",
+        searchUrl: buildSearchUrlForCandidate(candidate, lemma),
+        error: String(e.message || e),
+      };
+    }
+  }
+
   const searchUrl = buildSearchUrlForCandidate(candidate, lemma);
   const host = new URL(searchUrl).hostname;
   return withDomainBrowserSession(host, async (page) => {
@@ -206,7 +360,13 @@ async function fetchDictionaryPageForCandidate(candidate, lemma) {
     if (/pons\.com/i.test(searchUrl)) {
       await acceptPonsConsent(page);
     }
-    await page.waitForTimeout(8000);
+    await page.waitForTimeout(5000);
+    if (/letonika\.lv|ekalba\.lt/i.test(searchUrl)) {
+      await deepenInstitutionalDictionaryPage(page, lemma, searchUrl);
+    }
+    if (/pons\.com/i.test(searchUrl)) {
+      await page.waitForTimeout(4000);
+    }
     const finalUrl = page.url();
     const text = await page.evaluate(() => document.body?.innerText || "");
     if (/captcha|access denied|403 forbidden|cf-browser-verification/i.test(text)) {
@@ -294,33 +454,50 @@ function extractLodDeReverseApi(page, lemma) {
   }
 }
 
-function extractTranslations(page, lemma, searchUrl, appCode) {
+function extractTranslations(page, lemma, searchUrl, appCode, cardGerman = null) {
   if (page.blocked) return [];
+  const dictOpts = { partOfSpeech: cardGerman?.partOfSpeech };
   let translations = [];
   if (/lod\.lu\/api\/de\/search/i.test(searchUrl) || Array.isArray(page.lodLbHeadwords)) {
     translations = extractLodDeReverseApi(page, lemma);
   } else if (/vokieciu-lietuviu\.com/i.test(searchUrl)) {
     translations = extractVokieciuLietuviu(page.text, lemma);
+  } else if (/ekalba\.lt/i.test(searchUrl)) {
+    translations = extractLetonikaOrEkalbaForward(page.text, lemma, searchUrl);
+    if (!translations.length) translations = extractVokieciuLietuviu(page.text, lemma);
+    if (!translations.length) translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
+  } else if (/letonika\.lv/i.test(searchUrl)) {
+    translations = extractLetonikaOrEkalbaForward(page.text, lemma, searchUrl);
+    if (!translations.length) translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
+  } else if (/pons\.com/i.test(searchUrl)) {
+    translations = extractPonsDeTarget(page.text, lemma);
+    if (!translations.length) translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
   } else if (/dict\.cc/i.test(searchUrl)) {
-    translations = extractFromDictCcPlainText(page.text, lemma);
+    translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
   } else if (/glosbe\.com/i.test(searchUrl)) {
     translations = extractGlosbeDictionarySection(page.text, lemma);
     if (!translations.length) translations = extractFromGlosbeText(page.text, lemma);
-    if (!translations.length) translations = extractFromDictCcPlainText(page.text, lemma);
+    if (!translations.length) translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
   } else if (/lod\.lu/i.test(searchUrl)) {
     translations = extractLodAdvanced(page.text, lemma, appCode);
   } else if (/verbformen\.(de|com)/i.test(searchUrl)) {
     translations = extractVerbformen(page.text, lemma);
   } else if (/udew\.uni-leipzig\.de/i.test(searchUrl)) {
-    translations = extractUdek(page.text, lemma);
+    const { extractUdewUkrainianFromHtml } = require("./udew-http-fetch");
+    if (page.html) {
+      translations = extractUdewUkrainianFromHtml(page.html, lemma);
+    }
+    if (!translations.length) {
+      translations = extractUdek(page.text, lemma);
+    }
   } else if (/dicts\.info/i.test(searchUrl)) {
     translations = extractDictsInfo(page.text, lemma);
   } else if (/dict\.luxdico\.com/i.test(searchUrl)) {
     translations = extractLuxdico(page.text, lemma);
   } else if (/multitran\.com/i.test(searchUrl)) {
-    translations = extractFromDictCcPlainText(page.text, lemma);
+    translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
   } else {
-    translations = extractFromDictCcPlainText(page.text, lemma);
+    translations = extractFromDictCcPlainText(page.text, lemma, dictOpts);
     if (!translations.length && new RegExp(escapeRe(lemma), "i").test(page.text)) {
       const idx = page.text.search(new RegExp(escapeRe(lemma), "i"));
       const chunk = page.text.slice(idx, idx + 800);
@@ -483,6 +660,10 @@ async function probePilotWord(candidate, lemma, appCode, pilotWordSpec = null) {
 module.exports = {
   probePilotWord,
   buildSearchUrlForCandidate,
+  fetchDictionaryPageForCandidate,
+  extractTranslations,
+  extractReverseTargetDePair,
+  extractGlosbeDictionarySection,
   isGlosbeAutomaticOnly,
   isSubscriptionWall,
 };
