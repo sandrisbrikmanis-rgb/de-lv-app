@@ -1,13 +1,13 @@
 {
   "schemaVersion": "g2-a1-card-translation-32lang-full-v1",
-  "generatedAt": "2026-09-29T14:46:58.582Z",
+  "generatedAt": "2026-09-29T16:49:26.788Z",
   "expectedCount": 32,
   "verifiedLanguageCount": 32,
   "partialVerifyLangs": [
-    "uk"
+    "lt"
   ],
   "liveVerifiedThisRun": [
-    "uk"
+    "lt"
   ],
   "readyCount": 16,
   "remainingCount": 16,

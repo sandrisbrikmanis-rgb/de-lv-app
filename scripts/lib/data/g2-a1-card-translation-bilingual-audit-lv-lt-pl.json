@@ -122,7 +122,20 @@
           "portalUrl": "https://archive.org/details/zodynas-t.-5-1968"
         }
       ],
-      "collectorOverrideId": "ekalba-de-lt"
+      "collectorOverrideId": "ekalba-de-lt",
+      "sourceChainPriority": [
+        "primaryModern:de→lt (ekalba-de-lt)",
+        "primaryModern:lt→de (ekalba-lt-de)",
+        "targetOfficial:ekalba-lkž",
+        "supplementaryHistorical (LKI IA — only if both primaries fail)"
+      ],
+      "targetOfficial": {
+        "id": "ekalba-lkž",
+        "name": "Lietuvių kalbos žodynas (eKalba.lt / LKŽ)",
+        "portalUrl": "https://ekalba.lt/",
+        "adapterId": "lt-ekalba-browser-entry",
+        "role": "TARGET_LEMMA_VALIDATION"
+      }
     },
     "pl": {
       "primaryModern": [
@@ -156,7 +169,20 @@
           "portalUrl": "https://www.wbc.poznan.pl/dlibra/publication/150136"
         }
       ],
-      "collectorOverrideId": "pons-de-pl"
+      "collectorOverrideId": "pons-de-pl",
+      "sourceChainPriority": [
+        "primaryModern:de→pl (pons-de-pl)",
+        "primaryModern:pl→de (pons-pl-de)",
+        "targetOfficial:wsjp",
+        "supplementaryHistorical (IA / WBC — only if primaries fail)"
+      ],
+      "targetOfficial": {
+        "id": "wsjp",
+        "name": "Wielki słownik języka polskiego (wsjp.pl)",
+        "portalUrl": "https://wsjp.pl/",
+        "adapterId": "pl-wsjp-browser-entry",
+        "role": "TARGET_LEMMA_VALIDATION"
+      }
     }
   }
 }

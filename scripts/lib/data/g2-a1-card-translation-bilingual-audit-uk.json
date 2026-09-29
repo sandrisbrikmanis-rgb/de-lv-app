@@ -68,7 +68,20 @@
           "portalUrl": "https://dict.com/німецько-український"
         }
       ],
-      "collectorOverrideId": "udew-uk-de-bidir"
+      "collectorOverrideId": "udew-uk-de-bidir",
+      "sourceChainPriority": [
+        "primaryModern:de→uk (udew-uk-de-bidir)",
+        "primaryModern:uk→de (udew-uk-de-bidir-reverse)",
+        "targetOfficial:dictua",
+        "fallbackDigital:dict-cc-de-uk / dict-cc-uk-de (only if UDEW fails)"
+      ],
+      "targetOfficial": {
+        "id": "dictua",
+        "name": "Тлумачний словник української мови (DictUA / ULIF)",
+        "portalUrl": "https://lcorp.ulif.org.ua/dictua/",
+        "adapterId": "uk-dictua-browser-entry",
+        "role": "TARGET_LEMMA_VALIDATION"
+      }
     }
   }
 }
