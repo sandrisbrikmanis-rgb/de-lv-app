@@ -439,8 +439,8 @@ async function collectFromReversePrimaryCandidate(candidate, appLang, cardGerman
 
   let confirmed = extractReverseTargetDePair(page.text, target, deLemma);
   if (!confirmed.length && /udew\.uni-leipzig\.de/i.test(searchUrl) && page.html) {
-    const { extractUewGermanFromHtml } = require("./udew-http-fetch");
-    const germanHits = extractUewGermanFromHtml(page.html, deLemma);
+    const { extractUdewGermanFromHtml } = require("./udew-http-fetch");
+    const germanHits = extractUdewGermanFromHtml(page.html, deLemma);
     if (germanHits.some((g) => new RegExp(`^${deLemma}$`, "i").test(g))) {
       confirmed = [deLemma];
     }

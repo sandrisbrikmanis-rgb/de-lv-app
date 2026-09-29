@@ -252,8 +252,8 @@ function buildSearchUrlForCandidate(candidate, lemma) {
     return `${base}/?w=${encodeURIComponent(lemma)}`;
   }
   if (/udew\.uni-leipzig\.de/i.test(candidate.url)) {
-    const { buildUewSearchUrl } = require("./udew-http-fetch");
-    return buildUewSearchUrl(lemma);
+    const { buildUdewSearchUrl } = require("./udew-http-fetch");
+    return buildUdewSearchUrl(lemma);
   }
   if (/dict\.luxdico\.com/i.test(candidate.url)) {
     const l1 = candidate.luxdicoL1 || "deu";
@@ -330,9 +330,9 @@ async function fetchDictionaryPageForCandidate(candidate, lemma) {
   }
 
   if (candidate.platform === "udew" || /udew\.uni-leipzig\.de/i.test(candidate.url)) {
-    const { fetchUewHtml } = require("./udew-http-fetch");
+    const { fetchUdewHtml } = require("./udew-http-fetch");
     try {
-      const uew = await fetchUewHtml(lemma);
+      const uew = await fetchUdewHtml(lemma);
       const blocked = !uew.html || uew.html.length < 400;
       return {
         blocked,
@@ -483,9 +483,9 @@ function extractTranslations(page, lemma, searchUrl, appCode, cardGerman = null)
   } else if (/verbformen\.(de|com)/i.test(searchUrl)) {
     translations = extractVerbformen(page.text, lemma);
   } else if (/udew\.uni-leipzig\.de/i.test(searchUrl)) {
-    const { extractUewUkrainianFromHtml } = require("./udew-http-fetch");
+    const { extractUdewUkrainianFromHtml } = require("./udew-http-fetch");
     if (page.html) {
-      translations = extractUewUkrainianFromHtml(page.html, lemma);
+      translations = extractUdewUkrainianFromHtml(page.html, lemma);
     }
     if (!translations.length) {
       translations = extractUdek(page.text, lemma);

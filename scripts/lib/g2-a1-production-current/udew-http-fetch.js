@@ -10,12 +10,12 @@ const execFileAsync = promisify(execFile);
 const UDEW_SEARCH_BASE =
   "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm";
 
-function buildUewSearchUrl(lemma) {
+function buildUdewSearchUrl(lemma) {
   return `${UDEW_SEARCH_BASE}?input=${encodeURIComponent(lemma)}`;
 }
 
-async function fetchUewHtml(lemma) {
-  const searchUrl = buildUewSearchUrl(lemma);
+async function fetchUdewHtml(lemma) {
+  const searchUrl = buildUdewSearchUrl(lemma);
   let lastErr;
   for (let attempt = 0; attempt < 4; attempt += 1) {
     if (attempt) await new Promise((r) => setTimeout(r, 1500 * attempt));
@@ -46,7 +46,7 @@ function stripHtmlToText(html) {
     .trim();
 }
 
-function decodeUewLinkText(raw) {
+function decodeUdewLinkText(raw) {
   return cleanTarget(
     String(raw || "")
       .replace(/\(#[0-9]+\)/g, "")
@@ -55,7 +55,7 @@ function decodeUewLinkText(raw) {
 }
 
 /** DE→UK: Ukrainian equivalents linked from result page. */
-function extractUewUkrainianFromHtml(html, deLemma) {
+function extractUdewUkrainianFromHtml(html, deLemma) {
   if (!html || html.length < 200) return [];
   if (!new RegExp(`"${deLemma.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"`, "i").test(html)) {
     if (!new RegExp(`\\b${deLemma.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(html)) {
@@ -69,7 +69,7 @@ function extractUewUkrainianFromHtml(html, deLemma) {
   while ((m = linkRe.exec(html)) !== null) {
     const input = decodeURIComponent(m[1]);
     if (!/[\u0400-\u04FF]/.test(input) && !/[\u0400-\u04FF]/.test(m[2])) continue;
-    const word = decodeUewLinkText(m[2]);
+    const word = decodeUdewLinkText(m[2]);
     if (word && word.length >= 2 && word.length <= 80) out.push(word);
   }
   const seen = new Set();
@@ -82,7 +82,7 @@ function extractUewUkrainianFromHtml(html, deLemma) {
 }
 
 /** UK→DE: German gloss lines (after Ukrainian headword search). */
-function extractUewGermanFromHtml(html, deLemmaHint) {
+function extractUdewGermanFromHtml(html, deLemmaHint) {
   if (!html || html.length < 200) return [];
   const out = [];
   const pRe =
@@ -109,15 +109,31 @@ function extractUewGermanFromHtml(html, deLemmaHint) {
   });
 }
 
-function uewHasBelege(html, lemma) {
+function udewHasBelege(html, lemma) {
   return new RegExp(
     `Zu .*"${lemma.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}" .*liegen [0-9]+ Belege`,
     "i",
   ).test(html);
 }
 
+/** @deprecated use buildUdewSearchUrl */
+const buildUewSearchUrl = buildUdewSearchUrl;
+/** @deprecated use fetchUdewHtml */
+const fetchUewHtml = fetchUdewHtml;
+/** @deprecated */
+const extractUewUkrainianFromHtml = extractUdewUkrainianFromHtml;
+/** @deprecated */
+const extractUewGermanFromHtml = extractUdewGermanFromHtml;
+/** @deprecated */
+const uewHasBelege = udewHasBelege;
+
 module.exports = {
   UDEW_SEARCH_BASE,
+  buildUdewSearchUrl,
+  fetchUdewHtml,
+  extractUdewUkrainianFromHtml,
+  extractUdewGermanFromHtml,
+  udewHasBelege,
   buildUewSearchUrl,
   fetchUewHtml,
   extractUewUkrainianFromHtml,

@@ -27,6 +27,93 @@ function isLikelyNoResults(text) {
   );
 }
 
+function foldUkLemma(value) {
+  return String(value || "")
+    .trim()
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .normalize("NFC")
+    .toLowerCase();
+}
+
+function headwordFromDictUaArticleHtml(html, lookupTerm) {
+  const m = String(html || "").match(/class="word_style"\s*>([^<]+)</i);
+  if (!m) return null;
+  const raw = m[1].replace(/\s+/g, " ").trim();
+  if (foldUkLemma(raw) !== foldUkLemma(lookupTerm)) return null;
+  return String(lookupTerm).trim();
+}
+
+async function flowUkDictua(page, lookupTerm, allowedDomains) {
+  const term = String(lookupTerm || "").trim();
+  const searchUrl = `https://lcorp.ulif.org.ua/dictua/?s=${encodeURIComponent(term)}`;
+  await page.goto("https://lcorp.ulif.org.ua/dictua/", { waitUntil: "domcontentloaded", timeout: 90000 });
+  await acceptCookiesIfPresent(page);
+  await page.waitForTimeout(2000);
+  const inp = page.locator("#ContentPlaceHolder1_tsearch");
+  await inp.fill(term);
+  await page.locator("#ContentPlaceHolder1_search").click();
+  await page.waitForTimeout(5500);
+  const want = foldUkLemma(term);
+  const picked = await page.evaluate((wantLemma) => {
+    function fold(s) {
+      return String(s || "")
+        .trim()
+        .normalize("NFD")
+        .replace(/\p{M}/gu, "")
+        .normalize("NFC")
+        .toLowerCase();
+    }
+    for (const a of document.querySelectorAll("#ContentPlaceHolder1_dgv a")) {
+      if (fold(a.textContent) === wantLemma) {
+        a.click();
+        return true;
+      }
+    }
+    return false;
+  }, want);
+  if (picked) await page.waitForTimeout(4500);
+  let finalUrl = page.url();
+  let host;
+  try {
+    host = new URL(finalUrl).hostname;
+  } catch {
+    return { validated: false, reason: "BAD_URL", searchUrl, finalUrl };
+  }
+  if (!isHostnameAllowed(host, allowedDomains)) {
+    return { validated: false, reason: "DOMAIN_REJECTED", searchUrl, finalUrl };
+  }
+  let articleHtml = await page.locator("#ContentPlaceHolder1_article").innerHTML().catch(() => "");
+  let headword = headwordFromDictUaArticleHtml(articleHtml, term);
+  if (!headword) {
+    await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
+    await page.waitForTimeout(4000);
+    finalUrl = page.url();
+    articleHtml = await page.locator("#ContentPlaceHolder1_article").innerHTML().catch(() => "");
+    headword = headwordFromDictUaArticleHtml(articleHtml, term);
+  }
+  const text = await bodyText(page);
+  const guard = classifyBrowserText(text, finalUrl);
+  if (guard.blocked) return { validated: false, reason: guard.reason, searchUrl, finalUrl };
+  if (!headword) {
+    return { validated: false, reason: "entry_not_found", searchUrl, finalUrl };
+  }
+  const fragment = extractHeadwordFragment(text, term, 25);
+  const fragText = fragment?.fragment || text.slice(0, 900);
+  if (!/іменник|дієслово|прикметник|значення/i.test(fragText)) {
+    return { validated: false, reason: "parse_failed", searchUrl, finalUrl };
+  }
+  const entryUrl = searchUrl;
+  return {
+    validated: true,
+    searchUrl,
+    entryUrl,
+    headword,
+    fragment: fragText,
+    entryOrRule: `DictUA (ULIF): ${headword}`,
+  };
+}
+
 function extractHeadwordFragment(text, lookupTerm, minFrag = 40) {
   if (isLikelyNoResults(text)) return null;
   const esc = String(lookupTerm).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -441,11 +528,7 @@ const FLOW_RUNNERS = {
       searchUrlTemplate: (t) => `https://dicionario.acad-ciencias.pt/#/search/${encodeURIComponent(t)}`,
       validateRe: /substantivo|adjetivo|significado/i,
     }),
-  "uk-dictua": (page, term, allow) =>
-    flowGenericSearchUrl(page, term, allow, {
-      searchUrlTemplate: (t) => `https://lcorp.ulif.org.ua/dictua/#search=${encodeURIComponent(t)}`,
-      validateRe: /іменник|дієслово|значення/i,
-    }),
+  "uk-dictua": flowUkDictua,
   "ru-orfo": flowRuOrfo,
   "bg-beron": (page, term, allow) =>
     flowGenericSearchUrl(page, term, allow, {
