@@ -253,9 +253,9 @@ const BEST_FOUND_SOURCE = {
       "Round 2 nav apstiprinājis **pilnībā atvēru** modernu DE↔BG PDF: Stameva 2004 IA ir LCP/Borrow (PDF nav `%PDF`, OCR 172 B). Labākais **leksikons** joprojām Miladinov (NSI vol.I DE→BG + HathiTrust/NSI vol.II BG→DE), bet PDF šajā vidē nav atvērts (Cloudflare/Hathi bot siena). MultiSlavDict 1927 ir meklējams, bet nav PDF.",
   },
   bs: {
-    id: "vukic-2018-print",
+    id: "NOT_FOUND_DIGITIZED",
     rationale:
-      "Joprojām nav atklāts vispārīgs **atvērts** DE↔BS PDF (IA meklēšana 0 hitu). Tuvākais pilna apjoma institucionālais avots ir Vukić (836 lp., abi virzieni, 2018) — tikai drukāts/katalogs; hr Kružić noraidīts.",
+      "Nav digitizēta DE↔BS vārdnīcas avota. Vukić u.c. ir **tikai nopērkamas fiziskas grāmatas** (bookstore/katalogs) — ne audit avots. hr Kružić noraidīts.",
   },
 };
 

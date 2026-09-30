@@ -10,7 +10,7 @@ Pilotlemmas (DE): **Haus, arbeiten, Kleingeld, bewirten, Grenzkonflikt, Machtgie
 |------|-----|------------|
 | **fr** | `sachs-villatte-1906` | Atvērts IA PDF (~2140 lp.), abpusējs enciklopēdisks DE↔FR vienā sējumā, OCR `_djvu.txt` (~22 MB) ar pilotiem `arbeiten`, `bewirten`; jaunāks un platāks par Mozin 1823–1828. |
 | **bg** | `miladinov-institutional-pair` | Round 2 nav apstiprinājis **pilnībā atvēru** modernu DE↔BG PDF: Stameva 2004 IA ir LCP/Borrow (PDF nav `%PDF`, OCR 172 B). Labākais **leksikons** joprojām Miladinov (NSI vol.I DE→BG + HathiTrust/NSI vol.II BG→DE), bet PDF šajā vidē nav atvērts (Cloudflare/Hathi bot siena). MultiSlavDict 1927 ir meklējams, bet nav PDF. |
-| **bs** | `vukic-2018-print` | Joprojām nav atklāts vispārīgs **atvērts** DE↔BS PDF (IA meklēšana 0 hitu). Tuvākais pilna apjoma institucionālais avots ir Vukić (836 lp., abi virzieni, 2018) — tikai drukāts/katalogs; hr Kružić noraidīts. |
+| **bs** | `NOT_FOUND_DIGITIZED` | Nav digitizēta DE↔BS vārdnīca. Vukić u.c. ir **tikai nopērkamas fiziskas grāmatas** — ne audit avots. |
 
 ## fr
 

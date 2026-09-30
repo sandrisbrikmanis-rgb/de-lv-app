@@ -140,11 +140,12 @@ const CANDIDATES = {
       year: 2018,
       authorPublisher: "Mario Vukić (priredio); Dječija knjiga, Sarajevo",
       direction: "DE↔BS (single printed volume)",
-      accessType: "Print / bookstore catalog only — no digitized scan found",
+      accessType: "Physical purchase only (bookstore) — not an audit source",
+      auditVerdict: "REJECTED_PHYSICAL_PURCHASE_ONLY",
       catalogUrl: "https://bookstore.ba/knjiga/njemacko-bosanski-i-bosansko-njemacki-rjecnik",
       approximateScope: "~836 pp",
-      ocrRequired: "N/A until scan exists",
-      betterThanRound2: false,
+      ocrRequired: "N/A",
+      note: "Known full-scope lexicon in BiH, but only as a buyable printed book — excluded from BEST_FOUND.",
     },
     {
       id: "vukic-1998-heidelberg",
@@ -152,11 +153,11 @@ const CANDIDATES = {
       year: 1998,
       authorPublisher: "Mario Vukić; Svjetlost, Sarajevo",
       direction: "DE↔BS",
-      accessType: "Library holding (UB Heidelberg)",
+      accessType: "Physical library copy — no digitized scan",
+      auditVerdict: "REJECTED_NO_DIGITIZED_ACCESS",
       catalogUrl: "https://katalog.ub.uni-heidelberg.de/titel/9900267",
       approximateScope: "857 S.",
       ocrRequired: "N/A",
-      betterThanRound2: false,
     },
     {
       id: "marojevic-1999-school",
@@ -164,10 +165,10 @@ const CANDIDATES = {
       year: 1999,
       authorPublisher: "Slavko Marojević, Milica Marojević; Sarajevo Publishing",
       direction: "DE→BS (school, not full encyclopedic)",
-      accessType: "Print catalog only",
+      accessType: "Physical purchase only",
+      auditVerdict: "REJECTED_PHYSICAL_PURCHASE_ONLY",
       catalogUrl: "https://www.knjiga.ba/strani-jezici/rjecnici/jednojezicni-rjecnici/njemacko-bosanski-rjecnik-za-osnovnu-skolu-b1699.html",
       ocrRequired: "N/A",
-      betterThanRound2: "smaller scope",
     },
     {
       id: "kruzic-hr-rejected",
@@ -192,9 +193,9 @@ const BEST_FOUND_SOURCE = {
       "Apstiprināts **reāli atverams lapu attēlu** avots: BSB/MDZ IIIF (vol. I, 1897, Miladinov DE→BG; IIIF indeksa probes ~636–790 lapu atkarībā no caurumu skaita). OCR nav vajadzīgs skatīšanai. Pilnam DE↔BG pārim pievienot HathiTrust vol. II (BG→DE skeni) vai MultiSlavDict 1927.",
   },
   bs: {
-    id: null,
+    id: "NOT_FOUND_DIGITIZED",
     rationale:
-      "Pēc paplašinātas meklēšanas (IA, Europeana, DDB API, LoC) **nav** identificēts digitizēts **vispārīgs** DE↔BS vārdnīcas lapu skens. Tuvākais pilna apjoma avots joprojām Vukić (2018, ~836 lp., drukāts). hr Kružić noraidīts.",
+      "Digitizēts DE↔BS vārdnīcas avots **nav atrasts**. Vukić / Marojević / knižaru katalogi ir **tikai nopērkamas fiziskas grāmatas** — netiek lietoti kā BEST_FOUND. hr Kružić (atvērts IA skens) nav bosniešu mērķvaloda.",
   },
 };
 
@@ -256,7 +257,7 @@ function main() {
     `- **IIIF piemērs:** https://api.digitale-sammlungen.de/iiif/image/v2/bsb11814571_00017/full/full/0/default.jpg`,
     `- **Pāris BG→DE:** ${BEST_FOUND_SOURCE.bg.pairWith}`,
     "",
-    `### bs — ${BEST_FOUND_SOURCE.bs.id ? `\`${BEST_FOUND_SOURCE.bs.id}\`` : "**nav digitizēta skena**"}`,
+    `### bs — \`${BEST_FOUND_SOURCE.bs.id}\``,
     "",
     BEST_FOUND_SOURCE.bs.rationale,
     "",

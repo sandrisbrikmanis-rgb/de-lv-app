@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-pdf-bilingual-dictionary-bg-bs-scanned-round3-v1",
-  "generatedAt": "2026-09-30T15:26:49.311Z",
+  "generatedAt": "2026-09-30T15:36:02.638Z",
   "scope": "bg + bs only; accepts scan/page-image access without OCR",
   "languages": {
     "bg": [
@@ -151,11 +151,12 @@
         "year": 2018,
         "authorPublisher": "Mario Vukić (priredio); Dječija knjiga, Sarajevo",
         "direction": "DE↔BS (single printed volume)",
-        "accessType": "Print / bookstore catalog only — no digitized scan found",
+        "accessType": "Physical purchase only (bookstore) — not an audit source",
+        "auditVerdict": "REJECTED_PHYSICAL_PURCHASE_ONLY",
         "catalogUrl": "https://bookstore.ba/knjiga/njemacko-bosanski-i-bosansko-njemacki-rjecnik",
         "approximateScope": "~836 pp",
-        "ocrRequired": "N/A until scan exists",
-        "betterThanRound2": false,
+        "ocrRequired": "N/A",
+        "note": "Known full-scope lexicon in BiH, but only as a buyable printed book — excluded from BEST_FOUND.",
         "pageImageProbe": null
       },
       {
@@ -164,11 +165,11 @@
         "year": 1998,
         "authorPublisher": "Mario Vukić; Svjetlost, Sarajevo",
         "direction": "DE↔BS",
-        "accessType": "Library holding (UB Heidelberg)",
+        "accessType": "Physical library copy — no digitized scan",
+        "auditVerdict": "REJECTED_NO_DIGITIZED_ACCESS",
         "catalogUrl": "https://katalog.ub.uni-heidelberg.de/titel/9900267",
         "approximateScope": "857 S.",
         "ocrRequired": "N/A",
-        "betterThanRound2": false,
         "pageImageProbe": null
       },
       {
@@ -177,10 +178,10 @@
         "year": 1999,
         "authorPublisher": "Slavko Marojević, Milica Marojević; Sarajevo Publishing",
         "direction": "DE→BS (school, not full encyclopedic)",
-        "accessType": "Print catalog only",
+        "accessType": "Physical purchase only",
+        "auditVerdict": "REJECTED_PHYSICAL_PURCHASE_ONLY",
         "catalogUrl": "https://www.knjiga.ba/strani-jezici/rjecnici/jednojezicni-rjecnici/njemacko-bosanski-rjecnik-za-osnovnu-skolu-b1699.html",
         "ocrRequired": "N/A",
-        "betterThanRound2": "smaller scope",
         "pageImageProbe": null
       },
       {
@@ -202,11 +203,11 @@
     "bg": {
       "id": "mdz-bsb-miladinov-vol1-1897",
       "pairWith": "hathitrust-miladinov-vol2 (BG→DE) or multislavdict-miladinov-1927",
-      "rationale": "Pirmoreiz apstiprināts **reāli atverams lapu attēlu** avots: BSB/MDZ IIIF (~790+ lapu vol. I, 1897, Miladinov DE→BG). OCR nav vajadzīgs skatīšanai. Pilnam DE↔BG pārim pievienot HathiTrust vol. II (BG→DE skeni) vai MultiSlavDict 1927."
+      "rationale": "Apstiprināts **reāli atverams lapu attēlu** avots: BSB/MDZ IIIF (vol. I, 1897, Miladinov DE→BG; IIIF indeksa probes ~636–790 lapu atkarībā no caurumu skaita). OCR nav vajadzīgs skatīšanai. Pilnam DE↔BG pārim pievienot HathiTrust vol. II (BG→DE skeni) vai MultiSlavDict 1927."
     },
     "bs": {
-      "id": null,
-      "rationale": "Pēc paplašinātas meklēšanas (IA, Europeana, DDB API, LoC) **nav** identificēts digitizēts **vispārīgs** DE↔BS vārdnīcas lapu skens. Tuvākais pilna apjoma avots joprojām Vukić (2018, ~836 lp., drukāts). hr Kružić noraidīts."
+      "id": "NOT_FOUND_DIGITIZED",
+      "rationale": "Digitizēts DE↔BS vārdnīcas avots **nav atrasts**. Vukić / Marojević / knižaru katalogi ir **tikai nopērkamas fiziskas grāmatas** — netiek lietoti kā BEST_FOUND. hr Kružić (atvērts IA skens) nav bosniešu mērķvaloda."
     }
   },
   "methodology": "Europeana/DDB discovery + MDZ IIIF HTTP probes + prior round-2 negatives for bs. No production/MASTER/OWNER changes."
