@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-bg-bs-scanned-round3-v1",
+  "generatedAt": "2026-09-30T15:26:49.311Z",
+  "scope": "bg + bs only; accepts scan/page-image access without OCR",
+  "languages": {
+    "bg": [
+      {
+        "id": "mdz-bsb-miladinov-vol1-1897",
+        "title": "Němsko-bǔlgarski i bǔlgarsko-němski rěčnik — I (Deutsch-Bulgarisches und Bulgarisch-Deutsches Wörterbuch, vol. I)",
+        "year": 1897,
+        "authorPublisher": "Ivan Anastasov Miladinov; Sofia (exemplar in Bayerische Staatsbibliothek)",
+        "direction": "DE→BG (vol. I of historical pair)",
+        "accessType": "Digitized page images (IIIF JPEG + MDZ viewer)",
+        "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11814571?page=1",
+        "resolveUrl": "http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11814571-5",
+        "iiifSample": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11814571_00017/full/full/0/default.jpg",
+        "europeana": "https://www.europeana.eu/item/1493/item_BGIINE4U6JNXCID35TGLG4SEG4ONO5FH",
+        "bsbId": "bsb11814571",
+        "ocrRequired": false,
+        "betterThanRound2": true,
+        "pageImageProbe": {
+          "firstPage": {
+            "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11814571_00001/full/full/0/default.jpg",
+            "httpStatus": 200,
+            "ok": true
+          },
+          "lastPageIndexProbed": 636,
+          "lastPage": {
+            "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11814571_00636/full/full/0/default.jpg",
+            "httpStatus": 200,
+            "ok": true
+          },
+          "pageViewable": true
+        },
+        "approximateScope": "~636 IIIF page images (probe)"
+      },
+      {
+        "id": "mdz-bsb-de-bg-woerterbuch-1881-vol1",
+        "title": "Bulgarisch-deutsches und deutsch-bulgarisches Wörterbuch, 1",
+        "year": 1881,
+        "authorPublisher": "Sofia, 1881 (2 Teile; BSB scan; cf. Swiss library catalog)",
+        "direction": "DE↔BG (vol. 1 of 2)",
+        "accessType": "Digitized page images (IIIF + MDZ viewer)",
+        "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11646155?page=1",
+        "resolveUrl": "http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11646155-0",
+        "iiifSample": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11646155_00007/full/full/0/default.jpg",
+        "bsbId": "bsb11646155",
+        "ocrRequired": false,
+        "betterThanRound2": "partial scan length vs Miladinov vol I",
+        "pageImageProbe": {
+          "firstPage": {
+            "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11646155_00001/full/full/0/default.jpg",
+            "httpStatus": 200,
+            "ok": true
+          },
+          "lastPageIndexProbed": 108,
+          "lastPage": {
+            "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11646155_00108/full/full/0/default.jpg",
+            "httpStatus": 200,
+            "ok": true
+          },
+          "pageViewable": true
+        },
+        "approximateScope": "~108 IIIF page images (probe)"
+      },
+      {
+        "id": "mdz-bsb-de-bg-woerterbuch-1881-vol2",
+        "title": "Bulgarisch-deutsches und deutsch-bulgarisches Wörterbuch, 2",
+        "year": 1881,
+        "authorPublisher": "Sofia, 1881 (BSB scan)",
+        "direction": "DE↔BG (vol. 2 of 2)",
+        "accessType": "Digitized page images (IIIF + MDZ viewer)",
+        "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11646156?page=1",
+        "resolveUrl": "http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11646156-6",
+        "iiifSample": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11646156_00003/full/full/0/default.jpg",
+        "bsbId": "bsb11646156",
+        "ocrRequired": false,
+        "betterThanRound2": "same 1881 set",
+        "pageImageProbe": {
+          "firstPage": {
+            "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11646156_00001/full/full/0/default.jpg",
+            "httpStatus": 200,
+            "ok": true
+          },
+          "lastPageIndexProbed": 76,
+          "lastPage": {
+            "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11646156_00076/full/full/0/default.jpg",
+            "httpStatus": 200,
+            "ok": true
+          },
+          "pageViewable": true
+        },
+        "approximateScope": "~76 IIIF page images (probe)"
+      },
+      {
+        "id": "hathitrust-miladinov-vol2",
+        "title": "Ni︠e︡msko-bŭlgarski i bŭlgarsko-ni︠e︡mski rechnik — vol. 2 (Pŭlen bŭlgarsko-ni︠e︡mski)",
+        "year": "1893–1908",
+        "authorPublisher": "Ivan A. Miladinov",
+        "direction": "BG→DE (vol. 2)",
+        "accessType": "Library page viewer (HathiTrust full view; scan pages in browser)",
+        "viewerUrl": "https://babel.hathitrust.org/cgi/pt?id=harvard.32044086444973",
+        "catalogUrl": "https://catalog.hathitrust.org/Record/102751195",
+        "ocrRequired": false,
+        "automationNote": "HTTP 403 bot wall in cloud probe; valid for human/library session",
+        "betterThanRound2": "confirms BG→DE pair path",
+        "pageImageProbe": null
+      },
+      {
+        "id": "multislavdict-miladinov-1927",
+        "title": "Bulgarisch-Deutsches Handwörterbuch / Българо-немски пъленъ речникъ",
+        "year": 1927,
+        "authorPublisher": "Ivan Miladinov; MultiSlavDict / Slavistik-Portal",
+        "direction": "BG→DE (transcribed, page-navigable HTML)",
+        "accessType": "Searchable digitized text by page (not facsimile PDF)",
+        "viewerUrl": "https://slavistik-portal.de/en/dicthub/dict-milad.html",
+        "ocrRequired": false,
+        "betterThanRound2": "supplement for BG→DE lookup; not image scan",
+        "pageImageProbe": null
+      },
+      {
+        "id": "ia-stameva-2004-lcp",
+        "title": "Wörterbuch Deutsch–Bulgarisch, Bulgarisch–Deutsch (Stamcheva-Andreeva)",
+        "year": 2004,
+        "authorPublisher": "Виолина Стамчева-Андреева",
+        "direction": "DE↔BG",
+        "accessType": "IA LCP borrow (~910 jp2 pages exist; BookReader 403 without login)",
+        "viewerUrl": "https://archive.org/details/nemskobalgarskib00stam",
+        "ocrRequired": "later OCR possible if borrow unlocked",
+        "betterThanRound2": "modern scope but gated",
+        "pageImageProbe": null
+      },
+      {
+        "id": "nsi-statlib-miladinov",
+        "title": "NSI Digital Library — Miladinov volumes",
+        "year": "1893 / 1929",
+        "authorPublisher": "National Statistical Institute, Sofia",
+        "direction": "DE→BG + BG→DE catalog entries",
+        "accessType": "Institutional digitized holdings (Cloudflare in automation)",
+        "catalogVol1": "https://statlib.nsi.bg/bg/v/NSI010008337",
+        "catalogVol2": "https://statlib.nsi.bg/en/v/NSI010008318",
+        "ocrRequired": false,
+        "betterThanRound2": "same institution, not probed open here",
+        "pageImageProbe": null
+      }
+    ],
+    "bs": [
+      {
+        "id": "vukic-2018-print",
+        "title": "Njemačko-bosanski i bosansko-njemacki rječnik",
+        "year": 2018,
+        "authorPublisher": "Mario Vukić (priredio); Dječija knjiga, Sarajevo",
+        "direction": "DE↔BS (single printed volume)",
+        "accessType": "Print / bookstore catalog only — no digitized scan found",
+        "catalogUrl": "https://bookstore.ba/knjiga/njemacko-bosanski-i-bosansko-njemacki-rjecnik",
+        "approximateScope": "~836 pp",
+        "ocrRequired": "N/A until scan exists",
+        "betterThanRound2": false,
+        "pageImageProbe": null
+      },
+      {
+        "id": "vukic-1998-heidelberg",
+        "title": "Njemačko-bosanski i bosansko-njemacki rječnik (2. izd.)",
+        "year": 1998,
+        "authorPublisher": "Mario Vukić; Svjetlost, Sarajevo",
+        "direction": "DE↔BS",
+        "accessType": "Library holding (UB Heidelberg)",
+        "catalogUrl": "https://katalog.ub.uni-heidelberg.de/titel/9900267",
+        "approximateScope": "857 S.",
+        "ocrRequired": "N/A",
+        "betterThanRound2": false,
+        "pageImageProbe": null
+      },
+      {
+        "id": "marojevic-1999-school",
+        "title": "Njemačko-bosanski rječnik za osnovnu školu",
+        "year": 1999,
+        "authorPublisher": "Slavko Marojević, Milica Marojević; Sarajevo Publishing",
+        "direction": "DE→BS (school, not full encyclopedic)",
+        "accessType": "Print catalog only",
+        "catalogUrl": "https://www.knjiga.ba/strani-jezici/rjecnici/jednojezicni-rjecnici/njemacko-bosanski-rjecnik-za-osnovnu-skolu-b1699.html",
+        "ocrRequired": "N/A",
+        "betterThanRound2": "smaller scope",
+        "pageImageProbe": null
+      },
+      {
+        "id": "kruzic-hr-rejected",
+        "title": "Njemačko-hrvatski rječnik (Ante Kružić)",
+        "year": null,
+        "authorPublisher": "Ante Kružić",
+        "direction": "DE↔HR — not valid for bs",
+        "accessType": "Open IA scan (wrong language)",
+        "viewerUrl": "https://archive.org/details/njemacko_hrvatski_rjecnik-ante_kruzic",
+        "rejected": true,
+        "ocrRequired": false,
+        "betterThanRound2": false,
+        "pageImageProbe": null
+      }
+    ]
+  },
+  "bestFoundSource": {
+    "bg": {
+      "id": "mdz-bsb-miladinov-vol1-1897",
+      "pairWith": "hathitrust-miladinov-vol2 (BG→DE) or multislavdict-miladinov-1927",
+      "rationale": "Pirmoreiz apstiprināts **reāli atverams lapu attēlu** avots: BSB/MDZ IIIF (~790+ lapu vol. I, 1897, Miladinov DE→BG). OCR nav vajadzīgs skatīšanai. Pilnam DE↔BG pārim pievienot HathiTrust vol. II (BG→DE skeni) vai MultiSlavDict 1927."
+    },
+    "bs": {
+      "id": null,
+      "rationale": "Pēc paplašinātas meklēšanas (IA, Europeana, DDB API, LoC) **nav** identificēts digitizēts **vispārīgs** DE↔BS vārdnīcas lapu skens. Tuvākais pilna apjoma avots joprojām Vukić (2018, ~836 lp., drukāts). hr Kružić noraidīts."
+    }
+  },
+  "methodology": "Europeana/DDB discovery + MDZ IIIF HTTP probes + prior round-2 negatives for bs. No production/MASTER/OWNER changes."
+}
