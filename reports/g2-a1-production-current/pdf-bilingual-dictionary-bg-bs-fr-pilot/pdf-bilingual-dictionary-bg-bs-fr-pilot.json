@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-bg-bs-fr-pilot-v1",
+  "generatedAt": "2026-09-30T14:59:45.054Z",
+  "pilotLemmasDe": [
+    "Haus",
+    "arbeiten",
+    "Kleingeld",
+    "bewirten",
+    "Grenzkonflikt",
+    "Machtgier"
+  ],
+  "productionHausTarget": {
+    "bg": "къща",
+    "bs": "kuća",
+    "fr": "Maison"
+  },
+  "languages": {
+    "fr": {
+      "status": "READY",
+      "publisher": "Mozin, Biber, Hölder; J. G. Cotta (Stuttgart/Tübingen); digitālie skeni: Internet Archive + BnF Gallica",
+      "deToTarget": {
+        "title": "Neues vollständiges Wörterbuch der deutschen und französischen Sprache — Deutscher Theil, A–K (1823)",
+        "pdfUrl": "https://archive.org/download/bub_gb_qCwCncvvUEYC/bub_gb_qCwCncvvUEYC.pdf",
+        "viewerUrl": "https://archive.org/details/bub_gb_qCwCncvvUEYC",
+        "ocrUrl": "https://archive.org/download/bub_gb_qCwCncvvUEYC/bub_gb_qCwCncvvUEYC_djvu.txt",
+        "direction": "de→fr",
+        "bothDirectionsInOneWork": true
+      },
+      "targetToDe": {
+        "title": "Dictionnaire complet des langues française et allemande — Partie française, vol. 1 (BnF/BSB scan)",
+        "pdfUrl": "https://archive.org/download/11419831bsb/11419831bsb.pdf",
+        "viewerUrl": "https://archive.org/details/11419831bsb",
+        "ocrUrl": "https://archive.org/download/11419831bsb/11419831bsb_djvu.txt",
+        "direction": "fr→de",
+        "bothDirectionsInOneWork": true
+      },
+      "mirror": {
+        "gallicaLz": "https://gallica.bnf.fr/ark:/12148/bpt6k2057367",
+        "note": "Gallica L–Z German part + OCR texteBrut; A–K Gallica ARK returns HTTP 400 in this environment — IA A–K used for Haus pilot."
+      }
+    },
+    "bg": {
+      "status": "PARTIAL",
+      "publisher": "Ivan A. Miladinov; Sofia (Bratya Miladinovi / later editions); NALIS + NSI statlib + HathiTrust",
+      "deToTarget": {
+        "title": "Немско-български и българско-немски речник, I Немско-българска част (1893)",
+        "pdfUrl": null,
+        "catalogUrl": "https://statlib.nsi.bg/bg/v/NSI010008337",
+        "nalisUrl": "https://unicat.nalis.bg/Record/LSU.000120189",
+        "direction": "de→bg",
+        "bothDirectionsInOneWork": false,
+        "livePdfVerified": false,
+        "blockReason": "statlib.nsi.bg Cloudflare block in automated probe; no Internet Archive mirror found"
+      },
+      "targetToDe": {
+        "title": "Пълен българско-немски речник (vol. 2, 1893–1908) / Bulgarisch-deutsches Handwörterbuch",
+        "pdfUrl": null,
+        "catalogUrl": "https://catalog.hathitrust.org/Record/102751195",
+        "statlib1929": "https://statlib.nsi.bg/en/v/NSI010008318",
+        "direction": "bg→de",
+        "bothDirectionsInOneWork": false,
+        "livePdfVerified": false,
+        "blockReason": "HathiTrust full view v.2 (Harvard) not fetched (bot wall); NSI vol. II catalog only this run"
+      },
+      "rejected": [
+        {
+          "title": "Bulgarisch-Deutsches Phraseologisches Wörterbuch (1977)",
+          "reason": "Phraseological only — not full bilingual lexicon for card audit"
+        }
+      ]
+    },
+    "bs": {
+      "status": "NOT_FOUND",
+      "publisher": null,
+      "deToTarget": null,
+      "targetToDe": null,
+      "catalogOnly": [
+        {
+          "title": "Njemačko - bosanski i bosansko - njemački rječnik (Mario Vukić, Dječija knjiga, 2018)",
+          "url": "https://www.knjiga.ba/strani-jezici/njemacko-bosanski-i-bosansko-njemacki-rjecnik-m8210.html",
+          "note": "Print textbook — no public PDF scan identified"
+        },
+        {
+          "title": "Bosansko-njemački frazeološki rječnik (Zrinka Ćoralić, 2013)",
+          "url": "https://idoc.pub/documents/bosansko-njemacki-frazeoloski-rjecnik-6nq8qyp3o1nw",
+          "note": "Phraseological — not DE↔BS general dictionary; not audit-grade"
+        }
+      ],
+      "rejectedProxies": [
+        {
+          "title": "Njemačko-hrvatski rječnik (Ante Kružić, IA)",
+          "url": "https://archive.org/details/njemacko_hrvatski_rjecnik-ante_kruzic",
+          "reason": "Croatian (hr), not Bosnian (bs)"
+        }
+      ]
+    }
+  },
+  "pilotVerification": {
+    "fr": {
+      "deToTarget": [
+        {
+          "deLemma": "Haus",
+          "verified": true,
+          "snippet": "-grumd, -Mege- -wunn; - male, f. (Wep chausse, F;chalut; wehr,| Ab-aajen, c. -Rciten; -Ahzen, (Ab) s’lmi- n. anguilliere; -weld, c. Buntasl; -Murm, ec. |ser e"
+        },
+        {
+          "deLemma": "arbeiten",
+          "verified": true,
+          "snippet": "aner Stric, auf dem Ras | -jiebeit; 3. -arbeiten, -barmen, —ſchreren, -Iveir @en des 08 und mander Plerde) raie noire au das de|neng; 4 -betteln, -fhmeiheing;"
+        },
+        {
+          "deLemma": "Kleingeld",
+          "verified": false,
+          "snippet": null
+        },
+        {
+          "deLemma": "bewirten",
+          "verified": true,
+          "snippet": "tin de naces. 3. cisd Wert fepen; ĩl. bewirten) exdcuter, faire; IL. ope- rer, eflectuer; ich habe Ihre Befehle - gerichtet, j'ai exccute vos ordres; richte"
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "verified": false,
+          "snippet": null
+        },
+        {
+          "deLemma": "Machtgier",
+          "verified": false,
+          "snippet": null
+        }
+      ],
+      "targetToDeHaus": {
+        "targetLemma": "Maison",
+        "verified": true,
+        "snippet": "aille) räumen; (pays)-6, ver« wüftet; (maison) -&e, verlafjen; (biens, pä- turages, animaux) -6S (Inissea sans garde, 1. ABANET ABATELLEMENT ABAT"
+      }
+    }
+  },
+  "methodology": "Institutional/library PDF discovery only; no Google Translate/DeepL/aggregators. Live checks: Internet Archive OCR text + HTTP probes for NSI/Gallica/HathiTrust."
+}
