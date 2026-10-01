@@ -1,0 +1,43 @@
+◇ injected env (1) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+EN Teikumi Luna audit: 796 sentences
+Model: gpt-5.6-luna
+  luna satze-0: 50 sentences, findings=15, pass=35, tokens=6440
+  luna satze-1: 50 sentences, findings=6, pass=44, tokens=5968
+  luna satze-2: 50 sentences, findings=21, pass=29, tokens=6524
+  luna satze-3: 50 sentences, findings=16, pass=34, tokens=6049
+  luna satze-4: 50 sentences, findings=19, pass=31, tokens=7156
+  luna satze-5: 50 sentences, findings=19, pass=31, tokens=6476
+  luna satze-6: 50 sentences, findings=13, pass=37, tokens=6045
+  luna satze-7: 50 sentences, findings=21, pass=29, tokens=7101
+  luna satze-8: 50 sentences, findings=17, pass=33, tokens=7343
+  luna satze-9: 50 sentences, findings=15, pass=35, tokens=6423
+  luna satze-10: 50 sentences, findings=11, pass=39, tokens=5719
+  luna satze-11: 50 sentences, findings=18, pass=32, tokens=6374
+  luna satze-12: 50 sentences, findings=14, pass=36, tokens=6604
+  luna satze-13: 50 sentences, findings=13, pass=37, tokens=6257
+  luna satze-14: 50 sentences, findings=16, pass=34, tokens=6903
+  luna satze-15: 46 sentences, findings=14, pass=32, tokens=5704
+
+=== EN Teikumi Luna audit complete ===
+{
+  "model": "gpt-5.6-luna",
+  "requests": 16,
+  "sentencesAudited": 796,
+  "findings": 248,
+  "severity": {
+    "CRITICAL": 0,
+    "HIGH": 84,
+    "MEDIUM": 143,
+    "LOW": 21
+  },
+  "nonError": {
+    "SOURCE_LV_ISSUE": 0,
+    "DE_SOURCE_ISSUE": 0,
+    "NEEDS_REVIEW": 0,
+    "STYLE_ONLY": 0,
+    "PROJECT_CONVENTION": 0
+  },
+  "deSourceIssues": 0,
+  "tokens": 103086,
+  "dataUnchanged": true
+}
