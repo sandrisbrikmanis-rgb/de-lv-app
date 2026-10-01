@@ -120,6 +120,8 @@
     "build:g2-a1:card-translation-readiness-report": "node scripts/build-g2-a1-card-translation-readiness-report.js",
     "build:g2-a1:card-translation-lv-lt-pl-readiness": "node scripts/build-g2-a1-card-translation-lv-lt-pl-readiness.js",
     "verify:g2-a1:card-translation-lv-lt-pl-readiness": "node scripts/verify-g2-a1-card-translation-lv-lt-pl-readiness.js",
+    "build:g2-a1:card-translation-fr-bg-bs-readiness": "node scripts/build-g2-a1-card-translation-fr-bg-bs-readiness.js",
+    "verify:g2-a1:card-translation-fr-bg-bs-source-chain": "node scripts/verify-g2-a1-card-translation-fr-bg-bs-source-chain.js",
     "build:g2-a1:manual-languages-source-reprobe": "node scripts/build-g2-a1-manual-languages-source-reprobe.js",
     "build:g2-a1:master-source-proposals-owner-review": "node scripts/build-g2-a1-master-source-proposals-owner-review.js",
     "build:g2-a1:haus-32-language-source-pilot": "node scripts/build-g2-a1-haus-32-language-source-pilot.js",
