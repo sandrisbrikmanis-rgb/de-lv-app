@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|a1-halten|a1.card.a1-halten.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"halda • stöðva\"}",
+    "owner_note": "IS halten translation: ET Hoidma/Peatama→halda•stöðva for turēt. DE untouched."
+  },
+  "g2/a1/is|a1-heissen|a1.card.a1-heissen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"heita • þýða\"}",
+    "owner_note": "IS heissen native: ET Nimi olema/Tähendama→heita•þýða for saukties. DE untouched."
+  },
+  "g2/a1/is|a1-heissen|a1.card.a1-heissen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"heita • þýða\"}",
+    "owner_note": "IS heissen translation: ET Nimi olema/Tähendama→heita•þýða for saukties. DE untouched."
+  },
+  "g2/a1/is|a1-hoeren-study|a1.card.a1-hoeren-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"heyra • hlusta\"}",
+    "owner_note": "IS hoeren-study native: ET Kuulma/Kuulama→heyra•hlusta for dzirdēt•klausīties. DE untouched."
+  },
+  "g2/a1/is|a1-hoeren-study|a1.card.a1-hoeren-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"heyra • hlusta\"}",
+    "owner_note": "IS hoeren-study translation: ET Kuulma/Kuulama→heyra•hlusta for dzirdēt•klausīties. DE untouched."
+  },
+  "g2/a1/is|a1-huebsch|a1.card.a1-huebsch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"fallegur • aðlaðandi í útliti\"}",
+    "owner_note": "IS huebsch comparison[0] gala: fagurt•að útliti→fallegur•aðlaðandi í útliti (adj form + prep fix for glīts•pievilcīgs). DE untouched."
+  },
+  "g2/a1/is|a1-ihr|a1.card.a1-ihr.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þið • henni\"}",
+    "owner_note": "IS ihr native gala: þið•ykkur→þið•henni (2nd pers pl + dat sg f for jūs•viņai). DE untouched."
+  },
+  "g2/a1/is|a1-ihr|a1.card.a1-ihr.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"þið • henni\"}",
+    "owner_note": "IS ihr translation gala: þið•ykkur→þið•henni (2nd pers pl + dat sg f for jūs•viņai). DE untouched."
+  },
+  "g2/a1/is|a1-im|a1.card.a1-im.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"í • hvar?\"}",
+    "owner_note": "IS im native: ET Ser/Kus?→í•hvar? for iekšā•kur?. DE untouched."
+  },
+  "g2/a1/is|a1-im|a1.card.a1-im.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"í • hvar?\"}",
+    "owner_note": "IS im translation: ET Ser/Kus?→í•hvar? for iekšā•kur?. DE untouched."
+  },
+  "g2/a1/is|a1-in|a1.card.a1-in.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"í • inn\"}",
+    "owner_note": "IS in native: ET Sett/Sissy→í•inn for iekšā•uz. DE untouched."
+  },
+  "g2/a1/is|a1-in|a1.card.a1-in.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"í • inn\"}",
+    "owner_note": "IS in translation: ET Sett/Sissy→í•inn for iekšā•uz. DE untouched."
+  },
+  "g2/a1/is|a1-ins|a1.card.a1-ins.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"inn • inn í • hvert?\"}",
+    "owner_note": "IS ins native: ET Sisse/Sissepoole/Kuhu?→inn•inn í•hvert? for iekšā•uz iekšu•kurp?. DE untouched."
+  },
+  "g2/a1/is|a1-ins|a1.card.a1-ins.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"inn • inn í • hvert?\"}",
+    "owner_note": "IS ins translation: ET Sisse/Sissepoole/Kuhu?→inn•inn í•hvert? for iekšā•uz iekšu•kurp?. DE untouched."
+  },
+  "g2/a1/is|a1-kein|a1.card.a1-kein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"enginn • engin\"}",
+    "owner_note": "IS kein native: ET Mitte ükski/Mitte mingi→enginn•engin for neviens•nekāds. DE untouched."
+  },
+  "g2/a1/is|a1-kein|a1.card.a1-kein.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"enginn • engin\"}",
+    "owner_note": "IS kein translation: ET Mitte ükski/Mitte mingi→enginn•engin for neviens•nekāds. DE untouched."
+  },
+  "g2/a1/is|a1-koennen|a1.card.a1-koennen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"geta • kunna\"}",
+    "owner_note": "IS koennen native: ET Saama/Oskama→geta•kunna for varēt•prast. DE untouched."
+  },
+  "g2/a1/is|a1-koennen|a1.card.a1-koennen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"geta • kunna\"}",
+    "owner_note": "IS koennen translation: ET Saama/Oskama→geta•kunna for varēt•prast. DE untouched."
+  },
+  "g2/a1/is|a1-kosten|a1.card.a1-kosten.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"kosta • hvað kostar\"}",
+    "owner_note": "IS kosten translation: ET Maksma/Kui palju masak→kosta•hvað kostar for maksāt•cik maksā. DE untouched."
+  },
+  "g2/a1/is|a1-land|a1.card.a1-land.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"land • jörð\"}",
+    "owner_note": "IS land native: ET Riik/Maa→land•jörð for valsts•zeme. DE untouched."
+  },
+  "g2/a1/is|a1-land|a1.card.a1-land.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"land • jörð\"}",
+    "owner_note": "IS land translation: ET Riik/Maa→land•jörð for valsts•zeme. DE untouched."
+  },
+  "g2/a1/is|a1-lang|a1.card.a1-lang.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"langur • langvarandi\"}",
+    "owner_note": "IS lang native gala: langur•langt→langur•langvarandi (adj + adv for garš•ilgs). DE untouched."
+  },
+  "g2/a1/is|a1-lang|a1.card.a1-lang.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"langur • langvarandi\"}",
+    "owner_note": "IS lang translation gala: langur•langt→langur•langvarandi (adj + adv for garš•ilgs). DE untouched."
+  },
+  "g2/a1/is|a1-lassen|a1.card.a1-lassen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"láta • leyfa\"}",
+    "owner_note": "IS lassen native: NO Kjempe/Laskma→láta•leyfa for atstāt•ļaut. DE untouched."
+  },
+  "g2/a1/is|a1-lassen|a1.card.a1-lassen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"láta • leyfa\"}",
+    "owner_note": "IS lassen translation: NO Kjempe/Laskma→láta•leyfa for atstāt•ļaut. DE untouched."
+  },
+  "g2/a1/is|a1-laufen|a1.card.a1-laufen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hlaupa • virka\"}",
+    "owner_note": "IS laufen native gala: hlaupa•ganga→hlaupa•virka (run + operate/function for skriet•darboties). DE untouched."
+  },
+  "g2/a1/is|a1-laufen|a1.card.a1-laufen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"hlaupa • virka\"}",
+    "owner_note": "IS laufen translation gala: hlaupa•ganga→hlaupa•virka (run + operate/function for skriet•darboties). DE untouched."
+  },
+  "g2/a1/is|a1-liegen|a1.card.a1-liegen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vera staðsettur • liggja\"}",
+    "owner_note": "IS liegen native gala: liggja•vera→vera staðsettur•liggja (be located + lie for atrasties•gulēt). DE untouched."
+  },
+  "g2/a1/is|a1-liegen|a1.card.a1-liegen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"vera staðsettur • liggja\"}",
+    "owner_note": "IS liegen translation gala: liggja•vera→vera staðsettur•liggja (be located + lie for atrasties•gulēt). DE untouched."
+  },
+  "g2/a1/is|a1-machen|a1.card.a1-machen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gera\"}",
+    "owner_note": "IS machen native: ET Tegema/Forbered→gera for darīt•taisīt. DE untouched."
+  },
+  "g2/a1/is|a1-machen|a1.card.a1-machen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"gera\"}",
+    "owner_note": "IS machen translation: ET Tegema/Forbered→gera for darīt•taisīt. DE untouched."
+  },
+  "g2/a1/is|a1-mann|a1.card.a1-mann.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"maður • eiginmaður\"}",
+    "owner_note": "IS mann native: ET Mees/Abikaasa→maður•eiginmaður for vīrietis•vīrs. DE untouched."
+  },
+  "g2/a1/is|a1-mann|a1.card.a1-mann.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"maður • eiginmaður\"}",
+    "owner_note": "IS mann translation: ET Mees/Abikaasa→maður•eiginmaður for vīrietis•vīrs. DE untouched."
+  },
+  "g2/a1/is|a1-nach|a1.card.a1-nach.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"til • eftir\"}",
+    "owner_note": "IS nach native: NO -sse/etter→til•eftir for uz•pēc. DE untouched."
+  },
+  "g2/a1/is|a1-nach|a1.card.a1-nach.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"til • eftir\"}",
+    "owner_note": "IS nach translation: NO -sse/etter→til•eftir for uz•pēc. DE untouched."
+  },
+  "g2/a1/is|a1-natuerlich|a1.card.a1-natuerlich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"auðvitað • náttúrulegur\"}",
+    "owner_note": "IS natuerlich native gala: náttúrulegt→náttúrulegur (adv + masc adj for protams•dabisks). DE untouched."
+  },
+  "g2/a1/is|a1-natuerlich|a1.card.a1-natuerlich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"auðvitað • náttúrulegur\"}",
+    "owner_note": "IS natuerlich translation gala: náttúrulegt→náttúrulegur (adv + masc adj for protams•dabisks). DE untouched."
+  },
+  "g2/a1/is|a1-nehmen|a1.card.a1-nehmen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"taka\"}",
+    "owner_note": "IS nehmen native: ET Võtma/Kätte vämä→taka for ņemt•paņemt. DE untouched."
+  },
+  "g2/a1/is|a1-nehmen|a1.card.a1-nehmen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"taka\"}",
+    "owner_note": "IS nehmen translation: ET Võtma/Kätte vämä→taka for ņemt•paņemt. DE untouched."
+  },
+  "g2/a1/is|a1-neu|a1.card.a1-neu.study.explanation[5]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[5]\":\"Andstæða er alt (gamall) • Nafnorðið das Neue þýðir eitthvað nýtt.\"}",
+    "owner_note": "IS neu explanation[5]: ET/NO Vastand/Nimisõna→Andstæða er alt (gamall)•Nafnorðið das Neue þýðir eitthvað nýtt. for alt vs das Neue. DE untouched."
+  },
+  "g2/a1/is|a1-nur-study|a1.card.a1-nur-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"aðeins • einungis\"}",
+    "owner_note": "IS nur-study native: ET Kun/Üksnes→aðeins•einungis for tikai•vienīgi. DE untouched."
+  },
+  "g2/a1/is|a1-nur-study|a1.card.a1-nur-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"aðeins • einungis\"}",
+    "owner_note": "IS nur-study translation: ET Kun/Üksnes→aðeins•einungis for tikai•vienīgi. DE untouched."
+  },
+  "g2/a1/is|a1-oder|a1.card.a1-oder.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"eða\"}",
+    "owner_note": "IS oder native: NO Eller/Ehk→eða for vai•jeb. DE untouched."
+  },
+  "g2/a1/is|a1-oder|a1.card.a1-oder.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"eða\"}",
+    "owner_note": "IS oder translation: NO Eller/Ehk→eða for vai•jeb. DE untouched."
+  },
+  "g2/a1/is|a1-passen|a1.card.a1-passen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"passa • henta\"}",
+    "owner_note": "IS passen native: ET Sobima/Hest sobima→passa•henta for derēt•piestāvēt. DE untouched."
+  },
+  "g2/a1/is|a1-passen|a1.card.a1-passen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"passa • henta\"}",
+    "owner_note": "IS passen translation: ET Sobima/Hest sobima→passa•henta for derēt•piestāvēt. DE untouched."
+  },
+  "g2/a1/is|a1-probieren|a1.card.a1-probieren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"prófa • bragða\"}",
+    "owner_note": "IS probieren native: ET Proovima/Maitsma→prófa•bragða for izmēģināt•nogaršot. DE untouched."
+  },
+  "g2/a1/is|a1-probieren|a1.card.a1-probieren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"prófa • bragða\"}",
+    "owner_note": "IS probieren translation: ET Proovima/Maitsma→prófa•bragða for izmēģināt•nogaršot. DE untouched."
+  },
+  "g2/a1/is|a1-seite|a1.card.a1-seite.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"síða • hlið\"}",
+    "owner_note": "IS seite native: ET Lehekülg/Külg→síða•hlið for lappuse•puse. DE untouched."
+  },
+  "g2/a1/is|a1-seite|a1.card.a1-seite.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"síða • hlið\"}",
+    "owner_note": "IS seite translation: ET Lehekülg/Külg→síða•hlið for lappuse•puse. DE untouched."
+  }
+}

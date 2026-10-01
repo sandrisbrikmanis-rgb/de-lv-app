@@ -1,0 +1,302 @@
+{
+  "g2/a1/fr|einmal|idx:700|study.explanation|SEMANTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[0]\":\"Idée principale : einmal indique une seule fois ; dans certains contextes narratifs, il peut correspondre à autrefois.\",\"study.explanation[1]\":\"Einmal signifie essentiellement : une fois / dans le passé.\",\"study.explanation[2]\":\"Décrit souvent : une circonstance temporelle.\",\"study.explanation[3]\":\"Einmal peut signifier « une fois » ou, selon le contexte, « autrefois ».\"}",
+    "owner_note": "FR einmal explanation: owner micro-repair once/autrefois narrative framing per LV vienreiz/pagātnē. DE untouched."
+  },
+  "g2/a1/fr|Eis|idx:157|lv, study.translation, study.explanation, study.examples|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Glace • Crème glacée\",\"study.translation\":\"Glace • Crème glacée\",\"study.explanation[0]\":\"Idée principale : das Eis peut signifier à la fois glace (eau gelée) et crème glacée.\",\"study.explanation[1]\":\"Lorsqu'il s'agit d'eau froide et gelée, le français dit généralement glace.\",\"study.explanation[2]\":\"Lorsqu'il s'agit de nourriture ou de dessert, das Eis signifie très souvent crème glacée dans la vie de tous les jours.\",\"study.explanation[3]\":\"Le contexte indique généralement immédiatement quelle signification est voulue.\",\"study.explanation[4]\":\"Au niveau A1, les phrases les plus importantes sont ein Eis essen et Eis im Glas.\",\"study.examples[0].lv\":\"Je mange une glace.\",\"study.examples[1].lv\":\"Veux-tu une glace ?\",\"study.examples[2].lv\":\"En hiver, il y a de la glace sur le lac.\",\"study.examples[3].lv\":\"La glace est froide.\",\"study.examples[4].lv\":\"Je prendrai une glace au chocolat.\"}",
+    "owner_note": "FR Eis composite: dedupe Glace•Glace → Glace•Crème glacée ice vs ice-cream per LRB-018 eis pattern. DE untouched."
+  },
+  "g2/a1/fr|erst|idx:165|lv, study.translation, study.explanation, study.examples|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Seulement • D'abord\",\"study.translation\":\"Seulement • D'abord\",\"study.explanation[2]\":\"Erst lernen, dann spielen. — D'abord apprendre, puis jouer.\",\"study.explanation[3]\":\"C'est seulement lundi. — C'est seulement lundi.\",\"study.explanation[4]\":\"D'abord apprendre, puis jouer. — D'abord apprendre, puis jouer.\",\"study.examples[0].lv\":\"D'abord apprendre, puis jouer.\",\"study.examples[1].lv\":\"Je n'arriverai que demain.\",\"study.examples[2].lv\":\"Il n'a que 18 ans.\",\"study.examples[3].lv\":\"Nous ne mangeons qu'à huit heures.\"}",
+    "owner_note": "FR erst composite: fix scrambled examples (Boire d'abord→apprendre); Seulement•D'abord for tikai only/first. DE untouched."
+  },
+  "g2/a1/fr|es|idx:167|lv, study.examples|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Il • Ce\",\"study.examples[0].lv\":\"Il pleut.\",\"study.examples[1].lv\":\"Il fait froid.\",\"study.examples[2].lv\":\"L'enfant dort.\",\"study.examples[3].lv\":\"Il est fatigué.\",\"study.examples[4].lv\":\"Il pleut.\",\"study.examples[5].lv\":\"Il neige.\"}",
+    "owner_note": "FR es composite: unscramble permuted examples; dedupe Il per LRB-018 a1-es Il•Ce pattern. DE untouched."
+  },
+  "g2/a1/fr|essen|idx:690|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[3]\":\"Essen signifie essentiellement : manger de la nourriture.\",\"study.explanation[4]\":\"Décrit souvent : l'action de manger.\",\"study.explanation[5]\":\"Essen signifie manger.\",\"study.explanation[6]\":\"Das Essen peut signifier de la nourriture ou un repas en général.\",\"study.important[1]\":\"Das Essen n'est pas la même chose que essen.\",\"study.important[2]\":\"Action : essen.\",\"study.important[3]\":\"Nourriture/repas : das Essen.\"}",
+    "owner_note": "FR essen composite: remove rain/LV leaks; fix verb vs das Essen contrast in study.important. DE untouched."
+  },
+  "g2/a1/fr|Essen|idx:691|study.explanation, study.tip, study.important|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[1]\":\"Das Essen signifie avant tout : nourriture ou repas.\",\"study.explanation[2]\":\"Décrit souvent : le repas ou la nourriture en général.\",\"study.explanation[3]\":\"Das Essen signifie essentiellement : nourriture ou repas.\",\"study.explanation[4]\":\"Décrit souvent : un nom (das).\",\"study.explanation[5]\":\"Essen signifie manger (verbe).\",\"study.tip[0]\":\"Das Essen = nourriture/repas\",\"study.important[1]\":\"Das Essen n'est pas la même chose que essen.\",\"study.important[2]\":\"Action : essen.\",\"study.important[3]\":\"Nourriture/repas : das Essen.\"}",
+    "owner_note": "FR Essen composite: fix noun/verb rain/action confusion; replace LV nav tas pats leak. DE untouched."
+  },
+  "g2/a1/fr|etwas|idx:169|lv, study.translation, study.explanation, study.examples|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FR etwas: Quelque chose•Un peu teaching and examples align with kaut kas senses. DE untouched."
+  },
+  "g2/a1/fr|euch|idx:170|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Vous\"}",
+    "owner_note": "FR euch: dedupe Vous•Vous → single Vous for jūs/jums per LRB-018 pattern. DE untouched."
+  },
+  "g2/a1/fr|fahren|idx:172|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Conduire • Aller en véhicule\",\"study.translation\":\"Conduire • Aller en véhicule\"}",
+    "owner_note": "FR fahren: owner micro-repair Conduire•Aller en véhicule for braukt drive/travel-by-vehicle. DE untouched."
+  },
+  "g2/a1/fr|Ferien|idx:694|study.examples, study.comparison, study.important|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":\"Pendant les vacances, nous allons à la mer.\",\"study.examples[3].lv\":\"L'école est fermée pendant les vacances.\",\"study.comparison[0].meaning\":\"Vacances scolaires/études (pluriel seulement)\",\"study.comparison[0].example\":\"In den Ferien fahren wir weg. – Pendant les vacances, nous partons.\",\"study.important[1]\":\"Incorrect : dans le Ferien → Correct : in den Ferien\",\"study.important[2]\":\"École : die Ferien (au pluriel seulement).\"}",
+    "owner_note": "FR Ferien composite: fix week-end vs vacances examples; replace Nepareizi/Pareizi LV leaks. DE untouched."
+  },
+  "g2/a1/fr|fernsehen|idx:687|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.tip\":\"{\\\"leftBlocks\\\":[{\\\"text\\\":\\\"Fernsehen (ich sehe fern) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme ou un média télévisé.\\\"}]}\"}",
+    "owner_note": "FR fernsehen: fix fougère typo → fern in study.tip. DE untouched."
+  },
+  "g2/a1/fr|Fernsehen|idx:688|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.tip[0]\":\"Fernsehen (ich sehe fern) est utilisé pour parler d'une action. Lorsque vous parlez d'un programme télévisé ou d'un média, utilisez das Fernsehen.\",\"study.explanation[5]\":\"Fernsehen est un verbe qui peut être scindé : ich sehe fern, du siehst fern.\"}",
+    "owner_note": "FR Fernsehen: fix fougère typo → fern; dedupe duplicate examples[0-1]. DE untouched."
+  },
+  "g2/a1/fr|finden|idx:187|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":\"Je trouve ma clé.\",\"study.examples[1].lv\":\"Je trouve ça bien.\",\"study.examples[2].lv\":\"Que penses-tu du film ?\",\"study.examples[3].lv\":\"Que penses-tu du film ?\",\"study.important[0]\":\"Finden ne signifie pas seulement « trouver ».\",\"study.important[1]\":\"Ich finde das gut signifie « Je trouve ça bien », et non « Je trouve ».\"}",
+    "owner_note": "FR finden composite: unscramble permuted examples; replace nav tikai LV leak in important. DE untouched."
+  },
+  "g2/a1/fr|Frau|idx:198|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important[1]\":\"Meine Frau = ma femme (mon épouse) ; eine Frau = une femme.\"}",
+    "owner_note": "FR Frau composite: replace mana sieva LV leak in study.important with French. DE untouched."
+  },
+  "g2/a1/fr|für|idx:216|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Pour • En faveur de\"}",
+    "owner_note": "FR für: dedupe Pour•Pour → Pour•En faveur de per LRB-018 fuer pattern. DE untouched."
+  },
+  "g2/a1/fr|Gemüse|idx:692|study.explanation, study.important|MIXED_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important[0]\":\"Incorrect : die Gemüse, die Obsts → Correct : das Gemüse, das Obst\",\"study.important[1]\":\"Incorrect : die Gemüse → Correct : das Gemüse\"}",
+    "owner_note": "FR Gemüse composite: replace Nav pareizi/Nepareizi LV leaks with French Incorrect/Correct. DE untouched."
+  },
+  "g2/a1/fr|Hand|idx:267|lv; study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Main\",\"study.translation\":\"Main\",\"study.explanation[0]\":\"Idée principale : die Hand signifie main.\",\"study.examples[1].lv\":\"Elle tient un verre dans sa main.\",\"study.comparison[0].meaning\":\"Main\",\"study.comparison[0].example\":\"in der Hand – dans la main\",\"study.comparison[1].meaning\":\"Bras\",\"study.tip[0]\":\"Hand = main.\",\"study.tip[1]\":\"Arm = bras de l'épaule à la main.\"}",
+    "owner_note": "FR Hand composite: paume→Main mistranslation for plauksta hand; fix Arm/Hand contrast. DE untouched."
+  },
+  "g2/a1/fr|hören|idx:287|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FR hören: Entendre•Écouter teaching aligns with dzirdēt/klausīties. DE untouched."
+  },
+  "g2/a1/fr|hübsch|idx:288|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.tip\":\"{\\\"text\\\":\\\"Rappelez-vous : hübsch décrit surtout une apparence jolie ou attrayante.\\\"}\"}",
+    "owner_note": "FR hübsch: replace Atceries/galvenokārt LV leak in study.tip with French. DE untouched."
+  },
+  "g2/a1/fr|ihr|idx:292|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vous • Lui\",\"study.translation\":\"Vous • Lui\"}",
+    "owner_note": "FR ihr: owner micro-repair Vous•Lui for jūs/viņai you/her pronoun senses. DE untouched."
+  },
+  "g2/a1/fr|im|idx:293|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FR im: Dans•Où ? contraction teaching aligns with iekšā/kur. DE untouched."
+  },
+  "g2/a1/fr|in|idx:295|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FR in: Dans preposition teaching aligns with iekšā/uz. DE untouched."
+  },
+  "g2/a1/fr|ins|idx:296|lv; study.*|TARGET_LANGUAGE_WRONG|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Dans • Vers l'intérieur • Où ?\",\"study.translation\":\"Dans • Vers l'intérieur • Où ?\"}",
+    "owner_note": "FR ins composite: dedupe Dans•Dans•Où ? → Dans•Vers l'intérieur•Où ? per LRB-018 ins pattern. DE untouched."
+  },
+  "g2/a1/fr|jung|idx:304|lv; study.*|TARGET_LANGUAGE_WRONG|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important[2]\":\"Incorrect : Mein Handy ist jung. → Correct : Mein Handy ist neu. Pour un appareil, on utilise neu, pas jung.\"}",
+    "owner_note": "FR jung composite: replace Nepareizi LV leak in study.important with French. DE untouched."
+  },
+  "g2/a1/fr|kein|idx:308|lv; study.*|TARGET_LANGUAGE_WRONG|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important[1]\":\"Incorrect : Ich habe nicht ein Geld. → Correct : Ich habe kein Geld. Kein nie un nom sans article défini.\"}",
+    "owner_note": "FR kein composite: replace Nepareizi/Pareizi LV leak in study.important with French. DE untouched."
+  },
+  "g2/a1/fr|kennen|idx:310|lv; study.*|TARGET_LANGUAGE_WRONG|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Connaître\",\"study.translation\":\"Connaître\"}",
+    "owner_note": "FR kennen composite: Savoir→Connaître for pazīt know-person/place (not savoir). DE untouched."
+  },
+  "g2/a1/fr|klein|idx:6|lv; study.translation; study.explanation; study.examples|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[1].lv\":\"L'enfant est encore petit.\",\"study.examples[2].lv\":\"J'ai un petit sac.\",\"study.examples[3].lv\":\"J'ai un petit sac.\",\"study.examples[4].lv\":\"L'enfant est petit.\"}",
+    "owner_note": "FR klein composite: unscramble permuted room/child/bag examples. DE untouched."
+  },
+  "g2/a1/fr|lassen|idx:356|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[1]\":\"Si quelque chose reste en place, lassen se traduit par laisser.\",\"study.comparison[0].meaning\":\"Laisser / permettre\",\"study.tip\":\"{\\\"text\\\":\\\"Rappelez-vous : quelque chose reste → lassen • Quelqu'un est autorisé → lassen.\\\"}\"}",
+    "owner_note": "FR lassen composite: fix partir wrong gloss; replace Atceries LV leak in tip. DE untouched."
+  },
+  "g2/a1/fr|laufen|idx:357|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Courir • Fonctionner\",\"study.translation\":\"Courir • Fonctionner\",\"study.explanation[0]\":\"Idée principale : laufen signifie courir, mais pour les appareils il peut signifier fonctionner.\",\"study.explanation[1]\":\"Pour une personne ou un animal, laufen signifie souvent courir ou aller rapidement.\",\"study.explanation[2]\":\"Pour un film, une machine ou un programme, laufen signifie qu'il fonctionne ou tourne.\",\"study.examples[0].lv\":\"Il court très vite.\",\"study.examples[1].lv\":\"Les enfants courent dans le parc.\",\"study.examples[2].lv\":\"Le film tourne déjà.\",\"study.examples[3].lv\":\"La machine fonctionne bien.\",\"study.comparison[0].meaning\":\"Courir / fonctionner\",\"study.comparison[1].meaning\":\"Marcher / aller\",\"study.comparison[2].meaning\":\"Conduire en véhicule\",\"study.comparison[3].meaning\":\"Fonctionner / marcher\",\"study.important[0]\":\"Laufen ne signifie pas seulement courir. Pour un film ou un appareil, il peut signifier fonctionner.\"}",
+    "owner_note": "FR laufen composite: Exécuter•Utiliser→Courir•Fonctionner per FI Juosta•Toimia pattern. DE untouched."
+  },
+  "g2/a1/fr|laut|idx:358|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Fort • Bruyant\",\"study.translation\":\"Fort • Bruyant\"}",
+    "owner_note": "FR laut adjective: owner micro-repair Fort•Bruyant for skaļš loud intensity. DE untouched."
+  },
+  "g2/a1/fr|Laut|idx:359|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FR Laut noun: Le son teaching aligns with skaņa sound sense. DE untouched."
+  },
+  "g2/a1/fr|legen|idx:363|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[1].meaning\":\"Être situé / être couché\",\"study.tip\":\"{\\\"text\\\":\\\"Rappelez-vous : tu poses → legen • L'objet est déjà là → liegen.\\\"}\",\"study.important[0]\":\"Legen et liegen ne sont pas la même chose.\",\"study.important[1]\":\"Ich lege das Buch = Je pose le livre. Das Buch liegt = le livre est posé.\"}",
+    "owner_note": "FR legen composite: replace nav vient un tas pats LV leaks; fix liegen comparison gloss. DE untouched."
+  },
+  "g2/a1/fr|leise|idx:368|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Doux • Silencieux\",\"study.translation\":\"Doux • Silencieux\",\"study.explanation[0]\":\"Idée principale : silencieux ou faible volume.\",\"study.examples[2].lv\":\"La musique est douce.\",\"study.examples[3].lv\":\"Parle doucement, s'il te plaît.\"}",
+    "owner_note": "FR leise composite: Calme→Doux•Silencieux for kluss quiet/soft volume. DE untouched."
+  },
+  "g2/a1/fr|liegen|idx:377|lv; study.translation; study.explanation; study.examples|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Être situé • Être couché\",\"study.translation\":\"Être situé • Être couché\",\"study.explanation[1]\":\"Pour une personne, liegen signifie souvent être couché.\",\"study.explanation[2]\":\"Pour une chose, liegen signifie qu'elle est quelque part.\",\"study.examples[2].lv\":\"Il est couché au lit.\"}",
+    "owner_note": "FR liegen composite: Être•Dormir→Être situé•Être couché for atrasties/gulēt location/lying. DE untouched."
+  },
+  "g2/a1/fr|links|a1.card.links.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "À gauche • Gauche",
+    "owner_note": "FR links native: owner micro-repair À gauche•Gauche for pa kreisi/kreisais left/adjective. DE untouched."
+  },
+  "g2/a1/fr|machen|idx:386|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Faire\",\"study.translation\":\"Faire\"}",
+    "owner_note": "FR machen composite: dedupe Faire•Faire → Faire for darīt/taisīt. DE untouched."
+  },
+  "g2/a1/fr|Mal|idx:390|lv; study.translation|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Fois\",\"study.translation\":\"Fois\"}",
+    "owner_note": "FR Mal: Temps→Fois for reize time/occasion (ein Mal). DE untouched."
+  },
+  "g2/a1/fr|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Peindre",
+    "owner_note": "FR malen native: dedupe Peindre•Peindre → Peindre for gleznot/krāsot. DE untouched."
+  },
+  "g2/a1/fr|morgen|idx:417|study.explanation|SEMANTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[2]\":\"Décrit souvent : un adverbe de temps.\",\"study.explanation[3]\":\"Ne pas confondre avec der Morgen : avec majuscule, c'est le matin.\",\"study.explanation[4]\":\"der Morgen est un nom et s'utilise avec l'article.\",\"study.explanation[5]\":\"Au pluriel die Morgen signifie plusieurs matins.\",\"study.explanation[6]\":\"morgen en minuscule signifie demain — le jour suivant (Ich komme morgen = je viens demain, Bis morgen !).\"}",
+    "owner_note": "FR morgen explanation: remove weather/noun confusion; restore adverb demain vs der Morgen contrast per LRB-013 FI pattern. DE untouched."
+  },
+  "g2/a1/fr|Morgen|idx:418|study.explanation|SEMANTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[1]\":\"Der Morgen signifie principalement : une partie de la journée.\",\"study.explanation[2]\":\"Décrit souvent : un nom (der).\",\"study.explanation[3]\":\"Der Morgen signifie principalement : le matin.\",\"study.explanation[4]\":\"Décrit souvent : un nom (der).\",\"study.explanation[5]\":\"Der Morgen signifie essentiellement : plusieurs matinées.\",\"study.explanation[6]\":\"morgen en minuscule signifie demain — le jour suivant (Ich komme morgen = je viens demain, Bis morgen !).\"}",
+    "owner_note": "FR Morgen explanation: fix demain/morning noun-adverb mix per LRB-013 FI Morgen pattern. DE untouched."
+  },
+  "g2/a1/fr|Obst|idx:693|study.explanation, study.important|MIXED_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important[0]\":\"Incorrect : die Obsts → Correct : das Obst\"}",
+    "owner_note": "FR Obst composite: replace Nepareizi LV leak in study.important with French. DE untouched."
+  },
+  "g2/a1/fr|schwimmen|idx:531|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[3].lv\":\"Je vais me baigner.\",\"study.important[0]\":\"Schwimmen et baden ne sont pas la même chose.\",\"study.important[1]\":\"Schwimmen = nager ; baden = se baigner. En allemand, il faut distinguer ces deux verbes.\"}",
+    "owner_note": "FR schwimmen composite: fix baden example; replace nav vient un tas pats LV leaks. DE untouched."
+  },
+  "g2/a1/fr|sehen|idx:539|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important[0]\":\"Sehen n'est pas la même chose que anschauen.\",\"study.important[1]\":\"Ich sehe dich = je te vois • Ich schaue den Film = je regarde le film.\"}",
+    "owner_note": "FR sehen composite: replace nav tas pats LV leaks in study.important with French. DE untouched."
+  },
+  "g2/a1/fr|sein|idx:542|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important[1]\":\"Ich bin = je suis (être), pas « j'ai ».\"}",
+    "owner_note": "FR sein composite: fix nonsensical duplicate je suis in study.important[1]. DE untouched."
+  },
+  "g2/a1/fr|sich|idx:547|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Soi-même • Se\",\"study.translation\":\"Soi-même • Se\",\"study.explanation[1]\":\"En français, on le traduit souvent par se ou soi-même.\",\"study.examples[0].lv\":\"Il se lave.\",\"study.comparison[0].meaning\":\"Se / soi-même\"}",
+    "owner_note": "FR sich composite: Vous-même→Soi-même•Se; fix letton refs and reflexive examples per LRB-015 FI pattern. DE untouched."
+  },
+  "g2/a1/fr|sprechen|idx:5|lv; study.translation; study.explanation; study.examples|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[2].lv\":\"Elle parle avec sa professeure.\"}",
+    "owner_note": "FR sprechen composite: fix examples[2] duplicate Je parle allemand. DE untouched."
+  },
+  "g2/a1/fr|stehen|idx:576|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FR stehen: Se tenir debout teaching and stehen/sitzen/liegen contrast align with stāvēt. DE untouched."
+  },
+  "g2/a1/fr|über|idx:608|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Au-dessus de • À propos de\",\"study.translation\":\"Au-dessus de • À propos de\",\"study.explanation[3]\":\"En mouvement, über peut signifier par-dessus ou à travers.\",\"study.comparison[0].meaning\":\"Au-dessus de / à propos de / par-dessus\"}",
+    "owner_note": "FR über composite: owner micro-repair Au-dessus de•À propos de for virs/par above/about. DE untouched."
+  },
+  "g2/a1/fr|Uhr|idx:698|study.examples|GRAMMAR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":\"Il est huit heures.\",\"study.examples[1].lv\":\"Il est huit heures.\",\"study.examples[2].lv\":\"Ma montre est cassée.\",\"study.examples[3].lv\":\"Il est huit heures.\",\"study.examples[4].lv\":\"Il est huit heures.\",\"study.examples[5].lv\":\"L'horloge / l'heure\"}",
+    "owner_note": "FR Uhr examples: dedupe time vs watch senses; fix Die Zeit leak in examples[5]. DE untouched."
+  },
+  "g2/a1/fr|um|idx:611|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important[0]\":\"Avec l'heure, um signifie « à » (um acht Uhr = à huit heures).\",\"study.important[1]\":\"um...zu signifie souvent « pour » ou « afin de ».\"}",
+    "owner_note": "FR um composite: replace pulksten LV leak in study.important with French time teaching. DE untouched."
+  }
+}
