@@ -1,0 +1,36 @@
+{
+  "batch_id": "LRB-004",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-12T08:55:00.000Z",
+  "linguisticVerdict": "LRB_004_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 30,
+  "nelabot": 20,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "pdfReaudit": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "et": 37,
+    "fi": 13
+  },
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "note": "LRB-004 PDF-standard reaudit repair: 13 FI ET-leak→FI LABOT; ET essen/Fernsehen/sollen/sie NELABOT→LABOT; baden explanation expanded. Fresh gates from production_current+owner_new merge. DE/production/Crowdin/ingest/apply unchanged."
+}
