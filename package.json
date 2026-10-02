@@ -121,6 +121,7 @@
     "build:g2-a1:card-translation-lv-lt-pl-readiness": "node scripts/build-g2-a1-card-translation-lv-lt-pl-readiness.js",
     "verify:g2-a1:card-translation-lv-lt-pl-readiness": "node scripts/verify-g2-a1-card-translation-lv-lt-pl-readiness.js",
     "build:g2-a1:pdf-bilingual-dictionary-hr-hu-is-discovery": "node scripts/build-g2-a1-pdf-bilingual-dictionary-hr-hu-is-discovery.js",
+    "build:g2-a1:pdf-bilingual-dictionary-hr-hu-is-pilot-verify": "node scripts/build-g2-a1-pdf-bilingual-dictionary-hr-hu-is-pilot-verify.js",
     "build:g2-a1:card-translation-fr-bg-bs-readiness": "node scripts/build-g2-a1-card-translation-fr-bg-bs-readiness.js",
     "verify:g2-a1:card-translation-fr-bg-bs-source-chain": "node scripts/verify-g2-a1-card-translation-fr-bg-bs-source-chain.js",
     "build:g2-a1:manual-languages-source-reprobe": "node scripts/build-g2-a1-manual-languages-source-reprobe.js",
