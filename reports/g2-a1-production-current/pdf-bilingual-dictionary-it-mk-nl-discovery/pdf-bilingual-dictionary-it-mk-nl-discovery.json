@@ -1,0 +1,501 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-it-mk-nl-discovery-v1",
+  "generatedAt": "2026-10-02T15:55:12.921Z",
+  "scope": [
+    "it",
+    "mk",
+    "nl"
+  ],
+  "rules": [
+    "Production / MASTER / OWNER unchanged — discovery only",
+    "mk must not use bg as proxy"
+  ],
+  "languages": {
+    "it": [
+      {
+        "id": "ia-bsb-neues-vollstaendig-it-de-vol1-2",
+        "title": "Neues vollständiges italienisch-deutsches und deutsch-italienisches Wörterbuch (BSB, 2 vol.)",
+        "year": null,
+        "authorPublisher": "Bayerische Staatsbibliothek — Internet Archive",
+        "direction": "DE↔IT",
+        "viewerUrl": "https://archive.org/details/11645915bsb",
+        "pdfUrl": "https://archive.org/download/11645915bsb/11645915bsb.pdf",
+        "pdfUrlVol2": "https://archive.org/download/11645916bsb/11645916bsb.pdf",
+        "ocrUrl": "https://archive.org/download/11645915bsb/11645915bsb_djvu.txt",
+        "ocrUrlVol2": "https://archive.org/download/11645916bsb/11645916bsb_djvu.txt",
+        "approximateScope": "2 large BSB scans; full bilingual title (vol. 1–2 on IA)",
+        "accessType": "Open PDF + OCR (both volumes)",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": true,
+          "pdf": {
+            "opens": true,
+            "note": "First bytes are %PDF (range GET)",
+            "vol2": {
+              "opens": true,
+              "note": "First bytes are %PDF (range GET)"
+            }
+          },
+          "ocrAvailable": true,
+          "probeNotes": [],
+          "finalStatus": "READY"
+        },
+        "finalStatus": "READY"
+      },
+      {
+        "id": "ia-neuesitalienisch-bulluoft",
+        "title": "Neues italienisch-deutsches und deutsch-italienisches Wörterbuch (Bull / IA upload)",
+        "year": null,
+        "authorPublisher": "Internet Archive",
+        "direction": "DE↔IT",
+        "viewerUrl": "https://archive.org/details/neuesitalienisch02bulluoft",
+        "pdfUrl": "https://archive.org/download/neuesitalienisch02bulluoft/neuesitalienisch02bulluoft.pdf",
+        "ocrUrl": "https://archive.org/download/neuesitalienisch02bulluoft/neuesitalienisch02bulluoft_djvu.txt",
+        "approximateScope": "~15 MB OCR text; comprehensive historical edition",
+        "accessType": "Open PDF + OCR",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": true,
+          "pdf": {
+            "opens": true,
+            "note": "First bytes are %PDF (range GET)"
+          },
+          "ocrAvailable": true,
+          "probeNotes": [],
+          "finalStatus": "READY"
+        },
+        "finalStatus": "READY"
+      },
+      {
+        "id": "ia-bsb-vollstaendig-grammatisch-it-de-11304274",
+        "title": "Vollständiges deutsch-italienisches und italienisch-deutsches grammatisch-praktisches Wörterbuch",
+        "year": null,
+        "authorPublisher": "BSB — Internet Archive (11304274bsb et al.)",
+        "direction": "DE↔IT",
+        "viewerUrl": "https://archive.org/details/11304274bsb",
+        "pdfUrl": "https://archive.org/download/11304274bsb/11304274bsb.pdf",
+        "ocrUrl": "https://archive.org/download/11304274bsb/11304274bsb_djvu.txt",
+        "approximateScope": "Multi-part BSB scan family (~4M+ OCR chars per part)",
+        "accessType": "Open PDF + OCR",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": true,
+          "pdf": {
+            "opens": true,
+            "note": "First bytes are %PDF (range GET)"
+          },
+          "ocrAvailable": true,
+          "probeNotes": [],
+          "finalStatus": "READY"
+        },
+        "finalStatus": "READY"
+      },
+      {
+        "id": "ia-bsb-nuovo-dizionario-10587958",
+        "title": "Nuovo Dizionario Italiano-Tedesco e Tedesco-Italiano (BSB scan)",
+        "year": null,
+        "authorPublisher": "BSB — Internet Archive",
+        "direction": "DE↔IT",
+        "viewerUrl": "https://archive.org/details/10587958bsb",
+        "pdfUrl": "https://archive.org/download/10587958bsb/10587958bsb.pdf",
+        "ocrUrl": "https://archive.org/download/10587958bsb/10587958bsb_djvu.txt",
+        "approximateScope": "Large bilingual dictionary PDF + OCR",
+        "accessType": "Open PDF + OCR",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": true,
+          "pdf": {
+            "opens": true,
+            "note": "First bytes are %PDF (range GET)"
+          },
+          "ocrAvailable": true,
+          "probeNotes": [],
+          "finalStatus": "READY"
+        },
+        "finalStatus": "READY"
+      },
+      {
+        "id": "ia-bub-taschen-it-de-1821",
+        "title": "Deutsch-italienisches und italienisch-deutsches Taschenwörterbuch (1821)",
+        "year": 1821,
+        "authorPublisher": "Internet Archive (Google scan)",
+        "direction": "DE↔IT",
+        "viewerUrl": "https://archive.org/details/bub_gb_MVRDAAAAYAAJ",
+        "pdfUrl": "https://archive.org/download/bub_gb_MVRDAAAAYAAJ/bub_gb_MVRDAAAAYAAJ.pdf",
+        "ocrUrl": "https://archive.org/download/bub_gb_MVRDAAAAYAAJ/bub_gb_MVRDAAAAYAAJ_djvu.txt",
+        "approximateScope": "Pocket dictionary (small scope)",
+        "accessType": "Open PDF + OCR",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": true,
+          "pdf": {
+            "opens": true,
+            "note": "First bytes are %PDF (range GET)"
+          },
+          "ocrAvailable": true,
+          "probeNotes": [],
+          "finalStatus": "PARTIAL",
+          "statusReason": "Pocket dictionary only"
+        },
+        "finalStatus": "PARTIAL"
+      },
+      {
+        "id": "ia-castelli-nuovo-dizionario-1782-4vol",
+        "title": "Castelli Nuovo Dizionario IT↔DE (1782, 4 vol. on IA)",
+        "year": 1782,
+        "authorPublisher": "Internet Archive community upload",
+        "direction": "DE↔IT (split volumes IT→DE / DE→IT)",
+        "viewerUrl": "https://archive.org/details/castelli-nuovo-dizionario-italiano-tedesco-e-tedesco-italiano-1782-volumi-1-4",
+        "pdfUrl": null,
+        "ocrUrl": null,
+        "approximateScope": "4 PDFs listed; OCR download blocked/HTML in automation this run",
+        "accessType": "Partial IA listing",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": false,
+          "pdf": null,
+          "ocrAvailable": false,
+          "probeNotes": [],
+          "finalStatus": "NOT_FOUND_DIGITIZED",
+          "statusReason": "Volume OCR downloads return HTML shell in automation (PDFs listed but not grep-verified)"
+        },
+        "finalStatus": "NOT_FOUND_DIGITIZED"
+      },
+      {
+        "id": "ia-pons-bertelsmann-it-de-borrow",
+        "title": "Bertelsmann / PONS Taschenwörterbuch Italienisch (modern print on IA)",
+        "year": null,
+        "authorPublisher": "Internet Archive",
+        "direction": "DE↔IT",
+        "viewerUrl": "https://archive.org/details/bertelsmanntasch0000unse_b1s8",
+        "pdfUrl": "https://archive.org/download/bertelsmanntasch0000unse_b1s8/bertelsmanntasch0000unse_b1s8.pdf",
+        "ocrUrl": null,
+        "approximateScope": "Modern pocket — often LCP/borrow",
+        "accessType": "IA item",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": false,
+          "pdf": {
+            "opens": false,
+            "note": "HTML interstitial"
+          },
+          "ocrAvailable": false,
+          "probeNotes": [],
+          "finalStatus": "NOT_FOUND_DIGITIZED",
+          "statusReason": "Commercial / borrow IA item — not reliable open audit source"
+        },
+        "finalStatus": "NOT_FOUND_DIGITIZED"
+      }
+    ],
+    "nl": [
+      {
+        "id": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787",
+        "title": "Nieuw Woordenboek der Nederlandsche en Hoogduitsche Taal (BSB, multi-part)",
+        "year": 1787,
+        "authorPublisher": "Bayerische Staatsbibliothek — Internet Archive",
+        "direction": "NL↔DE (historical; Hoogduits = High German)",
+        "viewerUrl": "https://archive.org/details/10523039bsb",
+        "pdfUrl": "https://archive.org/download/10523039bsb/10523039bsb.pdf",
+        "pdfUrlPart2": "https://archive.org/download/10627384bsb/10627384bsb.pdf",
+        "pdfUrlPart3": "https://archive.org/download/10523038bsb/10523038bsb.pdf",
+        "ocrUrl": "https://archive.org/download/10523039bsb/10523039bsb_djvu.txt",
+        "ocrUrlPart2": "https://archive.org/download/10627384bsb/10627384bsb_djvu.txt",
+        "ocrUrlPart3": "https://archive.org/download/10523038bsb/10523038bsb_djvu.txt",
+        "approximateScope": "3 BSB parts, ~4M OCR chars each; 18th-c. full NL–German lexicon",
+        "accessType": "Open PDF + OCR",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": true,
+          "pdf": {
+            "opens": true,
+            "note": "First bytes are %PDF (range GET)",
+            "part2": {
+              "opens": true,
+              "note": "First bytes are %PDF (range GET)"
+            },
+            "part3": {
+              "opens": true,
+              "note": "First bytes are %PDF (range GET)"
+            }
+          },
+          "ocrAvailable": true,
+          "probeNotes": [],
+          "finalStatus": "READY"
+        },
+        "finalStatus": "READY"
+      },
+      {
+        "id": "ia-kramers-woordenboek-duits-1969",
+        "title": "Kramers' woordenboek Duits : Duits-Nederlands, Nederlands-Duits (1969)",
+        "year": 1969,
+        "authorPublisher": "Internet Archive",
+        "direction": "DE↔NL",
+        "viewerUrl": "https://archive.org/details/kramerswoordenbo0000unse_n6p9",
+        "pdfUrl": "https://archive.org/download/kramerswoordenbo0000unse_n6p9/kramerswoordenbo0000unse_n6p9.pdf",
+        "ocrUrl": "https://archive.org/download/kramerswoordenbo0000unse_n6p9/kramerswoordenbo0000unse_n6p9_djvu.txt",
+        "approximateScope": "Modern bidirectional title; PDF borrow/HTML this run; OCR empty/unusable",
+        "accessType": "IA (access blocked)",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": false,
+          "pdf": {
+            "opens": false,
+            "note": "HTML interstitial"
+          },
+          "ocrAvailable": true,
+          "probeNotes": [
+            "OCR bytes: 172"
+          ],
+          "finalStatus": "NOT_FOUND_DIGITIZED",
+          "statusReason": "Modern bidirectional title exists but IA PDF/OCR not open in automation"
+        },
+        "finalStatus": "NOT_FOUND_DIGITIZED"
+      },
+      {
+        "id": "ia-van-dale-pocket-nl-de-borrow",
+        "title": "Van Dale pocketwoordenboek Nederlands-Duits",
+        "year": null,
+        "authorPublisher": "Internet Archive",
+        "direction": "NL→DE",
+        "viewerUrl": "https://archive.org/details/vandalepocketwoo0000unse_f2g1",
+        "pdfUrl": "https://archive.org/download/vandalepocketwoo0000unse_f2g1/vandalepocketwoo0000unse_f2g1.pdf",
+        "ocrUrl": "https://archive.org/download/vandalepocketwoo0000unse_f2g1/vandalepocketwoo0000unse_f2g1_djvu.txt",
+        "approximateScope": "Pocket; PDF LCP/HTML interstitial",
+        "accessType": "IA borrow",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": false,
+          "pdf": {
+            "opens": false,
+            "note": "HTML interstitial"
+          },
+          "ocrAvailable": true,
+          "probeNotes": [],
+          "finalStatus": "NOT_FOUND_DIGITIZED",
+          "statusReason": "Commercial / borrow IA item — not reliable open audit source"
+        },
+        "finalStatus": "NOT_FOUND_DIGITIZED"
+      },
+      {
+        "id": "ia-wolters-ster-duits-nl-borrow",
+        "title": "Wolters ster woordenboek Duits-Nederlands",
+        "year": null,
+        "authorPublisher": "Internet Archive",
+        "direction": "DE→NL",
+        "viewerUrl": "https://archive.org/details/isbn_9789066486782",
+        "pdfUrl": "https://archive.org/download/isbn_9789066486782/isbn_9789066486782.pdf",
+        "ocrUrl": null,
+        "approximateScope": "Commercial print scan — borrow",
+        "accessType": "IA borrow",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": false,
+          "pdf": {
+            "opens": false,
+            "note": "HTML interstitial"
+          },
+          "ocrAvailable": false,
+          "probeNotes": [],
+          "finalStatus": "NOT_FOUND_DIGITIZED",
+          "statusReason": "Commercial / borrow IA item — not reliable open audit source"
+        },
+        "finalStatus": "NOT_FOUND_DIGITIZED"
+      },
+      {
+        "id": "ia-nederlands-duits-2004-borrow",
+        "title": "Nederlands-Duits (2004 IA upload)",
+        "year": 2004,
+        "authorPublisher": "Internet Archive",
+        "direction": "NL↔DE",
+        "viewerUrl": "https://archive.org/details/nederlandsduits0000unse",
+        "pdfUrl": "https://archive.org/download/nederlandsduits0000unse/nederlandsduits0000unse.pdf",
+        "ocrUrl": "https://archive.org/download/nederlandsduits0000unse/nederlandsduits0000unse_djvu.txt",
+        "approximateScope": "Modern title; PDF HTML interstitial in automation",
+        "accessType": "IA borrow",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": false,
+          "pdf": {
+            "opens": false,
+            "note": "HTML interstitial"
+          },
+          "ocrAvailable": true,
+          "probeNotes": [],
+          "finalStatus": "NOT_FOUND_DIGITIZED",
+          "statusReason": "Commercial / borrow IA item — not reliable open audit source"
+        },
+        "finalStatus": "NOT_FOUND_DIGITIZED"
+      },
+      {
+        "id": "ia-duitsch-woordenboek-wallis",
+        "title": "Duitsch woordenboek dl. 1 Duits-Nederlands (Wallis)",
+        "year": null,
+        "authorPublisher": "Internet Archive",
+        "direction": "DE→NL",
+        "viewerUrl": "https://archive.org/details/duitschwoordenbo0000geld",
+        "pdfUrl": null,
+        "ocrUrl": "https://archive.org/download/duitschwoordenbo0000geld/duitschwoordenbo0000geld_djvu.txt",
+        "approximateScope": "OCR not available (empty response)",
+        "accessType": "IA item incomplete",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": false,
+          "pdf": null,
+          "ocrAvailable": true,
+          "probeNotes": [],
+          "finalStatus": "NOT_FOUND_DIGITIZED"
+        },
+        "finalStatus": "NOT_FOUND_DIGITIZED"
+      }
+    ],
+    "mk": [
+      {
+        "id": "web-makedonisch-info-de-mk",
+        "title": "Дигитален Германско-македонски / македонско-германски речник (makedonisch.info)",
+        "year": null,
+        "authorPublisher": "Community / educational web lexicon",
+        "direction": "DE↔MK",
+        "viewerUrl": "http://makedonisch.info/",
+        "pdfUrl": null,
+        "ocrUrl": null,
+        "approximateScope": "Searchable web UI; autocomplete API only — no full lexicon dump",
+        "accessType": "Website (HTML)",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": true,
+          "pdf": null,
+          "ocrAvailable": false,
+          "probeNotes": [],
+          "finalStatus": "PARTIAL",
+          "statusReason": "Web lexicon shell loads; no downloadable OCR/PDF for pilot grep"
+        },
+        "finalStatus": "PARTIAL"
+      },
+      {
+        "id": "ugd-elib-ivanovska-belcev-2012",
+        "title": "Македонско-германски / германско-македонски речник (Ivanovska & Belčev, 2012)",
+        "year": 2012,
+        "authorPublisher": "Goce Delčev University e-lib (UGD)",
+        "direction": "DE↔MK",
+        "viewerUrl": "https://e-lib.ugd.edu.mk/137",
+        "pdfUrl": "https://e-lib.ugd.edu.mk/137",
+        "ocrUrl": null,
+        "approximateScope": "~365 pp print; repository page is HTML metadata — not open full-text PDF bytes",
+        "accessType": "Institutional repository record",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": true,
+          "pdf": {
+            "opens": false,
+            "note": "HTML interstitial"
+          },
+          "ocrAvailable": false,
+          "probeNotes": [],
+          "finalStatus": "NOT_FOUND_DIGITIZED",
+          "statusReason": "Repository HTML record — citation_pdf_url is not open %PDF"
+        },
+        "finalStatus": "NOT_FOUND_DIGITIZED"
+      },
+      {
+        "id": "print-milosev-matica-2004",
+        "title": "Rečnik makedonsko-germanski, germansko-makedonski (Milošev et al., Matica Makedonska 2004)",
+        "year": 2004,
+        "authorPublisher": "Matica Makedonska, Skopje",
+        "direction": "DE↔MK",
+        "viewerUrl": "https://katalog.ub.uni-heidelberg.de/titel/66068010",
+        "pdfUrl": null,
+        "ocrUrl": null,
+        "approximateScope": "~735 pp — library catalog Präsenznutzung only",
+        "accessType": "Print / catalog",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": false,
+          "pdf": null,
+          "ocrAvailable": false,
+          "probeNotes": [],
+          "finalStatus": "NOT_FOUND_DIGITIZED",
+          "statusReason": "Print or non-lexicon archive only"
+        },
+        "finalStatus": "NOT_FOUND_DIGITIZED"
+      },
+      {
+        "id": "manu-damj-macedonian-archive",
+        "title": "MANU Digital Archive of the Macedonian Language (DAMJ)",
+        "year": "2008+",
+        "authorPublisher": "Macedonian Academy of Sciences and Arts (MANU / ICAL)",
+        "direction": "MK reference corpus (not DE↔MK lexicon)",
+        "viewerUrl": "http://damj.manu.edu.mk/index_en.html",
+        "pdfUrl": null,
+        "ocrUrl": null,
+        "approximateScope": "Historical grammars/texts PDFs — no Macedonian–German dictionary scan listed",
+        "accessType": "Institutional archive",
+        "rejectReason": null,
+        "probe": {
+          "contentOpens": false,
+          "pdf": null,
+          "ocrAvailable": false,
+          "probeNotes": [],
+          "finalStatus": "NOT_FOUND_DIGITIZED",
+          "statusReason": "Print or non-lexicon archive only"
+        },
+        "finalStatus": "NOT_FOUND_DIGITIZED"
+      },
+      {
+        "id": "bg-miladinov-as-mk-proxy",
+        "title": "Bulgarian Miladinov DE↔BG dictionaries as MK substitute",
+        "year": null,
+        "authorPublisher": "—",
+        "direction": "DE↔BG",
+        "viewerUrl": null,
+        "pdfUrl": null,
+        "ocrUrl": null,
+        "approximateScope": "—",
+        "accessType": "—",
+        "rejectReason": "bg ≠ mk — unacceptable proxy for Macedonian audit",
+        "probe": {
+          "contentOpens": null,
+          "pdf": null,
+          "ocrAvailable": false,
+          "probeNotes": [],
+          "finalStatus": "REJECTED",
+          "statusReason": "bg ≠ mk — unacceptable proxy for Macedonian audit"
+        },
+        "finalStatus": "REJECTED"
+      }
+    ]
+  },
+  "bestFoundSource": {
+    "it": {
+      "id": "stack-bsb-neues-vollstaendig-it-de-vol1-2-plus-bulluoft-alt",
+      "title": "BSB Neues vollständiges italienisch-deutsches / deutsch-italienisches Wörterbuch (IA vol. 1–2, PDF+OCR) — alt. Bull IA OCR ~15MB",
+      "status": "PARTIAL",
+      "primaryUrls": [
+        "https://archive.org/details/11645915bsb",
+        "https://archive.org/details/11645916bsb",
+        "https://archive.org/details/neuesitalienisch02bulluoft"
+      ],
+      "note": "Pilot OCR: 3/6 DE lemmas on BSB vol. 1–2; casa attested; modern open full scan scarce on IA"
+    },
+    "nl": {
+      "id": "stack-bsb-nieuw-woordenboek-nl-hoogduits-1787-3parts",
+      "title": "Nieuw Woordenboek der Nederlandsche en Hoogduitsche Taal (BSB 1787, 3 IA parts, PDF+OCR) — no open modern full DE↔NL scan found",
+      "status": "PARTIAL",
+      "primaryUrls": [
+        "https://archive.org/details/10523039bsb",
+        "https://archive.org/details/10627384bsb",
+        "https://archive.org/details/10523038bsb"
+      ],
+      "note": "Pilot OCR: 2/6 word-boundary hits (Haus, arbeiten); Huis + Klein geld variants; Kramers/Van Dale IA borrow"
+    },
+    "mk": {
+      "id": "no-open-full-de-mk-lexicon",
+      "title": "No open institutional full DE↔MK dictionary scan/PDF verified — makedonisch.info web only (not automation-verified)",
+      "status": "NOT_FOUND_DIGITIZED",
+      "primaryUrls": [
+        "http://makedonisch.info/",
+        "https://e-lib.ugd.edu.mk/137"
+      ],
+      "note": "Milošev 2004 and Ivanovska 2012 remain print/repository metadata; do not use bg as proxy"
+    }
+  }
+}

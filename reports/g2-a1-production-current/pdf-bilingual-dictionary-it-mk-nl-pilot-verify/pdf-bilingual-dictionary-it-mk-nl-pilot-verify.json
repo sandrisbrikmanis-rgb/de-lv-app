@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-it-mk-nl-pilot-verify-v1",
+  "generatedAt": "2026-10-02T15:55:13.412Z",
+  "pilotLemmasDe": [
+    "Haus",
+    "arbeiten",
+    "Kleingeld",
+    "bewirten",
+    "Grenzkonflikt",
+    "Machtgier"
+  ],
+  "productionHausTarget": {
+    "it": {
+      "target": "casa",
+      "reverseLookup": "casa"
+    },
+    "nl": {
+      "target": "Huis",
+      "reverseLookup": "Huis"
+    },
+    "mk": {
+      "target": "Куќа",
+      "reverseLookup": "куќа"
+    }
+  },
+  "pilotVerification": {
+    "it": {
+      "deToTarget": [
+        {
+          "lemma": "Haus",
+          "found": true,
+          "snippet": "zio- ne,f. Wohnung Ff Wohnort, m. Haus, n. Abit-ino, m. Kleidchen; Skapu— lier, Ordenskleid, n.; -O, m. Kleid, Kleidung; Mönchskle"
+        },
+        {
+          "lemma": "arbeiten",
+          "found": true,
+          "snippet": "werfen; obenhin machen, leichthin arbeiten, pfuſchen; ungebührlich eſſen; -arsi, b. r. ſich verwirren; -atamente, app., obenhin, ob"
+        },
+        {
+          "lemma": "Kleingeld",
+          "found": false
+        },
+        {
+          "lemma": "bewirten",
+          "found": true,
+          "snippet": "rsi -, ſich Ehre machen; herrlich bewirten; farsi - di checchessia, ſich etwas zur Ehre rechnen; guar- dare il suo —, auf ſeine Ehre"
+        },
+        {
+          "lemma": "Grenzkonflikt",
+          "found": false
+        },
+        {
+          "lemma": "Machtgier",
+          "found": false
+        }
+      ],
+      "targetToDe": {
+        "lemma": "casa",
+        "found": true,
+        "hausInWindow": false,
+        "productionTarget": "casa"
+      },
+      "hitCount": 3,
+      "altSource": {
+        "id": "ia-neuesitalienisch-bulluoft",
+        "hitCount": 3,
+        "deToTarget": [
+          {
+            "lemma": "Haus",
+            "found": true,
+            "snippet": "Olcr, m. armaiuolo, m. || -= haus, n. (Mil.J arsenale, m. || -ftcillO, n. (Arm.) giaco, m. || -de rolD, m. araldo"
+          },
+          {
+            "lemma": "arbeiten",
+            "found": true,
+            "snippet": "fare un cottimo ; in (auf) « arbeiten, lavorare a cottimo ; eine ?Ubcit in ,« geben, übecueömen, dare, prendere a cot"
+          },
+          {
+            "lemma": "Kleingeld",
+            "found": false
+          },
+          {
+            "lemma": "bewirten",
+            "found": true,
+            "snippet": "er possibilt ; b) (anätütiren, bewirten) eSfettuare ; mandai 0 ad effetto; eseguire || allcä -c, tutto il possi- bile;"
+          },
+          {
+            "lemma": "Grenzkonflikt",
+            "found": false
+          },
+          {
+            "lemma": "Machtgier",
+            "found": false
+          }
+        ]
+      }
+    },
+    "nl": {
+      "deToTarget": [
+        {
+          "lemma": "Haus",
+          "found": true,
+          "snippet": "ſteed, er hat dem Zimmermanne das Haus vers ; dat is 2 922 of aanbeſteld Mkr NEDER-HOOG-DUITSCH « OO RDENEBOEK AANB e das"
+        },
+        {
+          "lemma": "arbeiten",
+          "found": true,
+          "snippet": "das Eiſen ans Geſteine ſetzen und arbeiten; item die Erze jegen an, wenn fie beſtandig bleiben; berm Schmelzen, das Erz und Beſchic"
+        },
+        {
+          "lemma": "Kleingeld",
+          "found": false
+        },
+        {
+          "lemma": "bewirten",
+          "found": false
+        },
+        {
+          "lemma": "Grenzkonflikt",
+          "found": false
+        },
+        {
+          "lemma": "Machtgier",
+          "found": false
+        }
+      ],
+      "targetToDe": {
+        "lemma": "Huis",
+        "found": true,
+        "hausInWindow": true,
+        "productionTarget": "Huis"
+      },
+      "hitCount": 2,
+      "variantNotes": {
+        "kleinGeldSpaced": true
+      }
+    },
+    "mk": {
+      "deToTarget": [
+        {
+          "lemma": "Haus",
+          "found": false,
+          "method": "makedonisch.info HTML — no grepable lexicon body in automation"
+        },
+        {
+          "lemma": "arbeiten",
+          "found": false,
+          "method": "makedonisch.info HTML — no grepable lexicon body in automation"
+        },
+        {
+          "lemma": "Kleingeld",
+          "found": false,
+          "method": "makedonisch.info HTML — no grepable lexicon body in automation"
+        },
+        {
+          "lemma": "bewirten",
+          "found": false,
+          "method": "makedonisch.info HTML — no grepable lexicon body in automation"
+        },
+        {
+          "lemma": "Grenzkonflikt",
+          "found": false,
+          "method": "makedonisch.info HTML — no grepable lexicon body in automation"
+        },
+        {
+          "lemma": "Machtgier",
+          "found": false,
+          "method": "makedonisch.info HTML — no grepable lexicon body in automation"
+        }
+      ],
+      "targetToDe": {
+        "lemma": "куќа",
+        "found": false,
+        "hausOnDeSearchPage": false,
+        "productionTarget": "Куќа",
+        "method": "makedonisch.info search HTML (not full dictionary OCR)"
+      },
+      "hitCount": 0,
+      "automationNote": "No open DE↔MK PDF/OCR; web UI does not expose pilot lemmas for word-boundary grep"
+    }
+  },
+  "summary": {
+    "it": {
+      "status": "PARTIAL",
+      "deToTargetHits": "3/6",
+      "altBullHits": "3/6",
+      "sourceId": "ia-bsb-neues-vollstaendig-it-de-vol1-2",
+      "targetToDeCasa": true,
+      "targetToDeHausNear": false
+    },
+    "nl": {
+      "status": "PARTIAL",
+      "deToTargetHits": "2/6",
+      "sourceId": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787",
+      "targetToDeHuis": true,
+      "kleinGeldVariant": true
+    },
+    "mk": {
+      "status": "NOT_VERIFIED_AUTOMATION",
+      "deToTargetHits": "0/6",
+      "sourceId": "web-makedonisch-info-de-mk",
+      "reason": "No open DE↔MK PDF/OCR; web UI does not expose pilot lemmas for word-boundary grep"
+    }
+  },
+  "bestFoundSource": {
+    "it": "ia-bsb-neues-vollstaendig-it-de-vol1-2 (pilot) + ia-neuesitalienisch-bulluoft (alt 3/6)",
+    "nl": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787 (3 BSB parts)",
+    "mk": "NOT_FOUND_DIGITIZED — makedonisch.info PARTIAL web only"
+  }
+}
