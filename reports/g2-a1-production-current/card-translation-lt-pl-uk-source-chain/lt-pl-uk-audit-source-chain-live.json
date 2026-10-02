@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "g2-a1-lt-pl-uk-audit-source-chain-live-v1",
+  "generatedAt": "2026-09-29T16:26:37.211Z",
+  "pilotCard": "Haus (a1)",
+  "languages": {
+    "lt": {
+      "pilotLemma": "Haus",
+      "productionTarget": "namas",
+      "deToTarget": {
+        "ok": true,
+        "direction": "de→target",
+        "sourceId": "ekalba-de-lt",
+        "sourceUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/",
+        "entryUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Haus?paieska=Haus&i=32b14ac4-c7e6-4aca-b722-bde8f8168bad",
+        "pair": "Haus → nãmas",
+        "pilotStatus": "FOUND",
+        "note": null
+      },
+      "targetToDe": {
+        "ok": true,
+        "direction": "target→de",
+        "sourceId": "ekalba-lt-de",
+        "sourceUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/",
+        "entryUrl": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/namas?paieska=namas&i=0cdbd720-ccec-48f1-a8a1-e3cd960c1301",
+        "pair": "namas → Haus",
+        "pilotStatus": "FOUND"
+      },
+      "targetOfficial": {
+        "ok": true,
+        "lookupTerm": "namas",
+        "adapterId": "lt-ekalba-browser-entry",
+        "entryUrl": "https://ekalba.lt/lietuviu-kalbos-zodynas/namas?paieska=namas&i=35acc0e5-cc86-449f-b8ec-193edba6bb1d",
+        "headword": "namas",
+        "outcome": "SOURCE_ENTRY_VALIDATED"
+      },
+      "cardTranslationReady": true,
+      "readinessBlockers": [],
+      "productionPilot": {
+        "pass": true,
+        "positiveRegressionPass": true,
+        "cardId": "Haus",
+        "currentTarget": "namas",
+        "verdict": "TRANSLATION_VALIDATED",
+        "blockers": [],
+        "regressionDetail": null,
+        "targetOfficialValidation": true,
+        "bilingualCollectorProven": true,
+        "deSourceUrl": "https://www.dwds.de/wb/Haus",
+        "bilingualSourceUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas",
+        "bilingualResultUrl": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Haus?paieska=Haus&i=32b14ac4-c7e6-4aca-b722-bde8f8168bad",
+        "targetSourceUrl": "https://ekalba.lt/lietuviu-kalbos-zodynas/namas?paieska=namas&i=35acc0e5-cc86-449f-b8ec-193edba6bb1d",
+        "provenTargetLemma": "namas"
+      }
+    },
+    "pl": {
+      "pilotLemma": "Haus",
+      "productionTarget": "Dom",
+      "deToTarget": {
+        "ok": true,
+        "direction": "de→target",
+        "sourceId": "pons-de-pl",
+        "sourceUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/",
+        "entryUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/Haus",
+        "pair": "Haus → dom",
+        "pilotStatus": "FOUND",
+        "note": null
+      },
+      "targetToDe": {
+        "ok": true,
+        "direction": "target→de",
+        "sourceId": "pons-pl-de",
+        "sourceUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/",
+        "entryUrl": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/dom?q=Dom",
+        "pair": "Dom → Haus",
+        "pilotStatus": "FOUND"
+      },
+      "targetOfficial": {
+        "ok": true,
+        "lookupTerm": "Dom",
+        "adapterId": "pl-wsjp-browser-entry",
+        "entryUrl": "https://wsjp.pl/haslo/podglad/25833/dom",
+        "headword": "Dom",
+        "outcome": "SOURCE_ENTRY_VALIDATED"
+      },
+      "cardTranslationReady": true,
+      "readinessBlockers": [],
+      "productionPilot": {
+        "pass": true,
+        "positiveRegressionPass": true,
+        "cardId": "Haus",
+        "currentTarget": "Dom",
+        "verdict": "TRANSLATION_VALIDATED",
+        "blockers": [],
+        "regressionDetail": null,
+        "targetOfficialValidation": true,
+        "bilingualCollectorProven": true,
+        "deSourceUrl": "https://www.dwds.de/wb/Haus",
+        "bilingualSourceUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch",
+        "bilingualResultUrl": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/Haus",
+        "targetSourceUrl": "https://wsjp.pl/haslo/podglad/25833/dom",
+        "provenTargetLemma": "Dom"
+      }
+    },
+    "uk": {
+      "pilotLemma": "Haus",
+      "productionTarget": "будинок",
+      "deToTarget": {
+        "ok": true,
+        "direction": "de→target",
+        "sourceId": "udew-uk-de-bidir",
+        "sourceUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+        "entryUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=Haus",
+        "pair": "Haus → буди́нок",
+        "pilotStatus": "FOUND",
+        "note": null
+      },
+      "targetToDe": {
+        "ok": true,
+        "direction": "target→de",
+        "sourceId": "udew-uk-de-bidir-reverse",
+        "sourceUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+        "entryUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA",
+        "pair": "будинок → Haus",
+        "pilotStatus": "FOUND"
+      },
+      "targetOfficial": {
+        "ok": true,
+        "lookupTerm": "будинок",
+        "adapterId": "uk-dictua-browser-entry",
+        "entryUrl": "https://lcorp.ulif.org.ua/dictua/?s=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA",
+        "headword": "будинок",
+        "outcome": "SOURCE_ENTRY_VALIDATED"
+      },
+      "cardTranslationReady": true,
+      "readinessBlockers": [],
+      "productionPilot": {
+        "pass": true,
+        "positiveRegressionPass": true,
+        "cardId": "Haus",
+        "currentTarget": "будинок",
+        "verdict": "TRANSLATION_VALIDATED",
+        "blockers": [],
+        "regressionDetail": null,
+        "targetOfficialValidation": true,
+        "bilingualCollectorProven": true,
+        "deSourceUrl": "https://www.dwds.de/wb/Haus",
+        "bilingualSourceUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+        "bilingualResultUrl": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=Haus",
+        "targetSourceUrl": "https://lcorp.ulif.org.ua/dictua/?s=%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA",
+        "provenTargetLemma": "будинок"
+      }
+    }
+  },
+  "auditCatalogs": [
+    "scripts/lib/data/g2-a1-card-translation-bilingual-audit-lv-lt-pl.json",
+    "scripts/lib/data/g2-a1-card-translation-bilingual-audit-uk.json"
+  ],
+  "overrides": "scripts/lib/data/german-target-dictionary-search-overrides-32.json"
+}
