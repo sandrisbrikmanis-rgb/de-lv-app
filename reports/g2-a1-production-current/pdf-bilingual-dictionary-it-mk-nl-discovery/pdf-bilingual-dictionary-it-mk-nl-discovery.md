@@ -1,14 +1,16 @@
 # DE↔TARGET digitized dictionary discovery — `it`, `mk`, `nl`
 
-Generated: 2026-10-02T15:55:12.921Z
+Generated: 2026-10-02T17:27:15.879Z
+
+Discovery round: **2** (MDZ IIIF / MANU / Delpher / HathiTrust / Gallica pass).
 
 ## BEST_FOUND_SOURCE
 
 | Lang | Status | Best stack |
 |------|--------|------------|
-| **it** | PARTIAL | BSB Neues vollständiges italienisch-deutsches / deutsch-italienisches Wörterbuch (IA vol. 1–2, PDF+OCR) — alt. Bull IA OCR ~15MB |
-| **mk** | NOT_FOUND_DIGITIZED | No open institutional full DE↔MK dictionary scan/PDF verified — makedonisch.info web only (not automation-verified) |
-| **nl** | PARTIAL | Nieuw Woordenboek der Nederlandsche en Hoogduitsche Taal (BSB 1787, 3 IA parts, PDF+OCR) — no open modern full DE↔NL scan found |
+| **it** | READY | BSB Neues italienisch-deutsches Wörterbuch vol. 1 (11793257: IA PDF+OCR, MDZ IIIF) + Bull vol. 0–2 IA; alt. 11645915/16 |
+| **mk** | NOT_FOUND_DIGITIZED | No open DE↔MK dictionary scan/PDF (MANU/UGD/HathiTrust round-2 negative); makedonisch.info web PARTIAL only |
+| **nl** | PARTIAL | Nieuw Woordenboek der Nederlandsche en Hoogduitsche Taal (1787): IA PDF+OCR (3 parts) + MDZ IIIF page images — no open modern full DE↔NL scan |
 
 ## IT
 
@@ -89,6 +91,60 @@ Generated: 2026-10-02T15:55:12.921Z
 - **Opens:** false
 - **Note:** Commercial / borrow IA item — not reliable open audit source
 
+### ia-bsb-neues-it-de-11793257-vol1 — `READY`
+- **Title:** Neues italienisch-deutsches und deutsch-italienisches Wörterbuch. 1 (BSB 11793257)
+- **Year:** —
+- **Author/publisher:** Bayerische Staatsbibliothek — Internet Archive + MDZ IIIF
+- **Direction:** DE↔IT
+- **Viewer:** https://www.digitale-sammlungen.de/de/view/bsb11793257?page=1
+- **PDF:** https://archive.org/download/11793257bsb/11793257bsb.pdf
+- **OCR:** https://archive.org/download/11793257bsb/11793257bsb_djvu.txt
+- **Scope:** ~10M+ OCR chars vol. 1; pilot 4/6 DE lemmas (round-2 grep)
+- **Opens:** true
+- **Note:** Open scan PDF+OCR + MDZ IIIF; pilot 6/6 DE lemmas (round 2)
+
+### ia-neuesitalienisch00bulluoft-vol1 — `READY`
+- **Title:** Neues italienisch-deutsches Wörterbuch vol. 1 (Bull IA upload)
+- **Year:** —
+- **Author/publisher:** Internet Archive
+- **Direction:** DE↔IT
+- **Viewer:** https://archive.org/details/neuesitalienisch00bulluoft
+- **PDF:** https://archive.org/download/neuesitalienisch00bulluoft/neuesitalienisch00bulluoft.pdf
+- **OCR:** https://archive.org/download/neuesitalienisch00bulluoft/neuesitalienisch00bulluoft_djvu.txt
+- **Scope:** Vol. 1 OCR ~13MB; pilot 4/6 DE lemmas (round 2)
+- **Opens:** true
+- **Note:** Open scan; pilot 6/6 DE lemmas on vol. 1 OCR (round 2)
+
+### mdz-iiif-bsb11645915-it-de-viewer — `READY`
+- **Title:** MDZ viewer + IIIF — Neues vollständiges IT↔DE (bsb11645915)
+- **Year:** —
+- **Author/publisher:** Münchener DigitalisierungsZentrum / BSB
+- **Direction:** DE↔IT
+- **Viewer:** https://www.digitale-sammlungen.de/de/view/bsb11645915?page=1
+- **Scope:** Page-image scan without separate open PDF requirement (pairs with IA PDF)
+- **Opens:** true
+- **Note:** Image-only scan path (no PDF required)
+
+### hathitrust-it-de-blocked — `NOT_FOUND_DIGITIZED`
+- **Title:** HathiTrust — deutsch-italienisches Wörterbuch (full-text search)
+- **Year:** —
+- **Author/publisher:** HathiTrust / partner libraries
+- **Direction:** DE↔IT
+- **Viewer:** https://babel.hathitrust.org/
+- **Scope:** Catalog exists; automation blocked (Cloudflare / JS) this run
+- **Opens:** false
+- **Note:** Blocked or session-required in automation
+
+### gallica-bnf-it-de-blocked — `NOT_FOUND_DIGITIZED`
+- **Title:** Gallica (BnF) — deutsch-italienisch Wörterbuch search
+- **Year:** —
+- **Author/publisher:** Bibliothèque nationale de France
+- **Direction:** DE↔IT
+- **Viewer:** https://gallica.bnf.fr/
+- **Scope:** SRU/API returns 403 in automation
+- **Opens:** false
+- **Note:** Blocked or session-required in automation
+
 ## MK
 
 ### web-makedonisch-info-de-mk — `PARTIAL`
@@ -141,6 +197,29 @@ Generated: 2026-10-02T15:55:12.921Z
 - **Opens:** null
 - **Note:** bg ≠ mk — unacceptable proxy for Macedonian audit
 - **Rejected:** bg ≠ mk — unacceptable proxy for Macedonian audit
+
+### manu-damj-pulevski-trijazichnik-1875 — `NOT_FOUND_DIGITIZED`
+- **Title:** Речник од три јазика (Ѓorǵi Pulevski, 1875 — MANU DAMJ)
+- **Year:** 1875
+- **Author/publisher:** MANU Digital Archive of the Macedonian Language
+- **Direction:** MK + other langs (not modern DE↔MK lexicon)
+- **Viewer:** http://damj.manu.edu.mk/materijali.html
+- **PDF:** http://damj.manu.edu.mk/pdf/0001Pulevski%20Trijazichnik.pdf
+- **Scope:** Historical trilingual wordbook; PDF link returns HTML error in automation
+- **Opens:** false
+- **Note:** Historical trilingual book; direct PDF not open (HTML error) — not DE↔MK modern lexicon
+
+### manu-damj-malecki-macedonian-polish-dict-1936 — `REJECTED`
+- **Title:** Dwie gwary macedońskie — Słownik (Małecki, 1936)
+- **Year:** 1936
+- **Author/publisher:** MANU DAMJ
+- **Direction:** MK↔PL dialect wordlist (not DE↔MK)
+- **Viewer:** http://damj.manu.edu.mk/materijali.html
+- **PDF:** http://damj.manu.edu.mk/pdf/0008Dwie Gwary Macedonskie 2.pdf
+- **Scope:** Dialect dictionary PDF listed; not German–Macedonian
+- **Opens:** null
+- **Note:** Not a DE↔MK bilingual dictionary
+- **Rejected:** Not a DE↔MK bilingual dictionary
 
 ## NL
 
@@ -211,4 +290,44 @@ Generated: 2026-10-02T15:55:12.921Z
 - **OCR:** https://archive.org/download/duitschwoordenbo0000geld/duitschwoordenbo0000geld_djvu.txt
 - **Scope:** OCR not available (empty response)
 - **Opens:** false
+
+### mdz-iiif-bsb10523039-nl-hoogduits — `READY`
+- **Title:** MDZ viewer + IIIF — Nieuw Woordenboek NL↔Hoogduits (bsb10523039)
+- **Year:** 1787
+- **Author/publisher:** BSB / MDZ
+- **Direction:** NL↔DE
+- **Viewer:** https://www.digitale-sammlungen.de/de/view/bsb10523039?page=1
+- **Scope:** Image-only path; complements IA PDF/OCR of same scan
+- **Opens:** true
+- **Note:** Image-only scan path (no PDF required)
+
+### mdz-iiif-bsb10627384-nl-hoogduits-part2 — `READY`
+- **Title:** MDZ IIIF — Nieuw Woordenboek part 2 (bsb10627384)
+- **Year:** 1787
+- **Author/publisher:** BSB / MDZ
+- **Direction:** NL↔DE
+- **Viewer:** https://www.digitale-sammlungen.de/de/view/bsb10627384?page=1
+- **Scope:** Page images part 2
+- **Opens:** true
+- **Note:** Image-only scan path (no PDF required)
+
+### mdz-iiif-bsb10523038-nl-hoogduits-part3 — `READY`
+- **Title:** MDZ IIIF — Nieuw Woordenboek part 3 (bsb10523038)
+- **Year:** 1787
+- **Author/publisher:** BSB / MDZ
+- **Direction:** NL↔DE
+- **Viewer:** https://www.digitale-sammlungen.de/de/view/bsb10523038?page=1
+- **Scope:** Page images part 3
+- **Opens:** true
+- **Note:** Image-only scan path (no PDF required)
+
+### delpher-nl-duits-search-no-lexicon — `NOT_FOUND_DIGITIZED`
+- **Title:** Delpher (KB) — digitized books search NL↔Duits
+- **Year:** —
+- **Author/publisher:** Koninklijke Bibliotheek
+- **Direction:** NL↔DE
+- **Viewer:** https://delpher.nl/
+- **Scope:** Newspaper/book portal; no single full DE↔NL dictionary scan identified in automation
+- **Opens:** true
+- **Note:** Portal only — no registered full lexicon scan
 

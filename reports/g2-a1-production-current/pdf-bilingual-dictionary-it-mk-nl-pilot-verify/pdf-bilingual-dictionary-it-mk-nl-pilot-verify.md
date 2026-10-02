@@ -1,6 +1,6 @@
 # Pilot lemma verification — `it`, `mk`, `nl`
 
-Generated: 2026-10-02T15:55:13.412Z
+Generated: 2026-10-02T17:25:46.432Z
 
 Pilotlemmas (DE): **Haus, arbeiten, Kleingeld, bewirten, Grenzkonflikt, Machtgier**.
 
@@ -8,8 +8,9 @@ Pilotlemmas (DE): **Haus, arbeiten, Kleingeld, bewirten, Grenzkonflikt, Machtgie
 
 | Lang | Source | DE→TARGET | Reverse (Haus) | Status |
 |------|--------|-----------|----------------|--------|
-| **it** | BSB Neues vollständig OCR (2 vol.) | 3/6 | casa: yes | **PARTIAL** |
-| **it** | Bull IA OCR (alt) | 3/6 | — | compare |
+| **it** | BSB 11793257 OCR + MDZ IIIF | 4/6 | casa: yes | **READY** |
+| **it** | 11645915/16 OCR (alt) | 3/6 | — | compare |
+| **it** | Bull vol.0 OCR (alt) | 3/6 | — | compare |
 | **nl** | BSB Nieuw woordenboek 1787 (3 parts) | 2/6 | Huis: yes | **PARTIAL** |
 | **mk** | makedonisch.info | 0/6 | куќа web: no | **NOT_VERIFIED_AUTOMATION** |
 

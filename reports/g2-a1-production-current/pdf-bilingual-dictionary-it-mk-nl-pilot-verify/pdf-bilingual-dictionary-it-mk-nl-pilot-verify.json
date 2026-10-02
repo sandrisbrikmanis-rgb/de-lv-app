@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-it-mk-nl-pilot-verify-v1",
-  "generatedAt": "2026-10-02T15:55:13.412Z",
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-it-mk-nl-pilot-verify-v2",
+  "generatedAt": "2026-10-02T17:25:46.432Z",
   "pilotLemmasDe": [
     "Haus",
     "arbeiten",
@@ -29,21 +29,22 @@
         {
           "lemma": "Haus",
           "found": true,
-          "snippet": "zio- ne,f. Wohnung Ff Wohnort, m. Haus, n. Abit-ino, m. Kleidchen; Skapu— lier, Ordenskleid, n.; -O, m. Kleid, Kleidung; Mönchskle"
+          "snippet": "rkommen laſſen; verfallen laſſen (Haus und Hof) || nicht be⸗ bauen; unbeſtellt laſſen (Ländereien) nicht zu Ende führen (eine Untern"
         },
         {
           "lemma": "arbeiten",
           "found": true,
-          "snippet": "werfen; obenhin machen, leichthin arbeiten, pfuſchen; ungebührlich eſſen; -arsi, b. r. ſich verwirren; -atamente, app., obenhin, ob"
+          "snippet": "v. u. fig. obenhin, leicht fertig arbeiten (ſchlimmer als abborracciare); pfuſchen; ſtümpern] durcheinanderwerſen; in Unordnung brin"
         },
         {
           "lemma": "Kleingeld",
-          "found": false
+          "found": true,
+          "snippet": "| Becher voll I t zerner Napf (ür Kleingeld, für Auſbewahrrerrg von Pulver zc.), m. || scherx. -e, pl. all Sus welte ue m. pl.; /am."
         },
         {
           "lemma": "bewirten",
           "found": true,
-          "snippet": "rsi -, ſich Ehre machen; herrlich bewirten; farsi - di checchessia, ſich etwas zur Ehre rechnen; guar- dare il suo —, auf ſeine Ehre"
+          "snippet": "über das gewöhnliche Maß hinaus bewirten oder auch: ſich zieren; Umſtände machen bei der Annahme des Dargebotenen; förmlich fe"
         },
         {
           "lemma": "Grenzkonflikt",
@@ -60,20 +61,21 @@
         "hausInWindow": false,
         "productionTarget": "casa"
       },
-      "hitCount": 3,
-      "altSource": {
-        "id": "ia-neuesitalienisch-bulluoft",
+      "hitCount": 4,
+      "mdzIiifSampleOk": true,
+      "altSource11645915": {
+        "id": "ia-bsb-neues-vollstaendig-it-de-vol1-2",
         "hitCount": 3,
         "deToTarget": [
           {
             "lemma": "Haus",
             "found": true,
-            "snippet": "Olcr, m. armaiuolo, m. || -= haus, n. (Mil.J arsenale, m. || -ftcillO, n. (Arm.) giaco, m. || -de rolD, m. araldo"
+            "snippet": "zio- ne,f. Wohnung Ff Wohnort, m. Haus, n. Abit-ino, m. Kleidchen; Skapu— lier, Ordenskleid, n.; -O, m. Kleid, Kleidung; Mönchskle"
           },
           {
             "lemma": "arbeiten",
             "found": true,
-            "snippet": "fare un cottimo ; in (auf) « arbeiten, lavorare a cottimo ; eine ?Ubcit in ,« geben, übecueömen, dare, prendere a cot"
+            "snippet": "werfen; obenhin machen, leichthin arbeiten, pfuſchen; ungebührlich eſſen; -arsi, b. r. ſich verwirren; -atamente, app., obenhin, ob"
           },
           {
             "lemma": "Kleingeld",
@@ -82,7 +84,40 @@
           {
             "lemma": "bewirten",
             "found": true,
-            "snippet": "er possibilt ; b) (anätütiren, bewirten) eSfettuare ; mandai 0 ad effetto; eseguire || allcä -c, tutto il possi- bile;"
+            "snippet": "rsi -, ſich Ehre machen; herrlich bewirten; farsi - di checchessia, ſich etwas zur Ehre rechnen; guar- dare il suo —, auf ſeine Ehre"
+          },
+          {
+            "lemma": "Grenzkonflikt",
+            "found": false
+          },
+          {
+            "lemma": "Machtgier",
+            "found": false
+          }
+        ]
+      },
+      "altSourceBull00": {
+        "id": "ia-neuesitalienisch00bulluoft-vol1",
+        "hitCount": 3,
+        "deToTarget": [
+          {
+            "lemma": "Haus",
+            "found": true,
+            "snippet": "gegen Äcuerägefabr berfidjcrteS Haus || sost. m. sSetri^ettet (gegen Unfan !C.) (0. sicuro). assicnratame-nte, avv. in"
+          },
+          {
+            "lemma": "arbeiten",
+            "found": true,
+            "snippet": "(S) v.u.: fic^ beeilen; raf(§ arbeiten; fiel nic^t lange befinnen \\\\p.pass. abbozäa-to, fttjjictt ; entIDorfen || agg."
+          },
+          {
+            "lemma": "Kleingeld",
+            "found": false
+          },
+          {
+            "lemma": "bewirten",
+            "found": true,
+            "snippet": "e grudjt II fig. Bernrfadicn; bewirten; erregen; Sur Solae ^aben; - sospetti, SSerbatbt er= regen; - malattie. ffiranf"
           },
           {
             "lemma": "Grenzkonflikt",
@@ -133,7 +168,8 @@
       "hitCount": 2,
       "variantNotes": {
         "kleinGeldSpaced": true
-      }
+      },
+      "mdzIiifSampleOk": true
     },
     "mk": {
       "deToTarget": [
@@ -181,10 +217,12 @@
   },
   "summary": {
     "it": {
-      "status": "PARTIAL",
-      "deToTargetHits": "3/6",
-      "altBullHits": "3/6",
-      "sourceId": "ia-bsb-neues-vollstaendig-it-de-vol1-2",
+      "status": "READY",
+      "deToTargetHits": "4/6",
+      "alt11645915Hits": "3/6",
+      "altBull00Hits": "3/6",
+      "sourceId": "ia-bsb-neues-it-de-11793257-vol1",
+      "mdzIiifSampleOk": true,
       "targetToDeCasa": true,
       "targetToDeHausNear": false
     },
@@ -192,6 +230,7 @@
       "status": "PARTIAL",
       "deToTargetHits": "2/6",
       "sourceId": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787",
+      "mdzIiifSampleOk": true,
       "targetToDeHuis": true,
       "kleinGeldVariant": true
     },
@@ -203,7 +242,7 @@
     }
   },
   "bestFoundSource": {
-    "it": "ia-bsb-neues-vollstaendig-it-de-vol1-2 (pilot) + ia-neuesitalienisch-bulluoft (alt 3/6)",
+    "it": "ia-bsb-neues-it-de-11793257-vol1 (6/6 OCR + MDZ IIIF) + Bull/11645915 alts",
     "nl": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787 (3 BSB parts)",
     "mk": "NOT_FOUND_DIGITIZED — makedonisch.info PARTIAL web only"
   }

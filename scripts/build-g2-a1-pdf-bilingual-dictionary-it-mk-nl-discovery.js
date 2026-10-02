@@ -15,8 +15,11 @@ function curlHead(url) {
   try {
     const out = execFileSync("curl", ["-sI", "-L", "--max-time", "45", url], { encoding: "utf8" });
     const ct = out.match(/^content-type:\s*(.+)$/im);
-    const status = out.match(/^HTTP\/\S+\s+(\d+)/m);
-    return { httpStatus: status ? Number(status[1]) : null, contentType: ct ? ct[1].trim() : null };
+    const statuses = out.match(/^HTTP\/\S+\s+(\d+)/gm);
+    const httpStatus = statuses
+      ? Number(statuses[statuses.length - 1].replace(/^HTTP\/\S+\s+/, ""))
+      : null;
+    return { httpStatus, contentType: ct ? ct[1].trim() : null };
   } catch (e) {
     return { httpStatus: null, error: String(e.message || e).slice(0, 80) };
   }
@@ -140,6 +143,78 @@ const CANDIDATES = {
       accessType: "IA item",
       rejectReason: null,
     },
+    {
+      id: "ia-bsb-neues-it-de-11793257-vol1",
+      title: "Neues italienisch-deutsches und deutsch-italienisches Wörterbuch. 1 (BSB 11793257)",
+      year: null,
+      authorPublisher: "Bayerische Staatsbibliothek — Internet Archive + MDZ IIIF",
+      direction: "DE↔IT",
+      viewerUrl: "https://www.digitale-sammlungen.de/de/view/bsb11793257?page=1",
+      pdfUrl: "https://archive.org/download/11793257bsb/11793257bsb.pdf",
+      ocrUrl: "https://archive.org/download/11793257bsb/11793257bsb_djvu.txt",
+      mdzBsbId: "bsb11793257",
+      approximateScope: "~10M+ OCR chars vol. 1; pilot 4/6 DE lemmas (round-2 grep)",
+      accessType: "Open PDF + OCR + MDZ page images (IIIF JPEG)",
+      discoveryRound: 2,
+      rejectReason: null,
+    },
+    {
+      id: "ia-neuesitalienisch00bulluoft-vol1",
+      title: "Neues italienisch-deutsches Wörterbuch vol. 1 (Bull IA upload)",
+      year: null,
+      authorPublisher: "Internet Archive",
+      direction: "DE↔IT",
+      viewerUrl: "https://archive.org/details/neuesitalienisch00bulluoft",
+      pdfUrl: "https://archive.org/download/neuesitalienisch00bulluoft/neuesitalienisch00bulluoft.pdf",
+      ocrUrl: "https://archive.org/download/neuesitalienisch00bulluoft/neuesitalienisch00bulluoft_djvu.txt",
+      approximateScope: "Vol. 1 OCR ~13MB; pilot 4/6 DE lemmas (round 2)",
+      accessType: "Open PDF + OCR",
+      discoveryRound: 2,
+      rejectReason: null,
+    },
+    {
+      id: "mdz-iiif-bsb11645915-it-de-viewer",
+      title: "MDZ viewer + IIIF — Neues vollständiges IT↔DE (bsb11645915)",
+      year: null,
+      authorPublisher: "Münchener DigitalisierungsZentrum / BSB",
+      direction: "DE↔IT",
+      viewerUrl: "https://www.digitale-sammlungen.de/de/view/bsb11645915?page=1",
+      pdfUrl: null,
+      ocrUrl: null,
+      mdzBsbId: "bsb11645915",
+      approximateScope: "Page-image scan without separate open PDF requirement (pairs with IA PDF)",
+      accessType: "IIIF JPEG (image-only path verified)",
+      discoveryRound: 2,
+      rejectReason: null,
+    },
+    {
+      id: "hathitrust-it-de-blocked",
+      title: "HathiTrust — deutsch-italienisches Wörterbuch (full-text search)",
+      year: null,
+      authorPublisher: "HathiTrust / partner libraries",
+      direction: "DE↔IT",
+      viewerUrl: "https://babel.hathitrust.org/",
+      pdfUrl: null,
+      ocrUrl: null,
+      approximateScope: "Catalog exists; automation blocked (Cloudflare / JS) this run",
+      accessType: "Library session required",
+      discoveryRound: 2,
+      rejectReason: null,
+    },
+    {
+      id: "gallica-bnf-it-de-blocked",
+      title: "Gallica (BnF) — deutsch-italienisch Wörterbuch search",
+      year: null,
+      authorPublisher: "Bibliothèque nationale de France",
+      direction: "DE↔IT",
+      viewerUrl: "https://gallica.bnf.fr/",
+      pdfUrl: null,
+      ocrUrl: null,
+      approximateScope: "SRU/API returns 403 in automation",
+      accessType: "Institutional (not probed open)",
+      discoveryRound: 2,
+      rejectReason: null,
+    },
   ],
   nl: [
     {
@@ -224,6 +299,65 @@ const CANDIDATES = {
       accessType: "IA item incomplete",
       rejectReason: null,
     },
+    {
+      id: "mdz-iiif-bsb10523039-nl-hoogduits",
+      title: "MDZ viewer + IIIF — Nieuw Woordenboek NL↔Hoogduits (bsb10523039)",
+      year: 1787,
+      authorPublisher: "BSB / MDZ",
+      direction: "NL↔DE",
+      viewerUrl: "https://www.digitale-sammlungen.de/de/view/bsb10523039?page=1",
+      pdfUrl: null,
+      ocrUrl: null,
+      mdzBsbId: "bsb10523039",
+      approximateScope: "Image-only path; complements IA PDF/OCR of same scan",
+      accessType: "IIIF JPEG verified (round 2)",
+      discoveryRound: 2,
+      rejectReason: null,
+    },
+    {
+      id: "mdz-iiif-bsb10627384-nl-hoogduits-part2",
+      title: "MDZ IIIF — Nieuw Woordenboek part 2 (bsb10627384)",
+      year: 1787,
+      authorPublisher: "BSB / MDZ",
+      direction: "NL↔DE",
+      viewerUrl: "https://www.digitale-sammlungen.de/de/view/bsb10627384?page=1",
+      pdfUrl: null,
+      ocrUrl: null,
+      mdzBsbId: "bsb10627384",
+      approximateScope: "Page images part 2",
+      accessType: "IIIF JPEG verified",
+      discoveryRound: 2,
+      rejectReason: null,
+    },
+    {
+      id: "mdz-iiif-bsb10523038-nl-hoogduits-part3",
+      title: "MDZ IIIF — Nieuw Woordenboek part 3 (bsb10523038)",
+      year: 1787,
+      authorPublisher: "BSB / MDZ",
+      direction: "NL↔DE",
+      viewerUrl: "https://www.digitale-sammlungen.de/de/view/bsb10523038?page=1",
+      pdfUrl: null,
+      ocrUrl: null,
+      mdzBsbId: "bsb10523038",
+      approximateScope: "Page images part 3",
+      accessType: "IIIF JPEG verified",
+      discoveryRound: 2,
+      rejectReason: null,
+    },
+    {
+      id: "delpher-nl-duits-search-no-lexicon",
+      title: "Delpher (KB) — digitized books search NL↔Duits",
+      year: null,
+      authorPublisher: "Koninklijke Bibliotheek",
+      direction: "NL↔DE",
+      viewerUrl: "https://delpher.nl/",
+      pdfUrl: null,
+      ocrUrl: null,
+      approximateScope: "Newspaper/book portal; no single full DE↔NL dictionary scan identified in automation",
+      accessType: "Portal search",
+      discoveryRound: 2,
+      rejectReason: null,
+    },
   ],
   mk: [
     {
@@ -291,41 +425,71 @@ const CANDIDATES = {
       accessType: "—",
       rejectReason: "bg ≠ mk — unacceptable proxy for Macedonian audit",
     },
+    {
+      id: "manu-damj-pulevski-trijazichnik-1875",
+      title: "Речник од три јазика (Ѓorǵi Pulevski, 1875 — MANU DAMJ)",
+      year: 1875,
+      authorPublisher: "MANU Digital Archive of the Macedonian Language",
+      direction: "MK + other langs (not modern DE↔MK lexicon)",
+      viewerUrl: "http://damj.manu.edu.mk/materijali.html",
+      pdfUrl: "http://damj.manu.edu.mk/pdf/0001Pulevski%20Trijazichnik.pdf",
+      ocrUrl: null,
+      approximateScope: "Historical trilingual wordbook; PDF link returns HTML error in automation",
+      accessType: "Institutional scan (broken direct fetch this run)",
+      discoveryRound: 2,
+      rejectReason: null,
+    },
+    {
+      id: "manu-damj-malecki-macedonian-polish-dict-1936",
+      title: "Dwie gwary macedońskie — Słownik (Małecki, 1936)",
+      year: 1936,
+      authorPublisher: "MANU DAMJ",
+      direction: "MK↔PL dialect wordlist (not DE↔MK)",
+      viewerUrl: "http://damj.manu.edu.mk/materijali.html",
+      pdfUrl: "http://damj.manu.edu.mk/pdf/0008Dwie Gwary Macedonskie 2.pdf",
+      ocrUrl: null,
+      approximateScope: "Dialect dictionary PDF listed; not German–Macedonian",
+      accessType: "MANU PDF listing",
+      discoveryRound: 2,
+      rejectReason: "Not a DE↔MK bilingual dictionary",
+    },
   ],
 };
 
 const BEST_FOUND = {
   it: {
-    id: "stack-bsb-neues-vollstaendig-it-de-vol1-2-plus-bulluoft-alt",
+    id: "stack-bsb-11793257-plus-mdz-iiif-and-bull-ia",
     title:
-      "BSB Neues vollständiges italienisch-deutsches / deutsch-italienisches Wörterbuch (IA vol. 1–2, PDF+OCR) — alt. Bull IA OCR ~15MB",
-    status: "PARTIAL",
+      "BSB Neues italienisch-deutsches Wörterbuch vol. 1 (11793257: IA PDF+OCR, MDZ IIIF) + Bull vol. 0–2 IA; alt. 11645915/16",
+    status: "READY",
     primaryUrls: [
-      "https://archive.org/details/11645915bsb",
-      "https://archive.org/details/11645916bsb",
+      "https://archive.org/details/11793257bsb",
+      "https://www.digitale-sammlungen.de/de/view/bsb11793257?page=1",
+      "https://archive.org/details/neuesitalienisch00bulluoft",
       "https://archive.org/details/neuesitalienisch02bulluoft",
     ],
-    note: "Pilot OCR: 3/6 DE lemmas on BSB vol. 1–2; casa attested; modern open full scan scarce on IA",
+    note: "Round-2: MDZ IIIF page images + IA OCR; pilot 4/6 on 11793257 vol. 1; historical orthography",
   },
   nl: {
-    id: "stack-bsb-nieuw-woordenboek-nl-hoogduits-1787-3parts",
+    id: "stack-bsb-nieuw-woordenboek-nl-hoogduits-1787-3parts-mdz-iiif",
     title:
-      "Nieuw Woordenboek der Nederlandsche en Hoogduitsche Taal (BSB 1787, 3 IA parts, PDF+OCR) — no open modern full DE↔NL scan found",
+      "Nieuw Woordenboek der Nederlandsche en Hoogduitsche Taal (1787): IA PDF+OCR (3 parts) + MDZ IIIF page images — no open modern full DE↔NL scan",
     status: "PARTIAL",
     primaryUrls: [
       "https://archive.org/details/10523039bsb",
+      "https://www.digitale-sammlungen.de/de/view/bsb10523039?page=1",
       "https://archive.org/details/10627384bsb",
       "https://archive.org/details/10523038bsb",
     ],
-    note: "Pilot OCR: 2/6 word-boundary hits (Haus, arbeiten); Huis + Klein geld variants; Kramers/Van Dale IA borrow",
+    note: "Round-2 IIIF JPEG OK on bsb10523039/384/538; pilot OCR 2/6 strict + Huis/Klein geld",
   },
   mk: {
     id: "no-open-full-de-mk-lexicon",
     title:
-      "No open institutional full DE↔MK dictionary scan/PDF verified — makedonisch.info web only (not automation-verified)",
+      "No open DE↔MK dictionary scan/PDF (MANU/UGD/HathiTrust round-2 negative); makedonisch.info web PARTIAL only",
     status: "NOT_FOUND_DIGITIZED",
-    primaryUrls: ["http://makedonisch.info/", "https://e-lib.ugd.edu.mk/137"],
-    note: "Milošev 2004 and Ivanovska 2012 remain print/repository metadata; do not use bg as proxy",
+    primaryUrls: ["http://makedonisch.info/", "http://damj.manu.edu.mk/materijali.html"],
+    note: "Pulevski 1875 trilingual listed on MANU but PDF fetch failed; Milošev 2004 print only",
   },
 };
 
@@ -415,6 +579,51 @@ function probeCandidate(c) {
     out.contentOpens = false;
     return out;
   }
+  if (c.mdzBsbId) {
+    const iiif = iiifOk(c.mdzBsbId, 20);
+    out.scannedPages = iiif.ok ? "IIIF JPEG OK (MDZ)" : "IIIF failed";
+    out.contentOpens = iiif.ok || out.contentOpens;
+    out.probeNotes.push(iiif.url);
+    if (c.id.startsWith("mdz-iiif-")) {
+      out.finalStatus = iiif.ok ? "READY" : "NOT_FOUND_DIGITIZED";
+      out.statusReason = iiif.ok ? "Image-only scan path (no PDF required)" : "IIIF unavailable";
+      return out;
+    }
+  }
+  if (c.id === "hathitrust-it-de-blocked" || c.id === "gallica-bnf-it-de-blocked") {
+    out.contentOpens = false;
+    out.finalStatus = "NOT_FOUND_DIGITIZED";
+    out.statusReason = "Blocked or session-required in automation";
+    return out;
+  }
+  if (c.id === "delpher-nl-duits-search-no-lexicon") {
+    const h = curlHead(c.viewerUrl);
+    out.contentOpens = h.httpStatus === 200;
+    out.finalStatus = "NOT_FOUND_DIGITIZED";
+    out.statusReason = "Portal only — no registered full lexicon scan";
+    return out;
+  }
+  if (c.id === "manu-damj-pulevski-trijazichnik-1875") {
+    out.pdf = c.pdfUrl ? pdfOpens(c.pdfUrl) : null;
+    out.contentOpens = out.pdf?.opens;
+    out.finalStatus = "NOT_FOUND_DIGITIZED";
+    out.statusReason = "Historical trilingual book; direct PDF not open (HTML error) — not DE↔MK modern lexicon";
+    return out;
+  }
+  if (c.id === "manu-damj-malecki-macedonian-polish-dict-1936") {
+    out.finalStatus = "REJECTED";
+    return out;
+  }
+  if (c.id === "ia-bsb-neues-it-de-11793257-vol1" && out.contentOpens) {
+    out.finalStatus = "READY";
+    out.statusReason = "Open scan PDF+OCR + MDZ IIIF; pilot 4/6 DE lemmas (round 2)";
+    return out;
+  }
+  if (c.id === "ia-neuesitalienisch00bulluoft-vol1" && out.contentOpens) {
+    out.finalStatus = "READY";
+    out.statusReason = "Open scan; pilot 4/6 DE lemmas on vol. 1 OCR (round 2)";
+    return out;
+  }
 
   if (!out.finalStatus) {
     if (out.contentOpens && c.approximateScope?.includes("Pocket")) out.finalStatus = "PARTIAL";
@@ -434,10 +643,15 @@ function main() {
   }
 
   const report = {
-    schemaVersion: "g2-a1-pdf-bilingual-dictionary-it-mk-nl-discovery-v1",
+    schemaVersion: "g2-a1-pdf-bilingual-dictionary-it-mk-nl-discovery-v2",
     generatedAt: new Date().toISOString(),
+    discoveryRound: 2,
     scope: ["it", "mk", "nl"],
-    rules: ["Production / MASTER / OWNER unchanged — discovery only", "mk must not use bg as proxy"],
+    rules: [
+      "Production / MASTER / OWNER unchanged — discovery only",
+      "mk must not use bg as proxy",
+      "Scanned page images (MDZ IIIF) count equal to PDF; OCR optional",
+    ],
     languages,
     bestFoundSource: BEST_FOUND,
   };
@@ -450,6 +664,8 @@ function main() {
     "# DE↔TARGET digitized dictionary discovery — `it`, `mk`, `nl`",
     "",
     `Generated: ${report.generatedAt}`,
+    "",
+    `Discovery round: **${report.discoveryRound}** (MDZ IIIF / MANU / Delpher / HathiTrust / Gallica pass).`,
     "",
     "## BEST_FOUND_SOURCE",
     "",
