@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-hr-hu-is-pilot-verify-v1",
+  "generatedAt": "2026-10-02T14:25:01.048Z",
+  "pilotLemmasDe": [
+    "Haus",
+    "arbeiten",
+    "Kleingeld",
+    "bewirten",
+    "Grenzkonflikt",
+    "Machtgier"
+  ],
+  "productionHausTarget": {
+    "hr": {
+      "target": "Куќа",
+      "reverseLookup": "kuća"
+    },
+    "hu": {
+      "target": "Ház",
+      "reverseLookup": "Ház"
+    },
+    "is": {
+      "target": "Maya",
+      "reverseLookup": "hús",
+      "note": "Card CURRENT is Maya; pilot reverse uses hús (house)"
+    }
+  },
+  "pilotVerification": {
+    "hr": {
+      "deToTarget": [
+        {
+          "lemma": "Haus",
+          "found": true,
+          "snippet": "aditi, razvaliti gra- jevinu; ein Haus —, porusiti kudu; eine Mauer —, razoriti zidinu ; einem Meffer die Spige —, odkrhnuti rät (r"
+        },
+        {
+          "lemma": "arbeiten",
+          "found": true,
+          "snippet": "i, odradjivati du- gove; (ju Ende arbeiten), doraditi, svr- siti , dovraiti, doradjivati, svröivati; fi —, rr, izirgali se: kidati s"
+        },
+        {
+          "lemma": "Kleingeld",
+          "found": true,
+          "snippet": "dusje ; — zeigen, ma- | | Kleingeld, m. sitni noveci. | lodusan biti. Kleinmüthig, adj. malodusan; — werden, klonuti duh"
+        },
+        {
+          "lemma": "bewirten",
+          "found": false
+        },
+        {
+          "lemma": "Grenzkonflikt",
+          "found": false
+        },
+        {
+          "lemma": "Machtgier",
+          "found": false
+        }
+      ],
+      "targetToDe": {
+        "lemma": "kuća",
+        "found": true,
+        "snippet": "c n j cf) ; — gladnica -ce /. bie ^ungcvlo; figteit —glasan -sna -sno adj. flangtoa, ftimmfoč, tonloš. Bezglav -va -o, — an -a -o (—ni -a -o) fopfloS, gcpinitoš ; bezglavna kuća opne Dberpaupt ($. b. eine ^•amitie; — glavna žena gattem tofe-j 2Seib; — ac -vca m. ber Jtopfloje; ber ®epirntofe ci to. pl. fopftofe jBeidjtpiere, Acepbala ; Kopftojc, 5pieubocepl)ala ; — ost -sti /. bie tfopflofigteit. Bez;globan -bna -no geienfloč; — gran -na -o_ afttož ; — giesan -sna -no (grješan) jiinbioš, uh; jiinbig, funbenfrei: — gr",
+        "hausInWindow": false,
+        "productionTarget": "Куќа"
+      },
+      "hitCount": 3
+    },
+    "huHtml": {
+      "deToTarget": [
+        {
+          "lemma": "Haus",
+          "found": true,
+          "page": "h.htm",
+          "method": "MEK HTML letter page"
+        },
+        {
+          "lemma": "arbeiten",
+          "found": true,
+          "page": "a.htm",
+          "method": "MEK HTML letter page"
+        },
+        {
+          "lemma": "Kleingeld",
+          "found": true,
+          "page": "k.htm",
+          "method": "MEK HTML letter page"
+        },
+        {
+          "lemma": "bewirten",
+          "found": true,
+          "page": "b.htm",
+          "method": "MEK HTML letter page"
+        },
+        {
+          "lemma": "Grenzkonflikt",
+          "found": false,
+          "page": "g.htm",
+          "method": "MEK HTML letter page"
+        },
+        {
+          "lemma": "Machtgier",
+          "found": false,
+          "page": "m.htm",
+          "method": "MEK HTML letter page"
+        }
+      ],
+      "targetToDe": {
+        "lemma": "Ház",
+        "found": true,
+        "method": "MEK h.htm (legacy encoding)",
+        "productionTarget": "Ház"
+      },
+      "hitCount": 4
+    },
+    "huPdf": null,
+    "is": {
+      "status": "NOT_VERIFIED_AUTOMATION",
+      "reason": "No open OCR/PDF/ HTML dictionary text for IS↔DE in this run (LEXÍA requires browser session)",
+      "lexiaUrl": "https://lexia.arnastofnun.is/"
+    }
+  },
+  "summary": {
+    "hr": {
+      "status": "PARTIAL",
+      "deToTargetHits": "3/6",
+      "sourceDeToTarget": "mdz-bsb-sulek-de-hr-vol1-1860",
+      "sourceTargetToDe": "ia-filipovic-hr-de-vol-a-o-1875",
+      "targetToDeKuća": true,
+      "targetToDeHausNear": false
+    },
+    "hu": {
+      "status": "PARTIAL",
+      "mekHtmlDeToTargetHits": "4/6",
+      "mekPdfDeToTargetHits": "skipped",
+      "targetToDeHázHtml": true,
+      "targetToDeHázPdf": null
+    },
+    "is": {
+      "status": "NOT_VERIFIED_AUTOMATION",
+      "reason": "No open OCR/PDF/ HTML dictionary text for IS↔DE in this run (LEXÍA requires browser session)",
+      "lexiaUrl": "https://lexia.arnastofnun.is/"
+    }
+  },
+  "methodology": "Same 6 DE lemmas as bg/bs/fr pilot. hr: IA OCR grep; hu: MEK HTML letter pages + optional MEK 24482 pdftotext; is: no automatable full lexicon text."
+}
