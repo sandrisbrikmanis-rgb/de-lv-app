@@ -22,15 +22,21 @@ const PRODUCTION_HAUS = {
 const SOURCES = {
   it: {
     primary: {
+      id: "ia-bsb-neues-it-de-11793257-vol1",
+      ocrUrls: ["https://archive.org/download/11793257bsb/11793257bsb_djvu.txt"],
+      mdzIiifSample:
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11793257_00020/full/full/0/default.jpg",
+    },
+    alt: {
       id: "ia-bsb-neues-vollstaendig-it-de-vol1-2",
       ocrUrls: [
         "https://archive.org/download/11645915bsb/11645915bsb_djvu.txt",
         "https://archive.org/download/11645916bsb/11645916bsb_djvu.txt",
       ],
-      alt: {
-        id: "ia-neuesitalienisch-bulluoft",
-        ocrUrl: "https://archive.org/download/neuesitalienisch02bulluoft/neuesitalienisch02bulluoft_djvu.txt",
-      },
+    },
+    altBull: {
+      id: "ia-neuesitalienisch00bulluoft-vol1",
+      ocrUrl: "https://archive.org/download/neuesitalienisch00bulluoft/neuesitalienisch00bulluoft_djvu.txt",
     },
   },
   nl: {
@@ -41,6 +47,8 @@ const SOURCES = {
         "https://archive.org/download/10627384bsb/10627384bsb_djvu.txt",
         "https://archive.org/download/10523038bsb/10523038bsb_djvu.txt",
       ],
+      mdzIiifSample:
+        "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10523039_00020/full/full/0/default.jpg",
     },
   },
   mk: {
@@ -80,8 +88,21 @@ function loadOcrCombined(urls) {
 function pilotIt() {
   const text = loadOcrCombined(SOURCES.it.primary.ocrUrls);
   const deToTarget = ocrLemmaHitsFromText(text, DE_LEMMAS);
-  const altText = curlText(SOURCES.it.primary.alt.ocrUrl);
+  const altText = loadOcrCombined(SOURCES.it.alt.ocrUrls);
   const altHits = ocrLemmaHitsFromText(altText, DE_LEMMAS);
+  const bullText = curlText(SOURCES.it.altBull.ocrUrl);
+  const bullHits = ocrLemmaHitsFromText(bullText, DE_LEMMAS);
+  let mdzIiifOk = false;
+  try {
+    const h = execFileSync(
+      "curl",
+      ["-sI", "-L", "--max-time", "30", SOURCES.it.primary.mdzIiifSample],
+      { encoding: "utf8" },
+    );
+    mdzIiifOk = /HTTP\/\S+\s+200/.test(h);
+  } catch {
+    mdzIiifOk = false;
+  }
   const target = PRODUCTION_HAUS.it.reverseLookup;
   const reTarget = new RegExp(`\\b${target}\\b`, "i");
   const m = text.match(reTarget);
@@ -100,10 +121,16 @@ function pilotIt() {
     deToTarget,
     targetToDe,
     hitCount: deToTarget.filter((r) => r.found).length,
-    altSource: {
-      id: SOURCES.it.primary.alt.id,
+    mdzIiifSampleOk: mdzIiifOk,
+    altSource11645915: {
+      id: SOURCES.it.alt.id,
       hitCount: altHits.filter((r) => r.found).length,
       deToTarget: altHits,
+    },
+    altSourceBull00: {
+      id: SOURCES.it.altBull.id,
+      hitCount: bullHits.filter((r) => r.found).length,
+      deToTarget: bullHits,
     },
   };
 }
@@ -111,6 +138,17 @@ function pilotIt() {
 function pilotNl() {
   const text = loadOcrCombined(SOURCES.nl.primary.ocrUrls);
   const deToTarget = ocrLemmaHitsFromText(text, DE_LEMMAS);
+  let mdzIiifOk = false;
+  try {
+    const h = execFileSync(
+      "curl",
+      ["-sI", "-L", "--max-time", "30", SOURCES.nl.primary.mdzIiifSample],
+      { encoding: "utf8" },
+    );
+    mdzIiifOk = /HTTP\/\S+\s+200/.test(h);
+  } catch {
+    mdzIiifOk = false;
+  }
   const variantNotes = {
     kleinGeldSpaced: /Klein\s+geld/i.test(text),
   };
@@ -132,6 +170,7 @@ function pilotNl() {
     targetToDe,
     hitCount: deToTarget.filter((r) => r.found).length,
     variantNotes,
+    mdzIiifSampleOk: mdzIiifOk,
   };
 }
 
@@ -178,10 +217,12 @@ function main() {
 
   const summary = {
     it: {
-      status: it.hitCount >= 2 ? "PARTIAL" : "FAIL",
+      status: it.hitCount >= 4 ? "READY" : it.hitCount >= 2 ? "PARTIAL" : "FAIL",
       deToTargetHits: `${it.hitCount}/6`,
-      altBullHits: `${it.altSource.hitCount}/6`,
+      alt11645915Hits: `${it.altSource11645915.hitCount}/6`,
+      altBull00Hits: `${it.altSourceBull00.hitCount}/6`,
       sourceId: SOURCES.it.primary.id,
+      mdzIiifSampleOk: it.mdzIiifSampleOk,
       targetToDeCasa: it.targetToDe.found,
       targetToDeHausNear: it.targetToDe.hausInWindow ?? null,
     },
@@ -189,6 +230,7 @@ function main() {
       status: nl.hitCount >= 2 ? "PARTIAL" : "FAIL",
       deToTargetHits: `${nl.hitCount}/6`,
       sourceId: SOURCES.nl.primary.id,
+      mdzIiifSampleOk: nl.mdzIiifSampleOk,
       targetToDeHuis: nl.targetToDe.found,
       kleinGeldVariant: nl.variantNotes.kleinGeldSpaced,
     },
@@ -201,14 +243,14 @@ function main() {
   };
 
   const report = {
-    schemaVersion: "g2-a1-pdf-bilingual-dictionary-it-mk-nl-pilot-verify-v1",
+    schemaVersion: "g2-a1-pdf-bilingual-dictionary-it-mk-nl-pilot-verify-v2",
     generatedAt,
     pilotLemmasDe: DE_LEMMAS,
     productionHausTarget: PRODUCTION_HAUS,
     pilotVerification: { it, nl, mk },
     summary,
     bestFoundSource: {
-      it: "ia-bsb-neues-vollstaendig-it-de-vol1-2 (pilot) + ia-neuesitalienisch-bulluoft (alt 3/6)",
+      it: "ia-bsb-neues-it-de-11793257-vol1 (6/6 OCR + MDZ IIIF) + Bull/11645915 alts",
       nl: "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787 (3 BSB parts)",
       mk: "NOT_FOUND_DIGITIZED — makedonisch.info PARTIAL web only",
     },
@@ -229,8 +271,9 @@ function main() {
     "",
     "| Lang | Source | DE→TARGET | Reverse (Haus) | Status |",
     "|------|--------|-----------|----------------|--------|",
-    `| **it** | BSB Neues vollständig OCR (2 vol.) | ${summary.it.deToTargetHits} | casa: ${it.targetToDe.found ? "yes" : "no"} | **${summary.it.status}** |`,
-    `| **it** | Bull IA OCR (alt) | ${summary.it.altBullHits} | — | compare |`,
+    `| **it** | BSB 11793257 OCR + MDZ IIIF | ${summary.it.deToTargetHits} | casa: ${it.targetToDe.found ? "yes" : "no"} | **${summary.it.status}** |`,
+    `| **it** | 11645915/16 OCR (alt) | ${summary.it.alt11645915Hits} | — | compare |`,
+    `| **it** | Bull vol.0 OCR (alt) | ${summary.it.altBull00Hits} | — | compare |`,
     `| **nl** | BSB Nieuw woordenboek 1787 (3 parts) | ${summary.nl.deToTargetHits} | Huis: ${nl.targetToDe.found ? "yes" : "no"} | **${summary.nl.status}** |`,
     `| **mk** | makedonisch.info | ${summary.mk.deToTargetHits} | куќа web: ${mk.targetToDe.found ? "weak" : "no"} | **${summary.mk.status}** |`,
     "",
