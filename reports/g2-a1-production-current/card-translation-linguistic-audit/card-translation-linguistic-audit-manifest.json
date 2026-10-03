@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "card-translation-linguistic-audit-v1",
+  "generatedAt": "2026-10-03T11:19:44.096Z",
+  "mode": "dry-run",
+  "aiPolicy": {
+    "role": "AUDIT EXECUTOR / ANALYSIS TOOL",
+    "mayAnalyzeSources": true,
+    "mayInventTranslation": false,
+    "note": "AI must not propose PROPOSED_NEW or substitute target values; evidenceStatus requires adapter/read outcomes."
+  },
+  "registryPass": true,
+  "registryErrors": [],
+  "scope": [
+    {
+      "level": "a1",
+      "language": "sl",
+      "productionFile": "data/sl/a1.js",
+      "cardCount": 702,
+      "translationFieldCount": 1431,
+      "auditedFieldCount": 3
+    }
+  ],
+  "recordCount": 3,
+  "productionWrites": false
+}
