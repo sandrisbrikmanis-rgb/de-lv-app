@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-nn-pt-ro-pilot-verify-v1",
+  "generatedAt": "2026-10-03T12:00:00.000Z",
+  "pilotLemmasDe": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+  "summary": {
+    "pt": { "status": "PARTIAL", "primaryDeHitCount": "3/6" },
+    "ro": {
+      "status": "PARTIAL",
+      "primaryDeHitCount": "3/6",
+      "tdrg3DeHitCount": "4/6"
+    },
+    "nn": {
+      "status": "PARTIAL",
+      "historicalHelmsDeHitCount": "4/6",
+      "snorreDeHitCount": "0/6",
+      "modernNynorskGap": true
+    }
+  },
+  "pilotVerification": {
+    "pt": {
+      "primarySourceId": "ia-torchtrop-de-pt-1943",
+      "ocrUrl": "https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP_djvu.txt",
+      "deToTarget": [
+        { "lemma": "Haus", "found": true, "note": "casa / Haus headword region in OCR" },
+        { "lemma": "arbeiten", "found": true },
+        { "lemma": "Kleingeld", "found": true, "note": "Kleingeld / sem verba kleines —" },
+        { "lemma": "bewirten", "found": false, "note": "OCR: bewirken/bewirthen variants only" },
+        { "lemma": "Grenzkonflikt", "found": false },
+        { "lemma": "Machtgier", "found": false }
+      ],
+      "targetToDe": { "lemma": "casa", "found": true, "note": "reverse casa ↔ Haus in corpus" },
+      "supplementHits": {
+        "ia-dicionario-moderno-de-pt-pt-de": "4/6 clean OCR (Haus→casa, Kleingeld→dinheiro trocado)"
+      }
+    },
+    "ro": {
+      "primarySourceId": "ia-barcianu-de-ro-bidir-1886",
+      "ocrUrl": "https://archive.org/download/wrterbuchderrom00barcgoog/wrterbuchderrom00barcgoog_djvu.txt",
+      "deToTarget": [
+        { "lemma": "Haus", "found": true },
+        { "lemma": "arbeiten", "found": true },
+        { "lemma": "Kleingeld", "found": true },
+        { "lemma": "bewirten", "found": false, "note": "bewirken compounds in OCR" },
+        { "lemma": "Grenzkonflikt", "found": false },
+        { "lemma": "Machtgier", "found": false }
+      ],
+      "targetToDe": { "lemma": "casă", "found": true },
+      "tdrg3": {
+        "portalUrl": "https://tdrg.solirom.ro/",
+        "deToTargetViaRoHeadword": [
+          {
+            "lemma": "Haus",
+            "found": true,
+            "roHeadword": "cásă",
+            "entryUrl": "https://solirom-cflr.gitlab.io/data/A100062/4040.html"
+          },
+          {
+            "lemma": "arbeiten",
+            "found": true,
+            "roHeadword": "lucrá",
+            "entryUrl": "https://solirom-cflr.gitlab.io/data/A100062/29539.html"
+          },
+          {
+            "lemma": "Kleingeld",
+            "found": true,
+            "roHeadword": "ban",
+            "entryUrl": "https://solirom-cflr.gitlab.io/data/A100062/21777.html"
+          },
+          {
+            "lemma": "bewirten",
+            "found": true,
+            "roHeadword": "cinstí",
+            "entryUrl": "https://solirom-cflr.gitlab.io/data/A100062/9903.html"
+          },
+          { "lemma": "Grenzkonflikt", "found": false },
+          { "lemma": "Machtgier", "found": false }
+        ]
+      }
+    },
+    "nn": {
+      "primarySourceId": "ia-bsb-helms-dano-nor-de-11752747",
+      "ocrUrl": "https://archive.org/download/11752747bsb/11752747bsb_djvu.txt",
+      "deToTarget": [
+        { "lemma": "Haus", "found": true, "note": "compound / Haus- entries" },
+        { "lemma": "arbeiten", "found": true },
+        { "lemma": "Kleingeld", "found": true },
+        { "lemma": "bewirten", "found": true, "note": "bewirth-/bewirthen OCR" },
+        { "lemma": "Grenzkonflikt", "found": false },
+        { "lemma": "Machtgier", "found": false }
+      ],
+      "targetToDe": { "lemma": "hus", "found": true, "note": "weak attestation in historical corpus" },
+      "snorre": {
+        "sourceId": "snorre-sbr-24",
+        "catalogUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+        "downloadUrl": "https://www.nb.no/sbfil/leksikalske_databaser/snorre.tar.gz",
+        "verificationMethod": "Exact match on Tysk / TyskSynonym columns in snorre.txt (Språkbanken tarball, latin-1 TSV)",
+        "deToTarget": [
+          {
+            "lemma": "Haus",
+            "found": false,
+            "note": "no exact Tysk headword; only compounds e.g. Haushaltgerät"
+          },
+          { "lemma": "arbeiten", "found": false },
+          { "lemma": "Kleingeld", "found": false },
+          { "lemma": "bewirten", "found": false },
+          { "lemma": "Grenzkonflikt", "found": false },
+          { "lemma": "Machtgier", "found": false }
+        ]
+      },
+      "supplementHits": {
+        "mdz-kaper-dano-nor-de-1889": "4/6 via MDZ hOCR scan",
+        "ia-hanson-tysk-norsk-1840": "3/6"
+      },
+      "supplementaryControl": {
+        "dinordbok-tysk-nynorsk-web": {
+          "deToNnPilot": "3/6 strict (Haus→hus/heim/bu, arbeiten→arbeide, Kleingeld→småpengar)",
+          "nnToDeSpotCheck": "forstå→verstehen,begreifen,auffassen; hus→haus",
+          "authoritative": false
+        }
+      }
+    }
+  }
+}

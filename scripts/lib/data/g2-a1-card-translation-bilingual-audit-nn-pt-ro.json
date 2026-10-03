@@ -1,0 +1,270 @@
+{
+  "schemaVersion": "g2-a1-card-translation-bilingual-audit-nn-pt-ro-v1",
+  "description": "Kartīšu tulkojuma audits — digitizēti DE↔TARGET avoti pt / ro / nn (labākie atrastie avoti; pilot 2026-10-03).",
+  "auditSequence": [
+    {
+      "step": 1,
+      "rule": "Meklē tiešo pāri DE→TARGET primārajā digitizētajā vārdnīcā (IA OCR, MDZ hOCR/IIIF, institucionālais digitālais leksikons)."
+    },
+    {
+      "step": 2,
+      "rule": "Ja nepieciešams, izmanto TARGET→DE tajā pašā divvirzienu darbā vai otrā reģistrētajā virzienā."
+    },
+    {
+      "step": 3,
+      "rule": "Papildu/reserves avotus izmanto tikai ja primārais posms nedod derīgu pāri."
+    },
+    {
+      "step": 4,
+      "rule": "Pārbaudi vārdšķiru un konkrētās kartītes vācu nozīmi; citai nozīmei piederošu ekvivalentu nepieņem."
+    },
+    {
+      "step": 5,
+      "rule": "Lietotāju papildinātos tīmekļa vārdnīcus (DinOrdbok u.c.) neizmanto kā galveno OWNER pierādījumu."
+    },
+    {
+      "step": 6,
+      "rule": "Saglabā avota nosaukumu, virzienu, atrasto pāri un precīzo viewer / OCR / meklējuma URL."
+    }
+  ],
+  "regressionPilotDeLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+  "discoveryInputs": {
+    "discoveryReport": "reports/g2-a1-production-current/pdf-bilingual-dictionary-nn-pt-ro-discovery/pdf-bilingual-dictionary-nn-pt-ro-discovery.json",
+    "pilotVerifyReport": "reports/g2-a1-production-current/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify.json"
+  },
+  "languages": {
+    "pt": {
+      "digitizedAuditStatus": "PARTIAL",
+      "primaryDigitized": [
+        {
+          "id": "ia-torchtrop-de-pt-1943",
+          "name": "Dicionário Alemão–Português (Leonardo Torchtrop, 1943 / Globo)",
+          "year": 1943,
+          "authorPublisher": "Leonardo Torchtrop / Editora Globo; IA mirror",
+          "direction": "de→pt",
+          "role": "primary",
+          "accessType": "Internet Archive PDF + OCR",
+          "viewerUrl": "https://archive.org/details/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP",
+          "pdfUrl": "https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP.pdf",
+          "ocrUrl": "https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP_djvu.txt"
+        }
+      ],
+      "reverseChainDigitized": [],
+      "supplementaryReserve": [
+        {
+          "id": "ia-wagener-de-pt-1812-v1",
+          "name": "Wagener — Deutsch–Portugiesisch (1812, IA ZfhD vol. 1)",
+          "direction": "de→pt",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/bub_gb_ZfhDAAAAcAAJ",
+          "ocrUrl": "https://archive.org/download/bub_gb_ZfhDAAAAcAAJ/bub_gb_ZfhDAAAAcAAJ_djvu.txt"
+        },
+        {
+          "id": "ia-wagener-de-pt-1812-v2",
+          "name": "Wagener — Deutsch–Portugiesisch (1812, IA SplL vol. 2)",
+          "direction": "de→pt",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/bub_gb_SplLAAAAcAAJ",
+          "ocrUrl": "https://archive.org/download/bub_gb_SplLAAAAcAAJ/bub_gb_SplLAAAAcAAJ_djvu.txt"
+        },
+        {
+          "id": "ia-dicionario-moderno-de-pt-pt-de",
+          "name": "Dicionário Alemão–Português / Português–Alemão (IA DicionrioAlemoPortugus, ~2018)",
+          "direction": "de↔pt",
+          "role": "supplement_clean_ocr",
+          "viewerUrl": "https://archive.org/details/DicionrioAlemoPortugus",
+          "ocrUrlDePt": "https://archive.org/download/DicionrioAlemoPortugus/Dicion%C3%A1rio%20Alem%C3%A3o%20-%20Portugu%C3%AAs_djvu.txt",
+          "ocrUrlPtDe": "https://archive.org/download/DicionrioAlemoPortugus/Dicion%C3%A1rio%20Portugu%C3%AAs%20-%20Alem%C3%A3o_djvu.txt"
+        }
+      ],
+      "rejectedNotUsable": [
+        {
+          "id": "ia-michaelis-escolar-borrow",
+          "name": "Michaelis dicionário escolar (IA)",
+          "reason": "IA borrow/LCP — nav atvērts OCR šajā vidē."
+        }
+      ],
+      "collectorOverrideId": "ia-torchtrop-de-pt-1943",
+      "sourceChainPriority": [
+        "primaryDigitized:de→pt (ia-torchtrop-de-pt-1943)",
+        "supplementaryReserve:ia-wagener-de-pt-1812-v1 / v2",
+        "supplementaryReserve:ia-dicionario-moderno-de-pt-pt-de (tīrāks OCR, mazāks apjoms)"
+      ],
+      "pilotNotes": {
+        "deToTargetVerifiedLemmas": ["Haus", "arbeiten", "Kleingeld"],
+        "deToTargetHitCount": "3/6",
+        "reverseCasaFound": true,
+        "auditReady": false,
+        "readinessClassification": "PT_DIGITIZED_SOURCES_REGISTERED_PARTIAL"
+      }
+    },
+    "ro": {
+      "digitizedAuditStatus": "PARTIAL",
+      "primaryDigitized": [
+        {
+          "id": "ia-barcianu-de-ro-bidir-1886",
+          "name": "Dicționar român-germân și germân-român (Barcianu, 1886)",
+          "year": 1886,
+          "authorPublisher": "Sab. Pop. Barcianu / Sibiu; Google–IA",
+          "direction": "de↔ro",
+          "role": "primary",
+          "accessType": "Internet Archive PDF + OCR",
+          "viewerUrl": "https://archive.org/details/wrterbuchderrom00barcgoog",
+          "ocrUrl": "https://archive.org/download/wrterbuchderrom00barcgoog/wrterbuchderrom00barcgoog_djvu.txt"
+        }
+      ],
+      "reverseChainDigitized": [],
+      "modernInstitutional": [
+        {
+          "id": "tdrg3-solirom-ro-de",
+          "name": "Tiktin TDRG³ — Dicționar român-german (Miron / Lüder, 2000–2005)",
+          "year": "2000–2005",
+          "authorPublisher": "Academia Română / CLRE solirom",
+          "direction": "ro→de",
+          "role": "modern_primary_ro_headword",
+          "accessType": "Open digital edition (TEI/HTML entries)",
+          "portalUrl": "https://tdrg.solirom.ro/",
+          "dataBaseUrl": "https://solirom-cflr.gitlab.io/data/A100062/",
+          "clreCatalogUrl": "https://clre.solirom.ro/content/ro/home.html"
+        }
+      ],
+      "supplementaryReserve": [
+        {
+          "id": "ia-tiktin-ro-de-historical",
+          "name": "Tiktin Rumänisch-deutsches Wörterbuch (IA bub_gb_mCoTAAAAYAAJ)",
+          "direction": "ro→de",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/bub_gb_mCoTAAAAYAAJ",
+          "ocrUrl": "https://archive.org/download/bub_gb_mCoTAAAAYAAJ/bub_gb_mCoTAAAAYAAJ_djvu.txt"
+        },
+        {
+          "id": "ia-alexi-ro-de-1906",
+          "name": "Alexi Rumänisch-deutsches Wörterbuch (1906, IA)",
+          "direction": "ro→de",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/rumnischdeutsch00alexgoog",
+          "ocrUrl": "https://archive.org/download/rumnischdeutsch00alexgoog/rumnischdeutsch00alexgoog_djvu.txt"
+        }
+      ],
+      "rejectedNotUsable": [
+        {
+          "id": "ia-alexi-de-ro-503",
+          "name": "Alexi Dicționar german-român (separate vol., IA)",
+          "reason": "IA download 503 šajā vidē — nav uzticams primārais."
+        }
+      ],
+      "collectorOverrideId": "ia-barcianu-de-ro-bidir-1886",
+      "sourceChainPriority": [
+        "DE→RO: primaryDigitized ia-barcianu-de-ro-bidir-1886 (Barcianu 1886 IA OCR)",
+        "RO→DE un mūsdienīga institucionālā pārbaude: modernInstitutional tdrg3-solirom-ro-de (TDRG³)",
+        "supplementaryReserve:ia-tiktin-ro-de-historical / ia-alexi-ro-de-1906"
+      ],
+      "pilotNotes": {
+        "deToTargetVerifiedLemmas": ["Haus", "arbeiten", "Kleingeld"],
+        "deToTargetHitCount": "3/6",
+        "tdrg3DeToTargetHitCount": "4/6",
+        "tdrg3VerifiedLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten"],
+        "tdrg3HeadwordExamples": {
+          "Haus": "https://solirom-cflr.gitlab.io/data/A100062/4040.html",
+          "arbeiten": "https://solirom-cflr.gitlab.io/data/A100062/29539.html",
+          "Kleingeld": "https://solirom-cflr.gitlab.io/data/A100062/21777.html",
+          "bewirten": "https://solirom-cflr.gitlab.io/data/A100062/9903.html"
+        },
+        "reverseCasaFound": true,
+        "auditReady": false,
+        "readinessClassification": "RO_DIGITIZED_SOURCES_REGISTERED_PARTIAL"
+      }
+    },
+    "nn": {
+      "digitizedAuditStatus": "PARTIAL",
+      "primaryDigitized": [
+        {
+          "id": "ia-bsb-helms-dano-nor-de-11752747",
+          "name": "Neues vollständiges Wörterbuch der dänisch-norwegischen und deutschen Sprache (Helms, BSB/IA 11752747)",
+          "year": null,
+          "authorPublisher": "Svenn Henrik Helms; BSB / MDZ + IA OCR",
+          "direction": "de↔no-historical",
+          "role": "primary",
+          "accessType": "Internet Archive OCR (MDZ IIIF viewer)",
+          "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11752747?page=1",
+          "ocrUrl": "https://archive.org/download/11752747bsb/11752747bsb_djvu.txt",
+          "iiifManifestUrl": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11752747/manifest"
+        }
+      ],
+      "reverseChainDigitized": [],
+      "modernInstitutional": [
+        {
+          "id": "snorre-sbr-24",
+          "name": "SNORRE terminology wordlist (Språkbanken oai-nb-no-sbr-24 / Standard Norge)",
+          "year": 2013,
+          "authorPublisher": "Standard Norge / Språkbanken (NB)",
+          "direction": "de↔nn-terminology",
+          "role": "modern_institutional_terminology",
+          "accessType": "Tab-separated open wordlist (DE / NN / EN / FR parallel terms)",
+          "catalogUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "downloadUrl": "https://www.nb.no/sbfil/leksikalske_databaser/snorre.tar.gz",
+          "note": "Terminoloģijas vārdu saraksts (~18k DE termini); nav vispārīga DE↔nynorsk vārdnīca, bet institucionālais mūsdienīgais slānis."
+        }
+      ],
+      "supplementaryReserve": [
+        {
+          "id": "mdz-kaper-dano-nor-de-1889",
+          "name": "Dänisch-norwegisch-deutsches Hand-Wörterbuch (Kaper, 1889, BSB 11642917)",
+          "direction": "de↔no-historical",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11642917?page=1",
+          "ocrAccessNote": "IA PDF/OCR biežāk 503; MDZ hOCR per page (api.digitale-sammlungen.de/ocr/bsb11642917/{page})",
+          "iiifManifestUrl": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11642917/manifest"
+        },
+        {
+          "id": "ia-hanson-tysk-norsk-1840",
+          "name": "Tysk-Norsk haand-ordbog (Hanson, 1840, IA)",
+          "direction": "de→nn-historical",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/bub_gb_cl5HAAAAYAAJ",
+          "ocrUrl": "https://archive.org/download/bub_gb_cl5HAAAAYAAJ/bub_gb_cl5HAAAAYAAJ_djvu.txt"
+        }
+      ],
+      "supplementaryControlOnly": [
+        {
+          "id": "dinordbok-tysk-nynorsk-web",
+          "name": "DinOrdbok Tysk–Nynorsk (crowd-sourced web)",
+          "direction": "de↔nn",
+          "role": "supplementary_control_not_authoritative",
+          "portalUrl": "https://www.dinordbok.se/tysk-nynorsk/",
+          "reversePortalUrl": "https://www.dinordbok.se/nynorsk-tysk/",
+          "note": "Lietotāju rediģējams; derīgs tikai krustpārbaudei, ne OWNER primārais avots."
+        }
+      ],
+      "rejectedNotUsable": [
+        {
+          "id": "ia-helms-swedish-vol2-m0hU",
+          "name": "Helms vol. 2 (IA bub_gb_M0hUAAAAcAAJ)",
+          "reason": "Tyska–svenska, ne dāņu–norvēģu — nemixēt ar 11752747."
+        },
+        {
+          "id": "ia-aasen-norsk-ordbog-monolingual",
+          "name": "Aasen Norsk Ordbog 1873 (MDZ bsb11009926)",
+          "reason": "Monolingvāls NO — nav DE↔NN tulkojumu pāris."
+        }
+      ],
+      "collectorOverrideId": "ia-bsb-helms-dano-nor-de-11752747",
+      "sourceChainPriority": [
+        "DE↔NO vēsturiskā pārbaude: primaryDigitized ia-bsb-helms-dano-nor-de-11752747 + supplementaryReserve mdz-kaper / ia-hanson",
+        "modernInstitutional:snorre-sbr-24 (institucionālā terminoloģija DE↔NN)",
+        "supplementaryControlOnly:dinordbok-tysk-nynorsk-web (tikai krustpārbaude, never OWNER primary)"
+      ],
+      "note": "Nav atrasts tīrs mūsdienīgs vispārīgs DE↔nynorsk digitizēts leksikons; reģistrēts vēsturiskais dāņu–norvēģu stack + SNORRE terminoloģijas slānis.",
+      "pilotNotes": {
+        "historicalDeToNnVerifiedLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten"],
+        "deToTargetHitCount": "4/6",
+        "snorreDeToNnHitCount": "0/6",
+        "snorrePilotNote": "Pilot 6 vispārīgie DE lemmati — nav SNORRE Tysk kolonnā (terminoloģija, ne vārdnīca).",
+        "modernNynorskGap": true,
+        "dinordbokPilotDeToNn": "3/6 strict (4/6 incl. bewirten semantic)",
+        "auditReady": false,
+        "readinessClassification": "NN_DIGITIZED_SOURCES_REGISTERED_PARTIAL"
+      }
+    }
+  }
+}

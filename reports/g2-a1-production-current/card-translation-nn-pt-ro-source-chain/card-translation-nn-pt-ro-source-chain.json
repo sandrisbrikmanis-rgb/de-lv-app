@@ -1,0 +1,623 @@
+{
+  "schemaVersion": "g2-a1-card-translation-nn-pt-ro-source-chain-v1",
+  "generatedAt": "2026-10-03T09:31:52.303Z",
+  "inputs": {
+    "auditCatalog": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+    "pilotVerification": "reports/g2-a1-production-current/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify.json",
+    "discoveryReport": "reports/g2-a1-production-current/pdf-bilingual-dictionary-nn-pt-ro-discovery/pdf-bilingual-dictionary-nn-pt-ro-discovery.json"
+  },
+  "auditSequence": [
+    {
+      "step": 1,
+      "rule": "Meklē tiešo pāri DE→TARGET primārajā digitizētajā vārdnīcā (IA OCR, MDZ hOCR/IIIF, institucionālais digitālais leksikons)."
+    },
+    {
+      "step": 2,
+      "rule": "Ja nepieciešams, izmanto TARGET→DE tajā pašā divvirzienu darbā vai otrā reģistrētajā virzienā."
+    },
+    {
+      "step": 3,
+      "rule": "Papildu/reserves avotus izmanto tikai ja primārais posms nedod derīgu pāri."
+    },
+    {
+      "step": 4,
+      "rule": "Pārbaudi vārdšķiru un konkrētās kartītes vācu nozīmi; citai nozīmei piederošu ekvivalentu nepieņem."
+    },
+    {
+      "step": 5,
+      "rule": "Lietotāju papildinātos tīmekļa vārdnīcus (DinOrdbok u.c.) neizmanto kā galveno OWNER pierādījumu."
+    },
+    {
+      "step": 6,
+      "rule": "Saglabā avota nosaukumu, virzienu, atrasto pāri un precīzo viewer / OCR / meklējuma URL."
+    }
+  ],
+  "summary": {
+    "ptStatus": "PT_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+    "roStatus": "RO_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+    "nnStatus": "NN_DIGITIZED_SOURCES_REGISTERED_PARTIAL"
+  },
+  "languages": [
+    {
+      "appLang": "pt",
+      "digitizedAuditStatus": "PARTIAL",
+      "readinessClassification": "PT_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+      "auditReady": false,
+      "usesNewAuditSources": true,
+      "primaryDigitized": [
+        {
+          "id": "ia-torchtrop-de-pt-1943",
+          "name": "Dicionário Alemão–Português (Leonardo Torchtrop, 1943 / Globo)",
+          "year": 1943,
+          "authorPublisher": "Leonardo Torchtrop / Editora Globo; IA mirror",
+          "direction": "de→pt",
+          "role": "primary",
+          "accessType": "Internet Archive PDF + OCR",
+          "viewerUrl": "https://archive.org/details/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP",
+          "pdfUrl": "https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP.pdf",
+          "ocrUrl": "https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP_djvu.txt"
+        }
+      ],
+      "modernInstitutional": [],
+      "supplementaryReserve": [
+        {
+          "id": "ia-wagener-de-pt-1812-v1",
+          "name": "Wagener — Deutsch–Portugiesisch (1812, IA ZfhD vol. 1)",
+          "direction": "de→pt",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/bub_gb_ZfhDAAAAcAAJ",
+          "ocrUrl": "https://archive.org/download/bub_gb_ZfhDAAAAcAAJ/bub_gb_ZfhDAAAAcAAJ_djvu.txt"
+        },
+        {
+          "id": "ia-wagener-de-pt-1812-v2",
+          "name": "Wagener — Deutsch–Portugiesisch (1812, IA SplL vol. 2)",
+          "direction": "de→pt",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/bub_gb_SplLAAAAcAAJ",
+          "ocrUrl": "https://archive.org/download/bub_gb_SplLAAAAcAAJ/bub_gb_SplLAAAAcAAJ_djvu.txt"
+        },
+        {
+          "id": "ia-dicionario-moderno-de-pt-pt-de",
+          "name": "Dicionário Alemão–Português / Português–Alemão (IA DicionrioAlemoPortugus, ~2018)",
+          "direction": "de↔pt",
+          "role": "supplement_clean_ocr",
+          "viewerUrl": "https://archive.org/details/DicionrioAlemoPortugus",
+          "ocrUrlDePt": "https://archive.org/download/DicionrioAlemoPortugus/Dicion%C3%A1rio%20Alem%C3%A3o%20-%20Portugu%C3%AAs_djvu.txt",
+          "ocrUrlPtDe": "https://archive.org/download/DicionrioAlemoPortugus/Dicion%C3%A1rio%20Portugu%C3%AAs%20-%20Alem%C3%A3o_djvu.txt"
+        }
+      ],
+      "supplementaryControlOnly": [],
+      "discoveryEvidenceOnly": [],
+      "sourceChainPriority": [
+        "primaryDigitized:de→pt (ia-torchtrop-de-pt-1943)",
+        "supplementaryReserve:ia-wagener-de-pt-1812-v1 / v2",
+        "supplementaryReserve:ia-dicionario-moderno-de-pt-pt-de (tīrāks OCR, mazāks apjoms)"
+      ],
+      "pilotSummary": {
+        "status": "PARTIAL",
+        "primaryDeHitCount": "3/6"
+      },
+      "discoveryBest": {
+        "primaryId": "ia-torchtrop-de-pt-1943",
+        "supplementIds": [
+          "ia-wagener-de-pt-1812-v1",
+          "ia-dicionario-moderno-de-pt-pt-de"
+        ],
+        "pilotHitCountPrimaryOcr": "3/6"
+      },
+      "regressionPilotDe": [
+        {
+          "deLemma": "Haus",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-torchtrop-de-pt-1943",
+          "pairFound": true,
+          "targetGloss": "casa / Haus headword region in OCR",
+          "entryUrl": "https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP_djvu.txt",
+          "note": "casa / Haus headword region in OCR",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-torchtrop-de-pt-1943",
+          "pairFound": true,
+          "targetGloss": "FOUND",
+          "entryUrl": "https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-torchtrop-de-pt-1943",
+          "pairFound": true,
+          "targetGloss": "Kleingeld / sem verba kleines —",
+          "entryUrl": "https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP_djvu.txt",
+          "note": "Kleingeld / sem verba kleines —",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-torchtrop-de-pt-1943",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP_djvu.txt",
+          "note": "OCR: bewirken/bewirthen variants only",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-torchtrop-de-pt-1943",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-torchtrop-de-pt-1943",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "(reverse) casa",
+          "auditStepUsed": 2,
+          "primaryDirection": "target→de",
+          "sourceName": "ia-torchtrop-de-pt-1943",
+          "pairFound": true,
+          "targetGloss": "reverse casa ↔ Haus in corpus",
+          "entryUrl": "https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        }
+      ]
+    },
+    {
+      "appLang": "ro",
+      "digitizedAuditStatus": "PARTIAL",
+      "readinessClassification": "RO_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+      "auditReady": false,
+      "usesNewAuditSources": true,
+      "primaryDigitized": [
+        {
+          "id": "ia-barcianu-de-ro-bidir-1886",
+          "name": "Dicționar român-germân și germân-român (Barcianu, 1886)",
+          "year": 1886,
+          "authorPublisher": "Sab. Pop. Barcianu / Sibiu; Google–IA",
+          "direction": "de↔ro",
+          "role": "primary",
+          "accessType": "Internet Archive PDF + OCR",
+          "viewerUrl": "https://archive.org/details/wrterbuchderrom00barcgoog",
+          "ocrUrl": "https://archive.org/download/wrterbuchderrom00barcgoog/wrterbuchderrom00barcgoog_djvu.txt"
+        }
+      ],
+      "modernInstitutional": [
+        {
+          "id": "tdrg3-solirom-ro-de",
+          "name": "Tiktin TDRG³ — Dicționar român-german (Miron / Lüder, 2000–2005)",
+          "year": "2000–2005",
+          "authorPublisher": "Academia Română / CLRE solirom",
+          "direction": "ro→de",
+          "role": "modern_primary_ro_headword",
+          "accessType": "Open digital edition (TEI/HTML entries)",
+          "portalUrl": "https://tdrg.solirom.ro/",
+          "dataBaseUrl": "https://solirom-cflr.gitlab.io/data/A100062/",
+          "clreCatalogUrl": "https://clre.solirom.ro/content/ro/home.html"
+        }
+      ],
+      "supplementaryReserve": [
+        {
+          "id": "ia-tiktin-ro-de-historical",
+          "name": "Tiktin Rumänisch-deutsches Wörterbuch (IA bub_gb_mCoTAAAAYAAJ)",
+          "direction": "ro→de",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/bub_gb_mCoTAAAAYAAJ",
+          "ocrUrl": "https://archive.org/download/bub_gb_mCoTAAAAYAAJ/bub_gb_mCoTAAAAYAAJ_djvu.txt"
+        },
+        {
+          "id": "ia-alexi-ro-de-1906",
+          "name": "Alexi Rumänisch-deutsches Wörterbuch (1906, IA)",
+          "direction": "ro→de",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/rumnischdeutsch00alexgoog",
+          "ocrUrl": "https://archive.org/download/rumnischdeutsch00alexgoog/rumnischdeutsch00alexgoog_djvu.txt"
+        }
+      ],
+      "supplementaryControlOnly": [],
+      "discoveryEvidenceOnly": [],
+      "sourceChainPriority": [
+        "DE→RO: primaryDigitized ia-barcianu-de-ro-bidir-1886 (Barcianu 1886 IA OCR)",
+        "RO→DE un mūsdienīga institucionālā pārbaude: modernInstitutional tdrg3-solirom-ro-de (TDRG³)",
+        "supplementaryReserve:ia-tiktin-ro-de-historical / ia-alexi-ro-de-1906"
+      ],
+      "pilotSummary": {
+        "status": "PARTIAL",
+        "primaryDeHitCount": "3/6",
+        "tdrg3DeHitCount": "4/6"
+      },
+      "discoveryBest": {
+        "primaryId": "ia-barcianu-de-ro-bidir-1886",
+        "modernId": "tdrg3-solirom-ro-de",
+        "supplementIds": [
+          "ia-tiktin-ro-de-historical",
+          "ia-alexi-ro-de-1906"
+        ],
+        "pilotHitCountPrimaryOcr": "3/6",
+        "pilotHitCountTdrg3": "4/6",
+        "sourceChainNote": "DE→RO Barcianu; RO→DE un mūsdienīga institucionālā pārbaude TDRG³"
+      },
+      "regressionPilotDe": [
+        {
+          "deLemma": "Haus",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-barcianu-de-ro-bidir-1886",
+          "pairFound": true,
+          "targetGloss": "FOUND",
+          "entryUrl": "https://archive.org/download/wrterbuchderrom00barcgoog/wrterbuchderrom00barcgoog_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-barcianu-de-ro-bidir-1886",
+          "pairFound": true,
+          "targetGloss": "FOUND",
+          "entryUrl": "https://archive.org/download/wrterbuchderrom00barcgoog/wrterbuchderrom00barcgoog_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-barcianu-de-ro-bidir-1886",
+          "pairFound": true,
+          "targetGloss": "FOUND",
+          "entryUrl": "https://archive.org/download/wrterbuchderrom00barcgoog/wrterbuchderrom00barcgoog_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-barcianu-de-ro-bidir-1886",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/wrterbuchderrom00barcgoog/wrterbuchderrom00barcgoog_djvu.txt",
+          "note": "bewirken compounds in OCR",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-barcianu-de-ro-bidir-1886",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/wrterbuchderrom00barcgoog/wrterbuchderrom00barcgoog_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-barcianu-de-ro-bidir-1886",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/wrterbuchderrom00barcgoog/wrterbuchderrom00barcgoog_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "(reverse) casă",
+          "auditStepUsed": 2,
+          "primaryDirection": "target→de",
+          "sourceName": "ia-barcianu-de-ro-bidir-1886",
+          "pairFound": true,
+          "targetGloss": "FOUND",
+          "entryUrl": "https://archive.org/download/wrterbuchderrom00barcgoog/wrterbuchderrom00barcgoog_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Haus (TDRG³ via cásă)",
+          "auditStepUsed": 1,
+          "primaryDirection": "ro→de",
+          "sourceName": "tdrg3-solirom-ro-de",
+          "pairFound": true,
+          "targetGloss": "cásă",
+          "entryUrl": "https://solirom-cflr.gitlab.io/data/A100062/4040.html",
+          "note": "modern institutional RO headword",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten (TDRG³ via lucrá)",
+          "auditStepUsed": 1,
+          "primaryDirection": "ro→de",
+          "sourceName": "tdrg3-solirom-ro-de",
+          "pairFound": true,
+          "targetGloss": "lucrá",
+          "entryUrl": "https://solirom-cflr.gitlab.io/data/A100062/29539.html",
+          "note": "modern institutional RO headword",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld (TDRG³ via ban)",
+          "auditStepUsed": 1,
+          "primaryDirection": "ro→de",
+          "sourceName": "tdrg3-solirom-ro-de",
+          "pairFound": true,
+          "targetGloss": "ban",
+          "entryUrl": "https://solirom-cflr.gitlab.io/data/A100062/21777.html",
+          "note": "modern institutional RO headword",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten (TDRG³ via cinstí)",
+          "auditStepUsed": 1,
+          "primaryDirection": "ro→de",
+          "sourceName": "tdrg3-solirom-ro-de",
+          "pairFound": true,
+          "targetGloss": "cinstí",
+          "entryUrl": "https://solirom-cflr.gitlab.io/data/A100062/9903.html",
+          "note": "modern institutional RO headword",
+          "supplementUsed": false
+        }
+      ]
+    },
+    {
+      "appLang": "nn",
+      "digitizedAuditStatus": "PARTIAL",
+      "readinessClassification": "NN_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+      "auditReady": false,
+      "usesNewAuditSources": true,
+      "primaryDigitized": [
+        {
+          "id": "ia-bsb-helms-dano-nor-de-11752747",
+          "name": "Neues vollständiges Wörterbuch der dänisch-norwegischen und deutschen Sprache (Helms, BSB/IA 11752747)",
+          "year": null,
+          "authorPublisher": "Svenn Henrik Helms; BSB / MDZ + IA OCR",
+          "direction": "de↔no-historical",
+          "role": "primary",
+          "accessType": "Internet Archive OCR (MDZ IIIF viewer)",
+          "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11752747?page=1",
+          "ocrUrl": "https://archive.org/download/11752747bsb/11752747bsb_djvu.txt",
+          "iiifManifestUrl": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11752747/manifest"
+        }
+      ],
+      "modernInstitutional": [
+        {
+          "id": "snorre-sbr-24",
+          "name": "SNORRE terminology wordlist (Språkbanken oai-nb-no-sbr-24 / Standard Norge)",
+          "year": 2013,
+          "authorPublisher": "Standard Norge / Språkbanken (NB)",
+          "direction": "de↔nn-terminology",
+          "role": "modern_institutional_terminology",
+          "accessType": "Tab-separated open wordlist (DE / NN / EN / FR parallel terms)",
+          "catalogUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "downloadUrl": "https://www.nb.no/sbfil/leksikalske_databaser/snorre.tar.gz",
+          "note": "Terminoloģijas vārdu saraksts (~18k DE termini); nav vispārīga DE↔nynorsk vārdnīca, bet institucionālais mūsdienīgais slānis."
+        }
+      ],
+      "supplementaryReserve": [
+        {
+          "id": "mdz-kaper-dano-nor-de-1889",
+          "name": "Dänisch-norwegisch-deutsches Hand-Wörterbuch (Kaper, 1889, BSB 11642917)",
+          "direction": "de↔no-historical",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11642917?page=1",
+          "ocrAccessNote": "IA PDF/OCR biežāk 503; MDZ hOCR per page (api.digitale-sammlungen.de/ocr/bsb11642917/{page})",
+          "iiifManifestUrl": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11642917/manifest"
+        },
+        {
+          "id": "ia-hanson-tysk-norsk-1840",
+          "name": "Tysk-Norsk haand-ordbog (Hanson, 1840, IA)",
+          "direction": "de→nn-historical",
+          "role": "supplement_reserve",
+          "viewerUrl": "https://archive.org/details/bub_gb_cl5HAAAAYAAJ",
+          "ocrUrl": "https://archive.org/download/bub_gb_cl5HAAAAYAAJ/bub_gb_cl5HAAAAYAAJ_djvu.txt"
+        }
+      ],
+      "supplementaryControlOnly": [
+        {
+          "id": "dinordbok-tysk-nynorsk-web",
+          "name": "DinOrdbok Tysk–Nynorsk (crowd-sourced web)",
+          "direction": "de↔nn",
+          "role": "supplementary_control_not_authoritative",
+          "portalUrl": "https://www.dinordbok.se/tysk-nynorsk/",
+          "reversePortalUrl": "https://www.dinordbok.se/nynorsk-tysk/",
+          "note": "Lietotāju rediģējams; derīgs tikai krustpārbaudei, ne OWNER primārais avots."
+        }
+      ],
+      "discoveryEvidenceOnly": [],
+      "sourceChainPriority": [
+        "DE↔NO vēsturiskā pārbaude: primaryDigitized ia-bsb-helms-dano-nor-de-11752747 + supplementaryReserve mdz-kaper / ia-hanson",
+        "modernInstitutional:snorre-sbr-24 (institucionālā terminoloģija DE↔NN)",
+        "supplementaryControlOnly:dinordbok-tysk-nynorsk-web (tikai krustpārbaude, never OWNER primary)"
+      ],
+      "pilotSummary": {
+        "status": "PARTIAL",
+        "historicalHelmsDeHitCount": "4/6",
+        "snorreDeHitCount": "0/6",
+        "modernNynorskGap": true
+      },
+      "discoveryBest": {
+        "primaryId": "ia-bsb-helms-dano-nor-de-11752747",
+        "modernId": "snorre-sbr-24",
+        "supplementIds": [
+          "mdz-kaper-dano-nor-de-1889",
+          "ia-hanson-tysk-norsk-1840"
+        ],
+        "controlOnlyId": "dinordbok-tysk-nynorsk-web",
+        "pilotHitCountPrimaryOcr": "4/6",
+        "pilotHitCountSnorreDeToNn": "0/6",
+        "modernNynorskDigitizedLexicon": false
+      },
+      "regressionPilotDe": [
+        {
+          "deLemma": "Haus",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-bsb-helms-dano-nor-de-11752747",
+          "pairFound": true,
+          "targetGloss": "compound / Haus- entries",
+          "entryUrl": "https://archive.org/download/11752747bsb/11752747bsb_djvu.txt",
+          "note": "compound / Haus- entries",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-bsb-helms-dano-nor-de-11752747",
+          "pairFound": true,
+          "targetGloss": "FOUND",
+          "entryUrl": "https://archive.org/download/11752747bsb/11752747bsb_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-bsb-helms-dano-nor-de-11752747",
+          "pairFound": true,
+          "targetGloss": "FOUND",
+          "entryUrl": "https://archive.org/download/11752747bsb/11752747bsb_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-bsb-helms-dano-nor-de-11752747",
+          "pairFound": true,
+          "targetGloss": "bewirth-/bewirthen OCR",
+          "entryUrl": "https://archive.org/download/11752747bsb/11752747bsb_djvu.txt",
+          "note": "bewirth-/bewirthen OCR",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-bsb-helms-dano-nor-de-11752747",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/11752747bsb/11752747bsb_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→target",
+          "sourceName": "ia-bsb-helms-dano-nor-de-11752747",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://archive.org/download/11752747bsb/11752747bsb_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "(reverse) hus",
+          "auditStepUsed": 2,
+          "primaryDirection": "target→de",
+          "sourceName": "ia-bsb-helms-dano-nor-de-11752747",
+          "pairFound": true,
+          "targetGloss": "weak attestation in historical corpus",
+          "entryUrl": "https://archive.org/download/11752747bsb/11752747bsb_djvu.txt",
+          "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Haus (SNORRE)",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nn-terminology",
+          "sourceName": "snorre-sbr-24",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "note": "no exact Tysk headword; only compounds e.g. Haushaltgerät",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten (SNORRE)",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nn-terminology",
+          "sourceName": "snorre-sbr-24",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "note": "Exact match on Tysk / TyskSynonym columns in snorre.txt (Språkbanken tarball, latin-1 TSV)",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld (SNORRE)",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nn-terminology",
+          "sourceName": "snorre-sbr-24",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "note": "Exact match on Tysk / TyskSynonym columns in snorre.txt (Språkbanken tarball, latin-1 TSV)",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten (SNORRE)",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nn-terminology",
+          "sourceName": "snorre-sbr-24",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "note": "Exact match on Tysk / TyskSynonym columns in snorre.txt (Språkbanken tarball, latin-1 TSV)",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt (SNORRE)",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nn-terminology",
+          "sourceName": "snorre-sbr-24",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "note": "Exact match on Tysk / TyskSynonym columns in snorre.txt (Språkbanken tarball, latin-1 TSV)",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier (SNORRE)",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nn-terminology",
+          "sourceName": "snorre-sbr-24",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "note": "Exact match on Tysk / TyskSynonym columns in snorre.txt (Språkbanken tarball, latin-1 TSV)",
+          "supplementUsed": false
+        }
+      ]
+    }
+  ],
+  "productionOrOwnerDecisionsModified": false,
+  "masterModified": false
+}

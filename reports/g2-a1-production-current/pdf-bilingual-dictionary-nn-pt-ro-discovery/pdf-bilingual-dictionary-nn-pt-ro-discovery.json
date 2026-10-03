@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-nn-pt-ro-discovery-v1",
+  "generatedAt": "2026-10-03T09:20:00.000Z",
+  "scope": ["pt", "ro", "nn"],
+  "pilotLemmasDe": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+  "bestFoundSource": {
+    "pt": {
+      "primaryId": "ia-torchtrop-de-pt-1943",
+      "supplementIds": ["ia-wagener-de-pt-1812-v1", "ia-dicionario-moderno-de-pt-pt-de"],
+      "pilotHitCountPrimaryOcr": "3/6"
+    },
+    "ro": {
+      "primaryId": "ia-barcianu-de-ro-bidir-1886",
+      "modernId": "tdrg3-solirom-ro-de",
+      "supplementIds": ["ia-tiktin-ro-de-historical", "ia-alexi-ro-de-1906"],
+      "pilotHitCountPrimaryOcr": "3/6",
+      "pilotHitCountTdrg3": "4/6",
+      "sourceChainNote": "DE→RO Barcianu; RO→DE un mūsdienīga institucionālā pārbaude TDRG³"
+    },
+    "nn": {
+      "primaryId": "ia-bsb-helms-dano-nor-de-11752747",
+      "modernId": "snorre-sbr-24",
+      "supplementIds": ["mdz-kaper-dano-nor-de-1889", "ia-hanson-tysk-norsk-1840"],
+      "controlOnlyId": "dinordbok-tysk-nynorsk-web",
+      "pilotHitCountPrimaryOcr": "4/6",
+      "pilotHitCountSnorreDeToNn": "0/6",
+      "modernNynorskDigitizedLexicon": false
+    }
+  },
+  "catalogPath": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json"
+}
