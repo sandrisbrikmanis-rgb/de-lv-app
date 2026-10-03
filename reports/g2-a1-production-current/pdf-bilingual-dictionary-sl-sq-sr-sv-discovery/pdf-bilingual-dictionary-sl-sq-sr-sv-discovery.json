@@ -8,11 +8,14 @@
   "discoveryRound2Notes": "Papildus IA: Murko 1888 DE-SL, Janežič Taschen 1866, Popović DE-SR 1879, Janežič bidir pocket. SQ/SV jauni atvērti OCR avoti nav atrasti; Simoni/Dhrimo joprojām nav brīvi pilotējami.",
   "discoveryRound3At": "2026-10-03T10:35:00.000Z",
   "discoveryRound3Notes": "SR: MDZ hOCR pilots (ne IA djvu) — Karadžić bsb11358470 un Daničić/Jovanović bsb11646956 abi 2/6; Popović ABBYY 471MB — DE lemmas nav uzticami. SQ: Hahn DE rādītājs apstiprināts Haus+arbeiten. Simoni abbyy 401.",
+  "discoveryRound4At": "2026-10-03T11:05:00.000Z",
+  "discoveryRound4Notes": "SL: Murko dLib URN:NBN:SI:DOC-T28EEL0U TXT pilots 2/6 strict; bidirectional hiša→Haus (hifha); paliek Cigale primārais — sk. pdf-bilingual-dictionary-sl-murko-dlib-pilot/",
   "bestFoundSource": {
     "sl": {
       "primaryId": "ia-deutschslovenis00unkngoog",
       "primaryName": "Deutsch-slovenisches Wörterbuch (Cigale, 1860, IA)",
       "supplementIds": [
+        "dlib-urn-nbn-si-doc-t28eel0u-murko-txt-1833",
         "ia-deutschslowenis00murkgoog-1888",
         "ia-deutschslovenis00unkngoog-cigale-1860",
         "ia-bub-gb-nrataaaaiaaj-janezic-1905",
@@ -20,6 +23,8 @@
       ],
       "pilotHitCountPrimaryOcr": "2/6",
       "pilotHitCountMurko1888": "2/6",
+      "pilotHitCountMurkoDlibTxtStrict": "2/6",
+      "murkoDlibSupplementReport": "reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-murko-dlib-pilot/pdf-bilingual-dictionary-sl-murko-dlib-pilot.json",
       "digitizedAuditStatus": "PARTIAL"
     },
     "sq": {

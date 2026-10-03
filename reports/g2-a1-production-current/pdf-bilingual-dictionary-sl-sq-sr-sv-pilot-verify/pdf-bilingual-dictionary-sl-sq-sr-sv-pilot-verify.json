@@ -30,7 +30,8 @@
         "ia-deutschslowenis00murkgoog-1888": "2/6 (Haus, arbeiten)",
         "ia-bub-gb-geodkupucbsc-janezic-taschen-1866": "2/6",
         "ia-bub-gb-nrataaaaiaaj-janezic-1905": "1/6 (arbeiten)",
-        "dlib-murko-de-sl-1833": "dLib TXT — alternatīva: IA Murko 1888"
+        "dlib-murko-de-sl-1833": "2/6 strict (Haus, arbeiten); reverse hiša→Haus via hifha; see pdf-bilingual-dictionary-sl-murko-dlib-pilot/",
+        "ia-deutschslowenis00murkgoog-1888": "2/6 (Haus, arbeiten) — IA OCR, not dLib TXT"
       }
     },
     "sq": {
@@ -57,21 +58,51 @@
       }
     },
     "sr": {
-      "primarySourceId": "ia-deutschserbische00kara",
-      "viewerUrl": "https://archive.org/details/deutschserbische00kara",
-      "ocrUrl": "https://archive.org/download/deutschserbische00kara/deutschserbische00kara_djvu.txt",
+      "primarySourceId": "mdz-bsb11358470-karadzic-de-sr-1872",
+      "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11358470?page=1",
+      "verificationMethod": "MDZ per-page hOCR scan (api.digitale-sammlungen.de/ocr/bsb11358470/{page})",
       "deToTarget": [
         {
           "lemma": "Haus",
-          "found": false,
-          "note": "OCR galvenokārt kirilica; DE lemmas nav uzticami"
+          "found": true,
+          "entryUrl": "https://www.digitale-sammlungen.de/de/view/bsb11358470?page=9",
+          "note": "ein Haus … (DE headword ar OCR lapā 9)"
         },
-        { "lemma": "arbeiten", "found": false },
+        {
+          "lemma": "arbeiten",
+          "found": true,
+          "entryUrl": "https://www.digitale-sammlungen.de/de/view/bsb11358470?page=177"
+        },
         { "lemma": "Kleingeld", "found": false },
         { "lemma": "bewirten", "found": false },
         { "lemma": "Grenzkonflikt", "found": false },
         { "lemma": "Machtgier", "found": false }
       ],
+      "iaMirrorBlocked": {
+        "sourceId": "ia-deutschserbische00kara",
+        "deToTargetHitCount": "0/6",
+        "note": "djvu.txt tesseract — neizmantot kā primārais pilots"
+      },
+      "modernInstitutional": {
+        "sourceId": "mdz-bsb11646956-danicic-jovanovic-de-sr-1886",
+        "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11646956?page=1",
+        "deToTarget": [
+          {
+            "lemma": "Haus",
+            "found": true,
+            "entryUrl": "https://www.digitale-sammlungen.de/de/view/bsb11646956?page=105"
+          },
+          {
+            "lemma": "arbeiten",
+            "found": true,
+            "entryUrl": "https://www.digitale-sammlungen.de/de/view/bsb11646956?page=153"
+          },
+          { "lemma": "Kleingeld", "found": false },
+          { "lemma": "bewirten", "found": false },
+          { "lemma": "Grenzkonflikt", "found": false },
+          { "lemma": "Machtgier", "found": false }
+        ]
+      },
       "interimHistorical": [
         {
           "sourceId": "ia-wrterbuchderse01popo-popovic-1879",
