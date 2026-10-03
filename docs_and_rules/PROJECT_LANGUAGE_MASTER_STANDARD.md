@@ -5592,10 +5592,10 @@ MASTER regression suite papildināts ar pārbaudi, ka:
 5.  pēc OWNER apstiprināta viena `NEW` COPY-ONLY apply strādā;
 6.  post-repair full residual scan apstiprina
     `MAIN_TRANSLATION_COUNT_VIOLATIONS = 0`;
-6.  Case A–D (§13): ordinary `dauerhaft → püsiv • pikaajaline • vastupidav`,
+7.  Case A–D (§13): ordinary `dauerhaft → püsiv • pikaajaline • vastupidav`,
     standardStudy `finden → leidma • arvama`, `für → jaoks • eest`, `aus → -st • välja`
     → `MULTIPLE_MAIN_TRANSLATIONS_DETECTED = true`, `OWNER_DECISION_REQUIRED`;
-7.  Case E (§13): `finden → leidma` ar `arvama` tikai Study explanation →
+8.  Case E (§13): `finden → leidma` ar `arvama` tikai Study explanation →
     `MAIN_TRANSLATION_COUNT = 1`, PASS;
 
 
@@ -6647,7 +6647,7 @@ Gala atskaitē obligāti:
 
 ``` text
 MASTER STANDARD: PROJECT_LANGUAGE_MASTER_STANDARD.md
-MASTER VERSION: 1.6
+MASTER VERSION: 1.19
 STANDARD LOADED: PASS
 MAIN_BASE_SHA: <sha>
 WORK_BRANCH: <branch>
@@ -7406,4 +7406,4 @@ sadaļām, spēkā ir šis MASTER dokuments. Līgums precizē **procesa secību 
 konfliktu protokolu**, nevis atceļ §1.1, §7, §7.158, §9, §11 vai §17 prasības.
 
 
-## MASTER 1.17 --- END
+## MASTER 1.19 --- END
