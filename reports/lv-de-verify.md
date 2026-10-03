@@ -28,21 +28,23 @@ AUDIT_DISCOVERY_NON_REPRODUCIBILITY: 0
 DE READ-ONLY: YES
 ```
 
-Piemērotais standarts ir §1.2, §7.153, §7.158 un §7.158.A. §7.158.B lokālajā MASTER 1.19 tekstā nav. Auditējamā koka MASTER fails ir versija uz `origin/main`. Vārdšķira tiek piešķirta tikai no datiem: `de_article` ir `der`, `die` vai `das`, vai `de_plural` sākas ar `die `, dod `lietvārds`. Citas vārdšķiras datos nav atzīmētas, tāpēc tās netiek uzminētas. `singulare tantum` un `plurale tantum` netiek piešķirti.
+Piemērotais standarts ir §1.2, §7.153, §7.158 un §7.158.A. §7.158.B lokālajā MASTER 1.19 tekstā nav. Auditējamā koka MASTER fails ir versija uz `origin/main`. Verdikta vārdšķira tiek piešķirta tikai no datiem: `de_article` ir `der`, `die` vai `das`, vai `de_plural` sākas ar `die `, dod `lietvārds`. Citas vārdšķiras verdiktā netiek uzminētas. `singulare tantum` un `plurale tantum` netiek piešķirti. Atsevišķs ESTIMATE slānis skaita iespējamo vārdšķiru un nepiešķir PASS.
+
+CASE_AND_WHITESPACE prasa lielo burtu tikai pēdējam vārdam. Īpašības vārds frāzes sākumā ar mazo burtu nav kļūda. PLURAL_STEM_CHECK pieļauj piedēkļus e, en, er, n, s, nen, ten, nulles galotni, galotņu maiņu ia→ien, um→a, um→en, us→i, us→en, is→en, a→en, o→en un pēdējā līdzskaņa dubultošanu. Atlikusī saknes nesakritība ir REVIEW.
 
 ## Kopsavilkums
 
 | līmenis | ieraksti | ARTICLE_FORMAT | PLURAL_FORMAT | DUPLICATE_IN_LEVEL | DUPLICATE_ACROSS_LEVELS | SAME_DE_DIFFERENT_ARTICLE | EMPTY_ARTICLE | EMPTY_PLURAL | PLURAL_STEM_CHECK | CASE_AND_WHITESPACE | FOREIGN_SCRIPT | LV_DIACRITIC | NEEDS_SOURCE_REVIEW |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| A1 | 702 | 0 | 0 | 0 | 37 | 0 | 363 | 413 | 5 | 0 | 0 | 0 | 726 |
-| A2 | 1640 | 0 | 0 | 0 | 58 | 7 | 687 | 804 | 18 | 1 | 0 | 0 | 1374 |
-| B1 | 3367 | 0 | 0 | 0 | 36 | 18 | 1369 | 1498 | 39 | 0 | 0 | 0 | 2738 |
-| B2 | 2118 | 0 | 0 | 0 | 15 | 6 | 948 | 1109 | 32 | 0 | 0 | 0 | 1896 |
-| C1 | 572 | 0 | 0 | 0 | 10 | 0 | 184 | 219 | 13 | 1 | 0 | 0 | 368 |
-| C2 | 219 | 0 | 0 | 0 | 4 | 0 | 31 | 39 | 4 | 2 | 0 | 0 | 62 |
-| summa | 8618 | 0 | 0 | 0 | 160 | 31 | 3582 | 4082 | 111 | 4 | 0 | 0 | 7164 |
+| A1 | 702 | 0 | 0 | 0 | 37 | 0 | 363 | 413 | 0 | 0 | 0 | 0 | 726 |
+| A2 | 1640 | 0 | 0 | 0 | 25 | 7 | 687 | 804 | 4 | 0 | 0 | 0 | 1374 |
+| B1 | 3367 | 0 | 0 | 0 | 11 | 18 | 1369 | 1498 | 10 | 0 | 0 | 0 | 2738 |
+| B2 | 2118 | 0 | 0 | 0 | 3 | 6 | 948 | 1109 | 4 | 0 | 0 | 0 | 1896 |
+| C1 | 572 | 0 | 0 | 0 | 4 | 0 | 184 | 219 | 2 | 0 | 0 | 0 | 368 |
+| C2 | 219 | 0 | 0 | 0 | 0 | 0 | 31 | 39 | 1 | 0 | 0 | 0 | 62 |
+| summa | 8618 | 0 | 0 | 0 | 80 | 31 | 3582 | 4082 | 21 | 0 | 0 | 0 | 7164 |
 
-FINDING 164. NEEDS_SOURCE_REVIEW 7164. REVIEW 142. OBSERVATION 500.
+FINDING 80. NEEDS_SOURCE_REVIEW 7164. REVIEW 52. OBSERVATION 500.
 
 NEEDS_SOURCE_REVIEW skaita rindas, kurām vārdšķira no datiem ir `nezināms` un artikuls vai daudzskaitlis ir tukšs. Tās pašas rindas ir arī EMPTY_ARTICLE vai EMPTY_PLURAL kolonnā. Tukšs daudzskaitlis pie `lietvārds` ir OBSERVATION, nevis pierādīta kļūda un nevis singulare tantum.
 
@@ -50,7 +52,7 @@ NEEDS_SOURCE_REVIEW skaita rindas, kurām vārdšķira no datiem ir `nezināms` 
 
 PASS1: CHECKED
 
-Iekšējā pārbaude salīdzina lauku formu, dublikātus, reģistru, rakstību un daudzskaitļa sakni. PLURAL_STEM_CHECK nesakritība ir REVIEW. SAME_DE_DIFFERENT_ARTICLE ir REVIEW; ja `lv` atšķiras, karogs ir POSSIBLE_HOMONYM.
+Iekšējā pārbaude salīdzina lauku formu, dublikātus, reģistru, rakstību un daudzskaitļa sakni. PLURAL_STEM_CHECK nesakritība ir REVIEW. SAME_DE_DIFFERENT_ARTICLE ir REVIEW; ja `lv` atšķiras, karogs ir POSSIBLE_HOMONYM. DUPLICATE_ACROSS_LEVELS skaita katru unikālo pāri vienu reizi. Tabulas kolonna pieskaita pāri agrākajam līmenim.
 
 ## 2. kārta
 
@@ -60,170 +62,86 @@ Avota fails nav dots. Nevienam ierakstam nav verdikta PASS.
 
 ## FINDING
 
-- A1[5] DUPLICATE_ACROSS_LEVELS de=`"sprechen"` de_article=`""` de_plural=`""` lv=`"runāt"` detail=`"A2[1627]"`
-- A1[6] DUPLICATE_ACROSS_LEVELS de=`"klein"` de_article=`""` de_plural=`""` lv=`"mazs"` detail=`"A2[1630]"`
-- A1[44] DUPLICATE_ACROSS_LEVELS de=`"Arm"` de_article=`"der"` de_plural=`"die Arme"` lv=`"roka"` detail=`"A2[85]"`
-- A1[48] DUPLICATE_ACROSS_LEVELS de=`"auch"` de_article=`""` de_plural=`""` lv=`"arī"` detail=`"A2[1639]"`
-- A1[88] DUPLICATE_ACROSS_LEVELS de=`"Besucher"` de_article=`"der"` de_plural=`"die Besucher"` lv=`"apmeklētājs"` detail=`"A2[245]"`
-- A1[94] DUPLICATE_ACROSS_LEVELS de=`"Bitte"` de_article=`"die"` de_plural=`"die Bitten"` lv=`"lūgums"` detail=`"A2[257]"`
-- A1[111] DUPLICATE_ACROSS_LEVELS de=`"bringen"` de_article=`""` de_plural=`""` lv=`"atnest"` detail=`"A2[9]"`
-- A1[126] DUPLICATE_ACROSS_LEVELS de=`"da"` de_article=`""` de_plural=`""` lv=`"tur"` detail=`"B1[3337]"`
-- A1[165] DUPLICATE_ACROSS_LEVELS de=`"erst"` de_article=`""` de_plural=`""` lv=`"tikai"` detail=`"A2[1634]"`
-- A1[234] DUPLICATE_ACROSS_LEVELS de=`"Geschwister"` de_article=`"die"` de_plural=`""` lv=`"brāļi un māsas"` detail=`"A2[586]"`
-- A1[243] DUPLICATE_ACROSS_LEVELS de=`"gleich"` de_article=`""` de_plural=`""` lv=`"tūlīt"` detail=`"A2[1638]"`
-- A1[250] DUPLICATE_ACROSS_LEVELS de=`"groß"` de_article=`""` de_plural=`""` lv=`"liels"` detail=`"A2[1628]"`
-- A1[285] DUPLICATE_ACROSS_LEVELS de=`"hoch"` de_article=`""` de_plural=`""` lv=`"augsts"` detail=`"A2[1629]"`
-- A1[286] DUPLICATE_ACROSS_LEVELS de=`"höflich"` de_article=`""` de_plural=`""` lv=`"pieklājīgs"` detail=`"A2[679]"`
-- A1[287] DUPLICATE_ACROSS_LEVELS de=`"hören"` de_article=`""` de_plural=`""` lv=`"dzirdēt • klausīties"` detail=`"A2[1625]"`
-- A1[310] DUPLICATE_ACROSS_LEVELS de=`"kennen"` de_article=`""` de_plural=`""` lv=`"pazīt"` detail=`"A2[788]"`
-- A1[311] DUPLICATE_ACROSS_LEVELS de=`"wissen"` de_article=`""` de_plural=`""` lv=`"zināt"` detail=`"A2[789]"`
-- A1[338] DUPLICATE_ACROSS_LEVELS de=`"Kleidung"` de_article=`"die"` de_plural=`""` lv=`"apģērbs"` detail=`"A2[811]"`
-- A1[359] DUPLICATE_ACROSS_LEVELS de=`"Laut"` de_article=`"der"` de_plural=`"die Laute"` lv=`"skaņa"` detail=`"B1[1736]"`
-- A1[363] DUPLICATE_ACROSS_LEVELS de=`"legen"` de_article=`""` de_plural=`""` lv=`"nolikt"` detail=`"A2[890]"`
-- A1[368] DUPLICATE_ACROSS_LEVELS de=`"leise"` de_article=`""` de_plural=`""` lv=`"kluss"` detail=`"A2[1631]"`
-- A1[377] DUPLICATE_ACROSS_LEVELS de=`"liegen"` de_article=`""` de_plural=`""` lv=`"atrasties • gulēt"` detail=`"A2[889]"`
-- A1[390] DUPLICATE_ACROSS_LEVELS de=`"Mal"` de_article=`"das"` de_plural=`"die Male"` lv=`"reize"` detail=`"B1[1826]"`
-- A1[451] DUPLICATE_ACROSS_LEVELS de=`"noch"` de_article=`""` de_plural=`""` lv=`"vēl"` detail=`"A2[1633]"`
-- A1[456] DUPLICATE_ACROSS_LEVELS de=`"nur"` de_article=`""` de_plural=`""` lv=`"tikai • vienīgi"` detail=`"A2[1635]"`
-- A1[466] DUPLICATE_ACROSS_LEVELS de=`"Orange"` de_article=`"die"` de_plural=`"die Orangen"` lv=`"apelsīns"` detail=`"A2[1043]"`
-- A1[493] DUPLICATE_ACROSS_LEVELS de=`"Regen"` de_article=`"der"` de_plural=`""` lv=`"lietus"` detail=`"B2[1511]"`
-- A1[505] DUPLICATE_ACROSS_LEVELS de=`"sagen"` de_article=`""` de_plural=`""` lv=`"teikt"` detail=`"A2[1626]"`
-- A1[510] DUPLICATE_ACROSS_LEVELS de=`"schauen"` de_article=`""` de_plural=`""` lv=`"skatīties"` detail=`"A2[1623]"`
-- A1[521] DUPLICATE_ACROSS_LEVELS de=`"schon"` de_article=`""` de_plural=`""` lv=`"jau"` detail=`"A2[1632]"`
-- A1[539] DUPLICATE_ACROSS_LEVELS de=`"sehen"` de_article=`""` de_plural=`""` lv=`"redzēt"` detail=`"A2[1622]"`
-- A1[558] DUPLICATE_ACROSS_LEVELS de=`"sitzen"` de_article=`""` de_plural=`""` lv=`"sēdēt"` detail=`"A2[1320]"`
-- A1[576] DUPLICATE_ACROSS_LEVELS de=`"stehen"` de_article=`""` de_plural=`""` lv=`"stāvēt"` detail=`"A2[1373]"`
-- A1[608] DUPLICATE_ACROSS_LEVELS de=`"über"` de_article=`""` de_plural=`""` lv=`"virs • par"` detail=`"A2[1636]"`
-- A1[647] DUPLICATE_ACROSS_LEVELS de=`"Weg"` de_article=`"der"` de_plural=`"die Wege"` lv=`"ceļš"` detail=`"A2[1567]"`
-- A1[695] DUPLICATE_ACROSS_LEVELS de=`"Urlaub"` de_article=`"der"` de_plural=`""` lv=`"atvaļinājums"` detail=`"A2[1509]"`
-- A1[697] DUPLICATE_ACROSS_LEVELS de=`"Staat"` de_article=`"der"` de_plural=`"die Staaten"` lv=`"valsts"` detail=`"A2[1361]"`
-- A2[8] DUPLICATE_ACROSS_LEVELS de=`"holen"` de_article=`""` de_plural=`""` lv=`"aiziet pakaļ • atnest"` detail=`"B1[1298]"`
-- A2[9] DUPLICATE_ACROSS_LEVELS de=`"bringen"` de_article=`""` de_plural=`""` lv=`"atnest • nogādāt"` detail=`"A1[111]"`
-- A2[35] DUPLICATE_ACROSS_LEVELS de=`"ändern"` de_article=`""` de_plural=`""` lv=`"mainīt • izmainīt"` detail=`"B2[2110]"`
-- A2[85] DUPLICATE_ACROSS_LEVELS de=`"Arm"` de_article=`"der"` de_plural=`"die Arme"` lv=`"roka"` detail=`"A1[44]"`
-- A2[245] DUPLICATE_ACROSS_LEVELS de=`"Besucher"` de_article=`"der"` de_plural=`"die Besucher"` lv=`"apmeklētājs"` detail=`"A1[88]"`
-- A2[257] DUPLICATE_ACROSS_LEVELS de=`"Bitte"` de_article=`"die"` de_plural=`"die Bitten"` lv=`"lūgums"` detail=`"A1[94]"`
-- A2[323] DUPLICATE_ACROSS_LEVELS de=`"Dank"` de_article=`"der"` de_plural=`""` lv=`"pateicība"` detail=`"B1[559]"`
-- A2[375] DUPLICATE_ACROSS_LEVELS de=`"Ehe"` de_article=`"die"` de_plural=`"die Ehen"` lv=`"laulība"` detail=`"B1[644]"`
-- A2[586] DUPLICATE_ACROSS_LEVELS de=`"Geschwister"` de_article=`"die"` de_plural=`""` lv=`"brāļi un māsas"` detail=`"A1[234]"`
-- A2[679] DUPLICATE_ACROSS_LEVELS de=`"höflich"` de_article=`""` de_plural=`""` lv=`"pieklājīgs"` detail=`"A1[286]"`
-- A2[738] DUPLICATE_ACROSS_LEVELS de=`"Johannisbeere"` de_article=`"die"` de_plural=`"die Johannisbeeren"` lv=`"jāņoga"` detail=`"B1[271]"`
-- A2[788] DUPLICATE_ACROSS_LEVELS de=`"kennen"` de_article=`""` de_plural=`""` lv=`"pazīt"` detail=`"A1[310]"`
-- A2[789] DUPLICATE_ACROSS_LEVELS de=`"wissen"` de_article=`""` de_plural=`""` lv=`"zināt"` detail=`"A1[311]"`
-- A2[797] DUPLICATE_ACROSS_LEVELS de=`"Kinderheim"` de_article=`"das"` de_plural=`"die Kinderheime"` lv=`"bērnunams"` detail=`"B1[1230]"`
-- A2[811] DUPLICATE_ACROSS_LEVELS de=`"Kleidung"` de_article=`"die"` de_plural=`""` lv=`"apģērbs"` detail=`"A1[338]"`
-- A2[876] DUPLICATE_ACROSS_LEVELS de=`"Leid"` de_article=`"das"` de_plural=`""` lv=`"ciešanas • bēdas"` detail=`"B1[1755]"`
-- A2[889] DUPLICATE_ACROSS_LEVELS de=`"liegen"` de_article=`""` de_plural=`""` lv=`"gulēt • atrasties"` detail=`"A1[377]"`
-- A2[890] DUPLICATE_ACROSS_LEVELS de=`"legen"` de_article=`""` de_plural=`""` lv=`"nolikt guļus"` detail=`"A1[363]"`
-- A2[1035] DUPLICATE_ACROSS_LEVELS de=`"obwohl"` de_article=`""` de_plural=`""` lv=`"lai gan"` detail=`"B1[3338]"`
-- A2[1043] DUPLICATE_ACROSS_LEVELS de=`"Orange"` de_article=`"die"` de_plural=`"die Orangen"` lv=`"apelsīns"` detail=`"A1[466]"`
-- A2[1143] DUPLICATE_ACROSS_LEVELS de=`"Reich"` de_article=`"das"` de_plural=`"die Reiche"` lv=`"valsts • impērija • karaliste"` detail=`"B2[1515]"`
-- A2[1154] DUPLICATE_ACROSS_LEVELS de=`"Rennen"` de_article=`"das"` de_plural=`"die Rennen"` lv=`"skrējiens • sacīkstes"` detail=`"B1[2291]"`
-- A2[1197] CASE_AND_WHITESPACE pos=lietvārds de=`"saure Sahne"` de_article=`"die"` de_plural=`""` lv=`"skābs krējums"` detail=`"de LOWERCASE_WITH_ARTICLE"`
-- A2[1256] DUPLICATE_ACROSS_LEVELS de=`"Schuld"` de_article=`"die"` de_plural=`"die Schulden"` lv=`"vaina • parāds • atbildība"` detail=`"B1[2526]"`
-- A2[1289] DUPLICATE_ACROSS_LEVELS de=`"sich bedanken"` de_article=`""` de_plural=`""` lv=`"pateikties"` detail=`"B1[3342]"`
-- A2[1290] DUPLICATE_ACROSS_LEVELS de=`"sich beeilen"` de_article=`""` de_plural=`""` lv=`"pasteigties"` detail=`"B1[3343]"`
-- A2[1291] DUPLICATE_ACROSS_LEVELS de=`"sich befinden"` de_article=`""` de_plural=`""` lv=`"atrasties"` detail=`"B1[3344]"`
-- A2[1292] DUPLICATE_ACROSS_LEVELS de=`"sich entschuldigen"` de_article=`""` de_plural=`""` lv=`"atvainoties"` detail=`"B1[3347]"`
-- A2[1293] DUPLICATE_ACROSS_LEVELS de=`"sich erholen"` de_article=`""` de_plural=`""` lv=`"atpūsties • atgūties"` detail=`"B1[3349]"`
-- A2[1294] DUPLICATE_ACROSS_LEVELS de=`"sich erkälten"` de_article=`""` de_plural=`""` lv=`"saaukstēties"` detail=`"B1[3350]"`
-- A2[1295] DUPLICATE_ACROSS_LEVELS de=`"sich freuen"` de_article=`""` de_plural=`""` lv=`"priecāties"` detail=`"B1[3351]"`
-- A2[1304] DUPLICATE_ACROSS_LEVELS de=`"sich umziehen"` de_article=`""` de_plural=`""` lv=`"pārģērbties"` detail=`"B1[3355]"`
-- A2[1309] DUPLICATE_ACROSS_LEVELS de=`"sich verlieben"` de_article=`""` de_plural=`""` lv=`"iemīlēties"` detail=`"B1[3357]"`
-- A2[1320] DUPLICATE_ACROSS_LEVELS de=`"sitzen"` de_article=`""` de_plural=`""` lv=`"sēdēt"` detail=`"A1[558]"`
-- A2[1361] DUPLICATE_ACROSS_LEVELS de=`"Staat"` de_article=`"der"` de_plural=`"die Staaten"` lv=`"valsts"` detail=`"A1[697]"`
-- A2[1373] DUPLICATE_ACROSS_LEVELS de=`"stehen"` de_article=`""` de_plural=`""` lv=`"stāvēt"` detail=`"A1[576]"`
-- A2[1475] DUPLICATE_ACROSS_LEVELS de=`"Tropfen"` de_article=`"der"` de_plural=`"die Tropfen"` lv=`"piliens"` detail=`"B1[2927]"`
-- A2[1509] DUPLICATE_ACROSS_LEVELS de=`"Urlaub"` de_article=`"der"` de_plural=`"die Urlaube"` lv=`"atvaļinājums"` detail=`"A1[695]"`
-- A2[1526] DUPLICATE_ACROSS_LEVELS de=`"Versprechen"` de_article=`"das"` de_plural=`"die Versprechen"` lv=`"solījums"` detail=`"B1[3114]"`
-- A2[1550] DUPLICATE_ACROSS_LEVELS de=`"Wagen"` de_article=`"der"` de_plural=`"die Wagen"` lv=`"automašīna • vagons"` detail=`"B1[3185]"`
-- A2[1564] DUPLICATE_ACROSS_LEVELS de=`"wechseln"` de_article=`""` de_plural=`""` lv=`"mainīt • samainīt"` detail=`"B2[2111]"`
-- A2[1567] DUPLICATE_ACROSS_LEVELS de=`"Weg"` de_article=`"der"` de_plural=`"die Wege"` lv=`"ceļš"` detail=`"A1[647]"`
-- A2[1575] DUPLICATE_ACROSS_LEVELS de=`"Weise"` de_article=`"die"` de_plural=`"die Weisen"` lv=`"veids"` detail=`"B1[3228]"`
-- A2[1622] DUPLICATE_ACROSS_LEVELS de=`"sehen"` de_article=`""` de_plural=`""` lv=`"redzēt"` detail=`"A1[539]"`
-- A2[1623] DUPLICATE_ACROSS_LEVELS de=`"schauen"` de_article=`""` de_plural=`""` lv=`"skatīties"` detail=`"A1[510]"`
-- A2[1625] DUPLICATE_ACROSS_LEVELS de=`"hören"` de_article=`""` de_plural=`""` lv=`"dzirdēt • klausīties"` detail=`"A1[287]"`
-- A2[1626] DUPLICATE_ACROSS_LEVELS de=`"sagen"` de_article=`""` de_plural=`""` lv=`"teikt"` detail=`"A1[505]"`
-- A2[1627] DUPLICATE_ACROSS_LEVELS de=`"sprechen"` de_article=`""` de_plural=`""` lv=`"runāt"` detail=`"A1[5]"`
-- A2[1628] DUPLICATE_ACROSS_LEVELS de=`"groß"` de_article=`""` de_plural=`""` lv=`"liels"` detail=`"A1[250]"`
-- A2[1629] DUPLICATE_ACROSS_LEVELS de=`"hoch"` de_article=`""` de_plural=`""` lv=`"augsts"` detail=`"A1[285]"`
-- A2[1630] DUPLICATE_ACROSS_LEVELS de=`"klein"` de_article=`""` de_plural=`""` lv=`"mazs"` detail=`"A1[6]"`
-- A2[1631] DUPLICATE_ACROSS_LEVELS de=`"leise"` de_article=`""` de_plural=`""` lv=`"kluss"` detail=`"A1[368]"`
-- A2[1632] DUPLICATE_ACROSS_LEVELS de=`"schon"` de_article=`""` de_plural=`""` lv=`"jau"` detail=`"A1[521]"`
-- A2[1633] DUPLICATE_ACROSS_LEVELS de=`"noch"` de_article=`""` de_plural=`""` lv=`"vēl"` detail=`"A1[451]"`
-- A2[1634] DUPLICATE_ACROSS_LEVELS de=`"erst"` de_article=`""` de_plural=`""` lv=`"vēl tikai • ne agrāk kā"` detail=`"A1[165]"`
-- A2[1635] DUPLICATE_ACROSS_LEVELS de=`"nur"` de_article=`""` de_plural=`""` lv=`"tikai • vienīgi"` detail=`"A1[456]"`
-- A2[1636] DUPLICATE_ACROSS_LEVELS de=`"über"` de_article=`""` de_plural=`""` lv=`"virs • pāri • par"` detail=`"A1[608]"`
-- A2[1638] DUPLICATE_ACROSS_LEVELS de=`"gleich"` de_article=`""` de_plural=`""` lv=`"vienāds • tūlīt"` detail=`"A1[243]"`
-- A2[1639] DUPLICATE_ACROSS_LEVELS de=`"auch"` de_article=`""` de_plural=`""` lv=`"arī"` detail=`"A1[48]"`
-- B1[35] DUPLICATE_ACROSS_LEVELS de=`"Aal"` de_article=`"der"` de_plural=`"die Aale"` lv=`"zutis"` detail=`"C1[18]"`
-- B1[271] DUPLICATE_ACROSS_LEVELS de=`"Johannisbeere"` de_article=`"die"` de_plural=`"die Johannisbeeren"` lv=`"jāņoga"` detail=`"A2[738]"`
-- B1[449] DUPLICATE_ACROSS_LEVELS de=`"bieten"` de_article=`""` de_plural=`""` lv=`"piedāvāt"` detail=`"B2[2112]"`
-- B1[559] DUPLICATE_ACROSS_LEVELS de=`"Dank"` de_article=`"der"` de_plural=`""` lv=`"pateicība"` detail=`"A2[323]"`
-- B1[565] DUPLICATE_ACROSS_LEVELS de=`"Dasein"` de_article=`"das"` de_plural=`""` lv=`"esamība • eksistence"` detail=`"B2[354]"`
-- B1[644] DUPLICATE_ACROSS_LEVELS de=`"Ehe"` de_article=`"die"` de_plural=`"die Ehen"` lv=`"laulība"` detail=`"A2[375]"`
-- B1[705] DUPLICATE_ACROSS_LEVELS de=`"Einschreiben"` de_article=`"das"` de_plural=`"die Einschreiben"` lv=`"ierakstīta vēstule"` detail=`"B2[577]"`
-- B1[931] DUPLICATE_ACROSS_LEVELS de=`"fordern"` de_article=`""` de_plural=`""` lv=`"pieprasīt"` detail=`"B2[2114]"`
-- B1[932] DUPLICATE_ACROSS_LEVELS de=`"fördern"` de_article=`""` de_plural=`""` lv=`"veicināt"` detail=`"B2[2115]"`
-- B1[1230] DUPLICATE_ACROSS_LEVELS de=`"Kinderheim"` de_article=`"das"` de_plural=`"die Kinderheime"` lv=`"bērnunams"` detail=`"A2[797]"`
-- B1[1298] DUPLICATE_ACROSS_LEVELS de=`"holen"` de_article=`""` de_plural=`""` lv=`"atnest"` detail=`"A2[8]"`
-- B1[1651] DUPLICATE_ACROSS_LEVELS de=`"Krüppel"` de_article=`"der"` de_plural=`"die Krüppel"` lv=`"kroplis"` detail=`"C1[568]"`
-- B1[1736] DUPLICATE_ACROSS_LEVELS de=`"Laut"` de_article=`"der"` de_plural=`"die Laute"` lv=`"skaņa"` detail=`"A1[359]"`
-- B1[1755] DUPLICATE_ACROSS_LEVELS de=`"Leid"` de_article=`"das"` de_plural=`"die Leide"` lv=`"ciešanas"` detail=`"A2[876]"`
-- B1[1826] DUPLICATE_ACROSS_LEVELS de=`"Mal"` de_article=`"das"` de_plural=`"die Male"` lv=`"zīme"` detail=`"A1[390]"`
-- B1[2291] DUPLICATE_ACROSS_LEVELS de=`"Rennen"` de_article=`"das"` de_plural=`"die Rennen"` lv=`"sacīkstes"` detail=`"A2[1154]"`
-- B1[2526] DUPLICATE_ACROSS_LEVELS de=`"Schuld"` de_article=`"die"` de_plural=`"die Schulden"` lv=`"būt vainīgam"` detail=`"A2[1256]"`
-- B1[2927] DUPLICATE_ACROSS_LEVELS de=`"Tropfen"` de_article=`"der"` de_plural=`"die Tropfen"` lv=`"piliens"` detail=`"A2[1475]"`
-- B1[3059] DUPLICATE_ACROSS_LEVELS de=`"Verdienst"` de_article=`"der"` de_plural=`"die Verdienste"` lv=`"peļņa"` detail=`"B2[1876]"`
-- B1[3064] DUPLICATE_ACROSS_LEVELS de=`"Vergehen"` de_article=`"das"` de_plural=`"die Vergehen"` lv=`"pārkāpums"` detail=`"B2[1892]"`
-- B1[3087] DUPLICATE_ACROSS_LEVELS de=`"sich verlaufen"` de_article=`""` de_plural=`""` lv=`"norisināties"` detail=`"B2[2116]"`
-- B1[3114] DUPLICATE_ACROSS_LEVELS de=`"Versprechen"` de_article=`"das"` de_plural=`"die Versprechen"` lv=`"solījums"` detail=`"A2[1526]"`
-- B1[3185] DUPLICATE_ACROSS_LEVELS de=`"Wagen"` de_article=`"der"` de_plural=`"die Wagen"` lv=`"automašīna • vagons"` detail=`"A2[1550]"`
-- B1[3228] DUPLICATE_ACROSS_LEVELS de=`"Weise"` de_article=`"die"` de_plural=`"die Weisen"` lv=`"gudrs"` detail=`"A2[1575]"`
-- B1[3337] DUPLICATE_ACROSS_LEVELS de=`"da"` de_article=`""` de_plural=`""` lv=`"jo • par cik"` detail=`"A1[126]"`
-- B1[3338] DUPLICATE_ACROSS_LEVELS de=`"obwohl"` de_article=`""` de_plural=`""` lv=`"kaut gan • lai gan"` detail=`"A2[1035]"`
-- B1[3342] DUPLICATE_ACROSS_LEVELS de=`"sich bedanken"` de_article=`""` de_plural=`""` lv=`"pateikties"` detail=`"A2[1289]"`
-- B1[3343] DUPLICATE_ACROSS_LEVELS de=`"sich beeilen"` de_article=`""` de_plural=`""` lv=`"steigties"` detail=`"A2[1290]"`
-- B1[3344] DUPLICATE_ACROSS_LEVELS de=`"sich befinden"` de_article=`""` de_plural=`""` lv=`"atrasties"` detail=`"A2[1291]"`
-- B1[3346] DUPLICATE_ACROSS_LEVELS de=`"sich entschließen"` de_article=`""` de_plural=`""` lv=`"nolemties"` detail=`"C1[299]"`
-- B1[3347] DUPLICATE_ACROSS_LEVELS de=`"sich entschuldigen"` de_article=`""` de_plural=`""` lv=`"atvainoties"` detail=`"A2[1292]"`
-- B1[3349] DUPLICATE_ACROSS_LEVELS de=`"sich erholen"` de_article=`""` de_plural=`""` lv=`"atpūsties"` detail=`"A2[1293]"`
-- B1[3350] DUPLICATE_ACROSS_LEVELS de=`"sich erkälten"` de_article=`""` de_plural=`""` lv=`"saaukstēties"` detail=`"A2[1294]"`
-- B1[3351] DUPLICATE_ACROSS_LEVELS de=`"sich freuen"` de_article=`""` de_plural=`""` lv=`"priecāties"` detail=`"A2[1295]"`
-- B1[3355] DUPLICATE_ACROSS_LEVELS de=`"sich umziehen"` de_article=`""` de_plural=`""` lv=`"pārģērbties"` detail=`"A2[1304]"`
-- B1[3357] DUPLICATE_ACROSS_LEVELS de=`"sich verlieben"` de_article=`""` de_plural=`""` lv=`"iemīlēties"` detail=`"A2[1309]"`
-- B2[0] DUPLICATE_ACROSS_LEVELS de=`"Verantwortung"` de_article=`"die"` de_plural=`"die Verantwortungen"` lv=`"atbildība"` detail=`"C1[169]"`
-- B2[354] DUPLICATE_ACROSS_LEVELS de=`"Dasein"` de_article=`"das"` de_plural=`""` lv=`"esamība • eksistence"` detail=`"B1[565]"`
-- B2[577] DUPLICATE_ACROSS_LEVELS de=`"Einschreiben"` de_article=`"das"` de_plural=`"die Einschreiben"` lv=`"ierakstīta vēstule vai sūtījums"` detail=`"B1[705]"`
-- B2[1167] DUPLICATE_ACROSS_LEVELS de=`"Kabinettskrise"` de_article=`"die"` de_plural=`"die Kabinettskrisen"` lv=`"kabineta krīze"` detail=`"C1[410]"`
-- B2[1511] DUPLICATE_ACROSS_LEVELS de=`"Regen"` de_article=`"der"` de_plural=`"die Regen"` lv=`"lietus"` detail=`"A1[493]"`
-- B2[1515] DUPLICATE_ACROSS_LEVELS de=`"Reich"` de_article=`"das"` de_plural=`"die Reiche"` lv=`"impērija • valsts"` detail=`"A2[1143]"`
-- B2[1876] DUPLICATE_ACROSS_LEVELS de=`"Verdienst"` de_article=`"der"` de_plural=`"die Verdienste"` lv=`"nopelns"` detail=`"B1[3059]"`
-- B2[1892] DUPLICATE_ACROSS_LEVELS de=`"Vergehen"` de_article=`"das"` de_plural=`"die Vergehen"` lv=`"pārkāpums"` detail=`"B1[3064]"`
-- B2[1988] DUPLICATE_ACROSS_LEVELS de=`"voraussetzen"` de_article=`""` de_plural=`""` lv=`"prasīt • būt par priekšnoteikumu"` detail=`"C1[562]"`
-- B2[2110] DUPLICATE_ACROSS_LEVELS de=`"ändern"` de_article=`""` de_plural=`""` lv=`"mainīt • labot"` detail=`"A2[35]"`
-- B2[2111] DUPLICATE_ACROSS_LEVELS de=`"wechseln"` de_article=`""` de_plural=`""` lv=`"samainīt • nomainīt"` detail=`"A2[1564]"`
-- B2[2112] DUPLICATE_ACROSS_LEVELS de=`"bieten"` de_article=`""` de_plural=`""` lv=`"piedāvāt • sniegt"` detail=`"B1[449]"`
-- B2[2114] DUPLICATE_ACROSS_LEVELS de=`"fordern"` de_article=`""` de_plural=`""` lv=`"pieprasīt • prasīt"` detail=`"B1[931]"`
-- B2[2115] DUPLICATE_ACROSS_LEVELS de=`"fördern"` de_article=`""` de_plural=`""` lv=`"veicināt • atbalstīt"` detail=`"B1[932]"`
-- B2[2116] DUPLICATE_ACROSS_LEVELS de=`"sich verlaufen"` de_article=`""` de_plural=`""` lv=`"apmaldīties"` detail=`"B1[3087]"`
-- C1[18] DUPLICATE_ACROSS_LEVELS de=`"Aal"` de_article=`"der"` de_plural=`"die Aale"` lv=`"zutis"` detail=`"B1[35]"`
-- C1[169] DUPLICATE_ACROSS_LEVELS de=`"Verantwortung"` de_article=`"die"` de_plural=`"die Verantwortungen"` lv=`"atbildība"` detail=`"B2[0]"`
-- C1[299] DUPLICATE_ACROSS_LEVELS de=`"sich entschließen"` de_article=`""` de_plural=`""` lv=`"izlemt • izšķirties"` detail=`"B1[3346]"`
-- C1[323] CASE_AND_WHITESPACE pos=lietvārds de=`"soziale Fürsorge"` de_article=`"die"` de_plural=`""` lv=`"sociālā apgāde"` detail=`"de LOWERCASE_WITH_ARTICLE"`
-- C1[408] DUPLICATE_ACROSS_LEVELS de=`"Kriegsbeschädigte"` de_article=`"der"` de_plural=`"die Kriegsbeschädigten"` lv=`"kara invalīds"` detail=`"C2[216]"`
-- C1[409] DUPLICATE_ACROSS_LEVELS de=`"Kriegsgefangene"` de_article=`"der"` de_plural=`"die Kriegsgefangenen"` lv=`"karagūsteknis"` detail=`"C2[217]"`
-- C1[410] DUPLICATE_ACROSS_LEVELS de=`"Kabinettskrise"` de_article=`"die"` de_plural=`"die Kabinettskrisen"` lv=`"kabineta krīze"` detail=`"B2[1167]"`
-- C1[562] DUPLICATE_ACROSS_LEVELS de=`"voraussetzen"` de_article=`""` de_plural=`""` lv=`"pieņemt kā priekšnoteikumu"` detail=`"B2[1988]"`
-- C1[566] DUPLICATE_ACROSS_LEVELS de=`"Karre"` de_article=`"die"` de_plural=`"die Karren"` lv=`"ķerra"` detail=`"C2[214]"`
-- C1[567] DUPLICATE_ACROSS_LEVELS de=`"Karren"` de_article=`"der"` de_plural=`"die Karren"` lv=`"ķerra"` detail=`"C2[215]"`
-- C1[568] DUPLICATE_ACROSS_LEVELS de=`"Krüppel"` de_article=`"der"` de_plural=`"die Krüppel"` lv=`"kroplis"` detail=`"B1[1651]"`
-- C2[153] CASE_AND_WHITESPACE pos=lietvārds de=`"gesetzgebende Gewalt"` de_article=`"die"` de_plural=`"die gesetzgebenden Gewalten"` lv=`"likumdevēja vara"` detail=`"de LOWERCASE_WITH_ARTICLE"`
-- C2[185] CASE_AND_WHITESPACE pos=lietvārds de=`"politische Ökonomie"` de_article=`"die"` de_plural=`""` lv=`"politiskā ekonomija"` detail=`"de LOWERCASE_WITH_ARTICLE"`
-- C2[214] DUPLICATE_ACROSS_LEVELS de=`"Karre"` de_article=`"die"` de_plural=`"die Karren"` lv=`"ķerra"` detail=`"C1[566]"`
-- C2[215] DUPLICATE_ACROSS_LEVELS de=`"Karren"` de_article=`"der"` de_plural=`"die Karren"` lv=`"ķerra"` detail=`"C1[567]"`
-- C2[216] DUPLICATE_ACROSS_LEVELS de=`"Kriegsbeschädigte"` de_article=`"der"` de_plural=`"die Kriegsbeschädigten"` lv=`"kara invalīds"` detail=`"C1[408]"`
-- C2[217] DUPLICATE_ACROSS_LEVELS de=`"Kriegsgefangene"` de_article=`"der"` de_plural=`"die Kriegsgefangenen"` lv=`"karagūsteknis"` detail=`"C1[409]"`
+- A1[5] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sprechen"` de_article=`""` de_plural=`""` lv=`"runāt"` detail=`"A1[5] lv=runāt | A2[1627] lv=runāt"`
+- A1[6] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"klein"` de_article=`""` de_plural=`""` lv=`"mazs"` detail=`"A1[6] lv=mazs | A2[1630] lv=mazs"`
+- A1[44] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Arm"` de_article=`"der"` de_plural=`"die Arme"` lv=`"roka"` detail=`"A1[44] lv=roka | A2[85] lv=roka"`
+- A1[48] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"auch"` de_article=`""` de_plural=`""` lv=`"arī"` detail=`"A1[48] lv=arī | A2[1639] lv=arī"`
+- A1[88] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Besucher"` de_article=`"der"` de_plural=`"die Besucher"` lv=`"apmeklētājs"` detail=`"A1[88] lv=apmeklētājs | A2[245] lv=apmeklētājs"`
+- A1[94] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Bitte"` de_article=`"die"` de_plural=`"die Bitten"` lv=`"lūgums"` detail=`"A1[94] lv=lūgums | A2[257] lv=lūgums"`
+- A1[111] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"bringen"` de_article=`""` de_plural=`""` lv=`"atnest"` detail=`"A1[111] lv=atnest | A2[9] lv=atnest • nogādāt"`
+- A1[126] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"da"` de_article=`""` de_plural=`""` lv=`"tur"` detail=`"A1[126] lv=tur | B1[3337] lv=jo • par cik"`
+- A1[165] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"erst"` de_article=`""` de_plural=`""` lv=`"tikai"` detail=`"A1[165] lv=tikai | A2[1634] lv=vēl tikai • ne agrāk kā"`
+- A1[234] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Geschwister"` de_article=`"die"` de_plural=`""` lv=`"brāļi un māsas"` detail=`"A1[234] lv=brāļi un māsas | A2[586] lv=brāļi un māsas"`
+- A1[243] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"gleich"` de_article=`""` de_plural=`""` lv=`"tūlīt"` detail=`"A1[243] lv=tūlīt | A2[1638] lv=vienāds • tūlīt"`
+- A1[250] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"groß"` de_article=`""` de_plural=`""` lv=`"liels"` detail=`"A1[250] lv=liels | A2[1628] lv=liels"`
+- A1[285] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"hoch"` de_article=`""` de_plural=`""` lv=`"augsts"` detail=`"A1[285] lv=augsts | A2[1629] lv=augsts"`
+- A1[286] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"höflich"` de_article=`""` de_plural=`""` lv=`"pieklājīgs"` detail=`"A1[286] lv=pieklājīgs | A2[679] lv=pieklājīgs"`
+- A1[287] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"hören"` de_article=`""` de_plural=`""` lv=`"dzirdēt • klausīties"` detail=`"A1[287] lv=dzirdēt • klausīties | A2[1625] lv=dzirdēt • klausīties"`
+- A1[310] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"kennen"` de_article=`""` de_plural=`""` lv=`"pazīt"` detail=`"A1[310] lv=pazīt | A2[788] lv=pazīt"`
+- A1[311] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"wissen"` de_article=`""` de_plural=`""` lv=`"zināt"` detail=`"A1[311] lv=zināt | A2[789] lv=zināt"`
+- A1[338] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kleidung"` de_article=`"die"` de_plural=`""` lv=`"apģērbs"` detail=`"A1[338] lv=apģērbs | A2[811] lv=apģērbs"`
+- A1[359] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Laut"` de_article=`"der"` de_plural=`"die Laute"` lv=`"skaņa"` detail=`"A1[359] lv=skaņa | B1[1736] lv=skaņa"`
+- A1[363] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"legen"` de_article=`""` de_plural=`""` lv=`"nolikt"` detail=`"A1[363] lv=nolikt | A2[890] lv=nolikt guļus"`
+- A1[368] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"leise"` de_article=`""` de_plural=`""` lv=`"kluss"` detail=`"A1[368] lv=kluss | A2[1631] lv=kluss"`
+- A1[377] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"liegen"` de_article=`""` de_plural=`""` lv=`"atrasties • gulēt"` detail=`"A1[377] lv=atrasties • gulēt | A2[889] lv=gulēt • atrasties"`
+- A1[390] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Mal"` de_article=`"das"` de_plural=`"die Male"` lv=`"reize"` detail=`"A1[390] lv=reize | B1[1826] lv=zīme"`
+- A1[451] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"noch"` de_article=`""` de_plural=`""` lv=`"vēl"` detail=`"A1[451] lv=vēl | A2[1633] lv=vēl"`
+- A1[456] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"nur"` de_article=`""` de_plural=`""` lv=`"tikai • vienīgi"` detail=`"A1[456] lv=tikai • vienīgi | A2[1635] lv=tikai • vienīgi"`
+- A1[466] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Orange"` de_article=`"die"` de_plural=`"die Orangen"` lv=`"apelsīns"` detail=`"A1[466] lv=apelsīns | A2[1043] lv=apelsīns"`
+- A1[493] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Regen"` de_article=`"der"` de_plural=`""` lv=`"lietus"` detail=`"A1[493] lv=lietus | B2[1511] lv=lietus"`
+- A1[505] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sagen"` de_article=`""` de_plural=`""` lv=`"teikt"` detail=`"A1[505] lv=teikt | A2[1626] lv=teikt"`
+- A1[510] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"schauen"` de_article=`""` de_plural=`""` lv=`"skatīties"` detail=`"A1[510] lv=skatīties | A2[1623] lv=skatīties"`
+- A1[521] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"schon"` de_article=`""` de_plural=`""` lv=`"jau"` detail=`"A1[521] lv=jau | A2[1632] lv=jau"`
+- A1[539] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sehen"` de_article=`""` de_plural=`""` lv=`"redzēt"` detail=`"A1[539] lv=redzēt | A2[1622] lv=redzēt"`
+- A1[558] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sitzen"` de_article=`""` de_plural=`""` lv=`"sēdēt"` detail=`"A1[558] lv=sēdēt | A2[1320] lv=sēdēt"`
+- A1[576] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"stehen"` de_article=`""` de_plural=`""` lv=`"stāvēt"` detail=`"A1[576] lv=stāvēt | A2[1373] lv=stāvēt"`
+- A1[608] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"über"` de_article=`""` de_plural=`""` lv=`"virs • par"` detail=`"A1[608] lv=virs • par | A2[1636] lv=virs • pāri • par"`
+- A1[647] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Weg"` de_article=`"der"` de_plural=`"die Wege"` lv=`"ceļš"` detail=`"A1[647] lv=ceļš | A2[1567] lv=ceļš"`
+- A1[695] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Urlaub"` de_article=`"der"` de_plural=`""` lv=`"atvaļinājums"` detail=`"A1[695] lv=atvaļinājums | A2[1509] lv=atvaļinājums"`
+- A1[697] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Staat"` de_article=`"der"` de_plural=`"die Staaten"` lv=`"valsts"` detail=`"A1[697] lv=valsts | A2[1361] lv=valsts"`
+- A2[8] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"holen"` de_article=`""` de_plural=`""` lv=`"aiziet pakaļ • atnest"` detail=`"A2[8] lv=aiziet pakaļ • atnest | B1[1298] lv=atnest"`
+- A2[35] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"ändern"` de_article=`""` de_plural=`""` lv=`"mainīt • izmainīt"` detail=`"A2[35] lv=mainīt • izmainīt | B2[2110] lv=mainīt • labot"`
+- A2[323] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Dank"` de_article=`"der"` de_plural=`""` lv=`"pateicība"` detail=`"A2[323] lv=pateicība | B1[559] lv=pateicība"`
+- A2[375] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Ehe"` de_article=`"die"` de_plural=`"die Ehen"` lv=`"laulība"` detail=`"A2[375] lv=laulība | B1[644] lv=laulība"`
+- A2[738] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Johannisbeere"` de_article=`"die"` de_plural=`"die Johannisbeeren"` lv=`"jāņoga"` detail=`"A2[738] lv=jāņoga | B1[271] lv=jāņoga"`
+- A2[797] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kinderheim"` de_article=`"das"` de_plural=`"die Kinderheime"` lv=`"bērnunams"` detail=`"A2[797] lv=bērnunams | B1[1230] lv=bērnunams"`
+- A2[876] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Leid"` de_article=`"das"` de_plural=`""` lv=`"ciešanas • bēdas"` detail=`"A2[876] lv=ciešanas • bēdas | B1[1755] lv=ciešanas"`
+- A2[1035] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"obwohl"` de_article=`""` de_plural=`""` lv=`"lai gan"` detail=`"A2[1035] lv=lai gan | B1[3338] lv=kaut gan • lai gan"`
+- A2[1143] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Reich"` de_article=`"das"` de_plural=`"die Reiche"` lv=`"valsts • impērija • karaliste"` detail=`"A2[1143] lv=valsts • impērija • karaliste | B2[1515] lv=impērija • valsts"`
+- A2[1154] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Rennen"` de_article=`"das"` de_plural=`"die Rennen"` lv=`"skrējiens • sacīkstes"` detail=`"A2[1154] lv=skrējiens • sacīkstes | B1[2291] lv=sacīkstes"`
+- A2[1256] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Schuld"` de_article=`"die"` de_plural=`"die Schulden"` lv=`"vaina • parāds • atbildība"` detail=`"A2[1256] lv=vaina • parāds • atbildība | B1[2526] lv=būt vainīgam"`
+- A2[1289] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich bedanken"` de_article=`""` de_plural=`""` lv=`"pateikties"` detail=`"A2[1289] lv=pateikties | B1[3342] lv=pateikties"`
+- A2[1290] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"sich beeilen"` de_article=`""` de_plural=`""` lv=`"pasteigties"` detail=`"A2[1290] lv=pasteigties | B1[3343] lv=steigties"`
+- A2[1291] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich befinden"` de_article=`""` de_plural=`""` lv=`"atrasties"` detail=`"A2[1291] lv=atrasties | B1[3344] lv=atrasties"`
+- A2[1292] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich entschuldigen"` de_article=`""` de_plural=`""` lv=`"atvainoties"` detail=`"A2[1292] lv=atvainoties | B1[3347] lv=atvainoties"`
+- A2[1293] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"sich erholen"` de_article=`""` de_plural=`""` lv=`"atpūsties • atgūties"` detail=`"A2[1293] lv=atpūsties • atgūties | B1[3349] lv=atpūsties"`
+- A2[1294] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich erkälten"` de_article=`""` de_plural=`""` lv=`"saaukstēties"` detail=`"A2[1294] lv=saaukstēties | B1[3350] lv=saaukstēties"`
+- A2[1295] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich freuen"` de_article=`""` de_plural=`""` lv=`"priecāties"` detail=`"A2[1295] lv=priecāties | B1[3351] lv=priecāties"`
+- A2[1304] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich umziehen"` de_article=`""` de_plural=`""` lv=`"pārģērbties"` detail=`"A2[1304] lv=pārģērbties | B1[3355] lv=pārģērbties"`
+- A2[1309] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich verlieben"` de_article=`""` de_plural=`""` lv=`"iemīlēties"` detail=`"A2[1309] lv=iemīlēties | B1[3357] lv=iemīlēties"`
+- A2[1475] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Tropfen"` de_article=`"der"` de_plural=`"die Tropfen"` lv=`"piliens"` detail=`"A2[1475] lv=piliens | B1[2927] lv=piliens"`
+- A2[1526] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Versprechen"` de_article=`"das"` de_plural=`"die Versprechen"` lv=`"solījums"` detail=`"A2[1526] lv=solījums | B1[3114] lv=solījums"`
+- A2[1550] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Wagen"` de_article=`"der"` de_plural=`"die Wagen"` lv=`"automašīna • vagons"` detail=`"A2[1550] lv=automašīna • vagons | B1[3185] lv=automašīna • vagons"`
+- A2[1564] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"wechseln"` de_article=`""` de_plural=`""` lv=`"mainīt • samainīt"` detail=`"A2[1564] lv=mainīt • samainīt | B2[2111] lv=samainīt • nomainīt"`
+- A2[1575] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Weise"` de_article=`"die"` de_plural=`"die Weisen"` lv=`"veids"` detail=`"A2[1575] lv=veids | B1[3228] lv=gudrs"`
+- B1[35] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Aal"` de_article=`"der"` de_plural=`"die Aale"` lv=`"zutis"` detail=`"B1[35] lv=zutis | C1[18] lv=zutis"`
+- B1[449] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"bieten"` de_article=`""` de_plural=`""` lv=`"piedāvāt"` detail=`"B1[449] lv=piedāvāt | B2[2112] lv=piedāvāt • sniegt"`
+- B1[565] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Dasein"` de_article=`"das"` de_plural=`""` lv=`"esamība • eksistence"` detail=`"B1[565] lv=esamība • eksistence | B2[354] lv=esamība • eksistence"`
+- B1[705] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Einschreiben"` de_article=`"das"` de_plural=`"die Einschreiben"` lv=`"ierakstīta vēstule"` detail=`"B1[705] lv=ierakstīta vēstule | B2[577] lv=ierakstīta vēstule vai sūtījums"`
+- B1[931] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"fordern"` de_article=`""` de_plural=`""` lv=`"pieprasīt"` detail=`"B1[931] lv=pieprasīt | B2[2114] lv=pieprasīt • prasīt"`
+- B1[932] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"fördern"` de_article=`""` de_plural=`""` lv=`"veicināt"` detail=`"B1[932] lv=veicināt | B2[2115] lv=veicināt • atbalstīt"`
+- B1[1651] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Krüppel"` de_article=`"der"` de_plural=`"die Krüppel"` lv=`"kroplis"` detail=`"B1[1651] lv=kroplis | C1[568] lv=kroplis"`
+- B1[3059] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Verdienst"` de_article=`"der"` de_plural=`"die Verdienste"` lv=`"peļņa"` detail=`"B1[3059] lv=peļņa | B2[1876] lv=nopelns"`
+- B1[3064] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Vergehen"` de_article=`"das"` de_plural=`"die Vergehen"` lv=`"pārkāpums"` detail=`"B1[3064] lv=pārkāpums | B2[1892] lv=pārkāpums"`
+- B1[3087] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"sich verlaufen"` de_article=`""` de_plural=`""` lv=`"norisināties"` detail=`"B1[3087] lv=norisināties | B2[2116] lv=apmaldīties"`
+- B1[3346] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"sich entschließen"` de_article=`""` de_plural=`""` lv=`"nolemties"` detail=`"B1[3346] lv=nolemties | C1[299] lv=izlemt • izšķirties"`
+- B2[0] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Verantwortung"` de_article=`"die"` de_plural=`"die Verantwortungen"` lv=`"atbildība"` detail=`"B2[0] lv=atbildība | C1[169] lv=atbildība"`
+- B2[1167] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kabinettskrise"` de_article=`"die"` de_plural=`"die Kabinettskrisen"` lv=`"kabineta krīze"` detail=`"B2[1167] lv=kabineta krīze | C1[410] lv=kabineta krīze"`
+- B2[1988] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"voraussetzen"` de_article=`""` de_plural=`""` lv=`"prasīt • būt par priekšnoteikumu"` detail=`"B2[1988] lv=prasīt • būt par priekšnoteikumu | C1[562] lv=pieņemt kā priekšnoteikumu"`
+- C1[408] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kriegsbeschädigte"` de_article=`"der"` de_plural=`"die Kriegsbeschädigten"` lv=`"kara invalīds"` detail=`"C1[408] lv=kara invalīds | C2[216] lv=kara invalīds"`
+- C1[409] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kriegsgefangene"` de_article=`"der"` de_plural=`"die Kriegsgefangenen"` lv=`"karagūsteknis"` detail=`"C1[409] lv=karagūsteknis | C2[217] lv=karagūsteknis"`
+- C1[566] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Karre"` de_article=`"die"` de_plural=`"die Karren"` lv=`"ķerra"` detail=`"C1[566] lv=ķerra | C2[214] lv=ķerra"`
+- C1[567] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Karren"` de_article=`"der"` de_plural=`"die Karren"` lv=`"ķerra"` detail=`"C1[567] lv=ķerra | C2[215] lv=ķerra"`
 
 ## NEEDS_SOURCE_REVIEW
 
@@ -7414,23 +7332,95 @@ Nav.
 
 ### DUPLICATE_ACROSS_LEVELS
 
-Skaits: 160.
+Skaits: 80.
 
-- A1[5] DUPLICATE_ACROSS_LEVELS de=`"sprechen"` de_article=`""` de_plural=`""` lv=`"runāt"` detail=`"A2[1627]"`
-- A1[6] DUPLICATE_ACROSS_LEVELS de=`"klein"` de_article=`""` de_plural=`""` lv=`"mazs"` detail=`"A2[1630]"`
-- A1[44] DUPLICATE_ACROSS_LEVELS de=`"Arm"` de_article=`"der"` de_plural=`"die Arme"` lv=`"roka"` detail=`"A2[85]"`
-- A1[48] DUPLICATE_ACROSS_LEVELS de=`"auch"` de_article=`""` de_plural=`""` lv=`"arī"` detail=`"A2[1639]"`
-- A1[88] DUPLICATE_ACROSS_LEVELS de=`"Besucher"` de_article=`"der"` de_plural=`"die Besucher"` lv=`"apmeklētājs"` detail=`"A2[245]"`
-- A1[94] DUPLICATE_ACROSS_LEVELS de=`"Bitte"` de_article=`"die"` de_plural=`"die Bitten"` lv=`"lūgums"` detail=`"A2[257]"`
-- A1[111] DUPLICATE_ACROSS_LEVELS de=`"bringen"` de_article=`""` de_plural=`""` lv=`"atnest"` detail=`"A2[9]"`
-- A1[126] DUPLICATE_ACROSS_LEVELS de=`"da"` de_article=`""` de_plural=`""` lv=`"tur"` detail=`"B1[3337]"`
-- A1[165] DUPLICATE_ACROSS_LEVELS de=`"erst"` de_article=`""` de_plural=`""` lv=`"tikai"` detail=`"A2[1634]"`
-- A1[234] DUPLICATE_ACROSS_LEVELS de=`"Geschwister"` de_article=`"die"` de_plural=`""` lv=`"brāļi un māsas"` detail=`"A2[586]"`
+Pilns saraksts.
+- A1[5] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sprechen"` de_article=`""` de_plural=`""` lv=`"runāt"` detail=`"A1[5] lv=runāt | A2[1627] lv=runāt"`
+- A1[6] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"klein"` de_article=`""` de_plural=`""` lv=`"mazs"` detail=`"A1[6] lv=mazs | A2[1630] lv=mazs"`
+- A1[44] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Arm"` de_article=`"der"` de_plural=`"die Arme"` lv=`"roka"` detail=`"A1[44] lv=roka | A2[85] lv=roka"`
+- A1[48] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"auch"` de_article=`""` de_plural=`""` lv=`"arī"` detail=`"A1[48] lv=arī | A2[1639] lv=arī"`
+- A1[88] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Besucher"` de_article=`"der"` de_plural=`"die Besucher"` lv=`"apmeklētājs"` detail=`"A1[88] lv=apmeklētājs | A2[245] lv=apmeklētājs"`
+- A1[94] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Bitte"` de_article=`"die"` de_plural=`"die Bitten"` lv=`"lūgums"` detail=`"A1[94] lv=lūgums | A2[257] lv=lūgums"`
+- A1[111] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"bringen"` de_article=`""` de_plural=`""` lv=`"atnest"` detail=`"A1[111] lv=atnest | A2[9] lv=atnest • nogādāt"`
+- A1[126] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"da"` de_article=`""` de_plural=`""` lv=`"tur"` detail=`"A1[126] lv=tur | B1[3337] lv=jo • par cik"`
+- A1[165] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"erst"` de_article=`""` de_plural=`""` lv=`"tikai"` detail=`"A1[165] lv=tikai | A2[1634] lv=vēl tikai • ne agrāk kā"`
+- A1[234] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Geschwister"` de_article=`"die"` de_plural=`""` lv=`"brāļi un māsas"` detail=`"A1[234] lv=brāļi un māsas | A2[586] lv=brāļi un māsas"`
+- A1[243] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"gleich"` de_article=`""` de_plural=`""` lv=`"tūlīt"` detail=`"A1[243] lv=tūlīt | A2[1638] lv=vienāds • tūlīt"`
+- A1[250] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"groß"` de_article=`""` de_plural=`""` lv=`"liels"` detail=`"A1[250] lv=liels | A2[1628] lv=liels"`
+- A1[285] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"hoch"` de_article=`""` de_plural=`""` lv=`"augsts"` detail=`"A1[285] lv=augsts | A2[1629] lv=augsts"`
+- A1[286] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"höflich"` de_article=`""` de_plural=`""` lv=`"pieklājīgs"` detail=`"A1[286] lv=pieklājīgs | A2[679] lv=pieklājīgs"`
+- A1[287] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"hören"` de_article=`""` de_plural=`""` lv=`"dzirdēt • klausīties"` detail=`"A1[287] lv=dzirdēt • klausīties | A2[1625] lv=dzirdēt • klausīties"`
+- A1[310] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"kennen"` de_article=`""` de_plural=`""` lv=`"pazīt"` detail=`"A1[310] lv=pazīt | A2[788] lv=pazīt"`
+- A1[311] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"wissen"` de_article=`""` de_plural=`""` lv=`"zināt"` detail=`"A1[311] lv=zināt | A2[789] lv=zināt"`
+- A1[338] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kleidung"` de_article=`"die"` de_plural=`""` lv=`"apģērbs"` detail=`"A1[338] lv=apģērbs | A2[811] lv=apģērbs"`
+- A1[359] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Laut"` de_article=`"der"` de_plural=`"die Laute"` lv=`"skaņa"` detail=`"A1[359] lv=skaņa | B1[1736] lv=skaņa"`
+- A1[363] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"legen"` de_article=`""` de_plural=`""` lv=`"nolikt"` detail=`"A1[363] lv=nolikt | A2[890] lv=nolikt guļus"`
+- A1[368] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"leise"` de_article=`""` de_plural=`""` lv=`"kluss"` detail=`"A1[368] lv=kluss | A2[1631] lv=kluss"`
+- A1[377] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"liegen"` de_article=`""` de_plural=`""` lv=`"atrasties • gulēt"` detail=`"A1[377] lv=atrasties • gulēt | A2[889] lv=gulēt • atrasties"`
+- A1[390] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Mal"` de_article=`"das"` de_plural=`"die Male"` lv=`"reize"` detail=`"A1[390] lv=reize | B1[1826] lv=zīme"`
+- A1[451] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"noch"` de_article=`""` de_plural=`""` lv=`"vēl"` detail=`"A1[451] lv=vēl | A2[1633] lv=vēl"`
+- A1[456] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"nur"` de_article=`""` de_plural=`""` lv=`"tikai • vienīgi"` detail=`"A1[456] lv=tikai • vienīgi | A2[1635] lv=tikai • vienīgi"`
+- A1[466] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Orange"` de_article=`"die"` de_plural=`"die Orangen"` lv=`"apelsīns"` detail=`"A1[466] lv=apelsīns | A2[1043] lv=apelsīns"`
+- A1[493] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Regen"` de_article=`"der"` de_plural=`""` lv=`"lietus"` detail=`"A1[493] lv=lietus | B2[1511] lv=lietus"`
+- A1[505] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sagen"` de_article=`""` de_plural=`""` lv=`"teikt"` detail=`"A1[505] lv=teikt | A2[1626] lv=teikt"`
+- A1[510] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"schauen"` de_article=`""` de_plural=`""` lv=`"skatīties"` detail=`"A1[510] lv=skatīties | A2[1623] lv=skatīties"`
+- A1[521] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"schon"` de_article=`""` de_plural=`""` lv=`"jau"` detail=`"A1[521] lv=jau | A2[1632] lv=jau"`
+- A1[539] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sehen"` de_article=`""` de_plural=`""` lv=`"redzēt"` detail=`"A1[539] lv=redzēt | A2[1622] lv=redzēt"`
+- A1[558] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sitzen"` de_article=`""` de_plural=`""` lv=`"sēdēt"` detail=`"A1[558] lv=sēdēt | A2[1320] lv=sēdēt"`
+- A1[576] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"stehen"` de_article=`""` de_plural=`""` lv=`"stāvēt"` detail=`"A1[576] lv=stāvēt | A2[1373] lv=stāvēt"`
+- A1[608] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"über"` de_article=`""` de_plural=`""` lv=`"virs • par"` detail=`"A1[608] lv=virs • par | A2[1636] lv=virs • pāri • par"`
+- A1[647] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Weg"` de_article=`"der"` de_plural=`"die Wege"` lv=`"ceļš"` detail=`"A1[647] lv=ceļš | A2[1567] lv=ceļš"`
+- A1[695] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Urlaub"` de_article=`"der"` de_plural=`""` lv=`"atvaļinājums"` detail=`"A1[695] lv=atvaļinājums | A2[1509] lv=atvaļinājums"`
+- A1[697] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Staat"` de_article=`"der"` de_plural=`"die Staaten"` lv=`"valsts"` detail=`"A1[697] lv=valsts | A2[1361] lv=valsts"`
+- A2[8] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"holen"` de_article=`""` de_plural=`""` lv=`"aiziet pakaļ • atnest"` detail=`"A2[8] lv=aiziet pakaļ • atnest | B1[1298] lv=atnest"`
+- A2[35] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"ändern"` de_article=`""` de_plural=`""` lv=`"mainīt • izmainīt"` detail=`"A2[35] lv=mainīt • izmainīt | B2[2110] lv=mainīt • labot"`
+- A2[323] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Dank"` de_article=`"der"` de_plural=`""` lv=`"pateicība"` detail=`"A2[323] lv=pateicība | B1[559] lv=pateicība"`
+- A2[375] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Ehe"` de_article=`"die"` de_plural=`"die Ehen"` lv=`"laulība"` detail=`"A2[375] lv=laulība | B1[644] lv=laulība"`
+- A2[738] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Johannisbeere"` de_article=`"die"` de_plural=`"die Johannisbeeren"` lv=`"jāņoga"` detail=`"A2[738] lv=jāņoga | B1[271] lv=jāņoga"`
+- A2[797] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kinderheim"` de_article=`"das"` de_plural=`"die Kinderheime"` lv=`"bērnunams"` detail=`"A2[797] lv=bērnunams | B1[1230] lv=bērnunams"`
+- A2[876] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Leid"` de_article=`"das"` de_plural=`""` lv=`"ciešanas • bēdas"` detail=`"A2[876] lv=ciešanas • bēdas | B1[1755] lv=ciešanas"`
+- A2[1035] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"obwohl"` de_article=`""` de_plural=`""` lv=`"lai gan"` detail=`"A2[1035] lv=lai gan | B1[3338] lv=kaut gan • lai gan"`
+- A2[1143] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Reich"` de_article=`"das"` de_plural=`"die Reiche"` lv=`"valsts • impērija • karaliste"` detail=`"A2[1143] lv=valsts • impērija • karaliste | B2[1515] lv=impērija • valsts"`
+- A2[1154] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Rennen"` de_article=`"das"` de_plural=`"die Rennen"` lv=`"skrējiens • sacīkstes"` detail=`"A2[1154] lv=skrējiens • sacīkstes | B1[2291] lv=sacīkstes"`
+- A2[1256] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Schuld"` de_article=`"die"` de_plural=`"die Schulden"` lv=`"vaina • parāds • atbildība"` detail=`"A2[1256] lv=vaina • parāds • atbildība | B1[2526] lv=būt vainīgam"`
+- A2[1289] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich bedanken"` de_article=`""` de_plural=`""` lv=`"pateikties"` detail=`"A2[1289] lv=pateikties | B1[3342] lv=pateikties"`
+- A2[1290] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"sich beeilen"` de_article=`""` de_plural=`""` lv=`"pasteigties"` detail=`"A2[1290] lv=pasteigties | B1[3343] lv=steigties"`
+- A2[1291] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich befinden"` de_article=`""` de_plural=`""` lv=`"atrasties"` detail=`"A2[1291] lv=atrasties | B1[3344] lv=atrasties"`
+- A2[1292] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich entschuldigen"` de_article=`""` de_plural=`""` lv=`"atvainoties"` detail=`"A2[1292] lv=atvainoties | B1[3347] lv=atvainoties"`
+- A2[1293] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"sich erholen"` de_article=`""` de_plural=`""` lv=`"atpūsties • atgūties"` detail=`"A2[1293] lv=atpūsties • atgūties | B1[3349] lv=atpūsties"`
+- A2[1294] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich erkälten"` de_article=`""` de_plural=`""` lv=`"saaukstēties"` detail=`"A2[1294] lv=saaukstēties | B1[3350] lv=saaukstēties"`
+- A2[1295] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich freuen"` de_article=`""` de_plural=`""` lv=`"priecāties"` detail=`"A2[1295] lv=priecāties | B1[3351] lv=priecāties"`
+- A2[1304] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich umziehen"` de_article=`""` de_plural=`""` lv=`"pārģērbties"` detail=`"A2[1304] lv=pārģērbties | B1[3355] lv=pārģērbties"`
+- A2[1309] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich verlieben"` de_article=`""` de_plural=`""` lv=`"iemīlēties"` detail=`"A2[1309] lv=iemīlēties | B1[3357] lv=iemīlēties"`
+- A2[1475] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Tropfen"` de_article=`"der"` de_plural=`"die Tropfen"` lv=`"piliens"` detail=`"A2[1475] lv=piliens | B1[2927] lv=piliens"`
+- A2[1526] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Versprechen"` de_article=`"das"` de_plural=`"die Versprechen"` lv=`"solījums"` detail=`"A2[1526] lv=solījums | B1[3114] lv=solījums"`
+- A2[1550] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Wagen"` de_article=`"der"` de_plural=`"die Wagen"` lv=`"automašīna • vagons"` detail=`"A2[1550] lv=automašīna • vagons | B1[3185] lv=automašīna • vagons"`
+- A2[1564] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"wechseln"` de_article=`""` de_plural=`""` lv=`"mainīt • samainīt"` detail=`"A2[1564] lv=mainīt • samainīt | B2[2111] lv=samainīt • nomainīt"`
+- A2[1575] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Weise"` de_article=`"die"` de_plural=`"die Weisen"` lv=`"veids"` detail=`"A2[1575] lv=veids | B1[3228] lv=gudrs"`
+- B1[35] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Aal"` de_article=`"der"` de_plural=`"die Aale"` lv=`"zutis"` detail=`"B1[35] lv=zutis | C1[18] lv=zutis"`
+- B1[449] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"bieten"` de_article=`""` de_plural=`""` lv=`"piedāvāt"` detail=`"B1[449] lv=piedāvāt | B2[2112] lv=piedāvāt • sniegt"`
+- B1[565] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Dasein"` de_article=`"das"` de_plural=`""` lv=`"esamība • eksistence"` detail=`"B1[565] lv=esamība • eksistence | B2[354] lv=esamība • eksistence"`
+- B1[705] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Einschreiben"` de_article=`"das"` de_plural=`"die Einschreiben"` lv=`"ierakstīta vēstule"` detail=`"B1[705] lv=ierakstīta vēstule | B2[577] lv=ierakstīta vēstule vai sūtījums"`
+- B1[931] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"fordern"` de_article=`""` de_plural=`""` lv=`"pieprasīt"` detail=`"B1[931] lv=pieprasīt | B2[2114] lv=pieprasīt • prasīt"`
+- B1[932] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"fördern"` de_article=`""` de_plural=`""` lv=`"veicināt"` detail=`"B1[932] lv=veicināt | B2[2115] lv=veicināt • atbalstīt"`
+- B1[1651] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Krüppel"` de_article=`"der"` de_plural=`"die Krüppel"` lv=`"kroplis"` detail=`"B1[1651] lv=kroplis | C1[568] lv=kroplis"`
+- B1[3059] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Verdienst"` de_article=`"der"` de_plural=`"die Verdienste"` lv=`"peļņa"` detail=`"B1[3059] lv=peļņa | B2[1876] lv=nopelns"`
+- B1[3064] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Vergehen"` de_article=`"das"` de_plural=`"die Vergehen"` lv=`"pārkāpums"` detail=`"B1[3064] lv=pārkāpums | B2[1892] lv=pārkāpums"`
+- B1[3087] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"sich verlaufen"` de_article=`""` de_plural=`""` lv=`"norisināties"` detail=`"B1[3087] lv=norisināties | B2[2116] lv=apmaldīties"`
+- B1[3346] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"sich entschließen"` de_article=`""` de_plural=`""` lv=`"nolemties"` detail=`"B1[3346] lv=nolemties | C1[299] lv=izlemt • izšķirties"`
+- B2[0] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Verantwortung"` de_article=`"die"` de_plural=`"die Verantwortungen"` lv=`"atbildība"` detail=`"B2[0] lv=atbildība | C1[169] lv=atbildība"`
+- B2[1167] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kabinettskrise"` de_article=`"die"` de_plural=`"die Kabinettskrisen"` lv=`"kabineta krīze"` detail=`"B2[1167] lv=kabineta krīze | C1[410] lv=kabineta krīze"`
+- B2[1988] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"voraussetzen"` de_article=`""` de_plural=`""` lv=`"prasīt • būt par priekšnoteikumu"` detail=`"B2[1988] lv=prasīt • būt par priekšnoteikumu | C1[562] lv=pieņemt kā priekšnoteikumu"`
+- C1[408] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kriegsbeschädigte"` de_article=`"der"` de_plural=`"die Kriegsbeschädigten"` lv=`"kara invalīds"` detail=`"C1[408] lv=kara invalīds | C2[216] lv=kara invalīds"`
+- C1[409] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kriegsgefangene"` de_article=`"der"` de_plural=`"die Kriegsgefangenen"` lv=`"karagūsteknis"` detail=`"C1[409] lv=karagūsteknis | C2[217] lv=karagūsteknis"`
+- C1[566] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Karre"` de_article=`"die"` de_plural=`"die Karren"` lv=`"ķerra"` detail=`"C1[566] lv=ķerra | C2[214] lv=ķerra"`
+- C1[567] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Karren"` de_article=`"der"` de_plural=`"die Karren"` lv=`"ķerra"` detail=`"C1[567] lv=ķerra | C2[215] lv=ķerra"`
 
 ### SAME_DE_DIFFERENT_ARTICLE
 
 Skaits: 31.
 
+Pirmie 10.
 - A2[193] SAME_DE_DIFFERENT_ARTICLE flag=POSSIBLE_HOMONYM de=`"Band"` de_article=`"das"` de_plural=`"die Bänder"` lv=`"lente • saite"` detail=`"lente • saite | sējums"`
 - A2[505] SAME_DE_DIFFERENT_ARTICLE flag=POSSIBLE_HOMONYM de=`"Flur"` de_article=`"der"` de_plural=`"die Flure"` lv=`"priekšnams • koridors"` detail=`"lauks • klajums | priekšnams • koridors"`
 - A2[959] SAME_DE_DIFFERENT_ARTICLE flag=POSSIBLE_HOMONYM de=`"Moment"` de_article=`"der"` de_plural=`"die Momente"` lv=`"brīdis"` detail=`"brīdis | izšķirošais apstāklis • faktors"`
@@ -7446,6 +7436,7 @@ Skaits: 31.
 
 Skaits: 3582.
 
+Pirmie 10.
 - A1[4] EMPTY_ARTICLE pos=nezināms de=`"lernen"` de_article=`""` de_plural=`""` lv=`"mācīties"` detail=`"nezināms"`
 - A1[5] EMPTY_ARTICLE pos=nezināms de=`"sprechen"` de_article=`""` de_plural=`""` lv=`"runāt"` detail=`"nezināms"`
 - A1[6] EMPTY_ARTICLE pos=nezināms de=`"klein"` de_article=`""` de_plural=`""` lv=`"mazs"` detail=`"nezināms"`
@@ -7459,27 +7450,36 @@ Skaits: 3582.
 
 ### PLURAL_STEM_CHECK
 
-Skaits: 111.
+Skaits: 21.
 
-- A1[25] PLURAL_STEM_CHECK pos=lietvārds de=`"Album"` de_article=`"das"` de_plural=`"die Alben"` lv=`"albums"` detail=`"STEM_MISMATCH"`
-- A1[67] PLURAL_STEM_CHECK pos=lietvārds de=`"Sauna"` de_article=`"die"` de_plural=`"die Saunen"` lv=`"sauna"` detail=`"STEM_MISMATCH"`
-- A1[119] PLURAL_STEM_CHECK pos=lietvārds de=`"Bus"` de_article=`"der"` de_plural=`"die Busse"` lv=`"autobuss"` detail=`"STEM_MISMATCH"`
-- A1[131] PLURAL_STEM_CHECK pos=lietvārds de=`"Datum"` de_article=`"das"` de_plural=`"die Daten"` lv=`"datums"` detail=`"STEM_MISMATCH"`
-- A1[476] PLURAL_STEM_CHECK pos=lietvārds de=`"Pizza"` de_article=`"die"` de_plural=`"die Pizzen"` lv=`"pica"` detail=`"STEM_MISMATCH"`
-- A2[68] PLURAL_STEM_CHECK pos=lietvārds de=`"Antibiotikum"` de_article=`"das"` de_plural=`"die Antibiotika"` lv=`"antibiotika"` detail=`"STEM_MISMATCH"`
-- A2[106] PLURAL_STEM_CHECK pos=lietvārds de=`"Aufbau"` de_article=`"der"` de_plural=`"die Aufbauten"` lv=`"uzbūve • izveide"` detail=`"STEM_MISMATCH"`
-- A2[196] PLURAL_STEM_CHECK pos=lietvārds de=`"Bankkonto"` de_article=`"das"` de_plural=`"die Bankkonten"` lv=`"konts bankā"` detail=`"STEM_MISMATCH"`
-- A2[304] PLURAL_STEM_CHECK pos=lietvārds de=`"Cafeteria"` de_article=`"die"` de_plural=`"die Cafeterien"` lv=`"kafetērija"` detail=`"STEM_MISMATCH"`
-- A2[386] PLURAL_STEM_CHECK pos=lietvārds de=`"Einkaufszentrum"` de_article=`"das"` de_plural=`"die Einkaufszentren"` lv=`"tirdzniecības centrs"` detail=`"STEM_MISMATCH"`
+Pilns saraksts.
+- A2[737] PLURAL_STEM_CHECK pos=lietvārds de=`"Joghurt / Jogurt"` de_article=`"der"` de_plural=`"die Joghurts / Jogurts"` lv=`"jogurts"` detail=`"STEM_MISMATCH"`
+- A2[919] PLURAL_STEM_CHECK pos=lietvārds de=`"Material"` de_article=`"das"` de_plural=`"die Materialien"` lv=`"materiāls"` detail=`"STEM_MISMATCH"`
+- A2[1184] PLURAL_STEM_CHECK pos=lietvārds de=`"Saal"` de_article=`"der"` de_plural=`"die Säle"` lv=`"zāle"` detail=`"STEM_MISMATCH"`
+- A2[1362] PLURAL_STEM_CHECK pos=lietvārds de=`"Stadion"` de_article=`"das"` de_plural=`"die Stadien"` lv=`"stadions"` detail=`"STEM_MISMATCH"`
+- B1[537] PLURAL_STEM_CHECK pos=lietvārds de=`"Cello"` de_article=`"das"` de_plural=`"die Celli"` lv=`"čells"` detail=`"STEM_MISMATCH"`
+- B1[844] PLURAL_STEM_CHECK pos=lietvārds de=`"Examen"` de_article=`"das"` de_plural=`"die Examina"` lv=`"eksāmens"` detail=`"STEM_MISMATCH"`
+- B1[1312] PLURAL_STEM_CHECK pos=lietvārds de=`"Hörsaal"` de_article=`"der"` de_plural=`"die Hörsäle"` lv=`"auditorija"` detail=`"STEM_MISMATCH"`
+- B1[1404] PLURAL_STEM_CHECK pos=lietvārds de=`"Jagderlaubnis"` de_article=`"die"` de_plural=`"die Jagderlaubse"` lv=`"medību atļauja"` detail=`"STEM_MISMATCH"`
+- B1[1597] PLURAL_STEM_CHECK pos=lietvārds de=`"Kosmetik"` de_article=`"die"` de_plural=`"die Kosmetika"` lv=`"kosmētika"` detail=`"STEM_MISMATCH"`
+- B1[1767] PLURAL_STEM_CHECK pos=lietvārds de=`"Lesesaal"` de_article=`"der"` de_plural=`"die Lesesäle"` lv=`"lasītava"` detail=`"STEM_MISMATCH"`
+- B1[2162] PLURAL_STEM_CHECK pos=lietvārds de=`"Prinzip"` de_article=`"das"` de_plural=`"die Prinzipien"` lv=`"princips"` detail=`"STEM_MISMATCH"`
+- B1[2680] PLURAL_STEM_CHECK pos=lietvārds de=`"Speisesaal"` de_article=`"der"` de_plural=`"die Speisesäle"` lv=`"ēdamzāle"` detail=`"STEM_MISMATCH"`
+- B1[2881] PLURAL_STEM_CHECK pos=lietvārds de=`"Tempo"` de_article=`"das"` de_plural=`"die Tempi"` lv=`"temps"` detail=`"STEM_MISMATCH"`
+- B1[3201] PLURAL_STEM_CHECK pos=lietvārds de=`"Wartesaal"` de_article=`"der"` de_plural=`"die Wartesäle"` lv=`"uzgaidāmā telpa"` detail=`"STEM_MISMATCH"`
+- B2[283] PLURAL_STEM_CHECK pos=lietvārds de=`"Bootsmann"` de_article=`"der"` de_plural=`"die Bootsleute"` lv=`"bocmanis"` detail=`"STEM_MISMATCH"`
+- B2[442] PLURAL_STEM_CHECK pos=lietvārds de=`"Dressman"` de_article=`"der"` de_plural=`"die Dressmen"` lv=`"modeļu demonstrētājs modes skatēs"` detail=`"STEM_MISMATCH"`
+- B2[1211] PLURAL_STEM_CHECK pos=lietvārds de=`"Landsmann"` de_article=`"der"` de_plural=`"die Landsleute"` lv=`"tautietis • novadnieks"` detail=`"STEM_MISMATCH"`
+- B2[1436] PLURAL_STEM_CHECK pos=lietvārds de=`"Pater"` de_article=`"der"` de_plural=`"die Patres"` lv=`"katoļu priesteris • piederīgs kādam ordenim"` detail=`"STEM_MISMATCH"`
+- C1[72] PLURAL_STEM_CHECK pos=lietvārds de=`"Geschäftsmann"` de_article=`"der"` de_plural=`"die Geschäftsleute"` lv=`"uzņēmējs"` detail=`"STEM_MISMATCH"`
+- C1[241] PLURAL_STEM_CHECK pos=lietvārds de=`"Beweismaterial"` de_article=`"das"` de_plural=`"die Beweismaterialien"` lv=`"lietiskie pierādījumi"` detail=`"STEM_MISMATCH"`
+- C2[153] PLURAL_STEM_CHECK pos=lietvārds de=`"gesetzgebende Gewalt"` de_article=`"die"` de_plural=`"die gesetzgebenden Gewalten"` lv=`"likumdevēja vara"` detail=`"STEM_MISMATCH"`
 
 ### CASE_AND_WHITESPACE
 
-Skaits: 4.
+Skaits: 0.
 
-- A2[1197] CASE_AND_WHITESPACE pos=lietvārds de=`"saure Sahne"` de_article=`"die"` de_plural=`""` lv=`"skābs krējums"` detail=`"de LOWERCASE_WITH_ARTICLE"`
-- C1[323] CASE_AND_WHITESPACE pos=lietvārds de=`"soziale Fürsorge"` de_article=`"die"` de_plural=`""` lv=`"sociālā apgāde"` detail=`"de LOWERCASE_WITH_ARTICLE"`
-- C2[153] CASE_AND_WHITESPACE pos=lietvārds de=`"gesetzgebende Gewalt"` de_article=`"die"` de_plural=`"die gesetzgebenden Gewalten"` lv=`"likumdevēja vara"` detail=`"de LOWERCASE_WITH_ARTICLE"`
-- C2[185] CASE_AND_WHITESPACE pos=lietvārds de=`"politische Ökonomie"` de_article=`"die"` de_plural=`""` lv=`"politiskā ekonomija"` detail=`"de LOWERCASE_WITH_ARTICLE"`
+Nav.
 
 ### FOREIGN_SCRIPT
 
@@ -7569,8 +7569,654 @@ Nav.
 | plurale tantum | 0 |
 | nezināms | 3582 |
 
+## DUPLICATE_ACROSS_LEVELS pāri
+
+Katrs unikālais pāris ir viena rinda. SAME_LV nozīmē identisku `lv`. DIFFERENT_LV rāda abus `lv` laukā `detail`. Dublikāti netiek laboti.
+
+| karogs | skaits |
+|---|---:|
+| DIFFERENT_LV | 27 |
+| SAME_LV | 53 |
+
+### SAME_LV
+
+Skaits: 53.
+
+- A1[5] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sprechen"` de_article=`""` de_plural=`""` lv=`"runāt"` detail=`"A1[5] lv=runāt | A2[1627] lv=runāt"`
+- A1[6] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"klein"` de_article=`""` de_plural=`""` lv=`"mazs"` detail=`"A1[6] lv=mazs | A2[1630] lv=mazs"`
+- A1[44] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Arm"` de_article=`"der"` de_plural=`"die Arme"` lv=`"roka"` detail=`"A1[44] lv=roka | A2[85] lv=roka"`
+- A1[48] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"auch"` de_article=`""` de_plural=`""` lv=`"arī"` detail=`"A1[48] lv=arī | A2[1639] lv=arī"`
+- A1[88] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Besucher"` de_article=`"der"` de_plural=`"die Besucher"` lv=`"apmeklētājs"` detail=`"A1[88] lv=apmeklētājs | A2[245] lv=apmeklētājs"`
+- A1[94] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Bitte"` de_article=`"die"` de_plural=`"die Bitten"` lv=`"lūgums"` detail=`"A1[94] lv=lūgums | A2[257] lv=lūgums"`
+- A1[234] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Geschwister"` de_article=`"die"` de_plural=`""` lv=`"brāļi un māsas"` detail=`"A1[234] lv=brāļi un māsas | A2[586] lv=brāļi un māsas"`
+- A1[250] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"groß"` de_article=`""` de_plural=`""` lv=`"liels"` detail=`"A1[250] lv=liels | A2[1628] lv=liels"`
+- A1[285] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"hoch"` de_article=`""` de_plural=`""` lv=`"augsts"` detail=`"A1[285] lv=augsts | A2[1629] lv=augsts"`
+- A1[286] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"höflich"` de_article=`""` de_plural=`""` lv=`"pieklājīgs"` detail=`"A1[286] lv=pieklājīgs | A2[679] lv=pieklājīgs"`
+- A1[287] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"hören"` de_article=`""` de_plural=`""` lv=`"dzirdēt • klausīties"` detail=`"A1[287] lv=dzirdēt • klausīties | A2[1625] lv=dzirdēt • klausīties"`
+- A1[310] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"kennen"` de_article=`""` de_plural=`""` lv=`"pazīt"` detail=`"A1[310] lv=pazīt | A2[788] lv=pazīt"`
+- A1[311] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"wissen"` de_article=`""` de_plural=`""` lv=`"zināt"` detail=`"A1[311] lv=zināt | A2[789] lv=zināt"`
+- A1[338] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kleidung"` de_article=`"die"` de_plural=`""` lv=`"apģērbs"` detail=`"A1[338] lv=apģērbs | A2[811] lv=apģērbs"`
+- A1[359] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Laut"` de_article=`"der"` de_plural=`"die Laute"` lv=`"skaņa"` detail=`"A1[359] lv=skaņa | B1[1736] lv=skaņa"`
+- A1[368] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"leise"` de_article=`""` de_plural=`""` lv=`"kluss"` detail=`"A1[368] lv=kluss | A2[1631] lv=kluss"`
+- A1[451] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"noch"` de_article=`""` de_plural=`""` lv=`"vēl"` detail=`"A1[451] lv=vēl | A2[1633] lv=vēl"`
+- A1[456] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"nur"` de_article=`""` de_plural=`""` lv=`"tikai • vienīgi"` detail=`"A1[456] lv=tikai • vienīgi | A2[1635] lv=tikai • vienīgi"`
+- A1[466] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Orange"` de_article=`"die"` de_plural=`"die Orangen"` lv=`"apelsīns"` detail=`"A1[466] lv=apelsīns | A2[1043] lv=apelsīns"`
+- A1[493] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Regen"` de_article=`"der"` de_plural=`""` lv=`"lietus"` detail=`"A1[493] lv=lietus | B2[1511] lv=lietus"`
+- A1[505] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sagen"` de_article=`""` de_plural=`""` lv=`"teikt"` detail=`"A1[505] lv=teikt | A2[1626] lv=teikt"`
+- A1[510] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"schauen"` de_article=`""` de_plural=`""` lv=`"skatīties"` detail=`"A1[510] lv=skatīties | A2[1623] lv=skatīties"`
+- A1[521] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"schon"` de_article=`""` de_plural=`""` lv=`"jau"` detail=`"A1[521] lv=jau | A2[1632] lv=jau"`
+- A1[539] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sehen"` de_article=`""` de_plural=`""` lv=`"redzēt"` detail=`"A1[539] lv=redzēt | A2[1622] lv=redzēt"`
+- A1[558] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sitzen"` de_article=`""` de_plural=`""` lv=`"sēdēt"` detail=`"A1[558] lv=sēdēt | A2[1320] lv=sēdēt"`
+- A1[576] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"stehen"` de_article=`""` de_plural=`""` lv=`"stāvēt"` detail=`"A1[576] lv=stāvēt | A2[1373] lv=stāvēt"`
+- A1[647] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Weg"` de_article=`"der"` de_plural=`"die Wege"` lv=`"ceļš"` detail=`"A1[647] lv=ceļš | A2[1567] lv=ceļš"`
+- A1[695] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Urlaub"` de_article=`"der"` de_plural=`""` lv=`"atvaļinājums"` detail=`"A1[695] lv=atvaļinājums | A2[1509] lv=atvaļinājums"`
+- A1[697] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Staat"` de_article=`"der"` de_plural=`"die Staaten"` lv=`"valsts"` detail=`"A1[697] lv=valsts | A2[1361] lv=valsts"`
+- A2[323] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Dank"` de_article=`"der"` de_plural=`""` lv=`"pateicība"` detail=`"A2[323] lv=pateicība | B1[559] lv=pateicība"`
+- A2[375] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Ehe"` de_article=`"die"` de_plural=`"die Ehen"` lv=`"laulība"` detail=`"A2[375] lv=laulība | B1[644] lv=laulība"`
+- A2[738] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Johannisbeere"` de_article=`"die"` de_plural=`"die Johannisbeeren"` lv=`"jāņoga"` detail=`"A2[738] lv=jāņoga | B1[271] lv=jāņoga"`
+- A2[797] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kinderheim"` de_article=`"das"` de_plural=`"die Kinderheime"` lv=`"bērnunams"` detail=`"A2[797] lv=bērnunams | B1[1230] lv=bērnunams"`
+- A2[1289] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich bedanken"` de_article=`""` de_plural=`""` lv=`"pateikties"` detail=`"A2[1289] lv=pateikties | B1[3342] lv=pateikties"`
+- A2[1291] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich befinden"` de_article=`""` de_plural=`""` lv=`"atrasties"` detail=`"A2[1291] lv=atrasties | B1[3344] lv=atrasties"`
+- A2[1292] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich entschuldigen"` de_article=`""` de_plural=`""` lv=`"atvainoties"` detail=`"A2[1292] lv=atvainoties | B1[3347] lv=atvainoties"`
+- A2[1294] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich erkälten"` de_article=`""` de_plural=`""` lv=`"saaukstēties"` detail=`"A2[1294] lv=saaukstēties | B1[3350] lv=saaukstēties"`
+- A2[1295] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich freuen"` de_article=`""` de_plural=`""` lv=`"priecāties"` detail=`"A2[1295] lv=priecāties | B1[3351] lv=priecāties"`
+- A2[1304] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich umziehen"` de_article=`""` de_plural=`""` lv=`"pārģērbties"` detail=`"A2[1304] lv=pārģērbties | B1[3355] lv=pārģērbties"`
+- A2[1309] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"sich verlieben"` de_article=`""` de_plural=`""` lv=`"iemīlēties"` detail=`"A2[1309] lv=iemīlēties | B1[3357] lv=iemīlēties"`
+- A2[1475] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Tropfen"` de_article=`"der"` de_plural=`"die Tropfen"` lv=`"piliens"` detail=`"A2[1475] lv=piliens | B1[2927] lv=piliens"`
+- A2[1526] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Versprechen"` de_article=`"das"` de_plural=`"die Versprechen"` lv=`"solījums"` detail=`"A2[1526] lv=solījums | B1[3114] lv=solījums"`
+- A2[1550] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Wagen"` de_article=`"der"` de_plural=`"die Wagen"` lv=`"automašīna • vagons"` detail=`"A2[1550] lv=automašīna • vagons | B1[3185] lv=automašīna • vagons"`
+- B1[35] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Aal"` de_article=`"der"` de_plural=`"die Aale"` lv=`"zutis"` detail=`"B1[35] lv=zutis | C1[18] lv=zutis"`
+- B1[565] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Dasein"` de_article=`"das"` de_plural=`""` lv=`"esamība • eksistence"` detail=`"B1[565] lv=esamība • eksistence | B2[354] lv=esamība • eksistence"`
+- B1[1651] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Krüppel"` de_article=`"der"` de_plural=`"die Krüppel"` lv=`"kroplis"` detail=`"B1[1651] lv=kroplis | C1[568] lv=kroplis"`
+- B1[3064] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Vergehen"` de_article=`"das"` de_plural=`"die Vergehen"` lv=`"pārkāpums"` detail=`"B1[3064] lv=pārkāpums | B2[1892] lv=pārkāpums"`
+- B2[0] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Verantwortung"` de_article=`"die"` de_plural=`"die Verantwortungen"` lv=`"atbildība"` detail=`"B2[0] lv=atbildība | C1[169] lv=atbildība"`
+- B2[1167] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kabinettskrise"` de_article=`"die"` de_plural=`"die Kabinettskrisen"` lv=`"kabineta krīze"` detail=`"B2[1167] lv=kabineta krīze | C1[410] lv=kabineta krīze"`
+- C1[408] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kriegsbeschädigte"` de_article=`"der"` de_plural=`"die Kriegsbeschädigten"` lv=`"kara invalīds"` detail=`"C1[408] lv=kara invalīds | C2[216] lv=kara invalīds"`
+- C1[409] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Kriegsgefangene"` de_article=`"der"` de_plural=`"die Kriegsgefangenen"` lv=`"karagūsteknis"` detail=`"C1[409] lv=karagūsteknis | C2[217] lv=karagūsteknis"`
+- C1[566] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Karre"` de_article=`"die"` de_plural=`"die Karren"` lv=`"ķerra"` detail=`"C1[566] lv=ķerra | C2[214] lv=ķerra"`
+- C1[567] DUPLICATE_ACROSS_LEVELS flag=SAME_LV de=`"Karren"` de_article=`"der"` de_plural=`"die Karren"` lv=`"ķerra"` detail=`"C1[567] lv=ķerra | C2[215] lv=ķerra"`
+
+### DIFFERENT_LV
+
+Skaits: 27.
+
+- A1[111] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"bringen"` de_article=`""` de_plural=`""` lv=`"atnest"` detail=`"A1[111] lv=atnest | A2[9] lv=atnest • nogādāt"`
+- A1[126] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"da"` de_article=`""` de_plural=`""` lv=`"tur"` detail=`"A1[126] lv=tur | B1[3337] lv=jo • par cik"`
+- A1[165] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"erst"` de_article=`""` de_plural=`""` lv=`"tikai"` detail=`"A1[165] lv=tikai | A2[1634] lv=vēl tikai • ne agrāk kā"`
+- A1[243] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"gleich"` de_article=`""` de_plural=`""` lv=`"tūlīt"` detail=`"A1[243] lv=tūlīt | A2[1638] lv=vienāds • tūlīt"`
+- A1[363] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"legen"` de_article=`""` de_plural=`""` lv=`"nolikt"` detail=`"A1[363] lv=nolikt | A2[890] lv=nolikt guļus"`
+- A1[377] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"liegen"` de_article=`""` de_plural=`""` lv=`"atrasties • gulēt"` detail=`"A1[377] lv=atrasties • gulēt | A2[889] lv=gulēt • atrasties"`
+- A1[390] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Mal"` de_article=`"das"` de_plural=`"die Male"` lv=`"reize"` detail=`"A1[390] lv=reize | B1[1826] lv=zīme"`
+- A1[608] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"über"` de_article=`""` de_plural=`""` lv=`"virs • par"` detail=`"A1[608] lv=virs • par | A2[1636] lv=virs • pāri • par"`
+- A2[8] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"holen"` de_article=`""` de_plural=`""` lv=`"aiziet pakaļ • atnest"` detail=`"A2[8] lv=aiziet pakaļ • atnest | B1[1298] lv=atnest"`
+- A2[35] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"ändern"` de_article=`""` de_plural=`""` lv=`"mainīt • izmainīt"` detail=`"A2[35] lv=mainīt • izmainīt | B2[2110] lv=mainīt • labot"`
+- A2[876] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Leid"` de_article=`"das"` de_plural=`""` lv=`"ciešanas • bēdas"` detail=`"A2[876] lv=ciešanas • bēdas | B1[1755] lv=ciešanas"`
+- A2[1035] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"obwohl"` de_article=`""` de_plural=`""` lv=`"lai gan"` detail=`"A2[1035] lv=lai gan | B1[3338] lv=kaut gan • lai gan"`
+- A2[1143] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Reich"` de_article=`"das"` de_plural=`"die Reiche"` lv=`"valsts • impērija • karaliste"` detail=`"A2[1143] lv=valsts • impērija • karaliste | B2[1515] lv=impērija • valsts"`
+- A2[1154] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Rennen"` de_article=`"das"` de_plural=`"die Rennen"` lv=`"skrējiens • sacīkstes"` detail=`"A2[1154] lv=skrējiens • sacīkstes | B1[2291] lv=sacīkstes"`
+- A2[1256] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Schuld"` de_article=`"die"` de_plural=`"die Schulden"` lv=`"vaina • parāds • atbildība"` detail=`"A2[1256] lv=vaina • parāds • atbildība | B1[2526] lv=būt vainīgam"`
+- A2[1290] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"sich beeilen"` de_article=`""` de_plural=`""` lv=`"pasteigties"` detail=`"A2[1290] lv=pasteigties | B1[3343] lv=steigties"`
+- A2[1293] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"sich erholen"` de_article=`""` de_plural=`""` lv=`"atpūsties • atgūties"` detail=`"A2[1293] lv=atpūsties • atgūties | B1[3349] lv=atpūsties"`
+- A2[1564] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"wechseln"` de_article=`""` de_plural=`""` lv=`"mainīt • samainīt"` detail=`"A2[1564] lv=mainīt • samainīt | B2[2111] lv=samainīt • nomainīt"`
+- A2[1575] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Weise"` de_article=`"die"` de_plural=`"die Weisen"` lv=`"veids"` detail=`"A2[1575] lv=veids | B1[3228] lv=gudrs"`
+- B1[449] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"bieten"` de_article=`""` de_plural=`""` lv=`"piedāvāt"` detail=`"B1[449] lv=piedāvāt | B2[2112] lv=piedāvāt • sniegt"`
+- B1[705] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Einschreiben"` de_article=`"das"` de_plural=`"die Einschreiben"` lv=`"ierakstīta vēstule"` detail=`"B1[705] lv=ierakstīta vēstule | B2[577] lv=ierakstīta vēstule vai sūtījums"`
+- B1[931] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"fordern"` de_article=`""` de_plural=`""` lv=`"pieprasīt"` detail=`"B1[931] lv=pieprasīt | B2[2114] lv=pieprasīt • prasīt"`
+- B1[932] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"fördern"` de_article=`""` de_plural=`""` lv=`"veicināt"` detail=`"B1[932] lv=veicināt | B2[2115] lv=veicināt • atbalstīt"`
+- B1[3059] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"Verdienst"` de_article=`"der"` de_plural=`"die Verdienste"` lv=`"peļņa"` detail=`"B1[3059] lv=peļņa | B2[1876] lv=nopelns"`
+- B1[3087] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"sich verlaufen"` de_article=`""` de_plural=`""` lv=`"norisināties"` detail=`"B1[3087] lv=norisināties | B2[2116] lv=apmaldīties"`
+- B1[3346] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"sich entschließen"` de_article=`""` de_plural=`""` lv=`"nolemties"` detail=`"B1[3346] lv=nolemties | C1[299] lv=izlemt • izšķirties"`
+- B2[1988] DUPLICATE_ACROSS_LEVELS flag=DIFFERENT_LV de=`"voraussetzen"` de_article=`""` de_plural=`""` lv=`"prasīt • būt par priekšnoteikumu"` detail=`"B2[1988] lv=prasīt • būt par priekšnoteikumu | C1[562] lv=pieņemt kā priekšnoteikumu"`
+
+## Vārdšķiras ESTIMATE
+
+ESTIMATE nav verdikts un nepiešķir PASS.
+
+ESTIMATE ir atdalīts no verdikta. Tas nemaina EMPTY_ARTICLE un EMPTY_PLURAL smagumu un neaizstāj `lietvārds` / `nezināms`. Skaitīšana: ja `de` ir `data/verbs.js` infinitīvs vai `lv` beidzas ar -t vai -ties un artikula nav, etiķete ir `darbības vārds (estimate)`; ja ieraksts nav artikulēts un `lv` beidzas ar -ais, -ā, -š vai -s, etiķete ir `īpašības vārds (estimate)`; pārējie paliek `nezināms`. Artikuls aptur abas etiķetes.
+
+data/verbs.js infinitīvi: 189.
+
+| estimate | skaits |
+|---|---:|
+| darbības vārds (estimate) | 1795 |
+| īpašības vārds (estimate) | 1218 |
+| nezināms | 5605 |
+
+| signāls | skaits |
+|---|---:|
+| verbs.js | 185 |
+| lv_ending | 2828 |
+| has_article | 5036 |
+| none | 569 |
+
+## EMPTY_PLURAL lietvārds
+
+Tukšs daudzskaitlis pie verdikta `lietvārds` ir OBSERVATION. Galotnes -keit, -heit, -schaft un -ung uz pēdējā vārda ir tikai norāde, ka daudzskaitlis pēc formas ir iespējams. Tā nav singulare tantum spriedums un nav labojums.
+
+| de_article | skaits | ar galotnes norādi |
+|---|---:|---:|
+| das | 134 | 0 |
+| der | 172 | 0 |
+| die | 194 | 9 |
+| summa | 500 | 9 |
+
+### de_article das
+
+Skaits: 134.
+
+- A1[2] de=`"Wasser"` de_article=`"das"` lv=`"ūdens"` pluralFormIndication=`""`
+- A1[11] de=`"Alter"` de_article=`"das"` lv=`"vecums"` pluralFormIndication=`""`
+- A1[157] de=`"Eis"` de_article=`"das"` lv=`"ledus • saldējums"` pluralFormIndication=`""`
+- A1[161] de=`"Ende"` de_article=`"das"` lv=`"beigas"` pluralFormIndication=`""`
+- A1[191] de=`"Fleisch"` de_article=`"das"` lv=`"gaļa"` pluralFormIndication=`""`
+- A1[229] de=`"Geld"` de_article=`"das"` lv=`"nauda"` pluralFormIndication=`""`
+- A1[244] de=`"Glück"` de_article=`"das"` lv=`"laime"` pluralFormIndication=`""`
+- A1[658] de=`"Wetter"` de_article=`"das"` lv=`"laiks (laikapstākļi)"` pluralFormIndication=`""`
+- A1[688] de=`"Fernsehen"` de_article=`"das"` lv=`"televīzija"` pluralFormIndication=`""`
+- A1[691] de=`"Essen"` de_article=`"das"` lv=`"ēdiens • maltīte"` pluralFormIndication=`""`
+- A1[692] de=`"Gemüse"` de_article=`"das"` lv=`"dārzeņi"` pluralFormIndication=`""`
+- A1[693] de=`"Obst"` de_article=`"das"` lv=`"augļi"` pluralFormIndication=`""`
+- A2[93] de=`"Aschenputtel"` de_article=`"das"` lv=`"pelnrušķīte"` pluralFormIndication=`""`
+- A2[95] de=`"Asthma"` de_article=`"das"` lv=`"astma"` pluralFormIndication=`""`
+- A2[186] de=`"Badminton"` de_article=`"das"` lv=`"badmintons"` pluralFormIndication=`""`
+- A2[200] de=`"Bargeld"` de_article=`"das"` lv=`"skaidra nauda"` pluralFormIndication=`""`
+- A2[205] de=`"Bauchweh"` de_article=`"das"` lv=`"vēdersāpes"` pluralFormIndication=`""`
+- A2[231] de=`"Benzin"` de_article=`"das"` lv=`"benzīns"` pluralFormIndication=`""`
+- A2[270] de=`"Blut"` de_article=`"das"` lv=`"asinis"` pluralFormIndication=`""`
+- A2[275] de=`"Bootfahren"` de_article=`"das"` lv=`"braukšana ar laivu"` pluralFormIndication=`""`
+- A2[279] de=`"Boxen"` de_article=`"das"` lv=`"bokss"` pluralFormIndication=`""`
+- A2[401] de=`"Eishockey"` de_article=`"das"` lv=`"hokejs uz ledus"` pluralFormIndication=`""`
+- A2[488] de=`"Fieber"` de_article=`"das"` lv=`"drudzis"` pluralFormIndication=`""`
+- A2[559] de=`"Gebäck"` de_article=`"das"` lv=`"cepumi • konditorejas izstrādājumi"` pluralFormIndication=`""`
+- A2[579] de=`"Gepäck"` de_article=`"das"` lv=`"bagāža"` pluralFormIndication=`""`
+- A2[584] de=`"Geschirr"` de_article=`"das"` lv=`"trauki"` pluralFormIndication=`""`
+- A2[599] de=`"Gold"` de_article=`"das"` lv=`"zelts"` pluralFormIndication=`""`
+- A2[617] de=`"Hackfleisch"` de_article=`"das"` lv=`"malta gaļa"` pluralFormIndication=`""`
+- A2[630] de=`"Handgepäck"` de_article=`"das"` lv=`"rokas bagāža"` pluralFormIndication=`""`
+- A2[676] de=`"Hockey"` de_article=`"das"` lv=`"hokejs"` pluralFormIndication=`""`
+- A2[689] de=`"Hundefutter"` de_article=`"das"` lv=`"suņu barība"` pluralFormIndication=`""`
+- A2[690] de=`"Hundegebell"` de_article=`"das"` lv=`"suņa rejas"` pluralFormIndication=`""`
+- A2[715] de=`"Internet"` de_article=`"das"` lv=`"internets"` pluralFormIndication=`""`
+- A2[736] de=`"Jogging"` de_article=`"das"` lv=`"lēns skrējiens"` pluralFormIndication=`""`
+- A2[766] de=`"Karate"` de_article=`"das"` lv=`"karatē"` pluralFormIndication=`""`
+- A2[814] de=`"Kleingeld"` de_article=`"das"` lv=`"sīknauda"` pluralFormIndication=`""`
+- A2[876] de=`"Leid"` de_article=`"das"` lv=`"ciešanas • bēdas"` pluralFormIndication=`""`
+- A2[1008] de=`"Neujahr"` de_article=`"das"` lv=`"jaungads"` pluralFormIndication=`""`
+- A2[1065] de=`"Pech"` de_article=`"das"` lv=`"neveiksme"` pluralFormIndication=`""`
+- A2[1068] de=`"Personal"` de_article=`"das"` lv=`"personāls"` pluralFormIndication=`""`
+- A2[1111] de=`"Publikum"` de_article=`"das"` lv=`"publika"` pluralFormIndication=`""`
+- A2[1166] de=`"Rindfleisch"` de_article=`"das"` lv=`"liellopu gaļa"` pluralFormIndication=`""`
+- A2[1196] de=`"Sauerkraut"` de_article=`"das"` lv=`"skābēti kāposti"` pluralFormIndication=`""`
+- A2[1199] de=`"Schach"` de_article=`"das"` lv=`"šahs"` pluralFormIndication=`""`
+- A2[1264] de=`"Schweinefleisch"` de_article=`"das"` lv=`"cūkgaļa"` pluralFormIndication=`""`
+- A2[1273] de=`"Seilspringen"` de_article=`"das"` lv=`"lēkšana ar lecamauklu"` pluralFormIndication=`""`
+- A2[1317] de=`"Silber"` de_article=`"das"` lv=`"sudrabs"` pluralFormIndication=`""`
+- A2[1348] de=`"Speiseeis"` de_article=`"das"` lv=`"saldējums"` pluralFormIndication=`""`
+- A2[1446] de=`"Tischtennis"` de_article=`"das"` lv=`"galda teniss"` pluralFormIndication=`""`
+- A2[1588] de=`"Wiedersehen"` de_article=`"das"` lv=`"atkalredzēšanās"` pluralFormIndication=`""`
+- A2[1592] de=`"Wild"` de_article=`"das"` lv=`"medījums"` pluralFormIndication=`""`
+- B1[143] de=`"Ansehen"` de_article=`"das"` lv=`"reputācija"` pluralFormIndication=`""`
+- B1[188] de=`"Aufsehen"` de_article=`"das"` lv=`"ievērība"` pluralFormIndication=`""`
+- B1[232] de=`"Backobst"` de_article=`"das"` lv=`"žāvēti augļi"` pluralFormIndication=`""`
+- B1[275] de=`"Befinden"` de_article=`"das"` lv=`"pašsajūta"` pluralFormIndication=`""`
+- B1[342] de=`"Benehmen"` de_article=`"das"` lv=`"uzvedība"` pluralFormIndication=`""`
+- B1[437] de=`"Biathlon"` de_article=`"das"` lv=`"biatlons"` pluralFormIndication=`""`
+- B1[458] de=`"Blei"` de_article=`"das"` lv=`"svins"` pluralFormIndication=`""`
+- B1[539] de=`"Chaos"` de_article=`"das"` lv=`"haoss"` pluralFormIndication=`""`
+- B1[565] de=`"Dasein"` de_article=`"das"` lv=`"esamība • eksistence"` pluralFormIndication=`""`
+- B1[624] de=`"Durcheinander"` de_article=`"das"` lv=`"juku jukām • juceklis"` pluralFormIndication=`""`
+- B1[738] de=`"Elend"` de_article=`"das"` lv=`"posts • nožēlojams stāvoklis"` pluralFormIndication=`""`
+- B1[822] de=`"Erstaunen"` de_article=`"das"` lv=`"izbrīns"` pluralFormIndication=`""`
+- B1[944] de=`"Freie"` de_article=`"das"` lv=`"brīva daba"` pluralFormIndication=`""`
+- B1[972] de=`"Futter"` de_article=`"das"` lv=`"barība"` pluralFormIndication=`""`
+- B1[1018] de=`"Geflüster"` de_article=`"das"` lv=`"čuksti"` pluralFormIndication=`""`
+- B1[1258] de=`"Heu"` de_article=`"das"` lv=`"siens"` pluralFormIndication=`""`
+- B1[1370] de=`"Innere"` de_article=`"das"` lv=`"iekšiene • iekšējā daļa"` pluralFormIndication=`""`
+- B1[1431] de=`"Judo"` de_article=`"das"` lv=`"džudo"` pluralFormIndication=`""`
+- B1[1583] de=`"Können"` de_article=`"das"` lv=`"prasme"` pluralFormIndication=`""`
+- B1[1884] de=`"Mitgefühl"` de_article=`"das"` lv=`"līdzjūtība"` pluralFormIndication=`""`
+- B1[1887] de=`"Mittelalter"` de_article=`"das"` lv=`"viduslaiki"` pluralFormIndication=`""`
+- B1[1911] de=`"Morgenrot"` de_article=`"das"` lv=`"rītablāzma"` pluralFormIndication=`""`
+- B1[1985] de=`"Nikotin"` de_article=`"das"` lv=`"nikotīns"` pluralFormIndication=`""`
+- B1[2048] de=`"Ozon"` de_article=`"das"` lv=`"ozons"` pluralFormIndication=`""`
+- B1[2269] de=`"Reinemachen"` de_article=`"das"` lv=`"uzkopšana"` pluralFormIndication=`""`
+- B1[2316] de=`"Ringen"` de_article=`"das"` lv=`"cīņa"` pluralFormIndication=`""`
+- B1[2351] de=`"Rudern"` de_article=`"das"` lv=`"airēšana"` pluralFormIndication=`""`
+- B1[2375] de=`"Sägemehl"` de_article=`"das"` lv=`"zāģskaidas"` pluralFormIndication=`""`
+- B1[2495] de=`"Schneetreiben"` de_article=`"das"` lv=`"spēcīgs sniegputenis"` pluralFormIndication=`""`
+- B1[2674] de=`"Speerwerfen"` de_article=`"das"` lv=`"šķēpa mešana"` pluralFormIndication=`""`
+- B1[2803] de=`"Stroh"` de_article=`"das"` lv=`"salmi"` pluralFormIndication=`""`
+- B1[2868] de=`"Tauwetter"` de_article=`"das"` lv=`"atkusnis"` pluralFormIndication=`""`
+- B1[3013] de=`"Unrecht"` de_article=`"das"` lv=`"netaisnība"` pluralFormIndication=`""`
+- B1[3140] de=`"Vieh"` de_article=`"das"` lv=`"lopi"` pluralFormIndication=`""`
+- B1[3181] de=`"Wachstum"` de_article=`"das"` lv=`"augšana"` pluralFormIndication=`""`
+- B1[3210] de=`"Web"` de_article=`"das"` lv=`"internets"` pluralFormIndication=`""`
+- B1[3236] de=`"Weltall"` de_article=`"das"` lv=`"visums"` pluralFormIndication=`""`
+- B1[3260] de=`"Wiederhören"` de_article=`"das"` lv=`"uz sadzirdēšanos!"` pluralFormIndication=`""`
+- B1[3360] de=`"Erbe"` de_article=`"das"` lv=`"mantojums"` pluralFormIndication=`""`
+- B1[3363] de=`"Vertrauen"` de_article=`"das"` lv=`"uzticība"` pluralFormIndication=`""`
+- B2[137] de=`"Barrenturnen"` de_article=`"das"` lv=`"vingrošana uz līdztekām"` pluralFormIndication=`""`
+- B2[145] de=`"Bauwesen"` de_article=`"das"` lv=`"celtniecība • būvniecība"` pluralFormIndication=`""`
+- B2[183] de=`"Belieben"` de_article=`"das"` lv=`"patika • patikšana • vēlēšanās"` pluralFormIndication=`""`
+- B2[252] de=`"Bienenwachs"` de_article=`"das"` lv=`"bišu vasks"` pluralFormIndication=`""`
+- B2[301] de=`"Brettsegeln"` de_article=`"das"` lv=`"vindsērfings"` pluralFormIndication=`""`
+- B2[330] de=`"Cholesterin"` de_article=`"das"` lv=`"holesterīns"` pluralFormIndication=`""`
+- B2[354] de=`"Dasein"` de_article=`"das"` lv=`"esamība • eksistence"` pluralFormIndication=`""`
+- B2[407] de=`"Diskuswerfen"` de_article=`"das"` lv=`"diska mešana"` pluralFormIndication=`""`
+- B2[422] de=`"Dörrobst"` de_article=`"das"` lv=`"kaltēti augļi"` pluralFormIndication=`""`
+- B2[604] de=`"Eissegeln"` de_article=`"das"` lv=`"burāšana ar ledusjahtām"` pluralFormIndication=`""`
+- B2[660] de=`"Erachten"` de_article=`"das"` lv=`"domas • ieskats"` pluralFormIndication=`""`
+- B2[776] de=`"Feingefühl"` de_article=`"das"` lv=`"smalkjūtība • takts"` pluralFormIndication=`""`
+- B2[792] de=`"Firmenkapital"` de_article=`"das"` lv=`"firmas kapitāls"` pluralFormIndication=`""`
+- B2[808] de=`"Flugwesen"` de_article=`"das"` lv=`"aviācija"` pluralFormIndication=`""`
+- B2[885] de=`"Gefallen"` de_article=`"das"` lv=`"patikšana • patika"` pluralFormIndication=`""`
+- B2[923] de=`"Genmaterial"` de_article=`"das"` lv=`"ģenētiskais materiāls"` pluralFormIndication=`""`
+- B2[936] de=`"Geratewohl"` de_article=`"das"` lv=`"laba laime"` pluralFormIndication=`""`
+- B2[959] de=`"Gespött"` de_article=`"das"` lv=`"zobošanās"` pluralFormIndication=`""`
+- B2[960] de=`"Gespür"` de_article=`"das"` lv=`"intuīcija"` pluralFormIndication=`""`
+- B2[1007] de=`"Gnadenbrot"` de_article=`"das"` lv=`"žēlastības maize"` pluralFormIndication=`""`
+- B2[1074] de=`"Hautjucken"` de_article=`"das"` lv=`"ādas nieze"` pluralFormIndication=`""`
+- B2[1108] de=`"Herzflattern"` de_article=`"das"` lv=`"sirdsklauves"` pluralFormIndication=`""`
+- B2[1110] de=`"Herzversagen"` de_article=`"das"` lv=`"sirds apstāšanās • nepietiekamība"` pluralFormIndication=`""`
+- B2[1281] de=`"Mahnschreiben"` de_article=`"das"` lv=`"atgādinājums"` pluralFormIndication=`""`
+- B2[1286] de=`"Mark"` de_article=`"das"` lv=`"kaulu smadzenes"` pluralFormIndication=`""`
+- B2[1287] de=`"Marketing"` de_article=`"das"` lv=`"marketings • tirgzinība"` pluralFormIndication=`""`
+- B2[1317] de=`"Militär"` de_article=`"das"` lv=`"karaspēks • armija"` pluralFormIndication=`""`
+- B2[1372] de=`"Nesselfieber"` de_article=`"das"` lv=`"nātrene"` pluralFormIndication=`""`
+- B2[1558] de=`"Schaffen"` de_article=`"das"` lv=`"jaunrade • daiļrade • darbs • darbība • radīšana"` pluralFormIndication=`""`
+- B2[1630] de=`"Sein"` de_article=`"das"` lv=`"esamība"` pluralFormIndication=`""`
+- B2[1762] de=`"Übereinkommen"` de_article=`"das"` lv=`"vienošanās • noruna"` pluralFormIndication=`""`
+- B2[2063] de=`"Wettrudern"` de_article=`"das"` lv=`"airēšanas sacīkstes"` pluralFormIndication=`""`
+- B2[2064] de=`"Wettschwimmen"` de_article=`"das"` lv=`"peldēšanas sacīkstes"` pluralFormIndication=`""`
+- B2[2106] de=`"Zwielicht"` de_article=`"das"` lv=`"krēsla"` pluralFormIndication=`""`
+- C1[25] de=`"Flugwetter"` de_article=`"das"` lv=`"laika apstākļi lidošanai"` pluralFormIndication=`""`
+- C1[78] de=`"Gewichtheben"` de_article=`"das"` lv=`"svarcelšana"` pluralFormIndication=`""`
+- C1[93] de=`"Kabelfernsehen"` de_article=`"das"` lv=`"kabeļtelevīzija"` pluralFormIndication=`""`
+- C1[148] de=`"Stabhochspringen"` de_article=`"das"` lv=`"kārtslēkšana"` pluralFormIndication=`""`
+- C1[343] de=`"Gemeineigentum"` de_article=`"das"` lv=`"sabiedriskais īpašums"` pluralFormIndication=`""`
+- C1[514] de=`"Verkehrswesen"` de_article=`"das"` lv=`"transports"` pluralFormIndication=`""`
+- C1[553] de=`"Wetterleuchten"` de_article=`"das"` lv=`"rūsa"` pluralFormIndication=`""`
+- C2[97] de=`"Informationsdefizit"` de_article=`"das"` lv=`"informācijas deficīts"` pluralFormIndication=`""`
+- C2[119] de=`"Fallschirmspringen"` de_article=`"das"` lv=`"lēkšana ar izpletni"` pluralFormIndication=`""`
+
+### de_article der
+
+Skaits: 172.
+
+- A1[41] de=`"April"` de_article=`"der"` lv=`"aprīlis"` pluralFormIndication=`""`
+- A1[56] de=`"August"` de_article=`"der"` lv=`"augusts"` pluralFormIndication=`""`
+- A1[136] de=`"Dezember"` de_article=`"der"` lv=`"decembris"` pluralFormIndication=`""`
+- A1[178] de=`"Februar"` de_article=`"der"` lv=`"februāris"` pluralFormIndication=`""`
+- A1[298] de=`"Januar"` de_article=`"der"` lv=`"janvāris"` pluralFormIndication=`""`
+- A1[303] de=`"Juli"` de_article=`"der"` lv=`"jūlijs"` pluralFormIndication=`""`
+- A1[305] de=`"Juni"` de_article=`"der"` lv=`"jūnijs"` pluralFormIndication=`""`
+- A1[330] de=`"Kaffee"` de_article=`"der"` lv=`"kafija"` pluralFormIndication=`""`
+- A1[335] de=`"Käse"` de_article=`"der"` lv=`"siers"` pluralFormIndication=`""`
+- A1[339] de=`"Knoblauch"` de_article=`"der"` lv=`"ķiploks"` pluralFormIndication=`""`
+- A1[389] de=`"Mai"` de_article=`"der"` lv=`"maijs"` pluralFormIndication=`""`
+- A1[396] de=`"März"` de_article=`"der"` lv=`"marts"` pluralFormIndication=`""`
+- A1[418] de=`"Morgen"` de_article=`"der"` lv=`"rīts"` pluralFormIndication=`""`
+- A1[453] de=`"November"` de_article=`"der"` lv=`"novembris"` pluralFormIndication=`""`
+- A1[464] de=`"Oktober"` de_article=`"der"` lv=`"oktobris"` pluralFormIndication=`""`
+- A1[493] de=`"Regen"` de_article=`"der"` lv=`"lietus"` pluralFormIndication=`""`
+- A1[496] de=`"Reis"` de_article=`"der"` lv=`"rīsi"` pluralFormIndication=`""`
+- A1[517] de=`"Schnee"` de_article=`"der"` lv=`"sniegs"` pluralFormIndication=`""`
+- A1[546] de=`"September"` de_article=`"der"` lv=`"septembris"` pluralFormIndication=`""`
+- A1[669] de=`"Zucker"` de_article=`"der"` lv=`"cukurs"` pluralFormIndication=`""`
+- A1[689] de=`"Appetit"` de_article=`"der"` lv=`"apetīte"` pluralFormIndication=`""`
+- A1[695] de=`"Urlaub"` de_article=`"der"` lv=`"atvaļinājums"` pluralFormIndication=`""`
+- A2[32] de=`"Alkohol"` de_article=`"der"` lv=`"alkohols"` pluralFormIndication=`""`
+- A2[82] de=`"Ärger"` de_article=`"der"` lv=`"dusmas • kaitinājums"` pluralFormIndication=`""`
+- A2[96] de=`"Atem"` de_article=`"der"` lv=`"elpa"` pluralFormIndication=`""`
+- A2[217] de=`"Beginn"` de_article=`"der"` lv=`"sākums • iesākums"` pluralFormIndication=`""`
+- A2[265] de=`"Blumenkohl"` de_article=`"der"` lv=`"ziedkāposti"` pluralFormIndication=`""`
+- A2[323] de=`"Dank"` de_article=`"der"` lv=`"pateicība"` pluralFormIndication=`""`
+- A2[343] de=`"Dill"` de_article=`"der"` lv=`"dilles"` pluralFormIndication=`""`
+- A2[366] de=`"Durst"` de_article=`"der"` lv=`"slāpes"` pluralFormIndication=`""`
+- A2[403] de=`"Eislauf"` de_article=`"der"` lv=`"slidošana"` pluralFormIndication=`""`
+- A2[458] de=`"Familienstand"` de_article=`"der"` lv=`"ģimenes stāvoklis"` pluralFormIndication=`""`
+- A2[666] de=`"Himmel"` de_article=`"der"` lv=`"debess"` pluralFormIndication=`""`
+- A2[688] de=`"Humor"` de_article=`"der"` lv=`"humors"` pluralFormIndication=`""`
+- A2[694] de=`"Hunger"` de_article=`"der"` lv=`"izsalkums"` pluralFormIndication=`""`
+- A2[697] de=`"Husten"` de_article=`"der"` lv=`"klepus"` pluralFormIndication=`""`
+- A2[725] de=`"Jazz"` de_article=`"der"` lv=`"džezs"` pluralFormIndication=`""`
+- A2[793] de=`"Ketchup"` de_article=`"der"` lv=`"kečups"` pluralFormIndication=`""`
+- A2[796] de=`"Kinderfunk"` de_article=`"der"` lv=`"raidījums bērniem"` pluralFormIndication=`""`
+- A2[864] de=`"Lärm"` de_article=`"der"` lv=`"troksnis"` pluralFormIndication=`""`
+- A2[967] de=`"Müll"` de_article=`"der"` lv=`"atkritumi"` pluralFormIndication=`""`
+- A2[972] de=`"Mut"` de_article=`"der"` lv=`"drosme"` pluralFormIndication=`""`
+- A2[1018] de=`"Norden"` de_article=`"der"` lv=`"ziemeļi"` pluralFormIndication=`""`
+- A2[1048] de=`"Osten"` de_article=`"der"` lv=`"austrumi"` pluralFormIndication=`""`
+- A2[1117] de=`"Quark"` de_article=`"der"` lv=`"biezpiens"` pluralFormIndication=`""`
+- A2[1122] de=`"Rahm"` de_article=`"der"` lv=`"krējums salds"` pluralFormIndication=`""`
+- A2[1129] de=`"Rauch"` de_article=`"der"` lv=`"dūmi"` pluralFormIndication=`""`
+- A2[1182] de=`"Rundfunk"` de_article=`"der"` lv=`"radio"` pluralFormIndication=`""`
+- A2[1191] de=`"Sand"` de_article=`"der"` lv=`"smiltis"` pluralFormIndication=`""`
+- A2[1227] de=`"Schlaf"` de_article=`"der"` lv=`"miegs"` pluralFormIndication=`""`
+- A2[1242] de=`"Schmutz"` de_article=`"der"` lv=`"netīrumi"` pluralFormIndication=`""`
+- A2[1265] de=`"Schweiß"` de_article=`"der"` lv=`"sviedri"` pluralFormIndication=`""`
+- A2[1279] de=`"Senf"` de_article=`"der"` lv=`"sinepes"` pluralFormIndication=`""`
+- A2[1281] de=`"Service"` de_article=`"der"` lv=`"serviss"` pluralFormIndication=`""`
+- A2[1334] de=`"Sonnenschein"` de_article=`"der"` lv=`"saules gaisma"` pluralFormIndication=`""`
+- A2[1347] de=`"Speck"` de_article=`"der"` lv=`"speķis"` pluralFormIndication=`""`
+- A2[1356] de=`"Sport"` de_article=`"der"` lv=`"sports"` pluralFormIndication=`""`
+- A2[1368] de=`"Staub"` de_article=`"der"` lv=`"putekļi"` pluralFormIndication=`""`
+- A2[1399] de=`"Straßenverkehr"` de_article=`"der"` lv=`"ielu satiksme"` pluralFormIndication=`""`
+- A2[1404] de=`"Stress"` de_article=`"der"` lv=`"stress"` pluralFormIndication=`""`
+- A2[1408] de=`"Süden"` de_article=`"der"` lv=`"dienvidi"` pluralFormIndication=`""`
+- A2[1412] de=`"Tabak"` de_article=`"der"` lv=`"tabaka"` pluralFormIndication=`""`
+- A2[1448] de=`"Tod"` de_article=`"der"` lv=`"nāve"` pluralFormIndication=`""`
+- A2[1502] de=`"Unterricht"` de_article=`"der"` lv=`"nodarbība"` pluralFormIndication=`""`
+- A2[1517] de=`"Verkehr"` de_article=`"der"` lv=`"satiksme"` pluralFormIndication=`""`
+- A2[1585] de=`"Westen"` de_article=`"der"` lv=`"rietumi"` pluralFormIndication=`""`
+- A2[1593] de=`"Wille"` de_article=`"der"` lv=`"griba"` pluralFormIndication=`""`
+- B1[90] de=`"Ackerbau"` de_article=`"der"` lv=`"zemkopība"` pluralFormIndication=`""`
+- B1[185] de=`"Aufschnitt"` de_article=`"der"` lv=`"aukstie uzgriežamie"` pluralFormIndication=`""`
+- B1[313] de=`"Beifall"` de_article=`"der"` lv=`"aplausi"` pluralFormIndication=`""`
+- B1[402] de=`"Beton"` de_article=`"der"` lv=`"betons"` pluralFormIndication=`""`
+- B1[559] de=`"Dank"` de_article=`"der"` lv=`"pateicība"` pluralFormIndication=`""`
+- B1[867] de=`"Fasching"` de_article=`"der"` lv=`"karnevāls"` pluralFormIndication=`""`
+- B1[982] de=`"Gartenbau"` de_article=`"der"` lv=`"dārzkopība"` pluralFormIndication=`""`
+- B1[1035] de=`"Gehorsam"` de_article=`"der"` lv=`"paklausība"` pluralFormIndication=`""`
+- B1[1116] de=`"Glanz"` de_article=`"der"` lv=`"spožums"` pluralFormIndication=`""`
+- B1[1175] de=`"Hagel"` de_article=`"der"` lv=`"krusa"` pluralFormIndication=`""`
+- B1[1427] de=`"Jubel"` de_article=`"der"` lv=`"gaviles"` pluralFormIndication=`""`
+- B1[1489] de=`"Kehricht"` de_article=`"der"` lv=`"gruži"` pluralFormIndication=`""`
+- B1[1568] de=`"Komfort"` de_article=`"der"` lv=`"komforts"` pluralFormIndication=`""`
+- B1[1592] de=`"Körperbau"` de_article=`"der"` lv=`"ķermeņa uzbūve"` pluralFormIndication=`""`
+- B1[1608] de=`"Kraftverkehr"` de_article=`"der"` lv=`"autosatiksme"` pluralFormIndication=`""`
+- B1[1773] de=`"Lidschatten"` de_article=`"der"` lv=`"plakstiņu ēnas"` pluralFormIndication=`""`
+- B1[1902] de=`"Mondschein"` de_article=`"der"` lv=`"mēnesnīca"` pluralFormIndication=`""`
+- B1[1916] de=`"Motorsport"` de_article=`"der"` lv=`"motosports"` pluralFormIndication=`""`
+- B1[1922] de=`"Hausmüll"` de_article=`"der"` lv=`"sadzīves atkritumi"` pluralFormIndication=`""`
+- B1[2190] de=`"Qualm"` de_article=`"der"` lv=`"dūmi"` pluralFormIndication=`""`
+- B1[2206] de=`"Radau"` de_article=`"der"` lv=`"troksnis"` pluralFormIndication=`""`
+- B1[2278] de=`"Reitsport"` de_article=`"der"` lv=`"jāšanas sports"` pluralFormIndication=`""`
+- B1[2352] de=`"Rudersport"` de_article=`"der"` lv=`"airēšanas sports"` pluralFormIndication=`""`
+- B1[2356] de=`"Ruhm"` de_article=`"der"` lv=`"slava"` pluralFormIndication=`""`
+- B1[2530] de=`"Schüttelfrost"` de_article=`"der"` lv=`"drudzis"` pluralFormIndication=`""`
+- B1[2552] de=`"Schwefel"` de_article=`"der"` lv=`"sērs"` pluralFormIndication=`""`
+- B1[2562] de=`"Schwimmsport"` de_article=`"der"` lv=`"peldēšanas sports"` pluralFormIndication=`""`
+- B1[2563] de=`"Schwindel"` de_article=`"der"` lv=`"reibonis"` pluralFormIndication=`""`
+- B1[2573] de=`"Seegang"` de_article=`"der"` lv=`"jūras viļņošanās"` pluralFormIndication=`""`
+- B1[2579] de=`"Segelsport"` de_article=`"der"` lv=`"burāšana"` pluralFormIndication=`""`
+- B1[2611] de=`"Sex"` de_article=`"der"` lv=`"sekss"` pluralFormIndication=`""`
+- B1[2675] de=`"Speichel"` de_article=`"der"` lv=`"siekalas"` pluralFormIndication=`""`
+- B1[2694] de=`"Sportfunk"` de_article=`"der"` lv=`"sporta raidījumi"` pluralFormIndication=`""`
+- B1[2856] de=`"Tau"` de_article=`"der"` lv=`"rasa"` pluralFormIndication=`""`
+- B1[2928] de=`"Trost"` de_article=`"der"` lv=`"mierinājums"` pluralFormIndication=`""`
+- B1[3017] de=`"Unsinn"` de_article=`"der"` lv=`"blēņas"` pluralFormIndication=`""`
+- B1[3115] de=`"Verstand"` de_article=`"der"` lv=`"prāts"` pluralFormIndication=`""`
+- B1[3239] de=`"Weltraum"` de_article=`"der"` lv=`"kosmoss"` pluralFormIndication=`""`
+- B1[3285] de=`"Zorn"` de_article=`"der"` lv=`"dusmas"` pluralFormIndication=`""`
+- B1[3304] de=`"Zutritt"` de_article=`"der"` lv=`"ieeja"` pluralFormIndication=`""`
+- B1[3361] de=`"Schaden"` de_article=`"der"` lv=`"zaudējums • bojājums"` pluralFormIndication=`""`
+- B1[3365] de=`"Trotz"` de_article=`"der"` lv=`"spīts • spītība"` pluralFormIndication=`""`
+- B2[12] de=`"Alkoholismus"` de_article=`"der"` lv=`"alkoholisms"` pluralFormIndication=`""`
+- B2[15] de=`"Anbau"` de_article=`"der"` lv=`"piebūve • audzēšana"` pluralFormIndication=`""`
+- B2[191] de=`"Bergbau"` de_article=`"der"` lv=`"kalnrūpniecība"` pluralFormIndication=`""`
+- B2[222] de=`"Betracht"` de_article=`"der"` lv=`"vērā ņemšana • apsvēršana"` pluralFormIndication=`""`
+- B2[251] de=`"Binnenhandel"` de_article=`"der"` lv=`"iekšējā tirdzniecība"` pluralFormIndication=`""`
+- B2[275] de=`"Blutalkohol"` de_article=`"der"` lv=`"alkohola daudzums asinīs"` pluralFormIndication=`""`
+- B2[463] de=`"Dünkel"` de_article=`"der"` lv=`"iedomība • uzpūtība • augstprātība"` pluralFormIndication=`""`
+- B2[598] de=`"Eisenbeton"` de_article=`"der"` lv=`"dzelzsbetons"` pluralFormIndication=`""`
+- B2[606] de=`"Ekel"` de_article=`"der"` lv=`"riebums • pretīgums"` pluralFormIndication=`""`
+- B2[743] de=`"Extremismus"` de_article=`"der"` lv=`"ekstrēmisms"` pluralFormIndication=`""`
+- B2[766] de=`"Faschismus"` de_article=`"der"` lv=`"fašisms"` pluralFormIndication=`""`
+- B2[796] de=`"Flaum"` de_article=`"der"` lv=`"dūna • pūka"` pluralFormIndication=`""`
+- B2[807] de=`"Flugverkehr"` de_article=`"der"` lv=`"gaisa satiksme"` pluralFormIndication=`""`
+- B2[843] de=`"Frust"` de_article=`"der"` lv=`"frustrācija"` pluralFormIndication=`""`
+- B2[919] de=`"Gemüsebau"` de_article=`"der"` lv=`"sakņkopība • dārzeņkopība"` pluralFormIndication=`""`
+- B2[987] de=`"Giftmüll"` de_article=`"der"` lv=`"indīgās atkritumvielas"` pluralFormIndication=`""`
+- B2[1019] de=`"Götzendienst"` de_article=`"der"` lv=`"kalpošana elkam"` pluralFormIndication=`""`
+- B2[1031] de=`"Grenzverkehr"` de_article=`"der"` lv=`"pierobežas satiksme"` pluralFormIndication=`""`
+- B2[1033] de=`"Grimm"` de_article=`"der"` lv=`"lielas dusmas • niknums • piktums"` pluralFormIndication=`""`
+- B2[1049] de=`"Güterversand"` de_article=`"der"` lv=`"preču nosūtīšana"` pluralFormIndication=`""`
+- B2[1073] de=`"Hausrat"` de_article=`"der"` lv=`"iedzīve"` pluralFormIndication=`""`
+- B2[1114] de=`"Heuschnupfen"` de_article=`"der"` lv=`"alerģiskas iesnas no putekšņiem"` pluralFormIndication=`""`
+- B2[1139] de=`"Hochmut"` de_article=`"der"` lv=`"augstprātība • uzpūtība"` pluralFormIndication=`""`
+- B2[1144] de=`"Hochverrat"` de_article=`"der"` lv=`"valsts nodevība"` pluralFormIndication=`""`
+- B2[1148] de=`"Hohn"` de_article=`"der"` lv=`"izsmiekls • apsmieklis"` pluralFormIndication=`""`
+- B2[1170] de=`"Kapitalismus"` de_article=`"der"` lv=`"kapitālisms"` pluralFormIndication=`""`
+- B2[1176] de=`"Keuchhusten"` de_article=`"der"` lv=`"garais klepus"` pluralFormIndication=`""`
+- B2[1188] de=`"Kommunismus"` de_article=`"der"` lv=`"komunisms"` pluralFormIndication=`""`
+- B2[1194] de=`"Konsum"` de_article=`"der"` lv=`"patēriņš"` pluralFormIndication=`""`
+- B2[1256] de=`"Lohnabbau"` de_article=`"der"` lv=`"darba algas pazeminājums"` pluralFormIndication=`""`
+- B2[1291] de=`"Marxismus"` de_article=`"der"` lv=`"marksisms"` pluralFormIndication=`""`
+- B2[1292] de=`"Maschinenbau"` de_article=`"der"` lv=`"mašīnbūvniecība"` pluralFormIndication=`""`
+- B2[1297] de=`"Materialismus"` de_article=`"der"` lv=`"materiālisms"` pluralFormIndication=`""`
+- B2[1340] de=`"Atommüll"` de_article=`"der"` lv=`"radioaktīvie atkritumi"` pluralFormIndication=`""`
+- B2[1399] de=`"Obstbau"` de_article=`"der"` lv=`"augļkopība"` pluralFormIndication=`""`
+- B2[1443] de=`"Pfahlbau"` de_article=`"der"` lv=`"pāļu būve"` pluralFormIndication=`""`
+- B2[1459] de=`"Porno"` de_article=`"der"` lv=`"pornogrāfiju saturošs darbs"` pluralFormIndication=`""`
+- B2[1478] de=`"Psychoterror"` de_article=`"der"` lv=`"psihoterors"` pluralFormIndication=`""`
+- B2[1497] de=`"Realismus"` de_article=`"der"` lv=`"reālisms"` pluralFormIndication=`""`
+- B2[1556] de=`"Schadenersatz"` de_article=`"der"` lv=`"materiāla kompensācija par zaudējumiem"` pluralFormIndication=`""`
+- B2[1578] de=`"Schiffbau"` de_article=`"der"` lv=`"kuģu būvniecība"` pluralFormIndication=`""`
+- B2[1596] de=`"Schmuggel"` de_article=`"der"` lv=`"kontrabanda"` pluralFormIndication=`""`
+- B2[1640] de=`"Separatismus"` de_article=`"der"` lv=`"separātisms"` pluralFormIndication=`""`
+- B2[1663] de=`"Sozialismus"` de_article=`"der"` lv=`"sociālisms"` pluralFormIndication=`""`
+- B2[1673] de=`"Spott"` de_article=`"der"` lv=`"izsmiekls • zobošanās • ļauns joks"` pluralFormIndication=`""`
+- B2[1704] de=`"Stoßverkehr"` de_article=`"der"` lv=`"sastrēgumstunda • pastiprināta satiksme noteiktā diennakts laikā"` pluralFormIndication=`""`
+- B2[1713] de=`"Striptease"` de_article=`"der"` lv=`"striptīzs"` pluralFormIndication=`""`
+- B2[1729] de=`"Terrorismus"` de_article=`"der"` lv=`"terorisms"` pluralFormIndication=`""`
+- B2[1733] de=`"Tiefsinn"` de_article=`"der"` lv=`"dziļdomīgums"` pluralFormIndication=`""`
+- B2[1765] de=`"Überfluss"` de_article=`"der"` lv=`"pārpilnība"` pluralFormIndication=`""`
+- B2[1784] de=`"Ultraschall"` de_article=`"der"` lv=`"ultraskaņa"` pluralFormIndication=`""`
+- B2[1840] de=`"Unterhalt"` de_article=`"der"` lv=`"apgādība • apgāde • apgādāšana"` pluralFormIndication=`""`
+- B2[1911] de=`"Verrat"` de_article=`"der"` lv=`"nodevība"` pluralFormIndication=`""`
+- B2[2045] de=`"Weinbau"` de_article=`"der"` lv=`"vīnkopība"` pluralFormIndication=`""`
+- B2[2072] de=`"Wiederaufbau"` de_article=`"der"` lv=`"atjaunošana • rekonstrukcija"` pluralFormIndication=`""`
+- C1[51] de=`"Büroangestellte"` de_article=`"der"` lv=`"biroja darbinieks"` pluralFormIndication=`""`
+- C1[276] de=`"Durchgangsverkehr"` de_article=`"der"` lv=`"tranzītsatiksme"` pluralFormIndication=`""`
+- C1[416] de=`"Leistungssport"` de_article=`"der"` lv=`"profesionālais sports"` pluralFormIndication=`""`
+- C1[420] de=`"Linksextremismus"` de_article=`"der"` lv=`"kreisais ekstrēmisms"` pluralFormIndication=`""`
+- C1[468] de=`"Segelflugsport"` de_article=`"der"` lv=`"planierisms"` pluralFormIndication=`""`
+- C1[550] de=`"Wehrersatzdienst"` de_article=`"der"` lv=`"civildienests karadienesta vietā"` pluralFormIndication=`""`
+- C2[44] de=`"Katastrophendienst"` de_article=`"der"` lv=`"katastrofu dienests"` pluralFormIndication=`""`
+- C2[145] de=`"Geschlechtsverkehr"` de_article=`"der"` lv=`"dzimumakts"` pluralFormIndication=`""`
+
+### de_article die
+
+Skaits: 194.
+
+- A1[120] de=`"Butter"` de_article=`"die"` lv=`"sviests"` pluralFormIndication=`""`
+- A1[160] de=`"Eltern"` de_article=`"die"` lv=`"vecāki"` pluralFormIndication=`""`
+- A1[234] de=`"Geschwister"` de_article=`"die"` lv=`"brāļi un māsas"` pluralFormIndication=`""`
+- A1[238] de=`"Gesundheit"` de_article=`"die"` lv=`"veselība"` pluralFormIndication=`"heit"`
+- A1[251] de=`"Großeltern"` de_article=`"die"` lv=`"vecvecāki"` pluralFormIndication=`""`
+- A1[306] de=`"Jeans"` de_article=`"die"` lv=`"džinsi"` pluralFormIndication=`""`
+- A1[338] de=`"Kleidung"` de_article=`"die"` lv=`"apģērbs"` pluralFormIndication=`"ung"`
+- A1[371] de=`"Leute"` de_article=`"die"` lv=`"ļaudis"` pluralFormIndication=`""`
+- A1[374] de=`"Liebe"` de_article=`"die"` lv=`"mīlestība"` pluralFormIndication=`""`
+- A1[405] de=`"Milch"` de_article=`"die"` lv=`"piens"` pluralFormIndication=`""`
+- A1[422] de=`"Musik"` de_article=`"die"` lv=`"mūzika"` pluralFormIndication=`""`
+- A1[432] de=`"Natur"` de_article=`"die"` lv=`"daba"` pluralFormIndication=`""`
+- A1[479] de=`"Polizei"` de_article=`"die"` lv=`"policija"` pluralFormIndication=`""`
+- A1[480] de=`"Post"` de_article=`"die"` lv=`"pasts"` pluralFormIndication=`""`
+- A1[520] de=`"Schokolade"` de_article=`"die"` lv=`"šokolāde"` pluralFormIndication=`""`
+- A1[694] de=`"Ferien"` de_article=`"die"` lv=`"brīvdienas (skola)"` pluralFormIndication=`""`
+- A2[22] de=`"Achtung"` de_article=`"die"` lv=`"cieņa • uzmanība"` pluralFormIndication=`"ung"`
+- A2[26] de=`"Aerobic"` de_article=`"die"` lv=`"aerobika"` pluralFormIndication=`""`
+- A2[34] de=`"Ameisen"` de_article=`"die"` lv=`"skudras"` pluralFormIndication=`""`
+- A2[153] de=`"Augentropfen"` de_article=`"die"` lv=`"acu pilieni"` pluralFormIndication=`""`
+- A2[282] de=`"Bratkartoffeln"` de_article=`"die"` lv=`"cepti kartupeļi"` pluralFormIndication=`""`
+- A2[308] de=`"Chemie"` de_article=`"die"` lv=`"ķīmija"` pluralFormIndication=`""`
+- A2[313] de=`"Cornflakes"` de_article=`"die"` lv=`"kukurūzas pārslas"` pluralFormIndication=`""`
+- A2[379] de=`"Eile"` de_article=`"die"` lv=`"steiga"` pluralFormIndication=`""`
+- A2[426] de=`"Erlaubnis"` de_article=`"die"` lv=`"atļauja"` pluralFormIndication=`""`
+- A2[586] de=`"Geschwister"` de_article=`"die"` lv=`"brāļi un māsas"` pluralFormIndication=`""`
+- A2[613] de=`"Gymnastik"` de_article=`"die"` lv=`"vingrošana"` pluralFormIndication=`""`
+- A2[619] de=`"Haferflocken"` de_article=`"die"` lv=`"auzu pārslas"` pluralFormIndication=`""`
+- A2[691] de=`"Hundehaare"` de_article=`"die"` lv=`"suņa spalva"` pluralFormIndication=`""`
+- A2[739] de=`"Jugend"` de_article=`"die"` lv=`"jaunatne"` pluralFormIndication=`""`
+- A2[753] de=`"Kälte"` de_article=`"die"` lv=`"aukstums"` pluralFormIndication=`""`
+- A2[811] de=`"Kleidung"` de_article=`"die"` lv=`"apģērbs"` pluralFormIndication=`"ung"`
+- A2[832] de=`"Kopfschmerzen"` de_article=`"die"` lv=`"galvassāpes"` pluralFormIndication=`""`
+- A2[862] de=`"Langeweile"` de_article=`"die"` lv=`"garlaicība"` pluralFormIndication=`""`
+- A2[905] de=`"Lust"` de_article=`"die"` lv=`"vēlēšanās"` pluralFormIndication=`""`
+- A2[920] de=`"Mathematik"` de_article=`"die"` lv=`"matemātika"` pluralFormIndication=`""`
+- A2[925] de=`"Medizin"` de_article=`"die"` lv=`"medicīna"` pluralFormIndication=`""`
+- A2[991] de=`"Nähe"` de_article=`"die"` lv=`"tuvums"` pluralFormIndication=`""`
+- A2[994] de=`"Nahrung"` de_article=`"die"` lv=`"pārtika"` pluralFormIndication=`"ung"`
+- A2[1025] de=`"Nudeln"` de_article=`"die"` lv=`"nūdeles"` pluralFormIndication=`""`
+- A2[1082] de=`"Physik"` de_article=`"die"` lv=`"fizika"` pluralFormIndication=`""`
+- A2[1135] de=`"Rechte"` de_article=`"die"` lv=`"labā roka"` pluralFormIndication=`""`
+- A2[1179] de=`"Ruhe"` de_article=`"die"` lv=`"miers"` pluralFormIndication=`""`
+- A2[1187] de=`"Sahne"` de_article=`"die"` lv=`"krējums"` pluralFormIndication=`""`
+- A2[1197] de=`"saure Sahne"` de_article=`"die"` lv=`"skābs krējums"` pluralFormIndication=`""`
+- A2[1286] de=`"Shorts"` de_article=`"die"` lv=`"šorti"` pluralFormIndication=`""`
+- A2[1558] de=`"Wärme"` de_article=`"die"` lv=`"siltums"` pluralFormIndication=`""`
+- A2[1561] de=`"Wäsche"` de_article=`"die"` lv=`"veļa"` pluralFormIndication=`""`
+- A2[1579] de=`"Werbung"` de_article=`"die"` lv=`"reklāma"` pluralFormIndication=`"ung"`
+- B1[165] de=`"Arbeitslosigkeit"` de_article=`"die"` lv=`"bezdarbs"` pluralFormIndication=`"keit"`
+- B1[169] de=`"Armut"` de_article=`"die"` lv=`"nabadzība"` pluralFormIndication=`""`
+- B1[227] de=`"Autoabgase"` de_article=`"die"` lv=`"izpūtēja gāzes"` pluralFormIndication=`""`
+- B1[247] de=`"Baukosten"` de_article=`"die"` lv=`"būvizmaksas"` pluralFormIndication=`""`
+- B1[652] de=`"Eifersucht"` de_article=`"die"` lv=`"greizsirdība"` pluralFormIndication=`""`
+- B1[735] de=`"Elektrizität"` de_article=`"die"` lv=`"elektrība"` pluralFormIndication=`""`
+- B1[882] de=`"Feinwäsche"` de_article=`"die"` lv=`"smalkveļa"` pluralFormIndication=`""`
+- B1[954] de=`"Frische"` de_article=`"die"` lv=`"svaigums"` pluralFormIndication=`""`
+- B1[968] de=`"Furcht"` de_article=`"die"` lv=`"bailes"` pluralFormIndication=`""`
+- B1[977] de=`"Gänsehaut"` de_article=`"die"` lv=`"zosāda"` pluralFormIndication=`""`
+- B1[1009] de=`"Geduld"` de_article=`"die"` lv=`"pacietība"` pluralFormIndication=`""`
+- B1[1024] de=`"Gegenwart"` de_article=`"die"` lv=`"tagadne"` pluralFormIndication=`""`
+- B1[1066] de=`"Geologie"` de_article=`"die"` lv=`"ģeoloģija"` pluralFormIndication=`""`
+- B1[1294] de=`"Höhenangst"` de_article=`"die"` lv=`"bailes no augstuma"` pluralFormIndication=`""`
+- B1[1334] de=`"Hygiene"` de_article=`"die"` lv=`"higiēna"` pluralFormIndication=`""`
+- B1[1403] de=`"Jagdbeute"` de_article=`"die"` lv=`"medījums"` pluralFormIndication=`""`
+- B1[1600] de=`"Kost"` de_article=`"die"` lv=`"uzturs"` pluralFormIndication=`""`
+- B1[1601] de=`"Rohkost"` de_article=`"die"` lv=`"neapstrādāta pārtika"` pluralFormIndication=`""`
+- B1[1602] de=`"Schonkost"` de_article=`"die"` lv=`"diētisks uzturs"` pluralFormIndication=`""`
+- B1[1661] de=`"Kunde"` de_article=`"die"` lv=`"vēsts"` pluralFormIndication=`""`
+- B1[1682] de=`"Kürze"` de_article=`"die"` lv=`"īsums"` pluralFormIndication=`""`
+- B1[1783] de=`"Linke"` de_article=`"die"` lv=`"kreisā roka"` pluralFormIndication=`""`
+- B1[1816] de=`"Magie"` de_article=`"die"` lv=`"maģija"` pluralFormIndication=`""`
+- B1[1841] de=`"Masern"` de_article=`"die"` lv=`"masalas"` pluralFormIndication=`""`
+- B1[1909] de=`"Morgenpost"` de_article=`"die"` lv=`"rīta pasts"` pluralFormIndication=`""`
+- B1[1966] de=`"Nebenkosten"` de_article=`"die"` lv=`"papildu izmaksas"` pluralFormIndication=`""`
+- B1[2023] de=`"Ökologie"` de_article=`"die"` lv=`"ekoloģija"` pluralFormIndication=`""`
+- B1[2097] de=`"Pflege"` de_article=`"die"` lv=`"kopšana"` pluralFormIndication=`""`
+- B1[2202] de=`"Rache"` de_article=`"die"` lv=`"atriebība"` pluralFormIndication=`""`
+- B1[2274] de=`"Reisespesen"` de_article=`"die"` lv=`"ceļojuma izdevumi"` pluralFormIndication=`""`
+- B1[2302] de=`"Reue"` de_article=`"die"` lv=`"nožēla"` pluralFormIndication=`""`
+- B1[2343] de=`"Rückkehr"` de_article=`"die"` lv=`"atgriešanās"` pluralFormIndication=`""`
+- B1[2408] de=`"Scham"` de_article=`"die"` lv=`"kauns"` pluralFormIndication=`""`
+- B1[2409] de=`"Schande"` de_article=`"die"` lv=`"negods"` pluralFormIndication=`""`
+- B1[2633] de=`"Sitten"` de_article=`"die"` lv=`"paražas"` pluralFormIndication=`""`
+- B1[2761] de=`"Stille"` de_article=`"die"` lv=`"klusums"` pluralFormIndication=`""`
+- B1[2802] de=`"Strickwaren"` de_article=`"die"` lv=`"adījumi"` pluralFormIndication=`""`
+- B1[2884] de=`"Textilwaren"` de_article=`"die"` lv=`"tekstilpreces"` pluralFormIndication=`""`
+- B1[2907] de=`"Trauer"` de_article=`"die"` lv=`"sēras"` pluralFormIndication=`""`
+- B1[2918] de=`"Treue"` de_article=`"die"` lv=`"uzticība"` pluralFormIndication=`""`
+- B1[2926] de=`"Tropen"` de_article=`"die"` lv=`"ģeogr. tropi"` pluralFormIndication=`""`
+- B1[2932] de=`"Trümmer"` de_article=`"die"` lv=`"drupas"` pluralFormIndication=`""`
+- B1[2959] de=`"Überstunden"` de_article=`"die"` lv=`"virsstundas"` pluralFormIndication=`""`
+- B1[2999] de=`"Ungeduld"` de_article=`"die"` lv=`"nepacietība"` pluralFormIndication=`""`
+- B1[3080] de=`"Vernunft"` de_article=`"die"` lv=`"saprāts"` pluralFormIndication=`""`
+- B1[3167] de=`"Vorsicht"` de_article=`"die"` lv=`"piesardzība"` pluralFormIndication=`""`
+- B1[3226] de=`"Weile"` de_article=`"die"` lv=`"brīdis"` pluralFormIndication=`""`
+- B2[39] de=`"Abenteuerlust"` de_article=`"die"` lv=`"dēku kāre"` pluralFormIndication=`""`
+- B2[78] de=`"Abzweigung"` de_article=`"die"` lv=`"nozarojums • atzarojums"` pluralFormIndication=`"ung"`
+- B2[85] de=`"Anmut"` de_article=`"die"` lv=`"pievilcība • daiļums • grācija"` pluralFormIndication=`""`
+- B2[94] de=`"Atomenergie"` de_article=`"die"` lv=`"atomenerģija"` pluralFormIndication=`""`
+- B2[227] de=`"Beute"` de_article=`"die"` lv=`"laupījums • guvums • trofeja"` pluralFormIndication=`""`
+- B2[273] de=`"Blumenzucht"` de_article=`"die"` lv=`"puķkopība"` pluralFormIndication=`""`
+- B2[277] de=`"Blutarmut"` de_article=`"die"` lv=`"mazasinība"` pluralFormIndication=`""`
+- B2[281] de=`"Bodenschätze"` de_article=`"die"` lv=`"derīgie izrakteņi"` pluralFormIndication=`""`
+- B2[316] de=`"Bundeswehr"` de_article=`"die"` lv=`"Vācijas bruņotie spēki"` pluralFormIndication=`""`
+- B2[329] de=`"Cholera"` de_article=`"die"` lv=`"holera"` pluralFormIndication=`""`
+- B2[384] de=`"Devisen"` de_article=`"die"` lv=`"maksāšanas līdzekļi ārzemju valūtā"` pluralFormIndication=`""`
+- B2[392] de=`"Diätkost"` de_article=`"die"` lv=`"diētiskais uzturs"` pluralFormIndication=`""`
+- B2[436] de=`"Dreharbeiten"` de_article=`"die"` lv=`"filmēšana"` pluralFormIndication=`""`
+- B2[475] de=`"Durchfuhr"` de_article=`"die"` lv=`"caurbraukšana • tranzīts"` pluralFormIndication=`""`
+- B2[509] de=`"Ehrenpflicht"` de_article=`"die"` lv=`"goda pienākums"` pluralFormIndication=`""`
+- B2[525] de=`"Eigenliebe"` de_article=`"die"` lv=`"patmīlība • egoisms"` pluralFormIndication=`""`
+- B2[555] de=`"Eingeweide"` de_article=`"die"` lv=`"iekšas • iekšējie orgāni"` pluralFormIndication=`""`
+- B2[587] de=`"Eintracht"` de_article=`"die"` lv=`"vienprātība • saskaņa • saticība • saderība"` pluralFormIndication=`""`
+- B2[753] de=`"Fahrerflucht"` de_article=`"die"` lv=`"aizbraukšana no negadījuma vietas"` pluralFormIndication=`""`
+- B2[784] de=`"Festspiele"` de_article=`"die"` lv=`"festivāls"` pluralFormIndication=`""`
+- B2[788] de=`"Filmfestspiele"` de_article=`"die"` lv=`"kino festivāls"` pluralFormIndication=`""`
+- B2[835] de=`"Fremde"` de_article=`"die"` lv=`"svešums • svešatne"` pluralFormIndication=`""`
+- B2[847] de=`"Führernatur"` de_article=`"die"` lv=`"līdera tips • līderis"` pluralFormIndication=`""`
+- B2[970] de=`"Gewähr"` de_article=`"die"` lv=`"drošība • galvojums • garantija"` pluralFormIndication=`""`
+- B2[981] de=`"Gezeiten"` de_article=`"die"` lv=`"plūdmaiņas"` pluralFormIndication=`""`
+- B2[992] de=`"Glasfiber"` de_article=`"die"` lv=`"stikla šķiedra"` pluralFormIndication=`""`
+- B2[1036] de=`"Großmut"` de_article=`"die"` lv=`"augstsirdība"` pluralFormIndication=`""`
+- B2[1043] de=`"Gunst"` de_article=`"die"` lv=`"labvēlība"` pluralFormIndication=`""`
+- B2[1048] de=`"Güte"` de_article=`"die"` lv=`"labsirdība • kvalitāte • labums"` pluralFormIndication=`""`
+- B2[1081] de=`"Heilkunde"` de_article=`"die"` lv=`"ārstniecība • medicīna"` pluralFormIndication=`""`
+- B2[1086] de=`"Heimkehr"` de_article=`"die"` lv=`"atgriešanās mājās • dzimtenē"` pluralFormIndication=`""`
+- B2[1155] de=`"Immobilien"` de_article=`"die"` lv=`"nekustamais īpašums"` pluralFormIndication=`""`
+- B2[1175] de=`"Kaufkraft"` de_article=`"die"` lv=`"naudas • arī personas pirktspēja"` pluralFormIndication=`""`
+- B2[1195] de=`"Konsumgüter"` de_article=`"die"` lv=`"patēriņa preces"` pluralFormIndication=`""`
+- B2[1206] de=`"Laienkunst"` de_article=`"die"` lv=`"mākslinieciskā pašdarbība"` pluralFormIndication=`""`
+- B2[1210] de=`"Länderkunde"` de_article=`"die"` lv=`"reģionālā ģeogrāfija"` pluralFormIndication=`""`
+- B2[1262] de=`"Luftabwehr"` de_article=`"die"` lv=`"pretgaisa aizsardzība"` pluralFormIndication=`""`
+- B2[1266] de=`"Luftfahrt"` de_article=`"die"` lv=`"aviācija"` pluralFormIndication=`""`
+- B2[1268] de=`"Luftpost"` de_article=`"die"` lv=`"gaisa pasts"` pluralFormIndication=`""`
+- B2[1273] de=`"Machtgier"` de_article=`"die"` lv=`"varaskāre"` pluralFormIndication=`""`
+- B2[1295] de=`"Massenware"` de_article=`"die"` lv=`"plaša patēriņa prece"` pluralFormIndication=`""`
+- B2[1311] de=`"Miederwaren"` de_article=`"die"` lv=`"korsetes • krūšturi"` pluralFormIndication=`""`
+- B2[1343] de=`"Muße"` de_article=`"die"` lv=`"brīvs laiks • vaļas brīdis"` pluralFormIndication=`""`
+- B2[1355] de=`"Nachsicht"` de_article=`"die"` lv=`"iecietība • sapratne"` pluralFormIndication=`""`
+- B2[1366] de=`"Naturgewalten"` de_article=`"die"` lv=`"dabas spēki"` pluralFormIndication=`""`
+- B2[1384] de=`"Niedertracht"` de_article=`"die"` lv=`"zemiskums"` pluralFormIndication=`""`
+- B2[1390] de=`"Notwehr"` de_article=`"die"` lv=`"nepieciešamā aizsargāšanās"` pluralFormIndication=`""`
+- B2[1393] de=`"Oberhand"` de_article=`"die"` lv=`"virsroka"` pluralFormIndication=`""`
+- B2[1396] de=`"Obhut"` de_article=`"die"` lv=`"aizsardzība"` pluralFormIndication=`""`
+- B2[1407] de=`"Ölpest"` de_article=`"die"` lv=`"ūdens un piekrastes piesārņojums ar naftu"` pluralFormIndication=`""`
+- B2[1420] de=`"Ortszeit"` de_article=`"die"` lv=`"vietējais laiks"` pluralFormIndication=`""`
+- B2[1473] de=`"Propaganda"` de_article=`"die"` lv=`"propaganda"` pluralFormIndication=`""`
+- B2[1488] de=`"Radioaktivität"` de_article=`"die"` lv=`"radioaktivitāte"` pluralFormIndication=`""`
+- B2[1494] de=`"Rauchwaren"` de_article=`"die"` lv=`"kažokādas • kažokādu izstrādājumi"` pluralFormIndication=`""`
+- B2[1590] de=`"Schmach"` de_article=`"die"` lv=`"kauns • negods"` pluralFormIndication=`""`
+- B2[1624] de=`"Seenot"` de_article=`"die"` lv=`"avārijas situācija uz jūras"` pluralFormIndication=`""`
+- B2[1628] de=`"Sehkraft"` de_article=`"die"` lv=`"redze • redzes spēja"` pluralFormIndication=`""`
+- B2[1629] de=`"Naturseide"` de_article=`"die"` lv=`"dabiskais zīds"` pluralFormIndication=`""`
+- B2[1632] de=`"Selbstkosten"` de_article=`"die"` lv=`"pašizmaksa"` pluralFormIndication=`""`
+- B2[1661] de=`"Sorgepflicht"` de_article=`"die"` lv=`"pienākums rūpēties"` pluralFormIndication=`""`
+- B2[1701] de=`"Steuergelder"` de_article=`"die"` lv=`"visa nauda, ko valsts saņem nodokļos"` pluralFormIndication=`""`
+- B2[1709] de=`"Streitkräfte"` de_article=`"die"` lv=`"valsts visas militārās organizācijas un militārie spēki"` pluralFormIndication=`""`
+- B2[1727] de=`"Tatkraft"` de_article=`"die"` lv=`"enerģija • spars"` pluralFormIndication=`""`
+- B2[1734] de=`"Tollwut"` de_article=`"die"` lv=`"trakumsērga"` pluralFormIndication=`""`
+- B2[1752] de=`"Triebkraft"` de_article=`"die"` lv=`"dzinējspēks"` pluralFormIndication=`""`
+- B2[1801] de=`"Umsicht"` de_article=`"die"` lv=`"piesardzība • apdomība"` pluralFormIndication=`""`
+- B2[1831] de=`"Unkosten"` de_article=`"die"` lv=`"izdevumi"` pluralFormIndication=`""`
+- B2[1974] de=`"Vielfalt"` de_article=`"die"` lv=`"daudzveidība"` pluralFormIndication=`""`
+- B2[2043] de=`"Wehrpflicht"` de_article=`"die"` lv=`"karaklausība"` pluralFormIndication=`""`
+- B2[2051] de=`"Weltraumfahrt"` de_article=`"die"` lv=`"kosmiskais lidojums"` pluralFormIndication=`""`
+- B2[2075] de=`"Willkür"` de_article=`"die"` lv=`"patvaļa"` pluralFormIndication=`""`
+- B2[2085] de=`"Zuflucht"` de_article=`"die"` lv=`"patvērums"` pluralFormIndication=`""`
+- C1[81] de=`"Hausangestellte"` de_article=`"die"` lv=`"mājkalpotāja"` pluralFormIndication=`""`
+- C1[107] de=`"Menschenrechte"` de_article=`"die"` lv=`"cilvēktiesības"` pluralFormIndication=`""`
+- C1[132] de=`"Reparaturkosten"` de_article=`"die"` lv=`"remonta izmaksas"` pluralFormIndication=`""`
+- C1[143] de=`"Schwiegereltern"` de_article=`"die"` lv=`"vīra vecāki"` pluralFormIndication=`""`
+- C1[155] de=`"Tagesnachrichten"` de_article=`"die"` lv=`"dienas ziņas"` pluralFormIndication=`""`
+- C1[236] de=`"Betriebskosten"` de_article=`"die"` lv=`"uzņēmuma ekspluatācijas izdevumi • ražošanas izdevumi"` pluralFormIndication=`""`
+- C1[244] de=`"Bildhauerkunst"` de_article=`"die"` lv=`"tēlniecība"` pluralFormIndication=`""`
+- C1[270] de=`"Diplomatie"` de_article=`"die"` lv=`"diplomātija"` pluralFormIndication=`""`
+- C1[306] de=`"Erntearbeiten"` de_article=`"die"` lv=`"ražas novākšanas darbi"` pluralFormIndication=`""`
+- C1[315] de=`"Fortbildungskurse"` de_article=`"die"` lv=`"kvalifikācijas paaugstināšanas kursi"` pluralFormIndication=`""`
+- C1[323] de=`"soziale Fürsorge"` de_article=`"die"` lv=`"sociālā apgāde"` pluralFormIndication=`""`
+- C1[325] de=`"Gebrauchtwaren"` de_article=`"die"` lv=`"lietotas mantas"` pluralFormIndication=`""`
+- C1[368] de=`"Gewissensbisse"` de_article=`"die"` lv=`"sirdsapziņas pārmetumi"` pluralFormIndication=`""`
+- C1[376] de=`"Haft"` de_article=`"die"` lv=`"apcietinājums • arests"` pluralFormIndication=`""`
+- C1[393] de=`"Industrieabgase"` de_article=`"die"` lv=`"rūpnieciskās izplūdes gāzes"` pluralFormIndication=`""`
+- C1[394] de=`"Industrieabwässer"` de_article=`"die"` lv=`"rūpnieciskie notekūdeņi"` pluralFormIndication=`""`
+- C1[401] de=`"Justiz"` de_article=`"die"` lv=`"justīcija • tieslietas"` pluralFormIndication=`""`
+- C1[446] de=`"Produktionskosten"` de_article=`"die"` lv=`"ražošanas pašizmaksa"` pluralFormIndication=`""`
+- C1[451] de=`"Rechenschaft"` de_article=`"die"` lv=`"atskaite (par savu rīcību) • atbildība"` pluralFormIndication=`"schaft"`
+- C1[483] de=`"Steuereinnahmen"` de_article=`"die"` lv=`"nodokļu ieņēmumi"` pluralFormIndication=`""`
+- C1[487] de=`"Tageseinnahmen"` de_article=`"die"` lv=`"dienas ieņēmumi"` pluralFormIndication=`""`
+- C1[546] de=`"Wasserheilanstalt"` de_article=`"die"` lv=`"ūdensdziedniecības iestāde"` pluralFormIndication=`""`
+- C2[7] de=`"Sorgfaltspflicht"` de_article=`"die"` lv=`"rūpības pienākums"` pluralFormIndication=`""`
+- C2[28] de=`"Elementarkenntnisse"` de_article=`"die"` lv=`"pamatzināšanas"` pluralFormIndication=`""`
+- C2[131] de=`"Geistesgegenwart"` de_article=`"die"` lv=`"attapība"` pluralFormIndication=`""`
+- C2[185] de=`"politische Ökonomie"` de_article=`"die"` lv=`"politiskā ekonomija"` pluralFormIndication=`""`
+
 ## STAGE RESULT
 
 STAGE RESULT: PARTIAL
 
-PASS ir iespējams tikai tad, ja abas kārtas ir izpildītas un nav FINDING vai NEEDS_SOURCE_REVIEW.
+PASS netiek piešķirts. Avota kārta bez avota faila ir NOT_RUN, un kopējais verdikts paliek PARTIAL.

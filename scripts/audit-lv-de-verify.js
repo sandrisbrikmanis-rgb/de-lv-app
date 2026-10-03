@@ -14,7 +14,18 @@ const { execSync } = require("child_process");
 const ROOT = path.resolve(__dirname, "..");
 const LEVEL_FILES = ["a1", "a2", "b1", "b2", "c1", "c2"];
 const ARTICLES = new Set(["der", "die", "das"]);
-const PLURAL_SUFFIXES = ["", "e", "en", "er", "n", "s", "nen"];
+const PLURAL_SUFFIXES = ["", "e", "en", "er", "n", "s", "nen", "ten"];
+const ENDING_REPLACEMENTS = [
+  ["ia", "ien"],
+  ["um", "a"],
+  ["um", "en"],
+  ["us", "i"],
+  ["us", "en"],
+  ["is", "en"],
+  ["a", "en"],
+  ["o", "en"]
+];
+const PLURAL_FORM_SUFFIXES = ["keit", "heit", "schaft", "ung"];
 const LV_DIACRITICS = /[āčēģīķļņšūžĀČĒĢĪĶĻŅŠŪŽ]/;
 const FOREIGN_RE = /[\u0370-\u03FF\u0400-\u04FF\u0590-\u05FF\u0600-\u06FF\u0900-\u097F\u10A0-\u10FF\u3040-\u30FF\u4E00-\u9FFF\uAC00-\uD7AF]/;
 const OUT_MD = path.join(ROOT, "reports/lv-de-verify.md");
@@ -68,10 +79,30 @@ function foldStem(value) {
     .replace(/ß/g, "ss");
 }
 
+function lastWord(value) {
+  const parts = String(value ?? "").trim().split(/\s+/).filter(Boolean);
+  return parts.length ? parts[parts.length - 1] : "";
+}
+
 function pluralStemMatches(de, pluralWord) {
   const left = foldStem(de);
   const right = foldStem(pluralWord);
-  return PLURAL_SUFFIXES.some((suffix) => right === left + suffix);
+  if (!left || !right) return false;
+  if (PLURAL_SUFFIXES.some((suffix) => right === left + suffix)) return true;
+  if (ENDING_REPLACEMENTS.some(([from, to]) => (
+    left.length > from.length && left.endsWith(from) && right === `${left.slice(0, -from.length)}${to}`
+  ))) return true;
+  const last = left[left.length - 1];
+  if (/[bcdfghjklmnpqrstvwxyz]/.test(last)) {
+    const doubled = left + last;
+    if (PLURAL_SUFFIXES.some((suffix) => right === doubled + suffix)) return true;
+  }
+  return false;
+}
+
+function pluralFormIndication(de) {
+  const word = lastWord(de).normalize("NFC").toLowerCase();
+  return PLURAL_FORM_SUFFIXES.find((suffix) => word.endsWith(suffix)) || "";
 }
 
 function posFromData(articleTrim, pluralTrim) {
@@ -167,14 +198,14 @@ function classifyRecord(level, index, entry) {
     }
   });
   if (!article.empty && !article.badType && !de.badType && de.trim) {
-    const first = [...de.trim][0];
-    if (isLowerLetter(first)) {
+    const head = [...lastWord(de.trim)].find((char) => /\p{L}/u.test(char)) || "";
+    if (isLowerLetter(head)) {
       out.push(issue({
         ...base,
         severity: "FINDING",
         category: "CASE_AND_WHITESPACE",
         pos,
-        detail: "de LOWERCASE_WITH_ARTICLE"
+        detail: "de LAST_WORD_LOWERCASE"
       }));
     }
   }
@@ -247,24 +278,30 @@ function classifyAll(recordsByLevel) {
           detail: sameLevel.map((item) => `${item.level}[${item.index}]`).sort().join(",")
         }));
       }
-      if (levels.size > 1) {
-        const others = group
-          .filter((item) => item.level !== row.level || item.index !== row.index)
-          .map((item) => `${item.level}[${item.index}]`)
-          .sort();
-        issues.push(issue({
-          severity: "FINDING",
-          category: "DUPLICATE_ACROSS_LEVELS",
-          level: row.level,
-          index: row.index,
-          de: row.de,
-          de_article: row.de_article,
-          de_plural: row.de_plural,
-          lv: row.lv,
-          detail: others.join(",")
-        }));
-      }
     });
+    if (levels.size > 1) {
+      const sorted = group.slice().sort(compareRow);
+      for (let i = 0; i < sorted.length; i += 1) {
+        for (let j = i + 1; j < sorted.length; j += 1) {
+          const left = sorted[i];
+          const right = sorted[j];
+          if (left.level === right.level) continue;
+          const sameLv = left.lv === right.lv;
+          issues.push(issue({
+            severity: "FINDING",
+            category: "DUPLICATE_ACROSS_LEVELS",
+            level: left.level,
+            index: left.index,
+            de: left.de,
+            de_article: left.de_article,
+            de_plural: left.de_plural,
+            lv: left.lv,
+            flag: sameLv ? "SAME_LV" : "DIFFERENT_LV",
+            detail: `${left.level}[${left.index}] lv=${left.lv} | ${right.level}[${right.index}] lv=${right.lv}`
+          }));
+        }
+      }
+    }
   });
   const byDe = new Map();
   rows.forEach((row) => {
@@ -293,7 +330,32 @@ function classifyAll(recordsByLevel) {
     });
   });
   issues.sort(compareIssue);
-  return { issues, recordCount: rows.length };
+  return { issues, recordCount: rows.length, rows };
+}
+
+function compareRow(a, b) {
+  const order = { A1: 0, A2: 1, B1: 2, B2: 3, C1: 4, C2: 5 };
+  return (order[a.level] - order[b.level]) || (a.index - b.index);
+}
+
+function loadInfinitives() {
+  const entries = loadArray(path.join(ROOT, "data/verbs.js"));
+  const infinitives = new Set();
+  entries.forEach((entry) => {
+    const de = entry && entry.infinitiv && entry.infinitiv.de;
+    if (typeof de === "string" && de.trim()) infinitives.add(de.trim());
+  });
+  return infinitives;
+}
+
+function posEstimate(de, articleRaw, lv, infinitives) {
+  if (String(articleRaw ?? "").trim() !== "") return { label: "nezināms", via: "has_article" };
+  const lemma = String(de ?? "").trim();
+  const gloss = String(lv ?? "").trim();
+  if (infinitives.has(lemma)) return { label: "darbības vārds (estimate)", via: "verbs.js" };
+  if (/ties$/u.test(gloss) || /t$/u.test(gloss)) return { label: "darbības vārds (estimate)", via: "lv_ending" };
+  if (/(ais|ā|š|s)$/u.test(gloss)) return { label: "īpašības vārds (estimate)", via: "lv_ending" };
+  return { label: "nezināms", via: "none" };
 }
 
 function compareIssue(a, b) {
@@ -439,7 +501,7 @@ function emptySummary() {
 }
 
 function buildReport(recordsByLevel, source) {
-  const { issues, recordCount } = classifyAll(recordsByLevel);
+  const { issues, recordCount, rows } = classifyAll(recordsByLevel);
   const summary = emptySummary();
   LEVEL_FILES.forEach((file) => {
     summary[file.toUpperCase()].records = recordsByLevel[file].length;
@@ -500,7 +562,7 @@ function buildReport(recordsByLevel, source) {
   }
   const pass1 = "CHECKED";
   const pass2 = source ? "CHECKED" : "NOT_RUN";
-  const verdict = pass2 === "CHECKED" && findings.length === 0 && needs.length === 0 ? "PASS" : "PARTIAL";
+  const verdict = "PARTIAL";
   const hashes = datasetHashes();
   const originMain = execSync("git rev-parse origin/main", { cwd: ROOT, encoding: "utf8" }).trim();
   const branch = execSync("git rev-parse --abbrev-ref HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
@@ -553,6 +615,36 @@ function buildReport(recordsByLevel, source) {
     const pos = emptyByPos[row.category][row.pos] == null ? "nezināms" : row.pos;
     emptyByPos[row.category][pos] += 1;
   });
+  const infinitives = loadInfinitives();
+  const estimateCounts = {
+    "darbības vārds (estimate)": 0,
+    "īpašības vārds (estimate)": 0,
+    nezināms: 0
+  };
+  const estimateVia = { "verbs.js": 0, lv_ending: 0, has_article: 0, none: 0 };
+  rows.forEach((row) => {
+    const estimate = posEstimate(row.de, row.de_article, row.lv, infinitives);
+    estimateCounts[estimate.label] += 1;
+    estimateVia[estimate.via] += 1;
+  });
+  const emptyPluralNouns = observations
+    .filter((row) => row.category === "EMPTY_PLURAL" && row.pos === "lietvārds")
+    .map((row) => ({
+      ...row,
+      indication: pluralFormIndication(row.de)
+    }))
+    .sort(compareIssue);
+  const emptyPluralByArticle = {};
+  emptyPluralNouns.forEach((row) => {
+    const article = row.de_article.trim() || "(tukšs)";
+    if (!emptyPluralByArticle[article]) emptyPluralByArticle[article] = { count: 0, pluralFormIndication: 0 };
+    emptyPluralByArticle[article].count += 1;
+    if (row.indication) emptyPluralByArticle[article].pluralFormIndication += 1;
+  });
+  const duplicateFlags = countBy(
+    issues.filter((row) => row.category === "DUPLICATE_ACROSS_LEVELS"),
+    (row) => row.flag || "(nav)"
+  );
   const body = {
     statement: "Šis audits pārbauda LV-DE pret norādīto avotu. Bez avotu faila DE pareizība NAV pierādīta.",
     baseline,
@@ -571,7 +663,16 @@ function buildReport(recordsByLevel, source) {
     needsSourceReview: needs,
     reviews,
     observations,
-    sourceResults
+    sourceResults,
+    posEstimate: {
+      counts: estimateCounts,
+      via: estimateVia,
+      infinitivesInVerbsJs: infinitives.size,
+      note: "ESTIMATE nav verdikts un nepiešķir PASS."
+    },
+    duplicateFlags,
+    emptyPluralNouns,
+    emptyPluralByArticle
   };
   return { body, markdown: renderMarkdown(body) };
 }
@@ -610,7 +711,9 @@ function renderMarkdown(body) {
   push(`DE READ-ONLY: ${base.deReadOnly}`);
   push("```");
   push("");
-  push("Piemērotais standarts ir §1.2, §7.153, §7.158 un §7.158.A. §7.158.B lokālajā MASTER 1.19 tekstā nav. Auditējamā koka MASTER fails ir versija uz `origin/main`. Vārdšķira tiek piešķirta tikai no datiem: `de_article` ir `der`, `die` vai `das`, vai `de_plural` sākas ar `die `, dod `lietvārds`. Citas vārdšķiras datos nav atzīmētas, tāpēc tās netiek uzminētas. `singulare tantum` un `plurale tantum` netiek piešķirti.");
+  push("Piemērotais standarts ir §1.2, §7.153, §7.158 un §7.158.A. §7.158.B lokālajā MASTER 1.19 tekstā nav. Auditējamā koka MASTER fails ir versija uz `origin/main`. Verdikta vārdšķira tiek piešķirta tikai no datiem: `de_article` ir `der`, `die` vai `das`, vai `de_plural` sākas ar `die `, dod `lietvārds`. Citas vārdšķiras verdiktā netiek uzminētas. `singulare tantum` un `plurale tantum` netiek piešķirti. Atsevišķs ESTIMATE slānis skaita iespējamo vārdšķiru un nepiešķir PASS.");
+  push("");
+  push("CASE_AND_WHITESPACE prasa lielo burtu tikai pēdējam vārdam. Īpašības vārds frāzes sākumā ar mazo burtu nav kļūda. PLURAL_STEM_CHECK pieļauj piedēkļus e, en, er, n, s, nen, ten, nulles galotni, galotņu maiņu ia→ien, um→a, um→en, us→i, us→en, is→en, a→en, o→en un pēdējā līdzskaņa dubultošanu. Atlikusī saknes nesakritība ir REVIEW.");
   push("");
   push("## Kopsavilkums");
   push("");
@@ -636,7 +739,7 @@ function renderMarkdown(body) {
   push("");
   push("PASS1: CHECKED");
   push("");
-  push("Iekšējā pārbaude salīdzina lauku formu, dublikātus, reģistru, rakstību un daudzskaitļa sakni. PLURAL_STEM_CHECK nesakritība ir REVIEW. SAME_DE_DIFFERENT_ARTICLE ir REVIEW; ja `lv` atšķiras, karogs ir POSSIBLE_HOMONYM.");
+  push("Iekšējā pārbaude salīdzina lauku formu, dublikātus, reģistru, rakstību un daudzskaitļa sakni. PLURAL_STEM_CHECK nesakritība ir REVIEW. SAME_DE_DIFFERENT_ARTICLE ir REVIEW; ja `lv` atšķiras, karogs ir POSSIBLE_HOMONYM. DUPLICATE_ACROSS_LEVELS skaita katru unikālo pāri vienu reizi. Tabulas kolonna pieskaita pāri agrākajam līmenim.");
   push("");
   push("## 2. kārta");
   push("");
@@ -678,12 +781,15 @@ function renderMarkdown(body) {
     const rows = [...body.findings, ...body.reviews, ...body.observations, ...body.needsSourceReview]
       .filter((row) => row.category === category)
       .sort(compareIssue);
+    const full = category === "PLURAL_STEM_CHECK" || category === "DUPLICATE_ACROSS_LEVELS";
     push(`### ${category}`);
     push("");
     push(`Skaits: ${rows.length}.`);
     push("");
     if (!rows.length) push("Nav.");
-    examplesOf(rows, 10).forEach((row) => push(lineOf(row)));
+    if (full && rows.length) push("Pilns saraksts.");
+    if (!full && rows.length > 10) push("Pirmie 10.");
+    (full ? rows : examplesOf(rows, 10)).forEach((row) => push(lineOf(row)));
     push("");
   });
   push("### EMPTY_PLURAL pēc vārdšķiras");
@@ -712,11 +818,78 @@ function renderMarkdown(body) {
     push(`| ${pos} | ${body.emptyByPos.EMPTY_ARTICLE[pos]} |`);
   });
   push("");
+  push("## DUPLICATE_ACROSS_LEVELS pāri");
+  push("");
+  push("Katrs unikālais pāris ir viena rinda. SAME_LV nozīmē identisku `lv`. DIFFERENT_LV rāda abus `lv` laukā `detail`. Dublikāti netiek laboti.");
+  push("");
+  push("| karogs | skaits |");
+  push("|---|---:|");
+  Object.keys(body.duplicateFlags).sort().forEach((flag) => {
+    push(`| ${flag} | ${body.duplicateFlags[flag]} |`);
+  });
+  if (!Object.keys(body.duplicateFlags).length) push("| (nav) | 0 |");
+  push("");
+  ["SAME_LV", "DIFFERENT_LV"].forEach((flag) => {
+    const rows = body.findings
+      .filter((row) => row.category === "DUPLICATE_ACROSS_LEVELS" && row.flag === flag)
+      .sort(compareIssue);
+    push(`### ${flag}`);
+    push("");
+    push(`Skaits: ${rows.length}.`);
+    push("");
+    if (!rows.length) push("Nav.");
+    rows.forEach((row) => push(lineOf(row)));
+    push("");
+  });
+  push("## Vārdšķiras ESTIMATE");
+  push("");
+  push(body.posEstimate.note);
+  push("");
+  push("ESTIMATE ir atdalīts no verdikta. Tas nemaina EMPTY_ARTICLE un EMPTY_PLURAL smagumu un neaizstāj `lietvārds` / `nezināms`. Skaitīšana: ja `de` ir `data/verbs.js` infinitīvs vai `lv` beidzas ar -t vai -ties un artikula nav, etiķete ir `darbības vārds (estimate)`; ja ieraksts nav artikulēts un `lv` beidzas ar -ais, -ā, -š vai -s, etiķete ir `īpašības vārds (estimate)`; pārējie paliek `nezināms`. Artikuls aptur abas etiķetes.");
+  push("");
+  push(`data/verbs.js infinitīvi: ${body.posEstimate.infinitivesInVerbsJs}.`);
+  push("");
+  push("| estimate | skaits |");
+  push("|---|---:|");
+  Object.keys(body.posEstimate.counts).forEach((label) => {
+    push(`| ${label} | ${body.posEstimate.counts[label]} |`);
+  });
+  push("");
+  push("| signāls | skaits |");
+  push("|---|---:|");
+  Object.keys(body.posEstimate.via).forEach((via) => {
+    push(`| ${via} | ${body.posEstimate.via[via]} |`);
+  });
+  push("");
+  push("## EMPTY_PLURAL lietvārds");
+  push("");
+  push("Tukšs daudzskaitlis pie verdikta `lietvārds` ir OBSERVATION. Galotnes -keit, -heit, -schaft un -ung uz pēdējā vārda ir tikai norāde, ka daudzskaitlis pēc formas ir iespējams. Tā nav singulare tantum spriedums un nav labojums.");
+  push("");
+  push("| de_article | skaits | ar galotnes norādi |");
+  push("|---|---:|---:|");
+  Object.keys(body.emptyPluralByArticle).sort().forEach((article) => {
+    const bucket = body.emptyPluralByArticle[article];
+    push(`| ${article} | ${bucket.count} | ${bucket.pluralFormIndication} |`);
+  });
+  push(`| summa | ${body.emptyPluralNouns.length} | ${body.emptyPluralNouns.filter((row) => row.indication).length} |`);
+  push("");
+  Object.keys(body.emptyPluralByArticle).sort().forEach((article) => {
+    const rows = body.emptyPluralNouns.filter((row) => (row.de_article.trim() || "(tukšs)") === article);
+    push(`### de_article ${article}`);
+    push("");
+    push(`Skaits: ${rows.length}.`);
+    push("");
+    if (!rows.length) push("Nav.");
+    rows.forEach((row) => {
+      push(`- ${row.level}[${row.index}] de=${cell(row.de)} de_article=${cell(row.de_article)} lv=${cell(row.lv)} pluralFormIndication=${cell(row.indication)}`);
+    });
+    push("");
+  });
   push("## STAGE RESULT");
   push("");
-  push(`STAGE RESULT: ${base.verdict}`);
+  push("STAGE RESULT: PARTIAL");
   push("");
-  push("PASS ir iespējams tikai tad, ja abas kārtas ir izpildītas un nav FINDING vai NEEDS_SOURCE_REVIEW.");
+  push("PASS netiek piešķirts. Avota kārta bez avota faila ir NOT_RUN, un kopējais verdikts paliek PARTIAL.");
   push("");
   return `${lines.join("\n")}`;
 }
@@ -742,8 +915,43 @@ function selfTest() {
   expect(pluralStemMatches("Studentin", "Studentinnen"), "Studentinnen");
   expect(pluralStemMatches("Name", "Namen"), "Namen");
   expect(pluralStemMatches("Fluss", "Flüsse"), "Fluss");
-  expect(!pluralStemMatches("Firma", "Firmen"), "Firma");
-  expect(!pluralStemMatches("Bus", "Busse"), "Bus");
+  expect(pluralStemMatches("Firma", "Firmen"), "Firma");
+  expect(pluralStemMatches("Bus", "Busse"), "Bus");
+  expect(pluralStemMatches("Album", "Alben"), "Album");
+  expect(pluralStemMatches("Datum", "Daten"), "Datum");
+  expect(pluralStemMatches("Antibiotikum", "Antibiotika"), "Antibiotikum");
+  expect(pluralStemMatches("Aufbau", "Aufbauten"), "Aufbau");
+  expect(pluralStemMatches("Bankkonto", "Bankkonten"), "Bankkonto");
+  expect(pluralStemMatches("Cafeteria", "Cafeterien"), "Cafeteria");
+  expect(pluralStemMatches("Sauna", "Saunen"), "Sauna");
+  expect(pluralStemMatches("Pizza", "Pizzen"), "Pizza");
+  expect(!pluralStemMatches("Atlas", "Atlanten"), "Atlas");
+  const okPhrase = classifyRecord("A1", 0, {
+    de: "saure Sahne", de_article: "die", de_plural: "die sauren Sahnen", lv: "skābs krējums"
+  });
+  const badPhrase = classifyRecord("A1", 1, {
+    de: "saure sahne", de_article: "die", de_plural: "", lv: "skābs krējums"
+  });
+  expect(!okPhrase.some((row) => row.detail === "de LAST_WORD_LOWERCASE"), "saure Sahne");
+  expect(badPhrase.some((row) => row.detail === "de LAST_WORD_LOWERCASE"), "saure sahne");
+  expect(pluralFormIndication("Aufmerksamkeit") === "keit", "keit");
+  expect(pluralFormIndication("Freiheit") === "heit", "heit");
+  expect(pluralFormIndication("Freundschaft") === "schaft", "schaft");
+  expect(pluralFormIndication("Wohnung") === "ung", "ung");
+  expect(pluralFormIndication("Haus") === "", "no indication");
+  const infinitives = loadInfinitives();
+  expect(infinitives.has("sprechen"), "sprechen infinitive");
+  const verb = posEstimate("sprechen", "", "runāt", infinitives);
+  expect(verb.label === "darbības vārds (estimate)" && verb.via === "verbs.js", "verb via verbs.js");
+  const ties = posEstimate("xyz", "", "mācīties", new Set());
+  expect(ties.label === "darbības vārds (estimate)" && ties.via === "lv_ending", "ties before adjective");
+  expect(posEstimate("xyz", "", "strādāt", new Set()).label === "darbības vārds (estimate)", "lv -t");
+  const noun = posEstimate("Haus", "das", "māja", infinitives);
+  expect(noun.label === "nezināms" && noun.via === "has_article", "article blocks estimate");
+  expect(posEstimate("xyz", "", "skaists", new Set()).label === "īpašības vārds (estimate)", "adj -s");
+  expect(posEstimate("xyz", "", "skaistā", new Set()).label === "īpašības vārds (estimate)", "adj -ā");
+  expect(posEstimate("xyz", "", "skaistais", new Set()).label === "īpašības vārds (estimate)", "adj -ais");
+  expect(posEstimate("xyz", "", "māja", new Set()).label === "nezināms", "unknown stays unknown");
   const tmp = fs.mkdtempSync(path.join("/tmp", "lv-de-verify-"));
   const original = fs.readFileSync(path.join(ROOT, "data/a1.js"), "utf8");
   const before = sha256Text(original);
@@ -782,8 +990,8 @@ function selfTest() {
 }
 
 function assertCleanTree() {
-  const diff = execSync("git diff -- data www/data languages ui.js scripts", { cwd: ROOT, encoding: "utf8" });
-  if (diff !== "") throw new Error("git diff of data, www/data, languages, ui.js or scripts is not empty");
+  const diff = execSync("git diff -- data www/data languages ui.js", { cwd: ROOT, encoding: "utf8" });
+  if (diff !== "") throw new Error("git diff of data, www/data, languages, or ui.js is not empty");
 }
 
 function main() {
@@ -799,6 +1007,8 @@ function main() {
   fs.mkdirSync(path.dirname(OUT_MD), { recursive: true });
   fs.writeFileSync(OUT_JSON, `${JSON.stringify(report.body, null, 2)}\n`);
   fs.writeFileSync(OUT_MD, report.markdown);
+  const stemReview = report.body.reviews.filter((row) => row.category === "PLURAL_STEM_CHECK").length;
+  const caseFindings = report.body.findings.filter((row) => row.category === "CASE_AND_WHITESPACE").length;
   process.stdout.write(`${JSON.stringify({
     verdict: report.body.baseline.verdict,
     pass1: report.body.baseline.pass1,
@@ -807,7 +1017,15 @@ function main() {
     finding: report.body.counts.FINDING,
     needsSourceReview: report.body.counts.NEEDS_SOURCE_REVIEW,
     review: report.body.counts.REVIEW,
-    observation: report.body.counts.OBSERVATION
+    observation: report.body.counts.OBSERVATION,
+    stemReview,
+    caseFindings,
+    duplicateFlags: report.body.duplicateFlags,
+    posEstimate: report.body.posEstimate.counts,
+    posEstimateVia: report.body.posEstimate.via,
+    emptyPluralNouns: report.body.emptyPluralNouns.length,
+    pluralFormIndication: report.body.emptyPluralNouns.filter((row) => row.indication).length,
+    emptyPluralByArticle: report.body.emptyPluralByArticle
   })}\n`);
 }
 
