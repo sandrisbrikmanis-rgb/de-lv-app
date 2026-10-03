@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|Arbeit|idx:42|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "vinna",
+    "owner_note": "IS Arbeit / lv: individuāli pārbaudīta LRB-030 rinda 1/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Arm|idx:44|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "handleggur",
+    "owner_note": "IS Arm / lv: individuāli pārbaudīta LRB-030 rinda 2/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Armbanduhr|idx:45|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "armbandsúr",
+    "owner_note": "IS Armbanduhr / lv: individuāli pārbaudīta LRB-030 rinda 3/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Ärztin|idx:46|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "kvenkyns læknir",
+    "owner_note": "IS Ärztin / lv: individuāli pārbaudīta LRB-030 rinda 4/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|auch|idx:48|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"líka • einnig\",\"study.translation\":\"líka • einnig\",\"study.explanation\":\"[\\\"Meginhugmynd: auch er algengasta og hlutlausasta orðið fyrir „líka“ eða „einnig“.\\\",\\\"auch merkir fyrst og fremst einfalt „líka“.\\\",\\\"Það bætir manneskju, hlut eða athöfn við það sem þegar hefur verið nefnt.\\\",\\\"auch er algengasta þýska orðið í þessari merkingu.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme auch.\\\",\\\"lv\\\":\\\"Ég kem líka.\\\"},{\\\"de\\\":\\\"Sie arbeitet auch hier.\\\",\\\"lv\\\":\\\"Hún vinnur líka hér.\\\"},{\\\"de\\\":\\\"Ich wünsche Ihnen auch einen schönen Tag.\\\",\\\"lv\\\":\\\"Ég óska yður líka góðs dags.\\\"}]\",\"study.tip\":\"[\\\"auch = líka / einnig\\\",\\\"Notaðu auch þegar einhverju er bætt við það sem þegar hefur verið nefnt.\\\"]\",\"study.important\":\"[\\\"auch er algengasta hlutlausa orðið með merkingunni „líka“.\\\",\\\"Rétt: Ich wünsche Ihnen auch einen schönen Tag.\\\",\\\"Rangt: Ich auch wünsche Ihnen einen schönen Tag.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"auch\\\",\\\"auch\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"auch\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"auch\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"auch\\\"]},\\\"lv\\\":{}}],\\\"tip\\\":[{}],\\\"important\\\":[{\\\"blue\\\":[\\\"auch\\\"]}]}\"}",
+    "owner_note": "IS auch / study: individuāli pārbaudīta LRB-030 rinda 5/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|auf dem Bahnhof|idx:59|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "á lestarstöðinni",
+    "owner_note": "IS auf dem Bahnhof / lv: individuāli pārbaudīta LRB-030 rinda 6/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|auf dem Boden|idx:58|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "á gólfinu",
+    "owner_note": "IS auf dem Boden / lv: individuāli pārbaudīta LRB-030 rinda 7/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|auf|idx:49|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"á • upp á\",\"study.translation\":\"á • upp á\",\"study.explanation\":\"\\\"Notað til að sýna hreyfingu á yfirborð eða upp á stað.\\\"\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich stelle das Buch auf den Tisch.\\\",\\\"lv\\\":\\\"Ég set bókina á borðið.\\\"},{\\\"de\\\":\\\"Wir fahren auf den Berg.\\\",\\\"lv\\\":\\\"Við förum upp á fjallið.\\\"},{\\\"de\\\":\\\"Die Katze springt auf das Sofa.\\\",\\\"lv\\\":\\\"Kötturinn stekkur upp í sófann.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"auf\\\",\\\"meaning\\\":\\\"á • upp á yfirborð\\\",\\\"example\\\":\\\"Ich stelle das Glas auf den Tisch. – Ég set glasið á borðið.\\\"},{\\\"word\\\":\\\"an\\\",\\\"meaning\\\":\\\"að • á lóðréttan flöt\\\",\\\"example\\\":\\\"Ich hänge das Bild an die Wand. – Ég hengi myndina á vegginn.\\\"},{\\\"word\\\":\\\"in\\\",\\\"meaning\\\":\\\"inn í\\\",\\\"example\\\":\\\"Ich lege das Buch in die Tasche. – Ég set bókina í töskuna.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: á yfirborð eða upp á stað → auf.\\\"}\",\"study.important\":\"[\\\"auf merkir ekki hvaða íslenska „á“ sem er; það vísar oft til hreyfingar á yfirborð eða stöðu á yfirborði.\\\",\\\"Við lóðréttan flöt þarf oft an; inni í rými þarf in.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"auf\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"auf\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"auf\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"auf\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"auf\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"an\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"an\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"in\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"in\\\"]}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{\\\"blue\\\":[\\\"auf\\\"]},{\\\"green\\\":[\\\"an\\\"],\\\"yellow\\\":[\\\"in\\\"]}]}\"}",
+    "owner_note": "IS auf / study: individuāli pārbaudīta LRB-030 rinda 8/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|aufmachen|idx:50|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "opna",
+    "owner_note": "IS aufmachen / lv: individuāli pārbaudīta LRB-030 rinda 9/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|aufpassen|idx:51|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "passa sig",
+    "owner_note": "IS aufpassen / lv: individuāli pārbaudīta LRB-030 rinda 10/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|aufs|idx:60|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"upp á • á\",\"study.translation\":\"upp á • á\",\"study.explanation\":\"[\\\"aufs er samdráttur af forsetningunni auf og greininum das.\\\",\\\"Fulla myndin er auf das og hún stýrir þolfalli.\\\",\\\"Notað þegar hreyfing beinist á tiltekinn hlut eða yfirborð og svarar spurningunni wohin?\\\",\\\"Algengt með hreyfingu: fara upp á, setjast, leggja eða fara á stað.\\\",\\\"Í daglegu máli er auf das oft stytt í aufs; fulla myndin er einnig málfræðilega rétt.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich gehe aufs Dach.\\\",\\\"lv\\\":\\\"Ég fer upp á þakið.\\\"},{\\\"de\\\":\\\"Sie setzt sich aufs Sofa.\\\",\\\"lv\\\":\\\"Hún sest í sófann.\\\"},{\\\"de\\\":\\\"Wir fahren aufs Land.\\\",\\\"lv\\\":\\\"Við förum út á land.\\\"},{\\\"de\\\":\\\"Stell die Tasche aufs Bett.\\\",\\\"lv\\\":\\\"Settu töskuna á rúmið.\\\"},{\\\"de\\\":\\\"Er springt aufs Pferd.\\\",\\\"lv\\\":\\\"Hann stekkur á bak hestinum.\\\"},{\\\"de\\\":\\\"Leg das Buch aufs Regal.\\\",\\\"lv\\\":\\\"Leggðu bókina á hilluna.\\\"},{\\\"de\\\":\\\"Komm schnell aufs Boot!\\\",\\\"lv\\\":\\\"Komdu fljótt um borð í bátinn!\\\"},{\\\"de\\\":\\\"Wir gehen aufs Fest.\\\",\\\"lv\\\":\\\"Við förum á hátíðina.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"aufs\\\",\\\"meaning\\\":\\\"upp á tiltekinn hlut (þolfall)\\\",\\\"example\\\":\\\"aufs Dach – upp á þakið\\\"},{\\\"word\\\":\\\"auf\\\",\\\"meaning\\\":\\\"á eða upp á yfirborð\\\",\\\"example\\\":\\\"auf den Tisch – á borðið\\\"},{\\\"word\\\":\\\"an\\\",\\\"meaning\\\":\\\"að eða við lóðrétt yfirborð\\\",\\\"example\\\":\\\"an die Wand – að veggnum\\\"},{\\\"word\\\":\\\"ins\\\",\\\"meaning\\\":\\\"inn í rými\\\",\\\"example\\\":\\\"ins Zimmer – inn í herbergið\\\"},{\\\"word\\\":\\\"zum\\\",\\\"meaning\\\":\\\"til eða hjá (þágufall)\\\",\\\"example\\\":\\\"zum Arzt – til læknisins\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: auf + das → aufs.\\\"}\",\"study.important\":\"[\\\"aufs = auf das og svarar oft spurningunni wohin?\\\",\\\"Með karlkynsorði er oft auf den, ekki aufs.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"aufs\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"auf\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"an\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"ins\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"zum\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{},{}]}\"}",
+    "owner_note": "IS aufs / study: individuāli pārbaudīta LRB-030 rinda 11/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|aufstehen|idx:52|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fara á fætur",
+    "owner_note": "IS aufstehen / lv: individuāli pārbaudīta LRB-030 rinda 12/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|aufwärts|idx:53|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "upp á við",
+    "owner_note": "IS aufwärts / lv: individuāli pārbaudīta LRB-030 rinda 13/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Auge|idx:54|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "auga",
+    "owner_note": "IS Auge / lv: individuāli pārbaudīta LRB-030 rinda 14/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Augenblick|idx:55|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "augnablik",
+    "owner_note": "IS Augenblick / lv: individuāli pārbaudīta LRB-030 rinda 15/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Augenbraue|idx:61|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "augabrún",
+    "owner_note": "IS Augenbraue / lv: individuāli pārbaudīta LRB-030 rinda 16/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Augenfarbe|idx:62|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "augnlitur",
+    "owner_note": "IS Augenfarbe / lv: individuāli pārbaudīta LRB-030 rinda 17/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|aus|idx:57|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"úr • frá\",\"study.translation\":\"úr • frá\",\"study.explanation\":\"[\\\"Notað þegar eitthvað kemur úr innra rými, fer út eða þegar uppruni er gefinn.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme aus Deutschland.\\\",\\\"lv\\\":\\\"Ég kem frá Þýskalandi.\\\"},{\\\"de\\\":\\\"Er geht aus dem Haus.\\\",\\\"lv\\\":\\\"Hann fer út úr húsinu.\\\"},{\\\"de\\\":\\\"Ich nehme das Buch aus der Tasche.\\\",\\\"lv\\\":\\\"Ég tek bókina úr töskunni.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"aus\\\",\\\"meaning\\\":\\\"úr • út úr • frá uppruna\\\",\\\"example\\\":\\\"aus dem Haus – út úr húsinu\\\"},{\\\"word\\\":\\\"von\\\",\\\"meaning\\\":\\\"frá manneskju, stað eða yfirborði\\\",\\\"example\\\":\\\"von meinem Freund – frá vini mínum\\\"},{\\\"word\\\":\\\"ab\\\",\\\"meaning\\\":\\\"frá ákveðnum tíma eða punkti\\\",\\\"example\\\":\\\"ab Montag – frá og með mánudegi\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: út úr innra rými → aus.\\\"}\",\"study.important\":\"[\\\"aus sýnir venjulega hreyfingu út úr innra rými eða uppruna.\\\",\\\"Fyrir upphafspunkt í tíma eða rúmi er ab oft notað.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"aus\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"aus\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"aus\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"aus\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"von\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"ab\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{},{}]}\"}",
+    "owner_note": "IS aus / study: individuāli pārbaudīta LRB-030 rinda 18/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Auto|idx:63|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bíll",
+    "owner_note": "IS Auto / lv: individuāli pārbaudīta LRB-030 rinda 19/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Bad|idx:64|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "baðherbergi",
+    "owner_note": "IS Bad / lv: individuāli pārbaudīta LRB-030 rinda 20/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|baden|idx:68|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"baða sig • vera í vatni\",\"study.translation\":\"baða sig • vera í vatni\",\"study.explanation\":\"[\\\"Meginhugmynd: baden merkir að baða sig, vera í vatni eða njóta þess að vera í vatni.\\\",\\\"baden er notað um afþreyingu í vatni, stöðuvatni, sjó eða sundlaug.\\\",\\\"baden getur einnig merkt að fara í baðker.\\\",\\\"Þegar áherslan er á sundhreyfinguna eða íþróttina er schwimmen oftar notað.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich gehe baden.\\\",\\\"lv\\\":\\\"Ég fer að baða mig.\\\"},{\\\"de\\\":\\\"Wir gehen im See baden.\\\",\\\"lv\\\":\\\"Við böðum okkur í stöðuvatninu.\\\"},{\\\"de\\\":\\\"Er schwimmt sehr gut.\\\",\\\"lv\\\":\\\"Hann syndir mjög vel.\\\"},{\\\"de\\\":\\\"Ich schwimme jeden Montag.\\\",\\\"lv\\\":\\\"Ég syndi á hverjum mánudegi.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"baden\\\",\\\"meaning\\\":\\\"baða sig • vera í vatni\\\",\\\"example\\\":\\\"Ich gehe baden. – Ég fer að baða mig.\\\"},{\\\"word\\\":\\\"schwimmen\\\",\\\"meaning\\\":\\\"synda sem hreyfing eða íþrótt\\\",\\\"example\\\":\\\"Er schwimmt sehr gut. – Hann syndir mjög vel.\\\"},{\\\"word\\\":\\\"duschen\\\",\\\"meaning\\\":\\\"fara í sturtu\\\",\\\"example\\\":\\\"Ich dusche am Morgen. – Ég fer í sturtu á morgnana.\\\"},{\\\"word\\\":\\\"schwimmen gehen\\\",\\\"meaning\\\":\\\"fara í sund\\\",\\\"example\\\":\\\"Ich gehe heute schwimmen. – Ég fer í sund í dag.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: vera eða baða sig í vatni → baden; sundhreyfing → schwimmen.\\\"}\",\"study.important\":\"[\\\"baden og schwimmen eru ekki fullkomin samheiti.\\\",\\\"baden leggur oftar áherslu á að vera eða baða sig í vatni en schwimmen á sundhreyfinguna.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"baden\\\"],\\\"red\\\":[\\\"schwimmen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"baden\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"baden\\\"],\\\"green\\\":[\\\"See\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"red\\\":[\\\"schwimmt\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"red\\\":[\\\"schwimme\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"baden\\\"]},\\\"meaning\\\":{},\\\"example\\\":{\\\"blue\\\":[\\\"baden\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"schwimmen\\\"]},\\\"meaning\\\":{},\\\"example\\\":{\\\"red\\\":[\\\"schwimmt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"duschen\\\"]},\\\"meaning\\\":{},\\\"example\\\":{\\\"yellow\\\":[\\\"dusche\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"schwimmen gehen\\\"]},\\\"meaning\\\":{},\\\"example\\\":{\\\"green\\\":[\\\"schwimmen\\\"]}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{\\\"blue\\\":[\\\"baden\\\"],\\\"red\\\":[\\\"schwimmen\\\"]},{}]}\"}",
+    "owner_note": "IS baden / lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents: individuāli pārbaudīta LRB-030 rinda 21/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Badezimmer|idx:65|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "baðherbergi",
+    "owner_note": "IS Badezimmer / lv: individuāli pārbaudīta LRB-030 rinda 22/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Balkon|idx:70|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "svalir",
+    "owner_note": "IS Balkon / lv: individuāli pārbaudīta LRB-030 rinda 23/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Ball|idx:71|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bolti",
+    "owner_note": "IS Ball / lv: individuāli pārbaudīta LRB-030 rinda 24/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Banane|idx:72|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "banani",
+    "owner_note": "IS Banane / lv: individuāli pārbaudīta LRB-030 rinda 25/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Bauch|idx:73|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "magi",
+    "owner_note": "IS Bauch / lv: individuāli pārbaudīta LRB-030 rinda 26/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Baum|idx:74|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tré",
+    "owner_note": "IS Baum / lv: individuāli pārbaudīta LRB-030 rinda 27/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|bedeuten|idx:75|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þýða",
+    "owner_note": "IS bedeuten / lv: individuāli pārbaudīta LRB-030 rinda 28/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|bei|idx:78|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hjá • við\",\"study.translation\":\"hjá • við\",\"study.explanation\":\"\\\"Notað þegar eitthvað er hjá manneskju, fyrirtæki eða stað, eða gerist við ákveðnar aðstæður.\\\"\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin bei meinem Freund.\\\",\\\"lv\\\":\\\"Ég er hjá vini mínum.\\\"},{\\\"de\\\":\\\"Sie arbeitet bei Siemens.\\\",\\\"lv\\\":\\\"Hún vinnur hjá Siemens.\\\"},{\\\"de\\\":\\\"Bei Regen bleiben wir zu Hause.\\\",\\\"lv\\\":\\\"Þegar rignir verðum við heima.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"bei\\\",\\\"meaning\\\":\\\"hjá manneskju eða fyrirtæki • við ákveðnar aðstæður\\\",\\\"example\\\":\\\"Ich bin bei meiner Schwester. – Ég er hjá systur minni.\\\"},{\\\"word\\\":\\\"an\\\",\\\"meaning\\\":\\\"að • við vegg, brún eða strönd\\\",\\\"example\\\":\\\"Das Bild hängt an der Wand. – Myndin hangir á veggnum.\\\"},{\\\"word\\\":\\\"zu\\\",\\\"meaning\\\":\\\"til manneskju (stefna)\\\",\\\"example\\\":\\\"Ich gehe zu meinem Freund. – Ég fer til vinar míns.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: hjá manneskju eða fyrirtæki → bei.\\\"}\",\"study.important\":\"[\\\"bei merkir oft hjá manneskju, á stað eða hjá fyrirtæki.\\\",\\\"Um hreyfingu á yfirborð er yfirleitt notað auf, ekki bei.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"bei\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"bei\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"Bei\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"purple\\\":[\\\"bei\\\"]},\\\"example\\\":{\\\"purple\\\":[\\\"bei\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"an\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"an\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zu\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"zu\\\"]}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{\\\"purple\\\":[\\\"bei\\\"]},{\\\"blue\\\":[\\\"auf\\\"],\\\"red\\\":[\\\"bei\\\"]}]}\"}",
+    "owner_note": "IS bei / lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents: individuāli pārbaudīta LRB-030 rinda 29/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Bein|idx:80|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fótleggur",
+    "owner_note": "IS Bein / lv: individuāli pārbaudīta LRB-030 rinda 30/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Beispiel|idx:81|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "dæmi",
+    "owner_note": "IS Beispiel / lv: individuāli pārbaudīta LRB-030 rinda 31/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|bekommen|idx:82|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fá",
+    "owner_note": "IS bekommen / lv: individuāli pārbaudīta LRB-030 rinda 32/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|benutzen|idx:83|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nota",
+    "owner_note": "IS benutzen / lv: individuāli pārbaudīta LRB-030 rinda 33/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|besser|idx:85|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "betri",
+    "owner_note": "IS besser / lv: individuāli pārbaudīta LRB-030 rinda 34/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|beste|idx:86|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bestur",
+    "owner_note": "IS beste / lv: individuāli pārbaudīta LRB-030 rinda 35/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Besuch|idx:87|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"heimsókn\",\"study.translation\":\"heimsókn\",\"study.explanation\":\"[\\\"Meginhugmynd: der Besuch merkir heimsókn eða vitjun.\\\",\\\"Það getur átt við heimsókn á stað eða viðburð.\\\",\\\"Þegar manneskja er heimsótt er „heimsókn“ einnig eðlilegt.\\\",\\\"Fleirtalan er die Besuche.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Der Besuch im Museum war interessant.\\\",\\\"lv\\\":\\\"Safnheimsóknin var áhugaverð.\\\"},{\\\"de\\\":\\\"Danke für deinen Besuch.\\\",\\\"lv\\\":\\\"Takk fyrir heimsóknina.\\\"},{\\\"de\\\":\\\"Der Arzt macht einen Besuch.\\\",\\\"lv\\\":\\\"Læknirinn fer í vitjun.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"der Besuch\\\",\\\"meaning\\\":\\\"heimsókn • vitjun\\\",\\\"example\\\":\\\"Danke für deinen Besuch. – Takk fyrir heimsóknina.\\\"},{\\\"word\\\":\\\"der Besucher\\\",\\\"meaning\\\":\\\"gestur • heimsóknarmaður\\\",\\\"example\\\":\\\"Der Besucher wartet draußen. – Gesturinn bíður úti.\\\"},{\\\"word\\\":\\\"besuchen\\\",\\\"meaning\\\":\\\"heimsækja\\\",\\\"example\\\":\\\"Ich besuche meine Großeltern. – Ég heimsæki ömmu mína og afa.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: Besuch er heimsóknin en Besucher er manneskjan sem kemur.\\\"}\",\"study.important\":\"[\\\"der Besuch getur verið heimsókn eða vitjun.\\\",\\\"Fleirtalan er die Besuche.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"Besuch\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Besuch\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"Besuch\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"Besuch\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"der Besuch\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"der Besucher\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"besuchen\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{},{}]}\"}",
+    "owner_note": "IS Besuch / lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents: individuāli pārbaudīta LRB-030 rinda 36/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|besuchen|idx:89|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"heimsækja • sækja\",\"study.translation\":\"heimsækja • sækja\",\"study.explanation\":\"[\\\"Meginhugmynd: besuchen er notað þegar staður, viðburður eða manneskja er heimsótt.\\\",\\\"Stað eða manneskju má heimsækja; námskeið er sótt.\\\",\\\"Með manneskju merkir besuchen yfirleitt „heimsækja“.\\\",\\\"Á þýsku tekur besuchen þolfall og er notað án forsetningar.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich besuche das Museum.\\\",\\\"lv\\\":\\\"Ég heimsæki safnið.\\\"},{\\\"de\\\":\\\"Wir besuchen einen Deutschkurs.\\\",\\\"lv\\\":\\\"Við sækjum þýskunámskeið.\\\"},{\\\"de\\\":\\\"Ich besuche meine Großeltern.\\\",\\\"lv\\\":\\\"Ég heimsæki ömmu mína og afa.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"besuchen\\\",\\\"meaning\\\":\\\"heimsækja stað eða manneskju • sækja viðburð\\\",\\\"example\\\":\\\"Ich besuche meine Großeltern. – Ég heimsæki ömmu mína og afa.\\\"},{\\\"word\\\":\\\"treffen\\\",\\\"meaning\\\":\\\"hitta\\\",\\\"example\\\":\\\"Ich treffe meinen Freund. – Ég hitti vin minn.\\\"},{\\\"word\\\":\\\"zu jemandem gehen\\\",\\\"meaning\\\":\\\"fara til einhvers\\\",\\\"example\\\":\\\"Ich gehe zu meinem Freund. – Ég fer til vinar míns.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: besuchen tekur beint andlag án forsetningar.\\\"}\",\"study.important\":\"[\\\"besuchen er notað án forsetningar: Ich besuche meine Freundin.\\\",\\\"Þýðingin ræðst af andlaginu: heimsækja manneskju eða stað, sækja námskeið.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"besuchen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"besuche\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"besuchen\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"besuche\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"besuchen\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"treffen\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"zu jemandem gehen\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{},{}]}\"}",
+    "owner_note": "IS besuchen / lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents: individuāli pārbaudīta LRB-030 rinda 37/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Besucher|idx:88|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "gestur",
+    "owner_note": "IS Besucher / lv: individuāli pārbaudīta LRB-030 rinda 38/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Bett|idx:90|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "rúm",
+    "owner_note": "IS Bett / lv: individuāli pārbaudīta LRB-030 rinda 39/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Bier|idx:96|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bjór",
+    "owner_note": "IS Bier / lv: individuāli pārbaudīta LRB-030 rinda 40/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Bild|idx:97|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mynd",
+    "owner_note": "IS Bild / lv: individuāli pārbaudīta LRB-030 rinda 41/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|bis|idx:91|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"til\",\"study.translation\":\"til\",\"study.explanation\":\"\\\"Sýnir mörk, tímapunkt eða skilyrði sem eitthvað nær til.\\\"\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich warte bis zu deiner Ankunft.\\\",\\\"lv\\\":\\\"Ég bíð þar til þú kemur.\\\"},{\\\"de\\\":\\\"Bleib hier, bis ich zurückkomme.\\\",\\\"lv\\\":\\\"Vertu hér þar til ég kem aftur.\\\"},{\\\"de\\\":\\\"Ich lerne Deutsch bis zum Abend.\\\",\\\"lv\\\":\\\"Ég læri þýsku til kvölds.\\\"},{\\\"de\\\":\\\"Bis jetzt habe ich nichts verstanden.\\\",\\\"lv\\\":\\\"Hingað til hef ég ekkert skilið.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"bis\\\",\\\"meaning\\\":\\\"til ákveðinna marka eða tímapunkts\\\",\\\"example\\\":\\\"Ich bleibe bis morgen. – Ég verð fram á morgun.\\\"},{\\\"word\\\":\\\"bis zu\\\",\\\"meaning\\\":\\\"allt að ákveðnum mörkum\\\",\\\"example\\\":\\\"bis zum Bahnhof – alla leið að lestarstöðinni\\\"},{\\\"word\\\":\\\"bis jetzt\\\",\\\"meaning\\\":\\\"hingað til\\\",\\\"example\\\":\\\"Bis jetzt habe ich nichts verstanden. – Hingað til hef ég ekkert skilið.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: mörk í tíma eða skilyrði → bis.\\\"}\",\"study.important\":\"[\\\"bis sýnir mörk eða tímapunkt.\\\",\\\"bis zu er notað á undan ákveðnum mörkum: bis zum Bahnhof.\\\",\\\"bis jetzt merkir „hingað til“.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"purple\\\":[\\\"bis\\\"]},{\\\"purple\\\":[\\\"bis\\\"]},{\\\"purple\\\":[\\\"bis\\\"]},{\\\"blue\\\":[\\\"Bis jetzt\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"purple\\\":[\\\"bis\\\"]},\\\"example\\\":{\\\"purple\\\":[\\\"bis\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bis zu\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"bis zum\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bis jetzt\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Bis jetzt\\\"]}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{\\\"purple\\\":[\\\"bis\\\"]}]}\"}",
+    "owner_note": "IS bis / lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important; study.sectionAccents: individuāli pārbaudīta LRB-030 rinda 42/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|bitte|idx:93|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vinsamlegast • gjörðu svo vel\",\"study.translation\":\"vinsamlegast • gjörðu svo vel\",\"study.explanation\":\"[\\\"Meginhugmynd: bitte með litlum staf er kurteisisorð sem merkir „vinsamlegast“ eða „gjörðu svo vel“.\\\",\\\"Það er notað í beiðnum, pöntunum og kurteisum svörum.\\\",\\\"Nafnorðið die Bitte með stórum staf merkir beiðni.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Eine Tasse Kaffee, bitte.\\\",\\\"lv\\\":\\\"Einn kaffibolla, takk.\\\"},{\\\"de\\\":\\\"Komm bitte herein.\\\",\\\"lv\\\":\\\"Komdu inn, gjörðu svo vel.\\\"},{\\\"de\\\":\\\"Bitte schön!\\\",\\\"lv\\\":\\\"Gjörðu svo vel!\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"bitte\\\",\\\"meaning\\\":\\\"vinsamlegast • gjörðu svo vel\\\",\\\"example\\\":\\\"Komm bitte herein. – Komdu inn, gjörðu svo vel.\\\"},{\\\"word\\\":\\\"die Bitte\\\",\\\"meaning\\\":\\\"beiðni\\\",\\\"example\\\":\\\"Ich habe eine Bitte. – Ég er með beiðni.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: bitte með litlum staf er kurteisisorð; die Bitte með stórum staf er beiðni.\\\"}\",\"study.important\":\"[\\\"bitte er kurteisisorð.\\\",\\\"die Bitte er nafnorð með greininum die.\\\",\\\"Rangt: Die Bitte schön! Rétt: Bitte schön!\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"bitte\\\"],\\\"green\\\":[\\\"die Bitte\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"bitte\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"bitte\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"Bitte\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"blue\\\":[\\\"bitte\\\"]},\\\"meaning\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"die Bitte\\\"]},\\\"meaning\\\":{}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{\\\"blue\\\":[\\\"bitte\\\"]},{\\\"green\\\":[\\\"die Bitte\\\"]}]}\"}",
+    "owner_note": "IS bitte / study: individuāli pārbaudīta LRB-030 rinda 43/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Bitte|idx:94|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"beiðni\",\"study.translation\":\"beiðni\",\"study.explanation\":\"[\\\"Meginhugmynd: die Bitte er nafnorð og merkir beiðni.\\\",\\\"Orðið er skrifað með stórum staf og notað með greininum die.\\\",\\\"Fleirtalan er die Bitten.\\\",\\\"Kurteisisorðið bitte með litlum staf merkir „vinsamlegast“ eða „gjörðu svo vel“.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich habe eine Bitte.\\\",\\\"lv\\\":\\\"Ég er með beiðni.\\\"},{\\\"de\\\":\\\"Er erfüllt meine Bitte.\\\",\\\"lv\\\":\\\"Hann verður við beiðni minni.\\\"},{\\\"de\\\":\\\"Sie hat zwei Bitten.\\\",\\\"lv\\\":\\\"Hún er með tvær beiðnir.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"die Bitte\\\",\\\"meaning\\\":\\\"beiðni\\\",\\\"example\\\":\\\"Ich habe eine Bitte. – Ég er með beiðni.\\\"},{\\\"word\\\":\\\"bitte\\\",\\\"meaning\\\":\\\"vinsamlegast • gjörðu svo vel\\\",\\\"example\\\":\\\"Komm bitte herein. – Komdu inn, gjörðu svo vel.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: die Bitte er nafnorð en bitte er kurteisisorð.\\\"}\",\"study.important\":\"[\\\"Greinirinn er die: die Bitte.\\\",\\\"Fleirtalan er die Bitten.\\\",\\\"Nafnorðið er skrifað með stórum staf.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"die Bitte\\\",\\\"die Bitten\\\"],\\\"blue\\\":[\\\"bitte\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"Bitte\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"green\\\":[\\\"Bitte\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"green\\\":[\\\"Bitten\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"die Bitte\\\"]},\\\"meaning\\\":{}},{\\\"word\\\":{\\\"blue\\\":[\\\"bitte\\\"]},\\\"meaning\\\":{}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{\\\"green\\\":[\\\"die Bitte\\\"]},{}]}\"}",
+    "owner_note": "IS Bitte / study: individuāli pārbaudīta LRB-030 rinda 44/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|bitten|idx:98|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "biðja",
+    "owner_note": "IS bitten / lv: individuāli pārbaudīta LRB-030 rinda 45/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Blatt|idx:99|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "blað",
+    "owner_note": "IS Blatt / lv: individuāli pārbaudīta LRB-030 rinda 46/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|blau|idx:100|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "blár",
+    "owner_note": "IS blau / lv: individuāli pārbaudīta LRB-030 rinda 47/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|bleiben|idx:101|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vera áfram • dvelja\",\"study.translation\":\"vera áfram • dvelja\",\"study.explanation\":\"[\\\"Meginhugmynd: bleiben merkir að vera áfram eða dvelja.\\\",\\\"bleiben er notað þegar manneskja eða hlutur fer ekki burt heldur er áfram á sama stað eða í sama ástandi.\\\",\\\"Það er andstæða gehen og fahren þegar talað er um að fara burt.\\\",\\\"Mjög algengt orðasamband er Ich bleibe zu Hause.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bleibe zu Hause.\\\",\\\"lv\\\":\\\"Ég verð heima.\\\"},{\\\"de\\\":\\\"Bleib hier!\\\",\\\"lv\\\":\\\"Vertu hér!\\\"},{\\\"de\\\":\\\"Wir bleiben noch eine Stunde.\\\",\\\"lv\\\":\\\"Við verðum hér í klukkutíma í viðbót.\\\"},{\\\"de\\\":\\\"Ich gehe nach Hause.\\\",\\\"lv\\\":\\\"Ég fer heim.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"bleiben\\\",\\\"meaning\\\":\\\"vera áfram • dvelja\\\",\\\"example\\\":\\\"Ich bleibe hier. – Ég verð hér.\\\"},{\\\"word\\\":\\\"gehen\\\",\\\"meaning\\\":\\\"fara • ganga burt\\\",\\\"example\\\":\\\"Ich gehe nach Hause. – Ég fer heim.\\\"},{\\\"word\\\":\\\"fahren\\\",\\\"meaning\\\":\\\"fara • ferðast með farartæki\\\",\\\"example\\\":\\\"Ich fahre nach Hause. – Ég fer heim með farartæki.\\\"},{\\\"word\\\":\\\"warten\\\",\\\"meaning\\\":\\\"bíða\\\",\\\"example\\\":\\\"Ich warte hier. – Ég bíð hér.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: fara ekki burt → bleiben; fara burt fótgangandi → gehen.\\\"}\",\"study.important\":\"[\\\"bleiben merkir að vera áfram, ekki að bíða.\\\",\\\"Ich bleibe hier = Ég verð hér; Ich warte hier = Ég bíð hér.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"bleiben\\\"],\\\"red\\\":[\\\"gehen\\\",\\\"fahren\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"bleibe\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"Bleib\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"bleiben\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"red\\\":[\\\"gehe\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"bleiben\\\"]},\\\"meaning\\\":{},\\\"example\\\":{\\\"blue\\\":[\\\"bleibe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"gehen\\\"]},\\\"meaning\\\":{},\\\"example\\\":{\\\"red\\\":[\\\"gehe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"fahren\\\"]},\\\"meaning\\\":{},\\\"example\\\":{\\\"yellow\\\":[\\\"fahre\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"warten\\\"]},\\\"meaning\\\":{},\\\"example\\\":{\\\"green\\\":[\\\"warte\\\"]}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{\\\"blue\\\":[\\\"bleiben\\\"]},{\\\"blue\\\":[\\\"bleibe\\\"],\\\"green\\\":[\\\"warte\\\"]}]}\"}",
+    "owner_note": "IS bleiben / study: individuāli pārbaudīta LRB-030 rinda 48/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|Bleistift|idx:102|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "blýantur",
+    "owner_note": "IS Bleistift / lv: individuāli pārbaudīta LRB-030 rinda 49/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  },
+  "g2/a1/is|blond|idx:103|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ljóshærður",
+    "owner_note": "IS blond / lv: individuāli pārbaudīta LRB-030 rinda 50/50; precīzs islandiešu aizvietojums, pilnajai study kartītei DE avots saglabāts nemainīts."
+  }
+}
