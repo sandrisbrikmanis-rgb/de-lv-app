@@ -1,7 +1,7 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.18\
-**Versiju ķēde:** v1.13 (Kurss moduļa metodika, iekļauta šajā izlaidumā) → v1.14 → v1.15 → v1.16 → v1.17 → **v1.18** (šis dokuments)\
+**Versija:** 1.19\
+**Versiju ķēde:** v1.13 (Kurss moduļa metodika, iekļauta šajā izlaidumā) → v1.14 → v1.15 → v1.16 → v1.17 → v1.18 → **v1.19** (šis dokuments)\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -27,6 +27,9 @@ Tas konsolidē un aizstāj kā atsevišķi interpretējamus darba standartus:
 Lingvistiskā audita avotu atbalstīta metodika (33 valodas, PASS/OWNER
 tvērums, reģistrs): `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` — operatīvi
 iekļauta šajā MASTER dokumentā kā **§7.153–§7.157**.
+
+Satura (A1–C2, Sentences, Verbs, Kurss/Training) tulkojumu avotu
+apstiprināšana: **§7.158**. UI/G5 šī sadaļa neaizstāj.
 
 Iepriekšējie dokumenti drīkst palikt repozitorijā tikai kā
 vēsturiski/reference materiāli. Ja ir pretruna starp tiem un šo MASTER
@@ -420,6 +423,9 @@ Neskaidrību gadījumā izmanto autoritatīvus avotus. Vācu valodai
 prioritāri: Goethe-Institut, Duden, IDS, DWDS. Auditējamajai valodai ---
 valsts valodas institūti, oficiālas/akadēmiskas vārdnīcas un
 terminoloģijas datubāzes.
+
+Satura tulkojumiem obligātā vārda līmeņa avotu apstiprināšana, ieskaitot
+avotu prioritāti, ir **§7.158**.
 
 ------------------------------------------------------------------------
 
@@ -5335,6 +5341,9 @@ Pilns valodu avotu reģistrs (33 valodas, ieskaitot `de` kā
 divpusējā DE + target pārbaude un pierādījumu lauki — sk.
 `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` §2–§7.
 
+Vārda līmeņa satura vienībām (pāris: DE ieraksts, valoda) avotu
+apstiprināšanas kārtība ir **§7.158**.
+
 ## 7.154. Lingvistiskā audita verdikti (v1.18)
 
 Atļautie **audita** verdikti (atšķirībā no OWNER statusiem §8):
@@ -5383,6 +5392,34 @@ triggeriem. Post-repair discovery joprojām var aptvert visu scope (§11.1), bet
 bez konkrēta triggera iepriekšējo `PASS` nedrīkst pārvērst par jaunu OWNER
 findingu tikai tāpēc, ka audits tika palaists vēlreiz.
 
+## 7.158. Vārda līmeņa avotu apstiprināšana (v1.19)
+
+Šī kārtība aizstāj iepriekšējo kārtību, kurā satura tulkojumus veica ar Crowdin.
+
+1. Vienība. Audita vienība ir pāris (DE ieraksts, valoda). Piemēram, "das Haus"
+   tiek apstiprināts katrai mērķvalodai atsevišķi.
+2. Katram pārim obligāti divi pierādījumi:
+   a) DE puse: Duden, DWDS, Goethe-Institut, Rat für deutsche Rechtschreibung
+      (artikuls, daudzskaitlis, pareizrakstība, nozīme, CEFR līmenis).
+   b) Mērķvalodas puse, prioritārā secībā:
+      A. DE↔X divvalodu vārdnīca (PDF vai digitāla): avota ID, šķirklis vai
+         lappuse, atrastais ekvivalents.
+      B. Ja divvalodu avota nav: attiecīgās valsts valodas institūta/akadēmijas
+         vārdnīca no §3 reģistra ar skaidru nozīmes sasaisti ar DE šķirkli.
+      C. Ja nav neviena: NEEDS_SOURCE_REVIEW. Verdikts PASS pēc minējuma ir aizliegts.
+3. Verdikti: PASS, FINDING, NEEDS_SOURCE_REVIEW, SOURCE_DE_ISSUE (kā §7.154).
+4. Tulkojuma avots ir vārdnīcas šķirklis. Mašīntulkojums un AI (t.sk. Luna, Cursor)
+   drīkst būt tikai melnraksts, un nekad nav pierādījums (§7.156).
+5. Avotu reģistrs: katram izmantotajam avotam ID, nosaukums, versija/izdevums,
+   piekļuves datums, valoda, tips (A vai B). Reģistrs ir versionēts.
+6. Ieraksta lauki: DE_SOURCE, TARGET_SOURCE, ENTRY_OR_PAGE, FOUND_FORM, CURRENT,
+   VERDICT, AUDITOR, SOURCE_ACCESS_DATE.
+7. Secība: (i) DE iesaldēšana pret Duden/DWDS/Goethe; (ii) LV-DE; (iii) pārējās
+   valodas pa vienai. DE netiek mainīts bez atsevišķa OWNER lēmuma (§1.2).
+8. PDF vārdnīcu saturu repozitorijā glabā kā atsauci (avota ID + lappuse/šķirklis),
+   nevis kā pilnu kopiju.
+9. Šis noteikums neatceļ §1.1, §7.25, OWNER lēmumu, COPY-ONLY un closure noteikumus.
+
 ------------------------------------------------------------------------
 
 # 8. OWNER REVIEW
@@ -5390,6 +5427,9 @@ findingu tikai tāpēc, ka audits tika palaists vēlreiz.
 Pēc audita uz OWNER review nonāk tikai unresolved/problemātiskie ieraksti
 (§7.155): `FINDING`, `NEEDS_SOURCE_REVIEW`, `SOURCE_DE_ISSUE` un citi skaidri
 dokumentēti unresolved gadījumi — nevis parastas audita `PASS` rindas.
+
+Satura tulkojumu avotu apstiprināšana ir **§7.158**. Tā neatceļ OWNER
+lēmumu, COPY-ONLY un closure noteikumus.
 
 OWNER review izmanto AUDIT stage sagatavotos `OWNER VIEW` un `OWNER DECISIONS`
 failus.
@@ -6823,6 +6863,29 @@ ar MASTER.
 
 # 20. VERSION CHANGELOG
 
+## Version 1.19
+
+Crowdin satura tulkošanas kārtības izņemšana (A1–C2, Sentences, Verbs,
+Kurss/Training). Jaunā vārda līmeņa avotu apstiprināšanas sadaļa. UI/G5
+(`languages/{lang}/ui.js`, ui-crowdin-bridge, §7.121–§7.152) nemainīts.
+
+Pievienots:
+
+- §7.158 Vārda līmeņa avotu apstiprināšana;
+- atsauces no §0, §2.3, §7.153 un §8 uz §7.158.
+
+Izņemts kā aktīva satura kārtība:
+
+- beigu sadaļa „SAISTOŠAIS DARBA LĪGUMS UN FĀZE 0/1 SPEC (Crowdin / visu valodu saturs)” kā Crowdin procesa apraksts;
+- satura Crowdin tulkošanas ceļš.
+
+Saglabāts: atsauce uz `MASTER_1.12_BINDING_WORK_AGREEMENT.md` ciktāl tā nav
+atkarīga no Crowdin (konfliktu protokols un izpildes secība); §1.1, §7.25,
+§7.31, closure vārti, Git/branch protokols; principi `PROPOSED` ≠ OWNER,
+`OWNER_DECISION_REQUIRED`, COPY-ONLY, DE STRICT READ-ONLY.
+
+Version 1.18 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.19.
+
 ## Version 1.18
 
 Source-supported lingvistiskā audita metodika (MASTER 1.12 grozījumi):
@@ -7262,22 +7325,24 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## SAISTOŠAIS DARBA LĪGUMS UN FĀZE 0/1 SPEC (Crowdin / visu valodu saturs)
+## SAISTOŠAIS DARBA LĪGUMS
 
-Papildus šim MASTER dokumentam obligāti piemērojami:
+Papildus šim MASTER dokumentam obligāti piemērojams:
 
 1. **`MASTER_1.12_BINDING_WORK_AGREEMENT.md`** — saistošais izpildes līgums
-   visiem A1–C2, Teikumi, Verbi, Kurss un Crowdin darbiem; konfliktu
+   visiem A1–C2, Teikumi, Verbi un Kurss darbiem; konfliktu
    protokols (pretruna → STOP → OWNER apstiprinājums). Binding Work Agreement
-   ir **autoritatīvs izpildes secībai un konfliktu protokolam**.
-2. **`PHASE_0_CROWDIN_DISCOVERY_SPEC.md`** — Fāze 0 tehniskā specifikācija
-   (bridge atslēgu shēma, discovery orchestrator, READ-ONLY, bez apply).
-3. **`PHASE_1_READ_ONLY_DISCOVERY_SPEC.md`** — Fāze 1 pilna READ-ONLY
-   discovery specifikācija (320 scope, F1-1…F1-9, F0-COMP-1…15 pirms izpildes).
+   ir **autoritatīvs izpildes secībai un konfliktu protokolam**, ciktāl tas
+   nav atkarīgs no Crowdin satura kārtības, kas ar v1.19 ir izņemta.
+   Satura tulkojumu avotu apstiprināšana ir **§7.158**.
 
-Ja šo dokumentu prasības ir pretrunā ar iepriekšējām MASTER sadaļām, spēkā
-ir šis MASTER dokuments. Saistītie dokumenti precizē **procesa secību un
-Crowdin integrāciju**, nevis atceļ §1.1, §7, §9, §11 vai §17 prasības.
+`PHASE_0_CROWDIN_DISCOVERY_SPEC.md` un `PHASE_1_READ_ONLY_DISCOVERY_SPEC.md`
+nav aktīva satura kārtība (STATUS: DEPRECATED / NOT ACTIVE). Tie nav spēkā
+līdz OWNER atkārtotam apstiprinājumam.
+
+Ja Binding Work Agreement prasības ir pretrunā ar šī MASTER dokumenta
+sadaļām, spēkā ir šis MASTER dokuments. Līgums precizē **procesa secību un
+konfliktu protokolu**, nevis atceļ §1.1, §7, §7.158, §9, §11 vai §17 prasības.
 
 
 ## MASTER 1.17 --- END
