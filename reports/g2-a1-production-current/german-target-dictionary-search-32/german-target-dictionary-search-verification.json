@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "g2-a1-german-target-dictionary-search-verification-v1",
+  "generatedAt": "2026-09-22T16:46:49.752Z",
+  "languageCount": 32,
+  "pilotWordsPerLanguage": 4,
+  "classification": "G2_A1_GERMAN_TARGET_DICTIONARY_ACCESS_PARTIALLY_READY",
+  "metrics": {
+    "DICTIONARY_READY": 7,
+    "DICTIONARY_PARTIALLY_READY": 25,
+    "SUBSCRIPTION_REQUIRED": 0,
+    "AUTOMATIC_TRANSLATOR_ONLY": 0,
+    "TECHNICAL_ACCESS_BLOCKED": 0,
+    "NO_SUITABLE_DICTIONARY_FOUND": 0
+  },
+  "constraints": {
+    "productionDataChanged": false,
+    "deContentChanged": false,
+    "crowdinChanged": false,
+    "fullA1AuditRan": false,
+    "aiTranslationUsed": false
+  }
+}

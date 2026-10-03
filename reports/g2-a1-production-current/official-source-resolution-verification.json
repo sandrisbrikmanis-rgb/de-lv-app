@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "blockers": [],
+  "totalBlockedAtStart": 18,
+  "counts": {
+    "ENTRY_ACCESS_VERIFIED": 1,
+    "MANUAL_OFFICIAL_EVIDENCE_REQUIRED": 13,
+    "MASTER_SOURCE_CHANGE_REQUIRED": 4
+  },
+  "totalEntryPathsVerified": 15,
+  "classification": "G2_A1_OFFICIAL_SOURCE_BLOCKERS_INDIVIDUALLY_RESOLVED_AWAITING_OWNER_ACTION",
+  "nextAction": "OWNER_REVIEW_MANUAL_EVIDENCE_AND_MASTER_SOURCE_CHANGE_PROPOSALS",
+  "productionDiffClean": false,
+  "full95731AuditRan": false,
+  "ownerBacklogGenerated": false
+}

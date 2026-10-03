@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "g2-a1-german-target-dictionary-rescan-6-v1",
+  "languages": {
+    "bs": [
+      { "id": "dictcc-de-bs", "name": "dict.cc Deutsch–Bosnisch (de-bs.dict.cc)", "url": "https://de-bs.dict.cc/", "platform": "dict.cc", "entryCount": 8548, "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE" },
+      { "id": "dictcc-bsde", "name": "dict.cc Bosnian–German (bsde.dict.cc)", "url": "https://bsde.dict.cc/", "platform": "dict.cc" },
+      { "id": "verbformen-de-bs", "name": "Netzverb / verbformen Deutsch–Bosnisch", "url": "https://www.verbformen.de/de-bs/", "platform": "verbformen" },
+      { "id": "glosbe-de-bs", "name": "Glosbe German–Bosnian", "url": "https://glosbe.com/de/bs", "platform": "glosbe" },
+      { "id": "langenscheidt-de-bs", "name": "Langenscheidt German–Bosnian", "url": "https://en.langenscheidt.com/german-bosnian/", "platform": "langenscheidt" }
+    ],
+    "et": [
+      { "id": "glosbe-de-et", "name": "Glosbe German–Estonian", "url": "https://glosbe.com/de/et", "platform": "glosbe" },
+      { "id": "verbformen-de-et", "name": "Netzverb / verbformen Deutsch–Estnisch", "url": "https://www.verbformen.de/de-et/", "platform": "verbformen" },
+      { "id": "langenscheidt-de-et", "name": "Langenscheidt German–Estonian", "url": "https://en.langenscheidt.com/german-estonian/", "platform": "langenscheidt" },
+      { "id": "keelevara-sub", "name": "Keelevara TEA (subscription)", "url": "https://www.keelevara.ee/", "platform": "keelevara", "access": "SUBSCRIPTION_REQUIRED", "subscriptionReferenceOnly": true }
+    ],
+    "lb": [
+      { "id": "lod-lb-de-reverse", "name": "LOD (DE→LB reverse, /api/de/search)", "url": "https://lod.lu/", "platform": "lod", "searchMode": "LOD_DE_REVERSE_API" },
+      { "id": "luxdico-de-lb", "name": "Luxdico Deutsch–Luxemburgisch", "url": "http://dict.luxdico.com/neu/", "platform": "luxdico", "luxdicoL1": "deu", "luxdicoL2": "lux" },
+      { "id": "glosbe-de-lb", "name": "Glosbe German–Luxembourgish", "url": "https://glosbe.com/de/lb", "platform": "glosbe" },
+      { "id": "langenscheidt-de-lb", "name": "Langenscheidt German–Luxembourgish", "url": "https://en.langenscheidt.com/german-luxembourgish/", "platform": "langenscheidt" }
+    ],
+    "lt": [
+      { "id": "vokieciu-lietuviu", "name": "vokieciu-lietuviu.com", "url": "http://www.vokieciu-lietuviu.com/", "platform": "vokieciu-lietuviu", "entryCount": 16000, "entryCountStatus": "PUBLICLY_CONFIRMED_PUBLISHER_ESTIMATE" },
+      { "id": "glosbe-de-lt", "name": "Glosbe German–Lithuanian", "url": "https://glosbe.com/de/lt", "platform": "glosbe" },
+      { "id": "verbformen-de-lt", "name": "Netzverb / verbformen Deutsch–Litauisch", "url": "https://www.verbformen.de/de-lt/", "platform": "verbformen" },
+      { "id": "zodynai-legacy", "name": "zodynai.org (legacy portal)", "url": "https://www.zodynai.org/", "platform": "zodynai" }
+    ],
+    "sq": [
+      { "id": "dictcc-de-sq", "name": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)", "url": "https://de-sq.dict.cc/", "platform": "dict.cc" },
+      { "id": "dictcc-desq", "name": "dict.cc (desq.dict.cc)", "url": "https://desq.dict.cc/", "platform": "dict.cc" },
+      { "id": "verbformen-de-sq", "name": "Netzverb / verbformen Deutsch–Albanisch", "url": "https://www.verbformen.de/de-sq/", "platform": "verbformen" },
+      { "id": "dicts-info-de-sq", "name": "dicts.info German–Albanian", "url": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian", "platform": "dicts.info" },
+      { "id": "glosbe-de-sq", "name": "Glosbe German–Albanian", "url": "https://glosbe.com/de/sq", "platform": "glosbe" },
+      { "id": "langenscheidt-de-sq", "name": "Langenscheidt German–Albanian", "url": "https://en.langenscheidt.com/german-albanian/", "platform": "langenscheidt" }
+    ],
+    "uk": [
+      { "id": "dictcc-de-uk", "name": "dict.cc Deutsch–Ukrainisch (de-uk.dict.cc)", "url": "https://de-uk.dict.cc/", "platform": "dict.cc" },
+      { "id": "dictcc-deuk", "name": "dict.cc (deuk.dict.cc)", "url": "https://deuk.dict.cc/", "platform": "dict.cc" },
+      { "id": "udew-leipzig", "name": "UDEW Leipzig Ukrainian–German (online)", "url": "https://udew.uni-leipzig.de/udew/en/deutsch_ukrainisch_online.htm", "platform": "udew" },
+      { "id": "langenscheidt-de-uk", "name": "Langenscheidt German–Ukrainian", "url": "https://en.langenscheidt.com/german-ukrainian/", "platform": "langenscheidt" },
+      { "id": "glosbe-de-uk", "name": "Glosbe German–Ukrainian", "url": "https://glosbe.com/de/uk", "platform": "glosbe" },
+      { "id": "multitran-de-uk", "name": "Multitran German–Ukrainian", "url": "https://www.multitran.com/dictionary/german-ukrainian", "platform": "multitran" }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "pass": false,
+  "blockers": [
+    {
+      "code": "ENTRY_PATHS_NOT_ALL_VALIDATED",
+      "liveAdapters": 29,
+      "blockedOfficialAdapters": 3,
+      "entryPathsValidatedEstimate": 13,
+      "matrixClassification": "G2_A1_OFFICIAL_SOURCE_BROWSER_ACCESS_PARTIALLY_BLOCKED",
+      "blocked": [
+        {
+          "language": "bs",
+          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+          "adapterId": "bs-izj-no-entry"
+        },
+        {
+          "language": "sq",
+          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+          "adapterId": "sq-akad-no-entry"
+        },
+        {
+          "language": "sr",
+          "outcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+          "adapterId": "sr-isj-no-entry"
+        }
+      ]
+    },
+    {
+      "code": "V2_MULTI_PILOT_FAIL",
+      "failures": [
+        {
+          "id": "de-ru-cyrillic",
+          "deOutcome": "SOURCE_ENTRY_VALIDATED",
+          "targetOutcome": "SOURCE_ENTRY_VALIDATED",
+          "dual": true
+        }
+      ]
+    }
+  ],
+  "registryReconciliation": {
+    "classification": "MASTER_REGISTRY_INCOMPLETE",
+    "registryIncomplete": true
+  },
+  "integrationRan": true,
+  "integrationSummary": {
+    "adaptersImplemented": 32,
+    "liveAdapterCount": 29,
+    "positiveLivePass": 8,
+    "negativeLivePass": 32,
+    "blockedLanguages": [
+      {
+        "language": "bs",
+        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+        "adapterId": "bs-izj-no-entry"
+      },
+      {
+        "language": "sq",
+        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+        "adapterId": "sq-akad-no-entry"
+      },
+      {
+        "language": "sr",
+        "blockedOutcome": "SOURCE_NO_MACHINE_READABLE_ENTRY",
+        "adapterId": "sr-isj-no-entry"
+      }
+    ]
+  },
+  "multiPilot": {
+    "pass": false,
+    "dualValidatedCount": 7,
+    "pilotCount": 8
+  },
+  "productionDiffClean": true,
+  "classification": "G2_A1_OFFICIAL_SOURCE_BROWSER_ACCESS_PARTIALLY_BLOCKED",
+  "nextAction": "OWNER_DECISION_REQUIRED_FOR_REMAINING_SPECIFIC_AUTHORITIES"
+}
