@@ -8,6 +8,10 @@ const { buildNnPtRoReadinessReport } = require("./lib/g2-a1-production-current/c
 
 const OUT_DIR = path.join(ROOT, "reports/g2-a1-production-current/card-translation-nn-pt-ro-source-chain");
 
+function sourcePublicUrl(src) {
+  return src.portalUrl || src.catalogUrl || src.viewerUrl || src.downloadUrl || null;
+}
+
 function main() {
   const report = buildNnPtRoReadinessReport();
   fs.mkdirSync(OUT_DIR, { recursive: true });
@@ -55,7 +59,7 @@ function main() {
     if (lang.modernInstitutional?.length) {
       lines.push("", "### Institucionālie (mūsdienīgi)");
       for (const src of lang.modernInstitutional) {
-        lines.push(`- **${src.name}**: ${src.portalUrl}`);
+        lines.push(`- **${src.name}**: ${sourcePublicUrl(src)}`);
       }
     }
     if (lang.supplementaryControlOnly?.length) {
