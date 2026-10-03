@@ -4,6 +4,8 @@
   "scope": ["sl", "sq", "sr", "sv"],
   "pilotLemmasDe": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
   "methodNote": "Internet Archive / dLib.si meklēšana; pilots = OCR/tekstā DE headword meklēšana (tāds pats 6-lemmatu komplekts kā citos g2-a1 PDF discovery moduļos).",
+  "catalogPath": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-sl-sq-sr-sv.json",
+  "sourceChainReport": "reports/g2-a1-production-current/card-translation-sl-sq-sr-sv-source-chain/card-translation-sl-sq-sr-sv-source-chain.json",
   "discoveryRound2At": "2026-10-03T10:22:00.000Z",
   "discoveryRound2Notes": "Papildus IA: Murko 1888 DE-SL, Janežič Taschen 1866, Popović DE-SR 1879, Janežič bidir pocket. SQ/SV jauni atvērti OCR avoti nav atrasti; Simoni/Dhrimo joprojām nav brīvi pilotējami.",
   "discoveryRound3At": "2026-10-03T10:35:00.000Z",

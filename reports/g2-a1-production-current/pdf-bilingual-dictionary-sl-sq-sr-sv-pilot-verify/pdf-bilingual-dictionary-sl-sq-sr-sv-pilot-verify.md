@@ -12,4 +12,7 @@
 Pilns JSON: `pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify.json`  
 Discovery kopsavilkums: `../pdf-bilingual-dictionary-sl-sq-sr-sv-discovery/pdf-bilingual-dictionary-sl-sq-sr-sv-discovery.json`
 
+Reģistrs (audita saraksts): `scripts/lib/data/g2-a1-card-translation-bilingual-audit-sl-sq-sr-sv.json`  
+Avotu ķede: `../card-translation-sl-sq-sr-sv-source-chain/card-translation-sl-sq-sr-sv-source-chain.md`
+
 **Nav atrasts** nevienā valodā pilns 6/6 uz šo vispārīgo pilotu komplektu. Kleingeld / bewirten / Grenzkonflikt / Machtgier bieži trūkst vēsturiskajos OCR.
