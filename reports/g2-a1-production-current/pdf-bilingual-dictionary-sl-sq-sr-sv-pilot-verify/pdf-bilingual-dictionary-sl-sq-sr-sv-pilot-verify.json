@@ -26,8 +26,10 @@
         { "lemma": "Machtgier", "found": false }
       ],
       "supplementHits": {
+        "ia-deutschslowenis00murkgoog-1888": "2/6 (Haus, arbeiten)",
+        "ia-bub-gb-geodkupucbsc-janezic-taschen-1866": "2/6",
         "ia-bub-gb-nrataaaaiaaj-janezic-1905": "1/6 (arbeiten)",
-        "dlib-murko-de-sl-1833": "nav lejupielādēts šajā vidē (dLib TXT URL 404)"
+        "dlib-murko-de-sl-1833": "dLib TXT — alternatīva: IA Murko 1888"
       }
     },
     "sq": {
@@ -69,19 +71,34 @@
         { "lemma": "Grenzkonflikt", "found": false },
         { "lemma": "Machtgier", "found": false }
       ],
-      "interimHistorical": {
-        "sourceId": "ia-bub-gb-zevk-de-illyr-1818",
-        "ocrUrl": "https://archive.org/download/bub_gb_ZEVKAAAAcAAJ/bub_gb_ZEVKAAAAcAAJ_djvu.txt",
-        "deToTarget": [
-          { "lemma": "Haus", "found": true },
-          { "lemma": "arbeiten", "found": true },
-          { "lemma": "Kleingeld", "found": false },
-          { "lemma": "bewirten", "found": false },
-          { "lemma": "Grenzkonflikt", "found": false },
-          { "lemma": "Machtgier", "found": false }
-        ],
-        "note": "1790/91 Kurzbock DE↔Illyrisch — vēsturisks, nav tīrs mūsdienīgs sr"
-      }
+      "interimHistorical": [
+        {
+          "sourceId": "ia-wrterbuchderse01popo-popovic-1879",
+          "viewerUrl": "https://archive.org/details/wrterbuchderse01popo",
+          "ocrUrl": "https://archive.org/download/wrterbuchderse01popo/wrterbuchderse01popo_djvu.txt",
+          "deToTarget": [
+            { "lemma": "Haus", "found": false, "note": "nav pat hocr_searchtext" },
+            { "lemma": "arbeiten", "found": true, "note": "salikteņi abarbeiten/bearbeiten" },
+            { "lemma": "Kleingeld", "found": false },
+            { "lemma": "bewirten", "found": false },
+            { "lemma": "Grenzkonflikt", "found": false },
+            { "lemma": "Machtgier", "found": false }
+          ]
+        },
+        {
+          "sourceId": "ia-bub-gb-zevk-de-illyr-1818",
+          "ocrUrl": "https://archive.org/download/bub_gb_ZEVKAAAAcAAJ/bub_gb_ZEVKAAAAcAAJ_djvu.txt",
+          "deToTarget": [
+            { "lemma": "Haus", "found": true },
+            { "lemma": "arbeiten", "found": true },
+            { "lemma": "Kleingeld", "found": false },
+            { "lemma": "bewirten", "found": false },
+            { "lemma": "Grenzkonflikt", "found": false },
+            { "lemma": "Machtgier", "found": false }
+          ],
+          "note": "1790/91 Kurzbock — vēsturisks Illyrisch, ne tīrs mūsdienīgs sr"
+        }
+      ]
     },
     "sv": {
       "primarySourceId": "ia-tysksvenskordbok00hoppuoft",

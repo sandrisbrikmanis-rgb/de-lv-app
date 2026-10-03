@@ -4,12 +4,20 @@
   "scope": ["sl", "sq", "sr", "sv"],
   "pilotLemmasDe": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
   "methodNote": "Internet Archive / dLib.si meklēšana; pilots = OCR/tekstā DE headword meklēšana (tāds pats 6-lemmatu komplekts kā citos g2-a1 PDF discovery moduļos).",
+  "discoveryRound2At": "2026-10-03T10:22:00.000Z",
+  "discoveryRound2Notes": "Papildus IA: Murko 1888 DE-SL, Janežič Taschen 1866, Popović DE-SR 1879, Janežič bidir pocket. SQ/SV jauni atvērti OCR avoti nav atrasti; Simoni/Dhrimo joprojām nav brīvi pilotējami.",
   "bestFoundSource": {
     "sl": {
       "primaryId": "ia-deutschslovenis00unkngoog",
       "primaryName": "Deutsch-slovenisches Wörterbuch (Cigale, 1860, IA)",
-      "supplementIds": ["ia-bub-gb-nrataaaaiaaj-janezic-1905", "dlib-murko-de-sl-1833"],
+      "supplementIds": [
+        "ia-deutschslowenis00murkgoog-1888",
+        "ia-deutschslovenis00unkngoog-cigale-1860",
+        "ia-bub-gb-nrataaaaiaaj-janezic-1905",
+        "ia-bub-gb-geodkupucbsc-janezic-taschen-1866"
+      ],
       "pilotHitCountPrimaryOcr": "2/6",
+      "pilotHitCountMurko1888": "2/6",
       "digitizedAuditStatus": "PARTIAL"
     },
     "sq": {
@@ -26,10 +34,12 @@
       "primaryName": "Deutsch-serbisches Wörterbuch (Karadžić, 1872, LoC/IA)",
       "pilotHitCountPrimaryOcr": "0/6",
       "pilotOcrBlocker": "Tesseract Cyrillic/Fraktur — DE lemmati praktiski nav atrodami OCR tekstā",
-      "interimHistoricalId": "ia-bub-gb-zevk-de-illyr-1818",
-      "interimPilotHitCount": "2/6",
+      "interimHistoricalId": "ia-wrterbuchderse01popo-popovic-1879",
+      "interimPilotHitCount": "1/6",
+      "interimHistoricalAltId": "ia-bub-gb-zevk-de-illyr-1818",
+      "interimAltPilotHitCount": "2/6",
       "modernCandidateId": "ddb-bsb-danicic-jovanovic-1886",
-      "modernCandidateNote": "Daničić/Jovanović DE→SR (BSB 11646956) — DDB/IA šodien 503; jāpilotē atkārtoti",
+      "modernCandidateNote": "Daničić/Jovanović DE→SR (BSB 11646956 / Popović 1886 saistīts) — atsevišķs BSB OCR vēl jāpilotē; IA hocr: Haus nav, arbeiten salikteņi",
       "digitizedAuditStatus": "PARTIAL"
     },
     "sv": {

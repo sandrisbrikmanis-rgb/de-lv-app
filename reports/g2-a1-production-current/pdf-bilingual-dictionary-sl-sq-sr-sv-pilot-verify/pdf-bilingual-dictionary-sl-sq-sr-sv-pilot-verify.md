@@ -4,9 +4,9 @@
 
 | Valoda | Labākais digitizētais avots | DE→TARGET pilots | Piezīme |
 |--------|----------------------------|------------------|---------|
-| **sl** | Cigale 1860 IA (`deutschslovenis00unkngoog`) | **2/6** | Papildus Janežič/Bartel 1905 (1/6); Murko 1833 dLib TXT — jāpilotē atkārtoti |
+| **sl** | Cigale 1860 IA (primārais) | **2/6** | Murko 1888 IA **2/6**; Janežič Taschen 1866 **2/6**; Janežič/Bartel 1905 1/6 |
 | **sq** | Hahn/Martin *Albanesische Studien* (DE→SQ rādītājs) | **2/6** | Simoni DE–SQ 1997 IA — LCP, nav atvērts OCR; Xylander 1835 1/6 |
-| **sr** | Karadžić DE–SR 1872 (kanons) | **0/6** | OCR bloķēts; pagaidu vēsturisks Kurzbock 1818 **2/6**; Daničić/Jovanović 1886 BSB — IA 503 |
+| **sr** | Karadžić DE–SR 1872 (kanons) | **0/6** | Popović DE–SR 1879 IA **1/6**; Kurzbock 1818 **2/6**; BSB 1886 OCR vēl atsevišķi |
 | **sv** | Hoppe *Tysk-svensk* 1904 IA | **2/6** | Rosenberger/Auerbach 1956 arī 2/6; reverse **hus** Hoppe SV–DE |
 
 Pilns JSON: `pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify.json`  
