@@ -114,4 +114,5 @@ scripts/.et-a1-luna-progress.json
 reports/temp/phase1-luna-runs/
 reports/temp/g2-a1-phase3-luna-runs/
 reports/temp/g2-a1-production-current/OWNER_AUTHORIZATION_PACKAGE.runtime.json
+reports/temp/g2-a1-production-current/haus-preauthorized-capitalization-apply-verification.runtime.json
 scripts/.phase1-luna-*-progress.json

@@ -1,0 +1,3410 @@
+{
+  "schemaVersion": "g2-a1-german-target-dictionary-alternatives-v1",
+  "generatedAt": "2026-09-22T18:48:13.327Z",
+  "classification": "G2_A1_GERMAN_TARGET_DICTIONARY_ALTERNATIVES_DISCOVERED",
+  "nextAction": "OWNER_REVIEW_AND_APPROVE_DICTIONARY_REGISTRY",
+  "metrics": {
+    "languagesProbed": 32,
+    "languagesWithUsableAlternative": 32,
+    "languagesWithBetterThanMaster": 25,
+    "languagesDictionaryReadyViaRecommended": 27
+  },
+  "languages": [
+    {
+      "appCode": "lv",
+      "standardCode": "lv",
+      "masterRegistryUrl": "https://www.letonika.lv/dictionary",
+      "masterRegistryName": "Letonika German–Latvian dictionary",
+      "recommended": {
+        "platform": "master_manifest",
+        "tier": "MASTER_OTHER",
+        "name": "Letonika German–Latvian dictionary",
+        "url": "https://www.letonika.lv/dictionary",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "100000"
+      },
+      "betterThanMaster": false,
+      "usableAlternativeCount": 2,
+      "probedCandidateCount": 4,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "master_manifest",
+          "tier": "MASTER_OTHER",
+          "name": "Letonika German–Latvian dictionary",
+          "url": "https://www.letonika.lv/dictionary",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "Rezultāti no letonika.lv resursiem: 77",
+          "resultUrlHaus": "https://www.letonika.lv/groups/default.aspx?g=2&r=10601001&q=Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–LV (dictionary)",
+          "url": "https://glosbe.com/de/lv",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "māja",
+          "resultUrlHaus": "https://glosbe.com/de/lv/Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–LV",
+          "url": "https://en.langenscheidt.com/german-latvian",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://en.langenscheidt.com/"
+        },
+        {
+          "rank": 4,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–LV",
+          "url": "https://de.bab.la/woerterbuch/deutsch-lettisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-lettisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "lt",
+      "standardCode": "lt",
+      "masterRegistryUrl": "https://www.zodynai.org/",
+      "masterRegistryName": "Žodynai.org German–Lithuanian",
+      "recommended": {
+        "platform": "glosbe",
+        "tier": "GLOSBE",
+        "name": "Glosbe German–LT (dictionary)",
+        "url": "https://glosbe.com/de/lt",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 2,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–LT (dictionary)",
+          "url": "https://glosbe.com/de/lt",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "namas",
+          "resultUrlHaus": "https://glosbe.com/de/lt/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "vokieciu-lietuviu",
+          "tier": "NATIONAL",
+          "name": "Vokiečių–lietuvių žodynas (vokieciu-lietuviu.com)",
+          "url": "http://www.vokieciu-lietuviu.com/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "http://www.vokieciu-lietuviu.com/?word=Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "master_manifest",
+          "tier": "MASTER_OTHER",
+          "name": "Žodynai.org German–Lithuanian",
+          "url": "https://www.zodynai.org/",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://www.zodynai.org/vok/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–LT",
+          "url": "https://en.langenscheidt.com/german-lithuanian",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://en.langenscheidt.com/"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–LT",
+          "url": "https://de.bab.la/woerterbuch/deutsch-litauisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-litauisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "ru",
+      "standardCode": "ru",
+      "masterRegistryUrl": "https://deru.dict.cc/",
+      "masterRegistryName": "dict.cc German–Russian",
+      "recommended": {
+        "platform": "dict.cc",
+        "tier": "DICT_CC",
+        "name": "dict.cc German–Russian",
+        "url": "https://deru.dict.cc/",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "131192"
+      },
+      "betterThanMaster": false,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Russian",
+          "url": "https://deru.dict.cc/",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "Words: Others",
+          "resultUrlHaus": "https://deru.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–RU Dictionary",
+          "url": "https://en.pons.com/translate/german-russian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": ". Haus (Wohnhaus):",
+          "resultUrlHaus": "https://en.pons.com/translate/german-russian/Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–RU",
+          "url": "https://en.langenscheidt.com/german-russian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Russian translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-russian/haus"
+        },
+        {
+          "rank": 4,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–RU (dictionary)",
+          "url": "https://glosbe.com/de/ru",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "дом",
+          "resultUrlHaus": "https://glosbe.com/de/ru/Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–RU",
+          "url": "https://de.bab.la/woerterbuch/deutsch-russisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-russisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "pl",
+      "standardCode": "pl",
+      "masterRegistryUrl": "https://depl.dict.cc/",
+      "masterRegistryName": "dict.cc German–Polish",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–PL Dictionary",
+        "url": "https://en.pons.com/translate/german-polish",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–PL Dictionary",
+          "url": "https://en.pons.com/translate/german-polish",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "Haus:",
+          "resultUrlHaus": "https://en.pons.com/translate/german-polish/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–PL",
+          "url": "https://en.langenscheidt.com/german-polish",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Polish translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-polish/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–PL (dictionary)",
+          "url": "https://glosbe.com/de/pl",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "dom",
+          "resultUrlHaus": "https://glosbe.com/de/pl/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Polish",
+          "url": "https://depl.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "dom",
+          "resultUrlHaus": "https://depl.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–PL",
+          "url": "https://de.bab.la/woerterbuch/deutsch-polnisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-polnisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "uk",
+      "standardCode": "uk",
+      "masterRegistryUrl": "https://deuk.dict.cc/",
+      "masterRegistryName": "dict.cc German–Ukrainian",
+      "recommended": {
+        "platform": "glosbe",
+        "tier": "GLOSBE",
+        "name": "Glosbe German–UK (dictionary)",
+        "url": "https://glosbe.com/de/uk",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 2,
+      "probedCandidateCount": 4,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–UK (dictionary)",
+          "url": "https://glosbe.com/de/uk",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "дім",
+          "resultUrlHaus": "https://glosbe.com/de/uk/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Ukrainian",
+          "url": "https://deuk.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "будинок",
+          "resultUrlHaus": "https://deuk.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–UK",
+          "url": "https://en.langenscheidt.com/german-ukrainian",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://en.langenscheidt.com/"
+        },
+        {
+          "rank": 4,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–UK",
+          "url": "https://de.bab.la/woerterbuch/deutsch-ukrainisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-ukrainisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "et",
+      "standardCode": "et",
+      "masterRegistryUrl": "https://www.keelevara.ee/",
+      "masterRegistryName": "Keelevara Estonian–German (reverse search)",
+      "recommended": {
+        "platform": "glosbe",
+        "tier": "GLOSBE",
+        "name": "Glosbe German–ET (dictionary)",
+        "url": "https://glosbe.com/de/et",
+        "finalStatus": "DICTIONARY_PARTIALLY_READY",
+        "score": 11,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 1,
+      "probedCandidateCount": 3,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–ET (dictionary)",
+          "url": "https://glosbe.com/de/et",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 11,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "maja",
+          "resultUrlHaus": "https://glosbe.com/de/et/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–ET",
+          "url": "https://en.langenscheidt.com/german-estonian",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://en.langenscheidt.com/"
+        },
+        {
+          "rank": 3,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–ET",
+          "url": "https://de.bab.la/woerterbuch/deutsch-estnisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-estnisch/haus"
+        },
+        {
+          "rank": 4,
+          "platform": "keelevara",
+          "tier": "SUBSCRIPTION_REF",
+          "name": "Keelevara TEA German–Estonian",
+          "url": "https://www.keelevara.ee/",
+          "finalStatus": "SUBSCRIPTION_REQUIRED",
+          "score": -100,
+          "skippedLivePilots": true,
+          "isMasterRegistryUrl": true,
+          "pilots": null,
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": null
+        }
+      ]
+    },
+    {
+      "appCode": "en",
+      "standardCode": "en",
+      "masterRegistryUrl": "https://www.dict.cc/",
+      "masterRegistryName": "dict.cc German–English",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–EN Dictionary",
+        "url": "https://en.pons.com/translate/german-english",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 6,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–EN Dictionary",
+          "url": "https://en.pons.com/translate/german-english",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "house",
+          "resultUrlHaus": "https://en.pons.com/translate/german-english/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–EN",
+          "url": "https://en.langenscheidt.com/german-english",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-English translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-english/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–EN (dictionary)",
+          "url": "https://glosbe.com/de/en",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "house",
+          "resultUrlHaus": "https://glosbe.com/de/en/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–English",
+          "url": "https://www.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "domestic",
+          "resultUrlHaus": "https://www.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "leo",
+          "tier": "LEO",
+          "name": "LEO German–English",
+          "url": "https://dict.leo.org/german-english",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://dict.leo.org/german-english/search?query=Haus"
+        },
+        {
+          "rank": 6,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–EN",
+          "url": "https://de.bab.la/woerterbuch/deutsch-englisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-englisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "ro",
+      "standardCode": "ro",
+      "masterRegistryUrl": "https://dero.dict.cc/",
+      "masterRegistryName": "dict.cc German–Romanian",
+      "recommended": {
+        "platform": "dict.cc",
+        "tier": "DICT_CC",
+        "name": "dict.cc German–Romanian",
+        "url": "https://dero.dict.cc/",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "123554"
+      },
+      "betterThanMaster": false,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Romanian",
+          "url": "https://dero.dict.cc/",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "domestic",
+          "resultUrlHaus": "https://dero.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–RO Dictionary",
+          "url": "https://en.pons.com/translate/german-romanian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "Haus SUBST nt",
+          "resultUrlHaus": "https://de.pons.com/%C3%BCbersetzung/deutsch-rum%C3%A4nisch/Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–RO",
+          "url": "https://en.langenscheidt.com/german-romanian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Romanian translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-romanian/haus"
+        },
+        {
+          "rank": 4,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–RO (dictionary)",
+          "url": "https://glosbe.com/de/ro",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "casă",
+          "resultUrlHaus": "https://glosbe.com/de/ro/Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–RO",
+          "url": "https://de.bab.la/woerterbuch/deutsch-rumaenisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-rumaenisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "bg",
+      "standardCode": "bg",
+      "masterRegistryUrl": "https://bgde.dict.cc/",
+      "masterRegistryName": "dict.cc German–Bulgarian",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–BG Dictionary",
+        "url": "https://en.pons.com/translate/german-bulgarian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–BG Dictionary",
+          "url": "https://en.pons.com/translate/german-bulgarian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": ". Haus:",
+          "resultUrlHaus": "https://en.pons.com/translate/german-bulgarian/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–BG (dictionary)",
+          "url": "https://glosbe.com/de/bg",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "къща",
+          "resultUrlHaus": "https://glosbe.com/de/bg/Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Bulgarian",
+          "url": "https://bgde.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "къща",
+          "resultUrlHaus": "https://bgde.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–BG",
+          "url": "https://en.langenscheidt.com/german-bulgarian",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Bulgarian translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-bulgarian/haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–BG",
+          "url": "https://de.bab.la/woerterbuch/deutsch-bulgarisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-bulgarisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "tr",
+      "standardCode": "tr",
+      "masterRegistryUrl": "https://detr.dict.cc/",
+      "masterRegistryName": "dict.cc German–Turkish",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–TR Dictionary",
+        "url": "https://en.pons.com/translate/german-turkish",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–TR Dictionary",
+          "url": "https://en.pons.com/translate/german-turkish",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": ". Haus (Heim):",
+          "resultUrlHaus": "https://en.pons.com/translate/german-turkish/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–TR",
+          "url": "https://en.langenscheidt.com/german-turkish",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Turkish translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-turkish/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–TR (dictionary)",
+          "url": "https://glosbe.com/de/tr",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "ev",
+          "resultUrlHaus": "https://glosbe.com/de/tr/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Turkish",
+          "url": "https://detr.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 7,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "ev",
+          "resultUrlHaus": "https://detr.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–TR",
+          "url": "https://de.bab.la/woerterbuch/deutsch-tuerkisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-tuerkisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "gr",
+      "standardCode": "el",
+      "masterRegistryUrl": "https://deel.dict.cc/",
+      "masterRegistryName": "dict.cc German–Greek",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–EL Dictionary",
+        "url": "https://en.pons.com/translate/german-greek",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–EL Dictionary",
+          "url": "https://en.pons.com/translate/german-greek",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": ". Haus (Wohnhaus, Heim):",
+          "resultUrlHaus": "https://en.pons.com/translate/german-greek/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–EL",
+          "url": "https://en.langenscheidt.com/german-greek",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Greek translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-greek/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–EL (dictionary)",
+          "url": "https://glosbe.com/de/el",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "σπίτι",
+          "resultUrlHaus": "https://glosbe.com/de/el/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Greek",
+          "url": "https://deel.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 7,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "σπίτι",
+          "resultUrlHaus": "https://deel.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–EL",
+          "url": "https://de.bab.la/woerterbuch/deutsch-griechisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-griechisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "sq",
+      "standardCode": "sq",
+      "masterRegistryUrl": "https://desq.dict.cc/",
+      "masterRegistryName": "dict.cc German–Albanian",
+      "recommended": {
+        "platform": "glosbe",
+        "tier": "GLOSBE",
+        "name": "Glosbe German–SQ (dictionary)",
+        "url": "https://glosbe.com/de/sq",
+        "finalStatus": "DICTIONARY_PARTIALLY_READY",
+        "score": 11,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 2,
+      "probedCandidateCount": 4,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–SQ (dictionary)",
+          "url": "https://glosbe.com/de/sq",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 11,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "shtëpi",
+          "resultUrlHaus": "https://glosbe.com/de/sq/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Albanian",
+          "url": "https://desq.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 7,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "shtëpi",
+          "resultUrlHaus": "https://desq.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–SQ",
+          "url": "https://en.langenscheidt.com/german-albanian",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://en.langenscheidt.com/"
+        },
+        {
+          "rank": 4,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–SQ",
+          "url": "https://de.bab.la/woerterbuch/deutsch-albanisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-albanisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "mk",
+      "standardCode": "mk",
+      "masterRegistryUrl": "https://glosbe.com/de/mk",
+      "masterRegistryName": "Glosbe German–Macedonian",
+      "recommended": {
+        "platform": "master_manifest",
+        "tier": "MASTER_OTHER",
+        "name": "Glosbe German–Macedonian",
+        "url": "https://glosbe.com/de/mk",
+        "finalStatus": "DICTIONARY_PARTIALLY_READY",
+        "score": 22,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": false,
+      "usableAlternativeCount": 1,
+      "probedCandidateCount": 2,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "master_manifest",
+          "tier": "MASTER_OTHER",
+          "name": "Glosbe German–Macedonian",
+          "url": "https://glosbe.com/de/mk",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 22,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "куќа",
+          "resultUrlHaus": "https://glosbe.com/de/mk/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–MK",
+          "url": "https://en.langenscheidt.com/german-macedonian",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://en.langenscheidt.com/"
+        }
+      ]
+    },
+    {
+      "appCode": "sl",
+      "standardCode": "sl",
+      "masterRegistryUrl": "https://en.langenscheidt.com/german-slovenian",
+      "masterRegistryName": "Langenscheidt German–Slovenian",
+      "recommended": {
+        "platform": "master_manifest",
+        "tier": "MASTER_OTHER",
+        "name": "Langenscheidt German–Slovenian",
+        "url": "https://en.langenscheidt.com/german-slovenian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": false,
+      "usableAlternativeCount": 3,
+      "probedCandidateCount": 4,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "master_manifest",
+          "tier": "MASTER_OTHER",
+          "name": "Langenscheidt German–Slovenian",
+          "url": "https://en.langenscheidt.com/german-slovenian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Slovenian translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-slovenian/haus"
+        },
+        {
+          "rank": 2,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–SL Dictionary",
+          "url": "https://en.pons.com/translate/german-slovenian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": ". Haus (Wohnhaus, Heim):",
+          "resultUrlHaus": "https://en.pons.com/translate/german-slovenian/Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–SL (dictionary)",
+          "url": "https://glosbe.com/de/sl",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "hiša",
+          "resultUrlHaus": "https://glosbe.com/de/sl/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–SL",
+          "url": "https://de.bab.la/woerterbuch/deutsch-slowenisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-slowenisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "bs",
+      "standardCode": "bs",
+      "masterRegistryUrl": "https://bsde.dict.cc/",
+      "masterRegistryName": "dict.cc German–Bosnian",
+      "recommended": {
+        "platform": "glosbe",
+        "tier": "GLOSBE",
+        "name": "Glosbe German–BS (dictionary)",
+        "url": "https://glosbe.com/de/bs",
+        "finalStatus": "DICTIONARY_PARTIALLY_READY",
+        "score": 29,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 2,
+      "probedCandidateCount": 4,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–BS (dictionary)",
+          "url": "https://glosbe.com/de/bs",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "kuća",
+          "resultUrlHaus": "https://glosbe.com/de/bs/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Bosnian",
+          "url": "https://bsde.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 7,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://bsde.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–BS",
+          "url": "https://en.langenscheidt.com/german-bosnian",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://en.langenscheidt.com/"
+        },
+        {
+          "rank": 4,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–BS",
+          "url": "https://de.bab.la/woerterbuch/deutsch-bosnisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-bosnisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "sr",
+      "standardCode": "sr",
+      "masterRegistryUrl": "https://desr.dict.cc/",
+      "masterRegistryName": "dict.cc German–Serbian",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–SR Dictionary",
+        "url": "https://en.pons.com/translate/german-serbian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 3,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–SR Dictionary",
+          "url": "https://en.pons.com/translate/german-serbian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": ". Haus:",
+          "resultUrlHaus": "https://en.pons.com/translate/german-serbian/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–SR (dictionary)",
+          "url": "https://glosbe.com/de/sr",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 22,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "кућа",
+          "resultUrlHaus": "https://glosbe.com/de/sr/Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Serbian",
+          "url": "https://desr.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "кућа",
+          "resultUrlHaus": "https://desr.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–SR",
+          "url": "https://en.langenscheidt.com/german-serbian",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://en.langenscheidt.com/"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–SR",
+          "url": "https://de.bab.la/woerterbuch/deutsch-serbisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-serbisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "hr",
+      "standardCode": "hr",
+      "masterRegistryUrl": "https://dehr.dict.cc/",
+      "masterRegistryName": "dict.cc German–Croatian",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–HR Dictionary",
+        "url": "https://en.pons.com/translate/german-croatian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–HR Dictionary",
+          "url": "https://en.pons.com/translate/german-croatian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "Haus (Heim) (Parlament)",
+          "resultUrlHaus": "https://en.pons.com/translate/german-croatian/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–HR",
+          "url": "https://en.langenscheidt.com/german-croatian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Croatian translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-croatian/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–HR (dictionary)",
+          "url": "https://glosbe.com/de/hr",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "kuća",
+          "resultUrlHaus": "https://glosbe.com/de/hr/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Croatian",
+          "url": "https://dehr.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "kuća",
+          "resultUrlHaus": "https://dehr.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–HR",
+          "url": "https://de.bab.la/woerterbuch/deutsch-kroatisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-kroatisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "sk",
+      "standardCode": "sk",
+      "masterRegistryUrl": "https://desk.dict.cc/",
+      "masterRegistryName": "dict.cc German–Slovak",
+      "recommended": {
+        "platform": "langenscheidt",
+        "tier": "LANGENSCHEIDT",
+        "name": "Langenscheidt German–SK",
+        "url": "https://en.langenscheidt.com/german-slovak",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 3,
+      "probedCandidateCount": 4,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–SK",
+          "url": "https://en.langenscheidt.com/german-slovak",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Slovak translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-slovak/haus"
+        },
+        {
+          "rank": 2,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–SK (dictionary)",
+          "url": "https://glosbe.com/de/sk",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "dom",
+          "resultUrlHaus": "https://glosbe.com/de/sk/Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Slovak",
+          "url": "https://desk.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "dom",
+          "resultUrlHaus": "https://desk.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–SK",
+          "url": "https://de.bab.la/woerterbuch/deutsch-slowakisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-slowakisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "cs",
+      "standardCode": "cs",
+      "masterRegistryUrl": "https://csde.dict.cc/",
+      "masterRegistryName": "dict.cc German–Czech",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–CS Dictionary",
+        "url": "https://en.pons.com/translate/german-czech",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–CS Dictionary",
+          "url": "https://en.pons.com/translate/german-czech",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "Haus (Firma)",
+          "resultUrlHaus": "https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–CS",
+          "url": "https://en.langenscheidt.com/german-czech",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Czech translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-czech/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–CS (dictionary)",
+          "url": "https://glosbe.com/de/cs",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "dům",
+          "resultUrlHaus": "https://glosbe.com/de/cs/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Czech",
+          "url": "https://csde.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "dům",
+          "resultUrlHaus": "https://csde.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–CS",
+          "url": "https://de.bab.la/woerterbuch/deutsch-tschechisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-tschechisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "fi",
+      "standardCode": "fi",
+      "masterRegistryUrl": "https://defi.dict.cc/",
+      "masterRegistryName": "dict.cc German–Finnish",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–FI Dictionary",
+        "url": "https://en.pons.com/translate/german-finnish",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 3,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–FI Dictionary",
+          "url": "https://en.pons.com/translate/german-finnish",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "Haus SUBST nt",
+          "resultUrlHaus": "https://de.pons.com/%C3%BCbersetzung/deutsch-finnisch/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–FI (dictionary)",
+          "url": "https://glosbe.com/de/fi",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "talo",
+          "resultUrlHaus": "https://glosbe.com/de/fi/Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Finnish",
+          "url": "https://defi.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "talo",
+          "resultUrlHaus": "https://defi.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–FI",
+          "url": "https://en.langenscheidt.com/german-finnish",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://en.langenscheidt.com/"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–FI",
+          "url": "https://de.bab.la/woerterbuch/deutsch-finnisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-finnisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "sv",
+      "standardCode": "sv",
+      "masterRegistryUrl": "https://desv.dict.cc/",
+      "masterRegistryName": "dict.cc German–Swedish",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–SV Dictionary",
+        "url": "https://en.pons.com/translate/german-swedish",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–SV Dictionary",
+          "url": "https://en.pons.com/translate/german-swedish",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "Haus N nt",
+          "resultUrlHaus": "https://en.pons.com/translate/german-swedish/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–SV",
+          "url": "https://en.langenscheidt.com/german-swedish",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Swedish translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-swedish/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–SV (dictionary)",
+          "url": "https://glosbe.com/de/sv",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "hus",
+          "resultUrlHaus": "https://glosbe.com/de/sv/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Swedish",
+          "url": "https://desv.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "Words: Others",
+          "resultUrlHaus": "https://desv.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–SV",
+          "url": "https://de.bab.la/woerterbuch/deutsch-schwedisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-schwedisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "nb",
+      "standardCode": "nb",
+      "masterRegistryUrl": "https://deno.dict.cc/",
+      "masterRegistryName": "dict.cc German–Norwegian Bokmål",
+      "recommended": {
+        "platform": "dict.cc",
+        "tier": "DICT_CC",
+        "name": "dict.cc German–Norwegian Bokmål",
+        "url": "https://deno.dict.cc/",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "50665"
+      },
+      "betterThanMaster": false,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Norwegian Bokmål",
+          "url": "https://deno.dict.cc/",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "hus",
+          "resultUrlHaus": "https://deno.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–NB Dictionary",
+          "url": "https://en.pons.com/translate/german-norwegian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "Haus SUBST nt",
+          "resultUrlHaus": "https://de.pons.com/%C3%BCbersetzung/deutsch-norwegisch/Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–NB",
+          "url": "https://en.langenscheidt.com/german-norwegian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Norwegian translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-norwegian/haus"
+        },
+        {
+          "rank": 4,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–NB (dictionary)",
+          "url": "https://glosbe.com/de/nb",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "hus",
+          "resultUrlHaus": "https://glosbe.com/de/nb/Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–NB",
+          "url": "https://de.bab.la/woerterbuch/deutsch-norwegisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-norwegisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "nn",
+      "standardCode": "nn",
+      "masterRegistryUrl": "https://glosbe.com/de/nn",
+      "masterRegistryName": "Glosbe German–Nynorsk",
+      "recommended": {
+        "platform": "langenscheidt",
+        "tier": "LANGENSCHEIDT",
+        "name": "Langenscheidt German–NN",
+        "url": "https://en.langenscheidt.com/german-norwegian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 2,
+      "probedCandidateCount": 2,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–NN",
+          "url": "https://en.langenscheidt.com/german-norwegian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Norwegian translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-norwegian/haus"
+        },
+        {
+          "rank": 2,
+          "platform": "master_manifest",
+          "tier": "MASTER_OTHER",
+          "name": "Glosbe German–Nynorsk",
+          "url": "https://glosbe.com/de/nn",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 22,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "hus",
+          "resultUrlHaus": "https://glosbe.com/de/nn/Haus"
+        }
+      ]
+    },
+    {
+      "appCode": "da",
+      "standardCode": "da",
+      "masterRegistryUrl": "https://dade.dict.cc/",
+      "masterRegistryName": "dict.cc German–Danish",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–DA Dictionary",
+        "url": "https://en.pons.com/translate/german-danish",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–DA Dictionary",
+          "url": "https://en.pons.com/translate/german-danish",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "hus nt",
+          "resultUrlHaus": "https://de.pons.com/%C3%BCbersetzung/deutsch-d%C3%A4nisch/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–DA",
+          "url": "https://en.langenscheidt.com/german-danish",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Danish translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-danish/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–DA (dictionary)",
+          "url": "https://glosbe.com/de/da",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "hus",
+          "resultUrlHaus": "https://glosbe.com/de/da/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Danish",
+          "url": "https://dade.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "hus",
+          "resultUrlHaus": "https://dade.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–DA",
+          "url": "https://de.bab.la/woerterbuch/deutsch-daenisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-daenisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "nl",
+      "standardCode": "nl",
+      "masterRegistryUrl": "https://denl.dict.cc/",
+      "masterRegistryName": "dict.cc German–Dutch",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–NL Dictionary",
+        "url": "https://en.pons.com/translate/german-dutch",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–NL Dictionary",
+          "url": "https://en.pons.com/translate/german-dutch",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "(het) huis",
+          "resultUrlHaus": "https://en.pons.com/translate/german-dutch/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–NL",
+          "url": "https://en.langenscheidt.com/german-dutch",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Dutch translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-dutch/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–NL (dictionary)",
+          "url": "https://glosbe.com/de/nl",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "huis",
+          "resultUrlHaus": "https://glosbe.com/de/nl/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Dutch",
+          "url": "https://denl.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "huis",
+          "resultUrlHaus": "https://denl.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–NL",
+          "url": "https://de.bab.la/woerterbuch/deutsch-niederlaendisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-niederlaendisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "lb",
+      "standardCode": "lb",
+      "masterRegistryUrl": "https://lod.lu/",
+      "masterRegistryName": "Lëtzebuerger Online Dictionnaire (LOD)",
+      "recommended": {
+        "platform": "glosbe",
+        "tier": "GLOSBE",
+        "name": "Glosbe German–LB (dictionary)",
+        "url": "https://glosbe.com/de/lb",
+        "finalStatus": "DICTIONARY_PARTIALLY_READY",
+        "score": 11,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 2,
+      "probedCandidateCount": 3,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–LB (dictionary)",
+          "url": "https://glosbe.com/de/lb",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 11,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "Häuschen",
+          "resultUrlHaus": "https://glosbe.com/de/lb/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "master_manifest",
+          "tier": "MASTER_OTHER",
+          "name": "Lëtzebuerger Online Dictionnaire (LOD)",
+          "url": "https://lod.lu/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 7,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "Haus",
+          "resultUrlHaus": "https://lod.lu/advanced-search/1?query=Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–LB",
+          "url": "https://en.langenscheidt.com/german-luxembourgish",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://en.langenscheidt.com/"
+        }
+      ]
+    },
+    {
+      "appCode": "fr",
+      "standardCode": "fr",
+      "masterRegistryUrl": "https://defr.dict.cc/",
+      "masterRegistryName": "dict.cc German–French",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–FR Dictionary",
+        "url": "https://en.pons.com/translate/german-french",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–FR Dictionary",
+          "url": "https://en.pons.com/translate/german-french",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": ". Haus:",
+          "resultUrlHaus": "https://en.pons.com/translate/german-french/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–FR",
+          "url": "https://en.langenscheidt.com/german-french",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-French translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-french/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–FR (dictionary)",
+          "url": "https://glosbe.com/de/fr",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "maison",
+          "resultUrlHaus": "https://glosbe.com/de/fr/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–French",
+          "url": "https://defr.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "Words: Others",
+          "resultUrlHaus": "https://defr.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–FR",
+          "url": "https://de.bab.la/woerterbuch/deutsch-franzoesisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-franzoesisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "it",
+      "standardCode": "it",
+      "masterRegistryUrl": "https://deit.dict.cc/",
+      "masterRegistryName": "dict.cc German–Italian",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–IT Dictionary",
+        "url": "https://en.pons.com/translate/german-italian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–IT Dictionary",
+          "url": "https://en.pons.com/translate/german-italian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": ". Haus:",
+          "resultUrlHaus": "https://en.pons.com/translate/german-italian/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–IT",
+          "url": "https://en.langenscheidt.com/german-italian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Italian translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-italian/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–IT (dictionary)",
+          "url": "https://glosbe.com/de/it",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "casa",
+          "resultUrlHaus": "https://glosbe.com/de/it/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Italian",
+          "url": "https://deit.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "Words: Verbs",
+          "resultUrlHaus": "https://deit.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–IT",
+          "url": "https://de.bab.la/woerterbuch/deutsch-italienisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-italienisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "es",
+      "standardCode": "es",
+      "masterRegistryUrl": "https://dees.dict.cc/",
+      "masterRegistryName": "dict.cc German–Spanish",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–ES Dictionary",
+        "url": "https://en.pons.com/translate/german-spanish",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–ES Dictionary",
+          "url": "https://en.pons.com/translate/german-spanish",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": ". Haus:",
+          "resultUrlHaus": "https://en.pons.com/translate/german-spanish/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–ES",
+          "url": "https://en.langenscheidt.com/german-spanish",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Spanish translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-spanish/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–ES (dictionary)",
+          "url": "https://glosbe.com/de/es",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "casa",
+          "resultUrlHaus": "https://glosbe.com/de/es/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Spanish",
+          "url": "https://dees.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "casa",
+          "resultUrlHaus": "https://dees.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–ES",
+          "url": "https://de.bab.la/woerterbuch/deutsch-spanisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-spanisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "pt",
+      "standardCode": "pt",
+      "masterRegistryUrl": "https://dept.dict.cc/",
+      "masterRegistryName": "dict.cc German–Portuguese",
+      "recommended": {
+        "platform": "dict.cc",
+        "tier": "DICT_CC",
+        "name": "dict.cc German–Portuguese",
+        "url": "https://dept.dict.cc/",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "62569"
+      },
+      "betterThanMaster": false,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Portuguese",
+          "url": "https://dept.dict.cc/",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "domiciliar",
+          "resultUrlHaus": "https://dept.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–PT Dictionary",
+          "url": "https://en.pons.com/translate/german-portuguese",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "casa f",
+          "resultUrlHaus": "https://en.pons.com/translate/german-portuguese/Haus"
+        },
+        {
+          "rank": 3,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–PT",
+          "url": "https://en.langenscheidt.com/german-portuguese",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Portuguese translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-portuguese/haus"
+        },
+        {
+          "rank": 4,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–PT (dictionary)",
+          "url": "https://glosbe.com/de/pt",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "casa",
+          "resultUrlHaus": "https://glosbe.com/de/pt/Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–PT",
+          "url": "https://de.bab.la/woerterbuch/deutsch-portugiesisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-portugiesisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "hu",
+      "standardCode": "hu",
+      "masterRegistryUrl": "https://dehu.dict.cc/",
+      "masterRegistryName": "dict.cc German–Hungarian",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–HU Dictionary",
+        "url": "https://en.pons.com/translate/german-hungarian",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 5,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–HU Dictionary",
+          "url": "https://en.pons.com/translate/german-hungarian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "Haus SUBST nt",
+          "resultUrlHaus": "https://de.pons.com/%C3%BCbersetzung/deutsch-ungarisch/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–HU",
+          "url": "https://en.langenscheidt.com/german-hungarian",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Hungarian translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-hungarian/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–HU (dictionary)",
+          "url": "https://glosbe.com/de/hu",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "ház",
+          "resultUrlHaus": "https://glosbe.com/de/hu/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Hungarian",
+          "url": "https://dehu.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": "ház",
+          "resultUrlHaus": "https://dehu.dict.cc/?s=Haus"
+        },
+        {
+          "rank": 5,
+          "platform": "bab.la",
+          "tier": "BABL_LA",
+          "name": "bab.la German–HU",
+          "url": "https://de.bab.la/woerterbuch/deutsch-ungarisch",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          },
+          "sampleTranslationHaus": null,
+          "resultUrlHaus": "https://de.bab.la/woerterbuch/deutsch-ungarisch/haus"
+        }
+      ]
+    },
+    {
+      "appCode": "is",
+      "standardCode": "is",
+      "masterRegistryUrl": "https://deis.dict.cc/",
+      "masterRegistryName": "dict.cc German–Icelandic",
+      "recommended": {
+        "platform": "pons",
+        "tier": "PONS",
+        "name": "PONS German–IS Dictionary",
+        "url": "https://en.pons.com/translate/german-icelandic",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED"
+      },
+      "betterThanMaster": true,
+      "usableAlternativeCount": 4,
+      "probedCandidateCount": 4,
+      "alternativesRanked": [
+        {
+          "rank": 1,
+          "platform": "pons",
+          "tier": "PONS",
+          "name": "PONS German–IS Dictionary",
+          "url": "https://en.pons.com/translate/german-icelandic",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "hús nt",
+          "resultUrlHaus": "https://de.pons.com/%C3%BCbersetzung/deutsch-isl%C3%A4ndisch/Haus"
+        },
+        {
+          "rank": 2,
+          "platform": "langenscheidt",
+          "tier": "LANGENSCHEIDT",
+          "name": "Langenscheidt German–IS",
+          "url": "https://en.langenscheidt.com/german-icelandic",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "German-Icelandic translation for \"Haus\"",
+          "resultUrlHaus": "https://en.langenscheidt.com/german-icelandic/haus"
+        },
+        {
+          "rank": 3,
+          "platform": "glosbe",
+          "tier": "GLOSBE",
+          "name": "Glosbe German–IS (dictionary)",
+          "url": "https://glosbe.com/de/is",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 22,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": false,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "hús",
+          "resultUrlHaus": "https://glosbe.com/de/is/Haus"
+        },
+        {
+          "rank": 4,
+          "platform": "dict.cc",
+          "tier": "DICT_CC",
+          "name": "dict.cc German–Icelandic",
+          "url": "https://deis.dict.cc/",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "isMasterRegistryUrl": true,
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "FOUND"
+          },
+          "sampleTranslationHaus": "Words: Others",
+          "resultUrlHaus": "https://deis.dict.cc/?s=Haus"
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "productionDataChanged": false,
+    "fullA1AuditRan": false,
+    "aiTranslationUsed": false,
+    "internetPriorityCatalogUsed": true
+  }
+}

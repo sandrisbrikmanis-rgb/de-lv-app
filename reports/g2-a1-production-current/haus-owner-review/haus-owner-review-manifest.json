@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-09-20T14:30:07.420Z",
+  "sourcePilotDir": "reports/g2-a1-production-current/haus-32-language-source-pilot",
+  "originalPackageBaseline": {
+    "PASS": 4,
+    "FINDING": 9,
+    "NEEDS_SOURCE_REVIEW": 19,
+    "SOURCE_DE_ISSUE": 0
+  },
+  "auditCounts": {
+    "PASS": 4,
+    "FINDING": 10,
+    "NEEDS_SOURCE_REVIEW": 18,
+    "SOURCE_DE_ISSUE": 0
+  },
+  "ownerDecisionFinal": {
+    "LABOT": 10,
+    "NELABOT": 0,
+    "PENDING": 0,
+    "NEEDS_SOURCE_REVIEW": 0,
+    "SOURCE_DE_ISSUE": 0,
+    "empty": 0,
+    "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY": 6,
+    "OWNER_INDIVIDUAL_LABOT": 4,
+    "OWNER_PENDING_FINDINGS": 0,
+    "NSR_REMAINING": 18
+  },
+  "ownerDecisionsFilled": true,
+  "ownerPreauthorization": {
+    "class": "OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY",
+    "capitalizationRows": 6,
+    "lexicalRowsOwnerLabot": 4,
+    "lexicalRowsPendingIndividualOwner": 0,
+    "nsrRemaining": 18
+  },
+  "invalidatedPriorRuns": [
+    "INVALIDATED_UNAUTHORIZED_OWNER_FIELD_POPULATION"
+  ],
+  "priorRunNote": "Commit 81a4d7f1 auto-filled OWNER_STATUS/LABOT — void; OWNER fields must be filled only by OWNER.",
+  "coverage": {
+    "totalLanguages": 32,
+    "auditFindingRows": 10,
+    "nsrRows": 18,
+    "auditPassRows": 4,
+    "sum": 32
+  },
+  "full95731FieldAuditRun": false,
+  "FULL_LINGUISTIC_AUDITS_EXECUTED": 0,
+  "productionApply": false,
+  "lexicalProductionApply": true,
+  "lexicalProductionApplyClosure": "reports/g2-a1-production-current/haus-owner-review/haus-owner-lexical-production-apply-closure.json",
+  "classification": "G2_A1_HAUS_4_OWNER_LEXICAL_FIXES_APPLIED_AND_VERIFIED",
+  "nextAction": "RESOLVE_18_REMAINING_HAUS_SOURCE_BLOCKERS",
+  "languageOrder": [
+    "bs",
+    "en",
+    "cs",
+    "da",
+    "et",
+    "es",
+    "fr",
+    "hr",
+    "is",
+    "it",
+    "lv",
+    "lb",
+    "lt",
+    "hu",
+    "nl",
+    "nb",
+    "nn",
+    "pl",
+    "pt",
+    "ro",
+    "sq",
+    "sk",
+    "sl",
+    "sr",
+    "fi",
+    "sv",
+    "tr",
+    "gr",
+    "bg",
+    "mk",
+    "ru",
+    "uk"
+  ]
+}

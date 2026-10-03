@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "blockers": [],
+  "integrated": 32,
+  "classification": "MASTER_GERMAN_TARGET_BILINGUAL_DICTIONARIES_INTEGRATED_32_OF_32",
+  "nextAction": "VERIFY_GERMAN_TARGET_DICTIONARY_PILOT_CONTENT",
+  "fullA1AuditRan": false,
+  "summary": {
+    "bilingualDictionaries": "32/32",
+    "withPublicEntryCount": 28,
+    "entryCountNotPubliclyConfirmed": 4,
+    "dictCcLanguages": 25,
+    "dictCcMinEntries": 8000,
+    "languagesWithoutBilingual": 0,
+    "nbNnSeparate": true,
+    "grElMapping": true
+  },
+  "verifiedAt": "2026-09-21T15:12:03.837Z"
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "role": "PRODUCTION_APPLY_CLOSURE",
+  "description": "Immutable record of the six authorized Haus capitalization production commits. Does not embed VERIFIED_AT_HEAD or PR HEAD.",
+  "preApplySha": "1b3a1839c306f333ba3cc612fa58658e0a991b90",
+  "productionApplySha": "9b3b4e6fc868d08f02ec80bb72aa6cc43d3bfa0c",
+  "verifierSchemaVersion": 2,
+  "applyRange": {
+    "changedProductionLogicalFields": 6,
+    "changedDataFields": 6,
+    "changedWwwMirrorFields": 6,
+    "changedFiles": 12,
+    "unauthorizedProductionFieldChanges": 0,
+    "deFieldChanges": 0,
+    "crowdinChanges": 0,
+    "mirrorMismatches": 0,
+    "productionFileSetShaBefore": "bbf0cef3bed487fdfa95ffb7bbe291c05f51588e33367b2dce4a0baaa8eab1eb",
+    "productionFileSetShaAfter": "7dfe4544495f36bd52d84fa25d66584e482fdfab14d9830d65f0bb01a77b39fc"
+  },
+  "authorizedFieldChanges": [
+    {
+      "language": "en",
+      "cardId": "a1-haus-en-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/en/a1.js",
+      "wwwMirror": "www/data/en/a1.js",
+      "before": "House",
+      "after": "house"
+    },
+    {
+      "language": "da",
+      "cardId": "a1-haus-da-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/da/a1.js",
+      "wwwMirror": "www/data/da/a1.js",
+      "before": "Hus",
+      "after": "hus"
+    },
+    {
+      "language": "tr",
+      "cardId": "a1-haus-tr-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/tr/a1.js",
+      "wwwMirror": "www/data/tr/a1.js",
+      "before": "Ev",
+      "after": "ev"
+    },
+    {
+      "language": "gr",
+      "cardId": "a1-haus-gr-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/gr/a1.js",
+      "wwwMirror": "www/data/gr/a1.js",
+      "before": "Σπίτι",
+      "after": "σπίτι"
+    },
+    {
+      "language": "ru",
+      "cardId": "a1-haus-ru-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/ru/a1.js",
+      "wwwMirror": "www/data/ru/a1.js",
+      "before": "Дом",
+      "after": "дом"
+    },
+    {
+      "language": "cs",
+      "cardId": "a1-haus-cs-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/cs/a1.js",
+      "wwwMirror": "www/data/cs/a1.js",
+      "before": "Dům",
+      "after": "dům"
+    }
+  ]
+}

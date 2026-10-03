@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-09-20T15:27:27.890Z",
+  "bundles": [
+    {
+      "language": "bs",
+      "sourceBundleId": "bs-official-bundle-v1",
+      "sources": [
+        {
+          "role": "MASTER_CURRENT",
+          "institution": "Univerzitet u Sarajevu — Institut za jezik",
+          "urlOrFile": null,
+          "sha256": null,
+          "proves": [
+            "TARGET_LEMMA",
+            "TARGET_SPELLING"
+          ]
+        }
+      ],
+      "mandatoryElementsCovered": false,
+      "bundlePass": false
+    }
+  ]
+}

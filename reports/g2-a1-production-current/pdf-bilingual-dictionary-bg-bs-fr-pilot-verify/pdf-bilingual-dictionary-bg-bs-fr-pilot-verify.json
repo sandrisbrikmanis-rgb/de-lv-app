@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-bg-bs-fr-pilot-verify-v1",
+  "generatedAt": "2026-09-30T16:38:00.000Z",
+  "pilotLemmasDe": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+  "productionHausTarget": { "bg": "къща", "bs": "kuća", "fr": "Maison" },
+  "summary": {
+    "fr": {
+      "status": "PARTIAL",
+      "sourcePrimary": "sachs-villatte-1906 (IA _djvu.txt)",
+      "deToTargetHits": "3/6",
+      "targetToDeHausMaison": true,
+      "sourceBaseline": "mozin-1823-de-ak (IA _djvu.txt)",
+      "baselineDeToTargetHits": "3/6",
+      "baselineTargetToDeMaison": true
+    },
+    "bg": {
+      "status": "PARTIAL",
+      "sourcePrimary": "mdz-bsb-miladinov-vol1-1897 (IIIF + tesseract deu, sampled pages 80–520)",
+      "deToTargetHits": "2/6",
+      "targetToDeKyshta": null,
+      "note": "Kleingeld / Grenzkonflikt / Machtgier likely absent in 1897 lexicon or missed by coarse OCR; arbeiten hit may be compound substring — verify on MDZ p.280"
+    },
+    "bs": {
+      "status": "NOT_FOUND",
+      "sourcePrimary": null,
+      "deToTargetHits": "0/6",
+      "targetToDeKuca": false,
+      "note": "No digitized DE↔BS dictionary — pilot not runnable"
+    }
+  },
+  "pilotVerification": {
+    "fr": {
+      "sachsVillatte1906": {
+        "deToTarget": [
+          { "lemma": "Haus", "found": true },
+          { "lemma": "arbeiten", "found": true },
+          { "lemma": "Kleingeld", "found": false },
+          { "lemma": "bewirten", "found": true },
+          { "lemma": "Grenzkonflikt", "found": false },
+          { "lemma": "Machtgier", "found": false }
+        ],
+        "targetToDe": { "lemma": "Maison", "found": true }
+      },
+      "mozin1823Baseline": {
+        "deToTarget": [
+          { "lemma": "Haus", "found": true },
+          { "lemma": "arbeiten", "found": true },
+          { "lemma": "Kleingeld", "found": false },
+          { "lemma": "bewirten", "found": true },
+          { "lemma": "Grenzkonflikt", "found": false },
+          { "lemma": "Machtgier", "found": false }
+        ],
+        "targetToDe": { "lemma": "Maison", "found": true }
+      }
+    },
+    "bg": {
+      "mdzMiladinovVol1": {
+        "deToTarget": [
+          { "lemma": "Haus", "found": true, "pageIndex": 120, "method": "IIIF OCR sample" },
+          { "lemma": "arbeiten", "found": true, "pageIndex": 280, "method": "IIIF OCR sample", "caveat": "possible substring match (e.g. losarbeiten)" },
+          { "lemma": "Kleingeld", "found": false, "method": "IIIF OCR sample pages 80–636 step 8/16" },
+          { "lemma": "bewirten", "found": false, "method": "IIIF OCR sample" },
+          { "lemma": "Grenzkonflikt", "found": false, "method": "IIIF OCR sample" },
+          { "lemma": "Machtgier", "found": false, "method": "IIIF OCR sample" }
+        ],
+        "targetToDe": {
+          "lemma": "къща",
+          "found": null,
+          "reason": "Vol. I is DE→BG; BG→DE requires vol. II (HathiTrust) or MultiSlavDict — not pilot-checked this run"
+        }
+      }
+    },
+    "bs": {
+      "deToTarget": [
+        { "lemma": "Haus", "found": false, "reason": "NOT_FOUND_DIGITIZED" },
+        { "lemma": "arbeiten", "found": false, "reason": "NOT_FOUND_DIGITIZED" },
+        { "lemma": "Kleingeld", "found": false, "reason": "NOT_FOUND_DIGITIZED" },
+        { "lemma": "bewirten", "found": false, "reason": "NOT_FOUND_DIGITIZED" },
+        { "lemma": "Grenzkonflikt", "found": false, "reason": "NOT_FOUND_DIGITIZED" },
+        { "lemma": "Machtgier", "found": false, "reason": "NOT_FOUND_DIGITIZED" }
+      ],
+      "targetToDe": { "lemma": "kuća", "found": false, "reason": "NOT_FOUND_DIGITIZED" }
+    }
+  },
+  "methodology": "Live run 2026-09-30: fr = grep Internet Archive _djvu.txt (Sachs–Villatte + Mozin); bg = MDZ IIIF JPEG + tesseract deu on sampled pages; bs = no source."
+}

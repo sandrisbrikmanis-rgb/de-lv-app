@@ -1,0 +1,1896 @@
+{
+  "schemaVersion": "g2-a1-master-language-authority-sources-v1",
+  "registryDocument": "docs_and_rules/MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md",
+  "structuredSection": "# 3.1 STRUCTURED LANGUAGE AUTHORITY SOURCES — 33 VALODAS",
+  "languages": [
+    {
+      "appCode": "bs",
+      "standardCode": "bs",
+      "LANGUAGE_NORM_AUTHORITY": "Institut za jezik Univerziteta u Sarajevu",
+      "LANGUAGE_NORM_URLS": [
+        "https://izj.unsa.ba/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": null,
+      "PRIMARY_DICTIONARY_URLS": [],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Bosnian",
+          "sourceUrl": "https://bsde.dict.cc/",
+          "entryUrlTemplateNote": "https://bsde.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→bs",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        },
+        {
+          "sourceName": "dict.cc German–Bosnian",
+          "sourceUrl": "https://debs.dict.cc/",
+          "entryUrlTemplateNote": "https://debs.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→bs",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": "Class E — requires bundle with DE authority + TARGET A–D source for SOURCE-SUPPORTED PASS"
+        },
+        {
+          "sourceName": "Pravopis bosanskoga jezika (Halilović)",
+          "sourceUrl": "https://www.pravopis.ba/",
+          "entryUrlTemplateNote": "https://www.pravopis.ba/",
+          "publisher": "Senahid Halilović / pravopis.ba",
+          "sourceClass": "D",
+          "languagePair": "bs monolingual orthography",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": false,
+          "orthographyEvidenceSupported": true,
+          "editorialProvenance": "professional_institutional_reference",
+          "automationStatus": "PROBE_FAILED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": false,
+          "role": "TARGET_ORTHOGRAPHY",
+          "notes": "orthography_only_not_haus_pilot"
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Pravopis bosanskoga jezika",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.pravopis.ba/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Bosnian",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://bsde.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 8630,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→bs",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "en",
+      "standardCode": "en",
+      "LANGUAGE_NORM_AUTHORITY": "Oxford English Dictionary",
+      "LANGUAGE_NORM_URLS": [
+        "https://www.oed.com/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Oxford Learner's Dictionaries",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.oxfordlearnersdictionaries.com/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": "Council of Europe CEFR (English)",
+      "LANGUAGE_LEARNING_CEFR_URLS": [
+        "https://www.coe.int/en/web/common-european-framework-reference-languages"
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Cambridge Dictionary",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://dictionary.cambridge.org/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–English",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://www.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 1318219,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→en",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–English",
+          "sourceUrl": "https://www.dict.cc/",
+          "entryUrlTemplateNote": "https://www.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→en",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "cs",
+      "standardCode": "cs",
+      "LANGUAGE_NORM_AUTHORITY": "Ústav pro jazyk český AV ČR — Internetová jazyková příručka",
+      "LANGUAGE_NORM_URLS": [
+        "https://prirucka.ujc.cas.cz/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Internetová jazyková příručka (lexicon)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://prirucka.ujc.cas.cz/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Akademický slovník současné češtiny",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://slovnikcestiny.cz/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Czech",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://csde.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 35211,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→cs",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Czech",
+          "sourceUrl": "https://csde.dict.cc/",
+          "entryUrlTemplateNote": "https://csde.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→cs",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "da",
+      "standardCode": "da",
+      "LANGUAGE_NORM_AUTHORITY": "Dansk Sprognævn — Retskrivningsordbogen",
+      "LANGUAGE_NORM_URLS": [
+        "https://ro.dsn.dk/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Den Danske Ordbog (Det Danske Sprog- og Litteraturselskab / ordnet.dk)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://ordnet.dk/ddo"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "registryGapNotes": "§3 table lists ro.dsn.dk only; PRIMARY_DICTIONARY ordnet.dk/ddo added in §3.1 (national standard dictionary, DSN-adjacent official resource).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Ordbog over det danske Sprog",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://ordnet.dk/ods"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Danish",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://dade.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 28391,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→da",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Danish",
+          "sourceUrl": "https://dade.dict.cc/",
+          "entryUrlTemplateNote": "https://dade.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→da",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "et",
+      "standardCode": "et",
+      "LANGUAGE_NORM_AUTHORITY": "Eesti Keele Instituut — ÕS",
+      "LANGUAGE_NORM_URLS": [
+        "https://sonaveeb.ee/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Eesti Keele Instituut — Sõnaveeb",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://sonaveeb.ee/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Eesti etümoloogiasõnaraamat",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.eki.ee/dict/ety"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "Keelevara Estonian–German (reverse search)",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://www.keelevara.ee/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "INSTITUTIONAL_BILINGUAL_LEXICON",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": null,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→et",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "Keelevara Estonian–German (reverse search)",
+          "sourceUrl": "https://www.keelevara.ee/",
+          "entryUrlTemplateNote": "https://www.keelevara.ee/?s=Haus",
+          "publisher": "Keelevara Estonian–German (reverse search)",
+          "sourceClass": "A",
+          "languagePair": "de→et",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "publisher_stated",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "es",
+      "standardCode": "es",
+      "LANGUAGE_NORM_AUTHORITY": "Real Academia Española — Ortografía",
+      "LANGUAGE_NORM_URLS": [
+        "https://www.rae.es/ortografia"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Real Academia Española — DLE",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://dle.rae.es/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Diccionario del estudiante — RAE",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.rae.es/diccionario-estudiante"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Spanish",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://dees.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 65949,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→es",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Spanish",
+          "sourceUrl": "https://dees.dict.cc/",
+          "entryUrlTemplateNote": "https://dees.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→es",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "fr",
+      "standardCode": "fr",
+      "LANGUAGE_NORM_AUTHORITY": "Académie française — Dictionnaire de l'Académie française",
+      "LANGUAGE_NORM_URLS": [
+        "https://www.dictionnaire-academie.fr/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Académie française — Dictionnaire de l'Académie française",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.dictionnaire-academie.fr/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–French",
+          "sourceUrl": "https://defr.dict.cc/",
+          "entryUrlTemplateNote": "https://defr.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→fr",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        },
+        {
+          "sourceName": "PONS German–French Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-french/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-french/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→fr",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Larousse français",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.larousse.fr/dictionnaires/francais"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–French",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://defr.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 107379,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→fr",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "hr",
+      "standardCode": "hr",
+      "LANGUAGE_NORM_AUTHORITY": "Institut za hrvatski jezik — Hrvatski pravopis",
+      "LANGUAGE_NORM_URLS": [
+        "https://pravopis.hr/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Institut za hrvatski jezik — Školski rječnik / rjecnik.hr",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://rjecnik.hr/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "registryGapNotes": "§3 table lists pravopis.hr only; rjecnik.hr added in §3.1 as IHJJ primary school dictionary portal.",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Hrvatski jezični portal",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://hjp.znanje.hr/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Croatian",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://dehr.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 42234,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→hr",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Croatian",
+          "sourceUrl": "https://dehr.dict.cc/",
+          "entryUrlTemplateNote": "https://dehr.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→hr",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "is",
+      "standardCode": "is",
+      "LANGUAGE_NORM_AUTHORITY": "Stofnun Árna Magnússonar — BÍN",
+      "LANGUAGE_NORM_URLS": [
+        "https://bin.arnastofnun.is/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Málið.is (Árnastofnun language portal)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://malid.is/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Icelandic",
+          "sourceUrl": "https://deis.dict.cc/",
+          "entryUrlTemplateNote": "https://deis.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→is",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        },
+        {
+          "sourceName": "Íslensk nútímamál (málfræði) — malid.is",
+          "sourceUrl": "https://malid.is/",
+          "entryUrlTemplateNote": "https://malid.is/",
+          "publisher": "Árnastofnun / Icelandic language resources",
+          "sourceClass": "A",
+          "languagePair": "is monolingual",
+          "accessMode": null,
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": false,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "government_language_institute",
+          "automationStatus": "PROBE_FAILED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": false,
+          "role": "SUPPLEMENTAL_TARGET",
+          "notes": "unknown_probe_type"
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "ISLEX",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://islex.arnastofnun.is/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Icelandic",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://deis.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 145046,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→is",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "it",
+      "standardCode": "it",
+      "LANGUAGE_NORM_AUTHORITY": "Accademia della Crusca",
+      "LANGUAGE_NORM_URLS": [
+        "https://accademiadellacrusca.it/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Accademia della Crusca — Lessicografia (lessicografia.it)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.lessicografia.it/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "registryGapNotes": "§3 table lists accademiadellacrusca.it only; lessicografia.it added in §3.1 as Crusca lexicography portal. §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Italian",
+          "sourceUrl": "https://deit.dict.cc/",
+          "entryUrlTemplateNote": "https://deit.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→it",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        },
+        {
+          "sourceName": "PONS German–Italian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-italian/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-italian/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→it",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Vocabolario Treccani",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.treccani.it/vocabolario"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Italian",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://deit.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 93981,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→it",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "lv",
+      "standardCode": "lv",
+      "LANGUAGE_NORM_AUTHORITY": "Latviešu valodas aģentūra",
+      "LANGUAGE_NORM_URLS": [
+        "https://valoda.lv/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "MLVV / Tēzaurs.lv",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://mlvv.tezaurs.lv/",
+        "https://tezaurs.lv/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Latviešu literārās valodas vārdnīca",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://llvv.tezaurs.lv/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "Letonika German–Latvian dictionary",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://www.letonika.lv/dictionary",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "INSTITUTIONAL_BILINGUAL_LEXICON",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 100000,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_PUBLISHER_MINIMUM",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→lv",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "Letonika German–Latvian dictionary",
+          "sourceUrl": "https://www.letonika.lv/dictionary",
+          "entryUrlTemplateNote": "https://www.letonika.lv/dictionary/?s=Haus",
+          "publisher": "Letonika German–Latvian dictionary",
+          "sourceClass": "A",
+          "languagePair": "de→lv",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "publisher_stated",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "lb",
+      "standardCode": "lb",
+      "LANGUAGE_NORM_AUTHORITY": "Zenter fir d'Lëtzebuerger Sprooch",
+      "LANGUAGE_NORM_URLS": [
+        "https://zls.lu/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "LOD — Lëtzebuerger Online Dictionnaire",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://lod.lu/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "Lëtzebuerger Online Dictionnaire (LOD)",
+          "sourceUrl": "https://lod.lu/",
+          "entryUrlTemplateNote": "https://lod.lu/?s=Haus",
+          "publisher": "Lëtzebuerger Online Dictionnaire (LOD)",
+          "sourceClass": "A",
+          "languagePair": "de↔lb",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "publisher_stated",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Lëtzebuergesch Wiktionary",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://lb.wiktionary.org/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "Lëtzebuerger Online Dictionnaire (LOD)",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://lod.lu/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "OFFICIAL_BILINGUAL_LEXICON",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 32000,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_PUBLISHER_HEADWORD_COUNT",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de↔lb",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "lt",
+      "standardCode": "lt",
+      "LANGUAGE_NORM_AUTHORITY": "Lietuvių kalbos institutas",
+      "LANGUAGE_NORM_URLS": [
+        "https://lki.lt/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Valstybinė lietuvių kalbos komisija (VLKK)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://vlkk.lt/"
+      ],
+      "ADDITIONAL_AUTHORITY": "E. kalba — lietuvių kalbos išteklių informacinė sistema",
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://ekalba.lt/"
+      ],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "registryGapNotes": "ekalba.lt added in §3.1 as LKI-adjacent official language resources portal. §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "Žodynai.org German–Lithuanian",
+          "sourceUrl": "https://www.zodynai.org/",
+          "entryUrlTemplateNote": "https://www.zodynai.org/?s=Haus",
+          "publisher": "Žodynai.org German–Lithuanian",
+          "sourceClass": "A",
+          "languagePair": "de→lt",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "publisher_stated",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        },
+        {
+          "sourceName": "PONS German–Lithuanian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-lithuanian/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-lithuanian/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→lt",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": false,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "PROBE_FAILED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": false,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": "parse_or_sense_failed"
+        }
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Lietuvių kalbos žodynas",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.lkz.lt/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "Žodynai.org German–Lithuanian",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://www.zodynai.org/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_LEXICON",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 16000,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_PUBLISHER_ESTIMATE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→lt",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "hu",
+      "standardCode": "hu",
+      "LANGUAGE_NORM_AUTHORITY": "HUN-REN Nyelvtudományi Kutatóközpont",
+      "LANGUAGE_NORM_URLS": [
+        "https://nytud.hu/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Akadémiai Nagyszótár (nagyszotar.nytud.hu)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://nagyszotar.nytud.hu/"
+      ],
+      "ADDITIONAL_AUTHORITY": "MTA helyesírás (helyesiras.mta.hu)",
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://helyesiras.mta.hu/"
+      ],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "registryGapNotes": "Dictionary/spelling URLs added in §3.1 under Nyelvtudományi Kutatóközpont / MTA official resources. §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Hungarian",
+          "sourceUrl": "https://dehu.dict.cc/",
+          "entryUrlTemplateNote": "https://dehu.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→hu",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        },
+        {
+          "sourceName": "PONS German–Hungarian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-hungarian/",
+          "entryUrlTemplateNote": "https://de.pons.com/%C3%BCbersetzung/deutsch-ungarisch/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→hu",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Magyar értelmező kéziszótár — Arcanum",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-magyar-ertelmezo-keziszotar-1BE8B"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Hungarian",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://dehu.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 56707,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→hu",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "nl",
+      "standardCode": "nl",
+      "LANGUAGE_NORM_AUTHORITY": "Nederlandse Taalunie",
+      "LANGUAGE_NORM_URLS": [
+        "https://taalunie.org/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Woordenlijst Nederlandse Taal",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://woordenlijst.org/"
+      ],
+      "ADDITIONAL_AUTHORITY": "Taaladvies.net (Taalunie)",
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://taaladvies.net/"
+      ],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "registryGapNotes": "taaladvies.net added in §3.1 as Taalunie advice portal. §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Dutch",
+          "sourceUrl": "https://denl.dict.cc/",
+          "entryUrlTemplateNote": "https://denl.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→nl",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        },
+        {
+          "sourceName": "PONS German–Dutch Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-dutch/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-dutch/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→nl",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Van Dale",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.vandale.nl/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Dutch",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://denl.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 70712,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→nl",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "nb",
+      "standardCode": "nb",
+      "LANGUAGE_NORM_AUTHORITY": "Språkrådet",
+      "LANGUAGE_NORM_URLS": [
+        "https://sprakradet.no/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Bokmålsordboka (ordbokene.no)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://ordbokene.no/bm"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Det Norske Akademis ordbok",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://naob.no/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Norwegian Bokmål",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://deno.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 50665,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→nb",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Norwegian Bokmål",
+          "sourceUrl": "https://deno.dict.cc/",
+          "entryUrlTemplateNote": "https://deno.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→nb",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "nn",
+      "standardCode": "nn",
+      "LANGUAGE_NORM_AUTHORITY": "Språkrådet",
+      "LANGUAGE_NORM_URLS": [
+        "https://sprakradet.no/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Nynorskordboka (ordbokene.no)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://ordbokene.no/nn"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Norsk Ordbok",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://alfa.norsk-ordbok.no/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "Glosbe German–Nynorsk",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://glosbe.com/de/nn",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_GLOSBE",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": null,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→nn",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "Glosbe German–Nynorsk",
+          "sourceUrl": "https://glosbe.com/de/nn",
+          "entryUrlTemplateNote": "https://glosbe.com/de/nn/?s=Haus",
+          "publisher": "Glosbe German–Nynorsk",
+          "sourceClass": "E",
+          "languagePair": "de→nn",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "publisher_stated",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "pl",
+      "standardCode": "pl",
+      "LANGUAGE_NORM_AUTHORITY": "Rada Języka Polskiego",
+      "LANGUAGE_NORM_URLS": [
+        "https://rjp.pan.pl/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Wielki słownik języka polskiego PAN (wsjp.pl)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://wsjp.pl/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Polish",
+          "sourceUrl": "https://depl.dict.cc/",
+          "entryUrlTemplateNote": "https://depl.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→pl",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        },
+        {
+          "sourceName": "PONS German–Polish Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-polish/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-polish/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→pl",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Słownik języka polskiego PWN",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://sjp.pwn.pl/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Polish",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://depl.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 21591,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→pl",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "pt",
+      "standardCode": "pt",
+      "LANGUAGE_NORM_AUTHORITY": "Academia das Ciências de Lisboa",
+      "LANGUAGE_NORM_URLS": [
+        "https://www.acad-ciencias.pt/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Dicionário Académico de Lisboa",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://dicionario.acad-ciencias.pt/"
+      ],
+      "ADDITIONAL_AUTHORITY": "Portal da Língua Portuguesa",
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://www.portaldalinguaportuguesa.org/"
+      ],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "registryGapNotes": "Portal da Língua Portuguesa added in §3.1 as ACL-adjacent official Portuguese language portal. §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Portuguese",
+          "sourceUrl": "https://dept.dict.cc/",
+          "entryUrlTemplateNote": "https://dept.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→pt",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        },
+        {
+          "sourceName": "PONS German–Portuguese Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-portuguese/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-portuguese/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→pt",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Dicionário Priberam",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://dicionario.priberam.org/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Portuguese",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://dept.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 62569,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→pt",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "ro",
+      "standardCode": "ro",
+      "LANGUAGE_NORM_AUTHORITY": "Academia Română",
+      "LANGUAGE_NORM_URLS": [
+        "https://acad.ro/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "DOOM — Dicționarul ortografic, ortoepic și morfologic",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://doom.lingv.ro/"
+      ],
+      "ADDITIONAL_AUTHORITY": "Institutul de Lingvistică — lingv.ro",
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://lingv.ro/"
+      ],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Romanian",
+          "sourceUrl": "https://dero.dict.cc/",
+          "entryUrlTemplateNote": "https://dero.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→ro",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        },
+        {
+          "sourceName": "PONS German–Romanian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-romanian/",
+          "entryUrlTemplateNote": "https://de.pons.com/%C3%BCbersetzung/deutsch-rum%C3%A4nisch/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→ro",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "PONS German–Romanian",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://en.pons.com/translate/german-romanian"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Romanian",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://dero.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 123554,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→ro",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "sq",
+      "standardCode": "sq",
+      "LANGUAGE_NORM_AUTHORITY": "Akademia e Shkencave e Shqipërisë",
+      "LANGUAGE_NORM_URLS": [
+        "https://akad.gov.al/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": null,
+      "PRIMARY_DICTIONARY_URLS": [],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Fjalori i Madh i Gjuhës Shqipe",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.fjalori.online/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Albanian",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://desq.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 15330,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→sq",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Albanian",
+          "sourceUrl": "https://desq.dict.cc/",
+          "entryUrlTemplateNote": "https://desq.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→sq",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "sk",
+      "standardCode": "sk",
+      "LANGUAGE_NORM_AUTHORITY": "Jazykovedný ústav Ľudovíta Štúra SAV",
+      "LANGUAGE_NORM_URLS": [
+        "https://www.juls.savba.sk/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Slovníkový portál JÚĽŠ",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://slovnik.juls.savba.sk/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Lingea slovníky",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://slovniky.lingea.sk/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Slovak",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://desk.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 102192,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→sk",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Slovak",
+          "sourceUrl": "https://desk.dict.cc/",
+          "entryUrlTemplateNote": "https://desk.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→sk",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "sl",
+      "standardCode": "sl",
+      "LANGUAGE_NORM_AUTHORITY": "ZRC SAZU",
+      "LANGUAGE_NORM_URLS": [
+        "https://www.zrc-sazu.si/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "FRAN — Slovenski jezik",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://fran.si/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Termania",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.termania.net/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "Langenscheidt German–Slovenian",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://en.langenscheidt.com/german-slovenian",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "PROFESSIONAL_BILINGUAL_COMMERCIAL",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": null,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→sl",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "Langenscheidt German–Slovenian",
+          "sourceUrl": "https://en.langenscheidt.com/german-slovenian",
+          "entryUrlTemplateNote": "https://en.langenscheidt.com/german-slovenian/?s=Haus",
+          "publisher": "Langenscheidt German–Slovenian",
+          "sourceClass": "B",
+          "languagePair": "de→sl",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "publisher_stated",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "sr",
+      "standardCode": "sr",
+      "LANGUAGE_NORM_AUTHORITY": "Institut za srpski jezik SANU",
+      "LANGUAGE_NORM_URLS": [
+        "https://www.isj.sanu.ac.rs/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Matica srpska",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.maticasrpska.org.rs/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Расковник",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://raskovnik.org/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Serbian",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://desr.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 15925,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→sr",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Serbian",
+          "sourceUrl": "https://desr.dict.cc/",
+          "entryUrlTemplateNote": "https://desr.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→sr",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "fi",
+      "standardCode": "fi",
+      "LANGUAGE_NORM_AUTHORITY": "Kotimaisten kielten keskus",
+      "LANGUAGE_NORM_URLS": [
+        "https://www.kotus.fi/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Kielitoimiston sanakirja",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.kielitoimistonsanakirja.fi/"
+      ],
+      "ADDITIONAL_AUTHORITY": "Ohjepankki (Kotus)",
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://www.kotus.fi/ohjepankki/"
+      ],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "registryGapNotes": "Ohjepankki path added in §3.1 under Kotus official site.",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Suomen etymologinen sanakirja",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://kaino.kotus.fi/ses"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Finnish",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://defi.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 59762,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→fi",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Finnish",
+          "sourceUrl": "https://defi.dict.cc/",
+          "entryUrlTemplateNote": "https://defi.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→fi",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "sv",
+      "standardCode": "sv",
+      "LANGUAGE_NORM_AUTHORITY": "Svenska Akademien",
+      "LANGUAGE_NORM_URLS": [
+        "https://www.svenskaakademien.se/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Svenska Akademiens ord böcker (SAOL / SO / SAOB)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://svenska.se/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Swedish",
+          "sourceUrl": "https://desv.dict.cc/",
+          "entryUrlTemplateNote": "https://desv.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→sv",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        },
+        {
+          "sourceName": "PONS German–Swedish Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-swedish/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-swedish/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→sv",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Lexin",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://lexin.nada.kth.se/lexin"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Swedish",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://desv.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 152284,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→sv",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "tr",
+      "standardCode": "tr",
+      "LANGUAGE_NORM_AUTHORITY": "Türk Dil Kurumu — Yazım Kılavuzu",
+      "LANGUAGE_NORM_URLS": [
+        "https://tdk.gov.tr/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "TDK Güncel Türkçe Sözlük",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://sozluk.gov.tr/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Nişanyan Sözlük",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://www.nisanyansozluk.com/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Turkish",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://detr.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 23121,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→tr",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Turkish",
+          "sourceUrl": "https://detr.dict.cc/",
+          "entryUrlTemplateNote": "https://detr.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→tr",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "gr",
+      "standardCode": "el",
+      "LANGUAGE_NORM_AUTHORITY": "Κέντρο Ελληνικής Γλώσσας",
+      "LANGUAGE_NORM_URLS": [
+        "https://www.greek-language.gr/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Λεξικό της κοινής νεοελληνικής (Τριανταφυλλίδης)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Χρηστικό Λεξικό — Ακαδημία Αθηνών",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://christikolexiko.academyofathens.gr/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Greek",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://deel.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 13781,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→el",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Greek",
+          "sourceUrl": "https://deel.dict.cc/",
+          "entryUrlTemplateNote": "https://deel.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→el",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "bg",
+      "standardCode": "bg",
+      "LANGUAGE_NORM_AUTHORITY": "Институт за български език, БАН",
+      "LANGUAGE_NORM_URLS": [
+        "https://ibl.bas.bg/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Български речник онлайн (BERON)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://beron.mon.bg/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Bulgarian",
+          "sourceUrl": "https://bgde.dict.cc/",
+          "entryUrlTemplateNote": "https://bgde.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→bg",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        },
+        {
+          "sourceName": "PONS German–Bulgarian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-bulgarian/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-bulgarian/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→bg",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "BROWSER_VALIDATED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": true,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": null
+        }
+      ],
+      "registryGapNotes": "§3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "PONS German–Bulgarian",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://en.pons.com/translate/german-bulgarian"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Bulgarian",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://bgde.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 44581,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→bg",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "mk",
+      "standardCode": "mk",
+      "LANGUAGE_NORM_AUTHORITY": "Институт за македонски јазик „Крсте Мисирков“",
+      "LANGUAGE_NORM_URLS": [
+        "https://imj.ukim.edu.mk/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Дигитален речник на македонскиот јазик (drmj.eu)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://drmj.eu/"
+      ],
+      "ADDITIONAL_AUTHORITY": null,
+      "ADDITIONAL_AUTHORITY_URLS": [],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "registryGapNotes": "drmj.eu added in §3.1 as IMJ official digital dictionary (verify reachability separately).",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Официјален дигитален толковен речник",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://makedonski.gov.mk/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "Glosbe German–Macedonian",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://glosbe.com/de/mk",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_GLOSBE",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": null,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→mk",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "Glosbe German–Macedonian",
+          "sourceUrl": "https://glosbe.com/de/mk",
+          "entryUrlTemplateNote": "https://glosbe.com/de/mk/?s=Haus",
+          "publisher": "Glosbe German–Macedonian",
+          "sourceClass": "E",
+          "languagePair": "de→mk",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "publisher_stated",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "ru",
+      "standardCode": "ru",
+      "LANGUAGE_NORM_AUTHORITY": "Институт русского языка им. В. В. Виноградова РАН",
+      "LANGUAGE_NORM_URLS": [
+        "https://ruslang.ru/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Орфографический ресурс АКАДЕМОС (orfo.ruslang.ru)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://orfo.ruslang.ru/"
+      ],
+      "ADDITIONAL_AUTHORITY": "Грамота.ру — справочно-информационный портал (ИРЯ РАН)",
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://gramota.ru/"
+      ],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "registryGapNotes": "gramota.ru added in §3.1 as IRYa RAN official reference portal.",
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Викисловарь",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://ru.wiktionary.org/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Russian",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://deru.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 131192,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→ru",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Russian",
+          "sourceUrl": "https://deru.dict.cc/",
+          "entryUrlTemplateNote": "https://deru.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→ru",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        }
+      ]
+    },
+    {
+      "appCode": "uk",
+      "standardCode": "uk",
+      "LANGUAGE_NORM_AUTHORITY": "Інститут української мови НАН України",
+      "LANGUAGE_NORM_URLS": [
+        "https://iul-nasu.org.ua/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Словники України online (УМІФ НАН України)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://lcorp.ulif.org.ua/dictua/"
+      ],
+      "ADDITIONAL_AUTHORITY": "Український правопис (МОН)",
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://mon.gov.ua/osvita-2/zagalna-serednya-osvita/ukrainskiy-pravopis"
+      ],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": null,
+      "LANGUAGE_LEARNING_CEFR_URLS": [],
+      "registryGapNotes": "dictua added in §3.1; MON pravopis URL from §3 table. §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default). §3.1 GERMAN_TARGET_BILINGUAL_SOURCES added via G2/A1 dictionary registry pilot (OWNER approval required before audit default).",
+      "GERMAN_TARGET_BILINGUAL_SOURCES": [
+        {
+          "sourceName": "dict.cc German–Ukrainian",
+          "sourceUrl": "https://deuk.dict.cc/",
+          "entryUrlTemplateNote": "https://deuk.dict.cc/?s=Haus",
+          "publisher": "dict.cc (community-maintained)",
+          "sourceClass": "E",
+          "languagePair": "de→uk",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": true,
+          "lemmaEvidenceSupported": true,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "community_contributed",
+          "automationStatus": "REGISTRY_INTEGRATED",
+          "ownerApprovalRequired": false,
+          "role": "PRIMARY_TRANSLATION_PAIR_SOURCE",
+          "notes": "PRIMARY de→TARGET translation-pair source per MASTER §3.1 bilingual registry v2"
+        },
+        {
+          "sourceName": "PONS German–Ukrainian Dictionary",
+          "sourceUrl": "https://en.pons.com/translate/german-ukrainian/",
+          "entryUrlTemplateNote": "https://en.pons.com/translate/german-ukrainian/Haus",
+          "publisher": "PONS (Klett Group)",
+          "sourceClass": "B",
+          "languagePair": "de→uk",
+          "accessMode": "PUBLIC_BROWSER_SESSION",
+          "semanticEvidenceSupported": false,
+          "lemmaEvidenceSupported": false,
+          "orthographyEvidenceSupported": false,
+          "editorialProvenance": "professionally_edited_commercial",
+          "automationStatus": "PROBE_FAILED",
+          "ownerApprovalRequired": true,
+          "hausPilotPass": false,
+          "role": "PRIMARY_BILINGUAL",
+          "notes": "parse_or_sense_failed"
+        }
+      ],
+      "ADDITIONAL_DICTIONARY_AUTHORITY": "Словник української мови — СУМ-11",
+      "ADDITIONAL_DICTIONARY_URLS": [
+        "https://sum.in.ua/"
+      ],
+      "ADDITIONAL_DICTIONARY_ROLE": "SUPPLEMENTARY_LEXICAL_A1",
+      "ADDITIONAL_DICTIONARY_NOTES": "Community Wiktionary sources are comparison-only; not sole evidence for production changes. AI/MT not linguistic authority.",
+      "GERMAN_TARGET_DICTIONARY_NAME": "dict.cc German–Ukrainian",
+      "GERMAN_TARGET_DICTIONARY_URL": "https://deuk.dict.cc/",
+      "GERMAN_TARGET_DICTIONARY_TYPE": "COMMUNITY_BILINGUAL_DICT_CC",
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT": 66145,
+      "GERMAN_TARGET_DICTIONARY_ENTRY_COUNT_STATUS": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "GERMAN_TARGET_DICTIONARY_ACCESS": "PUBLIC_BROWSER_SESSION",
+      "GERMAN_TARGET_DICTIONARY_LANGUAGE_PAIR": "de→uk",
+      "GERMAN_TARGET_DICTIONARY_ROLE": "PRIMARY_TRANSLATION_PAIR_SOURCE"
+    },
+    {
+      "appCode": "de",
+      "standardCode": "de",
+      "LANGUAGE_NORM_AUTHORITY": "Rat für deutsche Rechtschreibung",
+      "LANGUAGE_NORM_URLS": [
+        "https://www.rechtschreibrat.com/"
+      ],
+      "PRIMARY_DICTIONARY_AUTHORITY": "Duden + DWDS (lexicon / usage)",
+      "PRIMARY_DICTIONARY_URLS": [
+        "https://www.duden.de/",
+        "https://www.dwds.de/"
+      ],
+      "ADDITIONAL_AUTHORITY": "Goethe-Institut (CEFR/DaF); IDS grammis",
+      "ADDITIONAL_AUTHORITY_URLS": [
+        "https://www.goethe.de/",
+        "https://grammis.ids-mannheim.de/rechtschreibung"
+      ],
+      "LANGUAGE_LEARNING_CEFR_AUTHORITY": "Goethe-Institut / GeR",
+      "LANGUAGE_LEARNING_CEFR_URLS": [
+        "https://www.goethe.de/"
+      ]
+    }
+  ],
+  "germanTargetBilingualRegistryMeta": {
+    "integratedAt": "2026-09-21T15:12:03.806Z",
+    "targetLanguageCount": 32,
+    "manifestSchema": "g2-a1-master-german-target-bilingual-v1",
+    "statisticsSource": "https://browse.dict.cc/",
+    "classification": "MASTER_GERMAN_TARGET_BILINGUAL_DICTIONARIES_INTEGRATED_32_OF_32"
+  },
+  "additionalDictionaryRegistryMeta": {
+    "integratedAt": "2026-09-20T17:26:10.072Z",
+    "targetLanguageCount": 32,
+    "manifestSchema": "g2-a1-master-additional-dictionary-v1",
+    "classification": "MASTER_ADDITIONAL_DICTIONARY_SOURCES_INTEGRATED_32_OF_32"
+  }
+}

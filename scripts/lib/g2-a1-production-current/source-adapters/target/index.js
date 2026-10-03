@@ -1,88 +1,168 @@
 #!/usr/bin/env node
 "use strict";
 
-const { notImplemented } = require("../adapter-result");
-const { lookupEtSonaveeb } = require("./et-sonaveeb-adapter");
 const { loadRegistryRows, rowForAppLanguage } = require("../../registry-bindings");
+const { domainsFromRegistryUrls } = require("../../registry-domain-allowlist");
+const { ADAPTER_TYPES } = require("../adapter-types");
+const { lookupEtSonaveeb } = require("./et-sonaveeb-adapter");
+const { lookupLbLodDeReverse, ADAPTER_ID: LB_LOD_ADAPTER_ID, ADAPTER_VERSION: LB_LOD_ADAPTER_VERSION } = require("./lb-lod-de-reverse-adapter");
+const { buildAdapterRegistry, LANGUAGE_CONFIGS } = require("./language-configs");
 
-/** @type {Record<string, { id: string, version: string, lookup: Function|null, masterUrl: string }>} */
-const TARGET_ADAPTER_REGISTRY = {
-  et: { id: "et-sonaveeb-eki-entry", version: "1.0.0", lookup: lookupEtSonaveeb, masterUrl: "https://sonaveeb.ee/" },
-  bg: { id: "bg-ibl-pending", version: "0.0.0", lookup: null, masterUrl: "https://ibl.bas.bg/" },
-  lv: { id: "lv-valoda-pending", version: "0.0.0", lookup: null, masterUrl: "https://valoda.lv/" },
-  lt: { id: "lt-lki-pending", version: "0.0.0", lookup: null, masterUrl: "https://lki.lt/" },
-  ru: { id: "ru-ruslang-pending", version: "0.0.0", lookup: null, masterUrl: "https://ruslang.ru/" },
-  pl: { id: "pl-rjp-pending", version: "0.0.0", lookup: null, masterUrl: "https://rjp.pan.pl/" },
-  uk: { id: "uk-iul-pending", version: "0.0.0", lookup: null, masterUrl: "https://iul-nasu.org.ua/" },
-  en: { id: "en-oed-pending", version: "0.0.0", lookup: null, masterUrl: "https://www.oed.com/" },
-  ro: { id: "ro-acad-pending", version: "0.0.0", lookup: null, masterUrl: "https://acad.ro/" },
-  tr: { id: "tr-tdk-pending", version: "0.0.0", lookup: null, masterUrl: "https://tdk.gov.tr/" },
-  gr: { id: "el-greek-language-pending", version: "0.0.0", lookup: null, masterUrl: "https://www.greek-language.gr/" },
-  sq: { id: "sq-akad-pending", version: "0.0.0", lookup: null, masterUrl: "https://akad.gov.al/" },
-  mk: { id: "mk-imj-pending", version: "0.0.0", lookup: null, masterUrl: "https://imj.ukim.edu.mk/" },
-  sl: { id: "sl-zrc-pending", version: "0.0.0", lookup: null, masterUrl: "https://www.zrc-sazu.si/" },
-  bs: { id: "bs-izj-pending", version: "0.0.0", lookup: null, masterUrl: "https://izj.unsa.ba/" },
-  sr: { id: "sr-isj-pending", version: "0.0.0", lookup: null, masterUrl: "https://www.isj.sanu.ac.rs/" },
-  hr: { id: "hr-pravopis-pending", version: "0.0.0", lookup: null, masterUrl: "https://pravopis.hr/" },
-  sk: { id: "sk-juls-pending", version: "0.0.0", lookup: null, masterUrl: "https://www.juls.savba.sk/" },
-  cs: { id: "cs-ujc-pending", version: "0.0.0", lookup: null, masterUrl: "https://prirucka.ujc.cas.cz/" },
-  fi: { id: "fi-kotus-pending", version: "0.0.0", lookup: null, masterUrl: "https://www.kotus.fi/" },
-  sv: { id: "sv-sa-pending", version: "0.0.0", lookup: null, masterUrl: "https://www.svenskaakademien.se/" },
-  nb: { id: "nb-sprakradet-pending", version: "0.0.0", lookup: null, masterUrl: "https://sprakradet.no/" },
-  nn: { id: "nn-sprakradet-pending", version: "0.0.0", lookup: null, masterUrl: "https://sprakradet.no/" },
-  da: { id: "da-dsn-pending", version: "0.0.0", lookup: null, masterUrl: "https://ro.dsn.dk/" },
-  nl: { id: "nl-taalunie-pending", version: "0.0.0", lookup: null, masterUrl: "https://taalunie.org/" },
-  lb: { id: "lb-zls-pending", version: "0.0.0", lookup: null, masterUrl: "https://zls.lu/" },
-  hu: { id: "hu-nytud-pending", version: "0.0.0", lookup: null, masterUrl: "https://nytud.hu/" },
-  fr: { id: "fr-academie-pending", version: "0.0.0", lookup: null, masterUrl: "https://www.dictionnaire-academie.fr/" },
-  it: { id: "it-crusca-pending", version: "0.0.0", lookup: null, masterUrl: "https://accademiadellacrusca.it/" },
-  es: { id: "es-rae-pending", version: "0.0.0", lookup: null, masterUrl: "https://dle.rae.es/" },
-  pt: { id: "pt-acad-pending", version: "0.0.0", lookup: null, masterUrl: "https://www.acad-ciencias.pt/" },
-  is: { id: "is-bin-pending", version: "0.0.0", lookup: null, masterUrl: "https://bin.arnastofnun.is/" },
+const ET_ADAPTER = {
+  appLang: "et",
+  standardCode: "et",
+  adapterId: "et-sonaveeb-eki-entry",
+  adapterVersion: "1.0.0",
+  adapterType: ADAPTER_TYPES.SERVER_RENDERED_DICTIONARY,
+  lookupType: "sonaveeb-search-entry",
+  masterSourceUrl: "https://sonaveeb.ee/",
+  positiveFixture: { lookupTerm: "õppima", expectedHeadword: "õppima" },
+  negativeFixture: { lookupTerm: "zzqqxxnotaword999" },
+  liveIntegrationStatus: "LIVE",
+  knownLimitations: [],
 };
 
+const LB_LOD_ADAPTER = {
+  appLang: "lb",
+  standardCode: "lb",
+  adapterId: LB_LOD_ADAPTER_ID,
+  adapterVersion: LB_LOD_ADAPTER_VERSION,
+  adapterType: ADAPTER_TYPES.SERVER_RENDERED_DICTIONARY,
+  lookupType: "lod-de-reverse-api",
+  masterSourceUrl: "https://lod.lu/",
+  positiveFixture: { lookupTerm: "Haus", expectedHeadword: "Haus" },
+  negativeFixture: { lookupTerm: "zzqqxxnotaword999" },
+  liveIntegrationStatus: "LIVE",
+  knownLimitations: [],
+};
+
+function buildTargetAdapterRegistry() {
+  const registry = buildAdapterRegistry();
+  registry.et = {
+    config: ET_ADAPTER,
+    lookup: lookupEtSonaveeb,
+    id: ET_ADAPTER.adapterId,
+    version: ET_ADAPTER.adapterVersion,
+    masterUrl: ET_ADAPTER.masterSourceUrl,
+  };
+  registry.lb = {
+    config: LB_LOD_ADAPTER,
+    lookup: lookupLbLodDeReverse,
+    id: LB_LOD_ADAPTER_ID,
+    version: LB_LOD_ADAPTER_VERSION,
+    masterUrl: LB_LOD_ADAPTER.masterSourceUrl,
+  };
+  return registry;
+}
+
+const TARGET_ADAPTER_REGISTRY = buildTargetAdapterRegistry();
+
+function configForLang(appLang) {
+  return TARGET_ADAPTER_REGISTRY[appLang]?.config || null;
+}
+
 function getTargetAdapterMeta(appLang) {
-  return TARGET_ADAPTER_REGISTRY[appLang] || null;
+  const entry = TARGET_ADAPTER_REGISTRY[appLang];
+  if (!entry) return null;
+  return {
+    id: entry.id,
+    version: entry.version,
+    lookup: entry.lookup,
+    masterUrl: entry.masterUrl || entry.config?.masterSourceUrl,
+  };
+}
+
+function matrixRowForLanguage(row) {
+  const appLang = row.appCode;
+  const regEntry = TARGET_ADAPTER_REGISTRY[appLang];
+  const cfg = regEntry?.config || {};
+  const implemented = Boolean(regEntry?.lookup);
+  const blocked = Boolean(cfg.blockedOutcome);
+  const allowedDomains = [...domainsFromRegistryUrls(row.urls)];
+
+  return {
+    language: appLang,
+    standardCode: row.standardCode,
+    authorityName: row.authorityName,
+    masterSourceUrl: row.urls[0] || regEntry?.masterUrl,
+    masterSeedUrls: row.urls,
+    allowedDomains,
+    adapterId: regEntry?.id || cfg.adapterId || "missing",
+    adapterVersion: regEntry?.version || cfg.adapterVersion || "0.0.0",
+    adapterType: cfg.adapterType || (blocked ? ADAPTER_TYPES.BLOCKED_OFFICIAL_SOURCE : "unknown"),
+    lookupType: cfg.lookupType || (blocked ? "blocked" : "unknown"),
+    queryEntryUrlConstruction: cfg.buildEntryUrls
+      ? "buildEntryUrls(lookupTerm) per language-configs"
+      : blocked
+        ? "n/a — blocked official source"
+        : appLang === "et"
+          ? "Sõnaveeb search → entry page"
+          : "unknown",
+    redirectPolicy: "manual follow; reject if final domain not in MASTER allowlist",
+    entryIdentificationMethod: blocked
+      ? cfg.blockedReason
+      : "parseEntry(html) with headword + evidence fragment >= 25 chars",
+    headwordIdentificationMethod: blocked ? "n/a" : "parser headword vs fixture + normalization NFC compare",
+    evidenceFragmentMethod: blocked ? "n/a" : "htmlToPlainText on entry body / definition block",
+    positiveFixture: cfg.positiveFixture || ET_ADAPTER.positiveFixture,
+    negativeFixture: cfg.negativeFixture || { lookupTerm: "zzqqxxnotaword999" },
+    liveIntegrationStatus: blocked ? "BLOCKED" : implemented ? "LIVE" : "NOT_IMPLEMENTED",
+    knownLimitations: cfg.knownLimitations || (cfg.blockedReason ? [cfg.blockedReason] : []),
+    blockedOutcome: cfg.blockedOutcome || null,
+    realLookup: implemented ? "YES" : "NO",
+    entryValidation: blocked
+      ? cfg.blockedOutcome
+      : implemented
+        ? "SOURCE_ENTRY_VALIDATED-capable"
+        : "SOURCE_ADAPTER_NOT_IMPLEMENTED",
+    integrationTest: blocked ? "blocked_negative_only" : implemented ? "required_live" : "blocked_until_adapter",
+  };
 }
 
 function listTargetAdapterMatrix() {
   const loaded = loadRegistryRows();
   const rows = loaded.pass ? loaded.rows.filter((r) => r.appCode !== "de") : [];
-  return rows.map((row) => {
-    const meta = getTargetAdapterMeta(row.appCode);
-    const implemented = Boolean(meta?.lookup);
-    return {
-      language: row.appCode,
-      standardCode: row.standardCode,
-      authorityName: row.authorityName,
-      masterSourceUrl: row.urls[0] || meta?.masterUrl,
-      adapterId: meta?.id || "missing",
-      adapterVersion: meta?.version || "0.0.0",
-      realLookup: implemented ? "YES" : "NO",
-      entryValidation: implemented ? "SOURCE_ENTRY_VALIDATED" : "SOURCE_ADAPTER_NOT_IMPLEMENTED",
-      integrationTest: implemented ? "required" : "blocked_until_adapter",
-    };
-  });
+  return rows.map((row) => matrixRowForLanguage(row));
 }
 
 async function lookupTargetOfficialEntry({ appLang, lookupTerm, allowedDomains, authorityName, provenance }) {
-  const meta = getTargetAdapterMeta(appLang);
-  if (!meta?.lookup) {
+  const regEntry = TARGET_ADAPTER_REGISTRY[appLang];
+  if (!regEntry?.lookup) {
+    const { notImplemented } = require("../adapter-result");
     return notImplemented({
-      adapterId: meta?.id || `target-${appLang}-not-implemented`,
-      adapterVersion: meta?.version || "0.0.0",
+      adapterId: `target-${appLang}-not-implemented`,
+      adapterVersion: "0.0.0",
       authorityName,
       searchQuery: `TARGET:${appLang}:${lookupTerm}`,
       error: "SOURCE_ADAPTER_NOT_IMPLEMENTED",
       ...provenance,
     });
   }
-  return meta.lookup({ lookupTerm, allowedDomains, authorityName, provenance });
+  return regEntry.lookup({ lookupTerm, allowedDomains, authorityName, provenance });
+}
+
+function listAllTargetAppLanguages() {
+  const loaded = loadRegistryRows();
+  if (!loaded.pass) return [];
+  return loaded.rows.filter((r) => r.appCode !== "de").map((r) => r.appCode);
+}
+
+function assertRegistryComplete() {
+  const langs = listAllTargetAppLanguages();
+  const missing = langs.filter((l) => !TARGET_ADAPTER_REGISTRY[l]?.lookup);
+  return { pass: missing.length === 0, missing, count: langs.length };
 }
 
 module.exports = {
   TARGET_ADAPTER_REGISTRY,
+  ET_ADAPTER,
+  LANGUAGE_CONFIGS,
+  buildTargetAdapterRegistry,
+  configForLang,
   getTargetAdapterMeta,
   listTargetAdapterMatrix,
   lookupTargetOfficialEntry,
+  listAllTargetAppLanguages,
+  assertRegistryComplete,
+  matrixRowForLanguage,
 };
