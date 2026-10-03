@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "g2-a1-german-target-dictionary-search-overrides-v1",
+  "description": "Search-priority overrides and subscription-only references (does not replace MASTER silently).",
+  "languages": {
+    "et": {
+      "candidateOrder": ["glosbe-de-et-public", "keelevara-tea-subscription"],
+      "subscriptionOnly": {
+        "id": "keelevara-tea-subscription",
+        "name": "Keelevara TEA German–Estonian",
+        "publisher": "TEA Kirjastus / Keelevara",
+        "url": "https://www.keelevara.ee/",
+        "languagePair": "de→et",
+        "access": "SUBSCRIPTION_REQUIRED",
+        "entryCount": null,
+        "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+        "type": "INSTITUTIONAL_BILINGUAL_LEXICON"
+      },
+      "publicPrimary": {
+        "id": "glosbe-de-et-public",
+        "name": "Glosbe German–Estonian (dictionary)",
+        "publisher": "Glosbe (community lexicon)",
+        "url": "https://glosbe.com/de/et",
+        "languagePair": "de→et",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": null,
+        "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+        "type": "COMMUNITY_BILINGUAL_GLOSBE"
+      }
+    },
+    "lt": {
+      "publicPrimary": {
+        "id": "ekalba-de-lt",
+        "name": "eKalba Vokiečių–lietuvių kalbų žodynas",
+        "publisher": "Lietuvių kalbos institutas / eKalba.lt",
+        "url": "https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/",
+        "languagePair": "de→lt",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": 15262,
+        "entryCountStatus": "PUBLICLY_CONFIRMED_PUBLISHER_ESTIMATE",
+        "type": "INSTITUTIONAL_BILINGUAL_LEXICON"
+      },
+      "reversePrimary": {
+        "id": "ekalba-lt-de",
+        "name": "eKalba Lietuvių–vokiečių kalbų žodynas",
+        "publisher": "Lietuvių kalbos institutas / eKalba.lt",
+        "url": "https://ekalba.lt/lietuviu-vokieciu-kalbu-zodynas/",
+        "languagePair": "lt→de",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": 17008,
+        "entryCountStatus": "PUBLICLY_CONFIRMED_PUBLISHER_ESTIMATE",
+        "type": "INSTITUTIONAL_BILINGUAL_LEXICON"
+      },
+      "fallbackCandidate": {
+        "id": "vokieciu-lietuviu-fallback",
+        "name": "Vokiečių–lietuvių žodynas (vokieciu-lietuviu.com)",
+        "publisher": "LED / vokieciu-lietuviu.com",
+        "url": "http://www.vokieciu-lietuviu.com/",
+        "languagePair": "de→lt",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": 16000,
+        "entryCountStatus": "PUBLICLY_CONFIRMED_PUBLISHER_ESTIMATE",
+        "type": "COMMUNITY_BILINGUAL_LEXICON",
+        "note": "Not primary for card translation audit; eKalba only."
+      }
+    },
+    "lv": {
+      "publicPrimary": {
+        "id": "letonika-de-lv-2001-plus",
+        "name": "Letonika vācu–latviešu vārdnīca",
+        "publisher": "Latvijas Universitāte / Letonika",
+        "url": "https://www.letonika.lv/groups/default.aspx?g=2&r=10311062",
+        "languagePair": "de→lv",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": 68500,
+        "entryCountStatus": "PUBLICLY_CONFIRMED_PUBLISHER_MINIMUM",
+        "type": "INSTITUTIONAL_BILINGUAL_LEXICON"
+      },
+      "reversePrimary": {
+        "id": "letonika-lv-de-2001-plus",
+        "name": "Letonika latviešu–vācu vārdnīca",
+        "publisher": "Latvijas Universitāte / Letonika",
+        "url": "https://www.letonika.lv/groups/default.aspx?g=2&r=10621031",
+        "languagePair": "lv→de",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": 55000,
+        "entryCountStatus": "PUBLICLY_CONFIRMED_PUBLISHER_MINIMUM",
+        "type": "INSTITUTIONAL_BILINGUAL_LEXICON"
+      }
+    },
+    "pl": {
+      "publicPrimary": {
+        "id": "pons-de-pl",
+        "name": "PONS Wörterbuch Deutsch–Polnisch",
+        "publisher": "PONS / Klett",
+        "url": "https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/",
+        "languagePair": "de→pl",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": null,
+        "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+        "type": "PROFESSIONAL_BILINGUAL_COMMERCIAL"
+      },
+      "reversePrimary": {
+        "id": "pons-pl-de",
+        "name": "PONS Wörterbuch Polnisch–Deutsch",
+        "publisher": "PONS / Klett",
+        "url": "https://de.pons.com/%C3%BCbersetzung/polnisch-deutsch/",
+        "languagePair": "pl→de",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": null,
+        "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+        "type": "PROFESSIONAL_BILINGUAL_COMMERCIAL"
+      }
+    },
+    "lb": {
+      "searchMode": "LOD_DE_REVERSE_API",
+      "fallbackCandidate": {
+        "id": "glosbe-de-lb-fallback",
+        "name": "Glosbe German–Luxembourgish (dictionary)",
+        "publisher": "Glosbe (community lexicon)",
+        "url": "https://glosbe.com/de/lb",
+        "languagePair": "de→lb",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": null,
+        "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+        "type": "COMMUNITY_BILINGUAL_GLOSBE"
+      },
+      "notes": "LOD advanced search; Glosbe dictionary section as fallback (no Translate)."
+    },
+    "sl": {
+      "fallbackCandidate": {
+        "id": "glosbe-de-sl-fallback",
+        "name": "Glosbe German–Slovenian (dictionary)",
+        "publisher": "Glosbe (community lexicon)",
+        "url": "https://glosbe.com/de/sl",
+        "languagePair": "de→sl",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": null,
+        "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+        "type": "COMMUNITY_BILINGUAL_GLOSBE"
+      }
+    },
+    "uk": {
+      "publicPrimary": {
+        "id": "udew-uk-de-bidir",
+        "name": "UDEW Ukrainisch–Deutsch–Ukrainisch Online-Wörterbuch",
+        "publisher": "Universität Leipzig (UDEW)",
+        "url": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+        "languagePair": "de→uk",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": 60000,
+        "entryCountStatus": "PUBLICLY_CONFIRMED_PUBLISHER_ESTIMATE",
+        "type": "INSTITUTIONAL_BILINGUAL_LEXICON",
+        "platform": "udew"
+      },
+      "reversePrimary": {
+        "id": "udew-uk-de-bidir-reverse",
+        "name": "UDEW Ukrainisch–Deutsch–Ukrainisch Online-Wörterbuch",
+        "publisher": "Universität Leipzig (UDEW)",
+        "url": "https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm",
+        "languagePair": "uk→de",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": 60000,
+        "entryCountStatus": "PUBLICLY_CONFIRMED_PUBLISHER_ESTIMATE",
+        "type": "INSTITUTIONAL_BILINGUAL_LEXICON",
+        "platform": "udew"
+      },
+      "fallbackCandidate": {
+        "id": "dict-cc-de-uk-fallback",
+        "name": "dict.cc Deutsch–Ukrainisch",
+        "publisher": "dict.cc (community-maintained)",
+        "url": "https://deuk.dict.cc/",
+        "languagePair": "de→uk",
+        "access": "PUBLIC_BROWSER_SESSION",
+        "entryCount": 66145,
+        "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+        "type": "COMMUNITY_BILINGUAL_DICT_CC"
+      }
+    }
+  }
+}
