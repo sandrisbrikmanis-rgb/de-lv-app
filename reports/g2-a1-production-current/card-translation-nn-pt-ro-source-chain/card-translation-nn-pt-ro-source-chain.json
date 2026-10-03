@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-card-translation-nn-pt-ro-source-chain-v1",
-  "generatedAt": "2026-10-03T09:17:44.322Z",
+  "generatedAt": "2026-10-03T09:31:52.303Z",
   "inputs": {
     "auditCatalog": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
     "pilotVerification": "reports/g2-a1-production-current/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify.json",
@@ -95,7 +95,7 @@
       ],
       "pilotSummary": {
         "status": "PARTIAL",
-        "primaryDeHitCount": "4/6"
+        "primaryDeHitCount": "3/6"
       },
       "discoveryBest": {
         "primaryId": "ia-torchtrop-de-pt-1943",
@@ -103,7 +103,7 @@
           "ia-wagener-de-pt-1812-v1",
           "ia-dicionario-moderno-de-pt-pt-de"
         ],
-        "pilotHitCountPrimaryOcr": "4/6"
+        "pilotHitCountPrimaryOcr": "3/6"
       },
       "regressionPilotDe": [
         {
@@ -239,13 +239,13 @@
       "supplementaryControlOnly": [],
       "discoveryEvidenceOnly": [],
       "sourceChainPriority": [
-        "primaryDigitized:de↔ro (ia-barcianu-de-ro-bidir-1886 — vēsturiskais bidirekcionālais)",
-        "modernInstitutional:ro→de (tdrg3-solirom-ro-de — mūsdienīgs RO headword)",
+        "DE→RO: primaryDigitized ia-barcianu-de-ro-bidir-1886 (Barcianu 1886 IA OCR)",
+        "RO→DE un mūsdienīga institucionālā pārbaude: modernInstitutional tdrg3-solirom-ro-de (TDRG³)",
         "supplementaryReserve:ia-tiktin-ro-de-historical / ia-alexi-ro-de-1906"
       ],
       "pilotSummary": {
         "status": "PARTIAL",
-        "primaryDeHitCount": "4/6",
+        "primaryDeHitCount": "3/6",
         "tdrg3DeHitCount": "4/6"
       },
       "discoveryBest": {
@@ -255,8 +255,9 @@
           "ia-tiktin-ro-de-historical",
           "ia-alexi-ro-de-1906"
         ],
-        "pilotHitCountPrimaryOcr": "4/6",
-        "pilotHitCountTdrg3": "4/6"
+        "pilotHitCountPrimaryOcr": "3/6",
+        "pilotHitCountTdrg3": "4/6",
+        "sourceChainNote": "DE→RO Barcianu; RO→DE un mūsdienīga institucionālā pārbaude TDRG³"
       },
       "regressionPilotDe": [
         {
@@ -402,7 +403,20 @@
           "iiifManifestUrl": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11752747/manifest"
         }
       ],
-      "modernInstitutional": [],
+      "modernInstitutional": [
+        {
+          "id": "snorre-sbr-24",
+          "name": "SNORRE terminology wordlist (Språkbanken oai-nb-no-sbr-24 / Standard Norge)",
+          "year": 2013,
+          "authorPublisher": "Standard Norge / Språkbanken (NB)",
+          "direction": "de↔nn-terminology",
+          "role": "modern_institutional_terminology",
+          "accessType": "Tab-separated open wordlist (DE / NN / EN / FR parallel terms)",
+          "catalogUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "downloadUrl": "https://www.nb.no/sbfil/leksikalske_databaser/snorre.tar.gz",
+          "note": "Terminoloģijas vārdu saraksts (~18k DE termini); nav vispārīga DE↔nynorsk vārdnīca, bet institucionālais mūsdienīgais slānis."
+        }
+      ],
       "supplementaryReserve": [
         {
           "id": "mdz-kaper-dano-nor-de-1889",
@@ -435,24 +449,26 @@
       ],
       "discoveryEvidenceOnly": [],
       "sourceChainPriority": [
-        "primaryDigitized:de↔no-historical (ia-bsb-helms-dano-nor-de-11752747)",
-        "supplementaryReserve:mdz-kaper-dano-nor-de-1889",
-        "supplementaryReserve:ia-hanson-tysk-norsk-1840",
-        "supplementaryControlOnly:dinordbok-tysk-nynorsk-web (never OWNER primary)"
+        "DE↔NO vēsturiskā pārbaude: primaryDigitized ia-bsb-helms-dano-nor-de-11752747 + supplementaryReserve mdz-kaper / ia-hanson",
+        "modernInstitutional:snorre-sbr-24 (institucionālā terminoloģija DE↔NN)",
+        "supplementaryControlOnly:dinordbok-tysk-nynorsk-web (tikai krustpārbaude, never OWNER primary)"
       ],
       "pilotSummary": {
         "status": "PARTIAL",
-        "primaryDeHitCount": "4/6",
+        "historicalHelmsDeHitCount": "4/6",
+        "snorreDeHitCount": "0/6",
         "modernNynorskGap": true
       },
       "discoveryBest": {
         "primaryId": "ia-bsb-helms-dano-nor-de-11752747",
+        "modernId": "snorre-sbr-24",
         "supplementIds": [
           "mdz-kaper-dano-nor-de-1889",
           "ia-hanson-tysk-norsk-1840"
         ],
         "controlOnlyId": "dinordbok-tysk-nynorsk-web",
         "pilotHitCountPrimaryOcr": "4/6",
+        "pilotHitCountSnorreDeToNn": "0/6",
         "modernNynorskDigitizedLexicon": false
       },
       "regressionPilotDe": [
@@ -531,6 +547,72 @@
           "targetGloss": "weak attestation in historical corpus",
           "entryUrl": "https://archive.org/download/11752747bsb/11752747bsb_djvu.txt",
           "note": null,
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Haus (SNORRE)",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nn-terminology",
+          "sourceName": "snorre-sbr-24",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "note": "no exact Tysk headword; only compounds e.g. Haushaltgerät",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "arbeiten (SNORRE)",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nn-terminology",
+          "sourceName": "snorre-sbr-24",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "note": "Exact match on Tysk / TyskSynonym columns in snorre.txt (Språkbanken tarball, latin-1 TSV)",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Kleingeld (SNORRE)",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nn-terminology",
+          "sourceName": "snorre-sbr-24",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "note": "Exact match on Tysk / TyskSynonym columns in snorre.txt (Språkbanken tarball, latin-1 TSV)",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "bewirten (SNORRE)",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nn-terminology",
+          "sourceName": "snorre-sbr-24",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "note": "Exact match on Tysk / TyskSynonym columns in snorre.txt (Språkbanken tarball, latin-1 TSV)",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Grenzkonflikt (SNORRE)",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nn-terminology",
+          "sourceName": "snorre-sbr-24",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "note": "Exact match on Tysk / TyskSynonym columns in snorre.txt (Språkbanken tarball, latin-1 TSV)",
+          "supplementUsed": false
+        },
+        {
+          "deLemma": "Machtgier (SNORRE)",
+          "auditStepUsed": 1,
+          "primaryDirection": "de→nn-terminology",
+          "sourceName": "snorre-sbr-24",
+          "pairFound": false,
+          "targetGloss": null,
+          "entryUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "note": "Exact match on Tysk / TyskSynonym columns in snorre.txt (Språkbanken tarball, latin-1 TSV)",
           "supplementUsed": false
         }
       ]

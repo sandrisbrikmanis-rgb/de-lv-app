@@ -6,6 +6,7 @@ const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 const {
   buildNnPtRoReadinessReport,
+  collectPilotCountFailures,
   LANGS,
   AUDIT_CATALOG_REL,
   PILOT_VERIFY_REL,
@@ -23,11 +24,18 @@ function main() {
   }
 
   let catalog;
+  let pilot;
   try {
     catalog = JSON.parse(fs.readFileSync(path.join(ROOT, AUDIT_CATALOG_REL), "utf8"));
   } catch {
     failures.push("AUDIT_CATALOG_PARSE_FAIL");
     catalog = null;
+  }
+  try {
+    pilot = JSON.parse(fs.readFileSync(path.join(ROOT, PILOT_VERIFY_REL), "utf8"));
+  } catch {
+    failures.push("PILOT_VERIFY_PARSE_FAIL");
+    pilot = null;
   }
 
   let report;
@@ -64,7 +72,14 @@ function main() {
     if (!nn?.supplementaryControlOnly?.some((s) => s.id === "dinordbok-tysk-nynorsk-web")) {
       failures.push("NN_DINORDBOK_CONTROL_ONLY_MISSING");
     }
+    if (!nn?.modernInstitutional?.some((s) => s.id === "snorre-sbr-24")) {
+      failures.push("NN_SNORRE_MODERN_INSTITUTIONAL_MISSING");
+    }
     if (nn?.pilotNotes?.modernNynorskGap !== true) failures.push("NN_MODERN_GAP_FLAG_REQUIRED");
+  }
+
+  if (catalog && pilot) {
+    failures.push(...collectPilotCountFailures(catalog, pilot));
   }
 
   if (report) {

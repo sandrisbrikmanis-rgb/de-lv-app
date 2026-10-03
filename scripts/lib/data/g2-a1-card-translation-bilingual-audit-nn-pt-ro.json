@@ -92,7 +92,7 @@
       ],
       "pilotNotes": {
         "deToTargetVerifiedLemmas": ["Haus", "arbeiten", "Kleingeld"],
-        "deToTargetHitCount": "4/6",
+        "deToTargetHitCount": "3/6",
         "reverseCasaFound": true,
         "auditReady": false,
         "readinessClassification": "PT_DIGITIZED_SOURCES_REGISTERED_PARTIAL"
@@ -155,13 +155,14 @@
       ],
       "collectorOverrideId": "ia-barcianu-de-ro-bidir-1886",
       "sourceChainPriority": [
-        "primaryDigitized:de↔ro (ia-barcianu-de-ro-bidir-1886 — vēsturiskais bidirekcionālais)",
-        "modernInstitutional:ro→de (tdrg3-solirom-ro-de — mūsdienīgs RO headword)",
+        "DE→RO: primaryDigitized ia-barcianu-de-ro-bidir-1886 (Barcianu 1886 IA OCR)",
+        "RO→DE un mūsdienīga institucionālā pārbaude: modernInstitutional tdrg3-solirom-ro-de (TDRG³)",
         "supplementaryReserve:ia-tiktin-ro-de-historical / ia-alexi-ro-de-1906"
       ],
       "pilotNotes": {
         "deToTargetVerifiedLemmas": ["Haus", "arbeiten", "Kleingeld"],
-        "deToTargetHitCount": "4/6",
+        "deToTargetHitCount": "3/6",
+        "tdrg3DeToTargetHitCount": "4/6",
         "tdrg3VerifiedLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten"],
         "tdrg3HeadwordExamples": {
           "Haus": "https://solirom-cflr.gitlab.io/data/A100062/4040.html",
@@ -191,6 +192,20 @@
         }
       ],
       "reverseChainDigitized": [],
+      "modernInstitutional": [
+        {
+          "id": "snorre-sbr-24",
+          "name": "SNORRE terminology wordlist (Språkbanken oai-nb-no-sbr-24 / Standard Norge)",
+          "year": 2013,
+          "authorPublisher": "Standard Norge / Språkbanken (NB)",
+          "direction": "de↔nn-terminology",
+          "role": "modern_institutional_terminology",
+          "accessType": "Tab-separated open wordlist (DE / NN / EN / FR parallel terms)",
+          "catalogUrl": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-24/",
+          "downloadUrl": "https://www.nb.no/sbfil/leksikalske_databaser/snorre.tar.gz",
+          "note": "Terminoloģijas vārdu saraksts (~18k DE termini); nav vispārīga DE↔nynorsk vārdnīca, bet institucionālais mūsdienīgais slānis."
+        }
+      ],
       "supplementaryReserve": [
         {
           "id": "mdz-kaper-dano-nor-de-1889",
@@ -235,15 +250,16 @@
       ],
       "collectorOverrideId": "ia-bsb-helms-dano-nor-de-11752747",
       "sourceChainPriority": [
-        "primaryDigitized:de↔no-historical (ia-bsb-helms-dano-nor-de-11752747)",
-        "supplementaryReserve:mdz-kaper-dano-nor-de-1889",
-        "supplementaryReserve:ia-hanson-tysk-norsk-1840",
-        "supplementaryControlOnly:dinordbok-tysk-nynorsk-web (never OWNER primary)"
+        "DE↔NO vēsturiskā pārbaude: primaryDigitized ia-bsb-helms-dano-nor-de-11752747 + supplementaryReserve mdz-kaper / ia-hanson",
+        "modernInstitutional:snorre-sbr-24 (institucionālā terminoloģija DE↔NN)",
+        "supplementaryControlOnly:dinordbok-tysk-nynorsk-web (tikai krustpārbaude, never OWNER primary)"
       ],
-      "note": "Nav atrasts tīrs mūsdienīgs DE↔nynorsk digitizēts leksikons; reģistrēts vēsturiskais dāņu–norvēģu stack.",
+      "note": "Nav atrasts tīrs mūsdienīgs vispārīgs DE↔nynorsk digitizēts leksikons; reģistrēts vēsturiskais dāņu–norvēģu stack + SNORRE terminoloģijas slānis.",
       "pilotNotes": {
-        "deToTargetVerifiedLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten"],
+        "historicalDeToNnVerifiedLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten"],
         "deToTargetHitCount": "4/6",
+        "snorreDeToNnHitCount": "0/6",
+        "snorrePilotNote": "Pilot 6 vispārīgie DE lemmati — nav SNORRE Tysk kolonnā (terminoloģija, ne vārdnīca).",
         "modernNynorskGap": true,
         "dinordbokPilotDeToNn": "3/6 strict (4/6 incl. bewirten semantic)",
         "auditReady": false,

@@ -1,6 +1,6 @@
 # G2/A1 kartīšu tulkojums — pt / ro / nn audita avotu ķēde
 
-- **Ģenerēts:** 2026-10-03T09:17:44.322Z
+- **Ģenerēts:** 2026-10-03T09:31:52.303Z
 - **Avotu reģistrs:** `scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json`
 - **Pilot verifikācija:** `reports/g2-a1-production-current/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify.json`
 - **Discovery:** `reports/g2-a1-production-current/pdf-bilingual-dictionary-nn-pt-ro-discovery/pdf-bilingual-dictionary-nn-pt-ro-discovery.json`
@@ -45,6 +45,9 @@
 
 ### Primārie avoti
 - **Neues vollständiges Wörterbuch der dänisch-norwegischen und deutschen Sprache (Helms, BSB/IA 11752747)** (de↔no-historical): https://www.digitale-sammlungen.de/de/view/bsb11752747?page=1
+
+### Institucionālie (mūsdienīgi)
+- **SNORRE terminology wordlist (Språkbanken oai-nb-no-sbr-24 / Standard Norge)**: undefined
 
 ### Tikai papildu kontrole (nav autoritatīvi)
 - DinOrdbok Tysk–Nynorsk (crowd-sourced web): https://www.dinordbok.se/tysk-nynorsk/

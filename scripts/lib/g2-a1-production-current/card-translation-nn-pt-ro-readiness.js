@@ -12,11 +12,102 @@ const DISCOVERY_REL =
   "reports/g2-a1-production-current/pdf-bilingual-dictionary-nn-pt-ro-discovery/pdf-bilingual-dictionary-nn-pt-ro-discovery.json";
 
 const LANGS = Object.freeze(["pt", "ro", "nn"]);
+const PILOT_LEMMA_COUNT = 6;
 
 function readJson(rel) {
   const p = path.join(ROOT, rel);
   if (!fs.existsSync(p)) return null;
   return JSON.parse(fs.readFileSync(p, "utf8"));
+}
+
+function countFoundTrue(rows) {
+  if (!Array.isArray(rows)) return 0;
+  return rows.filter((row) => row.found === true).length;
+}
+
+function formatHitCount(foundCount, total = PILOT_LEMMA_COUNT) {
+  return `${foundCount}/${total}`;
+}
+
+function parseHitCount(hitStr) {
+  if (typeof hitStr !== "string") return null;
+  const m = /^(\d+)\/(\d+)$/.exec(hitStr.trim());
+  if (!m) return null;
+  return { found: Number(m[1]), total: Number(m[2]) };
+}
+
+function assertHitCountMatches(label, declared, rows, failures) {
+  const parsed = parseHitCount(declared);
+  const computed = countFoundTrue(rows);
+  if (!parsed) {
+    failures.push(`${label}_HIT_COUNT_UNPARSEABLE:${declared}`);
+    return;
+  }
+  if (parsed.found !== computed) {
+    failures.push(`${label}_HIT_COUNT_MISMATCH:declared=${declared},computed=${formatHitCount(computed)}`);
+  }
+}
+
+function collectPilotCountFailures(catalog, pilot) {
+  const failures = [];
+  const pv = pilot?.pilotVerification;
+  if (!pv) {
+    failures.push("PILOT_VERIFICATION_MISSING");
+    return failures;
+  }
+
+  const ptNotes = catalog?.languages?.pt?.pilotNotes;
+  assertHitCountMatches("PT_PRIMARY", ptNotes?.deToTargetHitCount, pv.pt?.deToTarget, failures);
+  assertHitCountMatches(
+    "PT_SUMMARY",
+    pilot?.summary?.pt?.primaryDeHitCount,
+    pv.pt?.deToTarget,
+    failures,
+  );
+
+  const roNotes = catalog?.languages?.ro?.pilotNotes;
+  assertHitCountMatches("RO_PRIMARY", roNotes?.deToTargetHitCount, pv.ro?.deToTarget, failures);
+  assertHitCountMatches(
+    "RO_SUMMARY",
+    pilot?.summary?.ro?.primaryDeHitCount,
+    pv.ro?.deToTarget,
+    failures,
+  );
+  assertHitCountMatches(
+    "RO_TDRG3",
+    roNotes?.tdrg3DeToTargetHitCount,
+    pv.ro?.tdrg3?.deToTargetViaRoHeadword,
+    failures,
+  );
+  assertHitCountMatches(
+    "RO_TDRG3_SUMMARY",
+    pilot?.summary?.ro?.tdrg3DeHitCount,
+    pv.ro?.tdrg3?.deToTargetViaRoHeadword,
+    failures,
+  );
+
+  const nnNotes = catalog?.languages?.nn?.pilotNotes;
+  assertHitCountMatches("NN_HELMS", nnNotes?.deToTargetHitCount, pv.nn?.deToTarget, failures);
+  assertHitCountMatches(
+    "NN_SNORRE",
+    nnNotes?.snorreDeToNnHitCount,
+    pv.nn?.snorre?.deToTarget,
+    failures,
+  );
+  assertHitCountMatches(
+    "NN_SNORRE_SUMMARY",
+    pilot?.summary?.nn?.snorreDeHitCount,
+    pv.nn?.snorre?.deToTarget,
+    failures,
+  );
+  assertHitCountMatches(
+    "NN_HELMS_SUMMARY",
+    pilot?.summary?.nn?.historicalHelmsDeHitCount,
+    pv.nn?.deToTarget,
+    failures,
+  );
+
+  return failures;
 }
 
 function regressionFromPilot(appLang, pilot) {
@@ -64,6 +155,22 @@ function regressionFromPilot(appLang, pilot) {
         targetGloss: row.roHeadword,
         entryUrl: row.entryUrl,
         note: "modern institutional RO headword",
+        supplementUsed: false,
+      });
+    }
+  }
+
+  if (appLang === "nn" && block?.snorre?.deToTarget) {
+    for (const row of block.snorre.deToTarget) {
+      regression.push({
+        deLemma: `${row.lemma} (SNORRE)`,
+        auditStepUsed: 1,
+        primaryDirection: "de→nn-terminology",
+        sourceName: block.snorre.sourceId || "snorre-sbr-24",
+        pairFound: row.found === true,
+        targetGloss: row.found ? row.note || "FOUND" : null,
+        entryUrl: block.snorre.catalogUrl || null,
+        note: row.note || block.snorre.verificationMethod || null,
         supplementUsed: false,
       });
     }
@@ -140,5 +247,9 @@ module.exports = {
   AUDIT_CATALOG_REL,
   PILOT_VERIFY_REL,
   DISCOVERY_REL,
+  PILOT_LEMMA_COUNT,
+  countFoundTrue,
+  formatHitCount,
+  collectPilotCountFailures,
   buildNnPtRoReadinessReport,
 };
