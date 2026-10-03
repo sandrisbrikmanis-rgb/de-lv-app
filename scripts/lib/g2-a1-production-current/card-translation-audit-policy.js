@@ -1,0 +1,144 @@
+#!/usr/bin/env node
+"use strict";
+
+const { SOURCE_ACCESS_OUTCOME } = require("./official-source-access-constants");
+const { evidenceQualityOk } = require("./targeted-source-access-validation");
+
+function isDeLemmaConfirmed(deAuthority) {
+  return (
+    deAuthority?.outcome === SOURCE_ACCESS_OUTCOME.SOURCE_ENTRY_VALIDATED &&
+    Boolean(deAuthority?.entryUrl) &&
+    Boolean(deAuthority?.evidenceFragment)
+  );
+}
+
+const { getCardTranslation32LangReadiness } = require("./card-translation-32lang-readiness");
+
+/**
+ * Kartīšu tulkojuma pierādījumu kārtība: MASTER §7.162 + card-translation-evidence-ladder.js
+ * (PDF divvalodu DE→TARGET / TARGET→DE, tad DWDS/Duden + TARGET oficiālā definīcija).
+ */
+
+/** Vācu DE avots kartes auditā — tikai šie (LOD ir lb TARGET, ne DE nozīme). */
+const GERMAN_DE_AUTHORITY_ADAPTER_PREFIXES = Object.freeze(["de-dwds", "de-duden"]);
+
+const WEAK_SENSE_ALIGNMENT_REASONS = Object.freeze([
+  "card_meaning_not_provided_accept_lemma_match",
+  "lemma_match_only_needs_owner_if_strict_semantics",
+]);
+
+function isGermanDeAuthorityDwdsOrDuden(deAuthority) {
+  if (!isDeLemmaConfirmed(deAuthority)) return false;
+  const adapterId = String(deAuthority.adapterId || "").trim();
+  if (GERMAN_DE_AUTHORITY_ADAPTER_PREFIXES.some((p) => adapterId === p || adapterId.startsWith(`${p}-`))) {
+    return true;
+  }
+  const url = String(deAuthority.entryUrl || deAuthority.finalUrl || "");
+  if (/lod\.lu/i.test(url)) return false;
+  return /(?:^|\.)dwds\.de|(?:^|\.)duden\.de/i.test(url);
+}
+
+function languageMayReceiveTranslationValidated(appLang) {
+  const lang = String(appLang || "").trim();
+  const row = getCardTranslation32LangReadiness().languages.find((l) => l.appLang === lang);
+  return Boolean(row?.cardTranslationReady);
+}
+
+/**
+ * FINDING + PROPOSED_NEW — tikai viens sense-aligned kandidāts, zināma POS, stipra nozīmes saderība,
+ * DWDS/Duden DE, LOD (lb) TARGET ar evidence quality.
+ */
+function canEmitFindingWithProposedNew({
+  senseAlignedCount,
+  cardGerman,
+  selectedCandidate,
+  deAuthority,
+  targetAuthority,
+}) {
+  if (senseAlignedCount !== 1) {
+    return { ok: false, code: "FINDING_REQUIRES_SINGLE_SENSE_ALIGNED_CANDIDATE" };
+  }
+  if (!cardGerman?.partOfSpeech) {
+    return { ok: false, code: "FINDING_REQUIRES_KNOWN_CARD_POS" };
+  }
+  if (!selectedCandidate) {
+    return { ok: false, code: "FINDING_REQUIRES_SELECTED_CANDIDATE" };
+  }
+  const alignment = selectedCandidate.senseAlignment;
+  if (WEAK_SENSE_ALIGNMENT_REASONS.includes(alignment)) {
+    return { ok: false, code: "FINDING_REQUIRES_UNAMBIGUOUS_DE_SENSE", alignment };
+  }
+  if (!isGermanDeAuthorityDwdsOrDuden(deAuthority)) {
+    return { ok: false, code: "FINDING_REQUIRES_DWDS_OR_DUDEN_DE" };
+  }
+  if (!evidenceQualityOk(targetAuthority)) {
+    return { ok: false, code: "FINDING_REQUIRES_TARGET_EVIDENCE_QUALITY" };
+  }
+  return { ok: true };
+}
+
+function canEmitTranslationValidated({ deAuthority, targetAuthority, senseAlignedCount, pick }) {
+  if (!isGermanDeAuthorityDwdsOrDuden(deAuthority)) {
+    return { ok: false, code: "VALIDATED_REQUIRES_DWDS_OR_DUDEN_DE" };
+  }
+  if (!evidenceQualityOk(deAuthority) || !evidenceQualityOk(targetAuthority)) {
+    return { ok: false, code: "VALIDATED_REQUIRES_DUAL_EVIDENCE_QUALITY" };
+  }
+  if (pick?.mismatchCurrent) {
+    return { ok: false, code: "VALIDATED_REQUIRES_CURRENT_MATCH" };
+  }
+  if (senseAlignedCount > 1 && pick?.status === "selected") {
+    /* Vairāki kandidāti, bet tieši viens atbilst CURRENT — pieļaujams lb. */
+    return { ok: true };
+  }
+  if (senseAlignedCount !== 1) {
+    return { ok: false, code: "VALIDATED_REQUIRES_UNAMBIGUOUS_CANDIDATE_SET" };
+  }
+  return { ok: true };
+}
+
+const { isFullCardTranslationBatchReady } = require("./card-translation-32lang-readiness");
+
+/**
+ * Pilna targeted-field-level Luna batch — atļauta tikai kad visas 32 valodas ir
+ * cardTranslationReady (DE→TARGET kolektors + TARGET oficiālā validācija).
+ * Nav atsevišķa “bypass” karoga: reģistrs jāaizpilda implementācijā.
+ */
+function assertTargetedFieldCardTranslationBatchAllowed(options = {}) {
+  if (options.pilotOnly === true) {
+    return { pass: true, blockers: [] };
+  }
+  if (options.executeLuna !== true) {
+    return { pass: true, blockers: [] };
+  }
+
+  if (isFullCardTranslationBatchReady()) {
+    return { pass: true, blockers: [] };
+  }
+
+  const readiness = getCardTranslation32LangReadiness();
+  return {
+    pass: false,
+    blockers: [
+      {
+        code: "CARD_TRANSLATION_32LANG_COLLECTORS_NOT_READY",
+        message:
+          "Do not run full targeted-field-level Luna batch until DE→TARGET collectors and TARGET official validation exist for all 32 languages. Use pilot-only or card-translation production verify scripts.",
+        readyCount: readiness.readyCount,
+        expectedCount: readiness.expectedCount,
+        readyLanguages: readiness.readyLanguages,
+        remainingCount: readiness.remainingCount,
+      },
+    ],
+  };
+}
+
+module.exports = {
+  GERMAN_DE_AUTHORITY_ADAPTER_PREFIXES,
+  isGermanDeAuthorityDwdsOrDuden,
+  languageMayReceiveTranslationValidated,
+  canEmitFindingWithProposedNew,
+  canEmitTranslationValidated,
+  assertTargetedFieldCardTranslationBatchAllowed,
+  isFullCardTranslationBatchReady,
+};

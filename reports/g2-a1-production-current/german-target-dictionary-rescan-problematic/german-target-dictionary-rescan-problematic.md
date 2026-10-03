@@ -1,0 +1,37 @@
+# G2/A1 — vācu–TARGET papildu varianti (problemātiskās valodas)
+
+Valodas: **mk, nn, lb** — paplašināts kandidātu saraksts + live piloti (Haus, abholen, Route, Getriebe). **lb** izmanto LOD `/api/de/search` (vācu reverso meklēšana).
+
+| Valoda | Ieteicamais (rescan) | Platforma | Statuss | Redakcionālais tips | Auto brīdinājums |
+|--------|----------------------|-----------|---------|---------------------|------------------|
+| mk | Netzverb / verbformen Deutsch–Mazedonisch | verbformen | DICTIONARY_READY | COMMUNITY_LEXICON_OTHER | — |
+| nn | Langenscheidt German–Norwegian (Nynorsk path) | langenscheidt | DICTIONARY_READY | HUMAN_EDITED_PROFESSIONAL | — |
+| lb | LOD (DE→LB reverse, /api/de/search) | lod | DICTIONARY_READY | INSTITUTIONAL_PROFESSIONAL | — |
+
+## Ranžētie kandidāti
+
+### mk
+
+- #1 **verbformen**: Netzverb / verbformen Deutsch–Mazedonisch — `DICTIONARY_READY` score=40
+- #2 **glosbe**: Glosbe German–Macedonian — `DICTIONARY_PARTIALLY_READY` score=22
+- #3 **multitran**: Multitran German–Macedonian — `NO_SUITABLE_DICTIONARY_FOUND` score=-4
+- #4 **langenscheidt**: Langenscheidt German–Macedonian — `NO_SUITABLE_DICTIONARY_FOUND` score=-4
+- #5 **bab.la**: bab.la German–Macedonian — `NO_SUITABLE_DICTIONARY_FOUND` score=-4
+
+### nn
+
+- #1 **langenscheidt**: Langenscheidt German–Norwegian (Nynorsk path) — `DICTIONARY_READY` score=40
+- #2 **verbformen**: Netzverb / verbformen Deutsch–Norwegisch — `DICTIONARY_READY` score=40
+- #3 **dict.cc**: dict.cc Deutsch–Norwegisch (de-no.dict.cc) — `DICTIONARY_READY` score=40
+- #4 **glosbe**: Glosbe German–Nynorsk — `DICTIONARY_PARTIALLY_READY` score=22
+- #5 **bab.la**: bab.la German–Norwegian — `NO_SUITABLE_DICTIONARY_FOUND` score=-4
+
+### lb
+
+- #1 **lod**: LOD (DE→LB reverse, /api/de/search) — `DICTIONARY_READY` score=48
+- #2 **luxdico**: Luxdico Deutsch–Luxemburgisch — `DICTIONARY_PARTIALLY_READY` score=18
+- #3 **glosbe**: Glosbe German–Luxembourgish — `DICTIONARY_PARTIALLY_READY` score=11
+- #4 **lod**: LOD (advanced search, legacy) — `DICTIONARY_PARTIALLY_READY` score=7
+- #5 **bab.la**: bab.la German–Luxembourgish — `NO_SUITABLE_DICTIONARY_FOUND` score=-4
+- #6 **langenscheidt**: Langenscheidt German–Luxembourgish — `NO_SUITABLE_DICTIONARY_FOUND` score=-4
+

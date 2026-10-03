@@ -1,0 +1,269 @@
+{
+  "schemaVersion": "g2-a1-additional-bilingual-source-recommendations-v1",
+  "generatedAt": "2026-09-26T05:50:00.000Z",
+  "auditReference": "reports/g2-a1-production-current/card-translation-sample-lemmas/sample-lemmas-32lang-audit.json",
+  "pilotCommit": "05079521",
+  "needsAdditionalBilingualSourceCount": 38,
+  "languageCounts": {
+    "sq": 9,
+    "bs": 8,
+    "et": 6,
+    "uk": 5,
+    "nn": 4,
+    "lt": 3,
+    "sk": 3
+  },
+  "uniqueDeLemmas": [
+    "Besucher",
+    "stinken",
+    "Kleingeld",
+    "aufkommen",
+    "bewirten",
+    "Attacke",
+    "glotzen",
+    "Goldader",
+    "Grenzkonflikt",
+    "Machtgier"
+  ],
+  "diagnosis": {
+    "primaryGap": "Rescan-6 and mirror dict.cc URLs are not merged into card-translation-catalog-collector orderedDictionaryCandidatesForLang (MAX_FALLBACK_SOURCES=12, but only manifest + alternative-catalog tiers).",
+    "rescan6Reference": "reports/g2-a1-production-current/german-target-dictionary-rescan-6/german-target-dictionary-rescan-6.md",
+    "parserGap": "dict.cc HTML fetch without browser yields empty extractFromDictCcPlainText for sample lemma Goldader (bsde, de-bs, desk, de-sk) — live pilot uses Playwright; failures may be parser or missing entries in rendered UI.",
+    "nnGap": "nn chain is Langenscheidt (generic german-norwegian, bokmål-oriented) + Glosbe; no true DE→nynorsk dictionary in collector.",
+    "ltGap": "vokieciu-lietuviu + zodynai + Glosbe already tried (6 sources); compounds B2 may be absent; LiVoLi (~4k entries, VU) and reverse portal not wired."
+  },
+  "forbiddenPolicy": "scripts/lib/g2-a1-production-current/card-translation-forbidden-sources.js",
+  "languages": {
+    "bs": {
+      "currentChainPlatforms": ["dict.cc (bsde)", "langenscheidt", "bab.la", "glosbe"],
+      "recommendedAdditions": [
+        {
+          "priority": 1,
+          "id": "verbformen-de-bs",
+          "name": "Netzverb / verbformen Deutsch–Bosnisch",
+          "url": "https://www.verbformen.de/de-bs/",
+          "platform": "verbformen",
+          "type": "COMMUNITY_AGGREGATED_LEXICON",
+          "policyOk": true,
+          "rescan6Status": "DICTIONARY_READY",
+          "extractorExists": true,
+          "httpProbe2026-09-26": "10/10 pilot lemmas return HTTP 200 with lemma on page",
+          "wireIn": "Merge from scripts/lib/data/german-target-dictionary-rescan-6-candidates.json into alternative-catalog or collector append list."
+        },
+        {
+          "priority": 2,
+          "id": "dictcc-de-bs-mirror",
+          "name": "dict.cc Deutsch–Bosnisch (de-bs.dict.cc)",
+          "url": "https://de-bs.dict.cc/",
+          "platform": "dict.cc",
+          "type": "COMMUNITY_BILINGUAL_DICT_CC",
+          "policyOk": true,
+          "note": "Mirror of pair; manifest uses bsde.dict.cc only.",
+          "httpProbe2026-09-26": "10/10 lemmas HTTP 200 canonical hit"
+        }
+      ],
+      "notRecommended": [
+        {
+          "reason": "Linguee/Reverso/Google/DeepL — forbidden as translation authority"
+        }
+      ]
+    },
+    "sq": {
+      "currentChainPlatforms": ["dict.cc (desq)", "langenscheidt", "bab.la", "glosbe"],
+      "recommendedAdditions": [
+        {
+          "priority": 1,
+          "id": "verbformen-de-sq",
+          "name": "Netzverb / verbformen Deutsch–Albanisch",
+          "url": "https://www.verbformen.de/de-sq/",
+          "platform": "verbformen",
+          "rescan6Status": "DICTIONARY_READY",
+          "extractorExists": true,
+          "httpProbe2026-09-26": "10/10 lemmas HTTP 200"
+        },
+        {
+          "priority": 2,
+          "id": "dictcc-de-sq-mirror",
+          "name": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
+          "url": "https://de-sq.dict.cc/",
+          "platform": "dict.cc",
+          "httpProbe2026-09-26": "10/10 lemmas HTTP 200"
+        },
+        {
+          "priority": 3,
+          "id": "dicts-info-de-sq",
+          "name": "dicts.info German–Albanian",
+          "url": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian",
+          "platform": "dicts.info",
+          "rescan6Status": "NO_SUITABLE_DICTIONARY_FOUND",
+          "extractorExists": true,
+          "note": "Low priority — rescan pilots failed; keep as tertiary fallback only."
+        }
+      ]
+    },
+    "et": {
+      "currentChainPlatforms": ["glosbe (primary override)", "langenscheidt", "bab.la", "glosbe duplicate", "keelevara subscription ref"],
+      "recommendedAdditions": [
+        {
+          "priority": 1,
+          "id": "verbformen-de-et",
+          "name": "Netzverb / verbformen Deutsch–Estnisch",
+          "url": "https://www.verbformen.de/de-et/",
+          "platform": "verbformen",
+          "rescan6Status": "DICTIONARY_READY",
+          "extractorExists": true,
+          "httpProbe2026-09-26": "10/10 lemmas HTTP 200"
+        }
+      ],
+      "notRecommended": [
+        {
+          "id": "suomisanakirja-satzuebersetzer",
+          "reason": "Phrase-level MT-style tools — not dictionary authority per project policy"
+        }
+      ]
+    },
+    "uk": {
+      "currentChainPlatforms": ["dict.cc (deuk)", "langenscheidt", "bab.la", "glosbe"],
+      "recommendedAdditions": [
+        {
+          "priority": 1,
+          "id": "verbformen-de-uk",
+          "name": "Netzverb / verbformen Deutsch–Ukrainisch",
+          "url": "https://www.verbformen.de/de-uk/",
+          "platform": "verbformen",
+          "extractorExists": true,
+          "httpProbe2026-09-26": "10/10 lemmas HTTP 200",
+          "note": "Not in rescan-6 file but same Netzverb family; worth OWNER approve + pilot."
+        },
+        {
+          "priority": 2,
+          "id": "dictcc-de-uk-mirror",
+          "name": "dict.cc Deutsch–Ukrainisch (de-uk.dict.cc)",
+          "url": "https://de-uk.dict.cc/",
+          "platform": "dict.cc",
+          "rescan6Status": "DICTIONARY_PARTIALLY_READY"
+        },
+        {
+          "priority": 3,
+          "id": "udew-leipzig",
+          "name": "UDEW Leipzig DE↔UK online",
+          "url": "https://udew.uni-leipzig.de/udew/en/deutsch_ukrainisch_online.htm",
+          "platform": "udew",
+          "type": "INSTITUTIONAL_RESEARCH_LEXICON",
+          "rescan6Status": "NO_SUITABLE_DICTIONARY_FOUND",
+          "extractorExists": true,
+          "httpProbe2026-09-26": "TLS/network flaky from VM; B2 compounds returned 404 — needs browser pilot from Leipzig host",
+          "wireIn": "Only after successful Playwright extract on aufkommen/bewirten/Goldader"
+        },
+        {
+          "priority": 4,
+          "id": "multitran-de-uk",
+          "name": "Multitran German–Ukrainian",
+          "url": "https://www.multitran.com/dictionary/german-ukrainian",
+          "platform": "multitran",
+          "rescan6Status": "NO_SUITABLE_DICTIONARY_FOUND",
+          "note": "Community/aggregated; use only if OWNER accepts Multitran editorial class."
+        }
+      ]
+    },
+    "nn": {
+      "currentChainPlatforms": ["langenscheidt (RESCAN primary)", "glosbe manifest", "langenscheidt duplicate"],
+      "recommendedAdditions": [
+        {
+          "priority": 1,
+          "id": "dinordbok-tysk-nynorsk",
+          "name": "DinOrdbok Tysk–Nynorsk",
+          "url": "https://www.dinordbok.no/tysk-nynorsk/",
+          "platform": "dinordbok",
+          "type": "COMMUNITY_BILINGUAL_LEXICON",
+          "policyOk": true,
+          "note": "Explicit DE→nynorsk pair (~34k entries); not bokmål tysk-norsk.",
+          "httpProbe2026-09-26": "Attacke, Goldader, Grenzkonflikt, Machtgier HTTP 200",
+          "wireIn": "New platform + search URL builder + extractor (moderated community, not MT-only)."
+        },
+        {
+          "priority": 2,
+          "id": "verbformen-de-no",
+          "name": "verbformen Deutsch–Norwegisch",
+          "url": "https://www.verbformen.de/de-no/",
+          "platform": "verbformen",
+          "note": "Likely bokmål/generic Norwegian — lower priority than DinOrdbok for nn appLang."
+        }
+      ]
+    },
+    "lt": {
+      "currentChainPlatforms": ["vokieciu-lietuviu (primary)", "zodynai manifest", "langenscheidt", "bab.la", "glosbe", "vokieciu-lietuviu duplicate"],
+      "recommendedAdditions": [
+        {
+          "priority": 1,
+          "id": "lietuviu-vokieciu-reverse",
+          "name": "lietuviu-vokieciu.com (reverse)",
+          "url": "http://www.lietuviu-vokieciu.com/",
+          "platform": "lietuviu-vokieciu",
+          "httpProbe2026-09-26": "B2 compounds HTTP 200",
+          "wireIn": "Mirror extractor pattern from vokieciu-lietuviu.com"
+        },
+        {
+          "priority": 2,
+          "id": "livoli-vu",
+          "name": "LiVoLi (VU / Goethe) LT↔DE",
+          "url": "http://www.livoli.flf.vu.lt/",
+          "platform": "livoli",
+          "type": "INSTITUTIONAL_BILINGUAL_LEXICON",
+          "entryCountEstimate": 4000,
+          "note": "Small curated dictionary; may miss B2 compounds but strong for A1–B1; dynamic search UI needs dedicated adapter (not ?q= URL).",
+          "httpProbe2026-09-26": "Guessed /dictionary/search URL 404 — use official rodykle + form POST"
+        },
+        {
+          "priority": 3,
+          "id": "glosbe-de-lt-rescan",
+          "name": "Glosbe DE–LT (rescan #1 for lt)",
+          "url": "https://glosbe.com/de/lt",
+          "note": "Already in chain; rescan ranked above vokieciu for Haus pilot — verify parser for compounds."
+        }
+      ],
+      "notRecommended": [
+        {
+          "id": "verbformen-de-lt",
+          "reason": "verbformen.de/de-lt and verbformen.com/de-lt return 404 (2026-09-26 probe)"
+        }
+      ]
+    },
+    "sk": {
+      "currentChainPlatforms": ["dict.cc (desk)", "langenscheidt", "bab.la", "glosbe"],
+      "recommendedAdditions": [
+        {
+          "priority": 1,
+          "id": "verbformen-de-sk",
+          "name": "Netzverb / verbformen Deutsch–Slowakisch",
+          "url": "https://www.verbformen.de/de-sk/",
+          "platform": "verbformen",
+          "extractorExists": true,
+          "httpProbe2026-09-26": "10/10 lemmas HTTP 200"
+        },
+        {
+          "priority": 2,
+          "id": "dictcc-de-sk-mirror",
+          "name": "dict.cc Deutsch–Slowakisch (de-sk.dict.cc)",
+          "url": "https://de-sk.dict.cc/",
+          "platform": "dict.cc",
+          "httpProbe2026-09-26": "B2 compounds HTTP 200"
+        }
+      ],
+      "notRecommended": [
+        {
+          "id": "slovnik-cz-de-cs",
+          "reason": "slovnik.cz pair is German–Czech, not Slovak"
+        }
+      ]
+    }
+  },
+  "wireInOrder": [
+    "Append rescan-6 candidates (verbformen + dict.cc mirrors) in card-translation-catalog-collector or german-target-dictionary-alternative-catalog.js",
+    "Add DinOrdbok nn adapter",
+    "Add lietuviu-vokieciu.com + LiVoLi lt adapters",
+    "Optional: verbformen de-uk + sk rescan JSON extend RESCAN_LANGS",
+    "Re-run scripts/run-g2-a1-card-translation-sample-lemmas-32lang.js and compare needsAdditionalBilingualSource count"
+  ],
+  "compoundLemmaNote": "Goldader, Grenzkonflikt, Machtgier dominate lt/nn/sk/uk/et/bs/sq B2 rows — after new sources, if still empty consider DE compound decomposition (DWDS constituents) as separate OWNER policy, not MT."
+}

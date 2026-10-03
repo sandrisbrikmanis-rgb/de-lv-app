@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-09-27T13:01:19.506Z",
+  "pass": true,
+  "blockers": [],
+  "cases": [
+    {
+      "id": "grenzkonflikt-et-positive",
+      "tier": "DEFINITION_SEMANTIC_CLEAR",
+      "reason": "CONCEPT_DEFINITION_UNAMBIGUOUS",
+      "signals": [
+        "DE_SENSE_UNIQUELY_ATTESTED",
+        "CONCEPT_BORDER_CONFLICT",
+        "BORDER_CONFLICT"
+      ],
+      "definitionConceptId": "BORDER_CONFLICT",
+      "conceptPartial": false,
+      "expectedVerdict": "DEFINITION_EQUIVALENCE_VALIDATED"
+    },
+    {
+      "id": "grenzkonflikt-et-partial-negative",
+      "tier": "DEFINITION_SEMANTIC_UNCLEAR",
+      "reason": "DEFINITION_SEMANTIC_MISMATCH",
+      "signals": [
+        "DE_SENSE_UNIQUELY_ATTESTED",
+        "CONCEPT_PARTIAL_BORDER_CONFLICT"
+      ],
+      "definitionConceptId": "BORDER_CONFLICT",
+      "conceptPartial": true,
+      "detail": "TARGET_DEFINITION_EXCLUDED_MARKER",
+      "expectedVerdict": "NEEDS_SOURCE_REVIEW"
+    }
+  ]
+}

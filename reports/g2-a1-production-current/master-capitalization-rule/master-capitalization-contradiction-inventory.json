@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-09-20T13:40:39.761Z",
+  "rows": [
+    {
+      "document": "PROJECT_LANGUAGE_MASTER_STANDARD.md",
+      "section": "§7.7.4",
+      "existingText": "LOW, naturalness, capitalization … nav automātiski remontējami (LLM)",
+      "problem": "Var tikt kļūdaini lasīts kā aizliegums jebkuram capitalization finding",
+      "action": "CLARIFY",
+      "resolution": "Pievienots v1.19 precizējums — stila LOW vs avota atbalstīta ortogrāfija (§7.158)"
+    },
+    {
+      "document": "PROJECT_LANGUAGE_MASTER_STANDARD.md",
+      "section": "§7.35.2",
+      "existingText": "Pārbaudīt: … lielos un mazos burtus (bez avota/atdalījuma)",
+      "problem": "Neatšķir vārdnīcas lemma vs teikuma kapitalizāciju; dublē jauno normu bez SOURCE-SUPPORTED secības",
+      "action": "CLARIFY",
+      "resolution": "Norāde uz §7.158 un teikumu noteikumiem"
+    },
+    {
+      "document": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md",
+      "section": "§6 (iepriekš)",
+      "existingText": "Īsa DE→TARGET→SEMANTIC ķēde",
+      "problem": "Nepilnīga SOURCE-SUPPORTED secība (lemma/kapitalizācija/evidence)",
+      "action": "REPLACE_WITH_NEW_RULE",
+      "resolution": "§6 paplašināts ar 6 soļu obligāto secību un evidence aizliegumiem"
+    },
+    {
+      "document": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md",
+      "section": "§15 (iepriekš)",
+      "existingText": "AI = AUDIT EXECUTOR; īss aizliegums bez kapitalizācijas/UI",
+      "problem": "Nepietiekami skaidra AI loma pret avotu; dublē §2 daļēji",
+      "action": "MERGE_DUPLICATE",
+      "resolution": "§15 papildināts ar drīkst/nedrīkst sarakstu (kapitalizācija, production)"
+    },
+    {
+      "document": "LANGUAGE_AUDIT_STANDARD.md",
+      "section": "Galvene + §24",
+      "existingText": "SUPERSEDED + obligāts standarts vienlaikus",
+      "problem": "Pretruna: viss fails vēsturisks vs pilnībā obligāts",
+      "action": "CLARIFY",
+      "resolution": "PARTIALLY SUPERSEDED — spēkā tiktāl, ciktāl nav pretrunā MASTER §7.153–§7.158"
+    },
+    {
+      "document": "PROJECT_LANGUAGE_MASTER_STANDARD.md",
+      "section": "§7.153",
+      "existingText": "AUTHORITATIVE SOURCE → … → VERDICT",
+      "problem": "Dublē secību, bet bez lemma/kapitalizācijas soļiem",
+      "action": "KEEP",
+      "resolution": "Saglabāts; §7.158 un grozījumu §6 papildina bez pretrunas"
+    },
+    {
+      "document": "PROJECT_LANGUAGE_MASTER_STANDARD.md",
+      "section": "§7.156",
+      "existingText": "AI nav LANGUAGE AUTHORITY",
+      "problem": "Dublē §15 daļēji",
+      "action": "KEEP",
+      "resolution": "Saglabāts (stingrākais); §15 un §7.158 precizē kapitalizāciju"
+    }
+  ],
+  "removedContradictionCount": 0,
+  "mergedDuplicateCount": 1,
+  "activeContradictionsAfterEdit": 0
+}
