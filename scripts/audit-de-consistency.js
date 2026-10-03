@@ -104,12 +104,14 @@ function emptyBucket() {
     mismatches: [],
     notVerifiable: 0,
     notVerifiableChars: 0,
+    checkedChars: 0,
     missingFile: false
   };
 }
 
 function addCompare(bucket, rec, lv, lang) {
   bucket.checked += 1;
+  bucket.checkedChars += String(lv ?? "").length;
   const kind = classify(lv, lang);
   if (kind === "MATCH") {
     bucket.match += 1;
@@ -1096,6 +1098,7 @@ function main() {
   anomalies.sort((a, b) => JSON.stringify(a).localeCompare(JSON.stringify(b)));
 
   let checked = 0;
+  let checkedChars = 0;
   let match = 0;
   let notVerifiable = 0;
   let notVerifiableChars = 0;
@@ -1105,6 +1108,7 @@ function main() {
       ["data", "www"].forEach((tree) => {
         const bucket = summary[lang][dataset][tree];
         checked += bucket.checked;
+        checkedChars += bucket.checkedChars;
         match += bucket.match;
         notVerifiable += bucket.notVerifiable;
         notVerifiableChars += bucket.notVerifiableChars;
@@ -1187,6 +1191,15 @@ function main() {
     mismatches,
     lvAnomalies: anomalies
   };
+  if (process.argv.includes("--chars-only")) {
+    console.log(JSON.stringify({
+      CHECKED_FIELDS: checked,
+      CHECKED_CHARS: checkedChars,
+      NOT_VERIFIABLE: notVerifiable,
+      NOT_VERIFIABLE_CHARS: notVerifiableChars
+    }));
+    return;
+  }
   const json = `${JSON.stringify(stable(report), null, 2)}\n`;
   const md = renderMarkdown(report);
   fs.mkdirSync(path.join(ROOT, "reports"), { recursive: true });

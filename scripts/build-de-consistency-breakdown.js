@@ -338,4 +338,13 @@ function main() {
   }) + "\n");
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = {
+  textCategory,
+  pick,
+  exampleLines,
+  cell,
+  rowSort,
+  DATASETS
+};
