@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "g2-a1-card-translation-bilingual-audit-fr-bg-bs-v1",
+  "description": "Kartīšu tulkojuma audits — digitizēti DE↔TARGET avoti fr/bg (pilotā apstiprināti); bs paliek bez digitizēta vispārīgā DE↔BS vārdnīcas avota.",
+  "auditSequence": [
+    {
+      "step": 1,
+      "rule": "Meklē tiešo pāri DE→TARGET primārajā digitizētajā vārdnīcā (OCR vai skenētas lapas)."
+    },
+    {
+      "step": 2,
+      "rule": "Ja nav, meklē TARGET→DE otrajā ķēdes posmā (atsevišķa vārdnīca vai pretējais virziens, ja abi ir dokumentēti)."
+    },
+    {
+      "step": 3,
+      "rule": "Rezerves / papildavotus izmanto tikai tad, ja primārais posms nedod derīgu pāri (fr: Mozin/Biber; bg: MultiSlavDict)."
+    },
+    {
+      "step": 4,
+      "rule": "Pārbaudi vārdšķiru un konkrētās kartītes vācu nozīmi; citai nozīmei piederošu ekvivalentu nepieņem."
+    },
+    {
+      "step": 5,
+      "rule": "Automātiskos tulkotājus, dict.cc, drukātu grāmatu veikalu lapas un hr/sr vārdnīcas neizmanto kā pierādījumu."
+    },
+    {
+      "step": 6,
+      "rule": "Saglabā avota nosaukumu, virzienu, atrasto pāri un precīzo viewer / OCR / lapas URL."
+    }
+  ],
+  "regressionPilotDeLemmas": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+  "languages": {
+    "fr": {
+      "primaryDigitized": [
+        {
+          "id": "sachs-villatte-1906",
+          "name": "Sachs–Villatte enzyklopädisches französisch-deutsches und deutsch-französisches Wörterbuch (1906)",
+          "direction": "de↔fr",
+          "role": "primary",
+          "accessType": "Internet Archive open PDF + OCR",
+          "approximatePages": 2140,
+          "pdfUrl": "https://archive.org/download/sachsvillatteenz00sachuoft/sachsvillatteenz00sachuoft.pdf",
+          "viewerUrl": "https://archive.org/details/sachsvillatteenz00sachuoft",
+          "ocrUrl": "https://archive.org/download/sachsvillatteenz00sachuoft/sachsvillatteenz00sachuoft_djvu.txt"
+        }
+      ],
+      "supplementaryReserve": [
+        {
+          "id": "mozin-biber-1823",
+          "name": "Neues vollständiges Wörterbuch (Mozin, Biber, Hölder) 1823–1828",
+          "direction": "de→fr + fr→de (atsevišķi IA sējumi)",
+          "role": "reserve_only",
+          "portalUrl": "https://archive.org/details/bub_gb_qCwCncvvUEYC",
+          "ocrUrlDeAk": "https://archive.org/download/bub_gb_qCwCncvvUEYC/bub_gb_qCwCncvvUEYC_djvu.txt",
+          "note": "Tikai ja Sachs–Villatte primārais posms nedod pāri."
+        }
+      ],
+      "collectorOverrideId": "sachs-villatte-1906",
+      "sourceChainPriority": [
+        "primaryDigitized:de↔fr (sachs-villatte-1906 — IA PDF + _djvu.txt OCR)",
+        "supplementaryReserve:mozin-biber-1823 (only if primary fails)",
+        "targetOfficial:larousse-fr"
+      ],
+      "targetOfficial": {
+        "id": "larousse-fr",
+        "name": "Larousse français",
+        "portalUrl": "https://www.larousse.fr/dictionnaires/francais",
+        "adapterId": "fr-larousse-browser-entry",
+        "role": "TARGET_LEMMA_VALIDATION"
+      }
+    },
+    "bg": {
+      "primaryDigitized": [
+        {
+          "id": "mdz-bsb-miladinov-vol1-1897",
+          "name": "Miladinov vol. I — Deutsch-Bulgarisches Wörterbuch (1897), BSB/MDZ",
+          "direction": "de→bg",
+          "role": "primary",
+          "accessType": "Digitized page images (MDZ viewer + IIIF)",
+          "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11814571?page=1",
+          "resolveUrl": "http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11814571-5",
+          "iiifSampleUrl": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11814571_00017/full/full/0/default.jpg"
+        }
+      ],
+      "reverseChainDigitized": [
+        {
+          "id": "hathitrust-miladinov-vol2",
+          "name": "Miladinov vol. II — Bulgarisch-Deutsches (Pŭlen bŭlgarsko-němski)",
+          "direction": "bg→de",
+          "role": "primary_reverse",
+          "accessType": "HathiTrust page viewer (library session)",
+          "viewerUrl": "https://babel.hathitrust.org/cgi/pt?id=harvard.32044086444973",
+          "catalogUrl": "https://catalog.hathitrust.org/Record/102751195"
+        },
+        {
+          "id": "multislavdict-miladinov-1927",
+          "name": "MultiSlavDict — Miladinov BG→DE (1927)",
+          "direction": "bg→de",
+          "role": "supplement_reserve",
+          "accessType": "Searchable HTML by page",
+          "viewerUrl": "https://slavistik-portal.de/en/dicthub/dict-milad.html"
+        }
+      ],
+      "collectorOverrideId": "mdz-bsb-miladinov-vol1-1897",
+      "sourceChainPriority": [
+        "primaryDigitized:de→bg (mdz-bsb-miladinov-vol1-1897)",
+        "reverseChainDigitized:bg→de (hathitrust-miladinov-vol2 — prioritāri)",
+        "reverseChainDigitized:bg→de (multislavdict-miladinov-1927 — papildinājums/rezerve)",
+        "targetOfficial:ibl-bg"
+      ],
+      "targetOfficial": {
+        "id": "ibl-bg",
+        "name": "Институт за български език, БАН — речници",
+        "portalUrl": "https://ibl.bas.bg/",
+        "adapterId": "bg-ibl-browser-entry",
+        "role": "TARGET_LEMMA_VALIDATION"
+      }
+    },
+    "bs": {
+      "digitizedAuditStatus": "NOT_FOUND_DIGITIZED",
+      "primaryDigitized": [],
+      "reverseChainDigitized": [],
+      "rejectedNotUsable": [
+        {
+          "id": "vukic-print-dictionaries",
+          "name": "Vukić drukātās vārdnīcas",
+          "reason": "Fiziski nopērkamas grāmatas — nav digitizēta audita avota."
+        },
+        {
+          "id": "marojevic-print",
+          "name": "Marojević",
+          "reason": "Drukāts avots / nav verificēta digitizācija."
+        },
+        {
+          "id": "bookstore-ba-listings",
+          "name": "bookstore.ba / knjiga.ba / Amazon fizisko grāmatu lapas",
+          "reason": "Veikalu katalogi nav vārdnīcas pierādījums."
+        },
+        {
+          "id": "hr-sr-dictionaries-as-bs",
+          "name": "Horvātu vai serbu vārdnīcas (DE↔HR/SR)",
+          "reason": "hr/sr ≠ bs — neaizstāj bosniešu valodas DE↔BS pāri."
+        },
+        {
+          "id": "dict-cc-de-bs",
+          "name": "dict.cc Deutsch–Bosnisch",
+          "reason": "Nav derīgs šī audita ķēdes avots (kā norādīts prasībās)."
+        }
+      ],
+      "sourceChainPriority": [
+        "digitizedAuditStatus:NOT_FOUND_DIGITIZED — nav reģistrēta derīga digitizēta DE↔BS vārdnīca"
+      ],
+      "note": "bs nedrīkst mākslīgi iegūt READY bez digitizēta vispārīgā DE↔BS avota."
+    }
+  }
+}

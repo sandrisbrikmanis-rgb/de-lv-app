@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "role": "OWNER_LEXICAL_PRODUCTION_APPLY_CLOSURE",
+  "generatedAt": "2026-09-20T14:30:01.607Z",
+  "ownerReviewedAt": "2026-09-20T14:30:01.607Z",
+  "pass": true,
+  "dryRun": false,
+  "applyAtHead": "8c15bf9c707317a9f1d4431e452d65a7690de3a7",
+  "changedProductionLogicalFields": 4,
+  "changedFiles": 8,
+  "applied": [
+    {
+      "language": "sk",
+      "cardId": "a1-haus-sk-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/sk/a1.js",
+      "wwwMirror": "www/data/sk/a1.js",
+      "before": "Domov",
+      "after": "dom",
+      "evidenceUrl": "https://slovnik.juls.savba.sk/?w=dom&s=exact&k=Md03&cs=&d=kssj4&d=psp&d=ogs&d=sssj&d=orter&d=scs&d=sss&d=peciar&d=ssn&d=hssj&d=bernolak&d=noundb&d=orient&d=locutio&d=obce&d=priezviska&d=un&d=onom&d=pskfr&d=pskcs&d=psken#",
+      "evidenceSha256": "36920edd98ab9f0d5af6deb5cd4e5809f62be348155d8e2d397327f93fba0965",
+      "beforeSha256": {
+        "data": "7aaf728a2b1503a009e4c6d5786b7be767b76554f76f8a2595e9edd2a1829824",
+        "www": "7aaf728a2b1503a009e4c6d5786b7be767b76554f76f8a2595e9edd2a1829824"
+      },
+      "afterSha256": {
+        "data": "005025a119003df9076de4f0ace5798dcbbbc386edd10a685c87d6e1205c22f6",
+        "www": "005025a119003df9076de4f0ace5798dcbbbc386edd10a685c87d6e1205c22f6"
+      }
+    },
+    {
+      "language": "nb",
+      "cardId": "a1-haus-nb-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/nb/a1.js",
+      "wwwMirror": "www/data/nb/a1.js",
+      "before": "Maya",
+      "after": "hus",
+      "evidenceUrl": "https://ordbokene.no/nob/bm/hus",
+      "evidenceSha256": "7def1d680d33e0148424ebd7df3824e42343ace0b03d88e0f0d4b0a61ecd98e8",
+      "beforeSha256": {
+        "data": "cacb79ab044476e4fc98a82478fa12c3bbdf4da206dce80206a5bf70c4f55029",
+        "www": "cacb79ab044476e4fc98a82478fa12c3bbdf4da206dce80206a5bf70c4f55029"
+      },
+      "afterSha256": {
+        "data": "6f9f8e45111c46e52bd0172635241ba21e8902b57898c4a35267567a220a9c24",
+        "www": "6f9f8e45111c46e52bd0172635241ba21e8902b57898c4a35267567a220a9c24"
+      }
+    },
+    {
+      "language": "nn",
+      "cardId": "a1-haus-nn-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/nn/a1.js",
+      "wwwMirror": "www/data/nn/a1.js",
+      "before": "Maya",
+      "after": "hus",
+      "evidenceUrl": "https://ordbokene.no/nob/nn/hus",
+      "evidenceSha256": "201c28ab75ef0ffd2cb81687c8c0a9d3db3401a52a872531a5e50642bb89c6db",
+      "beforeSha256": {
+        "data": "946aefaf5c1edd13ee39faf827d6614e1ecca21ddee882fc6ca587ce5ec4f78b",
+        "www": "946aefaf5c1edd13ee39faf827d6614e1ecca21ddee882fc6ca587ce5ec4f78b"
+      },
+      "afterSha256": {
+        "data": "452756554fde0bf91ad6353da397259817c349ea46b8c1f1efa0e8300d857213",
+        "www": "452756554fde0bf91ad6353da397259817c349ea46b8c1f1efa0e8300d857213"
+      }
+    },
+    {
+      "language": "fi",
+      "cardId": "a1-haus-fi-3",
+      "fieldPath": "cards[3].lv",
+      "productionFile": "data/fi/a1.js",
+      "wwwMirror": "www/data/fi/a1.js",
+      "before": "Maja",
+      "after": "talo",
+      "evidenceUrl": "https://www.kielitoimistonsanakirja.fi/#/talo?source=suggestion&searchMode=all",
+      "evidenceSha256": "3448e61a7cd99d6286416f6404764c62af44e39c0c0df9b45776784c21842452",
+      "beforeSha256": {
+        "data": "0307777bfac2b6584e498009c5d6e823530c02dadec378edde9647c1c6885d19",
+        "www": "0307777bfac2b6584e498009c5d6e823530c02dadec378edde9647c1c6885d19"
+      },
+      "afterSha256": {
+        "data": "cebcce4818a0425ac5a1d48a58715ddaa5a11d4d3e7466259afeca2a0c586ccc",
+        "www": "cebcce4818a0425ac5a1d48a58715ddaa5a11d4d3e7466259afeca2a0c586ccc"
+      }
+    }
+  ],
+  "skipped": [],
+  "blockers": []
+}

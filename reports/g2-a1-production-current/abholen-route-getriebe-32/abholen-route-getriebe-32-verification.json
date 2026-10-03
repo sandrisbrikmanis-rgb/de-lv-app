@@ -1,0 +1,17 @@
+{
+  "verifiedAt": "2026-09-21T17:26:20.896Z",
+  "metrics": {
+    "languages": 32,
+    "records": 96,
+    "abholenDirect": 13,
+    "routeDirect": 17,
+    "getriebeDirect": 14,
+    "multipleTranslations": 18,
+    "supportingOnly": 46,
+    "sourceConflict": 0,
+    "entryNotFound": 6,
+    "accessBlocked": 0,
+    "sourceAgreed": 1
+  },
+  "recordCount": 96
+}

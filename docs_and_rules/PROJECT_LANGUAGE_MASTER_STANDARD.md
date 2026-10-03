@@ -1,7 +1,7 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.18\
-**Versiju ķēde:** v1.13 (Kurss moduļa metodika, iekļauta šajā izlaidumā) → v1.14 → v1.15 → v1.16 → v1.17 → **v1.18** (šis dokuments)\
+**Versija:** 1.20\
+**Versiju ķēde:** v1.13 (Kurss moduļa metodika, iekļauta šajā izlaidumā) → v1.14 → v1.15 → v1.16 → v1.17 → v1.18 → v1.19 → **v1.20** (šis dokuments)\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -26,7 +26,8 @@ Tas konsolidē un aizstāj kā atsevišķi interpretējamus darba standartus:
 
 Lingvistiskā audita avotu atbalstīta metodika (33 valodas, PASS/OWNER
 tvērums, reģistrs): `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` — operatīvi
-iekļauta šajā MASTER dokumentā kā **§7.153–§7.157**.
+iekļauta šajā MASTER dokumentā kā **§7.153–§7.162** (kapitalizācija/pamatforma —
+§7.158; kartīšu tulkojuma pierādījumi — §7.162 + grozījumu dok. §20).
 
 Iepriekšējie dokumenti drīkst palikt repozitorijā tikai kā
 vēsturiski/reference materiāli. Ja ir pretruna starp tiem un šo MASTER
@@ -909,6 +910,11 @@ nepieciešams vismaz viens no:
 
 LOW, naturalness, capitalization, punctuation un style findingi nav automātiski
 remontējami tikai tāpēc, ka LLM tos piedāvā.
+
+**Precizējums (v1.19):** šis punkts attiecas uz stila/naturalness kandidātiem
+bez objektīvas normas pārkāpuma. Objektīva TARGET ortogrāfija, diakritika vai
+vārdnīcas kapitalizācijas neatbilstība pret MASTER autoritatīvo avotu joprojām
+ir `FINDING` ar avota pierādījumu (sk. §7.158).
 
 Ja nav objektīvas kļūdas pret valodas normu, projekta terminoloģiju vai
 MASTER noteikumu, tie paliek `FALSE_POSITIVE`, `NELABOT` vai OWNER kandidāti.
@@ -2157,7 +2163,8 @@ Pārbaudīt:
 - darbības vārdu formas;
 - pieturzīmes;
 - diakritiskās zīmes;
-- lielos un mazos burtus;
+- lielos un mazos burtus (vārdnīcas lemma — §7.158; pilni teikumi — teikuma
+  kapitalizācijas noteikumi);
 - dabisku mērķvalodas formulējumu.
 
 ### 7.35.3. Study struktūra un sectionAccents
@@ -5383,6 +5390,156 @@ triggeriem. Post-repair discovery joprojām var aptvert visu scope (§11.1), bet
 bez konkrēta triggera iepriekšējo `PASS` nedrīkst pārvērst par jaunu OWNER
 findingu tikai tāpēc, ka audits tika palaists vēlreiz.
 
+## 7.158. Mērķvalodas pamatforma, ortogrāfija un kapitalizācija (v1.19)
+
+Mērķvalodas tulkojuma pamatformas rakstību, diakritiku un lielo/mazo
+sākumburtu nosaka **mērķvalodas norma** un attiecīgās valodas MASTER
+autoritatīvais avots — ne vācu avota vizuālais paraugs un ne UI/kartītes
+pozīcija.
+
+**Obligāti:**
+
+- vārdnīcas tipa laukā — normatīvā lemma no TARGET avota;
+- vācu lietvārda lielais sākumburts **netiek automātiski pārnests** uz TARGET;
+- latīņu, kirilica, grieķu un citas App rakstības sistēmas — tās pašas TARGET
+  normas un avota pierādījums;
+- vārdnīcas lauks un pilns teikums jāvērtē atsevišķi (lemma vs teikuma
+  kapitalizācija);
+- kartītes/saraksta/tabulas/UI pirmā pozīcija **nav** pamatojums lemma
+  kapitalizācijai;
+- AI/LLM **nav** valodas autoritāte kapitalizācijai — tikai avots vai skaidrs
+  normas citāts no MASTER reģistrētā avota;
+- ALL CAPS headword vizuālais noformējums avota UI nedrīkst automātiski kļūt
+  par TARGET vērtību.
+
+**SOURCE-SUPPORTED secība** (papildina §7.153): DE šķirklis + evidence → TARGET
+šķirklis + evidence → salīdzinājums (nozīme, vārdšķira, lemma, rakstība,
+diakritika, alfabēts, kapitalizācija) → tikai tad `PASS`/`FINDING`/`NSR`/
+`SOURCE_DE_ISSUE`. `PASS` bez DE **un** TARGET evidence ir aizliegts; `FINDING`/
+`NEW` bez TARGET evidence ir aizliegts.
+
+**Illustratīvs piemērs** (`das Haus`): DE `Haus` (lietvārds ar lielo burtu);
+TARGET vārdnīcas lemma piemēram LV `māja`, EN `house`, CS `dům`, BG `къща`,
+GR `σπίτι`, TR `ev` — nevis mehāniski pārnests DE lielais burts (`House`,
+`Dům`, `Къща`, `Σπίτι`, `Ev`). Piemērs neuzliek automātisku production labojumu
+bez individuāla avotu atbalstīta audita.
+
+**OWNER iepriekš autorizēta kapitalizācija (šauri, deterministiski):** OWNER
+iepriekš autorizē automātisku TARGET vārdnīcas pamatformas sākumburta labošanu
+no lielā uz mazo tikai tad, ja MASTER norādītais oficiālais TARGET valodas
+avots validē identisku lemmu ar mazo sākumburtu un `CURRENT`/`NEW` atšķiras
+tikai ar pirmā burta reģistru (Unicode NFC; nav transliterācijas, diakritikas,
+skripta, vārdšķiras, nozīmes vai DE izmaiņas). Šāda korekcija ir deterministiska
+ortogrāfiska normalizācija, nevis jauna tulkojuma izvēle. Jebkura leksiska,
+semantiska, gramatiskā, diakritiska, skripta vai vairāk nekā sākumburta izmaiņa
+prasa atsevišķu OWNER lēmumu. Klases atzīme:
+`OWNER_AUTHORIZATION_CLASS=OWNER_PREAUTHORIZED_CAPITALIZATION_ONLY` ar
+reproducējamu oficiāla avota evidence — nav aizstājējs individuālai OWNER
+pārbaudei leksiskiem `FINDING` vai `NEEDS_SOURCE_REVIEW`.
+
+**Unikālās lingvistiskās vienības:** evidence drīkst atkārtoti izmantot tikai
+identiskai DE nozīmei/kontekstam; aizliegts akli kopēt lemma/verdict starp
+nozīmēm, locījumiem, laukiem, kartītēm vai valodām.
+
+Pilns normatīvais teksts: `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md`
+§6, §15, §20.
+
+## 7.159. Vācu–mērķvalodas divvalodu vārdnīcas (v1.19)
+
+G2/A1 un SOURCE-SUPPORTED audits drīkst izmantot profesionāli rediģētas
+vācu→TARGET vārdnīcas (piem. PONS, `en.pons.com`) un institucionālus resursus
+(LOD u.c.), ja ir identificējams izdevējs, reproducējams šķirkļa URL un skaidrs
+valodu pāris. Avotu prioritāte un klases **A–F** — APVIENOTS §3.2.
+
+Strukturētais reģistrs: `GERMAN_TARGET_BILINGUAL_SOURCES` laukā
+`scripts/lib/data/master-language-authority-sources-33.json`. Jaunus ierakstus
+pievieno tikai pēc `das Haus` pārbaudes un **OWNER apstiprinājuma**; komerciāls
+statuss nav noraidījuma iemesls. Kopienas vārdnīcas (klase **E**) nedrīkst būt
+vienīgais pierādījums — obligāts avotu kopums ar DE un TARGET A–D avotiem.
+
+## 7.161. Vācu–TARGET divvalodu vārdnīcas (32 valodas, v1.19–v1.20)
+
+Tulkojuma **pāra** pierādījumam prioritāri izmanto pieejamās **PDF / skenētās /
+institucionālās** divvalodu vārdnīcas šādā secībā:
+
+1. **DE→TARGET** (vācu šķirkļis ar mērķvalodas tulkojumu);
+2. **TARGET→DE** (reverso šķirkļis — derīgs pierādījums tam pašam DE↔TARGET pārim).
+
+Abi virzieni ir vienlīdz derīgs tiešs tulkojuma pāra pierādījums. Implementācija:
+`scripts/lib/g2-a1-production-current/card-translation-evidence-ladder.js` un
+valodas rescan manifests (piem. DIGAR Valgus DE–ET / ET–DE).
+
+`TRANSLATION_PAIR_VERIFIED` / `translationPairStatus = VALIDATED` drīkst balstīt
+uz šiem avotiem, ja konkrētajā šķirklī redzams pārbaudāmais DE lemmas un TARGET
+tulkojums (vai reverso gadījumā — TARGET lemmas ar DE glossu, kas saskan ar karti).
+
+Vienvalodas TARGET vārdnīca **viena pati** neaizstāj divvalodu pāri — tikai
+pamatforma, rakstība, gramatika vai **2. līmeņa** nozīmes salīdzinājumam (sk. §7.162).
+
+Strukturētie lauki `GERMAN_TARGET_DICTIONARY_*` un manifests:
+`scripts/lib/data/master-german-target-bilingual-dictionaries-32.json`.
+`GERMAN_TARGET_DICTIONARY_ROLE` = `PRIMARY_TRANSLATION_PAIR_SOURCE`. Komerciāls
+profesionāli rediģēts avots nav automātisks noraidījums; **Glosbe Translate**,
+**Google Translate** un citi **automātiskie** tulkojumi **nav** divvalodu
+vārdnīcas pierādījums (§7.162.4). `nb`/`nn` atsevišķi; `gr` ↔ `el`.
+
+## 7.162. Kartīšu tulkojuma pierādījumu kārtība (v1.20)
+
+G2/A1 un kartīšu tulkošanas audits (`card-translation-*`) piemēro šo secību:
+
+### 7.162.1. Divvalodu vārdnīca (PDF / skenēta / institucionāla)
+
+Vispirms **DE→TARGET**, pēc tam **TARGET→DE** (reverso). Atrodams tiešs pāris →
+`TRANSLATION_VALIDATED`, ja papildus izpildās DE (DWDS/Duden) un TARGET oficiālā
+validācija (`card-translation-audit-policy.js`).
+
+### 7.162.2. Definīciju salīdzinājums (ja tiešs pāris nav atrodams)
+
+Salīdzina:
+
+- **DE definīciju / nozīmi** no **DWDS** vai **Duden**;
+- **TARGET definīciju** no attiecīgās valodas **oficiālā MASTER avota** (①–③ reģistrs).
+
+**Nepārprotama** nozīmju sakritība (reģistrēts pāris + valodas **iekšējie**
+definīciju marķieri; **aizliegta** vienkārša DE/TARGET vārdu tokenu sakritība
+ starp valodām) → `TRANSLATION_VALIDATED`. AI drīkst semantiski salīdzināt
+ avotus, bet kods piešķir VALIDATED tikai reģistrētām nepārprotamām pāriem.
+ **Neskaidra** atbilstība → `NEEDS_SOURCE_REVIEW`. Implementācija:
+ `card-translation-definition-semantic-pairs.json`,
+ `assessDefinitionSemanticTranslationEvidence()`.
+
+### 7.162.3. AI / LLM kandidāti
+
+AI drīkst **atrast** tulkojuma kandidātu un sagatavot `PROPOSED_NEW`, bet
+`TRANSLATION_VALIDATED` vai `FINDING` **obligāti** jābalsta uz §7.162.1 vai
+§7.162.2. AI secinājums bez ārēja pierādījuma nav pietiekams (APVIENOTS §15).
+
+### 7.162.4. Aizliegti automātiskie “vārdnīcu” avoti
+
+**Glosbe Translate**, **Google Translate**, DeepL, Microsoft Translator, Reverso
+mašīntulkojumu režīmi un lapas, kurās dominē **automatic / algorithmically
+generated** tulkojumi, **nedrīkst** izmantot kā divvalodu vārdnīcas pierādījumu.
+Kopienas Glosbe ieraksts bez rediģēta šķirkļa un bez automātiskā slāņa var
+kalpot tikai kā **papildu** meklēšanas hints, nevis kā vienīgais VALIDATED pamats.
+
+Kods: `card-translation-forbidden-sources.js`, `card-translation-evidence-ladder.js`.
+
+## 7.160. Papildu TARGET vārdnīcas (32 valodas, v1.19)
+
+Katrai TARGET valodai reģistrēts arī papildu vārdnīcas vai leksiskais avots.
+Papildu avotu drīkst izmantot tulkojuma, nozīmes, lemmas, gramatikas vai
+pareizrakstības pārbaudei. Komerciālas profesionāli rediģētas vārdnīcas ir
+atļautas. Kopienas vārdnīca izmantojama kā papildu salīdzināšanas avots, nevis
+kā vienīgais pamats production labojumam. AI un mašīntulkotāji nav lingvistiski
+avoti.
+
+Strukturētais lauks: `ADDITIONAL_DICTIONARY_*` katrā rindā
+`scripts/lib/data/master-language-authority-sources-33.json`. Kanoniskais
+32 valodu URL saraksts: `scripts/lib/data/master-additional-dictionary-sources-32.json`.
+Primārie ①–③ avoti un `de` avoti netiek aizstāti. App kods `gr` ↔ standarts `el`;
+`nb` un `nn` ir atsevišķas valodas; bosniešu, horvātu un serbu avoti netiek
+sapludināti.
+
 ------------------------------------------------------------------------
 
 # 8. OWNER REVIEW
@@ -6822,6 +6979,19 @@ ar MASTER.
 ------------------------------------------------------------------------
 
 # 20. VERSION CHANGELOG
+
+## Version 1.19
+
+Mērķvalodas vārdnīcas pamatforma, ortogrāfija un kapitalizācija (SOURCE-SUPPORTED):
+
+- §7.158 — TARGET lemma/diakritika/kapitalizācija no mērķvalodas avota; aizliegta
+  vācu lietvārda kapitalizācijas mehāniska pārnešana; vārdnīcas vs teikuma
+  lauki; UI/kartītes pozīcija nav lingvistisks arguments;
+- grozījumu dok. §6 (obligātā audita secība), §15 (AI drīkst/nedrīkst), §20
+  (pilna norma + `das Haus` piemērs + unikālās lingvistiskās vienības);
+- §7.7.4 un §7.35.2 precizējumi — stila LOW vs avota atbalstīta ortogrāfija.
+
+**Nav mainīts:** batch limiti, 33 valodu reģistrs, oficiālo avotu URL saraksts.
 
 ## Version 1.18
 

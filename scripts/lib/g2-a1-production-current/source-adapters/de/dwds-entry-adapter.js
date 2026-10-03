@@ -9,7 +9,7 @@ const ADAPTER_ID = "de-dwds-wb-entry";
 const ADAPTER_VERSION = "1.0.0";
 
 function entryUrlForLemma(lemma) {
-  return `https://www.dwds.de/wb/${encodeURIComponent(String(lemma || "").trim().toLowerCase())}`;
+  return `https://www.dwds.de/wb/${encodeURIComponent(String(lemma || "").trim())}`;
 }
 
 function parseDwdsEntry(html, expectedLemma) {

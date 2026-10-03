@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "g2-a1-card-translation-fr-bg-bs-source-chain-verification-v1",
+  "generatedAt": "2026-10-01T17:08:58.020Z",
+  "gate": {
+    "pass": true,
+    "failures": []
+  },
+  "finalStatus": {
+    "fr": "FR_DIGITIZED_SOURCES_REGISTERED",
+    "bg": "BG_DIGITIZED_SOURCES_REGISTERED",
+    "bs": "NOT_FOUND_DIGITIZED"
+  },
+  "reportSummary": {
+    "languageCount": 3,
+    "frPrimarySourceId": "sachs-villatte-1906",
+    "bgPrimarySourceId": "mdz-bsb-miladinov-vol1-1897",
+    "bgReverseChainIds": [
+      "hathitrust-miladinov-vol2",
+      "multislavdict-miladinov-1927"
+    ],
+    "bsStatus": "NOT_FOUND_DIGITIZED",
+    "note": "fr un bg izmanto jaunos digitizētos avotus no audita kataloga; bs paliek NOT_FOUND_DIGITIZED (nav derīga digitizēta DE↔BS ķēde)."
+  }
+}

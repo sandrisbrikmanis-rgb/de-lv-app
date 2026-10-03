@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-09-20T13:40:39.717Z",
+  "changedDocuments": [
+    "docs_and_rules/LANGUAGE_AUDIT_STANDARD.md",
+    "docs_and_rules/MASTER_1.12_BINDING_WORK_AGREEMENT.md",
+    "docs_and_rules/MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md",
+    "docs_and_rules/PROJECT_LANGUAGE_MASTER_STANDARD.md"
+  ],
+  "addedSection": {
+    "master": "§7.158 Mērķvalodas pamatforma, ortogrāfija un kapitalizācija (v1.19)",
+    "apvienots": "§20 Mērķvalodas pamatforma, ortogrāfija un kapitalizācija"
+  },
+  "replacedLocations": [
+    "MASTER_1.12 … §6 — SOURCE-SUPPORTED secība",
+    "MASTER_1.12 … §15 — AI drīkst/nedrīkst"
+  ],
+  "removedContradictions": [],
+  "mergedDuplicates": [
+    "§15 AI loma paplašinājums ar §7.156 esošo principu"
+  ],
+  "stricterRulesRetained": [
+    "§7.153–§7.157",
+    "§14 bulk verdict aizliegums",
+    "batch limits"
+  ],
+  "batchLimitDiff": {
+    "changed": false,
+    "missingLines": []
+  },
+  "languageRegistryDiff": {
+    "changed": false,
+    "embeddedCount": 33
+  },
+  "productionDiff": "data/cs/a1.js\ndata/da/a1.js\ndata/en/a1.js\ndata/gr/a1.js\ndata/ru/a1.js\ndata/tr/a1.js\nwww/data/cs/a1.js\nwww/data/da/a1.js\nwww/data/en/a1.js\nwww/data/gr/a1.js\nwww/data/ru/a1.js\nwww/data/tr/a1.js",
+  "deDiff": "",
+  "crowdinDiff": ""
+}
