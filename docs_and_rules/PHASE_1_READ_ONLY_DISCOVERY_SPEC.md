@@ -1,3 +1,6 @@
+STATUS: DEPRECATED / NOT ACTIVE — balstīts uz Crowdin kārtību, kas ir
+izņemta no MASTER (v1.19). Nav spēkā līdz OWNER atkārtotam apstiprinājumam.
+
 # Fāze 1 — Pilns READ-ONLY Discovery (320 scope)
 
 **Statuss:** `PHASE_0_INFRASTRUCTURE_COMPLETION_REQUIRED` — spec apstiprināta; F0-COMP-1…15 nav izpildīts; Fāze 1 discovery nav sākts  
