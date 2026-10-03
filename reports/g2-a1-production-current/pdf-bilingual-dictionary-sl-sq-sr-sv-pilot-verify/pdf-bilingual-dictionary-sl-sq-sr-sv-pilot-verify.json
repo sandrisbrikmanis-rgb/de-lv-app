@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify-v1",
+  "generatedAt": "2026-10-03T10:25:00.000Z",
+  "pilotLemmasDe": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+  "summary": {
+    "sl": { "status": "PARTIAL", "primaryDeHitCount": "2/6" },
+    "sq": { "status": "PARTIAL", "primaryDeHitCount": "2/6" },
+    "sr": {
+      "status": "PARTIAL",
+      "primaryDeHitCount": "0/6",
+      "interimHistoricalDeHitCount": "2/6"
+    },
+    "sv": { "status": "PARTIAL", "primaryDeHitCount": "2/6" }
+  },
+  "pilotVerification": {
+    "sl": {
+      "primarySourceId": "ia-deutschslovenis00unkngoog",
+      "viewerUrl": "https://archive.org/details/deutschslovenis00unkngoog",
+      "ocrUrl": "https://archive.org/download/deutschslovenis00unkngoog/deutschslovenis00unkngoog_djvu.txt",
+      "deToTarget": [
+        { "lemma": "Haus", "found": true, "note": "salikteņi / hisa (OCR headword fragments)" },
+        { "lemma": "arbeiten", "found": true, "note": "arbeiten, sasmariti" },
+        { "lemma": "Kleingeld", "found": false },
+        { "lemma": "bewirten", "found": false },
+        { "lemma": "Grenzkonflikt", "found": false },
+        { "lemma": "Machtgier", "found": false }
+      ],
+      "supplementHits": {
+        "ia-bub-gb-nrataaaaiaaj-janezic-1905": "1/6 (arbeiten)",
+        "dlib-murko-de-sl-1833": "nav lejupielādēts šajā vidē (dLib TXT URL 404)"
+      }
+    },
+    "sq": {
+      "primarySourceId": "ia-hahn-albanesische-studien-martin-lexicon",
+      "viewerUrl": "https://archive.org/details/ahy9953.0001.001.umich.edu",
+      "ocrUrl": "https://archive.org/download/ahy9953.0001.001.umich.edu/ahy9953.0001.001.umich.edu_djvu.txt",
+      "deToTarget": [
+        {
+          "lemma": "Haus",
+          "found": true,
+          "note": "DE→SQ Verzeichnis (Hahn/Martin); arī vācu konteksts apjomā"
+        },
+        { "lemma": "arbeiten", "found": true, "note": "arbeiten, nouvöty …" },
+        { "lemma": "Kleingeld", "found": false },
+        { "lemma": "bewirten", "found": false },
+        { "lemma": "Grenzkonflikt", "found": false },
+        { "lemma": "Machtgier", "found": false }
+      ],
+      "modernBlocked": {
+        "ia-wrterbuchdeutsch00simo": "IA LCP — djvu.txt 401; nav OWNER primārais pilots šeit"
+      },
+      "supplementHits": {
+        "ia-diesprachederal00xylagoog-1835": "1/6 (arbeiten OCR fragments)"
+      }
+    },
+    "sr": {
+      "primarySourceId": "ia-deutschserbische00kara",
+      "viewerUrl": "https://archive.org/details/deutschserbische00kara",
+      "ocrUrl": "https://archive.org/download/deutschserbische00kara/deutschserbische00kara_djvu.txt",
+      "deToTarget": [
+        {
+          "lemma": "Haus",
+          "found": false,
+          "note": "OCR galvenokārt kirilica; DE lemmas nav uzticami"
+        },
+        { "lemma": "arbeiten", "found": false },
+        { "lemma": "Kleingeld", "found": false },
+        { "lemma": "bewirten", "found": false },
+        { "lemma": "Grenzkonflikt", "found": false },
+        { "lemma": "Machtgier", "found": false }
+      ],
+      "interimHistorical": {
+        "sourceId": "ia-bub-gb-zevk-de-illyr-1818",
+        "ocrUrl": "https://archive.org/download/bub_gb_ZEVKAAAAcAAJ/bub_gb_ZEVKAAAAcAAJ_djvu.txt",
+        "deToTarget": [
+          { "lemma": "Haus", "found": true },
+          { "lemma": "arbeiten", "found": true },
+          { "lemma": "Kleingeld", "found": false },
+          { "lemma": "bewirten", "found": false },
+          { "lemma": "Grenzkonflikt", "found": false },
+          { "lemma": "Machtgier", "found": false }
+        ],
+        "note": "1790/91 Kurzbock DE↔Illyrisch — vēsturisks, nav tīrs mūsdienīgs sr"
+      }
+    },
+    "sv": {
+      "primarySourceId": "ia-tysksvenskordbok00hoppuoft",
+      "viewerUrl": "https://archive.org/details/tysksvenskordbok00hoppuoft",
+      "ocrUrl": "https://archive.org/download/tysksvenskordbok00hoppuoft/tysksvenskordbok00hoppuoft_djvu.txt",
+      "deToTarget": [
+        { "lemma": "Haus", "found": true, "note": "substantiv Haus → hus" },
+        { "lemma": "arbeiten", "found": true },
+        { "lemma": "Kleingeld", "found": false },
+        { "lemma": "bewirten", "found": false },
+        { "lemma": "Grenzkonflikt", "found": false },
+        { "lemma": "Machtgier", "found": false }
+      ],
+      "targetToDe": {
+        "lemma": "hus",
+        "found": true,
+        "note": "Hoppe Svensk-tysk skolupplaga — hus ↔ Haus (OCR)"
+      },
+      "supplementHits": {
+        "ia-rosenbgr-tysk-svensk-1956": "2/6 (Runeberg/IA kopija)",
+        "ia-svensktyskordbo01hoppgoog-bidir": "reverse hus spot-check"
+      }
+    }
+  }
+}

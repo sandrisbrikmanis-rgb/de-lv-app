@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "g2-a1-pdf-bilingual-dictionary-sl-sq-sr-sv-discovery-v1",
+  "generatedAt": "2026-10-03T10:25:00.000Z",
+  "scope": ["sl", "sq", "sr", "sv"],
+  "pilotLemmasDe": ["Haus", "arbeiten", "Kleingeld", "bewirten", "Grenzkonflikt", "Machtgier"],
+  "methodNote": "Internet Archive / dLib.si meklēšana; pilots = OCR/tekstā DE headword meklēšana (tāds pats 6-lemmatu komplekts kā citos g2-a1 PDF discovery moduļos).",
+  "bestFoundSource": {
+    "sl": {
+      "primaryId": "ia-deutschslovenis00unkngoog",
+      "primaryName": "Deutsch-slovenisches Wörterbuch (Cigale, 1860, IA)",
+      "supplementIds": ["ia-bub-gb-nrataaaaiaaj-janezic-1905", "dlib-murko-de-sl-1833"],
+      "pilotHitCountPrimaryOcr": "2/6",
+      "digitizedAuditStatus": "PARTIAL"
+    },
+    "sq": {
+      "primaryId": "ia-hahn-albanesische-studien-martin-lexicon",
+      "primaryName": "Albanesische Studien — albanesisch-deutsches Lexikon + DE→SQ Verzeichnis (Hahn/Martin, IA)",
+      "modernCandidateId": "ia-wrterbuchdeutsch00simo",
+      "modernCandidateNote": "Zef Simoni DE–SQ (1997) IA — LCP/borrow; atvērts OCR šajā vidē nav uzticams pilots.",
+      "supplementIds": ["ia-diesprachederal00xylagoog-1835"],
+      "pilotHitCountPrimaryDeIndex": "2/6",
+      "digitizedAuditStatus": "PARTIAL"
+    },
+    "sr": {
+      "primaryId": "ia-deutschserbische00kara",
+      "primaryName": "Deutsch-serbisches Wörterbuch (Karadžić, 1872, LoC/IA)",
+      "pilotHitCountPrimaryOcr": "0/6",
+      "pilotOcrBlocker": "Tesseract Cyrillic/Fraktur — DE lemmati praktiski nav atrodami OCR tekstā",
+      "interimHistoricalId": "ia-bub-gb-zevk-de-illyr-1818",
+      "interimPilotHitCount": "2/6",
+      "modernCandidateId": "ddb-bsb-danicic-jovanovic-1886",
+      "modernCandidateNote": "Daničić/Jovanović DE→SR (BSB 11646956) — DDB/IA šodien 503; jāpilotē atkārtoti",
+      "digitizedAuditStatus": "PARTIAL"
+    },
+    "sv": {
+      "primaryId": "ia-tysksvenskordbok00hoppuoft",
+      "primaryName": "Tysk-svensk ordbok (Otto Hoppe, 1904, IA)",
+      "supplementIds": ["ia-rosenbgr-tysk-svensk-1956", "ia-svensktyskordbo01hoppgoog-bidir"],
+      "pilotHitCountPrimaryOcr": "2/6",
+      "digitizedAuditStatus": "PARTIAL"
+    }
+  }
+}
