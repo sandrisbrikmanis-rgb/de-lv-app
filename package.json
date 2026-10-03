@@ -77,6 +77,8 @@
     "test:embedded-language-registry": "node scripts/test-embedded-language-registry.js",
     "verify:master-v112-premerge": "node scripts/verify-master-v112-premerge.js",
     "verify:production-current-a1-orchestrator-readonly": "node scripts/verify-production-current-a1-orchestrator-readonly.js",
+    "build:g2-a1:card-translation-nn-pt-ro-readiness": "node scripts/build-g2-a1-card-translation-nn-pt-ro-readiness.js",
+    "verify:g2-a1:card-translation-nn-pt-ro-source-chain": "node scripts/verify-g2-a1-card-translation-nn-pt-ro-source-chain.js",
     "i18n:content:discovery": "node scripts/run-content-discovery.js --all-groups --dataset all --all-langs",
     "i18n:content:unmerged-closure-classify": "node scripts/run-unmerged-closure-classification.js",
     "i18n:content:unmerged-closure-owner-prep": "node scripts/run-unmerged-closure-owner-prep-audit.js",

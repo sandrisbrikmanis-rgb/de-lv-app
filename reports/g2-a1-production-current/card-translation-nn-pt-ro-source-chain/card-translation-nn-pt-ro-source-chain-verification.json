@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "g2-a1-card-translation-nn-pt-ro-source-chain-verification-v1",
+  "generatedAt": "2026-10-03T09:17:45.076Z",
+  "gate": {
+    "pass": true,
+    "failures": []
+  },
+  "catalogPath": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json"
+}
