@@ -6,7 +6,7 @@
 |--------|----------------------------|------------------|---------|
 | **sl** | Cigale 1860 IA (primārais) | **2/6** | Murko 1888 IA **2/6**; Janežič Taschen 1866 **2/6**; Janežič/Bartel 1905 1/6 |
 | **sq** | Hahn/Martin *Albanesische Studien* (DE→SQ rādītājs) | **2/6** | Simoni DE–SQ 1997 IA — LCP, nav atvērts OCR; Xylander 1835 1/6 |
-| **sr** | Karadžić DE–SR 1872 (kanons) | **0/6** | Popović DE–SR 1879 IA **1/6**; Kurzbock 1818 **2/6**; BSB 1886 OCR vēl atsevišķi |
+| **sr** | Karadžić 1872 **MDZ bsb11358470** | **2/6** | IA djvu **0/6**; Daničić/Jovanović 1886 MDZ **2/6**; Popović 1879 **1/6** |
 | **sv** | Hoppe *Tysk-svensk* 1904 IA | **2/6** | Rosenberger/Auerbach 1956 arī 2/6; reverse **hus** Hoppe SV–DE |
 
 Pilns JSON: `pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify.json`  

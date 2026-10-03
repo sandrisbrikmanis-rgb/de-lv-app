@@ -7,8 +7,9 @@
     "sq": { "status": "PARTIAL", "primaryDeHitCount": "2/6" },
     "sr": {
       "status": "PARTIAL",
-      "primaryDeHitCount": "0/6",
-      "interimHistoricalDeHitCount": "2/6"
+      "primaryDeHitCount": "2/6",
+      "primarySourceNote": "MDZ hOCR Karadžić bsb11358470 (IA djvu 0/6)",
+      "modernDanicicDeHitCount": "2/6"
     },
     "sv": { "status": "PARTIAL", "primaryDeHitCount": "2/6" }
   },

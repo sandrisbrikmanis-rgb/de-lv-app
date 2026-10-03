@@ -6,6 +6,8 @@
   "methodNote": "Internet Archive / dLib.si meklēšana; pilots = OCR/tekstā DE headword meklēšana (tāds pats 6-lemmatu komplekts kā citos g2-a1 PDF discovery moduļos).",
   "discoveryRound2At": "2026-10-03T10:22:00.000Z",
   "discoveryRound2Notes": "Papildus IA: Murko 1888 DE-SL, Janežič Taschen 1866, Popović DE-SR 1879, Janežič bidir pocket. SQ/SV jauni atvērti OCR avoti nav atrasti; Simoni/Dhrimo joprojām nav brīvi pilotējami.",
+  "discoveryRound3At": "2026-10-03T10:35:00.000Z",
+  "discoveryRound3Notes": "SR: MDZ hOCR pilots (ne IA djvu) — Karadžić bsb11358470 un Daničić/Jovanović bsb11646956 abi 2/6; Popović ABBYY 471MB — DE lemmas nav uzticami. SQ: Hahn DE rādītājs apstiprināts Haus+arbeiten. Simoni abbyy 401.",
   "bestFoundSource": {
     "sl": {
       "primaryId": "ia-deutschslovenis00unkngoog",
@@ -30,16 +32,19 @@
       "digitizedAuditStatus": "PARTIAL"
     },
     "sr": {
-      "primaryId": "ia-deutschserbische00kara",
-      "primaryName": "Deutsch-serbisches Wörterbuch (Karadžić, 1872, LoC/IA)",
-      "pilotHitCountPrimaryOcr": "0/6",
-      "pilotOcrBlocker": "Tesseract Cyrillic/Fraktur — DE lemmati praktiski nav atrodami OCR tekstā",
-      "interimHistoricalId": "ia-wrterbuchderse01popo-popovic-1879",
-      "interimPilotHitCount": "1/6",
-      "interimHistoricalAltId": "ia-bub-gb-zevk-de-illyr-1818",
-      "interimAltPilotHitCount": "2/6",
-      "modernCandidateId": "ddb-bsb-danicic-jovanovic-1886",
-      "modernCandidateNote": "Daničić/Jovanović DE→SR (BSB 11646956 / Popović 1886 saistīts) — atsevišķs BSB OCR vēl jāpilotē; IA hocr: Haus nav, arbeiten salikteņi",
+      "primaryId": "mdz-bsb11358470-karadzic-de-sr-1872",
+      "primaryName": "Deutsch-serbisches Wörterbuch (Karadžić, 1872, MDZ/BSB bsb11358470 + IIIF)",
+      "accessType": "MDZ per-page hOCR (api.digitale-sammlungen.de/ocr/bsb11358470/{page})",
+      "viewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11358470?page=1",
+      "pilotHitCountPrimaryMdzOcr": "2/6",
+      "iaMirrorId": "ia-deutschserbische00kara",
+      "iaPilotHitCount": "0/6",
+      "iaPilotOcrBlocker": "LoC/IA tesseract djvu.txt — DE lemmas nav uzticami",
+      "modernInstitutionalId": "mdz-bsb11646956-danicic-jovanovic-de-sr-1886",
+      "modernInstitutionalName": "Wörterbuch der serbischen und deutschen Sprache, I. Deutsch-serbischer Teil (Daničić/Jovanović, 1886, BSB 11646956)",
+      "modernInstitutionalViewerUrl": "https://www.digitale-sammlungen.de/de/view/bsb11646956?page=1",
+      "pilotHitCountModernMdzOcr": "2/6",
+      "supplementIds": ["ia-wrterbuchderse01popo-popovic-1879", "ia-bub-gb-zevk-de-illyr-1818"],
       "digitizedAuditStatus": "PARTIAL"
     },
     "sv": {
