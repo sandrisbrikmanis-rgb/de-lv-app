@@ -2015,7 +2015,8 @@ DUPLICATE_FIELD_RESULTS = 0
 Lielus valodas failus nedrīkst nosūtīt Luna kā vienu nedalītu audita bloku.
 
 **OWNER apstiprinātā normatīvā hierarhija** (dataset-specific limits vienmēr
-prioritāri pār vispārīgu grupas limitu; sk. arī `PHASE_1_READ_ONLY_DISCOVERY_SPEC.md` §5.3):
+prioritāri pār vispārīgu grupas limitu; normatīvā tabula ir šī §7.31.
+`PHASE_1_READ_ONLY_DISCOVERY_SPEC.md` ir DEPRECATED / NOT ACTIVE un nav batch avots):
 
 | Scope / dataset | Maksimālais batch (`batchSizeConfigured`) |
 | --------------- | ----------------------------------------: |
@@ -5381,6 +5382,8 @@ AI apgalvojums bez ārēja autoritatīva pierādījuma nav pietiekams `PASS` vai
 Terminoloģija: izmantot **`FULL LINGUISTIC DISCOVERY AUDIT`**, nevis
 `FULL LLM LINGUISTIC AUDIT`. Obligātā metadata — §7.7 un grozījumu dok. §18.
 
+AI izmantošanas nosacījumi nevārdu ierakstiem — §7.158.A.
+
 ## 7.157. Regression vs atkārtots lingvistiskais audits (v1.18)
 
 Pēc COPY-ONLY remonta regresija pārbauda `LABOT` piemērošanu, diff, struktūru
@@ -5394,6 +5397,8 @@ findingu tikai tāpēc, ka audits tika palaists vēlreiz.
 
 ## 7.158. Vārda līmeņa avotu apstiprināšana (v1.19)
 
+Attiecas uz leksiskiem ierakstiem (A1–C2 vārdi); citiem ierakstiem skat. §7.158.A.
+
 Šī kārtība aizstāj iepriekšējo kārtību, kurā satura tulkojumus veica ar Crowdin.
 
 1. Vienība. Audita vienība ir pāris (DE ieraksts, valoda). Piemēram, "das Haus"
@@ -5405,8 +5410,10 @@ findingu tikai tāpēc, ka audits tika palaists vēlreiz.
       A. DE↔X divvalodu vārdnīca (PDF vai digitāla): avota ID, šķirklis vai
          lappuse, atrastais ekvivalents.
       B. Ja divvalodu avota nav: attiecīgās valsts valodas institūta/akadēmijas
-         vārdnīca no §3 reģistra ar skaidru nozīmes sasaisti ar DE šķirkli.
+         vārdnīca no Language Authority Registry
+         (`MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` §3) ar skaidru nozīmes sasaisti ar DE šķirkli.
       C. Ja nav neviena: NEEDS_SOURCE_REVIEW. Verdikts PASS pēc minējuma ir aizliegts.
+   Tips A ir prioritārs pirms tipa B. Tips A ir DE↔X divvalodu vārdnīca. Tips B ir Language Authority Registry, nevis šī dokumenta §3 (Study kartes). Registry kolonna „Primārais valodas normas / akadēmiskais avots” ir B avots un neaizstāj A prioritāti.
 3. Verdikti: PASS, FINDING, NEEDS_SOURCE_REVIEW, SOURCE_DE_ISSUE (kā §7.154).
 4. Tulkojuma avots ir vārdnīcas šķirklis. Mašīntulkojums un AI (t.sk. Luna, Cursor)
    drīkst būt tikai melnraksts, un nekad nav pierādījums (§7.156).
@@ -5419,6 +5426,52 @@ findingu tikai tāpēc, ka audits tika palaists vēlreiz.
 8. PDF vārdnīcu saturu repozitorijā glabā kā atsauci (avota ID + lappuse/šķirklis),
    nevis kā pilnu kopiju.
 9. Šis noteikums neatceļ §1.1, §7.25, OWNER lēmumu, COPY-ONLY un closure noteikumus.
+
+## 7.158.A. AI izmantošana nevārdu ierakstiem (v1.19)
+
+Attiecas uz ierakstiem, kuriem vārdnīcas šķirklis nav piemērots: teikumi, darbības vārdu
+formu bloki, Study skaidrojumi/piemēri, Kurss (dialogi, gramatika, vingrinājumi),
+training kartītes.
+
+1. AI ir atļauts kā izpildītājs (tulkošana vai pārbaude), nevis kā autoritāte (§7.156).
+   Rezultāts kļūst par production tikai pēc p.5 pārbaudēm.
+2. Tulkojuma prasības. Tulkojumam jābūt:
+   a) semantiski precīzam pret DE: nav pievienotas vai izlaistas informācijas;
+   b) saskaņotam persona, skaitlis, laiks, dzimte, formalitāte, noliegums, refleksivitāte;
+   c) gramatiski un ortogrāfiski pareizam pēc mērķvalodas normas (Language Authority Registry);
+   d) dabiskam tikai tiktāl, ciktāl tas nemaina nozīmi.
+3. Aizliegts:
+   a) pārtulkot ierakstu, jo "var skanēt dabiskāk" vai "labāk" (stila pārtulkošana);
+   b) atkārtoti ģenerēt tulkojumu, līdz izdodas citāds variants;
+   c) izvēlēties starp vairākiem AI variantiem pēc "labāka skanējuma";
+   d) aizstāt esošu CURRENT bez objektīvas kļūdas kategorijas (§7.7.4).
+   Stila un dabiskuma priekšlikumi bez objektīvas kļūdas ir FALSE_POSITIVE_OR_STYLE_ONLY.
+4. Reproducējamība — divas neatkarīgas palaišanas VISIEM ierakstiem.
+   a) Katru ierakstu AI apstrādā divreiz, katru reizi atsevišķā izsaukumā, bez kopīga
+      konteksta, ar vienu un to pašu prompt versiju un modeli.
+   b) Fiksē katram izsaukumam: modelis un versija, prompt versija vai hash, inference
+      iestatījumi (temperature 0, ja pieejams), izsaukuma ID.
+   c) Rezultāti "sakrīt", ja tie ir identiski pēc normalizācijas (trim, atstarpju
+      sakļaušana). Jebkura cita atšķirība ir nesakritība.
+   d) Nesakritības gadījumā ieraksts ir NEEDS_SOURCE_REVIEW. AI nedrīkst izšķirt, kurš
+      variants ir pareizs, un nedrīkst veikt trešo palaišanu, lai "izlemtu".
+   e) Sakritība starp divām palaišanām nav pierādījums par pareizību. Tā ir tikai
+      nepieciešams nosacījums, un p.5 pārbaudes paliek obligātas.
+   f) Šo prasību (visiem ierakstiem) var mīkstināt tikai ar atsevišķu OWNER lēmumu.
+5. Pārbaudes pirms production:
+   a) DE sakritība: DE teksts ir identisks LV master DE (STRICT READ-ONLY);
+   b) atslēgas leksēmas ieraksta iekšā pārbaudītas pēc §7.158 (vārdnīca/institūts);
+   c) gramatika: ja AI izvēlas vai maina formu, ko nevar pārbaudīt automātiski
+      (locījums, laiks, artikuls, palīgdarbības vārds, vārdu secība), jānorāda konkrēta
+      norma (institūta gramatika vai pareizrakstības noteikums). Automātiski pārbaudāmo
+      (DE sakritība, artikuli no vārdnīcas, pieturzīmes, diakritika) pārbauda skripts
+      bez atsauces;
+   d) otrs neatkarīgs pārbaudes slānis: cits modelis vai deterministisks noteikums;
+   e) native speaker izlase (LANGUAGE_AUDIT_STANDARD p.27).
+6. Neizietot jebkurai pārbaudei, ieraksts nav PASS. Tas ir FINDING vai NEEDS_SOURCE_REVIEW,
+   un lēmums pieder OWNER.
+7. Šis noteikums nemaina §1.1 (viens galvenais tulkojums), §1.2 (DE STRICT READ-ONLY),
+   OWNER lēmumus un COPY-ONLY.
 
 ------------------------------------------------------------------------
 
@@ -6872,7 +6925,15 @@ Kurss/Training). Jaunā vārda līmeņa avotu apstiprināšanas sadaļa. UI/G5
 Pievienots:
 
 - §7.158 Vārda līmeņa avotu apstiprināšana;
-- atsauces no §0, §2.3, §7.153 un §8 uz §7.158.
+- atsauces no §0, §2.3, §7.153 un §8 uz §7.158;
+- §7.158.A — AI izmantošana nevārdu ierakstiem.
+
+Precizēts:
+
+- §7.158 apjoms: leksiskie ieraksti (A1–C2 vārdi); citiem ierakstiem §7.158.A;
+- §7.158 tips B = Language Authority Registry (`MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` §3), nevis šī dokumenta §3; tips A ir prioritārs pirms tipa B;
+- §7.31 atsauce: normatīvā tabula ir šī §7.31; `PHASE_1_READ_ONLY_DISCOVERY_SPEC.md` nav batch avots. §7.31 tabula nav mainīta;
+- §7.156 rinda uz §7.158.A.
 
 Izņemts kā aktīva satura kārtība:
 
@@ -6880,8 +6941,8 @@ Izņemts kā aktīva satura kārtība:
 - satura Crowdin tulkošanas ceļš.
 
 Saglabāts: atsauce uz `MASTER_1.12_BINDING_WORK_AGREEMENT.md` ciktāl tā nav
-atkarīga no Crowdin (konfliktu protokols un izpildes secība); §1.1, §7.25,
-§7.31, closure vārti, Git/branch protokols; principi `PROPOSED` ≠ OWNER,
+atkarīga no Crowdin (konfliktu protokols un izpildes secība); §1.1, §1.2, §7.7.4, §7.25,
+§7.31 tabula, closure vārti, Git/branch protokols; principi `PROPOSED` ≠ OWNER,
 `OWNER_DECISION_REQUIRED`, COPY-ONLY, DE STRICT READ-ONLY.
 
 Version 1.18 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.19.
