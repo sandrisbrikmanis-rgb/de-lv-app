@@ -5460,7 +5460,7 @@ training kartītes.
    f) Šo prasību (visiem ierakstiem) var mīkstināt tikai ar atsevišķu OWNER lēmumu.
 5. Pārbaudes pirms production:
    a) DE sakritība: DE teksts ir identisks LV master DE (STRICT READ-ONLY);
-   b) atslēgas leksēmas ieraksta iekšā pārbaudītas pēc §7.158 (vārdnīca/institūts);
+   b) ieraksta atslēgas leksēmas ir pārbaudītas pēc §7.158 (vārdnīca/institūts);
    c) gramatika: ja AI izvēlas vai maina formu, ko nevar pārbaudīt automātiski
       (locījums, laiks, artikuls, palīgdarbības vārds, vārdu secība), jānorāda konkrēta
       norma (institūta gramatika vai pareizrakstības noteikums). Automātiski pārbaudāmo
@@ -5468,7 +5468,7 @@ training kartītes.
       bez atsauces;
    d) otrs neatkarīgs pārbaudes slānis: cits modelis vai deterministisks noteikums;
    e) native speaker izlase (LANGUAGE_AUDIT_STANDARD p.27).
-6. Neizietot jebkurai pārbaudei, ieraksts nav PASS. Tas ir FINDING vai NEEDS_SOURCE_REVIEW,
+6. Ja ieraksts neiztur kādu pārbaudi, tas nav PASS. Tas ir FINDING vai NEEDS_SOURCE_REVIEW,
    un lēmums pieder OWNER.
 7. Šis noteikums nemaina §1.1 (viens galvenais tulkojums), §1.2 (DE STRICT READ-ONLY),
    OWNER lēmumus un COPY-ONLY.
