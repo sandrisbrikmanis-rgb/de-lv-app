@@ -396,6 +396,71 @@ function germanHead(value) {
   return { head: text.slice(0, at), paren: close < 0 ? rest : rest.slice(0, close) };
 }
 
+const LV_DIACRITIC_LETTERS = "āčēģīķļņšūžĀČĒĢĪĶĻŅŠŪŽ";
+const SHARED_LV_LETTERS = {
+  lt: new Set([..."čšžūČŠŽŪ"]),
+  cs: new Set([..."čšžČŠŽ"]),
+  sk: new Set([..."čšžČŠŽ"]),
+  sl: new Set([..."čšžČŠŽ"]),
+  hr: new Set([..."čšžČŠŽ"]),
+  bs: new Set([..."čšžČŠŽ"])
+};
+const EXPECTED_PAREN_SCRIPT = {
+  ru: "Cyrillic",
+  bg: "Cyrillic",
+  uk: "Cyrillic",
+  mk: "Cyrillic",
+  sr: "Cyrillic",
+  gr: "Greek"
+};
+const SCRIPT_TESTS = [
+  ["Cyrillic", /[\u0400-\u04FF]/],
+  ["Greek", /[\u0370-\u03FF]/],
+  ["Hebrew", /[\u0590-\u05FF]/],
+  ["Arabic", /[\u0600-\u06FF]/],
+  ["Devanagari", /[\u0900-\u097F]/],
+  ["Georgian", /[\u10A0-\u10FF]/],
+  ["CJK", /[\u3040-\u30FF\u4E00-\u9FFF]/],
+  ["Hangul", /[\uAC00-\uD7AF]/],
+  ["Latin", /\p{Script=Latin}/u]
+];
+
+function expectedParenScript(lang) {
+  return EXPECTED_PAREN_SCRIPT[lang] || "Latin";
+}
+
+function scriptsIn(text) {
+  return SCRIPT_TESTS.filter(([, pattern]) => pattern.test(String(text ?? ""))).map(([name]) => name);
+}
+
+function parenContents(text) {
+  const source = String(text ?? "");
+  const dashAt = source.search(DASH_RE);
+  const de = dashAt < 0 ? source : source.slice(0, dashAt);
+  return [...de.matchAll(/\(([^)]*)\)/g)].map((match) => match[1]);
+}
+
+function lvDiacriticsIn(text) {
+  return [...String(text ?? "")].filter((ch) => LV_DIACRITIC_LETTERS.includes(ch));
+}
+
+function novelScripts(text, lvValue) {
+  const known = new Set(scriptsIn(lvValue).filter((name) => name !== "Latin"));
+  return scriptsIn(text).filter((name) => name !== "Latin" && !known.has(name));
+}
+
+function foreignBucket(row) {
+  const lang = String(row.langValue ?? "");
+  const at = lang.indexOf(" (");
+  const head = at < 0 ? lang : lang.slice(0, at);
+  const parts = [...lang.matchAll(/\(([^)]*)\)/g)].map((match) => match[1]);
+  const headScripts = novelScripts(head, row.lvValue);
+  const parenScripts = [...new Set(parts.flatMap((part) => novelScripts(part, row.lvValue)))];
+  if (headScripts.length) return { bucket: "FOREIGN_SCRIPT_IN_DE_WORD", parenAlso: parenScripts.length > 0, scripts: headScripts };
+  if (parenScripts.length) return { bucket: "FOREIGN_SCRIPT_IN_PRONUNCIATION", parenAlso: true, scripts: parenScripts };
+  return { bucket: "FOREIGN_SCRIPT_IN_DE_WORD", parenAlso: false, scripts: novelScripts(lang, row.lvValue) };
+}
+
 function capitalPredicate(lv, lang) {
   const a = String(lv ?? "");
   const b = String(lang ?? "");
@@ -1139,6 +1204,159 @@ function main() {
     });
     push("");
   });
+
+  push("## 14. Izrunas iekavas un FOREIGN_SCRIPT");
+  push("");
+  push("Avots ir `kurssPronunciationLesson` un `kurssConsonantsLesson`, iekavas DE pusē pirms `–`/`—`. Aiz svītras iekavu nav. www `courseLessons.js` ir baitiski identisks data, tāpēc 14.a un 14.b skaita vienu koku.");
+  push("");
+  push("Latviešu diakritika ir `āčēģīķļņšūž`. Burti, kas ir arī mērķvalodas ortogrāfijā, nav negaidīti: `lt` č š ž ū; `cs`, `sk`, `sl`, `hr`, `bs` č š ž. Pārējās mērķvalodās viss šis komplekts ir negaidīts. `sr` paredzētais alfabēts ir kirilica, tāpēc č š ž tur nav paredzēti.");
+  push("");
+  push("Paredzētais iekavu alfabēts: `ru`, `bg`, `uk`, `mk`, `sr` kirilica; `gr` grieķu; pārējām latīņu. LATIN_REMAINING ir kirilicas vai grieķu valoda, kuras iekavas joprojām ir latīņu. OTHER_SCRIPT ir cits alfabēts, arī jauktas iekavas.");
+  push("");
+  push("| valoda | iekavas | paredzētais | LOCAL | LATIN_REMAINING | OTHER_SCRIPT | bez burtiem | LV diakritika negaidīta | tikai kopīgie burti |");
+  push("|---|---:|---|---:|---:|---:|---:|---:|---:|");
+  const pronSamples = { unexpected: [], latin: [], other: [] };
+  const pronSeen = { unexpected: new Map(), latin: new Map(), other: new Map() };
+  languages.forEach((lang) => {
+    const rel = `data/${lang}/courseLessons.js`;
+    const www = `www/data/${lang}/courseLessons.js`;
+    if (sha256File(rel) !== sha256File(www)) throw new Error(`${lang} www courseLessons differs`);
+    const win = loadWindowGlobals(rel);
+    const expected = expectedParenScript(lang);
+    const shared = SHARED_LV_LETTERS[lang] || new Set();
+    const tally = { paren: 0, local: 0, latinRemaining: 0, other: 0, noLetter: 0, unexpected: 0, sharedOnly: 0 };
+    ["kurssPronunciationLesson", "kurssConsonantsLesson"].forEach((key) => {
+      exampleDivs((win.COURSE_LESSON_HTML || {})[key]).forEach((raw, index) => {
+        parenContents(raw).forEach((paren) => {
+          tally.paren += 1;
+          const scripts = scriptsIn(paren);
+          const nonLatin = scripts.filter((name) => name !== "Latin");
+          let klass = "NO_LETTER";
+          if (!scripts.length) klass = "NO_LETTER";
+          else if (scripts.length > 1) klass = "MIXED";
+          else klass = scripts[0];
+          if (klass === expected) tally.local += 1;
+          else if ((expected === "Cyrillic" || expected === "Greek") && klass === "Latin") tally.latinRemaining += 1;
+          else if (klass === "NO_LETTER") tally.noLetter += 1;
+          else tally.other += 1;
+          const marks = lvDiacriticsIn(paren);
+          const unexpectedMarks = marks.filter((ch) => !shared.has(ch));
+          if (unexpectedMarks.length) {
+            tally.unexpected += 1;
+            const seen = pronSeen.unexpected.get(lang) || 0;
+            if (seen < 1) {
+              pronSeen.unexpected.set(lang, seen + 1);
+              pronSamples.unexpected.push({ lang, key, index, paren, marks: [...new Set(unexpectedMarks)].join("") });
+            }
+          } else if (marks.length) tally.sharedOnly += 1;
+          if ((expected === "Cyrillic" || expected === "Greek") && klass === "Latin") {
+            const seen = pronSeen.latin.get(lang) || 0;
+            if (seen < 1) {
+              pronSeen.latin.set(lang, seen + 1);
+              pronSamples.latin.push({ lang, key, index, paren });
+            }
+          }
+          if (klass !== expected && klass !== "Latin" && klass !== "NO_LETTER") {
+            const seen = pronSeen.other.get(lang) || 0;
+            if (seen < 1) {
+              pronSeen.other.set(lang, seen + 1);
+              pronSamples.other.push({ lang, key, index, paren, klass: nonLatin.join("+") || klass });
+            }
+          }
+        });
+      });
+    });
+    const sum = tally.local + tally.latinRemaining + tally.other + tally.noLetter;
+    if (sum !== tally.paren) throw new Error(`${lang} paren classes ${sum} !== ${tally.paren}`);
+    push(`| ${lang} | ${tally.paren} | ${expected} | ${tally.local} | ${tally.latinRemaining} | ${tally.other} | ${tally.noLetter} | ${tally.unexpected} | ${tally.sharedOnly} |`);
+  });
+  push("");
+  push("### LV diakritika iekavās, kur tai nav jābūt");
+  push("");
+  if (!pronSamples.unexpected.length) push("Negadījumu nav.");
+  pronSamples.unexpected.sort((a, b) => `${a.lang}${a.key}${a.index}`.localeCompare(`${b.lang}${b.key}${b.index}`)).forEach((row) => {
+    push(`- ${row.lang} \`${row.key}\` [${row.index}] iekavas=${cell(row.paren)} burti=${cell(row.marks)}`);
+  });
+  push("");
+  push("### LATIN_REMAINING");
+  push("");
+  if (!pronSamples.latin.length) push("Nav.");
+  pronSamples.latin.sort((a, b) => `${a.lang}${a.key}${a.index}`.localeCompare(`${b.lang}${b.key}${b.index}`)).forEach((row) => {
+    push(`- ${row.lang} \`${row.key}\` [${row.index}] iekavas=${cell(row.paren)}`);
+  });
+  push("");
+  push("### OTHER_SCRIPT iekavās");
+  push("");
+  if (!pronSamples.other.length) push("Nav.");
+  pronSamples.other.sort((a, b) => `${a.lang}${a.key}${a.index}`.localeCompare(`${b.lang}${b.key}${b.index}`)).forEach((row) => {
+    push(`- ${row.lang} \`${row.key}\` [${row.index}] ${row.klass} iekavas=${cell(row.paren)}`);
+  });
+  push("");
+  push("### FOREIGN_SCRIPT sadalījums");
+  push("");
+  push("Sadalījums ir visu audita FOREIGN_SCRIPT rindu, data un www. Ja svešais alfabēts ir vācu daļā pirms ` (`, rinda ir FOREIGN_SCRIPT_IN_DE_WORD. Ja tas ir tikai iekavās, rinda ir FOREIGN_SCRIPT_IN_PRONUNCIATION. Paredzēts nozīmē, ka iekavu alfabēts ir šīs valodas paredzētais alfabēts.");
+  push("");
+  const foreignRows = report.mismatches.filter((row) => row.kind === "TEXT" && row.foreignScript);
+  if (foreignRows.length !== 466) throw new Error(`FOREIGN_SCRIPT ${foreignRows.length}`);
+  const foreignByLang = new Map();
+  const foreignSamples = { word: [], pron: [], pronOther: [] };
+  const foreignSampleSeen = { word: new Set(), pron: new Set(), pronOther: new Set() };
+  let deWord = 0;
+  let pron = 0;
+  let pronExpected = 0;
+  let deWordParenAlso = 0;
+  foreignRows.forEach((row) => {
+    const split = foreignBucket(row);
+    if (split.bucket === "FOREIGN_SCRIPT_IN_DE_WORD") {
+      deWord += 1;
+      if (split.parenAlso) deWordParenAlso += 1;
+    } else pron += 1;
+    const expected = expectedParenScript(row.language);
+    const expectedPron = split.bucket === "FOREIGN_SCRIPT_IN_PRONUNCIATION" && split.scripts.length === 1 && split.scripts[0] === expected;
+    if (expectedPron) pronExpected += 1;
+    if (!foreignByLang.has(row.language)) {
+      foreignByLang.set(row.language, { word: 0, pron: 0, pronExpected: 0, total: 0 });
+    }
+    const bucket = foreignByLang.get(row.language);
+    bucket.total += 1;
+    if (split.bucket === "FOREIGN_SCRIPT_IN_DE_WORD") bucket.word += 1;
+    else bucket.pron += 1;
+    if (expectedPron) bucket.pronExpected += 1;
+    const sampleKey = split.bucket === "FOREIGN_SCRIPT_IN_DE_WORD" ? "word" : (expectedPron ? "pron" : "pronOther");
+    if (!split.scripts.length) throw new Error(`FOREIGN_SCRIPT row without a located script ${row.language} ${row.field}`);
+    if (row.tree === "data" && !foreignSampleSeen[sampleKey].has(row.language)) {
+      foreignSampleSeen[sampleKey].add(row.language);
+      foreignSamples[sampleKey].push({ ...row, scripts: split.scripts.join(",") });
+    }
+  });
+  if (deWord + pron !== 466) throw new Error(`foreign split ${deWord}+${pron}`);
+  push(`Kopā FOREIGN_SCRIPT ${foreignRows.length}: FOREIGN_SCRIPT_IN_DE_WORD ${deWord}, FOREIGN_SCRIPT_IN_PRONUNCIATION ${pron}. No izrunas rindām paredzētajā alfabētā ir ${pronExpected}, citā alfabētā ${pron - pronExpected}. DE_WORD rindās, kur svešais alfabēts ir arī iekavās: ${deWordParenAlso}.`);
+  push("");
+  push("| valoda | FOREIGN_SCRIPT | IN_DE_WORD | IN_PRONUNCIATION | no tām paredzētais alfabēts |");
+  push("|---|---:|---:|---:|---:|");
+  [...foreignByLang.entries()].sort((a, b) => a[0].localeCompare(b[0])).forEach(([lang, bucket]) => {
+    push(`| ${lang} | ${bucket.total} | ${bucket.word} | ${bucket.pron} | ${bucket.pronExpected} |`);
+  });
+  push("");
+  push("### FOREIGN_SCRIPT_IN_DE_WORD");
+  push("");
+  foreignSamples.word.sort(rowSort).slice(0, 10).forEach((row) => {
+    push(`- ${row.language} \`${row.id}\` \`${row.field}\` ${row.scripts} LV=${cell(clip(row.lvValue, 80))} LANG=${cell(clip(row.langValue, 80))}`);
+  });
+  push("");
+  push("### FOREIGN_SCRIPT_IN_PRONUNCIATION paredzētajā alfabētā");
+  push("");
+  foreignSamples.pron.sort(rowSort).slice(0, 10).forEach((row) => {
+    push(`- ${row.language} \`${row.id}\` \`${row.field}\` ${row.scripts} LV=${cell(clip(row.lvValue, 80))} LANG=${cell(clip(row.langValue, 80))}`);
+  });
+  push("");
+  push("### FOREIGN_SCRIPT_IN_PRONUNCIATION citā alfabētā");
+  push("");
+  if (!foreignSamples.pronOther.length) push("Nav.");
+  foreignSamples.pronOther.sort(rowSort).slice(0, 10).forEach((row) => {
+    push(`- ${row.language} \`${row.id}\` \`${row.field}\` ${row.scripts} LV=${cell(clip(row.lvValue, 80))} LANG=${cell(clip(row.langValue, 80))}`);
+  });
+  push("");
 
   push("## STAGE RESULT");
   push("");

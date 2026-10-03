@@ -910,6 +910,137 @@ SINGULARE_TANTUM_CANDIDATE apakškopa: 300. `die` ar tukšu daudzskaitli, bez ta
 - de=`"Weise"` līmenis=`A2,B1,B2` detail=`"A2,B1,B2"` LV: A2[1575] lv=`"veids"` article=`"die"` plural=`"die Weisen"`; B1[3228] lv=`"gudrs"` article=`"die"` plural=`"die Weisen"`; B2[2046] lv=`"gudrais"` article=`"der"` plural=`"die Weisen"`
 - de=`"wissen"` līmenis=`A1,A2` detail=`"A1,A2"` LV: A1[311] lv=`"zināt"` article=`""` plural=`""`; A2[789] lv=`"zināt"` article=`""` plural=`""`
 
+## 14. Izrunas iekavas un FOREIGN_SCRIPT
+
+Avots ir `kurssPronunciationLesson` un `kurssConsonantsLesson`, iekavas DE pusē pirms `–`/`—`. Aiz svītras iekavu nav. www `courseLessons.js` ir baitiski identisks data, tāpēc 14.a un 14.b skaita vienu koku.
+
+Latviešu diakritika ir `āčēģīķļņšūž`. Burti, kas ir arī mērķvalodas ortogrāfijā, nav negaidīti: `lt` č š ž ū; `cs`, `sk`, `sl`, `hr`, `bs` č š ž. Pārējās mērķvalodās viss šis komplekts ir negaidīts. `sr` paredzētais alfabēts ir kirilica, tāpēc č š ž tur nav paredzēti.
+
+Paredzētais iekavu alfabēts: `ru`, `bg`, `uk`, `mk`, `sr` kirilica; `gr` grieķu; pārējām latīņu. LATIN_REMAINING ir kirilicas vai grieķu valoda, kuras iekavas joprojām ir latīņu. OTHER_SCRIPT ir cits alfabēts, arī jauktas iekavas.
+
+| valoda | iekavas | paredzētais | LOCAL | LATIN_REMAINING | OTHER_SCRIPT | bez burtiem | LV diakritika negaidīta | tikai kopīgie burti |
+|---|---:|---|---:|---:|---:|---:|---:|---:|
+| bg | 124 | Cyrillic | 39 | 83 | 2 | 0 | 12 | 0 |
+| bs | 132 | Latin | 130 | 0 | 2 | 0 | 22 | 10 |
+| cs | 139 | Latin | 138 | 0 | 1 | 0 | 16 | 20 |
+| da | 138 | Latin | 138 | 0 | 0 | 0 | 45 | 0 |
+| en | 138 | Latin | 138 | 0 | 0 | 0 | 45 | 0 |
+| es | 144 | Latin | 144 | 0 | 0 | 0 | 75 | 0 |
+| et | 144 | Latin | 144 | 0 | 0 | 0 | 22 | 0 |
+| fi | 144 | Latin | 144 | 0 | 0 | 0 | 22 | 0 |
+| fr | 132 | Latin | 132 | 0 | 0 | 0 | 31 | 0 |
+| gr | 138 | Greek | 42 | 96 | 0 | 0 | 6 | 0 |
+| hr | 121 | Latin | 80 | 0 | 41 | 0 | 9 | 3 |
+| hu | 132 | Latin | 127 | 0 | 5 | 0 | 25 | 0 |
+| is | 144 | Latin | 144 | 0 | 0 | 0 | 22 | 0 |
+| it | 144 | Latin | 144 | 0 | 0 | 0 | 77 | 0 |
+| lb | 144 | Latin | 144 | 0 | 0 | 0 | 77 | 0 |
+| lt | 144 | Latin | 144 | 0 | 0 | 0 | 53 | 25 |
+| mk | 124 | Cyrillic | 42 | 80 | 2 | 0 | 12 | 0 |
+| nb | 144 | Latin | 144 | 0 | 0 | 0 | 22 | 0 |
+| nl | 144 | Latin | 144 | 0 | 0 | 0 | 77 | 0 |
+| nn | 144 | Latin | 144 | 0 | 0 | 0 | 22 | 0 |
+| pl | 83 | Latin | 83 | 0 | 0 | 0 | 0 | 0 |
+| pt | 144 | Latin | 144 | 0 | 0 | 0 | 68 | 0 |
+| ro | 129 | Latin | 124 | 0 | 5 | 0 | 18 | 0 |
+| ru | 132 | Cyrillic | 63 | 67 | 2 | 0 | 12 | 0 |
+| sk | 83 | Latin | 83 | 0 | 0 | 0 | 0 | 0 |
+| sl | 144 | Latin | 144 | 0 | 0 | 0 | 65 | 12 |
+| sq | 83 | Latin | 83 | 0 | 0 | 0 | 0 | 0 |
+| sr | 121 | Cyrillic | 39 | 80 | 2 | 0 | 12 | 0 |
+| sv | 144 | Latin | 144 | 0 | 0 | 0 | 22 | 0 |
+| tr | 83 | Latin | 83 | 0 | 0 | 0 | 0 | 0 |
+| uk | 144 | Cyrillic | 132 | 12 | 0 | 0 | 0 | 0 |
+
+### LV diakritika iekavās, kur tai nav jābūt
+
+- bg `kurssPronunciationLesson` [3] iekavas=`"flūr"` burti=`"ū"`
+- bs `kurssPronunciationLesson` [1] iekavas=`"gūt"` burti=`"ū"`
+- cs `kurssPronunciationLesson` [3] iekavas=`"flūr"` burti=`"ū"`
+- da `kurssPronunciationLesson` [1] iekavas=`"gūt"` burti=`"ū"`
+- en `kurssPronunciationLesson` [3] iekavas=`"flūr"` burti=`"ū"`
+- es `kurssPronunciationLesson` [1] iekavas=`"gūt"` burti=`"ū"`
+- et `kurssPronunciationLesson` [7] iekavas=`"šlaaf"` burti=`"š"`
+- fi `kurssPronunciationLesson` [7] iekavas=`"šlaaf"` burti=`"š"`
+- fr `kurssPronunciationLesson` [3] iekavas=`"flūr"` burti=`"ū"`
+- gr `kurssPronunciationLesson` [86] iekavas=`"štrauh"` burti=`"š"`
+- hr `kurssPronunciationLesson` [3] iekavas=`"flūr"` burti=`"ū"`
+- hu `kurssPronunciationLesson` [3] iekavas=`"flūr"` burti=`"ū"`
+- is `kurssPronunciationLesson` [7] iekavas=`"šlaaf"` burti=`"š"`
+- it `kurssPronunciationLesson` [1] iekavas=`"gūt"` burti=`"ū"`
+- lb `kurssPronunciationLesson` [1] iekavas=`"gūt"` burti=`"ū"`
+- lt `kurssPronunciationLesson` [2] iekavas=`"tāt"` burti=`"ā"`
+- mk `kurssPronunciationLesson` [3] iekavas=`"flūr"` burti=`"ū"`
+- nb `kurssPronunciationLesson` [7] iekavas=`"šlaaf"` burti=`"š"`
+- nl `kurssPronunciationLesson` [1] iekavas=`"gūt"` burti=`"ū"`
+- nn `kurssPronunciationLesson` [7] iekavas=`"šlaaf"` burti=`"š"`
+- pt `kurssPronunciationLesson` [1] iekavas=`"gūt"` burti=`"ū"`
+- ro `kurssPronunciationLesson` [5] iekavas=`"hūt"` burti=`"ū"`
+- ru `kurssPronunciationLesson` [3] iekavas=`"flūr"` burti=`"ū"`
+- sl `kurssPronunciationLesson` [1] iekavas=`"gūt"` burti=`"ū"`
+- sr `kurssPronunciationLesson` [3] iekavas=`"flūr"` burti=`"ū"`
+- sv `kurssPronunciationLesson` [7] iekavas=`"šlaaf"` burti=`"š"`
+
+### LATIN_REMAINING
+
+- bg `kurssPronunciationLesson` [0] iekavas=`"varm"`
+- gr `kurssPronunciationLesson` [0] iekavas=`"varm"`
+- mk `kurssPronunciationLesson` [0] iekavas=`"varm"`
+- ru `kurssPronunciationLesson` [0] iekavas=`"varm"`
+- sr `kurssPronunciationLesson` [0] iekavas=`"varm"`
+- uk `kurssPronunciationLesson` [6] iekavas=`"hōf"`
+
+### OTHER_SCRIPT iekavās
+
+- bg `kurssPronunciationLesson` [49] Devanagari iekavas=`"दीप"`
+- bs `kurssPronunciationLesson` [49] Devanagari iekavas=`"दीप"`
+- cs `kurssPronunciationLesson` [56] Cyrillic iekavas=`"бет"`
+- hr `kurssPronunciationLesson` [1] Cyrillic iekavas=`"да получи"`
+- hu `kurssPronunciationLesson` [12] Cyrillic iekavas=`"шарф"`
+- mk `kurssPronunciationLesson` [49] Devanagari iekavas=`"दीप"`
+- ro `kurssPronunciationLesson` [12] Cyrillic iekavas=`"шарф"`
+- ru `kurssPronunciationLesson` [49] Devanagari iekavas=`"दीप"`
+- sr `kurssPronunciationLesson` [49] Devanagari iekavas=`"दीप"`
+
+### FOREIGN_SCRIPT sadalījums
+
+Sadalījums ir visu audita FOREIGN_SCRIPT rindu, data un www. Ja svešais alfabēts ir vācu daļā pirms ` (`, rinda ir FOREIGN_SCRIPT_IN_DE_WORD. Ja tas ir tikai iekavās, rinda ir FOREIGN_SCRIPT_IN_PRONUNCIATION. Paredzēts nozīmē, ka iekavu alfabēts ir šīs valodas paredzētais alfabēts.
+
+Kopā FOREIGN_SCRIPT 466: FOREIGN_SCRIPT_IN_DE_WORD 318, FOREIGN_SCRIPT_IN_PRONUNCIATION 148. No izrunas rindām paredzētajā alfabētā ir 146, citā alfabētā 2. DE_WORD rindās, kur svešais alfabēts ir arī iekavās: 114.
+
+| valoda | FOREIGN_SCRIPT | IN_DE_WORD | IN_PRONUNCIATION | no tām paredzētais alfabēts |
+|---|---:|---:|---:|---:|
+| bg | 32 | 28 | 4 | 4 |
+| gr | 62 | 52 | 10 | 10 |
+| hr | 50 | 48 | 2 | 0 |
+| mk | 54 | 52 | 2 | 2 |
+| ru | 100 | 80 | 20 | 20 |
+| sr | 50 | 48 | 2 | 2 |
+| uk | 118 | 10 | 108 | 108 |
+
+### FOREIGN_SCRIPT_IN_DE_WORD
+
+- bg `kurssPronunciationLesson` `legacyHtml/kurss-example[11]` Cyrillic LV=`"bald (balt) "` LANG=`"Плешив (бял) "`
+- gr `kurssPronunciationLesson` `legacyHtml/kurss-example[0]` Greek LV=`"warm (varm) "` LANG=`"Ζεστός (varm) "`
+- hr `kurssPronunciationLesson` `legacyHtml/kurss-example[11]` Cyrillic LV=`"bald (balt) "` LANG=`"Плешив (бял) "`
+- mk `kurssPronunciationLesson` `legacyHtml/kurss-example[11]` Cyrillic LV=`"bald (balt) "` LANG=`"Плешив (бял) "`
+- ru `kurssConsonantsLesson` `legacyHtml/kurss-example[11]` Cyrillic LV=`"noch (noh) "` LANG=`"Ноч (нох) "`
+- sr `kurssPronunciationLesson` `legacyHtml/kurss-example[11]` Cyrillic LV=`"bald (balt) "` LANG=`"Плешив (бял) "`
+- uk `lesson13` `kurssLesson13.sections[4].cards[11].er` Cyrillic LV=`"Er atmet tief."` LANG=`"Er відкидає tief."`
+
+### FOREIGN_SCRIPT_IN_PRONUNCIATION paredzētajā alfabētā
+
+- bg `kurssPronunciationLesson` `legacyHtml/kurss-example[17]` Cyrillic LV=`"Garten (garten) "` LANG=`"Garten (градина) "`
+- gr `kurssConsonantsLesson` `legacyHtml/kurss-example[11]` Greek LV=`"noch (noh) "` LANG=`"Noch (καλά) "`
+- mk `kurssPronunciationLesson` `legacyHtml/kurss-example[97]` Cyrillic LV=`"frei (frai) "` LANG=`"Frei (пържени) "`
+- ru `kurssPronunciationLesson` `legacyHtml/kurss-example[15]` Cyrillic LV=`"singen (zingen) "` LANG=`"Singen (зинген) "`
+- sr `kurssPronunciationLesson` `legacyHtml/kurss-example[97]` Cyrillic LV=`"frei (frai) "` LANG=`"Frei (пържени) "`
+- uk `kurssPronunciationLesson` `legacyHtml/kurss-example[0]` Cyrillic LV=`"warm (varm) "` LANG=`"warm (варм) "`
+
+### FOREIGN_SCRIPT_IN_PRONUNCIATION citā alfabētā
+
+- hr `kurssPronunciationLesson` `legacyHtml/kurss-example[97]` Cyrillic LV=`"frei (frai) "` LANG=`"Frei (пържени) "`
+
 ## STAGE RESULT
 
 STAGE RESULT: PASS
