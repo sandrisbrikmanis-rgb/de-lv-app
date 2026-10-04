@@ -1,0 +1,571 @@
+{
+  "treesIdentical": true,
+  "treeDiffs": [],
+  "pathsFound": [
+    "study.comparison",
+    "study.examples",
+    "study.tip",
+    "study.tip.leftBlocks",
+    "study.tip.rightBlocks",
+    "study.tip[*].leftBlocks",
+    "study.variants"
+  ],
+  "groups": 185,
+  "small": 159,
+  "ge5": 26,
+  "newContent": 180,
+  "duplicate": 5,
+  "deVariant": 84,
+  "indexExtraPerTree": {
+    "a1": 499,
+    "a2": 0,
+    "b1": 0,
+    "b2": 0,
+    "c1": 37,
+    "c2": 6
+  },
+  "indexExtraBothTrees": {
+    "a1": 998,
+    "a2": 0,
+    "b1": 0,
+    "b2": 0,
+    "c1": 74,
+    "c2": 12
+  },
+  "orderShift": {
+    "a1": 1,
+    "a2": 0,
+    "b1": 0,
+    "b2": 0,
+    "c1": 0,
+    "c2": 0
+  },
+  "langsByLevel": {
+    "a1": [
+      "bg",
+      "cs",
+      "da",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "fr",
+      "gr",
+      "hr",
+      "hu",
+      "is",
+      "it",
+      "lb",
+      "lt",
+      "mk",
+      "nb",
+      "nl",
+      "nn",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sl",
+      "sq",
+      "sr",
+      "sv",
+      "tr",
+      "uk"
+    ],
+    "a2": [
+      "bg",
+      "es",
+      "et",
+      "hr",
+      "mk",
+      "ro",
+      "ru",
+      "sr"
+    ],
+    "b1": [
+      "bs",
+      "cs",
+      "da",
+      "es",
+      "et",
+      "fi",
+      "fr",
+      "hu",
+      "is",
+      "it",
+      "lb",
+      "lt",
+      "nb",
+      "nl",
+      "nn",
+      "pl",
+      "pt",
+      "ro",
+      "sk",
+      "sl",
+      "sq",
+      "sv",
+      "tr"
+    ],
+    "b2": [],
+    "c1": [
+      "et",
+      "fi",
+      "gr",
+      "is",
+      "nb",
+      "nn",
+      "sv"
+    ],
+    "c2": [
+      "et",
+      "gr"
+    ]
+  },
+  "byLevel": {
+    "a1": {
+      "groups": 85,
+      "ge5": 18,
+      "small": 67,
+      "newContent": 80,
+      "duplicate": 5,
+      "langs": {
+        "bg": 16,
+        "cs": 8,
+        "da": 25,
+        "es": 17,
+        "et": 22,
+        "fi": 19,
+        "fr": 16,
+        "gr": 24,
+        "hr": 17,
+        "hu": 16,
+        "is": 18,
+        "it": 16,
+        "lb": 18,
+        "lt": 19,
+        "mk": 16,
+        "nb": 18,
+        "nl": 16,
+        "nn": 24,
+        "pl": 16,
+        "pt": 16,
+        "ro": 16,
+        "ru": 16,
+        "sk": 16,
+        "sl": 16,
+        "sq": 16,
+        "sr": 34,
+        "sv": 18,
+        "tr": 16,
+        "uk": 16,
+        "en": 7
+      }
+    },
+    "c1": {
+      "groups": 31,
+      "ge5": 1,
+      "small": 30,
+      "newContent": 31,
+      "duplicate": 0,
+      "langs": {
+        "et": 16,
+        "fi": 1,
+        "gr": 16,
+        "is": 1,
+        "nb": 1,
+        "nn": 1,
+        "sv": 1
+      }
+    },
+    "a2": {
+      "groups": 43,
+      "ge5": 6,
+      "small": 37,
+      "newContent": 43,
+      "duplicate": 0,
+      "langs": {
+        "bg": 6,
+        "hr": 6,
+        "mk": 6,
+        "ru": 6,
+        "sr": 6,
+        "et": 28,
+        "ro": 6,
+        "es": 3
+      }
+    },
+    "b1": {
+      "groups": 20,
+      "ge5": 1,
+      "small": 19,
+      "newContent": 20,
+      "duplicate": 0,
+      "langs": {
+        "cs": 1,
+        "da": 1,
+        "pl": 2,
+        "ro": 1,
+        "sk": 2,
+        "is": 2,
+        "nb": 2,
+        "nn": 2,
+        "sv": 2,
+        "bs": 1,
+        "fr": 1,
+        "it": 2,
+        "pt": 2,
+        "et": 2,
+        "fi": 2,
+        "nl": 2,
+        "sl": 2,
+        "sq": 2,
+        "tr": 2,
+        "lb": 2,
+        "es": 2,
+        "lt": 2,
+        "hu": 2
+      }
+    },
+    "c2": {
+      "groups": 6,
+      "ge5": 0,
+      "small": 6,
+      "newContent": 6,
+      "duplicate": 0,
+      "langs": {
+        "gr": 3,
+        "et": 3
+      }
+    }
+  },
+  "a1Bis": {
+    "element_id": "E0005",
+    "languages_with": "28: bg, cs, da, en, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, sk, sl, sq, sr, sv, tr, uk",
+    "languages_without": "3: bs, ro, ru",
+    "history": "REMOVED dfb9a177aeac557cd31b17545800dab213e71100 2026-08-05T17:05:43+00:00 A1 audit block 1: fix aber, baden, bis, an, aus, aufs, besuchen, Besuch, sprechen, klein, auch, bei, bitte",
+    "classification": "NEW_CONTENT+DE_VARIANT"
+  },
+  "examples": {
+    "NEW_CONTENT": [
+      {
+        "element_id": "E0001",
+        "level": "a1",
+        "card_id": "a1-bringen",
+        "array_path": "study.examples",
+        "classification": "NEW_CONTENT",
+        "german": {
+          "de": "Ich nehme das Buch."
+        },
+        "languages_with": "29: bg, cs, da, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, ro, ru, sk, sl, sq, sr, sv, tr, uk",
+        "history": "STILL_IN_LV addba18fc2b96fe2233756d270144aa732799f6a 2026-08-05T17:27:40+00:00 A1 audit block 2: bringen, Brötchen, dieser, ein"
+      },
+      {
+        "element_id": "E0003",
+        "level": "a1",
+        "card_id": "a1-klein-study",
+        "array_path": "study.examples",
+        "classification": "NEW_CONTENT",
+        "german": {
+          "de": "Das Kind ist klein."
+        },
+        "languages_with": "29: bg, cs, da, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, ro, ru, sk, sl, sq, sr, sv, tr, uk",
+        "history": "REMOVED dfb9a177aeac557cd31b17545800dab213e71100 2026-08-05T17:05:43+00:00 A1 audit block 1: fix aber, baden, bis, an, aus, aufs, besuchen, Besuch, sprechen, klein, auch, bei, bitte"
+      },
+      {
+        "element_id": "E0005",
+        "level": "a1",
+        "card_id": "a1-bis",
+        "array_path": "study.comparison",
+        "classification": "NEW_CONTENT+DE_VARIANT",
+        "german": {
+          "word": "bis jetzt",
+          "example_de": "Bis jetzt ist alles gut."
+        },
+        "languages_with": "28: bg, cs, da, en, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, sk, sl, sq, sr, sv, tr, uk",
+        "history": "REMOVED dfb9a177aeac557cd31b17545800dab213e71100 2026-08-05T17:05:43+00:00 A1 audit block 1: fix aber, baden, bis, an, aus, aufs, besuchen, Besuch, sprechen, klein, auch, bei, bitte"
+      },
+      {
+        "element_id": "E0006",
+        "level": "a1",
+        "card_id": "a1-bitte",
+        "array_path": "study.examples",
+        "classification": "NEW_CONTENT",
+        "german": {
+          "de": "Die Bitte ist wichtig."
+        },
+        "languages_with": "28: bg, da, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, ro, ru, sk, sl, sq, sr, sv, tr, uk",
+        "history": "REMOVED dfb9a177aeac557cd31b17545800dab213e71100 2026-08-05T17:05:43+00:00 A1 audit block 1: fix aber, baden, bis, an, aus, aufs, besuchen, Besuch, sprechen, klein, auch, bei, bitte"
+      },
+      {
+        "element_id": "E0007",
+        "level": "a1",
+        "card_id": "a1-bitte",
+        "array_path": "study.examples",
+        "classification": "NEW_CONTENT",
+        "german": {
+          "de": "Ich habe eine Bitte."
+        },
+        "languages_with": "28: bg, da, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, ro, ru, sk, sl, sq, sr, sv, tr, uk",
+        "history": "STILL_IN_LV 12321968e70809f831a09a9547c593e48f43fabb 2026-07-16T19:44:11+00:00 Split all comparisonStudy cards into individual standardStudy entries"
+      },
+      {
+        "element_id": "E0008",
+        "level": "a1",
+        "card_id": "a1-bitte",
+        "array_path": "study.examples",
+        "classification": "NEW_CONTENT",
+        "german": {
+          "de": "Kann ich bitte fragen?"
+        },
+        "languages_with": "28: bg, da, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, ro, ru, sk, sl, sq, sr, sv, tr, uk",
+        "history": "REMOVED dfb9a177aeac557cd31b17545800dab213e71100 2026-08-05T17:05:43+00:00 A1 audit block 1: fix aber, baden, bis, an, aus, aufs, besuchen, Besuch, sprechen, klein, auch, bei, bitte"
+      },
+      {
+        "element_id": "E0010",
+        "level": "a1",
+        "card_id": "a1-es",
+        "array_path": "study.examples",
+        "classification": "NEW_CONTENT",
+        "german": {
+          "de": "Es schneit."
+        },
+        "languages_with": "28: bg, da, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, ro, ru, sk, sl, sq, sr, sv, tr, uk",
+        "history": "REMOVED a82681c93288f3015ecf754885713f76e6b48ad2 2026-08-05T17:31:11+00:00 A1 audit block 2C: erst, etwas, es"
+      },
+      {
+        "element_id": "E0011",
+        "level": "a1",
+        "card_id": "a1-finden",
+        "array_path": "study.comparison",
+        "classification": "NEW_CONTENT+DE_VARIANT",
+        "german": {
+          "word": "glauben",
+          "example_de": "Ich glaube, er kommt."
+        },
+        "languages_with": "28: bg, cs, da, en, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, sk, sl, sq, sr, sv, tr, uk",
+        "history": "REMOVED ec708bfbbe11be0a7045f7c88dff3b7c034323fa 2026-08-05T18:04:06+00:00 A1-LF-001/002/003: bringen, Brötchen, finden learning-first fixes"
+      },
+      {
+        "element_id": "E0012",
+        "level": "a1",
+        "card_id": "a1-finden",
+        "array_path": "study.comparison",
+        "classification": "NEW_CONTENT+DE_VARIANT",
+        "german": {
+          "word": "suchen",
+          "example_de": "Ich suche den Schlüssel."
+        },
+        "languages_with": "28: bg, cs, da, en, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, sk, sl, sq, sr, sv, tr, uk",
+        "history": "REMOVED ec708bfbbe11be0a7045f7c88dff3b7c034323fa 2026-08-05T18:04:06+00:00 A1-LF-001/002/003: bringen, Brötchen, finden learning-first fixes"
+      },
+      {
+        "element_id": "E0013",
+        "level": "a1",
+        "card_id": "a1-bitte-study",
+        "array_path": "study.examples",
+        "classification": "NEW_CONTENT",
+        "german": {
+          "de": "Die Bitte ist wichtig."
+        },
+        "languages_with": "27: bg, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, ro, ru, sk, sl, sq, sr, sv, tr, uk",
+        "history": "REMOVED dfb9a177aeac557cd31b17545800dab213e71100 2026-08-05T17:05:43+00:00 A1 audit block 1: fix aber, baden, bis, an, aus, aufs, besuchen, Besuch, sprechen, klein, auch, bei, bitte"
+      }
+    ],
+    "DUPLICATE_OF_LV_ROW": [
+      {
+        "element_id": "E0002",
+        "level": "a1",
+        "card_id": "a1-finden",
+        "array_path": "study.examples",
+        "classification": "DUPLICATE_OF_LV_ROW",
+        "german": {
+          "de": "Wie findest du den Film?"
+        },
+        "languages_with": "29: bg, cs, da, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, ro, ru, sk, sl, sq, sr, sv, tr, uk",
+        "history": "STILL_IN_LV 2920011112e9680f9f72b5d1ec4e4494a2d5271c 2026-07-03T17:50:07+02:00 chore: sakārto repozitoriju — plakana saknes struktūra bez DE-LV-App_MAIN apvalka"
+      },
+      {
+        "element_id": "E0004",
+        "level": "a1",
+        "card_id": "a1-klein-study",
+        "array_path": "study.examples",
+        "classification": "DUPLICATE_OF_LV_ROW",
+        "german": {
+          "de": "Ich habe eine kleine Tasche."
+        },
+        "languages_with": "29: bg, cs, da, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, ro, ru, sk, sl, sq, sr, sv, tr, uk",
+        "history": "STILL_IN_LV 509b81d7af1841b81d9215ed32d1431fb49a3017 2026-07-23T17:52:22+00:00 Fix duplicate cross-level words missing study cards"
+      },
+      {
+        "element_id": "E0009",
+        "level": "a1",
+        "card_id": "a1-es",
+        "array_path": "study.examples",
+        "classification": "DUPLICATE_OF_LV_ROW",
+        "german": {
+          "de": "Es regnet."
+        },
+        "languages_with": "28: bg, da, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, ro, ru, sk, sl, sq, sr, sv, tr, uk",
+        "history": "STILL_IN_LV a82681c93288f3015ecf754885713f76e6b48ad2 2026-08-05T17:31:11+00:00 A1 audit block 2C: erst, etwas, es"
+      },
+      {
+        "element_id": "E0014",
+        "level": "a1",
+        "card_id": "a1-bitte-study",
+        "array_path": "study.examples",
+        "classification": "DUPLICATE_OF_LV_ROW",
+        "german": {
+          "de": "Ich habe eine Bitte."
+        },
+        "languages_with": "27: bg, es, et, fi, fr, gr, hr, hu, is, it, lb, lt, mk, nb, nl, nn, pl, pt, ro, ru, sk, sl, sq, sr, sv, tr, uk",
+        "history": "STILL_IN_LV 12321968e70809f831a09a9547c593e48f43fabb 2026-07-16T19:44:11+00:00 Split all comparisonStudy cards into individual standardStudy entries"
+      },
+      {
+        "element_id": "E0086",
+        "level": "a1",
+        "card_id": "a1-probieren",
+        "array_path": "study.comparison",
+        "classification": "SMALL_GROUP/DUPLICATE_OF_LV_ROW+DE_VARIANT",
+        "german": {
+          "word": "anprobieren",
+          "example_de": "Ich probiere die Jacke an."
+        },
+        "languages_with": "1: et",
+        "history": ""
+      }
+    ],
+    "SMALL_GROUP": [
+      {
+        "element_id": "E0027",
+        "level": "b1",
+        "card_id": "b1-empfangen",
+        "array_path": "study.comparison",
+        "classification": "SMALL_GROUP/NEW_CONTENT+DE_VARIANT",
+        "german": {
+          "word": "bekommen",
+          "example_de": "Ich bekomme eine E-Kirja."
+        },
+        "languages_with": "4: is, nb, nn, sv",
+        "history": ""
+      },
+      {
+        "element_id": "E0028",
+        "level": "b1",
+        "card_id": "b1-empfangen",
+        "array_path": "study.comparison",
+        "classification": "SMALL_GROUP/NEW_CONTENT+DE_VARIANT",
+        "german": {
+          "word": "bekommen",
+          "example_de": "Ich bekomme eine E-mail."
+        },
+        "languages_with": "4: bs, fr, pl, sk",
+        "history": ""
+      },
+      {
+        "element_id": "E0029",
+        "level": "b1",
+        "card_id": "b1-richten",
+        "array_path": "study.comparison",
+        "classification": "SMALL_GROUP/NEW_CONTENT+DE_VARIANT",
+        "german": {
+          "word": "schicken",
+          "example_de": "Ich schicke dir eine E-Kirja."
+        },
+        "languages_with": "4: is, nb, nn, sv",
+        "history": ""
+      },
+      {
+        "element_id": "E0030",
+        "level": "a1",
+        "card_id": "a1-probieren",
+        "array_path": "study.comparison",
+        "classification": "SMALL_GROUP/NEW_CONTENT+DE_VARIANT",
+        "german": {
+          "word": "Anprobieren",
+          "example_de": "Ich probiere die Jacke an."
+        },
+        "languages_with": "3: fi, gr, sv",
+        "history": ""
+      },
+      {
+        "element_id": "E0031",
+        "level": "a1",
+        "card_id": "a1-probieren",
+        "array_path": "study.comparison",
+        "classification": "SMALL_GROUP/NEW_CONTENT+DE_VARIANT",
+        "german": {
+          "word": "Testen",
+          "example_de": "Ich probiere die Jacke an."
+        },
+        "languages_with": "3: is, nb, nn",
+        "history": ""
+      },
+      {
+        "element_id": "E0032",
+        "level": "a1",
+        "card_id": "a1-liter",
+        "array_path": "study.examples",
+        "classification": "SMALL_GROUP/NEW_CONTENT",
+        "german": {
+          "de": "Ich brauche einen Liter Milch."
+        },
+        "languages_with": "2: et, gr",
+        "history": ""
+      },
+      {
+        "element_id": "E0033",
+        "level": "b1",
+        "card_id": "b1-empfangen",
+        "array_path": "study.comparison",
+        "classification": "SMALL_GROUP/NEW_CONTENT+DE_VARIANT",
+        "german": {
+          "word": "bekommen",
+          "example_de": "Ich bekomme eine E-Pastu."
+        },
+        "languages_with": "2: it, pt",
+        "history": ""
+      },
+      {
+        "element_id": "E0034",
+        "level": "b1",
+        "card_id": "b1-empfangen",
+        "array_path": "study.comparison",
+        "classification": "SMALL_GROUP/NEW_CONTENT+DE_VARIANT",
+        "german": {
+          "word": "bekommen",
+          "example_de": "Ich bekomme eine E-kirja."
+        },
+        "languages_with": "2: et, fi",
+        "history": ""
+      },
+      {
+        "element_id": "E0035",
+        "level": "b1",
+        "card_id": "b1-empfangen",
+        "array_path": "study.comparison",
+        "classification": "SMALL_GROUP/NEW_CONTENT+DE_VARIANT",
+        "german": {
+          "word": "bekommen",
+          "example_de": "Ich bekomme eine E-pastu."
+        },
+        "languages_with": "2: nl, sl",
+        "history": ""
+      },
+      {
+        "element_id": "E0036",
+        "level": "b1",
+        "card_id": "b1-empfangen",
+        "array_path": "study.comparison",
+        "classification": "SMALL_GROUP/NEW_CONTENT+DE_VARIANT",
+        "german": {
+          "word": "bekommen",
+          "example_de": "Ich bekomme eine E-posta aldım."
+        },
+        "languages_with": "2: sq, tr",
+        "history": ""
+      }
+    ]
+  }
+}
