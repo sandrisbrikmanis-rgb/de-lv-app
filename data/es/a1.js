@@ -161,14 +161,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "El niño aún es pequeño."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Tengo un bolso pequeño."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "El niño es pequeño."
         }
       ],
       "tip": [
@@ -2734,11 +2726,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "hasta",
           "example": "Bis jetzt habe ich nichts verstanden. – Estoy esperando que vengas."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "hasta ahora, hasta el día de hoy",
-          "example": "Bis jetzt ist alles gut. – Hasta ahora todo está bien."
         }
       ],
       "tip": {
@@ -2864,18 +2851,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "una taza de café, por favor."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "¿Puedo preguntar, por favor?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Tengo una petición."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "La solicitud es importante."
         }
       ],
       "tip": [
@@ -2998,18 +2973,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "una taza de café, por favor."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "¿Puedo preguntar, por favor?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Tengo una petición."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "La solicitud es importante."
         }
       ],
       "tip": [
@@ -3423,10 +3386,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Lleva el libro a la escuela."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Traigo el libro."
         }
       ],
       "comparison": [
@@ -5018,6 +4977,7 @@ const A1_WORDS = [
   {
     "de": "Ende",
     "de_article": "das",
+    "de_plural": "die Enden",
     "lv": "el fin",
     "level": "A1"
   },
@@ -5260,14 +5220,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "Está cansado."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Está lloviendo."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Nieva."
         }
       ],
       "comparison": [
@@ -6102,10 +6054,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "me parece bien."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "¿Qué opinas de la película?"
         }
       ],
       "comparison": [
@@ -6113,21 +6061,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "encontrar / considerar",
           "example": "Ich finde das gut. = Me parece bien."
-        },
-        {
-          "word": "suchen",
-          "meaning": "buscar",
-          "example": "Ich suche den Schlüssel. = Estoy buscando una llave."
-        },
-        {
-          "word": "denken",
-          "meaning": "pensar",
-          "example": "Pienso en ti. = Estoy pensando en ti."
-        },
-        {
-          "word": "glauben",
-          "meaning": "creer / pensar",
-          "example": "Ich glaube, er kommt. = Creo que vendrá."
         }
       ],
       "tip": {
@@ -14634,6 +14567,7 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
+    "de_plural": "die Morgen",
     "lv": "la mañana",
     "level": "A1",
     "study": {
@@ -14846,7 +14780,7 @@ const A1_WORDS = [
         {
           "word": "dürfen",
           "meaning": "ser permitido",
-          "example": "¿Darf ich gehen?"
+          "example": "Darf ich gehen?"
         }
       ],
       "tip": {
@@ -15482,7 +15416,7 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "tomar / tomar",
-          "example": "¡Nimm das Buch!"
+          "example": "Nimm das Buch!"
         },
         {
           "word": "bringen",
@@ -16239,7 +16173,7 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "o para elegir entre opciones",
-          "example": "¿Café o té?"
+          "example": "Kaffee oder Tee? = ¿Café o té?"
         },
         {
           "word": "wenn",
@@ -16881,7 +16815,7 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "probar / saborear",
-          "example": "¡Prueba la sopa!"
+          "example": "Probier mal die Suppe! = ¡Prueba la sopa!"
         },
         {
           "word": "versuchen",
@@ -19494,7 +19428,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "debería / debería hacer lo que se le indica",
-          "example": "¿Qué debo hacer?"
+          "example": "Was soll ich machen? = ¿Qué debo hacer?"
         },
         {
           "word": "müssen",
@@ -20209,22 +20143,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "sobre / sobre / a través",
-          "example": "Hablamos sobre el clima."
+          "example": "Wir sprechen über das Wetter. = Hablamos sobre el clima."
         },
         {
           "word": "auf",
           "meaning": "sobre una superficie",
-          "example": "El libro está sobre la mesa."
+          "example": "Das Buch liegt auf dem Tisch. = El libro está sobre la mesa."
         },
         {
           "word": "unter",
           "meaning": "bajo",
-          "example": "La bolsa está bajo la mesa."
+          "example": "Die Tasche ist unter dem Tisch. = La bolsa está bajo la mesa."
         },
         {
           "word": "von",
           "meaning": "de / acerca de alguna fuente",
-          "example": "Me entero de ti."
+          "example": "Ich höre von dir. = Me entero de ti."
         }
       ],
       "tip": {
@@ -20441,22 +20375,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "a las / alrededor de / para",
-          "example": "Vengo a las ocho."
+          "example": "Ich komme um acht. = Vengo a las ocho."
         },
         {
           "word": "am",
           "meaning": "por día / a las",
-          "example": "El lunes vengo."
+          "example": "Am Montag komme ich. = El lunes vengo."
         },
         {
           "word": "gegen",
           "meaning": "a tiempo / contra",
-          "example": "Vengo alrededor de las ocho."
+          "example": "Ich komme gegen acht. = Vengo alrededor de las ocho."
         },
         {
           "word": "für",
           "meaning": "por / a favor de",
-          "example": "Esto es para ti."
+          "example": "Das ist für dich. = Esto es para ti."
         }
       ],
       "tip": {
@@ -20678,22 +20612,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "debajo / entre",
-          "example": "La bolsa está bajo la mesa."
+          "example": "Die Tasche ist unter dem Tisch. = La bolsa está bajo la mesa."
         },
         {
           "word": "über",
           "meaning": "encima / sobre",
-          "example": "La lámpara cuelga sobre la mesa."
+          "example": "Die Lampe hängt über dem Tisch. = La lámpara cuelga sobre la mesa."
         },
         {
           "word": "zwischen",
           "meaning": "entre dos cosas",
-          "example": "Entre las casas."
+          "example": "Zwischen den Häusern. = Entre las casas."
         },
         {
           "word": "auf",
           "meaning": "sobre una superficie",
-          "example": "Sobre la mesa."
+          "example": "Auf dem Tisch. = Sobre la mesa."
         }
       ],
       "tip": {
@@ -20932,22 +20866,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "entender",
-          "example": "Te entiendo."
+          "example": "Ich verstehe dich. = Te entiendo."
         },
         {
           "word": "können",
           "meaning": "poder / saber",
-          "example": "Puedo nadar."
+          "example": "Ich kann schwimmen. = Puedo nadar."
         },
         {
           "word": "wissen",
           "meaning": "conoce el hecho",
-          "example": "Sé eso."
+          "example": "Ich weiß das. = Sé eso."
         },
         {
           "word": "kennen",
           "meaning": "saber",
-          "example": "Lo conozco."
+          "example": "Ich kenne ihn. = Lo conozco."
         }
       ],
       "tip": {
@@ -21506,22 +21440,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "antes / delante de",
-          "example": "Antes de la comida..."
+          "example": "Vor dem Essen... = Antes de la comida..."
         },
         {
           "word": "nach",
           "meaning": "después / a",
-          "example": "Después de la comida..."
+          "example": "Nach dem Essen... = Después de la comida..."
         },
         {
           "word": "neben",
           "meaning": "junto a",
-          "example": "Al lado de la casa."
+          "example": "Neben dem Haus. = Al lado de la casa."
         },
         {
           "word": "hinter",
           "meaning": "detrás",
-          "example": "Detrás de la casa."
+          "example": "Hinter dem Haus. = Detrás de la casa."
         }
       ],
       "tip": {
@@ -22009,22 +21943,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "si / cuando",
-          "example": "Si tienes tiempo..."
+          "example": "Wenn du Zeit hast... = Si tienes tiempo..."
         },
         {
           "word": "ob",
           "meaning": "o en una pregunta indirecta",
-          "example": "No sé si..."
+          "example": "Ich weiß nicht, ob... = No sé si..."
         },
         {
           "word": "wann",
           "meaning": "cuándo en una pregunta",
-          "example": "¿Cuándo vienes?"
+          "example": "Wann kommst du? = ¿Cuándo vienes?"
         },
         {
           "word": "weil",
           "meaning": "porque",
-          "example": "Me quedo porque estoy enfermo."
+          "example": "Ich bleibe, weil ich krank bin. = Me quedo porque estoy enfermo."
         }
       ],
       "tip": {
@@ -22424,22 +22358,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "convertirse en",
-          "example": "Me estoy cansando."
+          "example": "Ich werde müde. = Me estoy cansando."
         },
         {
           "word": "sein",
           "meaning": "ser",
-          "example": "Estoy cansado."
+          "example": "Ich bin müde. = Estoy cansado."
         },
         {
           "word": "bleiben",
           "meaning": "permanecer",
-          "example": "Me quedo aquí."
+          "example": "Ich bleibe hier. = Me quedo aquí."
         },
         {
           "word": "machen",
           "meaning": "hacer / hacer",
-          "example": "Hago eso."
+          "example": "Ich mache das. = Hago eso."
         }
       ],
       "tip": {
@@ -22645,22 +22579,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "condiciones climáticas",
-          "example": "El clima es hermoso."
+          "example": "Das Wetter ist schön. = El clima es hermoso."
         },
         {
           "word": "Zeit",
           "meaning": "tiempo (momento)",
-          "example": "No tengo tiempo."
+          "example": "Ich habe keine Zeit. = No tengo tiempo."
         },
         {
           "word": "Regen",
           "meaning": "lluvia",
-          "example": "Hay mucha lluvia."
+          "example": "Es gibt viel Regen. = Hay mucha lluvia."
         },
         {
           "word": "Sonne",
           "meaning": "el sol",
-          "example": "Brilla el sol."
+          "example": "Die Sonne scheint. = Brilla el sol."
         }
       ],
       "tip": [
@@ -23088,22 +23022,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "a / en / demasiado / infinitivo",
-          "example": "Voy al médico."
+          "example": "Ich gehe zum Arzt. = Voy al médico."
         },
         {
           "word": "nach",
           "meaning": "a ciudades/países",
-          "example": "Voy a Berlín."
+          "example": "Ich fahre nach Berlin. = Voy a Berlín."
         },
         {
           "word": "in",
           "meaning": "en / a un lugar",
-          "example": "Voy a la escuela."
+          "example": "Ich gehe in die Schule. = Voy a la escuela."
         },
         {
           "word": "bei",
           "meaning": "a alguien / al trabajo",
-          "example": "Estoy con Anna."
+          "example": "Ich bin bei Anna."
         }
       ],
       "tip": {
@@ -23316,22 +23250,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "el tren",
-          "example": "Llega el tren."
+          "example": "Der Zug kommt. = Llega el tren."
         },
         {
           "word": "die Bahn",
           "meaning": "ferrocarril / viajar en tren",
-          "example": "Viajo en tren."
+          "example": "Ich fahre mit der Bahn. = Viajo en tren."
         },
         {
           "word": "der Bus",
           "meaning": "autobús",
-          "example": "Llega el autobús."
+          "example": "Der Bus kommt. = Llega el autobús."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "tranvía",
-          "example": "El tranvía está aquí."
+          "example": "Die Straßenbahn ist hier. = El tranvía está aquí."
         }
       ],
       "tip": {
@@ -24903,6 +24837,7 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "vacaciones",
     "level": "A1",
     "study": {

@@ -27600,7 +27600,7 @@ const B1_WORDS = [
   {
     "de": "Jagderlaubnis",
     "de_article": "die",
-    "de_plural": "die Jagderlaubse",
+    "de_plural": "die Jagderlaubnisse",
     "lv": "Permis de vânătoare",
     "level": "B1"
   },
@@ -40697,7 +40697,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "A trimite",
-          "example": "Ich schicke dir eine E-mail."
+          "example": "Ich schicke dir eine E-Mail."
         },
         {
           "word": "urteilen",
@@ -58505,6 +58505,7 @@ const B1_WORDS = [
   {
     "de": "Schaden",
     "de_article": "der",
+    "de_plural": "die Schäden",
     "lv": "Pierdere • Daune",
     "level": "B1",
     "study": {

@@ -106,14 +106,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Laps on veel väike."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Mul on väike kott."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Laps on väike."
         }
       ],
       "tip": [
@@ -2013,11 +2005,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "Seni, kuni",
           "example": "Bis jetzt habe ich nichts verstanden. – Ma ootan, kuni sa tuled."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "Siiani, tänase päevani",
-          "example": "Bis jetzt ist alles gut. – Siiani on kõik hästi."
         }
       ],
       "tip": {
@@ -2145,18 +2132,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "Üks tass kohvi, palun."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Kas ma tohin palun küsida?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mul on üks palve."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Palve on tähtis."
         }
       ],
       "tip": [
@@ -2282,18 +2257,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "Üks tass kohvi, palun."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Kas ma tohin palun küsida?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mul on üks palve."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Palve on tähtis."
         }
       ],
       "tip": [
@@ -2469,22 +2432,22 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "Jääma",
-          "example": "Jag stannar här."
+          "example": "Ich bleibe hier."
         },
         {
           "word": "gehen",
           "meaning": "Minema / jalgsi ära minema",
-          "example": "Jag går hem."
+          "example": "Ich gehe nach Hause. = Jag går hem."
         },
         {
           "word": "fahren",
           "meaning": "Sõitma / sõidukiga liikuma",
-          "example": "Jag åker hem."
+          "example": "Ich fahre nach Hause. = Jag åker hem."
         },
         {
           "word": "warten",
           "meaning": "Ootama",
-          "example": "Jag väntar här."
+          "example": "Ich warte hier."
         }
       ],
       "tip": {
@@ -2750,10 +2713,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Ta viib raamatu kooli."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Ma võtan raamatu."
         }
       ],
       "comparison": [
@@ -3123,22 +3082,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Seal • Siin • Siinsamas (üldiselt)",
-          "example": "Där är min bil."
+          "example": "Da ist mein Auto."
         },
         {
           "word": "hier",
           "meaning": "Siin (kindlas kohas)",
-          "example": "Här är min bil."
+          "example": "Hier ist mein Auto."
         },
         {
           "word": "dort",
           "meaning": "Seal (kaugemal)",
-          "example": "Där borta är min bil."
+          "example": "Dort ist mein Auto."
         },
         {
           "word": "dann",
           "meaning": "Siis",
-          "example": "Sedan går vi hem."
+          "example": "Dann gehen wir nach Hause. = Sedan går vi hem."
         }
       ],
       "tip": {
@@ -3838,12 +3797,12 @@ const A1_WORDS = [
         {
           "word": "ein Mann",
           "meaning": "maskulint genus",
-          "example": "En man väntar ute."
+          "example": "Ein Mann wartet draußen."
         },
         {
           "word": "eine Frau",
           "meaning": "feminint genus",
-          "example": "en frau"
+          "example": "eine Frau"
         },
         {
           "word": "ein Buch",
@@ -4163,6 +4122,7 @@ const A1_WORDS = [
   {
     "de": "Ende",
     "de_article": "das",
+    "de_plural": "die Enden",
     "lv": "Lõpp",
     "level": "A1"
   },
@@ -4281,14 +4241,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "See on minu raamat."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Sajab vihma."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Sajab lund."
         }
       ],
       "info": [
@@ -4819,27 +4771,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "Sõidukiga sõitma",
-          "example": "Jag åker med buss."
+          "example": "Ich fahre mit dem Bus. = Jag åker med buss."
         },
         {
           "word": "gehen",
           "meaning": "Jalgsi minema",
-          "example": "Jag går hem."
+          "example": "Ich gehe nach Hause. = Jag går hem."
         },
         {
           "word": "laufen",
           "meaning": "Jooksma / käima",
-          "example": "Han springer snabbt."
+          "example": "Er läuft schnell. = Han springer snabbt."
         },
         {
           "word": "bringen",
           "meaning": "Tooma / kohale toimetama",
-          "example": "Jag tar boken."
+          "example": "Ich bringe das Buch. = Jag tar boken."
         },
         {
           "word": "mitnehmen",
           "meaning": "Kaasa võtma",
-          "example": "Jag tar dig med."
+          "example": "Ich nehme dich mit. = Jag tar dig med."
         }
       ],
       "tip": {
@@ -5237,10 +5189,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "Minu meelest on see hea."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Kuidas sulle film tundub?"
         }
       ],
       "comparison": [
@@ -5248,21 +5196,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "Leidma / arvama",
           "example": "Ich finde das gut. = Jag tycker det är bra."
-        },
-        {
-          "word": "suchen",
-          "meaning": "Otsima",
-          "example": "Ich suche den Schlüssel. = Ma otsin võtit."
-        },
-        {
-          "word": "denken",
-          "meaning": "Mõtlema",
-          "example": "Ich denke an dich. = Ma mõtlen sinule."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Uskuma / arvama",
-          "example": "Ich glaube, er kommt. = Ma arvan, et ta tuleb."
         }
       ],
       "tip": {
@@ -6128,22 +6061,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "Andma",
-          "example": "Ge mig boken."
+          "example": "Gib mir das Buch. = Ge mig boken."
         },
         {
           "word": "nehmen",
           "meaning": "Võtma / kätte võtma",
-          "example": "Jag tar boken."
+          "example": "Ich nehme das Buch. = Jag tar boken."
         },
         {
           "word": "bekommen",
           "meaning": "Saama / kätte saama",
-          "example": "Jag får en gåva."
+          "example": "Ich bekomme ein Geschenk. = Jag får en gåva."
         },
         {
           "word": "bringen",
           "meaning": "Tooma / kohale toimetama",
-          "example": "Jag ger dig boken."
+          "example": "Ich bringe dir das Buch. = Jag ger dig boken."
         }
       ],
       "tip": {
@@ -11167,17 +11100,17 @@ const A1_WORDS = [
         {
           "word": "die Stadt",
           "meaning": "Linn",
-          "example": "Jag bor i staden."
+          "example": "Ich wohne in der Stadt. = Jag bor i staden."
         },
         {
           "word": "das Dorf",
           "meaning": "Küla",
-          "example": "Han bor i en by."
+          "example": "Er lebt in einem Dorf. = Han bor i en by."
         },
         {
           "word": "die Erde",
           "meaning": "Maa / planeet",
-          "example": "Jorden är rund."
+          "example": "Die Erde ist rund."
         }
       ],
       "tip": {
@@ -12094,22 +12027,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Asuma / lamama",
-          "example": "Boken ligger här."
+          "example": "Das Buch liegt hier."
         },
         {
           "word": "legen",
           "meaning": "Panema",
-          "example": "Jag lägger boken här."
+          "example": "Ich lege das Buch hierhin."
         },
         {
           "word": "stehen",
           "meaning": "Seisma / püsti olema",
-          "example": "Flaskan står på bordet."
+          "example": "Die Flasche steht auf dem Tisch. = Flaskan står på bordet."
         },
         {
           "word": "sein",
           "meaning": "Olema",
-          "example": "Jag är här."
+          "example": "Ich bin hier."
         }
       ],
       "tip": {
@@ -13073,22 +13006,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "-ga / koos",
-          "example": "Jag kommer med dig."
+          "example": "Ich komme mit dir. = Jag kommer med dig."
         },
         {
           "word": "ohne",
           "meaning": "Ilma",
-          "example": "Jag kommer utan dig."
+          "example": "Ich komme ohne dich. = Jag kommer utan dig."
         },
         {
           "word": "bei",
           "meaning": "Juures / kellegi juures",
-          "example": "Jag är hos Anna."
+          "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
           "meaning": "-sse / juurde",
-          "example": "Jag går till doktorn."
+          "example": "Ich gehe zum Arzt. = Jag går till doktorn."
         }
       ],
       "tip": {
@@ -13338,22 +13271,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Meeldima",
-          "example": "Jag gillar musik."
+          "example": "Ich mag Musik."
         },
         {
           "word": "möchte",
           "meaning": "Sooviksin",
-          "example": "Jag vill ha kaffe."
+          "example": "Ich möchte Kaffee. = Jag vill ha kaffe."
         },
         {
           "word": "wollen",
           "meaning": "Tahtma",
-          "example": "Jag vill åka hem."
+          "example": "Ich will nach Hause. = Jag vill åka hem."
         },
         {
           "word": "lieben",
           "meaning": "Armastama",
-          "example": "Jag älskar dig."
+          "example": "Ich liebe dich."
         }
       ],
       "tip": {
@@ -13729,6 +13662,7 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
+    "de_plural": "die Morgen",
     "lv": "Hommik",
     "level": "A1",
     "study": {
@@ -15696,22 +15630,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Või valikus",
-          "example": "Kaffee eller te?"
+          "example": "Kaffee oder Tee?"
         },
         {
           "word": "ob",
           "meaning": "Kas kaudses küsimuses",
-          "example": "Jag vet inte om han kommer."
+          "example": "Ich weiß nicht, ob er kommt. = Jag vet inte om han kommer."
         },
         {
           "word": "und",
           "meaning": "Ja",
-          "example": "Kaffe och tårta."
+          "example": "Kaffee und Kuchen. = Kaffe och tårta."
         },
         {
           "word": "aber",
           "meaning": "Aga",
-          "example": "Jag kommer, men senare."
+          "example": "Ich komme, aber später. = Jag kommer, men senare."
         }
       ],
       "tip": {
@@ -16007,22 +15941,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Sobima / hästi sobima",
-          "example": "Jackan passar mig."
+          "example": "Die Jacke passt mir. = Jackan passar mig."
         },
         {
           "word": "stehen",
           "meaning": "Sobima / seisma",
-          "example": "Rött klär dig bra."
+          "example": "Rot steht dir gut."
         },
         {
           "word": "geeignet sein",
           "meaning": "Sobiv olema",
-          "example": "Det är lämpligt."
+          "example": "Das ist geeignet."
         },
         {
           "word": "funktionieren",
           "meaning": "Toimima",
-          "example": "Det fungerar."
+          "example": "Das funktioniert. = Det fungerar."
         }
       ],
       "tip": {
@@ -16318,35 +16252,26 @@ const A1_WORDS = [
         {
           "de": "Kann ich die Jacke anprobieren?",
           "lv": "Kas ma saan jakki proovida?"
-        },
-        {
-          "de": "Wir testen die neue Software.",
-          "lv": "Me testime uut tarkvara."
         }
       ],
       "comparison": [
         {
           "word": "probieren",
           "meaning": "Proovima / maitsma",
-          "example": "Smaka på soppan!"
+          "example": "Probier mal die Suppe! = Smaka på soppan!"
         },
         {
           "word": "versuchen",
           "meaning": "Testima / kontrollima",
-          "example": "Jag försöker."
+          "example": "Ich versuche es."
         },
         {
           "word": "prüfen",
           "meaning": "Üritama",
-          "example": "Jag kontrollerar räkningen."
+          "example": "Ich prüfe die Rechnung."
         },
         {
           "word": "anprobieren",
-          "meaning": "Kontrollima",
-          "example": "Jag provoksar jackan."
-        },
-        {
-          "word": "Anprobieren",
           "meaning": "Selga proovima",
           "example": "Ich probiere die Jacke an."
         }
@@ -17208,22 +17133,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "Ujuma liikumisena või spordina",
-          "example": "Han simmar mycket bra."
+          "example": "Er schwimmt sehr gut. = Han simmar mycket bra."
         },
         {
           "word": "baden",
           "meaning": "Suplema / vees olema",
-          "example": "Jag går för att bada."
+          "example": "Ich gehe baden."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Ujuma minema",
-          "example": "Vi går för att simma."
+          "example": "Wir gehen schwimmen."
         },
         {
           "word": "duschen",
           "meaning": "Duši all käima",
-          "example": "Jag duschar på morgonen."
+          "example": "Ich dusche morgens. = Jag duschar på morgonen."
         }
       ],
       "tip": {
@@ -17485,22 +17410,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "Nägema",
-          "example": "Jag ser dig."
+          "example": "Ich sehe dich. = Jag ser dig."
         },
         {
           "word": "schauen",
           "meaning": "Vaatama",
-          "example": "Jag tittar på bilden."
+          "example": "Ich schaue auf das Bild. = Jag tittar på bilden."
         },
         {
           "word": "ansehen",
           "meaning": "Vaatama / vaatlema",
-          "example": "Jag tittar på filmen."
+          "example": "Ich sehe mir den Film an. = Jag tittar på filmen."
         },
         {
           "word": "hören",
           "meaning": "Kuulma",
-          "example": "Jag lyssnar på musik."
+          "example": "Ich höre Musik."
         }
       ],
       "tip": {
@@ -17734,22 +17659,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Olema",
-          "example": "Jag är här."
+          "example": "Ich bin hier."
         },
         {
           "word": "haben",
           "meaning": "Mul on",
-          "example": "Jag har tid."
+          "example": "Ich habe Zeit. = Jag har tid."
         },
         {
           "word": "werden",
           "meaning": "Saama",
-          "example": "Jag blir trött."
+          "example": "Ich werde müde."
         },
         {
           "word": "bleiben",
           "meaning": "Jääma",
-          "example": "Jag stannar här."
+          "example": "Ich bleibe hier."
         }
       ],
       "tip": {
@@ -18155,22 +18080,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "End / endale",
-          "example": "Han tvättar sig."
+          "example": "Er wäscht sich."
         },
         {
           "word": "mich",
           "meaning": "Mind / ennast ich puhul",
-          "example": "Jag tvättar mig."
+          "example": "Ich wasche mich."
         },
         {
           "word": "dich",
           "meaning": "Sind / ennast du puhul",
-          "example": "Du tvättar dig."
+          "example": "Du wäschst dich."
         },
         {
           "word": "ihn",
           "meaning": "Teda",
-          "example": "Jag ser honom."
+          "example": "Ich sehe ihn. = Jag ser honom."
         }
       ],
       "tip": {
@@ -18915,22 +18840,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "Istuma",
-          "example": "Jag sitter vid bordet."
+          "example": "Ich sitze am Tisch. = Jag sitter vid bordet."
         },
         {
           "word": "stehen",
           "meaning": "Seisma",
-          "example": "Han står vid dörren."
+          "example": "Er steht an der Tür."
         },
         {
           "word": "liegen",
           "meaning": "Lamama / pikali olema",
-          "example": "Katten ligger där."
+          "example": "Die Katze liegt dort."
         },
         {
           "word": "setzen",
           "meaning": "Istet võtma / istuma panema",
-          "example": "Jag sätter mig."
+          "example": "Ich setze mich."
         }
       ],
       "tip": {
@@ -19185,22 +19110,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Peaks / juhise järgi tegema",
-          "example": "Vad ska jag göra?"
+          "example": "Was soll ich machen?"
         },
         {
           "word": "müssen",
           "meaning": "Tingimata vaja olema",
-          "example": "Jag måste gå."
+          "example": "Ich muss gehen. = Jag måste gå."
         },
         {
           "word": "können",
           "meaning": "Saama",
-          "example": "Jag kan komma."
+          "example": "Ich kann kommen. = Jag kan komma."
         },
         {
           "word": "wollen",
           "meaning": "Tahtma",
-          "example": "Jag vill stanna."
+          "example": "Ich will bleiben. = Jag vill stanna."
         }
       ],
       "tip": {
@@ -23178,6 +23103,7 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "Puhkus",
     "level": "A1",
     "study": {

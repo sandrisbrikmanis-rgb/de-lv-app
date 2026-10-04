@@ -10039,6 +10039,7 @@ const B2_WORDS = [
   {
     "de": "Pfahlbau",
     "de_article": "der",
+    "de_plural": "die Pfahlbauten",
     "lv": "statinys ant polių",
     "level": "B2"
   },

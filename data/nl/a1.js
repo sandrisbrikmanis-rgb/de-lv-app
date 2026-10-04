@@ -167,14 +167,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Bērns vēl ir mazs."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Ik heb een kleine tas."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Het kind is klein."
         }
       ],
       "tip": [
@@ -2094,22 +2086,22 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "Zwemmen / in water zijn / wassen",
-          "example": "Ik ga zwemmen."
+          "example": "Ich gehe baden. = Ik ga zwemmen."
         },
         {
           "word": "schwimmen",
           "meaning": "Peldēt kā kustība vai sports",
-          "example": "Hij zwemt erg goed."
+          "example": "Er schwimmt sehr gut. = Hij zwemt erg goed."
         },
         {
           "word": "duschen",
           "meaning": "Mazgāties dušā",
-          "example": "Ik douche 's ochtends."
+          "example": "Ich dusche am Morgen. = Ik douche 's ochtends."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Iet peldēt",
-          "example": "Ik ga vandaag zwemmen."
+          "example": "Ich gehe heute schwimmen. = Ik ga vandaag zwemmen."
         }
       ],
       "tip": {
@@ -3029,11 +3021,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "Līdz tam, kamēr",
           "example": "Bis jetzt habe ich nichts verstanden. – Es gaidu, līdz tu atnāksi."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "Līdz šim, līdz šai dienai",
-          "example": "Bis jetzt ist alles gut. – Līdz šim viss ir labi."
         }
       ],
       "tip": {
@@ -3161,18 +3148,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "Vienu tasi kafijas, lūdzu."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Ik heb één verzoek."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Lūgums ir svarīgs."
         }
       ],
       "tip": [
@@ -3298,18 +3273,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "Vienu tasi kafijas, lūdzu."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Ik heb één verzoek."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Lūgums ir svarīgs."
         }
       ],
       "tip": [
@@ -3472,22 +3435,22 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "Palikt",
-          "example": "Ik blijf hier."
+          "example": "Ich bleibe hier."
         },
         {
           "word": "gehen",
           "meaning": "Te voet gaan/vertrekken",
-          "example": "Ik ga naar huis."
+          "example": "Ich gehe nach Hause. = Ik ga naar huis."
         },
         {
           "word": "fahren",
           "meaning": "Rijden/gaan met vervoer",
-          "example": "Ik rij naar huis."
+          "example": "Ich fahre nach Hause. = Ik rij naar huis."
         },
         {
           "word": "warten",
           "meaning": "Wachten",
-          "example": "Ik wacht hier."
+          "example": "Ich warte hier."
         }
       ],
       "tip": {
@@ -3752,10 +3715,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Viņš aiznes grāmatu uz skolu."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Es paņemu grāmatu."
         }
       ],
       "comparison": [
@@ -4122,22 +4081,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Tur • Te • Šeit (vispārīgi)",
-          "example": "Daar is mijn auto."
+          "example": "Da ist mein Auto."
         },
         {
           "word": "hier",
           "meaning": "Hier (op een specifieke plaats)",
-          "example": "Hier is mijn auto."
+          "example": "Hier ist mein Auto."
         },
         {
           "word": "dort",
           "meaning": "Tur (tālāk)",
-          "example": "Daar is mijn auto."
+          "example": "Dort ist mein Auto."
         },
         {
           "word": "dann",
           "meaning": "Tad",
-          "example": "Dan gaan we naar huis."
+          "example": "Dann gehen wir nach Hause. = Dan gaan we naar huis."
         }
       ],
       "tip": {
@@ -5292,22 +5251,22 @@ const A1_WORDS = [
         {
           "word": "ein Mann",
           "meaning": "mannelijk geslacht",
-          "example": "Een man wacht buiten."
+          "example": "Ein Mann wartet draußen. = Een man wacht buiten."
         },
         {
           "word": "eine Frau",
           "meaning": "vrouwelijk geslacht",
-          "example": "een vrouw"
+          "example": "eine Frau = een vrouw"
         },
         {
           "word": "ein Buch",
           "meaning": "onzijdig geslacht",
-          "example": "Ik heb een boek."
+          "example": "Ich habe ein Buch. = Ik heb een boek."
         },
         {
           "word": "einen Mann",
           "meaning": "accusatief",
-          "example": "een man"
+          "example": "einen Mann = een man"
         }
       ]
     }
@@ -5614,6 +5573,7 @@ const A1_WORDS = [
   {
     "de": "Ende",
     "de_article": "das",
+    "de_plural": "die Enden",
     "lv": "Het einde",
     "level": "A1"
   },
@@ -5876,14 +5836,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "Tā ir mana grāmata."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Līst."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Snieg."
         }
       ],
       "info": [
@@ -6408,27 +6360,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "Het vervoer berijden",
-          "example": "Ik rij met de bus."
+          "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "gehen",
           "meaning": "Iet kājām",
-          "example": "Ik ga naar huis."
+          "example": "Ich gehe nach Hause. = Ik ga naar huis."
         },
         {
           "word": "laufen",
           "meaning": "Skriet / iet",
-          "example": "Hij loopt snel."
+          "example": "Er läuft schnell. = Hij loopt snel."
         },
         {
           "word": "bringen",
           "meaning": "Atnest / nogādāt",
-          "example": "Ik breng het boek."
+          "example": "Ich bringe das Buch. = Ik breng het boek."
         },
         {
           "word": "mitnehmen",
           "meaning": "Paņemt līdzi",
-          "example": "Ik neem je mee."
+          "example": "Ich nehme dich mit. = Ik neem je mee."
         }
       ],
       "tip": {
@@ -6826,10 +6778,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "Man tas šķiet labi."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Wat vind je van de film?"
         }
       ],
       "comparison": [
@@ -6837,21 +6785,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "Atrast / uzskatīt",
           "example": "Ich finde das gut. = Ik vind dat goed."
-        },
-        {
-          "word": "suchen",
-          "meaning": "Meklēt",
-          "example": "Ich suche den Schlüssel. = Es meklēju atslēgu."
-        },
-        {
-          "word": "denken",
-          "meaning": "Domāt",
-          "example": "Ich denke an dich. = Es domāju par tevi."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Ticēt / domāt",
-          "example": "Ich glaube, er kommt. = Es domāju, ka viņš nāks."
         }
       ],
       "tip": {
@@ -7713,22 +7646,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "Dot",
-          "example": "Geef me het boek."
+          "example": "Gib mir das Buch. = Geef me het boek."
         },
         {
           "word": "nehmen",
           "meaning": "Ņemt / paņemt",
-          "example": "Ik neem het boek."
+          "example": "Ich nehme das Buch. = Ik neem het boek."
         },
         {
           "word": "bekommen",
           "meaning": "Saņemt / dabūt",
-          "example": "Ik krijg een cadeau."
+          "example": "Ich bekomme ein Geschenk. = Ik krijg een cadeau."
         },
         {
           "word": "bringen",
           "meaning": "Atnest / nogādāt",
-          "example": "Ik breng je het boek."
+          "example": "Ich bringe dir das Buch. = Ik breng je het boek."
         }
       ],
       "tip": {
@@ -12789,22 +12722,22 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Valsts / zeme / lauki",
-          "example": "Duitsland is een land."
+          "example": "Deutschland ist ein Land."
         },
         {
           "word": "die Stadt",
           "meaning": "Pilsēta",
-          "example": "Ik woon in de stad."
+          "example": "Ich wohne in der Stadt. = Ik woon in de stad."
         },
         {
           "word": "das Dorf",
           "meaning": "Ciems",
-          "example": "Hij leeft in een dorp."
+          "example": "Er lebt in einem Dorf. = Hij leeft in een dorp."
         },
         {
           "word": "die Erde",
           "meaning": "Zeme / planēta",
-          "example": "De aarde is rond."
+          "example": "Die Erde ist rund. = De aarde is rond."
         }
       ],
       "tip": {
@@ -13211,22 +13144,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Atstāt / ļaut",
-          "example": "Ik laat dat hier."
+          "example": "Ich lasse das hier."
         },
         {
           "word": "bleiben",
           "meaning": "Palikt",
-          "example": "Ik blijf hier."
+          "example": "Ich bleibe hier."
         },
         {
           "word": "erlauben",
           "meaning": "Atļaut",
-          "example": "Ze staat me dat toe."
+          "example": "Sie erlaubt mir das. = Ze staat me dat toe."
         },
         {
           "word": "geben",
           "meaning": "Dot",
-          "example": "Geef me het boek."
+          "example": "Gib mir das Buch. = Geef me het boek."
         }
       ],
       "tip": {
@@ -13445,22 +13378,22 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Skriet / darboties",
-          "example": "Hij loopt snel."
+          "example": "Er läuft schnell. = Hij loopt snel."
         },
         {
           "word": "gehen",
           "meaning": "Iet kājām",
-          "example": "Ik ga naar huis."
+          "example": "Ich gehe nach Hause. = Ik ga naar huis."
         },
         {
           "word": "fahren",
           "meaning": "Het vervoer berijden",
-          "example": "Ik rij met de bus."
+          "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "funktionieren",
           "meaning": "Darboties",
-          "example": "Dat werkt goed."
+          "example": "Das funktioniert gut. = Dat werkt goed."
         }
       ],
       "tip": {
@@ -14020,22 +13953,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Nolikt",
-          "example": "Ik leg het boek op tafel."
+          "example": "Ich lege das Buch auf den Tisch. = Ik leg het boek op tafel."
         },
         {
           "word": "liegen",
           "meaning": "Atrasties / gulēt",
-          "example": "Het boek ligt op tafel."
+          "example": "Das Buch liegt auf dem Tisch. = Het boek ligt op tafel."
         },
         {
           "word": "stellen",
           "meaning": "Nolikt stāvus",
-          "example": "Ik zet de fles op tafel."
+          "example": "Ich stelle die Flasche auf den Tisch. = Ik zet de fles op tafel."
         },
         {
           "word": "setzen",
           "meaning": "Nosēdināt / apsēsties",
-          "example": "Ik ga zitten."
+          "example": "Ich setze mich. = Ik ga zitten."
         }
       ],
       "tip": {
@@ -14487,22 +14420,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Atrasties / gulēt",
-          "example": "Het boek ligt hier."
+          "example": "Das Buch liegt hier."
         },
         {
           "word": "legen",
           "meaning": "Nolikt",
-          "example": "Ik leg het boek hier neer."
+          "example": "Ich lege das Buch hierhin. = Ik leg het boek hier neer."
         },
         {
           "word": "stehen",
           "meaning": "Stāvēt / atrasties stāvus",
-          "example": "De fles staat op tafel."
+          "example": "Die Flasche steht auf dem Tisch. = De fles staat op tafel."
         },
         {
           "word": "sein",
           "meaning": "Zijn",
-          "example": "Ik ben hier."
+          "example": "Ich bin hier."
         }
       ],
       "tip": {
@@ -15440,22 +15373,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "Met/samen met",
-          "example": "Ik kom met je mee."
+          "example": "Ich komme mit dir. = Ik kom met je mee."
         },
         {
           "word": "ohne",
           "meaning": "Bez",
-          "example": "Ik kom zonder jou."
+          "example": "Ich komme ohne dich. = Ik kom zonder jou."
         },
         {
           "word": "bei",
           "meaning": "Pie / pie kāda",
-          "example": "Ik ben bij Anna."
+          "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
           "meaning": "Uz / pie",
-          "example": "Ik ga naar de dokter."
+          "example": "Ich gehe zum Arzt. = Ik ga naar de dokter."
         }
       ],
       "tip": {
@@ -15705,22 +15638,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Patikt",
-          "example": "Ik hou van muziek."
+          "example": "Ich mag Musik. = Ik hou van muziek."
         },
         {
           "word": "möchte",
           "meaning": "Gribētu",
-          "example": "Ik wil koffie."
+          "example": "Ich möchte Kaffee. = Ik wil koffie."
         },
         {
           "word": "wollen",
           "meaning": "Gribēt",
-          "example": "Ik wil naar huis."
+          "example": "Ich will nach Hause. = Ik wil naar huis."
         },
         {
           "word": "lieben",
           "meaning": "Mīlēt",
-          "example": "Ik hou van je."
+          "example": "Ich liebe dich. = Ik hou van je."
         }
       ],
       "tip": {
@@ -16094,6 +16027,7 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
+    "de_plural": "die Morgen",
     "lv": "Rīts",
     "level": "A1",
     "study": {
@@ -16299,22 +16233,22 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Vajadzēt / būt jādara",
-          "example": "Ik moet gaan."
+          "example": "Ich muss gehen. = Ik moet gaan."
         },
         {
           "word": "können",
           "meaning": "Varēt / prast",
-          "example": "Ik kan komen."
+          "example": "Ich kann kommen. = Ik kan komen."
         },
         {
           "word": "wollen",
           "meaning": "Gribēt",
-          "example": "Ik wil naar huis."
+          "example": "Ich will nach Hause. = Ik wil naar huis."
         },
         {
           "word": "dürfen",
           "meaning": "Drīkstēt",
-          "example": "Mag ik gaan?"
+          "example": "Darf ich gehen? = Mag ik gaan?"
         }
       ],
       "tip": {
@@ -16548,22 +16482,22 @@ const A1_WORDS = [
         {
           "word": "nach",
           "meaning": "Uz / pēc",
-          "example": "Ik rij naar Berlijn."
+          "example": "Ich fahre nach Berlin. = Ik rij naar Berlijn."
         },
         {
           "word": "zu",
           "meaning": "Uz / pie",
-          "example": "Ik ga naar de dokter."
+          "example": "Ich gehe zum Arzt. = Ik ga naar de dokter."
         },
         {
           "word": "in",
           "meaning": "Iekšā / uz vietu ar artikulu",
-          "example": "Ik ga naar school."
+          "example": "Ich gehe in die Schule. = Ik ga naar school."
         },
         {
           "word": "vor",
           "meaning": "Pirms / priekšā",
-          "example": "Vóór het eten was ik mijn handen."
+          "example": "Vor dem Essen wasche ich die Hände. = Vóór het eten was ik mijn handen."
         }
       ],
       "tip": {
@@ -16995,22 +16929,22 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "Ņemt / paņemt",
-          "example": "Neem het boek!"
+          "example": "Nimm das Buch! = Neem het boek!"
         },
         {
           "word": "bringen",
           "meaning": "Atnest / aiznest / nogādāt",
-          "example": "Ik breng je het boek."
+          "example": "Ich bringe dir das Buch. = Ik breng je het boek."
         },
         {
           "word": "holen",
           "meaning": "Aiziet pakaļ / atnest",
-          "example": "Ik haal water."
+          "example": "Ich hole Wasser. = Ik haal water."
         },
         {
           "word": "mitnehmen",
           "meaning": "Paņemt līdzi",
-          "example": "Ik neem je mee."
+          "example": "Ich nehme dich mit. = Ik neem je mee."
         }
       ],
       "tip": {
@@ -17791,22 +17725,22 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "Vai netiešā jautājumā",
-          "example": "Ik weet niet of hij komt."
+          "example": "Ich weiß nicht, ob er kommt. = Ik weet niet of hij komt."
         },
         {
           "word": "oder",
           "meaning": "Vai izvēlē starp variantiem",
-          "example": "Koffie of thee?"
+          "example": "Kaffee oder Tee? = Koffie of thee?"
         },
         {
           "word": "wenn",
           "meaning": "Ja / kad",
-          "example": "Als je tijd hebt..."
+          "example": "Wenn du Zeit hast... = Als je tijd hebt..."
         },
         {
           "word": "dass",
           "meaning": "Ka",
-          "example": "Ik weet dat hij komt."
+          "example": "Ich weiß, dass er kommt. = Ik weet dat hij komt."
         }
       ],
       "tip": {
@@ -18030,22 +17964,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Vai izvēlē",
-          "example": "Koffie of thee?"
+          "example": "Kaffee oder Tee? = Koffie of thee?"
         },
         {
           "word": "ob",
           "meaning": "Vai netiešā jautājumā",
-          "example": "Ik weet niet of hij komt."
+          "example": "Ich weiß nicht, ob er kommt. = Ik weet niet of hij komt."
         },
         {
           "word": "und",
           "meaning": "Un",
-          "example": "Koffie en taart."
+          "example": "Kaffee und Kuchen. = Koffie en taart."
         },
         {
           "word": "aber",
           "meaning": "Bet",
-          "example": "Ik kom, maar later."
+          "example": "Ich komme, aber später. = Ik kom, maar later."
         }
       ],
       "tip": {
@@ -18341,22 +18275,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Derēt / piestāvēt",
-          "example": "Het jasje past me."
+          "example": "Die Jacke passt mir. = Het jasje past me."
         },
         {
           "word": "stehen",
           "meaning": "Piestāvēt / stāvēt",
-          "example": "Rood staat je goed."
+          "example": "Rot steht dir gut. = Rood staat je goed."
         },
         {
           "word": "geeignet sein",
           "meaning": "Būt piemērotam",
-          "example": "Dat is geschikt."
+          "example": "Das ist geeignet. = Dat is geschikt."
         },
         {
           "word": "funktionieren",
           "meaning": "Darboties",
-          "example": "Dat werkt."
+          "example": "Das funktioniert. = Dat werkt."
         }
       ],
       "tip": {
@@ -18658,22 +18592,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Izmēģināt / nogaršot",
-          "example": "Probeer de soep eens!"
+          "example": "Probier mal die Suppe! = Probeer de soep eens!"
         },
         {
           "word": "versuchen",
           "meaning": "Mēģināt",
-          "example": "Ik probeer het."
+          "example": "Ich versuche es. = Ik probeer het."
         },
         {
           "word": "prüfen",
           "meaning": "Pārbaudīt",
-          "example": "Ik controleer de rekening."
+          "example": "Ich prüfe die Rechnung. = Ik controleer de rekening."
         },
         {
           "word": "anprobieren",
           "meaning": "Pielaikot",
-          "example": "Ik pas het jasje."
+          "example": "Ich probiere die Jacke an. = Ik pas het jasje."
         }
       ],
       "tip": {
@@ -19519,22 +19453,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "zwemmen als beweging of sport",
-          "example": "Hij zwemt erg goed."
+          "example": "Er schwimmt sehr gut. = Hij zwemt erg goed."
         },
         {
           "word": "baden",
           "meaning": "baden / in het water zijn",
-          "example": "Ik ga baden."
+          "example": "Ich gehe baden."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "gaan zwemmen",
-          "example": "Wij gaan zwemmen."
+          "example": "Wir gehen schwimmen. = Wij gaan zwemmen."
         },
         {
           "word": "duschen",
           "meaning": "douchen",
-          "example": "Ik douche 's ochtends."
+          "example": "Ich dusche morgens. = Ik douche 's ochtends."
         }
       ],
       "tip": {
@@ -19617,22 +19551,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "Redzēt",
-          "example": "Ik zie je."
+          "example": "Ich sehe dich. = Ik zie je."
         },
         {
           "word": "schauen",
           "meaning": "Skatīties",
-          "example": "Ik kijk naar het plaatje."
+          "example": "Ich schaue auf das Bild. = Ik kijk naar het plaatje."
         },
         {
           "word": "ansehen",
           "meaning": "Apskatīt / skatīties",
-          "example": "Ik kijk naar de film."
+          "example": "Ich sehe mir den Film an."
         },
         {
           "word": "hören",
           "meaning": "Dzirdēt",
-          "example": "Ik luister naar muziek."
+          "example": "Ich höre Musik. = Ik luister naar muziek."
         }
       ],
       "tip": {
@@ -19866,22 +19800,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Zijn",
-          "example": "Ik ben hier."
+          "example": "Ich bin hier."
         },
         {
           "word": "haben",
           "meaning": "Ik heb",
-          "example": "Ik heb tijd."
+          "example": "Ich habe Zeit. = Ik heb tijd."
         },
         {
           "word": "werden",
           "meaning": "Kļūt",
-          "example": "Ik word moe."
+          "example": "Ich werde müde. = Ik word moe."
         },
         {
           "word": "bleiben",
           "meaning": "Palikt",
-          "example": "Ik blijf hier."
+          "example": "Ich bleibe hier."
         }
       ],
       "tip": {
@@ -20287,22 +20221,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "zichzelf",
-          "example": "Hij wast zich."
+          "example": "Er wäscht sich. = Hij wast zich."
         },
         {
           "word": "mich",
           "meaning": "mezelf / me bij ich",
-          "example": "Ik was me."
+          "example": "Ich wasche mich. = Ik was me."
         },
         {
           "word": "dich",
           "meaning": "jezelf / je bij du",
-          "example": "Jij wast je."
+          "example": "Du wäschst dich. = Jij wast je."
         },
         {
           "word": "ihn",
           "meaning": "hem",
-          "example": "Ik zie hem."
+          "example": "Ich sehe ihn. = Ik zie hem."
         }
       ],
       "tip": {
@@ -20849,22 +20783,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "Sēdēt",
-          "example": "Ik zit aan tafel."
+          "example": "Ich sitze am Tisch. = Ik zit aan tafel."
         },
         {
           "word": "stehen",
           "meaning": "Stāvēt",
-          "example": "Hij staat aan de deur."
+          "example": "Er steht an der Tür. = Hij staat aan de deur."
         },
         {
           "word": "liegen",
           "meaning": "Gulēt / atrasties guļus",
-          "example": "De kat ligt daar."
+          "example": "Die Katze liegt dort. = De kat ligt daar."
         },
         {
           "word": "setzen",
           "meaning": "Apsēsties / nosēdināt",
-          "example": "Ik ga zitten."
+          "example": "Ich setze mich. = Ik ga zitten."
         }
       ],
       "tip": {
@@ -21119,22 +21053,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Vajadzētu / jādara pēc norādes",
-          "example": "Wat zal ik doen?"
+          "example": "Was soll ich machen? = Wat zal ik doen?"
         },
         {
           "word": "müssen",
           "meaning": "Obligāti vajadzēt",
-          "example": "Ik moet gaan."
+          "example": "Ich muss gehen. = Ik moet gaan."
         },
         {
           "word": "können",
           "meaning": "Varēt",
-          "example": "Ik kan komen."
+          "example": "Ich kann kommen. = Ik kan komen."
         },
         {
           "word": "wollen",
           "meaning": "Gribēt",
-          "example": "Ik wil blijven."
+          "example": "Ich will bleiben. = Ik wil blijven."
         }
       ],
       "tip": {
@@ -21421,22 +21355,22 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "Stāvēt / atrasties stāvus",
-          "example": "Ik sta hier."
+          "example": "Ich stehe hier."
         },
         {
           "word": "sitzen",
           "meaning": "Sēdēt",
-          "example": "Hij zit aan tafel."
+          "example": "Er sitzt am Tisch. = Hij zit aan tafel."
         },
         {
           "word": "liegen",
           "meaning": "Gulēt / atrasties guļus",
-          "example": "Het boek ligt daar."
+          "example": "Das Buch liegt dort. = Het boek ligt daar."
         },
         {
           "word": "stellen",
           "meaning": "Nolikt stāvus",
-          "example": "Ik zet de fles neer."
+          "example": "Ich stelle die Flasche hin. = Ik zet de fles neer."
         }
       ],
       "tip": {
@@ -23851,22 +23785,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Ja / kad",
-          "example": "Als je tijd hebt..."
+          "example": "Wenn du Zeit hast... = Als je tijd hebt..."
         },
         {
           "word": "ob",
           "meaning": "Vai netiešā jautājumā",
-          "example": "Ik weet niet of..."
+          "example": "Ich weiß nicht, ob... = Ik weet niet of..."
         },
         {
           "word": "wann",
           "meaning": "Kad jautājumā",
-          "example": "Wanneer kom je?"
+          "example": "Wann kommst du? = Wanneer kom je?"
         },
         {
           "word": "weil",
           "meaning": "Jo",
-          "example": "Ik blijf, omdat ik ziek ben."
+          "example": "Ich bleibe, weil ich krank bin. = Ik blijf, omdat ik ziek ben."
         }
       ],
       "tip": {
@@ -24289,22 +24223,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "Kļūt",
-          "example": "Ik word moe."
+          "example": "Ich werde müde. = Ik word moe."
         },
         {
           "word": "sein",
           "meaning": "Zijn",
-          "example": "Ik ben moe."
+          "example": "Ich bin müde. = Ik ben moe."
         },
         {
           "word": "bleiben",
           "meaning": "Palikt",
-          "example": "Ik blijf hier."
+          "example": "Ich bleibe hier."
         },
         {
           "word": "machen",
           "meaning": "Darīt / taisīt",
-          "example": "Ik doe dat."
+          "example": "Ich mache das. = Ik doe dat."
         }
       ],
       "tip": {
@@ -24529,22 +24463,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Laikapstākļi",
-          "example": "Het weer is mooi."
+          "example": "Das Wetter ist schön. = Het weer is mooi."
         },
         {
           "word": "Zeit",
           "meaning": "Laiks (brīdis)",
-          "example": "Ik heb geen tijd."
+          "example": "Ich habe keine Zeit. = Ik heb geen tijd."
         },
         {
           "word": "Regen",
           "meaning": "Lietus",
-          "example": "Er is veel regen."
+          "example": "Es gibt viel Regen."
         },
         {
           "word": "Sonne",
           "meaning": "Saule",
-          "example": "De zon schijnt."
+          "example": "Die Sonne scheint. = De zon schijnt."
         }
       ],
       "tip": [
@@ -25013,22 +24947,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "Uz / pie / pārāk / infinitīvs",
-          "example": "Ik ga naar de dokter."
+          "example": "Ich gehe zum Arzt. = Ik ga naar de dokter."
         },
         {
           "word": "nach",
           "meaning": "Uz ar pilsētām/valstīm",
-          "example": "Ik rij naar Berlijn."
+          "example": "Ich fahre nach Berlin. = Ik rij naar Berlijn."
         },
         {
           "word": "in",
           "meaning": "Iekšā / uz vietu",
-          "example": "Ik ga naar school."
+          "example": "Ich gehe in die Schule. = Ik ga naar school."
         },
         {
           "word": "bei",
           "meaning": "Pie kāda / pie darba",
-          "example": "Ik ben bij Anna."
+          "example": "Ich bin bei Anna."
         }
       ],
       "tip": {
@@ -25265,22 +25199,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "Vilciens",
-          "example": "De trein komt."
+          "example": "Der Zug kommt. = De trein komt."
         },
         {
           "word": "die Bahn",
           "meaning": "Dzelzceļš / braukšana ar vilcienu",
-          "example": "Ik rij met de trein."
+          "example": "Ich fahre mit der Bahn. = Ik rij met de trein."
         },
         {
           "word": "der Bus",
           "meaning": "Autobuss",
-          "example": "De bus komt."
+          "example": "Der Bus kommt."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Tramvajs",
-          "example": "De tram is hier."
+          "example": "Die Straßenbahn ist hier."
         }
       ],
       "tip": {
@@ -26959,6 +26893,7 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "Atvaļinājums",
     "level": "A1",
     "study": {

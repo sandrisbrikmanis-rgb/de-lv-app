@@ -20440,7 +20440,7 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "Dobiti / primiti u svakodnevnom govoru",
-          "example": "Ich bekomme eine E-mail."
+          "example": "Ich bekomme eine E-Mail."
         },
         {
           "word": "begrüßen",
@@ -33114,7 +33114,7 @@ const B1_WORDS = [
   {
     "de": "Jagderlaubnis",
     "de_article": "die",
-    "de_plural": "die Jagderlaubse",
+    "de_plural": "die Jagderlaubnisse",
     "lv": "Dozvola za lov",
     "level": "B1"
   },
@@ -66701,6 +66701,7 @@ const B1_WORDS = [
   {
     "de": "Schaden",
     "de_article": "der",
+    "de_plural": "die Schäden",
     "lv": "Gubitak • Šteta",
     "level": "B1",
     "study": {

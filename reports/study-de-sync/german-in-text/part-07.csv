@@ -1,0 +1,589 @@
+language,card,field,in_lv,line
+et,c1-zusammenfassen,explanation[3],no,"zusammenfassen = protsess/tegevus (kokku võtma, resümeerima); die Zusammenfassung = tulemus (kokkuvõte nimisõnana)."
+et,c1-zusammenfassen,explanation[4],no,"Nagu paljud saksa tegusõnad, võib zusammenfassen muutuda nimisõnaks suure algustähe ja artikliga: zusammenfassen → die Zusammenfassung (substantiveerumine)."
+et,c1-zusammenfassen,important[0],no,zusammenfassen = kokku võtma/resümeerima (tegusõna).
+et,c1-zusammenfassen,important[1],no,"die Zusammenfassung = kokkuvõte (nimisõna, substantiveeritud sõnast zusammenfassen)."
+et,c1-zusammenfassen,important[2],no,Valesti: die zusammenfassen → Õigesti: die Zusammenfassung (nimisõna alati suure algustähega).
+et,c1-wahl,explanation[0],no,Põhiidee: die Wahl tähendab valikut kahe või enama võimaluse vahel.
+et,c1-wahl,explanation[1],no,Poliitika kontekstis tähendab die Wahl valimisi või hääletamist ennast.
+et,c1-wahl,explanation[2],no,Väljend eine Wahl treffen tähendab valiku tegemist; zur Wahl gehen tähendab valimistele minemist.
+et,c1-wahl,explanation[3],no,"Kontekst — isiklik otsus või poliitika — näitab, kumb tähendus on õige."
+et,c1-zuschlag,explanation[0],no,"Põhiidee: der Zuschlag tähendab lisatasu või hinnalisa — täiendavat summat, mis lisatakse põhihinnale."
+et,c1-zuschlag,explanation[1],no,"Reisi/transpordi kontekstis on der Zuschlag lisatasu kiirema rongi, parema koha jms eest."
+et,c1-zuschlag,explanation[2],no,Ära aja segi sõnadega der Anhang/die Beilage (dokumendi lisa) — see on hoopis teine sõna.
+et,c1-zuschlag,explanation[3],no,Enampakkumisel tähendab den Zuschlag erhalten enampakkumise võitmist/tellimuse saamist.
+et,c1-zuschlag,important[0],no,"der Zuschlag = lisatasu/hinnalisa, mitte dokumendi 'lisa'."
+et,c1-zuschlag,important[1],no,Dokumendi lisa on saksa keeles die Anlage/der Anhang.
+et,c1-beziehen-sich-beziehen-auf,explanation[1],no,Näidetes otsi tüüpilist igapäevast kasutust.
+et,c1-beziehen-sich-beziehen-auf,explanation[2],no,"Kui kahtled, kontrolli, kas jutt käib seisundist või tegevusest."
+et,c1-beziehen-sich-beziehen-auf,explanation[3],no,Kontekst ja tegevuse suund määravad õige valiku.
+et,c1-beziehen-sich-beziehen-auf,important[1],no,beziehen / sich beziehen auf: enne kasutamist kontrolli konteksti ja võrdle kaardil olevate teiste sõnadega.
+et,c1-beabsichtigen,explanation[0],no,"Põhiidee: Teadlik kavatsus teha tegevus tulevikus. Ei käi suhte, vaid plaani kohta."
+et,c1-beabsichtigen,explanation[1],no,beabsichtigen tähendab peamiselt: teadlik kavatsus.
+et,c1-beabsichtigen,explanation[3],no,beabsichtigen tähendab peamiselt: tegevust plaanima.
+et,c1-beabsichtigen,explanation[5],no,"beabsichtigen tähendab teadlikult kavatseda või plaanida tegevust — mitte suhet, vaid kavatsust."
+et,c1-beabsichtigen,important[0],no,beabsichtigen + zu + infinitiiv: Er beabsichtigt zu gehen.
+et,c1-beabsichtigen,important[3],no,"Teadlik kavatsus teha tegevus tulevikus. Ei käi suhte, vaid plaani kohta."
+et,c1-unterstellen,explanation[0],no,"Põhiidee: Alusetult omistada kellelegi süü, motiiv või kavatsus."
+et,c1-unterstellen,explanation[1],no,unterstellen tähendab peamiselt: alusetult omistama.
+et,c1-unterstellen,explanation[2],no,Sageli iseloomustab: süüdistus / kahtlustus.
+et,c1-unterstellen,explanation[3],no,jemandem etwas unterstellen tähendab alusetult ette heita või omistada.
+et,c1-unterstellen,important[0],no,unterstellen on emotsionaalselt negatiivne — alusetu süüdistus.
+et,c1-unterstellen,important[1],no,Valesti: Wir unterstellen Grundkenntnisse. → Õigesti: Wir setzen Grundkenntnisse voraus.
+et,c1-voraussetzen,explanation[1],no,voraussetzen tähendab peamiselt: pidada aluseks.
+et,c1-voraussetzen,explanation[3],no,"etwas voraussetzen tähendab pidada iseenesestmõistetavaks eelduseks, mis juba eksisteerib."
+et,c1-bewahren,explanation[0],no,"Põhiidee: Kaitsta kaotuse, kahjustuse või hävimise eest — väärtust, traditsiooni, rahu."
+et,c1-bewahren,explanation[1],no,bewahren tähendab peamiselt: kaitsma kaotuse eest.
+et,c1-bewahren,explanation[2],no,Sageli iseloomustab: väärtuste säilitamine.
+et,c1-bewahren,explanation[3],no,"bewahren tähendab kaitsta kahjustuse, kaotuse või muutuste eest."
+et,c1-bewahren,important[0],no,bewahren: Wertvolles bewahren — hoida väärtuslikku.
+et,c1-bewahren,important[1],no,den Frieden bewahren = rahu säilitama (üldiselt); den Frieden aufrechterhalten = rahu pidevalt ja pingutades hoidma.
+et,c1-bewahren,important[2],no,"bewahren → kaitsma, säilitama."
+et,c1-aufrechterhalten,explanation[0],no,"Põhiidee: Tagada, et mingi seisund, kord või suhe jätkuvalt kestaks."
+et,c1-aufrechterhalten,explanation[1],no,aufrechterhalten tähendab peamiselt: tagada jätkumine.
+et,c1-aufrechterhalten,explanation[2],no,Sageli iseloomustab: seisundi säilitamine.
+et,c1-aufrechterhalten,explanation[3],no,"aufrechterhalten tähendab hoida mingit seisundit, süsteemi või suhet kehtivana — tagada jätkumine."
+et,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+et,c1-aufrechterhalten,important[2],no,"Tagada, et mingi seisund, kord või suhe jätkuvalt kestaks."
+fi,c1-zusammenfassen,explanation[0],no,Põhiidee: zusammenfassen on tegusõna — koguda või koondada teave üheks lühikeseks ülevaateks.
+fi,c1-zusammenfassen,explanation[1],no,"Sõna zusammenfassen kasutatakse, kui mitmest faktist, tekstist või mõttest luuakse lühike ülevaade."
+fi,c1-zusammenfassen,explanation[2],no,"Ära aja segi sõnaga die Zusammenfassung — see on suure algustähe ja artikliga die nimisõna, mis tähistab kokkuvõtet ennast (tulemust, valmis teksti)."
+fi,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = protsess/tegevus (kokku võtma, resümeerima) • Die Zusammenfassung = tulemus (kokkuvõte nimisõnana)."
+fi,c1-zusammenfassen,explanation[4],no,"Nagu paljud saksa tegusõnad, võib zusammenfassen muutuda nimisõnaks suure algustähe ja artikliga: zusammenfassen → die Zusammenfassung (substantiveerumine)."
+fi,c1-zusammenfassen,important[1],yes,"die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen)."
+fi,c1-zusammenfassen,important[2],yes,Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu).
+fi,c1-wahl,explanation[0],no,Põhiidee: die Wahl tähendab valikut kahe või enama võimaluse vahel.
+fi,c1-wahl,explanation[1],no,Poliitika kontekstis tähendab die Wahl valimisi või hääletamist ennast.
+fi,c1-wahl,explanation[2],no,Väljend eine Wahl treffen tähendab valiku tegemist • Zur Wahl gehen tähendab valimistele minemist.
+fi,c1-wahl,explanation[3],no,"Kontekst — isiklik otsus või poliitika — näitab, kumb tähendus on õige."
+fi,c1-zuschlag,explanation[0],no,"Põhiidee: der Zuschlag tähendab lisatasu või hinnalisa — täiendavat summat, mis lisatakse põhihinnale."
+fi,c1-zuschlag,explanation[1],no,"Reisi/transpordi kontekstis on der Zuschlag lisatasu kiirema rongi, parema koha jms eest."
+fi,c1-zuschlag,explanation[2],no,Ära aja segi sõnadega der Anhang/die Beilage (dokumendi lisa) — see on hoopis teine sõna.
+fi,c1-zuschlag,explanation[3],no,Enampakkumisel tähendab den Zuschlag erhalten enampakkumise võitmist/tellimuse saamist.
+fi,c1-zuschlag,important[0],yes,"der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam."
+fi,c1-zuschlag,important[1],yes,Dokumenta pielikums vācu valodā ir die Anlage/der Anhang.
+fi,c1-beziehen-sich-beziehen-auf,explanation[1],no,Näidetes otsi tüüpilist igapäevast kasutust.
+fi,c1-beziehen-sich-beziehen-auf,explanation[2],no,"Kui kahtled, kontrolli, kas jutt käib seisundist või tegevusest."
+fi,c1-beziehen-sich-beziehen-auf,explanation[3],no,Kontekst ja tegevuse suund määravad õige valiku.
+fi,c1-beziehen-sich-beziehen-auf,important[1],yes,beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē.
+fi,c1-beabsichtigen,explanation[0],no,"Põhiidee: Teadlik kavatsus teha tegevus tulevikus. Ei käi suhte, vaid plaani kohta."
+fi,c1-beabsichtigen,explanation[1],no,Beabsichtigen tähendab peamiselt: teadlik kavatsus.
+fi,c1-beabsichtigen,explanation[3],no,Beabsichtigen tähendab peamiselt: tegevust plaanima.
+fi,c1-beabsichtigen,explanation[5],no,"Beabsichtigen tähendab teadlikult kavatseda või plaanida tegevust — mitte suhet, vaid kavatsust."
+fi,c1-beabsichtigen,important[0],yes,beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.
+fi,c1-unterstellen,explanation[0],no,"Põhiidee: Alusetult omistada kellelegi süü, motiiv või kavatsus."
+fi,c1-unterstellen,explanation[1],no,Unterstellen tähendab peamiselt: alusetult omistama.
+fi,c1-unterstellen,explanation[2],no,Sageli iseloomustab: süüdistus / kahtlustus.
+fi,c1-unterstellen,explanation[3],no,Jemandem etwas unterstellen tähendab alusetult ette heita või omistada.
+fi,c1-unterstellen,important[1],yes,Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.
+fi,c1-voraussetzen,explanation[1],no,Voraussetzen tähendab peamiselt: pidada aluseks.
+fi,c1-voraussetzen,explanation[3],no,"Etwas voraussetzen tähendab pidada iseenesestmõistetavaks eelduseks, mis juba eksisteerib."
+fi,c1-bewahren,explanation[0],no,"Põhiidee: Kaitsta kaotuse, kahjustuse või hävimise eest — väärtust, traditsiooni, rahu."
+fi,c1-bewahren,explanation[1],no,Bewahren tähendab peamiselt: kaitsma kaotuse eest.
+fi,c1-bewahren,explanation[2],no,Sageli iseloomustab: väärtuste säilitamine.
+fi,c1-bewahren,explanation[3],no,"Bewahren tähendab kaitsta kahjustuse, kaotuse või muutuste eest."
+fi,c1-bewahren,important[1],yes,Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.
+fi,c1-aufrechterhalten,explanation[0],no,"Põhiidee: Tagada, et mingi seisund, kord või suhe jätkuvalt kestaks."
+fi,c1-aufrechterhalten,explanation[1],no,Aufrechterhalten tähendab peamiselt: tagada jätkumine.
+fi,c1-aufrechterhalten,explanation[2],no,Sageli iseloomustab: seisundi säilitamine.
+fi,c1-aufrechterhalten,explanation[3],no,"Aufrechterhalten tähendab hoida mingit seisundit, süsteemi või suhet kehtivana — tagada jätkumine."
+fi,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+fr,c1-zusammenfassen,explanation[2],no,"A ne pas confondre avec die Zusammenfassung - celui avec une majuscule et l'article die est un nom désignant le résumé lui-même (résultat, texte fini)."
+fr,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = processus/action (résumer, résumer) • Die Zusammenfassung = résultat (résumé sous forme de nom)."
+fr,c1-zusammenfassen,explanation[4],no,"Comme beaucoup de verbes allemands, zusammenfassen peut devenir un nom en majuscule et un article : zusammenfassen → die Zusammenfassen (substantivisation)."
+fr,c1-zusammenfassen,important[1],no,"Die Zusammenfassung = résumé (nom, substantivé de zusammenfassen)."
+fr,c1-zusammenfassen,important[2],no,Incorrect : die zusammenfassen → Correct : die Zusammenfassen (nom toujours en majuscule).
+fr,c1-zuschlag,explanation[0],no,"Idée principale : der Zuschlag signifie une prime ou une majoration, un montant supplémentaire ajouté au prix de base."
+fr,c1-zuschlag,explanation[1],no,"Dans le cadre du voyage/transport, le Zuschlag est un supplément pour un train plus rapide, un meilleur siège, etc."
+fr,c1-zuschlag,explanation[2],no,A ne pas confondre avec der Anhang/die Beilage (l'annexe au document) - c'est un mot différent.
+fr,c1-zuschlag,important[0],no,"Der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam."
+fr,c1-zuschlag,important[1],no,L'annexe du document en allemand est die Anlage/der Anhang.
+fr,c1-beziehen-sich-beziehen-auf,important[1],no,"Beziehen / sich beziehen auf : avant utilisation, vérifiez le contexte et comparez avec d'autres mots sur la carte."
+fr,c1-beabsichtigen,explanation[0],no,"Idée principale : Une intention consciente d’accomplir une action dans le futur. Pas à propos de la relation, mais du plan."
+fr,c1-beabsichtigen,important[0],no,Beabsichtigen + zu + nenoteiksme : Er beabsichtigt zu gehen.
+fr,c1-beabsichtigen,important[3],no,"Une intention consciente d’accomplir une action dans le futur. Pas à propos de la relation, mais du plan."
+fr,c1-unterstellen,important[1],no,Nepareizi : Nous vous proposons des Grundkenntnisse. → Pareizi : Wir setzen Grundkenntnisse voraus.
+fr,c1-bewahren,explanation[0],no,"Idée principale : Protéger de la perte, du dommage ou de la destruction – valeur, tradition, paix."
+fr,c1-bewahren,important[1],no,Nepareizi: Wir bewahren den Frieden auf. → Pareizi : Wir erhalten den Frieden auf.
+fr,c1-aufrechterhalten,important[0],no,Aufrechterhalten : Ordnung/Frieden/Stabilität aufrechterhalten.
+gr,c1-zusammenfassen,explanation[2],no,"Μην συγχέετε με τη λέξη die Zusammenfassung — είναι ουσιαστικό με κεφαλαίο γράμμα και το άρθρο die, που υποδηλώνει την ίδια την περίληψη (αποτέλεσμα, ολοκληρωμένο κείμενο)."
+gr,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = διαδικασία/δράση (συνοψίζω, συνοψίζω)· die Zusammenfassung = αποτέλεσμα (περίληψη ως ουσιαστικό)."
+gr,c1-zusammenfassen,explanation[4],no,"Όπως πολλά γερμανικά ρήματα, το zusammenfassen μπορεί να γίνει ουσιαστικό με κεφαλαίο γράμμα και άρθρο: zusammenfassen → die Zusammenfassen (ουσιαστικό)."
+gr,c1-zusammenfassen,important[1],no,"Die Zusammenfassung = περίληψη (ουσιαστικό, υποστασιοποιημένο από το zusammenfassen)."
+gr,c1-zusammenfassen,important[2],no,Λάθος: die zusammenfassen → Σωστό: die Zusammenfassung (το ουσιαστικό πάντα με κεφαλαία).
+gr,c1-wahl,explanation[0],no,Κύρια ιδέα: die Wahl σημαίνει επιλογή ανάμεσα σε δύο ή περισσότερες επιλογές.
+gr,c1-wahl,explanation[1],no,"Στο πλαίσιο της πολιτικής, die Wahl σημαίνει εκλογές ή ψηφοφορία."
+gr,c1-wahl,explanation[2],no,Η έκφραση eine Wahl treffen σημαίνει να κάνεις μια επιλογή. zur Wahl gehen σημαίνει προσέλευση στις κάλπες.
+gr,c1-zuschlag,explanation[0],no,Κύρια ιδέα: der Zuschlag σημαίνει premium ή προσαύξηση — ένα επιπλέον ποσό που προστίθεται στη βασική τιμή.
+gr,c1-zuschlag,explanation[1],no,"Στο πλαίσιο του ταξιδιού/μεταφοράς, το der Zuschlag είναι ένα premium για ταχύτερο τρένο, καλύτερη θέση κ.λπ."
+gr,c1-zuschlag,explanation[2],no,Μην μπερδεύεστε με το der Anhang/die Beilage — αυτή είναι μια διαφορετική λέξη.
+gr,c1-zuschlag,important[0],no,"Der Zuschlag = επιβάρυνση/συμπλήρωμα τιμής, όχι «προσθήκη» στο έγγραφο."
+gr,c1-zuschlag,important[1],no,Το παράρτημα του εγγράφου είναι die Anlage/der Anhang στα γερμανικά.
+gr,c1-beziehen-sich-beziehen-auf,important[1],no,"Beziehen / sich beziehen auf: Πριν χρησιμοποιήσετε, ελέγξτε το περιεχόμενο και συγκρίνετε με άλλες λέξεις στην κάρτα."
+gr,c1-beabsichtigen,important[0],no,Beabsichtigen + zu + αόριστος: Er beabsichtigt zu gehen.
+gr,c1-unterstellen,important[1],no,Λάθος: Wir unterstellen Grundkenntnisse. → Σωστά: Wir setzen Grundkenntnisse voraus.
+gr,c1-aufrechterhalten,important[0],no,Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+hr,c1-zusammenfassen,explanation[2],no,"Ne zamenjujte z die Zusammenfassung - tisto z veliko črko in členom die - samostalnikom, ki označuje le povzetek (rezultat, končano besedilo)."
+hr,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = процесс/действие (обобщить, обобщить) • Die Zusammenfassung = результат (краткое содержание в виде существительного)."
+hr,c1-zusammenfassen,explanation[4],no,"Как и многие немецкие глаголы, zusammenfassen может стать существительным с заглавной буквы и артиклем: zusammenfassen → die Zusammenfassen (субстантивизация)."
+hr,c1-zusammenfassen,important[1],no,"Die Zusammenfassung = резюме (существительное, образованное от zusammenfassen)."
+hr,c1-zusammenfassen,important[2],no,Неправильно: die zusammenfassen → Правильно: die Zusammenfassen (существительное всегда пишется с заглавной буквы).
+hr,c1-zuschlag,explanation[0],no,"Основная идея: der Zuschlag означает премию или наценку — дополнительную сумму, добавляемую к базовой цене."
+hr,c1-zuschlag,explanation[1],no,"В контексте путешествия/транспорта der Zuschlag — это дополнительная плата за более быстрый поезд, лучшее место и т. д."
+hr,c1-zuschlag,explanation[2],no,Не путать с der Anhang/die Beilage (приложение к документу) – это другое слово.
+hr,c1-zuschlag,important[0],no,"Der Zuschlag = надбавка/надбавка, а не «приложение» к документу."
+hr,c1-zuschlag,important[1],no,Приложение к документу на немецком языке — die Anlage/der Anhang.
+hr,c1-beziehen-sich-beziehen-auf,important[1],no,"Beziehen / sich beziehen auf: пред употреба, проверете го контекстот и споредете со другите зборови на картичката."
+hr,c1-beabsichtigen,important[0],no,Beabsichtigen + zu + неправильность: Er beabsichtigt zu gehen.
+hr,c1-unterstellen,important[1],no,Неверно: Wir unterstellen Grundkenntnisse. → Правильно: Wir setzen Grundkenntnisse voraus.
+hr,c1-bewahren,important[1],no,Неверно: Wir bewahren den Frieden auf. → Правильно: Wir erhalten den Frieden auf.
+hr,c1-aufrechterhalten,important[0],no,Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+hu,c1-zusammenfassen,explanation[0],no,Fő ötlet: zusammenfassen egy ige - információt gyűjteni vagy egyetlen tömör kijelentésbe rendezni.
+hu,c1-zusammenfassen,explanation[1],no,"A zusammenfassen akkor használatos, ha több tényből, szövegből vagy gondolatból rövid áttekintést készítenek."
+hu,c1-zusammenfassen,explanation[2],no,"Nem tévesztendő össze a die Zusammenfassung-gal - a nagybetűs és a die szócikk egy főnév, amely magát az összefoglalót jelöli (eredmény, kész szöveg)."
+hu,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = folyamat/cselekvés (összefoglalni, összefoglalni) • Die Zusammenfassung = eredmény (összefoglalás főnévként)."
+hu,c1-zusammenfassen,explanation[4],no,Sok német igéhez hasonlóan a zusammenfassen is válhat nagybetűs főnévvé és cikkté: zusammenfassen → die Zusammenfassen (szubsztantivizálás).
+hu,c1-zusammenfassen,important[1],yes,"die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen)."
+hu,c1-zusammenfassen,important[2],yes,Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu).
+hu,c1-zuschlag,explanation[0],no,Fő ötlet: a der Zuschlag prémiumot vagy felárat jelent – ​​az alapárhoz hozzáadott extra összeget.
+hu,c1-zuschlag,explanation[1],no,"Utazás/szállítással összefüggésben a der Zuschlag különdíj a gyorsabb vonatért, jobb ülésért stb."
+hu,c1-zuschlag,explanation[2],no,Nem tévesztendő össze a der Anhang/die Beilage-gal (a dokumentum melléklete) – ez egy másik szó.
+hu,c1-zuschlag,important[0],yes,"der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam."
+hu,c1-zuschlag,important[1],yes,Dokumenta pielikums vācu valodā ir die Anlage/der Anhang.
+hu,c1-beziehen-sich-beziehen-auf,explanation[0],no,"Fő ötlet: Formális nyilvántartás: forráshoz való hozzárendelés, rendes nyugdíj/bér bizonylat vagy lakásba költözés."
+hu,c1-beziehen-sich-beziehen-auf,important[1],yes,beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē.
+hu,c1-beabsichtigen,explanation[0],no,"Fő gondolat: Tudatos szándék egy cselekvés végrehajtására a jövőben. Nem a kapcsolatról, hanem a tervről."
+hu,c1-beabsichtigen,explanation[5],no,"A beabsichtigen azt jelenti, hogy szándékosan szándékozunk vagy tervezünk egy cselekvést – nem viszonyt, hanem szándékot."
+hu,c1-beabsichtigen,important[0],yes,beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.
+hu,c1-unterstellen,explanation[1],no,Unterstellen főként azt jelenti: alap nélkül tulajdonítani.
+hu,c1-unterstellen,important[1],yes,Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.
+hu,c1-voraussetzen,explanation[3],no,"Az etwas voraussetzen azt jelenti, hogy természetesnek veszünk egy már létező előfeltevést."
+hu,c1-bewahren,explanation[0],no,"Fő gondolat: Megvédeni a veszteségtől, sérüléstől vagy pusztulástól - érték, hagyomány, béke."
+hu,c1-bewahren,explanation[3],no,"A bewahren azt jelenti, hogy megóvja a sérüléstől, elvesztéstől vagy megváltoztatástól."
+hu,c1-bewahren,important[1],yes,Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.
+hu,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+is,c1-zusammenfassen,explanation[0],no,Põhiidee: zusammenfassen on tegusõna — koguda või koondada teave üheks lühikeseks ülevaateks.
+is,c1-zusammenfassen,explanation[1],no,"Sõna zusammenfassen kasutatakse, kui mitmest faktist, tekstist või mõttest luuakse lühike ülevaade."
+is,c1-zusammenfassen,explanation[2],no,"Ära aja segi sõnaga die Zusammenfassung — see on suure algustähe ja artikliga die nimisõna, mis tähistab kokkuvõtet ennast (tulemust, valmis teksti)."
+is,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = protsess/tegevus (kokku võtma, resümeerima) • Die Zusammenfassung = tulemus (kokkuvõte nimisõnana)."
+is,c1-zusammenfassen,explanation[4],no,"Nagu paljud saksa tegusõnad, võib zusammenfassen muutuda nimisõnaks suure algustähe ja artikliga: zusammenfassen → die Zusammenfassung (substantiveerumine)."
+is,c1-zusammenfassen,important[1],yes,"die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen)."
+is,c1-zusammenfassen,important[2],yes,Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu).
+is,c1-wahl,explanation[0],no,Põhiidee: die Wahl tähendab valikut kahe või enama võimaluse vahel.
+is,c1-wahl,explanation[1],no,Poliitika kontekstis tähendab die Wahl valimisi või hääletamist ennast.
+is,c1-wahl,explanation[2],no,Väljend eine Wahl treffen tähendab valiku tegemist • Zur Wahl gehen tähendab valimistele minemist.
+is,c1-wahl,explanation[3],no,"Kontekst — isiklik otsus või poliitika — näitab, kumb tähendus on õige."
+is,c1-zuschlag,explanation[0],no,"Põhiidee: der Zuschlag tähendab lisatasu või hinnalisa — täiendavat summat, mis lisatakse põhihinnale."
+is,c1-zuschlag,explanation[1],no,"Reisi/transpordi kontekstis on der Zuschlag lisatasu kiirema rongi, parema koha jms eest."
+is,c1-zuschlag,explanation[2],no,Ära aja segi sõnadega der Anhang/die Beilage (dokumendi lisa) — see on hoopis teine sõna.
+is,c1-zuschlag,explanation[3],no,Enampakkumisel tähendab den Zuschlag erhalten enampakkumise võitmist/tellimuse saamist.
+is,c1-zuschlag,important[0],yes,"der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam."
+is,c1-zuschlag,important[1],yes,Dokumenta pielikums vācu valodā ir die Anlage/der Anhang.
+is,c1-beziehen-sich-beziehen-auf,explanation[1],no,Näidetes otsi tipipilist igadösstøns kurusesit.
+is,c1-beziehen-sich-beziehen-auf,explanation[2],no,"Kui kahtled, kontrolli, kas jutt käib seisundist või tegevusest."
+is,c1-beziehen-sich-beziehen-auf,important[1],yes,beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē.
+is,c1-beabsichtigen,explanation[0],no,"Põhiidee: Teadlik kavatsus teha tegevus tulevikus. Ei käi suhte, vaid plaani kohta."
+is,c1-beabsichtigen,explanation[1],no,Beabsichtigen tähendab peamiselt: teadlik kavatsus.
+is,c1-beabsichtigen,explanation[3],no,Beabsichtigen tähendab peamiselt: tegevust plaanima.
+is,c1-beabsichtigen,explanation[5],no,"Beabsichtigen tähendab teadlikult kavatseda või plaanida tegevust — mitte suhet, vaid kavatsust."
+is,c1-beabsichtigen,important[0],yes,beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.
+is,c1-unterstellen,explanation[0],no,"Põhiidee: Alusetult omistada kellelegi süü, motiiv või kavatsus."
+is,c1-unterstellen,explanation[1],no,Unterstellen tähendab peamiselt: alusetult omistama.
+is,c1-unterstellen,explanation[2],no,Sageli iseloomustab: süüdistus / kahtlustus.
+is,c1-unterstellen,explanation[3],no,Jemandem etwas unterstellen tähendab alusetult ette heita või omistada.
+is,c1-unterstellen,important[1],yes,Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.
+is,c1-voraussetzen,explanation[1],no,Voraussetzen tähendab peamiselt: pidada aluseks.
+is,c1-voraussetzen,explanation[3],no,"Etwas voraussetzen tähendab pidada iseenesestmõistetavaks eelduseks, mis juba eksisteerib."
+is,c1-bewahren,explanation[0],no,"Põhiidee: Kaitsta kaotuse, kahjustuse või hävimise eest — väärtust, traditsiooni, rahu."
+is,c1-bewahren,explanation[1],no,Bewahren tähendab peamiselt: kaitsma kaotuse eest.
+is,c1-bewahren,explanation[2],no,Sageli iseloomustab: väärtuste säilitamine.
+is,c1-bewahren,explanation[3],no,"Bewahren tähendab kaitsta kahjustuse, kaotuse või muutuste eest."
+is,c1-bewahren,important[1],yes,Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.
+is,c1-aufrechterhalten,explanation[0],no,"Põhiidee: Tagada, et mingi seisund, kord või suhe jätkuvalt kestaks."
+is,c1-aufrechterhalten,explanation[1],no,Aufrechterhalten tähendab peamiselt: tagada jätkumine.
+is,c1-aufrechterhalten,explanation[2],no,Sageli iseloomustab: seisundi säilitamine.
+is,c1-aufrechterhalten,explanation[3],no,"Aufrechterhalten tähendab hoida mingit seisundit, süsteemi või suhet kehtivana — tagada jätkumine."
+is,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+it,c1-zusammenfassen,explanation[2],yes,"Nejauc ar die Zusammenfassung — tas ar lielo burtu un artikulu die ir lietvārds, kas apzīmē pašu kopsavilkumu (rezultātu, gatavu tekstu)."
+it,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = process/darbība (apkopot, rezumēt) • Die Zusammenfassung = rezultāts (kopsavilkums kā lietvārds)."
+it,c1-zusammenfassen,explanation[4],yes,"Kā daudzi vācu darbības vārdi, zusammenfassen var kļūt par lietvārdu ar lielo burtu un artikulu: zusammenfassen → die Zusammenfassung (substantivizācija)."
+it,c1-zusammenfassen,important[1],yes,"die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen)."
+it,c1-zusammenfassen,important[2],yes,Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu).
+it,c1-zuschlag,explanation[0],yes,"Galvenā doma: der Zuschlag nozīmē piemaksu vai uzcenojumu — papildu summu, kas tiek pieskaitīta pamatcenai."
+it,c1-zuschlag,explanation[1],yes,"Ceļojumu/transporta kontekstā der Zuschlag ir papildu maksa par ātrāku vilcienu, labāku vietu u.tml."
+it,c1-zuschlag,explanation[2],no,Niet te verwarren met der Anhang/die Beilage (de bijlage bij het document) – dat is een ander woord.
+it,c1-zuschlag,important[0],yes,"der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam."
+it,c1-zuschlag,important[1],yes,Dokumenta pielikums vācu valodā ir die Anlage/der Anhang.
+it,c1-beziehen-sich-beziehen-auf,important[1],yes,beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē.
+it,c1-beabsichtigen,important[0],yes,beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.
+it,c1-unterstellen,important[1],yes,Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.
+it,c1-bewahren,important[1],yes,Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.
+it,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+lb,c1-zusammenfassen,explanation[2],yes,"Nejauc ar die Zusammenfassung — tas ar lielo burtu un artikulu die ir lietvārds, kas apzīmē pašu kopsavilkumu (rezultātu, gatavu tekstu)."
+lb,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = process/darbība (apkopot, rezumēt) • Die Zusammenfassung = rezultāts (kopsavilkums kā lietvārds)."
+lb,c1-zusammenfassen,explanation[4],yes,"Kā daudzi vācu darbības vārdi, zusammenfassen var kļūt par lietvārdu ar lielo burtu un artikulu: zusammenfassen → die Zusammenfassung (substantivizācija)."
+lb,c1-zusammenfassen,important[1],yes,"die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen)."
+lb,c1-zusammenfassen,important[2],yes,Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu).
+lb,c1-zuschlag,explanation[0],yes,"Galvenā doma: der Zuschlag nozīmē piemaksu vai uzcenojumu — papildu summu, kas tiek pieskaitīta pamatcenai."
+lb,c1-zuschlag,explanation[1],yes,"Ceļojumu/transporta kontekstā der Zuschlag ir papildu maksa par ātrāku vilcienu, labāku vietu u.tml."
+lb,c1-zuschlag,explanation[2],no,Niet te verwarren met der Anhang/die Beilage (de bijlage bij het document) – dat is een ander woord.
+lb,c1-zuschlag,important[0],yes,"der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam."
+lb,c1-zuschlag,important[1],yes,Dokumenta pielikums vācu valodā ir die Anlage/der Anhang.
+lb,c1-beziehen-sich-beziehen-auf,important[1],yes,beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē.
+lb,c1-beabsichtigen,important[0],yes,beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.
+lb,c1-unterstellen,important[1],yes,Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.
+lb,c1-bewahren,important[1],yes,Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.
+lb,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+lt,c1-zusammenfassen,explanation[2],no,"Nepainiok su die Zusammenfassung — tai, rašomas didžiąja raide su artikeliu die, yra daiktavardis, reiškiantis patį santrauką (rezultatą, parengtą tekstą)."
+lt,c1-zusammenfassen,explanation[3],no,"zusammenfassen = procesas/veiksmas (apibendrinti, reziumuoti); die Zusammenfassung = rezultatas (santrauka kaip daiktavardis)."
+lt,c1-zusammenfassen,explanation[4],no,"Kaip ir daugelis vokiečių veiksmažodžių, zusammenfassen gali tapti daiktavardžiu su didžiąja raide ir artikeliu: zusammenfassen → die Zusammenfassung (substantivacija)."
+lt,c1-zusammenfassen,important[1],no,"die Zusammenfassung = santrauka (daiktavardis, substantivuotas iš zusammenfassen)."
+lt,c1-zusammenfassen,important[2],no,Neteisingai: die zusammenfassen → Teisingai: die Zusammenfassung (daiktavardis visada rašomas didžiąja raide).
+lt,c1-zuschlag,explanation[0],no,"Pagrindinė mintis: der Zuschlag reiškia priedą arba antkainį — papildomą sumą, kuri pridedama prie pagrindinės kainos."
+lt,c1-zuschlag,explanation[1],no,"Kelionių/transporto kontekste der Zuschlag yra papildomas mokestis už greitesnį traukinį, geresnę vietą ir pan."
+lt,c1-zuschlag,explanation[2],no,Nesupainiok su der Anhang/die Beilage (dokumento priedas) — tai kitas žodis.
+lt,c1-zuschlag,important[0],no,"der Zuschlag = priedas/antkainis, ne 'priedas' dokumentui."
+lt,c1-zuschlag,important[1],no,Dokumento priedas vokiečių kalboje yra die Anlage/der Anhang.
+lt,c1-beziehen-sich-beziehen-auf,important[1],no,beziehen / sich beziehen auf: prieš vartodamas patikrink kontekstą ir palygink su kitais žodžiais kortelėje.
+lt,c1-beabsichtigen,important[0],no,beabsichtigen + zu + bendratis: Er beabsichtigt zu gehen.
+lt,c1-unterstellen,important[1],no,Neteisingai: Wir unterstellen Grundkenntnisse. → Teisingai: Wir setzen Grundkenntnisse voraus.
+lt,c1-bewahren,important[1],no,Neteisingai: Wir bewahren den Frieden auf. → Teisingai: Wir erhalten den Frieden auf.
+lt,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+mk,c1-zusammenfassen,explanation[2],no,"Не мешајте со die Zusammenfassung - онаа со голема буква и статијата die - именка што означува само резиме (резултат, готов текст)."
+mk,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = процесс/действие (обобщить, обобщить) • Die Zusammenfassung = результат (краткое содержание в виде существительного)."
+mk,c1-zusammenfassen,explanation[4],no,"Как и многие немецкие глаголы, zusammenfassen может стать существительным с заглавной буквы и артиклем: zusammenfassen → die Zusammenfassen (субстантивизация)."
+mk,c1-zusammenfassen,important[1],no,"Die Zusammenfassung = резюме (существительное, образованное от zusammenfassen)."
+mk,c1-zusammenfassen,important[2],no,Неправильно: die zusammenfassen → Правильно: die Zusammenfassen (существительное всегда пишется с заглавной буквы).
+mk,c1-zuschlag,explanation[0],no,"Основная идея: der Zuschlag означает премию или наценку — дополнительную сумму, добавляемую к базовой цене."
+mk,c1-zuschlag,explanation[1],no,"В контексте путешествия/транспорта der Zuschlag — это дополнительная плата за более быстрый поезд, лучшее место и т. д."
+mk,c1-zuschlag,explanation[2],no,Не путать с der Anhang/die Beilage (приложение к документу) – это другое слово.
+mk,c1-zuschlag,important[0],no,"Der Zuschlag = надбавка/надбавка, а не «приложение» к документу."
+mk,c1-zuschlag,important[1],no,Приложение к документу на немецком языке — die Anlage/der Anhang.
+mk,c1-beziehen-sich-beziehen-auf,important[1],no,"Beziehen / sich beziehen auf: пред употреба, проверете го контекстот и споредете со другите зборови на картичката."
+mk,c1-beabsichtigen,important[0],no,Beabsichtigen + zu + неправильность: Er beabsichtigt zu gehen.
+mk,c1-unterstellen,important[1],no,Неверно: Wir unterstellen Grundkenntnisse. → Правильно: Wir setzen Grundkenntnisse voraus.
+mk,c1-bewahren,important[1],no,Неверно: Wir bewahren den Frieden auf. → Правильно: Wir erhalten den Frieden auf.
+mk,c1-aufrechterhalten,important[0],no,Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+nb,c1-zusammenfassen,explanation[0],no,Põhiidee: zusammenfassen on tegusõna — koguda või koondada teave üheks lühikeseks ülevaateks.
+nb,c1-zusammenfassen,explanation[1],no,"Sõna zusammenfassen kasutatakse, kui mitmest faktist, tekstist või mõttest luuakse lühike ülevaade."
+nb,c1-zusammenfassen,explanation[2],no,"Ära aja segi sõnaga die Zusammenfassung — see on suure algustähe ja artikliga die nimisõna, mis tähistab kokkuvõtet ennast (tulemust, valmis teksti)."
+nb,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = protsess/tegevus (kokku võtma, resümeerima) • Die Zusammenfassung = tulemus (kokkuvõte nimisõnana)."
+nb,c1-zusammenfassen,explanation[4],no,"Nagu paljud saksa tegusõnad, võib zusammenfassen muutuda nimisõnaks suure algustähe ja artikliga: zusammenfassen → die Zusammenfassung (substantiveerumine)."
+nb,c1-zusammenfassen,important[1],yes,"die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen)."
+nb,c1-zusammenfassen,important[2],yes,Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu).
+nb,c1-wahl,explanation[0],no,Põhiidee: die Wahl tähendab valikut kahe või enama võimaluse vahel.
+nb,c1-wahl,explanation[1],no,Poliitika kontekstis tähendab die Wahl valimisi või hääletamist ennast.
+nb,c1-wahl,explanation[2],no,Väljend eine Wahl treffen tähendab valiku tegemist • Zur Wahl gehen tähendab valimistele minemist.
+nb,c1-wahl,explanation[3],no,"Kontekst — isiklik otsus või poliitika — näitab, kumb tähendus on õige."
+nb,c1-zuschlag,explanation[0],no,"Põhiidee: der Zuschlag tähendab lisatasu või hinnalisa — täiendavat summat, mis lisatakse põhihinnale."
+nb,c1-zuschlag,explanation[1],no,"Reisi/transpordi kontekstis on der Zuschlag lisatasu kiirema rongi, parema koha jms eest."
+nb,c1-zuschlag,explanation[2],no,Ära aja segi sõnadega der Anhang/die Beilage (dokumendi lisa) — see on hoopis teine sõna.
+nb,c1-zuschlag,explanation[3],no,Enampakkumisel tähendab den Zuschlag erhalten enampakkumise võitmist/tellimuse saamist.
+nb,c1-zuschlag,important[0],yes,"der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam."
+nb,c1-zuschlag,important[1],yes,Dokumenta pielikums vācu valodā ir die Anlage/der Anhang.
+nb,c1-beziehen-sich-beziehen-auf,explanation[1],no,Näidetes otsi tipipilist igadösstøns kurusesit.
+nb,c1-beziehen-sich-beziehen-auf,explanation[2],no,"Kui kahtled, kontrolli, kas jutt käib seisundist või tegevusest."
+nb,c1-beziehen-sich-beziehen-auf,important[1],yes,beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē.
+nb,c1-beabsichtigen,explanation[0],no,"Põhiidee: Teadlik kavatsus teha tegevus tulevikus. Ei käi suhte, vaid plaani kohta."
+nb,c1-beabsichtigen,explanation[1],no,Beabsichtigen tähendab peamiselt: teadlik kavatsus.
+nb,c1-beabsichtigen,explanation[3],no,Beabsichtigen tähendab peamiselt: tegevust plaanima.
+nb,c1-beabsichtigen,explanation[5],no,"Beabsichtigen tähendab teadlikult kavatseda või plaanida tegevust — mitte suhet, vaid kavatsust."
+nb,c1-beabsichtigen,important[0],yes,beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.
+nb,c1-unterstellen,explanation[0],no,"Põhiidee: Alusetult omistada kellelegi süü, motiiv või kavatsus."
+nb,c1-unterstellen,explanation[1],no,Unterstellen tähendab peamiselt: alusetult omistama.
+nb,c1-unterstellen,explanation[2],no,Sageli iseloomustab: süüdistus / kahtlustus.
+nb,c1-unterstellen,explanation[3],no,Jemandem etwas unterstellen tähendab alusetult ette heita või omistada.
+nb,c1-unterstellen,important[1],yes,Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.
+nb,c1-voraussetzen,explanation[1],no,Voraussetzen tähendab peamiselt: pidada aluseks.
+nb,c1-voraussetzen,explanation[3],no,"Etwas voraussetzen tähendab pidada iseenesestmõistetavaks eelduseks, mis juba eksisteerib."
+nb,c1-bewahren,explanation[0],no,"Põhiidee: Kaitsta kaotuse, kahjustuse või hävimise eest — väärtust, traditsiooni, rahu."
+nb,c1-bewahren,explanation[1],no,Bewahren tähendab peamiselt: kaitsma kaotuse eest.
+nb,c1-bewahren,explanation[2],no,Sageli iseloomustab: väärtuste säilitamine.
+nb,c1-bewahren,explanation[3],no,"Bewahren tähendab kaitsta kahjustuse, kaotuse või muutuste eest."
+nb,c1-bewahren,important[1],yes,Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.
+nb,c1-aufrechterhalten,explanation[0],no,"Põhiidee: Tagada, et mingi seisund, kord või suhe jätkuvalt kestaks."
+nb,c1-aufrechterhalten,explanation[1],no,Aufrechterhalten tähendab peamiselt: tagada jätkumine.
+nb,c1-aufrechterhalten,explanation[2],no,Sageli iseloomustab: seisundi säilitamine.
+nb,c1-aufrechterhalten,explanation[3],no,"Aufrechterhalten tähendab hoida mingit seisundit, süsteemi või suhet kehtivana — tagada jätkumine."
+nb,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+nl,c1-zusammenfassen,explanation[2],yes,"Nejauc ar die Zusammenfassung — tas ar lielo burtu un artikulu die ir lietvārds, kas apzīmē pašu kopsavilkumu (rezultātu, gatavu tekstu)."
+nl,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = process/darbība (apkopot, rezumēt) • Die Zusammenfassung = rezultāts (kopsavilkums kā lietvārds)."
+nl,c1-zusammenfassen,explanation[4],yes,"Kā daudzi vācu darbības vārdi, zusammenfassen var kļūt par lietvārdu ar lielo burtu un artikulu: zusammenfassen → die Zusammenfassung (substantivizācija)."
+nl,c1-zusammenfassen,important[1],yes,"die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen)."
+nl,c1-zusammenfassen,important[2],yes,Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu).
+nl,c1-zuschlag,explanation[0],yes,"Galvenā doma: der Zuschlag nozīmē piemaksu vai uzcenojumu — papildu summu, kas tiek pieskaitīta pamatcenai."
+nl,c1-zuschlag,explanation[1],yes,"Ceļojumu/transporta kontekstā der Zuschlag ir papildu maksa par ātrāku vilcienu, labāku vietu u.tml."
+nl,c1-zuschlag,explanation[2],no,Niet te verwarren met der Anhang/die Beilage (de bijlage bij het document) – dat is een ander woord.
+nl,c1-zuschlag,important[0],yes,"der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam."
+nl,c1-zuschlag,important[1],yes,Dokumenta pielikums vācu valodā ir die Anlage/der Anhang.
+nl,c1-beziehen-sich-beziehen-auf,important[1],yes,beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē.
+nl,c1-beabsichtigen,important[0],yes,beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.
+nl,c1-unterstellen,important[1],yes,Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.
+nl,c1-bewahren,important[1],yes,Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.
+nl,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+nn,c1-zusammenfassen,explanation[0],no,Põhiidee: zusammenfassen on tegusõna — koguda või koondada teave üheks lühikeseks ülevaateks.
+nn,c1-zusammenfassen,explanation[1],no,"Sõna zusammenfassen kasutatakse, kui mitmest faktist, tekstist või mõttest luuakse lühike ülevaade."
+nn,c1-zusammenfassen,explanation[2],no,"Ära aja segi sõnaga die Zusammenfassung — see on suure algustähe ja artikliga die nimisõna, mis tähistab kokkuvõtet ennast (tulemust, valmis teksti)."
+nn,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = protsess/tegevus (kokku võtma, resümeerima) • Die Zusammenfassung = tulemus (kokkuvõte nimisõnana)."
+nn,c1-zusammenfassen,explanation[4],no,"Nagu paljud saksa tegusõnad, võib zusammenfassen muutuda nimisõnaks suure algustähe ja artikliga: zusammenfassen → die Zusammenfassung (substantiveerumine)."
+nn,c1-zusammenfassen,important[1],yes,"die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen)."
+nn,c1-zusammenfassen,important[2],yes,Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu).
+nn,c1-wahl,explanation[0],no,Põhiidee: die Wahl tähendab valikut kahe või enama võimaluse vahel.
+nn,c1-wahl,explanation[1],no,Poliitika kontekstis tähendab die Wahl valimisi või hääletamist ennast.
+nn,c1-wahl,explanation[2],no,Väljend eine Wahl treffen tähendab valiku tegemist • Zur Wahl gehen tähendab valimistele minemist.
+nn,c1-wahl,explanation[3],no,"Kontekst — isiklik otsus või poliitika — näitab, kumb tähendus on õige."
+nn,c1-zuschlag,explanation[0],no,"Põhiidee: der Zuschlag tähendab lisatasu või hinnalisa — täiendavat summat, mis lisatakse põhihinnale."
+nn,c1-zuschlag,explanation[1],no,"Reisi/transpordi kontekstis on der Zuschlag lisatasu kiirema rongi, parema koha jms eest."
+nn,c1-zuschlag,explanation[2],no,Ära aja segi sõnadega der Anhang/die Beilage (dokumendi lisa) — see on hoopis teine sõna.
+nn,c1-zuschlag,explanation[3],no,Enampakkumisel tähendab den Zuschlag erhalten enampakkumise võitmist/tellimuse saamist.
+nn,c1-zuschlag,important[0],yes,"der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam."
+nn,c1-zuschlag,important[1],yes,Dokumenta pielikums vācu valodā ir die Anlage/der Anhang.
+nn,c1-beziehen-sich-beziehen-auf,explanation[1],no,Näidetes otsi tipipilist igadösstøns kurusesit.
+nn,c1-beziehen-sich-beziehen-auf,explanation[2],no,"Kui kahtled, kontrolli, kas jutt käib seisundist või tegevusest."
+nn,c1-beziehen-sich-beziehen-auf,important[1],yes,beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē.
+nn,c1-beabsichtigen,explanation[0],no,"Põhiidee: Teadlik kavatsus teha tegevus tulevikus. Ei käi suhte, vaid plaani kohta."
+nn,c1-beabsichtigen,explanation[1],no,Beabsichtigen tähendab peamiselt: teadlik kavatsus.
+nn,c1-beabsichtigen,explanation[3],no,Beabsichtigen tähendab peamiselt: tegevust plaanima.
+nn,c1-beabsichtigen,explanation[5],no,"Beabsichtigen tähendab teadlikult kavatseda või plaanida tegevust — mitte suhet, vaid kavatsust."
+nn,c1-beabsichtigen,important[0],yes,beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.
+nn,c1-unterstellen,explanation[0],no,"Põhiidee: Alusetult omistada kellelegi süü, motiiv või kavatsus."
+nn,c1-unterstellen,explanation[1],no,Unterstellen tähendab peamiselt: alusetult omistama.
+nn,c1-unterstellen,explanation[2],no,Sageli iseloomustab: süüdistus / kahtlustus.
+nn,c1-unterstellen,explanation[3],no,Jemandem etwas unterstellen tähendab alusetult ette heita või omistada.
+nn,c1-unterstellen,important[1],yes,Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.
+nn,c1-voraussetzen,explanation[1],no,Voraussetzen tähendab peamiselt: pidada aluseks.
+nn,c1-voraussetzen,explanation[3],no,"Etwas voraussetzen tähendab pidada iseenesestmõistetavaks eelduseks, mis juba eksisteerib."
+nn,c1-bewahren,explanation[0],no,"Põhiidee: Kaitsta kaotuse, kahjustuse või hävimise eest — väärtust, traditsiooni, rahu."
+nn,c1-bewahren,explanation[1],no,Bewahren tähendab peamiselt: kaitsma kaotuse eest.
+nn,c1-bewahren,explanation[2],no,Sageli iseloomustab: väärtuste säilitamine.
+nn,c1-bewahren,explanation[3],no,"Bewahren tähendab kaitsta kahjustuse, kaotuse või muutuste eest."
+nn,c1-bewahren,important[1],yes,Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.
+nn,c1-aufrechterhalten,explanation[0],no,"Põhiidee: Tagada, et mingi seisund, kord või suhe jätkuvalt kestaks."
+nn,c1-aufrechterhalten,explanation[1],no,Aufrechterhalten tähendab peamiselt: tagada jätkumine.
+nn,c1-aufrechterhalten,explanation[2],no,Sageli iseloomustab: seisundi säilitamine.
+nn,c1-aufrechterhalten,explanation[3],no,"Aufrechterhalten tähendab hoida mingit seisundit, süsteemi või suhet kehtivana — tagada jätkumine."
+nn,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+pl,c1-zusammenfassen,explanation[2],no,"Nie mylić z die Zusammenfassung - ten z dużą literą i przedimkiem die to rzeczownik oznaczający samo podsumowanie (wynik, gotowy tekst)."
+pl,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = proces/akcja (podsumuj, podsumuj) • Die Zusammenfassung = wynik (podsumowanie jako rzeczownik)."
+pl,c1-zusammenfassen,explanation[4],no,"Podobnie jak wiele czasowników niemieckich, zusammenfassen może stać się rzeczownikiem pisanym wielką literą i przedimkiem: zusammenfassen → die Zusammenfassen (substantywizacja)."
+pl,c1-zusammenfassen,important[1],no,Die Zusammenfassung = podsumowanie (rzeczownik uzasadniony od zusammenfassen).
+pl,c1-zusammenfassen,important[2],no,Niepoprawnie: die zusammenfassen → Poprawnie: die Zusammenfassen (rzeczownik zawsze pisany wielką literą).
+pl,c1-zuschlag,explanation[0],no,Główna idea: der Zuschlag oznacza premię lub narzut – dodatkową kwotę dodaną do ceny bazowej.
+pl,c1-zuschlag,explanation[1],no,"W kontekście podróży/transportu der Zuschlag to dodatkowa opłata za szybszy pociąg, lepsze miejsce itp."
+pl,c1-zuschlag,explanation[2],no,Nie mylić z der Anhang/die Beilage (załącznik do dokumentu) – to inne słowo.
+pl,c1-zuschlag,important[0],no,"Der Zuschlag = dopłata/narzut, a nie „dodatek” do dokumentu."
+pl,c1-zuschlag,important[1],no,Załącznik do dokumentu w języku niemieckim brzmi die Anlage/der Anhang.
+pl,c1-beziehen-sich-beziehen-auf,important[1],no,Beziehen / sich beziehen auf: przed użyciem sprawdź kontekst i porównaj z innymi słowami na karcie.
+pl,c1-beabsichtigen,important[0],no,Beabsichtigen + zu + nieregularność: Er beabsichtigt zu gehen.
+pl,c1-unterstellen,important[1],no,Niepoprawnie: Wir unterstellen Grundkenntnisse. → Poprawnie: Wir setzen Grundkenntnisse voraus.
+pl,c1-bewahren,important[1],no,Niepoprawnie: Wir bewahren den Frieden auf. → Poprawnie: Wir erhalten den Frieden auf.
+pl,c1-aufrechterhalten,important[0],no,Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+pt,c1-zusammenfassen,explanation[2],yes,"Nejauc ar die Zusammenfassung — tas ar lielo burtu un artikulu die ir lietvārds, kas apzīmē pašu kopsavilkumu (rezultātu, gatavu tekstu)."
+pt,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = processo/darbība (apkopot, rezumēt) • Die Zusammenfassung = rezultāts (kopsavilkums kā lietvārds)."
+pt,c1-zusammenfassen,explanation[4],no,"Kā daudzi vācu darbības vārdi, zusammenfassen var kļūt par lietvārdu ou lielo burtu un artikulu: zusammenfassen → die Zusammenfassung (substantivizācija)."
+pt,c1-zusammenfassen,important[1],yes,"die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen)."
+pt,c1-zusammenfassen,important[2],yes,Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu).
+pt,c1-zuschlag,explanation[0],yes,"Galvenā doma: der Zuschlag nozīmē piemaksu vai uzcenojumu — papildu summu, kas tiek pieskaitīta pamatcenai."
+pt,c1-zuschlag,explanation[1],yes,"Ceļojumu/transporta kontekstā der Zuschlag ir papildu maksa par ātrāku vilcienu, labāku vietu u.tml."
+pt,c1-zuschlag,important[0],yes,"der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam."
+pt,c1-zuschlag,important[1],yes,Dokumenta pielikums vācu valodā ir die Anlage/der Anhang.
+pt,c1-beziehen-sich-beziehen-auf,important[1],yes,beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē.
+pt,c1-beabsichtigen,important[0],yes,beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.
+pt,c1-unterstellen,important[1],yes,Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.
+pt,c1-bewahren,important[1],yes,Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.
+pt,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+ro,c1-zusammenfassen,explanation[2],no,"A nu se confunda cu die Zusammenfassung - cel cu majuscula si articolul die este un substantiv care denota rezumatul in sine (rezultat, text terminat)."
+ro,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = proces/actiune (rezuma, rezuma) • Die Zusammenfassung = rezultat (rezumat ca substantiv)."
+ro,c1-zusammenfassen,explanation[4],no,"La fel ca multe verbe germane, zusammenfassen poate deveni un substantiv cu majuscule și un articol: zusammenfassen → die Zusammenfassen (substantivizare)."
+ro,c1-zusammenfassen,important[1],no,"Die Zusammenfassung = rezumat (substantiv, substantivizat din zusammenfassen)."
+ro,c1-zusammenfassen,important[2],no,Incorect: die zusammenfassen → Corect: die Zusammenfassen (substantiv întotdeauna cu majuscule).
+ro,c1-zuschlag,explanation[0],no,Ideea principală: der Zuschlag înseamnă o primă sau o majorare — o sumă suplimentară adăugată la prețul de bază.
+ro,c1-zuschlag,explanation[1],no,"În contextul călătoriei/transportului, der Zuschlag este o taxă suplimentară pentru un tren mai rapid, un loc mai bun etc."
+ro,c1-zuschlag,explanation[2],no,A nu se confunda cu der Anhang/die Beilage (anexa la document) - acesta este un cuvânt diferit.
+ro,c1-zuschlag,important[0],no,"Der Zuschlag = suprataxă/mark-up, nu „anexă” la document."
+ro,c1-zuschlag,important[1],no,Anexa la document în limba germană este die Anlage/der Anhang.
+ro,c1-beziehen-sich-beziehen-auf,important[1],no,"Beziehen / sich beziehen auf: înainte de a utiliza, verificați contextul și comparați cu alte cuvinte de pe card."
+ro,c1-beabsichtigen,important[0],no,Beabsichtigen + zu + neregularitate: Er beabsichtigt zu gehen.
+ro,c1-unterstellen,important[1],no,Incorect: Wir unterstellen Grundkenntnisse. → Corect: Wir setzen Grundkenntnisse voraus.
+ro,c1-bewahren,important[1],no,Incorect: Wir bewahren den Frieden auf. → Corect: Wir erhalten den Frieden auf.
+ro,c1-aufrechterhalten,important[0],no,Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+ru,c1-zusammenfassen,explanation[2],no,"Не путать с die Zusammenfassung — тот, что с заглавной буквы, а артикль die — существительное, обозначающее само резюме (результат, готовый текст)."
+ru,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = процесс/действие (обобщить, обобщить) • Die Zusammenfassung = результат (краткое содержание в виде существительного)."
+ru,c1-zusammenfassen,explanation[4],no,"Как и многие немецкие глаголы, zusammenfassen может стать существительным с заглавной буквы и артиклем: zusammenfassen → die Zusammenfassen (субстантивизация)."
+ru,c1-zusammenfassen,important[1],no,"Die Zusammenfassung = резюме (существительное, образованное от zusammenfassen)."
+ru,c1-zusammenfassen,important[2],no,Неправильно: die zusammenfassen → Правильно: die Zusammenfassen (существительное всегда пишется с заглавной буквы).
+ru,c1-zuschlag,explanation[0],no,"Основная идея: der Zuschlag означает премию или наценку — дополнительную сумму, добавляемую к базовой цене."
+ru,c1-zuschlag,explanation[1],no,"В контексте путешествия/транспорта der Zuschlag — это дополнительная плата за более быстрый поезд, лучшее место и т. д."
+ru,c1-zuschlag,explanation[2],no,Не путать с der Anhang/die Beilage (приложение к документу) – это другое слово.
+ru,c1-zuschlag,important[0],no,"Der Zuschlag = надбавка/надбавка, а не «приложение» к документу."
+ru,c1-zuschlag,important[1],no,Приложение к документу на немецком языке — die Anlage/der Anhang.
+ru,c1-beziehen-sich-beziehen-auf,important[1],no,Beziehen / sich beziehen auf: перед использованием проверьте контекст и сравните с другими словами на карточке.
+ru,c1-beabsichtigen,important[0],no,Beabsichtigen + zu + неправильность: Er beabsichtigt zu gehen.
+ru,c1-unterstellen,important[1],no,Неверно: Wir unterstellen Grundkenntnisse. → Правильно: Wir setzen Grundkenntnisse voraus.
+ru,c1-bewahren,important[1],no,Неверно: Wir bewahren den Frieden auf. → Правильно: Wir erhalten den Frieden auf.
+ru,c1-aufrechterhalten,important[0],no,Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+sk,c1-zusammenfassen,explanation[2],no,"Nie mylić z die Zusammenfassung - ten z dużą literą i przedimkiem die to rzeczownik oznaczający samo podsumowanie (wynik, gotowy tekst)."
+sk,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = proces/akcja (podsumuj, podsumuj) • Die Zusammenfassung = wynik (podsumowanie jako rzeczownik)."
+sk,c1-zusammenfassen,explanation[4],no,"Podobnie jak wiele czasowników niemieckich, zusammenfassen może stać się rzeczownikiem pisanym wielką literą i przedimkiem: zusammenfassen → die Zusammenfassen (substantywizacja)."
+sk,c1-zusammenfassen,important[1],no,Die Zusammenfassung = podsumowanie (rzeczownik uzasadniony od zusammenfassen).
+sk,c1-zusammenfassen,important[2],no,Niepoprawnie: die zusammenfassen → Poprawnie: die Zusammenfassen (rzeczownik zawsze pisany wielką literą).
+sk,c1-zuschlag,explanation[0],no,Główna idea: der Zuschlag oznacza premię lub narzut – dodatkową kwotę dodaną do ceny bazowej.
+sk,c1-zuschlag,explanation[1],no,"W kontekście podróży/transportu der Zuschlag to dodatkowa opłata za szybszy pociąg, lepsze miejsce itp."
+sk,c1-zuschlag,explanation[2],no,Nie mylić z der Anhang/die Beilage (załącznik do dokumentu) – to inne słowo.
+sk,c1-zuschlag,important[0],no,"Der Zuschlag = dopłata/narzut, a nie „dodatek” do dokumentu."
+sk,c1-zuschlag,important[1],no,Załącznik do dokumentu w języku niemieckim brzmi die Anlage/der Anhang.
+sk,c1-beziehen-sich-beziehen-auf,important[1],no,Beziehen / sich beziehen auf: pred použitím skontrolujte kontext a porovnajte ho s inými slovami na karte.
+sk,c1-beabsichtigen,important[0],no,Beabsichtigen + zu + nieregularność: Er beabsichtigt zu gehen.
+sk,c1-unterstellen,important[1],no,Nesprávne: Wir unterstellen Grundkenntnisse. → Správne: Vortex setzen Grundkenntnisse voraus.
+sk,c1-bewahren,important[1],no,Niepoprawnie: Wir bewahren den Frieden auf. → Poprawnie: Wir erhalten den Frieden auf.
+sk,c1-aufrechterhalten,important[0],no,Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+sl,c1-zusammenfassen,explanation[2],no,"Ne zamenjujte z die Zusammenfassung - tisti z veliko začetnico in členkom die je samostalnik, ki označuje sam povzetek (rezultat, končano besedilo)."
+sl,c1-zusammenfassen,explanation[3],yes,"zusammenfassen = process/darbība (apkopot, rezumēt); die Zusammenfassung = rezultāts (kopsavilkums kā lietvārds)."
+sl,c1-zusammenfassen,explanation[4],no,Kot mnogi nemški glagoli lahko zusammenfassen postane samostalnik z veliko začetnico in členek: zusammenfassen → die Zusammenfassen (substantivacija).
+sl,c1-zusammenfassen,important[1],yes,"die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen)."
+sl,c1-zusammenfassen,important[2],no,Napačno: die zusammenfassen → Pravilno: die Zusammenfassen (samostalnik vedno z veliko začetnico).
+sl,c1-zuschlag,explanation[0],no,"Glavna ideja: der Zuschlag pomeni premijo ali pribitek – dodaten znesek, dodan k osnovni ceni."
+sl,c1-zuschlag,explanation[1],no,"V okviru potovanja/prevoza je der Zuschlag doplačilo za hitrejši vlak, boljši sedež itd."
+sl,c1-zuschlag,explanation[2],no,Ne sme se zamenjevati z der Anhang/die Beilage (priloga k dokumentu) – to je druga beseda.
+sl,c1-zuschlag,important[0],yes,"der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam."
+sl,c1-zuschlag,important[1],no,Priloga k dokumentu v nemščini je die Anlage/der Anhang.
+sl,c1-beziehen-sich-beziehen-auf,important[1],yes,beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē.
+sl,c1-beabsichtigen,important[0],yes,beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.
+sl,c1-unterstellen,important[1],no,Nepravilno: Wir unterstellen Grundkenntnisse. → Pravilno: Wir setzen Grundkenntnisse voraus.
+sl,c1-bewahren,important[1],no,Nepravilno: Wir bewahren den Frieden auf. → Pravilno: Wir erhalten den Frieden auf.
+sl,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+sq,c1-zusammenfassen,explanation[1],no,"Zusammenfassen, çeşitli gerçeklerin, metinlerin veya düşüncelerin kısa bir özet halinde sunulduğu durumlarda kullanılır."
+sq,c1-zusammenfassen,explanation[2],no,"Die Zusammenfassung ile karıştırılmamalıdır - büyük harfli olan ve artikel die, özetin kendisi anlamına gelen bir isimdir (sonuç, bitmiş metin)."
+sq,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = proces/akcja (podsumuj, podsumuj) • Die Zusammenfassung = wynik (podsumowanie jako rzeczownik)."
+sq,c1-zusammenfassen,explanation[4],no,"Pek çok Almanca fiil gibi, zusammenfassen de büyük harf ve artikel içeren bir isme dönüşebilir: zusammenfassen → die Zusammenfassen (kanıtlama)."
+sq,c1-zusammenfassen,important[0],no,Zusammenfassen = özetlemek/özetlemek (fiil).
+sq,c1-zusammenfassen,important[1],no,Die Zusammenfassung = podsumowanie (rzeczownik uzasadniony od zusammenfassen).
+sq,c1-zusammenfassen,important[2],no,Niepoprawnie: die zusammenfassen → Poprawnie: die Zusammenfassen (rzeczownik zawsze pisany wielką literą).
+sq,c1-zuschlag,explanation[0],no,"Ana fikir: der Zuschlag, taban fiyata eklenen ek bir tutar olan bonus veya fiyat artışı anlamına gelir."
+sq,c1-zuschlag,explanation[1],no,"Seyahat/ulaşım bağlamında der Zuschlag, daha hızlı bir tren, daha iyi bir koltuk vb. için ek bir ücrettir."
+sq,c1-zuschlag,explanation[2],no,Der Anhang/die Beilage (belgenin eki) ile karıştırılmamalıdır • Bu farklı bir kelimedir.
+sq,c1-zuschlag,important[0],no,"Der Zuschlag = ek ücret/ek ücret, belgeye yapılan bir ""ek"" değil."
+sq,c1-zuschlag,important[1],no,Belgenin Almanca ekinde die Anlage/der Anhang ifadesi yer alıyor.
+sq,c1-beziehen-sich-beziehen-auf,explanation[0],no,"Ana fikir: Resmi kayıt: kaynağın belirtilmesi, düzenli olarak emekli maaşı/maaş alınması veya bir daireye taşınma."
+sq,c1-beziehen-sich-beziehen-auf,explanation[1],no,Örnekler tipik günlük kullanıma yöneliktir.
+sq,c1-beziehen-sich-beziehen-auf,explanation[2],no,Şüpheniz varsa bunun bir durum mu yoksa bir aktivite mi olduğunu kontrol edin.
+sq,c1-beziehen-sich-beziehen-auf,important[0],no,"Resmi kayıt: kaynağın belirtilmesi, düzenli olarak emekli maaşı/maaş alınması veya bir daireye taşınma."
+sq,c1-beziehen-sich-beziehen-auf,important[1],no,Beziehen / sich beziehen auf: przed użyciem sprawdź kontekst i porównaj z innymi słowami na karcie.
+sq,c1-beabsichtigen,explanation[0],no,"Ana fikir: Gelecekte bir eylem gerçekleştirmeye yönelik bilinçli niyet. Bir ilişki hakkında değil, bir plan hakkında."
+sq,c1-beabsichtigen,explanation[1],no,Beabsichtigen her şeyden önce bilinçli niyet anlamına gelir.
+sq,c1-beabsichtigen,important[0],no,Beabsichtigen + zu + düzensizlik: Er beabsichtigt zu gehen.
+sq,c1-beabsichtigen,important[3],no,"Gelecekte bir eylem gerçekleştirmeye yönelik bilinçli niyet. Bir ilişki hakkında değil, bir plan hakkında."
+sq,c1-unterstellen,important[1],no,Niepoprawnie: Wir unterstellen Grundkenntnisse. → Poprawnie: Wir setzen Grundkenntnisse voraus.
+sq,c1-voraussetzen,explanation[1],no,Voraussetzen esas olarak şu anlama gelir: temel olarak düşünmek.
+sq,c1-voraussetzen,explanation[2],no,Genellikle şu şekilde karakterize edilir: mantıksal bir öncül.
+sq,c1-bewahren,explanation[1],no,Bewahren her şeyden önce şu anlama gelir: kayba karşı korunmak.
+sq,c1-bewahren,important[1],no,Niepoprawnie: Wir bewahren den Frieden auf. → Poprawnie: Wir erhalten den Frieden auf.
+sq,c1-aufrechterhalten,explanation[2],no,Genellikle şu şekilde karakterize edilir: Durumun sürdürülmesi.
+sq,c1-aufrechterhalten,explanation[3],no,"Aufrechterhalten sürekliliği sağlamak için bir durumu, sistemi veya ilişkiyi sürdürmek anlamına gelir."
+sq,c1-aufrechterhalten,important[0],no,Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+sq,c1-aufrechterhalten,important[1],no,Aufrechterhalten → yürürlükte kal.
+sq,c1-aufrechterhalten,important[2],no,"Bir devletin, düzenin veya ilişkinin varlığının devamını sağlamak."
+sr,c1-zusammenfassen,explanation[2],no,"Ne zamenjujte z die Zusammenfassung - tisto z veliko črko in členom die - samostalnikom, ki označuje le povzetek (rezultat, končano besedilo)."
+sr,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = процесс/действие (обобщить, обобщить) • Die Zusammenfassung = результат (краткое содержание в виде существительного)."
+sr,c1-zusammenfassen,explanation[4],no,"Как и многие немецкие глаголы, zusammenfassen может стать существительным с заглавной буквы и артиклем: zusammenfassen → die Zusammenfassen (субстантивизация)."
+sr,c1-zusammenfassen,important[1],no,"Die Zusammenfassung = резюме (существительное, образованное от zusammenfassen)."
+sr,c1-zusammenfassen,important[2],no,Неправильно: die zusammenfassen → Правильно: die Zusammenfassen (существительное всегда пишется с заглавной буквы).
+sr,c1-zuschlag,explanation[0],no,"Основная идея: der Zuschlag означает премию или наценку — дополнительную сумму, добавляемую к базовой цене."
+sr,c1-zuschlag,explanation[1],no,"В контексте путешествия/транспорта der Zuschlag — это дополнительная плата за более быстрый поезд, лучшее место и т. д."
+sr,c1-zuschlag,explanation[2],no,Не путать с der Anhang/die Beilage (приложение к документу) – это другое слово.
+sr,c1-zuschlag,important[0],no,"Der Zuschlag = надбавка/надбавка, а не «приложение» к документу."
+sr,c1-zuschlag,important[1],no,Приложение к документу на немецком языке — die Anlage/der Anhang.
+sr,c1-beziehen-sich-beziehen-auf,important[1],no,"Beziehen / sich beziehen auf: пред употреба, проверете го контекстот и споредете со другите зборови на картичката."
+sr,c1-beabsichtigen,important[0],no,Beabsichtigen + zu + неправильность: Er beabsichtigt zu gehen.
+sr,c1-unterstellen,important[1],no,Неверно: Wir unterstellen Grundkenntnisse. → Правильно: Wir setzen Grundkenntnisse voraus.
+sr,c1-bewahren,important[1],no,Неверно: Wir bewahren den Frieden auf. → Правильно: Wir erhalten den Frieden auf.
+sr,c1-aufrechterhalten,important[0],no,Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+sv,c1-zusammenfassen,explanation[0],no,Põhiidee: zusammenfassen on tegusõna — koguda või koondada teave üheks lühikeseks ülevaateks.
+sv,c1-zusammenfassen,explanation[1],no,"Sõna zusammenfassen kasutatakse, kui mitmest faktist, tekstist või mõttest luuakse lühike ülevaade."
+sv,c1-zusammenfassen,explanation[2],no,"Ära aja segi sõnaga die Zusammenfassung — see on suure algustähe ja artikliga die nimisõna, mis tähistab kokkuvõtet ennast (tulemust, valmis teksti)."
+sv,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = protsess/tegevus (kokku võtma, resümeerima) • Die Zusammenfassung = tulemus (kokkuvõte nimisõnana)."
+sv,c1-zusammenfassen,explanation[4],no,"Nagu paljud saksa tegusõnad, võib zusammenfassen muutuda nimisõnaks suure algustähe ja artikliga: zusammenfassen → die Zusammenfassung (substantiveerumine)."
+sv,c1-zusammenfassen,important[1],yes,"die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen)."
+sv,c1-zusammenfassen,important[2],yes,Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu).
+sv,c1-wahl,explanation[0],no,Põhiidee: die Wahl tähendab valikut kahe või enama võimaluse vahel.
+sv,c1-wahl,explanation[1],no,Poliitika kontekstis tähendab die Wahl valimisi või hääletamist ennast.
+sv,c1-wahl,explanation[2],no,Väljend eine Wahl treffen tähendab valiku tegemist • Zur Wahl gehen tähendab valimistele minemist.
+sv,c1-wahl,explanation[3],no,"Kontekst — isiklik otsus või poliitika — näitab, kumb tähendus on õige."
+sv,c1-zuschlag,explanation[0],no,"Põhiidee: der Zuschlag tähendab lisatasu või hinnalisa — täiendavat summat, mis lisatakse põhihinnale."
+sv,c1-zuschlag,explanation[1],no,"Reisi/transpordi kontekstis on der Zuschlag lisatasu kiirema rongi, parema koha jms eest."
+sv,c1-zuschlag,explanation[2],no,Ära aja segi sõnadega der Anhang/die Beilage (dokumendi lisa) — see on hoopis teine sõna.
+sv,c1-zuschlag,explanation[3],no,Enampakkumisel tähendab den Zuschlag erhalten enampakkumise võitmist/tellimuse saamist.
+sv,c1-zuschlag,important[0],yes,"der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam."
+sv,c1-zuschlag,important[1],yes,Dokumenta pielikums vācu valodā ir die Anlage/der Anhang.
+sv,c1-beziehen-sich-beziehen-auf,explanation[1],no,Näidetes otsi tüüpilist igapäevast kasutust.
+sv,c1-beziehen-sich-beziehen-auf,explanation[2],no,"Kui kahtled, kontrolli, kas jutt käib seisundist või tegevusest."
+sv,c1-beziehen-sich-beziehen-auf,explanation[3],no,Kontekst ja tegevuse suund määravad õige valiku.
+sv,c1-beziehen-sich-beziehen-auf,important[1],yes,beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē.
+sv,c1-beabsichtigen,explanation[0],no,"Põhiidee: Teadlik kavatsus teha tegevus tulevikus. Ei käi suhte, vaid plaani kohta."
+sv,c1-beabsichtigen,explanation[1],no,Beabsichtigen tähendab peamiselt: teadlik kavatsus.
+sv,c1-beabsichtigen,explanation[3],no,Beabsichtigen tähendab peamiselt: tegevust plaanima.
+sv,c1-beabsichtigen,explanation[5],no,"Beabsichtigen tähendab teadlikult kavatseda või plaanida tegevust — mitte suhet, vaid kavatsust."
+sv,c1-beabsichtigen,important[0],yes,beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.
+sv,c1-unterstellen,explanation[0],no,"Põhiidee: Alusetult omistada kellelegi süü, motiiv või kavatsus."
+sv,c1-unterstellen,explanation[1],no,Unterstellen tähendab peamiselt: alusetult omistama.
+sv,c1-unterstellen,explanation[2],no,Sageli iseloomustab: süüdistus / kahtlustus.
+sv,c1-unterstellen,explanation[3],no,Jemandem etwas unterstellen tähendab alusetult ette heita või omistada.
+sv,c1-unterstellen,important[1],yes,Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.
+sv,c1-voraussetzen,explanation[1],no,Voraussetzen tähendab peamiselt: pidada aluseks.
+sv,c1-voraussetzen,explanation[3],no,"Etwas voraussetzen tähendab pidada iseenesestmõistetavaks eelduseks, mis juba eksisteerib."
+sv,c1-bewahren,explanation[0],no,"Põhiidee: Kaitsta kaotuse, kahjustuse või hävimise eest — väärtust, traditsiooni, rahu."
+sv,c1-bewahren,explanation[1],no,Bewahren tähendab peamiselt: kaitsma kaotuse eest.
+sv,c1-bewahren,explanation[2],no,Sageli iseloomustab: väärtuste säilitamine.
+sv,c1-bewahren,explanation[3],no,"Bewahren tähendab kaitsta kahjustuse, kaotuse või muutuste eest."
+sv,c1-bewahren,important[1],yes,Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.
+sv,c1-aufrechterhalten,explanation[0],no,"Põhiidee: Tagada, et mingi seisund, kord või suhe jätkuvalt kestaks."
+sv,c1-aufrechterhalten,explanation[1],no,Aufrechterhalten tähendab peamiselt: tagada jätkumine.
+sv,c1-aufrechterhalten,explanation[2],no,Sageli iseloomustab: seisundi säilitamine.
+sv,c1-aufrechterhalten,explanation[3],no,"Aufrechterhalten tähendab hoida mingit seisundit, süsteemi või suhet kehtivana — tagada jätkumine."
+sv,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+tr,c1-zusammenfassen,explanation[1],no,"Zusammenfassen, çeşitli gerçeklerin, metinlerin veya düşüncelerin kısa bir özet halinde sunulduğu durumlarda kullanılır."
+tr,c1-zusammenfassen,explanation[2],no,"Die Zusammenfassung ile karıştırılmamalıdır - büyük harfli olan ve artikel die, özetin kendisi anlamına gelen bir isimdir (sonuç, bitmiş metin)."
+tr,c1-zusammenfassen,explanation[3],no,"Zusammenfassen = proces/akcja (podsumuj, podsumuj) • Die Zusammenfassung = wynik (podsumowanie jako rzeczownik)."
+tr,c1-zusammenfassen,explanation[4],no,"Pek çok Almanca fiil gibi, zusammenfassen de büyük harf ve artikel içeren bir isme dönüşebilir: zusammenfassen → die Zusammenfassen (kanıtlama)."
+tr,c1-zusammenfassen,important[0],no,Zusammenfassen = özetlemek/özetlemek (fiil).
+tr,c1-zusammenfassen,important[1],no,Die Zusammenfassung = podsumowanie (rzeczownik uzasadniony od zusammenfassen).
+tr,c1-zusammenfassen,important[2],no,Niepoprawnie: die zusammenfassen → Poprawnie: die Zusammenfassen (rzeczownik zawsze pisany wielką literą).
+tr,c1-zuschlag,explanation[0],no,"Ana fikir: der Zuschlag, taban fiyata eklenen ek bir tutar olan bonus veya fiyat artışı anlamına gelir."
+tr,c1-zuschlag,explanation[1],no,"Seyahat/ulaşım bağlamında der Zuschlag, daha hızlı bir tren, daha iyi bir koltuk vb. için ek bir ücrettir."
+tr,c1-zuschlag,explanation[2],no,Der Anhang/die Beilage (belgenin eki) ile karıştırılmamalıdır; bu farklı bir kelimedir.
+tr,c1-zuschlag,important[0],no,"Der Zuschlag = ek ücret/ek ücret, belgeye yapılan bir ""ek"" değil."
+tr,c1-zuschlag,important[1],no,Belgenin Almanca ekinde die Anlage/der Anhang ifadesi yer alıyor.
+tr,c1-beziehen-sich-beziehen-auf,explanation[0],no,"Ana fikir: Resmi kayıt: kaynağın belirtilmesi, düzenli olarak emekli maaşı/maaş alınması veya bir daireye taşınma."
+tr,c1-beziehen-sich-beziehen-auf,explanation[1],no,Örnekler tipik günlük kullanıma yöneliktir.
+tr,c1-beziehen-sich-beziehen-auf,explanation[2],no,Şüpheniz varsa bunun bir durum mu yoksa bir aktivite mi olduğunu kontrol edin.
+tr,c1-beziehen-sich-beziehen-auf,important[0],no,"Resmi kayıt: kaynağın belirtilmesi, düzenli olarak emekli maaşı/maaş alınması veya bir daireye taşınma."
+tr,c1-beziehen-sich-beziehen-auf,important[1],no,Beziehen / sich beziehen auf: przed użyciem sprawdź kontekst i porównaj z innymi słowami na karcie.
+tr,c1-beabsichtigen,explanation[0],no,"Ana fikir: Gelecekte bir eylem gerçekleştirmeye yönelik bilinçli niyet. Bir ilişki hakkında değil, bir plan hakkında."
+tr,c1-beabsichtigen,explanation[1],no,Beabsichtigen her şeyden önce bilinçli niyet anlamına gelir.
+tr,c1-beabsichtigen,important[0],no,Beabsichtigen + zu + düzensizlik: Er beabsichtigt zu gehen.
+tr,c1-beabsichtigen,important[3],no,"Gelecekte bir eylem gerçekleştirmeye yönelik bilinçli niyet. Bir ilişki hakkında değil, bir plan hakkında."
+tr,c1-unterstellen,important[1],no,Niepoprawnie: Wir unterstellen Grundkenntnisse. → Poprawnie: Wir setzen Grundkenntnisse voraus.
+tr,c1-voraussetzen,explanation[1],no,Voraussetzen esas olarak şu anlama gelir: temel olarak düşünmek.
+tr,c1-voraussetzen,explanation[2],no,Genellikle şu şekilde karakterize edilir: mantıksal bir öncül.
+tr,c1-bewahren,explanation[1],no,Bewahren her şeyden önce şu anlama gelir: kayba karşı korunmak.
+tr,c1-bewahren,important[1],no,Niepoprawnie: Wir bewahren den Frieden auf. → Poprawnie: Wir erhalten den Frieden auf.
+tr,c1-aufrechterhalten,explanation[2],no,Genellikle şu şekilde karakterize edilir: Durumun sürdürülmesi.
+tr,c1-aufrechterhalten,explanation[3],no,"Aufrechterhalten sürekliliği sağlamak için bir durumu, sistemi veya ilişkiyi sürdürmek anlamına gelir."
+tr,c1-aufrechterhalten,important[0],no,Aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.
+tr,c1-aufrechterhalten,important[1],no,Aufrechterhalten → yürürlükte kal.
+tr,c1-aufrechterhalten,important[2],no,"Bir devletin, düzenin veya ilişkinin varlığının devamını sağlamak."
+uk,c1-zusammenfassen,explanation[2],no,"Не плутати з die Zusammenfassung - той, що з великої літери та артиклем die, є іменник, що позначає сам резюме (результат, готовий текст)."
+uk,c1-zusammenfassen,explanation[3],no,"zusammenfassen = процес/діяльність (підбивати підсумки, підсумовувати); die Zusammenfassung = результат (підсумок як іменник)."
+uk,c1-zusammenfassen,explanation[4],no,"Як і багато німецьких дієслова, zusammenfassen може стати іменником і артиклем з великої літери: zusammenfassen → die Zusammenfassung (субстантивація)."
+uk,c1-zusammenfassen,important[1],no,"die Zusammenfassung = резюме (іменник, субстантивовано з zusammenfassen)."
+uk,c1-zusammenfassen,important[2],no,Неправильно: die zusammenfassen → Правильно: die Zusammenfassung (іменник завжди з великої літери).
+uk,c1-zuschlag,explanation[0],no,"Головна думка: der Zuschlag означає надбавку або націнку - додаткову суму, що додається до базової ціни."
+uk,c1-zuschlag,explanation[1],no,"У контексті подорожей/транспорту der Zuschlag — це додаткова плата за швидший поїзд, краще місце тощо."
+uk,c1-zuschlag,explanation[2],no,Не плутати з der Anhang/die Beilage (додаток до документа) - це різні слова.
+uk,c1-zuschlag,important[0],no,"der Zuschlag = доплата/націнка, а не «додаток» до документа."
+uk,c1-zuschlag,important[1],no,Додаток до документа німецькою мовою – die Anlage/der Anhang.
+uk,c1-beziehen-sich-beziehen-auf,important[1],no,beziehen / sich beziehen auf: перед використанням перевірте контекст і порівняйте з іншими словами на картці.
+uk,c1-beabsichtigen,important[0],yes,beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.
+uk,c1-unterstellen,important[1],no,Неправильно: Wir unterstellen Grundkenntnisse. → Правильно: Wir setzen Grundkenntnisse voraus.
+uk,c1-bewahren,important[1],no,Неправильно: Wir bewahren den Frieden auf. → Правильно: Wir erhalten den Frieden auf.
+uk,c1-aufrechterhalten,important[0],yes,aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.

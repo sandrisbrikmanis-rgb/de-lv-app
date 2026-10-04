@@ -20689,7 +20689,7 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "igapäevaselt saama",
-          "example": "Ich bekomme eine E-kirja."
+          "example": "Ich bekomme eine E-Mail."
         },
         {
           "word": "begrüßen",
@@ -33601,7 +33601,7 @@ const B1_WORDS = [
   {
     "de": "Jagderlaubnis",
     "de_article": "die",
-    "de_plural": "die Jagderlaubse",
+    "de_plural": "die Jagderlaubnisse",
     "lv": "jahiluba",
     "level": "B1"
   },
@@ -50709,7 +50709,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "saatma",
-          "example": "Ich schicke dir eine E-kirja."
+          "example": "Ich schicke dir eine E-Mail."
         },
         {
           "word": "urteilen",
@@ -74586,6 +74586,7 @@ const B1_WORDS = [
   {
     "de": "Schaden",
     "de_article": "der",
+    "de_plural": "die Schäden",
     "lv": "kahju • kahjustus",
     "level": "B1",
     "study": {

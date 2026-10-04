@@ -171,14 +171,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Mul on väike kott."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "mul on väike kott."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "laps on väike."
         }
       ],
       "tip": [
@@ -3026,11 +3018,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "siiani",
           "example": "Bis jetzt habe ich nichts verstanden. – Ma ootan, kuni sa tuled."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "siiani, tänase päevani",
-          "example": "Bis jetzt ist alles gut. – Siiani on kõik hästi."
         }
       ],
       "tip": {
@@ -3158,18 +3145,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "Palun!"
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "kas ma tohin palun küsida?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "mul on üks palve."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "palve on tähtis."
         }
       ],
       "comparison": [
@@ -3281,18 +3256,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "Tal on kaks palvet."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "kas ma tohin palun küsida?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "mul on üks palve."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "palve on tähtis."
         }
       ],
       "comparison": [
@@ -3631,10 +3594,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Ma viin lapsed kooli."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "ma võtan raamatu."
         }
       ],
       "comparison": [
@@ -5273,6 +5232,7 @@ const A1_WORDS = [
   {
     "de": "Ende",
     "de_article": "das",
+    "de_plural": "die Enden",
     "lv": "lõpp",
     "level": "A1"
   },
@@ -5535,14 +5495,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "see on väsinud."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "sajab vihma."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "sajab lund."
         }
       ],
       "info": [
@@ -6607,10 +6559,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "mida sa filmist arvad?"
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "kuidas sulle film tundub?"
         }
       ],
       "comparison": [
@@ -6618,21 +6566,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "leidma / arvama",
           "example": "Ich finde das gut. = Minu arvates on see hea."
-        },
-        {
-          "word": "suchen",
-          "meaning": "otsima",
-          "example": "Ich suche den Schlüssel. = Ma otsin võtit."
-        },
-        {
-          "word": "denken",
-          "meaning": "mõtlema",
-          "example": "Ich denke an dich. = Ma mõtlen sinule."
-        },
-        {
-          "word": "glauben",
-          "meaning": "uskuma / arvama",
-          "example": "Ich glaube, er kommt. = Ma arvan, et ta tuleb."
         }
       ],
       "tip": {
@@ -14564,33 +14497,8 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "liiter",
       "explanation": "Põhiidee: der Liter on mahu mõõtühik. Saksamaal öeldakse tavaliselt der Liter, aga Austrias ja Šveitsis võib kuulda ka das Liter. Mitmuse vorm on alati die Liter — see ei muutu.",
-      "examples": [
-        {
-          "de": "Ich brauche einen Liter Milch.",
-          "lv": "mul on vaja liitrit piima."
-        },
-        {
-          "de": "Die Flasche fasst zwei Liter.",
-          "lv": "pudel mahutab kaks liitrit."
-        }
-      ],
-      "comparison": [
-        {
-          "word": "der Liter",
-          "meaning": "Saksamaa tavavorm",
-          "example": "In Deutschland sagt man meist der Liter. = Saksamaal öeldakse enamasti der Liter."
-        },
-        {
-          "word": "das Liter",
-          "meaning": "Austria/Šveitsi vorm",
-          "example": "In Österreich hört man auch das Liter. = Austrias kuuleb ka das Liter."
-        },
-        {
-          "word": "die Liter",
-          "meaning": "mitmus (muutumatu)",
-          "example": "Die Flasche fasst zwei Liter. = Pudel mahutab kaks liitrit."
-        }
-      ],
+      "examples": [],
+      "comparison": [],
       "tip": "Kui kahtled artikli valikus, kasuta der Liter — see on kõige levinum vorm.",
       "important": "Mitmuses on alati die Liter, sõltumata ainsuse artiklist — vorm ei muutu (zwei Liter, mitte zwei Litere).",
       "sectionAccents": {
@@ -16010,6 +15918,7 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
+    "de_plural": "die Morgen",
     "lv": "hommik",
     "level": "A1",
     "study": {
@@ -18599,10 +18508,6 @@ const A1_WORDS = [
         {
           "de": "Kann ich die Jacke anprobieren?",
           "lv": "Kas ma saan jakki selga proovida?"
-        },
-        {
-          "de": "Wir testen die neue Software.",
-          "lv": "me testime uut tarkvara."
         }
       ],
       "comparison": [
@@ -18620,11 +18525,6 @@ const A1_WORDS = [
           "word": "prüfen",
           "meaning": "kontrollima",
           "example": "Ich prüfe die Rechnung."
-        },
-        {
-          "word": "anprobieren",
-          "meaning": "selga proovima",
-          "example": "Ich probiere die Jacke an."
         },
         {
           "word": "anprobieren",
@@ -27395,6 +27295,7 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "puhkus",
     "level": "A1",
     "study": {

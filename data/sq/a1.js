@@ -149,14 +149,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Foshnja është ende e re."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Kam një çantë të vogël."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Foshnja është e vogël."
         }
       ],
       "tip": [
@@ -2132,11 +2124,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "Değin",
           "example": "Bis jetzt habe ich nichts verstanden. – Po pres që të vish."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "Deri më tani",
-          "example": "Bis jetzt ist alles gut. – Deri tani, mirë."
         }
       ],
       "tip": {
@@ -2251,18 +2238,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "Do të doja një filxhan kafe, të lutem."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Ben te ju pyes ..."
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Unë jam babai yt!"
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Kërkesa është e rëndësishme."
         }
       ],
       "tip": [
@@ -2373,18 +2348,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "Do të doja një filxhan kafe, të lutem."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Ben te ju pyes ..."
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Unë jam babai yt!"
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Kërkesa është e rëndësishme."
         }
       ],
       "tip": [
@@ -2539,22 +2502,22 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "Qëndro",
-          "example": "Unë qëndroj këtu."
+          "example": "Ich bleibe hier. = Unë qëndroj këtu."
         },
         {
           "word": "gehen",
           "meaning": "Shko/shko në këmbë",
-          "example": "Unë shkoj në shtëpi."
+          "example": "Ich gehe nach Hause. = Unë shkoj në shtëpi."
         },
         {
           "word": "fahren",
           "meaning": "Shkuarja/vozitja me transport",
-          "example": "Unë vozis në shtëpi."
+          "example": "Ich fahre nach Hause. = Unë vozis në shtëpi."
         },
         {
           "word": "warten",
           "meaning": "Prit",
-          "example": "Unë pres këtu."
+          "example": "Ich warte hier. = Unë pres këtu."
         }
       ],
       "tip": {
@@ -2761,10 +2724,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Ajo e çon librin në shkollë."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Po e marr librin"
         }
       ],
       "comparison": [
@@ -3051,22 +3010,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Atje • Këtu • Këtu (të përgjithshme)",
-          "example": "Atje është makina ime."
+          "example": "Da ist mein Auto. = Atje është makina ime."
         },
         {
           "word": "hier",
           "meaning": "Këtu (në një vend specifik)",
-          "example": "Këtu është makina ime."
+          "example": "Hier ist mein Auto. = Këtu është makina ime."
         },
         {
           "word": "dort",
           "meaning": "Atje (përpara)",
-          "example": "Atje është makina ime."
+          "example": "Dort ist mein Auto. = Atje është makina ime."
         },
         {
           "word": "dann",
           "meaning": "Atëherë...",
-          "example": "Pastaj ne shkojmë në shtëpi."
+          "example": "Dann gehen wir nach Hause. = Pastaj ne shkojmë në shtëpi."
         }
       ],
       "tip": {
@@ -3978,22 +3937,22 @@ const A1_WORDS = [
         {
           "word": "ein Mann",
           "meaning": "gender mashkullor",
-          "example": "Një burrë pret jashtë."
+          "example": "Ein Mann wartet draußen. = Një burrë pret jashtë."
         },
         {
           "word": "eine Frau",
           "meaning": "gender femëror",
-          "example": "një grua"
+          "example": "eine Frau = një grua"
         },
         {
           "word": "ein Buch",
           "meaning": "gender neutral",
-          "example": "Unë kam një libër."
+          "example": "Ich habe ein Buch. = Unë kam një libër."
         },
         {
           "word": "einen Mann",
           "meaning": "akuzativ",
-          "example": "një burrë"
+          "example": "einen Mann = një burrë"
         }
       ]
     }
@@ -4217,6 +4176,7 @@ const A1_WORDS = [
   {
     "de": "Ende",
     "de_article": "das",
+    "de_plural": "die Enden",
     "lv": "Mbarimi",
     "level": "A1"
   },
@@ -4441,14 +4401,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "Ky është libri im."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Po bie shi!"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Po bie borë. - Po."
         }
       ],
       "info": [
@@ -4859,27 +4811,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "Transporti me makinë",
-          "example": "Unë vozis me autobus."
+          "example": "Ich fahre mit dem Bus. = Unë vozis me autobus."
         },
         {
           "word": "gehen",
           "meaning": "Bredhës.",
-          "example": "Unë shkoj në shtëpi."
+          "example": "Ich gehe nach Hause. = Unë shkoj në shtëpi."
         },
         {
           "word": "laufen",
           "meaning": "Vrapim/ecje",
-          "example": "Ai vrapë shpejt."
+          "example": "Er läuft schnell. = Ai vrapë shpejt."
         },
         {
           "word": "bringen",
           "meaning": "Sill/dorëzo",
-          "example": "Unë sjell librin."
+          "example": "Ich bringe das Buch. = Unë sjell librin."
         },
         {
           "word": "mitnehmen",
           "meaning": "Merre me vete",
-          "example": "Unë të marr me vete."
+          "example": "Ich nehme dich mit. = Unë të marr me vete."
         }
       ],
       "tip": {
@@ -5179,10 +5131,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "... i përbashkët, nuk është vetëm vendimi i saj. - Mua më duket mirë..."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Çfarë mendon për filmin?"
         }
       ],
       "comparison": [
@@ -5190,21 +5138,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "Gjej/mendo",
           "example": "Ich finde das gut. = Më duket mirë."
-        },
-        {
-          "word": "suchen",
-          "meaning": "Kërko",
-          "example": "Ich suche den Schlüssel. = Po gjej çëselsin."
-        },
-        {
-          "word": "denken",
-          "meaning": "Të menduarit",
-          "example": "Seni düşünüyorum. = Po mendoj për ty."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Beso/mendo",
-          "example": "Ich glaube, er kommt. = Mendoj për të ardhmen tënde."
         }
       ],
       "tip": {
@@ -5916,22 +5849,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "Jep",
-          "example": "Më jep librin."
+          "example": "Gib mir das Buch. = Më jep librin."
         },
         {
           "word": "nehmen",
           "meaning": "Merre atë.",
-          "example": "Unë marr librin."
+          "example": "Ich nehme das Buch. = Unë marr librin."
         },
         {
           "word": "bekommen",
           "meaning": "Merr/merr",
-          "example": "Unë marr një dhuratë."
+          "example": "Ich bekomme ein Geschenk. = Unë marr një dhuratë."
         },
         {
           "word": "bringen",
           "meaning": "Sill/dorëzo",
-          "example": "Unë të sjell librin."
+          "example": "Ich bringe dir das Buch. = Unë të sjell librin."
         }
       ],
       "tip": {
@@ -10051,22 +9984,22 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Shteti / toka / fshati",
-          "example": "Gjermania është një vend."
+          "example": "Deutschland ist ein Land. = Gjermania është një vend."
         },
         {
           "word": "die Stadt",
           "meaning": "Qytet",
-          "example": "Unë banoj në qytet."
+          "example": "Ich wohne in der Stadt. = Unë banoj në qytet."
         },
         {
           "word": "das Dorf",
           "meaning": "Ky ishte fshati.",
-          "example": "Ai jeton në një fshat."
+          "example": "Er lebt in einem Dorf. = Ai jeton në një fshat."
         },
         {
           "word": "die Erde",
           "meaning": "Toka/Planeti",
-          "example": "Toka është e rrumbullakët."
+          "example": "Die Erde ist rund. = Toka është e rrumbullakët."
         }
       ],
       "tip": {
@@ -10361,22 +10294,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Lësho/lejo",
-          "example": "Unë e lë këtë këtu."
+          "example": "Ich lasse das hier. = Unë e lë këtë këtu."
         },
         {
           "word": "bleiben",
           "meaning": "Qëndro",
-          "example": "Unë qëndroj këtu."
+          "example": "Ich bleibe hier. = Unë qëndroj këtu."
         },
         {
           "word": "erlauben",
           "meaning": "Aktivizo",
-          "example": "Ajo më lejon këtë."
+          "example": "Sie erlaubt mir das. = Ajo më lejon këtë."
         },
         {
           "word": "geben",
           "meaning": "Jep",
-          "example": "Më jep librin."
+          "example": "Gib mir das Buch. = Më jep librin."
         }
       ],
       "tip": {
@@ -10535,22 +10468,22 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Vrapo/vepro",
-          "example": "Ai vrapë shpejt."
+          "example": "Er läuft schnell. = Ai vrapë shpejt."
         },
         {
           "word": "gehen",
           "meaning": "Bredhës.",
-          "example": "Unë shkoj në shtëpi."
+          "example": "Ich gehe nach Hause. = Unë shkoj në shtëpi."
         },
         {
           "word": "fahren",
           "meaning": "Transporti me makinë",
-          "example": "Unë vozis me autobus."
+          "example": "Ich fahre mit dem Bus. = Unë vozis me autobus."
         },
         {
           "word": "funktionieren",
           "meaning": "Biznes",
-          "example": "Kjo funksionon mirë."
+          "example": "Das funktioniert gut. = Kjo funksionon mirë."
         }
       ],
       "tip": {
@@ -10975,22 +10908,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Vendos",
-          "example": "Unë vë librin në tavolinë."
+          "example": "Ich lege das Buch auf den Tisch. = Unë vë librin në tavolinë."
         },
         {
           "word": "liegen",
           "meaning": "Të jesh /të flesh",
-          "example": "Libri qëndron në tavolinë."
+          "example": "Das Buch liegt auf dem Tisch. = Libri qëndron në tavolinë."
         },
         {
           "word": "stellen",
           "meaning": "Vendos vertikalisht",
-          "example": "Unë vë shishen në tavolinë."
+          "example": "Ich stelle die Flasche auf den Tisch. = Unë vë shishen në tavolinë."
         },
         {
           "word": "setzen",
           "meaning": "Uluni, uluni.",
-          "example": "Unë ulem."
+          "example": "Ich setze mich. = Unë ulem."
         }
       ],
       "tip": {
@@ -11343,22 +11276,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Të jesh /të flesh",
-          "example": "Libri qëndron këtu."
+          "example": "Das Buch liegt hier. = Libri qëndron këtu."
         },
         {
           "word": "legen",
           "meaning": "Vendos",
-          "example": "Unë vë librin këtu."
+          "example": "Ich lege das Buch hierhin. = Unë vë librin këtu."
         },
         {
           "word": "stehen",
           "meaning": "Qëndrim/Qëndrim",
-          "example": "Shisha qëndron në tavolinë."
+          "example": "Die Flasche steht auf dem Tisch. = Shisha qëndron në tavolinë."
         },
         {
           "word": "sein",
           "meaning": "Të jesh",
-          "example": "Unë jam këtu."
+          "example": "Ich bin hier. = Unë jam këtu."
         }
       ],
       "tip": {
@@ -12101,22 +12034,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "Së bashku / së bashku",
-          "example": "Unë vij me ty."
+          "example": "Ich komme mit dir. = Unë vij me ty."
         },
         {
           "word": "ohne",
           "meaning": "Pa",
-          "example": "Unë vij pa ty."
+          "example": "Ich komme ohne dich. = Unë vij pa ty."
         },
         {
           "word": "bei",
           "meaning": "Në ambientin e dikujt",
-          "example": "Unë jam te Anna."
+          "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
           "meaning": "Për / në",
-          "example": "Unë shkoj tek doktori."
+          "example": "Ich gehe zum Arzt. = Unë shkoj tek doktori."
         }
       ],
       "tip": {
@@ -12303,22 +12236,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Më pëlqen",
-          "example": "Unë pëlqej muzikën."
+          "example": "Ich mag Musik. = Unë pëlqej muzikën."
         },
         {
           "word": "möchte",
           "meaning": "Dua nje.",
-          "example": "Unë dua kafe."
+          "example": "Ich möchte Kaffee. = Unë dua kafe."
         },
         {
           "word": "wollen",
           "meaning": "Dua",
-          "example": "Unë dua të shkoj në shtëpi."
+          "example": "Ich will nach Hause. = Unë dua të shkoj në shtëpi."
         },
         {
           "word": "lieben",
           "meaning": "Dashuria",
-          "example": "Unë të dua."
+          "example": "Ich liebe dich. = Unë të dua."
         }
       ],
       "tip": {
@@ -12586,6 +12519,7 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
+    "de_plural": "die Morgen",
     "lv": "Fije mëndafshi?",
     "level": "A1",
     "study": {
@@ -12767,22 +12701,22 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "I/I need to do",
-          "example": "Unë duhet të shkoj."
+          "example": "Ich muss gehen. = Unë duhet të shkoj."
         },
         {
           "word": "können",
           "meaning": "Dije",
-          "example": "Unë mund të vij."
+          "example": "Ich kann kommen. = Unë mund të vij."
         },
         {
           "word": "wollen",
           "meaning": "Dua",
-          "example": "Unë dua të shkoj në shtëpi."
+          "example": "Ich will nach Hause. = Unë dua të shkoj në shtëpi."
         },
         {
           "word": "dürfen",
           "meaning": "E lejueshme",
-          "example": "A mund të shkoj?"
+          "example": "Darf ich gehen? = A mund të shkoj?"
         }
       ],
       "tip": {
@@ -12951,22 +12885,22 @@ const A1_WORDS = [
         {
           "word": "nach",
           "meaning": "Deri/Pas",
-          "example": "Unë vozis në Berlin."
+          "example": "Ich fahre nach Berlin."
         },
         {
           "word": "zu",
           "meaning": "Për / në",
-          "example": "Unë shkoj tek doktori."
+          "example": "Ich gehe zum Arzt. = Unë shkoj tek doktori."
         },
         {
           "word": "in",
           "meaning": "Vendndodhja/ vendndodhja e artikullit",
-          "example": "Unë shkoj në shkollë."
+          "example": "Ich gehe in die Schule. = Unë shkoj në shkollë."
         },
         {
           "word": "vor",
           "meaning": "Para/Para",
-          "example": "Para ngrënies laj duart."
+          "example": "Vor dem Essen wasche ich die Hände. = Para ngrënies laj duart."
         }
       ],
       "tip": {
@@ -13288,22 +13222,22 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "Merre atë.",
-          "example": "Merr librin!"
+          "example": "Nimm das Buch! = Merr librin!"
         },
         {
           "word": "bringen",
           "meaning": "Sill /merr/dorëzo",
-          "example": "Unë të sjell librin."
+          "example": "Ich bringe dir das Buch. = Unë të sjell librin."
         },
         {
           "word": "holen",
           "meaning": "Merre.",
-          "example": "Unë marr ujë."
+          "example": "Ich hole Wasser. = Unë marr ujë."
         },
         {
           "word": "mitnehmen",
           "meaning": "Merre me vete",
-          "example": "Unë të marr me vete."
+          "example": "Ich nehme dich mit. = Unë të marr me vete."
         }
       ],
       "tip": {
@@ -13925,22 +13859,22 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "Ose në një pyetje indirekte",
-          "example": "Unë nuk e di nëse ai vjen."
+          "example": "Ich weiß nicht, ob er kommt. = Unë nuk e di nëse ai vjen."
         },
         {
           "word": "oder",
           "meaning": "Ose zgjidh një nga opsionet",
-          "example": "Kafe apo çaj?"
+          "example": "Kaffee oder Tee? = Kafe apo çaj?"
         },
         {
           "word": "wenn",
           "meaning": "Nëse/kur",
-          "example": "Nëse ke kohë..."
+          "example": "Wenn du Zeit hast... = Nëse ke kohë..."
         },
         {
           "word": "dass",
           "meaning": "Asaj.",
-          "example": "Unë e di që ai vjen."
+          "example": "Ich weiß, dass er kommt. = Unë e di që ai vjen."
         }
       ],
       "tip": {
@@ -14105,22 +14039,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Ose zgjidh",
-          "example": "Kafe apo çaj?"
+          "example": "Kaffee oder Tee? = Kafe apo çaj?"
         },
         {
           "word": "ob",
           "meaning": "Ose në një pyetje indirekte",
-          "example": "Unë nuk e di nëse ai vjen."
+          "example": "Ich weiß nicht, ob er kommt. = Unë nuk e di nëse ai vjen."
         },
         {
           "word": "und",
           "meaning": "Dhe, hmm...",
-          "example": "Kafe dhe tort."
+          "example": "Kaffee und Kuchen. = Kafe dhe tort."
         },
         {
           "word": "aber",
           "meaning": "Megjithatë...",
-          "example": "Unë vij, por më vonë."
+          "example": "Ich komme, aber später. = Unë vij, por më vonë."
         }
       ],
       "tip": {
@@ -14347,22 +14281,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Ai po fIe!",
-          "example": "Xhaketa më përshtatet."
+          "example": "Die Jacke passt mir. = Xhaketa më përshtatet."
         },
         {
           "word": "stehen",
           "meaning": "Në këmbë / në këmbë",
-          "example": "E kuqja të qëndron mirë."
+          "example": "Rot steht dir gut. = E kuqja të qëndron mirë."
         },
         {
           "word": "geeignet sein",
           "meaning": "Kualifikohu",
-          "example": "Kjo është e përshtatshme."
+          "example": "Das ist geeignet. = Kjo është e përshtatshme."
         },
         {
           "word": "funktionieren",
           "meaning": "Biznes",
-          "example": "Kjo funksionon."
+          "example": "Das funktioniert. = Kjo funksionon."
         }
       ],
       "tip": {
@@ -14586,22 +14520,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Provoje/shijoje",
-          "example": "Provo supën!"
+          "example": "Probier mal die Suppe! = Provo supën!"
         },
         {
           "word": "versuchen",
           "meaning": "Bëj ca gjuajte.",
-          "example": "Unë përpiqem."
+          "example": "Ich versuche es. = Unë përpiqem."
         },
         {
           "word": "prüfen",
           "meaning": "Dhe ti.",
-          "example": "Unë kontrolloj faturën."
+          "example": "Ich prüfe die Rechnung. = Unë kontrolloj faturën."
         },
         {
           "word": "anprobieren",
           "meaning": "Bëj ca gjuajte.",
-          "example": "Unë prov xhaketën."
+          "example": "Ich probiere die Jacke an. = Unë prov xhaketën."
         }
       ],
       "tip": {
@@ -15317,22 +15251,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "Noti si lëvizje ose sport",
-          "example": "Ai noti shumë mirë."
+          "example": "Er schwimmt sehr gut. = Ai noti shumë mirë."
         },
         {
           "word": "baden",
           "meaning": "Noto/qëndro në ujë",
-          "example": "Unë shkoj në notë."
+          "example": "Ich gehe baden. = Unë shkoj në notë."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Shko të notosh",
-          "example": "Ne shkojmë të notojmë."
+          "example": "Wir gehen schwimmen. = Ne shkojmë të notojmë."
         },
         {
           "word": "duschen",
           "meaning": "Bëj një dush.",
-          "example": "Unë dush në mëngjes."
+          "example": "Ich dusche morgens. = Unë dush në mëngjes."
         }
       ],
       "tip": {
@@ -15534,22 +15468,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "Görmek",
-          "example": "Unë të shoh."
+          "example": "Ich sehe dich. = Unë të shoh."
         },
         {
           "word": "schauen",
           "meaning": "Izlemek için",
-          "example": "Unë shoh foton."
+          "example": "Ich schaue auf das Bild. = Unë shoh foton."
         },
         {
           "word": "ansehen",
           "meaning": "Shiko dhe dicka tjeter.",
-          "example": "Unë shoh filmin."
+          "example": "Ich sehe mir den Film an. = Unë shoh filmin."
         },
         {
           "word": "hören",
           "meaning": "Seanca dëgjimore",
-          "example": "Unë dëgjoj muzikën."
+          "example": "Ich höre Musik. = Unë dëgjoj muzikën."
         }
       ],
       "tip": {
@@ -15723,22 +15657,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Të jesh",
-          "example": "Unë jam këtu."
+          "example": "Ich bin hier. = Unë jam këtu."
         },
         {
           "word": "haben",
           "meaning": "Po, e kam.",
-          "example": "Unë kam kohë."
+          "example": "Ich habe Zeit. = Unë kam kohë."
         },
         {
           "word": "werden",
           "meaning": "Duke u bërë",
-          "example": "Unë bëhem i lodhur."
+          "example": "Ich werde müde. = Unë bëhem i lodhur."
         },
         {
           "word": "bleiben",
           "meaning": "Qëndro",
-          "example": "Unë qëndroj këtu."
+          "example": "Ich bleibe hier. = Unë qëndroj këtu."
         }
       ],
       "tip": {
@@ -16037,22 +15971,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "Mendja ime.",
-          "example": "Ai lhet veten."
+          "example": "Er wäscht sich. = Ai lhet veten."
         },
         {
           "word": "mich",
           "meaning": "Unë/Unë jam i tyre",
-          "example": "Unë lhem veten."
+          "example": "Ich wasche mich. = Unë lhem veten."
         },
         {
           "word": "dich",
           "meaning": "Sen/ben du'da",
-          "example": "Ti lhet veten."
+          "example": "Du wäschst dich. = Ti lhet veten."
         },
         {
           "word": "ihn",
           "meaning": "Ai është...",
-          "example": "Unë e shoh atë."
+          "example": "Ich sehe ihn. = Unë e shoh atë."
         }
       ],
       "tip": {
@@ -16616,22 +16550,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "Ulja",
-          "example": "Unë ulem në tavolinë."
+          "example": "Ich sitze am Tisch. = Unë ulem në tavolinë."
         },
         {
           "word": "stehen",
           "meaning": "Të jesh",
-          "example": "Ai qëndron te dera."
+          "example": "Er steht an der Tür. = Ai qëndron te dera."
         },
         {
           "word": "liegen",
           "meaning": "Uyumak/uzanmak",
-          "example": "Macja qëndron atje."
+          "example": "Die Katze liegt dort. = Macja qëndron atje."
         },
         {
           "word": "setzen",
           "meaning": "Otur / otur",
-          "example": "Unë ulem."
+          "example": "Ich setze mich. = Unë ulem."
         }
       ],
       "tip": {
@@ -16831,22 +16765,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Ndiq/ndiq rekomandimet",
-          "example": "Çfarë duhet të bëj?"
+          "example": "Was soll ich machen? = Çfarë duhet të bëj?"
         },
         {
           "word": "müssen",
           "meaning": "Më duhet patjetër kjo",
-          "example": "Unë duhet të shkoj."
+          "example": "Ich muss gehen. = Unë duhet të shkoj."
         },
         {
           "word": "können",
           "meaning": "Për të qenë në gjendje të",
-          "example": "Unë mund të vij."
+          "example": "Ich kann kommen. = Unë mund të vij."
         },
         {
           "word": "wollen",
           "meaning": "Dua",
-          "example": "Unë dua të qëndroj."
+          "example": "Ich will bleiben. = Unë dua të qëndroj."
         }
       ],
       "tip": {
@@ -17067,22 +17001,22 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "Qëndrim/Qëndrim",
-          "example": "Unë qëndrom këtu."
+          "example": "Ich stehe hier. = Unë qëndrom këtu."
         },
         {
           "word": "sitzen",
           "meaning": "Ulja",
-          "example": "Ai ulet në tavolinë."
+          "example": "Er sitzt am Tisch. = Ai ulet në tavolinë."
         },
         {
           "word": "liegen",
           "meaning": "Uyumak/uzanmak",
-          "example": "Libri qëndron atje."
+          "example": "Das Buch liegt dort. = Libri qëndron atje."
         },
         {
           "word": "stellen",
           "meaning": "Vendos vertikalisht",
-          "example": "Unë vë shishen këtu."
+          "example": "Ich stelle die Flasche hin. = Unë vë shishen këtu."
         }
       ],
       "tip": {
@@ -17456,22 +17390,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Mbi/mbi/kryq",
-          "example": "Ne flasim për motrin."
+          "example": "Wir sprechen über das Wetter. = Ne flasim për motrin."
         },
         {
           "word": "auf",
           "meaning": "Nga jashtë",
-          "example": "Libri shtrihet në tryezë."
+          "example": "Das Buch liegt auf dem Tisch. = Libri shtrihet në tryezë."
         },
         {
           "word": "unter",
           "meaning": "Altında",
-          "example": "Çanta është nën tryezën."
+          "example": "Die Tasche ist unter dem Tisch. = Çanta është nën tryezën."
         },
         {
           "word": "von",
           "meaning": "Bir kaynaktan/etrafından",
-          "example": "Dëgjoj prej teje."
+          "example": "Ich höre von dir. = Dëgjoj prej teje."
         }
       ],
       "tip": {
@@ -17651,22 +17585,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "Brenda/përreth/brenda/brenda/brenda/brenda/brenda",
-          "example": "Unë vij në orën tetë."
+          "example": "Ich komme um acht. = Unë vij në orën tetë."
         },
         {
           "word": "am",
           "meaning": "Çdo ditë / orë",
-          "example": "Të hënën vij."
+          "example": "Am Montag komme ich. = Të hënën vij."
         },
         {
           "word": "gegen",
           "meaning": "Zaman / vs hakkında",
-          "example": "Unë vij rreth orës tetë."
+          "example": "Ich komme gegen acht. = Unë vij rreth orës tetë."
         },
         {
           "word": "für",
           "meaning": "Lehine / lehine",
-          "example": "Ky është për ty."
+          "example": "Das ist für dich. = Ky është për ty."
         }
       ],
       "tip": {
@@ -17837,22 +17771,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "Nën / Midis",
-          "example": "Çanta është nën tryezën."
+          "example": "Die Tasche ist unter dem Tisch. = Çanta është nën tryezën."
         },
         {
           "word": "über",
           "meaning": "Teprica/për",
-          "example": "Llampa varet mbi tryezën."
+          "example": "Die Lampe hängt über dem Tisch. = Llampa varet mbi tryezën."
         },
         {
           "word": "zwischen",
           "meaning": "Midis dy gjërave",
-          "example": "Midis shtëpive."
+          "example": "Zwischen den Häusern. = Midis shtëpive."
         },
         {
           "word": "auf",
           "meaning": "Nga jashtë",
-          "example": "Në tryezë."
+          "example": "Auf dem Tisch. = Në tryezë."
         }
       ],
       "tip": {
@@ -18054,22 +17988,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "Anlamak",
-          "example": "Të kuptoj ty."
+          "example": "Ich verstehe dich. = Të kuptoj ty."
         },
         {
           "word": "können",
           "meaning": "Dije",
-          "example": "Unë mund të notoj."
+          "example": "Ich kann schwimmen. = Unë mund të notoj."
         },
         {
           "word": "wissen",
           "meaning": "E di të vërtetën.",
-          "example": "Unë e di atë."
+          "example": "Ich weiß das. = Unë e di atë."
         },
         {
           "word": "kennen",
           "meaning": "Dije",
-          "example": "Unë e njoh atë."
+          "example": "Ich kenne ihn. = Unë e njoh atë."
         }
       ],
       "tip": {
@@ -18554,22 +18488,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "Para/Para",
-          "example": "Para ngrënies..."
+          "example": "Vor dem Essen... = Para ngrënies..."
         },
         {
           "word": "nach",
           "meaning": "Sonra / bitene kadar",
-          "example": "Pas ngrënies..."
+          "example": "Nach dem Essen... = Pas ngrënies..."
         },
         {
           "word": "neben",
           "meaning": "Digjeni.",
-          "example": "Pranë shtëpisë."
+          "example": "Neben dem Haus. = Pranë shtëpisë."
         },
         {
           "word": "hinter",
           "meaning": "Për",
-          "example": "Prapa shtëpisë."
+          "example": "Hinter dem Haus. = Prapa shtëpisë."
         }
       ],
       "tip": {
@@ -18976,22 +18910,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Nëse/kur",
-          "example": "Nëse ke kohë..."
+          "example": "Wenn du Zeit hast... = Nëse ke kohë..."
         },
         {
           "word": "ob",
           "meaning": "Ose në një pyetje indirekte",
-          "example": "Unë nuk e di nëse..."
+          "example": "Ich weiß nicht, ob... = Unë nuk e di nëse..."
         },
         {
           "word": "wann",
           "meaning": "O noktaya geldiğinde",
-          "example": "Kur vij?"
+          "example": "Wann kommst du? = Kur vij?"
         },
         {
           "word": "weil",
           "meaning": "Sepse...",
-          "example": "Unë qëndroj, sepse jam i sëmurë."
+          "example": "Ich bleibe, weil ich krank bin. = Unë qëndroj, sepse jam i sëmurë."
         }
       ],
       "tip": {
@@ -19288,22 +19222,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "Duke u bërë",
-          "example": "Unë po lodhëm."
+          "example": "Ich werde müde. = Unë po lodhëm."
         },
         {
           "word": "sein",
           "meaning": "Të jesh",
-          "example": "Unë jam i lodhur."
+          "example": "Ich bin müde. = Unë jam i lodhur."
         },
         {
           "word": "bleiben",
           "meaning": "Qëndro",
-          "example": "Unë qëndroj këtu."
+          "example": "Ich bleibe hier. = Unë qëndroj këtu."
         },
         {
           "word": "machen",
           "meaning": "Do / do",
-          "example": "Unë e bëj atë."
+          "example": "Ich mache das. = Unë e bëj atë."
         }
       ],
       "tip": {
@@ -19478,22 +19412,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Hava koşulları",
-          "example": "Motri është i bukur."
+          "example": "Das Wetter ist schön. = Motri është i bukur."
         },
         {
           "word": "Zeit",
           "meaning": "Zaman (an)",
-          "example": "Unë nuk kam kohë."
+          "example": "Ich habe keine Zeit. = Unë nuk kam kohë."
         },
         {
           "word": "Regen",
           "meaning": "Shiu",
-          "example": "Ka shumë shi."
+          "example": "Es gibt viel Regen. = Ka shumë shi."
         },
         {
           "word": "Sonne",
           "meaning": "Güneş",
-          "example": "Dielli ndriçon."
+          "example": "Die Sonne scheint. = Dielli ndriçon."
         }
       ],
       "tip": [
@@ -19851,22 +19785,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "To / in / too / mastar",
-          "example": "Unë shkoj te doktori."
+          "example": "Ich gehe zum Arzt. = Unë shkoj te doktori."
         },
         {
           "word": "nach",
           "meaning": "Me qytete/shtete",
-          "example": "Unë shkoj në Berlini."
+          "example": "Ich fahre nach Berlin. = Unë shkoj në Berlini."
         },
         {
           "word": "in",
           "meaning": "Ne toke!",
-          "example": "Unë shkoj në shkollë."
+          "example": "Ich gehe in die Schule. = Unë shkoj në shkollë."
         },
         {
           "word": "bei",
           "meaning": "Birinin/iş yerinde",
-          "example": "Unë jam tek Anna."
+          "example": "Ich bin bei Anna."
         }
       ],
       "tip": {
@@ -20035,22 +19969,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "Tren",
-          "example": "Treni vjen."
+          "example": "Der Zug kommt. = Treni vjen."
         },
         {
           "word": "die Bahn",
           "meaning": "Udhëtim me hekurudhë/tren",
-          "example": "Unë shkoj me trenin."
+          "example": "Ich fahre mit der Bahn. = Unë shkoj me trenin."
         },
         {
           "word": "der Bus",
           "meaning": "Një autobus.",
-          "example": "Autobusi vjen."
+          "example": "Der Bus kommt. = Autobusi vjen."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Pastaj të shëndoshët mund të vraponin, të humbin peshë dhe të ishin të shëndetshëm.",
-          "example": "Tramvaji është këtu."
+          "example": "Die Straßenbahn ist hier. = Tramvaji është këtu."
         }
       ],
       "tip": {
@@ -21472,6 +21406,7 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "Pushime",
     "level": "A1",
     "study": {

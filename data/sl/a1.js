@@ -103,14 +103,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Imam majhno torbo."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "man ir maza soma."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "bērns ir mazs."
         }
       ],
       "tip": [
@@ -1261,22 +1253,22 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "plavati / biti v vodi / se umivati",
-          "example": "Grem se kopati."
+          "example": "Ich gehe baden. = Grem se kopati."
         },
         {
           "word": "schwimmen",
           "meaning": "plavati kot gibanje ali šport",
-          "example": "Plava zelo dobro."
+          "example": "Er schwimmt sehr gut. = Plava zelo dobro."
         },
         {
           "word": "duschen",
           "meaning": "se umivati v prhes",
-          "example": "Tuširam se zjutraj."
+          "example": "Ich dusche am Morgen. = Tuširam se zjutraj."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "iti plavat",
-          "example": "Danes grem plavati."
+          "example": "Ich gehe heute schwimmen. = Danes grem plavati."
         }
       ],
       "tip": {
@@ -2091,11 +2083,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "līdz tam, kamēr",
           "example": "Bis jetzt habe ich nichts verstanden. – Es gaidu, līdz tu atnāksi."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "līdz šim, līdz šai dienai",
-          "example": "Bis jetzt ist alles gut. – Līdz šim viss ir labi."
         }
       ],
       "tip": {
@@ -2223,18 +2210,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "vienu tasi kafijas, lūdzu."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "man ir viens lūgums."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "lūgums ir svarīgs."
         }
       ],
       "tip": [
@@ -2360,18 +2335,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "vienu tasi kafijas, lūdzu."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "man ir viens lūgums."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "lūgums ir svarīgs."
         }
       ],
       "tip": [
@@ -2643,10 +2606,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "viņš aiznes grāmatu uz skolu."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "es paņemu grāmatu."
         }
       ],
       "comparison": [
@@ -3901,6 +3860,7 @@ const A1_WORDS = [
   {
     "de": "Ende",
     "de_article": "das",
+    "de_plural": "die Enden",
     "lv": "konec",
     "level": "A1"
   },
@@ -4017,14 +3977,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "tā ir mana grāmata."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "līst."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "snieg."
         }
       ],
       "info": [
@@ -4549,27 +4501,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "voziti s transportom",
-          "example": "Vozim se z avtobusom."
+          "example": "Ich fahre mit dem Bus. = Vozim se z avtobusom."
         },
         {
           "word": "gehen",
           "meaning": "iti peš",
-          "example": "Grem domov."
+          "example": "Ich gehe nach Hause. = Grem domov."
         },
         {
           "word": "laufen",
           "meaning": "tekati / iti",
-          "example": "Teče hitro."
+          "example": "Er läuft schnell. = Teče hitro."
         },
         {
           "word": "bringen",
           "meaning": "prinesti / dostaviti",
-          "example": "Prinesem knjigo."
+          "example": "Ich bringe das Buch. = Prinesem knjigo."
         },
         {
           "word": "mitnehmen",
           "meaning": "vzeti s seboj",
-          "example": "Vzamem te s seboj."
+          "example": "Ich nehme dich mit. = Vzamem te s seboj."
         }
       ],
       "tip": {
@@ -4967,10 +4919,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "man tas šķiet labi."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "kā tev šķiet filma?"
         }
       ],
       "comparison": [
@@ -4978,21 +4926,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "najti / misliti",
           "example": "Ich finde das gut. = Meni je to dobro."
-        },
-        {
-          "word": "suchen",
-          "meaning": "meklēt",
-          "example": "Ich suche den Schlüssel. = Es meklēju atslēgu."
-        },
-        {
-          "word": "denken",
-          "meaning": "domāt",
-          "example": "Ich denke an dich. = Es domāju par tevi."
-        },
-        {
-          "word": "glauben",
-          "meaning": "ticēt / domāt",
-          "example": "Ich glaube, er kommt. = Es domāju, ka viņš nāks."
         }
       ],
       "tip": {
@@ -5854,22 +5787,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "dati",
-          "example": "Daj mi knjigo."
+          "example": "Gib mir das Buch. = Daj mi knjigo."
         },
         {
           "word": "nehmen",
           "meaning": "vzeti / primiti",
-          "example": "Vzamem knjigo."
+          "example": "Ich nehme das Buch. = Vzamem knjigo."
         },
         {
           "word": "bekommen",
           "meaning": "prejeti / dobiti",
-          "example": "Dobim dar."
+          "example": "Ich bekomme ein Geschenk. = Dobim dar."
         },
         {
           "word": "bringen",
           "meaning": "prinesti / dostaviti",
-          "example": "Prinesem ti knjigo."
+          "example": "Ich bringe dir das Buch. = Prinesem ti knjigo."
         }
       ],
       "tip": {
@@ -10818,22 +10751,22 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "država / dežela / podeželje",
-          "example": "Nemčija je država."
+          "example": "Deutschland ist ein Land. = Nemčija je država."
         },
         {
           "word": "die Stadt",
           "meaning": "mesto",
-          "example": "Živim v mestu."
+          "example": "Ich wohne in der Stadt. = Živim v mestu."
         },
         {
           "word": "das Dorf",
           "meaning": "vas",
-          "example": "Živi v vasi."
+          "example": "Er lebt in einem Dorf. = Živi v vasi."
         },
         {
           "word": "die Erde",
           "meaning": "dežela / planet",
-          "example": "Zemlja je okrogla."
+          "example": "Die Erde ist rund. = Zemlja je okrogla."
         }
       ],
       "tip": {
@@ -11240,22 +11173,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "zapustiti / pustiti",
-          "example": "To pustim tukaj."
+          "example": "Ich lasse das hier. = To pustim tukaj."
         },
         {
           "word": "bleiben",
           "meaning": "ostati",
-          "example": "Ostanem tukaj."
+          "example": "Ich bleibe hier. = Ostanem tukaj."
         },
         {
           "word": "erlauben",
           "meaning": "dovoliti",
-          "example": "To mi dovoli."
+          "example": "Sie erlaubt mir das. = To mi dovoli."
         },
         {
           "word": "geben",
           "meaning": "dati",
-          "example": "Daj mi knjigo."
+          "example": "Gib mir das Buch. = Daj mi knjigo."
         }
       ],
       "tip": {
@@ -11474,22 +11407,22 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "teči / delovati",
-          "example": "Teče hitro."
+          "example": "Er läuft schnell. = Teče hitro."
         },
         {
           "word": "gehen",
           "meaning": "iti peš",
-          "example": "Grem domov."
+          "example": "Ich gehe nach Hause. = Grem domov."
         },
         {
           "word": "fahren",
           "meaning": "voziti s prevozom",
-          "example": "Vozim se z avtobusom."
+          "example": "Ich fahre mit dem Bus. = Vozim se z avtobusom."
         },
         {
           "word": "funktionieren",
           "meaning": "delovati",
-          "example": "To dobro deluje."
+          "example": "Das funktioniert gut. = To dobro deluje."
         }
       ],
       "tip": {
@@ -12049,22 +11982,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "položiti",
-          "example": "Položim knjigo na mizo."
+          "example": "Ich lege das Buch auf den Tisch. = Položim knjigo na mizo."
         },
         {
           "word": "liegen",
           "meaning": "biti • ležati",
-          "example": "Knjiga leži na mizi."
+          "example": "Das Buch liegt auf dem Tisch. = Knjiga leži na mizi."
         },
         {
           "word": "stellen",
           "meaning": "položiti pokončno",
-          "example": "Postavim steklenico na mizo."
+          "example": "Ich stelle die Flasche auf den Tisch. = Postavim steklenico na mizo."
         },
         {
           "word": "setzen",
           "meaning": "usesti / usesti si",
-          "example": "Sedem si."
+          "example": "Ich setze mich. = Sedem si."
         }
       ],
       "tip": {
@@ -12516,22 +12449,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "biti / ležati",
-          "example": "Knjiga leži tukaj."
+          "example": "Das Buch liegt hier. = Knjiga leži tukaj."
         },
         {
           "word": "legen",
           "meaning": "položiti",
-          "example": "Položim knjigo tukaj."
+          "example": "Ich lege das Buch hierhin. = Položim knjigo tukaj."
         },
         {
           "word": "stehen",
           "meaning": "stati / biti pokončno",
-          "example": "Steklenica stoji na mizi."
+          "example": "Die Flasche steht auf dem Tisch. = Steklenica stoji na mizi."
         },
         {
           "word": "sein",
           "meaning": "biti",
-          "example": "Sem tukaj."
+          "example": "Ich bin hier. = Sem tukaj."
         }
       ],
       "tip": {
@@ -13469,22 +13402,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "s / skupaj s",
-          "example": "Pridem s tabo."
+          "example": "Ich komme mit dir. = Pridem s tabo."
         },
         {
           "word": "ohne",
           "meaning": "brez",
-          "example": "Pridem brez tebe."
+          "example": "Ich komme ohne dich. = Pridem brez tebe."
         },
         {
           "word": "bei",
           "meaning": "pri / pri kom",
-          "example": "Sem pri Ani."
+          "example": "Ich bin bei Anna. = Sem pri Ani."
         },
         {
           "word": "zu",
           "meaning": "k / pri",
-          "example": "Grem k zdravniku."
+          "example": "Ich gehe zum Arzt. = Grem k zdravniku."
         }
       ],
       "tip": {
@@ -13734,22 +13667,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "všeč mi biti",
-          "example": "Všeč mi je glasba."
+          "example": "Ich mag Musik. = Všeč mi je glasba."
         },
         {
           "word": "möchte",
           "meaning": "želim",
-          "example": "Želim kavo."
+          "example": "Ich möchte Kaffee. = Želim kavo."
         },
         {
           "word": "wollen",
           "meaning": "želeti",
-          "example": "Želim domov."
+          "example": "Ich will nach Hause. = Želim domov."
         },
         {
           "word": "lieben",
           "meaning": "ljubiti",
-          "example": "Ljubim te."
+          "example": "Ich liebe dich. = Ljubim te."
         }
       ],
       "tip": {
@@ -14123,6 +14056,7 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
+    "de_plural": "die Morgen",
     "lv": "jutro",
     "level": "A1",
     "study": {
@@ -14328,22 +14262,22 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "morati / biti prisiljen",
-          "example": "Moram iti."
+          "example": "Ich muss gehen. = Moram iti."
         },
         {
           "word": "können",
           "meaning": "zmožen biti / znal",
-          "example": "Lahko pridem."
+          "example": "Ich kann kommen. = Lahko pridem."
         },
         {
           "word": "wollen",
           "meaning": "želeti",
-          "example": "Želim domov."
+          "example": "Ich will nach Hause. = Želim domov."
         },
         {
           "word": "dürfen",
           "meaning": "smel",
-          "example": "Smem iti?"
+          "example": "Darf ich gehen? = Smem iti?"
         }
       ],
       "tip": {
@@ -14577,22 +14511,22 @@ const A1_WORDS = [
         {
           "word": "nach",
           "meaning": "v / po",
-          "example": "Vozim se v Berlin."
+          "example": "Ich fahre nach Berlin."
         },
         {
           "word": "zu",
           "meaning": "k / pri",
-          "example": "Grem k zdravniku."
+          "example": "Ich gehe zum Arzt. = Grem k zdravniku."
         },
         {
           "word": "in",
           "meaning": "v notranjost / na mesto s člankom",
-          "example": "Grem v šolo."
+          "example": "Ich gehe in die Schule. = Grem v šolo."
         },
         {
           "word": "vor",
           "meaning": "pred / spredaj",
-          "example": "Pred jedjo si operem roke."
+          "example": "Vor dem Essen wasche ich die Hände. = Pred jedjo si operem roke."
         }
       ],
       "tip": {
@@ -15024,22 +14958,22 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "vzeti / prijeti",
-          "example": "Vzemi knjigo!"
+          "example": "Nimm das Buch! = Vzemi knjigo!"
         },
         {
           "word": "bringen",
           "meaning": "prinesti / odnesti / dostaviti",
-          "example": "Prinesem ti knjigo."
+          "example": "Ich bringe dir das Buch. = Prinesem ti knjigo."
         },
         {
           "word": "holen",
           "meaning": "iti iskat / prinesti",
-          "example": "Pridem vodo."
+          "example": "Ich hole Wasser. = Pridem vodo."
         },
         {
           "word": "mitnehmen",
           "meaning": "vzeti s seboj",
-          "example": "Vzamem te s seboj."
+          "example": "Ich nehme dich mit. = Vzamem te s seboj."
         }
       ],
       "tip": {
@@ -15820,22 +15754,22 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "ali v posrednem vprašanju",
-          "example": "Ne vem, ali pride."
+          "example": "Ich weiß nicht, ob er kommt. = Ne vem, ali pride."
         },
         {
           "word": "oder",
           "meaning": "ali izbiro med možnostmi",
-          "example": "Kava ali čaj?"
+          "example": "Kaffee oder Tee? = Kava ali čaj?"
         },
         {
           "word": "wenn",
           "meaning": "če / ko",
-          "example": "Če imaš čas..."
+          "example": "Wenn du Zeit hast... = Če imaš čas..."
         },
         {
           "word": "dass",
           "meaning": "da",
-          "example": "Vem, da pride."
+          "example": "Ich weiß, dass er kommt. = Vem, da pride."
         }
       ],
       "tip": {
@@ -16059,22 +15993,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "ali izbiro",
-          "example": "Kava ali čaj?"
+          "example": "Kaffee oder Tee? = Kava ali čaj?"
         },
         {
           "word": "ob",
           "meaning": "ali v posrednem vprašanju",
-          "example": "Ne vem, ali pride."
+          "example": "Ich weiß nicht, ob er kommt. = Ne vem, ali pride."
         },
         {
           "word": "und",
           "meaning": "in",
-          "example": "Kava in tort."
+          "example": "Kaffee und Kuchen. = Kava in tort."
         },
         {
           "word": "aber",
           "meaning": "ampak",
-          "example": "Pridem, a kasneje."
+          "example": "Ich komme, aber später. = Pridem, a kasneje."
         }
       ],
       "tip": {
@@ -16370,22 +16304,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "ustrezati / primeren biti",
-          "example": "Jakna mi je primerna."
+          "example": "Die Jacke passt mir. = Jakna mi je primerna."
         },
         {
           "word": "stehen",
           "meaning": "primeren biti / ustrezati",
-          "example": "Rdeča ti lepo stoji."
+          "example": "Rot steht dir gut. = Rdeča ti lepo stoji."
         },
         {
           "word": "geeignet sein",
           "meaning": "biti primeren",
-          "example": "To je primerno."
+          "example": "Das ist geeignet. = To je primerno."
         },
         {
           "word": "funktionieren",
           "meaning": "delati",
-          "example": "To deluje."
+          "example": "Das funktioniert. = To deluje."
         }
       ],
       "tip": {
@@ -16687,22 +16621,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "poskusiti / okusiti",
-          "example": "Poskusi juho!"
+          "example": "Probier mal die Suppe! = Poskusi juho!"
         },
         {
           "word": "versuchen",
           "meaning": "poskusiti",
-          "example": "Poskušam."
+          "example": "Ich versuche es. = Poskušam."
         },
         {
           "word": "prüfen",
           "meaning": "preveri",
-          "example": "Preveriš račun."
+          "example": "Ich prüfe die Rechnung. = Preveriš račun."
         },
         {
           "word": "anprobieren",
           "meaning": "primerjati",
-          "example": "Pribiram si jakno."
+          "example": "Ich probiere die Jacke an. = Pribiram si jakno."
         }
       ],
       "tip": {
@@ -17548,22 +17482,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "plavati kot gibanje ali šport",
-          "example": "Plava zelo dobro."
+          "example": "Er schwimmt sehr gut. = Plava zelo dobro."
         },
         {
           "word": "baden",
           "meaning": "plavati / biti v vodi",
-          "example": "Grem se kopati."
+          "example": "Ich gehe baden. = Grem se kopati."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "iti plavalec",
-          "example": "Gremo plavati."
+          "example": "Wir gehen schwimmen. = Gremo plavati."
         },
         {
           "word": "duschen",
           "meaning": "umivati se pod prho",
-          "example": "Tuširam se zjutraj."
+          "example": "Ich dusche morgens. = Tuširam se zjutraj."
         }
       ],
       "tip": {
@@ -17825,22 +17759,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "videti",
-          "example": "Vidim te."
+          "example": "Ich sehe dich. = Vidim te."
         },
         {
           "word": "schauen",
           "meaning": "gledati",
-          "example": "Gledam na sliko."
+          "example": "Ich schaue auf das Bild. = Gledam na sliko."
         },
         {
           "word": "ansehen",
           "meaning": "si ogledati / gledati",
-          "example": "Gledam si film."
+          "example": "Ich sehe mir den Film an."
         },
         {
           "word": "hören",
           "meaning": "slišati",
-          "example": "Poslušam glasbo."
+          "example": "Ich höre Musik. = Poslušam glasbo."
         }
       ],
       "tip": {
@@ -18074,22 +18008,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "biti",
-          "example": "Sem tukaj."
+          "example": "Ich bin hier. = Sem tukaj."
         },
         {
           "word": "haben",
           "meaning": "imam",
-          "example": "Imam čas."
+          "example": "Ich habe Zeit. = Imam čas."
         },
         {
           "word": "werden",
           "meaning": "postati",
-          "example": "Postavam se utrujen."
+          "example": "Ich werde müde. = Postavam se utrujen."
         },
         {
           "word": "bleiben",
           "meaning": "ostati",
-          "example": "Ostanem tukaj."
+          "example": "Ich bleibe hier. = Ostanem tukaj."
         }
       ],
       "tip": {
@@ -18495,22 +18429,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "sebe / si",
-          "example": "Umiva se."
+          "example": "Er wäscht sich. = Umiva se."
         },
         {
           "word": "mich",
           "meaning": "mene / sebe pri jaz",
-          "example": "Umivam se."
+          "example": "Ich wasche mich. = Umivam se."
         },
         {
           "word": "dich",
           "meaning": "te / sebe pri ti",
-          "example": "Umivas se."
+          "example": "Du wäschst dich. = Umivas se."
         },
         {
           "word": "ihn",
           "meaning": "ga",
-          "example": "Vidim ga."
+          "example": "Ich sehe ihn. = Vidim ga."
         }
       ],
       "tip": {
@@ -19229,22 +19163,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "sedeti",
-          "example": "Sedim pri mizi."
+          "example": "Ich sitze am Tisch. = Sedim pri mizi."
         },
         {
           "word": "stehen",
           "meaning": "stati",
-          "example": "Stoji pri vratih."
+          "example": "Er steht an der Tür. = Stoji pri vratih."
         },
         {
           "word": "liegen",
           "meaning": "ležati / biti ležeč",
-          "example": "Mačka leži tam."
+          "example": "Die Katze liegt dort. = Mačka leži tam."
         },
         {
           "word": "setzen",
           "meaning": "usesti / posedati",
-          "example": "Sedem si."
+          "example": "Ich setze mich. = Sedem si."
         }
       ],
       "tip": {
@@ -19499,22 +19433,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "morali bi / narediti po navodilu",
-          "example": "Kaj naj naredim?"
+          "example": "Was soll ich machen? = Kaj naj naredim?"
         },
         {
           "word": "müssen",
           "meaning": "biti primoran",
-          "example": "Moram iti."
+          "example": "Ich muss gehen. = Moram iti."
         },
         {
           "word": "können",
           "meaning": "moči",
-          "example": "Lahko pridem."
+          "example": "Ich kann kommen. = Lahko pridem."
         },
         {
           "word": "wollen",
           "meaning": "hoteti",
-          "example": "Želim ostati."
+          "example": "Ich will bleiben. = Želim ostati."
         }
       ],
       "tip": {
@@ -19801,22 +19735,22 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "stati / biti stojuč",
-          "example": "Stojim tukaj."
+          "example": "Ich stehe hier. = Stojim tukaj."
         },
         {
           "word": "sitzen",
           "meaning": "sedeti",
-          "example": "Sedi pri mizi."
+          "example": "Er sitzt am Tisch. = Sedi pri mizi."
         },
         {
           "word": "liegen",
           "meaning": "ležati / biti ležeč",
-          "example": "Knjiga leži tam."
+          "example": "Das Buch liegt dort. = Knjiga leži tam."
         },
         {
           "word": "stellen",
           "meaning": "postaviti pokončno",
-          "example": "Postavim steklenico sem."
+          "example": "Ich stelle die Flasche hin. = Postavim steklenico sem."
         }
       ],
       "tip": {
@@ -25262,6 +25196,7 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "počitnice",
     "level": "A1",
     "study": {

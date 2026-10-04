@@ -20831,7 +20831,7 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "Mindennap kapni",
-          "example": "Ich bekomme eine E-mailt."
+          "example": "Ich bekomme eine E-Mail."
         },
         {
           "word": "begrüßen",
@@ -33754,7 +33754,7 @@ const B1_WORDS = [
   {
     "de": "Jagderlaubnis",
     "de_article": "die",
-    "de_plural": "die Jagderlaubse",
+    "de_plural": "die Jagderlaubnisse",
     "lv": "Vadászati ​​engedély",
     "level": "B1"
   },
@@ -48285,7 +48285,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "Küldeni",
-          "example": "Ich schicke dir eine E-mailt küldök."
+          "example": "Ich schicke dir eine E-Mail."
         },
         {
           "word": "urteilen",
@@ -67662,6 +67662,7 @@ const B1_WORDS = [
   {
     "de": "Schaden",
     "de_article": "der",
+    "de_plural": "die Schäden",
     "lv": "Veszteség • Kár",
     "level": "B1",
     "study": {

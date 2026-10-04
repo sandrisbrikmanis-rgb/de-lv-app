@@ -167,14 +167,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Van egy kis táskám."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Van egy kis táskám."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Kicsi a gyerek."
         }
       ],
       "tip": [
@@ -2890,11 +2882,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "-ig",
           "example": "Bis jetzt habe ich nichts verstanden. – Várom, hogy jöjjön."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "Mostanáig, a mai napig",
-          "example": "Bis jetzt ist alles gut. – Eddig jó."
         }
       ],
       "tip": {
@@ -3022,18 +3009,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "Egy csésze kávét, kérem."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Megkérdezhetem"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Egy kérésem van."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "A kérés fontos."
         }
       ],
       "tip": [
@@ -3159,18 +3134,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "Egy csésze kávét, kérem."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Megkérdezhetem"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Egy kérésem van."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "A kérés fontos."
         }
       ],
       "tip": [
@@ -3613,10 +3576,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Beviszi a könyvet az iskolába."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Veszem a könyvet"
         }
       ],
       "comparison": [
@@ -3998,7 +3957,7 @@ const A1_WORDS = [
         {
           "word": "dann",
           "meaning": "Majd",
-          "example": "Akkor hazamegyünk."
+          "example": "Dann gehen wir nach Hause."
         }
       ],
       "tip": {
@@ -5475,6 +5434,7 @@ const A1_WORDS = [
   {
     "de": "Ende",
     "de_article": "das",
+    "de_plural": "die Enden",
     "lv": "A végét",
     "level": "A1"
   },
@@ -5737,14 +5697,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "Ez az én könyvem."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Esik az eső"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Havazik"
         }
       ],
       "info": [
@@ -6687,10 +6639,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "Nekem jónak tűnik."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Mi a véleményed a filmről?"
         }
       ],
       "comparison": [
@@ -6698,21 +6646,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "Megtalálni / fontolóra venni",
           "example": "Ich finde das gut. = Ez jónak találom."
-        },
-        {
-          "word": "suchen",
-          "meaning": "Keresni",
-          "example": "Ich suche den Schlüssel. = Keresem a kulcsot."
-        },
-        {
-          "word": "denken",
-          "meaning": "Gondolkodni",
-          "example": "Ich denke an dich. = Rád gondolok."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Hinni/gondolni",
-          "example": "Ich glaube, er kommt. = Szerintem jönni fog."
         }
       ],
       "tip": {
@@ -7574,22 +7507,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "Adni",
-          "example": "Add meg nekem a könyvet."
+          "example": "Gib mir das Buch."
         },
         {
           "word": "nehmen",
           "meaning": "Venni / venni",
-          "example": "Elvettem a könyvet."
+          "example": "Ich nehme das Buch."
         },
         {
           "word": "bekommen",
           "meaning": "Kap / kap",
-          "example": "Kapok egy ajándékot."
+          "example": "Ich bekomme ein Geschenk. = Kapok egy ajándékot."
         },
         {
           "word": "bringen",
           "meaning": "Hozni / szállítani",
-          "example": "Elhozom neked a könyvet."
+          "example": "Ich bringe dir das Buch."
         }
       ],
       "tip": {
@@ -12563,22 +12496,22 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Ország / föld / vidék",
-          "example": "Németország egy ország."
+          "example": "Deutschland ist ein Land. = Németország egy ország."
         },
         {
           "word": "die Stadt",
           "meaning": "Város",
-          "example": "A városban lakik."
+          "example": "Ich wohne in der Stadt. = A városban lakik."
         },
         {
           "word": "das Dorf",
           "meaning": "Falu",
-          "example": "Egy falvban él."
+          "example": "Er lebt in einem Dorf. = Egy falvban él."
         },
         {
           "word": "die Erde",
           "meaning": "Föld / bolygó",
-          "example": "A Föld kerek."
+          "example": "Die Erde ist rund."
         }
       ],
       "tip": {
@@ -12986,22 +12919,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Hagyni / engedni",
-          "example": "Hagyom itt."
+          "example": "Ich lasse das hier. = Hagyom itt."
         },
         {
           "word": "bleiben",
           "meaning": "Marad",
-          "example": "Maradok itt."
+          "example": "Ich bleibe hier. = Maradok itt."
         },
         {
           "word": "erlauben",
           "meaning": "Engedje meg",
-          "example": "Megengedett nekem."
+          "example": "Sie erlaubt mir das. = Megengedett nekem."
         },
         {
           "word": "geben",
           "meaning": "Adni",
-          "example": "Add meg nekem a könyvet."
+          "example": "Gib mir das Buch."
         }
       ],
       "tip": {
@@ -13220,22 +13153,22 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Futni / működtetni",
-          "example": "Gyorsan fut."
+          "example": "Er läuft schnell. = Gyorsan fut."
         },
         {
           "word": "gehen",
           "meaning": "Menj gyalog",
-          "example": "Hazamegyek."
+          "example": "Ich gehe nach Hause. = Hazamegyek."
         },
         {
           "word": "fahren",
           "meaning": "Üljön a szállítóeszközön",
-          "example": "Busszal megyek."
+          "example": "Ich fahre mit dem Bus. = Busszal megyek."
         },
         {
           "word": "funktionieren",
           "meaning": "Működtetni",
-          "example": "Jól működik."
+          "example": "Das funktioniert gut."
         }
       ],
       "tip": {
@@ -13795,22 +13728,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Tedd le",
-          "example": "Ráhelyezem a könyvet az asztalra."
+          "example": "Ich lege das Buch auf den Tisch."
         },
         {
           "word": "liegen",
           "meaning": "Lenni / aludni",
-          "example": "A könyv az asztalon van."
+          "example": "Das Buch liegt auf dem Tisch."
         },
         {
           "word": "stellen",
           "meaning": "Állítsa függőlegesen",
-          "example": "Ráhelyezem az üveget az asztalra."
+          "example": "Ich stelle die Flasche auf den Tisch."
         },
         {
           "word": "setzen",
           "meaning": "Ülj le / ülj le",
-          "example": "Leülök."
+          "example": "Ich setze mich."
         }
       ],
       "tip": {
@@ -14262,22 +14195,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Lenni / aludni",
-          "example": "A könyv itt van."
+          "example": "Das Buch liegt hier."
         },
         {
           "word": "legen",
           "meaning": "Tedd le",
-          "example": "Ide helyezem a könyvet."
+          "example": "Ich lege das Buch hierhin."
         },
         {
           "word": "stehen",
           "meaning": "Állni / állni",
-          "example": "Az üveg az asztalon áll."
+          "example": "Die Flasche steht auf dem Tisch."
         },
         {
           "word": "sein",
           "meaning": "Lenni",
-          "example": "Itt vagyok."
+          "example": "Ich bin hier. = Itt vagyok."
         }
       ],
       "tip": {
@@ -15215,22 +15148,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "-val / együtt",
-          "example": "Velünk megyek."
+          "example": "Ich komme mit dir."
         },
         {
           "word": "ohne",
           "meaning": "Nélkül",
-          "example": "Nélküled megyek."
+          "example": "Ich komme ohne dich."
         },
         {
           "word": "bei",
           "meaning": "Valakinél / valakinél",
-          "example": "Anna mellett vagyok."
+          "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
           "meaning": "Hogy / at",
-          "example": "Az orvoshoz megyek."
+          "example": "Ich gehe zum Arzt. = Az orvoshoz megyek."
         }
       ],
       "tip": {
@@ -15480,22 +15413,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Kedvelni",
-          "example": "Szeretek zenét."
+          "example": "Ich mag Musik. = Szeretek zenét."
         },
         {
           "word": "möchte",
           "meaning": "Szeretnének",
-          "example": "Kávét szeretnék."
+          "example": "Ich möchte Kaffee. = Kávét szeretnék."
         },
         {
           "word": "wollen",
           "meaning": "Akarni",
-          "example": "Haza szeretnék menni."
+          "example": "Ich will nach Hause. = Haza szeretnék menni."
         },
         {
           "word": "lieben",
           "meaning": "Szeretni",
-          "example": "Szeretlek."
+          "example": "Ich liebe dich. = Szeretlek."
         }
       ],
       "tip": {
@@ -15869,6 +15802,7 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
+    "de_plural": "die Morgen",
     "lv": "A reggel",
     "level": "A1",
     "study": {
@@ -27035,6 +26969,7 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "Vakáció",
     "level": "A1",
     "study": {

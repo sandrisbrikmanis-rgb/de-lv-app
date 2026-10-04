@@ -167,14 +167,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Bērns vēl ir mazs."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Ne prendo solo un po'."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Il bambino è piccolo."
         }
       ],
       "tip": [
@@ -2094,22 +2086,22 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "Nuotare / stare in acqua / lavarsi",
-          "example": "Vado a fare il bagno."
+          "example": "Ich gehe baden. = Vado a fare il bagno."
         },
         {
           "word": "schwimmen",
           "meaning": "Peldēt kākustība vai sports",
-          "example": "Nuota molto bene."
+          "example": "Er schwimmt sehr gut. = Nuota molto bene."
         },
         {
           "word": "duschen",
           "meaning": "Mazgāties dušā",
-          "example": "Mi doccia al mattino."
+          "example": "Ich dusche am Morgen. = Mi doccia al mattino."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Da chi? Non importa.",
-          "example": "Oggi vado a nuotare."
+          "example": "Ich gehe heute schwimmen. = Oggi vado a nuotare."
         }
       ],
       "tip": {
@@ -3029,11 +3021,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "Līdz tam, kamēr",
           "example": "Bis jetzt habe ich nichts verstanden. – È gaidu, lidz tu atnāksi."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "Līdz šim, līdz šai dienai",
-          "example": "Bis jetzt ist alles gut. – Līdz šim viss ir labi."
         }
       ],
       "tip": {
@@ -3161,18 +3148,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "Vienu tasi kafijas, lūdzu."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Ho una preghiera."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Lūgums ir svarigs."
         }
       ],
       "tip": [
@@ -3298,18 +3273,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "Vienu tasi kafijas, lūdzu."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Ho una preghiera."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Lūgums ir svarigs."
         }
       ],
       "tip": [
@@ -3472,22 +3435,22 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "Palikt",
-          "example": "Rimango qui."
+          "example": "Ich bleibe hier. = Rimango qui."
         },
         {
           "word": "gehen",
           "meaning": "Andare/partire a piedi",
-          "example": "Vado a casa."
+          "example": "Ich gehe nach Hause. = Vado a casa."
         },
         {
           "word": "fahren",
           "meaning": "Guidare/andare con un mezzo di trasporto",
-          "example": "Guido a casa."
+          "example": "Ich fahre nach Hause. = Guido a casa."
         },
         {
           "word": "warten",
           "meaning": "Aspetta",
-          "example": "Aspetto qui."
+          "example": "Ich warte hier. = Aspetto qui."
         }
       ],
       "tip": {
@@ -3752,10 +3715,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Hai tutte le grammature per la tua scuola."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "È paņemu gramatu."
         }
       ],
       "comparison": [
@@ -4122,22 +4081,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Tur • Te • Šeit (vispārīgi)",
-          "example": "Lì c'è la mia macchina."
+          "example": "Da ist mein Auto. = Lì c'è la mia macchina."
         },
         {
           "word": "hier",
           "meaning": "Qui (in un luogo specifico)",
-          "example": "Qui c'è la mia macchina."
+          "example": "Hier ist mein Auto. = Qui c'è la mia macchina."
         },
         {
           "word": "dort",
           "meaning": "Tur (talak)",
-          "example": "Lì c'è la mia macchina."
+          "example": "Dort ist mein Auto. = Lì c'è la mia macchina."
         },
         {
           "word": "dann",
           "meaning": "Razzo Delta potenziato a spinta aumentata",
-          "example": "Poi andiamo a casa."
+          "example": "Dann gehen wir nach Hause. = Poi andiamo a casa."
         }
       ],
       "tip": {
@@ -5292,22 +5251,22 @@ const A1_WORDS = [
         {
           "word": "ein Mann",
           "meaning": "genere maschile",
-          "example": "Un uomo aspetta fuori."
+          "example": "Ein Mann wartet draußen. = Un uomo aspetta fuori."
         },
         {
           "word": "eine Frau",
           "meaning": "genere femminile",
-          "example": "una donna"
+          "example": "eine Frau = una donna"
         },
         {
           "word": "ein Buch",
           "meaning": "genere neutro",
-          "example": "Ho un libro."
+          "example": "Ich habe ein Buch. = Ho un libro."
         },
         {
           "word": "einen Mann",
           "meaning": "accusativo",
-          "example": "un uomo"
+          "example": "einen Mann = un uomo"
         }
       ]
     }
@@ -5614,6 +5573,7 @@ const A1_WORDS = [
   {
     "de": "Ende",
     "de_article": "das",
+    "de_plural": "die Enden",
     "lv": "\"Fine\". \"Oppure no\"?",
     "level": "A1"
   },
@@ -5876,14 +5836,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "Tā ir mana gramata."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Lista."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Sneg."
         }
       ],
       "info": [
@@ -6408,27 +6360,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "Guidare il trasporto",
-          "example": "Vado in autobus."
+          "example": "Ich fahre mit dem Bus. = Vado in autobus."
         },
         {
           "word": "gehen",
           "meaning": "Il kājam",
-          "example": "Vado a casa."
+          "example": "Ich gehe nach Hause. = Vado a casa."
         },
         {
           "word": "laufen",
           "meaning": "Skrit /iet",
-          "example": "Corre veloce."
+          "example": "Er läuft schnell. = Corre veloce."
         },
         {
           "word": "bringen",
           "meaning": "Atnest / nogādāt",
-          "example": "Porto il libro."
+          "example": "Ich bringe das Buch. = Porto il libro."
         },
         {
           "word": "mitnehmen",
           "meaning": "Paņemt lidzi",
-          "example": "Ti porto con me."
+          "example": "Ich nehme dich mit. = Ti porto con me."
         }
       ],
       "tip": {
@@ -6826,10 +6778,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "La borsa da uomo è un labirinto."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "- Allora, cosa ne pensate del film?"
         }
       ],
       "comparison": [
@@ -6837,21 +6785,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "Atrast / uzskatīt",
           "example": "Ich finde das gut. = Mi sembra bene."
-        },
-        {
-          "word": "suchen",
-          "meaning": "Meklet",
-          "example": "Ich suche den Schlüssel. = È meklēju atslēgu."
-        },
-        {
-          "word": "denken",
-          "meaning": "Domat",
-          "example": "Ich denke an dich. = È domāju di tevi."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Ticēt / domat",
-          "example": "Ich glaube, er kommt. = È domāju, ka viņš nāks."
         }
       ],
       "tip": {
@@ -7713,22 +7646,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "Punto",
-          "example": "Dammi il libro."
+          "example": "Gib mir das Buch. = Dammi il libro."
         },
         {
           "word": "nehmen",
           "meaning": "‹ emt/ paņemt",
-          "example": "Prendo il libro."
+          "example": "Ich nehme das Buch. = Prendo il libro."
         },
         {
           "word": "bekommen",
           "meaning": "Saņemt / dabūt",
-          "example": "Ricevo un regalo."
+          "example": "Ich bekomme ein Geschenk. = Ricevo un regalo."
         },
         {
           "word": "bringen",
           "meaning": "Atnest / nogādāt",
-          "example": "Ti porto il libro."
+          "example": "Ich bringe dir das Buch. = Ti porto il libro."
         }
       ],
       "tip": {
@@ -12785,22 +12718,22 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Valsts / Zeme / Lauki",
-          "example": "La Germania è un paese."
+          "example": "Deutschland ist ein Land. = La Germania è un paese."
         },
         {
           "word": "die Stadt",
           "meaning": "Pilseta",
-          "example": "Abito in città."
+          "example": "Ich wohne in der Stadt. = Abito in città."
         },
         {
           "word": "das Dorf",
           "meaning": "Ciems",
-          "example": "Vive in un villaggio."
+          "example": "Er lebt in einem Dorf. = Vive in un villaggio."
         },
         {
           "word": "die Erde",
           "meaning": "Zema / Planeta",
-          "example": "La terra è rotonda."
+          "example": "Die Erde ist rund. = La terra è rotonda."
         }
       ],
       "tip": {
@@ -13207,22 +13140,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Atstat / ļaut",
-          "example": "Lascio qui questo."
+          "example": "Ich lasse das hier. = Lascio qui questo."
         },
         {
           "word": "bleiben",
           "meaning": "Palikt",
-          "example": "Rimango qui."
+          "example": "Ich bleibe hier. = Rimango qui."
         },
         {
           "word": "erlauben",
           "meaning": "Atelaut",
-          "example": "Sie erlaubt mi il questo."
+          "example": "Sie erlaubt mir das."
         },
         {
           "word": "geben",
           "meaning": "Punto",
-          "example": "Dammi il libro."
+          "example": "Gib mir das Buch. = Dammi il libro."
         }
       ],
       "tip": {
@@ -13441,22 +13374,22 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Skriet / Darboties",
-          "example": "Corre veloce."
+          "example": "Er läuft schnell. = Corre veloce."
         },
         {
           "word": "gehen",
           "meaning": "Il kājam",
-          "example": "Vado a casa."
+          "example": "Ich gehe nach Hause. = Vado a casa."
         },
         {
           "word": "fahren",
           "meaning": "Guidare il trasporto",
-          "example": "Vado in autobus."
+          "example": "Ich fahre mit dem Bus. = Vado in autobus."
         },
         {
           "word": "funktionieren",
           "meaning": "Darboties",
-          "example": "Funziona bene."
+          "example": "Das funktioniert gut. = Funziona bene."
         }
       ],
       "tip": {
@@ -14016,22 +13949,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Nolikt",
-          "example": "Metto il libro sul tavolo."
+          "example": "Ich lege das Buch auf den Tisch. = Metto il libro sul tavolo."
         },
         {
           "word": "liegen",
           "meaning": "Atrazie / collo di bottiglia",
-          "example": "Il libro è sul tavolo."
+          "example": "Das Buch liegt auf dem Tisch. = Il libro è sul tavolo."
         },
         {
           "word": "stellen",
           "meaning": "Nolikt Stavus",
-          "example": "Metto la bottiglia sul tavolo."
+          "example": "Ich stelle die Flasche auf den Tisch. = Metto la bottiglia sul tavolo."
         },
         {
           "word": "setzen",
           "meaning": "Nosēdināt / apsēsties",
-          "example": "Mi siedo."
+          "example": "Ich setze mich. = Mi siedo."
         }
       ],
       "tip": {
@@ -14483,22 +14416,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Atrazie / collo di bottiglia",
-          "example": "Il libro è qui."
+          "example": "Das Buch liegt hier. = Il libro è qui."
         },
         {
           "word": "legen",
           "meaning": "Nolikt",
-          "example": "Metto il libro qui."
+          "example": "Ich lege das Buch hierhin. = Metto il libro qui."
         },
         {
           "word": "stehen",
           "meaning": "Stāvēt / atrasties stāvus",
-          "example": "La bottiglia è sul tavolo."
+          "example": "Die Flasche steht auf dem Tisch. = La bottiglia è sul tavolo."
         },
         {
           "word": "sein",
           "meaning": "Siamo entrambi incasinati a causa delle nostre famiglie,",
-          "example": "Sono qui."
+          "example": "Ich bin hier. = Sono qui."
         }
       ],
       "tip": {
@@ -15436,22 +15369,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "Con/con",
-          "example": "Vengo con te."
+          "example": "Ich komme mit dir. = Vengo con te."
         },
         {
           "word": "ohne",
           "meaning": "Disc.",
-          "example": "Vengo senza di te."
+          "example": "Ich komme ohne dich. = Vengo senza di te."
         },
         {
           "word": "bei",
           "meaning": "Torta / crostata kāda",
-          "example": "Sono da Anna."
+          "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
           "meaning": "Uz/crostata",
-          "example": "Vado dal dottore."
+          "example": "Ich gehe zum Arzt. = Vado dal dottore."
         }
       ],
       "tip": {
@@ -15701,22 +15634,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Patikt",
-          "example": "Mi piace la musica."
+          "example": "Ich mag Musik. = Mi piace la musica."
         },
         {
           "word": "möchte",
           "meaning": "Gribêtu",
-          "example": "Voglio un caffè."
+          "example": "Ich möchte Kaffee. = Voglio un caffè."
         },
         {
           "word": "wollen",
           "meaning": "Gribet",
-          "example": "Voglio andare a casa."
+          "example": "Ich will nach Hause. = Voglio andare a casa."
         },
         {
           "word": "lieben",
           "meaning": "Mileto",
-          "example": "Ti amo."
+          "example": "Ich liebe dich. = Ti amo."
         }
       ],
       "tip": {
@@ -16090,6 +16023,7 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
+    "de_plural": "die Morgen",
     "lv": "Fila",
     "level": "A1",
     "study": {
@@ -16295,22 +16229,22 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Vajadzēt / mais jādara",
-          "example": "Devo andare."
+          "example": "Ich muss gehen. = Devo andare."
         },
         {
           "word": "können",
           "meaning": "Varet/prast",
-          "example": "Posso venire."
+          "example": "Ich kann kommen. = Posso venire."
         },
         {
           "word": "wollen",
           "meaning": "Gribet",
-          "example": "Voglio andare a casa."
+          "example": "Ich will nach Hause. = Voglio andare a casa."
         },
         {
           "word": "dürfen",
           "meaning": "Drikstet",
-          "example": "Posso andare?"
+          "example": "Darf ich gehen? = Posso andare?"
         }
       ],
       "tip": {
@@ -16544,22 +16478,22 @@ const A1_WORDS = [
         {
           "word": "nach",
           "meaning": "Uz/pec",
-          "example": "Vado a Berlino."
+          "example": "Ich fahre nach Berlin. = Vado a Berlino."
         },
         {
           "word": "zu",
           "meaning": "Uz/crostata",
-          "example": "Vado dal dottore."
+          "example": "Ich gehe zum Arzt. = Vado dal dottore."
         },
         {
           "word": "in",
           "meaning": "Iekšā / uz vietu ar artikulu",
-          "example": "Vado a scuola."
+          "example": "Ich gehe in die Schule. = Vado a scuola."
         },
         {
           "word": "vor",
           "meaning": "Pirms / priekšā",
-          "example": "Prima di mangiare mi lavo le mani."
+          "example": "Vor dem Essen wasche ich die Hände. = Prima di mangiare mi lavo le mani."
         }
       ],
       "tip": {
@@ -16991,22 +16925,22 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "‹ emt/ paņemt",
-          "example": "Prendi il libro!"
+          "example": "Nimm das Buch! = Prendi il libro!"
         },
         {
           "word": "bringen",
           "meaning": "Atnest / aiznest / nogādāt",
-          "example": "Ti porto il libro."
+          "example": "Ich bringe dir das Buch. = Ti porto il libro."
         },
         {
           "word": "holen",
           "meaning": "Aiziet pakaų / atnest",
-          "example": "Vado a prendere l'acqua."
+          "example": "Ich hole Wasser. = Vado a prendere l'acqua."
         },
         {
           "word": "mitnehmen",
           "meaning": "Paņemt lidzi",
-          "example": "Ti porto con me."
+          "example": "Ich nehme dich mit. = Ti porto con me."
         }
       ],
       "tip": {
@@ -17787,22 +17721,22 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "Vai netiesā jautājumā",
-          "example": "Non so se viene."
+          "example": "Ich weiß nicht, ob er kommt. = Non so se viene."
         },
         {
           "word": "oder",
           "meaning": "Vai izvēlē starp variancem",
-          "example": "Caffè o tè?"
+          "example": "Kaffee oder Tee? = Caffè o tè?"
         },
         {
           "word": "wenn",
           "meaning": "SI / KAD",
-          "example": "Se hai tempo..."
+          "example": "Wenn du Zeit hast... = Se hai tempo..."
         },
         {
           "word": "dass",
           "meaning": "KA",
-          "example": "So che viene."
+          "example": "Ich weiß, dass er kommt. = So che viene."
         }
       ],
       "tip": {
@@ -18026,22 +17960,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Vai izvēlē",
-          "example": "Caffè o tè?"
+          "example": "Kaffee oder Tee? = Caffè o tè?"
         },
         {
           "word": "ob",
           "meaning": "Vai netiesā jautājumā",
-          "example": "Non so se viene."
+          "example": "Ich weiß nicht, ob er kommt. = Non so se viene."
         },
         {
           "word": "und",
           "meaning": "ODIHR",
-          "example": "Caffè e torta."
+          "example": "Kaffee und Kuchen. = Caffè e torta."
         },
         {
           "word": "aber",
           "meaning": "SZADZIŃSKA",
-          "example": "Vengo, ma più tardi."
+          "example": "Ich komme, aber später. = Vengo, ma più tardi."
         }
       ],
       "tip": {
@@ -18337,22 +18271,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Deret / piestāvēt",
-          "example": "La giacca mi sta bene."
+          "example": "Die Jacke passt mir. = La giacca mi sta bene."
         },
         {
           "word": "stehen",
           "meaning": "Piestāvēt / stāvēt",
-          "example": "Il rosso ti sta bene."
+          "example": "Rot steht dir gut. = Il rosso ti sta bene."
         },
         {
           "word": "geeignet sein",
           "meaning": "Ma piemērotam",
-          "example": "Questo è adatto."
+          "example": "Das ist geeignet. = Questo è adatto."
         },
         {
           "word": "funktionieren",
           "meaning": "Darboties",
-          "example": "Questo funziona."
+          "example": "Das funktioniert. = Questo funziona."
         }
       ],
       "tip": {
@@ -18654,22 +18588,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Izmēēināt / nogaršot",
-          "example": "Assaggia la zuppa!"
+          "example": "Probier mal die Suppe! = Assaggia la zuppa!"
         },
         {
           "word": "versuchen",
           "meaning": "Mēēināt",
-          "example": "Lo provo."
+          "example": "Ich versuche es. = Lo provo."
         },
         {
           "word": "prüfen",
           "meaning": "Parbaudit",
-          "example": "Controllo il conto."
+          "example": "Ich prüfe die Rechnung. = Controllo il conto."
         },
         {
           "word": "anprobieren",
           "meaning": "Pielaïkot",
-          "example": "Provo la giacca."
+          "example": "Ich probiere die Jacke an. = Provo la giacca."
         }
       ],
       "tip": {
@@ -19515,22 +19449,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "Peldēt kākustība vai sports",
-          "example": "Nuota molto bene."
+          "example": "Er schwimmt sehr gut. = Nuota molto bene."
         },
         {
           "word": "baden",
           "meaning": "Peldēties / atrasties ūdenī",
-          "example": "Vado a fare il bagno."
+          "example": "Ich gehe baden. = Vado a fare il bagno."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Da chi? Non importa.",
-          "example": "Andiamo a nuotare."
+          "example": "Wir gehen schwimmen. = Andiamo a nuotare."
         },
         {
           "word": "duschen",
           "meaning": "Mazgāties dušā",
-          "example": "Mi doccia al mattino."
+          "example": "Ich dusche morgens. = Mi doccia al mattino."
         }
       ],
       "tip": {
@@ -19792,22 +19726,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "Redzet",
-          "example": "Ti vedo."
+          "example": "Ich sehe dich. = Ti vedo."
         },
         {
           "word": "schauen",
           "meaning": "Slitte",
-          "example": "Guardo l'immagine."
+          "example": "Ich schaue auf das Bild. = Guardo l'immagine."
         },
         {
           "word": "ansehen",
           "meaning": "Apskatīt / skatīties",
-          "example": "Guardo il film."
+          "example": "Ich sehe mir den Film an."
         },
         {
           "word": "hören",
           "meaning": "Dzirdet",
-          "example": "Ascolto la musica."
+          "example": "Ich höre Musik. = Ascolto la musica."
         }
       ],
       "tip": {
@@ -20041,22 +19975,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Siamo entrambi incasinati a causa delle nostre famiglie,",
-          "example": "Sono qui."
+          "example": "Ich bin hier. = Sono qui."
         },
         {
           "word": "haben",
           "meaning": "J",
-          "example": "Ho tempo."
+          "example": "Ich habe Zeit. = Ho tempo."
         },
         {
           "word": "werden",
           "meaning": "Kļût",
-          "example": "Mi stanco."
+          "example": "Ich werde müde. = Mi stanco."
         },
         {
           "word": "bleiben",
           "meaning": "Palikt",
-          "example": "Rimango qui."
+          "example": "Ich bleibe hier. = Rimango qui."
         }
       ],
       "tip": {
@@ -20458,22 +20392,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "Sevi / sev",
-          "example": "Si lava."
+          "example": "Er wäscht sich. = Si lava."
         },
         {
           "word": "mich",
           "meaning": "Mani / sevi crostata ich",
-          "example": "Mi lavo."
+          "example": "Ich wasche mich. = Mi lavo."
         },
         {
           "word": "dich",
           "meaning": "Tevi / sevi crostata del",
-          "example": "Ti lavi."
+          "example": "Du wäschst dich. = Ti lavi."
         },
         {
           "word": "ihn",
           "meaning": "Viņu",
-          "example": "Lo vedo."
+          "example": "Ich sehe ihn. = Lo vedo."
         }
       ],
       "tip": {
@@ -21192,22 +21126,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "Sedet",
-          "example": "Sono seduto al tavolo."
+          "example": "Ich sitze am Tisch. = Sono seduto al tavolo."
         },
         {
           "word": "stehen",
           "meaning": "Stāvet",
-          "example": "Sta in piedi alla porta."
+          "example": "Er steht an der Tür. = Sta in piedi alla porta."
         },
         {
           "word": "liegen",
           "meaning": "Gulet / atrasties guļus",
-          "example": "Il gatto è lì."
+          "example": "Die Katze liegt dort. = Il gatto è lì."
         },
         {
           "word": "setzen",
           "meaning": "Apsēsties / nosēdināt",
-          "example": "Mi siedo."
+          "example": "Ich setze mich. = Mi siedo."
         }
       ],
       "tip": {
@@ -21462,22 +21396,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Vajadzētu / jādara pēc norādes",
-          "example": "Cosa devo fare?"
+          "example": "Was soll ich machen? = Cosa devo fare?"
         },
         {
           "word": "müssen",
           "meaning": "Obligāti vajadzēt",
-          "example": "Devo andare."
+          "example": "Ich muss gehen. = Devo andare."
         },
         {
           "word": "können",
           "meaning": "Varet",
-          "example": "Posso venire."
+          "example": "Ich kann kommen. = Posso venire."
         },
         {
           "word": "wollen",
           "meaning": "Gribet",
-          "example": "Voglio restare."
+          "example": "Ich will bleiben. = Voglio restare."
         }
       ],
       "tip": {
@@ -21764,22 +21698,22 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "Stāvēt / atrasties stāvus",
-          "example": "Sto in piedi qui."
+          "example": "Ich stehe hier. = Sto in piedi qui."
         },
         {
           "word": "sitzen",
           "meaning": "Sedet",
-          "example": "È seduto al tavolo."
+          "example": "Er sitzt am Tisch. = È seduto al tavolo."
         },
         {
           "word": "liegen",
           "meaning": "Gulet / atrasties guļus",
-          "example": "Il libro è lì."
+          "example": "Das Buch liegt dort. = Il libro è lì."
         },
         {
           "word": "stellen",
           "meaning": "Nolikt Stavus",
-          "example": "Metto la bottiglia lì."
+          "example": "Ich stelle die Flasche hin. = Metto la bottiglia lì."
         }
       ],
       "tip": {
@@ -27302,6 +27236,7 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "Atvaųinājums",
     "level": "A1",
     "study": {

@@ -19681,7 +19681,7 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "recibir todos los días",
-          "example": "Ich bekomme eine E-Recibí un correo electrónico. = Recibo un correo electrónico."
+          "example": "Ich bekomme eine E-Mail. = Recibo un correo electrónico."
         },
         {
           "word": "begrüßen",
@@ -31682,7 +31682,7 @@ const B1_WORDS = [
   {
     "de": "Jagderlaubnis",
     "de_article": "die",
-    "de_plural": "die Jagderlaubse",
+    "de_plural": "die Jagderlaubnisse",
     "lv": "permiso de caza",
     "level": "B1"
   },
@@ -46082,7 +46082,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "enviar",
-          "example": "Ich schicke dir eine E-Te envié un correo electrónico. = Te envío un correo electrónico."
+          "example": "Ich schicke dir eine E-Mail. = Te envío un correo electrónico."
         },
         {
           "word": "urteilen",
@@ -66002,6 +66002,7 @@ const B1_WORDS = [
   {
     "de": "Schaden",
     "de_article": "der",
+    "de_plural": "die Schäden",
     "lv": "pérdida • daño",
     "level": "B1",
     "study": {

@@ -20477,7 +20477,7 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "gauti kasdien",
-          "example": "Ich bekomme eine E-laišką."
+          "example": "Ich bekomme eine E-Mail."
         },
         {
           "word": "begrüßen",
@@ -33144,7 +33144,7 @@ const B1_WORDS = [
   {
     "de": "Jagderlaubnis",
     "de_article": "die",
-    "de_plural": "die Jagderlaubse",
+    "de_plural": "die Jagderlaubnisse",
     "lv": "medžioklės leidimas",
     "level": "B1"
   },
@@ -47589,7 +47589,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "siųsti",
-          "example": "Ich schicke dir eine E-laišką."
+          "example": "Ich schicke dir eine E-Mail."
         },
         {
           "word": "urteilen",
@@ -67009,6 +67009,7 @@ const B1_WORDS = [
   {
     "de": "Schaden",
     "de_article": "der",
+    "de_plural": "die Schäden",
     "lv": "nuostolis • sugadinimas",
     "level": "B1",
     "study": {

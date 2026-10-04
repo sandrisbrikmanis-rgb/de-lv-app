@@ -1,0 +1,19 @@
+{
+  "originMain": "f00f6b72afd693a8f6f86b42cd1631a0be7d9a6d",
+  "pr859": { "number": 859, "state": "OPEN", "mergedAt": null, "head": "fc892441307135d49c4709b29957510d86b00ec4" },
+  "pr863": { "number": 863, "state": "OPEN", "mergedAt": null, "heads": ["71933349c999ad840840e125d4d1b25fa815627e", "f56fc2f9610ce8224e3b2ab7f7f53137b144d0ff"] },
+  "merge859": "a4a82340d336904ca8927d770518696cdd9e50eb",
+  "merge863": "56126e3d73a280fed9d21886ab2e31edd97057fe",
+  "dataDiff": { "files": 194, "insertions": 514, "deletions": 194 },
+  "nodeCheckFailures": 0,
+  "identity": "IDENTITY_OK",
+  "dePluralMismatches": 12,
+  "dePluralOnly": "B2[1443] Pfahlbau",
+  "totalMismatches": 7593,
+  "emptyPluralObservation": 493,
+  "emptyPluralNouns": 493,
+  "pluralStemReview": 20,
+  "pagesWorkflow": "pages-build-deployment",
+  "pagesSource": { "branch": "main", "path": "/" },
+  "wwwDataPublishedWithPages": true
+}

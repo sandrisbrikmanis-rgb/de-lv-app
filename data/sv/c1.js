@@ -4171,10 +4171,6 @@ const C1_WORDS = [
         {
           "de": "beziehen / sich beziehen auf.",
           "lv": "Ta saab juba aasta pensioni."
-        },
-        {
-          "de": "Der Bericht bezieht sich auf die Ereignisse des letzten Jahres.",
-          "lv": "Aruanne käib eelmise aasta sündmuste kohta."
         }
       ],
       "tip": [

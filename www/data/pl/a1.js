@@ -149,14 +149,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Dziecko jest jeszcze małe."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Mam małą torebkę."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Dziecko jest małe."
         }
       ],
       "tip": [
@@ -1747,22 +1739,22 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "Pływać / przebywać w wodzie / myć się",
-          "example": "Idę się kąpać."
+          "example": "Ich gehe baden. = Idę się kąpać."
         },
         {
           "word": "schwimmen",
           "meaning": "Pływanie jako ruch lub sport",
-          "example": "On bardzo dobrze pływa."
+          "example": "Er schwimmt sehr gut. = On bardzo dobrze pływa."
         },
         {
           "word": "duschen",
           "meaning": "Wziąć prysznic",
-          "example": "Prysznicuję się rano."
+          "example": "Ich dusche am Morgen. = Prysznicuję się rano."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Idź popływać",
-          "example": "Idę dzisiaj pływać."
+          "example": "Ich gehe heute schwimmen. = Idę dzisiaj pływać."
         }
       ],
       "tip": {
@@ -2617,11 +2609,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "Dopóki",
           "example": "Bis jetzt habe ich nichts verstanden. – Czekam aż przyjdziesz."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "Aż do teraz, do dzisiaj",
-          "example": "Bis jetzt ist alles gut. – Na razie w porządku."
         }
       ],
       "tip": {
@@ -2743,18 +2730,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "Poproszę jedną filiżankę kawy."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Czy mogę zapytać?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mam jedną prośbę."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Prośba jest ważna."
         }
       ],
       "tip": [
@@ -2865,18 +2840,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "Poproszę jedną filiżankę kawy."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Czy mogę zapytać?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mam jedną prośbę."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Prośba jest ważna."
         }
       ],
       "tip": [
@@ -3031,22 +2994,22 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "Zostawać",
-          "example": "Zostanę tutaj."
+          "example": "Ich bleibe hier. = Zostanę tutaj."
         },
         {
           "word": "gehen",
           "meaning": "Iść / wyjść pieszo",
-          "example": "Idę do domu."
+          "example": "Ich gehe nach Hause. = Idę do domu."
         },
         {
           "word": "fahren",
           "meaning": "Jechać / jechać transportem",
-          "example": "Jadę do domu."
+          "example": "Ich fahre nach Hause. = Jadę do domu."
         },
         {
           "word": "warten",
           "meaning": "Czekać",
-          "example": "Czekam tutaj."
+          "example": "Ich warte hier. = Czekam tutaj."
         }
       ],
       "tip": {
@@ -3268,10 +3231,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Zabiera książkę do szkoły."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Biorę książkę"
         }
       ],
       "comparison": [
@@ -3570,22 +3529,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Tam • Tutaj • Tutaj (ogólnie)",
-          "example": "Tam jest moje auto."
+          "example": "Da ist mein Auto."
         },
         {
           "word": "hier",
           "meaning": "Tutaj (w konkretnym miejscu)",
-          "example": "Tutaj jest moje auto."
+          "example": "Hier ist mein Auto."
         },
         {
           "word": "dort",
           "meaning": "Tam (dalej)",
-          "example": "Tam jest moje auto."
+          "example": "Dort ist mein Auto."
         },
         {
           "word": "dann",
           "meaning": "Następnie",
-          "example": "Wtedy idziemy do domu."
+          "example": "Dann gehen wir nach Hause. = Wtedy idziemy do domu."
         }
       ],
       "tip": {
@@ -4550,22 +4509,22 @@ const A1_WORDS = [
         {
           "word": "ein Mann",
           "meaning": "rodzaj męski",
-          "example": "Człowiek czeka na zewnątrz."
+          "example": "Ein Mann wartet draußen. = Człowiek czeka na zewnątrz."
         },
         {
           "word": "eine Frau",
           "meaning": "rodzaj żeński",
-          "example": "kobieta"
+          "example": "eine Frau = kobieta"
         },
         {
           "word": "ein Buch",
           "meaning": "rodzaj nijaki",
-          "example": "Mam książkę."
+          "example": "Ich habe ein Buch. = Mam książkę."
         },
         {
           "word": "einen Mann",
           "meaning": "biernik",
-          "example": "mężczyznę"
+          "example": "einen Mann = mężczyznę"
         }
       ]
     }
@@ -4804,6 +4763,7 @@ const A1_WORDS = [
   {
     "de": "Ende",
     "de_article": "das",
+    "de_plural": "die Enden",
     "lv": "Koniec",
     "level": "A1"
   },
@@ -5042,14 +5002,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "To moja książka."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Pada deszcz"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Pada śnieg"
         }
       ],
       "info": [
@@ -5486,27 +5438,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "Jeździć transportem",
-          "example": "Jadę autobusem."
+          "example": "Ich fahre mit dem Bus. = Jadę autobusem."
         },
         {
           "word": "gehen",
           "meaning": "Iść pieszo",
-          "example": "Idę do domu."
+          "example": "Ich gehe nach Hause. = Idę do domu."
         },
         {
           "word": "laufen",
           "meaning": "Biegnij/idź",
-          "example": "On szybko biegnie."
+          "example": "Er läuft schnell. = On szybko biegnie."
         },
         {
           "word": "bringen",
           "meaning": "Przynieść/dostarczyć",
-          "example": "Niosę książkę."
+          "example": "Ich bringe das Buch. = Niosę książkę."
         },
         {
           "word": "mitnehmen",
           "meaning": "Zabrać ze sobą",
-          "example": "Biore cię ze sobą."
+          "example": "Ich nehme dich mit. = Biore cię ze sobą."
         }
       ],
       "tip": {
@@ -5842,10 +5794,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "Wydaje mi się to dobre."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Co sądzisz o filmie?"
         }
       ],
       "comparison": [
@@ -5853,21 +5801,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "Znaleźć/rozważyć",
           "example": "Ich finde das gut. = Myślę, że to jest dobre."
-        },
-        {
-          "word": "suchen",
-          "meaning": "Szukać",
-          "example": "Ich suche den Schlüssel. = Szukam klucza."
-        },
-        {
-          "word": "denken",
-          "meaning": "Myśleć",
-          "example": "Myślę o tobie. = Myślę o tobie."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Wierzyć/myśleć",
-          "example": "Ich glaube, er kommt. = Myślę, że przyjdzie."
         }
       ],
       "tip": {
@@ -6579,22 +6512,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "Dać",
-          "example": "Daj mi książkę."
+          "example": "Gib mir das Buch. = Daj mi książkę."
         },
         {
           "word": "nehmen",
           "meaning": "Brać / brać",
-          "example": "Biorę książkę."
+          "example": "Ich nehme das Buch. = Biorę książkę."
         },
         {
           "word": "bekommen",
           "meaning": "Otrzymać / dostać",
-          "example": "Otrzymuję prezent."
+          "example": "Ich bekomme ein Geschenk. = Otrzymuję prezent."
         },
         {
           "word": "bringen",
           "meaning": "Przynieść/dostarczyć",
-          "example": "Niosę ci książkę."
+          "example": "Ich bringe dir das Buch. = Niosę ci książkę."
         }
       ],
       "tip": {
@@ -10803,22 +10736,22 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Kraj / kraina / wieś",
-          "example": "Niemcy to kraj."
+          "example": "Deutschland ist ein Land. = Niemcy to kraj."
         },
         {
           "word": "die Stadt",
           "meaning": "Miasto",
-          "example": "Mieszkam w mieście."
+          "example": "Ich wohne in der Stadt. = Mieszkam w mieście."
         },
         {
           "word": "das Dorf",
           "meaning": "Wieś",
-          "example": "On mieszka w wiosce."
+          "example": "Er lebt in einem Dorf. = On mieszka w wiosce."
         },
         {
           "word": "die Erde",
           "meaning": "Ziemia/planeta",
-          "example": "Ziemia jest okrągła."
+          "example": "Die Erde ist rund. = Ziemia jest okrągła."
         }
       ],
       "tip": {
@@ -11129,22 +11062,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Zostaw/pozwól",
-          "example": "Zostawiam to tutaj."
+          "example": "Ich lasse das hier. = Zostawiam to tutaj."
         },
         {
           "word": "bleiben",
           "meaning": "Zostawać",
-          "example": "Zostanę tutaj."
+          "example": "Ich bleibe hier. = Zostanę tutaj."
         },
         {
           "word": "erlauben",
           "meaning": "Umożliwić",
-          "example": "Ona mi to pozwala."
+          "example": "Sie erlaubt mir das. = Ona mi to pozwala."
         },
         {
           "word": "geben",
           "meaning": "Dać",
-          "example": "Daj mi książkę."
+          "example": "Gib mir das Buch. = Daj mi książkę."
         }
       ],
       "tip": {
@@ -11310,22 +11243,22 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Biegać/działać",
-          "example": "On szybko biegnie."
+          "example": "Er läuft schnell. = On szybko biegnie."
         },
         {
           "word": "gehen",
           "meaning": "Iść pieszo",
-          "example": "Idę do domu."
+          "example": "Ich gehe nach Hause. = Idę do domu."
         },
         {
           "word": "fahren",
           "meaning": "Jeździć transportem",
-          "example": "Jadę autobusem."
+          "example": "Ich fahre mit dem Bus. = Jadę autobusem."
         },
         {
           "word": "funktionieren",
           "meaning": "Działać",
-          "example": "To działa dobrze."
+          "example": "Das funktioniert gut. = To działa dobrze."
         }
       ],
       "tip": {
@@ -11768,22 +11701,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Położyć",
-          "example": "Kładę książkę na stole."
+          "example": "Ich lege das Buch auf den Tisch. = Kładę książkę na stole."
         },
         {
           "word": "liegen",
           "meaning": "Być/spać",
-          "example": "Książka leży na stole."
+          "example": "Das Buch liegt auf dem Tisch. = Książka leży na stole."
         },
         {
           "word": "stellen",
           "meaning": "Postawić pionowo",
-          "example": "Stawiałam butelkę na stole."
+          "example": "Ich stelle die Flasche auf den Tisch. = Stawiałam butelkę na stole."
         },
         {
           "word": "setzen",
           "meaning": "Usiądź / usiądź",
-          "example": "Siadam."
+          "example": "Ich setze mich. = Siadam."
         }
       ],
       "tip": {
@@ -12147,22 +12080,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Być/spać",
-          "example": "Książka leży tutaj."
+          "example": "Das Buch liegt hier. = Książka leży tutaj."
         },
         {
           "word": "legen",
           "meaning": "Położyć",
-          "example": "Kładę książkę tutaj."
+          "example": "Ich lege das Buch hierhin. = Kładę książkę tutaj."
         },
         {
           "word": "stehen",
           "meaning": "Stać/stać",
-          "example": "Butelka stoi na stole."
+          "example": "Die Flasche steht auf dem Tisch. = Butelka stoi na stole."
         },
         {
           "word": "sein",
           "meaning": "Być",
-          "example": "Jestem tutaj."
+          "example": "Ich bin hier. = Jestem tutaj."
         }
       ],
       "tip": {
@@ -12938,22 +12871,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "Z / razem z",
-          "example": "Idę z tobą."
+          "example": "Ich komme mit dir. = Idę z tobą."
         },
         {
           "word": "ohne",
           "meaning": "Bez",
-          "example": "Idę bez ciebie."
+          "example": "Ich komme ohne dich. = Idę bez ciebie."
         },
         {
           "word": "bei",
           "meaning": "U/u kogoś",
-          "example": "Jestem z Anną."
+          "example": "Ich bin bei Anna. = Jestem z Anną."
         },
         {
           "word": "zu",
           "meaning": "Do / o godz",
-          "example": "Idę do lekarza."
+          "example": "Ich gehe zum Arzt. = Idę do lekarza."
         }
       ],
       "tip": {
@@ -13153,22 +13086,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Lubić",
-          "example": "Lubię muzykę."
+          "example": "Ich mag Musik. = Lubię muzykę."
         },
         {
           "word": "möchte",
           "meaning": "Chciałbym",
-          "example": "Chcę kawę."
+          "example": "Ich möchte Kaffee. = Chcę kawę."
         },
         {
           "word": "wollen",
           "meaning": "Chcę",
-          "example": "Chcę do domu."
+          "example": "Ich will nach Hause. = Chcę do domu."
         },
         {
           "word": "lieben",
           "meaning": "Kochać",
-          "example": "Kocham cię."
+          "example": "Ich liebe dich. = Kocham cię."
         }
       ],
       "tip": {
@@ -13447,6 +13380,7 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
+    "de_plural": "die Morgen",
     "lv": "Poranek",
     "level": "A1",
     "study": {
@@ -13628,22 +13562,22 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Muszę/muszę zrobić",
-          "example": "Muszę iść."
+          "example": "Ich muss gehen. = Muszę iść."
         },
         {
           "word": "können",
           "meaning": "Móc/wiedzieć",
-          "example": "Mogę przyjść."
+          "example": "Ich kann kommen. = Mogę przyjść."
         },
         {
           "word": "wollen",
           "meaning": "Chcę",
-          "example": "Chcę do domu."
+          "example": "Ich will nach Hause. = Chcę do domu."
         },
         {
           "word": "dürfen",
           "meaning": "Być dozwolone",
-          "example": "Czy mogę iść?"
+          "example": "Darf ich gehen? = Czy mogę iść?"
         }
       ],
       "tip": {
@@ -13820,22 +13754,22 @@ const A1_WORDS = [
         {
           "word": "nach",
           "meaning": "Do / po",
-          "example": "Jadę do Berlina."
+          "example": "Ich fahre nach Berlin. = Jadę do Berlina."
         },
         {
           "word": "zu",
           "meaning": "Do / o godz",
-          "example": "Idę do lekarza."
+          "example": "Ich gehe zum Arzt. = Idę do lekarza."
         },
         {
           "word": "in",
           "meaning": "W / do miejsca z artykułem",
-          "example": "Idę do szkoły."
+          "example": "Ich gehe in die Schule. = Idę do szkoły."
         },
         {
           "word": "vor",
           "meaning": "Przed/przed",
-          "example": "Przed jedzeniem myję ręce."
+          "example": "Vor dem Essen wasche ich die Hände. = Przed jedzeniem myję ręce."
         }
       ],
       "tip": {
@@ -14173,22 +14107,22 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "Brać / brać",
-          "example": "Weź książkę!"
+          "example": "Nimm das Buch! = Weź książkę!"
         },
         {
           "word": "bringen",
           "meaning": "Przynieś / weź / dostarcz",
-          "example": "Niosę ci książkę."
+          "example": "Ich bringe dir das Buch. = Niosę ci książkę."
         },
         {
           "word": "holen",
           "meaning": "Iść za / przynieść",
-          "example": "Przynoszę wodę."
+          "example": "Ich hole Wasser. = Przynoszę wodę."
         },
         {
           "word": "mitnehmen",
           "meaning": "Zabrać ze sobą",
-          "example": "Biore cię ze sobą."
+          "example": "Ich nehme dich mit. = Biore cię ze sobą."
         }
       ],
       "tip": {
@@ -14824,22 +14758,22 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "Lub w pytaniu pośrednim",
-          "example": "Nie wiem, czy on przyjdzie."
+          "example": "Ich weiß nicht, ob er kommt. = Nie wiem, czy on przyjdzie."
         },
         {
           "word": "oder",
           "meaning": "Lub wybierz jedną z opcji",
-          "example": "Kawa czy herbata?"
+          "example": "Kaffee oder Tee? = Kawa czy herbata?"
         },
         {
           "word": "wenn",
           "meaning": "Jeśli/kiedy",
-          "example": "Jeśli masz czas..."
+          "example": "Wenn du Zeit hast... = Jeśli masz czas..."
         },
         {
           "word": "dass",
           "meaning": "To",
-          "example": "Wiem, że on przyjdzie."
+          "example": "Ich weiß, dass er kommt. = Wiem, że on przyjdzie."
         }
       ],
       "tip": {
@@ -15012,22 +14946,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Lub wybierz",
-          "example": "Kawa czy herbata?"
+          "example": "Kaffee oder Tee? = Kawa czy herbata?"
         },
         {
           "word": "ob",
           "meaning": "Lub w pytaniu pośrednim",
-          "example": "Nie wiem, czy on przyjdzie."
+          "example": "Ich weiß nicht, ob er kommt. = Nie wiem, czy on przyjdzie."
         },
         {
           "word": "und",
           "meaning": "I",
-          "example": "Kawa i ciasto."
+          "example": "Kaffee und Kuchen. = Kawa i ciasto."
         },
         {
           "word": "aber",
           "meaning": "Ale",
-          "example": "Przyjdę, ale później."
+          "example": "Ich komme, aber später. = Przyjdę, ale później."
         }
       ],
       "tip": {
@@ -15261,22 +15195,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Pasuje / pasuje",
-          "example": "Kurtka mi pasuje."
+          "example": "Die Jacke passt mir. = Kurtka mi pasuje."
         },
         {
           "word": "stehen",
           "meaning": "Stać / stać",
-          "example": "Czerwony ci dobrze wygląda."
+          "example": "Rot steht dir gut. = Czerwony ci dobrze wygląda."
         },
         {
           "word": "geeignet sein",
           "meaning": "Być odpowiednim",
-          "example": "To jest odpowiednie."
+          "example": "Das ist geeignet. = To jest odpowiednie."
         },
         {
           "word": "funktionieren",
           "meaning": "Działać",
-          "example": "To działa."
+          "example": "Das funktioniert. = To działa."
         }
       ],
       "tip": {
@@ -15511,22 +15445,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Spróbować/posmakować",
-          "example": "Spróbuj zupę!"
+          "example": "Probier mal die Suppe! = Spróbuj zupę!"
         },
         {
           "word": "versuchen",
           "meaning": "Spróbować",
-          "example": "Próbuję."
+          "example": "Ich versuche es. = Próbuję."
         },
         {
           "word": "prüfen",
           "meaning": "Sprawdzić",
-          "example": "Sprawdzam rachunek."
+          "example": "Ich prüfe die Rechnung. = Sprawdzam rachunek."
         },
         {
           "word": "anprobieren",
           "meaning": "Przymierzyć",
-          "example": "Przymierzam kurtkę."
+          "example": "Ich probiere die Jacke an. = Przymierzam kurtkę."
         }
       ],
       "tip": {
@@ -16269,22 +16203,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "Pływanie jako ruch lub sport",
-          "example": "On bardzo dobrze pływa."
+          "example": "Er schwimmt sehr gut. = On bardzo dobrze pływa."
         },
         {
           "word": "baden",
           "meaning": "Pływać/być w wodzie",
-          "example": "Idę się kąpać."
+          "example": "Ich gehe baden. = Idę się kąpać."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Idź popływać",
-          "example": "Idziemy pływać."
+          "example": "Wir gehen schwimmen. = Idziemy pływać."
         },
         {
           "word": "duschen",
           "meaning": "Wziąć prysznic",
-          "example": "Prysznicuję się rano."
+          "example": "Ich dusche morgens. = Prysznicuję się rano."
         }
       ],
       "tip": {
@@ -16498,22 +16432,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "Zobaczyć",
-          "example": "Cię widzę."
+          "example": "Ich sehe dich. = Cię widzę."
         },
         {
           "word": "schauen",
           "meaning": "Oglądać",
-          "example": "Patrzę na obraz."
+          "example": "Ich schaue auf das Bild. = Patrzę na obraz."
         },
         {
           "word": "ansehen",
           "meaning": "Oglądać / patrzeć",
-          "example": "Oglądam film."
+          "example": "Ich sehe mir den Film an."
         },
         {
           "word": "hören",
           "meaning": "Usłyszeć",
-          "example": "Słucham muzyki."
+          "example": "Ich höre Musik. = Słucham muzyki."
         }
       ],
       "tip": {
@@ -16695,22 +16629,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Być",
-          "example": "Jestem tutaj."
+          "example": "Ich bin hier. = Jestem tutaj."
         },
         {
           "word": "haben",
           "meaning": "Mam",
-          "example": "Mam czas."
+          "example": "Ich habe Zeit. = Mam czas."
         },
         {
           "word": "werden",
           "meaning": "Stać się",
-          "example": "Będę zmęczony."
+          "example": "Ich werde müde. = Będę zmęczony."
         },
         {
           "word": "bleiben",
           "meaning": "Zostawać",
-          "example": "Zostanę tutaj."
+          "example": "Ich bleibe hier. = Zostanę tutaj."
         }
       ],
       "tip": {
@@ -17022,22 +16956,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "Ja/sam",
-          "example": "On się myje."
+          "example": "Er wäscht sich. = On się myje."
         },
         {
           "word": "mich",
           "meaning": "Ja / ja w ich",
-          "example": "Myję się."
+          "example": "Ich wasche mich. = Myję się."
         },
         {
           "word": "dich",
           "meaning": "Ty / ja w du",
-          "example": "Myjesz się."
+          "example": "Du wäschst dich. = Myjesz się."
         },
         {
           "word": "ihn",
           "meaning": "Jego",
-          "example": "Widzę go."
+          "example": "Ich sehe ihn. = Widzę go."
         }
       ],
       "tip": {
@@ -17616,22 +17550,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "Siedzieć",
-          "example": "Sedzę przy stole."
+          "example": "Ich sitze am Tisch. = Sedzę przy stole."
         },
         {
           "word": "stehen",
           "meaning": "Stać",
-          "example": "On stoi przy drzwiach."
+          "example": "Er steht an der Tür. = On stoi przy drzwiach."
         },
         {
           "word": "liegen",
           "meaning": "Spać/leżeć",
-          "example": "Kot leży tam."
+          "example": "Die Katze liegt dort. = Kot leży tam."
         },
         {
           "word": "setzen",
           "meaning": "Siedzieć / siedzieć",
-          "example": "Siadam."
+          "example": "Ich setze mich. = Siadam."
         }
       ],
       "tip": {
@@ -17841,22 +17775,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Powinien / powinien postępować zgodnie z zaleceniami",
-          "example": "Co mam zrobić?"
+          "example": "Was soll ich machen? = Co mam zrobić?"
         },
         {
           "word": "müssen",
           "meaning": "Absolutnie potrzebuję",
-          "example": "Muszę iść."
+          "example": "Ich muss gehen. = Muszę iść."
         },
         {
           "word": "können",
           "meaning": "Móc",
-          "example": "Mogę przyjść."
+          "example": "Ich kann kommen. = Mogę przyjść."
         },
         {
           "word": "wollen",
           "meaning": "Chcę",
-          "example": "Chcę zostać."
+          "example": "Ich will bleiben. = Chcę zostać."
         }
       ],
       "tip": {
@@ -18092,22 +18026,22 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "Stać/stać",
-          "example": "Stoję tutaj."
+          "example": "Ich stehe hier. = Stoję tutaj."
         },
         {
           "word": "sitzen",
           "meaning": "Siedzieć",
-          "example": "On siedzi przy stole."
+          "example": "Er sitzt am Tisch. = On siedzi przy stole."
         },
         {
           "word": "liegen",
           "meaning": "Spać/leżeć",
-          "example": "Książka leży tam."
+          "example": "Das Buch liegt dort. = Książka leży tam."
         },
         {
           "word": "stellen",
           "meaning": "Postawić pionowo",
-          "example": "Stawiam butelkę."
+          "example": "Ich stelle die Flasche hin. = Stawiam butelkę."
         }
       ],
       "tip": {
@@ -18498,22 +18432,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Ponad / ponad / w poprzek",
-          "example": "Mówimy o pogodzie."
+          "example": "Wir sprechen über das Wetter. = Mówimy o pogodzie."
         },
         {
           "word": "auf",
           "meaning": "Zewnętrznie",
-          "example": "Książka leży na stole."
+          "example": "Das Buch liegt auf dem Tisch. = Książka leży na stole."
         },
         {
           "word": "unter",
           "meaning": "Pod",
-          "example": "Torba jest pod stołem."
+          "example": "Die Tasche ist unter dem Tisch. = Torba jest pod stołem."
         },
         {
           "word": "von",
           "meaning": "Z/około z jakiegoś źródła",
-          "example": "Słyszę od ciebie."
+          "example": "Ich höre von dir. = Słyszę od ciebie."
         }
       ],
       "tip": {
@@ -18704,22 +18638,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "W / wokół / do",
-          "example": "Przychodzę o ósmej."
+          "example": "Ich komme um acht. = Przychodzę o ósmej."
         },
         {
           "word": "am",
           "meaning": "Dziennie / o godz",
-          "example": "W poniedziałek przychodzę."
+          "example": "Am Montag komme ich. = W poniedziałek przychodzę."
         },
         {
           "word": "gegen",
           "meaning": "Około czasu / vs",
-          "example": "Przychodzę około ósmej."
+          "example": "Ich komme gegen acht. = Przychodzę około ósmej."
         },
         {
           "word": "für",
           "meaning": "Za/na rzecz",
-          "example": "To jest dla ciebie."
+          "example": "Das ist für dich. = To jest dla ciebie."
         }
       ],
       "tip": {
@@ -18894,22 +18828,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "Pod / pomiędzy",
-          "example": "Torba jest pod stołem."
+          "example": "Die Tasche ist unter dem Tisch. = Torba jest pod stołem."
         },
         {
           "word": "über",
           "meaning": "Ponad / za",
-          "example": "Lampa wisi nad stołem."
+          "example": "Die Lampe hängt über dem Tisch. = Lampa wisi nad stołem."
         },
         {
           "word": "zwischen",
           "meaning": "Pomiędzy dwiema rzeczami",
-          "example": "Między domami."
+          "example": "Zwischen den Häusern. = Między domami."
         },
         {
           "word": "auf",
           "meaning": "Zewnętrznie",
-          "example": "Na stole."
+          "example": "Auf dem Tisch. = Na stole."
         }
       ],
       "tip": {
@@ -19119,22 +19053,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "Zrozumieć",
-          "example": "Cię rozumiem."
+          "example": "Ich verstehe dich. = Cię rozumiem."
         },
         {
           "word": "können",
           "meaning": "Móc/wiedzieć",
-          "example": "Mogę pływać."
+          "example": "Ich kann schwimmen. = Mogę pływać."
         },
         {
           "word": "wissen",
           "meaning": "Znam fakt",
-          "example": "To wiem."
+          "example": "Ich weiß das. = To wiem."
         },
         {
           "word": "kennen",
           "meaning": "Wiedzieć",
-          "example": "Znam go."
+          "example": "Ich kenne ihn. = Znam go."
         }
       ],
       "tip": {
@@ -19626,22 +19560,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "Przed/przed",
-          "example": "Przed jedzeniem..."
+          "example": "Vor dem Essen... = Przed jedzeniem..."
         },
         {
           "word": "nach",
           "meaning": "Po / do",
-          "example": "Po jedzeniu..."
+          "example": "Nach dem Essen... = Po jedzeniu..."
         },
         {
           "word": "neben",
           "meaning": "Obok",
-          "example": "Obok domu."
+          "example": "Neben dem Haus. = Obok domu."
         },
         {
           "word": "hinter",
           "meaning": "Za",
-          "example": "Za domem."
+          "example": "Hinter dem Haus. = Za domem."
         }
       ],
       "tip": {
@@ -20052,22 +19986,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Jeśli/kiedy",
-          "example": "Jeśli masz czas..."
+          "example": "Wenn du Zeit hast... = Jeśli masz czas..."
         },
         {
           "word": "ob",
           "meaning": "Lub w pytaniu pośrednim",
-          "example": "Nie wiem, czy..."
+          "example": "Ich weiß nicht, ob... = Nie wiem, czy..."
         },
         {
           "word": "wann",
           "meaning": "Kiedy o to chodzi",
-          "example": "Kiedy przychodzisz?"
+          "example": "Wann kommst du? = Kiedy przychodzisz?"
         },
         {
           "word": "weil",
           "meaning": "Ponieważ",
-          "example": "Zostają, bo jestem chory/chora."
+          "example": "Ich bleibe, weil ich krank bin. = Zostają, bo jestem chory/chora."
         }
       ],
       "tip": {
@@ -20385,22 +20319,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "Stać się",
-          "example": "Robię się zmęczony/zmęczona."
+          "example": "Ich werde müde. = Robię się zmęczony/zmęczona."
         },
         {
           "word": "sein",
           "meaning": "Być",
-          "example": "Jestem zmęczony/zmęczona."
+          "example": "Ich bin müde. = Jestem zmęczony/zmęczona."
         },
         {
           "word": "bleiben",
           "meaning": "Zostawać",
-          "example": "Zostają tutaj."
+          "example": "Ich bleibe hier. = Zostają tutaj."
         },
         {
           "word": "machen",
           "meaning": "Zrobić/zrobić",
-          "example": "Robię to."
+          "example": "Ich mache das. = Robię to."
         }
       ],
       "tip": {
@@ -20583,22 +20517,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Warunki atmosferyczne",
-          "example": "Pogoda jest ładna."
+          "example": "Das Wetter ist schön. = Pogoda jest ładna."
         },
         {
           "word": "Zeit",
           "meaning": "Czas (chwila)",
-          "example": "Nie mam czasu."
+          "example": "Ich habe keine Zeit. = Nie mam czasu."
         },
         {
           "word": "Regen",
           "meaning": "Deszcz",
-          "example": "Pada dużo deszczu."
+          "example": "Es gibt viel Regen. = Pada dużo deszczu."
         },
         {
           "word": "Sonne",
           "meaning": "Słońce",
-          "example": "Słońce świeci."
+          "example": "Die Sonne scheint. = Słońce świeci."
         }
       ],
       "tip": [
@@ -20960,22 +20894,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "Do / w / też / bezokolicznik",
-          "example": "Idę do lekarza."
+          "example": "Ich gehe zum Arzt. = Idę do lekarza."
         },
         {
           "word": "nach",
           "meaning": "Z miastami/krajami",
-          "example": "Jadę do Berlina."
+          "example": "Ich fahre nach Berlin. = Jadę do Berlina."
         },
         {
           "word": "in",
           "meaning": "W/do miejsca",
-          "example": "Idę do szkoły."
+          "example": "Ich gehe in die Schule. = Idę do szkoły."
         },
         {
           "word": "bei",
           "meaning": "U kogoś/w pracy",
-          "example": "Jestem u Anny."
+          "example": "Ich bin bei Anna. = Jestem u Anny."
         }
       ],
       "tip": {
@@ -21156,22 +21090,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "Pociąg",
-          "example": "Pociąg przyjeżdża."
+          "example": "Der Zug kommt. = Pociąg przyjeżdża."
         },
         {
           "word": "die Bahn",
           "meaning": "Kolej / podróż pociągiem",
-          "example": "Jadę pociągiem."
+          "example": "Ich fahre mit der Bahn. = Jadę pociągiem."
         },
         {
           "word": "der Bus",
           "meaning": "Autobus",
-          "example": "Autobus przyjeżdża."
+          "example": "Der Bus kommt. = Autobus przyjeżdża."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Tramwajowy",
-          "example": "Tramwaj jest tutaj."
+          "example": "Die Straßenbahn ist hier. = Tramwaj jest tutaj."
         }
       ],
       "tip": {
@@ -22624,6 +22558,7 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "Wakacje",
     "level": "A1",
     "study": {

@@ -1799,22 +1799,22 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "Swim / be in water / wash",
-          "example": "I go swimming."
+          "example": "Ich gehe baden. = I go swimming."
         },
         {
           "word": "schwimmen",
           "meaning": "To swim as a movement or sport",
-          "example": "He swims very well."
+          "example": "Er schwimmt sehr gut. = He swims very well."
         },
         {
           "word": "duschen",
           "meaning": "Take a shower",
-          "example": "I shower in the morning."
+          "example": "Ich dusche am Morgen. = I shower in the morning."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Go swimming",
-          "example": "I go swimming today."
+          "example": "Ich gehe heute schwimmen. = I go swimming today."
         }
       ],
       "tip": {
@@ -2685,11 +2685,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "until now • so far",
           "example": "Bis jetzt habe ich nichts verstanden. – So far, I haven't understood anything."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "Until now, until this day",
-          "example": "Bis jetzt ist alles gut. – So far so good."
         }
       ],
       "tip": {
@@ -3089,22 +3084,22 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "Stay",
-          "example": "I stay here."
+          "example": "Ich bleibe hier. = I stay here."
         },
         {
           "word": "gehen",
           "meaning": "Go / leave on foot",
-          "example": "I go home."
+          "example": "Ich gehe nach Hause. = I go home."
         },
         {
           "word": "fahren",
           "meaning": "Drive / go by transport",
-          "example": "I drive home."
+          "example": "Ich fahre nach Hause. = I drive home."
         },
         {
           "word": "warten",
           "meaning": "To wait",
-          "example": "I wait here."
+          "example": "Ich warte hier. = I wait here."
         }
       ],
       "tip": {
@@ -3354,27 +3349,27 @@ const A1_WORDS = [
         {
           "word": "bringen",
           "meaning": "Bring / take / deliver",
-          "example": "I bring you a book. – Es tev atnesu grāmatu."
+          "example": "Ich bringe dir ein Buch. – Es tev atnesu grāmatu."
         },
         {
           "word": "bringen",
           "meaning": "To take / to take",
-          "example": "I bring the parcel to the post office. – Es aiznesu paku uz pastu."
+          "example": "Ich bringe das Paket zur Post. – Es aiznesu paku uz pastu."
         },
         {
           "word": "bringen",
           "meaning": "Go after / fetch",
-          "example": "I take the children to school. – Es aizvedu bērnus uz skolu."
+          "example": "Ich bringe die Kinder zur Schule. – Es aizvedu bērnus uz skolu."
         },
         {
           "word": "bringen",
           "meaning": "Take away and bring",
-          "example": "I bring you a book. – Es tev atnesu grāmatu."
+          "example": "Ich bringe dir ein Buch. – Es tev atnesu grāmatu."
         },
         {
           "word": "nehmen",
           "meaning": "to take",
-          "example": "I take the book. – Es paņemu grāmatu."
+          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
         }
       ],
       "tip": {
@@ -3688,22 +3683,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "There • Here • Here (general)",
-          "example": "There is my car."
+          "example": "Da ist mein Auto. = There is my car."
         },
         {
           "word": "hier",
           "meaning": "Here (at a specific place)",
-          "example": "Here is my car."
+          "example": "Hier ist mein Auto. = Here is my car."
         },
         {
           "word": "dort",
           "meaning": "There (further)",
-          "example": "Over there is my car."
+          "example": "Dort ist mein Auto. = Over there is my car."
         },
         {
           "word": "dann",
           "meaning": "Then",
-          "example": "Then we go home."
+          "example": "Dann gehen wir nach Hause. = Then we go home."
         }
       ],
       "tip": {
@@ -4651,12 +4646,12 @@ const A1_WORDS = [
         {
           "word": "ein Mann",
           "meaning": "masculine nominative",
-          "example": "Ein Mann wartet. – A man is waiting."
+          "example": "Ein Mann wartet draußen. – A man is waiting."
         },
         {
           "word": "eine Frau",
           "meaning": "feminine nominative",
-          "example": "Eine Frau wartet. – A woman is waiting."
+          "example": "eine Frau – A woman is waiting."
         },
         {
           "word": "ein Buch",
@@ -4666,7 +4661,7 @@ const A1_WORDS = [
         {
           "word": "einen Mann",
           "meaning": "masculine accusative",
-          "example": "Ich sehe einen Mann. – I see a man."
+          "example": "einen Mann – I see a man."
         }
       ],
       "tip": {
@@ -4959,6 +4954,7 @@ const A1_WORDS = [
   {
     "de": "Ende",
     "de_article": "das",
+    "de_plural": "die Enden",
     "lv": "The end",
     "level": "A1"
   },
@@ -5461,17 +5457,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "You",
-          "example": "You are friendly. = Jūs esat draudzīgi."
+          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
         },
         {
           "word": "euch",
           "meaning": "You / to you",
-          "example": "I help you. = Es jums palīdzu."
+          "example": "Ich helfe euch. = Es jums palīdzu."
         },
         {
           "word": "euer",
           "meaning": "Yours",
-          "example": "That is your house. = Tā ir jūsu māja."
+          "example": "Das ist euer Haus. = Tā ir jūsu māja."
         }
       ],
       "info": [
@@ -5541,27 +5537,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "Ride the transport",
-          "example": "I travel by bus."
+          "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "gehen",
           "meaning": "Go on foot",
-          "example": "I go home."
+          "example": "Ich gehe nach Hause. = I go home."
         },
         {
           "word": "laufen",
           "meaning": "Run / go",
-          "example": "He runs fast."
+          "example": "Er läuft schnell. = He runs fast."
         },
         {
           "word": "bringen",
           "meaning": "Bring / deliver",
-          "example": "I bring the book."
+          "example": "Ich bringe das Buch. = I bring the book."
         },
         {
           "word": "mitnehmen",
           "meaning": "Take with you",
-          "example": "I take you with me."
+          "example": "Ich nehme dich mit. = I take you with me."
         }
       ],
       "tip": {
@@ -5934,22 +5930,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Find / consider",
-          "example": "I think that's good. = Man tas šķiet labi."
-        },
-        {
-          "word": "suchen",
-          "meaning": "To search",
-          "example": "Ich suche den Schlüssel. = I'm looking for the key."
-        },
-        {
-          "word": "denken",
-          "meaning": "To think",
-          "example": "Ich denke an dich. = I'm thinking about you."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Believe / think",
-          "example": "Ich glaube, er kommt. = I think he will come."
+          "example": "Ich finde das gut. = Man tas šķiet labi."
         }
       ],
       "tip": {
@@ -6810,22 +6791,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "To give",
-          "example": "Give me the book."
+          "example": "Gib mir das Buch. = Give me the book."
         },
         {
           "word": "nehmen",
           "meaning": "To take / to take",
-          "example": "I take the book."
+          "example": "Ich nehme das Buch. = I take the book."
         },
         {
           "word": "bekommen",
           "meaning": "Receive / get",
-          "example": "I receive a gift."
+          "example": "Ich bekomme ein Geschenk. = I receive a gift."
         },
         {
           "word": "bringen",
           "meaning": "Bring / deliver",
-          "example": "I bring you the book."
+          "example": "Ich bringe dir das Buch. = I bring you the book."
         }
       ],
       "tip": {
@@ -7847,22 +7828,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "I have",
-          "example": "I have time. = Man ir laiks."
+          "example": "Ich habe Zeit. = Man ir laiks."
         },
         {
           "word": "sein",
           "meaning": "To be",
-          "example": "I'm here. = Es esmu šeit."
+          "example": "Ich bin hier. = Es esmu šeit."
         },
         {
           "word": "bekommen",
           "meaning": "To receive",
-          "example": "I receive a gift. = Es saņemu dāvanu."
+          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
         },
         {
           "word": "machen",
           "meaning": "To do / make",
-          "example": "I do that. = Es to daru."
+          "example": "Ich mache das. = Es to daru."
         }
       ],
       "tip": {
@@ -8077,22 +8058,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Hold / stop",
-          "example": "The bus stops. = Autobuss pietur."
+          "example": "Der Bus hält. = Autobuss pietur."
         },
         {
           "word": "nehmen",
           "meaning": "To take",
-          "example": "I take the bag. = Es ņemu somu."
+          "example": "Ich nehme die Tasche. = Es ņemu somu."
         },
         {
           "word": "anhalten",
           "meaning": "to stop • to bring to a stop",
-          "example": "Please stop. = Lūdzu, apstājieties."
+          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
         },
         {
           "word": "denken",
           "meaning": "To think",
-          "example": "I think that is correct. = Es domāju, ka tas ir pareizi."
+          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
         }
       ],
       "tip": {
@@ -8409,27 +8390,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "To be called / mean",
-          "example": "My name is Anna. = Mani sauc Anna."
+          "example": "Ich heiße Anna. = Mani sauc Anna."
         },
         {
           "word": "nennen",
           "meaning": "To call / name",
-          "example": "He calls me Tom. = Viņš mani sauc par Tomu."
+          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
         },
         {
           "word": "bedeuten",
           "meaning": "Mean",
-          "example": "What does that mean? = Ko tas nozīmē?"
+          "example": "Was bedeutet das? = Ko tas nozīmē?"
         },
         {
           "word": "rufen",
           "meaning": "Call / call",
-          "example": "I call you. = Es tevi pasaucu."
+          "example": "Ich rufe dich. = Es tevi pasaucu."
         },
         {
           "word": "anrufen",
           "meaning": "To call",
-          "example": "I call you. = Es tev piezvanu."
+          "example": "Ich rufe dich an. = Es tev piezvanu."
         }
       ],
       "tip": {
@@ -10705,22 +10686,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Be able to / know",
-          "example": "I can swim. = Es protu peldēt."
+          "example": "Ich kann schwimmen. = Es protu peldēt."
         },
         {
           "word": "dürfen",
           "meaning": "To be allowed",
-          "example": "May I go? = Vai drīkstu iet?"
+          "example": "Darf ich gehen? = Vai drīkstu iet?"
         },
         {
           "word": "müssen",
           "meaning": "Need / be yes-",
-          "example": "I must learn. = Man jāmācās."
+          "example": "Ich muss lernen. = Man jāmācās."
         },
         {
           "word": "wissen",
           "meaning": "To know",
-          "example": "I know that. = Es to zinu."
+          "example": "Ich weiß das. = Es to zinu."
         }
       ],
       "tip": {
@@ -10938,22 +10919,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Pay (price) • How much",
-          "example": "That costs 5 euros. = Tas maksā 5 eiro."
+          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
         },
         {
           "word": "bezahlen",
           "meaning": "Pay • Pay (money)",
-          "example": "I pay the bill. = Es maksāju rēķinu."
+          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
         },
         {
           "word": "zahlen",
           "meaning": "To pay • To pay",
-          "example": "Can I pay in cash? = Vai varu maksāt skaidrā naudā?"
+          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "How much does it cost...?",
-          "example": "What does the book cost? = Cik maksā grāmata?"
+          "example": "Was kostet das Buch? = Cik maksā grāmata?"
         }
       ],
       "tip": [
@@ -11536,22 +11517,22 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Country / land / countryside",
-          "example": "Germany is a country."
+          "example": "Deutschland ist ein Land. = Germany is a country."
         },
         {
           "word": "die Stadt",
           "meaning": "City",
-          "example": "I live in the city."
+          "example": "Ich wohne in der Stadt. = I live in the city."
         },
         {
           "word": "das Dorf",
           "meaning": "Village",
-          "example": "He lives in a village."
+          "example": "Er lebt in einem Dorf. = He lives in a village."
         },
         {
           "word": "die Erde",
           "meaning": "Earth / planet",
-          "example": "The Earth is round."
+          "example": "Die Erde ist rund. = The Earth is round."
         }
       ],
       "tip": {
@@ -11922,22 +11903,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Leave / let",
-          "example": "I leave that here."
+          "example": "Ich lasse das hier. = I leave that here."
         },
         {
           "word": "bleiben",
           "meaning": "Stay",
-          "example": "I stay here."
+          "example": "Ich bleibe hier. = I stay here."
         },
         {
           "word": "erlauben",
           "meaning": "Allow",
-          "example": "She allows me to do that."
+          "example": "Sie erlaubt mir das. = She allows me to do that."
         },
         {
           "word": "geben",
           "meaning": "To give",
-          "example": "Give me the book."
+          "example": "Gib mir das Buch. = Give me the book."
         }
       ],
       "tip": {
@@ -12133,22 +12114,22 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Run / operate",
-          "example": "He runs fast."
+          "example": "Er läuft schnell. = He runs fast."
         },
         {
           "word": "gehen",
           "meaning": "Go on foot",
-          "example": "I go home."
+          "example": "Ich gehe nach Hause. = I go home."
         },
         {
           "word": "fahren",
           "meaning": "Ride the transport",
-          "example": "I travel by bus."
+          "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "funktionieren",
           "meaning": "To operate",
-          "example": "That works well."
+          "example": "Das funktioniert gut. = That works well."
         }
       ],
       "tip": {
@@ -12673,22 +12654,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Put down",
-          "example": "I put the book on the table."
+          "example": "Ich lege das Buch auf den Tisch. = I put the book on the table."
         },
         {
           "word": "liegen",
           "meaning": "To be / sleep",
-          "example": "The book lies on the table."
+          "example": "Das Buch liegt auf dem Tisch. = The book lies on the table."
         },
         {
           "word": "stellen",
           "meaning": "Put upright",
-          "example": "I put the bottle on the table."
+          "example": "Ich stelle die Flasche auf den Tisch. = I put the bottle on the table."
         },
         {
           "word": "setzen",
           "meaning": "Sit down / sit down",
-          "example": "I sit down."
+          "example": "Ich setze mich. = I sit down."
         }
       ],
       "tip": {
@@ -13096,22 +13077,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "To be / sleep",
-          "example": "The book lies here."
+          "example": "Das Buch liegt hier. = The book lies here."
         },
         {
           "word": "legen",
           "meaning": "Put down",
-          "example": "I put the book here."
+          "example": "Ich lege das Buch hierhin. = I put the book here."
         },
         {
           "word": "stehen",
           "meaning": "Stand / be standing",
-          "example": "The bottle stands on the table."
+          "example": "Die Flasche steht auf dem Tisch. = The bottle stands on the table."
         },
         {
           "word": "sein",
           "meaning": "To be",
-          "example": "I'm here."
+          "example": "Ich bin hier. = I'm here."
         }
       ],
       "tip": {
@@ -13322,7 +13303,7 @@ const A1_WORDS = [
     "lv": "litre",
     "level": "A1",
     "study": {
-      "id": "a1-litre",
+      "id": "a1-liter",
       "layout": "standardStudy",
       "translation": "litre",
       "explanation": "In Germany it is usually said 'der litre', but in Austria and Switzerland you can also hear 'das litre'. The plural form remains unchanged: 'die litre'.",
@@ -13926,22 +13907,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "With / together with",
-          "example": "I come with you."
+          "example": "Ich komme mit dir. = I come with you."
         },
         {
           "word": "ohne",
           "meaning": "Without",
-          "example": "I come without you."
+          "example": "Ich komme ohne dich. = I come without you."
         },
         {
           "word": "bei",
           "meaning": "At / at someone",
-          "example": "I'm with Anna."
+          "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
           "meaning": "To / at",
-          "example": "I go to the doctor."
+          "example": "Ich gehe zum Arzt. = I go to the doctor."
         }
       ],
       "tip": {
@@ -14157,22 +14138,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "To like",
-          "example": "I like music."
+          "example": "Ich mag Musik. = I like music."
         },
         {
           "word": "möchte",
           "meaning": "Would like",
-          "example": "I would like coffee."
+          "example": "Ich möchte Kaffee. = I would like coffee."
         },
         {
           "word": "wollen",
           "meaning": "Want to",
-          "example": "I want to go home."
+          "example": "Ich will nach Hause. = I want to go home."
         },
         {
           "word": "lieben",
           "meaning": "To love",
-          "example": "I love you."
+          "example": "Ich liebe dich. = I love you."
         }
       ],
       "tip": {
@@ -14515,6 +14496,7 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
+    "de_plural": "die Morgen",
     "lv": "The morning",
     "level": "A1",
     "study": {
@@ -14712,22 +14694,22 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Need / have to do",
-          "example": "I must go."
+          "example": "Ich muss gehen. = I must go."
         },
         {
           "word": "können",
           "meaning": "Be able to / know",
-          "example": "I can come."
+          "example": "Ich kann kommen. = I can come."
         },
         {
           "word": "wollen",
           "meaning": "Want to",
-          "example": "I want to go home."
+          "example": "Ich will nach Hause. = I want to go home."
         },
         {
           "word": "dürfen",
           "meaning": "To be allowed",
-          "example": "May I go?"
+          "example": "Darf ich gehen? = May I go?"
         }
       ],
       "tip": {
@@ -14958,7 +14940,7 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "before / in front of",
-          "example": "Vor dem Essen wasche ich mir die Hände. – Before the meal, I wash my hands."
+          "example": "Vor dem Essen wasche ich die Hände. – Before the meal, I wash my hands."
         }
       ],
       "tip": {
@@ -15954,7 +15936,7 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "if / when, expressing a condition or repeated time",
-          "example": "Wenn du Zeit hast ... – If you have time ..."
+          "example": "Wenn du Zeit hast... – If you have time ..."
         },
         {
           "word": "dass",
@@ -16096,22 +16078,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Or choose",
-          "example": "Coffee or tea?"
+          "example": "Kaffee oder Tee? = Coffee or tea?"
         },
         {
           "word": "ob",
           "meaning": "Or in an indirect question",
-          "example": "I don't know if he's coming."
+          "example": "Ich weiß nicht, ob er kommt. = I don't know if he's coming."
         },
         {
           "word": "und",
           "meaning": "And",
-          "example": "Coffee and cake."
+          "example": "Kaffee und Kuchen. = Coffee and cake."
         },
         {
           "word": "aber",
           "meaning": "But",
-          "example": "I'll come, but later."
+          "example": "Ich komme, aber später. = I'll come, but later."
         }
       ],
       "tip": {
@@ -16384,22 +16366,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Fit / fit",
-          "example": "The jacket fits me."
+          "example": "Die Jacke passt mir. = The jacket fits me."
         },
         {
           "word": "stehen",
           "meaning": "To stand / to stand",
-          "example": "Red suits you well."
+          "example": "Rot steht dir gut. = Red suits you well."
         },
         {
           "word": "geeignet sein",
           "meaning": "To be suitable",
-          "example": "That is suitable."
+          "example": "Das ist geeignet. = That is suitable."
         },
         {
           "word": "funktionieren",
           "meaning": "To operate",
-          "example": "That works."
+          "example": "Das funktioniert. = That works."
         }
       ],
       "tip": {
@@ -16670,22 +16652,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Try / taste",
-          "example": "Try the soup!"
+          "example": "Probier mal die Suppe! = Try the soup!"
         },
         {
           "word": "versuchen",
           "meaning": "To try",
-          "example": "I'll try it."
+          "example": "Ich versuche es. = I'll try it."
         },
         {
           "word": "prüfen",
           "meaning": "To check",
-          "example": "I check the bill."
+          "example": "Ich prüfe die Rechnung. = I check the bill."
         },
         {
           "word": "anprobieren",
           "meaning": "To try on",
-          "example": "I try on the jacket."
+          "example": "Ich probiere die Jacke an. = I try on the jacket."
         }
       ],
       "tip": {
@@ -17474,22 +17456,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "To swim as a movement or sport",
-          "example": "He swims very well."
+          "example": "Er schwimmt sehr gut. = He swims very well."
         },
         {
           "word": "baden",
           "meaning": "Swim / be in water",
-          "example": "I go swimming."
+          "example": "Ich gehe baden. = I go swimming."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Go swimming",
-          "example": "We go swimming."
+          "example": "Wir gehen schwimmen. = We go swimming."
         },
         {
           "word": "duschen",
           "meaning": "Take a shower",
-          "example": "I shower in the mornings."
+          "example": "Ich dusche morgens. = I shower in the mornings."
         }
       ],
       "tip": {
@@ -17726,22 +17708,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "To see",
-          "example": "I see you."
+          "example": "Ich sehe dich. = I see you."
         },
         {
           "word": "schauen",
           "meaning": "Watch",
-          "example": "I look at the picture."
+          "example": "Ich schaue auf das Bild. = I look at the picture."
         },
         {
           "word": "ansehen",
           "meaning": "View / look",
-          "example": "I watch the film."
+          "example": "Ich sehe mir den Film an."
         },
         {
           "word": "hören",
           "meaning": "To hear",
-          "example": "I listen to music."
+          "example": "Ich höre Musik. = I listen to music."
         }
       ],
       "tip": {
@@ -17952,22 +17934,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "To be",
-          "example": "I'm here."
+          "example": "Ich bin hier. = I'm here."
         },
         {
           "word": "haben",
           "meaning": "I have",
-          "example": "I have time."
+          "example": "Ich habe Zeit. = I have time."
         },
         {
           "word": "werden",
           "meaning": "To become",
-          "example": "I'm getting tired."
+          "example": "Ich werde müde. = I'm getting tired."
         },
         {
           "word": "bleiben",
           "meaning": "Stay",
-          "example": "I stay here."
+          "example": "Ich bleibe hier. = I stay here."
         }
       ],
       "tip": {
@@ -18327,22 +18309,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "Myself / myself",
-          "example": "He washes himself."
+          "example": "Er wäscht sich. = He washes himself."
         },
         {
           "word": "mich",
           "meaning": "Me / myself at ich",
-          "example": "I wash myself."
+          "example": "Ich wasche mich. = I wash myself."
         },
         {
           "word": "dich",
           "meaning": "You / myself at du",
-          "example": "You wash yourself."
+          "example": "Du wäschst dich. = You wash yourself."
         },
         {
           "word": "ihn",
           "meaning": "Him",
-          "example": "I see him."
+          "example": "Ich sehe ihn. = I see him."
         }
       ],
       "tip": {
@@ -19037,22 +19019,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "To sit",
-          "example": "I sit at the table."
+          "example": "Ich sitze am Tisch. = I sit at the table."
         },
         {
           "word": "stehen",
           "meaning": "To stand",
-          "example": "He stands at the door."
+          "example": "Er steht an der Tür. = He stands at the door."
         },
         {
           "word": "liegen",
           "meaning": "Sleep / lie down",
-          "example": "The cat lies there."
+          "example": "Die Katze liegt dort. = The cat lies there."
         },
         {
           "word": "setzen",
           "meaning": "To sit / sit down",
-          "example": "I sit down."
+          "example": "Ich setze mich. = I sit down."
         }
       ],
       "tip": {
@@ -19286,22 +19268,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Should / should do as directed",
-          "example": "What should I do?"
+          "example": "Was soll ich machen? = What should I do?"
         },
         {
           "word": "müssen",
           "meaning": "Absolutely need",
-          "example": "I must go."
+          "example": "Ich muss gehen. = I must go."
         },
         {
           "word": "können",
           "meaning": "Be able to",
-          "example": "I can come."
+          "example": "Ich kann kommen. = I can come."
         },
         {
           "word": "wollen",
           "meaning": "Want to",
-          "example": "I want to stay."
+          "example": "Ich will bleiben. = I want to stay."
         }
       ],
       "tip": {
@@ -19923,22 +19905,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Over / over / across",
-          "example": "We are talking about the weather."
+          "example": "Wir sprechen über das Wetter. = We are talking about the weather."
         },
         {
           "word": "auf",
           "meaning": "On the surface",
-          "example": "The book is on the table."
+          "example": "Das Buch liegt auf dem Tisch. = The book is on the table."
         },
         {
           "word": "unter",
           "meaning": "Under",
-          "example": "The bag is under the table."
+          "example": "Die Tasche ist unter dem Tisch. = The bag is under the table."
         },
         {
           "word": "von",
           "meaning": "From / about from some source",
-          "example": "I hear from you."
+          "example": "Ich höre von dir. = I hear from you."
         }
       ],
       "tip": {
@@ -20155,22 +20137,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "At / around / to",
-          "example": "I come at eight."
+          "example": "Ich komme um acht. = I come at eight."
         },
         {
           "word": "am",
           "meaning": "Per day / at",
-          "example": "On Monday I come."
+          "example": "Am Montag komme ich. = On Monday I come."
         },
         {
           "word": "gegen",
           "meaning": "Around time / vs",
-          "example": "I come around eight."
+          "example": "Ich komme gegen acht. = I come around eight."
         },
         {
           "word": "für",
           "meaning": "For / in favour of",
-          "example": "That is for you."
+          "example": "Das ist für dich. = That is for you."
         }
       ],
       "tip": {
@@ -20392,22 +20374,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "Under / between",
-          "example": "The bag is under the table."
+          "example": "Die Tasche ist unter dem Tisch. = The bag is under the table."
         },
         {
           "word": "über",
           "meaning": "Over / for",
-          "example": "The lamp hangs above the table."
+          "example": "Die Lampe hängt über dem Tisch. = The lamp hangs above the table."
         },
         {
           "word": "zwischen",
           "meaning": "Between two things",
-          "example": "Between the houses."
+          "example": "Zwischen den Häusern. = Between the houses."
         },
         {
           "word": "auf",
           "meaning": "On the surface",
-          "example": "On the table."
+          "example": "Auf dem Tisch. = On the table."
         }
       ],
       "tip": {
@@ -20646,22 +20628,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "To understand",
-          "example": "I understand you."
+          "example": "Ich verstehe dich. = I understand you."
         },
         {
           "word": "können",
           "meaning": "Be able to / know",
-          "example": "I can swim."
+          "example": "Ich kann schwimmen. = I can swim."
         },
         {
           "word": "wissen",
           "meaning": "Know the fact",
-          "example": "I know that."
+          "example": "Ich weiß das. = I know that."
         },
         {
           "word": "kennen",
           "meaning": "To know",
-          "example": "I know him."
+          "example": "Ich kenne ihn. = I know him."
         }
       ],
       "tip": {
@@ -21221,22 +21203,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "Before / in front of",
-          "example": "Before the meal..."
+          "example": "Vor dem Essen... = Before the meal..."
         },
         {
           "word": "nach",
           "meaning": "After / to",
-          "example": "After the meal..."
+          "example": "Nach dem Essen... = After the meal..."
         },
         {
           "word": "neben",
           "meaning": "Next to",
-          "example": "Next to the house."
+          "example": "Neben dem Haus. = Next to the house."
         },
         {
           "word": "hinter",
           "meaning": "Behind",
-          "example": "Behind the house."
+          "example": "Hinter dem Haus. = Behind the house."
         }
       ],
       "tip": {
@@ -21723,22 +21705,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "If / when",
-          "example": "If you have time..."
+          "example": "Wenn du Zeit hast... = If you have time..."
         },
         {
           "word": "ob",
           "meaning": "Or in an indirect question",
-          "example": "I don't know if..."
+          "example": "Ich weiß nicht, ob... = I don't know if..."
         },
         {
           "word": "wann",
           "meaning": "When in question",
-          "example": "When are you coming?"
+          "example": "Wann kommst du? = When are you coming?"
         },
         {
           "word": "weil",
           "meaning": "Because",
-          "example": "I stay because I am ill."
+          "example": "Ich bleibe, weil ich krank bin. = I stay because I am ill."
         }
       ],
       "tip": {
@@ -22135,22 +22117,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "To become",
-          "example": "I become tired."
+          "example": "Ich werde müde. = I become tired."
         },
         {
           "word": "sein",
           "meaning": "To be",
-          "example": "I am tired."
+          "example": "Ich bin müde. = I am tired."
         },
         {
           "word": "bleiben",
           "meaning": "Stay",
-          "example": "I stay here."
+          "example": "Ich bleibe hier. = I stay here."
         },
         {
           "word": "machen",
           "meaning": "To do / make",
-          "example": "I do that."
+          "example": "Ich mache das. = I do that."
         }
       ],
       "tip": {
@@ -22351,22 +22333,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Weather conditions",
-          "example": "The weather is nice."
+          "example": "Das Wetter ist schön. = The weather is nice."
         },
         {
           "word": "Zeit",
           "meaning": "Time (moment)",
-          "example": "I have no time."
+          "example": "Ich habe keine Zeit. = I have no time."
         },
         {
           "word": "Regen",
           "meaning": "Rain",
-          "example": "There is a lot of rain."
+          "example": "Es gibt viel Regen. = There is a lot of rain."
         },
         {
           "word": "Sonne",
           "meaning": "The sun",
-          "example": "The sun is shining."
+          "example": "Die Sonne scheint. = The sun is shining."
         }
       ],
       "tip": [
@@ -22792,22 +22774,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "To / at / too / infinitive",
-          "example": "I go to the doctor."
+          "example": "Ich gehe zum Arzt. = I go to the doctor."
         },
         {
           "word": "nach",
           "meaning": "To with cities/countries",
-          "example": "I travel to Berlin."
+          "example": "Ich fahre nach Berlin."
         },
         {
           "word": "in",
           "meaning": "In / to a place",
-          "example": "I go to school."
+          "example": "Ich gehe in die Schule. = I go to school."
         },
         {
           "word": "bei",
           "meaning": "At someone / at work",
-          "example": "I am at Anna's."
+          "example": "Ich bin bei Anna."
         }
       ],
       "tip": {
@@ -23018,22 +23000,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "The train",
-          "example": "The train is coming."
+          "example": "Der Zug kommt. = The train is coming."
         },
         {
           "word": "die Bahn",
           "meaning": "Railway / travelling by train",
-          "example": "I travel by train."
+          "example": "Ich fahre mit der Bahn. = I travel by train."
         },
         {
           "word": "der Bus",
           "meaning": "Bus",
-          "example": "The bus is coming."
+          "example": "Der Bus kommt."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Tram",
-          "example": "The tram is here."
+          "example": "Die Straßenbahn ist hier. = The tram is here."
         }
       ],
       "tip": {
@@ -23508,17 +23490,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Watch TV",
-          "example": "I watch television. = Es skatos televīziju."
+          "example": "Ich sehe fern. = Es skatos televīziju."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Television (media)",
-          "example": "A film is on television. = Televīzijā rāda filmu."
+          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
         },
         {
           "word": "sehen",
           "meaning": "To see",
-          "example": "I watch a film. = Es redzu filmu."
+          "example": "Ich sehe einen Film. = Es redzu filmu."
         }
       ],
       "tip": {
@@ -24495,6 +24477,7 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "Vacation",
     "level": "A1",
     "study": {

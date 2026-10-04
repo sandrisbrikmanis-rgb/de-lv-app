@@ -167,14 +167,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Το παιδί είναι ακόμα μικρό."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Έχω μια μικρή τσάντα."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Το παιδί είναι μικρό."
         }
       ],
       "tip": [
@@ -3029,11 +3021,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "Μέχρι, μέχρι",
           "example": "Bis jetzt habe ich nichts verstanden. – Σε περιμένω να έρθεις."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "Μέχρι τώρα, μέχρι σήμερα",
-          "example": "Bis jetzt ist alles gut. – Μέχρι εδώ καλά."
         }
       ],
       "tip": {
@@ -3161,18 +3148,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "Ένα φλιτζάνι καφέ, παρακαλώ."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Μπορώ να ρωτήσω παρακαλώ"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Έχω ένα αίτημα."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Η προσευχή είναι σημαντική."
         }
       ],
       "tip": [
@@ -3298,18 +3273,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "Ένα φλιτζάνι καφέ, παρακαλώ."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Μπορώ να ρωτήσω παρακαλώ"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Έχω ένα αίτημα."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Η προσευχή είναι σημαντική."
         }
       ],
       "tip": [
@@ -3752,10 +3715,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Παίρνει το βιβλίο στο σχολείο."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Θα πάρω το βιβλίο."
         }
       ],
       "comparison": [
@@ -5614,6 +5573,7 @@ const A1_WORDS = [
   {
     "de": "Ende",
     "de_article": "das",
+    "de_plural": "die Enden",
     "lv": "Το τέλος",
     "level": "A1"
   },
@@ -5876,14 +5836,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "Αυτό είναι το βιβλίο μου."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Βρέχει."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Χιονίζει."
         }
       ],
       "info": [
@@ -6819,10 +6771,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "Νομίζω ότι είναι καλό."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Πως σου αρεσει η ταινια"
         }
       ],
       "comparison": [
@@ -6830,21 +6778,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "Βρείτε / μαντέψτε",
           "example": "Ich finde das gut. = Νομίζω ότι είναι καλό."
-        },
-        {
-          "word": "suchen",
-          "meaning": "Να ψάξεις",
-          "example": "Ich suche den Schlüssel. = Es meklēju atslēgu."
-        },
-        {
-          "word": "denken",
-          "meaning": "Να σκεφτεί",
-          "example": "Ich denke an dich. = Es domāju par tevi."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Πιστεύω / σκέφτομαι",
-          "example": "Ich glaube, er kommt. = Es domāju, ka viņš nāks."
         }
       ],
       "tip": {
@@ -14745,33 +14678,8 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Λίτρο",
       "explanation": "Κύρια ιδέα: το der Liter είναι μονάδα όγκου. Στη Γερμανία συνήθως λέγεται der Liter, αλλά στην Αυστρία και την Ελβετία μπορείτε επίσης να ακούσετε das Liter. Ο πληθυντικός είναι πάντα Die Liter — δεν αλλάζει.",
-      "examples": [
-        {
-          "de": "Ich brauche einen Liter Milch.",
-          "lv": "Χρειάζομαι ένα λίτρο γάλα."
-        },
-        {
-          "de": "Die Flasche fasst zwei Liter.",
-          "lv": "Το μπουκάλι χωράει δύο λίτρα."
-        }
-      ],
-      "comparison": [
-        {
-          "word": "Der Liter",
-          "meaning": "Τυπική μορφή της Γερμανίας",
-          "example": "In Deutschland sagt man meist der Liter. = Στη Γερμανία λέγεται κυρίως der Liter."
-        },
-        {
-          "word": "Das Liter",
-          "meaning": "Αυστριακή/Ελβετική μορφή",
-          "example": "In Österreich hört man auch das Liter. = Στην Αυστρία ακούς και das Liter."
-        },
-        {
-          "word": "Die Liter",
-          "meaning": "Πληθυντικός (αμετάβλητο)",
-          "example": "Die Flasche fasst zwei Liter. = Το μπουκάλι χωράει δύο λίτρα."
-        }
-      ],
+      "examples": [],
+      "comparison": [],
       "tip": "Εάν έχετε αμφιβολίες για την επιλογή του άρθρου, χρησιμοποιήστε der Liter — αυτή είναι η πιο κοινή μορφή.",
       "important": "Ο πληθυντικός είναι πάντα die Liter, ανεξάρτητα από το άρθρο του ενικού — η μορφή δεν αλλάζει (zwei Liter, όχι zwei Litere).",
       "sectionAccents": {
@@ -16116,6 +16024,7 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
+    "de_plural": "die Morgen",
     "lv": "Το πρωί",
     "level": "A1",
     "study": {
@@ -16336,7 +16245,7 @@ const A1_WORDS = [
         {
           "word": "dürfen",
           "meaning": "Να επιτρέπεται",
-          "example": "Darf ich gehen;"
+          "example": "Darf ich gehen?"
         }
       ],
       "tip": {
@@ -17755,7 +17664,7 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Ή σε μια επιλογή μεταξύ παραλλαγών",
-          "example": "Kaffee oder Tee;"
+          "example": "Kaffee oder Tee?"
         },
         {
           "word": "wenn",
@@ -17989,7 +17898,7 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Ή στην επιλογή",
-          "example": "Kaffee oder Tee;"
+          "example": "Kaffee oder Tee?"
         },
         {
           "word": "ob",
@@ -18495,10 +18404,6 @@ const A1_WORDS = [
         {
           "de": "Kann ich die Jacke anprobieren?",
           "lv": "Μπορώ να δοκιμάσω το σακάκι"
-        },
-        {
-          "de": "Wir testen die neue Software.",
-          "lv": "Δοκιμάζουμε νέο λογισμικό."
         }
       ],
       "comparison": [
@@ -18520,11 +18425,6 @@ const A1_WORDS = [
         {
           "word": "anprobieren",
           "meaning": "Για έλεγχο",
-          "example": "Ich probiere die Jacke an."
-        },
-        {
-          "word": "Anprobieren",
-          "meaning": "Να δοκιμάσω",
           "example": "Ich probiere die Jacke an."
         }
       ],
@@ -21322,7 +21222,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Πρέπει / κάνει σύμφωνα με τις οδηγίες",
-          "example": "Was soll ich machen;"
+          "example": "Was soll ich machen?"
         },
         {
           "word": "müssen",
@@ -22070,22 +21970,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Παρόν / περίπου / πέρα",
-          "example": "Μιλάμε για τον καιρό."
+          "example": "Wir sprechen über das Wetter. = Μιλάμε για τον καιρό."
         },
         {
           "word": "auf",
           "meaning": "Στην επιφάνεια",
-          "example": "Το βιβλίο είναι πάνω στο τραπέζι."
+          "example": "Das Buch liegt auf dem Tisch. = Το βιβλίο είναι πάνω στο τραπέζι."
         },
         {
           "word": "unter",
           "meaning": "Παρακάτω",
-          "example": "Η τσάντα είναι κάτω από το τραπέζι."
+          "example": "Die Tasche ist unter dem Tisch. = Η τσάντα είναι κάτω από το τραπέζι."
         },
         {
           "word": "von",
           "meaning": "Από / σχετικά με κάποια πηγή",
-          "example": "Ακούω από σένα."
+          "example": "Ich höre von dir. = Ακούω από σένα."
         }
       ],
       "tip": {
@@ -22335,22 +22235,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "Στο / περίπου / αυτό",
-          "example": "Έρχομαι στις οκτώ."
+          "example": "Ich komme um acht. = Έρχομαι στις οκτώ."
         },
         {
           "word": "am",
           "meaning": "Στις / στις",
-          "example": "Τη Δευτέρα έρχομαι."
+          "example": "Am Montag komme ich. = Τη Δευτέρα έρχομαι."
         },
         {
           "word": "gegen",
           "meaning": "Γύρω / κατά",
-          "example": "Έρχομαι γύρω στις οκτώ."
+          "example": "Ich komme gegen acht. = Έρχομαι γύρω στις οκτώ."
         },
         {
           "word": "für",
           "meaning": "Υπέρ / υπέρ του",
-          "example": "Αυτό είναι για σένα."
+          "example": "Das ist für dich. = Αυτό είναι για σένα."
         }
       ],
       "tip": {
@@ -22599,22 +22499,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "Κάτω από / μεταξύ",
-          "example": "Η τσάντα είναι κάτω από το τραπέζι."
+          "example": "Die Tasche ist unter dem Tisch. = Η τσάντα είναι κάτω από το τραπέζι."
         },
         {
           "word": "über",
           "meaning": "Παρόν / περίπου",
-          "example": "Η λάμπα κρέμεται πάνω από το τραπέζι."
+          "example": "Die Lampe hängt über dem Tisch. = Η λάμπα κρέμεται πάνω από το τραπέζι."
         },
         {
           "word": "zwischen",
           "meaning": "Ανάμεσα σε δύο πράγματα",
-          "example": "Ανάμεσα στα σπίτια."
+          "example": "Zwischen den Häusern. = Ανάμεσα στα σπίτια."
         },
         {
           "word": "auf",
           "meaning": "Στην επιφάνεια",
-          "example": "Πάνω στο τραπέζι."
+          "example": "Auf dem Tisch. = Πάνω στο τραπέζι."
         }
       ],
       "tip": {
@@ -22880,22 +22780,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "Να καταλάβεις",
-          "example": "Σε καταλαβαίνω."
+          "example": "Ich verstehe dich. = Σε καταλαβαίνω."
         },
         {
           "word": "können",
           "meaning": "Παίρνω / μπορώ",
-          "example": "Μπορώ να κολυμπάω."
+          "example": "Ich kann schwimmen. = Μπορώ να κολυμπάω."
         },
         {
           "word": "wissen",
           "meaning": "Να γνωρίζουν το γεγονός",
-          "example": "Το ξέρω αυτό."
+          "example": "Ich weiß das. = Το ξέρω αυτό."
         },
         {
           "word": "kennen",
           "meaning": "Να νιώθεις",
-          "example": "Τον γνωρίζω."
+          "example": "Ich kenne ihn. = Τον γνωρίζω."
         }
       ],
       "tip": {
@@ -23515,22 +23415,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "Πριν / μπροστά από",
-          "example": "Πριν από το φαγητό..."
+          "example": "Vor dem Essen... = Πριν από το φαγητό..."
         },
         {
           "word": "nach",
           "meaning": "Μετά / προς",
-          "example": "Μετά το φαγητό..."
+          "example": "Nach dem Essen... = Μετά το φαγητό..."
         },
         {
           "word": "neben",
           "meaning": "Δίπλα",
-          "example": "Δίπλα στο σπίτι."
+          "example": "Neben dem Haus. = Δίπλα στο σπίτι."
         },
         {
           "word": "hinter",
           "meaning": "Πίσω",
-          "example": "Πίσω από το σπίτι."
+          "example": "Hinter dem Haus. = Πίσω από το σπίτι."
         }
       ],
       "tip": {
@@ -24054,22 +23954,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Αν (συνθήκη) / αν (χρόνος)",
-          "example": "Αν έχεις χρόνο..."
+          "example": "Wenn du Zeit hast... = Αν έχεις χρόνο..."
         },
         {
           "word": "ob",
           "meaning": "Είτε σε έμμεση ερώτηση",
-          "example": "Δεν ξέρω αν..."
+          "example": "Ich weiß nicht, ob... = Δεν ξέρω αν..."
         },
         {
           "word": "wann",
           "meaning": "Όταν στην ερώτηση",
-          "example": "Πότε έρχεσαι;"
+          "example": "Wann kommst du? = Πότε έρχεσαι;"
         },
         {
           "word": "weil",
           "meaning": "Επειδή",
-          "example": "Μένω, γιατί είμαι άρρωστος."
+          "example": "Ich bleibe, weil ich krank bin. = Μένω, γιατί είμαι άρρωστος."
         }
       ],
       "tip": {
@@ -24492,22 +24392,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "Να πάρει",
-          "example": "Κουράζομαι."
+          "example": "Ich werde müde. = Κουράζομαι."
         },
         {
           "word": "sein",
           "meaning": "Να είναι",
-          "example": "Είμαι κουρασμένος."
+          "example": "Ich bin müde. = Είμαι κουρασμένος."
         },
         {
           "word": "bleiben",
           "meaning": "Να μείνεις",
-          "example": "Μένω εδώ."
+          "example": "Ich bleibe hier. = Μένω εδώ."
         },
         {
           "word": "machen",
           "meaning": "Να φτιάξω / ετοιμάζω",
-          "example": "Το κάνω αυτό."
+          "example": "Ich mache das. = Το κάνω αυτό."
         }
       ],
       "tip": {
@@ -24732,22 +24632,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Ο καιρός",
-          "example": "Ο καιρός είναι ωραίος."
+          "example": "Das Wetter ist schön. = Ο καιρός είναι ωραίος."
         },
         {
           "word": "Zeit",
           "meaning": "Χρόνος (στιγμή)",
-          "example": "Δεν έχω χρόνο."
+          "example": "Ich habe keine Zeit. = Δεν έχω χρόνο."
         },
         {
           "word": "Regen",
           "meaning": "Η βροχή",
-          "example": "Υπάρχει πολύ βροχή."
+          "example": "Es gibt viel Regen. = Υπάρχει πολύ βροχή."
         },
         {
           "word": "Sonne",
           "meaning": "Ο ήλιος",
-          "example": "Ο ήλιος λάμπει."
+          "example": "Die Sonne scheint. = Ο ήλιος λάμπει."
         }
       ],
       "tip": [
@@ -25216,22 +25116,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "Προς / προς / επίσης / αόριστο",
-          "example": "Πάω στο γιατρό."
+          "example": "Ich gehe zum Arzt. = Πάω στο γιατρό."
         },
         {
           "word": "nach",
           "meaning": "Με πόλεις/χώρες",
-          "example": "Οδηγώ στο Βερολίνο."
+          "example": "Ich fahre nach Berlin. = Οδηγώ στο Βερολίνο."
         },
         {
           "word": "in",
           "meaning": "Σε / σε κάποιο μέρος",
-          "example": "Πάω στο σχολείο."
+          "example": "Ich gehe in die Schule. = Πάω στο σχολείο."
         },
         {
           "word": "bei",
           "meaning": "Με κάποιον / στη δουλειά",
-          "example": "Είμαι στην Άννα."
+          "example": "Ich bin bei Anna. = Είμαι στην Άννα."
         }
       ],
       "tip": {
@@ -25468,22 +25368,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "Τρένο",
-          "example": "Το τρένο έρχεται."
+          "example": "Der Zug kommt. = Το τρένο έρχεται."
         },
         {
           "word": "die Bahn",
           "meaning": "Σιδηρόδρομος / ταξίδι με τρένο",
-          "example": "Ταξιδεύω με το τρένο."
+          "example": "Ich fahre mit der Bahn. = Ταξιδεύω με το τρένο."
         },
         {
           "word": "der Bus",
           "meaning": "Λεωφορείο",
-          "example": "Το λεωφορείο έρχεται."
+          "example": "Der Bus kommt. = Το λεωφορείο έρχεται."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Τραμ",
-          "example": "Το τραμ είναι εδώ."
+          "example": "Die Straßenbahn ist hier. = Το τραμ είναι εδώ."
         }
       ],
       "tip": {
@@ -27162,6 +27062,7 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "Διακοπές",
     "level": "A1",
     "study": {

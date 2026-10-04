@@ -163,14 +163,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "дитина ще маленька."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "У мене маленька сумка."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "дитина маленька."
         }
       ],
       "tip": [
@@ -2820,11 +2812,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "поки",
           "example": "Bis jetzt habe ich nichts verstanden. – Я чекаю, коли ти прийдеш."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "досі, до цього дня",
-          "example": "Bis jetzt ist alles gut. – Поки що добре."
         }
       ],
       "tip": {
@@ -2943,18 +2930,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "одну чашку кави, будь ласка."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "можу я запитати, будь ласка"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "У мене одне прохання."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "запит важливий."
         }
       ],
       "tip": [
@@ -3080,18 +3055,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "одну чашку кави, будь ласка."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "можу я запитати, будь ласка"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "У мене одне прохання."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "запит важливий."
         }
       ],
       "tip": [
@@ -3515,10 +3478,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "він бере книгу до школи."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "беру книгу"
         }
       ],
       "comparison": [
@@ -5262,6 +5221,7 @@ const A1_WORDS = [
   {
     "de": "Ende",
     "de_article": "das",
+    "de_plural": "die Enden",
     "lv": "кінець",
     "level": "A1"
   },
@@ -5523,14 +5483,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "це моя книга."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "іде дощ"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "сніг"
         }
       ],
       "info": [
@@ -6401,10 +6353,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "мені здається добре."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "що ти думаєш про фільм?"
         }
       ],
       "comparison": [
@@ -6412,21 +6360,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "знайти / розглянути",
           "example": "Ich finde das gut. = Мене це влаштовує."
-        },
-        {
-          "word": "suchen",
-          "meaning": "шукати",
-          "example": "Ich suche den Schlüssel. = Я шукаю ключ."
-        },
-        {
-          "word": "denken",
-          "meaning": "думати",
-          "example": "Ich denke an dich. = я думаю про тебе"
-        },
-        {
-          "word": "glauben",
-          "meaning": "вірити / думати",
-          "example": "Ich glaube, er kommt. = Думаю він прийде."
         }
       ],
       "tip": {
@@ -14963,6 +14896,7 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
+    "de_plural": "die Morgen",
     "lv": "ранок",
     "level": "A1",
     "study": {
@@ -20698,22 +20632,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "понад / над / поперек",
-          "example": "Ми говоримо про погоду."
+          "example": "Wir sprechen über das Wetter. = Ми говоримо про погоду."
         },
         {
           "word": "auf",
           "meaning": "на поверхні",
-          "example": "Книга лежить на столі."
+          "example": "Das Buch liegt auf dem Tisch. = Книга лежить на столі."
         },
         {
           "word": "unter",
           "meaning": "під",
-          "example": "Сумка знаходиться під столом."
+          "example": "Die Tasche ist unter dem Tisch. = Сумка знаходиться під столом."
         },
         {
           "word": "von",
           "meaning": "з/про з якогось джерела",
-          "example": "Я чую від тебе."
+          "example": "Ich höre von dir. = Я чую від тебе."
         }
       ],
       "tip": {
@@ -20925,22 +20859,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "біля / навколо / до",
-          "example": "Я приходжу о восьмій."
+          "example": "Ich komme um acht. = Я приходжу о восьмій."
         },
         {
           "word": "am",
           "meaning": "на добу / у",
-          "example": "У понеділок я приходжу."
+          "example": "Am Montag komme ich. = У понеділок я приходжу."
         },
         {
           "word": "gegen",
           "meaning": "близько часу / проти",
-          "example": "Я приходжу близько восьмої."
+          "example": "Ich komme gegen acht. = Я приходжу близько восьмої."
         },
         {
           "word": "für",
           "meaning": "за / на користь",
-          "example": "Це для тебе."
+          "example": "Das ist für dich. = Це для тебе."
         }
       ],
       "tip": {
@@ -21147,22 +21081,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "під / між",
-          "example": "Сумка знаходиться під столом."
+          "example": "Die Tasche ist unter dem Tisch. = Сумка знаходиться під столом."
         },
         {
           "word": "über",
           "meaning": "понад / за",
-          "example": "Лампа висить над столом."
+          "example": "Die Lampe hängt über dem Tisch. = Лампа висить над столом."
         },
         {
           "word": "zwischen",
           "meaning": "між двома речами",
-          "example": "Між будинками."
+          "example": "Zwischen den Häusern. = Між будинками."
         },
         {
           "word": "auf",
           "meaning": "на поверхні",
-          "example": "На столі."
+          "example": "Auf dem Tisch. = На столі."
         }
       ],
       "tip": {
@@ -21400,22 +21334,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "щоб зрозуміти",
-          "example": "Я розумію тебе."
+          "example": "Ich verstehe dich. = Я розумію тебе."
         },
         {
           "word": "können",
           "meaning": "вміти / знати",
-          "example": "Я можу плавати."
+          "example": "Ich kann schwimmen. = Я можу плавати."
         },
         {
           "word": "wissen",
           "meaning": "знати факт",
-          "example": "Я це знаю."
+          "example": "Ich weiß das. = Я це знаю."
         },
         {
           "word": "kennen",
           "meaning": "знати",
-          "example": "Я його знаю."
+          "example": "Ich kenne ihn. = Я його знаю."
         }
       ],
       "tip": {
@@ -21985,22 +21919,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "перед / попереду",
-          "example": "Перед їжею..."
+          "example": "Vor dem Essen... = Перед їжею..."
         },
         {
           "word": "nach",
           "meaning": "після / до",
-          "example": "Після їжі..."
+          "example": "Nach dem Essen... = Після їжі..."
         },
         {
           "word": "neben",
           "meaning": "поруч",
-          "example": "Поруч з будинком."
+          "example": "Neben dem Haus. = Поруч з будинком."
         },
         {
           "word": "hinter",
           "meaning": "ззаду",
-          "example": "За будинком."
+          "example": "Hinter dem Haus. = За будинком."
         }
       ],
       "tip": {
@@ -22494,22 +22428,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "якщо / коли",
-          "example": "Якщо у тебе є час..."
+          "example": "Wenn du Zeit hast... = Якщо у тебе є час..."
         },
         {
           "word": "ob",
           "meaning": "або в непрямому питанні",
-          "example": "Я не знаю, чи..."
+          "example": "Ich weiß nicht, ob... = Я не знаю, чи..."
         },
         {
           "word": "wann",
           "meaning": "коли під питанням",
-          "example": "Коли ти приходиш?"
+          "example": "Wann kommst du? = Коли ти приходиш?"
         },
         {
           "word": "weil",
           "meaning": "тому що",
-          "example": "Я залишаюся, тому що я хворий."
+          "example": "Ich bleibe, weil ich krank bin. = Я залишаюся, тому що я хворий."
         }
       ],
       "tip": {
@@ -22900,22 +22834,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "стати",
-          "example": "Я стаю втомленим."
+          "example": "Ich werde müde. = Я стаю втомленим."
         },
         {
           "word": "sein",
           "meaning": "бути",
-          "example": "Я втомлений."
+          "example": "Ich bin müde. = Я втомлений."
         },
         {
           "word": "bleiben",
           "meaning": "залишитися",
-          "example": "Я залишаюся тут."
+          "example": "Ich bleibe hier. = Я залишаюся тут."
         },
         {
           "word": "machen",
           "meaning": "робити / робити",
-          "example": "Я це роблю."
+          "example": "Ich mache das. = Я це роблю."
         }
       ],
       "tip": {
@@ -23132,22 +23066,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "погодні умови",
-          "example": "Погода гарна."
+          "example": "Das Wetter ist schön. = Погода гарна."
         },
         {
           "word": "Zeit",
           "meaning": "час (момент)",
-          "example": "У мене немає часу."
+          "example": "Ich habe keine Zeit. = У мене немає часу."
         },
         {
           "word": "Regen",
           "meaning": "дощ",
-          "example": "Йде багато дощу."
+          "example": "Es gibt viel Regen. = Йде багато дощу."
         },
         {
           "word": "Sonne",
           "meaning": "сонце",
-          "example": "Сонце світить."
+          "example": "Die Sonne scheint. = Сонце світить."
         }
       ],
       "tip": [
@@ -23593,22 +23527,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "до / на / теж / інфінітив",
-          "example": "Я йду до лікаря."
+          "example": "Ich gehe zum Arzt. = Я йду до лікаря."
         },
         {
           "word": "nach",
           "meaning": "з містами/країнами",
-          "example": "Я їду в Берлін."
+          "example": "Ich fahre nach Berlin. = Я їду в Берлін."
         },
         {
           "word": "in",
           "meaning": "в / до місця",
-          "example": "Я йду до школи."
+          "example": "Ich gehe in die Schule. = Я йду до школи."
         },
         {
           "word": "bei",
           "meaning": "у когось / на роботі",
-          "example": "Я у Ганни."
+          "example": "Ich bin bei Anna. = Я у Ганни."
         }
       ],
       "tip": {
@@ -23824,22 +23758,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "поїзд",
-          "example": "Поїзд приходить."
+          "example": "Der Zug kommt. = Поїзд приходить."
         },
         {
           "word": "die Bahn",
           "meaning": "залізниця / подорож потягом",
-          "example": "Я їду залізницею."
+          "example": "Ich fahre mit der Bahn. = Я їду залізницею."
         },
         {
           "word": "der Bus",
           "meaning": "автобус",
-          "example": "Автобус приходить."
+          "example": "Der Bus kommt. = Автобус приходить."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "трамвай",
-          "example": "Трамвай тут."
+          "example": "Die Straßenbahn ist hier. = Трамвай тут."
         }
       ],
       "tip": {
@@ -25463,6 +25397,7 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "відпустка",
     "level": "A1",
     "study": {
