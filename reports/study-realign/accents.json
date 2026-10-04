@@ -1,0 +1,9 @@
+{
+  "cards": 22391,
+  "mismatchCards": 278,
+  "mismatchArrays": 316,
+  "byArray": {
+    "examples": 161,
+    "comparison": 155
+  }
+}
