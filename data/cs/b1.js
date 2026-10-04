@@ -47231,11 +47231,6 @@ const B1_WORDS = [
           "example": "Sie richtet den Blick nach vorn. = Viņa vērš skatienu uz priekšu."
         },
         {
-          "word": "schicken",
-          "meaning": "Poslat",
-          "example": "Ich schicke dir eine E-mail."
-        },
-        {
           "word": "urteilen",
           "meaning": "Posuzovat, hodnotit",
           "example": "Urteile nicht zu schnell. = Nespried pārāk ātri."

@@ -168,14 +168,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Mám malou tašku."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Mám malou tašku."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Dítě je malé."
-        }
       ],
       "tip": [
         "Klein = malý",
@@ -3018,11 +3010,6 @@ const A1_WORDS = [
           "meaning": "až dosud • zatím",
           "example": "Bis jetzt habe ich nichts verstanden. – Až dosud jsem ničemu nerozuměl."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Až doteď, až do dnešního dne",
-          "example": "Bis jetzt ist alles gut. – Zatím je vše dobré."
-        }
       ],
       "tip": {
         "text": "Pamatujte: hranice v čase/podmínce → bis."
@@ -3794,10 +3781,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Odvedu děti do školy."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Beru knihu"
-        }
       ],
       "comparison": [
         {
@@ -6848,10 +6831,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Co si myslíš o tom filmu?"
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Co si myslíš o filmu?"
-        }
       ],
       "comparison": [
         {
@@ -6859,21 +6838,6 @@ const A1_WORDS = [
           "meaning": "Najít / Myslet si",
           "example": "Ich finde das gut. = Myslím si, že je to dobré."
         },
-        {
-          "word": "suchen",
-          "meaning": "Hledat",
-          "example": "Ich suche den Schlüssel. = Hledám klíč."
-        },
-        {
-          "word": "denken",
-          "meaning": "Přemýšlet",
-          "example": "Ich denke an dich. = Myslím na tebe."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Věřit / myslet",
-          "example": "Ich glaube, er kommt. = Myslím, že přijde."
-        }
       ],
       "tip": {
         "text": "Pamatujte: ztracená věc → najít • Názor → ich finde… = myslím si…"

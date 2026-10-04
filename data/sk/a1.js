@@ -150,14 +150,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Bábätko je ešte malé."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Mám malú tašku."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Bábätko je malé."
-        }
       ],
       "tip": [
         "Klein = malý",
@@ -2531,11 +2523,6 @@ const A1_WORDS = [
           "meaning": "Až kým",
           "example": "Bis jetzt habe ich nichts verstanden. – Čakám, kedy prídeš."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Až doteraz, až dodnes",
-          "example": "Bis jetzt ist alles gut. – Zatiaľ je všetko v poriadku."
-        }
       ],
       "tip": {
         "text": "Pamätajte: hranica času/stavu → pridať."
@@ -2657,18 +2644,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Chcel by som jednu šálku kávy, prosím."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Mozem sa spytat?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mam jednu prosbu."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Žiadosť je dôležitá."
-        }
       ],
       "tip": [
         "Little bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s veľkým písmenom = žiadosť (eine Bitte, meine Bitte).",
@@ -2779,18 +2754,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Chcel by som jednu šálku kávy, prosím."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Mozem sa spytat?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mam jednu prosbu."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Žiadosť je dôležitá."
-        }
       ],
       "tip": [
         "Little bitte = prosím (Bitte schön!, Kaffee, bitte). die Bitte s veľkým písmenom = žiadosť (eine Bitte, meine Bitte).",
@@ -3182,10 +3145,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Berie knihu do školy."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Beriem knihu"
-        }
       ],
       "comparison": [
         {
@@ -4837,14 +4796,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "Toto je moja kniha."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Prší"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Sneží"
-        }
       ],
       "info": [
         "Łotewskie „es” = niemieckie „ich”",
@@ -5637,10 +5588,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Toto sa mi zdá dobré."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Čo si myslíte o filme?"
-        }
       ],
       "comparison": [
         {
@@ -5648,21 +5595,6 @@ const A1_WORDS = [
           "meaning": "Nájsť/zvážiť",
           "example": "Ich finde das gut. = Myslím si, že je to dobré."
         },
-        {
-          "word": "suchen",
-          "meaning": "Hľadať",
-          "example": "Ich suche den Schlüssel. = Hľadám kľúč."
-        },
-        {
-          "word": "denken",
-          "meaning": "Premýšľajte",
-          "example": "Myślę o tobie. = Myslím na teba."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Veriť/myslieť",
-          "example": "Ich glaube, er kommt. = Myslím, že príde."
-        }
       ],
       "tip": {
         "text": "Pamätajte: stratená vec → nájdená • Názor → Myslím, že..."

@@ -40695,11 +40695,6 @@ const B1_WORDS = [
           "example": "Sie richtet den Blick nach vorn. = Viņa vērš skatienu uz priekšu."
         },
         {
-          "word": "schicken",
-          "meaning": "A trimite",
-          "example": "Ich schicke dir eine E-mail."
-        },
-        {
           "word": "urteilen",
           "meaning": "A judeca, a evalua",
           "example": "Urteile nicht zu schnell. = Nespried pārāk ātri."

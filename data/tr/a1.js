@@ -150,14 +150,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Bebek henüz küçük."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Küçük bir çantam var."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Bebek küçük."
-        }
       ],
       "tip": [
         "Klein = küçük",
@@ -2394,11 +2386,6 @@ const A1_WORDS = [
           "meaning": "Değin",
           "example": "Bis jetzt habe ich nichts verstanden. – Gelmeni bekliyorum."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Şimdiye kadar, bugüne kadar",
-          "example": "Bis jetzt ist alles gut. – Şimdilik her şey yolunda."
-        }
       ],
       "tip": {
         "text": "Unutmayın: zaman/durum sınırı → tekrar."
@@ -2513,18 +2500,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Bir fincan kahve rica ediyorum lütfen."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Sorabilir miyim?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Bir isteğim var."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Talep önemlidir."
-        }
       ],
       "tip": [
         "Little bitte = lütfen (Bitte schön!, Kaffee, bitte). büyük harfle die Bitte = istek (eine Bitte, meine Bitte).",
@@ -2635,18 +2610,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Bir fincan kahve rica ediyorum lütfen."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Sorabilir miyim?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Bir isteğim var."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Talep önemlidir."
-        }
       ],
       "tip": [
         "Little bitte = lütfen (Bitte schön!, Kaffee, bitte). büyük harfle die Bitte = istek (eine Bitte, meine Bitte).",
@@ -3023,10 +2986,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Kitabı okula götürür."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Kitabı alıyorum"
-        }
       ],
       "comparison": [
         {
@@ -4097,14 +4056,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "O yorgun."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Yağmur yağıyor"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Kar yağıyor"
-        }
       ],
       "comparison": [
         {
@@ -4755,10 +4706,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Bu bana iyi görünüyor."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Film hakkında ne düşünüyorsunuz?"
-        }
       ],
       "comparison": [
         {
@@ -4766,21 +4713,6 @@ const A1_WORDS = [
           "meaning": "Bul/düşün",
           "example": "Ich finde das gut. = Bunu iyi buluyorum."
         },
-        {
-          "word": "suchen",
-          "meaning": "Ara",
-          "example": "Ich suche den Schlüssel. = Anahtarı arıyorum."
-        },
-        {
-          "word": "denken",
-          "meaning": "Düşünmek",
-          "example": "Seni düşünüyorum. = Seni düşünüyorum."
-        },
-        {
-          "word": "glauben",
-          "meaning": "İnan/düşün",
-          "example": "Ich glaube, er kommt. = Geleceğini düşünüyorum."
-        }
       ],
       "tip": {
         "text": "Unutmayın: kayıp şey → bulunan • Görüş → sanırım…"

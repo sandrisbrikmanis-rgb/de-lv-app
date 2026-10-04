@@ -17059,11 +17059,6 @@ const B1_WORDS = [
           "example": "Wir empfangen ein Signal. = Mēs uztveram signālu."
         },
         {
-          "word": "bekommen",
-          "meaning": "Her gün al",
-          "example": "Ich bekomme eine E-posta aldım."
-        },
-        {
           "word": "begrüßen",
           "meaning": "Mirë se ju gjeta.",
           "example": "Ich begrüße die Gäste. = Es sveicinu viesus."
@@ -41636,11 +41631,6 @@ const B1_WORDS = [
           "word": "richten",
           "meaning": "Doğrudan, adres • Hakim",
           "example": "Sie richtet den Blick nach vorn. = Viņa vērš skatienu uz priekšu."
-        },
-        {
-          "word": "schicken",
-          "meaning": "Göndermek",
-          "example": "Ich schicke dir eine E-posta gönderiyorum."
         },
         {
           "word": "urteilen",

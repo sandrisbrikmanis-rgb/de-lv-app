@@ -20829,11 +20829,6 @@ const B1_WORDS = [
           "example": "Wir empfangen ein Signal. = Mēs uztveram signālu."
         },
         {
-          "word": "bekommen",
-          "meaning": "Mindennap kapni",
-          "example": "Ich bekomme eine E-mailt."
-        },
-        {
           "word": "begrüßen",
           "meaning": "Üdvözölni",
           "example": "Ich begrüße die Gäste. = Es sveicinu viesus."
@@ -48281,11 +48276,6 @@ const B1_WORDS = [
           "word": "richten",
           "meaning": "Közvetlen, megszólítás • Bíró",
           "example": "Sie richtet den Blick nach vorn. = Viņa vērš skatienu uz priekšu."
-        },
-        {
-          "word": "schicken",
-          "meaning": "Küldeni",
-          "example": "Ich schicke dir eine E-mailt küldök."
         },
         {
           "word": "urteilen",

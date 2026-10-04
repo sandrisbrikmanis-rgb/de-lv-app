@@ -2686,11 +2686,6 @@ const A1_WORDS = [
           "meaning": "until now • so far",
           "example": "Bis jetzt habe ich nichts verstanden. – So far, I haven't understood anything."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Until now, until this day",
-          "example": "Bis jetzt ist alles gut. – So far so good."
-        }
       ],
       "tip": {
         "text": "Remember: border in time/condition → bis."
@@ -4654,20 +4649,10 @@ const A1_WORDS = [
           "example": "Ein Mann wartet. – A man is waiting."
         },
         {
-          "word": "eine Frau",
-          "meaning": "feminine nominative",
-          "example": "Eine Frau wartet. – A woman is waiting."
-        },
-        {
           "word": "ein Buch",
           "meaning": "neuter nominative",
           "example": "Ich habe ein Buch. – I have a book."
         },
-        {
-          "word": "einen Mann",
-          "meaning": "masculine accusative",
-          "example": "Ich sehe einen Mann. – I see a man."
-        }
       ],
       "tip": {
         "text": "An unspecified person or thing → ein/eine; masculine accusative → einen."
@@ -5937,21 +5922,6 @@ const A1_WORDS = [
           "meaning": "Find / consider",
           "example": "I think that's good. = Man tas šķiet labi."
         },
-        {
-          "word": "suchen",
-          "meaning": "To search",
-          "example": "Ich suche den Schlüssel. = I'm looking for the key."
-        },
-        {
-          "word": "denken",
-          "meaning": "To think",
-          "example": "Ich denke an dich. = I'm thinking about you."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Believe / think",
-          "example": "Ich glaube, er kommt. = I think he will come."
-        }
       ],
       "tip": {
         "text": "Remember: lost thing → finden; opinion → ich finde..."
@@ -14957,11 +14927,6 @@ const A1_WORDS = [
           "meaning": "into/to a place used with an article",
           "example": "Ich gehe in die Schule. – I am going to school."
         },
-        {
-          "word": "vor",
-          "meaning": "before / in front of",
-          "example": "Vor dem Essen wasche ich mir die Hände. – Before the meal, I wash my hands."
-        }
       ],
       "tip": {
         "text": "nach Hause; nach Berlin; nach dem Essen; zehn nach acht."

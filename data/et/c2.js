@@ -197,21 +197,6 @@ const C2_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "die Gewichtseinheit",
-          "meaning": "kaaluühik (nt kilogramm, gramm)",
-          "example": "Kilogramm ist eine Gewichtseinheit. = Kilogramm on kaaluühik."
-        },
-        {
-          "word": "das Gewicht",
-          "meaning": "kaal (konkreetne väärtus)",
-          "example": "Das Gewicht des Pakets beträgt 5 kg. = Paki kaal on 5 kg."
-        },
-        {
-          "word": "die Masse",
-          "meaning": "mass (füüsikaline suurus)",
-          "example": "Die Masse eines Objekts ändert sich nicht. = Objekti mass ei muutu."
-        }
       ],
       "tip": "Liitsõna koosneb osadest das Gewicht (kaal) + die Einheit (ühik) — kaaluühik.",
       "important": "Ära aja segi die Gewichtseinheit (mõõtühik, nt kilogramm) ja das Gewicht (kaal ise, konkreetne väärtus).",

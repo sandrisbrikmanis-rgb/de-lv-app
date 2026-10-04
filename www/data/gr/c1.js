@@ -382,21 +382,6 @@ const C1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "Das Einfamilienhaus",
-          "meaning": "Μονοκατοικία (για μια οικογένεια)",
-          "example": "Sie wohnen in einem Einfamilienhaus. = Μένουν σε μονοκατοικία."
-        },
-        {
-          "word": "Das Mehrfamilienhaus",
-          "meaning": "Πολυκατοικία (για πολλές οικογένειες)",
-          "example": "Nebenan steht ein Mehrfamilienhaus. = Δίπλα υπάρχει πολυκατοικία."
-        },
-        {
-          "word": "Das Reihenhaus",
-          "meaning": "Μονοκατοικία",
-          "example": "Das Reihenhaus hat eine gemeinsame Wand. = Το σπίτι με ταράτσα έχει κοινό τοίχο."
-        }
       ],
       "tip": "Η σύνθετη λέξη αποτελείται από τα μέρη eine Familie (μία οικογένεια) + Haus (σπίτι) — βοηθά να θυμόμαστε ότι είναι ένα σπίτι μιας οικογένειας.",
       "important": "Μην μπερδεύετε το das Einfamilienhaus (μονοκατοικία) και το das Mehrfamilienhaus (διαμέρισμα) — η διαφορά έγκειται στον αριθμό των οικογενειών που ζουν στο σπίτι."
@@ -799,21 +784,6 @@ const C1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "Die Öffentlichkeit",
-          "meaning": "Δημόσιο (άνθρωποι, δημόσιος χώρος)",
-          "example": "Die Öffentlichkeit reagierte kritisch. = Το κοινό αντέδρασε επικριτικά."
-        },
-        {
-          "word": "Öffentlich",
-          "meaning": "Δημόσιο (επίθετο)",
-          "example": "Das ist eine öffentliche Angelegenheit. = Αυτό είναι δημόσιο θέμα."
-        },
-        {
-          "word": "Die Privacy",
-          "meaning": "Ιδιωτική σφαίρα (απέναντι)",
-          "example": "Er schützt seine Privatsphäre. = Προστατεύει την ιδιωτικότητά του."
-        }
       ],
       "tip": "Η έκφραση an die Öffentlichkeit kommen/gehen σημαίνει να γίνεις ή να βγεις δημόσια.",
       "important": "Μην συγχέετε το die Öffentlichkeit (δημόσιο, ουσιαστικό) και το öffentlich (δημόσιο, επίθετο)."
@@ -852,21 +822,6 @@ const C1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "Το κόμμα (πολιτικό)",
-          "meaning": "Ένα πολιτικό κόμμα",
-          "example": "Diese Partei gewann die Wahl. = Αυτό το κόμμα κέρδισε τις εκλογές."
-        },
-        {
-          "word": "Το κόμμα (νόμιμο)",
-          "meaning": "Συμβαλλόμενο μέρος (σε σύμβαση, σε διαφορά)",
-          "example": "Beide Parteien müssen unterschreiben. = Και τα δύο μέρη πρέπει να υπογράψουν."
-        },
-        {
-          "word": "Έχετε",
-          "meaning": "Μέρος (κάτι)",
-          "example": "Das ist nur ein Teil der Lösung. = Αυτό είναι μόνο ένα μέρος της λύσης."
-        }
       ],
       "tip": "Το πλαίσιο δείχνει εάν το Κόμμα είναι πολιτική οργάνωση ή νομική οντότητα.",
       "important": "Μην μπερδεύετε το die Partei (συμβαλλόμενο μέρος, μέρος σε μια διαφωνία ή σύμβαση) και το der Teil (μέρος κάτι) — έχουν διαφορετικές σημασίες."
@@ -940,21 +895,6 @@ const C1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "Der Prozess (γενικά)",
-          "meaning": "Διαδικασία, πρόοδος",
-          "example": "Wir verbessern den Prozess. = Βελτιώνουμε τη διαδικασία."
-        },
-        {
-          "word": "Der Prozess (νομικό)",
-          "meaning": "Δίκη",
-          "example": "Der Prozess vor Gericht beginnt morgen. = Η δίκη ξεκινά αύριο."
-        },
-        {
-          "word": "Das Verfahren",
-          "meaning": "Διαδικασία (επίσημη διαδικασία)",
-          "example": "Das Verfahren wurde eingestellt. = Η διαδικασία τερματίστηκε."
-        }
       ],
       "tip": "Το πλαίσιο (δικαστήριο, επιχείρηση, τεχνική) υποδεικνύει εάν το Prozess σημαίνει μια γενική διαδικασία ή μια δίκη.",
       "important": "Μην συγχέετε το der Prozess (διαδικασία, δίκη) με το das Verfahren (επίσημη διαδικασία) — Το Verfahren είναι μια πιο επίσημη λέξη."
@@ -1598,21 +1538,6 @@ const C1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "Die Wahl (Möglichkeit)",
-          "meaning": "Επιλογή (μεταξύ δύο ή περισσότερων επιλογών)",
-          "example": "Du hast die Wahl. = Έχετε μια επιλογή."
-        },
-        {
-          "word": "Die Wahl (Πολιτικός)",
-          "meaning": "Αρχαιρεσίες",
-          "example": "Die Wahl findet am Sonntag statt. = Οι εκλογές θα γίνουν την Κυριακή."
-        },
-        {
-          "word": "Die Auswahl",
-          "meaning": "Επιλογή, ποικιλία",
-          "example": "Es gibt eine große Auswahl. = Υπάρχουν πολλές επιλογές."
-        }
       ],
       "tip": "Eine Wahl treffen = να κάνω μια επιλογή· zur Wahl gehen = να πάω στην κάλπη.",
       "important": "Μην συγχέετε το die Wahl (επιλογή / εκλογή) και το die Auswahl (επιλογή, π.χ. ποικιλία σε ένα κατάστημα)."
@@ -4264,10 +4189,6 @@ const C1_WORDS = [
           "de": "beziehen / sich beziehen auf.",
           "lv": "Παίρνει ήδη σύνταξη ενός έτους."
         },
-        {
-          "de": "Der Bericht bezieht sich auf die Ereignisse des letzten Jahres.",
-          "lv": "Η έκθεση αφορά τα περσινά γεγονότα."
-        }
       ],
       "tip": [
         "Επίσημο μητρώο: για να συνδέεστε με μια πηγή, να λαμβάνετε τακτική σύνταξη/μισθό ή να μένετε σε διαμέρισμα.",

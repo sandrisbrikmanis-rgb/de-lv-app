@@ -19679,11 +19679,6 @@ const B1_WORDS = [
           "example": "Wir empfangen ein Signal. = Recibimos una señal."
         },
         {
-          "word": "bekommen",
-          "meaning": "recibir todos los días",
-          "example": "Ich bekomme eine E-Recibí un correo electrónico. = Recibo un correo electrónico."
-        },
-        {
           "word": "begrüßen",
           "meaning": "saludar",
           "example": "Ich begrüße die Gäste. = Es sveicinu viesus."
@@ -46078,11 +46073,6 @@ const B1_WORDS = [
           "word": "richten",
           "meaning": "dirigir, orientar • juez",
           "example": "Sie richtet den Blick nach vorn. = Dirige la mirada hacia delante."
-        },
-        {
-          "word": "schicken",
-          "meaning": "enviar",
-          "example": "Ich schicke dir eine E-Te envié un correo electrónico. = Te envío un correo electrónico."
         },
         {
           "word": "urteilen",

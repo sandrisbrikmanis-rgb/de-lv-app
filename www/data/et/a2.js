@@ -2204,11 +2204,6 @@ const A2_WORDS = [
           "meaning": "peatama / seisma panema",
           "example": "Der Fahrer stoppt das Auto. = Juht peatab auto."
         },
-        {
-          "word": "stellen",
-          "meaning": "panema / paigutama",
-          "example": "Ich stelle die Tür. = Tasche neben die Ma panen koti ukse kõrvale."
-        }
       ],
       "tip": {
         "leftBlocks": [
@@ -2818,11 +2813,6 @@ const A2_WORDS = [
           "word": "angewandt",
           "meaning": "rakendatud / rakenduslik",
           "example": "Diese Methode wird angewandt. = Seda meetodit rakendatakse."
-        },
-        {
-          "word": "praktisch",
-          "meaning": "praktiline",
-          "example": "Das ist eine Lösung. = praktische See on praktiline lahendus."
         },
         {
           "word": "verwenden",
@@ -13968,11 +13958,6 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "beinahe",
-          "meaning": "peaaegu / vaevu",
-          "example": "Ich hätte = beinahe gelacht. valodas Ma oleksin peaaegu naerma hakanud."
-        },
-        {
           "word": "fast",
           "meaning": "peaaegu",
           "example": "Ich bin fast fertig. = Ma olen peaaegu valmis."
@@ -15265,20 +15250,10 @@ const A2_WORDS = [
           "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
         },
         {
-          "word": "konkret",
-          "meaning": "konkreetne",
-          "example": "Ich brauche ein Beispiel. = konkretes Mul on vaja konkreetset näidet."
-        },
-        {
           "word": "fest",
           "meaning": "kindel / määratud",
           "example": "Wir haben einen festen Termin. = valodas Meil on kindel aeg."
         },
-        {
-          "word": "wahrscheinlich",
-          "meaning": "arvatavasti / võib-olla",
-          "example": "Er kommt morgen. = wahrscheinlich Ta tuleb tõenäoliselt homme."
-        }
       ],
       "tip": {
         "leftBlocks": [
@@ -18755,11 +18730,6 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "dabei",
-          "meaning": "kohal / kaasas / pealegi",
-          "example": "Ich habe den = Schlüssel dabei. valodas Mul on võti kaasas."
-        },
-        {
           "word": "mit dabei",
           "meaning": "ka kohal / kaasatud",
           "example": "mit dabei? = Kas valodas sa tuled homme ka kaasa?"
@@ -18774,11 +18744,6 @@ const A2_WORDS = [
           "meaning": "pealegi",
           "example": "teuer. = Pealegi valodas on see kallis."
         },
-        {
-          "word": "trotzdem",
-          "meaning": "siiski",
-          "example": "ich. = Sellest hoolimata tulen ma."
-        }
       ],
       "tip": {
         "leftBlocks": [
@@ -19172,11 +19137,6 @@ const A2_WORDS = [
           "word": "darum",
           "meaning": "seepärast / seetõttu",
           "example": "Darum bleibe ich zu Hause. = Seepärast jään ma koju."
-        },
-        {
-          "word": "deshalb",
-          "meaning": "seepärast",
-          "example": "ich später. = valodas tulen ma"
         },
         {
           "word": "dagegen",
@@ -20388,11 +20348,6 @@ const A2_WORDS = [
           "example": "Ich warte darauf. = Es gaidu uz to."
         },
         {
-          "word": "auf das",
-          "meaning": "sellele kindlale asjale",
-          "example": "Ich lege es auf = Ma panen selle raamatu peale."
-        },
-        {
           "word": "danach",
           "meaning": "pärast seda",
           "example": "Danach gehe ich nach Hause. = Pärast seda lähen ma koju."
@@ -21148,11 +21103,6 @@ const A2_WORDS = [
           "word": "darum",
           "meaning": "seepärast / seetõttu / selle ümber",
           "example": "hier. = valodas Seepärast jään ma siia."
-        },
-        {
-          "word": "deshalb",
-          "meaning": "seepärast",
-          "example": "ich später. = valodas tulen ma"
         },
         {
           "word": "deswegen",
@@ -22772,11 +22722,6 @@ const A2_WORDS = [
           "meaning": "siis",
           "example": "wir. = Siis läheme."
         },
-        {
-          "word": "deshalb",
-          "meaning": "seepärast",
-          "example": "ich. = Seepärast valodas ma."
-        }
       ],
       "tip": [
         "Väitlauses tõlgitakse denn sageli sõnaga sest.",
@@ -23492,16 +23437,6 @@ const A2_WORDS = [
           "word": "doch",
           "meaning": "ju / siiski / küll / ometi",
           "example": "Komm doch! = Tule ometi!"
-        },
-        {
-          "word": "aber",
-          "meaning": "aga",
-          "example": "Ich will, aber = ich kann Ma tahan, aga ei saa."
-        },
-        {
-          "word": "trotzdem",
-          "meaning": "siiski / sellest hoolimata",
-          "example": "Es regnet, ich. = trotzdem gehe Vihma sajab, sellest hoolimata ma."
         },
         {
           "word": "ja",
@@ -26295,11 +26230,6 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "eigentlich",
-          "meaning": "tegelikult / tegelikkuses / tegelik",
-          "example": "ich keine Zeit. = valodas Tegelikult pole mul aega."
-        },
-        {
           "word": "echt",
           "meaning": "ehtne",
           "example": "Das ist echt. = See on ehtne."
@@ -29052,11 +28982,6 @@ const A2_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "erinnern",
-          "meaning": "meelde tuletama",
-          "example": "bitte daran. = Palun tuleta mulle seda meelde."
-        },
         {
           "word": "sich erinnern",
           "meaning": "mäletama",
@@ -36986,11 +36911,6 @@ const A2_WORDS = [
           "example": "Ich stelle die Flasche auf den Tisch. = Es nolieku pudeli uz galda."
         },
         {
-          "word": "legen",
-          "meaning": "pikali panema",
-          "example": "Ich lege das Tisch. = Buch auf den Ma panen raamatu lauale."
-        },
-        {
           "word": "an die Wand hängen",
           "meaning": "seinale riputama",
           "example": "Wir hängen das Wand. = Bild an die Me riputame pildi seinale."
@@ -38195,11 +38115,6 @@ const A2_WORDS = [
           "meaning": "sellega, et",
           "example": "Ich lerne, damit ich die Prüfung bestehe. = Ma õpin, et eksami sooritada."
         },
-        {
-          "word": "weil",
-          "meaning": "sest",
-          "example": "Ich lerne, weil brauche. = ich Deutsch Ma õpin, sest mul on saksa keelt vaja."
-        }
       ],
       "tip": [
         "Kui saad eesti keeles öelda „...midagi tehes”, sobib saksa keeles väga sageli indem.",
@@ -43763,11 +43678,6 @@ const A2_WORDS = [
           "word": "das Kabel",
           "meaning": "kaabel / juhe",
           "example": "Das Kabel ist zu kurz. = Kaabel on liiga lühike."
-        },
-        {
-          "word": "die Telefonleitung",
-          "meaning": "telefoniliin",
-          "example": "Die ist frei. = Telefonleitung Telefoniliin on vaba."
         },
         {
           "word": "die Wasserleitung",
@@ -51408,11 +51318,6 @@ const A2_WORDS = [
           "example": "Der deutsche Satz ist richtig. = Saksakeelne lause on õige."
         },
         {
-          "word": "der Satz Reifen",
-          "meaning": "rehvide komplekt",
-          "example": "ist teuer. = Rehvikomplekt on kallis."
-        },
-        {
           "word": "der Zinssatz",
           "meaning": "intressimäär",
           "example": "Der Zinssatz steigt. = Procentu likme pieaug."
@@ -53238,11 +53143,6 @@ const A2_WORDS = [
           "meaning": "kinni tegema (kõnekeeles)",
           "example": "Mach das Fenster zu. = Aiztaisi logu."
         },
-        {
-          "word": "folgern",
-          "meaning": "järeldama",
-          "example": "ich etwas. = Sellest järeldan ma midagi."
-        }
       ],
       "tip": {
         "leftBlocks": [
@@ -56110,11 +56010,6 @@ const A2_WORDS = [
           "example": "gehen wir. = Niipea kui ta tuleb, läheme."
         },
         {
-          "word": "wenn",
-          "meaning": "kui (aeg) / kui (tingimus)",
-          "example": "habe, komme ich. = valodas Kui mul aega on, tulen."
-        },
-        {
           "word": "als",
           "meaning": "kui (minevikus ühe korra)",
           "example": "Als ich Kind war, spielte ich viel. = Kui ma laps olin, mängisin palju."
@@ -56607,11 +56502,6 @@ const A2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "sonst",
-          "meaning": "muidu / vastasel juhul / tavaliselt",
-          "example": "ist es zu spät. = valodas Tule nüüd, muidu on liiga hilja."
-        },
-        {
           "word": "ansonsten",
           "meaning": "muidu / muus osas",
           "example": "Ansonsten ist alles gut. = Muidu on kõik hästi."
@@ -56620,11 +56510,6 @@ const A2_WORDS = [
           "word": "andernfalls",
           "meaning": "vastasel juhul",
           "example": "Andernfalls rufe ich an. = Vastasel juhul helistan."
-        },
-        {
-          "word": "normalerweise",
-          "meaning": "tavaliselt",
-          "example": "ich zu Hause. = Tavaliselt olen ma kodus."
         },
         {
           "word": "außerdem",
@@ -57944,11 +57829,6 @@ const A2_WORDS = [
           "example": "Mein Arbeitsplatz ist ruhig. = Mana darba vieta ir klusa."
         },
         {
-          "word": "die Textstelle",
-          "meaning": "teksti koht / lõik",
-          "example": "ist wichtig. = See valodas tekstikoht on oluline."
-        },
-        {
           "word": "die Wunde",
           "meaning": "haav",
           "example": "Die Wunde tut weh. = Haav valutab."
@@ -58832,11 +58712,6 @@ const A2_WORDS = [
           "word": "die Substanz",
           "meaning": "aine / substants",
           "example": "Die Substanz ist gefährlich. = Aine on ohtlik."
-        },
-        {
-          "word": "der Unterrichtsstoff",
-          "meaning": "õppematerjal",
-          "example": "Der ist schwer. = Unterrichtsstoff Õppematerjal on raske."
         },
         {
           "word": "das Thema",
@@ -63935,11 +63810,6 @@ const A2_WORDS = [
           "example": "Der Verkehr ist stark. = Liiklus on tihe."
         },
         {
-          "word": "der Straßenverkehr",
-          "meaning": "maanteeliiklus",
-          "example": "Der ist gefährlich. = Straßenverkehr fragments Maanteeliiklus on ohtlik."
-        },
-        {
           "word": "der öffentliche Verkehr",
           "meaning": "ühistransport",
           "example": "Öffentlicher Verkehr ist praktisch. = Ühistransport on praktiline."
@@ -65020,11 +64890,6 @@ const A2_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "vorstellen",
-          "meaning": "tutvustama / esitlema",
-          "example": "Ich stelle dir vor. = meinen Freund Ma tutvustan sulle oma sõpra."
-        },
         {
           "word": "sich vorstellen",
           "meaning": "end tutvustama / ette kujutama",
@@ -69299,11 +69164,6 @@ const A2_WORDS = [
           "meaning": "praegu / hetkel",
           "example": "Derzeit ist das nicht möglich. = Praegu pole see võimalik."
         },
-        {
-          "word": "momentan",
-          "meaning": "praegu / parasjagu",
-          "example": "ich krank. = Praegu olen haige."
-        }
       ],
       "tip": {
         "leftBlocks": [

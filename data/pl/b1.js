@@ -17727,11 +17727,6 @@ const B1_WORDS = [
           "example": "Wir empfangen ein Signal. = Mēs uztveram signālu."
         },
         {
-          "word": "bekommen",
-          "meaning": "Otrzymywać codziennie",
-          "example": "Ich bekomme eine E-mail."
-        },
-        {
           "word": "begrüßen",
           "meaning": "Powitać",
           "example": "Ich begrüße die Gäste. = Es sveicinu viesus."
@@ -42766,11 +42761,6 @@ const B1_WORDS = [
           "word": "richten",
           "meaning": "Bezpośredni, adres • Sędzia",
           "example": "Sie richtet den Blick nach vorn. = Viņa vērš skatienu uz priekšu."
-        },
-        {
-          "word": "schicken",
-          "meaning": "Wysłać",
-          "example": "Ich schicke dir eine E-mail."
         },
         {
           "word": "urteilen",

@@ -162,14 +162,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "L'enfant est encore petit."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "J'ai un petit sac."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "L'enfant est petit."
-        }
       ],
       "tip": [
         "Klein = mazs",
@@ -2766,11 +2758,6 @@ const A1_WORDS = [
           "meaning": "Jusqu'à",
           "example": "Bis jetzt habe ich nichts verstanden. – J'attends que tu viennes."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Jusqu'à maintenant, jusqu'à ce jour",
-          "example": "Bis jetzt ist alles gut. – Jusqu'ici, tout va bien."
-        }
       ],
       "tip": {
         "text": "Rappel : frontière en temps/condition → bis."
@@ -2896,18 +2883,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Une tasse de café, s'il vous plaît."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Puis-je demander s'il vous plaît"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "J'ai une demande."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "La demande est importante."
-        }
       ],
       "tip": [
         "Petite bouchée = s'il te plaît (Bitte schön!, Kaffee, bitte). die Bitte avec une majuscule = demande (eine Bitte, meine Bitte).",
@@ -3030,18 +3005,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Une tasse de café, s'il vous plaît."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Puis-je demander s'il vous plaît"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "J'ai une demande."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "La demande est importante."
-        }
       ],
       "tip": [
         "Petite bouchée = s'il te plaît (Bitte schön!, Kaffee, bitte). die Bitte avec une majuscule = demande (eine Bitte, meine Bitte).",
@@ -3455,10 +3418,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Il emmène le livre à l'école."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Je prends le livre"
-        }
       ],
       "comparison": [
         {
@@ -5405,14 +5364,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "C'est mon livre."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Il pleut"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Il neige"
-        }
       ],
       "info": [
         "Latvian \"es\" = German \"ich\"",
@@ -6282,10 +6233,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Cela me semble bon."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Que pensez-vous du film ?"
-        }
       ],
       "comparison": [
         {
@@ -6293,21 +6240,6 @@ const A1_WORDS = [
           "meaning": "Trouver / considérer",
           "example": "Je trouve ça bien. = Je trouve ça bien."
         },
-        {
-          "word": "suchen",
-          "meaning": "Pour rechercher",
-          "example": "Ich suche den Schlüssel. = Je cherche la clé."
-        },
-        {
-          "word": "denken",
-          "meaning": "Penser",
-          "example": "Ich denke an dich. = Je pense à toi."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Croire/penser",
-          "example": "Ich glaube, er kommt. = Je pense qu'il viendra."
-        }
       ],
       "tip": {
         "text": "Rappelez-vous : chose perdue → trouvée • Opinion → je trouve..."

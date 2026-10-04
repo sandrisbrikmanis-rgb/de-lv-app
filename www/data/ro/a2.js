@@ -5008,10 +5008,6 @@ const A2_WORDS = [
       "translation": "Cenusareasa",
       "accent": "blue",
       "variants": [
-        {
-          "article": "Das",
-          "de": "Aschenputtel"
-        }
       ]
     }
   },
@@ -31351,11 +31347,6 @@ const A2_WORDS = [
       "translation": "Tastatura",
       "accent": "blue",
       "variants": [
-        {
-          "article": "Das",
-          "de": "Keyboard",
-          "plural": "die Keyboards"
-        }
       ]
     }
   },
@@ -31460,11 +31451,6 @@ const A2_WORDS = [
       "translation": "Cinema",
       "accent": "blue",
       "variants": [
-        {
-          "article": "Das",
-          "de": "Kino",
-          "plural": "die Kinos"
-        }
       ]
     }
   },
@@ -31520,11 +31506,6 @@ const A2_WORDS = [
       "translation": "O pernă",
       "accent": "blue",
       "variants": [
-        {
-          "article": "Das",
-          "de": "Kissen",
-          "plural": "die Kissen"
-        }
       ]
     }
   },
@@ -37087,16 +37068,6 @@ const A2_WORDS = [
       "translation": "Plăcuța de înmatriculare a mașinii",
       "accent": "blue",
       "variants": [
-        {
-          "article": "Das",
-          "de": "Nummernschild",
-          "plural": "die Nummernschilder"
-        },
-        {
-          "article": "Das",
-          "de": "Kennzeichen",
-          "plural": "die Kennzeichen"
-        }
       ],
       "tip": "În Germania, cuvântul „das Kennzeichen” este foarte des folosit colocvial și în instituții.",
       "examples": [

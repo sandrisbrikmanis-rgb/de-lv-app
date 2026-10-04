@@ -46073,11 +46073,6 @@ const B1_WORDS = [
           "example": "Sie richtet den Blick nach vorn. = Hun retter blikket fremad."
         },
         {
-          "word": "schicken",
-          "meaning": "At sende",
-          "example": "Ich schicke dir eine E-mail."
-        },
-        {
           "word": "urteilen",
           "meaning": "At dømme, at vurdere",
           "example": "Urteile nicht zu schnell. = Døm ikke for hurtigt."

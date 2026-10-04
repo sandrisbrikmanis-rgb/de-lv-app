@@ -1,0 +1,985 @@
+{
+  "ok": true,
+  "files": [
+    {
+      "file": "data/bg/a1.js",
+      "baseSha256": "4d868b339adb5ac3babf0b527a58767413f66f024405bad76974fe0959c4e1d1",
+      "restoredSha256": "4d868b339adb5ac3babf0b527a58767413f66f024405bad76974fe0959c4e1d1",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/bg/a1.js",
+      "baseSha256": "4d868b339adb5ac3babf0b527a58767413f66f024405bad76974fe0959c4e1d1",
+      "restoredSha256": "4d868b339adb5ac3babf0b527a58767413f66f024405bad76974fe0959c4e1d1",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/cs/a1.js",
+      "baseSha256": "b1cf201b684cd09c87fee8158ceb8d010ccb0ce0018727fe6b9281989c79a2ae",
+      "restoredSha256": "b1cf201b684cd09c87fee8158ceb8d010ccb0ce0018727fe6b9281989c79a2ae",
+      "ok": true,
+      "removed": 8
+    },
+    {
+      "file": "www/data/cs/a1.js",
+      "baseSha256": "b1cf201b684cd09c87fee8158ceb8d010ccb0ce0018727fe6b9281989c79a2ae",
+      "restoredSha256": "b1cf201b684cd09c87fee8158ceb8d010ccb0ce0018727fe6b9281989c79a2ae",
+      "ok": true,
+      "removed": 8
+    },
+    {
+      "file": "data/da/a1.js",
+      "baseSha256": "a8364af1f9efecb714731f425225cbef94e0a493e33c1959e722cfd065b9cade",
+      "restoredSha256": "a8364af1f9efecb714731f425225cbef94e0a493e33c1959e722cfd065b9cade",
+      "ok": true,
+      "removed": 25
+    },
+    {
+      "file": "www/data/da/a1.js",
+      "baseSha256": "a8364af1f9efecb714731f425225cbef94e0a493e33c1959e722cfd065b9cade",
+      "restoredSha256": "a8364af1f9efecb714731f425225cbef94e0a493e33c1959e722cfd065b9cade",
+      "ok": true,
+      "removed": 25
+    },
+    {
+      "file": "data/en/a1.js",
+      "baseSha256": "13a4020a1791d92a35d49a19f62f9da52251dba938474fb73e3bbb04694ba69d",
+      "restoredSha256": "13a4020a1791d92a35d49a19f62f9da52251dba938474fb73e3bbb04694ba69d",
+      "ok": true,
+      "removed": 7
+    },
+    {
+      "file": "www/data/en/a1.js",
+      "baseSha256": "13a4020a1791d92a35d49a19f62f9da52251dba938474fb73e3bbb04694ba69d",
+      "restoredSha256": "13a4020a1791d92a35d49a19f62f9da52251dba938474fb73e3bbb04694ba69d",
+      "ok": true,
+      "removed": 7
+    },
+    {
+      "file": "data/es/a1.js",
+      "baseSha256": "a372a888e64e994d1ed3af7bf11e25650854eac109942f377bff9dd2517c9da1",
+      "restoredSha256": "a372a888e64e994d1ed3af7bf11e25650854eac109942f377bff9dd2517c9da1",
+      "ok": true,
+      "removed": 17
+    },
+    {
+      "file": "www/data/es/a1.js",
+      "baseSha256": "a372a888e64e994d1ed3af7bf11e25650854eac109942f377bff9dd2517c9da1",
+      "restoredSha256": "a372a888e64e994d1ed3af7bf11e25650854eac109942f377bff9dd2517c9da1",
+      "ok": true,
+      "removed": 17
+    },
+    {
+      "file": "data/et/a1.js",
+      "baseSha256": "bf1d110be3150372c14822c09417f4e64eef9fbc8edcef9ef946b58b7b6890c6",
+      "restoredSha256": "bf1d110be3150372c14822c09417f4e64eef9fbc8edcef9ef946b58b7b6890c6",
+      "ok": true,
+      "removed": 22
+    },
+    {
+      "file": "www/data/et/a1.js",
+      "baseSha256": "bf1d110be3150372c14822c09417f4e64eef9fbc8edcef9ef946b58b7b6890c6",
+      "restoredSha256": "bf1d110be3150372c14822c09417f4e64eef9fbc8edcef9ef946b58b7b6890c6",
+      "ok": true,
+      "removed": 22
+    },
+    {
+      "file": "data/fi/a1.js",
+      "baseSha256": "29c999200ab270c25b22f7993adf5e85604f2f5fe3b41081c240c8a7845ed856",
+      "restoredSha256": "29c999200ab270c25b22f7993adf5e85604f2f5fe3b41081c240c8a7845ed856",
+      "ok": true,
+      "removed": 19
+    },
+    {
+      "file": "www/data/fi/a1.js",
+      "baseSha256": "29c999200ab270c25b22f7993adf5e85604f2f5fe3b41081c240c8a7845ed856",
+      "restoredSha256": "29c999200ab270c25b22f7993adf5e85604f2f5fe3b41081c240c8a7845ed856",
+      "ok": true,
+      "removed": 19
+    },
+    {
+      "file": "data/fr/a1.js",
+      "baseSha256": "a8ebd6a5d046962af3c856fd138d2b0eeadf948134842d4de2b2cd6c4db44e7f",
+      "restoredSha256": "a8ebd6a5d046962af3c856fd138d2b0eeadf948134842d4de2b2cd6c4db44e7f",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/fr/a1.js",
+      "baseSha256": "a8ebd6a5d046962af3c856fd138d2b0eeadf948134842d4de2b2cd6c4db44e7f",
+      "restoredSha256": "a8ebd6a5d046962af3c856fd138d2b0eeadf948134842d4de2b2cd6c4db44e7f",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/gr/a1.js",
+      "baseSha256": "3a13f32f0aafa5e844663e8638760a03302160861a79e66224e9ccbccba7374e",
+      "restoredSha256": "3a13f32f0aafa5e844663e8638760a03302160861a79e66224e9ccbccba7374e",
+      "ok": true,
+      "removed": 24
+    },
+    {
+      "file": "www/data/gr/a1.js",
+      "baseSha256": "3a13f32f0aafa5e844663e8638760a03302160861a79e66224e9ccbccba7374e",
+      "restoredSha256": "3a13f32f0aafa5e844663e8638760a03302160861a79e66224e9ccbccba7374e",
+      "ok": true,
+      "removed": 24
+    },
+    {
+      "file": "data/hr/a1.js",
+      "baseSha256": "db5c79bfa1d86e5bc21de72fb723cc874fe798dde35451669abbab7b77f4df72",
+      "restoredSha256": "db5c79bfa1d86e5bc21de72fb723cc874fe798dde35451669abbab7b77f4df72",
+      "ok": true,
+      "removed": 17
+    },
+    {
+      "file": "www/data/hr/a1.js",
+      "baseSha256": "db5c79bfa1d86e5bc21de72fb723cc874fe798dde35451669abbab7b77f4df72",
+      "restoredSha256": "db5c79bfa1d86e5bc21de72fb723cc874fe798dde35451669abbab7b77f4df72",
+      "ok": true,
+      "removed": 17
+    },
+    {
+      "file": "data/hu/a1.js",
+      "baseSha256": "ab348622fc8a8492e84293c1df0d060f210f0e90b485caa42b6f7f58d051d87d",
+      "restoredSha256": "ab348622fc8a8492e84293c1df0d060f210f0e90b485caa42b6f7f58d051d87d",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/hu/a1.js",
+      "baseSha256": "ab348622fc8a8492e84293c1df0d060f210f0e90b485caa42b6f7f58d051d87d",
+      "restoredSha256": "ab348622fc8a8492e84293c1df0d060f210f0e90b485caa42b6f7f58d051d87d",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/is/a1.js",
+      "baseSha256": "04da930fb11197d85cb2a4dfafee82e39c0c6f85c266d306c369c402668ad7f2",
+      "restoredSha256": "04da930fb11197d85cb2a4dfafee82e39c0c6f85c266d306c369c402668ad7f2",
+      "ok": true,
+      "removed": 18
+    },
+    {
+      "file": "www/data/is/a1.js",
+      "baseSha256": "04da930fb11197d85cb2a4dfafee82e39c0c6f85c266d306c369c402668ad7f2",
+      "restoredSha256": "04da930fb11197d85cb2a4dfafee82e39c0c6f85c266d306c369c402668ad7f2",
+      "ok": true,
+      "removed": 18
+    },
+    {
+      "file": "data/it/a1.js",
+      "baseSha256": "572a2d1dda541f1d0c83df037cd7357fd8d83481dd6c1cb4dac6c6052f53f797",
+      "restoredSha256": "572a2d1dda541f1d0c83df037cd7357fd8d83481dd6c1cb4dac6c6052f53f797",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/it/a1.js",
+      "baseSha256": "572a2d1dda541f1d0c83df037cd7357fd8d83481dd6c1cb4dac6c6052f53f797",
+      "restoredSha256": "572a2d1dda541f1d0c83df037cd7357fd8d83481dd6c1cb4dac6c6052f53f797",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/lb/a1.js",
+      "baseSha256": "b734f347ba1ecd7229c4c880d6bbbe57ab2482a0677ea6b292cb095e1026855e",
+      "restoredSha256": "b734f347ba1ecd7229c4c880d6bbbe57ab2482a0677ea6b292cb095e1026855e",
+      "ok": true,
+      "removed": 18
+    },
+    {
+      "file": "www/data/lb/a1.js",
+      "baseSha256": "b734f347ba1ecd7229c4c880d6bbbe57ab2482a0677ea6b292cb095e1026855e",
+      "restoredSha256": "b734f347ba1ecd7229c4c880d6bbbe57ab2482a0677ea6b292cb095e1026855e",
+      "ok": true,
+      "removed": 18
+    },
+    {
+      "file": "data/lt/a1.js",
+      "baseSha256": "a7676d063a0593246c8bc5f99184a054aac6904f2169e744fcbdab9c6408a0cf",
+      "restoredSha256": "a7676d063a0593246c8bc5f99184a054aac6904f2169e744fcbdab9c6408a0cf",
+      "ok": true,
+      "removed": 19
+    },
+    {
+      "file": "www/data/lt/a1.js",
+      "baseSha256": "a7676d063a0593246c8bc5f99184a054aac6904f2169e744fcbdab9c6408a0cf",
+      "restoredSha256": "a7676d063a0593246c8bc5f99184a054aac6904f2169e744fcbdab9c6408a0cf",
+      "ok": true,
+      "removed": 19
+    },
+    {
+      "file": "data/mk/a1.js",
+      "baseSha256": "77147c568a58baab77a377d0dfde81e374b812f1d7a6b409ff747e15c62c88a4",
+      "restoredSha256": "77147c568a58baab77a377d0dfde81e374b812f1d7a6b409ff747e15c62c88a4",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/mk/a1.js",
+      "baseSha256": "77147c568a58baab77a377d0dfde81e374b812f1d7a6b409ff747e15c62c88a4",
+      "restoredSha256": "77147c568a58baab77a377d0dfde81e374b812f1d7a6b409ff747e15c62c88a4",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/nb/a1.js",
+      "baseSha256": "d6bca95bcab739707621a7aaa9740b7cb4cc35697cf4c4819737db62d06ce9c0",
+      "restoredSha256": "d6bca95bcab739707621a7aaa9740b7cb4cc35697cf4c4819737db62d06ce9c0",
+      "ok": true,
+      "removed": 18
+    },
+    {
+      "file": "www/data/nb/a1.js",
+      "baseSha256": "d6bca95bcab739707621a7aaa9740b7cb4cc35697cf4c4819737db62d06ce9c0",
+      "restoredSha256": "d6bca95bcab739707621a7aaa9740b7cb4cc35697cf4c4819737db62d06ce9c0",
+      "ok": true,
+      "removed": 18
+    },
+    {
+      "file": "data/nl/a1.js",
+      "baseSha256": "d37f3326ea4d764961a8de6d85b0f13c8821cd063679869b0def1bccb0afbeee",
+      "restoredSha256": "d37f3326ea4d764961a8de6d85b0f13c8821cd063679869b0def1bccb0afbeee",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/nl/a1.js",
+      "baseSha256": "d37f3326ea4d764961a8de6d85b0f13c8821cd063679869b0def1bccb0afbeee",
+      "restoredSha256": "d37f3326ea4d764961a8de6d85b0f13c8821cd063679869b0def1bccb0afbeee",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/nn/a1.js",
+      "baseSha256": "bf500587cc7f78f0812ab9383a97f111103a32c2c518b6b3a2f100cd36f7f697",
+      "restoredSha256": "bf500587cc7f78f0812ab9383a97f111103a32c2c518b6b3a2f100cd36f7f697",
+      "ok": true,
+      "removed": 24
+    },
+    {
+      "file": "www/data/nn/a1.js",
+      "baseSha256": "bf500587cc7f78f0812ab9383a97f111103a32c2c518b6b3a2f100cd36f7f697",
+      "restoredSha256": "bf500587cc7f78f0812ab9383a97f111103a32c2c518b6b3a2f100cd36f7f697",
+      "ok": true,
+      "removed": 24
+    },
+    {
+      "file": "data/pl/a1.js",
+      "baseSha256": "9a4d839da61c0987aa30d44a9822bf9a80c4dddf59f68516137b1746b51c07b0",
+      "restoredSha256": "9a4d839da61c0987aa30d44a9822bf9a80c4dddf59f68516137b1746b51c07b0",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/pl/a1.js",
+      "baseSha256": "9a4d839da61c0987aa30d44a9822bf9a80c4dddf59f68516137b1746b51c07b0",
+      "restoredSha256": "9a4d839da61c0987aa30d44a9822bf9a80c4dddf59f68516137b1746b51c07b0",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/pt/a1.js",
+      "baseSha256": "a03c5299f5cf21a50aee24d8874ca6a9ecd7c9aedfc616ad40f83c9caa79db46",
+      "restoredSha256": "a03c5299f5cf21a50aee24d8874ca6a9ecd7c9aedfc616ad40f83c9caa79db46",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/pt/a1.js",
+      "baseSha256": "a03c5299f5cf21a50aee24d8874ca6a9ecd7c9aedfc616ad40f83c9caa79db46",
+      "restoredSha256": "a03c5299f5cf21a50aee24d8874ca6a9ecd7c9aedfc616ad40f83c9caa79db46",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/ro/a1.js",
+      "baseSha256": "ed59ff4079f247cb7084d8fc2cdc1ec589722236013d6b3980c73642325c4ddc",
+      "restoredSha256": "ed59ff4079f247cb7084d8fc2cdc1ec589722236013d6b3980c73642325c4ddc",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/ro/a1.js",
+      "baseSha256": "ed59ff4079f247cb7084d8fc2cdc1ec589722236013d6b3980c73642325c4ddc",
+      "restoredSha256": "ed59ff4079f247cb7084d8fc2cdc1ec589722236013d6b3980c73642325c4ddc",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/ru/a1.js",
+      "baseSha256": "84669fb7bf4d1a00a526c2670d22dd4636c6d28ffd2435f115ec87784a684a0e",
+      "restoredSha256": "84669fb7bf4d1a00a526c2670d22dd4636c6d28ffd2435f115ec87784a684a0e",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/ru/a1.js",
+      "baseSha256": "84669fb7bf4d1a00a526c2670d22dd4636c6d28ffd2435f115ec87784a684a0e",
+      "restoredSha256": "84669fb7bf4d1a00a526c2670d22dd4636c6d28ffd2435f115ec87784a684a0e",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/sk/a1.js",
+      "baseSha256": "fb6f8ee13a30edeb444136c1ef605321070bc5efb17e119a22dc9daebd6c7f51",
+      "restoredSha256": "fb6f8ee13a30edeb444136c1ef605321070bc5efb17e119a22dc9daebd6c7f51",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/sk/a1.js",
+      "baseSha256": "fb6f8ee13a30edeb444136c1ef605321070bc5efb17e119a22dc9daebd6c7f51",
+      "restoredSha256": "fb6f8ee13a30edeb444136c1ef605321070bc5efb17e119a22dc9daebd6c7f51",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/sl/a1.js",
+      "baseSha256": "69d6b10e553e5dad374197f52ef3ed76e63b5fd32404d8ea1a3ffbf548f9f14d",
+      "restoredSha256": "69d6b10e553e5dad374197f52ef3ed76e63b5fd32404d8ea1a3ffbf548f9f14d",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/sl/a1.js",
+      "baseSha256": "69d6b10e553e5dad374197f52ef3ed76e63b5fd32404d8ea1a3ffbf548f9f14d",
+      "restoredSha256": "69d6b10e553e5dad374197f52ef3ed76e63b5fd32404d8ea1a3ffbf548f9f14d",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/sq/a1.js",
+      "baseSha256": "c65adf8d570e77bbd1c57db507b9d352df392aec46852e2fa5ec2b8b16b96e4f",
+      "restoredSha256": "c65adf8d570e77bbd1c57db507b9d352df392aec46852e2fa5ec2b8b16b96e4f",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/sq/a1.js",
+      "baseSha256": "c65adf8d570e77bbd1c57db507b9d352df392aec46852e2fa5ec2b8b16b96e4f",
+      "restoredSha256": "c65adf8d570e77bbd1c57db507b9d352df392aec46852e2fa5ec2b8b16b96e4f",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/sr/a1.js",
+      "baseSha256": "2c5743ec28ad5e62ab2fb48546f74101f168238f3266e57c25280bca52816f41",
+      "restoredSha256": "2c5743ec28ad5e62ab2fb48546f74101f168238f3266e57c25280bca52816f41",
+      "ok": true,
+      "removed": 34
+    },
+    {
+      "file": "www/data/sr/a1.js",
+      "baseSha256": "2c5743ec28ad5e62ab2fb48546f74101f168238f3266e57c25280bca52816f41",
+      "restoredSha256": "2c5743ec28ad5e62ab2fb48546f74101f168238f3266e57c25280bca52816f41",
+      "ok": true,
+      "removed": 34
+    },
+    {
+      "file": "data/sv/a1.js",
+      "baseSha256": "a7d1c13eee2ad7c8aac14254d9d5437556200dd3cfba13be449c4030fb3a7253",
+      "restoredSha256": "a7d1c13eee2ad7c8aac14254d9d5437556200dd3cfba13be449c4030fb3a7253",
+      "ok": true,
+      "removed": 18
+    },
+    {
+      "file": "www/data/sv/a1.js",
+      "baseSha256": "a7d1c13eee2ad7c8aac14254d9d5437556200dd3cfba13be449c4030fb3a7253",
+      "restoredSha256": "a7d1c13eee2ad7c8aac14254d9d5437556200dd3cfba13be449c4030fb3a7253",
+      "ok": true,
+      "removed": 18
+    },
+    {
+      "file": "data/tr/a1.js",
+      "baseSha256": "ecce5dfa41599ef09e016cc0c60614e625a12c553f823165cc036e3f59ad2318",
+      "restoredSha256": "ecce5dfa41599ef09e016cc0c60614e625a12c553f823165cc036e3f59ad2318",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/tr/a1.js",
+      "baseSha256": "ecce5dfa41599ef09e016cc0c60614e625a12c553f823165cc036e3f59ad2318",
+      "restoredSha256": "ecce5dfa41599ef09e016cc0c60614e625a12c553f823165cc036e3f59ad2318",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/uk/a1.js",
+      "baseSha256": "338acda044ee3c69dd44986e4c3b0e710f57f0448221d980141158398f5dd5e3",
+      "restoredSha256": "338acda044ee3c69dd44986e4c3b0e710f57f0448221d980141158398f5dd5e3",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/uk/a1.js",
+      "baseSha256": "338acda044ee3c69dd44986e4c3b0e710f57f0448221d980141158398f5dd5e3",
+      "restoredSha256": "338acda044ee3c69dd44986e4c3b0e710f57f0448221d980141158398f5dd5e3",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/bg/a2.js",
+      "baseSha256": "b554bdd407e0178e00e2541e35cad563a5c5b39d8c034c86581cf2d27dd4868d",
+      "restoredSha256": "b554bdd407e0178e00e2541e35cad563a5c5b39d8c034c86581cf2d27dd4868d",
+      "ok": true,
+      "removed": 6
+    },
+    {
+      "file": "www/data/bg/a2.js",
+      "baseSha256": "b554bdd407e0178e00e2541e35cad563a5c5b39d8c034c86581cf2d27dd4868d",
+      "restoredSha256": "b554bdd407e0178e00e2541e35cad563a5c5b39d8c034c86581cf2d27dd4868d",
+      "ok": true,
+      "removed": 6
+    },
+    {
+      "file": "data/es/a2.js",
+      "baseSha256": "ae8072cfc67c550afe670f7d7a31b1ba1d072d24b05ea6a486cc32a8ab94c8d1",
+      "restoredSha256": "ae8072cfc67c550afe670f7d7a31b1ba1d072d24b05ea6a486cc32a8ab94c8d1",
+      "ok": true,
+      "removed": 3
+    },
+    {
+      "file": "www/data/es/a2.js",
+      "baseSha256": "ae8072cfc67c550afe670f7d7a31b1ba1d072d24b05ea6a486cc32a8ab94c8d1",
+      "restoredSha256": "ae8072cfc67c550afe670f7d7a31b1ba1d072d24b05ea6a486cc32a8ab94c8d1",
+      "ok": true,
+      "removed": 3
+    },
+    {
+      "file": "data/et/a2.js",
+      "baseSha256": "05ed538699e11cf0f7c88d652031e08853147161a9936f8bcaec1dcf5cea036d",
+      "restoredSha256": "05ed538699e11cf0f7c88d652031e08853147161a9936f8bcaec1dcf5cea036d",
+      "ok": true,
+      "removed": 28
+    },
+    {
+      "file": "www/data/et/a2.js",
+      "baseSha256": "05ed538699e11cf0f7c88d652031e08853147161a9936f8bcaec1dcf5cea036d",
+      "restoredSha256": "05ed538699e11cf0f7c88d652031e08853147161a9936f8bcaec1dcf5cea036d",
+      "ok": true,
+      "removed": 28
+    },
+    {
+      "file": "data/hr/a2.js",
+      "baseSha256": "a606c323c289bb543af8479b491317776a16c4a8bb63026a81a46b5f517c4726",
+      "restoredSha256": "a606c323c289bb543af8479b491317776a16c4a8bb63026a81a46b5f517c4726",
+      "ok": true,
+      "removed": 6
+    },
+    {
+      "file": "www/data/hr/a2.js",
+      "baseSha256": "a606c323c289bb543af8479b491317776a16c4a8bb63026a81a46b5f517c4726",
+      "restoredSha256": "a606c323c289bb543af8479b491317776a16c4a8bb63026a81a46b5f517c4726",
+      "ok": true,
+      "removed": 6
+    },
+    {
+      "file": "data/mk/a2.js",
+      "baseSha256": "f837cdb093757f4aed615c928890dd198da238f3249e32604598722a95135f96",
+      "restoredSha256": "f837cdb093757f4aed615c928890dd198da238f3249e32604598722a95135f96",
+      "ok": true,
+      "removed": 6
+    },
+    {
+      "file": "www/data/mk/a2.js",
+      "baseSha256": "f837cdb093757f4aed615c928890dd198da238f3249e32604598722a95135f96",
+      "restoredSha256": "f837cdb093757f4aed615c928890dd198da238f3249e32604598722a95135f96",
+      "ok": true,
+      "removed": 6
+    },
+    {
+      "file": "data/ro/a2.js",
+      "baseSha256": "c4178d44ae27d173cc2feaf6b2607d3d932616eacf4e875ed4c3942a0e17c5b1",
+      "restoredSha256": "c4178d44ae27d173cc2feaf6b2607d3d932616eacf4e875ed4c3942a0e17c5b1",
+      "ok": true,
+      "removed": 6
+    },
+    {
+      "file": "www/data/ro/a2.js",
+      "baseSha256": "c4178d44ae27d173cc2feaf6b2607d3d932616eacf4e875ed4c3942a0e17c5b1",
+      "restoredSha256": "c4178d44ae27d173cc2feaf6b2607d3d932616eacf4e875ed4c3942a0e17c5b1",
+      "ok": true,
+      "removed": 6
+    },
+    {
+      "file": "data/ru/a2.js",
+      "baseSha256": "a783158a9a1ce680df4dba8a545dd35657841c979228f05a5123761aa8b48e07",
+      "restoredSha256": "a783158a9a1ce680df4dba8a545dd35657841c979228f05a5123761aa8b48e07",
+      "ok": true,
+      "removed": 6
+    },
+    {
+      "file": "www/data/ru/a2.js",
+      "baseSha256": "a783158a9a1ce680df4dba8a545dd35657841c979228f05a5123761aa8b48e07",
+      "restoredSha256": "a783158a9a1ce680df4dba8a545dd35657841c979228f05a5123761aa8b48e07",
+      "ok": true,
+      "removed": 6
+    },
+    {
+      "file": "data/sr/a2.js",
+      "baseSha256": "a606c323c289bb543af8479b491317776a16c4a8bb63026a81a46b5f517c4726",
+      "restoredSha256": "a606c323c289bb543af8479b491317776a16c4a8bb63026a81a46b5f517c4726",
+      "ok": true,
+      "removed": 6
+    },
+    {
+      "file": "www/data/sr/a2.js",
+      "baseSha256": "a606c323c289bb543af8479b491317776a16c4a8bb63026a81a46b5f517c4726",
+      "restoredSha256": "a606c323c289bb543af8479b491317776a16c4a8bb63026a81a46b5f517c4726",
+      "ok": true,
+      "removed": 6
+    },
+    {
+      "file": "data/bs/b1.js",
+      "baseSha256": "aaa364f9e7c5ec525ad0b1e5165ad6cbafa2a90cf89cbfd85e5b3dfe48bb83ac",
+      "restoredSha256": "aaa364f9e7c5ec525ad0b1e5165ad6cbafa2a90cf89cbfd85e5b3dfe48bb83ac",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "www/data/bs/b1.js",
+      "baseSha256": "aaa364f9e7c5ec525ad0b1e5165ad6cbafa2a90cf89cbfd85e5b3dfe48bb83ac",
+      "restoredSha256": "aaa364f9e7c5ec525ad0b1e5165ad6cbafa2a90cf89cbfd85e5b3dfe48bb83ac",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "data/cs/b1.js",
+      "baseSha256": "207b692d67629daf43b1f4d4f9fcf361d14ff676a56c3c14d7cb0c883198b7dc",
+      "restoredSha256": "207b692d67629daf43b1f4d4f9fcf361d14ff676a56c3c14d7cb0c883198b7dc",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "www/data/cs/b1.js",
+      "baseSha256": "207b692d67629daf43b1f4d4f9fcf361d14ff676a56c3c14d7cb0c883198b7dc",
+      "restoredSha256": "207b692d67629daf43b1f4d4f9fcf361d14ff676a56c3c14d7cb0c883198b7dc",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "data/da/b1.js",
+      "baseSha256": "d62c50969370b9c92baea83fcdd925a65c02d942fde37ac777dc9f7ad8073952",
+      "restoredSha256": "d62c50969370b9c92baea83fcdd925a65c02d942fde37ac777dc9f7ad8073952",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "www/data/da/b1.js",
+      "baseSha256": "d62c50969370b9c92baea83fcdd925a65c02d942fde37ac777dc9f7ad8073952",
+      "restoredSha256": "d62c50969370b9c92baea83fcdd925a65c02d942fde37ac777dc9f7ad8073952",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "data/es/b1.js",
+      "baseSha256": "4d990ce9c03a25446edda083ef9ab8864998afbe1460d827f85f10b3bc68b4cf",
+      "restoredSha256": "4d990ce9c03a25446edda083ef9ab8864998afbe1460d827f85f10b3bc68b4cf",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/es/b1.js",
+      "baseSha256": "4d990ce9c03a25446edda083ef9ab8864998afbe1460d827f85f10b3bc68b4cf",
+      "restoredSha256": "4d990ce9c03a25446edda083ef9ab8864998afbe1460d827f85f10b3bc68b4cf",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/et/b1.js",
+      "baseSha256": "7445e6b1794e0188762640268dfc41fa1bc164058247973d0d6b18e54d82a0e5",
+      "restoredSha256": "7445e6b1794e0188762640268dfc41fa1bc164058247973d0d6b18e54d82a0e5",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/et/b1.js",
+      "baseSha256": "7445e6b1794e0188762640268dfc41fa1bc164058247973d0d6b18e54d82a0e5",
+      "restoredSha256": "7445e6b1794e0188762640268dfc41fa1bc164058247973d0d6b18e54d82a0e5",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/fi/b1.js",
+      "baseSha256": "2d5aaad9047bcd3bce05b5995e14a7020a9af04a3ee81f2096a14cd441946af5",
+      "restoredSha256": "2d5aaad9047bcd3bce05b5995e14a7020a9af04a3ee81f2096a14cd441946af5",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/fi/b1.js",
+      "baseSha256": "2d5aaad9047bcd3bce05b5995e14a7020a9af04a3ee81f2096a14cd441946af5",
+      "restoredSha256": "2d5aaad9047bcd3bce05b5995e14a7020a9af04a3ee81f2096a14cd441946af5",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/fr/b1.js",
+      "baseSha256": "2881596f87c3f7b8beb88f1a28a96539f41098566cd3ae52db2840ee2ec4df19",
+      "restoredSha256": "2881596f87c3f7b8beb88f1a28a96539f41098566cd3ae52db2840ee2ec4df19",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "www/data/fr/b1.js",
+      "baseSha256": "2881596f87c3f7b8beb88f1a28a96539f41098566cd3ae52db2840ee2ec4df19",
+      "restoredSha256": "2881596f87c3f7b8beb88f1a28a96539f41098566cd3ae52db2840ee2ec4df19",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "data/hu/b1.js",
+      "baseSha256": "f92388a3cb5f0873d2f0536a9be9034abbc8a6f39880f48ef12ec68f395b3885",
+      "restoredSha256": "f92388a3cb5f0873d2f0536a9be9034abbc8a6f39880f48ef12ec68f395b3885",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/hu/b1.js",
+      "baseSha256": "f92388a3cb5f0873d2f0536a9be9034abbc8a6f39880f48ef12ec68f395b3885",
+      "restoredSha256": "f92388a3cb5f0873d2f0536a9be9034abbc8a6f39880f48ef12ec68f395b3885",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/is/b1.js",
+      "baseSha256": "9eb3d81c6e2b7967e65d2c307dab20a69fc664406f26431946d3fbf2524e73b6",
+      "restoredSha256": "9eb3d81c6e2b7967e65d2c307dab20a69fc664406f26431946d3fbf2524e73b6",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/is/b1.js",
+      "baseSha256": "9eb3d81c6e2b7967e65d2c307dab20a69fc664406f26431946d3fbf2524e73b6",
+      "restoredSha256": "9eb3d81c6e2b7967e65d2c307dab20a69fc664406f26431946d3fbf2524e73b6",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/it/b1.js",
+      "baseSha256": "5311c304eab735a58213236a521475d15e95c1646fb6602527f95f2c4c673276",
+      "restoredSha256": "5311c304eab735a58213236a521475d15e95c1646fb6602527f95f2c4c673276",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/it/b1.js",
+      "baseSha256": "5311c304eab735a58213236a521475d15e95c1646fb6602527f95f2c4c673276",
+      "restoredSha256": "5311c304eab735a58213236a521475d15e95c1646fb6602527f95f2c4c673276",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/lb/b1.js",
+      "baseSha256": "fecaaccf84d8781b3fea19bba170afd06ca817bc94dc9b031ac76652fdcdad9e",
+      "restoredSha256": "fecaaccf84d8781b3fea19bba170afd06ca817bc94dc9b031ac76652fdcdad9e",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/lb/b1.js",
+      "baseSha256": "fecaaccf84d8781b3fea19bba170afd06ca817bc94dc9b031ac76652fdcdad9e",
+      "restoredSha256": "fecaaccf84d8781b3fea19bba170afd06ca817bc94dc9b031ac76652fdcdad9e",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/lt/b1.js",
+      "baseSha256": "68ae880208eda58cd1c4bfbd829866a795c3978b5f11aa518e8a16b2b1dfb936",
+      "restoredSha256": "68ae880208eda58cd1c4bfbd829866a795c3978b5f11aa518e8a16b2b1dfb936",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/lt/b1.js",
+      "baseSha256": "68ae880208eda58cd1c4bfbd829866a795c3978b5f11aa518e8a16b2b1dfb936",
+      "restoredSha256": "68ae880208eda58cd1c4bfbd829866a795c3978b5f11aa518e8a16b2b1dfb936",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/nb/b1.js",
+      "baseSha256": "9eb3d81c6e2b7967e65d2c307dab20a69fc664406f26431946d3fbf2524e73b6",
+      "restoredSha256": "9eb3d81c6e2b7967e65d2c307dab20a69fc664406f26431946d3fbf2524e73b6",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/nb/b1.js",
+      "baseSha256": "9eb3d81c6e2b7967e65d2c307dab20a69fc664406f26431946d3fbf2524e73b6",
+      "restoredSha256": "9eb3d81c6e2b7967e65d2c307dab20a69fc664406f26431946d3fbf2524e73b6",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/nl/b1.js",
+      "baseSha256": "1984be91fa7f4c37f262a18986efb4bb345182ad1782a75d430c5f5cce232ca4",
+      "restoredSha256": "1984be91fa7f4c37f262a18986efb4bb345182ad1782a75d430c5f5cce232ca4",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/nl/b1.js",
+      "baseSha256": "1984be91fa7f4c37f262a18986efb4bb345182ad1782a75d430c5f5cce232ca4",
+      "restoredSha256": "1984be91fa7f4c37f262a18986efb4bb345182ad1782a75d430c5f5cce232ca4",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/nn/b1.js",
+      "baseSha256": "9eb3d81c6e2b7967e65d2c307dab20a69fc664406f26431946d3fbf2524e73b6",
+      "restoredSha256": "9eb3d81c6e2b7967e65d2c307dab20a69fc664406f26431946d3fbf2524e73b6",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/nn/b1.js",
+      "baseSha256": "9eb3d81c6e2b7967e65d2c307dab20a69fc664406f26431946d3fbf2524e73b6",
+      "restoredSha256": "9eb3d81c6e2b7967e65d2c307dab20a69fc664406f26431946d3fbf2524e73b6",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/pl/b1.js",
+      "baseSha256": "741e3981966ea91224d0d211c27d5c93663dd1ddb880ae04e774d6e584316cd0",
+      "restoredSha256": "741e3981966ea91224d0d211c27d5c93663dd1ddb880ae04e774d6e584316cd0",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/pl/b1.js",
+      "baseSha256": "741e3981966ea91224d0d211c27d5c93663dd1ddb880ae04e774d6e584316cd0",
+      "restoredSha256": "741e3981966ea91224d0d211c27d5c93663dd1ddb880ae04e774d6e584316cd0",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/pt/b1.js",
+      "baseSha256": "df755ceaae2ee2cec694a8bb54f62fdb6c3ca6bf0239488fba3d44bb2eb49b43",
+      "restoredSha256": "df755ceaae2ee2cec694a8bb54f62fdb6c3ca6bf0239488fba3d44bb2eb49b43",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/pt/b1.js",
+      "baseSha256": "df755ceaae2ee2cec694a8bb54f62fdb6c3ca6bf0239488fba3d44bb2eb49b43",
+      "restoredSha256": "df755ceaae2ee2cec694a8bb54f62fdb6c3ca6bf0239488fba3d44bb2eb49b43",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/ro/b1.js",
+      "baseSha256": "4f7ad75b49372c678d98e98aa7cd60a70afff90ddd473912887f422af2b99b64",
+      "restoredSha256": "4f7ad75b49372c678d98e98aa7cd60a70afff90ddd473912887f422af2b99b64",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "www/data/ro/b1.js",
+      "baseSha256": "4f7ad75b49372c678d98e98aa7cd60a70afff90ddd473912887f422af2b99b64",
+      "restoredSha256": "4f7ad75b49372c678d98e98aa7cd60a70afff90ddd473912887f422af2b99b64",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "data/sk/b1.js",
+      "baseSha256": "ae3e44b20f09595cf91e647ee8be46de0a37229e4bc49f877d5b9c3cdbefbe67",
+      "restoredSha256": "ae3e44b20f09595cf91e647ee8be46de0a37229e4bc49f877d5b9c3cdbefbe67",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/sk/b1.js",
+      "baseSha256": "ae3e44b20f09595cf91e647ee8be46de0a37229e4bc49f877d5b9c3cdbefbe67",
+      "restoredSha256": "ae3e44b20f09595cf91e647ee8be46de0a37229e4bc49f877d5b9c3cdbefbe67",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/sl/b1.js",
+      "baseSha256": "4bd3f0bc58e935f27edade1ef545ca7860c1e758ef251448bd2ac4980620ec5d",
+      "restoredSha256": "4bd3f0bc58e935f27edade1ef545ca7860c1e758ef251448bd2ac4980620ec5d",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/sl/b1.js",
+      "baseSha256": "4bd3f0bc58e935f27edade1ef545ca7860c1e758ef251448bd2ac4980620ec5d",
+      "restoredSha256": "4bd3f0bc58e935f27edade1ef545ca7860c1e758ef251448bd2ac4980620ec5d",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/sq/b1.js",
+      "baseSha256": "491ca5b92e50275b6b44419284c6f1eb9ed1a1c9dc24a64171cccb22a2948eb1",
+      "restoredSha256": "491ca5b92e50275b6b44419284c6f1eb9ed1a1c9dc24a64171cccb22a2948eb1",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/sq/b1.js",
+      "baseSha256": "491ca5b92e50275b6b44419284c6f1eb9ed1a1c9dc24a64171cccb22a2948eb1",
+      "restoredSha256": "491ca5b92e50275b6b44419284c6f1eb9ed1a1c9dc24a64171cccb22a2948eb1",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/sv/b1.js",
+      "baseSha256": "56b3f0eb169d5d782ed6bfffe2d63aa2dcb784200702edb47b68b58f6a58dc75",
+      "restoredSha256": "56b3f0eb169d5d782ed6bfffe2d63aa2dcb784200702edb47b68b58f6a58dc75",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/sv/b1.js",
+      "baseSha256": "56b3f0eb169d5d782ed6bfffe2d63aa2dcb784200702edb47b68b58f6a58dc75",
+      "restoredSha256": "56b3f0eb169d5d782ed6bfffe2d63aa2dcb784200702edb47b68b58f6a58dc75",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/tr/b1.js",
+      "baseSha256": "59c88b31d826610bd33f9926c766b67fa2077e5dd88d600a9e978bbdcdb2c37a",
+      "restoredSha256": "59c88b31d826610bd33f9926c766b67fa2077e5dd88d600a9e978bbdcdb2c37a",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "www/data/tr/b1.js",
+      "baseSha256": "59c88b31d826610bd33f9926c766b67fa2077e5dd88d600a9e978bbdcdb2c37a",
+      "restoredSha256": "59c88b31d826610bd33f9926c766b67fa2077e5dd88d600a9e978bbdcdb2c37a",
+      "ok": true,
+      "removed": 2
+    },
+    {
+      "file": "data/et/c1.js",
+      "baseSha256": "35aa1518bb43b5841e3fd9fe65ea3da3541f6c9b6997d7853ea079a5bd8a855b",
+      "restoredSha256": "35aa1518bb43b5841e3fd9fe65ea3da3541f6c9b6997d7853ea079a5bd8a855b",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/et/c1.js",
+      "baseSha256": "35aa1518bb43b5841e3fd9fe65ea3da3541f6c9b6997d7853ea079a5bd8a855b",
+      "restoredSha256": "35aa1518bb43b5841e3fd9fe65ea3da3541f6c9b6997d7853ea079a5bd8a855b",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/fi/c1.js",
+      "baseSha256": "3eaaa9a3433236f5d4c6063a44598629b95051c08e5f01fb279968e7b4542037",
+      "restoredSha256": "3eaaa9a3433236f5d4c6063a44598629b95051c08e5f01fb279968e7b4542037",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "www/data/fi/c1.js",
+      "baseSha256": "3eaaa9a3433236f5d4c6063a44598629b95051c08e5f01fb279968e7b4542037",
+      "restoredSha256": "3eaaa9a3433236f5d4c6063a44598629b95051c08e5f01fb279968e7b4542037",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "data/gr/c1.js",
+      "baseSha256": "a1854d6c82c036ac16ed9689cf569ede4a13ef5d0c9ee9ba94b05ead810dced2",
+      "restoredSha256": "a1854d6c82c036ac16ed9689cf569ede4a13ef5d0c9ee9ba94b05ead810dced2",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "www/data/gr/c1.js",
+      "baseSha256": "a1854d6c82c036ac16ed9689cf569ede4a13ef5d0c9ee9ba94b05ead810dced2",
+      "restoredSha256": "a1854d6c82c036ac16ed9689cf569ede4a13ef5d0c9ee9ba94b05ead810dced2",
+      "ok": true,
+      "removed": 16
+    },
+    {
+      "file": "data/is/c1.js",
+      "baseSha256": "79da7cecead98b76d2b7840dc53940c65f02280b418d712060daba2e1e31ef6f",
+      "restoredSha256": "79da7cecead98b76d2b7840dc53940c65f02280b418d712060daba2e1e31ef6f",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "www/data/is/c1.js",
+      "baseSha256": "79da7cecead98b76d2b7840dc53940c65f02280b418d712060daba2e1e31ef6f",
+      "restoredSha256": "79da7cecead98b76d2b7840dc53940c65f02280b418d712060daba2e1e31ef6f",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "data/nb/c1.js",
+      "baseSha256": "79da7cecead98b76d2b7840dc53940c65f02280b418d712060daba2e1e31ef6f",
+      "restoredSha256": "79da7cecead98b76d2b7840dc53940c65f02280b418d712060daba2e1e31ef6f",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "www/data/nb/c1.js",
+      "baseSha256": "79da7cecead98b76d2b7840dc53940c65f02280b418d712060daba2e1e31ef6f",
+      "restoredSha256": "79da7cecead98b76d2b7840dc53940c65f02280b418d712060daba2e1e31ef6f",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "data/nn/c1.js",
+      "baseSha256": "79da7cecead98b76d2b7840dc53940c65f02280b418d712060daba2e1e31ef6f",
+      "restoredSha256": "79da7cecead98b76d2b7840dc53940c65f02280b418d712060daba2e1e31ef6f",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "www/data/nn/c1.js",
+      "baseSha256": "79da7cecead98b76d2b7840dc53940c65f02280b418d712060daba2e1e31ef6f",
+      "restoredSha256": "79da7cecead98b76d2b7840dc53940c65f02280b418d712060daba2e1e31ef6f",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "data/sv/c1.js",
+      "baseSha256": "d50f600a183a3eb0d196dd0ac05144673b015579274b19b6fa6bfa53ba7e4b6f",
+      "restoredSha256": "d50f600a183a3eb0d196dd0ac05144673b015579274b19b6fa6bfa53ba7e4b6f",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "www/data/sv/c1.js",
+      "baseSha256": "d50f600a183a3eb0d196dd0ac05144673b015579274b19b6fa6bfa53ba7e4b6f",
+      "restoredSha256": "d50f600a183a3eb0d196dd0ac05144673b015579274b19b6fa6bfa53ba7e4b6f",
+      "ok": true,
+      "removed": 1
+    },
+    {
+      "file": "data/et/c2.js",
+      "baseSha256": "6870d7bc203acebe61dffa672c59b989b65f26314fd4379fe1b7e6e2bf2b403a",
+      "restoredSha256": "6870d7bc203acebe61dffa672c59b989b65f26314fd4379fe1b7e6e2bf2b403a",
+      "ok": true,
+      "removed": 3
+    },
+    {
+      "file": "www/data/et/c2.js",
+      "baseSha256": "6870d7bc203acebe61dffa672c59b989b65f26314fd4379fe1b7e6e2bf2b403a",
+      "restoredSha256": "6870d7bc203acebe61dffa672c59b989b65f26314fd4379fe1b7e6e2bf2b403a",
+      "ok": true,
+      "removed": 3
+    },
+    {
+      "file": "data/gr/c2.js",
+      "baseSha256": "9459373dc06d2912921cf736e6cfc0d00155e6bd404305c961152ff563d54b75",
+      "restoredSha256": "9459373dc06d2912921cf736e6cfc0d00155e6bd404305c961152ff563d54b75",
+      "ok": true,
+      "removed": 3
+    },
+    {
+      "file": "www/data/gr/c2.js",
+      "baseSha256": "9459373dc06d2912921cf736e6cfc0d00155e6bd404305c961152ff563d54b75",
+      "restoredSha256": "9459373dc06d2912921cf736e6cfc0d00155e6bd404305c961152ff563d54b75",
+      "ok": true,
+      "removed": 3
+    }
+  ]
+}

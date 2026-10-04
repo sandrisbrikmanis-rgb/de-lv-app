@@ -157,14 +157,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Barnet er stadig lille."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Jeg har en lille taske."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Barnet ist klein."
-        }
       ],
       "tip": [
         "klein = lille",
@@ -2578,10 +2570,6 @@ const A1_WORDS = [
           "de": "Wir besuchen das Museum.",
           "lv": "Vi besøger museet."
         },
-        {
-          "de": "Er besucht einen Freund.",
-          "lv": "Han besøger en ven."
-        }
       ],
       "comparison": [
         {
@@ -2809,11 +2797,6 @@ const A1_WORDS = [
           "meaning": "Indtil",
           "example": "Bis jetzt habe ich nichts verstanden. – Jeg venter på, at du kommer."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Indtil nu, indtil denne dag",
-          "example": "Bis jetzt ist alles gut. – Så langt så godt."
-        }
       ],
       "tip": {
         "text": "Husk: grænse i tid/tilstand → bis."
@@ -2937,18 +2920,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Værsgo!"
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Må jeg spørge venligst"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Jeg har en anmodning."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Anmodningen er vigtig."
-        }
       ],
       "tip": {
         "text": "Husk: bitte med lille begyndelsesbogstav bruges som et høfligt ord; die Bitte med stort begyndelsesbogstav betyder en anmodning."
@@ -3028,16 +2999,6 @@ const A1_WORDS = [
         ]
       },
       "comparison": [
-        {
-          "word": "bitte",
-          "meaning": "venligst",
-          "example": "Komm bitte herein. -- Kom venligst ind."
-        },
-        {
-          "word": "die Bitte",
-          "meaning": "anmodning",
-          "example": "Ich habe eine Bitte. -- Jeg har en anmodning."
-        }
       ]
     }
   },
@@ -3137,16 +3098,6 @@ const A1_WORDS = [
         ]
       },
       "comparison": [
-        {
-          "word": "die Bitte",
-          "meaning": "anmodning",
-          "example": "Ich habe eine Bitte. -- Jeg har en anmodning."
-        },
-        {
-          "word": "bitte",
-          "meaning": "venligst",
-          "example": "Komm bitte herein. -- Kom venligst ind."
-        }
       ]
     }
   },
@@ -3482,37 +3433,13 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Jeg kører børnene i skole."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Jeg tager bogen"
-        }
       ],
       "comparison": [
-        {
-          "word": "bringen",
-          "meaning": "Medbring/tag/lever",
-          "example": "Ich bringe dir ein Buch. -- Jeg bringer dig en bog."
-        },
-        {
-          "word": "bringen",
-          "meaning": "At tage / at tage",
-          "example": "Ich bringe das Paket zur Post. -- Jeg bringer pakken til posthuset."
-        },
-        {
-          "word": "bringen",
-          "meaning": "Gå efter/hent",
-          "example": "Ich bringe die Kinder zur Schule. -- Jeg kører børnene i skole."
-        },
         {
           "word": "bringen",
           "meaning": "Tag væk og medbring",
           "example": "Bringst du Brot mit? -- Tager du brød med?"
         },
-        {
-          "word": "nehmen",
-          "meaning": "at tage",
-          "example": "Ich nehme das Buch. -- Jeg tager bogen."
-        }
       ],
       "tip": {
         "text": "Husk: flytte til nogen → bringen; tag selv → nehmen."
@@ -5393,14 +5320,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "Det er træt."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Det regner."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Det sner."
-        }
       ],
       "info": [
         "Dansk \"jeg\" = tysk \"ich\"",
@@ -5504,11 +5423,6 @@ const A1_WORDS = [
           "meaning": "det • upersonlig form",
           "example": "Es regnet. -- Det regner."
         },
-        {
-          "word": "ich",
-          "meaning": "jeg (personlig form)",
-          "example": "Ich lerne Deutsch. -- Jeg lærer tysk."
-        }
       ]
     }
   },
@@ -6250,10 +6164,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Det forekommer mig godt."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Hvad synes du om filmen?"
-        }
       ],
       "comparison": [
         {
@@ -6261,21 +6171,6 @@ const A1_WORDS = [
           "meaning": "Find/overvej",
           "example": "Ich finde das gut. = Jeg synes, det er godt."
         },
-        {
-          "word": "suchen",
-          "meaning": "At søge",
-          "example": "Ich suche den Schlüssel. = Jeg leder efter nøglen."
-        },
-        {
-          "word": "denken",
-          "meaning": "At tænke",
-          "example": "Ich denke an dich. = Jeg tænker på dig."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Tro/tænk",
-          "example": "Ich glaube, er kommt. = Jeg tror, han kommer."
-        }
       ],
       "tip": {
         "text": "Husk: tabt ting → funde; mening → jeg kan finde..."
@@ -6936,11 +6831,6 @@ const A1_WORDS = [
           "meaning": "sporten fodbold",
           "example": "Ich spiele Fußball. – Jeg spiller fodbold."
         },
-        {
-          "word": "der Fußball",
-          "meaning": "en fodbold",
-          "example": "Der Fußball liegt im Garten. – Fodbolden ligger i haven."
-        }
       ],
       "tip": [
         "Uden artikel betyder spielen Fußball normalt at spille fodbold.",
@@ -11610,11 +11500,6 @@ const A1_WORDS = [
           "word": "die Stadt",
           "meaning": "by",
           "example": "Ich wohne in der Stadt. – Jeg bor i byen."
-        },
-        {
-          "word": "das Dorf",
-          "meaning": "landsby",
-          "example": "Er wohnt in einem Dorf. – Han bor i en landsby."
         },
         {
           "word": "die Erde",

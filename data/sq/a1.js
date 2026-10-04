@@ -150,14 +150,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Foshnja është ende e re."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Kam një çantë të vogël."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Foshnja është e vogël."
-        }
       ],
       "tip": [
         "Klein = i vogël",
@@ -2133,11 +2125,6 @@ const A1_WORDS = [
           "meaning": "Değin",
           "example": "Bis jetzt habe ich nichts verstanden. – Po pres që të vish."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Deri më tani",
-          "example": "Bis jetzt ist alles gut. – Deri tani, mirë."
-        }
       ],
       "tip": {
         "text": "Mos harroni: kufiri kohor/i statusit → përsëri."
@@ -2252,18 +2239,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Do të doja një filxhan kafe, të lutem."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Ben te ju pyes ..."
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Unë jam babai yt!"
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Kërkesa është e rëndësishme."
-        }
       ],
       "tip": [
         "Little bitte = please (Bitte schön!, Kaffee, bitte). capitalize die Bitte = request (eine Bitte, meine Bitte).",
@@ -2374,18 +2349,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Do të doja një filxhan kafe, të lutem."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Ben te ju pyes ..."
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Unë jam babai yt!"
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Kërkesa është e rëndësishme."
-        }
       ],
       "tip": [
         "Little bitte = please (Bitte schön!, Kaffee, bitte). capitalize die Bitte = request (eine Bitte, meine Bitte).",
@@ -2762,10 +2725,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Ajo e çon librin në shkollë."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Po e marr librin"
-        }
       ],
       "comparison": [
         {
@@ -4443,14 +4402,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "Ky është libri im."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Po bie shi!"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Po bie borë. - Po."
-        }
       ],
       "info": [
         "Łotewskie „es” = niemieckie „ich”",
@@ -5181,10 +5132,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "... i përbashkët, nuk është vetëm vendimi i saj. - Mua më duket mirë..."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Çfarë mendon për filmin?"
-        }
       ],
       "comparison": [
         {
@@ -5192,21 +5139,6 @@ const A1_WORDS = [
           "meaning": "Gjej/mendo",
           "example": "Ich finde das gut. = Më duket mirë."
         },
-        {
-          "word": "suchen",
-          "meaning": "Kërko",
-          "example": "Ich suche den Schlüssel. = Po gjej çëselsin."
-        },
-        {
-          "word": "denken",
-          "meaning": "Të menduarit",
-          "example": "Seni düşünüyorum. = Po mendoj për ty."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Beso/mendo",
-          "example": "Ich glaube, er kommt. = Mendoj për të ardhmen tënde."
-        }
       ],
       "tip": {
         "text": "Mos harroni: artikulli i humbur → u gjet • Vizioni → mendoj…"

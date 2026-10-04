@@ -147,14 +147,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Copilul este încă mic."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Am o geantă mică."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Copilul este mic."
-        }
       ],
       "tip": [
         "Klein = mic",
@@ -2535,11 +2527,6 @@ const A1_WORDS = [
           "meaning": "Până",
           "example": "Bis jetzt habe ich nichts verstanden. – Te astept sa vii."
         },
-        {
-          "word": "Bis jetzt",
-          "meaning": "Până acum, până în ziua de azi",
-          "example": "Bis jetzt ist alles gut. – Până acum, bine."
-        }
       ],
       "tip": {
         "text": "Amintiți-vă: granița în timp/condiție → bis."
@@ -2661,18 +2648,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "O ceașcă de cafea, te rog."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Pot sa intreb va rog"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Am o singură cerere."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Cererea este importanta."
-        }
       ],
       "tip": [
         "Little bitte = te rog (Bitte schön!, Kaffee, bitte). die Bitte cu majuscule = cerere (eine Bitte, meine Bitte).",
@@ -2780,18 +2755,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "O ceașcă de cafea, te rog."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Pot sa intreb va rog"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Am o singură cerere."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Cererea este importanta."
-        }
       ],
       "tip": [
         "Little bitte = te rog (Bitte schön!, Kaffee, bitte). die Bitte cu majuscule = cerere (eine Bitte, meine Bitte).",
@@ -3176,10 +3139,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Duce cartea la școală."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Iau cartea"
-        }
       ],
       "comparison": [
         {
@@ -4882,14 +4841,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "Este cartea mea."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Plouă"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Ninge"
-        }
       ],
       "info": [
         "\"es\" letonă = germană \"ich\"",
@@ -5640,10 +5591,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Mi se pare bine."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Ce parere ai despre film?"
-        }
       ],
       "comparison": [
         {
@@ -5651,21 +5598,6 @@ const A1_WORDS = [
           "meaning": "Găsi / considera",
           "example": "Cred că e bine. = Man tas šķiet labi."
         },
-        {
-          "word": "Suchen",
-          "meaning": "A căuta",
-          "example": "Ich suche den Schlüssel. = Caut cheia."
-        },
-        {
-          "word": "Gandeste-te",
-          "meaning": "A gândi",
-          "example": "Ich denke an dich. = Mă gândesc la tine."
-        },
-        {
-          "word": "Glauben",
-          "meaning": "Crede / gândește",
-          "example": "Ich glaube, er kommt. = Cred că va veni."
-        }
       ],
       "tip": {
         "text": "Amintiți-vă: lucru pierdut → finden • Parere → ich finde..."

@@ -35173,11 +35173,6 @@ const A2_WORDS = [
       "translation": "Dios",
       "accent": "blue",
       "variants": [
-        {
-          "article": "der",
-          "de": "Gott",
-          "plural": "los dioses"
-        }
       ]
     }
   },
@@ -38709,11 +38704,6 @@ const A2_WORDS = [
       "accent": "blue",
       "variants": [
         {
-          "article": "der",
-          "de": "Kinderarzt",
-          "plural": "el Kinderzte"
-        },
-        {
           "article": "die",
           "de": "Kinderärztin"
         }
@@ -38877,11 +38867,6 @@ const A2_WORDS = [
       "translation": "funda de almohada",
       "accent": "blue",
       "variants": [
-        {
-          "article": "der",
-          "de": "Kissenbezug",
-          "plural": "morir besos"
-        }
       ]
     }
   },

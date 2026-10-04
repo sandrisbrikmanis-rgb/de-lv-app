@@ -168,14 +168,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Van egy kis táskám."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Van egy kis táskám."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Kicsi a gyerek."
-        }
       ],
       "tip": [
         "klein = kicsi / kis.",
@@ -2891,11 +2883,6 @@ const A1_WORDS = [
           "meaning": "-ig",
           "example": "Bis jetzt habe ich nichts verstanden. – Várom, hogy jöjjön."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Mostanáig, a mai napig",
-          "example": "Bis jetzt ist alles gut. – Eddig jó."
-        }
       ],
       "tip": {
         "text": "Atceries: robeža laikā/nosacījumā → bis."
@@ -3023,18 +3010,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Egy csésze kávét, kérem."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Megkérdezhetem"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Egy kérésem van."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "A kérés fontos."
-        }
       ],
       "tip": [
         "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
@@ -3160,18 +3135,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Egy csésze kávét, kérem."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Megkérdezhetem"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Egy kérésem van."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "A kérés fontos."
-        }
       ],
       "tip": [
         "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
@@ -3614,10 +3577,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Beviszi a könyvet az iskolába."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Veszem a könyvet"
-        }
       ],
       "comparison": [
         {
@@ -5739,14 +5698,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "Ez az én könyvem."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Esik az eső"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Havazik"
-        }
       ],
       "info": [
         "Latviešu “es” = vācu “ich”",
@@ -6689,10 +6640,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Nekem jónak tűnik."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Mi a véleményed a filmről?"
-        }
       ],
       "comparison": [
         {
@@ -6700,21 +6647,6 @@ const A1_WORDS = [
           "meaning": "Megtalálni / fontolóra venni",
           "example": "Ich finde das gut. = Ez jónak találom."
         },
-        {
-          "word": "suchen",
-          "meaning": "Keresni",
-          "example": "Ich suche den Schlüssel. = Keresem a kulcsot."
-        },
-        {
-          "word": "denken",
-          "meaning": "Gondolkodni",
-          "example": "Ich denke an dich. = Rád gondolok."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Hinni/gondolni",
-          "example": "Ich glaube, er kommt. = Szerintem jönni fog."
-        }
       ],
       "tip": {
         "text": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde..."

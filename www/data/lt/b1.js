@@ -20475,11 +20475,6 @@ const B1_WORDS = [
           "example": "Wir empfangen ein Signal. = Mēs uztveram signālu."
         },
         {
-          "word": "bekommen",
-          "meaning": "gauti kasdien",
-          "example": "Ich bekomme eine E-laišką."
-        },
-        {
           "word": "begrüßen",
           "meaning": "sveikinti",
           "example": "Ich begrüße die Gäste. = Es sveicinu viesus."
@@ -47585,11 +47580,6 @@ const B1_WORDS = [
           "word": "richten",
           "meaning": "nukreipti, adresuoti • teisti",
           "example": "Sie richtet den Blick nach vorn. = Viņa vērš skatienu uz priekšu."
-        },
-        {
-          "word": "schicken",
-          "meaning": "siųsti",
-          "example": "Ich schicke dir eine E-laišką."
         },
         {
           "word": "urteilen",

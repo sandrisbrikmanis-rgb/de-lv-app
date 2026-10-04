@@ -172,14 +172,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Runder på veel väike."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Mul på väike kott."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Runder på små."
-        }
       ],
       "tip": [
         "klein = liten",
@@ -3034,11 +3026,6 @@ const A1_WORDS = [
           "meaning": "Seni, kuni",
           "example": "Bis jetzt habe ich nichts verstanden. – Det er bare å gjøre det."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Siiani, tänase päusini",
-          "example": "Bis jetzt ist alles gut. – Siiani on käis hästä."
-        }
       ],
       "tip": {
         "text": "Atceries: robeža laikā/nosacījumā → bis."
@@ -3166,18 +3153,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Üks tass kaffi, palun."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Hva skal du gjøre?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mul på üks palve."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Palve på viktig."
-        }
       ],
       "tip": [
         "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
@@ -3303,18 +3278,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Üks tass kaffi, palun."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Hva skal du gjøre?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mul på üks palve."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Palve på viktig."
-        }
       ],
       "tip": [
         "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
@@ -3771,10 +3734,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Ta viib bibi kooli."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Ma vőn bőbő."
-        }
       ],
       "comparison": [
         {
@@ -5902,14 +5861,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "Se på boken min."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Det regner."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Sajab-lunden."
-        }
       ],
       "info": [
         "Eesti “mina” = saksa “ich”",
@@ -6858,10 +6809,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Minu melast på see hea."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Hvordan føles filmen?"
-        }
       ],
       "comparison": [
         {
@@ -6869,21 +6816,6 @@ const A1_WORDS = [
           "meaning": "Leidma / arvama",
           "example": "Ich finde das gut. = Eg synest det er bra."
         },
-        {
-          "word": "suchen",
-          "meaning": "Otsima",
-          "example": "Ich suche den Schlüssel. = Ma otsin võtit."
-        },
-        {
-          "word": "denken",
-          "meaning": "Mõtlema",
-          "example": "Ich denke an dich. = Jeg mener sinule."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Uskuma / arvama",
-          "example": "Ich glaube, er kommt. = Ma arvan, et ta tulb."
-        }
       ],
       "tip": {
         "text": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde..."
@@ -12861,11 +12793,6 @@ const A1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "das Land",
-          "meaning": "Land / fylke",
-          "example": "Ich bin ein Land. = Eg er eit land."
-        },
-        {
           "word": "die Stadt",
           "meaning": "Sengetøy",
           "example": "Ich wohne in der Stadt. = Eg bur i byen."
@@ -18644,10 +18571,6 @@ const A1_WORDS = [
           "de": "Kann ich die Jacke anprobieren?",
           "lv": "Kas ma saan jakki prøve?"
         },
-        {
-          "de": "Wir testen die neue Software.",
-          "lv": "Me testtime uut programvare."
-        }
       ],
       "comparison": [
         {
@@ -18670,11 +18593,6 @@ const A1_WORDS = [
           "meaning": "Kontrolllim",
           "example": "Eg prøver jakka."
         },
-        {
-          "word": "Testen",
-          "meaning": "Selg prøveversjoner",
-          "example": "Ich probiere die Jacke an."
-        }
       ],
       "tip": {
         "text": "Atceries: ēdiens → probieren = nogaršot."
@@ -23077,11 +22995,6 @@ const A1_WORDS = [
           "example": "Ich kann schwimmen. – Eg kan symje."
         },
         {
-          "word": "wissen",
-          "meaning": "vite",
-          "example": "Ich weiß es. – Eg veit det."
-        },
-        {
           "word": "kennen",
           "meaning": "kjenne",
           "example": "Ich kenne ihn. – Eg kjenner han."
@@ -25017,26 +24930,6 @@ const A1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "wie",
-          "meaning": "korleis • kor",
-          "example": "Wie geht es dir? – Korleis har du det?"
-        },
-        {
-          "word": "wie viel",
-          "meaning": "kor mykje",
-          "example": "Wie viel kostet das? – Kor mykje kostar det?"
-        },
-        {
-          "word": "wie alt",
-          "meaning": "kor gammal",
-          "example": "Wie alt bist du? – Kor gammal er du?"
-        },
-        {
-          "word": "wie lange",
-          "meaning": "kor lenge",
-          "example": "Wie lange dauert der Film? – Kor lenge varer filmen?"
-        }
       ],
       "tip": [
         "wie åleine spør ofte om måte: korleis.",

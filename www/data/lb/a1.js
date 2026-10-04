@@ -168,14 +168,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Bērns vēl ir mazs."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Ech hunn e klenge Koffer."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "D'Kand ass kleng."
-        }
       ],
       "tip": [
         "klein = kleng",
@@ -3030,11 +3022,6 @@ const A1_WORDS = [
           "meaning": "Līdz tam, kamēr",
           "example": "Bis jetzt habe ich nichts verstanden. – Es gaidu, līdz du atnāksi."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Līdz šim, līdz šai dienai",
-          "example": "Bis jetzt ist alles gut. – Līdz šim viss ir labi."
-        }
       ],
       "tip": {
         "text": "Atceries: robeža laikā/nosacījumā → bis."
@@ -3162,18 +3149,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Wienu tasi kafijas, lūdzu."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Ech hunn eng Demande."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "D'Äntwert gëtt et net."
-        }
       ],
       "tip": [
         "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
@@ -3299,18 +3274,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Wienu tasi kafijas, lūdzu."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Ech hunn eng Demande."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "D'Äntwert gëtt et net."
-        }
       ],
       "tip": [
         "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
@@ -3753,10 +3716,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Et ass grāmatu."
-        }
       ],
       "comparison": [
         {
@@ -5829,14 +5788,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "Et gëtt e Grammaire."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Lëscht."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Snieg."
-        }
       ],
       "info": [
         "Latviešu “es” = vācu “ich”",
@@ -6015,11 +5966,6 @@ const A1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "etwas",
-          "meaning": "eppes • e bëssen",
-          "example": "Ich möchte etwas trinken. – Ech géif gär eppes drénken."
-        },
-        {
           "word": "was",
           "meaning": "eppes",
           "example": "Willst du was trinken? – Wëlls du eppes drénken?"
@@ -6029,11 +5975,6 @@ const A1_WORDS = [
           "meaning": "e bëssen",
           "example": "Ich bin ein bisschen müde. – Ech sinn e bëssen midd."
         },
-        {
-          "word": "nichts",
-          "meaning": "näischt",
-          "example": "Ich sehe nichts. – Ech gesinn näischt."
-        }
       ],
       "tip": {
         "text": "Denk drun: eng Saach → eppes; e Grad → e bëssen."
@@ -6651,10 +6592,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "MAN TASSSIET LABI."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Wat haalt Dir vum Film?"
-        }
       ],
       "comparison": [
         {
@@ -6662,21 +6599,6 @@ const A1_WORDS = [
           "meaning": "Atrast / uzskatīt",
           "example": "Ich finde das gut. = Ech fannen dat gutt."
         },
-        {
-          "word": "suchen",
-          "meaning": "CAA -",
-          "example": "Ich suche den Schlüssel. = Dat ass dat „wir\"., Hier waren wir nie! '"
-        },
-        {
-          "word": "denken",
-          "meaning": "CAA -",
-          "example": "Ich denke an dich. = Et ass domāju par tevi."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Ticēt / domāt",
-          "example": "Ich glaube, er kommt. = Et ass domāju, ka việš nāks."
-        }
       ],
       "tip": {
         "text": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde..."

@@ -168,14 +168,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Berns vēl ir mazs."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Só vou demorar um pouco."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "A criança é pequena."
-        }
       ],
       "tip": [
         "klein = pequeno",
@@ -3030,11 +3022,6 @@ const A1_WORDS = [
           "meaning": "Līdz tam, kamēr",
           "example": "Bis jetzt habe ich nichts verstanden. – É gaidu, lidz tu atnāksi."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Līdz šim, līdz šai dienai",
-          "example": "Bis jetzt ist alles gut. – Līdz šim viveu ir labi."
-        }
       ],
       "tip": {
         "text": "Atceries: robeža laikā/nosacījumā → bis."
@@ -3162,18 +3149,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "De nada!"
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Você está bêbado agora?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Eu tenho uma oração."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Lūgums se tornam svarigs."
-        }
       ],
       "comparison": [
         {
@@ -3226,18 +3201,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Ela tem dois pedidos."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Você está bêbado agora?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Eu tenho uma oração."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Lūgums se tornam svarigs."
-        }
       ],
       "comparison": [
         {
@@ -3443,10 +3406,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Você tem todos os pesos da sua escola."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "É paņemu gramatu."
-        }
       ],
       "comparison": [
         {
@@ -5426,14 +5385,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "Tā ir mana gramata."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Lista."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Sneg."
-        }
       ],
       "info": [
         "Latviešu “es” = vācu “ich”",
@@ -5896,10 +5847,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "A bolsa masculina é um labirinto."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "-Então, o que você acha do filme?"
-        }
       ],
       "comparison": [
         {
@@ -5907,21 +5854,6 @@ const A1_WORDS = [
           "meaning": "Atrast / uzskatīt",
           "example": "Ich finde das gut. = Eu acho isso bom."
         },
-        {
-          "word": "suchen",
-          "meaning": "Meklet",
-          "example": "Ich suche den Schlüssel. = É meklēju atslēgu."
-        },
-        {
-          "word": "denken",
-          "meaning": "Domínio",
-          "example": "Ich denke an dich. = É domaju di tevi."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Bilhete / domat",
-          "example": "Ich glaube, er kommt. = É domāju, ka viņš nāks."
-        }
       ],
       "tip": {
         "text": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde..."

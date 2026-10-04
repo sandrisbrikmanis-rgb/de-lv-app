@@ -20438,11 +20438,6 @@ const B1_WORDS = [
           "example": "Wir empfangen ein Signal. = Mēs uztveram signālu."
         },
         {
-          "word": "bekommen",
-          "meaning": "Dobiti / primiti u svakodnevnom govoru",
-          "example": "Ich bekomme eine E-mail."
-        },
-        {
           "word": "begrüßen",
           "meaning": "Pozdraviti",
           "example": "Ich begrüße die Gäste. = Es sveicinu viesus."

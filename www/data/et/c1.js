@@ -382,21 +382,6 @@ const C1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "das Einfamilienhaus",
-          "meaning": "üksikelamu (ühele perele)",
-          "example": "Sie wohnen in einem Einfamilienhaus. = Nad elavad üksikelamus."
-        },
-        {
-          "word": "das Mehrfamilienhaus",
-          "meaning": "kortermaja (mitmele perele)",
-          "example": "Nebenan steht ein Mehrfamilienhaus. = Kõrval asub kortermaja."
-        },
-        {
-          "word": "das Reihenhaus",
-          "meaning": "ridaelamu",
-          "example": "Das Reihenhaus hat eine gemeinsame Wand. = Ridaelamul on ühine sein."
-        }
       ],
       "tip": "Liitsõna koosneb osadest eine Familie (üks pere) + Haus (maja) — see aitab meelde jätta, et tegu on ühe pere majaga.",
       "important": "Ära aja segi das Einfamilienhaus (üksikelamu) ja das Mehrfamilienhaus (kortermaja) — vahe on majas elavate perede arvus.",
@@ -895,21 +880,6 @@ const C1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "die Öffentlichkeit",
-          "meaning": "avalikkus (inimesed, avalik ruum)",
-          "example": "Die Öffentlichkeit reagierte kritisch. = Avalikkus reageeris kriitiliselt."
-        },
-        {
-          "word": "öffentlich",
-          "meaning": "avalik (omadussõna)",
-          "example": "Das ist eine öffentliche Angelegenheit. = See on avalik asi."
-        },
-        {
-          "word": "die Privatsphäre",
-          "meaning": "privaatsfäär (vastand)",
-          "example": "Er schützt seine Privatsphäre. = Ta kaitseb oma privaatsust."
-        }
       ],
       "tip": "Väljend an die Öffentlichkeit kommen/gehen tähendab avalikuks saamist või minemist.",
       "important": "Ära aja segi die Öffentlichkeit (avalikkus, nimisõna) ja öffentlich (avalik, omadussõna).",
@@ -1047,21 +1017,6 @@ const C1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "die Partei (politisch)",
-          "meaning": "poliitiline partei",
-          "example": "Diese Partei gewann die Wahl. = See partei võitis valimised."
-        },
-        {
-          "word": "die Partei (juristisch)",
-          "meaning": "pool (lepingus, vaidluses)",
-          "example": "Beide Parteien müssen unterschreiben. = Mõlemad pooled peavad allkirjastama."
-        },
-        {
-          "word": "der Teil",
-          "meaning": "osa (millestki)",
-          "example": "Das ist nur ein Teil der Lösung. = See on vaid osa lahendusest."
-        }
       ],
       "tip": "Kontekst näitab, kas Partei on poliitiline organisatsioon või juriidiline pool.",
       "important": "Ära aja segi die Partei (pool, osaline vaidluses või lepingus) ja der Teil (osa millestki) — need on erineva tähendusega.",
@@ -1235,21 +1190,6 @@ const C1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "der Prozess (allgemein)",
-          "meaning": "protsess, kulg",
-          "example": "Wir verbessern den Prozess. = Me täiustame protsessi."
-        },
-        {
-          "word": "der Prozess (juristisch)",
-          "meaning": "kohtuprotsess",
-          "example": "Der Prozess vor Gericht beginnt morgen. = Kohtuprotsess algab homme."
-        },
-        {
-          "word": "das Verfahren",
-          "meaning": "menetlus (ametlik protsess)",
-          "example": "Das Verfahren wurde eingestellt. = Menetlus lõpetati."
-        }
       ],
       "tip": "Kontekst (kohus, äri, tehnika) näitab, kas Prozess tähendab üldist protsessi või kohtuprotsessi.",
       "important": "Ära aja segi der Prozess (protsess, kohtuprotsess) ja das Verfahren (ametlik menetlus) — Verfahren on formaalsem sõna.",
@@ -1993,21 +1933,6 @@ const C1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "die Wahl (Möglichkeit)",
-          "meaning": "valik (kahe või enama võimaluse vahel)",
-          "example": "Du hast die Wahl. = Sul on valik."
-        },
-        {
-          "word": "die Wahl (Politik)",
-          "meaning": "valimised",
-          "example": "Die Wahl findet am Sonntag statt. = Valimised toimuvad pühapäeval."
-        },
-        {
-          "word": "die Auswahl",
-          "meaning": "valikuvõimalus, sortiment",
-          "example": "Es gibt eine große Auswahl. = Valikuvõimalusi on palju."
-        }
       ],
       "tip": "eine Wahl treffen = valikut teha; zur Wahl gehen = valimistele minna.",
       "important": "Ära aja segi die Wahl (valik / valimised) ja die Auswahl (valikuvõimalus, nt poes olev sortiment).",
@@ -4779,10 +4704,6 @@ const C1_WORDS = [
           "de": "beziehen / sich beziehen auf.",
           "lv": "ta saab juba aasta pensioni."
         },
-        {
-          "de": "Der Bericht bezieht sich auf die Ereignisse des letzten Jahres.",
-          "lv": "aruanne käib eelmise aasta sündmuste kohta."
-        }
       ],
       "tip": [
         "Formaalne register: seostada allikaga, regulaarse pensioni/palga saamisega või korterisse sisseelamisega.",

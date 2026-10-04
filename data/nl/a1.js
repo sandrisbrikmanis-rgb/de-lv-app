@@ -168,14 +168,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Bērns vēl ir mazs."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Ik heb een kleine tas."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Het kind is klein."
-        }
       ],
       "tip": [
         "klein = klein",
@@ -3030,11 +3022,6 @@ const A1_WORDS = [
           "meaning": "Līdz tam, kamēr",
           "example": "Bis jetzt habe ich nichts verstanden. – Es gaidu, līdz tu atnāksi."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Līdz šim, līdz šai dienai",
-          "example": "Bis jetzt ist alles gut. – Līdz šim viss ir labi."
-        }
       ],
       "tip": {
         "text": "Atceries: robeža laikā/nosacījumā → bis."
@@ -3162,18 +3149,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Vienu tasi kafijas, lūdzu."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Ik heb één verzoek."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Lūgums ir svarīgs."
-        }
       ],
       "tip": [
         "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
@@ -3299,18 +3274,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Vienu tasi kafijas, lūdzu."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Ik heb één verzoek."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Lūgums ir svarīgs."
-        }
       ],
       "tip": [
         "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
@@ -3753,10 +3716,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Viņš aiznes grāmatu uz skolu."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Es paņemu grāmatu."
-        }
       ],
       "comparison": [
         {
@@ -5878,14 +5837,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "Tā ir mana grāmata."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Līst."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Snieg."
-        }
       ],
       "info": [
         "Latviešu “es” = vācu “ich”",
@@ -6828,10 +6779,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Man tas šķiet labi."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Wat vind je van de film?"
-        }
       ],
       "comparison": [
         {
@@ -6839,21 +6786,6 @@ const A1_WORDS = [
           "meaning": "Atrast / uzskatīt",
           "example": "Ich finde das gut. = Ik vind dat goed."
         },
-        {
-          "word": "suchen",
-          "meaning": "Meklēt",
-          "example": "Ich suche den Schlüssel. = Es meklēju atslēgu."
-        },
-        {
-          "word": "denken",
-          "meaning": "Domāt",
-          "example": "Ich denke an dich. = Es domāju par tevi."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Ticēt / domāt",
-          "example": "Ich glaube, er kommt. = Es domāju, ka viņš nāks."
-        }
       ],
       "tip": {
         "text": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde..."

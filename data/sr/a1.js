@@ -150,14 +150,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Dijete je još malo."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Imam malu torbu."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "-Fanta imajo!"
-        }
       ],
       "tip": [
         "Klein = majhna",
@@ -955,16 +947,6 @@ const A1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "auf",
-          "meaning": "на површину или навише",
-          "example": "auf den Tisch – на сто"
-        },
-        {
-          "word": "an",
-          "meaning": "уз усправну површину",
-          "example": "an die Wand – на зид"
-        },
         {
           "word": "in",
           "meaning": "у унутрашњост",
@@ -2097,11 +2079,6 @@ const A1_WORDS = [
           "meaning": "До",
           "example": "Bis jetzt habe ich nichts verstanden. – Čekam da dođeš."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Do sada, do sada",
-          "example": "Bis jetzt ist alles gut. – Досега е добро."
-        }
       ],
       "tip": {
         "text": "Запомнете: граница във времето/състоянието → бис."
@@ -2216,18 +2193,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Шолја кафе, ве молам."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Smem vprašati, prosim"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Имам барање."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Pitati je važno."
-        }
       ],
       "tip": [
         "Little bitte = моля (Bitte schön!, Kaffee, bitte). die Bitte с главна буква = молба (eine Bitte, meine Bitte).",
@@ -2338,18 +2303,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Шолја кафе, ве молам."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Smem vprašati, prosim"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Имам барање."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Pitati je važno."
-        }
       ],
       "tip": [
         "Little bitte = моля (Bitte schön!, Kaffee, bitte). die Bitte с главна буква = молба (eine Bitte, meine Bitte).",
@@ -2730,10 +2683,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Nosite knjigu u školu."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Земам книга"
-        }
       ],
       "comparison": [
         {
@@ -4271,14 +4220,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "Ова е мојата книга."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Врне дожд"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Снег врне"
-        }
       ],
       "info": [
         "Латышское \"es\" = немецкое \"ich\"",
@@ -5018,10 +4959,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Мене ми изгледа во ред."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Kaj menite o filmu?"
-        }
       ],
       "comparison": [
         {
@@ -5029,21 +4966,6 @@ const A1_WORDS = [
           "meaning": "Најдете / Прикажи",
           "example": "Ich finde das gut. = Мислим да је то добро."
         },
-        {
-          "word": "suchen",
-          "meaning": "Пребарување",
-          "example": "Ich suche den Schlüssel. = Го барам клучот."
-        },
-        {
-          "word": "denken",
-          "meaning": "Hajde momci. Razmisli o tome.",
-          "example": "Ich denke an dich. = Мисля за теб"
-        },
-        {
-          "word": "glauben",
-          "meaning": "Верувај/размисли",
-          "example": "Ich glaube, er kommt. = Мисля, че ще дойде."
-        }
       ],
       "tip": {
         "text": "Запомнете: изгубен предмет → пронајден • Мислење → најдов..."
@@ -12370,16 +12292,6 @@ const A1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "morgen",
-          "meaning": "сутра",
-          "example": "Ich komme morgen. – Долазим сутра."
-        },
-        {
-          "word": "Morgen",
-          "meaning": "јутро",
-          "example": "Der Morgen ist schön. – Јутро је лепо."
-        }
       ],
       "tip": [
         {
@@ -12432,16 +12344,6 @@ const A1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "Morgen",
-          "meaning": "јутро",
-          "example": "Guten Morgen! – Добро јутро!"
-        },
-        {
-          "word": "morgen",
-          "meaning": "сутра",
-          "example": "Bis morgen! – Видимо се сутра!"
-        }
       ],
       "tip": [
         {
@@ -15215,16 +15117,6 @@ const A1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "Seite",
-          "meaning": "страница или страна",
-          "example": "Seite zwanzig – двадесета страница"
-        },
-        {
-          "word": "Blatt",
-          "meaning": "лист папира",
-          "example": "ein Blatt Papier – лист папира"
-        }
       ],
       "tip": [
         {
@@ -15353,16 +15245,6 @@ const A1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "sicher",
-          "meaning": "безбедан или уверен; сигурно",
-          "example": "Ich bin mir sicher. – Сигуран/сигурна сам."
-        },
-        {
-          "word": "bestimmt",
-          "meaning": "засигурно, извесно",
-          "example": "Er kommt bestimmt. – Он ће сигурно доћи."
-        }
       ],
       "tip": [
         {
@@ -15413,21 +15295,6 @@ const A1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "sie + једнина",
-          "meaning": "она",
-          "example": "sie kocht – она кува"
-        },
-        {
-          "word": "sie + множина",
-          "meaning": "они/оне",
-          "example": "sie kochen – они/оне кувају"
-        },
-        {
-          "word": "Sie",
-          "meaning": "учтиво Ви",
-          "example": "Sie kochen, bitte. – Кувајте, молим Вас."
-        }
       ],
       "tip": [
         {
@@ -15478,21 +15345,6 @@ const A1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "Sie",
-          "meaning": "учтиво Ви",
-          "example": "Sie kochen, bitte. – Кувајте, молим Вас."
-        },
-        {
-          "word": "sie + једнина",
-          "meaning": "она",
-          "example": "sie kocht – она кува"
-        },
-        {
-          "word": "sie + множина",
-          "meaning": "они/оне",
-          "example": "sie kochen – они/оне кувају"
-        }
       ],
       "tip": [
         {
@@ -15585,11 +15437,6 @@ const A1_WORDS = [
           "meaning": "лежати",
           "example": "Die Katze liegt. – Мачка лежи."
         },
-        {
-          "word": "sich setzen",
-          "meaning": "сести",
-          "example": "Ich setze mich. – Седам."
-        }
       ],
       "tip": [
         {
@@ -17363,11 +17210,6 @@ const A1_WORDS = [
           "meaning": "када у питању",
           "example": "Wann kommst du? – Када долазиш?"
         },
-        {
-          "word": "weil",
-          "meaning": "јер",
-          "example": "weil ich krank bin – јер сам болестан/болесна"
-        }
       ],
       "tip": [
         {

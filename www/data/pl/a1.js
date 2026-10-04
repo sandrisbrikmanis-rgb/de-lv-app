@@ -150,14 +150,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Dziecko jest jeszcze małe."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Mam małą torebkę."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Dziecko jest małe."
-        }
       ],
       "tip": [
         "Klein = mały",
@@ -2618,11 +2610,6 @@ const A1_WORDS = [
           "meaning": "Dopóki",
           "example": "Bis jetzt habe ich nichts verstanden. – Czekam aż przyjdziesz."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Aż do teraz, do dzisiaj",
-          "example": "Bis jetzt ist alles gut. – Na razie w porządku."
-        }
       ],
       "tip": {
         "text": "Pamiętaj: granica czasu/stanu → bis."
@@ -2744,18 +2731,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Poproszę jedną filiżankę kawy."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Czy mogę zapytać?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mam jedną prośbę."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Prośba jest ważna."
-        }
       ],
       "tip": [
         "Little bitte = proszę (Bitte schön!, Kaffee, bitte). die Bitte z dużej litery = prośba (eine Bitte, meine Bitte).",
@@ -2866,18 +2841,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Poproszę jedną filiżankę kawy."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Czy mogę zapytać?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mam jedną prośbę."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Prośba jest ważna."
-        }
       ],
       "tip": [
         "Little bitte = proszę (Bitte schön!, Kaffee, bitte). die Bitte z dużej litery = prośba (eine Bitte, meine Bitte).",
@@ -3269,10 +3232,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Zabiera książkę do szkoły."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Biorę książkę"
-        }
       ],
       "comparison": [
         {
@@ -5044,14 +5003,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "To moja książka."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Pada deszcz"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Pada śnieg"
-        }
       ],
       "info": [
         "Łotewskie „es” = niemieckie „ich”",
@@ -5844,10 +5795,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Wydaje mi się to dobre."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Co sądzisz o filmie?"
-        }
       ],
       "comparison": [
         {
@@ -5855,21 +5802,6 @@ const A1_WORDS = [
           "meaning": "Znaleźć/rozważyć",
           "example": "Ich finde das gut. = Myślę, że to jest dobre."
         },
-        {
-          "word": "suchen",
-          "meaning": "Szukać",
-          "example": "Ich suche den Schlüssel. = Szukam klucza."
-        },
-        {
-          "word": "denken",
-          "meaning": "Myśleć",
-          "example": "Myślę o tobie. = Myślę o tobie."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Wierzyć/myśleć",
-          "example": "Ich glaube, er kommt. = Myślę, że przyjdzie."
-        }
       ],
       "tip": {
         "text": "Pamiętaj: zgubiona rzecz → odnaleziona • opinia → uważam, że…"

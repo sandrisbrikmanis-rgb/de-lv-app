@@ -20827,11 +20827,6 @@ const B1_WORDS = [
           "example": "Wir empfangen ein Signal. = Mēs uztveram signālu."
         },
         {
-          "word": "bekommen",
-          "meaning": "Igapäevaselt saama",
-          "example": "Ich bekomme eine E-Kirja."
-        },
-        {
           "word": "begrüßen",
           "meaning": "Tervitama",
           "example": "Ich begrüße die Gäste. = Es sveicinu viesus."
@@ -48282,11 +48277,6 @@ const B1_WORDS = [
           "word": "richten",
           "meaning": "Suunama, adresseerima • Kohut mõistma",
           "example": "Sie richtet den Blick nach vorn. = Viņa vērš skatienu uz priekšu."
-        },
-        {
-          "word": "schicken",
-          "meaning": "Saatma",
-          "example": "Ich schicke dir eine E-Kirja."
         },
         {
           "word": "urteilen",

@@ -1,0 +1,26 @@
+[
+  {
+    "language": "da",
+    "tree": "data",
+    "level": "a1",
+    "card_id": "a1-besuchen",
+    "array_path": "study.examples",
+    "index": 0,
+    "lv_index": 2,
+    "german": {
+      "de": "Ich besuche meine Großeltern."
+    }
+  },
+  {
+    "language": "da",
+    "tree": "www",
+    "level": "a1",
+    "card_id": "a1-besuchen",
+    "array_path": "study.examples",
+    "index": 0,
+    "lv_index": 2,
+    "german": {
+      "de": "Ich besuche meine Großeltern."
+    }
+  }
+]

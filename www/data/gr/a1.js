@@ -168,14 +168,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Το παιδί είναι ακόμα μικρό."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Έχω μια μικρή τσάντα."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Το παιδί είναι μικρό."
-        }
       ],
       "tip": [
         "Klein = μικρός",
@@ -3030,11 +3022,6 @@ const A1_WORDS = [
           "meaning": "Μέχρι, μέχρι",
           "example": "Bis jetzt habe ich nichts verstanden. – Σε περιμένω να έρθεις."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Μέχρι τώρα, μέχρι σήμερα",
-          "example": "Bis jetzt ist alles gut. – Μέχρι εδώ καλά."
-        }
       ],
       "tip": {
         "text": "Θυμηθείτε: όριο σε χρόνο/κατάσταση → bis."
@@ -3162,18 +3149,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Ένα φλιτζάνι καφέ, παρακαλώ."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Μπορώ να ρωτήσω παρακαλώ"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Έχω ένα αίτημα."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Η προσευχή είναι σημαντική."
-        }
       ],
       "tip": [
         "Little bitte = παρακαλώ (Bitte schön!, Kaffee, bitte). die Bitte με κεφαλαίο = προσευχή (eine Bitte, meine Bitte).",
@@ -3299,18 +3274,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Ένα φλιτζάνι καφέ, παρακαλώ."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Μπορώ να ρωτήσω παρακαλώ"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Έχω ένα αίτημα."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Η προσευχή είναι σημαντική."
-        }
       ],
       "tip": [
         "Little bitte = παρακαλώ (Bitte schön!, Kaffee, bitte). die Bitte με κεφαλαίο = προσευχή (eine Bitte, meine Bitte).",
@@ -3753,10 +3716,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Παίρνει το βιβλίο στο σχολείο."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Θα πάρω το βιβλίο."
-        }
       ],
       "comparison": [
         {
@@ -5878,14 +5837,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "Αυτό είναι το βιβλίο μου."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Βρέχει."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Χιονίζει."
-        }
       ],
       "info": [
         "Eesti “mina” = saksa “ich”",
@@ -6821,10 +6772,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Νομίζω ότι είναι καλό."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Πως σου αρεσει η ταινια"
-        }
       ],
       "comparison": [
         {
@@ -6832,21 +6779,6 @@ const A1_WORDS = [
           "meaning": "Βρείτε / μαντέψτε",
           "example": "Ich finde das gut. = Νομίζω ότι είναι καλό."
         },
-        {
-          "word": "suchen",
-          "meaning": "Να ψάξεις",
-          "example": "Ich suche den Schlüssel. = Es meklēju atslēgu."
-        },
-        {
-          "word": "denken",
-          "meaning": "Να σκεφτεί",
-          "example": "Ich denke an dich. = Es domāju par tevi."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Πιστεύω / σκέφτομαι",
-          "example": "Ich glaube, er kommt. = Es domāju, ka viņš nāks."
-        }
       ],
       "tip": {
         "text": "Θυμηθείτε: χαμένο πράγμα → ευρεθεί • Γνώμη → ich finde..."
@@ -14748,30 +14680,11 @@ const A1_WORDS = [
       "explanation": "Κύρια ιδέα: το der Liter είναι μονάδα όγκου. Στη Γερμανία συνήθως λέγεται der Liter, αλλά στην Αυστρία και την Ελβετία μπορείτε επίσης να ακούσετε das Liter. Ο πληθυντικός είναι πάντα Die Liter — δεν αλλάζει.",
       "examples": [
         {
-          "de": "Ich brauche einen Liter Milch.",
-          "lv": "Χρειάζομαι ένα λίτρο γάλα."
-        },
-        {
           "de": "Die Flasche fasst zwei Liter.",
           "lv": "Το μπουκάλι χωράει δύο λίτρα."
         }
       ],
       "comparison": [
-        {
-          "word": "Der Liter",
-          "meaning": "Τυπική μορφή της Γερμανίας",
-          "example": "In Deutschland sagt man meist der Liter. = Στη Γερμανία λέγεται κυρίως der Liter."
-        },
-        {
-          "word": "Das Liter",
-          "meaning": "Αυστριακή/Ελβετική μορφή",
-          "example": "In Österreich hört man auch das Liter. = Στην Αυστρία ακούς και das Liter."
-        },
-        {
-          "word": "Die Liter",
-          "meaning": "Πληθυντικός (αμετάβλητο)",
-          "example": "Die Flasche fasst zwei Liter. = Το μπουκάλι χωράει δύο λίτρα."
-        }
       ],
       "tip": "Εάν έχετε αμφιβολίες για την επιλογή του άρθρου, χρησιμοποιήστε der Liter — αυτή είναι η πιο κοινή μορφή.",
       "important": "Ο πληθυντικός είναι πάντα die Liter, ανεξάρτητα από το άρθρο του ενικού — η μορφή δεν αλλάζει (zwei Liter, όχι zwei Litere).",
@@ -16335,11 +16248,6 @@ const A1_WORDS = [
           "meaning": "Θέλουν να",
           "example": "Ich will nach Hause."
         },
-        {
-          "word": "dürfen",
-          "meaning": "Να επιτρέπεται",
-          "example": "Darf ich gehen;"
-        }
       ],
       "tip": {
         "text": "Θυμηθείτε: Ich muss... = Πρέπει να..."
@@ -18498,10 +18406,6 @@ const A1_WORDS = [
           "de": "Kann ich die Jacke anprobieren?",
           "lv": "Μπορώ να δοκιμάσω το σακάκι"
         },
-        {
-          "de": "Wir testen die neue Software.",
-          "lv": "Δοκιμάζουμε νέο λογισμικό."
-        }
       ],
       "comparison": [
         {
@@ -18524,11 +18428,6 @@ const A1_WORDS = [
           "meaning": "Για έλεγχο",
           "example": "Ich probiere die Jacke an."
         },
-        {
-          "word": "Anprobieren",
-          "meaning": "Να δοκιμάσω",
-          "example": "Ich probiere die Jacke an."
-        }
       ],
       "tip": {
         "text": "Θυμηθείτε: φαγητό → probieren = για γεύση. λογισμικό → testen = δοκιμάζω."
@@ -21321,11 +21220,6 @@ const A1_WORDS = [
         }
       ],
       "comparison": [
-        {
-          "word": "sollen",
-          "meaning": "Πρέπει / κάνει σύμφωνα με τις οδηγίες",
-          "example": "Was soll ich machen;"
-        },
         {
           "word": "müssen",
           "meaning": "Απολύτως απαραίτητο",

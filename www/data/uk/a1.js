@@ -164,14 +164,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "дитина ще маленька."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "У мене маленька сумка."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "дитина маленька."
-        }
       ],
       "tip": [
         "klein = малий",
@@ -2821,11 +2813,6 @@ const A1_WORDS = [
           "meaning": "поки",
           "example": "Bis jetzt habe ich nichts verstanden. – Я чекаю, коли ти прийдеш."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "досі, до цього дня",
-          "example": "Bis jetzt ist alles gut. – Поки що добре."
-        }
       ],
       "tip": {
         "text": "Пам'ятай: межа в часі/умові → bis."
@@ -2944,18 +2931,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "одну чашку кави, будь ласка."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "можу я запитати, будь ласка"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "У мене одне прохання."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "запит важливий."
-        }
       ],
       "tip": [
         "Маленькі bitte = будь ласка (Bitte schön!, Kaffee, bitte). die Bitte з великої літери = запит (eine Bitte, meine Bitte).",
@@ -3081,18 +3056,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "одну чашку кави, будь ласка."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "можу я запитати, будь ласка"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "У мене одне прохання."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "запит важливий."
-        }
       ],
       "tip": [
         "Маленькі bitte = будь ласка (Bitte schön!, Kaffee, bitte). die Bitte з великої літери = запит (eine Bitte, meine Bitte).",
@@ -3516,10 +3479,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "він бере книгу до школи."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "беру книгу"
-        }
       ],
       "comparison": [
         {
@@ -5525,14 +5484,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "це моя книга."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "іде дощ"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "сніг"
-        }
       ],
       "info": [
         "латиське \"es\" = німецьке \"ich\"",
@@ -6403,10 +6354,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "мені здається добре."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "що ти думаєш про фільм?"
-        }
       ],
       "comparison": [
         {
@@ -6414,21 +6361,6 @@ const A1_WORDS = [
           "meaning": "знайти / розглянути",
           "example": "Ich finde das gut. = Мене це влаштовує."
         },
-        {
-          "word": "suchen",
-          "meaning": "шукати",
-          "example": "Ich suche den Schlüssel. = Я шукаю ключ."
-        },
-        {
-          "word": "denken",
-          "meaning": "думати",
-          "example": "Ich denke an dich. = я думаю про тебе"
-        },
-        {
-          "word": "glauben",
-          "meaning": "вірити / думати",
-          "example": "Ich glaube, er kommt. = Думаю він прийде."
-        }
       ],
       "tip": {
         "text": "Пам'ятай: загублена річ → finden; думка → ich finde..."

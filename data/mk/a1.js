@@ -150,14 +150,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Детето е уште мало."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Имам мала торба."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Детето е мало."
-        }
       ],
       "tip": [
         "Клајн = мал",
@@ -2543,11 +2535,6 @@ const A1_WORDS = [
           "meaning": "До",
           "example": "Bis jetzt habe ich nichts verstanden. – Ве чекам да дојдете."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "До сега, до денес",
-          "example": "Bis jetzt ist alles gut. – Досега е добро."
-        }
       ],
       "tip": {
         "text": "Запомнете: граница във времето/състоянието → бис."
@@ -2662,18 +2649,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Шолја кафе, ве молам."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Може да прашам те молам"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Имам барање."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Барањето е важно."
-        }
       ],
       "tip": [
         "Little bitte = моля (Bitte schön!, Kaffee, bitte). die Bitte с главна буква = молба (eine Bitte, meine Bitte).",
@@ -2784,18 +2759,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Шолја кафе, ве молам."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Може да прашам те молам"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Имам барање."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Барањето е важно."
-        }
       ],
       "tip": [
         "Little bitte = моля (Bitte schön!, Kaffee, bitte). die Bitte с главна буква = молба (eine Bitte, meine Bitte).",
@@ -3176,10 +3139,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Носи книгата в училище."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Земам книга"
-        }
       ],
       "comparison": [
         {
@@ -4901,14 +4860,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "Ова е мојата книга."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Врне дожд"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Снег врне"
-        }
       ],
       "info": [
         "Латышское \"es\" = немецкое \"ich\"",
@@ -5648,10 +5599,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Мене ми изгледа во ред."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Што мислите за филмот?"
-        }
       ],
       "comparison": [
         {
@@ -5659,21 +5606,6 @@ const A1_WORDS = [
           "meaning": "Најдете / Прикажи",
           "example": "Ich finde das gut. = Мене ми се допаѓа."
         },
-        {
-          "word": "suchen",
-          "meaning": "Пребарување",
-          "example": "Ich suche den Schlüssel. = Го барам клучот."
-        },
-        {
-          "word": "denken",
-          "meaning": "Размислете",
-          "example": "Ich denke an dich. = Мисля за теб"
-        },
-        {
-          "word": "glauben",
-          "meaning": "Верувај/размисли",
-          "example": "Ich glaube, er kommt. = Мисля, че ще дойде."
-        }
       ],
       "tip": {
         "text": "Запомнете: изгубен предмет → пронајден • Мислење → најдов..."

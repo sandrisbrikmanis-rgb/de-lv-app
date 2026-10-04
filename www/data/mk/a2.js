@@ -5000,10 +5000,6 @@ const A2_WORDS = [
       "translation": "Пепелашка",
       "accent": "blue",
       "variants": [
-        {
-          "article": "Дас",
-          "de": "Aschenputtel"
-        }
       ]
     }
   },
@@ -31752,11 +31748,6 @@ const A2_WORDS = [
       "translation": "Клавиатура",
       "accent": "blue",
       "variants": [
-        {
-          "article": "Дас",
-          "de": "Keyboard",
-          "plural": "die Keyboards"
-        }
       ]
     }
   },
@@ -31861,11 +31852,6 @@ const A2_WORDS = [
       "translation": "Филм",
       "accent": "blue",
       "variants": [
-        {
-          "article": "Дас",
-          "de": "Kino",
-          "plural": "die Kinos"
-        }
       ]
     }
   },
@@ -31921,11 +31907,6 @@ const A2_WORDS = [
       "translation": "Възглавница",
       "accent": "blue",
       "variants": [
-        {
-          "article": "Дас",
-          "de": "Kissen",
-          "plural": "die Kissen"
-        }
       ]
     }
   },
@@ -37394,16 +37375,6 @@ const A2_WORDS = [
       "translation": "Регистрационен номер на автомобил",
       "accent": "blue",
       "variants": [
-        {
-          "article": "Дас",
-          "de": "Nummernschild",
-          "plural": "die Nummernschilder"
-        },
-        {
-          "article": "Дас",
-          "de": "Kennzeichen",
-          "plural": "die Kennzeichen"
-        }
       ],
       "tip": "В Германия думата \"das Kennzeichen\" се използва много често разговорно и в институции.",
       "examples": [

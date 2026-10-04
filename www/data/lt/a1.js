@@ -172,14 +172,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "vaikas dar mažas."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "turiu mažą krepšį."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "vaikas yra mažas."
-        }
       ],
       "tip": [
         "klein = mažas",
@@ -2980,11 +2972,6 @@ const A1_WORDS = [
           "meaning": "tol, kol",
           "example": "Bis jetzt habe ich nichts verstanden. – Laukiu, kol atvyksi."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "iki šiol, iki šios dienos",
-          "example": "Bis jetzt ist alles gut. – Iki šiol visa gerai."
-        }
       ],
       "tip": {
         "text": "Atmink: riba laike/sąlygoje → bis."
@@ -3112,18 +3099,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "vieną puodelį kavos, prašau."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "ar galiu, prašau, paklausti?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "turiu vieną prašymą."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "prašymas yra svarbus."
-        }
       ],
       "tip": [
         "Mažoji bitte = prašau (Bitte schön!, Kaffee, bitte). die Bitte didžiąja raide = prašymas (eine Bitte, meine Bitte).",
@@ -3249,18 +3224,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "vieną puodelį kavos, prašau."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "ar galiu, prašau, paklausti?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "turiu vieną prašymą."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "prašymas yra svarbus."
-        }
       ],
       "tip": [
         "Mažoji bitte = prašau (Bitte schön!, Kaffee, bitte). die Bitte didžiąja raide = prašymas (eine Bitte, meine Bitte).",
@@ -3711,10 +3674,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "jis nuneša knygą į mokyklą."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "paimu knygą."
-        }
       ],
       "comparison": [
         {
@@ -5210,25 +5169,10 @@ const A1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "ein Mann",
-          "meaning": "vyro giminė",
-          "example": "Ich gehe baden."
-        },
-        {
-          "word": "eine Frau",
-          "meaning": "moters giminė",
-          "example": "Ich dusche am Morgen."
-        },
-        {
           "word": "ein Buch",
           "meaning": "vidutinė giminė",
           "example": "Ich habe ein Buch."
         },
-        {
-          "word": "einen Mann",
-          "meaning": "akuzatyvas",
-          "example": "Ich gehe baden."
-        }
       ]
     }
   },
@@ -5789,14 +5733,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "tai mano knyga."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "lyja."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "sninga."
-        }
       ],
       "info": [
         "Latvių „es“ (aš) = vokiečių „ich“",
@@ -6702,10 +6638,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "man tai atrodo gerai."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "kaip tau atrodo filmas?"
-        }
       ],
       "comparison": [
         {
@@ -6713,21 +6645,6 @@ const A1_WORDS = [
           "meaning": "rasti / manyti",
           "example": "Ich finde das gut. = Man tai atrodo gerai."
         },
-        {
-          "word": "suchen",
-          "meaning": "ieškoti",
-          "example": "Ich suche den Schlüssel. = Aš ieškau rakto."
-        },
-        {
-          "word": "denken",
-          "meaning": "manyti",
-          "example": "Ich denke an dich. = Aš mąstau apie tave."
-        },
-        {
-          "word": "glauben",
-          "meaning": "tikėti / manyti",
-          "example": "Ich glaube, er kommt. = Aš manau, kad jis ateis."
-        }
       ],
       "tip": {
         "text": "Atmink: pamesto daikto (radimas) → finden; nuomonė → ich finde..."

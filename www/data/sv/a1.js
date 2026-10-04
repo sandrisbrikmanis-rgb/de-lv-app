@@ -107,14 +107,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Laps on veel väike."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Mul on väike kott."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Laps on väike."
-        }
       ],
       "tip": [
         "klein = liten",
@@ -2014,11 +2006,6 @@ const A1_WORDS = [
           "meaning": "Seni, kuni",
           "example": "Bis jetzt habe ich nichts verstanden. – Ma ootan, kuni sa tuled."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "Siiani, tänase päevani",
-          "example": "Bis jetzt ist alles gut. – Siiani on kõik hästi."
-        }
       ],
       "tip": {
         "text": "Atceries: robeža laikā/nosacījumā → bis."
@@ -2146,18 +2133,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "Üks tass kohvi, palun."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Kas ma tohin palun küsida?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mul on üks palve."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Palve on tähtis."
-        }
       ],
       "tip": [
         "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
@@ -2283,18 +2258,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "Üks tass kohvi, palun."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Kas ma tohin palun küsida?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mul on üks palve."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Palve on tähtis."
-        }
       ],
       "tip": [
         "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
@@ -2751,10 +2714,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Ta viib raamatu kooli."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Ma võtan raamatu."
-        }
       ],
       "comparison": [
         {
@@ -4283,14 +4242,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "See on minu raamat."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Sajab vihma."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Sajab lund."
-        }
       ],
       "info": [
         "Eesti “mina” = saksa “ich”",
@@ -5239,10 +5190,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "Minu meelest on see hea."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Kuidas sulle film tundub?"
-        }
       ],
       "comparison": [
         {
@@ -5250,21 +5197,6 @@ const A1_WORDS = [
           "meaning": "Leidma / arvama",
           "example": "Ich finde das gut. = Jag tycker det är bra."
         },
-        {
-          "word": "suchen",
-          "meaning": "Otsima",
-          "example": "Ich suche den Schlüssel. = Ma otsin võtit."
-        },
-        {
-          "word": "denken",
-          "meaning": "Mõtlema",
-          "example": "Ich denke an dich. = Ma mõtlen sinule."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Uskuma / arvama",
-          "example": "Ich glaube, er kommt. = Ma arvan, et ta tuleb."
-        }
       ],
       "tip": {
         "text": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde..."
@@ -16321,10 +16253,6 @@ const A1_WORDS = [
           "de": "Kann ich die Jacke anprobieren?",
           "lv": "Kas ma saan jakki proovida?"
         },
-        {
-          "de": "Wir testen die neue Software.",
-          "lv": "Me testime uut tarkvara."
-        }
       ],
       "comparison": [
         {
@@ -16347,11 +16275,6 @@ const A1_WORDS = [
           "meaning": "Kontrollima",
           "example": "Jag provoksar jackan."
         },
-        {
-          "word": "Anprobieren",
-          "meaning": "Selga proovima",
-          "example": "Ich probiere die Jacke an."
-        }
       ],
       "tip": {
         "text": "Atceries: ēdiens → probieren = nogaršot."

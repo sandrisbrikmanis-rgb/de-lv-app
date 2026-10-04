@@ -162,14 +162,6 @@ const A1_WORDS = [
           "de": "Ich habe eine kleine Tasche.",
           "lv": "El niño aún es pequeño."
         },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Tengo un bolso pequeño."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "El niño es pequeño."
-        }
       ],
       "tip": [
         "klein = pequeño",
@@ -2735,11 +2727,6 @@ const A1_WORDS = [
           "meaning": "hasta",
           "example": "Bis jetzt habe ich nichts verstanden. – Estoy esperando que vengas."
         },
-        {
-          "word": "bis jetzt",
-          "meaning": "hasta ahora, hasta el día de hoy",
-          "example": "Bis jetzt ist alles gut. – Hasta ahora todo está bien."
-        }
       ],
       "tip": {
         "text": "Recuerda: frontera en tiempo/condición → bis."
@@ -2865,18 +2852,6 @@ const A1_WORDS = [
           "de": "Bitte schön!",
           "lv": "una taza de café, por favor."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "¿Puedo preguntar, por favor?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Tengo una petición."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "La solicitud es importante."
-        }
       ],
       "tip": [
         "Little bitte = por favor (Bitte schön!, Kaffee, bitte). die Bitte con mayúscula = petición (eine Bitte, meine Bitte).",
@@ -2999,18 +2974,6 @@ const A1_WORDS = [
           "de": "Sie hat zwei Bitten.",
           "lv": "una taza de café, por favor."
         },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "¿Puedo preguntar, por favor?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Tengo una petición."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "La solicitud es importante."
-        }
       ],
       "tip": [
         "Little bitte = por favor (Bitte schön!, Kaffee, bitte). die Bitte con mayúscula = petición (eine Bitte, meine Bitte).",
@@ -3424,10 +3387,6 @@ const A1_WORDS = [
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Lleva el libro a la escuela."
         },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Traigo el libro."
-        }
       ],
       "comparison": [
         {
@@ -5262,14 +5221,6 @@ const A1_WORDS = [
           "de": "Es ist müde.",
           "lv": "Está cansado."
         },
-        {
-          "de": "Es regnet.",
-          "lv": "Está lloviendo."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Nieva."
-        }
       ],
       "comparison": [
         {
@@ -6104,10 +6055,6 @@ const A1_WORDS = [
           "de": "Wie findest du den Film?",
           "lv": "me parece bien."
         },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "¿Qué opinas de la película?"
-        }
       ],
       "comparison": [
         {
@@ -6115,21 +6062,6 @@ const A1_WORDS = [
           "meaning": "encontrar / considerar",
           "example": "Ich finde das gut. = Me parece bien."
         },
-        {
-          "word": "suchen",
-          "meaning": "buscar",
-          "example": "Ich suche den Schlüssel. = Estoy buscando una llave."
-        },
-        {
-          "word": "denken",
-          "meaning": "pensar",
-          "example": "Pienso en ti. = Estoy pensando en ti."
-        },
-        {
-          "word": "glauben",
-          "meaning": "creer / pensar",
-          "example": "Ich glaube, er kommt. = Creo que vendrá."
-        }
       ],
       "tip": {
         "text": "Recuerda: cosa perdida → encontrada; opinión → ich finde..."
@@ -14845,11 +14777,6 @@ const A1_WORDS = [
           "meaning": "quiero",
           "example": "Ich will nach Hause."
         },
-        {
-          "word": "dürfen",
-          "meaning": "ser permitido",
-          "example": "¿Darf ich gehen?"
-        }
       ],
       "tip": {
         "text": "Recuerde: Ich muss... = Debo..."
