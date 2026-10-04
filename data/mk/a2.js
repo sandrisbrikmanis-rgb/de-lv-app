@@ -5001,7 +5001,7 @@ const A2_WORDS = [
       "accent": "blue",
       "variants": [
         {
-          "article": "Дас",
+          "article": "das",
           "de": "Aschenputtel"
         }
       ]
@@ -31753,7 +31753,7 @@ const A2_WORDS = [
       "accent": "blue",
       "variants": [
         {
-          "article": "Дас",
+          "article": "das",
           "de": "Keyboard",
           "plural": "die Keyboards"
         }
@@ -31862,7 +31862,7 @@ const A2_WORDS = [
       "accent": "blue",
       "variants": [
         {
-          "article": "Дас",
+          "article": "das",
           "de": "Kino",
           "plural": "die Kinos"
         }
@@ -31922,7 +31922,7 @@ const A2_WORDS = [
       "accent": "blue",
       "variants": [
         {
-          "article": "Дас",
+          "article": "das",
           "de": "Kissen",
           "plural": "die Kissen"
         }
@@ -37395,12 +37395,12 @@ const A2_WORDS = [
       "accent": "blue",
       "variants": [
         {
-          "article": "Дас",
+          "article": "das",
           "de": "Nummernschild",
           "plural": "die Nummernschilder"
         },
         {
-          "article": "Дас",
+          "article": "das",
           "de": "Kennzeichen",
           "plural": "die Kennzeichen"
         }

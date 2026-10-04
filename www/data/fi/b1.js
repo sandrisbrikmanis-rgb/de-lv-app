@@ -20829,7 +20829,7 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "Igapäevaselt saama",
-          "example": "Ich bekomme eine E-kirja."
+          "example": "Ich bekomme eine E-Mail."
         },
         {
           "word": "begrüßen",
@@ -48286,7 +48286,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "Saatma",
-          "example": "Ich schicke dir eine E-kirja."
+          "example": "Ich schicke dir eine E-Mail."
         },
         {
           "word": "urteilen",

@@ -171,14 +171,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "vaikas dar mažas."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "turiu mažą krepšį."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "vaikas yra mažas."
         }
       ],
       "tip": [
@@ -2979,11 +2971,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "tol, kol",
           "example": "Bis jetzt habe ich nichts verstanden. – Laukiu, kol atvyksi."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "iki šiol, iki šios dienos",
-          "example": "Bis jetzt ist alles gut. – Iki šiol visa gerai."
         }
       ],
       "tip": {
@@ -3111,18 +3098,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "vieną puodelį kavos, prašau."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "ar galiu, prašau, paklausti?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "turiu vieną prašymą."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "prašymas yra svarbus."
         }
       ],
       "tip": [
@@ -3248,18 +3223,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "vieną puodelį kavos, prašau."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "ar galiu, prašau, paklausti?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "turiu vieną prašymą."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "prašymas yra svarbus."
         }
       ],
       "tip": [
@@ -3710,10 +3673,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "jis nuneša knygą į mokyklą."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "paimu knygą."
         }
       ],
       "comparison": [
@@ -5212,12 +5171,12 @@ const A1_WORDS = [
         {
           "word": "ein Mann",
           "meaning": "vyro giminė",
-          "example": "Ich gehe baden."
+          "example": "Ein Mann wartet draußen."
         },
         {
           "word": "eine Frau",
           "meaning": "moters giminė",
-          "example": "Ich dusche am Morgen."
+          "example": "eine Frau"
         },
         {
           "word": "ein Buch",
@@ -5227,7 +5186,7 @@ const A1_WORDS = [
         {
           "word": "einen Mann",
           "meaning": "akuzatyvas",
-          "example": "Ich gehe baden."
+          "example": "einen Mann"
         }
       ]
     }
@@ -5788,14 +5747,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "tai mano knyga."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "lyja."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "sninga."
         }
       ],
       "info": [
@@ -6701,10 +6652,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "man tai atrodo gerai."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "kaip tau atrodo filmas?"
         }
       ],
       "comparison": [
@@ -6712,21 +6659,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "rasti / manyti",
           "example": "Ich finde das gut. = Man tai atrodo gerai."
-        },
-        {
-          "word": "suchen",
-          "meaning": "ieškoti",
-          "example": "Ich suche den Schlüssel. = Aš ieškau rakto."
-        },
-        {
-          "word": "denken",
-          "meaning": "manyti",
-          "example": "Ich denke an dich. = Aš mąstau apie tave."
-        },
-        {
-          "word": "glauben",
-          "meaning": "tikėti / manyti",
-          "example": "Ich glaube, er kommt. = Aš manau, kad jis ateis."
         }
       ],
       "tip": {
@@ -21865,22 +21797,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "virš / apie / per",
-          "example": "Mes kalbame apie orą."
+          "example": "Wir sprechen über das Wetter. = Mes kalbame apie orą."
         },
         {
           "word": "auf",
           "meaning": "ant paviršiaus",
-          "example": "Knyga yra ant stalo."
+          "example": "Das Buch liegt auf dem Tisch. = Knyga yra ant stalo."
         },
         {
           "word": "unter",
           "meaning": "po",
-          "example": "Krepšys yra po stalu."
+          "example": "Die Tasche ist unter dem Tisch. = Krepšys yra po stalu."
         },
         {
           "word": "von",
           "meaning": "iš / gauta iš kokio šaltinio",
-          "example": "Aš girdžiu iš tavęs."
+          "example": "Ich höre von dir. = Aš girdžiu iš tavęs."
         }
       ],
       "tip": {
@@ -22111,22 +22043,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "valandą / aplink / kad",
-          "example": "Aš atvykstu keturiomis."
+          "example": "Ich komme um acht. = Aš atvykstu keturiomis."
         },
         {
           "word": "am",
           "meaning": "dieną / prie",
-          "example": "Pirmadienį aš atvykstu."
+          "example": "Am Montag komme ich. = Pirmadienį aš atvykstu."
         },
         {
           "word": "gegen",
           "meaning": "apie laiką / prieš",
-          "example": "Aš atvykstu apie keturias."
+          "example": "Ich komme gegen acht. = Aš atvykstu apie keturias."
         },
         {
           "word": "für",
           "meaning": "dėl / naudai",
-          "example": "Tai yra skirta tau."
+          "example": "Das ist für dich. = Tai yra skirta tau."
         }
       ],
       "tip": {
@@ -22361,22 +22293,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "po / tarp",
-          "example": "Krepšys yra po stalu."
+          "example": "Die Tasche ist unter dem Tisch. = Krepšys yra po stalu."
         },
         {
           "word": "über",
           "meaning": "virš / apie",
-          "example": "Lempa kabo virš stalo."
+          "example": "Die Lampe hängt über dem Tisch. = Lempa kabo virš stalo."
         },
         {
           "word": "zwischen",
           "meaning": "tarp dviejų dalykų",
-          "example": "Tarp namų."
+          "example": "Zwischen den Häusern. = Tarp namų."
         },
         {
           "word": "auf",
           "meaning": "ant paviršiaus",
-          "example": "Ant stalo."
+          "example": "Auf dem Tisch. = Ant stalo."
         }
       ],
       "tip": {
@@ -22629,22 +22561,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "suprasti",
-          "example": "Aš tave supranta."
+          "example": "Ich verstehe dich. = Aš tave supranta."
         },
         {
           "word": "können",
           "meaning": "galėti / mokėti",
-          "example": "Aš galiu plaukti."
+          "example": "Ich kann schwimmen. = Aš galiu plaukti."
         },
         {
           "word": "wissen",
           "meaning": "žinoti faktą",
-          "example": "Aš tai žinau."
+          "example": "Ich weiß das. = Aš tai žinau."
         },
         {
           "word": "kennen",
           "meaning": "pažinti",
-          "example": "Aš jį pažįstu."
+          "example": "Ich kenne ihn. = Aš jį pažįstu."
         }
       ],
       "tip": {
@@ -23258,22 +23190,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "prieš / priešais",
-          "example": "Prieš vakarienę..."
+          "example": "Vor dem Essen... = Prieš vakarienę..."
         },
         {
           "word": "nach",
           "meaning": "po / į",
-          "example": "Po vakarienės..."
+          "example": "Nach dem Essen... = Po vakarienės..."
         },
         {
           "word": "neben",
           "meaning": "šalia",
-          "example": "Šalia namo."
+          "example": "Neben dem Haus. = Šalia namo."
         },
         {
           "word": "hinter",
           "meaning": "už",
-          "example": "Už namo."
+          "example": "Hinter dem Haus. = Už namo."
         }
       ],
       "tip": {
@@ -23794,22 +23726,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "jei / kai",
-          "example": "Jei tu turi laiko..."
+          "example": "Wenn du Zeit hast... = Jei tu turi laiko..."
         },
         {
           "word": "ob",
           "meaning": "ar netiesioginiame klausime",
-          "example": "Aš nežinau, ar..."
+          "example": "Ich weiß nicht, ob... = Aš nežinau, ar..."
         },
         {
           "word": "wann",
           "meaning": "kada klausime",
-          "example": "Kada tu atvyksti?"
+          "example": "Wann kommst du? = Kada tu atvyksti?"
         },
         {
           "word": "weil",
           "meaning": "nes",
-          "example": "Aš likau, nes aš sergu."
+          "example": "Ich bleibe, weil ich krank bin. = Aš likau, nes aš sergu."
         }
       ],
       "tip": {
@@ -24227,22 +24159,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "tapti",
-          "example": "Aš pavargstu."
+          "example": "Ich werde müde. = Aš pavargstu."
         },
         {
           "word": "sein",
           "meaning": "būti",
-          "example": "Aš esu pavargęs."
+          "example": "Ich bin müde. = Aš esu pavargęs."
         },
         {
           "word": "bleiben",
           "meaning": "pasilikti",
-          "example": "Aš likau čia."
+          "example": "Ich bleibe hier. = Aš likau čia."
         },
         {
           "word": "machen",
           "meaning": "daryti / gaminti",
-          "example": "Aš tai darau."
+          "example": "Ich mache das. = Aš tai darau."
         }
       ],
       "tip": {
@@ -24461,22 +24393,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "orai",
-          "example": "Oras yra gražus."
+          "example": "Das Wetter ist schön. = Oras yra gražus."
         },
         {
           "word": "Zeit",
           "meaning": "laikas (momentas)",
-          "example": "Aš neturiu laiko."
+          "example": "Ich habe keine Zeit. = Aš neturiu laiko."
         },
         {
           "word": "Regen",
           "meaning": "lietus",
-          "example": "Yra daug lietaus."
+          "example": "Es gibt viel Regen. = Yra daug lietaus."
         },
         {
           "word": "Sonne",
           "meaning": "saulė",
-          "example": "Saulė šviečia."
+          "example": "Die Sonne scheint. = Saulė šviečia."
         }
       ],
       "tip": [
@@ -24933,22 +24865,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "į / pas / pernelyg / bendratis",
-          "example": "Aš einu pas gydytoją."
+          "example": "Ich gehe zum Arzt. = Aš einu pas gydytoją."
         },
         {
           "word": "nach",
           "meaning": "į su miestais/šalimis",
-          "example": "Aš važiuoju į Berliną."
+          "example": "Ich fahre nach Berlin. = Aš važiuoju į Berliną."
         },
         {
           "word": "in",
           "meaning": "į vidų / į vietą",
-          "example": "Aš einu į mokyklą."
+          "example": "Ich gehe in die Schule. = Aš einu į mokyklą."
         },
         {
           "word": "bei",
           "meaning": "pas ką nors / į darbą",
-          "example": "Aš esu pas Anną."
+          "example": "Ich bin bei Anna. = Aš esu pas Anną."
         }
       ],
       "tip": {
@@ -25171,22 +25103,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "traukinys",
-          "example": "Traukinys atvyksta."
+          "example": "Der Zug kommt. = Traukinys atvyksta."
         },
         {
           "word": "die Bahn",
           "meaning": "geležinkelis / kelionė traukiniu",
-          "example": "Aš važiuoju traukiniu."
+          "example": "Ich fahre mit der Bahn. = Aš važiuoju traukiniu."
         },
         {
           "word": "der Bus",
           "meaning": "autobusas",
-          "example": "Autobusas atvyksta."
+          "example": "Der Bus kommt. = Autobusas atvyksta."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "tramvajus",
-          "example": "Tramvajus čia yra."
+          "example": "Die Straßenbahn ist hier. = Tramvajus čia yra."
         }
       ],
       "tip": {

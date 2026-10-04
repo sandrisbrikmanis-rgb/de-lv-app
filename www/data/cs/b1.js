@@ -47233,7 +47233,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "Poslat",
-          "example": "Ich schicke dir eine E-mail."
+          "example": "Ich schicke dir eine E-Mail."
         },
         {
           "word": "urteilen",

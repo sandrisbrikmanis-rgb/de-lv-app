@@ -17061,7 +17061,7 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "Her gün al",
-          "example": "Ich bekomme eine E-posta aldım."
+          "example": "Ich bekomme eine E-Mail."
         },
         {
           "word": "begrüßen",
@@ -41640,7 +41640,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "Göndermek",
-          "example": "Ich schicke dir eine E-posta gönderiyorum."
+          "example": "Ich schicke dir eine E-Mail."
         },
         {
           "word": "urteilen",

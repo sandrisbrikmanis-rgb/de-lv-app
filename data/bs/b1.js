@@ -20440,7 +20440,7 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "Dobiti / primiti u svakodnevnom govoru",
-          "example": "Ich bekomme eine E-mail."
+          "example": "Ich bekomme eine E-Mail."
         },
         {
           "word": "begrüßen",

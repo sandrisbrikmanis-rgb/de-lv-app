@@ -46075,7 +46075,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "At sende",
-          "example": "Ich schicke dir eine E-mail."
+          "example": "Ich schicke dir eine E-Mail."
         },
         {
           "word": "urteilen",

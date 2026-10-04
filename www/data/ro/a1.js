@@ -146,14 +146,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Copilul este încă mic."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Am o geantă mică."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Copilul este mic."
         }
       ],
       "tip": [
@@ -259,12 +251,12 @@ const A1_WORDS = [
         {
           "word": "an",
           "meaning": "La suprafata sau marginea",
-          "example": "la perete – pie sienas"
+          "example": "an der Wand – pie sienas"
         },
         {
           "word": "auf",
           "meaning": "Pe o suprafață orizontală",
-          "example": "pe masă – uz galda"
+          "example": "auf dem Tisch – uz galda"
         },
         {
           "word": "bei",
@@ -422,7 +414,7 @@ const A1_WORDS = [
         {
           "word": "von",
           "meaning": "De la cineva/ceva • Origine",
-          "example": "de la mine – no manis"
+          "example": "von mir – no manis"
         },
         {
           "word": "aus",
@@ -1071,7 +1063,7 @@ const A1_WORDS = [
         {
           "word": "an",
           "meaning": "La (suprafață verticală)",
-          "example": "Atârn poza la perete. – Es karinu bildi pie sienas."
+          "example": "Ich hänge das Bild an die Wand. – Es karinu bildi pie sienas."
         },
         {
           "word": "in",
@@ -1238,7 +1230,7 @@ const A1_WORDS = [
         {
           "word": "von",
           "meaning": "De la persoană, loc, suprafață",
-          "example": "de la prietenul meu – no mana drauga"
+          "example": "von meinem Freund – no mana drauga"
         },
         {
           "word": "ab",
@@ -1403,17 +1395,17 @@ const A1_WORDS = [
         {
           "word": "aufs",
           "meaning": "La un caz specific (Akk.)",
-          "example": "pe acoperiş – uz jumta"
+          "example": "aufs Dach – uz jumta"
         },
         {
           "word": "auf",
           "meaning": "La suprafaţă sau în sus",
-          "example": "pe masă – uz galda"
+          "example": "auf den Tisch – uz galda"
         },
         {
           "word": "an",
           "meaning": "La o suprafata verticala",
-          "example": "la perete – pie sienas"
+          "example": "an die Wand – pie sienas"
         },
         {
           "word": "ins",
@@ -1680,22 +1672,22 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "Înota / fi în apă / spăla",
-          "example": "Mă duc să înot."
+          "example": "Ich gehe baden. = Mă duc să înot."
         },
         {
           "word": "schwimmen",
           "meaning": "A înota ca mișcare sau sport",
-          "example": "El înoată foarte bine."
+          "example": "Er schwimmt sehr gut. = El înoată foarte bine."
         },
         {
           "word": "duschen",
           "meaning": "Fă un duș",
-          "example": "Mă spăl dimineaţa."
+          "example": "Ich dusche am Morgen. = Mă spăl dimineaţa."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Merge la înot",
-          "example": "Astăzi mă duc să înot."
+          "example": "Ich gehe heute schwimmen. = Astăzi mă duc să înot."
         }
       ],
       "tip": {
@@ -1921,7 +1913,7 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "Cine se duce la (direcția)",
-          "example": "Mă duc la prietenul meu. – Es eju pie sava drauga."
+          "example": "Ich gehe zu meinem Freund. – Es eju pie sava drauga."
         }
       ],
       "tip": {
@@ -2107,17 +2099,17 @@ const A1_WORDS = [
         {
           "word": "der Besuch",
           "meaning": "vizită • întâlnire • apel",
-          "example": "Mulţumesc pentru vizita ta. – Paldies par tavu apciemojumu."
+          "example": "Danke für deinen Besuch. – Paldies par tavu apciemojumu."
         },
         {
           "word": "der Besucher",
           "meaning": "Vizitator",
-          "example": "Vizitator aşteaptă afară. – Apmeklētājs gaida ārā."
+          "example": "Der Besucher wartet draußen. – Apmeklētājs gaida ārā."
         },
         {
           "word": "besuchen",
           "meaning": "a vizita • a apela",
-          "example": "Vizitez bunicii mei. – Es apciemoju savus vecvecākus."
+          "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
         }
       ],
       "tip": {
@@ -2303,17 +2295,17 @@ const A1_WORDS = [
         {
           "word": "besuchen",
           "meaning": "a vizita un loc sau eveniment • a apela o persoană",
-          "example": "Vizitez bunicii mei. – Es apciemoju savus vecvecākus."
+          "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
         },
         {
           "word": "treffen",
           "meaning": "a întâlni",
-          "example": "Îl întâlnesc pe prietenul meu. – Es satieku savu draugu."
+          "example": "Ich treffe meinen Freund. – Es satieku savu draugu."
         },
         {
           "word": "zu jemandem gehen",
           "meaning": "a merge la cineva",
-          "example": "Mă duc la prietenul meu. – Es eju pie sava drauga."
+          "example": "Ich gehe zu meinem Freund. – Es eju pie sava drauga."
         }
       ],
       "tip": {
@@ -2534,11 +2526,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "Până",
           "example": "Bis jetzt habe ich nichts verstanden. – Te astept sa vii."
-        },
-        {
-          "word": "Bis jetzt",
-          "meaning": "Până acum, până în ziua de azi",
-          "example": "Bis jetzt ist alles gut. – Până acum, bine."
         }
       ],
       "tip": {
@@ -2660,18 +2647,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "O ceașcă de cafea, te rog."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Pot sa intreb va rog"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Am o singură cerere."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Cererea este importanta."
         }
       ],
       "tip": [
@@ -2741,12 +2716,12 @@ const A1_WORDS = [
         {
           "word": "bitte",
           "meaning": "Vă rog",
-          "example": "Te rog intră. – Lūdzu, nāc iekšā."
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
         },
         {
           "word": "die Bitte",
           "meaning": "O cerere",
-          "example": "Am o cerere. – Man ir lūgums."
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
         }
       ]
     }
@@ -2779,18 +2754,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "O ceașcă de cafea, te rog."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Pot sa intreb va rog"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Am o singură cerere."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Cererea este importanta."
         }
       ],
       "tip": [
@@ -2860,12 +2823,12 @@ const A1_WORDS = [
         {
           "word": "die Bitte",
           "meaning": "O cerere",
-          "example": "Am o cerere. – Man ir lūgums."
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
         },
         {
           "word": "bitte",
           "meaning": "Vă rog",
-          "example": "Te rog intră. – Lūdzu, nāc iekšā."
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
         }
       ]
     }
@@ -2942,22 +2905,22 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "Şedere",
-          "example": "Rămân aici."
+          "example": "Ich bleibe hier. = Rămân aici."
         },
         {
           "word": "gehen",
           "meaning": "Merge/pleaca pe jos",
-          "example": "Mă duc acasă."
+          "example": "Ich gehe nach Hause. = Mă duc acasă."
         },
         {
           "word": "fahren",
           "meaning": "Conduce / merge cu transportul",
-          "example": "Merg acasă cu maşina."
+          "example": "Ich fahre nach Hause. = Merg acasă cu maşina."
         },
         {
           "word": "warten",
           "meaning": "Să aştepte",
-          "example": "Aştept aici."
+          "example": "Ich warte hier. = Aştept aici."
         }
       ],
       "tip": {
@@ -3175,10 +3138,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Duce cartea la școală."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Iau cartea"
         }
       ],
       "comparison": [
@@ -3205,7 +3164,7 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "a lua",
-          "example": "Iau cartea. – Es paņemu grāmatu."
+          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
         }
       ],
       "tip": {
@@ -3469,22 +3428,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Acolo • Aici • Aici (general)",
-          "example": "Acolo este maşina mea."
+          "example": "Da ist mein Auto. = Acolo este maşina mea."
         },
         {
           "word": "hier",
           "meaning": "Aici (la un loc anume)",
-          "example": "Aici este maşina mea."
+          "example": "Hier ist mein Auto. = Aici este maşina mea."
         },
         {
           "word": "dort",
           "meaning": "Acolo (mai departe)",
-          "example": "Dincolo este maşina mea."
+          "example": "Dort ist mein Auto. = Dincolo este maşina mea."
         },
         {
           "word": "dann",
           "meaning": "Apoi",
-          "example": "Apoi mergem acasă."
+          "example": "Dann gehen wir nach Hause. = Apoi mergem acasă."
         }
       ],
       "tip": {
@@ -3659,7 +3618,7 @@ const A1_WORDS = [
         {
           "word": "das",
           "meaning": "It (articol / pronume)",
-          "example": "Aceasta este maşina mea. – Tas ir mans auto."
+          "example": "Das ist mein Auto. – Tas ir mans auto."
         },
         {
           "word": "dies",
@@ -4415,22 +4374,22 @@ const A1_WORDS = [
         {
           "word": "ein Mann",
           "meaning": "genul masculin",
-          "example": "Un bărbat aşteaptă afară."
+          "example": "Ein Mann wartet draußen. = Un bărbat aşteaptă afară."
         },
         {
           "word": "eine Frau",
           "meaning": "genul feminin",
-          "example": "o femeie"
+          "example": "eine Frau = o femeie"
         },
         {
           "word": "ein Buch",
           "meaning": "genul neutru",
-          "example": "Am o carte."
+          "example": "Ich habe ein Buch. = Am o carte."
         },
         {
           "word": "einen Mann",
           "meaning": "acuzativ",
-          "example": "un bărbat"
+          "example": "einen Mann = un bărbat"
         }
       ]
     }
@@ -4487,22 +4446,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Inghetata / inghetata",
-          "example": "Mânânc un îngheţată. = Es ēdu saldējumu."
+          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
         },
         {
           "word": "der Schnee",
           "meaning": "Va ninge",
-          "example": "Zăpada este albă. = Sniegs ir balts."
+          "example": "Der Schnee ist weiß. = Sniegs ir balts."
         },
         {
           "word": "kalt",
           "meaning": "Rece",
-          "example": "Apa este rece. = Ūdens ir auksts."
+          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
         },
         {
           "word": "das Dessert",
           "meaning": "Desert",
-          "example": "Îngheţata este un desert. = Saldējums ir deserts."
+          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
         }
       ],
       "tip": {
@@ -4717,17 +4676,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "Primul • La început",
-          "example": "Mai întâi luăm micul dejun. = Vispirms mēs brokastojam."
+          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
         },
         {
           "word": "nur",
           "meaning": "Numai",
-          "example": "Am doar 5 euro. = Man ir tikai 5 eiro."
+          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
         },
         {
           "word": "dann",
           "meaning": "Apoi",
-          "example": "Apoi mergem acasă. = Tad mēs ejam mājās."
+          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
         }
       ],
       "tip": {
@@ -4881,14 +4840,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "Este cartea mea."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Plouă"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Ninge"
         }
       ],
       "info": [
@@ -4995,12 +4946,12 @@ const A1_WORDS = [
         {
           "word": "es",
           "meaning": "asta • formă impersonală",
-          "example": "Plouă. – Līst."
+          "example": "Es regnet. – Līst."
         },
         {
           "word": "ich",
           "meaning": "es (persoană)",
-          "example": "Înveţ limba germană. – Es mācos vācu valodu."
+          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
         }
       ]
     }
@@ -5051,22 +5002,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Ceva / putin",
-          "example": "Am nevoie de ceva. = Man kaut kas vajadzīgs."
+          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
         },
         {
           "word": "was",
           "meaning": "Ceva (colocvial)",
-          "example": "Vrei să bei ceva? = Vai gribi kaut ko dzert?"
+          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Ceva",
-          "example": "Sunt puţin obosit. = Es esmu mazliet noguris."
+          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
         },
         {
           "word": "nichts",
           "meaning": "Nimic",
-          "example": "Nu am nevoie de nimic. = Man neko nevajag."
+          "example": "Ich brauche nichts. = Man neko nevajag."
         }
       ],
       "tip": {
@@ -5225,17 +5176,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Tu",
-          "example": "Voi sunteţi prietenoşi. = Jūs esat draudzīgi."
+          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
         },
         {
           "word": "euch",
           "meaning": "Tu/la tine",
-          "example": "Vă ajut. = Es jums palīdzu."
+          "example": "Ich helfe euch. = Es jums palīdzu."
         },
         {
           "word": "euer",
           "meaning": "A ta",
-          "example": "Aceasta este casa voastră. = Tā ir jūsu māja."
+          "example": "Das ist euer Haus. = Tā ir jūsu māja."
         }
       ],
       "info": [
@@ -5305,27 +5256,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "Plimbare cu transportul",
-          "example": "Calatoresc cu autobuzul."
+          "example": "Ich fahre mit dem Bus. = Calatoresc cu autobuzul."
         },
         {
           "word": "gehen",
           "meaning": "Mergi pe jos",
-          "example": "Mă duc acasă."
+          "example": "Ich gehe nach Hause. = Mă duc acasă."
         },
         {
           "word": "laufen",
           "meaning": "Alerga / mergi",
-          "example": "El aleargă repede."
+          "example": "Er läuft schnell. = El aleargă repede."
         },
         {
           "word": "bringen",
           "meaning": "Aduce / livrează",
-          "example": "Aduc cartea."
+          "example": "Ich bringe das Buch. = Aduc cartea."
         },
         {
           "word": "mitnehmen",
           "meaning": "Ia cu tine",
-          "example": "Te iau cu mine."
+          "example": "Ich nehme dich mit. = Te iau cu mine."
         }
       ],
       "tip": {
@@ -5639,32 +5590,13 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "Mi se pare bine."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Ce parere ai despre film?"
         }
       ],
       "comparison": [
         {
           "word": "finden",
           "meaning": "Găsi / considera",
-          "example": "Cred că e bine. = Man tas šķiet labi."
-        },
-        {
-          "word": "Suchen",
-          "meaning": "A căuta",
-          "example": "Ich suche den Schlüssel. = Caut cheia."
-        },
-        {
-          "word": "Gandeste-te",
-          "meaning": "A gândi",
-          "example": "Ich denke an dich. = Mă gândesc la tine."
-        },
-        {
-          "word": "Glauben",
-          "meaning": "Crede / gândește",
-          "example": "Ich glaube, er kommt. = Cred că va veni."
+          "example": "Ich finde das gut. = Man tas šķiet labi."
         }
       ],
       "tip": {
@@ -6214,12 +6146,12 @@ const A1_WORDS = [
         {
           "word": "Fußball",
           "meaning": "fotbal ca sport",
-          "example": "Joc fotbal. – Es spēlēju futbolu."
+          "example": "Ich spiele Fußball. – Es spēlēju futbolu."
         },
         {
           "word": "der Fußball",
           "meaning": "minge de fotbal",
-          "example": "Mingea de fotbal este nouă. – Futbola bumba ir jauna."
+          "example": "Der Fußball ist neu. – Futbola bumba ir jauna."
         }
       ],
       "tip": [
@@ -6267,12 +6199,12 @@ const A1_WORDS = [
         {
           "word": "ganz",
           "meaning": "întreg • toate • complet",
-          "example": "toată ziua – visa diena"
+          "example": "der ganze Tag – visa diena"
         },
         {
           "word": "alles",
           "meaning": "Tot",
-          "example": "Totul e bine. – Viss ir kārtībā."
+          "example": "Alles ist gut. – Viss ir kārtībā."
         }
       ],
       "tip": [
@@ -6342,22 +6274,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "A da",
-          "example": "Dă-mi cartea."
+          "example": "Gib mir das Buch. = Dă-mi cartea."
         },
         {
           "word": "nehmen",
           "meaning": "A lua / a lua",
-          "example": "Iau cartea."
+          "example": "Ich nehme das Buch. = Iau cartea."
         },
         {
           "word": "bekommen",
           "meaning": "Primi / primi",
-          "example": "Primesc un cadou."
+          "example": "Ich bekomme ein Geschenk. = Primesc un cadou."
         },
         {
           "word": "bringen",
           "meaning": "Aduce / livrează",
-          "example": "Îţi aduc cartea."
+          "example": "Ich bringe dir das Buch. = Îţi aduc cartea."
         }
       ],
       "tip": {
@@ -6538,12 +6470,12 @@ const A1_WORDS = [
         {
           "word": "gefallen",
           "meaning": "a plăcea • persoană în dativ",
-          "example": "Asta îmi place. – Man tas patīk."
+          "example": "Das gefällt mir. – Man tas patīk."
         },
         {
           "word": "mögen",
           "meaning": "a plăcea • a prefera",
-          "example": "Asta îmi place. – Man tas patīk."
+          "example": "Ich mag das. – Man tas patīk."
         }
       ],
       "tip": [
@@ -6625,12 +6557,12 @@ const A1_WORDS = [
         {
           "word": "eine Geschichte",
           "meaning": "poveste",
-          "example": "o poveste interesantă – interesants stāsts"
+          "example": "eine interessante Geschichte – interesants stāsts"
         },
         {
           "word": "Geschichte",
           "meaning": "istorie",
-          "example": "Să înveţi istorie – mācīties vēsturi"
+          "example": "Geschichte lernen – mācīties vēsturi"
         }
       ],
       "tip": [
@@ -6671,17 +6603,17 @@ const A1_WORDS = [
         {
           "word": "Geschwister",
           "meaning": "fraţi şi surori",
-          "example": "Fraţii mei – mani brāļi un māsas"
+          "example": "Meine Geschwister – mani brāļi un māsas"
         },
         {
           "word": "Bruder",
           "meaning": "Frate",
-          "example": "fratele meu – mans brālis"
+          "example": "mein Bruder – mans brālis"
         },
         {
           "word": "Schwester",
           "meaning": "Sora",
-          "example": "sora mea – mana māsa"
+          "example": "meine Schwester – mana māsa"
         }
       ],
       "tip": [
@@ -7008,17 +6940,17 @@ const A1_WORDS = [
         {
           "word": "Großeltern",
           "meaning": "bunici",
-          "example": "bunicii mei – mani vecvecāki"
+          "example": "meine Großeltern – mani vecvecāki"
         },
         {
           "word": "Großmutter",
           "meaning": "Bunica",
-          "example": "bunica mea – mana vecmāmiņa"
+          "example": "meine Großmutter – mana vecmāmiņa"
         },
         {
           "word": "Großvater",
           "meaning": "Bunicul",
-          "example": "bunicul meu – mans vectētiņš"
+          "example": "mein Großvater – mans vectētiņš"
         }
       ],
       "tip": [
@@ -7247,22 +7179,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "Am",
-          "example": "Am timp. = Man ir laiks."
+          "example": "Ich habe Zeit. = Man ir laiks."
         },
         {
           "word": "sein",
           "meaning": "A fi",
-          "example": "Sunt aici. = Es esmu šeit."
+          "example": "Ich bin hier. = Es esmu šeit."
         },
         {
           "word": "bekommen",
           "meaning": "A primi",
-          "example": "Primesc un cadou. = Es saņemu dāvanu."
+          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
         },
         {
           "word": "machen",
           "meaning": "A face/a face",
-          "example": "O fac. = Es to daru."
+          "example": "Ich mache das. = Es to daru."
         }
       ],
       "tip": {
@@ -7429,22 +7361,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Ține / opri",
-          "example": "Autobuzul se opreşte. = Autobuss pietur."
+          "example": "Der Bus hält. = Autobuss pietur."
         },
         {
           "word": "nehmen",
           "meaning": "A lua",
-          "example": "Iau geanta. = Es ņemu somu."
+          "example": "Ich nehme die Tasche. = Es ņemu somu."
         },
         {
           "word": "anhalten",
           "meaning": "A opri",
-          "example": "Te rog opreşte-te. = Lūdzu, apstājieties."
+          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
         },
         {
           "word": "denken",
           "meaning": "A gândi",
-          "example": "Cred că este corect. = Es domāju, ka tas ir pareizi."
+          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
         }
       ],
       "tip": {
@@ -7601,12 +7533,12 @@ const A1_WORDS = [
         {
           "word": "die Hand",
           "meaning": "mână",
-          "example": "în mână – plaukstā"
+          "example": "in der Hand – plaukstā"
         },
         {
           "word": "der Arm",
           "meaning": "Mână",
-          "example": "Mâna mea doare. – Man sāp roka."
+          "example": "Mein Arm tut weh. – Man sāp roka."
         }
       ],
       "tip": [
@@ -7706,27 +7638,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "A fi numit/însemnă",
-          "example": "Mă numesc Anna. = Mani sauc Anna."
+          "example": "Ich heiße Anna. = Mani sauc Anna."
         },
         {
           "word": "nennen",
           "meaning": "A suna/numi",
-          "example": "El mă numeşte Tom. = Viņš mani sauc par Tomu."
+          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
         },
         {
           "word": "bedeuten",
           "meaning": "Medie",
-          "example": "Ce înseamnă asta? = Ko tas nozīmē?"
+          "example": "Was bedeutet das? = Ko tas nozīmē?"
         },
         {
           "word": "rufen",
           "meaning": "Suna / suna",
-          "example": "Te sun. = Es tevi pasaucu."
+          "example": "Ich rufe dich. = Es tevi pasaucu."
         },
         {
           "word": "anrufen",
           "meaning": "A suna",
-          "example": "Te sun. = Es tev piezvanu."
+          "example": "Ich rufe dich an. = Es tev piezvanu."
         }
       ],
       "tip": {
@@ -8118,17 +8050,17 @@ const A1_WORDS = [
         {
           "word": "hübsch",
           "meaning": "frumos • atractiv",
-          "example": "Aceasta este o rochie frumoasă. – Tā ir glīta kleita."
+          "example": "Das ist ein hübsches Kleid. – Tā ir glīta kleita."
         },
         {
           "word": "schön",
           "meaning": "frumos • plăcut",
-          "example": "Grădina este frumoasă. – Dārzs ir skaists."
+          "example": "Der Garten ist schön. – Dārzs ir skaists."
         },
         {
           "word": "nett",
           "meaning": "amabil • drăguţ",
-          "example": "Ea este foarte amabilă. – Viņa ir ļoti jauka."
+          "example": "Sie ist sehr nett. – Viņa ir ļoti jauka."
         }
       ],
       "tip": {
@@ -8483,7 +8415,7 @@ const A1_WORDS = [
         {
           "word": "ins",
           "meaning": "Spre interior, unde? (Acc.)",
-          "example": "la cinema – uz kino"
+          "example": "ins Kino – uz kino"
         },
         {
           "word": "in",
@@ -8498,7 +8430,7 @@ const A1_WORDS = [
         {
           "word": "auf",
           "meaning": "La suprafata",
-          "example": "pe masă – uz galda"
+          "example": "auf dem Tisch – uz galda"
         }
       ],
       "tip": [
@@ -8865,12 +8797,12 @@ const A1_WORDS = [
         {
           "word": "ins",
           "meaning": "Spre interior, unde? (Acc.)",
-          "example": "la cinema – uz kino"
+          "example": "ins Kino – uz kino"
         },
         {
           "word": "im",
           "meaning": "Inauntru unde? (la care?)",
-          "example": "la cinema – kino"
+          "example": "im Kino – kino"
         },
         {
           "word": "in",
@@ -8880,7 +8812,7 @@ const A1_WORDS = [
         {
           "word": "aufs",
           "meaning": "La suprafață (Akk.)",
-          "example": "pe acoperiş – uz jumta"
+          "example": "aufs Dach – uz jumta"
         },
         {
           "word": "zum",
@@ -9674,22 +9606,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "A putea/a cunoaste",
-          "example": "Pot înota. = Es protu peldēt."
+          "example": "Ich kann schwimmen. = Es protu peldēt."
         },
         {
           "word": "dürfen",
           "meaning": "A fi permis",
-          "example": "Pot merge? = Vai drīkstu iet?"
+          "example": "Darf ich gehen? = Vai drīkstu iet?"
         },
         {
           "word": "müssen",
           "meaning": "Trebuie / fi da-",
-          "example": "Trebuie să înveţ. = Man jāmācās."
+          "example": "Ich muss lernen. = Man jāmācās."
         },
         {
           "word": "wissen",
           "meaning": "A sti",
-          "example": "Ştiu asta. = Es to zinu."
+          "example": "Ich weiß das. = Es to zinu."
         }
       ],
       "tip": {
@@ -9862,22 +9794,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Plăti (preț) • Cât",
-          "example": "Asta costă 5 euro. = Tas maksā 5 eiro."
+          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
         },
         {
           "word": "bezahlen",
           "meaning": "Plătiți • Plătiți (bani)",
-          "example": "Plătesc factura. = Es maksāju rēķinu."
+          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
         },
         {
           "word": "zahlen",
           "meaning": "A plăti • A plăti",
-          "example": "Pot plăti în numerar? = Vai varu maksāt skaidrā naudā?"
+          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Cât costã...?",
-          "example": "Cât costă cartea? = Cik maksā grāmata?"
+          "example": "Was kostet das Buch? = Cik maksā grāmata?"
         }
       ],
       "tip": [
@@ -10365,22 +10297,22 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Ţară / pământ / ţară",
-          "example": "Germania este o ţară."
+          "example": "Deutschland ist ein Land. = Germania este o ţară."
         },
         {
           "word": "die Stadt",
           "meaning": "Oraş",
-          "example": "Locuiesc în oraş."
+          "example": "Ich wohne in der Stadt. = Locuiesc în oraş."
         },
         {
           "word": "das Dorf",
           "meaning": "Sat",
-          "example": "El locuieşte într-un sat."
+          "example": "Er lebt in einem Dorf. = El locuieşte într-un sat."
         },
         {
           "word": "die Erde",
           "meaning": "Pământ / planetă",
-          "example": "Pământul este rotund."
+          "example": "Die Erde ist rund. = Pământul este rotund."
         }
       ],
       "tip": {
@@ -10677,22 +10609,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Lasa / lasa",
-          "example": "Las asta aici."
+          "example": "Ich lasse das hier. = Las asta aici."
         },
         {
           "word": "bleiben",
           "meaning": "Şedere",
-          "example": "Rămân aici."
+          "example": "Ich bleibe hier. = Rămân aici."
         },
         {
           "word": "erlauben",
           "meaning": "Permite",
-          "example": "Ea mă lasă să fac asta."
+          "example": "Sie erlaubt mir das. = Ea mă lasă să fac asta."
         },
         {
           "word": "geben",
           "meaning": "A da",
-          "example": "Dă-mi cartea."
+          "example": "Gib mir das Buch. = Dă-mi cartea."
         }
       ],
       "tip": {
@@ -10851,22 +10783,22 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Rulează / operează",
-          "example": "El aleargă repede."
+          "example": "Er läuft schnell. = El aleargă repede."
         },
         {
           "word": "gehen",
           "meaning": "Mergi pe jos",
-          "example": "Mă duc acasă."
+          "example": "Ich gehe nach Hause. = Mă duc acasă."
         },
         {
           "word": "fahren",
           "meaning": "Plimbare cu transportul",
-          "example": "Calatoresc cu autobuzul."
+          "example": "Ich fahre mit dem Bus. = Calatoresc cu autobuzul."
         },
         {
           "word": "funktionieren",
           "meaning": "A opera",
-          "example": "Asta funcţionează bine."
+          "example": "Das funktioniert gut. = Asta funcţionează bine."
         }
       ],
       "tip": {
@@ -11289,22 +11221,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Pus jos",
-          "example": "Pun cartea pe masă."
+          "example": "Ich lege das Buch auf den Tisch. = Pun cartea pe masă."
         },
         {
           "word": "liegen",
           "meaning": "A fi / a dormi",
-          "example": "Cartea este pe masă."
+          "example": "Das Buch liegt auf dem Tisch. = Cartea este pe masă."
         },
         {
           "word": "stellen",
           "meaning": "Pune în picioare",
-          "example": "Pun sticla pe masă."
+          "example": "Ich stelle die Flasche auf den Tisch. = Pun sticla pe masă."
         },
         {
           "word": "setzen",
           "meaning": "Așezați / așezați-vă",
-          "example": "Mă aşez."
+          "example": "Ich setze mich. = Mă aşez."
         }
       ],
       "tip": {
@@ -11656,22 +11588,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "A fi / a dormi",
-          "example": "Cartea este aici."
+          "example": "Das Buch liegt hier. = Cartea este aici."
         },
         {
           "word": "legen",
           "meaning": "Pus jos",
-          "example": "Pun cartea aici."
+          "example": "Ich lege das Buch hierhin. = Pun cartea aici."
         },
         {
           "word": "stehen",
           "meaning": "Stai / fi în picioare",
-          "example": "Sticla este pe masă."
+          "example": "Die Flasche steht auf dem Tisch. = Sticla este pe masă."
         },
         {
           "word": "sein",
           "meaning": "A fi",
-          "example": "Sunt aici."
+          "example": "Ich bin hier. = Sunt aici."
         }
       ],
       "tip": {
@@ -12400,22 +12332,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "Cu / împreună cu",
-          "example": "Vin cu tine."
+          "example": "Ich komme mit dir. = Vin cu tine."
         },
         {
           "word": "ohne",
           "meaning": "Fără",
-          "example": "Vin fără tine."
+          "example": "Ich komme ohne dich. = Vin fără tine."
         },
         {
           "word": "bei",
           "meaning": "La / la cineva",
-          "example": "Sunt la Anna."
+          "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
           "meaning": "La / la",
-          "example": "Mă duc la doctor."
+          "example": "Ich gehe zum Arzt. = Mă duc la doctor."
         }
       ],
       "tip": {
@@ -12604,22 +12536,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Să placă",
-          "example": "Îmi place muzica."
+          "example": "Ich mag Musik. = Îmi place muzica."
         },
         {
           "word": "möchte",
           "meaning": "Ar dori",
-          "example": "Vreau cafea."
+          "example": "Ich möchte Kaffee. = Vreau cafea."
         },
         {
           "word": "wollen",
           "meaning": "Vreau să",
-          "example": "Vreau să merg acasă."
+          "example": "Ich will nach Hause. = Vreau să merg acasă."
         },
         {
           "word": "lieben",
           "meaning": "A iubi",
-          "example": "Te iubesc."
+          "example": "Ich liebe dich. = Te iubesc."
         }
       ],
       "tip": {
@@ -13062,22 +12994,22 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Trebuie/trebuie să fac",
-          "example": "Trebuie să plec."
+          "example": "Ich muss gehen. = Trebuie să plec."
         },
         {
           "word": "können",
           "meaning": "A putea/a cunoaste",
-          "example": "Pot veni."
+          "example": "Ich kann kommen. = Pot veni."
         },
         {
           "word": "wollen",
           "meaning": "Vreau să",
-          "example": "Vreau să merg acasă."
+          "example": "Ich will nach Hause. = Vreau să merg acasă."
         },
         {
           "word": "dürfen",
           "meaning": "A fi permis",
-          "example": "Pot merge?"
+          "example": "Darf ich gehen? = Pot merge?"
         }
       ],
       "tip": {
@@ -13250,22 +13182,22 @@ const A1_WORDS = [
         {
           "word": "nach",
           "meaning": "La / după",
-          "example": "Merg la Berlin."
+          "example": "Ich fahre nach Berlin."
         },
         {
           "word": "zu",
           "meaning": "La / la",
-          "example": "Mă duc la doctor."
+          "example": "Ich gehe zum Arzt. = Mă duc la doctor."
         },
         {
           "word": "in",
           "meaning": "In / la locul cu articolul",
-          "example": "Mă duc la şcoală."
+          "example": "Ich gehe in die Schule. = Mă duc la şcoală."
         },
         {
           "word": "vor",
           "meaning": "Inainte / in fata",
-          "example": "Înainte de masă îmi spăl mâinile."
+          "example": "Vor dem Essen wasche ich die Hände. = Înainte de masă îmi spăl mâinile."
         }
       ],
       "tip": {
@@ -13587,22 +13519,22 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "A lua / a lua",
-          "example": "Ia cartea!"
+          "example": "Nimm das Buch! = Ia cartea!"
         },
         {
           "word": "bringen",
           "meaning": "Aduce / ia / livra",
-          "example": "Îţi aduc cartea."
+          "example": "Ich bringe dir das Buch. = Îţi aduc cartea."
         },
         {
           "word": "holen",
           "meaning": "Merge după / adu",
-          "example": "Iau apă."
+          "example": "Ich hole Wasser. = Iau apă."
         },
         {
           "word": "mitnehmen",
           "meaning": "Ia cu tine",
-          "example": "Te iau cu mine."
+          "example": "Ich nehme dich mit. = Te iau cu mine."
         }
       ],
       "tip": {
@@ -14199,22 +14131,22 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "Sau într-o întrebare indirectă",
-          "example": "Nu ştiu dacă vine."
+          "example": "Ich weiß nicht, ob er kommt. = Nu ştiu dacă vine."
         },
         {
           "word": "oder",
           "meaning": "Sau alegeți între opțiuni",
-          "example": "Cafea sau ceai?"
+          "example": "Kaffee oder Tee? = Cafea sau ceai?"
         },
         {
           "word": "wenn",
           "meaning": "Dacă / când",
-          "example": "Dacă ai timp..."
+          "example": "Wenn du Zeit hast... = Dacă ai timp..."
         },
         {
           "word": "dass",
           "meaning": "Că",
-          "example": "Ştiu că vine."
+          "example": "Ich weiß, dass er kommt. = Ştiu că vine."
         }
       ],
       "tip": {
@@ -14382,22 +14314,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Sau alege",
-          "example": "Cafea sau ceai?"
+          "example": "Kaffee oder Tee? = Cafea sau ceai?"
         },
         {
           "word": "ob",
           "meaning": "Sau într-o întrebare indirectă",
-          "example": "Nu ştiu dacă vine."
+          "example": "Ich weiß nicht, ob er kommt. = Nu ştiu dacă vine."
         },
         {
           "word": "und",
           "meaning": "Şi",
-          "example": "Cafea şi tort."
+          "example": "Kaffee und Kuchen. = Cafea şi tort."
         },
         {
           "word": "aber",
           "meaning": "Dar",
-          "example": "Vin, dar mai târziu."
+          "example": "Ich komme, aber später. = Vin, dar mai târziu."
         }
       ],
       "tip": {
@@ -14620,22 +14552,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Potrivi / potrivi",
-          "example": "Jacheta îmi stă bine."
+          "example": "Die Jacke passt mir. = Jacheta îmi stă bine."
         },
         {
           "word": "stehen",
           "meaning": "A sta / a sta",
-          "example": "Roşu ţi merge bine."
+          "example": "Rot steht dir gut. = Roşu ţi merge bine."
         },
         {
           "word": "geeignet sein",
           "meaning": "A fi potrivit",
-          "example": "Asta este potrivit."
+          "example": "Das ist geeignet. = Asta este potrivit."
         },
         {
           "word": "funktionieren",
           "meaning": "A opera",
-          "example": "Asta funcţionează."
+          "example": "Das funktioniert. = Asta funcţionează."
         }
       ],
       "tip": {
@@ -14859,22 +14791,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Încercați/gustați",
-          "example": "Încearcă supa!"
+          "example": "Probier mal die Suppe! = Încearcă supa!"
         },
         {
           "word": "versuchen",
           "meaning": "Să încerce",
-          "example": "Încerc."
+          "example": "Ich versuche es. = Încerc."
         },
         {
           "word": "prüfen",
           "meaning": "A verifica",
-          "example": "Verific factura."
+          "example": "Ich prüfe die Rechnung. = Verific factura."
         },
         {
           "word": "anprobieren",
           "meaning": "Sa incerc",
-          "example": "Încerc jacheta."
+          "example": "Ich probiere die Jacke an. = Încerc jacheta."
         }
       ],
       "tip": {
@@ -15228,7 +15160,7 @@ const A1_WORDS = [
         {
           "word": "sagen",
           "meaning": "Spune (un text anume)",
-          "example": "Ce ai spus? – Ko tu pateici?"
+          "example": "Was hast du gesagt? – Ko tu pateici?"
         },
         {
           "word": "sprechen",
@@ -15326,12 +15258,12 @@ const A1_WORDS = [
         {
           "word": "schauen",
           "meaning": "Privesc (activ)",
-          "example": "Mă uit pe fereastră. – Es skatos pa logu."
+          "example": "Ich schaue aus dem Fenster. – Es skatos pa logu."
         },
         {
           "word": "sehen",
           "meaning": "Vezi (fara intentie)",
-          "example": "Te văd. – Es tevi redzu."
+          "example": "Ich sehe dich. – Es tevi redzu."
         }
       ],
       "tip": [
@@ -15589,22 +15521,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "A înota ca mișcare sau sport",
-          "example": "El înoată foarte bine."
+          "example": "Er schwimmt sehr gut. = El înoată foarte bine."
         },
         {
           "word": "baden",
           "meaning": "Înota / fi în apă",
-          "example": "Mă duc să înot."
+          "example": "Ich gehe baden. = Mă duc să înot."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Merge la înot",
-          "example": "Ne ducem să înot."
+          "example": "Wir gehen schwimmen. = Ne ducem să înot."
         },
         {
           "word": "duschen",
           "meaning": "Fă un duș",
-          "example": "Mă spăl dimineaţa."
+          "example": "Ich dusche morgens. = Mă spăl dimineaţa."
         }
       ],
       "tip": {
@@ -15806,22 +15738,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "Pentru a vedea",
-          "example": "Te văd."
+          "example": "Ich sehe dich. = Te văd."
         },
         {
           "word": "schauen",
           "meaning": "Ceas",
-          "example": "Mă uit la poza."
+          "example": "Ich schaue auf das Bild. = Mă uit la poza."
         },
         {
           "word": "ansehen",
           "meaning": "Priveste / priveste",
-          "example": "Mă uit la film."
+          "example": "Ich sehe mir den Film an."
         },
         {
           "word": "hören",
           "meaning": "A auzi",
-          "example": "Aud muzică."
+          "example": "Ich höre Musik. = Aud muzică."
         }
       ],
       "tip": {
@@ -15999,22 +15931,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "A fi",
-          "example": "Sunt aici."
+          "example": "Ich bin hier. = Sunt aici."
         },
         {
           "word": "haben",
           "meaning": "Am",
-          "example": "Am timp."
+          "example": "Ich habe Zeit. = Am timp."
         },
         {
           "word": "werden",
           "meaning": "A deveni",
-          "example": "Mă întrist."
+          "example": "Ich werde müde. = Mă întrist."
         },
         {
           "word": "bleiben",
           "meaning": "Şedere",
-          "example": "Rămân aici."
+          "example": "Ich bleibe hier. = Rămân aici."
         }
       ],
       "tip": {
@@ -16308,22 +16240,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "Eu însumi / eu însumi",
-          "example": "El se spală."
+          "example": "Er wäscht sich. = El se spală."
         },
         {
           "word": "mich",
           "meaning": "Eu / eu însumi la ich",
-          "example": "Mă spăl."
+          "example": "Ich wasche mich. = Mă spăl."
         },
         {
           "word": "dich",
           "meaning": "Tu / eu însumi la du",
-          "example": "Te speli."
+          "example": "Du wäschst dich. = Te speli."
         },
         {
           "word": "ihn",
           "meaning": "-l",
-          "example": "Îl văd."
+          "example": "Ich sehe ihn. = Îl văd."
         }
       ],
       "tip": {
@@ -16877,22 +16809,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "A sta",
-          "example": "Stau la masă."
+          "example": "Ich sitze am Tisch. = Stau la masă."
         },
         {
           "word": "stehen",
           "meaning": "A sta în picioare",
-          "example": "El stă la uşă."
+          "example": "Er steht an der Tür. = El stă la uşă."
         },
         {
           "word": "liegen",
           "meaning": "Dormi / culca",
-          "example": "Pisica este acolo."
+          "example": "Die Katze liegt dort. = Pisica este acolo."
         },
         {
           "word": "setzen",
           "meaning": "A sta / a se aseza",
-          "example": "Mă aşez."
+          "example": "Ich setze mich. = Mă aşez."
         }
       ],
       "tip": {
@@ -17098,22 +17030,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Ar trebui/ar trebui să facă conform instrucțiunilor",
-          "example": "Ce trebuie să fac?"
+          "example": "Was soll ich machen? = Ce trebuie să fac?"
         },
         {
           "word": "müssen",
           "meaning": "Absolut nevoie",
-          "example": "Trebuie să plec."
+          "example": "Ich muss gehen. = Trebuie să plec."
         },
         {
           "word": "können",
           "meaning": "A putea",
-          "example": "Pot veni."
+          "example": "Ich kann kommen. = Pot veni."
         },
         {
           "word": "wollen",
           "meaning": "Vreau să",
-          "example": "Vreau să rămân."
+          "example": "Ich will bleiben. = Vreau să rămân."
         }
       ],
       "tip": {
@@ -17342,22 +17274,22 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "Stai / fi în picioare",
-          "example": "Stau aici."
+          "example": "Ich stehe hier. = Stau aici."
         },
         {
           "word": "sitzen",
           "meaning": "A sta",
-          "example": "El stă la masă."
+          "example": "Er sitzt am Tisch. = El stă la masă."
         },
         {
           "word": "liegen",
           "meaning": "Dormi / culca",
-          "example": "Cartea este acolo."
+          "example": "Das Buch liegt dort. = Cartea este acolo."
         },
         {
           "word": "stellen",
           "meaning": "Pune în picioare",
-          "example": "Pun sticla."
+          "example": "Ich stelle die Flasche hin. = Pun sticla."
         }
       ],
       "tip": {
@@ -17744,22 +17676,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Peste / peste / peste",
-          "example": "Vorbim despre vreme."
+          "example": "Wir sprechen über das Wetter. = Vorbim despre vreme."
         },
         {
           "word": "auf",
           "meaning": "La suprafata",
-          "example": "Cartea se află pe masă."
+          "example": "Das Buch liegt auf dem Tisch. = Cartea se află pe masă."
         },
         {
           "word": "unter",
           "meaning": "Sub",
-          "example": "Geanta este sub masă."
+          "example": "Die Tasche ist unter dem Tisch. = Geanta este sub masă."
         },
         {
           "word": "von",
           "meaning": "Din / despre de la vreo sursă",
-          "example": "Aud de la tine."
+          "example": "Ich höre von dir. = Aud de la tine."
         }
       ],
       "tip": {
@@ -17939,22 +17871,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "La / în jurul / la",
-          "example": "Vin la ora opt."
+          "example": "Ich komme um acht. = Vin la ora opt."
         },
         {
           "word": "am",
           "meaning": "Pe zi / la",
-          "example": "Luni vin."
+          "example": "Am Montag komme ich. = Luni vin."
         },
         {
           "word": "gegen",
           "meaning": "În jurul timpului / vs",
-          "example": "Vin pe la ora opt."
+          "example": "Ich komme gegen acht. = Vin pe la ora opt."
         },
         {
           "word": "für",
           "meaning": "Pentru / în favoarea",
-          "example": "Asta e pentru tine."
+          "example": "Das ist für dich. = Asta e pentru tine."
         }
       ],
       "tip": {
@@ -18125,22 +18057,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "Sub / între",
-          "example": "Geanta este sub masă."
+          "example": "Die Tasche ist unter dem Tisch. = Geanta este sub masă."
         },
         {
           "word": "über",
           "meaning": "Peste / pentru",
-          "example": "Lampa atârnă deasupra mesei."
+          "example": "Die Lampe hängt über dem Tisch. = Lampa atârnă deasupra mesei."
         },
         {
           "word": "zwischen",
           "meaning": "Între două lucruri",
-          "example": "Între case."
+          "example": "Zwischen den Häusern. = Între case."
         },
         {
           "word": "auf",
           "meaning": "La suprafata",
-          "example": "Pe masă."
+          "example": "Auf dem Tisch. = Pe masă."
         }
       ],
       "tip": {
@@ -18342,22 +18274,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "A intelege",
-          "example": "Te înțeleg."
+          "example": "Ich verstehe dich. = Te înțeleg."
         },
         {
           "word": "können",
           "meaning": "A putea/a cunoaste",
-          "example": "Pot să înot."
+          "example": "Ich kann schwimmen. = Pot să înot."
         },
         {
           "word": "wissen",
           "meaning": "Cunosc faptul",
-          "example": "Știu asta."
+          "example": "Ich weiß das. = Știu asta."
         },
         {
           "word": "kennen",
           "meaning": "A sti",
-          "example": "Îl cunosc."
+          "example": "Ich kenne ihn. = Îl cunosc."
         }
       ],
       "tip": {
@@ -18594,7 +18526,7 @@ const A1_WORDS = [
         {
           "word": "von",
           "meaning": "Din (general)",
-          "example": "de la mine – no manis"
+          "example": "von mir – no manis"
         },
         {
           "word": "aus",
@@ -18829,22 +18761,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "Inainte / in fata",
-          "example": "Înainte de mâncare..."
+          "example": "Vor dem Essen... = Înainte de mâncare..."
         },
         {
           "word": "nach",
           "meaning": "După / la",
-          "example": "După mâncare..."
+          "example": "Nach dem Essen... = După mâncare..."
         },
         {
           "word": "neben",
           "meaning": "Chiar lângă",
-          "example": "Lângă casă."
+          "example": "Neben dem Haus. = Lângă casă."
         },
         {
           "word": "hinter",
           "meaning": "Din spatele",
-          "example": "În spatele casei."
+          "example": "Hinter dem Haus. = În spatele casei."
         }
       ],
       "tip": {
@@ -19240,22 +19172,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Dacă / când",
-          "example": "Dacă ai timp..."
+          "example": "Wenn du Zeit hast... = Dacă ai timp..."
         },
         {
           "word": "ob",
           "meaning": "Sau într-o întrebare indirectă",
-          "example": "Nu știu dacă..."
+          "example": "Ich weiß nicht, ob... = Nu știu dacă..."
         },
         {
           "word": "wann",
           "meaning": "Când este vorba",
-          "example": "Când vii?"
+          "example": "Wann kommst du? = Când vii?"
         },
         {
           "word": "weil",
           "meaning": "Deoarece",
-          "example": "Rămân pentru că sunt bolnav."
+          "example": "Ich bleibe, weil ich krank bin. = Rămân pentru că sunt bolnav."
         }
       ],
       "tip": {
@@ -19551,22 +19483,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "A deveni",
-          "example": "Mă obosesc."
+          "example": "Ich werde müde. = Mă obosesc."
         },
         {
           "word": "sein",
           "meaning": "A fi",
-          "example": "Sunt obosit."
+          "example": "Ich bin müde. = Sunt obosit."
         },
         {
           "word": "bleiben",
           "meaning": "Şedere",
-          "example": "Rămân aici."
+          "example": "Ich bleibe hier. = Rămân aici."
         },
         {
           "word": "machen",
           "meaning": "A face/a face",
-          "example": "Fac asta."
+          "example": "Ich mache das. = Fac asta."
         }
       ],
       "tip": {
@@ -19744,22 +19676,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Conditiile meteo",
-          "example": "Vremea este frumoasă."
+          "example": "Das Wetter ist schön. = Vremea este frumoasă."
         },
         {
           "word": "Zeit",
           "meaning": "Timp (moment)",
-          "example": "Nu am timp."
+          "example": "Ich habe keine Zeit. = Nu am timp."
         },
         {
           "word": "Regen",
           "meaning": "Ploaie",
-          "example": "Plouă mult."
+          "example": "Es gibt viel Regen. = Plouă mult."
         },
         {
           "word": "Sonne",
           "meaning": "Soarele",
-          "example": "Soarele strălucește."
+          "example": "Die Sonne scheint. = Soarele strălucește."
         }
       ],
       "tip": [
@@ -20097,22 +20029,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "La / la / prea / infinitiv",
-          "example": "Merg la doctor."
+          "example": "Ich gehe zum Arzt. = Merg la doctor."
         },
         {
           "word": "nach",
           "meaning": "La cu orașe/țări",
-          "example": "Merg la Berlin."
+          "example": "Ich fahre nach Berlin."
         },
         {
           "word": "in",
           "meaning": "Într-un loc",
-          "example": "Merg la școală."
+          "example": "Ich gehe in die Schule. = Merg la școală."
         },
         {
           "word": "bei",
           "meaning": "La cineva / la serviciu",
-          "example": "Sunt la Anna."
+          "example": "Ich bin bei Anna."
         }
       ],
       "tip": {
@@ -20282,22 +20214,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "Trenul",
-          "example": "Trenul vine."
+          "example": "Der Zug kommt. = Trenul vine."
         },
         {
           "word": "die Bahn",
           "meaning": "Cale ferată / călătorie cu trenul",
-          "example": "Călătoresc cu trenul."
+          "example": "Ich fahre mit der Bahn. = Călătoresc cu trenul."
         },
         {
           "word": "der Bus",
           "meaning": "Autobuz",
-          "example": "Autobuzul vine."
+          "example": "Der Bus kommt. = Autobuzul vine."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Tramvai",
-          "example": "Tramvaiul este aici."
+          "example": "Die Straßenbahn ist hier. = Tramvaiul este aici."
         }
       ],
       "tip": {
@@ -20488,7 +20420,7 @@ const A1_WORDS = [
         {
           "word": "zur",
           "meaning": "Către/la (familia soției)",
-          "example": "la școală – uz skolu"
+          "example": "zur Schule – uz skolu"
         },
         {
           "word": "zu",
@@ -20779,17 +20711,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Uită la TV",
-          "example": "Mă uit la televizor. = Es skatos televīziju."
+          "example": "Ich sehe fern. = Es skatos televīziju."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Televiziune (media)",
-          "example": "La televizor trece un film. = Televīzijā rāda filmu."
+          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
         },
         {
           "word": "sehen",
           "meaning": "Pentru a vedea",
-          "example": "Mă uit la un film. = Es redzu filmu."
+          "example": "Ich sehe einen Film. = Es redzu filmu."
         }
       ],
       "tip": {

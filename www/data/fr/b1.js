@@ -19650,7 +19650,7 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "Recevez tous les jours",
-          "example": "Ich bekomme eine E-mail."
+          "example": "Ich bekomme eine E-Mail."
         },
         {
           "word": "begrüßen",

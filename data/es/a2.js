@@ -35176,7 +35176,7 @@ const A2_WORDS = [
         {
           "article": "der",
           "de": "Gott",
-          "plural": "los dioses"
+          "plural": "die Götter"
         }
       ]
     }
@@ -38711,7 +38711,7 @@ const A2_WORDS = [
         {
           "article": "der",
           "de": "Kinderarzt",
-          "plural": "el Kinderzte"
+          "plural": "die Kinderärzte"
         },
         {
           "article": "die",
@@ -38880,7 +38880,7 @@ const A2_WORDS = [
         {
           "article": "der",
           "de": "Kissenbezug",
-          "plural": "morir besos"
+          "plural": "die Kissenbezüge"
         }
       ]
     }

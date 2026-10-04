@@ -20477,7 +20477,7 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "gauti kasdien",
-          "example": "Ich bekomme eine E-laišką."
+          "example": "Ich bekomme eine E-Mail."
         },
         {
           "word": "begrüßen",
@@ -47589,7 +47589,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "siųsti",
-          "example": "Ich schicke dir eine E-laišką."
+          "example": "Ich schicke dir eine E-Mail."
         },
         {
           "word": "urteilen",

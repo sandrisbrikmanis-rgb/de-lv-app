@@ -17729,7 +17729,7 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "Otrzymywać codziennie",
-          "example": "Ich bekomme eine E-mail."
+          "example": "Ich bekomme eine E-Mail."
         },
         {
           "word": "begrüßen",
@@ -42770,7 +42770,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "Wysłać",
-          "example": "Ich schicke dir eine E-mail."
+          "example": "Ich schicke dir eine E-Mail."
         },
         {
           "word": "urteilen",

@@ -167,14 +167,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Berns vēl ir mazs."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Só vou demorar um pouco."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "A criança é pequena."
         }
       ],
       "tip": [
@@ -2094,22 +2086,22 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "Nadar / estar na água / lavar",
-          "example": "Vou nadar."
+          "example": "Ich gehe baden. = Vou nadar."
         },
         {
           "word": "schwimmen",
           "meaning": "Peldēt kākustība vai esportes",
-          "example": "Ele nada muito bem."
+          "example": "Er schwimmt sehr gut. = Ele nada muito bem."
         },
         {
           "word": "duschen",
           "meaning": "Mazgāties dušā",
-          "example": "Tomo banho de manhã."
+          "example": "Ich dusche am Morgen. = Tomo banho de manhã."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Cujo? Não importa.",
-          "example": "Vou nadar hoje."
+          "example": "Ich gehe heute schwimmen. = Vou nadar hoje."
         }
       ],
       "tip": {
@@ -3029,11 +3021,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "Līdz tam, kamēr",
           "example": "Bis jetzt habe ich nichts verstanden. – É gaidu, lidz tu atnāksi."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "Līdz šim, līdz šai dienai",
-          "example": "Bis jetzt ist alles gut. – Līdz šim viveu ir labi."
         }
       ],
       "tip": {
@@ -3161,18 +3148,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "De nada!"
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Você está bêbado agora?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Eu tenho uma oração."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Lūgums se tornam svarigs."
         }
       ],
       "comparison": [
@@ -3225,18 +3200,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "Ela tem dois pedidos."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Você está bêbado agora?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Eu tenho uma oração."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Lūgums se tornam svarigs."
         }
       ],
       "comparison": [
@@ -3442,10 +3405,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Você tem todos os pesos da sua escola."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "É paņemu gramatu."
         }
       ],
       "comparison": [
@@ -3812,22 +3771,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Tur·Te·Šeit (visparīgi)",
-          "example": "Meu carro está lá."
+          "example": "Da ist mein Auto. = Meu carro está lá."
         },
         {
           "word": "hier",
           "meaning": "Aqui (em um local específico)",
-          "example": "Meu carro está aqui."
+          "example": "Hier ist mein Auto. = Meu carro está aqui."
         },
         {
           "word": "dort",
           "meaning": "Tur (talak)",
-          "example": "Meu carro está ali."
+          "example": "Dort ist mein Auto. = Meu carro está ali."
         },
         {
           "word": "dann",
           "meaning": "Foguete Delta aprimorado com maior empuxo",
-          "example": "Depois vamos para casa."
+          "example": "Dann gehen wir nach Hause. = Depois vamos para casa."
         }
       ],
       "tip": {
@@ -4982,22 +4941,22 @@ const A1_WORDS = [
         {
           "word": "ein Mann",
           "meaning": "gênero masculino",
-          "example": "Um homem espera lá fora."
+          "example": "Ein Mann wartet draußen. = Um homem espera lá fora."
         },
         {
           "word": "eine Frau",
           "meaning": "gênero feminino",
-          "example": "uma mulher"
+          "example": "eine Frau = uma mulher"
         },
         {
           "word": "ein Buch",
           "meaning": "gênero neutro",
-          "example": "Tenho um livro."
+          "example": "Ich habe ein Buch. = Tenho um livro."
         },
         {
           "word": "einen Mann",
           "meaning": "acusativo",
-          "example": "um homem"
+          "example": "einen Mann = um homem"
         }
       ]
     }
@@ -5425,14 +5384,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "Tā ir mana gramata."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Lista."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Sneg."
         }
       ],
       "info": [
@@ -5895,10 +5846,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "A bolsa masculina é um labirinto."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "-Então, o que você acha do filme?"
         }
       ],
       "comparison": [
@@ -5906,21 +5853,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "Atrast / uzskatīt",
           "example": "Ich finde das gut. = Eu acho isso bom."
-        },
-        {
-          "word": "suchen",
-          "meaning": "Meklet",
-          "example": "Ich suche den Schlüssel. = É meklēju atslēgu."
-        },
-        {
-          "word": "denken",
-          "meaning": "Domínio",
-          "example": "Ich denke an dich. = É domaju di tevi."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Bilhete / domat",
-          "example": "Ich glaube, er kommt. = É domāju, ka viņš nāks."
         }
       ],
       "tip": {
@@ -6782,22 +6714,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "Ver",
-          "example": "Dá-me o livro."
+          "example": "Gib mir das Buch. = Dá-me o livro."
         },
         {
           "word": "nehmen",
           "meaning": "‹emt/ paņemt",
-          "example": "Eu pego o livro."
+          "example": "Ich nehme das Buch. = Eu pego o livro."
         },
         {
           "word": "bekommen",
           "meaning": "Saņemt / dabūt",
-          "example": "Recebo um presente."
+          "example": "Ich bekomme ein Geschenk. = Recebo um presente."
         },
         {
           "word": "bringen",
           "meaning": "Atnest / nogadat",
-          "example": "Eu te trago o livro."
+          "example": "Ich bringe dir das Buch. = Eu te trago o livro."
         }
       ],
       "tip": {
@@ -10877,22 +10809,22 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Valsts / Zeme / Lauki",
-          "example": "Deutschland é um país."
+          "example": "Deutschland ist ein Land."
         },
         {
           "word": "die Stadt",
           "meaning": "Pilseta",
-          "example": "Moro na cidade."
+          "example": "Ich wohne in der Stadt. = Moro na cidade."
         },
         {
           "word": "das Dorf",
           "meaning": "Ciems",
-          "example": "Ele vive em uma aldeia."
+          "example": "Er lebt in einem Dorf. = Ele vive em uma aldeia."
         },
         {
           "word": "die Erde",
           "meaning": "Zema/Planeta",
-          "example": "A Terra é redonda."
+          "example": "Die Erde ist rund. = A Terra é redonda."
         }
       ],
       "tip": {
@@ -11299,22 +11231,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Atstat / ļaut",
-          "example": "Deixo isso aqui."
+          "example": "Ich lasse das hier. = Deixo isso aqui."
         },
         {
           "word": "bleiben",
           "meaning": "Palikt",
-          "example": "Fico aqui."
+          "example": "Ich bleibe hier. = Fico aqui."
         },
         {
           "word": "erlauben",
           "meaning": "Atelauta",
-          "example": "Ela me permite isso."
+          "example": "Sie erlaubt mir das. = Ela me permite isso."
         },
         {
           "word": "geben",
           "meaning": "Ver",
-          "example": "Dá-me o livro."
+          "example": "Gib mir das Buch. = Dá-me o livro."
         }
       ],
       "tip": {
@@ -11533,22 +11465,22 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Skriet/Darboties",
-          "example": "Ele corre rápido."
+          "example": "Er läuft schnell. = Ele corre rápido."
         },
         {
           "word": "gehen",
           "meaning": "O kajam",
-          "example": "Vou para casa."
+          "example": "Ich gehe nach Hause. = Vou para casa."
         },
         {
           "word": "fahren",
           "meaning": "Transporte de carro",
-          "example": "Viajo de ônibus."
+          "example": "Ich fahre mit dem Bus. = Viajo de ônibus."
         },
         {
           "word": "funktionieren",
           "meaning": "Darboties",
-          "example": "Isso funciona bem."
+          "example": "Das funktioniert gut. = Isso funciona bem."
         }
       ],
       "tip": {
@@ -12108,22 +12040,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Nolikt",
-          "example": "Coloco o livro na mesa."
+          "example": "Ich lege das Buch auf den Tisch. = Coloco o livro na mesa."
         },
         {
           "word": "liegen",
           "meaning": "Atrazia/gargalo",
-          "example": "O livro está na mesa."
+          "example": "Das Buch liegt auf dem Tisch. = O livro está na mesa."
         },
         {
           "word": "stellen",
           "meaning": "Nolikt Stavus",
-          "example": "Coloco a garrafa na mesa."
+          "example": "Ich stelle die Flasche auf den Tisch. = Coloco a garrafa na mesa."
         },
         {
           "word": "setzen",
           "meaning": "Nosēdināt / apsēsties",
-          "example": "Eu me sento."
+          "example": "Ich setze mich. = Eu me sento."
         }
       ],
       "tip": {
@@ -12575,22 +12507,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Atrazia/gargalo",
-          "example": "O livro está aqui."
+          "example": "Das Buch liegt hier. = O livro está aqui."
         },
         {
           "word": "legen",
           "meaning": "Nolikt",
-          "example": "Coloco o livro aqui."
+          "example": "Ich lege das Buch hierhin. = Coloco o livro aqui."
         },
         {
           "word": "stehen",
           "meaning": "Stāvēt / atrasties stāvus",
-          "example": "A garrafa está na mesa."
+          "example": "Die Flasche steht auf dem Tisch. = A garrafa está na mesa."
         },
         {
           "word": "sein",
           "meaning": "Nós dois estamos arruinados por causa de nossas famílias.",
-          "example": "Estou aqui."
+          "example": "Ich bin hier. = Estou aqui."
         }
       ],
       "tip": {
@@ -13528,22 +13460,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "Com/com",
-          "example": "Vou com você."
+          "example": "Ich komme mit dir. = Vou com você."
         },
         {
           "word": "ohne",
           "meaning": "Disco.",
-          "example": "Vou sem você."
+          "example": "Ich komme ohne dich. = Vou sem você."
         },
         {
           "word": "bei",
           "meaning": "Bolo/torta Kāda",
-          "example": "Estou com Anna."
+          "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
           "meaning": "Uz/torta",
-          "example": "Vou ao médico."
+          "example": "Ich gehe zum Arzt. = Vou ao médico."
         }
       ],
       "tip": {
@@ -13793,22 +13725,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Patikt",
-          "example": "Eu gosto de música."
+          "example": "Ich mag Musik. = Eu gosto de música."
         },
         {
           "word": "möchte",
           "meaning": "Gribetu",
-          "example": "Quero café."
+          "example": "Ich möchte Kaffee. = Quero café."
         },
         {
           "word": "wollen",
           "meaning": "Gribet",
-          "example": "Vou para casa."
+          "example": "Ich will nach Hause. = Vou para casa."
         },
         {
           "word": "lieben",
           "meaning": "Mileto",
-          "example": "Eu te amo."
+          "example": "Ich liebe dich. = Eu te amo."
         }
       ],
       "tip": {
@@ -14388,22 +14320,22 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Milho Vajadzēt / jadara",
-          "example": "Tenho que ir."
+          "example": "Ich muss gehen. = Tenho que ir."
         },
         {
           "word": "können",
           "meaning": "Varet/prast",
-          "example": "Posso vir."
+          "example": "Ich kann kommen. = Posso vir."
         },
         {
           "word": "wollen",
           "meaning": "Gribet",
-          "example": "Vou para casa."
+          "example": "Ich will nach Hause. = Vou para casa."
         },
         {
           "word": "dürfen",
           "meaning": "Drikstet",
-          "example": "Posso ir?"
+          "example": "Darf ich gehen? = Posso ir?"
         }
       ],
       "tip": {
@@ -14637,22 +14569,22 @@ const A1_WORDS = [
         {
           "word": "nach",
           "meaning": "Us/pec",
-          "example": "Vou para Berlim."
+          "example": "Ich fahre nach Berlin. = Vou para Berlim."
         },
         {
           "word": "zu",
           "meaning": "Uz/torta",
-          "example": "Vou ao médico."
+          "example": "Ich gehe zum Arzt. = Vou ao médico."
         },
         {
           "word": "in",
           "meaning": "Iekšā / uz antigo ar artikulu",
-          "example": "Vou à escola."
+          "example": "Ich gehe in die Schule. = Vou à escola."
         },
         {
           "word": "vor",
           "meaning": "Pirms / priekšā",
-          "example": "Lavo as mãos antes de comer."
+          "example": "Vor dem Essen wasche ich die Hände. = Lavo as mãos antes de comer."
         }
       ],
       "tip": {
@@ -15084,22 +15016,22 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "‹emt/ paņemt",
-          "example": "Pega o livro!"
+          "example": "Nimm das Buch! = Pega o livro!"
         },
         {
           "word": "bringen",
           "meaning": "Atnest / aiznest / nogādāt",
-          "example": "Eu te trago o livro."
+          "example": "Ich bringe dir das Buch. = Eu te trago o livro."
         },
         {
           "word": "holen",
           "meaning": "Aiziet pakaų / atnest",
-          "example": "Pego água."
+          "example": "Ich hole Wasser. = Pego água."
         },
         {
           "word": "mitnehmen",
           "meaning": "Paņemt lidzi",
-          "example": "Levo você comigo."
+          "example": "Ich nehme dich mit. = Levo você comigo."
         }
       ],
       "tip": {
@@ -15880,22 +15812,22 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "Vá netiesā jautājumā",
-          "example": "Não sei se ele vem."
+          "example": "Ich weiß nicht, ob er kommt. = Não sei se ele vem."
         },
         {
           "word": "oder",
           "meaning": "Go izvēlē variação starp",
-          "example": "Café ou chá?"
+          "example": "Kaffee oder Tee? = Café ou chá?"
         },
         {
           "word": "wenn",
           "meaning": "SIM / KAD",
-          "example": "Se você tiver tempo..."
+          "example": "Wenn du Zeit hast... = Se você tiver tempo..."
         },
         {
           "word": "dass",
           "meaning": "K.A.",
-          "example": "Sei que ele vem."
+          "example": "Ich weiß, dass er kommt. = Sei que ele vem."
         }
       ],
       "tip": {
@@ -16115,22 +16047,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Vá izvēlē",
-          "example": "Café ou chá?"
+          "example": "Kaffee oder Tee? = Café ou chá?"
         },
         {
           "word": "ob",
           "meaning": "Vá netiesā jautājumā",
-          "example": "Não sei se ele vem."
+          "example": "Ich weiß nicht, ob er kommt. = Não sei se ele vem."
         },
         {
           "word": "und",
           "meaning": "ODIHR",
-          "example": "Café e bolo."
+          "example": "Kaffee und Kuchen. = Café e bolo."
         },
         {
           "word": "aber",
           "meaning": "SZADZIŃSKA",
-          "example": "Venho, mas mais tarde."
+          "example": "Ich komme, aber später. = Venho, mas mais tarde."
         }
       ],
       "tip": {
@@ -16426,22 +16358,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Deret / piestāvēt",
-          "example": "A jaqueta me cai bem."
+          "example": "Die Jacke passt mir. = A jaqueta me cai bem."
         },
         {
           "word": "stehen",
           "meaning": "Piestāvēt / stāvēt",
-          "example": "O vermelho fica bem em você."
+          "example": "Rot steht dir gut. = O vermelho fica bem em você."
         },
         {
           "word": "geeignet sein",
           "meaning": "Mas piemērotam",
-          "example": "Isso é adequado."
+          "example": "Das ist geeignet. = Isso é adequado."
         },
         {
           "word": "funktionieren",
           "meaning": "Darboties",
-          "example": "Isso funciona."
+          "example": "Das funktioniert. = Isso funciona."
         }
       ],
       "tip": {
@@ -16743,22 +16675,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Izmēēināt / nogaršot",
-          "example": "Prova a sopa!"
+          "example": "Probier mal die Suppe! = Prova a sopa!"
         },
         {
           "word": "versuchen",
           "meaning": "Mēēinat",
-          "example": "Tento."
+          "example": "Ich versuche es. = Tento."
         },
         {
           "word": "prüfen",
           "meaning": "Parbaudit",
-          "example": "Verifico a conta."
+          "example": "Ich prüfe die Rechnung. = Verifico a conta."
         },
         {
           "word": "anprobieren",
           "meaning": "Pielaikot",
-          "example": "Provo a jaqueta."
+          "example": "Ich probiere die Jacke an. = Provo a jaqueta."
         }
       ],
       "tip": {
@@ -17604,22 +17536,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "Peldēt kākustība vai esportes",
-          "example": "Ele nada muito bem."
+          "example": "Er schwimmt sehr gut. = Ele nada muito bem."
         },
         {
           "word": "baden",
           "meaning": "Peldēties / atrasties ūdenī",
-          "example": "Vou nadar."
+          "example": "Ich gehe baden. = Vou nadar."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Cujo? Não importa.",
-          "example": "Vamos nadar."
+          "example": "Wir gehen schwimmen. = Vamos nadar."
         },
         {
           "word": "duschen",
           "meaning": "Mazgāties dušā",
-          "example": "Tomo banho pela manhã."
+          "example": "Ich dusche morgens. = Tomo banho pela manhã."
         }
       ],
       "tip": {
@@ -17881,22 +17813,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "Redzet",
-          "example": "Eu te vejo."
+          "example": "Ich sehe dich. = Eu te vejo."
         },
         {
           "word": "schauen",
           "meaning": "Trenós",
-          "example": "Olho para o quadro."
+          "example": "Ich schaue auf das Bild. = Olho para o quadro."
         },
         {
           "word": "ansehen",
           "meaning": "Apskatīt / skatīties",
-          "example": "Assisto ao filme."
+          "example": "Ich sehe mir den Film an. = Assisto ao filme."
         },
         {
           "word": "hören",
           "meaning": "Dzirdet",
-          "example": "Ouço música."
+          "example": "Ich höre Musik. = Ouço música."
         }
       ],
       "tip": {
@@ -18130,22 +18062,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Nós dois estamos arruinados por causa de nossas famílias.",
-          "example": "Estou aqui."
+          "example": "Ich bin hier. = Estou aqui."
         },
         {
           "word": "haben",
           "meaning": "J.",
-          "example": "Tenho tempo."
+          "example": "Ich habe Zeit. = Tenho tempo."
         },
         {
           "word": "werden",
           "meaning": "Kļût",
-          "example": "Fico cansado."
+          "example": "Ich werde müde. = Fico cansado."
         },
         {
           "word": "bleiben",
           "meaning": "Palikt",
-          "example": "Fico aqui."
+          "example": "Ich bleibe hier. = Fico aqui."
         }
       ],
       "tip": {
@@ -18547,22 +18479,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "Sevi/sev",
-          "example": "Ele se lava."
+          "example": "Er wäscht sich. = Ele se lava."
         },
         {
           "word": "mich",
           "meaning": "Mãos / bolo sevi ich",
-          "example": "Eu me lavo."
+          "example": "Ich wasche mich. = Eu me lavo."
         },
         {
           "word": "dich",
           "meaning": "Torta tevi/sevi",
-          "example": "Você se lava."
+          "example": "Du wäschst dich. = Você se lava."
         },
         {
           "word": "ihn",
           "meaning": "Viñú",
-          "example": "Eu o vejo."
+          "example": "Ich sehe ihn. = Eu o vejo."
         }
       ],
       "tip": {
@@ -19281,22 +19213,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "Sentir",
-          "example": "Estou sentado à mesa."
+          "example": "Ich sitze am Tisch. = Estou sentado à mesa."
         },
         {
           "word": "stehen",
           "meaning": "Stavet",
-          "example": "Ele está de pé à porta."
+          "example": "Er steht an der Tür. = Ele está de pé à porta."
         },
         {
           "word": "liegen",
           "meaning": "Escuna / atrasties guļus",
-          "example": "O gato está deitado lá."
+          "example": "Die Katze liegt dort. = O gato está deitado lá."
         },
         {
           "word": "setzen",
           "meaning": "Apsēsties / nosēdināt",
-          "example": "Eu me sento."
+          "example": "Ich setze mich. = Eu me sento."
         }
       ],
       "tip": {
@@ -19551,22 +19483,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Vajadzētu / jadara pēc norādes",
-          "example": "O que devo fazer?"
+          "example": "Was soll ich machen? = O que devo fazer?"
         },
         {
           "word": "müssen",
           "meaning": "Obrigação vajadzēt",
-          "example": "Tenho que ir."
+          "example": "Ich muss gehen. = Tenho que ir."
         },
         {
           "word": "können",
           "meaning": "Varet",
-          "example": "Posso vir."
+          "example": "Ich kann kommen. = Posso vir."
         },
         {
           "word": "wollen",
           "meaning": "Gribet",
-          "example": "Quero ficar."
+          "example": "Ich will bleiben. = Quero ficar."
         }
       ],
       "tip": {
@@ -19853,22 +19785,22 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "Stāvēt / atrasties stāvus",
-          "example": "Estou de pé aqui."
+          "example": "Ich stehe hier. = Estou de pé aqui."
         },
         {
           "word": "sitzen",
           "meaning": "Sentir",
-          "example": "Ele está sentado à mesa."
+          "example": "Er sitzt am Tisch. = Ele está sentado à mesa."
         },
         {
           "word": "liegen",
           "meaning": "Escuna / atrasties guļus",
-          "example": "O livro está lá."
+          "example": "Das Buch liegt dort. = O livro está lá."
         },
         {
           "word": "stellen",
           "meaning": "Nolikt Stavus",
-          "example": "Coloco a garrafa lá."
+          "example": "Ich stelle die Flasche hin. = Coloco a garrafa lá."
         }
       ],
       "tip": {

@@ -167,14 +167,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Bērns vēl ir mazs."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Ech hunn e klenge Koffer."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "D'Kand ass kleng."
         }
       ],
       "tip": [
@@ -2094,22 +2086,22 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "Schwammen / am Waasser sinn/ wäschen",
-          "example": "Ech ginn boden."
+          "example": "Ich gehe baden. = Ech ginn boden."
         },
         {
           "word": "schwimmen",
           "meaning": "Peldēt kā kustība vai Sport",
-          "example": "Hien schwëmmt ganz gutt."
+          "example": "Er schwimmt sehr gut. = Hien schwëmmt ganz gutt."
         },
         {
           "word": "duschen",
           "meaning": "Mazgāties dušā",
-          "example": "Ech dusch moies."
+          "example": "Ich dusche am Morgen. = Ech dusch moies."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Eppes Peldēt",
-          "example": "Ech ginn haut schwëmmen."
+          "example": "Ich gehe heute schwimmen. = Ech ginn haut schwëmmen."
         }
       ],
       "tip": {
@@ -3029,11 +3021,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "Līdz tam, kamēr",
           "example": "Bis jetzt habe ich nichts verstanden. – Es gaidu, līdz du atnāksi."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "Līdz šim, līdz šai dienai",
-          "example": "Bis jetzt ist alles gut. – Līdz šim viss ir labi."
         }
       ],
       "tip": {
@@ -3161,18 +3148,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "Wienu tasi kafijas, lūdzu."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Ech hunn eng Demande."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "D'Äntwert gëtt et net."
         }
       ],
       "tip": [
@@ -3298,18 +3273,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "Wienu tasi kafijas, lūdzu."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Vai es drīkstu lūdzu jautāt?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Ech hunn eng Demande."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "D'Äntwert gëtt et net."
         }
       ],
       "tip": [
@@ -3472,22 +3435,22 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "CAA -",
-          "example": "Ech bleiwen hei."
+          "example": "Ich bleibe hier. = Ech bleiwen hei."
         },
         {
           "word": "gehen",
           "meaning": "Departure/Departure",
-          "example": "Ech ginn heemgoen."
+          "example": "Ich gehe nach Hause. = Ech ginn heemgoen."
         },
         {
           "word": "fahren",
           "meaning": "DRIVING/WITH DRIVING",
-          "example": "Ech fuer heemgoen."
+          "example": "Ich fahre nach Hause. = Ech fuer heemgoen."
         },
         {
           "word": "warten",
           "meaning": "Waarden",
-          "example": "Ech waart hei."
+          "example": "Ich warte hier. = Ech waart hei."
         }
       ],
       "tip": {
@@ -3752,10 +3715,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Et ass grāmatu."
         }
       ],
       "comparison": [
@@ -4122,22 +4081,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Tur • Te • Šeit (vispārīgi)",
-          "example": "Dërt ass mäin Auto."
+          "example": "Da ist mein Auto."
         },
         {
           "word": "hier",
           "meaning": "Here (in a hidden place)",
-          "example": "Hei ass mäin Auto."
+          "example": "Hier ist mein Auto."
         },
         {
           "word": "dort",
           "meaning": "Tur (tālāk)",
-          "example": "Dërt ass mäin Auto."
+          "example": "Dort ist mein Auto."
         },
         {
           "word": "dann",
           "meaning": "CAA -",
-          "example": "Dënn ginn mir heemgoen."
+          "example": "Dann gehen wir nach Hause. = Dënn ginn mir heemgoen."
         }
       ],
       "tip": {
@@ -5292,7 +5251,7 @@ const A1_WORDS = [
         {
           "word": "ein Mann",
           "meaning": "Maskulinum",
-          "example": "En Mann waart draussis."
+          "example": "Ein Mann wartet draußen."
         },
         {
           "word": "eine Frau",
@@ -5302,7 +5261,7 @@ const A1_WORDS = [
         {
           "word": "ein Buch",
           "meaning": "Neutrum",
-          "example": "Ech hunn en Bréck."
+          "example": "Ich habe ein Buch. = Ech hunn en Bréck."
         },
         {
           "word": "einen Mann",
@@ -5828,14 +5787,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "Et gëtt e Grammaire."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Lëscht."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Snieg."
         }
       ],
       "info": [
@@ -6017,7 +5968,7 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "eppes • e bëssen",
-          "example": "Ich möchte etwas trinken. – Ech géif gär eppes drénken."
+          "example": "Ich brauche etwas. – Ech géif gär eppes drénken."
         },
         {
           "word": "was",
@@ -6032,7 +5983,7 @@ const A1_WORDS = [
         {
           "word": "nichts",
           "meaning": "näischt",
-          "example": "Ich sehe nichts. – Ech gesinn näischt."
+          "example": "Ich brauche nichts. – Ech gesinn näischt."
         }
       ],
       "tip": {
@@ -6650,10 +6601,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "MAN TASSSIET LABI."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Wat haalt Dir vum Film?"
         }
       ],
       "comparison": [
@@ -6661,21 +6608,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "Atrast / uzskatīt",
           "example": "Ich finde das gut. = Ech fannen dat gutt."
-        },
-        {
-          "word": "suchen",
-          "meaning": "CAA -",
-          "example": "Ich suche den Schlüssel. = Dat ass dat „wir\"., Hier waren wir nie! '"
-        },
-        {
-          "word": "denken",
-          "meaning": "CAA -",
-          "example": "Ich denke an dich. = Et ass domāju par tevi."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Ticēt / domāt",
-          "example": "Ich glaube, er kommt. = Et ass domāju, ka việš nāks."
         }
       ],
       "tip": {
@@ -7537,22 +7469,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "CAA -",
-          "example": "Ginn mir d'Bréck."
+          "example": "Gib mir das Buch."
         },
         {
           "word": "nehmen",
           "meaning": "CAA -",
-          "example": "Ech nemmen d'Bréck."
+          "example": "Ich nehme das Buch. = Ech nemmen d'Bréck."
         },
         {
           "word": "bekommen",
           "meaning": "CAA -",
-          "example": "Ech kriien en Cadeau."
+          "example": "Ich bekomme ein Geschenk. = Ech kriien en Cadeau."
         },
         {
           "word": "bringen",
           "meaning": "Atnest / nogādāt",
-          "example": "Ech bréngen dir d'Bréck."
+          "example": "Ich bringe dir das Buch."
         }
       ],
       "tip": {
@@ -12591,22 +12523,22 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Valsts / zeme / lauki",
-          "example": "Däitschland ass en Land."
+          "example": "Deutschland ist ein Land."
         },
         {
           "word": "die Stadt",
           "meaning": "CAA -",
-          "example": "Ech wunnen an der Stad."
+          "example": "Ich wohne in der Stadt."
         },
         {
           "word": "das Dorf",
           "meaning": "CAA -",
-          "example": "Hien liewt an engem Duerf."
+          "example": "Er lebt in einem Dorf. = Hien liewt an engem Duerf."
         },
         {
           "word": "die Erde",
           "meaning": "Zeme / Planēta",
-          "example": "D'Äerd ass ronn."
+          "example": "Die Erde ist rund."
         }
       ],
       "tip": {
@@ -13013,22 +12945,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "CAA -",
-          "example": "Ech leeën dat hei."
+          "example": "Ich lasse das hier. = Ech leeën dat hei."
         },
         {
           "word": "bleiben",
           "meaning": "CAA -",
-          "example": "Ech bleiwen hei."
+          "example": "Ich bleibe hier. = Ech bleiwen hei."
         },
         {
           "word": "erlauben",
           "meaning": "CAA -",
-          "example": "Si erlaabt mir dat."
+          "example": "Sie erlaubt mir das."
         },
         {
           "word": "geben",
           "meaning": "CAA -",
-          "example": "Ginn mir d'Bréck."
+          "example": "Gib mir das Buch."
         }
       ],
       "tip": {
@@ -13779,22 +13711,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "CAA -",
-          "example": "Ech leeën d'Bréck op de Dësch."
+          "example": "Ich lege das Buch auf den Tisch. = Ech leeën d'Bréck op de Dësch."
         },
         {
           "word": "liegen",
           "meaning": "Atrasties / gulēt",
-          "example": "D'Bréck läit op dem Dësch."
+          "example": "Das Buch liegt auf dem Tisch."
         },
         {
           "word": "stellen",
           "meaning": "Nolikt stāvus",
-          "example": "Ech stelle d'Fläsch op de Dësch."
+          "example": "Ich stelle die Flasche auf den Tisch."
         },
         {
           "word": "setzen",
           "meaning": "Nosēdināt / apsēsties",
-          "example": "Ech setze mech."
+          "example": "Ich setze mich."
         }
       ],
       "tip": {
@@ -14246,22 +14178,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Atrasties / gulēt",
-          "example": "D'Bréck läit hei."
+          "example": "Das Buch liegt hier."
         },
         {
           "word": "legen",
           "meaning": "CAA -",
-          "example": "Ech leeën d'Bréck dorhin."
+          "example": "Ich lege das Buch hierhin. = Ech leeën d'Bréck dorhin."
         },
         {
           "word": "stehen",
           "meaning": "Stävt / atrasties stāvus",
-          "example": "D'Fläsch steet op dem Dësch."
+          "example": "Die Flasche steht auf dem Tisch."
         },
         {
           "word": "sein",
           "meaning": "Sinn",
-          "example": "Ech sinn hei."
+          "example": "Ich bin hier. = Ech sinn hei."
         }
       ],
       "tip": {
@@ -16116,22 +16048,22 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Vajadzēt / būt jādara",
-          "example": "Ech muss goen."
+          "example": "Ich muss gehen."
         },
         {
           "word": "können",
           "meaning": "Varēt/prast",
-          "example": "Ech kann kommen."
+          "example": "Ich kann kommen."
         },
         {
           "word": "wollen",
           "meaning": "CAA -",
-          "example": "Ech wëll heemgoen."
+          "example": "Ich will nach Hause. = Ech wëll heemgoen."
         },
         {
           "word": "dürfen",
           "meaning": "CAA -",
-          "example": "Däerf ech goen?"
+          "example": "Darf ich gehen?"
         }
       ],
       "tip": {
@@ -16809,22 +16741,22 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "CAA -",
-          "example": "Nimm d'Bréck!"
+          "example": "Nimm das Buch!"
         },
         {
           "word": "bringen",
           "meaning": "Atnest / aiznest / nogādāt",
-          "example": "Ech bréngen dir d'Bréck."
+          "example": "Ich bringe dir das Buch."
         },
         {
           "word": "holen",
           "meaning": "Aiziet pakaệ / atnest",
-          "example": "Ech hol Waasser."
+          "example": "Ich hole Wasser. = Ech hol Waasser."
         },
         {
           "word": "mitnehmen",
           "meaning": "CAA -",
-          "example": "Ech nemmen dech mat."
+          "example": "Ich nehme dich mit. = Ech nemmen dech mat."
         }
       ],
       "tip": {
@@ -17605,22 +17537,22 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "Vai netiešā jautājumā",
-          "example": "Ech weess net, ob hien kënnt."
+          "example": "Ich weiß nicht, ob er kommt. = Ech weess net, ob hien kënnt."
         },
         {
           "word": "oder",
           "meaning": "Vai izvēlē starp variancem",
-          "example": "Kaffee oder Téi?"
+          "example": "Kaffee oder Tee?"
         },
         {
           "word": "wenn",
           "meaning": "CAA -",
-          "example": "Wann du Zäit hues..."
+          "example": "Wenn du Zeit hast..."
         },
         {
           "word": "dass",
           "meaning": "CAA -",
-          "example": "Ech weess, datt hien kënnt."
+          "example": "Ich weiß, dass er kommt. = Ech weess, datt hien kënnt."
         }
       ],
       "tip": {
@@ -17844,22 +17776,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Vai izvēlē",
-          "example": "Kaffee oder Téi?"
+          "example": "Kaffee oder Tee?"
         },
         {
           "word": "ob",
           "meaning": "Vai netiešā jautājumā",
-          "example": "Ech weess net, ob hien kënnt."
+          "example": "Ich weiß nicht, ob er kommt. = Ech weess net, ob hien kënnt."
         },
         {
           "word": "und",
           "meaning": "Un",
-          "example": "Kaffee an Kéchen."
+          "example": "Kaffee und Kuchen."
         },
         {
           "word": "aber",
           "meaning": "CAA -",
-          "example": "Ech komm, mee méi spéit."
+          "example": "Ich komme, aber später. = Ech komm, mee méi spéit."
         }
       ],
       "tip": {
@@ -18155,22 +18087,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Derēt / piestāvēt",
-          "example": "D'Jakkett passt mir."
+          "example": "Die Jacke passt mir."
         },
         {
           "word": "stehen",
           "meaning": "Piestāvēt / stāvēt",
-          "example": "Rout steet dir gutt."
+          "example": "Rot steht dir gut."
         },
         {
           "word": "geeignet sein",
           "meaning": "Būt piemērotam",
-          "example": "Dat ass gëgent."
+          "example": "Das ist geeignet. = Dat ass gëgent."
         },
         {
           "word": "funktionieren",
           "meaning": "CAA -",
-          "example": "Dat funktionéiert."
+          "example": "Das funktioniert. = Dat funktionéiert."
         }
       ],
       "tip": {
@@ -18472,22 +18404,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Izmē-Claudeināt / nogaršot",
-          "example": "Probéier mol d'Zopp!"
+          "example": "Probier mal die Suppe! = Probéier mol d'Zopp!"
         },
         {
           "word": "versuchen",
           "meaning": "CAA -",
-          "example": "Ech probéieren et."
+          "example": "Ich versuche es. = Ech probéieren et."
         },
         {
           "word": "prüfen",
           "meaning": "CAA -",
-          "example": "Ech préif d'Rechnung."
+          "example": "Ich prüfe die Rechnung."
         },
         {
           "word": "anprobieren",
           "meaning": "CAA -",
-          "example": "Ech probéier d'Jakkett un."
+          "example": "Ich probiere die Jacke an. = Ech probéier d'Jakkett un."
         }
       ],
       "tip": {
@@ -19333,22 +19265,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "Peldēt kā kustība vai Sport",
-          "example": "Hien schwëmmt ganz gutt."
+          "example": "Er schwimmt sehr gut. = Hien schwëmmt ganz gutt."
         },
         {
           "word": "baden",
           "meaning": "Peldēties / atrasties ūdenī",
-          "example": "Ech ginn boden."
+          "example": "Ich gehe baden. = Ech ginn boden."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Eppes Peldēt",
-          "example": "Mir ginn schwëmmen."
+          "example": "Wir gehen schwimmen. = Mir ginn schwëmmen."
         },
         {
           "word": "duschen",
           "meaning": "Mazgāties dušā",
-          "example": "Ech dusch moies."
+          "example": "Ich dusche morgens. = Ech dusch moies."
         }
       ],
       "tip": {
@@ -19610,22 +19542,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "CAA -",
-          "example": "Ech gesinn dech."
+          "example": "Ich sehe dich. = Ech gesinn dech."
         },
         {
           "word": "schauen",
           "meaning": "CAA -",
-          "example": "Ech kucken op d'Bréck."
+          "example": "Ich schaue auf das Bild. = Ech kucken op d'Bréck."
         },
         {
           "word": "ansehen",
           "meaning": "Apskatīt / skatīties",
-          "example": "Ech kucken mir de Film un."
+          "example": "Ich sehe mir den Film an."
         },
         {
           "word": "hören",
           "meaning": "CAA -",
-          "example": "Ech héieren Musek."
+          "example": "Ich höre Musik. = Ech héieren Musek."
         }
       ],
       "tip": {
@@ -19859,22 +19791,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Sinn",
-          "example": "Ech sinn hei."
+          "example": "Ich bin hier. = Ech sinn hei."
         },
         {
           "word": "haben",
           "meaning": "Ech hu",
-          "example": "Ech hunn Zäit."
+          "example": "Ich habe Zeit."
         },
         {
           "word": "werden",
           "meaning": "CAA -",
-          "example": "Ech ginn midd."
+          "example": "Ich werde müde. = Ech ginn midd."
         },
         {
           "word": "bleiben",
           "meaning": "CAA -",
-          "example": "Ech bleiwen hei."
+          "example": "Ich bleibe hier. = Ech bleiwen hei."
         }
       ],
       "tip": {
@@ -20280,22 +20212,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "CAA -",
-          "example": "Hien wäscht sech."
+          "example": "Er wäscht sich."
         },
         {
           "word": "mich",
           "meaning": "Mani / sevi pie ich",
-          "example": "Ech wäsch mech."
+          "example": "Ich wasche mich."
         },
         {
           "word": "dich",
           "meaning": "Tevi / sevi pie du",
-          "example": "Du wäschst dech."
+          "example": "Du wäschst dich."
         },
         {
           "word": "ihn",
           "meaning": "CAA -",
-          "example": "Ech gesinn him."
+          "example": "Ich sehe ihn. = Ech gesinn him."
         }
       ],
       "tip": {
@@ -21014,22 +20946,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "CAA -",
-          "example": "Ech sëtzen um Dësch."
+          "example": "Ich sitze am Tisch. = Ech sëtzen um Dësch."
         },
         {
           "word": "stehen",
           "meaning": "CAA -",
-          "example": "Hien steet un der Dier."
+          "example": "Er steht an der Tür."
         },
         {
           "word": "liegen",
           "meaning": "Gulēt / atrasties guếus",
-          "example": "D'Katze läit dërt."
+          "example": "Die Katze liegt dort."
         },
         {
           "word": "setzen",
           "meaning": "Apsēsties / nosēdināt",
-          "example": "Ech setze mech."
+          "example": "Ich setze mich."
         }
       ],
       "tip": {
@@ -21284,22 +21216,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Vajadzētu / jādara pēc norādes",
-          "example": "Wat soll ech maachen?"
+          "example": "Was soll ich machen?"
         },
         {
           "word": "müssen",
           "meaning": "Obligāti vajadzēt",
-          "example": "Ech muss goen."
+          "example": "Ich muss gehen."
         },
         {
           "word": "können",
           "meaning": "CAA -",
-          "example": "Ech kann kommen."
+          "example": "Ich kann kommen."
         },
         {
           "word": "wollen",
           "meaning": "CAA -",
-          "example": "Ech wëll bleiwen."
+          "example": "Ich will bleiben. = Ech wëll bleiwen."
         }
       ],
       "tip": {
@@ -21586,22 +21518,22 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "Stävt / atrasties stāvus",
-          "example": "Ech stinn hei."
+          "example": "Ich stehe hier. = Ech stinn hei."
         },
         {
           "word": "sitzen",
           "meaning": "CAA -",
-          "example": "Hien sëtzt um Dësch."
+          "example": "Er sitzt am Tisch. = Hien sëtzt um Dësch."
         },
         {
           "word": "liegen",
           "meaning": "Gulēt / atrasties guếus",
-          "example": "D'Bréck läit dërt."
+          "example": "Das Buch liegt dort."
         },
         {
           "word": "stellen",
           "meaning": "Nolikt stāvus",
-          "example": "Ech stelle d'Fläsch hin."
+          "example": "Ich stelle die Flasche hin."
         }
       ],
       "tip": {

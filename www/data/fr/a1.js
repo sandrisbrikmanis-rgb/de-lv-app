@@ -161,14 +161,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "L'enfant est encore petit."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "J'ai un petit sac."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "L'enfant est petit."
         }
       ],
       "tip": [
@@ -1945,22 +1937,22 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "Nager / être dans l'eau / se laver",
-          "example": "Je vais me baigner."
+          "example": "Ich gehe baden. = Je vais me baigner."
         },
         {
           "word": "schwimmen",
           "meaning": "Nager comme mouvement ou sport",
-          "example": "Il nage très bien."
+          "example": "Er schwimmt sehr gut. = Il nage très bien."
         },
         {
           "word": "duschen",
           "meaning": "Prendre une douche",
-          "example": "Je me douche le matin."
+          "example": "Ich dusche am Morgen. = Je me douche le matin."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Allez nager",
-          "example": "Je vais nager aujourd'hui."
+          "example": "Ich gehe heute schwimmen. = Je vais nager aujourd'hui."
         }
       ],
       "tip": {
@@ -2534,12 +2526,12 @@ const A1_WORDS = [
         {
           "word": "besuchen",
           "meaning": "visiter un lieu ou un événement • rendre visite à une personne",
-          "example": "Je visite mes grands-parents. – Es apciemoju savus vecvecākus."
+          "example": "Ich besuche meine Großeltern. – Es apciemoju savus vecvecākus."
         },
         {
           "word": "treffen",
           "meaning": "rencontrer",
-          "example": "Je rencontre mon ami. – Es satieku savu draugu."
+          "example": "Ich treffe meinen Freund. – Es satieku savu draugu."
         },
         {
           "word": "zu jemandem gehen",
@@ -2765,11 +2757,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "Jusqu'à",
           "example": "Bis jetzt habe ich nichts verstanden. – J'attends que tu viennes."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "Jusqu'à maintenant, jusqu'à ce jour",
-          "example": "Bis jetzt ist alles gut. – Jusqu'ici, tout va bien."
         }
       ],
       "tip": {
@@ -2895,18 +2882,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "Une tasse de café, s'il vous plaît."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Puis-je demander s'il vous plaît"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "J'ai une demande."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "La demande est importante."
         }
       ],
       "tip": [
@@ -2991,12 +2966,12 @@ const A1_WORDS = [
         {
           "word": "bitte",
           "meaning": "S'il te plaît",
-          "example": "S'il te plaît, entre. – Lūdzu, nāc iekšā."
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
         },
         {
           "word": "die Bitte",
           "meaning": "Une demande",
-          "example": "J'ai une demande. – Man ir lūgums."
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
         }
       ]
     }
@@ -3029,18 +3004,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "Une tasse de café, s'il vous plaît."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Puis-je demander s'il vous plaît"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "J'ai une demande."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "La demande est importante."
         }
       ],
       "tip": [
@@ -3113,12 +3076,12 @@ const A1_WORDS = [
         {
           "word": "die Bitte",
           "meaning": "Une demande",
-          "example": "J'ai une demande. – Man ir lūgums."
+          "example": "Ich habe eine Bitte. – Man ir lūgums."
         },
         {
           "word": "bitte",
           "meaning": "S'il te plaît",
-          "example": "S'il te plaît, entre. – Lūdzu, nāc iekšā."
+          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
         }
       ]
     }
@@ -3195,22 +3158,22 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "Rester",
-          "example": "Je reste ici."
+          "example": "Ich bleibe hier. = Je reste ici."
         },
         {
           "word": "gehen",
           "meaning": "Aller/partir à pied",
-          "example": "Je rentre à la maison."
+          "example": "Ich gehe nach Hause. = Je rentre à la maison."
         },
         {
           "word": "fahren",
           "meaning": "Conduire / partir en transport",
-          "example": "Je me rends à la maison."
+          "example": "Ich fahre nach Hause. = Je me rends à la maison."
         },
         {
           "word": "warten",
           "meaning": "Attendre",
-          "example": "J'attends ici."
+          "example": "Ich warte hier. = J'attends ici."
         }
       ],
       "tip": {
@@ -3454,10 +3417,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Il emmène le livre à l'école."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Je prends le livre"
         }
       ],
       "comparison": [
@@ -3484,7 +3443,7 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "prendre",
-          "example": "Je prends le livre. – Es paņemu grāmatu."
+          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
         }
       ],
       "tip": {
@@ -3798,22 +3757,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Là • Ici • Ici (général)",
-          "example": "Ma voiture est là."
+          "example": "Da ist mein Auto. = Ma voiture est là."
         },
         {
           "word": "hier",
           "meaning": "Ici (à un endroit précis)",
-          "example": "Ma voiture est ici."
+          "example": "Hier ist mein Auto. = Ma voiture est ici."
         },
         {
           "word": "dort",
           "meaning": "Là (plus loin)",
-          "example": "Ma voiture est là-bas."
+          "example": "Dort ist mein Auto. = Ma voiture est là-bas."
         },
         {
           "word": "dann",
           "meaning": "Alors",
-          "example": "Alors nous rentrons à la maison."
+          "example": "Dann gehen wir nach Hause. = Alors nous rentrons à la maison."
         }
       ],
       "tip": {
@@ -4872,22 +4831,22 @@ const A1_WORDS = [
         {
           "word": "ein Mann",
           "meaning": "genre masculin",
-          "example": "Un homme attend dehors."
+          "example": "Ein Mann wartet draußen. = Un homme attend dehors."
         },
         {
           "word": "eine Frau",
           "meaning": "genre féminin",
-          "example": "une femme"
+          "example": "eine Frau = une femme"
         },
         {
           "word": "ein Buch",
           "meaning": "genre neutre",
-          "example": "J'ai un livre."
+          "example": "Ich habe ein Buch. = J'ai un livre."
         },
         {
           "word": "einen Mann",
           "meaning": "accusatif",
-          "example": "un homme"
+          "example": "einen Mann = un homme"
         }
       ]
     }
@@ -4944,22 +4903,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Glace / glace",
-          "example": "Je mange une glace. = Je mange une glace."
+          "example": "Ich esse ein Eis. = Je mange une glace."
         },
         {
           "word": "der Schnee",
           "meaning": "Il va neiger",
-          "example": "La neige est blanche. = La neige est blanche."
+          "example": "Der Schnee ist weiß. = La neige est blanche."
         },
         {
           "word": "kalt",
           "meaning": "Froid",
-          "example": "L'eau est froide. = L'eau est froide."
+          "example": "Das Wasser ist kalt. = L'eau est froide."
         },
         {
           "word": "das Dessert",
           "meaning": "Dessert",
-          "example": "La glace est un dessert. = La glace est un dessert."
+          "example": "Eis ist ein Dessert. = La glace est un dessert."
         }
       ],
       "tip": {
@@ -5226,17 +5185,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "Premièrement • Au début",
-          "example": "D'abord nous petit-déjeunons. = D'abord nous petit-déjeunons."
+          "example": "Zuerst frühstücken wir. = D'abord nous petit-déjeunons."
         },
         {
           "word": "nur",
           "meaning": "Seulement",
-          "example": "Je n'ai que 5 euros. = Je n'ai que 5 euros."
+          "example": "Ich habe nur 5 Euro. = Je n'ai que 5 euros."
         },
         {
           "word": "dann",
           "meaning": "Alors",
-          "example": "Alors nous rentrons à la maison. = Alors nous rentrons à la maison."
+          "example": "Dann gehen wir nach Hause. = Alors nous rentrons à la maison."
         }
       ],
       "tip": {
@@ -5404,14 +5363,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "C'est mon livre."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Il pleut"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Il neige"
         }
       ],
       "info": [
@@ -5522,12 +5473,12 @@ const A1_WORDS = [
         {
           "word": "es",
           "meaning": "cela • forme impersonnelle",
-          "example": "Il pleut. – Līst."
+          "example": "Es regnet. – Līst."
         },
         {
           "word": "ich",
           "meaning": "es (personne)",
-          "example": "J'apprends l'allemand. – Es mācos vācu valodu."
+          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
         }
       ]
     }
@@ -5578,22 +5529,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Quelque chose / un peu",
-          "example": "J'ai besoin de quelque chose. = J'ai besoin de quelque chose."
+          "example": "Ich brauche etwas. = J'ai besoin de quelque chose."
         },
         {
           "word": "was",
           "meaning": "Quelque chose (familier)",
-          "example": "Veux-tu boire quelque chose? = Veux-tu boire quelque chose?"
+          "example": "Willst du was trinken? = Veux-tu boire quelque chose?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Un peu",
-          "example": "Je suis un peu fatigué. = Je suis un peu fatigué."
+          "example": "Ich bin ein bisschen müde. = Je suis un peu fatigué."
         },
         {
           "word": "nichts",
           "meaning": "Rien",
-          "example": "Je n'ai besoin de rien. = Je n'ai besoin de rien."
+          "example": "Ich brauche nichts. = Je n'ai besoin de rien."
         }
       ],
       "tip": {
@@ -5814,17 +5765,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Toi",
-          "example": "Vous êtes aimables. = Vous êtes aimables."
+          "example": "Ihr seid freundlich. = Vous êtes aimables."
         },
         {
           "word": "euch",
           "meaning": "Toi / à toi",
-          "example": "Je vous aide. = Je vous aide."
+          "example": "Ich helfe euch. = Je vous aide."
         },
         {
           "word": "euer",
           "meaning": "Le vôtre",
-          "example": "C'est votre maison. = C'est votre maison."
+          "example": "Das ist euer Haus. = C'est votre maison."
         }
       ],
       "info": [
@@ -5894,27 +5845,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "Prendre le transport",
-          "example": "Je prends le bus."
+          "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "gehen",
           "meaning": "Allez à pied",
-          "example": "Je rentre à la maison."
+          "example": "Ich gehe nach Hause. = Je rentre à la maison."
         },
         {
           "word": "laufen",
           "meaning": "Courir / partir",
-          "example": "Il court vite."
+          "example": "Er läuft schnell. = Il court vite."
         },
         {
           "word": "bringen",
           "meaning": "Apporter/livrer",
-          "example": "Je porte le livre."
+          "example": "Ich bringe das Buch. = Je porte le livre."
         },
         {
           "word": "mitnehmen",
           "meaning": "Emportez avec vous",
-          "example": "Je t'emmène avec moi."
+          "example": "Ich nehme dich mit. = Je t'emmène avec moi."
         }
       ],
       "tip": {
@@ -6281,32 +6232,13 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "Cela me semble bon."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Que pensez-vous du film ?"
         }
       ],
       "comparison": [
         {
           "word": "finden",
           "meaning": "Trouver / considérer",
-          "example": "Je trouve ça bien. = Je trouve ça bien."
-        },
-        {
-          "word": "suchen",
-          "meaning": "Pour rechercher",
-          "example": "Ich suche den Schlüssel. = Je cherche la clé."
-        },
-        {
-          "word": "denken",
-          "meaning": "Penser",
-          "example": "Ich denke an dich. = Je pense à toi."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Croire/penser",
-          "example": "Ich glaube, er kommt. = Je pense qu'il viendra."
+          "example": "Ich finde das gut. = Je trouve ça bien."
         }
       ],
       "tip": {
@@ -6970,12 +6902,12 @@ const A1_WORDS = [
         {
           "word": "Fußball",
           "meaning": "football en tant que sport",
-          "example": "Je joue au football. – Je joue au football."
+          "example": "Ich spiele Fußball. – Je joue au football."
         },
         {
           "word": "der Fußball",
           "meaning": "ballon de football",
-          "example": "Le ballon de football est neuf. – Le ballon de football est neuf."
+          "example": "Der Fußball ist neu. – Le ballon de football est neuf."
         }
       ],
       "tip": [
@@ -7023,12 +6955,12 @@ const A1_WORDS = [
         {
           "word": "ganz",
           "meaning": "entier • tout en ensemble • complètement",
-          "example": "la journée entière – toute la journée"
+          "example": "der ganze Tag – toute la journée"
         },
         {
           "word": "alles",
           "meaning": "Tout",
-          "example": "Tout va bien. – Tout va bien."
+          "example": "Alles ist gut. – Tout va bien."
         }
       ],
       "tip": [
@@ -7098,22 +7030,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "Donner",
-          "example": "Donne-moi le livre."
+          "example": "Gib mir das Buch. = Donne-moi le livre."
         },
         {
           "word": "nehmen",
           "meaning": "Prendre / prendre",
-          "example": "Je prends le livre."
+          "example": "Ich nehme das Buch. = Je prends le livre."
         },
         {
           "word": "bekommen",
           "meaning": "Recevoir/obtenir",
-          "example": "Je reçois un cadeau."
+          "example": "Ich bekomme ein Geschenk. = Je reçois un cadeau."
         },
         {
           "word": "bringen",
           "meaning": "Apporter/livrer",
-          "example": "Je te porte le livre."
+          "example": "Ich bringe dir das Buch. = Je te porte le livre."
         }
       ],
       "tip": {
@@ -7331,12 +7263,12 @@ const A1_WORDS = [
         {
           "word": "gefallen",
           "meaning": "plaire • personne au datif",
-          "example": "Cela me plaît. – Cela me plaît."
+          "example": "Das gefällt mir. – Cela me plaît."
         },
         {
           "word": "mögen",
           "meaning": "plaire • aimer choisir",
-          "example": "J'aime ça. – J'aime ça."
+          "example": "Ich mag das. – J'aime ça."
         }
       ],
       "tip": [
@@ -7418,12 +7350,12 @@ const A1_WORDS = [
         {
           "word": "eine Geschichte",
           "meaning": "histoire",
-          "example": "une histoire intéressante – une histoire intéressante"
+          "example": "eine interessante Geschichte – une histoire intéressante"
         },
         {
           "word": "Geschichte",
           "meaning": "histoire",
-          "example": "Étudier l'histoire – Apprendre l'histoire"
+          "example": "Geschichte lernen – Apprendre l'histoire"
         }
       ],
       "tip": [
@@ -7464,17 +7396,17 @@ const A1_WORDS = [
         {
           "word": "Geschwister",
           "meaning": "frères et sœurs",
-          "example": "Mes frères et sœurs – mes frères et sœurs"
+          "example": "Meine Geschwister – mes frères et sœurs"
         },
         {
           "word": "Bruder",
           "meaning": "Frère",
-          "example": "mon frère – mon frère"
+          "example": "mein Bruder – mon frère"
         },
         {
           "word": "Schwester",
           "meaning": "Sœur",
-          "example": "ma sœur – ma sœur"
+          "example": "meine Schwester – ma sœur"
         }
       ],
       "tip": [
@@ -7860,17 +7792,17 @@ const A1_WORDS = [
         {
           "word": "Großeltern",
           "meaning": "grands-parents",
-          "example": "mes grands-parents – mes grands-parents"
+          "example": "meine Großeltern – mes grands-parents"
         },
         {
           "word": "Großmutter",
           "meaning": "Grand-mère",
-          "example": "ma grand-mère – ma grand-mère"
+          "example": "meine Großmutter – ma grand-mère"
         },
         {
           "word": "Großvater",
           "meaning": "Grand-père",
-          "example": "mon grand-père – mon grand-père"
+          "example": "mein Großvater – mon grand-père"
         }
       ],
       "tip": [
@@ -8135,22 +8067,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "J'ai",
-          "example": "J'ai du temps. = J'ai du temps."
+          "example": "Ich habe Zeit. = J'ai du temps."
         },
         {
           "word": "sein",
           "meaning": "Être",
-          "example": "Je suis ici. = Je suis ici."
+          "example": "Ich bin hier. = Je suis ici."
         },
         {
           "word": "bekommen",
           "meaning": "Pour recevoir",
-          "example": "Je reçois un cadeau. = Je reçois un cadeau."
+          "example": "Ich bekomme ein Geschenk. = Je reçois un cadeau."
         },
         {
           "word": "machen",
           "meaning": "Faire/faire",
-          "example": "Je fais ça. = Je fais ça."
+          "example": "Ich mache das. = Je fais ça."
         }
       ],
       "tip": {
@@ -8365,22 +8297,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Maintenir / arrêter",
-          "example": "L'autobus s'arrête. = L'autobus s'arrête."
+          "example": "Der Bus hält. = L'autobus s'arrête."
         },
         {
           "word": "nehmen",
           "meaning": "Prendre",
-          "example": "Je prends le sac. = Je prends le sac."
+          "example": "Ich nehme die Tasche. = Je prends le sac."
         },
         {
           "word": "anhalten",
           "meaning": "Pour arrêter",
-          "example": "S'il te plaît, arrête-toi. = S'il te plaît, arrête-toi."
+          "example": "Bitte halten Sie an. = S'il te plaît, arrête-toi."
         },
         {
           "word": "denken",
           "meaning": "Penser",
-          "example": "Je pense que c'est correct. = Je pense que c'est correct."
+          "example": "Ich denke, das ist richtig. = Je pense que c'est correct."
         }
       ],
       "tip": {
@@ -8592,12 +8524,12 @@ const A1_WORDS = [
         {
           "word": "die Hand",
           "meaning": "paume",
-          "example": "dans la paume – dans la paume"
+          "example": "in der Hand – dans la paume"
         },
         {
           "word": "der Arm",
           "meaning": "Main",
-          "example": "Mon bras me fait mal. – Mon bras me fait mal."
+          "example": "Mein Arm tut weh. – Mon bras me fait mal."
         }
       ],
       "tip": [
@@ -8697,27 +8629,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "Être appelé / méchant",
-          "example": "Je m'appelle Anna. = Je m'appelle Anna."
+          "example": "Ich heiße Anna. = Je m'appelle Anna."
         },
         {
           "word": "nennen",
           "meaning": "Appeler / nommer",
-          "example": "Il m'appelle Tom. = Il m'appelle Tom."
+          "example": "Er nennt mich Tom. = Il m'appelle Tom."
         },
         {
           "word": "bedeuten",
           "meaning": "Signifier",
-          "example": "Qu'est-ce que ça signifie? = Qu'est-ce que ça signifie?"
+          "example": "Was bedeutet das? = Qu'est-ce que ça signifie?"
         },
         {
           "word": "rufen",
           "meaning": "Appeler / appeler",
-          "example": "Je t'appelle. = Je t'appelle."
+          "example": "Ich rufe dich. = Je t'appelle."
         },
         {
           "word": "anrufen",
           "meaning": "Pour appeler",
-          "example": "Je t'appelle. = Je t'appelle."
+          "example": "Ich rufe dich an. = Je t'appelle."
         }
       ],
       "tip": {
@@ -9193,17 +9125,17 @@ const A1_WORDS = [
         {
           "word": "hübsch",
           "meaning": "joli • attrayant en apparence",
-          "example": "C'est une jolie robe. – C'est une jolie robe."
+          "example": "Das ist ein hübsches Kleid. – C'est une jolie robe."
         },
         {
           "word": "schön",
           "meaning": "beau • agréable",
-          "example": "Le jardin est beau. – Le jardin est beau."
+          "example": "Der Garten ist schön. – Le jardin est beau."
         },
         {
           "word": "nett",
           "meaning": "gentil • bienveillant",
-          "example": "Elle est très gentille. – Elle est très gentille."
+          "example": "Sie ist sehr nett. – Elle est très gentille."
         }
       ],
       "tip": {
@@ -10993,22 +10925,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Pouvoir/savoir",
-          "example": "Je peux nager. = Je peux nager."
+          "example": "Ich kann schwimmen. = Je peux nager."
         },
         {
           "word": "dürfen",
           "meaning": "Être autorisé",
-          "example": "Puis-je partir? = Puis-je partir?"
+          "example": "Darf ich gehen? = Puis-je partir?"
         },
         {
           "word": "müssen",
           "meaning": "Besoin / être oui-",
-          "example": "Je dois apprendre. = Je dois apprendre."
+          "example": "Ich muss lernen. = Je dois apprendre."
         },
         {
           "word": "wissen",
           "meaning": "Savoir",
-          "example": "Je sais ça. = Je sais ça."
+          "example": "Ich weiß das. = Je sais ça."
         }
       ],
       "tip": {
@@ -11226,22 +11158,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Payer (prix) • Combien",
-          "example": "Ça coûte 5 euros. = Ça coûte 5 euros."
+          "example": "Das kostet 5 Euro. = Ça coûte 5 euros."
         },
         {
           "word": "bezahlen",
           "meaning": "Payer • Payer (argent)",
-          "example": "Je paie la facture. = Je paie la facture."
+          "example": "Ich bezahle die Rechnung. = Je paie la facture."
         },
         {
           "word": "zahlen",
           "meaning": "Payer • Payer",
-          "example": "Puis-je payer en espèces? = Puis-je payer en espèces?"
+          "example": "Kann ich bar zahlen? = Puis-je payer en espèces?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Combien ça coûte...?",
-          "example": "Combien coûte le livre? = Combien coûte le livre?"
+          "example": "Was kostet das Buch? = Combien coûte le livre?"
         }
       ],
       "tip": [
@@ -11824,22 +11756,22 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Pays/terre/campagne",
-          "example": "L'Allemagne est un pays."
+          "example": "Deutschland ist ein Land. = L'Allemagne est un pays."
         },
         {
           "word": "die Stadt",
           "meaning": "Ville",
-          "example": "Je habite en ville."
+          "example": "Ich wohne in der Stadt. = Je habite en ville."
         },
         {
           "word": "das Dorf",
           "meaning": "Village",
-          "example": "Il vit dans un village."
+          "example": "Er lebt in einem Dorf. = Il vit dans un village."
         },
         {
           "word": "die Erde",
           "meaning": "Terre / planète",
-          "example": "La Terre est ronde."
+          "example": "Die Erde ist rund. = La Terre est ronde."
         }
       ],
       "tip": {
@@ -12210,22 +12142,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Partir / laisser",
-          "example": "Je le laisse ici."
+          "example": "Ich lasse das hier. = Je le laisse ici."
         },
         {
           "word": "bleiben",
           "meaning": "Rester",
-          "example": "Je reste ici."
+          "example": "Ich bleibe hier. = Je reste ici."
         },
         {
           "word": "erlauben",
           "meaning": "Permettre",
-          "example": "Elle m'autorise à le faire."
+          "example": "Sie erlaubt mir das. = Elle m'autorise à le faire."
         },
         {
           "word": "geben",
           "meaning": "Donner",
-          "example": "Donne-moi le livre."
+          "example": "Gib mir das Buch. = Donne-moi le livre."
         }
       ],
       "tip": {
@@ -12421,22 +12353,22 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Exécuter / exploiter",
-          "example": "Il court vite."
+          "example": "Er läuft schnell. = Il court vite."
         },
         {
           "word": "gehen",
           "meaning": "Allez à pied",
-          "example": "Je rentre à la maison."
+          "example": "Ich gehe nach Hause. = Je rentre à la maison."
         },
         {
           "word": "fahren",
           "meaning": "Prendre le transport",
-          "example": "Je prends le bus."
+          "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "funktionieren",
           "meaning": "Pour opérer",
-          "example": "Ça marche bien."
+          "example": "Das funktioniert gut. = Ça marche bien."
         }
       ],
       "tip": {
@@ -12961,22 +12893,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Déposer",
-          "example": "Je pose le livre sur la table."
+          "example": "Ich lege das Buch auf den Tisch. = Je pose le livre sur la table."
         },
         {
           "word": "liegen",
           "meaning": "Être / dormir",
-          "example": "Le livre est sur la table."
+          "example": "Das Buch liegt auf dem Tisch. = Le livre est sur la table."
         },
         {
           "word": "stellen",
           "meaning": "Mettre debout",
-          "example": "Je pose la bouteille sur la table."
+          "example": "Ich stelle die Flasche auf den Tisch. = Je pose la bouteille sur la table."
         },
         {
           "word": "setzen",
           "meaning": "Asseyez-vous / asseyez-vous",
-          "example": "Je m'assois."
+          "example": "Ich setze mich. = Je m'assois."
         }
       ],
       "tip": {
@@ -13384,22 +13316,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Être / dormir",
-          "example": "Le livre est ici."
+          "example": "Das Buch liegt hier. = Le livre est ici."
         },
         {
           "word": "legen",
           "meaning": "Déposer",
-          "example": "Je pose le livre ici."
+          "example": "Ich lege das Buch hierhin. = Je pose le livre ici."
         },
         {
           "word": "stehen",
           "meaning": "Se tenir debout/être debout",
-          "example": "La bouteille est sur la table."
+          "example": "Die Flasche steht auf dem Tisch. = La bouteille est sur la table."
         },
         {
           "word": "sein",
           "meaning": "Être",
-          "example": "Je suis ici."
+          "example": "Ich bin hier. = Je suis ici."
         }
       ],
       "tip": {
@@ -14214,22 +14146,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "Avec / avec",
-          "example": "Je viens avec toi."
+          "example": "Ich komme mit dir. = Je viens avec toi."
         },
         {
           "word": "ohne",
           "meaning": "Sans",
-          "example": "Je viens sans toi."
+          "example": "Ich komme ohne dich. = Je viens sans toi."
         },
         {
           "word": "bei",
           "meaning": "Chez / chez quelqu'un",
-          "example": "Je suis chez Anna."
+          "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
           "meaning": "À / à",
-          "example": "Je vais chez le médecin."
+          "example": "Ich gehe zum Arzt. = Je vais chez le médecin."
         }
       ],
       "tip": {
@@ -14445,22 +14377,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Aimer",
-          "example": "J'aime la musique."
+          "example": "Ich mag Musik. = J'aime la musique."
         },
         {
           "word": "möchte",
           "meaning": "Voudrais",
-          "example": "Je voudrais du café."
+          "example": "Ich möchte Kaffee."
         },
         {
           "word": "wollen",
           "meaning": "Je veux",
-          "example": "Je veux rentrer à la maison."
+          "example": "Ich will nach Hause. = Je veux rentrer à la maison."
         },
         {
           "word": "lieben",
           "meaning": "Aimer",
-          "example": "Je t'aime."
+          "example": "Ich liebe dich. = Je t'aime."
         }
       ],
       "tip": {
@@ -14942,22 +14874,22 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Besoin / devoir faire",
-          "example": "Je dois partir."
+          "example": "Ich muss gehen. = Je dois partir."
         },
         {
           "word": "können",
           "meaning": "Pouvoir/savoir",
-          "example": "Je peux venir."
+          "example": "Ich kann kommen. = Je peux venir."
         },
         {
           "word": "wollen",
           "meaning": "Je veux",
-          "example": "Je veux rentrer à la maison."
+          "example": "Ich will nach Hause. = Je veux rentrer à la maison."
         },
         {
           "word": "dürfen",
           "meaning": "Être autorisé",
-          "example": "Puis-je partir?"
+          "example": "Darf ich gehen? = Puis-je partir?"
         }
       ],
       "tip": {
@@ -15173,22 +15105,22 @@ const A1_WORDS = [
         {
           "word": "nach",
           "meaning": "À / après",
-          "example": "Je me rends à Berlin."
+          "example": "Ich fahre nach Berlin."
         },
         {
           "word": "zu",
           "meaning": "À / à",
-          "example": "Je vais chez le médecin."
+          "example": "Ich gehe zum Arzt. = Je vais chez le médecin."
         },
         {
           "word": "in",
           "meaning": "Dans / vers le lieu avec l'article",
-          "example": "Je vais à l'école."
+          "example": "Ich gehe in die Schule. = Je vais à l'école."
         },
         {
           "word": "vor",
           "meaning": "Avant / devant",
-          "example": "Avant de manger, je me lave les mains."
+          "example": "Vor dem Essen wasche ich die Hände. = Avant de manger, je me lave les mains."
         }
       ],
       "tip": {
@@ -15590,22 +15522,22 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "Prendre / prendre",
-          "example": "Prends le livre!"
+          "example": "Nimm das Buch! = Prends le livre!"
         },
         {
           "word": "bringen",
           "meaning": "Apporter/prendre/livrer",
-          "example": "Je te porte le livre."
+          "example": "Ich bringe dir das Buch. = Je te porte le livre."
         },
         {
           "word": "holen",
           "meaning": "Poursuivre/aller chercher",
-          "example": "Je vais chercher de l'eau."
+          "example": "Ich hole Wasser. = Je vais chercher de l'eau."
         },
         {
           "word": "mitnehmen",
           "meaning": "Emportez avec vous",
-          "example": "Je t'emmène avec moi."
+          "example": "Ich nehme dich mit. = Je t'emmène avec moi."
         }
       ],
       "tip": {
@@ -16342,22 +16274,22 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "Ou dans une question indirecte",
-          "example": "Je ne sais pas s'il vient."
+          "example": "Ich weiß nicht, ob er kommt. = Je ne sais pas s'il vient."
         },
         {
           "word": "oder",
           "meaning": "Ou choisissez entre les options",
-          "example": "Café ou thé?"
+          "example": "Kaffee oder Tee? = Café ou thé?"
         },
         {
           "word": "wenn",
           "meaning": "Si/quand",
-          "example": "Si tu as du temps..."
+          "example": "Wenn du Zeit hast..."
         },
         {
           "word": "dass",
           "meaning": "Que",
-          "example": "Je sais qu'il vient."
+          "example": "Ich weiß, dass er kommt. = Je sais qu'il vient."
         }
       ],
       "tip": {
@@ -16570,22 +16502,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Ou choisissez",
-          "example": "Café ou thé?"
+          "example": "Kaffee oder Tee? = Café ou thé?"
         },
         {
           "word": "ob",
           "meaning": "Ou dans une question indirecte",
-          "example": "Je ne sais pas s'il vient."
+          "example": "Ich weiß nicht, ob er kommt. = Je ne sais pas s'il vient."
         },
         {
           "word": "und",
           "meaning": "Et",
-          "example": "Café et gâteau."
+          "example": "Kaffee und Kuchen. = Café et gâteau."
         },
         {
           "word": "aber",
           "meaning": "Mais",
-          "example": "Je viens, mais plus tard."
+          "example": "Ich komme, aber später. = Je viens, mais plus tard."
         }
       ],
       "tip": {
@@ -16854,22 +16786,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Ajustement / ajustement",
-          "example": "La veste me va bien."
+          "example": "Die Jacke passt mir. = La veste me va bien."
         },
         {
           "word": "stehen",
           "meaning": "Se tenir debout / se tenir debout",
-          "example": "Le rouge te va bien."
+          "example": "Rot steht dir gut. = Le rouge te va bien."
         },
         {
           "word": "geeignet sein",
           "meaning": "Être convenable",
-          "example": "C'est approprié."
+          "example": "Das ist geeignet. = C'est approprié."
         },
         {
           "word": "funktionieren",
           "meaning": "Pour opérer",
-          "example": "Ça marche."
+          "example": "Das funktioniert. = Ça marche."
         }
       ],
       "tip": {
@@ -17140,22 +17072,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Essayer / goûter",
-          "example": "Goûte la soupe!"
+          "example": "Probier mal die Suppe! = Goûte la soupe!"
         },
         {
           "word": "versuchen",
           "meaning": "Pour essayer",
-          "example": "J'essaie."
+          "example": "Ich versuche es. = J'essaie."
         },
         {
           "word": "prüfen",
           "meaning": "Pour vérifier",
-          "example": "Je vérifie la facture."
+          "example": "Ich prüfe die Rechnung. = Je vérifie la facture."
         },
         {
           "word": "anprobieren",
           "meaning": "A essayer",
-          "example": "J'essaie la veste."
+          "example": "Ich probiere die Jacke an. = J'essaie la veste."
         }
       ],
       "tip": {
@@ -17944,22 +17876,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "Nager comme mouvement ou sport",
-          "example": "Il nage très bien."
+          "example": "Er schwimmt sehr gut. = Il nage très bien."
         },
         {
           "word": "baden",
           "meaning": "Nager / être dans l'eau",
-          "example": "Je vais me baigner."
+          "example": "Ich gehe baden. = Je vais me baigner."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Allez nager",
-          "example": "Nous allons nager."
+          "example": "Wir gehen schwimmen. = Nous allons nager."
         },
         {
           "word": "duschen",
           "meaning": "Prendre une douche",
-          "example": "Je me douche le matin."
+          "example": "Ich dusche morgens. = Je me douche le matin."
         }
       ],
       "tip": {
@@ -18196,22 +18128,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "Voir",
-          "example": "Je te vois."
+          "example": "Ich sehe dich. = Je te vois."
         },
         {
           "word": "schauen",
           "meaning": "Montre",
-          "example": "Je regarde l'image."
+          "example": "Ich schaue auf das Bild. = Je regarde l'image."
         },
         {
           "word": "ansehen",
           "meaning": "Voir / regarder",
-          "example": "Je regarde le film."
+          "example": "Ich sehe mir den Film an."
         },
         {
           "word": "hören",
           "meaning": "Pour entendre",
-          "example": "J'écoute la musique."
+          "example": "Ich höre Musik. = J'écoute la musique."
         }
       ],
       "tip": {
@@ -18422,22 +18354,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Être",
-          "example": "Je suis ici."
+          "example": "Ich bin hier. = Je suis ici."
         },
         {
           "word": "haben",
           "meaning": "J'ai",
-          "example": "J'ai du temps."
+          "example": "Ich habe Zeit."
         },
         {
           "word": "werden",
           "meaning": "Devenir",
-          "example": "Je deviens fatigué."
+          "example": "Ich werde müde. = Je deviens fatigué."
         },
         {
           "word": "bleiben",
           "meaning": "Rester",
-          "example": "Je reste ici."
+          "example": "Ich bleibe hier. = Je reste ici."
         }
       ],
       "tip": {
@@ -18797,22 +18729,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "Moi/moi-même",
-          "example": "Il se lave."
+          "example": "Er wäscht sich. = Il se lave."
         },
         {
           "word": "mich",
           "meaning": "Moi / moi-même à ich",
-          "example": "Je me lave."
+          "example": "Ich wasche mich. = Je me lave."
         },
         {
           "word": "dich",
           "meaning": "Toi/moi-même à du",
-          "example": "Tu te laves."
+          "example": "Du wäschst dich. = Tu te laves."
         },
         {
           "word": "ihn",
           "meaning": "Lui",
-          "example": "Je le vois."
+          "example": "Ich sehe ihn. = Je le vois."
         }
       ],
       "tip": {
@@ -19507,22 +19439,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "S'asseoir",
-          "example": "Je suis assis à la table."
+          "example": "Ich sitze am Tisch. = Je suis assis à la table."
         },
         {
           "word": "stehen",
           "meaning": "Se tenir debout",
-          "example": "Il se tient à la porte."
+          "example": "Er steht an der Tür. = Il se tient à la porte."
         },
         {
           "word": "liegen",
           "meaning": "Dormir / s'allonger",
-          "example": "Le chat est couché là."
+          "example": "Die Katze liegt dort. = Le chat est couché là."
         },
         {
           "word": "setzen",
           "meaning": "S'asseoir / s'asseoir",
-          "example": "Je m'assois."
+          "example": "Ich setze mich. = Je m'assois."
         }
       ],
       "tip": {
@@ -19756,22 +19688,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Devrait/devrait faire comme indiqué",
-          "example": "Que dois-je faire?"
+          "example": "Was soll ich machen? = Que dois-je faire?"
         },
         {
           "word": "müssen",
           "meaning": "Il faut absolument",
-          "example": "Je dois partir."
+          "example": "Ich muss gehen. = Je dois partir."
         },
         {
           "word": "können",
           "meaning": "Être capable de",
-          "example": "Je peux venir."
+          "example": "Ich kann kommen. = Je peux venir."
         },
         {
           "word": "wollen",
           "meaning": "Je veux",
-          "example": "Je veux rester."
+          "example": "Ich will bleiben. = Je veux rester."
         }
       ],
       "tip": {
@@ -20049,22 +19981,22 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "Se tenir debout/être debout",
-          "example": "Je suis debout ici."
+          "example": "Ich stehe hier. = Je suis debout ici."
         },
         {
           "word": "sitzen",
           "meaning": "S'asseoir",
-          "example": "Il est assis à la table."
+          "example": "Er sitzt am Tisch. = Il est assis à la table."
         },
         {
           "word": "liegen",
           "meaning": "Dormir / s'allonger",
-          "example": "Le livre est là."
+          "example": "Das Buch liegt dort. = Le livre est là."
         },
         {
           "word": "stellen",
           "meaning": "Mettre debout",
-          "example": "Je pose la bouteille."
+          "example": "Ich stelle die Flasche hin. = Je pose la bouteille."
         }
       ],
       "tip": {
@@ -20471,22 +20403,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Au-dessus/au-dessus/à travers",
-          "example": "Nous parlons de la météo."
+          "example": "Wir sprechen über das Wetter. = Nous parlons de la météo."
         },
         {
           "word": "auf",
           "meaning": "Sur la surface",
-          "example": "Le livre est sur la table."
+          "example": "Das Buch liegt auf dem Tisch. = Le livre est sur la table."
         },
         {
           "word": "unter",
           "meaning": "Sous",
-          "example": "Le sac est sous la table."
+          "example": "Die Tasche ist unter dem Tisch. = Le sac est sous la table."
         },
         {
           "word": "von",
           "meaning": "De/à propos d'une source",
-          "example": "J'entends parler de toi."
+          "example": "Ich höre von dir. = J'entends parler de toi."
         }
       ],
       "tip": {
@@ -20703,22 +20635,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "À / vers / vers",
-          "example": "Je viens à huit heures."
+          "example": "Ich komme um acht. = Je viens à huit heures."
         },
         {
           "word": "am",
           "meaning": "Par jour / à",
-          "example": "Lundi, je viens."
+          "example": "Am Montag komme ich. = Lundi, je viens."
         },
         {
           "word": "gegen",
           "meaning": "Autour du temps / contre",
-          "example": "Je viens vers huit heures."
+          "example": "Ich komme gegen acht. = Je viens vers huit heures."
         },
         {
           "word": "für",
           "meaning": "Pour / en faveur de",
-          "example": "C'est pour toi."
+          "example": "Das ist für dich. = C'est pour toi."
         }
       ],
       "tip": {
@@ -20940,22 +20872,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "Sous / entre",
-          "example": "Le sac est sous la table."
+          "example": "Die Tasche ist unter dem Tisch. = Le sac est sous la table."
         },
         {
           "word": "über",
           "meaning": "Plus / pour",
-          "example": "La lampe pend au-dessus de la table."
+          "example": "Die Lampe hängt über dem Tisch."
         },
         {
           "word": "zwischen",
           "meaning": "Entre deux choses",
-          "example": "Entre les maisons."
+          "example": "Zwischen den Häusern. = Entre les maisons."
         },
         {
           "word": "auf",
           "meaning": "Sur la surface",
-          "example": "Sur la table."
+          "example": "Auf dem Tisch. = Sur la table."
         }
       ],
       "tip": {
@@ -21194,22 +21126,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "Pour comprendre",
-          "example": "Je te comprends."
+          "example": "Ich verstehe dich. = Je te comprends."
         },
         {
           "word": "können",
           "meaning": "Pouvoir/savoir",
-          "example": "Je peux nager."
+          "example": "Ich kann schwimmen. = Je peux nager."
         },
         {
           "word": "wissen",
           "meaning": "Connaître le fait",
-          "example": "Je le sais."
+          "example": "Ich weiß das. = Je le sais."
         },
         {
           "word": "kennen",
           "meaning": "Savoir",
-          "example": "Je le connais."
+          "example": "Ich kenne ihn. = Je le connais."
         }
       ],
       "tip": {
@@ -21769,22 +21701,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "Avant / devant",
-          "example": "Avant le repas..."
+          "example": "Vor dem Essen... = Avant le repas..."
         },
         {
           "word": "nach",
           "meaning": "Après / à",
-          "example": "Après le repas..."
+          "example": "Nach dem Essen... = Après le repas..."
         },
         {
           "word": "neben",
           "meaning": "Près de",
-          "example": "À côté de la maison."
+          "example": "Neben dem Haus. = À côté de la maison."
         },
         {
           "word": "hinter",
           "meaning": "Derrière",
-          "example": "Derrière la maison."
+          "example": "Hinter dem Haus. = Derrière la maison."
         }
       ],
       "tip": {
@@ -22271,22 +22203,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Si/quand",
-          "example": "Si tu as du temps..."
+          "example": "Wenn du Zeit hast..."
         },
         {
           "word": "ob",
           "meaning": "Ou dans une question indirecte",
-          "example": "Je ne sais pas si..."
+          "example": "Ich weiß nicht, ob... = Je ne sais pas si..."
         },
         {
           "word": "wann",
           "meaning": "En cas de question",
-          "example": "Quand viens-tu ?"
+          "example": "Wann kommst du? = Quand viens-tu ?"
         },
         {
           "word": "weil",
           "meaning": "Parce que",
-          "example": "Je reste, parce que je suis malade."
+          "example": "Ich bleibe, weil ich krank bin. = Je reste, parce que je suis malade."
         }
       ],
       "tip": {
@@ -22683,22 +22615,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "Devenir",
-          "example": "Je deviens fatigué."
+          "example": "Ich werde müde. = Je deviens fatigué."
         },
         {
           "word": "sein",
           "meaning": "Être",
-          "example": "Je suis fatigué."
+          "example": "Ich bin müde. = Je suis fatigué."
         },
         {
           "word": "bleiben",
           "meaning": "Rester",
-          "example": "Je reste ici."
+          "example": "Ich bleibe hier. = Je reste ici."
         },
         {
           "word": "machen",
           "meaning": "Faire/faire",
-          "example": "Je fais ça."
+          "example": "Ich mache das. = Je fais ça."
         }
       ],
       "tip": {
@@ -22899,22 +22831,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Conditions météorologiques",
-          "example": "La météo est belle."
+          "example": "Das Wetter ist schön. = La météo est belle."
         },
         {
           "word": "Zeit",
           "meaning": "Temps (instant)",
-          "example": "Je n'ai pas de temps."
+          "example": "Ich habe keine Zeit. = Je n'ai pas de temps."
         },
         {
           "word": "Regen",
           "meaning": "Pluie",
-          "example": "Il y a beaucoup de pluie."
+          "example": "Es gibt viel Regen. = Il y a beaucoup de pluie."
         },
         {
           "word": "Sonne",
           "meaning": "Le soleil",
-          "example": "Le soleil brille."
+          "example": "Die Sonne scheint. = Le soleil brille."
         }
       ],
       "tip": [
@@ -23340,22 +23272,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "À / à / aussi / infinitif",
-          "example": "Je vais chez le médecin."
+          "example": "Ich gehe zum Arzt. = Je vais chez le médecin."
         },
         {
           "word": "nach",
           "meaning": "Vers avec les villes/pays",
-          "example": "Je vais à Berlin."
+          "example": "Ich fahre nach Berlin."
         },
         {
           "word": "in",
           "meaning": "Dans/vers un lieu",
-          "example": "Je vais à l'école."
+          "example": "Ich gehe in die Schule. = Je vais à l'école."
         },
         {
           "word": "bei",
           "meaning": "Chez quelqu'un / au travail",
-          "example": "Je suis chez Anna."
+          "example": "Ich bin bei Anna."
         }
       ],
       "tip": {
@@ -23566,22 +23498,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "Le train",
-          "example": "Le train arrive."
+          "example": "Der Zug kommt. = Le train arrive."
         },
         {
           "word": "die Bahn",
           "meaning": "Chemin de fer / voyager en train",
-          "example": "Je voyage en train."
+          "example": "Ich fahre mit der Bahn. = Je voyage en train."
         },
         {
           "word": "der Bus",
           "meaning": "Autobus",
-          "example": "L'autobus arrive."
+          "example": "Der Bus kommt. = L'autobus arrive."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Tram",
-          "example": "Le tramway est ici."
+          "example": "Die Straßenbahn ist hier. = Le tramway est ici."
         }
       ],
       "tip": {
@@ -24143,17 +24075,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Regarder la télévision",
-          "example": "Je regarde la télévision. = Je regarde la télévision."
+          "example": "Ich sehe fern. = Je regarde la télévision."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Télévision (médias)",
-          "example": "À la télévision, on diffuse un film. = À la télévision, on diffuse un film."
+          "example": "Im Fernsehen läuft ein Film. = À la télévision, on diffuse un film."
         },
         {
           "word": "sehen",
           "meaning": "Voir",
-          "example": "Je vois un film. = Je vois un film."
+          "example": "Ich sehe einen Film. = Je vois un film."
         }
       ],
       "tip": {

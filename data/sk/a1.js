@@ -149,14 +149,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Bábätko je ešte malé."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Mám malú tašku."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Bábätko je malé."
         }
       ],
       "tip": [
@@ -2530,11 +2522,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "Až kým",
           "example": "Bis jetzt habe ich nichts verstanden. – Čakám, kedy prídeš."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "Až doteraz, až dodnes",
-          "example": "Bis jetzt ist alles gut. – Zatiaľ je všetko v poriadku."
         }
       ],
       "tip": {
@@ -2656,18 +2643,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "Chcel by som jednu šálku kávy, prosím."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Mozem sa spytat?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mam jednu prosbu."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Žiadosť je dôležitá."
         }
       ],
       "tip": [
@@ -2778,18 +2753,6 @@ const A1_WORDS = [
         {
           "de": "Sie hat zwei Bitten.",
           "lv": "Chcel by som jednu šálku kávy, prosím."
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Mozem sa spytat?"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Mam jednu prosbu."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Žiadosť je dôležitá."
         }
       ],
       "tip": [
@@ -3181,10 +3144,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Berie knihu do školy."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Beriem knihu"
         }
       ],
       "comparison": [
@@ -4836,14 +4795,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "Toto je moja kniha."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Prší"
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Sneží"
         }
       ],
       "info": [
@@ -5636,10 +5587,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "Toto sa mi zdá dobré."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Čo si myslíte o filme?"
         }
       ],
       "comparison": [
@@ -5647,21 +5594,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "Nájsť/zvážiť",
           "example": "Ich finde das gut. = Myslím si, že je to dobré."
-        },
-        {
-          "word": "suchen",
-          "meaning": "Hľadať",
-          "example": "Ich suche den Schlüssel. = Hľadám kľúč."
-        },
-        {
-          "word": "denken",
-          "meaning": "Premýšľajte",
-          "example": "Myślę o tobie. = Myslím na teba."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Veriť/myslieť",
-          "example": "Ich glaube, er kommt. = Myslím, že príde."
         }
       ],
       "tip": {
@@ -18058,22 +17990,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Cez/nad/naprieč",
-          "example": "Hovoríme o počasí."
+          "example": "Wir sprechen über das Wetter. = Hovoríme o počasí."
         },
         {
           "word": "auf",
           "meaning": "Navonok",
-          "example": "Kniha leží na stole."
+          "example": "Das Buch liegt auf dem Tisch. = Kniha leží na stole."
         },
         {
           "word": "unter",
           "meaning": "Pod",
-          "example": "Taška je pod stolom."
+          "example": "Die Tasche ist unter dem Tisch. = Taška je pod stolom."
         },
         {
           "word": "von",
           "meaning": "Z/okolo nejakého zdroja",
-          "example": "Počujem od teba."
+          "example": "Ich höre von dir. = Počujem od teba."
         }
       ],
       "tip": {
@@ -18264,22 +18196,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "V/okolo/do",
-          "example": "Prídem o ôsmej."
+          "example": "Ich komme um acht. = Prídem o ôsmej."
         },
         {
           "word": "am",
           "meaning": "Denne / o",
-          "example": "V pondelok prídem."
+          "example": "Am Montag komme ich. = V pondelok prídem."
         },
         {
           "word": "gegen",
           "meaning": "O čase / vs",
-          "example": "Prídem okolo ôsmej."
+          "example": "Ich komme gegen acht. = Prídem okolo ôsmej."
         },
         {
           "word": "für",
           "meaning": "Pre/v prospech",
-          "example": "To je pre teba."
+          "example": "Das ist für dich. = To je pre teba."
         }
       ],
       "tip": {
@@ -18454,22 +18386,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "Pod/medzi",
-          "example": "Taška je pod stolom."
+          "example": "Die Tasche ist unter dem Tisch. = Taška je pod stolom."
         },
         {
           "word": "über",
           "meaning": "Pre/pre",
-          "example": "Lampa visí nad stolom."
+          "example": "Die Lampe hängt über dem Tisch. = Lampa visí nad stolom."
         },
         {
           "word": "zwischen",
           "meaning": "Medzi dvoma vecami",
-          "example": "Medzi domami."
+          "example": "Zwischen den Häusern. = Medzi domami."
         },
         {
           "word": "auf",
           "meaning": "Navonok",
-          "example": "Na stole."
+          "example": "Auf dem Tisch. = Na stole."
         }
       ],
       "tip": {
@@ -18679,22 +18611,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "Pochopte",
-          "example": "Rozumiem ti."
+          "example": "Ich verstehe dich. = Rozumiem ti."
         },
         {
           "word": "können",
           "meaning": "Môcť/vedieť",
-          "example": "Viem plávať."
+          "example": "Ich kann schwimmen. = Viem plávať."
         },
         {
           "word": "wissen",
           "meaning": "Viem jeden fakt",
-          "example": "Viem to."
+          "example": "Ich weiß das. = Viem to."
         },
         {
           "word": "kennen",
           "meaning": "Vedieť",
-          "example": "Poznám ho."
+          "example": "Ich kenne ihn. = Poznám ho."
         }
       ],
       "tip": {
@@ -19186,22 +19118,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "Pred/predtým",
-          "example": "Pred jedlom..."
+          "example": "Vor dem Essen... = Pred jedlom..."
         },
         {
           "word": "nach",
           "meaning": "Po / Do",
-          "example": "Po jedle..."
+          "example": "Nach dem Essen... = Po jedle..."
         },
         {
           "word": "neben",
           "meaning": "Blízko",
-          "example": "Vedľa domu."
+          "example": "Neben dem Haus. = Vedľa domu."
         },
         {
           "word": "hinter",
           "meaning": "Pre",
-          "example": "Za domom."
+          "example": "Hinter dem Haus. = Za domom."
         }
       ],
       "tip": {
@@ -19612,22 +19544,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Ak/kedy",
-          "example": "Ak máš čas..."
+          "example": "Wenn du Zeit hast... = Ak máš čas..."
         },
         {
           "word": "ob",
           "meaning": "Alebo v nepriamej otázke",
-          "example": "Neviem, či..."
+          "example": "Ich weiß nicht, ob... = Neviem, či..."
         },
         {
           "word": "wann",
           "meaning": "Keď na to príde",
-          "example": "Kedy prídeš?"
+          "example": "Wann kommst du? = Kedy prídeš?"
         },
         {
           "word": "weil",
           "meaning": "Pretože",
-          "example": "Ostávam, pretože som chorý."
+          "example": "Ich bleibe, weil ich krank bin. = Ostávam, pretože som chorý."
         }
       ],
       "tip": {
@@ -20018,22 +19950,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Poveternostné podmienky",
-          "example": "Počasie je krásne."
+          "example": "Das Wetter ist schön. = Počasie je krásne."
         },
         {
           "word": "Zeit",
           "meaning": "Čas (chvíľa)",
-          "example": "Nemám čas."
+          "example": "Ich habe keine Zeit. = Nemám čas."
         },
         {
           "word": "Regen",
           "meaning": "Dážď",
-          "example": "Padá veľa dažďa."
+          "example": "Es gibt viel Regen. = Padá veľa dažďa."
         },
         {
           "word": "Sonne",
           "meaning": "Slnko",
-          "example": "Slnko svieti."
+          "example": "Die Sonne scheint. = Slnko svieti."
         }
       ],
       "tip": [
@@ -20323,22 +20255,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "Do / v / príliš / infinitív",
-          "example": "Idem k lekárovi."
+          "example": "Ich gehe zum Arzt. = Idem k lekárovi."
         },
         {
           "word": "nach",
           "meaning": "S mestami/krajinami",
-          "example": "Jazdím do Berlína."
+          "example": "Ich fahre nach Berlin. = Jazdím do Berlína."
         },
         {
           "word": "in",
           "meaning": "Do/na miesto",
-          "example": "Idem do školy."
+          "example": "Ich gehe in die Schule. = Idem do školy."
         },
         {
           "word": "bei",
           "meaning": "U niekoho/v práci",
-          "example": "Som u Anny."
+          "example": "Ich bin bei Anna. = Som u Anny."
         }
       ],
       "tip": {

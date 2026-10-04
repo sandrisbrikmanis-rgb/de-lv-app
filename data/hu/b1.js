@@ -20831,7 +20831,7 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "Mindennap kapni",
-          "example": "Ich bekomme eine E-mailt."
+          "example": "Ich bekomme eine E-Mail."
         },
         {
           "word": "begrüßen",
@@ -48285,7 +48285,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "Küldeni",
-          "example": "Ich schicke dir eine E-mailt küldök."
+          "example": "Ich schicke dir eine E-Mail."
         },
         {
           "word": "urteilen",

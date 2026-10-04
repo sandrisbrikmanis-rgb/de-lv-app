@@ -156,14 +156,6 @@ const A1_WORDS = [
         {
           "de": "Ich habe eine kleine Tasche.",
           "lv": "Barnet er stadig lille."
-        },
-        {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "Jeg har en lille taske."
-        },
-        {
-          "de": "Das Kind ist klein.",
-          "lv": "Barnet ist klein."
         }
       ],
       "tip": [
@@ -1940,22 +1932,22 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "Svøm/vær i vand/vask",
-          "example": "Jeg går badning."
+          "example": "Ich gehe baden. = Jeg går badning."
         },
         {
           "word": "schwimmen",
           "meaning": "At svømme som en bevægelse eller sport",
-          "example": "Han svømmer meget godt."
+          "example": "Er schwimmt sehr gut. = Han svømmer meget godt."
         },
         {
           "word": "duschen",
           "meaning": "Tag et brusebad",
-          "example": "Jeg bader om morgenen."
+          "example": "Ich dusche am Morgen. = Jeg bader om morgenen."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Tag på svømning",
-          "example": "Jeg går i dag til at svømme."
+          "example": "Ich gehe heute schwimmen. = Jeg går i dag til at svømme."
         }
       ],
       "tip": {
@@ -2571,16 +2563,16 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Ich besuche meine Großeltern.",
-          "lv": "Jeg besøger mine bedsteforældre."
-        },
-        {
-          "de": "Wir besuchen das Museum.",
+          "de": "Ich besuche das Museum.",
           "lv": "Vi besøger museet."
         },
         {
-          "de": "Er besucht einen Freund.",
+          "de": "Wir besuchen einen Deutschkurs.",
           "lv": "Han besøger en ven."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Jeg besøger mine bedsteforældre."
         }
       ],
       "comparison": [
@@ -2808,11 +2800,6 @@ const A1_WORDS = [
           "word": "bis jetzt",
           "meaning": "Indtil",
           "example": "Bis jetzt habe ich nichts verstanden. – Jeg venter på, at du kommer."
-        },
-        {
-          "word": "bis jetzt",
-          "meaning": "Indtil nu, indtil denne dag",
-          "example": "Bis jetzt ist alles gut. – Så langt så godt."
         }
       ],
       "tip": {
@@ -2936,18 +2923,6 @@ const A1_WORDS = [
         {
           "de": "Bitte schön!",
           "lv": "Værsgo!"
-        },
-        {
-          "de": "Kann ich bitte fragen?",
-          "lv": "Må jeg spørge venligst"
-        },
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Jeg har en anmodning."
-        },
-        {
-          "de": "Die Bitte ist wichtig.",
-          "lv": "Anmodningen er vigtig."
         }
       ],
       "tip": {
@@ -3222,22 +3197,22 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "Ophold",
-          "example": "Jeg bliver her."
+          "example": "Ich bleibe hier. = Jeg bliver her."
         },
         {
           "word": "gehen",
           "meaning": "Gå / gå til fods",
-          "example": "Jeg går hjem."
+          "example": "Ich gehe nach Hause. = Jeg går hjem."
         },
         {
           "word": "fahren",
           "meaning": "Kør/gå med transport",
-          "example": "Jeg kører hjem."
+          "example": "Ich fahre nach Hause. = Jeg kører hjem."
         },
         {
           "word": "warten",
           "meaning": "At vente",
-          "example": "Jeg venter her."
+          "example": "Ich warte hier. = Jeg venter her."
         }
       ],
       "tip": {
@@ -3481,10 +3456,6 @@ const A1_WORDS = [
         {
           "de": "Ich bringe die Kinder zur Schule.",
           "lv": "Jeg kører børnene i skole."
-        },
-        {
-          "de": "Ich nehme das Buch.",
-          "lv": "Jeg tager bogen"
         }
       ],
       "comparison": [
@@ -3506,7 +3477,7 @@ const A1_WORDS = [
         {
           "word": "bringen",
           "meaning": "Tag væk og medbring",
-          "example": "Bringst du Brot mit? -- Tager du brød med?"
+          "example": "Ich bringe dir ein Buch. -- Tager du brød med?"
         },
         {
           "word": "nehmen",
@@ -3795,22 +3766,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Der • Her • Her (generelt)",
-          "example": "Der er min bil."
+          "example": "Da ist mein Auto."
         },
         {
           "word": "hier",
           "meaning": "Her (på et bestemt sted)",
-          "example": "Her er min bil."
+          "example": "Hier ist mein Auto."
         },
         {
           "word": "dort",
           "meaning": "Der (videre)",
-          "example": "Dort er min bil."
+          "example": "Dort ist mein Auto."
         },
         {
           "word": "dann",
           "meaning": "Så",
-          "example": "Så går vi hjem."
+          "example": "Dann gehen wir nach Hause. = Så går vi hjem."
         }
       ],
       "tip": {
@@ -4865,22 +4836,22 @@ const A1_WORDS = [
         {
           "word": "ein Mann",
           "meaning": "hankøn",
-          "example": "En mand venter udenfor."
+          "example": "Ein Mann wartet draußen. = En mand venter udenfor."
         },
         {
           "word": "eine Frau",
           "meaning": "hunkøn",
-          "example": "en kvinde"
+          "example": "eine Frau = en kvinde"
         },
         {
           "word": "ein Buch",
           "meaning": "intetkøn",
-          "example": "Jeg har en bog."
+          "example": "Ich habe ein Buch. = Jeg har en bog."
         },
         {
           "word": "einen Mann",
           "meaning": "akkusativ",
-          "example": "en mand"
+          "example": "einen Mann = en mand"
         }
       ]
     }
@@ -5392,14 +5363,6 @@ const A1_WORDS = [
         {
           "de": "Es ist müde.",
           "lv": "Det er træt."
-        },
-        {
-          "de": "Es regnet.",
-          "lv": "Det regner."
-        },
-        {
-          "de": "Es schneit.",
-          "lv": "Det sner."
         }
       ],
       "info": [
@@ -5874,27 +5837,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "Kør transporten",
-          "example": "Jeg kører med bussen."
+          "example": "Ich fahre mit dem Bus. = Jeg kører med bussen."
         },
         {
           "word": "gehen",
           "meaning": "Gå til fods",
-          "example": "Jeg går hjem."
+          "example": "Ich gehe nach Hause. = Jeg går hjem."
         },
         {
           "word": "laufen",
           "meaning": "Løb / gå",
-          "example": "Han løber hurtigt."
+          "example": "Er läuft schnell. = Han løber hurtigt."
         },
         {
           "word": "bringen",
           "meaning": "Medbring/lever",
-          "example": "Jeg bringer bogen."
+          "example": "Ich bringe das Buch. = Jeg bringer bogen."
         },
         {
           "word": "mitnehmen",
           "meaning": "Tag med dig",
-          "example": "Jeg tager dig med."
+          "example": "Ich nehme dich mit. = Jeg tager dig med."
         }
       ],
       "tip": {
@@ -6249,10 +6212,6 @@ const A1_WORDS = [
         {
           "de": "Wie findest du den Film?",
           "lv": "Det forekommer mig godt."
-        },
-        {
-          "de": "Wie findest du den Film?",
-          "lv": "Hvad synes du om filmen?"
         }
       ],
       "comparison": [
@@ -6260,21 +6219,6 @@ const A1_WORDS = [
           "word": "finden",
           "meaning": "Find/overvej",
           "example": "Ich finde das gut. = Jeg synes, det er godt."
-        },
-        {
-          "word": "suchen",
-          "meaning": "At søge",
-          "example": "Ich suche den Schlüssel. = Jeg leder efter nøglen."
-        },
-        {
-          "word": "denken",
-          "meaning": "At tænke",
-          "example": "Ich denke an dich. = Jeg tænker på dig."
-        },
-        {
-          "word": "glauben",
-          "meaning": "Tro/tænk",
-          "example": "Ich glaube, er kommt. = Jeg tror, han kommer."
         }
       ],
       "tip": {
@@ -6939,7 +6883,7 @@ const A1_WORDS = [
         {
           "word": "der Fußball",
           "meaning": "en fodbold",
-          "example": "Der Fußball liegt im Garten. – Fodbolden ligger i haven."
+          "example": "Der Fußball ist neu. – Fodbolden ligger i haven."
         }
       ],
       "tip": [
@@ -7062,22 +7006,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "At give",
-          "example": "Giv mig bogen."
+          "example": "Gib mir das Buch. = Giv mig bogen."
         },
         {
           "word": "nehmen",
           "meaning": "At tage / at tage",
-          "example": "Jeg tager bogen."
+          "example": "Ich nehme das Buch. = Jeg tager bogen."
         },
         {
           "word": "bekommen",
           "meaning": "Modtage/få",
-          "example": "Jeg får en gave."
+          "example": "Ich bekomme ein Geschenk. = Jeg får en gave."
         },
         {
           "word": "bringen",
           "meaning": "Medbring/lever",
-          "example": "Jeg bringer dig bogen."
+          "example": "Ich bringe dir das Buch. = Jeg bringer dig bogen."
         }
       ],
       "tip": {
@@ -11614,7 +11558,7 @@ const A1_WORDS = [
         {
           "word": "das Dorf",
           "meaning": "landsby",
-          "example": "Er wohnt in einem Dorf. – Han bor i en landsby."
+          "example": "Er lebt in einem Dorf. – Han bor i en landsby."
         },
         {
           "word": "die Erde",
@@ -11919,22 +11863,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Forlad / lad",
-          "example": "Jeg efterlader det her."
+          "example": "Ich lasse das hier. = Jeg efterlader det her."
         },
         {
           "word": "bleiben",
           "meaning": "Ophold",
-          "example": "Jeg bliver her."
+          "example": "Ich bleibe hier. = Jeg bliver her."
         },
         {
           "word": "erlauben",
           "meaning": "Tillade",
-          "example": "Hun tillader mig det."
+          "example": "Sie erlaubt mir das. = Hun tillader mig det."
         },
         {
           "word": "geben",
           "meaning": "At give",
-          "example": "Giv mig bogen."
+          "example": "Gib mir das Buch. = Giv mig bogen."
         }
       ],
       "tip": {
@@ -12130,22 +12074,22 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Kør/betjen",
-          "example": "Han løber hurtigt."
+          "example": "Er läuft schnell. = Han løber hurtigt."
         },
         {
           "word": "gehen",
           "meaning": "Gå til fods",
-          "example": "Jeg går hjem."
+          "example": "Ich gehe nach Hause. = Jeg går hjem."
         },
         {
           "word": "fahren",
           "meaning": "Kør transporten",
-          "example": "Jeg kører med bussen."
+          "example": "Ich fahre mit dem Bus. = Jeg kører med bussen."
         },
         {
           "word": "funktionieren",
           "meaning": "At operere",
-          "example": "Det fungerer godt."
+          "example": "Das funktioniert gut. = Det fungerer godt."
         }
       ],
       "tip": {
@@ -12669,22 +12613,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Læg ned",
-          "example": "Jeg lægger bogen på bordet."
+          "example": "Ich lege das Buch auf den Tisch. = Jeg lægger bogen på bordet."
         },
         {
           "word": "liegen",
           "meaning": "At være / sove",
-          "example": "Bogen ligger på bordet."
+          "example": "Das Buch liegt auf dem Tisch. = Bogen ligger på bordet."
         },
         {
           "word": "stellen",
           "meaning": "Sæt oprejst",
-          "example": "Jeg stiller flasken på bordet."
+          "example": "Ich stelle die Flasche auf den Tisch. = Jeg stiller flasken på bordet."
         },
         {
           "word": "setzen",
           "meaning": "Sæt dig ned / sæt dig ned",
-          "example": "Jeg sætter mig ned."
+          "example": "Ich setze mich. = Jeg sætter mig ned."
         }
       ],
       "tip": {
@@ -13092,22 +13036,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "At være / sove",
-          "example": "Bogen ligger her."
+          "example": "Das Buch liegt hier. = Bogen ligger her."
         },
         {
           "word": "legen",
           "meaning": "Læg ned",
-          "example": "Jeg lægger bogen her."
+          "example": "Ich lege das Buch hierhin. = Jeg lægger bogen her."
         },
         {
           "word": "stehen",
           "meaning": "Stå/vær stående",
-          "example": "Flasken står på bordet."
+          "example": "Die Flasche steht auf dem Tisch. = Flasken står på bordet."
         },
         {
           "word": "sein",
           "meaning": "At være",
-          "example": "Jeg er her."
+          "example": "Ich bin hier."
         }
       ],
       "tip": {
@@ -13922,22 +13866,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "Med / sammen med",
-          "example": "Jeg kommer med dig."
+          "example": "Ich komme mit dir. = Jeg kommer med dig."
         },
         {
           "word": "ohne",
           "meaning": "Uden",
-          "example": "Jeg kommer uden dig."
+          "example": "Ich komme ohne dich. = Jeg kommer uden dig."
         },
         {
           "word": "bei",
           "meaning": "Hos / hos nogen",
-          "example": "Jeg er hos Anna."
+          "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
           "meaning": "Til / kl",
-          "example": "Jeg går til lægen."
+          "example": "Ich gehe zum Arzt. = Jeg går til lægen."
         }
       ],
       "tip": {
@@ -14153,22 +14097,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "At kunne lide",
-          "example": "Jeg kan lide musik."
+          "example": "Ich mag Musik."
         },
         {
           "word": "möchte",
           "meaning": "Vil gerne",
-          "example": "Jeg ønsker kaffe."
+          "example": "Ich möchte Kaffee. = Jeg ønsker kaffe."
         },
         {
           "word": "wollen",
           "meaning": "Vil du",
-          "example": "Jeg vil hjem."
+          "example": "Ich will nach Hause. = Jeg vil hjem."
         },
         {
           "word": "lieben",
           "meaning": "At elske",
-          "example": "Jeg elsker dig."
+          "example": "Ich liebe dich. = Jeg elsker dig."
         }
       ],
       "tip": {
@@ -14709,22 +14653,22 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Behøver/skal gøre",
-          "example": "Jeg skal gå."
+          "example": "Ich muss gehen. = Jeg skal gå."
         },
         {
           "word": "können",
           "meaning": "Kunne/kende",
-          "example": "Jeg kan komme."
+          "example": "Ich kann kommen. = Jeg kan komme."
         },
         {
           "word": "wollen",
           "meaning": "Vil du",
-          "example": "Jeg vil hjem."
+          "example": "Ich will nach Hause. = Jeg vil hjem."
         },
         {
           "word": "dürfen",
           "meaning": "At få lov",
-          "example": "Må jeg gå?"
+          "example": "Darf ich gehen? = Må jeg gå?"
         }
       ],
       "tip": {
@@ -14940,22 +14884,22 @@ const A1_WORDS = [
         {
           "word": "nach",
           "meaning": "Til/efter",
-          "example": "Jeg kører til Berlin."
+          "example": "Ich fahre nach Berlin."
         },
         {
           "word": "zu",
           "meaning": "Til / kl",
-          "example": "Jeg går til lægen."
+          "example": "Ich gehe zum Arzt. = Jeg går til lægen."
         },
         {
           "word": "in",
           "meaning": "I / til stedet med artiklen",
-          "example": "Jeg går til skolen."
+          "example": "Ich gehe in die Schule. = Jeg går til skolen."
         },
         {
           "word": "vor",
           "meaning": "Før / foran",
-          "example": "Før maden vasker jeg hænderne."
+          "example": "Vor dem Essen wasche ich die Hände. = Før maden vasker jeg hænderne."
         }
       ],
       "tip": {
@@ -15357,22 +15301,22 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "At tage / at tage",
-          "example": "Tag bogen!"
+          "example": "Nimm das Buch! = Tag bogen!"
         },
         {
           "word": "bringen",
           "meaning": "Medbring/tag/lever",
-          "example": "Jeg bringer dig bogen."
+          "example": "Ich bringe dir das Buch. = Jeg bringer dig bogen."
         },
         {
           "word": "holen",
           "meaning": "Gå efter/hent",
-          "example": "Jeg henter vand."
+          "example": "Ich hole Wasser. = Jeg henter vand."
         },
         {
           "word": "mitnehmen",
           "meaning": "Tag med dig",
-          "example": "Jeg tager dig med."
+          "example": "Ich nehme dich mit. = Jeg tager dig med."
         }
       ],
       "tip": {
@@ -16105,22 +16049,22 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "Eller i et indirekte spørgsmål",
-          "example": "Jeg ved ikke, om han kommer."
+          "example": "Ich weiß nicht, ob er kommt. = Jeg ved ikke, om han kommer."
         },
         {
           "word": "oder",
           "meaning": "Eller vælg mellem muligheder",
-          "example": "Kaffe eller te?"
+          "example": "Kaffee oder Tee? = Kaffe eller te?"
         },
         {
           "word": "wenn",
           "meaning": "Hvis / hvornår",
-          "example": "Hvis du har tid..."
+          "example": "Wenn du Zeit hast..."
         },
         {
           "word": "dass",
           "meaning": "At",
-          "example": "Jeg ved, at han kommer."
+          "example": "Ich weiß, dass er kommt. = Jeg ved, at han kommer."
         }
       ],
       "tip": {
@@ -16329,22 +16273,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Eller vælg",
-          "example": "Kaffe eller te?"
+          "example": "Kaffee oder Tee? = Kaffe eller te?"
         },
         {
           "word": "ob",
           "meaning": "Eller i et indirekte spørgsmål",
-          "example": "Jeg ved ikke, om han kommer."
+          "example": "Ich weiß nicht, ob er kommt. = Jeg ved ikke, om han kommer."
         },
         {
           "word": "und",
           "meaning": "Og",
-          "example": "Kaffe og kage."
+          "example": "Kaffee und Kuchen. = Kaffe og kage."
         },
         {
           "word": "aber",
           "meaning": "Men",
-          "example": "Jeg kommer, men senere."
+          "example": "Ich komme, aber später. = Jeg kommer, men senere."
         }
       ],
       "tip": {
@@ -16613,22 +16557,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Pasform / pasform",
-          "example": "Jakken passer mig."
+          "example": "Die Jacke passt mir. = Jakken passer mig."
         },
         {
           "word": "stehen",
           "meaning": "At stå / at stå",
-          "example": "Rød ser godt ud på dig."
+          "example": "Rot steht dir gut. = Rød ser godt ud på dig."
         },
         {
           "word": "geeignet sein",
           "meaning": "At være egnet",
-          "example": "Det er egnet."
+          "example": "Das ist geeignet."
         },
         {
           "word": "funktionieren",
           "meaning": "At operere",
-          "example": "Det fungerer."
+          "example": "Das funktioniert. = Det fungerer."
         }
       ],
       "tip": {
@@ -16899,22 +16843,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Prøv / smag",
-          "example": "Smag suppen!"
+          "example": "Probier mal die Suppe! = Smag suppen!"
         },
         {
           "word": "versuchen",
           "meaning": "At prøve",
-          "example": "Jeg prøver det."
+          "example": "Ich versuche es. = Jeg prøver det."
         },
         {
           "word": "prüfen",
           "meaning": "At tjekke",
-          "example": "Jeg kontrollerer regningen."
+          "example": "Ich prüfe die Rechnung. = Jeg kontrollerer regningen."
         },
         {
           "word": "anprobieren",
           "meaning": "For at prøve",
-          "example": "Jeg prøver jakken på."
+          "example": "Ich probiere die Jacke an. = Jeg prøver jakken på."
         }
       ],
       "tip": {
@@ -17703,22 +17647,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "At svømme som en bevægelse eller sport",
-          "example": "Han svømmer meget godt."
+          "example": "Er schwimmt sehr gut. = Han svømmer meget godt."
         },
         {
           "word": "baden",
           "meaning": "Svøm/vær i vand",
-          "example": "Jeg går badning."
+          "example": "Ich gehe baden. = Jeg går badning."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Tag på svømning",
-          "example": "Vi går til at svømme."
+          "example": "Wir gehen schwimmen. = Vi går til at svømme."
         },
         {
           "word": "duschen",
           "meaning": "Tag et brusebad",
-          "example": "Jeg bader om morgenen."
+          "example": "Ich dusche morgens. = Jeg bader om morgenen."
         }
       ],
       "tip": {
@@ -17955,22 +17899,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "At se",
-          "example": "Jeg ser dig."
+          "example": "Ich sehe dich. = Jeg ser dig."
         },
         {
           "word": "schauen",
           "meaning": "Ur",
-          "example": "Jeg ser på billedet."
+          "example": "Ich schaue auf das Bild. = Jeg ser på billedet."
         },
         {
           "word": "ansehen",
           "meaning": "Se/se",
-          "example": "Jeg ser filmen."
+          "example": "Ich sehe mir den Film an. = Jeg ser filmen."
         },
         {
           "word": "hören",
           "meaning": "At høre",
-          "example": "Jeg hører musik."
+          "example": "Ich höre Musik."
         }
       ],
       "tip": {
@@ -18177,22 +18121,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "At være",
-          "example": "Jeg er her."
+          "example": "Ich bin hier."
         },
         {
           "word": "haben",
           "meaning": "Jeg har",
-          "example": "Jeg har tid."
+          "example": "Ich habe Zeit. = Jeg har tid."
         },
         {
           "word": "werden",
           "meaning": "At blive",
-          "example": "Jeg bliver træt."
+          "example": "Ich werde müde. = Jeg bliver træt."
         },
         {
           "word": "bleiben",
           "meaning": "Ophold",
-          "example": "Jeg bliver her."
+          "example": "Ich bleibe hier. = Jeg bliver her."
         }
       ],
       "tip": {
@@ -18551,22 +18495,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "Mig selv / mig selv",
-          "example": "Han vasker sig."
+          "example": "Er wäscht sich. = Han vasker sig."
         },
         {
           "word": "mich",
           "meaning": "Mig / mig selv på ich",
-          "example": "Jeg vasker mig."
+          "example": "Ich wasche mich. = Jeg vasker mig."
         },
         {
           "word": "dich",
           "meaning": "Dig / mig selv på du",
-          "example": "Du vasker dig."
+          "example": "Du wäschst dich."
         },
         {
           "word": "ihn",
           "meaning": "Ham",
-          "example": "Jeg ser ham."
+          "example": "Ich sehe ihn. = Jeg ser ham."
         }
       ],
       "tip": {
@@ -19261,22 +19205,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "At sidde",
-          "example": "Jeg sidder ved bordet."
+          "example": "Ich sitze am Tisch. = Jeg sidder ved bordet."
         },
         {
           "word": "stehen",
           "meaning": "At stå",
-          "example": "Han står ved døren."
+          "example": "Er steht an der Tür. = Han står ved døren."
         },
         {
           "word": "liegen",
           "meaning": "Sov/lig dig",
-          "example": "Katten ligger der."
+          "example": "Die Katze liegt dort."
         },
         {
           "word": "setzen",
           "meaning": "At sidde/sætte sig ned",
-          "example": "Jeg sætter mig ned."
+          "example": "Ich setze mich. = Jeg sætter mig ned."
         }
       ],
       "tip": {
@@ -19510,22 +19454,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Bør/bør gøre som anvist",
-          "example": "Hvad skal jeg gøre?"
+          "example": "Was soll ich machen? = Hvad skal jeg gøre?"
         },
         {
           "word": "müssen",
           "meaning": "Absolut brug for",
-          "example": "Jeg skal gå."
+          "example": "Ich muss gehen. = Jeg skal gå."
         },
         {
           "word": "können",
           "meaning": "Kunne",
-          "example": "Jeg kan komme."
+          "example": "Ich kann kommen. = Jeg kan komme."
         },
         {
           "word": "wollen",
           "meaning": "Vil du",
-          "example": "Jeg vil blive."
+          "example": "Ich will bleiben. = Jeg vil blive."
         }
       ],
       "tip": {
@@ -19803,22 +19747,22 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "Stå/vær stående",
-          "example": "Jeg står her."
+          "example": "Ich stehe hier. = Jeg står her."
         },
         {
           "word": "sitzen",
           "meaning": "At sidde",
-          "example": "Han sidder ved bordet."
+          "example": "Er sitzt am Tisch. = Han sidder ved bordet."
         },
         {
           "word": "liegen",
           "meaning": "Sov/lig dig",
-          "example": "Bogen ligger der."
+          "example": "Das Buch liegt dort."
         },
         {
           "word": "stellen",
           "meaning": "Sæt oprejst",
-          "example": "Jeg stiller flasken hen."
+          "example": "Ich stelle die Flasche hin. = Jeg stiller flasken hen."
         }
       ],
       "tip": {
@@ -20225,22 +20169,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Over / over / på tværs",
-          "example": "Vi taler om vejret."
+          "example": "Wir sprechen über das Wetter. = Vi taler om vejret."
         },
         {
           "word": "auf",
           "meaning": "På overfladen",
-          "example": "Bogen ligger på bordet."
+          "example": "Das Buch liegt auf dem Tisch. = Bogen ligger på bordet."
         },
         {
           "word": "unter",
           "meaning": "Under",
-          "example": "Tasken er under bordet."
+          "example": "Die Tasche ist unter dem Tisch."
         },
         {
           "word": "von",
           "meaning": "Fra/om fra en eller anden kilde",
-          "example": "Jeg hører fra dig."
+          "example": "Ich höre von dir. = Jeg hører fra dig."
         }
       ],
       "tip": {
@@ -20455,22 +20399,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "Ved / omkring / til",
-          "example": "Jeg kommer klokken otte."
+          "example": "Ich komme um acht. = Jeg kommer klokken otte."
         },
         {
           "word": "am",
           "meaning": "Pr. dag / kl",
-          "example": "På mandag kommer jeg."
+          "example": "Am Montag komme ich. = På mandag kommer jeg."
         },
         {
           "word": "gegen",
           "meaning": "Omkring tid / vs",
-          "example": "Jeg kommer omkring klokken otte."
+          "example": "Ich komme gegen acht. = Jeg kommer omkring klokken otte."
         },
         {
           "word": "für",
           "meaning": "For / til fordel for",
-          "example": "Det er for dig."
+          "example": "Das ist für dich."
         }
       ],
       "tip": {
@@ -20691,22 +20635,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "Under/mellem",
-          "example": "Tasken er under bordet."
+          "example": "Die Tasche ist unter dem Tisch."
         },
         {
           "word": "über",
           "meaning": "Over / for",
-          "example": "Lampen hænger over bordet."
+          "example": "Die Lampe hängt über dem Tisch. = Lampen hænger over bordet."
         },
         {
           "word": "zwischen",
           "meaning": "Mellem to ting",
-          "example": "Mellem husene."
+          "example": "Zwischen den Häusern. = Mellem husene."
         },
         {
           "word": "auf",
           "meaning": "På overfladen",
-          "example": "På bordet."
+          "example": "Auf dem Tisch. = På bordet."
         }
       ],
       "tip": {
@@ -20941,22 +20885,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "At forstå",
-          "example": "Jeg forstår dig."
+          "example": "Ich verstehe dich. = Jeg forstår dig."
         },
         {
           "word": "können",
           "meaning": "Kunne/kende",
-          "example": "Jeg kan svømme."
+          "example": "Ich kann schwimmen. = Jeg kan svømme."
         },
         {
           "word": "wissen",
           "meaning": "Kend kendsgerningen",
-          "example": "Jeg ved det."
+          "example": "Ich weiß das. = Jeg ved det."
         },
         {
           "word": "kennen",
           "meaning": "At vide",
-          "example": "Jeg kender ham."
+          "example": "Ich kenne ihn. = Jeg kender ham."
         }
       ],
       "tip": {
@@ -21516,22 +21460,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "Før / foran",
-          "example": "Før maden..."
+          "example": "Vor dem Essen... = Før maden..."
         },
         {
           "word": "nach",
           "meaning": "Efter / til",
-          "example": "Efter maden..."
+          "example": "Nach dem Essen... = Efter maden..."
         },
         {
           "word": "neben",
           "meaning": "Ved siden af",
-          "example": "Ved siden af huset."
+          "example": "Neben dem Haus. = Ved siden af huset."
         },
         {
           "word": "hinter",
           "meaning": "Bagved",
-          "example": "Bag huset."
+          "example": "Hinter dem Haus. = Bag huset."
         }
       ],
       "tip": {
@@ -22018,22 +21962,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Hvis / hvornår",
-          "example": "Hvis du har tid..."
+          "example": "Wenn du Zeit hast..."
         },
         {
           "word": "ob",
           "meaning": "Eller i et indirekte spørgsmål",
-          "example": "Jeg ved ikke, om..."
+          "example": "Ich weiß nicht, ob... = Jeg ved ikke, om..."
         },
         {
           "word": "wann",
           "meaning": "Når der er tale om",
-          "example": "Hvornår kommer du?"
+          "example": "Wann kommst du?"
         },
         {
           "word": "weil",
           "meaning": "Fordi",
-          "example": "Jeg bliver, fordi jeg er syg."
+          "example": "Ich bleibe, weil ich krank bin."
         }
       ],
       "tip": {
@@ -22430,22 +22374,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "At blive",
-          "example": "Jeg bliver træt."
+          "example": "Ich werde müde. = Jeg bliver træt."
         },
         {
           "word": "sein",
           "meaning": "At være",
-          "example": "Jeg er træt."
+          "example": "Ich bin müde."
         },
         {
           "word": "bleiben",
           "meaning": "Ophold",
-          "example": "Jeg bliver her."
+          "example": "Ich bleibe hier. = Jeg bliver her."
         },
         {
           "word": "machen",
           "meaning": "At gøre/lave",
-          "example": "Jeg gør det."
+          "example": "Ich mache das. = Jeg gør det."
         }
       ],
       "tip": {
@@ -22646,22 +22590,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Vejrforhold",
-          "example": "Vejret er smukt."
+          "example": "Das Wetter ist schön."
         },
         {
           "word": "Zeit",
           "meaning": "Tid (øjeblik)",
-          "example": "Jeg har ingen tid."
+          "example": "Ich habe keine Zeit. = Jeg har ingen tid."
         },
         {
           "word": "Regen",
           "meaning": "Regn",
-          "example": "Der er meget regn."
+          "example": "Es gibt viel Regen."
         },
         {
           "word": "Sonne",
           "meaning": "Solen",
-          "example": "Solen skinner."
+          "example": "Die Sonne scheint. = Solen skinner."
         }
       ],
       "tip": [
@@ -23087,22 +23031,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "Til / ved / også / infinitiv",
-          "example": "Jeg går til lægen."
+          "example": "Ich gehe zum Arzt. = Jeg går til lægen."
         },
         {
           "word": "nach",
           "meaning": "Til med byer/lande",
-          "example": "Jeg kører til Berlin."
+          "example": "Ich fahre nach Berlin."
         },
         {
           "word": "in",
           "meaning": "I/til et sted",
-          "example": "Jeg går i skole."
+          "example": "Ich gehe in die Schule. = Jeg går i skole."
         },
         {
           "word": "bei",
           "meaning": "Hos nogen / på arbejde",
-          "example": "Jeg er hos Anna."
+          "example": "Ich bin bei Anna."
         }
       ],
       "tip": {
@@ -23313,22 +23257,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "Toget",
-          "example": "Toget kommer."
+          "example": "Der Zug kommt. = Toget kommer."
         },
         {
           "word": "die Bahn",
           "meaning": "Jernbane / rejser med tog",
-          "example": "Jeg kører med toget."
+          "example": "Ich fahre mit der Bahn. = Jeg kører med toget."
         },
         {
           "word": "der Bus",
           "meaning": "Bus",
-          "example": "Bussen kommer."
+          "example": "Der Bus kommt. = Bussen kommer."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Sporvogn",
-          "example": "Sporvognen er her."
+          "example": "Die Straßenbahn ist hier."
         }
       ],
       "tip": {

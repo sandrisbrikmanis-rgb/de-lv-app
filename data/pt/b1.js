@@ -20823,7 +20823,7 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "Sanemt ikdiena",
-          "example": "Ich bekomme eine E-Pastu."
+          "example": "Ich bekomme eine E-Mail."
         },
         {
           "word": "begrüßen",
@@ -48281,7 +48281,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "Terno",
-          "example": "Ich schicke dir eine E-Pastu."
+          "example": "Ich schicke dir eine E-Mail."
         },
         {
           "word": "urteilen",

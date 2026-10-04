@@ -196,23 +196,7 @@ const C2_WORDS = [
           "lv": "Το γραμμάριο και ο τόνος είναι μονάδες βάρους."
         }
       ],
-      "comparison": [
-        {
-          "word": "Die Gewichtseinheit",
-          "meaning": "Μονάδα βάρους (π.χ. κιλό, γραμμάριο)",
-          "example": "Kilogramm ist eine Gewichtseinheit. = Το κιλό είναι μονάδα βάρους."
-        },
-        {
-          "word": "Das Gewicht",
-          "meaning": "Βάρος (ειδική τιμή)",
-          "example": "Das Gewicht des Pakets beträgt 5 kg. = Το βάρος της συσκευασίας είναι 5 κιλά."
-        },
-        {
-          "word": "Die Masse",
-          "meaning": "Μάζα (φυσική ποσότητα)",
-          "example": "Die Masse eines Objekts ändert sich nicht. = Η μάζα του αντικειμένου δεν αλλάζει."
-        }
-      ],
+      "comparison": [],
       "tip": "Η σύνθετη λέξη αποτελείται από τα μέρη das Gewicht (βάρος) + die Einheit (μονάδα) — μονάδα βάρους.",
       "important": "Μην συγχέετε το die Gewichtseinheit (μονάδα μέτρησης, π.χ. χιλιόγραμμο) και το das Gewicht (το ίδιο το βάρος, μια συγκεκριμένη τιμή)."
     }
