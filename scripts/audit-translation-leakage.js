@@ -11,6 +11,8 @@
  * 8. Comparison is level plus array index against the LV card. No field is rewritten.
  * 9. SAME_AS_LV, LV_DIACRITIC, SCRIPT_MISMATCH and FAMILY_COPY can co-occur.
  * 10. A short cognate, a number, or an LV capitalised value is COGNATE_REVIEW and is not counted as SAME_AS_LV.
+ * 11. INCONSISTENT_DUPLICATE compares the 53 SAME_LV cross-level pairs. It does not choose a translation.
+ * 12. Level rows report each check as a count and a percent of that level's own records.
  */
 const fs = require("fs");
 const path = require("path");
@@ -213,6 +215,183 @@ function summaryFor(findings, recordCount) {
   return { table, top: top.slice(0, 20), recordCount };
 }
 
+const LEVEL_ORDER = { A1: 0, A2: 1, B1: 2, B2: 3, C1: 4, C2: 5 };
+const PAIR_DIGEST = "6ca4069dd6c5a39a1d12033a38fcd5d9e5b5811af6299696726ef94ad0c949be";
+const LEVEL_CHECKS = ["SAME_AS_LV", "COGNATE_REVIEW", "LV_DIACRITIC", "SCRIPT_MISMATCH", "FAMILY_COPY"];
+
+function rawField(entry, key) {
+  if (!entry || typeof entry !== "object" || !Object.prototype.hasOwnProperty.call(entry, key) || entry[key] == null) return "";
+  if (typeof entry[key] !== "string") return "";
+  return entry[key];
+}
+
+function sameLvPairs(lvByFile) {
+  const rows = [];
+  LEVELS.forEach((file) => {
+    lvByFile[file].forEach((entry, index) => {
+      const deBad = entry && Object.prototype.hasOwnProperty.call(entry, "de") && entry.de != null && typeof entry.de !== "string";
+      const articleBad = entry && Object.prototype.hasOwnProperty.call(entry, "de_article") && entry.de_article != null && typeof entry.de_article !== "string";
+      const lvBad = entry && Object.prototype.hasOwnProperty.call(entry, "lv") && entry.lv != null && typeof entry.lv !== "string";
+      rows.push({
+        level: file.toUpperCase(),
+        index,
+        deKey: deBad ? `\0bad:${index}` : rawField(entry, "de"),
+        articleKey: articleBad ? `\0bad:${index}` : rawField(entry, "de_article"),
+        de: deBad ? "" : rawField(entry, "de"),
+        lv: lvBad ? "" : rawField(entry, "lv")
+      });
+    });
+  });
+  const byKey = new Map();
+  rows.forEach((row) => {
+    const key = `${row.deKey}\0${row.articleKey}`;
+    if (!byKey.has(key)) byKey.set(key, []);
+    byKey.get(key).push(row);
+  });
+  const pairs = [];
+  byKey.forEach((group) => {
+    if (new Set(group.map((row) => row.level)).size < 2) return;
+    const sorted = group.slice().sort((a, b) => LEVEL_ORDER[a.level] - LEVEL_ORDER[b.level] || a.index - b.index);
+    for (let i = 0; i < sorted.length; i += 1) {
+      for (let j = i + 1; j < sorted.length; j += 1) {
+        if (sorted[i].level === sorted[j].level) continue;
+        if (sorted[i].lv !== sorted[j].lv) continue;
+        pairs.push({
+          leftLevel: sorted[i].level,
+          leftIndex: sorted[i].index,
+          rightLevel: sorted[j].level,
+          rightIndex: sorted[j].index,
+          de: sorted[i].de,
+          lv: sorted[i].lv
+        });
+      }
+    }
+  });
+  pairs.sort((a, b) => LEVEL_ORDER[a.leftLevel] - LEVEL_ORDER[b.leftLevel]
+    || a.leftIndex - b.leftIndex
+    || LEVEL_ORDER[a.rightLevel] - LEVEL_ORDER[b.rightLevel]
+    || a.rightIndex - b.rightIndex
+    || a.de.localeCompare(b.de));
+  return pairs;
+}
+
+function cellLv(rows, index) {
+  if (!rows || index < 0 || index >= rows.length) return { missing: true, value: "" };
+  const entry = rows[index];
+  if (!entry || typeof entry !== "object" || typeof entry.lv !== "string") return { missing: true, value: "" };
+  return { missing: false, value: entry.lv };
+}
+
+function inconsistentDuplicate(loaded, treeName) {
+  const pairs = sameLvPairs(loaded.lv);
+  const digest = crypto.createHash("sha256").update(pairs.map((pair) => `${pair.leftLevel}[${pair.leftIndex}] ${pair.rightLevel}[${pair.rightIndex}] ${pair.de} ${pair.lv}`).join("\n")).digest("hex");
+  if (pairs.length !== 53 || digest !== PAIR_DIGEST) {
+    process.stderr.write(`SAME_LV pairs ${pairs.length} digest ${digest}\n`);
+    process.exit(1);
+  }
+  const byLang = {};
+  const examplesByLang = {};
+  const byLevelPair = {};
+  const csvRows = [];
+  LANGS.forEach((lang) => {
+    byLang[lang] = { same: 0, different: 0 };
+    examplesByLang[lang] = [];
+  });
+  pairs.forEach((pair) => {
+    const levelPair = `${pair.leftLevel}/${pair.rightLevel}`;
+    if (!byLevelPair[levelPair]) byLevelPair[levelPair] = { levelPair, pairs: 0, same: 0, different: 0 };
+    byLevelPair[levelPair].pairs += 1;
+    LANGS.forEach((lang) => {
+      const left = cellLv(loaded.targets[lang][pair.leftLevel.toLowerCase()], pair.leftIndex);
+      const right = cellLv(loaded.targets[lang][pair.rightLevel.toLowerCase()], pair.rightIndex);
+      const status = left.missing === right.missing && left.value === right.value ? "SAME" : "DIFFERENT";
+      if (status === "SAME") {
+        byLang[lang].same += 1;
+        byLevelPair[levelPair].same += 1;
+      } else {
+        byLang[lang].different += 1;
+        byLevelPair[levelPair].different += 1;
+        if (examplesByLang[lang].length < 10) {
+          examplesByLang[lang].push({
+            de: pair.de,
+            lv: pair.lv,
+            left: `${pair.leftLevel}[${pair.leftIndex}]`,
+            right: `${pair.rightLevel}[${pair.rightIndex}]`,
+            leftValue: left.value,
+            rightValue: right.value
+          });
+        }
+      }
+      csvRows.push({
+        tree: treeName,
+        lang,
+        level: levelPair,
+        index: pair.leftIndex,
+        de: pair.de,
+        lv: pair.lv,
+        value: left.value,
+        check: "INCONSISTENT_DUPLICATE",
+        detail: `${status}|${pair.rightLevel}[${pair.rightIndex}]|${right.value}`
+      });
+    });
+  });
+  const ranked = LANGS.map((lang) => ({
+    lang,
+    same: byLang[lang].same,
+    different: byLang[lang].different,
+    percent: byLang[lang].different / pairs.length
+  })).sort((a, b) => b.percent - a.percent || b.different - a.different || a.lang.localeCompare(b.lang));
+  const highest = ranked[0];
+  const levelPairs = Object.values(byLevelPair).sort((a, b) => {
+    const [aLeft, aRight] = a.levelPair.split("/");
+    const [bLeft, bRight] = b.levelPair.split("/");
+    return LEVEL_ORDER[aLeft] - LEVEL_ORDER[bLeft] || LEVEL_ORDER[aRight] - LEVEL_ORDER[bRight];
+  });
+  return {
+    pairCount: pairs.length,
+    digest,
+    source: "reports/lv-de-verify.json DUPLICATE_ACROSS_LEVELS SAME_LV on origin/cursor/lv-de-verify-f86b; recomputed on HEAD and matched",
+    byLang: ranked,
+    highest: { lang: highest.lang, examples: examplesByLang[highest.lang] },
+    byLevelPair: levelPairs,
+    csvRows
+  };
+}
+
+function levelSplit(findings, recordCounts) {
+  const aggregate = {};
+  const byLang = {};
+  const problem = {};
+  LEVELS.forEach((file) => {
+    const level = file.toUpperCase();
+    aggregate[level] = { records: recordCounts[level], problemRecords: 0 };
+    LEVEL_CHECKS.forEach((check) => { aggregate[level][check] = 0; });
+    aggregate[level].SCRIPT_MISMATCH_SR_LATIN = 0;
+    problem[level] = new Set();
+  });
+  LANGS.forEach((lang) => {
+    byLang[lang] = {};
+    LEVELS.forEach((file) => {
+      const level = file.toUpperCase();
+      byLang[lang][level] = {};
+      LEVEL_CHECKS.forEach((check) => { byLang[lang][level][check] = 0; });
+      byLang[lang][level].SCRIPT_MISMATCH_SR_LATIN = 0;
+    });
+  });
+  findings.forEach((row) => {
+    const bucket = aggregate[row.level];
+    if (!bucket || bucket[row.check] == null) return;
+    bucket[row.check] += 1;
+    byLang[row.lang][row.level][row.check] += 1;
+    if (row.check === "COGNATE_REVIEW" || row.check === "SCRIPT_MISMATCH_SR_LATIN") return;
+    problem[row.level].add(`${row.lang}|${row.index}`);
+  });
+  LEVELS.forEach((file) => {
+    aggregate[file.toUpperCase()].problemRecords = problem[file.toUpperCase()].size;
+  });
+  return { aggregate, byLang };
+}
+
 function controlBlock(loaded) {
   const entry = loaded.lv.c1[553];
   const values = { lv: trimValue(entry && entry.lv), de: entry && entry.de };
@@ -250,7 +429,12 @@ function assertControl(findings, values) {
 }
 
 function pct(count, total) {
+  if (!total) return "0.00%";
   return `${((count / total) * 100).toFixed(2)}%`;
+}
+
+function mdCell(value) {
+  return String(value == null ? "" : value).replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
 }
 
 function renderMarkdown(body) {
@@ -326,6 +510,79 @@ function renderMarkdown(body) {
   push("");
   push("Problēmu ieraksts ir level+indekss ar vismaz vienu no SAME_AS_LV, LV_DIACRITIC, SCRIPT_MISMATCH, FAMILY_COPY. COGNATE_REVIEW un sr latīņu pieņēmums šajā skaitā nav.");
   push("");
+  push("## Sadalījums pa līmeņiem");
+  push("");
+  push("Katras pārbaudes skaits ir karogu summa visās 31 valodā. Procenti ir no līmeņa ierakstu skaita reiz 31. Problēmu ieraksti ir unikāli valoda+indekss ar vismaz vienu no SAME_AS_LV, LV_DIACRITIC, SCRIPT_MISMATCH, FAMILY_COPY.");
+  push("");
+  const problemLine = LEVELS.map((file) => {
+    const row = body.levelSplit.aggregate[file.toUpperCase()];
+    return `${file.toUpperCase()} ${pct(row.problemRecords, row.records * LANGS.length)}`;
+  }).join(", ");
+  push(`Problēmu ierakstu īpatsvars: ${problemLine}.`);
+  push("");
+  push("| līmenis | ieraksti | SAME_AS_LV | % | COGNATE_REVIEW | % | LV_DIACRITIC | % | SCRIPT_MISMATCH | % | FAMILY_COPY | % | problēmu ieraksti | % |");
+  push("|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|");
+  LEVELS.forEach((file) => {
+    const level = file.toUpperCase();
+    const row = body.levelSplit.aggregate[level];
+    const denom = row.records * LANGS.length;
+    push(`| ${level} | ${row.records} | ${row.SAME_AS_LV} | ${pct(row.SAME_AS_LV, denom)} | ${row.COGNATE_REVIEW} | ${pct(row.COGNATE_REVIEW, denom)} | ${row.LV_DIACRITIC} | ${pct(row.LV_DIACRITIC, denom)} | ${row.SCRIPT_MISMATCH} | ${pct(row.SCRIPT_MISMATCH, denom)} | ${row.FAMILY_COPY} | ${pct(row.FAMILY_COPY, denom)} | ${row.problemRecords} | ${pct(row.problemRecords, denom)} |`);
+  });
+  push("");
+  push("sr latīņu pieņēmums pa līmeņiem (nav iepriekšējā SCRIPT_MISMATCH kolonnā):");
+  push("");
+  push("| līmenis | SCRIPT_MISMATCH_SR_LATIN | % no līmeņa ierakstiem |");
+  push("|---|---:|---:|");
+  LEVELS.forEach((file) => {
+    const level = file.toUpperCase();
+    const row = body.levelSplit.aggregate[level];
+    push(`| ${level} | ${row.SCRIPT_MISMATCH_SR_LATIN} | ${pct(row.SCRIPT_MISMATCH_SR_LATIN, row.records)} |`);
+  });
+  push("");
+  push("Valoda × līmenis. Procenti ir no šī līmeņa ierakstiem vienā valodā.");
+  push("");
+  push("| valoda | līmenis | SAME_AS_LV | % | COGNATE_REVIEW | % | LV_DIACRITIC | % | SCRIPT_MISMATCH | % | FAMILY_COPY | % |");
+  push("|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|");
+  LANGS.forEach((lang) => {
+    LEVELS.forEach((file) => {
+      const level = file.toUpperCase();
+      const row = body.levelSplit.byLang[lang][level];
+      const denom = body.levelSplit.aggregate[level].records;
+      push(`| ${lang} | ${level} | ${row.SAME_AS_LV} | ${pct(row.SAME_AS_LV, denom)} | ${row.COGNATE_REVIEW} | ${pct(row.COGNATE_REVIEW, denom)} | ${row.LV_DIACRITIC} | ${pct(row.LV_DIACRITIC, denom)} | ${row.SCRIPT_MISMATCH} | ${pct(row.SCRIPT_MISMATCH, denom)} | ${row.FAMILY_COPY} | ${pct(row.FAMILY_COPY, denom)} |`);
+    });
+  });
+  push("");
+  push("## INCONSISTENT_DUPLICATE");
+  push("");
+  push(`Pāri: ${body.duplicates.pairCount}. Avots: ${body.duplicates.source}. Pāru SHA-256: ${body.duplicates.digest}.`);
+  push("");
+  push("PR #858 un PR #859 nav apvienoti ar origin/main. 53 pāri ir saskaitīti HEAD LV datos ar to pašu de un de_article grupēšanu, kas verify JSON. Wetterleuchten un Jagderlaubnis šajos pāros nav. OWNER LV labojums no #859 šajā zarā nav.");
+  push("");
+  push("Salīdzinājums ir mērķvalodas lauka `lv` baitiskā vienādība bez apgriešanas. SAME nozīmē abas pozīcijas ir vienādas. DIFFERENT nozīmē tās atšķiras; abi varianti ir uzrādīti. DIFFERENT pie identiskas LV ievades liecina par tulkošanas atšķirībām (nestabilitāti), nevis noteikti par kļūdu. Pareizais variants nav izvēlēts. Tabula ir sakārtota pēc % DIFFERENT dilstoši.");
+  push("");
+  push("| valoda | SAME | DIFFERENT | % DIFFERENT |");
+  push("|---|---:|---:|---:|");
+  body.duplicates.byLang.forEach((row) => {
+    push(`| ${row.lang} | ${row.same} | ${row.different} | ${pct(row.different, body.duplicates.pairCount)} |`);
+  });
+  push("");
+  push(`Augstākais % DIFFERENT: ${body.duplicates.highest.lang}. Piemēri:`);
+  push("");
+  push("| de | lv | kreisā | vērtība | labā | vērtība |");
+  push("|---|---|---|---|---|---|");
+  body.duplicates.highest.examples.forEach((example) => {
+    push(`| ${mdCell(example.de)} | ${mdCell(example.lv)} | ${example.left} | ${mdCell(example.leftValue)} | ${example.right} | ${mdCell(example.rightValue)} |`);
+  });
+  push("");
+  push("Līmeņu pāri. SAME un DIFFERENT ir šūnas pa 31 valodai. Procenti ir no pāru skaita reiz 31.");
+  push("");
+  push("| līmeņu pāris | pāri | SAME | DIFFERENT | % DIFFERENT |");
+  push("|---|---:|---:|---:|---:|");
+  body.duplicates.byLevelPair.forEach((row) => {
+    const denom = row.pairs * LANGS.length;
+    push(`| ${row.levelPair} | ${row.pairs} | ${row.same} | ${row.different} | ${pct(row.different, denom)} |`);
+  });
+  push("");
   push("## Ģimenes");
   push("");
   push("Virziens nav noteikts. Grupa ir valodas ar vienādu vērtību, kas atšķiras no LV.");
@@ -364,7 +621,17 @@ function main() {
   const recordCount = LEVELS.reduce((sum, level) => sum + data.lv[level].length, 0);
   const dataSummary = summaryFor(dataResult.findings, recordCount);
   const wwwSummary = summaryFor(wwwResult.findings, recordCount);
-  const mirror = JSON.stringify(dataSummary.table) === JSON.stringify(wwwSummary.table) ? "IDENTICAL" : "DIFFERS";
+  const recordCounts = {};
+  LEVELS.forEach((level) => { recordCounts[level.toUpperCase()] = data.lv[level].length; });
+  const dataLevel = levelSplit(dataResult.findings, recordCounts);
+  const wwwLevel = levelSplit(wwwResult.findings, recordCounts);
+  const dataDuplicates = inconsistentDuplicate(data, "data");
+  const wwwDuplicates = inconsistentDuplicate(www, "www");
+  const duplicateSignature = (rows) => JSON.stringify(rows.byLang.map((row) => [row.lang, row.same, row.different])) + JSON.stringify(rows.byLevelPair);
+  const mirror = JSON.stringify(dataSummary.table) === JSON.stringify(wwwSummary.table)
+    && JSON.stringify(dataLevel) === JSON.stringify(wwwLevel)
+    && duplicateSignature(dataDuplicates) === duplicateSignature(wwwDuplicates)
+    ? "IDENTICAL" : "DIFFERS";
   const controlValues = controlBlock(data);
   const controlFlags = {};
   LANGS.forEach((lang) => {
@@ -398,6 +665,20 @@ function main() {
     controlFlags,
     summary: dataSummary,
     wwwSummary,
+    levelSplit: dataLevel,
+    duplicates: {
+      pairCount: dataDuplicates.pairCount,
+      digest: dataDuplicates.digest,
+      source: dataDuplicates.source,
+      byLang: dataDuplicates.byLang.map((row) => ({
+        lang: row.lang,
+        same: row.same,
+        different: row.different,
+        percent: pct(row.different, dataDuplicates.pairCount)
+      })),
+      highest: dataDuplicates.highest,
+      byLevelPair: dataDuplicates.byLevelPair
+    },
     families,
     pairs,
     findingCount: dataResult.findings.length,
@@ -411,6 +692,9 @@ function main() {
   dataResult.findings.forEach((row) => {
     csv.push([row.tree, row.lang, row.level, row.index, csvEscape(row.de), csvEscape(row.lv), csvEscape(row.value), row.check, csvEscape(row.detail)].join(","));
   });
+  dataDuplicates.csvRows.forEach((row) => {
+    csv.push([row.tree, row.lang, row.level, row.index, csvEscape(row.de), csvEscape(row.lv), csvEscape(row.value), row.check, csvEscape(row.detail)].join(","));
+  });
   fs.writeFileSync(OUT_CSV, `${csv.join("\n")}\n`);
   process.stdout.write(`${JSON.stringify({
     recordCount,
@@ -418,6 +702,12 @@ function main() {
     findings: dataResult.findings.length,
     families: families.length,
     pairs: pairs.length,
+    sameLvPairs: dataDuplicates.pairCount,
+    duplicateHighest: dataDuplicates.highest.lang,
+    levelProblem: LEVELS.map((level) => {
+      const row = dataLevel.aggregate[level.toUpperCase()];
+      return `${level.toUpperCase()}:${row.problemRecords}/${row.records * LANGS.length}`;
+    }),
     top: dataSummary.top.slice(0, 5),
     control: controlFlags,
     pt: controlValues.pt
