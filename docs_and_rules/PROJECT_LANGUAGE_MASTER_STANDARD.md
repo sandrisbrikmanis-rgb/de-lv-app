@@ -1,7 +1,7 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.19\
-**Versiju ķēde:** v1.13 (Kurss moduļa metodika, iekļauta šajā izlaidumā) → v1.14 → v1.15 → v1.16 → v1.17 → v1.18 → **v1.19** (šis dokuments)\
+**Versija:** 1.20\
+**Versiju ķēde:** v1.13 (Kurss moduļa metodika, iekļauta šajā izlaidumā) → v1.14 → v1.15 → v1.16 → v1.17 → v1.18 → v1.19 → **v1.20** (šis dokuments)\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -29,7 +29,7 @@ tvērums, reģistrs): `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` �
 iekļauta šajā MASTER dokumentā kā **§7.153–§7.157**.
 
 Satura (A1–C2, Sentences, Verbs, Kurss/Training) tulkojumu avotu
-apstiprināšana: **§7.158**. UI/G5 šī sadaļa neaizstāj.
+apstiprināšana: **§7.158**, **§7.158.B**, **§7.158.C**, **§7.158.D**, **§7.159**, **§7.160**, **§7.161**. UI/G5 šī sadaļa neaizstāj.
 
 Iepriekšējie dokumenti drīkst palikt repozitorijā tikai kā
 vēsturiski/reference materiāli. Ja ir pretruna starp tiem un šo MASTER
@@ -425,7 +425,7 @@ valsts valodas institūti, oficiālas/akadēmiskas vārdnīcas un
 terminoloģijas datubāzes.
 
 Satura tulkojumiem obligātā vārda līmeņa avotu apstiprināšana, ieskaitot
-avotu prioritāti, ir **§7.158**.
+avotu prioritāti, ir **§7.158**, **§7.158.B**, **§7.158.C**, **§7.158.D**, **§7.159**, **§7.160**, **§7.161**.
 
 ------------------------------------------------------------------------
 
@@ -5343,7 +5343,7 @@ divpusējā DE + target pārbaude un pierādījumu lauki — sk.
 `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` §2–§7.
 
 Vārda līmeņa satura vienībām (pāris: DE ieraksts, valoda) avotu
-apstiprināšanas kārtība ir **§7.158**.
+apstiprināšanas kārtība ir **§7.158**, **§7.158.B**, **§7.158.C**, **§7.158.D**, **§7.159**, **§7.160**, **§7.161**.
 
 ## 7.154. Lingvistiskā audita verdikti (v1.18)
 
@@ -5473,6 +5473,58 @@ training kartītes.
 7. Šis noteikums nemaina §1.1 (viens galvenais tulkojums), §1.2 (DE STRICT READ-ONLY),
    OWNER lēmumus un COPY-ONLY.
 
+## 7.158.B. Izrunas iekavās obligātā pārbaude
+
+Attiecas uz izrunas pierakstu iekavās vācu vārdiem (Kurss: kurssPronunciationLesson, kurssConsonantsLesson u.c.).
+
+1. Izruna ir obligāts audita punkts katrai mērķvalodai. Tā netiek salīdzināta ar LV (tai jāatšķiras), bet jāatbilst p.2–5.
+2. Alfabēts: ru, uk, bg, mk kirilikā; gr grieķu alfabētā; sr pēc OWNER izvēles (kirilica vai latīņu; OWNER_DECISION_REQUIRED, viena izvēle visā saturā); latīņu rakstības valodām tikai latīņu burti, kas ir šīs valodas ortogrāfijā. Aizliegti neparedzēti alfabēti (piem. Devanagari) un kirilika vai grieķu burti latīņu rakstības valodā (piem. hr).
+3. LV pārmantojums: izrunā nedrīkst palikt latviešu burti un konvencijas (āčēģīķļņšūž, garumzīmes ō, ū), ja tie nav valodas ortogrāfijā. Burtiska LV izrunas kopija ir PRONUNCIATION_LV_COPY. LV izrunas pierakstu nedrīkst nodot AI kā ievadi (AI to lasa kā vārdus: gūt → "iegūt").
+4. Fonētika: izruna pārraksta vācu skaņu, nevis vārda tulkojumu vai rakstību. Pārbaudāma pret: a) vācu izrunu: Duden Band 6 "Das Aussprachewörterbuch" (IPA); Goethe-Institut vārdu saraksti izrunas pierakstu nedod; b) mērķvalodas transkripcijas konvenciju (valodas institūta vai DE↔X vārdnīcas izrunas pieraksts), kas jānorāda valodas profilā. Ja avota nav: NEEDS_SOURCE_REVIEW. AI tikai pēc §7.158.A.
+5. Konsekvence: vienā valodā viena konvencija (garuma zīmēšana, ß/ss, ch, r, īsie/garie patskaņi), ierakstīta valodas profilā.
+6. DE vārds ārpus iekavām tiek salīdzināts ar LV atsevišķi (§1.2, §7.159); iekavu saturs šajā salīdzinājumā netiek ņemts vērā.
+7. Verdikti PASS, FINDING, NEEDS_SOURCE_REVIEW. P.2, 3, 6 pārbauda skripts; p.4, 5 prasa avotu un cilvēka lēmumu.
+8. Valodas gala atskaitē ir atsevišķa rinda "Izruna iekavās: alfabēts / LV pārmantojums / fonētika / konsekvence".
+
+## 7.158.C. Study bloku akcenti
+
+1. sectionAccents un līdzīgi akcentu masīvi ir piesaistīti satura rindām pēc indeksa. Pievienojot, dzēšot vai pārkārtojot rindu, tā pati darbība jāveic akcentiem.
+2. Katram akcenta terminam jāatrodas tās rindas tekstā, kuru tas izceļ: vācu terminiem vācu daļā, tulkojuma terminiem tulkojuma daļā mērķvalodas rakstībā. Citas valodas termins (piem. latviešu vārds bg failā) ir FINDING.
+3. Akcentu masīva garums ir vienāds ar satura rindu skaitu. Īsāks ir REVIEW (izcēluma nav), garāks ir FINDING.
+4. Skripts pārbauda p.2–3 deterministiski. P.1 un izcēluma jēga ir kartītes audita punkts (§7.158.A p.5e).
+5. Akcentus nekopē no LV pāri valodas ierakstiem: tie satur tulkojuma terminus (sectionAccents #874 analīze: 185 487 tulkojuma virknes pret 457 470 vācu terminiem).
+
+## 7.158.D. Avotu pieejamība un pilota statusi
+
+1. Sešu vārdu pilots (Haus, arbeiten, Kleingeld, bewirten, Grenzkonflikt, Machtgier) ir sijājums, nevis vārdnīcas kvalitātes vai pārklājuma pierādījums. Statusi: ALL_SIX_FOUND, PARTIAL n/6, NONE_FOUND, PROBLEMATIC, NOT_TESTED. NOT_TESTED nav NONE.
+2. Atsevišķa vārdnīcas rinda reģistrā (tips A vai B) nenozīmē, ka avots ir atrasts vai izmantojams; to nosaka pilota rezultāts un OWNER avotu fails.
+3. Pilota rezultāti: https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/eb9821e65c5fc0902e564eae576b279a76015483/reports/pilot-results/SUMMARY.md (ja šis fails nav main, atstāj permalinku un neiekopē saturu).
+
+## 7.159. DE puses kopēšana no LV (OWNER_DECISION 2026-10-04)
+
+1. Study un Kurss vācu puse katrā valodā ir LV-DE kopija (§1.2). Atšķirība vācu laukos starp valodām ir defekts, ko labo kopējot no LV.
+2. Tulkojumi un izruna netiek labot kopējot; tie tiek auditēti atsevišķi (§7.158, §7.158.A, §7.158.B).
+3. Study sinhronizācija: katrā masīvā katrā valodā rindas tiek piesaistītas LV rindām viens pret vienu pēc galvenā vārda un normalizēta vācu teikuma. Piesaistītai rindai vācu lauki tiek aizstāti ar LV, tulkojuma lauki netiek aiztikti. Rinda bez LV pāra tiek dzēsta (neatkarīgi no tā, vai tās teikums ir citā masīvā). LV rinda bez pāra tiek uzskaitīta (ADDED) un tulkojums tiek sagatavots atsevišķi.
+4. Audita rādītāji TEXT, EXTRA, MISSING, ORDER vācu laukos ir 0, ieskaitot vācu daļu piemēru laukos (scripts/audit-study-de-deep.js).
+5. null un trūkstošs lauks DE slānī tiek uzskatīti par vienu un to pašu tukšo vērtību.
+6. Dzēšana vai pievienošana tiek veikta ar atjaunošanas skriptu un SHA-256 pārbaudi pret bāzi.
+
+## 7.160. Artikula un daudzskaitļa pārbaude pret Duden un Goethe
+
+1. Vārda līmeņa artikula un daudzskaitļa avoti: Duden (duden.de/rechtschreibung) un Goethe-Institut oficiālie vārdu saraksti (A1 Fit 1 un Start Deutsch 1, A2, B1; B2 saraksts nav publicēts).
+2. Verdikti: CONSISTENT, MISSING_PLURAL_IN_DATA, PLURAL_FORM_MISMATCH, REVIEW_RARE_PLURAL, SOURCES_DISAGREE (divas dažādas formas), ARTICLE_MISMATCH, AMBIGUOUS (homonīmi), NOT_IN_SOURCE, NEEDS_SOURCE_REVIEW.
+3. Tukšs de_plural ir derīgs, ja avots norāda "ohne Plural" vai tikai daudzskaitli (Pluralwort). Duden formu ar "(selten)", "(Fachsprache)" vai "(Arten:)" bez OWNER lēmuma datos nepiemēro.
+4. Daudzskaitli piemēro kā kopēšanu no LV uz visām valodām, tikai ar OWNER lēmumu. Goethe apstiprināts daudzskaitlis, ko Duden neapstrīd, ir pietiekams pamats lēmumam.
+5. Tīkla piekļuve tikai duden.de un goethe.de, ne biežāk par 1 pieprasījumu sekundē, robots.txt ievērots, kešs ārpus repozitorija; repozitorijā tikai forma, avota ID, URL vai lappuse un datums.
+
+## 7.161. Atskaišu piegāde
+
+1. Katrs uzdevums: commit un push pirms gala ziņojuma; saites ir permalinks ar pilnu 40 simbolu COMMIT_SHA (blob un raw).
+2. Atskaites faili ≤ 500 KB (lielākus sadala daļās ar README.md: fails, baiti, rindas, SHA-256, saites); SUMMARY.md ≤ 20 KB; MANIFEST.md (pirmajā rindā COMMIT_SHA un datums; komitē pēdējo).
+3. Gala ziņojumā un PR aprakstā sadaļa "Atvēršanai un lejupielādei" ar MANIFEST un SUMMARY blob saitēm; raw saites pārbaudītas ar curl -I.
+4. Vārdnīcu, Duden un Goethe šķirkļu saturu repozitorijā neiekopē (tikai metadati, atsauces, SHA-256).
+5. DE izmaiņas notiek tikai ar OWNER_DECISION. Uzdevuma izpildītājs PR neapvieno, ja uzdevums to neprasa.
+
 ------------------------------------------------------------------------
 
 # 8. OWNER REVIEW
@@ -5481,7 +5533,7 @@ Pēc audita uz OWNER review nonāk tikai unresolved/problemātiskie ieraksti
 (§7.155): `FINDING`, `NEEDS_SOURCE_REVIEW`, `SOURCE_DE_ISSUE` un citi skaidri
 dokumentēti unresolved gadījumi — nevis parastas audita `PASS` rindas.
 
-Satura tulkojumu avotu apstiprināšana ir **§7.158**. Tā neatceļ OWNER
+Satura tulkojumu avotu apstiprināšana ir **§7.158**, **§7.158.B**, **§7.158.C**, **§7.158.D**, **§7.159**, **§7.160**, **§7.161**. Tā neatceļ OWNER
 lēmumu, COPY-ONLY un closure noteikumus.
 
 OWNER review izmanto AUDIT stage sagatavotos `OWNER VIEW` un `OWNER DECISIONS`
@@ -6647,7 +6699,7 @@ Gala atskaitē obligāti:
 
 ``` text
 MASTER STANDARD: PROJECT_LANGUAGE_MASTER_STANDARD.md
-MASTER VERSION: 1.19
+MASTER VERSION: 1.20
 STANDARD LOADED: PASS
 MAIN_BASE_SHA: <sha>
 WORK_BRANCH: <branch>
@@ -6915,6 +6967,22 @@ ar MASTER.
 ------------------------------------------------------------------------
 
 # 20. VERSION CHANGELOG
+
+## Version 1.20
+
+Izrunas iekavu pārbaude, Study akcentu saistība ar satura rindām, avotu pieejamības un pilota statusi, DE puses kopēšana no LV, artikula un daudzskaitļa pārbaude pret Duden un Goethe, atskaišu piegāde.
+
+Pievienots:
+
+- §7.158.B Izrunas iekavās obligātā pārbaude;
+- §7.158.C Study bloku akcenti;
+- §7.158.D Avotu pieejamība un pilota statusi;
+- §7.159 DE puses kopēšana no LV (OWNER_DECISION 2026-10-04);
+- §7.160 Artikula un daudzskaitļa pārbaude pret Duden un Goethe;
+- §7.161 Atskaišu piegāde;
+- atsauces no §0, §2.3, §7.153 un §8 uz šīm sadaļām.
+
+Version 1.19 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.20.
 
 ## Version 1.19
 
@@ -7406,4 +7474,4 @@ sadaļām, spēkā ir šis MASTER dokuments. Līgums precizē **procesa secību 
 konfliktu protokolu**, nevis atceļ §1.1, §7, §7.158, §9, §11 vai §17 prasības.
 
 
-## MASTER 1.19 --- END
+## MASTER 1.20 --- END
