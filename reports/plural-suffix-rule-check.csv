@@ -1,0 +1,68 @@
+level,index,de,de_article,de_plural,expected_form_indication
+A1,80,Bein,das,die Beine,die Beinnen
+A1,124,Cousin,der,die Cousins,die Cousinnen
+A1,238,Gesundheit,die,,die Gesundheiten
+A1,338,Kleidung,die,,die Kleidungen
+A1,529,Schwein,das,die Schweine,die Schweinnen
+A1,649,Wein,der,die Weine,die Weinnen
+A2,22,Achtung,die,,die Achtungen
+A2,231,Benzin,das,,die Benzinnen
+A2,426,Erlaubnis,die,,die Erlaubnisse
+A2,598,Glühwein,der,die Glühweine,die Glühweinnen
+A2,612,Gutschein,der,die Gutscheine,die Gutscheinnen
+A2,684,Hosenbein,das,die Hosenbeine,die Hosenbeinnen
+A2,811,Kleidung,die,,die Kleidungen
+A2,906,Magazin,das,die Magazine,die Magazinnen
+A2,925,Medizin,die,,die Medizinnen
+A2,994,Nahrung,die,,die Nahrungen
+A2,1334,Sonnenschein,der,,die Sonnenscheinnen
+A2,1379,Stein,der,die Steine,die Steinnen
+A2,1438,Termin,der,die Termine,die Terminnen
+A2,1446,Tischtennis,das,,die Tischtennisse
+A2,1532,Vitamin,das,die Vitamine,die Vitaminnen
+A2,1579,Werbung,die,,die Werbungen
+B1,165,Arbeitslosigkeit,die,,die Arbeitslosigkeiten
+B1,187,Aufschwung,der,die Aufschwünge,die Aufschwungen
+B1,364,Bernstein,der,die Bernsteine,die Bernsteinnen
+B1,565,Dasein,das,,die Daseinnen
+B1,597,Disziplin,die,die Disziplinen,die Disziplinnen
+B1,924,Flugschein,der,die Flugscheine,die Flugscheinnen
+B1,1044,Geldschein,der,die Geldscheine,die Geldscheinnen
+B1,1301,Holzscheit,das,die Holzscheite,die Holzscheiten
+B1,1419,Jasmin,der,die Jasmine,die Jasminnen
+B1,1454,Kamin,der,die Kamine,die Kaminnen
+B1,1775,Lieferschein,der,die Lieferscheine,die Lieferscheinnen
+B1,1776,Liefertermin,der,die Liefertermine,die Lieferterminnen
+B1,1805,Lottoschein,der,die Lottoscheine,die Lottoscheinnen
+B1,1902,Mondschein,der,,die Mondscheinnen
+B1,1985,Nikotin,das,,die Nikotinnen
+B1,2067,Passierschein,der,die Passierscheine,die Passierscheinnen
+B1,2420,Schein,der,die Scheine,die Scheinnen
+B1,2509,Schornstein,der,die Schornsteine,die Schornsteinnen
+B1,2570,Schwung,der,die Schwünge,die Schwungen
+B1,2706,Sprung,der,die Sprünge,die Sprungen
+B1,3061,Verein,der,die Vereine,die Vereinnen
+B1,3232,Weitsprung,der,die Weitsprünge,die Weitsprungen
+B2,78,Abzweigung,die,,die Abzweigungen
+B2,236,Bewusstsein,das,die Bewusstseine,die Bewusstseinnen
+B2,330,Cholesterin,das,,die Cholesterinnen
+B2,354,Dasein,das,,die Daseinnen
+B2,440,Dreisprung,der,die Dreisprünge,die Dreisprungen
+B2,498,Edelstein,der,die Edelsteine,die Edelsteinnen
+B2,607,Elfenbein,das,die Elfenbeine,die Elfenbeinnen
+B2,964,Gestein,das,die Gesteine,die Gesteinnen
+B2,1142,Hochsprung,der,die Hochsprünge,die Hochsprungen
+B2,1445,Pfandschein,der,die Pfandscheine,die Pfandscheinnen
+B2,1491,Rain,der,die Raine,die Rainnen
+B2,1606,Schuldschein,der,die Schuldscheine,die Schuldscheinnen
+B2,1630,Sein,das,,die Seinnen
+B2,1739,Totenschein,der,die Totenscheine,die Totenscheinnen
+B2,1800,Umschwung,der,die Umschwünge,die Umschwungen
+B2,1865,Ursprung,der,die Ursprünge,die Ursprungen
+B2,2005,Vorsprung,der,die Vorsprünge,die Vorsprungen
+C1,67,Geburtsschein,der,die Geburtsscheine,die Geburtsscheinnen
+C1,349,Gepäckschein,der,die Gepäckscheine,die Gepäckscheinnen
+C1,451,Rechenschaft,die,,die Rechenschaften
+C1,542,Waffenschein,der,die Waffenscheine,die Waffenscheinnen
+C2,20,Benzingutschein,der,die Benzingutscheine,die Benzingutscheinnen
+C2,38,Geschenkgutschein,der,die Geschenkgutscheine,die Geschenkgutscheinnen

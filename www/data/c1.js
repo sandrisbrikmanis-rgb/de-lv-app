@@ -3967,7 +3967,7 @@ const C1_WORDS = [
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "lv": "rūsa",
+    "lv": "tālais zibens",
     "level": "C1"
   },
   {
