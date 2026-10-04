@@ -1,0 +1,1956 @@
+{
+  "schemaVersion": "g2-a1-german-target-dictionary-search-v1",
+  "generatedAt": "2026-09-22T16:46:49.752Z",
+  "classification": "G2_A1_GERMAN_TARGET_DICTIONARY_ACCESS_PARTIALLY_READY",
+  "nextAction": "RESOLVE_REMAINING_EXACT_DICTIONARY_GAPS",
+  "metrics": {
+    "DICTIONARY_READY": 7,
+    "DICTIONARY_PARTIALLY_READY": 25,
+    "SUBSCRIPTION_REQUIRED": 0,
+    "AUTOMATIC_TRANSLATOR_ONLY": 0,
+    "TECHNICAL_ACCESS_BLOCKED": 0,
+    "NO_SUITABLE_DICTIONARY_FOUND": 0
+  },
+  "problematicLanguages": [
+    {
+      "appCode": "pl",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Polish"
+    },
+    {
+      "appCode": "uk",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Ukrainian"
+    },
+    {
+      "appCode": "et",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "Glosbe German–Estonian (dictionary)"
+    },
+    {
+      "appCode": "en",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–English"
+    },
+    {
+      "appCode": "bg",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Bulgarian"
+    },
+    {
+      "appCode": "tr",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Turkish"
+    },
+    {
+      "appCode": "gr",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Greek"
+    },
+    {
+      "appCode": "sq",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Albanian"
+    },
+    {
+      "appCode": "mk",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "Glosbe German–Macedonian"
+    },
+    {
+      "appCode": "bs",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Bosnian"
+    },
+    {
+      "appCode": "sr",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Serbian"
+    },
+    {
+      "appCode": "hr",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Croatian"
+    },
+    {
+      "appCode": "sk",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Slovak"
+    },
+    {
+      "appCode": "cs",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Czech"
+    },
+    {
+      "appCode": "fi",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Finnish"
+    },
+    {
+      "appCode": "sv",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Swedish"
+    },
+    {
+      "appCode": "nn",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "Glosbe German–Nynorsk"
+    },
+    {
+      "appCode": "da",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Danish"
+    },
+    {
+      "appCode": "nl",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Dutch"
+    },
+    {
+      "appCode": "lb",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "Glosbe German–Luxembourgish (dictionary)"
+    },
+    {
+      "appCode": "fr",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–French"
+    },
+    {
+      "appCode": "it",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Italian"
+    },
+    {
+      "appCode": "es",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Spanish"
+    },
+    {
+      "appCode": "hu",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Hungarian"
+    },
+    {
+      "appCode": "is",
+      "status": "DICTIONARY_PARTIALLY_READY",
+      "dictionary": "dict.cc German–Icelandic"
+    }
+  ],
+  "newOrUpdatedDictionaries": [
+    {
+      "appCode": "lt",
+      "url": "https://glosbe.com/de/lt",
+      "name": "Glosbe German–Lithuanian (dictionary)"
+    },
+    {
+      "appCode": "et",
+      "url": "https://glosbe.com/de/et",
+      "name": "Glosbe German–Estonian (dictionary)"
+    },
+    {
+      "appCode": "lb",
+      "url": "https://glosbe.com/de/lb",
+      "name": "Glosbe German–Luxembourgish (dictionary)"
+    }
+  ],
+  "rows": [
+    {
+      "appCode": "lv",
+      "standardCode": "lv",
+      "dictionaryName": "Letonika German–Latvian dictionary",
+      "publisher": "Letonika German–Latvian dictionary",
+      "dictionaryUrl": "https://www.letonika.lv/dictionary",
+      "languagePair": "de→lv",
+      "entryCount": 100000,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_PUBLISHER_MINIMUM",
+      "entryCountDisplay": "100000",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10601001&q=Haus",
+          "sampleTranslation": "Rezultāti no letonika.lv resursiem: 77",
+          "alternativeSamples": [
+            "HausDE-LV Tulkojumi, Termini",
+            "das ganze Haus"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10601001&q=abholen",
+          "sampleTranslation": "Rezultāti no letonika.lv resursiem: 2",
+          "alternativeSamples": [
+            "abholenDE-LV Tulkojumi",
+            "vom Bahnhof abholen",
+            "etw. abholen lassen"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10601001&q=Route",
+          "sampleTranslation": "Rezultāti no letonika.lv resursiem: 48",
+          "alternativeSamples": [
+            "routeEN-LV Tulkojumi, Termini, Skaidrojumi",
+            "en route",
+            "en routeLA-LV Termini"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://www.letonika.lv/groups/default.aspx?g=2&r=10601001&q=Getriebe",
+          "sampleTranslation": "Rezultāti no letonika.lv resursiem: 4",
+          "alternativeSamples": [
+            "GetriebeDE-LV Tulkojumi",
+            "das Getriebe der Hauptstadt",
+            "getriebenDE-LV Tulkojumi"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://www.letonika.lv/dictionary",
+      "registryMatch": true,
+      "candidateId": "manifest-lv"
+    },
+    {
+      "appCode": "lt",
+      "standardCode": "lt",
+      "dictionaryName": "Glosbe German–Lithuanian (dictionary)",
+      "publisher": "Glosbe (community lexicon)",
+      "dictionaryUrl": "https://glosbe.com/de/lt",
+      "languagePair": "de→lt",
+      "entryCount": null,
+      "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/lt/Haus",
+          "sampleTranslation": "namas",
+          "alternativeSamples": [
+            "pastatas"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/lt/abholen",
+          "sampleTranslation": "priimti",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/lt/Route",
+          "sampleTranslation": "kelias",
+          "alternativeSamples": [
+            "plentas",
+            "maršrutas"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/lt/Getriebe",
+          "sampleTranslation": "Getto",
+          "alternativeSamples": [
+            "Bepakopis variatorius"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://www.zodynai.org/",
+      "registryMatch": false,
+      "candidateId": "glosbe-de-lt-fallback"
+    },
+    {
+      "appCode": "ru",
+      "standardCode": "ru",
+      "dictionaryName": "dict.cc German–Russian",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://deru.dict.cc/",
+      "languagePair": "de→ru",
+      "entryCount": 131192,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "131192",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deru.dict.cc/?s=Haus",
+          "sampleTranslation": "Words: Others",
+          "alternativeSamples": [
+            "Words: Verbs",
+            "домашний",
+            "дом"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deru.dict.cc/?s=abholen",
+          "sampleTranslation": "заходить",
+          "alternativeSamples": [
+            "заезжать",
+            "забирать",
+            "забрать"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deru.dict.cc/?s=Route",
+          "sampleTranslation": "маршрут",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deru.dict.cc/?s=Getriebe",
+          "sampleTranslation": "редуктор",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://deru.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-ru"
+    },
+    {
+      "appCode": "pl",
+      "standardCode": "pl",
+      "dictionaryName": "dict.cc German–Polish",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://depl.dict.cc/",
+      "languagePair": "de→pl",
+      "entryCount": 21591,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "21591",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=NOT_FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://depl.dict.cc/?s=Haus",
+          "sampleTranslation": "dom",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://depl.dict.cc/?s=abholen",
+          "sampleTranslation": "odebrać",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://depl.dict.cc/?s=Route",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://depl.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://depl.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-pl"
+    },
+    {
+      "appCode": "uk",
+      "standardCode": "uk",
+      "dictionaryName": "dict.cc German–Ukrainian",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://deuk.dict.cc/",
+      "languagePair": "de→uk",
+      "entryCount": 66145,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "66145",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=NOT_FOUND; Route=NOT_FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deuk.dict.cc/?s=Haus",
+          "sampleTranslation": "будинок",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://deuk.dict.cc/?s=abholen",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://deuk.dict.cc/?s=Route",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deuk.dict.cc/?s=Getriebe",
+          "sampleTranslation": "привід",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://deuk.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-uk"
+    },
+    {
+      "appCode": "et",
+      "standardCode": "et",
+      "dictionaryName": "Glosbe German–Estonian (dictionary)",
+      "publisher": "Glosbe (community lexicon)",
+      "dictionaryUrl": "https://glosbe.com/de/et",
+      "languagePair": "de→et",
+      "entryCount": null,
+      "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=AUTOMATIC_TRANSLATION_ONLY; Route=FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/et/Haus",
+          "sampleTranslation": "maja",
+          "alternativeSamples": [
+            "hoone",
+            "kodu"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "AUTOMATIC_TRANSLATION_ONLY",
+          "resultUrl": "https://glosbe.com/de/et/abholen",
+          "sampleTranslation": null,
+          "note": "Glosbe automatic translations only — dictionary entry not extracted",
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/et/Route",
+          "sampleTranslation": "tee",
+          "alternativeSamples": [
+            "maantee"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://glosbe.com/de/et/Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://www.keelevara.ee/",
+      "registryMatch": false,
+      "candidateId": "glosbe-de-et-public"
+    },
+    {
+      "appCode": "en",
+      "standardCode": "en",
+      "dictionaryName": "dict.cc German–English",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://www.dict.cc/",
+      "languagePair": "de→en",
+      "entryCount": 1318219,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "1318219",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=NOT_FOUND; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://www.dict.cc/?s=Haus",
+          "sampleTranslation": "domestic",
+          "alternativeSamples": [
+            "house",
+            "home",
+            "pet"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://www.dict.cc/?s=abholen",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://www.dict.cc/?s=Route",
+          "sampleTranslation": "route",
+          "alternativeSamples": [
+            "itinerary"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://www.dict.cc/?s=Getriebe",
+          "sampleTranslation": "Words: Nouns",
+          "alternativeSamples": [
+            "gearbox",
+            "transmission",
+            "gear"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://www.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-en"
+    },
+    {
+      "appCode": "ro",
+      "standardCode": "ro",
+      "dictionaryName": "dict.cc German–Romanian",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://dero.dict.cc/",
+      "languagePair": "de→ro",
+      "entryCount": 123554,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "123554",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dero.dict.cc/?s=Haus",
+          "sampleTranslation": "domestic",
+          "alternativeSamples": [
+            "casă"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dero.dict.cc/?s=abholen",
+          "sampleTranslation": "a lua",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dero.dict.cc/?s=Route",
+          "sampleTranslation": "rută",
+          "alternativeSamples": [
+            "traseu"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dero.dict.cc/?s=Getriebe",
+          "sampleTranslation": "angrenaj",
+          "alternativeSamples": [
+            "mecanism"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://dero.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-ro"
+    },
+    {
+      "appCode": "bg",
+      "standardCode": "bg",
+      "dictionaryName": "dict.cc German–Bulgarian",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://bgde.dict.cc/",
+      "languagePair": "de→bg",
+      "entryCount": 44581,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "44581",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://bgde.dict.cc/?s=Haus",
+          "sampleTranslation": "къща",
+          "alternativeSamples": [
+            "дом"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://bgde.dict.cc/?s=abholen",
+          "sampleTranslation": "вземам нкг.",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://bgde.dict.cc/?s=Route",
+          "sampleTranslation": "маршрут",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://bgde.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://bgde.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-bg"
+    },
+    {
+      "appCode": "tr",
+      "standardCode": "tr",
+      "dictionaryName": "dict.cc German–Turkish",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://detr.dict.cc/",
+      "languagePair": "de→tr",
+      "entryCount": 23121,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "23121",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=NOT_FOUND; Route=NOT_FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://detr.dict.cc/?s=Haus",
+          "sampleTranslation": "ev",
+          "alternativeSamples": [
+            "konut"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://detr.dict.cc/?s=abholen",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://detr.dict.cc/?s=Route",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://detr.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://detr.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-tr"
+    },
+    {
+      "appCode": "gr",
+      "standardCode": "el",
+      "dictionaryName": "dict.cc German–Greek",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://deel.dict.cc/",
+      "languagePair": "de→el",
+      "entryCount": 13781,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "13781",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=NOT_FOUND; Route=NOT_FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deel.dict.cc/?s=Haus",
+          "sampleTranslation": "σπίτι",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://deel.dict.cc/?s=abholen",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://deel.dict.cc/?s=Route",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://deel.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://deel.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-gr"
+    },
+    {
+      "appCode": "sq",
+      "standardCode": "sq",
+      "dictionaryName": "dict.cc German–Albanian",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://desq.dict.cc/",
+      "languagePair": "de→sq",
+      "entryCount": 15330,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "15330",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=NOT_FOUND; Route=NOT_FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://desq.dict.cc/?s=Haus",
+          "sampleTranslation": "shtëpi",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://desq.dict.cc/?s=abholen",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://desq.dict.cc/?s=Route",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://desq.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://desq.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-sq"
+    },
+    {
+      "appCode": "mk",
+      "standardCode": "mk",
+      "dictionaryName": "Glosbe German–Macedonian",
+      "publisher": "Glosbe (community lexicon)",
+      "dictionaryUrl": "https://glosbe.com/de/mk",
+      "languagePair": "de→mk",
+      "entryCount": null,
+      "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=AUTOMATIC_TRANSLATION_ONLY; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/mk/Haus",
+          "sampleTranslation": "куќа",
+          "alternativeSamples": [
+            "кука"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "AUTOMATIC_TRANSLATION_ONLY",
+          "resultUrl": "https://glosbe.com/de/mk/abholen",
+          "sampleTranslation": null,
+          "note": "Glosbe automatic translations only — dictionary entry not extracted",
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/mk/Route",
+          "sampleTranslation": "друм",
+          "alternativeSamples": [
+            "пат",
+            "улица",
+            "маршрута"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/mk/Getriebe",
+          "sampleTranslation": "менувач",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://glosbe.com/de/mk",
+      "registryMatch": true,
+      "candidateId": "manifest-mk"
+    },
+    {
+      "appCode": "sl",
+      "standardCode": "sl",
+      "dictionaryName": "Langenscheidt German–Slovenian",
+      "publisher": "Langenscheidt",
+      "dictionaryUrl": "https://en.langenscheidt.com/german-slovenian",
+      "languagePair": "de→sl",
+      "entryCount": null,
+      "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://en.langenscheidt.com/german-slovenian/haus",
+          "sampleTranslation": "German-Slovenian translation for \"Haus\"",
+          "alternativeSamples": [
+            "\"Haus\" Slovenian translation",
+            "„Haus“: Neutrum",
+            "Haus n"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://en.langenscheidt.com/german-slovenian/abholen",
+          "sampleTranslation": "German-Slovenian translation for \"abholen\"",
+          "alternativeSamples": [
+            "\"abholen\" Slovenian translation",
+            "„abholen“",
+            "Overview of all translations"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://en.langenscheidt.com/german-slovenian/route",
+          "sampleTranslation": "German-Slovenian translation for \"Route\"",
+          "alternativeSamples": [
+            "\"Route\" Slovenian translation",
+            "„Route“: Femininum",
+            "Route f"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://en.langenscheidt.com/german-slovenian/getriebe",
+          "sampleTranslation": "German-Slovenian translation for \"Getriebe\"",
+          "alternativeSamples": [
+            "\"Getriebe\" Slovenian translation",
+            "„Getriebe“: Neutrum",
+            "Getriebe n"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://en.langenscheidt.com/german-slovenian",
+      "registryMatch": true,
+      "candidateId": "manifest-sl"
+    },
+    {
+      "appCode": "bs",
+      "standardCode": "bs",
+      "dictionaryName": "dict.cc German–Bosnian",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://bsde.dict.cc/",
+      "languagePair": "de→bs",
+      "entryCount": 8630,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "8630",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=NOT_FOUND; abholen=FOUND; Route=NOT_FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://bsde.dict.cc/?s=Haus",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://bsde.dict.cc/?s=abholen",
+          "sampleTranslation": "pokupiti",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://bsde.dict.cc/?s=Route",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://bsde.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://bsde.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-bs"
+    },
+    {
+      "appCode": "sr",
+      "standardCode": "sr",
+      "dictionaryName": "dict.cc German–Serbian",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://desr.dict.cc/",
+      "languagePair": "de→sr",
+      "entryCount": 15925,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "15925",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=NOT_FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://desr.dict.cc/?s=Haus",
+          "sampleTranslation": "кућа",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://desr.dict.cc/?s=abholen",
+          "sampleTranslation": "покупити",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://desr.dict.cc/?s=Route",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://desr.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://desr.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-sr"
+    },
+    {
+      "appCode": "hr",
+      "standardCode": "hr",
+      "dictionaryName": "dict.cc German–Croatian",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://dehr.dict.cc/",
+      "languagePair": "de→hr",
+      "entryCount": 42234,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "42234",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=NOT_FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dehr.dict.cc/?s=Haus",
+          "sampleTranslation": "kuća",
+          "alternativeSamples": [
+            "dom"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dehr.dict.cc/?s=abholen",
+          "sampleTranslation": "pokupiti",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://dehr.dict.cc/?s=Route",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://dehr.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://dehr.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-hr"
+    },
+    {
+      "appCode": "sk",
+      "standardCode": "sk",
+      "dictionaryName": "dict.cc German–Slovak",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://desk.dict.cc/",
+      "languagePair": "de→sk",
+      "entryCount": 102192,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "102192",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=NOT_FOUND; Route=FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://desk.dict.cc/?s=Haus",
+          "sampleTranslation": "dom",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://desk.dict.cc/?s=abholen",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://desk.dict.cc/?s=Route",
+          "sampleTranslation": "trasa",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://desk.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://desk.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-sk"
+    },
+    {
+      "appCode": "cs",
+      "standardCode": "cs",
+      "dictionaryName": "dict.cc German–Czech",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://csde.dict.cc/",
+      "languagePair": "de→cs",
+      "entryCount": 35211,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "35211",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://csde.dict.cc/?s=Haus",
+          "sampleTranslation": "dům",
+          "alternativeSamples": [
+            "barák",
+            "domek"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://csde.dict.cc/?s=abholen",
+          "sampleTranslation": "vyzvednout",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://csde.dict.cc/?s=Route",
+          "sampleTranslation": "trasa",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://csde.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://csde.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-cs"
+    },
+    {
+      "appCode": "fi",
+      "standardCode": "fi",
+      "dictionaryName": "dict.cc German–Finnish",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://defi.dict.cc/",
+      "languagePair": "de→fi",
+      "entryCount": 59762,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "59762",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://defi.dict.cc/?s=Haus",
+          "sampleTranslation": "talo",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://defi.dict.cc/?s=abholen",
+          "sampleTranslation": "noutaa",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://defi.dict.cc/?s=Route",
+          "sampleTranslation": "reitti",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://defi.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://defi.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-fi"
+    },
+    {
+      "appCode": "sv",
+      "standardCode": "sv",
+      "dictionaryName": "dict.cc German–Swedish",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://desv.dict.cc/",
+      "languagePair": "de→sv",
+      "entryCount": 152284,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "152284",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://desv.dict.cc/?s=Haus",
+          "sampleTranslation": "Words: Others",
+          "alternativeSamples": [
+            "hus",
+            "kåk",
+            "fastighet"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://desv.dict.cc/?s=abholen",
+          "sampleTranslation": "hämtning",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://desv.dict.cc/?s=Route",
+          "sampleTranslation": "rutt",
+          "alternativeSamples": [
+            "led"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://desv.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://desv.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-sv"
+    },
+    {
+      "appCode": "nb",
+      "standardCode": "nb",
+      "dictionaryName": "dict.cc German–Norwegian Bokmål",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://deno.dict.cc/",
+      "languagePair": "de→nb",
+      "entryCount": 50665,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "50665",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deno.dict.cc/?s=Haus",
+          "sampleTranslation": "hus",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deno.dict.cc/?s=abholen",
+          "sampleTranslation": "å hente",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deno.dict.cc/?s=Route",
+          "sampleTranslation": "rute",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deno.dict.cc/?s=Getriebe",
+          "sampleTranslation": "gir",
+          "alternativeSamples": [
+            "girkasse"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://deno.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-nb"
+    },
+    {
+      "appCode": "nn",
+      "standardCode": "nn",
+      "dictionaryName": "Glosbe German–Nynorsk",
+      "publisher": "Glosbe (community lexicon)",
+      "dictionaryUrl": "https://glosbe.com/de/nn",
+      "languagePair": "de→nn",
+      "entryCount": null,
+      "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=AUTOMATIC_TRANSLATION_ONLY; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/nn/Haus",
+          "sampleTranslation": "hus",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "AUTOMATIC_TRANSLATION_ONLY",
+          "resultUrl": "https://glosbe.com/de/nn/abholen",
+          "sampleTranslation": null,
+          "note": "Glosbe automatic translations only — dictionary entry not extracted",
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/nn/Route",
+          "sampleTranslation": "veg",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/nn/Getriebe",
+          "sampleTranslation": "girkasse",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://glosbe.com/de/nn",
+      "registryMatch": true,
+      "candidateId": "manifest-nn"
+    },
+    {
+      "appCode": "da",
+      "standardCode": "da",
+      "dictionaryName": "dict.cc German–Danish",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://dade.dict.cc/",
+      "languagePair": "de→da",
+      "entryCount": 28391,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "28391",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=NOT_FOUND; Route=FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dade.dict.cc/?s=Haus",
+          "sampleTranslation": "hus",
+          "alternativeSamples": [
+            "ejendom"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://dade.dict.cc/?s=abholen",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dade.dict.cc/?s=Route",
+          "sampleTranslation": "rute",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://dade.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://dade.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-da"
+    },
+    {
+      "appCode": "nl",
+      "standardCode": "nl",
+      "dictionaryName": "dict.cc German–Dutch",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://denl.dict.cc/",
+      "languagePair": "de→nl",
+      "entryCount": 70712,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "70712",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=NOT_FOUND; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://denl.dict.cc/?s=Haus",
+          "sampleTranslation": "huis",
+          "alternativeSamples": [
+            "pand"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://denl.dict.cc/?s=abholen",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://denl.dict.cc/?s=Route",
+          "sampleTranslation": "Route",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://denl.dict.cc/?s=Getriebe",
+          "sampleTranslation": "tandwielkast",
+          "alternativeSamples": [
+            "versnellingsbak"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://denl.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-nl"
+    },
+    {
+      "appCode": "lb",
+      "standardCode": "lb",
+      "dictionaryName": "Glosbe German–Luxembourgish (dictionary)",
+      "publisher": "Glosbe (community lexicon)",
+      "dictionaryUrl": "https://glosbe.com/de/lb",
+      "languagePair": "de→lb",
+      "entryCount": null,
+      "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "entryCountDisplay": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=AUTOMATIC_TRANSLATION_ONLY; Route=FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/lb/Haus",
+          "sampleTranslation": "Häuschen",
+          "alternativeSamples": [
+            "Hausesel",
+            "Haushuhn",
+            "hauskatze"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "AUTOMATIC_TRANSLATION_ONLY",
+          "resultUrl": "https://glosbe.com/de/lb/abholen",
+          "sampleTranslation": null,
+          "note": "Glosbe automatic translations only — dictionary entry not extracted",
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://glosbe.com/de/lb/Route",
+          "sampleTranslation": "router",
+          "alternativeSamples": [
+            "rovaniemi",
+            "Route Adélie"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://glosbe.com/de/lb/Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://lod.lu/",
+      "registryMatch": false,
+      "candidateId": "glosbe-de-lb-fallback"
+    },
+    {
+      "appCode": "fr",
+      "standardCode": "fr",
+      "dictionaryName": "dict.cc German–French",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://defr.dict.cc/",
+      "languagePair": "de→fr",
+      "entryCount": 107379,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "107379",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=NOT_FOUND; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://defr.dict.cc/?s=Haus",
+          "sampleTranslation": "Words: Others",
+          "alternativeSamples": [
+            "maison",
+            "maisonnée"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://defr.dict.cc/?s=abholen",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://defr.dict.cc/?s=Route",
+          "sampleTranslation": "Straße",
+          "alternativeSamples": [
+            "Words: Others",
+            "itinéraire",
+            "route"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://defr.dict.cc/?s=Getriebe",
+          "sampleTranslation": "engrenage",
+          "alternativeSamples": [
+            "transmission"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://defr.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-fr"
+    },
+    {
+      "appCode": "it",
+      "standardCode": "it",
+      "dictionaryName": "dict.cc German–Italian",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://deit.dict.cc/",
+      "languagePair": "de→it",
+      "entryCount": 93981,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "93981",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=NOT_FOUND; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deit.dict.cc/?s=Haus",
+          "sampleTranslation": "Words: Verbs",
+          "alternativeSamples": [
+            "condominiale",
+            "domiciliare",
+            "casa"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://deit.dict.cc/?s=abholen",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deit.dict.cc/?s=Route",
+          "sampleTranslation": "rotta",
+          "alternativeSamples": [
+            "itinerario"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deit.dict.cc/?s=Getriebe",
+          "sampleTranslation": "ingranaggio",
+          "alternativeSamples": [
+            "cambio"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://deit.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-it"
+    },
+    {
+      "appCode": "es",
+      "standardCode": "es",
+      "dictionaryName": "dict.cc German–Spanish",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://dees.dict.cc/",
+      "languagePair": "de→es",
+      "entryCount": 65949,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "65949",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=NOT_FOUND; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dees.dict.cc/?s=Haus",
+          "sampleTranslation": "casa",
+          "alternativeSamples": [
+            "solar"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://dees.dict.cc/?s=abholen",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dees.dict.cc/?s=Route",
+          "sampleTranslation": "ruta",
+          "alternativeSamples": [
+            "recorrido"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dees.dict.cc/?s=Getriebe",
+          "sampleTranslation": "transmisión",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://dees.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-es"
+    },
+    {
+      "appCode": "pt",
+      "standardCode": "pt",
+      "dictionaryName": "dict.cc German–Portuguese",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://dept.dict.cc/",
+      "languagePair": "de→pt",
+      "entryCount": 62569,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "62569",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dept.dict.cc/?s=Haus",
+          "sampleTranslation": "domiciliar",
+          "alternativeSamples": [
+            "casa <ksa >",
+            "edifício",
+            "domicílio"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dept.dict.cc/?s=abholen",
+          "sampleTranslation": "pegar",
+          "alternativeSamples": [
+            "retirar"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dept.dict.cc/?s=Route",
+          "sampleTranslation": "rota",
+          "alternativeSamples": [
+            "itinerário"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dept.dict.cc/?s=Getriebe",
+          "sampleTranslation": "engrenagem",
+          "alternativeSamples": [
+            "câmbio",
+            "movimento"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://dept.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-pt"
+    },
+    {
+      "appCode": "hu",
+      "standardCode": "hu",
+      "dictionaryName": "dict.cc German–Hungarian",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://dehu.dict.cc/",
+      "languagePair": "de→hu",
+      "entryCount": 56707,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "56707",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=FOUND; Getriebe=NOT_FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dehu.dict.cc/?s=Haus",
+          "sampleTranslation": "ház",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dehu.dict.cc/?s=abholen",
+          "sampleTranslation": "elhoz",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://dehu.dict.cc/?s=Route",
+          "sampleTranslation": "útvonal",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://dehu.dict.cc/?s=Getriebe",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://dehu.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-hu"
+    },
+    {
+      "appCode": "is",
+      "standardCode": "is",
+      "dictionaryName": "dict.cc German–Icelandic",
+      "publisher": "dict.cc (community-maintained)",
+      "dictionaryUrl": "https://deis.dict.cc/",
+      "languagePair": "de→is",
+      "entryCount": 145046,
+      "entryCountStatus": "PUBLICLY_CONFIRMED_DICT_CC_BROWSE",
+      "entryCountDisplay": "145046",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=NOT_FOUND; Route=NOT_FOUND; Getriebe=FOUND",
+      "pilots": {
+        "Haus": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deis.dict.cc/?s=Haus",
+          "sampleTranslation": "Words: Others",
+          "alternativeSamples": [
+            "hús"
+          ],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "abholen": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://deis.dict.cc/?s=abholen",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Route": {
+          "pilotStatus": "NOT_FOUND",
+          "resultUrl": "https://deis.dict.cc/?s=Route",
+          "sampleTranslation": null,
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        },
+        "Getriebe": {
+          "pilotStatus": "FOUND",
+          "resultUrl": "https://deis.dict.cc/?s=Getriebe",
+          "sampleTranslation": "gír",
+          "alternativeSamples": [],
+          "note": null,
+          "access": "PUBLIC_BROWSER_SESSION"
+        }
+      },
+      "masterRegistryUrl": "https://deis.dict.cc/",
+      "registryMatch": true,
+      "candidateId": "manifest-is"
+    }
+  ],
+  "ownerProposals": [
+    {
+      "appCode": "lt",
+      "standardCode": "lt",
+      "dictionaryName": "Glosbe German–Lithuanian (dictionary)",
+      "publisher": "Glosbe (community lexicon)",
+      "languagePair": "de→lt",
+      "url": "https://glosbe.com/de/lt",
+      "entryCount": null,
+      "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=FOUND; Route=FOUND; Getriebe=FOUND",
+      "ownerApprovalRequired": "OWNER_APPROVAL_REQUIRED",
+      "notes": "Proposed public de→TARGET source differs from current MASTER GERMAN_TARGET_DICTIONARY_URL (https://www.zodynai.org/)"
+    },
+    {
+      "appCode": "et",
+      "standardCode": "et",
+      "dictionaryName": "Glosbe German–Estonian (dictionary)",
+      "publisher": "Glosbe (community lexicon)",
+      "languagePair": "de→et",
+      "url": "https://glosbe.com/de/et",
+      "entryCount": null,
+      "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=AUTOMATIC_TRANSLATION_ONLY; Route=FOUND; Getriebe=NOT_FOUND",
+      "ownerApprovalRequired": "OWNER_APPROVAL_REQUIRED",
+      "notes": "Proposed public de→TARGET source differs from current MASTER GERMAN_TARGET_DICTIONARY_URL (https://www.keelevara.ee/)"
+    },
+    {
+      "appCode": "et",
+      "standardCode": "et",
+      "dictionaryName": "Keelevara TEA German–Estonian",
+      "publisher": "TEA Kirjastus / Keelevara",
+      "languagePair": "de→et",
+      "url": "https://www.keelevara.ee/",
+      "entryCount": null,
+      "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "access": "SUBSCRIPTION_REQUIRED",
+      "finalStatus": "SUBSCRIPTION_REQUIRED",
+      "pilotSummary": "Not used as sole audit source without OWNER subscription",
+      "ownerApprovalRequired": "OWNER_APPROVAL_REQUIRED",
+      "notes": "Subscription reference — supplement to public dictionary"
+    },
+    {
+      "appCode": "lb",
+      "standardCode": "lb",
+      "dictionaryName": "Glosbe German–Luxembourgish (dictionary)",
+      "publisher": "Glosbe (community lexicon)",
+      "languagePair": "de→lb",
+      "url": "https://glosbe.com/de/lb",
+      "entryCount": null,
+      "entryCountStatus": "ENTRY_COUNT_NOT_PUBLICLY_CONFIRMED",
+      "access": "PUBLIC_BROWSER_SESSION",
+      "finalStatus": "DICTIONARY_PARTIALLY_READY",
+      "pilotSummary": "Haus=FOUND; abholen=AUTOMATIC_TRANSLATION_ONLY; Route=FOUND; Getriebe=NOT_FOUND",
+      "ownerApprovalRequired": "OWNER_APPROVAL_REQUIRED",
+      "notes": "Proposed public de→TARGET source differs from current MASTER GERMAN_TARGET_DICTIONARY_URL (https://lod.lu/)"
+    }
+  ],
+  "constraints": {
+    "productionDataChanged": false,
+    "deContentChanged": false,
+    "crowdinChanged": false,
+    "fullA1AuditRan": false,
+    "aiTranslationUsed": false
+  }
+}

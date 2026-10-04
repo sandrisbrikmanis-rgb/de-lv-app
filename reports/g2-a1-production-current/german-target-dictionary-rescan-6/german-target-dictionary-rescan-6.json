@@ -1,0 +1,594 @@
+{
+  "schemaVersion": "g2-a1-german-target-dictionary-rescan-6-v1",
+  "generatedAt": "2026-09-23T17:27:19.903Z",
+  "classification": "G2_A1_GERMAN_TARGET_DICTIONARY_RESCAN_6_COMPLETE",
+  "nextAction": "OWNER_REVIEW_RESCAN_6_RECOMMENDATIONS",
+  "targetLanguages": [
+    "bs",
+    "et",
+    "lb",
+    "lt",
+    "sq",
+    "uk"
+  ],
+  "languages": [
+    {
+      "appCode": "bs",
+      "standardCode": "bs",
+      "masterRegistryUrl": "https://bsde.dict.cc/",
+      "masterRegistryName": "dict.cc German–Bosnian",
+      "recommendedRescan": {
+        "name": "Netzverb / verbformen Deutsch–Bosnisch",
+        "url": "https://www.verbformen.de/de-bs",
+        "platform": "verbformen",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+        "entryEditorialLabelLv": "Netzverb/verbformen — kopienas/agregēts leksikons (nav MT avots)",
+        "automaticTranslationOnlyWords": []
+      },
+      "candidatesProbed": 5,
+      "ranked": [
+        {
+          "rank": 1,
+          "name": "Netzverb / verbformen Deutsch–Bosnisch",
+          "url": "https://www.verbformen.de/de-bs",
+          "platform": "verbformen",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Glosbe German–Bosnian",
+          "url": "https://glosbe.com/de/bs",
+          "platform": "glosbe",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 29,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 3,
+          "name": "dict.cc Deutsch–Bosnisch (de-bs.dict.cc)",
+          "url": "https://de-bs.dict.cc/",
+          "platform": "dict.cc",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_DICTIONARY_DICT_CC",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 4,
+          "name": "dict.cc Bosnian–German (bsde.dict.cc)",
+          "url": "https://bsde.dict.cc/",
+          "platform": "dict.cc",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_DICTIONARY_DICT_CC",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 5,
+          "name": "Langenscheidt German–Bosnian",
+          "url": "https://en.langenscheidt.com/german-bosnian",
+          "platform": "langenscheidt",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        }
+      ]
+    },
+    {
+      "appCode": "et",
+      "standardCode": "et",
+      "masterRegistryUrl": "https://www.keelevara.ee/",
+      "masterRegistryName": "Keelevara Estonian–German (reverse search)",
+      "recommendedRescan": {
+        "name": "Netzverb / verbformen Deutsch–Estnisch",
+        "url": "https://www.verbformen.de/de-et",
+        "platform": "verbformen",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+        "entryEditorialLabelLv": "Netzverb/verbformen — kopienas/agregēts leksikons (nav MT avots)",
+        "automaticTranslationOnlyWords": []
+      },
+      "candidatesProbed": 4,
+      "ranked": [
+        {
+          "rank": 1,
+          "name": "Netzverb / verbformen Deutsch–Estnisch",
+          "url": "https://www.verbformen.de/de-et",
+          "platform": "verbformen",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Glosbe German–Estonian",
+          "url": "https://glosbe.com/de/et",
+          "platform": "glosbe",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 11,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 3,
+          "name": "Langenscheidt German–Estonian",
+          "url": "https://en.langenscheidt.com/german-estonian",
+          "platform": "langenscheidt",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 4,
+          "name": "Keelevara TEA (subscription)",
+          "url": "https://www.keelevara.ee/",
+          "platform": "keelevara",
+          "finalStatus": "SUBSCRIPTION_REQUIRED",
+          "score": -100,
+          "skippedLivePilots": true,
+          "pilots": null
+        }
+      ]
+    },
+    {
+      "appCode": "lb",
+      "standardCode": "lb",
+      "masterRegistryUrl": "https://lod.lu/",
+      "masterRegistryName": "Lëtzebuerger Online Dictionnaire (LOD)",
+      "recommendedRescan": {
+        "name": "Glosbe German–Luxembourgish",
+        "url": "https://glosbe.com/de/lb",
+        "platform": "glosbe",
+        "finalStatus": "DICTIONARY_PARTIALLY_READY",
+        "score": 11,
+        "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+        "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti)",
+        "automaticTranslationOnlyWords": [
+          "abholen"
+        ]
+      },
+      "candidatesProbed": 4,
+      "ranked": [
+        {
+          "rank": 1,
+          "name": "Glosbe German–Luxembourgish",
+          "url": "https://glosbe.com/de/lb",
+          "platform": "glosbe",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 11,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 2,
+          "name": "LOD (advanced search)",
+          "url": "https://lod.lu/",
+          "platform": "lod",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 7,
+          "skippedLivePilots": false,
+          "entryEditorialType": "INSTITUTIONAL_PROFESSIONAL",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 3,
+          "name": "Luxdico Deutsch–Luxemburgisch",
+          "url": "http://dict.luxdico.com/neu",
+          "platform": "luxdico",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 4,
+          "name": "Langenscheidt German–Luxembourgish",
+          "url": "https://en.langenscheidt.com/german-luxembourgish",
+          "platform": "langenscheidt",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        }
+      ]
+    },
+    {
+      "appCode": "lt",
+      "standardCode": "lt",
+      "masterRegistryUrl": "https://www.zodynai.org/",
+      "masterRegistryName": "Žodynai.org German–Lithuanian",
+      "recommendedRescan": {
+        "name": "Glosbe German–Lithuanian",
+        "url": "https://glosbe.com/de/lt",
+        "platform": "glosbe",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+        "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti)",
+        "automaticTranslationOnlyWords": []
+      },
+      "candidatesProbed": 4,
+      "ranked": [
+        {
+          "rank": 1,
+          "name": "Glosbe German–Lithuanian",
+          "url": "https://glosbe.com/de/lt",
+          "platform": "glosbe",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Netzverb / verbformen Deutsch–Litauisch",
+          "url": "https://www.verbformen.de/de-lt",
+          "platform": "verbformen",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 3,
+          "name": "vokieciu-lietuviu.com",
+          "url": "http://www.vokieciu-lietuviu.com/",
+          "platform": "vokieciu-lietuviu",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 4,
+          "name": "zodynai.org (legacy portal)",
+          "url": "https://www.zodynai.org/",
+          "platform": "zodynai",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        }
+      ]
+    },
+    {
+      "appCode": "sq",
+      "standardCode": "sq",
+      "masterRegistryUrl": "https://desq.dict.cc/",
+      "masterRegistryName": "dict.cc German–Albanian",
+      "recommendedRescan": {
+        "name": "Netzverb / verbformen Deutsch–Albanisch",
+        "url": "https://www.verbformen.de/de-sq",
+        "platform": "verbformen",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+        "entryEditorialLabelLv": "Netzverb/verbformen — kopienas/agregēts leksikons (nav MT avots)",
+        "automaticTranslationOnlyWords": []
+      },
+      "candidatesProbed": 6,
+      "ranked": [
+        {
+          "rank": 1,
+          "name": "Netzverb / verbformen Deutsch–Albanisch",
+          "url": "https://www.verbformen.de/de-sq",
+          "platform": "verbformen",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Glosbe German–Albanian",
+          "url": "https://glosbe.com/de/sq",
+          "platform": "glosbe",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 11,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "AUTOMATIC_TRANSLATION_ONLY",
+            "Route": "FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 3,
+          "name": "dict.cc Deutsch–Albanisch (de-sq.dict.cc)",
+          "url": "https://de-sq.dict.cc/",
+          "platform": "dict.cc",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 7,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_DICTIONARY_DICT_CC",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 4,
+          "name": "dict.cc (desq.dict.cc)",
+          "url": "https://desq.dict.cc/",
+          "platform": "dict.cc",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 7,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_DICTIONARY_DICT_CC",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 5,
+          "name": "dicts.info German–Albanian",
+          "url": "https://www.dicts.info/dictionary.php?l1=german&l2=albanian",
+          "platform": "dicts.info",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 6,
+          "name": "Langenscheidt German–Albanian",
+          "url": "https://en.langenscheidt.com/german-albanian",
+          "platform": "langenscheidt",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        }
+      ]
+    },
+    {
+      "appCode": "uk",
+      "standardCode": "uk",
+      "masterRegistryUrl": "https://deuk.dict.cc/",
+      "masterRegistryName": "dict.cc German–Ukrainian",
+      "recommendedRescan": {
+        "name": "Glosbe German–Ukrainian",
+        "url": "https://glosbe.com/de/uk",
+        "platform": "glosbe",
+        "finalStatus": "DICTIONARY_READY",
+        "score": 40,
+        "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+        "entryEditorialLabelLv": "Kopienas leksikons (Glosbe vārdnīcas sadaļa; automātiskie tulkojumi atdalīti/no pilotiem noraidīti)",
+        "automaticTranslationOnlyWords": []
+      },
+      "candidatesProbed": 6,
+      "ranked": [
+        {
+          "rank": 1,
+          "name": "Glosbe German–Ukrainian",
+          "url": "https://glosbe.com/de/uk",
+          "platform": "glosbe",
+          "finalStatus": "DICTIONARY_READY",
+          "score": 40,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_GLOSBE",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "FOUND",
+            "Route": "FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 2,
+          "name": "dict.cc Deutsch–Ukrainisch (de-uk.dict.cc)",
+          "url": "https://de-uk.dict.cc/",
+          "platform": "dict.cc",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_DICTIONARY_DICT_CC",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 3,
+          "name": "dict.cc (deuk.dict.cc)",
+          "url": "https://deuk.dict.cc/",
+          "platform": "dict.cc",
+          "finalStatus": "DICTIONARY_PARTIALLY_READY",
+          "score": 18,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_DICTIONARY_DICT_CC",
+          "pilots": {
+            "Haus": "FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "FOUND"
+          }
+        },
+        {
+          "rank": 4,
+          "name": "Langenscheidt German–Ukrainian",
+          "url": "https://en.langenscheidt.com/german-ukrainian",
+          "platform": "langenscheidt",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 5,
+          "name": "Multitran German–Ukrainian",
+          "url": "https://www.multitran.com/dictionary/german-ukrainian",
+          "platform": "multitran",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -4,
+          "skippedLivePilots": false,
+          "entryEditorialType": "COMMUNITY_LEXICON_OTHER",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "NOT_FOUND",
+            "Getriebe": "NOT_FOUND"
+          }
+        },
+        {
+          "rank": 6,
+          "name": "UDEW Leipzig Ukrainian–German (online)",
+          "url": "https://udew.uni-leipzig.de/udew/en/deutsch_ukrainisch_online.htm",
+          "platform": "udew",
+          "finalStatus": "NO_SUITABLE_DICTIONARY_FOUND",
+          "score": -12,
+          "skippedLivePilots": false,
+          "entryEditorialType": "HUMAN_EDITED_PROFESSIONAL",
+          "pilots": {
+            "Haus": "NOT_FOUND",
+            "abholen": "NOT_FOUND",
+            "Route": "BLOCKED",
+            "Getriebe": "BLOCKED"
+          }
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "aiTranslationUsed": false,
+    "masterNotModified": true
+  }
+}

@@ -23,7 +23,7 @@ const A1_WORDS = [
     "de": "Haus",
     "de_article": "das",
     "de_plural": "die Häuser",
-    "lv": "Maya",
+    "lv": "hus",
     "level": "A1"
   },
   {
