@@ -1,0 +1,939 @@
+{
+  "date": "2026-10-04",
+  "six": [
+    "Haus",
+    "arbeiten",
+    "Kleingeld",
+    "bewirten",
+    "Grenzkonflikt",
+    "Machtgier"
+  ],
+  "originMain": "f00f6b72afd693a8f6f86b42cd1631a0be7d9a6d",
+  "remoteRefCount": 843,
+  "catalogRowCount": 9522,
+  "uniqueCatalogPaths": 150,
+  "catalogFullSha256": "9114b72631f2ae63779898bad0df32b0e44c73b74a12654aed1ea262d8267da4",
+  "catalogPartCount": 4,
+  "prListCount": 864,
+  "prMatchCount": 97,
+  "ghError": "",
+  "blobNotes": [],
+  "parsed": [
+    {
+      "filePath": "reports/g2-a1-production-current/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify.json",
+      "blob": "d3f11ee46e6dca439c28ab54d2f098504cd51060",
+      "ref": "origin/cursor/pdf-bilingual-nn-pt-ro-audit-only-17f5",
+      "commit": "47a87e4bc429e67c60efeb2dfc2ac2ee5d51cd8a",
+      "pr": 851
+    },
+    {
+      "filePath": "reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify.json",
+      "blob": "2b9dc759de0079bab3356b6363202af9f50df8cb",
+      "ref": "origin/cursor/pdf-bilingual-sl-sq-sr-sv-discovery-17f5",
+      "commit": "a5a289bedac21ece41fef7df9270e67d8215a714",
+      "pr": 853
+    },
+    {
+      "filePath": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.json",
+      "blob": "290af3283af2224d400b838d2a9a5a82af43455b",
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "commit": "30a69b797cdfc2a2691810085452284cc1562d4a",
+      "pr": 849
+    },
+    {
+      "filePath": "reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-pilot-verify/pdf-bilingual-dictionary-hr-hu-is-pilot-verify.json",
+      "blob": "7e8bf379241f043e90a977cbbbd38a471a3e8c07",
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-audit-only-17f5",
+      "commit": "606e56e13586910d2fe427226f8d664ec06ec835",
+      "pr": 848
+    },
+    {
+      "filePath": "reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-pilot-verify/pdf-bilingual-dictionary-it-mk-nl-pilot-verify.json",
+      "blob": "6cf7c1b1b51e34fc50f3a5ae50f43e2094f5f312",
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-audit-only-17f5",
+      "commit": "5a373c9a0472f107e4d27865f6ff319ebaafe6eb",
+      "pr": 847
+    },
+    {
+      "filePath": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-pilot-verification.json",
+      "blob": "0048b89f9bf60367cd0facfbc1670e614294c4f5",
+      "ref": "origin/cursor/g2-a1-lt-pl-uk-audit-only-17f5",
+      "commit": "4b809f552aab077c2b820138a326518d196805fb",
+      "pr": 850
+    },
+    {
+      "filePath": "reports/g2-a1-production-current/lt-de-pilot-ekalba-lki-zodynas/lt-de-pilot-ekalba-lki-zodynas-verification.json",
+      "blob": "b0c72b154d3ff4d001e2da49eb37dab90234d84c",
+      "ref": "origin/cursor/g2-a1-lt-pl-uk-audit-only-17f5",
+      "commit": "4b809f552aab077c2b820138a326518d196805fb",
+      "pr": 850
+    },
+    {
+      "filePath": "reports/g2-a1-production-current/card-translation-uk-bilingual-sources/uk-bilingual-source-pilot-verification.json",
+      "blob": "83363df17b2d54c479618b5081d99496f62f7c42",
+      "ref": "origin/cursor/g2-a1-lt-pl-uk-audit-only-17f5",
+      "commit": "4b809f552aab077c2b820138a326518d196805fb",
+      "pr": 850
+    },
+    {
+      "filePath": "reports/g2-a1-production-current/pdf-bilingual-dictionary-cs-sk-uk-pilot/pdf-bilingual-dictionary-cs-sk-uk-modern-sources.json",
+      "blob": "533be9582ddd493e1de49002e3dc8050b525ec95",
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "commit": "28fbc9fa8175603867bf1b86f97cdb575c311d40",
+      "pr": 844
+    },
+    {
+      "filePath": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-modern-sources.json",
+      "blob": "633d84ceb218ab8f221980dde6e1e1b3ac27e62d",
+      "ref": "origin/cursor/g2-a1-lt-pl-uk-audit-only-17f5",
+      "commit": "4b809f552aab077c2b820138a326518d196805fb",
+      "pr": 850
+    },
+    {
+      "filePath": "reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-murko-dlib-pilot/pdf-bilingual-dictionary-sl-murko-dlib-pilot.json",
+      "blob": "ec3e0e9409baba95db2fbb8a4c6937c48bf7295e",
+      "ref": "origin/cursor/pdf-bilingual-sl-sq-sr-sv-discovery-17f5",
+      "commit": "a5a289bedac21ece41fef7df9270e67d8215a714",
+      "pr": 853
+    },
+    {
+      "filePath": "reports/g2-a1-production-current/german-target-dictionary-de-et-used-sources/german-target-dictionary-de-et-used-sources-verification.json",
+      "blob": "8a153e71781cd7451f828452d02fff82ea44941e",
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "commit": "28fbc9fa8175603867bf1b86f97cdb575c311d40",
+      "pr": 844
+    }
+  ],
+  "inventoryCommit": "f4388492d173768652582cfa4aa1b0e15c2040b8",
+  "languages": [
+    {
+      "lang": "bg",
+      "pilot_tested": "jā",
+      "words_found": "2",
+      "sources_tested": "1",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 2/6",
+      "problem_reason": "faila piezīme: arbeiten possible substring match",
+      "evidence": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5@30a69b797cdfc2a2691810085452284cc1562d4a PR #849 reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "NOT_FOUND",
+        "bewirten": "NOT_FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "mdz-bsb-miladinov-vol1-1897 (IIIF + tesseract deu, sampled pages 80–520) pageIndex 120",
+        "arbeiten": "mdz-bsb-miladinov-vol1-1897 (IIIF + tesseract deu, sampled pages 80–520) pageIndex 280",
+        "Kleingeld": "mdz-bsb-miladinov-vol1-1897 (IIIF + tesseract deu, sampled pages 80–520)",
+        "bewirten": "mdz-bsb-miladinov-vol1-1897 (IIIF + tesseract deu, sampled pages 80–520)",
+        "Grenzkonflikt": "mdz-bsb-miladinov-vol1-1897 (IIIF + tesseract deu, sampled pages 80–520)",
+        "Machtgier": "mdz-bsb-miladinov-vol1-1897 (IIIF + tesseract deu, sampled pages 80–520)"
+      }
+    },
+    {
+      "lang": "bs",
+      "pilot_tested": "jā",
+      "words_found": "0",
+      "sources_tested": "1",
+      "sources_with_all_six": "0",
+      "language_status": "NONE_FOUND",
+      "problem_reason": "No digitized DE↔BS dictionary — pilot not runnable",
+      "evidence": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5@30a69b797cdfc2a2691810085452284cc1562d4a PR #849 reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "NOT_FOUND",
+        "arbeiten": "NOT_FOUND",
+        "Kleingeld": "NOT_FOUND",
+        "bewirten": "NOT_FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "",
+        "arbeiten": "",
+        "Kleingeld": "",
+        "bewirten": "",
+        "Grenzkonflikt": "",
+        "Machtgier": ""
+      }
+    },
+    {
+      "lang": "cs",
+      "pilot_tested": "jā",
+      "words_found": "6",
+      "sources_tested": "6",
+      "sources_with_all_six": "1",
+      "language_status": "ALL_SIX_FOUND",
+      "problem_reason": "",
+      "evidence": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5@28fbc9fa8175603867bf1b86f97cdb575c311d40 PR #844 reports/g2-a1-production-current/pdf-bilingual-dictionary-cs-sk-uk-pilot/pdf-bilingual-dictionary-cs-sk-uk-modern-sources.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "FOUND",
+        "bewirten": "FOUND",
+        "Grenzkonflikt": "FOUND",
+        "Machtgier": "FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "pons-de-cs https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Haus",
+        "arbeiten": "pons-de-cs https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/arbeiten",
+        "Kleingeld": "pons-de-cs https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kleingeld",
+        "bewirten": "pons-de-cs https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/bewirten",
+        "Grenzkonflikt": "pons-de-cs https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Grenzkonflikt",
+        "Machtgier": "pons-de-cs https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch?q=Machtgier"
+      }
+    },
+    {
+      "lang": "da",
+      "pilot_tested": "nē",
+      "words_found": "",
+      "sources_tested": "",
+      "sources_with_all_six": "",
+      "language_status": "NOT_TESTED",
+      "problem_reason": "",
+      "evidence": "",
+      "inventory_type": "B",
+      "inventory_match": "atbilst",
+      "lemmas": {},
+      "lemmaRefs": {}
+    },
+    {
+      "lang": "en",
+      "pilot_tested": "nē",
+      "words_found": "",
+      "sources_tested": "",
+      "sources_with_all_six": "",
+      "language_status": "NOT_TESTED",
+      "problem_reason": "",
+      "evidence": "",
+      "inventory_type": "B",
+      "inventory_match": "atbilst",
+      "lemmas": {},
+      "lemmaRefs": {}
+    },
+    {
+      "lang": "es",
+      "pilot_tested": "nē",
+      "words_found": "",
+      "sources_tested": "",
+      "sources_with_all_six": "",
+      "language_status": "NOT_TESTED",
+      "problem_reason": "",
+      "evidence": "",
+      "inventory_type": "B",
+      "inventory_match": "atbilst",
+      "lemmas": {},
+      "lemmaRefs": {}
+    },
+    {
+      "lang": "et",
+      "pilot_tested": "jā",
+      "words_found": "",
+      "sources_tested": "1",
+      "sources_with_all_six": "0",
+      "language_status": "PROBLEMATIC",
+      "problem_reason": "nav sešu vārdu pilna protokola; nav rindas: Haus, arbeiten; ir: Kleingeld FOUND (digar-saksa-eesti-valgus-1976 p.465); bewirten FOUND (digar-saksa-eesti-valgus-1976 p.144); Grenzkonflikt NOT_FOUND (digar-saksa-eesti-valgus-1976); Machtgier FOUND (digar-saksa-eesti-valgus-1976 p.537)",
+      "evidence": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5@28fbc9fa8175603867bf1b86f97cdb575c311d40 PR #844 reports/g2-a1-production-current/german-target-dictionary-de-et-used-sources/german-target-dictionary-de-et-used-sources-verification.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Kleingeld": "FOUND",
+        "bewirten": "FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "FOUND"
+      },
+      "lemmaRefs": {
+        "Kleingeld": "digar-saksa-eesti-valgus-1976 p.465",
+        "bewirten": "digar-saksa-eesti-valgus-1976 p.144",
+        "Grenzkonflikt": "digar-saksa-eesti-valgus-1976",
+        "Machtgier": "digar-saksa-eesti-valgus-1976 p.537"
+      }
+    },
+    {
+      "lang": "fi",
+      "pilot_tested": "nē",
+      "words_found": "",
+      "sources_tested": "",
+      "sources_with_all_six": "",
+      "language_status": "NOT_TESTED",
+      "problem_reason": "",
+      "evidence": "",
+      "inventory_type": "B",
+      "inventory_match": "atbilst",
+      "lemmas": {},
+      "lemmaRefs": {}
+    },
+    {
+      "lang": "fr",
+      "pilot_tested": "jā",
+      "words_found": "3",
+      "sources_tested": "2",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 3/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5@30a69b797cdfc2a2691810085452284cc1562d4a PR #849 reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "NOT_FOUND",
+        "bewirten": "FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "mozin-1823-de-ak",
+        "arbeiten": "mozin-1823-de-ak",
+        "Kleingeld": "mozin-1823-de-ak",
+        "bewirten": "mozin-1823-de-ak",
+        "Grenzkonflikt": "mozin-1823-de-ak",
+        "Machtgier": "mozin-1823-de-ak"
+      }
+    },
+    {
+      "lang": "gr",
+      "pilot_tested": "nē",
+      "words_found": "",
+      "sources_tested": "",
+      "sources_with_all_six": "",
+      "language_status": "NOT_TESTED",
+      "problem_reason": "",
+      "evidence": "",
+      "inventory_type": "B",
+      "inventory_match": "atbilst",
+      "lemmas": {},
+      "lemmaRefs": {}
+    },
+    {
+      "lang": "hr",
+      "pilot_tested": "jā",
+      "words_found": "3",
+      "sources_tested": "3",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 3/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/pdf-bilingual-hr-hu-is-audit-only-17f5@606e56e13586910d2fe427226f8d664ec06ec835 PR #848 reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-pilot-verify/pdf-bilingual-dictionary-hr-hu-is-pilot-verify.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "FOUND",
+        "bewirten": "NOT_FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "mdz-bsb-sulek-de-hr-vol1-1860",
+        "arbeiten": "mdz-bsb-sulek-de-hr-vol1-1860",
+        "Kleingeld": "mdz-bsb-sulek-de-hr-vol1-1860",
+        "bewirten": "mdz-bsb-sulek-de-hr-vol1-1860",
+        "Grenzkonflikt": "mdz-bsb-sulek-de-hr-vol1-1860",
+        "Machtgier": "mdz-bsb-sulek-de-hr-vol1-1860"
+      }
+    },
+    {
+      "lang": "hu",
+      "pilot_tested": "jā",
+      "words_found": "4",
+      "sources_tested": "4",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 4/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/pdf-bilingual-hr-hu-is-audit-only-17f5@606e56e13586910d2fe427226f8d664ec06ec835 PR #848 reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-pilot-verify/pdf-bilingual-dictionary-hr-hu-is-pilot-verify.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "FOUND",
+        "bewirten": "FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "mek-html p.h.htm",
+        "arbeiten": "mek-html p.a.htm",
+        "Kleingeld": "mek-html p.k.htm",
+        "bewirten": "mek-html p.b.htm",
+        "Grenzkonflikt": "mek-html p.g.htm",
+        "Machtgier": "mek-html p.m.htm"
+      }
+    },
+    {
+      "lang": "is",
+      "pilot_tested": "jā",
+      "words_found": "",
+      "sources_tested": "",
+      "sources_with_all_six": "",
+      "language_status": "PROBLEMATIC",
+      "problem_reason": "No open OCR/PDF/ HTML dictionary text for IS↔DE in this run (LEXÍA requires browser session)",
+      "evidence": "origin/cursor/pdf-bilingual-hr-hu-is-audit-only-17f5@606e56e13586910d2fe427226f8d664ec06ec835 PR #848 reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-pilot-verify/pdf-bilingual-dictionary-hr-hu-is-pilot-verify.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {},
+      "lemmaRefs": {}
+    },
+    {
+      "lang": "it",
+      "pilot_tested": "jā",
+      "words_found": "4",
+      "sources_tested": "3",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 4/6",
+      "problem_reason": "faila statuss READY; sešu skaits no found karogiem",
+      "evidence": "origin/cursor/pdf-bilingual-it-mk-nl-audit-only-17f5@5a373c9a0472f107e4d27865f6ff319ebaafe6eb PR #847 reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-pilot-verify/pdf-bilingual-dictionary-it-mk-nl-pilot-verify.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "FOUND",
+        "bewirten": "FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "ia-bsb-neues-it-de-11793257-vol1",
+        "arbeiten": "ia-bsb-neues-it-de-11793257-vol1",
+        "Kleingeld": "ia-bsb-neues-it-de-11793257-vol1",
+        "bewirten": "ia-bsb-neues-it-de-11793257-vol1",
+        "Grenzkonflikt": "ia-bsb-neues-it-de-11793257-vol1",
+        "Machtgier": "ia-bsb-neues-it-de-11793257-vol1"
+      }
+    },
+    {
+      "lang": "lb",
+      "pilot_tested": "nē",
+      "words_found": "",
+      "sources_tested": "",
+      "sources_with_all_six": "",
+      "language_status": "NOT_TESTED",
+      "problem_reason": "sešu vārdu pilots nav; cits lemmas komplekts rescan: Haus, abholen, Route, Getriebe",
+      "evidence": "",
+      "inventory_type": "B",
+      "inventory_match": "atbilst",
+      "lemmas": {},
+      "lemmaRefs": {}
+    },
+    {
+      "lang": "lt",
+      "pilot_tested": "jā",
+      "words_found": "4",
+      "sources_tested": "4",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 4/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/g2-a1-lt-pl-uk-audit-only-17f5@4b809f552aab077c2b820138a326518d196805fb PR #850 reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-pilot-verification.json | origin/cursor/g2-a1-lt-pl-uk-audit-only-17f5@4b809f552aab077c2b820138a326518d196805fb PR #850 reports/g2-a1-production-current/lt-de-pilot-ekalba-lki-zodynas/lt-de-pilot-ekalba-lki-zodynas-verification.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "FOUND",
+        "bewirten": "FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "ekalba-de-lt https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Haus?i=32b14ac4-c7e6-4aca-b722-bde8f8168bad",
+        "arbeiten": "ekalba-de-lt https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/arbeiten?i=2aeb2719-576a-4819-83ec-4fa822c20c2d",
+        "Kleingeld": "ekalba-de-lt https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/Kleingeld?paieska=Kleingeld&i=f8697769-4fb6-471a-96ca-b0b2e63d899d",
+        "bewirten": "ekalba-de-lt https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/bewirten?paieska=bewirten&i=1501ec18-60c5-43d9-9faf-e23d0840edd0",
+        "Grenzkonflikt": "ekalba-de-lt https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/?paieska=Grenzkonflikt",
+        "Machtgier": "ekalba-de-lt https://ekalba.lt/vokieciu-lietuviu-kalbu-zodynas/?paieska=Machtgier"
+      }
+    },
+    {
+      "lang": "mk",
+      "pilot_tested": "jā",
+      "words_found": "0",
+      "sources_tested": "1",
+      "sources_with_all_six": "0",
+      "language_status": "PROBLEMATIC",
+      "problem_reason": "No open DE↔MK PDF/OCR; web UI does not expose pilot lemmas for word-boundary grep",
+      "evidence": "origin/cursor/pdf-bilingual-it-mk-nl-audit-only-17f5@5a373c9a0472f107e4d27865f6ff319ebaafe6eb PR #847 reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-pilot-verify/pdf-bilingual-dictionary-it-mk-nl-pilot-verify.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "NOT_FOUND",
+        "arbeiten": "NOT_FOUND",
+        "Kleingeld": "NOT_FOUND",
+        "bewirten": "NOT_FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "web-makedonisch-info-de-mk",
+        "arbeiten": "web-makedonisch-info-de-mk",
+        "Kleingeld": "web-makedonisch-info-de-mk",
+        "bewirten": "web-makedonisch-info-de-mk",
+        "Grenzkonflikt": "web-makedonisch-info-de-mk",
+        "Machtgier": "web-makedonisch-info-de-mk"
+      }
+    },
+    {
+      "lang": "nb",
+      "pilot_tested": "nē",
+      "words_found": "",
+      "sources_tested": "",
+      "sources_with_all_six": "",
+      "language_status": "NOT_TESTED",
+      "problem_reason": "",
+      "evidence": "",
+      "inventory_type": "B",
+      "inventory_match": "atbilst",
+      "lemmas": {},
+      "lemmaRefs": {}
+    },
+    {
+      "lang": "nl",
+      "pilot_tested": "jā",
+      "words_found": "2",
+      "sources_tested": "1",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 2/6",
+      "problem_reason": "faila piezīme kleinGeldVariant; Kleingeld found karogs netiek mainīts",
+      "evidence": "origin/cursor/pdf-bilingual-it-mk-nl-audit-only-17f5@5a373c9a0472f107e4d27865f6ff319ebaafe6eb PR #847 reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-pilot-verify/pdf-bilingual-dictionary-it-mk-nl-pilot-verify.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "NOT_FOUND",
+        "bewirten": "NOT_FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787",
+        "arbeiten": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787",
+        "Kleingeld": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787",
+        "bewirten": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787",
+        "Grenzkonflikt": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787",
+        "Machtgier": "ia-bsb-nieuw-woordenboek-nl-hoogduits-1787"
+      }
+    },
+    {
+      "lang": "nn",
+      "pilot_tested": "jā",
+      "words_found": "4",
+      "sources_tested": "4",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 4/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/pdf-bilingual-nn-pt-ro-audit-only-17f5@47a87e4bc429e67c60efeb2dfc2ac2ee5d51cd8a PR #851 reports/g2-a1-production-current/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify.json",
+      "inventory_type": "A",
+      "inventory_match": "atbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "FOUND",
+        "bewirten": "FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "ia-bsb-helms-dano-nor-de-11752747",
+        "arbeiten": "ia-bsb-helms-dano-nor-de-11752747",
+        "Kleingeld": "ia-bsb-helms-dano-nor-de-11752747",
+        "bewirten": "ia-bsb-helms-dano-nor-de-11752747",
+        "Grenzkonflikt": "ia-bsb-helms-dano-nor-de-11752747",
+        "Machtgier": "ia-bsb-helms-dano-nor-de-11752747"
+      }
+    },
+    {
+      "lang": "pl",
+      "pilot_tested": "jā",
+      "words_found": "5",
+      "sources_tested": "3",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 5/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/g2-a1-lt-pl-uk-audit-only-17f5@4b809f552aab077c2b820138a326518d196805fb PR #850 reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-pilot-verification.json | origin/cursor/g2-a1-lt-pl-uk-audit-only-17f5@4b809f552aab077c2b820138a326518d196805fb PR #850 reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-modern-sources.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "FOUND",
+        "bewirten": "FOUND",
+        "Grenzkonflikt": "FOUND",
+        "Machtgier": "AMBIGUOUS"
+      },
+      "lemmaRefs": {
+        "Haus": "jbc.bj.uj.edu.pl.NDIGDRUK014605 https://archive.org/details/jbc.bj.uj.edu.pl.NDIGDRUK014605/page/n78",
+        "arbeiten": "jbc.bj.uj.edu.pl.NDIGDRUK014604 https://archive.org/details/jbc.bj.uj.edu.pl.NDIGDRUK014604/page/n113",
+        "Kleingeld": "pons-de-pl https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/Kleingeld",
+        "bewirten": "pons-de-pl https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/bewirten",
+        "Grenzkonflikt": "pons-de-pl https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch/Grenzkonflikt",
+        "Machtgier": "pons-de-pl https://de.pons.com/%C3%BCbersetzung/deutsch-polnisch?q=Machtgier"
+      }
+    },
+    {
+      "lang": "pt",
+      "pilot_tested": "jā",
+      "words_found": "3",
+      "sources_tested": "2",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 3/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/pdf-bilingual-nn-pt-ro-audit-only-17f5@47a87e4bc429e67c60efeb2dfc2ac2ee5d51cd8a PR #851 reports/g2-a1-production-current/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify.json",
+      "inventory_type": "A",
+      "inventory_match": "atbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "FOUND",
+        "bewirten": "NOT_FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "ia-torchtrop-de-pt-1943",
+        "arbeiten": "ia-torchtrop-de-pt-1943",
+        "Kleingeld": "ia-torchtrop-de-pt-1943",
+        "bewirten": "ia-torchtrop-de-pt-1943",
+        "Grenzkonflikt": "ia-torchtrop-de-pt-1943",
+        "Machtgier": "ia-torchtrop-de-pt-1943"
+      }
+    },
+    {
+      "lang": "ro",
+      "pilot_tested": "jā",
+      "words_found": "4",
+      "sources_tested": "2",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 4/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/pdf-bilingual-nn-pt-ro-audit-only-17f5@47a87e4bc429e67c60efeb2dfc2ac2ee5d51cd8a PR #851 reports/g2-a1-production-current/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify.json",
+      "inventory_type": "A",
+      "inventory_match": "atbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "FOUND",
+        "bewirten": "FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "ia-barcianu-de-ro-bidir-1886",
+        "arbeiten": "ia-barcianu-de-ro-bidir-1886",
+        "Kleingeld": "ia-barcianu-de-ro-bidir-1886",
+        "bewirten": "tdrg3-solirom https://solirom-cflr.gitlab.io/data/A100062/9903.html",
+        "Grenzkonflikt": "ia-barcianu-de-ro-bidir-1886",
+        "Machtgier": "ia-barcianu-de-ro-bidir-1886"
+      }
+    },
+    {
+      "lang": "ru",
+      "pilot_tested": "nē",
+      "words_found": "",
+      "sources_tested": "",
+      "sources_with_all_six": "",
+      "language_status": "NOT_TESTED",
+      "problem_reason": "",
+      "evidence": "",
+      "inventory_type": "B",
+      "inventory_match": "atbilst",
+      "lemmas": {},
+      "lemmaRefs": {}
+    },
+    {
+      "lang": "sk",
+      "pilot_tested": "jā",
+      "words_found": "4",
+      "sources_tested": "4",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 4/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5@28fbc9fa8175603867bf1b86f97cdb575c311d40 PR #844 reports/g2-a1-production-current/pdf-bilingual-dictionary-cs-sk-uk-pilot/pdf-bilingual-dictionary-cs-sk-uk-modern-sources.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "FOUND",
+        "bewirten": "FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "langenscheidt-de-sk https://en.langenscheidt.com/german-slovak/haus",
+        "arbeiten": "langenscheidt-de-sk https://en.langenscheidt.com/german-slovak/arbeiten",
+        "Kleingeld": "langenscheidt-de-sk https://en.langenscheidt.com/german-slovak/kleingeld",
+        "bewirten": "langenscheidt-de-sk https://en.langenscheidt.com/german-slovak/bewirten",
+        "Grenzkonflikt": "langenscheidt-de-sk https://en.langenscheidt.com/german-slovak/",
+        "Machtgier": "langenscheidt-de-sk https://en.langenscheidt.com/german-slovak/"
+      }
+    },
+    {
+      "lang": "sl",
+      "pilot_tested": "jā",
+      "words_found": "2",
+      "sources_tested": "6",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 2/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/pdf-bilingual-sl-sq-sr-sv-discovery-17f5@a5a289bedac21ece41fef7df9270e67d8215a714 PR #853 reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify.json | origin/cursor/pdf-bilingual-sl-sq-sr-sv-discovery-17f5@a5a289bedac21ece41fef7df9270e67d8215a714 PR #853 reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-murko-dlib-pilot/pdf-bilingual-dictionary-sl-murko-dlib-pilot.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "NOT_FOUND",
+        "bewirten": "NOT_FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "ia-deutschslovenis00unkngoog",
+        "arbeiten": "ia-deutschslovenis00unkngoog",
+        "Kleingeld": "ia-deutschslovenis00unkngoog",
+        "bewirten": "ia-deutschslovenis00unkngoog",
+        "Grenzkonflikt": "ia-deutschslovenis00unkngoog",
+        "Machtgier": "ia-deutschslovenis00unkngoog"
+      }
+    },
+    {
+      "lang": "sq",
+      "pilot_tested": "jā",
+      "words_found": "2",
+      "sources_tested": "2",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 2/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/pdf-bilingual-sl-sq-sr-sv-discovery-17f5@a5a289bedac21ece41fef7df9270e67d8215a714 PR #853 reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "NOT_FOUND",
+        "bewirten": "NOT_FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "ia-hahn-albanesische-studien-martin-lexicon",
+        "arbeiten": "ia-hahn-albanesische-studien-martin-lexicon",
+        "Kleingeld": "ia-hahn-albanesische-studien-martin-lexicon",
+        "bewirten": "ia-hahn-albanesische-studien-martin-lexicon",
+        "Grenzkonflikt": "ia-hahn-albanesische-studien-martin-lexicon",
+        "Machtgier": "ia-hahn-albanesische-studien-martin-lexicon"
+      }
+    },
+    {
+      "lang": "sr",
+      "pilot_tested": "jā",
+      "words_found": "2",
+      "sources_tested": "1",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 2/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/pdf-bilingual-sl-sq-sr-sv-discovery-17f5@a5a289bedac21ece41fef7df9270e67d8215a714 PR #853 reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "NOT_FOUND",
+        "bewirten": "NOT_FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "mdz-bsb11358470-karadzic-de-sr-1872 https://www.digitale-sammlungen.de/de/view/bsb11358470?page=9",
+        "arbeiten": "mdz-bsb11358470-karadzic-de-sr-1872 https://www.digitale-sammlungen.de/de/view/bsb11358470?page=177",
+        "Kleingeld": "mdz-bsb11358470-karadzic-de-sr-1872",
+        "bewirten": "mdz-bsb11358470-karadzic-de-sr-1872",
+        "Grenzkonflikt": "mdz-bsb11358470-karadzic-de-sr-1872",
+        "Machtgier": "mdz-bsb11358470-karadzic-de-sr-1872"
+      }
+    },
+    {
+      "lang": "sv",
+      "pilot_tested": "jā",
+      "words_found": "2",
+      "sources_tested": "2",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 2/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/pdf-bilingual-sl-sq-sr-sv-discovery-17f5@a5a289bedac21ece41fef7df9270e67d8215a714 PR #853 reports/g2-a1-production-current/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify/pdf-bilingual-dictionary-sl-sq-sr-sv-pilot-verify.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "NOT_FOUND",
+        "bewirten": "NOT_FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "ia-tysksvenskordbok00hoppuoft",
+        "arbeiten": "ia-tysksvenskordbok00hoppuoft",
+        "Kleingeld": "ia-tysksvenskordbok00hoppuoft",
+        "bewirten": "ia-tysksvenskordbok00hoppuoft",
+        "Grenzkonflikt": "ia-tysksvenskordbok00hoppuoft",
+        "Machtgier": "ia-tysksvenskordbok00hoppuoft"
+      }
+    },
+    {
+      "lang": "tr",
+      "pilot_tested": "nē",
+      "words_found": "",
+      "sources_tested": "",
+      "sources_with_all_six": "",
+      "language_status": "NOT_TESTED",
+      "problem_reason": "",
+      "evidence": "",
+      "inventory_type": "B",
+      "inventory_match": "atbilst",
+      "lemmas": {},
+      "lemmaRefs": {}
+    },
+    {
+      "lang": "uk",
+      "pilot_tested": "jā",
+      "words_found": "4",
+      "sources_tested": "5",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 4/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/g2-a1-lt-pl-uk-audit-only-17f5@4b809f552aab077c2b820138a326518d196805fb PR #850 reports/g2-a1-production-current/card-translation-uk-bilingual-sources/uk-bilingual-source-pilot-verification.json | origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5@28fbc9fa8175603867bf1b86f97cdb575c311d40 PR #844 reports/g2-a1-production-current/pdf-bilingual-dictionary-cs-sk-uk-pilot/pdf-bilingual-dictionary-cs-sk-uk-modern-sources.json",
+      "inventory_type": "B",
+      "inventory_match": "neatbilst",
+      "lemmas": {
+        "Haus": "FOUND",
+        "arbeiten": "FOUND",
+        "Kleingeld": "FOUND",
+        "bewirten": "FOUND",
+        "Grenzkonflikt": "NOT_FOUND",
+        "Machtgier": "NOT_FOUND"
+      },
+      "lemmaRefs": {
+        "Haus": "udew https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=Haus",
+        "arbeiten": "udew https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=arbeiten",
+        "Kleingeld": "udew https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=Kleingeld",
+        "bewirten": "udew https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=bewirten",
+        "Grenzkonflikt": "udew https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=Grenzkonflikt",
+        "Machtgier": "udew https://udew.uni-leipzig.de/udew/ukrainisch_deutsch_online.htm?input=Machtgier"
+      }
+    }
+  ],
+  "outside31": [
+    {
+      "lang": "lv",
+      "pilot_tested": "jā",
+      "words_found": "4",
+      "sources_tested": "2",
+      "sources_with_all_six": "0",
+      "language_status": "PARTIAL 4/6",
+      "problem_reason": "",
+      "evidence": "origin/cursor/g2-a1-lt-pl-uk-audit-only-17f5@4b809f552aab077c2b820138a326518d196805fb PR #850 reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-pilot-verification.json | origin/cursor/g2-a1-lt-pl-uk-audit-only-17f5@4b809f552aab077c2b820138a326518d196805fb PR #850 reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-modern-sources.json",
+      "note": "nav 31 mērķvalodu sarakstā"
+    }
+  ],
+  "otherPilotSets": {
+    "rescanLemmas": [
+      "Haus",
+      "abholen",
+      "Route",
+      "Getriebe"
+    ],
+    "rescanGeneratedAt": "2026-09-24T17:15:58.983Z",
+    "contentAccessGermanWords": [
+      "das Haus",
+      "die Nacht",
+      "gestern"
+    ],
+    "validation38DeLemmas": []
+  },
+  "tested": [
+    "bg",
+    "bs",
+    "cs",
+    "et",
+    "fr",
+    "hr",
+    "hu",
+    "is",
+    "it",
+    "lt",
+    "mk",
+    "nl",
+    "nn",
+    "pl",
+    "pt",
+    "ro",
+    "sk",
+    "sl",
+    "sq",
+    "sr",
+    "sv",
+    "uk"
+  ],
+  "notTested": [
+    "da",
+    "en",
+    "es",
+    "fi",
+    "gr",
+    "lb",
+    "nb",
+    "ru",
+    "tr"
+  ],
+  "beyondNnPtRo": [
+    "bg",
+    "bs",
+    "cs",
+    "et",
+    "fr",
+    "hr",
+    "hu",
+    "is",
+    "it",
+    "lt",
+    "mk",
+    "nl",
+    "pl",
+    "sk",
+    "sl",
+    "sq",
+    "sr",
+    "sv",
+    "uk"
+  ],
+  "mismatchLangs": [
+    "bg",
+    "bs",
+    "cs",
+    "et",
+    "fr",
+    "hr",
+    "hu",
+    "is",
+    "it",
+    "lt",
+    "mk",
+    "nl",
+    "pl",
+    "sk",
+    "sl",
+    "sq",
+    "sr",
+    "sv",
+    "uk"
+  ]
+}

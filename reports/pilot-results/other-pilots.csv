@@ -1,0 +1,13 @@
+set,lang,lemma,status,inSix
+rescan,lb,Haus,TRANSLATION_VALIDATED,jā
+rescan,lb,abholen,TRANSLATION_VALIDATED,nē
+rescan,lb,Route,TRANSLATION_VALIDATED,nē
+rescan,lb,Getriebe,TRANSLATION_VALIDATED,nē
+rescan,mk,Haus,FOUND,jā
+rescan,mk,abholen,FOUND,nē
+rescan,mk,Route,FOUND,nē
+rescan,mk,Getriebe,FOUND,nē
+rescan,nn,Haus,FOUND,jā
+rescan,nn,abholen,FOUND,nē
+rescan,nn,Route,FOUND,nē
+rescan,nn,Getriebe,FOUND,nē
