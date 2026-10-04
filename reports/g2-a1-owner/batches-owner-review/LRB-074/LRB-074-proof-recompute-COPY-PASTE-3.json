@@ -1,0 +1,26 @@
+{
+  "batch_id": "LRB-074",
+  "correction": 3,
+  "mode": "TECHNICAL_PROOF_RECOMPUTE_ONLY_NO_LINGUISTIC_CHANGES",
+  "immutable": [
+    "all owner_new values",
+    "data/**",
+    "www/data/**",
+    "DE source",
+    "Crowdin",
+    "ingest/apply"
+  ],
+  "required": {
+    "canonical_de_source": "Use the canonical LV-to-DE source card, not currentGalaCard or a corrupted production snapshot.",
+    "fresh_proof": true,
+    "gates_pass_rule": "gates.pass may be true only if DE_EXAMPLE_INDEX_ALIGNMENT and STRUCTURAL_DE_EXAMPLE_ALIGNMENT are both N/N.",
+    "failure_rule": "If either result is not N/N, set gates.pass=false, keep galaPass=false, and report every unmatched audit ID and example index.",
+    "report": [
+      "canonical source commit and path",
+      "source DE examples N/N",
+      "source comparison N/N",
+      "unmatched audit IDs and example indices",
+      "DE/production/Crowdin/ingest/apply diff 0"
+    ]
+  }
+}
