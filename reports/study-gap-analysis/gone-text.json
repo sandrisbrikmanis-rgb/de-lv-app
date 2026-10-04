@@ -1,0 +1,38 @@
+[
+  {
+    "language": "sr",
+    "tree": "data",
+    "level": "a1",
+    "card_id": "a1-sitzen",
+    "field": "study.comparison[3].word",
+    "lvValue": "setzen",
+    "langValue": "sich setzen"
+  },
+  {
+    "language": "sr",
+    "tree": "www",
+    "level": "a1",
+    "card_id": "a1-sitzen",
+    "field": "study.comparison[3].word",
+    "lvValue": "setzen",
+    "langValue": "sich setzen"
+  },
+  {
+    "language": "da",
+    "tree": "data",
+    "level": "a1",
+    "card_id": "a1-besuchen",
+    "field": "study.examples[2].de",
+    "lvValue": "Ich besuche meine Großeltern.",
+    "langValue": "Er besucht einen Freund."
+  },
+  {
+    "language": "da",
+    "tree": "www",
+    "level": "a1",
+    "card_id": "a1-besuchen",
+    "field": "study.examples[2].de",
+    "lvValue": "Ich besuche meine Großeltern.",
+    "langValue": "Er besucht einen Freund."
+  }
+]

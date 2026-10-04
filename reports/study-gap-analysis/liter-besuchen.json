@@ -1,0 +1,101 @@
+{
+  "besuchen": {
+    "da_examples": [
+      {
+        "de": "Ich besuche meine Großeltern.",
+        "index": 0
+      },
+      {
+        "de": "Wir besuchen das Museum.",
+        "index": 1
+      }
+    ],
+    "da_examples_before": [
+      {
+        "de": "Ich besuche meine Großeltern.",
+        "index": 0
+      },
+      {
+        "de": "Wir besuchen das Museum.",
+        "index": 1
+      },
+      {
+        "de": "Er besucht einen Freund.",
+        "index": 2
+      }
+    ],
+    "lv_examples": [
+      {
+        "de": "Ich besuche das Museum.",
+        "index": 0
+      },
+      {
+        "de": "Wir besuchen einen Deutschkurs.",
+        "index": 1
+      },
+      {
+        "de": "Ich besuche meine Großeltern.",
+        "index": 2
+      }
+    ],
+    "note": "ORDER_SHIFT recorded in reports/owner-a1-extra/order-shift.json"
+  },
+  "liter": [
+    {
+      "field": "study.examples[0].de",
+      "langValue": "Die Flasche fasst zwei Liter.",
+      "lang_comparison": [],
+      "lang_examples": [
+        {
+          "de": "Die Flasche fasst zwei Liter."
+        }
+      ],
+      "language": "et",
+      "lv_comparison": [],
+      "lv_examples": [],
+      "tree": "data"
+    },
+    {
+      "field": "study.examples[0].de",
+      "langValue": "Die Flasche fasst zwei Liter.",
+      "lang_comparison": [],
+      "lang_examples": [
+        {
+          "de": "Die Flasche fasst zwei Liter."
+        }
+      ],
+      "language": "et",
+      "lv_comparison": [],
+      "lv_examples": [],
+      "tree": "www"
+    },
+    {
+      "field": "study.examples[0].de",
+      "langValue": "Die Flasche fasst zwei Liter.",
+      "lang_comparison": [],
+      "lang_examples": [
+        {
+          "de": "Die Flasche fasst zwei Liter."
+        }
+      ],
+      "language": "gr",
+      "lv_comparison": [],
+      "lv_examples": [],
+      "tree": "data"
+    },
+    {
+      "field": "study.examples[0].de",
+      "langValue": "Die Flasche fasst zwei Liter.",
+      "lang_comparison": [],
+      "lang_examples": [
+        {
+          "de": "Die Flasche fasst zwei Liter."
+        }
+      ],
+      "language": "gr",
+      "lv_comparison": [],
+      "lv_examples": [],
+      "tree": "www"
+    }
+  ]
+}
