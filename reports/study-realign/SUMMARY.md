@@ -275,3 +275,14 @@ sectionAccents nav labots. Mērījums ir #869 stāvoklis, jo realignment nav pie
 - needs-translation.csv rindas (bez galvenes): 3519
 
 Trūkstošās LV rindas nav pievienotas. DIFFERENT_SENTENCE tulkojumi nav mainīti.
+
+## Atvēršanai un lejupielādei
+
+Satura commits: `fef0f3fc213abcd4d507cf3c8aed9ffdb561747c`
+
+- [blocking-rows.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/blocking-rows.csv) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/blocking-rows.csv)
+- [needs-translation.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/needs-translation.csv) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/needs-translation.csv)
+- [missing-rows.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/missing-rows.csv) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/missing-rows.csv)
+- [changes.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/changes.json) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/changes.json)
+- [accents.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/accents.json) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/accents.json)
+- [verification.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/verification.md) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/verification.md)

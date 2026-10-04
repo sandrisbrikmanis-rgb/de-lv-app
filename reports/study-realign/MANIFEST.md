@@ -9,7 +9,7 @@
 
 | fails | baiti | sha256 |
 | --- | ---: | --- |
-| SUMMARY.md | 13388 | `a9bf3fbb5c005575178e337e4ea8f94f1a661f8b80a05b24efe6b8bdb5a1751a` |
+| SUMMARY.md | 15280 | `f5ac095e2783395124284cac30818ce56ab8fffa645b40b8255cfe8ec43ee4a9` |
 | accents.json | 133 | `cb82e159473079c97b3ca02eb42d156342dc389c21c399f549a120b02bc6b948` |
 | blocking-rows.csv | 13755 | `f77dda91a3d4a271ded17fbb0a96163f02277e645796558423fc284ce15e5bb6` |
 | changes.json | 50584 | `3ac1ce7da5156733432537e5375bc6ea80c2a3c88cd01791963b3ae9bcf9ea03` |
@@ -19,4 +19,14 @@
 
 ## Atvēršanai un lejupielādei
 
-Saites tiek ierakstītas pēc commit, ar pilnu COMMIT_SHA.
+Satura commits: `fef0f3fc213abcd4d507cf3c8aed9ffdb561747c`
+
+- [SUMMARY.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/SUMMARY.md) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/SUMMARY.md)
+- [verification.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/verification.md) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/verification.md)
+- [blocking-rows.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/blocking-rows.csv) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/blocking-rows.csv)
+- [needs-translation.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/needs-translation.csv) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/needs-translation.csv)
+- [missing-rows.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/missing-rows.csv) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/missing-rows.csv)
+- [changes.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/changes.json) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/changes.json)
+- [accents.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/accents.json) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/accents.json)
+- [realign-study-elements.js](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/scripts/realign-study-elements.js) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/scripts/realign-study-elements.js)
+- [restore-study-realign.js](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/scripts/restore-study-realign.js) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/scripts/restore-study-realign.js)
