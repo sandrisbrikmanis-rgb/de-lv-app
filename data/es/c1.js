@@ -4114,6 +4114,12 @@ const C1_WORDS = [
               "piemaksa",
               "uzcenojums"
             ]
+          },
+          {
+            "red": [
+              "die Anlage",
+              "der Anhang"
+            ]
           }
         ]
       }
@@ -4303,6 +4309,11 @@ const C1_WORDS = [
           {
             "purple": [
               "pensar"
+            ]
+          },
+          {
+            "purple": [
+              "plānu"
             ]
           }
         ],

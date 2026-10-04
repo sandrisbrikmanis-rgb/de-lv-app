@@ -2994,6 +2994,14 @@ const A1_WORDS = [
             "blue": [
               "bitte"
             ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
+            ]
           }
         ],
         "comparison": [
@@ -3112,6 +3120,12 @@ const A1_WORDS = [
           {
             "green": [
               "bitte"
+            ]
+          },
+          {
+            "purple": [
+              "lietvārds",
+              "lielais sākumburts"
             ]
           }
         ],
@@ -3560,21 +3574,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "bringt"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "yellow": [
-                "книгу"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
               ],
               "yellow": [
                 "Buch"
@@ -4859,14 +4858,6 @@ const A1_WORDS = [
           {
             "word": {},
             "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
           }
         ],
         "tip": {
@@ -5513,27 +5504,9 @@ const A1_WORDS = [
             "yellow": [
               "Das"
             ]
-          },
-          {},
-          {}
+          }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -6414,14 +6387,6 @@ const A1_WORDS = [
                 "здається"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {}
           }
         ],
         "comparison": [
@@ -6443,61 +6408,6 @@ const A1_WORDS = [
               ],
               "purple": [
                 "здається"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "шукати"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "suche",
-                "шукаю"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "думати"
-              ]
-            },
-            "example": {
-              "green": [
-                "denke",
-                "думаю"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "вірити",
-                "думати"
-              ]
-            },
-            "example": {
-              "red": [
-                "glaube",
-                "думаю"
               ]
             }
           }
@@ -8623,6 +8533,15 @@ const A1_WORDS = [
             "blue": [
               "halte"
             ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
+            ]
           }
         ]
       }
@@ -9128,12 +9047,25 @@ const A1_WORDS = [
             "purple": [
               "високий"
             ]
+          },
+          {
+            "green": [
+              "groß"
+            ]
           }
         ],
         "important": [
           {
             "green": [
               "hoch"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
             ]
           }
         ]
@@ -9512,7 +9444,117 @@ const A1_WORDS = [
         "Ввічливе звертання — Sie з великої літери, а не ihr.",
         "Неправильно для ввічливого звертання: ihr. Правильно: Sie."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jūs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jūs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "ihr"
+            ]
+          },
+          {
+            "blue": [
+              "ihr"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "jūs",
+              "viņai",
+              "viņas"
+            ]
+          },
+          {
+            "blue": [
+              "Sie"
+            ]
+          },
+          {
+            "blue": [
+              "Sie"
+            ],
+            "red": [
+              "Ihr"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "im",

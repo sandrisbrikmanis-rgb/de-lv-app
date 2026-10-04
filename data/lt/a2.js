@@ -67476,8 +67476,7 @@ const A2_WORDS = [
             "purple": [
               "per"
             ]
-          },
-          {}
+          }
         ],
         "important": [
           {

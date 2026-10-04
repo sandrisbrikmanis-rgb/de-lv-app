@@ -3891,16 +3891,6 @@ const A1_WORDS = [
                 "Odveo"
               ]
             }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -5269,14 +5259,6 @@ const A1_WORDS = [
           {
             "word": {},
             "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
           }
         ],
         "tip": {
@@ -5875,22 +5857,6 @@ const A1_WORDS = [
           {}
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -6724,13 +6690,6 @@ const A1_WORDS = [
                 "Šta"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -6752,27 +6711,6 @@ const A1_WORDS = [
               ],
               "purple": [
                 "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
               ]
             }
           }

@@ -1717,7 +1717,160 @@ const A1_WORDS = [
         "baden dhe schwimmen nuk janë sinonime të plota.",
         "baden thekson më shpesh qëndrimin ose çlodhjen në ujë, ndërsa schwimmen lëvizjen e notit."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "baden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peldēties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "baden"
+              ],
+              "green": [
+                "See"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peldēties"
+              ],
+              "green": [
+                "ezerā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "schwimmt"
+              ]
+            },
+            "lv": {
+              "red": [
+                "peld"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "schwimme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peldu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "baden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "peldēties",
+                "atrasties ūdenī",
+                "mazgāties"
+              ]
+            },
+            "example": {
+              "blue": [
+                "baden"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schwimmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "peldēt",
+                "kustība",
+                "sports"
+              ]
+            },
+            "example": {
+              "red": [
+                "schwimmt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "duschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mazgāties dušā"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "dusche"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schwimmen gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet peldēt"
+              ]
+            },
+            "example": {
+              "green": [
+                "schwimmen"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "baden"
+            ],
+            "red": [
+              "schwimmen"
+            ]
+          },
+          {
+            "purple": [
+              "peldēt"
+            ],
+            "blue": [
+              "vācu valodā"
+            ],
+            "red": [
+              "situācijas"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "bald",
@@ -2014,7 +2167,117 @@ const A1_WORDS = [
         "der Besuch mund të jetë vizitë te një person, në një vend ose në një ngjarje.",
         "Shumësi: die Besuche."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Besucher",
@@ -2073,7 +2336,142 @@ const A1_WORDS = [
         "besuchen përdoret pa parafjalë: Ich besuche meine Freundin.",
         "Mos e ngatërro besuchen me treffen: e para do të thotë të vizitosh, e dyta të takosh."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Bett",
@@ -2287,6 +2685,14 @@ const A1_WORDS = [
             "blue": [
               "bitte"
             ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
+            ]
           }
         ],
         "comparison": [
@@ -2397,7 +2803,13 @@ const A1_WORDS = [
         ],
         "tip": {},
         "important": [
-          {}
+          {},
+          {
+            "purple": [
+              "lietvārds",
+              "lielais sākumburts"
+            ]
+          }
         ],
         "comparison": [
           {
@@ -2798,17 +3210,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "bringt"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
               ],
               "yellow": [
                 "Buch"
@@ -3896,14 +4297,6 @@ const A1_WORDS = [
           {
             "word": {},
             "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
           }
         ],
         "tip": {
@@ -4431,35 +4824,9 @@ const A1_WORDS = [
             "yellow": [
               "Das"
             ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -5173,14 +5540,6 @@ const A1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {}
           }
         ],
         "comparison": [
@@ -5194,41 +5553,6 @@ const A1_WORDS = [
             "example": {
               "blue": [
                 "finde"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "suche"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "glaube"
               ]
             }
           }
@@ -7069,6 +7393,15 @@ const A1_WORDS = [
             "blue": [
               "halte"
             ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
+            ]
           }
         ]
       }
@@ -7503,12 +7836,25 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {},
+          {
+            "green": [
+              "groß"
+            ]
+          }
         ],
         "important": [
           {
             "green": [
               "hoch"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
             ]
           }
         ]

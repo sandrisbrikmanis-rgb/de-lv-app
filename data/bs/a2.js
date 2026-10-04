@@ -70907,7 +70907,6 @@ const A2_WORDS = [
               "iznad"
             ]
           },
-          {},
           {}
         ],
         "important": [

@@ -612,7 +612,114 @@ const A1_WORDS = [
         "aber vyjadruje protiklad alebo námietku.",
         "V konštrukcii „nie..., ale...“ sa v nemčine zvyčajne používa sondern."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "aber"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aber"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aber"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "taču"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aber"
+              ]
+            },
+            "example": {
+              "green": [
+                "aber"
+              ],
+              "purple": [
+                "bet"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sondern"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "sondern"
+              ],
+              "purple": [
+                "nevis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "jedoch"
+              ]
+            },
+            "example": {
+              "red": [
+                "jedoch"
+              ],
+              "purple": [
+                "tomēr"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "aber"
+            ],
+            "purple": [
+              "pretstatu",
+              "iebildi"
+            ]
+          },
+          {
+            "yellow": [
+              "sondern"
+            ],
+            "purple": [
+              "nevis",
+              "bet gan"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "achten",
@@ -2692,6 +2799,14 @@ const A1_WORDS = [
             "blue": [
               "bitte"
             ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
+            ]
           }
         ],
         "comparison": [
@@ -2802,7 +2917,13 @@ const A1_WORDS = [
         ],
         "tip": {},
         "important": [
-          {}
+          {},
+          {
+            "purple": [
+              "lietvārds",
+              "lielais sākumburts"
+            ]
+          }
         ],
         "comparison": [
           {
@@ -3218,17 +3339,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "bringt"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
               ],
               "yellow": [
                 "Buch"
@@ -4371,14 +4481,6 @@ const A1_WORDS = [
           {
             "word": {},
             "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
           }
         ],
         "tip": {
@@ -4760,7 +4862,115 @@ const A1_WORDS = [
         "erst a nur sa môžu prekladať ako „iba“, ale nepoužívajú sa rovnako.",
         "zuerst znamená najmä „najprv“ na začiatku poradia."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Erst"
+            ],
+            "red": [
+              "dann"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ]
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erst"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Erst"
+              ],
+              "red": [
+                "dann"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuerst"
+              ]
+            },
+            "example": {
+              "green": [
+                "Zuerst"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nur"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "nur"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dann"
+              ]
+            },
+            "example": {
+              "red": [
+                "Dann"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "erst"
+            ],
+            "yellow": [
+              "nur"
+            ],
+            "purple": [
+              "tikai"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ],
+            "green": [
+              "laiku",
+              "secību"
+            ],
+            "yellow": [
+              "nur"
+            ],
+            "purple": [
+              "daudzumu"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "erste",
@@ -4825,35 +5035,9 @@ const A1_WORDS = [
             "yellow": [
               "Das"
             ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -5629,14 +5813,6 @@ const A1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {}
           }
         ],
         "comparison": [
@@ -5650,41 +5826,6 @@ const A1_WORDS = [
             "example": {
               "blue": [
                 "finde"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "suche"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "glaube"
               ]
             }
           }
@@ -7561,6 +7702,15 @@ const A1_WORDS = [
             "blue": [
               "halte"
             ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
+            ]
           }
         ]
       }
@@ -8006,12 +8156,25 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {},
+          {
+            "green": [
+              "groß"
+            ]
+          }
         ],
         "important": [
           {
             "green": [
               "hoch"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
             ]
           }
         ]
@@ -11732,7 +11895,77 @@ const A1_WORDS = [
         "leise opisuje hlasitosť zvuku.",
         "Podľa vetnej funkcie môže byť preklad prídavné meno alebo príslovka."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kluss"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "klusa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "leise",
+                "leise"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "klusi"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "kluss"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "leise"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "lesen",
@@ -12084,7 +12317,92 @@ const A1_WORDS = [
         "machen má široký význam a preklad závisí od situácie.",
         "Das macht Spaß znamená „Je to zábava“, nie doslovný preklad jednotlivých slov."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "machst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dari"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mache"
+              ],
+              "yellow": [
+                "Hausaufgaben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pildu"
+              ],
+              "yellow": [
+                "mājasdarbus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "machen"
+              ],
+              "yellow": [
+                "Pizza"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "taisām"
+              ],
+              "yellow": [
+                "picu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "macht Spaß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ir jautri"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "machen"
+            ],
+            "purple": [
+              "dabiski"
+            ]
+          },
+          {
+            "blue": [
+              "Das macht Spaß"
+            ],
+            "purple": [
+              "tas ir jautri"
+            ],
+            "red": [
+              "taisa prieku"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Mädchen",
@@ -12148,7 +12466,84 @@ const A1_WORDS = [
         "ein Mal, zwei Mal vyjadruje počet opakovaní.",
         "Hovorová častica mal nie je totožná s podstatným menom das Mal."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erste Mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pirmo reizi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zwei Mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "divreiz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ein Mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienreiz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ein Mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "reizi"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "das Mal",
+              "die Male"
+            ]
+          },
+          {
+            "blue": [
+              "ein Mal",
+              "zwei Mal"
+            ],
+            "purple": [
+              "reizes"
+            ]
+          },
+          {
+            "blue": [
+              "mal"
+            ],
+            "purple": [
+              "das Mal"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "malen",
@@ -19902,7 +20297,152 @@ const A1_WORDS = [
         "werden nie je to isté ako sein.",
         "Ich werde müde = začínam byť unavený; Ich bin müde = som unavený."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "werde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kļūstu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wird"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kļūst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wird"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kļūst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "bin"
+              ]
+            },
+            "lv": {
+              "red": [
+                "esmu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "werden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kļūt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "werde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "būt"
+              ]
+            },
+            "example": {
+              "red": [
+                "bin"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bleiben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "palikt"
+              ]
+            },
+            "example": {
+              "green": [
+                "bleibe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "machen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "darīt",
+                "taisīt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "mache"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "werden"
+            ],
+            "red": [
+              "sein"
+            ]
+          },
+          {
+            "blue": [
+              "werde"
+            ],
+            "purple": [
+              "kļūstu"
+            ],
+            "red": [
+              "bin",
+              "esmu"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Wetter",
@@ -20172,7 +20712,114 @@ const A1_WORDS = [
         "wie viel(e) = koľko; wie alt = koľko rokov; wie lange = ako dlho.",
         "so ... wie = taký ... ako."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "wie"
+            ],
+            "purple": [
+              "kā",
+              "cik"
+            ]
+          },
+          {
+            "purple": [
+              "tikpat",
+              "kā"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "cik daudz",
+              "cik vecs",
+              "cik ilgi"
+            ]
+          },
+          {
+            "purple": [
+              "kā"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "wieder",
@@ -20476,7 +21123,148 @@ const A1_WORDS = [
         "V tejto karte der Zug znamená vlak.",
         "Menej časté významy slova Zug nepatria do hlavného A1 prekladu."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Zug"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vilciens"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mit dem Zug"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ar vilcienu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zug"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vilciens"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "Bus"
+              ]
+            },
+            "lv": {
+              "red": [
+                "Autobuss"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Zug"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vilciens"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Zug"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bahn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dzelzceļš",
+                "vilcienu"
+              ]
+            },
+            "example": {
+              "green": [
+                "Bahn"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Bus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "autobuss"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Bus"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Straßenbahn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tramvajs"
+              ]
+            },
+            "example": {
+              "red": [
+                "Straßenbahn"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "der Zug"
+            ],
+            "purple": [
+              "vilciens"
+            ]
+          },
+          {
+            "red": [
+              "Retākās nozīmes"
+            ],
+            "purple": [
+              "a1 virsrakstā"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "zum",
@@ -21102,7 +21890,61 @@ const A1_WORDS = [
         "Správny člen je der: der Appetit.",
         "Správne sa hovorí Ich habe Appetit, nie Ich bin Appetit."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "appetit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apetīti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "appetit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apetīti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "appetit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apetītes"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "apetīte"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "der Appetit"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "essen",

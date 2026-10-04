@@ -24464,6 +24464,11 @@ const B1_WORDS = [
             "purple": [
               "ganztägig"
             ]
+          },
+          {
+            "red": [
+              "rund um die Uhr"
+            ]
           }
         ]
       }
@@ -30460,6 +30465,12 @@ const B1_WORDS = [
             "purple": [
               "der"
             ]
+          },
+          {
+            "purple": [
+              "pagarinātās dienas grupa",
+              "bērnu dienas centrs"
+            ]
           }
         ]
       }
@@ -32195,6 +32206,11 @@ const B1_WORDS = [
             "purple": [
               "follower"
             ]
+          },
+          {
+            "blue": [
+              "die Jüngerin"
+            ]
           }
         ]
       }
@@ -32399,6 +32415,11 @@ const B1_WORDS = [
           {
             "purple": [
               "composition"
+            ]
+          },
+          {
+            "blue": [
+              "der Kader der Nationalmannschaft"
             ]
           }
         ]
@@ -65956,6 +65977,11 @@ const B1_WORDS = [
               "loss",
               "damage"
             ]
+          },
+          {
+            "purple": [
+              "bojājumu"
+            ]
           }
         ],
         "important": [
@@ -66520,6 +66546,11 @@ const B1_WORDS = [
           {
             "purple": [
               "stubborn"
+            ]
+          },
+          {
+            "purple": [
+              "spītīga"
             ]
           }
         ],

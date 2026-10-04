@@ -11603,6 +11603,15 @@ const B2_WORDS = [
         "important": [
           {
             "purple": []
+          },
+          {
+            "red": [
+              "da",
+              "weil"
+            ],
+            "purple": [
+              "tā kā"
+            ]
           }
         ]
       }
@@ -14831,6 +14840,11 @@ const B2_WORDS = [
               "trade",
               "trade"
             ]
+          },
+          {
+            "purple": [
+              "nomainīt"
+            ]
           }
         ],
         "important": [
@@ -14961,6 +14975,11 @@ const B2_WORDS = [
             "purple": [
               "Offer",
               "Offer"
+            ]
+          },
+          {
+            "purple": [
+              "sniedz"
             ]
           }
         ],
@@ -15198,6 +15217,11 @@ const B2_WORDS = [
               "Demand",
               "Demand"
             ]
+          },
+          {
+            "purple": [
+              "prasīt"
+            ]
           }
         ],
         "important": [
@@ -15312,6 +15336,11 @@ const B2_WORDS = [
           {
             "purple": [
               "promote"
+            ]
+          },
+          {
+            "purple": [
+              "atbalstīt"
             ]
           }
         ],

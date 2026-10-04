@@ -3212,6 +3212,14 @@ const A1_WORDS = [
             "blue": [
               "bitte"
             ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
+            ]
           }
         ],
         "comparison": [
@@ -3330,7 +3338,13 @@ const A1_WORDS = [
         ],
         "tip": {},
         "important": [
-          {}
+          {},
+          {
+            "purple": [
+              "lietvārds",
+              "lielais sākumburts"
+            ]
+          }
         ],
         "comparison": [
           {
@@ -3819,24 +3833,6 @@ const A1_WORDS = [
               ],
               "yellow": [
                 "Dat"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "red": [
-                "ass"
-              ],
-              "yellow": [
-                "grāmatu"
               ]
             }
           }
@@ -5196,14 +5192,6 @@ const A1_WORDS = [
           {
             "word": {},
             "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
           }
         ],
         "tip": {
@@ -5817,35 +5805,9 @@ const A1_WORDS = [
             "yellow": [
               "Das"
             ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -6669,18 +6631,6 @@ const A1_WORDS = [
                 "MAN"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Wat"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -6702,61 +6652,6 @@ const A1_WORDS = [
               ],
               "purple": [
                 "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "CAA"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "suche",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "CAA"
-              ]
-            },
-            "example": {
-              "green": [
-                "denke",
-                "domāju"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ticēt",
-                "domāt"
-              ]
-            },
-            "example": {
-              "red": [
-                "glaube",
-                "domāju"
               ]
             }
           }
@@ -9005,6 +8900,15 @@ const A1_WORDS = [
             "purple": [
               "uzskatu"
             ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
+            ]
           }
         ]
       }
@@ -9533,12 +9437,25 @@ const A1_WORDS = [
             "purple": [
               "augsts"
             ]
+          },
+          {
+            "green": [
+              "groß"
+            ]
           }
         ],
         "important": [
           {
             "green": [
               "hoch"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
             ]
           }
         ]
@@ -24540,7 +24457,29 @@ const A1_WORDS = [
             }
           }
         ]
-      }
+      ,
+        "important": [
+          {
+            "blue": [
+              "werden"
+            ],
+            "red": [
+              "sein"
+            ]
+          },
+          {
+            "blue": [
+              "werde"
+            ],
+            "purple": [
+              "kļūstu"
+            ],
+            "red": [
+              "bin",
+              "esmu"
+            ]
+          }
+        ]}
     }
   },
   {
@@ -24768,7 +24707,34 @@ const A1_WORDS = [
             }
           }
         ]
-      }
+      ,
+        "tip": [
+          {
+            "blue": [
+              "Wetter"
+            ]
+          },
+          {
+            "blue": [
+              "Wetter"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Wetter"
+            ]
+          },
+          {
+            "green": [
+              "Zeit"
+            ],
+            "purple": [
+              "laiks"
+            ]
+          }
+        ]}
     }
   },
   {
@@ -24909,7 +24875,46 @@ const A1_WORDS = [
             }
           }
         ]
-      }
+      ,
+        "tip": [
+          {
+            "blue": [
+              "wie"
+            ],
+            "purple": [
+              "kā",
+              "cik"
+            ]
+          },
+          {
+            "purple": [
+              "tikpat",
+              "kā"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "cik daudz",
+              "cik vecs",
+              "cik ilgi"
+            ]
+          },
+          {
+            "purple": [
+              "kā"
+            ]
+          },
+          {
+            "red": [
+              "Cik tev iet?"
+            ],
+            "blue": [
+              "Kā tev iet?"
+            ]
+          }
+        ]}
     }
   },
   {
@@ -25147,7 +25152,28 @@ const A1_WORDS = [
             }
           }
         ]
-      }
+      ,
+        "important": [
+          {
+            "blue": [
+              "zu"
+            ],
+            "purple": [
+              "konstrukciju"
+            ]
+          },
+          {
+            "blue": [
+              "zu teuer"
+            ],
+            "purple": [
+              "pārāk dārgi"
+            ],
+            "red": [
+              "uz dārgi"
+            ]
+          }
+        ]}
     }
   },
   {
@@ -25353,7 +25379,25 @@ const A1_WORDS = [
             }
           }
         ]
-      }
+      ,
+        "important": [
+          {
+            "blue": [
+              "der Zug"
+            ],
+            "purple": [
+              "vilciens"
+            ]
+          },
+          {
+            "red": [
+              "Retākās nozīmes"
+            ],
+            "purple": [
+              "a1 virsrakstā"
+            ]
+          }
+        ]}
     }
   },
   {
@@ -26082,7 +26126,17 @@ const A1_WORDS = [
             }
           }
         ]
-      }
+      ,
+        "tip": [
+          {}
+        ],
+        "important": [
+          {
+            "green": [
+              "fernsehen"
+            ]
+          }
+        ]}
     }
   },
   {

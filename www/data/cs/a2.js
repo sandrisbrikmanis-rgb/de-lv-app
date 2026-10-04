@@ -37774,7 +37774,17 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          "krátce"
+          "krátce",
+          {
+            "blue": [
+              "kurz vor",
+              "kurz nach"
+            ],
+            "purple": [
+              "īsi pirms",
+              "īsi pēc"
+            ]
+          }
         ],
         "important": [
           {
@@ -64967,11 +64977,6 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Může"
-            ]
-          },
           {
             "purple": [
               "Může"

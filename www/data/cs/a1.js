@@ -3886,24 +3886,6 @@ const A1_WORDS = [
                 "Vezme"
               ]
             }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Beru"
-              ],
-              "yellow": [
-                "Beru"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -5289,14 +5271,6 @@ const A1_WORDS = [
           {
             "word": {},
             "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
           }
         ],
         "tip": {
@@ -5950,22 +5924,6 @@ const A1_WORDS = [
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -6898,18 +6856,6 @@ const A1_WORDS = [
                 "Zdá"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "myslíš"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -6930,61 +6876,6 @@ const A1_WORDS = [
                 "finde"
               ],
               "purple": [
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Hledat"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "suche",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Přemýšlet"
-              ]
-            },
-            "example": {
-              "green": [
-                "denke",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Věřit",
-                "Věřit"
-              ]
-            },
-            "example": {
-              "red": [
-                "glaube",
                 "Ich"
               ]
             }
@@ -9232,6 +9123,15 @@ const A1_WORDS = [
             "purple": [
               "Ich"
             ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
+            ]
           }
         ]
       }
@@ -9760,12 +9660,25 @@ const A1_WORDS = [
             "purple": [
               "Hoch"
             ]
+          },
+          {
+            "green": [
+              "groß"
+            ]
           }
         ],
         "important": [
           {
             "green": [
               "hoch"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
             ]
           }
         ]

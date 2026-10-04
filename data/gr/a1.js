@@ -3212,6 +3212,14 @@ const A1_WORDS = [
             "blue": [
               "bitte"
             ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
+            ]
           }
         ],
         "comparison": [
@@ -3330,7 +3338,13 @@ const A1_WORDS = [
         ],
         "tip": {},
         "important": [
-          {}
+          {},
+          {
+            "purple": [
+              "lietvārds",
+              "lielais sākumburts"
+            ]
+          }
         ],
         "comparison": [
           {
@@ -3816,24 +3830,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "aiznes"
-              ],
-              "yellow": [
-                "grāmatu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "red": [
-                "paņemu"
               ],
               "yellow": [
                 "grāmatu"
@@ -5196,14 +5192,6 @@ const A1_WORDS = [
           {
             "word": {},
             "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
           }
         ],
         "tip": {
@@ -5866,35 +5854,9 @@ const A1_WORDS = [
             "yellow": [
               "Das"
             ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -6839,18 +6801,6 @@ const A1_WORDS = [
                 "šķiet"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "šķiet"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -6872,61 +6822,6 @@ const A1_WORDS = [
               ],
               "purple": [
                 "šķiet"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "meklēt"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "suche",
-                "meklēju"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "domāt"
-              ]
-            },
-            "example": {
-              "green": [
-                "denke",
-                "domāju"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ticēt",
-                "domāt"
-              ]
-            },
-            "example": {
-              "red": [
-                "glaube",
-                "domāju"
               ]
             }
           }
@@ -9175,6 +9070,15 @@ const A1_WORDS = [
             "purple": [
               "uzskatu"
             ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
+            ]
           }
         ]
       }
@@ -9703,12 +9607,25 @@ const A1_WORDS = [
             "purple": [
               "augsts"
             ]
+          },
+          {
+            "green": [
+              "groß"
+            ]
           }
         ],
         "important": [
           {
             "green": [
               "hoch"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
             ]
           }
         ]

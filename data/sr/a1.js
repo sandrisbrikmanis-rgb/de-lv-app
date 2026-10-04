@@ -753,7 +753,112 @@ const A1_WORDS = [
         "also уводи закључак који произлази из претходно реченог.",
         "За значење „зато“ немачки често користи deshalb."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "also"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "also"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "also"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tātad"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "also"
+              ]
+            },
+            "example": {
+              "green": [
+                "also"
+              ],
+              "purple": [
+                "tātad"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "auch"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "auch"
+              ],
+              "purple": [
+                "arī"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "deshalb"
+              ]
+            },
+            "example": {
+              "green": [
+                "deshalb"
+              ],
+              "purple": [
+                "tāpēc"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "also"
+            ],
+            "purple": [
+              "secinājumu"
+            ]
+          },
+          {
+            "green": [
+              "deshalb"
+            ],
+            "purple": [
+              "tāpēc"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Ameise",
@@ -919,7 +1024,61 @@ const A1_WORDS = [
         "Правилно: Ich wünsche Ihnen auch einen schönen Tag.",
         "Неправилно: Ich auch wünsche Ihnen einen schönen Tag."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arī"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "arī"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "auch"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "auf",
@@ -972,7 +1131,115 @@ const A1_WORDS = [
         "Не преводи се увек истом речју; значење зависи од места и смера.",
         "За кретање у унутрашњост употребљава се in."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uz"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
+            "example": {
+              "blue": [
+                "auf"
+              ],
+              "purple": [
+                "uz"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "an"
+              ]
+            },
+            "example": {
+              "green": [
+                "an",
+                "pie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "in"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "auf"
+            ],
+            "purple": [
+              "uz"
+            ],
+            "green": [
+              "virsmas",
+              "augšpusē"
+            ]
+          },
+          {
+            "green": [
+              "an"
+            ],
+            "yellow": [
+              "in"
+            ],
+            "purple": [
+              "pie",
+              "iekšā"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "aufmachen",
@@ -1065,7 +1332,113 @@ const A1_WORDS = [
         "За излазак из затвореног простора употреби aus.",
         "ab најчешће означава почетну тачку у времену или простору."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aus"
+              ]
+            },
+            "example": {
+              "green": [
+                "aus"
+              ],
+              "purple": [
+                "no"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "von"
+              ]
+            },
+            "example": {
+              "green": [
+                "von"
+              ],
+              "purple": [
+                "no"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ab"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "ab"
+              ],
+              "purple": [
+                "no"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "aus"
+            ],
+            "purple": [
+              "ārā no iekšienes",
+              "izcelsmi"
+            ]
+          },
+          {
+            "blue": [
+              "ab"
+            ],
+            "purple": [
+              "sākuma punktu"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "auf dem Boden",
@@ -1166,7 +1539,247 @@ const A1_WORDS = [
         "Уз именице мушког рода употребљава се, на пример, auf den, а не aufs.",
         "Не мешај aufs са an уз усправну површину или са ins за кретање у унутрашњост."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "aufs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uz jumta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aufs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uz dīvāna"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aufs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uz laukiem"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aufs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uz gultas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aufs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzlec zirgam mugurā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aufs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uz plaukta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aufs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laivā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aufs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uz svinībām"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aufs"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uz konkrētu lietu"
+              ]
+            },
+            "example": {
+              "blue": [
+                "aufs Dach"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uz virsmu"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "auf den Tisch"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pie"
+              ]
+            },
+            "example": {
+              "green": [
+                "an die Wand"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ins"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uz iekšu"
+              ]
+            },
+            "example": {
+              "green": [
+                "ins Zimmer"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zum"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uz",
+                "pie"
+              ]
+            },
+            "example": {
+              "red": [
+                "zum Arzt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "aufs"
+            ],
+            "purple": [
+              "kurp?"
+            ]
+          },
+          {
+            "purple": [
+              "auf das"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "aufs"
+            ],
+            "purple": [
+              "auf das"
+            ],
+            "green": [
+              "kurp?"
+            ]
+          },
+          {
+            "purple": [
+              "kurp?"
+            ],
+            "green": [
+              "kustība"
+            ]
+          },
+          {
+            "yellow": [
+              "auf den"
+            ],
+            "red": [
+              "aufs"
+            ]
+          },
+          {
+            "green": [
+              "an"
+            ],
+            "red": [
+              "ins"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Augenbraue",
@@ -2251,6 +2864,14 @@ const A1_WORDS = [
             "blue": [
               "bitte"
             ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
+            ]
           }
         ],
         "comparison": [
@@ -2361,7 +2982,13 @@ const A1_WORDS = [
         ],
         "tip": {},
         "important": [
-          {}
+          {},
+          {
+            "purple": [
+              "lietvārds",
+              "lielais sākumburts"
+            ]
+          }
         ],
         "comparison": [
           {
@@ -2762,17 +3389,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "bringt"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
               ],
               "yellow": [
                 "Buch"
@@ -3345,7 +3961,133 @@ const A1_WORDS = [
         "dass је везник.",
         "Не мешај dass са das, које може бити члан или заменица."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ka"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "dass"
+              ]
+            },
+            "example": {
+              "blue": [
+                "dass"
+              ],
+              "purple": [
+                "ka"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "weil"
+              ]
+            },
+            "example": {
+              "green": [
+                "weil"
+              ],
+              "purple": [
+                "jo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "damit"
+              ],
+              "purple": [
+                "lai"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ob"
+              ]
+            },
+            "example": {
+              "red": [
+                "ob"
+              ],
+              "purple": [
+                "vai"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "dass"
+            ],
+            "purple": [
+              "ka"
+            ],
+            "green": [
+              "palīgteikumu"
+            ]
+          },
+          {
+            "red": [
+              "das"
+            ],
+            "yellow": [
+              "artikuls"
+            ],
+            "purple": [
+              "tas"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Datum",
@@ -3398,7 +4140,42 @@ const A1_WORDS = [
         "На нивоу А1 der се најпре учи као одређени члан мушког рода.",
         "Заменичка и релативна употреба уче се касније."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Der"
+            ]
+          },
+          {
+            "blue": [
+              "Der"
+            ]
+          },
+          {
+            "blue": [
+              "Der"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "der"
+            ],
+            "purple": [
+              "vīriešu dzimtes artikulu"
+            ]
+          },
+          {
+            "red": [
+              "Vietniekvārda",
+              "relatīvā"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "deutsch",
@@ -3445,7 +4222,47 @@ const A1_WORDS = [
         "На нивоу А1 die се најпре учи као одређени члан женског рода.",
         "У множини се die употребљава уз именице свих родова."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Die"
+            ]
+          },
+          {
+            "blue": [
+              "Die"
+            ]
+          },
+          {
+            "blue": [
+              "Die"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "die"
+            ],
+            "purple": [
+              "sieviešu dzimtes artikulu"
+            ]
+          },
+          {
+            "blue": [
+              "die"
+            ],
+            "green": [
+              "Daudzskaitlī"
+            ],
+            "purple": [
+              "visām dzimtēm"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Dienstag",
@@ -3702,14 +4519,6 @@ const A1_WORDS = [
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -4259,35 +5068,9 @@ const A1_WORDS = [
             "yellow": [
               "Das"
             ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -5014,14 +5797,6 @@ const A1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {}
           }
         ],
         "comparison": [
@@ -5035,45 +5810,6 @@ const A1_WORDS = [
             "example": {
               "blue": [
                 "finde"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "suche"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "denke"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "glaube"
               ]
             }
           }
@@ -6922,6 +7658,15 @@ const A1_WORDS = [
             "blue": [
               "halte"
             ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
+            ]
           }
         ]
       }
@@ -7364,10 +8109,23 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {},
+          {
+            "green": [
+              "groß"
+            ]
+          }
         ],
         "important": [
-          {}
+          {},
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
+            ]
+          }
         ]
       }
     }
@@ -12311,7 +13069,103 @@ const A1_WORDS = [
         "На почетку реченице morgen се пише великим словом само због положаја.",
         "У изразу Guten Morgen именица Morgen значи јутро."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "rīt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "morgen"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Morgen",
@@ -12362,7 +13216,86 @@ const A1_WORDS = [
         "der Morgen је именица мушког рода.",
         "На почетку реченице прилог morgen такође почиње великим словом."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "morgen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "morgen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "der Morgen",
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rīts"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "rīts"
+            ]
+          }
+        ],
+        "important": [
+          {}
+        ]
+      }}
   },
   {
     "de": "morgens",
@@ -13793,7 +14726,165 @@ const A1_WORDS = [
         "oder се употребљава за избор: Kaffee oder Tee?",
         "За да ли у индиректном питању обично се употребљава ob."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "oder"
+              ],
+              "yellow": [
+                "Kaffee",
+                "Tee"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vai"
+              ],
+              "yellow": [
+                "Kafiju",
+                "tēju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "oder"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "oder"
+              ],
+              "yellow": [
+                "Pizza",
+                "Salat"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vai"
+              ],
+              "yellow": [
+                "picu",
+                "salātus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "oder"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vai ne"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "oder"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vai",
+                "izvēlē"
+              ]
+            },
+            "example": {
+              "blue": [
+                "oder"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ob"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vai",
+                "netiešā jautājumā"
+              ]
+            },
+            "example": {
+              "red": [
+                "ob"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "und"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "un"
+              ]
+            },
+            "example": {
+              "green": [
+                "und"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aber"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bet"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "aber"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "oder"
+            ],
+            "purple": [
+              "izvēlei"
+            ]
+          },
+          {
+            "red": [
+              "ob"
+            ],
+            "purple": [
+              "netiešā jautājumā"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "öffnen",
@@ -14902,7 +15993,159 @@ const A1_WORDS = [
         "За спорт и умеће пливања употреби schwimmen.",
         "baden не значи нужно да особа плива."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schwimme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peldēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwimmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peld"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwimmen"
+              ],
+              "green": [
+                "Schwimmbad"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peldam"
+              ],
+              "green": [
+                "baseinā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "baden"
+              ]
+            },
+            "lv": {
+              "red": [
+                "peldēties"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schwimmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "peldēt",
+                "kustība",
+                "sports"
+              ]
+            },
+            "example": {
+              "blue": [
+                "schwimmt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "baden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "peldēties",
+                "ūdenī"
+              ]
+            },
+            "example": {
+              "red": [
+                "baden"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schwimmen gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet peldēt"
+              ]
+            },
+            "example": {
+              "green": [
+                "schwimmen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "duschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mazgāties dušā"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "dusche"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "schwimmen"
+            ],
+            "red": [
+              "baden"
+            ]
+          },
+          {
+            "purple": [
+              "peldēt"
+            ],
+            "blue": [
+              "kustība"
+            ],
+            "red": [
+              "peldēšanās"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "sechs",
@@ -15002,7 +16245,153 @@ const A1_WORDS = [
         "sehen није исто што и anschauen.",
         "Ich sehe dich значи Видим те; Ich schaue den Film значи Гледам филм."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sehe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "redzu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Siehst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "redzi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sehe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neredzu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "schauen"
+              ]
+            },
+            "lv": {
+              "red": [
+                "skatāmies"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "redzēt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "sehe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skatīties"
+              ]
+            },
+            "example": {
+              "red": [
+                "schaue"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ansehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apskatīt",
+                "skatīties"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "sehe",
+                "an"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "hören"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dzirdēt"
+              ]
+            },
+            "example": {
+              "green": [
+                "höre"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sehen"
+            ],
+            "red": [
+              "anschauen"
+            ]
+          },
+          {
+            "blue": [
+              "sehe"
+            ],
+            "purple": [
+              "redzu"
+            ],
+            "red": [
+              "schaue",
+              "skatos"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "sehr",
@@ -15078,7 +16467,150 @@ const A1_WORDS = [
           "example": "Ich bleibe hier. – Остајем овде."
         }
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "esmu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bist"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "esi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ist"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ir"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sind"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "esam"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "būt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "bin"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "man ir"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "habe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "werden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kļūt"
+              ]
+            },
+            "example": {
+              "green": [
+                "werde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bleiben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "palikt"
+              ]
+            },
+            "example": {
+              "red": [
+                "bleibe"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "bin",
+              "bist",
+              "ist",
+              "sind"
+            ]
+          },
+          {
+            "blue": [
+              "Ich bin"
+            ],
+            "purple": [
+              "es esmu"
+            ],
+            "red": [
+              "es būt"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "seit",
@@ -15134,7 +16666,106 @@ const A1_WORDS = [
         "die Seite је именица женског рода.",
         "Множина је die Seiten."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Seite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lappusi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Seite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pusē"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Webseite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lappuse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Seite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pusē"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Seiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lappuses"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Seite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pusē"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "lappuse"
+            ],
+            "green": [
+              "puse"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "lappuse",
+              "puse"
+            ]
+          },
+          {
+            "blue": [
+              "die Seiten"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Sekunde",
@@ -15212,7 +16843,157 @@ const A1_WORDS = [
         "sich није самостална именица.",
         "Повратна заменица се мења према лицу: ich → mich, du → dich, er/sie/es → sich."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazgājas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsēžos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "priecājas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "wasche"
+              ],
+              "yellow": [
+                "Auto"
+              ]
+            },
+            "lv": {
+              "red": [
+                "mazgāju"
+              ],
+              "yellow": [
+                "auto"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sevi",
+                "sev"
+              ]
+            },
+            "example": {
+              "blue": [
+                "sich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mani",
+                "sevi"
+              ]
+            },
+            "example": {
+              "green": [
+                "mich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tevi",
+                "sevi"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "dich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ihn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "viņu"
+              ]
+            },
+            "example": {
+              "red": [
+                "ihn"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich"
+            ],
+            "red": [
+              "lietvārds"
+            ]
+          },
+          {
+            "green": [
+              "mich",
+              "dich"
+            ],
+            "blue": [
+              "sich"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "sicher",
@@ -15261,7 +17042,104 @@ const A1_WORDS = [
         "sicher као придев мења наставак: eine sichere Lösung.",
         "Као прилог може значити сигурно или безбедно."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "drošs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "noteikti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "droši vien"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sichere"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "drošs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārliecināts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "droši"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "drošs"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "drošs",
+              "noteikti",
+              "droši vien"
+            ]
+          },
+          {
+            "green": [
+              "sich sicher sein"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "sie",
@@ -15310,7 +17188,98 @@ const A1_WORDS = [
         "sie за они/оне иде са глаголом у множини.",
         "Учтиво Sie увек се пише великим словом."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Viņi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viņi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jūs"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {}
+        ],
+        "important": [
+          {
+            "green": [
+              "sie"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Sie",
@@ -15359,7 +17328,87 @@ const A1_WORDS = [
         "Sie у учтивом значењу увек се пише великим словом.",
         "Значење sie/Sie одређују велико слово, глагол и контекст."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jūs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "yellow": [
+                "Sie",
+                "sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jūs"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "jūs"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "yellow": [
+              "Sie"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "siebenhundert",
@@ -15456,7 +17505,154 @@ const A1_WORDS = [
         "sitzen није исто што и sich setzen.",
         "За положај предмета често се користе stehen или liegen, зависно од положаја."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sitze"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sēžu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sitzen"
+              ],
+              "green": [
+                "Kinder"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sēž"
+              ],
+              "green": [
+                "Bērni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "steht"
+              ]
+            },
+            "lv": {
+              "red": [
+                "stāv"
+              ]
+            }
+          },
+          {
+            "de": {
+              "yellow": [
+                "liegt"
+              ]
+            },
+            "lv": {
+              "yellow": [
+                "guļ"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sēdēt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "sitze"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stāvēt"
+              ]
+            },
+            "example": {
+              "red": [
+                "steht"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gulēt",
+                "guļus"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "liegt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "setzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apsēsties"
+              ]
+            },
+            "example": {
+              "green": [
+                "setze"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sitzen"
+            ],
+            "purple": [
+              "sēdēt"
+            ]
+          },
+          {
+            "green": [
+              "sich setzen"
+            ],
+            "blue": [
+              "sitzen"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "so",
@@ -15549,7 +17745,149 @@ const A1_WORDS = [
         "Was soll ich machen? је врло чест израз.",
         "sollen и müssen нису потпуно исто."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "soll",
+                "machen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ko man darīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sollst",
+                "kommen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jāatnāk"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "soll",
+                "bleiben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jāpaliek"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "muss",
+                "gehen"
+              ]
+            },
+            "lv": {
+              "red": [
+                "jāiet"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vajadzētu",
+                "norādes"
+              ]
+            },
+            "example": {
+              "blue": [
+                "soll"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "müssen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obligāti"
+              ]
+            },
+            "example": {
+              "red": [
+                "muss"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "können"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "varēt"
+              ]
+            },
+            "example": {
+              "green": [
+                "kann"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gribēt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "will"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Was soll ich machen"
+            ]
+          },
+          {
+            "blue": [
+              "sollen"
+            ],
+            "red": [
+              "müssen"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Sommer",
@@ -16946,7 +19284,241 @@ const A1_WORDS = [
         "Уз именицу женског рода стоји von der, на пример von der Mutter, а не vom Mutter.",
         "Не мешај vom са aus за кретање из унутрашњости или порекло из земље, нити са ab за почетну тачку."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no stacijas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no tēva"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no ārsta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no lidostas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no tirgus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no svinībām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no zemnieka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no priekšnieka"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vom"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "no"
+              ]
+            },
+            "example": {
+              "blue": [
+                "vom Bahnhof"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "von"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "no"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "von mir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "no iekšienes"
+              ]
+            },
+            "example": {
+              "green": [
+                "aus Deutschland"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ab"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sākot no"
+              ]
+            },
+            "example": {
+              "green": [
+                "ab Montag"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uz",
+                "pie"
+              ]
+            },
+            "example": {
+              "red": [
+                "zum Arzt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "vom"
+            ]
+          },
+          {
+            "purple": [
+              "von dem"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "vom"
+            ],
+            "purple": [
+              "von dem"
+            ],
+            "green": [
+              "kam?"
+            ]
+          },
+          {
+            "purple": [
+              "no kā"
+            ]
+          },
+          {
+            "yellow": [
+              "von der Mutter"
+            ],
+            "red": [
+              "vom Mutter"
+            ]
+          },
+          {
+            "green": [
+              "aus"
+            ],
+            "red": [
+              "ab"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "von",
@@ -17015,7 +19587,170 @@ const A1_WORDS = [
         "vor може да означава и време и место.",
         "vor dem Essen = пре јела; vor dem Haus = испред куће."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Vor"
+              ],
+              "yellow": [
+                "Essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pirms"
+              ],
+              "yellow": [
+                "ēšanas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vor"
+              ],
+              "yellow": [
+                "Haus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "priekšā"
+              ],
+              "yellow": [
+                "mājas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bez piecām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "Nach"
+              ],
+              "yellow": [
+                "Essen"
+              ]
+            },
+            "lv": {
+              "red": [
+                "Pēc"
+              ],
+              "yellow": [
+                "ēšanas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vor"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pirms",
+                "priekšā"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Vor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nach"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pēc",
+                "uz"
+              ]
+            },
+            "example": {
+              "red": [
+                "Nach"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "neben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "blakus"
+              ]
+            },
+            "example": {
+              "green": [
+                "Neben"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "hinter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aiz"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Hinter"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "vor"
+            ],
+            "purple": [
+              "laiks",
+              "vieta"
+            ]
+          },
+          {
+            "blue": [
+              "vor dem Essen",
+              "vor dem Haus"
+            ],
+            "purple": [
+              "pirms ēšanas",
+              "mājas priekšā"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Vorname",
@@ -17114,7 +19849,125 @@ const A1_WORDS = [
         "was für (ein/eine) значи какав или која врста.",
         "Неправилно: Wer ist passiert? Правилно: Was ist passiert?"
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "was"
+            ]
+          },
+          {
+            "purple": [
+              "kas",
+              "ko"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "was"
+            ]
+          },
+          {
+            "blue": [
+              "wer"
+            ]
+          },
+          {
+            "blue": [
+              "was für"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "waschen",
@@ -17234,7 +20087,151 @@ const A1_WORDS = [
         "wenn и wann нису исто.",
         "Wann kommst du? је питање; Wenn du kommst... уводи услов или време."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wenn",
+                "hast"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wenn",
+                "regnet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wenn",
+                "bin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "ob"
+              ]
+            },
+            "lv": {
+              "red": [
+                "vai"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ja",
+                "kad"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Wenn"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ob"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vai"
+              ]
+            },
+            "example": {
+              "red": [
+                "ob"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wann"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kad"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Wann"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "weil"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jo"
+              ]
+            },
+            "example": {
+              "green": [
+                "weil"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "wenn"
+            ],
+            "yellow": [
+              "wann"
+            ]
+          },
+          {
+            "yellow": [
+              "Wann kommst du"
+            ],
+            "blue": [
+              "Wenn du kommst"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "wer",
@@ -17293,7 +20290,133 @@ const A1_WORDS = [
         "Падежни облици су wer, wen, wem и wessen.",
         "Неправилно: Wer ist passiert? Правилно: Was ist passiert?"
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kurš"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kurš"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "wer"
+            ],
+            "green": [
+              "was"
+            ]
+          },
+          {
+            "blue": [
+              "wer von"
+            ],
+            "purple": [
+              "kurš no"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "wer"
+            ]
+          },
+          {
+            "green": [
+              "was"
+            ],
+            "blue": [
+              "wer"
+            ]
+          },
+          {
+            "blue": [
+              "wer"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "werden",

@@ -2334,7 +2334,142 @@ const A1_WORDS = [
         "besuchen edatsız kullanılır: Ich besuche meine Freundin.",
         "Türkçe karşılığı nesneye göre ziyaret etmek veya bir kursa katılmak olabilir."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Bett",
@@ -2548,6 +2683,14 @@ const A1_WORDS = [
             "blue": [
               "bitte"
             ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
+            ]
           }
         ],
         "comparison": [
@@ -2658,7 +2801,13 @@ const A1_WORDS = [
         ],
         "tip": {},
         "important": [
-          {}
+          {},
+          {
+            "purple": [
+              "lietvārds",
+              "lielais sākumburts"
+            ]
+          }
         ],
         "comparison": [
           {
@@ -3065,17 +3214,6 @@ const A1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {}
           }
         ],
         "comparison": [
@@ -3473,7 +3611,95 @@ const A1_WORDS = [
         "A1 düzeyinde das önce nötr belirli artikel olarak öğrenilir.",
         "das artikel veya zamir olabilir; dass ise bir bağlaçtır."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Das"
+            ]
+          },
+          {
+            "blue": [
+              "Das"
+            ]
+          },
+          {
+            "de": {
+              "blue": [
+                "Das"
+              ],
+              "yellow": [
+                "das"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Das"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dies"
+              ]
+            },
+            "example": {
+              "green": [
+                "Dies"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "welches"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Das",
+                "das"
+              ],
+              "yellow": [
+                "welches"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "das"
+            ],
+            "purple": [
+              "vidus dzimtes artikulu"
+            ]
+          },
+          {
+            "blue": [
+              "das"
+            ],
+            "purple": [
+              "artikuls",
+              "vietniekvārds"
+            ],
+            "red": [
+              "dass"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "dass",
@@ -3533,7 +3759,133 @@ const A1_WORDS = [
         "dass bir yan cümleyi başlatır ve Türkçede çoğu zaman ki veya -diğini/-dığını ile karşılanır.",
         "dass ile artikel ya da zamir olan das aynı sözcük değildir."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ka"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "dass"
+              ]
+            },
+            "example": {
+              "blue": [
+                "dass"
+              ],
+              "purple": [
+                "ka"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "weil"
+              ]
+            },
+            "example": {
+              "green": [
+                "weil"
+              ],
+              "purple": [
+                "jo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "damit"
+              ],
+              "purple": [
+                "lai"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ob"
+              ]
+            },
+            "example": {
+              "red": [
+                "ob"
+              ],
+              "purple": [
+                "vai"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "dass"
+            ],
+            "purple": [
+              "ka"
+            ],
+            "green": [
+              "palīgteikumu"
+            ]
+          },
+          {
+            "red": [
+              "das"
+            ],
+            "yellow": [
+              "artikuls"
+            ],
+            "purple": [
+              "tas"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Datum",
@@ -3588,7 +3940,42 @@ const A1_WORDS = [
         "A1 düzeyinde der önce eril belirli artikel olarak öğrenilir.",
         "Zamir ve ilgi zamiri olarak kullanımları daha sonraki düzeylerde ele alınır."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Der"
+            ]
+          },
+          {
+            "blue": [
+              "Der"
+            ]
+          },
+          {
+            "blue": [
+              "Der"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "der"
+            ],
+            "purple": [
+              "vīriešu dzimtes artikulu"
+            ]
+          },
+          {
+            "red": [
+              "Vietniekvārda",
+              "relatīvā"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "deutsch",
@@ -3637,7 +4024,47 @@ const A1_WORDS = [
         "A1 düzeyinde die önce dişil belirli artikel olarak öğrenilir.",
         "Çoğulda bütün cinsiyetler için die kullanılır."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Die"
+            ]
+          },
+          {
+            "blue": [
+              "Die"
+            ]
+          },
+          {
+            "blue": [
+              "Die"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "die"
+            ],
+            "purple": [
+              "sieviešu dzimtes artikulu"
+            ]
+          },
+          {
+            "blue": [
+              "die"
+            ],
+            "green": [
+              "Daudzskaitlī"
+            ],
+            "purple": [
+              "visām dzimtēm"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Dienstag",
@@ -3682,7 +4109,71 @@ const A1_WORDS = [
         "dieser, diese ve dieses cinsiyete göre değişir.",
         "Çoğul biçim diese’dir."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dieser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "diesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šo suni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dieser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šī"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "dieser"
+            ],
+            "green": [
+              "diese"
+            ],
+            "yellow": [
+              "dieses"
+            ],
+            "purple": [
+              "dzimtes"
+            ]
+          },
+          {
+            "red": [
+              "diese"
+            ],
+            "green": [
+              "Daudzskaitlī"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Ding",
@@ -3829,7 +4320,85 @@ const A1_WORDS = [
         "eine: dişil.",
         "einen: eril akuzatif."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kāds"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viena"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kādu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "ein"
+            ],
+            "red": [
+              "noteiktais artikuls"
+            ]
+          },
+          {
+            "blue": [
+              "der",
+              "die",
+              "das"
+            ],
+            "green": [
+              "konkrēti zināma"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "einfach",
@@ -3909,7 +4478,178 @@ const A1_WORDS = [
         "Türkçede buz ve dondurma farklı sözcüklerdir, Almancada ikisi için de das Eis kullanılabilir.",
         "Doğru anlamı bağlam belirler."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Eis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saldējumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Eis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saldējumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Eis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ledus"
+              ],
+              "green": [
+                "ezera"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Eis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ledus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Eis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saldējumu"
+              ],
+              "yellow": [
+                "šokolādi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Eis"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ledus",
+                "saldējums"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Eis"
+              ],
+              "purple": [
+                "saldējumu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Schnee"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sniegs"
+              ]
+            },
+            "example": {
+              "green": [
+                "Schnee",
+                "Sniegs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kalt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "auksts"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "kalt",
+                "auksts"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Dessert"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "deserts"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Eis"
+              ],
+              "red": [
+                "deserts"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "das Eis"
+            ],
+            "purple": [
+              "ledus",
+              "saldējums"
+            ]
+          },
+          {
+            "purple": [
+              "saldējumu",
+              "ledu"
+            ],
+            "green": [
+              "ēdiens",
+              "auksta virsma",
+              "ūdens"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "elf",
@@ -4018,7 +4758,115 @@ const A1_WORDS = [
         "erst ve zuerst tam eş anlamlı değildir.",
         "erst ancak, daha veya önce anlamlarına gelebilir; zuerst esas olarak ilk sırayı belirtir."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Erst"
+            ],
+            "red": [
+              "dann"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ]
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erst"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Erst"
+              ],
+              "red": [
+                "dann"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuerst"
+              ]
+            },
+            "example": {
+              "green": [
+                "Zuerst"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nur"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "nur"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dann"
+              ]
+            },
+            "example": {
+              "red": [
+                "Dann"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "erst"
+            ],
+            "yellow": [
+              "nur"
+            ],
+            "purple": [
+              "tikai"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ],
+            "green": [
+              "laiku",
+              "secību"
+            ],
+            "yellow": [
+              "nur"
+            ],
+            "purple": [
+              "daudzumu"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "erste",
@@ -4079,7 +4927,63 @@ const A1_WORDS = [
         "Almanca es çoğu zaman o anlamına gelir veya Türkçeye ayrıca çevrilmez.",
         "Türkçedeki ben zamirinin Almancası ich’tir."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Ich"
+            ]
+          },
+          {
+            "blue": [
+              "Er"
+            ]
+          },
+          {
+            "red": [
+              "Sie"
+            ]
+          },
+          {
+            "yellow": [
+              "Das"
+            ]
+          }
+        ],
+        "comparison": [
+          {
+            "word": {},
+            "example": {}
+          },
+          {
+            "word": {},
+            "example": {}
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "es"
+            ],
+            "purple": [
+              "es"
+            ]
+          },
+          {
+            "red": [
+              "ich"
+            ],
+            "blue": [
+              "es"
+            ],
+            "purple": [
+              "tas",
+              "tā"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Esslöffel",
@@ -4747,14 +5651,6 @@ const A1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {}
           }
         ],
         "comparison": [
@@ -4768,41 +5664,6 @@ const A1_WORDS = [
             "example": {
               "blue": [
                 "finde"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "suche"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "glaube"
               ]
             }
           }
@@ -6643,6 +7504,15 @@ const A1_WORDS = [
             "blue": [
               "halte"
             ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
+            ]
           }
         ]
       }
@@ -7077,12 +7947,25 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {}
+          {},
+          {
+            "green": [
+              "groß"
+            ]
+          }
         ],
         "important": [
           {
             "green": [
               "hoch"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
             ]
           }
         ]
@@ -16366,7 +17249,149 @@ const A1_WORDS = [
         "Was soll ich machen? çok yaygın bir ifadedir.",
         "sollen ve müssen tam olarak aynı anlama gelmez."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "soll",
+                "machen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ko man darīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sollst",
+                "kommen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jāatnāk"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "soll",
+                "bleiben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jāpaliek"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "muss",
+                "gehen"
+              ]
+            },
+            "lv": {
+              "red": [
+                "jāiet"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vajadzētu",
+                "norādes"
+              ]
+            },
+            "example": {
+              "blue": [
+                "soll"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "müssen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obligāti"
+              ]
+            },
+            "example": {
+              "red": [
+                "muss"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "können"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "varēt"
+              ]
+            },
+            "example": {
+              "green": [
+                "kann"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gribēt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "will"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Was soll ich machen"
+            ]
+          },
+          {
+            "blue": [
+              "sollen"
+            ],
+            "red": [
+              "müssen"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Sommer",
@@ -19670,7 +20695,246 @@ const A1_WORDS = [
         "Dişil isimlerde zur kullanılır: zur Bank, zur Post.",
         "Bir yerde bulunmayı bildiren bei ve artikelsiz şehir/ülkelere yön bildiren nach ile karıştırma."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "zum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pie ārsta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uz staciju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uz veikalu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ēst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uz lidostu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uz koncertu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dzimšanas dienai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pie friziera"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zum"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uz",
+                "pie"
+              ]
+            },
+            "example": {
+              "blue": [
+                "zum Arzt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zur"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uz",
+                "pie"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "zur Schule"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uz",
+                "pie",
+                "pārāk"
+              ]
+            },
+            "example": {
+              "green": [
+                "zu Hause"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nach"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uz"
+              ]
+            },
+            "example": {
+              "green": [
+                "nach Berlin"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bei"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pie"
+              ]
+            },
+            "example": {
+              "red": [
+                "beim Arzt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "zum"
+            ]
+          },
+          {
+            "yellow": [
+              "zur"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "zum"
+            ],
+            "purple": [
+              "zu dem"
+            ],
+            "green": [
+              "kam?"
+            ]
+          },
+          {
+            "purple": [
+              "uz",
+              "pie"
+            ],
+            "green": [
+              "mērķi"
+            ]
+          },
+          {
+            "yellow": [
+              "zur Bank",
+              "zur Post"
+            ]
+          },
+          {
+            "green": [
+              "bei"
+            ],
+            "red": [
+              "nach"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "zumachen",
@@ -19797,7 +21061,50 @@ const A1_WORDS = [
         "fernsehen bir fiildir ve çekimde ayrılır: ich sehe fern.",
         "das Fernsehen yalnızca tekil kullanılan bir isimdir."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sehe",
+                "fern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatos televīziju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Siehst",
+                "fern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaties televīzoru"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sehen",
+                "fern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatās televīzoru"
+              ]
+            }
+          }
+        ]
+      }}
   },
   {
     "de": "Fernsehen",
@@ -19854,7 +21161,94 @@ const A1_WORDS = [
         "Yanlış: die Fernsehen. Doğru: das Fernsehen.",
         "Eylem: fernsehen → ich sehe fern."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "das Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          },
+          {
+            "de": {},
+            "lv": {
+              "purple": [
+                "televīziju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {}
+        ],
+        "important": [
+          {
+            "green": [
+              "fernsehen"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Appetit",
@@ -19898,7 +21292,61 @@ const A1_WORDS = [
         "Yanlış: Ich bin Appetit. Doğru: Ich habe Appetit.",
         "der Appetit bir duyguyu, yani iştahı anlatır."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "appetit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apetīti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "appetit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apetīti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "appetit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apetītes"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "apetīte"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "der Appetit"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "essen",
@@ -19953,7 +21401,82 @@ const A1_WORDS = [
         "Eylem: essen.",
         "Yemek veya öğün: das Essen."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "esse"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "essen",
+                "essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ēst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "essen",
+                "essen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "essen",
+                "essen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "essen",
+                "essen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "green": [
+                "essen",
+                "essen"
+              ]
+            },
+            "lv": {}
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "ēst"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "essen"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Essen",

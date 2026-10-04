@@ -71479,11 +71479,6 @@ const A2_WORDS = [
             "purple": [
               "üle"
             ]
-          },
-          {
-            "purple": [
-              "Võib"
-            ]
           }
         ],
         "important": [

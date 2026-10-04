@@ -3216,6 +3216,14 @@ const A1_WORDS = [
             "blue": [
               "bitte"
             ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
+            ]
           }
         ],
         "comparison": [
@@ -3346,6 +3354,12 @@ const A1_WORDS = [
           {
             "green": [
               "bitte"
+            ]
+          },
+          {
+            "purple": [
+              "lietvārds",
+              "lielais sākumburts"
             ]
           }
         ],
@@ -3837,24 +3851,6 @@ const A1_WORDS = [
               ],
               "yellow": [
                 "viib"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "red": [
-                "vőn"
-              ],
-              "yellow": [
-                "vőn"
               ]
             }
           }
@@ -5217,14 +5213,6 @@ const A1_WORDS = [
           {
             "word": {},
             "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
           }
         ],
         "tip": {
@@ -5890,35 +5878,9 @@ const A1_WORDS = [
             "yellow": [
               "Das"
             ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -6876,18 +6838,6 @@ const A1_WORDS = [
                 "minu"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvordan"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -6909,61 +6859,6 @@ const A1_WORDS = [
               ],
               "purple": [
                 "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "otsima"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "suche",
-                "otsin"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "mõtlema"
-              ]
-            },
-            "example": {
-              "green": [
-                "denke",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "uskuma",
-                "uskuma"
-              ]
-            },
-            "example": {
-              "red": [
-                "glaube",
-                "arvan"
               ]
             }
           }
@@ -9224,6 +9119,15 @@ const A1_WORDS = [
             "purple": [
               "Ich"
             ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
+            ]
           }
         ]
       }
@@ -9752,12 +9656,25 @@ const A1_WORDS = [
             "purple": [
               "hoch"
             ]
+          },
+          {
+            "green": [
+              "groß"
+            ]
           }
         ],
         "important": [
           {
             "green": [
               "hoch"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
             ]
           }
         ]
@@ -17336,7 +17253,128 @@ const A1_WORDS = [
         "neu skildrar ikkje alderen til personar eller dyr.",
         "Motsetnad: neu ↔ alt = ny ↔ gammal."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "neu"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauns"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "neues"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauna"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "neue"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jaunais"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "neue"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jaunas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "neue"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauna"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "neuen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauns"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Neues"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jauns"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "neu"
+            ],
+            "green": [
+              "jung"
+            ]
+          },
+          {
+            "blue": [
+              "neu"
+            ],
+            "purple": [
+              "alt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "neu"
+            ]
+          },
+          {
+            "green": [
+              "jung"
+            ],
+            "blue": [
+              "neu"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "neun",
@@ -23017,7 +23055,148 @@ const A1_WORDS = [
         "verstehen er ikkje hovudordet for tydinga «kunne».",
         "Ich verstehe Deutsch betyr «eg forstår tysk»."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verstehe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saprotu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Verstehst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saproti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstehe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nesaprotu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "kann"
+              ]
+            },
+            "lv": {
+              "red": [
+                "protu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verstehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "saprast"
+              ]
+            },
+            "example": {
+              "blue": [
+                "verstehe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "können"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "varēt",
+                "prast"
+              ]
+            },
+            "example": {
+              "red": [
+                "kann"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wissen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zināt"
+              ]
+            },
+            "example": {
+              "green": [
+                "weiß"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kennen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pazīt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "kenne"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "verstehen"
+            ],
+            "red": [
+              "prast"
+            ]
+          },
+          {
+            "blue": [
+              "verstehe"
+            ],
+            "purple": [
+              "saprotu"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "versuchen",
@@ -24949,7 +25128,122 @@ const A1_WORDS = [
         "wie alt = kor gammal; wie lange = kor lenge.",
         "so ... wie = like ... som."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cik"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "wie"
+            ],
+            "purple": [
+              "kā",
+              "cik"
+            ]
+          },
+          {
+            "purple": [
+              "tikpat",
+              "kā"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "cik daudz",
+              "cik vecs",
+              "cik ilgi"
+            ]
+          },
+          {
+            "purple": [
+              "kā"
+            ]
+          },
+          {
+            "red": [
+              "Cik tev iet?"
+            ],
+            "blue": [
+              "Kā tev iet?"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "wieder",

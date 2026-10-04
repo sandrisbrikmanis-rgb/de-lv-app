@@ -406,6 +406,14 @@ const A1_WORDS = [
               "en",
               "cualquier"
             ]
+          },
+          {
+            "yellow": [
+              "auf"
+            ],
+            "purple": [
+              "uz horizontālas virsmas"
+            ]
           }
         ]
       },
@@ -603,6 +611,18 @@ const A1_WORDS = [
               "punto de partida",
               "muestra"
             ]
+          },
+          {
+            "yellow": [
+              "von"
+            ],
+            "red": [
+              "aus"
+            ],
+            "purple": [
+              "izcelsme",
+              "ārā no iekšienes"
+            ]
           }
         ]
       },
@@ -782,6 +802,15 @@ const A1_WORDS = [
               "aber",
               "aber"
             ]
+          },
+          {
+            "yellow": [
+              "sondern"
+            ],
+            "purple": [
+              "nevis",
+              "bet gan"
+            ]
           }
         ]
       },
@@ -960,6 +989,14 @@ const A1_WORDS = [
           {
             "purple": [
               "conclusión"
+            ]
+          },
+          {
+            "green": [
+              "deshalb"
+            ],
+            "purple": [
+              "tāpēc"
             ]
           }
         ]
@@ -1342,6 +1379,18 @@ const A1_WORDS = [
               "a",
               "en"
             ]
+          },
+          {
+            "green": [
+              "an"
+            ],
+            "yellow": [
+              "in"
+            ],
+            "purple": [
+              "pie",
+              "iekšā"
+            ]
           }
         ]
       },
@@ -1535,6 +1584,14 @@ const A1_WORDS = [
             "purple": [
               "afuera desde adentro",
               "aus"
+            ]
+          },
+          {
+            "blue": [
+              "ab"
+            ],
+            "purple": [
+              "sākuma punktu"
             ]
           }
         ]
@@ -2031,6 +2088,17 @@ const A1_WORDS = [
             "purple": [
               "baden"
             ]
+          },
+          {
+            "purple": [
+              "peldēt"
+            ],
+            "blue": [
+              "vācu valodā"
+            ],
+            "red": [
+              "situācijas"
+            ]
           }
         ]
       }
@@ -2223,6 +2291,17 @@ const A1_WORDS = [
           {
             "purple": [
               "bei"
+            ]
+          },
+          {
+            "blue": [
+              "auf"
+            ],
+            "red": [
+              "bei"
+            ],
+            "purple": [
+              "uz virsmu"
             ]
           }
         ]
@@ -2912,6 +2991,14 @@ const A1_WORDS = [
             "blue": [
               "bitte"
             ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
+            ]
           }
         ],
         "comparison": [
@@ -3022,7 +3109,13 @@ const A1_WORDS = [
         ],
         "tip": {},
         "important": [
-          {}
+          {},
+          {
+            "purple": [
+              "lietvārds",
+              "lielais sākumburts"
+            ]
+          }
         ],
         "comparison": [
           {
@@ -3299,6 +3392,14 @@ const A1_WORDS = [
             "purple": [
               "bleiben"
             ]
+          },
+          {
+            "blue": [
+              "bleibe"
+            ],
+            "green": [
+              "warte"
+            ]
           }
         ]
       }
@@ -3475,24 +3576,6 @@ const A1_WORDS = [
                 "lleva"
               ]
             }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "red": [
-                "tomo"
-              ],
-              "yellow": [
-                "libro"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -3588,6 +3671,11 @@ const A1_WORDS = [
           {
             "purple": [
               "dirección a alguien"
+            ]
+          },
+          {
+            "red": [
+              "nehmen"
             ]
           }
         ]
@@ -3894,6 +3982,20 @@ const A1_WORDS = [
               "topónimo",
               "topónimo"
             ]
+          },
+          {
+            "yellow": [
+              "hier"
+            ],
+            "red": [
+              "dort"
+            ],
+            "green": [
+              "šeit"
+            ],
+            "purple": [
+              "tur"
+            ]
           }
         ]
       },
@@ -4061,6 +4163,18 @@ const A1_WORDS = [
             "purple": [
               "artículo",
               "nivel"
+            ]
+          },
+          {
+            "blue": [
+              "das"
+            ],
+            "purple": [
+              "artikuls",
+              "vietniekvārds"
+            ],
+            "red": [
+              "dass"
             ]
           }
         ]
@@ -4301,6 +4415,12 @@ const A1_WORDS = [
             "purple": [
               "nivel"
             ]
+          },
+          {
+            "red": [
+              "Vietniekvārda",
+              "relatīvā"
+            ]
           }
         ]
       },
@@ -4409,6 +4529,17 @@ const A1_WORDS = [
           {
             "purple": [
               "artículo femenino"
+            ]
+          },
+          {
+            "blue": [
+              "die"
+            ],
+            "green": [
+              "Daudzskaitlī"
+            ],
+            "purple": [
+              "visām dzimtēm"
             ]
           }
         ]
@@ -4526,6 +4657,14 @@ const A1_WORDS = [
           {
             "purple": [
               "género"
+            ]
+          },
+          {
+            "red": [
+              "diese"
+            ],
+            "green": [
+              "Daudzskaitlī"
             ]
           }
         ]
@@ -4693,14 +4832,6 @@ const A1_WORDS = [
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -5176,6 +5307,21 @@ const A1_WORDS = [
             "purple": [
               "solo"
             ]
+          },
+          {
+            "blue": [
+              "erst"
+            ],
+            "green": [
+              "laiku",
+              "secību"
+            ],
+            "yellow": [
+              "nur"
+            ],
+            "purple": [
+              "daudzumu"
+            ]
           }
         ]
       },
@@ -5308,7 +5454,19 @@ const A1_WORDS = [
           {},
           {}
         ]
-      }
+      ,
+        "info": [
+          {
+            "blue": [
+              "ich"
+            ]
+          },
+          {
+            "green": [
+              "es"
+            ]
+          }
+        ]}
     }
   },
   {
@@ -5548,6 +5706,15 @@ const A1_WORDS = [
             "purple": [
               "algo",
               "algo"
+            ]
+          },
+          {
+            "blue": [
+              "etwas"
+            ],
+            "purple": [
+              "kaut ko",
+              "kaut kas"
             ]
           }
         ]
@@ -6115,18 +6282,6 @@ const A1_WORDS = [
                 "parece"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "¿Qué"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -6150,61 +6305,6 @@ const A1_WORDS = [
                 "parece"
               ]
             }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "buscar"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "suche",
-                "Buscando"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pensar"
-              ]
-            },
-            "example": {
-              "green": [
-                "Pienso",
-                "Pienso"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "creer",
-                "pensar"
-              ]
-            },
-            "example": {
-              "red": [
-                "glaube",
-                "Ich"
-              ]
-            }
           }
         ],
         "tip": {
@@ -6223,6 +6323,17 @@ const A1_WORDS = [
             "purple": [
               "finden",
               "finden"
+            ]
+          },
+          {
+            "blue": [
+              "finde"
+            ],
+            "purple": [
+              "šķiet"
+            ],
+            "red": [
+              "atrod"
             ]
           }
         ]
@@ -6432,6 +6543,15 @@ const A1_WORDS = [
             "purple": [
               "esposa"
             ]
+          },
+          {
+            "blue": [
+              "die Frau",
+              "eine Frau"
+            ],
+            "purple": [
+              "sieviete"
+            ]
           }
         ],
         "important": [
@@ -6439,6 +6559,16 @@ const A1_WORDS = [
             "purple": [
               "die",
               "esposa"
+            ]
+          },
+          {
+            "green": [
+              "meine Frau"
+            ]
+          },
+          {
+            "blue": [
+              "die Frauen"
             ]
           }
         ]
@@ -6675,12 +6805,27 @@ const A1_WORDS = [
               "para",
               "para"
             ]
+          },
+          {
+            "purple": [
+              "priekš",
+              "par"
+            ]
           }
         ],
         "important": [
           {
             "purple": [
               "für"
+            ]
+          },
+          {
+            "green": [
+              "danke für",
+              "bezahlen für"
+            ],
+            "purple": [
+              "par"
             ]
           }
         ]
@@ -7046,6 +7191,14 @@ const A1_WORDS = [
             "purple": [
               "direcciones opuestas",
               "geben"
+            ]
+          },
+          {
+            "yellow": [
+              "bekommen"
+            ],
+            "purple": [
+              "saņemt"
             ]
           }
         ]
@@ -7438,6 +7591,11 @@ const A1_WORDS = [
             "purple": [
               "inmediatamente",
               "igual"
+            ]
+          },
+          {
+            "blue": [
+              "Bis gleich!"
             ]
           }
         ]
@@ -8064,6 +8222,11 @@ const A1_WORDS = [
             "purple": [
               "tengo"
             ]
+          },
+          {
+            "blue": [
+              "habe"
+            ]
           }
         ]
       }
@@ -8305,6 +8468,23 @@ const A1_WORDS = [
               "mantener",
               "detener",
               "detener"
+            ]
+          },
+          {
+            "blue": [
+              "hält"
+            ],
+            "purple": [
+              "pietur"
+            ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
             ]
           }
         ]
@@ -8641,6 +8821,14 @@ const A1_WORDS = [
             "purple": [
               "cómo te llamas"
             ]
+          },
+          {
+            "blue": [
+              "Was heißt das"
+            ],
+            "purple": [
+              "ko tas nozīmē"
+            ]
           }
         ]
       }
@@ -8811,12 +8999,25 @@ const A1_WORDS = [
             "purple": [
               "hoch"
             ]
+          },
+          {
+            "green": [
+              "groß"
+            ]
           }
         ],
         "important": [
           {
             "green": [
               "hoch"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
             ]
           }
         ]
@@ -8907,6 +9108,11 @@ const A1_WORDS = [
             "purple": [
               "Escuche",
               "Escuche"
+            ]
+          },
+          {
+            "purple": [
+              "klausīties"
             ]
           }
         ],
@@ -9288,6 +9494,19 @@ const A1_WORDS = [
               "ihr",
               "ihr"
             ]
+          },
+          {
+            "blue": [
+              "Sie"
+            ]
+          },
+          {
+            "blue": [
+              "Sie"
+            ],
+            "red": [
+              "Ihr"
+            ]
           }
         ]
       }
@@ -9577,12 +9796,40 @@ const A1_WORDS = [
             "purple": [
               "kur?"
             ]
+          },
+          {
+            "red": [
+              "ins",
+              "kurp?"
+            ]
           }
         ],
         "important": [
           {
             "purple": [
               "in dem"
+            ]
+          },
+          {
+            "purple": [
+              "kur?"
+            ],
+            "green": [
+              "atrašanās vieta"
+            ]
+          },
+          {
+            "green": [
+              "im März",
+              "im Herbst"
+            ]
+          },
+          {
+            "yellow": [
+              "in der Schule"
+            ],
+            "red": [
+              "im Schule"
             ]
           }
         ]
@@ -9728,6 +9975,17 @@ const A1_WORDS = [
             "purple": [
               "en berlín",
               "en la escuela"
+            ]
+          },
+          {
+            "yellow": [
+              "auf"
+            ],
+            "red": [
+              "in"
+            ],
+            "purple": [
+              "virsmu"
             ]
           }
         ]
@@ -10024,6 +10282,12 @@ const A1_WORDS = [
             "purple": [
               "kurp?"
             ]
+          },
+          {
+            "red": [
+              "im",
+              "kur?"
+            ]
           }
         ],
         "important": [
@@ -10031,6 +10295,30 @@ const A1_WORDS = [
             "purple": [
               "ins",
               "ins"
+            ]
+          },
+          {
+            "purple": [
+              "kurp?"
+            ],
+            "green": [
+              "kustība"
+            ]
+          },
+          {
+            "yellow": [
+              "in den Wald"
+            ],
+            "green": [
+              "in die Schule"
+            ]
+          },
+          {
+            "blue": [
+              "ins Kino gehen"
+            ],
+            "red": [
+              "im Kino sein"
             ]
           }
         ]
@@ -10223,6 +10511,14 @@ const A1_WORDS = [
         ],
         "tip": [
           {
+            "purple": [
+              "alt"
+            ]
+          },
+          {
+            "blue": [
+              "jung"
+            ],
             "purple": [
               "alt"
             ]
@@ -10929,6 +11225,14 @@ const A1_WORDS = [
             "purple": [
               "poder"
             ]
+          },
+          {
+            "blue": [
+              "kann"
+            ],
+            "green": [
+              "schwimmen"
+            ]
           }
         ]
       }
@@ -11209,6 +11513,15 @@ const A1_WORDS = [
               "Recuerde",
               "Recuerde"
             ]
+          },
+          {
+            "yellow": [
+              "bezahlen",
+              "zahlen"
+            ],
+            "purple": [
+              "maksājuma veikšana"
+            ]
           }
         ],
         "important": [
@@ -11217,6 +11530,12 @@ const A1_WORDS = [
               "Cuánto cuesta",
               "pagar",
               "pagar"
+            ]
+          },
+          {
+            "purple": [
+              "maksāt",
+              "situācijas"
             ]
           }
         ]
@@ -11762,6 +12081,14 @@ const A1_WORDS = [
             "purple": [
               "aufs"
             ]
+          },
+          {
+            "blue": [
+              "das Land"
+            ],
+            "yellow": [
+              "die Stadt"
+            ]
           }
         ]
       }
@@ -11914,6 +12241,11 @@ const A1_WORDS = [
             "purple": [
               "lang",
               "lang"
+            ]
+          },
+          {
+            "green": [
+              "wie lange"
             ]
           }
         ]
@@ -12141,6 +12473,14 @@ const A1_WORDS = [
               "dejar",
               "lassen"
             ]
+          },
+          {
+            "blue": [
+              "Lass mich in Ruhe"
+            ],
+            "purple": [
+              "liec mani mierā"
+            ]
           }
         ]
       }
@@ -12353,6 +12693,17 @@ const A1_WORDS = [
             "purple": [
               "correr",
               "ir"
+            ]
+          },
+          {
+            "blue": [
+              "Ich laufe"
+            ],
+            "purple": [
+              "kustību kājām"
+            ],
+            "red": [
+              "braukšanu"
             ]
           }
         ]
@@ -12912,6 +13263,18 @@ const A1_WORDS = [
             "purple": [
               "legen"
             ]
+          },
+          {
+            "blue": [
+              "lege"
+            ],
+            "purple": [
+              "nolieku"
+            ],
+            "red": [
+              "liegt",
+              "atrodas"
+            ]
           }
         ]
       }
@@ -13331,6 +13694,15 @@ const A1_WORDS = [
             "purple": [
               "ubicación"
             ]
+          },
+          {
+            "red": [
+              "legen"
+            ],
+            "purple": [
+              "darbību",
+              "noliek"
+            ]
           }
         ]
       }
@@ -13541,6 +13913,17 @@ const A1_WORDS = [
               "machen",
               "machen"
             ]
+          },
+          {
+            "blue": [
+              "Das macht Spaß"
+            ],
+            "purple": [
+              "tas ir jautri"
+            ],
+            "red": [
+              "taisa prieku"
+            ]
           }
         ]
       }
@@ -13676,6 +14059,23 @@ const A1_WORDS = [
           {
             "purple": [
               "das",
+              "das Mal"
+            ]
+          },
+          {
+            "blue": [
+              "ein Mal",
+              "zwei Mal"
+            ],
+            "purple": [
+              "reizes"
+            ]
+          },
+          {
+            "blue": [
+              "mal"
+            ],
+            "purple": [
               "das Mal"
             ]
           }
@@ -13839,6 +14239,15 @@ const A1_WORDS = [
             "purple": [
               "un hombre"
             ]
+          },
+          {
+            "blue": [
+              "der Mann",
+              "ein Mann"
+            ],
+            "purple": [
+              "vīrietis"
+            ]
           }
         ],
         "important": [
@@ -13846,6 +14255,16 @@ const A1_WORDS = [
             "purple": [
               "der",
               "der"
+            ]
+          },
+          {
+            "green": [
+              "mein Mann"
+            ]
+          },
+          {
+            "blue": [
+              "die Männer"
             ]
           }
         ]
@@ -14142,6 +14561,14 @@ const A1_WORDS = [
             "purple": [
               "dativo"
             ]
+          },
+          {
+            "blue": [
+              "Kommst du mit"
+            ],
+            "purple": [
+              "nāksi līdzi"
+            ]
           }
         ]
       }
@@ -14380,6 +14807,15 @@ const A1_WORDS = [
               "mögen",
               "mögen",
               "mögen"
+            ]
+          },
+          {
+            "blue": [
+              "mag"
+            ],
+            "purple": [
+              "garšo",
+              "patīk"
             ]
           }
         ]
@@ -14938,6 +15374,15 @@ const A1_WORDS = [
               "verbo modal",
               "müssen"
             ]
+          },
+          {
+            "blue": [
+              "muss",
+              "arbeiten"
+            ],
+            "purple": [
+              "beigās"
+            ]
           }
         ]
       }
@@ -15370,6 +15815,11 @@ const A1_WORDS = [
               "natürlich",
               "natürlich"
             ]
+          },
+          {
+            "blue": [
+              "Natürlich!"
+            ]
           }
         ]
       }
@@ -15610,6 +16060,14 @@ const A1_WORDS = [
             "purple": [
               "Ich"
             ]
+          },
+          {
+            "blue": [
+              "nehmen"
+            ],
+            "red": [
+              "bringen"
+            ]
           }
         ]
       }
@@ -15779,6 +16237,14 @@ const A1_WORDS = [
         ],
         "tip": [
           {
+            "purple": [
+              "alt"
+            ]
+          },
+          {
+            "blue": [
+              "neu"
+            ],
             "purple": [
               "alt"
             ]
@@ -17001,6 +17467,14 @@ const A1_WORDS = [
             "purple": [
               "probieren"
             ]
+          },
+          {
+            "red": [
+              "prüfen"
+            ],
+            "purple": [
+              "pārbaudīt"
+            ]
           }
         ]
       }
@@ -17794,6 +18268,17 @@ const A1_WORDS = [
             "purple": [
               "schwimmen"
             ]
+          },
+          {
+            "purple": [
+              "peldēt"
+            ],
+            "blue": [
+              "kustība"
+            ],
+            "red": [
+              "peldēšanās"
+            ]
           }
         ]
       }
@@ -18039,6 +18524,18 @@ const A1_WORDS = [
             "purple": [
               "sehen"
             ]
+          },
+          {
+            "blue": [
+              "sehe"
+            ],
+            "purple": [
+              "redzu"
+            ],
+            "red": [
+              "schaue",
+              "skatos"
+            ]
           }
         ]
       }
@@ -18261,6 +18758,17 @@ const A1_WORDS = [
             "purple": [
               "Las"
             ]
+          },
+          {
+            "blue": [
+              "Ich bin"
+            ],
+            "purple": [
+              "es esmu"
+            ],
+            "red": [
+              "es būt"
+            ]
           }
         ]
       }
@@ -18408,12 +18916,25 @@ const A1_WORDS = [
             "purple": [
               "Hablar"
             ]
+          },
+          {
+            "blue": [
+              "Seite"
+            ],
+            "purple": [
+              "lappuse"
+            ]
           }
         ],
         "important": [
           {
             "purple": [
               "lado"
+            ]
+          },
+          {
+            "blue": [
+              "die Seiten"
             ]
           }
         ]
@@ -18809,6 +19330,11 @@ const A1_WORDS = [
             "purple": [
               "seguro",
               "probablemente"
+            ]
+          },
+          {
+            "green": [
+              "sich sicher sein"
             ]
           }
         ]
@@ -19356,6 +19882,14 @@ const A1_WORDS = [
             "purple": [
               "sitzen"
             ]
+          },
+          {
+            "green": [
+              "sich setzen"
+            ],
+            "blue": [
+              "sitzen"
+            ]
           }
         ]
       }
@@ -19899,6 +20433,14 @@ const A1_WORDS = [
             "purple": [
               "Stehen"
             ]
+          },
+          {
+            "green": [
+              "stellen"
+            ],
+            "blue": [
+              "stehen"
+            ]
           }
         ]
       }
@@ -20324,6 +20866,14 @@ const A1_WORDS = [
             "purple": [
               "über"
             ]
+          },
+          {
+            "blue": [
+              "sprechen über"
+            ],
+            "purple": [
+              "runāt par"
+            ]
           }
         ]
       }
@@ -20554,6 +21104,14 @@ const A1_WORDS = [
           {
             "purple": [
               "pulksten",
+              "lai"
+            ]
+          },
+          {
+            "blue": [
+              "um ... zu"
+            ],
+            "purple": [
               "lai"
             ]
           }
@@ -20796,6 +21354,14 @@ const A1_WORDS = [
             "purple": [
               "entre"
             ]
+          },
+          {
+            "blue": [
+              "unter"
+            ],
+            "red": [
+              "über"
+            ]
           }
         ]
       }
@@ -21036,6 +21602,14 @@ const A1_WORDS = [
           {
             "purple": [
               "verstehen"
+            ]
+          },
+          {
+            "blue": [
+              "verstehe"
+            ],
+            "purple": [
+              "saprotu"
             ]
           }
         ]
@@ -21387,12 +21961,38 @@ const A1_WORDS = [
             "purple": [
               "von dem"
             ]
+          },
+          {
+            "purple": [
+              "von dem"
+            ]
           }
         ],
         "important": [
           {
             "purple": [
               "von dem"
+            ]
+          },
+          {
+            "purple": [
+              "no kā"
+            ]
+          },
+          {
+            "yellow": [
+              "von der Mutter"
+            ],
+            "red": [
+              "vom Mutter"
+            ]
+          },
+          {
+            "green": [
+              "aus"
+            ],
+            "red": [
+              "ab"
             ]
           }
         ]
@@ -21624,6 +22224,16 @@ const A1_WORDS = [
               "vor",
               "vor"
             ]
+          },
+          {
+            "blue": [
+              "vor dem Essen",
+              "vor dem Haus"
+            ],
+            "purple": [
+              "pirms ēšanas",
+              "mājas priekšā"
+            ]
           }
         ]
       }
@@ -21822,6 +22432,12 @@ const A1_WORDS = [
         "tip": [
           {
             "purple": [
+              "ko"
+            ]
+          },
+          {
+            "purple": [
+              "kas",
               "ko"
             ]
           }
@@ -22289,6 +22905,14 @@ const A1_WORDS = [
             "purple": [
               "cual de"
             ]
+          },
+          {
+            "blue": [
+              "wer von"
+            ],
+            "purple": [
+              "kurš no"
+            ]
           }
         ],
         "important": [
@@ -22527,6 +23151,18 @@ const A1_WORDS = [
           {
             "purple": [
               "werden"
+            ]
+          },
+          {
+            "blue": [
+              "werde"
+            ],
+            "purple": [
+              "kļūstu"
+            ],
+            "red": [
+              "bin",
+              "esmu"
             ]
           }
         ]
@@ -22778,6 +23414,14 @@ const A1_WORDS = [
             "purple": [
               "das"
             ]
+          },
+          {
+            "green": [
+              "Zeit"
+            ],
+            "purple": [
+              "laiks"
+            ]
           }
         ]
       }
@@ -22926,6 +23570,12 @@ const A1_WORDS = [
               "cuánto",
               "cómo"
             ]
+          },
+          {
+            "purple": [
+              "tikpat",
+              "kā"
+            ]
           }
         ],
         "important": [
@@ -22935,6 +23585,19 @@ const A1_WORDS = [
               "cik vecs",
               "cik ilgi",
               "wie"
+            ]
+          },
+          {
+            "purple": [
+              "kā"
+            ]
+          },
+          {
+            "red": [
+              "Cik tev iet?"
+            ],
+            "blue": [
+              "Kā tev iet?"
             ]
           }
         ]
@@ -23196,6 +23859,17 @@ const A1_WORDS = [
             "purple": [
               "tiene"
             ]
+          },
+          {
+            "blue": [
+              "zu teuer"
+            ],
+            "purple": [
+              "pārāk dārgi"
+            ],
+            "red": [
+              "uz dārgi"
+            ]
           }
         ]
       }
@@ -23418,6 +24092,14 @@ const A1_WORDS = [
             "purple": [
               "der",
               "der"
+            ]
+          },
+          {
+            "red": [
+              "Retākās nozīmes"
+            ],
+            "purple": [
+              "a1 virsrakstā"
             ]
           }
         ]
@@ -23724,6 +24406,29 @@ const A1_WORDS = [
               "zu dem",
               "zum",
               "en"
+            ]
+          },
+          {
+            "purple": [
+              "uz",
+              "pie"
+            ],
+            "green": [
+              "mērķi"
+            ]
+          },
+          {
+            "yellow": [
+              "zur Bank",
+              "zur Post"
+            ]
+          },
+          {
+            "green": [
+              "bei"
+            ],
+            "red": [
+              "nach"
             ]
           }
         ]
@@ -25323,6 +26028,11 @@ const A1_WORDS = [
           {
             "purple": [
               "vienreiz",
+              "reiz"
+            ]
+          },
+          {
+            "purple": [
               "reiz"
             ]
           }

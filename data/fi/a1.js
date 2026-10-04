@@ -2909,6 +2909,14 @@ const A1_WORDS = [
             "blue": [
               "bitte"
             ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
+            ]
           }
         ],
         "comparison": [
@@ -3507,24 +3515,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "viib"
-              ],
-              "yellow": [
-                "raamatu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "red": [
-                "võtan"
               ],
               "yellow": [
                 "raamatu"
@@ -4890,14 +4880,6 @@ const A1_WORDS = [
           {
             "word": {},
             "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
           }
         ],
         "tip": {
@@ -5563,35 +5545,9 @@ const A1_WORDS = [
             "yellow": [
               "Das"
             ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -6365,18 +6321,6 @@ const A1_WORDS = [
                 "minu"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tundub"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -6398,61 +6342,6 @@ const A1_WORDS = [
               ],
               "purple": [
                 "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "otsima"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "suche",
-                "otsin"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "mõtlema"
-              ]
-            },
-            "example": {
-              "green": [
-                "denke",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "uskuma",
-                "uskuma"
-              ]
-            },
-            "example": {
-              "red": [
-                "glaube",
-                "arvan"
               ]
             }
           }
@@ -8713,6 +8602,15 @@ const A1_WORDS = [
             "purple": [
               "Ich"
             ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
+            ]
           }
         ]
       }
@@ -9241,12 +9139,25 @@ const A1_WORDS = [
             "purple": [
               "hoch"
             ]
+          },
+          {
+            "green": [
+              "groß"
+            ]
           }
         ],
         "important": [
           {
             "green": [
               "hoch"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
             ]
           }
         ]

@@ -3212,6 +3212,14 @@ const A1_WORDS = [
             "blue": [
               "bitte"
             ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
+            ]
           }
         ],
         "comparison": [
@@ -3330,7 +3338,13 @@ const A1_WORDS = [
         ],
         "tip": {},
         "important": [
-          {}
+          {},
+          {
+            "purple": [
+              "lietvārds",
+              "lielais sākumburts"
+            ]
+          }
         ],
         "comparison": [
           {
@@ -3816,24 +3830,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "aiznes"
-              ],
-              "yellow": [
-                "grāmatu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "red": [
-                "paņemu"
               ],
               "yellow": [
                 "grāmatu"
@@ -5196,14 +5192,6 @@ const A1_WORDS = [
           {
             "word": {},
             "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
           }
         ],
         "tip": {
@@ -5866,35 +5854,9 @@ const A1_WORDS = [
             "yellow": [
               "Das"
             ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -6846,18 +6808,6 @@ const A1_WORDS = [
                 "šķiet"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Wat"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -6879,61 +6829,6 @@ const A1_WORDS = [
               ],
               "purple": [
                 "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "meklēt"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "suche",
-                "meklēju"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "domāt"
-              ]
-            },
-            "example": {
-              "green": [
-                "denke",
-                "domāju"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ticēt",
-                "domāt"
-              ]
-            },
-            "example": {
-              "red": [
-                "glaube",
-                "domāju"
               ]
             }
           }
@@ -9182,6 +9077,15 @@ const A1_WORDS = [
             "purple": [
               "uzskatu"
             ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
+            ]
           }
         ]
       }
@@ -9710,12 +9614,25 @@ const A1_WORDS = [
             "purple": [
               "augsts"
             ]
+          },
+          {
+            "green": [
+              "groß"
+            ]
           }
         ],
         "important": [
           {
             "green": [
               "hoch"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
             ]
           }
         ]
@@ -19478,7 +19395,159 @@ const A1_WORDS = [
         "schwimmen en baden zijn niet hetzelfde.",
         "In het Nederlands zeg je vaak 'zwemmen', maar in het Duits moet je kijken of het beweging of baden is."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schwimme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peldēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwimmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peld"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwimmen"
+              ],
+              "green": [
+                "Schwimmbad"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peldam"
+              ],
+              "green": [
+                "baseinā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "baden"
+              ]
+            },
+            "lv": {
+              "red": [
+                "peldēties"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schwimmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "peldēt",
+                "kustība",
+                "sports"
+              ]
+            },
+            "example": {
+              "blue": [
+                "schwimmt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "baden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "peldēties",
+                "ūdenī"
+              ]
+            },
+            "example": {
+              "red": [
+                "baden"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schwimmen gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet peldēt"
+              ]
+            },
+            "example": {
+              "green": [
+                "schwimmen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "duschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mazgāties dušā"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "dusche"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "schwimmen"
+            ],
+            "red": [
+              "baden"
+            ]
+          },
+          {
+            "purple": [
+              "peldēt"
+            ],
+            "blue": [
+              "kustība"
+            ],
+            "red": [
+              "peldēšanās"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "sechs",
@@ -20246,7 +20315,157 @@ const A1_WORDS = [
         "sich is geen zelfstandig woord.",
         "Het verandert per persoon: ik → me, jij → je, hij/zij/het → zich."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mazgājas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsēžos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "priecājas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "wasche"
+              ],
+              "yellow": [
+                "Auto"
+              ]
+            },
+            "lv": {
+              "red": [
+                "mazgāju"
+              ],
+              "yellow": [
+                "auto"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sevi",
+                "sev"
+              ]
+            },
+            "example": {
+              "blue": [
+                "sich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mani",
+                "sevi"
+              ]
+            },
+            "example": {
+              "green": [
+                "mich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tevi",
+                "sevi"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "dich"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ihn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "viņu"
+              ]
+            },
+            "example": {
+              "red": [
+                "ihn"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sich"
+            ],
+            "red": [
+              "lietvārds"
+            ]
+          },
+          {
+            "green": [
+              "mich",
+              "dich"
+            ],
+            "blue": [
+              "sich"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "sicher",

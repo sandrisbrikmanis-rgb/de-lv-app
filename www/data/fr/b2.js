@@ -11605,6 +11605,15 @@ const B2_WORDS = [
             "purple": [
               "S'il"
             ]
+          },
+          {
+            "red": [
+              "da",
+              "weil"
+            ],
+            "purple": [
+              "tā kā"
+            ]
           }
         ]
       }
@@ -14833,6 +14842,11 @@ const B2_WORDS = [
               "Échanger",
               "Échanger"
             ]
+          },
+          {
+            "purple": [
+              "nomainīt"
+            ]
           }
         ],
         "important": [
@@ -14963,6 +14977,11 @@ const B2_WORDS = [
             "purple": [
               "Offer",
               "Offer"
+            ]
+          },
+          {
+            "purple": [
+              "sniedz"
             ]
           }
         ],
@@ -15200,6 +15219,11 @@ const B2_WORDS = [
               "Exiger",
               "Exiger"
             ]
+          },
+          {
+            "purple": [
+              "prasīt"
+            ]
           }
         ],
         "important": [
@@ -15314,6 +15338,11 @@ const B2_WORDS = [
           {
             "purple": [
               "Favoriser"
+            ]
+          },
+          {
+            "purple": [
+              "atbalstīt"
             ]
           }
         ],

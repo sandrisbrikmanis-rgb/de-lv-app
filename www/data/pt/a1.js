@@ -3170,7 +3170,91 @@ const A1_WORDS = [
         "die Bitte é um substantivo com o artigo die.",
         "Incorreto: Die Bitte schön! → correto: Bitte schön!"
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūdzu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Lūdzu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Lūdzu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lūdzu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "bitte"
+            ],
+            "purple": [
+              "pieklājības vārds"
+            ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Bitte",
@@ -3222,7 +3306,87 @@ const A1_WORDS = [
         "Plural: die Bitten.",
         "O substantivo é escrito com inicial maiúscula."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "Bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Bitten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lūgumi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lūgums"
+              ]
+            }
+          },
+          {
+            "word": {
+              "blue": [
+                "bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lūdzu"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "die Bitte",
+              "die Bitten"
+            ]
+          },
+          {
+            "purple": [
+              "lietvārds",
+              "lielais sākumburts"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "billig",
@@ -3321,7 +3485,152 @@ const A1_WORDS = [
         "bleiben significa ficar, não esperar.",
         "Ich bleibe hier = fico aqui; Ich warte hier = espero aqui."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bleibe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "palieku"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bleib"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paliec"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bleiben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paliekam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "gehe"
+              ]
+            },
+            "lv": {
+              "red": [
+                "eju"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bleiben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "palikt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "bleibe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet",
+                "doties prom"
+              ]
+            },
+            "example": {
+              "red": [
+                "gehe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "braukt",
+                "transportu"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "fahre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "warten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gaidīt"
+              ]
+            },
+            "example": {
+              "green": [
+                "warte"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "bleiben"
+            ],
+            "purple": [
+              "palikt"
+            ],
+            "green": [
+              "gaidīt"
+            ]
+          },
+          {
+            "blue": [
+              "bleibe"
+            ],
+            "green": [
+              "warte"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Bleistift",
@@ -3509,24 +3818,6 @@ const A1_WORDS = [
               ],
               "yellow": [
                 "Você"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "red": [
-                "paņemu"
-              ],
-              "yellow": [
-                "grāmatu"
               ]
             }
           }
@@ -4886,14 +5177,6 @@ const A1_WORDS = [
           {
             "word": {},
             "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
           }
         ],
         "tip": {
@@ -5349,7 +5632,115 @@ const A1_WORDS = [
       ],
       "id": "a1-erst",
       "layout": "standardStudy"
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Erst"
+            ],
+            "red": [
+              "dann"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ]
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erst"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Erst"
+              ],
+              "red": [
+                "dann"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuerst"
+              ]
+            },
+            "example": {
+              "green": [
+                "Zuerst"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nur"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "nur"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dann"
+              ]
+            },
+            "example": {
+              "red": [
+                "Dann"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "erst"
+            ],
+            "yellow": [
+              "nur"
+            ],
+            "purple": [
+              "tikai"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ],
+            "green": [
+              "laiku",
+              "secību"
+            ],
+            "yellow": [
+              "nur"
+            ],
+            "purple": [
+              "daudzumu"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "erste",
@@ -5414,35 +5805,9 @@ const A1_WORDS = [
             "yellow": [
               "Das"
             ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -5591,7 +5956,176 @@ const A1_WORDS = [
       ],
       "id": "a1-etwas",
       "layout": "standardStudy"
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "etwas"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kaut ko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "etwas"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nedaudz"
+              ],
+              "yellow": [
+                "laika"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "etwas"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nedaudz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "etwas"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kaut kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "etwas"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nedaudz"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "etwas"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kaut kas",
+                "nedaudz"
+              ]
+            },
+            "example": {
+              "blue": [
+                "etwas"
+              ],
+              "purple": [
+                "kaut kas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "was"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kaut kas"
+              ]
+            },
+            "example": {
+              "green": [
+                "was"
+              ],
+              "purple": [
+                "kaut ko"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ein bisschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mazliet"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "ein bisschen",
+                "mazliet"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nichts"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nekas"
+              ]
+            },
+            "example": {
+              "red": [
+                "nichts",
+                "neko"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "etwas"
+            ],
+            "purple": [
+              "kaut kas"
+            ],
+            "red": [
+              "nichts",
+              "nekas"
+            ]
+          },
+          {
+            "blue": [
+              "etwas"
+            ],
+            "purple": [
+              "kaut ko",
+              "kaut kas"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "euch",
@@ -5729,7 +6263,214 @@ const A1_WORDS = [
       ],
       "id": "a1-fahren",
       "layout": "standardStudy"
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fahre"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "braucu"
+              ],
+              "green": [
+                "Berlīni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fahre"
+              ],
+              "green": [
+                "Auto"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "braucu"
+              ],
+              "green": [
+                "auto"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fahre"
+              ],
+              "green": [
+                "Tochter",
+                "Schule"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vedu"
+              ],
+              "green": [
+                "meitu",
+                "skolu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fahre"
+              ],
+              "green": [
+                "dich",
+                "Hause"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aizvedu"
+              ],
+              "green": [
+                "tevi",
+                "mājās"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fahren"
+              ],
+              "green": [
+                "München"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "braucam"
+              ],
+              "green": [
+                "Minheni"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "transportu"
+              ]
+            },
+            "example": {
+              "blue": [
+                "fahre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet kājām"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "laufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skriet",
+                "iet"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "läuft"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atnest",
+                "nogādāt"
+              ]
+            },
+            "example": {
+              "red": [
+                "bringe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mitnehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paņemt līdzi"
+              ]
+            },
+            "example": {
+              "red": [
+                "nehme",
+                "mit"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "text": {
+              "blue": [
+                "fahren"
+              ],
+              "purple": [
+                "braukt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "fahren"
+              ],
+              "purple": [
+                "braukt",
+                "vest",
+                "aizvest"
+              ]
+            }
+          }
+        ]
+      }}
   },
   {
     "de": "falsch",
@@ -5914,18 +6655,6 @@ const A1_WORDS = [
                 "bolsa"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Então"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -5947,61 +6676,6 @@ const A1_WORDS = [
               ],
               "purple": [
                 "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "meklēt"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "suche",
-                "meklēju"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Dominio"
-              ]
-            },
-            "example": {
-              "green": [
-                "denke",
-                "domāju"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Bilhete",
-                "domāt"
-              ]
-            },
-            "example": {
-              "red": [
-                "glaube",
-                "domāju"
               ]
             }
           }
@@ -7227,7 +7901,108 @@ const A1_WORDS = [
       ],
       "id": "a1-gleich",
       "layout": "standardStudy"
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleiche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tūlīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienādi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pēc brīža"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienāda"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "tūlīt"
+            ]
+          },
+          {
+            "green": [
+              "vienāds"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "tūlīt",
+              "vienāds"
+            ]
+          },
+          {
+            "blue": [
+              "Bis gleich!"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Glück",
@@ -7304,7 +8079,69 @@ const A1_WORDS = [
       ],
       "id": "a1-gross-study",
       "layout": "standardStudy"
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liela"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "große"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liela"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "groß"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "groß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liela"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "liels"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "groß"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Großeltern",
@@ -7450,7 +8287,114 @@ const A1_WORDS = [
       ],
       "id": "a1-gut-study",
       "layout": "standardStudy"
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "labs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "labi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "labi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Guten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "labrīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gute"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laba"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kārtībā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "gut"
+            ]
+          },
+          {
+            "green": [
+              "das Gut"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "gut"
+            ]
+          },
+          {
+            "green": [
+              "das Gut"
+            ]
+          },
+          {
+            "blue": [
+              "Guten Tag",
+              "Morgen",
+              "Abend"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Haar",
@@ -7521,7 +8465,150 @@ const A1_WORDS = [
       ],
       "id": "a1-haben",
       "layout": "standardStudy"
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "habe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "man ir"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hast"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tev ir"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "haben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "esam izsalkuši"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "habe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "izdarīju"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "man ir"
+              ]
+            },
+            "example": {
+              "blue": [
+                "habe"
+              ],
+              "purple": [
+                "man ir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "būt"
+              ]
+            },
+            "example": {
+              "green": [
+                "bin",
+                "esmu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bekommen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "saņemt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "bekomme",
+                "saņemu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "machen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "darīt"
+              ]
+            },
+            "example": {
+              "red": [
+                "mache",
+                "daru"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "habe"
+            ],
+            "purple": [
+              "man ir"
+            ]
+          },
+          {
+            "blue": [
+              "habe"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "halb",
@@ -7604,7 +8691,167 @@ const A1_WORDS = [
       ],
       "id": "a1-halten",
       "layout": "standardStudy"
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "halte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "turu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hält"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pietur"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "halten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apstājieties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "halte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzskatu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "halten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "turēt",
+                "pieturēt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hält"
+              ],
+              "purple": [
+                "pietur"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ņemt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "nehme",
+                "ņemu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apstāties",
+                "apturēt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "halten",
+                "an"
+              ],
+              "purple": [
+                "apstājieties"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "denken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "domāt"
+              ]
+            },
+            "example": {
+              "green": [
+                "denke",
+                "domāju"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "halten"
+            ],
+            "purple": [
+              "turēt"
+            ]
+          },
+          {
+            "blue": [
+              "hält"
+            ],
+            "purple": [
+              "pietur"
+            ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Haltestelle",
@@ -7780,7 +9027,174 @@ const A1_WORDS = [
       ],
       "id": "a1-heißen",
       "layout": "standardStudy"
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "heiße"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mani sauc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "heißt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sauc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "heißt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saucas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "heißt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nozīmē"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "heißen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "saukties",
+                "nozīmēt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "heiße"
+              ],
+              "purple": [
+                "sauc"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nennen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "saukt"
+              ]
+            },
+            "example": {
+              "green": [
+                "nennt",
+                "sauc"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bedeuten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nozīmēt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "bedeutet",
+                "nozīmē"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "rufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "saukt",
+                "pasaukt"
+              ]
+            },
+            "example": {
+              "red": [
+                "rufe",
+                "pasaucu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anrufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zvanīt"
+              ]
+            },
+            "example": {
+              "red": [
+                "rufe",
+                "an",
+                "piezvanu"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "Wie heißt du"
+            ],
+            "purple": [
+              "kā tevi sauc"
+            ]
+          },
+          {
+            "blue": [
+              "Was heißt das"
+            ],
+            "purple": [
+              "ko tas nozīmē"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "helfen",
@@ -7873,7 +9287,101 @@ const A1_WORDS = [
       ],
       "id": "a1-hoch-study",
       "layout": "standardStudy"
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augstas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "augsts"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "hoch"
+            ],
+            "purple": [
+              "augsts"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "höflich",
@@ -7915,7 +9423,59 @@ const A1_WORDS = [
       ],
       "id": "a1-hoeren-study",
       "layout": "standardStudy"
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "höre"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "hören",
+                "hören"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "höre"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dzirdu"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "dzirdēt"
+            ]
+          },
+          {
+            "purple": [
+              "klausīties"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "hören"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "hübsch",

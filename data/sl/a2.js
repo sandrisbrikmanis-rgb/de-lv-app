@@ -71143,11 +71143,6 @@ const A2_WORDS = [
             "purple": [
               "Lahko"
             ]
-          },
-          {
-            "purple": [
-              "Lahko"
-            ]
           }
         ],
         "important": [

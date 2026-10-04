@@ -11605,6 +11605,15 @@ const B2_WORDS = [
             "purple": [
               "hvis"
             ]
+          },
+          {
+            "red": [
+              "da",
+              "weil"
+            ],
+            "purple": [
+              "tā kā"
+            ]
           }
         ]
       }
@@ -14833,6 +14842,11 @@ const B2_WORDS = [
               "bytte",
               "bytte"
             ]
+          },
+          {
+            "purple": [
+              "nomainīt"
+            ]
           }
         ],
         "important": [
@@ -14963,6 +14977,11 @@ const B2_WORDS = [
             "purple": [
               "Tilbyd",
               "Tilbyd"
+            ]
+          },
+          {
+            "purple": [
+              "sniedz"
             ]
           }
         ],
@@ -15200,6 +15219,11 @@ const B2_WORDS = [
               "Kræv",
               "Kræv"
             ]
+          },
+          {
+            "purple": [
+              "prasīt"
+            ]
           }
         ],
         "important": [
@@ -15314,6 +15338,11 @@ const B2_WORDS = [
           {
             "purple": [
               "Fremme"
+            ]
+          },
+          {
+            "purple": [
+              "atbalstīt"
             ]
           }
         ],

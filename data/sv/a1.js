@@ -79,7 +79,61 @@ const A1_WORDS = [
         "sprechen = tala eller prata.",
         "sagen används när fokus ligger på det som sägs."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "spreche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runāju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runājam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "spricht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "runā"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "runāt"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "sprechen"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "klein",
@@ -260,7 +314,119 @@ const A1_WORDS = [
         "an motsvarar inte alla användningar av svenska vid; det anger ofta närhet till en yta eller kant.",
         "På en horisontell yta används vanligen auf."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "an"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pie",
+                "uz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "am"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pie"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "am"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pie"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "an"
+              ]
+            },
+            "example": {
+              "green": [
+                "an"
+              ],
+              "purple": [
+                "pie"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "auf"
+              ],
+              "purple": [
+                "uz"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bei"
+              ]
+            },
+            "example": {
+              "red": [
+                "beim"
+              ],
+              "purple": [
+                "pie"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "an"
+            ],
+            "purple": [
+              "pie"
+            ],
+            "green": [
+              "virsmas",
+              "sienas",
+              "loga",
+              "malas"
+            ]
+          },
+          {
+            "yellow": [
+              "auf"
+            ],
+            "purple": [
+              "uz horizontālas virsmas"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Anfang",
@@ -340,7 +506,132 @@ const A1_WORDS = [
         "ab anger en startpunkt i tid eller rum.",
         "För ursprung eller rörelse ut ur något används oftare von eller aus."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ab"
+              ]
+            },
+            "example": {
+              "green": [
+                "ab"
+              ],
+              "purple": [
+                "no"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "von"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "von"
+              ],
+              "purple": [
+                "no"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aus"
+              ]
+            },
+            "example": {
+              "blue": [
+                "aus"
+              ],
+              "purple": [
+                "no"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "ab"
+            ],
+            "purple": [
+              "sākuma punktu"
+            ],
+            "green": [
+              "laikā",
+              "vietā"
+            ]
+          },
+          {
+            "yellow": [
+              "von"
+            ],
+            "red": [
+              "aus"
+            ],
+            "purple": [
+              "izcelsme",
+              "ārā no iekšienes"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Abend",
@@ -412,7 +703,114 @@ const A1_WORDS = [
         "aber markerar en motsats eller invändning.",
         "I konstruktionen inte ..., utan ... används vanligen sondern på tyska."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "aber"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aber"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aber"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "taču"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aber"
+              ]
+            },
+            "example": {
+              "green": [
+                "aber"
+              ],
+              "purple": [
+                "bet"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sondern"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "sondern"
+              ],
+              "purple": [
+                "nevis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "jedoch"
+              ]
+            },
+            "example": {
+              "red": [
+                "jedoch"
+              ],
+              "purple": [
+                "tomēr"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "aber"
+            ],
+            "purple": [
+              "pretstatu",
+              "iebildi"
+            ]
+          },
+          {
+            "yellow": [
+              "sondern"
+            ],
+            "purple": [
+              "nevis",
+              "bet gan"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "achten",
@@ -1679,7 +2077,160 @@ const A1_WORDS = [
         "baden och schwimmen är inte fullständiga synonymer.",
         "baden betonar oftare bad eller vistelse i vatten, medan schwimmen betonar simrörelsen."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "baden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peldēties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "baden"
+              ],
+              "green": [
+                "See"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peldēties"
+              ],
+              "green": [
+                "ezerā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "schwimmt"
+              ]
+            },
+            "lv": {
+              "red": [
+                "peld"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "schwimme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peldu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "baden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "peldēties",
+                "atrasties ūdenī",
+                "mazgāties"
+              ]
+            },
+            "example": {
+              "blue": [
+                "baden"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schwimmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "peldēt",
+                "kustība",
+                "sports"
+              ]
+            },
+            "example": {
+              "red": [
+                "schwimmt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "duschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mazgāties dušā"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "dusche"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schwimmen gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet peldēt"
+              ]
+            },
+            "example": {
+              "green": [
+                "schwimmen"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "baden"
+            ],
+            "red": [
+              "schwimmen"
+            ]
+          },
+          {
+            "purple": [
+              "peldēt"
+            ],
+            "blue": [
+              "vācu valodā"
+            ],
+            "red": [
+              "situācijas"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "bald",
@@ -1789,7 +2340,108 @@ const A1_WORDS = [
         "bei används ofta om vistelse hos en person eller arbete på ett företag.",
         "För rörelse mot en person eller plats används vanligen zu."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pie"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uzņēmumā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "laikā"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "purple": [
+                "bei"
+              ]
+            },
+            "example": {
+              "purple": [
+                "bei"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "an"
+              ]
+            },
+            "example": {
+              "green": [
+                "an"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu"
+              ]
+            },
+            "example": {
+              "red": [
+                "zu"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "purple": [
+              "bei"
+            ],
+            "green": [
+              "cilvēka",
+              "vietas",
+              "uzņēmumā"
+            ]
+          },
+          {
+            "blue": [
+              "auf"
+            ],
+            "red": [
+              "bei"
+            ],
+            "purple": [
+              "uz virsmu"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "beide",
@@ -1892,7 +2544,117 @@ const A1_WORDS = [
         "der Besuch kan avse både ett platsbesök och ett personbesök.",
         "Plural: die Besuche."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Besucher",
@@ -1954,7 +2716,142 @@ const A1_WORDS = [
         "Säg Ich besuche meine Freundin, inte med preposition.",
         "Den naturliga svenska översättningen beror på objektet: besöka en plats/person eller gå en kurs."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Bett",
@@ -2196,6 +3093,14 @@ const A1_WORDS = [
             "blue": [
               "bitte"
             ]
+          },
+          {
+            "green": [
+              "die Bitte"
+            ],
+            "purple": [
+              "lietvārds"
+            ]
           }
         ],
         "comparison": [
@@ -2326,6 +3231,12 @@ const A1_WORDS = [
           {
             "green": [
               "bitte"
+            ]
+          },
+          {
+            "purple": [
+              "lietvārds",
+              "lielais sākumburts"
             ]
           }
         ],
@@ -2814,24 +3725,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "viib"
-              ],
-              "yellow": [
-                "raamatu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "red": [
-                "võtan"
               ],
               "yellow": [
                 "raamatu"
@@ -3367,7 +4260,95 @@ const A1_WORDS = [
         "På A1-nivå lärs das först som bestämd artikel i neutrum.",
         "das är inte samma ord som dass: das kan vara artikel eller pronomen, medan dass betyder att."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Das"
+            ]
+          },
+          {
+            "blue": [
+              "Das"
+            ]
+          },
+          {
+            "de": {
+              "blue": [
+                "Das"
+              ],
+              "yellow": [
+                "das"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Das"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dies"
+              ]
+            },
+            "example": {
+              "green": [
+                "Dies"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "welches"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Das",
+                "das"
+              ],
+              "yellow": [
+                "welches"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "das"
+            ],
+            "purple": [
+              "vidus dzimtes artikulu"
+            ]
+          },
+          {
+            "blue": [
+              "das"
+            ],
+            "purple": [
+              "artikuls",
+              "vietniekvārds"
+            ],
+            "red": [
+              "dass"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "dass",
@@ -3425,7 +4406,133 @@ const A1_WORDS = [
         "dass betyder att och inleder en bisats.",
         "Blanda inte ihop dass med das, som kan vara artikel eller pronomen."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ka"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "dass"
+              ]
+            },
+            "example": {
+              "blue": [
+                "dass"
+              ],
+              "purple": [
+                "ka"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "weil"
+              ]
+            },
+            "example": {
+              "green": [
+                "weil"
+              ],
+              "purple": [
+                "jo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "damit"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "damit"
+              ],
+              "purple": [
+                "lai"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ob"
+              ]
+            },
+            "example": {
+              "red": [
+                "ob"
+              ],
+              "purple": [
+                "vai"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "dass"
+            ],
+            "purple": [
+              "ka"
+            ],
+            "green": [
+              "palīgteikumu"
+            ]
+          },
+          {
+            "red": [
+              "das"
+            ],
+            "yellow": [
+              "artikuls"
+            ],
+            "purple": [
+              "tas"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Datum",
@@ -3478,7 +4585,42 @@ const A1_WORDS = [
         "På A1-nivå lärs der först som bestämd artikel i maskulinum.",
         "Användning som pronomen och relativpronomen behandlas senare."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Der"
+            ]
+          },
+          {
+            "blue": [
+              "Der"
+            ]
+          },
+          {
+            "blue": [
+              "Der"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "der"
+            ],
+            "purple": [
+              "vīriešu dzimtes artikulu"
+            ]
+          },
+          {
+            "red": [
+              "Vietniekvārda",
+              "relatīvā"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "deutsch",
@@ -3525,7 +4667,47 @@ const A1_WORDS = [
         "På A1-nivå lärs die först som bestämd artikel i femininum.",
         "I plural används die för substantiv av alla genus."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Die"
+            ]
+          },
+          {
+            "blue": [
+              "Die"
+            ]
+          },
+          {
+            "blue": [
+              "Die"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "die"
+            ],
+            "purple": [
+              "sieviešu dzimtes artikulu"
+            ]
+          },
+          {
+            "blue": [
+              "die"
+            ],
+            "green": [
+              "Daudzskaitlī"
+            ],
+            "purple": [
+              "visām dzimtēm"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Dienstag",
@@ -3568,7 +4750,71 @@ const A1_WORDS = [
         "dieser, diese och dieses ändras efter genus.",
         "I plural är formen diese."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dieser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "diesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šo suni"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dieser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "šī"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "dieser"
+            ],
+            "green": [
+              "diese"
+            ],
+            "yellow": [
+              "dieses"
+            ],
+            "purple": [
+              "dzimtes"
+            ]
+          },
+          {
+            "red": [
+              "diese"
+            ],
+            "green": [
+              "Daudzskaitlī"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Ding",
@@ -3727,14 +4973,6 @@ const A1_WORDS = [
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -4206,7 +5444,115 @@ const A1_WORDS = [
         "erst och zuerst är inte fullständiga synonymer.",
         "erst kan betyda inte förrän eller bara, medan zuerst främst anger vad som sker först."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "blue": [
+              "Erst"
+            ],
+            "red": [
+              "dann"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ]
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erst"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Erst"
+              ],
+              "red": [
+                "dann"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuerst"
+              ]
+            },
+            "example": {
+              "green": [
+                "Zuerst"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nur"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "nur"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dann"
+              ]
+            },
+            "example": {
+              "red": [
+                "Dann"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "erst"
+            ],
+            "yellow": [
+              "nur"
+            ],
+            "purple": [
+              "tikai"
+            ]
+          },
+          {
+            "blue": [
+              "erst"
+            ],
+            "green": [
+              "laiku",
+              "secību"
+            ],
+            "yellow": [
+              "nur"
+            ],
+            "purple": [
+              "daudzumu"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "erste",
@@ -4271,35 +5617,9 @@ const A1_WORDS = [
             "yellow": [
               "Das"
             ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
           }
         ],
         "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
           {
             "word": {},
             "example": {}
@@ -5257,18 +6577,6 @@ const A1_WORDS = [
                 "minu"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "findest"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tundub"
-              ]
-            }
           }
         ],
         "comparison": [
@@ -5290,61 +6598,6 @@ const A1_WORDS = [
               ],
               "purple": [
                 "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "suchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "otsima"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "suche",
-                "otsin"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "mõtlema"
-              ]
-            },
-            "example": {
-              "green": [
-                "denke",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "glauben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "uskuma",
-                "uskuma"
-              ]
-            },
-            "example": {
-              "red": [
-                "glaube",
-                "arvan"
               ]
             }
           }
@@ -7609,6 +8862,15 @@ const A1_WORDS = [
             "purple": [
               "Ich"
             ]
+          },
+          {
+            "blue": [
+              "halten",
+              "an"
+            ],
+            "green": [
+              "anhalten"
+            ]
           }
         ]
       }
@@ -8062,7 +9324,101 @@ const A1_WORDS = [
         "Er ist groß = Han är lång.",
         "För en persons längd används vanligtvis inte hoch."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augsta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "augstas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "augsts"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "hoch"
+            ],
+            "purple": [
+              "augsts"
+            ]
+          },
+          {
+            "green": [
+              "groß"
+            ],
+            "purple": [
+              "garš"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "höflich",
@@ -11544,7 +12900,152 @@ const A1_WORDS = [
         "lassen betyder inte bara lämna, utan ofta också låta.",
         "Lass mich in Ruhe! betyder Låt mig vara!"
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "lasse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atstāju"
+              ],
+              "yellow": [
+                "somu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Lass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atstāj"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "lassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ļauj"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Lass mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liec mani mierā"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "lassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atstāt",
+                "ļaut"
+              ]
+            },
+            "example": {
+              "blue": [
+                "lasse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bleiben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "palikt"
+              ]
+            },
+            "example": {
+              "green": [
+                "bleibe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erlauben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atļaut"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "erlaubt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dot"
+              ]
+            },
+            "example": {
+              "red": [
+                "Gib"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "lassen"
+            ],
+            "purple": [
+              "atstāt",
+              "ļaut"
+            ]
+          },
+          {
+            "blue": [
+              "Lass mich in Ruhe"
+            ],
+            "purple": [
+              "liec mani mierā"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "laufen",
@@ -11609,7 +13110,153 @@ const A1_WORDS = [
         "laufen betyder inte bara springa. Om en film eller apparat kan det betyda gå eller fungera.",
         "Ich laufe beskriver rörelse till fots, inte färd med ett fordon."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "läuft"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skrien"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "laufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skrien"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "läuft"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "läuft"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "darbojas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "laufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skriet",
+                "darboties"
+              ]
+            },
+            "example": {
+              "blue": [
+                "läuft"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "braukt"
+              ]
+            },
+            "example": {
+              "red": [
+                "fahre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "funktionieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "darboties"
+              ]
+            },
+            "example": {
+              "green": [
+                "funktioniert"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "laufen"
+            ],
+            "purple": [
+              "skriet",
+              "iet",
+              "darboties"
+            ]
+          },
+          {
+            "blue": [
+              "Ich laufe"
+            ],
+            "purple": [
+              "kustību kājām"
+            ],
+            "red": [
+              "braukšanu"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "laut",
@@ -11661,7 +13308,103 @@ const A1_WORDS = [
         "Plural: die Laute.",
         "Fel: Der Laut ist sehr. Rätt: Das ist sehr laut."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaļa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaļa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaļi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaļi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņu"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "skaļš"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "laut"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Laut",
@@ -11715,7 +13458,95 @@ const A1_WORDS = [
         "Plural: die Laute.",
         "Fel: Der Laut ist sehr. Rätt: Das ist sehr laut."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaļa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaļi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaļi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "der Laut",
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "laut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaņu"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "skaņa"
+            ]
+          }
+        ],
+        "important": [
+          {}
+        ]
+      }}
   },
   {
     "de": "leben",
@@ -11795,7 +13626,186 @@ const A1_WORDS = [
         "legen och liegen betyder inte samma sak.",
         "Ich lege das Buch = jag lägger boken. Das Buch liegt = boken ligger."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "lege"
+              ],
+              "yellow": [
+                "Buch",
+                "Tisch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nolieku"
+              ],
+              "yellow": [
+                "grāmatu",
+                "galda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Leg"
+              ],
+              "yellow": [
+                "Schlüssel"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "noliec"
+              ],
+              "yellow": [
+                "atslēgu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "legt"
+              ],
+              "green": [
+                "Kind"
+              ],
+              "yellow": [
+                "Bett"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "noliek"
+              ],
+              "green": [
+                "bērnu"
+              ],
+              "yellow": [
+                "gultā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "liegt"
+              ],
+              "yellow": [
+                "Buch",
+                "Tisch"
+              ]
+            },
+            "lv": {
+              "red": [
+                "atrodas"
+              ],
+              "yellow": [
+                "Grāmata",
+                "galda"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "legen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nolikt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "lege"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atrasties",
+                "gulēt"
+              ]
+            },
+            "example": {
+              "red": [
+                "liegt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stāvus"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "stelle"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "setzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apsēsties"
+              ]
+            },
+            "example": {
+              "green": [
+                "setze"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "legen"
+            ],
+            "red": [
+              "liegen"
+            ]
+          },
+          {
+            "blue": [
+              "lege"
+            ],
+            "purple": [
+              "nolieku"
+            ],
+            "red": [
+              "liegt",
+              "atrodas"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Lehrer",
@@ -19442,7 +21452,158 @@ const A1_WORDS = [
         "stehen beskriver ett tillstånd, inte handlingen att ställa något.",
         "Att placera ett föremål upprätt heter stellen, inte stehen."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "stehe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stāvu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "steht"
+              ],
+              "yellow": [
+                "Stuhl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stāv"
+              ],
+              "yellow": [
+                "Krēsls"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "sitzt"
+              ]
+            },
+            "lv": {
+              "red": [
+                "sēž"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "liegt"
+              ]
+            },
+            "lv": {
+              "red": [
+                "atrodas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "stehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stāvēt",
+                "stāvus"
+              ]
+            },
+            "example": {
+              "blue": [
+                "stehe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sēdēt"
+              ]
+            },
+            "example": {
+              "red": [
+                "sitzt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "liegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gulēt",
+                "guļus"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "liegt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nolikt stāvus"
+              ]
+            },
+            "example": {
+              "green": [
+                "stelle"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "stehen"
+            ],
+            "purple": [
+              "stāvokli"
+            ],
+            "green": [
+              "stehen"
+            ]
+          },
+          {
+            "green": [
+              "stellen"
+            ],
+            "blue": [
+              "stehen"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Stern",
@@ -19710,7 +21871,173 @@ const A1_WORDS = [
         "über beskriver inte bara en plats.",
         "sprechen über betyder prata om."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "über"
+              ],
+              "yellow": [
+                "Tisch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "virs"
+              ],
+              "yellow": [
+                "galda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "über"
+              ],
+              "green": [
+                "Wetter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "par"
+              ],
+              "green": [
+                "laiku"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "über"
+              ],
+              "yellow": [
+                "Straße"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pāri"
+              ],
+              "yellow": [
+                "ielai"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "über"
+              ],
+              "yellow": [
+                "Geschenk"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "par"
+              ],
+              "yellow": [
+                "dāvanu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "über"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "virs",
+                "par",
+                "pāri"
+              ]
+            },
+            "example": {
+              "blue": [
+                "über"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uz virsmas"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "auf"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zem"
+              ]
+            },
+            "example": {
+              "red": [
+                "unter"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "von"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "no"
+              ]
+            },
+            "example": {
+              "green": [
+                "von"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "über"
+            ],
+            "purple": [
+              "vietas vārds"
+            ]
+          },
+          {
+            "blue": [
+              "sprechen über"
+            ],
+            "purple": [
+              "runāt par"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "überall",
@@ -19785,7 +22112,167 @@ const A1_WORDS = [
         "um med ett klockslag betyder normalt klockan.",
         "um ... zu betyder ofta för att."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "um"
+              ],
+              "yellow": [
+                "acht Uhr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pulksten astoņos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "um"
+              ],
+              "yellow": [
+                "Tisch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ap"
+              ],
+              "yellow": [
+                "galdu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "um"
+              ],
+              "yellow": [
+                "Ecke"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ap"
+              ],
+              "yellow": [
+                "stūri"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "um",
+                "zu"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lai"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "um"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pulksten",
+                "ap",
+                "lai"
+              ]
+            },
+            "example": {
+              "blue": [
+                "um"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "am"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dienā",
+                "pie"
+              ]
+            },
+            "example": {
+              "green": [
+                "Am"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ap laiku",
+                "pret"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gegen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "für"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "priekš"
+              ]
+            },
+            "example": {
+              "red": [
+                "für"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "um"
+            ],
+            "purple": [
+              "pulksten"
+            ]
+          },
+          {
+            "blue": [
+              "um ... zu"
+            ],
+            "purple": [
+              "lai"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "und",
@@ -19865,7 +22352,173 @@ const A1_WORDS = [
         "unter kan också betyda bland, särskilt om människor eller grupper.",
         "unter och über är ofta motsatser när de beskriver plats."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "unter"
+              ],
+              "yellow": [
+                "Tisch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zem"
+              ],
+              "yellow": [
+                "galda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "unter"
+              ],
+              "yellow": [
+                "Stuhl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zem"
+              ],
+              "yellow": [
+                "krēsla"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unter"
+              ],
+              "green": [
+                "Freunden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "starpā"
+              ],
+              "green": [
+                "Draugu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "über"
+              ],
+              "yellow": [
+                "Tisch"
+              ]
+            },
+            "lv": {
+              "red": [
+                "virs"
+              ],
+              "yellow": [
+                "galda"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "unter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zem",
+                "starp"
+              ]
+            },
+            "example": {
+              "blue": [
+                "unter"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "über"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "virs",
+                "par"
+              ]
+            },
+            "example": {
+              "red": [
+                "über"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zwischen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "starp"
+              ]
+            },
+            "example": {
+              "green": [
+                "Zwischen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uz virsmas"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Auf"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "unter"
+            ],
+            "purple": [
+              "starp"
+            ]
+          },
+          {
+            "blue": [
+              "unter"
+            ],
+            "red": [
+              "über"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Vase",
@@ -19959,7 +22612,148 @@ const A1_WORDS = [
         "verstehen är inte huvudordet för att kunna göra något.",
         "Ich verstehe Deutsch betyder Jag förstår tyska."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verstehe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saprotu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Verstehst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saproti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstehe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nesaprotu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "kann"
+              ]
+            },
+            "lv": {
+              "red": [
+                "protu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verstehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "saprast"
+              ]
+            },
+            "example": {
+              "blue": [
+                "verstehe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "können"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "varēt",
+                "prast"
+              ]
+            },
+            "example": {
+              "red": [
+                "kann"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wissen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zināt"
+              ]
+            },
+            "example": {
+              "green": [
+                "weiß"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kennen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pazīt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "kenne"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "verstehen"
+            ],
+            "red": [
+              "prast"
+            ]
+          },
+          {
+            "blue": [
+              "verstehe"
+            ],
+            "purple": [
+              "saprotu"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "versuchen",
@@ -20112,7 +22906,241 @@ const A1_WORDS = [
         "Med femininum heter det von der Mutter, inte vom Mutter.",
         "Skilj vom från aus och ab."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no stacijas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no tēva"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no ārsta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no lidostas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no tirgus"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no svinībām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no zemnieka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no priekšnieka"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vom"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "no"
+              ]
+            },
+            "example": {
+              "blue": [
+                "vom Bahnhof"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "von"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "no"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "von mir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "no iekšienes"
+              ]
+            },
+            "example": {
+              "green": [
+                "aus Deutschland"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ab"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sākot no"
+              ]
+            },
+            "example": {
+              "green": [
+                "ab Montag"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uz",
+                "pie"
+              ]
+            },
+            "example": {
+              "red": [
+                "zum Arzt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "vom"
+            ]
+          },
+          {
+            "purple": [
+              "von dem"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "vom"
+            ],
+            "purple": [
+              "von dem"
+            ],
+            "green": [
+              "kam?"
+            ]
+          },
+          {
+            "purple": [
+              "no kā"
+            ]
+          },
+          {
+            "yellow": [
+              "von der Mutter"
+            ],
+            "red": [
+              "vom Mutter"
+            ]
+          },
+          {
+            "green": [
+              "aus"
+            ],
+            "red": [
+              "ab"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "von",
@@ -20182,7 +23210,170 @@ const A1_WORDS = [
         "vor kan ange både tid och plats.",
         "vor dem Essen = före maten; vor dem Haus = framför huset."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Vor"
+              ],
+              "yellow": [
+                "Essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pirms"
+              ],
+              "yellow": [
+                "ēšanas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vor"
+              ],
+              "yellow": [
+                "Haus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "priekšā"
+              ],
+              "yellow": [
+                "mājas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bez piecām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "Nach"
+              ],
+              "yellow": [
+                "Essen"
+              ]
+            },
+            "lv": {
+              "red": [
+                "Pēc"
+              ],
+              "yellow": [
+                "ēšanas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vor"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pirms",
+                "priekšā"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Vor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nach"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pēc",
+                "uz"
+              ]
+            },
+            "example": {
+              "red": [
+                "Nach"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "neben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "blakus"
+              ]
+            },
+            "example": {
+              "green": [
+                "Neben"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "hinter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aiz"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Hinter"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "vor"
+            ],
+            "purple": [
+              "laiks",
+              "vieta"
+            ]
+          },
+          {
+            "blue": [
+              "vor dem Essen",
+              "vor dem Haus"
+            ],
+            "purple": [
+              "pirms ēšanas",
+              "mājas priekšā"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Vorname",
@@ -20281,7 +23472,125 @@ const A1_WORDS = [
         "was für (ein/eine) betyder vad för slags.",
         "Fel: Wer ist passiert? Rätt: Was ist passiert?"
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ko"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "was"
+            ]
+          },
+          {
+            "purple": [
+              "kas",
+              "ko"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "was"
+            ]
+          },
+          {
+            "blue": [
+              "wer"
+            ]
+          },
+          {
+            "blue": [
+              "was für"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "waschen",
@@ -20402,7 +23711,151 @@ const A1_WORDS = [
         "wenn och wann betyder inte samma sak.",
         "Wann kommst du? är en fråga. Wenn du kommst... anger ett villkor eller en tid."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wenn",
+                "hast"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wenn",
+                "regnet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wenn",
+                "bin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "ob"
+              ]
+            },
+            "lv": {
+              "red": [
+                "vai"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ja",
+                "kad"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Wenn"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ob"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vai"
+              ]
+            },
+            "example": {
+              "red": [
+                "ob"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wann"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kad"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "Wann"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "weil"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jo"
+              ]
+            },
+            "example": {
+              "green": [
+                "weil"
+              ]
+            }
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "wenn"
+            ],
+            "yellow": [
+              "wann"
+            ]
+          },
+          {
+            "yellow": [
+              "Wann kommst du"
+            ],
+            "blue": [
+              "Wenn du kommst"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "wer",
@@ -20462,7 +23915,141 @@ const A1_WORDS = [
         "Kasusformerna är wen, wem och wessen.",
         "Fel: Wer ist passiert? Rätt: Was ist passiert?"
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kurš"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kurš"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "blue": [
+              "wer"
+            ],
+            "green": [
+              "was"
+            ]
+          },
+          {
+            "blue": [
+              "wer von"
+            ],
+            "purple": [
+              "kurš no"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "wer"
+            ]
+          },
+          {
+            "green": [
+              "was"
+            ],
+            "blue": [
+              "wer"
+            ]
+          },
+          {
+            "blue": [
+              "wer"
+            ]
+          },
+          {
+            "blue": [
+              "Wer"
+            ],
+            "green": [
+              "Was"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "werden",
@@ -22139,7 +25726,50 @@ const A1_WORDS = [
         "fernsehen är ett separabelt verb: ich sehe fern.",
         "das Fernsehen är ett substantiv och används bara i singular."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sehe",
+                "fern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatos televīziju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Siehst",
+                "fern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skaties televīzoru"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sehen",
+                "fern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "skatās televīzoru"
+              ]
+            }
+          }
+        ]
+      }}
   },
   {
     "de": "Fernsehen",
@@ -22194,7 +25824,94 @@ const A1_WORDS = [
         "das Fernsehen har ingen pluralform; *die Fernsehen är fel.",
         "Rätt: das Fernsehen. Handling: fernsehen → ich sehe fern."
       ]
-    }
+    ,
+      "sectionAccents": {
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "das Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          },
+          {
+            "de": {},
+            "lv": {
+              "purple": [
+                "televīziju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "Fernsehen",
+                "fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "televīzija"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {}
+        ],
+        "important": [
+          {
+            "green": [
+              "fernsehen"
+            ]
+          }
+        ]
+      }}
   },
   {
     "de": "Appetit",
