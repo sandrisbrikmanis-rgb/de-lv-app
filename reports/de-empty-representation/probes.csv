@@ -1,0 +1,14 @@
+probe,empty,null,undefined,empty_throw,null_throw,undefined_throw
+"String(value || """").trim()","""""","""""","""""",,,
+String(value).trim(),"""""","""null""","""undefined""",,,
+template ${value},"""""","""null""","""undefined""",,,
+"template ${value || """"}","""""","""""","""""",,,
+value || null,null,null,null,,,
+value ?? null,"""""",null,null,,,
+JSON.stringify(value ?? null),"""\""\""""","""null""","""null""",,,
+JSON.stringify({f: value}),"""{\""f\"":\""\""}""","""{\""f\"":null}""","""{}""",,,
+filter Boolean,0,0,0,,,
+"value.replace(/^die\s+/, """")","""""","""""","""""",,TypeError,TypeError
+truthy if,"""skip""","""skip""","""skip""",,,
+value !== undefined,"""enter""","""enter""","""skip""",,,
+"normalize String(value || """")","""""","""""","""""",,,

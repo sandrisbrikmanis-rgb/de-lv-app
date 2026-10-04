@@ -1,0 +1,25 @@
+{
+  "originMain": "f00f6b72afd693a8f6f86b42cd1631a0be7d9a6d",
+  "lvRecords": 8618,
+  "langDirMatch": true,
+  "missingFiles": 0,
+  "lengthMismatch": 0,
+  "lvCompareRows": 12,
+  "treeCompareRows": 0,
+  "whitespaceHits": 0,
+  "codeRows": 781,
+  "unclassified": 0,
+  "textOrThrowRows": 23,
+  "hashes": {
+    "counts.csv": "6806eac2d0cb9a2d4746d7141831f777305904ab32c46fbb10872eae44e6efd0",
+    "lv-compare.csv": "94a6db67dccffe9c89019f4e66e5a60006b1e05e5173acb0b25e604f23b4e2b2",
+    "tree-compare.csv": "f9f951034775accb7f56a2b5bd5308a05422297ef72ae87debaabd887d6d81d1",
+    "whitespace.csv": "6b8ee4ed134cceade05ab69eb00c41fcdb1ab89ad0d5447f4c90fc6a1162ef4b",
+    "length.csv": "d1fb3e5e0e6ae72d19c957b31c3f8b2237bc985fe17779c812915579db802ba8",
+    "code-sites.csv": "247d9721c1ab3b521752dcb23935c53c410c50c6792da01a51701e0cc2e6160c",
+    "probes.csv": "6a01e3179c7e7630077a6cfa7a7e9e196f0dd901bce6fd9240f165acba125192",
+    "null-indexes.csv": "1e9a902f69eb1b5611b669b36bcc76605b1590ad6ee67695667326600aaf70f5",
+    "kind-diffs.csv": "07d195c3ab23d6ff34c0fdd459132cbba5ab7b9b5459b3ecc2f4482a00e9a073",
+    "SUMMARY.md": "4e2788bab62fa3e0f72d58dd9af88de787058c87af42a78dbd426203f4664b27"
+  }
+}
