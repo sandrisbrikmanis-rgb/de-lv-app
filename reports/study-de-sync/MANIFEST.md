@@ -1,6 +1,6 @@
 # MANIFEST
 
-Bāze `a8d3c8a2643a3043d1ef273750750e07741dc172`. Katrs fails ir ≤ 500 KB.
+Bāze `a8d3c8a2643a3043d1ef273750750e07741dc172`. Katrs fails ir ≤ 500 KB. Tabulas jaucējsummas ir satura komita `69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2` failiem. SUMMARY.md un MANIFEST.md šajā komitā ir papildināti ar saitēm.
 
 | fails | baiti | sha256 |
 |---|---:|---|
