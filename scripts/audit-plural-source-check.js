@@ -55,12 +55,6 @@ const GOETHE_SOURCES = [
     level: "B1",
     title: "Goethe-Zertifikat B1 Wortliste",
     url: "https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B1_Wortliste.pdf"
-  },
-  {
-    id: "Goethe-B2",
-    level: "B2",
-    title: "Goethe-Zertifikat B2 Wortliste",
-    url: "https://www.goethe.de/pro/relaunch/prf/de/Goethe-Zertifikat_B2_Wortliste.pdf"
   }
 ];
 
@@ -122,8 +116,11 @@ function allowedUrl(url) {
     return false;
   }
   if (parsed.hostname === "www.goethe.de") {
+    if (parsed.search) return false;
     if (parsed.pathname === "/robots.txt") return true;
-    if (parsed.pathname.toLowerCase().endsWith(".pdf") && parsed.search === "") return true;
+    if (parsed.pathname === "/sitemap.xml" || parsed.pathname.endsWith("/sitemap.xml")) return true;
+    if (parsed.pathname.toLowerCase().endsWith(".pdf")) return true;
+    if (parsed.pathname.endsWith(".html")) return true;
     return false;
   }
   return false;
@@ -175,7 +172,7 @@ function fetchUrl(url) {
 
 function articlesFromWortart(text) {
   const value = String(text || "").toLowerCase();
-  if (value.includes("pluralwort")) return { articles: [], pluralwort: true };
+  if (value.includes("pluralwort")) return { articles: ["die"], pluralwort: true };
   const articles = [];
   if (value.includes("maskulin")) articles.push("der");
   if (value.includes("feminin")) articles.push("die");
@@ -281,13 +278,17 @@ function parseDudenHtml(html) {
   const only = genus.pluralwort || texts.some((text) => /nur im plural/i.test(text));
   const residue = !uniqueForms.length && unlistedPluralSignal(grammarText, notes, headword);
   let status = "NEEDS_SOURCE_REVIEW";
-  if (only && uniqueForms.length === 0) status = "PLURAL_ONLY";
-  else if (uniqueForms.length && ohne) status = "NEEDS_SOURCE_REVIEW";
+  let formsOut = uniqueForms;
+  if (only && uniqueForms.length === 0) {
+    status = "PLURAL_ONLY";
+    formsOut = headword ? [headword.normalize("NFC")] : [];
+  } else if (uniqueForms.length && ohne) status = "NEEDS_SOURCE_REVIEW";
   else if (uniqueForms.length && unclear) status = "NEEDS_SOURCE_REVIEW";
   else if (rare && uniqueForms.length) status = "PLURAL_RARE";
   else if (uniqueForms.length) status = "PLURAL_FOUND";
   else if (residue || (!grammarText && !notes.length)) status = "NEEDS_SOURCE_REVIEW";
   else status = "NO_PLURAL_LISTED";
+  const technicalMass = /fachsprache|\(sorten\b|\(arten\b/i.test([grammarText, ...notes].join(" "));
   return {
     title,
     headword,
@@ -296,10 +297,35 @@ function parseDudenHtml(html) {
     articles: genus.articles,
     pluralwort: genus.pluralwort,
     grammarText,
+    quote: shortQuote(grammarText),
     notes,
-    forms: uniqueForms,
+    forms: formsOut,
+    technicalMass,
     status
   };
+}
+
+function shortQuote(text) {
+  const words = String(text || "").replace(/\s+/g, " ").trim().split(" ").filter(Boolean);
+  if (!words.length) return "";
+  if (words.length <= 15) return words.join(" ");
+  return `${words.slice(0, 15).join(" ")} …`;
+}
+
+function chooseDudenEntries(entries, article) {
+  const wanted = String(article || "").trim();
+  let pool = entries.slice();
+  if (wanted) pool = pool.filter((entry) => entryArticles(entry).includes(wanted));
+  const current = pool.filter((entry) => !/frueher/i.test(String(entry.url || "")));
+  if (current.length && current.length < pool.length) pool = current;
+  const pluralOnly = pool.filter((entry) => entry.pluralwort || entry.status === "PLURAL_ONLY");
+  if (pluralOnly.length) {
+    pool = pool.filter((entry) => {
+      const dative = entry.forms.length === 1 && entry.headword && entry.forms[0] === `${entry.headword}n`;
+      return !dative;
+    });
+  }
+  return pool;
 }
 
 function indexLinks(html) {
@@ -408,13 +434,9 @@ function entryArticles(entry) {
 function selectDuden(lookup, article) {
   if (lookup.status !== "FOUND") return lookup;
   const wanted = String(article || "").trim();
-  if (!wanted) {
-    if (lookup.entries.length === 1) return { status: lookup.entries[0].status, entry: lookup.entries[0], entries: lookup.entries, accessed: lookup.accessed };
-    return { status: "AMBIGUOUS", entry: null, entries: lookup.entries, accessed: lookup.accessed };
-  }
-  const matches = lookup.entries.filter((entry) => entryArticles(entry).includes(wanted));
-  if (matches.length === 1) return { status: matches[0].status, entry: matches[0], entries: lookup.entries, accessed: lookup.accessed };
-  return { status: "AMBIGUOUS", entry: null, entries: lookup.entries, accessed: lookup.accessed };
+  const pool = wanted ? chooseDudenEntries(lookup.entries, article) : lookup.entries;
+  if (pool.length === 1) return { status: pool[0].status, entry: pool[0], entries: lookup.entries, accessed: lookup.accessed };
+  return { status: "AMBIGUOUS", entry: null, entries: pool.length ? pool : lookup.entries, accessed: lookup.accessed };
 }
 
 function umlautStem(stem) {
@@ -555,9 +577,65 @@ function parseGoethePdf(pdfPath) {
   return nouns;
 }
 
+function locValues(body) {
+  return [...String(body || "").matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1].trim());
+}
+
+function discoverGoetheB2() {
+  const tried = [];
+  const remember = (response) => {
+    tried.push({ url: response.url, httpStatus: response.status });
+    return response;
+  };
+  const index = remember(fetchUrl("https://www.goethe.de/sitemap.xml"));
+  if (index.status !== 200) return { status: "NOT_AVAILABLE", tried, url: "" };
+  const children = locValues(index.body.toString("utf8")).filter((loc) => (
+    loc === "https://www.goethe.de/de/sitemap.xml" || loc === "https://www.goethe.de/ins/de/de/sitemap.xml"
+  ));
+  const pages = [];
+  children.forEach((loc) => {
+    const response = remember(fetchUrl(loc));
+    if (response.status !== 200) return;
+    locValues(response.body.toString("utf8")).forEach((page) => {
+      if (/\/prf\/prf\/gzb2(?:\/|\.html)/.test(page) || page.endsWith("/spr/prf/ueb/pb2.html")) pages.push(page);
+    });
+  });
+  let pdfUrl = "";
+  [...new Set(pages)].forEach((page) => {
+    const response = remember(fetchUrl(page));
+    if (response.status !== 200 || pdfUrl) return;
+    const hrefs = [...response.body.toString("utf8").matchAll(/href="(https:\/\/www\.goethe\.de[^"]+\.pdf)"/gi)]
+      .map((match) => match[1].split("?")[0]);
+    pdfUrl = hrefs.find((href) => /wortliste/i.test(href) && /b2/i.test(href)) || "";
+  });
+  if (!pdfUrl) return { status: "NOT_AVAILABLE", tried, url: "" };
+  return { status: "FOUND", tried, url: pdfUrl };
+}
+
 function loadGoethe() {
   const lists = [];
-  GOETHE_SOURCES.forEach((source) => {
+  const b2Discovery = discoverGoetheB2();
+  const sources = GOETHE_SOURCES.slice();
+  sources.push({
+    id: "Goethe-B2",
+    level: "B2",
+    title: "Goethe-Zertifikat B2 Wortliste",
+    url: b2Discovery.url,
+    discovery: b2Discovery
+  });
+  sources.forEach((source) => {
+    if (source.id === "Goethe-B2" && b2Discovery.status !== "FOUND") {
+      lists.push({
+        ...source,
+        status: "NOT_AVAILABLE",
+        httpStatus: 0,
+        nouns: [],
+        sha256: "",
+        nounCount: 0,
+        tried: b2Discovery.tried
+      });
+      return;
+    }
     const response = fetchUrl(source.url);
     const pdfBody = response.body && response.body.slice(0, 5).toString() === "%PDF-";
     if (response.status !== 200 || !pdfBody) {
@@ -586,7 +664,7 @@ function loadGoethe() {
       byLemma.get(key).push({ ...noun, sourceId: list.id, sourceTitle: list.title });
     });
   });
-  return { lists, byLemma, anyLoaded: lists.some((list) => list.status === "LOADED") };
+  return { lists, byLemma, anyLoaded: lists.some((list) => list.status === "LOADED"), b2Discovery };
 }
 
 function goetheFor(index, lemma, article) {
@@ -640,7 +718,11 @@ function compareSide(dataPlural, source) {
   if (!present.length && source.status === "PLURAL_FOUND") return "MISSING_PLURAL_IN_DATA";
   if (!present.length && (source.status === "NO_PLURAL_LISTED" || source.status === "PLURAL_ONLY")) return "CONSISTENT";
   if (!present.length && source.status === "PLURAL_RARE") return "REVIEW_RARE_PLURAL";
-  if (present.length && (source.status === "NO_PLURAL_LISTED" || source.status === "PLURAL_ONLY")) return "PLURAL_FORM_MISMATCH";
+  if (present.length && source.status === "PLURAL_ONLY") {
+    if (formsAgree(present, source.forms || [])) return "CONSISTENT";
+    return "PLURAL_FORM_MISMATCH";
+  }
+  if (present.length && source.status === "NO_PLURAL_LISTED") return "PLURAL_FORM_MISMATCH";
   if (present.length && formsAgree(present, source.forms || (source.entry && source.entry.forms))) return "CONSISTENT";
   if (present.length) return "PLURAL_FORM_MISMATCH";
   return "NEEDS_SOURCE_REVIEW";
@@ -653,20 +735,30 @@ function sourceForms(source) {
   return [];
 }
 
+function sourcesDisagree(duden, goethe) {
+  const informative = new Set(["PLURAL_FOUND", "NO_PLURAL_LISTED", "PLURAL_RARE", "PLURAL_ONLY"]);
+  if (!informative.has(duden.status) || !informative.has(goethe.status)) return false;
+  const dudenForms = sourceForms(duden);
+  const goetheForms = sourceForms(goethe);
+  if (dudenForms.length && goetheForms.length && !formsAgree(dudenForms, goetheForms)) return true;
+  const noPlural = (status) => status === "NO_PLURAL_LISTED";
+  const listed = (status) => status === "PLURAL_FOUND";
+  return (noPlural(duden.status) && listed(goethe.status)) || (listed(duden.status) && noPlural(goethe.status));
+}
+
 function combineComparison(dataPlural, duden, goethe) {
   const left = compareSide(dataPlural, { ...duden, forms: sourceForms(duden) });
   const right = compareSide(dataPlural, { ...goethe, forms: sourceForms(goethe) });
-  const informative = new Set(["PLURAL_FOUND", "NO_PLURAL_LISTED", "PLURAL_RARE", "PLURAL_ONLY"]);
-  let sourcesDisagree = false;
-  if (informative.has(duden.status) && informative.has(goethe.status)) {
-    if (duden.status !== goethe.status) sourcesDisagree = true;
-    else if ((duden.status === "PLURAL_FOUND" || duden.status === "PLURAL_RARE") && !formsAgree(sourceForms(duden), sourceForms(goethe))) sourcesDisagree = true;
-  }
+  const present = dataForms(dataPlural);
+  let note = "";
   let comparison = left;
   if (left === "NOT_CHECKED" || right === "NOT_CHECKED") comparison = "NOT_CHECKED";
-  else if (sourcesDisagree) comparison = "SOURCES_DISAGREE";
+  else if (!present.length && goethe.status === "PLURAL_FOUND" && (duden.status === "NEEDS_SOURCE_REVIEW" || duden.status === "PLURAL_RARE")) {
+    comparison = "MISSING_PLURAL_IN_DATA";
+    note = "GOETHE_LISTS_PLURAL";
+  } else if (sourcesDisagree(duden, goethe)) comparison = "SOURCES_DISAGREE";
   else if (left === "NOT_IN_SOURCE" && right !== "NOT_IN_SOURCE") comparison = right;
-  return { comparison, dudenComparison: left, goetheComparison: right, sourcesDisagree };
+  return { comparison, dudenComparison: left, goetheComparison: right, sourcesDisagree: comparison === "SOURCES_DISAGREE", note };
 }
 
 function articleMismatch(dataArticle, duden, goethe) {
@@ -678,6 +770,20 @@ function articleMismatch(dataArticle, duden, goethe) {
   if (goethe.article && goethe.article !== wanted && goethe.status !== "NOT_IN_SOURCE" && goethe.status !== "AMBIGUOUS") {
     out.push({ source: "Goethe", article: goethe.article });
   }
+  return out;
+}
+
+function nEndingDiff(rows) {
+  const out = [];
+  rows.forEach((row) => {
+    const forms = String(row.dudenPlural || "").split(/\s+\|\s+/).map(normForm).filter(Boolean);
+    lemmasOf(row.de).forEach((lemma) => {
+      forms.forEach((form) => {
+        if (!form.endsWith("n") || form === `${normForm(lemma)}n`) return;
+        out.push({ level: row.level, index: row.index, de: row.de, lemma, form, dudenStatus: row.dudenStatus });
+      });
+    });
+  });
   return out;
 }
 
@@ -765,6 +871,10 @@ function summarize(rows) {
   };
 }
 
+function rowLine(row) {
+  return `- ${row.level}[${row.index}] de=${csvEscape(row.de)} de_article=${csvEscape(row.de_article)} de_plural=${csvEscape(row.de_plural)} duden=${csvEscape(row.dudenPlural)} goethe=${csvEscape(row.goethePlural)} note=${csvEscape(row.comparisonNote || "")} duden_quote=${csvEscape(row.dudenQuote || "")} goethe_page=${csvEscape(row.goetheRef || "")}`;
+}
+
 function renderMarkdown(body) {
   const lines = [];
   const push = (text) => lines.push(text);
@@ -841,18 +951,55 @@ function renderMarkdown(body) {
   push("|---|---:|---:|");
   body.goetheCoverage.forEach((row) => push(`| ${row.id} | ${row.nounCount} | ${row.checkedFound} |`));
   push("");
-  ["MISSING_PLURAL_IN_DATA", "PLURAL_FORM_MISMATCH", "SOURCES_DISAGREE", "REVIEW_RARE_PLURAL"].forEach((name) => {
+  const missingGroups = ["IDENTICAL_TO_SINGULAR", "TECHNICAL_OR_MASS", "NORMAL"];
+  push("## MISSING_PLURAL_IN_DATA");
+  push("");
+  const missingRows = body.rows.filter((row) => row.comparison === "MISSING_PLURAL_IN_DATA");
+  push(`Skaits: ${missingRows.length}.`);
+  push("");
+  missingGroups.forEach((name) => {
+    const group = missingRows.filter((row) => row.missingSubtype === name);
+    push(`### ${name}`);
+    push("");
+    push(`Skaits: ${group.length}.`);
+    push("");
+    if (!group.length) push("Nav.");
+    group.forEach((row) => push(rowLine(row)));
+    push("");
+  });
+  ["PLURAL_FORM_MISMATCH", "SOURCES_DISAGREE", "REVIEW_RARE_PLURAL", "NEEDS_SOURCE_REVIEW", "NOT_IN_SOURCE", "AMBIGUOUS"].forEach((name) => {
     const group = body.rows.filter((row) => row.comparison === name);
     push(`## ${name}`);
     push("");
     push(`Skaits: ${group.length}.`);
     push("");
     if (!group.length) push("Nav.");
-    group.forEach((row) => {
-      push(`- ${row.level}[${row.index}] de=${csvEscape(row.de)} de_article=${csvEscape(row.de_article)} de_plural=${csvEscape(row.de_plural)} duden=${csvEscape(row.dudenPlural)} goethe=${csvEscape(row.goethePlural)} ref=${row.ref}`);
-    });
+    group.forEach((row) => push(rowLine(row)));
     push("");
   });
+  push("## Galotne -n, kas nav lemma+n");
+  push("");
+  push("Sarakstā ir izvēlētā Duden forma, kas beidzas ar n un nav vienāda ar lemma+n. Nominatīvs Trümmer nav šajā sarakstā.");
+  push("");
+  push(`Skaits: ${body.nEndingDiff.length}.`);
+  push("");
+  if (!body.nEndingDiff.length) push("Nav.");
+  body.nEndingDiff.forEach((row) => {
+    push(`- ${row.level}[${row.index}] de=${csvEscape(row.de)} lemma=${csvEscape(row.lemma)} form=${csvEscape(row.form)} duden=${row.dudenStatus}`);
+  });
+  push("");
+  push("## robots.txt");
+  push("");
+  push(`Duden User-agent * neaizliedz /rechtschreibung/ un /sitemap-lexeme: ${body.robots.dudenAllowsRechtschreibung ? "jā" : "nē"}. Aizliegts /search/ un /suche/: ${body.robots.dudenDisallowsSearch ? "jā, šie ceļi nav prasīti" : "nē"}.`);
+  push(`Goethe User-agent * aizliedz /*.pdf?* : ${body.robots.goetheDisallowsPdfQuery ? "jā; PDF pieprasījumi ir bez vaicājuma" : "nē"}. Aizliegts /suche/: ${body.robots.goetheDisallowsSuche ? "jā, nav prasīts" : "nē"}.`);
+  push(`Temps: ${body.robots.rate}. HTTP 403 netiek apieta.`);
+  push("");
+  push("## Goethe B2");
+  push("");
+  push(`Statuss: ${body.b2Discovery.status}. PDF URL: ${body.b2Discovery.url || ""}.`);
+  push("");
+  body.b2Discovery.tried.forEach((item) => push(`- ${item.httpStatus} ${item.url}`));
+  push("");
   push("## STAGE RESULT");
   push("");
   push(`CHECK_COMPLETENESS: ${body.baseline.verdict}`);
@@ -865,9 +1012,9 @@ function renderMarkdown(body) {
 function renderCsv(rows) {
   const header = [
     "id", "level", "index", "de", "de_article", "de_plural", "lv", "category", "lemma",
-    "duden_status", "duden_article", "duden_plural", "duden_url",
+    "duden_status", "duden_article", "duden_plural", "duden_quote", "duden_url",
     "goethe_status", "goethe_article", "goethe_plural", "goethe_ref",
-    "comparison", "article_mismatch"
+    "comparison", "comparison_note", "missing_subtype", "article_mismatch"
   ];
   const lines = [header.join(",")];
   rows.forEach((row, index) => {
@@ -884,12 +1031,15 @@ function renderCsv(rows) {
       csvEscape(row.dudenStatus),
       csvEscape(row.dudenArticle),
       csvEscape(row.dudenPlural),
+      csvEscape(row.dudenQuote),
       csvEscape(row.dudenUrl),
       csvEscape(row.goetheStatus),
       csvEscape(row.goetheArticle),
       csvEscape(row.goethePlural),
       csvEscape(row.goetheRef),
       csvEscape(row.comparison),
+      csvEscape(row.comparisonNote),
+      csvEscape(row.missingSubtype),
       csvEscape(row.articleMismatch.map((item) => `${item.source}:${item.article}`).join(" "))
     ].join(","));
   });
@@ -942,7 +1092,7 @@ function selfTestParsers() {
     ["Erlaubnis , die", "Substantiv, feminin", "die Erlaubnis; Genitiv: der Erlaubnis, Plural: die Erlaubnisse (Plural selten)", [], "PLURAL_RARE", ["Erlaubnisse"]],
     ["Schaden , der", "Substantiv, maskulin", "der Schaden; Genitiv: des Schadens, Plural: die Schäden", ["ohne Plural"], "NEEDS_SOURCE_REVIEW", ["Schäden"]],
     ["Band , das", "Substantiv, Neutrum", "das Band; Genitiv: des Band[e]s, Bänder und Bande", ["Plural: Bänder", "Plural: Bande; Singular selten"], "PLURAL_FOUND", ["Bänder", "Bande"]],
-    ["Eltern , die", "Pluralwort", "nur im Plural", [], "PLURAL_ONLY", []],
+    ["Eltern , die", "Pluralwort", "nur im Plural", [], "PLURAL_ONLY", ["Eltern"]],
     ["Cello , das", "Substantiv, Neutrum", "das Cello; Genitiv: des Cellos, Plural: die Cellos, auch Celli", [], "PLURAL_FOUND", ["Cellos", "Celli"]],
     ["Joghurt , der", "Substantiv, maskulin, oder Substantiv, feminin, oder Substantiv, Neutrum", "der Joghurt; Genitiv: des Joghurt[s], Plural: die Joghurt[s]", [], "PLURAL_FOUND", ["Joghurt", "Joghurts"]],
     ["Milch , die", "Substantiv, feminin", "die Milch; Genitiv: der Milch, Plural: (Fachsprache:) die Milche[n]", [], "PLURAL_FOUND", ["Milche", "Milchen"]],
@@ -961,6 +1111,13 @@ function selfTestParsers() {
   });
   const aerobic = parseDudenHtml(dudenPage("Aerobic , das oder die", "Substantiv, Neutrum, oder Substantiv, feminin", "das Aerobic; Genitiv: des Aerobics", []));
   if (!aerobic.articles.includes("das") || !aerobic.articles.includes("die")) throw new Error("Aerobic articles");
+  const eltern = parseDudenHtml(dudenPage("Eltern , die", "Pluralwort", "nur im Plural", []));
+  if (!eltern.articles.includes("die") || eltern.forms[0] !== "Eltern") throw new Error("Eltern nominative");
+  const trummer = chooseDudenEntries([
+    { url: "https://www.duden.de/rechtschreibung/Truemmer_Bruchstueck_frueher", headword: "Trümmer", articles: ["die"], forms: ["Trümmern"], status: "PLURAL_FOUND", pluralwort: false },
+    { url: "https://www.duden.de/rechtschreibung/Truemmer_Bruchstueck_Ueberrest_Plural", headword: "Trümmer", articles: ["die"], forms: ["Trümmer"], status: "PLURAL_ONLY", pluralwort: true }
+  ], "die");
+  if (trummer.length !== 1 || trummer[0].forms[0] !== "Trümmer") throw new Error(`Trümmer dative leak ${JSON.stringify(trummer)}`);
 }
 
 function publicSource(source) {
@@ -983,6 +1140,15 @@ function main() {
   if (robots.status !== 200) throw new Error("Duden robots.txt unavailable");
   const goetheRobots = fetchUrl("https://www.goethe.de/robots.txt");
   if (goetheRobots.status !== 200) throw new Error("Goethe robots.txt unavailable");
+  const dudenRobotsText = robots.body.toString("utf8");
+  const goetheRobotsText = goetheRobots.body.toString("utf8");
+  const robotsReport = {
+    dudenAllowsRechtschreibung: !/Disallow:\s*\/rechtschreibung/i.test(dudenRobotsText),
+    dudenDisallowsSearch: dudenRobotsText.includes("Disallow: /search/") && dudenRobotsText.includes("Disallow: /suche/"),
+    goetheDisallowsPdfQuery: goetheRobotsText.includes("Disallow: /*.pdf?*"),
+    goetheDisallowsSuche: goetheRobotsText.includes("Disallow: /suche/"),
+    rate: "viens pieprasījums vienlaikus, vismaz 1100 ms starp pieprasījumu sākumiem"
+  };
   const goetheIndex = loadGoethe();
   const input = loadInput();
   const cache = new Map();
@@ -1040,18 +1206,33 @@ function main() {
     }
     const compared = combineComparison(row.de_plural, duden, goethe);
     const mismatch = parts.flatMap((part) => articleMismatch(row.de_article, part.duden, part.goethe));
+    const quoteEntries = parts.flatMap((part) => (part.duden.entry ? [part.duden.entry] : (part.duden.entries || [])));
+    const usedForms = compared.note === "GOETHE_LISTS_PLURAL"
+      ? parts.flatMap((part) => part.goethe.forms || [])
+      : parts.flatMap((part) => sourceForms(part.duden));
+    const identical = usedForms.length > 0 && usedForms.every((form) => lemmas.some((lemma) => normForm(form) === normForm(lemma)));
+    const technical = quoteEntries.some((entry) => entry.technicalMass);
+    let missingSubtype = "";
+    if (compared.comparison === "MISSING_PLURAL_IN_DATA") {
+      if (identical) missingSubtype = "IDENTICAL_TO_SINGULAR";
+      else if (technical) missingSubtype = "TECHNICAL_OR_MASS";
+      else missingSubtype = "NORMAL";
+    }
     rows.push({
       ...row,
       lemma: lemmas.join(" | "),
       dudenStatus,
       dudenArticle: parts.map((part) => (part.duden.entry ? part.duden.entry.article : "")).filter(Boolean).join(" | "),
       dudenPlural: parts.flatMap((part) => sourceForms(part.duden)).join(" | "),
+      dudenQuote: quoteEntries.map((entry) => entry.quote || shortQuote(entry.grammarText)).filter(Boolean).join(" || "),
       dudenUrl: parts.flatMap((part) => (part.duden.entry ? [part.duden.entry.url] : (part.duden.entries || []).map((entry) => entry.url))).join(" "),
       goetheStatus,
       goetheArticle: parts.map((part) => part.goethe.article || "").filter(Boolean).join(" | "),
       goethePlural: parts.flatMap((part) => part.goethe.forms || []).join(" | "),
       goetheRef: parts.flatMap((part) => (part.goethe.hits || []).map((hit) => `${hit.sourceId} p.${hit.page} ${hit.ending}`)).join(" "),
       comparison: compared.comparison,
+      comparisonNote: compared.note,
+      missingSubtype,
       dudenComparison: compared.dudenComparison,
       goetheComparison: compared.goetheComparison,
       articleMismatch: mismatch,
@@ -1091,7 +1272,7 @@ function main() {
       "1. Duden URL ir /rechtschreibung/<slug> (atstarpe → _, äöüß → ae/oe/ue/ss). HTTP 200 un h1 = lemma ir šķirklis. HTTP 404 nav šķirklis; citus šķirkļus dod sitemap-lexeme saites <slug> un <slug>_.",
       "2. Genus nāk no Wortart: maskulin→der, feminin→die, Neutrum→das. Vairāki dzimumi paliek kopa; de_article atbilst vienam no tiem. Pluralwort → PLURAL_ONLY.",
       "3. Daudzskaitļa forma nāk tikai no 'Plural:' vai 'Plural (…):' pirmā gramatikas <p> un Bedeutung Grammatik rindās. Leņķiekavas, IPA un iekavas noņem. [s]/[n] dod abus rakstījumus. '(Plural selten)' → PLURAL_RARE. Piemēri: Erlaubnis → Erlaubnisse; Pfahlbau → Pfahlbauten; Beton → Betons, Betone.",
-      "4. 'nur im Plural' vai Pluralwort bez atsevišķas formas ir PLURAL_ONLY. Piemērs: Eltern.",
+      "4. 'nur im Plural' vai Pluralwort ir nominatīva daudzskaitlis = lemma, artikuls die. Piemērs: Eltern, Trümmer. Šķirklis ar slug frueher un formu lemma+n ir datīvs (Trümmern) un netiek ņemts, ja ir aktuālais šķirklis.",
       "5. 'Plural:' forma bez 'ohne Plural' ir PLURAL_FOUND. Piemērs: der Band → Bände. das Band piezīmes 'Plural: Bänder' un 'Plural: Bande' paliek kopa. Ģenitīva aste (Blute, Bargelds) nav daudzskaitlis.",
       "6. Nav 'Plural:' formas un rinda ir tikai dzimte un ģenitīvs (Bargeld, Gepäck, Kosmetik) → NO_PLURAL_LISTED.",
       "7. Forma un 'ohne Plural' kopā ir NEEDS_SOURCE_REVIEW. Piemēri: Schaden, Geld, Anbau. Bez 'Plural:' etiķetes, bet ar (Sorten:), (Arten:), (Fachsprache) vai vārdu Plural (Blut; Sport) → NEEDS_SOURCE_REVIEW. Aste netiek glabāta kā forma.",
@@ -1122,6 +1303,9 @@ function main() {
     control,
     summary,
     goetheCoverage,
+    nEndingDiff: nEndingDiff(rows),
+    robots: robotsReport,
+    b2Discovery: goetheIndex.b2Discovery,
     rows
   };
   fs.mkdirSync(path.dirname(OUT_MD), { recursive: true });
