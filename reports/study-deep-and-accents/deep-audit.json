@@ -1,0 +1,297 @@
+{
+  "totals": {
+    "TEXT": 0,
+    "EXTRA": 0,
+    "MISSING": 0,
+    "ORDER": 0
+  },
+  "byLang": {
+    "bg": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "bs": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "cs": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "da": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "en": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "es": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "et": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "fi": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "fr": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "gr": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "hr": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "hu": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "is": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "it": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "lb": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "lt": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "mk": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "nb": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "nl": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "nn": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "pl": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "pt": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "ro": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "ru": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "sk": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "sl": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "sq": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "sr": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "sv": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "tr": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "uk": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    }
+  },
+  "byLevel": {
+    "a1": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "a2": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "b1": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "b2": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "c1": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "c2": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    }
+  },
+  "byField": {
+    "comparison.word": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "comparison.example.de": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "examples.de": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "variants.article": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "variants.de": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "variants.plural": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "variants.example_de": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "id": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "study.id": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    },
+    "card": {
+      "TEXT": 0,
+      "EXTRA": 0,
+      "MISSING": 0,
+      "ORDER": 0
+    }
+  },
+  "cases": []
+}
