@@ -1,0 +1,13 @@
+tree,lang,dataset,field,lv_kind,lang_kind,count
+data,et,B2,de_plural,m,p,1
+data,fi,B2,de_plural,m,p,1
+data,is,B2,de_plural,m,p,1
+data,nb,B2,de_plural,m,p,1
+data,nn,B2,de_plural,m,p,1
+data,sv,B2,de_plural,m,p,1
+www/data,et,B2,de_plural,m,p,1
+www/data,fi,B2,de_plural,m,p,1
+www/data,is,B2,de_plural,m,p,1
+www/data,nb,B2,de_plural,m,p,1
+www/data,nn,B2,de_plural,m,p,1
+www/data,sv,B2,de_plural,m,p,1
