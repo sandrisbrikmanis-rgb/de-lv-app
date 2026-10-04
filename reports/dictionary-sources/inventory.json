@@ -1,0 +1,3407 @@
+{
+  "date": "2026-10-04",
+  "originMain": "f00f6b72afd693a8f6f86b42cd1631a0be7d9a6d",
+  "statement": "Šis saraksts fiksē failus un reģistra rindas. Tas neizvēlas pilotvalodu un nevērtē vārdnīcu kvalitāti.",
+  "dictionaryFileCount": 0,
+  "dictionaryFiles": [],
+  "gitHistoryBinaryNames": [],
+  "otherRefPathCount": 393,
+  "otherRefs": [
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/additional-bilingual-source-recommendations.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/additional-bilingual-source-recommendations.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/additional-bilingual-source-verify-38.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/additional-bilingual-source-verify-38.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/complete-bilingual-validation-38.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/complete-bilingual-validation-38.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-uk-bilingual-sources/uk-bilingual-source-pilot-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-uk-bilingual-sources/uk-bilingual-source-pilot-verification.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-commercial-dictionary-editorial-provenance.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-master-owner-review.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-registry.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-registry.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-validation.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-validation.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-haus-14-language-bilingual-pilot.csv",
+      "inOriginMain": false,
+      "extension": ".csv"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-haus-14-language-bilingual-pilot.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-bilingual-dictionaries-32/german-target-bilingual-dictionaries-32-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-bilingual-dictionaries-32/german-target-bilingual-dictionaries-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-bilingual-dictionaries-32/german-target-bilingual-dictionaries-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-alternatives-32/german-target-dictionary-alternatives-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-alternatives-32/german-target-dictionary-alternatives-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-alternatives-32/german-target-dictionary-alternatives-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-de-et-used-sources/german-target-dictionary-de-et-used-sources-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-de-et-used-sources/german-target-dictionary-de-et-used-sources.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-de-et-used-sources/german-target-dictionary-de-et-used-sources.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-owner-preapproval-32/german-target-dictionary-owner-preapproval-25-changes.csv",
+      "inOriginMain": false,
+      "extension": ".csv"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-owner-preapproval-32/german-target-dictionary-owner-preapproval-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-owner-preapproval-32/german-target-dictionary-owner-preapproval-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-owner-preapproval-32/german-target-dictionary-owner-preapproval-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-6/german-target-dictionary-rescan-6.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-6/german-target-dictionary-rescan-6.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-problematic/german-target-dictionary-rescan-problematic-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-problematic/german-target-dictionary-rescan-problematic.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-problematic/german-target-dictionary-rescan-problematic.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-search-32/german-target-dictionary-owner-proposals.csv",
+      "inOriginMain": false,
+      "extension": ".csv"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-search-32/german-target-dictionary-search-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-search-32/german-target-dictionary-search-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-search-32/german-target-dictionary-search-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-pdf-bilingual-dictionary-discovery-32/pdf-bilingual-dictionary-discovery-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/german-target-pdf-bilingual-dictionary-discovery-32/pdf-bilingual-dictionary-discovery-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-alternatives-round4/pdf-bilingual-dictionary-bg-bs-alternatives-round4.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-alternatives-round4/pdf-bilingual-dictionary-bg-bs-alternatives-round4.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot/pdf-bilingual-dictionary-bg-bs-fr-pilot.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot/pdf-bilingual-dictionary-bg-bs-fr-pilot.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-round2/pdf-bilingual-dictionary-bg-bs-fr-round2.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-round2/pdf-bilingual-dictionary-bg-bs-fr-round2.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-scanned-round3/pdf-bilingual-dictionary-bg-bs-scanned-round3.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-scanned-round3/pdf-bilingual-dictionary-bg-bs-scanned-round3.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-cs-sk-uk-pilot/pdf-bilingual-dictionary-cs-sk-uk-modern-sources.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-cs-sk-uk-pilot/pdf-bilingual-dictionary-cs-sk-uk-modern-sources.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-modern-sources.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-modern-sources.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-pilot-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-pilot-verification.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/apply-master-additional-dictionary-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/apply-master-german-target-bilingual-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-de-et-bilingual-dictionary-used-sources.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-alternatives-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-owner-preapproval-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-registry.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-rescan-6.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-rescan-problematic.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-search-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-alternatives-round4.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-fr-pilot.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-fr-round2.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-scanned-round3.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-cs-sk-uk-pilot.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-discovery-32-report.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-g2-a1-uk-bilingual-source-pilot.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/build-german-target-bilingual-dictionaries-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-fr-bg-bs.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-lv-lt-pl.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-uk.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/data/german-target-dictionary-de-et-used-sources.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/data/german-target-dictionary-rescan-6-candidates.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/data/german-target-dictionary-rescan-problematic-candidates.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/data/german-target-dictionary-search-overrides-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/data/master-additional-dictionary-sources-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/data/master-german-target-bilingual-dictionaries-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/data/master-german-target-pdf-bilingual-dictionaries-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/additional-dictionary-search-urls.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/card-translation-bilingual-collector.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/digar-de-et-bilingual-lookup.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/g2-a1-bilingual-de-sense-gate.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/g2-a1-bilingual-row-status.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/g2-a1-bilingual-validation-strict.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-alternative-catalog.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-alternatives-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-candidates.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-owner-preapproval-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-probes.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-registry.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-rescan-6.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-rescan-builder.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-rescan-problematic.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-search-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-search-catalog.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-search-probe.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/master-additional-dictionary-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/lib/g2-a1-production-current/master-german-target-bilingual-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/run-g2-a1-complete-bilingual-validation-38.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/run-g2-a1-verify-additional-bilingual-38.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/verify-g2-a1-de-et-digar-bilingual.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/verify-g2-a1-german-target-bilingual-dictionaries-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-alternatives-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-owner-preapproval-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-registry.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-rescan-problematic.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-search-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-bg-bs-fr-pilot-17f5",
+      "path": "scripts/verify-g2-a1-master-additional-dictionary-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-alternatives-round4/pdf-bilingual-dictionary-bg-bs-alternatives-round4.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-alternatives-round4/pdf-bilingual-dictionary-bg-bs-alternatives-round4.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot/pdf-bilingual-dictionary-bg-bs-fr-pilot.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot/pdf-bilingual-dictionary-bg-bs-fr-pilot.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-round2/pdf-bilingual-dictionary-bg-bs-fr-round2.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-round2/pdf-bilingual-dictionary-bg-bs-fr-round2.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-scanned-round3/pdf-bilingual-dictionary-bg-bs-scanned-round3.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-scanned-round3/pdf-bilingual-dictionary-bg-bs-scanned-round3.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-alternatives-round4.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-fr-pilot.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-fr-round2.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-scanned-round3.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-fr-bg-bs-audit-only-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-fr-bg-bs.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-discovery/pdf-bilingual-dictionary-hr-hu-is-discovery.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-discovery/pdf-bilingual-dictionary-hr-hu-is-discovery.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-pilot-verify/pdf-bilingual-dictionary-hr-hu-is-pilot-verify.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-pilot-verify/pdf-bilingual-dictionary-hr-hu-is-pilot-verify.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-audit-only-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-hr-hu-is-discovery.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-audit-only-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-hr-hu-is-pilot-verify.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-audit-only-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-hr-hu-is.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/additional-bilingual-source-recommendations.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/additional-bilingual-source-recommendations.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/additional-bilingual-source-verify-38.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/additional-bilingual-source-verify-38.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/complete-bilingual-validation-38.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/complete-bilingual-validation-38.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-uk-bilingual-sources/uk-bilingual-source-pilot-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-uk-bilingual-sources/uk-bilingual-source-pilot-verification.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-commercial-dictionary-editorial-provenance.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-master-owner-review.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-registry.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-registry.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-validation.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-validation.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-haus-14-language-bilingual-pilot.csv",
+      "inOriginMain": false,
+      "extension": ".csv"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-haus-14-language-bilingual-pilot.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-bilingual-dictionaries-32/german-target-bilingual-dictionaries-32-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-bilingual-dictionaries-32/german-target-bilingual-dictionaries-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-bilingual-dictionaries-32/german-target-bilingual-dictionaries-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-alternatives-32/german-target-dictionary-alternatives-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-alternatives-32/german-target-dictionary-alternatives-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-alternatives-32/german-target-dictionary-alternatives-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-de-et-used-sources/german-target-dictionary-de-et-used-sources-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-de-et-used-sources/german-target-dictionary-de-et-used-sources.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-de-et-used-sources/german-target-dictionary-de-et-used-sources.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-owner-preapproval-32/german-target-dictionary-owner-preapproval-25-changes.csv",
+      "inOriginMain": false,
+      "extension": ".csv"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-owner-preapproval-32/german-target-dictionary-owner-preapproval-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-owner-preapproval-32/german-target-dictionary-owner-preapproval-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-owner-preapproval-32/german-target-dictionary-owner-preapproval-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-6/german-target-dictionary-rescan-6.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-6/german-target-dictionary-rescan-6.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-problematic/german-target-dictionary-rescan-problematic-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-problematic/german-target-dictionary-rescan-problematic.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-problematic/german-target-dictionary-rescan-problematic.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-search-32/german-target-dictionary-owner-proposals.csv",
+      "inOriginMain": false,
+      "extension": ".csv"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-search-32/german-target-dictionary-search-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-search-32/german-target-dictionary-search-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-search-32/german-target-dictionary-search-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-pdf-bilingual-dictionary-discovery-32/pdf-bilingual-dictionary-discovery-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-pdf-bilingual-dictionary-discovery-32/pdf-bilingual-dictionary-discovery-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-alternatives-round4/pdf-bilingual-dictionary-bg-bs-alternatives-round4.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-alternatives-round4/pdf-bilingual-dictionary-bg-bs-alternatives-round4.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot/pdf-bilingual-dictionary-bg-bs-fr-pilot.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot/pdf-bilingual-dictionary-bg-bs-fr-pilot.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-round2/pdf-bilingual-dictionary-bg-bs-fr-round2.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-round2/pdf-bilingual-dictionary-bg-bs-fr-round2.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-scanned-round3/pdf-bilingual-dictionary-bg-bs-scanned-round3.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-scanned-round3/pdf-bilingual-dictionary-bg-bs-scanned-round3.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-cs-sk-uk-pilot/pdf-bilingual-dictionary-cs-sk-uk-modern-sources.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-cs-sk-uk-pilot/pdf-bilingual-dictionary-cs-sk-uk-modern-sources.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-discovery/pdf-bilingual-dictionary-hr-hu-is-discovery.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-discovery/pdf-bilingual-dictionary-hr-hu-is-discovery.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-pilot-verify/pdf-bilingual-dictionary-hr-hu-is-pilot-verify.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-pilot-verify/pdf-bilingual-dictionary-hr-hu-is-pilot-verify.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-modern-sources.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-modern-sources.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-pilot-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-pilot-verification.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/apply-master-additional-dictionary-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/apply-master-german-target-bilingual-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-de-et-bilingual-dictionary-used-sources.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-alternatives-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-owner-preapproval-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-registry.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-rescan-6.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-rescan-problematic.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-search-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-alternatives-round4.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-fr-pilot.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-fr-round2.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-scanned-round3.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-cs-sk-uk-pilot.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-discovery-32-report.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-hr-hu-is-discovery.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-hr-hu-is-pilot-verify.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-g2-a1-uk-bilingual-source-pilot.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/build-german-target-bilingual-dictionaries-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-fr-bg-bs.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-hr-hu-is.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-lv-lt-pl.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-uk.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/data/german-target-dictionary-de-et-used-sources.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/data/german-target-dictionary-rescan-6-candidates.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/data/german-target-dictionary-rescan-problematic-candidates.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/data/german-target-dictionary-search-overrides-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/data/master-additional-dictionary-sources-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/data/master-german-target-bilingual-dictionaries-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/data/master-german-target-pdf-bilingual-dictionaries-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/additional-dictionary-search-urls.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/card-translation-bilingual-collector.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/digar-de-et-bilingual-lookup.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/g2-a1-bilingual-de-sense-gate.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/g2-a1-bilingual-row-status.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/g2-a1-bilingual-validation-strict.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-alternative-catalog.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-alternatives-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-candidates.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-owner-preapproval-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-probes.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-registry.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-rescan-6.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-rescan-builder.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-rescan-problematic.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-search-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-search-catalog.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-search-probe.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/master-additional-dictionary-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/master-german-target-bilingual-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/run-g2-a1-complete-bilingual-validation-38.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/run-g2-a1-verify-additional-bilingual-38.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/verify-g2-a1-de-et-digar-bilingual.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/verify-g2-a1-german-target-bilingual-dictionaries-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-alternatives-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-owner-preapproval-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-registry.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-rescan-problematic.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-search-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-hr-hu-is-discovery-17f5",
+      "path": "scripts/verify-g2-a1-master-additional-dictionary-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-discovery/pdf-bilingual-dictionary-it-mk-nl-discovery.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-discovery/pdf-bilingual-dictionary-it-mk-nl-discovery.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-pilot-verify/pdf-bilingual-dictionary-it-mk-nl-pilot-verify.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-audit-only-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-pilot-verify/pdf-bilingual-dictionary-it-mk-nl-pilot-verify.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-audit-only-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-it-mk-nl-discovery.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-audit-only-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-it-mk-nl-pilot-verify.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-audit-only-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-it-mk-nl.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/additional-bilingual-source-recommendations.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/additional-bilingual-source-recommendations.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/additional-bilingual-source-verify-38.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/additional-bilingual-source-verify-38.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/complete-bilingual-validation-38.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-sample-lemmas/complete-bilingual-validation-38.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-uk-bilingual-sources/uk-bilingual-source-pilot-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/card-translation-uk-bilingual-sources/uk-bilingual-source-pilot-verification.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-commercial-dictionary-editorial-provenance.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-master-owner-review.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-registry.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-registry.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-validation.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-german-target-dictionary-validation.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-haus-14-language-bilingual-pilot.csv",
+      "inOriginMain": false,
+      "extension": ".csv"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/g2-a1-haus-14-language-bilingual-pilot.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-bilingual-dictionaries-32/german-target-bilingual-dictionaries-32-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-bilingual-dictionaries-32/german-target-bilingual-dictionaries-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-bilingual-dictionaries-32/german-target-bilingual-dictionaries-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-alternatives-32/german-target-dictionary-alternatives-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-alternatives-32/german-target-dictionary-alternatives-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-alternatives-32/german-target-dictionary-alternatives-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-de-et-used-sources/german-target-dictionary-de-et-used-sources-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-de-et-used-sources/german-target-dictionary-de-et-used-sources.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-de-et-used-sources/german-target-dictionary-de-et-used-sources.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-owner-preapproval-32/german-target-dictionary-owner-preapproval-25-changes.csv",
+      "inOriginMain": false,
+      "extension": ".csv"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-owner-preapproval-32/german-target-dictionary-owner-preapproval-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-owner-preapproval-32/german-target-dictionary-owner-preapproval-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-owner-preapproval-32/german-target-dictionary-owner-preapproval-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-6/german-target-dictionary-rescan-6.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-6/german-target-dictionary-rescan-6.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-problematic/german-target-dictionary-rescan-problematic-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-problematic/german-target-dictionary-rescan-problematic.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-rescan-problematic/german-target-dictionary-rescan-problematic.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-search-32/german-target-dictionary-owner-proposals.csv",
+      "inOriginMain": false,
+      "extension": ".csv"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-search-32/german-target-dictionary-search-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-search-32/german-target-dictionary-search-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-dictionary-search-32/german-target-dictionary-search-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-pdf-bilingual-dictionary-discovery-32/pdf-bilingual-dictionary-discovery-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/german-target-pdf-bilingual-dictionary-discovery-32/pdf-bilingual-dictionary-discovery-32.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-alternatives-round4/pdf-bilingual-dictionary-bg-bs-alternatives-round4.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-alternatives-round4/pdf-bilingual-dictionary-bg-bs-alternatives-round4.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify/pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot/pdf-bilingual-dictionary-bg-bs-fr-pilot.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-pilot/pdf-bilingual-dictionary-bg-bs-fr-pilot.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-round2/pdf-bilingual-dictionary-bg-bs-fr-round2.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-fr-round2/pdf-bilingual-dictionary-bg-bs-fr-round2.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-scanned-round3/pdf-bilingual-dictionary-bg-bs-scanned-round3.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-bg-bs-scanned-round3/pdf-bilingual-dictionary-bg-bs-scanned-round3.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-cs-sk-uk-pilot/pdf-bilingual-dictionary-cs-sk-uk-modern-sources.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-cs-sk-uk-pilot/pdf-bilingual-dictionary-cs-sk-uk-modern-sources.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-discovery/pdf-bilingual-dictionary-hr-hu-is-discovery.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-discovery/pdf-bilingual-dictionary-hr-hu-is-discovery.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-pilot-verify/pdf-bilingual-dictionary-hr-hu-is-pilot-verify.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-hr-hu-is-pilot-verify/pdf-bilingual-dictionary-hr-hu-is-pilot-verify.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-discovery/pdf-bilingual-dictionary-it-mk-nl-discovery.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-discovery/pdf-bilingual-dictionary-it-mk-nl-discovery.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-pilot-verify/pdf-bilingual-dictionary-it-mk-nl-pilot-verify.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-it-mk-nl-pilot-verify/pdf-bilingual-dictionary-it-mk-nl-pilot-verify.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-modern-sources.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-modern-sources.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-pilot-verification.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "reports/g2-a1-production-current/pdf-bilingual-dictionary-lv-lt-pl-pilot/pdf-bilingual-dictionary-lv-lt-pl-pilot-verification.md",
+      "inOriginMain": false,
+      "extension": ".md"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/apply-master-additional-dictionary-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/apply-master-german-target-bilingual-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-de-et-bilingual-dictionary-used-sources.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-alternatives-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-owner-preapproval-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-registry.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-rescan-6.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-rescan-problematic.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-german-target-dictionary-search-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-alternatives-round4.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-fr-pilot-verify.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-fr-pilot.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-fr-round2.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-bg-bs-scanned-round3.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-cs-sk-uk-pilot.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-discovery-32-report.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-hr-hu-is-discovery.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-hr-hu-is-pilot-verify.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-it-mk-nl-discovery.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-pdf-bilingual-dictionary-it-mk-nl-pilot-verify.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-g2-a1-uk-bilingual-source-pilot.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/build-german-target-bilingual-dictionaries-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-fr-bg-bs.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-hr-hu-is.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-it-mk-nl.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-lv-lt-pl.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-uk.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/data/german-target-dictionary-de-et-used-sources.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/data/german-target-dictionary-rescan-6-candidates.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/data/german-target-dictionary-rescan-problematic-candidates.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/data/german-target-dictionary-search-overrides-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/data/master-additional-dictionary-sources-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/data/master-german-target-bilingual-dictionaries-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/data/master-german-target-pdf-bilingual-dictionaries-32.json",
+      "inOriginMain": false,
+      "extension": ".json"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/additional-dictionary-search-urls.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/card-translation-bilingual-collector.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/digar-de-et-bilingual-lookup.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/g2-a1-bilingual-de-sense-gate.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/g2-a1-bilingual-row-status.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/g2-a1-bilingual-validation-strict.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-alternative-catalog.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-alternatives-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-candidates.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-owner-preapproval-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-probes.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-registry.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-rescan-6.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-rescan-builder.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-rescan-problematic.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-search-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-search-catalog.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/german-target-dictionary-search-probe.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/master-additional-dictionary-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/lib/g2-a1-production-current/master-german-target-bilingual-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/run-g2-a1-complete-bilingual-validation-38.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/run-g2-a1-verify-additional-bilingual-38.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/verify-g2-a1-de-et-digar-bilingual.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/verify-g2-a1-german-target-bilingual-dictionaries-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-alternatives-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-owner-preapproval-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-registry.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-rescan-problematic.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/verify-g2-a1-german-target-dictionary-search-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    },
+    {
+      "ref": "origin/cursor/pdf-bilingual-it-mk-nl-discovery-17f5",
+      "path": "scripts/verify-g2-a1-master-additional-dictionary-32.js",
+      "inOriginMain": false,
+      "extension": ".js"
+    }
+  ],
+  "crowdinGlossaryCount": 0,
+  "crowdinFiles": [
+    {
+      "path": "crowdin/content/g2/lv-a1.json",
+      "bytes": 227618,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/bg.json",
+      "bytes": 24068,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/bs.json",
+      "bytes": 17769,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/cs.json",
+      "bytes": 18117,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/da.json",
+      "bytes": 17274,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/en.json",
+      "bytes": 17094,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/es.json",
+      "bytes": 18371,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/et.json",
+      "bytes": 17234,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/fi.json",
+      "bytes": 17197,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/fr.json",
+      "bytes": 18427,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/gr.json",
+      "bytes": 24776,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/hr.json",
+      "bytes": 17463,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/hu.json",
+      "bytes": 18740,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/is.json",
+      "bytes": 17221,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/it.json",
+      "bytes": 17241,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/lb.json",
+      "bytes": 18756,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/lt.json",
+      "bytes": 18441,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/lv.json",
+      "bytes": 18152,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/mk.json",
+      "bytes": 24225,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/nb.json",
+      "bytes": 17170,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/nl.json",
+      "bytes": 17193,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/nn.json",
+      "bytes": 17176,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/pl.json",
+      "bytes": 18029,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/pt.json",
+      "bytes": 17212,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/ro.json",
+      "bytes": 18350,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/ru.json",
+      "bytes": 24008,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/sk.json",
+      "bytes": 18101,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/sl.json",
+      "bytes": 17470,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/sq.json",
+      "bytes": 18531,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/sr.json",
+      "bytes": 17443,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/sv.json",
+      "bytes": 17190,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/tr.json",
+      "bytes": 17843,
+      "glossaryName": false
+    },
+    {
+      "path": "crowdin/ui/uk.json",
+      "bytes": 23282,
+      "glossaryName": false
+    }
+  ],
+  "registryCount": 33,
+  "registry": [
+    {
+      "n": "1",
+      "app": "bs",
+      "standard": "bs",
+      "language": "Bosniešu",
+      "institute": "Institut za jezik Univerziteta u Sarajevu",
+      "url": "https://izj.unsa.ba/"
+    },
+    {
+      "n": "2",
+      "app": "en",
+      "standard": "en",
+      "language": "Britu angļu",
+      "institute": "Oxford English Dictionary / Oxford Learner's Dictionaries",
+      "url": "https://www.oed.com/ ; https://www.oxfordlearnersdictionaries.com/"
+    },
+    {
+      "n": "3",
+      "app": "cs",
+      "standard": "cs",
+      "language": "Čehu",
+      "institute": "Ústav pro jazyk český AV ČR — Internetová jazyková příručka",
+      "url": "https://prirucka.ujc.cas.cz/"
+    },
+    {
+      "n": "4",
+      "app": "da",
+      "standard": "da",
+      "language": "Dāņu",
+      "institute": "Dansk Sprognævn — Retskrivningsordbogen",
+      "url": "https://ro.dsn.dk/"
+    },
+    {
+      "n": "5",
+      "app": "et",
+      "standard": "et",
+      "language": "Igauņu",
+      "institute": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+      "url": "https://sonaveeb.ee/"
+    },
+    {
+      "n": "6",
+      "app": "es",
+      "standard": "es",
+      "language": "Spāņu",
+      "institute": "Real Academia Española — DLE / Ortografía",
+      "url": "https://dle.rae.es/ ; https://www.rae.es/ortografia"
+    },
+    {
+      "n": "7",
+      "app": "fr",
+      "standard": "fr",
+      "language": "Franču",
+      "institute": "Académie française — Dictionnaire de l’Académie française",
+      "url": "https://www.dictionnaire-academie.fr/"
+    },
+    {
+      "n": "8",
+      "app": "hr",
+      "standard": "hr",
+      "language": "Horvātu",
+      "institute": "Institut za hrvatski jezik — Hrvatski pravopis",
+      "url": "https://pravopis.hr/"
+    },
+    {
+      "n": "9",
+      "app": "is",
+      "standard": "is",
+      "language": "Islandiešu",
+      "institute": "Stofnun Árna Magnússonar — BÍN / Málið.is",
+      "url": "https://bin.arnastofnun.is/ ; https://malid.is/"
+    },
+    {
+      "n": "10",
+      "app": "it",
+      "standard": "it",
+      "language": "Itāļu",
+      "institute": "Accademia della Crusca",
+      "url": "https://accademiadellacrusca.it/"
+    },
+    {
+      "n": "11",
+      "app": "lv",
+      "standard": "lv",
+      "language": "Latviešu",
+      "institute": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+      "url": "https://valoda.lv/ ; https://mlvv.tezaurs.lv/ ; https://tezaurs.lv/"
+    },
+    {
+      "n": "12",
+      "app": "lb",
+      "standard": "lb",
+      "language": "Luksemburgiešu",
+      "institute": "Zenter fir d'Lëtzebuerger Sprooch — LOD",
+      "url": "https://zls.lu/ ; https://lod.lu/"
+    },
+    {
+      "n": "13",
+      "app": "lt",
+      "standard": "lt",
+      "language": "Lietuviešu",
+      "institute": "Lietuvių kalbos institutas + VLKK",
+      "url": "https://lki.lt/ ; https://vlkk.lt/"
+    },
+    {
+      "n": "14",
+      "app": "hu",
+      "standard": "hu",
+      "language": "Ungāru",
+      "institute": "HUN-REN Nyelvtudományi Kutatóközpont",
+      "url": "https://nytud.hu/"
+    },
+    {
+      "n": "15",
+      "app": "nl",
+      "standard": "nl",
+      "language": "Nīderlandiešu",
+      "institute": "Nederlandse Taalunie — Woordenlijst Nederlandse Taal",
+      "url": "https://taalunie.org/ ; https://woordenlijst.org/"
+    },
+    {
+      "n": "16",
+      "app": "nb",
+      "standard": "nb",
+      "language": "Norvēģu Bokmål",
+      "institute": "Språkrådet / Bokmålsordboka",
+      "url": "https://sprakradet.no/ ; https://ordbokene.no/bm"
+    },
+    {
+      "n": "17",
+      "app": "nn",
+      "standard": "nn",
+      "language": "Norvēģu Nynorsk",
+      "institute": "Språkrådet / Nynorskordboka",
+      "url": "https://sprakradet.no/ ; https://ordbokene.no/nn"
+    },
+    {
+      "n": "18",
+      "app": "pl",
+      "standard": "pl",
+      "language": "Poļu",
+      "institute": "Rada Języka Polskiego + WSJP PAN",
+      "url": "https://rjp.pan.pl/ ; https://wsjp.pl/"
+    },
+    {
+      "n": "19",
+      "app": "pt",
+      "standard": "pt",
+      "language": "Portugāļu",
+      "institute": "Academia das Ciências de Lisboa",
+      "url": "https://www.acad-ciencias.pt/ ; https://dicionario.acad-ciencias.pt/"
+    },
+    {
+      "n": "20",
+      "app": "ro",
+      "standard": "ro",
+      "language": "Rumāņu",
+      "institute": "Academia Română / Institutul de Lingvistică — DOOM",
+      "url": "https://acad.ro/ ; https://lingv.ro/ ; https://doom.lingv.ro/"
+    },
+    {
+      "n": "21",
+      "app": "sq",
+      "standard": "sq",
+      "language": "Albāņu",
+      "institute": "Akademia e Shkencave e Shqipërisë",
+      "url": "https://akad.gov.al/"
+    },
+    {
+      "n": "22",
+      "app": "sk",
+      "standard": "sk",
+      "language": "Slovāku",
+      "institute": "Jazykovedný ústav Ľudovíta Štúra SAV",
+      "url": "https://www.juls.savba.sk/ ; https://slovnik.juls.savba.sk/"
+    },
+    {
+      "n": "23",
+      "app": "sl",
+      "standard": "sl",
+      "language": "Slovēņu",
+      "institute": "ZRC SAZU — FRAN",
+      "url": "https://www.zrc-sazu.si/ ; https://fran.si/"
+    },
+    {
+      "n": "24",
+      "app": "sr",
+      "standard": "sr",
+      "language": "Serbu",
+      "institute": "Institut za srpski jezik SANU + Matica srpska",
+      "url": "https://www.isj.sanu.ac.rs/ ; https://www.maticasrpska.org.rs/"
+    },
+    {
+      "n": "25",
+      "app": "fi",
+      "standard": "fi",
+      "language": "Somu",
+      "institute": "Kotimaisten kielten keskus — Kielitoimiston sanakirja",
+      "url": "https://www.kotus.fi/ ; https://www.kielitoimistonsanakirja.fi/"
+    },
+    {
+      "n": "26",
+      "app": "sv",
+      "standard": "sv",
+      "language": "Zviedru",
+      "institute": "Svenska Akademien — SAOL / SO / SAOB",
+      "url": "https://www.svenskaakademien.se/ ; https://svenska.se/"
+    },
+    {
+      "n": "27",
+      "app": "tr",
+      "standard": "tr",
+      "language": "Turku",
+      "institute": "Türk Dil Kurumu — Güncel Türkçe Sözlük / Yazım Kılavuzu",
+      "url": "https://tdk.gov.tr/ ; https://sozluk.gov.tr/"
+    },
+    {
+      "n": "28",
+      "app": "gr",
+      "standard": "el",
+      "language": "Grieķu",
+      "institute": "Κέντρο Ελληνικής Γλώσσας",
+      "url": "https://www.greek-language.gr/"
+    },
+    {
+      "n": "29",
+      "app": "bg",
+      "standard": "bg",
+      "language": "Bulgāru",
+      "institute": "Институт за български език, БАН — Официален правописен речник",
+      "url": "https://ibl.bas.bg/ ; https://beron.mon.bg/"
+    },
+    {
+      "n": "30",
+      "app": "mk",
+      "standard": "mk",
+      "language": "Maķedoniešu",
+      "institute": "Институт за македонски јазик „Крсте Мисирков“",
+      "url": "https://imj.ukim.edu.mk/"
+    },
+    {
+      "n": "31",
+      "app": "ru",
+      "standard": "ru",
+      "language": "Krievu",
+      "institute": "Институт русского языка им. В. В. Виноградова РАН",
+      "url": "https://ruslang.ru/ ; https://orfo.ruslang.ru/"
+    },
+    {
+      "n": "32",
+      "app": "uk",
+      "standard": "uk",
+      "language": "Ukraiņu",
+      "institute": "Інститут української мови НАН України + Український правопис",
+      "url": "https://iul-nasu.org.ua/ ; https://mon.gov.ua/osvita-2/zagalna-serednya-osvita/ukrainskiy-pravopis"
+    },
+    {
+      "n": "33",
+      "app": "de",
+      "standard": "de",
+      "language": "Vācu",
+      "institute": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+      "url": "https://www.rechtschreibrat.com/ ; https://www.goethe.de/ ; https://www.duden.de/ ; https://grammis.ids-mannheim.de/rechtschreibung ; https://www.dwds.de/"
+    }
+  ],
+  "g2": [
+    {
+      "lang": "nn",
+      "id": "ia-bsb-helms-dano-nor-de-11752747",
+      "title": "Neues vollständiges Wörterbuch der dänisch-norwegischen und deutschen Sprache (Helms, BSB/IA 11752747)",
+      "publisher": "Svenn Henrik Helms; BSB / MDZ + IA OCR",
+      "year": "",
+      "direction": "de↔no-historical",
+      "role": "primary",
+      "group": "primaryDigitized",
+      "accessType": "Internet Archive OCR (MDZ IIIF viewer)",
+      "locationKey": "viewerUrl",
+      "location": "https://www.digitale-sammlungen.de/de/view/bsb11752747?page=1",
+      "rejected": false,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "nn",
+      "id": "snorre-sbr-24",
+      "title": "SNORRE terminology wordlist (Språkbanken oai-nb-no-sbr-24 / Standard Norge)",
+      "publisher": "Standard Norge / Språkbanken (NB)",
+      "year": "2013",
+      "direction": "de↔nn-terminology",
+      "role": "modern_institutional_terminology",
+      "group": "modernInstitutional",
+      "accessType": "Tab-separated open wordlist (DE / NN / EN / FR parallel terms)",
+      "locationKey": "downloadUrl",
+      "location": "https://www.nb.no/sbfil/leksikalske_databaser/snorre.tar.gz",
+      "rejected": false,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "nn",
+      "id": "mdz-kaper-dano-nor-de-1889",
+      "title": "Dänisch-norwegisch-deutsches Hand-Wörterbuch (Kaper, 1889, BSB 11642917)",
+      "publisher": "",
+      "year": "",
+      "direction": "de↔no-historical",
+      "role": "supplement_reserve",
+      "group": "supplementaryReserve",
+      "accessType": "",
+      "locationKey": "viewerUrl",
+      "location": "https://www.digitale-sammlungen.de/de/view/bsb11642917?page=1",
+      "rejected": false,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "nn",
+      "id": "ia-hanson-tysk-norsk-1840",
+      "title": "Tysk-Norsk haand-ordbog (Hanson, 1840, IA)",
+      "publisher": "",
+      "year": "",
+      "direction": "de→nn-historical",
+      "role": "supplement_reserve",
+      "group": "supplementaryReserve",
+      "accessType": "",
+      "locationKey": "viewerUrl",
+      "location": "https://archive.org/details/bub_gb_cl5HAAAAYAAJ",
+      "rejected": false,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "nn",
+      "id": "dinordbok-tysk-nynorsk-web",
+      "title": "DinOrdbok Tysk–Nynorsk (crowd-sourced web)",
+      "publisher": "",
+      "year": "",
+      "direction": "de↔nn",
+      "role": "supplementary_control_not_authoritative",
+      "group": "supplementaryControlOnly",
+      "accessType": "",
+      "locationKey": "portalUrl",
+      "location": "https://www.dinordbok.se/tysk-nynorsk/",
+      "rejected": false,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "nn",
+      "id": "ia-helms-swedish-vol2-m0hU",
+      "title": "Helms vol. 2 (IA bub_gb_M0hUAAAAcAAJ)",
+      "publisher": "",
+      "year": "",
+      "direction": "",
+      "role": "rejectedNotUsable",
+      "group": "rejectedNotUsable",
+      "accessType": "",
+      "locationKey": "",
+      "location": "",
+      "rejected": true,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "nn",
+      "id": "ia-aasen-norsk-ordbog-monolingual",
+      "title": "Aasen Norsk Ordbog 1873 (MDZ bsb11009926)",
+      "publisher": "",
+      "year": "",
+      "direction": "",
+      "role": "rejectedNotUsable",
+      "group": "rejectedNotUsable",
+      "accessType": "",
+      "locationKey": "",
+      "location": "",
+      "rejected": true,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "pt",
+      "id": "ia-torchtrop-de-pt-1943",
+      "title": "Dicionário Alemão–Português (Leonardo Torchtrop, 1943 / Globo)",
+      "publisher": "Leonardo Torchtrop / Editora Globo; IA mirror",
+      "year": "1943",
+      "direction": "de→pt",
+      "role": "primary",
+      "group": "primaryDigitized",
+      "accessType": "Internet Archive PDF + OCR",
+      "locationKey": "pdfUrl",
+      "location": "https://archive.org/download/DICIONARIOALEMAOPORTUGUESLEONARDOTORCHTROP/DICIONARIO%20ALEMAO-PORTUGUES%20LEONARDO%20TORCHTROP.pdf",
+      "rejected": false,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "pt",
+      "id": "ia-wagener-de-pt-1812-v1",
+      "title": "Wagener — Deutsch–Portugiesisch (1812, IA ZfhD vol. 1)",
+      "publisher": "",
+      "year": "",
+      "direction": "de→pt",
+      "role": "supplement_reserve",
+      "group": "supplementaryReserve",
+      "accessType": "",
+      "locationKey": "viewerUrl",
+      "location": "https://archive.org/details/bub_gb_ZfhDAAAAcAAJ",
+      "rejected": false,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "pt",
+      "id": "ia-wagener-de-pt-1812-v2",
+      "title": "Wagener — Deutsch–Portugiesisch (1812, IA SplL vol. 2)",
+      "publisher": "",
+      "year": "",
+      "direction": "de→pt",
+      "role": "supplement_reserve",
+      "group": "supplementaryReserve",
+      "accessType": "",
+      "locationKey": "viewerUrl",
+      "location": "https://archive.org/details/bub_gb_SplLAAAAcAAJ",
+      "rejected": false,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "pt",
+      "id": "ia-dicionario-moderno-de-pt-pt-de",
+      "title": "Dicionário Alemão–Português / Português–Alemão (IA DicionrioAlemoPortugus, ~2018)",
+      "publisher": "",
+      "year": "",
+      "direction": "de↔pt",
+      "role": "supplement_clean_ocr",
+      "group": "supplementaryReserve",
+      "accessType": "",
+      "locationKey": "viewerUrl",
+      "location": "https://archive.org/details/DicionrioAlemoPortugus",
+      "rejected": false,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "pt",
+      "id": "ia-michaelis-escolar-borrow",
+      "title": "Michaelis dicionário escolar (IA)",
+      "publisher": "",
+      "year": "",
+      "direction": "",
+      "role": "rejectedNotUsable",
+      "group": "rejectedNotUsable",
+      "accessType": "",
+      "locationKey": "",
+      "location": "",
+      "rejected": true,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "ro",
+      "id": "ia-barcianu-de-ro-bidir-1886",
+      "title": "Dicționar român-germân și germân-român (Barcianu, 1886)",
+      "publisher": "Sab. Pop. Barcianu / Sibiu; Google–IA",
+      "year": "1886",
+      "direction": "de↔ro",
+      "role": "primary",
+      "group": "primaryDigitized",
+      "accessType": "Internet Archive PDF + OCR",
+      "locationKey": "viewerUrl",
+      "location": "https://archive.org/details/wrterbuchderrom00barcgoog",
+      "rejected": false,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "ro",
+      "id": "tdrg3-solirom-ro-de",
+      "title": "Tiktin TDRG³ — Dicționar român-german (Miron / Lüder, 2000–2005)",
+      "publisher": "Academia Română / CLRE solirom",
+      "year": "2000–2005",
+      "direction": "ro→de",
+      "role": "modern_primary_ro_headword",
+      "group": "modernInstitutional",
+      "accessType": "Open digital edition (TEI/HTML entries)",
+      "locationKey": "portalUrl",
+      "location": "https://tdrg.solirom.ro/",
+      "rejected": false,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "ro",
+      "id": "ia-tiktin-ro-de-historical",
+      "title": "Tiktin Rumänisch-deutsches Wörterbuch (IA bub_gb_mCoTAAAAYAAJ)",
+      "publisher": "",
+      "year": "",
+      "direction": "ro→de",
+      "role": "supplement_reserve",
+      "group": "supplementaryReserve",
+      "accessType": "",
+      "locationKey": "viewerUrl",
+      "location": "https://archive.org/details/bub_gb_mCoTAAAAYAAJ",
+      "rejected": false,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "ro",
+      "id": "ia-alexi-ro-de-1906",
+      "title": "Alexi Rumänisch-deutsches Wörterbuch (1906, IA)",
+      "publisher": "",
+      "year": "",
+      "direction": "ro→de",
+      "role": "supplement_reserve",
+      "group": "supplementaryReserve",
+      "accessType": "",
+      "locationKey": "viewerUrl",
+      "location": "https://archive.org/details/rumnischdeutsch00alexgoog",
+      "rejected": false,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    },
+    {
+      "lang": "ro",
+      "id": "ia-alexi-de-ro-503",
+      "title": "Alexi Dicționar german-român (separate vol., IA)",
+      "publisher": "",
+      "year": "",
+      "direction": "",
+      "role": "rejectedNotUsable",
+      "group": "rejectedNotUsable",
+      "accessType": "",
+      "locationKey": "",
+      "location": "",
+      "rejected": true,
+      "registryFile": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
+      "pronunciation": "nav zināms",
+      "officialOrCommercial": "reģistrs nenorāda; authorPublisher ir atsevišķs lauks"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "bg",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 29",
+      "authority_institute": "Институт за български език, БАН — Официален правописен речник",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "bs",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 1",
+      "authority_institute": "Institut za jezik Univerziteta u Sarajevu",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "cs",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 3",
+      "authority_institute": "Ústav pro jazyk český AV ČR — Internetová jazyková příručka",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "da",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 4",
+      "authority_institute": "Dansk Sprognævn — Retskrivningsordbogen",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "en",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 2",
+      "authority_institute": "Oxford English Dictionary / Oxford Learner's Dictionaries",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "es",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 6",
+      "authority_institute": "Real Academia Española — DLE / Ortografía",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "et",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 5",
+      "authority_institute": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "fi",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 25",
+      "authority_institute": "Kotimaisten kielten keskus — Kielitoimiston sanakirja",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "fr",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 7",
+      "authority_institute": "Académie française — Dictionnaire de l’Académie française",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "gr",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 28",
+      "authority_institute": "Κέντρο Ελληνικής Γλώσσας",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "hr",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 8",
+      "authority_institute": "Institut za hrvatski jezik — Hrvatski pravopis",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "hu",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 14",
+      "authority_institute": "HUN-REN Nyelvtudományi Kutatóközpont",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "is",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 9",
+      "authority_institute": "Stofnun Árna Magnússonar — BÍN / Málið.is",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "it",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 10",
+      "authority_institute": "Accademia della Crusca",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "lb",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 12",
+      "authority_institute": "Zenter fir d'Lëtzebuerger Sprooch — LOD",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "lt",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 13",
+      "authority_institute": "Lietuvių kalbos institutas + VLKK",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "mk",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 30",
+      "authority_institute": "Институт за македонски јазик „Крсте Мисирков“",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "nb",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 16",
+      "authority_institute": "Språkrådet / Bokmålsordboka",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "nl",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 15",
+      "authority_institute": "Nederlandse Taalunie — Woordenlijst Nederlandse Taal",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "nn",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 17",
+      "authority_institute": "Språkrådet / Nynorskordboka",
+      "bilingual_source_type": "A",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "G2 reģistra ieraksti: ia-bsb-helms-dano-nor-de-11752747, snorre-sbr-24, mdz-kaper-dano-nor-de-1889, ia-hanson-tysk-norsk-1840, dinordbok-tysk-nynorsk-web. Fails repozitorijā nav."
+    },
+    {
+      "lang": "pl",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 18",
+      "authority_institute": "Rada Języka Polskiego + WSJP PAN",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "pt",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 19",
+      "authority_institute": "Academia das Ciências de Lisboa",
+      "bilingual_source_type": "A",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "G2 reģistra ieraksti: ia-torchtrop-de-pt-1943, ia-wagener-de-pt-1812-v1, ia-wagener-de-pt-1812-v2, ia-dicionario-moderno-de-pt-pt-de. Fails repozitorijā nav."
+    },
+    {
+      "lang": "ro",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 20",
+      "authority_institute": "Academia Română / Institutul de Lingvistică — DOOM",
+      "bilingual_source_type": "A",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "G2 reģistra ieraksti: ia-barcianu-de-ro-bidir-1886, tdrg3-solirom-ro-de, ia-tiktin-ro-de-historical, ia-alexi-ro-de-1906. Fails repozitorijā nav."
+    },
+    {
+      "lang": "ru",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 31",
+      "authority_institute": "Институт русского языка им. В. В. Виноградова РАН",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "sk",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 22",
+      "authority_institute": "Jazykovedný ústav Ľudovíta Štúra SAV",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "sl",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 23",
+      "authority_institute": "ZRC SAZU — FRAN",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "sq",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 21",
+      "authority_institute": "Akademia e Shkencave e Shqipërisë",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "sr",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 24",
+      "authority_institute": "Institut za srpski jezik SANU + Matica srpska",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "sv",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 26",
+      "authority_institute": "Svenska Akademien — SAOL / SO / SAOB",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "tr",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 27",
+      "authority_institute": "Türk Dil Kurumu — Güncel Türkçe Sözlük / Yazım Kılavuzu",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    },
+    {
+      "lang": "uk",
+      "DE_X_file_in_repo": "nē",
+      "registry_entry": "jā, 32",
+      "authority_institute": "Інститут української мови НАН України + Український правопис",
+      "bilingual_source_type": "B",
+      "text_layer": "nav faila",
+      "pronunciation": "nav zināms",
+      "notes": "DE↔X fails un DE↔X reģistra ieraksts šajā kokā nav. Ir institūta vienvalodas reģistra rinda."
+    }
+  ]
+}
