@@ -409,3 +409,12 @@ Skaits: **282**. Ar `data/` vai `www/data/` izmaiņām pret jauno main: **45**. 
 | 8 | docs+audit-skripts+cits | nē | jā |
 | 4 | docs+audit-skripts+cits | nē | jā |
 | 3 | docs+audit-skripts+cits | nē | jā |
+
+## Atvēršanai un lejupielādei
+
+Saites ved uz satura komitu `bf504f844e5aa920531da18c8a8c4603224e69b7`.
+
+- SUMMARY blob: https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/bf504f844e5aa920531da18c8a8c4603224e69b7/reports/main-merge/SUMMARY.md
+- SUMMARY raw: https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/bf504f844e5aa920531da18c8a8c4603224e69b7/reports/main-merge/SUMMARY.md
+- MANIFEST blob: https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/bf504f844e5aa920531da18c8a8c4603224e69b7/reports/main-merge/MANIFEST.md
+- MANIFEST raw: https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/bf504f844e5aa920531da18c8a8c4603224e69b7/reports/main-merge/MANIFEST.md

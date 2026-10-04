@@ -323,3 +323,12 @@ Skaits 282. data/ vai www/data/ = 45. konfliktē = 74. nav diff = 51.
 | 4 | Dzēst "Jaukt secību" pogu, ieviest automātisku sesijas sajaukšanu | docs+audit-skripts+cits | nē | jā | main | cursor/remove-shuffle-button-auto-shuffle-ba93 |
 | 3 | Melns fons + peldošo vārdu fona animācijas noņemšana | docs+audit-skripts+cits | nē | jā | main | cursor/black-background-remove-word-rain-0435 |
 
+
+## Atvēršanai un lejupielādei
+
+Saites ved uz satura komitu `bf504f844e5aa920531da18c8a8c4603224e69b7`.
+
+- SUMMARY blob: https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/bf504f844e5aa920531da18c8a8c4603224e69b7/reports/main-merge/SUMMARY.md
+- SUMMARY raw: https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/bf504f844e5aa920531da18c8a8c4603224e69b7/reports/main-merge/SUMMARY.md
+- MANIFEST blob: https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/bf504f844e5aa920531da18c8a8c4603224e69b7/reports/main-merge/MANIFEST.md
+- MANIFEST raw: https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/bf504f844e5aa920531da18c8a8c4603224e69b7/reports/main-merge/MANIFEST.md
