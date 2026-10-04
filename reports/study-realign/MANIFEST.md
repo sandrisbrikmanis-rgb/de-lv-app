@@ -21,7 +21,7 @@
 
 Satura commits: `fef0f3fc213abcd4d507cf3c8aed9ffdb561747c`
 
-- [SUMMARY.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/SUMMARY.md) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/SUMMARY.md)
+- [SUMMARY.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/21fb0e53ff0ee2413120fe384411cdce15b4d2a5/reports/study-realign/SUMMARY.md) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/21fb0e53ff0ee2413120fe384411cdce15b4d2a5/reports/study-realign/SUMMARY.md)
 - [verification.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/verification.md) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/verification.md)
 - [blocking-rows.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/blocking-rows.csv) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/blocking-rows.csv)
 - [needs-translation.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/needs-translation.csv) · [raw](https://github.com/sandrisbrikmanis-rgb/de-lv-app/raw/fef0f3fc213abcd4d507cf3c8aed9ffdb561747c/reports/study-realign/needs-translation.csv)
