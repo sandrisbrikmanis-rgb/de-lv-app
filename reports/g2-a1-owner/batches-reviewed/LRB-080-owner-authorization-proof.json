@@ -1,0 +1,25 @@
+{
+  "batch_id": "LRB-080",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-14T15:28:00.000Z",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "languages": {
+    "pt": 50
+  },
+  "unique_cards": 50,
+  "scope": "lassen..wie (50 PT) — full-card COPY-PASTE remont + post-repair GALA",
+  "linguisticVerdict": "LRB_080_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "productionSource": "data/pt/a1.js (read-only review)",
+  "note": "GALA PASS. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged.",
+  "galaPassAt": "2026-09-14T16:00:00.000Z",
+  "verifiedCommit": "bd116a015ac42d60b51c3083d35c337c9426eb02",
+  "overridesSha256": "be29b35415bc10cd89cbcaa62183608b6434f1481a864eb0d2011d614fccb9d9",
+  "antiBulkPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50
+}

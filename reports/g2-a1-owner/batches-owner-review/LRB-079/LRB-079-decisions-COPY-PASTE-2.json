@@ -1,0 +1,1108 @@
+{
+  "batchId": "LRB-079",
+  "decisionType": "OWNER_EXACT_COPY_PASTE",
+  "correctionRound": 2,
+  "sourceCommit": "2b415f1f4a0cb6459eb6aae7370f54076bdf0ada",
+  "ownerAuthorizationStatus": "APPROVED",
+  "linguisticVerdict": "FAIL_REQUIRES_COPY_PASTE_REPAIR",
+  "rowsReviewed": "50/50",
+  "fullGalaCardsReviewed": "50/50",
+  "affectedRowCount": 20,
+  "contentReplacementCount": 44,
+  "rowNoteReplacementCount": 20,
+  "findings": {
+    "canonicalSource": "data/a1.js",
+    "sourceExampleAlignmentBefore": "206/217",
+    "sourceComparisonAlignmentBefore": "87/100",
+    "exactMappingDrift": "present"
+  },
+  "content_replacements": [
+    {
+      "auditId": "LRB079-0001",
+      "cardId": "bringen|idx:111",
+      "path": "new.study.explanation",
+      "current": [
+        "Ideia principal: bringen significa trazer, levar ou entregar algo a alguém, dependendo do contexto.",
+        "Usamos bringen quando alguém transporta algo ou alguém até um destino ou até outra pessoa.",
+        "Bringen não é o mesmo que nehmen, que significa pegar ou levar consigo.",
+        "Holen significa buscar ou ir pegar algo e voltar com isso.",
+        "A tradução exata depende do contexto."
+      ],
+      "new": [
+        "Ideia principal: bringen significa transportar ou levar algo ou alguém até outra pessoa ou destino.",
+        "Em português, pode corresponder a trazer, levar ou entregar, conforme o ponto de vista e o contexto.",
+        "Não confunda bringen com nehmen: nehmen significa pegar ou tomar algo para si.",
+        "A tradução exata depende do contexto."
+      ]
+    },
+    {
+      "auditId": "LRB079-0001",
+      "cardId": "bringen|idx:111",
+      "path": "new.study.examples",
+      "current": [
+        {
+          "de": "Ich bringe dir ein Buch.",
+          "lv": "Eu trago um livro para você."
+        },
+        {
+          "de": "Ich bringe das Paket zur Post.",
+          "lv": "Eu levo o pacote aos correios."
+        },
+        {
+          "de": "Ich bringe die Kinder zur Schule.",
+          "lv": "Eu levo as crianças à escola."
+        },
+        {
+          "de": "Ich nehme das Buch.",
+          "lv": "Eu pego o livro."
+        }
+      ],
+      "new": [
+        {
+          "de": "Ich bringe dir ein Buch.",
+          "lv": "Eu trago um livro para você."
+        },
+        {
+          "de": "Ich bringe das Paket zur Post.",
+          "lv": "Eu levo o pacote aos correios."
+        },
+        {
+          "de": "Ich bringe die Kinder zur Schule.",
+          "lv": "Eu levo as crianças à escola."
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0001",
+      "cardId": "bringen|idx:111",
+      "path": "new.study.comparison",
+      "current": [
+        {
+          "word": "bringen",
+          "meaning": "trazer • levar • entregar",
+          "example": "Ich bringe dir ein Buch. – Eu trago um livro para você."
+        },
+        {
+          "word": "nehmen",
+          "meaning": "pegar • levar consigo",
+          "example": "Ich nehme das Buch. – Eu pego o livro."
+        },
+        {
+          "word": "holen",
+          "meaning": "buscar • ir pegar",
+          "example": "Ich hole Wasser. – Eu vou buscar água."
+        }
+      ],
+      "new": [
+        {
+          "word": "bringen",
+          "meaning": "trazer",
+          "example": "Ich bringe dir ein Buch. – Eu trago um livro para você."
+        },
+        {
+          "word": "bringen",
+          "meaning": "levar um objeto",
+          "example": "Ich bringe das Paket zur Post. – Eu levo o pacote aos correios."
+        },
+        {
+          "word": "bringen",
+          "meaning": "levar uma pessoa",
+          "example": "Ich bringe die Kinder zur Schule. – Eu levo as crianças à escola."
+        },
+        {
+          "word": "bringen",
+          "meaning": "entregar • transportar até um destino",
+          "example": "Ich bringe dir ein Buch. – Eu trago um livro para você."
+        },
+        {
+          "word": "nehmen",
+          "meaning": "pegar • tomar",
+          "example": "Ich nehme das Buch. – Eu pego o livro."
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0001",
+      "cardId": "bringen|idx:111",
+      "path": "new.study.important",
+      "current": [
+        "Bringen pode ser traduzido como trazer ou levar, conforme o ponto de vista e o contexto.",
+        "Não confunda bringen com holen: holen enfatiza ir buscar algo."
+      ],
+      "new": [
+        "nehmen significa pegar ou tomar.",
+        "bringen significa transportar, levar ou entregar até outra pessoa ou destino.",
+        "A tradução portuguesa depende do contexto."
+      ]
+    },
+    {
+      "auditId": "LRB079-0002",
+      "cardId": "da|idx:126",
+      "path": "new.study.examples",
+      "current": [
+        {
+          "de": "Da ist mein Auto.",
+          "lv": "Meu carro está ali."
+        },
+        {
+          "de": "Ich war da.",
+          "lv": "Eu estive lá."
+        },
+        {
+          "de": "Da kommt er.",
+          "lv": "Lá vem ele."
+        }
+      ],
+      "new": [
+        {
+          "de": "Da ist mein Auto.",
+          "lv": "Meu carro está ali."
+        },
+        {
+          "de": "Ich war da.",
+          "lv": "Eu estive lá."
+        },
+        {
+          "de": "Da kommt er.",
+          "lv": "Lá vem ele."
+        },
+        {
+          "de": "Komm mal da her!",
+          "lv": "Venha aqui!"
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0002",
+      "cardId": "da|idx:126",
+      "path": "new.study.comparison",
+      "current": [
+        {
+          "word": "da",
+          "meaning": "lá • aí",
+          "example": "Da ist mein Buch. – Meu livro está ali."
+        },
+        {
+          "word": "hier",
+          "meaning": "aqui",
+          "example": "Ich bin hier. – Estou aqui."
+        },
+        {
+          "word": "dort",
+          "meaning": "lá • ali",
+          "example": "Dort steht ein Haus. – Há uma casa lá."
+        }
+      ],
+      "new": [
+        {
+          "word": "da",
+          "meaning": "lá • aí • aqui, de modo geral",
+          "example": "Da ist mein Auto. – Meu carro está ali."
+        },
+        {
+          "word": "hier",
+          "meaning": "aqui, num lugar específico",
+          "example": "Hier ist mein Auto. – Meu carro está aqui."
+        },
+        {
+          "word": "dort",
+          "meaning": "lá, mais distante",
+          "example": "Dort ist mein Auto. – Meu carro está lá."
+        },
+        {
+          "word": "dann",
+          "meaning": "então • depois",
+          "example": "Dann gehen wir nach Hause. – Depois vamos para casa."
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0009",
+      "cardId": "ein|idx:154",
+      "path": "new.study.comparison",
+      "current": [
+        {
+          "word": "ein Mann",
+          "meaning": "um homem",
+          "example": "Ein Mann wartet draußen. – Um homem está esperando lá fora."
+        },
+        {
+          "word": "eine Frau",
+          "meaning": "uma mulher",
+          "example": "Eine Frau wartet draußen. – Uma mulher está esperando lá fora."
+        },
+        {
+          "word": "ein Buch",
+          "meaning": "um livro",
+          "example": "Ich habe ein Buch. – Eu tenho um livro."
+        },
+        {
+          "word": "einen Mann",
+          "meaning": "um homem no acusativo",
+          "example": "Ich sehe einen Mann. – Eu vejo um homem."
+        }
+      ],
+      "new": [
+        {
+          "word": "ein Mann",
+          "meaning": "gênero masculino",
+          "example": "Ein Mann wartet draußen. – Um homem está esperando lá fora."
+        },
+        {
+          "word": "eine Frau",
+          "meaning": "gênero feminino",
+          "example": "eine Frau – uma mulher"
+        },
+        {
+          "word": "ein Buch",
+          "meaning": "gênero neutro",
+          "example": "Ich habe ein Buch. – Eu tenho um livro."
+        },
+        {
+          "word": "einen Mann",
+          "meaning": "acusativo masculino",
+          "example": "einen Mann – um homem no acusativo"
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0011",
+      "cardId": "erst|idx:165",
+      "path": "new.lv",
+      "current": "Apenas • primeiro",
+      "new": "apenas • primeiro"
+    },
+    {
+      "auditId": "LRB079-0011",
+      "cardId": "erst|idx:165",
+      "path": "new.study.translation",
+      "current": "Apenas • primeiro",
+      "new": "apenas • primeiro"
+    },
+    {
+      "auditId": "LRB079-0012",
+      "cardId": "es|idx:167",
+      "path": "new.study.examples",
+      "current": [
+        {
+          "de": "Es regnet.",
+          "pt": "Está chovendo."
+        },
+        {
+          "de": "Es ist kalt.",
+          "pt": "Está frio."
+        },
+        {
+          "de": "Das Kind schläft.",
+          "pt": "A criança está dormindo.",
+          "lv": "A criança está dormindo."
+        },
+        {
+          "de": "Es ist müde.",
+          "pt": "Ela está cansada.",
+          "lv": "Ela está cansada."
+        }
+      ],
+      "new": [
+        {
+          "de": "Es regnet.",
+          "lv": "Está chovendo."
+        },
+        {
+          "de": "Es ist kalt.",
+          "lv": "Está frio."
+        },
+        {
+          "de": "Das Kind schläft.",
+          "lv": "A criança está dormindo."
+        },
+        {
+          "de": "Es ist müde.",
+          "lv": "Ela está cansada."
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0012",
+      "cardId": "es|idx:167",
+      "path": "new.study.comparison[0].meaning",
+      "current": "isso • pronome impessoal",
+      "new": "ele • ela • isso • pronome impessoal"
+    },
+    {
+      "auditId": "LRB079-0012",
+      "cardId": "es|idx:167",
+      "path": "new.study.important",
+      "current": [
+        "Es pode significar “isso” ou funcionar como pronome impessoal.",
+        "Em frases sobre o clima, es geralmente não tem uma tradução direta.",
+        "Ich significa “eu”, enquanto es é uma palavra diferente."
+      ],
+      "new": [
+        "Es pode retomar um substantivo neutro e ser traduzido como ele ou ela, conforme o gênero da palavra em português.",
+        "Es também pode significar isso ou funcionar como pronome impessoal.",
+        "Em frases sobre o clima, es geralmente não tem tradução direta.",
+        "Ich significa eu; es é uma palavra diferente."
+      ]
+    },
+    {
+      "auditId": "LRB079-0013",
+      "cardId": "essen|idx:690",
+      "path": "new.study.examples",
+      "current": [
+        {
+          "de": "Ich esse gern Pizza.",
+          "pt": "Gosto de comer pizza."
+        },
+        {
+          "de": "Was wollt ihr essen?",
+          "pt": "O que vocês querem comer?"
+        },
+        {
+          "de": "Wir essen um 12 Uhr.",
+          "pt": "Nós comemos ao meio-dia."
+        },
+        {
+          "de": "Das Essen ist fertig.",
+          "pt": "A comida está pronta."
+        },
+        {
+          "de": "Das Essen schmeckt sehr gut.",
+          "pt": "A comida está muito gostosa."
+        }
+      ],
+      "new": [
+        {
+          "de": "Ich esse gern Pizza.",
+          "lv": "Gosto de comer pizza."
+        },
+        {
+          "de": "Was wollt ihr essen?",
+          "lv": "O que vocês querem comer?"
+        },
+        {
+          "de": "Wir essen um 12 Uhr.",
+          "lv": "Nós comemos ao meio-dia."
+        },
+        {
+          "de": "Das Essen ist fertig.",
+          "lv": "A comida está pronta."
+        },
+        {
+          "de": "Das Essen schmeckt sehr gut.",
+          "lv": "A comida está muito gostosa."
+        },
+        {
+          "de": "Das Essen schmeckt gut.",
+          "lv": "A comida está gostosa."
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0014",
+      "cardId": "Essen|idx:691",
+      "path": "new.study.examples",
+      "current": [
+        {
+          "de": "Das Essen schmeckt gut.",
+          "lv": "A comida está saborosa.",
+          "pt": "A comida está saborosa."
+        },
+        {
+          "de": "Was wollt ihr essen?",
+          "lv": "O que vocês querem comer?",
+          "pt": "O que vocês querem comer?"
+        },
+        {
+          "de": "Wir essen um 12 Uhr.",
+          "lv": "Nós comemos ao meio-dia.",
+          "pt": "Nós comemos ao meio-dia."
+        }
+      ],
+      "new": [
+        {
+          "de": "Das Essen schmeckt gut.",
+          "lv": "A comida está saborosa."
+        },
+        {
+          "de": "Was wollt ihr essen?",
+          "lv": "O que vocês querem comer?"
+        },
+        {
+          "de": "Wir essen um 12 Uhr.",
+          "lv": "Nós comemos ao meio-dia."
+        },
+        {
+          "de": "Das Essen ist fertig.",
+          "lv": "A comida está pronta."
+        },
+        {
+          "de": "Das Essen schmeckt sehr gut.",
+          "lv": "A comida está muito saborosa."
+        },
+        {
+          "de": "Das Essen schmeckt gut.",
+          "lv": "A comida está saborosa."
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0014",
+      "cardId": "Essen|idx:691",
+      "path": "new.study.comparison",
+      "current": [
+        {
+          "word": "das Essen",
+          "meaning": "a comida • a refeição",
+          "example": "Das Essen ist fertig. = A comida está pronta."
+        },
+        {
+          "word": "essen",
+          "meaning": "comer",
+          "example": "Wir essen um zwölf Uhr. = Nós comemos ao meio-dia."
+        }
+      ],
+      "new": []
+    },
+    {
+      "auditId": "LRB079-0014",
+      "cardId": "Essen|idx:691",
+      "path": "new.study.important",
+      "current": [
+        "Das Essen é um substantivo neutro e significa “a comida” ou “a refeição”.",
+        "Essen como substantivo é escrito com inicial maiúscula.",
+        "Essen não é normalmente usado no plural quando significa comida em geral."
+      ],
+      "new": [
+        "essen é um verbo e não leva artigo.",
+        "das Essen não é o mesmo que essen.",
+        "Ação: essen; comida ou refeição: das Essen."
+      ]
+    },
+    {
+      "auditId": "LRB079-0018",
+      "cardId": "Ferien|idx:694",
+      "path": "new.study.examples",
+      "current": [
+        {
+          "de": "In den Ferien fahren wir ans Meer.",
+          "lv": "Nas férias, vamos para o litoral.",
+          "pt": "Nas férias, vamos para o litoral."
+        },
+        {
+          "de": "In den Ferien habe ich viel Zeit.",
+          "lv": "Nas férias, tenho muito tempo.",
+          "pt": "Nas férias, tenho muito tempo."
+        },
+        {
+          "de": "Was macht ihr in den Ferien?",
+          "lv": "O que vocês fazem nas férias?",
+          "pt": "O que vocês fazem nas férias?"
+        }
+      ],
+      "new": [
+        {
+          "de": "In den Ferien fahren wir ans Meer.",
+          "lv": "Nas férias, vamos para o litoral."
+        },
+        {
+          "de": "In den Ferien habe ich viel Zeit.",
+          "lv": "Nas férias, tenho muito tempo."
+        },
+        {
+          "de": "Was macht ihr in den Ferien?",
+          "lv": "O que vocês fazem nas férias?"
+        },
+        {
+          "de": "Die Schule ist in den Ferien zu.",
+          "lv": "A escola fica fechada durante as férias."
+        },
+        {
+          "de": "In den Ferien fahren wir ans Meer.",
+          "lv": "Nas férias, vamos para o litoral."
+        },
+        {
+          "de": "In den Ferien",
+          "lv": "nas férias escolares"
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0018",
+      "cardId": "Ferien|idx:694",
+      "path": "new.study.comparison",
+      "current": [
+        {
+          "word": "die Ferien",
+          "meaning": "férias escolares",
+          "example": "Die Ferien sind lang. = As férias são longas."
+        },
+        {
+          "word": "der Urlaub",
+          "meaning": "férias • licença",
+          "example": "Ich habe im August Urlaub. = Estou de férias em agosto."
+        }
+      ],
+      "new": [
+        {
+          "word": "die Ferien",
+          "meaning": "férias escolares ou universitárias; somente plural",
+          "example": "In den Ferien fahren wir weg. – Nas férias, viajamos."
+        },
+        {
+          "word": "der Urlaub",
+          "meaning": "férias ou licença do trabalho; normalmente singular",
+          "example": "Ich habe zwei Wochen Urlaub. – Tenho duas semanas de férias."
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0018",
+      "cardId": "Ferien|idx:694",
+      "path": "new.study.important",
+      "current": [
+        "Ferien é normalmente usado no plural: die Ferien.",
+        "A palavra se refere principalmente às férias escolares ou universitárias.",
+        "Não confunda Ferien com feriados isolados, que são Feiertage."
+      ],
+      "new": [
+        "Ferien é usado no plural: die Ferien.",
+        "A palavra se refere principalmente às férias escolares ou universitárias.",
+        "Usa-se in den Ferien, com dativo plural; não in der Ferien."
+      ]
+    },
+    {
+      "auditId": "LRB079-0020",
+      "cardId": "Fernsehen|idx:688",
+      "path": "new.study.examples",
+      "current": [
+        {
+          "de": "Was gibt es heute im Fernsehen?",
+          "lv": "O que vai passar hoje na televisão?",
+          "pt": "O que vai passar hoje na televisão?"
+        },
+        {
+          "de": "Was gibt es heute im Fernsehen?",
+          "lv": "O que vai passar hoje na televisão?",
+          "pt": "O que vai passar hoje na televisão?"
+        },
+        {
+          "de": "Im Fernsehen läuft ein Film.",
+          "lv": "Está passando um filme na televisão.",
+          "pt": "Está passando um filme na televisão."
+        }
+      ],
+      "new": [
+        {
+          "de": "Was gibt es heute im Fernsehen?",
+          "lv": "O que vai passar hoje na televisão?"
+        },
+        {
+          "de": "Was gibt es heute im Fernsehen?",
+          "lv": "O que vai passar hoje na televisão?"
+        },
+        {
+          "de": "Im Fernsehen läuft ein Film.",
+          "lv": "Está passando um filme na televisão."
+        },
+        {
+          "de": "Das Fernsehen ist heute langweilig.",
+          "lv": "A programação da televisão está entediante hoje."
+        },
+        {
+          "de": "Ich sehe heute Abend fern.",
+          "lv": "Vou assistir à televisão hoje à noite."
+        },
+        {
+          "de": "Was gibt es im Fernsehen?",
+          "lv": "O que está passando na televisão?"
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0021",
+      "cardId": "finden|idx:187",
+      "path": "new.study.comparison",
+      "current": [
+        {
+          "word": "finden",
+          "meaning": "encontrar • achar",
+          "example": "Ich finde meinen Schlüssel. – Eu encontro minha chave."
+        }
+      ],
+      "new": [
+        {
+          "word": "finden",
+          "meaning": "encontrar • achar",
+          "example": "Ich finde das gut. – Eu acho isso bom."
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0022",
+      "cardId": "Frau|idx:198",
+      "path": "new.study.comparison",
+      "current": [
+        {
+          "word": "Frau",
+          "meaning": "mulher • esposa",
+          "example": "Das ist meine Frau. – Esta é minha esposa."
+        },
+        {
+          "word": "Mann",
+          "meaning": "homem • marido",
+          "example": "Das ist mein Mann. – Este é meu marido."
+        }
+      ],
+      "new": []
+    },
+    {
+      "auditId": "LRB079-0023",
+      "cardId": "für|idx:216",
+      "path": "new.lv",
+      "current": "para",
+      "new": "para • por"
+    },
+    {
+      "auditId": "LRB079-0023",
+      "cardId": "für|idx:216",
+      "path": "new.study.translation",
+      "current": "para",
+      "new": "para • por"
+    },
+    {
+      "auditId": "LRB079-0023",
+      "cardId": "für|idx:216",
+      "path": "new.study.explanation",
+      "current": [
+        "für é uma preposição que geralmente significa para.",
+        "Usa-se für para indicar destinatário ou finalidade.",
+        "Também se usa für ao falar de preço, troca ou duração.",
+        "für rege o acusativo em alemão."
+      ],
+      "new": [
+        "Für é uma preposição que sempre rege o acusativo.",
+        "Para indicar destinatário ou finalidade, geralmente corresponde a para: für dich = para você.",
+        "Em contextos de agradecimento, preço, troca ou motivo, frequentemente corresponde a por, pelo ou pela: Danke für die Hilfe = Obrigado pela ajuda.",
+        "A tradução depende do contexto, mas o caso alemão continua sendo o acusativo."
+      ]
+    },
+    {
+      "auditId": "LRB079-0023",
+      "cardId": "für|idx:216",
+      "path": "new.study.comparison",
+      "current": [
+        {
+          "word": "für",
+          "meaning": "para",
+          "example": "Das ist für dich. – Isso é para você."
+        }
+      ],
+      "new": []
+    },
+    {
+      "auditId": "LRB079-0023",
+      "cardId": "für|idx:216",
+      "path": "new.study.tip",
+      "current": [
+        "für geralmente corresponde a para em português e sempre rege o acusativo."
+      ],
+      "new": [
+        "für sempre rege o acusativo, independentemente da tradução.",
+        "Destinatário ou finalidade → para; agradecimento, preço, troca ou motivo → por, pelo ou pela."
+      ]
+    },
+    {
+      "auditId": "LRB079-0023",
+      "cardId": "für|idx:216",
+      "path": "new.study.important",
+      "current": [
+        "für = para; não confunda com vor, que geralmente significa diante de ou há, no tempo."
+      ],
+      "new": [
+        "für + acusativo: für mich, für dich, für das Kind.",
+        "danke für e bezahlen für normalmente correspondem a agradecer por e pagar por."
+      ]
+    },
+    {
+      "auditId": "LRB079-0024",
+      "cardId": "Fußball|idx:218",
+      "path": "new.study.translation",
+      "current": "futebol",
+      "new": "futebol • bola de futebol"
+    },
+    {
+      "auditId": "LRB079-0028",
+      "cardId": "Gemüse|idx:692",
+      "path": "new.study.examples",
+      "current": [
+        {
+          "de": "Ich esse gern Gemüse.",
+          "lv": "Eu gosto de comer legumes."
+        },
+        {
+          "de": "Ich esse gern Gemüse.",
+          "lv": "Eu gosto de comer legumes."
+        },
+        {
+          "de": "Das Gemüse ist frisch.",
+          "lv": "Os legumes estão frescos."
+        }
+      ],
+      "new": [
+        {
+          "de": "Ich esse gern Gemüse.",
+          "lv": "Eu gosto de comer legumes."
+        },
+        {
+          "de": "Ich esse gern Gemüse.",
+          "lv": "Eu gosto de comer legumes."
+        },
+        {
+          "de": "Das Gemüse ist frisch.",
+          "lv": "Os legumes estão frescos."
+        },
+        {
+          "de": "Wir kaufen Gemüse auf dem Markt.",
+          "lv": "Compramos legumes no mercado."
+        },
+        {
+          "de": "Ich mag Obst und Gemüse.",
+          "lv": "Gosto de frutas e legumes."
+        },
+        {
+          "de": "Ich esse Gemüse.",
+          "lv": "Eu como legumes."
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0028",
+      "cardId": "Gemüse|idx:692",
+      "path": "new.study.comparison",
+      "current": [
+        {
+          "word": "das Gemüse",
+          "meaning": "legumes • verduras em geral",
+          "example": "Das Gemüse ist frisch. – Os legumes estão frescos."
+        }
+      ],
+      "new": []
+    },
+    {
+      "auditId": "LRB079-0028",
+      "cardId": "Gemüse|idx:692",
+      "path": "new.study.important",
+      "current": [
+        "das Gemüse é normalmente usado no singular em alemão."
+      ],
+      "new": [
+        "das Gemüse é normalmente usado no singular em alemão.",
+        "Não se diz die Gemüse; a forma correta é das Gemüse.",
+        "das Gemüse refere-se a legumes e verduras em geral."
+      ]
+    },
+    {
+      "auditId": "LRB079-0029",
+      "cardId": "Geschichte|idx:233",
+      "path": "new.lv",
+      "current": "história",
+      "new": "história • narrativa"
+    },
+    {
+      "auditId": "LRB079-0039",
+      "cardId": "hoch|idx:285",
+      "path": "new.study.tip",
+      "current": [
+        "hoch = alto.",
+        "Use hoch para altura vertical, níveis e valores elevados."
+      ],
+      "new": [
+        "Use hoch para altura vertical ou para valores e níveis elevados.",
+        "Para a altura de uma pessoa, geralmente use groß, não hoch."
+      ]
+    },
+    {
+      "auditId": "LRB079-0039",
+      "cardId": "hoch|idx:285",
+      "path": "new.study.important",
+      "current": [
+        "hoch pode descrever altura, preços e outros níveis elevados.",
+        "hoch = alto/elevado."
+      ],
+      "new": [
+        "Der Berg ist hoch = A montanha é alta.",
+        "Er ist groß = Ele é alto.",
+        "Para a altura de uma pessoa, normalmente não se usa hoch."
+      ]
+    },
+    {
+      "auditId": "LRB079-0045",
+      "cardId": "klein|idx:6",
+      "path": "new.study.explanation",
+      "current": [
+        "Klein significa pequeno em tamanho, dimensão ou extensão.",
+        "Pode descrever objetos, lugares, animais e pessoas de baixa estatura."
+      ],
+      "new": [
+        "Klein significa pequeno em tamanho, extensão, quantidade ou idade.",
+        "Pode descrever um objeto, um ambiente, uma quantidade ou uma criança.",
+        "O sentido exato depende do substantivo e do contexto."
+      ]
+    },
+    {
+      "auditId": "LRB079-0045",
+      "cardId": "klein|idx:6",
+      "path": "new.study.examples",
+      "current": [
+        {
+          "de": "Das Zimmer ist klein.",
+          "lv": "O quarto é pequeno."
+        },
+        {
+          "de": "Das Kind ist noch klein.",
+          "lv": "A criança ainda é pequena."
+        },
+        {
+          "de": "Ich habe eine kleine Tasche.",
+          "lv": "Eu tenho uma bolsa pequena."
+        },
+        {
+          "de": "Ich habe eine kleine Tasche.",
+          "lv": "Eu tenho uma bolsa pequena."
+        },
+        {
+          "de": "Das Kind ist klein.",
+          "lv": "A criança é pequena."
+        }
+      ],
+      "new": [
+        {
+          "de": "Das Zimmer ist klein.",
+          "lv": "O quarto é pequeno."
+        },
+        {
+          "de": "Das Kind ist noch klein.",
+          "lv": "A criança ainda é pequena."
+        },
+        {
+          "de": "Ich habe eine kleine Tasche.",
+          "lv": "Eu tenho uma bolsa pequena."
+        }
+      ]
+    },
+    {
+      "auditId": "LRB079-0045",
+      "cardId": "klein|idx:6",
+      "path": "new.study.tip",
+      "current": [
+        "Klein = pequeno; use-o para tamanho ou extensão reduzida."
+      ],
+      "new": [
+        "klein = pequeno.",
+        "Quando descreve uma criança, klein também pode se referir à pouca idade."
+      ]
+    },
+    {
+      "auditId": "LRB079-0045",
+      "cardId": "klein|idx:6",
+      "path": "new.study.important",
+      "current": [
+        "Klein significa pequeno em tamanho.",
+        "O antônimo de klein é groß: pequeno ↔ grande."
+      ],
+      "new": [
+        "Klein geralmente significa pequeno.",
+        "Ao falar de uma criança, klein também pode indicar pouca idade."
+      ]
+    },
+    {
+      "auditId": "LRB079-0046",
+      "cardId": "können|idx:319",
+      "path": "new.study.tip",
+      "new": {
+        "text": "Capacidade ou possibilidade → können."
+      }
+    },
+    {
+      "auditId": "LRB079-0046",
+      "cardId": "können|idx:319",
+      "path": "new.study.important",
+      "new": [
+        "können não é o mesmo que dürfen: können significa poder ou saber fazer; dürfen significa ter permissão.",
+        "Com können, o segundo verbo normalmente fica no final, no infinitivo: Ich kann schwimmen."
+      ]
+    },
+    {
+      "auditId": "LRB079-0047",
+      "cardId": "kosten|idx:320",
+      "path": "new.study.tip",
+      "new": [
+        "Para perguntar ou indicar um preço, use kosten: Was kostet das?",
+        "Para realizar um pagamento, use bezahlen ou zahlen: Ich bezahle die Rechnung."
+      ]
+    },
+    {
+      "auditId": "LRB079-0047",
+      "cardId": "kosten|idx:320",
+      "path": "new.study.important",
+      "new": [
+        "kosten e bezahlen não são sinônimos: kosten indica quanto algo custa; bezahlen indica pagar dinheiro.",
+        "Em português, custar e pagar também devem ser escolhidos conforme a situação."
+      ]
+    },
+    {
+      "auditId": "LRB079-0049",
+      "cardId": "Land|idx:351",
+      "path": "new.study.tip",
+      "new": {
+        "text": "Lembre-se: país ou campo → das Land; cidade → die Stadt."
+      }
+    }
+  ],
+  "row_note_replacements": [
+    {
+      "auditId": "LRB079-0001",
+      "cardId": "bringen|idx:111",
+      "current": "Corrijo os exemplos deslocados de bringen e identifico corretamente nehmen e holen na comparação.",
+      "new": "Restauro os três exemplos e as cinco comparações do LV→DE source; removo os contrastes acrescentados com holen e preservo bringen versus nehmen."
+    },
+    {
+      "auditId": "LRB079-0002",
+      "cardId": "da|idx:126",
+      "current": "Corrijo as três traduções de exemplo de da para que correspondam exatamente às frases alemãs.",
+      "new": "Restauro o quarto exemplo e a quarta comparação de da e mantenho exatamente os exemplos alemães do LV→DE source."
+    },
+    {
+      "auditId": "LRB079-0009",
+      "cardId": "ein|idx:154",
+      "current": "Corrijo ein para artigo indefinido e substituo as traduções adulteradas por exemplos portugueses semanticamente fiéis.",
+      "new": "Restauro os fragmentos alemães originais nas comparações de ein, eine e einen."
+    },
+    {
+      "auditId": "LRB079-0011",
+      "cardId": "erst|idx:165",
+      "current": "Para o DE “erst”, corrigi os resíduos letões e substituí a tradução corrompida por “apenas • primeiro”, com exemplos portugueses coerentes com os dois sentidos.",
+      "new": "Normalizo o título e a tradução de erst em minúsculas."
+    },
+    {
+      "auditId": "LRB079-0012",
+      "cardId": "es|idx:167",
+      "current": "Corrijo es como pronome neutro e impessoal e realinho os exemplos Das Kind schläft e Es ist müde.",
+      "new": "Removo aliases técnicos não autorizados, alinho toda a matriz de exemplos e torno o sentido pronominal coerente em toda a carta."
+    },
+    {
+      "auditId": "LRB079-0013",
+      "cardId": "essen|idx:690",
+      "current": "Para o DE “essen”, corrigi “Esse” para o infinitivo português “comer” e substituí todas as explicações e exemplos contaminados por letão por conteúdo sobre a ação de comer.",
+      "new": "Restauro o sexto exemplo, repetido no LV→DE source, e normalizo a chave do texto-alvo."
+    },
+    {
+      "auditId": "LRB079-0014",
+      "cardId": "Essen|idx:691",
+      "current": "Corrijo as três traduções deslocadas do cartão nominal Essen e mantenho a distinção com o verbo essen.",
+      "new": "Restauro os seis exemplos do source, retiro uma seção comparison inexistente no source e preservo a distinção Essen versus essen."
+    },
+    {
+      "auditId": "LRB079-0018",
+      "cardId": "Ferien|idx:694",
+      "current": "Mantenho férias escolares no plural e realinho as três traduções dos exemplos alemães.",
+      "new": "Restauro os seis exemplos e os exemplos alemães originais da comparação Ferien versus Urlaub; retiro conteúdo extra e preservo o dativo plural."
+    },
+    {
+      "auditId": "LRB079-0020",
+      "cardId": "Fernsehen|idx:688",
+      "current": "Corrijo as traduções deslocadas nos exemplos de Fernsehen, preservando o substantivo televisão.",
+      "new": "Restauro os seis exemplos do LV→DE source para o substantivo Fernsehen."
+    },
+    {
+      "auditId": "LRB079-0021",
+      "cardId": "finden|idx:187",
+      "current": "Explicito no título os dois usos ensinados de finden: encontrar e achar.",
+      "new": "Restauro o exemplo alemão original da comparação de finden."
+    },
+    {
+      "auditId": "LRB079-0022",
+      "cardId": "Frau|idx:198",
+      "current": "Explicito no título os dois sentidos ensinados de Frau: mulher e esposa.",
+      "new": "Retiro a seção comparison acrescentada, inexistente no cartão LV→DE source."
+    },
+    {
+      "auditId": "LRB079-0023",
+      "cardId": "für|idx:216",
+      "current": "Para a preposição alemã für, foram substituídos os falsos cognatos e trechos em letão por equivalentes portugueses coerentes com para.",
+      "new": "Restauro para e por, retiro conteúdo extra e preservo acusativo, finalidade, preço, troca e motivo sem comparison acrescentada."
+    },
+    {
+      "auditId": "LRB079-0024",
+      "cardId": "Fußball|idx:218",
+      "current": "Explicito no título os sentidos de Fußball como esporte e como bola de futebol.",
+      "new": "Alinho study.translation com os dois sentidos já corretos do título: esporte e bola de futebol."
+    },
+    {
+      "auditId": "LRB079-0028",
+      "cardId": "Gemüse|idx:692",
+      "current": "Corrijo as traduções deslocadas e duplicadas nos exemplos de Gemüse.",
+      "new": "Restauro os seis exemplos do source, retiro comparison acrescentada e preservo a regra de singular de das Gemüse."
+    },
+    {
+      "auditId": "LRB079-0029",
+      "cardId": "Geschichte|idx:233",
+      "current": "Para o substantivo alemão Geschichte, refinei a tradução para distinguir história, narrativa e disciplina, eliminando a duplicação semântica.",
+      "new": "Alinho o título com os sentidos história e narrativa ensinados na carta."
+    },
+    {
+      "auditId": "LRB079-0039",
+      "cardId": "hoch|idx:285",
+      "current": "DE “hoch” tinha a tradução portuguesa errada “Agosto” e vários exemplos em letão; corrigi para ‘alto’ e distingui altura física de preços e aluguel elevados.",
+      "new": "Restauro o contraste obrigatório hoch versus groß para a altura de pessoas."
+    },
+    {
+      "auditId": "LRB079-0045",
+      "cardId": "klein|idx:6",
+      "current": "Realinho todas as traduções de klein e restauro o quinto exemplo DE omitido.",
+      "new": "Restauro exatamente os três exemplos do source e o sentido de pouca idade de klein; retiro exemplos e contraste acrescentados."
+    },
+    {
+      "auditId": "LRB079-0046",
+      "cardId": "können|idx:319",
+      "current": "Corrijo DE “können” para “poder/saber fazer”, substituindo explicações contaminadas e mantendo a diferença entre capacidade, permissão, obrigação e conhecimento.",
+      "new": "Restauro tip e important com a diferença können versus dürfen e a posição do infinitivo modal."
+    },
+    {
+      "auditId": "LRB079-0047",
+      "cardId": "kosten|idx:320",
+      "current": "Corrijo DE “kosten” para “custar”, separando o preço indicado por kosten do ato de pagar expresso por bezahlen ou zahlen.",
+      "new": "Restauro tip e important com o contraste kosten versus bezahlen ou zahlen."
+    },
+    {
+      "auditId": "LRB079-0049",
+      "cardId": "Land|idx:351",
+      "current": "Completo DE “Land” com os sentidos portugueses “país, terra e campo”, corrigindo exemplos e comparações que continham letão ou traduções inadequadas.",
+      "new": "Restauro o tip do source com o contraste Land versus Stadt."
+    }
+  ],
+  "constraints": {
+    "currentExactMatchRequired": true,
+    "onMismatch": "SKIP_TARGET_AND_REPORT",
+    "cursorLinguisticAnalysis": "FORBIDDEN",
+    "productionChanges": "FORBIDDEN",
+    "deSourceChanges": "FORBIDDEN",
+    "crowdinChanges": "FORBIDDEN",
+    "ingestApply": "FORBIDDEN",
+    "scriptChanges": "FORBIDDEN",
+    "otherBatchChanges": "FORBIDDEN",
+    "galaPass": "FORBIDDEN_BEFORE_OWNER_POST_REPAIR_REVIEW"
+  },
+  "requiredPostApplyState": {
+    "decisions": "50 LABOT / 0 NELABOT / 0 PENDING",
+    "sourceExampleAlignment": "217/217",
+    "sourceComparisonAlignment": "100/100",
+    "currentValueMismatch": 0,
+    "failed": 0,
+    "galaPass": false,
+    "linguisticVerdict": null,
+    "status": "OWNER_COPY_PASTE_CORRECTION_2_APPLIED_AWAITING_GALA_REVIEW"
+  }
+}
+

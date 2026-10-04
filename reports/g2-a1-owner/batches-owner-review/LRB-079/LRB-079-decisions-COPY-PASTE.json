@@ -1,0 +1,238 @@
+{
+  "batchId": "LRB-079",
+  "decisionType": "OWNER_EXACT_COPY_PASTE",
+  "sourceCommit": "46d1c25852501ef200ba76d01038c6ed476aae54",
+  "ownerAuthorizationStatus": "APPROVED",
+  "linguisticVerdict": "FAIL_REQUIRES_COPY_PASTE_REPAIR",
+  "rowsReviewed": "50/50",
+  "fullGalaCardsReviewed": "50/50",
+  "affectedRowCount": 21,
+  "contentReplacementCount": 36,
+  "rowNoteReplacementCount": 21,
+  "content_replacements": [
+    {
+      "auditId": "LRB079-0001",
+      "cardId": "bringen|idx:111",
+      "path": "new.study.examples",
+      "current": [
+        {"de": "Ich bringe dir ein Buch.", "lv": "Eu trago um livro para você."},
+        {"de": "Ich bringe das Paket zur Post.", "lv": "Traga-me água."},
+        {"de": "Ich bringe die Kinder zur Schule.", "lv": "Eu levo o pacote aos correios."},
+        {"de": "Ich nehme das Buch.", "lv": "Eu levo as crianças à escola."}
+      ],
+      "new": [
+        {"de": "Ich bringe dir ein Buch.", "lv": "Eu trago um livro para você."},
+        {"de": "Ich bringe das Paket zur Post.", "lv": "Eu levo o pacote aos correios."},
+        {"de": "Ich bringe die Kinder zur Schule.", "lv": "Eu levo as crianças à escola."},
+        {"de": "Ich nehme das Buch.", "lv": "Eu pego o livro."}
+      ]
+    },
+    {"auditId": "LRB079-0001", "cardId": "bringen|idx:111", "path": "new.study.comparison[1].word", "current": "bringen", "new": "nehmen"},
+    {"auditId": "LRB079-0001", "cardId": "bringen|idx:111", "path": "new.study.comparison[2].word", "current": "bringen", "new": "holen"},
+    {
+      "auditId": "LRB079-0002",
+      "cardId": "da|idx:126",
+      "path": "new.study.examples",
+      "current": [
+        {"de": "Da ist mein Auto.", "lv": "Meu livro está ali."},
+        {"de": "Ich war da.", "lv": "Estou aí."},
+        {"de": "Da kommt er.", "lv": "Há uma casa ali."}
+      ],
+      "new": [
+        {"de": "Da ist mein Auto.", "lv": "Meu carro está ali."},
+        {"de": "Ich war da.", "lv": "Eu estive lá."},
+        {"de": "Da kommt er.", "lv": "Lá vem ele."}
+      ]
+    },
+    {"auditId": "LRB079-0003", "cardId": "das|idx:129", "path": "new.lv", "current": "artigo definido neutro", "new": "artigo definido neutro • isso • isto"},
+    {"auditId": "LRB079-0003", "cardId": "das|idx:129", "path": "new.study.translation", "current": "artigo definido neutro", "new": "artigo definido neutro • isso • isto"},
+    {
+      "auditId": "LRB079-0003",
+      "cardId": "das|idx:129",
+      "path": "new.study.examples",
+      "current": [
+        {"de": "Das ist mein Auto.", "lv": "O livro é interessante."},
+        {"de": "Das ist gut.", "lv": "Este é o meu carro."},
+        {"de": "Das Buch, das ich lese, ist interessant.", "lv": "O livro que estou lendo é interessante."}
+      ],
+      "new": [
+        {"de": "Das ist mein Auto.", "lv": "Este é o meu carro."},
+        {"de": "Das ist gut.", "lv": "Isso é bom."},
+        {"de": "Das Buch, das ich lese, ist interessant.", "lv": "O livro que estou lendo é interessante."}
+      ]
+    },
+    {"auditId": "LRB079-0006", "cardId": "die|idx:137", "path": "new.study.examples[2].lv", "current": "A professora explica a tarefa.", "new": "A professora explica."},
+    {"auditId": "LRB079-0007", "cardId": "dieser|idx:139", "path": "new.study.tip.text", "current": "No nominativo masculino, šis corresponde a dieser: Dieser Mann.", "new": "No nominativo masculino, este corresponde a dieser: Dieser Mann."},
+    {"auditId": "LRB079-0012", "cardId": "es|idx:167", "path": "new.lv", "current": "isso • pronome impessoal", "new": "ele • ela • isso • pronome impessoal"},
+    {"auditId": "LRB079-0012", "cardId": "es|idx:167", "path": "new.study.translation", "current": "isso • pronome impessoal", "new": "ele • ela • isso • pronome impessoal"},
+    {"auditId": "LRB079-0012", "cardId": "es|idx:167", "path": "new.study.explanation[1]", "current": "Pode significar isso ou ser usado em construções impessoais.", "new": "Pode retomar um substantivo neutro, sendo traduzido como ele ou ela conforme o gênero da palavra em português; também pode significar isso ou ser usado em construções impessoais."},
+    {"auditId": "LRB079-0012", "cardId": "es|idx:167", "path": "new.study.examples[2].pt", "current": "A criança está dormindo. Ela está cansada.", "new": "A criança está dormindo."},
+    {"auditId": "LRB079-0012", "cardId": "es|idx:167", "path": "new.study.examples[3].pt", "current": "Está nevando.", "new": "Ela está cansada."},
+    {
+      "auditId": "LRB079-0014",
+      "cardId": "Essen|idx:691",
+      "path": "new.study.examples",
+      "current": [
+        {"de": "Das Essen schmeckt gut.", "pt": "A comida está pronta."},
+        {"de": "Was wollt ihr essen?", "pt": "A comida está gostosa."},
+        {"de": "Wir essen um 12 Uhr.", "pt": "Nós preparamos a refeição."}
+      ],
+      "new": [
+        {"de": "Das Essen schmeckt gut.", "pt": "A comida está saborosa."},
+        {"de": "Was wollt ihr essen?", "pt": "O que vocês querem comer?"},
+        {"de": "Wir essen um 12 Uhr.", "pt": "Nós comemos ao meio-dia."}
+      ]
+    },
+    {"auditId": "LRB079-0016", "cardId": "euch|idx:170", "path": "new.lv", "current": "vocês • a vocês", "new": "vocês • a vocês • se"},
+    {"auditId": "LRB079-0016", "cardId": "euch|idx:170", "path": "new.study.translation", "current": "vocês • a vocês", "new": "vocês • a vocês • se"},
+    {"auditId": "LRB079-0016", "cardId": "euch|idx:170", "path": "new.study.explanation[1]", "current": "Pode significar “vocês” como objeto direto ou “a vocês” como objeto indireto.", "new": "Pode significar “vocês” como objeto direto, “a vocês” como objeto indireto ou “se” quando é reflexivo."},
+    {"auditId": "LRB079-0016", "cardId": "euch|idx:170", "path": "new.study.tip.text", "current": "Euch é usado quando “vocês” recebe a ação ou é o destinatário dela.", "new": "Euch é usado quando “vocês” recebe a ação, é o destinatário dela ou aparece em uma construção reflexiva."},
+    {"auditId": "LRB079-0016", "cardId": "euch|idx:170", "path": "new.study.important[1]", "current": "A tradução depende da função: “vocês” no acusativo e “a vocês” no dativo.", "new": "A tradução depende da função: “vocês” no acusativo, “a vocês” no dativo e “se” no uso reflexivo."},
+    {
+      "auditId": "LRB079-0018",
+      "cardId": "Ferien|idx:694",
+      "path": "new.study.examples",
+      "current": [
+        {"de": "In den Ferien fahren wir ans Meer.", "pt": "As férias começam amanhã."},
+        {"de": "In den Ferien habe ich viel Zeit.", "pt": "Nas férias, vou para o litoral."},
+        {"de": "Was macht ihr in den Ferien?", "pt": "Quando são as férias de verão?"}
+      ],
+      "new": [
+        {"de": "In den Ferien fahren wir ans Meer.", "pt": "Nas férias, vamos para o litoral."},
+        {"de": "In den Ferien habe ich viel Zeit.", "pt": "Nas férias, tenho muito tempo."},
+        {"de": "Was macht ihr in den Ferien?", "pt": "O que vocês fazem nas férias?"}
+      ]
+    },
+    {
+      "auditId": "LRB079-0020",
+      "cardId": "Fernsehen|idx:688",
+      "path": "new.study.examples",
+      "current": [
+        {"de": "Was gibt es heute im Fernsehen?", "pt": "O que vai passar hoje na televisão?"},
+        {"de": "Was gibt es heute im Fernsehen?", "pt": "Está passando um filme na televisão."},
+        {"de": "Im Fernsehen läuft ein Film.", "pt": "A programação da televisão está chata hoje."}
+      ],
+      "new": [
+        {"de": "Was gibt es heute im Fernsehen?", "pt": "O que vai passar hoje na televisão?"},
+        {"de": "Was gibt es heute im Fernsehen?", "pt": "O que vai passar hoje na televisão?"},
+        {"de": "Im Fernsehen läuft ein Film.", "pt": "Está passando um filme na televisão."}
+      ]
+    },
+    {"auditId": "LRB079-0021", "cardId": "finden|idx:187", "path": "new.lv", "current": "encontrar", "new": "encontrar • achar"},
+    {"auditId": "LRB079-0022", "cardId": "Frau|idx:198", "path": "new.lv", "current": "mulher", "new": "mulher • esposa"},
+    {"auditId": "LRB079-0024", "cardId": "Fußball|idx:218", "path": "new.lv", "current": "futebol", "new": "futebol • bola de futebol"},
+    {"auditId": "LRB079-0025", "cardId": "ganz|idx:219", "path": "new.lv", "current": "inteiro", "new": "inteiro • completamente • bastante"},
+    {
+      "auditId": "LRB079-0028",
+      "cardId": "Gemüse|idx:692",
+      "path": "new.study.examples",
+      "current": [
+        {"de": "Ich esse gern Gemüse.", "lv": "Eu gosto de comer legumes."},
+        {"de": "Ich esse gern Gemüse.", "lv": "Os legumes estão frescos."},
+        {"de": "Das Gemüse ist frisch.", "lv": "Nós compramos legumes no mercado."}
+      ],
+      "new": [
+        {"de": "Ich esse gern Gemüse.", "lv": "Eu gosto de comer legumes."},
+        {"de": "Ich esse gern Gemüse.", "lv": "Eu gosto de comer legumes."},
+        {"de": "Das Gemüse ist frisch.", "lv": "Os legumes estão frescos."}
+      ]
+    },
+    {"auditId": "LRB079-0041", "cardId": "ins|idx:296", "path": "new.lv", "current": "Dentro • para dentro • para onde?", "new": "para dentro de"},
+    {"auditId": "LRB079-0041", "cardId": "ins|idx:296", "path": "new.study.translation", "current": "Dentro • para dentro • para onde?", "new": "para dentro de"},
+    {"auditId": "LRB079-0042", "cardId": "jung|idx:304", "path": "new.lv", "current": "jovem (para pessoas e animais)", "new": "jovem"},
+    {"auditId": "LRB079-0043", "cardId": "kein|idx:308", "path": "new.lv", "current": "nenhum • nenhum tipo de", "new": "nenhum • nenhuma"},
+    {
+      "auditId": "LRB079-0044",
+      "cardId": "kennen|idx:310",
+      "path": "new.study.examples",
+      "current": [
+        {"de": "Ich kenne ihn.", "lv": "Eu o conheço."},
+        {"de": "Kennen Sie diese Frau?", "lv": "O senhor conhece esta mulher?"},
+        {"de": "Wo habt ihr euch kennengelernt?", "lv": "Onde vocês se conheceram?"},
+        {"de": "Ich kenne ihn.", "lv": "Eu o conheço bem."},
+        {"de": "kennen", "lv": "Eu conheço esta cidade."},
+        {"de": "kennen", "lv": "conhecer"}
+      ],
+      "new": [
+        {"de": "Ich kenne ihn.", "lv": "Eu o conheço."},
+        {"de": "Kennen Sie diese Frau?", "lv": "O senhor conhece esta mulher?"},
+        {"de": "Wo habt ihr euch kennengelernt?", "lv": "Onde vocês se conheceram?"},
+        {"de": "Ich kenne ihn.", "lv": "Eu o conheço."},
+        {"de": "kennen", "lv": "conhecer"}
+      ]
+    },
+    {
+      "auditId": "LRB079-0045",
+      "cardId": "klein|idx:6",
+      "path": "new.study.examples",
+      "current": [
+        {"de": "Das Zimmer ist klein.", "lv": "A casa é pequena."},
+        {"de": "Das Kind ist noch klein.", "lv": "O cachorro é pequeno."},
+        {"de": "Ich habe eine kleine Tasche.", "lv": "O quarto é muito pequeno."},
+        {"de": "Ich habe eine kleine Tasche.", "lv": "Ela tem mãos pequenas."}
+      ],
+      "new": [
+        {"de": "Das Zimmer ist klein.", "lv": "O quarto é pequeno."},
+        {"de": "Das Kind ist noch klein.", "lv": "A criança ainda é pequena."},
+        {"de": "Ich habe eine kleine Tasche.", "lv": "Eu tenho uma bolsa pequena."},
+        {"de": "Ich habe eine kleine Tasche.", "lv": "Eu tenho uma bolsa pequena."},
+        {"de": "Das Kind ist klein.", "lv": "A criança é pequena."}
+      ]
+    },
+    {"auditId": "LRB079-0048", "cardId": "Laden|idx:349", "path": "new.study.explanation[1]", "current": "Laden, com inicial minúscula, é o verbo carregar ou recarregar, especialmente um telefone ou uma bateria.", "new": "laden, com inicial minúscula, é o verbo carregar ou recarregar, especialmente um telefone ou uma bateria."},
+    {"auditId": "LRB079-0048", "cardId": "Laden|idx:349", "path": "new.study.tip[1]", "current": "Laden, com letra minúscula, é o verbo carregar ou recarregar.", "new": "laden, com letra minúscula, é o verbo carregar ou recarregar."},
+    {"auditId": "LRB079-0048", "cardId": "Laden|idx:349", "path": "new.study.important[1]", "current": "Laden = carregar ou recarregar.", "new": "laden = carregar ou recarregar."}
+  ],
+  "row_note_replacements": [
+    {"auditId":"LRB079-0001","current":"Corrijo o estudo de bringen para eliminar resíduos letões e distinguir claramente trazer/levar de nehmen e holen.","new":"Corrijo os exemplos deslocados de bringen e identifico corretamente nehmen e holen na comparação."},
+    {"auditId":"LRB079-0002","current":"Corrijo da, cujo sentido espacial é lá/aí, substituindo a explicação contaminada por letão e exemplos em português.","new":"Corrijo as três traduções de exemplo de da para que correspondam exatamente às frases alemãs."},
+    {"auditId":"LRB079-0003","current":"Corrijo das para apresentar em português o artigo definido neutro e remover as frases letãs e portuguesas corrompidas.","new":"Corrijo das como artigo e pronome e realinho as traduções dos exemplos alemães."},
+    {"auditId":"LRB079-0006","current":"Corrijo die para cobrir corretamente os usos feminino e plural, eliminando os exemplos em letão e o erro de gênero.","new":"Mantenho os usos feminino e plural de die e retiro do terceiro exemplo o objeto que não existe na frase alemã."},
+    {"auditId":"LRB079-0007","current":"Corrijo dieser para o demonstrativo português este/esse e ajusto os exemplos para refletir corretamente suas formas e usos.","new":"Corrijo dieser e removo do padom a palavra letã residual šis, substituindo-a por este."},
+    {"auditId":"LRB079-0012","current":"Para o DE “es”, removi “Bolsa” e as frases letãs e expliquei corretamente o pronome pessoal e o uso impessoal em frases sobre o clima.","new":"Corrijo es como pronome neutro e impessoal e realinho os exemplos Das Kind schläft e Es ist müde."},
+    {"auditId":"LRB079-0014","current":"Para o DE “Essen”, corrigi a tradução ilegível e reconstruí o cartão nominal como “comida • refeição”, distinguindo-o claramente do verbo essen.","new":"Corrijo as três traduções deslocadas do cartão nominal Essen e mantenho a distinção com o verbo essen."},
+    {"auditId":"LRB079-0016","current":"Para o DE “euch”, corrigi “Suco • Jumos” e exemplos corrompidos para as funções de objeto “vocês • a vocês”, contrastando-o com ihr e euer.","new":"Completo euch com o uso reflexivo se, além das funções de acusativo e dativo já registradas."},
+    {"auditId":"LRB079-0018","current":"Para o DE “Ferien”, corrigi “Brivdienas” e as explicações letãs para o português “férias escolares”, incluindo o uso obrigatório habitual no plural.","new":"Mantenho férias escolares no plural e realinho as três traduções dos exemplos alemães."},
+    {"auditId":"LRB079-0020","current":"Para o DE “Fernsehen”, corrigi as traduções letãs e a confusão com o verbo para apresentar corretamente o substantivo “televisão” como meio ou programação.","new":"Corrijo as traduções deslocadas nos exemplos de Fernsehen, preservando o substantivo televisão."},
+    {"auditId":"LRB079-0021","current":"Para o verbo alemão finden, foram removidos remanescentes de letão e corrigidas as frases para distinguir encontrar de achar.","new":"Explicito no título os dois usos ensinados de finden: encontrar e achar."},
+    {"auditId":"LRB079-0022","current":"Para o substantivo alemão Frau, a tradução foi corrigida para mulher ou esposa e todos os exemplos e explicações foram naturalizados em português.","new":"Explicito no título os dois sentidos ensinados de Frau: mulher e esposa."},
+    {"auditId":"LRB079-0024","current":"Para o alemão Fußball, o conteúdo já estava majoritariamente correto; corrigi a capitalização e a formulação portuguesa para manter futebol como esporte e bola como objeto.","new":"Explicito no título os sentidos de Fußball como esporte e como bola de futebol."},
+    {"auditId":"LRB079-0025","current":"Para o adjetivo alemão ganz, substituí o incorreto Barcos por inteiro e corrigi o contraste com alles, que significa tudo.","new":"Alinho o título de ganz aos três usos ensinados: inteiro, completamente e bastante."},
+    {"auditId":"LRB079-0028","current":"Para o substantivo alemão Gemüse, corrigi Darzeņi e as explicações em letão para legumes, com exemplos portugueses e a indicação correta do gênero neutro.","new":"Corrijo as traduções deslocadas e duplicadas nos exemplos de Gemüse."},
+    {"auditId":"LRB079-0041","current":"Corrijo a tradução de DE “ins” para a contração portuguesa correspondente ao sentido de movimento para dentro, eliminando os remanescentes em letão e os exemplos incoerentes.","new":"Substituo o título não tradutório de ins pela equivalência semântica para dentro de."},
+    {"auditId":"LRB079-0042","current":"Corrijo DE “jung” de “amarelo” para “jovem”, distinguindo idade de novidade e substituindo todas as frases contaminadas por letão ou sem sentido.","new":"Simplifico o título de jung para jovem; a restrição pedagógica permanece na explicação."},
+    {"auditId":"LRB079-0043","current":"Corrijo DE “kein” para “nenhum/nenhuma”, com exemplos que distinguem a negação de substantivos por kein da negação frasal por nicht.","new":"Corrijo o título de kein para as formas portuguesas nenhum e nenhuma, sem a paráfrase redundante."},
+    {"auditId":"LRB079-0044","current":"Corrijo DE “kennen” para “conhecer”, removendo as formas letãs e diferenciando corretamente kennen, ligado à familiaridade, de wissen, ligado a fatos.","new":"Realinho os exemplos de kennen, removo a linha acrescentada e restauro a estrutura DE original de cinco exemplos."},
+    {"auditId":"LRB079-0045","current":"Corrijo DE “klein” de “labirintos” para “pequeno” e completo os exemplos e explicações com português gramatical sobre tamanho reduzido.","new":"Realinho todas as traduções de klein e restauro o quinto exemplo DE omitido."},
+    {"auditId":"LRB079-0048","current":"Corrijo DE “Laden” para “loja” e esclareço a distinção ortográfica entre o substantivo der Laden e o verbo laden.","new":"Corrijo a capitalização do verbo laden nas três explicações que o descrevem como forma minúscula."}
+  ],
+  "constraints": {
+    "currentExactMatchRequired": true,
+    "mismatchAction": "SKIP_TARGET_ONLY_AND_REPORT",
+    "newLinguisticAnalysis": false,
+    "changeOnlySpecifiedValues": true,
+    "deSourceChanges": 0,
+    "productionChanges": 0,
+    "crowdinChanges": 0,
+    "ingestApplyRuns": 0,
+    "executableScriptChanges": 0,
+    "galaPassAllowed": false
+  },
+  "requiredPostApplyState": {
+    "ROWS": "50/50",
+    "LABOT": 50,
+    "NELABOT": 0,
+    "PENDING": 0,
+    "CONTENT_REPLACEMENTS": "35/35",
+    "ROW_NOTE_REPLACEMENTS": "21/21",
+    "CURRENT_VALUE_MISMATCH": 0,
+    "FAILED": 0,
+    "WRONG_LANGUAGE_RESIDUE": 0,
+    "DE_TARGET_ALIGNMENT_VIOLATIONS": 0,
+    "INTERNAL_CARD_CONTRADICTIONS": 0,
+    "OWNER_NEW_FULL_COMPOSITE_ALIGNMENT": "50/50",
+    "galaPass": false,
+    "linguisticVerdict": null,
+    "reservationStatus": "OWNER_COPY_PASTE_CORRECTION_1_APPLIED_AWAITING_GALA_REVIEW"
+  }
+}
