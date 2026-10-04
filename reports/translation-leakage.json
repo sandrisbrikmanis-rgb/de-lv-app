@@ -1,0 +1,7553 @@
+{
+  "statement": "Šis audits klasificē tulkojumu sakritības. Tas nepiedāvā pareizo tulkojumu un nemaina datus.",
+  "baseline": {
+    "masterVersion": "1.18",
+    "originMainSha": "f00f6b72afd693a8f6f86b42cd1631a0be7d9a6d",
+    "branch": "cursor/leakage-markers-f86b",
+    "date": "2026-10-04",
+    "datasetProductionSha": "0db2b98b354f5269a277b288309371c35698c72d711da2ec80b8b090da6e7e39"
+  },
+  "recordCount": 8618,
+  "mirror": "IDENTICAL",
+  "control": {
+    "lv": "rūsa",
+    "de": "Wetterleuchten",
+    "bg": "Ръжда",
+    "bs": "Hrđa",
+    "cs": "Vzdálené blýskání",
+    "da": "Rust",
+    "en": "Sheet lightning",
+    "es": "resplandor de tormenta",
+    "et": "hõõguv välk",
+    "fi": "Hõõguv välk",
+    "fr": "Rouiller",
+    "gr": "Λαμπερή αστραπή",
+    "hr": "Ръжда",
+    "hu": "Rozsda",
+    "is": "Hõõguv välk",
+    "it": "Rūsa",
+    "lb": "Rūsa",
+    "lt": "rūdys",
+    "mk": "Ръжда",
+    "nb": "Hõõguv välk",
+    "nl": "Rūsa",
+    "nn": "Hõõguv välk",
+    "pl": "Rdza",
+    "pt": "Rusa",
+    "ro": "Rugini",
+    "ru": "Ржавчина",
+    "sk": "Rdza",
+    "sl": "rūsa",
+    "sq": "Rdza",
+    "sr": "Ръжда",
+    "sv": "Hõõguv välk",
+    "tr": "Rdza",
+    "uk": "іржа"
+  },
+  "controlFlags": {
+    "bg": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT"
+    ],
+    "bs": [],
+    "cs": [],
+    "da": [],
+    "en": [],
+    "es": [],
+    "et": [],
+    "fi": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT",
+      "MARKER_LEAK"
+    ],
+    "fr": [],
+    "gr": [],
+    "hr": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT",
+      "MARKER_LEAK",
+      "SCRIPT_MISMATCH"
+    ],
+    "hu": [],
+    "is": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT",
+      "MARKER_LEAK"
+    ],
+    "it": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT",
+      "LV_DIACRITIC",
+      "MARKER_LEAK",
+      "SAME_AS_LV_CASEFOLD"
+    ],
+    "lb": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT",
+      "LV_DIACRITIC",
+      "MARKER_LEAK",
+      "SAME_AS_LV_CASEFOLD"
+    ],
+    "lt": [],
+    "mk": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT"
+    ],
+    "nb": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT",
+      "MARKER_LEAK"
+    ],
+    "nl": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT",
+      "LV_DIACRITIC",
+      "MARKER_LEAK",
+      "SAME_AS_LV_CASEFOLD"
+    ],
+    "nn": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT",
+      "MARKER_LEAK"
+    ],
+    "pl": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT"
+    ],
+    "pt": [],
+    "ro": [],
+    "ru": [],
+    "sk": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT"
+    ],
+    "sl": [
+      "COGNATE_REVIEW",
+      "LV_DIACRITIC",
+      "MARKER_LEAK",
+      "SAME_AS_LV_CASEFOLD"
+    ],
+    "sq": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT"
+    ],
+    "sr": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT",
+      "MARKER_LEAK_SR_LATIN",
+      "SCRIPT_MISMATCH_SR_LATIN"
+    ],
+    "sv": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT",
+      "MARKER_LEAK"
+    ],
+    "tr": [
+      "FAMILY_COPY",
+      "FAMILY_COPY_STRICT"
+    ],
+    "uk": []
+  },
+  "summary": {
+    "table": {
+      "bg": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 22,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 7622,
+        "problemRecords": 7625
+      },
+      "bs": {
+        "SAME_AS_LV": 26,
+        "COGNATE_REVIEW": 2,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 1,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 661,
+        "problemRecords": 688
+      },
+      "cs": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 1,
+        "SCRIPT_MISMATCH": 1,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 702,
+        "problemRecords": 703
+      },
+      "da": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 796,
+        "problemRecords": 796
+      },
+      "en": {
+        "SAME_AS_LV": 1,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 912,
+        "problemRecords": 913
+      },
+      "es": {
+        "SAME_AS_LV": 14,
+        "COGNATE_REVIEW": 3,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 52,
+        "problemRecords": 66
+      },
+      "et": {
+        "SAME_AS_LV": 22,
+        "COGNATE_REVIEW": 2,
+        "LV_DIACRITIC": 45,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 56,
+        "problemRecords": 123
+      },
+      "fi": {
+        "SAME_AS_LV": 1,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 51,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8580,
+        "problemRecords": 8581
+      },
+      "fr": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 634,
+        "problemRecords": 634
+      },
+      "gr": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 40,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 15,
+        "problemRecords": 40
+      },
+      "hr": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 0,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 7902,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8607,
+        "problemRecords": 8607
+      },
+      "hu": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 188,
+        "problemRecords": 188
+      },
+      "is": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 46,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8604,
+        "problemRecords": 8604
+      },
+      "it": {
+        "SAME_AS_LV": 8,
+        "COGNATE_REVIEW": 5,
+        "LV_DIACRITIC": 4687,
+        "SCRIPT_MISMATCH": 7,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 7474,
+        "problemRecords": 7630
+      },
+      "lb": {
+        "SAME_AS_LV": 8,
+        "COGNATE_REVIEW": 6,
+        "LV_DIACRITIC": 5014,
+        "SCRIPT_MISMATCH": 2,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 7351,
+        "problemRecords": 7397
+      },
+      "lt": {
+        "SAME_AS_LV": 131,
+        "COGNATE_REVIEW": 30,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 45,
+        "problemRecords": 176
+      },
+      "mk": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 0,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 20,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8365,
+        "problemRecords": 8365
+      },
+      "nb": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 46,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8614,
+        "problemRecords": 8614
+      },
+      "nl": {
+        "SAME_AS_LV": 8,
+        "COGNATE_REVIEW": 6,
+        "LV_DIACRITIC": 5577,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 7814,
+        "problemRecords": 8240
+      },
+      "nn": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 46,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8612,
+        "problemRecords": 8612
+      },
+      "pl": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 0,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 6648,
+        "problemRecords": 6648
+      },
+      "pt": {
+        "SAME_AS_LV": 1,
+        "COGNATE_REVIEW": 2,
+        "LV_DIACRITIC": 2809,
+        "SCRIPT_MISMATCH": 5,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 3883,
+        "problemRecords": 4734
+      },
+      "ro": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 578,
+        "problemRecords": 578
+      },
+      "ru": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 0,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 7,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 3444,
+        "problemRecords": 3445
+      },
+      "sk": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 6572,
+        "problemRecords": 6572
+      },
+      "sl": {
+        "SAME_AS_LV": 7570,
+        "COGNATE_REVIEW": 332,
+        "LV_DIACRITIC": 5245,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 177,
+        "problemRecords": 7902
+      },
+      "sq": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 7337,
+        "problemRecords": 7337
+      },
+      "sr": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 0,
+        "LV_DIACRITIC": 128,
+        "SCRIPT_MISMATCH": 713,
+        "SCRIPT_MISMATCH_SR_LATIN": 7918,
+        "FAMILY_COPY": 8582,
+        "problemRecords": 8586
+      },
+      "sv": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 51,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8573,
+        "problemRecords": 8573
+      },
+      "tr": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 7358,
+        "problemRecords": 7358
+      },
+      "uk": {
+        "SAME_AS_LV": 44,
+        "COGNATE_REVIEW": 12,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 117,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 4,
+        "problemRecords": 121
+      }
+    },
+    "top": [
+      {
+        "lang": "nb",
+        "problemRecords": 8614,
+        "flags": 8660
+      },
+      {
+        "lang": "nn",
+        "problemRecords": 8612,
+        "flags": 8658
+      },
+      {
+        "lang": "hr",
+        "problemRecords": 8607,
+        "flags": 16509
+      },
+      {
+        "lang": "is",
+        "problemRecords": 8604,
+        "flags": 8650
+      },
+      {
+        "lang": "sr",
+        "problemRecords": 8586,
+        "flags": 9423
+      },
+      {
+        "lang": "fi",
+        "problemRecords": 8581,
+        "flags": 8632
+      },
+      {
+        "lang": "sv",
+        "problemRecords": 8573,
+        "flags": 8624
+      },
+      {
+        "lang": "mk",
+        "problemRecords": 8365,
+        "flags": 8385
+      },
+      {
+        "lang": "nl",
+        "problemRecords": 8240,
+        "flags": 13399
+      },
+      {
+        "lang": "sl",
+        "problemRecords": 7902,
+        "flags": 12992
+      },
+      {
+        "lang": "it",
+        "problemRecords": 7630,
+        "flags": 12176
+      },
+      {
+        "lang": "bg",
+        "problemRecords": 7625,
+        "flags": 7644
+      },
+      {
+        "lang": "lb",
+        "problemRecords": 7397,
+        "flags": 12375
+      },
+      {
+        "lang": "tr",
+        "problemRecords": 7358,
+        "flags": 7358
+      },
+      {
+        "lang": "sq",
+        "problemRecords": 7337,
+        "flags": 7337
+      },
+      {
+        "lang": "pl",
+        "problemRecords": 6648,
+        "flags": 6648
+      },
+      {
+        "lang": "sk",
+        "problemRecords": 6572,
+        "flags": 6572
+      },
+      {
+        "lang": "pt",
+        "problemRecords": 4734,
+        "flags": 6698
+      },
+      {
+        "lang": "ru",
+        "problemRecords": 3445,
+        "flags": 3451
+      },
+      {
+        "lang": "en",
+        "problemRecords": 913,
+        "flags": 913
+      }
+    ],
+    "recordCount": 8618
+  },
+  "wwwSummary": {
+    "table": {
+      "bg": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 22,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 7622,
+        "problemRecords": 7625
+      },
+      "bs": {
+        "SAME_AS_LV": 26,
+        "COGNATE_REVIEW": 2,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 1,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 661,
+        "problemRecords": 688
+      },
+      "cs": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 1,
+        "SCRIPT_MISMATCH": 1,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 702,
+        "problemRecords": 703
+      },
+      "da": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 796,
+        "problemRecords": 796
+      },
+      "en": {
+        "SAME_AS_LV": 1,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 912,
+        "problemRecords": 913
+      },
+      "es": {
+        "SAME_AS_LV": 14,
+        "COGNATE_REVIEW": 3,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 52,
+        "problemRecords": 66
+      },
+      "et": {
+        "SAME_AS_LV": 22,
+        "COGNATE_REVIEW": 2,
+        "LV_DIACRITIC": 45,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 56,
+        "problemRecords": 123
+      },
+      "fi": {
+        "SAME_AS_LV": 1,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 51,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8580,
+        "problemRecords": 8581
+      },
+      "fr": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 634,
+        "problemRecords": 634
+      },
+      "gr": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 40,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 15,
+        "problemRecords": 40
+      },
+      "hr": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 0,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 7902,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8607,
+        "problemRecords": 8607
+      },
+      "hu": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 188,
+        "problemRecords": 188
+      },
+      "is": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 46,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8604,
+        "problemRecords": 8604
+      },
+      "it": {
+        "SAME_AS_LV": 8,
+        "COGNATE_REVIEW": 5,
+        "LV_DIACRITIC": 4687,
+        "SCRIPT_MISMATCH": 7,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 7474,
+        "problemRecords": 7630
+      },
+      "lb": {
+        "SAME_AS_LV": 8,
+        "COGNATE_REVIEW": 6,
+        "LV_DIACRITIC": 5014,
+        "SCRIPT_MISMATCH": 2,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 7351,
+        "problemRecords": 7397
+      },
+      "lt": {
+        "SAME_AS_LV": 131,
+        "COGNATE_REVIEW": 30,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 45,
+        "problemRecords": 176
+      },
+      "mk": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 0,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 20,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8365,
+        "problemRecords": 8365
+      },
+      "nb": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 46,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8614,
+        "problemRecords": 8614
+      },
+      "nl": {
+        "SAME_AS_LV": 8,
+        "COGNATE_REVIEW": 6,
+        "LV_DIACRITIC": 5577,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 7814,
+        "problemRecords": 8240
+      },
+      "nn": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 46,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8612,
+        "problemRecords": 8612
+      },
+      "pl": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 0,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 6648,
+        "problemRecords": 6648
+      },
+      "pt": {
+        "SAME_AS_LV": 1,
+        "COGNATE_REVIEW": 2,
+        "LV_DIACRITIC": 2809,
+        "SCRIPT_MISMATCH": 5,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 3883,
+        "problemRecords": 4734
+      },
+      "ro": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 578,
+        "problemRecords": 578
+      },
+      "ru": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 0,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 7,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 3444,
+        "problemRecords": 3445
+      },
+      "sk": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 6572,
+        "problemRecords": 6572
+      },
+      "sl": {
+        "SAME_AS_LV": 7570,
+        "COGNATE_REVIEW": 332,
+        "LV_DIACRITIC": 5245,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 177,
+        "problemRecords": 7902
+      },
+      "sq": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 7337,
+        "problemRecords": 7337
+      },
+      "sr": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 0,
+        "LV_DIACRITIC": 128,
+        "SCRIPT_MISMATCH": 713,
+        "SCRIPT_MISMATCH_SR_LATIN": 7918,
+        "FAMILY_COPY": 8582,
+        "problemRecords": 8586
+      },
+      "sv": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 51,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 8573,
+        "problemRecords": 8573
+      },
+      "tr": {
+        "SAME_AS_LV": 0,
+        "COGNATE_REVIEW": 1,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 0,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 7358,
+        "problemRecords": 7358
+      },
+      "uk": {
+        "SAME_AS_LV": 44,
+        "COGNATE_REVIEW": 12,
+        "LV_DIACRITIC": 0,
+        "SCRIPT_MISMATCH": 117,
+        "SCRIPT_MISMATCH_SR_LATIN": 0,
+        "FAMILY_COPY": 4,
+        "problemRecords": 121
+      }
+    },
+    "top": [
+      {
+        "lang": "nb",
+        "problemRecords": 8614,
+        "flags": 8660
+      },
+      {
+        "lang": "nn",
+        "problemRecords": 8612,
+        "flags": 8658
+      },
+      {
+        "lang": "hr",
+        "problemRecords": 8607,
+        "flags": 16509
+      },
+      {
+        "lang": "is",
+        "problemRecords": 8604,
+        "flags": 8650
+      },
+      {
+        "lang": "sr",
+        "problemRecords": 8586,
+        "flags": 9423
+      },
+      {
+        "lang": "fi",
+        "problemRecords": 8581,
+        "flags": 8632
+      },
+      {
+        "lang": "sv",
+        "problemRecords": 8573,
+        "flags": 8624
+      },
+      {
+        "lang": "mk",
+        "problemRecords": 8365,
+        "flags": 8385
+      },
+      {
+        "lang": "nl",
+        "problemRecords": 8240,
+        "flags": 13399
+      },
+      {
+        "lang": "sl",
+        "problemRecords": 7902,
+        "flags": 12992
+      },
+      {
+        "lang": "it",
+        "problemRecords": 7630,
+        "flags": 12176
+      },
+      {
+        "lang": "bg",
+        "problemRecords": 7625,
+        "flags": 7644
+      },
+      {
+        "lang": "lb",
+        "problemRecords": 7397,
+        "flags": 12375
+      },
+      {
+        "lang": "tr",
+        "problemRecords": 7358,
+        "flags": 7358
+      },
+      {
+        "lang": "sq",
+        "problemRecords": 7337,
+        "flags": 7337
+      },
+      {
+        "lang": "pl",
+        "problemRecords": 6648,
+        "flags": 6648
+      },
+      {
+        "lang": "sk",
+        "problemRecords": 6572,
+        "flags": 6572
+      },
+      {
+        "lang": "pt",
+        "problemRecords": 4734,
+        "flags": 6698
+      },
+      {
+        "lang": "ru",
+        "problemRecords": 3445,
+        "flags": 3451
+      },
+      {
+        "lang": "en",
+        "problemRecords": 913,
+        "flags": 913
+      }
+    ],
+    "recordCount": 8618
+  },
+  "levelSplit": {
+    "aggregate": {
+      "A1": {
+        "records": 702,
+        "problemRecords": 8746,
+        "SAME_AS_LV": 33,
+        "SAME_AS_LV_CASEFOLD": 1022,
+        "COGNATE_REVIEW": 41,
+        "LV_DIACRITIC": 548,
+        "SCRIPT_MISMATCH": 697,
+        "MARKER_LEAK": 1326,
+        "FAMILY_COPY": 8243,
+        "FAMILY_COPY_STRICT": 7760,
+        "SCRIPT_MISMATCH_SR_LATIN": 472
+      },
+      "A2": {
+        "records": 1640,
+        "problemRecords": 26963,
+        "SAME_AS_LV": 1594,
+        "SAME_AS_LV_CASEFOLD": 5637,
+        "COGNATE_REVIEW": 140,
+        "LV_DIACRITIC": 3532,
+        "SCRIPT_MISMATCH": 1705,
+        "MARKER_LEAK": 6191,
+        "FAMILY_COPY": 24807,
+        "FAMILY_COPY_STRICT": 23713,
+        "SCRIPT_MISMATCH_SR_LATIN": 1476
+      },
+      "B1": {
+        "records": 3367,
+        "problemRecords": 58901,
+        "SAME_AS_LV": 3298,
+        "SAME_AS_LV_CASEFOLD": 13975,
+        "COGNATE_REVIEW": 181,
+        "LV_DIACRITIC": 8972,
+        "SCRIPT_MISMATCH": 3429,
+        "MARKER_LEAK": 15156,
+        "FAMILY_COPY": 55040,
+        "FAMILY_COPY_STRICT": 53347,
+        "SCRIPT_MISMATCH_SR_LATIN": 3168
+      },
+      "B2": {
+        "records": 2118,
+        "problemRecords": 39701,
+        "SAME_AS_LV": 2110,
+        "SAME_AS_LV_CASEFOLD": 9267,
+        "COGNATE_REVIEW": 49,
+        "LV_DIACRITIC": 7709,
+        "SCRIPT_MISMATCH": 2199,
+        "MARKER_LEAK": 13109,
+        "FAMILY_COPY": 37086,
+        "FAMILY_COPY_STRICT": 36429,
+        "SCRIPT_MISMATCH_SR_LATIN": 2036
+      },
+      "C1": {
+        "records": 572,
+        "problemRecords": 10620,
+        "SAME_AS_LV": 578,
+        "SAME_AS_LV_CASEFOLD": 2438,
+        "COGNATE_REVIEW": 5,
+        "LV_DIACRITIC": 2165,
+        "SCRIPT_MISMATCH": 581,
+        "MARKER_LEAK": 3483,
+        "FAMILY_COPY": 9885,
+        "FAMILY_COPY_STRICT": 9730,
+        "SCRIPT_MISMATCH_SR_LATIN": 554
+      },
+      "C2": {
+        "records": 219,
+        "problemRecords": 4075,
+        "SAME_AS_LV": 221,
+        "SAME_AS_LV_CASEFOLD": 935,
+        "COGNATE_REVIEW": 0,
+        "LV_DIACRITIC": 820,
+        "SCRIPT_MISMATCH": 226,
+        "MARKER_LEAK": 1437,
+        "FAMILY_COPY": 3799,
+        "FAMILY_COPY_STRICT": 3760,
+        "SCRIPT_MISMATCH_SR_LATIN": 212
+      }
+    },
+    "byLang": {
+      "bg": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 4,
+          "MARKER_LEAK": 4,
+          "FAMILY_COPY": 466,
+          "FAMILY_COPY_STRICT": 466,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 4,
+          "MARKER_LEAK": 4,
+          "FAMILY_COPY": 1335,
+          "FAMILY_COPY_STRICT": 1335,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 9,
+          "MARKER_LEAK": 9,
+          "FAMILY_COPY": 2961,
+          "FAMILY_COPY_STRICT": 2958,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 4,
+          "MARKER_LEAK": 4,
+          "FAMILY_COPY": 2089,
+          "FAMILY_COPY_STRICT": 2088,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1,
+          "FAMILY_COPY": 554,
+          "FAMILY_COPY_STRICT": 553,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 217,
+          "FAMILY_COPY_STRICT": 217,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "bs": {
+        "A1": {
+          "SAME_AS_LV": 8,
+          "SAME_AS_LV_CASEFOLD": 12,
+          "COGNATE_REVIEW": 2,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 182,
+          "FAMILY_COPY_STRICT": 168,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 18,
+          "SAME_AS_LV_CASEFOLD": 18,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1,
+          "FAMILY_COPY": 57,
+          "FAMILY_COPY_STRICT": 33,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 43,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 309,
+          "FAMILY_COPY_STRICT": 194,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 12,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 95,
+          "FAMILY_COPY_STRICT": 55,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 17,
+          "FAMILY_COPY_STRICT": 9,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 1,
+          "FAMILY_COPY_STRICT": 1,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "cs": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 8,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 168,
+          "FAMILY_COPY_STRICT": 149,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 8,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 167,
+          "FAMILY_COPY_STRICT": 110,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 15,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1,
+          "FAMILY_COPY": 268,
+          "FAMILY_COPY_STRICT": 161,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 7,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 1,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 1,
+          "FAMILY_COPY": 84,
+          "FAMILY_COPY_STRICT": 45,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 11,
+          "FAMILY_COPY_STRICT": 8,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 4,
+          "FAMILY_COPY_STRICT": 2,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "da": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 4,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 94,
+          "FAMILY_COPY_STRICT": 45,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 10,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 225,
+          "FAMILY_COPY_STRICT": 117,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 7,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 332,
+          "FAMILY_COPY_STRICT": 184,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 6,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 125,
+          "FAMILY_COPY_STRICT": 82,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 16,
+          "FAMILY_COPY_STRICT": 9,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 4,
+          "FAMILY_COPY_STRICT": 2,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "en": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 85,
+          "FAMILY_COPY_STRICT": 54,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 8,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 208,
+          "FAMILY_COPY_STRICT": 123,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 1,
+          "SAME_AS_LV_CASEFOLD": 3,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 434,
+          "FAMILY_COPY_STRICT": 327,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 4,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 158,
+          "FAMILY_COPY_STRICT": 121,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 22,
+          "FAMILY_COPY_STRICT": 19,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 5,
+          "FAMILY_COPY_STRICT": 5,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "es": {
+        "A1": {
+          "SAME_AS_LV": 4,
+          "SAME_AS_LV_CASEFOLD": 5,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 17,
+          "FAMILY_COPY_STRICT": 15,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 3,
+          "SAME_AS_LV_CASEFOLD": 3,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 22,
+          "FAMILY_COPY_STRICT": 13,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 3,
+          "SAME_AS_LV_CASEFOLD": 5,
+          "COGNATE_REVIEW": 2,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 10,
+          "FAMILY_COPY_STRICT": 8,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 2,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 3,
+          "FAMILY_COPY_STRICT": 2,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 2,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "et": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 3,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 16,
+          "FAMILY_COPY_STRICT": 6,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 7,
+          "SAME_AS_LV_CASEFOLD": 7,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 6,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 2,
+          "FAMILY_COPY": 26,
+          "FAMILY_COPY_STRICT": 6,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 8,
+          "SAME_AS_LV_CASEFOLD": 10,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 22,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 3,
+          "FAMILY_COPY_STRICT": 1,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 5,
+          "SAME_AS_LV_CASEFOLD": 5,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 10,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 7,
+          "FAMILY_COPY_STRICT": 1,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 1,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 3,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 4,
+          "FAMILY_COPY_STRICT": 1,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 1,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 1,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "fi": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 3,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 52,
+          "FAMILY_COPY": 665,
+          "FAMILY_COPY_STRICT": 639,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 7,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 6,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 163,
+          "FAMILY_COPY": 1640,
+          "FAMILY_COPY_STRICT": 1585,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 10,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 22,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 330,
+          "FAMILY_COPY": 3367,
+          "FAMILY_COPY_STRICT": 3262,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 6,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 15,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 363,
+          "FAMILY_COPY": 2118,
+          "FAMILY_COPY_STRICT": 2076,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 1,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 4,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 84,
+          "FAMILY_COPY": 571,
+          "FAMILY_COPY_STRICT": 559,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 1,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 48,
+          "FAMILY_COPY": 219,
+          "FAMILY_COPY_STRICT": 216,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "fr": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 3,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 54,
+          "FAMILY_COPY_STRICT": 32,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 4,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 173,
+          "FAMILY_COPY_STRICT": 137,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 4,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 294,
+          "FAMILY_COPY_STRICT": 232,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 4,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 90,
+          "FAMILY_COPY_STRICT": 72,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 19,
+          "FAMILY_COPY_STRICT": 18,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 4,
+          "FAMILY_COPY_STRICT": 4,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "gr": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 2,
+          "MARKER_LEAK": 2,
+          "FAMILY_COPY": 1,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 9,
+          "MARKER_LEAK": 9,
+          "FAMILY_COPY": 7,
+          "FAMILY_COPY_STRICT": 3,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 8,
+          "MARKER_LEAK": 8,
+          "FAMILY_COPY": 4,
+          "FAMILY_COPY_STRICT": 2,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 17,
+          "MARKER_LEAK": 17,
+          "FAMILY_COPY": 3,
+          "FAMILY_COPY_STRICT": 3,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 4,
+          "MARKER_LEAK": 4,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "hr": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 456,
+          "MARKER_LEAK": 456,
+          "FAMILY_COPY": 691,
+          "FAMILY_COPY_STRICT": 684,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 1476,
+          "MARKER_LEAK": 1476,
+          "FAMILY_COPY": 1640,
+          "FAMILY_COPY_STRICT": 1636,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 3168,
+          "MARKER_LEAK": 3168,
+          "FAMILY_COPY": 3367,
+          "FAMILY_COPY_STRICT": 3361,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 2036,
+          "MARKER_LEAK": 2036,
+          "FAMILY_COPY": 2118,
+          "FAMILY_COPY_STRICT": 2114,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 554,
+          "MARKER_LEAK": 554,
+          "FAMILY_COPY": 572,
+          "FAMILY_COPY_STRICT": 571,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 212,
+          "MARKER_LEAK": 212,
+          "FAMILY_COPY": 219,
+          "FAMILY_COPY_STRICT": 219,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "hu": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 31,
+          "FAMILY_COPY_STRICT": 16,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 4,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 50,
+          "FAMILY_COPY_STRICT": 18,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 6,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 66,
+          "FAMILY_COPY_STRICT": 31,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 3,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 35,
+          "FAMILY_COPY_STRICT": 24,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 1,
+          "FAMILY_COPY": 4,
+          "FAMILY_COPY_STRICT": 2,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 2,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "is": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 1,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 27,
+          "FAMILY_COPY": 688,
+          "FAMILY_COPY_STRICT": 648,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 8,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 4,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 80,
+          "FAMILY_COPY": 1640,
+          "FAMILY_COPY_STRICT": 1555,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 8,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 21,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 302,
+          "FAMILY_COPY": 3367,
+          "FAMILY_COPY_STRICT": 3260,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 6,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 15,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 362,
+          "FAMILY_COPY": 2118,
+          "FAMILY_COPY_STRICT": 2076,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 4,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 84,
+          "FAMILY_COPY": 572,
+          "FAMILY_COPY_STRICT": 559,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 1,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 48,
+          "FAMILY_COPY": 219,
+          "FAMILY_COPY_STRICT": 216,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "it": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 172,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 87,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 69,
+          "FAMILY_COPY": 344,
+          "FAMILY_COPY_STRICT": 336,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 612,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 453,
+          "SCRIPT_MISMATCH": 4,
+          "MARKER_LEAK": 406,
+          "FAMILY_COPY": 1073,
+          "FAMILY_COPY_STRICT": 1056,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 5,
+          "SAME_AS_LV_CASEFOLD": 2936,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 1921,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1801,
+          "FAMILY_COPY": 3181,
+          "FAMILY_COPY_STRICT": 3156,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 3,
+          "SAME_AS_LV_CASEFOLD": 1993,
+          "COGNATE_REVIEW": 3,
+          "LV_DIACRITIC": 1605,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1529,
+          "FAMILY_COPY": 2093,
+          "FAMILY_COPY_STRICT": 2082,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 534,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 451,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 435,
+          "FAMILY_COPY": 565,
+          "FAMILY_COPY_STRICT": 561,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 204,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 170,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 166,
+          "FAMILY_COPY": 218,
+          "FAMILY_COPY_STRICT": 217,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "lb": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 58,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 48,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 42,
+          "FAMILY_COPY": 84,
+          "FAMILY_COPY_STRICT": 71,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1250,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 813,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 770,
+          "FAMILY_COPY": 1310,
+          "FAMILY_COPY_STRICT": 1288,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 5,
+          "SAME_AS_LV_CASEFOLD": 2973,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 1933,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 1824,
+          "FAMILY_COPY": 3101,
+          "FAMILY_COPY_STRICT": 3074,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 3,
+          "SAME_AS_LV_CASEFOLD": 1988,
+          "COGNATE_REVIEW": 4,
+          "LV_DIACRITIC": 1599,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1526,
+          "FAMILY_COPY": 2075,
+          "FAMILY_COPY_STRICT": 2064,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 538,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 451,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 436,
+          "FAMILY_COPY": 563,
+          "FAMILY_COPY_STRICT": 559,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 205,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 170,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 166,
+          "FAMILY_COPY": 218,
+          "FAMILY_COPY_STRICT": 217,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "lt": {
+        "A1": {
+          "SAME_AS_LV": 17,
+          "SAME_AS_LV_CASEFOLD": 28,
+          "COGNATE_REVIEW": 11,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 13,
+          "FAMILY_COPY_STRICT": 12,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 30,
+          "SAME_AS_LV_CASEFOLD": 39,
+          "COGNATE_REVIEW": 9,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 24,
+          "FAMILY_COPY_STRICT": 24,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 59,
+          "SAME_AS_LV_CASEFOLD": 65,
+          "COGNATE_REVIEW": 6,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 7,
+          "FAMILY_COPY_STRICT": 6,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 19,
+          "SAME_AS_LV_CASEFOLD": 23,
+          "COGNATE_REVIEW": 4,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 1,
+          "FAMILY_COPY_STRICT": 1,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 5,
+          "SAME_AS_LV_CASEFOLD": 5,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 1,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "mk": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1,
+          "FAMILY_COPY": 601,
+          "FAMILY_COPY_STRICT": 601,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 3,
+          "MARKER_LEAK": 3,
+          "FAMILY_COPY": 1575,
+          "FAMILY_COPY_STRICT": 1575,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 9,
+          "MARKER_LEAK": 9,
+          "FAMILY_COPY": 3297,
+          "FAMILY_COPY_STRICT": 3294,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 5,
+          "MARKER_LEAK": 5,
+          "FAMILY_COPY": 2105,
+          "FAMILY_COPY_STRICT": 2104,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1,
+          "FAMILY_COPY": 569,
+          "FAMILY_COPY_STRICT": 568,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1,
+          "FAMILY_COPY": 218,
+          "FAMILY_COPY_STRICT": 218,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "nb": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 1,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 27,
+          "FAMILY_COPY": 698,
+          "FAMILY_COPY_STRICT": 658,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 8,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 4,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 80,
+          "FAMILY_COPY": 1640,
+          "FAMILY_COPY_STRICT": 1555,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 8,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 21,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 302,
+          "FAMILY_COPY": 3367,
+          "FAMILY_COPY_STRICT": 3260,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 6,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 15,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 362,
+          "FAMILY_COPY": 2118,
+          "FAMILY_COPY_STRICT": 2076,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 4,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 84,
+          "FAMILY_COPY": 572,
+          "FAMILY_COPY_STRICT": 559,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 1,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 48,
+          "FAMILY_COPY": 219,
+          "FAMILY_COPY_STRICT": 216,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "nl": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 562,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 292,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 261,
+          "FAMILY_COPY": 244,
+          "FAMILY_COPY_STRICT": 230,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1554,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 962,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 911,
+          "FAMILY_COPY": 1405,
+          "FAMILY_COPY_STRICT": 1383,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 5,
+          "SAME_AS_LV_CASEFOLD": 3228,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 2077,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 1957,
+          "FAMILY_COPY": 3278,
+          "FAMILY_COPY_STRICT": 3250,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 3,
+          "SAME_AS_LV_CASEFOLD": 2023,
+          "COGNATE_REVIEW": 4,
+          "LV_DIACRITIC": 1618,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 1542,
+          "FAMILY_COPY": 2098,
+          "FAMILY_COPY_STRICT": 2087,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 546,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 457,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 442,
+          "FAMILY_COPY": 570,
+          "FAMILY_COPY_STRICT": 566,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 206,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 171,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 167,
+          "FAMILY_COPY": 219,
+          "FAMILY_COPY_STRICT": 218,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "nn": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 1,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 27,
+          "FAMILY_COPY": 696,
+          "FAMILY_COPY_STRICT": 655,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 8,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 4,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 80,
+          "FAMILY_COPY": 1640,
+          "FAMILY_COPY_STRICT": 1555,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 8,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 21,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 302,
+          "FAMILY_COPY": 3367,
+          "FAMILY_COPY_STRICT": 3260,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 6,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 15,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 362,
+          "FAMILY_COPY": 2118,
+          "FAMILY_COPY_STRICT": 2076,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 4,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 84,
+          "FAMILY_COPY": 572,
+          "FAMILY_COPY_STRICT": 559,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 1,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 48,
+          "FAMILY_COPY": 219,
+          "FAMILY_COPY_STRICT": 216,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "pl": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 8,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 86,
+          "FAMILY_COPY_STRICT": 63,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 5,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 939,
+          "FAMILY_COPY_STRICT": 875,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 11,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 2859,
+          "FAMILY_COPY_STRICT": 2756,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 4,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 2009,
+          "FAMILY_COPY_STRICT": 1966,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 544,
+          "FAMILY_COPY_STRICT": 535,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 211,
+          "FAMILY_COPY_STRICT": 208,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "pt": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 119,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 58,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 47,
+          "FAMILY_COPY": 287,
+          "FAMILY_COPY_STRICT": 283,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 385,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 291,
+          "SCRIPT_MISMATCH": 2,
+          "MARKER_LEAK": 248,
+          "FAMILY_COPY": 790,
+          "FAMILY_COPY_STRICT": 778,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 1,
+          "SAME_AS_LV_CASEFOLD": 1207,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 842,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 739,
+          "FAMILY_COPY": 1393,
+          "FAMILY_COPY_STRICT": 1376,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1038,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 1180,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1109,
+          "FAMILY_COPY": 1080,
+          "FAMILY_COPY_STRICT": 1075,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 222,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 316,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 290,
+          "FAMILY_COPY": 233,
+          "FAMILY_COPY_STRICT": 229,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 93,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 122,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 116,
+          "FAMILY_COPY": 100,
+          "FAMILY_COPY_STRICT": 100,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "ro": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 3,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 43,
+          "FAMILY_COPY_STRICT": 25,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 3,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 132,
+          "FAMILY_COPY_STRICT": 79,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 6,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 274,
+          "FAMILY_COPY_STRICT": 198,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 3,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 111,
+          "FAMILY_COPY_STRICT": 79,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 13,
+          "FAMILY_COPY_STRICT": 7,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 5,
+          "FAMILY_COPY_STRICT": 2,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "ru": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 106,
+          "FAMILY_COPY_STRICT": 106,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1,
+          "FAMILY_COPY": 231,
+          "FAMILY_COPY_STRICT": 231,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1,
+          "FAMILY_COPY": 482,
+          "FAMILY_COPY_STRICT": 481,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 4,
+          "MARKER_LEAK": 4,
+          "FAMILY_COPY": 1917,
+          "FAMILY_COPY_STRICT": 1916,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1,
+          "FAMILY_COPY": 506,
+          "FAMILY_COPY_STRICT": 505,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 202,
+          "FAMILY_COPY_STRICT": 202,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "sk": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 6,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 174,
+          "FAMILY_COPY_STRICT": 155,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 6,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 272,
+          "FAMILY_COPY": 903,
+          "FAMILY_COPY_STRICT": 843,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 11,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 966,
+          "FAMILY_COPY": 2792,
+          "FAMILY_COPY_STRICT": 2691,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 4,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 977,
+          "FAMILY_COPY": 1958,
+          "FAMILY_COPY_STRICT": 1917,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 228,
+          "FAMILY_COPY": 539,
+          "FAMILY_COPY_STRICT": 530,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 95,
+          "FAMILY_COPY": 206,
+          "FAMILY_COPY_STRICT": 203,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "sl": {
+        "A1": {
+          "SAME_AS_LV": 4,
+          "SAME_AS_LV_CASEFOLD": 9,
+          "COGNATE_REVIEW": 5,
+          "LV_DIACRITIC": 10,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 10,
+          "FAMILY_COPY": 177,
+          "FAMILY_COPY_STRICT": 163,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 1516,
+          "SAME_AS_LV_CASEFOLD": 1640,
+          "COGNATE_REVIEW": 124,
+          "LV_DIACRITIC": 957,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 957,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 3194,
+          "SAME_AS_LV_CASEFOLD": 3362,
+          "COGNATE_REVIEW": 168,
+          "LV_DIACRITIC": 2038,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 2038,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 2068,
+          "SAME_AS_LV_CASEFOLD": 2101,
+          "COGNATE_REVIEW": 33,
+          "LV_DIACRITIC": 1598,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 1598,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 569,
+          "SAME_AS_LV_CASEFOLD": 571,
+          "COGNATE_REVIEW": 2,
+          "LV_DIACRITIC": 462,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 462,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 219,
+          "SAME_AS_LV_CASEFOLD": 219,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 180,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 180,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "sq": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 3,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 18,
+          "FAMILY_COPY": 98,
+          "FAMILY_COPY_STRICT": 93,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 7,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 341,
+          "FAMILY_COPY": 1334,
+          "FAMILY_COPY_STRICT": 1288,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 9,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 723,
+          "FAMILY_COPY": 3061,
+          "FAMILY_COPY_STRICT": 2969,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 4,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 702,
+          "FAMILY_COPY": 2062,
+          "FAMILY_COPY_STRICT": 2019,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 163,
+          "FAMILY_COPY": 566,
+          "FAMILY_COPY_STRICT": 557,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 66,
+          "FAMILY_COPY": 216,
+          "FAMILY_COPY_STRICT": 213,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "sr": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 41,
+          "SCRIPT_MISMATCH": 230,
+          "MARKER_LEAK": 230,
+          "FAMILY_COPY": 666,
+          "FAMILY_COPY_STRICT": 659,
+          "SCRIPT_MISMATCH_SR_LATIN": 472
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 26,
+          "SCRIPT_MISMATCH": 166,
+          "MARKER_LEAK": 166,
+          "FAMILY_COPY": 1640,
+          "FAMILY_COPY_STRICT": 1636,
+          "SCRIPT_MISMATCH_SR_LATIN": 1476
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 32,
+          "SCRIPT_MISMATCH": 202,
+          "MARKER_LEAK": 202,
+          "FAMILY_COPY": 3367,
+          "FAMILY_COPY_STRICT": 3361,
+          "SCRIPT_MISMATCH_SR_LATIN": 3168
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 23,
+          "SCRIPT_MISMATCH": 88,
+          "MARKER_LEAK": 88,
+          "FAMILY_COPY": 2118,
+          "FAMILY_COPY_STRICT": 2114,
+          "SCRIPT_MISMATCH_SR_LATIN": 2036
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 5,
+          "SCRIPT_MISMATCH": 19,
+          "MARKER_LEAK": 19,
+          "FAMILY_COPY": 572,
+          "FAMILY_COPY_STRICT": 571,
+          "SCRIPT_MISMATCH_SR_LATIN": 554
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 1,
+          "SCRIPT_MISMATCH": 8,
+          "MARKER_LEAK": 8,
+          "FAMILY_COPY": 219,
+          "FAMILY_COPY_STRICT": 219,
+          "SCRIPT_MISMATCH_SR_LATIN": 212
+        }
+      },
+      "sv": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 3,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 51,
+          "FAMILY_COPY": 657,
+          "FAMILY_COPY_STRICT": 630,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 7,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 6,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 163,
+          "FAMILY_COPY": 1640,
+          "FAMILY_COPY_STRICT": 1585,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 10,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 22,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 330,
+          "FAMILY_COPY": 3367,
+          "FAMILY_COPY_STRICT": 3262,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 6,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 15,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 363,
+          "FAMILY_COPY": 2118,
+          "FAMILY_COPY_STRICT": 2076,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 4,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 84,
+          "FAMILY_COPY": 572,
+          "FAMILY_COPY_STRICT": 559,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 1,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 48,
+          "FAMILY_COPY": 219,
+          "FAMILY_COPY_STRICT": 216,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "tr": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 4,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 0,
+          "FAMILY_COPY": 110,
+          "FAMILY_COPY_STRICT": 97,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 7,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 20,
+          "FAMILY_COPY": 1341,
+          "FAMILY_COPY_STRICT": 1291,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 9,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 115,
+          "FAMILY_COPY": 3064,
+          "FAMILY_COPY_STRICT": 2972,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 4,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 117,
+          "FAMILY_COPY": 2061,
+          "FAMILY_COPY_STRICT": 2018,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 2,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 25,
+          "FAMILY_COPY": 566,
+          "FAMILY_COPY_STRICT": 557,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 0,
+          "MARKER_LEAK": 15,
+          "FAMILY_COPY": 216,
+          "FAMILY_COPY_STRICT": 213,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      },
+      "uk": {
+        "A1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 1,
+          "COGNATE_REVIEW": 1,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 2,
+          "MARKER_LEAK": 2,
+          "FAMILY_COPY": 1,
+          "FAMILY_COPY_STRICT": 1,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "A2": {
+          "SAME_AS_LV": 20,
+          "SAME_AS_LV_CASEFOLD": 27,
+          "COGNATE_REVIEW": 7,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 38,
+          "MARKER_LEAK": 38,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B1": {
+          "SAME_AS_LV": 17,
+          "SAME_AS_LV_CASEFOLD": 21,
+          "COGNATE_REVIEW": 4,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 29,
+          "MARKER_LEAK": 29,
+          "FAMILY_COPY": 1,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "B2": {
+          "SAME_AS_LV": 7,
+          "SAME_AS_LV_CASEFOLD": 7,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 42,
+          "MARKER_LEAK": 42,
+          "FAMILY_COPY": 1,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C1": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 5,
+          "MARKER_LEAK": 5,
+          "FAMILY_COPY": 1,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        },
+        "C2": {
+          "SAME_AS_LV": 0,
+          "SAME_AS_LV_CASEFOLD": 0,
+          "COGNATE_REVIEW": 0,
+          "LV_DIACRITIC": 0,
+          "SCRIPT_MISMATCH": 1,
+          "MARKER_LEAK": 1,
+          "FAMILY_COPY": 0,
+          "FAMILY_COPY_STRICT": 0,
+          "SCRIPT_MISMATCH_SR_LATIN": 0
+        }
+      }
+    }
+  },
+  "duplicates": {
+    "pairCount": 53,
+    "digest": "6ca4069dd6c5a39a1d12033a38fcd5d9e5b5811af6299696726ef94ad0c949be",
+    "source": "reports/lv-de-verify.json DUPLICATE_ACROSS_LEVELS SAME_LV on origin/cursor/lv-de-verify-f86b; recomputed on HEAD and matched",
+    "byLang": [
+      {
+        "lang": "sl",
+        "same": 25,
+        "different": 28,
+        "percent": "52.83%"
+      },
+      {
+        "lang": "bs",
+        "same": 29,
+        "different": 24,
+        "percent": "45.28%"
+      },
+      {
+        "lang": "cs",
+        "same": 41,
+        "different": 12,
+        "percent": "22.64%"
+      },
+      {
+        "lang": "sv",
+        "same": 45,
+        "different": 8,
+        "percent": "15.09%"
+      },
+      {
+        "lang": "en",
+        "same": 47,
+        "different": 6,
+        "percent": "11.32%"
+      },
+      {
+        "lang": "fi",
+        "same": 48,
+        "different": 5,
+        "percent": "9.43%"
+      },
+      {
+        "lang": "is",
+        "same": 48,
+        "different": 5,
+        "percent": "9.43%"
+      },
+      {
+        "lang": "pt",
+        "same": 48,
+        "different": 5,
+        "percent": "9.43%"
+      },
+      {
+        "lang": "es",
+        "same": 49,
+        "different": 4,
+        "percent": "7.55%"
+      },
+      {
+        "lang": "gr",
+        "same": 49,
+        "different": 4,
+        "percent": "7.55%"
+      },
+      {
+        "lang": "nb",
+        "same": 49,
+        "different": 4,
+        "percent": "7.55%"
+      },
+      {
+        "lang": "nn",
+        "same": 49,
+        "different": 4,
+        "percent": "7.55%"
+      },
+      {
+        "lang": "sr",
+        "same": 49,
+        "different": 4,
+        "percent": "7.55%"
+      },
+      {
+        "lang": "et",
+        "same": 50,
+        "different": 3,
+        "percent": "5.66%"
+      },
+      {
+        "lang": "bg",
+        "same": 51,
+        "different": 2,
+        "percent": "3.77%"
+      },
+      {
+        "lang": "fr",
+        "same": 51,
+        "different": 2,
+        "percent": "3.77%"
+      },
+      {
+        "lang": "hu",
+        "same": 51,
+        "different": 2,
+        "percent": "3.77%"
+      },
+      {
+        "lang": "it",
+        "same": 51,
+        "different": 2,
+        "percent": "3.77%"
+      },
+      {
+        "lang": "sk",
+        "same": 51,
+        "different": 2,
+        "percent": "3.77%"
+      },
+      {
+        "lang": "hr",
+        "same": 52,
+        "different": 1,
+        "percent": "1.89%"
+      },
+      {
+        "lang": "lb",
+        "same": 52,
+        "different": 1,
+        "percent": "1.89%"
+      },
+      {
+        "lang": "lt",
+        "same": 52,
+        "different": 1,
+        "percent": "1.89%"
+      },
+      {
+        "lang": "mk",
+        "same": 52,
+        "different": 1,
+        "percent": "1.89%"
+      },
+      {
+        "lang": "nl",
+        "same": 52,
+        "different": 1,
+        "percent": "1.89%"
+      },
+      {
+        "lang": "pl",
+        "same": 52,
+        "different": 1,
+        "percent": "1.89%"
+      },
+      {
+        "lang": "ro",
+        "same": 52,
+        "different": 1,
+        "percent": "1.89%"
+      },
+      {
+        "lang": "ru",
+        "same": 52,
+        "different": 1,
+        "percent": "1.89%"
+      },
+      {
+        "lang": "sq",
+        "same": 52,
+        "different": 1,
+        "percent": "1.89%"
+      },
+      {
+        "lang": "tr",
+        "same": 52,
+        "different": 1,
+        "percent": "1.89%"
+      },
+      {
+        "lang": "uk",
+        "same": 52,
+        "different": 1,
+        "percent": "1.89%"
+      },
+      {
+        "lang": "da",
+        "same": 53,
+        "different": 0,
+        "percent": "0.00%"
+      }
+    ],
+    "highest": {
+      "lang": "sl",
+      "examples": [
+        {
+          "de": "sprechen",
+          "lv": "runāt",
+          "left": "A1[5]",
+          "right": "A2[1627]",
+          "leftValue": "govoriti",
+          "rightValue": "runāt"
+        },
+        {
+          "de": "klein",
+          "lv": "mazs",
+          "left": "A1[6]",
+          "right": "A2[1630]",
+          "leftValue": "majhen",
+          "rightValue": "mazs"
+        },
+        {
+          "de": "auch",
+          "lv": "arī",
+          "left": "A1[48]",
+          "right": "A2[1639]",
+          "leftValue": "tudi",
+          "rightValue": "arī"
+        },
+        {
+          "de": "Besucher",
+          "lv": "apmeklētājs",
+          "left": "A1[88]",
+          "right": "A2[245]",
+          "leftValue": "obiskovalec",
+          "rightValue": "apmeklētājs"
+        },
+        {
+          "de": "Bitte",
+          "lv": "lūgums",
+          "left": "A1[94]",
+          "right": "A2[257]",
+          "leftValue": "prošnja",
+          "rightValue": "lūgums"
+        },
+        {
+          "de": "Geschwister",
+          "lv": "brāļi un māsas",
+          "left": "A1[234]",
+          "right": "A2[586]",
+          "leftValue": "bratje in sestre",
+          "rightValue": "brāļi un māsas"
+        },
+        {
+          "de": "groß",
+          "lv": "liels",
+          "left": "A1[250]",
+          "right": "A2[1628]",
+          "leftValue": "velik",
+          "rightValue": "liels"
+        },
+        {
+          "de": "hoch",
+          "lv": "augsts",
+          "left": "A1[285]",
+          "right": "A2[1629]",
+          "leftValue": "visok",
+          "rightValue": "augsts"
+        },
+        {
+          "de": "höflich",
+          "lv": "pieklājīgs",
+          "left": "A1[286]",
+          "right": "A2[679]",
+          "leftValue": "prijazen",
+          "rightValue": "pieklājīgs"
+        },
+        {
+          "de": "hören",
+          "lv": "dzirdēt • klausīties",
+          "left": "A1[287]",
+          "right": "A2[1625]",
+          "leftValue": "slišati • poslušati",
+          "rightValue": "dzirdēt • klausīties"
+        }
+      ]
+    },
+    "byLevelPair": [
+      {
+        "levelPair": "A1/A2",
+        "pairs": 27,
+        "same": 755,
+        "different": 82
+      },
+      {
+        "levelPair": "A1/B1",
+        "pairs": 1,
+        "same": 28,
+        "different": 3
+      },
+      {
+        "levelPair": "A1/B2",
+        "pairs": 1,
+        "same": 29,
+        "different": 2
+      },
+      {
+        "levelPair": "A2/B1",
+        "pairs": 14,
+        "same": 405,
+        "different": 29
+      },
+      {
+        "levelPair": "B1/B2",
+        "pairs": 2,
+        "same": 51,
+        "different": 11
+      },
+      {
+        "levelPair": "B1/C1",
+        "pairs": 2,
+        "same": 60,
+        "different": 2
+      },
+      {
+        "levelPair": "B2/C1",
+        "pairs": 2,
+        "same": 62,
+        "different": 0
+      },
+      {
+        "levelPair": "C1/C2",
+        "pairs": 4,
+        "same": 116,
+        "different": 8
+      }
+    ]
+  },
+  "gaps": [
+    {
+      "lang": "sl",
+      "check": "SAME_AS_LV_CASEFOLD",
+      "a1": "1.28",
+      "average": "99.77",
+      "delta": "-98.49"
+    },
+    {
+      "lang": "lb",
+      "check": "FAMILY_COPY_STRICT",
+      "a1": "10.11",
+      "average": "92.82",
+      "delta": "-82.71"
+    },
+    {
+      "lang": "lb",
+      "check": "SAME_AS_LV_CASEFOLD",
+      "a1": "8.26",
+      "average": "89.21",
+      "delta": "-80.95"
+    },
+    {
+      "lang": "sq",
+      "check": "FAMILY_COPY_STRICT",
+      "a1": "13.25",
+      "average": "91.34",
+      "delta": "-78.09"
+    },
+    {
+      "lang": "tr",
+      "check": "FAMILY_COPY_STRICT",
+      "a1": "13.82",
+      "average": "91.38",
+      "delta": "-77.56"
+    },
+    {
+      "lang": "pl",
+      "check": "FAMILY_COPY_STRICT",
+      "a1": "8.97",
+      "average": "83.31",
+      "delta": "-74.33"
+    },
+    {
+      "lang": "sl",
+      "check": "LV_DIACRITIC",
+      "a1": "1.42",
+      "average": "71.46",
+      "delta": "-70.03"
+    },
+    {
+      "lang": "sl",
+      "check": "MARKER_LEAK",
+      "a1": "1.42",
+      "average": "71.46",
+      "delta": "-70.03"
+    },
+    {
+      "lang": "nl",
+      "check": "FAMILY_COPY_STRICT",
+      "a1": "32.76",
+      "average": "95.58",
+      "delta": "-62.81"
+    },
+    {
+      "lang": "lb",
+      "check": "LV_DIACRITIC",
+      "a1": "6.84",
+      "average": "67.79",
+      "delta": "-60.95"
+    },
+    {
+      "lang": "sk",
+      "check": "FAMILY_COPY_STRICT",
+      "a1": "22.08",
+      "average": "81.44",
+      "delta": "-59.36"
+    },
+    {
+      "lang": "lb",
+      "check": "MARKER_LEAK",
+      "a1": "5.98",
+      "average": "65.04",
+      "delta": "-59.06"
+    },
+    {
+      "lang": "it",
+      "check": "SAME_AS_LV_CASEFOLD",
+      "a1": "24.50",
+      "average": "81.02",
+      "delta": "-56.52"
+    },
+    {
+      "lang": "it",
+      "check": "LV_DIACRITIC",
+      "a1": "12.39",
+      "average": "63.39",
+      "delta": "-50.99"
+    },
+    {
+      "lang": "it",
+      "check": "MARKER_LEAK",
+      "a1": "9.83",
+      "average": "60.46",
+      "delta": "-50.63"
+    },
+    {
+      "lang": "ru",
+      "check": "FAMILY_COPY_STRICT",
+      "a1": "15.10",
+      "average": "59.87",
+      "delta": "-44.77"
+    },
+    {
+      "lang": "it",
+      "check": "FAMILY_COPY_STRICT",
+      "a1": "47.86",
+      "average": "90.72",
+      "delta": "-42.85"
+    },
+    {
+      "lang": "sk",
+      "check": "MARKER_LEAK",
+      "a1": "0.00",
+      "average": "34.93",
+      "delta": "-34.93"
+    },
+    {
+      "lang": "pt",
+      "check": "LV_DIACRITIC",
+      "a1": "8.26",
+      "average": "41.88",
+      "delta": "-33.62"
+    },
+    {
+      "lang": "pt",
+      "check": "MARKER_LEAK",
+      "a1": "6.70",
+      "average": "38.62",
+      "delta": "-31.92"
+    },
+    {
+      "lang": "nl",
+      "check": "MARKER_LEAK",
+      "a1": "37.18",
+      "average": "68.00",
+      "delta": "-30.82"
+    },
+    {
+      "lang": "hr",
+      "check": "MARKER_LEAK",
+      "a1": "64.96",
+      "average": "94.77",
+      "delta": "-29.82"
+    },
+    {
+      "lang": "hr",
+      "check": "SCRIPT_MISMATCH",
+      "a1": "64.96",
+      "average": "94.77",
+      "delta": "-29.82"
+    },
+    {
+      "lang": "nl",
+      "check": "LV_DIACRITIC",
+      "a1": "41.60",
+      "average": "70.94",
+      "delta": "-29.35"
+    },
+    {
+      "lang": "sr",
+      "check": "MARKER_LEAK",
+      "a1": "32.76",
+      "average": "5.45",
+      "delta": "27.31"
+    },
+    {
+      "lang": "sr",
+      "check": "SCRIPT_MISMATCH",
+      "a1": "32.76",
+      "average": "5.45",
+      "delta": "27.31"
+    },
+    {
+      "lang": "bg",
+      "check": "FAMILY_COPY_STRICT",
+      "a1": "66.38",
+      "average": "92.72",
+      "delta": "-26.34"
+    },
+    {
+      "lang": "sq",
+      "check": "MARKER_LEAK",
+      "a1": "2.56",
+      "average": "26.81",
+      "delta": "-24.24"
+    },
+    {
+      "lang": "sl",
+      "check": "FAMILY_COPY_STRICT",
+      "a1": "23.22",
+      "average": "0.00",
+      "delta": "23.22"
+    },
+    {
+      "lang": "bs",
+      "check": "FAMILY_COPY_STRICT",
+      "a1": "23.93",
+      "average": "2.48",
+      "delta": "21.45"
+    },
+    {
+      "lang": "pt",
+      "check": "SAME_AS_LV_CASEFOLD",
+      "a1": "16.95",
+      "average": "37.92",
+      "delta": "-20.97"
+    }
+  ],
+  "markerExamples": {
+    "bg": [
+      {
+        "level": "A1",
+        "index": 78,
+        "de": "bei",
+        "lv": "pie",
+        "value": "IN",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A1",
+        "index": 122,
+        "de": "CD",
+        "lv": "CD",
+        "value": "CD",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A1",
+        "index": 295,
+        "de": "in",
+        "lv": "iekšā • uz",
+        "value": "IN",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A1",
+        "index": 391,
+        "de": "malen",
+        "lv": "gleznot • krāsot",
+        "value": "Draw • Draw",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 30,
+        "de": "aktuell",
+        "lv": "aktuāls • pašreizējs",
+        "value": "Current • Current",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 305,
+        "de": "CD-Player",
+        "lv": "kompaktdisku atskaņotājs",
+        "value": "CD плейър",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 461,
+        "de": "färben",
+        "lv": "krāsot • nokrāsot",
+        "value": "Draw • Draw",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 1327,
+        "de": "Sohle",
+        "lv": "zole • pazole",
+        "value": "Подметка • Psol",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "B1",
+        "index": 624,
+        "de": "Durcheinander",
+        "lv": "juku jukām • juceklis",
+        "value": "Juku jukam • Каталия",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "B1",
+        "index": 1739,
+        "de": "Lebenslauf",
+        "lv": "dzīves apraksts (CV)",
+        "value": "Резюме (CV)",
+        "detail": "latin_in_cyrillic"
+      }
+    ],
+    "bs": [
+      {
+        "level": "A2",
+        "index": 199,
+        "de": "barfuß",
+        "lv": "basām kājām",
+        "value": "bos бос?",
+        "detail": "foreign_script"
+      }
+    ],
+    "cs": [
+      {
+        "level": "B1",
+        "index": 420,
+        "de": "bewachen",
+        "lv": "sargāt",
+        "value": "Hlídат",
+        "detail": "foreign_script"
+      },
+      {
+        "level": "B2",
+        "index": 902,
+        "de": "geläufig",
+        "lv": "zināms • pazīstams • ierasts • tekošs • brīvs",
+        "value": "Zināms • Pazīstams • Ierasts • Tekošs • Brīvs",
+        "detail": "lv_macron_consonant"
+      }
+    ],
+    "da": [],
+    "en": [],
+    "es": [],
+    "et": [
+      {
+        "level": "A2",
+        "index": 581,
+        "de": "Gericht",
+        "lv": "ēdiens • maltīte",
+        "value": "Wir schließen einen Vertrag. = valodas Me sõlmime lepingu.",
+        "detail": "de_eszett"
+      },
+      {
+        "level": "A2",
+        "index": 748,
+        "de": "Kaffeepulver",
+        "lv": "šķīstošā kafija",
+        "value": "Ich gieße die Blumen. = Ma kastan lilli.",
+        "detail": "de_eszett"
+      }
+    ],
+    "fi": [
+      {
+        "level": "A1",
+        "index": 0,
+        "de": "Apfel",
+        "lv": "ābols",
+        "value": "Õun",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 4,
+        "de": "lernen",
+        "lv": "mācīties",
+        "value": "Õppima",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 7,
+        "de": "alle",
+        "lv": "visi",
+        "value": "Kõik",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 9,
+        "de": "alles",
+        "lv": "viss",
+        "value": "Kõik",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 18,
+        "de": "Abend",
+        "lv": "vakars",
+        "value": "Õhtu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 19,
+        "de": "Abendessen",
+        "lv": "vakariņas",
+        "value": "Õhtusöök",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 20,
+        "de": "abends",
+        "lv": "vakarā",
+        "value": "Õhtul",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 38,
+        "de": "Apfelbaum",
+        "lv": "ābele",
+        "value": "Õunapuu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 52,
+        "de": "aufstehen",
+        "lv": "piecelties",
+        "value": "Püsti tõusma",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 58,
+        "de": "auf dem Boden",
+        "lv": "uz grīdas",
+        "value": "Põrandal",
+        "detail": "et_otilde"
+      }
+    ],
+    "fr": [],
+    "gr": [
+      {
+        "level": "A1",
+        "index": 122,
+        "de": "CD",
+        "lv": "CD",
+        "value": "CD",
+        "detail": "latin_in_greek"
+      },
+      {
+        "level": "A1",
+        "index": 159,
+        "de": "E-Mail",
+        "lv": "e-pasts",
+        "value": "E-mail",
+        "detail": "latin_in_greek"
+      },
+      {
+        "level": "A2",
+        "index": 274,
+        "de": "Bonbon",
+        "lv": "konfekte",
+        "value": "Comm",
+        "detail": "latin_in_greek"
+      },
+      {
+        "level": "A2",
+        "index": 305,
+        "de": "CD-Player",
+        "lv": "kompaktdisku atskaņotājs",
+        "value": "CD player",
+        "detail": "latin_in_greek"
+      },
+      {
+        "level": "A2",
+        "index": 368,
+        "de": "e-mailen",
+        "lv": "nosūtīt e-pastu",
+        "value": "Για να στείλετε ένα e-mail",
+        "detail": "latin_in_greek"
+      },
+      {
+        "level": "A2",
+        "index": 621,
+        "de": "Hähnchen",
+        "lv": "cālis • vistas gaļa",
+        "value": "Baby κοτόπουλο • Κρέας κοτόπουλου",
+        "detail": "latin_in_greek"
+      },
+      {
+        "level": "A2",
+        "index": 715,
+        "de": "Internet",
+        "lv": "internets",
+        "value": "Internet",
+        "detail": "latin_in_greek"
+      },
+      {
+        "level": "A2",
+        "index": 827,
+        "de": "Konfekt",
+        "lv": "konfekte",
+        "value": "Comm",
+        "detail": "latin_in_greek"
+      },
+      {
+        "level": "A2",
+        "index": 1322,
+        "de": "Skateboard",
+        "lv": "skrituļdēlis",
+        "value": "Skateboard",
+        "detail": "latin_in_greek"
+      },
+      {
+        "level": "A2",
+        "index": 1418,
+        "de": "Tal",
+        "lv": "ieleja",
+        "value": "Org",
+        "detail": "latin_in_greek"
+      }
+    ],
+    "hr": [
+      {
+        "level": "A1",
+        "index": 3,
+        "de": "Haus",
+        "lv": "māja",
+        "value": "Куќа",
+        "detail": "foreign_script"
+      },
+      {
+        "level": "A1",
+        "index": 6,
+        "de": "klein",
+        "lv": "mazs",
+        "value": "Мали",
+        "detail": "foreign_script"
+      },
+      {
+        "level": "A1",
+        "index": 9,
+        "de": "alles",
+        "lv": "viss",
+        "value": "Сите",
+        "detail": "foreign_script"
+      },
+      {
+        "level": "A1",
+        "index": 10,
+        "de": "alt",
+        "lv": "vecs",
+        "value": "Стари",
+        "detail": "foreign_script"
+      },
+      {
+        "level": "A1",
+        "index": 13,
+        "de": "Anfang",
+        "lv": "sākums",
+        "value": "Започнете",
+        "detail": "foreign_script"
+      },
+      {
+        "level": "A1",
+        "index": 14,
+        "de": "anfangen",
+        "lv": "sākt",
+        "value": "Започнете",
+        "detail": "foreign_script"
+      },
+      {
+        "level": "A1",
+        "index": 16,
+        "de": "anrufen",
+        "lv": "zvanīt",
+        "value": "Јавете ми се",
+        "detail": "foreign_script"
+      },
+      {
+        "level": "A1",
+        "index": 17,
+        "de": "ab",
+        "lv": "no",
+        "value": "Од",
+        "detail": "foreign_script"
+      },
+      {
+        "level": "A1",
+        "index": 19,
+        "de": "Abendessen",
+        "lv": "vakariņas",
+        "value": "Вечера",
+        "detail": "foreign_script"
+      },
+      {
+        "level": "A1",
+        "index": 20,
+        "de": "abends",
+        "lv": "vakarā",
+        "value": "Во вечерните часови",
+        "detail": "foreign_script"
+      }
+    ],
+    "hu": [
+      {
+        "level": "C1",
+        "index": 224,
+        "de": "bereitwillig",
+        "lv": "gatavs pakalpot • pakalpīgs",
+        "value": "Szolgálatkész • Kötelezõ",
+        "detail": "et_otilde"
+      }
+    ],
+    "is": [
+      {
+        "level": "A1",
+        "index": 4,
+        "de": "lernen",
+        "lv": "mācīties",
+        "value": "Õppima",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 19,
+        "de": "Abendessen",
+        "lv": "vakariņas",
+        "value": "Õhtusöök",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 20,
+        "de": "abends",
+        "lv": "vakarā",
+        "value": "Õhtul",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 38,
+        "de": "Apfelbaum",
+        "lv": "ābele",
+        "value": "Õunapuu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 58,
+        "de": "auf dem Boden",
+        "lv": "uz grīdas",
+        "value": "Põrandal",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 70,
+        "de": "Balkon",
+        "lv": "balkons",
+        "value": "Rõdu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 96,
+        "de": "Bier",
+        "lv": "alus",
+        "value": "Õlu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 124,
+        "de": "Cousin",
+        "lv": "brālēns",
+        "value": "Nõbu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 125,
+        "de": "Cousine",
+        "lv": "māsīca",
+        "value": "Nõbu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 133,
+        "de": "denken",
+        "lv": "domāt",
+        "value": "Mõtlema",
+        "detail": "et_otilde"
+      }
+    ],
+    "it": [
+      {
+        "level": "A1",
+        "index": 14,
+        "de": "anfangen",
+        "lv": "sākt",
+        "value": "Sākt",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 19,
+        "de": "Abendessen",
+        "lv": "vakariņas",
+        "value": "Vakariņas",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 24,
+        "de": "Affe",
+        "lv": "pērtiķis",
+        "value": "Pērtiˈis",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 57,
+        "de": "aus",
+        "lv": "no",
+        "value": "No • Ārā",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 60,
+        "de": "aufs",
+        "lv": "uz",
+        "value": "Uz • Virsū • Kurp?",
+        "detail": "lv_u_macron"
+      },
+      {
+        "level": "A1",
+        "index": 62,
+        "de": "Augenfarbe",
+        "lv": "acu krāsa",
+        "value": "Acu krāsa",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 68,
+        "de": "baden",
+        "lv": "peldēties",
+        "value": "Peldēties",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 73,
+        "de": "Bauch",
+        "lv": "vēders",
+        "value": "Vēders",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 77,
+        "de": "beginnen",
+        "lv": "sākt",
+        "value": "Sākt",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 82,
+        "de": "bekommen",
+        "lv": "saņemt",
+        "value": "Saņemt",
+        "detail": "lv_macron_consonant"
+      }
+    ],
+    "lb": [
+      {
+        "level": "A1",
+        "index": 57,
+        "de": "aus",
+        "lv": "no",
+        "value": "No • Ārā",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 58,
+        "de": "auf dem Boden",
+        "lv": "uz grīdas",
+        "value": "Uz grīdas",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 60,
+        "de": "aufs",
+        "lv": "uz",
+        "value": "Uz • Virsū • Kurp?",
+        "detail": "lv_u_macron"
+      },
+      {
+        "level": "A1",
+        "index": 134,
+        "de": "der",
+        "lv": "vīriešu dzimtes noteiktais artikuls",
+        "value": "Vīriešu dzimtes noteiktais artikuls",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 167,
+        "de": "es",
+        "lv": "tas",
+        "value": "Bag • Tā • Bezpersoniska Forma",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 170,
+        "de": "euch",
+        "lv": "jūs • jums",
+        "value": "Jūs • Jums",
+        "detail": "lv_u_macron"
+      },
+      {
+        "level": "A1",
+        "index": 226,
+        "de": "gegen",
+        "lv": "pret",
+        "value": "Spaß",
+        "detail": "de_eszett"
+      },
+      {
+        "level": "A1",
+        "index": 243,
+        "de": "gleich",
+        "lv": "tūlīt",
+        "value": "Tūlīt • Vienāds",
+        "detail": "lv_macron_consonant+lv_u_macron"
+      },
+      {
+        "level": "A1",
+        "index": 265,
+        "de": "halten",
+        "lv": "turēt",
+        "value": "Turēt • Apturēt",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 271,
+        "de": "Handy",
+        "lv": "mobilais tālrunis",
+        "value": "Mobilais tālrunis",
+        "detail": "lv_macron_consonant"
+      }
+    ],
+    "lt": [],
+    "mk": [
+      {
+        "level": "A1",
+        "index": 391,
+        "de": "malen",
+        "lv": "gleznot • krāsot",
+        "value": "Draw • Draw",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 305,
+        "de": "CD-Player",
+        "lv": "kompaktdisku atskaņotājs",
+        "value": "CD плейър",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 461,
+        "de": "färben",
+        "lv": "krāsot • nokrāsot",
+        "value": "Draw • Draw",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 1327,
+        "de": "Sohle",
+        "lv": "zole • pazole",
+        "value": "Подметка • Psol",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "B1",
+        "index": 624,
+        "de": "Durcheinander",
+        "lv": "juku jukām • juceklis",
+        "value": "Juku jukam • Каталия",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "B1",
+        "index": 1739,
+        "de": "Lebenslauf",
+        "lv": "dzīves apraksts (CV)",
+        "value": "Резюме (CV)",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "B1",
+        "index": 1852,
+        "de": "matt",
+        "lv": "blāvs",
+        "value": "Dim",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "B1",
+        "index": 2100,
+        "de": "Pflichtgefühl",
+        "lv": "pienākuma apziņa",
+        "value": "Call of Duty",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "B1",
+        "index": 2467,
+        "de": "schlingen",
+        "lv": "vīt",
+        "value": "Twist",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "B1",
+        "index": 2691,
+        "de": "Splitter",
+        "lv": "šķemba",
+        "value": "Shard",
+        "detail": "latin_in_cyrillic"
+      }
+    ],
+    "nb": [
+      {
+        "level": "A1",
+        "index": 4,
+        "de": "lernen",
+        "lv": "mācīties",
+        "value": "Õppima",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 19,
+        "de": "Abendessen",
+        "lv": "vakariņas",
+        "value": "Õhtusöök",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 20,
+        "de": "abends",
+        "lv": "vakarā",
+        "value": "Õhtul",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 38,
+        "de": "Apfelbaum",
+        "lv": "ābele",
+        "value": "Õunapuu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 58,
+        "de": "auf dem Boden",
+        "lv": "uz grīdas",
+        "value": "Põrandal",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 70,
+        "de": "Balkon",
+        "lv": "balkons",
+        "value": "Rõdu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 96,
+        "de": "Bier",
+        "lv": "alus",
+        "value": "Õlu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 124,
+        "de": "Cousin",
+        "lv": "brālēns",
+        "value": "Nõbu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 125,
+        "de": "Cousine",
+        "lv": "māsīca",
+        "value": "Nõbu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 133,
+        "de": "denken",
+        "lv": "domāt",
+        "value": "Mõtlema",
+        "detail": "et_otilde"
+      }
+    ],
+    "nl": [
+      {
+        "level": "A1",
+        "index": 2,
+        "de": "Wasser",
+        "lv": "ūdens",
+        "value": "Ūdens",
+        "detail": "lv_u_macron"
+      },
+      {
+        "level": "A1",
+        "index": 4,
+        "de": "lernen",
+        "lv": "mācīties",
+        "value": "Mācīties",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 5,
+        "de": "sprechen",
+        "lv": "runāt",
+        "value": "Runāt",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 13,
+        "de": "Anfang",
+        "lv": "sākums",
+        "value": "Sākums",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 14,
+        "de": "anfangen",
+        "lv": "sākt",
+        "value": "Sākt",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 15,
+        "de": "anders",
+        "lv": "citādi",
+        "value": "Citādi",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 16,
+        "de": "anrufen",
+        "lv": "zvanīt",
+        "value": "Zvanīt",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 19,
+        "de": "Abendessen",
+        "lv": "vakariņas",
+        "value": "Vakariņas",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 20,
+        "de": "abends",
+        "lv": "vakarā",
+        "value": "Vakarā",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 22,
+        "de": "achten",
+        "lv": "ievērot",
+        "value": "Ievērot",
+        "detail": "lv_macron_consonant"
+      }
+    ],
+    "nn": [
+      {
+        "level": "A1",
+        "index": 4,
+        "de": "lernen",
+        "lv": "mācīties",
+        "value": "Õppima",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 19,
+        "de": "Abendessen",
+        "lv": "vakariņas",
+        "value": "Õhtusöök",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 20,
+        "de": "abends",
+        "lv": "vakarā",
+        "value": "Õhtul",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 38,
+        "de": "Apfelbaum",
+        "lv": "ābele",
+        "value": "Õunapuu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 58,
+        "de": "auf dem Boden",
+        "lv": "uz grīdas",
+        "value": "Põrandal",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 70,
+        "de": "Balkon",
+        "lv": "balkons",
+        "value": "Rõdu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 96,
+        "de": "Bier",
+        "lv": "alus",
+        "value": "Õlu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 124,
+        "de": "Cousin",
+        "lv": "brālēns",
+        "value": "Nõbu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 125,
+        "de": "Cousine",
+        "lv": "māsīca",
+        "value": "Nõbu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 133,
+        "de": "denken",
+        "lv": "domāt",
+        "value": "Mõtlema",
+        "detail": "et_otilde"
+      }
+    ],
+    "pl": [],
+    "pt": [
+      {
+        "level": "A1",
+        "index": 14,
+        "de": "anfangen",
+        "lv": "sākt",
+        "value": "Sākt",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 24,
+        "de": "Affe",
+        "lv": "pērtiķis",
+        "value": "Pērtiˈis",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 60,
+        "de": "aufs",
+        "lv": "uz",
+        "value": "Uz • Virsū • Kurp?",
+        "detail": "lv_u_macron"
+      },
+      {
+        "level": "A1",
+        "index": 68,
+        "de": "baden",
+        "lv": "peldēties",
+        "value": "Peldēties",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 73,
+        "de": "Bauch",
+        "lv": "vēders",
+        "value": "Vēders",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 77,
+        "de": "beginnen",
+        "lv": "sākt",
+        "value": "Sākt",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 88,
+        "de": "Besucher",
+        "lv": "apmeklētājs",
+        "value": "Apmekletājs",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 113,
+        "de": "Brötchen",
+        "lv": "maizīte",
+        "value": "Bulcíņa",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 124,
+        "de": "Cousin",
+        "lv": "brālēns",
+        "value": "Brālens",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 134,
+        "de": "der",
+        "lv": "vīriešu dzimtes noteiktais artikuls",
+        "value": "Vīriešu dzimtes noteiktais artigos",
+        "detail": "lv_macron_consonant"
+      }
+    ],
+    "ro": [],
+    "ru": [
+      {
+        "level": "A2",
+        "index": 305,
+        "de": "CD-Player",
+        "lv": "kompaktdisku atskaņotājs",
+        "value": "CD-плеер",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "B1",
+        "index": 1739,
+        "de": "Lebenslauf",
+        "lv": "dzīves apraksts (CV)",
+        "value": "Резюме (CV)",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "B2",
+        "index": 1544,
+        "de": "sächlich",
+        "lv": "~es Geschlecht gram. • nekatrā dzimte",
+        "value": "~es Geschlecht грамм. • Любой пол",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "B2",
+        "index": 1569,
+        "de": "scheiden",
+        "lv": "[at]šķirt • atdalīt • šķirt • sich sch. lassen • šķirties • izšķirties",
+        "value": "[не]отдельный • Отдельный • Отдельный • Сич сч. lassen • Расстаться • Расстаться",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "B2",
+        "index": 1665,
+        "de": "Spaltung",
+        "lv": "skaldīšana • [sa]šķelšana • [sa]šķelšanās",
+        "value": "Расщепление • [sa]расщепление • [sa]расщепление",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "B2",
+        "index": 1678,
+        "de": "sprengen",
+        "lv": "[uz]spridzināt • apslacīt • laistīt",
+        "value": "[on]взрыв • Опрыскать • Водой",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "C1",
+        "index": 489,
+        "de": "überanstrengen",
+        "lv": "pārpūlēt • sich ü. pārpūlēties",
+        "value": "Переутомляться • Sich ü. переутомляться",
+        "detail": "latin_in_cyrillic"
+      }
+    ],
+    "sk": [
+      {
+        "level": "A2",
+        "index": 456,
+        "de": "fallen",
+        "lv": "krist • nokrist",
+        "value": "Upaść • Upaść",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 457,
+        "de": "falten",
+        "lv": "locīt • salocīt",
+        "value": "Zginać • Składać",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 460,
+        "de": "fangen",
+        "lv": "ķert • noķert",
+        "value": "Złapać • Złapać",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 464,
+        "de": "Faust",
+        "lv": "dūre",
+        "value": "Pięść",
+        "detail": "pl_l_s_z+pl_lt_nasal"
+      },
+      {
+        "level": "A2",
+        "index": 468,
+        "de": "Feier",
+        "lv": "svinības • svētki",
+        "value": "Świętowanie • Świętowanie",
+        "detail": "pl_l_s_z+pl_lt_nasal"
+      },
+      {
+        "level": "A2",
+        "index": 478,
+        "de": "fern",
+        "lv": "tāls",
+        "value": "Odległy",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 495,
+        "de": "flach",
+        "lv": "plakans • sekls",
+        "value": "Płaski • Płytki",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 500,
+        "de": "Fliese",
+        "lv": "flīze",
+        "value": "Płytka",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 508,
+        "de": "folgen",
+        "lv": "sekot",
+        "value": "Podążać",
+        "detail": "pl_l_s_z+pl_lt_nasal"
+      },
+      {
+        "level": "A2",
+        "index": 509,
+        "de": "folgend",
+        "lv": "šāds • nākamais",
+        "value": "Następujące • Następne",
+        "detail": "pl_lt_nasal"
+      }
+    ],
+    "sl": [
+      {
+        "level": "A1",
+        "index": 49,
+        "de": "auf",
+        "lv": "uz",
+        "value": "uz • virsū • kurp?",
+        "detail": "lv_u_macron"
+      },
+      {
+        "level": "A1",
+        "index": 57,
+        "de": "aus",
+        "lv": "no",
+        "value": "no • ārā",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 113,
+        "de": "Brötchen",
+        "lv": "maizīte",
+        "value": "bulciņa",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 167,
+        "de": "es",
+        "lv": "tas",
+        "value": "tas • tā • bezpersoniska forma",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 187,
+        "de": "finden",
+        "lv": "atrast",
+        "value": "atrast • uzskatīt",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 265,
+        "de": "halten",
+        "lv": "turēt",
+        "value": "turēt • apturēt",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 276,
+        "de": "heißen",
+        "lv": "saukties",
+        "value": "saukties • nozīmēt",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 562,
+        "de": "sofort",
+        "lv": "tūlīt",
+        "value": "tūlīt • vienāds",
+        "detail": "lv_macron_consonant+lv_u_macron"
+      },
+      {
+        "level": "A1",
+        "index": 634,
+        "de": "vom",
+        "lv": "no",
+        "value": "no • ārā",
+        "detail": "lv_macron_consonant"
+      },
+      {
+        "level": "A1",
+        "index": 635,
+        "de": "von",
+        "lv": "no",
+        "value": "no • ārā",
+        "detail": "lv_macron_consonant"
+      }
+    ],
+    "sq": [
+      {
+        "level": "A1",
+        "index": 91,
+        "de": "bis",
+        "lv": "līdz",
+        "value": "Değin",
+        "detail": "tr_soft"
+      },
+      {
+        "level": "A1",
+        "index": 228,
+        "de": "gelb",
+        "lv": "dzeltens",
+        "value": "Sarı",
+        "detail": "tr_soft"
+      },
+      {
+        "level": "A1",
+        "index": 534,
+        "de": "sechste",
+        "lv": "sestais",
+        "value": "Altıncı",
+        "detail": "tr_soft"
+      },
+      {
+        "level": "A1",
+        "index": 536,
+        "de": "sechzehnte",
+        "lv": "sešpadsmitais",
+        "value": "On altıncı",
+        "detail": "tr_soft"
+      },
+      {
+        "level": "A1",
+        "index": 538,
+        "de": "sechzigste",
+        "lv": "sešdesmitais",
+        "value": "Altmışıncı",
+        "detail": "tr_soft"
+      },
+      {
+        "level": "A1",
+        "index": 563,
+        "de": "Sohn",
+        "lv": "dēls",
+        "value": "Oğul",
+        "detail": "tr_soft"
+      },
+      {
+        "level": "A1",
+        "index": 564,
+        "de": "sollen",
+        "lv": "vajadzētu",
+        "value": "Olmalı",
+        "detail": "tr_soft"
+      },
+      {
+        "level": "A1",
+        "index": 570,
+        "de": "spazieren gehen",
+        "lv": "iet pastaigāties",
+        "value": "Yürüyüşe çık",
+        "detail": "tr_soft"
+      },
+      {
+        "level": "A1",
+        "index": 590,
+        "de": "Tasse",
+        "lv": "tase",
+        "value": "Saldırıp soymak",
+        "detail": "tr_soft"
+      },
+      {
+        "level": "A1",
+        "index": 600,
+        "de": "Tochter",
+        "lv": "meita",
+        "value": "Kız çocuğu",
+        "detail": "tr_soft"
+      }
+    ],
+    "sr": [
+      {
+        "level": "A1",
+        "index": 0,
+        "de": "Apfel",
+        "lv": "ābols",
+        "value": "Jabolko.",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A1",
+        "index": 1,
+        "de": "Brot",
+        "lv": "maize",
+        "value": "Sveže.",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A1",
+        "index": 2,
+        "de": "Wasser",
+        "lv": "ūdens",
+        "value": "Voda",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A1",
+        "index": 4,
+        "de": "lernen",
+        "lv": "mācīties",
+        "value": "Raziskave",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A1",
+        "index": 5,
+        "de": "sprechen",
+        "lv": "runāt",
+        "value": "Govor",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A1",
+        "index": 7,
+        "de": "alle",
+        "lv": "visi",
+        "value": "Svi",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A1",
+        "index": 8,
+        "de": "allein",
+        "lv": "viens pats",
+        "value": "Jedan",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A1",
+        "index": 11,
+        "de": "Alter",
+        "lv": "vecums",
+        "value": "Godine?",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A1",
+        "index": 12,
+        "de": "an",
+        "lv": "pie",
+        "value": "V • Da • Predstavitev",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A1",
+        "index": 15,
+        "de": "anders",
+        "lv": "citādi",
+        "value": "Sicer ...",
+        "detail": "latin_in_cyrillic"
+      }
+    ],
+    "sv": [
+      {
+        "level": "A1",
+        "index": 0,
+        "de": "Apfel",
+        "lv": "ābols",
+        "value": "Õun",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 4,
+        "de": "lernen",
+        "lv": "mācīties",
+        "value": "Õppima",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 7,
+        "de": "alle",
+        "lv": "visi",
+        "value": "Kõik",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 9,
+        "de": "alles",
+        "lv": "viss",
+        "value": "Kõik",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 18,
+        "de": "Abend",
+        "lv": "vakars",
+        "value": "Õhtu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 19,
+        "de": "Abendessen",
+        "lv": "vakariņas",
+        "value": "Õhtusöök",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 20,
+        "de": "abends",
+        "lv": "vakarā",
+        "value": "Õhtul",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 38,
+        "de": "Apfelbaum",
+        "lv": "ābele",
+        "value": "Õunapuu",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 52,
+        "de": "aufstehen",
+        "lv": "piecelties",
+        "value": "Püsti tõusma",
+        "detail": "et_otilde"
+      },
+      {
+        "level": "A1",
+        "index": 58,
+        "de": "auf dem Boden",
+        "lv": "uz grīdas",
+        "value": "Põrandal",
+        "detail": "et_otilde"
+      }
+    ],
+    "tr": [
+      {
+        "level": "A2",
+        "index": 298,
+        "de": "Bügeleisen",
+        "lv": "gludeklis",
+        "value": "Żelazo",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 485,
+        "de": "Feuerlöscher",
+        "lv": "ugunsdzēšamais aparāts",
+        "value": "Gaśnica",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 507,
+        "de": "föhnen",
+        "lv": "žāvēt matus ar fēnu",
+        "value": "Wysuszyć włosy suszarką do włosów",
+        "detail": "pl_l_s_z+pl_lt_nasal"
+      },
+      {
+        "level": "A2",
+        "index": 524,
+        "de": "Freundschaft",
+        "lv": "draudzība",
+        "value": "Przyjaźń",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 544,
+        "de": "Fußballfeld",
+        "lv": "futbola laukums",
+        "value": "Boisko do piłki nożnej",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 555,
+        "de": "Gardine",
+        "lv": "logu aizkars",
+        "value": "Zasłona okienna",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 638,
+        "de": "Hauptbahnhof",
+        "lv": "galvenā stacija",
+        "value": "Stacja główna",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 675,
+        "de": "Hochzeit",
+        "lv": "kāzas",
+        "value": "Ślub",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 694,
+        "de": "Hunger",
+        "lv": "izsalkums",
+        "value": "Głód",
+        "detail": "pl_l_s_z"
+      },
+      {
+        "level": "A2",
+        "index": 702,
+        "de": "immens",
+        "lv": "ļoti liels",
+        "value": "Bardzo duży",
+        "detail": "pl_l_s_z"
+      }
+    ],
+    "uk": [
+      {
+        "level": "A1",
+        "index": 122,
+        "de": "CD",
+        "lv": "CD",
+        "value": "CD",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A1",
+        "index": 167,
+        "de": "es",
+        "lv": "tas",
+        "value": "it • it • безособова форма",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 21,
+        "de": "Achse",
+        "lv": "ass",
+        "value": "ass",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 68,
+        "de": "Antibiotikum",
+        "lv": "antibiotika",
+        "value": "antibiotika",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 175,
+        "de": "Autopanne",
+        "lv": "auto bojājums • kļūme",
+        "value": "auto пошкодження • невдача",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 176,
+        "de": "Autor",
+        "lv": "autors",
+        "value": "autors",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 193,
+        "de": "Band",
+        "lv": "lente • saite",
+        "value": "стрічка • saite",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 223,
+        "de": "beißen",
+        "lv": "kost • sakost • iekost",
+        "value": "kost • кусати • кусати",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 228,
+        "de": "bellen",
+        "lv": "riet",
+        "value": "riet",
+        "detail": "latin_in_cyrillic"
+      },
+      {
+        "level": "A2",
+        "index": 274,
+        "de": "Bonbon",
+        "lv": "konfekte",
+        "value": "konfekte",
+        "detail": "latin_in_cyrillic"
+      }
+    ]
+  },
+  "markerSets": [
+    {
+      "id": "et_otilde",
+      "chars": "õÕ",
+      "allow": [
+        "et",
+        "pt"
+      ],
+      "note": "igauņu õ; portugāļu ortogrāfijā õ ir atļauts"
+    },
+    {
+      "id": "pl_l_s_z",
+      "chars": "łŁśŚźŹżŻ",
+      "allow": [
+        "pl"
+      ],
+      "note": "poļu ł ś ź ż"
+    },
+    {
+      "id": "pl_lt_nasal",
+      "chars": "ąĄęĘ",
+      "allow": [
+        "pl",
+        "lt"
+      ],
+      "note": "poļu ą ę; lietuviešu ortogrāfijā ą un ę ir atļauti"
+    },
+    {
+      "id": "tr_soft",
+      "chars": "ğĞıİ",
+      "allow": [
+        "tr"
+      ],
+      "note": "turku ğ, ı (U+0131) un İ (U+0130)"
+    },
+    {
+      "id": "lv_macron_consonant",
+      "chars": "āĀēĒīĪķĶļĻņŅģĢ",
+      "allow": [],
+      "note": "latviešu ā ē ī ķ ļ ņ ģ; nevienai mērķvalodai nav šajā kopā"
+    },
+    {
+      "id": "lv_u_macron",
+      "chars": "ūŪ",
+      "allow": [
+        "lt"
+      ],
+      "note": "latviešu ū; lietuviešu ortogrāfijā ū ir atļauts"
+    },
+    {
+      "id": "de_eszett",
+      "chars": "ß",
+      "allow": [],
+      "note": "vācu ß; mērķvalodu ortogrāfijā nav"
+    }
+  ],
+  "strictGroups": [
+    {
+      "languages": [
+        "fi",
+        "is",
+        "nb",
+        "nn",
+        "sv"
+      ],
+      "edges": [
+        {
+          "pair": "fi+sv",
+          "count": 8325
+        },
+        {
+          "pair": "nb+nn",
+          "count": 8321
+        },
+        {
+          "pair": "is+nb",
+          "count": 8314
+        },
+        {
+          "pair": "is+nn",
+          "count": 8311
+        },
+        {
+          "pair": "fi+nb",
+          "count": 6712
+        },
+        {
+          "pair": "fi+is",
+          "count": 6711
+        },
+        {
+          "pair": "fi+nn",
+          "count": 6710
+        },
+        {
+          "pair": "nb+sv",
+          "count": 6703
+        },
+        {
+          "pair": "is+sv",
+          "count": 6702
+        },
+        {
+          "pair": "nn+sv",
+          "count": 6701
+        }
+      ],
+      "sharedRows": 73510,
+      "examples": {
+        "A1": [
+          {
+            "level": "A1",
+            "index": 0,
+            "de": "Apfel",
+            "lv": "ābols",
+            "value": "Õun",
+            "family": "fi+sv"
+          },
+          {
+            "level": "A1",
+            "index": 1,
+            "de": "Brot",
+            "lv": "maize",
+            "value": "Leib",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "A1",
+            "index": 2,
+            "de": "Wasser",
+            "lv": "ūdens",
+            "value": "Vesi",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "A1",
+            "index": 3,
+            "de": "Haus",
+            "lv": "māja",
+            "value": "Maja",
+            "family": "fi+sv"
+          },
+          {
+            "level": "A1",
+            "index": 4,
+            "de": "lernen",
+            "lv": "mācīties",
+            "value": "Õppima",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "A1",
+            "index": 6,
+            "de": "klein",
+            "lv": "mazs",
+            "value": "Väike",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "A1",
+            "index": 7,
+            "de": "alle",
+            "lv": "visi",
+            "value": "Kõik",
+            "family": "fi+sv"
+          },
+          {
+            "level": "A1",
+            "index": 8,
+            "de": "allein",
+            "lv": "viens pats",
+            "value": "Üksi",
+            "family": "fi+sv"
+          },
+          {
+            "level": "A1",
+            "index": 9,
+            "de": "alles",
+            "lv": "viss",
+            "value": "Kõik",
+            "family": "fi+sv"
+          },
+          {
+            "level": "A1",
+            "index": 10,
+            "de": "alt",
+            "lv": "vecs",
+            "value": "Vana",
+            "family": "fi+sv"
+          }
+        ],
+        "A2": [
+          {
+            "level": "A2",
+            "index": 0,
+            "de": "ab und zu",
+            "lv": "šad un tad • reizēm",
+            "value": "Aeg-ajalt • Vahetevahel",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "A2",
+            "index": 1,
+            "de": "Abenteuer",
+            "lv": "piedzīvojums • dēka",
+            "value": "Seiklus • Avantüür",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "A2",
+            "index": 2,
+            "de": "abfahren",
+            "lv": "aizbraukt",
+            "value": "Ära sõitma",
+            "family": "fi+sv"
+          },
+          {
+            "level": "A2",
+            "index": 3,
+            "de": "Abfahrt",
+            "lv": "aizbraukšana • atiešana",
+            "value": "Ärasõit • Väljumine",
+            "family": "fi+sv"
+          },
+          {
+            "level": "A2",
+            "index": 4,
+            "de": "Abfall",
+            "lv": "atkritumi",
+            "value": "Prügi",
+            "family": "fi+sv"
+          },
+          {
+            "level": "A2",
+            "index": 5,
+            "de": "abgeben",
+            "lv": "nodot • atdot • iesniegt",
+            "value": "Ära andma • Tagasi andma • Esitama",
+            "family": "fi+sv"
+          },
+          {
+            "level": "A2",
+            "index": 6,
+            "de": "abgemacht",
+            "lv": "nokārtots • nolemts • norunāts",
+            "value": "Korraldatud • Otsustatud • Kokku lepitud",
+            "family": "fi+sv"
+          },
+          {
+            "level": "A2",
+            "index": 7,
+            "de": "abholen",
+            "lv": "paņemt • izņemt",
+            "value": "Järele minema • Välja võtma",
+            "family": "fi+sv"
+          },
+          {
+            "level": "A2",
+            "index": 8,
+            "de": "holen",
+            "lv": "aiziet pakaļ • atnest",
+            "value": "Järele minema • Tooma",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "A2",
+            "index": 9,
+            "de": "bringen",
+            "lv": "atnest • nogādāt",
+            "value": "Tooma • Kohale toimetama",
+            "family": "fi+sv"
+          }
+        ],
+        "B1": [
+          {
+            "level": "B1",
+            "index": 0,
+            "de": "Kurbad",
+            "lv": "ārstniecības kūrorts",
+            "value": "Ravikuurort",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B1",
+            "index": 1,
+            "de": "Erfahrung",
+            "lv": "pieredze",
+            "value": "Kogemus",
+            "family": "fi+sv"
+          },
+          {
+            "level": "B1",
+            "index": 2,
+            "de": "entscheiden",
+            "lv": "izlemt",
+            "value": "Otsustama",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B1",
+            "index": 3,
+            "de": "Gewohnheit",
+            "lv": "ieradums",
+            "value": "Harjumus",
+            "family": "fi+sv"
+          },
+          {
+            "level": "B1",
+            "index": 4,
+            "de": "vergleichen",
+            "lv": "salīdzināt",
+            "value": "Võrdlema",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B1",
+            "index": 5,
+            "de": "Meinung",
+            "lv": "viedoklis",
+            "value": "Seisukoht",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B1",
+            "index": 6,
+            "de": "Umgebung",
+            "lv": "apkārtne",
+            "value": "Ümbrus",
+            "family": "fi+sv"
+          },
+          {
+            "level": "B1",
+            "index": 7,
+            "de": "sich erinnern",
+            "lv": "atcerēties",
+            "value": "Meenutama",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B1",
+            "index": 8,
+            "de": "Aktentasche",
+            "lv": "portfelis",
+            "value": "Portfell",
+            "family": "fi+sv"
+          },
+          {
+            "level": "B1",
+            "index": 9,
+            "de": "Aktion",
+            "lv": "akcija",
+            "value": "Aktsioon",
+            "family": "fi+sv"
+          }
+        ],
+        "B2": [
+          {
+            "level": "B2",
+            "index": 0,
+            "de": "Verantwortung",
+            "lv": "atbildība",
+            "value": "Vastutus",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B2",
+            "index": 1,
+            "de": "beeinflussen",
+            "lv": "ietekmēt",
+            "value": "Mõjutama",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B2",
+            "index": 2,
+            "de": "Voraussetzung",
+            "lv": "priekšnoteikums",
+            "value": "Eeltingimus",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B2",
+            "index": 3,
+            "de": "nachhaltig",
+            "lv": "ilgtspējīgs",
+            "value": "Jätkusuutlik",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B2",
+            "index": 4,
+            "de": "zustimmen",
+            "lv": "piekrist",
+            "value": "Nõustuma",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B2",
+            "index": 5,
+            "de": "widersprechen",
+            "lv": "iebilst",
+            "value": "Vastu vaidlema",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B2",
+            "index": 6,
+            "de": "Entwicklung",
+            "lv": "attīstība",
+            "value": "Areng",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B2",
+            "index": 7,
+            "de": "Akrobat",
+            "lv": "akrobāts",
+            "value": "Akrobaat",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B2",
+            "index": 8,
+            "de": "Akrobatik",
+            "lv": "akrobātika",
+            "value": "Akrobaatika",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "B2",
+            "index": 10,
+            "de": "akzeptabel",
+            "lv": "pieņemams",
+            "value": "Vastuvõetav",
+            "family": "fi+sv"
+          }
+        ],
+        "C1": [
+          {
+            "level": "C1",
+            "index": 0,
+            "de": "Wahrnehmung",
+            "lv": "uztvere",
+            "value": "Taju",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C1",
+            "index": 1,
+            "de": "gewährleisten",
+            "lv": "nodrošināt",
+            "value": "Tagama",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C1",
+            "index": 2,
+            "de": "Auswirkung",
+            "lv": "ietekme",
+            "value": "Mõju",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C1",
+            "index": 3,
+            "de": "umstritten",
+            "lv": "pretrunīgs",
+            "value": "Vastuoluline",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C1",
+            "index": 4,
+            "de": "Stellungnahme",
+            "lv": "oficiāls paziņojums • viedokļa paušana",
+            "value": "Ametlik avaldus • Seisukoha väljendamine",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C1",
+            "index": 5,
+            "de": "nachvollziehen",
+            "lv": "saprast • sekot loģikai",
+            "value": "Mõista • Loogikat jälgida",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C1",
+            "index": 6,
+            "de": "ausschlaggebend",
+            "lv": "izšķirošs",
+            "value": "Otsustav",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C1",
+            "index": 7,
+            "de": "Belastbarkeit",
+            "lv": "stresa noturība • izturība pret slodzi",
+            "value": "Stressitaluvus • Koormustaluvus",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C1",
+            "index": 8,
+            "de": "akkreditieren",
+            "lv": "akreditēt",
+            "value": "Akrediteerima",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C1",
+            "index": 9,
+            "de": "Aktiengesellschaft",
+            "lv": "akciju sabiedrība",
+            "value": "Aktsiaselts",
+            "family": "fi+is+nb+nn+sv"
+          }
+        ],
+        "C2": [
+          {
+            "level": "C2",
+            "index": 0,
+            "de": "Unvoreingenommenheit",
+            "lv": "objektivitāte • neitralitāte",
+            "value": "Objektiivsus • Neutraalsus",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C2",
+            "index": 1,
+            "de": "konterkarieren",
+            "lv": "izjaukt",
+            "value": "Nurjama",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C2",
+            "index": 2,
+            "de": "Stichhaltigkeit",
+            "lv": "pamatotība",
+            "value": "Põhjendatus",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C2",
+            "index": 3,
+            "de": "unmissverständlich",
+            "lv": "nepārprotams",
+            "value": "Üheselt mõistetav",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C2",
+            "index": 4,
+            "de": "Wechselwirkung",
+            "lv": "mijiedarbība",
+            "value": "Vastastikmõju",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C2",
+            "index": 5,
+            "de": "veranschaulichen",
+            "lv": "uzskatāmi parādīt",
+            "value": "Näitlikustama",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C2",
+            "index": 6,
+            "de": "Schlussfolgerung",
+            "lv": "secinājums",
+            "value": "Järeldus",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C2",
+            "index": 7,
+            "de": "Sorgfaltspflicht",
+            "lv": "rūpības pienākums",
+            "value": "Hoolsuskohustus",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C2",
+            "index": 8,
+            "de": "Anfangsbuchstabe",
+            "lv": "sākuma burts",
+            "value": "Algustäht",
+            "family": "fi+is+nb+nn+sv"
+          },
+          {
+            "level": "C2",
+            "index": 9,
+            "de": "Anführungszeichen",
+            "lv": "pēdiņas",
+            "value": "Jutumärgid",
+            "family": "fi+is+nb+nn+sv"
+          }
+        ]
+      }
+    },
+    {
+      "languages": [
+        "bg",
+        "hr",
+        "mk",
+        "ru",
+        "sr"
+      ],
+      "edges": [
+        {
+          "pair": "hr+sr",
+          "count": 8558
+        },
+        {
+          "pair": "hr+mk",
+          "count": 7902
+        },
+        {
+          "pair": "mk+sr",
+          "count": 7886
+        },
+        {
+          "pair": "bg+mk",
+          "count": 7291
+        },
+        {
+          "pair": "bg+hr",
+          "count": 6840
+        },
+        {
+          "pair": "bg+sr",
+          "count": 6828
+        },
+        {
+          "pair": "bg+ru",
+          "count": 3417
+        },
+        {
+          "pair": "mk+ru",
+          "count": 3116
+        },
+        {
+          "pair": "hr+ru",
+          "count": 2976
+        },
+        {
+          "pair": "ru+sr",
+          "count": 2975
+        }
+      ],
+      "sharedRows": 57789,
+      "examples": {
+        "A1": [
+          {
+            "level": "A1",
+            "index": 2,
+            "de": "Wasser",
+            "lv": "ūdens",
+            "value": "Voda",
+            "family": "cs+hr+sk+sr"
+          },
+          {
+            "level": "A1",
+            "index": 3,
+            "de": "Haus",
+            "lv": "māja",
+            "value": "Куќа",
+            "family": "hr+mk+sr"
+          },
+          {
+            "level": "A1",
+            "index": 5,
+            "de": "sprechen",
+            "lv": "runāt",
+            "value": "Govor",
+            "family": "hr+sr"
+          },
+          {
+            "level": "A1",
+            "index": 6,
+            "de": "klein",
+            "lv": "mazs",
+            "value": "Мали",
+            "family": "hr+mk+sr"
+          },
+          {
+            "level": "A1",
+            "index": 7,
+            "de": "alle",
+            "lv": "visi",
+            "value": "Svi",
+            "family": "hr+sr"
+          },
+          {
+            "level": "A1",
+            "index": 8,
+            "de": "allein",
+            "lv": "viens pats",
+            "value": "Jedan",
+            "family": "hr+sr"
+          },
+          {
+            "level": "A1",
+            "index": 9,
+            "de": "alles",
+            "lv": "viss",
+            "value": "Сите",
+            "family": "hr+mk+sr"
+          },
+          {
+            "level": "A1",
+            "index": 10,
+            "de": "alt",
+            "lv": "vecs",
+            "value": "Стари",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "A1",
+            "index": 11,
+            "de": "Alter",
+            "lv": "vecums",
+            "value": "Godine?",
+            "family": "hr+sr"
+          },
+          {
+            "level": "A1",
+            "index": 13,
+            "de": "Anfang",
+            "lv": "sākums",
+            "value": "Започнете",
+            "family": "bg+hr+mk+sr"
+          }
+        ],
+        "A2": [
+          {
+            "level": "A2",
+            "index": 0,
+            "de": "ab und zu",
+            "lv": "šad un tad • reizēm",
+            "value": "Občasno • Včasih",
+            "family": "hr+sr"
+          },
+          {
+            "level": "A2",
+            "index": 1,
+            "de": "Abenteuer",
+            "lv": "piedzīvojums • dēka",
+            "value": "Avantura • Romantika",
+            "family": "hr+sr"
+          },
+          {
+            "level": "A2",
+            "index": 2,
+            "de": "abfahren",
+            "lv": "aizbraukt",
+            "value": "Trʺgvaj",
+            "family": "hr+sr"
+          },
+          {
+            "level": "A2",
+            "index": 3,
+            "de": "Abfahrt",
+            "lv": "aizbraukšana • atiešana",
+            "value": "Odhod • Odhod",
+            "family": "hr+sr"
+          },
+          {
+            "level": "A2",
+            "index": 4,
+            "de": "Abfall",
+            "lv": "atkritumi",
+            "value": "Боклук",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "A2",
+            "index": 5,
+            "de": "abgeben",
+            "lv": "nodot • atdot • iesniegt",
+            "value": "Предайте • Дайте • Предайте",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "A2",
+            "index": 6,
+            "de": "abgemacht",
+            "lv": "nokārtots • nolemts • norunāts",
+            "value": "Решен · решен · съгласен",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "A2",
+            "index": 7,
+            "de": "abholen",
+            "lv": "paņemt • izņemt",
+            "value": "Вземете • Извадете",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "A2",
+            "index": 8,
+            "de": "holen",
+            "lv": "aiziet pakaļ • atnest",
+            "value": "Отидете за • Донесете",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "A2",
+            "index": 9,
+            "de": "bringen",
+            "lv": "atnest • nogādāt",
+            "value": "Донеси • Испорача",
+            "family": "hr+mk+sr"
+          }
+        ],
+        "B1": [
+          {
+            "level": "B1",
+            "index": 0,
+            "de": "Kurbad",
+            "lv": "ārstniecības kūrorts",
+            "value": "Медицински курорт",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "B1",
+            "index": 1,
+            "de": "Erfahrung",
+            "lv": "pieredze",
+            "value": "Опит",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "B1",
+            "index": 2,
+            "de": "entscheiden",
+            "lv": "izlemt",
+            "value": "Решете",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "B1",
+            "index": 3,
+            "de": "Gewohnheit",
+            "lv": "ieradums",
+            "value": "Навик",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "B1",
+            "index": 4,
+            "de": "vergleichen",
+            "lv": "salīdzināt",
+            "value": "Сравнете",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "B1",
+            "index": 5,
+            "de": "Meinung",
+            "lv": "viedoklis",
+            "value": "Jernigan?",
+            "family": "hr+sr"
+          },
+          {
+            "level": "B1",
+            "index": 6,
+            "de": "Umgebung",
+            "lv": "apkārtne",
+            "value": "Област",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "B1",
+            "index": 7,
+            "de": "sich erinnern",
+            "lv": "atcerēties",
+            "value": "Помнете",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "B1",
+            "index": 8,
+            "de": "Aktentasche",
+            "lv": "portfelis",
+            "value": "Куфарче",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "B1",
+            "index": 9,
+            "de": "Aktion",
+            "lv": "akcija",
+            "value": "Акција",
+            "family": "hr+mk+sr"
+          }
+        ],
+        "B2": [
+          {
+            "level": "B2",
+            "index": 0,
+            "de": "Verantwortung",
+            "lv": "atbildība",
+            "value": "Отговорност",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "B2",
+            "index": 1,
+            "de": "beeinflussen",
+            "lv": "ietekmēt",
+            "value": "Влияние",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "B2",
+            "index": 2,
+            "de": "Voraussetzung",
+            "lv": "priekšnoteikums",
+            "value": "Предпоставка",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "B2",
+            "index": 3,
+            "de": "nachhaltig",
+            "lv": "ilgtspējīgs",
+            "value": "Устойчивый",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "B2",
+            "index": 4,
+            "de": "zustimmen",
+            "lv": "piekrist",
+            "value": "Съгласен",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "B2",
+            "index": 5,
+            "de": "widersprechen",
+            "lv": "iebilst",
+            "value": "Обект",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "B2",
+            "index": 6,
+            "de": "Entwicklung",
+            "lv": "attīstība",
+            "value": "Разработка",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "B2",
+            "index": 7,
+            "de": "Akrobat",
+            "lv": "akrobāts",
+            "value": "Акробат",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "B2",
+            "index": 8,
+            "de": "Akrobatik",
+            "lv": "akrobātika",
+            "value": "Акробатика",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "B2",
+            "index": 9,
+            "de": "Akt",
+            "lv": "akts • dokuments",
+            "value": "Акт • Документ",
+            "family": "bg+hr+mk+ru+sr"
+          }
+        ],
+        "C1": [
+          {
+            "level": "C1",
+            "index": 0,
+            "de": "Wahrnehmung",
+            "lv": "uztvere",
+            "value": "Восприятие",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C1",
+            "index": 1,
+            "de": "gewährleisten",
+            "lv": "nodrošināt",
+            "value": "Осигурете",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "C1",
+            "index": 2,
+            "de": "Auswirkung",
+            "lv": "ietekme",
+            "value": "Влияние",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C1",
+            "index": 3,
+            "de": "umstritten",
+            "lv": "pretrunīgs",
+            "value": "Противоречивый",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C1",
+            "index": 4,
+            "de": "Stellungnahme",
+            "lv": "oficiāls paziņojums • viedokļa paušana",
+            "value": "Официальное заявление • Выражение мнения",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C1",
+            "index": 5,
+            "de": "nachvollziehen",
+            "lv": "saprast • sekot loģikai",
+            "value": "Понимать • Следовать логике",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C1",
+            "index": 6,
+            "de": "ausschlaggebend",
+            "lv": "izšķirošs",
+            "value": "Решаващ",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "C1",
+            "index": 7,
+            "de": "Belastbarkeit",
+            "lv": "stresa noturība • izturība pret slodzi",
+            "value": "Стрессоустойчивость • Устойчивость к нагрузкам",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C1",
+            "index": 8,
+            "de": "akkreditieren",
+            "lv": "akreditēt",
+            "value": "Аккредитовать",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C1",
+            "index": 9,
+            "de": "Aktiengesellschaft",
+            "lv": "akciju sabiedrība",
+            "value": "Акционерное общество",
+            "family": "bg+hr+mk+ru+sr"
+          }
+        ],
+        "C2": [
+          {
+            "level": "C2",
+            "index": 0,
+            "de": "Unvoreingenommenheit",
+            "lv": "objektivitāte • neitralitāte",
+            "value": "Объективность • Нейтральность",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C2",
+            "index": 1,
+            "de": "konterkarieren",
+            "lv": "izjaukt",
+            "value": "Нарушить",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C2",
+            "index": 2,
+            "de": "Stichhaltigkeit",
+            "lv": "pamatotība",
+            "value": "Разумность",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C2",
+            "index": 3,
+            "de": "unmissverständlich",
+            "lv": "nepārprotams",
+            "value": "Безпогрешно",
+            "family": "bg+hr+mk+sr"
+          },
+          {
+            "level": "C2",
+            "index": 4,
+            "de": "Wechselwirkung",
+            "lv": "mijiedarbība",
+            "value": "Взаимодействие",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C2",
+            "index": 5,
+            "de": "veranschaulichen",
+            "lv": "uzskatāmi parādīt",
+            "value": "Показать наглядно",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C2",
+            "index": 6,
+            "de": "Schlussfolgerung",
+            "lv": "secinājums",
+            "value": "Заключение",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C2",
+            "index": 7,
+            "de": "Sorgfaltspflicht",
+            "lv": "rūpības pienākums",
+            "value": "Обязанность заботиться",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C2",
+            "index": 8,
+            "de": "Anfangsbuchstabe",
+            "lv": "sākuma burts",
+            "value": "Начальная буква",
+            "family": "bg+hr+mk+ru+sr"
+          },
+          {
+            "level": "C2",
+            "index": 9,
+            "de": "Anführungszeichen",
+            "lv": "pēdiņas",
+            "value": "Цитати",
+            "family": "bg+hr+mk+sr"
+          }
+        ]
+      }
+    },
+    {
+      "languages": [
+        "it",
+        "lb",
+        "nl",
+        "pt"
+      ],
+      "edges": [
+        {
+          "pair": "lb+nl",
+          "count": 7253
+        },
+        {
+          "pair": "it+nl",
+          "count": 6614
+        },
+        {
+          "pair": "it+lb",
+          "count": 6168
+        },
+        {
+          "pair": "it+pt",
+          "count": 3757
+        },
+        {
+          "pair": "nl+pt",
+          "count": 3095
+        },
+        {
+          "pair": "lb+pt",
+          "count": 2854
+        }
+      ],
+      "sharedRows": 29741,
+      "examples": {
+        "A1": [
+          {
+            "level": "A1",
+            "index": 57,
+            "de": "aus",
+            "lv": "no",
+            "value": "No • Ārā",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "A1",
+            "index": 58,
+            "de": "auf dem Boden",
+            "lv": "uz grīdas",
+            "value": "Uz grīdas",
+            "family": "lb+nl"
+          },
+          {
+            "level": "A1",
+            "index": 60,
+            "de": "aufs",
+            "lv": "uz",
+            "value": "Uz • Virsū • Kurp?",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "A1",
+            "index": 111,
+            "de": "bringen",
+            "lv": "atnest",
+            "value": "Atnest • Aiznest",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "A1",
+            "index": 129,
+            "de": "das",
+            "lv": "vidus dzimtes noteiktais artikuls",
+            "value": "Vidus dzimtes noteiktais artikuls",
+            "family": "lb+nl"
+          },
+          {
+            "level": "A1",
+            "index": 134,
+            "de": "der",
+            "lv": "vīriešu dzimtes noteiktais artikuls",
+            "value": "Vīriešu dzimtes noteiktais artikuls",
+            "family": "lb+nl"
+          },
+          {
+            "level": "A1",
+            "index": 137,
+            "de": "die",
+            "lv": "sieviešu dzimtes noteiktais artikuls",
+            "value": "Sieviešu dzimtes noteiktais artikuls",
+            "family": "lb+nl"
+          },
+          {
+            "level": "A1",
+            "index": 151,
+            "de": "Dusche",
+            "lv": "duša",
+            "value": "Douche",
+            "family": "fr+lb+nl"
+          },
+          {
+            "level": "A1",
+            "index": 156,
+            "de": "eins",
+            "lv": "viens",
+            "value": "Een",
+            "family": "lb+nl"
+          },
+          {
+            "level": "A1",
+            "index": 170,
+            "de": "euch",
+            "lv": "jūs • jums",
+            "value": "Jūs • Jums",
+            "family": "lb+nl"
+          }
+        ],
+        "A2": [
+          {
+            "level": "A2",
+            "index": 0,
+            "de": "ab und zu",
+            "lv": "šad un tad • reizēm",
+            "value": "Šad un tad • Reizēm",
+            "family": "lb+nl"
+          },
+          {
+            "level": "A2",
+            "index": 1,
+            "de": "Abenteuer",
+            "lv": "piedzīvojums • dēka",
+            "value": "Piedzīvojums • Dēka",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "A2",
+            "index": 2,
+            "de": "abfahren",
+            "lv": "aizbraukt",
+            "value": "Aizbraukt",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "A2",
+            "index": 3,
+            "de": "Abfahrt",
+            "lv": "aizbraukšana • atiešana",
+            "value": "Aizbraukšana • Atiešana",
+            "family": "lb+nl"
+          },
+          {
+            "level": "A2",
+            "index": 4,
+            "de": "Abfall",
+            "lv": "atkritumi",
+            "value": "Atkritumi",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "A2",
+            "index": 5,
+            "de": "abgeben",
+            "lv": "nodot • atdot • iesniegt",
+            "value": "Nodot • Atdot • Iesniegt",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "A2",
+            "index": 6,
+            "de": "abgemacht",
+            "lv": "nokārtots • nolemts • norunāts",
+            "value": "Nokārtots • Nolemts • Norunāts",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "A2",
+            "index": 7,
+            "de": "abholen",
+            "lv": "paņemt • izņemt",
+            "value": "Paņemt • Izņemt",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "A2",
+            "index": 8,
+            "de": "holen",
+            "lv": "aiziet pakaļ • atnest",
+            "value": "Aiziet pakaļ • Atnest",
+            "family": "lb+nl"
+          },
+          {
+            "level": "A2",
+            "index": 9,
+            "de": "bringen",
+            "lv": "atnest • nogādāt",
+            "value": "Atnest • Nogādāt",
+            "family": "it+lb+nl"
+          }
+        ],
+        "B1": [
+          {
+            "level": "B1",
+            "index": 0,
+            "de": "Kurbad",
+            "lv": "ārstniecības kūrorts",
+            "value": "Ārstniecības kūrorts",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "B1",
+            "index": 1,
+            "de": "Erfahrung",
+            "lv": "pieredze",
+            "value": "Pieredze",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "B1",
+            "index": 4,
+            "de": "vergleichen",
+            "lv": "salīdzināt",
+            "value": "Salīdzināt",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "B1",
+            "index": 5,
+            "de": "Meinung",
+            "lv": "viedoklis",
+            "value": "Viedoklis",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "B1",
+            "index": 6,
+            "de": "Umgebung",
+            "lv": "apkārtne",
+            "value": "Apkārtne",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "B1",
+            "index": 7,
+            "de": "sich erinnern",
+            "lv": "atcerēties",
+            "value": "Atcerēties",
+            "family": "lb+nl"
+          },
+          {
+            "level": "B1",
+            "index": 8,
+            "de": "Aktentasche",
+            "lv": "portfelis",
+            "value": "Portfelis",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "B1",
+            "index": 10,
+            "de": "Akzent",
+            "lv": "akcents",
+            "value": "Akcents",
+            "family": "lb+nl"
+          },
+          {
+            "level": "B1",
+            "index": 11,
+            "de": "Alarm",
+            "lv": "trauksme",
+            "value": "Trauksme",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "B1",
+            "index": 12,
+            "de": "Alkoholtest",
+            "lv": "alkohola tests",
+            "value": "Alkohola tests",
+            "family": "lb+nl"
+          }
+        ],
+        "B2": [
+          {
+            "level": "B2",
+            "index": 0,
+            "de": "Verantwortung",
+            "lv": "atbildība",
+            "value": "Atbildība",
+            "family": "lb+nl"
+          },
+          {
+            "level": "B2",
+            "index": 1,
+            "de": "beeinflussen",
+            "lv": "ietekmēt",
+            "value": "Ietekmēt",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "B2",
+            "index": 2,
+            "de": "Voraussetzung",
+            "lv": "priekšnoteikums",
+            "value": "Priekšnoteikums",
+            "family": "lb+nl+pt"
+          },
+          {
+            "level": "B2",
+            "index": 3,
+            "de": "nachhaltig",
+            "lv": "ilgtspējīgs",
+            "value": "Ilgtspējīgs",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "B2",
+            "index": 4,
+            "de": "zustimmen",
+            "lv": "piekrist",
+            "value": "Piekrist",
+            "family": "lb+nl"
+          },
+          {
+            "level": "B2",
+            "index": 5,
+            "de": "widersprechen",
+            "lv": "iebilst",
+            "value": "Iebilst",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "B2",
+            "index": 6,
+            "de": "Entwicklung",
+            "lv": "attīstība",
+            "value": "Attīstība",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "B2",
+            "index": 7,
+            "de": "Akrobat",
+            "lv": "akrobāts",
+            "value": "Akrobāts",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "B2",
+            "index": 8,
+            "de": "Akrobatik",
+            "lv": "akrobātika",
+            "value": "Akrobātika",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "B2",
+            "index": 9,
+            "de": "Akt",
+            "lv": "akts • dokuments",
+            "value": "Akts • Dokuments",
+            "family": "it+lb+nl"
+          }
+        ],
+        "C1": [
+          {
+            "level": "C1",
+            "index": 0,
+            "de": "Wahrnehmung",
+            "lv": "uztvere",
+            "value": "Uztvere",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "C1",
+            "index": 1,
+            "de": "gewährleisten",
+            "lv": "nodrošināt",
+            "value": "Nodrošināt",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "C1",
+            "index": 2,
+            "de": "Auswirkung",
+            "lv": "ietekme",
+            "value": "Ietekme",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "C1",
+            "index": 3,
+            "de": "umstritten",
+            "lv": "pretrunīgs",
+            "value": "Pretrunīgs",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "C1",
+            "index": 4,
+            "de": "Stellungnahme",
+            "lv": "oficiāls paziņojums • viedokļa paušana",
+            "value": "Oficiāls paziņojums • Viedokļa paušana",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "C1",
+            "index": 5,
+            "de": "nachvollziehen",
+            "lv": "saprast • sekot loģikai",
+            "value": "Saprast • Sekot loģikai",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "C1",
+            "index": 6,
+            "de": "ausschlaggebend",
+            "lv": "izšķirošs",
+            "value": "Izšķirošs",
+            "family": "lb+nl"
+          },
+          {
+            "level": "C1",
+            "index": 7,
+            "de": "Belastbarkeit",
+            "lv": "stresa noturība • izturība pret slodzi",
+            "value": "Stresa noturība • Izturība pret slodzi",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "C1",
+            "index": 8,
+            "de": "akkreditieren",
+            "lv": "akreditēt",
+            "value": "Accrediteren",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "C1",
+            "index": 9,
+            "de": "Aktiengesellschaft",
+            "lv": "akciju sabiedrība",
+            "value": "Akciju sabiedrība",
+            "family": "it+lb+nl+pt"
+          }
+        ],
+        "C2": [
+          {
+            "level": "C2",
+            "index": 0,
+            "de": "Unvoreingenommenheit",
+            "lv": "objektivitāte • neitralitāte",
+            "value": "Objektivitāte • Neitralitāte",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "C2",
+            "index": 1,
+            "de": "konterkarieren",
+            "lv": "izjaukt",
+            "value": "Izjaukt",
+            "family": "it+lb+nl+pt"
+          },
+          {
+            "level": "C2",
+            "index": 2,
+            "de": "Stichhaltigkeit",
+            "lv": "pamatotība",
+            "value": "Pamatotība",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "C2",
+            "index": 3,
+            "de": "unmissverständlich",
+            "lv": "nepārprotams",
+            "value": "Nepārprotams",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "C2",
+            "index": 4,
+            "de": "Wechselwirkung",
+            "lv": "mijiedarbība",
+            "value": "Mijiedarbība",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "C2",
+            "index": 5,
+            "de": "veranschaulichen",
+            "lv": "uzskatāmi parādīt",
+            "value": "Uzskatāmi parādīt",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "C2",
+            "index": 6,
+            "de": "Schlussfolgerung",
+            "lv": "secinājums",
+            "value": "Secinājums",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "C2",
+            "index": 7,
+            "de": "Sorgfaltspflicht",
+            "lv": "rūpības pienākums",
+            "value": "Rūpības pienākums",
+            "family": "it+lb+nl"
+          },
+          {
+            "level": "C2",
+            "index": 8,
+            "de": "Anfangsbuchstabe",
+            "lv": "sākuma burts",
+            "value": "Sākuma burts",
+            "family": "lb+nl"
+          },
+          {
+            "level": "C2",
+            "index": 9,
+            "de": "Anführungszeichen",
+            "lv": "pēdiņas",
+            "value": "Pēdiņas",
+            "family": "it+lb+nl"
+          }
+        ]
+      }
+    },
+    {
+      "languages": [
+        "pl",
+        "sk",
+        "sq",
+        "tr"
+      ],
+      "edges": [
+        {
+          "pair": "sq+tr",
+          "count": 7132
+        },
+        {
+          "pair": "pl+sk",
+          "count": 6059
+        },
+        {
+          "pair": "pl+sq",
+          "count": 2590
+        },
+        {
+          "pair": "pl+tr",
+          "count": 2588
+        },
+        {
+          "pair": "sk+tr",
+          "count": 2309
+        },
+        {
+          "pair": "sk+sq",
+          "count": 2305
+        }
+      ],
+      "sharedRows": 22983,
+      "examples": {
+        "A1": [
+          {
+            "level": "A1",
+            "index": 18,
+            "de": "Abend",
+            "lv": "vakars",
+            "value": "Akşam",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A1",
+            "index": 30,
+            "de": "anziehen",
+            "lv": "uzvilkt",
+            "value": "Açma",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A1",
+            "index": 91,
+            "de": "bis",
+            "lv": "līdz",
+            "value": "Değin",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A1",
+            "index": 228,
+            "de": "gelb",
+            "lv": "dzeltens",
+            "value": "Sarı",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A1",
+            "index": 249,
+            "de": "grau",
+            "lv": "pelēks",
+            "value": "Gri",
+            "family": "ro+sq+tr"
+          },
+          {
+            "level": "A1",
+            "index": 290,
+            "de": "hungrig",
+            "lv": "izsalcis",
+            "value": "Issalcis",
+            "family": "sk+sq+tr"
+          },
+          {
+            "level": "A1",
+            "index": 323,
+            "de": "lachen",
+            "lv": "smieties",
+            "value": "Gül",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A1",
+            "index": 395,
+            "de": "Marmelade",
+            "lv": "ievārījums",
+            "value": "Reçel",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A1",
+            "index": 428,
+            "de": "nachmittags",
+            "lv": "pēcpusdienā",
+            "value": "PM",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A1",
+            "index": 498,
+            "de": "rosa",
+            "lv": "rozā",
+            "value": "Pembe",
+            "family": "sq+tr"
+          }
+        ],
+        "A2": [
+          {
+            "level": "A2",
+            "index": 0,
+            "de": "ab und zu",
+            "lv": "šad un tad • reizēm",
+            "value": "Od czasu do czasu • Czasami",
+            "family": "pl+sq+tr"
+          },
+          {
+            "level": "A2",
+            "index": 3,
+            "de": "Abfahrt",
+            "lv": "aizbraukšana • atiešana",
+            "value": "Wyjazd • Wyjazd",
+            "family": "pl+sq+tr"
+          },
+          {
+            "level": "A2",
+            "index": 5,
+            "de": "abgeben",
+            "lv": "nodot • atdot • iesniegt",
+            "value": "Teslim Etme • Teslim Etme • Katlama",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A2",
+            "index": 6,
+            "de": "abgemacht",
+            "lv": "nokārtots • nolemts • norunāts",
+            "value": "Karar verildi • Karar verildi • Kabul edildi",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A2",
+            "index": 7,
+            "de": "abholen",
+            "lv": "paņemt • izņemt",
+            "value": "Kaldır • Kaldır",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A2",
+            "index": 8,
+            "de": "holen",
+            "lv": "aiziet pakaļ • atnest",
+            "value": "Git • Getir",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A2",
+            "index": 10,
+            "de": "abreisen",
+            "lv": "aizceļot • aizbraukt",
+            "value": "Ayrılmak • Ayrılmak",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A2",
+            "index": 13,
+            "de": "abschließen",
+            "lv": "aizslēgt • noslēgt • pabeigt",
+            "value": "Kilitle • Sonlandır • Sonlandır",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A2",
+            "index": 14,
+            "de": "Abstand",
+            "lv": "attālums • distance",
+            "value": "Mesafe • Mesafe",
+            "family": "sq+tr"
+          },
+          {
+            "level": "A2",
+            "index": 15,
+            "de": "absteigen",
+            "lv": "nokāpt • apmesties viesnīcā",
+            "value": "Kalk • Otelde kalın",
+            "family": "sq+tr"
+          }
+        ],
+        "B1": [
+          {
+            "level": "B1",
+            "index": 0,
+            "de": "Kurbad",
+            "lv": "ārstniecības kūrorts",
+            "value": "Tıp merkezi",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B1",
+            "index": 1,
+            "de": "Erfahrung",
+            "lv": "pieredze",
+            "value": "Deneyim",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B1",
+            "index": 2,
+            "de": "entscheiden",
+            "lv": "izlemt",
+            "value": "Karar vermek",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B1",
+            "index": 3,
+            "de": "Gewohnheit",
+            "lv": "ieradums",
+            "value": "Alışkanlık",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B1",
+            "index": 4,
+            "de": "vergleichen",
+            "lv": "salīdzināt",
+            "value": "Karşılaştır",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B1",
+            "index": 5,
+            "de": "Meinung",
+            "lv": "viedoklis",
+            "value": "Fikir",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B1",
+            "index": 6,
+            "de": "Umgebung",
+            "lv": "apkārtne",
+            "value": "Komşu",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B1",
+            "index": 7,
+            "de": "sich erinnern",
+            "lv": "atcerēties",
+            "value": "Hatırlamak",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B1",
+            "index": 8,
+            "de": "Aktentasche",
+            "lv": "portfelis",
+            "value": "Dosya",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B1",
+            "index": 9,
+            "de": "Aktion",
+            "lv": "akcija",
+            "value": "Aksiyon",
+            "family": "sq+tr"
+          }
+        ],
+        "B2": [
+          {
+            "level": "B2",
+            "index": 0,
+            "de": "Verantwortung",
+            "lv": "atbildība",
+            "value": "Sorumluluk",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B2",
+            "index": 1,
+            "de": "beeinflussen",
+            "lv": "ietekmēt",
+            "value": "Etkilemek",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B2",
+            "index": 2,
+            "de": "Voraussetzung",
+            "lv": "priekšnoteikums",
+            "value": "Önkoşul",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B2",
+            "index": 3,
+            "de": "nachhaltig",
+            "lv": "ilgtspējīgs",
+            "value": "Zrównoważony",
+            "family": "pl+sk+sq+tr"
+          },
+          {
+            "level": "B2",
+            "index": 4,
+            "de": "zustimmen",
+            "lv": "piekrist",
+            "value": "Kabul etmek",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B2",
+            "index": 5,
+            "de": "widersprechen",
+            "lv": "iebilst",
+            "value": "Nesne",
+            "family": "sq+tr"
+          },
+          {
+            "level": "B2",
+            "index": 6,
+            "de": "Entwicklung",
+            "lv": "attīstība",
+            "value": "Rozwój",
+            "family": "pl+sk+sq+tr"
+          },
+          {
+            "level": "B2",
+            "index": 7,
+            "de": "Akrobat",
+            "lv": "akrobāts",
+            "value": "Akrobata",
+            "family": "pl+sk+sq+tr"
+          },
+          {
+            "level": "B2",
+            "index": 8,
+            "de": "Akrobatik",
+            "lv": "akrobātika",
+            "value": "Akrobatyka",
+            "family": "pl+sk+sq+tr"
+          },
+          {
+            "level": "B2",
+            "index": 10,
+            "de": "akzeptabel",
+            "lv": "pieņemams",
+            "value": "Kabul edilebilir",
+            "family": "sq+tr"
+          }
+        ],
+        "C1": [
+          {
+            "level": "C1",
+            "index": 0,
+            "de": "Wahrnehmung",
+            "lv": "uztvere",
+            "value": "Postrzeganie",
+            "family": "pl+sk+sq+tr"
+          },
+          {
+            "level": "C1",
+            "index": 1,
+            "de": "gewährleisten",
+            "lv": "nodrošināt",
+            "value": "Sağlamak için",
+            "family": "sq+tr"
+          },
+          {
+            "level": "C1",
+            "index": 2,
+            "de": "Auswirkung",
+            "lv": "ietekme",
+            "value": "Etkilemek",
+            "family": "sq+tr"
+          },
+          {
+            "level": "C1",
+            "index": 3,
+            "de": "umstritten",
+            "lv": "pretrunīgs",
+            "value": "Sprzeczny",
+            "family": "pl+sk+sq+tr"
+          },
+          {
+            "level": "C1",
+            "index": 4,
+            "de": "Stellungnahme",
+            "lv": "oficiāls paziņojums • viedokļa paušana",
+            "value": "Resmi Açıklama • Görüş beyanı",
+            "family": "sq+tr"
+          },
+          {
+            "level": "C1",
+            "index": 5,
+            "de": "nachvollziehen",
+            "lv": "saprast • sekot loģikai",
+            "value": "Anlayın • Mantığı takip edin",
+            "family": "sq+tr"
+          },
+          {
+            "level": "C1",
+            "index": 6,
+            "de": "ausschlaggebend",
+            "lv": "izšķirošs",
+            "value": "Belirleyici",
+            "family": "sq+tr"
+          },
+          {
+            "level": "C1",
+            "index": 7,
+            "de": "Belastbarkeit",
+            "lv": "stresa noturība • izturība pret slodzi",
+            "value": "Strese karşı direnç • Strese karşı direnç",
+            "family": "sq+tr"
+          },
+          {
+            "level": "C1",
+            "index": 9,
+            "de": "Aktiengesellschaft",
+            "lv": "akciju sabiedrība",
+            "value": "Spółka akcyjna",
+            "family": "pl+sk+sq+tr"
+          },
+          {
+            "level": "C1",
+            "index": 10,
+            "de": "Aktionsprogramm",
+            "lv": "pasākumu programma",
+            "value": "Etkinlik programı",
+            "family": "sq+tr"
+          }
+        ],
+        "C2": [
+          {
+            "level": "C2",
+            "index": 0,
+            "de": "Unvoreingenommenheit",
+            "lv": "objektivitāte • neitralitāte",
+            "value": "Obiektywizm • Neutralność",
+            "family": "pl+sk+sq+tr"
+          },
+          {
+            "level": "C2",
+            "index": 2,
+            "de": "Stichhaltigkeit",
+            "lv": "pamatotība",
+            "value": "Algı",
+            "family": "sq+tr"
+          },
+          {
+            "level": "C2",
+            "index": 3,
+            "de": "unmissverständlich",
+            "lv": "nepārprotams",
+            "value": "Şüphesiz",
+            "family": "sq+tr"
+          },
+          {
+            "level": "C2",
+            "index": 4,
+            "de": "Wechselwirkung",
+            "lv": "mijiedarbība",
+            "value": "Wzajemne oddziaływanie",
+            "family": "pl+sk+sq+tr"
+          },
+          {
+            "level": "C2",
+            "index": 5,
+            "de": "veranschaulichen",
+            "lv": "uzskatāmi parādīt",
+            "value": "Görünür şekilde göster",
+            "family": "sq+tr"
+          },
+          {
+            "level": "C2",
+            "index": 6,
+            "de": "Schlussfolgerung",
+            "lv": "secinājums",
+            "value": "Başvuru",
+            "family": "sq+tr"
+          },
+          {
+            "level": "C2",
+            "index": 7,
+            "de": "Sorgfaltspflicht",
+            "lv": "rūpības pienākums",
+            "value": "Bakım görevi",
+            "family": "sq+tr"
+          },
+          {
+            "level": "C2",
+            "index": 8,
+            "de": "Anfangsbuchstabe",
+            "lv": "sākuma burts",
+            "value": "Pierwszy list",
+            "family": "pl+sk+sq+tr"
+          },
+          {
+            "level": "C2",
+            "index": 9,
+            "de": "Anführungszeichen",
+            "lv": "pēdiņas",
+            "value": "Tırnak işareti",
+            "family": "sq+tr"
+          },
+          {
+            "level": "C2",
+            "index": 10,
+            "de": "Abschlussprüfung",
+            "lv": "gala pārbaudījums",
+            "value": "Final sınavı",
+            "family": "sq+tr"
+          }
+        ]
+      }
+    }
+  ],
+  "findingCount": 404244,
+  "stageResult": "PARTIAL"
+}
