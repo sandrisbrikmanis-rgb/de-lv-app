@@ -4668,6 +4668,7 @@ const A1_WORDS = [
   {
     "de": "Ende",
     "de_article": "das",
+    "de_plural": "die Enden",
     "lv": "Крај",
     "level": "A1"
   },
@@ -13093,6 +13094,7 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
+    "de_plural": "die Morgen",
     "lv": "Во утринските часови",
     "level": "A1",
     "study": {
@@ -22071,6 +22073,7 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
+    "de_plural": "die Urlaube",
     "lv": "Ваканция",
     "level": "A1",
     "study": {

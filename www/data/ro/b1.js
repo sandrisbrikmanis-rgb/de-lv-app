@@ -58505,6 +58505,7 @@ const B1_WORDS = [
   {
     "de": "Schaden",
     "de_article": "der",
+    "de_plural": "die Schäden",
     "lv": "Pierdere • Daune",
     "level": "B1",
     "study": {

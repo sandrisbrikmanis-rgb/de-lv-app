@@ -1,0 +1,11 @@
+level,index,de,de_article,goethe_form,goethe_page,duden_status,duden_form,decision,reason,de_plural
+A1,161,"Ende",das,"Enden","Goethe-A2 p.13 -n",NEEDS_SOURCE_REVIEW,"Enden",PIEMĒROT,"Duden forma sakrīt ar Goethe","die Enden"
+A1,418,"Morgen",der,"Morgen","Goethe-A1-Fit1 p.8 -",NEEDS_SOURCE_REVIEW,"Morgen",PIEMĒROT,"Duden forma sakrīt ar Goethe","die Morgen"
+A1,691,"Essen",das,"Essen","Goethe-A1-Fit1 p.12 - Goethe-A2 p.14 - Goethe-B1 p.38 -",AMBIGUOUS,"",NEPIEMĒROT,"Duden AMBIGUOUS bez sakrītošas formas",""
+A1,695,"Urlaub",der,"Urlaube","Goethe-A2 p.28 -e Goethe-B1 p.91 -e",PLURAL_FOUND,"Urlaube",PIEMĒROT,"Duden forma sakrīt ar Goethe","die Urlaube"
+A2,1561,"Wäsche",die,"Wäschen","Goethe-A2 p.30 -n",NEEDS_SOURCE_REVIEW,"Wäschen",PIEMĒROT,"Duden forma sakrīt ar Goethe","die Wäschen"
+A2,1579,"Werbung",die,"Werbungen","Goethe-B1 p.97 -en",NEEDS_SOURCE_REVIEW,"Werbungen",PIEMĒROT,"Duden forma sakrīt ar Goethe","die Werbungen"
+A2,1588,"Wiedersehen",das,"Wiedersehen","Goethe-A1-Fit1 p.20 - Goethe-A2 p.30 -",PLURAL_FOUND,"Wiedersehen",PIEMĒROT,"Duden forma sakrīt ar Goethe","die Wiedersehen"
+B1,867,"Fasching",der,"Fasching","Goethe-B1 p.39 -",PLURAL_FOUND,"Faschinge | Faschings",NEPIEMĒROT,"SOURCES_DISAGREE",""
+B1,3260,"Wiederhören",das,"Wiederhören","Goethe-A2 p.30 -",NO_PLURAL_LISTED,"",NEPIEMĒROT,"Duden NO_PLURAL_LISTED bez sakrītošas formas",""
+B1,3361,"Schaden",der,"Schäden","Goethe-B1 p.76 ¨-",NEEDS_SOURCE_REVIEW,"Schäden",PIEMĒROT,"Duden forma sakrīt ar Goethe","die Schäden"
