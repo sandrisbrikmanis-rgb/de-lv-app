@@ -224,4 +224,27 @@ EXTRA A1–C2 = 0. courseLessons EXTRA = 2. TEXT 5414 (bāze 5428). MISSING 307.
 
 ## Atvēršanai un lejupielādei
 
-Blob saites ar pilnu komita SHA ir MANIFEST.md. Tās tiek ierakstītas pēc satura komita.
+Satura komits `69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2`. Pilnais saraksts ar blob un raw saitēm ir MANIFEST.md. Šeit ir blob saites.
+
+- [reports/study-de-sync/changes/README.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/changes/README.md)
+- [reports/study-de-sync/changes/part-01.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/changes/part-01.json)
+- [reports/study-de-sync/changes/part-02.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/changes/part-02.json)
+- [reports/study-de-sync/changes/part-03.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/changes/part-03.json)
+- [reports/study-de-sync/german-in-text/README.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/german-in-text/README.md)
+- [reports/study-de-sync/german-in-text/part-01.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/german-in-text/part-01.csv)
+- [reports/study-de-sync/german-in-text/part-02.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/german-in-text/part-02.csv)
+- [reports/study-de-sync/german-in-text/part-03.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/german-in-text/part-03.csv)
+- [reports/study-de-sync/german-in-text/part-04.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/german-in-text/part-04.csv)
+- [reports/study-de-sync/german-in-text/part-05.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/german-in-text/part-05.csv)
+- [reports/study-de-sync/german-in-text/part-06.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/german-in-text/part-06.csv)
+- [reports/study-de-sync/german-in-text/part-07.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/german-in-text/part-07.csv)
+- [reports/study-de-sync/needs-translation/README.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/needs-translation/README.md)
+- [reports/study-de-sync/needs-translation/part-01.csv](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/needs-translation/part-01.csv)
+- [reports/study-de-sync/restore/README.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/restore/README.md)
+- [reports/study-de-sync/restore/part-01.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/restore/part-01.json)
+- [reports/study-de-sync/restore/part-02.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/restore/part-02.json)
+- [reports/study-de-sync/restore/part-03.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/restore/part-03.json)
+- [reports/study-de-sync/restore/part-04.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/restore/part-04.json)
+- [reports/study-de-sync/verification.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/reports/study-de-sync/verification.md)
+- [scripts/restore-study-de-sync.js](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/scripts/restore-study-de-sync.js)
+- [scripts/sync-study-de.js](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/69c0aeb7cc570d56bb44b60a9a813a6e745fd8c2/scripts/sync-study-de.js)
