@@ -1,0 +1,267 @@
+{
+  "batch_id": "LRB-078",
+  "correction_round": 2,
+  "apply_mode": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+  "reviewed_commit": "e1279bb8109157e0e49016078a0456a61cf5a058",
+  "input_mapping_sha256": "7126c0619951ff6883da7f593de577c24c01079b2f12484b33944ffa647ce8b7",
+  "owner_verdict": "FAIL_REQUIRES_COPY_PASTE_REPAIR",
+  "gala_pass": false,
+  "counts_before": {
+    "LABOT": 49,
+    "NELABOT": 1,
+    "PENDING": 0,
+    "PL": 31,
+    "PT": 19
+  },
+  "counts_required_after_apply": {
+    "LABOT": 50,
+    "NELABOT": 0,
+    "PENDING": 0,
+    "PL": 31,
+    "PT": 19
+  },
+  "instructions": [
+    "Ievietot zemāk dotās vērtības precīzi, bez jaunas lingvistiskas analīzes.",
+    "Katram ierakstam sinhronizēt visus replace_targets laukus ar vienu un to pašu pilno owner_new objektu.",
+    "Nemainīt DE piemērus, card_id, source-row identity, production data, Crowdin vai ingest/apply.",
+    "Pēc ievietošanas pārbūvēt tikai LRB-078 OWNER artefaktus un svaigi pārrēķināt proof/manifesta/checkpoint hashus un skaitītājus.",
+    "galaPass atstāt false līdz neatkarīgai OWNER atkārtotai pārbaudei."
+  ],
+  "corrections": [
+    {
+      "language": "PL",
+      "card_id": "wissen|idx:311",
+      "existing_decision": "LABOT",
+      "required_decision": "LABOT",
+      "defect": "Četrās owner_new atvasinātajās kopijās pazudis obligātais kartītes identitātes lauks id.",
+      "required_identity": {
+        "id": "a1-wissen",
+        "study_id": "a1-wissen-study"
+      },
+      "replace_targets": [
+        "LRB-078-decisions-COPY-PASTE.json → approved_card",
+        "LRB-078-gala-cards.json → approvedGalaCard",
+        "LRB-078-gala-cards.json → ownerNew",
+        "LRB-078-owner-approved-overrides.json → new",
+        "LRB-078-decisions.csv → owner_new",
+        "scripts/data/g2-a1-owner-pending/LRB-078-decisions.json → owner_new"
+      ],
+      "owner_note": "Pilna PL kartīte «wissen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "owner_new": {
+        "de": "wissen",
+        "level": "A1",
+        "id": "a1-wissen",
+        "lv": "wiedzieć",
+        "study": {
+          "id": "a1-wissen-study",
+          "layout": "standardStudy",
+          "translation": "wiedzieć",
+          "explanation": [
+            "Główna idea: wiedzieć fakt, odpowiedź lub informację.",
+            "wissen odnosi się przede wszystkim do informacji lub faktu.",
+            "Często dotyczy odpowiedzi, danych i znanych informacji.",
+            "wissen używa się, gdy ktoś wie jakiś fakt, odpowiedź lub informację."
+          ],
+          "examples": [
+            {
+              "de": "Ich weiß, wo er wohnt.",
+              "lv": "Wiem, gdzie on mieszka."
+            },
+            {
+              "de": "Woher wissen Sie das?",
+              "lv": "Skąd Pan / Pani to wie?"
+            },
+            {
+              "de": "Ich weiß die Antwort.",
+              "lv": "Znam odpowiedź."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wissen",
+              "meaning": "wiedzieć fakt lub informację",
+              "example": "Ich weiß, wo er wohnt. – Wiem, gdzie on mieszka."
+            },
+            {
+              "word": "kennen",
+              "meaning": "znać osobę, miejsce lub rzecz",
+              "example": "Ich kenne die Stadt. – Znam to miasto."
+            }
+          ],
+          "tip": [
+            "wissen = wiedzieć",
+            "Użyj wissen, gdy chodzi o znany fakt lub informację."
+          ],
+          "important": [
+            "wissen = wiedzieć fakt.",
+            "wissen = wiedzieć.",
+            "Oznacza wiedzieć fakt, odpowiedź lub informację."
+          ]
+        }
+      }
+    },
+    {
+      "language": "PT",
+      "card_id": "a1-kennen-study",
+      "existing_decision": "LABOT",
+      "required_decision": "LABOT",
+      "defect": "Četrās owner_new atvasinātajās kopijās pazudis obligātais kartītes identitātes lauks id.",
+      "required_identity": {
+        "id": "a1-kennen",
+        "study_id": "a1-kennen-study"
+      },
+      "replace_targets": [
+        "LRB-078-decisions-COPY-PASTE.json → approved_card",
+        "LRB-078-gala-cards.json → approvedGalaCard",
+        "LRB-078-gala-cards.json → ownerNew",
+        "LRB-078-owner-approved-overrides.json → new",
+        "LRB-078-decisions.csv → owner_new",
+        "scripts/data/g2-a1-owner-pending/LRB-078-decisions.json → owner_new"
+      ],
+      "owner_note": "Pilna PT kartīte «kennen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "owner_new": {
+        "de": "kennen",
+        "level": "A1",
+        "id": "a1-kennen",
+        "lv": "conhecer",
+        "study": {
+          "id": "a1-kennen-study",
+          "layout": "standardStudy",
+          "translation": "conhecer",
+          "explanation": [
+            "Ideia principal: conhecer uma pessoa, um lugar ou uma coisa por experiência.",
+            "kennen significa principalmente ter familiaridade pessoal.",
+            "É usado com frequência para pessoas e lugares.",
+            "Use kennen quando alguém conhece uma pessoa, um lugar ou uma coisa por experiência própria."
+          ],
+          "examples": [
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Eu o conheço."
+            },
+            {
+              "de": "Kennen Sie diese Frau?",
+              "lv": "O senhor / a senhora conhece esta mulher?"
+            },
+            {
+              "de": "Wo habt ihr euch kennengelernt?",
+              "lv": "Onde vocês se conheceram?"
+            },
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Eu o conheço."
+            },
+            {
+              "de": "kennen",
+              "lv": "conhecer; wissen = saber"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kennen",
+              "meaning": "conhecer uma pessoa, um lugar ou uma coisa",
+              "example": "Ich kenne ihn. – Eu o conheço."
+            },
+            {
+              "word": "wissen",
+              "meaning": "saber um fato ou uma informação",
+              "example": "Ich weiß seinen Namen. – Eu sei o nome dele."
+            }
+          ],
+          "tip": [
+            "kennen = conhecer",
+            "Use kennen quando o contexto se referir à familiaridade com alguém ou algo."
+          ],
+          "important": [
+            "kennen = conhecer uma pessoa ou um lugar.",
+            "kennen = conhecer.",
+            "Significa conhecer uma pessoa, um lugar ou uma coisa por experiência."
+          ]
+        }
+      }
+    },
+    {
+      "language": "PL",
+      "card_id": "schon|idx:521",
+      "existing_decision": "NELABOT",
+      "required_decision": "LABOT",
+      "defect": "Poļu gala piemēram trūkst teikuma beigu punkta.",
+      "exact_replacement": {
+        "field": "study.examples[0].lv",
+        "old": "Jestem już w domu",
+        "new": "Jestem już w domu."
+      },
+      "replace_targets": [
+        "LRB-078-decisions-COPY-PASTE.json → approved_card",
+        "LRB-078-gala-cards.json → approvedGalaCard",
+        "LRB-078-gala-cards.json → ownerNew",
+        "LRB-078-owner-approved-overrides.json → new",
+        "LRB-078-decisions.csv → owner_new",
+        "scripts/data/g2-a1-owner-pending/LRB-078-decisions.json → owner_new"
+      ],
+      "owner_note": "LABOT: PL kartītes «schon» piemēra interpunkcija saskaņota ar pilno DE teikumu; pārējais pilnais kartītes kompozīts saglabāts.",
+      "owner_new": {
+        "de": "schon",
+        "lv": "Już",
+        "level": "A1",
+        "study": {
+          "id": "a1-schon-study",
+          "layout": "standardStudy",
+          "translation": "Już",
+          "explanation": [
+            "Główna idea: coś już się wydarzyło lub już obowiązuje.",
+            "Schon oznacza głównie: coś już się wydarzyło lub obowiązuje.",
+            "Często opisuje: fakt, który miał miejsce lub istniejący stan.",
+            "Schon oznacza już: coś już się wydarzyło lub już obowiązuje."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin schon zu Hause.",
+              "lv": "Jestem już w domu."
+            }
+          ],
+          "tip": [
+            "Coś już się wydarzyło lub już obowiązuje.",
+            "Użyj schon, gdy kontekst pasuje do tego znaczenia."
+          ],
+          "important": [
+            "Schon = już.",
+            "Coś już się wydarzyło lub już obowiązuje."
+          ]
+        }
+      }
+    }
+  ],
+  "required_fresh_gates": {
+    "ROWS": "50/50",
+    "PL": 31,
+    "PT": 19,
+    "LABOT": 50,
+    "NELABOT": 0,
+    "PENDING": 0,
+    "UNIQUE_TARGET_CARDS": 50,
+    "FULL_STUDY_CARDS": 50,
+    "SOURCE_ROW_IDENTITY_ALIGNMENT": "50/50",
+    "SOURCE_ROW_IDENTITY_DRIFT": 0,
+    "OWNER_NEW_PARSEABLE": "50/50",
+    "OWNER_NEW_FULL_COMPOSITE_ALIGNMENT": "50/50",
+    "OWNER_NEW_MISSING_IDENTITY_FIELDS": 0,
+    "OWNER_NEW_DRIFT": 0,
+    "APPROVED_COMPOSITE_DRIFT": 0,
+    "WRONG_LANGUAGE_RESIDUE": 0,
+    "NULL_TARGET_VALUES": 0,
+    "DE_EXAMPLE_INDEX_ALIGNMENT": "213/213",
+    "COMPARISON_ALIGNMENT": "125/125",
+    "SEMANTIC_ALIGNMENT_VIOLATIONS": 0,
+    "DEGENERATE_EXAMPLE_PAIRS": 0,
+    "INTERNAL_CARD_CONTRADICTIONS": 0,
+    "FULL_COMPOSITE_COMPLETENESS": "PASS",
+    "ANTI_BULK": "PASS",
+    "NEW_LUNA_CALLS": 0,
+    "PRODUCTION_CHANGES": 0,
+    "DE_CHANGES": 0,
+    "CROWDIN_CHANGES": 0,
+    "INGEST_APPLY": 0,
+    "pass": true
+  }
+}
