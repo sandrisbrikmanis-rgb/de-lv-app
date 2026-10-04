@@ -955,3 +955,10 @@ body.is-home-screen #homeMenuScreen.mobile-home-v2 .home-menu-language-btn {
     text-shadow: var(--mh-text-shadow-on-dark) !important;
   }
 }
+
+
+/* ?card= / ?study= must hide the home menu. Author display rules must not override [hidden]. */
+#homeMenuScreen[hidden],
+.home-menu-screen[hidden] {
+  display: none !important;
+}
