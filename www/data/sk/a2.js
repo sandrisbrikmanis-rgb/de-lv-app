@@ -55125,7 +55125,7 @@ const A2_WORDS = [
   {
     "de": "Wäsche",
     "de_article": "die",
-    "de_plural": null,
+    "de_plural": "die Wäschen",
     "lv": "Pranie",
     "level": "A2"
   },
@@ -55650,7 +55650,7 @@ const A2_WORDS = [
   {
     "de": "Werbung",
     "de_article": "die",
-    "de_plural": null,
+    "de_plural": "die Werbungen",
     "lv": "Reklama",
     "level": "A2"
   },
@@ -55982,6 +55982,7 @@ const A2_WORDS = [
   {
     "de": "Wiedersehen",
     "de_article": "das",
+    "de_plural": "die Wiedersehen",
     "lv": "Zjazd",
     "level": "A2"
   },
