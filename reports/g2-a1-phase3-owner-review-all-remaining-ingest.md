@@ -1,0 +1,21 @@
+# G2/A1 Phase 3 — All remaining OWNER review ingest
+
+**Classification:** `G2_A1_OWNER_REVIEW_ALL_REMAINING_INGEST_READY`
+**Owner authorization:** `G2_A1_OWNER_REVIEW_ALL_REMAINING_DECISIONS_INGEST_APPROVED`
+**Rows ingested:** 22650/22650
+**Batch coverage:** 232/232
+
+## OWNER gates
+
+| Gate | Value |
+|------|------:|
+| DECIDED | 14913 |
+| LABOT | 1476 |
+| NELABOT | 13437 |
+| PENDING | 7737 |
+| IDENTITY_MISMATCH | 0 |
+| BATCH_001_DECISIONS_CHANGED | 0 |
+| DEFERRED_BACKLOG_29_CLOSED | 0 |
+
+**Next step:** `OWNER_REVIEW_7737_ESCALATIONS_OR_SEPARATE_APPLY_AUTHORIZATION`
+
