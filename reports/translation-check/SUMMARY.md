@@ -59,3 +59,13 @@ Ja tīmekļa A avots atļauj 1 pieprasījumu sekundē un latentums paliek ap 1 s
 
 Labojumi nav izdarīti. Pareizais tulkojums nav ierosināts.
 
+## Atvēršanai un lejupielādei
+
+Satura commits: `466207ea56ee2dfc0755c4c1f73b48f342be79c4`.
+
+- [SUMMARY.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/466207ea56ee2dfc0755c4c1f73b48f342be79c4/reports/translation-check/SUMMARY.md)
+- [SUMMARY.md raw](https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/466207ea56ee2dfc0755c4c1f73b48f342be79c4/reports/translation-check/SUMMARY.md)
+- [MANIFEST.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/466207ea56ee2dfc0755c4c1f73b48f342be79c4/reports/translation-check/MANIFEST.md)
+- [MANIFEST.md raw](https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/466207ea56ee2dfc0755c4c1f73b48f342be79c4/reports/translation-check/MANIFEST.md)
+
+Pārējie faili ir MANIFEST tabulā.
