@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
+  "updatedAt": "2026-09-12T18:17:00.000Z",
+  "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
+  "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
+  "batchPrefix": "LRB",
+  "batchSize": 50,
+  "batchesTotal": 103,
+  "overlapPolicy": "BATCHES_MUST_NOT_OVERLAP",
+  "pc1": {
+    "owner": "PC1",
+    "direction": "ASCENDING",
+    "activeBatch": null,
+    "reservedBatches": [],
+    "inProgressBatches": [],
+    "completedBatches": [
+      "LRB-001",
+      "LRB-002",
+      "LRB-003",
+      "LRB-004",
+      "LRB-005",
+      "LRB-006",
+      "LRB-007",
+      "LRB-008",
+      "LRB-009",
+      "LRB-010",
+      "LRB-011",
+      "LRB-012",
+      "LRB-013",
+      "LRB-014",
+      "LRB-015",
+      "LRB-016",
+      "LRB-017",
+      "LRB-018",
+      "LRB-019",
+      "LRB-020"
+    ],
+    "nextCandidate": "LRB-021"
+  },
+  "pc2": {
+    "owner": "PC2",
+    "direction": "DESCENDING",
+    "activeBatch": null,
+    "reservedBatches": [],
+    "inProgressBatches": [],
+    "completedBatches": [
+      "LRB-103"
+    ],
+    "nextCandidate": "LRB-102"
+  },
+  "reservations": [
+    {
+      "batchId": "LRB-103",
+      "owner": "PC2",
+      "direction": "DESCENDING",
+      "status": "GALA_PASS",
+      "branch": "cursor/lrb-103-owner-review-pc2",
+      "reservedAt": "2026-09-12T17:20:00.000Z",
+      "rows": 25,
+      "batchSizeNote": "Final batch: 25 rows (not 50)",
+      "completedAt": "2026-09-12T18:03:42.571Z",
+      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-103/LRB-103-owner-review-proof.json",
+      "technicalRepairAt": "2026-09-12T18:12:06.940Z",
+      "linguisticVerdict": "LRB_103_FULL_25_25_LINGUISTIC_REVIEW_PASS",
+      "galaPassAt": "2026-09-12T18:17:00.000Z",
+      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-103-owner-authorization-proof.json"
+    }
+  ],
+  "conflicts": []
+}
