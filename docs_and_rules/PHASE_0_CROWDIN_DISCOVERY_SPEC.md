@@ -1,3 +1,6 @@
+STATUS: DEPRECATED / NOT ACTIVE — balstīts uz Crowdin kārtību, kas ir
+izņemta no MASTER (v1.19). Nav spēkā līdz OWNER atkārtotam apstiprinājumam.
+
 # Fāze 0 — Crowdin bridge + Discovery orchestrator spec
 
 **Statuss:** SPEC / IMPLEMENTATION TARGET  

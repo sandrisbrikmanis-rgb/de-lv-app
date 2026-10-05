@@ -1,12 +1,19 @@
 # MASTER 1.12 — Saistošais darba līgums
 
-**Statuss:** AUTHORITATIVE / OBLIGĀTS  
-**Saistīts ar:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` (pašlaik v1.18; lingvistiskie grozījumi §7.153–§7.157)  
-**Mērķis:** viens autoritatīvs ceļvedis visiem valodu satura darbiem (A1–C2, Teikumi, Verbi, Kurss, Crowdin), kas nav pretrunā ar MASTER.
+**Crowdin satura kārtība šajā dokumentā: NOVECOJIS**
 
-Ja šī dokumenta prasības ir pretrunā ar `PROJECT_LANGUAGE_MASTER_STANDARD.md`, spēkā ir MASTER dokuments. Šis līgums precizē **izpildes secību un Crowdin integrāciju**, nevis aizstāj MASTER normas.
+STATUS: DEPRECATED / NOT ACTIVE — balstīts uz Crowdin kārtību, kas ir
+izņemta no MASTER (v1.19). Nav spēkā līdz OWNER atkārtotam apstiprinājumam.
 
-**Lingvistiskais audits:** obligāti `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` + MASTER §7.153–§7.157 (avotu atbalstīts audits, 33 valodas, PASS slēgšana, OWNER tvērums).
+Šis banners attiecas uz Crowdin satura tulkošanas kārtību (mērķa rindas vārds „Crowdin”, §B kolonna „Crowdin” grupām G1–G3, §C Content-Crowdin bridge, §E, §G Crowdin rindas, §J p.2, `PHASE_0_CROWDIN_DISCOVERY_SPEC.md`). Konfliktu protokols §0 paliek spēkā. G5 / `languages/{lang}/ui.js` rinda §B nav šī bannera tvērums. Satura avotu apstiprināšana: MASTER §7.158.
+
+**Statuss:** AUTHORITATIVE / OBLIGĀTS — izņemot augstāk atzīmētās NOVECOJUŠĀS Crowdin satura daļas  
+**Saistīts ar:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` (pašlaik v1.19; §7.153–§7.158)  
+**Mērķis:** viens autoritatīvs ceļvedis visiem valodu satura darbiem (A1–C2, Teikumi, Verbi, Kurss). Agrākais mērķa vārds „Crowdin” ir **NOVECOJIS** (sk. banneri). Dokuments nav pretrunā ar MASTER, ciktāl Crowdin satura daļas ir atzīmētas kā NOVECOJUŠAS.
+
+Ja šī dokumenta prasības ir pretrunā ar `PROJECT_LANGUAGE_MASTER_STANDARD.md`, spēkā ir MASTER dokuments. Šis līgums precizē **izpildes secību un konfliktu protokolu**. Crowdin integrācija kā satura tulkošanas ceļš ir **NOVECOJIS** (MASTER v1.19 §7.158).
+
+**Lingvistiskais audits:** obligāti `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` + MASTER §7.153–§7.158 (avotu atbalstīts audits, 33 valodas, PASS slēgšana, OWNER tvērums, vārda līmeņa avotu apstiprināšana).
 
 ------------------------------------------------------------------------
 
@@ -41,23 +48,25 @@ Ja kāds no OWNER uzdevumiem ir pretrunā ar šo līgumu vai MASTER 1.12:
 | Grupa | Datasets | Crowdin | Closure |
 |-------|----------|---------|---------|
 | **G0** | Kopīgā infrastruktūra | — | — |
-| **G1** | `sentences`, `verbs`, `courseTrainingCards` | viens vienkāršs projekts | bez LIVE |
-| **G2** | `a1`…`c2` flashcards | viena shēma, fāzēta tulkošana | bez LIVE |
-| **G3** | `courseLessons` (L8–L21 strukturēts + L1–7 HTML) | daļēji | **obligāts LIVE** §11.12 |
+| **G1** | `sentences`, `verbs`, `courseTrainingCards` | viens vienkāršs projekts **[NOVECOJIS]** | bez LIVE |
+| **G2** | `a1`…`c2` flashcards | viena shēma, fāzēta tulkošana **[NOVECOJIS]** | bez LIVE |
+| **G3** | `courseLessons` (L8–L21 strukturēts + L1–7 HTML) | daļēji **[NOVECOJIS]** | **obligāts LIVE** §11.12 |
 | **G5** | `languages/{lang}/ui.js` | jau darbojas | atsevišķi |
+
+Kolonna „Crowdin” grupām G1–G3 ir **NOVECOJIS** (sk. banneri faila augšā). G5 rinda nav mainīta.
 
 **Kurss neliekams pie A1–C2** — cits datu modelis + runtime vārti.
 
-Detalizēta Fāze 0 specifikācija: `PHASE_0_CROWDIN_DISCOVERY_SPEC.md`.
+Detalizēta Fāze 0 specifikācija: `PHASE_0_CROWDIN_DISCOVERY_SPEC.md` — **NOVECOJIS** (sk. banneri).
 
 ------------------------------------------------------------------------
 
 ## C. Fāze 0 — Infrastruktūra (pirms jebkura satura labojuma)
 
-- Content-Crowdin bridge katram G1/G2/G3 (kopīga bibliotēka).
+- Content-Crowdin bridge katram G1/G2/G3 (kopīga bibliotēka). **[NOVECOJIS]** — sk. banneri faila augšā.
 - Deterministiskie vārti visām grupām, ieskaitot `MAIN_TRANSLATION_FIELD_INVENTORY` un `MULTI_TRANSLATION_SCAN` 100%.
 - Orchestratori ar automātisku OWNER-PREP pēc audita.
-- **Exit:** bridge tests PASS, production changes = 0.
+- **Exit:** bridge tests PASS **[NOVECOJIS — Content-Crowdin bridge]**, production changes = 0 paliek spēkā.
 
 ------------------------------------------------------------------------
 
@@ -80,6 +89,8 @@ Discovery exit:
 ------------------------------------------------------------------------
 
 ## E. Fāze 2 — Crowdin round (tulkošana, ne apply)
+
+**NOVECOJIS.** STATUS: DEPRECATED / NOT ACTIVE — balstīts uz Crowdin kārtību, kas ir izņemta no MASTER (v1.19). Nav spēkā līdz OWNER atkārtotam apstiprinājumam. Satura tulkojumu avotu apstiprināšana ir MASTER §7.158.
 
 - Export tikai translatable lauki; DE un struktūra ārpus.
 - Tulkošana Crowdin; G2 fāzēti `A1 → A2 → B1 → B2 → C1 → C2`.
@@ -118,17 +129,19 @@ Jebkurš FAIL/BLOCKED → process apstājas.
 
 ## G. OWNER un multi-translation (Crowdin kontekstā)
 
+Virsraksta „Crowdin kontekstā” un Crowdin rindas tabulā ir **NOVECOJIS** (sk. banneri faila augšā). Pārējās rindas (PROPOSED, LABOT, NELABOT, NEEDS_SOURCE_REVIEW, SKIP) paliek spēkā.
+
 | Situācija | Rīcība |
 |-----------|--------|
-| Crowdin atgriež `A • B` | `MULTIPLE_TRANSLATIONS_DETECTED` → OWNER |
-| Crowdin viens variants, audits konflikts | OWNER |
+| Crowdin atgriež `A • B` **[NOVECOJIS]** | `MULTIPLE_TRANSLATIONS_DETECTED` → OWNER |
+| Crowdin viens variants, audits konflikts **[NOVECOJIS]** | OWNER |
 | Audits iesaka `PROPOSED` | OWNER VIEW tikai; ne apply |
 | OWNER `LABOT` | COPY-ONLY ar precīzu CURRENT + NEW |
 | OWNER `NELABOT` | production nemainās |
 | OWNER `NEEDS_SOURCE_REVIEW` | apply aizliegts, closure BLOCKED |
 | Nav OWNER lēmuma | `SKIP_OWNER_DECISION_REQUIRED` |
 
-**Aizliegts:** Crowdin → tieši production; automātiska variantu izvēle; `PROPOSED` kā `NEW` bez OWNER.
+**Aizliegts:** Crowdin → tieši production **[NOVECOJIS kā satura ceļš]**; automātiska variantu izvēle; `PROPOSED` kā `NEW` bez OWNER.
 
 ------------------------------------------------------------------------
 
@@ -173,7 +186,7 @@ G3 Kurss papildus: §11.12 LIVE/runtime gates.
 ## J. Absolūti aizliegts
 
 1. Tulkošana/apply pirms discovery + OWNER apjoma apstiprinājuma  
-2. Crowdin import tieši uz production  
+2. Crowdin import tieši uz production **[NOVECOJIS]** — sk. banneri faila augšā  
 3. DE lauku maiņa  
 4. LV master struktūras maiņa  
 5. Paralēli repair branch viena datasetam  
@@ -198,7 +211,7 @@ G3 Kurss papildus: §11.12 LIVE/runtime gates.
 
 **Saistītie dokumenti:**
 
-- `PROJECT_LANGUAGE_MASTER_STANDARD.md` (v1.18)
+- `PROJECT_LANGUAGE_MASTER_STANDARD.md` (v1.19)
 - `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md`
-- `PHASE_0_CROWDIN_DISCOVERY_SPEC.md`
+- `PHASE_0_CROWDIN_DISCOVERY_SPEC.md` — **NOVECOJIS** (sk. banneri faila augšā)
 - `LANGUAGE_AUDIT_STANDARD.md` (vēsturisks; lingvistiskā metodika — MASTER §7.153+)
