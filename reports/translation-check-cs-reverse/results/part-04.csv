@@ -1,0 +1,810 @@
+level,index,de,de_article,cs,equivalent,a_verdict,reverse_verdict,final_status,source_id,entry_url,date
+b2,2100,zuweisen,,Přidělit • Určit,,NO_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/P%C5%99id%C4%9Blit,2026-10-05
+b2,2101,Zuwendung,die,Příspěvek,poskytnutí peněz,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/P%C5%99%C3%ADsp%C4%9Bvek,2026-10-05
+b2,2102,zuwider,,Proti • V rozporu s • Být proti mysli,,NO_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Proti,2026-10-05
+b2,2103,zwanglos,,Volný • Nenucený,nenucený,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Voln%C3%BD,2026-10-05
+b2,2104,zweckmäßig,,Účelný • Vhodný,účelný vhodný,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/zweckm%C3%A4%C3%9Fig,2026-10-05
+b2,2105,zweifellos,,Nezpochybnitelný,nepochybný,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Nezpochybniteln%C3%BD,2026-10-05
+b2,2106,Zwielicht,das,Soumrak,šerosvit,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Soumrak,2026-10-05
+b2,2107,Zwirn,der,Nit • Skací příze,režná nit,NO_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Nit,2026-10-05
+b2,2108,Zwischenfall,der,Incident,incident,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Zwischenfall,2026-10-05
+b2,2109,Zwischenraum,der,Prostor • Meziprostor,mezera,NO_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Prostor,2026-10-05
+b2,2110,ändern,,Změnit • Opravit,změnit,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zm%C4%9Bnit,2026-10-05
+b2,2111,wechseln,,Vyměnit • Změnit,vyměnit změnit,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/wechseln,2026-10-05
+b2,2112,bieten,,Nabídnout • Poskytnout,nabízet,NO_MATCH,REVERSE_FAILED|REVERSE_CONFIRMED,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Nab%C3%ADdnout,2026-10-05
+b2,2113,anbieten,,Nabídnout,nabízet,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Nab%C3%ADdnout,2026-10-05
+b2,2114,fordern,,Požadovat • Žádat,vyžadovat,NO_MATCH,REVERSE_CONFIRMED|REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Po%C5%BEadovat,2026-10-05
+b2,2115,fördern,,Podporovat • Napomáhat,podporovat,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_AMBIGUOUS,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Podporovat,2026-10-05
+b2,2116,sich verlaufen,,Zabloudit • Ztratit se,probíhat,NO_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zabloudit,2026-10-05
+b2,2117,verlaufen,,Probíhat • Plynout,probíhat,PARTIAL_MATCH,REVERSE_AMBIGUOUS|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Prob%C3%ADhat,2026-10-05
+c1,0,Wahrnehmung,die,Vnímání,vnímání,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Wahrnehmung,2026-10-05
+c1,1,gewährleisten,,Zajistit,zaručovat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zajistit,2026-10-05
+c1,2,Auswirkung,die,Vliv,důsledek,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vliv,2026-10-05
+c1,3,umstritten,,Kontroverzní • Sporný,sporný,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_CONFIRMED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Kontroverzn%C3%AD,2026-10-05
+c1,4,Stellungnahme,die,Úřední vyjádření • Vyjádření názoru,zaujetí stanoviska,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/%C3%9A%C5%99edn%C3%AD%20vyj%C3%A1d%C5%99en%C3%AD,2026-10-05
+c1,5,nachvollziehen,,Rozumět • Sledovat logiku,následovat,NO_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Rozum%C4%9Bt,2026-10-05
+c1,6,ausschlaggebend,,Rozhodující,rozhodující,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/ausschlaggebend,2026-10-05
+c1,7,Belastbarkeit,die,Odolnost proti namáhání • Odolnost proti zátěži,zatížitelnost,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Odolnost%20proti%20nam%C3%A1h%C3%A1n%C3%AD,2026-10-05
+c1,8,akkreditieren,,Akreditovat,akreditovat,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/akkreditieren,2026-10-05
+c1,9,Aktiengesellschaft,die,Akciová společnost,akciová společnost,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Aktiengesellschaft,2026-10-05
+c1,10,Aktionsprogramm,das,Akční program,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Aktionsprogramm,2026-10-05
+c1,11,Alarmbereitschaft,die,Pohotovost,pohotovost,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Alarmbereitschaft,2026-10-05
+c1,12,Altweibersommer,der,Babí léto,babí léto,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Altweibersommer,2026-10-05
+c1,13,anfechten,,Napadnout • Zpochybnit,popírat,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Napadnout,2026-10-05
+c1,14,allerseits,,Ze všech stran,všude,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ze%20v%C5%A1ech%20stran,2026-10-05
+c1,15,anderweitig,,Jinde • Jinak,jinaký,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Jinde,2026-10-05
+c1,16,Abrüstungsabkommen,das,Odzbrojovací smlouva,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Abr%C3%BCstungsabkommen,2026-10-05
+c1,17,Abrüstungsverhandlungen,die,Rozhovory o odzbrojení,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Abr%C3%BCstungsverhandlungen,2026-10-05
+c1,18,Aal,der,Úhoř,úhoř,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Aal,2026-10-05
+c1,19,Abart,die,Odchylka • Aberace,odrůda,NO_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Odchylka,2026-10-05
+c1,20,abstumpfen,,Otupit • Znecitlivět,otupovat,NO_MATCH,REVERSE_CONFIRMED|REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Otupit,2026-10-05
+c1,21,Abtreibung,die,Potrat,potrat,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Abtreibung,2026-10-05
+c1,22,Affekt,der,Výbuch emocí,afekt,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/V%C3%BDbuch%20emoc%C3%AD,2026-10-05
+c1,23,ächten,,Ostrakizovat • Společensky ostrakizovat,dávat do klatby,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ostrakizovat,2026-10-05
+c1,24,Flottenstützpunkt,der,Námořní základna,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Flottenst%C3%BCtzpunkt,2026-10-05
+c1,25,Flugwetter,das,Povětrnostní podmínky pro létání,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Flugwetter,2026-10-05
+c1,26,Frachtbrief,der,Nákladní list,nákladní list,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Frachtbrief,2026-10-05
+c1,27,Frachtgeld,das,Přepravné,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Frachtgeld,2026-10-05
+c1,28,Frauenrechtlerin,die,Bojovnice za práva žen,bojovnice za práva,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Frauenrechtlerin,2026-10-05
+c1,29,Freikörperkultur,die,Nudismus,nudizmus,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Nudismus,2026-10-05
+c1,30,Kinderschänder,der,Pachatel sexuálního zneužívání dětí,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kindersch%C3%A4nder,2026-10-05
+c1,31,Kindesmisshandlung,die,Týrání dětí,týrání dítěte,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/T%C3%BDr%C3%A1n%C3%AD%20d%C4%9Bt%C3%AD,2026-10-05
+c1,32,Zivilgesetzbuch,das,Občanský zákoník,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Zivilgesetzbuch,2026-10-05
+c1,33,Aktie,die,Akcie,akcie,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Aktie,2026-10-05
+c1,34,Abenddämmerung,die,Večerní soumrak,soumrak,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ve%C4%8Dern%C3%AD%20soumrak,2026-10-05
+c1,35,Anwalt,der,Advokát,advokát,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Anwalt,2026-10-05
+c1,36,außergewöhnlich,,Neobvyklý,neobyčejný,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Neobvykl%C3%BD,2026-10-05
+c1,37,außerordentlich,,Mimořádný,mimořádný,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/au%C3%9Ferordentlich,2026-10-05
+c1,38,Autokennzeichen,das,Písmena a čísla na poznávací značce auta,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Autokennzeichen,2026-10-05
+c1,39,Bäckerhandwerk,das,Pekařské řemeslo,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/B%C3%A4ckerhandwerk,2026-10-05
+c1,40,bekannt geben,,Oznámit,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/bekannt%20geben,2026-10-05
+c1,41,Bergwanderung,die,Horská turistika,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Bergwanderung,2026-10-05
+c1,42,beschäftigen,,Zaměstnat,zaměstnávat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zam%C4%9Bstnat,2026-10-05
+c1,43,sich beschäftigen,,Zabývat se,zaměstnávat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zab%C3%BDvat%20se,2026-10-05
+c1,44,Beschäftigung,die,Zaměstnání • Činnost,zaměstnanost,NO_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zam%C4%9Bstn%C3%A1n%C3%AD,2026-10-05
+c1,45,beschleunigen,,Urychlit,urychlovat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Urychlit,2026-10-05
+c1,46,Besichtigung,die,Prohlídka,prohlídka,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Besichtigung,2026-10-05
+c1,47,beurteilen,,Hodnotit,posuzovat,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Hodnotit,2026-10-05
+c1,48,Autobahnbrücke,die,Dálniční most,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Autobahnbr%C3%BCcke,2026-10-05
+c1,49,Eisenbahnbrücke,die,Železniční most,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Eisenbahnbr%C3%BCcke,2026-10-05
+c1,50,Dampfbügeleisen,das,Napařovací žehlička,napařovací žehlička,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Dampfb%C3%BCgeleisen,2026-10-05
+c1,51,Büroangestellte,der,Kancelářský pracovník,úřednice,AMBIGUOUS,REVERSE_NOT_FOUND,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Kancel%C3%A1%C5%99sk%C3%BD%20pracovn%C3%ADk,2026-10-05
+c1,52,charakteristisch,,Charakteristický,charakteristický,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/charakteristisch,2026-10-05
+c1,53,Diplomat,der,Diplomat,diplomat,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Diplomat,2026-10-05
+c1,54,Dokumentarfilm,der,Dokumentární film,dolumentární film,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Dokument%C3%A1rn%C3%AD%20film,2026-10-05
+c1,55,durchschnittlich,,V průměru,průměrný,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/V%20pr%C5%AFm%C4%9Bru,2026-10-05
+c1,56,durchstreichen,,Vyškrtnout,přeškrtávat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vy%C5%A1krtnout,2026-10-05
+c1,57,Einfamilienhaus,das,Rodinný dům,rodinný domek,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Rodinn%C3%BD%20d%C5%AFm,2026-10-05
+c1,58,Eisenbahnfahrt,die,Cesta vlakem,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Eisenbahnfahrt,2026-10-05
+c1,59,Eisenbahnstation,die,Nádraží,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Eisenbahnstation,2026-10-05
+c1,60,ekelhaft,,Nechutný,odporný,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Nechutn%C3%BD,2026-10-05
+c1,61,Energieverbrauch,der,Spotřeba energie,spotřeba energie,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Energieverbrauch,2026-10-05
+c1,62,Gartenerdbeere,die,Zahradní jahoda,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gartenerdbeere,2026-10-05
+c1,63,erforderlich,,Nutné,potřebný,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Nutn%C3%A9,2026-10-05
+c1,64,fabelhaft,,Vynikající,báječný,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vynikaj%C3%ADc%C3%AD,2026-10-05
+c1,65,fehlerhaft,,Chybný,chybný,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/fehlerhaft,2026-10-05
+c1,66,folgendermaßen,,Následovně,takto,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/N%C3%A1sledovn%C4%9B,2026-10-05
+c1,67,Geburtsschein,der,Rodný list,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Geburtsschein,2026-10-05
+c1,68,gegeneinander,,Proti sobě,proti sobě,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/gegeneinander,2026-10-05
+c1,69,Gemüsegarten,der,Zeleninová zahrada,zelininová zahrada,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zeleninov%C3%A1%20zahrada,2026-10-05
+c1,70,Gepäckträger,der,Nosič zavazadel,nosič,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Nosi%C4%8D%20zavazadel,2026-10-05
+c1,71,geschäftlich,,Obchodní,obchodní,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/gesch%C3%A4ftlich,2026-10-05
+c1,72,Geschäftsmann,der,Podnikatel,obchodník,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Podnikatel,2026-10-05
+c1,73,geschichtlich,,Historický,historický,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/geschichtlich,2026-10-05
+c1,74,geschmacklos,,Bez chuti,bez chuti,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/geschmacklos,2026-10-05
+c1,75,geschmackvoll,,Vkusný,vkusný,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/geschmackvoll,2026-10-05
+c1,76,gesetzlich,,Právní,zákonný,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pr%C3%A1vn%C3%AD,2026-10-05
+c1,77,Gesichtspunkt,der,Hledisko • Aspekt,hledisko,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Hledisko,2026-10-05
+c1,78,Gewichtheben,das,Vzpírání,vzpírání,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gewichtheben,2026-10-05
+c1,79,gewissenhaft,,Svědomitý,svědomitý,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/gewissenhaft,2026-10-05
+c1,80,Gipfel,der,Vrchol,vrchol,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gipfel,2026-10-05
+c1,81,Hausangestellte,die,Hospodyně,pomocnice v domácnosti,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Hospodyn%C4%9B,2026-10-05
+c1,82,hinaufklettern,,Vylézt nahoru,vylézat nahoru,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vyl%C3%A9zt%20nahoru,2026-10-05
+c1,83,hintereinander,,Jeden za druhým,za sebou,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Jeden%20za%20druh%C3%BDm,2026-10-05
+c1,84,Hochzeitsbrauch,der,Svatební zvyk,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Hochzeitsbrauch,2026-10-05
+c1,85,Hochzeitsfeier,die,Svatební oslava,svatba,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Svatebn%C3%AD%20oslava,2026-10-05
+c1,86,Hochzeitsreise,die,Líbánky,svatební cesta,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/L%C3%ADb%C3%A1nky,2026-10-05
+c1,87,identifizieren,,Identifikovat,identifikovat,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/identifizieren,2026-10-05
+c1,88,Inflationsrate,die,Míra inflace,míra inflace,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Inflationsrate,2026-10-05
+c1,89,Schlaginstrument,das,Bicí nástroj,bicí nástroj,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schlaginstrument,2026-10-05
+c1,90,Tasteninstrument,das,Klávesový nástroj,klávesový hudební nástroj,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Kl%C3%A1vesov%C3%BD%20n%C3%A1stroj,2026-10-05
+c1,91,Jahreseinkommen,das,Roční příjem,roční příjem,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Jahreseinkommen,2026-10-05
+c1,92,Kabelanschluss,der,Připojení kabelové televize,kabelový spoj,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/P%C5%99ipojen%C3%AD%20kabelov%C3%A9%20televize,2026-10-05
+c1,93,Kabelfernsehen,das,Kabelová televize,kabelová televize,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kabelfernsehen,2026-10-05
+c1,94,Kaltwasserhahn,der,Kohoutek studené vody,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kaltwasserhahn,2026-10-05
+c1,95,Pressekampagne,die,Tisková kampaň,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Pressekampagne,2026-10-05
+c1,96,Kandidatenliste,die,Seznam kandidátů,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kandidatenliste,2026-10-05
+c1,97,Klage,die,Stížnost,stížnost,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Klage,2026-10-05
+c1,98,klagen,,Stěžovat si,stěžovat si,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/klagen,2026-10-05
+c1,99,Kostenanschlag,der,Odhad výdajů,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kostenanschlag,2026-10-05
+c1,100,krampfhaft,,Křečovitý,křečovitý,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/krampfhaft,2026-10-05
+c1,101,Krankheitsbild,das,Klinický obraz,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Krankheitsbild,2026-10-05
+c1,102,Lastkraftwagen,der,Nákladní automobil,nákladní auto,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/N%C3%A1kladn%C3%AD%20automobil,2026-10-05
+c1,103,lebhaft,,Živý,živý,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/lebhaft,2026-10-05
+c1,104,Leichtathletik,die,Atletika,lehká atletika,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Atletika,2026-10-05
+c1,105,Mehrwertsteuer,die,Daň z přidané hodnoty,daň z přidané,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Mehrwertsteuer,2026-10-05
+c1,106,Meinungsumfrage,die,Průzkum veřejného mínění,průzkum veřejného mínění,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Meinungsumfrage,2026-10-05
+c1,107,Menschenrechte,die,Lidská práva,lidská práva,AMBIGUOUS,REVERSE_NOT_FOUND,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Lidsk%C3%A1%20pr%C3%A1va,2026-10-05
+c1,108,Ministerium,das,Ministerstvo,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Ministerium,2026-10-05
+c1,109,Missverständnis,das,Nedorozumění,nedorozumění,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Missverst%C3%A4ndnis,2026-10-05
+c1,110,Modezeitschrift,die,Módní časopis,módní časopis,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Modezeitschrift,2026-10-05
+c1,111,Morgendämmerung,die,Svítání,svítání,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Morgend%C3%A4mmerung,2026-10-05
+c1,112,Morgengymnastik,die,Ranní cvičení,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Morgengymnastik,2026-10-05
+c1,113,nahrhaft,,Výživný,výživný,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/nahrhaft,2026-10-05
+c1,114,Nationaltracht,die,Národní kroj,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Nationaltracht,2026-10-05
+c1,115,Notar,der,Notář,notář,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Notar,2026-10-05
+c1,116,Notarzt,der,Lékař záchranné služby,pohotovostní lékař,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/L%C3%A9ka%C5%99%20z%C3%A1chrann%C3%A9%20slu%C5%BEby,2026-10-05
+c1,117,Öffentlichkeit,die,Společnost • Otevřenost,veřejnost,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Spole%C4%8Dnost,2026-10-05
+c1,118,Parlament,das,Parlament,parlament,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Parlament,2026-10-05
+c1,119,Partei,die,Večírek • Večírek,strana,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ve%C4%8D%C3%ADrek,2026-10-05
+c1,120,Persönlichkeit,die,Osobnost,osobnost,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Pers%C3%B6nlichkeit,2026-10-05
+c1,121,Polizeieinheit,die,Policejní jednotka,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Polizeieinheit,2026-10-05
+c1,122,Polizeistreife,die,Policejní hlídka,policejní obchůzka,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Policejn%C3%AD%20hl%C3%ADdka,2026-10-05
+c1,123,Pollenallergie,die,Pylová alergie,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Pollenallergie,2026-10-05
+c1,124,Polstergarnitur,die,Sestava čalouněného nábytku,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Polstergarnitur,2026-10-05
+c1,125,Premier,der,Ministerský předseda,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Premier,2026-10-05
+c1,126,Prozess,der,Proces • Žaloba,proces,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Proces,2026-10-05
+c1,127,Prozessor,der,Procesor,procesor,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Prozessor,2026-10-05
+c1,128,Radioübertragung,die,Rozhlasové vysílání,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Radio%C3%BCbertragung,2026-10-05
+c1,129,Rechtsanwalt,der,Advokát,advokát,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Rechtsanwalt,2026-10-05
+c1,130,Rekonstruktion,die,Rekonstrukce,rekonstrukce,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Rekonstruktion,2026-10-05
+c1,131,Rennen mit Hindernissen,das,Překážkový závod,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Rennen%20mit%20Hindernissen,2026-10-05
+c1,132,Reparaturkosten,die,Náklady na opravu,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Reparaturkosten,2026-10-05
+c1,133,Rettungsstelle,die,Bod první pomoci,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Rettungsstelle,2026-10-05
+c1,134,rezeptpflichtig,,Na předpis,jen na lékařský,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Na%20p%C5%99edpis,2026-10-05
+c1,135,Schauspielhaus,das,Divadlo,divadlo,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schauspielhaus,2026-10-05
+c1,136,Scheibenwischer,der,Stěrač,stírač,NO_MATCH,REVERSE_AMBIGUOUS,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/St%C4%9Bra%C4%8D,2026-10-05
+c1,137,Schiedsrichter,der,Rozhodčí,rozhodčí,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schiedsrichter,2026-10-05
+c1,138,Schlussverkauf,der,Výprodej zboží na konci sezóny za snížené ceny,výprodej,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/V%C3%BDprodej%20zbo%C5%BE%C3%AD%20na%20konci%20sez%C3%B3ny%20za%20sn%C3%AD%C5%BEen%C3%A9%20ceny,2026-10-05
+c1,139,schmerzhaft,,Bolestivý,bolestivý,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/schmerzhaft,2026-10-05
+c1,140,Schneewittchen,das,Pohádková postava Sněhurka,Sněhurka,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Poh%C3%A1dkov%C3%A1%20postava%20Sn%C4%9Bhurka,2026-10-05
+c1,141,Schraubenzieher,der,Šroubovák,šroubovák,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schraubenzieher,2026-10-05
+c1,142,Schutzumschlag,der,Ochranný přebal,ochranný obal,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ochrann%C3%BD%20p%C5%99ebal,2026-10-05
+c1,143,Schwiegereltern,die,Tchán a tchyně,tchán a tchýně,AMBIGUOUS,REVERSE_NOT_FOUND,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Tch%C3%A1n%20a%20tchyn%C4%9B,2026-10-05
+c1,144,Schwiegermutter,die,Tchyně,tchýně,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schwiegermutter,2026-10-05
+c1,145,Schwiegertochter,die,Snacha,snacha,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schwiegertochter,2026-10-05
+c1,146,Schwiegervater,der,Tchán,tchán,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schwiegervater,2026-10-05
+c1,147,Selbstbedienung,die,Samoobsluha,samoobsluha,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Selbstbedienung,2026-10-05
+c1,148,Stabhochspringen,das,Skok o tyči,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Stabhochspringen,2026-10-05
+c1,149,Stadtrundfahrt,die,Okružní prohlídka města,okružní jízda městem,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Okru%C5%BEn%C3%AD%20prohl%C3%ADdka%20m%C4%9Bsta,2026-10-05
+c1,150,stecken bleiben,,Zaseknout se,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/stecken%20bleiben,2026-10-05
+c1,151,Stellvertreter,der,Zástupce,zástupce,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Stellvertreter,2026-10-05
+c1,152,Steuererklärung,die,Daňové přiznání,daňové přiznání,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Steuererkl%C3%A4rung,2026-10-05
+c1,153,Strampelhöschen,das,Dupačky,dupačky,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Strampelh%C3%B6schen,2026-10-05
+c1,154,Stromverbrauch,der,Spotřeba elektřiny,spotřeba proudu,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Spot%C5%99eba%20elekt%C5%99iny,2026-10-05
+c1,155,Tagesnachrichten,die,Zprávy dne,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Tagesnachrichten,2026-10-05
+c1,156,Teilzeitarbeit,die,Práce na částečný úvazek,částečný úvazek,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pr%C3%A1ce%20na%20%C4%8D%C3%A1ste%C4%8Dn%C3%BD%20%C3%BAvazek,2026-10-05
+c1,157,Terminkalender,der,Kalendář termínů,termínový kalendář,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Kalend%C3%A1%C5%99%20term%C3%ADn%C5%AF,2026-10-05
+c1,158,Thermosflasche,die,Termoska,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Thermosflasche,2026-10-05
+c1,159,Tierkreiszeichen,das,Znamení zvěrokruhu,zvěrokruh,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Znamen%C3%AD%20zv%C4%9Brokruhu,2026-10-05
+c1,160,transportieren,,Přepravovat,přepravovat,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/transportieren,2026-10-05
+c1,161,Überschwemmung,die,Povodeň • Záplava,povodeň záplava,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/%C3%9Cberschwemmung,2026-10-05
+c1,162,Unternehmen,das,Podnik • Společnost,podnik,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Podnik,2026-10-05
+c1,163,unterstreichen,,Podtrhnout,podtrhat podtrhávat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Podtrhnout,2026-10-05
+c1,164,unverständlich,,Nepochopitelný,nesrozumitelný,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Nepochopiteln%C3%BD,2026-10-05
+c1,165,Heiratsurkunde,die,Oddací list,oddací list,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Heiratsurkunde,2026-10-05
+c1,166,Urteil,das,Rozsudek,rozsudek,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Urteil,2026-10-05
+c1,167,veranstalten,,Organizovat,pořádat,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Organizovat,2026-10-05
+c1,168,verantworten,,Nést odpovědnost za,odpovídat,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/N%C3%A9st%20odpov%C4%9Bdnost%20za,2026-10-05
+c1,169,Verantwortung,die,Odpovědnost,odpovědnost,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Verantwortung,2026-10-05
+c1,170,Vereinbarung,die,Dohoda,dohoda,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Vereinbarung,2026-10-05
+c1,171,Vergangenheit,die,Minulost,minulost,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Vergangenheit,2026-10-05
+c1,172,Verkehrsstau,der,Dopravní zácpa,dopravní zácpa,AMBIGUOUS,REVERSE_NOT_FOUND,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Dopravn%C3%AD%20z%C3%A1cpa,2026-10-05
+c1,173,Verlegenheit,die,Rozpaky,rozpaky,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Verlegenheit,2026-10-05
+c1,174,verschließen,,Zamknout,zavírat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zamknout,2026-10-05
+c1,175,verschlucken,,Spolknout,polykat,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Spolknout,2026-10-05
+c1,176,verschwenden,,Plýtvat,plýtvat,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/verschwenden,2026-10-05
+c1,177,Versicherung,die,Pojištění,pojištění,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Versicherung,2026-10-05
+c1,178,sich verständigen,,Dorozumět se,uvědomovat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Dorozum%C4%9Bt%20se,2026-10-05
+c1,179,verständlich,,Srozumitelný,srozumitelný,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/verst%C3%A4ndlich,2026-10-05
+c1,180,Vertrag,der,Smlouva,smlouva,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Vertrag,2026-10-05
+c1,181,voll beschäftigt,,Zaměstnaný na plný úvazek,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/voll%20besch%C3%A4ftigt,2026-10-05
+c1,182,Vorgesetzte,der,Šéf,představená nadřízená,AMBIGUOUS,REVERSE_FAILED,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/%C5%A0%C3%A9f,2026-10-05
+c1,183,vorteilhaft,,Výhodný,výhodný,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/vorteilhaft,2026-10-05
+c1,184,Wettbewerb,der,Soutěž,soutěž,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Wettbewerb,2026-10-05
+c1,185,sich zufrieden geben,,Spokojit se,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/sich%20zufrieden%20geben,2026-10-05
+c1,186,zusammenbringen,,Dát dohromady,seznamovat,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/D%C3%A1t%20dohromady,2026-10-05
+c1,187,zusammenfassen,,Shrnout • Shrnout,shrnovat,NO_MATCH,REVERSE_CONFIRMED|REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Shrnout,2026-10-05
+c1,188,zusammenhängen,,Být spojen (s),souviset,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/B%C3%BDt%20spojen%20%28s%29,2026-10-05
+c1,189,Aufmerksamkeit,die,Pozornost,pozornost,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Aufmerksamkeit,2026-10-05
+c1,190,Fernsehsendung,die,Televizní show,televizní vysílání pořad,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Televizn%C3%AD%20show,2026-10-05
+c1,191,Landschaft,die,Krajina,krajina,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Landschaft,2026-10-05
+c1,192,Rechtschreibung,die,Pravopis,pravopis,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Rechtschreibung,2026-10-05
+c1,193,Straßenkreuzung,die,Křižovatka ulic,křižovatka,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/K%C5%99i%C5%BEovatka%20ulic,2026-10-05
+c1,194,Wahl,die,Volba • Volba,volba,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Wahl,2026-10-05
+c1,195,Herausforderung,die,Výzva,výzva,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Herausforderung,2026-10-05
+c1,196,Abfallbeseitigung,die,Likvidace odpadu,odstraňování odpadu,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Likvidace%20odpadu,2026-10-05
+c1,197,Abgeordnete,der,Poslanec • Zástupce • Delegát,poslankyně,AMBIGUOUS,REVERSE_CONFIRMED|REVERSE_AMBIGUOUS|REVERSE_FAILED,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Poslanec,2026-10-05
+c1,198,Abkommen,das,Dohoda • Úmluva,dohoda,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_CONFIRMED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Dohoda,2026-10-05
+c1,199,Abschleppdienst,der,Odtahová služba,odtahová služba,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Abschleppdienst,2026-10-05
+c1,200,Abteilungsleiter,der,Vedoucí oddělení,vedoucí oddělení,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Abteilungsleiter,2026-10-05
+c1,201,antifaschistisch,,Protifašistický,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/antifaschistisch,2026-10-05
+c1,202,Aufenthaltsdauer,die,Délka pobytu,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Aufenthaltsdauer,2026-10-05
+c1,203,augenscheinlich,,Zřejmě,zřejmý,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Z%C5%99ejm%C4%9B,2026-10-05
+c1,204,Güteraustausch,der,Výměna zboží,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/G%C3%BCteraustausch,2026-10-05
+c1,205,Flottenbasis,die,Námořní základna,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Flottenbasis,2026-10-05
+c1,206,Basisforschung,die,Základní výzkum,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Basisforschung,2026-10-05
+c1,207,beachtenswert,,Pozoruhodný,pozoruhodný,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/beachtenswert,2026-10-05
+c1,208,beanspruchen,,Vyžadovat • Nárokovat • Být zatížen,vyžadovat,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_CONFIRMED|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vy%C5%BEadovat,2026-10-05
+c1,209,Bedarfsartikel,der,Konzumní zboží,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Bedarfsartikel,2026-10-05
+c1,210,bedingungslos,,Bezpodmínečný • Bez výhrad • Bez podmínek,bezpodmínečný,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Bezpodm%C3%ADne%C4%8Dn%C3%BD,2026-10-05
+c1,211,Befangenheit,die,Podjatost • Rozpaky,nesmělost,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Podjatost,2026-10-05
+c1,212,beglaubigen,,Úředně osvědčit • Notářsky ověřit,dosvědčovat,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/%C3%9A%C5%99edn%C4%9B%20osv%C4%9Bd%C4%8Dit,2026-10-05
+c1,213,beglückwünschen,,Blahopřát,,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Blahop%C5%99%C3%A1t,2026-10-05
+c1,214,beiderseitig,,Oboustranný,oboustranný,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/beiderseitig,2026-10-05
+c1,215,Familienbeihilfe,die,Rodinný přídavek,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Familienbeihilfe,2026-10-05
+c1,216,beispielhaft,,Vzorný • Příkladný,příkladný,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_CONFIRMED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vzorn%C3%BD,2026-10-05
+c1,217,beklagen,,Litovat • Oplakávat • Naříkat • Stěžovat si,litovat,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_FAILED|REVERSE_CONFIRMED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Litovat,2026-10-05
+c1,218,Zahnbelag,der,Zubní plak,zubní povlak,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zubn%C3%AD%20plak,2026-10-05
+c1,219,Belegschaft,die,Personál • Zaměstnanci,osazenstvo,NO_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Person%C3%A1l,2026-10-05
+c1,220,benachteiligen,,Znevýhodňovat • Poškozovat,znevýhodňovat,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Znev%C3%BDhod%C5%88ovat,2026-10-05
+c1,221,Berufsberater,der,Pracovní poradce,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Berufsberater,2026-10-05
+c1,222,beratschlagen,,Radit se • Projednávat,radit se,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Radit%20se,2026-10-05
+c1,223,Einflussbereich,der,Sféra vlivu,dosah vlivu,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Sf%C3%A9ra%20vlivu,2026-10-05
+c1,224,bereitwillig,,Ochotný • Vstřícný,ochotný,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ochotn%C3%BD,2026-10-05
+c1,225,Berufsberatung,die,Profesní poradenství,poradna pro volbu,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Profesn%C3%AD%20poradenstv%C3%AD,2026-10-05
+c1,226,Berufsgeheimnis,das,Profesní tajemství,služební tajemství,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Profesn%C3%AD%20tajemstv%C3%AD,2026-10-05
+c1,227,Berufung,die,Povolání • Odvolání • Jmenování,povolání odvolání,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_AMBIGUOUS|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Povol%C3%A1n%C3%AD,2026-10-05
+c1,228,Besatzungsmacht,die,Okupační moc,okupační mocnost,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Okupa%C4%8Dn%C3%AD%20moc,2026-10-05
+c1,229,Beschaffenheit,die,Kvalita • Povaha • Podstata,jakost,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Kvalita,2026-10-05
+c1,230,bescheinigen,,Osvědčit • Vydat osvědčení,potvrzovat,NO_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Osv%C4%9Bd%C4%8Dit,2026-10-05
+c1,231,Bescheinigung,die,Potvrzení • Osvědčení • Certifikát,potvrzení,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_CONFIRMED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Potvrzen%C3%AD,2026-10-05
+c1,232,beschlagnahmen,,Zabavit • Konfiskovat,zabavovat,NO_MATCH,REVERSE_AMBIGUOUS|REVERSE_FAILED,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zabavit,2026-10-05
+c1,233,beschuldigen,,Obviňovat • Nařknout,obviňovat,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_CONFIRMED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Obvi%C5%88ovat,2026-10-05
+c1,234,Besonderheit,die,Zvláštnost • Podivnost,zvláštnost,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zvl%C3%A1%C5%A1tnost,2026-10-05
+c1,235,beträchtlich,,Značný • Poměrně velký • Výrazný,značný,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zna%C4%8Dn%C3%BD,2026-10-05
+c1,236,Betriebskosten,die,Provozní náklady podniku • Výrobní náklady,provozní náklady,AMBIGUOUS,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Provozn%C3%AD%20n%C3%A1klady%20podniku,2026-10-05
+c1,237,Betriebssystem,das,Operační systém,operační systém,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Betriebssystem,2026-10-05
+c1,238,bevollmächtigen,,Zmocnit • Udělit pravomoc,zplnomocňovat,NO_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zmocnit,2026-10-05
+c1,239,bevorstehend,,Nadcházející • Blížící se,nastávající,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Nadch%C3%A1zej%C3%ADc%C3%AD,2026-10-05
+c1,240,"bewähren, sich",,Osvědčit se • Obstát,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/bew%C3%A4hren%2C%20sich,2026-10-05
+c1,241,Beweismaterial,das,Fyzické důkazy,průkazný materiál,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Fyzick%C3%A9%20d%C5%AFkazy,2026-10-05
+c1,242,"bewerben, sich",,Ucházet se • Přihlásit se • Usilovat o,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/bewerben%2C%20sich,2026-10-05
+c1,243,Bezugsperson,die,Kontaktní osoba • Blízká osoba,důvěrná osoba,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Kontaktn%C3%AD%20osoba,2026-10-05
+c1,244,Bildhauerkunst,die,Sochařství,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Bildhauerkunst,2026-10-05
+c1,245,Bilanz,die,Bilance,bilance,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Bilanz,2026-10-05
+c1,246,Finanzblockade,die,Finanční blokáda,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Finanzblockade,2026-10-05
+c1,247,Blutuntersuchung,die,Rozbor krve,vyšetření krve,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Rozbor%20krve,2026-10-05
+c1,248,Blutsverwandte,der,Pokrevní příbuzný,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Blutsverwandte,2026-10-05
+c1,249,Botschafter,der,Velvyslanec,velvyslanec,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Botschafter,2026-10-05
+c1,250,Bundesdeutsche,der,Občan SRN,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Bundesdeutsche,2026-10-05
+c1,251,Computersprache,die,Počítačový jazyk,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Computersprache,2026-10-05
+c1,252,Dachgepäckträger,der,Střešní nosič auta,zahrádka,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/St%C5%99e%C5%A1n%C3%AD%20nosi%C4%8D%20auta,2026-10-05
+c1,253,Datenübermittlung,die,Přenos dat,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Daten%C3%BCbermittlung,2026-10-05
+c1,254,Datenübertragung,die,Přenos dat,přenos dat,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Daten%C3%BCbertragung,2026-10-05
+c1,255,dauerhaft,,Trvalý • Dlouhodobý • Odolný,trvalý,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Trval%C3%BD,2026-10-05
+c1,256,dazwischenkommen,,Přihodit se • Vměšovat se • Zasáhnout,zakročovat,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_AMBIGUOUS|REVERSE_FAILED,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/P%C5%99ihodit%20se,2026-10-05
+c1,257,Haushaltsdefizit,das,Rozpočtový deficit,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Haushaltsdefizit,2026-10-05
+c1,258,Zolldeklaration,die,Celní prohlášení,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Zolldeklaration,2026-10-05
+c1,259,Delegation,die,Delegace,delegace,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Delegation,2026-10-05
+c1,260,Eigentumsdelikt,das,Majetkový delikt,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Eigentumsdelikt,2026-10-05
+c1,261,Verkehrsdelikt,das,Porušení pravidel silničního provozu,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Verkehrsdelikt,2026-10-05
+c1,262,dementsprechend,,Podle toho,podle toho,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/dementsprechend,2026-10-05
+c1,263,dessen ungeachtet,,Navzdory tomu • Navzdory tomu,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/dessen%20ungeachtet,2026-10-05
+c1,264,Nachrichtendienst,der,Zpravodajská služba,zpravodajská služba,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Nachrichtendienst,2026-10-05
+c1,265,Rettungsdienst,der,Záchranná služba,záchranná služba,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Rettungsdienst,2026-10-05
+c1,266,Dienstleistung,die,Služba,služba,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Dienstleistung,2026-10-05
+c1,267,dienstpflichtig,,Podléhající vojenské službě,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/dienstpflichtig,2026-10-05
+c1,268,diensttauglich,,Způsobilý pro vojenskou službu,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/diensttauglich,2026-10-05
+c1,269,Dieseltreibstoff,der,Motorová nafta,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Dieseltreibstoff,2026-10-05
+c1,270,Diplomatie,die,Diplomacie,diplomacie,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Diplomatie,2026-10-05
+c1,271,diplomatisch,,Diplomatický,diplomatický,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/diplomatisch,2026-10-05
+c1,272,Dirigentenstab,der,Dirigentská taktovka,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Dirigentenstab,2026-10-05
+c1,273,Diskettenlaufwerk,das,Disketová mechanika,disketová jednotka,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Disketov%C3%A1%20mechanika,2026-10-05
+c1,274,disqualifizieren,,Diskvalifikovat,diskvalifikovat,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/disqualifizieren,2026-10-05
+c1,275,Durchfuhrverbot,das,Zákaz tranzitu,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Durchfuhrverbot,2026-10-05
+c1,276,Durchgangsverkehr,der,Tranzitní doprava,provoz,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Tranzitn%C3%AD%20doprava,2026-10-05
+c1,277,ehrenhaft,,Čestný • Čestný • Úctyhodný,počestný,NO_MATCH,REVERSE_CONFIRMED|REVERSE_CONFIRMED|REVERSE_FAILED,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/%C4%8Cestn%C3%BD,2026-10-05
+c1,278,Einflusssphäre,die,Sféra vlivu,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Einflusssph%C3%A4re,2026-10-05
+c1,279,eingeschrieben,,Zapsaný • Registrovaný,doporučený,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zapsan%C3%BD,2026-10-05
+c1,280,Währungseinheit,die,Peněžní jednotka,měnová jednotka,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pen%C4%9B%C5%BEn%C3%AD%20jednotka,2026-10-05
+c1,281,Einkommensteuer,die,Daň z příjmu,daň z příjmu,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Einkommensteuer,2026-10-05
+c1,282,Einlage,die,Příspěvek • Vklad • Příloha dopisu,vklad,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_CONFIRMED|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/P%C5%99%C3%ADsp%C4%9Bvek,2026-10-05
+c1,283,einreden,,Namluvit • Přesvědčovat,namlouvat,NO_MATCH,REVERSE_CONFIRMED|REVERSE_AMBIGUOUS,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Namluvit,2026-10-05
+c1,284,sich einschmeicheln,,Vetřít se do přízně • Podlézat,,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vet%C5%99%C3%ADt%20se%20do%20p%C5%99%C3%ADzn%C4%9B,2026-10-05
+c1,285,Einschreibebrief,der,Doporučený dopis,doporučený dopis,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Einschreibebrief,2026-10-05
+c1,286,Einspruchsrecht,das,Právo podat námitku,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Einspruchsrecht,2026-10-05
+c1,287,Einstandsgebühr,die,Vstupní poplatek,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Einstandsgeb%C3%BChr,2026-10-05
+c1,288,Einverständnis,das,Porozumění • Konsensus • Souhlas,souhlas,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND|REVERSE_CONFIRMED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Porozum%C4%9Bn%C3%AD,2026-10-05
+c1,289,Eisenbahnunglück,das,Železniční katastrofa,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Eisenbahnungl%C3%BCck,2026-10-05
+c1,290,Eisenbahnverkehr,der,Železniční provoz,železniční doprava,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/%C5%BDelezni%C4%8Dn%C3%AD%20provoz,2026-10-05
+c1,291,Elektrizitätswerk,das,Elektrárna,elektrárna,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Elektrizit%C3%A4tswerk,2026-10-05
+c1,292,Elementarbegriff,der,Základní koncept,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Elementarbegriff,2026-10-05
+c1,293,Elementarregel,die,Základní pravidlo,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Elementarregel,2026-10-05
+c1,294,Energieerzeugung,die,Výroba energie,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Energieerzeugung,2026-10-05
+c1,295,Energieversorgung,die,Zásobování energií,zásobování energií,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Energieversorgung,2026-10-05
+c1,296,entgegensetzen,,Postavit proti • Postavit proti,stavět,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Postavit%20proti,2026-10-05
+c1,297,sich entgegensetzen,,Postavit se proti • Vzepřít se,stavět,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Postavit%20se%20proti,2026-10-05
+c1,298,entschädigen,,Kompenzovat • Kompenzovat,odškodňovat,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Kompenzovat,2026-10-05
+c1,299,sich entschließen,,Rozhodnout se • Odhodlat se,,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_CONFIRMED,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Rozhodnout%20se,2026-10-05
+c1,300,entschlossen,,Rozhodný • Odhodlaný • Neochvějný,odhodlaný,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_CONFIRMED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Rozhodn%C3%BD,2026-10-05
+c1,301,entschlüsseln,,Rozluštit,rozluštit,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/entschl%C3%BCsseln,2026-10-05
+c1,302,Gesetzentwurf,der,Návrh zákona,návrh zákona,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gesetzentwurf,2026-10-05
+c1,303,Entziehungskur,die,Léčebný kurz pro alkoholiky nebo drogově závislé,odvykací kúra,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/L%C3%A9%C4%8Debn%C3%BD%20kurz%20pro%20alkoholiky%20nebo%20drogov%C4%9B%20z%C3%A1visl%C3%A9,2026-10-05
+c1,304,Erbkrankheit,die,Dědičné onemocnění,dědičná nemoc,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/D%C4%9Bdi%C4%8Dn%C3%A9%20onemocn%C4%9Bn%C3%AD,2026-10-05
+c1,305,Kriegserklärung,die,Vyhlášení války,vyhlášení války,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kriegserkl%C3%A4rung,2026-10-05
+c1,306,Erntearbeiten,die,Sklizňové práce,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Erntearbeiten,2026-10-05
+c1,307,Ersatzspieler,der,Záložní hráč • Záložní hráč,náhradník,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Z%C3%A1lo%C5%BEn%C3%AD%20hr%C3%A1%C4%8D,2026-10-05
+c1,308,Erstaufführung,die,Premiéra • Premiéra,premiéra,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Erstauff%C3%BChrung,2026-10-05
+c1,309,festgesetzt,,Určený • Stanovený • Zadržený,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/festgesetzt,2026-10-05
+c1,310,feuergefährlich,,Hořlavý,hořlavý,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/feuergef%C3%A4hrlich,2026-10-05
+c1,311,Feuerversicherung,die,Pojištění proti požáru,pojištění proti požáru,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Feuerversicherung,2026-10-05
+c1,312,Feuerwerkskörper,der,Pyrotechnický výrobek,raketa,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pyrotechnick%C3%BD%20v%C3%BDrobek,2026-10-05
+c1,313,Fleckenentferner,der,Odstraňovač skvrn,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Fleckenentferner,2026-10-05
+c1,314,Flüchtlingslager,das,Uprchlický tábor,uprchlický tábor,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Fl%C3%BCchtlingslager,2026-10-05
+c1,315,Fortbildungskurse,die,Kurzy profesního rozvoje,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Fortbildungskurse,2026-10-05
+c1,316,fortgeschritten,,Pokročilý,pokročilý,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/fortgeschritten,2026-10-05
+c1,317,fortschrittlich,,Progresivní,progresivní,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/fortschrittlich,2026-10-05
+c1,318,Freilichtmuseum,das,Skanzen,skanzen,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Freilichtmuseum,2026-10-05
+c1,319,Friedensangebot,das,Mírová nabídka,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Friedensangebot,2026-10-05
+c1,320,Friedensvertrag,der,Mírová smlouva,mírová smlouva,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Friedensvertrag,2026-10-05
+c1,321,Friedenspolitik,die,Mírová politika,mírová politika,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Friedenspolitik,2026-10-05
+c1,322,Führunternehmen,das,Dopravní podnik,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/F%C3%BChrunternehmen,2026-10-05
+c1,323,soziale Fürsorge,die,Sociální péče,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/soziale%20F%C3%BCrsorge,2026-10-05
+c1,324,Auffassungsgabe,die,Schopnost chápání,chápavost,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Schopnost%20ch%C3%A1p%C3%A1n%C3%AD,2026-10-05
+c1,325,Gebrauchtwaren,die,Použité zboží,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gebrauchtwaren,2026-10-05
+c1,326,Geburtenrate,die,Porodnost,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Geburtenrate,2026-10-05
+c1,327,Gefängniszelle,die,Vězeňská cela,cela,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/V%C4%9Bze%C5%88sk%C3%A1%20cela,2026-10-05
+c1,328,Gefäßverengung,die,Zúžení krevních cév,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gef%C3%A4%C3%9Fverengung,2026-10-05
+c1,329,Geflügelzucht,die,Chov drůbeže,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gefl%C3%BCgelzucht,2026-10-05
+c1,330,Gefrierpunkt,der,Bod mrazu • Bod nula,bod mrazu,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Bod%20mrazu,2026-10-05
+c1,331,Gehaltskürzung,die,Snížení platu,snížení platu,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gehaltsk%C3%BCrzung,2026-10-05
+c1,332,Beichtgeheimnis,das,Zpovědní tajemství,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Beichtgeheimnis,2026-10-05
+c1,333,Gehirnschlag,der,Mrtvice,mozková mrtvice,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Mrtvice,2026-10-05
+c1,334,Geisterstunde,die,Hodina duchů,hodina duchů,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Geisterstunde,2026-10-05
+c1,335,geistesabwesend,,Roztržitý,nepřítomný duchem,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Roztr%C5%BEit%C3%BD,2026-10-05
+c1,336,geisteskrank,,Duševně nemocný,chromyslný,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Du%C5%A1evn%C4%9B%20nemocn%C3%BD,2026-10-05
+c1,337,geistesschwach,,Duševně slabý • Slabomyslný,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/geistesschwach,2026-10-05
+c1,338,Geländefahrt,die,Jízda v terénu,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gel%C3%A4ndefahrt,2026-10-05
+c1,339,Geldentwertung,die,Inflace,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Geldentwertung,2026-10-05
+c1,340,gelegentlich,,Někdy • Příležitost • Kvůli,příležitostný,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/N%C4%9Bkdy,2026-10-05
+c1,341,Gemäldegalerie,die,Obrazová galerie,obrazárna,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Obrazov%C3%A1%20galerie,2026-10-05
+c1,342,Gemäldesammlung,die,Sbírka obrazů,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gem%C3%A4ldesammlung,2026-10-05
+c1,343,Gemeineigentum,das,Společný majetek,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gemeineigentum,2026-10-05
+c1,344,Gemütsmensch,der,Citově založený • Dobrosrdečný člověk,kliďas,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Citov%C4%9B%20zalo%C5%BEen%C3%BD,2026-10-05
+c1,345,Genmanipulation,die,Genová manipulace,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Genmanipulation,2026-10-05
+c1,346,Generalprobe,die,Generální zkouška,generální zkouška,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Generalprobe,2026-10-05
+c1,347,Generalstreik,der,Generální stávka,generální stávka,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Generalstreik,2026-10-05
+c1,348,genmanipuliert,,Geneticky modifikovaný,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/genmanipuliert,2026-10-05
+c1,349,Gepäckschein,der,Zavazadlový lístek,podací lístek na,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zavazadlov%C3%BD%20l%C3%ADstek,2026-10-05
+c1,350,Gepflogenheit,die,Zvyklost • Zvyk,zvyk,PARTIAL_MATCH,REVERSE_AMBIGUOUS|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zvyklost,2026-10-05
+c1,351,geradebiegen,,Narovnat • Opravit,napravovat,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Narovnat,2026-10-05
+c1,352,Schwurgericht,das,Porotní soud,porotní soud,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schwurgericht,2026-10-05
+c1,353,Gerichtshof,der,Soudní dvůr • Tribunál,soudní dvůr,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_CONFIRMED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Soudn%C3%AD%20dv%C5%AFr,2026-10-05
+c1,354,geringschätzig,,Pohrdavý • Pohrdavý • Pohrdavý,pohrdavý,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/geringsch%C3%A4tzig,2026-10-05
+c1,355,Gesamteindruck,der,Celkový dojem,celkový dojem,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gesamteindruck,2026-10-05
+c1,356,Gesamtergebnis,das,Celkový výsledek,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gesamtergebnis,2026-10-05
+c1,357,Gesandtschaft,die,Vyslanectví,vyslanectví,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gesandtschaft,2026-10-05
+c1,358,Geschäftshaus,das,Obchodní dům,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gesch%C3%A4ftshaus,2026-10-05
+c1,359,Geschäftsjahr,das,Hospodářský rok • Účetní rok,obchodní rok,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Hospod%C3%A1%C5%99sk%C3%BD%20rok,2026-10-05
+c1,360,geschlechtsreif,,Pohlavně dospělý,pohlavně dospělý,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/geschlechtsreif,2026-10-05
+c1,361,Gesetzbuch,das,Kodex • Sbírka zákonů,zákoník,NO_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Kodex,2026-10-05
+c1,362,gesetzgebend,,Zákonodárný,zákonodárný,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/gesetzgebend,2026-10-05
+c1,363,gesetzlos,,Bezprávný • Nezákonný,bezzákonný,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Bezpr%C3%A1vn%C3%BD,2026-10-05
+c1,364,gesetzmäßig,,Zákonný • Zákonitý,zákonný zákonitý,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/gesetzm%C3%A4%C3%9Fig,2026-10-05
+c1,365,gesetzwidrig,,Proti zákonu,protizákonný,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Proti%20z%C3%A1konu,2026-10-05
+c1,366,Gesichtskreis,der,Horizont • Obzor,obzor,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Horizont,2026-10-05
+c1,367,Gewinnanteil,der,Podíl na zisku,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gewinnanteil,2026-10-05
+c1,368,Gewissensbisse,die,Výčitky svědomí,výčitky svědomí,AMBIGUOUS,REVERSE_NOT_FOUND,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/V%C3%BD%C4%8Ditky%20sv%C4%9Bdom%C3%AD,2026-10-05
+c1,369,gewissermaßen,,Do jisté míry • V jistém smyslu • Tak říkajíc,jaksi,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Do%20jist%C3%A9%20m%C3%ADry,2026-10-05
+c1,370,glaubhaft,,Uvěřitelný • Přesvědčivý,hodnověrný,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Uv%C4%9B%C5%99iteln%C3%BD,2026-10-05
+c1,371,gleichberechtigt,,Rovnoprávný • Se stejnými právy,rovnoprávný,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Rovnopr%C3%A1vn%C3%BD,2026-10-05
+c1,372,Götzenverehrung,die,Modlářství,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/G%C3%B6tzenverehrung,2026-10-05
+c1,373,Grenzverletzung,die,Porušení hranic,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Grenzverletzung,2026-10-05
+c1,374,Grundgesetz,das,Základní zákon • Ústava,základní zákon ústava,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Grundgesetz,2026-10-05
+c1,375,Gütertransport,der,Přeprava zboží,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/G%C3%BCtertransport,2026-10-05
+c1,376,Haft,die,Vazba • Vězení,vazba,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_CONFIRMED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vazba,2026-10-05
+c1,377,Haftbefehl,der,Zatýkací rozkaz,zatykač,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zat%C3%BDkac%C3%AD%20rozkaz,2026-10-05
+c1,378,haften,,Přilnout • Být přilepený,lpět,NO_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/P%C5%99ilnout,2026-10-05
+c1,379,Haftung,die,Odpovědnost,lpění,NO_MATCH,REVERSE_FAILED,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Odpov%C4%9Bdnost,2026-10-05
+c1,380,Haltbarkeitsdauer,die,Doba trvanlivosti,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Haltbarkeitsdauer,2026-10-05
+c1,381,Handelspartner,der,Obchodní partner,obchodní partner,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Handelspartner,2026-10-05
+c1,382,Handelsvertretung,die,Obchodní zastoupení,obchodní zastoupení,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Handelsvertretung,2026-10-05
+c1,383,Hauptversammlung,die,Valná hromada,valná hromada,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Hauptversammlung,2026-10-05
+c1,384,Hausdurchsuchung,die,Domovní prohlídka,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Hausdurchsuchung,2026-10-05
+c1,385,Haushaltsartikel,der,Předmět pro domácnost,zboží pro domácnost,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/P%C5%99edm%C4%9Bt%20pro%20dom%C3%A1cnost,2026-10-05
+c1,386,Haushaltshilfe,die,Placená výpomoc v domácnosti,pomoc v domácnosti,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Placen%C3%A1%20v%C3%BDpomoc%20v%20dom%C3%A1cnosti,2026-10-05
+c1,387,Hautentzündung,die,Zánět kůže,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Hautentz%C3%BCndung,2026-10-05
+c1,388,heldenhaft,,Hrdinný,hrdinný,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/heldenhaft,2026-10-05
+c1,389,Herrschaft,die,Panství • Moc,moc,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_AMBIGUOUS,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Panstv%C3%AD,2026-10-05
+c1,390,herunterkommen,,Sestoupit • Chátrat • Upadat • Zchudnout,scházet,NO_MATCH,REVERSE_FAILED|REVERSE_CONFIRMED|REVERSE_AMBIGUOUS|REVERSE_FAILED,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Sestoupit,2026-10-05
+c1,391,herunterstürzen,,Spadnout dolů • Zřítit se,řítit se,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Spadnout%20dol%C5%AF,2026-10-05
+c1,392,sich hinreißen lassen,,Nechat se strhnout • Nechat se unést,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/sich%20hinrei%C3%9Fen%20lassen,2026-10-05
+c1,393,Industrieabgase,die,Průmyslové výfukové plyny,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Industrieabgase,2026-10-05
+c1,394,Industrieabwässer,die,Průmyslové odpadní vody,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Industrieabw%C3%A4sser,2026-10-05
+c1,395,Industrieanlage,die,Průmyslové zařízení • Průmyslový provoz,průmyslové zařízení,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pr%C5%AFmyslov%C3%A9%20za%C5%99%C3%ADzen%C3%AD,2026-10-05
+c1,396,inhaftieren,,Uvěznit • Vzít do vazby,zatýkat,NO_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Uv%C4%9Bznit,2026-10-05
+c1,397,Innenarchitekt,der,Interiérový architekt,bytový architekt,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Interi%C3%A9rov%C3%BD%20architekt,2026-10-05
+c1,398,Innenminister,der,Ministr vnitra,ministr vnitra,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Innenminister,2026-10-05
+c1,399,Intensivstation,die,Jednotka intenzivní péče v nemocnici,jednotka intenzivní péče,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Jednotka%20intenzivn%C3%AD%20p%C3%A9%C4%8De%20v%20nemocnici,2026-10-05
+c1,400,interpretieren,,Vykládat • Vysvětlovat,interpretovat,NO_MATCH,REVERSE_AMBIGUOUS|REVERSE_AMBIGUOUS,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vykl%C3%A1dat,2026-10-05
+c1,401,Justiz,die,Justice • Soudnictví,justice soudnictví,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Justiz,2026-10-05
+c1,402,Kabinettsitzung,die,Zasedání kabinetu,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kabinettsitzung,2026-10-05
+c1,403,Kapitalverbrechen,das,Zvlášť závažný zločin,těžký zločin,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zvl%C3%A1%C5%A1%C5%A5%20z%C3%A1va%C5%BEn%C3%BD%20zlo%C4%8Din,2026-10-05
+c1,404,Kaution,die,Kauce • Jistota,kauce,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Kauce,2026-10-05
+c1,405,Koalition,die,Koalice,koalice,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Koalition,2026-10-05
+c1,406,körperbehindert,,Tělesně postižený,tělesně postižený,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/k%C3%B6rperbehindert,2026-10-05
+c1,407,Krankheitserreger,der,Původce onemocnění,choroboplodný zárodek,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/P%C5%AFvodce%20onemocn%C4%9Bn%C3%AD,2026-10-05
+c1,408,Kriegsbeschädigte,der,Válečný invalida,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kriegsbesch%C3%A4digte,2026-10-05
+c1,409,Kriegsgefangene,der,Válečný zajatec,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kriegsgefangene,2026-10-05
+c1,410,Kabinettskrise,die,Kabinetní krize,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kabinettskrise,2026-10-05
+c1,411,Lawinenwarnung,die,Varování před lavinou,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Lawinenwarnung,2026-10-05
+c1,412,Lebenserwartung,die,Průměrná délka života,životní očekávání,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pr%C5%AFm%C4%9Brn%C3%A1%20d%C3%A9lka%20%C5%BEivota,2026-10-05
+c1,413,lebensgefährlich,,Život ohrožující • Nebezpečný,životu nebezpečný,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/%C5%BDivot%20ohro%C5%BEuj%C3%ADc%C3%AD,2026-10-05
+c1,414,Lebensgefährte,der,Životní partner,druh,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/%C5%BDivotn%C3%AD%20partner,2026-10-05
+c1,415,Lebensstandard,der,Životní úroveň,životní úroveň,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Lebensstandard,2026-10-05
+c1,416,Leistungssport,der,Výkonnostní sport • Vrcholový sport,vrcholový sport,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/V%C3%BDkonnostn%C3%AD%20sport,2026-10-05
+c1,417,lichtempfindlich,,Fotosenzitivní,citlivý na světlo,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Fotosenzitivn%C3%AD,2026-10-05
+c1,418,Liebesbeziehung,die,Milostný vztah,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Liebesbeziehung,2026-10-05
+c1,419,Liebeserklärung,die,Vyznání lásky,vyznání lásky,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Liebeserkl%C3%A4rung,2026-10-05
+c1,420,Linksextremismus,der,Levicový extremismus,levý extremizmus,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Levicov%C3%BD%20extremismus,2026-10-05
+c1,421,Machtergreifung,die,Uchopení moci,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Machtergreifung,2026-10-05
+c1,422,Machtübernahme,die,Převzetí moci,převzetí moci,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Macht%C3%BCbernahme,2026-10-05
+c1,423,Magnetstreifen,der,Magnetický proužek (na kreditní kartě),magnetová páska,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Magnetick%C3%BD%20prou%C5%BEek%20%28na%20kreditn%C3%AD%20kart%C4%9B%29,2026-10-05
+c1,424,Marschflugkörper,der,Střela s plochou dráhou letu,raketa s plochou,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/St%C5%99ela%20s%20plochou%20dr%C3%A1hou%20letu,2026-10-05
+c1,425,Massenherstellung,die,Hromadná výroba,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Massenherstellung,2026-10-05
+c1,426,materialistisch,,Materialistický,materialistický,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/materialistisch,2026-10-05
+c1,427,Meineid,der,Vědomě křivá přísaha u soudu,křivá přísaha,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/V%C4%9Bdom%C4%9B%20k%C5%99iv%C3%A1%20p%C5%99%C3%ADsaha%20u%20soudu,2026-10-05
+c1,428,menschenfeindlich,,Nepřátelský k lidem,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/menschenfeindlich,2026-10-05
+c1,429,militärpflichtig,,Podléhající vojenské službě,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/milit%C3%A4rpflichtig,2026-10-05
+c1,430,Nachschlagewerk,das,Referenční literatura • Slovník • Encyklopedie,příručka,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED|REVERSE_FAILED,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Referen%C4%8Dn%C3%AD%20literatura,2026-10-05
+c1,431,namhaft,,Slavný • Pozoruhodný,známý,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Slavn%C3%BD,2026-10-05
+c1,432,Nichtangriffspakt,der,Pakt o neútočení,pakt o neútočení,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Nichtangriffspakt,2026-10-05
+c1,433,niedergeschlagen,,Skleslý • Skleslý,sklíčený,NO_MATCH,REVERSE_CONFIRMED|REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Sklesl%C3%BD,2026-10-05
+c1,434,Ölembargo,das,Ropné embargo,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/%C3%96lembargo,2026-10-05
+c1,435,Oppositionsführer,der,Vůdce opozice,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Oppositionsf%C3%BChrer,2026-10-05
+c1,436,Oppositionspartei,die,Opoziční strana,opoziční strana,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Oppositionspartei,2026-10-05
+c1,437,Originalausgabe,die,Původní vydání,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Originalausgabe,2026-10-05
+c1,438,Originalfassung,die,Původní varianta,originální text,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/P%C5%AFvodn%C3%AD%20varianta,2026-10-05
+c1,439,Originalgemälde,das,Originální malba,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Originalgem%C3%A4lde,2026-10-05
+c1,440,Parteifunktionär,der,Stranický pracovník,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Parteifunktion%C3%A4r,2026-10-05
+c1,441,Pflichtlektüre,die,Povinná studijní literatura,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Pflichtlekt%C3%BCre,2026-10-05
+c1,442,Preisfrage,die,Soutěžní otázka,soutěžní otázka,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Preisfrage,2026-10-05
+c1,443,Pressefreiheit,die,Svoboda tisku,svoboda tisku,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Pressefreiheit,2026-10-05
+c1,444,Pressevertreter,der,Tiskový zástupce,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Pressevertreter,2026-10-05
+c1,445,Presseerklärung,die,Tiskové prohlášení,tiskové prohlášení,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Presseerkl%C3%A4rung,2026-10-05
+c1,446,Produktionskosten,die,Výrobní náklady,výrobní náklady,AMBIGUOUS,REVERSE_NOT_FOUND,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/V%C3%BDrobn%C3%AD%20n%C3%A1klady,2026-10-05
+c1,447,Produktionsweise,die,Způsob výroby,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Produktionsweise,2026-10-05
+c1,448,Rangierbahnhof,der,Seřaďovací nádraží,seřaďovací nádraží,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Rangierbahnhof,2026-10-05
+c1,449,rätselhaft,,Záhadný • Nepochopitelný,záhadný,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Z%C3%A1hadn%C3%BD,2026-10-05
+c1,450,Raumausstatter,der,Interiérový designér,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Raumausstatter,2026-10-05
+c1,451,Rechenschaft,die,Skládání účtů • Odpovědnost,odpovědnost,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Skl%C3%A1d%C3%A1n%C3%AD%20%C3%BA%C4%8Dt%C5%AF,2026-10-05
+c1,452,rechtswidrig,,Ilegální,protiprávní,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ileg%C3%A1ln%C3%AD,2026-10-05
+c1,453,Regenbogenpresse,die,Bulvární tisk,bulvární tisk,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Regenbogenpresse,2026-10-05
+c1,454,Regierungschef,der,Předseda vlády • Předseda vlády,vládce,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/P%C5%99edseda%20vl%C3%A1dy,2026-10-05
+c1,455,Regierungspartei,die,Vládní strana,vládní strana,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Regierungspartei,2026-10-05
+c1,456,Regierungswechsel,der,Změna vlády,změna vlády,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Regierungswechsel,2026-10-05
+c1,457,Rentenanspruch,der,Nárok na důchod,nárok na důchod,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Rentenanspruch,2026-10-05
+c1,458,Rentenempfänger,der,Důchodce,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Rentenempf%C3%A4nger,2026-10-05
+c1,459,republikanisch,,Republikánský • Republikový,republikánský,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Republik%C3%A1nsk%C3%BD,2026-10-05
+c1,460,Sanktion,die,Sankce,sankce,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Sanktion,2026-10-05
+c1,461,sanktionieren,,Sankcionovat,sankcionovat,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/sanktionieren,2026-10-05
+c1,462,Lüftungsschacht,der,Ventilační šachta,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/L%C3%BCftungsschacht,2026-10-05
+c1,463,Scheidungsgrund,der,Důvod k rozvodu,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Scheidungsgrund,2026-10-05
+c1,464,Schicksalsschlag,der,Rána osudu,rána osudu,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schicksalsschlag,2026-10-05
+c1,465,schmerzstillend,,Tišící bolest,utišující bolest,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ti%C5%A1%C3%ADc%C3%AD%20bolest,2026-10-05
+c1,466,Anklageschrift,die,Obžaloba,obžaloba,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Anklageschrift,2026-10-05
+c1,467,Schwerindustrie,die,Těžký průmysl,těžký průmysl,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schwerindustrie,2026-10-05
+c1,468,Segelflugsport,der,Plachtařství,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Segelflugsport,2026-10-05
+c1,469,Selbstverwaltung,die,Samospráva,samospráva,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Selbstverwaltung,2026-10-05
+c1,470,selbstzufrieden,,Samolibý,spokojený sám se,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Samolib%C3%BD,2026-10-05
+c1,471,Sensationsmeldung,die,Senzační zpráva,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Sensationsmeldung,2026-10-05
+c1,472,sesshaft,,Usazený,usedlý,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Usazen%C3%BD,2026-10-05
+c1,473,Sinfonieorchester,das,Symfonický orchestr,symfonický orchestr,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Sinfonieorchester,2026-10-05
+c1,474,Sinnestäuschung,die,Smyslový klam • Smyslová iluze,smyslový klam,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Smyslov%C3%BD%20klam,2026-10-05
+c1,475,Konfliktsituation,die,Konfliktní situace,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Konfliktsituation,2026-10-05
+c1,476,Krisensituation,die,Krizová situace,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Krisensituation,2026-10-05
+c1,477,Sommersonnenwende,die,Letní slunovrat,letní slunovrat,AMBIGUOUS,REVERSE_NOT_FOUND,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Letn%C3%AD%20slunovrat,2026-10-05
+c1,478,Sonnenfinsternis,die,Zatmění Slunce,zatmění slunce,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Sonnenfinsternis,2026-10-05
+c1,479,Spitzenleistung,die,Špičkový výkon • Vynikající výkon,špičkový výkon,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/%C5%A0pi%C4%8Dkov%C3%BD%20v%C3%BDkon,2026-10-05
+c1,480,Staatsangehörige,der,Občan,státní příslušnice,AMBIGUOUS,REVERSE_FAILED,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ob%C4%8Dan,2026-10-05
+c1,481,Staatsanwalt,der,Státní zástupce,státní zástupce,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Staatsanwalt,2026-10-05
+c1,482,Staatsgeheimnis,das,Státní tajemství,státní tajemství,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Staatsgeheimnis,2026-10-05
+c1,483,Steuereinnahmen,die,Daňové příjmy,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Steuereinnahmen,2026-10-05
+c1,484,stimmberechtigt,,Oprávněný hlasovat,oprávněný hlasovat,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/stimmberechtigt,2026-10-05
+c1,485,Studienbewerber,der,Uchazeč o studium,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Studienbewerber,2026-10-05
+c1,486,synchronisieren,,Synchronizovat,synchronizovat,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/synchronisieren,2026-10-05
+c1,487,Tageseinnahmen,die,Denní příjmy • Denní tržby,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Tageseinnahmen,2026-10-05
+c1,488,Transfusion,die,Transfuze,transfuze,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Transfusion,2026-10-05
+c1,489,überanstrengen,,Přetěžovat • Přepínat,přetěžovat,PARTIAL_MATCH,REVERSE_AMBIGUOUS|REVERSE_AMBIGUOUS,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/P%C5%99et%C4%9B%C5%BEovat,2026-10-05
+c1,490,Überbevölkerung,die,Přelidnění,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/%C3%9Cberbev%C3%B6lkerung,2026-10-05
+c1,491,Überbleibsel,das,Pozůstatek • Zbytek,pozůstatek zbytek,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/%C3%9Cberbleibsel,2026-10-05
+c1,492,übereinstimmen,,Shodovat se • Souhlasit,shodovat se souhlasit,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/%C3%BCbereinstimmen,2026-10-05
+c1,493,Überschuss,der,Přebytek • Nadbytek,přebytek nadbytek,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/%C3%9Cberschuss,2026-10-05
+c1,494,Umgangssprache,die,Hovorový jazyk,hovorový jazyk,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Umgangssprache,2026-10-05
+c1,495,Unannehmlichkeit,die,Nepříjemnost • Potíže,nepříjemnost,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Nep%C5%99%C3%ADjemnost,2026-10-05
+c1,496,unausgeglichen,,Nevyvážený,nevyrovnaný,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Nevyv%C3%A1%C5%BEen%C3%BD,2026-10-05
+c1,497,unerschütterlich,,Neotřesitelný,neochvějný,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Neot%C5%99esiteln%C3%BD,2026-10-05
+c1,498,Unterschätzung,die,Podcenění • Podceňování,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Untersch%C3%A4tzung,2026-10-05
+c1,499,urteilen,,Soudit,soudit,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/urteilen,2026-10-05
+c1,500,verabschieden,,Rozloučit se • Propustit • Schválit,schválit,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Rozlou%C4%8Dit%20se,2026-10-05
+c1,501,veränderlich,,Proměnlivý • Proměnlivý,proměnlivý,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/ver%C3%A4nderlich,2026-10-05
+c1,502,veranschlagen,,Odhadovat • Kalkulovat • Rozpočtovat,odhadovat,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_FAILED|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Odhadovat,2026-10-05
+c1,503,verdrießlich,,Mrzutý • Rozmrzelý • Nepříjemný,mrzutý,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_CONFIRMED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Mrzut%C3%BD,2026-10-05
+c1,504,Verfallsdatum,das,Datum spotřeby,datum spotřeby,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Verfallsdatum,2026-10-05
+c1,505,Verfassung,die,Ústava • Ústava,ústava,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Verfassung,2026-10-05
+c1,506,vergewaltigen,,Znásilnit,znásilňovat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zn%C3%A1silnit,2026-10-05
+c1,507,sich vergewissern,,Ujistit se,,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ujistit%20se,2026-10-05
+c1,508,Vergünstigung,die,Výhoda • Výsada • Úleva,výhoda výsada,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_FAILED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/V%C3%BDhoda,2026-10-05
+c1,509,verhaften,,Zatknout,zatýkat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zatknout,2026-10-05
+c1,510,verhältnismäßig,,Poměrně,poměrný,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pom%C4%9Brn%C4%9B,2026-10-05
+c1,511,Verhandlungen,die,Jednání • Vyjednávání,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Verhandlungen,2026-10-05
+c1,512,verheimlichen,,Skrývat • Tajit,tajit,PARTIAL_MATCH,REVERSE_AMBIGUOUS|REVERSE_CONFIRMED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Skr%C3%BDvat,2026-10-05
+c1,513,Verkehrsdichte,die,Hustota provozu,hustota provozu,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Verkehrsdichte,2026-10-05
+c1,514,Verkehrswesen,das,Doprava,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Verkehrswesen,2026-10-05
+c1,515,Verpflichtung,die,Povinnost • Závazek,povinnost závazek,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Verpflichtung,2026-10-05
+c1,516,Verschwörung,die,Spiknutí,spiknutí,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Verschw%C3%B6rung,2026-10-05
+c1,517,verklagen,,Žalovat,žalovat,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/verklagen,2026-10-05
+c1,518,vernachlässigen,,Zanedbávat • Opomíjet,zanedbávat,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_AMBIGUOUS,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zanedb%C3%A1vat,2026-10-05
+c1,519,verpflichten,,Zavázat • Uložit povinnost,zavazovat,NO_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zav%C3%A1zat,2026-10-05
+c1,520,sich verpflichten,,Zavázat se,zavazovat,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zav%C3%A1zat%20se,2026-10-05
+c1,521,sich verschließen,,Uzavřít se • Bránit se něčemu,zavírat,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Uzav%C5%99%C3%ADt%20se,2026-10-05
+c1,522,verschlossen,,Zamčený • Uzavřený • Zamlklý,zamčený uzavřený zamlklý,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/verschlossen,2026-10-05
+c1,523,verschlüsseln,,Zašifrovat • Zakódovat,zašifrovat,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_CONFIRMED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Za%C5%A1ifrovat,2026-10-05
+c1,524,verschreiben,,Předepsat,předepisovat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/P%C5%99edepsat,2026-10-05
+c1,525,verschweigen,,Zamlčet • Neprozradit,zamlčovat,NO_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zaml%C4%8Det,2026-10-05
+c1,526,verständigen,,Informovat • Oznámit,uvědomovat,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Informovat,2026-10-05
+c1,527,Versuchsanlage,die,Testovací zařízení,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Versuchsanlage,2026-10-05
+c1,528,Versuchsgelände,das,Zkušební areál,pokusný terén,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zku%C5%A1ebn%C3%AD%20are%C3%A1l,2026-10-05
+c1,529,Versuchsreihe,die,Série testů,pokusná série,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/S%C3%A9rie%20test%C5%AF,2026-10-05
+c1,530,verunglücken,,Mít nehodu • Utrpět nehodu,mít nehodu,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/M%C3%ADt%20nehodu,2026-10-05
+c1,531,verurteilen,,Odsoudit,odsuzovat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Odsoudit,2026-10-05
+c1,532,vervielfältigen,,Násobit,rozmnožovat,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/N%C3%A1sobit,2026-10-05
+c1,533,vervollkommnen,,Zdokonalit • Zlepšit,zdokonalovat,NO_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zdokonalit,2026-10-05
+c1,534,sich vervollkommnen,,Zdokonalit se,zdokonalovat,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zdokonalit%20se,2026-10-05
+c1,535,verwirklichen,,Realizovat • Realizovat,uskutečňovat,NO_MATCH,REVERSE_CONFIRMED|REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Realizovat,2026-10-05
+c1,536,Volksabstimmung,die,Lidové hlasování • Plebiscit,lidové hlasování,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Lidov%C3%A9%20hlasov%C3%A1n%C3%AD,2026-10-05
+c1,537,Volksbefragung,die,Veřejná konzultace • Referendum,lidové hlasování,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ve%C5%99ejn%C3%A1%20konzultace,2026-10-05
+c1,538,Vollversammlung,die,Plénum • Valná hromada • Generální shromáždění,valná hromada,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pl%C3%A9num,2026-10-05
+c1,539,voreingenommen,,Zaujatý • Zaujatý,zaujatý,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/voreingenommen,2026-10-05
+c1,540,waag[e]recht,,Vodorovný • Horizontální,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/waag%5Be%5Drecht,2026-10-05
+c1,541,Waffenruhe,die,Přestávka v boji,klid zbraní,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/P%C5%99est%C3%A1vka%20v%20boji,2026-10-05
+c1,542,Waffenschein,der,Zbrojní průkaz,zbrojní pas,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zbrojn%C3%AD%20pr%C5%AFkaz,2026-10-05
+c1,543,wahlberechtigt,,"Ten, kdo má volební právo",oprávněný volit,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ten%2C%20kdo%20m%C3%A1%20volebn%C3%AD%20pr%C3%A1vo,2026-10-05
+c1,544,wahrhaft,,Opravdu • Opravdu,opravdu,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/wahrhaft,2026-10-05
+c1,545,Wäscheschleuder,die,Odstředivka na prádlo,ždímačka,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Odst%C5%99edivka%20na%20pr%C3%A1dlo,2026-10-05
+c1,546,Wasserheilanstalt,die,Vodolečebný ústav • Vodoléčebné zařízení,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Wasserheilanstalt,2026-10-05
+c1,547,Wasserkraftwerk,das,Vodní elektrárna,vodní elektrárna,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Wasserkraftwerk,2026-10-05
+c1,548,Wasserversorgung,die,Zásobování vodou,zasobování vodou,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Wasserversorgung,2026-10-05
+c1,549,Wechselbeziehung,die,Vzájemný vztah • Vzájemná souvislost,vzájemný vztah,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vz%C3%A1jemn%C3%BD%20vztah,2026-10-05
+c1,550,Wehrersatzdienst,der,Civilní služba místo vojenské služby,náhradní vojenská služba,AMBIGUOUS,REVERSE_NOT_FOUND,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Civiln%C3%AD%20slu%C5%BEba%20m%C3%ADsto%20vojensk%C3%A9%20slu%C5%BEby,2026-10-05
+c1,551,Weidenkätzchen,das,Kočičky • Jehnědy vrby,kočička,NO_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ko%C4%8Di%C4%8Dky,2026-10-05
+c1,552,Weltanschauung,die,Pohled na svět,světový názor,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pohled%20na%20sv%C4%9Bt,2026-10-05
+c1,553,Wetterleuchten,das,Vzdálené blýskání,blýskání,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vzd%C3%A1len%C3%A9%20bl%C3%BDsk%C3%A1n%C3%AD,2026-10-05
+c1,554,widerrechtlich,,Protiprávní,protiprávní,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/widerrechtlich,2026-10-05
+c1,555,wiederherstellen,,Obnovit • Obnovit,opravovat,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Obnovit,2026-10-05
+c1,556,zusammenfallen,,Zhroutit se • Shodovat se,shodovat se,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_AMBIGUOUS,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zhroutit%20se,2026-10-05
+c1,557,zusammenstellen,,Sestavit,sestavovat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Sestavit,2026-10-05
+c1,558,Zuschlag,der,Prémie • Přirážka,přirážka,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pr%C3%A9mie,2026-10-05
+c1,559,beziehen / sich beziehen auf,,Aplikovat • Aplikovat na,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/beziehen,2026-10-05
+c1,560,beabsichtigen,,Zamýšlet • Plánovat,zamýšlet se,NO_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zam%C3%BD%C5%A1let,2026-10-05
+c1,561,unterstellen,,Obviňovat • Přičítat bez podkladu,stavět pod,NO_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Obvi%C5%88ovat,2026-10-05
+c1,562,voraussetzen,,Brát jako podmínku,předpokládat,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Br%C3%A1t%20jako%20podm%C3%ADnku,2026-10-05
+c1,563,bewahren,,Chránit • Chránit,chránit,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/bewahren,2026-10-05
+c1,564,aufrechterhalten,,Zachovat v platnosti,udržovat,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zachovat%20v%20platnosti,2026-10-05
+c1,565,Hektar,der,hektar,hektar,AMBIGUOUS,REVERSE_CONFIRMED,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/hektar,2026-10-05
+c1,566,Karre,die,kára,kára,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Karre,2026-10-05
+c1,567,Karren,der,kára • vozík,kára vozík,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Karren,2026-10-05
+c1,568,Krüppel,der,mrzák,mrzák,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kr%C3%BCppel,2026-10-05
+c1,569,Matsch,der,bláto • břečka,břečka,PARTIAL_MATCH,REVERSE_FAILED|REVERSE_CONFIRMED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Bl%C3%A1to,2026-10-05
+c1,570,Panter,der,panter,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Panter,2026-10-05
+c1,571,Panther,der,panter,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Panther,2026-10-05
+c2,0,Unvoreingenommenheit,die,Objektivita • Neutralita,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Unvoreingenommenheit,2026-10-05
+c2,1,konterkarieren,,Mařit,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/konterkarieren,2026-10-05
+c2,2,Stichhaltigkeit,die,Opodstatněnost • Přesvědčivost,pádnost,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Opodstatn%C4%9Bnost,2026-10-05
+c2,3,unmissverständlich,,Jednoznačný • Naprosto jasný,naprosto srozumitelný,NO_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Jednozna%C4%8Dn%C3%BD,2026-10-05
+c2,4,Wechselwirkung,die,Interakce,vzájemné působení,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Interakce,2026-10-05
+c2,5,veranschaulichen,,Znázornit • Názorně vysvětlit,znázorňovat,NO_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zn%C3%A1zornit,2026-10-05
+c2,6,Schlussfolgerung,die,Závěr,závěr,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schlussfolgerung,2026-10-05
+c2,7,Sorgfaltspflicht,die,Povinnost péče,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Sorgfaltspflicht,2026-10-05
+c2,8,Anfangsbuchstabe,der,Počáteční písmeno,začáteční písmeno,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Po%C4%8D%C3%A1te%C4%8Dn%C3%AD%20p%C3%ADsmeno,2026-10-05
+c2,9,Anführungszeichen,das,Uvozovky,uvozovky,AMBIGUOUS,REVERSE_NOT_FOUND,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Uvozovky,2026-10-05
+c2,10,Abschlussprüfung,die,Závěrečná zkouška,závěrečná zkouška,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Abschlusspr%C3%BCfung,2026-10-05
+c2,11,Arbeitserlaubnis,die,Pracovní povolení,pracovní povolení,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Arbeitserlaubnis,2026-10-05
+c2,12,Teilnehmerausweis,der,Průkaz účastníka,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Teilnehmerausweis,2026-10-05
+c2,13,batteriebetrieben,,Na baterie,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/batteriebetrieben,2026-10-05
+c2,14,beaufsichtigen,,Dohlížet • Dozorovat,dohlížet,PARTIAL_MATCH,REVERSE_AMBIGUOUS|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Dohl%C3%AD%C5%BEet,2026-10-05
+c2,15,Lebensbedingungen,die,Životní podmínky,životní podmínky,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Lebensbedingungen,2026-10-05
+c2,16,Behandlungsraum,der,Ošetřovna • Místnost pro ošetření,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Behandlungsraum,2026-10-05
+c2,17,beispielsweise,,Například,například,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/beispielsweise,2026-10-05
+c2,18,Mitgliedsbeitrag,der,Členský příspěvek,členský příspěvek,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Mitgliedsbeitrag,2026-10-05
+c2,19,benachrichtigen,,Oznámit,zpravovat,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ozn%C3%A1mit,2026-10-05
+c2,20,Benzingutschein,der,Kupon na benzín,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Benzingutschein,2026-10-05
+c2,21,Benzinkanister,der,Kanystr na benzín,kanystr,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Kanystr%20na%20benz%C3%ADn,2026-10-05
+c2,22,Benzinverbrauch,der,Spotřeba benzínu,spotřeba benzinu,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Benzinverbrauch,2026-10-05
+c2,23,Bequemlichkeit,die,Pohodlí,pohodlí,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Bequemlichkeit,2026-10-05
+c2,24,berücksichtigen,,Vzít v úvahu,mít na zřeteli,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vz%C3%ADt%20v%20%C3%BAvahu,2026-10-05
+c2,25,Berufsausbildung,die,Odborné vzdělání,odborný výcvik,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Odborn%C3%A9%20vzd%C4%9Bl%C3%A1n%C3%AD,2026-10-05
+c2,26,Tintenstrahldrucker,der,Inkoustová tiskárna,inkoustová tiskárna,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Tintenstrahldrucker,2026-10-05
+c2,27,Gewichtseinheit,die,Jednotka hmotnosti,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gewichtseinheit,2026-10-05
+c2,28,Elementarkenntnisse,die,Základní znalosti,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Elementarkenntnisse,2026-10-05
+c2,29,entgegenkommen,,Vyjít vstříc,přicházet naproti,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vyj%C3%ADt%20vst%C5%99%C3%ADc,2026-10-05
+c2,30,Gebrauchtwagen,der,Ojetý vůz,ojetý vůz,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gebrauchtwagen,2026-10-05
+c2,31,Geburtsurkunde,die,Rodný list,rodný list,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Geburtsurkunde,2026-10-05
+c2,32,Gehaltsabrechnung,die,Výplatní páska • Vyúčtování mzdy,vyúčtování platů,NO_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/V%C3%BDplatn%C3%AD%20p%C3%A1ska,2026-10-05
+c2,33,Gehaltserhöhung,die,Zvýšení platu,zvýšení platu,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gehaltserh%C3%B6hung,2026-10-05
+c2,34,Gehirnerschütterung,die,Otřes mozku,otřes mozku,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gehirnersch%C3%BCtterung,2026-10-05
+c2,35,Gepäckaufbewahrung,die,Úschovna zavazadel,úschovna zavazadel,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gep%C3%A4ckaufbewahrung,2026-10-05
+c2,36,Geschäftsführer,der,Manažer společnosti,ředitel firmy,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Mana%C5%BEer%20spole%C4%8Dnosti,2026-10-05
+c2,37,Geschäftspartner,der,Obchodní partner,obchodní partner,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gesch%C3%A4ftspartner,2026-10-05
+c2,38,Geschenkgutschein,der,Dárkový poukaz,dárková poukázka,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/D%C3%A1rkov%C3%BD%20poukaz,2026-10-05
+c2,39,Geschenkpackung,die,Dárkové balení,dárkové balení,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Geschenkpackung,2026-10-05
+c2,40,Gleichheitszeichen,das,Rovnítko,rovnítko,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gleichheitszeichen,2026-10-05
+c2,41,Inhaltsverzeichnis,das,Obsah,obsah,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Inhaltsverzeichnis,2026-10-05
+c2,42,Streichinstrument,das,Strunný nástroj,smyčcový nástroj,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Strunn%C3%BD%20n%C3%A1stroj,2026-10-05
+c2,43,Kassettenrecorder,der,Kazetový magnetofon,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kassettenrecorder,2026-10-05
+c2,44,Katastrophendienst,der,Služba při katastrofách,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Katastrophendienst,2026-10-05
+c2,45,Kostenerstattung,die,Náhrada nákladů,náhrada nákladů,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kostenerstattung,2026-10-05
+c2,46,Kostensteigerung,die,Zvýšení nákladů,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kostensteigerung,2026-10-05
+c2,47,Krankenversicherung,die,Zdravotní pojištění,nemocenské pojištění,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zdravotn%C3%AD%20poji%C5%A1t%C4%9Bn%C3%AD,2026-10-05
+c2,48,Krankheitssymptom,das,Příznak onemocnění,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Krankheitssymptom,2026-10-05
+c2,49,Krankheitsüberträger,der,Přenašeč nemoci,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Krankheits%C3%BCbertr%C3%A4ger,2026-10-05
+c2,50,Liebenswürdigkeit,die,Laskavost,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Liebensw%C3%BCrdigkeit,2026-10-05
+c2,51,Luftverschmutzung,die,Znečištění ovzduší,znečištění vzduchu,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zne%C4%8Di%C5%A1t%C4%9Bn%C3%AD%20ovzdu%C5%A1%C3%AD,2026-10-05
+c2,52,Lungenentzündung,die,Zápal plic • Pneumonie,zápal plic,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_CONFIRMED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Z%C3%A1pal%20plic,2026-10-05
+c2,53,Nebelscheinwerfer,der,Mlhové světlo pro auta,mlhovka,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Mlhov%C3%A9%20sv%C4%9Btlo%20pro%20auta,2026-10-05
+c2,54,Personenkraftwagen,der,Osobní automobil,osobní auto,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Osobn%C3%AD%20automobil,2026-10-05
+c2,55,Reisebeschreibung,die,Popis cesty,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Reisebeschreibung,2026-10-05
+c2,56,Reparaturwerkstatt,die,Opravna,opravna,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Reparaturwerkstatt,2026-10-05
+c2,57,Rundfunkempfänger,der,Rádiový přijímač,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Rundfunkempf%C3%A4nger,2026-10-05
+c2,58,Schlafwagenzimmer,das,Kupé ve spacím voze,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schlafwagenzimmer,2026-10-05
+c2,59,Schlittschuhkufe,die,Nůž brusle,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schlittschuhkufe,2026-10-05
+c2,60,Schornsteinfeger,der,Kominík,kominík,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Schornsteinfeger,2026-10-05
+c2,61,selbstverständlich,,Samozřejmý,samozřejmý,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/selbstverst%C3%A4ndlich,2026-10-05
+c2,62,sicherheitshalber,,Pro jistotu,pro jistotu,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/sicherheitshalber,2026-10-05
+c2,63,Sozialversicherung,die,Sociální pojištění,sociální pojištění,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Sozialversicherung,2026-10-05
+c2,64,Straßenbahnführer,der,Řidič tramvaje,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Stra%C3%9Fenbahnf%C3%BChrer,2026-10-05
+c2,65,Straßenbahnstrecke,die,Tramvajová trať,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Stra%C3%9Fenbahnstrecke,2026-10-05
+c2,66,Straßenüberführung,die,Silniční nadjezd,silniční nadjezd,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Stra%C3%9Fen%C3%BCberf%C3%BChrung,2026-10-05
+c2,67,Straßenunterführung,die,Silniční podjezd,silniční podjezd,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Stra%C3%9Fenunterf%C3%BChrung,2026-10-05
+c2,68,verantwortlich,,Odpovědný,odpovědný,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/verantwortlich,2026-10-05
+c2,69,Verkehrsunfall,der,Dopravní nehoda,dopravní nehoda,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Verkehrsunfall,2026-10-05
+c2,70,veröffentlichen,,Zveřejnit,uveřejňovat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zve%C5%99ejnit,2026-10-05
+c2,71,verschlechtern,,Zhoršit,zhořsovat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zhor%C5%A1it,2026-10-05
+c2,72,sich verschlechtern,,Zhoršovat se,zhořsovat,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zhor%C5%A1ovat%20se,2026-10-05
+c2,73,Vorstellungsgespräch,das,Pracovní pohovor,přijímací pohovor,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pracovn%C3%AD%20pohovor,2026-10-05
+c2,74,Wettervorhersage,die,Předpověď počasí,předpověď počasí,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Wettervorhersage,2026-10-05
+c2,75,Windschutzscheibe,die,Čelní sklo auta,čelní sklo,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/%C4%8Celn%C3%AD%20sklo%20auta,2026-10-05
+c2,76,Sehenswürdigkeit,die,Pamětihodnost,pamětihodnost,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Sehensw%C3%BCrdigkeit,2026-10-05
+c2,77,Abenteuergeschichte,die,Dobrodružný příběh,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Abenteuergeschichte,2026-10-05
+c2,78,Abgeordnetenhaus,das,Poslanecká sněmovna,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Abgeordnetenhaus,2026-10-05
+c2,79,Aufenthaltsgenehmigung,die,Povolení k pobytu,povolení pobytu,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Povolen%C3%AD%20k%20pobytu,2026-10-05
+c2,80,Gedankenaustausch,der,Výměna nápadů,výměna názorů,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/V%C3%BDm%C4%9Bna%20n%C3%A1pad%C5%AF,2026-10-05
+c2,81,Behindertenausweis,der,Průkaz invalidity,invalidní průkaz,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pr%C5%AFkaz%20invalidity,2026-10-05
+c2,82,Baugenossenschaft,die,Stavební družstvo,bytové družstvo,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Stavebn%C3%AD%20dru%C5%BEstvo,2026-10-05
+c2,83,Arbeitslosenbeihilfe,die,Podpora v nezaměstnanosti,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Arbeitslosenbeihilfe,2026-10-05
+c2,84,Ausbildungsbeihilfe,die,Příspěvek na vzdělávání • Příspěvek na odbornou přípravu,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Ausbildungsbeihilfe,2026-10-05
+c2,85,Unternehmensberater,der,Firemní konzultant,podnikatelský poradce,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Firemn%C3%AD%20konzultant,2026-10-05
+c2,86,Berichterstatter,der,Zpravodaj • Referent • Korespondent • Reportér,zpravodaj reportér,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED|REVERSE_FAILED|REVERSE_CONFIRMED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zpravodaj,2026-10-05
+c2,87,Berufsbezeichnung,die,Označení povolání,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Berufsbezeichnung,2026-10-05
+c2,88,Besatzungsregime,das,Okupační režim,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Besatzungsregime,2026-10-05
+c2,89,Besatzungstruppen,die,Okupační vojska,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Besatzungstruppen,2026-10-05
+c2,90,Bevölkerungsdichte,die,Hustota obyvatelstva,hustota obyvatelstva,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Bev%C3%B6lkerungsdichte,2026-10-05
+c2,91,Bildberichterstatter,der,Fotokorespondent,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Bildberichterstatter,2026-10-05
+c2,92,Wirtschaftsblock,der,Ekonomický blok,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Wirtschaftsblock,2026-10-05
+c2,93,Wirtschaftsblockade,die,Ekonomická blokáda,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Wirtschaftsblockade,2026-10-05
+c2,94,Bluttransfusion,die,Krevní transfuze,transfuze krve,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Krevn%C3%AD%20transfuze,2026-10-05
+c2,95,Computersimulation,die,Počítačová simulace,počítačová simulace,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Computersimulation,2026-10-05
+c2,96,Computerwissenschaft,die,Informatika • Informatika,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Computerwissenschaft,2026-10-05
+c2,97,Informationsdefizit,das,Informační deficit,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Informationsdefizit,2026-10-05
+c2,98,Sittlichkeitsdelikt,das,Porušení morálních norem,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Sittlichkeitsdelikt,2026-10-05
+c2,99,Rauschgiftdezernat,das,Oddělení pro boj s narkotiky,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Rauschgiftdezernat,2026-10-05
+c2,100,Dialektik,die,Dialektika,dialektika,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Dialektik,2026-10-05
+c2,101,Bereitschaftsdienst,der,Pohotovostní služba,pohotovostní služba,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Bereitschaftsdienst,2026-10-05
+c2,102,Durchfuhrerlaubnis,die,Tranzitní povolení,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Durchfuhrerlaubnis,2026-10-05
+c2,103,durchkreuzen,,Vyškrtnout • Překřížit • Překazit • Narušit,křížit,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED|REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vy%C5%A1krtnout,2026-10-05
+c2,104,Durchschnittsalter,das,Průměrný věk,průměrný věk,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Durchschnittsalter,2026-10-05
+c2,105,Durchschnittsverdienst,der,Průměrný výdělek,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Durchschnittsverdienst,2026-10-05
+c2,106,Durchschnittsleistung,die,Průměrný výkon • Průměrný výkon,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Durchschnittsleistung,2026-10-05
+c2,107,Durchschnittsmensch,der,Průměrný člověk,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Durchschnittsmensch,2026-10-05
+c2,108,Einfuhrbeschränkung,die,Omezení dovozu,dovozní omezení,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Omezen%C3%AD%20dovozu,2026-10-05
+c2,109,Einstellungsgespräch,das,Pracovní pohovor,přijímací pohovor,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pracovn%C3%AD%20pohovor,2026-10-05
+c2,110,Empfehlungsschreiben,das,Doporučující dopis,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Empfehlungsschreiben,2026-10-05
+c2,111,Entbindungsanstalt,die,Porodnice,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Entbindungsanstalt,2026-10-05
+c2,112,entgegengesetzt,,Opačný,opačný,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/entgegengesetzt,2026-10-05
+c2,113,Entschlossenheit,die,Rozhodnost • Odhodlanost,rozhodnost odhodlanost,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Entschlossenheit,2026-10-05
+c2,114,Entwicklungsland,das,Rozvojová země,rozvojová země,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Entwicklungsland,2026-10-05
+c2,115,Erfrischungsraum,der,Bufet,bufet,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Erfrischungsraum,2026-10-05
+c2,116,Regierungserklärung,die,Vládní prohlášení,vládní prohlášení,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Regierungserkl%C3%A4rung,2026-10-05
+c2,117,Errungenschaft,die,Úspěch • Výdobytek,vymoženost,NO_MATCH,REVERSE_FAILED|REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/%C3%9Asp%C4%9Bch,2026-10-05
+c2,118,Erwachsenenbildung,die,Vzdělávání dospělých,výchova dospělých,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vzd%C4%9Bl%C3%A1v%C3%A1n%C3%AD%20dosp%C4%9Bl%C3%BDch,2026-10-05
+c2,119,Fallschirmspringen,das,Parašutismus • Seskok padákem,parašutizmus,NO_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,PARTIAL_CONFIRMED,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Para%C5%A1utismus,2026-10-05
+c2,120,Friedensbedingungen,die,Mírové podmínky,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Friedensbedingungen,2026-10-05
+c2,121,Friedensverhandlungen,die,Mírové rozhovory,mírová jednání,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/M%C3%ADrov%C3%A9%20rozhovory,2026-10-05
+c2,122,Führereigenschaften,die,Vůdcovské kvality,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/F%C3%BChrereigenschaften,2026-10-05
+c2,123,Führerpersönlichkeit,die,Vůdčí osobnost,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/F%C3%BChrerpers%C3%B6nlichkeit,2026-10-05
+c2,124,Fußballweltmeisterschaft,die,Mistrovství světa ve fotbale,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Fu%C3%9Fballweltmeisterschaft,2026-10-05
+c2,125,Geburtenkontrolle,die,Antikoncepce,kontrola porodnosti,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Antikoncepce,2026-10-05
+c2,126,Gedächtnisschwäche,die,Špatná paměť,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Ged%C3%A4chtnisschw%C3%A4che,2026-10-05
+c2,127,Gedächtnisstörung,die,Porucha paměti,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Ged%C3%A4chtnisst%C3%B6rung,2026-10-05
+c2,128,Gefängnisaufseher,der,Vězeňský dozorce,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gef%C3%A4ngnisaufseher,2026-10-05
+c2,129,Gefängnisinsasse,der,Vězeň,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gef%C3%A4ngnisinsasse,2026-10-05
+c2,130,Gefäßerweiterung,die,Dilataci krevních cév,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gef%C3%A4%C3%9Ferweiterung,2026-10-05
+c2,131,Geistesgegenwart,die,Duchapřítomnost,duchapřítomnost,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Geistesgegenwart,2026-10-05
+c2,132,geistige Getränke,,Alkoholické nápoje,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/geistige%20Getr%C3%A4nke,2026-10-05
+c2,133,Gelegenheitsarbeiter,der,Příležitostný dělník,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gelegenheitsarbeiter,2026-10-05
+c2,134,Gemäldeausstellung,die,Výstava obrazů,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gem%C3%A4ldeausstellung,2026-10-05
+c2,135,Arbeitsgemeinschaft,die,Pracovní skupina,pracovní kolektiv,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pracovn%C3%AD%20skupina,2026-10-05
+c2,136,Dorfgemeinschaft,die,Vesnické společenství • Vesnická komunita,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Dorfgemeinschaft,2026-10-05
+c2,137,Forschungsgemeinschaft,die,Výzkumná skupina,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Forschungsgemeinschaft,2026-10-05
+c2,138,Generalreparatur,die,Generální oprava,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Generalreparatur,2026-10-05
+c2,139,Generalversammlung,die,Valné shromáždění,valná hromada,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Valn%C3%A9%20shrom%C3%A1%C5%BEd%C4%9Bn%C3%AD,2026-10-05
+c2,140,Genossenschaft,die,Družstvo • Artel,družstvo,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Dru%C5%BEstvo,2026-10-05
+c2,141,Gerechtigkeitsgefühl,das,Smysl pro spravedlnost,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gerechtigkeitsgef%C3%BChl,2026-10-05
+c2,142,Schiedsgericht,das,Rozhodčí soud • Arbitrážní soud,rozhodčí soud,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Rozhod%C4%8D%C3%AD%20soud,2026-10-05
+c2,143,Gerichtsverfahren,das,Soudní řízení,soudní řízení,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gerichtsverfahren,2026-10-05
+c2,144,Geschäftsordnung,die,Jednací řád,jednací řád,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gesch%C3%A4ftsordnung,2026-10-05
+c2,145,Geschlechtsverkehr,der,Styk,pohlavní styk,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Styk,2026-10-05
+c2,146,Geschwindigkeitsbegrenzung,die,Omezení rychlosti,omezení rychlosti,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Geschwindigkeitsbegrenzung,2026-10-05
+c2,147,Geschwindigkeitskontrolle,die,Kontrola rychlosti • Měření rychlosti,kontrola rychlosti,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Kontrola%20rychlosti,2026-10-05
+c2,148,Geschwindigkeitsmessung,die,Měření rychlosti,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Geschwindigkeitsmessung,2026-10-05
+c2,149,Geschwindigkeitsüberschreitung,die,Překročení rychlosti,překročení rychlosti,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Geschwindigkeits%C3%BCberschreitung,2026-10-05
+c2,150,gesellschaftlich,,Společenský • Sociální,společenský,PARTIAL_MATCH,REVERSE_CONFIRMED|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Spole%C4%8Densk%C3%BD,2026-10-05
+c2,151,Gesellschaftsordnung,die,Společenské uspořádání • Společenský řád,společenský řád,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_NOT_FOUND,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Spole%C4%8Densk%C3%A9%20uspo%C5%99%C3%A1d%C3%A1n%C3%AD,2026-10-05
+c2,152,Gesetzesvorlage,die,Návrh zákona,návrh zákona,AMBIGUOUS,REVERSE_NOT_FOUND,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/N%C3%A1vrh%20z%C3%A1kona,2026-10-05
+c2,153,gesetzgebende Gewalt,die,Zákonodárnou moc,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/gesetzgebende%20Gewalt,2026-10-05
+c2,154,Gewerkschaftsbeitrag,der,Odborový příspěvek • Členský příspěvek odborům,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gewerkschaftsbeitrag,2026-10-05
+c2,155,Gewerkschaftsmitglied,das,Člen odborů,člen odborů,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gewerkschaftsmitglied,2026-10-05
+c2,156,Gewinnauszahlung,die,Výplata zisku,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gewinnauszahlung,2026-10-05
+c2,157,Gipfelkonferenz,die,Konference na nejvyšší úrovni,konference na nejvyšší,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gipfelkonferenz,2026-10-05
+c2,158,Gleichberechtigung,die,Rovnoprávnost,rovnoprávnost,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Gleichberechtigung,2026-10-05
+c2,159,Grundnahrungsmittel,das,Základní potraviny,základní potravina,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Z%C3%A1kladn%C3%AD%20potraviny,2026-10-05
+c2,160,Handelsabkommen,das,Obchodní dohoda,obchodní dohoda,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Handelsabkommen,2026-10-05
+c2,161,Hausgemeinschaft,die,Společenství obyvatel domu,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Hausgemeinschaft,2026-10-05
+c2,162,Haushaltsausschuss,der,Rozpočtová komise,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Haushaltsausschuss,2026-10-05
+c2,163,Herztransplantation,die,Transplantaci srdce,transplantace srdce,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Transplantaci%20srdce,2026-10-05
+c2,164,Hinterlassenschaft,die,Dědictví,pozůstalost,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/D%C4%9Bdictv%C3%AD,2026-10-05
+c2,165,Kabinettsbeschluss,der,Rozhodnutí kabinetu,vládní rozhodnutí,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Rozhodnut%C3%AD%20kabinetu,2026-10-05
+c2,166,Kabinettsmitglied,das,Člen kabinetu • Ministr,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kabinettsmitglied,2026-10-05
+c2,167,Koalitionspartner,der,Koaliční partner,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Koalitionspartner,2026-10-05
+c2,168,Koalitionsregierung,die,Koaliční vláda,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Koalitionsregierung,2026-10-05
+c2,169,Kriegsentschädigung,die,Kompenzace válečných ztrát • Reparace,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kriegsentsch%C3%A4digung,2026-10-05
+c2,170,Lebenserhaltungstrieb,der,Pud zachování života,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Lebenserhaltungstrieb,2026-10-05
+c2,171,Lebenshaltungskosten,die,Životní náklady,životní náklady,AMBIGUOUS,REVERSE_NOT_FOUND,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/%C5%BDivotn%C3%AD%20n%C3%A1klady,2026-10-05
+c2,172,Lebensversicherung,die,Životní pojištění,životní pojištění,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Lebensversicherung,2026-10-05
+c2,173,Leistungsfähigkeit,die,Pracovní kapacita • Produktivita • Kapacita,výkonnost,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED|REVERSE_FAILED,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Pracovn%C3%AD%20kapacita,2026-10-05
+c2,174,Mannschaftskampf,der,Týmová soutěž,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Mannschaftskampf,2026-10-05
+c2,175,Marktwirtschaft,die,Tržní ekonomika,tržní hospodářství,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Tr%C5%BEn%C3%AD%20ekonomika,2026-10-05
+c2,176,Meinungsverschiedenheiten,die,Neshody,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Meinungsverschiedenheiten,2026-10-05
+c2,177,Meisterschaftsspiel,das,Mistrovský zápas,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Meisterschaftsspiel,2026-10-05
+c2,178,menschenfreundlich,,Humánní • Lidský,lidumilný,NO_MATCH,REVERSE_FAILED|REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Hum%C3%A1nn%C3%AD,2026-10-05
+c2,179,Minderheitsregierung,die,Menšinová vláda,menšinová vláda,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Minderheitsregierung,2026-10-05
+c2,180,Mutterschaftsurlaub,der,Mateřská dovolená,mateřská dovolená,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Mutterschaftsurlaub,2026-10-05
+c2,181,Nebenbeschäftigung,die,Vedlejší práce,vedlejší zaměstnání,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Vedlej%C5%A1%C3%AD%20pr%C3%A1ce,2026-10-05
+c2,182,Nervenzusammenbruch,der,Nervové zhroucení,nervové zhroucení,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Nervenzusammenbruch,2026-10-05
+c2,183,Parlamentarier,der,Poslanec • Poslanec,poslanec,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Parlamentarier,2026-10-05
+c2,184,Pflichtversicherung,die,Povinné pojištění,povinné pojištění,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Pflichtversicherung,2026-10-05
+c2,185,politische Ökonomie,die,Politická ekonomie,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/politische%20%C3%96konomie,2026-10-05
+c2,186,populärwissenschaftlich,,Populárněvědecký,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/popul%C3%A4rwissenschaftlich,2026-10-05
+c2,187,Preisausschreiben,das,Soutěž,soutěz o ceny,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Sout%C4%9B%C5%BE,2026-10-05
+c2,188,rechtsextremistisch,,Pravicově extremistický,pravicově extremistický,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/rechtsextremistisch,2026-10-05
+c2,189,Satellitenübertragung,die,Satelitní přenos,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Satelliten%C3%BCbertragung,2026-10-05
+c2,190,Scheidungsprozess,der,Rozvodové řízení,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Scheidungsprozess,2026-10-05
+c2,191,Beschwerdeschrift,die,Písemná stížnost,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Beschwerdeschrift,2026-10-05
+c2,192,Schwangerschaftsabbruch,der,Ukončení těhotenství,interrupce,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Ukon%C4%8Den%C3%AD%20t%C4%9Bhotenstv%C3%AD,2026-10-05
+c2,193,Selbstbestimmungsrecht,das,Právo na sebeurčení,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Selbstbestimmungsrecht,2026-10-05
+c2,194,Selbsterhaltungstrieb,der,Pud sebezáchovy,pud sebezáchovy,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Selbsterhaltungstrieb,2026-10-05
+c2,195,Selbstverteidigung,die,Sebeobrana,sebeobrana,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Selbstverteidigung,2026-10-05
+c2,196,Staatsangehörigkeit,die,Státní příslušnost • Občanství,státní příslušnost,PARTIAL_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED,CONFIRMED_BILINGUAL_PARTIAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/St%C3%A1tn%C3%AD%20p%C5%99%C3%ADslu%C5%A1nost,2026-10-05
+c2,197,Steuererleichterung,die,Daňová úleva,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Steuererleichterung,2026-10-05
+c2,198,Strafgesetzbuch,das,Trestní zákoník,trestní zákoník,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Strafgesetzbuch,2026-10-05
+c2,199,Tochtergesellschaft,die,Dceřiná společnost,dceřiná společnost,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Tochtergesellschaft,2026-10-05
+c2,200,Vaterschaftsklage,die,Žaloba o určení otcovství,žaloba o uznání,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/%C5%BDaloba%20o%20ur%C4%8Den%C3%AD%20otcovstv%C3%AD,2026-10-05
+c2,201,verallgemeinern,,Zobecnit,zobecňovat,NO_MATCH,REVERSE_CONFIRMED,CONFIRMED_REVERSE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Zobecnit,2026-10-05
+c2,202,Verhütungsmittel,das,Antikoncepční prostředek,antikoncepční prostředek,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Verh%C3%BCtungsmittel,2026-10-05
+c2,203,Waffenstillstand,der,Příměří,příměří,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Waffenstillstand,2026-10-05
+c2,204,Widerstandsbewegung,die,Hnutí odporu,odbojové hnutí,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Hnut%C3%AD%20odporu,2026-10-05
+c2,205,Widerstandskämpfer,der,Člen hnutí odporu,odbojář,NO_MATCH,REVERSE_NOT_FOUND,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/%C4%8Clen%20hnut%C3%AD%20odporu,2026-10-05
+c2,206,"zugrunde, zu Grunde",,V základu • V podstatě,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/zugrunde%2C%20zu%20Grunde,2026-10-05
+c2,207,"zugunsten, zu Gunsten",,Ve prospěch,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/zugunsten%2C%20zu%20Gunsten,2026-10-05
+c2,208,imstande,,Schopný,,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Schopn%C3%BD,2026-10-05
+c2,209,im Stande,,Schopný,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/im%20Stande,2026-10-05
+c2,210,instand,,V pořádku • Provozuschopný,,NO_MATCH,REVERSE_NOT_FOUND|REVERSE_FAILED,CZECH_WORD_NOT_IN_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/V%20po%C5%99%C3%A1dku,2026-10-05
+c2,211,in Stand,,V pořádku • V provozuschopném stavu,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/in%20Stand,2026-10-05
+c2,212,inwiefern,,Do jaké míry,do jaké míry,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/inwiefern,2026-10-05
+c2,213,inwieweit,,Do jaké míry,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/inwieweit,2026-10-05
+c2,214,Karre,die,Kolečko,kolečko,MATCH,,CONFIRMED_BILINGUAL,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Karre,2026-10-05
+c2,215,Karren,der,Kolečko,kára,NO_MATCH,REVERSE_FAILED,WRONG_BY_SOURCE,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Kole%C4%8Dko,2026-10-05
+c2,216,Kriegsbeschädigte,der,Válečný invalida,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kriegsbesch%C3%A4digte,2026-10-05
+c2,217,Kriegsgefangene,der,Válečný zajatec,,NOT_IN_SOURCE,,NEEDS_SOURCE_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/deutsch-tschechisch/Kriegsgefangene,2026-10-05
+c2,218,Sachverständige,der,Odborník • Znalec,znalkyně expertka,AMBIGUOUS,REVERSE_FAILED|REVERSE_CONFIRMED,NEEDS_REVIEW,pons-de-cs,https://de.pons.com/%C3%BCbersetzung/tschechisch-deutsch/Odborn%C3%ADk,2026-10-05
