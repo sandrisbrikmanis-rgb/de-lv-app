@@ -135,3 +135,14 @@ Tikai A, jo T0 maršruts ir A+B, bet otrs virziens tabulā nav atsevišķs avots
 Tikai B: bs, is, mk. Neviens no T0: da, en, es, fi, gr, lb, nb, ru, tr (NOT_TESTED).
 
 Labojumi nav izdarīti. WRONG_BY_SOURCE ir verdikts, nevis ierosināts tulkojums.
+
+## Atvēršanai un lejupielādei
+
+Satura commits: `fdc3349e21961465c41dc0b2f6aed2cf93c3deed`.
+
+- [SUMMARY.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fdc3349e21961465c41dc0b2f6aed2cf93c3deed/reports/translation-check-cs-reverse/SUMMARY.md)
+- [SUMMARY.md raw](https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/fdc3349e21961465c41dc0b2f6aed2cf93c3deed/reports/translation-check-cs-reverse/SUMMARY.md)
+- [MANIFEST.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/fdc3349e21961465c41dc0b2f6aed2cf93c3deed/reports/translation-check-cs-reverse/MANIFEST.md)
+- [MANIFEST.md raw](https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/fdc3349e21961465c41dc0b2f6aed2cf93c3deed/reports/translation-check-cs-reverse/MANIFEST.md)
+
+Pārējie faili ir MANIFEST tabulā.
