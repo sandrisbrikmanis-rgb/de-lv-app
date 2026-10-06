@@ -127,3 +127,14 @@ OWNER darbs: 24 partijas × 2 AI = 48 ielīmējumi. Cursor atbildes nesagatavo.
 
 Kontroļu atslēga ir `control-key.csv`. Partiju failos tās nav.
 
+## Atvēršanai un lejupielādei
+
+Satura commits: `02566ed5d582bd4d485cd7d0e7febadda688be6d`.
+
+- [SUMMARY.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/02566ed5d582bd4d485cd7d0e7febadda688be6d/reports/ai-check-cs/SUMMARY.md)
+- [SUMMARY.md raw](https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/02566ed5d582bd4d485cd7d0e7febadda688be6d/reports/ai-check-cs/SUMMARY.md)
+- [MANIFEST.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/02566ed5d582bd4d485cd7d0e7febadda688be6d/reports/ai-check-cs/MANIFEST.md)
+- [HOW-TO.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/02566ed5d582bd4d485cd7d0e7febadda688be6d/reports/ai-check-cs/HOW-TO.md)
+- [HOW-TO.md raw](https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/02566ed5d582bd4d485cd7d0e7febadda688be6d/reports/ai-check-cs/HOW-TO.md)
+
+Partiju saraksts ir MANIFEST tabulā, `reports/ai-check-cs/batches/batch-001.md` līdz `batch-024.md`.
