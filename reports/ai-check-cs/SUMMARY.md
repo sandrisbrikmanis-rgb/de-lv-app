@@ -133,7 +133,7 @@ Satura commits: `02566ed5d582bd4d485cd7d0e7febadda688be6d`.
 
 - [SUMMARY.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/02566ed5d582bd4d485cd7d0e7febadda688be6d/reports/ai-check-cs/SUMMARY.md)
 - [SUMMARY.md raw](https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/02566ed5d582bd4d485cd7d0e7febadda688be6d/reports/ai-check-cs/SUMMARY.md)
-- [MANIFEST.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/02566ed5d582bd4d485cd7d0e7febadda688be6d/reports/ai-check-cs/MANIFEST.md)
+- [MANIFEST.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/06b6d97adadc8e7413e285373e7cb56c3ffefd64/reports/ai-check-cs/MANIFEST.md)
 - [HOW-TO.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/02566ed5d582bd4d485cd7d0e7febadda688be6d/reports/ai-check-cs/HOW-TO.md)
 - [HOW-TO.md raw](https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/02566ed5d582bd4d485cd7d0e7febadda688be6d/reports/ai-check-cs/HOW-TO.md)
 
