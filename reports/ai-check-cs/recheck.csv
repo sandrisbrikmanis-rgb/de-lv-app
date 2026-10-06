@@ -1,0 +1,121 @@
+level,index,de,de_article,cs_part,equivalent,a_verdict,reason
+a1,68,baden,,Koupat se,koupat,NO_MATCH,REFLEXIVE
+a1,110,Brille,die,Brýle,brýle brejle,NO_MATCH,UNICODE
+a1,138,Dienstag,der,Úterý,úterý úterek,AMBIGUOUS,UNICODE
+a1,159,E-Mail,die,E-mail,e - mail,NO_MATCH,SPACE_HYPHEN
+a1,160,Eltern,die,Rodiče,rodiče,AMBIGUOUS,UNICODE
+a1,251,Großeltern,die,Prarodiče,prarodiče,AMBIGUOUS,UNICODE
+a1,489,Radiergummi,der,Guma,guma na gumování,NO_MATCH,UNICODE
+a1,646,sich waschen,,Mýt se,mýt,NO_MATCH,REFLEXIVE
+a2,26,Aerobic,die,Aerobik,aerobik,AMBIGUOUS,UNICODE
+a2,108,aufdrängen,,Vnucovat se,vnucovat,NO_MATCH,REFLEXIVE
+a2,153,Augentropfen,die,Oční kapky,oční kapky,AMBIGUOUS,UNICODE
+a2,177,Autounfall,der,Nehoda,automobilová nehoda,NO_MATCH,UNICODE
+a2,248,bevor,,Než,dřív než,NO_MATCH,UNICODE
+a2,274,Bonbon,das,Bonbon,bonbon cukrátko,AMBIGUOUS,UNICODE
+a2,476,Fensterbrett,das,Parapet,parapet,AMBIGUOUS,UNICODE
+a2,725,Jazz,der,Jazz,džez jazz,NO_MATCH,UNICODE
+a2,769,Kartoffelchips,die,Brambůrky,chipsy brambůrky,AMBIGUOUS,UNICODE
+a2,868,Lebensmittel,die,Potraviny,potraviny,AMBIGUOUS,UNICODE
+a2,897,Logo,das,Logo,jasně ! logo,AMBIGUOUS,UNICODE
+a2,995,Nahrungsmittel,die,Potraviny,potraviny,AMBIGUOUS,UNICODE
+a2,1125,sich rasieren,,Holit se,holit,NO_MATCH,REFLEXIVE
+a2,1166,Rindfleisch,das,Hovězí,hovězí maso,NO_MATCH,UNICODE
+a2,1199,Schach,das,Šachy,šach šachy,AMBIGUOUS,UNICODE
+b1,108,sich amüsieren,,Bavit se,bavit,NO_MATCH,REFLEXIVE
+b1,200,sich aufregen,,Rozčilovat se,rozčilovat,NO_MATCH,REFLEXIVE
+b1,247,Baukosten,die,Stavební náklady,stavební náklady,AMBIGUOUS,UNICODE
+b1,275,Befinden,das,Stav,zdravotní stav,NO_MATCH,UNICODE
+b1,468,Blumenbeet,das,Záhon,květinový záhon,NO_MATCH,UNICODE
+b1,765,sich entwickeln,,Rozvíjet se,rozvíjet,NO_MATCH,REFLEXIVE
+b1,814,erraten,,Uhodnout,uhádnout uhodnout,NO_MATCH,UNICODE
+b1,817,Ersatzteil,der,Náhradní díl,náhradní díl,AMBIGUOUS,UNICODE
+b1,907,Fleischbrühe,die,Vývar,vývar z masa,NO_MATCH,UNICODE
+b1,949,Fremdenführer,der,Průvodce,průvodce cizinců,NO_MATCH,UNICODE
+b1,976,Gänsefüßchen,die,Uvozovky,uvozovky,AMBIGUOUS,UNICODE
+b1,1137,Graffiti,das,Graffiti,graffiti,AMBIGUOUS,UNICODE
+b1,1184,Halstuch,das,Šátek,šátek na krk,NO_MATCH,UNICODE
+b1,1211,Hauptpostamt,das,Hlavní pošta,hlavní pošta,AMBIGUOUS,UNICODE
+b1,1212,Hausarrest,der,Domácí vězení,domácí vězení,AMBIGUOUS,UNICODE
+b1,1472,Karies,der,Zubní kaz,zubní kaz,AMBIGUOUS,UNICODE
+b1,1935,mustern,,Prohlížet si,prohlížet,NO_MATCH,REFLEXIVE
+b1,2042,orientieren,,Orientovat se,orientovat,NO_MATCH,REFLEXIVE
+b1,2763,Stimmabgabe,die,Hlasování,hlasování,AMBIGUOUS,UNICODE
+b1,2785,Straßenverkehrsordnung,die,Pravidla silničního provozu,pravidla silničního provozu,AMBIGUOUS,UNICODE
+b1,2976,umher,,Kolem,kolem dokola,NO_MATCH,UNICODE
+b1,3054,sich verbreiten,,Šířit se,šířit,NO_MATCH,REFLEXIVE
+b1,3223,weiden,,Pást se,pást,NO_MATCH,REFLEXIVE
+b1,3353,sich langweilen,,Nudit se,nudit,NO_MATCH,REFLEXIVE
+b2,61,abschrecken,,Rychle ochladit,rychle ochladit,PARTIAL_MATCH,UNICODE
+b2,98,sich aufdrängen,,Vnucovat se,vnucovat,NO_MATCH,REFLEXIVE
+b2,304,brüten,,Sedět na vejcích,sedět na vejcích,PARTIAL_MATCH,UNICODE
+b2,315,Bundesstaat,der,Spolkový stát,spolkový stát,PARTIAL_MATCH,UNICODE
+b2,567,einleuchten,,Být jasný,být jasný,PARTIAL_MATCH,UNICODE
+b2,610,sich empfehlen,,Doporučovat se,doporučovat,NO_MATCH,REFLEXIVE
+b2,624,sich entfalten,,Rozvíjet se,rozvíjet,NO_MATCH,REFLEXIVE
+b2,788,Filmfestspiele,die,Filmový festival,filmový festival,AMBIGUOUS,UNICODE
+b2,981,Gezeiten,die,Příliv a odliv,příliv a odliv,AMBIGUOUS,UNICODE
+b2,1067,Harsch,der,Zmrzlý sníh,zmrzlý sníh,PARTIAL_MATCH,UNICODE
+b2,1089,Heizöl,das,Topný olej,topný olej,PARTIAL_MATCH,UNICODE
+b2,1143,Höchstleistung,die,Nejvyšší výkon,nejvyšší výkon,PARTIAL_MATCH,UNICODE
+b2,1237,Leistungslohn,der,Výkonová mzda,výkonová mzda,PARTIAL_MATCH,UNICODE
+b2,1264,Luftaufnahme,die,Letecký snímek,letecký snímek,PARTIAL_MATCH,UNICODE
+b2,1288,Marktlücke,die,Mezera na trhu,mezera na trhu,PARTIAL_MATCH,UNICODE
+b2,1301,Meerenge,die,Úžina,mořská úžina,NO_MATCH,UNICODE
+b2,1302,Meeresspiegel,der,Mořská hladina,mořská hladina,AMBIGUOUS,UNICODE
+b2,1373,Neuauflage,die,Nové vydání,nové vydání,PARTIAL_MATCH,UNICODE
+b2,1425,Palmsonntag,der,Květná neděle,Květná neděle,PARTIAL_MATCH,UNICODE
+b2,1463,postlagernd,,Poste restante,poste restante,PARTIAL_MATCH,UNICODE
+b2,1480,qualifizieren,,Kvalifikovat se,kvalifikovat,NO_MATCH,REFLEXIVE
+b2,1495,Raumflug,der,Kosmický let,kosmický let,PARTIAL_MATCH,UNICODE
+b2,1543,Sachlage,die,Stav,stav věcí,NO_MATCH,UNICODE
+b2,1560,Schalldämpfer,der,Tlumič,tlumič zvuku,NO_MATCH,UNICODE
+b2,1583,schlafwandeln,,Být náměsíčný,být náměsíčný,PARTIAL_MATCH,UNICODE
+b2,1588,schleunigst,,Co nejrychleji,co nejrychleji,PARTIAL_MATCH,UNICODE
+b2,1602,Bittschrift,die,Žádost,písemná žádost,NO_MATCH,UNICODE
+b2,1684,spurlos,,Beze stopy,beze stopy,PARTIAL_MATCH,UNICODE
+b2,1711,Stripper,der,Striptér,striptér,AMBIGUOUS,UNICODE
+b2,1746,Transvestit,der,Transvestit,transvestit transvestista,NO_MATCH,UNICODE
+b2,1752,Triebkraft,die,Hnací síla,hnací síla,AMBIGUOUS,UNICODE
+b2,1795,Umlaufbahn,die,Oběžná dráha,oběžná dráha,PARTIAL_MATCH,UNICODE
+b2,1831,Unkosten,die,Výdaje,útraty výdaje,AMBIGUOUS,UNICODE
+b2,1837,untereinander,,Mezi sebou,mezi sebou,PARTIAL_MATCH,UNICODE
+b2,1847,Unterstellung,die,Křivé obvinění,křivé obvinění,PARTIAL_MATCH,UNICODE
+b2,1923,sich vermehren,,Množit se,množit,NO_MATCH,REFLEXIVE
+b2,1970,verzweifeln,,Zoufat si,zoufat,NO_MATCH,REFLEXIVE
+b2,2022,Wahlkampf,der,Volební boj,volební boj,PARTIAL_MATCH,UNICODE
+b2,2034,Wasserspiegel,der,Vodní hladina,vodní hladina,PARTIAL_MATCH,UNICODE
+b2,2043,Wehrpflicht,die,Branná povinnost,branná povinnost,PARTIAL_MATCH,UNICODE
+b2,2050,Weltmacht,die,Velmoc,světová velmoc,NO_MATCH,UNICODE
+b2,2057,Werktätige,der,Pracující,pracující zaměstnaná,AMBIGUOUS,UNICODE
+b2,2081,zollpflichtig,,Podléhající clu,podléhající clu,PARTIAL_MATCH,UNICODE
+c1,104,Leichtathletik,die,Atletika,lehká atletika,NO_MATCH,UNICODE
+c1,107,Menschenrechte,die,Lidská práva,lidská práva,AMBIGUOUS,UNICODE
+c1,143,Schwiegereltern,die,Tchán a tchyně,tchán a tchýně,AMBIGUOUS,DIACRITIC
+c1,172,Verkehrsstau,der,Dopravní zácpa,dopravní zácpa,AMBIGUOUS,UNICODE
+c1,330,Gefrierpunkt,der,Bod mrazu,bod mrazu,PARTIAL_MATCH,UNICODE
+c1,333,Gehirnschlag,der,Mrtvice,mozková mrtvice,NO_MATCH,UNICODE
+c1,353,Gerichtshof,der,Soudní dvůr,soudní dvůr,PARTIAL_MATCH,UNICODE
+c1,368,Gewissensbisse,die,Výčitky svědomí,výčitky svědomí,AMBIGUOUS,UNICODE
+c1,395,Industrieanlage,die,Průmyslové zařízení,průmyslové zařízení,PARTIAL_MATCH,UNICODE
+c1,413,lebensgefährlich,,Nebezpečný,životu nebezpečný,NO_MATCH,UNICODE
+c1,416,Leistungssport,der,Vrcholový sport,vrcholový sport,PARTIAL_MATCH,UNICODE
+c1,446,Produktionskosten,die,Výrobní náklady,výrobní náklady,AMBIGUOUS,UNICODE
+c1,474,Sinnestäuschung,die,Smyslový klam,smyslový klam,PARTIAL_MATCH,UNICODE
+c1,477,Sommersonnenwende,die,Letní slunovrat,letní slunovrat,AMBIGUOUS,UNICODE
+c1,479,Spitzenleistung,die,Špičkový výkon,špičkový výkon,PARTIAL_MATCH,UNICODE
+c1,530,verunglücken,,Mít nehodu,mít nehodu,PARTIAL_MATCH,UNICODE
+c1,536,Volksabstimmung,die,Lidové hlasování,lidové hlasování,PARTIAL_MATCH,UNICODE
+c1,538,Vollversammlung,die,Valná hromada,valná hromada,PARTIAL_MATCH,UNICODE
+c1,549,Wechselbeziehung,die,Vzájemný vztah,vzájemný vztah,PARTIAL_MATCH,UNICODE
+c2,9,Anführungszeichen,das,Uvozovky,uvozovky,AMBIGUOUS,UNICODE
+c2,52,Lungenentzündung,die,Zápal plic,zápal plic,PARTIAL_MATCH,UNICODE
+c2,72,sich verschlechtern,,Zhoršovat se,zhořsovat,NO_MATCH,DIACRITIC
+c2,142,Schiedsgericht,das,Rozhodčí soud,rozhodčí soud,PARTIAL_MATCH,UNICODE
+c2,145,Geschlechtsverkehr,der,Styk,pohlavní styk,NO_MATCH,UNICODE
+c2,147,Geschwindigkeitskontrolle,die,Kontrola rychlosti,kontrola rychlosti,PARTIAL_MATCH,UNICODE
+c2,151,Gesellschaftsordnung,die,Společenský řád,společenský řád,PARTIAL_MATCH,UNICODE
+c2,152,Gesetzesvorlage,die,Návrh zákona,návrh zákona,AMBIGUOUS,UNICODE
+c2,171,Lebenshaltungskosten,die,Životní náklady,životní náklady,AMBIGUOUS,UNICODE
+c2,187,Preisausschreiben,das,Soutěž,soutěz o ceny,NO_MATCH,DIACRITIC
+c2,196,Staatsangehörigkeit,die,Státní příslušnost,státní příslušnost,PARTIAL_MATCH,UNICODE

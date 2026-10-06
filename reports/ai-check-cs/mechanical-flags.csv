@@ -1,0 +1,80 @@
+level,index,de,cs,class
+b1,2644,sogenannt,Tzv.,ABBREVIATION_LEAK
+b1,2926,Tropen,Geogr. tropy,ABBREVIATION_LEAK
+b2,1544,sächlich,~es Geschlecht gram.,ABBREVIATION_LEAK
+b2,1549,sanieren,Ek. udělat ziskový,ABBREVIATION_LEAK
+b2,1551,Satellit,Astr. družice,ABBREVIATION_LEAK
+b2,1551,Satellit,Pol. satelit,ABBREVIATION_LEAK
+b2,1552,sättigen,Chem. nasytit,ABBREVIATION_LEAK
+b2,1569,scheiden,Sich sch. lassen,ABBREVIATION_LEAK
+b2,1620,Schwerathletik,Sp. vzpírání,ABBREVIATION_LEAK
+b2,1680,Spross,Bot. výhonek,ABBREVIATION_LEAK
+b2,1680,Spross,Přen. potomek,ABBREVIATION_LEAK
+b2,1681,Spruch,Jur. rozsudek,ABBREVIATION_LEAK
+b2,1742,Trabant,Astr. společník,ABBREVIATION_LEAK
+b2,1878,verdünnen,Chem. zředit,ABBREVIATION_LEAK
+b2,1879,verehren,Hovor. [po]darovat,ABBREVIATION_LEAK
+b2,1884,Verfahren,Jur. proces,ABBREVIATION_LEAK
+b2,1930,verordnen,Med. předepsat,ABBREVIATION_LEAK
+b2,1959,verwickeln,Přen. zaplést,ABBREVIATION_LEAK
+b2,2030,wanken,Přen. kolísat,ABBREVIATION_LEAK
+b2,2044,Weib,Hovor. hanl. žena,ABBREVIATION_LEAK
+b2,2061,Wettlauf,Sp. spěchat závod,ABBREVIATION_LEAK
+a1,129,das,Určitý člen středního rodu,EXCLUDED_META
+a1,134,der,Určitý člen mužského rodu,EXCLUDED_META
+a1,137,die,Ženský určitý člen,EXCLUDED_META
+a1,154,ein,Neurčitý člen,EXCLUDED_META
+b2,902,geläufig,Brīvs,FOREIGN_LETTERS
+b2,902,geläufig,Pazīstams,FOREIGN_LETTERS
+b2,902,geläufig,Zināms,FOREIGN_LETTERS
+a1,67,Sauna,Sauna,SAME_AS_LV
+a1,122,CD,CD,SAME_AS_LV
+a1,247,Grammatik,Gramatika,SAME_AS_LV
+a1,350,Lampe,Lampa,SAME_AS_LV
+a1,447,nicht,Ne,SAME_AS_LV
+a1,462,ohne,Bez,SAME_AS_LV
+a1,481,Preis,Cena,SAME_AS_LV
+a1,607,U-Bahn,Metro,SAME_AS_LV
+a2,95,Asthma,Astma,SAME_AS_LV
+a2,194,Bank,Banka,SAME_AS_LV
+a2,336,Paprika,Paprika,SAME_AS_LV
+a2,510,Form,Forma,SAME_AS_LV
+a2,750,Kakao,Kakao,SAME_AS_LV
+a2,918,Maske,Maska,SAME_AS_LV
+a2,1042,Oper,Opera,SAME_AS_LV
+a2,1095,Politik,Politika,SAME_AS_LV
+a2,1528,Video,Video,SAME_AS_LV
+b1,599,Domino,Domino,SAME_AS_LV
+b1,1143,Grieß,Manna,SAME_AS_LV
+b1,1431,Judo,Džudo,SAME_AS_LV
+b1,1482,Katastrophe,Katastrofa,SAME_AS_LV
+b1,1578,Konferenz,Konference,SAME_AS_LV
+b1,1643,Kritik,Kritika,SAME_AS_LV
+b1,1786,Lizenz,Licence,SAME_AS_LV
+b1,1845,Masse,Masa,SAME_AS_LV
+b1,1992,Norm,Norma,SAME_AS_LV
+b1,2052,Panik,Panika,SAME_AS_LV
+b1,2068,Paste,Pasta,SAME_AS_LV
+b1,2113,Pistole,Pistole,SAME_AS_LV
+b1,2294,Republik,Republika,SAME_AS_LV
+b1,2838,Taktik,Taktika,SAME_AS_LV
+b1,3325,Firma,Firma,SAME_AS_LV
+b2,11,Alibi,Alibi,SAME_AS_LV
+b2,902,geläufig,Brīvs,SAME_AS_LV
+b2,902,geläufig,Ierasts,SAME_AS_LV
+b2,902,geläufig,Pazīstams,SAME_AS_LV
+b2,902,geläufig,Tekošs,SAME_AS_LV
+b2,902,geläufig,Zināms,SAME_AS_LV
+b2,955,Geselle,Zellis,SAME_AS_LV
+b2,1015,Gondel,Gondola,SAME_AS_LV
+b2,1064,hänseln,Nerrot,SAME_AS_LV
+b2,1228,Lehrstuhl,Katedra,SAME_AS_LV
+b2,1441,Penis,Penis,SAME_AS_LV
+b2,1473,Propaganda,Propaganda,SAME_AS_LV
+b2,1544,sächlich,~es Geschlecht gram.,SAME_AS_LV
+b2,1569,scheiden,Sich sch. lassen,SAME_AS_LV
+b2,1667,Sperma,Sperma,SAME_AS_LV
+b2,1747,Trauma,Trauma,SAME_AS_LV
+c1,245,Bilanz,Bilance,SAME_AS_LV
+c2,100,Dialektik,Dialektika,SAME_AS_LV
+b1,420,bewachen,Hlídат,SCRIPT_MISMATCH
