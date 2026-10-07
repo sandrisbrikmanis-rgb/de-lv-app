@@ -1,0 +1,117 @@
+HOW-TO: šo versiju B saņem ChatGPT.
+Saglabā atbildi kā CSV ar kolonnām id,meaning,confidence.
+Anthropic -> ai-anthropic/batch-039.csv (versija C).
+Gemini -> ai-gemini/batch-039.csv (versija A).
+ChatGPT -> ai-chatgpt/batch-039.csv (versija B).
+Katru AI lieto jaunā sesijā. Otra AI atbildi nerāda. Kontroļu atslēgu partijā neliek.
+Ja divi AI nesakrīt vai kāds saka NONE vai UNSURE, trešajam AI dod tikai tās rindas.
+
+Tu palīdzi pārbaudīt vārdu tulkojumus no vācu valodas uz čehu mācību lietotnei. Katrai rindai tu saņem: id, vācu vārdu (ar artikulu, ja ir), vienu čehu vārdu un latviešu
+nozīmju sarakstu ar numuriem. Uzdevums: noteikt, kurai latviešu nozīmei (numuram) čehu vārds ir pareizs tulkojums vācu vārdam. Ja nevienai, raksti NONE. Ja neesi drošs, raksti UNSURE.
+Noteikumi: 1) Seko latviešu nozīmēm, nevis vācu vārda citām nozīmēm. 2) Pārbaudi, vai čehu vārds ir īsts, mūsdienās lietots vārds, nevis izdomāts, burtisks kalks, saīsinājums vai svešvalodas
+fragments. 3) Ignorē lielo vai mazo sākuma burtu, dokonāto vai nedokonāto veidu un atgriezenisko 'se/si'. 4) NEIERAKSTI un neieteic jaunu tulkojumu. Tikai numurs, NONE vai UNSURE.
+Atbildi tikai kā CSV ar kolonnām id,meaning,confidence (confidence: high, medium vai low). Bez paskaidrojumiem.
+Ja piemēra teikums neizšķir nozīmi, atbildi UNSURE.
+
+| id | vācu vārds (ar artikulu) | čehu vārds | LV nozīmes (1) … (2) … | vācu piemērs | LV piemērs |
+|---|---|---|---|---|---|
+| cs-002729 | der Bühnenbildner | Scénograf | (1) dekorators | — | — |
+| cs-004632 | die Versuchsreihe | Série testů | (1) testu sērija | — | — |
+| cs-004193 | abweisen | Odmítnout | (1) atraidīt (2) noraidīt | — | — |
+| cs-002168 | die Auszeichnung | čestný odznak | (1) goda zīme (2) apbalvojums (3) apbalvošana | — | — |
+| cs-003930 | die Blutkonserve | Konzervovaná krev | (1) konservētas asinis | — | — |
+| cs-004037 | die Ferne | Vzdálenost | (1) tālums | — | — |
+| cs-002701 | das Morddezernat | Oddělení vražd | (1) kriminālnodaļa | — | — |
+| cs-001578 | der Wehrersatzdienst | Civilní služba místo vojenské služby | (1) civildienests karadienesta vietā | — | — |
+| cs-002393 | darüber | O tom | (1) par to | Wir sprechen darüber. | mēs runājam par to. |
+| cs-001733 | der Kinderfunk | Program pro děti | (1) raidījums bērniem | — | — |
+| cs-000517 | das Jagdrevier | Lovecký areál | (1) medību teritorija | — | — |
+| cs-000626 | der Segelflieger | Pilot kluzáku | (1) planierists | — | — |
+| cs-000576 | gesetzlos | Bezprávný | (1) nelikumīgs | — | — |
+| cs-001896 | die Gegend | Oblast | (1) apkaime (2) apkārtne (3) apvidus | — | — |
+| cs-005461 | die Abart | Touha po dobrodružství | (1) aberrācija (2) novirze | — | — |
+| cs-005458 | die Geltung | Mluvení | (1) nozīmība (2) nozīme | — | — |
+| cs-004227 | freisprechen | Ospravedlnit | (1) attaisnot | — | — |
+| cs-004280 | der Pannendienst | Pohotovostní služba pro automobily | (1) avārijas dienests automašīnām | — | — |
+| cs-000840 | der Gemüsegarten | Zeleninová zahrada | (1) sakņu dārzs | — | — |
+| cs-004325 | köstlich | Vynikající | (1) garšīgs | — | — |
+| cs-004362 | die Halle | Sál | (1) halle | — | — |
+| cs-002962 | der Erbe | Dědicem | (1) mantinieks | Er ist der Erbe seines Onkels. | viņš ir savas onkļa mantinieks. |
+| cs-002271 | irreführen | Uvést v omyl | (1) maldināt | — | — |
+| cs-001608 | sich versehen | Opatřit se | (1) aprīkot ar (2) aizmirst | — | — |
+| cs-004658 | vorweisen | Předložit | (1) uzrādīt | — | — |
+| cs-002255 | bezwingen | Zkrotit | (1) savaldīt (2) uzveikt (3) pārvarēt | — | — |
+| cs-000768 | die Lawinenwarnung | Varování před lavinou | (1) brīdinājums par lavīnu | — | — |
+| cs-003098 | der Sweater | Svetr | (1) svīteris | — | — |
+| cs-005455 | vielleicht | Možná | (1) varbūt | — | — |
+| cs-001548 | die Betäubung | Narkóza | (1) anestēzija (2) narkoze (3) apdullums (4) apdullināšana | — | — |
+| cs-004424 | zurückprallen | Odrazit se | (1) atlēkt atpakaļ | — | — |
+| cs-003637 | treten | Kopnout | (1) spert | — | — |
+| cs-003432 | schlafwandeln | Chodit ze spaní | (1) būt mēnessērdzīgam | — | — |
+| cs-003356 | ekelhaft | Nechutný | (1) pretīgs | — | — |
+| cs-003721 | der Eisgang | Chod ledu | (1) ledus iešana | — | — |
+| cs-000295 | die Schalldämmung | Zvuková izolace | (1) trokšņa slāpēšana | — | — |
+| cs-003138 | geraten | Ocitnout se | (1) atsisties (2) izdoties (3) padoties (4) nokļūt (5) nonākt | — | — |
+| cs-005462 | gemäß | Univerzální | (1) atbilstoši (2) saskaņā ar (3) pēc | — | — |
+| cs-003057 | der Hausmüll | Domovní odpad | (1) sadzīves atkritumi | — | — |
+| cs-001506 | das Wettrudern | Veslařský závod | (1) airēšanas sacīkstes | — | — |
+| cs-005454 | viel | Mnoho | (1) daudz | — | — |
+| cs-002819 | gesetzlich | Právní | (1) likumīgs | — | — |
+| cs-000658 | die Echse | Ještěrka | (1) ķirzaka | — | — |
+| cs-002975 | sich blähen | Vzdouvat se | (1) uzpūsties (2) piepūsties | — | — |
+| cs-004677 | radieren | Vymazat gumou | (1) dzēst ar gumiju | — | — |
+| cs-000015 | hervorrufen | Vytvořit | (1) modināt (2) radīt (3) izraisīt (4) izsaukt | — | — |
+| cs-003338 | der Rasenmäher | Sekačka na trávu | (1) zāles pļāvējs | — | — |
+| cs-001522 | das Schlusswort | Závěrečné slovo | (1) galavārds | — | — |
+| cs-003753 | meutern | Vzbouřit se | (1) sacelties (2) dumpoties | — | — |
+| cs-005451 | verkaufen | Prodat | (1) pārdot | — | — |
+| cs-000585 | versetzen | Přeložit | (1) pārcelt (2) pārvietot | — | — |
+| cs-002605 | die Steuererleichterung | Daňová úleva | (1) nodokļu atvieglojumi | — | — |
+| cs-001086 | die Eintracht | Soulad | (1) saderība (2) saticība (3) saskaņa (4) vienprātība | — | — |
+| cs-003596 | sich erstrecken | Táhnout se | (1) izstiepties (2) sniegties (3) izplesties | — | — |
+| cs-002646 | emsig | Čilý | (1) darbīgs (2) rosīgs (3) čakls | — | — |
+| cs-000159 | belästigen | Vnucovat se | (1) uzbāzties (2) uzmākties (3) apgrūtināt | — | — |
+| cs-000062 | der Luftfilter | Vzduchový filtr | (1) gaisa filtrs | — | — |
+| cs-000418 | das Weidenkätzchen | Kočičky | (1) pūpols | — | — |
+| cs-003259 | sich beruhigen | Uklidni se | (1) nomierināties | Beruhig dich bitte. | lūdzu, nomierinies. |
+| cs-003277 | das Einverständnis | Porozumění | (1) piekrišana (2) vienprātība (3) saprašanās | — | — |
+| cs-000942 | pfänden | Sepsat majetek | (1) apķīlāt (2) aprakstīt mantu | — | — |
+| cs-001013 | anbelangen | Týkat se | (1) attiekties uz | — | — |
+| cs-003093 | die Kabinettskrise | Kabinetní krize | (1) kabineta krīze | — | — |
+| cs-005460 | der Bodensatz | Nerostné suroviny | (1) mieles (2) padibenes (3) nogulsnes | — | — |
+| cs-000206 | abbrechen | Zastavit | (1) pārtraukt | Wir mussten das Gespräch abbrechen. | mums nācās pārtraukt sarunu. |
+| cs-001639 | darbieten | Předložit | (1) pasniegt (2) sniegt | — | — |
+| cs-004046 | ertrinken | Utopit se | (1) noslīkt | — | — |
+| cs-003923 | winden | Navíjet | (1) pīt (2) tīt (3) vīt | — | — |
+| cs-001975 | das Augenleiden | Oční onemocnění | (1) acu slimība | — | — |
+| cs-003270 | die Zusage | Souhlasná odpověď | (1) piekritoša atbilde | — | — |
+| cs-005457 | der Streich | Strunný nástroj | (1) joks | — | — |
+| cs-003447 | die Augenklinik | Oční klinika | (1) acu klīnika | — | — |
+| cs-000790 | unweit | Poblíž | (1) netālu | — | — |
+| cs-005459 | verabschieden | Rozvážný | (1) aizlaist pensijā (2) atbrīvot no darba | — | — |
+| cs-000399 | nu | Teď | (1) acumirklī | — | — |
+| cs-004727 | die Kamera | Fotoaparát | (1) kamera | — | — |
+| cs-003074 | das Geschwätz | Lhaní | (1) pļāpas (2) melošana (3) pļāpāšana | — | — |
+| cs-004222 | das Gemetzel | Hromadné zabíjení | (1) masveida nogalināšana (2) asinspirts | — | — |
+| cs-005452 | verstehen | Pochopit | (1) saprast | Ich verstehe dich. | es tevi saprotu. |
+| cs-000413 | bedrücken | Skličovat | (1) nomākt | — | — |
+| cs-001004 | der Notstand | Výjimečný stav | (1) izņēmuma stāvoklis (2) katastrofāls stāvoklis | — | — |
+| cs-002746 | die Schifffahrt | Lodní doprava | (1) kuģošana | — | — |
+| cs-003142 | das Verfahren | Chování | (1) lieta (2) jur. process (3) metode (4) paņēmiens (5) izturēšanās (6) rīcība | — | — |
+| cs-004635 | besehen | Podívat se na | (1) apskatīt | — | — |
+| cs-003122 | sich sorgen | Dělat si starosti | (1) raizēties | Ich sorge mich um meine Mutter. | es raizējos par savu mammu. |
+| cs-004387 | unterlassen | Přestat něco dělat | (1) neizdarīt (2) kaut ko vairs nedarīt | — | — |
+| cs-002611 | eingrenzen | Omezovat | (1) norobežot (2) ierobežot | — | — |
+| cs-000277 | eilig | Naléhavý | (1) steidzams | — | — |
+| cs-002208 | das Eigentumsdelikt | Majetkový delikt | (1) īpašuma tiesību pārkāpums | — | — |
+| cs-002574 | sollen | Měl by | (1) vajadzētu | Was soll ich machen? | ko man darīt? |
+| cs-001197 | die Plage | Muka | (1) mokas | — | — |
+| cs-003406 | ergiebig | Hojný | (1) ražīgs (2) bagātīgs (3) bagāts (4) ienesīgs (5) auglīgs | — | — |
+| cs-001577 | ersticken | Utlačovat | (1) nosmakt (2) noslāpt (3) nomākt (4) apspiest (5) apslāpēt (6) nosmacēt (7) noslāpēt | — | — |
+| cs-000340 | die Mine | Důl | (1) raktuve | — | — |
+| cs-002357 | in flagranti | Chytit | (1) darot kaut ko aizliegtu (2) pieķert | — | — |
+| cs-001848 | der Beamte | Státní úředník | (1) ierēdnis | — | — |
+| cs-004329 | auf dem Boden | Na podlaze | (1) uz grīdas | — | — |
+| cs-001037 | herausstellen | Uhasit | (1) izlikt ārā | — | — |
+| cs-005453 | versuchen | Zkusit | (1) mēģināt | — | — |
+| cs-005456 | vier | Čtyři | (1) četri | — | — |
