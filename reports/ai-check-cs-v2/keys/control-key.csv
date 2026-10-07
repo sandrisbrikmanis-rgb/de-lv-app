@@ -1,0 +1,587 @@
+id,control_type,construction,base_id,donor_id,base_level,base_index,base_de,donor_level,donor_index,donor_de,donor_cs,known_hard
+cs-000061,NEG_NEAR,KNOWN_HARD batch-001; čehu vārds ir šīs kartītes vārds; cita pāra ar šo čehu vārdu nav,cs-000061,cs-000061,b2,2066,wider,b2,2066,wider,Vs,yes
+cs-000064,NEG_NEAR,KNOWN_HARD batch-001; čehu vārds ir šīs kartītes vārds; cita pāra ar šo čehu vārdu nav,cs-000064,cs-000064,b1,3213,Wechsel,b1,3213,Wechsel,Posun,yes
+cs-000126,NEG_NEAR,KNOWN_HARD batch-001; čehu vārds ir šīs kartītes vārds; cita pāra ar šo čehu vārdu nav,cs-000126,cs-000126,b2,114,austreten,b2,114,austreten,Vystěhovat,yes
+cs-000144,NEG_NEAR,KNOWN_HARD batch-001; čehu vārds ir šīs kartītes vārds un vēl vienā pārī,cs-000144,cs-000388,b2,1732,These,a2,733,Job,Práce,yes
+cs-005001,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:0,,a1,0,Apfel,,,,,no
+cs-005002,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:1,,a1,1,Brot,,,,,no
+cs-005003,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:2,,a1,2,Wasser,,,,,no
+cs-005004,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:3,,a1,3,Haus,,,,,no
+cs-005005,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:4,,a1,4,lernen,,,,,no
+cs-005006,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:5,,a1,5,sprechen,,,,,no
+cs-005007,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000002,cs-000228,b1,166,arg,b2,41,abfällig,Znevažující,no
+cs-005008,NEG_EASY,NEG_EASY same_pos_not_near,cs-000001,cs-000003,b1,1299,Holzbrett,b1,1294,Höhenangst,Strach z výšek,no
+cs-005009,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:15,,a1,15,anders,,,,,no
+cs-005010,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:16,,a1,16,anrufen,,,,,no
+cs-005011,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:17,,a1,17,ab,,,,,no
+cs-005012,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:18,,a1,18,Abend,,,,,no
+cs-005013,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:19,,a1,19,Abendessen,,,,,no
+cs-005014,NEG_NEAR,NEG_NEAR common_prefix:unbed,cs-000024,cs-001242,b1,2991,unbedingt,b2,1812,unbedacht,Zbrklý,no
+cs-005015,NEG_NEAR,NEG_NEAR shared_stem:treiben,cs-000025,cs-000605,b2,113,austreiben,b1,409,betreiben,Vést,no
+cs-005016,NEG_NEAR,NEG_NEAR shared_stem:rede,cs-000027,cs-000917,b2,938,Gerede,b2,893,Gegenrede,Oponování,no
+cs-005017,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000028,cs-000129,b2,205,Beschützer,b1,370,Berühmtheit,Sláva,no
+cs-005018,NEG_NEAR,NEG_NEAR shared_prefix:um,cs-000029,cs-000678,b2,1800,Umschwung,b2,1795,Umlaufbahn,Orbita,no
+cs-005019,NEG_EASY,NEG_EASY same_pos_not_near,cs-000031,cs-001480,b1,1049,gelten,b1,1530,kleinmütig,Malomyslný,no
+cs-005020,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:33,,a1,33,angenehm,,,,,no
+cs-005021,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:34,,a1,34,Antenne,,,,,no
+cs-005022,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:35,,a1,35,Antwort,,,,,no
+cs-005023,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:36,,a1,36,antworten,,,,,no
+cs-005024,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:37,,a1,37,Anzug,,,,,no
+cs-005025,NEG_NEAR,NEG_NEAR common_prefix:tages,cs-000053,cs-000685,b1,2835,Tagesordnung,c1,487,Tageseinnahmen,Denní tržby,no
+cs-005026,NEG_NEAR,NEG_NEAR common_prefix:sich ,cs-000054,cs-000012,b1,2979,sich umkleiden,b1,3086,sich verlassen,Spoléhat na,no
+cs-005027,NEG_NEAR,NEG_NEAR shared_prefix:vor,cs-000055,cs-000322,b2,1997,vorfristig,b2,2009,vortrefflich,Vynikající,no
+cs-005028,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000057,cs-000420,a1,433,natürlich,b2,831,freilich,Ale,no
+cs-005029,NEG_NEAR,NEG_NEAR common_prefix:schwinde,cs-000058,cs-000824,b2,1623,schwinden,b1,2564,schwindeln,Podvádět,no
+cs-005030,NEG_EASY,NEG_EASY same_pos_not_near,cs-000062,cs-001043,b1,1808,Luftfilter,b1,203,Augenlid,Oční víčko,no
+cs-005031,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:46,,a1,46,Ärztin,,,,,no
+cs-005032,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:47,,a1,47,atmen,,,,,no
+cs-005033,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:48,,a1,48,auch,,,,,no
+cs-005034,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:49,,a1,49,auf,,,,,no
+cs-005035,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:51,,a1,51,aufpassen,,,,,no
+cs-005036,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:52,,a1,52,aufstehen,,,,,no
+cs-005037,NEG_NEAR,NEG_NEAR common_prefix:eisen,cs-000080,cs-001377,b2,598,Eisenbeton,b2,600,Eisengießerei,Slévárna litiny,no
+cs-005038,NEG_NEAR,NEG_NEAR common_prefix:schmerz,cs-000081,cs-000389,c1,465,schmerzstillend,b2,1594,schmerzlich,Smutný,no
+cs-005039,NEG_NEAR,NEG_NEAR shared_prefix:mit,cs-000082,cs-000004,b2,1331,mittels,b1,1883,mitführen,Mít s sebou,no
+cs-005040,NEG_NEAR,NEG_NEAR shared_prefix:ein,cs-000084,cs-000324,c2,108,Einfuhrbeschränkung,b1,722,Einzelkind,Jediné dítě v rodině,no
+cs-005041,NEG_NEAR,NEG_NEAR common_prefix:blumen,cs-000088,cs-000829,b2,272,Blumenkranz,a2,267,Blumenstrauß,Kytice květin,no
+cs-005042,NEG_EASY,NEG_EASY same_pos_not_near,cs-000091,cs-000902,b2,37,Abendblatt,b2,227,Beute,Trofej,no
+cs-005043,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:64,,a1,64,Bad,,,,,no
+cs-005044,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:69,,a1,69,bald,,,,,no
+cs-005045,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:70,,a1,70,Balkon,,,,,no
+cs-005046,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:71,,a1,71,Ball,,,,,no
+cs-005047,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:72,,a1,72,Banane,,,,,no
+cs-005048,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:73,,a1,73,Bauch,,,,,no
+cs-005049,NEG_NEAR,NEG_NEAR shared_prefix:an,cs-000104,cs-000618,a2,67,anstrengend,b2,28,angeblich,Údajně,no
+cs-005050,NEG_NEAR,NEG_NEAR shared_stem:fällig,cs-000106,cs-000394,b2,886,gefällig,b2,41,abfällig,Pohrdavý,no
+cs-005051,NEG_NEAR,NEG_NEAR common_prefix:sich a,cs-000107,cs-000310,b2,77,sich abwenden,a2,1287,sich auf den Weg machen,Vydat se na cestu,no
+cs-005052,NEG_NEAR,NEG_NEAR shared_prefix:ent,cs-000110,cs-001068,b2,643,Entspannung,c1,303,Entziehungskur,Léčebný kurz pro alkoholiky nebo drogově závislé,no
+cs-005053,NEG_NEAR,NEG_NEAR common_prefix:schne,cs-000112,cs-002369,c1,140,Schneewittchen,b1,2496,Schneide,Čepel,no
+cs-005054,NEG_EASY,NEG_EASY same_pos_not_near,cs-000117,cs-001582,a2,362,dumm,a2,54,anlässlich,U příležitosti,no
+cs-005055,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:84,,a1,84,Berg,,,,,no
+cs-005056,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:85,,a1,85,besser,,,,,no
+cs-005057,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:86,,a1,86,beste,,,,,no
+cs-005058,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:87,,a1,87,Besuch,,,,,no
+cs-005059,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:88,,a1,88,Besucher,,,,,no
+cs-005060,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:89,,a1,89,besuchen,,,,,no
+cs-005061,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000129,cs-000154,b1,370,Berühmtheit,b1,355,Bereitschaft,Připravenost,no
+cs-005062,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000130,cs-003285,b1,2934,Trupp,b2,561,Einigkeit,Shoda,no
+cs-005063,NEG_NEAR,NEG_NEAR common_prefix:kartoffel,cs-000131,cs-003651,b1,1479,Kartoffelerntemaschine,a2,770,Kartoffelkloß,Bramborový knedlík,no
+cs-005064,NEG_NEAR,NEG_NEAR shared_prefix:ein,cs-000132,cs-000416,b2,531,einäschern,b1,684,einigen,Sjednotit,no
+cs-005065,NEG_NEAR,NEG_NEAR common_prefix:sich ,cs-000134,cs-000012,b1,1010,sich gedulden,b1,3086,sich verlassen,Spoléhat na,no
+cs-005066,NEG_EASY,NEG_EASY same_pos_not_near,cs-000146,cs-001363,b2,2107,Zwirn,b2,1524,Richtfest,Oslava dokončení krovu,no
+cs-005067,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:98,,a1,98,bitten,,,,,no
+cs-005068,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:99,,a1,99,Blatt,,,,,no
+cs-005069,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:100,,a1,100,blau,,,,,no
+cs-005070,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:101,,a1,101,bleiben,,,,,no
+cs-005071,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:102,,a1,102,Bleistift,,,,,no
+cs-005072,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:103,,a1,103,blond,,,,,no
+cs-005073,NEG_NEAR,NEG_NEAR common_prefix:sich ,cs-000155,cs-000012,b2,219,sich betätigen,b1,3086,sich verlassen,Spoléhat na,no
+cs-005074,NEG_NEAR,NEG_NEAR shared_prefix:ge,cs-000156,cs-000027,c1,356,Gesamtergebnis,b2,938,Gerede,Mluvení,no
+cs-005075,NEG_NEAR,NEG_NEAR shared_prefix:ver,cs-000157,cs-000119,c1,512,verheimlichen,b2,1931,verpfänden,Zastavit,no
+cs-005076,NEG_NEAR,NEG_NEAR shared_prefix:aus,cs-000158,cs-000025,b2,107,ausspannen,b2,113,austreiben,Odstavit,no
+cs-005077,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000159,cs-000101,b2,177,belästigen,a2,219,begrüßen,Pozdravit,no
+cs-005078,NEG_EASY,NEG_EASY same_pos_not_near,cs-000174,cs-000734,a2,14,Abstand,a2,908,Make-up,Make-up,no
+cs-005079,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:113,,a1,113,Brötchen,,,,,no
+cs-005080,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:114,,a1,114,Brücke,,,,,no
+cs-005081,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:115,,a1,115,Bruder,,,,,no
+cs-005082,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:116,,a1,116,Buch,,,,,no
+cs-005083,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:117,,a1,117,Buchstabe,,,,,no
+cs-005084,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:118,,a1,118,Büro,,,,,no
+cs-005085,NEG_NEAR,NEG_NEAR shared_prefix:aus,cs-000181,cs-000025,a2,161,aussuchen,b2,113,austreiben,Odstavit,no
+cs-005086,NEG_NEAR,NEG_NEAR shared_stem:vollziehen,cs-000182,cs-000669,c1,5,nachvollziehen,b2,1983,vollziehen,Provést,no
+cs-005087,NEG_NEAR,NEG_NEAR shared_stem:geben,cs-000185,cs-001310,b2,1118,hingeben,b2,2073,wiedergeben,Vrátit,no
+cs-005088,NEG_NEAR,NEG_NEAR shared_prefix:ge,cs-000186,cs-000027,b2,897,Geiselnahme,b2,938,Gerede,Mluvení,no
+cs-005089,NEG_NEAR,NEG_NEAR common_prefix:schwä,cs-000189,cs-001817,b1,2550,schwätzen,b2,1613,schwärmen,Nadchnout se,no
+cs-005090,NEG_EASY,NEG_EASY same_pos_not_near,cs-000200,cs-001837,b2,1011,Goldlegierung,b2,2006,Vorstand,Šéf,no
+cs-005091,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:127,,a1,127,danken,,,,,no
+cs-005092,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:128,,a1,128,dann,,,,,no
+cs-005093,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:130,,a1,130,dass,,,,,no
+cs-005094,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:131,,a1,131,Datum,,,,,no
+cs-005095,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:132,,a1,132,dein,,,,,no
+cs-005096,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:135,,a1,135,deutsch,,,,,no
+cs-005097,NEG_NEAR,NEG_NEAR shared_stem:brechen,cs-000206,cs-001823,b1,40,abbrechen,b1,664,einbrechen,Vtrhnout do,no
+cs-005098,NEG_NEAR,NEG_NEAR shared_stem:weder,cs-000207,cs-002129,a2,416,entweder,b1,3215,weder,Ani,no
+cs-005099,NEG_NEAR,NEG_NEAR shared_stem:lassen,cs-000208,cs-000490,b2,684,erlassen,b1,690,einlassen,Vpustit dovnitř,no
+cs-005100,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000209,cs-001038,b1,3219,wehen,b2,258,blähen,Nafouknout,no
+cs-005101,NEG_NEAR,NEG_NEAR common_prefix:eigen,cs-000211,cs-001596,b2,527,eigentümlich,b2,528,eigenwillig,Umíněný,no
+cs-005102,NEG_EASY,NEG_EASY same_pos_not_near,cs-000230,cs-002096,b2,209,Besinnung,b2,1446,Pflichtbesuch,Zdvořilostní návštěva,no
+cs-005103,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:146,,a1,146,dreißig,,,,,no
+cs-005104,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:147,,a1,147,dreizehn,,,,,no
+cs-005105,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:148,,a1,148,dritte,,,,,no
+cs-005106,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:149,,a1,149,du,,,,,no
+cs-005107,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:150,,a1,150,dürfen,,,,,no
+cs-005108,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:151,,a1,151,Dusche,,,,,no
+cs-005109,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000231,cs-001710,b2,1558,Schaffen,b1,1195,Handlung,Akce,no
+cs-005110,NEG_NEAR,NEG_NEAR shared_stem:gegnen,cs-000232,cs-000617,b1,287,begegnen,b2,627,entgegnen,Odpovědět,no
+cs-005111,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000234,cs-000028,b2,183,Belieben,b2,205,Beschützer,Obránce,no
+cs-005112,NEG_NEAR,NEG_NEAR shared_prefix:vor,cs-000235,cs-000322,b2,1997,vorfristig,b2,2009,vortrefflich,Vynikající,no
+cs-005113,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000236,cs-000101,c2,19,benachrichtigen,a2,219,begrüßen,Pozdravit,no
+cs-005114,NEG_EASY,NEG_EASY same_pos_not_near,cs-000254,cs-002354,b2,1876,Verdienst,b2,860,Gage,Honorář umělce,no
+cs-005115,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:164,,a1,164,Erde,,,,,no
+cs-005116,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:166,,a1,166,erste,,,,,no
+cs-005117,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:168,,a1,168,Esslöffel,,,,,no
+cs-005118,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:171,,a1,171,euer,,,,,no
+cs-005119,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:173,,a1,173,falsch,,,,,no
+cs-005120,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:174,,a1,174,Familie,,,,,no
+cs-005121,NEG_NEAR,NEG_NEAR shared_stem:klagen,cs-000253,cs-000357,c1,217,beklagen,a2,48,anklagen,Obvinit,no
+cs-005122,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000255,cs-000625,a2,838,kostenlos,a2,602,gratis,Zdarma,no
+cs-005123,NEG_NEAR,NEG_NEAR shared_stem:stellung,cs-000256,cs-001032,b1,2743,Stellung,b2,353,Darstellung,Obrys,no
+cs-005124,NEG_NEAR,NEG_NEAR common_prefix:schiff,cs-000257,cs-002746,b2,1579,Schiffbruch,b1,2431,Schifffahrt,Lodní doprava,no
+cs-005125,NEG_NEAR,NEG_NEAR common_prefix:sich ,cs-000258,cs-000012,a2,1305,sich unterhalten,b1,3086,sich verlassen,Spoléhat na,no
+cs-005126,NEG_EASY,NEG_EASY same_pos_not_near,cs-000280,cs-002682,b2,1293,Maskenbildner,b2,1132,Hitzkopf,Horká hlava,no
+cs-005127,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:182,,a1,182,Fernseher,,,,,no
+cs-005128,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:184,,a1,184,fett,,,,,no
+cs-005129,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:185,,a1,185,Film,,,,,no
+cs-005130,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:186,,a1,186,Filzstift,,,,,no
+cs-005131,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:188,,a1,188,Finger,,,,,no
+cs-005132,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:189,,a1,189,Fisch,,,,,no
+cs-005133,NEG_NEAR,NEG_NEAR common_prefix:steuer,cs-000278,cs-000410,b2,1703,Steuersenkung,b2,1701,Steuergelder,"Všechny peníze, které vláda dostává na daních",no
+cs-005134,NEG_NEAR,NEG_NEAR shared_prefix:ent,cs-000279,cs-000074,b2,632,entkräften,b2,650,entwurzeln,Vymýtit,no
+cs-005135,NEG_NEAR,NEG_NEAR common_prefix:klein,cs-000281,cs-000729,a2,813,Kleingarten,b1,1527,Kleinauto,Malé auto,no
+cs-005136,NEG_NEAR,NEG_NEAR shared_prefix:ver,cs-000283,cs-000124,b2,1920,verkünden,b1,3060,verdoppeln,Zdvojnásobit,no
+cs-005137,NEG_NEAR,NEG_NEAR shared_stem:lass,cs-000284,cs-000528,a2,53,Anlass,b2,683,Erlass,Nařízení,no
+cs-005138,NEG_EASY,NEG_EASY same_pos_not_near,cs-000305,cs-001568,c1,84,Hochzeitsbrauch,c1,546,Wasserheilanstalt,Vodoléčebné zařízení,no
+cs-005139,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:197,,a1,197,fragen,,,,,no
+cs-005140,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:199,,a1,199,frei,,,,,no
+cs-005141,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:200,,a1,200,Freitag,,,,,no
+cs-005142,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:201,,a1,201,Freund,,,,,no
+cs-005143,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:202,,a1,202,Freundin,,,,,no
+cs-005144,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:204,,a1,204,frisch,,,,,no
+cs-005145,NEG_NEAR,NEG_NEAR shared_prefix:ver,cs-000300,cs-000254,c1,261,Verkehrsdelikt,b2,1876,Verdienst,Zásluhy,no
+cs-005146,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000301,cs-000680,b2,817,formell,b2,1693,starr,Otupělý,no
+cs-005147,NEG_NEAR,NEG_NEAR common_prefix:sich ,cs-000303,cs-000012,b2,678,sich erheben,b1,3086,sich verlassen,Spoléhat na,no
+cs-005148,NEG_NEAR,NEG_NEAR shared_prefix:ab,cs-000308,cs-000228,b2,46,abgetan,b2,41,abfällig,Znevažující,no
+cs-005149,NEG_NEAR,NEG_NEAR common_prefix:schli,cs-000309,cs-002381,b1,2465,Schließfach,c2,59,Schlittschuhkufe,Nůž brusle,no
+cs-005150,NEG_EASY,NEG_EASY same_pos_not_near,cs-000330,cs-003112,b2,255,Prüfer,b2,1827,Unfug,Nesmysl,no
+cs-005151,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:214,,a1,214,fünfzig,,,,,no
+cs-005152,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:217,,a1,217,Fuß,,,,,no
+cs-005153,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:218,,a1,218,Fußball,,,,,no
+cs-005154,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:219,,a1,219,ganz,,,,,no
+cs-005155,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:220,,a1,220,Garage,,,,,no
+cs-005156,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:221,,a1,221,Garten,,,,,no
+cs-005157,NEG_NEAR,NEG_NEAR shared_prefix:ein,cs-000324,cs-000084,b1,722,Einzelkind,c2,108,Einfuhrbeschränkung,Omezení dovozu,no
+cs-005158,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000325,cs-000101,b2,217,bestreiten,a2,219,begrüßen,Pozdravit,no
+cs-005159,NEG_NEAR,NEG_NEAR shared_stem:ständig,cs-000326,cs-003321,b2,1944,verständig,b2,212,beständig,Neměnný,no
+cs-005160,NEG_NEAR,NEG_NEAR common_prefix:kolle,cs-000331,cs-003318,b1,1562,Kollegbuch,b1,1563,Kollektion,Sbírka,no
+cs-005161,NEG_NEAR,NEG_NEAR shared_stem:nehmen,cs-000332,cs-000495,b2,2000,vornehmen,b1,67,abnehmen,Odstranit,no
+cs-005162,NEG_EASY,NEG_EASY same_pos_not_near,cs-000356,cs-001807,b1,357,Bergführer,b1,2686,Spielplan,Divadelní repertoár,no
+cs-005163,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:230,,a1,230,genug,,,,,no
+cs-005164,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:235,,a1,235,Gesicht,,,,,no
+cs-005165,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:236,,a1,236,gestern,,,,,no
+cs-005166,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:237,,a1,237,gesund,,,,,no
+cs-005167,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:238,,a1,238,Gesundheit,,,,,no
+cs-005168,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:239,,a1,239,Getränk,,,,,no
+cs-005169,NEG_NEAR,NEG_NEAR common_prefix:funks,cs-000346,cs-000500,b2,850,Funkspruch,b2,851,Funkstation,Vysílací stanice,no
+cs-005170,NEG_NEAR,NEG_NEAR shared_stem:sicht,cs-000348,cs-000411,b2,1355,Nachsicht,b1,209,Aussicht,Šance,no
+cs-005171,NEG_NEAR,NEG_NEAR common_prefix:sich ver,cs-000350,cs-000012,b2,1968,sich verzögern,b1,3086,sich verlassen,Spoléhat na,no
+cs-005172,NEG_NEAR,NEG_NEAR shared_stem:achten,cs-000351,cs-000910,b2,1323,missachten,a2,210,beachten,Brát v úvahu,no
+cs-005173,NEG_NEAR,NEG_NEAR shared_stem:zeichnung,cs-000354,cs-001314,b2,121,Auszeichnung,b1,432,Bezeichnung,Jméno,no
+cs-005174,NEG_EASY,NEG_EASY same_pos_not_near,cs-000383,cs-001663,b2,1811,unbebaut,b2,636,entlegen,Odloučený,no
+cs-005175,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:249,,a1,249,grau,,,,,no
+cs-005176,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:250,,a1,250,groß,,,,,no
+cs-005177,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:252,,a1,252,Großmutter,,,,,no
+cs-005178,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:253,,a1,253,Großvater,,,,,no
+cs-005179,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:254,,a1,254,grün,,,,,no
+cs-005180,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:255,,a1,255,Gruppe,,,,,no
+cs-005181,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000371,cs-000101,b2,192,bergen,a2,219,begrüßen,Pozdravit,no
+cs-005182,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000372,cs-001571,b2,1482,quellen,b2,645,entweichen,Vzdálit se,no
+cs-005183,NEG_NEAR,NEG_NEAR shared_prefix:er,cs-000376,cs-000036,b2,687,erleiden,b2,710,ersparen,Naspořit,no
+cs-005184,NEG_NEAR,NEG_NEAR shared_prefix:ein,cs-000378,cs-000084,b2,551,Eingemachte,c2,108,Einfuhrbeschränkung,Omezení dovozu,no
+cs-005185,NEG_NEAR,NEG_NEAR shared_stem:fallen,cs-000379,cs-000607,b2,148,befallen,b2,622,entfallen,Odpadnout,no
+cs-005186,NEG_EASY,NEG_EASY same_pos_not_near,cs-000409,cs-000978,b1,1684,kurzfristig,b1,3293,zugleich,Ve stejnou dobu,no
+cs-005187,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:264,,a1,264,Hals,,,,,no
+cs-005188,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:266,,a1,266,Haltestelle,,,,,no
+cs-005189,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:267,,a1,267,Hand,,,,,no
+cs-005190,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:269,,a1,269,Handtasche,,,,,no
+cs-005191,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:270,,a1,270,Handtuch,,,,,no
+cs-005192,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:271,,a1,271,Handy,,,,,no
+cs-005193,NEG_NEAR,NEG_NEAR common_prefix:sich ,cs-000395,cs-000012,b2,656,sich entzünden,b1,3086,sich verlassen,Spoléhat na,no
+cs-005194,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000396,cs-001335,b2,529,Eilbote,b2,290,Bote,Vyslanec,no
+cs-005195,NEG_NEAR,NEG_NEAR common_prefix:boots,cs-000398,cs-000222,b1,480,Bootspartie,b1,481,Bootsverleih,Půjčovna lodí,no
+cs-005196,NEG_NEAR,NEG_NEAR shared_stem:kommen,cs-000400,cs-000212,a1,28,ankommen,a2,125,aufkommen,Vzniknout,no
+cs-005197,NEG_NEAR,NEG_NEAR shared_prefix:ge,cs-000401,cs-000027,c1,366,Gesichtskreis,b2,938,Gerede,Mluvení,no
+cs-005198,NEG_EASY,NEG_EASY same_pos_not_near,cs-000438,cs-002187,b2,1096,herantreten,b2,651,entziehen,Uniknout,no
+cs-005199,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:280,,a1,280,Herr,,,,,no
+cs-005200,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:281,,a1,281,heute,,,,,no
+cs-005201,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:282,,a1,282,hier,,,,,no
+cs-005202,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:283,,a1,283,Hilfe,,,,,no
+cs-005203,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:284,,a1,284,hinter,,,,,no
+cs-005204,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:285,,a1,285,hoch,,,,,no
+cs-005205,NEG_NEAR,NEG_NEAR compound:trotz,cs-000419,cs-000397,b1,3366,trotz,b1,3339,trotzdem,Stejně,no
+cs-005206,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000420,cs-000057,b2,831,freilich,a1,433,natürlich,Samozřejmě,no
+cs-005207,NEG_NEAR,NEG_NEAR common_prefix:ehren,cs-000421,cs-001433,b2,513,Ehrenwache,b2,509,Ehrenpflicht,Čestná povinnost,no
+cs-005208,NEG_NEAR,NEG_NEAR shared_prefix:er,cs-000422,cs-000036,b2,677,erheben,b2,710,ersparen,Naspořit,no
+cs-005209,NEG_NEAR,NEG_NEAR shared_prefix:miss,cs-000424,cs-000351,b2,1327,missglücken,b2,1323,missachten,Ignorovat,no
+cs-005210,NEG_EASY,NEG_EASY same_pos_not_near,cs-000466,cs-002939,b2,881,gedenken,b2,591,einwandfrei,Dokonalý,no
+cs-005211,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:301,,a1,301,jemand,,,,,no
+cs-005212,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:303,,a1,303,Juli,,,,,no
+cs-005213,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:305,,a1,305,Juni,,,,,no
+cs-005214,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:307,,a1,307,kaufen,,,,,no
+cs-005215,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:309,,a1,309,Keks,,,,,no
+cs-005216,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:310,,a1,310,kennen,,,,,no
+cs-005217,NEG_NEAR,NEG_NEAR shared_prefix:ge,cs-000448,cs-000005,c1,337,geistesschwach,c1,369,gewissermaßen,Do jisté míry,no
+cs-005218,NEG_NEAR,NEG_NEAR shared_prefix:auf,cs-000450,cs-000516,c2,79,Aufenthaltsgenehmigung,b1,3318,Aufklärung,Vyjasnění,no
+cs-005219,NEG_NEAR,NEG_NEAR shared_prefix:ver,cs-000451,cs-000254,c1,511,Verhandlungen,b2,1876,Verdienst,Zásluhy,no
+cs-005220,NEG_NEAR,NEG_NEAR shared_prefix:unter,cs-000452,cs-000544,b2,1845,unterordnen,b2,1835,unterbreiten,Vysvětlit,no
+cs-005221,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000453,cs-003780,b2,1542,sachkundig,b2,747,fachmännisch,Dovedný,no
+cs-005222,NEG_EASY,NEG_EASY same_pos_not_near,cs-000492,cs-003739,c1,193,Straßenkreuzung,c1,229,Beschaffenheit,Kvalita,no
+cs-005223,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:318,,a1,318,kommen,,,,,no
+cs-005224,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:321,,a1,321,küssen,,,,,no
+cs-005225,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:322,,a1,322,lächeln,,,,,no
+cs-005226,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:323,,a1,323,lachen,,,,,no
+cs-005227,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:324,,a1,324,Honig,,,,,no
+cs-005228,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:325,,a1,325,Hose,,,,,no
+cs-005229,NEG_NEAR,NEG_NEAR common_prefix:sich ,cs-000472,cs-000012,b1,453,sich blamieren,b1,3086,sich verlassen,Spoléhat na,no
+cs-005230,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000473,cs-003523,a1,94,Bitte,b2,967,Gesuch,Podání,no
+cs-005231,NEG_NEAR,NEG_NEAR shared_prefix:vor,cs-000474,cs-000055,b1,3161,vorletzt,b2,1997,vorfristig,Předčasný,no
+cs-005232,NEG_NEAR,NEG_NEAR shared_prefix:an,cs-000475,cs-000063,c2,8,Anfangsbuchstabe,b1,128,Anprobe,Zkoušení,no
+cs-005233,NEG_NEAR,NEG_NEAR shared_stem:lage,cs-000479,cs-003445,b2,1843,Unterlage,c1,282,Einlage,Příloha dopisu,no
+cs-005234,NEG_EASY,NEG_EASY same_pos_not_near,cs-000520,cs-001643,b1,7,sich erinnern,b1,711,einstecken,Strčit,no
+cs-005235,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:333,,a1,333,Karotte,,,,,no
+cs-005236,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:334,,a1,334,Kartoffel,,,,,no
+cs-005237,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:335,,a1,335,Käse,,,,,no
+cs-005238,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:336,,a1,336,Katze,,,,,no
+cs-005239,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:337,,a1,337,Kleid,,,,,no
+cs-005240,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:338,,a1,338,Kleidung,,,,,no
+cs-005241,NEG_NEAR,NEG_NEAR shared_prefix:durch,cs-000498,cs-000338,c1,55,durchschnittlich,b2,477,durchgreifend,Radikální,no
+cs-005242,NEG_NEAR,NEG_NEAR common_prefix:funks,cs-000500,cs-000346,b2,851,Funkstation,b2,850,Funkspruch,Rádiová zpráva,no
+cs-005243,NEG_NEAR,NEG_NEAR shared_stem:tracht,cs-000503,cs-001086,b2,222,Betracht,b2,587,Eintracht,Soulad,no
+cs-005244,NEG_NEAR,NEG_NEAR shared_stem:reissen,cs-000504,cs-002945,b1,2276,reißen,b2,1120,hinreißen,Odnést,no
+cs-005245,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000505,cs-000101,b2,199,besänftigen,a2,219,begrüßen,Pozdravit,no
+cs-005246,NEG_EASY,NEG_EASY same_pos_not_near,cs-000548,cs-000658,b2,1010,Goldbarren,b2,496,Echse,Ještěrka,no
+cs-005247,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:347,,a1,347,Kühlschrank,,,,,no
+cs-005248,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:348,,a1,348,Kuss,,,,,no
+cs-005249,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:349,,a1,349,Laden,,,,,no
+cs-005250,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:353,,a1,353,lange,,,,,no
+cs-005251,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:354,,a1,354,langsam,,,,,no
+cs-005252,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:355,,a1,355,langweilig,,,,,no
+cs-005253,NEG_NEAR,NEG_NEAR common_prefix:güter,cs-000523,cs-000694,c1,375,Gütertransport,c1,204,Güteraustausch,Výměna zboží,no
+cs-005254,NEG_NEAR,NEG_NEAR compound:plast,cs-000525,cs-002960,b1,2121,Plast,a2,1091,Plastikbecher,Plastový kelímek,no
+cs-005255,NEG_NEAR,NEG_NEAR compound:kosten,cs-000526,cs-003475,c1,99,Kostenanschlag,b1,1712,Kosten,Náklady,no
+cs-005256,NEG_NEAR,NEG_NEAR shared_stem:lass,cs-000528,cs-000284,b2,683,Erlass,a2,53,Anlass,Důvod,no
+cs-005257,NEG_NEAR,NEG_NEAR common_prefix:schwi,cs-000530,cs-002298,a1,66,Schwimmbad,b1,2561,Schwierigkeit,Potíže,no
+cs-005258,NEG_EASY,NEG_EASY same_pos_not_near,cs-000575,cs-000963,b2,2015,vorzeitig,b2,1841,unterirdisch,Podzemí-,no
+cs-005259,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:365,,a1,365,Lehrerin,,,,,no
+cs-005260,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:366,,a1,366,leicht,,,,,no
+cs-005261,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:367,,a1,367,leider,,,,,no
+cs-005262,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:369,,a1,369,lesen,,,,,no
+cs-005263,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:370,,a1,370,letzte,,,,,no
+cs-005264,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:372,,a1,372,Licht,,,,,no
+cs-005265,NEG_NEAR,NEG_NEAR common_prefix:sich ,cs-000549,cs-000012,b1,2970,sich umdrehen,b1,3086,sich verlassen,Spoléhat na,no
+cs-005266,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000550,cs-000028,b1,400,Besuchszeit,b2,205,Beschützer,Obránce,no
+cs-005267,NEG_NEAR,NEG_NEAR shared_stem:kommen,cs-000551,cs-001278,c1,390,herunterkommen,b2,1097,heraufkommen,Vyjít nahoru,no
+cs-005268,NEG_NEAR,NEG_NEAR common_prefix:sich ,cs-000552,cs-000017,c1,284,sich einschmeicheln,b1,347,sich beraten,Poradit se,no
+cs-005269,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000554,cs-000101,c1,47,beurteilen,a2,219,begrüßen,Pozdravit,no
+cs-005270,NEG_EASY,NEG_EASY same_pos_not_near,cs-000602,cs-003196,a2,966,Mühe,a2,1470,Treffpunkt,Místo setkání,no
+cs-005271,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:383,,a1,383,Löffel,,,,,no
+cs-005272,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:384,,a1,384,Luft,,,,,no
+cs-005273,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:387,,a1,387,Mädchen,,,,,no
+cs-005274,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:388,,a1,388,Mahlzeit,,,,,no
+cs-005275,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:389,,a1,389,Mai,,,,,no
+cs-005276,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:392,,a1,392,manchmal,,,,,no
+cs-005277,NEG_NEAR,NEG_NEAR common_prefix:konse,cs-000572,cs-000757,b1,1584,Konserve,b2,1192,Konsequenz,Závěr,no
+cs-005278,NEG_NEAR,NEG_NEAR shared_stem:lassen,cs-000573,cs-001079,b1,633,durchlassen,b2,1770,überlassen,Dovolit vybrat,no
+cs-005279,NEG_NEAR,NEG_NEAR shared_prefix:ge,cs-000576,cs-000005,c1,363,gesetzlos,c1,369,gewissermaßen,Do jisté míry,no
+cs-005280,NEG_NEAR,NEG_NEAR shared_prefix:er,cs-000577,cs-000036,b2,680,erkämpfen,b2,710,ersparen,Naspořit,no
+cs-005281,NEG_NEAR,NEG_NEAR shared_stem:heben,cs-000578,cs-000422,a2,118,aufheben,b2,677,erheben,Zvedat,no
+cs-005282,NEG_EASY,NEG_EASY same_pos_not_near,cs-000630,cs-001246,b2,1223,lauschen,b2,1536,rühmen,Chválit,no
+cs-005283,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:403,,a1,403,Messer,,,,,no
+cs-005284,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:404,,a1,404,Meter,,,,,no
+cs-005285,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:405,,a1,405,Milch,,,,,no
+cs-005286,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:406,,a1,406,Million,,,,,no
+cs-005287,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:407,,a1,407,Minute,,,,,no
+cs-005288,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:408,,a1,408,mit,,,,,no
+cs-005289,NEG_NEAR,NEG_NEAR common_prefix:hafen,cs-000597,cs-002456,b2,1055,Hafenbecken,b2,1056,Hafengebühr,Přístavní povinnost,no
+cs-005290,NEG_NEAR,NEG_NEAR shared_prefix:ver,cs-000600,cs-000254,b2,1906,Vermächtnis,b2,1876,Verdienst,Zásluhy,no
+cs-005291,NEG_NEAR,NEG_NEAR common_prefix:opern,cs-000601,cs-000837,b1,2032,Opernglas,b1,2033,Opernhaus,Operní dům,no
+cs-005292,NEG_NEAR,NEG_NEAR shared_stem:schlagen,cs-000603,cs-000796,b2,484,durchschlagen,b2,59,abschlagen,Odmítnout,no
+cs-005293,NEG_NEAR,NEG_NEAR common_prefix:fallschirm,cs-000604,cs-000744,c2,119,Fallschirmspringen,b2,756,Fallschirmturm,Parašutistická věž,no
+cs-005294,NEG_EASY,NEG_EASY same_pos_not_near,cs-000659,cs-001702,b2,1694,starren,b2,473,durchdringen,Být prostoupen,no
+cs-005295,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:417,,a1,417,morgen,,,,,no
+cs-005296,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:418,,a1,418,Morgen,,,,,no
+cs-005297,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:420,,a1,420,müde,,,,,no
+cs-005298,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:421,,a1,421,Mund,,,,,no
+cs-005299,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:422,,a1,422,Musik,,,,,no
+cs-005300,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:423,,a1,423,müssen,,,,,no
+cs-005301,NEG_NEAR,NEG_NEAR common_prefix:polizei,cs-000622,cs-002723,c1,122,Polizeistreife,c1,121,Polizeieinheit,Policejní jednotka,no
+cs-005302,NEG_NEAR,NEG_NEAR shared_stem:gesehen,cs-000623,cs-000719,a2,38,angesehen,b2,44,abgesehen,Navíc,no
+cs-005303,NEG_NEAR,NEG_NEAR shared_prefix:durch,cs-000624,cs-000010,c2,105,Durchschnittsverdienst,c2,107,Durchschnittsmensch,Průměrný člověk,no
+cs-005304,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000625,cs-001761,a2,602,gratis,b2,1824,unentgeltlich,Bez náhrady,no
+cs-005305,NEG_NEAR,NEG_NEAR common_prefix:segelfl,cs-000626,cs-001085,b2,1626,Segelflieger,c1,468,Segelflugsport,Plachtařství,no
+cs-005306,NEG_EASY,NEG_EASY same_pos_not_near,cs-000686,cs-003165,b1,2178,Prüfzeit,b1,548,College,Vysoká škola,no
+cs-005307,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:431,,a1,431,nass,,,,,no
+cs-005308,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:432,,a1,432,Natur,,,,,no
+cs-005309,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:434,,a1,434,neben,,,,,no
+cs-005310,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:437,,a1,437,nennen,,,,,no
+cs-005311,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:438,,a1,438,nett,,,,,no
+cs-005312,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:440,,a1,440,neun,,,,,no
+cs-005313,NEG_NEAR,NEG_NEAR compound:hürde,cs-000651,cs-003670,b1,1330,Hürde,b1,1331,Hürdenlauf,Překážkový závod,no
+cs-005314,NEG_NEAR,NEG_NEAR shared_prefix:über,cs-000653,cs-000238,b2,1773,übermitteln,b2,1780,übertragen,Vysílat rozhlasem,no
+cs-005315,NEG_NEAR,NEG_NEAR common_prefix:pendel,cs-000655,cs-003841,b1,2077,Pendelbus,b1,2078,Pendelzug,Kyvadlový vlak,no
+cs-005316,NEG_NEAR,NEG_NEAR shared_prefix:ver,cs-000656,cs-000254,b2,1884,Verfahren,b2,1876,Verdienst,Zásluhy,no
+cs-005317,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000661,cs-002053,b2,464,dunkeln,b2,341,dämmern,Rozednívat se,no
+cs-005318,NEG_EASY,NEG_EASY same_pos_not_near,cs-000714,cs-002530,b2,1934,versagen,b2,651,entziehen,Odtrhnout,no
+cs-005319,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:451,,a1,451,noch,,,,,no
+cs-005320,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:452,,a1,452,normal,,,,,no
+cs-005321,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:453,,a1,453,November,,,,,no
+cs-005322,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:454,,a1,454,Null,,,,,no
+cs-005323,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:455,,a1,455,Nummer,,,,,no
+cs-005324,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:458,,a1,458,oben,,,,,no
+cs-005325,NEG_NEAR,NEG_NEAR common_prefix:computer,cs-000676,cs-001653,c2,96,Computerwissenschaft,c1,251,Computersprache,Počítačový jazyk,no
+cs-005326,NEG_NEAR,NEG_NEAR shared_prefix:um,cs-000678,cs-000029,b2,1795,Umlaufbahn,b2,1800,Umschwung,Náhlá změna,no
+cs-005327,NEG_NEAR,NEG_NEAR shared_prefix:aus,cs-000679,cs-000025,b2,110,ausstopfen,b2,113,austreiben,Odstavit,no
+cs-005328,NEG_NEAR,NEG_NEAR compound:starr,cs-000680,cs-000443,b2,1693,starr,b2,1696,starrsinnig,Tvrdohlavý,no
+cs-005329,NEG_NEAR,NEG_NEAR shared_stem:rechnen,cs-000681,cs-001199,b2,1932,verrechnen,b2,572,einrechnen,Zahrnout,no
+cs-005330,NEG_EASY,NEG_EASY same_pos_not_near,cs-000740,cs-003559,b2,1200,korrupt,b2,611,empor,Nahoru,no
+cs-005331,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:468,,a1,468,Paar,,,,,no
+cs-005332,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:469,,a1,469,Papier,,,,,no
+cs-005333,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:470,,a1,470,Park,,,,,no
+cs-005334,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:472,,a1,472,Pause,,,,,no
+cs-005335,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:473,,a1,473,Person,,,,,no
+cs-005336,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:474,,a1,474,Pferd,,,,,no
+cs-005337,NEG_NEAR,NEG_NEAR shared_stem:tragen,cs-000701,cs-000095,b2,1780,übertragen,b2,71,abtragen,Obrousit,no
+cs-005338,NEG_NEAR,NEG_NEAR common_prefix:lebens,cs-000704,cs-002076,c2,170,Lebenserhaltungstrieb,c1,414,Lebensgefährte,Životní partner,no
+cs-005339,NEG_NEAR,NEG_NEAR shared_stem:bildung,cs-000705,cs-002997,b2,534,Einbildung,b2,1992,Vorbildung,Příprava,no
+cs-005340,NEG_NEAR,NEG_NEAR shared_prefix:nach,cs-000709,cs-000311,b2,1350,nachdrücklich,b1,1941,nachdem,Po kdy,no
+cs-005341,NEG_NEAR,NEG_NEAR shared_prefix:er,cs-000711,cs-000343,c1,307,Ersatzspieler,a1,163,Erbse,Hrášek,no
+cs-005342,NEG_EASY,NEG_EASY same_pos_not_near,cs-000767,cs-001803,b1,3109,versorgen,b1,801,erlernen,Naučit se,no
+cs-005343,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:484,,a1,484,Programm,,,,,no
+cs-005344,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:485,,a1,485,Pullover,,,,,no
+cs-005345,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:486,,a1,486,Punkt,,,,,no
+cs-005346,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:487,,a1,487,putzen,,,,,no
+cs-005347,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:490,,a1,490,rauchen,,,,,no
+cs-005348,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:492,,a1,492,reden,,,,,no
+cs-005349,NEG_NEAR,NEG_NEAR shared_prefix:er,cs-000724,cs-000036,b1,832,erwidern,b2,710,ersparen,Naspořit,no
+cs-005350,NEG_NEAR,NEG_NEAR shared_stem:reich,cs-000725,cs-000968,b1,353,Bereich,b2,1515,Reich,Stát,no
+cs-005351,NEG_NEAR,NEG_NEAR shared_prefix:an,cs-000726,cs-000357,a2,45,anheizen,a2,48,anklagen,Obvinit,no
+cs-005352,NEG_NEAR,NEG_NEAR common_prefix:kaffee,cs-000727,cs-001053,a2,744,Kaffeebohne,a2,748,Kaffeepulver,Mletá káva,no
+cs-005353,NEG_NEAR,NEG_NEAR common_prefix:klein,cs-000729,cs-000281,b1,1527,Kleinauto,a2,813,Kleingarten,Zahrádka,no
+cs-005354,NEG_EASY,NEG_EASY same_pos_not_near,cs-000792,cs-002940,b2,783,Festigkeit,b2,1657,Sonderfall,Výjimečný případ,no
+cs-005355,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:500,,a1,500,rufen,,,,,no
+cs-005356,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:501,,a1,501,rund,,,,,no
+cs-005357,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:502,,a1,502,Rose,,,,,no
+cs-005358,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:503,,a1,503,Sache,,,,,no
+cs-005359,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:504,,a1,504,Saft,,,,,no
+cs-005360,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:505,,a1,505,sagen,,,,,no
+cs-005361,NEG_NEAR,NEG_NEAR shared_stem:stellen,cs-000748,cs-000190,b1,712,einstellen,b1,563,darstellen,Reprezentovat,no
+cs-005362,NEG_NEAR,NEG_NEAR common_prefix:presse,cs-000749,cs-000893,c1,444,Pressevertreter,b2,1472,Pressesprecher,Tiskový tajemník,no
+cs-005363,NEG_NEAR,NEG_NEAR common_prefix:liebes,cs-000752,cs-003290,c1,418,Liebesbeziehung,b2,1246,Liebesaffäre,Intimní spojení,no
+cs-005364,NEG_NEAR,NEG_NEAR common_prefix:fussball,cs-000755,cs-000861,a2,544,Fußballfeld,c2,124,Fußballweltmeisterschaft,Mistrovství světa ve fotbale,no
+cs-005365,NEG_NEAR,NEG_NEAR common_prefix:konse,cs-000757,cs-000572,b2,1192,Konsequenz,b1,1584,Konserve,Konzervované jídlo,no
+cs-005366,NEG_EASY,NEG_EASY same_pos_not_near,cs-000817,cs-000657,b1,549,Cup,b1,623,Duo,Duet,no
+cs-005367,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:513,,a1,513,schlecht,,,,,no
+cs-005368,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:514,,a1,514,Schlüssel,,,,,no
+cs-005369,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:515,,a1,515,schmecken,,,,,no
+cs-005370,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:516,,a1,516,schmutzig,,,,,no
+cs-005371,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:517,,a1,517,Schnee,,,,,no
+cs-005372,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:518,,a1,518,schneien,,,,,no
+cs-005373,NEG_NEAR,NEG_NEAR common_prefix:güter,cs-000773,cs-000523,b1,235,Güterbahnhof,c1,375,Gütertransport,Přeprava zboží,no
+cs-005374,NEG_NEAR,NEG_NEAR common_prefix:bluts,cs-000779,cs-004284,c1,248,Blutsverwandte,b2,279,Blutsturz,Náhlé krvácení z úst nebo nosu,no
+cs-005375,NEG_NEAR,NEG_NEAR shared_stem:grenzen,cs-000780,cs-001709,b1,1141,grenzen,b2,47,abgrenzen,Distancovat se,no
+cs-005376,NEG_NEAR,NEG_NEAR shared_prefix:ein,cs-000781,cs-000084,b2,545,Einfuhrsperre,c2,108,Einfuhrbeschränkung,Omezení dovozu,no
+cs-005377,NEG_NEAR,NEG_NEAR shared_stem:bildung,cs-000782,cs-002997,b2,534,Einbildung,b2,1992,Vorbildung,Příprava,no
+cs-005378,NEG_EASY,NEG_EASY same_pos_not_near,cs-000845,cs-002076,c1,338,Geländefahrt,c1,414,Lebensgefährte,Životní partner,no
+cs-005379,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:527,,a1,527,Schüler,,,,,no
+cs-005380,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:528,,a1,528,schwarz,,,,,no
+cs-005381,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:529,,a1,529,Schwein,,,,,no
+cs-005382,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:530,,a1,530,Schwester,,,,,no
+cs-005383,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:531,,a1,531,schwimmen,,,,,no
+cs-005384,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:532,,a1,532,sechs,,,,,no
+cs-005385,NEG_NEAR,NEG_NEAR shared_stem:schlagen,cs-000796,cs-000603,b2,59,abschlagen,b2,484,durchschlagen,Přecedit,no
+cs-005386,NEG_NEAR,NEG_NEAR shared_prefix:zu,cs-000797,cs-000329,b2,2084,zuerkennen,b2,2102,zuwider,Být proti mysli,no
+cs-005387,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000799,cs-000127,b2,1054,habsüchtig,b2,986,raffgierig,Chamtivý,no
+cs-005388,NEG_NEAR,NEG_NEAR shared_prefix:ver,cs-000801,cs-000326,c1,500,verabschieden,b2,1944,verständig,Rozvážný,no
+cs-005389,NEG_NEAR,NEG_NEAR shared_prefix:an,cs-000802,cs-000104,b2,32,angehoben,a2,67,anstrengend,Náročný,no
+cs-005390,NEG_EASY,NEG_EASY same_pos_not_near,cs-000870,cs-000422,b2,382,deuten,b2,677,erheben,Zvedat,no
+cs-005391,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:542,,a1,542,sein,,,,,no
+cs-005392,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:543,,a1,543,seit,,,,,no
+cs-005393,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:545,,a1,545,Sekunde,,,,,no
+cs-005394,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:546,,a1,546,September,,,,,no
+cs-005395,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:550,,a1,550,Sie,,,,,no
+cs-005396,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:551,,a1,551,siebenhundert,,,,,no
+cs-005397,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000822,cs-000060,c1,216,beispielhaft,b2,207,besessen,Uchvácený,no
+cs-005398,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000823,cs-002260,b1,1169,Haarbüschel,b1,2782,Strähne,Pramen vlasů,no
+cs-005399,NEG_NEAR,NEG_NEAR common_prefix:schwinde,cs-000824,cs-000058,b1,2564,schwindeln,b2,1623,schwinden,Slábnout,no
+cs-005400,NEG_NEAR,NEG_NEAR shared_prefix:ver,cs-000826,cs-000119,b2,1883,vererben,b2,1931,verpfänden,Zastavit,no
+cs-005401,NEG_NEAR,NEG_NEAR shared_prefix:nach,cs-000827,cs-000311,b2,1357,nachträglich,b1,1941,nachdem,Po kdy,no
+cs-005402,NEG_EASY,NEG_EASY same_pos_not_near,cs-000895,cs-003146,a2,1601,ziemlich,a2,985,nächst,Další,no
+cs-005403,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:561,,a1,561,Sofa,,,,,no
+cs-005404,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:562,,a1,562,sofort,,,,,no
+cs-005405,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:563,,a1,563,Sohn,,,,,no
+cs-005406,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:565,,a1,565,Sommer,,,,,no
+cs-005407,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:566,,a1,566,Samstag,,,,,no
+cs-005408,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:567,,a1,567,Sonne,,,,,no
+cs-005409,NEG_NEAR,NEG_NEAR common_prefix:neuer,cs-000844,cs-001318,b2,1375,Neuerer,b2,1377,Neuerung,Novinka,no
+cs-005410,NEG_NEAR,NEG_NEAR common_prefix:wasser,cs-000846,cs-000606,b1,3206,Wasserleitung,c1,546,Wasserheilanstalt,Vodolečebný ústav,no
+cs-005411,NEG_NEAR,NEG_NEAR shared_stem:lehnen,cs-000847,cs-001592,b1,120,anlehnen,b1,61,ablehnen,Odmítnout,no
+cs-005412,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000850,cs-000189,b1,2194,quatschen,b1,2550,schwätzen,Klábosit,no
+cs-005413,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000853,cs-000028,b2,183,Belieben,b2,205,Beschützer,Obránce,no
+cs-005414,NEG_EASY,NEG_EASY same_pos_not_near,cs-000921,cs-002072,b2,1651,smart,b2,400,dienstlich,Úřední,no
+cs-005415,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:576,,a1,576,stehen,,,,,no
+cs-005416,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:577,,a1,577,Stern,,,,,no
+cs-005417,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:578,,a1,578,Straße,,,,,no
+cs-005418,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:579,,a1,579,Straßenbahn,,,,,no
+cs-005419,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:580,,a1,580,Stück,,,,,no
+cs-005420,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:581,,a1,581,Student,,,,,no
+cs-005421,NEG_NEAR,NEG_NEAR shared_prefix:um,cs-000869,cs-001012,b1,2977,umkehren,b2,1803,umständlich,Příliš široký,no
+cs-005422,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000871,cs-001577,b2,344,dämpfen,b2,713,ersticken,Utlačovat,no
+cs-005423,NEG_NEAR,NEG_NEAR common_prefix:sich b,cs-000874,cs-000017,b2,259,sich blähen,b1,347,sich beraten,Poradit se,no
+cs-005424,NEG_NEAR,NEG_NEAR shared_prefix:ein,cs-000875,cs-000084,a2,385,Einkauf,c2,108,Einfuhrbeschränkung,Omezení dovozu,no
+cs-005425,NEG_NEAR,NEG_NEAR shared_stem:legen,cs-000877,cs-000990,b1,3216,weglegen,b2,908,gelegen,Pohodlný,no
+cs-005426,NEG_EASY,NEG_EASY same_pos_not_near,cs-000950,cs-000166,c2,137,Forschungsgemeinschaft,c2,147,Geschwindigkeitskontrolle,Měření rychlosti,no
+cs-005427,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:589,,a1,589,Tasche,,,,,no
+cs-005428,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:590,,a1,590,Tasse,,,,,no
+cs-005429,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:591,,a1,591,Taxi,,,,,no
+cs-005430,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:592,,a1,592,Tee,,,,,no
+cs-005431,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:593,,a1,593,Telefon,,,,,no
+cs-005432,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:594,,a1,594,telefonieren,,,,,no
+cs-005433,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000891,cs-000028,b2,161,Beihilfe,b2,205,Beschützer,Obránce,no
+cs-005434,NEG_NEAR,NEG_NEAR common_prefix:presse,cs-000893,cs-000749,b2,1472,Pressesprecher,c1,444,Pressevertreter,Tiskový zástupce,no
+cs-005435,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-000894,cs-000101,b2,175,belagern,a2,219,begrüßen,Pozdravit,no
+cs-005436,NEG_NEAR,NEG_NEAR shared_stem:holen,cs-000896,cs-003568,b1,1298,holen,a2,7,abholen,Vyzvednout,no
+cs-005437,NEG_NEAR,NEG_NEAR shared_prefix:ein,cs-000897,cs-000272,b2,538,eindringlich,a2,397,einverstanden,Souhlasit,no
+cs-005438,NEG_EASY,NEG_EASY same_pos_not_near,cs-000975,cs-000110,b2,1117,Hilfsdienst,b2,643,Entspannung,Relaxace,no
+cs-005439,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:602,,a1,602,Tomate,,,,,no
+cs-005440,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:603,,a1,603,Treppe,,,,,no
+cs-005441,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:604,,a1,604,trinken,,,,,no
+cs-005442,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:605,,a1,605,tun,,,,,no
+cs-005443,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:606,,a1,606,Tür,,,,,no
+cs-005444,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:609,,a1,609,überall,,,,,no
+cs-005445,NEG_NEAR,NEG_NEAR shared_prefix:ab,cs-000914,cs-000042,c2,78,Abgeordnetenhaus,b2,39,Abenteuerlust,Touha po dobrodružství,no
+cs-005446,NEG_NEAR,NEG_NEAR common_prefix:rezept,cs-000915,cs-004262,b1,2305,rezeptfrei,c1,134,rezeptpflichtig,Na předpis,no
+cs-005447,NEG_NEAR,NEG_NEAR shared_stem:rede,cs-000917,cs-000027,b2,893,Gegenrede,b2,938,Gerede,Mluvení,no
+cs-005448,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000918,cs-001774,b1,1508,kippen,b1,2988,umwerfen,Převrátit,no
+cs-005449,NEG_NEAR,NEG_NEAR shared_stem:setzen,cs-000919,cs-000315,b2,105,aussetzen,b1,708,einsetzen,Používat,no
+cs-005450,NEG_EASY,NEG_EASY same_pos_not_near,cs-001002,cs-004666,b1,999,gebrauchen,b1,2125,plaudern,Chatovat,no
+cs-005451,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:619,,a1,619,verkaufen,,,,,no
+cs-005452,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:621,,a1,621,verstehen,,,,,no
+cs-005453,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:622,,a1,622,versuchen,,,,,no
+cs-005454,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:623,,a1,623,viel,,,,,no
+cs-005455,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a1:624,,a1,624,vielleicht,,,,,no
+cs-005456,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:625,,a1,625,vier,,,,,no
+cs-005457,NEG_NEAR,NEG_NEAR compound:streich,cs-000943,cs-004327,b1,2789,Streich,c2,42,Streichinstrument,Strunný nástroj,no
+cs-005458,NEG_NEAR,NEG_NEAR shared_prefix:ge,cs-000944,cs-000027,b2,912,Geltung,b2,938,Gerede,Mluvení,no
+cs-005459,NEG_NEAR,NEG_NEAR shared_prefix:ver,cs-000946,cs-000326,c1,500,verabschieden,b2,1944,verständig,Rozvážný,no
+cs-005460,NEG_NEAR,NEG_NEAR common_prefix:bodens,cs-000947,cs-001805,b2,280,Bodensatz,b2,281,Bodenschätze,Nerostné suroviny,no
+cs-005461,NEG_NEAR,NEG_NEAR shared_prefix:ab,cs-000948,cs-000042,c1,19,Abart,b2,39,Abenteuerlust,Touha po dobrodružství,no
+cs-005462,NEG_EASY,NEG_EASY same_pos_not_near,cs-001030,cs-000022,b2,915,gemäß,b2,1975,vielseitig,Univerzální,no
+cs-005463,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:637,,a1,637,Vorname,,,,,no
+cs-005464,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:638,,a1,638,Wald,,,,,no
+cs-005465,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:640,,a1,640,wann,,,,,no
+cs-005466,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:641,,a1,641,warm,,,,,no
+cs-005467,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:642,,a1,642,warten,,,,,no
+cs-005468,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:643,,a1,643,warum,,,,,no
+cs-005469,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-000964,cs-001300,b2,1980,vollkommen,a2,1456,total,Zcela,no
+cs-005470,NEG_NEAR,NEG_NEAR common_prefix:elementar,cs-000966,cs-000152,c2,28,Elementarkenntnisse,c1,292,Elementarbegriff,Základní koncept,no
+cs-005471,NEG_NEAR,NEG_NEAR shared_stem:stiften,cs-000967,cs-002367,b1,149,anstiften,b1,2759,stiften,Založit,no
+cs-005472,NEG_NEAR,NEG_NEAR shared_stem:reich,cs-000968,cs-000725,b2,1515,Reich,b1,353,Bereich,Pole,no
+cs-005473,NEG_NEAR,NEG_NEAR compound:götze,cs-000969,cs-002811,b2,1018,Götze,c1,372,Götzenverehrung,Modlářství,no
+cs-005474,NEG_EASY,NEG_EASY same_pos_not_near,cs-001056,cs-000608,b1,1170,Hackbraten,b1,1019,Gefrierfach,Mrazicí přihrádka,no
+cs-005475,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:653,,a1,653,Welt,,,,,no
+cs-005476,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:654,,a1,654,wenig,,,,,no
+cs-005477,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:658,,a1,658,Wetter,,,,,no
+cs-005478,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:661,,a1,661,wieder,,,,,no
+cs-005479,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:663,,a1,663,Wind,,,,,no
+cs-005480,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:664,,a1,664,Zigarette,,,,,no
+cs-005481,NEG_NEAR,NEG_NEAR common_prefix:bluta,cs-000988,cs-001516,b2,277,Blutarmut,b2,275,Blutalkohol,Množství alkoholu v krvi,no
+cs-005482,NEG_NEAR,NEG_NEAR shared_stem:legen,cs-000990,cs-000877,b2,908,gelegen,b1,3216,weglegen,Dát stranou,no
+cs-005483,NEG_NEAR,NEG_NEAR shared_stem:tracht,cs-000991,cs-001086,b2,222,Betracht,b2,587,Eintracht,Soulad,no
+cs-005484,NEG_NEAR,NEG_NEAR common_prefix:studien,cs-000992,cs-001586,c1,485,Studienbewerber,b2,1716,Studiengebühr,Školné na univerzitě,no
+cs-005485,NEG_NEAR,NEG_NEAR shared_prefix:ab,cs-000993,cs-000228,b2,54,abrichten,b2,41,abfällig,Znevažující,no
+cs-005486,NEG_EASY,NEG_EASY same_pos_not_near,cs-001082,cs-001034,b1,1481,Kassenpatient,b1,3211,Webadresse,Internetová adresa,no
+cs-005487,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:675,,a1,675,zusammen,,,,,no
+cs-005488,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:677,,a1,677,zwanzig,,,,,no
+cs-005489,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:679,,a1,679,zwei,,,,,no
+cs-005490,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:680,,a1,680,zweihundert,,,,,no
+cs-005491,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:681,,a1,681,zweimal,,,,,no
+cs-005492,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:682,,a1,682,zweite,,,,,no
+cs-005493,NEG_NEAR,NEG_NEAR shared_prefix:an,cs-001013,cs-000104,b2,13,anbelangen,a2,67,anstrengend,Náročný,no
+cs-005494,NEG_NEAR,NEG_NEAR shared_prefix:ver,cs-001014,cs-000119,c1,525,verschweigen,b2,1931,verpfänden,Zastavit,no
+cs-005495,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-001018,cs-002702,a2,928,meinen,a1,133,denken,Přemýšlet,no
+cs-005496,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-001022,cs-000101,b2,156,begünstigen,a2,219,begrüßen,Pozdravit,no
+cs-005497,NEG_NEAR,NEG_NEAR shared_prefix:ab,cs-001025,cs-000228,b1,83,absolvieren,b2,41,abfällig,Znevažující,no
+cs-005498,NEG_EASY,NEG_EASY same_pos_not_near,cs-001112,cs-000893,b2,315,Bundesstaat,b2,1472,Pressesprecher,Tiskový tajemník,no
+cs-005499,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:692,,a1,692,Gemüse,,,,,no
+cs-005500,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:693,,a1,693,Obst,,,,,no
+cs-005501,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:695,,a1,695,Urlaub,,,,,no
+cs-005502,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:696,,a1,696,Stadt,,,,,no
+cs-005503,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:697,,a1,697,Staat,,,,,no
+cs-005504,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a1:698,,a1,698,Uhr,,,,,no
+cs-005505,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-001038,cs-000209,b2,258,blähen,b1,3219,wehen,Foukat,no
+cs-005506,NEG_NEAR,NEG_NEAR shared_prefix:vor,cs-001039,cs-000114,b2,1987,voraussehen,b2,2000,vornehmen,Něco si předsevzít,no
+cs-005507,NEG_NEAR,NEG_NEAR shared_stem:führung,cs-001040,cs-001047,b1,3317,Aufführung,b2,476,Durchführung,Realizace,no
+cs-005508,NEG_NEAR,NEG_NEAR common_prefix:druck,cs-001042,cs-001583,b2,453,Druckpapier,b2,452,Druckmaschine,Tiskařský lis,no
+cs-005509,NEG_NEAR,NEG_NEAR common_prefix:augen,cs-001043,cs-000248,b1,203,Augenlid,b2,102,Augenmaß,smysl pro míru,no
+cs-005510,NEG_EASY,NEG_EASY same_pos_not_near,cs-001137,cs-001129,b2,847,Führernatur,b2,769,Fassung,Rámec,no
+cs-005511,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:23,,a2,23,Acker,,,,,no
+cs-005512,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:24,,a2,24,Adler,,,,,no
+cs-005513,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:27,,a2,27,ähnlich,,,,,no
+cs-005514,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:29,,a2,29,Aktivität,,,,,no
+cs-005515,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:32,,a2,32,Alkohol,,,,,no
+cs-005516,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:33,,a2,33,allgemein,,,,,no
+cs-005517,NEG_NEAR,NEG_NEAR shared_stem:schluss,cs-001064,cs-003063,b2,100,Aufschluss,b2,1914,Verschluss,Zavírání,no
+cs-005518,NEG_NEAR,NEG_NEAR shared_stem:stellen,cs-001066,cs-000190,a2,16,abstellen,b1,563,darstellen,Reprezentovat,no
+cs-005519,NEG_NEAR,NEG_NEAR shared_stem:lingen,cs-001067,cs-002383,b1,1882,misslingen,b1,1048,gelingen,Uspět,no
+cs-005520,NEG_NEAR,NEG_NEAR shared_prefix:ent,cs-001068,cs-000110,c1,303,Entziehungskur,b2,643,Entspannung,Relaxace,no
+cs-005521,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-001069,cs-002538,b2,271,blödsinnig,c1,337,geistesschwach,Duševně slabý,no
+cs-005522,NEG_EASY,NEG_EASY same_pos_not_near,cs-001165,cs-001358,b2,295,Brandmal,b2,1270,Luftpirat,Vzdušný pirát,no
+cs-005523,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:51,,a2,51,anklopfen,,,,,no
+cs-005524,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a2:52,,a2,52,Ankunft,,,,,no
+cs-005525,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:55,,a2,55,anlegen,,,,,no
+cs-005526,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a2:59,,a2,59,annehmen,,,,,no
+cs-005527,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a2:63,,a2,63,anstecken,,,,,no
+cs-005528,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:68,,a2,68,Antibiotikum,,,,,no
+cs-005529,NEG_NEAR,NEG_NEAR shared_stem:tracht,cs-001086,cs-000503,b2,587,Eintracht,b2,222,Betracht,Úvaha,no
+cs-005530,NEG_NEAR,NEG_NEAR shared_prefix:fort,cs-001088,cs-000581,b2,823,fortwährend,b2,822,fortschreiten,Dále se rozvíjet,no
+cs-005531,NEG_NEAR,NEG_NEAR common_prefix:bundes,cs-001089,cs-001112,c1,250,Bundesdeutsche,b2,315,Bundesstaat,Federace,no
+cs-005532,NEG_NEAR,NEG_NEAR shared_stem:kommen,cs-001090,cs-001278,c1,390,herunterkommen,b2,1097,heraufkommen,Vyjít nahoru,no
+cs-005533,NEG_NEAR,NEG_NEAR shared_stem:haben,cs-001091,cs-003054,b2,676,erhaben,a1,261,haben,Mám,no
+cs-005534,NEG_EASY,NEG_EASY same_pos_not_near,cs-001195,cs-003144,b1,2776,stoßen,b1,1271,hineinsehen,Nahlédnout dovnitř,no
+cs-005535,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:79,,a2,79,Arbeiter,,,,,no
+cs-005536,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:85,,a2,85,Arm,,,,,no
+cs-005537,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:86,,a2,86,Armband,,,,,no
+cs-005538,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:87,,a2,87,Ärmel,,,,,no
+cs-005539,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:88,,a2,88,Art,,,,,no
+cs-005540,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:89,,a2,89,artig,,,,,no
+cs-005541,NEG_NEAR,NEG_NEAR shared_stem:wand,cs-001115,cs-000836,b1,192,Aufwand,a1,639,Wand,Zeď,no
+cs-005542,NEG_NEAR,NEG_NEAR shared_stem:lassen,cs-001117,cs-000573,b2,1770,überlassen,b1,633,durchlassen,Nechat projít,no
+cs-005543,NEG_NEAR,NEG_NEAR shared_stem:denken,cs-001120,cs-000466,b2,1787,umdenken,b2,881,gedenken,Připomínat,no
+cs-005544,NEG_NEAR,NEG_NEAR shared_prefix:er,cs-001124,cs-000208,b2,688,erlöschen,b2,684,erlassen,Zprostit,no
+cs-005545,NEG_NEAR,NEG_NEAR shared_stem:fällig,cs-001127,cs-000106,b2,41,abfällig,b2,886,gefällig,Milý,no
+cs-005546,NEG_EASY,NEG_EASY same_pos_not_near,cs-001222,cs-004376,c1,351,geradebiegen,c1,520,sich verpflichten,Zavázat se,no
+cs-005547,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:98,,a2,98,athletisch,,,,,no
+cs-005548,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:99,,a2,99,Atom,,,,,no
+cs-005549,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:100,,a2,100,attraktiv,,,,,no
+cs-005550,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:110,,a2,110,Aufenthalt,,,,,no
+cs-005551,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:112,,a2,112,auffassen,,,,,no
+cs-005552,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a2:113,,a2,113,auffordern,,,,,no
+cs-005553,NEG_NEAR,NEG_NEAR shared_prefix:ge,cs-001138,cs-000005,b2,915,gemäß,c1,369,gewissermaßen,Do jisté míry,no
+cs-005554,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-001140,cs-001412,b2,1428,Parole,b2,1586,Schlagwort,Výstižné slovo,no
+cs-005555,NEG_NEAR,NEG_NEAR shared_prefix:ge,cs-001141,cs-000192,b2,940,Gerippe,b2,936,Geratewohl,Nazdařbůh,no
+cs-005556,NEG_NEAR,NEG_NEAR shared_lv:lv,cs-001142,cs-000544,b1,1519,klarstellen,b2,1835,unterbreiten,Vysvětlit,no
+cs-005557,NEG_NEAR,NEG_NEAR shared_prefix:ver,cs-001147,cs-000254,b2,1882,Vereinigung,b2,1876,Verdienst,Zásluhy,no
+cs-005558,NEG_EASY,NEG_EASY same_pos_not_near,cs-001253,cs-002096,b2,977,Gewerbe,b2,1446,Pflichtbesuch,Zdvořilostní návštěva,no
+cs-005559,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:134,,a2,134,Aufprall,,,,,no
+cs-005560,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:135,,a2,135,aufräumen,,,,,no
+cs-005561,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:136,,a2,136,aufregen,,,,,no
+cs-005562,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:137,,a2,137,Aufregung,,,,,no
+cs-005563,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a2:140,,a2,140,aufschieben,,,,,no
+cs-005564,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a2:141,,a2,141,Aufschub,,,,,no
+cs-005565,NEG_NEAR,NEG_NEAR shared_prefix:vor,cs-001164,cs-000114,a2,1536,vorbereiten,b2,2000,vornehmen,Něco si předsevzít,no
+cs-005566,NEG_NEAR,NEG_NEAR common_prefix:baums,cs-001166,cs-003792,b1,249,Baumstamm,b2,144,Baumschule,Stromová školka,no
+cs-005567,NEG_NEAR,NEG_NEAR shared_stem:drücken,cs-001168,cs-000413,b2,666,erdrücken,b1,267,bedrücken,Skličovat,no
+cs-005568,NEG_NEAR,NEG_NEAR shared_prefix:be,cs-001169,cs-000154,b1,365,Berufserfahrung,b1,355,Bereitschaft,Připravenost,no
+cs-005569,NEG_NEAR,NEG_NEAR common_prefix:kabinetts,cs-001172,cs-001661,c2,166,Kabinettsmitglied,c2,165,Kabinettsbeschluss,Rozhodnutí kabinetu,no
+cs-005570,NEG_EASY,NEG_EASY same_pos_not_near,cs-001279,cs-003378,c2,159,Grundnahrungsmittel,c2,98,Sittlichkeitsdelikt,Porušení morálních norem,no
+cs-005571,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a2:150,,a2,150,aufzeichnen,,,,,no
+cs-005572,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:152,,a2,152,Augenarzt,,,,,no
+cs-005573,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a2:154,,a2,154,ausarbeiten,,,,,no
+cs-005574,POS,POS copy of dictionary CONFIRMED_REVERSE,card:a2:157,,a2,157,ausgraben,,,,,no
+cs-005575,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:160,,a2,160,ausstrahlen,,,,,no
+cs-005576,POS,POS copy of dictionary CONFIRMED_BILINGUAL,card:a2:162,,a2,162,austrinken,,,,,no
+cs-005577,NEG_NEAR,NEG_NEAR shared_prefix:ge,cs-001190,cs-000267,c1,326,Geburtenrate,c2,138,Generalreparatur,Generální oprava,no
+cs-005578,NEG_NEAR,NEG_NEAR shared_prefix:zu,cs-001191,cs-000049,c1,558,Zuschlag,b2,2082,Zucht,Výchova,no
+cs-005579,NEG_NEAR,NEG_NEAR common_prefix:brand,cs-001192,cs-001165,b2,294,Brandanschlag,b2,295,Brandmal,Jizva po popálení,no
+cs-005580,NEG_NEAR,NEG_NEAR shared_prefix:ge,cs-001193,cs-000286,b2,965,Gestell,b1,1090,Gespenst,Duch,no
+cs-005581,NEG_NEAR,NEG_NEAR shared_prefix:ver,cs-001198,cs-000326,b2,1946,versteigern,b2,1944,verständig,Rozvážný,no
+cs-005582,NEG_EASY,NEG_EASY same_pos_not_near,cs-001305,cs-001718,b1,2883,testen,b1,1120,glätten,Vyhlazovat,no
