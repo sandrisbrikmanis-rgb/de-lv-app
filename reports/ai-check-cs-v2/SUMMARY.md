@@ -37,4 +37,17 @@ Sēkla: 20261007. Negatīvās kontroles ir esošu čehu vārdu pārstādījumi. 
 
 ## Atvēršanai un lejupielādei
 
-Saites tiks pievienotas pēc satura commita.
+Satura commits: `1b950f36b5728d5791eff53b0ff1404b29aa345e`.
+
+- [MANIFEST.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/b04410f9102d96f9deacb3c6f44e0f1f3377f44e/reports/ai-check-cs-v2/MANIFEST.md)
+- [MANIFEST.md raw](https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/b04410f9102d96f9deacb3c6f44e0f1f3377f44e/reports/ai-check-cs-v2/MANIFEST.md)
+- [HOW-TO.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/1b950f36b5728d5791eff53b0ff1404b29aa345e/reports/ai-check-cs-v2/HOW-TO.md)
+- [HOW-TO.md raw](https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/1b950f36b5728d5791eff53b0ff1404b29aa345e/reports/ai-check-cs-v2/HOW-TO.md)
+- [batch-001-A.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/1b950f36b5728d5791eff53b0ff1404b29aa345e/reports/ai-check-cs-v2/batches/batch-001-A.md)
+- [batch-001-A.md raw](https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/1b950f36b5728d5791eff53b0ff1404b29aa345e/reports/ai-check-cs-v2/batches/batch-001-A.md)
+- [batch-001-B.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/1b950f36b5728d5791eff53b0ff1404b29aa345e/reports/ai-check-cs-v2/batches/batch-001-B.md)
+- [batch-001-B.md raw](https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/1b950f36b5728d5791eff53b0ff1404b29aa345e/reports/ai-check-cs-v2/batches/batch-001-B.md)
+- [batch-001-C.md blob](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/1b950f36b5728d5791eff53b0ff1404b29aa345e/reports/ai-check-cs-v2/batches/batch-001-C.md)
+- [batch-001-C.md raw](https://raw.githubusercontent.com/sandrisbrikmanis-rgb/de-lv-app/1b950f36b5728d5791eff53b0ff1404b29aa345e/reports/ai-check-cs-v2/batches/batch-001-C.md)
+
+Pārējās partijas un atslēgas ir MANIFEST tabulā. Atslēgas nav partiju mapē.
