@@ -272,7 +272,7 @@ const A1_WORDS = [
   },
   {
     "de": "an",
-    "lv": "Na • Na povrchu • Na okraji",
+    "lv": "U",
     "level": "A1",
     "study": {
       "id": "a1-an",
@@ -1481,7 +1481,7 @@ const A1_WORDS = [
   },
   {
     "de": "aus",
-    "lv": "Z • Zevnitř",
+    "lv": "Z",
     "level": "A1",
     "study": {
       "id": "a1-aus",
@@ -2356,7 +2356,7 @@ const A1_WORDS = [
   },
   {
     "de": "bei",
-    "lv": "Na",
+    "lv": "U",
     "level": "A1",
     "study": {
       "id": "a1-bei",
@@ -3755,7 +3755,7 @@ const A1_WORDS = [
   },
   {
     "de": "bringen",
-    "lv": "Přinést • Odnést",
+    "lv": "Přinést",
     "level": "A1",
     "study": {
       "id": "a1-bringen",
@@ -5662,7 +5662,7 @@ const A1_WORDS = [
   },
   {
     "de": "erst",
-    "lv": "Nejprve • Až / teprve",
+    "lv": "Teprve • Nejprve",
     "level": "A1",
     "study": {
       "id": "a1-erst",
@@ -5874,7 +5874,7 @@ const A1_WORDS = [
   },
   {
     "de": "es",
-    "lv": "To • Ono • Neosobní podoba",
+    "lv": "To",
     "level": "A1",
     "study": {
       "id": "a1-es",
@@ -6806,7 +6806,7 @@ const A1_WORDS = [
   },
   {
     "de": "finden",
-    "lv": "Najít • Myslet si",
+    "lv": "Najít • Považovat • Myslet si",
     "level": "A1",
     "study": {
       "id": "a1-finden",
@@ -14965,7 +14965,7 @@ const A1_WORDS = [
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Případ • Opakování",
+    "lv": "Krát",
     "level": "A1",
     "study": {
       "id": "a1-mal",
@@ -22112,7 +22112,7 @@ const A1_WORDS = [
   },
   {
     "de": "um",
-    "lv": "Kolem • V (čas) • Aby",
+    "lv": "Kolem • V (čas)",
     "level": "A1",
     "study": {
       "id": "a1-um",
@@ -23292,7 +23292,7 @@ const A1_WORDS = [
   },
   {
     "de": "vor",
-    "lv": "Před • Za",
+    "lv": "Před • Před (místo)",
     "level": "A1",
     "study": {
       "id": "a1-vor",
@@ -24976,7 +24976,7 @@ const A1_WORDS = [
   },
   {
     "de": "zu",
-    "lv": "Do • At",
+    "lv": "Do • K",
     "level": "A1",
     "study": {
       "id": "a1-zu",

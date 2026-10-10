@@ -1752,7 +1752,7 @@ const A2_WORDS = [
   },
   {
     "de": "ändern",
-    "lv": "Změnit",
+    "lv": "Změnit • Pozměnit • Předělat • Měnit se • Proměnit se • Změnit se",
     "level": "A2"
   },
   {
@@ -41524,7 +41524,7 @@ const A2_WORDS = [
     "de": "Nationalität",
     "de_article": "die",
     "de_plural": "die Nationalitäten",
-    "lv": "Státní příslušnost",
+    "lv": "Národnost • Státní příslušnost",
     "level": "A2"
   },
   {
@@ -43651,7 +43651,7 @@ const A2_WORDS = [
     "de": "Platte",
     "de_article": "die",
     "de_plural": "die Platten",
-    "lv": "Talíř",
+    "lv": "Deska",
     "level": "A2"
   },
   {
@@ -47661,7 +47661,7 @@ const A2_WORDS = [
     "de": "Schlange",
     "de_article": "die",
     "de_plural": "die Schlangen",
-    "lv": "Had • Veslovat",
+    "lv": "Had • Fronta",
     "level": "A2",
     "study": {
       "id": "a2-schlange",
@@ -62484,7 +62484,7 @@ const A2_WORDS = [
   },
   {
     "de": "zuletzt",
-    "lv": "Naposledy",
+    "lv": "Nakonec • Naposledy",
     "level": "A2"
   },
   {

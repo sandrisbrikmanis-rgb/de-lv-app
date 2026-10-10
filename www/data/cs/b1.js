@@ -11717,7 +11717,7 @@ const B1_WORDS = [
     "de": "Bogen",
     "de_article": "der",
     "de_plural": "die Bogen",
-    "lv": "Kruh",
+    "lv": "Luk",
     "level": "B1",
     "study": {
       "id": "b1-bogen",
@@ -15077,7 +15077,7 @@ const B1_WORDS = [
   },
   {
     "de": "dritt",
-    "lv": "Třetí",
+    "lv": "Třetí • Ve třech",
     "level": "B1"
   },
   {
@@ -17864,7 +17864,7 @@ const B1_WORDS = [
   },
   {
     "de": "einführen",
-    "lv": "Představit",
+    "lv": "Zavést",
     "level": "B1",
     "study": {
       "id": "b1-einführen",
@@ -18419,7 +18419,7 @@ const B1_WORDS = [
   },
   {
     "de": "einhalten",
-    "lv": "Pozorovat",
+    "lv": "Dodržovat",
     "level": "B1",
     "study": {
       "id": "b1-einhalten",
@@ -21527,7 +21527,7 @@ const B1_WORDS = [
   },
   {
     "de": "entlassen",
-    "lv": "Pustit",
+    "lv": "Propustit",
     "level": "B1",
     "study": {
       "id": "b1-entlassen",
@@ -21929,7 +21929,7 @@ const B1_WORDS = [
   },
   {
     "de": "entstehen",
-    "lv": "Dojít",
+    "lv": "Vzniknout",
     "level": "B1",
     "study": {
       "id": "b1-entstehen",
@@ -24285,7 +24285,7 @@ const B1_WORDS = [
   },
   {
     "de": "feststellen",
-    "lv": "Založit",
+    "lv": "Konstatovat",
     "level": "B1",
     "study": {
       "id": "b1-feststellen",
@@ -25347,7 +25347,7 @@ const B1_WORDS = [
   },
   {
     "de": "fressen",
-    "lv": "Zítra",
+    "lv": "Žrát",
     "level": "B1",
     "study": {
       "id": "b1-fressen",
@@ -28197,7 +28197,7 @@ const B1_WORDS = [
   },
   {
     "de": "gewiss",
-    "lv": "Trezor",
+    "lv": "Jistý",
     "level": "B1",
     "study": {
       "id": "b1-gewiss",
@@ -30235,7 +30235,7 @@ const B1_WORDS = [
   },
   {
     "de": "hauen",
-    "lv": "Hit",
+    "lv": "Bít",
     "level": "B1",
     "study": {
       "id": "b1-hauen",
@@ -32300,7 +32300,7 @@ const B1_WORDS = [
     "de": "Hort",
     "de_article": "der",
     "de_plural": "die Horte",
-    "lv": "Rozšířená denní skupina • Dětské denní centrum",
+    "lv": "Školní družina • Dětské denní centrum",
     "level": "B1",
     "study": {
       "id": "b1-hort",
@@ -35435,7 +35435,7 @@ const B1_WORDS = [
   },
   {
     "de": "kippen",
-    "lv": "Převrácení",
+    "lv": "Převrátit",
     "level": "B1",
     "study": {
       "id": "b1-kippen",
@@ -38414,7 +38414,7 @@ const B1_WORDS = [
   },
   {
     "de": "laden",
-    "lv": "Načíst",
+    "lv": "Naložit",
     "level": "B1",
     "study": {
       "id": "b1-laden",
@@ -39146,7 +39146,7 @@ const B1_WORDS = [
   },
   {
     "de": "landen",
-    "lv": "Posaďte se",
+    "lv": "Přistát",
     "level": "B1",
     "study": {
       "id": "b1-landen",
@@ -40150,7 +40150,7 @@ const B1_WORDS = [
     "de": "Los",
     "de_article": "das",
     "de_plural": "die Lose",
-    "lv": "Hodně",
+    "lv": "Los",
     "level": "B1",
     "study": {
       "id": "b1-los",
@@ -40849,7 +40849,7 @@ const B1_WORDS = [
     "de": "Maß",
     "de_article": "das",
     "de_plural": "die Maße",
-    "lv": "Starosta",
+    "lv": "Míra",
     "level": "B1",
     "study": {
       "id": "b1-maß",
@@ -41397,7 +41397,7 @@ const B1_WORDS = [
     "de": "Moosbeere",
     "de_article": "die",
     "de_plural": "die Moosbeeren",
-    "lv": "Brusinka",
+    "lv": "Klikva",
     "level": "B1"
   },
   {
@@ -41616,7 +41616,7 @@ const B1_WORDS = [
   },
   {
     "de": "nachdem",
-    "lv": "Po kdy",
+    "lv": "Poté co",
     "level": "B1",
     "study": {
       "id": "b1-nachdem",
@@ -45785,7 +45785,7 @@ const B1_WORDS = [
   },
   {
     "de": "rasen",
-    "lv": "Ionizovat",
+    "lv": "Uhánět",
     "level": "B1",
     "study": {
       "id": "b1-rasen",
@@ -46144,7 +46144,7 @@ const B1_WORDS = [
   },
   {
     "de": "räumen",
-    "lv": "Uvolnění",
+    "lv": "Uvolnit",
     "level": "B1",
     "study": {
       "id": "b1-räumen",
@@ -46488,7 +46488,7 @@ const B1_WORDS = [
   },
   {
     "de": "regeln",
-    "lv": "Vytřídit",
+    "lv": "Vyřídit • Regulovat",
     "level": "B1",
     "study": {
       "id": "b1-regeln",
@@ -46760,7 +46760,7 @@ const B1_WORDS = [
   },
   {
     "de": "reißen",
-    "lv": "Prasknutí",
+    "lv": "Prasknout",
     "level": "B1",
     "study": {
       "id": "b1-reißen",
@@ -47631,7 +47631,7 @@ const B1_WORDS = [
   },
   {
     "de": "rösten",
-    "lv": "Na opékání",
+    "lv": "Pražit",
     "level": "B1",
     "study": {
       "id": "b1-rösten",
@@ -47865,7 +47865,7 @@ const B1_WORDS = [
     "de": "Ruf",
     "de_article": "der",
     "de_plural": "die Rufe",
-    "lv": "Pláč",
+    "lv": "Volání",
     "level": "B1",
     "study": {
       "id": "b1-ruf-2",
@@ -49721,7 +49721,7 @@ const B1_WORDS = [
   },
   {
     "de": "schmelzen",
-    "lv": "Pohybující se",
+    "lv": "Tát",
     "level": "B1",
     "study": {
       "id": "b1-schmelzen",
@@ -50665,7 +50665,7 @@ const B1_WORDS = [
   },
   {
     "de": "schütten",
-    "lv": "[do] nalít",
+    "lv": "[Na]sypat • Lít",
     "level": "B1"
   },
   {
@@ -51105,7 +51105,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwindeln",
-    "lv": "Podvádět",
+    "lv": "Mít závrať • Lhát • Klamat",
     "level": "B1"
   },
   {
@@ -54412,7 +54412,7 @@ const B1_WORDS = [
   },
   {
     "de": "stoßen",
-    "lv": "TAM",
+    "lv": "Strkat",
     "level": "B1",
     "study": {
       "id": "b1-stoßen",
@@ -55012,7 +55012,7 @@ const B1_WORDS = [
     "de": "Stufe",
     "de_article": "die",
     "de_plural": "die Stufen",
-    "lv": "Krok",
+    "lv": "Schod",
     "level": "B1"
   },
   {
@@ -55779,7 +55779,7 @@ const B1_WORDS = [
     "de": "Tau",
     "de_article": "das",
     "de_plural": "die Taue",
-    "lv": "Lodní vlek",
+    "lv": "Lodní lano",
     "level": "B1",
     "study": {
       "id": "b1-tau-2",
@@ -57138,12 +57138,12 @@ const B1_WORDS = [
     "de": "Treffer",
     "de_article": "der",
     "de_plural": "die Treffer",
-    "lv": "Hit",
+    "lv": "Zásah",
     "level": "B1"
   },
   {
     "de": "treiben",
-    "lv": "Obsadit",
+    "lv": "Provozovat",
     "level": "B1",
     "study": {
       "id": "b1-treiben",
@@ -58265,7 +58265,7 @@ const B1_WORDS = [
   },
   {
     "de": "umgehen",
-    "lv": "Obejít se",
+    "lv": "Zacházet",
     "level": "B1",
     "study": {
       "id": "b1-umgehen",
@@ -60311,7 +60311,7 @@ const B1_WORDS = [
   },
   {
     "de": "verlegen",
-    "lv": "Pohybovat se",
+    "lv": "Přesunout",
     "level": "B1",
     "study": {
       "id": "b1-verlegen",
@@ -61163,7 +61163,7 @@ const B1_WORDS = [
     "de": "Verwandte",
     "de_article": "die",
     "de_plural": "die Verwandten",
-    "lv": "Relativní",
+    "lv": "Příbuzná",
     "level": "B1",
     "study": {
       "id": "b1-verwandte-2",
@@ -61958,7 +61958,7 @@ const B1_WORDS = [
     "de": "Wache",
     "de_article": "die",
     "de_plural": "die Wachen",
-    "lv": "Hlídat",
+    "lv": "Stráž",
     "level": "B1",
     "study": {
       "id": "b1-wache",
@@ -65306,7 +65306,7 @@ const B1_WORDS = [
   },
   {
     "de": "da",
-    "lv": "Protože • Za kolik",
+    "lv": "Protože • Poněvadž",
     "level": "B1",
     "study": {
       "id": "b1-da",

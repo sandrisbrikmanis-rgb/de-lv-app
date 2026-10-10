@@ -109,7 +109,7 @@ const B2_WORDS = [
   },
   {
     "de": "angebracht",
-    "lv": "Vhodný • Připevněný",
+    "lv": "Vhodný • Příhodný",
     "level": "B2"
   },
   {
@@ -267,7 +267,7 @@ const B2_WORDS = [
   },
   {
     "de": "abgesehen",
-    "lv": "Kromě • Navíc",
+    "lv": "Kromě • Nehledě na",
     "level": "B2"
   },
   {
@@ -424,7 +424,7 @@ const B2_WORDS = [
   },
   {
     "de": "abtragen",
-    "lv": "Odnést • Obrousit • Zbořit",
+    "lv": "Odnést • Obnosit • Zbořit",
     "level": "B2"
   },
   {
@@ -638,7 +638,7 @@ const B2_WORDS = [
     "de": "Äußerlichkeit",
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
-    "lv": "Vnějškovost • zevnějšek",
+    "lv": "Povrchnost",
     "level": "B2"
   },
   {
@@ -650,7 +650,7 @@ const B2_WORDS = [
   },
   {
     "de": "aussetzen",
-    "lv": "Vystavit • podrobit • namítat • přerušit",
+    "lv": "Vystavit • Podrobit • Namítat • Přestat fungovat",
     "level": "B2"
   },
   {
@@ -680,7 +680,7 @@ const B2_WORDS = [
   },
   {
     "de": "ausströmen",
-    "lv": "Mokvat • Vycházet • Vyzařovat",
+    "lv": "Vytékat • Unikat • Vyzařovat",
     "level": "B2"
   },
   {
@@ -695,7 +695,7 @@ const B2_WORDS = [
   },
   {
     "de": "austreten",
-    "lv": "Vystěhovat • Pronajmout • Přestat",
+    "lv": "Vyšlapat • Zašlápnout • Vystoupit",
     "level": "B2"
   },
   {
@@ -895,7 +895,7 @@ const B2_WORDS = [
   },
   {
     "de": "bebauen",
-    "lv": "Proces • Stavět",
+    "lv": "Obdělávat • Zastavět",
     "level": "B2"
   },
   {
@@ -1262,7 +1262,7 @@ const B2_WORDS = [
     "de": "Besatzung",
     "de_article": "die",
     "de_plural": "die Besatzungen",
-    "lv": "Velení • Posádka • Posádka • Okupační vojenské jednotky",
+    "lv": "Posádka • Osádka • Obsluha • Okupační vojenské jednotky",
     "level": "B2"
   },
   {
@@ -1318,7 +1318,7 @@ const B2_WORDS = [
   },
   {
     "de": "besessen",
-    "lv": "Posedlý • Omámený • Uchvácený",
+    "lv": "Posedlý • Okouzlený • Uchvácený",
     "level": "B2"
   },
   {
@@ -2246,7 +2246,7 @@ const B2_WORDS = [
     "de": "Darstellung",
     "de_article": "die",
     "de_plural": "die Darstellungen",
-    "lv": "Zobrazení • Zobrazení • Obrys",
+    "lv": "Ztvárnění • Zobrazení • Výklad",
     "level": "B2"
   },
   {
@@ -2257,7 +2257,7 @@ const B2_WORDS = [
   },
   {
     "de": "dasjenige",
-    "lv": "Že",
+    "lv": "To",
     "level": "B2"
   },
   {
@@ -2285,7 +2285,7 @@ const B2_WORDS = [
     "de": "Dattel",
     "de_article": "die",
     "de_plural": "die Datteln",
-    "lv": "Datum",
+    "lv": "Datle",
     "level": "B2"
   },
   {
@@ -2544,14 +2544,14 @@ const B2_WORDS = [
   },
   {
     "de": "dingen",
-    "lv": "Souhlasit • Souhlasit",
+    "lv": "Najmout • Sjednat",
     "level": "B2"
   },
   {
     "de": "Direktion",
     "de_article": "die",
     "de_plural": "die Direktionen",
-    "lv": "Ovládání předložek",
+    "lv": "Vedení",
     "level": "B2"
   },
   {
@@ -2604,19 +2604,19 @@ const B2_WORDS = [
     "de": "Dohle",
     "de_article": "die",
     "de_plural": "die Dohlen",
-    "lv": "Covarner",
+    "lv": "Kavka",
     "level": "B2"
   },
   {
     "de": "Dom",
     "de_article": "der",
     "de_plural": "die Dome",
-    "lv": "Katedrála • Rada",
+    "lv": "Katedrála • Dóm",
     "level": "B2"
   },
   {
     "de": "donnern",
-    "lv": "Hrom řvát • Rachot • Rachot",
+    "lv": "Hřmět • Rachotit • Dunět",
     "level": "B2"
   },
   {
@@ -2640,7 +2640,7 @@ const B2_WORDS = [
     "de": "Doppelzentner",
     "de_article": "der",
     "de_plural": "die Doppelzentner",
-    "lv": "Dvojitý cent • 100 kg",
+    "lv": "Metrický cent",
     "level": "B2"
   },
   {
@@ -2829,7 +2829,7 @@ const B2_WORDS = [
     "de": "Drops",
     "de_article": "der",
     "de_plural": "die Drops",
-    "lv": "Kyselé ovocné karamely • Lízátka",
+    "lv": "Kyselé ovocné karamely • Dropsy",
     "level": "B2"
   },
   {
@@ -3325,7 +3325,7 @@ const B2_WORDS = [
   },
   {
     "de": "eigenwillig",
-    "lv": "Svévolný • Umíněný • Tvrdohlavý • Svérázný",
+    "lv": "Svévolný • Umíněný • Tvrdohlavý • Svéhlavý",
     "level": "B2"
   },
   {
@@ -4911,7 +4911,7 @@ const B2_WORDS = [
   },
   {
     "de": "fälschlich",
-    "lv": "Scestný • Pomýlený",
+    "lv": "Mylně • Chybně",
     "level": "B2"
   },
   {
@@ -5183,7 +5183,7 @@ const B2_WORDS = [
   },
   {
     "de": "fleckig",
-    "lv": "Skvrnitý • Flekatý • Plamenný • Kropenatý • Strakatý",
+    "lv": "Umazaný • Zašpiněný • Skvrnitý • Kropenatý • Strakatý",
     "level": "B2"
   },
   {
@@ -5417,7 +5417,7 @@ const B2_WORDS = [
   },
   {
     "de": "fristlos",
-    "lv": "Bez výpovědní lhůty • Okamžitý",
+    "lv": "Okamžitý • Bez výpovědní lhůty",
     "level": "B2"
   },
   {
@@ -5854,14 +5854,14 @@ const B2_WORDS = [
   },
   {
     "de": "gelaunt",
-    "lv": "Ó",
+    "lv": "Naladěný",
     "level": "B2"
   },
   {
     "de": "Geldbuße",
     "de_article": "die",
     "de_plural": "die Geldbußen",
-    "lv": "Dobře",
+    "lv": "Pokuta",
     "level": "B2"
   },
   {
@@ -6201,7 +6201,7 @@ const B2_WORDS = [
     "de": "Geschwür",
     "de_article": "das",
     "de_plural": "die Geschwüre",
-    "lv": "Rostlina • Vřed",
+    "lv": "Vřed",
     "level": "B2"
   },
   {
@@ -6239,7 +6239,7 @@ const B2_WORDS = [
     "de": "Gesichtszug",
     "de_article": "der",
     "de_plural": "die Gesichtszüge",
-    "lv": "Funkce",
+    "lv": "Rys obličeje",
     "level": "B2"
   },
   {
@@ -6252,7 +6252,7 @@ const B2_WORDS = [
   {
     "de": "Gespött",
     "de_article": "das",
-    "lv": "Posměch • Terč posměchu",
+    "lv": "Posměch",
     "level": "B2"
   },
   {
@@ -6426,7 +6426,7 @@ const B2_WORDS = [
   },
   {
     "de": "rachgierig",
-    "lv": "Touha po pomstě",
+    "lv": "Pomstychtivý",
     "level": "B2"
   },
   {
@@ -6536,7 +6536,7 @@ const B2_WORDS = [
   },
   {
     "de": "glotzen",
-    "lv": "Šilhat",
+    "lv": "Zírat",
     "level": "B2"
   },
   {
@@ -6548,14 +6548,14 @@ const B2_WORDS = [
     "de": "Glut",
     "de_article": "die",
     "de_plural": "die Gluten",
-    "lv": "Zářit • Zářit • Velký žár",
+    "lv": "Vedro • Žár • Velký žár",
     "level": "B2"
   },
   {
     "de": "Gnade",
     "de_article": "die",
     "de_plural": "die Gnaden",
-    "lv": "Milost • Prominout",
+    "lv": "Milost • Omilostění",
     "level": "B2"
   },
   {
@@ -6601,7 +6601,7 @@ const B2_WORDS = [
     "de": "Goldwäscher",
     "de_article": "der",
     "de_plural": "die Goldwäscher",
-    "lv": "Zlatá podložka",
+    "lv": "Rýžovač zlata",
     "level": "B2"
   },
   {
@@ -6642,7 +6642,7 @@ const B2_WORDS = [
   {
     "de": "Götzendienst",
     "de_article": "der",
-    "lv": "Sloužit idolu",
+    "lv": "Modloslužba",
     "level": "B2"
   },
   {
@@ -6659,7 +6659,7 @@ const B2_WORDS = [
   },
   {
     "de": "grauen",
-    "lv": "Šedivět",
+    "lv": "Svítat",
     "level": "B2"
   },
   {
@@ -6870,7 +6870,7 @@ const B2_WORDS = [
   },
   {
     "de": "haaren",
-    "lv": "Hodit pírko",
+    "lv": "Línat",
     "level": "B2"
   },
   {
@@ -6889,7 +6889,7 @@ const B2_WORDS = [
     "de": "Hafengebühr",
     "de_article": "die",
     "de_plural": "die Hafengebühren",
-    "lv": "Přístavní povinnost",
+    "lv": "Přístavní poplatek",
     "level": "B2"
   },
   {
@@ -6903,7 +6903,7 @@ const B2_WORDS = [
     "de": "Hahnenkamm",
     "de_article": "der",
     "de_plural": "die Hahnenkämme",
-    "lv": "Kohoutí sext",
+    "lv": "Kohoutí hřebínek",
     "level": "B2"
   },
   {
@@ -6943,7 +6943,7 @@ const B2_WORDS = [
   },
   {
     "de": "hänseln",
-    "lv": "Nerrot • Kvičet",
+    "lv": "Dobírat si • Škádlit",
     "level": "B2"
   },
   {
@@ -6962,7 +6962,7 @@ const B2_WORDS = [
     "de": "Harsch",
     "de_article": "der",
     "de_plural": "die Harsche",
-    "lv": "Síra • Zmrzlý sníh",
+    "lv": "Sněhová krusta • Zledovatělý sníh",
     "level": "B2"
   },
   {
@@ -6979,7 +6979,7 @@ const B2_WORDS = [
     "de": "Haube",
     "de_article": "die",
     "de_plural": "die Hauben",
-    "lv": "Čepice • Kapuce",
+    "lv": "Čepice • Kryt",
     "level": "B2",
     "study": {
       "id": "b2-haube",
@@ -7130,13 +7130,13 @@ const B2_WORDS = [
     "de": "Hausherr",
     "de_article": "der",
     "de_plural": "die Hausherren",
-    "lv": "Domácí kutil • Bavič",
+    "lv": "Hospodář • Pán domu",
     "level": "B2"
   },
   {
     "de": "Hausrat",
     "de_article": "der",
-    "lv": "Život",
+    "lv": "Domácí vybavení",
     "level": "B2"
   },
   {
@@ -7188,14 +7188,14 @@ const B2_WORDS = [
   {
     "de": "Heilkunde",
     "de_article": "die",
-    "lv": "Léčba • Lék",
+    "lv": "Léčitelství • Lékařství",
     "level": "B2"
   },
   {
     "de": "Heilquelle",
     "de_article": "die",
     "de_plural": "die Heilquellen",
-    "lv": "Zdroj uzdravení",
+    "lv": "Léčivý pramen",
     "level": "B2"
   },
   {
@@ -7343,7 +7343,7 @@ const B2_WORDS = [
   },
   {
     "de": "herausstellen",
-    "lv": "Uhasit",
+    "lv": "Vystavit ven",
     "level": "B2"
   },
   {
@@ -7442,7 +7442,7 @@ const B2_WORDS = [
   },
   {
     "de": "hetzen",
-    "lv": "Kopat • Podněcovat • Honit • Bít",
+    "lv": "Poštvat • Podněcovat • Honit • Hnát",
     "level": "B2"
   },
   {
@@ -7506,14 +7506,14 @@ const B2_WORDS = [
   },
   {
     "de": "hinreißen",
-    "lv": "Zmocnit se • Odnést",
+    "lv": "Strhnout • Nadchnout",
     "level": "B2"
   },
   {
     "de": "Hinsicht",
     "de_article": "die",
     "de_plural": "die Hinsichten",
-    "lv": "Zpráva",
+    "lv": "Ohled",
     "level": "B2"
   },
   {
@@ -7987,12 +7987,12 @@ const B2_WORDS = [
   },
   {
     "de": "innewohnen",
-    "lv": "Domov",
+    "lv": "Být vlastní",
     "level": "B2"
   },
   {
     "de": "inszenieren",
-    "lv": "Na jeviště",
+    "lv": "Inscenovat",
     "level": "B2"
   },
   {
@@ -8057,7 +8057,7 @@ const B2_WORDS = [
   },
   {
     "de": "kapitalistisch",
-    "lv": "Kapitalista",
+    "lv": "Kapitalistický",
     "level": "B2"
   },
   {
@@ -8077,7 +8077,7 @@ const B2_WORDS = [
   {
     "de": "Kaufkraft",
     "de_article": "die",
-    "lv": "Peníze • Také osobní kupní síla",
+    "lv": "Kupní síla",
     "level": "B2"
   },
   {
@@ -9461,7 +9461,7 @@ const B2_WORDS = [
   },
   {
     "de": "nachträglich",
-    "lv": "Později • Dodatečný • Později • Pro doplňky",
+    "lv": "Pozdější • Dodatečný • Později",
     "level": "B2"
   },
   {
@@ -10340,7 +10340,7 @@ const B2_WORDS = [
   },
   {
     "de": "ranzig",
-    "lv": "Žluklý • Hořký o smetaně • Tuku • Másle",
+    "lv": "Žluklý • Nahořklý o smetaně • Žluklý o tuku • Žluklý o másle",
     "level": "B2"
   },
   {
@@ -11148,7 +11148,7 @@ const B2_WORDS = [
     "de": "Schwebebahn",
     "de_article": "die",
     "de_plural": "die Schwebebahnen",
-    "lv": "Zavěšení [železnice].",
+    "lv": "Závěsná dráha",
     "level": "B2"
   },
   {
@@ -11160,7 +11160,7 @@ const B2_WORDS = [
   },
   {
     "de": "schwelen",
-    "lv": "Řeřavý",
+    "lv": "Doutnat",
     "level": "B2"
   },
   {
@@ -11802,12 +11802,12 @@ const B2_WORDS = [
   },
   {
     "de": "spotten",
-    "lv": "Zesměšňovat • Prořezávání zoubků",
+    "lv": "Zesměšňovat • Posmívat se",
     "level": "B2"
   },
   {
     "de": "spöttisch",
-    "lv": "Posměšný • Zubatý",
+    "lv": "Posměšný • Uštěpačný",
     "level": "B2"
   },
   {
@@ -11819,21 +11819,21 @@ const B2_WORDS = [
   },
   {
     "de": "sprengen",
-    "lv": "[na]tryskat • Kropit • Voda",
+    "lv": "Vyhodit do vzduchu • Kropit • Zalévat",
     "level": "B2"
   },
   {
     "de": "Sprengstoff",
     "de_article": "der",
     "de_plural": "die Sprengstoffe",
-    "lv": "Explozivní",
+    "lv": "Výbušnina",
     "level": "B2"
   },
   {
     "de": "Spross",
     "de_article": "der",
     "de_plural": "die Sprosse",
-    "lv": "Bot. výhonek • Dzin • Přen. potomek • Ratolest",
+    "lv": "Bot. výhonek • Výhon • Přen. potomek • Ratolest",
     "level": "B2"
   },
   {
@@ -12149,7 +12149,7 @@ const B2_WORDS = [
     "de": "Testperson",
     "de_article": "die",
     "de_plural": "die Testpersonen",
-    "lv": "Soudná osoba",
+    "lv": "Testovaná osoba",
     "level": "B2"
   },
   {
@@ -12167,7 +12167,7 @@ const B2_WORDS = [
   {
     "de": "Tiefsinn",
     "de_article": "der",
-    "lv": "Ohleduplnost",
+    "lv": "Hloubavost",
     "level": "B2"
   },
   {
@@ -12507,7 +12507,7 @@ const B2_WORDS = [
   },
   {
     "de": "umhören, sich",
-    "lv": "Popovídat se • Vyptat se",
+    "lv": "Poptat se",
     "level": "B2"
   },
   {
@@ -12519,7 +12519,7 @@ const B2_WORDS = [
   },
   {
     "de": "umkreisen",
-    "lv": "Obklíčit • Obležet • Vznášet se • Spustit • Kroužit",
+    "lv": "Obklíčit • Obležet • Vznášet se • Snášet se • Kroužit",
     "level": "B2"
   },
   {
@@ -12777,7 +12777,7 @@ const B2_WORDS = [
   {
     "de": "Unterhalt",
     "de_article": "der",
-    "lv": "Zásobovat • Zásobovat • Zásobovat",
+    "lv": "Výživné • Údržba • Zaopatření",
     "level": "B2"
   },
   {
@@ -12794,7 +12794,7 @@ const B2_WORDS = [
     "de": "Unterlage",
     "de_article": "die",
     "de_plural": "die Unterlagen",
-    "lv": "Trvalý • Podložka • Podložka • Podpora • Data • Dokumentace",
+    "lv": "Podložka • Rohož • Podstavec • Podpora • Podklady • Dokumentace",
     "level": "B2"
   },
   {
@@ -13064,7 +13064,7 @@ const B2_WORDS = [
   },
   {
     "de": "verfügen",
-    "lv": "Určit • Přikázat • Přiřadit",
+    "lv": "Stanovit • Přikázat • Přidělit",
     "level": "B2"
   },
   {
@@ -13108,7 +13108,7 @@ const B2_WORDS = [
   },
   {
     "de": "verhasst",
-    "lv": "Nenáviděný • Neviděný",
+    "lv": "Nenáviděný • Nesnášený",
     "level": "B2"
   },
   {
@@ -13118,7 +13118,7 @@ const B2_WORDS = [
   },
   {
     "de": "verhöhnen",
-    "lv": "Vysmívat se • Promáčknout",
+    "lv": "Vysmívat se • Zesměšňovat",
     "level": "B2"
   },
   {
@@ -13223,7 +13223,7 @@ const B2_WORDS = [
     "de": "Verschluss",
     "de_article": "der",
     "de_plural": "die Verschlüsse",
-    "lv": "Zavírání • Zámek",
+    "lv": "Uzávěr • Zámek",
     "level": "B2"
   },
   {
@@ -13330,7 +13330,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich versehen",
-    "lv": "Přehlédnout se • Opatřit se",
+    "lv": "Přehlédnout se",
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
@@ -14158,21 +14158,21 @@ const B2_WORDS = [
     "de": "Wertpapier",
     "de_article": "das",
     "de_plural": "die Wertpapiere",
-    "lv": "Zabezpečení",
+    "lv": "Cenný papír",
     "level": "B2"
   },
   {
     "de": "Wesen",
     "de_article": "das",
     "de_plural": "die Wesen",
-    "lv": "Bytost • Tvor • Podstata • Příroda",
+    "lv": "Bytost • Tvor • Podstata • Povaha",
     "level": "B2"
   },
   {
     "de": "Wettlauf",
     "de_article": "der",
     "de_plural": "die Wettläufe",
-    "lv": "Sp. spěchat závod • Spěchat",
+    "lv": "Sport. závod v běhu • Běh",
     "level": "B2"
   },
   {
