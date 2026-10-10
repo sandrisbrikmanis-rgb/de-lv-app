@@ -60310,11 +60310,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verlaufen",
-    "lv": "Ztratit se",
-    "level": "B1"
-  },
-  {
     "de": "verlegen",
     "lv": "Pohybovat se",
     "level": "B1",

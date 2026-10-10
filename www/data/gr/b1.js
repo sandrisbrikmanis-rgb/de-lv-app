@@ -61382,11 +61382,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verlaufen",
-    "lv": "Να πραγματοποιηθεί",
-    "level": "B1"
-  },
-  {
     "de": "verlegen",
     "lv": "Αναβάλλω",
     "level": "B1",

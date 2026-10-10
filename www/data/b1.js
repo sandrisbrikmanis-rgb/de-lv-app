@@ -15108,7 +15108,7 @@ const B1_WORDS = [
   },
   {
     "de": "dritt",
-    "lv": "treškārt",
+    "lv": "trešais • trijatā",
     "level": "B1"
   },
   {
@@ -36441,7 +36441,7 @@ const B1_WORDS = [
     "de": "Kollegbuch",
     "de_article": "das",
     "de_plural": "die Kollegbuche",
-    "lv": "studenta atzīmju grāmatiņa",
+    "lv": "lekciju pierakstu klade",
     "level": "B1"
   },
   {
@@ -45227,7 +45227,7 @@ const B1_WORDS = [
     "de": "Pendelbus",
     "de_article": "der",
     "de_plural": "die Pendelbuse",
-    "lv": "piepilsētas autobuss",
+    "lv": "šatlbuss • pārvadājumu autobuss",
     "level": "B1"
   },
   {
@@ -52168,7 +52168,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwindeln",
-    "lv": "reibt",
+    "lv": "reibt • melot • mānīties",
     "level": "B1"
   },
   {
@@ -61379,11 +61379,6 @@ const B1_WORDS = [
   {
     "de": "sich verlassen",
     "lv": "paļauties",
-    "level": "B1"
-  },
-  {
-    "de": "sich verlaufen",
-    "lv": "norisināties",
     "level": "B1"
   },
   {

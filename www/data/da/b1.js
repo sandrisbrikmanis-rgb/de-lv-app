@@ -59606,11 +59606,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verlaufen",
-    "lv": "Finde sted",
-    "level": "B1"
-  },
-  {
     "de": "verlegen",
     "lv": "At flytte",
     "level": "B1",

@@ -267,7 +267,7 @@ const B2_WORDS = [
   },
   {
     "de": "abgesehen",
-    "lv": "lai gan • turklāt",
+    "lv": "izņemot • neskaitot",
     "level": "B2"
   },
   {
@@ -2551,7 +2551,7 @@ const B2_WORDS = [
     "de": "Direktion",
     "de_article": "die",
     "de_plural": "die Direktionen",
-    "lv": "diprievārdu vadība",
+    "lv": "vadība",
     "level": "B2"
   },
   {
@@ -5009,7 +5009,7 @@ const B2_WORDS = [
     "de": "Faulbaum",
     "de_article": "der",
     "de_plural": "die Faulbäume",
-    "lv": "ieva",
+    "lv": "parastais krūklis",
     "level": "B2"
   },
   {
@@ -5417,7 +5417,7 @@ const B2_WORDS = [
   },
   {
     "de": "fristlos",
-    "lv": "beztermiņa",
+    "lv": "tūlītējs • bez uzteikuma termiņa",
     "level": "B2"
   },
   {
@@ -5644,7 +5644,7 @@ const B2_WORDS = [
     "de": "Gasableser",
     "de_article": "der",
     "de_plural": "die Gasableser",
-    "lv": "gāzes skaitītājs",
+    "lv": "gāzes skaitītāja rādījumu nolasītājs",
     "level": "B2"
   },
   {
@@ -13330,7 +13330,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich versehen",
-    "lv": "aizmirst • aprīkot ar",
+    "lv": "pārskatīties",
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
@@ -14672,144 +14672,6 @@ const B2_WORDS = [
     "de_plural": "die Zwischenräume",
     "lv": "atstarpe • starptelpa",
     "level": "B2"
-  },
-  {
-    "de": "ändern",
-    "lv": "mainīt • labot",
-    "level": "B2",
-    "study": {
-      "id": "b2-aendern",
-      "layout": "standardStudy",
-      "translation": "mainīt • labot",
-      "explanation": [
-        "Galvenā doma: Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu.",
-        "ändern galvenokārt nozīmē: labot vai mainīt detaļu.",
-        "Bieži raksturo: konkrētu lietu.",
-        "ändern lieto, kad maina plānu, termiņu, adresi vai kādu detaļu."
-      ],
-      "examples": [
-        {
-          "de": "Ich ändere den Termin.",
-          "lv": "Es mainu termiņu."
-        },
-        {
-          "de": "Kannst du die Adresse ändern?",
-          "lv": "vai vari mainīt adresi?"
-        },
-        {
-          "de": "Wir ändern unseren Plan.",
-          "lv": "mēs mainām savu plānu."
-        },
-        {
-          "de": "Ich ändere den Termin.",
-          "lv": "es mainu termiņu."
-        },
-        {
-          "de": "ändern",
-          "lv": "mainīt detaļu; wechseln"
-        }
-      ],
-      "tip": [
-        "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu.",
-        "Izmanto ändern, kad konteksts atbilst šai nozīmei."
-      ],
-      "important": [
-        "ändern = mainīt konkrētu lietu (Termin, Adresse, Plan).",
-        "Plāns, termiņš, adrese: ändern.",
-        "Mainīt konkrētu lietu vai informāciju — plānu, termiņu, adresi, lēmumu."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "ändern"
-          ],
-          "purple": [
-            "mainīt",
-            "labot"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "ände"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mainu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ändern",
-                "ändern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mainīt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ändern",
-                "ändern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mainām"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ände"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mainu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ändern",
-                "ändern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mainīt"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "purple": [
-              "mainīt"
-            ]
-          },
-          {}
-        ],
-        "important": [
-          {
-            "blue": [
-              "ändern"
-            ]
-          }
-        ]
-      }
-    }
   },
   {
     "de": "wechseln",
