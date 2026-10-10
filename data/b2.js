@@ -267,7 +267,7 @@ const B2_WORDS = [
   },
   {
     "de": "abgesehen",
-    "lv": "lai gan • turklāt",
+    "lv": "izņemot • neskaitot",
     "level": "B2"
   },
   {
@@ -2551,7 +2551,7 @@ const B2_WORDS = [
     "de": "Direktion",
     "de_article": "die",
     "de_plural": "die Direktionen",
-    "lv": "diprievārdu vadība",
+    "lv": "vadība",
     "level": "B2"
   },
   {
@@ -5009,7 +5009,7 @@ const B2_WORDS = [
     "de": "Faulbaum",
     "de_article": "der",
     "de_plural": "die Faulbäume",
-    "lv": "ieva",
+    "lv": "parastais krūklis",
     "level": "B2"
   },
   {
@@ -5417,7 +5417,7 @@ const B2_WORDS = [
   },
   {
     "de": "fristlos",
-    "lv": "beztermiņa",
+    "lv": "tūlītējs • bez uzteikuma termiņa",
     "level": "B2"
   },
   {
@@ -5644,7 +5644,7 @@ const B2_WORDS = [
     "de": "Gasableser",
     "de_article": "der",
     "de_plural": "die Gasableser",
-    "lv": "gāzes skaitītājs",
+    "lv": "gāzes skaitītāja rādījumu nolasītājs",
     "level": "B2"
   },
   {
@@ -13330,7 +13330,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich versehen",
-    "lv": "aizmirst • aprīkot ar",
+    "lv": "pārskatīties",
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",

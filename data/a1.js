@@ -5684,7 +5684,7 @@ const A1_WORDS = [
   },
   {
     "de": "erst",
-    "lv": "tikai",
+    "lv": "tikai • vispirms",
     "level": "A1",
     "study": {
       "id": "a1-erst",
@@ -6840,7 +6840,7 @@ const A1_WORDS = [
   },
   {
     "de": "finden",
-    "lv": "atrast",
+    "lv": "atrast • uzskatīt • domāt",
     "level": "A1",
     "study": {
       "id": "a1-finden",

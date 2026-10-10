@@ -3562,7 +3562,7 @@ const C1_WORDS = [
   },
   {
     "de": "verabschieden",
-    "lv": "atbrīvot no darba • aizlaist pensijā",
+    "lv": "atvadīties",
     "level": "C1"
   },
   {
