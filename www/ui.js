@@ -6334,9 +6334,12 @@ function presentStudyTestCard(card) {
   }
 }
 
+let cardLinkGeneration = 0;
+
 async function activateStudyCardTestMode(value) {
   const query = decodeCardQuery(value);
   if (!query) return false;
+  const generation = ++cardLinkGeneration;
 
   const card = findCardByQuery(query);
   if (card) {
@@ -6348,6 +6351,7 @@ async function activateStudyCardTestMode(value) {
   // datasets. That crawl must not block the deep link: a hung request
   // used to leave ?card= on the home screen forever.
   ensureMultilingualCardSearchIndex().then(() => {
+    if (generation !== cardLinkGeneration) return;
     if (state.studyTestCard || state.navScreen !== "home") return;
     const later = findCardByQuery(query);
     if (!later) {
@@ -6358,6 +6362,7 @@ async function activateStudyCardTestMode(value) {
     presentStudyTestCard(later);
   }).catch((error) => {
     console.warn("[card-search] Multilingual index failed:", error);
+    if (generation !== cardLinkGeneration) return;
     if (!state.studyTestCard && state.navScreen === "home") {
       showStudyCardNotFoundMessage();
     }
@@ -9032,6 +9037,12 @@ function bootAppUi() {
   }).catch((error) => {
     console.error("Card link failed:", error);
     paintShell();
+  });
+
+  window.addEventListener("hashchange", () => {
+    const link = readStudyCardLink();
+    if (!link) return;
+    activateStudyCardTestMode(link);
   });
 }
 
