@@ -9514,3 +9514,9 @@ html.debug-mobile-menu-layers .menu-button-container button {
     color: #000000 !important;
   }
 }
+
+/* ?card= / #card= must hide the home menu. Author display rules must not override [hidden]. */
+#homeMenuScreen[hidden],
+.home-menu-screen[hidden] {
+  display: none !important;
+}

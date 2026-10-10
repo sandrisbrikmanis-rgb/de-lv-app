@@ -6302,18 +6302,18 @@ function showStudyCardNotFoundMessage() {
   window.setTimeout(() => notice.remove(), 3200);
 }
 
-async function activateStudyCardTestMode(value) {
-  const query = decodeCardQuery(value);
-  if (!query) return false;
+function readStudyCardLink() {
+  const search = new URLSearchParams(window.location.search);
+  const fromSearch = search.get("study") || search.get("card");
+  if (fromSearch) return fromSearch;
 
-  await ensureMultilingualCardSearchIndex();
-  const card = findCardByQuery(query);
-  if (!card) {
-    console.warn("Study card not found:", query);
-    showStudyCardNotFoundMessage();
-    return false;
-  }
+  const hash = String(window.location.hash || "").replace(/^#/, "");
+  if (!hash) return null;
+  const hashParams = new URLSearchParams(hash.replace(/^\?/, ""));
+  return hashParams.get("study") || hashParams.get("card");
+}
 
+function presentStudyTestCard(card) {
   console.log("Found study card:", card.id || card.study?.id || card.de);
   clearSpellingAutoNextTimer();
   state.studyTestCard = card;
@@ -6327,8 +6327,47 @@ async function activateStudyCardTestMode(value) {
   state.problemMode = false;
   state.timeReviewMode = null;
   openGroupDetailScreen(card.level);
-  render();
-  return true;
+  try {
+    render();
+  } catch (error) {
+    console.error("Study card render failed:", error);
+  }
+}
+
+let cardLinkGeneration = 0;
+
+async function activateStudyCardTestMode(value) {
+  const query = decodeCardQuery(value);
+  if (!query) return false;
+  const generation = ++cardLinkGeneration;
+
+  const card = findCardByQuery(query);
+  if (card) {
+    presentStudyTestCard(card);
+    return true;
+  }
+
+  // A gloss that is not in the loaded language still needs the other
+  // datasets. That crawl must not block the deep link: a hung request
+  // used to leave ?card= on the home screen forever.
+  ensureMultilingualCardSearchIndex().then(() => {
+    if (generation !== cardLinkGeneration) return;
+    if (state.studyTestCard || state.navScreen !== "home") return;
+    const later = findCardByQuery(query);
+    if (!later) {
+      console.warn("Study card not found:", query);
+      showStudyCardNotFoundMessage();
+      return;
+    }
+    presentStudyTestCard(later);
+  }).catch((error) => {
+    console.warn("[card-search] Multilingual index failed:", error);
+    if (generation !== cardLinkGeneration) return;
+    if (!state.studyTestCard && state.navScreen === "home") {
+      showStudyCardNotFoundMessage();
+    }
+  });
+  return false;
 }
 
 function clampIndex(index, length) {
@@ -8968,14 +9007,12 @@ function bootAppUi() {
   initStaticCourseLessons();
   initMobileMenuDebugHelper();
   initCardAudioInteraction();
-  updateNavScreen();
 
-  const studyCardTestParam = new URLSearchParams(window.location.search).get("study")
-    || new URLSearchParams(window.location.search).get("card");
+  const studyCardTestParam = readStudyCardLink();
 
-  activateStudyCardTestMode(studyCardTestParam).then((activated) => {
-    if (activated) return;
+  const paintShell = () => {
     try {
+      updateNavScreen();
       if (state.navScreen === "detail") {
         renderCard();
       } else {
@@ -8988,6 +9025,24 @@ function bootAppUi() {
         elements.notice.textContent = t("notices.loadFailed");
       }
     }
+  };
+
+  const cardPromise = typeof activateStudyCardTestMode === "function"
+    ? activateStudyCardTestMode(studyCardTestParam)
+    : Promise.resolve(false);
+
+  cardPromise.then((activated) => {
+    if (activated) return;
+    paintShell();
+  }).catch((error) => {
+    console.error("Card link failed:", error);
+    paintShell();
+  });
+
+  window.addEventListener("hashchange", () => {
+    const link = readStudyCardLink();
+    if (!link) return;
+    activateStudyCardTestMode(link);
   });
 }
 
