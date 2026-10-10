@@ -415,7 +415,7 @@ const C2_WORDS = [
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "ragavu sliece",
+    "lv": "slidas asmens",
     "level": "C2"
   },
   {

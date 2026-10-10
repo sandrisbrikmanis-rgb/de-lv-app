@@ -6201,7 +6201,7 @@ const B2_WORDS = [
     "de": "Geschwür",
     "de_article": "das",
     "de_plural": "die Geschwüre",
-    "lv": "augonis • čūla",
+    "lv": "čūla",
     "level": "B2"
   },
   {
@@ -6943,7 +6943,7 @@ const B2_WORDS = [
   },
   {
     "de": "hänseln",
-    "lv": "nerrot • kircināt",
+    "lv": "nerrot • ķircināt",
     "level": "B2"
   },
   {
@@ -8077,7 +8077,7 @@ const B2_WORDS = [
   {
     "de": "Kaufkraft",
     "de_article": "die",
-    "lv": "naudas • arī personas pirktspēja",
+    "lv": "pirktspēja",
     "level": "B2"
   },
   {
@@ -9461,7 +9461,7 @@ const B2_WORDS = [
   },
   {
     "de": "nachträglich",
-    "lv": "vēlāks • papildu • vēlāk • piedevām",
+    "lv": "vēlāks • papildu • vēlāk",
     "level": "B2"
   },
   {
@@ -11160,7 +11160,7 @@ const B2_WORDS = [
   },
   {
     "de": "schwelen",
-    "lv": "kvēlot",
+    "lv": "gruzdēt",
     "level": "B2"
   },
   {
@@ -12777,7 +12777,7 @@ const B2_WORDS = [
   {
     "de": "Unterhalt",
     "de_article": "der",
-    "lv": "apgādība • apgāde • apgādāšana",
+    "lv": "uzturlīdzekļi • uzturēšana • apgāde",
     "level": "B2"
   },
   {

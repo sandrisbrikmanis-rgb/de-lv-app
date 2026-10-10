@@ -47548,7 +47548,7 @@ const B1_WORDS = [
   },
   {
     "de": "regeln",
-    "lv": "kārtot",
+    "lv": "kārtot • regulēt",
     "level": "B1",
     "study": {
       "id": "b1-regeln",
@@ -51728,7 +51728,7 @@ const B1_WORDS = [
   },
   {
     "de": "schütten",
-    "lv": "[sa]bērt",
+    "lv": "[sa]bērt • liet",
     "level": "B1"
   },
   {
@@ -66386,7 +66386,7 @@ const B1_WORDS = [
   },
   {
     "de": "da",
-    "lv": "jo • par cik",
+    "lv": "jo • tā kā",
     "level": "B1",
     "study": {
       "id": "b1-da",

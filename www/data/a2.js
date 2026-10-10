@@ -68559,7 +68559,7 @@ const A2_WORDS = [
   },
   {
     "de": "zuletzt",
-    "lv": "beidzot",
+    "lv": "beidzot • pēdējoreiz",
     "level": "A2"
   },
   {
