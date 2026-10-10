@@ -142,13 +142,6 @@
       return;
     }
 
-    const studyCardTestParam = new URLSearchParams(window.location.search).get("study")
-      || new URLSearchParams(window.location.search).get("card");
-
-    if (typeof activateStudyCardTestMode === "function" && await activateStudyCardTestMode(studyCardTestParam)) {
-      return;
-    }
-
     window.bootAppUi();
   }
 
