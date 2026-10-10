@@ -66391,12 +66391,12 @@ const B1_WORDS = [
     "study": {
       "id": "b1-da",
       "layout": "standardStudy",
-      "translation": "jo • par cik",
+      "translation": "jo • tā kā",
       "explanation": [
         "Galvenā doma: Iemesla saiklis, kad iemesls jau ir zināms vai minēts. Pēc da darbības vārds ir teikuma beigās.",
         "da galvenokārt nozīmē: paskaidro zināmu iemeslu.",
         "Bieži raksturo: iemesls jau minēts.",
-        "da kā saikne nozīmē jo/par cik, kad iemesls jau ir zināms vai minēts iepriekš.",
+        "da kā saikne nozīmē jo/tā kā, kad iemesls jau ir zināms vai minēts iepriekš.",
         "Abi prasa darbības vārdu teikuma beigās."
       ],
       "examples": [
@@ -66438,7 +66438,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "jo",
-            "par cik"
+            "tā kā"
           ],
           "blue": [
             "da"
