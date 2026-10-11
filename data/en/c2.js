@@ -181,11 +181,11 @@ const C2_WORDS = [
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
       "translation": "Unit of weight",
-      "explanation": "Main idea: die Gewichtseinheit means unit of weight. It is used when talking about kilograms, grams, tons and other units of weight/mass.",
+      "explanation": "Main idea: die Gewichtseinheit means a unit of weight. It is used when talking about kilograms, grams, tonnes and other units of weight/mass.",
       "examples": [
         {
           "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "A kilogram is a unit of weight."
+          "lv": "The kilogram is a unit of weight."
         },
         {
           "de": "Welche Gewichtseinheit soll ich benutzen?",
@@ -193,9 +193,124 @@ const C2_WORDS = [
         },
         {
           "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "A gram and a tonne are units of weight."
+          "lv": "The gram and the tonne are units of weight."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "Gewichtseinheit",
+          "meaning": "unit of weight",
+          "example": "Kilogramm ist eine Gewichtseinheit. = The kilogram is a unit of weight."
+        },
+        {
+          "word": "Maßeinheit",
+          "meaning": "unit of measurement",
+          "example": "Meter ist eine Maßeinheit. = The metre is a unit of measurement."
+        }
+      ],
+      "tip": "Gewicht means weight, Einheit means unit.",
+      "important": "Gewichtseinheit is only a unit of weight; in general, a unit of measurement is Maßeinheit.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Gewichtseinheit"
+          ],
+          "purple": [
+            "weight",
+            "unit"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "weight",
+                "unit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "weight",
+                "unit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "weight",
+                "unit"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Gewichtseinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "unit of weight"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Gewichtseinheit"
+              ],
+              "purple": [
+                "weight",
+                "unit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Maßeinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "unit"
+              ]
+            },
+            "example": {
+              "red": [
+                "Maßeinheit"
+              ]
+            }
+          }
+        ],
+        "tip": {},
+        "important": {
+          "blue": [
+            "Gewichtseinheit"
+          ],
+          "red": [
+            "Maßeinheit"
+          ]
+        }
+      }
     }
   },
   {

@@ -110,7 +110,144 @@ const B2_WORDS = [
   {
     "de": "angebracht",
     "lv": "Suitable",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-angebracht",
+      "layout": "standardStudy",
+      "translation": "Suitable",
+      "explanation": "Main idea: angebracht means suitable or appropriate in a particular situation. Angebracht says that something is called for: a tone, a criticism or an apology. It is often used with nicht or wäre.",
+      "examples": [
+        {
+          "de": "Dieser Ton ist nicht angebracht.",
+          "lv": "This tone is not suitable."
+        },
+        {
+          "de": "Deine Kritik ist angebracht.",
+          "lv": "Your criticism is appropriate."
+        },
+        {
+          "de": "Eine Entschuldigung wäre angebracht.",
+          "lv": "An apology would be in order."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "angebracht",
+          "meaning": "suitable, appropriate",
+          "example": "Dieser Ton ist nicht angebracht. = This tone is not suitable."
+        },
+        {
+          "word": "passend",
+          "meaning": "suitable",
+          "example": "Das ist ein passendes Geschenk. = That is a suitable present."
+        }
+      ],
+      "tip": "If something is called for in the situation, use angebracht.",
+      "important": "Angebracht does not only mean attached; in everyday use it more often means 'called for'.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "angebracht"
+          ],
+          "purple": [
+            "suitable",
+            "appropriate",
+            "called for"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "suitable"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "appropriate"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "in order"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "angebracht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "suitable",
+                "appropriate"
+              ]
+            },
+            "example": {
+              "blue": [
+                "angebracht"
+              ],
+              "purple": [
+                "suitable"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "passend"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "suitable"
+              ]
+            },
+            "example": {
+              "red": [
+                "passendes"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "angebracht"
+          ],
+          "purple": [
+            "called for"
+          ]
+        },
+        "important": {
+          "blue": [
+            "angebracht"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "angehen",
@@ -250,9 +387,9 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Put up with",
       "rektion": "mit + dative",
-      "explanation": "Sich abfinden takes the fixed preposition mit + dative.",
+      "explanation": "sich abfinden requires a specific preposition: mit + dative.",
       "forms": "mit + dative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Takes:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -268,7 +405,126 @@ const B2_WORDS = [
   {
     "de": "abgesehen",
     "lv": "Apart from • Besides",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-abgesehen",
+      "layout": "standardStudy",
+      "translation": "Apart from • Besides",
+      "explanation": "Main idea: abgesehen von means apart from or not counting. After abgesehen von a noun follows in the dative. It shows that something is not taken into account.",
+      "examples": [
+        {
+          "de": "Abgesehen von dir sind alle hier.",
+          "lv": "Apart from you, everyone is here."
+        },
+        {
+          "de": "Abgesehen vom Wetter war alles gut.",
+          "lv": "Apart from the weather, everything was good."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abgesehen",
+          "meaning": "apart from, not counting",
+          "example": "Abgesehen von dir sind alle hier. = Apart from you, everyone is here."
+        },
+        {
+          "word": "außer",
+          "meaning": "except for",
+          "example": "Außer dir sind alle hier. = Except for you, everyone is here."
+        }
+      ],
+      "tip": "When you see abgesehen, expect von and the dative.",
+      "important": "Abgesehen von always takes von.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "abgesehen",
+            "Abgesehen von"
+          ],
+          "purple": [
+            "apart from",
+            "not counting"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Abgesehen von"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Apart from"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Apart from"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abgesehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apart from",
+                "not counting"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Abgesehen von"
+              ],
+              "purple": [
+                "Apart from"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "außer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "except for"
+              ]
+            },
+            "example": {
+              "red": [
+                "Außer"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "abgesehen"
+          ]
+        },
+        "important": {
+          "blue": [
+            "abgesehen",
+            "Abgesehen von"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "abgespannt",
@@ -425,7 +681,141 @@ const B2_WORDS = [
   {
     "de": "abtragen",
     "lv": "Carry away • Wear away • Demolish",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-abtragen",
+      "layout": "standardStudy",
+      "translation": "Carry away • Wear away • Demolish",
+      "explanation": "Main idea: the sentence shows which meaning abtragen has: to carry away, to wear out or to demolish. With dishes it means to carry away, with shoes to wear out, with a wall to demolish it or remove it layer by layer.",
+      "examples": [
+        {
+          "de": "Das Geschirr abtragen.",
+          "lv": "Carry away the dishes from the table."
+        },
+        {
+          "de": "Schuhe abtragen.",
+          "lv": "Wear out shoes."
+        },
+        {
+          "de": "Eine Mauer abtragen.",
+          "lv": "Demolish a wall."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abtragen",
+          "meaning": "to carry away, to wear out, to demolish",
+          "example": "Das Geschirr abtragen. = Carry away the dishes from the table."
+        },
+        {
+          "word": "tragen",
+          "meaning": "to carry",
+          "example": "Er trägt die Tasche. = He is carrying the bag."
+        }
+      ],
+      "tip": "Look at what is being abgetragen in the sentence: dishes, shoes or a wall.",
+      "important": "Abtragen is not the same as tragen (to carry, to wear).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "abtragen"
+          ],
+          "purple": [
+            "carry away",
+            "wear out",
+            "demolish"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abtragen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Carry away"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abtragen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Wear out"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abtragen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Demolish"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abtragen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "carry away",
+                "wear out",
+                "demolish"
+              ]
+            },
+            "example": {
+              "blue": [
+                "abtragen"
+              ],
+              "purple": [
+                "Carry away"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "tragen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "carry"
+              ]
+            },
+            "example": {
+              "red": [
+                "trägt"
+              ]
+            }
+          }
+        ],
+        "tip": {},
+        "important": {
+          "blue": [
+            "abtragen"
+          ],
+          "red": [
+            "tragen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "abtreten",
@@ -463,9 +853,9 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Turn away from",
       "rektion": "von + dative",
-      "explanation": "Sich abwenden takes the fixed preposition von + dative.",
+      "explanation": "sich abwenden requires a specific preposition: von + dative.",
       "forms": "von + dative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Takes:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -639,7 +1029,123 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
     "lv": "Outward appearance",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2--u-erlichkeit",
+      "layout": "standardStudy",
+      "translation": "Outward appearance",
+      "explanation": "Main idea: Äußerlichkeit means something superficial: an outward, non-essential matter. Äußerlichkeiten is used in the plural when talking about outward appearances or inessential formalities.",
+      "examples": [
+        {
+          "de": "Er legt viel Wert auf Äußerlichkeiten.",
+          "lv": "He attaches great importance to outward appearances."
+        },
+        {
+          "de": "Äußerlichkeiten sind ihm wichtiger als Charakter.",
+          "lv": "Outward appearances matter more to him than character."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Äußerlichkeit",
+          "meaning": "outward appearance, superficiality",
+          "example": "Er legt viel Wert auf Äußerlichkeiten. = He attaches great importance to outward appearances."
+        },
+        {
+          "word": "Aussehen",
+          "meaning": "appearance",
+          "example": "Sein Aussehen ist gepflegt. = His appearance is well groomed."
+        }
+      ],
+      "tip": "If it is about looks rather than substance, think of Äußerlichkeiten.",
+      "important": "Äußerlichkeit is usually a critical word, not a neutral 'appearance'.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Äußerlichkeit",
+            "Äußerlichkeiten"
+          ],
+          "purple": [
+            "outward appearance"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "outward appearances"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Outward appearances"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Äußerlichkeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "outward appearance"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Äußerlichkeiten"
+              ],
+              "purple": [
+                "outward appearances"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Aussehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "appearance"
+              ]
+            },
+            "example": {
+              "red": [
+                "Aussehen"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Äußerlichkeiten"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Äußerlichkeit"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Äußerung",
@@ -651,7 +1157,177 @@ const B2_WORDS = [
   {
     "de": "aussetzen",
     "lv": "Expose • Subject • Object • Suspend",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-aussetzen",
+      "layout": "standardStudy",
+      "translation": "Expose • Subject • Object • Suspend",
+      "explanation": "Main idea: the sentence shows which meaning aussetzen has: to offer, to expose, to object or to stop for a time. With a reward it means to offer, with danger to expose. In the phrase etwas auszusetzen haben it means to object. For an engine or training it means to stop working for a time or to suspend.",
+      "examples": [
+        {
+          "de": "Eine Belohnung aussetzen.",
+          "lv": "Offer a reward."
+        },
+        {
+          "de": "Jemanden einer Gefahr aussetzen.",
+          "lv": "Expose someone to danger."
+        },
+        {
+          "de": "Ich habe nichts daran auszusetzen.",
+          "lv": "I have nothing to object to."
+        },
+        {
+          "de": "Der Motor setzt aus.",
+          "lv": "The engine stops working."
+        },
+        {
+          "de": "Wir setzen das Training für eine Woche aus.",
+          "lv": "We are suspending training for a week."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "aussetzen",
+          "meaning": "to offer, to expose, to object",
+          "example": "Eine Belohnung aussetzen. = Offer a reward."
+        },
+        {
+          "word": "unterbrechen",
+          "meaning": "to interrupt",
+          "example": "Ich unterbreche die Arbeit. = I am interrupting my work."
+        }
+      ],
+      "tip": "If the sentence contains Gefahr or Kritik, think of expose or object.",
+      "important": "Ich habe nichts daran auszusetzen means 'I have nothing to object to', not to offer something.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "aussetzen",
+            "auszusetzen"
+          ],
+          "purple": [
+            "offer",
+            "expose",
+            "object"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "aussetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Offer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aussetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Expose"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auszusetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "object"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzt aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stops working"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzen",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "suspending"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aussetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "offer",
+                "expose",
+                "object"
+              ]
+            },
+            "example": {
+              "blue": [
+                "aussetzen"
+              ],
+              "purple": [
+                "Offer"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unterbrechen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "interrupt"
+              ]
+            },
+            "example": {
+              "red": [
+                "unterbreche"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "purple": [
+            "expose",
+            "object"
+          ]
+        },
+        "important": {
+          "blue": [
+            "auszusetzen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "aussichtslos",
@@ -681,7 +1357,143 @@ const B2_WORDS = [
   {
     "de": "ausströmen",
     "lv": "Flow out • Emanate • Radiate",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-ausstr-men",
+      "layout": "standardStudy",
+      "translation": "Flow out • Emanate • Radiate",
+      "explanation": "Main idea: the sentence shows which meaning ausströmen has: to flow out, to escape or to radiate. With water it means to flow out, with gas to escape, and with a person to radiate a quality, for example calm.",
+      "examples": [
+        {
+          "de": "Wasser strömt aus dem Tank aus.",
+          "lv": "Water is flowing out of the tank."
+        },
+        {
+          "de": "Gas strömt aus dem Rohr aus.",
+          "lv": "Gas is escaping from the pipe."
+        },
+        {
+          "de": "Sie strömt Ruhe aus.",
+          "lv": "She radiates calm."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ausströmen",
+          "meaning": "to flow out, to escape, to radiate",
+          "example": "Wasser strömt aus dem Tank aus. = Water is flowing out of the tank."
+        },
+        {
+          "word": "fließen",
+          "meaning": "to flow",
+          "example": "Das Wasser fließt. = The water is flowing."
+        }
+      ],
+      "tip": "If water or gas is coming out, think flow out or escape.",
+      "important": "Ausströmen with a person means to radiate, not to flow out.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ausströmen"
+          ],
+          "purple": [
+            "flow out",
+            "escape",
+            "radiate"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "strömt aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "flowing out"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömt aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "escaping"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "radiates"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ausströmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "flow out",
+                "escape",
+                "radiate"
+              ]
+            },
+            "example": {
+              "blue": [
+                "strömt aus"
+              ],
+              "purple": [
+                "flowing out"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "flow"
+              ]
+            },
+            "example": {
+              "red": [
+                "fließt"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "purple": [
+            "flow out",
+            "escape"
+          ]
+        },
+        "important": {
+          "blue": [
+            "ausströmen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "austragen",
@@ -696,7 +1508,162 @@ const B2_WORDS = [
   {
     "de": "austreten",
     "lv": "Tread out • Wear down • Quit",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-austreten",
+      "layout": "standardStudy",
+      "translation": "Tread out • Wear down • Quit",
+      "explanation": "Main idea: the sentence shows which meaning austreten has: to tread out, to stub out or to leave. With a path it means to tread out, with a cigarette to stub out. With a Verein or Partei it means to leave.",
+      "examples": [
+        {
+          "de": "Einen Pfad austreten.",
+          "lv": "Tread out a path."
+        },
+        {
+          "de": "Eine Zigarette austreten.",
+          "lv": "Stub out a cigarette."
+        },
+        {
+          "de": "Aus dem Verein austreten.",
+          "lv": "Leave the club."
+        },
+        {
+          "de": "Aus einer Partei austreten.",
+          "lv": "Leave a political party."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "austreten",
+          "meaning": "to tread out, to stub out, to leave",
+          "example": "Einen Pfad austreten. = Tread out a path."
+        },
+        {
+          "word": "eintreten",
+          "meaning": "to join",
+          "example": "Er tritt in den Verein ein. = He joins the club."
+        }
+      ],
+      "tip": "If the sentence has aus dem ..., think of the verb leave.",
+      "important": "Austreten is not the same as eintreten (to join).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "austreten"
+          ],
+          "purple": [
+            "tread out",
+            "stub out",
+            "leave"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "austreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Tread out"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "austreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Stub out"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "austreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Leave"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "austreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Leave"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "austreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tread out",
+                "stub out",
+                "leave"
+              ]
+            },
+            "example": {
+              "blue": [
+                "austreten"
+              ],
+              "purple": [
+                "Tread out"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eintreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "join"
+              ]
+            },
+            "example": {
+              "red": [
+                "tritt",
+                "ein"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "purple": [
+            "leave"
+          ]
+        },
+        "important": {
+          "blue": [
+            "austreten"
+          ],
+          "red": [
+            "eintreten"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "auswärtig",
@@ -896,7 +1863,128 @@ const B2_WORDS = [
   {
     "de": "bebauen",
     "lv": "Cultivate • Build on",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-bebauen",
+      "layout": "standardStudy",
+      "translation": "Cultivate • Build on",
+      "explanation": "Main idea: bebauen means to cultivate land or to build on a plot of land. With Feld, bebauen means to cultivate; with Grundstück, to build on. The object shows the meaning.",
+      "examples": [
+        {
+          "de": "Ein Feld bebauen.",
+          "lv": "Cultivate a field."
+        },
+        {
+          "de": "Ein Grundstück bebauen.",
+          "lv": "Build on a plot of land."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bebauen",
+          "meaning": "to cultivate, to build on",
+          "example": "Ein Feld bebauen. = Cultivate a field."
+        },
+        {
+          "word": "bauen",
+          "meaning": "to build",
+          "example": "Wir bauen ein Haus. = We are building a house."
+        }
+      ],
+      "tip": "If the sentence has a field, think cultivate; if a plot of land, build on.",
+      "important": "Bebauen is not the same as bauen (to build).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "bebauen"
+          ],
+          "purple": [
+            "cultivate",
+            "build on"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bebauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Cultivate"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Build on"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bebauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cultivate",
+                "build on"
+              ]
+            },
+            "example": {
+              "blue": [
+                "bebauen"
+              ],
+              "purple": [
+                "Cultivate"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "build"
+              ]
+            },
+            "example": {
+              "red": [
+                "bauen"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "purple": [
+            "cultivate",
+            "build on"
+          ]
+        },
+        "important": {
+          "blue": [
+            "bebauen"
+          ],
+          "red": [
+            "bauen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "bedürfen",
@@ -917,9 +2005,9 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Deal with",
       "rektion": "mit + dative",
-      "explanation": "Sich befassen takes the fixed preposition mit + dative.",
+      "explanation": "sich befassen requires a specific preposition: mit + dative.",
       "forms": "mit + dative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Takes:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -970,9 +2058,9 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Be satisfied with",
       "rektion": "mit + dative",
-      "explanation": "Sich begnügen takes the fixed preposition mit + dative.",
+      "explanation": "sich begnügen requires a specific preposition: mit + dative.",
       "forms": "mit + dative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Takes:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1148,9 +2236,9 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Seize • Take possession of",
       "rektion": "+ genitive",
-      "explanation": "Sich bemächtigen is used with a genitive object and no preposition.",
+      "explanation": "sich bemächtigen takes the genitive without a preposition in modern German.",
       "forms": "+ genitive",
-      "formsLabel": "Rection:",
+      "formsLabel": "Takes:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1231,11 +2319,11 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-berufen",
       "layout": "minimalStudy",
-      "translation": "Refer to • Invoke",
+      "translation": "Refer to",
       "rektion": "auf + accusative",
-      "explanation": "Sich berufen takes the fixed preposition auf + accusative.",
+      "explanation": "sich berufen requires a specific preposition: auf + accusative.",
       "forms": "auf + accusative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Takes:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1263,7 +2351,158 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Besatzungen",
     "lv": "Crew • Occupying forces",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-besatzung",
+      "layout": "standardStudy",
+      "translation": "Crew • Occupying forces",
+      "explanation": "Main idea: the sentence shows which meaning Besatzung has: ship's crew, flight crew, team or occupying forces. With a ship it is the ship's crew, with an aircraft the flight crew. For a group of people it can be a team. In a wartime context it means occupying forces.",
+      "examples": [
+        {
+          "de": "Die Besatzung des Schiffes.",
+          "lv": "The ship's crew."
+        },
+        {
+          "de": "Die Besatzung des Flugzeugs besteht aus drei Personen.",
+          "lv": "The flight crew of the aircraft consists of three people."
+        },
+        {
+          "de": "Die ganze Besatzung wurde gerettet.",
+          "lv": "The whole crew was rescued."
+        },
+        {
+          "de": "Die feindliche Besatzung verließ die Stadt.",
+          "lv": "The enemy occupying forces left the city."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Besatzung",
+          "meaning": "team, flight crew, ship's crew",
+          "example": "Die Besatzung des Schiffes. = The ship's crew."
+        },
+        {
+          "word": "Mannschaft",
+          "meaning": "team",
+          "example": "Die Mannschaft gewinnt das Spiel. = The team wins the game."
+        }
+      ],
+      "tip": "Look at the context: a ship, an aircraft or a city with troops.",
+      "important": "Besatzung is not the same as Mannschaft for a sports team.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Besatzung"
+          ],
+          "purple": [
+            "team",
+            "flight crew",
+            "ship's crew",
+            "occupying forces"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ship's crew"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "flight crew"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "crew"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "occupying forces"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Besatzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "team",
+                "flight crew",
+                "ship's crew"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Besatzung"
+              ],
+              "purple": [
+                "ship's crew"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Mannschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "team"
+              ]
+            },
+            "example": {
+              "red": [
+                "Mannschaft"
+              ]
+            }
+          }
+        ],
+        "tip": {},
+        "important": {
+          "blue": [
+            "Besatzung"
+          ],
+          "red": [
+            "Mannschaft"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "beschämen",
@@ -1289,9 +2528,9 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Limit yourself to",
       "rektion": "auf + accusative",
-      "explanation": "Sich beschränken takes the fixed preposition auf + accusative.",
+      "explanation": "sich beschränken requires a specific preposition: auf + accusative.",
       "forms": "auf + accusative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Takes:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1319,7 +2558,145 @@ const B2_WORDS = [
   {
     "de": "besessen",
     "lv": "Possessed • Obsessed • Consumed",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-besessen",
+      "layout": "standardStudy",
+      "translation": "Possessed • Obsessed • Consumed",
+      "explanation": "Main idea: besessen means possessed, obsessed or consumed by something. Besessen is used with von. It can be the devil, an idea or ambition: something that completely takes hold of a person.",
+      "examples": [
+        {
+          "de": "Er ist vom Teufel besessen.",
+          "lv": "He is possessed by the devil."
+        },
+        {
+          "de": "Er ist von dieser Idee besessen.",
+          "lv": "He is obsessed with this idea."
+        },
+        {
+          "de": "Sie ist vom Ehrgeiz besessen.",
+          "lv": "She is consumed by ambition."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besessen",
+          "meaning": "possessed, obsessed, consumed",
+          "example": "Er ist vom Teufel besessen. = He is possessed by the devil."
+        },
+        {
+          "word": "besitzen",
+          "meaning": "to own",
+          "example": "Er besitzt ein Haus. = He owns a house."
+        }
+      ],
+      "tip": "If something takes hold of a person, think of besessen von.",
+      "important": "Besessen is the past participle of besitzen, but in everyday use it means possessed.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besessen"
+          ],
+          "purple": [
+            "possessed",
+            "obsessed",
+            "consumed"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "possessed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "obsessed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "consumed"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "possessed",
+                "obsessed",
+                "consumed"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besessen"
+              ],
+              "purple": [
+                "possessed"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "own"
+              ]
+            },
+            "example": {
+              "red": [
+                "besitzt"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "besessen"
+          ]
+        },
+        "important": {
+          "blue": [
+            "besessen"
+          ],
+          "red": [
+            "besitzen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "besiedeln",
@@ -1389,16 +2766,16 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Engage in • Participate in",
       "rektion": "in + dative",
-      "explanation": "Sich betätigen takes the fixed preposition in + dative.",
+      "explanation": "sich betätigen requires a specific preposition: in + dative.",
       "forms": "in + dative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Takes:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich betätigen"
           ],
           "red": [
-            "Sich"
+            "in + dative"
           ]
         }
       }
@@ -2247,7 +3624,141 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Darstellungen",
     "lv": "Depiction • Outline",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-darstellung",
+      "layout": "standardStudy",
+      "translation": "Depiction • Outline",
+      "explanation": "Main idea: Darstellung means a portrayal, a depiction or an account. For an actor it is a portrayal, for a landscape a depiction, for events an account.",
+      "examples": [
+        {
+          "de": "Die Darstellung der Hauptfigur war überzeugend.",
+          "lv": "The portrayal of the main character was convincing."
+        },
+        {
+          "de": "Eine Darstellung der Landschaft.",
+          "lv": "A depiction of the landscape."
+        },
+        {
+          "de": "Eine klare Darstellung der Ereignisse.",
+          "lv": "A clear account of the events."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Darstellung",
+          "meaning": "portrayal, depiction, account",
+          "example": "Die Darstellung der Hauptfigur war überzeugend. = The portrayal of the main character was convincing."
+        },
+        {
+          "word": "Vorstellung",
+          "meaning": "idea",
+          "example": "Ich habe eine klare Vorstellung. = I have a clear idea."
+        }
+      ],
+      "tip": "Look at what is being dargestellt: a role, a landscape or events.",
+      "important": "Darstellung is not the same as Vorstellung (idea, performance).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Darstellung"
+          ],
+          "purple": [
+            "portrayal",
+            "depiction",
+            "account"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "portrayal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "depiction"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "account"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Darstellung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "portrayal",
+                "depiction",
+                "account"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Darstellung"
+              ],
+              "purple": [
+                "portrayal"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Vorstellung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "idea"
+              ]
+            },
+            "example": {
+              "red": [
+                "Vorstellung"
+              ]
+            }
+          }
+        ],
+        "tip": {},
+        "important": {
+          "blue": [
+            "Darstellung"
+          ],
+          "red": [
+            "Vorstellung"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Dasein",
@@ -2258,7 +3769,122 @@ const B2_WORDS = [
   {
     "de": "dasjenige",
     "lv": "That",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-dasjenige",
+      "layout": "standardStudy",
+      "translation": "That",
+      "explanation": "Main idea: dasjenige is a demonstrative pronoun: the one (that). Dasjenige is neuter, replaces a noun and is usually followed by a relative clause with das.",
+      "examples": [
+        {
+          "de": "Ich nehme dasjenige, das mir gefällt.",
+          "lv": "I will take the one that I like."
+        },
+        {
+          "de": "Von diesen Bildern gefällt mir dasjenige, das am Fenster hängt.",
+          "lv": "Of these pictures, I like the one that hangs by the window."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "dasjenige",
+          "meaning": "the one, that",
+          "example": "Ich nehme dasjenige, das mir gefällt. = I will take the one that I like."
+        },
+        {
+          "word": "derjenige",
+          "meaning": "the one (masc.)",
+          "example": "Derjenige, der kommt, bekommt einen Preis. = The one who comes gets a prize."
+        }
+      ],
+      "tip": "If a relative clause with das follows, think of dasjenige.",
+      "important": "Dasjenige is used only for the neuter gender.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dasjenige"
+          ],
+          "purple": [
+            "the one"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "the one"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "the one"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "dasjenige"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "the one"
+              ]
+            },
+            "example": {
+              "blue": [
+                "dasjenige"
+              ],
+              "purple": [
+                "the one"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "derjenige"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "the one (masc.)"
+              ]
+            },
+            "example": {
+              "red": [
+                "Derjenige"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "dasjenige"
+          ]
+        },
+        "important": {
+          "blue": [
+            "dasjenige"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Datei",
@@ -2545,7 +4171,125 @@ const B2_WORDS = [
   {
     "de": "dingen",
     "lv": "To hire • To engage",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-dingen",
+      "layout": "standardStudy",
+      "translation": "To hire • To engage",
+      "explanation": "Main idea: dingen means to hire or engage someone for work. Dingen is an old, even literary word. It means to agree on a job or service in return for payment.",
+      "examples": [
+        {
+          "de": "Der Bauer dingte einen Arbeiter.",
+          "lv": "The farmer hired a worker."
+        },
+        {
+          "de": "Wir dingten einen Bergführer.",
+          "lv": "We hired a mountain guide."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "dingen",
+          "meaning": "to hire, to engage",
+          "example": "Der Bauer dingte einen Arbeiter. = The farmer hired a worker."
+        },
+        {
+          "word": "anheuern",
+          "meaning": "to take on, to hire",
+          "example": "Der Kapitän heuert Matrosen an. = The captain takes on sailors."
+        }
+      ],
+      "tip": "If someone is being hired for a job, think of dingen.",
+      "important": "Dingen is rarely used nowadays; in everyday speech people usually say einstellen or anheuern.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dingen"
+          ],
+          "purple": [
+            "hire",
+            "engage"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dingte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hired"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dingten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hired"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "dingen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hire",
+                "engage"
+              ]
+            },
+            "example": {
+              "blue": [
+                "dingte"
+              ],
+              "purple": [
+                "hired"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anheuern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "take on"
+              ]
+            },
+            "example": {
+              "red": [
+                "heuert",
+                "an"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "dingen"
+          ]
+        },
+        "important": {
+          "red": [
+            "anheuern"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Direktion",
@@ -2617,7 +4361,149 @@ const B2_WORDS = [
   {
     "de": "donnern",
     "lv": "Thunder • Roar • Rumble",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-donnern",
+      "layout": "standardStudy",
+      "translation": "Thunder • Roar • Rumble",
+      "explanation": "Main idea: the meaning of donnern depends on the sentence: thunder rumbles, or something booms or rumbles. Es donnert means thunder is rumbling. With traffic or cannons, donnern means to boom or rumble.",
+      "examples": [
+        {
+          "de": "Es donnert.",
+          "lv": "Thunder is rumbling."
+        },
+        {
+          "de": "Ein Lastwagen donnert über die Brücke.",
+          "lv": "A lorry thunders over the bridge."
+        },
+        {
+          "de": "Die Kanonen donnern.",
+          "lv": "The cannons boom."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "donnern",
+          "meaning": "thunder rumbles, to boom, to rumble",
+          "example": "Es donnert. = Thunder is rumbling."
+        },
+        {
+          "word": "Donner",
+          "meaning": "thunder",
+          "example": "Ich höre den Donner. = I can hear the thunder."
+        }
+      ],
+      "tip": "If you see Es donnert, translate it as thunder is rumbling.",
+      "important": "Donnern is not the same as Donner (thunder as a noun).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "donnern",
+            "donnert"
+          ],
+          "purple": [
+            "thunder rumbles",
+            "thunder is rumbling",
+            "boom",
+            "rumble",
+            "rumbling"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rumbling"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "thunders"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "boom"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "donnern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "thunder rumbles",
+                "boom",
+                "rumble"
+              ]
+            },
+            "example": {
+              "blue": [
+                "donnert"
+              ],
+              "purple": [
+                "rumbling"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Donner"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "thunder"
+              ]
+            },
+            "example": {
+              "red": [
+                "Donner"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "donnert"
+          ],
+          "purple": [
+            "thunder is rumbling",
+            "rumbling"
+          ]
+        },
+        "important": {
+          "red": [
+            "Donner"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "dopen",
@@ -2957,7 +4843,201 @@ const B2_WORDS = [
     "de_article": "der",
     "de_plural": "die Dünste",
     "lv": "Steam • Fumes • Fog • Haze",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-dunst",
+      "layout": "standardStudy",
+      "translation": "Steam • Fumes • Fog • Haze",
+      "explanation": "Main idea: Dunst means steam, vapour or haze, depending on the sentence. It can be steam from a pot, vapour over water, fumes in a kitchen, stuffy air, fog or haze in the mountains.",
+      "examples": [
+        {
+          "de": "Warmer Dunst steigt aus dem Topf.",
+          "lv": "Warm steam rises from the pot."
+        },
+        {
+          "de": "Über dem heißen Wasser steigt Dunst auf.",
+          "lv": "Vapour rises above the hot water."
+        },
+        {
+          "de": "Die Küche ist voller Dunst.",
+          "lv": "The kitchen is full of fumes."
+        },
+        {
+          "de": "Stickiger Dunst hängt im Raum.",
+          "lv": "Stuffy air hangs in the room."
+        },
+        {
+          "de": "Am Morgen liegt Dunst über dem See.",
+          "lv": "In the morning there is fog over the lake."
+        },
+        {
+          "de": "Die Berge verschwinden im Dunst.",
+          "lv": "The mountains disappear in the haze."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Dunst",
+          "meaning": "steam, vapour, fumes",
+          "example": "Warmer Dunst steigt aus dem Topf. = Warm steam rises from the pot."
+        },
+        {
+          "word": "Nebel",
+          "meaning": "fog",
+          "example": "Am Morgen liegt Nebel über dem See. = In the morning there is fog over the lake."
+        }
+      ],
+      "tip": "Look at where the Dunst is: in the kitchen (steam), outdoors (fog, haze).",
+      "important": "Dunst is not the same as Nebel (fog).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Dunst"
+          ],
+          "purple": [
+            "steam",
+            "vapour",
+            "fumes",
+            "stuffy air",
+            "fog",
+            "haze"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "steam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Vapour"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fumes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Stuffy air"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fog"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "haze"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Dunst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "steam",
+                "vapour",
+                "fumes"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Dunst"
+              ],
+              "purple": [
+                "steam"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Nebel"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fog"
+              ]
+            },
+            "example": {
+              "red": [
+                "Nebel"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Dunst"
+          ],
+          "purple": [
+            "steam",
+            "fog",
+            "haze"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Dunst"
+          ],
+          "red": [
+            "Nebel"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "durcharbeiten",
@@ -3326,7 +5406,154 @@ const B2_WORDS = [
   {
     "de": "eigenwillig",
     "lv": "Headstrong • Self-willed • Stubborn • Wilful",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-eigenwillig",
+      "layout": "standardStudy",
+      "translation": "Headstrong • Self-willed • Stubborn • Wilful",
+      "explanation": "Main idea: eigenwillig describes a person or action that follows its own will. Depending on the sentence it can mean wilful, headstrong, stubborn or high-handed. In all these senses the person does not listen to others.",
+      "examples": [
+        {
+          "de": "Das war eine eigenwillige Entscheidung des Direktors.",
+          "lv": "That was a wilful decision by the director."
+        },
+        {
+          "de": "Ein eigenwilliges Kind hört nicht auf seine Eltern.",
+          "lv": "A headstrong child does not listen to its parents."
+        },
+        {
+          "de": "Er ist eigenwillig und gibt nicht nach.",
+          "lv": "He is stubborn and does not give way."
+        },
+        {
+          "de": "Der Chef ist eigenwillig und setzt immer seinen Willen durch.",
+          "lv": "The boss is high-handed and always gets his own way."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eigenwillig",
+          "meaning": "wilful, headstrong, stubborn",
+          "example": "Das war eine eigenwillige Entscheidung des Direktors. = That was a wilful decision by the director."
+        },
+        {
+          "word": "stur",
+          "meaning": "stubborn",
+          "example": "Er ist stur. = He is stubborn."
+        }
+      ],
+      "tip": "If someone does things their own way and will not give way, think of eigenwillig.",
+      "important": "Eigenwillig mainly means wilful or stubborn here, rather than original or quirky.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "eigenwillig"
+          ],
+          "purple": [
+            "wilful",
+            "headstrong",
+            "stubborn",
+            "high-handed"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "eigenwillige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "wilful"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwilliges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "headstrong"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stubborn"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "high-handed"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "eigenwillig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "wilful",
+                "headstrong",
+                "stubborn"
+              ]
+            },
+            "example": {
+              "blue": [
+                "eigenwillige"
+              ],
+              "purple": [
+                "wilful"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stur"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stubborn"
+              ]
+            },
+            "example": {
+              "red": [
+                "stur"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "eigenwillig"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Eilbote",
@@ -3542,11 +5769,11 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-einlassen",
       "layout": "minimalStudy",
-      "translation": "Get involved in",
+      "translation": "Get involved • Engage",
       "rektion": "auf + accusative",
-      "explanation": "Sich einlassen takes the fixed preposition auf + accusative.",
+      "explanation": "sich einlassen requires a specific preposition: auf + accusative.",
       "forms": "auf + accusative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -3592,17 +5819,17 @@ const B2_WORDS = [
       "id": "b2-sich-einpraegen",
       "layout": "minimalStudy",
       "translation": "To memorise",
-      "rektion": "direct object in the accusative",
-      "explanation": "Sich einprägen takes a direct object in the accusative; it does not require a preposition.",
-      "forms": "direct object in the accusative",
-      "formsLabel": "Rection:",
+      "rektion": "in + accusative",
+      "explanation": "sich einprägen requires a specific preposition: in + accusative.",
+      "forms": "in + accusative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich einprägen"
           ],
           "red": [
-            "the accusative"
+            "in + accusative"
           ]
         }
       }
@@ -3625,18 +5852,18 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-einschleichen",
       "layout": "minimalStudy",
-      "translation": "Sneak in • Creep in",
-      "rektion": "in + the accusative",
-      "explanation": "Sich einschleichen takes the fixed preposition in + the accusative.",
-      "forms": "in + the accusative",
-      "formsLabel": "Rection:",
+      "translation": "Sneak in",
+      "rektion": "in + accusative",
+      "explanation": "sich einschleichen requires a specific preposition: in + accusative.",
+      "forms": "in + accusative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich einschleichen"
           ],
           "red": [
-            "in + the accusative"
+            "in + accusative"
           ]
         }
       }
@@ -3657,17 +5884,17 @@ const B2_WORDS = [
       "id": "b2-sich-einschraenken",
       "layout": "minimalStudy",
       "translation": "Limit yourself",
-      "rektion": "auf + the accusative",
-      "explanation": "Sich einschränken takes auf + the accusative when meaning ‘limit oneself to something’.",
-      "forms": "auf + the accusative",
-      "formsLabel": "Rection:",
+      "rektion": "auf + accusative",
+      "explanation": "sich einschränken requires a specific preposition: auf + accusative.",
+      "forms": "auf + accusative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich einschränken"
           ],
           "red": [
-            "auf + the accusative"
+            "auf + accusative"
           ]
         }
       }
@@ -3875,18 +6102,18 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-empfehlen",
       "layout": "minimalStudy",
-      "translation": "Be advisable • Recommend itself",
-      "rektion": "zu + the dative",
-      "explanation": "Sich empfehlen takes the fixed preposition zu + the dative.",
-      "forms": "zu + the dative",
-      "formsLabel": "Rection:",
+      "translation": "Be recommended",
+      "rektion": "zu + dative",
+      "explanation": "sich empfehlen requires a specific preposition: zu + dative.",
+      "forms": "zu + dative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich empfehlen"
           ],
           "red": [
-            "zu + the dative"
+            "zu + dative"
           ]
         }
       }
@@ -3910,17 +6137,17 @@ const B2_WORDS = [
       "id": "b2-sich-empoeren",
       "layout": "minimalStudy",
       "translation": "Be outraged • Be indignant",
-      "rektion": "über + the accusative",
-      "explanation": "Sich empören takes the fixed preposition über + the accusative.",
-      "forms": "über + the accusative",
-      "formsLabel": "Rection:",
+      "rektion": "über + accusative",
+      "explanation": "sich empören requires a specific preposition: über + accusative.",
+      "forms": "über + accusative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich empören"
           ],
           "red": [
-            "über + the accusative"
+            "über + accusative"
           ]
         }
       }
@@ -4013,17 +6240,17 @@ const B2_WORDS = [
       "id": "b2-sich-enthalten",
       "layout": "minimalStudy",
       "translation": "Refrain from",
-      "rektion": "von + the dative",
-      "explanation": "Sich enthalten takes the fixed preposition von + the dative.",
-      "forms": "von + the dative",
-      "formsLabel": "Rection:",
+      "rektion": "von + dative",
+      "explanation": "sich enthalten requires a specific preposition: von + dative.",
+      "forms": "von + dative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich enthalten"
           ],
           "red": [
-            "von + the dative"
+            "von + dative"
           ]
         }
       }
@@ -4063,9 +6290,9 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Get rid of",
       "rektion": "+ genitive",
-      "explanation": "Sich entledigen is used with a genitive object and no preposition.",
+      "explanation": "In modern German, sich entledigen takes the genitive, without a preposition.",
       "forms": "+ genitive",
-      "formsLabel": "Rection:",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4098,17 +6325,17 @@ const B2_WORDS = [
       "id": "b2-sich-entruesten",
       "layout": "minimalStudy",
       "translation": "Be outraged • Be indignant",
-      "rektion": "über + the accusative",
-      "explanation": "Sich entrüsten takes the fixed preposition über + the accusative.",
-      "forms": "über + the accusative",
-      "formsLabel": "Rection:",
+      "rektion": "über + accusative",
+      "explanation": "sich entrüsten requires a specific preposition: über + accusative.",
+      "forms": "über + accusative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich entrüsten"
           ],
           "red": [
-            "über + the accusative"
+            "über + accusative"
           ]
         }
       }
@@ -4133,9 +6360,9 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "To remember",
       "rektion": "+ genitive",
-      "explanation": "Sich entsinnen is used with a genitive object and no preposition, for example: Ich entsinne mich eines Fehlers.",
+      "explanation": "In modern German, sich entsinnen takes the genitive, without a preposition, for example: Ich entsinne mich eines Fehlers.",
       "forms": "+ genitive",
-      "formsLabel": "Rection:",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4258,17 +6485,17 @@ const B2_WORDS = [
       "id": "b2-sich-erbarmen",
       "layout": "minimalStudy",
       "translation": "To have mercy",
-      "rektion": "über + the accusative",
-      "explanation": "Sich erbarmen takes the fixed preposition über + the accusative.",
-      "forms": "über + the accusative",
-      "formsLabel": "Rection:",
+      "rektion": "über + accusative",
+      "explanation": "sich erbarmen requires a specific preposition: über + accusative.",
+      "forms": "über + accusative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich erbarmen"
           ],
           "red": [
-            "über + the accusative"
+            "über + accusative"
           ]
         }
       }
@@ -4351,17 +6578,17 @@ const B2_WORDS = [
       "id": "b2-sich-ergeben",
       "layout": "minimalStudy",
       "translation": "To result • To give up",
-      "rektion": "aus + the dative (for “result from”)",
-      "explanation": "In the sense “result from”, sich ergeben takes aus + the dative; the sense “surrender” is used without a preposition.",
-      "forms": "aus + the dative",
-      "formsLabel": "Rection:",
+      "rektion": "aus + dative",
+      "explanation": "sich ergeben requires a specific preposition: aus + dative.",
+      "forms": "aus + dative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich ergeben"
           ],
           "red": [
-            "aus + the dative"
+            "aus + dative"
           ]
         }
       }
@@ -4475,11 +6702,11 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-erniedrigen",
       "layout": "minimalStudy",
-      "translation": "Humble oneself",
+      "translation": "Humble yourself",
       "rektion": "vor + dative",
-      "explanation": "Sich erniedrigen requires the preposition vor + dative",
+      "explanation": "sich erniedrigen requires a specific preposition: vor + dative.",
       "forms": "vor + dative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -4529,17 +6756,17 @@ const B2_WORDS = [
       "id": "b2-sich-erregen",
       "layout": "minimalStudy",
       "translation": "Get worked up about",
-      "rektion": "über + the accusative",
-      "explanation": "Sich erregen requires the preposition über + the accusative",
-      "forms": "über + the accusative",
-      "formsLabel": "Rection:",
+      "rektion": "über + accusative",
+      "explanation": "sich erregen requires a specific preposition: über + accusative.",
+      "forms": "über + accusative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich erregen"
           ],
           "red": [
-            "über + the accusative"
+            "über + accusative"
           ]
         }
       }
@@ -4671,17 +6898,17 @@ const B2_WORDS = [
       "id": "b2-sich-erweisen",
       "layout": "minimalStudy",
       "translation": "Turn out to be",
-      "rektion": "als + the nominative",
-      "explanation": "Sich erweisen is followed by als + the nominative.",
-      "forms": "als + the nominative",
-      "formsLabel": "Rection:",
+      "rektion": "als + nominative",
+      "explanation": "sich erweisen requires a specific preposition: als + nominative.",
+      "forms": "als + nominative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich erweisen"
           ],
           "red": [
-            "Sich"
+            "als + nominative"
           ]
         }
       }
@@ -4976,18 +7203,18 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-fassen",
       "layout": "minimalStudy",
-      "translation": "Compose oneself",
-      "rektion": "No fixed preposition",
-      "explanation": "Sich fassen is used without a fixed preposition.",
-      "forms": "No fixed preposition",
-      "formsLabel": "Rection:",
+      "translation": "Compose oneself • Regain composure",
+      "rektion": "an + dative",
+      "explanation": "sich fassen requires a specific preposition: an + dative.",
+      "forms": "an + dative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich fassen"
           ],
           "red": [
-            "fixed preposition"
+            "an + dative"
           ]
         }
       }
@@ -5184,7 +7411,175 @@ const B2_WORDS = [
   {
     "de": "fleckig",
     "lv": "Blotchy • Stained • Mottled • Dappled • Spotted",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-fleckig",
+      "layout": "standardStudy",
+      "translation": "Blotchy • Stained • Mottled • Dappled • Spotted",
+      "explanation": "Main idea: fleckig means with stains or patches. Of clothes or a tablecloth it means stained, of skin blotchy, of an animal's coat spotted or mottled.",
+      "examples": [
+        {
+          "de": "Die Tischdecke ist fleckig.",
+          "lv": "The tablecloth is stained."
+        },
+        {
+          "de": "Das Hemd ist fleckig.",
+          "lv": "The shirt is stained."
+        },
+        {
+          "de": "Die Haut ist fleckig.",
+          "lv": "The skin is blotchy."
+        },
+        {
+          "de": "Die Kuh hat ein fleckiges Fell.",
+          "lv": "The cow has a spotted coat."
+        },
+        {
+          "de": "Das Fell des Pferdes ist fleckig.",
+          "lv": "The horse's coat is mottled."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fleckig",
+          "meaning": "stained, soiled, blotchy",
+          "example": "Die Tischdecke ist fleckig. = The tablecloth is stained."
+        },
+        {
+          "word": "bunt",
+          "meaning": "multicoloured",
+          "example": "Das Bild ist bunt. = The picture is multicoloured."
+        }
+      ],
+      "tip": "If there are patches on a surface, think of fleckig.",
+      "important": "Fleckig is not the same as bunt (multicoloured).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fleckig"
+          ],
+          "purple": [
+            "stained",
+            "blotchy",
+            "spotted",
+            "mottled"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stained"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stained"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "blotchy"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckiges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "spotted"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mottled"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fleckig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stained",
+                "soiled",
+                "blotchy"
+              ]
+            },
+            "example": {
+              "blue": [
+                "fleckig"
+              ],
+              "purple": [
+                "stained"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bunt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "multicoloured"
+              ]
+            },
+            "example": {
+              "red": [
+                "bunt"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "fleckig"
+          ]
+        },
+        "important": {
+          "red": [
+            "bunt"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "fliederfarben",
@@ -5418,7 +7813,127 @@ const B2_WORDS = [
   {
     "de": "fristlos",
     "lv": "Without notice",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-fristlos",
+      "layout": "standardStudy",
+      "translation": "Without notice",
+      "explanation": "Main idea: fristlos means without a deadline: immediate, taking effect at once. Fristlos is used mainly for the termination of an employment contract: eine fristlose Kündigung. This means notice of termination without a notice period, with immediate effect.",
+      "examples": [
+        {
+          "de": "Eine fristlose Kündigung.",
+          "lv": "Termination of an employment contract with immediate effect."
+        },
+        {
+          "de": "Fristlos kündigen.",
+          "lv": "To terminate a contract with immediate effect."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fristlos",
+          "meaning": "immediate, without a notice period",
+          "example": "Eine fristlose Kündigung. = Termination of an employment contract with immediate effect."
+        },
+        {
+          "word": "sofort",
+          "meaning": "immediately",
+          "example": "Wir beginnen sofort. = We are starting immediately."
+        }
+      ],
+      "tip": "Fristlos = ohne Frist, so without a time limit.",
+      "important": "Fristlos does not simply mean 'quickly'; it is a legal term for termination of employment.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fristlos",
+            "fristlose",
+            "Fristlos"
+          ],
+          "purple": [
+            "immediate",
+            "without a notice period",
+            "immediate effect"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fristlose"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "immediate effect"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "immediate effect"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fristlos"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "immediate",
+                "without a notice period"
+              ]
+            },
+            "example": {
+              "blue": [
+                "fristlose"
+              ],
+              "purple": [
+                "immediate effect"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sofort"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "immediately"
+              ]
+            },
+            "example": {
+              "red": [
+                "sofort"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Fristlos"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Fristlos"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "fromm",
@@ -5458,17 +7973,17 @@ const B2_WORDS = [
       "id": "b2-sich-fuegen",
       "layout": "minimalStudy",
       "translation": "Submit • Comply",
-      "rektion": "in + the accusative",
-      "explanation": "Sich fügen requires the preposition in + the accusative",
-      "forms": "in + the accusative",
-      "formsLabel": "Rection:",
+      "rektion": "in + accusative",
+      "explanation": "sich fügen requires a specific preposition: in + accusative.",
+      "forms": "in + accusative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich fügen"
           ],
           "red": [
-            "in + the accusative"
+            "in + accusative"
           ]
         }
       }
@@ -5855,7 +8370,138 @@ const B2_WORDS = [
   {
     "de": "gelaunt",
     "lv": "In a ... mood",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-gelaunt",
+      "layout": "standardStudy",
+      "translation": "In a ... mood",
+      "explanation": "Main idea: gelaunt is used together with gut or schlecht and describes a mood. Gut gelaunt means in a good mood, schlecht gelaunt means in a bad mood. On its own, gelaunt is not usual in everyday speech.",
+      "examples": [
+        {
+          "de": "Er ist gut gelaunt.",
+          "lv": "He is in a good mood."
+        },
+        {
+          "de": "Sie kam gut gelaunt ins Büro.",
+          "lv": "She came into the office in a good mood."
+        },
+        {
+          "de": "Der Chef ist heute schlecht gelaunt.",
+          "lv": "The boss is in a bad mood today."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gelaunt",
+          "meaning": "in a ... mood",
+          "example": "Er ist gut gelaunt. = He is in a good mood."
+        },
+        {
+          "word": "gut drauf",
+          "meaning": "in a good mood",
+          "example": "Er ist heute gut drauf. = He is in a good mood today."
+        }
+      ],
+      "tip": "Always remember the pairs: gut gelaunt and schlecht gelaunt.",
+      "important": "Gelaunt is not used without gut, schlecht or a similar word.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "gelaunt",
+            "schlecht gelaunt"
+          ],
+          "purple": [
+            "mood",
+            "in a good mood",
+            "in a bad mood"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gut gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "in a good mood"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gut gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "in a good mood"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schlecht gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "in a bad mood"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gelaunt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "in a ... mood"
+              ]
+            },
+            "example": {
+              "blue": [
+                "gut gelaunt"
+              ],
+              "purple": [
+                "in a good mood"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gut drauf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "in a good mood"
+              ]
+            },
+            "example": {
+              "red": [
+                "gut drauf"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "gelaunt",
+            "gut gelaunt",
+            "schlecht gelaunt"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Geldbuße",
@@ -6022,9 +8668,9 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "To feel embarrassed",
       "rektion": "vor + dative",
-      "explanation": "Sich genieren requires the preposition vor + dative",
+      "explanation": "sich genieren requires a specific preposition: vor + dative.",
       "forms": "vor + dative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6219,17 +8865,17 @@ const B2_WORDS = [
       "id": "b2-sich-gesellen",
       "layout": "minimalStudy",
       "translation": "To join",
-      "rektion": "zu + the dative",
-      "explanation": "Sich gesellen requires the preposition zu + the dative",
-      "forms": "zu + the dative",
-      "formsLabel": "Rection:",
+      "rektion": "zu + dative",
+      "explanation": "sich gesellen requires a specific preposition: zu + dative.",
+      "forms": "zu + dative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich gesellen"
           ],
           "red": [
-            "zu + the dative"
+            "zu + dative"
           ]
         }
       }
@@ -6268,18 +8914,18 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-gestalten",
       "layout": "minimalStudy",
-      "translation": "Develop • Take shape",
-      "rektion": "No fixed preposition",
-      "explanation": "Sich gestalten does not require a fixed preposition. It means to develop or take shape.",
-      "forms": "No fixed preposition",
-      "formsLabel": "Rection:",
+      "translation": "Take shape • Develop",
+      "rektion": "zu + dative",
+      "explanation": "sich gestalten requires a specific preposition: zu + dative.",
+      "forms": "zu + dative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich gestalten"
           ],
           "red": [
-            "fixed preposition"
+            "zu + dative"
           ]
         }
       }
@@ -6549,14 +9195,273 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Gluten",
     "lv": "Embers • Heat • Intense heat",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-glut",
+      "layout": "standardStudy",
+      "translation": "Embers • Heat • Intense heat",
+      "explanation": "Main idea: Glut means scorching heat, glow or intense heat. Of the sun it is scorching heat, of a fire a glow, of summer intense heat.",
+      "examples": [
+        {
+          "de": "Die Glut der Mittagssonne.",
+          "lv": "The scorching heat of the midday sun."
+        },
+        {
+          "de": "Die Glut des Feuers.",
+          "lv": "The glow of the fire."
+        },
+        {
+          "de": "Die Glut des Sommers.",
+          "lv": "The heat of summer."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Glut",
+          "meaning": "scorching heat, glow, intense heat",
+          "example": "Die Glut der Mittagssonne. = The scorching heat of the midday sun."
+        },
+        {
+          "word": "Hitze",
+          "meaning": "heat",
+          "example": "Im Sommer ist die Hitze groß. = In summer the heat is intense."
+        }
+      ],
+      "tip": "If you are talking about red-hot embers or scorching heat, think of Glut.",
+      "important": "Glut is not the same as Hitze (everyday heat).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Glut"
+          ],
+          "purple": [
+            "scorching heat",
+            "glow",
+            "intense heat",
+            "heat"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "scorching heat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glow"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "heat"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Glut"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "scorching heat",
+                "glow",
+                "intense heat"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Glut"
+              ],
+              "purple": [
+                "scorching heat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Hitze"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "heat"
+              ]
+            },
+            "example": {
+              "red": [
+                "Hitze"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Glut"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Glut"
+          ],
+          "red": [
+            "Hitze"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Gnade",
     "de_article": "die",
     "de_plural": "die Gnaden",
     "lv": "Mercy • Pardon",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-gnade",
+      "layout": "standardStudy",
+      "translation": "Mercy • Pardon",
+      "explanation": "Main idea: Gnade means mercy or pardon. Gnade is used in religion and in court. Um Gnade bitten means to beg for mercy.",
+      "examples": [
+        {
+          "de": "Er bat um Gnade.",
+          "lv": "He begged for mercy."
+        },
+        {
+          "de": "Der Verurteilte hoffte auf Gnade.",
+          "lv": "The convicted man hoped for a pardon."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Gnade",
+          "meaning": "mercy, pardon",
+          "example": "Er bat um Gnade. = He begged for mercy."
+        },
+        {
+          "word": "Mitleid",
+          "meaning": "compassion",
+          "example": "Ich habe Mitleid mit ihm. = I feel sorry for him."
+        }
+      ],
+      "tip": "If someone pleads for a lighter punishment, think of Gnade.",
+      "important": "Gnade is not the same as Mitleid (compassion).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Gnade"
+          ],
+          "purple": [
+            "mercy",
+            "pardon"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mercy"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pardon"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Gnade"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mercy",
+                "pardon"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Gnade"
+              ],
+              "purple": [
+                "mercy"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Mitleid"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "compassion"
+              ]
+            },
+            "example": {
+              "red": [
+                "Mitleid"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Gnade"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Gnade"
+          ],
+          "red": [
+            "Mitleid"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Gnadenbrot",
@@ -6671,9 +9576,9 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "To be afraid of",
       "rektion": "vor + dative",
-      "explanation": "Sich grauen is used with vor + dative.",
+      "explanation": "sich grauen requires a specific preposition: vor + dative.",
       "forms": "vor + dative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -6986,23 +9891,23 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Cap • Hood",
       "explanation": [
-        "Main idea: die Haube can mean head cap/hood or hood/cover - context determines the meaning.",
-        "On the head: die Haube = cap, hood or author's technique in a specific context (z. B. Nonne mit Haube).",
-        "On the car: die Motorhaube or einfach die Haube = bonnet.",
-        "In the kitchen: die Dunsthaube = hood above the stove. In technology: a hood or cover over a device."
+        "Main idea: die Haube can mean a cap or hood for the head, or a cover or lid — the context determines the meaning.",
+        "On the head: die Haube = cap or hood (z. B. Nonne mit Haube).",
+        "On a car: die Motorhaube or simply die Haube = bonnet.",
+        "In the kitchen: die Dunsthaube = extractor hood above the hob. In technology: a cover or lid over a machine."
       ],
       "examples": [
         {
           "de": "Sie trägt eine warme Haube.",
-          "lv": "She wears a warm hat."
+          "lv": "She is wearing a warm cap."
         },
         {
           "de": "Die Nonne trägt eine schwarze Haube.",
-          "lv": "The nun wears a black hood."
+          "lv": "The nun is wearing a black hood."
         },
         {
           "de": "Er öffnet die Haube des Autos.",
-          "lv": "He opens the hood of the car."
+          "lv": "He opens the bonnet of the car."
         },
         {
           "de": "Die Motorhaube ist kaputt.",
@@ -7010,7 +9915,7 @@ const B2_WORDS = [
         },
         {
           "de": "Über dem Herd hängt eine Dunsthaube.",
-          "lv": "An extractor hood is attached above the stove."
+          "lv": "There is an extractor hood fitted above the hob."
         },
         {
           "de": "Setz den Deckel als Haube auf den Topf.",
@@ -7018,19 +9923,28 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Talking about head, nun, hat → cap / hood.",
-        "It's about a car, engine → hood.",
-        "We are talking about a stove, appliance → hood or hood."
+        "Talking about the head, a nun, a hat → cap / hood.",
+        "Talking about a car, an engine → bonnet.",
+        "Talking about a hob, a machine → extractor hood or cover."
       ],
       "important": [
-        "die Haube = cap/hood OR hood OR hood/bonnet - depending on the context.",
-        "Compounds help: Motorhaube (car), Dunstaube (kitchen)."
+        "die Haube = cap/hood OR bonnet OR extractor hood/cover — depending on context.",
+        "Compounds help: Motorhaube (car), Dunsthaube (kitchen)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "die Haube"
+          ],
           "purple": [
             "cap",
-            "hood"
+            "cover",
+            "hood",
+            "bonnet"
+          ],
+          "green": [
+            "Motorhaube",
+            "Dunsthaube"
           ]
         },
         "examples": [
@@ -7042,25 +9956,13 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "She"
+                "cap"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Haube"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "The"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
                 "Haube"
               ]
             },
@@ -7073,12 +9975,24 @@ const B2_WORDS = [
           {
             "de": {
               "green": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bonnet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
                 "Motorhaube"
               ]
             },
             "lv": {
               "purple": [
-                "The"
+                "bonnet"
               ]
             }
           },
@@ -7090,7 +10004,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "extractor"
+                "extractor hood"
               ]
             }
           },
@@ -7102,7 +10016,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Put"
+                "cover"
               ]
             }
           }
@@ -7287,17 +10201,17 @@ const B2_WORDS = [
       "id": "b2-sich-herausbilden",
       "layout": "minimalStudy",
       "translation": "Develop • Emerge",
-      "rektion": "No fixed preposition",
-      "explanation": "Sich herausbilden does not require a fixed preposition. It means to develop or emerge.",
-      "forms": "No fixed preposition",
-      "formsLabel": "Rection:",
+      "rektion": "zu + dative",
+      "explanation": "sich herausbilden requires a specific preposition: zu + dative.",
+      "forms": "zu + dative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich herausbilden"
           ],
           "red": [
-            "fixed preposition"
+            "zu + dative"
           ]
         }
       }
@@ -7316,17 +10230,17 @@ const B2_WORDS = [
       "id": "b2-sich-heraushalten",
       "layout": "minimalStudy",
       "translation": "Stay out of",
-      "rektion": "aus + the dative",
-      "explanation": "Sich heraushalten is used with aus + the dative.",
-      "forms": "aus + the dative",
-      "formsLabel": "Rection:",
+      "rektion": "aus + dative",
+      "explanation": "sich heraushalten requires a specific preposition: aus + dative.",
+      "forms": "aus + dative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich heraushalten"
           ],
           "red": [
-            "aus + the dative"
+            "aus + dative"
           ]
         }
       }
@@ -7345,17 +10259,17 @@ const B2_WORDS = [
       "id": "b2-sich-herausstellen",
       "layout": "minimalStudy",
       "translation": "Turn out to be",
-      "rektion": "als + [predicate complement]",
-      "explanation": "Sich herausstellen is used with als + [predicate complement].",
-      "forms": "als + [predicate complement]",
-      "formsLabel": "Rection:",
+      "rektion": "als + nominative",
+      "explanation": "sich herausstellen requires a specific preposition: als + nominative.",
+      "forms": "als + nominative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich herausstellen"
           ],
           "red": [
-            "Sich"
+            "als + nominative"
           ]
         }
       }
@@ -7389,17 +10303,17 @@ const B2_WORDS = [
       "id": "b2-sich-hervortun",
       "layout": "minimalStudy",
       "translation": "Stand out",
-      "rektion": "in + [dative]",
-      "explanation": "Sich hervortun is used with in + [dative].",
-      "forms": "in + [dative]",
-      "formsLabel": "Rection:",
+      "rektion": "in + dative",
+      "explanation": "sich hervortun requires a specific preposition: in + dative.",
+      "forms": "in + dative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich hervortun"
           ],
           "red": [
-            "Sich"
+            "in + dative"
           ]
         }
       }
@@ -7434,7 +10348,153 @@ const B2_WORDS = [
   {
     "de": "hetzen",
     "lv": "Urge on • Incite • Chase • Hound",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-hetzen",
+      "layout": "standardStudy",
+      "translation": "Urge on • Incite • Chase • Hound",
+      "explanation": "Main idea: the meaning of hetzen depends on the sentence: to set on, incite, pursue or chase. With a dog it is to set on or chase, with people to incite, with game to pursue.",
+      "examples": [
+        {
+          "de": "Einen Hund auf jemanden hetzen.",
+          "lv": "Set a dog on someone."
+        },
+        {
+          "de": "Die Menschen gegeneinander hetzen.",
+          "lv": "Incite people against each other."
+        },
+        {
+          "de": "Die Hunde hetzen den Hasen.",
+          "lv": "The dogs are pursuing the hare."
+        },
+        {
+          "de": "Den Hund durch den Garten hetzen.",
+          "lv": "Chase the dog around the garden."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hetzen",
+          "meaning": "to set on, to incite, to pursue",
+          "example": "Einen Hund auf jemanden hetzen. = Set a dog on someone."
+        },
+        {
+          "word": "jagen",
+          "meaning": "to hunt",
+          "example": "Der Jäger jagt den Hasen. = The hunter hunts the hare."
+        }
+      ],
+      "tip": "If the sentence mentions a dog or game, think of 'set on', 'pursue' or 'chase'.",
+      "important": "With sich, hetzen also means to hurry.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hetzen"
+          ],
+          "purple": [
+            "set on",
+            "incite",
+            "pursue",
+            "chase"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hetzen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Incite"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pursuing"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Chase"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "set on",
+                "incite",
+                "pursue"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hetzen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "jagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hunt"
+              ]
+            },
+            "example": {
+              "red": [
+                "jagt"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "purple": [
+            "set on",
+            "pursue",
+            "chase"
+          ]
+        },
+        "important": {
+          "blue": [
+            "hetzen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "heucheln",
@@ -7478,18 +10538,18 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-hingeben",
       "layout": "minimalStudy",
-      "translation": "Surrender oneself • Devote oneself",
-      "rektion": "+ [dative]",
-      "explanation": "Sich hingeben is used with a dative object.",
-      "forms": "+ [dative]",
-      "formsLabel": "Rection:",
+      "translation": "Surrender",
+      "rektion": "+ dative",
+      "explanation": "sich hingeben requires + dative.",
+      "forms": "+ dative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich hingeben"
           ],
           "red": [
-            "Sich"
+            "+ dative"
           ]
         }
       }
@@ -7505,7 +10565,129 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Hinsichten",
     "lv": "Respect • Regard • Aspect",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-hinsicht",
+      "layout": "standardStudy",
+      "translation": "Respect • Regard • Aspect",
+      "explanation": "Main idea: Hinsicht is an aspect or point of view, not a piece of news. The most common phrase is in dieser Hinsicht (in this respect). It says that the point is about a particular aspect.",
+      "examples": [
+        {
+          "de": "In dieser Hinsicht hast du recht.",
+          "lv": "In this respect you are right."
+        },
+        {
+          "de": "In dieser Hinsicht sind wir uns ähnlich.",
+          "lv": "In this respect we are similar."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Hinsicht",
+          "meaning": "respect, regard",
+          "example": "In dieser Hinsicht hast du recht. = In this respect you are right."
+        },
+        {
+          "word": "Nachricht",
+          "meaning": "news",
+          "example": "Ich habe eine Nachricht bekommen. = I received a message."
+        }
+      ],
+      "tip": "If you can say 'in this respect', think of Hinsicht.",
+      "important": "Hinsicht does not mean 'news' (information); that is Nachricht.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Hinsicht"
+          ],
+          "purple": [
+            "respect",
+            "news"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "respect"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "respect"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Hinsicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "respect"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Hinsicht"
+              ],
+              "purple": [
+                "respect"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Nachricht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "news"
+              ]
+            },
+            "example": {
+              "red": [
+                "Nachricht"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Hinsicht"
+          ],
+          "purple": [
+            "respect"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Hinsicht"
+          ],
+          "red": [
+            "Nachricht"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "hinsichtlich",
@@ -7607,17 +10789,17 @@ const B2_WORDS = [
     "study": {
       "id": "b2-hoch-study",
       "layout": "standardStudy",
-      "translation": "Toast/cheer (\"long live!\") • High-pressure system",
+      "translation": "Toast \"long live!\"",
       "explanation": [
-        "Main idea: das Hoch with a capital letter and the article das is a noun - a celebratory cry/toast (Ein Hoch auf...! = Long live...!) or in the weather - an area of ​​high pressure.",
-        "Lower case hoch is an adjective - high (der Berg ist hoch).",
-        "The phrase ein Hoch ausbringen means to raise a toast.",
-        "In weather, das Hoch means an anticyclone, an area of ​​high air pressure (opposite: das Tief)."
+        "Main idea: das Hoch, with a capital letter and the article das, is a noun — a celebratory cheer or toast (Ein Hoch auf...! = Long live...!) or, in weather reports, an area of high pressure.",
+        "hoch with a lower-case letter is an adjective — high (der Berg ist hoch).",
+        "In the phrase ein Hoch ausbringen it means to propose a toast.",
+        "In weather reports das Hoch means an anticyclone — an area of high air pressure (the opposite: das Tief)."
       ],
       "examples": [
         {
           "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
-          "lv": "We toast the newlyweds."
+          "lv": "We propose a toast to the newlyweds."
         },
         {
           "de": "Ein Hoch auf dich!",
@@ -7625,7 +10807,7 @@ const B2_WORDS = [
         },
         {
           "de": "Morgen kommt ein Hoch.",
-          "lv": "An anticyclone (high pressure) is expected tomorrow."
+          "lv": "Tomorrow an anticyclone (high pressure) is on its way."
         },
         {
           "de": "Der Berg ist sehr hoch.",
@@ -7633,19 +10815,25 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "das Hoch with a capital letter - a celebratory cry or an anticyclone in weather news.",
-        "lower case hoch - high (adjective)."
+        "das Hoch with a capital letter — a celebratory cheer or an anticyclone in weather reports.",
+        "hoch with a lower-case letter — high (adjective)."
       ],
       "important": [
-        "das Hoch = toast (\"long live!\") OR anticyclone (weather) - noun.",
-        "hoch = high — adjective, without article.",
-        "Contrast in weather: das Hoch ↔ das Tief."
+        "das Hoch = toast (“long live!”) OR anticyclone (weather reports) — noun.",
+        "hoch = high — adjective, no article.",
+        "Opposite in weather reports: das Hoch ↔ das Tief."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "das Hoch"
+          ],
           "purple": [
             "toast",
-            "Main"
+            "Long live"
+          ],
+          "green": [
+            "hoch"
           ]
         },
         "examples": [
@@ -7669,7 +10857,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Here's"
+                "Here's to"
               ]
             }
           },
@@ -7693,7 +10881,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "high"
               ]
             }
           }
@@ -7786,7 +10974,7 @@ const B2_WORDS = [
       "id": "b2-hochwasser",
       "layout": "standardStudy",
       "translation": "Flood • High water level",
-      "explanation": "Main idea: das Hochwasser means a flood or a very high water level in a river, lake or sea. Plural: die Hochwasser. Often used in press and warnings.",
+      "explanation": "Main idea: das Hochwasser means a flood or a very high water level in a river, lake or sea. Plural: die Hochwasser. Often used in the press and in warnings.",
       "examples": [
         {
           "de": "Nach dem Regen gibt es Hochwasser.",
@@ -7794,34 +10982,34 @@ const B2_WORDS = [
         },
         {
           "de": "Das Hochwasser bedroht die Stadt.",
-          "lv": "High water levels threaten the city."
+          "lv": "The high water level threatens the town."
         },
         {
           "de": "Die Behörden warnen vor Hochwasser.",
-          "lv": "Authorities warn of floods."
+          "lv": "The authorities are warning of floods."
         }
       ],
       "comparison": [
         {
           "word": "das Hochwasser",
-          "meaning": "Flood • High water level",
-          "example": "Es gibt Hochwasser. – There is a flood."
+          "meaning": "flood • high water level",
+          "example": "Es gibt Hochwasser. = There is a flood."
         },
         {
           "word": "die Überschwemmung",
-          "meaning": "Flooding • Inundation",
-          "example": "Die Überschwemmung zerstörte Häuser. – The flood destroyed houses."
+          "meaning": "flooding (specifically)",
+          "example": "Die Überschwemmung zerstörte Häuser. = The flooding destroyed houses."
         },
         {
           "word": "der Pegel",
-          "meaning": "Water level",
-          "example": "Der Pegel steigt. – The water level is rising."
+          "meaning": "water level",
+          "example": "Der Pegel steigt. = The water level is rising."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Hoch = high, Wasser = water. Hochwasser = high water level, often meaning flood."
+            "text": "Hoch = high, Wasser = water. Hochwasser = a high water level, which often means a flood."
           }
         ]
       },
@@ -7830,6 +11018,9 @@ const B2_WORDS = [
       },
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "das Hochwasser"
+          ],
           "purple": [
             "flood",
             "high water level"
@@ -7854,7 +11045,11 @@ const B2_WORDS = [
                 "Hochwasser"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "high water level"
+              ]
+            }
           },
           {
             "de": {
@@ -8437,9 +11632,9 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Suffering • Ailment • Chronic illness",
       "explanation": [
-        "Main idea: das Leiden with a capital letter and the article das is a noun - suffering, long/severe illness.",
-        "Leiden in lower case is the verb - to suffer.",
-        "Das Leiden is often used in a medical or literary context (ein schweres Leiden = severe illness).",
+        "Main idea: das Leiden, with a capital letter and the article das, is a noun — suffering, a long or serious illness.",
+        "leiden with a lower-case letter is a verb — to suffer.",
+        "das Leiden is often used in medical or literary contexts (ein schweres Leiden = a serious illness).",
         "Plural: die Leiden."
       ],
       "examples": [
@@ -8449,7 +11644,7 @@ const B2_WORDS = [
         },
         {
           "de": "Das Leiden der Patienten war groß.",
-          "lv": "The suffering of the patients was great."
+          "lv": "The patients' suffering was great."
         },
         {
           "de": "Er leidet an einer seltenen Krankheit.",
@@ -8461,19 +11656,25 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "das Leiden with a capital letter - noun (suffering, severe illness).",
-        "leiden in lower case - verb (to suffer)."
+        "das Leiden with a capital letter — noun (suffering, serious illness).",
+        "leiden with a lower-case letter — verb (to suffer)."
       ],
       "important": [
-        "das Leiden = suffering/severe illness (noun).",
-        "leiden = suffer (verb).",
+        "das Leiden = suffering/serious illness (noun).",
+        "leiden = to suffer (verb).",
         "Plural: die Leiden."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "das Leiden"
+          ],
           "purple": [
             "suffering",
-            "severe illness"
+            "serious illness"
+          ],
+          "green": [
+            "leiden"
           ]
         },
         "examples": [
@@ -8485,7 +11686,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "has"
+                "illness"
               ]
             }
           },
@@ -8521,7 +11722,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Her"
+                "illness"
               ]
             }
           }
@@ -9264,23 +12465,23 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Emphasis • Reprint",
       "explanation": [
-        "Main idea: der Nachdruck can mean an emphasis or a reprint of a book.",
-        "Nachdruck auf etwas legen = to emphasise something, insist on something.",
-        "Der Nachdruck eines Buches = reprint of the book.",
-        "Context (transactions/negotiations or publishing) determines the correct meaning."
+        "Main idea: der Nachdruck can mean emphasis or a reprint of a book.",
+        "Nachdruck auf etwas legen = to place emphasis on something, to insist on something.",
+        "Der Nachdruck eines Buches = a reprint of a book.",
+        "The context (negotiations and demands, or publishing) determines the correct meaning."
       ],
       "examples": [
         {
           "de": "Er legt Nachdruck auf die Frist.",
-          "lv": "He emphasizes the deadline."
+          "lv": "He places emphasis on the deadline."
         },
         {
           "de": "Mit Nachdruck forderte sie eine Antwort.",
-          "lv": "She demanded an answer."
+          "lv": "She insistently demanded an answer."
         },
         {
           "de": "Der Nachdruck des Romans erschien im Frühjahr.",
-          "lv": "A reprint of the novel came out in the spring."
+          "lv": "The reprint of the novel came out in spring."
         },
         {
           "de": "Dieses Buch ist bereits im Nachdruck.",
@@ -9288,24 +12489,24 @@ const B2_WORDS = [
         },
         {
           "de": "Der Verlag plant einen Nachdruck.",
-          "lv": "The publisher is planning a reissue."
+          "lv": "The publisher is planning a reprint."
         }
       ],
       "comparison": [
         {
           "word": "Nachdruck legen auf",
-          "meaning": "Emphasise, insist",
-          "example": "Er legt Nachdruck auf die Frist. – He puts emphasis on the deadline."
+          "meaning": "to stress, to insist",
+          "example": "Er legt Nachdruck auf die Frist. = He places emphasis on the deadline."
         },
         {
           "word": "der Nachdruck (Buch)",
-          "meaning": "Reissue",
-          "example": "Der Nachdruck erschien im Frühjahr. – The reprint came out in spring."
+          "meaning": "reprint",
+          "example": "Der Nachdruck erschien im Frühjahr. = The reprint came out in spring."
         },
         {
           "word": "der Druck",
-          "meaning": "Pressure / print",
-          "example": "Unter Druck stehen – To be under pressure"
+          "meaning": "pressure / printing",
+          "example": "Unter Druck stehen = to be under pressure."
         }
       ],
       "tip": [
@@ -9313,13 +12514,17 @@ const B2_WORDS = [
         "In publishing and books: Nachdruck = reprint."
       ],
       "important": [
-        "Nachdruck auf etwas legen = to emphasise.",
-        "der Nachdruck eines Buches = reprint."
+        "Nachdruck auf etwas legen = to place emphasis on something.",
+        "der Nachdruck eines Buches = a reprint."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "der Nachdruck"
+          ],
           "purple": [
-            "emphasis"
+            "emphasis",
+            "reprint"
           ]
         },
         "examples": [
@@ -9331,7 +12536,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "emphasizes"
+                "emphasis"
               ]
             }
           },
@@ -9343,7 +12548,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "She"
+                "insistently"
               ]
             }
           },
@@ -9367,7 +12572,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "This"
+                "reprinted"
               ]
             }
           },
@@ -9379,7 +12584,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "reissue"
+                "reprint"
               ]
             }
           }
@@ -9430,7 +12635,158 @@ const B2_WORDS = [
   {
     "de": "nachträglich",
     "lv": "Subsequent • Additional • Later",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-nachtr-glich",
+      "layout": "standardStudy",
+      "translation": "Subsequent • Additional • Later",
+      "explanation": "Main idea: nachträglich means subsequent, later or additional. With a noun it is subsequent or additional, with a verb later. In the phrase Alles Gute nachträglich! it means a greeting sent after the birthday.",
+      "examples": [
+        {
+          "de": "Eine nachträgliche Änderung.",
+          "lv": "A subsequent amendment."
+        },
+        {
+          "de": "Ich ändere den Text nachträglich.",
+          "lv": "I will change the text later."
+        },
+        {
+          "de": "Es gibt eine nachträgliche Zahlung.",
+          "lv": "There is an additional payment."
+        },
+        {
+          "de": "Alles Gute nachträglich!",
+          "lv": "Happy belated birthday!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "nachträglich",
+          "meaning": "subsequent, additional, later",
+          "example": "Eine nachträgliche Änderung. = A subsequent amendment."
+        },
+        {
+          "word": "später",
+          "meaning": "later",
+          "example": "Wir kommen später. = We will come later."
+        }
+      ],
+      "tip": "If something happens afterwards, think of nachträglich.",
+      "important": "Nachträglich is not the same as später (simply later).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "nachträglich"
+          ],
+          "purple": [
+            "subsequent",
+            "additional",
+            "later"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "subsequent"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "later"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "additional"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "belated"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "nachträglich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "subsequent",
+                "additional",
+                "later"
+              ]
+            },
+            "example": {
+              "blue": [
+                "nachträgliche"
+              ],
+              "purple": [
+                "subsequent"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "später"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "later"
+              ]
+            },
+            "example": {
+              "red": [
+                "später"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "nachträglich"
+          ]
+        },
+        "important": {
+          "red": [
+            "später"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Nachweis",
@@ -9847,17 +13203,17 @@ const B2_WORDS = [
       "id": "b2-sich-paaren",
       "layout": "minimalStudy",
       "translation": "To mate with",
-      "rektion": "mit + [dative]",
-      "explanation": "Sich paaren requires the preposition mit + the dative.",
-      "forms": "mit + [dative]",
-      "formsLabel": "Rection:",
+      "rektion": "mit + dative",
+      "explanation": "sich paaren requires a specific preposition: mit + dative.",
+      "forms": "mit + dative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich paaren"
           ],
           "red": [
-            "mit + the dative"
+            "mit + dative"
           ]
         }
       }
@@ -10500,11 +13856,11 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-revanchieren",
       "layout": "minimalStudy",
-      "translation": "Return the favour • Take revenge",
+      "translation": "Pay back • Take revenge",
       "rektion": "bei + dative",
-      "explanation": "Sich revanchieren requires the fixed preposition bei + dative.",
+      "explanation": "sich revanchieren requires a specific preposition: bei + dative.",
       "forms": "bei + dative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -10838,18 +14194,18 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-scheren",
       "layout": "minimalStudy",
-      "translation": "Care about",
-      "rektion": "um + the accusative",
-      "explanation": "Sich scheren requires the fixed preposition um + the accusative.",
-      "forms": "um + the accusative",
-      "formsLabel": "Rection:",
+      "translation": "Take care of",
+      "rektion": "um + accusative",
+      "explanation": "sich scheren requires a specific preposition: um + accusative.",
+      "forms": "um + accusative",
+      "formsLabel": "Governs:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich scheren"
           ],
           "red": [
-            "um + the accusative"
+            "um + accusative"
           ]
         }
       }
@@ -11204,10 +14560,10 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Existence",
       "explanation": [
-        "Main idea: das Sein with a capital letter and the article das is a noun - existence, existence (philosophical concept).",
-        "Sein with a lowercase letter is a verb - to be.",
-        "Das Sein is often used in a philosophical or abstract context (das menschliche Sein).",
-        "Substantivisation: sein → das Sein, like können → das Können."
+        "Main idea: das Sein, with a capital letter and the article das, is a noun — being, existence (a philosophical concept).",
+        "sein with a lower-case letter is a verb — to be.",
+        "das Sein is often used in a philosophical or abstract context (das menschliche Sein).",
+        "Nominalisation: sein → das Sein, just like können → das Können."
       ],
       "examples": [
         {
@@ -11220,7 +14576,7 @@ const B2_WORDS = [
         },
         {
           "de": "Ich bin müde.",
-          "lv": "I am tired"
+          "lv": "I am tired."
         },
         {
           "de": "Das Sein bestimmt das Bewusstsein.",
@@ -11228,18 +14584,25 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "das Sein with a capital letter - a noun (existence, in a philosophical sense).",
-        "sein lowercase - verb (to be)."
+        "das Sein with a capital letter — noun (existence, in the philosophical sense).",
+        "sein with a lower-case letter — verb (to be)."
       ],
       "important": [
-        "das Sein = existence (noun, abstract/philosophical).",
+        "das Sein = existence, being (noun, abstract/philosophical).",
         "sein = to be (verb, everyday).",
-        "This word is a substantivised verb, like das Können."
+        "This word is a nominalised verb, just like das Können."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "das Sein"
+          ],
           "purple": [
+            "being",
             "existence"
+          ],
+          "green": [
+            "sein"
           ]
         },
         "examples": [
@@ -11263,7 +14626,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "to be"
+                "be"
               ]
             }
           },
@@ -11275,7 +14638,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tired"
+                "am"
               ]
             }
           },
@@ -11287,7 +14650,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "existence"
+                "Existence"
               ]
             }
           }
@@ -11462,10 +14825,10 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "If • Provided that",
       "explanation": [
-        "Main idea: sofern is a conditional conjunction meaning \"if\" or \"provided that.\"",
-        "Sofern introduces a conditional subordinate clause, similar to wenn, but is more formal and typical of written style.",
-        "Sofern does NOT mean \"because\" (a causal conjunction). The German equivalents are da or weil.",
-        "Commonly used in legal/formal texts (sofern nicht anders verfahrt = unless otherwise agreed)."
+        "Main idea: sofern is a conditional conjunction — it means if / provided that.",
+        "sofern introduces a conditional clause, like wenn, but is more formal and typical of written style.",
+        "sofern does NOT mean 'since' (a causal conjunction) — in German that is da or weil.",
+        "Often used in legal/formal texts (sofern nicht anders vereinbart = unless otherwise agreed)."
       ],
       "examples": [
         {
@@ -11478,7 +14841,7 @@ const B2_WORDS = [
         },
         {
           "de": "Sofern das Wetter gut ist, machen wir einen Ausflug.",
-          "lv": "Provided the weather is good, we will go on a tour."
+          "lv": "Provided that the weather is good, we will go on an outing."
         },
         {
           "de": "Sofern möglich, bitte pünktlich sein.",
@@ -11490,22 +14853,29 @@ const B2_WORDS = [
         },
         {
           "de": "Da es regnet, bleiben wir zu Hause.",
-          "lv": "Since it's raining, we stay at home."
+          "lv": "Since it is raining, we are staying at home."
         }
       ],
       "tip": [
-        "if/provided that (condition) - not to be confused with cause.",
-        "\"Since\" (cause) is da or weil in German, not sofern."
+        "sofern = if/provided that (condition) — do not confuse with cause.",
+        "'since' (cause) in German is da/weil, not sofern."
       ],
       "important": [
-        "It indicates a conditional, not a causal connection.",
-        "Incorrect: sofern = \"as\" → Correct: da/weil = \"as.\""
+        "sofern is a conditional, not a causal, conjunction.",
+        "Wrong: sofern = since → Right: da/weil = since."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sofern"
+          ],
           "purple": [
-            "Main",
-            "Main"
+            "if",
+            "provided that"
+          ],
+          "red": [
+            "da",
+            "weil"
           ]
         },
         "examples": [
@@ -11517,7 +14887,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "come"
+                "if"
               ]
             }
           },
@@ -11541,7 +14911,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Provided"
+                "Provided that"
               ]
             }
           },
@@ -11553,7 +14923,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Please"
+                "If"
               ]
             }
           },
@@ -11565,7 +14935,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "helps"
+                "if"
               ]
             }
           },
@@ -11585,8 +14955,8 @@ const B2_WORDS = [
         "tip": [
           {
             "blue": [
-              "if/provided",
-              "if/provided"
+              "if",
+              "provided that"
             ]
           },
           {
@@ -11598,7 +14968,18 @@ const B2_WORDS = [
         ],
         "important": [
           {
-            "purple": []
+            "blue": [
+              "sofern"
+            ]
+          },
+          {
+            "red": [
+              "da",
+              "weil"
+            ],
+            "purple": [
+              "since"
+            ]
           }
         ]
       }
@@ -11763,7 +15144,142 @@ const B2_WORDS = [
   {
     "de": "sprengen",
     "lv": "Blow up • Sprinkle • Water",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sprengen",
+      "layout": "standardStudy",
+      "translation": "Blow up • Sprinkle • Water",
+      "explanation": "Main idea: the meaning of sprengen depends on the sentence: to blow up, to sprinkle or to water. With a bridge it means to blow up, with washing to sprinkle, with a lawn to water.",
+      "examples": [
+        {
+          "de": "Eine Brücke sprengen.",
+          "lv": "Blow up a bridge."
+        },
+        {
+          "de": "Die Wäsche mit Wasser sprengen.",
+          "lv": "Sprinkle the washing with water."
+        },
+        {
+          "de": "Den Rasen sprengen.",
+          "lv": "Water the lawn."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sprengen",
+          "meaning": "to blow up, to sprinkle, to water",
+          "example": "Eine Brücke sprengen. = Blow up a bridge."
+        },
+        {
+          "word": "gießen",
+          "meaning": "to pour, to water",
+          "example": "Ich gieße die Blumen. = I water the flowers."
+        }
+      ],
+      "tip": "Look at the object: bridge (blow up), washing or lawn (sprinkle).",
+      "important": "Sprengen is not the same as gießen (to water flowers).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sprengen"
+          ],
+          "purple": [
+            "sprinkle",
+            "water",
+            "blow up"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sprengen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Blow up"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Sprinkle"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Water"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sprengen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "blow up",
+                "sprinkle",
+                "water"
+              ]
+            },
+            "example": {
+              "blue": [
+                "sprengen"
+              ],
+              "purple": [
+                "Blow up"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gießen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "to pour, to water"
+              ]
+            },
+            "example": {
+              "red": [
+                "gieße"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "purple": [
+            "blow up"
+          ]
+        },
+        "important": {
+          "red": [
+            "gießen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Sprengstoff",
@@ -12287,7 +15803,163 @@ const B2_WORDS = [
   {
     "de": "überbringen",
     "lv": "Deliver a message • Deliver greetings • Deliver a letter • Deliver a gift",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2--berbringen",
+      "layout": "standardStudy",
+      "translation": "Deliver a message • Deliver greetings • Deliver a letter • Deliver a gift",
+      "explanation": "Main idea: überbringen means to deliver a message, letter, gift or greetings to someone. With Nachricht or Glückwünsche it means to pass on, with Brief or Geschenk to deliver. It is a more formal word than bringen.",
+      "examples": [
+        {
+          "de": "Eine Nachricht überbringen.",
+          "lv": "Pass on a message."
+        },
+        {
+          "de": "Glückwünsche überbringen.",
+          "lv": "Pass on congratulations."
+        },
+        {
+          "de": "Einen Brief überbringen.",
+          "lv": "Deliver a letter."
+        },
+        {
+          "de": "Ein Geschenk überbringen.",
+          "lv": "Deliver a gift."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "überbringen",
+          "meaning": "to pass on a message, greetings, a letter",
+          "example": "Eine Nachricht überbringen. = Pass on a message."
+        },
+        {
+          "word": "bringen",
+          "meaning": "to bring",
+          "example": "Bring mir bitte ein Glas Wasser. = Please bring me a glass of water."
+        }
+      ],
+      "tip": "If you have to pass on a message or greetings, use überbringen.",
+      "important": "Überbringen is a more formal word than bringen.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "überbringen"
+          ],
+          "purple": [
+            "greetings",
+            "letter",
+            "gift",
+            "pass on",
+            "deliver"
+          ],
+          "red": [
+            "bringen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "überbringen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pass on"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbringen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pass on"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbringen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Deliver"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbringen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Deliver"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "überbringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pass on a message",
+                "greetings",
+                "letter"
+              ]
+            },
+            "example": {
+              "blue": [
+                "überbringen"
+              ],
+              "purple": [
+                "Pass on"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "to bring"
+              ]
+            },
+            "example": {
+              "red": [
+                "Bring"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "überbringen"
+          ]
+        },
+        "important": {
+          "red": [
+            "bringen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Übereinkommen",
@@ -12738,7 +16410,193 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Unterlagen",
     "lv": "Base • Mat • Pad • Support • Documents",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-unterlage",
+      "layout": "standardStudy",
+      "translation": "Base • Mat • Pad • Support • Documents",
+      "explanation": "Main idea: the meaning of Unterlage depends on the sentence: a base, a support or documents. In the singular it is often something that you put underneath: a base, a pad or a support. In the plural Unterlagen means documents.",
+      "examples": [
+        {
+          "de": "Als Unterlage verwenden wir ein Brett.",
+          "lv": "We use a board as a base."
+        },
+        {
+          "de": "Die Matte dient als Unterlage für die Übungen.",
+          "lv": "The mat serves as a base for the exercises."
+        },
+        {
+          "de": "Der Topf steht auf einer Unterlage.",
+          "lv": "The pot is standing on a pad."
+        },
+        {
+          "de": "Eine feste Unterlage stützt das Werkstück.",
+          "lv": "A firm support holds the workpiece."
+        },
+        {
+          "de": "Die Unterlagen enthalten technische Daten.",
+          "lv": "The documents contain technical data."
+        },
+        {
+          "de": "Die technischen Unterlagen fehlen.",
+          "lv": "The technical documents are missing."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Unterlage",
+          "meaning": "base, mat, pad",
+          "example": "Als Unterlage verwenden wir ein Brett. = We use a board as a base."
+        },
+        {
+          "word": "Dokument",
+          "meaning": "document",
+          "example": "Das Dokument fehlt. = The document is missing."
+        }
+      ],
+      "tip": "If Unterlagen is in the plural, think of documents.",
+      "important": "Unterlage and Unterlagen mean different things: a base and documents.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Unterlage",
+            "Unterlagen"
+          ],
+          "purple": [
+            "base",
+            "pad",
+            "support",
+            "documents"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "base"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "support"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "documents"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "documents"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Unterlage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "base",
+                "mat",
+                "pad"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Unterlage"
+              ],
+              "purple": [
+                "base"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Dokument"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "document"
+              ]
+            },
+            "example": {
+              "red": [
+                "Dokument"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Unterlagen"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Unterlage",
+            "Unterlagen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "unterlassen",
@@ -12952,9 +16810,9 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Merge with",
       "rektion": "mit + dative",
-      "explanation": "Sich vereinigen requires the fixed preposition mit + dative.",
+      "explanation": "sich vereinigen requires a specific preposition: mit + dative.",
       "forms": "mit + dative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Government:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13008,7 +16866,145 @@ const B2_WORDS = [
   {
     "de": "verfügen",
     "lv": "Determine • Command • Assign",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-verf-gen",
+      "layout": "standardStudy",
+      "translation": "Determine • Command • Assign",
+      "explanation": "Main idea: the sentence shows the meaning of verfügen: to determine, command or assign. Verfügen is an official word. An authority or manager uses it to determine or command.",
+      "examples": [
+        {
+          "de": "Die Behörde verfügt eine Ausgangssperre.",
+          "lv": "The authority decrees a curfew."
+        },
+        {
+          "de": "Der König verfügt, dass das Tor geschlossen wird.",
+          "lv": "The king orders the gate to be closed."
+        },
+        {
+          "de": "Der Direktor verfügt, dass die Arbeiten sofort beginnen.",
+          "lv": "The director directs that the work should begin immediately."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verfügen",
+          "meaning": "determine, command, assign",
+          "example": "Die Behörde verfügt eine Ausgangssperre. = The authority decrees a curfew."
+        },
+        {
+          "word": "anordnen",
+          "meaning": "order",
+          "example": "Der Chef ordnet an, dass wir beginnen. = The boss orders that we begin."
+        }
+      ],
+      "tip": "If an authority or manager officially determines something, think verfügen.",
+      "important": "With über (über etwas verfügen), verfügen means to have something at one's disposal; that is a different meaning.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "verfügen"
+          ],
+          "purple": [
+            "determine",
+            "command",
+            "assign"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "decrees"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "orders"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "directs"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verfügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "determine",
+                "command",
+                "assign"
+              ]
+            },
+            "example": {
+              "blue": [
+                "verfügt"
+              ],
+              "purple": [
+                "decrees"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anordnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "order"
+              ]
+            },
+            "example": {
+              "red": [
+                "ordnet an"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "verfügen"
+          ],
+          "purple": [
+            "determines"
+          ]
+        },
+        "important": {
+          "blue": [
+            "verfügen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Verfügung",
@@ -13277,19 +17273,115 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
-      "layout": "minimalStudy",
-      "translation": "Make a mistake • Equip with",
-      "rektion": "mit + the dative",
-      "explanation": "Sich versehen requires the fixed preposition mit + the dative.",
-      "forms": "mit + the dative",
-      "formsLabel": "Rection:",
+      "layout": "standardStudy",
+      "translation": "Forget • Equip with",
+      "explanation": "Main idea: sich versehen means to make a mistake by overlooking or misreading something. Sich versehen is used when the mistake comes from carelessness. There is usually mich, dich or sich in the sentence.",
+      "examples": [
+        {
+          "de": "Ich habe mich versehen.",
+          "lv": "I made a mistake."
+        },
+        {
+          "de": "Da habe ich mich wohl versehen.",
+          "lv": "I must have made a mistake there."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich versehen",
+          "meaning": "make a mistake",
+          "example": "Ich habe mich versehen. = I made a mistake."
+        },
+        {
+          "word": "vergessen",
+          "meaning": "forget",
+          "example": "Ich habe den Termin vergessen. = I forgot the appointment."
+        }
+      ],
+      "tip": "If the mistake is accidental, not deliberate, use sich versehen.",
+      "important": "Sich versehen is not 'to forget'. To forget is vergessen.",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich versehen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "habe mich versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "made a mistake"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "habe ich mich wohl versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "made a mistake"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich versehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "make a mistake"
+              ]
+            },
+            "example": {
+              "blue": [
+                "habe mich versehen"
+              ],
+              "purple": [
+                "made a mistake"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "forget"
+              ]
+            },
+            "example": {
+              "red": [
+                "vergessen"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "sich versehen"
+          ]
+        },
+        "important": {
+          "blue": [
+            "sich versehen"
           ],
           "red": [
-            "mit + the dative"
+            "vergessen"
           ]
         }
       }
@@ -13329,9 +17421,9 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Reconcile with",
       "rektion": "mit + dative",
-      "explanation": "Sich versöhnen requires the fixed preposition mit + dative.",
+      "explanation": "sich versöhnen requires a specific preposition: mit + dative.",
       "forms": "mit + dative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Government:",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -13377,17 +17469,17 @@ const B2_WORDS = [
       "id": "b2-sich-verstellen",
       "layout": "minimalStudy",
       "translation": "Impersonate",
-      "rektion": "als + the accusative",
-      "explanation": "Sich verstellen requires the fixed preposition als + the accusative.",
-      "forms": "als + the accusative",
-      "formsLabel": "Rection:",
+      "rektion": "als + accusative",
+      "explanation": "sich verstellen requires a specific preposition: als + accusative.",
+      "forms": "als + accusative",
+      "formsLabel": "Government:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich verstellen"
           ],
           "red": [
-            "als + the accusative"
+            "als + accusative"
           ]
         }
       }
@@ -13493,17 +17585,17 @@ const B2_WORDS = [
       "id": "b2-sich-verwundern",
       "layout": "minimalStudy",
       "translation": "Be surprised by",
-      "rektion": "über + the accusative",
-      "explanation": "Sich verwundern requires the fixed preposition über + the accusative.",
-      "forms": "über + the accusative",
-      "formsLabel": "Rection:",
+      "rektion": "über + accusative",
+      "explanation": "sich verwundern requires a specific preposition: über + accusative.",
+      "forms": "über + accusative",
+      "formsLabel": "Government:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich verwundern"
           ],
           "red": [
-            "über + the accusative"
+            "über + accusative"
           ]
         }
       }
@@ -14109,7 +18201,160 @@ const B2_WORDS = [
     "de_article": "das",
     "de_plural": "die Wesen",
     "lv": "Being • Creature • Essence • Nature",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-wesen",
+      "layout": "standardStudy",
+      "translation": "Being • Creature • Essence • Nature",
+      "explanation": "Main idea: the sentence shows the meaning of Wesen: being, creature, essence or nature. With a living thing it is a being or creature, with a problem its essence, with a person their nature.",
+      "examples": [
+        {
+          "de": "Ein lebendes Wesen.",
+          "lv": "A living being."
+        },
+        {
+          "de": "Ein seltsames Wesen.",
+          "lv": "A strange creature."
+        },
+        {
+          "de": "Das Wesen des Problems.",
+          "lv": "The essence of the problem."
+        },
+        {
+          "de": "Sie hat ein freundliches Wesen.",
+          "lv": "She has a friendly nature."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Wesen",
+          "meaning": "being, creature, essence",
+          "example": "Ein lebendes Wesen. = A living being."
+        },
+        {
+          "word": "Charakter",
+          "meaning": "character",
+          "example": "Er hat einen starken Charakter. = He has a strong character."
+        }
+      ],
+      "tip": "If it is about a person's nature, think nature; if it is about a problem, think essence.",
+      "important": "Das Wesen des Problems means the essence of the problem; nature applies only to people.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Wesen"
+          ],
+          "purple": [
+            "being",
+            "creature",
+            "essence",
+            "nature"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "being"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "creature"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "essence"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nature"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Wesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "being",
+                "creature",
+                "essence"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Wesen"
+              ],
+              "purple": [
+                "being"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Charakter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "character"
+              ]
+            },
+            "example": {
+              "red": [
+                "Charakter"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "purple": [
+            "essence",
+            "nature"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Wesen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Wettlauf",
@@ -14173,16 +18418,16 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Resist • Oppose",
       "rektion": "+ dative",
-      "explanation": "Sich widersetzen takes a dative object.",
+      "explanation": "sich widersetzen takes + dative.",
       "forms": "+ dative",
-      "formsLabel": "Rection:",
+      "formsLabel": "Government:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich widersetzen"
           ],
           "red": [
-            "Sich"
+            "+ dative"
           ]
         }
       }
@@ -14362,15 +18607,15 @@ const B2_WORDS = [
       "id": "b2-zuweisen",
       "layout": "standardStudy",
       "translation": "Assign • Allocate",
-      "explanation": "Main idea: zuweisen means to officially assign or allocate a task, role, resource, or money to a specific person or department. Separable: weise ... zu.",
+      "explanation": "Main idea: zuweisen means to officially assign or allocate a task, role, resource or money to a specific person or department. Separable: weise ... zu.",
       "examples": [
         {
           "de": "Der Chef weist ihm eine neue Aufgabe zu.",
-          "lv": "The boss gives him a new task."
+          "lv": "The boss assigns him a new task."
         },
         {
           "de": "Die Mittel wurden dem Projekt zugewiesen.",
-          "lv": "Funds were allocated to the project."
+          "lv": "The funds were allocated to the project."
         },
         {
           "de": "Sie wurde einer anderen Abteilung zugewiesen.",
@@ -14380,34 +18625,40 @@ const B2_WORDS = [
       "comparison": [
         {
           "word": "zuweisen",
-          "meaning": "Assign • Assign",
-          "example": "Er weist die Aufgabe zu. – He assigns the task."
+          "meaning": "assign • allocate",
+          "example": "Er weist die Aufgabe zu. = He assigns the task."
         },
         {
           "word": "geben",
-          "meaning": "To give",
-          "example": "Er gibt mir die Arbeit. – He gives me the work."
+          "meaning": "give",
+          "example": "Er gibt mir die Arbeit. = He gives me the work."
         },
         {
           "word": "verteilen",
-          "meaning": "To divide",
-          "example": "Er verteilt die Aufgaben. – He distributes the tasks."
+          "meaning": "distribute",
+          "example": "Er verteilt die Aufgaben. = He distributes the tasks."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "zuweisen emphasizes formal assignment—in work, administration, projects."
+            "text": "zuweisen stresses official allocation, at work, in administration and in projects."
           }
         ]
       },
       "important": {
-        "text": "zuweisen = to officially assign or allocate. Perfect: zugewiesen. Separable: weise ... zu."
+        "text": "zuweisen = to officially assign or allocate. Perfekt: zugewiesen. Separable: weise ... zu."
       },
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "zuweisen",
+            "weise",
+            "zu"
+          ],
           "purple": [
-            "assign"
+            "assign",
+            "allocate"
           ]
         },
         "examples": [
@@ -14420,7 +18671,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "The"
+                "assigns"
               ]
             }
           },
@@ -14432,7 +18683,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Funds"
+                "allocated"
               ]
             }
           },
@@ -14466,8 +18717,8 @@ const B2_WORDS = [
     "study": {
       "id": "b2-zuwider",
       "layout": "standardStudy",
-      "translation": "Against • Contrary to • Be distasteful to",
-      "explanation": "Main idea: zuwider is a word with multiple functions. As a preposition + dative, it means \"against, contrary to\": mir zuwider. In the expressions jemandem zuwider sein/laufen, it means \"to be distasteful or objectionable to someone\". Do not confuse it with wider (against).",
+      "translation": "Against • Contrary to • Dislike",
+      "explanation": "Main idea: zuwider is a word with several functions. As a preposition (placed after its noun or pronoun) + dative it means “against, contrary to”: mir zuwider. As part of the expression jemandem zuwider sein/laufen it means “to be distasteful to someone”. Not to be confused with wider (against).",
       "examples": [
         {
           "de": "Er handelte mir zuwider.",
@@ -14475,33 +18726,33 @@ const B2_WORDS = [
         },
         {
           "de": "Sein Benehmen ist mir zuwider.",
-          "lv": "I don't like his behaviour."
+          "lv": "His behaviour is distasteful to me."
         },
         {
           "de": "Das läuft mir zuwider.",
-          "lv": "I don't like it / It goes against my grain."
+          "lv": "That is distasteful to me / that goes against the grain with me."
         }
       ],
       "comparison": [
         {
           "word": "zuwider (+ Dat.)",
-          "meaning": "Against • Contrary",
-          "example": "mir zuwider – against my will"
+          "meaning": "against • contrary to",
+          "example": "mir zuwider = against my will"
         },
         {
           "word": "jemandem zuwider sein",
-          "meaning": "To be distasteful to someone",
-          "example": "Es ist mir zuwider. – I find it repugnant."
+          "meaning": "to be distasteful to someone",
+          "example": "Es ist mir zuwider. = I find it distasteful."
         },
         {
           "word": "wider",
-          "meaning": "Against (preposition)",
-          "example": "wider den Willen – against one's will"
+          "meaning": "against (preposition)",
+          "example": "wider den Willen = against the will"
         },
         {
           "word": "widersprechen",
-          "meaning": "Oppose • Disagree",
-          "example": "Ich widerspreche. – I object."
+          "meaning": "object • disagree",
+          "example": "Ich widerspreche. = I object."
         }
       ],
       "tip": {
@@ -14512,13 +18763,19 @@ const B2_WORDS = [
         ]
       },
       "important": {
-        "text": "zuwider + dative = against, contrary to. zuwider sein = to be distasteful to someone. It is not the same as wider."
+        "text": "zuwider + dative = against, contrary to. zuwider sein = to be distasteful. It is not the same as wider."
       },
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "zuwider"
+          ],
           "purple": [
-            "Main",
-            "Main"
+            "against",
+            "distasteful"
+          ],
+          "green": [
+            "wider"
           ]
         },
         "examples": [
@@ -14530,7 +18787,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "acted"
+                "against"
               ]
             }
           },
@@ -14542,7 +18799,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "don't like"
+                "distasteful"
               ]
             }
           },
@@ -14554,7 +18811,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "don't like"
+                "distasteful"
               ]
             }
           }
@@ -14613,41 +18870,45 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Exchange • Replace",
       "explanation": [
-        "Main idea: To trade or exchange something for something else - money, clothes, work, school, subject.",
-        "Wechseln basically means: to replace with another.",
-        "Often characterised by: exchange / exchange.",
-        "Wechseln is used when you change or change something for something else - money, clothes, work, school or subject."
+        "Main idea: To exchange or replace something for something else: money, clothes, a job, a school, a topic.",
+        "wechseln mainly means: to replace with another.",
+        "Often describes: exchange / change.",
+        "wechseln is used when something is exchanged or replaced for something else: money, clothes, a job, a school or a topic."
       ],
       "examples": [
         {
           "de": "Ich wechsle die Schule.",
-          "lv": "I'm changing schools."
+          "lv": "I am changing schools."
         },
         {
           "de": "Ich muss Geld wechseln.",
-          "lv": "I need to change money."
+          "lv": "I have to change some money."
         },
         {
           "de": "Wir wechseln das Thema.",
-          "lv": "We change the subject."
+          "lv": "We are changing the subject."
         },
         {
           "de": "Ich wechsle die Schule.",
-          "lv": "I'm changing schools."
+          "lv": "I am changing schools."
         }
       ],
       "tip": [
-        "To trade or exchange something for something else - money, clothes, work, school, subject.",
+        "To exchange or replace something for something else: money, clothes, a job, a school, a topic.",
         "Use wechseln when the context fits this meaning."
       ],
       "important": [
-        "wechseln = to exchange or exchange for another (Geld, Schule, Thema).",
-        "Money, school, work, topic: wechseln.",
-        "To trade or exchange something for something else - money, clothes, work, school, subject."
+        "wechseln = to exchange or replace for another (Geld, Schule, Thema).",
+        "Money, school, job, topic: wechseln.",
+        "To exchange or replace something for something else: money, clothes, a job, a school, a topic."
       ],
       "sectionAccents": {
         "explanation": {
+          "green": [
+            "wechseln"
+          ],
           "purple": [
+            "exchange",
             "replace"
           ]
         },
@@ -14690,10 +18951,10 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "trade",
-              "trade"
+              "exchange"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {
@@ -14714,12 +18975,12 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Offer • Provide",
       "explanation": [
-        "Main idea: Offer opportunities, courses, services, or benefits—that a place or programme provides.",
-        "Bieten mainly means: to give opportunity / benefit.",
-        "Often describes: what the place/programme provides.",
-        "Bieten mainly means: to provide an opportunity.",
-        "Often characterised by: more formal.",
-        "Bieten often describes what a place, programme or service provides (Die Schule bietet viele Kurse)."
+        "Main idea: To offer opportunities, courses, services or benefits: what a place or programme provides.",
+        "bieten mainly means: to provide an opportunity / benefit.",
+        "Often describes: what a place/programme gives.",
+        "bieten mainly means: to ensure an opportunity.",
+        "Often describes: more formal.",
+        "bieten often describes what a place, programme or service provides (Die Schule bietet viele Kurse)."
       ],
       "examples": [
         {
@@ -14728,7 +18989,7 @@ const B2_WORDS = [
         },
         {
           "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Can I offer you something?"
+          "lv": "May I offer you something?"
         },
         {
           "de": "Die Schule bietet viele Kurse.",
@@ -14740,27 +19001,34 @@ const B2_WORDS = [
         },
         {
           "de": "bieten",
-          "lv": "What something provides • Anbieten"
+          "lv": "what something provides; anbieten"
         }
       ],
       "tip": [
-        "Offer opportunities, courses, services, or benefits—that the location or programme provides.",
+        "To offer opportunities, courses, services or benefits: what a place or programme provides.",
         "Use bieten when the context fits this meaning."
       ],
       "important": [
-        "bieten: Die Schule bietet Kurse. (not separable)",
-        "What the place/programme offers: bieten."
+        "bieten: Die Schule bietet Kurse. (inseparable)",
+        "What a place/programme provides: bieten."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "bieten"
+          ],
           "purple": [
-            "Main",
-            "Main"
+            "offer",
+            "provides"
           ]
         },
         "examples": [
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "biete"
+              ]
+            },
             "lv": {
               "purple": [
                 "offers"
@@ -14768,15 +19036,24 @@ const B2_WORDS = [
             }
           },
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "bieten",
+                "bieten"
+              ]
+            },
             "lv": {
               "purple": [
-                "Can"
+                "offer"
               ]
             }
           },
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "biete"
+              ]
+            },
             "lv": {
               "purple": [
                 "offers"
@@ -14784,7 +19061,11 @@ const B2_WORDS = [
             }
           },
           {
-            "de": {},
+            "de": {
+              "blue": [
+                "biete"
+              ]
+            },
             "lv": {}
           },
           {
@@ -14796,7 +19077,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "What"
+                "provides"
               ]
             }
           }
@@ -14804,10 +19085,10 @@ const B2_WORDS = [
         "tip": [
           {
             "purple": [
-              "Offer",
-              "Offer"
+              "offer"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {
@@ -14827,52 +19108,57 @@ const B2_WORDS = [
       "id": "b2-anbieten",
       "layout": "standardStudy",
       "translation": "To offer",
-      "explanation": "Main idea: anbieten means to actively offer someone help, a drink, a job, or a service. Separable verb: ich biete an, er bietet an. It emphasises initiative on the part of the person making the offer.",
+      "explanation": "Main idea: anbieten means to offer someone something actively: help, a drink, a job or a service. Separable verb: ich biete an, er bietet an. It stresses the initiative on the part of the person offering.",
       "examples": [
         {
           "de": "Ich biete dir meine Hilfe an.",
-          "lv": "I offer you my help."
+          "lv": "I am offering you my help."
         },
         {
           "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Can I offer you something?"
+          "lv": "May I offer you something?"
         },
         {
           "de": "Das Unternehmen bietet neue Stellen an.",
-          "lv": "The company offers new jobs."
+          "lv": "The company is offering new jobs."
         }
       ],
       "comparison": [
         {
           "word": "anbieten",
-          "meaning": "Offer (active)",
-          "example": "Ich biete Hilfe an. – I offer help."
+          "meaning": "offer (actively)",
+          "example": "Ich biete Hilfe an. = I offer help."
         },
         {
           "word": "bieten",
-          "meaning": "Offer • Give",
-          "example": "Er bietet viel Geld. – He offers a lot of money."
+          "meaning": "offer • give",
+          "example": "Er bietet viel Geld. = He offers a lot of money."
         },
         {
           "word": "vorschlagen",
-          "meaning": "Propose",
-          "example": "Ich schlage vor. – I suggest it."
+          "meaning": "suggest",
+          "example": "Ich schlage vor. = I suggest."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "anbieten emphasizes that someone is actively offering something to a specific person: Ich biete dir ... an."
+            "text": "anbieten stresses that someone actively offers something to a specific person: Ich biete dir ... an."
           }
         ]
       },
       "important": {
-        "text": "anbieten = to offer actively. Separable: biete ... an. Perfect: angeboten."
+        "text": "anbieten = to offer actively. Separable: biete ... an. Perfekt: angeboten."
       },
       "sectionAccents": {
         "explanation": {
+          "green": [
+            "anbieten",
+            "biete",
+            "an"
+          ],
           "purple": [
-            "Main"
+            "offer"
           ]
         },
         "examples": [
@@ -14885,7 +19171,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "I offer"
+                "offering"
               ]
             }
           },
@@ -14897,7 +19183,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Can"
+                "offer"
               ]
             }
           },
@@ -14910,7 +19196,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "offers"
+                "offering"
               ]
             }
           }
@@ -14925,14 +19211,14 @@ const B2_WORDS = [
     "study": {
       "id": "b2-fordern",
       "layout": "standardStudy",
-      "translation": "Demand • Request",
+      "translation": "Demand • Require",
       "explanation": [
-        "Main idea: Asking for money, rights, changes, or obligations—an active demand.",
-        "Fordern mainly means: to require / to require.",
-        "Often characterised by: active demand.",
-        "Fordern mainly means: to demand a standard.",
-        "Often characterised by: formal.",
-        "Fordern is used when someone is asking for money, rights, change or an obligation (Sie fordern mehr Geld)."
+        "Main idea: To demand money, rights, changes or an obligation: an active demand.",
+        "fordern mainly means: to require / demand.",
+        "Often describes: an active demand.",
+        "fordern mainly means: to demand a standard.",
+        "Often describes: formal.",
+        "fordern is used when someone demands money, rights, changes or an obligation (Sie fordert mehr Geld)."
       ],
       "examples": [
         {
@@ -14941,77 +19227,50 @@ const B2_WORDS = [
         },
         {
           "de": "Wir fordern mehr Transparenz.",
-          "lv": "We demand more transparency."
+          "lv": "We demand greater transparency."
         },
         {
           "de": "Sie fordert mehr Geld.",
-          "lv": "She asks for more money."
+          "lv": "She demands more money."
         },
         {
           "de": "Wir fordern mehr Sicherheit.",
-          "lv": "We demand more security."
+          "lv": "We demand greater security."
         },
         {
           "de": "fordern",
-          "lv": "To demand • To promote"
+          "lv": "to require; fördern"
         }
       ],
       "tip": [
-        "Demand money, rights, changes, or obligations - an active claim.",
+        "To demand money, rights, changes or an obligation: an active demand.",
         "Use fordern when the context fits this meaning."
       ],
       "important": [
-        "fordern = demand / require (without ö).",
-        "Demand, request: fordern (without ö).",
-        "Demand money, rights, changes, or obligations - an active claim."
+        "fordern = to demand / require (without ö).",
+        "Demand, claim: fordern (without ö).",
+        "To demand money, rights, changes or an obligation: an active demand."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "fordern"
+          ],
           "purple": [
-            "Main",
-            "Main"
+            "demand",
+            "require"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {
-              "purple": [
-                "She"
-              ]
-            }
-          },
-          {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forde"
               ]
             },
             "lv": {
               "purple": [
-                "we demand"
-              ]
-            }
-          },
-          {
-            "de": {},
-            "lv": {
-              "purple": [
-                "She"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fordern",
-                "fordern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "we demand"
+                "demands"
               ]
             }
           },
@@ -15027,15 +19286,53 @@ const B2_WORDS = [
                 "demand"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "forde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "demands"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fordern",
+                "fordern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "demand"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fordern",
+                "fordern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "require"
+              ]
+            }
           }
         ],
         "tip": [
           {
             "purple": [
-              "Demand",
-              "Demand"
+              "demand"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {
@@ -15056,14 +19353,14 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Promote • Support",
       "explanation": [
-        "Main idea: Promote development, support a person, project or process.",
-        "Fördern mainly means: promote development.",
-        "Often characterised by: support / progress.",
-        "Fördern mainly means: to extract minerals.",
-        "Often characterised by: in industry.",
-        "Fördern mainly means: develop talent.",
-        "Often characterised by: in education.",
-        "Fördern means to promote development, to support a person or a project (Sport fördern die Gesundheit)."
+        "Main idea: To promote development, to support a person, a project or a process.",
+        "fördern mainly means: to promote development.",
+        "Often describes: support / progress.",
+        "fördern mainly means: to extract minerals.",
+        "Often describes: in industry.",
+        "fördern mainly means: to develop talent.",
+        "Often describes: in education.",
+        "fördern means to promote development, to support a person or a project (Sport fördert die Gesundheit)."
       ],
       "examples": [
         {
@@ -15084,35 +19381,46 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Promote development, support a person, project or process.",
+        "To promote development, to support a person, a project or a process.",
         "Use fördern when the context fits this meaning."
       ],
       "important": [
-        "fördern = promote / support (with ö).",
+        "fördern = to promote / support (with ö).",
         "Promotion, support: fördern (with ö).",
-        "Promote development, support a person, project or process."
+        "To promote development, to support a person, a project or a process."
       ],
       "sectionAccents": {
         "explanation": {
+          "green": [
+            "fördern"
+          ],
           "purple": [
             "promote",
-            "to support"
+            "support"
           ]
         },
         "examples": [
           {
-            "de": {},
+            "de": {
+              "green": [
+                "förde"
+              ]
+            },
             "lv": {
               "purple": [
-                "Sport"
+                "promotes"
               ]
             }
           },
           {
-            "de": {},
+            "de": {
+              "green": [
+                "förde"
+              ]
+            },
             "lv": {
               "purple": [
-                "Sport"
+                "promotes"
               ]
             }
           },
@@ -15125,10 +19433,14 @@ const B2_WORDS = [
             "lv": {}
           },
           {
-            "de": {},
+            "de": {
+              "green": [
+                "förde"
+              ]
+            },
             "lv": {
               "purple": [
-                "The"
+                "supports"
               ]
             }
           }
@@ -15138,7 +19450,8 @@ const B2_WORDS = [
             "purple": [
               "promote"
             ]
-          }
+          },
+          {}
         ],
         "important": [
           {
@@ -15158,11 +19471,17 @@ const B2_WORDS = [
       "id": "b2-sich-verlaufen",
       "layout": "minimalStudy",
       "translation": "Get lost",
-      "explanation": "Sich verlaufen means to get lost. It has no fixed preposition. Not to be confused with verlaufen.",
+      "explanation": "sich verlaufen means to get lost. It has no fixed preposition. Not to be confused with verlaufen (to proceed).",
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sich verlaufen"
+          ],
           "purple": [
             "get lost"
+          ],
+          "red": [
+            "verlaufen"
           ]
         }
       }
@@ -15176,12 +19495,18 @@ const B2_WORDS = [
       "id": "b2-verlaufen",
       "layout": "minimalStudy",
       "translation": "To proceed • To run its course",
-      "explanation": "Verlaufen (without sich) means to proceed or run its course. It is not synonymous with sich verlaufen (to get lost).",
+      "explanation": "verlaufen (without sich) means to proceed or run its course. It is not a synonym of sich verlaufen (to get lost).",
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "verlaufen"
+          ],
           "purple": [
-            "Verlaufen",
-            "Verlaufen"
+            "proceed",
+            "run its course"
+          ],
+          "red": [
+            "sich verlaufen"
           ]
         }
       }
