@@ -938,7 +938,7 @@ const A1_WORDS = [
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "Hand",
+    "lv": "Arm",
     "level": "A1"
   },
   {
@@ -5424,12 +5424,12 @@ const A1_WORDS = [
   },
   {
     "de": "euch",
-    "lv": "You • You",
+    "lv": "You",
     "level": "A1",
     "study": {
       "id": "a1-euch",
       "layout": "standardStudy",
-      "translation": "You • You",
+      "translation": "You",
       "explanation": "“euch” is a 2nd person plural pronoun. It is used both as a direct complement (where?) - \"you\" and as an indirect complement (to whom?) - \"to you\".",
       "examples": [
         {
@@ -5499,12 +5499,12 @@ const A1_WORDS = [
   },
   {
     "de": "fahren",
-    "lv": "Drive • Lead • Take away",
+    "lv": "Drive • Go (by vehicle)",
     "level": "A1",
     "study": {
       "id": "a1-fahren",
       "layout": "standardStudy",
-      "translation": "Drive • Lead • Take away",
+      "translation": "Drive • Go (by vehicle)",
       "explanation": [
         "Main idea: fahren means to drive a vehicle and in some sentences also to take or take someone.",
         "Fahren is used when travelling by car, bus, train, bicycle or other vehicle.",
@@ -5888,7 +5888,7 @@ const A1_WORDS = [
     "de": "Film",
     "de_article": "der",
     "de_plural": "die Filme",
-    "lv": "Movie",
+    "lv": "Film",
     "level": "A1"
   },
   {
@@ -6132,7 +6132,7 @@ const A1_WORDS = [
     "de": "Flugzeug",
     "de_article": "das",
     "de_plural": "die Flugzeuge",
-    "lv": "An airplane",
+    "lv": "An aeroplane",
     "level": "A1"
   },
   {
@@ -6371,7 +6371,7 @@ const A1_WORDS = [
   },
   {
     "de": "frühstücken",
-    "lv": "Having breakfast",
+    "lv": "Have breakfast",
     "level": "A1"
   },
   {
@@ -6411,12 +6411,12 @@ const A1_WORDS = [
   },
   {
     "de": "für",
-    "lv": "For • For",
+    "lv": "For",
     "level": "A1",
     "study": {
       "id": "a1-fuer",
       "layout": "standardStudy",
-      "translation": "For • For",
+      "translation": "For",
       "explanation": [
         "Main idea: für is a preposition that always governs the accusative case - usually for or for in English.",
         "When speaking of recipient or intention, für = for (für dich = for you).",
@@ -7044,7 +7044,7 @@ const A1_WORDS = [
   },
   {
     "de": "gegen",
-    "lv": "Vs",
+    "lv": "Against",
     "level": "A1"
   },
   {
@@ -8005,14 +8005,14 @@ const A1_WORDS = [
   },
   {
     "de": "halb",
-    "lv": "Side",
+    "lv": "Half",
     "level": "A1"
   },
   {
     "de": "Hälfte",
     "de_article": "die",
     "de_plural": "die Hälften",
-    "lv": "Side",
+    "lv": "Half",
     "level": "A1"
   },
   {
@@ -9066,7 +9066,7 @@ const A1_WORDS = [
   },
   {
     "de": "ich",
-    "lv": "Me",
+    "lv": "I",
     "level": "A1"
   },
   {
@@ -10203,12 +10203,12 @@ const A1_WORDS = [
   },
   {
     "de": "kein",
-    "lv": "Nobody • Nothing",
+    "lv": "No • Not any",
     "level": "A1",
     "study": {
       "id": "a1-kein",
       "layout": "standardStudy",
-      "translation": "Nobody • Nothing",
+      "translation": "No • Not any",
       "explanation": [
         "Main idea: kein is a negation article that negates a noun - English, depending on the context, nobody or nothing.",
         "Kein is inflected like ein (kein/keine/keinen...) and stands before a noun.",
@@ -10368,7 +10368,7 @@ const A1_WORDS = [
     "de": "Keks",
     "de_article": "der",
     "de_plural": "die Kekse",
-    "lv": "Cookie",
+    "lv": "Biscuit",
     "level": "A1"
   },
   {
@@ -10616,7 +10616,7 @@ const A1_WORDS = [
     "de": "Kilometer",
     "de_article": "der",
     "de_plural": "die Kilometer",
-    "lv": "Kilometer",
+    "lv": "Kilometre",
     "level": "A1"
   },
   {
@@ -10868,12 +10868,12 @@ const A1_WORDS = [
   },
   {
     "de": "kosten",
-    "lv": "To pay",
+    "lv": "To cost",
     "level": "A1",
     "study": {
       "id": "a1-kosten",
       "layout": "standardStudy",
-      "translation": "To pay",
+      "translation": "To cost",
       "explanation": [
         "Main idea: kosten means to pay so and so - talks about the price of a thing.",
         "This word is used when asking or saying how much something costs, not when a person makes a payment.",
@@ -11180,7 +11180,7 @@ const A1_WORDS = [
     "de": "Hose",
     "de_article": "die",
     "de_plural": "die Hosen",
-    "lv": "Pants",
+    "lv": "Trousers",
     "level": "A1"
   },
   {
@@ -11703,12 +11703,12 @@ const A1_WORDS = [
   },
   {
     "de": "lang",
-    "lv": "Long • Long",
+    "lv": "Long",
     "level": "A1",
     "study": {
       "id": "a1-lang",
       "layout": "standardStudy",
-      "translation": "Long • Long",
+      "translation": "Long",
       "explanation": [
         "Main idea: lang spatially means long, temporally long.",
         "When it comes to sise or distance, lang = long (ein langer Tisch = long table).",
@@ -13043,12 +13043,12 @@ const A1_WORDS = [
   },
   {
     "de": "liegen",
-    "lv": "To be • To sleep",
+    "lv": "To lie • To be (located)",
     "level": "A1",
     "study": {
       "id": "a1-liegen",
       "layout": "standardStudy",
-      "translation": "To be • To sleep",
+      "translation": "To lie • To be (located)",
       "explanation": [
         "Main idea: Liegen means to lie or lie horizontally.",
         "For a person, lying often means sleeping.",
@@ -13286,7 +13286,7 @@ const A1_WORDS = [
   },
   {
     "de": "links",
-    "lv": "Left • Left",
+    "lv": "Left",
     "level": "A1"
   },
   {
@@ -13619,7 +13619,7 @@ const A1_WORDS = [
   },
   {
     "de": "malen",
-    "lv": "To paint • To paint",
+    "lv": "To paint",
     "level": "A1"
   },
   {
@@ -14085,7 +14085,7 @@ const A1_WORDS = [
     "de": "Mittag",
     "de_article": "der",
     "de_plural": "die Mittage",
-    "lv": "Lunch",
+    "lv": "Midday • Noon",
     "level": "A1"
   },
   {
@@ -15605,7 +15605,7 @@ const A1_WORDS = [
   },
   {
     "de": "nicht",
-    "lv": "No",
+    "lv": "Not",
     "level": "A1"
   },
   {
@@ -15750,12 +15750,12 @@ const A1_WORDS = [
   },
   {
     "de": "nur",
-    "lv": "Only • Only",
+    "lv": "Only",
     "level": "A1",
     "study": {
       "id": "a1-nur-study",
       "layout": "standardStudy",
-      "translation": "Only • Only",
+      "translation": "Only",
       "explanation": [
         "Main idea: Limits quantity, number of people, choice, or options.",
         "Nur primarily means: limited quantity or choice.",
@@ -16044,12 +16044,12 @@ const A1_WORDS = [
   },
   {
     "de": "oder",
-    "lv": "Or • Or",
+    "lv": "Or",
     "level": "A1",
     "study": {
       "id": "a1-oder",
       "layout": "standardStudy",
-      "translation": "Or • Or",
+      "translation": "Or",
       "explanation": [
         "Main idea: oder is used when we choose between two or more options.",
         "In English, oder most often means or.",
@@ -16332,12 +16332,12 @@ const A1_WORDS = [
   },
   {
     "de": "passen",
-    "lv": "Fit • Fit",
+    "lv": "Fit",
     "level": "A1",
     "study": {
       "id": "a1-passen",
       "layout": "standardStudy",
-      "translation": "Fit • Fit",
+      "translation": "Fit",
       "explanation": [
         "Main idea: passen means to fit, suit, or be suitable.",
         "For clothing, passen often means to fit the sise.",
@@ -16606,7 +16606,7 @@ const A1_WORDS = [
   {
     "de": "Post",
     "de_article": "die",
-    "lv": "Mail",
+    "lv": "Post",
     "level": "A1"
   },
   {
@@ -16887,7 +16887,7 @@ const A1_WORDS = [
     "de": "Radiergummi",
     "de_article": "der",
     "de_plural": "die Radiergummis",
-    "lv": "Eraser",
+    "lv": "Rubber",
     "level": "A1"
   },
   {
@@ -17278,7 +17278,7 @@ const A1_WORDS = [
   {
     "de": "Schnee",
     "de_article": "der",
-    "lv": "It will snow",
+    "lv": "Snow",
     "level": "A1"
   },
   {
@@ -17372,7 +17372,7 @@ const A1_WORDS = [
     "de": "Schrank",
     "de_article": "der",
     "de_plural": "die Schränke",
-    "lv": "Closet",
+    "lv": "Wardrobe • Cupboard",
     "level": "A1"
   },
   {
@@ -19866,7 +19866,7 @@ const A1_WORDS = [
     "de": "U-Bahn",
     "de_article": "die",
     "de_plural": "die U-Bahnen",
-    "lv": "Subway",
+    "lv": "Underground • Tube",
     "level": "A1"
   },
   {
@@ -21395,7 +21395,7 @@ const A1_WORDS = [
     "de": "Vorname",
     "de_article": "der",
     "de_plural": "die Vornamen",
-    "lv": "Word",
+    "lv": "First name",
     "level": "A1"
   },
   {
@@ -21434,12 +21434,12 @@ const A1_WORDS = [
   },
   {
     "de": "was",
-    "lv": "Who • What",
+    "lv": "What",
     "level": "A1",
     "study": {
       "id": "a1-was",
       "layout": "standardStudy",
-      "translation": "Who • What",
+      "translation": "What",
       "explanation": [
         "Main idea: what is a question word about things and events - in English it is what or what, depending on the part of the sentence.",
         "Was asks about things, events and facts, not about persons.",
@@ -21654,7 +21654,7 @@ const A1_WORDS = [
   },
   {
     "de": "welcher",
-    "lv": "Who",
+    "lv": "Which",
     "level": "A1"
   },
   {
@@ -21897,12 +21897,12 @@ const A1_WORDS = [
   },
   {
     "de": "wer",
-    "lv": "Who • Who",
+    "lv": "Who",
     "level": "A1",
     "study": {
       "id": "a1-wer",
       "layout": "standardStudy",
-      "translation": "Who • Who",
+      "translation": "Who",
       "explanation": [
         "Main idea: wer is a question word about a person's identity - in English it is who or who.",
         "Wer asking about people, not about things or events.",
@@ -22290,12 +22290,12 @@ const A1_WORDS = [
   {
     "de": "Wetter",
     "de_article": "das",
-    "lv": "Time (weather)",
+    "lv": "Weather",
     "level": "A1",
     "study": {
       "id": "a1-wetter",
       "layout": "standardStudy",
-      "translation": "Time (weather)",
+      "translation": "Weather",
       "explanation": [
         "Main idea: das Wetter means the weather - sunny, rainy, cold or warm.",
         "The English word \"laiks\" can mean both the weather and the time on the clock - in German it is different.",
@@ -24216,12 +24216,12 @@ const A1_WORDS = [
   {
     "de": "Obst",
     "de_article": "das",
-    "lv": "Fruits",
+    "lv": "Fruit",
     "level": "A1",
     "study": {
       "id": "a1-obst",
       "layout": "standardStudy",
-      "translation": "Fruits",
+      "translation": "Fruit",
       "explanation": [
         "Main idea: Fruits in general. German has no plural form *die Obsts.",
         "Das Obst mainly means: fruit in general.",
@@ -24478,12 +24478,12 @@ const A1_WORDS = [
     "de": "Urlaub",
     "de_article": "der",
     "de_plural": "die Urlaube",
-    "lv": "Vacation",
+    "lv": "Holiday",
     "level": "A1",
     "study": {
       "id": "a1-urlaub",
       "layout": "standardStudy",
-      "translation": "Vacation",
+      "translation": "Holiday",
       "explanation": [
         "Main idea: singular only. Leave from work - always singular.",
         "Der Urlaub basically means: time off from work.",
@@ -24895,12 +24895,12 @@ const A1_WORDS = [
   },
   {
     "de": "einmal",
-    "lv": "Once • Once",
+    "lv": "Once",
     "level": "A1",
     "study": {
       "id": "a1-einmal",
       "layout": "standardStudy",
-      "translation": "Once • Once",
+      "translation": "Once",
       "explanation": [
         "Main idea: Refers to a time or past (once I was...).",
         "Einmal basically means: once / in the past.",
