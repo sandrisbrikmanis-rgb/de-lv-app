@@ -110,7 +110,154 @@ const B2_WORDS = [
   {
     "de": "angebracht",
     "lv": "piemērots • iederīgs",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-angebracht",
+      "layout": "standardStudy",
+      "translation": "piemērots • iederīgs",
+      "explanation": "Galvenā doma: angebracht nozīmē piemērots vai iederīgs konkrētā situācijā. Angebracht saka, ka kaut kas ir vietā: tonis, kritika vai atvainošanās. Tas bieži lietots ar nicht vai wäre.",
+      "examples": [
+        {
+          "de": "Dieser Ton ist nicht angebracht.",
+          "lv": "Šāds tonis nav piemērots."
+        },
+        {
+          "de": "Deine Kritik ist angebracht.",
+          "lv": "Tava kritika ir iederīga."
+        },
+        {
+          "de": "Eine Entschuldigung wäre angebracht.",
+          "lv": "Būtu vietā atvainoties."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "angebracht",
+          "meaning": "piemērots, iederīgs",
+          "example": "Dieser Ton ist nicht angebracht. = Šāds tonis nav piemērots."
+        },
+        {
+          "word": "passend",
+          "meaning": "piemērots",
+          "example": "Das ist ein passendes Geschenk. = Tā ir piemērota dāvana."
+        }
+      ],
+      "tip": "Ja kaut kas ir vietā situācijā, lieto angebracht.",
+      "important": "Angebracht nenozīmē tikai piestiprināts; ikdienā biežāk tas ir 'vietā'.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "angebracht"
+          ],
+          "purple": [
+            "piemērots",
+            "iederīgs",
+            "iederīga",
+            "vietā"
+          ],
+          "red": [
+            "passend"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piemērots"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iederīga"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vietā"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "angebracht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "piemērots",
+                "iederīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "angebracht"
+              ],
+              "purple": [
+                "piemērots"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "passend"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "piemērots"
+              ]
+            },
+            "example": {
+              "red": [
+                "passendes"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "angebracht"
+          ],
+          "purple": [
+            "piemērots",
+            "iederīgs",
+            "iederīga",
+            "vietā"
+          ]
+        },
+        "important": {
+          "blue": [
+            "angebracht"
+          ],
+          "red": [
+            "passend"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "angehen",
@@ -268,7 +415,144 @@ const B2_WORDS = [
   {
     "de": "abgesehen",
     "lv": "izņemot • neskaitot",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-abgesehen",
+      "layout": "standardStudy",
+      "translation": "izņemot • neskaitot",
+      "explanation": "Galvenā doma: abgesehen von nozīmē izņemot vai neskaitot. Frāzē abgesehen von seko lietvārds datīvā. Tas parāda, ka kaut kas netiek ņemts vērā.",
+      "examples": [
+        {
+          "de": "Abgesehen von dir sind alle hier.",
+          "lv": "Izņemot tevi, visi ir šeit."
+        },
+        {
+          "de": "Abgesehen vom Wetter war alles gut.",
+          "lv": "Neskaitot laikapstākļus, viss bija labi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abgesehen",
+          "meaning": "izņemot, neskaitot",
+          "example": "Abgesehen von dir sind alle hier. = Izņemot tevi, visi ir šeit."
+        },
+        {
+          "word": "außer",
+          "meaning": "izņemot",
+          "example": "Außer dir sind alle hier. = Izņemot tevi, visi ir šeit."
+        }
+      ],
+      "tip": "Redzot abgesehen, gaidi von un datīvu.",
+      "important": "Abgesehen von vienmēr ir ar von.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "abgesehen",
+            "Abgesehen von",
+            "Abgesehen vom"
+          ],
+          "purple": [
+            "izņemot",
+            "neskaitot",
+            "Izņemot",
+            "Neskaitot"
+          ],
+          "red": [
+            "außer"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Abgesehen von"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Izņemot"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen vom"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Neskaitot"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abgesehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "izņemot",
+                "neskaitot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Abgesehen von"
+              ],
+              "purple": [
+                "Izņemot"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "außer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "izņemot"
+              ]
+            },
+            "example": {
+              "red": [
+                "Außer"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "abgesehen",
+            "Abgesehen von",
+            "Abgesehen vom"
+          ],
+          "purple": [
+            "izņemot",
+            "neskaitot",
+            "Izņemot",
+            "Neskaitot"
+          ]
+        },
+        "important": {
+          "blue": [
+            "abgesehen",
+            "Abgesehen von",
+            "Abgesehen vom"
+          ],
+          "red": [
+            "außer"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "abgespannt",
@@ -425,7 +709,159 @@ const B2_WORDS = [
   {
     "de": "abtragen",
     "lv": "aiznest • nonēsāt • nojaukt",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-abtragen",
+      "layout": "standardStudy",
+      "translation": "aiznest • nonēsāt • nojaukt",
+      "explanation": "Galvenā doma: abtragen nozīmi parāda teikums: aiznest, nonēsāt vai nojaukt. Ar traukiem tas ir aiznest, ar apaviem nonēsāt, ar mūri nojaukt vai noņemt slāni pa slānim.",
+      "examples": [
+        {
+          "de": "Das Geschirr abtragen.",
+          "lv": "Aiznest traukus no galda."
+        },
+        {
+          "de": "Schuhe abtragen.",
+          "lv": "Nonēsāt apavus."
+        },
+        {
+          "de": "Eine Mauer abtragen.",
+          "lv": "Nojaukt mūri."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abtragen",
+          "meaning": "aiznest, nonēsāt, nojaukt",
+          "example": "Das Geschirr abtragen. = Aiznest traukus no galda."
+        },
+        {
+          "word": "tragen",
+          "meaning": "nest",
+          "example": "Er trägt die Tasche. = Viņš nes somu."
+        }
+      ],
+      "tip": "Skaties, kas teikumā tiek abgetragen: trauki, apavi vai mūris.",
+      "important": "Abtragen nav tas pats, kas tragen (nest, valkāt).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "abtragen"
+          ],
+          "purple": [
+            "aiznest",
+            "nonēsāt",
+            "nojaukt",
+            "Aiznest",
+            "Nonēsāt",
+            "Nojaukt"
+          ],
+          "red": [
+            "tragen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abtragen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Aiznest"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abtragen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nonēsāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abtragen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nojaukt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abtragen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aiznest",
+                "nonēsāt",
+                "nojaukt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "abtragen"
+              ],
+              "purple": [
+                "Aiznest"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "tragen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nest"
+              ]
+            },
+            "example": {
+              "red": [
+                "trägt"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "abtragen"
+          ],
+          "purple": [
+            "aiznest",
+            "nonēsāt",
+            "nojaukt",
+            "Aiznest",
+            "Nonēsāt",
+            "Nojaukt"
+          ]
+        },
+        "important": {
+          "blue": [
+            "abtragen"
+          ],
+          "red": [
+            "tragen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "abtreten",
@@ -639,7 +1075,138 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
     "lv": "ārišķība",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2--u-erlichkeit",
+      "layout": "standardStudy",
+      "translation": "ārišķība",
+      "explanation": "Galvenā doma: Äußerlichkeit ir ārišķība, kaut kas ārējs un nebūtisks. Äußerlichkeiten lieto daudzskaitlī, kad runā par ārējo izskatu vai formalitātēm, kas nav būtiskas.",
+      "examples": [
+        {
+          "de": "Er legt viel Wert auf Äußerlichkeiten.",
+          "lv": "Viņš piešķir lielu nozīmi ārišķībām."
+        },
+        {
+          "de": "Äußerlichkeiten sind ihm wichtiger als Charakter.",
+          "lv": "Ārišķības viņam ir svarīgākas par raksturu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Äußerlichkeit",
+          "meaning": "ārišķība",
+          "example": "Er legt viel Wert auf Äußerlichkeiten. = Viņš piešķir lielu nozīmi ārišķībām."
+        },
+        {
+          "word": "Aussehen",
+          "meaning": "izskats",
+          "example": "Sein Aussehen ist gepflegt. = Viņa izskats ir kopts."
+        }
+      ],
+      "tip": "Ja runa ir par izskatu, nevis saturu, domā Äußerlichkeiten.",
+      "important": "Äußerlichkeit parasti ir kritisks vārds, nevis neitrāls 'izskats'.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Äußerlichkeit",
+            "Äußerlichkeiten"
+          ],
+          "purple": [
+            "ārišķība",
+            "ārišķībām",
+            "Ārišķības"
+          ],
+          "red": [
+            "Aussehen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ārišķībām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ārišķības"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Äußerlichkeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ārišķība"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Äußerlichkeiten"
+              ],
+              "purple": [
+                "ārišķībām"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Aussehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "izskats"
+              ]
+            },
+            "example": {
+              "red": [
+                "Aussehen"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Äußerlichkeit",
+            "Äußerlichkeiten"
+          ],
+          "purple": [
+            "ārišķība",
+            "ārišķībām",
+            "Ārišķības"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Äußerlichkeit",
+            "Äußerlichkeiten"
+          ],
+          "red": [
+            "Aussehen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Äußerung",
@@ -651,7 +1218,208 @@ const B2_WORDS = [
   {
     "de": "aussetzen",
     "lv": "izlikt • pakļaut • iebilst • stāties",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-aussetzen",
+      "layout": "standardStudy",
+      "translation": "izlikt • pakļaut • iebilst • stāties",
+      "explanation": "Galvenā doma: aussetzen nozīmi parāda teikums: izlikt, pakļaut, iebilst vai uz laiku pārstāt. Ar atlīdzību tas ir izlikt, ar briesmām pakļaut. Frāzē etwas auszusetzen haben tas nozīmē iebilst. Par motoru vai treniņiem tas nozīmē uz laiku pārstāt darboties vai pārtraukt.",
+      "examples": [
+        {
+          "de": "Eine Belohnung aussetzen.",
+          "lv": "Izlikt atlīdzību."
+        },
+        {
+          "de": "Jemanden einer Gefahr aussetzen.",
+          "lv": "Pakļaut kādu briesmām."
+        },
+        {
+          "de": "Ich habe nichts daran auszusetzen.",
+          "lv": "Man nav pret to ko iebilst."
+        },
+        {
+          "de": "Der Motor setzt aus.",
+          "lv": "Motors pārstāj darboties."
+        },
+        {
+          "de": "Wir setzen das Training für eine Woche aus.",
+          "lv": "Mēs uz nedēļu pārtraucam treniņus."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "aussetzen",
+          "meaning": "izlikt, pakļaut, iebilst",
+          "example": "Eine Belohnung aussetzen. = Izlikt atlīdzību."
+        },
+        {
+          "word": "unterbrechen",
+          "meaning": "pārtraukt",
+          "example": "Ich unterbreche die Arbeit. = Es pārtraucu darbu."
+        }
+      ],
+      "tip": "Ja teikumā ir Gefahr vai Kritik, domā par pakļaut vai iebilst.",
+      "important": "Ich habe nichts daran auszusetzen nozīmē 'man nav pret to ko iebilst', nevis kaut ko izlikt.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "aussetzen",
+            "auszusetzen",
+            "setzt aus",
+            "setzen",
+            "aus"
+          ],
+          "purple": [
+            "izlikt",
+            "pakļaut",
+            "iebilst",
+            "stāties",
+            "Izlikt",
+            "Pakļaut",
+            "pārstāj darboties",
+            "pārtraucam"
+          ],
+          "red": [
+            "unterbrechen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "aussetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Izlikt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aussetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pakļaut"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auszusetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iebilst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzt aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārstāj darboties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzen",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārtraucam"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aussetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "izlikt",
+                "pakļaut",
+                "iebilst"
+              ]
+            },
+            "example": {
+              "blue": [
+                "aussetzen"
+              ],
+              "purple": [
+                "Izlikt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unterbrechen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pārtraukt"
+              ]
+            },
+            "example": {
+              "red": [
+                "unterbreche"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "aussetzen",
+            "auszusetzen",
+            "setzt aus",
+            "setzen",
+            "aus"
+          ],
+          "purple": [
+            "izlikt",
+            "pakļaut",
+            "iebilst",
+            "stāties",
+            "Izlikt",
+            "Pakļaut",
+            "pārstāj darboties",
+            "pārtraucam"
+          ]
+        },
+        "important": {
+          "blue": [
+            "aussetzen",
+            "auszusetzen",
+            "setzt aus",
+            "setzen",
+            "aus"
+          ],
+          "red": [
+            "unterbrechen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "aussichtslos",
@@ -681,7 +1449,163 @@ const B2_WORDS = [
   {
     "de": "ausströmen",
     "lv": "iztecēt • izplūst • izstarot",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-ausstr-men",
+      "layout": "standardStudy",
+      "translation": "iztecēt • izplūst • izstarot",
+      "explanation": "Galvenā doma: ausströmen nozīmi parāda teikums: iztecēt, izplūst vai izstarot. Ar ūdeni tas ir iztecēt, ar gāzi izplūst, bet ar cilvēku izstarot kādu īpašību, piemēram, mieru.",
+      "examples": [
+        {
+          "de": "Wasser strömt aus dem Tank aus.",
+          "lv": "No tvertnes iztek ūdens."
+        },
+        {
+          "de": "Gas strömt aus dem Rohr aus.",
+          "lv": "No caurules izplūst gāze."
+        },
+        {
+          "de": "Sie strömt Ruhe aus.",
+          "lv": "Viņa izstaro mieru."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ausströmen",
+          "meaning": "iztecēt, izplūst, izstarot",
+          "example": "Wasser strömt aus dem Tank aus. = No tvertnes iztek ūdens."
+        },
+        {
+          "word": "fließen",
+          "meaning": "tecēt",
+          "example": "Das Wasser fließt. = Ūdens tek."
+        }
+      ],
+      "tip": "Ja ūdens vai gāze iet ārā, domā iztecēt vai izplūst.",
+      "important": "Ausströmen ar cilvēku nozīmē izstarot, nevis iztecēt.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ausströmen",
+            "strömt aus",
+            "strömt"
+          ],
+          "purple": [
+            "iztecēt",
+            "izplūst",
+            "izstarot",
+            "iztek",
+            "izstaro"
+          ],
+          "red": [
+            "fließen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "strömt aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iztek"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömt aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "izplūst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "izstaro"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ausströmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iztecēt",
+                "izplūst",
+                "izstarot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "strömt aus"
+              ],
+              "purple": [
+                "iztek"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tecēt"
+              ]
+            },
+            "example": {
+              "red": [
+                "fließt"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "ausströmen",
+            "strömt aus",
+            "strömt"
+          ],
+          "purple": [
+            "iztecēt",
+            "izplūst",
+            "izstarot",
+            "iztek",
+            "izstaro"
+          ]
+        },
+        "important": {
+          "blue": [
+            "ausströmen",
+            "strömt aus",
+            "strömt"
+          ],
+          "red": [
+            "fließen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "austragen",
@@ -696,7 +1620,176 @@ const B2_WORDS = [
   {
     "de": "austreten",
     "lv": "izmīt • nomīt • izstāties",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-austreten",
+      "layout": "standardStudy",
+      "translation": "izmīt • nomīt • izstāties",
+      "explanation": "Galvenā doma: austreten nozīmi parāda teikums: izmīt, nomīt vai izstāties. Ar taku tas ir izmīt, ar cigareti nomīt. Ar Verein vai Partei tas nozīmē izstāties.",
+      "examples": [
+        {
+          "de": "Einen Pfad austreten.",
+          "lv": "Izmīt taku."
+        },
+        {
+          "de": "Eine Zigarette austreten.",
+          "lv": "Nomīt cigareti, to nodzēšot."
+        },
+        {
+          "de": "Aus dem Verein austreten.",
+          "lv": "Izstāties no biedrības."
+        },
+        {
+          "de": "Aus einer Partei austreten.",
+          "lv": "Izstāties no partijas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "austreten",
+          "meaning": "izmīt, nomīt, izstāties",
+          "example": "Einen Pfad austreten. = Izmīt taku."
+        },
+        {
+          "word": "eintreten",
+          "meaning": "iestāties",
+          "example": "Er tritt in den Verein ein. = Viņš iestājas biedrībā."
+        }
+      ],
+      "tip": "Ja teikumā ir aus dem ..., domā izstāties.",
+      "important": "Austreten nav tas pats, kas eintreten (iestāties).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "austreten"
+          ],
+          "purple": [
+            "izmīt",
+            "nomīt",
+            "izstāties",
+            "Izmīt",
+            "Nomīt",
+            "Izstāties"
+          ],
+          "red": [
+            "eintreten"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "austreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Izmīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "austreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nomīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "austreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Izstāties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "austreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Izstāties"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "austreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "izmīt",
+                "nomīt",
+                "izstāties"
+              ]
+            },
+            "example": {
+              "blue": [
+                "austreten"
+              ],
+              "purple": [
+                "Izmīt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eintreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iestāties"
+              ]
+            },
+            "example": {
+              "red": [
+                "tritt",
+                "ein"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "austreten"
+          ],
+          "purple": [
+            "izmīt",
+            "nomīt",
+            "izstāties",
+            "Izmīt",
+            "Nomīt",
+            "Izstāties"
+          ]
+        },
+        "important": {
+          "blue": [
+            "austreten"
+          ],
+          "red": [
+            "eintreten"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "auswärtig",
@@ -896,7 +1989,138 @@ const B2_WORDS = [
   {
     "de": "bebauen",
     "lv": "apstrādāt • apbūvēt",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-bebauen",
+      "layout": "standardStudy",
+      "translation": "apstrādāt • apbūvēt",
+      "explanation": "Galvenā doma: bebauen nozīmē apstrādāt zemi vai apbūvēt zemesgabalu. Ar Feld bebauen ir apstrādāt, ar Grundstück apbūvēt. Nozīmi parāda objekts.",
+      "examples": [
+        {
+          "de": "Ein Feld bebauen.",
+          "lv": "Apstrādāt lauku."
+        },
+        {
+          "de": "Ein Grundstück bebauen.",
+          "lv": "Apbūvēt zemesgabalu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bebauen",
+          "meaning": "apstrādāt, apbūvēt",
+          "example": "Ein Feld bebauen. = Apstrādāt lauku."
+        },
+        {
+          "word": "bauen",
+          "meaning": "celt",
+          "example": "Wir bauen ein Haus. = Mēs celsim māju."
+        }
+      ],
+      "tip": "Ja teikumā ir lauks, domā apstrādāt; ja zemesgabals, apbūvēt.",
+      "important": "Bebauen nav tas pats, kas bauen (celt).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "bebauen"
+          ],
+          "purple": [
+            "apstrādāt",
+            "apbūvēt",
+            "Apstrādāt",
+            "Apbūvēt"
+          ],
+          "red": [
+            "bauen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bebauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Apstrādāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Apbūvēt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bebauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apstrādāt",
+                "apbūvēt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "bebauen"
+              ],
+              "purple": [
+                "Apstrādāt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "celt"
+              ]
+            },
+            "example": {
+              "red": [
+                "bauen"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "bebauen"
+          ],
+          "purple": [
+            "apstrādāt",
+            "apbūvēt",
+            "Apstrādāt",
+            "Apbūvēt"
+          ]
+        },
+        "important": {
+          "blue": [
+            "bebauen"
+          ],
+          "red": [
+            "bauen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "bedürfen",
@@ -1262,8 +2486,174 @@ const B2_WORDS = [
     "de": "Besatzung",
     "de_article": "die",
     "de_plural": "die Besatzungen",
-    "lv": "komanda • ekipāža • apkalpe • okupācijas militārās vienības",
-    "level": "B2"
+    "lv": "komanda • ekipāža • apkalpe • okupācijas karaspēks",
+    "level": "B2",
+    "study": {
+      "id": "b2-besatzung",
+      "layout": "standardStudy",
+      "translation": "komanda • ekipāža • apkalpe • okupācijas karaspēks",
+      "explanation": "Galvenā doma: Besatzung nozīmi parāda teikums: apkalpe, ekipāža, komanda vai okupācijas karaspēks. Ar kuģi vai lidmašīnu tā ir apkalpe vai ekipāža. Par cilvēku grupu tas var būt komanda. Kara kontekstā tas ir okupācijas karaspēks.",
+      "examples": [
+        {
+          "de": "Die Besatzung des Schiffes.",
+          "lv": "Kuģa apkalpe."
+        },
+        {
+          "de": "Die Besatzung des Flugzeugs besteht aus drei Personen.",
+          "lv": "Lidmašīnas ekipāžu veido trīs cilvēki."
+        },
+        {
+          "de": "Die ganze Besatzung wurde gerettet.",
+          "lv": "Visa komanda tika izglābta."
+        },
+        {
+          "de": "Die feindliche Besatzung verließ die Stadt.",
+          "lv": "Ienaidnieka okupācijas karaspēks atstāja pilsētu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Besatzung",
+          "meaning": "komanda, ekipāža, apkalpe",
+          "example": "Die Besatzung des Schiffes. = Kuģa apkalpe."
+        },
+        {
+          "word": "Mannschaft",
+          "meaning": "komanda",
+          "example": "Die Mannschaft gewinnt das Spiel. = Komanda uzvar spēlē."
+        }
+      ],
+      "tip": "Skaties uz kontekstu: kuģis, lidmašīna vai pilsēta ar karaspēku.",
+      "important": "Besatzung nav tas pats, kas Mannschaft sporta komandai.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Besatzung"
+          ],
+          "purple": [
+            "komanda",
+            "ekipāža",
+            "apkalpe",
+            "okupācijas karaspēks",
+            "ekipāžu"
+          ],
+          "red": [
+            "Mannschaft"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apkalpe"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ekipāžu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "komanda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "okupācijas karaspēks"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Besatzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "komanda",
+                "ekipāža",
+                "apkalpe"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Besatzung"
+              ],
+              "purple": [
+                "apkalpe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Mannschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "komanda"
+              ]
+            },
+            "example": {
+              "red": [
+                "Mannschaft"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Besatzung"
+          ],
+          "purple": [
+            "komanda",
+            "ekipāža",
+            "apkalpe",
+            "okupācijas karaspēks",
+            "ekipāžu"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Besatzung"
+          ],
+          "red": [
+            "Mannschaft"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "beschämen",
@@ -1319,7 +2709,155 @@ const B2_WORDS = [
   {
     "de": "besessen",
     "lv": "apsēsts • apmāts • pārņemts",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-besessen",
+      "layout": "standardStudy",
+      "translation": "apsēsts • apmāts • pārņemts",
+      "explanation": "Galvenā doma: besessen nozīmē apsēsts, apmāts vai pārņemts ar kaut ko. Besessen lieto ar von. Tas var būt velns, ideja vai godkāre: kaut kas pilnībā pārņem cilvēku.",
+      "examples": [
+        {
+          "de": "Er ist vom Teufel besessen.",
+          "lv": "Viņš ir velna apsēsts."
+        },
+        {
+          "de": "Er ist von dieser Idee besessen.",
+          "lv": "Viņš ir šīs idejas apmāts."
+        },
+        {
+          "de": "Sie ist vom Ehrgeiz besessen.",
+          "lv": "Viņa ir godkāres pārņemta."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besessen",
+          "meaning": "apsēsts, apmāts, pārņemts",
+          "example": "Er ist vom Teufel besessen. = Viņš ir velna apsēsts."
+        },
+        {
+          "word": "besitzen",
+          "meaning": "piederēt",
+          "example": "Er besitzt ein Haus. = Viņam pieder māja."
+        }
+      ],
+      "tip": "Ja kaut kas pārņem cilvēku, domā besessen von.",
+      "important": "Besessen ir divdabis no besitzen, bet ikdienā nozīmē apsēsts.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besessen"
+          ],
+          "purple": [
+            "apsēsts",
+            "apmāts",
+            "pārņemts",
+            "pārņemta"
+          ],
+          "red": [
+            "besitzen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apsēsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmāts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārņemta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apsēsts",
+                "apmāts",
+                "pārņemts"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besessen"
+              ],
+              "purple": [
+                "apsēsts"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "piederēt"
+              ]
+            },
+            "example": {
+              "red": [
+                "besitzt"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "besessen"
+          ],
+          "purple": [
+            "apsēsts",
+            "apmāts",
+            "pārņemts",
+            "pārņemta"
+          ]
+        },
+        "important": {
+          "blue": [
+            "besessen"
+          ],
+          "red": [
+            "besitzen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "besiedeln",
@@ -2247,7 +3785,153 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Darstellungen",
     "lv": "tēlojums • attēlojums • izklāsts",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-darstellung",
+      "layout": "standardStudy",
+      "translation": "tēlojums • attēlojums • izklāsts",
+      "explanation": "Galvenā doma: Darstellung nozīmē tēlojumu, attēlojumu vai izklāstu. Par aktieri tas ir tēlojums, par ainavu attēlojums, par notikumiem izklāsts.",
+      "examples": [
+        {
+          "de": "Die Darstellung der Hauptfigur war überzeugend.",
+          "lv": "Galvenā varoņa tēlojums bija pārliecinošs."
+        },
+        {
+          "de": "Eine Darstellung der Landschaft.",
+          "lv": "Ainavas attēlojums."
+        },
+        {
+          "de": "Eine klare Darstellung der Ereignisse.",
+          "lv": "Skaidrs notikumu izklāsts."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Darstellung",
+          "meaning": "tēlojums, attēlojums, izklāsts",
+          "example": "Die Darstellung der Hauptfigur war überzeugend. = Galvenā varoņa tēlojums bija pārliecinošs."
+        },
+        {
+          "word": "Vorstellung",
+          "meaning": "priekšstats",
+          "example": "Ich habe eine klare Vorstellung. = Man ir skaidrs priekšstats."
+        }
+      ],
+      "tip": "Skaties, kas tiek darstellen: loma, ainava vai notikumi.",
+      "important": "Darstellung nav tas pats, kas Vorstellung (priekšstats, izrāde).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Darstellung"
+          ],
+          "purple": [
+            "tēlojums",
+            "attēlojums",
+            "izklāsts"
+          ],
+          "red": [
+            "Vorstellung"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tēlojums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "attēlojums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "izklāsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Darstellung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tēlojums",
+                "attēlojums",
+                "izklāsts"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Darstellung"
+              ],
+              "purple": [
+                "tēlojums"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Vorstellung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "priekšstats"
+              ]
+            },
+            "example": {
+              "red": [
+                "Vorstellung"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Darstellung"
+          ],
+          "purple": [
+            "tēlojums",
+            "attēlojums",
+            "izklāsts"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Darstellung"
+          ],
+          "red": [
+            "Vorstellung"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Dasein",
@@ -2258,7 +3942,135 @@ const B2_WORDS = [
   {
     "de": "dasjenige",
     "lv": "tas",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-dasjenige",
+      "layout": "standardStudy",
+      "translation": "tas",
+      "explanation": "Galvenā doma: dasjenige ir norādāmais vietniekvārds: tas (, kas). Dasjenige neitrālā dzimtē aizstāj lietvārdu un parasti seko palīgteikums ar das.",
+      "examples": [
+        {
+          "de": "Ich nehme dasjenige, das mir gefällt.",
+          "lv": "Es ņemu to, kas man patīk."
+        },
+        {
+          "de": "Von diesen Bildern gefällt mir dasjenige, das am Fenster hängt.",
+          "lv": "No šīm gleznām man patīk tā, kas karājas pie loga."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "dasjenige",
+          "meaning": "tas",
+          "example": "Ich nehme dasjenige, das mir gefällt. = Es ņemu to, kas man patīk."
+        },
+        {
+          "word": "derjenige",
+          "meaning": "tas (vīr.)",
+          "example": "Derjenige, der kommt, bekommt einen Preis. = Tas, kas atnāk, saņem balvu."
+        }
+      ],
+      "tip": "Ja seko palīgteikums ar das, domā dasjenige.",
+      "important": "Dasjenige lieto tikai neitrālai dzimtei.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dasjenige"
+          ],
+          "purple": [
+            "tas",
+            "to",
+            "tā"
+          ],
+          "red": [
+            "derjenige"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "to"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tā"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "dasjenige"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tas"
+              ]
+            },
+            "example": {
+              "blue": [
+                "dasjenige"
+              ],
+              "purple": [
+                "to"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "derjenige"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tas (vīr.)"
+              ]
+            },
+            "example": {
+              "red": [
+                "Derjenige"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "dasjenige"
+          ],
+          "purple": [
+            "tas",
+            "to",
+            "tā"
+          ]
+        },
+        "important": {
+          "blue": [
+            "dasjenige"
+          ],
+          "red": [
+            "derjenige"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Datei",
@@ -2545,7 +4357,145 @@ const B2_WORDS = [
   {
     "de": "dingen",
     "lv": "līgt • salīgt",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-dingen",
+      "layout": "standardStudy",
+      "translation": "līgt • salīgt",
+      "explanation": "Galvenā doma: dingen nozīmē līgt vai salīgt darbā. Dingen ir vecs, pat grāmatisks vārds. Tas nozīmē vienoties par darbu vai pakalpojumu pret samaksu.",
+      "examples": [
+        {
+          "de": "Der Bauer dingte einen Arbeiter.",
+          "lv": "Zemnieks līga strādnieku."
+        },
+        {
+          "de": "Wir dingten einen Bergführer.",
+          "lv": "Mēs salīgām kalnu gidu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "dingen",
+          "meaning": "līgt, salīgt",
+          "example": "Der Bauer dingte einen Arbeiter. = Zemnieks līga strādnieku."
+        },
+        {
+          "word": "anheuern",
+          "meaning": "nolīgt",
+          "example": "Der Kapitän heuert Matrosen an. = Kapteinis nolīgst matrožus."
+        }
+      ],
+      "tip": "Ja kāds tiek nolīgts darbam, domā dingen.",
+      "important": "Dingen mūsdienās lieto reti; ikdienā biežāk saka einstellen vai anheuern.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dingen",
+            "dingte",
+            "dingten"
+          ],
+          "purple": [
+            "līgt",
+            "salīgt",
+            "līga",
+            "salīgām"
+          ],
+          "red": [
+            "anheuern"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dingte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "līga"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dingten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "salīgām"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "dingen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "līgt",
+                "salīgt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "dingte"
+              ],
+              "purple": [
+                "līga"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anheuern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nolīgt"
+              ]
+            },
+            "example": {
+              "red": [
+                "heuert",
+                "an"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "dingen",
+            "dingte",
+            "dingten"
+          ],
+          "purple": [
+            "līgt",
+            "salīgt",
+            "līga",
+            "salīgām"
+          ]
+        },
+        "important": {
+          "blue": [
+            "dingen",
+            "dingte",
+            "dingten"
+          ],
+          "red": [
+            "anheuern"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Direktion",
@@ -2617,7 +4567,162 @@ const B2_WORDS = [
   {
     "de": "donnern",
     "lv": "pērkons rūc • rībēt • dārdēt",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-donnern",
+      "layout": "standardStudy",
+      "translation": "pērkons rūc • rībēt • dārdēt",
+      "explanation": "Galvenā doma: donnern nozīmi parāda teikums: pērkons rūc, kaut kas rībina vai dārd. Es donnert nozīmē pērkons rūc. Par transportu vai lielgabaliem donnern nozīmē rībēt vai dārdēt.",
+      "examples": [
+        {
+          "de": "Es donnert.",
+          "lv": "Pērkons rūc."
+        },
+        {
+          "de": "Ein Lastwagen donnert über die Brücke.",
+          "lv": "Kravas automašīna rībēdama brauc pāri tiltam."
+        },
+        {
+          "de": "Die Kanonen donnern.",
+          "lv": "Lielgabali dārd."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "donnern",
+          "meaning": "pērkons rūc, rībēt, dārdēt",
+          "example": "Es donnert. = Pērkons rūc."
+        },
+        {
+          "word": "Donner",
+          "meaning": "pērkons",
+          "example": "Ich höre den Donner. = Es dzirdu pērkonu."
+        }
+      ],
+      "tip": "Ja ir Es donnert, tulko pērkons rūc.",
+      "important": "Donnern nav tas pats, kas Donner (pērkons kā lietvārds).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "donnern",
+            "donnert"
+          ],
+          "purple": [
+            "pērkons rūc",
+            "rībēt",
+            "dārdēt",
+            "rūc",
+            "rībēdama",
+            "dārd"
+          ],
+          "red": [
+            "Donner"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rūc"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rībēdama"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dārd"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "donnern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pērkons rūc",
+                "rībēt",
+                "dārdēt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "donnert"
+              ],
+              "purple": [
+                "rūc"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Donner"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pērkons"
+              ]
+            },
+            "example": {
+              "red": [
+                "Donner"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "donnern",
+            "donnert"
+          ],
+          "purple": [
+            "pērkons rūc",
+            "rībēt",
+            "dārdēt",
+            "rūc",
+            "rībēdama",
+            "dārd"
+          ]
+        },
+        "important": {
+          "blue": [
+            "donnern",
+            "donnert"
+          ],
+          "red": [
+            "Donner"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "dopen",
@@ -2957,7 +5062,211 @@ const B2_WORDS = [
     "de_article": "der",
     "de_plural": "die Dünste",
     "lv": "tvaiks • garaiņi • izgarojumi • tvans • migla • dūmaka",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-dunst",
+      "layout": "standardStudy",
+      "translation": "tvaiks • garaiņi • izgarojumi • tvans • migla • dūmaka",
+      "explanation": "Galvenā doma: Dunst ir tvaiks, garaiņi vai dūmaka, atkarībā no teikuma. Tas var būt tvaiks no katla, garaiņi virs ūdens, izgarojumi virtuvē, smacīgs tvans, migla vai dūmaka kalnos.",
+      "examples": [
+        {
+          "de": "Warmer Dunst steigt aus dem Topf.",
+          "lv": "No katla ceļas silts tvaiks."
+        },
+        {
+          "de": "Über dem heißen Wasser steigt Dunst auf.",
+          "lv": "Virs karstā ūdens ceļas garaiņi."
+        },
+        {
+          "de": "Die Küche ist voller Dunst.",
+          "lv": "Virtuve ir pilna ar izgarojumiem."
+        },
+        {
+          "de": "Stickiger Dunst hängt im Raum.",
+          "lv": "Telpā valda smacīgs tvans."
+        },
+        {
+          "de": "Am Morgen liegt Dunst über dem See.",
+          "lv": "Rītā virs ezera ir migla."
+        },
+        {
+          "de": "Die Berge verschwinden im Dunst.",
+          "lv": "Kalni pazūd dūmakā."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Dunst",
+          "meaning": "tvaiks, garaiņi, izgarojumi",
+          "example": "Warmer Dunst steigt aus dem Topf. = No katla ceļas silts tvaiks."
+        },
+        {
+          "word": "Nebel",
+          "meaning": "migla",
+          "example": "Am Morgen liegt Nebel über dem See. = Rītā virs ezera ir migla."
+        }
+      ],
+      "tip": "Skaties, kur ir Dunst: virtuvē (tvaiks), ārā (migla, dūmaka).",
+      "important": "Dunst nav tas pats, kas Nebel (migla).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Dunst"
+          ],
+          "purple": [
+            "tvaiks",
+            "garaiņi",
+            "izgarojumi",
+            "tvans",
+            "migla",
+            "dūmaka",
+            "izgarojumiem",
+            "dūmakā"
+          ],
+          "red": [
+            "Nebel"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tvaiks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "garaiņi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "izgarojumiem"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tvans"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "migla"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dūmakā"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Dunst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tvaiks",
+                "garaiņi",
+                "izgarojumi"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Dunst"
+              ],
+              "purple": [
+                "tvaiks"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Nebel"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "migla"
+              ]
+            },
+            "example": {
+              "red": [
+                "Nebel"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Dunst"
+          ],
+          "purple": [
+            "tvaiks",
+            "garaiņi",
+            "izgarojumi",
+            "tvans",
+            "migla",
+            "dūmaka",
+            "izgarojumiem",
+            "dūmakā"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Dunst"
+          ],
+          "red": [
+            "Nebel"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "durcharbeiten",
@@ -3326,7 +5635,179 @@ const B2_WORDS = [
   {
     "de": "eigenwillig",
     "lv": "patvaļīgs • ietiepīgs • stūrgalvīgs • patvarīgs",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-eigenwillig",
+      "layout": "standardStudy",
+      "translation": "patvaļīgs • ietiepīgs • stūrgalvīgs • patvarīgs",
+      "explanation": "Galvenā doma: eigenwillig apraksta cilvēku vai rīcību, kas seko savai gribai. Atkarībā no teikuma tas var būt patvaļīgs, ietiepīgs, stūrgalvīgs vai patvarīgs. Visās nozīmēs cilvēks neklausa citus.",
+      "examples": [
+        {
+          "de": "Das war eine eigenwillige Entscheidung des Direktors.",
+          "lv": "Tas bija direktora patvaļīgs lēmums."
+        },
+        {
+          "de": "Ein eigenwilliges Kind hört nicht auf seine Eltern.",
+          "lv": "Ietiepīgs bērns neklausa vecākus."
+        },
+        {
+          "de": "Er ist eigenwillig und gibt nicht nach.",
+          "lv": "Viņš ir stūrgalvīgs un nepiekāpjas."
+        },
+        {
+          "de": "Der Chef ist eigenwillig und setzt immer seinen Willen durch.",
+          "lv": "Priekšnieks ir patvarīgs un vienmēr īsteno savu gribu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eigenwillig",
+          "meaning": "patvaļīgs, ietiepīgs, stūrgalvīgs",
+          "example": "Das war eine eigenwillige Entscheidung des Direktors. = Tas bija direktora patvaļīgs lēmums."
+        },
+        {
+          "word": "stur",
+          "meaning": "stūrgalvīgs",
+          "example": "Er ist stur. = Viņš ir stūrgalvīgs."
+        }
+      ],
+      "tip": "Ja cilvēks dara pēc sava prāta un nepiekāpjas, domā eigenwillig.",
+      "important": "Eigenwillig bieži nozīmē stūrgalvīgs, nevis oriģināls vai savdabīgs.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "eigenwillig",
+            "eigenwillige",
+            "eigenwilliges"
+          ],
+          "purple": [
+            "patvaļīgs",
+            "ietiepīgs",
+            "stūrgalvīgs",
+            "patvarīgs",
+            "Ietiepīgs"
+          ],
+          "red": [
+            "stur"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "eigenwillige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "patvaļīgs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwilliges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ietiepīgs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stūrgalvīgs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "patvarīgs"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "eigenwillig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "patvaļīgs",
+                "ietiepīgs",
+                "stūrgalvīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "eigenwillige"
+              ],
+              "purple": [
+                "patvaļīgs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stur"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stūrgalvīgs"
+              ]
+            },
+            "example": {
+              "red": [
+                "stur"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "eigenwillig",
+            "eigenwillige",
+            "eigenwilliges"
+          ],
+          "purple": [
+            "patvaļīgs",
+            "ietiepīgs",
+            "stūrgalvīgs",
+            "patvarīgs",
+            "Ietiepīgs"
+          ]
+        },
+        "important": {
+          "blue": [
+            "eigenwillig",
+            "eigenwillige",
+            "eigenwilliges"
+          ],
+          "red": [
+            "stur"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Eilbote",
@@ -5184,7 +7665,194 @@ const B2_WORDS = [
   {
     "de": "fleckig",
     "lv": "traipains • notraipīts • plankumains • lāsains • raibs",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-fleckig",
+      "layout": "standardStudy",
+      "translation": "traipains • notraipīts • plankumains • lāsains • raibs",
+      "explanation": "Galvenā doma: fleckig nozīmē ar traipiem vai plankumiem. Par drēbēm vai galdautu tas ir traipains, par ādu plankumains, par dzīvnieka apmatojumu lāsains vai raibs.",
+      "examples": [
+        {
+          "de": "Die Tischdecke ist fleckig.",
+          "lv": "Galdauts ir traipains."
+        },
+        {
+          "de": "Das Hemd ist fleckig.",
+          "lv": "Krekls ir notraipīts."
+        },
+        {
+          "de": "Die Haut ist fleckig.",
+          "lv": "Āda ir plankumaina."
+        },
+        {
+          "de": "Die Kuh hat ein fleckiges Fell.",
+          "lv": "Govij ir lāsains apmatojums."
+        },
+        {
+          "de": "Das Fell des Pferdes ist fleckig.",
+          "lv": "Zirga apmatojums ir raibs."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fleckig",
+          "meaning": "traipains, notraipīts, plankumains",
+          "example": "Die Tischdecke ist fleckig. = Galdauts ir traipains."
+        },
+        {
+          "word": "bunt",
+          "meaning": "daudzkrāsains",
+          "example": "Das Bild ist bunt. = Bilde ir daudzkrāsaina."
+        }
+      ],
+      "tip": "Ja uz virsmas ir plankumi, domā fleckig.",
+      "important": "Fleckig nav tas pats, kas bunt (daudzkrāsains).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fleckig",
+            "fleckiges"
+          ],
+          "purple": [
+            "traipains",
+            "notraipīts",
+            "plankumains",
+            "lāsains",
+            "raibs",
+            "plankumaina"
+          ],
+          "red": [
+            "bunt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "traipains"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "notraipīts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "plankumaina"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckiges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lāsains"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "raibs"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fleckig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "traipains",
+                "notraipīts",
+                "plankumains"
+              ]
+            },
+            "example": {
+              "blue": [
+                "fleckig"
+              ],
+              "purple": [
+                "traipains"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bunt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "daudzkrāsains"
+              ]
+            },
+            "example": {
+              "red": [
+                "bunt"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "fleckig",
+            "fleckiges"
+          ],
+          "purple": [
+            "traipains",
+            "notraipīts",
+            "plankumains",
+            "lāsains",
+            "raibs",
+            "plankumaina"
+          ]
+        },
+        "important": {
+          "blue": [
+            "fleckig",
+            "fleckiges"
+          ],
+          "red": [
+            "bunt"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "fliederfarben",
@@ -5418,7 +8086,142 @@ const B2_WORDS = [
   {
     "de": "fristlos",
     "lv": "tūlītējs • bez uzteikuma termiņa",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-fristlos",
+      "layout": "standardStudy",
+      "translation": "tūlītējs • bez uzteikuma termiņa",
+      "explanation": "Galvenā doma: fristlos nozīmē bez termiņa: tūlītējs, uzreiz spēkā stājies. Fristlos lieto galvenokārt par darba līguma uzteikumu: eine fristlose Kündigung. Tas nozīmē uzteikumu bez uzteikuma termiņa, ar tūlītēju spēku.",
+      "examples": [
+        {
+          "de": "Eine fristlose Kündigung.",
+          "lv": "Darba līguma uzteikums ar tūlītēju spēku."
+        },
+        {
+          "de": "Fristlos kündigen.",
+          "lv": "Uzteikt līgumu ar tūlītēju spēku."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fristlos",
+          "meaning": "tūlītējs, bez uzteikuma termiņa",
+          "example": "Eine fristlose Kündigung. = Darba līguma uzteikums ar tūlītēju spēku."
+        },
+        {
+          "word": "sofort",
+          "meaning": "nekavējoties",
+          "example": "Wir beginnen sofort. = Mēs sākam nekavējoties."
+        }
+      ],
+      "tip": "Fristlos = ohne Frist, tātad bez termiņa.",
+      "important": "Fristlos neattiecas uz parastu 'ātri'; tas ir juridisks termins par uzteikumu.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fristlos",
+            "fristlose",
+            "Fristlos"
+          ],
+          "purple": [
+            "tūlītējs",
+            "bez uzteikuma termiņa",
+            "tūlītēju"
+          ],
+          "red": [
+            "sofort"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fristlose"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tūlītēju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tūlītēju"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fristlos"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tūlītējs",
+                "bez uzteikuma termiņa"
+              ]
+            },
+            "example": {
+              "blue": [
+                "fristlose"
+              ],
+              "purple": [
+                "tūlītēju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sofort"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nekavējoties"
+              ]
+            },
+            "example": {
+              "red": [
+                "sofort"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "fristlos",
+            "fristlose",
+            "Fristlos"
+          ],
+          "purple": [
+            "tūlītējs",
+            "bez uzteikuma termiņa",
+            "tūlītēju"
+          ]
+        },
+        "important": {
+          "blue": [
+            "fristlos",
+            "fristlose",
+            "Fristlos"
+          ],
+          "red": [
+            "sofort"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "fromm",
@@ -5855,7 +8658,157 @@ const B2_WORDS = [
   {
     "de": "gelaunt",
     "lv": "omā",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-gelaunt",
+      "layout": "standardStudy",
+      "translation": "omā",
+      "explanation": "Galvenā doma: gelaunt tiek lietots kopā ar gut vai schlecht un nozīmē noskaņojumu. Gut gelaunt nozīmē labā omā, schlecht gelaunt nozīmē sliktā omā. Viens pats gelaunt ikdienā nav ierasts.",
+      "examples": [
+        {
+          "de": "Er ist gut gelaunt.",
+          "lv": "Viņš ir labā omā."
+        },
+        {
+          "de": "Sie kam gut gelaunt ins Büro.",
+          "lv": "Viņa ienāca birojā labā omā."
+        },
+        {
+          "de": "Der Chef ist heute schlecht gelaunt.",
+          "lv": "Priekšnieks šodien ir sliktā omā."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gelaunt",
+          "meaning": "omā",
+          "example": "Er ist gut gelaunt. = Viņš ir labā omā."
+        },
+        {
+          "word": "gut drauf",
+          "meaning": "labā omā",
+          "example": "Er ist heute gut drauf. = Viņš šodien ir labā omā."
+        }
+      ],
+      "tip": "Vienmēr atceries pārus: gut gelaunt un schlecht gelaunt.",
+      "important": "Gelaunt nelieto bez gut, schlecht vai līdzīga vārda.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "gelaunt",
+            "gut gelaunt",
+            "schlecht gelaunt"
+          ],
+          "purple": [
+            "omā",
+            "labā omā",
+            "sliktā omā"
+          ],
+          "red": [
+            "gut drauf"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gut gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "labā omā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gut gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "labā omā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schlecht gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sliktā omā"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gelaunt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "omā"
+              ]
+            },
+            "example": {
+              "blue": [
+                "gut gelaunt"
+              ],
+              "purple": [
+                "labā omā"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gut drauf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "labā omā"
+              ]
+            },
+            "example": {
+              "red": [
+                "gut drauf"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "gelaunt",
+            "gut gelaunt",
+            "schlecht gelaunt"
+          ],
+          "purple": [
+            "omā",
+            "labā omā",
+            "sliktā omā"
+          ]
+        },
+        "important": {
+          "blue": [
+            "gelaunt",
+            "gut gelaunt",
+            "schlecht gelaunt"
+          ],
+          "red": [
+            "gut drauf"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Geldbuße",
@@ -6549,14 +9502,293 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Gluten",
     "lv": "svelme • kvēle • liels karstums",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-glut",
+      "layout": "standardStudy",
+      "translation": "svelme • kvēle • liels karstums",
+      "explanation": "Galvenā doma: Glut nozīmē svelmi, kvēli vai lielu karstumu. Par sauli tā ir svelme, par uguni kvēle, par vasaru liels karstums.",
+      "examples": [
+        {
+          "de": "Die Glut der Mittagssonne.",
+          "lv": "Pusdienas saules svelme."
+        },
+        {
+          "de": "Die Glut des Feuers.",
+          "lv": "Uguns kvēle."
+        },
+        {
+          "de": "Die Glut des Sommers.",
+          "lv": "Vasaras karstums."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Glut",
+          "meaning": "svelme, kvēle, liels karstums",
+          "example": "Die Glut der Mittagssonne. = Pusdienas saules svelme."
+        },
+        {
+          "word": "Hitze",
+          "meaning": "karstums",
+          "example": "Im Sommer ist die Hitze groß. = Vasarā karstums ir liels."
+        }
+      ],
+      "tip": "Ja runa ir par sarkani karstām oglēm vai svelmi, domā Glut.",
+      "important": "Glut nav tas pats, kas Hitze (karstums ikdienā).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Glut"
+          ],
+          "purple": [
+            "svelme",
+            "kvēle",
+            "liels karstums",
+            "karstums"
+          ],
+          "red": [
+            "Hitze"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "svelme"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kvēle"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "karstums"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Glut"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "svelme",
+                "kvēle",
+                "liels karstums"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Glut"
+              ],
+              "purple": [
+                "svelme"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Hitze"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "karstums"
+              ]
+            },
+            "example": {
+              "red": [
+                "Hitze"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Glut"
+          ],
+          "purple": [
+            "svelme",
+            "kvēle",
+            "liels karstums",
+            "karstums"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Glut"
+          ],
+          "red": [
+            "Hitze"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Gnade",
     "de_article": "die",
     "de_plural": "die Gnaden",
     "lv": "žēlastība • apžēlošana",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-gnade",
+      "layout": "standardStudy",
+      "translation": "žēlastība • apžēlošana",
+      "explanation": "Galvenā doma: Gnade nozīmē žēlastību vai apžēlošanu. Gnade lieto reliģijā un tiesā. Um Gnade bitten nozīmē lūgt žēlastību.",
+      "examples": [
+        {
+          "de": "Er bat um Gnade.",
+          "lv": "Viņš lūdza žēlastību."
+        },
+        {
+          "de": "Der Verurteilte hoffte auf Gnade.",
+          "lv": "Notiesātais cerēja uz apžēlošanu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Gnade",
+          "meaning": "žēlastība, apžēlošana",
+          "example": "Er bat um Gnade. = Viņš lūdza žēlastību."
+        },
+        {
+          "word": "Mitleid",
+          "meaning": "līdzjūtība",
+          "example": "Ich habe Mitleid mit ihm. = Man ir viņa žēl."
+        }
+      ],
+      "tip": "Ja kāds lūdz sodu mīkstināt, domā Gnade.",
+      "important": "Gnade nav tas pats, kas Mitleid (līdzjūtība).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Gnade"
+          ],
+          "purple": [
+            "žēlastība",
+            "apžēlošana",
+            "žēlastību",
+            "apžēlošanu"
+          ],
+          "red": [
+            "Mitleid"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "žēlastību"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apžēlošanu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Gnade"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "žēlastība",
+                "apžēlošana"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Gnade"
+              ],
+              "purple": [
+                "žēlastību"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Mitleid"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "līdzjūtība"
+              ]
+            },
+            "example": {
+              "red": [
+                "Mitleid"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Gnade"
+          ],
+          "purple": [
+            "žēlastība",
+            "apžēlošana",
+            "žēlastību",
+            "apžēlošanu"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Gnade"
+          ],
+          "red": [
+            "Mitleid"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Gnadenbrot",
@@ -7443,7 +10675,179 @@ const B2_WORDS = [
   {
     "de": "hetzen",
     "lv": "rīdīt • kūdīt • vajāt • trenkāt",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-hetzen",
+      "layout": "standardStudy",
+      "translation": "rīdīt • kūdīt • vajāt • trenkāt",
+      "explanation": "Galvenā doma: hetzen nozīmi parāda teikums: rīdīt, kūdīt, vajāt vai trenkāt. Ar suni tas ir rīdīt vai trenkāt, ar cilvēkiem kūdīt, ar medījumu vajāt.",
+      "examples": [
+        {
+          "de": "Einen Hund auf jemanden hetzen.",
+          "lv": "Rīdīt suni kādam virsū."
+        },
+        {
+          "de": "Die Menschen gegeneinander hetzen.",
+          "lv": "Kūdīt cilvēkus citu pret citu."
+        },
+        {
+          "de": "Die Hunde hetzen den Hasen.",
+          "lv": "Suņi vajā zaķi."
+        },
+        {
+          "de": "Den Hund durch den Garten hetzen.",
+          "lv": "Trenkāt suni pa dārzu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hetzen",
+          "meaning": "rīdīt, kūdīt, vajāt",
+          "example": "Einen Hund auf jemanden hetzen. = Rīdīt suni kādam virsū."
+        },
+        {
+          "word": "jagen",
+          "meaning": "medīt",
+          "example": "Der Jäger jagt den Hasen. = Mednieks medī zaķi."
+        }
+      ],
+      "tip": "Ja teikumā ir suns vai medījums, domā rīdīt, vajāt vai trenkāt.",
+      "important": "Ar sich hetzen nozīmē arī steigties.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hetzen"
+          ],
+          "purple": [
+            "rīdīt",
+            "kūdīt",
+            "vajāt",
+            "trenkāt",
+            "Rīdīt",
+            "Kūdīt",
+            "vajā",
+            "Trenkāt"
+          ],
+          "red": [
+            "jagen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Rīdīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kūdīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vajā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Trenkāt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rīdīt",
+                "kūdīt",
+                "vajāt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hetzen"
+              ],
+              "purple": [
+                "Rīdīt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "jagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "medīt"
+              ]
+            },
+            "example": {
+              "red": [
+                "jagt"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "hetzen"
+          ],
+          "purple": [
+            "rīdīt",
+            "kūdīt",
+            "vajāt",
+            "trenkāt",
+            "Rīdīt",
+            "Kūdīt",
+            "vajā",
+            "Trenkāt"
+          ]
+        },
+        "important": {
+          "blue": [
+            "hetzen"
+          ],
+          "red": [
+            "jagen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "heucheln",
@@ -7514,7 +10918,133 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Hinsichten",
     "lv": "ziņa",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-hinsicht",
+      "layout": "standardStudy",
+      "translation": "ziņa",
+      "explanation": "Galvenā doma: Hinsicht ir aspekts vai skatījums, nevis ziņa kā informācija. Biežākā frāze ir in dieser Hinsicht (šajā ziņā). Tā pasaka, ka runa ir par konkrētu aspektu.",
+      "examples": [
+        {
+          "de": "In dieser Hinsicht hast du recht.",
+          "lv": "Šajā ziņā tev ir taisnība."
+        },
+        {
+          "de": "In dieser Hinsicht sind wir uns ähnlich.",
+          "lv": "Šajā ziņā mēs esam līdzīgi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Hinsicht",
+          "meaning": "ziņa",
+          "example": "In dieser Hinsicht hast du recht. = Šajā ziņā tev ir taisnība."
+        },
+        {
+          "word": "Nachricht",
+          "meaning": "ziņa",
+          "example": "Ich habe eine Nachricht bekommen. = Es saņēmu ziņu."
+        }
+      ],
+      "tip": "Ja latviski var teikt 'šajā ziņā', domā Hinsicht.",
+      "important": "Latviešu 'ziņa' kā informācija ir Nachricht, nevis Hinsicht.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Hinsicht"
+          ],
+          "purple": [
+            "ziņa",
+            "ziņā"
+          ],
+          "red": [
+            "Nachricht"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ziņā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ziņā"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Hinsicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ziņa"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Hinsicht"
+              ],
+              "purple": [
+                "ziņā"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Nachricht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ziņa"
+              ]
+            },
+            "example": {
+              "red": [
+                "Nachricht"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Hinsicht"
+          ],
+          "purple": [
+            "ziņa",
+            "ziņā"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Hinsicht"
+          ],
+          "red": [
+            "Nachricht"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "hinsichtlich",
@@ -9462,7 +12992,176 @@ const B2_WORDS = [
   {
     "de": "nachträglich",
     "lv": "vēlāks • papildu • vēlāk",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-nachtr-glich",
+      "layout": "standardStudy",
+      "translation": "vēlāks • papildu • vēlāk",
+      "explanation": "Galvenā doma: nachträglich nozīmē vēlāks, vēlāk vai papildu. Ar lietvārdu tas ir vēlāks vai papildu, ar darbības vārdu vēlāk. Frāzē Alles Gute nachträglich! tas nozīmē sveicienu pēc dzimšanas dienas.",
+      "examples": [
+        {
+          "de": "Eine nachträgliche Änderung.",
+          "lv": "Vēlāks labojums."
+        },
+        {
+          "de": "Ich ändere den Text nachträglich.",
+          "lv": "Es vēlāk labošu tekstu."
+        },
+        {
+          "de": "Es gibt eine nachträgliche Zahlung.",
+          "lv": "Ir papildu maksājums."
+        },
+        {
+          "de": "Alles Gute nachträglich!",
+          "lv": "Daudz laimes pagājušajā dzimšanas dienā!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "nachträglich",
+          "meaning": "vēlāks, papildu, vēlāk",
+          "example": "Eine nachträgliche Änderung. = Vēlāks labojums."
+        },
+        {
+          "word": "später",
+          "meaning": "vēlāk",
+          "example": "Wir kommen später. = Mēs atnāksim vēlāk."
+        }
+      ],
+      "tip": "Ja kaut kas notiek pēc tam, domā nachträglich.",
+      "important": "Nachträglich nav tas pats, kas später (vienkārši vēlāk).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "nachträglich",
+            "nachträgliche"
+          ],
+          "purple": [
+            "vēlāks",
+            "papildu",
+            "vēlāk",
+            "Vēlāks",
+            "pagājušajā"
+          ],
+          "red": [
+            "später"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Vēlāks"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēlāk"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "papildu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pagājušajā"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "nachträglich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vēlāks",
+                "papildu",
+                "vēlāk"
+              ]
+            },
+            "example": {
+              "blue": [
+                "nachträgliche"
+              ],
+              "purple": [
+                "Vēlāks"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "später"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vēlāk"
+              ]
+            },
+            "example": {
+              "red": [
+                "später"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "nachträglich",
+            "nachträgliche"
+          ],
+          "purple": [
+            "vēlāks",
+            "papildu",
+            "vēlāk",
+            "Vēlāks",
+            "pagājušajā"
+          ]
+        },
+        "important": {
+          "blue": [
+            "nachträglich",
+            "nachträgliche"
+          ],
+          "red": [
+            "später"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Nachweis",
@@ -11820,7 +15519,159 @@ const B2_WORDS = [
   {
     "de": "sprengen",
     "lv": "[uz]spridzināt • apslacīt • laistīt",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sprengen",
+      "layout": "standardStudy",
+      "translation": "[uz]spridzināt • apslacīt • laistīt",
+      "explanation": "Galvenā doma: sprengen nozīmi parāda teikums: uzspridzināt, apslacīt vai laistīt. Ar tiltu tas ir uzspridzināt, ar veļu apslacīt, ar zālienu laistīt.",
+      "examples": [
+        {
+          "de": "Eine Brücke sprengen.",
+          "lv": "Uzspridzināt tiltu."
+        },
+        {
+          "de": "Die Wäsche mit Wasser sprengen.",
+          "lv": "Apslacīt veļu ar ūdeni."
+        },
+        {
+          "de": "Den Rasen sprengen.",
+          "lv": "Laistīt zālienu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sprengen",
+          "meaning": "spridzināt, apslacīt, laistīt",
+          "example": "Eine Brücke sprengen. = Uzspridzināt tiltu."
+        },
+        {
+          "word": "gießen",
+          "meaning": "liet, laistīt",
+          "example": "Ich gieße die Blumen. = Es laistu puķes."
+        }
+      ],
+      "tip": "Skaties uz objektu: tilts (spridzināt), veļa vai zāliens (slacīt).",
+      "important": "Sprengen nav tas pats, kas gießen (laistīt puķes).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sprengen"
+          ],
+          "purple": [
+            "spridzināt",
+            "apslacīt",
+            "laistīt",
+            "Uzspridzināt",
+            "Apslacīt",
+            "Laistīt"
+          ],
+          "red": [
+            "gießen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sprengen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Uzspridzināt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Apslacīt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Laistīt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sprengen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spridzināt",
+                "apslacīt",
+                "laistīt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "sprengen"
+              ],
+              "purple": [
+                "Uzspridzināt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gießen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "liet, laistīt"
+              ]
+            },
+            "example": {
+              "red": [
+                "gieße"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "sprengen"
+          ],
+          "purple": [
+            "spridzināt",
+            "apslacīt",
+            "laistīt",
+            "Uzspridzināt",
+            "Apslacīt",
+            "Laistīt"
+          ]
+        },
+        "important": {
+          "blue": [
+            "sprengen"
+          ],
+          "red": [
+            "gießen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Sprengstoff",
@@ -12344,7 +16195,175 @@ const B2_WORDS = [
   {
     "de": "überbringen",
     "lv": "nodot ziņu • apsveikumu • vēstuli • dāvanu",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2--berbringen",
+      "layout": "standardStudy",
+      "translation": "nodot ziņu • apsveikumu • vēstuli • dāvanu",
+      "explanation": "Galvenā doma: überbringen nozīmē nogādāt kādam ziņu, vēstuli, dāvanu vai apsveikumu. Ar Nachricht vai Glückwünsche lieto nodot, ar Brief vai Geschenk nogādāt. Tas ir formālāks vārds nekā bringen.",
+      "examples": [
+        {
+          "de": "Eine Nachricht überbringen.",
+          "lv": "Nodot ziņu."
+        },
+        {
+          "de": "Glückwünsche überbringen.",
+          "lv": "Nodot apsveikumus."
+        },
+        {
+          "de": "Einen Brief überbringen.",
+          "lv": "Nogādāt vēstuli."
+        },
+        {
+          "de": "Ein Geschenk überbringen.",
+          "lv": "Nogādāt dāvanu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "überbringen",
+          "meaning": "nodot ziņu, apsveikumu, vēstuli",
+          "example": "Eine Nachricht überbringen. = Nodot ziņu."
+        },
+        {
+          "word": "bringen",
+          "meaning": "atnest",
+          "example": "Bring mir bitte ein Glas Wasser. = Atnes man, lūdzu, glāzi ūdens."
+        }
+      ],
+      "tip": "Ja tev jānodod ziņa vai sveiciens, lieto überbringen.",
+      "important": "Überbringen ir formālāks vārds nekā bringen.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "überbringen"
+          ],
+          "purple": [
+            "nodot ziņu",
+            "apsveikumu",
+            "vēstuli",
+            "dāvanu",
+            "Nodot",
+            "Nogādāt"
+          ],
+          "red": [
+            "bringen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "überbringen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nodot"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbringen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nodot"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbringen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nogādāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbringen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nogādāt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "überbringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nodot ziņu",
+                "apsveikumu",
+                "vēstuli"
+              ]
+            },
+            "example": {
+              "blue": [
+                "überbringen"
+              ],
+              "purple": [
+                "Nodot"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atnest"
+              ]
+            },
+            "example": {
+              "red": [
+                "Bring"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "überbringen"
+          ],
+          "purple": [
+            "nodot ziņu",
+            "apsveikumu",
+            "vēstuli",
+            "dāvanu",
+            "Nodot",
+            "Nogādāt"
+          ]
+        },
+        "important": {
+          "blue": [
+            "überbringen"
+          ],
+          "red": [
+            "bringen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Übereinkommen",
@@ -12795,7 +16814,220 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Unterlagen",
     "lv": "paliekamais • paklājs • paliktnis • balsts • dati • dokumentācija",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-unterlage",
+      "layout": "standardStudy",
+      "translation": "paliekamais • paklājs • paliktnis • balsts • dati • dokumentācija",
+      "explanation": "Galvenā doma: Unterlage nozīmi parāda teikums: paliekamais, balsts vai dokumentācija. Vienskaitlī tas bieži ir kaut kas, ko liek apakšā: paliekamais, paliktnis vai balsts. Daudzskaitlī Unterlagen ir dokumenti.",
+      "examples": [
+        {
+          "de": "Als Unterlage verwenden wir ein Brett.",
+          "lv": "Par paliekamo izmantojam dēli."
+        },
+        {
+          "de": "Die Matte dient als Unterlage für die Übungen.",
+          "lv": "Paklājs kalpo par pamatni vingrojumiem."
+        },
+        {
+          "de": "Der Topf steht auf einer Unterlage.",
+          "lv": "Katls stāv uz paliktņa."
+        },
+        {
+          "de": "Eine feste Unterlage stützt das Werkstück.",
+          "lv": "Stingrs balsts atbalsta apstrādājamo detaļu."
+        },
+        {
+          "de": "Die Unterlagen enthalten technische Daten.",
+          "lv": "Dokumentos ir tehniskie dati."
+        },
+        {
+          "de": "Die technischen Unterlagen fehlen.",
+          "lv": "Trūkst tehniskās dokumentācijas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Unterlage",
+          "meaning": "paliekamais, paklājs, paliktnis",
+          "example": "Als Unterlage verwenden wir ein Brett. = Par paliekamo izmantojam dēli."
+        },
+        {
+          "word": "Dokument",
+          "meaning": "dokuments",
+          "example": "Das Dokument fehlt. = Dokumenta trūkst."
+        }
+      ],
+      "tip": "Ja Unterlagen ir daudzskaitlī, domā dokumenti.",
+      "important": "Unterlage un Unterlagen nozīmē dažādas lietas: pamats un dokumenti.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Unterlage",
+            "Unterlagen"
+          ],
+          "purple": [
+            "paliekamais",
+            "paklājs",
+            "paliktnis",
+            "balsts",
+            "dati",
+            "dokumentācija",
+            "paliekamo",
+            "Paklājs",
+            "paliktņa",
+            "Dokumentos",
+            "dokumentācijas"
+          ],
+          "red": [
+            "Dokument"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paliekamo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Paklājs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paliktņa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "balsts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Dokumentos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dokumentācijas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Unterlage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paliekamais",
+                "paklājs",
+                "paliktnis"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Unterlage"
+              ],
+              "purple": [
+                "paliekamo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Dokument"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dokuments"
+              ]
+            },
+            "example": {
+              "red": [
+                "Dokument"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Unterlage",
+            "Unterlagen"
+          ],
+          "purple": [
+            "paliekamais",
+            "paklājs",
+            "paliktnis",
+            "balsts",
+            "dati",
+            "dokumentācija",
+            "paliekamo",
+            "Paklājs",
+            "paliktņa",
+            "Dokumentos",
+            "dokumentācijas"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Unterlage",
+            "Unterlagen"
+          ],
+          "red": [
+            "Dokument"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "unterlassen",
@@ -13065,7 +17297,162 @@ const B2_WORDS = [
   {
     "de": "verfügen",
     "lv": "noteikt • pavēlēt • norīkot",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-verf-gen",
+      "layout": "standardStudy",
+      "translation": "noteikt • pavēlēt • norīkot",
+      "explanation": "Galvenā doma: verfügen nozīmi parāda teikums: noteikt, pavēlēt vai norīkot. Verfügen ir oficiāls vārds. Iestāde vai vadītājs ar to nosaka vai pavēl.",
+      "examples": [
+        {
+          "de": "Die Behörde verfügt eine Ausgangssperre.",
+          "lv": "Iestāde nosaka komandantstundu."
+        },
+        {
+          "de": "Der König verfügt, dass das Tor geschlossen wird.",
+          "lv": "Karalis pavēl aizvērt vārtus."
+        },
+        {
+          "de": "Der Direktor verfügt, dass die Arbeiten sofort beginnen.",
+          "lv": "Direktors norīko nekavējoties sākt darbus."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verfügen",
+          "meaning": "noteikt, pavēlēt, norīkot",
+          "example": "Die Behörde verfügt eine Ausgangssperre. = Iestāde nosaka komandantstundu."
+        },
+        {
+          "word": "anordnen",
+          "meaning": "pavēlēt",
+          "example": "Der Chef ordnet an, dass wir beginnen. = Priekšnieks pavēl, lai sākam."
+        }
+      ],
+      "tip": "Ja iestāde vai vadītājs kaut ko oficiāli nosaka, domā verfügen.",
+      "important": "Ar über (über etwas verfügen) verfügen nozīmē rīkoties ar kaut ko, tā ir cita nozīme.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "verfügen",
+            "verfügt"
+          ],
+          "purple": [
+            "noteikt",
+            "pavēlēt",
+            "norīkot",
+            "nosaka",
+            "pavēl",
+            "norīko"
+          ],
+          "red": [
+            "anordnen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nosaka"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pavēl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "norīko"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verfügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "noteikt",
+                "pavēlēt",
+                "norīkot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "verfügt"
+              ],
+              "purple": [
+                "nosaka"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anordnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pavēlēt"
+              ]
+            },
+            "example": {
+              "red": [
+                "ordnet an"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "verfügen",
+            "verfügt"
+          ],
+          "purple": [
+            "noteikt",
+            "pavēlēt",
+            "norīkot",
+            "nosaka",
+            "pavēl",
+            "norīko"
+          ]
+        },
+        "important": {
+          "blue": [
+            "verfügen",
+            "verfügt"
+          ],
+          "red": [
+            "anordnen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Verfügung",
@@ -13334,19 +17721,134 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
-      "layout": "minimalStudy",
-      "translation": "aizmirst • aprīkot ar",
-      "rektion": "mit + kam?",
-      "explanation": "sich versehen nepieciešams noteikts prievārds mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Vadība:",
+      "layout": "standardStudy",
+      "translation": "pārskatīties",
+      "explanation": "Galvenā doma: sich versehen nozīmē kļūdīties, kaut ko nepamanot vai pārskatoties. Sich versehen lieto, ja kļūda radusies nevērības dēļ. Parasti teikumā ir mich, dich vai sich.",
+      "examples": [
+        {
+          "de": "Ich habe mich versehen.",
+          "lv": "Es pārskatījos."
+        },
+        {
+          "de": "Da habe ich mich wohl versehen.",
+          "lv": "Tur es laikam esmu pārskatījies."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich versehen",
+          "meaning": "pārskatīties",
+          "example": "Ich habe mich versehen. = Es pārskatījos."
+        },
+        {
+          "word": "vergessen",
+          "meaning": "aizmirst",
+          "example": "Ich habe den Termin vergessen. = Es aizmirsu tikšanos."
+        }
+      ],
+      "tip": "Ja kļūda ir nejauša, nevis apzināta, lieto sich versehen.",
+      "important": "Sich versehen nav 'aizmirst'. Aizmirst ir vergessen.",
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich versehen"
+            "sich versehen",
+            "habe mich versehen",
+            "habe ich mich wohl versehen"
+          ],
+          "purple": [
+            "pārskatīties",
+            "pārskatījos",
+            "pārskatījies"
           ],
           "red": [
-            "mit + kam?"
+            "vergessen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "habe mich versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārskatījos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "habe ich mich wohl versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārskatījies"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich versehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pārskatīties"
+              ]
+            },
+            "example": {
+              "blue": [
+                "habe mich versehen"
+              ],
+              "purple": [
+                "pārskatījos"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aizmirst"
+              ]
+            },
+            "example": {
+              "red": [
+                "vergessen"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "sich versehen",
+            "habe mich versehen",
+            "habe ich mich wohl versehen"
+          ],
+          "purple": [
+            "pārskatīties",
+            "pārskatījos",
+            "pārskatījies"
+          ]
+        },
+        "important": {
+          "blue": [
+            "sich versehen",
+            "habe mich versehen",
+            "habe ich mich wohl versehen"
+          ],
+          "red": [
+            "vergessen"
           ]
         }
       }
@@ -14166,7 +18668,171 @@ const B2_WORDS = [
     "de_article": "das",
     "de_plural": "die Wesen",
     "lv": "būtne • radījums • būtība • raksturs",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-wesen",
+      "layout": "standardStudy",
+      "translation": "būtne • radījums • būtība • raksturs",
+      "explanation": "Galvenā doma: Wesen nozīmi parāda teikums: būtne, radījums, būtība vai raksturs. Ar dzīvu radību tā ir būtne vai radījums, ar problēmu būtība, ar cilvēku raksturs.",
+      "examples": [
+        {
+          "de": "Ein lebendes Wesen.",
+          "lv": "Dzīva būtne."
+        },
+        {
+          "de": "Ein seltsames Wesen.",
+          "lv": "Savāds radījums."
+        },
+        {
+          "de": "Das Wesen des Problems.",
+          "lv": "Problēmas būtība."
+        },
+        {
+          "de": "Sie hat ein freundliches Wesen.",
+          "lv": "Viņai ir laipns raksturs."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Wesen",
+          "meaning": "būtne, radījums, būtība",
+          "example": "Ein lebendes Wesen. = Dzīva būtne."
+        },
+        {
+          "word": "Charakter",
+          "meaning": "raksturs",
+          "example": "Er hat einen starken Charakter. = Viņam ir stiprs raksturs."
+        }
+      ],
+      "tip": "Ja runa ir par cilvēka dabu, domā raksturs; par problēmu, domā būtība.",
+      "important": "Das Wesen des Problems nozīmē problēmas būtību; raksturs ir tikai ar cilvēku.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Wesen"
+          ],
+          "purple": [
+            "būtne",
+            "radījums",
+            "būtība",
+            "raksturs"
+          ],
+          "red": [
+            "Charakter"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "būtne"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "radījums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "būtība"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "raksturs"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Wesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "būtne",
+                "radījums",
+                "būtība"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Wesen"
+              ],
+              "purple": [
+                "būtne"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Charakter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "raksturs"
+              ]
+            },
+            "example": {
+              "red": [
+                "Charakter"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Wesen"
+          ],
+          "purple": [
+            "būtne",
+            "radījums",
+            "būtība",
+            "raksturs"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Wesen"
+          ],
+          "red": [
+            "Charakter"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Wettlauf",

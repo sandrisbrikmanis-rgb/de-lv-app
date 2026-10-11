@@ -15109,7 +15109,142 @@ const B1_WORDS = [
   {
     "de": "dritt",
     "lv": "trešais • trijatā",
-    "level": "B1"
+    "level": "B1",
+    "study": {
+      "id": "b1-dritt",
+      "layout": "standardStudy",
+      "translation": "trešais • trijatā",
+      "explanation": "Galvenā doma: dritt nozīmē trešais; zu dritt nozīmē trijatā. Dritt lieto kā kārtas skaitli (die dritte Tür) un frāzē zu dritt (trijatā).",
+      "examples": [
+        {
+          "de": "Das ist die dritte Tür.",
+          "lv": "Šīs ir trešās durvis."
+        },
+        {
+          "de": "Wir gehen zu dritt ins Kino.",
+          "lv": "Mēs ejam uz kino trijatā."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "dritt",
+          "meaning": "trešais, trijatā",
+          "example": "Das ist die dritte Tür. = Šīs ir trešās durvis."
+        },
+        {
+          "word": "drittens",
+          "meaning": "treškārt",
+          "example": "Drittens ist es zu teuer. = Treškārt, tas ir pārāk dārgi."
+        }
+      ],
+      "tip": "Ja ir zu dritt, tulko trijatā.",
+      "important": "Dritt nenozīmē treškārt. Treškārt ir drittens.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dritt",
+            "dritte",
+            "zu dritt"
+          ],
+          "purple": [
+            "trešais",
+            "trijatā",
+            "trešās"
+          ],
+          "red": [
+            "drittens"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dritte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "trešās"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "trijatā"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "dritt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "trešais",
+                "trijatā"
+              ]
+            },
+            "example": {
+              "blue": [
+                "dritte"
+              ],
+              "purple": [
+                "trešās"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "drittens"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "treškārt"
+              ]
+            },
+            "example": {
+              "red": [
+                "Drittens"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "dritt",
+            "dritte",
+            "zu dritt"
+          ],
+          "purple": [
+            "trešais",
+            "trijatā",
+            "trešās"
+          ]
+        },
+        "important": {
+          "blue": [
+            "dritt",
+            "dritte",
+            "zu dritt"
+          ],
+          "red": [
+            "drittens"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "drittens",
@@ -52168,8 +52303,163 @@ const B1_WORDS = [
   },
   {
     "de": "schwindeln",
-    "lv": "reibt • melot • mānīties",
-    "level": "B1"
+    "lv": "reibt • krāpšana • blēdība",
+    "level": "B1",
+    "study": {
+      "id": "b1-schwindeln",
+      "layout": "standardStudy",
+      "translation": "reibt • krāpšana • blēdība",
+      "explanation": "Galvenā doma: schwindeln nozīmi parāda teikums: reibt galva vai krāpšanās. Ar mir kā papildinājumu Mir schwindelt nozīmē man reibst galva. Ja teikumā ir cilvēks, kas blēdās vai krāpjas, schwindeln nozīmē krāpšanu vai blēdību.",
+      "examples": [
+        {
+          "de": "Mir schwindelt.",
+          "lv": "Man reibst galva."
+        },
+        {
+          "de": "Er schwindelt beim Kartenspiel.",
+          "lv": "Viņš blēdās kāršu spēlē."
+        },
+        {
+          "de": "Sie schwindelt bei der Steuererklärung.",
+          "lv": "Viņa krāpjas nodokļu deklarācijā."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schwindeln",
+          "meaning": "reibt, krāpšana, blēdība",
+          "example": "Mir schwindelt. = Man reibst galva."
+        },
+        {
+          "word": "lügen",
+          "meaning": "melot",
+          "example": "Er lügt immer. = Viņš vienmēr melo."
+        }
+      ],
+      "tip": "Ja teikumā ir Mir/Mich un nav spēles vai dokumentu, domā par reibst.",
+      "important": "Schwindeln nenozīmē melot. Melot ir lügen.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "schwindeln",
+            "schwindelt"
+          ],
+          "purple": [
+            "reibt",
+            "krāpšana",
+            "blēdība",
+            "reibst",
+            "blēdās",
+            "krāpjas"
+          ],
+          "red": [
+            "lügen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schwindelt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "reibst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwindelt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "blēdās"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwindelt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "krāpjas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schwindeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "reibt",
+                "krāpšana",
+                "blēdība"
+              ]
+            },
+            "example": {
+              "blue": [
+                "schwindelt"
+              ],
+              "purple": [
+                "reibst"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "lügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "melot"
+              ]
+            },
+            "example": {
+              "red": [
+                "lügt"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "schwindeln",
+            "schwindelt"
+          ],
+          "purple": [
+            "reibt",
+            "krāpšana",
+            "blēdība",
+            "reibst",
+            "blēdās",
+            "krāpjas"
+          ]
+        },
+        "important": {
+          "blue": [
+            "schwindeln",
+            "schwindelt"
+          ],
+          "red": [
+            "lügen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "schwingen",

@@ -1625,7 +1625,154 @@ const C1_WORDS = [
     "de_article": "die",
     "de_plural": "die Befangenheiten",
     "lv": "samulsums • apmulsums",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-befangenheit",
+      "layout": "standardStudy",
+      "translation": "samulsums • apmulsums",
+      "explanation": "Galvenā doma: Befangenheit ir samulsums vai apmulsums citu priekšā. Befangenheit raksturo nedrošību vai neērtu sajūtu, kas redzama uzvedībā vai runā.",
+      "examples": [
+        {
+          "de": "Seine Befangenheit war deutlich zu erkennen.",
+          "lv": "Viņa samulsums bija skaidri manāms."
+        },
+        {
+          "de": "Sie versuchte, ihre Befangenheit zu verbergen.",
+          "lv": "Viņa centās noslēpt savu apmulsumu."
+        },
+        {
+          "de": "Sie sprach mit Befangenheit.",
+          "lv": "Viņa runāja ar samulsumu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Befangenheit",
+          "meaning": "samulsums, apmulsums",
+          "example": "Seine Befangenheit war deutlich zu erkennen. = Viņa samulsums bija skaidri manāms."
+        },
+        {
+          "word": "Schüchternheit",
+          "meaning": "kautrība",
+          "example": "Seine Schüchternheit fällt auf. = Viņa kautrība ir pamanāma."
+        }
+      ],
+      "tip": "Ja cilvēks jūtas nedroši citu priekšā, domā Befangenheit.",
+      "important": "Tiesu valodā Befangenheit var nozīmēt arī neobjektivitāti.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Befangenheit"
+          ],
+          "purple": [
+            "samulsums",
+            "apmulsums",
+            "apmulsumu",
+            "samulsumu"
+          ],
+          "red": [
+            "Schüchternheit"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "samulsums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmulsumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "samulsumu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Befangenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "samulsums",
+                "apmulsums"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Befangenheit"
+              ],
+              "purple": [
+                "samulsums"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Schüchternheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kautrība"
+              ]
+            },
+            "example": {
+              "red": [
+                "Schüchternheit"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Befangenheit"
+          ],
+          "purple": [
+            "samulsums",
+            "apmulsums",
+            "apmulsumu",
+            "samulsumu"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Befangenheit"
+          ],
+          "red": [
+            "Schüchternheit"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "beglaubigen",
@@ -1721,7 +1868,138 @@ const C1_WORDS = [
     "de_article": "die",
     "de_plural": "die Berufungen",
     "lv": "aicinājums • atsaukšanās",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-berufung",
+      "layout": "standardStudy",
+      "translation": "aicinājums • atsaukšanās",
+      "explanation": "Galvenā doma: Berufung ir aicinājums vai atsaukšanās uz kaut ko. Berufung als ... nozīmē aicinājumu, aicinājumu uz profesiju. Unter Berufung auf ... nozīmē atsaucoties uz likumu vai dokumentu.",
+      "examples": [
+        {
+          "de": "Sie sieht ihren Beruf als Berufung.",
+          "lv": "Viņa savu profesiju uzskata par aicinājumu."
+        },
+        {
+          "de": "Unter Berufung auf das Gesetz widersprach er.",
+          "lv": "Atsaucoties uz likumu, viņš iebilda."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Berufung",
+          "meaning": "aicinājums, atsaukšanās",
+          "example": "Sie sieht ihren Beruf als Berufung. = Viņa savu profesiju uzskata par aicinājumu."
+        },
+        {
+          "word": "Beruf",
+          "meaning": "profesija",
+          "example": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
+        }
+      ],
+      "tip": "Ja seko auf, domā par atsaukšanos; ja runa par profesiju, domā par aicinājumu.",
+      "important": "Berufung nav tas pats, kas Beruf (profesija). Berufung ir dziļāks aicinājums.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Berufung"
+          ],
+          "purple": [
+            "aicinājums",
+            "atsaukšanās",
+            "aicinājumu",
+            "Atsaucoties"
+          ],
+          "red": [
+            "Beruf"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aicinājumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Atsaucoties"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Berufung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aicinājums",
+                "atsaukšanās"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Berufung"
+              ],
+              "purple": [
+                "aicinājumu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Beruf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "profesija"
+              ]
+            },
+            "example": {
+              "red": [
+                "Beruf"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Berufung"
+          ],
+          "purple": [
+            "aicinājums",
+            "atsaukšanās",
+            "aicinājumu",
+            "Atsaucoties"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Berufung"
+          ],
+          "red": [
+            "Beruf"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Besatzungsmacht",
@@ -2236,7 +2514,136 @@ const C1_WORDS = [
   {
     "de": "festgesetzt",
     "lv": "noteikts • nolikts",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-festgesetzt",
+      "layout": "standardStudy",
+      "translation": "noteikts • nolikts",
+      "explanation": "Galvenā doma: festgesetzt nozīmē noteikts vai nolikts. Festgesetzt ir divdabis no festsetzen. Tas nozīmē, ka cena, datums vai maksa ir oficiāli noteikta.",
+      "examples": [
+        {
+          "de": "Die Gebühr ist festgesetzt.",
+          "lv": "Maksa ir noteikta."
+        },
+        {
+          "de": "Der Prüfungstermin ist festgesetzt.",
+          "lv": "Eksāmena datums ir nolikts."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "festgesetzt",
+          "meaning": "noteikts, nolikts",
+          "example": "Die Gebühr ist festgesetzt. = Maksa ir noteikta."
+        },
+        {
+          "word": "festgelegt",
+          "meaning": "noteikts",
+          "example": "Der Termin ist festgelegt. = Datums ir noteikts."
+        }
+      ],
+      "tip": "Ja kaut kas ir oficiāli noteikts, domā festgesetzt.",
+      "important": "Festgesetzt nav festgenommen (aizturēts).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "festgesetzt"
+          ],
+          "purple": [
+            "noteikts",
+            "nolikts",
+            "noteikta"
+          ],
+          "red": [
+            "festgelegt"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "noteikta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nolikts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "festgesetzt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "noteikts",
+                "nolikts"
+              ]
+            },
+            "example": {
+              "blue": [
+                "festgesetzt"
+              ],
+              "purple": [
+                "noteikta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "festgelegt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "noteikts"
+              ]
+            },
+            "example": {
+              "red": [
+                "festgelegt"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "festgesetzt"
+          ],
+          "purple": [
+            "noteikts",
+            "nolikts",
+            "noteikta"
+          ]
+        },
+        "important": {
+          "blue": [
+            "festgesetzt"
+          ],
+          "red": [
+            "festgelegt"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "feuergefährlich",
@@ -3563,7 +3970,156 @@ const C1_WORDS = [
   {
     "de": "verabschieden",
     "lv": "atvadīties",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-verabschieden",
+      "layout": "standardStudy",
+      "translation": "atvadīties",
+      "explanation": "Galvenā doma: sich verabschieden nozīmē atvadīties; verabschieden var nozīmēt arī pavadīt. Ar sich: sie verabschiedet sich = viņa atvadās. Ar jemanden: wir verabschieden den Gast = mēs atvadāmies no viesa.",
+      "examples": [
+        {
+          "de": "Sie verabschiedet sich von uns.",
+          "lv": "Viņa atvadās no mums."
+        },
+        {
+          "de": "Wir verabschieden den Gast.",
+          "lv": "Mēs atvadāmies no viesa."
+        },
+        {
+          "de": "Jemanden in den Ruhestand verabschieden.",
+          "lv": "Pavadīt kādu pensijā."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verabschieden",
+          "meaning": "atvadīties",
+          "example": "Sie verabschiedet sich von uns. = Viņa atvadās no mums."
+        },
+        {
+          "word": "begrüßen",
+          "meaning": "sveicināt",
+          "example": "Wir begrüßen den Gast. = Mēs sveicinām viesi."
+        }
+      ],
+      "tip": "Ja kāds atvadās pats, lieto sich verabschieden.",
+      "important": "Jemanden verabschieden ir arī amata pavadīšana, piemēram, in den Ruhestand.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "verabschieden",
+            "verabschiedet sich"
+          ],
+          "purple": [
+            "atvadīties",
+            "atvadās",
+            "atvadāmies",
+            "Pavadīt"
+          ],
+          "red": [
+            "begrüßen"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verabschiedet sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atvadās"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschieden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atvadāmies"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschieden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pavadīt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verabschieden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atvadīties"
+              ]
+            },
+            "example": {
+              "blue": [
+                "verabschiedet sich"
+              ],
+              "purple": [
+                "atvadās"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "begrüßen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sveicināt"
+              ]
+            },
+            "example": {
+              "red": [
+                "begrüßen"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "verabschieden",
+            "verabschiedet sich"
+          ],
+          "purple": [
+            "atvadīties",
+            "atvadās",
+            "atvadāmies",
+            "Pavadīt"
+          ]
+        },
+        "important": {
+          "blue": [
+            "verabschieden",
+            "verabschiedet sich"
+          ],
+          "red": [
+            "begrüßen"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "veränderlich",
