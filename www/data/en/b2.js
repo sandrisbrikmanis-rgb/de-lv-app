@@ -7805,17 +7805,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "Flood • High water level",
-          "example": "Es gibt Hochwasser. = Ir plūdi."
+          "example": "Es gibt Hochwasser. – There is a flood."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "Flooding • Inundation",
-          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
+          "example": "Die Überschwemmung zerstörte Häuser. – The flood destroyed houses."
         },
         {
           "word": "der Pegel",
           "meaning": "Water level",
-          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
+          "example": "Der Pegel steigt. – The water level is rising."
         }
       ],
       "tip": {
@@ -9299,17 +9299,17 @@ const B2_WORDS = [
         {
           "word": "Nachdruck legen auf",
           "meaning": "Emphasise, insist",
-          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
+          "example": "Er legt Nachdruck auf die Frist. – He puts emphasis on the deadline."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "Reissue",
-          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
+          "example": "Der Nachdruck erschien im Frühjahr. – The reprint came out in spring."
         },
         {
           "word": "der Druck",
           "meaning": "Pressure / print",
-          "example": "Unter Druck stehen = būt spiedienā."
+          "example": "Unter Druck stehen – To be under pressure"
         }
       ],
       "tip": [
@@ -14385,17 +14385,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "Assign • Assign",
-          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
+          "example": "Er weist die Aufgabe zu. – He assigns the task."
         },
         {
           "word": "geben",
           "meaning": "To give",
-          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
+          "example": "Er gibt mir die Arbeit. – He gives me the work."
         },
         {
           "word": "verteilen",
           "meaning": "To divide",
-          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
+          "example": "Er verteilt die Aufgaben. – He distributes the tasks."
         }
       ],
       "tip": {
@@ -14495,7 +14495,7 @@ const B2_WORDS = [
         {
           "word": "jemandem zuwider sein",
           "meaning": "To be distasteful to someone",
-          "example": "Es ist mir zuwider. = Man tas nepatīk."
+          "example": "Es ist mir zuwider. – I find it repugnant."
         },
         {
           "word": "wider",
@@ -14867,12 +14867,12 @@ const B2_WORDS = [
         {
           "word": "anbieten",
           "meaning": "Offer (active)",
-          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
+          "example": "Ich biete Hilfe an. – I offer help."
         },
         {
           "word": "bieten",
           "meaning": "Offer • Give",
-          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
+          "example": "Er bietet viel Geld. – He offers a lot of money."
         },
         {
           "word": "vorschlagen",
