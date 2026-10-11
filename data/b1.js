@@ -15148,11 +15148,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "trešais",
-            "trijatā",
-            "trešās"
-          ],
-          "red": [
-            "drittens"
+            "trijatā"
           ]
         },
         "examples": [
@@ -15224,27 +15220,21 @@ const B1_WORDS = [
         "tip": {
           "blue": [
             "dritt",
-            "dritte",
             "zu dritt"
           ],
           "purple": [
-            "trešais",
-            "trijatā",
-            "trešās"
+            "trijatā"
           ]
         },
         "important": {
           "blue": [
-            "dritt",
-            "dritte",
-            "zu dritt"
+            "dritt"
           ],
           "red": [
             "drittens"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "drittens",
@@ -52346,14 +52336,9 @@ const B1_WORDS = [
           ],
           "purple": [
             "reibt",
-            "krāpšana",
-            "blēdība",
             "reibst",
             "blēdās",
             "krāpjas"
-          ],
-          "red": [
-            "lügen"
           ]
         },
         "examples": [
@@ -52436,30 +52421,19 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "schwindeln",
-            "schwindelt"
-          ],
           "purple": [
-            "reibt",
-            "krāpšana",
-            "blēdība",
-            "reibst",
-            "blēdās",
-            "krāpjas"
+            "reibst"
           ]
         },
         "important": {
           "blue": [
-            "schwindeln",
-            "schwindelt"
+            "schwindeln"
           ],
           "red": [
             "lügen"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "schwingen",

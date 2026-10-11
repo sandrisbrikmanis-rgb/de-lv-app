@@ -2774,29 +2774,14 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "ändern",
-            "ändere",
-            "ändert",
-            "ändert sich",
-            "hat sich geändert",
-            "haben sich geändert"
+            "ändern"
           ],
           "purple": [
             "mainīt",
             "pārgrozīt",
             "pārtaisīt",
             "mainīties",
-            "pārmainīties",
-            "pārgrozīties",
-            "mainu",
-            "pārgrozām",
-            "pārtaisa",
-            "mainās",
-            "pārmainījusies",
-            "pārgrozījušies"
-          ],
-          "red": [
-            "wechseln"
+            "pārmainīties"
           ]
         },
         "examples": [
@@ -2914,45 +2899,16 @@ const A2_WORDS = [
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "ändern",
-            "ändere",
-            "ändert",
-            "ändert sich",
-            "hat sich geändert",
-            "haben sich geändert"
-          ],
-          "purple": [
-            "mainīt",
-            "pārgrozīt",
-            "pārtaisīt",
-            "mainīties",
-            "pārmainīties",
-            "pārgrozīties",
-            "mainu",
-            "pārgrozām",
-            "pārtaisa",
-            "mainās",
-            "pārmainījusies",
-            "pārgrozījušies"
-          ]
-        },
+        "tip": {},
         "important": {
           "blue": [
-            "ändern",
-            "ändere",
-            "ändert",
-            "ändert sich",
-            "hat sich geändert",
-            "haben sich geändert"
+            "ändern"
           ],
           "red": [
             "wechseln"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Änderung",
@@ -33930,14 +33886,7 @@ const A2_WORDS = [
             "Gashahn"
           ],
           "purple": [
-            "gāze",
-            "Gāzes skaitītāja rādījumu nolasītājs",
-            "Gāzes šķiltavās",
-            "gāzes smaku",
-            "Gāzes krāns"
-          ],
-          "red": [
-            "Benzin"
+            "gāze"
           ]
         },
         "examples": [
@@ -34031,34 +33980,18 @@ const A2_WORDS = [
         ],
         "tip": {
           "blue": [
-            "Gas",
-            "Gasableser",
-            "Gasfeuerzeug",
-            "Gasgeruch",
-            "Gashahn"
-          ],
-          "purple": [
-            "gāze",
-            "Gāzes skaitītāja rādījumu nolasītājs",
-            "Gāzes šķiltavās",
-            "gāzes smaku",
-            "Gāzes krāns"
+            "Gas"
           ]
         },
         "important": {
           "blue": [
-            "Gas",
-            "Gasableser",
-            "Gasfeuerzeug",
-            "Gasgeruch",
-            "Gashahn"
+            "Gas"
           ],
           "red": [
             "Benzin"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Gasse",
@@ -39190,14 +39123,7 @@ const A2_WORDS = [
             "Kaffeesatz"
           ],
           "purple": [
-            "kafejnīca",
-            "Kafijas kanna",
-            "Kafijas automāts",
-            "maltu kafiju",
-            "kafijas biezumi"
-          ],
-          "red": [
-            "Café"
+            "kafejnīca"
           ]
         },
         "examples": [
@@ -39289,36 +39215,13 @@ const A2_WORDS = [
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Kaffeehaus",
-            "Kaffeekanne",
-            "Kaffeemaschine",
-            "Kaffeepulver",
-            "Kaffeesatz"
-          ],
-          "purple": [
-            "kafejnīca",
-            "Kafijas kanna",
-            "Kafijas automāts",
-            "maltu kafiju",
-            "kafijas biezumi"
-          ]
-        },
+        "tip": {},
         "important": {
           "blue": [
-            "Kaffeehaus",
-            "Kaffeekanne",
-            "Kaffeemaschine",
-            "Kaffeepulver",
-            "Kaffeesatz"
-          ],
-          "red": [
-            "Café"
+            "Kaffeehaus"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Kaffeekanne",

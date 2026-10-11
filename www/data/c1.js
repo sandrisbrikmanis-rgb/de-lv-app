@@ -1666,12 +1666,7 @@ const C1_WORDS = [
           ],
           "purple": [
             "samulsums",
-            "apmulsums",
-            "apmulsumu",
-            "samulsumu"
-          ],
-          "red": [
-            "Schüchternheit"
+            "apmulsums"
           ]
         },
         "examples": [
@@ -1755,24 +1750,14 @@ const C1_WORDS = [
         "tip": {
           "blue": [
             "Befangenheit"
-          ],
-          "purple": [
-            "samulsums",
-            "apmulsums",
-            "apmulsumu",
-            "samulsumu"
           ]
         },
         "important": {
           "blue": [
             "Befangenheit"
-          ],
-          "red": [
-            "Schüchternheit"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "beglaubigen",
@@ -1908,9 +1893,6 @@ const C1_WORDS = [
             "atsaukšanās",
             "aicinājumu",
             "Atsaucoties"
-          ],
-          "red": [
-            "Beruf"
           ]
         },
         "examples": [
@@ -1980,14 +1962,8 @@ const C1_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "Berufung"
-          ],
           "purple": [
-            "aicinājums",
-            "atsaukšanās",
-            "aicinājumu",
-            "Atsaucoties"
+            "aicinājumu"
           ]
         },
         "important": {
@@ -1998,8 +1974,7 @@ const C1_WORDS = [
             "Beruf"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Besatzungsmacht",
@@ -2553,9 +2528,6 @@ const C1_WORDS = [
             "noteikts",
             "nolikts",
             "noteikta"
-          ],
-          "red": [
-            "festgelegt"
           ]
         },
         "examples": [
@@ -2629,21 +2601,15 @@ const C1_WORDS = [
             "festgesetzt"
           ],
           "purple": [
-            "noteikts",
-            "nolikts",
-            "noteikta"
+            "noteikts"
           ]
         },
         "important": {
           "blue": [
             "festgesetzt"
-          ],
-          "red": [
-            "festgelegt"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "feuergefährlich",
@@ -4015,9 +3981,6 @@ const C1_WORDS = [
             "atvadās",
             "atvadāmies",
             "Pavadīt"
-          ],
-          "red": [
-            "begrüßen"
           ]
         },
         "examples": [
@@ -4099,27 +4062,18 @@ const C1_WORDS = [
         ],
         "tip": {
           "blue": [
-            "verabschieden",
-            "verabschiedet sich"
+            "verabschieden"
           ],
           "purple": [
-            "atvadīties",
-            "atvadās",
-            "atvadāmies",
-            "Pavadīt"
+            "atvadās"
           ]
         },
         "important": {
           "blue": [
-            "verabschieden",
-            "verabschiedet sich"
-          ],
-          "red": [
-            "begrüßen"
+            "verabschieden"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "veränderlich",

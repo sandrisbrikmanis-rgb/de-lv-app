@@ -152,11 +152,7 @@ const B2_WORDS = [
           "purple": [
             "piemērots",
             "iederīgs",
-            "iederīga",
             "vietā"
-          ],
-          "red": [
-            "passend"
           ]
         },
         "examples": [
@@ -242,22 +238,15 @@ const B2_WORDS = [
             "angebracht"
           ],
           "purple": [
-            "piemērots",
-            "iederīgs",
-            "iederīga",
             "vietā"
           ]
         },
         "important": {
           "blue": [
             "angebracht"
-          ],
-          "red": [
-            "passend"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "angehen",
@@ -449,17 +438,13 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "abgesehen",
-            "Abgesehen von",
-            "Abgesehen vom"
+            "Abgesehen von"
           ],
           "purple": [
             "izņemot",
             "neskaitot",
             "Izņemot",
             "Neskaitot"
-          ],
-          "red": [
-            "außer"
           ]
         },
         "examples": [
@@ -530,29 +515,16 @@ const B2_WORDS = [
         ],
         "tip": {
           "blue": [
-            "abgesehen",
-            "Abgesehen von",
-            "Abgesehen vom"
-          ],
-          "purple": [
-            "izņemot",
-            "neskaitot",
-            "Izņemot",
-            "Neskaitot"
+            "abgesehen"
           ]
         },
         "important": {
           "blue": [
             "abgesehen",
-            "Abgesehen von",
-            "Abgesehen vom"
-          ],
-          "red": [
-            "außer"
+            "Abgesehen von"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "abgespannt",
@@ -755,9 +727,6 @@ const B2_WORDS = [
             "Aiznest",
             "Nonēsāt",
             "Nojaukt"
-          ],
-          "red": [
-            "tragen"
           ]
         },
         "examples": [
@@ -839,19 +808,7 @@ const B2_WORDS = [
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "abtragen"
-          ],
-          "purple": [
-            "aiznest",
-            "nonēsāt",
-            "nojaukt",
-            "Aiznest",
-            "Nonēsāt",
-            "Nojaukt"
-          ]
-        },
+        "tip": {},
         "important": {
           "blue": [
             "abtragen"
@@ -860,8 +817,7 @@ const B2_WORDS = [
             "tragen"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "abtreten",
@@ -1112,12 +1068,7 @@ const B2_WORDS = [
             "Äußerlichkeiten"
           ],
           "purple": [
-            "ārišķība",
-            "ārišķībām",
-            "Ārišķības"
-          ],
-          "red": [
-            "Aussehen"
+            "ārišķība"
           ]
         },
         "examples": [
@@ -1187,26 +1138,15 @@ const B2_WORDS = [
         ],
         "tip": {
           "blue": [
-            "Äußerlichkeit",
             "Äußerlichkeiten"
-          ],
-          "purple": [
-            "ārišķība",
-            "ārišķībām",
-            "Ārišķības"
           ]
         },
         "important": {
           "blue": [
-            "Äußerlichkeit",
-            "Äußerlichkeiten"
-          ],
-          "red": [
-            "Aussehen"
+            "Äußerlichkeit"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Äußerung",
@@ -1264,23 +1204,14 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "aussetzen",
-            "auszusetzen",
-            "setzt aus",
-            "setzen",
-            "aus"
+            "auszusetzen"
           ],
           "purple": [
             "izlikt",
             "pakļaut",
             "iebilst",
-            "stāties",
             "Izlikt",
-            "Pakļaut",
-            "pārstāj darboties",
-            "pārtraucam"
-          ],
-          "red": [
-            "unterbrechen"
+            "Pakļaut"
           ]
         },
         "examples": [
@@ -1388,38 +1319,18 @@ const B2_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "aussetzen",
-            "auszusetzen",
-            "setzt aus",
-            "setzen",
-            "aus"
-          ],
           "purple": [
-            "izlikt",
             "pakļaut",
             "iebilst",
-            "stāties",
-            "Izlikt",
-            "Pakļaut",
-            "pārstāj darboties",
-            "pārtraucam"
+            "Pakļaut"
           ]
         },
         "important": {
           "blue": [
-            "aussetzen",
-            "auszusetzen",
-            "setzt aus",
-            "setzen",
-            "aus"
-          ],
-          "red": [
-            "unterbrechen"
+            "auszusetzen"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "aussichtslos",
@@ -1486,19 +1397,12 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "ausströmen",
-            "strömt aus",
-            "strömt"
+            "ausströmen"
           ],
           "purple": [
             "iztecēt",
             "izplūst",
-            "izstarot",
-            "iztek",
-            "izstaro"
-          ],
-          "red": [
-            "fließen"
+            "izstarot"
           ]
         },
         "examples": [
@@ -1581,31 +1485,17 @@ const B2_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "ausströmen",
-            "strömt aus",
-            "strömt"
-          ],
           "purple": [
             "iztecēt",
-            "izplūst",
-            "izstarot",
-            "iztek",
-            "izstaro"
+            "izplūst"
           ]
         },
         "important": {
           "blue": [
-            "ausströmen",
-            "strömt aus",
-            "strömt"
-          ],
-          "red": [
-            "fließen"
+            "ausströmen"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "austragen",
@@ -1670,9 +1560,6 @@ const B2_WORDS = [
             "Izmīt",
             "Nomīt",
             "Izstāties"
-          ],
-          "red": [
-            "eintreten"
           ]
         },
         "examples": [
@@ -1768,15 +1655,8 @@ const B2_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "austreten"
-          ],
           "purple": [
-            "izmīt",
-            "nomīt",
             "izstāties",
-            "Izmīt",
-            "Nomīt",
             "Izstāties"
           ]
         },
@@ -1788,8 +1668,7 @@ const B2_WORDS = [
             "eintreten"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "auswärtig",
@@ -2029,9 +1908,6 @@ const B2_WORDS = [
             "apbūvēt",
             "Apstrādāt",
             "Apbūvēt"
-          ],
-          "red": [
-            "bauen"
           ]
         },
         "examples": [
@@ -2101,9 +1977,6 @@ const B2_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "bebauen"
-          ],
           "purple": [
             "apstrādāt",
             "apbūvēt",
@@ -2119,8 +1992,7 @@ const B2_WORDS = [
             "bauen"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "bedürfen",
@@ -2534,11 +2406,7 @@ const B2_WORDS = [
             "komanda",
             "ekipāža",
             "apkalpe",
-            "okupācijas karaspēks",
-            "ekipāžu"
-          ],
-          "red": [
-            "Mannschaft"
+            "okupācijas karaspēks"
           ]
         },
         "examples": [
@@ -2632,18 +2500,7 @@ const B2_WORDS = [
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Besatzung"
-          ],
-          "purple": [
-            "komanda",
-            "ekipāža",
-            "apkalpe",
-            "okupācijas karaspēks",
-            "ekipāžu"
-          ]
-        },
+        "tip": {},
         "important": {
           "blue": [
             "Besatzung"
@@ -2652,8 +2509,7 @@ const B2_WORDS = [
             "Mannschaft"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "beschämen",
@@ -2751,11 +2607,7 @@ const B2_WORDS = [
           "purple": [
             "apsēsts",
             "apmāts",
-            "pārņemts",
-            "pārņemta"
-          ],
-          "red": [
-            "besitzen"
+            "pārņemts"
           ]
         },
         "examples": [
@@ -2840,12 +2692,6 @@ const B2_WORDS = [
         "tip": {
           "blue": [
             "besessen"
-          ],
-          "purple": [
-            "apsēsts",
-            "apmāts",
-            "pārņemts",
-            "pārņemta"
           ]
         },
         "important": {
@@ -2856,8 +2702,7 @@ const B2_WORDS = [
             "besitzen"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "besiedeln",
@@ -3828,9 +3673,6 @@ const B2_WORDS = [
             "tēlojums",
             "attēlojums",
             "izklāsts"
-          ],
-          "red": [
-            "Vorstellung"
           ]
         },
         "examples": [
@@ -3912,16 +3754,7 @@ const B2_WORDS = [
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Darstellung"
-          ],
-          "purple": [
-            "tēlojums",
-            "attēlojums",
-            "izklāsts"
-          ]
-        },
+        "tip": {},
         "important": {
           "blue": [
             "Darstellung"
@@ -3930,8 +3763,7 @@ const B2_WORDS = [
             "Vorstellung"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Dasein",
@@ -3978,12 +3810,7 @@ const B2_WORDS = [
             "dasjenige"
           ],
           "purple": [
-            "tas",
-            "to",
-            "tā"
-          ],
-          "red": [
-            "derjenige"
+            "tas"
           ]
         },
         "examples": [
@@ -4054,23 +3881,14 @@ const B2_WORDS = [
         "tip": {
           "blue": [
             "dasjenige"
-          ],
-          "purple": [
-            "tas",
-            "to",
-            "tā"
           ]
         },
         "important": {
           "blue": [
             "dasjenige"
-          ],
-          "red": [
-            "derjenige"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Datei",
@@ -4390,18 +4208,11 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dingen",
-            "dingte",
-            "dingten"
+            "dingen"
           ],
           "purple": [
             "līgt",
-            "salīgt",
-            "līga",
-            "salīgām"
-          ],
-          "red": [
-            "anheuern"
+            "salīgt"
           ]
         },
         "examples": [
@@ -4473,29 +4284,18 @@ const B2_WORDS = [
         ],
         "tip": {
           "blue": [
-            "dingen",
-            "dingte",
-            "dingten"
-          ],
-          "purple": [
-            "līgt",
-            "salīgt",
-            "līga",
-            "salīgām"
+            "dingen"
           ]
         },
         "important": {
           "blue": [
-            "dingen",
-            "dingte",
-            "dingten"
+            "dingen"
           ],
           "red": [
             "anheuern"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Direktion",
@@ -4612,11 +4412,7 @@ const B2_WORDS = [
             "rībēt",
             "dārdēt",
             "rūc",
-            "rībēdama",
             "dārd"
-          ],
-          "red": [
-            "Donner"
           ]
         },
         "examples": [
@@ -4700,29 +4496,22 @@ const B2_WORDS = [
         ],
         "tip": {
           "blue": [
-            "donnern",
             "donnert"
           ],
           "purple": [
             "pērkons rūc",
-            "rībēt",
-            "dārdēt",
-            "rūc",
-            "rībēdama",
-            "dārd"
+            "rūc"
           ]
         },
         "important": {
           "blue": [
-            "donnern",
-            "donnert"
+            "donnern"
           ],
           "red": [
             "Donner"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "dopen",
@@ -5119,12 +4908,7 @@ const B2_WORDS = [
             "izgarojumi",
             "tvans",
             "migla",
-            "dūmaka",
-            "izgarojumiem",
-            "dūmakā"
-          ],
-          "red": [
-            "Nebel"
+            "dūmaka"
           ]
         },
         "examples": [
@@ -5248,13 +5032,8 @@ const B2_WORDS = [
           ],
           "purple": [
             "tvaiks",
-            "garaiņi",
-            "izgarojumi",
-            "tvans",
             "migla",
-            "dūmaka",
-            "izgarojumiem",
-            "dūmakā"
+            "dūmaka"
           ]
         },
         "important": {
@@ -5265,8 +5044,7 @@ const B2_WORDS = [
             "Nebel"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "durcharbeiten",
@@ -5676,9 +5454,7 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "eigenwillig",
-            "eigenwillige",
-            "eigenwilliges"
+            "eigenwillig"
           ],
           "purple": [
             "patvaļīgs",
@@ -5686,9 +5462,6 @@ const B2_WORDS = [
             "stūrgalvīgs",
             "patvarīgs",
             "Ietiepīgs"
-          ],
-          "red": [
-            "stur"
           ]
         },
         "examples": [
@@ -5784,30 +5557,15 @@ const B2_WORDS = [
         ],
         "tip": {
           "blue": [
-            "eigenwillig",
-            "eigenwillige",
-            "eigenwilliges"
-          ],
-          "purple": [
-            "patvaļīgs",
-            "ietiepīgs",
-            "stūrgalvīgs",
-            "patvarīgs",
-            "Ietiepīgs"
+            "eigenwillig"
           ]
         },
         "important": {
           "blue": [
-            "eigenwillig",
-            "eigenwillige",
-            "eigenwilliges"
-          ],
-          "red": [
-            "stur"
+            "eigenwillig"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Eilbote",
@@ -7710,19 +7468,13 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "fleckig",
-            "fleckiges"
+            "fleckig"
           ],
           "purple": [
             "traipains",
-            "notraipīts",
             "plankumains",
             "lāsains",
-            "raibs",
-            "plankumaina"
-          ],
-          "red": [
-            "bunt"
+            "raibs"
           ]
         },
         "examples": [
@@ -7830,29 +7582,18 @@ const B2_WORDS = [
         ],
         "tip": {
           "blue": [
-            "fleckig",
-            "fleckiges"
-          ],
-          "purple": [
-            "traipains",
-            "notraipīts",
-            "plankumains",
-            "lāsains",
-            "raibs",
-            "plankumaina"
+            "fleckig"
           ]
         },
         "important": {
           "blue": [
-            "fleckig",
-            "fleckiges"
+            "fleckig"
           ],
           "red": [
             "bunt"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "fliederfarben",
@@ -8127,9 +7868,6 @@ const B2_WORDS = [
             "tūlītējs",
             "bez uzteikuma termiņa",
             "tūlītēju"
-          ],
-          "red": [
-            "sofort"
           ]
         },
         "examples": [
@@ -8201,27 +7939,16 @@ const B2_WORDS = [
         "tip": {
           "blue": [
             "fristlos",
-            "fristlose",
             "Fristlos"
-          ],
-          "purple": [
-            "tūlītējs",
-            "bez uzteikuma termiņa",
-            "tūlītēju"
           ]
         },
         "important": {
           "blue": [
             "fristlos",
-            "fristlose",
             "Fristlos"
-          ],
-          "red": [
-            "sofort"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "fromm",
@@ -8703,9 +8430,6 @@ const B2_WORDS = [
             "omā",
             "labā omā",
             "sliktā omā"
-          ],
-          "red": [
-            "gut drauf"
           ]
         },
         "examples": [
@@ -8790,25 +8514,14 @@ const B2_WORDS = [
             "gelaunt",
             "gut gelaunt",
             "schlecht gelaunt"
-          ],
-          "purple": [
-            "omā",
-            "labā omā",
-            "sliktā omā"
           ]
         },
         "important": {
           "blue": [
-            "gelaunt",
-            "gut gelaunt",
-            "schlecht gelaunt"
-          ],
-          "red": [
-            "gut drauf"
+            "gelaunt"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Geldbuße",
@@ -9546,9 +9259,6 @@ const B2_WORDS = [
             "kvēle",
             "liels karstums",
             "karstums"
-          ],
-          "red": [
-            "Hitze"
           ]
         },
         "examples": [
@@ -9633,12 +9343,6 @@ const B2_WORDS = [
         "tip": {
           "blue": [
             "Glut"
-          ],
-          "purple": [
-            "svelme",
-            "kvēle",
-            "liels karstums",
-            "karstums"
           ]
         },
         "important": {
@@ -9649,8 +9353,7 @@ const B2_WORDS = [
             "Hitze"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Gnade",
@@ -9693,13 +9396,8 @@ const B2_WORDS = [
             "Gnade"
           ],
           "purple": [
-            "žēlastība",
-            "apžēlošana",
             "žēlastību",
             "apžēlošanu"
-          ],
-          "red": [
-            "Mitleid"
           ]
         },
         "examples": [
@@ -9771,12 +9469,6 @@ const B2_WORDS = [
         "tip": {
           "blue": [
             "Gnade"
-          ],
-          "purple": [
-            "žēlastība",
-            "apžēlošana",
-            "žēlastību",
-            "apžēlošanu"
           ]
         },
         "important": {
@@ -9787,8 +9479,7 @@ const B2_WORDS = [
             "Mitleid"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Gnadenbrot",
@@ -10725,11 +10416,7 @@ const B2_WORDS = [
             "trenkāt",
             "Rīdīt",
             "Kūdīt",
-            "vajā",
             "Trenkāt"
-          ],
-          "red": [
-            "jagen"
           ]
         },
         "examples": [
@@ -10824,30 +10511,20 @@ const B2_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "hetzen"
-          ],
           "purple": [
             "rīdīt",
-            "kūdīt",
             "vajāt",
             "trenkāt",
             "Rīdīt",
-            "Kūdīt",
-            "vajā",
             "Trenkāt"
           ]
         },
         "important": {
           "blue": [
             "hetzen"
-          ],
-          "red": [
-            "jagen"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "heucheln",
@@ -10956,9 +10633,6 @@ const B2_WORDS = [
           "purple": [
             "ziņa",
             "ziņā"
-          ],
-          "red": [
-            "Nachricht"
           ]
         },
         "examples": [
@@ -11031,7 +10705,6 @@ const B2_WORDS = [
             "Hinsicht"
           ],
           "purple": [
-            "ziņa",
             "ziņā"
           ]
         },
@@ -11043,8 +10716,7 @@ const B2_WORDS = [
             "Nachricht"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "hinsichtlich",
@@ -13033,18 +12705,13 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "nachträglich",
-            "nachträgliche"
+            "nachträglich"
           ],
           "purple": [
             "vēlāks",
             "papildu",
             "vēlāk",
-            "Vēlāks",
-            "pagājušajā"
-          ],
-          "red": [
-            "später"
+            "Vēlāks"
           ]
         },
         "examples": [
@@ -13140,28 +12807,18 @@ const B2_WORDS = [
         ],
         "tip": {
           "blue": [
-            "nachträglich",
-            "nachträgliche"
-          ],
-          "purple": [
-            "vēlāks",
-            "papildu",
-            "vēlāk",
-            "Vēlāks",
-            "pagājušajā"
+            "nachträglich"
           ]
         },
         "important": {
           "blue": [
-            "nachträglich",
-            "nachträgliche"
+            "nachträglich"
           ],
           "red": [
             "später"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Nachweis",
@@ -15559,15 +15216,11 @@ const B2_WORDS = [
             "sprengen"
           ],
           "purple": [
-            "spridzināt",
             "apslacīt",
             "laistīt",
             "Uzspridzināt",
             "Apslacīt",
             "Laistīt"
-          ],
-          "red": [
-            "gießen"
           ]
         },
         "examples": [
@@ -15650,16 +15303,8 @@ const B2_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "sprengen"
-          ],
           "purple": [
-            "spridzināt",
-            "apslacīt",
-            "laistīt",
-            "Uzspridzināt",
-            "Apslacīt",
-            "Laistīt"
+            "spridzināt"
           ]
         },
         "important": {
@@ -15670,8 +15315,7 @@ const B2_WORDS = [
             "gießen"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Sprengstoff",
@@ -16239,7 +15883,6 @@ const B2_WORDS = [
             "überbringen"
           ],
           "purple": [
-            "nodot ziņu",
             "apsveikumu",
             "vēstuli",
             "dāvanu",
@@ -16344,14 +15987,6 @@ const B2_WORDS = [
         "tip": {
           "blue": [
             "überbringen"
-          ],
-          "purple": [
-            "nodot ziņu",
-            "apsveikumu",
-            "vēstuli",
-            "dāvanu",
-            "Nodot",
-            "Nogādāt"
           ]
         },
         "important": {
@@ -16362,8 +15997,7 @@ const B2_WORDS = [
             "bringen"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Übereinkommen",
@@ -16868,19 +16502,9 @@ const B2_WORDS = [
           ],
           "purple": [
             "paliekamais",
-            "paklājs",
             "paliktnis",
             "balsts",
-            "dati",
-            "dokumentācija",
-            "paliekamo",
-            "Paklājs",
-            "paliktņa",
-            "Dokumentos",
-            "dokumentācijas"
-          ],
-          "red": [
-            "Dokument"
+            "dokumentācija"
           ]
         },
         "examples": [
@@ -17000,34 +16624,16 @@ const B2_WORDS = [
         ],
         "tip": {
           "blue": [
-            "Unterlage",
             "Unterlagen"
-          ],
-          "purple": [
-            "paliekamais",
-            "paklājs",
-            "paliktnis",
-            "balsts",
-            "dati",
-            "dokumentācija",
-            "paliekamo",
-            "Paklājs",
-            "paliktņa",
-            "Dokumentos",
-            "dokumentācijas"
           ]
         },
         "important": {
           "blue": [
             "Unterlage",
             "Unterlagen"
-          ],
-          "red": [
-            "Dokument"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "unterlassen",
@@ -17334,19 +16940,14 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "verfügen",
-            "verfügt"
+            "verfügen"
           ],
           "purple": [
             "noteikt",
             "pavēlēt",
             "norīkot",
             "nosaka",
-            "pavēl",
-            "norīko"
-          ],
-          "red": [
-            "anordnen"
+            "pavēl"
           ]
         },
         "examples": [
@@ -17430,29 +17031,18 @@ const B2_WORDS = [
         ],
         "tip": {
           "blue": [
-            "verfügen",
-            "verfügt"
+            "verfügen"
           ],
           "purple": [
-            "noteikt",
-            "pavēlēt",
-            "norīkot",
-            "nosaka",
-            "pavēl",
-            "norīko"
+            "nosaka"
           ]
         },
         "important": {
           "blue": [
-            "verfügen",
-            "verfügt"
-          ],
-          "red": [
-            "anordnen"
+            "verfügen"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Verfügung",
@@ -17751,17 +17341,7 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich versehen",
-            "habe mich versehen",
-            "habe ich mich wohl versehen"
-          ],
-          "purple": [
-            "pārskatīties",
-            "pārskatījos",
-            "pārskatījies"
-          ],
-          "red": [
-            "vergessen"
+            "sich versehen"
           ]
         },
         "examples": [
@@ -17831,28 +17411,18 @@ const B2_WORDS = [
         ],
         "tip": {
           "blue": [
-            "sich versehen",
-            "habe mich versehen",
-            "habe ich mich wohl versehen"
-          ],
-          "purple": [
-            "pārskatīties",
-            "pārskatījos",
-            "pārskatījies"
+            "sich versehen"
           ]
         },
         "important": {
           "blue": [
-            "sich versehen",
-            "habe mich versehen",
-            "habe ich mich wohl versehen"
+            "sich versehen"
           ],
           "red": [
             "vergessen"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "versetzen",
@@ -18716,9 +18286,6 @@ const B2_WORDS = [
             "radījums",
             "būtība",
             "raksturs"
-          ],
-          "red": [
-            "Charakter"
           ]
         },
         "examples": [
@@ -18813,12 +18380,7 @@ const B2_WORDS = [
           }
         ],
         "tip": {
-          "blue": [
-            "Wesen"
-          ],
           "purple": [
-            "būtne",
-            "radījums",
             "būtība",
             "raksturs"
           ]
@@ -18826,13 +18388,9 @@ const B2_WORDS = [
         "important": {
           "blue": [
             "Wesen"
-          ],
-          "red": [
-            "Charakter"
           ]
         }
-      }
-    }
+      }}
   },
   {
     "de": "Wettlauf",
