@@ -61378,11 +61378,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verlaufen",
-    "lv": "Norisināties",
-    "level": "B1"
-  },
-  {
     "de": "verlegen",
     "lv": "Pārcelt",
     "level": "B1",

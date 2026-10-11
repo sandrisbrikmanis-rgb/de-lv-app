@@ -15108,7 +15108,7 @@ const B1_WORDS = [
   },
   {
     "de": "dritt",
-    "lv": "treškārt",
+    "lv": "trešais • trijatā",
     "level": "B1"
   },
   {
@@ -36441,7 +36441,7 @@ const B1_WORDS = [
     "de": "Kollegbuch",
     "de_article": "das",
     "de_plural": "die Kollegbuche",
-    "lv": "studenta atzīmju grāmatiņa",
+    "lv": "lekciju pierakstu klade",
     "level": "B1"
   },
   {
@@ -45227,7 +45227,7 @@ const B1_WORDS = [
     "de": "Pendelbus",
     "de_article": "der",
     "de_plural": "die Pendelbuse",
-    "lv": "piepilsētas autobuss",
+    "lv": "šatlbuss • pārvadājumu autobuss",
     "level": "B1"
   },
   {
@@ -47548,12 +47548,12 @@ const B1_WORDS = [
   },
   {
     "de": "regeln",
-    "lv": "kārtot",
+    "lv": "kārtot • regulēt",
     "level": "B1",
     "study": {
       "id": "b1-regeln",
       "layout": "standardStudy",
-      "translation": "kārtot",
+      "translation": "kārtot • regulēt",
       "explanation": "Galvenā doma: regeln nozīmē nokārtot jautājumu vai sakārtot procesu. Tehniski tas var nozīmēt arī regulēt.",
       "examples": [
         {
@@ -51728,7 +51728,7 @@ const B1_WORDS = [
   },
   {
     "de": "schütten",
-    "lv": "[sa]bērt",
+    "lv": "[sa]bērt • liet",
     "level": "B1"
   },
   {
@@ -52168,7 +52168,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwindeln",
-    "lv": "reibt",
+    "lv": "reibt • melot • mānīties",
     "level": "B1"
   },
   {
@@ -61382,11 +61382,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verlaufen",
-    "lv": "norisināties",
-    "level": "B1"
-  },
-  {
     "de": "verlegen",
     "lv": "pārcelt",
     "level": "B1",
@@ -66391,17 +66386,17 @@ const B1_WORDS = [
   },
   {
     "de": "da",
-    "lv": "jo • par cik",
+    "lv": "jo • tā kā",
     "level": "B1",
     "study": {
       "id": "b1-da",
       "layout": "standardStudy",
-      "translation": "jo • par cik",
+      "translation": "jo • tā kā",
       "explanation": [
         "Galvenā doma: Iemesla saiklis, kad iemesls jau ir zināms vai minēts. Pēc da darbības vārds ir teikuma beigās.",
         "da galvenokārt nozīmē: paskaidro zināmu iemeslu.",
         "Bieži raksturo: iemesls jau minēts.",
-        "da kā saikne nozīmē jo/par cik, kad iemesls jau ir zināms vai minēts iepriekš.",
+        "da kā saikne nozīmē jo/tā kā, kad iemesls jau ir zināms vai minēts iepriekš.",
         "Abi prasa darbības vārdu teikuma beigās."
       ],
       "examples": [
@@ -66443,7 +66438,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "jo",
-            "par cik"
+            "tā kā"
           ],
           "blue": [
             "da"

@@ -2724,7 +2724,7 @@ const A2_WORDS = [
   },
   {
     "de": "ändern",
-    "lv": "mainīt • izmainīt",
+    "lv": "mainīt • pārgrozīt • pārtaisīt • mainīties • pārmainīties • pārgrozīties",
     "level": "A2"
   },
   {
@@ -38759,7 +38759,7 @@ const A2_WORDS = [
     "de": "Kaffeepulver",
     "de_article": "das",
     "de_plural": "die Kaffeepulver",
-    "lv": "šķīstošā kafija",
+    "lv": "maltā kafija",
     "level": "A2"
   },
   {
@@ -46171,7 +46171,7 @@ const A2_WORDS = [
     "de": "Nationalität",
     "de_article": "die",
     "de_plural": "die Nationalitäten",
-    "lv": "tautība",
+    "lv": "tautība • nacionalitāte",
     "level": "A2"
   },
   {
@@ -68559,7 +68559,7 @@ const A2_WORDS = [
   },
   {
     "de": "zuletzt",
-    "lv": "beidzot",
+    "lv": "beidzot • pēdējoreiz",
     "level": "A2"
   },
   {

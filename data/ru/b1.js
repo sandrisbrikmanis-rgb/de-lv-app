@@ -54252,11 +54252,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verlaufen",
-    "lv": "Иметь место",
-    "level": "B1"
-  },
-  {
     "de": "verlegen",
     "lv": "Двигаться",
     "level": "B1",

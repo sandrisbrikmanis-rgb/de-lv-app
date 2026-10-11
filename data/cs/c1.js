@@ -792,12 +792,12 @@ const C1_WORDS = [
     "de": "Partei",
     "de_article": "die",
     "de_plural": "die Parteien",
-    "lv": "Večírek • Večírek",
+    "lv": "Politická strana • Smluvní strana",
     "level": "C1",
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "Politická strana • Strana",
+      "translation": "Politická strana • Smluvní strana",
       "explanation": "Hlavní myšlenka: die Partei je obvykle politická strana. V právním nebo konfliktním kontextu může znamenat také stranu.",
       "examples": [
         {
@@ -1624,7 +1624,7 @@ const C1_WORDS = [
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "Podjatost • Rozpaky",
+    "lv": "Rozpaky • Ostýchavost",
     "level": "C1"
   },
   {
@@ -1720,7 +1720,7 @@ const C1_WORDS = [
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "Povolání • Odvolání • Jmenování",
+    "lv": "Povolání • Odvolání se",
     "level": "C1"
   },
   {
@@ -2235,7 +2235,7 @@ const C1_WORDS = [
   },
   {
     "de": "festgesetzt",
-    "lv": "Určený • Stanovený • Zadržený",
+    "lv": "Určený • Pevně daný",
     "level": "C1"
   },
   {
@@ -2435,12 +2435,12 @@ const C1_WORDS = [
   },
   {
     "de": "gelegentlich",
-    "lv": "Někdy • Příležitost • Kvůli",
+    "lv": "Někdy • Příležitostný • Při příležitosti",
     "level": "C1",
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "Občas • Příležitostný • U příležitosti",
+      "translation": "Někdy • Příležitostný • Při příležitosti",
       "explanation": "Hlavní myšlenka: gelegentlich má tři funkce. Jako přídavné jméno znamená příležitostný (ein gelegentlicher Besuch). Jako příslovce znamená občas, někdy (Er kommt gelegentlich). V předložkovém užití s genitivem znamená u příležitosti (gelegentlich des Festes).",
       "examples": [
         {
@@ -2564,7 +2564,7 @@ const C1_WORDS = [
     "de": "Gemütsmensch",
     "de_article": "der",
     "de_plural": "die Gemütsmenschen",
-    "lv": "Citově založený • Dobrosrdečný člověk",
+    "lv": "Dobrosrdečný člověk",
     "level": "C1"
   },
   {
@@ -3562,7 +3562,7 @@ const C1_WORDS = [
   },
   {
     "de": "verabschieden",
-    "lv": "Rozloučit se • Propustit • Schválit",
+    "lv": "Rozloučit se",
     "level": "C1"
   },
   {
@@ -3994,7 +3994,7 @@ const C1_WORDS = [
     "de": "Zuschlag",
     "de_article": "der",
     "de_plural": "die Zuschläge",
-    "lv": "Prémie • Přirážka",
+    "lv": "Příplatek • Přirážka",
     "level": "C1",
     "study": {
       "id": "c1-zuschlag",

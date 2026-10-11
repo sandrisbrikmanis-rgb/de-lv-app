@@ -61375,11 +61375,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verlaufen",
-    "lv": "Toimuma",
-    "level": "B1"
-  },
-  {
     "de": "verlegen",
     "lv": "Edasi lükkama",
     "level": "B1",

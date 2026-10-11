@@ -67182,11 +67182,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verlaufen",
-    "lv": "ära eksima",
-    "level": "B1"
-  },
-  {
     "de": "verlegen",
     "lv": "edasi lükkama",
     "level": "B1",

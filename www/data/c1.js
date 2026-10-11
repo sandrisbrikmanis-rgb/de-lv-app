@@ -1720,7 +1720,7 @@ const C1_WORDS = [
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "aicinājums • tieksme • atsaukšanās",
+    "lv": "aicinājums • atsaukšanās",
     "level": "C1"
   },
   {
@@ -2235,7 +2235,7 @@ const C1_WORDS = [
   },
   {
     "de": "festgesetzt",
-    "lv": "noteikts • nosacīts • nolikts",
+    "lv": "noteikts • nolikts",
     "level": "C1"
   },
   {
@@ -3562,7 +3562,7 @@ const C1_WORDS = [
   },
   {
     "de": "verabschieden",
-    "lv": "atbrīvot no darba • aizlaist pensijā",
+    "lv": "atvadīties",
     "level": "C1"
   },
   {

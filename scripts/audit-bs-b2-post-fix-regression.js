@@ -38,7 +38,7 @@ const MAX_RETRIES = 3;
 const EXPECTED_SCOPE = 947;
 
 const CACHE_COLLISION_CARDS = new Set(["b2-sich-abfinden", "b2-sich-versoehnen"]);
-const SECTION_ACCENT_CARDS = new Set(["b2-haube", "b2-aendern", "b2-wechseln", "b2-foerdern"]);
+const SECTION_ACCENT_CARDS = new Set(["b2-haube", "b2-wechseln", "b2-foerdern"]);
 
 const NATIVE_KEYS = new Set([
   "translation", "title", "subtitle", "lead", "meaning", "describes",
