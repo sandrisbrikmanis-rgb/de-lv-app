@@ -203,7 +203,7 @@ const A2_WORDS = [
         {
           "word": "abfahren",
           "meaning": "Odjet / odjíždět / vyrazit",
-          "example": "Der Zug fährt ab. = Vilciens atiet."
+          "example": "Der Zug fährt ab. = Vlak odjíždí."
         },
         {
           "word": "wegfahren",
@@ -223,7 +223,7 @@ const A2_WORDS = [
         {
           "word": "fahren",
           "meaning": "Jet • Jezdit",
-          "example": "Ich fahre mit dem Zug. = Es braucu ar vilcienu."
+          "example": "Ich fahre mit dem Zug. = Jedu vlakem."
         }
       ],
       "tip": {
@@ -446,7 +446,7 @@ const A2_WORDS = [
         {
           "word": "abgeben",
           "meaning": "Předat nebo odevzdat jiné osobě či na určitém místě",
-          "example": "Ich gebe den Antrag ab. = Es iesniedzu pieteikumu."
+          "example": "Ich gebe den Antrag ab. = Odevzdávám žádost."
         },
         {
           "word": "geben",
@@ -461,7 +461,7 @@ const A2_WORDS = [
         {
           "word": "einreichen",
           "meaning": "Oficiálně předložit",
-          "example": "Ich reiche die Unterlagen ein. = Es iesniedzu dokumentus."
+          "example": "Ich reiche die Unterlagen ein. = Předkládám dokumenty."
         },
         {
           "word": "verkaufen",
@@ -471,7 +471,7 @@ const A2_WORDS = [
         {
           "word": "ausstrahlen",
           "meaning": "Vyzařovat",
-          "example": "Die Lampe strahlt Wärme aus. = Lampa izstaro siltumu."
+          "example": "Die Lampe strahlt Wärme aus. = Lampa vyzařuje teplo."
         }
       ],
       "tip": {
@@ -1229,12 +1229,12 @@ const A2_WORDS = [
         {
           "word": "schließen",
           "meaning": "Zavřít",
-          "example": "Ich schließe die Tür. = Es aizveru durvis."
+          "example": "Ich schließe die Tür. = Zavírám dveře."
         },
         {
           "word": "beenden",
           "meaning": "Dokončit",
-          "example": "Ich beende die Arbeit. = Es pabeidzu darbu."
+          "example": "Ich beende die Arbeit. = Dokončuji práci."
         },
         {
           "word": "unterschreiben",
@@ -1427,7 +1427,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Monteur stellt das Wasser ab.",
-          "lv": "Mistr vypne vodu."
+          "lv": "Montér vypne vodu."
         },
         {
           "de": "Wegen unbezahlter Rechnungen wurde der Strom abgestellt.",
@@ -2023,12 +2023,12 @@ const A2_WORDS = [
         {
           "word": "verwenden",
           "meaning": "Používat",
-          "example": "Ich verwende diese Methode. = Es izmantoju šo metodi."
+          "example": "Ich verwende diese Methode. = Používám tuto metodu."
         },
         {
           "word": "anwenden",
           "meaning": "Uplatnit",
-          "example": "Ich wende die Regel an. = Es pielietoju noteikumu."
+          "example": "Ich wende die Regel an. = Uplatňuji toto pravidlo."
         }
       ],
       "tip": {
@@ -2321,7 +2321,7 @@ const A2_WORDS = [
         {
           "word": "der Anhänger",
           "meaning": "Přívěs / podporovatel / přívěsek",
-          "example": "Der Anhänger ist schwer. = Piekabe ir smaga."
+          "example": "Der Anhänger ist schwer. = Přívěs je těžký."
         },
         {
           "word": "der Fan",
@@ -2438,7 +2438,7 @@ const A2_WORDS = [
         {
           "word": "anzünden",
           "meaning": "Zapálit",
-          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
+          "example": "Ich zünde die Kerze an. = Zapaluji svíčku."
         },
         {
           "word": "verschärfen",
@@ -2578,7 +2578,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sie legt einen Verband an.",
-          "lv": "Aplikuje obvaz."
+          "lv": "Přikládá obvaz."
         },
         {
           "de": "Wir legen eine Datei an.",
@@ -2593,7 +2593,7 @@ const A2_WORDS = [
         {
           "word": "anlegen",
           "meaning": "Nasadit / investovat / vytvořit",
-          "example": "Ich lege Geld an. = Es ieguldu naudu."
+          "example": "Ich lege Geld an. = Investuji peníze."
         },
         {
           "word": "legen",
@@ -2603,12 +2603,12 @@ const A2_WORDS = [
         {
           "word": "investieren",
           "meaning": "Investovat",
-          "example": "Ich investiere Geld. = Es ieguldu naudu."
+          "example": "Ich investiere Geld. = Investuji peníze."
         },
         {
           "word": "erstellen",
           "meaning": "Vytvořit",
-          "example": "Ich erstelle ein Konto. = Es izveidoju kontu."
+          "example": "Ich erstelle ein Konto. = Vytvářím účet."
         }
       ],
       "tip": {
@@ -2816,7 +2816,7 @@ const A2_WORDS = [
         {
           "word": "anmelden",
           "meaning": "Přihlásit / zaregistrovat / zapsat",
-          "example": "Ich melde mich an. = Es piesakos."
+          "example": "Ich melde mich an. = Přihlašuji se."
         },
         {
           "word": "sich anmelden",
@@ -3080,7 +3080,7 @@ const A2_WORDS = [
         {
           "word": "anstecken",
           "meaning": "Připíchnout / zapálit / nakazit",
-          "example": "Ich stecke die Kerze an. = Es aizdedzinu sveci."
+          "example": "Ich stecke die Kerze an. = Zapaluji svíčku."
         },
         {
           "word": "stecken",
@@ -3090,7 +3090,7 @@ const A2_WORDS = [
         {
           "word": "anzünden",
           "meaning": "Zapálit",
-          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
+          "example": "Ich zünde die Kerze an. = Zapaluji svíčku."
         },
         {
           "word": "sich anstecken",
@@ -3880,7 +3880,7 @@ const A2_WORDS = [
         {
           "word": "der bestimmte Artikel",
           "meaning": "Určitý člen",
-          "example": "Der bestimmte Artikel ist „der“. = Noteiktais artikuls ir „der“."
+          "example": "Der bestimmte Artikel ist „der“. = Určitý člen je „der“."
         },
         {
           "word": "der Paragraph",
@@ -4285,7 +4285,7 @@ const A2_WORDS = [
         {
           "word": "behalten",
           "meaning": "Ponechat",
-          "example": "Ich behalte die Quittung. = Es paturu čeku."
+          "example": "Ich behalte die Quittung. = Ponechám si účtenku."
         }
       ],
       "tip": {
@@ -4705,7 +4705,7 @@ const A2_WORDS = [
         {
           "word": "die Voraussetzung",
           "meaning": "Předpoklad",
-          "example": "Das ist eine Voraussetzung. = Tas ir priekšnoteikums."
+          "example": "Das ist eine Voraussetzung. = To je předpoklad."
         }
       ],
       "tip": {
@@ -4871,12 +4871,12 @@ const A2_WORDS = [
         {
           "word": "die Aufnahme",
           "meaning": "Přijetí / nahrávka / fotografie",
-          "example": "Die Aufnahme ist gut. = Ieraksts ir labs."
+          "example": "Die Aufnahme ist gut. = Nahrávka je dobrá."
         },
         {
           "word": "das Foto",
           "meaning": "Fotografie / foto",
-          "example": "Das Foto ist schön. = Foto ir skaists."
+          "example": "Das Foto ist schön. = Fotografie je hezká."
         },
         {
           "word": "das Bild",
@@ -4886,7 +4886,7 @@ const A2_WORDS = [
         {
           "word": "die Aufzeichnung",
           "meaning": "Záznam",
-          "example": "Die Aufzeichnung ist lang. = Ieraksts ir garš."
+          "example": "Die Aufzeichnung ist lang. = Záznam je dlouhý."
         },
         {
           "word": "die Aufnahmeprüfung",
@@ -5040,7 +5040,7 @@ const A2_WORDS = [
         {
           "word": "aufnehmen",
           "meaning": "Nahrát / přijmout / obnovit",
-          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
+          "example": "Ich nehme ein Lied auf. = Nahrávám písničku."
         },
         {
           "word": "nehmen",
@@ -5760,17 +5760,17 @@ const A2_WORDS = [
         {
           "word": "aufrufen",
           "meaning": "Vyvolat / otevřít / vyzvat",
-          "example": "Ich rufe die Seite auf. = Es atveru lapu."
+          "example": "Ich rufe die Seite auf. = Otevírám stránku."
         },
         {
           "word": "rufen",
           "meaning": "Volat",
-          "example": "Ich rufe dich. = Es tevi saucu."
+          "example": "Ich rufe dich. = Volám tě."
         },
         {
           "word": "öffnen",
           "meaning": "Otevřít",
-          "example": "Ich öffne die Datei. = Es atveru failu."
+          "example": "Ich öffne die Datei. = Otevírám soubor."
         },
         {
           "word": "auffordern",
@@ -5952,7 +5952,7 @@ const A2_WORDS = [
         },
         {
           "de": "Trag den Kleber dünn auf.",
-          "lv": "Naneste lepidlo v tenké vrstvě."
+          "lv": "Nanes lepidlo v tenké vrstvě."
         }
       ],
       "comparison": [
@@ -6088,14 +6088,7 @@ const A2_WORDS = [
                 "Trag"
               ]
             },
-            "lv": {
-              "purple": [
-                "Naneste",
-                "Naneste",
-                "Naneste",
-                "Naneste"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -6717,7 +6710,7 @@ const A2_WORDS = [
         {
           "word": "aufwenden",
           "meaning": "Věnovat / vynaložit / investovat",
-          "example": "Ich wende viel Zeit auf. = Es veltu daudz laika."
+          "example": "Ich wende viel Zeit auf. = Věnuji tomu hodně času."
         },
         {
           "word": "ausgeben",
@@ -7053,7 +7046,7 @@ const A2_WORDS = [
         {
           "word": "aufzeichnen",
           "meaning": "Zaznamenat / zapsat",
-          "example": "Ich zeichne das Video auf. = Es ierakstu video."
+          "example": "Ich zeichne das Video auf. = Zaznamenávám video."
         },
         {
           "word": "zeichnen",
@@ -7063,12 +7056,12 @@ const A2_WORDS = [
         {
           "word": "notieren",
           "meaning": "Zapsat",
-          "example": "Ich notiere die Adresse. = Es pierakstu adresi."
+          "example": "Ich notiere die Adresse. = Zapisuji si adresu."
         },
         {
           "word": "aufnehmen",
           "meaning": "Nahrát / pořídit záznam",
-          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
+          "example": "Ich nehme ein Lied auf. = Nahrávám písničku."
         }
       ],
       "tip": {
@@ -7655,7 +7648,7 @@ const A2_WORDS = [
         {
           "word": "wählen",
           "meaning": "Vybrat / hlasovat",
-          "example": "Ich wähle eine Partei. = Es balsoju par partiju."
+          "example": "Ich wähle eine Partei. = Volím stranu."
         },
         {
           "word": "aussuchen",
@@ -8067,7 +8060,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich ziehe die Mütze aus.",
-          "lv": "Sundávám si klobouk."
+          "lv": "Sundávám si čepici."
         },
         {
           "de": "Nach der Arbeit ziehe ich den Anzug aus.",
@@ -8078,12 +8071,12 @@ const A2_WORDS = [
         {
           "word": "ausziehen",
           "meaning": "Svléknout / vystěhovat se",
-          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
+          "example": "Ich ziehe die Schuhe aus. = Zouvám si boty."
         },
         {
           "word": "anziehen",
           "meaning": "Obléknout / obléct",
-          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
+          "example": "Ich ziehe die Jacke an. = Oblékám si bundu."
         },
         {
           "word": "umziehen",
@@ -8562,7 +8555,7 @@ const A2_WORDS = [
         {
           "word": "die Bahn",
           "meaning": "Železnice / cestování vlakem",
-          "example": "Ich fahre mit der Bahn. = Es braucu ar vilcienu."
+          "example": "Ich fahre mit der Bahn. = Jedu vlakem."
         },
         {
           "word": "der Zug",
@@ -8572,7 +8565,7 @@ const A2_WORDS = [
         {
           "word": "die Straßenbahn",
           "meaning": "Tramvaj",
-          "example": "Die Straßenbahn hält hier. = Tramvajs pietur šeit."
+          "example": "Die Straßenbahn hält hier. = Tramvaj tu zastavuje."
         },
         {
           "word": "der Bahnhof",
@@ -8582,7 +8575,7 @@ const A2_WORDS = [
         {
           "word": "das Gleis",
           "meaning": "Kolej",
-          "example": "Der Zug fährt von Gleis 3. = Vilciens atiet no 3. perona."
+          "example": "Der Zug fährt von Gleis 3. = Vlak odjíždí z koleje 3."
         }
       ],
       "tip": {
@@ -9273,7 +9266,7 @@ const A2_WORDS = [
         {
           "word": "die Bank (Finanz)",
           "meaning": "Banka",
-          "example": "Ich gehe zur Bank. = Es eju uz banku. Plural: die Banken."
+          "example": "Ich gehe zur Bank. = Jdu do banky."
         },
         {
           "word": "die Bank (Sitzbank)",
@@ -10288,7 +10281,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte wirf den Pappbecher weg.",
-          "lv": "Prosím, vyhoďte kartonový kelímek."
+          "lv": "Prosím, vyhoď kartonový kelímek."
         },
         {
           "de": "Kinder trinken oft aus einem Becher.",
@@ -10555,7 +10548,7 @@ const A2_WORDS = [
         {
           "word": "benutzen",
           "meaning": "Použití",
-          "example": "Ich benutze mein Handy. = Es lietoju telefonu."
+          "example": "Ich benutze mein Handy. = Používám svůj mobil."
         },
         {
           "word": "helfen",
@@ -10899,7 +10892,7 @@ const A2_WORDS = [
         {
           "word": "der Service",
           "meaning": "Servis / servis",
-          "example": "Der Service ist gut. = Apkalpošana ir laba."
+          "example": "Der Service ist gut. = Servis je dobrý."
         },
         {
           "word": "das Personal",
@@ -11247,7 +11240,7 @@ const A2_WORDS = [
         {
           "word": "halten",
           "meaning": "Držet",
-          "example": "Ich halte die Tasche. = Es turu somu."
+          "example": "Ich halte die Tasche. = Držím tašku."
         },
         {
           "word": "sich merken",
@@ -11257,7 +11250,7 @@ const A2_WORDS = [
         {
           "word": "erinnern",
           "meaning": "Pamatovat si / připomínat",
-          "example": "Ich erinnere mich daran. = Es to atceros."
+          "example": "Ich erinnere mich daran. = Pamatuji si to."
         },
         {
           "word": "aufbewahren",
@@ -11620,12 +11613,12 @@ const A2_WORDS = [
         {
           "word": "knapp",
           "meaning": "Těsně / s malým rozdílem",
-          "example": "Das war knapp. = Tas bija knapi."
+          "example": "Das war knapp. = To bylo těsné."
         },
         {
           "word": "kaum",
           "meaning": "Sotva / sotva",
-          "example": "Ich kann kaum laufen. = Es tik tikko varu paiet."
+          "example": "Ich kann kaum laufen. = Sotva můžu chodit."
         },
         {
           "word": "gerade noch",
@@ -12443,7 +12436,7 @@ const A2_WORDS = [
         {
           "word": "grüßen",
           "meaning": "Pozdravit / předat pozdravy",
-          "example": "Grüß deine Mutter! = Pasveicini mammu!"
+          "example": "Grüß deine Mutter! = Pozdravuj maminku!"
         },
         {
           "word": "bearbeiten",
@@ -12764,12 +12757,12 @@ const A2_WORDS = [
         {
           "word": "bestimmt",
           "meaning": "Rozhodně / určený / konkrétní",
-          "example": "Das ist bestimmt richtig. = Tas noteikti ir pareizi."
+          "example": "Das ist bestimmt richtig. = To je určitě správně."
         },
         {
           "word": "sicher",
           "meaning": "Jistě / určitě",
-          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
+          "example": "Das ist sicher richtig. = To je jistě správně."
         },
         {
           "word": "konkret",
@@ -13162,7 +13155,7 @@ const A2_WORDS = [
         {
           "word": "die Lampe",
           "meaning": "Lampa",
-          "example": "Die Lampe ist hell. = Lampa ir spoža."
+          "example": "Die Lampe ist hell. = Lampa svítí jasně."
         },
         {
           "word": "das Obst",
@@ -13596,7 +13589,7 @@ const A2_WORDS = [
         {
           "word": "scharf",
           "meaning": "Ostrý / pikantní",
-          "example": "Die Suppe ist scharf. = Zupa ir asa."
+          "example": "Die Suppe ist scharf. = Polévka je ostrá."
         },
         {
           "word": "streng",
@@ -13990,7 +13983,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Glas fällt auf den Boden.",
-          "lv": "Sklo spadne na podlahu."
+          "lv": "Sklenice spadne na podlahu."
         },
         {
           "de": "Bitte leg die Tasche auf den Boden.",
@@ -14027,7 +14020,7 @@ const A2_WORDS = [
         {
           "word": "die Erde",
           "meaning": "Země / půda",
-          "example": "Die Erde ist trocken. = Zeme ir sausa."
+          "example": "Die Erde ist trocken. = Půda je suchá."
         },
         {
           "word": "der Grund",
@@ -14037,7 +14030,7 @@ const A2_WORDS = [
         {
           "word": "der Flaschenboden",
           "meaning": "Dno lahve",
-          "example": "Der Flaschenboden ist dick. = Pudeles dibens ir biezs."
+          "example": "Der Flaschenboden ist dick. = Dno lahve je silné."
         }
       ],
       "tip": {
@@ -14064,13 +14057,7 @@ const A2_WORDS = [
                 "Glas"
               ]
             },
-            "lv": {
-              "purple": [
-                "Sklo",
-                "Sklo",
-                "Sklo"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -14230,7 +14217,6 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "green": [],
               "yellow": [
                 "die Erde",
                 "trocken",
@@ -14425,7 +14411,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir borgen den Nachbarn die Leiter.",
-          "lv": "Půjčujeme sousedům žebříky."
+          "lv": "Půjčujeme sousedům žebřík."
         }
       ],
       "comparison": [
@@ -14442,7 +14428,7 @@ const A2_WORDS = [
         {
           "word": "geben",
           "meaning": "Dát",
-          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
+          "example": "Ich gebe dir Geld. = Dávám ti peníze."
         },
         {
           "word": "zurückgeben",
@@ -14773,7 +14759,7 @@ const A2_WORDS = [
         {
           "word": "schlecht",
           "meaning": "Špatný",
-          "example": "Das Wetter ist schlecht. = Laiks ir slikts."
+          "example": "Das Wetter ist schlecht. = Počasí je špatné."
         },
         {
           "word": "zornig",
@@ -14783,7 +14769,7 @@ const A2_WORDS = [
         {
           "word": "ärgerlich",
           "meaning": "Otravný / naštvaný",
-          "example": "Das ist ärgerlich. = Tas ir kaitinoši."
+          "example": "Das ist ärgerlich. = To je otravné."
         },
         {
           "word": "sauer",
@@ -15569,12 +15555,12 @@ const A2_WORDS = [
         {
           "word": "brennen",
           "meaning": "Hořet / pálit / palčivě bolet",
-          "example": "Das Feuer brennt. = Uguns deg."
+          "example": "Das Feuer brennt. = Oheň hoří."
         },
         {
           "word": "anzünden",
           "meaning": "Zapálit",
-          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
+          "example": "Ich zünde die Kerze an. = Zapaluji svíčku."
         },
         {
           "word": "verbrennen",
@@ -15589,7 +15575,7 @@ const A2_WORDS = [
         {
           "word": "aufnehmen",
           "meaning": "Nahrávat / zaznamenat",
-          "example": "Ich nehme ein Video auf. = Es ierakstu video."
+          "example": "Ich nehme ein Video auf. = Nahrávám video."
         }
       ],
       "tip": [
@@ -16053,7 +16039,7 @@ const A2_WORDS = [
         {
           "word": "dort",
           "meaning": "Tam",
-          "example": "Ich war dort. = Es biju tur."
+          "example": "Ich war dort. = Byl jsem tam."
         },
         {
           "word": "außerdem",
@@ -16391,7 +16377,7 @@ const A2_WORDS = [
         {
           "word": "dafür",
           "meaning": "Pro to / na to / zato",
-          "example": "Danke dafür. = Paldies par to."
+          "example": "Danke dafür. = Děkuji za to."
         },
         {
           "word": "darum",
@@ -16406,7 +16392,7 @@ const A2_WORDS = [
         {
           "word": "dagegen",
           "meaning": "Proti tomu",
-          "example": "Ich bin dagegen. = Es esmu pret to."
+          "example": "Ich bin dagegen. = Jsem proti tomu."
         },
         {
           "word": "für das",
@@ -16776,7 +16762,7 @@ const A2_WORDS = [
         {
           "word": "mit dem",
           "meaning": "S tou konkrétní věcí",
-          "example": "Ich schreibe mit dem Stift. = Es rakstu ar to pildspalvu."
+          "example": "Ich schreibe mit dem Stift. = Píšu tou tužkou."
         },
         {
           "word": "um ... zu",
@@ -17146,7 +17132,7 @@ const A2_WORDS = [
         {
           "word": "danken",
           "meaning": "Poděkovat",
-          "example": "Ich danke dir. = Es tev pateicos."
+          "example": "Ich danke dir. = Děkuji ti."
         },
         {
           "word": "Vielen Dank",
@@ -17156,7 +17142,7 @@ const A2_WORDS = [
         {
           "word": "bedanken (sich)",
           "meaning": "Formálně poděkovat",
-          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
+          "example": "Ich bedanke mich bei Ihnen. = Děkuji vám."
         }
       ],
       "tip": {
@@ -17519,7 +17505,7 @@ const A2_WORDS = [
         {
           "word": "darauf",
           "meaning": "Na to / na tom / poté",
-          "example": "Ich warte darauf. = Es gaidu uz to."
+          "example": "Ich warte darauf. = Čekám na to."
         },
         {
           "word": "auf das",
@@ -17848,7 +17834,7 @@ const A2_WORDS = [
         {
           "word": "darauf",
           "meaning": "Na to / na tom / potom",
-          "example": "Ich warte darauf. = Es gaidu uz to."
+          "example": "Ich warte darauf. = Čekám na to."
         },
         {
           "word": "davon",
@@ -18208,7 +18194,7 @@ const A2_WORDS = [
         {
           "word": "dafür",
           "meaning": "Za to / pro to / na to",
-          "example": "Danke dafür. = Paldies par to."
+          "example": "Danke dafür. = Děkuji za to."
         }
       ],
       "tip": {
@@ -18813,7 +18799,7 @@ const A2_WORDS = [
         {
           "word": "darauf",
           "meaning": "Na to / potom",
-          "example": "Ich warte darauf. = Es gaidu uz to."
+          "example": "Ich warte darauf. = Čekám na to."
         }
       ],
       "tip": [
@@ -19109,12 +19095,12 @@ const A2_WORDS = [
         {
           "word": "dazu",
           "meaning": "K tomu / k tomu / k tomu navíc / navíc",
-          "example": "Was sagst du dazu? = Ko tu par to saki?"
+          "example": "Was sagst du dazu? = Co ty na to říkáš?"
         },
         {
           "word": "dafür",
           "meaning": "Za to / pro to / na to",
-          "example": "Danke dafür. = Paldies par to."
+          "example": "Danke dafür. = Děkuji za to."
         },
         {
           "word": "dabei",
@@ -19407,7 +19393,7 @@ const A2_WORDS = [
         {
           "word": "die Decke",
           "meaning": "Přikrývka / strop",
-          "example": "Die Decke ist warm. = Sega ir silta."
+          "example": "Die Decke ist warm. = Přikrývka je teplá."
         },
         {
           "word": "die Bettdecke",
@@ -19417,12 +19403,12 @@ const A2_WORDS = [
         {
           "word": "die Zimmerdecke",
           "meaning": "Strop",
-          "example": "Die Zimmerdecke ist hoch. = Griesti ir augsti."
+          "example": "Die Zimmerdecke ist hoch. = Strop pokoje je vysoký."
         },
         {
           "word": "das Dach",
           "meaning": "Střecha",
-          "example": "Das Dach ist rot. = Jumts ir sarkans."
+          "example": "Das Dach ist rot. = Střecha je červená."
         },
         {
           "word": "die Wand",
@@ -19763,7 +19749,7 @@ const A2_WORDS = [
         {
           "word": "denn",
           "meaning": "Protože / částice v otázkách",
-          "example": "Was machst du denn? = Ko tad tu dari?"
+          "example": "Was machst du denn? = Co to vlastně děláš?"
         },
         {
           "word": "weil",
@@ -20090,7 +20076,7 @@ const A2_WORDS = [
         {
           "word": "fett",
           "meaning": "Tučný / mastný",
-          "example": "Das Essen ist fett. = Ēdiens ir trekns."
+          "example": "Das Essen ist fett. = Jídlo je mastné."
         },
         {
           "word": "dünn",
@@ -20100,7 +20086,7 @@ const A2_WORDS = [
         {
           "word": "breit",
           "meaning": "Široký",
-          "example": "Die Straße ist breit. = Iela ir plata."
+          "example": "Die Straße ist breit. = Ulice je široká."
         },
         {
           "word": "stark",
@@ -20439,7 +20425,7 @@ const A2_WORDS = [
         {
           "word": "aber",
           "meaning": "Ale",
-          "example": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
+          "example": "Ich will, aber ich kann nicht. = Chci, ale nemůžu."
         },
         {
           "word": "trotzdem",
@@ -20449,7 +20435,7 @@ const A2_WORDS = [
         {
           "word": "ja",
           "meaning": "Přece / vždyť, když mluvčí považuje něco za známé",
-          "example": "Du weißt ja. = Tu jau zini."
+          "example": "Du weißt ja. = Vždyť to víš."
         },
         {
           "word": "nein",
@@ -20867,7 +20853,7 @@ const A2_WORDS = [
         {
           "word": "der Titel",
           "meaning": "Titul",
-          "example": "Doktor ist ein Titel. = Doktors ir tituls."
+          "example": "Doktor ist ein Titel. = Doktor je titul."
         },
         {
           "word": "die Praxis",
@@ -21439,7 +21425,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Drück den Knopf!",
-          "lv": "Stiskněte tlačítko!"
+          "lv": "Stiskni tlačítko!"
         },
         {
           "de": "Bitte hier drücken.",
@@ -21473,11 +21459,7 @@ const A2_WORDS = [
                 "Drück"
               ]
             },
-            "lv": {
-              "purple": [
-                "Stiskněte"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -21683,7 +21665,7 @@ const A2_WORDS = [
         {
           "word": "schmal",
           "meaning": "Úzký",
-          "example": "Die Straße ist schmal. = Iela ir šaura."
+          "example": "Die Straße ist schmal. = Ulice je úzká."
         },
         {
           "word": "mager",
@@ -22213,7 +22195,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Boden ist eben.",
-          "lv": "Podlaha/zem je rovná."
+          "lv": "Podlaha je rovná."
         },
         {
           "de": "Die Straße ist eben.",
@@ -22263,7 +22245,7 @@ const A2_WORDS = [
         {
           "word": "flach",
           "meaning": "Plochý",
-          "example": "Das Land ist flach. = Zeme ir plakana."
+          "example": "Das Land ist flach. = Krajina je plochá."
         }
       ],
       "tip": {
@@ -22289,13 +22271,7 @@ const A2_WORDS = [
                 "eben"
               ]
             },
-            "lv": {
-              "purple": [
-                "Podlaha/zem",
-                "Podlaha/zem",
-                "Podlaha/zem"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -22655,7 +22631,7 @@ const A2_WORDS = [
         {
           "word": "aufrichtig",
           "meaning": "Opravdový / upřímný / otevřený",
-          "example": "Das war aufrichtig. = Tas bija patiesi."
+          "example": "Das war aufrichtig. = To bylo upřímné."
         },
         {
           "word": "nett",
@@ -22957,7 +22933,7 @@ const A2_WORDS = [
         {
           "word": "wahr",
           "meaning": "Pravdivý",
-          "example": "Das ist wahr. = Tas ir patiess."
+          "example": "Das ist wahr. = To je pravda."
         },
         {
           "word": "wirklich",
@@ -23281,7 +23257,7 @@ const A2_WORDS = [
         {
           "word": "einladen",
           "meaning": "Pozvat / naložit",
-          "example": "Ich lade dich ein. = Es tevi uzaicinu."
+          "example": "Ich lade dich ein. = Zvu tě."
         },
         {
           "word": "laden",
@@ -23291,7 +23267,7 @@ const A2_WORDS = [
         {
           "word": "besuchen",
           "meaning": "Navštívit / navštěvovat",
-          "example": "Ich besuche dich. = Es tevi apciemoju."
+          "example": "Ich besuche dich. = Navštěvuji tě."
         },
         {
           "word": "mitbringen",
@@ -23919,7 +23895,7 @@ const A2_WORDS = [
         {
           "word": "einschlafen",
           "meaning": "Usnout / znecitlivět",
-          "example": "Ich schlafe ein. = Es aizmiegu."
+          "example": "Ich schlafe ein. = Usínám."
         },
         {
           "word": "schlafen",
@@ -23929,7 +23905,7 @@ const A2_WORDS = [
         {
           "word": "aufwachen",
           "meaning": "Probudit se",
-          "example": "Ich wache früh auf. = Es pamostos agri."
+          "example": "Ich wache früh auf. = Brzy se probouzím."
         },
         {
           "word": "taub werden",
@@ -24239,7 +24215,7 @@ const A2_WORDS = [
         {
           "word": "mitmachen",
           "meaning": "Zúčastnit se",
-          "example": "Ich mache mit. = Es piedalos."
+          "example": "Ich mache mit. = Zúčastním se."
         }
       ],
       "tip": {
@@ -24554,12 +24530,12 @@ const A2_WORDS = [
         {
           "word": "der Eintritt",
           "meaning": "Vstup / vstupné / vstoupení",
-          "example": "Der Eintritt ist frei. = Ieeja ir bez maksas."
+          "example": "Der Eintritt ist frei. = Vstup je zdarma."
         },
         {
           "word": "der Eingang",
           "meaning": "Fyzický vstup",
-          "example": "Der Eingang ist links. = Ieeja ir pa kreisi."
+          "example": "Der Eingang ist links. = Vchod je vlevo."
         },
         {
           "word": "die Eintrittskarte",
@@ -24704,7 +24680,6 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "blue": [],
               "purple": [
                 "Der",
                 "Der"
@@ -24723,7 +24698,6 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "red": [],
               "purple": [
                 "Der"
               ]
@@ -25137,7 +25111,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sie erfährt die Wahrheit.",
-          "lv": "Se dozví pravdu."
+          "lv": "Dozví se pravdu."
         },
         {
           "de": "Wir haben viel Unterstützung erfahren.",
@@ -25436,12 +25410,12 @@ const A2_WORDS = [
         {
           "word": "sich erinnern",
           "meaning": "Pamatovat si",
-          "example": "Ich erinnere mich daran. = Es to atceros."
+          "example": "Ich erinnere mich daran. = Pamatuji si to."
         },
         {
           "word": "vergessen",
           "meaning": "Zapomenout",
-          "example": "Ich vergesse den Termin. = Es aizmirstu tikšanos."
+          "example": "Ich vergesse den Termin. = Zapomínám na termín."
         },
         {
           "word": "denken an",
@@ -25922,7 +25896,7 @@ const A2_WORDS = [
         {
           "word": "etwa?",
           "meaning": "Snad / copak / opravdu v otázkách",
-          "example": "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
+          "example": "Hast du das etwa vergessen? = Snad jsi na to nezapomněl?"
         },
         {
           "word": "vielleicht",
@@ -26875,7 +26849,7 @@ const A2_WORDS = [
         {
           "word": "der Gerichtsfall",
           "meaning": "Soudní případ",
-          "example": "Der Gerichtsfall dauert lange. = Tiesas lieta ilgst ilgi."
+          "example": "Der Gerichtsfall dauert lange. = Soudní případ trvá dlouho."
         }
       ],
       "tip": {
@@ -27361,7 +27335,7 @@ const A2_WORDS = [
         {
           "word": "brauchen",
           "meaning": "Potřebovat",
-          "example": "Ich brauche Geld. = Man vajag naudu."
+          "example": "Ich brauche Geld. = Potřebuji peníze."
         },
         {
           "word": "vermissen",
@@ -28080,7 +28054,7 @@ const A2_WORDS = [
         {
           "word": "das Feuer",
           "meaning": "Oheň / požár",
-          "example": "Das Feuer brennt. = Uguns deg."
+          "example": "Das Feuer brennt. = Oheň hoří."
         },
         {
           "word": "der Brand",
@@ -28090,7 +28064,7 @@ const A2_WORDS = [
         {
           "word": "die Flamme",
           "meaning": "Plamen",
-          "example": "Die Flamme ist klein. = Liesma ir maza."
+          "example": "Die Flamme ist klein. = Plamen je malý."
         },
         {
           "word": "die Feuerwehr",
@@ -28656,7 +28630,7 @@ const A2_WORDS = [
         {
           "word": "folgen",
           "meaning": "Následovat / vyplývat",
-          "example": "Ich folge dir. = Es tev sekoju."
+          "example": "Ich folge dir. = Následuji tě."
         },
         {
           "word": "verfolgen",
@@ -29924,7 +29898,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich habe gar kein Geld.",
-          "lv": "Nemám vůbec žádné peníze (žádné peníze)."
+          "lv": "Nemám vůbec žádné peníze."
         },
         {
           "de": "Er hat gar nichts gesagt.",
@@ -30483,7 +30457,7 @@ const A2_WORDS = [
         {
           "word": "gehören",
           "meaning": "Patřit / zapadnout",
-          "example": "Das gehört mir. = Tas pieder man."
+          "example": "Das gehört mir. = To patří mně."
         },
         {
           "word": "besitzen",
@@ -30493,12 +30467,12 @@ const A2_WORDS = [
         {
           "word": "passen",
           "meaning": "Hodit se / padnout",
-          "example": "Das passt gut. = Tas labi der."
+          "example": "Das passt gut. = To dobře padne."
         },
         {
           "word": "brauchen",
           "meaning": "Potřebovat",
-          "example": "Du brauchst Zeit. = Tev vajag laiku."
+          "example": "Du brauchst Zeit. = Potřebuješ čas."
         }
       ],
       "tip": {
@@ -30788,7 +30762,7 @@ const A2_WORDS = [
         {
           "word": "genau",
           "meaning": "Přesný / právě / přesně",
-          "example": "Das ist genau richtig. = Tas ir tieši pareizi."
+          "example": "Das ist genau richtig. = To je přesně správně."
         },
         {
           "word": "exakt",
@@ -30944,17 +30918,17 @@ const A2_WORDS = [
         {
           "word": "geradeaus",
           "meaning": "Přímo vpřed",
-          "example": "Gehen Sie geradeaus. = Ejiet taisni uz priekšu."
+          "example": "Gehen Sie geradeaus. = Jděte přímo vpřed."
         },
         {
           "word": "genau",
           "meaning": "Přesně / přímo",
-          "example": "Genau hier. = Tieši šeit."
+          "example": "Genau hier. = Přesně tady."
         },
         {
           "word": "eben",
           "meaning": "Právě / před chvílí",
-          "example": "Ich war eben dort. = Es tikko tur biju."
+          "example": "Ich war eben dort. = Právě jsem tam byl."
         }
       ],
       "tip": [
@@ -31284,24 +31258,24 @@ const A2_WORDS = [
         },
         {
           "de": "Sie hat viele Geschäfte in der Stadt.",
-          "lv": "Má ve městě mnoho obchodů • Má ve městě mnoho podniků"
+          "lv": "Má ve městě mnoho obchodů."
         }
       ],
       "comparison": [
         {
           "word": "das Geschäft",
           "meaning": "Obchod / společnost / transakce",
-          "example": "Ich gehe ins Geschäft. = Es eju uz veikalu."
+          "example": "Ich gehe ins Geschäft. = Jdu do obchodu."
         },
         {
           "word": "der Laden",
           "meaning": "Obchod",
-          "example": "Der Laden ist klein. = Veikals ir mazs."
+          "example": "Der Laden ist klein. = Obchod je malý."
         },
         {
           "word": "die Firma",
           "meaning": "Firma / společnost",
-          "example": "Die Firma ist groß. = Firma ir liela."
+          "example": "Die Firma ist groß. = Firma je velká."
         },
         {
           "word": "das Unternehmen",
@@ -31733,7 +31707,7 @@ const A2_WORDS = [
         {
           "word": "siegen",
           "meaning": "Vyhrát",
-          "example": "Die Mannschaft siegt. = Komanda uzvar."
+          "example": "Die Mannschaft siegt. = Mužstvo vítězí."
         },
         {
           "word": "bekommen",
@@ -32576,7 +32550,7 @@ const A2_WORDS = [
         {
           "word": "der Seegrund",
           "meaning": "Dno jezera",
-          "example": "Der Seegrund ist dunkel. = Ezera dibens ir tumšs."
+          "example": "Der Seegrund ist dunkel. = Dno jezera je tmavé."
         }
       ],
       "tip": {
@@ -32828,7 +32802,6 @@ const A2_WORDS = [
                 "seegrund",
                 "Der",
                 "dunkel",
-                "ezera",
                 "Der"
               ],
               "red": [
@@ -33127,7 +33100,7 @@ const A2_WORDS = [
         {
           "word": "stellen",
           "meaning": "Postavit vzpřímeně",
-          "example": "Ich stelle die Flasche auf den Tisch. = Es nolieku pudeli uz galda."
+          "example": "Ich stelle die Flasche auf den Tisch. = Stavím láhev na stůl."
         },
         {
           "word": "legen",
@@ -35570,7 +35543,7 @@ const A2_WORDS = [
         {
           "word": "gerade",
           "meaning": "Právě / aktuálně",
-          "example": "Ich bin gerade angekommen. = Es tikko ierados."
+          "example": "Ich bin gerade angekommen. = Právě jsem přijel."
         },
         {
           "word": "sobald",
@@ -36961,7 +36934,7 @@ const A2_WORDS = [
         {
           "word": "anziehen",
           "meaning": "Oblékat / obléknout",
-          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
+          "example": "Ich ziehe die Jacke an. = Oblékám si bundu."
         },
         {
           "word": "tragen",
@@ -37648,7 +37621,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Gesetz ist in Kraft.",
-          "lv": "Zákon je platný."
+          "lv": "Zákon je v platnosti."
         },
         {
           "de": "Sie ist eine gute Fachkraft.",
@@ -38782,7 +38755,7 @@ const A2_WORDS = [
         {
           "word": "nicht leiden können",
           "meaning": "Nemoci snést",
-          "example": "Ich kann das nicht leiden. = Es to nevaru paciest."
+          "example": "Ich kann das nicht leiden. = Nesnáším to."
         },
         {
           "word": "krank sein",
@@ -39083,7 +39056,7 @@ const A2_WORDS = [
         {
           "word": "leihen",
           "meaning": "Půjčit / vypůjčit",
-          "example": "Leihst du mir den Stift? = Vai aizdosi man pildspalvu?"
+          "example": "Leihst du mir den Stift? = Půjčíš mi tužku?"
         },
         {
           "word": "borgen",
@@ -39594,7 +39567,7 @@ const A2_WORDS = [
         {
           "word": "die Wasserleitung",
           "meaning": "Vodovodní potrubí",
-          "example": "Die Wasserleitung tropft. = Ūdens caurule pil."
+          "example": "Die Wasserleitung tropft. = Vodovodní potrubí kape."
         }
       ],
       "tip": {
@@ -40756,7 +40729,7 @@ const A2_WORDS = [
         {
           "word": "erinnern",
           "meaning": "Vzpomínat si / připomínat",
-          "example": "Ich erinnere mich. = Es atceros."
+          "example": "Ich erinnere mich. = Vzpomínám si."
         },
         {
           "word": "behalten",
@@ -41162,7 +41135,7 @@ const A2_WORDS = [
         {
           "word": "das Geld",
           "meaning": "Peníze",
-          "example": "Wir haben kein Geld. = Mums nav naudas."
+          "example": "Wir haben kein Geld. = Nemáme žádné peníze."
         },
         {
           "word": "die Mittel",
@@ -42183,12 +42156,12 @@ const A2_WORDS = [
         {
           "word": "die Banknote",
           "meaning": "Bankovka",
-          "example": "Die Banknote ist neu. = Banknote ir jauna."
+          "example": "Die Banknote ist neu. = Bankovka je nová."
         },
         {
           "word": "der Ton",
           "meaning": "Tón / zvuk",
-          "example": "Der Ton ist leise. = Tonis ir kluss."
+          "example": "Der Ton ist leise. = Zvuk je tichý."
         }
       ],
       "tip": {
@@ -42632,12 +42605,12 @@ const A2_WORDS = [
         {
           "word": "nutzen",
           "meaning": "Používat / těžit z",
-          "example": "Ich nutze die Zeit. = Es izmantoju laiku."
+          "example": "Ich nutze die Zeit. = Využívám čas."
         },
         {
           "word": "benutzen",
           "meaning": "Používat",
-          "example": "Ich benutze den Computer. = Es lietoju datoru."
+          "example": "Ich benutze den Computer. = Používám počítač."
         },
         {
           "word": "verwenden",
@@ -43595,7 +43568,7 @@ const A2_WORDS = [
         {
           "word": "der Patient",
           "meaning": "Pacient (muž)",
-          "example": "Der Patient ist krank. = Pacients ir slims."
+          "example": "Der Patient ist krank. = Pacient je nemocný."
         },
         {
           "word": "die Patientin",
@@ -45579,7 +45552,7 @@ const A2_WORDS = [
         },
         {
           "de": "Es riecht nach Kaffee.",
-          "lv": "Voní jako káva."
+          "lv": "Voní po kávě."
         },
         {
           "de": "Der Hund riecht an der Tasche.",
@@ -45602,12 +45575,12 @@ const A2_WORDS = [
         {
           "word": "riechen",
           "meaning": "Vonět",
-          "example": "Die Blumen riechen gut. = Ziedi labi smaržo."
+          "example": "Die Blumen riechen gut. = Květiny dobře voní."
         },
         {
           "word": "an etwas riechen",
           "meaning": "Čichat k něčemu",
-          "example": "Der Hund riecht an der Tasche. = Suns osta somu."
+          "example": "Der Hund riecht an der Tasche. = Pes čichá k tašce."
         },
         {
           "word": "nach etwas riechen",
@@ -45617,12 +45590,12 @@ const A2_WORDS = [
         {
           "word": "duften",
           "meaning": "Příjemně vonět",
-          "example": "Die Blumen duften. = Ziedi smaržo."
+          "example": "Die Blumen duften. = Květiny příjemně voní."
         },
         {
           "word": "stinken",
           "meaning": "Smrdět",
-          "example": "Der Müll stinkt. = Atkritumi smird."
+          "example": "Der Müll stinkt. = Odpadky smrdí."
         }
       ],
       "tip": [
@@ -45829,7 +45802,6 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "green": [],
               "purple": [
                 "Die"
               ]
@@ -46799,7 +46771,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Schreibe bitte einen deutschen Satz.",
-          "lv": "Napište prosím německou větu."
+          "lv": "Napiš prosím německou větu."
         },
         {
           "de": "Dieser Satz ist zu lang.",
@@ -46841,7 +46813,7 @@ const A2_WORDS = [
         {
           "word": "der Zinssatz",
           "meaning": "Úroková sazba",
-          "example": "Der Zinssatz steigt. = Procentu likme pieaug."
+          "example": "Der Zinssatz steigt. = Úroková sazba roste."
         },
         {
           "word": "der Kaffeesatz",
@@ -46874,14 +46846,7 @@ const A2_WORDS = [
                 "Satz"
               ]
             },
-            "lv": {
-              "purple": [
-                "Napište",
-                "Napište",
-                "Napište",
-                "Napište"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -47806,7 +47771,7 @@ const A2_WORDS = [
         {
           "word": "aussehen",
           "meaning": "Vypadat",
-          "example": "Du siehst müde aus. = Tu izskaties noguris."
+          "example": "Du siehst müde aus. = Vypadáš unaveně."
         },
         {
           "word": "wirken",
@@ -48182,7 +48147,7 @@ const A2_WORDS = [
         {
           "word": "die Schlange",
           "meaning": "Had / fronta",
-          "example": "Die Schlange ist lang. = Rinda ir gara."
+          "example": "Die Schlange ist lang. = Fronta je dlouhá."
         },
         {
           "word": "die Warteschlange",
@@ -48543,7 +48508,7 @@ const A2_WORDS = [
         {
           "word": "schließen",
           "meaning": "Zavřít / uzavřít / usoudit",
-          "example": "Ich schließe die Tür. = Es aizveru durvis."
+          "example": "Ich schließe die Tür. = Zavírám dveře."
         },
         {
           "word": "abschließen",
@@ -48553,7 +48518,7 @@ const A2_WORDS = [
         {
           "word": "zumachen",
           "meaning": "Zavřít (hovorově)",
-          "example": "Mach das Fenster zu. = Aiztaisi logu."
+          "example": "Mach das Fenster zu. = Zavři okno."
         },
         {
           "word": "folgern",
@@ -48686,8 +48651,7 @@ const A2_WORDS = [
             },
             "example": {
               "blue": [
-                "schließe",
-                "aizveru"
+                "schließe"
               ]
             }
           },
@@ -48900,7 +48864,7 @@ const A2_WORDS = [
         {
           "word": "das Schloss",
           "meaning": "Zámek / zámek",
-          "example": "Das Schloss ist alt. = Pils ir veca."
+          "example": "Das Schloss ist alt. = Zámek je starý."
         },
         {
           "word": "die Burg",
@@ -52372,7 +52336,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich stelle die Flasche hin.",
-          "lv": "Postavím láhev do svislé polohy."
+          "lv": "Postavím láhev."
         }
       ],
       "comparison": [
@@ -52902,12 +52866,12 @@ const A2_WORDS = [
         {
           "word": "der Ort",
           "meaning": "Místo / osada",
-          "example": "Der Ort ist schön. = Vieta ir skaista."
+          "example": "Der Ort ist schön. = Místo je krásné."
         },
         {
           "word": "der Arbeitsplatz",
           "meaning": "Pracoviště",
-          "example": "Mein Arbeitsplatz ist ruhig. = Mana darba vieta ir klusa."
+          "example": "Mein Arbeitsplatz ist ruhig. = Moje pracoviště je klidné."
         },
         {
           "word": "die Textstelle",
@@ -53738,7 +53702,7 @@ const A2_WORDS = [
         {
           "word": "das Thema",
           "meaning": "Téma",
-          "example": "Das Thema ist interessant. = Temats ir interesants."
+          "example": "Das Thema ist interessant. = Téma je zajímavé."
         }
       ],
       "tip": {
@@ -54236,7 +54200,7 @@ const A2_WORDS = [
         {
           "word": "die Speisekarte",
           "meaning": "Menu",
-          "example": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda."
+          "example": "Die Speisekarte liegt auf dem Tisch. = Menu leží na stole."
         },
         {
           "word": "das Schild",
@@ -54667,7 +54631,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das ist ein schönes Teil.",
-          "lv": "Je to krásný kus • Předmět"
+          "lv": "Je to krásný kus."
         },
         {
           "de": "Ein Teil davon ist richtig.",
@@ -55528,22 +55492,22 @@ const A2_WORDS = [
         {
           "word": "niedrig",
           "meaning": "Nízký z hlediska výšky nebo čísla",
-          "example": "Das Regal ist niedrig. = Plaukts ir zems."
+          "example": "Das Regal ist niedrig. = Police je nízká."
         },
         {
           "word": "hoch",
           "meaning": "Vysoký",
-          "example": "Der Berg ist hoch. = Kalns ir augsts."
+          "example": "Der Berg ist hoch. = Hora je vysoká."
         },
         {
           "word": "flach",
           "meaning": "Mělký / plochý",
-          "example": "Das Wasser ist flach. = Ūdens ir sekls."
+          "example": "Das Wasser ist flach. = Voda je mělká."
         },
         {
           "word": "leise",
           "meaning": "Tichý",
-          "example": "Die Stimme ist leise. = Balss ir klusa."
+          "example": "Die Stimme ist leise. = Hlas je tichý."
         }
       ],
       "tip": {
@@ -55899,7 +55863,7 @@ const A2_WORDS = [
         },
         {
           "de": "Du siehst toll aus.",
-          "lv": "Vypadáš cool"
+          "lv": "Vypadáš skvěle."
         },
         {
           "de": "Wir hatten einen tollen Urlaub.",
@@ -56136,12 +56100,12 @@ const A2_WORDS = [
         {
           "word": "tragen",
           "meaning": "Nést / nosit / mít na sobě",
-          "example": "Ich trage eine Tasche. = Es nesu somu."
+          "example": "Ich trage eine Tasche. = Nesu tašku."
         },
         {
           "word": "anziehen",
           "meaning": "Obléct si / oblékat",
-          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
+          "example": "Ich ziehe die Jacke an. = Oblékám si bundu."
         },
         {
           "word": "bringen",
@@ -56369,7 +56333,7 @@ const A2_WORDS = [
         {
           "word": "passen",
           "meaning": "Hodit se / vyhovovat",
-          "example": "Das passt. = Tas der."
+          "example": "Das passt. = To se hodí."
         }
       ],
       "tip": {
@@ -56827,7 +56791,7 @@ const A2_WORDS = [
         {
           "word": "übrig",
           "meaning": "Zbývající / zbylý",
-          "example": "Es ist Geld übrig. = Ir atlikusi nauda."
+          "example": "Es ist Geld übrig. = Zbývají peníze."
         },
         {
           "word": "übrig bleiben",
@@ -57181,7 +57145,7 @@ const A2_WORDS = [
         {
           "word": "üben",
           "meaning": "Cvičit",
-          "example": "Ich übe jeden Tag. = Es vingrinos katru dienu."
+          "example": "Ich übe jeden Tag. = Cvičím každý den."
         },
         {
           "word": "das Training",
@@ -57523,7 +57487,7 @@ const A2_WORDS = [
         {
           "word": "kostenlos",
           "meaning": "Zdarma",
-          "example": "Der Kurs ist kostenlos. = Kurss ir bez maksas."
+          "example": "Der Kurs ist kostenlos. = Kurz je zdarma."
         },
         {
           "word": "gratis",
@@ -58103,7 +58067,7 @@ const A2_WORDS = [
         {
           "word": "verbinden",
           "meaning": "Spojit / obvázat",
-          "example": "Die Brücke verbindet zwei Orte. = Tilts savieno divas vietas."
+          "example": "Die Brücke verbindet zwei Orte. = Most spojuje dvě místa."
         },
         {
           "word": "sich verbinden mit",
@@ -58113,7 +58077,7 @@ const A2_WORDS = [
         {
           "word": "binden",
           "meaning": "Vázat",
-          "example": "Ich binde die Schuhe. = Es sienu kurpes."
+          "example": "Ich binde die Schuhe. = Vážu si boty."
         },
         {
           "word": "anschließen",
@@ -58522,7 +58486,7 @@ const A2_WORDS = [
         {
           "word": "der Kontakt",
           "meaning": "Kontakt / komunikace",
-          "example": "Wir haben Kontakt mit Kunden. = Mums ir kontakti ar klientiem."
+          "example": "Wir haben Kontakt mit Kunden. = Jsme v kontaktu se zákazníky."
         },
         {
           "word": "die Bewegung",
@@ -59009,7 +58973,7 @@ const A2_WORDS = [
         {
           "word": "die Hälfte",
           "meaning": "Polovina",
-          "example": "Die Hälfte ist weg. = Puse ir prom."
+          "example": "Die Hälfte ist weg. = Polovina je pryč."
         },
         {
           "word": "das Drittel",
@@ -59019,7 +58983,7 @@ const A2_WORDS = [
         {
           "word": "der Stadtteil",
           "meaning": "Městská část / čtvrť",
-          "example": "Dieser Stadtteil ist schön. = Šis rajons ir skaists."
+          "example": "Dieser Stadtteil ist schön. = Tato čtvrť je krásná."
         },
         {
           "word": "das Quartier",
@@ -59885,7 +59849,7 @@ const A2_WORDS = [
         {
           "word": "der Waggon",
           "meaning": "Vagón (vlak)",
-          "example": "Der Waggon ist voll. = Vagons ir pilns."
+          "example": "Der Waggon ist voll. = Vagón je plný."
         },
         {
           "word": "das Auto",
@@ -59895,7 +59859,7 @@ const A2_WORDS = [
         {
           "word": "wagen (Verb)",
           "meaning": "Odvážit se",
-          "example": "Ich wage es nicht. = Es neuzdrošinos."
+          "example": "Ich wage es nicht. = Neodvažuji se."
         }
       ],
       "tip": {
@@ -60046,7 +60010,7 @@ const A2_WORDS = [
         {
           "word": "entscheiden",
           "meaning": "Rozhodnout",
-          "example": "Ich entscheide mich. = Es izlemju."
+          "example": "Ich entscheide mich. = Rozhoduji se."
         },
         {
           "word": "abstimmen",
@@ -60770,7 +60734,7 @@ const A2_WORDS = [
         {
           "word": "sicher",
           "meaning": "Jistě / určitě",
-          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
+          "example": "Das ist sicher richtig. = To je jistě správně."
         },
         {
           "word": "bestimmt",
@@ -61157,12 +61121,12 @@ const A2_WORDS = [
         {
           "word": "wechseln",
           "meaning": "Změnit / vyměnit",
-          "example": "Ich wechsle Geld. = Es samainu naudu."
+          "example": "Ich wechsle Geld. = Měním peníze."
         },
         {
           "word": "umtauschen",
           "meaning": "Vyměnit položku",
-          "example": "Ich tausche die Jacke um. = Es apmainu jaku."
+          "example": "Ich tausche die Jacke um. = Vyměňuji bundu."
         },
         {
           "word": "tauschen",
@@ -62151,7 +62115,7 @@ const A2_WORDS = [
         {
           "word": "wiegen",
           "meaning": "Vážit / zvážit",
-          "example": "Das Paket wiegt zwei Kilo. = Paka sver divus kilogramus."
+          "example": "Das Paket wiegt zwei Kilo. = Balík váží dvě kila."
         },
         {
           "word": "die Waage",
@@ -62574,12 +62538,12 @@ const A2_WORDS = [
         {
           "word": "anziehen",
           "meaning": "Obléknout / utáhnout",
-          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
+          "example": "Ich ziehe die Jacke an. = Oblékám si bundu."
         },
         {
           "word": "ausziehen",
           "meaning": "Svléknout / vystěhovat se",
-          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
+          "example": "Ich ziehe die Schuhe aus. = Zouvám si boty."
         },
         {
           "word": "ziehen lassen",
@@ -63015,7 +62979,7 @@ const A2_WORDS = [
         {
           "word": "zunehmen",
           "meaning": "Přibírat / růst",
-          "example": "Die Preise nehmen zu. = Cenas pieaug."
+          "example": "Die Preise nehmen zu. = Ceny rostou."
         },
         {
           "word": "abnehmen",
@@ -63381,7 +63345,7 @@ const A2_WORDS = [
         {
           "word": "jetzt",
           "meaning": "Teď",
-          "example": "Ich gehe jetzt. = Es tagad eju."
+          "example": "Ich gehe jetzt. = Teď jdu."
         },
         {
           "word": "im Moment",
