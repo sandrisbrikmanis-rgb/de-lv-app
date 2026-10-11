@@ -696,7 +696,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er hat recht, aber ich sehe das anders.",
-          "lv": "Má pravdu, ale já si myslím opak."
+          "lv": "Má pravdu, ale já to vidím jinak."
         }
       ],
       "comparison": [
@@ -1684,7 +1684,7 @@ const A1_WORDS = [
         },
         {
           "de": "Stell die Tasche aufs Bett.",
-          "lv": "Položte tašku na postel."
+          "lv": "Polož tašku na postel."
         },
         {
           "de": "Er springt aufs Pferd.",
@@ -1692,7 +1692,7 @@ const A1_WORDS = [
         },
         {
           "de": "Leg das Buch aufs Regal.",
-          "lv": "Položte knihu na polici."
+          "lv": "Polož knihu na polici."
         },
         {
           "de": "Komm schnell aufs Boot!",
@@ -1799,11 +1799,7 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {
-              "purple": [
-                "Položte"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1823,11 +1819,7 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {
-              "purple": [
-                "Položte"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -2082,7 +2074,7 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "Koupat se / pobývat ve vodě",
-          "example": "Ich gehe baden. = Jdu se koupit."
+          "example": "Ich gehe baden. = Jdu se koupat."
         },
         {
           "word": "schwimmen",
@@ -5697,12 +5689,12 @@ const A1_WORDS = [
         {
           "word": "erst",
           "meaning": "Nejprve • Až / teprve",
-          "example": "Erst lernen, dann spielen. – Erst arbeiten, dann Pause. = Nejprve pracujte, pak pauza."
+          "example": "Erst lernen, dann spielen. – Erst arbeiten, dann Pause. = Nejdřív se učit, pak hrát. – Nejdřív pracovat, pak pauza."
         },
         {
           "word": "zuerst",
           "meaning": "Nejprve • Na začátku",
-          "example": "Zuerst frühstücken wir. = Nejdříve se snídáme."
+          "example": "Zuerst frühstücken wir. = Nejdříve snídáme."
         },
         {
           "word": "nur",
@@ -6821,7 +6813,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich finde meinen Schlüssel.",
-          "lv": "Našel jsem svůj klíč."
+          "lv": "Nacházím svůj klíč."
         },
         {
           "de": "Ich finde das gut.",
@@ -6869,11 +6861,7 @@ const A1_WORDS = [
                 "finde"
               ]
             },
-            "lv": {
-              "purple": [
-                "Nemohu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -13020,7 +13008,7 @@ const A1_WORDS = [
         },
         {
           "de": "Den ganzen Tag lang.",
-          "lv": "Celý den (na délku)."
+          "lv": "Celý den."
         }
       ],
       "tip": [
@@ -14018,7 +14006,7 @@ const A1_WORDS = [
         {
           "word": "setzen",
           "meaning": "Posadit / sednout si",
-          "example": "Ich setze mich. = Sedneme si."
+          "example": "Ich setze mich. = Sedám si."
         }
       ],
       "tip": {
@@ -15685,7 +15673,7 @@ const A1_WORDS = [
         },
         {
           "de": "Bis morgen!",
-          "lv": "Až zítra!"
+          "lv": "Do zítra!"
         },
         {
           "de": "Ich komme morgen.",
@@ -16481,7 +16469,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist ganz natürlich.",
-          "lv": "To je zcela přirozené/normální."
+          "lv": "To je zcela přirozené."
         }
       ],
       "tip": [
@@ -16655,7 +16643,7 @@ const A1_WORDS = [
         {
           "word": "holen",
           "meaning": "Jít pro / přinést",
-          "example": "Ich hole Wasser. = Nám vodu."
+          "example": "Ich hole Wasser. = Jdu pro vodu."
         },
         {
           "word": "mitnehmen",
@@ -19727,7 +19715,7 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "Stát se",
-          "example": "Ich werde müde. = Stavu se unavenou."
+          "example": "Ich werde müde. = Začínám být unavený."
         },
         {
           "word": "bleiben",
@@ -20353,7 +20341,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er ist sicher zu Hause.",
-          "lv": "Asi je doma."
+          "lv": "Určitě je doma."
         },
         {
           "de": "Das ist eine sichere Lösung.",
@@ -20417,11 +20405,7 @@ const A1_WORDS = [
                 "sicher"
               ]
             },
-            "lv": {
-              "purple": [
-                "Asi"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -21896,7 +21880,7 @@ const A1_WORDS = [
         {
           "word": "von",
           "meaning": "Z / od",
-          "example": "Ich höre von dir. = Slyším od tebe."
+          "example": "Ich höre von dir. = Dostanu od tebe zprávu."
         }
       ],
       "tip": {
@@ -26852,7 +26836,7 @@ const A1_WORDS = [
         },
         {
           "de": "In den Ferien",
-          "lv": "O prázdninách (škola)."
+          "lv": "O prázdninách."
         }
       ],
       "comparison": [
@@ -26988,7 +26972,7 @@ const A1_WORDS = [
         },
         {
           "de": "im Urlaub",
-          "lv": "Na dovolené (práce)."
+          "lv": "Na dovolené."
         }
       ],
       "comparison": [

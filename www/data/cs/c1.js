@@ -4347,7 +4347,7 @@ const C1_WORDS = [
         {
           "word": "wählen",
           "meaning": "Vybrat • Volit",
-          "example": "Ich wähle heute. = Es šodien balsoju."
+          "example": "Ich wähle heute. = Dnes volím."
         },
         {
           "word": "der Wähler",
@@ -4526,7 +4526,7 @@ const C1_WORDS = [
         },
         {
           "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "Zakázku obdržela (na aukci)."
+          "lv": "Zakázku obdržela."
         },
         {
           "de": "Es gibt einen Zuschlag für Übergepäck.",
@@ -4737,7 +4737,7 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Měl v úmyslu projekt dokončit."
+          "lv": "Hodlá projekt dokončit."
         },
         {
           "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
@@ -4783,11 +4783,7 @@ const C1_WORDS = [
                 "beabsichtigt"
               ]
             },
-            "lv": {
-              "purple": [
-                "Měl"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {

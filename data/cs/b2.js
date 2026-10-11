@@ -9958,7 +9958,7 @@ const B2_WORDS = [
         },
         {
           "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "Dejte na hrnec poklici jako pokličku."
+          "lv": "Nasaď na hrnec poklici jako kryt."
         }
       ],
       "tip": [
@@ -10053,11 +10053,7 @@ const B2_WORDS = [
                 "Haube"
               ]
             },
-            "lv": {
-              "purple": [
-                "Dejte"
-              ]
-            }
+            "lv": {}
           }
         ]
       }
@@ -14895,7 +14891,7 @@ const B2_WORDS = [
         },
         {
           "de": "Sofern möglich, bitte pünktlich sein.",
-          "lv": "Prosím buďte konkrétní, pokud je to možné."
+          "lv": "Pokud možno, buďte prosím dochvilní."
         },
         {
           "de": "Er hilft, sofern er kann.",
@@ -18593,7 +18589,7 @@ const B2_WORDS = [
         },
         {
           "de": "Sie wurde einer anderen Abteilung zugewiesen.",
-          "lv": "Byl přidělen na jiné oddělení."
+          "lv": "Byla přidělena na jiné oddělení."
         }
       ],
       "comparison": [
@@ -18667,11 +18663,7 @@ const B2_WORDS = [
                 "zugewiesen"
               ]
             },
-            "lv": {
-              "purple": [
-                "Byl"
-              ]
-            }
+            "lv": {}
           }
         ]
       }
@@ -18704,14 +18696,14 @@ const B2_WORDS = [
         },
         {
           "de": "Das läuft mir zuwider.",
-          "lv": "Nelíbí se mi to / je mi z toho smutno."
+          "lv": "Je mi to odporné."
         }
       ],
       "comparison": [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "Proti • Opak",
-          "example": "mir zuwider = pret manu gribu"
+          "example": "mir zuwider = proti mé mysli"
         },
         {
           "word": "jemandem zuwider sein",
@@ -18721,12 +18713,12 @@ const B2_WORDS = [
         {
           "word": "wider",
           "meaning": "Proti (předložka)",
-          "example": "wider den Willen = pret gribu"
+          "example": "wider den Willen = proti vůli"
         },
         {
           "word": "widersprechen",
           "meaning": "Odporovat • Nesouhlasit",
-          "example": "Ich widerspreche. = Es iebilstu."
+          "example": "Ich widerspreche. = Odporuji."
         }
       ],
       "tip": {
@@ -18783,11 +18775,7 @@ const B2_WORDS = [
                 "zuwider"
               ]
             },
-            "lv": {
-              "purple": [
-                "Nelíbí"
-              ]
-            }
+            "lv": {}
           }
         ]
       }
@@ -18979,7 +18967,7 @@ const B2_WORDS = [
         },
         {
           "de": "bieten",
-          "lv": "Co něco poskytuje • Anbieten"
+          "lv": "Nabízet • Poskytovat"
         }
       ],
       "tip": [
@@ -19053,11 +19041,7 @@ const B2_WORDS = [
                 "bieten"
               ]
             },
-            "lv": {
-              "purple": [
-                "něco"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -19094,7 +19078,7 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Ich biete dir meine Hilfe an.",
-          "lv": "Nabízím vám svou pomoc."
+          "lv": "Nabízím ti svou pomoc."
         },
         {
           "de": "Darf ich Ihnen etwas anbieten?",
@@ -19119,7 +19103,7 @@ const B2_WORDS = [
         {
           "word": "vorschlagen",
           "meaning": "Navrhnout",
-          "example": "Ich schlage vor. = Es ierosinu."
+          "example": "Ich schlage vor. = Navrhuji."
         }
       ],
       "tip": {
@@ -19221,7 +19205,7 @@ const B2_WORDS = [
         },
         {
           "de": "fordern",
-          "lv": "Požadovat • Forden"
+          "lv": "Požadovat • Vyžadovat"
         }
       ],
       "tip": [
