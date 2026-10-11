@@ -1,0 +1,50 @@
+{
+  "batch_id": "LRB-081",
+  "correction_round": 6,
+  "verified_commit": "329493a17eb2875467a109c5608e63eac0f6b9bc",
+  "apply_mode": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+  "scope": "TECHNICAL_PROOF_COMPLETION_ONLY",
+  "card_content_changes": 0,
+  "owner_note_changes": 0,
+  "target_file": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-owner-review-proof.json",
+  "insertions": [
+    {
+      "path": "gates.WRONG_LANGUAGE_RESIDUE",
+      "current": "MISSING",
+      "new": 0
+    },
+    {
+      "path": "gates.DUPLICATE_MEANINGS",
+      "current": "MISSING",
+      "new": 0
+    },
+    {
+      "path": "gates.DEGENERATE_EXAMPLE_PAIRS",
+      "current": "MISSING",
+      "new": 0
+    }
+  ],
+  "exact_apply_instructions": [
+    "Neveikt jaunu lingvistisko analīzi.",
+    "Izveidot repozitorijā šo COPY-PASTE-6 specifikāciju.",
+    "Fresh proof gates objektā precīzi pievienot trīs norādītos laukus ar vērtību 0.",
+    "Atjaunot proof metadata uz correctionRound 6 un sourceCommit uz šo verified_commit.",
+    "Manifestā un checkpoint atjaunot tikai LRB-081 correctionRound/sourceCommit; statusu atstāt OWNER_APPROVED_OVERRIDES_APPLIED un galaPass=false.",
+    "Nemainīt nevienu approvedGalaCard, ownerNew, override.new, decisions owner_new vai owner_note vērtību.",
+    "Nemainīt DE source, production, Crowdin, ingest/apply, skriptus vai citus batch."
+  ],
+  "required_result": {
+    "ROWS": "50/50",
+    "WRONG_LANGUAGE_RESIDUE": 0,
+    "DUPLICATE_MEANINGS": 0,
+    "DEGENERATE_EXAMPLE_PAIRS": 0,
+    "OWNER_NEW_FULL_COMPOSITE_ALIGNMENT": "50/50",
+    "CARD_CONTENT_CHANGES": 0,
+    "OWNER_NOTE_CHANGES": 0,
+    "FULL_COMPOSITE_COMPLETENESS": "PASS",
+    "ANTI_BULK": "PASS",
+    "pass": true,
+    "galaPass": false
+  },
+  "final_status": "OWNER_APPROVED_OVERRIDES_APPLIED"
+}

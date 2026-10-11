@@ -1,0 +1,29 @@
+{
+  "batch_id": "LRB-073",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-16T16:18:00.000Z",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "languages": {
+    "nl": 42,
+    "nn": 8
+  },
+  "unique_cards": 50,
+  "scope": "Glas..dass (42 NL + 8 NN) — pending Phase 1 Luna linguistic review",
+  "productionSource": "data/nl/a1.js, data/nn/a1.js (read-only review)",
+  "note": "GALA PASS LRB_073_FULL_50_50_LINGUISTIC_REVIEW_PASS. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING (NL 42, NN 8). DE/production/Crowdin/ingest/apply unchanged.",
+  "copyPasteSpecSha256": "cf0c5de4d219b84af0e7408cfdce96191493267c4cf90ca6972f214842e10d59",
+  "overridesSha256": "3e4e06a2e2100fb66f32295ac21a3592b5671cd3c7b17a3163fc052b815fb92a",
+  "antiBulkPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "linguisticVerdict": "LRB_073_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPassAt": "2026-09-16T17:33:00.000Z",
+  "verifiedCommit": "86a14230e119c130455bcf27c030c23e57d61b9a",
+  "appliedAt": "2026-09-16T17:33:00.000Z",
+  "correctionRound": 5
+}

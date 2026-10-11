@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-073",
+  "correction": 4,
+  "apply_mode": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+  "changes": {
+    "nl:unter|idx:615.study.comparison[3].meaning": "op een oppervlak",
+    "nl:was|idx:644.study.examples[0].lv": "Wat is dat?",
+    "nl:Uhr|idx:698.lv": "klok • horloge • uur",
+    "nl:Uhr|idx:698.study.translation": "klok • horloge • uur",
+    "nl:Urlaub|idx:695.study.examples[3].lv": "Wij gaan op vakantie in Spanje.",
+    "nl:vom|idx:634.study.explanation[3]": "Het beantwoordt vragen als: waarvan? of waarvandaan?",
+    "nl:vor|idx:636.study.explanation[0]": "Hoofdidee: vor betekent vóór in de tijd of voor iets in de ruimte.",
+    "nl:vor|idx:636.study.explanation[2]": "Bij een plaats betekent vor vóór of voor iets.",
+    "nl:wer|idx:656.study.tip[1]": "Om te vragen welke persoon uit een groep bedoeld wordt, gebruik je wer von... (wie van...).",
+    "nl:Zeit|idx:699.study.tip[0]": "Tijd als begrip — moment, beschikbare tijd of tijdsperiode."
+  },
+  "metadata": {"rows_checked":"50/50","patches":10,"gala_pass":false}
+}

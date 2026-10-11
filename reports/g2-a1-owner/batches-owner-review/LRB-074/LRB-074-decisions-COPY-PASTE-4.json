@@ -1,0 +1,32 @@
+{
+  "batch_id": "LRB-074",
+  "apply_mode": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+  "correction": 4,
+  "authority": "data/a1.js canonical DE example order",
+  "changes": {
+    "einmal|idx:700.study.examples": [
+      { "de": "Ich war einmal in Berlin.", "lv": "Eg var ein gong i Berlin." },
+      { "de": "Ich war einmal in Berlin.", "lv": "Eg var ein gong i Berlin." }
+    ],
+    "Fernsehen|idx:688.study.examples": [
+      { "de": "Was gibt es heute im Fernsehen?", "lv": "Kva går på fjernsynet i dag?" },
+      { "de": "Was gibt es heute im Fernsehen?", "lv": "Kva går på fjernsynet i dag?" },
+      { "de": "Im Fernsehen läuft ein Film.", "lv": "Det går ein film på fjernsynet." },
+      { "de": "Das Fernsehen ist heute langweilig.", "lv": "Fjernsynet er kjedeleg i dag." }
+    ],
+    "Gemüse|idx:692.study.examples": [
+      { "de": "Ich esse gern Gemüse.", "lv": "Eg et gjerne grønsaker." },
+      { "de": "Ich esse gern Gemüse.", "lv": "Eg et gjerne grønsaker." },
+      { "de": "Das Gemüse ist frisch.", "lv": "Grønsakene er ferske." },
+      { "de": "Wir kaufen Gemüse auf dem Markt.", "lv": "Vi kjøper grønsaker på marknaden." }
+    ]
+  },
+  "required_after_apply": {
+    "DE_EXAMPLE_INDEX_ALIGNMENT": "179/179",
+    "STRUCTURAL_DE_EXAMPLE_ALIGNMENT": "179/179",
+    "SOURCE_COMPARISON_ALIGNMENT": "110/110",
+    "gates_pass": true,
+    "galaPass": false,
+    "de_production_crowdin_ingest_apply_diff": 0
+  }
+}
