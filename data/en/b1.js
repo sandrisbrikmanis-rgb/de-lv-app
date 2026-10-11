@@ -1560,7 +1560,7 @@ const B1_WORDS = [
     "de": "Abiturient",
     "de_article": "der",
     "de_plural": "die Abiturienten",
-    "lv": "High school student",
+    "lv": "School leaver",
     "level": "B1"
   },
   {
@@ -2672,7 +2672,7 @@ const B1_WORDS = [
   },
   {
     "de": "adrett",
-    "lv": "Cleaned up",
+    "lv": "Smart • Neat",
     "level": "B1"
   },
   {
@@ -4072,7 +4072,7 @@ const B1_WORDS = [
   {
     "de": "Aufschnitt",
     "de_article": "der",
-    "lv": "Cold cuts",
+    "lv": "Cold meats",
     "level": "B1"
   },
   {
@@ -4270,7 +4270,7 @@ const B1_WORDS = [
     "de": "Aufwand",
     "de_article": "der",
     "de_plural": "die Aufwände",
-    "lv": "Efforts",
+    "lv": "Effort",
     "level": "B1",
     "study": {
       "id": "b1-aufwand",
@@ -4426,7 +4426,7 @@ const B1_WORDS = [
     "de": "Aufzug",
     "de_article": "der",
     "de_plural": "die Aufzüge",
-    "lv": "Elevator",
+    "lv": "Lift",
     "level": "B1"
   },
   {
@@ -4441,12 +4441,12 @@ const B1_WORDS = [
   },
   {
     "de": "aufführen",
-    "lv": "Bring up",
+    "lv": "Perform • Stage",
     "level": "B1",
     "study": {
       "id": "b1-aufführen",
       "layout": "standardStudy",
-      "translation": "Bring up",
+      "translation": "Perform • Stage",
       "explanation": "Main idea: aufführen means to put on a show or list something. The meaning is determined by the situation: theatre or list.",
       "examples": [
         {
@@ -4775,7 +4775,7 @@ const B1_WORDS = [
     "de": "Nudelauflauf",
     "de_article": "der",
     "de_plural": "die Nudelaufläufe",
-    "lv": "Pasta concoction",
+    "lv": "Pasta bake",
     "level": "B1"
   },
   {
@@ -6638,7 +6638,7 @@ const B1_WORDS = [
   {
     "de": "Befinden",
     "de_article": "das",
-    "lv": "Feeling of self",
+    "lv": "Well-being • Condition",
     "level": "B1"
   },
   {
@@ -6782,7 +6782,7 @@ const B1_WORDS = [
   },
   {
     "de": "behaglich",
-    "lv": "Cozy",
+    "lv": "Comfortable • Cosy",
     "level": "B1"
   },
   {
@@ -7030,7 +7030,7 @@ const B1_WORDS = [
     "de": "Beilage",
     "de_article": "die",
     "de_plural": "die Beilagen",
-    "lv": "Additive",
+    "lv": "Side dish",
     "level": "B1"
   },
   {
@@ -7066,7 +7066,7 @@ const B1_WORDS = [
     "de": "Beitrag",
     "de_article": "der",
     "de_plural": "die Beiträge",
-    "lv": "Investment",
+    "lv": "Contribution",
     "level": "B1"
   },
   {
@@ -7645,7 +7645,7 @@ const B1_WORDS = [
   },
   {
     "de": "benachbart",
-    "lv": "neighbour",
+    "lv": "Neighbouring",
     "level": "B1"
   },
   {
@@ -9569,7 +9569,7 @@ const B1_WORDS = [
     "de": "Besuchszeit",
     "de_article": "die",
     "de_plural": "die Besuchszeiten",
-    "lv": "Visitor time",
+    "lv": "Visiting hours",
     "level": "B1"
   },
   {
@@ -10276,7 +10276,7 @@ const B1_WORDS = [
     "de": "Biskuit",
     "de_article": "der",
     "de_plural": "die Biskuits",
-    "lv": "Biscuit",
+    "lv": "Sponge cake",
     "level": "B1"
   },
   {
@@ -11361,7 +11361,7 @@ const B1_WORDS = [
     "de": "Bohnenkaffee",
     "de_article": "der",
     "de_plural": "die Bohnenkaffees",
-    "lv": "Bean coffee",
+    "lv": "Real coffee • Coffee beans",
     "level": "B1"
   },
   {
@@ -11874,7 +11874,7 @@ const B1_WORDS = [
     "de": "Brosche",
     "de_article": "die",
     "de_plural": "die Broschen",
-    "lv": "Pin",
+    "lv": "Brooch",
     "level": "B1"
   },
   {
@@ -11938,7 +11938,7 @@ const B1_WORDS = [
     "de": "Buchhandlung",
     "de_article": "die",
     "de_plural": "die Buchhandlungen",
-    "lv": "Book store",
+    "lv": "Bookshop",
     "level": "B1"
   },
   {
@@ -13855,7 +13855,7 @@ const B1_WORDS = [
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "Existence • Existence",
+    "lv": "Existence",
     "level": "B1"
   },
   {
@@ -14379,7 +14379,7 @@ const B1_WORDS = [
     "de": "Dolmetscher",
     "de_article": "der",
     "de_plural": "die Dolmetscher",
-    "lv": "Translator",
+    "lv": "Interpreter",
     "level": "B1"
   },
   {
@@ -14435,7 +14435,7 @@ const B1_WORDS = [
     "de": "Drehbuch",
     "de_article": "das",
     "de_plural": "die Drehbücher",
-    "lv": "Movie script",
+    "lv": "Screenplay • Film script",
     "level": "B1"
   },
   {
@@ -14457,7 +14457,7 @@ const B1_WORDS = [
   },
   {
     "de": "dritt",
-    "lv": "Thirdly",
+    "lv": "Third",
     "level": "B1"
   },
   {
@@ -14469,14 +14469,14 @@ const B1_WORDS = [
     "de": "Droge",
     "de_article": "die",
     "de_plural": "die Drogen",
-    "lv": "Drugs",
+    "lv": "Drug",
     "level": "B1"
   },
   {
     "de": "Drogerie",
     "de_article": "die",
     "de_plural": "die Drogerien",
-    "lv": "Drug store",
+    "lv": "Chemist's",
     "level": "B1"
   },
   {
@@ -14715,12 +14715,12 @@ const B1_WORDS = [
     "de": "Durchfall",
     "de_article": "der",
     "de_plural": "die Durchfälle",
-    "lv": "Diarrhea",
+    "lv": "Diarrhoea",
     "level": "B1",
     "study": {
       "id": "b1-durchfall",
       "layout": "standardStudy",
-      "translation": "Diarrhea",
+      "translation": "Diarrhoea",
       "explanation": "Main idea: der Durchfall means diarrhea in everyday life. In the context of an exam, the similar verb durchfallen means to fail.",
       "examples": [
         {
@@ -15953,12 +15953,12 @@ const B1_WORDS = [
   },
   {
     "de": "einerlei",
-    "lv": "Anyway",
+    "lv": "All the same • Immaterial",
     "level": "B1",
     "study": {
       "id": "b1-einerlei",
       "layout": "standardStudy",
-      "translation": "Anyway",
+      "translation": "All the same • Immaterial",
       "explanation": "Main idea: einerlei means “no matter” or “it doesn’t matter”. It sounds more formal or old-fashioned than everyday egal.",
       "examples": [
         {
@@ -18452,7 +18452,7 @@ const B1_WORDS = [
   },
   {
     "de": "einig",
-    "lv": "Agree",
+    "lv": "United • In agreement",
     "level": "B1"
   },
   {
@@ -19498,7 +19498,7 @@ const B1_WORDS = [
     "de": "Eisdiele",
     "de_article": "die",
     "de_plural": "die Eisdielen",
-    "lv": "An ice cream parlor",
+    "lv": "Ice-cream parlour",
     "level": "B1"
   },
   {
@@ -21950,7 +21950,7 @@ const B1_WORDS = [
     "de": "Express",
     "de_article": "der",
     "de_plural": "die Expresse",
-    "lv": "High speed train",
+    "lv": "Express train • Fast train",
     "level": "B1"
   },
   {
@@ -21998,14 +21998,14 @@ const B1_WORDS = [
     "de": "Fähigkeit",
     "de_article": "die",
     "de_plural": "die Fähigkeiten",
-    "lv": "Abilities",
+    "lv": "Ability",
     "level": "B1"
   },
   {
     "de": "Fahrbahn",
     "de_article": "die",
     "de_plural": "die Fahrbahnen",
-    "lv": "Drivable part of the street",
+    "lv": "Carriageway • Roadway",
     "level": "B1"
   },
   {
@@ -22406,7 +22406,7 @@ const B1_WORDS = [
   },
   {
     "de": "faulenzen",
-    "lv": "Lazing around",
+    "lv": "Laze about • Idle",
     "level": "B1"
   },
   {
@@ -22449,7 +22449,7 @@ const B1_WORDS = [
   },
   {
     "de": "feige",
-    "lv": "Coward",
+    "lv": "Cowardly",
     "level": "B1"
   },
   {
@@ -23390,7 +23390,7 @@ const B1_WORDS = [
     "de": "Folie",
     "de_article": "die",
     "de_plural": "die Folien",
-    "lv": "Aluminum foil",
+    "lv": "Foil • Aluminium foil",
     "level": "B1"
   },
   {
@@ -23770,7 +23770,7 @@ const B1_WORDS = [
     "de": "Frauenarzt",
     "de_article": "der",
     "de_plural": "die Frauenärzte",
-    "lv": "Gynecologist",
+    "lv": "Gynaecologist",
     "level": "B1"
   },
   {
@@ -23789,7 +23789,7 @@ const B1_WORDS = [
     "de": "Freie",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Free nature",
+    "lv": "Outdoors",
     "level": "B1"
   },
   {
@@ -24048,7 +24048,7 @@ const B1_WORDS = [
     "de": "Fuchsbau",
     "de_article": "der",
     "de_plural": "die Fuchsbaue",
-    "lv": "Fox cave",
+    "lv": "Fox's den • Fox earth",
     "level": "B1"
   },
   {
@@ -24318,12 +24318,12 @@ const B1_WORDS = [
   },
   {
     "de": "ganztägig",
-    "lv": "All day long • All day long",
+    "lv": "All day long",
     "level": "B1",
     "study": {
       "id": "b1-ganztaegig",
       "layout": "standardStudy",
-      "translation": "All day long • All day long",
+      "translation": "All day long",
       "explanation": [
         "Main idea: ganztägig means something that happens or lasts all day.",
         "Ganztägig describes the duration of events or activities (ein ganztägiger Ausflug = an excursion that lasts all day).",
@@ -24825,7 +24825,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich gedulden",
-    "lv": "Put up with",
+    "lv": "Be patient",
     "level": "B1"
   },
   {
@@ -24847,7 +24847,7 @@ const B1_WORDS = [
     "de": "Gefallen",
     "de_article": "der",
     "de_plural": "die Gefallen",
-    "lv": "Favor",
+    "lv": "Favour",
     "level": "B1"
   },
   {
@@ -25887,7 +25887,7 @@ const B1_WORDS = [
     "de": "Gerücht",
     "de_article": "das",
     "de_plural": "die Gerüchte",
-    "lv": "Rumours",
+    "lv": "Rumour",
     "level": "B1"
   },
   {
@@ -25926,7 +25926,7 @@ const B1_WORDS = [
   },
   {
     "de": "geschickt",
-    "lv": "Skillful",
+    "lv": "Skilful • Clever",
     "level": "B1"
   },
   {
@@ -26305,7 +26305,7 @@ const B1_WORDS = [
   },
   {
     "de": "geübt",
-    "lv": "Practiced",
+    "lv": "Practised",
     "level": "B1"
   },
   {
@@ -26512,12 +26512,12 @@ const B1_WORDS = [
   },
   {
     "de": "gewiss",
-    "lv": "Safe",
+    "lv": "Certain • Sure",
     "level": "B1",
     "study": {
       "id": "b1-gewiss",
       "layout": "standardStudy",
-      "translation": "Safe",
+      "translation": "Certain • Sure",
       "explanation": "Main idea: gewiss means sure, certain, or \"certainly.\" It sounds a bit more formal than sicher and often appears in phrases like ein gewisses Risiko.",
       "examples": [
         {
@@ -27633,7 +27633,7 @@ const B1_WORDS = [
     "de": "Grütze",
     "de_article": "die",
     "de_plural": "die Grützen",
-    "lv": "Grits",
+    "lv": "Groats",
     "level": "B1"
   },
   {
@@ -27650,7 +27650,7 @@ const B1_WORDS = [
   },
   {
     "de": "günstig",
-    "lv": "Favorable",
+    "lv": "Favourable • Advantageous",
     "level": "B1"
   },
   {
@@ -27822,7 +27822,7 @@ const B1_WORDS = [
   },
   {
     "de": "gutmachen",
-    "lv": "To correct",
+    "lv": "Make amends",
     "level": "B1"
   },
   {
@@ -27880,7 +27880,7 @@ const B1_WORDS = [
   },
   {
     "de": "hageln",
-    "lv": "Hail falls",
+    "lv": "Hail",
     "level": "B1"
   },
   {
@@ -27918,7 +27918,7 @@ const B1_WORDS = [
   },
   {
     "de": "halbtags",
-    "lv": "Part time working day",
+    "lv": "Part-time",
     "level": "B1"
   },
   {
@@ -28834,7 +28834,7 @@ const B1_WORDS = [
     "de": "Heftpflaster",
     "de_article": "das",
     "de_plural": "die Heftpflaster",
-    "lv": "Leucoplast",
+    "lv": "Sticking plaster",
     "level": "B1"
   },
   {
@@ -32529,7 +32529,7 @@ const B1_WORDS = [
     "de": "Kanister",
     "de_article": "der",
     "de_plural": "die Kanister",
-    "lv": "Tank",
+    "lv": "Jerrycan • Canister",
     "level": "B1"
   },
   {
@@ -32583,7 +32583,7 @@ const B1_WORDS = [
   },
   {
     "de": "karg",
-    "lv": "Needy",
+    "lv": "Barren • Meagre",
     "level": "B1"
   },
   {
@@ -33679,7 +33679,7 @@ const B1_WORDS = [
     "de": "Klaue",
     "de_article": "die",
     "de_plural": "die Klauen",
-    "lv": "The claw of a bird or beast",
+    "lv": "Claw",
     "level": "B1"
   },
   {
@@ -34073,7 +34073,7 @@ const B1_WORDS = [
     "de": "Kollegbuch",
     "de_article": "das",
     "de_plural": "die Kollegbuche",
-    "lv": "Student gradebook",
+    "lv": "Lecture notebook",
     "level": "B1"
   },
   {
@@ -34778,7 +34778,7 @@ const B1_WORDS = [
     "de": "Kranz",
     "de_article": "der",
     "de_plural": "die Kränze",
-    "lv": "Crown",
+    "lv": "Wreath",
     "level": "B1"
   },
   {
@@ -35036,7 +35036,7 @@ const B1_WORDS = [
     "de": "Krippe",
     "de_article": "die",
     "de_plural": "die Krippen",
-    "lv": "Children's shelter",
+    "lv": "Crèche • Day nursery",
     "level": "B1"
   },
   {
@@ -35097,7 +35097,7 @@ const B1_WORDS = [
     "de": "Krug",
     "de_article": "der",
     "de_plural": "die Krüge",
-    "lv": "Pitcher",
+    "lv": "Jug",
     "level": "B1"
   },
   {
@@ -36115,7 +36115,7 @@ const B1_WORDS = [
   },
   {
     "de": "kuschelig",
-    "lv": "Cozy",
+    "lv": "Cosy",
     "level": "B1"
   },
   {
@@ -36490,7 +36490,7 @@ const B1_WORDS = [
   },
   {
     "de": "lahm legen",
-    "lv": "To paralyze",
+    "lv": "Paralyse",
     "level": "B1"
   },
   {
@@ -38041,7 +38041,7 @@ const B1_WORDS = [
     "de": "Lesekarte",
     "de_article": "die",
     "de_plural": "die Lesekarten",
-    "lv": "Reader card",
+    "lv": "Library card",
     "level": "B1"
   },
   {
@@ -38129,7 +38129,7 @@ const B1_WORDS = [
     "de": "Liegeplatz",
     "de_article": "der",
     "de_plural": "die Liegeplatze",
-    "lv": "A sleeping place in a wagon",
+    "lv": "Berth",
     "level": "B1"
   },
   {
@@ -38340,7 +38340,7 @@ const B1_WORDS = [
   },
   {
     "de": "lockig",
-    "lv": "Frizzy",
+    "lv": "Curly",
     "level": "B1"
   },
   {
@@ -38963,7 +38963,7 @@ const B1_WORDS = [
     "de": "Lücke",
     "de_article": "die",
     "de_plural": "die Lücken",
-    "lv": "Notch",
+    "lv": "Gap",
     "level": "B1"
   },
   {
@@ -38991,7 +38991,7 @@ const B1_WORDS = [
     "de": "Luftzug",
     "de_article": "der",
     "de_plural": "die Luftzüge",
-    "lv": "Draft",
+    "lv": "Draught",
     "level": "B1"
   },
   {
@@ -39215,7 +39215,7 @@ const B1_WORDS = [
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Time / occasion",
+    "lv": "Mark • Scar",
     "level": "B1"
   },
   {
@@ -40091,7 +40091,7 @@ const B1_WORDS = [
     "de": "Müllkippe",
     "de_article": "die",
     "de_plural": "die Müllkippen",
-    "lv": "Garbage dump",
+    "lv": "Rubbish tip • Rubbish dump",
     "level": "B1"
   },
   {
@@ -40168,7 +40168,7 @@ const B1_WORDS = [
   },
   {
     "de": "mütterlich",
-    "lv": "Mother-",
+    "lv": "Maternal • Motherly",
     "level": "B1"
   },
   {
@@ -41862,7 +41862,7 @@ const B1_WORDS = [
     "de": "Oberhemd",
     "de_article": "das",
     "de_plural": "die Oberhemden",
-    "lv": "An overshirt",
+    "lv": "Shirt",
     "level": "B1"
   },
   {
@@ -42016,7 +42016,7 @@ const B1_WORDS = [
     "de": "Ochse",
     "de_article": "der",
     "de_plural": "die Ochsen",
-    "lv": "Bull",
+    "lv": "Ox",
     "level": "B1"
   },
   {
@@ -42031,7 +42031,7 @@ const B1_WORDS = [
   },
   {
     "de": "offenbar",
-    "lv": "Visible to the eyes",
+    "lv": "Obviously • Evidently",
     "level": "B1"
   },
   {
@@ -42623,7 +42623,7 @@ const B1_WORDS = [
     "de": "Pack",
     "de_article": "das",
     "de_plural": "die Packe",
-    "lv": "Package",
+    "lv": "Pack • Bundle",
     "level": "B1"
   },
   {
@@ -42808,7 +42808,7 @@ const B1_WORDS = [
     "de": "Pendelbus",
     "de_article": "der",
     "de_plural": "die Pendelbuse",
-    "lv": "Suburban bus",
+    "lv": "Shuttle bus",
     "level": "B1"
   },
   {
@@ -43219,12 +43219,12 @@ const B1_WORDS = [
     "de": "Pflug",
     "de_article": "der",
     "de_plural": "die Pflüge",
-    "lv": "Plow",
+    "lv": "Plough",
     "level": "B1"
   },
   {
     "de": "pflügen",
-    "lv": "To plow",
+    "lv": "Plough",
     "level": "B1"
   },
   {
@@ -43374,7 +43374,7 @@ const B1_WORDS = [
   },
   {
     "de": "plump",
-    "lv": "Plump",
+    "lv": "Clumsy • Awkward",
     "level": "B1"
   },
   {
@@ -43797,7 +43797,7 @@ const B1_WORDS = [
     "de": "Praline",
     "de_article": "die",
     "de_plural": "die Pralinen",
-    "lv": "Chocolate candy with filling",
+    "lv": "Filled chocolate • Praline",
     "level": "B1"
   },
   {
@@ -44630,12 +44630,12 @@ const B1_WORDS = [
     "de": "Rate",
     "de_article": "die",
     "de_plural": "die Raten",
-    "lv": "Installment",
+    "lv": "Instalment",
     "level": "B1",
     "study": {
       "id": "b1-rate",
       "layout": "standardStudy",
-      "translation": "Installment",
+      "translation": "Instalment",
       "explanation": "Main idea: Rate is a regular part of a payment, such as an installment purchase. Rat with one -e means advice.",
       "examples": [
         {
@@ -45426,7 +45426,7 @@ const B1_WORDS = [
     "de": "Reisescheck",
     "de_article": "der",
     "de_plural": "die Reiseschecks",
-    "lv": "traveller's check",
+    "lv": "Traveller's cheque",
     "level": "B1"
   },
   {
@@ -46318,7 +46318,7 @@ const B1_WORDS = [
     "de": "Rollstuhl",
     "de_article": "der",
     "de_plural": "die Rollstühle",
-    "lv": "Wheelchairs",
+    "lv": "Wheelchair",
     "level": "B1"
   },
   {
@@ -46505,7 +46505,7 @@ const B1_WORDS = [
     "de": "Rückfahrkarte",
     "de_article": "die",
     "de_plural": "die Rückfahrkarten",
-    "lv": "Round trip ticket",
+    "lv": "Return ticket",
     "level": "B1"
   },
   {
@@ -46853,7 +46853,7 @@ const B1_WORDS = [
     "de": "Ruine",
     "de_article": "die",
     "de_plural": "die Ruinen",
-    "lv": "Ruins",
+    "lv": "Ruin",
     "level": "B1"
   },
   {
@@ -47325,7 +47325,7 @@ const B1_WORDS = [
     "de": "Sauger",
     "de_article": "der",
     "de_plural": "die Sauger",
-    "lv": "Bottle nipple",
+    "lv": "Teat",
     "level": "B1"
   },
   {
@@ -47405,12 +47405,12 @@ const B1_WORDS = [
     "de": "Schale",
     "de_article": "die",
     "de_plural": "die Schalen",
-    "lv": "Bark",
+    "lv": "Peel • Skin • Shell",
     "level": "B1",
     "study": {
       "id": "b1-schale",
       "layout": "standardStudy",
-      "translation": "Bark",
+      "translation": "Peel • Skin • Shell",
       "explanation": "Main Idea: Schale is the rind, shell, or outer covering of a fruit. It can also mean a bowl or vessel.",
       "examples": [
         {
@@ -47581,7 +47581,7 @@ const B1_WORDS = [
   },
   {
     "de": "schaufeln",
-    "lv": "Shoveling",
+    "lv": "Shovel",
     "level": "B1"
   },
   {
@@ -47607,7 +47607,7 @@ const B1_WORDS = [
     "de": "Scheck",
     "de_article": "der",
     "de_plural": "die Schecks",
-    "lv": "Check",
+    "lv": "Cheque",
     "level": "B1"
   },
   {
@@ -47657,7 +47657,7 @@ const B1_WORDS = [
     "de": "Scheune",
     "de_article": "die",
     "de_plural": "die Scheunen",
-    "lv": "A shed",
+    "lv": "Barn",
     "level": "B1"
   },
   {
@@ -47842,12 +47842,12 @@ const B1_WORDS = [
     "de": "Schimmel",
     "de_article": "der",
     "de_plural": "die Schimmel",
-    "lv": "Mold",
+    "lv": "Mould",
     "level": "B1",
     "study": {
       "id": "b1-schimmel",
       "layout": "standardStudy",
-      "translation": "Mold",
+      "translation": "Mould",
       "explanation": "Main idea: der Schimmel usually means mold. Less commonly, it can also mean a grey or white horse.",
       "examples": [
         {
@@ -48015,7 +48015,7 @@ const B1_WORDS = [
     "de": "Schlafmittel",
     "de_article": "das",
     "de_plural": "die Schlafmittel",
-    "lv": "Sleeping pills",
+    "lv": "Sleeping pill",
     "level": "B1"
   },
   {
@@ -48391,7 +48391,7 @@ const B1_WORDS = [
     "de": "Schließfach",
     "de_article": "das",
     "de_plural": "die Schließfächer",
-    "lv": "Lockable compartment in the station's luggage storage",
+    "lv": "Locker",
     "level": "B1"
   },
   {
@@ -48760,7 +48760,7 @@ const B1_WORDS = [
     "de": "Schminke",
     "de_article": "die",
     "de_plural": "die Schminken",
-    "lv": "Makeup",
+    "lv": "Make-up",
     "level": "B1"
   },
   {
@@ -48927,7 +48927,7 @@ const B1_WORDS = [
     "de": "Schnaps",
     "de_article": "der",
     "de_plural": "die Schnäpse",
-    "lv": "Vodka",
+    "lv": "Schnapps",
     "level": "B1"
   },
   {
@@ -48952,7 +48952,7 @@ const B1_WORDS = [
   {
     "de": "Schneetreiben",
     "de_article": "das",
-    "lv": "Heavy snowfall",
+    "lv": "Blizzard • Snowstorm",
     "level": "B1"
   },
   {
@@ -49196,7 +49196,7 @@ const B1_WORDS = [
     "de": "Schrankwand",
     "de_article": "die",
     "de_plural": "die Schrankwände",
-    "lv": "A large section along the entire wall",
+    "lv": "Wall unit",
     "level": "B1"
   },
   {
@@ -49866,7 +49866,7 @@ const B1_WORDS = [
     "de": "Schwierigkeit",
     "de_article": "die",
     "de_plural": "die Schwierigkeiten",
-    "lv": "Difficulties",
+    "lv": "Difficulty",
     "level": "B1"
   },
   {
@@ -49917,7 +49917,7 @@ const B1_WORDS = [
     "de": "Schwung",
     "de_article": "der",
     "de_plural": "die Schwünge",
-    "lv": "Vigor",
+    "lv": "Vigour",
     "level": "B1"
   },
   {
@@ -50022,7 +50022,7 @@ const B1_WORDS = [
     "de": "Seifenoper",
     "de_article": "die",
     "de_plural": "die Seifenopern",
-    "lv": "Television series",
+    "lv": "Soap opera",
     "level": "B1"
   },
   {
@@ -50409,7 +50409,7 @@ const B1_WORDS = [
     "de": "Setzei",
     "de_article": "das",
     "de_plural": "die Setzeien",
-    "lv": "Bull's eye",
+    "lv": "Fried egg",
     "level": "B1"
   },
   {
@@ -51398,7 +51398,7 @@ const B1_WORDS = [
     "de": "Spaten",
     "de_article": "der",
     "de_plural": "die Spaten",
-    "lv": "Shovel",
+    "lv": "Spade",
     "level": "B1"
   },
   {
@@ -51961,7 +51961,7 @@ const B1_WORDS = [
     "de": "Sprachführer",
     "de_article": "der",
     "de_plural": "die Sprachführer",
-    "lv": "Conversational dictionary",
+    "lv": "Phrasebook",
     "level": "B1"
   },
   {
@@ -51975,7 +51975,7 @@ const B1_WORDS = [
     "de": "Sprechstunde",
     "de_article": "die",
     "de_plural": "die Sprechstunden",
-    "lv": "Reception time",
+    "lv": "Consultation hours • Surgery hours",
     "level": "B1"
   },
   {
@@ -52008,7 +52008,7 @@ const B1_WORDS = [
     "de": "Springer",
     "de_article": "der",
     "de_plural": "die Springer",
-    "lv": "A horse",
+    "lv": "Knight",
     "level": "B1"
   },
   {
@@ -52595,7 +52595,7 @@ const B1_WORDS = [
     "de": "Stange",
     "de_article": "die",
     "de_plural": "die Stangen",
-    "lv": "Card",
+    "lv": "Pole • Rod • Bar",
     "level": "B1"
   },
   {
@@ -53490,7 +53490,7 @@ const B1_WORDS = [
     "de": "Strandkorb",
     "de_article": "der",
     "de_plural": "die Strandkörbe",
-    "lv": "Sunbathing basket on the beach",
+    "lv": "Hooded beach chair",
     "level": "B1"
   },
   {
@@ -53671,7 +53671,7 @@ const B1_WORDS = [
     "de": "Streife",
     "de_article": "die",
     "de_plural": "die Streifen",
-    "lv": "Patrol police",
+    "lv": "Police patrol",
     "level": "B1"
   },
   {
@@ -53936,7 +53936,7 @@ const B1_WORDS = [
   },
   {
     "de": "stumm",
-    "lv": "Dumb",
+    "lv": "Mute • Silent",
     "level": "B1"
   },
   {
@@ -54353,7 +54353,7 @@ const B1_WORDS = [
     "de": "Tagesordnung",
     "de_article": "die",
     "de_plural": "die Tagesordnungen",
-    "lv": "Conference / meeting",
+    "lv": "Agenda",
     "level": "B1"
   },
   {
@@ -54721,12 +54721,12 @@ const B1_WORDS = [
     "de": "Tau",
     "de_article": "das",
     "de_plural": "die Taue",
-    "lv": "Ship's tow",
+    "lv": "Rope",
     "level": "B1",
     "study": {
       "id": "b1-tau-2",
       "layout": "standardStudy",
-      "translation": "Ship's tow",
+      "translation": "Rope",
       "explanation": "Main Idea: das Tau means ship's tow or strong rope. The plural is die Taue. Der Tau, on the other hand, means dew and is used only in the singular.",
       "examples": [
         {
@@ -54825,7 +54825,7 @@ const B1_WORDS = [
   },
   {
     "de": "taubstumm",
-    "lv": "Deaf and dumb",
+    "lv": "Deaf and mute",
     "level": "B1"
   },
   {
@@ -55159,7 +55159,7 @@ const B1_WORDS = [
   {
     "de": "Tauwetter",
     "de_article": "das",
-    "lv": "Thawed",
+    "lv": "Thaw",
     "level": "B1"
   },
   {
@@ -55356,7 +55356,7 @@ const B1_WORDS = [
     "de": "Teilzahlung",
     "de_article": "die",
     "de_plural": "die Teilzahlungen",
-    "lv": "Payment in installments",
+    "lv": "Payment by instalments",
     "level": "B1"
   },
   {
@@ -55377,7 +55377,7 @@ const B1_WORDS = [
     "de": "Telefonzelle",
     "de_article": "die",
     "de_plural": "die Telefonzellen",
-    "lv": "Telephone booth",
+    "lv": "Telephone box",
     "level": "B1"
   },
   {
@@ -55601,7 +55601,7 @@ const B1_WORDS = [
   },
   {
     "de": "toasten",
-    "lv": "Toast buns",
+    "lv": "Toast",
     "level": "B1"
   },
   {
@@ -55766,7 +55766,7 @@ const B1_WORDS = [
     "de": "Tonne",
     "de_article": "die",
     "de_plural": "die Tonnen",
-    "lv": "Ton",
+    "lv": "Tonne",
     "level": "B1"
   },
   {
@@ -58168,7 +58168,7 @@ const B1_WORDS = [
   },
   {
     "de": "unwohl",
-    "lv": "Unhealthy",
+    "lv": "Unwell • Uneasy",
     "level": "B1"
   },
   {
@@ -58364,7 +58364,7 @@ const B1_WORDS = [
   },
   {
     "de": "verärgern",
-    "lv": "Get angry",
+    "lv": "Annoy • Anger",
     "level": "B1"
   },
   {
@@ -60776,7 +60776,7 @@ const B1_WORDS = [
     "de": "Vorspeise",
     "de_article": "die",
     "de_plural": "die Vorspeisen",
-    "lv": "Snack",
+    "lv": "Starter",
     "level": "B1"
   },
   {
@@ -62119,7 +62119,7 @@ const B1_WORDS = [
     "de": "Weide",
     "de_article": "die",
     "de_plural": "die Weiden",
-    "lv": "Pastures",
+    "lv": "Pasture",
     "level": "B1"
   },
   {
@@ -62154,7 +62154,7 @@ const B1_WORDS = [
     "de": "Weise",
     "de_article": "die",
     "de_plural": "die Weisen",
-    "lv": "Clever",
+    "lv": "Wise • Way",
     "level": "B1"
   },
   {
@@ -62847,7 +62847,7 @@ const B1_WORDS = [
     "de": "Wette",
     "de_article": "die",
     "de_plural": "die Wetten",
-    "lv": "Bets",
+    "lv": "Bet",
     "level": "B1"
   },
   {
@@ -62889,7 +62889,7 @@ const B1_WORDS = [
   {
     "de": "Wiederhören",
     "de_article": "das",
-    "lv": "See you soon!",
+    "lv": "Goodbye (on the phone)",
     "level": "B1"
   },
   {
@@ -62906,7 +62906,7 @@ const B1_WORDS = [
   },
   {
     "de": "wild",
-    "lv": "Wild • Wild",
+    "lv": "Wild",
     "level": "B1"
   },
   {
@@ -62927,14 +62927,14 @@ const B1_WORDS = [
     "de": "Windmühle",
     "de_article": "die",
     "de_plural": "die Windmühlen",
-    "lv": "Windmills",
+    "lv": "Windmill",
     "level": "B1"
   },
   {
     "de": "Windel",
     "de_article": "die",
     "de_plural": "die Windeln",
-    "lv": "Diapers",
+    "lv": "Nappy",
     "level": "B1"
   },
   {
@@ -63782,7 +63782,7 @@ const B1_WORDS = [
     "de": "Abteilung",
     "de_article": "die",
     "de_plural": "die Abteilungen",
-    "lv": "Department • Department",
+    "lv": "Department",
     "level": "B1"
   },
   {
@@ -64430,12 +64430,12 @@ const B1_WORDS = [
   },
   {
     "de": "weil",
-    "lv": "Because • Because",
+    "lv": "Because",
     "level": "B1",
     "study": {
       "id": "b1-weil",
       "layout": "standardStudy",
-      "translation": "Because • Because",
+      "translation": "Because",
       "explanation": [
         "Main idea: The most common reason conjunction. After weil, the verb is at the end of the sentence.",
         "Weil mainly means: explain the reason.",
@@ -64562,12 +64562,12 @@ const B1_WORDS = [
   },
   {
     "de": "da",
-    "lv": "Because • For how much",
+    "lv": "Because • Since",
     "level": "B1",
     "study": {
       "id": "b1-da",
       "layout": "standardStudy",
-      "translation": "Because • For how much",
+      "translation": "Because • Since",
       "explanation": [
         "Main idea: Conjunction of reason when the reason is already known or mentioned. After da, the verb is at the end of the sentence.",
         "Da mainly means: explain some reason.",
@@ -65481,7 +65481,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich langweilen",
-    "lv": "Getting bored",
+    "lv": "Get bored",
     "level": "B1"
   },
   {
