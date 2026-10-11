@@ -797,7 +797,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "Politická strana • Strana",
+      "translation": "Politická strana • Smluvní strana",
       "explanation": "Hlavní myšlenka: die Partei je obvykle politická strana. V právním nebo konfliktním kontextu může znamenat také stranu.",
       "examples": [
         {
@@ -2440,7 +2440,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "Občas • Příležitostný • U příležitosti",
+      "translation": "Někdy • Příležitostný • Při příležitosti",
       "explanation": "Hlavní myšlenka: gelegentlich má tři funkce. Jako přídavné jméno znamená příležitostný (ein gelegentlicher Besuch). Jako příslovce znamená občas, někdy (Er kommt gelegentlich). V předložkovém užití s genitivem znamená u příležitosti (gelegentlich des Festes).",
       "examples": [
         {

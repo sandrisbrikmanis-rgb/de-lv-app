@@ -5689,7 +5689,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "tikai",
+      "translation": "tikai • vispirms",
       "explanation": [
         "Galvenā doma: erst visbiežāk nozīmē tikai. Taču noteiktā kontekstā tas var nozīmēt arī vispirms.",
         "erst bieži norāda, ka kaut kas notiek vēlāk, nekā gaidīts.",
@@ -6845,7 +6845,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-finden",
       "layout": "standardStudy",
-      "translation": "atrast",
+      "translation": "atrast • uzskatīt • domāt",
       "explanation": [
         "Galvenā doma: finden visbiežāk nozīmē atrast.",
         "Sarunās finden ļoti bieži nozīmē arī uzskatīt vai domāt par kaut ko.",

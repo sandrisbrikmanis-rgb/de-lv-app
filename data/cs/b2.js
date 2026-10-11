@@ -6984,7 +6984,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-haube",
       "layout": "standardStudy",
-      "translation": "Čepice • Kapuce",
+      "translation": "Čepice • Kryt",
       "explanation": [
         "Hlavní myšlenka: die Haube může znamenat čepici/kapuci nebo kapuci/kryt – význam určuje kontext.",
         "Na hlavě: die Haube = čepice, kapuce nebo autorská technika v konkrétním kontextu (z. B. Nonne mit Haube).",

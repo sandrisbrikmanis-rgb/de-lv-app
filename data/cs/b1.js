@@ -17869,7 +17869,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-einführen",
       "layout": "standardStudy",
-      "translation": "Zavést • dovážet",
+      "translation": "Zavést",
       "explanation": "V obchodě to znamená dovážet nebo importovat zboží.",
       "examples": [
         {
@@ -18424,7 +18424,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-einhalten",
       "layout": "standardStudy",
-      "translation": "Dodržet • dodržovat",
+      "translation": "Dodržovat",
       "explanation": "Hlavní myšlenka: einhalten znamená dodržet pravidlo, termín, slib nebo odstup. Používá se, když je třeba něco držet nebo udělat přesně.",
       "examples": [
         {
@@ -30240,7 +30240,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-hauen",
       "layout": "standardStudy",
-      "translation": "Udeřit",
+      "translation": "Bít",
       "explanation": "Hlavní myšlenka: hauen hovorově znamená udeřit, sekat nebo dát ránu. Zní to příměji a hruběji než neutrální schlagen.",
       "examples": [
         {
@@ -32305,7 +32305,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-hort",
       "layout": "standardStudy",
-      "translation": "Školní družina • zařízení školní péče",
+      "translation": "Školní družina • Dětské denní centrum",
       "explanation": "V češtině je nejbližším ekvivalentem školní družina nebo zařízení školní péče.",
       "examples": [
         {
@@ -35440,7 +35440,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-kippen",
       "layout": "standardStudy",
-      "translation": "Převrátit • Převrhnout",
+      "translation": "Převrátit",
       "explanation": "Hlavní myšlenka: Kippen znamená převrátit, naklonit nebo naklonit tak, že něco ztratí rovnováhu. V přeneseném smyslu se situace nebo nálada může změnit – rychle se změnit k horšímu.",
       "examples": [
         {
@@ -38419,7 +38419,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-laden",
       "layout": "standardStudy",
-      "translation": "Nakládat • nabíjet",
+      "translation": "Naložit",
       "explanation": "Laden znamená nakládat nebo nabíjet.",
       "examples": [
         {
@@ -39151,7 +39151,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-landen",
       "layout": "standardStudy",
-      "translation": "Přistát • skončit",
+      "translation": "Přistát",
       "explanation": "přistát nebo skončit na určitém místě",
       "examples": [
         {
@@ -41621,7 +41621,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-nachdem",
       "layout": "standardStudy",
-      "translation": "Poté, co",
+      "translation": "Poté co",
       "explanation": "Hlavní myšlenka: nachdem uvádí vedlejší větu a znamená „poté, co“. V němčině je sloveso v této vedlejší větě na konci.",
       "examples": [
         {
@@ -45790,7 +45790,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-rasen",
       "layout": "standardStudy",
-      "translation": "Řítit se",
+      "translation": "Uhánět",
       "explanation": "Hlavní myšlenka: rasen znamená řítit se nebo uhánět velmi rychle, často příliš rychle. O bouři může znamenat zuřit.",
       "examples": [
         {
@@ -46149,7 +46149,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-räumen",
       "layout": "standardStudy",
-      "translation": "Vyklidit",
+      "translation": "Uvolnit",
       "explanation": "Hlavní myšlenka: räumen znamená uvolnit místo: vyklidit, uklidit nebo se vystěhovat. aufräumen znamená uklidit.",
       "examples": [
         {
@@ -46493,7 +46493,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-regeln",
       "layout": "standardStudy",
-      "translation": "Zařídit",
+      "translation": "Vyřídit • Regulovat",
       "explanation": "Hlavní myšlenka: regeln znamená vyřídit záležitost nebo upravovat či regulovat proces. Technicky může znamenat také regulovat.",
       "examples": [
         {
@@ -46765,7 +46765,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-reißen",
       "layout": "standardStudy",
-      "translation": "Trhat",
+      "translation": "Prasknout",
       "explanation": "Hlavní myšlenka: reißen znamená trhat se nebo něco trhat. Reisen s jedním s místo ß není totéž – znamená cestovat.",
       "examples": [
         {
@@ -47636,7 +47636,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-rösten",
       "layout": "standardStudy",
-      "translation": "Pražit, opékat",
+      "translation": "Pražit",
       "explanation": "Hlavní myšlenka: rösten znamená pražit nebo opékat potraviny, zejména kávu, chléb, semena nebo ořechy.",
       "examples": [
         {
@@ -47870,7 +47870,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-ruf-2",
       "layout": "standardStudy",
-      "translation": "Volání • Pověst",
+      "translation": "Volání",
       "explanation": "Hlavní myšlenka: der Ruf znamená volání nebo výkřik. U osoby, firmy nebo instituce často znamená pověst.",
       "examples": [
         {
@@ -49726,7 +49726,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-schmelzen",
       "layout": "standardStudy",
-      "translation": "Tát • Tavit",
+      "translation": "Tát",
       "explanation": "Hlavní myšlenka: schmelzen znamená tát nebo tavit. Pokud se látka mění sama, překládá se jako „tát“ • Pokud ji někdo taví, překládá se jako „tavit“.",
       "examples": [
         {
@@ -54417,7 +54417,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-stoßen",
       "layout": "standardStudy",
-      "translation": "Strčit",
+      "translation": "Strkat",
       "explanation": "Hlavní myšlenka: stoßen znamená tlačit, narážet nebo do něčeho narážet. Konstrukce auf etwas stoßen znamená náhodně narazit nebo najít.",
       "examples": [
         {
@@ -57148,7 +57148,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-treiben",
       "layout": "standardStudy",
-      "translation": "Věnovat se • hnát",
+      "translation": "Provozovat",
       "explanation": "Hlavní myšlenka: treiben často znamená věnovat se něčemu, zvláště sportu. Může také znamenat hnát, pohánět nebo něco provádět.",
       "examples": [
         {
@@ -58270,7 +58270,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-umgehen",
       "layout": "standardStudy",
-      "translation": "Zacházet • obcházet",
+      "translation": "Zacházet",
       "explanation": "Může to znamenat i obejít překážku nebo obcházet pravidla.",
       "examples": [
         {
@@ -60316,7 +60316,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-verlegen",
       "layout": "standardStudy",
-      "translation": "Přesunout • odložit • vydat",
+      "translation": "Přesunout",
       "explanation": "Hlavní myšlenka: verlegen znamená přenést nebo přesunout. V běžném životě to také znamená odložit něco, abyste to už nemohli najít.",
       "examples": [
         {
@@ -61963,7 +61963,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-wache",
       "layout": "standardStudy",
-      "translation": "Stráž • Hlídka • Policejní stanice",
+      "translation": "Stráž",
       "explanation": "Hlavní myšlenka: die Wache znamená stráž, hlídka nebo policejní stanice. Je to podstatné jméno, ne akce.",
       "examples": [
         {
@@ -65311,7 +65311,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-da",
       "layout": "standardStudy",
-      "translation": "Protože",
+      "translation": "Protože • Poněvadž",
       "explanation": [
         "Hlavní myšlenka: Důvodová spojka, která uvádí již známý nebo zmíněný důvod. Po da stojí sloveso na konci věty.",
         "Da znamená hlavně: vysvětlit nějaký důvod.",

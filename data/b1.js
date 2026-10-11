@@ -47553,7 +47553,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-regeln",
       "layout": "standardStudy",
-      "translation": "kārtot",
+      "translation": "kārtot • regulēt",
       "explanation": "Galvenā doma: regeln nozīmē nokārtot jautājumu vai sakārtot procesu. Tehniski tas var nozīmēt arī regulēt.",
       "examples": [
         {
