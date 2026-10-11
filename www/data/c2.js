@@ -181,43 +181,61 @@ const C2_WORDS = [
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
       "translation": "svara mērvienība",
-      "explanation": "Galvenā doma: die Gewichtseinheit nozīmē svara mērvienību. To lieto, runājot par kilogramiem, gramiem, tonnām un citām svara/massas vienībām.",
+      "explanation": [
+        "Galvenā doma: die Gewichtseinheit ir svara mērvienība, kuru izmanto svara mērīšanai: gramms, kilograms, tonna, mārciņa.",
+        "Sieviešu dzimtes saliktenis: die Gewichtseinheit, daudzskaitlis die Gewichtseinheiten. Tas sastāv no das Gewicht (svars) un die Einheit (vienība).",
+        "Saliktenis ir tehnisks un neitrāls; ikdienā lieto konkrētās mērvienības (Kilogramm, Gramm, Pfund)."
+      ],
       "examples": [
         {
-          "de": "Kilogramm ist eine Gewichtseinheit.",
+          "de": "Das Kilogramm ist eine Gewichtseinheit.",
           "lv": "Kilograms ir svara mērvienība."
         },
         {
-          "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "Kuru svara mērvienību man lietot?"
+          "de": "Das Pfund ist eine alte Gewichtseinheit.",
+          "lv": "Mārciņa ir sena svara mērvienība."
         },
         {
-          "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "Grams un tonna ir svara mērvienības."
+          "de": "Welche Gewichtseinheit wird in Deutschland verwendet?",
+          "lv": "Kādu svara mērvienību lieto Vācijā?"
         }
       ],
       "comparison": [
         {
-          "word": "Gewichtseinheit",
-          "meaning": "svara mērvienība",
-          "example": "Kilogramm ist eine Gewichtseinheit. = kilograms ir svara mērvienība."
+          "word": "die Maßeinheit",
+          "meaning": "mērvienība",
+          "example": "Der Meter ist eine Maßeinheit. – Metrs ir mērvienība."
         },
         {
-          "word": "Maßeinheit",
-          "meaning": "mērvienība",
-          "example": "Meter ist eine Maßeinheit. = Metrs ir mērvienība."
+          "word": "die Längeneinheit",
+          "meaning": "garuma mērvienība",
+          "example": "Der Kilometer ist eine Längeneinheit. – Kilometrs ir garuma mērvienība."
+        },
+        {
+          "word": "das Gewicht",
+          "meaning": "svars",
+          "example": "Das Gewicht beträgt zwei Kilo. – Svars ir divi kilogrami."
         }
       ],
-      "tip": "Gewicht ir svars, Einheit ir vienība.",
-      "important": "Gewichtseinheit ir tikai svara mērvienība; vispārīgi mērvienība ir Maßeinheit.",
+      "tip": [
+        "Saliktenim artikuls ir pēdējā locekļa artikuls: die Einheit, tātad die Gewichtseinheit.",
+        "Līdzīgi veido: Längeneinheit, Zeiteinheit, Volumeneinheit."
+      ],
+      "important": [
+        "Ikdienā vārds Gewicht bieži apzīmē masu, taču fizikā svars un masa ir dažādi jēdzieni."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Gewichtseinheit"
+            "die Gewichtseinheit",
+            "die Gewichtseinheiten",
+            "Gewichtseinheit",
+            "das Gewicht",
+            "die Einheit"
           ],
           "purple": [
-            "svara",
-            "mērvienību"
+            "svara mērvienība",
+            "mērvienība"
           ]
         },
         "examples": [
@@ -229,8 +247,7 @@ const C2_WORDS = [
             },
             "lv": {
               "purple": [
-                "svara",
-                "mērvienība"
+                "svara mērvienība"
               ]
             }
           },
@@ -242,21 +259,19 @@ const C2_WORDS = [
             },
             "lv": {
               "purple": [
-                "svara",
-                "mērvienību"
+                "svara mērvienība"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Gewichtseinheiten"
+                "Gewichtseinheit"
               ]
             },
             "lv": {
               "purple": [
-                "svara",
-                "mērvienības"
+                "svara mērvienību"
               ]
             }
           }
@@ -265,20 +280,11 @@ const C2_WORDS = [
           {
             "word": {
               "green": [
-                "Gewichtseinheit"
+                "die Maßeinheit"
               ]
             },
             "meaning": {
               "purple": [
-                "svara mērvienība"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Gewichtseinheit"
-              ],
-              "purple": [
-                "svara",
                 "mērvienība"
               ]
             }
@@ -286,30 +292,35 @@ const C2_WORDS = [
           {
             "word": {
               "green": [
-                "Maßeinheit"
+                "die Längeneinheit"
               ]
             },
             "meaning": {
               "purple": [
-                "mērvienība"
+                "garuma"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gewicht"
               ]
             },
-            "example": {
-              "red": [
-                "Maßeinheit"
+            "meaning": {
+              "purple": [
+                "svars"
               ]
             }
           }
         ],
-        "tip": {},
-        "important": {
-          "blue": [
-            "Gewichtseinheit"
-          ],
-          "red": [
-            "Maßeinheit"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },

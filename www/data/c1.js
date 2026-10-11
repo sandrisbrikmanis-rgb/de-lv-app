@@ -366,41 +366,63 @@ const C1_WORDS = [
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
       "translation": "vienģimenes māja",
-      "explanation": "Galvenā doma: das Einfamilienhaus ir māja vienai ģimenei. Tas parasti nozīmē atsevišķu privātmāju, nevis daudzdzīvokļu māju.",
+      "explanation": [
+        "Galvenā doma: das Einfamilienhaus ir māja, kas paredzēta vienai ģimenei — brīvi stāvoša vai ar kaimiņiem, bet ar vienu dzīvokli un parasti ar savu dārzu.",
+        "Vidējā dzimuma lietvārds: das Einfamilienhaus, daudzskaitlis die Einfamilienhäuser. Sastāv no Ein- + Familie + Haus.",
+        "Pretstats ir das Mehrfamilienhaus (daudzdzīvokļu māja)."
+      ],
       "examples": [
         {
-          "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "Viņi dzīvo vienģimenes mājā."
+          "de": "Sie wohnen in einem Einfamilienhaus am Stadtrand.",
+          "lv": "Viņi dzīvo vienģimenes mājā pilsētas nomalē."
         },
         {
-          "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "Vienģimenes mājai ir dārzs."
+          "de": "Das Einfamilienhaus hat einen kleinen Garten.",
+          "lv": "Vienģimenes mājai ir neliels dārzs."
         },
         {
-          "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "Blakus atrodas daudzdzīvokļu māja."
+          "de": "Sie träumen von einem eigenen Einfamilienhaus.",
+          "lv": "Viņi sapņo par savu vienģimenes māju."
+        },
+        {
+          "de": "In dieser Siedlung stehen nur Einfamilienhäuser.",
+          "lv": "Šajā apbūvē ir tikai vienģimenes mājas."
         }
       ],
       "comparison": [
         {
-          "word": "Einfamilienhaus",
-          "meaning": "vienģimenes māja",
-          "example": "Sie wohnen in einem Einfamilienhaus. = viņi dzīvo vienģimenes mājā."
+          "word": "das Mehrfamilienhaus",
+          "meaning": "daudzdzīvokļu māja",
+          "example": "Im Mehrfamilienhaus wohnen zehn Familien. – Daudzdzīvokļu mājā dzīvo desmit ģimenes."
         },
         {
-          "word": "Mehrfamilienhaus",
-          "meaning": "daudzdzīvokļu māja",
-          "example": "Im Mehrfamilienhaus wohnen viele Familien. = Daudzdzīvokļu mājā dzīvo daudzas ģimenes."
+          "word": "das Reihenhaus",
+          "meaning": "rindu māja",
+          "example": "Das Reihenhaus steht zwischen zwei anderen. – Rindu māja stāv starp divām citām."
+        },
+        {
+          "word": "das Hochhaus",
+          "meaning": "augstceltne",
+          "example": "Im Hochhaus gibt es einen Aufzug. – Augstceltnē ir lifts."
         }
       ],
-      "tip": "Ein- un Mehr- rāda, cik ģimenēm māja paredzēta.",
-      "important": "Einfamilienhaus ir atsevišķa privātmāja, nevis dzīvoklis.",
+      "tip": [
+        "Saliktenis tiek lasīts pa daļām: ein + Familie + Haus.",
+        "Biežs savienojums: ein Einfamilienhaus bauen / kaufen / mieten."
+      ],
+      "important": [
+        "Einfamilienhaus nav tas pats, kas Villa: tā var būt arī pavisam vienkārša māja."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Einfamilienhaus"
+            "das Einfamilienhaus",
+            "die Einfamilienhäuser",
+            "Mehrfamilienhaus"
           ],
           "purple": [
+            "vienai ģimenei",
+            "māja",
             "daudzdzīvokļu"
           ]
         },
@@ -413,7 +435,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienģimenes"
+                "vienģimenes mājā"
               ]
             }
           },
@@ -425,19 +447,31 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienģimenes"
+                "Vienģimenes mājai"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Mehrfamilienhaus"
+                "Einfamilienhaus"
               ]
             },
             "lv": {
               "purple": [
-                "daudzdzīvokļu"
+                "vienģimenes māju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhäuser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienģimenes mājas"
               ]
             }
           }
@@ -446,47 +480,47 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Einfamilienhaus"
+                "das Mehrfamilienhaus"
               ]
             },
             "meaning": {
               "purple": [
-                "vienģimenes māja"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Einfamilienhaus"
-              ],
-              "purple": [
-                "vienģimenes"
+                "daudzdzīvokļu"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Mehrfamilienhaus"
+                "das Reihenhaus"
               ]
             },
             "meaning": {
               "purple": [
-                "daudzdzīvokļu māja"
+                "rindu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Hochhaus"
               ]
             },
-            "example": {
-              "red": [
-                "Mehrfamilienhaus"
+            "meaning": {
+              "purple": [
+                "augstceltne"
               ]
             }
           }
         ],
-        "tip": {},
-        "important": {
-          "blue": [
-            "Einfamilienhaus"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -871,42 +905,66 @@ const C1_WORDS = [
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
       "translation": "sabiedrība • atklātība",
-      "explanation": "Galvenā doma: die Öffentlichkeit nozīmē sabiedrību kā publisko telpu vai cilvēkus kopumā. Frāzē an die Öffentlichkeit kommen tas nozīmē nonākt atklātībā.",
+      "explanation": [
+        "Galvenā doma: die Öffentlichkeit ir sabiedrība kā visi cilvēki, kam kaut kas ir pieejams vai zināms, un reizē arī atklātība — stāvoklis, ka kaut kas nav slepens.",
+        "Sieviešu dzimtes lietvārds: die Öffentlichkeit, daudzskaitļa praktiski nav. Bieži izteicieni: in der Öffentlichkeit (publiski), an die Öffentlichkeit gehen (publiskot), unter Ausschluss der Öffentlichkeit (bez sabiedrības klātbūtnes), die Öffentlichkeit informieren.",
+        "Latviešu vārds sabiedrība bieži atbilst arī die Gesellschaft, taču tā ir cita nozīme."
+      ],
       "examples": [
         {
-          "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "Sabiedrība reaģēja kritiski."
+          "de": "Der Politiker trat vor die Öffentlichkeit.",
+          "lv": "Politiķis uzstājās sabiedrības priekšā."
         },
         {
-          "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "Lieta nonāca atklātībā."
+          "de": "In der Öffentlichkeit darf man hier nicht rauchen.",
+          "lv": "Publiskās vietās šeit smēķēt nedrīkst."
         },
         {
-          "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "Sabiedrībai ir tiesības uz informāciju."
+          "de": "Die Verhandlung fand unter Ausschluss der Öffentlichkeit statt.",
+          "lv": "Tiesas sēde notika bez sabiedrības klātbūtnes."
+        },
+        {
+          "de": "Die Firma will den Skandal nicht an die Öffentlichkeit bringen.",
+          "lv": "Uzņēmums nevēlas skandālu padarīt publisku."
         }
       ],
       "comparison": [
         {
-          "word": "Öffentlichkeit",
-          "meaning": "sabiedrība, atklātība",
-          "example": "Die Öffentlichkeit reagierte kritisch. = sabiedrība reaģēja kritiski."
+          "word": "die Gesellschaft",
+          "meaning": "sabiedrība (kā sistēma)",
+          "example": "Die Gesellschaft verändert sich. – Sabiedrība mainās."
         },
         {
-          "word": "Publikum",
+          "word": "das Publikum",
           "meaning": "publika",
-          "example": "Das Publikum klatscht. = Publika aplaudē."
+          "example": "Das Publikum klatscht. – Publika aplaudē."
+        },
+        {
+          "word": "die Bevölkerung",
+          "meaning": "iedzīvotāji",
+          "example": "Die Bevölkerung wächst. – Iedzīvotāju skaits aug."
         }
       ],
-      "tip": "Frāze an die Öffentlichkeit kommen nozīmē nonākt atklātībā.",
-      "important": "Öffentlichkeit ir plaša sabiedrība; Publikum ir konkrēta publika, piemēram, zālē.",
+      "tip": [
+        "Lieto kopā ar prievārdiem: in der Öffentlichkeit (kur?), an die Öffentlichkeit (kurp?).",
+        "Līdzīga nozīme ir vārdam die Allgemeinheit (visi cilvēki kopumā)."
+      ],
+      "important": [
+        "Daudzskaitli parasti nelieto: nav die Öffentlichkeiten."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Öffentlichkeit"
+            "die Öffentlichkeit",
+            "in der Öffentlichkeit",
+            "an die Öffentlichkeit gehen",
+            "unter Ausschluss der Öffentlichkeit",
+            "Gesellschaft"
           ],
           "purple": [
-            "atklātībā"
+            "sabiedrība",
+            "atklātība",
+            "publiski"
           ]
         },
         "examples": [
@@ -918,7 +976,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sabiedrība"
+                "sabiedrības"
               ]
             }
           },
@@ -930,7 +988,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "atklātībā"
+                "Publiskās vietās"
               ]
             }
           },
@@ -942,7 +1000,19 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "sabiedrībai"
+                "sabiedrības"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "publisku"
               ]
             }
           }
@@ -951,19 +1021,10 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Öffentlichkeit"
+                "die Gesellschaft"
               ]
             },
             "meaning": {
-              "purple": [
-                "sabiedrība",
-                "atklātība"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Öffentlichkeit"
-              ],
               "purple": [
                 "sabiedrība"
               ]
@@ -972,37 +1033,35 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Publikum"
+                "das Publikum"
               ]
             },
             "meaning": {
               "purple": [
                 "publika"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bevölkerung"
+              ]
             },
-            "example": {
-              "red": [
-                "Publikum"
+            "meaning": {
+              "purple": [
+                "iedzīvotāji"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Öffentlichkeit"
-          ],
-          "purple": [
-            "atklātībā"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Öffentlichkeit"
-          ],
-          "red": [
-            "Publikum"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -1023,57 +1082,66 @@ const C1_WORDS = [
       "id": "c1-partei",
       "layout": "standardStudy",
       "translation": "partija • puse",
-      "explanation": "Galvenā doma: die Partei parasti ir politiska partija. Juridiskā vai konflikta valodā tā var nozīmēt arī pusi.",
+      "explanation": [
+        "Galvenā doma: die Partei ir politiska partija (die CDU ist eine Partei), bet arī puse strīdā, tiesā vai līgumā: die Streitparteien, die Vertragsparteien.",
+        "Sieviešu dzimtes lietvārds: die Partei, daudzskaitlis die Parteien. Izteiciens Partei ergreifen für jemanden — nostāties kāda pusē.",
+        "Politikas kontekstā bieži lieto: eine Partei gründen (dibināt partiju), in eine Partei eintreten (iestāties partijā), die Regierungspartei (valdošā partija)."
+      ],
       "examples": [
         {
-          "de": "Diese Partei gewann die Wahl.",
-          "lv": "Šī partija uzvarēja vēlēšanās."
+          "de": "Sie ist Mitglied einer Partei.",
+          "lv": "Viņa ir kādas partijas biedre."
         },
         {
-          "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "Viņš jau gadiem ir partijas biedrs."
+          "de": "Die Parteien verhandeln über eine Koalition.",
+          "lv": "Partijas vienojas par koalīciju."
         },
         {
-          "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "Abām pusēm jāparaksta līgums."
+          "de": "Im Streit ergriff er Partei für seinen Bruder.",
+          "lv": "Strīdā viņš nostājās sava brāļa pusē."
+        },
+        {
+          "de": "Beide Parteien haben den Vertrag unterschrieben.",
+          "lv": "Abas puses ir parakstījušas līgumu."
         }
       ],
       "comparison": [
         {
-          "word": "Partei",
-          "meaning": "partija, puse",
-          "example": "Diese Partei gewann die Wahl. = šī partija uzvarēja vēlēšanās."
+          "word": "die Seite",
+          "meaning": "puse",
+          "example": "Auf welcher Seite stehst du? – Kurā pusē tu stāvi?"
         },
         {
-          "word": "Partie",
-          "meaning": "spēles partija",
-          "example": "Wir spielen eine Partie Schach. = Mēs spēlējam šaha partiju."
+          "word": "der Verein",
+          "meaning": "biedrība",
+          "example": "Er ist im Sportverein. – Viņš ir sporta biedrībā."
+        },
+        {
+          "word": "die Gruppe",
+          "meaning": "grupa",
+          "example": "Die Gruppe trifft sich heute. – Grupa šodien tiekas."
         }
       ],
-      "tip": "Ja runa ir par vēlēšanām, domā politiskā partija; ja par līgumu vai tiesu, domā puse.",
-      "important": "Partei nav tas pats, kas Partie (spēles partija).",
+      "tip": [
+        "Partei ergreifen (kāda pusē) ir noderīgs izteiciens strīdu aprakstos.",
+        "Politikā saka eine Partei wählen vai für eine Partei stimmen."
+      ],
+      "important": [
+        "Die Partei un die Party (ballīte) skan līdzīgi, bet nav saistīti."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Partei"
+            "die Partei",
+            "die Parteien",
+            "Partei ergreifen"
           ],
           "purple": [
-            "partija"
+            "partija",
+            "puse"
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "Partei"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "partija"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -1094,7 +1162,31 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pusēm"
+                "Partijas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pusē"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "puses"
               ]
             }
           }
@@ -1103,56 +1195,47 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Partei"
+                "die Seite"
               ]
             },
             "meaning": {
               "purple": [
-                "partija",
                 "puse"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Partei"
-              ],
-              "purple": [
-                "partija"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Partie"
+                "der Verein"
               ]
             },
             "meaning": {
               "purple": [
-                "spēles partija"
+                "biedrība"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gruppe"
               ]
             },
-            "example": {
-              "red": [
-                "Partie"
+            "meaning": {
+              "purple": [
+                "grupa"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "partija",
-            "puse"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Partei"
-          ],
-          "red": [
-            "Partie"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -1208,42 +1291,65 @@ const C1_WORDS = [
       "id": "c1-prozess",
       "layout": "standardStudy",
       "translation": "process • prāva",
-      "explanation": "Galvenā doma: der Prozess ir process vai norise. Tiesā der Prozess nozīmē prāvu.",
+      "explanation": [
+        "Galvenā doma: der Prozess ir vārds ar divām galvenajām nozīmēm: process, norise (ein langsamer Prozess) un tiesas prāva (ein Prozess gegen jemanden).",
+        "Vīriešu dzimtes lietvārds: der Prozess, daudzskaitlis die Prozesse. Prāvu var vest, uzsākt, uzvarēt vai zaudēt: einen Prozess führen, gewinnen, verlieren.",
+        "Izteiciens kurzen Prozess machen nozīmē rīkoties bez ilgas vilcināšanās, nesaudzīgi."
+      ],
       "examples": [
         {
-          "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "Process ilgst vairākus mēnešus."
+          "de": "Der Prozess gegen den Angeklagten dauert Monate.",
+          "lv": "Prāva pret apsūdzēto ilgst mēnešus."
         },
         {
-          "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "Tiesas prāva sākas rīt."
+          "de": "Die Heilung ist ein langsamer Prozess.",
+          "lv": "Dziedināšanās ir lēns process."
         },
         {
-          "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "Mēs uzlabojam visu procesu."
+          "de": "Sie haben den Prozess gewonnen.",
+          "lv": "Viņi uzvarēja tiesas prāvā."
+        },
+        {
+          "de": "Die Firma machte kurzen Prozess und kündigte ihm.",
+          "lv": "Uzņēmums nevilcinājās un viņu atlaida."
         }
       ],
       "comparison": [
         {
-          "word": "Prozess",
-          "meaning": "process, prāva",
-          "example": "Der Prozess dauert mehrere Monate. = process ilgst vairākus mēnešus."
+          "word": "der Vorgang",
+          "meaning": "norise",
+          "example": "Der Vorgang dauert eine Stunde. – Norise ilgst stundu."
         },
         {
-          "word": "Verfahren",
-          "meaning": "procedūra",
-          "example": "Das Verfahren ist einfach. = Procedūra ir vienkārša."
+          "word": "die Verhandlung",
+          "meaning": "tiesas sēde",
+          "example": "Die Verhandlung beginnt um neun. – Tiesas sēde sākas deviņos."
+        },
+        {
+          "word": "die Klage",
+          "meaning": "prasība",
+          "example": "Er reichte eine Klage ein. – Viņš iesniedza prasību."
         }
       ],
-      "tip": "Tiesā Prozess ir prāva, citur tas ir process vai norise.",
-      "important": "Prozess nav tas pats, kas Verfahren: Verfahren ir noteikta procedūra vai metode.",
+      "tip": [
+        "Ja runa ir par tiesu, bieži sastopami darbības vārdi: einen Prozess führen / gewinnen / verlieren.",
+        "Tehniskā un zinātniskā nozīmē process ir viens: der Prozess der Herstellung."
+      ],
+      "important": [
+        "Šajā nozīmē vārds nav vidējā dzimuma: der Prozess (nevis das)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Prozess"
+            "der Prozess",
+            "die Prozesse",
+            "Prozess",
+            "einen Prozess führen",
+            "kurzen Prozess machen"
           ],
           "purple": [
-            "process"
+            "process",
+            "prāva"
           ]
         },
         "examples": [
@@ -1255,6 +1361,18 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
+                "Prāva"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
                 "process"
               ]
             }
@@ -1267,7 +1385,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "prāva"
+                "prāvā"
               ]
             }
           },
@@ -1279,7 +1397,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "procesu"
+                "nevilcinājās"
               ]
             }
           }
@@ -1288,59 +1406,47 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Prozess"
+                "der Vorgang"
               ]
             },
             "meaning": {
               "purple": [
-                "process",
-                "prāva"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Prozess"
-              ],
-              "purple": [
-                "process"
+                "norise"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Verfahren"
+                "die Verhandlung"
               ]
             },
             "meaning": {
               "purple": [
-                "procedūra"
+                "sēde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Klage"
               ]
             },
-            "example": {
-              "red": [
-                "Verfahren"
+            "meaning": {
+              "purple": [
+                "prasība"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Prozess"
-          ],
-          "purple": [
-            "process",
-            "prāva"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Prozess"
-          ],
-          "red": [
-            "Verfahren"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -1735,83 +1841,90 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "apkopot • rezumēt",
       "explanation": [
-        "Galvenā doma: zusammenfassen ir darbības vārds — apkopot vai sakopot informāciju vienā īsā izklāstā.",
-        "zusammenfassen lieto, ja no vairākiem faktiem, tekstiem vai domām tiek izveidots īss pārskats.",
-        "Nejauc ar die Zusammenfassung — tas ar lielo burtu un artikulu die ir lietvārds, kas apzīmē pašu kopsavilkumu (rezultātu, gatavu tekstu).",
-        "zusammenfassen = process/darbība (apkopot, rezumēt); die Zusammenfassung = rezultāts (kopsavilkums kā lietvārds).",
-        "Kā daudzi vācu darbības vārdi, zusammenfassen var kļūt par lietvārdu ar lielo burtu un artikulu: zusammenfassen → die Zusammenfassung (substantivizācija)."
+        "Galvenā doma: zusammenfassen nozīmē īsi apkopot galveno no teksta, runas vai rezultātiem; arī apvienot vairākas lietas vienā veselumā.",
+        "Atdalāmais darbības vārds: er fasst zusammen, fasste zusammen, hat zusammengefasst. Ko apkopo — akuzatīvs: einen Text zusammenfassen. Bieži seko in + datīvs vai zu + datīvs: in einem Satz zusammenfassen. Lietvārds ir die Zusammenfassung.",
+        "Teikuma sākumā bieži lieto zusammenfassend (kopsavilkumā): Zusammenfassend lässt sich sagen …"
       ],
       "examples": [
         {
-          "de": "Können Sie den Text zusammenfassen?",
-          "lv": "Vai jūs varat apkopot šo tekstu?"
+          "de": "Fasst bitte den Text in drei Sätzen zusammen.",
+          "lv": "Apkopojiet tekstu trijos teikumos, lūdzu."
         },
         {
-          "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "Es apkopoju svarīgākos punktus."
+          "de": "Der Redner fasste die Ergebnisse kurz zusammen.",
+          "lv": "Runātājs īsi apkopoja rezultātus."
         },
         {
-          "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "Viņš īsi rezumēja pārskatu."
+          "de": "Wir haben die Vorschläge in einer Liste zusammengefasst.",
+          "lv": "Mēs priekšlikumus apkopojām sarakstā."
         },
         {
-          "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "Apkopojot var sacīt, ka..."
+          "de": "Kannst du den Film kurz zusammenfassen?",
+          "lv": "Vai vari īsi izstāstīt filmas saturu?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zusammenstellen",
+          "meaning": "sastādīt",
+          "example": "Ich stelle eine Liste zusammen. – Es sastādu sarakstu."
         },
         {
-          "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "Es rakstu grāmatas kopsavilkumu."
+          "word": "kürzen",
+          "meaning": "saīsināt",
+          "example": "Wir kürzen den Text. – Mēs saīsinām tekstu."
         },
         {
-          "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "Kopsavilkums ir pārāk garš."
+          "word": "wiederholen",
+          "meaning": "atkārtot",
+          "example": "Wiederhole den Satz. – Atkārto teikumu."
         }
       ],
       "tip": [
-        "zusammenfassen (darbības vārds) = process — apkopot/rezumēt.",
-        "die Zusammenfassung (lietvārds, ar lielo burtu un artikulu die) = rezultāts — pats kopsavilkums."
+        "Atceries atdalīšanu: Ich fasse den Text zusammen, bet blakusteikumā …, weil ich den Text zusammenfasse.",
+        "Pēc zusammenfassen bieži seko in einem Satz / in drei Punkten."
       ],
       "important": [
-        "zusammenfassen = apkopot/rezumēt (darbības vārds).",
-        "die Zusammenfassung = kopsavilkums (lietvārds, substantivizēts no zusammenfassen).",
-        "Nepareizi: die zusammenfassen → Pareizi: die Zusammenfassung (lietvārds vienmēr ar lielo burtu)."
+        "Perfekta divdabis ir zusammengefasst (ar -ge- starp zusammen un fasst).",
+        "Nejauc ar zusammenstellen: tas nozīmē sastādīt, nevis īsi atstāstīt."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "zusammenfassen"
+            "zusammenfassen",
+            "zusammenfassend",
+            "fasst zusammen",
+            "fasste zusammen",
+            "zusammengefasst",
+            "Zusammenfassung"
           ],
           "purple": [
             "apkopot",
-            "rezumēt"
-          ],
-          "green": [
-            "die Zusammenfassung"
+            "apvienot"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "zusammenfassen"
+                "Fasst"
               ]
             },
             "lv": {
               "purple": [
-                "apkopot"
+                "Apkopojiet"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fasse",
-                "zusammen"
+                "fasste"
               ]
             },
             "lv": {
               "purple": [
-                "apkopoju"
+                "apkopoja"
               ]
             }
           },
@@ -1823,78 +1936,68 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "rezumēja"
+                "apkopojām"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Zusammenfassend"
+                "zusammenfassen"
               ]
             },
             "lv": {
               "purple": [
-                "apkopojot"
+                "izstāstīt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zusammenstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sastādīt"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "kürzen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "kopsavilkumu"
+                "saīsināt"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "wiederholen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "kopsavilkums"
+                "atkārtot"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ],
-            "red": [
-              "die zusammenfassen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -1949,56 +2052,66 @@ const C1_WORDS = [
       "id": "c1-wahl",
       "layout": "standardStudy",
       "translation": "izvēle • vēlēšanas",
-      "explanation": "die Wahl var nozīmēt izvēli starp iespējām. Politikas kontekstā Wahl nozīmē vēlēšanas. Tā var nozīmēt arī pašu balsošanu. Frāze eine Wahl treffen nozīmē izdarīt izvēli. zur Wahl gehen nozīmē doties uz vēlēšanām. Konteksts par politiku vai personīgu lēmumu parāda pareizo nozīmi.",
+      "explanation": [
+        "Galvenā doma: die Wahl nozīmē izvēli (ko izvēlas no vairākām iespējām) un vēlēšanas (cilvēku ievēlēšanu amatā).",
+        "Sieviešu dzimtes lietvārds: die Wahl, daudzskaitlis die Wahlen. Vēlēšanas ļoti bieži lieto daudzskaitlī: die Wahlen finden statt. Izvēle ir parasti vienskaitlī: die Wahl haben, keine andere Wahl haben.",
+        "Savienojumi: die Wahl treffen (izdarīt izvēli), zur Wahl gehen (iet vēlēt), die Wahl gewinnen (uzvarēt vēlēšanās)."
+      ],
       "examples": [
         {
-          "de": "Du hast die Wahl.",
-          "lv": "Tev ir izvēle."
+          "de": "Du hast die Wahl zwischen Tee und Kaffee.",
+          "lv": "Tev ir izvēle starp tēju un kafiju."
         },
         {
-          "de": "Ich treffe meine Wahl morgen.",
-          "lv": "Es izdaru savu izvēli rīt."
+          "de": "Die Wahlen finden im Herbst statt.",
+          "lv": "Vēlēšanas notiek rudenī."
         },
         {
-          "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "Vēlēšanas notiek svētdien."
+          "de": "Er hatte keine andere Wahl.",
+          "lv": "Viņam nebija citas izvēles."
         },
         {
-          "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "Daudzi cilvēki dodas uz vēlēšanām."
-        },
-        {
-          "de": "Die freie Wahl ist wichtig.",
-          "lv": "Brīva izvēle ir svarīga."
-        },
-        {
-          "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "Vēlēšanās mēs balsojam."
+          "de": "Die Wahl des Bürgermeisters ist am Sonntag.",
+          "lv": "Mēra vēlēšanas ir svētdien."
         }
       ],
       "comparison": [
         {
-          "word": "Wahl",
-          "meaning": "izvēle, vēlēšanas",
-          "example": "Du hast die Wahl. = tev ir izvēle."
+          "word": "die Auswahl",
+          "meaning": "izvēle (klāsts)",
+          "example": "Im Laden gibt es eine große Auswahl. – Veikalā ir liels izvēles klāsts."
         },
         {
-          "word": "Auswahl",
-          "meaning": "izvēles klāsts",
-          "example": "Es gibt eine große Auswahl. = Ir liela izvēle."
+          "word": "die Entscheidung",
+          "meaning": "lēmums",
+          "example": "Das ist meine Entscheidung. – Tas ir mans lēmums."
+        },
+        {
+          "word": "die Abstimmung",
+          "meaning": "balsojums",
+          "example": "Die Abstimmung ist morgen. – Balsojums ir rīt."
         }
       ],
-      "tip": "Ja runa ir par balsošanu, domā vēlēšanas; ja par lēmumu, domā izvēle.",
-      "important": "Die Wahl ir pati izvēle vai balsošana, bet Auswahl ir izvēles klāsts.",
+      "tip": [
+        "Domā par kontekstu: Wahl bez daudzskaitļa bieži ir izvēle, die Wahlen — vēlēšanas.",
+        "Vēlēšanu darbības vārds ir wählen (vēlēt, izvēlēties)."
+      ],
+      "important": [
+        "Nejauc die Wahl ar die Auswahl: Auswahl ir piedāvājums, no kura izvēlas."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Wahl"
+            "die Wahl",
+            "die Wahlen",
+            "Wahlen",
+            "Wahl",
+            "zur Wahl gehen",
+            "die Wahl treffen"
           ],
           "purple": [
-            "vēlēšanas",
             "izvēli",
-            "vēlēšanām"
+            "vēlēšanas"
           ]
         },
         "examples": [
@@ -2017,12 +2130,24 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
+                "Wahlen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Vēlēšanas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "Wahl"
               ]
             },
             "lv": {
               "purple": [
-                "izvēli"
+                "izvēles"
               ]
             }
           },
@@ -2035,42 +2160,6 @@ const C1_WORDS = [
             "lv": {
               "purple": [
                 "vēlēšanas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wahl"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vēlēšanām"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wahl"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "izvēle"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wahl"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vēlēšanās"
               ]
             }
           }
@@ -2079,56 +2168,47 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Wahl"
+                "die Auswahl"
               ]
             },
             "meaning": {
               "purple": [
-                "izvēle",
-                "vēlēšanas"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Wahl"
-              ],
-              "purple": [
-                "izvēle"
+                "klāsts"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Auswahl"
+                "die Entscheidung"
               ]
             },
             "meaning": {
               "purple": [
-                "izvēles klāsts"
+                "lēmums"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Abstimmung"
               ]
             },
-            "example": {
-              "red": [
-                "Auswahl"
+            "meaning": {
+              "purple": [
+                "balsojums"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "izvēle",
-            "vēlēšanas"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Wahl"
-          ],
-          "red": [
-            "Auswahl"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -2244,43 +2324,64 @@ const C1_WORDS = [
       "id": "c1-befangenheit",
       "layout": "standardStudy",
       "translation": "samulsums • apmulsums",
-      "explanation": "Galvenā doma: Befangenheit ir samulsums vai apmulsums citu priekšā. Befangenheit raksturo nedrošību vai neērtu sajūtu, kas redzama uzvedībā vai runā.",
+      "explanation": [
+        "Galvenā doma: die Befangenheit ir apmulsums vai kautrīga neveiklība, kas rodas svešā situācijā vai cilvēku priekšā. Juridiski tā nozīmē arī neobjektivitāti, piemēram, tiesneša vai eksperta aizspriedumainību.",
+        "Sieviešu dzimtes lietvārds: die Befangenheit, daudzskaitļa parasti nav. Īpašības vārds ir befangen (apmulsis, neobjektīvs).",
+        "Tiesā izteiciens Besorgnis der Befangenheit apzīmē šaubas par tiesneša objektivitāti; no tā cēlies Befangenheitsantrag (lūgums noraidīt tiesnesi)."
+      ],
       "examples": [
         {
-          "de": "Seine Befangenheit war deutlich zu erkennen.",
-          "lv": "Viņa samulsums bija skaidri manāms."
+          "de": "Seine Befangenheit war deutlich zu spüren.",
+          "lv": "Viņa samulsums bija skaidri jūtams."
         },
         {
-          "de": "Sie versuchte, ihre Befangenheit zu verbergen.",
-          "lv": "Viņa centās noslēpt savu apmulsumu."
+          "de": "Sie sprach ohne jede Befangenheit vor der Gruppe.",
+          "lv": "Viņa runāja grupas priekšā bez mazākā samulsuma."
         },
         {
-          "de": "Sie sprach mit Befangenheit.",
-          "lv": "Viņa runāja ar samulsumu."
+          "de": "Vor Fremden hatte das Kind eine gewisse Befangenheit.",
+          "lv": "Svešu cilvēku priekšā bērnam bija zināms apmulsums."
+        },
+        {
+          "de": "Der Anwalt stellte einen Antrag wegen Befangenheit des Richters.",
+          "lv": "Advokāts iesniedza lūgumu sakarā ar tiesneša neobjektivitāti."
         }
       ],
       "comparison": [
         {
-          "word": "Befangenheit",
-          "meaning": "samulsums, apmulsums",
-          "example": "Seine Befangenheit war deutlich zu erkennen. = Viņa samulsums bija skaidri manāms."
+          "word": "die Verlegenheit",
+          "meaning": "neveiklība",
+          "example": "Er lachte aus Verlegenheit. – Viņš smējās no neveiklības."
         },
         {
-          "word": "Schüchternheit",
+          "word": "die Voreingenommenheit",
+          "meaning": "aizspriedumainība",
+          "example": "Ihre Voreingenommenheit stört mich. – Viņas aizspriedumainība mani traucē."
+        },
+        {
+          "word": "die Schüchternheit",
           "meaning": "kautrība",
-          "example": "Seine Schüchternheit fällt auf. = Viņa kautrība ir pamanāma."
+          "example": "Seine Schüchternheit verschwand. – Viņa kautrība pazuda."
         }
       ],
-      "tip": "Ja cilvēks jūtas nedroši citu priekšā, domā Befangenheit.",
-      "important": "Tiesu valodā Befangenheit var nozīmēt arī neobjektivitāti.",
+      "tip": [
+        "Ja tiesā runā par Befangenheit, nozīme ir neobjektivitāte, nevis apmulsums.",
+        "Apmulsuma nozīmē vārds ir grāmatisks; ikdienā biežāk sakām verlegen sein."
+      ],
+      "important": [
+        "Pretstats ir Unbefangenheit (nepiespiestība, bezrūpība) vai Objektivität (objektivitāte)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Befangenheit"
+            "die Befangenheit",
+            "Befangenheit",
+            "befangen",
+            "Befangenheitsantrag"
           ],
           "purple": [
-            "samulsums",
-            "apmulsums"
+            "apmulsums",
+            "neobjektivitāti"
           ]
         },
         "examples": [
@@ -2304,7 +2405,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "apmulsumu"
+                "samulsuma"
               ]
             }
           },
@@ -2316,7 +2417,19 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "samulsumu"
+                "apmulsums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neobjektivitāti"
               ]
             }
           }
@@ -2325,52 +2438,47 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Befangenheit"
+                "die Verlegenheit"
               ]
             },
             "meaning": {
               "purple": [
-                "samulsums",
-                "apmulsums"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Befangenheit"
-              ],
-              "purple": [
-                "samulsums"
+                "neveiklība"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Schüchternheit"
+                "die Voreingenommenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aizspriedumainība"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schüchternheit"
               ]
             },
             "meaning": {
               "purple": [
                 "kautrība"
               ]
-            },
-            "example": {
-              "red": [
-                "Schüchternheit"
-              ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Befangenheit"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Befangenheit"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -2473,41 +2581,67 @@ const C1_WORDS = [
       "id": "c1-berufung",
       "layout": "standardStudy",
       "translation": "aicinājums • atsaukšanās",
-      "explanation": "Galvenā doma: Berufung ir aicinājums vai atsaukšanās uz kaut ko. Berufung als ... nozīmē aicinājumu, aicinājumu uz profesiju. Unter Berufung auf ... nozīmē atsaucoties uz likumu vai dokumentu.",
+      "explanation": [
+        "Galvenā doma: die Berufung ir vārds ar vairākām nozīmēm. Aicinājums (iekšējs aicinājums uz profesiju), iecelšana amatā (īpaši augstskolā), atsaukšanās uz ko (unter Berufung auf), un jurisprudencē apelācija (Berufung einlegen).",
+        "Sieviešu dzimtes lietvārds: die Berufung, daudzskaitlis die Berufungen. Atbilstošais darbības vārds ir berufen, bet atsaukšanos izsaka sich berufen auf + akuzatīvs.",
+        "Nozīmi parasti nosaka savienojums: Berufung einlegen — iesniegt apelāciju; unter Berufung auf — atsaucoties uz."
+      ],
       "examples": [
         {
-          "de": "Sie sieht ihren Beruf als Berufung.",
-          "lv": "Viņa savu profesiju uzskata par aicinājumu."
+          "de": "Sie spürt die Berufung zur Ärztin.",
+          "lv": "Viņa jūt aicinājumu kļūt par ārsti."
         },
         {
-          "de": "Unter Berufung auf das Gesetz widersprach er.",
-          "lv": "Atsaucoties uz likumu, viņš iebilda."
+          "de": "Die Anwältin legte gegen das Urteil Berufung ein.",
+          "lv": "Advokāte iesniedza apelāciju pret spriedumu."
+        },
+        {
+          "de": "Er lehnte die Fragen unter Berufung auf das Datenschutzgesetz ab.",
+          "lv": "Viņš noraidīja jautājumus, atsaucoties uz datu aizsardzības likumu."
+        },
+        {
+          "de": "Seine Berufung an die Universität kam überraschend.",
+          "lv": "Viņa iecelšana universitātē bija negaidīta."
         }
       ],
       "comparison": [
         {
-          "word": "Berufung",
-          "meaning": "aicinājums, atsaukšanās",
-          "example": "Sie sieht ihren Beruf als Berufung. = Viņa savu profesiju uzskata par aicinājumu."
+          "word": "der Beruf",
+          "meaning": "profesija",
+          "example": "Mein Beruf ist Lehrer. – Mana profesija ir skolotājs."
         },
         {
-          "word": "Beruf",
-          "meaning": "profesija",
-          "example": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
+          "word": "der Einspruch",
+          "meaning": "iebildums",
+          "example": "Er legte Einspruch ein. – Viņš iesniedza iebildumu."
+        },
+        {
+          "word": "die Revision",
+          "meaning": "kasācija",
+          "example": "Die Revision wurde abgelehnt. – Kasācija tika noraidīta."
         }
       ],
-      "tip": "Ja seko auf, domā par atsaukšanos; ja runa par profesiju, domā par aicinājumu.",
-      "important": "Berufung nav tas pats, kas Beruf (profesija). Berufung ir dziļāks aicinājums.",
+      "tip": [
+        "Iegaumē divus stabilus savienojumus: Berufung einlegen (apelēt) un unter Berufung auf (atsaucoties uz).",
+        "Der Beruf (profesija) un die Berufung (aicinājums) ir radniecīgi, bet nozīmē dažādas lietas."
+      ],
+      "important": [
+        "Apelācija vācu tiesību sistēmā (Berufung) nav tas pats, kas Revision, kas pārbauda tikai tiesību piemērošanu."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Berufung"
+            "die Berufung",
+            "Berufung",
+            "Berufungen",
+            "Berufung einlegen",
+            "unter Berufung auf",
+            "sich berufen auf"
           ],
           "purple": [
             "aicinājums",
             "atsaukšanās",
-            "aicinājumu",
-            "Atsaucoties"
+            "apelācija"
           ]
         },
         "examples": [
@@ -2531,7 +2665,31 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Atsaucoties"
+                "apelāciju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsaucoties"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "iecelšana"
               ]
             }
           }
@@ -2540,55 +2698,47 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Berufung"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "aicinājums",
-                "atsaukšanās"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Berufung"
-              ],
-              "purple": [
-                "aicinājumu"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "Beruf"
+                "der Beruf"
               ]
             },
             "meaning": {
               "purple": [
                 "profesija"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Einspruch"
+              ]
             },
-            "example": {
-              "red": [
-                "Beruf"
+            "meaning": {
+              "purple": [
+                "iebildums"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Revision"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kasācija"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "aicinājumu"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Berufung"
-          ],
-          "red": [
-            "Beruf"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -3110,40 +3260,66 @@ const C1_WORDS = [
       "id": "c1-festgesetzt",
       "layout": "standardStudy",
       "translation": "noteikts • nolikts",
-      "explanation": "Galvenā doma: festgesetzt nozīmē noteikts vai nolikts. Festgesetzt ir divdabis no festsetzen. Tas nozīmē, ka cena, datums vai maksa ir oficiāli noteikta.",
+      "explanation": [
+        "Galvenā doma: festgesetzt ir divdabis no festsetzen un nozīmē oficiāli noteikts, nolikts vai noteikts (termiņš, cena, sods). Tas apraksta kaut ko, kas ir noteikts kā saistošs.",
+        "Atdalāmais darbības vārds: er setzt fest, setzte fest, hat festgesetzt. Kā īpašības vārds lokās: der festgesetzte Termin, die festgesetzte Frist. Pasīvā: wurde festgesetzt.",
+        "Jurisprudencē festsetzen var nozīmēt arī aizturēt cilvēku: Die Täter wurden festgesetzt."
+      ],
       "examples": [
         {
-          "de": "Die Gebühr ist festgesetzt.",
-          "lv": "Maksa ir noteikta."
+          "de": "Der Termin ist auf den 5. Mai festgesetzt.",
+          "lv": "Termiņš ir noteikts uz 5. maiju."
         },
         {
-          "de": "Der Prüfungstermin ist festgesetzt.",
-          "lv": "Eksāmena datums ir nolikts."
+          "de": "Die Preise wurden vom Staat festgesetzt.",
+          "lv": "Cenas noteica valsts."
+        },
+        {
+          "de": "Die Strafe wurde auf zwei Jahre festgesetzt.",
+          "lv": "Sods tika noteikts uz diviem gadiem."
+        },
+        {
+          "de": "Die festgesetzte Frist läuft morgen ab.",
+          "lv": "Noteiktais termiņš beidzas rīt."
         }
       ],
       "comparison": [
         {
-          "word": "festgesetzt",
-          "meaning": "noteikts, nolikts",
-          "example": "Die Gebühr ist festgesetzt. = Maksa ir noteikta."
+          "word": "festgelegt",
+          "meaning": "noteikts (vienojoties)",
+          "example": "Der Plan ist festgelegt. – Plāns ir noteikts."
         },
         {
-          "word": "festgelegt",
-          "meaning": "noteikts",
-          "example": "Der Termin ist festgelegt. = Datums ir noteikts."
+          "word": "beschlossen",
+          "meaning": "nolemts",
+          "example": "Das wurde beschlossen. – Tas tika nolemts."
+        },
+        {
+          "word": "bestimmt",
+          "meaning": "noteikts, paredzēts",
+          "example": "Der Ort ist bestimmt. – Vieta ir noteikta."
         }
       ],
-      "tip": "Ja kaut kas ir oficiāli noteikts, domā festgesetzt.",
-      "important": "Festgesetzt nav festgenommen (aizturēts).",
+      "tip": [
+        "Bieži lietots ar Frist, Termin, Preis, Strafe, Höhe: auf einen Betrag festgesetzt.",
+        "Sarunvalodā biežāk saka festgelegt; festgesetzt skan oficiālāk."
+      ],
+      "important": [
+        "Pievērs uzmanību nozīmei: festgesetzt ir aizturēts tikai policijas vai tiesas kontekstā."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "festgesetzt"
+            "festgesetzt",
+            "festsetzen",
+            "setzt fest",
+            "setzte fest",
+            "festgesetzte",
+            "hat festgesetzt"
           ],
           "purple": [
             "noteikts",
-            "nolikts",
-            "noteikta"
+            "aizturēt"
           ]
         },
         "examples": [
@@ -3155,7 +3331,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "noteikta"
+                "noteikts"
               ]
             }
           },
@@ -3167,33 +3343,36 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nolikts"
+                "noteica"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "noteikts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Noteiktais"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "festgesetzt"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "noteikts",
-                "nolikts"
-              ]
-            },
-            "example": {
-              "blue": [
-                "festgesetzt"
-              ],
-              "purple": [
-                "noteikta"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -3204,27 +3383,40 @@ const C1_WORDS = [
               "purple": [
                 "noteikts"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschlossen"
+              ]
             },
-            "example": {
-              "red": [
-                "festgelegt"
+            "meaning": {
+              "purple": [
+                "nolemts"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paredzēts"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "festgesetzt"
-          ],
-          "purple": [
-            "noteikts"
-          ]
-        },
-        "important": {
-          "blue": [
-            "festgesetzt"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -3431,62 +3623,65 @@ const C1_WORDS = [
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
       "translation": "reizēm • gadījuma • sakarā ar",
-      "explanation": "Galvenā doma: gelegentlich ir vārds ar trim funkcijām. Īpašības vārds: gadījuma, nejaušs (ein gelegentlicher Besuch). Apstākļa vārds: reizēm, ik pa laikam (Er kommt gelegentlich). Prievārds + ģenitīvs: sakarā ar (gelegentlich des Festes).",
+      "explanation": [
+        "Galvenā doma: gelegentlich visbiežāk ir apstākļa vārds reizēm, laiku pa laikam: tas notiek ne regulāri, bet ik pa laikam. Kā īpašības vārds tas nozīmē gadījuma vai atsevišķs: gelegentliche Schauer — atsevišķas lietusgāzes.",
+        "Retāk un formālāk gelegentlich ir prievārds ar ģenitīvu, kas nozīmē sakarā ar: gelegentlich seines Geburtstags — viņa dzimšanas dienas sakarā. Šī lietošana šodien skan ļoti oficiāli vai novecojusi.",
+        "Gelegentlich nelokās kā apstākļa vārds; kā īpašības vārds saņem galotnes."
+      ],
       "examples": [
         {
-          "de": "Er kommt gelegentlich vorbei.",
-          "lv": "Viņš reizēm iegriežas."
+          "de": "Wir treffen uns gelegentlich auf einen Kaffee.",
+          "lv": "Mēs reizēm satiekamies uz kafiju."
         },
         {
-          "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "Gadījuma apmeklējums pietiek."
+          "de": "Er raucht nur gelegentlich.",
+          "lv": "Viņš smēķē tikai reizēm."
         },
         {
-          "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "Svētku sakarā tika teikta runa."
+          "de": "Gelegentliche Schauer sind möglich.",
+          "lv": "Iespējamas atsevišķas lietusgāzes."
+        },
+        {
+          "de": "Gelegentlich seines Geburtstags hielt er eine Rede.",
+          "lv": "Savas dzimšanas dienas sakarā viņš teica runu."
         }
       ],
       "comparison": [
         {
-          "word": "gelegentlich (Adv.)",
-          "meaning": "reizēm • ik pa laikam",
-          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
-        },
-        {
-          "word": "gelegentlich (Adj.)",
-          "meaning": "gadījuma • nejaušs",
-          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
-        },
-        {
-          "word": "gelegentlich (+ Gen.)",
-          "meaning": "sakarā ar",
-          "example": "gelegentlich des Festes = svētku sakarā"
-        },
-        {
           "word": "manchmal",
-          "meaning": "reizēm",
-          "example": "Manchmal regnet es. = Reizēm līst."
+          "meaning": "dažreiz",
+          "example": "Manchmal gehe ich laufen. – Dažreiz eju skriet."
+        },
+        {
+          "word": "ab und zu",
+          "meaning": "laiku pa laikam",
+          "example": "Ab und zu rufe ich ihn an. – Laiku pa laikam es viņam piezvanu."
+        },
+        {
+          "word": "selten",
+          "meaning": "reti",
+          "example": "Er kommt selten. – Viņš nāk reti."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Pozīcija teikumā palīdz: pirms lietvārda = īpašības vārds; pēc darbības vārda = apstākļa vārds; + ģenitīvs = prievārds."
-          }
-        ]
-      },
-      "important": {
-        "text": "Adj.: gadījuma. Adv.: reizēm. Prep. + Gen.: sakarā ar. Konteksts nosaka nozīmi."
-      },
+      "tip": [
+        "Ja gribi pateikt reizēm, bet ne regulāri, lieto gelegentlich vai ab und zu.",
+        "Ikdienā biežāk dzirdēsi manchmal; gelegentlich ir kārtīgāks un rakstiskāks."
+      ],
+      "important": [
+        "Gelegentlich nenozīmē gadījums vai izdevība: tam ir die Gelegenheit (izdevība)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "gelegentlich"
+            "gelegentlich",
+            "gelegentliche",
+            "gelegentlich seines Geburtstags"
           ],
           "purple": [
             "reizēm",
             "gadījuma",
-            "sakarā ar"
+            "sakarā ar",
+            "atsevišķas"
           ]
         },
         "examples": [
@@ -3510,7 +3705,19 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "gadījuma"
+                "reizēm"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gelegentliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atsevišķas"
               ]
             }
           },
@@ -3526,6 +3733,51 @@ const C1_WORDS = [
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "manchmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dažreiz"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ab und zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "laiku pa laikam"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "selten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "reti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -4558,82 +4810,114 @@ const C1_WORDS = [
       "id": "c1-verabschieden",
       "layout": "standardStudy",
       "translation": "atvadīties",
-      "explanation": "Galvenā doma: sich verabschieden nozīmē atvadīties; verabschieden var nozīmēt arī pavadīt. Ar sich: sie verabschiedet sich = viņa atvadās. Ar jemanden: wir verabschieden den Gast = mēs atvadāmies no viesa.",
+      "explanation": [
+        "Galvenā doma: sich verabschieden nozīmē atvadīties no kāda: Ich verabschiede mich von dir. Persona, no kuras atvadās, seko ar von + datīvs.",
+        "Atgriezeniskais darbības vārds: ich verabschiede mich, er verabschiedet sich, verabschiedete sich, hat sich verabschiedet. Bez sich verabschieden var nozīmēt pavadīt kādu, atvadīties no kāda (der Direktor wurde in den Ruhestand verabschiedet) vai pieņemt likumu (ein Gesetz verabschieden).",
+        "Lietvārds ir die Verabschiedung (atvadīšanās, likuma pieņemšana)."
+      ],
       "examples": [
         {
-          "de": "Sie verabschiedet sich von uns.",
-          "lv": "Viņa atvadās no mums."
+          "de": "Ich verabschiede mich von meinen Kollegen.",
+          "lv": "Es atvados no kolēģiem."
         },
         {
-          "de": "Wir verabschieden den Gast.",
-          "lv": "Mēs atvadāmies no viesa."
+          "de": "Sie verabschiedete sich und ging nach Hause.",
+          "lv": "Viņa atvadījās un devās mājās."
         },
         {
-          "de": "Jemanden in den Ruhestand verabschieden.",
-          "lv": "Pavadīt kādu pensijā."
+          "de": "Das Parlament hat das Gesetz verabschiedet.",
+          "lv": "Parlaments pieņēma likumu."
+        },
+        {
+          "de": "Der Direktor wurde nach dreißig Jahren in den Ruhestand verabschiedet.",
+          "lv": "Direktoru pēc trīsdesmit gadiem svinīgi pavadīja pensijā."
         }
       ],
       "comparison": [
         {
-          "word": "verabschieden",
+          "word": "Abschied nehmen",
           "meaning": "atvadīties",
-          "example": "Sie verabschiedet sich von uns. = Viņa atvadās no mums."
+          "example": "Er nahm Abschied von seiner Heimat. – Viņš atvadījās no dzimtenes."
         },
         {
-          "word": "begrüßen",
-          "meaning": "sveicināt",
-          "example": "Wir begrüßen den Gast. = Mēs sveicinām viesi."
+          "word": "beschließen",
+          "meaning": "nolemt, pieņemt lēmumu",
+          "example": "Der Rat beschließt das Budget. – Padome pieņem budžetu."
+        },
+        {
+          "word": "winken",
+          "meaning": "māt ar roku",
+          "example": "Sie winkt zum Abschied. – Viņa atvadoties māj."
         }
       ],
-      "tip": "Ja kāds atvadās pats, lieto sich verabschieden.",
-      "important": "Jemanden verabschieden ir arī amata pavadīšana, piemēram, in den Ruhestand.",
+      "tip": [
+        "Ikdienā atvadoties lieto: Ich verabschiede mich, tschüss! vai Auf Wiedersehen!",
+        "Lai pateiktu no kā atvadās, vienmēr lieto von + datīvs."
+      ],
+      "important": [
+        "Likumu mēdz verabschieden parlamentā; tas nav ikdienas atvadīšanās nozīme."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "verabschieden",
-            "verabschiedet sich"
+            "sich verabschieden",
+            "verabschiede",
+            "verabschiedete",
+            "verabschiedet",
+            "von",
+            "Verabschiedung"
           ],
           "purple": [
             "atvadīties",
-            "atvadās",
-            "atvadāmies",
-            "Pavadīt"
+            "pieņemt likumu"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "verabschiedet sich"
+                "verabschiede"
               ]
             },
             "lv": {
               "purple": [
-                "atvadās"
+                "atvados"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "verabschieden"
+                "verabschiedete"
               ]
             },
             "lv": {
               "purple": [
-                "atvadāmies"
+                "atvadījās"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "verabschieden"
+                "verabschiedet"
               ]
             },
             "lv": {
               "purple": [
-                "Pavadīt"
+                "pieņēma"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pavadīja"
               ]
             }
           }
@@ -4642,54 +4926,47 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "verabschieden"
+                "Abschied nehmen"
               ]
             },
             "meaning": {
               "purple": [
                 "atvadīties"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschließen"
+              ]
             },
-            "example": {
-              "blue": [
-                "verabschiedet sich"
-              ],
+            "meaning": {
               "purple": [
-                "atvadās"
+                "nolemt"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "begrüßen"
+                "winken"
               ]
             },
             "meaning": {
               "purple": [
-                "sveicināt"
-              ]
-            },
-            "example": {
-              "red": [
-                "begrüßen"
+                "māt"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "verabschieden"
-          ],
-          "purple": [
-            "atvadās"
-          ]
-        },
-        "important": {
-          "blue": [
-            "verabschieden"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -4942,61 +5219,83 @@ const C1_WORDS = [
       "id": "c1-wahlberechtigt",
       "layout": "standardStudy",
       "translation": "tāds, kam ir vēlēšanu tiesības",
-      "explanation": "Galvenā doma: wahlberechtigt ir īpašības vārds, kas nozīmē, ka personai ir tiesības piedalīties vēlēšanās — balsot vai kandidēt. Saliktenis: Wahl (vēlēšanas) + berechtigt (tiesīgs).",
+      "explanation": [
+        "Galvenā doma: wahlberechtigt ir īpašības vārds, kas apzīmē cilvēku, kuram ir vēlēšanu tiesības — kurš drīkst piedalīties vēlēšanās un balsot.",
+        "Kā pārējie īpašības vārdi tas var lokās: wahlberechtigte Bürger. No īpašības vārda var izveidot lietvārdu: der/die Wahlberechtigte, die Wahlberechtigten (balsstiesīgais).",
+        "Vārds sastāv no die Wahl (vēlēšanas) un berechtigt (tiesīgs)."
+      ],
       "examples": [
         {
-          "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "Visi vēlētāji ar vēlēšanu tiesībām var balsot."
+          "de": "Alle Bürger ab 18 Jahren sind wahlberechtigt.",
+          "lv": "Visi pilsoņi no 18 gadu vecuma ir tiesīgi vēlēt."
         },
         {
-          "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "No 18 gadu vecuma ir vēlēšanu tiesības."
+          "de": "Nur wahlberechtigte Personen dürfen abstimmen.",
+          "lv": "Balsot drīkst tikai personas ar vēlēšanu tiesībām."
         },
         {
-          "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "Ne visiem iedzīvotājiem ir vēlēšanu tiesības."
+          "de": "Wer ist in dieser Stadt wahlberechtigt?",
+          "lv": "Kam šajā pilsētā ir vēlēšanu tiesības?"
+        },
+        {
+          "de": "Die Zahl der Wahlberechtigten ist gestiegen.",
+          "lv": "Balsstiesīgo skaits ir pieaudzis."
         }
       ],
       "comparison": [
         {
-          "word": "wahlberechtigt",
-          "meaning": "ar vēlēšanu tiesībām",
-          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+          "word": "das Wahlrecht",
+          "meaning": "vēlēšanu tiesības",
+          "example": "Das Wahlrecht ist ein Grundrecht. – Vēlēšanu tiesības ir pamattiesības."
         },
         {
-          "word": "wählen",
-          "meaning": "vēlēt • balsot",
-          "example": "Ich wähle heute. = Es šodien balsoju."
+          "word": "wählbar",
+          "meaning": "ievēlams",
+          "example": "Er ist wählbar. – Viņš ir ievēlams."
         },
         {
-          "word": "der Wähler",
-          "meaning": "vēlētājs",
-          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
+          "word": "stimmberechtigt",
+          "meaning": "balsstiesīgs",
+          "example": "Alle Mitglieder sind stimmberechtigt. – Visi biedri ir balsstiesīgi."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Wahl = vēlēšanas, berechtigt = tiesīgs. Bieži presē un juridiskos tekstos."
-          }
-        ]
-      },
-      "important": {
-        "text": "wahlberechtigt = ar vēlēšanu tiesībām. Pretējais: nicht wahlberechtigt."
-      },
+      "tip": [
+        "Atšķir: wahlberechtigt (drīkst vēlēt) un wählbar (drīkst tikt ievēlēts).",
+        "Skaitļos lieto: die Zahl der Wahlberechtigten — balsstiesīgo skaits."
+      ],
+      "important": [
+        "Wahlberechtigt nenozīmē, ka cilvēks balso: tā ir tikai tiesība, nevis darbība."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "wahlberechtigt",
-            "Wahl",
-            "berechtigt"
+            "wahlberechtigte",
+            "Wahlberechtigten",
+            "Wahlberechtigte"
+          ],
+          "purple": [
+            "vēlēšanu tiesības",
+            "balsstiesīgais"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "wahlberechtigten"
+                "wahlberechtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tiesīgi vēlēt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigte"
               ]
             },
             "lv": {
@@ -5020,15 +5319,60 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "wahlberechtigt"
+                "Wahlberechtigten"
               ]
             },
             "lv": {
               "purple": [
-                "vēlēšanu tiesības"
+                "Balsstiesīgo"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Wahlrecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tiesības"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wählbar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ievēlams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stimmberechtigt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "balsstiesīgs"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -5129,53 +5473,65 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "piemaksa • uzcenojums",
       "explanation": [
-        "Galvenā doma: der Zuschlag nozīmē piemaksu vai uzcenojumu — papildu summu, kas tiek pieskaitīta pamatcenai.",
-        "Ceļojumu/transporta kontekstā der Zuschlag ir papildu maksa par ātrāku vilcienu, labāku vietu u.tml.",
-        "Nejauc ar der Anhang/die Beilage (pielikums dokumentam) — tas ir cits vārds.",
-        "Izsolēs den Zuschlag erhalten nozīmē uzvarēt izsolē/saņemt pasūtījumu."
+        "Galvenā doma: der Zuschlag ir piemaksa, ko pieskaita pamatsummai: uzcenojums, piemaksa par nakts darbu, par ātro vilcienu vai par papildu pakalpojumu.",
+        "Vīriešu dzimtes lietvārds: der Zuschlag, daudzskaitlis die Zuschläge (ar umlautu). Otra svarīga nozīme izsolē vai konkursā: den Zuschlag erhalten — uzvarēt, tikt izvēlētam.",
+        "Bieži ar saliktenēm: Nachtzuschlag, Zugzuschlag, Gefahrenzuschlag."
       ],
       "examples": [
         {
-          "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "Par ICE vilcienu jāmaksā piemaksa."
+          "de": "Für Nachtarbeit gibt es einen Zuschlag.",
+          "lv": "Par nakts darbu pienākas piemaksa."
         },
         {
-          "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "Piemaksa par nakts maiņu ir 20%."
+          "de": "Im Zug musste ich einen Zuschlag bezahlen.",
+          "lv": "Vilcienā man bija jāmaksā piemaksa."
         },
         {
-          "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "Viņa saņēma pasūtījumu (izsolē)."
+          "de": "Die Firma erhielt den Zuschlag für den Bau.",
+          "lv": "Uzņēmums ieguva tiesības veikt būvdarbus."
         },
         {
-          "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "Par pārsvara bagāžu ir uzcenojums."
+          "de": "Das Hotel verlangt einen Zuschlag für Haustiere.",
+          "lv": "Viesnīca par mājdzīvniekiem prasa piemaksu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Aufpreis",
+          "meaning": "uzcenojums",
+          "example": "Für Leder zahlt man einen Aufpreis. – Par ādu jāmaksā uzcenojums."
         },
         {
-          "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "Cena ir bez piemaksām."
+          "word": "die Gebühr",
+          "meaning": "nodeva",
+          "example": "Die Gebühr beträgt zehn Euro. – Nodeva ir desmit eiro."
+        },
+        {
+          "word": "der Rabatt",
+          "meaning": "atlaide",
+          "example": "Sie bekommen einen Rabatt. – Jūs saņemat atlaidi."
         }
       ],
       "tip": [
-        "der Zuschlag = piemaksa/uzcenojums (papildu maksa), ne dokumenta pielikums.",
-        "den Zuschlag erhalten (izsolēs) = uzvarēt izsolē/saņemt pasūtījumu."
+        "Meklē: Zuschlag bezahlen / erhalten. Pirmais nozīmē maksāt, otrais — izcīnīt konkursā.",
+        "Pretstats: Zuschlag (pieskaitīts) un Abschlag (atskaitīts)."
       ],
       "important": [
-        "der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam.",
-        "Dokumenta pielikums vācu valodā ir die Anlage/der Anhang."
+        "Daudzskaitlī lieto die Zuschläge, nevis die Zuschlägen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Zuschlag"
+            "der Zuschlag",
+            "die Zuschläge",
+            "Zuschlag",
+            "den Zuschlag erhalten",
+            "Nachtzuschlag"
           ],
           "purple": [
-            "piemaksu",
-            "uzcenojumu"
-          ],
-          "red": [
-            "der Anhang",
-            "die Beilage"
+            "piemaksa",
+            "uzcenojums",
+            "uzvarēt"
           ]
         },
         "examples": [
@@ -5205,13 +5561,13 @@ const C1_WORDS = [
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Zuschlag"
               ]
             },
             "lv": {
               "purple": [
-                "pasūtījumu"
+                "ieguva tiesības"
               ]
             }
           },
@@ -5222,53 +5578,56 @@ const C1_WORDS = [
               ]
             },
             "lv": {
+              "purple": [
+                "piemaksu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Aufpreis"
+              ]
+            },
+            "meaning": {
               "purple": [
                 "uzcenojums"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschläge"
+            "word": {
+              "green": [
+                "die Gebühr"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "piemaksām"
+                "nodeva"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Rabatt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "atlaide"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "piemaksa",
-              "uzcenojums"
-            ]
-          },
-          {
-            "green": [
-              "den Zuschlag erhalten"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "piemaksa",
-              "uzcenojums"
-            ],
-            "red": [
-              "pielikums"
-            ]
-          },
-          {
-            "red": [
-              "die Anlage",
-              "der Anhang"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -5282,48 +5641,79 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "attiecināt • attiekties uz",
       "explanation": [
-        "Galvenā doma: beziehen ir formāls vārds: regulāri saņemt (pensiju, algu, laikrakstu), ievākties (dzīvoklī) vai attiecināt; sich beziehen auf = attiekties uz.",
-        "Piemēros meklē tipisku lietojumu.",
-        "Ja šaubies, pārbaudi, vai runa ir par saņemšanu, ievākšanos vai attiecināšanu."
+        "Galvenā doma: etwas auf etwas beziehen nozīmē attiecināt kaut ko uz kaut ko vai kādu; sich auf etwas beziehen nozīmē attiekties uz kaut ko vai atsaukties uz to.",
+        "Formas: bezieht, bezog, hat bezogen. Abās konstrukcijās seko auf + akuzatīvs: etwas auf sich beziehen (attiecināt uz sevi), sich auf einen Text beziehen (atsaukties uz tekstu).",
+        "Bez šīs nozīmes beziehen var nozīmēt arī pārvilkt gultu (das Bett beziehen), ievākties (eine Wohnung beziehen) un regulāri saņemt (ein Gehalt beziehen)."
       ],
       "examples": [
         {
-          "de": "Er bezieht eine Rente.",
-          "lv": "Viņš saņem pensiju."
+          "de": "Du darfst das nicht auf dich beziehen.",
+          "lv": "Tev to nevajag attiecināt uz sevi."
         },
         {
-          "de": "Sie bezieht eine neue Wohnung.",
-          "lv": "Viņa ievācas jaunā dzīvoklī."
+          "de": "Meine Frage bezieht sich auf den letzten Absatz.",
+          "lv": "Mans jautājums attiecas uz pēdējo rindkopu."
         },
         {
-          "de": "Der Satz bezieht sich auf den Text.",
-          "lv": "Teikums attiecas uz tekstu."
+          "de": "Er bezieht sich in seinem Brief auf unser Gespräch.",
+          "lv": "Vēstulē viņš atsaucas uz mūsu sarunu."
+        },
+        {
+          "de": "Sie bezog die Aussage auf ihren Bruder.",
+          "lv": "Viņa attiecināja izteikumu uz savu brāli."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "betreffen",
+          "meaning": "skart, attiekties",
+          "example": "Das betrifft uns alle. – Tas skar mūs visus."
+        },
+        {
+          "word": "verweisen auf",
+          "meaning": "norādīt uz",
+          "example": "Er verweist auf das Gesetz. – Viņš norāda uz likumu."
+        },
+        {
+          "word": "sich handeln um",
+          "meaning": "būt runai par",
+          "example": "Es handelt sich um einen Fehler. – Runa ir par kļūdu."
         }
       ],
       "tip": [
-        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "Izmanto beziehen / sich beziehen auf, kad konteksts atbilst šai nozīmei."
+        "Atceries pārus: sich beziehen auf + akuzatīvs. Prievārds vienmēr ir auf.",
+        "Ja jāsaka attiecināt uz sevi: etwas auf sich beziehen."
       ],
       "important": [
-        "Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "beziehen / sich beziehen auf: pirms lietošanas pārbaudi kontekstu un salīdzini ar citiem vārdiem kartītē."
+        "Beziehen ir daudznozīmju vārds: konteksts nosaka, vai runa ir par attiecināšanu, gultu vai algu.",
+        "Betreffen pats ir pārejošs, bez prievārda: Das betrifft mich."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "beziehen",
+            "sich beziehen",
+            "bezieht",
+            "bezog",
+            "bezogen",
+            "auf"
+          ],
           "purple": [
-            "attiecināt"
+            "attiecināt",
+            "attiekties uz",
+            "atsaukties uz"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bezieht"
+                "beziehen"
               ]
             },
             "lv": {
               "purple": [
-                "saņem"
+                "attiecināt"
               ]
             }
           },
@@ -5335,32 +5725,79 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ievācas"
+                "attiecas"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bezieht sich auf"
+                "bezieht"
               ]
             },
             "lv": {
               "purple": [
-                "attiecas uz"
+                "atsaucas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezog"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "attiecināja"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "betreffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skart"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "norādīt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich handeln um"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "runai"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "attiecināt"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
+          {},
           {}
         ]
       }
@@ -5375,118 +5812,161 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "nodomāt • plānot",
       "explanation": [
-        "Galvenā doma: Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu.",
-        "beabsichtigen galvenokārt nozīmē: apzināts nodoms.",
-        "Bieži raksturo: plāns / nolūks.",
-        "beabsichtigen galvenokārt nozīmē: plānot darbību.",
-        "Bieži raksturo: oficiāls reģistrs.",
-        "beabsichtigen nozīmē apzināti nodomāt vai plānot darbību — nevis attiecību, bet nolūku."
+        "Galvenā doma: beabsichtigen nozīmē nodomāt, plānot, būt nodomam kaut ko darīt; tas ir apzināts nolūks. Skan formālāk nekā vorhaben.",
+        "Regulārais darbības vārds: er beabsichtigt, beabsichtigte, hat beabsichtigt. Seko vai nu akuzatīvs (etwas beabsichtigen), vai infinitīvs ar zu: Ich beabsichtige, im Herbst umzuziehen. Lietvārds ir die Absicht (nodoms).",
+        "Divdabis beabsichtigt tiek lietots kā īpašības vārds: eine beabsichtigte Wirkung (apzināts efekts)."
       ],
       "examples": [
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Viņš nodomājis pabeigt projektu."
+          "de": "Ich beabsichtige, im Herbst umzuziehen.",
+          "lv": "Es nodomāju rudenī pārcelties."
         },
         {
-          "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "Ko jūs nodomājat ar šo pasākumu?"
+          "de": "Die Firma beabsichtigt, ein neues Werk zu bauen.",
+          "lv": "Uzņēmums plāno uzbūvēt jaunu rūpnīcu."
         },
         {
-          "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "Mēs neplānojam izmaiņu."
+          "de": "Das war nicht beabsichtigt.",
+          "lv": "Tas nebija domāts."
         },
         {
-          "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "nodomāt kaut ko darīt."
+          "de": "Was beabsichtigst du damit?",
+          "lv": "Ko tu ar to gribi panākt?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorhaben",
+          "meaning": "būt nodomam",
+          "example": "Ich habe vor, morgen zu kommen. – Man ir nodoms rīt atnākt."
+        },
+        {
+          "word": "planen",
+          "meaning": "plānot",
+          "example": "Wir planen eine Reise. – Mēs plānojam ceļojumu."
+        },
+        {
+          "word": "wollen",
+          "meaning": "gribēt",
+          "example": "Ich will schlafen. – Es gribu gulēt."
         }
       ],
       "tip": [
-        "Ja runa ir par attiecību, avotu vai regulāru saņemšanu — beziehen. Ja par apzinātu plānu — beabsichtigen.",
-        "beabsichtigen = nodomāt"
+        "Pēc beabsichtigen visbiežāk seko zu + infinitīvs ar komatu: …, zu bauen.",
+        "Ikdienā vari teikt arī vorhaben vai planen; beabsichtigen ir oficiālāks."
       ],
       "important": [
-        "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
-        "beabsichtigen nevar aizstāt ar beziehen — tas ir nolūks, ne attiecība.",
-        "beabsichtigen → nodoms, plāns.",
-        "Apzināts nodoms veikt darbību nākotnē. Neattiecas uz attiecību, bet uz plānu."
+        "Perfekta divdabis ir beabsichtigt (bez ge-), jo priedēklis be- ir neatdalāms."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "beabsichtigen"
+          "blue": [
+            "beabsichtigen",
+            "beabsichtigt",
+            "beabsichtigte",
+            "vorhaben",
+            "Absicht"
           ],
           "purple": [
             "nodomāt",
-            "plānot"
+            "plānot",
+            "nodoms"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
+                "beabsichtige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nodomāju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "nodomājis"
+                "plāno"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+              "blue": [
+                "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "nodomājat"
+                "domāts"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+              "blue": [
+                "beabsichtigst"
               ]
             },
             "lv": {
               "purple": [
-                "nodomāt"
+                "gribi panākt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorhaben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nodomam"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "planen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "plānot"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gribēt"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "nodomāt"
-            ]
-          },
-          {
-            "purple": [
-              "plānu"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "beabsichtigen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -5500,48 +5980,64 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "pārmest • piedēvēt bez pamata",
       "explanation": [
-        "Galvenā doma: Nepamatoti piešķirt vainu, motīvu vai nodomu citam.",
-        "unterstellen galvenokārt nozīmē: piedēvēt bez pamata.",
-        "Bieži raksturo: apsūdzība / pievilkšana.",
-        "jemandem etwas unterstellen nozīmē nepamatoti piedēvēt vai pārmest."
+        "Galvenā doma: jemandem etwas unterstellen nozīmē piedēvēt kādam kaut ko (nodomu, vārdus, ļaunu darbību), bieži bez pierādījumiem. Otra nozīme: pakļaut: Die Abteilung ist dem Direktor unterstellt.",
+        "Neatdalāmais darbības vārds, uzsvars uz -ter-: er unterstellt, unterstellte, hat unterstellt. Konstrukcija: jemandem etwas unterstellen (kam? ko?). Ja uzsvars ir uz unter-, tas ir cits, atdalāms vārds: Ich stelle das Auto unter — novietot zem jumta; sich unterstellen — patverties.",
+        "Šajā nozīmē vārds izsaka aizdomas vai nepamatotu pārmetumu, tāpēc tas skan stingri."
       ],
       "examples": [
         {
-          "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Man tiek piedēvēti slikti nodomi."
+          "de": "Er unterstellt mir böse Absichten.",
+          "lv": "Viņš man piedēvē ļaunus nodomus."
         },
         {
-          "de": "Unterstellen Sie mir nichts!",
-          "lv": "Nepārmetiet man neko!"
+          "de": "Das unterstelle ich dir nicht.",
+          "lv": "Es tev to nepiedēvēju."
         },
         {
-          "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "Nevienam nedrīkst nepamatoti pārmest nodevību."
+          "de": "Man unterstellte ihr, dass sie gelogen habe.",
+          "lv": "Viņai piedēvēja, ka viņa esot melojusi."
         },
         {
-          "de": "Ihm wird Untreue unterstellt.",
-          "lv": "Viņam tiek pārmesta neuzticība."
+          "de": "Die Abteilung ist direkt dem Direktor unterstellt.",
+          "lv": "Nodaļa ir tieši pakļauta direktoram."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorwerfen",
+          "meaning": "pārmest",
+          "example": "Er wirft mir Faulheit vor. – Viņš man pārmet slinkumu."
+        },
+        {
+          "word": "beschuldigen",
+          "meaning": "apsūdzēt",
+          "example": "Sie beschuldigt ihn des Diebstahls. – Viņa apsūdz viņu zādzībā."
+        },
+        {
+          "word": "behaupten",
+          "meaning": "apgalvot",
+          "example": "Er behauptet, krank zu sein. – Viņš apgalvo, ka ir slims."
         }
       ],
       "tip": [
-        "unterstellen = pārmest",
-        "Izmanto unterstellen, kad konteksts atbilst šai nozīmei."
+        "Atceries: unterstellen = piedēvēt kaut ko negatīvu, bieži nepamatoti.",
+        "Pēc unterstellen personu liek datīvā: Er unterstellt mir …"
       ],
       "important": [
-        "unterstellen ir emocionāli negatīvs — nepamatota apsūdzība.",
-        "unterstellen → pārmest, piedēvēt."
+        "Neatdalāmais unterstellen (piedēvēt, pakļaut) nav tas pats, ko atdalāmais unterstellen (novietot, patverties)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "unterstellen"
+            "unterstellen",
+            "unterstellt",
+            "unterstelle",
+            "unterstellte",
+            "sich unterstellen"
           ],
           "purple": [
-            "pārmest",
-            "piedēvēt bez pamata"
-          ],
-          "red": [
-            "pārmest"
+            "piedēvēt",
+            "pakļaut"
           ]
         },
         "examples": [
@@ -5551,27 +6047,33 @@ const C1_WORDS = [
                 "unterstellt"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
+            "lv": {
+              "purple": [
+                "piedēvē"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstelle"
               ]
             },
             "lv": {
               "purple": [
-                "pārmest"
+                "nepiedēvēju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "unterstellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "piedēvēja"
               ]
             }
           },
@@ -5583,25 +6085,55 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
+                "pakļauta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
                 "pārmest"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschuldigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apsūdzēt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behaupten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apgalvot"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "pārmest"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
-          {
-            "blue": [
-              "unterstellen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -5615,51 +6147,160 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "pieņemt kā priekšnoteikumu",
       "explanation": [
-        "Galvenā doma: Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats.",
-        "voraussetzen galvenokārt nozīmē: uzskatīt par pamatu.",
-        "Bieži raksturo: loģisks priekšnosacījums.",
-        "etwas voraussetzen nozīmē uzskatīt par pašsaprotamu priekšnoteikumu, kas jau pastāv."
+        "Galvenā doma: voraussetzen nozīmē pieņemt kaut ko kā zināmu vai pašsaprotamu, vai arī prasīt kaut ko kā priekšnoteikumu: Der Kurs setzt gute Kenntnisse voraus.",
+        "Atdalāmais darbības vārds: er setzt voraus, setzte voraus, hat vorausgesetzt. Ko pieņem vai paredz — akuzatīvs. Lietvārds ir die Voraussetzung (priekšnoteikums).",
+        "Divdabis vorausgesetzt ar komatu nozīmē ar nosacījumu, ka: Vorausgesetzt, es regnet nicht, grillen wir."
       ],
       "examples": [
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Mēs pieņemam pamatzināšanas kā priekšnoteikumu."
+          "de": "Der Kurs setzt gute Deutschkenntnisse voraus.",
+          "lv": "Kurss paredz labas vācu valodas zināšanas."
+        },
+        {
+          "de": "Ich habe vorausgesetzt, dass du Bescheid weißt.",
+          "lv": "Es pieņēmu, ka tu esi informēts."
+        },
+        {
+          "de": "Diese Stelle setzt ein Studium voraus.",
+          "lv": "Šim amatam kā priekšnoteikums nepieciešamas studijas."
+        },
+        {
+          "de": "Vorausgesetzt, es regnet nicht, grillen wir.",
+          "lv": "Ja vien nelīs, mēs cepsim grilā."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erfordern",
+          "meaning": "prasīt, būt nepieciešamam",
+          "example": "Die Aufgabe erfordert Geduld. – Uzdevums prasa pacietību."
+        },
+        {
+          "word": "annehmen",
+          "meaning": "pieņemt, uzskatīt",
+          "example": "Ich nehme an, dass er kommt. – Es pieņemu, ka viņš nāks."
+        },
+        {
+          "word": "die Voraussetzung",
+          "meaning": "priekšnoteikums",
+          "example": "Das ist keine Voraussetzung. – Tas nav priekšnoteikums."
         }
       ],
       "tip": [
-        "voraussetzen = pieņemt priekšnoteikumu",
-        "Izmanto voraussetzen, kad konteksts atbilst šai nozīmei."
+        "Atceries atdalīšanu: Das setzt Mühe voraus, bet …, weil das Mühe voraussetzt.",
+        "Biežs savienojums: etwas als bekannt voraussetzen."
       ],
       "important": [
-        "voraussetzen ir neitrāls — priekšnosacījums.",
-        "voraussetzen → pieņemt kā pamatu.",
-        "Uzskatīt, ka kaut kas jau ir zināms vai pastāv kā pamats."
+        "Perfekta divdabis ir vorausgesetzt — ge- ievieto starp voraus un setzt."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "voraussetzen",
-            "voraus"
+            "setzt voraus",
+            "setzte voraus",
+            "vorausgesetzt",
+            "Voraussetzung"
           ],
           "purple": [
-            "priekšnoteikumu"
+            "pieņemt",
+            "priekšnoteikums"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "paredz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pieņēmu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "priekšnoteikums"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ja vien"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erfordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prasīt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "annehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pieņemt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voraussetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "priekšnoteikums"
+              ]
+            }
           }
         ],
         "tip": [
+          {},
           {}
         ],
         "important": [
-          {
-            "green": [
-              "voraussetzen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -5673,80 +6314,164 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "pasargāt • saglabāt",
       "explanation": [
-        "Galvenā doma: Aizsargāt no zuduma, bojājuma vai iznīcināšanas — vērtību, tradīciju, mieru.",
-        "bewahren galvenokārt nozīmē: aizsargāt no zuduma.",
-        "Bieži raksturo: vērtību saglabāšana.",
-        "bewahren nozīmē pasargāt no bojājuma, zuduma vai izmaiņām."
+        "Galvenā doma: bewahren nozīmē pasargāt no kaut kā ļauna (jemanden vor etwas bewahren) un saglabāt kaut ko vērtīgu vai nemainītu (Ruhe, Traditionen, Erinnerungen).",
+        "Regulārais darbības vārds: er bewahrt, bewahrte, hat bewahrt. Pasargāšana: bewahren vor + datīvs (kas? no kā?). Saglabāšana: akuzatīvs — die Ruhe bewahren. Glabāt noslēpumu: ein Geheimnis bewahren.",
+        "Vārds ir augstāka stila nekā behalten (paturēt) vai aufheben (uzglabāt)."
       ],
       "examples": [
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Mēs saglabājam tradīcijas."
+          "de": "Bitte bewahren Sie Ruhe!",
+          "lv": "Lūdzu, saglabājiet mieru!"
         },
         {
-          "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "Viņi saglabā mieru krīzē."
+          "de": "Der Helm hat ihn vor Schlimmerem bewahrt.",
+          "lv": "Ķivere viņu pasargāja no ļaunāka."
+        },
+        {
+          "de": "Er bewahrte das Geheimnis jahrelang.",
+          "lv": "Viņš gadiem glabāja noslēpumu."
+        },
+        {
+          "de": "Wir wollen diese Tradition bewahren.",
+          "lv": "Mēs gribam saglabāt šo tradīciju."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "aufbewahren",
+          "meaning": "uzglabāt",
+          "example": "Bewahre die Quittung auf! – Uzglabā čeku!"
+        },
+        {
+          "word": "schützen",
+          "meaning": "aizsargāt",
+          "example": "Der Zaun schützt vor dem Wind. – Žogs aizsargā no vēja."
+        },
+        {
+          "word": "behalten",
+          "meaning": "paturēt",
+          "example": "Du kannst das Buch behalten. – Tu vari grāmatu paturēt."
         }
       ],
       "tip": [
-        "bewahren = pasargāt",
-        "Izmanto bewahren, kad konteksts atbilst šai nozīmei."
+        "Iegaumē fiksētu frāzi: Ruhe bewahren — saglabāt mieru.",
+        "Pasargāt no kaut kā: bewahren vor + datīvs (vor Schaden, vor Gefahr)."
       ],
       "important": [
-        "bewahren: Wertvolles bewahren — pasargāt vērtīgo.",
-        "bewahren → aizsargāt, saglabāt."
+        "Bewahren nav tas pats, kas aufbewahren: tas ir fiziska uzglabāšana, bewahren — saglabāt vai pasargāt.",
+        "Perfekta divdabis ir bewahrt (bez ge-)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bewahren"
+            "bewahren",
+            "bewahrt",
+            "bewahrte",
+            "behalten",
+            "vor",
+            "Ruhe bewahren"
           ],
           "purple": [
-            "pasargāt"
+            "pasargāt",
+            "saglabāt",
+            "glabāt"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "saglabājam"
+                "saglabājiet"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
+                "bewahrt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasargāja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bewahrte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glabāja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "saglabā"
+                "saglabāt"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aufbewahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uzglabāt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aizsargāt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "paturēt"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "pasargāt"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
-          {
-            "blue": [
-              "bewahren"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -5760,65 +6485,159 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "uzturēt spēkā",
       "explanation": [
-        "Galvenā doma: Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt.",
-        "aufrechterhalten galvenokārt nozīmē: nodrošināt turpināšanos.",
-        "Bieži raksturo: stāvokļa uzturēšana.",
-        "aufrechterhalten nozīmē uzturēt kādu stāvokli, sistēmu vai attiecību spēkā — nodrošināt turpināšanos."
+        "Galvenā doma: aufrechterhalten nozīmē uzturēt, nezaudēt: saglabāt kaut ko spēkā vai darbībā (kārtību, kontaktu, apgalvojumu, piedāvājumu).",
+        "Atdalāmais darbības vārds: er hält aufrecht, hielt aufrecht, hat aufrechterhalten. Ko uztur — akuzatīvs. Ar zu-infinitīvu: aufrechtzuerhalten.",
+        "Ļoti bieži kopā ar Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat erhält die Ordnung aufrecht.",
-          "lv": "Valsts uztur kārtību spēkā."
+          "de": "Der Staat hält die Ordnung aufrecht.",
+          "lv": "Valsts uztur kārtību."
         },
         {
-          "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Jāuztur darbība spēkā."
+          "de": "Sie haben den Kontakt über Jahre aufrechterhalten.",
+          "lv": "Viņi gadiem uzturēja kontaktu."
+        },
+        {
+          "de": "Wir können dieses Angebot nicht länger aufrechterhalten.",
+          "lv": "Mēs vairs nevaram saglabāt šo piedāvājumu spēkā."
+        },
+        {
+          "de": "Er hielt seine Behauptung aufrecht.",
+          "lv": "Viņš palika pie sava apgalvojuma."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erhalten",
+          "meaning": "saglabāt",
+          "example": "Wir erhalten das Gebäude. – Mēs saglabājam ēku."
+        },
+        {
+          "word": "beibehalten",
+          "meaning": "saglabāt nemainot",
+          "example": "Wir behalten den Plan bei. – Mēs saglabājam plānu."
+        },
+        {
+          "word": "pflegen",
+          "meaning": "uzturēt, kopt",
+          "example": "Sie pflegt Kontakte. – Viņa kopj kontaktus."
         }
       ],
       "tip": [
-        "aufrechterhalten = uzturēt spēkā",
-        "Izmanto aufrechterhalten, kad konteksts atbilst šai nozīmei."
+        "Atceries atdalīšanu: Er hält die Ordnung aufrecht, bet …, dass er die Ordnung aufrechterhält.",
+        "Kontaktam teiks: den Kontakt aufrechterhalten (vai pflegen)."
       ],
       "important": [
-        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "aufrechterhalten → uzturēt spēkā.",
-        "Nodrošināt, ka kāds stāvoklis, kārtība vai attiecības turpinās pastāvēt."
+        "Perfektā aufrechterhalten ir viens vārds, bez ge-: hat aufrechterhalten."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "aufrechterhalten",
-            "auf"
+            "hält aufrecht",
+            "hielt aufrecht",
+            "aufrechtzuerhalten"
+          ],
+          "purple": [
+            "uzturēt",
+            "saglabāt"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "hält"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "uztur"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "aufrechterhalten",
+              "blue": [
                 "aufrechterhalten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "uzturēja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aufrechterhalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saglabāt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hielt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "palika pie"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "saglabāt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beibehalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nemainot"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "pflegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kopt"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "uzturēt spēkā"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "aufrechterhalten"
-            ]
-          }
+          {}
         ]
       }
     }
