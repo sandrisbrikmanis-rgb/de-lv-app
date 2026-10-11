@@ -1460,7 +1460,7 @@ const A2_WORDS = [
         },
         {
           "word": "stoppen",
-          "meaning": "Zastavit / zastavit něco",
+          "meaning": "Zastavit",
           "example": "Der Fahrer stoppt das Auto. = Řidič zastavuje auto."
         },
         {
@@ -10527,7 +10527,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "bedienen",
-          "meaning": "Obsluha / používání zařízení",
+          "meaning": "Obsluhovat / ovládat zařízení",
           "example": "Der Kellner bedient uns. = Číšník nás obsluhuje."
         },
         {
@@ -10669,9 +10669,7 @@ const A2_WORDS = [
                 "bedienen"
               ]
             },
-            "meaning": {
-              "purple": []
-            },
+            "meaning": {},
             "example": {
               "blue": [
                 "bedient"
@@ -10872,7 +10870,7 @@ const A2_WORDS = [
         },
         {
           "word": "der Service",
-          "meaning": "Servis / servis",
+          "meaning": "Servis",
           "example": "Der Service ist gut. = Servis je dobrý."
         },
         {
@@ -11225,7 +11223,7 @@ const A2_WORDS = [
         },
         {
           "word": "sich merken",
-          "meaning": "Zapamatovat / zapamatovat si",
+          "meaning": "Zapamatovat si",
           "example": "Ich merke mir die Nummer. = Pamatuji si to číslo."
         },
         {
@@ -11598,7 +11596,7 @@ const A2_WORDS = [
         },
         {
           "word": "kaum",
-          "meaning": "Sotva / sotva",
+          "meaning": "Sotva",
           "example": "Ich kann kaum laufen. = Sotva můžu chodit."
         },
         {
@@ -11954,7 +11952,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "bekannt",
-          "meaning": "Známý / známý",
+          "meaning": "Známý",
           "example": "Das ist bekannt. = To je známé."
         },
         {
@@ -15145,7 +15143,7 @@ const A2_WORDS = [
         "Pokud jde o charakter člověka obecně, „dobrý“ je obvykle gut, nett nebo freundlich, nikoli brav."
       ],
       "important": [
-        "Brav není kořen slova pro „dobrý“.",
+        "Brav znamená poslušný, hodný (hlavně o dětech).",
         "Das Kind ist brav = dítě je poslušné / hodné.",
         "Er ist ein guter Mensch = je to dobrý člověk.",
         "Sie ist nett = je hodná."
@@ -16320,8 +16318,8 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: dafür znamená pro to, na to nebo zato podle věty.",
         "Dafür často odkazuje na věc nebo činnost uvedenou výše: pro to nebo na to.",
-        "Může to také znamenat, pokud jde o účel, potřebu nebo zamýšlené použití.",
-        "Naproti tomu dafür může znamenat nicméně.",
+        "Může také označovat účel, potřebu nebo zamýšlené použití.",
+        "V jiném kontextu může dafür vyjadřovat i kontrast: nicméně.",
         "Proto není dobré automaticky překládat dafür jako „proto“ • Častěji se k tomu používá darum nebo deshalb."
       ],
       "examples": [
@@ -16362,7 +16360,7 @@ const A2_WORDS = [
         },
         {
           "word": "darum",
-          "meaning": "Proto / proto",
+          "meaning": "Proto",
           "example": "Darum bleibe ich zu Hause. = Proto zůstávám doma."
         },
         {
@@ -17064,7 +17062,7 @@ const A2_WORDS = [
       "translation": "Vděk",
       "explanation": [
         "Hlavní myšlenka: der Dank je podstatné jméno a znamená díky jako pojem. Hlavním významem je vděčnost – nezaměňovat s hovorovou odpovědí danke.",
-        "Nejčastější fráze jsou Vielen Dank! a Herzlichen Dank! — znamenají \"moc děkuji!\" a \"moc děkuji!\".",
+        "Nejčastější fráze jsou Vielen Dank! a Herzlichen Dank! — znamenají „děkuji mnohokrát!“ a „srdečně děkuji!“.",
         "Danke je odpověď nebo krátké slovo poděkování v rozhovoru: „děkuji“.",
         "Danken je sloveso „děkovat“. Vazba: Ich danke dir.",
         "Der Dank není totéž co danke: Dank je podstatné jméno, danke je hovorová odpověď."
@@ -18154,7 +18152,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "darum",
-          "meaning": "Proto / proto / kolem toho",
+          "meaning": "Proto / kolem toho",
           "example": "Darum bleibe ich hier. = Proto tu zůstanu."
         },
         {
@@ -19075,7 +19073,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "dazu",
-          "meaning": "K tomu / k tomu / k tomu navíc / navíc",
+          "meaning": "K tomu / navíc",
           "example": "Was sagst du dazu? = Co ty na to říkáš?"
         },
         {
@@ -19734,7 +19732,7 @@ const A2_WORDS = [
         },
         {
           "word": "weil",
-          "meaning": "Protože / protože",
+          "meaning": "Protože",
           "example": "Ich bleibe, weil es regnet. = Zůstanu, protože prší."
         },
         {
@@ -20051,7 +20049,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "dick",
-          "meaning": "Tlustý / tlustý nebo hustý",
+          "meaning": "Tlustý / hustý",
           "example": "Das Buch ist dick. = Ta kniha je tlustá."
         },
         {
@@ -20061,7 +20059,7 @@ const A2_WORDS = [
         },
         {
           "word": "dünn",
-          "meaning": "Tenký / tenký",
+          "meaning": "Tenký",
           "example": "Das Papier ist dünn. = Ten papír je tenký."
         },
         {
@@ -20080,7 +20078,7 @@ const A2_WORDS = [
         "U lidí je lepší používat toto slovo opatrně, protože „tlustý“ může znít urážlivě."
       ],
       "important": [
-        "Dick ≠ gut.",
+        "Dick znamená tlustý nebo hustý, ne dobrý.",
         "Tlustý a tenký často tvoří protiklad: u předmětů tlustý/tenký, u lidí tlustý/štíhlý.",
         "Breit znamená široký, ne tlustý."
       ],
@@ -20187,12 +20185,7 @@ const A2_WORDS = [
                 "dick"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Tučný",
-                "Tučný"
-              ]
-            },
+            "meaning": {},
             "example": {
               "blue": [
                 "dick"
@@ -20288,17 +20281,10 @@ const A2_WORDS = [
         ],
         "important": [
           {
-            "text": {
-              "blue": [],
-              "red": []
-            }
+            "text": {}
           },
           {
-            "text": {
-              "blue": [],
-              "red": [],
-              "purple": []
-            }
+            "text": {}
           },
           {
             "text": {
@@ -22871,7 +22857,7 @@ const A2_WORDS = [
         "Hlavní myšlenka: eigentlich velmi často znamená „vlastně“ nebo „ve skutečnosti“, ale jako přídavné jméno může znamenat „skutečný“.",
         "V rozhovoru eigentlich často uvádí skutečnou myšlenku nebo objasnění.",
         "Může zmírnit otázku nebo vyjádřit úvahu.",
-        "Skutečné a pravdivé lze zaměnit s primárními významy echt a wahr.",
+        "Ve významu „skutečný“ se blíží slovům echt a wahr.",
         "Kontext ukazuje, zda je eigentlich příslovce nebo přídavné jméno."
       ],
       "examples": [
@@ -22903,7 +22889,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "eigentlich",
-          "meaning": "Vlastně / vlastně / ten pravý",
+          "meaning": "Vlastně / ten pravý",
           "example": "Eigentlich habe ich keine Zeit. = Vlastně nemám čas."
         },
         {
@@ -22918,7 +22904,7 @@ const A2_WORDS = [
         },
         {
           "word": "wirklich",
-          "meaning": "Opravdu / opravdu",
+          "meaning": "Opravdu",
           "example": "Das ist wirklich gut. = To je opravdu dobré."
         }
       ],
@@ -25831,7 +25817,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: etwa znamená asi, ale často vyjadřuje překvapení, pochybnosti nebo pokárání v otázkách jako „nebo snad, copak či opravdu“ nebo „opravdu“.",
         "Etwa + číslo obvykle znamená asi.",
-        "Stojí to asi 10 eur. = Stojí to asi 10 eur.",
+        "Es kostet etwa 10 Euro. = Stojí to asi 10 eur.",
         "Etwa často není jednoduché \"možná\" v otázce.",
         "Hast du das etwa vergessen? = Snad jsi na to zapomněl?",
         "S čísly jsou etwa a ungefähr často velmi podobné, ale ungefähr je neutrálnější a velmi často se používá s čísly.",
@@ -26775,7 +26761,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: der Fall znamená případ, pád, gramatický pád nebo právní záležitost v závislosti na kontextu.",
         "V každodenním životě to často znamená případ nebo situaci.",
-        "Ve fyzickém smyslu může pád znamenat pád.",
+        "Ve fyzickém smyslu může znamenat i pád k zemi.",
         "V gramatice Fall znamená gramatický pád, například dativ.",
         "V právní řeči je Fall případ nebo případ u soudu.",
         "Fráze v diesem Fall znamená „v tomto případě“."
@@ -27310,7 +27296,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "fehlen",
-          "meaning": "Chybí / není přítomen",
+          "meaning": "Chybět / nebýt přítomen",
           "example": "Mir fehlt Geld. = Chybí mi peníze."
         },
         {
@@ -27468,12 +27454,7 @@ const A2_WORDS = [
                 "fehlen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Chybí",
-                "Chybí"
-              ]
-            },
+            "meaning": {},
             "example": {
               "blue": [
                 "fehlt"
@@ -28576,8 +28557,8 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: folgen znamená následovat někoho nebo něco, ale ze situace může vyplývat i výsledek.",
         "Pokud jde o osobu, způsob nebo pokyn, folgen obvykle znamená následovat.",
-        "Často se používá sousloví jemandem folgen, kde je němčina dativ.",
-        "Pokud něco logicky vyplývá z toho, co bylo řečeno dříve, folgen může znamenat následovat.",
+        "Často se používá sousloví jemandem folgen, kde němčina používá dativ.",
+        "Pokud něco logicky vyplývá z toho, co bylo řečeno dříve, folgen může znamenat vyplývat.",
         "Folgen není slovo pro význam „poslouchat“ nebo „poslechnout“ • k tomu se častěji používá gehorchen.",
         "Na úrovni A2 jsou nejdůležitější významy následovat a vyplývat."
       ],
@@ -29599,7 +29580,7 @@ const A2_WORDS = [
         "V domě, škole nebo hotelu Gang velmi často znamená chodbu.",
         "Pokud jde o lidský pohyb, Gang znamená chůze.",
         "V restauraci nebo na jídelním lístku může Gang znamenat chod jídla.",
-        "V technickém kontextu může Gang znamenat zařízení, ale to není hlavní použití A2.",
+        "V technickém kontextu může Gang znamenat rychlostní stupeň, ale to není hlavní použití A2.",
         "České „tah“ obvykle není nejlepší první překlad pro tuto kartu."
       ],
       "examples": [
@@ -29871,7 +29852,9 @@ const A2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Vůbec (v záporných větách)",
       "accent": "blue",
-      "tip": "Používá se pouze s negací (nicht, kein), aby byla silnější (\"vůbec ne\", \"vůbec ne\").",
+      "tip": [
+        "Často se používá s negací (nicht, kein) pro zesílení („vůbec ne“), ale gar může stát i bez ní: gar nichts, gar kein."
+      ],
       "examples": [
         {
           "de": "Das ist gar nicht so schwer.",
@@ -29885,7 +29868,8 @@ const A2_WORDS = [
           "de": "Er hat gar nichts gesagt.",
           "lv": "Neřekl vůbec nic."
         }
-      ]
+      ],
+      "sectionAccents": {}
     }
   },
   {
@@ -30747,7 +30731,7 @@ const A2_WORDS = [
         },
         {
           "word": "exakt",
-          "meaning": "Přesný / přesný",
+          "meaning": "Přesný",
           "example": "Das ist exakt ein Meter. = To je přesně jeden metr."
         },
         {
@@ -30913,7 +30897,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Když je gerade s akcí v přítomnosti, často přemýšlíte teď nebo právě teď.",
+        "Když gerade popisuje probíhající děj, často znamená právě teď.",
         "Když gerade popisuje cestu, čáru nebo tvar, znamená to rovné."
       ],
       "important": [
@@ -31682,7 +31666,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "gewinnen",
-          "meaning": "Vyhrát / vyhrát (cenu) / získat",
+          "meaning": "Vyhrát / získat",
           "example": "Wir gewinnen das Spiel. = Vyhráváme zápas."
         },
         {
@@ -34582,8 +34566,8 @@ const A2_WORDS = [
       "translation": "Někdy • Za / na jednotku",
       "explanation": [
         "Hlavní myšlenka: je mění význam podle tvaru věty a často by se mělo vidět společně s jinými slovy.",
-        "V otázkách je je často „někdy“, v záporných větách obvykle „nikdy“ nebo „nikdy už“.",
-        "S čísly nebo jednotkami může je znamenat pa nebo každý.",
+        "V otázkách je je často „někdy“ (Hast du das je gesehen? = Viděl jsi to někdy?).",
+        "S čísly nebo jednotkami může je znamenat „po“ nebo „každý“ (je 2 Euro = po dvou eurech).",
         "V konstrukci je ... desto znamená čím ... tím.",
         "Je tedy není jednoduchý překlad • Význam je určen frází."
       ],
@@ -34620,7 +34604,6 @@ const A2_WORDS = [
           ],
           "purple": [
             "Hlavní",
-            "pa",
             "Hlavní",
             "Hlavní"
           ],
@@ -36934,7 +36917,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Diese Farbe kleidet dich gut = tato barva ti moc sluší.",
-        "example": "sich kleiden = Obléknout se anziehen je neformálnější slovo pro oblékání."
+        "example": "Sich kleiden = oblékat se; anziehen je běžnější slovo pro oblékání."
       },
       "sectionAccents": {
         "examples": [
@@ -37186,15 +37169,9 @@ const A2_WORDS = [
               "green": [
                 "sich kleiden"
               ],
-              "yellow": [
-                "Diese"
-              ],
               "red": [
-                "Diese",
                 "anziehen",
-                "Diese",
-                "kleiden",
-                "Diese"
+                "kleiden"
               ]
             }
           }
@@ -37395,7 +37372,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: Körper nejčastěji znamená tělo člověka nebo zvířete – tělo, zdraví a fyzickou kondici.",
         "Ve zdravotních, sportovních a lékařských textech je Körper obvykle tělo: Der Körper braucht Ruhe.",
-        "V technickém kontextu Körper znamená tělo — fyzická část auta, zbraně nebo předmětu.",
+        "V technickém kontextu Körper znamená těleso nebo korpus — fyzická část přístroje či předmětu.",
         "V matematice a geometrii může být Körper geometrickým tělesem (krychle, koule).",
         "Kontext určuje překlad: člověk → tělo • Mechanismus → tělo."
       ],
@@ -37425,7 +37402,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "Körper může znamenat víc než jen lidské tělo.",
-        "example": "Der Körper des Autos = karoserie vozu. ein geometrischer Körper = geometrické těleso."
+        "example": "Der Körper des Geräts = korpus přístroje. ein geometrischer Körper = geometrické těleso."
       },
       "sectionAccents": {
         "examples": [
@@ -37530,13 +37507,9 @@ const A2_WORDS = [
                 "der Körper",
                 "Körper"
               ],
-              "green": [],
-              "orange": [],
-              "purple": [],
               "red": [
                 "geometrischer",
-                "Körper",
-                "Autos"
+                "Körper"
               ]
             }
           }
@@ -38259,7 +38232,7 @@ const A2_WORDS = [
         "Hlavní myšlenka: die Lage nejčastěji znamená situaci nebo stav.",
         "Používá se, když se mluví o situaci v zemi, v práci, v rodině nebo v určitém okamžiku.",
         "Lage může také znamenat umístění nebo polohu.",
-        "Méně často, zvláště u materiálů, Lage znamená vrstvu nebo vrstvu.",
+        "Méně často, zvláště u materiálů, Lage znamená vrstvu.",
         "Kontext určuje, zda se jedná o situaci, místo nebo vrstvu."
       ],
       "examples": [
@@ -38734,7 +38707,7 @@ const A2_WORDS = [
         },
         {
           "word": "nicht leiden können",
-          "meaning": "Nemoci snést",
+          "meaning": "Nesnášet někoho",
           "example": "Ich kann das nicht leiden. = Nesnáším to."
         },
         {
@@ -38924,11 +38897,7 @@ const A2_WORDS = [
                 "nicht leiden können"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Nebýt"
-              ]
-            },
+            "meaning": {},
             "example": {
               "red": [
                 "nicht leiden",
@@ -39341,7 +39310,7 @@ const A2_WORDS = [
         "Hlavní myšlenka: Leiter je homonymum – podle rodu znamená vedoucího nebo žebřík.",
         "Der Leiter (mužský rod) = vůdce, šéf • Množné číslo: die Leiter.",
         "Die Leiter (ženský rod) = žebřík • Množné číslo: die Leitern.",
-        "Článek a kontext většinou hned naznačují správný význam."
+        "Člen a kontext většinou hned naznačují správný význam."
       ],
       "examples": [
         {
@@ -39969,7 +39938,7 @@ const A2_WORDS = [
         },
         {
           "word": "stehen",
-          "meaning": "Stát (stát)",
+          "meaning": "Stát",
           "example": "Die Flasche steht hier. – Láhev je tady."
         },
         {
@@ -39989,8 +39958,8 @@ const A2_WORDS = [
       ],
       "important": [
         "Liegen = ležet.",
-        "Stav: Liegen.",
-        "Poloha: Něco, co již leží nebo leží vodorovně."
+        "Stav: něco už leží.",
+        "Poloha: vodorovná."
       ],
       "sectionAccents": {
         "explanation": {
@@ -41555,7 +41524,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "na gut",
-          "meaning": "Dobře • Dobře, budiž",
+          "meaning": "Dobře, budiž",
           "example": "Na gut, dann machen wir das. – No tak pojďme na to."
         },
         {
@@ -42901,7 +42870,7 @@ const A2_WORDS = [
         },
         {
           "word": "geöffnet",
-          "meaning": "Oficiálně otevřeno",
+          "meaning": "Otevřeno",
           "example": "Das Museum ist geöffnet. = Muzeum je otevřeno."
         },
         {
@@ -43057,11 +43026,7 @@ const A2_WORDS = [
                 "geöffnet"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Oficiálně"
-              ]
-            },
+            "meaning": {},
             "example": {
               "green": [
                 "geöffnet",
@@ -44891,7 +44856,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "V matematice rechnen znamená počítat.",
-        "Pokud vidíte mit rechnen, máte na mysli počítat s něčím."
+        "Mit etwas rechnen = počítat s něčím (očekávat to)."
       ],
       "important": [
         "Rechnen a zählen nejsou totéž.",
@@ -45036,12 +45001,7 @@ const A2_WORDS = [
               "matematice"
             ]
           },
-          {
-            "blue": [],
-            "purple": [
-              "matematice"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -48837,7 +48797,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "das Schloss",
-          "meaning": "Zámek / zámek",
+          "meaning": "Zámek",
           "example": "Das Schloss ist alt. = Zámek je starý."
         },
         {
@@ -51034,7 +50994,7 @@ const A2_WORDS = [
         },
         {
           "word": "stehen",
-          "meaning": "Stát (stát)",
+          "meaning": "Stát",
           "example": "Die Flasche steht hier. – Láhev je tady."
         }
       ],
@@ -51598,7 +51558,7 @@ const A2_WORDS = [
         },
         {
           "word": "ansonsten",
-          "meaning": "Jinak / jinak",
+          "meaning": "Jinak",
           "example": "Ansonsten ist alles gut. = Jinak je všechno dobré."
         },
         {
@@ -51620,10 +51580,10 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pokud věta obsahuje varování nebo následek, znamená sonst obvykle něco jiného."
+            "text": "Pokud věta obsahuje varování nebo následek, znamená sonst „jinak“ (v opačném případě)."
           },
           {
-            "text": "Pokud jde o zvyk, sonst může znamenat obvykle."
+            "text": "Pokud jde o zvyk, sonst může znamenat i „jako obvykle“."
           }
         ]
       },
@@ -51864,8 +51824,6 @@ const A2_WORDS = [
                 "blue": [
                   "sonst"
                 ],
-                "orange": [],
-                "red": [],
                 "yellow": [
                   "sonst"
                 ]
@@ -51876,7 +51834,6 @@ const A2_WORDS = [
                 "blue": [
                   "sonst"
                 ],
-                "red": [],
                 "yellow": [
                   "sonst"
                 ]
@@ -55075,7 +55032,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "der Termin",
-          "meaning": "Dohodnutý čas / termín / termín",
+          "meaning": "Dohodnutý čas / termín",
           "example": "Ich habe einen Termin. = Mám domluvený termín."
         },
         {
@@ -59417,7 +59374,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "vorstellen",
-          "meaning": "Představit / představit",
+          "meaning": "Představit",
           "example": "Ich stelle dir meinen Freund vor. = Představuji ti svého přítele."
         },
         {
@@ -59836,7 +59793,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Der Wagen se členem der je podstatné jméno – vozidlo. Wagen bez členu je sloveso – odvážit se."
+            "text": "Der Wagen se členem der je podstatné jméno – vozidlo. Psané malým písmenem wagen je sloveso – odvážit se."
           }
         ]
       },
@@ -59975,7 +59932,7 @@ const A2_WORDS = [
         },
         {
           "word": "auswählen",
-          "meaning": "Vybrat / vybrat",
+          "meaning": "Vybrat",
           "example": "Ich wähle ein Bild aus. = Vybírám obrázek."
         },
         {
@@ -61681,7 +61638,7 @@ const A2_WORDS = [
       "id": "a2-wert",
       "layout": "standardStudy",
       "translation": "Hodnota",
-      "explanation": "Hlavní myšlenka: der Wert znamená hodnotu (např. materiální nebo morální). Samostatně přídavné jméno wert znamená „stojící za to“ nebo „mající hodnotu“: Das ist viel wert. Fráze es ist wert znamená „stojí to za to“. Wert sein se často používá s penězi: Das ist 50 Euro wert. Přídavné jméno „drahý“ je obvykle teuer, ne wert.",
+      "explanation": "Hlavní myšlenka: der Wert znamená hodnotu (např. materiální nebo morální). Samostatně přídavné jméno wert znamená „stojící za to“ nebo „mající hodnotu“: Das ist viel wert. Fráze es ist der Mühe wert znamená „stojí to za to“. Wert sein se často používá s penězi: Das ist 50 Euro wert. Přídavné jméno „drahý“ je obvykle teuer, ne wert.",
       "examples": [
         {
           "de": "Das ist viel Geld wert.",
@@ -63941,7 +63898,7 @@ const A2_WORDS = [
       "important": [
         "Ansehen je často oddělitelný: Ich sehe mir ... an.",
         "Ansehen = dívat se/sledovat.",
-        "Zobrazit konkrétní položku nebo sledovat film/video."
+        "Prohlédnout si konkrétní věc nebo sledovat film/video."
       ],
       "sectionAccents": {
         "explanation": {
@@ -64014,12 +63971,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Poslouchejte zvuk nebo poslouchejte hudbu.",
+        "Slyšet zvuk nebo poslouchat hudbu.",
         "Použijte hören, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
         "Hören = slyšet nebo poslouchat zvuk.",
-        "Poslouchejte zvuk nebo poslouchejte hudbu."
+        "Slyšet zvuk nebo poslouchat hudbu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -64067,16 +64024,8 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Poslouchejte"
-            ]
-          },
-          {
-            "purple": [
-              "Poslouchejte"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -64442,7 +64391,7 @@ const A2_WORDS = [
       "important": [
         "Hoch se často používá pro ceny a úroveň.",
         "Hoch = vysoký.",
-        "Vysoká svisle, na úrovni nebo na výšku."
+        "Vysoký svisle, o úrovni nebo výšce."
       ],
       "sectionAccents": {
         "explanation": {
@@ -64585,7 +64534,7 @@ const A2_WORDS = [
       "important": [
         "Klein = malý rozměr.",
         "Klein = malý.",
-        "Malá velikostí nebo rozsahem."
+        "Malý velikostí nebo rozsahem."
       ],
       "sectionAccents": {
         "explanation": {
@@ -65137,7 +65086,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Omezuje množství, počet lidí, výběr nebo možnosti.",
-        "Používá se pouze tehdy, když kontext odpovídá tomuto významu."
+        "Použijte nur, když kontext odpovídá tomuto významu."
       ],
       "important": [
         "čeština „jen“ v němčině není vždy nur.",
@@ -65422,9 +65371,8 @@ const A2_WORDS = [
       "translation": "Uvnitř",
       "explanation": [
         "Hlavní myšlenka: Někdo nebo něco je uvnitř něčeho.",
-        "Příklady hledají typické každodenní použití.",
         "V případě pochybností zkontrolujte, zda se jedná o stav nebo akci.",
-        "Kontext a postup určují správnou volbu."
+        "Kontext a vazba určují správnou volbu."
       ],
       "examples": [
         {
