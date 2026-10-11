@@ -366,42 +366,61 @@ const C1_WORDS = [
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
       "translation": "Detached house",
-      "explanation": "Main idea: das Einfamilienhaus is a house for one family. It usually means a detached private house, not a block of flats.",
+      "explanation": [
+        "Main idea: das Einfamilienhaus is a house intended for one family – freestanding or attached to its neighbours, but with a single dwelling and usually its own garden.",
+        "Neuter noun: das Einfamilienhaus, plural die Einfamilienhäuser. It is made up of Ein- + Familie + Haus.",
+        "The opposite is das Mehrfamilienhaus (block of flats). In British English it is often rendered as detached house, although a Einfamilienhaus can also be semi-detached."
+      ],
       "examples": [
         {
-          "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "They live in a detached house."
+          "de": "Sie wohnen in einem Einfamilienhaus am Stadtrand.",
+          "lv": "They live in a detached house on the edge of town."
         },
         {
-          "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "The detached house has a garden."
+          "de": "Das Einfamilienhaus hat einen kleinen Garten.",
+          "lv": "The detached house has a small garden."
         },
         {
-          "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "Next door there is a block of flats."
+          "de": "Sie träumen von einem eigenen Einfamilienhaus.",
+          "lv": "They dream of having their own house."
+        },
+        {
+          "de": "In dieser Siedlung stehen nur Einfamilienhäuser.",
+          "lv": "There are only detached houses on this estate."
         }
       ],
       "comparison": [
         {
-          "word": "Einfamilienhaus",
-          "meaning": "detached house",
-          "example": "Sie wohnen in einem Einfamilienhaus. = They live in a detached house."
+          "word": "das Mehrfamilienhaus",
+          "meaning": "block of flats",
+          "example": "Im Mehrfamilienhaus wohnen zehn Familien. – Ten families live in the block of flats."
         },
         {
-          "word": "Mehrfamilienhaus",
-          "meaning": "block of flats",
-          "example": "Im Mehrfamilienhaus wohnen viele Familien. = Many families live in the block of flats."
+          "word": "das Reihenhaus",
+          "meaning": "terraced house",
+          "example": "Das Reihenhaus steht zwischen zwei anderen. – The terraced house stands between two others."
+        },
+        {
+          "word": "das Hochhaus",
+          "meaning": "high-rise building",
+          "example": "Im Hochhaus gibt es einen Aufzug. – There is a lift in the high-rise."
         }
       ],
-      "tip": "Ein- and Mehr- show how many families the house is intended for.",
-      "important": "Einfamilienhaus is a detached private house, not a flat.",
+      "tip": [
+        "You can understand the compound by its parts: ein + Familie + Haus.",
+        "A common combination: ein Einfamilienhaus bauen / kaufen / mieten."
+      ],
+      "important": [
+        "Einfamilienhaus is not the same as Villa: it can also be a quite simple house."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "Einfamilienhaus"
           ],
           "purple": [
-            "block of flats"
+            "house",
+            "detached house"
           ]
         },
         "examples": [
@@ -413,7 +432,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "detached"
+                "detached house"
               ]
             }
           },
@@ -425,19 +444,31 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "detached"
+                "detached house"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Mehrfamilienhaus"
+                "Einfamilienhaus"
               ]
             },
             "lv": {
               "purple": [
-                "block of flats"
+                "house"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhäuser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "detached houses"
               ]
             }
           }
@@ -446,47 +477,47 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Einfamilienhaus"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "detached house"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Einfamilienhaus"
-              ],
-              "purple": [
-                "detached"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "Mehrfamilienhaus"
+                "das Mehrfamilienhaus"
               ]
             },
             "meaning": {
               "purple": [
                 "block of flats"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Reihenhaus"
+              ]
             },
-            "example": {
-              "red": [
-                "Mehrfamilienhaus"
+            "meaning": {
+              "purple": [
+                "terraced house"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Hochhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "high-rise"
               ]
             }
           }
         ],
-        "tip": {},
-        "important": {
-          "blue": [
-            "Einfamilienhaus"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -871,42 +902,65 @@ const C1_WORDS = [
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
       "translation": "Society • Openness",
-      "explanation": "Main idea: die Öffentlichkeit means society as a public space, or people as a whole. In the phrase an die Öffentlichkeit kommen it means to come out into the open.",
+      "explanation": [
+        "Main idea: die Öffentlichkeit is the public – everyone to whom something is accessible or known – and also openness, the state of something not being secret.",
+        "Feminine noun: die Öffentlichkeit, with practically no plural. Common expressions: in der Öffentlichkeit (in public), an die Öffentlichkeit gehen (to go public), unter Ausschluss der Öffentlichkeit (with the public excluded), die Öffentlichkeit informieren.",
+        "Öffentlichkeit is not the same as die Gesellschaft (society as a social system); it refers to people at large as an audience, or to public view."
+      ],
       "examples": [
         {
-          "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "The public reacted critically."
+          "de": "Der Politiker trat vor die Öffentlichkeit.",
+          "lv": "The politician appeared before the public."
         },
         {
-          "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "The case came out into the open."
+          "de": "In der Öffentlichkeit darf man hier nicht rauchen.",
+          "lv": "Smoking is not allowed in public here."
         },
         {
-          "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "The public has a right to information."
+          "de": "Die Verhandlung fand unter Ausschluss der Öffentlichkeit statt.",
+          "lv": "The hearing took place with the public excluded."
+        },
+        {
+          "de": "Die Firma will den Skandal nicht an die Öffentlichkeit bringen.",
+          "lv": "The company does not want to make the scandal public."
         }
       ],
       "comparison": [
         {
-          "word": "Öffentlichkeit",
-          "meaning": "society, openness",
-          "example": "Die Öffentlichkeit reagierte kritisch. = The public reacted critically."
+          "word": "die Gesellschaft",
+          "meaning": "society (as a system)",
+          "example": "Die Gesellschaft verändert sich. – Society is changing."
         },
         {
-          "word": "Publikum",
+          "word": "das Publikum",
           "meaning": "audience",
-          "example": "Das Publikum klatscht. = The audience applauds."
+          "example": "Das Publikum klatscht. – The audience is applauding."
+        },
+        {
+          "word": "die Bevölkerung",
+          "meaning": "population",
+          "example": "Die Bevölkerung wächst. – The population is growing."
         }
       ],
-      "tip": "The phrase an die Öffentlichkeit kommen means to come out into the open.",
-      "important": "Öffentlichkeit is the wider public; Publikum is a specific audience, for example in a hall.",
+      "tip": [
+        "Use it with prepositions: in der Öffentlichkeit (where?), an die Öffentlichkeit (where to?).",
+        "Die Allgemeinheit (people in general) has a similar meaning."
+      ],
+      "important": [
+        "The plural is not normally used: there is no die Öffentlichkeiten."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Öffentlichkeit"
+            "die Öffentlichkeit",
+            "in der Öffentlichkeit",
+            "an die Öffentlichkeit gehen",
+            "unter Ausschluss der Öffentlichkeit",
+            "Gesellschaft"
           ],
           "purple": [
-            "into the open"
+            "public",
+            "openness"
           ]
         },
         "examples": [
@@ -930,7 +984,19 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "into the open"
+                "in public"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "public"
               ]
             }
           },
@@ -951,58 +1017,47 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Öffentlichkeit"
+                "die Gesellschaft"
               ]
             },
             "meaning": {
               "purple": [
-                "society",
-                "openness"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Öffentlichkeit"
-              ],
-              "purple": [
-                "public"
+                "society"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Publikum"
+                "das Publikum"
               ]
             },
             "meaning": {
               "purple": [
                 "audience"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bevölkerung"
+              ]
             },
-            "example": {
-              "red": [
-                "Publikum"
+            "meaning": {
+              "purple": [
+                "population"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Öffentlichkeit"
-          ],
-          "purple": [
-            "into the open"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Öffentlichkeit"
-          ],
-          "red": [
-            "Publikum"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -1023,57 +1078,65 @@ const C1_WORDS = [
       "id": "c1-partei",
       "layout": "standardStudy",
       "translation": "Party",
-      "explanation": "Main idea: die Partei is usually a political party. In legal or conflict language it can also mean a party in the sense of a side.",
+      "explanation": [
+        "Main idea: die Partei is a political party (die CDU ist eine Partei), but also a party to a dispute, court case or contract: die Streitparteien, die Vertragsparteien.",
+        "Feminine noun: die Partei, plural die Parteien. The expression Partei ergreifen für jemanden means to take someone's side.",
+        "Common in political contexts: eine Partei gründen (to found a party), in eine Partei eintreten (to join a party), die Regierungspartei (governing party)."
+      ],
       "examples": [
         {
-          "de": "Diese Partei gewann die Wahl.",
-          "lv": "This party won the election."
+          "de": "Sie ist Mitglied einer Partei.",
+          "lv": "She is a member of a party."
         },
         {
-          "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "He has been a party member for years."
+          "de": "Die Parteien verhandeln über eine Koalition.",
+          "lv": "The parties are negotiating a coalition."
         },
         {
-          "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "Both parties must sign the contract."
+          "de": "Im Streit ergriff er Partei für seinen Bruder.",
+          "lv": "In the dispute he took his brother's side."
+        },
+        {
+          "de": "Beide Parteien haben den Vertrag unterschrieben.",
+          "lv": "Both parties have signed the contract."
         }
       ],
       "comparison": [
         {
-          "word": "Partei",
-          "meaning": "party, side",
-          "example": "Diese Partei gewann die Wahl. = This party won the election."
+          "word": "die Seite",
+          "meaning": "side",
+          "example": "Auf welcher Seite stehst du? – Which side are you on?"
         },
         {
-          "word": "Partie",
-          "meaning": "game, round",
-          "example": "Wir spielen eine Partie Schach. = We are playing a game of chess."
+          "word": "der Verein",
+          "meaning": "club, association",
+          "example": "Er ist im Sportverein. – He is in the sports club."
+        },
+        {
+          "word": "die Gruppe",
+          "meaning": "group",
+          "example": "Die Gruppe trifft sich heute. – The group is meeting today."
         }
       ],
-      "tip": "If it is about elections, think political party; if it is about a contract or a court, think side.",
-      "important": "Partei is not the same as Partie (a game or round).",
+      "tip": [
+        "Partei ergreifen (to take someone's side) is a useful expression for describing disputes.",
+        "In politics you say eine Partei wählen or für eine Partei stimmen."
+      ],
+      "important": [
+        "Die Partei and die Party (a celebration) sound similar but are not related."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Partei"
+            "Partei",
+            "Parteien"
           ],
           "purple": [
-            "party"
+            "party",
+            "side"
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "Partei"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "party"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -1097,62 +1160,77 @@ const C1_WORDS = [
                 "parties"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "side"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parties"
+              ]
+            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "Partei"
+                "die Seite"
               ]
             },
             "meaning": {
               "purple": [
-                "party",
                 "side"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Partei"
-              ],
-              "purple": [
-                "party"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Partie"
+                "der Verein"
               ]
             },
             "meaning": {
               "purple": [
-                "game"
+                "club"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gruppe"
               ]
             },
-            "example": {
-              "red": [
-                "Partie"
+            "meaning": {
+              "purple": [
+                "group"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "party",
-            "side"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Partei"
-          ],
-          "red": [
-            "Partie"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -1208,57 +1286,66 @@ const C1_WORDS = [
       "id": "c1-prozess",
       "layout": "standardStudy",
       "translation": "Process • Lawsuit",
-      "explanation": "Main idea: der Prozess is a process or course of events. In court, der Prozess means a lawsuit.",
+      "explanation": [
+        "Main idea: der Prozess has two main meanings: a process (ein langsamer Prozess) and a lawsuit or trial (ein Prozess gegen jemanden).",
+        "Masculine noun: der Prozess, plural die Prozesse. A case can be conducted, started, won or lost: einen Prozess führen, gewinnen, verlieren.",
+        "The expression kurzen Prozess machen means to act without hesitating, ruthlessly."
+      ],
       "examples": [
         {
-          "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "The process lasts several months."
+          "de": "Der Prozess gegen den Angeklagten dauert Monate.",
+          "lv": "The trial against the accused lasts for months."
         },
         {
-          "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "The trial in court begins tomorrow."
+          "de": "Die Heilung ist ein langsamer Prozess.",
+          "lv": "Healing is a slow process."
         },
         {
-          "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "We are improving the whole process."
+          "de": "Sie haben den Prozess gewonnen.",
+          "lv": "They won the case."
+        },
+        {
+          "de": "Die Firma machte kurzen Prozess und kündigte ihm.",
+          "lv": "The company did not waste time and dismissed him."
         }
       ],
       "comparison": [
         {
-          "word": "Prozess",
-          "meaning": "process, lawsuit",
-          "example": "Der Prozess dauert mehrere Monate. = The process lasts several months."
+          "word": "der Vorgang",
+          "meaning": "procedure, process",
+          "example": "Der Vorgang dauert eine Stunde. – The process takes an hour."
         },
         {
-          "word": "Verfahren",
-          "meaning": "procedure",
-          "example": "Das Verfahren ist einfach. = The procedure is simple."
+          "word": "die Verhandlung",
+          "meaning": "hearing",
+          "example": "Die Verhandlung beginnt um neun. – The hearing begins at nine."
+        },
+        {
+          "word": "die Klage",
+          "meaning": "lawsuit, legal action",
+          "example": "Er reichte eine Klage ein. – He filed a lawsuit."
         }
       ],
-      "tip": "In court, Prozess is a lawsuit; elsewhere it is a process or course of events.",
-      "important": "Prozess is not the same as Verfahren: Verfahren is a specific procedure or method.",
+      "tip": [
+        "When the subject is a court case, you often meet the verbs einen Prozess führen / gewinnen / verlieren.",
+        "Prozess in the sense of process is also a technical and scientific term: der Prozess der Herstellung (the production process)."
+      ],
+      "important": [
+        "The word is masculine in both senses: der Prozess (not das Prozess)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Prozess"
+            "Prozess",
+            "Prozesse"
           ],
           "purple": [
-            "process"
+            "process",
+            "lawsuit",
+            "trial"
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "Prozess"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "process"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -1282,25 +1369,40 @@ const C1_WORDS = [
                 "process"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "case"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "did not waste time"
+              ]
+            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "Prozess"
+                "Vorgang"
               ]
             },
             "meaning": {
-              "purple": [
-                "process",
-                "lawsuit"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Prozess"
-              ],
               "purple": [
                 "process"
               ]
@@ -1309,38 +1411,35 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Verfahren"
+                "Verhandlung"
               ]
             },
             "meaning": {
               "purple": [
-                "procedure"
+                "hearing"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Klage"
               ]
             },
-            "example": {
-              "red": [
-                "Verfahren"
+            "meaning": {
+              "purple": [
+                "lawsuit"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Prozess"
-          ],
-          "purple": [
-            "process",
-            "lawsuit"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Prozess"
-          ],
-          "red": [
-            "Verfahren"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -1735,65 +1834,73 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Summarise",
       "explanation": [
-        "Main idea: zusammenfassen is a verb: to sum up or gather information into one short account.",
-        "zusammenfassen is used when a short overview is made from several facts, texts or thoughts.",
-        "Do not confuse it with die Zusammenfassung: written with a capital letter and the article die, it is a noun that denotes the summary itself (the result, a finished text).",
-        "zusammenfassen = the process/action (to sum up, to summarise); die Zusammenfassung = the result (the summary as a noun).",
-        "Like many German verbs, zusammenfassen can become a noun with a capital letter and an article: zusammenfassen → die Zusammenfassung (nominalisation)."
+        "Main idea: zusammenfassen means to sum up briefly the main points of a text, speech or results; it also means to combine several things into one whole.",
+        "Separable verb: er fasst zusammen, fasste zusammen, hat zusammengefasst. What is summarised takes the accusative: einen Text zusammenfassen. It is often followed by in + dative or zu + dative: in einem Satz zusammenfassen. The noun is die Zusammenfassung.",
+        "At the start of a sentence zusammenfassend (in summary) is often used: Zusammenfassend lässt sich sagen …"
       ],
       "examples": [
         {
-          "de": "Können Sie den Text zusammenfassen?",
-          "lv": "Can you summarise this text?"
+          "de": "Fasst bitte den Text in drei Sätzen zusammen.",
+          "lv": "Please summarise the text in three sentences."
         },
         {
-          "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "I am summing up the most important points."
+          "de": "Der Redner fasste die Ergebnisse kurz zusammen.",
+          "lv": "The speaker briefly summarised the results."
         },
         {
-          "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "He briefly summarised the report."
+          "de": "Wir haben die Vorschläge in einer Liste zusammengefasst.",
+          "lv": "We have summarised the proposals in a list."
         },
         {
-          "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "Summing up, one can say that..."
+          "de": "Kannst du den Film kurz zusammenfassen?",
+          "lv": "Can you give a brief summary of the film?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zusammenstellen",
+          "meaning": "to put together, to compile",
+          "example": "Ich stelle eine Liste zusammen. – I am compiling a list."
         },
         {
-          "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "I am writing a summary of the book."
+          "word": "kürzen",
+          "meaning": "to shorten",
+          "example": "Wir kürzen den Text. – We are shortening the text."
         },
         {
-          "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "The summary is too long."
+          "word": "wiederholen",
+          "meaning": "to repeat",
+          "example": "Wiederhole den Satz. – Repeat the sentence."
         }
       ],
       "tip": [
-        "zusammenfassen (verb) = process: to sum up/summarise.",
-        "die Zusammenfassung (noun, with a capital letter and the article die) = result: the summary itself."
+        "Remember the separation: Ich fasse den Text zusammen, but in a subordinate clause …, weil ich den Text zusammenfasse.",
+        "Zusammenfassen is often followed by in einem Satz / in drei Punkten."
       ],
       "important": [
-        "zusammenfassen = to sum up/summarise (verb).",
-        "die Zusammenfassung = summary (noun, nominalised from zusammenfassen).",
-        "Incorrect: die zusammenfassen → Correct: die Zusammenfassung (a noun is always written with a capital letter)."
+        "The past participle is zusammengefasst (with -ge- between zusammen and fasst).",
+        "Do not confuse it with zusammenstellen: that means to compile, not to retell briefly."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "zusammenfassen"
+            "zusammenfassen",
+            "zusammenfassend",
+            "fasst zusammen",
+            "fasste zusammen",
+            "zusammengefasst",
+            "Zusammenfassung"
           ],
           "purple": [
             "sum up",
-            "summarise"
-          ],
-          "green": [
-            "die Zusammenfassung"
+            "combine"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "zusammenfassen"
+                "Fasst"
               ]
             },
             "lv": {
@@ -1805,13 +1912,12 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "fasse",
-                "zusammen"
+                "fasste"
               ]
             },
             "lv": {
               "purple": [
-                "summing up"
+                "summarised"
               ]
             }
           },
@@ -1830,19 +1936,7 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "Zusammenfassend"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Summing up"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Zusammenfassung"
+                "zusammenfassen"
               ]
             },
             "lv": {
@@ -1850,51 +1944,53 @@ const C1_WORDS = [
                 "summary"
               ]
             }
-          },
+          }
+        ],
+        "comparison": [
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "zusammenstellen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "summary"
+                "compile"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kürzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "shorten"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wiederholen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "repeat"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ],
-            "red": [
-              "die zusammenfassen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -1949,56 +2045,66 @@ const C1_WORDS = [
       "id": "c1-wahl",
       "layout": "standardStudy",
       "translation": "Choice • Election",
-      "explanation": "die Wahl can mean a choice between options. In a political context Wahl means election. It can also mean the voting itself. The phrase eine Wahl treffen means to make a choice. zur Wahl gehen means to go to the polls. Whether the context is politics or a personal decision shows the right meaning.",
+      "explanation": [
+        "Main idea: die Wahl means a choice (picking from several possibilities) and an election (choosing people for office).",
+        "Feminine noun: die Wahl, plural die Wahlen. Elections are very often used in the plural: die Wahlen finden statt. Choice is usually singular: die Wahl haben, keine andere Wahl haben.",
+        "Combinations: die Wahl treffen (to make a choice), zur Wahl gehen (to go and vote), die Wahl gewinnen (to win the election)."
+      ],
       "examples": [
         {
-          "de": "Du hast die Wahl.",
-          "lv": "You have the choice."
+          "de": "Du hast die Wahl zwischen Tee und Kaffee.",
+          "lv": "You have the choice between tea and coffee."
         },
         {
-          "de": "Ich treffe meine Wahl morgen.",
-          "lv": "I will make my choice tomorrow."
+          "de": "Die Wahlen finden im Herbst statt.",
+          "lv": "The elections take place in the autumn."
         },
         {
-          "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "The election takes place on Sunday."
+          "de": "Er hatte keine andere Wahl.",
+          "lv": "He had no other choice."
         },
         {
-          "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "Many people go to the polls."
-        },
-        {
-          "de": "Die freie Wahl ist wichtig.",
-          "lv": "Free choice is important."
-        },
-        {
-          "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "At the election we vote."
+          "de": "Die Wahl des Bürgermeisters ist am Sonntag.",
+          "lv": "The mayoral election is on Sunday."
         }
       ],
       "comparison": [
         {
-          "word": "Wahl",
-          "meaning": "choice, election",
-          "example": "Du hast die Wahl. = You have the choice."
+          "word": "die Auswahl",
+          "meaning": "selection, range",
+          "example": "Im Laden gibt es eine große Auswahl. – The shop has a large selection."
         },
         {
-          "word": "Auswahl",
-          "meaning": "range of choices",
-          "example": "Es gibt eine große Auswahl. = There is a wide choice."
+          "word": "die Entscheidung",
+          "meaning": "decision",
+          "example": "Das ist meine Entscheidung. – That is my decision."
+        },
+        {
+          "word": "die Abstimmung",
+          "meaning": "vote",
+          "example": "Die Abstimmung ist morgen. – The vote is tomorrow."
         }
       ],
-      "tip": "If it is about voting, think election; if it is about a decision, think choice.",
-      "important": "Die Wahl is the choice itself or the voting, whereas Auswahl is a range of choices.",
+      "tip": [
+        "Think about context: Wahl in the singular is often a choice, die Wahlen means elections.",
+        "The verb for elections is wählen (to vote, to choose)."
+      ],
+      "important": [
+        "Do not confuse die Wahl with die Auswahl: Auswahl is the range from which you choose."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Wahl"
+            "die Wahl",
+            "die Wahlen",
+            "Wahlen",
+            "Wahl",
+            "zur Wahl gehen",
+            "die Wahl treffen"
           ],
           "purple": [
-            "election",
             "choice",
-            "the polls"
+            "election"
           ]
         },
         "examples": [
@@ -2017,36 +2123,12 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "Wahl"
+                "Wahlen"
               ]
             },
             "lv": {
               "purple": [
-                "choice"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wahl"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "election"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wahl"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "the polls"
+                "elections"
               ]
             }
           },
@@ -2079,56 +2161,47 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Wahl"
+                "die Auswahl"
               ]
             },
             "meaning": {
               "purple": [
-                "choice",
-                "election"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Wahl"
-              ],
-              "purple": [
-                "choice"
+                "selection"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Auswahl"
+                "die Entscheidung"
               ]
             },
             "meaning": {
               "purple": [
-                "range of choices"
+                "decision"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Abstimmung"
               ]
             },
-            "example": {
-              "red": [
-                "Auswahl"
+            "meaning": {
+              "purple": [
+                "vote"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "choice",
-            "election"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Wahl"
-          ],
-          "red": [
-            "Auswahl"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -2244,43 +2317,64 @@ const C1_WORDS = [
       "id": "c1-befangenheit",
       "layout": "standardStudy",
       "translation": "Self-consciousness • Embarrassment",
-      "explanation": "Main idea: Befangenheit is self-consciousness or embarrassment in front of others. Befangenheit describes uncertainty or an awkward feeling that shows in behaviour or speech.",
+      "explanation": [
+        "Main idea: die Befangenheit is embarrassment or shy awkwardness that arises in an unfamiliar situation or in front of other people. In law it also means bias, for example the partiality of a judge or an expert.",
+        "Feminine noun: die Befangenheit, usually without a plural. The adjective is befangen (self-conscious, biased).",
+        "In court the expression Besorgnis der Befangenheit denotes doubt about a judge's impartiality; from it comes Befangenheitsantrag (a motion to challenge the judge for bias)."
+      ],
       "examples": [
         {
-          "de": "Seine Befangenheit war deutlich zu erkennen.",
+          "de": "Seine Befangenheit war deutlich zu spüren.",
           "lv": "His self-consciousness was clearly noticeable."
         },
         {
-          "de": "Sie versuchte, ihre Befangenheit zu verbergen.",
-          "lv": "She tried to hide her embarrassment."
+          "de": "Sie sprach ohne jede Befangenheit vor der Gruppe.",
+          "lv": "She spoke in front of the group without any self-consciousness."
         },
         {
-          "de": "Sie sprach mit Befangenheit.",
-          "lv": "She spoke with self-consciousness."
+          "de": "Vor Fremden hatte das Kind eine gewisse Befangenheit.",
+          "lv": "The child felt a certain unease in front of strangers."
+        },
+        {
+          "de": "Der Anwalt stellte einen Antrag wegen Befangenheit des Richters.",
+          "lv": "The lawyer filed a motion because of the judge's bias."
         }
       ],
       "comparison": [
         {
-          "word": "Befangenheit",
-          "meaning": "self-consciousness, embarrassment",
-          "example": "Seine Befangenheit war deutlich zu erkennen. = His self-consciousness was clearly noticeable."
+          "word": "die Verlegenheit",
+          "meaning": "embarrassment",
+          "example": "Er lachte aus Verlegenheit. – He laughed out of embarrassment."
         },
         {
-          "word": "Schüchternheit",
+          "word": "die Voreingenommenheit",
+          "meaning": "prejudice",
+          "example": "Ihre Voreingenommenheit stört mich. – Her prejudice bothers me."
+        },
+        {
+          "word": "die Schüchternheit",
           "meaning": "shyness",
-          "example": "Seine Schüchternheit fällt auf. = His shyness is noticeable."
+          "example": "Seine Schüchternheit verschwand. – His shyness disappeared."
         }
       ],
-      "tip": "If a person feels unsure in front of others, think Befangenheit.",
-      "important": "In legal language Befangenheit can also mean bias (lack of impartiality).",
+      "tip": [
+        "When Befangenheit is mentioned in court, it means bias, not embarrassment.",
+        "In the sense of embarrassment the word is rather bookish; in everyday speech we more often say verlegen sein."
+      ],
+      "important": [
+        "The opposites are Unbefangenheit (ease, spontaneity) or Objektivität (objectivity)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Befangenheit"
+            "die Befangenheit",
+            "Befangenheit",
+            "befangen",
+            "Befangenheitsantrag"
           ],
           "purple": [
-            "self-consciousness",
-            "embarrassment"
+            "embarrassment",
+            "bias"
           ]
         },
         "examples": [
@@ -2304,7 +2398,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "embarrassment"
+                "self-consciousness"
               ]
             }
           },
@@ -2316,7 +2410,19 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "self-consciousness"
+                "unease"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bias"
               ]
             }
           }
@@ -2325,52 +2431,47 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Befangenheit"
+                "die Verlegenheit"
               ]
             },
             "meaning": {
               "purple": [
-                "self-consciousness",
                 "embarrassment"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Befangenheit"
-              ],
-              "purple": [
-                "self-consciousness"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Schüchternheit"
+                "die Voreingenommenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prejudice"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schüchternheit"
               ]
             },
             "meaning": {
               "purple": [
                 "shyness"
               ]
-            },
-            "example": {
-              "red": [
-                "Schüchternheit"
-              ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Befangenheit"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Befangenheit"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -2473,39 +2574,63 @@ const C1_WORDS = [
       "id": "c1-berufung",
       "layout": "standardStudy",
       "translation": "Calling • Inclination • Appeal",
-      "explanation": "Main idea: Berufung is a calling, or the citing of something. Berufung als ... means a calling, a vocation for a profession. Unter Berufung auf ... means citing a law or a document.",
+      "explanation": [
+        "Main idea: die Berufung has several meanings: a calling (an inner vocation for a profession), appointment to a post (especially at a university), reference to something (unter Berufung auf), and, in law, an appeal (Berufung einlegen).",
+        "Feminine noun: die Berufung, plural die Berufungen. The related verb is berufen, and referring to something is expressed by sich berufen auf + accusative.",
+        "The meaning is usually decided by the combination: Berufung einlegen – to lodge an appeal; unter Berufung auf – citing, with reference to."
+      ],
       "examples": [
         {
-          "de": "Sie sieht ihren Beruf als Berufung.",
-          "lv": "She regards her profession as a calling."
+          "de": "Sie spürt die Berufung zur Ärztin.",
+          "lv": "She feels a calling to become a doctor."
         },
         {
-          "de": "Unter Berufung auf das Gesetz widersprach er.",
-          "lv": "Citing the law, he objected."
+          "de": "Die Anwältin legte gegen das Urteil Berufung ein.",
+          "lv": "The lawyer appealed against the judgment."
+        },
+        {
+          "de": "Er lehnte die Fragen unter Berufung auf das Datenschutzgesetz ab.",
+          "lv": "He refused to answer the questions, citing the data protection law."
+        },
+        {
+          "de": "Seine Berufung an die Universität kam überraschend.",
+          "lv": "His appointment to the university came as a surprise."
         }
       ],
       "comparison": [
         {
-          "word": "Berufung",
-          "meaning": "calling, citing",
-          "example": "Sie sieht ihren Beruf als Berufung. = She regards her profession as a calling."
+          "word": "der Beruf",
+          "meaning": "profession",
+          "example": "Mein Beruf ist Lehrer. – My profession is teacher."
         },
         {
-          "word": "Beruf",
-          "meaning": "profession",
-          "example": "Mein Beruf ist Lehrer. = My profession is teacher."
+          "word": "der Einspruch",
+          "meaning": "objection",
+          "example": "Er legte Einspruch ein. – He lodged an objection."
+        },
+        {
+          "word": "die Revision",
+          "meaning": "appeal on points of law",
+          "example": "Die Revision wurde abgelehnt. – The appeal on points of law was rejected."
         }
       ],
-      "tip": "If auf follows, think of citing; if it is about a profession, think of a calling.",
-      "important": "Berufung is not the same as Beruf (profession). Berufung is a deeper calling.",
+      "tip": [
+        "Memorise two fixed combinations: Berufung einlegen (to appeal) and unter Berufung auf (citing).",
+        "Der Beruf (profession) and die Berufung (calling) are related, but mean different things."
+      ],
+      "important": [
+        "An appeal in the German legal system (Berufung) is not the same as a Revision, which only reviews the application of the law."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Berufung"
+            "Berufung",
+            "Berufungen"
           ],
           "purple": [
             "calling",
-            "citing"
+            "appointment",
+            "appeal"
           ]
         },
         "examples": [
@@ -2529,7 +2654,31 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Citing"
+                "appealed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "citing"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "appointment"
               ]
             }
           }
@@ -2538,55 +2687,47 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "Berufung"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "calling",
-                "citing"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Berufung"
-              ],
-              "purple": [
-                "calling"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "Beruf"
+                "der Beruf"
               ]
             },
             "meaning": {
               "purple": [
                 "profession"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Einspruch"
+              ]
             },
-            "example": {
-              "red": [
-                "Beruf"
+            "meaning": {
+              "purple": [
+                "objection"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Revision"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "points of law"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "calling"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Berufung"
-          ],
-          "red": [
-            "Beruf"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -3108,39 +3249,67 @@ const C1_WORDS = [
       "id": "c1-festgesetzt",
       "layout": "standardStudy",
       "translation": "Fixed • Determined • Laid down",
-      "explanation": "Main idea: festgesetzt means fixed or set down. Festgesetzt is the past participle of festsetzen. It means that a price, date or fee has been officially fixed.",
+      "explanation": [
+        "Main idea: festgesetzt is the past participle of festsetzen and means officially fixed, set or determined (a deadline, price, penalty). It describes something that has been laid down as binding.",
+        "Separable verb: er setzt fest, setzte fest, hat festgesetzt. As an adjective it takes endings: der festgesetzte Termin, die festgesetzte Frist. In the passive: wurde festgesetzt.",
+        "In law festsetzen can also mean to detain a person: Die Täter wurden festgesetzt."
+      ],
       "examples": [
         {
-          "de": "Die Gebühr ist festgesetzt.",
-          "lv": "The fee is fixed."
+          "de": "Der Termin ist auf den 5. Mai festgesetzt.",
+          "lv": "The date has been fixed for 5 May."
         },
         {
-          "de": "Der Prüfungstermin ist festgesetzt.",
-          "lv": "The exam date is set."
+          "de": "Die Preise wurden vom Staat festgesetzt.",
+          "lv": "The prices were set by the state."
+        },
+        {
+          "de": "Die Strafe wurde auf zwei Jahre festgesetzt.",
+          "lv": "The sentence was fixed at two years."
+        },
+        {
+          "de": "Die festgesetzte Frist läuft morgen ab.",
+          "lv": "The set deadline expires tomorrow."
         }
       ],
       "comparison": [
         {
-          "word": "festgesetzt",
-          "meaning": "fixed, set down",
-          "example": "Die Gebühr ist festgesetzt. = The fee is fixed."
+          "word": "festgelegt",
+          "meaning": "fixed (by agreement)",
+          "example": "Der Plan ist festgelegt. – The plan is fixed."
         },
         {
-          "word": "festgelegt",
-          "meaning": "specified",
-          "example": "Der Termin ist festgelegt. = The date is specified."
+          "word": "beschlossen",
+          "meaning": "decided",
+          "example": "Das wurde beschlossen. – That was decided."
+        },
+        {
+          "word": "bestimmt",
+          "meaning": "determined, designated",
+          "example": "Der Ort ist bestimmt. – The place is designated."
         }
       ],
-      "tip": "If something is officially fixed, think festgesetzt.",
-      "important": "Festgesetzt is not the same as festgenommen (arrested).",
+      "tip": [
+        "Often used with Frist, Termin, Preis, Strafe, Höhe: auf einen Betrag festgesetzt.",
+        "In conversation festgelegt is more common; festgesetzt sounds more official."
+      ],
+      "important": [
+        "Mind the meaning: festgesetzt means detained only in a police or court context."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "festgesetzt"
+            "festgesetzt",
+            "festsetzen",
+            "setzt fest",
+            "setzte fest",
+            "festgesetzte",
+            "hat festgesetzt"
           ],
           "purple": [
             "fixed",
-            "set down"
+            "determined",
+            "detain"
           ]
         },
         "examples": [
@@ -3167,25 +3336,40 @@ const C1_WORDS = [
                 "set"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fixed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "set"
+              ]
+            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "festgesetzt"
+                "festgelegt"
               ]
             },
             "meaning": {
-              "purple": [
-                "fixed",
-                "set down"
-              ]
-            },
-            "example": {
-              "blue": [
-                "festgesetzt"
-              ],
               "purple": [
                 "fixed"
               ]
@@ -3194,34 +3378,35 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "festgelegt"
+                "beschlossen"
               ]
             },
             "meaning": {
               "purple": [
-                "specified"
+                "decided"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmt"
               ]
             },
-            "example": {
-              "red": [
-                "festgelegt"
+            "meaning": {
+              "purple": [
+                "designated"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "festgesetzt"
-          ],
-          "purple": [
-            "fixed"
-          ]
-        },
-        "important": {
-          "blue": [
-            "festgesetzt"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -3428,57 +3613,59 @@ const C1_WORDS = [
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
       "translation": "Occasionally • Sometimes • On the occasion of",
-      "explanation": "Main idea: gelegentlich is a word with three functions. Adjective: occasional, incidental (ein gelegentlicher Besuch). Adverb: occasionally, from time to time (Er kommt gelegentlich). Preposition + genitive: on the occasion of (gelegentlich des Festes).",
+      "explanation": [
+        "Main idea: gelegentlich is most often an adverb meaning occasionally, from time to time: it happens not regularly but now and then. As an adjective it means occasional or isolated: gelegentliche Schauer – occasional showers.",
+        "Less often, and more formally, gelegentlich is a preposition with the genitive meaning on the occasion of: gelegentlich seines Geburtstags – on the occasion of his birthday. This use sounds very official or dated today.",
+        "As an adverb gelegentlich takes no endings; as an adjective it does."
+      ],
       "examples": [
         {
-          "de": "Er kommt gelegentlich vorbei.",
-          "lv": "He drops by occasionally."
+          "de": "Wir treffen uns gelegentlich auf einen Kaffee.",
+          "lv": "We meet for a coffee now and then."
         },
         {
-          "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "An occasional visit is enough."
+          "de": "Er raucht nur gelegentlich.",
+          "lv": "He only smokes occasionally."
         },
         {
-          "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "On the occasion of the festival, a speech was given."
+          "de": "Gelegentliche Schauer sind möglich.",
+          "lv": "Occasional showers are possible."
+        },
+        {
+          "de": "Gelegentlich seines Geburtstags hielt er eine Rede.",
+          "lv": "He gave a speech on the occasion of his birthday."
         }
       ],
       "comparison": [
         {
-          "word": "gelegentlich (Adv.)",
-          "meaning": "occasionally • from time to time",
-          "example": "Er kommt gelegentlich. = He occasionally comes."
-        },
-        {
-          "word": "gelegentlich (Adj.)",
-          "meaning": "occasional • incidental",
-          "example": "ein gelegentlicher Besuch = an occasional visit"
-        },
-        {
-          "word": "gelegentlich (+ Gen.)",
-          "meaning": "on the occasion of",
-          "example": "gelegentlich des Festes = on the occasion of the festival"
-        },
-        {
           "word": "manchmal",
           "meaning": "sometimes",
-          "example": "Manchmal regnet es. = Sometimes it rains."
+          "example": "Manchmal gehe ich laufen. – Sometimes I go running."
+        },
+        {
+          "word": "ab und zu",
+          "meaning": "now and then",
+          "example": "Ab und zu rufe ich ihn an. – I phone him now and then."
+        },
+        {
+          "word": "selten",
+          "meaning": "rarely",
+          "example": "Er kommt selten. – He rarely comes."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Position in the sentence helps: before a noun = adjective; after a verb = adverb; + genitive = preposition."
-          }
-        ]
-      },
-      "important": {
-        "text": "Adj.: occasional. Adv.: occasionally. Prep. + Gen.: on the occasion of. Context determines the meaning."
-      },
+      "tip": [
+        "To say sometimes but not regularly, use gelegentlich or ab und zu.",
+        "In everyday speech you will hear manchmal more often; gelegentlich is tidier and more written."
+      ],
+      "important": [
+        "Gelegentlich does not mean an opportunity: that is die Gelegenheit."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "gelegentlich"
+            "gelegentlich",
+            "gelegentliche",
+            "gelegentlich seines Geburtstags"
           ],
           "purple": [
             "occasionally",
@@ -3495,7 +3682,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "occasionally"
+                "now and then"
               ]
             }
           },
@@ -3507,7 +3694,19 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "occasional"
+                "occasionally"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gelegentliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Occasional"
               ]
             }
           },
@@ -3519,10 +3718,55 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "occasion"
+                "on the occasion of"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "manchmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sometimes"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ab und zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "now and then"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "selten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rarely"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -4555,81 +4799,115 @@ const C1_WORDS = [
       "id": "c1-verabschieden",
       "layout": "standardStudy",
       "translation": "Dismiss • Retire",
-      "explanation": "Main idea: sich verabschieden means to say goodbye; verabschieden can also mean to see off. With sich: sie verabschiedet sich = she says goodbye. With jemanden: wir verabschieden den Gast = we say goodbye to the guest.",
+      "explanation": [
+        "Main idea: sich verabschieden means to say goodbye to someone: Ich verabschiede mich von dir. The person you part from follows with von + dative.",
+        "Reflexive verb: ich verabschiede mich, er verabschiedet sich, verabschiedete sich, hat sich verabschiedet. Without sich, verabschieden can mean to see someone off formally, for instance to retire or dismiss them with a ceremony (der Direktor wurde in den Ruhestand verabschiedet), or to pass a law (ein Gesetz verabschieden).",
+        "The noun is die Verabschiedung (farewell, passing of a law)."
+      ],
       "examples": [
         {
-          "de": "Sie verabschiedet sich von uns.",
-          "lv": "She says goodbye to us."
+          "de": "Ich verabschiede mich von meinen Kollegen.",
+          "lv": "I am saying goodbye to my colleagues."
         },
         {
-          "de": "Wir verabschieden den Gast.",
-          "lv": "We say goodbye to the guest."
+          "de": "Sie verabschiedete sich und ging nach Hause.",
+          "lv": "She said goodbye and went home."
         },
         {
-          "de": "Jemanden in den Ruhestand verabschieden.",
-          "lv": "To send someone off into retirement."
+          "de": "Das Parlament hat das Gesetz verabschiedet.",
+          "lv": "Parliament passed the law."
+        },
+        {
+          "de": "Der Direktor wurde nach dreißig Jahren in den Ruhestand verabschiedet.",
+          "lv": "After thirty years the director was given a formal send-off into retirement."
         }
       ],
       "comparison": [
         {
-          "word": "verabschieden",
-          "meaning": "say goodbye",
-          "example": "Sie verabschiedet sich von uns. = She says goodbye to us."
+          "word": "Abschied nehmen",
+          "meaning": "to take one's leave",
+          "example": "Er nahm Abschied von seiner Heimat. – He took leave of his homeland."
         },
         {
-          "word": "begrüßen",
-          "meaning": "greet",
-          "example": "Wir begrüßen den Gast. = We greet the guest."
+          "word": "beschließen",
+          "meaning": "to decide, to pass a resolution",
+          "example": "Der Rat beschließt das Budget. – The council passes the budget."
+        },
+        {
+          "word": "winken",
+          "meaning": "to wave",
+          "example": "Sie winkt zum Abschied. – She waves goodbye."
         }
       ],
-      "tip": "If someone says goodbye themselves, use sich verabschieden.",
-      "important": "Jemanden verabschieden also means sending someone off from a post, for example in den Ruhestand.",
+      "tip": [
+        "In everyday life you say when parting: Ich verabschiede mich, tschüss! or Auf Wiedersehen!",
+        "To say who you are saying goodbye to, always use von + dative."
+      ],
+      "important": [
+        "A parliament may verabschieden a law; that is not the everyday sense of saying goodbye."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "verabschieden",
-            "verabschiedet sich"
+            "sich verabschieden",
+            "verabschiede",
+            "verabschiedete",
+            "verabschiedet",
+            "von",
+            "Verabschiedung"
           ],
           "purple": [
             "say goodbye",
-            "says goodbye",
-            "see off"
+            "retire",
+            "pass a law"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "verabschiedet sich"
+                "verabschiede"
               ]
             },
             "lv": {
               "purple": [
-                "says goodbye"
+                "saying goodbye"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "verabschieden"
+                "verabschiedete"
               ]
             },
             "lv": {
               "purple": [
-                "say goodbye"
+                "said goodbye"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "verabschieden"
+                "verabschiedet"
               ]
             },
             "lv": {
               "purple": [
-                "send someone off"
+                "passed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "send-off"
               ]
             }
           }
@@ -4638,54 +4916,47 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "verabschieden"
+                "Abschied nehmen"
               ]
             },
             "meaning": {
               "purple": [
-                "say goodbye"
-              ]
-            },
-            "example": {
-              "blue": [
-                "verabschiedet sich"
-              ],
-              "purple": [
-                "says goodbye"
+                "leave"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "begrüßen"
+                "beschließen"
               ]
             },
             "meaning": {
               "purple": [
-                "greet"
+                "pass"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "winken"
               ]
             },
-            "example": {
-              "red": [
-                "begrüßen"
+            "meaning": {
+              "purple": [
+                "wave"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "verabschieden"
-          ],
-          "purple": [
-            "says goodbye"
-          ]
-        },
-        "important": {
-          "blue": [
-            "verabschieden"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -4938,61 +5209,82 @@ const C1_WORDS = [
       "id": "c1-wahlberechtigt",
       "layout": "standardStudy",
       "translation": "Eligible to vote",
-      "explanation": "Main idea: wahlberechtigt is an adjective meaning that a person has the right to take part in elections, to vote or to stand as a candidate. Compound: Wahl (election) + berechtigt (entitled).",
+      "explanation": [
+        "Main idea: wahlberechtigt is an adjective describing a person who has the right to vote – who may take part in an election and cast a vote.",
+        "Like other adjectives it takes endings: wahlberechtigte Bürger. A noun can be formed from it: der/die Wahlberechtigte, die Wahlberechtigten (person entitled to vote).",
+        "The word is made up of die Wahl (election) and berechtigt (entitled)."
+      ],
       "examples": [
         {
-          "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "All citizens entitled to vote can vote."
+          "de": "Alle Bürger ab 18 Jahren sind wahlberechtigt.",
+          "lv": "All citizens aged 18 and over are eligible to vote."
         },
         {
-          "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "From the age of 18 one is entitled to vote."
+          "de": "Nur wahlberechtigte Personen dürfen abstimmen.",
+          "lv": "Only people entitled to vote may take part in the ballot."
         },
         {
-          "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "Not all residents are entitled to vote."
+          "de": "Wer ist in dieser Stadt wahlberechtigt?",
+          "lv": "Who is eligible to vote in this city?"
+        },
+        {
+          "de": "Die Zahl der Wahlberechtigten ist gestiegen.",
+          "lv": "The number of eligible voters has risen."
         }
       ],
       "comparison": [
         {
-          "word": "wahlberechtigt",
+          "word": "das Wahlrecht",
+          "meaning": "right to vote",
+          "example": "Das Wahlrecht ist ein Grundrecht. – The right to vote is a fundamental right."
+        },
+        {
+          "word": "wählbar",
+          "meaning": "eligible for election",
+          "example": "Er ist wählbar. – He is eligible for election."
+        },
+        {
+          "word": "stimmberechtigt",
           "meaning": "entitled to vote",
-          "example": "Er ist wahlberechtigt. = He is entitled to vote."
-        },
-        {
-          "word": "wählen",
-          "meaning": "to elect • to vote",
-          "example": "Ich wähle heute. = I am voting today."
-        },
-        {
-          "word": "der Wähler",
-          "meaning": "voter",
-          "example": "Der Wähler geht zur Wahl. = The voter goes to the polls."
+          "example": "Alle Mitglieder sind stimmberechtigt. – All members are entitled to vote."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Wahl = election, berechtigt = entitled. Common in the press and in legal texts."
-          }
-        ]
-      },
-      "important": {
-        "text": "wahlberechtigt = entitled to vote. Opposite: nicht wahlberechtigt."
-      },
+      "tip": [
+        "Distinguish wahlberechtigt (may vote) from wählbar (may be elected).",
+        "In figures use: die Zahl der Wahlberechtigten – the number of eligible voters."
+      ],
+      "important": [
+        "Wahlberechtigt does not mean that the person votes: it is only a right, not an action."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "wahlberechtigt",
-            "Wahl",
-            "berechtigt"
+            "wahlberechtigte",
+            "Wahlberechtigten"
+          ],
+          "purple": [
+            "right to vote",
+            "entitled to vote"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "wahlberechtigten"
+                "wahlberechtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "eligible to vote"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigte"
               ]
             },
             "lv": {
@@ -5009,22 +5301,67 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "entitled to vote"
+                "eligible to vote"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "wahlberechtigt"
+                "Wahlberechtigten"
               ]
             },
             "lv": {
               "purple": [
-                "entitled to vote"
+                "eligible voters"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Wahlrecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "right to vote"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wählbar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "eligible"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stimmberechtigt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "entitled"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -5125,53 +5462,61 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Premium • Markup",
       "explanation": [
-        "Main idea: der Zuschlag means a surcharge or markup: an additional amount added to the base price.",
-        "In a travel/transport context, der Zuschlag is an additional charge for a faster train, a better seat and the like.",
-        "Do not confuse it with der Anhang/die Beilage (an attachment to a document); that is a different word.",
-        "At auctions, den Zuschlag erhalten means to win the auction/receive the contract."
+        "Main idea: der Zuschlag is a surcharge or premium added to a base amount: a markup, a supplement for night work, for a fast train or for an additional service.",
+        "Masculine noun: der Zuschlag, plural die Zuschläge (with an umlaut). A second important meaning in an auction or tender: den Zuschlag erhalten – to win the bid, to be awarded the contract.",
+        "It often forms compounds: Nachtzuschlag, Zugzuschlag, Gefahrenzuschlag."
       ],
       "examples": [
         {
-          "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "You have to pay a surcharge for the ICE train."
+          "de": "Für Nachtarbeit gibt es einen Zuschlag.",
+          "lv": "Night work attracts a premium."
         },
         {
-          "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "The surcharge for the night shift is 20%."
+          "de": "Im Zug musste ich einen Zuschlag bezahlen.",
+          "lv": "I had to pay a surcharge on the train."
         },
         {
-          "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "She was awarded the contract (at auction)."
+          "de": "Die Firma erhielt den Zuschlag für den Bau.",
+          "lv": "The firm was awarded the contract for the construction."
         },
         {
-          "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "There is a markup for excess baggage."
+          "de": "Das Hotel verlangt einen Zuschlag für Haustiere.",
+          "lv": "The hotel charges a supplement for pets."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Aufpreis",
+          "meaning": "extra charge",
+          "example": "Für Leder zahlt man einen Aufpreis. – You pay an extra charge for leather."
         },
         {
-          "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "The price is exclusive of surcharges."
+          "word": "die Gebühr",
+          "meaning": "fee",
+          "example": "Die Gebühr beträgt zehn Euro. – The fee is ten euros."
+        },
+        {
+          "word": "der Rabatt",
+          "meaning": "discount",
+          "example": "Sie bekommen einen Rabatt. – You get a discount."
         }
       ],
       "tip": [
-        "der Zuschlag = surcharge/markup (additional charge), not a document attachment.",
-        "den Zuschlag erhalten (at auctions) = to win the auction/receive the contract."
+        "Remember two uses: einen Zuschlag bezahlen (to pay a surcharge) and den Zuschlag erhalten (to win a bid or tender).",
+        "Opposites: Zuschlag (added) and Abschlag (deducted)."
       ],
       "important": [
-        "der Zuschlag = surcharge/markup, not an 'attachment' to a document.",
-        "In German, an attachment to a document is die Anlage/der Anhang."
+        "The plural is die Zuschläge (with an umlaut), not die Zuschlage."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Zuschlag"
+            "Zuschlag",
+            "Zuschläge"
           ],
           "purple": [
             "surcharge",
             "markup"
-          ],
-          "red": [
-            "der Anhang",
-            "die Beilage"
           ]
         },
         "examples": [
@@ -5183,7 +5528,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "surcharge"
+                "premium"
               ]
             }
           },
@@ -5201,70 +5546,73 @@ const C1_WORDS = [
           },
           {
             "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "awarded"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "supplement"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
               "green": [
-                "Zuschlag"
+                "der Aufpreis"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "contract"
+                "extra charge"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschlag"
+            "word": {
+              "green": [
+                "die Gebühr"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "markup"
+                "fee"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschläge"
+            "word": {
+              "green": [
+                "der Rabatt"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "surcharges"
+                "discount"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "surcharge",
-              "markup"
-            ]
-          },
-          {
-            "green": [
-              "den Zuschlag erhalten"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "surcharge",
-              "markup"
-            ],
-            "red": [
-              "attachment"
-            ]
-          },
-          {
-            "red": [
-              "die Anlage",
-              "der Anhang"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -5278,56 +5626,163 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Apply • Apply to",
       "explanation": [
-        "Main idea: Formal register: to relate to a source, to receive a regular pension/salary, or to move into a flat.",
-        "Look for typical everyday usage in the examples.",
-        "If in doubt, check whether it is about a state or an action.",
-        "Context and the direction of the action determine the right choice."
+        "Main idea: etwas auf etwas beziehen means to apply or relate something to something or someone; sich auf etwas beziehen means to relate to something or to refer to it.",
+        "Forms: bezieht, bezog, hat bezogen. Both constructions are followed by auf + accusative: etwas auf sich beziehen (to take something personally), sich auf einen Text beziehen (to refer to a text).",
+        "Apart from this meaning, beziehen can also mean to put a cover on bedding (das Bett beziehen), to move into (eine Wohnung beziehen) and to receive regularly (ein Gehalt beziehen)."
       ],
       "examples": [
         {
-          "de": "beziehen / sich beziehen auf.",
-          "lv": "to relate • to refer to"
+          "de": "Du darfst das nicht auf dich beziehen.",
+          "lv": "You should not take that personally."
+        },
+        {
+          "de": "Meine Frage bezieht sich auf den letzten Absatz.",
+          "lv": "My question relates to the last paragraph."
+        },
+        {
+          "de": "Er bezieht sich in seinem Brief auf unser Gespräch.",
+          "lv": "In his letter he refers to our conversation."
+        },
+        {
+          "de": "Sie bezog die Aussage auf ihren Bruder.",
+          "lv": "She applied the statement to her brother."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "betreffen",
+          "meaning": "to affect, to concern",
+          "example": "Das betrifft uns alle. – That affects all of us."
+        },
+        {
+          "word": "verweisen auf",
+          "meaning": "to point to, to refer to",
+          "example": "Er verweist auf das Gesetz. – He refers to the law."
+        },
+        {
+          "word": "sich handeln um",
+          "meaning": "to be about, to be a matter of",
+          "example": "Es handelt sich um einen Fehler. – It is a mistake."
         }
       ],
       "tip": [
-        "Formal register: to relate to a source, to receive a regular pension/salary, or to move into a flat.",
-        "Use beziehen / sich beziehen auf when the context fits this meaning."
+        "Learn the pair: sich beziehen auf + accusative. The preposition is always auf.",
+        "To say take something personally: etwas auf sich beziehen."
       ],
       "important": [
-        "Formal register: to relate to a source, to receive a regular pension/salary, or to move into a flat.",
-        "beziehen / sich beziehen auf: check the context before using it and compare it with the other words on the card."
+        "Beziehen has many meanings: context decides whether it is about relating, bedding or a salary.",
+        "Betreffen itself is transitive, without a preposition: Das betrifft mich."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "beziehen",
+            "sich beziehen",
+            "bezieht",
+            "bezog",
+            "bezogen",
+            "auf"
+          ],
           "purple": [
-            "relate"
+            "apply",
+            "relate",
+            "refer to"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
+                "beziehen"
               ]
             },
             "lv": {
               "purple": [
-                "relate",
+                "personally"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "relates"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "refers"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezog"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "applied"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "betreffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "affect"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
                 "refer to"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich handeln um"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "be about"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "relate"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
+          {},
           {}
         ]
       }
@@ -5342,96 +5797,151 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "To intend • To plan",
       "explanation": [
-        "Main idea: A conscious intention to carry out an action in the future. It is not about a relation but about a plan.",
-        "beabsichtigen mainly means: a conscious intention.",
-        "Often describes: a plan / purpose.",
-        "beabsichtigen mainly means: to plan an action.",
-        "Often describes: formal register.",
-        "beabsichtigen means to intend or plan an action deliberately: not a relation but a purpose."
+        "Main idea: beabsichtigen means to intend or plan, to have in mind to do something; it is a deliberate purpose. It sounds more formal than vorhaben.",
+        "Regular verb: er beabsichtigt, beabsichtigte, hat beabsichtigt. It is followed either by the accusative (etwas beabsichtigen) or by an infinitive with zu: Ich beabsichtige, im Herbst umzuziehen. The noun is die Absicht (intention).",
+        "The participle beabsichtigt is used as an adjective: eine beabsichtigte Wirkung (an intended effect)."
       ],
       "examples": [
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "He intends to finish the project."
+          "de": "Ich beabsichtige, im Herbst umzuziehen.",
+          "lv": "I intend to move house in the autumn."
         },
         {
-          "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "What do you intend with this measure?"
+          "de": "Die Firma beabsichtigt, ein neues Werk zu bauen.",
+          "lv": "The company plans to build a new factory."
         },
         {
-          "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "We are not planning any change."
+          "de": "Das war nicht beabsichtigt.",
+          "lv": "That was not intended."
         },
         {
-          "de": "beabsichtigen + zu + infinitive",
-          "lv": "to intend to do something."
+          "de": "Was beabsichtigst du damit?",
+          "lv": "What are you hoping to achieve with that?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorhaben",
+          "meaning": "to have in mind, to intend",
+          "example": "Ich habe vor, morgen zu kommen. – I intend to come tomorrow."
+        },
+        {
+          "word": "planen",
+          "meaning": "to plan",
+          "example": "Wir planen eine Reise. – We are planning a trip."
+        },
+        {
+          "word": "wollen",
+          "meaning": "to want",
+          "example": "Ich will schlafen. – I want to sleep."
         }
       ],
       "tip": [
-        "If it is about a relation, a source or regular receipt: beziehen. If it is about a conscious plan: beabsichtigen.",
-        "beabsichtigen = to intend"
+        "After beabsichtigen, zu + infinitive most often follows, with a comma: …, zu bauen.",
+        "In everyday speech you can also say vorhaben or planen; beabsichtigen is more official."
       ],
       "important": [
-        "beabsichtigen + zu + infinitive: Er beabsichtigt zu gehen.",
-        "beabsichtigen cannot be replaced by beziehen: it is a purpose, not a relation.",
-        "beabsichtigen → intention, plan.",
-        "A conscious intention to carry out an action in the future. It is not about a relation but about a plan."
+        "The past participle is beabsichtigt (without ge-), because the prefix be- is inseparable."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "beabsichtigen"
+          "blue": [
+            "beabsichtigen",
+            "beabsichtigt",
+            "beabsichtigte",
+            "vorhaben",
+            "Absicht"
           ],
           "purple": [
             "intend",
-            "plan"
+            "plan",
+            "intention"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
+                "beabsichtige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "intend"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "intends"
+                "plans"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+              "blue": [
+                "beabsichtigt"
               ]
             },
             "lv": {
+              "purple": [
+                "intended"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beabsichtigst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hoping to achieve"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorhaben"
+              ]
+            },
+            "meaning": {
               "purple": [
                 "intend"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+                "planen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "plan"
+              ]
+            }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+                "wollen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "intend"
+                "want"
               ]
             }
           }
@@ -5441,11 +5951,7 @@ const C1_WORDS = [
           {}
         ],
         "important": [
-          {
-            "green": [
-              "beabsichtigen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -5459,52 +5965,63 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Impute • Insinuate",
       "explanation": [
-        "Main idea: To wrongly attribute guilt, a motive or an intention to someone else.",
-        "unterstellen mainly means: to impute without grounds.",
-        "Often describes: accusation / insinuation.",
-        "jemandem etwas unterstellen means to wrongly impute or accuse."
+        "Main idea: jemandem etwas unterstellen means to impute something to someone (an intention, words, a wicked act), often without evidence. A second meaning is to subordinate: Die Abteilung ist dem Direktor unterstellt.",
+        "Inseparable verb, stress on -stell-: er unterstellt, unterstellte, hat unterstellt. Construction: jemandem etwas unterstellen (to whom? what?). If the stress is on unter-, it is a different, separable verb: Ich stelle das Auto unter – I put the car under cover; sich unterstellen – to shelter.",
+        "In this sense the word expresses suspicion or an unfounded reproach – to insinuate – so it sounds severe."
       ],
       "examples": [
         {
-          "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Bad intentions are imputed to me."
+          "de": "Er unterstellt mir böse Absichten.",
+          "lv": "He imputes evil intentions to me."
         },
         {
-          "de": "Unterstellen Sie mir nichts!",
-          "lv": "Don't put words in my mouth!"
+          "de": "Das unterstelle ich dir nicht.",
+          "lv": "I am not insinuating that about you."
         },
         {
-          "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "One must not wrongly impute treason to anyone."
+          "de": "Man unterstellte ihr, dass sie gelogen habe.",
+          "lv": "It was insinuated that she had lied."
         },
         {
-          "de": "Ihm wird Untreue unterstellt.",
-          "lv": "Disloyalty is imputed to him."
+          "de": "Die Abteilung ist direkt dem Direktor unterstellt.",
+          "lv": "The department is directly subordinate to the director."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorwerfen",
+          "meaning": "to reproach",
+          "example": "Er wirft mir Faulheit vor. – He reproaches me for being lazy."
         },
         {
-          "de": "unterstellen",
-          "lv": "unterstellen = to impute (unfounded blame); also to assume"
+          "word": "beschuldigen",
+          "meaning": "to accuse",
+          "example": "Sie beschuldigt ihn des Diebstahls. – She accuses him of theft."
+        },
+        {
+          "word": "behaupten",
+          "meaning": "to claim",
+          "example": "Er behauptet, krank zu sein. – He claims to be ill."
         }
       ],
       "tip": [
-        "unterstellen = to impute",
-        "Use unterstellen when the context fits this meaning."
+        "Remember: unterstellen = to attribute something negative, often unjustly.",
+        "Put the person in the dative after unterstellen: Er unterstellt mir …"
       ],
       "important": [
-        "unterstellen is emotionally negative: an unfounded accusation.",
-        "unterstellen → to impute, to attribute."
+        "Inseparable unterstellen (to impute, to subordinate) is not the same as separable unterstellen (to put under cover, to shelter)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "unterstellen"
+            "unterstellen",
+            "unterstellt",
+            "unterstellte"
           ],
           "purple": [
             "impute",
-            "impute without grounds"
-          ],
-          "red": [
-            "impute"
+            "subordinate",
+            "reproach"
           ]
         },
         "examples": [
@@ -5516,29 +6033,26 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "imputed"
+                "imputes"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstelle"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellte"
               ]
             },
             "lv": {
               "purple": [
-                "impute"
+                "insinuated"
               ]
             }
           },
@@ -5550,34 +6064,55 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "impute"
+                "subordinate"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "reproach"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
+            "word": {
+              "green": [
+                "beschuldigen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "accuse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behaupten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "claim"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "impute"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
-          {
-            "blue": [
-              "unterstellen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -5591,51 +6126,161 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Take as a prerequisite",
       "explanation": [
-        "Main idea: To assume that something is already known or exists as a basis.",
-        "voraussetzen mainly means: to regard as a basis.",
-        "Often describes: a logical precondition.",
-        "etwas voraussetzen means to regard something as a self-evident prerequisite that already exists."
+        "Main idea: voraussetzen means to assume something as known or self-evident, or to require something as a prerequisite: Der Kurs setzt gute Kenntnisse voraus.",
+        "Separable verb: er setzt voraus, setzte voraus, hat vorausgesetzt. What is assumed or presupposed takes the accusative. The noun is die Voraussetzung (prerequisite).",
+        "The participle vorausgesetzt, set off by a comma, means provided that: Vorausgesetzt, es regnet nicht, grillen wir."
       ],
       "examples": [
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "We take basic knowledge as a prerequisite."
+          "de": "Der Kurs setzt gute Deutschkenntnisse voraus.",
+          "lv": "The course requires a good knowledge of German."
+        },
+        {
+          "de": "Ich habe vorausgesetzt, dass du Bescheid weißt.",
+          "lv": "I assumed that you knew about it."
+        },
+        {
+          "de": "Diese Stelle setzt ein Studium voraus.",
+          "lv": "This post presupposes a degree."
+        },
+        {
+          "de": "Vorausgesetzt, es regnet nicht, grillen wir.",
+          "lv": "Provided that it doesn't rain, we'll have a barbecue."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erfordern",
+          "meaning": "to require, to call for",
+          "example": "Die Aufgabe erfordert Geduld. – The task requires patience."
+        },
+        {
+          "word": "annehmen",
+          "meaning": "to assume, to suppose",
+          "example": "Ich nehme an, dass er kommt. – I assume that he is coming."
+        },
+        {
+          "word": "die Voraussetzung",
+          "meaning": "prerequisite",
+          "example": "Das ist keine Voraussetzung. – That is not a prerequisite."
         }
       ],
       "tip": [
-        "voraussetzen = to take as a prerequisite",
-        "Use voraussetzen when the context fits this meaning."
+        "Remember the separation: Das setzt Mühe voraus, but …, weil das Mühe voraussetzt.",
+        "A common combination: etwas als bekannt voraussetzen."
       ],
       "important": [
-        "voraussetzen is neutral: a precondition.",
-        "voraussetzen → to assume as a basis.",
-        "To assume that something is already known or exists as a basis."
+        "The past participle is vorausgesetzt – the ge- goes between voraus and setzt."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "voraussetzen",
-            "voraus"
+            "setzt voraus",
+            "setzte voraus",
+            "vorausgesetzt",
+            "Voraussetzung"
           ],
           "purple": [
-            "prerequisite"
+            "assume",
+            "prerequisite",
+            "provided that"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "requires"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "assumed"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "presupposes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Provided that"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erfordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "require"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "annehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "assume"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voraussetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prerequisite"
+              ]
+            }
           }
         ],
         "tip": [
+          {},
           {}
         ],
         "important": [
-          {
-            "green": [
-              "voraussetzen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -5649,47 +6294,109 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Protect • Preserve",
       "explanation": [
-        "Main idea: To protect from loss, damage or destruction: a value, a tradition, peace.",
-        "bewahren mainly means: to protect from loss.",
-        "Often describes: preserving values.",
-        "bewahren means to protect from damage, loss or change."
+        "Main idea: bewahren means to protect from something bad (jemanden vor etwas bewahren) and to preserve something valuable or unchanged (Ruhe, Traditionen, Erinnerungen).",
+        "Regular verb: er bewahrt, bewahrte, hat bewahrt. Protecting: bewahren vor + dative (who? from what?). Preserving: accusative – die Ruhe bewahren. To keep a secret: ein Geheimnis bewahren.",
+        "The word is more elevated than behalten (to keep) or aufheben (to store)."
       ],
       "examples": [
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "We preserve traditions."
+          "de": "Bitte bewahren Sie Ruhe!",
+          "lv": "Please keep calm!"
         },
         {
-          "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "They keep calm in the crisis."
+          "de": "Der Helm hat ihn vor Schlimmerem bewahrt.",
+          "lv": "The helmet saved him from something worse."
         },
         {
-          "de": "bewahren",
-          "lv": "to protect/preserve; aufrechterhalten"
+          "de": "Er bewahrte das Geheimnis jahrelang.",
+          "lv": "He kept the secret for years."
+        },
+        {
+          "de": "Wir wollen diese Tradition bewahren.",
+          "lv": "We want to preserve this tradition."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "aufbewahren",
+          "meaning": "to store, to keep safe",
+          "example": "Bewahre die Quittung auf! – Keep the receipt!"
+        },
+        {
+          "word": "schützen",
+          "meaning": "to protect",
+          "example": "Der Zaun schützt vor dem Wind. – The fence protects against the wind."
+        },
+        {
+          "word": "behalten",
+          "meaning": "to keep",
+          "example": "Du kannst das Buch behalten. – You can keep the book."
         }
       ],
       "tip": [
-        "bewahren = to protect",
-        "Use bewahren when the context fits this meaning."
+        "Memorise a fixed phrase: Ruhe bewahren – to keep calm.",
+        "To protect from something: bewahren vor + dative (vor Schaden, vor Gefahr)."
       ],
       "important": [
-        "bewahren: Wertvolles bewahren: to protect what is valuable.",
-        "bewahren → to protect, to preserve."
+        "Bewahren is not the same as aufbewahren: that is physical storage, while bewahren is to preserve or protect.",
+        "The past participle is bewahrt (without ge-)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bewahren"
+            "bewahren",
+            "bewahrt",
+            "bewahrte",
+            "behalten",
+            "vor",
+            "Ruhe bewahren"
           ],
           "purple": [
-            "protect"
+            "protect",
+            "preserve",
+            "keep"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bewahren",
+                "bewahren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "keep calm"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bewahrt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "saved"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bewahrte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kept"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "bewahren"
               ]
             },
@@ -5698,49 +6405,53 @@ const C1_WORDS = [
                 "preserve"
               ]
             }
-          },
+          }
+        ],
+        "comparison": [
           {
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahren"
+            "word": {
+              "green": [
+                "aufbewahren"
               ]
             },
-            "lv": {
+            "meaning": {
+              "purple": [
+                "store"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "protect"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
               "purple": [
                 "keep"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahren"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "protect",
-                "preserve"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "protect"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
-          {
-            "blue": [
-              "bewahren"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -5754,57 +6465,159 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Maintain in force",
       "explanation": [
-        "Main idea: To ensure that a state of affairs, an order or a relationship continues to exist.",
-        "aufrechterhalten mainly means: to ensure continuation.",
-        "Often describes: maintaining a state of affairs.",
-        "aufrechterhalten means to keep a state of affairs, a system or a relationship in force: to ensure that it continues."
+        "Main idea: aufrechterhalten means to maintain, to keep up: to keep something in force or in operation (order, contact, a claim, an offer).",
+        "Separable verb: er hält aufrecht, hielt aufrecht, hat aufrechterhalten. What is maintained takes the accusative. With a zu-infinitive: aufrechtzuerhalten.",
+        "Very often used together with Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Operations must be kept going."
+          "de": "Der Staat hält die Ordnung aufrecht.",
+          "lv": "The state maintains order."
+        },
+        {
+          "de": "Sie haben den Kontakt über Jahre aufrechterhalten.",
+          "lv": "They kept up contact for years."
+        },
+        {
+          "de": "Wir können dieses Angebot nicht länger aufrechterhalten.",
+          "lv": "We can no longer keep this offer open."
+        },
+        {
+          "de": "Er hielt seine Behauptung aufrecht.",
+          "lv": "He stuck to his claim."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erhalten",
+          "meaning": "to preserve",
+          "example": "Wir erhalten das Gebäude. – We are preserving the building."
+        },
+        {
+          "word": "beibehalten",
+          "meaning": "to keep unchanged",
+          "example": "Wir behalten den Plan bei. – We are sticking to the plan."
+        },
+        {
+          "word": "pflegen",
+          "meaning": "to cultivate, to look after",
+          "example": "Sie pflegt Kontakte. – She cultivates contacts."
         }
       ],
       "tip": [
-        "aufrechterhalten = to maintain",
-        "Use aufrechterhalten when the context fits this meaning."
+        "Remember the separation: Er hält die Ordnung aufrecht, but …, dass er die Ordnung aufrechterhält.",
+        "For contact you will say: den Kontakt aufrechterhalten (or pflegen)."
       ],
       "important": [
-        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "aufrechterhalten → to maintain.",
-        "To ensure that a state of affairs, an order or a relationship continues to exist."
+        "In the perfect, aufrechterhalten stays one word and takes no ge-: hat aufrechterhalten."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "aufrechterhalten",
-            "auf"
+            "hält aufrecht",
+            "hielt aufrecht",
+            "aufrechtzuerhalten"
+          ],
+          "purple": [
+            "maintain",
+            "keep up"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "aufrechterhalten",
+              "blue": [
+                "hält"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "maintains"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "aufrechterhalten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "kept up"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aufrechterhalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "keep"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hielt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stuck to"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "preserve"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beibehalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "unchanged"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "pflegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cultivate"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "maintain"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "aufrechterhalten"
-            ]
-          }
+          {}
         ]
       }
     }

@@ -181,21 +181,147 @@ const C2_WORDS = [
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
       "translation": "Jednotka hmotnosti",
-      "explanation": "Hlavní myšlenka: die Gewichtseinheit znamená jednotku hmotnosti. Používá se, když se mluví o kilogramech, gramech, tunách a dalších jednotkách hmotnosti/hmoty.",
+      "explanation": [
+        "Hlavní myšlenka: die Gewichtseinheit je jednotka hmotnosti (v běžné řeči též váhy), která se používá k měření: gram, kilogram, tuna, libra.",
+        "Složenina ženského rodu: die Gewichtseinheit, množné číslo die Gewichtseinheiten. Skládá se z das Gewicht (váha, hmotnost) a die Einheit (jednotka).",
+        "Složenina je odborná a neutrální; v běžné řeči se používají konkrétní jednotky (Kilogramm, Gramm, Pfund)."
+      ],
       "examples": [
         {
-          "de": "Kilogramm ist eine Gewichtseinheit.",
+          "de": "Das Kilogramm ist eine Gewichtseinheit.",
           "lv": "Kilogram je jednotka hmotnosti."
         },
         {
-          "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "Jakou jednotku hmotnosti mám použít?"
+          "de": "Das Pfund ist eine alte Gewichtseinheit.",
+          "lv": "Pfund je stará jednotka hmotnosti."
         },
         {
-          "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "Gram a tuna jsou jednotky hmotnosti."
+          "de": "Welche Gewichtseinheit wird in Deutschland verwendet?",
+          "lv": "Jaká jednotka hmotnosti se používá v Německu?"
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Maßeinheit",
+          "meaning": "měrná jednotka",
+          "example": "Der Meter ist eine Maßeinheit. – Metr je měrná jednotka."
+        },
+        {
+          "word": "die Längeneinheit",
+          "meaning": "jednotka délky",
+          "example": "Der Kilometer ist eine Längeneinheit. – Kilometr je jednotka délky."
+        },
+        {
+          "word": "das Gewicht",
+          "meaning": "váha, hmotnost",
+          "example": "Das Gewicht beträgt zwei Kilo. – Hmotnost činí dvě kila."
+        }
+      ],
+      "tip": [
+        "Rod složeniny určuje poslední člen: die Einheit, tedy die Gewichtseinheit.",
+        "Podobně se tvoří: Längeneinheit, Zeiteinheit, Volumeneinheit."
+      ],
+      "important": [
+        "V běžné řeči slovo Gewicht často označuje hmotnost, ale ve fyzice je tíha a hmotnost rozdílný pojem."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Gewichtseinheit",
+            "die Gewichtseinheiten",
+            "Gewichtseinheit",
+            "das Gewicht",
+            "die Einheit"
+          ],
+          "purple": [
+            "jednotka hmotnosti",
+            "jednotka"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jednotka hmotnosti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jednotka hmotnosti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jednotka hmotnosti"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Maßeinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "měrná jednotka"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Längeneinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jednotka délky"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gewicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hmotnost"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
