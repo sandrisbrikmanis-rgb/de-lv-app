@@ -1879,15 +1879,15 @@ const VERB_ENTRIES = [
       "lv": "Viņš kopj"
     },
     "imperfektIndikativ": {
-      "de": "pflegte vai pflog",
+      "de": "pflegte / pflog",
       "lv": "Kopa"
     },
     "imperfektKonjunktiv": {
-      "de": "pflegte vai pflog",
+      "de": "pflegte / pflog",
       "lv": "Kopa"
     },
     "partizipVergangenheit": {
-      "de": "gepflegt vai gepflogen",
+      "de": "gepflegt / gepflogen",
       "lv": "Koptos"
     }
   },
@@ -2231,11 +2231,11 @@ const VERB_ENTRIES = [
       "lv": "Verificação de tarefas"
     },
     "imperfektIndikativ": {
-      "de": "schallte vai scholl",
+      "de": "schallte / scholl",
       "lv": "Skaneja"
     },
     "imperfektKonjunktiv": {
-      "de": "schallte vai scholl",
+      "de": "schallte / scholl",
       "lv": "Skaneja"
     },
     "partizipVergangenheit": {
@@ -2319,15 +2319,15 @@ const VERB_ENTRIES = [
       "lv": "Viņš cirpj"
     },
     "imperfektIndikativ": {
-      "de": "schor vai scherte",
+      "de": "schor / scherte",
       "lv": "Cirpa"
     },
     "imperfektKonjunktiv": {
-      "de": "schor vai scherte",
+      "de": "schor / scherte",
       "lv": "Cirpa"
     },
     "partizipVergangenheit": {
-      "de": "geschoren vai geschert",
+      "de": "geschoren / geschert",
       "lv": "Apreciações"
     }
   },
@@ -2583,15 +2583,15 @@ const VERB_ENTRIES = [
       "lv": "Viņš šņāc"
     },
     "imperfektIndikativ": {
-      "de": "schnaubte vai schnob",
+      "de": "schnaubte / schnob",
       "lv": "Šņāca"
     },
     "imperfektKonjunktiv": {
-      "de": "schnaubte vai schnob",
+      "de": "schnaubte / schnob",
       "lv": "Šņāca"
     },
     "partizipVergangenheit": {
-      "de": "geschnaubt vai geschnoben",
+      "de": "geschnaubt / geschnoben",
       "lv": "Nošņācies"
     }
   },
@@ -2891,15 +2891,15 @@ const VERB_ENTRIES = [
       "lv": "Viņš vāra"
     },
     "imperfektIndikativ": {
-      "de": "sott vai siedete",
+      "de": "sott / siedete",
       "lv": "Varija"
     },
     "imperfektKonjunktiv": {
-      "de": "sott vai siedete",
+      "de": "sott / siedete",
       "lv": "Varija"
     },
     "partizipVergangenheit": {
-      "de": "gesotten vai gesiedet",
+      "de": "gesotten / gesiedet",
       "lv": "Variações"
     }
   },
@@ -3177,11 +3177,11 @@ const VERB_ENTRIES = [
       "lv": "Viņš bāž"
     },
     "imperfektIndikativ": {
-      "de": "stak vai steckte",
+      "de": "stak / steckte",
       "lv": "Jebaza"
     },
     "imperfektKonjunktiv": {
-      "de": "stak vai steckte",
+      "de": "stak / steckte",
       "lv": "Jebaza"
     },
     "partizipVergangenheit": {
@@ -3287,15 +3287,15 @@ const VERB_ENTRIES = [
       "lv": "Você coloca"
     },
     "imperfektIndikativ": {
-      "de": "stob vai stiebte",
+      "de": "stob / stiebte",
       "lv": "Putēja"
     },
     "imperfektKonjunktiv": {
-      "de": "stob vai stiebte",
+      "de": "stob / stiebte",
       "lv": "Putēja"
     },
     "partizipVergangenheit": {
-      "de": "gestoben vai gestiebt",
+      "de": "gestoben / gestiebt",
       "lv": "Izputējis"
     }
   },

@@ -47017,7 +47017,7 @@ const A2_WORDS = [
       "tip": "I Tyskland brukes det til å bruke öpekeeles ja ametiaustustes väga säili säla \"das Kennzeichen\".",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Kus på bilskiltet ditt?"
         },
         {

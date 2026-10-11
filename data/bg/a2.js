@@ -37408,7 +37408,7 @@ const A2_WORDS = [
       "tip": "В Германия думата \"das Kennzeichen\" се използва много често разговорно и в институции.",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Къде ти е регистрационния номер"
         },
         {

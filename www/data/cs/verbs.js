@@ -1879,15 +1879,15 @@ const VERB_ENTRIES = [
       "lv": "Stará se o něj"
     },
     "imperfektIndikativ": {
-      "de": "pflegte vai pflog",
+      "de": "pflegte / pflog",
       "lv": "Pečoval"
     },
     "imperfektKonjunktiv": {
-      "de": "pflegte vai pflog",
+      "de": "pflegte / pflog",
       "lv": "Pečoval by"
     },
     "partizipVergangenheit": {
-      "de": "gepflegt vai gepflogen",
+      "de": "gepflegt / gepflogen",
       "lv": "Upravený"
     }
   },
@@ -2231,11 +2231,11 @@ const VERB_ENTRIES = [
       "lv": "Zní to"
     },
     "imperfektIndikativ": {
-      "de": "schallte vai scholl",
+      "de": "schallte / scholl",
       "lv": "Zaznělo"
     },
     "imperfektKonjunktiv": {
-      "de": "schallte vai scholl",
+      "de": "schallte / scholl",
       "lv": "Zaznělo by"
     },
     "partizipVergangenheit": {
@@ -2319,15 +2319,15 @@ const VERB_ENTRIES = [
       "lv": "Stříhá"
     },
     "imperfektIndikativ": {
-      "de": "schor vai scherte",
+      "de": "schor / scherte",
       "lv": "Stříhal"
     },
     "imperfektKonjunktiv": {
-      "de": "schor vai scherte",
+      "de": "schor / scherte",
       "lv": "Stříhal by"
     },
     "partizipVergangenheit": {
-      "de": "geschoren vai geschert",
+      "de": "geschoren / geschert",
       "lv": "Ostříhaný"
     }
   },
@@ -2583,15 +2583,15 @@ const VERB_ENTRIES = [
       "lv": "Odfrkuje si"
     },
     "imperfektIndikativ": {
-      "de": "schnaubte vai schnob",
+      "de": "schnaubte / schnob",
       "lv": "Odfrkl si"
     },
     "imperfektKonjunktiv": {
-      "de": "schnaubte vai schnob",
+      "de": "schnaubte / schnob",
       "lv": "Odfrkl by si"
     },
     "partizipVergangenheit": {
-      "de": "geschnaubt vai geschnoben",
+      "de": "geschnaubt / geschnoben",
       "lv": "Odfrkl si"
     }
   },
@@ -2891,15 +2891,15 @@ const VERB_ENTRIES = [
       "lv": "On vaří"
     },
     "imperfektIndikativ": {
-      "de": "sott vai siedete",
+      "de": "sott / siedete",
       "lv": "Vařil"
     },
     "imperfektKonjunktiv": {
-      "de": "sott vai siedete",
+      "de": "sott / siedete",
       "lv": "Vařil by"
     },
     "partizipVergangenheit": {
-      "de": "gesotten vai gesiedet",
+      "de": "gesotten / gesiedet",
       "lv": "Vařený"
     }
   },
@@ -3177,11 +3177,11 @@ const VERB_ENTRIES = [
       "lv": "Strká / zasouvá"
     },
     "imperfektIndikativ": {
-      "de": "stak vai steckte",
+      "de": "stak / steckte",
       "lv": "Strčil / zasunul"
     },
     "imperfektKonjunktiv": {
-      "de": "stak vai steckte",
+      "de": "stak / steckte",
       "lv": "Strčil by / zasunul by"
     },
     "partizipVergangenheit": {
@@ -3287,15 +3287,15 @@ const VERB_ENTRIES = [
       "lv": "Pění / víří"
     },
     "imperfektIndikativ": {
-      "de": "stob vai stiebte",
+      "de": "stob / stiebte",
       "lv": "Pěnil / vířil"
     },
     "imperfektKonjunktiv": {
-      "de": "stob vai stiebte",
+      "de": "stob / stiebte",
       "lv": "Pěnil by / vířil by"
     },
     "partizipVergangenheit": {
-      "de": "gestoben vai gestiebt",
+      "de": "gestoben / gestiebt",
       "lv": "Pěnil / vířil"
     }
   },

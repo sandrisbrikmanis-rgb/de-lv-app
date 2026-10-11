@@ -46784,7 +46784,7 @@ const A2_WORDS = [
       "tip": "Németországban a „das Kennzeichen” szót igen gyakran használják köznyelvben és intézményekben.",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Hol van a rendszámod"
         },
         {

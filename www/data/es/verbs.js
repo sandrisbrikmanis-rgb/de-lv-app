@@ -1879,15 +1879,15 @@ const VERB_ENTRIES = [
       "lv": "él cuida"
     },
     "imperfektIndikativ": {
-      "de": "pflegte vai pflog",
+      "de": "pflegte / pflog",
       "lv": "cuidó"
     },
     "imperfektKonjunktiv": {
-      "de": "pflegte vai pflog",
+      "de": "pflegte / pflog",
       "lv": "cuidaría"
     },
     "partizipVergangenheit": {
-      "de": "gepflegt vai gepflogen",
+      "de": "gepflegt / gepflogen",
       "lv": "cuidado"
     }
   },
@@ -2231,11 +2231,11 @@ const VERB_ENTRIES = [
       "lv": "suena"
     },
     "imperfektIndikativ": {
-      "de": "schallte vai scholl",
+      "de": "schallte / scholl",
       "lv": "sonó"
     },
     "imperfektKonjunktiv": {
-      "de": "schallte vai scholl",
+      "de": "schallte / scholl",
       "lv": "sonaría"
     },
     "partizipVergangenheit": {
@@ -2319,15 +2319,15 @@ const VERB_ENTRIES = [
       "lv": "él corta"
     },
     "imperfektIndikativ": {
-      "de": "schor vai scherte",
+      "de": "schor / scherte",
       "lv": "afeitó / esquiló"
     },
     "imperfektKonjunktiv": {
-      "de": "schor vai scherte",
+      "de": "schor / scherte",
       "lv": "afeitaría / esquilaría"
     },
     "partizipVergangenheit": {
-      "de": "geschoren vai geschert",
+      "de": "geschoren / geschert",
       "lv": "afeitado / esquilado"
     }
   },
@@ -2583,15 +2583,15 @@ const VERB_ENTRIES = [
       "lv": "él resopla"
     },
     "imperfektIndikativ": {
-      "de": "schnaubte vai schnob",
+      "de": "schnaubte / schnob",
       "lv": "resopló"
     },
     "imperfektKonjunktiv": {
-      "de": "schnaubte vai schnob",
+      "de": "schnaubte / schnob",
       "lv": "resoplaría"
     },
     "partizipVergangenheit": {
-      "de": "geschnaubt vai geschnoben",
+      "de": "geschnaubt / geschnoben",
       "lv": "resoplado"
     }
   },
@@ -2891,15 +2891,15 @@ const VERB_ENTRIES = [
       "lv": "él hierve"
     },
     "imperfektIndikativ": {
-      "de": "sott vai siedete",
+      "de": "sott / siedete",
       "lv": "hirvió"
     },
     "imperfektKonjunktiv": {
-      "de": "sott vai siedete",
+      "de": "sott / siedete",
       "lv": "herviría"
     },
     "partizipVergangenheit": {
-      "de": "gesotten vai gesiedet",
+      "de": "gesotten / gesiedet",
       "lv": "hervido"
     }
   },
@@ -3177,11 +3177,11 @@ const VERB_ENTRIES = [
       "lv": "él mete / está metido"
     },
     "imperfektIndikativ": {
-      "de": "stak vai steckte",
+      "de": "stak / steckte",
       "lv": "metió / estuvo metido"
     },
     "imperfektKonjunktiv": {
-      "de": "stak vai steckte",
+      "de": "stak / steckte",
       "lv": "metería / estaría metido"
     },
     "partizipVergangenheit": {
@@ -3287,15 +3287,15 @@ const VERB_ENTRIES = [
       "lv": "se dispersa"
     },
     "imperfektIndikativ": {
-      "de": "stob vai stiebte",
+      "de": "stob / stiebte",
       "lv": "se dispersó"
     },
     "imperfektKonjunktiv": {
-      "de": "stob vai stiebte",
+      "de": "stob / stiebte",
       "lv": "se dispersaría"
     },
     "partizipVergangenheit": {
-      "de": "gestoben vai gestiebt",
+      "de": "gestoben / gestiebt",
       "lv": "dispersado"
     }
   },

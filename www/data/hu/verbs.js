@@ -1879,15 +1879,15 @@ const VERB_ENTRIES = [
       "lv": "Törődik vele"
     },
     "imperfektIndikativ": {
-      "de": "pflegte vai pflog",
+      "de": "pflegte / pflog",
       "lv": "Készlet"
     },
     "imperfektKonjunktiv": {
-      "de": "pflegte vai pflog",
+      "de": "pflegte / pflog",
       "lv": "Készlet"
     },
     "partizipVergangenheit": {
-      "de": "gepflegt vai gepflogen",
+      "de": "gepflegt / gepflogen",
       "lv": "Ápolt"
     }
   },
@@ -2231,11 +2231,11 @@ const VERB_ENTRIES = [
       "lv": "Úgy hangzik"
     },
     "imperfektIndikativ": {
-      "de": "schallte vai scholl",
+      "de": "schallte / scholl",
       "lv": "Hangzott el"
     },
     "imperfektKonjunktiv": {
-      "de": "schallte vai scholl",
+      "de": "schallte / scholl",
       "lv": "Hangzott el"
     },
     "partizipVergangenheit": {
@@ -2319,15 +2319,15 @@ const VERB_ENTRIES = [
       "lv": "Vágja"
     },
     "imperfektIndikativ": {
-      "de": "schor vai scherte",
+      "de": "schor / scherte",
       "lv": "Olló"
     },
     "imperfektKonjunktiv": {
-      "de": "schor vai scherte",
+      "de": "schor / scherte",
       "lv": "Olló"
     },
     "partizipVergangenheit": {
-      "de": "geschoren vai geschert",
+      "de": "geschoren / geschert",
       "lv": "Vágva"
     }
   },
@@ -2583,15 +2583,15 @@ const VERB_ENTRIES = [
       "lv": "– horkant fel"
     },
     "imperfektIndikativ": {
-      "de": "schnaubte vai schnob",
+      "de": "schnaubte / schnob",
       "lv": "Felhorkantott"
     },
     "imperfektKonjunktiv": {
-      "de": "schnaubte vai schnob",
+      "de": "schnaubte / schnob",
       "lv": "Felhorkantott"
     },
     "partizipVergangenheit": {
-      "de": "geschnaubt vai geschnoben",
+      "de": "geschnaubt / geschnoben",
       "lv": "Horkant"
     }
   },
@@ -2891,15 +2891,15 @@ const VERB_ENTRIES = [
       "lv": "Ő főz"
     },
     "imperfektIndikativ": {
-      "de": "sott vai siedete",
+      "de": "sott / siedete",
       "lv": "Főtt"
     },
     "imperfektKonjunktiv": {
-      "de": "sott vai siedete",
+      "de": "sott / siedete",
       "lv": "Főtt"
     },
     "partizipVergangenheit": {
-      "de": "gesotten vai gesiedet",
+      "de": "gesotten / gesiedet",
       "lv": "Főtt"
     }
   },
@@ -3177,11 +3177,11 @@ const VERB_ENTRIES = [
       "lv": "Löki"
     },
     "imperfektIndikativ": {
-      "de": "stak vai steckte",
+      "de": "stak / steckte",
       "lv": "Töltött"
     },
     "imperfektKonjunktiv": {
-      "de": "stak vai steckte",
+      "de": "stak / steckte",
       "lv": "Töltött"
     },
     "partizipVergangenheit": {
@@ -3287,15 +3287,15 @@ const VERB_ENTRIES = [
       "lv": "Fúj"
     },
     "imperfektIndikativ": {
-      "de": "stob vai stiebte",
+      "de": "stob / stiebte",
       "lv": "Habosodott"
     },
     "imperfektKonjunktiv": {
-      "de": "stob vai stiebte",
+      "de": "stob / stiebte",
       "lv": "Habosodott"
     },
     "partizipVergangenheit": {
-      "de": "gestoben vai gestiebt",
+      "de": "gestoben / gestiebt",
       "lv": "Elrontott"
     }
   },

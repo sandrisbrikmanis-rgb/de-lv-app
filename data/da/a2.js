@@ -45178,7 +45178,7 @@ const A2_WORDS = [
       "tip": "I Tyskland bruges ordet \"das Kennzeichen\" meget ofte i daglig tale og i institutioner.",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Hvor er din nummerplade"
         },
         {

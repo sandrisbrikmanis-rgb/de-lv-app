@@ -36577,7 +36577,7 @@ const A2_WORDS = [
       "tip": "Almanya'da \"das Kennzeichen\" kelimesi halk dilinde ve kurumlarda çok sık kullanılmaktadır.",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Gdzie jest twoja tablica rejestracyjna"
         },
         {

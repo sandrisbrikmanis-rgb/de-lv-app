@@ -1879,15 +1879,15 @@ const VERB_ENTRIES = [
       "lv": "Φροντίζει"
     },
     "imperfektIndikativ": {
-      "de": "pflegte vai pflog",
+      "de": "pflegte / pflog",
       "lv": "Νοιαζόταν"
     },
     "imperfektKonjunktiv": {
-      "de": "pflegte vai pflog",
+      "de": "pflegte / pflog",
       "lv": "Νοιαζόταν"
     },
     "partizipVergangenheit": {
-      "de": "gepflegt vai gepflogen",
+      "de": "gepflegt / gepflogen",
       "lv": "Φροντισμένος"
     }
   },
@@ -2231,11 +2231,11 @@ const VERB_ENTRIES = [
       "lv": "Ακούγεται"
     },
     "imperfektIndikativ": {
-      "de": "schallte vai scholl",
+      "de": "schallte / scholl",
       "lv": "Ακουγόταν"
     },
     "imperfektKonjunktiv": {
-      "de": "schallte vai scholl",
+      "de": "schallte / scholl",
       "lv": "Ακουγόταν"
     },
     "partizipVergangenheit": {
@@ -2319,15 +2319,15 @@ const VERB_ENTRIES = [
       "lv": "Κλαδεύει"
     },
     "imperfektIndikativ": {
-      "de": "schor vai scherte",
+      "de": "schor / scherte",
       "lv": "Κούρεψε"
     },
     "imperfektKonjunktiv": {
-      "de": "schor vai scherte",
+      "de": "schor / scherte",
       "lv": "Κούρεψε"
     },
     "partizipVergangenheit": {
-      "de": "geschoren vai geschert",
+      "de": "geschoren / geschert",
       "lv": "Κλαδεύονται"
     }
   },
@@ -2583,15 +2583,15 @@ const VERB_ENTRIES = [
       "lv": "Σφίγγει"
     },
     "imperfektIndikativ": {
-      "de": "schnaubte vai schnob",
+      "de": "schnaubte / schnob",
       "lv": "Έσπασε"
     },
     "imperfektKonjunktiv": {
-      "de": "schnaubte vai schnob",
+      "de": "schnaubte / schnob",
       "lv": "Έσπασε"
     },
     "partizipVergangenheit": {
-      "de": "geschnaubt vai geschnoben",
+      "de": "geschnaubt / geschnoben",
       "lv": "Στριμωγμένος"
     }
   },
@@ -2891,15 +2891,15 @@ const VERB_ENTRIES = [
       "lv": "Μαγειρεύει"
     },
     "imperfektIndikativ": {
-      "de": "sott vai siedete",
+      "de": "sott / siedete",
       "lv": "Μαγείρευε"
     },
     "imperfektKonjunktiv": {
-      "de": "sott vai siedete",
+      "de": "sott / siedete",
       "lv": "Μαγείρευε"
     },
     "partizipVergangenheit": {
-      "de": "gesotten vai gesiedet",
+      "de": "gesotten / gesiedet",
       "lv": "Μαγείρευτος"
     }
   },
@@ -3177,11 +3177,11 @@ const VERB_ENTRIES = [
       "lv": "Τρυπάει"
     },
     "imperfektIndikativ": {
-      "de": "stak vai steckte",
+      "de": "stak / steckte",
       "lv": "Τρύπωσε"
     },
     "imperfektKonjunktiv": {
-      "de": "stak vai steckte",
+      "de": "stak / steckte",
       "lv": "Τρύπωσε"
     },
     "partizipVergangenheit": {
@@ -3287,15 +3287,15 @@ const VERB_ENTRIES = [
       "lv": "Ψεκάζει"
     },
     "imperfektIndikativ": {
-      "de": "stob vai stiebte",
+      "de": "stob / stiebte",
       "lv": "Αυτό το σπρέι"
     },
     "imperfektKonjunktiv": {
-      "de": "stob vai stiebte",
+      "de": "stob / stiebte",
       "lv": "Αυτό το σπρέι"
     },
     "partizipVergangenheit": {
-      "de": "gestoben vai gestiebt",
+      "de": "gestoben / gestiebt",
       "lv": "Διεσπαρμένος"
     }
   },

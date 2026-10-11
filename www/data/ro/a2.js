@@ -37101,7 +37101,7 @@ const A2_WORDS = [
       "tip": "În Germania, cuvântul „das Kennzeichen” este foarte des folosit colocvial și în instituții.",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Unde este placa ta de înmatriculare"
         },
         {

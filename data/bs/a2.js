@@ -46625,7 +46625,7 @@ const A2_WORDS = [
       "tip": "U Njemačkoj se u razgovornom jeziku i u institucijama vrlo često koristi riječ \"das Kennzeichen\".",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Gdje ti je registarska tablica"
         },
         {
