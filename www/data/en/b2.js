@@ -109,7 +109,7 @@ const B2_WORDS = [
   },
   {
     "de": "angebracht",
-    "lv": "Suitable • Suitable",
+    "lv": "Suitable",
     "level": "B2"
   },
   {
@@ -233,7 +233,7 @@ const B2_WORDS = [
   },
   {
     "de": "abfällig",
-    "lv": "Unfavorable • Negative • Bad • Disapproving",
+    "lv": "Unfavourable • Negative • Bad • Disapproving",
     "level": "B2"
   },
   {
@@ -294,7 +294,7 @@ const B2_WORDS = [
   },
   {
     "de": "abhören",
-    "lv": "Eavesdrop • Eavesdrop",
+    "lv": "Eavesdrop",
     "level": "B2"
   },
   {
@@ -344,7 +344,7 @@ const B2_WORDS = [
   },
   {
     "de": "abscheulich",
-    "lv": "Disgusting • Disgusting",
+    "lv": "Disgusting",
     "level": "B2"
   },
   {
@@ -414,7 +414,7 @@ const B2_WORDS = [
     "de": "Absturz",
     "de_article": "der",
     "de_plural": "die Abstürze",
-    "lv": "Fall • Fall",
+    "lv": "Fall",
     "level": "B2"
   },
   {
@@ -645,7 +645,7 @@ const B2_WORDS = [
     "de": "Äußerung",
     "de_article": "die",
     "de_plural": "die Äußerungen",
-    "lv": "Utterance • Expression • Expression",
+    "lv": "Utterance • Expression",
     "level": "B2"
   },
   {
@@ -720,12 +720,12 @@ const B2_WORDS = [
   },
   {
     "de": "auswerten",
-    "lv": "Evaluate • Evaluate",
+    "lv": "Evaluate",
     "level": "B2"
   },
   {
     "de": "auszeichnen",
-    "lv": "Award • Award • Stand out",
+    "lv": "Award • Stand out",
     "level": "B2"
   },
   {
@@ -936,7 +936,7 @@ const B2_WORDS = [
     "de": "Beförderung",
     "de_article": "die",
     "de_plural": "die Beförderungen",
-    "lv": "Transportation • Promotion",
+    "lv": "Transport • Promotion",
     "level": "B2"
   },
   {
@@ -1002,12 +1002,12 @@ const B2_WORDS = [
   },
   {
     "de": "beharrlich",
-    "lv": "Persistent • Persistent",
+    "lv": "Persistent",
     "level": "B2"
   },
   {
     "de": "behüten",
-    "lv": "To protect • To protect",
+    "lv": "To protect",
     "level": "B2"
   },
   {
@@ -1164,7 +1164,7 @@ const B2_WORDS = [
     "de": "Benennung",
     "de_article": "die",
     "de_plural": "die Benennungen",
-    "lv": "Naming • Naming • Name",
+    "lv": "Naming • Name",
     "level": "B2"
   },
   {
@@ -1216,7 +1216,7 @@ const B2_WORDS = [
   },
   {
     "de": "bersten",
-    "lv": "To crack • To crack • To burst • To burst",
+    "lv": "To crack • To burst",
     "level": "B2"
   },
   {
@@ -1330,7 +1330,7 @@ const B2_WORDS = [
     "de": "Besinnung",
     "de_article": "die",
     "de_plural": "die Besinnungen",
-    "lv": "Consciousness • Consciousness",
+    "lv": "Consciousness",
     "level": "B2"
   },
   {
@@ -1347,7 +1347,7 @@ const B2_WORDS = [
   },
   {
     "de": "beständig",
-    "lv": "Constant • Constant",
+    "lv": "Constant",
     "level": "B2"
   },
   {
@@ -1408,7 +1408,7 @@ const B2_WORDS = [
     "de": "Betäubung",
     "de_article": "die",
     "de_plural": "die Betäubungen",
-    "lv": "Stunning • Stupor • Narcosis • Anesthesia",
+    "lv": "Stunning • Stupor • Narcosis • Anaesthesia",
     "level": "B2"
   },
   {
@@ -1419,7 +1419,7 @@ const B2_WORDS = [
   {
     "de": "Betracht",
     "de_article": "der",
-    "lv": "Consideration • Consideration",
+    "lv": "Consideration",
     "level": "B2"
   },
   {
@@ -1456,7 +1456,7 @@ const B2_WORDS = [
     "de": "Bewaffnung",
     "de_article": "die",
     "de_plural": "die Bewaffnungen",
-    "lv": "Armament • Armament",
+    "lv": "Armament",
     "level": "B2"
   },
   {
@@ -1502,7 +1502,7 @@ const B2_WORDS = [
     "de": "Bewusstsein",
     "de_article": "das",
     "de_plural": "die Bewusstseine",
-    "lv": "Consciousness • Consciousness",
+    "lv": "Consciousness",
     "level": "B2"
   },
   {
@@ -1546,14 +1546,14 @@ const B2_WORDS = [
   },
   {
     "de": "bisweilen",
-    "lv": "Sometimes • Sometimes • At times",
+    "lv": "Sometimes • At times",
     "level": "B2"
   },
   {
     "de": "Bildhauer",
     "de_article": "der",
     "de_plural": "die Bildhauer",
-    "lv": "Sculptor • Sculptor",
+    "lv": "Sculptor",
     "level": "B2"
   },
   {
@@ -1577,7 +1577,7 @@ const B2_WORDS = [
     "de": "Bindung",
     "de_article": "die",
     "de_plural": "die Bindungen",
-    "lv": "Bond • Connection • Chemical bond • Bond • Straps • Emotional bond",
+    "lv": "Bond • Connection • Chemical bond • Straps • Emotional bond",
     "level": "B2"
   },
   {
@@ -1627,7 +1627,7 @@ const B2_WORDS = [
   },
   {
     "de": "bildend",
-    "lv": "Imaginative • Educational",
+    "lv": "Educational • Formative • Visual (arts)",
     "level": "B2"
   },
   {
@@ -1680,7 +1680,7 @@ const B2_WORDS = [
     "de": "Blitzableiter",
     "de_article": "der",
     "de_plural": "die Blitzableiter",
-    "lv": "Lightning rod",
+    "lv": "Lightning conductor",
     "level": "B2"
   },
   {
@@ -1713,7 +1713,7 @@ const B2_WORDS = [
   },
   {
     "de": "blödsinnig",
-    "lv": "Insane • Foolish • Foolish • Stupid",
+    "lv": "Insane • Foolish • Stupid",
     "level": "B2"
   },
   {
@@ -1831,14 +1831,14 @@ const B2_WORDS = [
     "de": "Böschung",
     "de_article": "die",
     "de_plural": "die Böschungen",
-    "lv": "Slope • Slope • Embankment",
+    "lv": "Slope • Embankment",
     "level": "B2"
   },
   {
     "de": "Bote",
     "de_article": "der",
     "de_plural": "die Boten",
-    "lv": "Messenger • Messenger • Messenger",
+    "lv": "Messenger",
     "level": "B2"
   },
   {
@@ -1922,7 +1922,7 @@ const B2_WORDS = [
   },
   {
     "de": "brillant",
-    "lv": "Excellent • Excellent",
+    "lv": "Excellent",
     "level": "B2"
   },
   {
@@ -2022,7 +2022,7 @@ const B2_WORDS = [
     "de": "Bürde",
     "de_article": "die",
     "de_plural": "die Bürden",
-    "lv": "Burden • Burden",
+    "lv": "Burden",
     "level": "B2"
   },
   {
@@ -2072,7 +2072,7 @@ const B2_WORDS = [
     "de": "Chefredakteur",
     "de_article": "der",
     "de_plural": "die Chefredakteure",
-    "lv": "Managing editor",
+    "lv": "Editor-in-chief",
     "level": "B2"
   },
   {
@@ -2177,7 +2177,7 @@ const B2_WORDS = [
     "de": "Dämmerung",
     "de_article": "die",
     "de_plural": "die Dämmerungen",
-    "lv": "Twilight • Twilight • Dawn • Dawn",
+    "lv": "Twilight • Dawn",
     "level": "B2"
   },
   {
@@ -2213,7 +2213,7 @@ const B2_WORDS = [
     "de": "Darbietung",
     "de_article": "die",
     "de_plural": "die Darbietungen",
-    "lv": "Performance • Performance",
+    "lv": "Performance",
     "level": "B2"
   },
   {
@@ -2246,13 +2246,13 @@ const B2_WORDS = [
     "de": "Darstellung",
     "de_article": "die",
     "de_plural": "die Darstellungen",
-    "lv": "Depiction • Depiction • Outline",
+    "lv": "Depiction • Outline",
     "level": "B2"
   },
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "Existence • Existence",
+    "lv": "Existence",
     "level": "B2"
   },
   {
@@ -2332,7 +2332,7 @@ const B2_WORDS = [
   },
   {
     "de": "dehnbar",
-    "lv": "Stretchable • Stretchable • Stretchy",
+    "lv": "Stretchable • Stretchy",
     "level": "B2"
   },
   {
@@ -2385,7 +2385,7 @@ const B2_WORDS = [
     "de": "Demission",
     "de_article": "die",
     "de_plural": "die Demissionen",
-    "lv": "Resignation • Resignation",
+    "lv": "Resignation",
     "level": "B2"
   },
   {
@@ -2657,7 +2657,7 @@ const B2_WORDS = [
   },
   {
     "de": "dörren",
-    "lv": "To dry • To dry",
+    "lv": "To dry",
     "level": "B2"
   },
   {
@@ -2698,21 +2698,21 @@ const B2_WORDS = [
     "de": "Dosenöffner",
     "de_article": "der",
     "de_plural": "die Dosenöffner",
-    "lv": "Can opener",
+    "lv": "Tin opener",
     "level": "B2"
   },
   {
     "de": "Dosis",
     "de_article": "die",
     "de_plural": "die Dosen",
-    "lv": "Dose • Dose",
+    "lv": "Dose",
     "level": "B2"
   },
   {
     "de": "Dotterblume",
     "de_article": "die",
     "de_plural": "die Dotterblumen",
-    "lv": "Buttercup",
+    "lv": "Marsh marigold",
     "level": "B2"
   },
   {
@@ -2829,7 +2829,7 @@ const B2_WORDS = [
     "de": "Drops",
     "de_article": "der",
     "de_plural": "die Drops",
-    "lv": "Sour fruit caramels • Lollipops",
+    "lv": "Fruit drops • Boiled sweets",
     "level": "B2"
   },
   {
@@ -2928,7 +2928,7 @@ const B2_WORDS = [
     "de": "Düngemittel",
     "de_article": "das",
     "de_plural": "die Düngemittel",
-    "lv": "Fertilizer • Mineral fertilizer",
+    "lv": "Fertiliser • Mineral fertiliser",
     "level": "B2"
   },
   {
@@ -2944,19 +2944,19 @@ const B2_WORDS = [
   },
   {
     "de": "dunkeln",
-    "lv": "It gets dark • It gets dark",
+    "lv": "It gets dark",
     "level": "B2"
   },
   {
     "de": "dünken",
-    "lv": "Seem • Seem",
+    "lv": "Seem",
     "level": "B2"
   },
   {
     "de": "Dunst",
     "de_article": "der",
     "de_plural": "die Dünste",
-    "lv": "Steam • Fumes • Fumes • Steam • Fog • Haze",
+    "lv": "Steam • Fumes • Fog • Haze",
     "level": "B2"
   },
   {
@@ -2966,17 +2966,17 @@ const B2_WORDS = [
   },
   {
     "de": "durchaus",
-    "lv": "Quite • Completely • Completely",
+    "lv": "Quite • Completely",
     "level": "B2"
   },
   {
     "de": "durchbrechen",
-    "lv": "Break through • Break through • Appear • Break through",
+    "lv": "Break through • Appear",
     "level": "B2"
   },
   {
     "de": "durchbrennen",
-    "lv": "Burn through • Burn through • Burn out • Burn out",
+    "lv": "Burn through • Burn out",
     "level": "B2"
   },
   {
@@ -3035,7 +3035,7 @@ const B2_WORDS = [
     "de": "Durchmesser",
     "de_article": "der",
     "de_plural": "die Durchmesser",
-    "lv": "Diameter • Diameter",
+    "lv": "Diameter",
     "level": "B2"
   },
   {
@@ -3089,7 +3089,7 @@ const B2_WORDS = [
   },
   {
     "de": "dürsten",
-    "lv": "To thirst • To be thirsty • To be thirsty",
+    "lv": "To thirst • To be thirsty",
     "level": "B2"
   },
   {
@@ -3115,7 +3115,7 @@ const B2_WORDS = [
     "de": "Eberesche",
     "de_article": "die",
     "de_plural": "die Ebereschen",
-    "lv": "Sulfur moss • Rowan",
+    "lv": "Rowan • Mountain ash",
     "level": "B2"
   },
   {
@@ -3132,7 +3132,7 @@ const B2_WORDS = [
   },
   {
     "de": "edel",
-    "lv": "Noble • Sublime • Noble",
+    "lv": "Noble • Sublime",
     "level": "B2"
   },
   {
@@ -3177,12 +3177,12 @@ const B2_WORDS = [
     "de": "Eheschließung",
     "de_article": "die",
     "de_plural": "die Eheschließungen",
-    "lv": "Marriage • Marriage",
+    "lv": "Marriage",
     "level": "B2"
   },
   {
     "de": "ehren",
-    "lv": "honour • Respect • honour",
+    "lv": "honour • Respect",
     "level": "B2"
   },
   {
@@ -3226,7 +3226,7 @@ const B2_WORDS = [
   },
   {
     "de": "ehrenvoll",
-    "lv": "Honorable",
+    "lv": "Honourable",
     "level": "B2"
   },
   {
@@ -3287,12 +3287,12 @@ const B2_WORDS = [
     "de": "Eifer",
     "de_article": "der",
     "de_plural": "die Eifer",
-    "lv": "Zeal • Diligence • Passion • Ardor • Eagerness",
+    "lv": "Zeal • Diligence • Passion • Ardour • Eagerness",
     "level": "B2"
   },
   {
     "de": "eifrig",
-    "lv": "Diligent • Diligent • Diligent • Eager",
+    "lv": "Diligent • Eager",
     "level": "B2"
   },
   {
@@ -3363,7 +3363,7 @@ const B2_WORDS = [
     "de": "Einbildung",
     "de_article": "die",
     "de_plural": "die Einbildungen",
-    "lv": "Fancy • Imagination • Fantasy • Conceit • Conceit",
+    "lv": "Fancy • Imagination • Fantasy • Conceit",
     "level": "B2"
   },
   {
@@ -3408,7 +3408,7 @@ const B2_WORDS = [
   },
   {
     "de": "einfrieren",
-    "lv": "Freeze • Freeze • Stop",
+    "lv": "Freeze • Stop",
     "level": "B2"
   },
   {
@@ -3434,7 +3434,7 @@ const B2_WORDS = [
   },
   {
     "de": "eingebildet",
-    "lv": "Conceited • Conceited",
+    "lv": "Conceited",
     "level": "B2"
   },
   {
@@ -3532,12 +3532,12 @@ const B2_WORDS = [
   },
   {
     "de": "einkleiden",
-    "lv": "Dress up • Dress up",
+    "lv": "Dress up",
     "level": "B2"
   },
   {
     "de": "sich einlassen",
-    "lv": "Let in",
+    "lv": "Get involved • Engage",
     "level": "B2",
     "study": {
       "id": "b2-sich-einlassen",
@@ -3620,7 +3620,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich einschleichen",
-    "lv": "Sneak in • Sneak in",
+    "lv": "Sneak in",
     "level": "B2",
     "study": {
       "id": "b2-sich-einschleichen",
@@ -3699,7 +3699,7 @@ const B2_WORDS = [
     "de": "Einspruch",
     "de_article": "der",
     "de_plural": "die Einsprüche",
-    "lv": "Objection • Objection • Protest",
+    "lv": "Objection • Protest",
     "level": "B2"
   },
   {
@@ -3711,7 +3711,7 @@ const B2_WORDS = [
   },
   {
     "de": "einstimmig",
-    "lv": "Unanimous • Unanimous",
+    "lv": "Unanimous",
     "level": "B2"
   },
   {
@@ -3721,12 +3721,12 @@ const B2_WORDS = [
   },
   {
     "de": "eintauchen",
-    "lv": "Dip • Dip • Immerse • Plunge",
+    "lv": "Dip • Immerse • Plunge",
     "level": "B2"
   },
   {
     "de": "eintönig",
-    "lv": "Monotonous • Monotonous • Monotonous",
+    "lv": "Monotonous",
     "level": "B2"
   },
   {
@@ -3737,7 +3737,7 @@ const B2_WORDS = [
   },
   {
     "de": "einträglich",
-    "lv": "Profitable • Profitable",
+    "lv": "Profitable",
     "level": "B2"
   },
   {
@@ -3838,13 +3838,13 @@ const B2_WORDS = [
   },
   {
     "de": "eitel",
-    "lv": "Conceited • Conceited • Conceited • Shallow • Empty • Ostentatious",
+    "lv": "Conceited • Shallow • Empty • Ostentatious",
     "level": "B2"
   },
   {
     "de": "Ekel",
     "de_article": "der",
-    "lv": "Disgust • Disgust",
+    "lv": "Disgust",
     "level": "B2"
   },
   {
@@ -3894,7 +3894,7 @@ const B2_WORDS = [
   },
   {
     "de": "empor",
-    "lv": "Up • Up",
+    "lv": "Up",
     "level": "B2"
   },
   {
@@ -3945,7 +3945,7 @@ const B2_WORDS = [
   },
   {
     "de": "entbinden",
-    "lv": "Release • Release • Give birth",
+    "lv": "Release • Give birth",
     "level": "B2"
   },
   {
@@ -3962,7 +3962,7 @@ const B2_WORDS = [
   },
   {
     "de": "enteignen",
-    "lv": "Expropriate • Expropriate",
+    "lv": "Expropriate",
     "level": "B2"
   },
   {
@@ -3987,7 +3987,7 @@ const B2_WORDS = [
   },
   {
     "de": "entflammen",
-    "lv": "To kindle • To kindle • To excite • To catch fire",
+    "lv": "To kindle • To excite • To catch fire",
     "level": "B2"
   },
   {
@@ -4077,7 +4077,7 @@ const B2_WORDS = [
   },
   {
     "de": "entlegen",
-    "lv": "Remote • Remote • Distant",
+    "lv": "Remote • Distant",
     "level": "B2"
   },
   {
@@ -4149,7 +4149,7 @@ const B2_WORDS = [
     "de": "Entspannung",
     "de_article": "die",
     "de_plural": "die Entspannungen",
-    "lv": "Relaxation • Relaxation • Reduction of tension",
+    "lv": "Relaxation • Reduction of tension",
     "level": "B2"
   },
   {
@@ -4215,7 +4215,7 @@ const B2_WORDS = [
   },
   {
     "de": "entzünden",
-    "lv": "To ignite • To ignite • To light",
+    "lv": "To ignite • To light",
     "level": "B2"
   },
   {
@@ -4227,7 +4227,7 @@ const B2_WORDS = [
     "de": "Entzündung",
     "de_article": "die",
     "de_plural": "die Entzündungen",
-    "lv": "Ignition • Ignition • Inflammation",
+    "lv": "Ignition • Inflammation",
     "level": "B2"
   },
   {
@@ -4384,12 +4384,12 @@ const B2_WORDS = [
   },
   {
     "de": "erheben",
-    "lv": "Raise • Raise • Raise • Protest",
+    "lv": "Raise • Protest",
     "level": "B2"
   },
   {
     "de": "sich erheben",
-    "lv": "Rise up • Rise up • Rise up",
+    "lv": "Rise up",
     "level": "B2"
   },
   {
@@ -4423,12 +4423,12 @@ const B2_WORDS = [
   },
   {
     "de": "erlassen",
-    "lv": "Issue • Release • Release",
+    "lv": "Issue • Release",
     "level": "B2"
   },
   {
     "de": "erläutern",
-    "lv": "Explain • Explain",
+    "lv": "Explain",
     "level": "B2"
   },
   {
@@ -4440,7 +4440,7 @@ const B2_WORDS = [
   },
   {
     "de": "erleiden",
-    "lv": "Suffer • Endure • Endure • Be defeated",
+    "lv": "Suffer • Endure • Be defeated",
     "level": "B2"
   },
   {
@@ -4460,7 +4460,7 @@ const B2_WORDS = [
   },
   {
     "de": "ermitteln",
-    "lv": "Find out • Find out",
+    "lv": "Find out",
     "level": "B2"
   },
   {
@@ -4503,12 +4503,12 @@ const B2_WORDS = [
     "de": "Eröffnung",
     "de_article": "die",
     "de_plural": "die Eröffnungen",
-    "lv": "Opening • Discovery • Postcard • Announcement • Discovery",
+    "lv": "Opening • Disclosure • Announcement",
     "level": "B2"
   },
   {
     "de": "erörtern",
-    "lv": "Discuss • Discuss",
+    "lv": "Discuss",
     "level": "B2"
   },
   {
@@ -4518,7 +4518,7 @@ const B2_WORDS = [
   },
   {
     "de": "erregen",
-    "lv": "To excite • To excite • To cause • To cause • To arouse",
+    "lv": "To excite • To cause • To arouse",
     "level": "B2"
   },
   {
@@ -4566,7 +4566,7 @@ const B2_WORDS = [
     "de": "Erscheinung",
     "de_article": "die",
     "de_plural": "die Erscheinungen",
-    "lv": "Phenomenon • Appearance • Appearance • Appearance",
+    "lv": "Phenomenon • Appearance",
     "level": "B2"
   },
   {
@@ -4601,14 +4601,14 @@ const B2_WORDS = [
   },
   {
     "de": "ersparen",
-    "lv": "To save • To save • To spare • To spare",
+    "lv": "To save • To spare",
     "level": "B2"
   },
   {
     "de": "Ersparnis",
     "de_article": "die",
     "de_plural": "die Ersparnisse",
-    "lv": "Savings • Savings",
+    "lv": "Savings",
     "level": "B2"
   },
   {
@@ -4633,7 +4633,7 @@ const B2_WORDS = [
   },
   {
     "de": "ertönen",
-    "lv": "Resound • Resound",
+    "lv": "Resound",
     "level": "B2"
   },
   {
@@ -4643,7 +4643,7 @@ const B2_WORDS = [
   },
   {
     "de": "erträglich",
-    "lv": "Tolerable • Tolerable",
+    "lv": "Tolerable",
     "level": "B2"
   },
   {
@@ -4655,7 +4655,7 @@ const B2_WORDS = [
     "de": "Erwägung",
     "de_article": "die",
     "de_plural": "die Erwägungen",
-    "lv": "Consideration • Consideration",
+    "lv": "Consideration",
     "level": "B2"
   },
   {
@@ -4777,7 +4777,7 @@ const B2_WORDS = [
   },
   {
     "de": "exklusiv",
-    "lv": "Exclusive • Select • Upscale",
+    "lv": "Exclusive • Select • Upmarket",
     "level": "B2"
   },
   {
@@ -4796,7 +4796,7 @@ const B2_WORDS = [
     "de": "Export",
     "de_article": "der",
     "de_plural": "die Exporte",
-    "lv": "Export • Export",
+    "lv": "Export",
     "level": "B2"
   },
   {
@@ -4887,7 +4887,7 @@ const B2_WORDS = [
     "de": "Falke",
     "de_article": "der",
     "de_plural": "die Falken",
-    "lv": "A hawk",
+    "lv": "Falcon",
     "level": "B2"
   },
   {
@@ -4932,7 +4932,7 @@ const B2_WORDS = [
     "de": "Färbung",
     "de_article": "die",
     "de_plural": "die Färbungen",
-    "lv": "Coloring • Hue",
+    "lv": "Colouring • Hue",
     "level": "B2"
   },
   {
@@ -4966,7 +4966,7 @@ const B2_WORDS = [
     "de": "Faser",
     "de_article": "die",
     "de_plural": "die Fasern",
-    "lv": "Fiber",
+    "lv": "Fibre",
     "level": "B2"
   },
   {
@@ -5503,7 +5503,7 @@ const B2_WORDS = [
     "de": "Funker",
     "de_article": "der",
     "de_plural": "die Funker",
-    "lv": "Radio operator • Radio operator",
+    "lv": "Radio operator",
     "level": "B2"
   },
   {
@@ -5545,7 +5545,7 @@ const B2_WORDS = [
     "de": "Furche",
     "de_article": "die",
     "de_plural": "die Furchen",
-    "lv": "Furrow • Wrinkle • Wrinkle",
+    "lv": "Furrow • Wrinkle",
     "level": "B2"
   },
   {
@@ -5611,7 +5611,7 @@ const B2_WORDS = [
     "de": "Garbe",
     "de_article": "die",
     "de_plural": "die Garben",
-    "lv": "Bundle • Bundle",
+    "lv": "Bundle",
     "level": "B2"
   },
   {
@@ -5759,7 +5759,7 @@ const B2_WORDS = [
     "de": "Gefecht",
     "de_article": "das",
     "de_plural": "die Gefechte",
-    "lv": "Battle • Battle",
+    "lv": "Battle",
     "level": "B2"
   },
   {
@@ -5773,7 +5773,7 @@ const B2_WORDS = [
     "de": "Gefüge",
     "de_article": "das",
     "de_plural": "die Gefüge",
-    "lv": "Structure • Structure • Connection • Splice",
+    "lv": "Structure • Connection • Splice",
     "level": "B2"
   },
   {
@@ -5813,7 +5813,7 @@ const B2_WORDS = [
   },
   {
     "de": "gehörig",
-    "lv": "Belonging • Belonging • Proper • Befitting",
+    "lv": "Belonging • Proper • Befitting",
     "level": "B2"
   },
   {
@@ -5849,7 +5849,7 @@ const B2_WORDS = [
   },
   {
     "de": "geläufig",
-    "lv": "Known • Familiar • Habitual • Fluent • Fluent",
+    "lv": "Known • Familiar • Habitual • Fluent",
     "level": "B2"
   },
   {
@@ -5887,7 +5887,7 @@ const B2_WORDS = [
   },
   {
     "de": "gelegen",
-    "lv": "Convenient • Convenient • Handy • Secluded",
+    "lv": "Convenient • Handy • Situated • Remote",
     "level": "B2"
   },
   {
@@ -5901,7 +5901,7 @@ const B2_WORDS = [
     "de": "Geliebte",
     "de_article": "der",
     "de_plural": "die Geliebten",
-    "lv": "Beloved • Beloved • Lover",
+    "lv": "Beloved • Lover",
     "level": "B2"
   },
   {
@@ -5953,7 +5953,7 @@ const B2_WORDS = [
     "de": "Gemisch",
     "de_article": "das",
     "de_plural": "die Gemische",
-    "lv": "A mixture • A mixture • A mixture",
+    "lv": "A mixture",
     "level": "B2"
   },
   {
@@ -6003,14 +6003,14 @@ const B2_WORDS = [
     "de": "Genesung",
     "de_article": "die",
     "de_plural": "die Genesungen",
-    "lv": "Recovery • Recovery",
+    "lv": "Recovery",
     "level": "B2"
   },
   {
     "de": "Genick",
     "de_article": "das",
     "de_plural": "die Genicke",
-    "lv": "Occiput",
+    "lv": "Nape • Back of the neck",
     "level": "B2"
   },
   {
@@ -6048,7 +6048,7 @@ const B2_WORDS = [
     "de": "Genossin",
     "de_article": "die",
     "de_plural": "die Genossinnen",
-    "lv": "A member • A member",
+    "lv": "A member",
     "level": "B2"
   },
   {
@@ -6074,7 +6074,7 @@ const B2_WORDS = [
     "de": "Gepäckwagen",
     "de_article": "der",
     "de_plural": "die Gepäckwagen",
-    "lv": "Baggage car",
+    "lv": "Luggage van",
     "level": "B2"
   },
   {
@@ -6090,7 +6090,7 @@ const B2_WORDS = [
   },
   {
     "de": "geräuschlos",
-    "lv": "Quietly • Quietly • Without noise",
+    "lv": "Quietly • Without noise",
     "level": "B2"
   },
   {
@@ -6102,7 +6102,7 @@ const B2_WORDS = [
   },
   {
     "de": "gerinnen",
-    "lv": "To coagulate • To congeal • To congeal • To congeal • To freeze",
+    "lv": "To coagulate • To congeal • To clot • To curdle",
     "level": "B2"
   },
   {
@@ -6156,7 +6156,7 @@ const B2_WORDS = [
     "de": "Geschöpf",
     "de_article": "das",
     "de_plural": "die Geschöpfe",
-    "lv": "Creature • Creature • Being",
+    "lv": "Creature • Being",
     "level": "B2"
   },
   {
@@ -6187,14 +6187,14 @@ const B2_WORDS = [
   },
   {
     "de": "geschwind",
-    "lv": "Quick • Nimble • Nimble",
+    "lv": "Quick • Nimble",
     "level": "B2"
   },
   {
     "de": "Geschwulst",
     "de_article": "die",
     "de_plural": "die Geschwülste",
-    "lv": "Tumor",
+    "lv": "Tumour",
     "level": "B2"
   },
   {
@@ -6294,7 +6294,7 @@ const B2_WORDS = [
   },
   {
     "de": "gestehen",
-    "lv": "Admit • Admit",
+    "lv": "Admit",
     "level": "B2"
   },
   {
@@ -6350,7 +6350,7 @@ const B2_WORDS = [
   },
   {
     "de": "gewaltsam",
-    "lv": "By force • By force",
+    "lv": "By force",
     "level": "B2"
   },
   {
@@ -6469,7 +6469,7 @@ const B2_WORDS = [
   {
     "de": "Glasfiber",
     "de_article": "die",
-    "lv": "Glass fiber",
+    "lv": "Glass fibre",
     "level": "B2"
   },
   {
@@ -6483,7 +6483,7 @@ const B2_WORDS = [
     "de": "Glasur",
     "de_article": "die",
     "de_plural": "die Glasuren",
-    "lv": "Glaze • Glaze",
+    "lv": "Glaze",
     "level": "B2"
   },
   {
@@ -6531,7 +6531,7 @@ const B2_WORDS = [
   },
   {
     "de": "glimmen",
-    "lv": "To glow • To smolder",
+    "lv": "To glow • To smoulder",
     "level": "B2"
   },
   {
@@ -6541,7 +6541,7 @@ const B2_WORDS = [
   },
   {
     "de": "glühen",
-    "lv": "To glow • To burn • To burn • To burn",
+    "lv": "To glow • To burn",
     "level": "B2"
   },
   {
@@ -6654,7 +6654,7 @@ const B2_WORDS = [
   },
   {
     "de": "grässlich",
-    "lv": "Terrible • Terrible • Disgusting • Nasty",
+    "lv": "Terrible • Disgusting • Nasty",
     "level": "B2"
   },
   {
@@ -6875,7 +6875,7 @@ const B2_WORDS = [
   },
   {
     "de": "habsüchtig",
-    "lv": "Greedy • Greedy",
+    "lv": "Greedy",
     "level": "B2"
   },
   {
@@ -6903,7 +6903,7 @@ const B2_WORDS = [
     "de": "Hahnenkamm",
     "de_article": "der",
     "de_plural": "die Hahnenkämme",
-    "lv": "Rooster's comb",
+    "lv": "Cockerel's comb",
     "level": "B2"
   },
   {
@@ -7428,7 +7428,7 @@ const B2_WORDS = [
     "de": "Hetze",
     "de_article": "die",
     "de_plural": "die Hetzen",
-    "lv": "Incitement • Incitement",
+    "lv": "Incitement",
     "level": "B2"
   },
   {
@@ -7468,12 +7468,12 @@ const B2_WORDS = [
   },
   {
     "de": "hingeben",
-    "lv": "To surrender • To devote oneself",
+    "lv": "To hand over • To give away • To devote oneself",
     "level": "B2"
   },
   {
     "de": "sich hingeben",
-    "lv": "Surrender • Surrender",
+    "lv": "Surrender",
     "level": "B2",
     "study": {
       "id": "b2-sich-hingeben",
@@ -7740,12 +7740,12 @@ const B2_WORDS = [
   {
     "de": "Hochmut",
     "de_article": "der",
-    "lv": "Arrogance • Arrogance",
+    "lv": "Arrogance",
     "level": "B2"
   },
   {
     "de": "hochmütig",
-    "lv": "Haughty • Haughty",
+    "lv": "Haughty",
     "level": "B2"
   },
   {
@@ -7891,7 +7891,7 @@ const B2_WORDS = [
   {
     "de": "Hohn",
     "de_article": "der",
-    "lv": "Ridicule • Ridicule",
+    "lv": "Ridicule",
     "level": "B2"
   },
   {
@@ -7988,12 +7988,12 @@ const B2_WORDS = [
     "de": "Investition",
     "de_article": "die",
     "de_plural": "die Investitionen",
-    "lv": "Investment • Investing • Capital investment • Investing",
+    "lv": "Investment • Investing • Capital investment",
     "level": "B2"
   },
   {
     "de": "irrsinnig",
-    "lv": "Insane • Insane",
+    "lv": "Insane",
     "level": "B2"
   },
   {
@@ -8014,7 +8014,7 @@ const B2_WORDS = [
     "de": "Kapazität",
     "de_article": "die",
     "de_plural": "die Kapazitäten",
-    "lv": "Production capacity • Capacity • Volume • Capacity",
+    "lv": "Production capacity • Capacity • Volume",
     "level": "B2"
   },
   {
@@ -8082,7 +8082,7 @@ const B2_WORDS = [
     "de": "Klappe",
     "de_article": "die",
     "de_plural": "die Klappen",
-    "lv": "Valve • Valve",
+    "lv": "Valve",
     "level": "B2"
   },
   {
@@ -8305,7 +8305,7 @@ const B2_WORDS = [
   },
   {
     "de": "langfristig",
-    "lv": "Long-term • Long-term",
+    "lv": "Long-term",
     "level": "B2"
   },
   {
@@ -8434,12 +8434,12 @@ const B2_WORDS = [
     "de": "Leiden",
     "de_article": "das",
     "de_plural": "die Leiden",
-    "lv": "Long and severe illness",
+    "lv": "Suffering • Ailment • Chronic illness",
     "level": "B2",
     "study": {
       "id": "b2-leiden-study",
       "layout": "standardStudy",
-      "translation": "Long and severe illness",
+      "translation": "Suffering • Ailment • Chronic illness",
       "explanation": [
         "Main idea: das Leiden with a capital letter and the article das is a noun - suffering, long/severe illness.",
         "Leiden in lower case is the verb - to suffer.",
@@ -9586,14 +9586,14 @@ const B2_WORDS = [
   },
   {
     "de": "nichtig",
-    "lv": "Void • Void • Trifling • Insignificant",
+    "lv": "Void • Trifling • Insignificant",
     "level": "B2"
   },
   {
     "de": "Niedergang",
     "de_article": "der",
     "de_plural": "die Niedergänge",
-    "lv": "Sunset • Decline • Decline",
+    "lv": "Sunset • Decline",
     "level": "B2"
   },
   {
@@ -9829,7 +9829,7 @@ const B2_WORDS = [
   },
   {
     "de": "orientalisch",
-    "lv": "Oriental • Oriental • Oriental",
+    "lv": "Oriental",
     "level": "B2"
   },
   {
@@ -10246,7 +10246,7 @@ const B2_WORDS = [
     "de": "Quantität",
     "de_article": "die",
     "de_plural": "die Quantitäten",
-    "lv": "Quantity • Quantity",
+    "lv": "Quantity",
     "level": "B2"
   },
   {
@@ -10317,7 +10317,7 @@ const B2_WORDS = [
   },
   {
     "de": "rau",
-    "lv": "Rough • Rough • Coarse • Hoarse • Harsh • Unkind • Crude",
+    "lv": "Rough • Coarse • Hoarse • Harsh • Unkind • Crude",
     "level": "B2"
   },
   {
@@ -10377,7 +10377,7 @@ const B2_WORDS = [
   },
   {
     "de": "recken",
-    "lv": "To stretch • To stretch • To stretch • To stretch",
+    "lv": "To stretch",
     "level": "B2"
   },
   {
@@ -10572,7 +10572,7 @@ const B2_WORDS = [
     "de": "Rückhalt",
     "de_article": "der",
     "de_plural": "die Rückhalte",
-    "lv": "Support • Support",
+    "lv": "Support",
     "level": "B2"
   },
   {
@@ -10994,7 +10994,7 @@ const B2_WORDS = [
     "de": "Schnappschuss",
     "de_article": "der",
     "de_plural": "die Schnappschüsse",
-    "lv": "A snapshot in a photo",
+    "lv": "Snapshot",
     "level": "B2"
   },
   {
@@ -11011,7 +11011,7 @@ const B2_WORDS = [
     "de": "Schöpfung",
     "de_article": "die",
     "de_plural": "die Schöpfungen",
-    "lv": "Creation • Creation • Work",
+    "lv": "Creation • Work",
     "level": "B2"
   },
   {
@@ -11151,7 +11151,7 @@ const B2_WORDS = [
     "de": "Schwerpunkt",
     "de_article": "der",
     "de_plural": "die Schwerpunkte",
-    "lv": "Point of gravity",
+    "lv": "Centre of gravity • Focus • Emphasis",
     "level": "B2"
   },
   {
@@ -11350,7 +11350,7 @@ const B2_WORDS = [
   },
   {
     "de": "selbstlos",
-    "lv": "Selfless • Selfless",
+    "lv": "Selfless",
     "level": "B2"
   },
   {
@@ -11733,7 +11733,7 @@ const B2_WORDS = [
   },
   {
     "de": "spionieren",
-    "lv": "To spy • To spy",
+    "lv": "To spy",
     "level": "B2"
   },
   {
@@ -11801,12 +11801,12 @@ const B2_WORDS = [
     "de": "Spuk",
     "de_article": "der",
     "de_plural": "die Spuke",
-    "lv": "Specter • Ghost • Apparition",
+    "lv": "Spectre • Ghost • Apparition",
     "level": "B2"
   },
   {
     "de": "spurlos",
-    "lv": "Without a trace • Without a trace",
+    "lv": "Without a trace",
     "level": "B2"
   },
   {
@@ -11875,12 +11875,12 @@ const B2_WORDS = [
   },
   {
     "de": "starrköpfig",
-    "lv": "Obstinate • Obstinate",
+    "lv": "Obstinate",
     "level": "B2"
   },
   {
     "de": "starrsinnig",
-    "lv": "Obstinate • Obstinate",
+    "lv": "Obstinate",
     "level": "B2"
   },
   {
@@ -12078,7 +12078,7 @@ const B2_WORDS = [
   {
     "de": "Tatkraft",
     "de_article": "die",
-    "lv": "Energy • Vigor",
+    "lv": "Energy • Vigour",
     "level": "B2"
   },
   {
@@ -12437,7 +12437,7 @@ const B2_WORDS = [
   },
   {
     "de": "umfassen",
-    "lv": "To encompass • To embrace • To embrace",
+    "lv": "To encompass • To embrace",
     "level": "B2"
   },
   {
@@ -12461,7 +12461,7 @@ const B2_WORDS = [
     "de": "Umkreis",
     "de_article": "der",
     "de_plural": "die Umkreise",
-    "lv": "Neighborhood",
+    "lv": "Neighbourhood • Surroundings",
     "level": "B2"
   },
   {
@@ -12537,12 +12537,12 @@ const B2_WORDS = [
   },
   {
     "de": "umwandeln",
-    "lv": "Convert • Convert",
+    "lv": "Convert",
     "level": "B2"
   },
   {
     "de": "umwickeln",
-    "lv": "Wrap • Wrap",
+    "lv": "Wrap",
     "level": "B2"
   },
   {
@@ -12582,7 +12582,7 @@ const B2_WORDS = [
   },
   {
     "de": "unbegründet",
-    "lv": "Unfounded • Unfounded",
+    "lv": "Unfounded",
     "level": "B2"
   },
   {
@@ -12642,7 +12642,7 @@ const B2_WORDS = [
   },
   {
     "de": "unerträglich",
-    "lv": "Intolerable • Intolerable",
+    "lv": "Intolerable",
     "level": "B2"
   },
   {
@@ -12666,7 +12666,7 @@ const B2_WORDS = [
     "de": "Union",
     "de_article": "die",
     "de_plural": "die Unionen",
-    "lv": "Union • Union",
+    "lv": "Union",
     "level": "B2"
   },
   {
@@ -12677,7 +12677,7 @@ const B2_WORDS = [
   },
   {
     "de": "unmenschlich",
-    "lv": "Inhuman • Inhuman",
+    "lv": "Inhuman",
     "level": "B2"
   },
   {
@@ -13163,7 +13163,7 @@ const B2_WORDS = [
     "de": "Versager",
     "de_article": "der",
     "de_plural": "die Versager",
-    "lv": "Loser • Loser",
+    "lv": "Loser • Failure",
     "level": "B2"
   },
   {
@@ -13452,7 +13452,7 @@ const B2_WORDS = [
     "de": "Verweis",
     "de_article": "der",
     "de_plural": "die Verweise",
-    "lv": "Reprimand • Reprimand",
+    "lv": "Reprimand",
     "level": "B2"
   },
   {
@@ -13549,7 +13549,7 @@ const B2_WORDS = [
   },
   {
     "de": "verzweifelt",
-    "lv": "Desperate • Desperate • Full of despair",
+    "lv": "Desperate • Full of despair",
     "level": "B2"
   },
   {
@@ -13625,7 +13625,7 @@ const B2_WORDS = [
     "de": "Volumen",
     "de_article": "das",
     "de_plural": "die Volumen",
-    "lv": "Volume • Volume",
+    "lv": "Volume",
     "level": "B2"
   },
   {
@@ -13774,7 +13774,7 @@ const B2_WORDS = [
   },
   {
     "de": "vortrefflich",
-    "lv": "Excellent • Excellent",
+    "lv": "Excellent",
     "level": "B2"
   },
   {
@@ -13795,7 +13795,7 @@ const B2_WORDS = [
     "de": "Vorwand",
     "de_article": "der",
     "de_plural": "die Vorwände",
-    "lv": "Pretext • Pretext",
+    "lv": "Pretext",
     "level": "B2"
   },
   {
@@ -13814,12 +13814,12 @@ const B2_WORDS = [
   },
   {
     "de": "vorzeitig",
-    "lv": "Premature • Premature",
+    "lv": "Premature",
     "level": "B2"
   },
   {
     "de": "vorzüglich",
-    "lv": "Excellent • Excellent",
+    "lv": "Excellent",
     "level": "B2"
   },
   {
@@ -13899,7 +13899,7 @@ const B2_WORDS = [
     "de": "Wall",
     "de_article": "der",
     "de_plural": "die Wälle",
-    "lv": "Embankment • Embankment",
+    "lv": "Embankment",
     "level": "B2"
   },
   {
@@ -13923,7 +13923,7 @@ const B2_WORDS = [
     "de": "Warnanlage",
     "de_article": "die",
     "de_plural": "die Warnanlagen",
-    "lv": "Signaling device",
+    "lv": "Warning device",
     "level": "B2"
   },
   {
@@ -14022,7 +14022,7 @@ const B2_WORDS = [
   },
   {
     "de": "weitsichtig",
-    "lv": "Farsighted",
+    "lv": "Long-sighted",
     "level": "B2"
   },
   {
