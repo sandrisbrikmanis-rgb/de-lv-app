@@ -1,0 +1,70 @@
+{
+  "batchId": "LRB-081",
+  "taskType": "OWNER_EXACT_COPY_PASTE_PROOF_RECONCILIATION",
+  "proofReconciliationId": "8B",
+  "sourceCommit": "da00557fc8a4f1a529f28db5f69a7ba4761394d4",
+  "ownerAuthorizationStatus": "APPROVED",
+  "verdict": "FAIL_REQUIRES_PROOF_ACCOUNTING_RECONCILIATION",
+  "linguisticReview": {
+    "rowsReviewed": "50/50",
+    "fullGalaCardsReviewed": "50/50",
+    "contentVerdict": "PASS",
+    "newLinguisticAnalysisRequired": false
+  },
+  "verifiedDerivedRefresh": {
+    "file": "reports/g2-a1-owner/batches-reviewed/LRB-081-anti-bulk-proof.json",
+    "path": "single_rule_name",
+    "baseValue": "CUSTOM:7290574c",
+    "postRefreshValue": "CUSTOM:132ebd6d",
+    "currentValueAtSourceCommit": "CUSTOM:132ebd6d",
+    "action": "KEEP_CURRENT_VALUE",
+    "reason": "The fresh anti-bulk artifact refresh changed this derived value in addition to the two SHA-256 fields; the value is correct but was omitted from the 8A replacement accounting."
+  },
+  "replacementCount": 2,
+  "replacements": [
+    {
+      "file": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-owner-review-proof.json",
+      "path": "gates.PROOF_REFRESH_REPLACEMENTS",
+      "current": "2/2",
+      "new": "3/3"
+    },
+    {
+      "file": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-owner-review-proof.json",
+      "path": "note",
+      "current": "COPY-PASTE 8A: anti-bulk proof hash refresh (output_sha256 + manifest_sha256). ANTI_BULK PASS. Overrides/content unchanged.",
+      "new": "COPY-PASTE 8A: anti-bulk proof refresh (output_sha256 + manifest_sha256 + derived single_rule_name). ANTI_BULK PASS. Overrides/content unchanged."
+    }
+  ],
+  "constraints": {
+    "currentExactMatchRequired": true,
+    "mismatchAction": "SKIP_TARGET_ONLY_AND_REPORT",
+    "changeOnlySpecifiedFields": true,
+    "newLinguisticAnalysis": false,
+    "antiBulkProofChanges": 0,
+    "ownerContentChanges": 0,
+    "ownerOverrideChanges": 0,
+    "galaCardChanges": 0,
+    "decisionCsvChanges": 0,
+    "manifestChanges": 0,
+    "checkpointChanges": 0,
+    "deChanges": 0,
+    "productionChanges": 0,
+    "crowdinChanges": 0,
+    "ingestApplyRuns": 0,
+    "executableScriptChanges": 0,
+    "galaPassAllowed": false
+  },
+  "requiredPostApplyState": {
+    "PROOF_REFRESH_REPLACEMENTS": "3/3",
+    "antiBulkProofOutputShaMatchesDecisionCsv": true,
+    "antiBulkProofManifestShaMatchesManifest": true,
+    "singleRuleName": "CUSTOM:132ebd6d",
+    "ANTI_BULK": "PASS",
+    "CURRENT_VALUE_MISMATCH": 0,
+    "FAILED": 0,
+    "correctionRound": 8,
+    "galaPass": false,
+    "linguisticVerdict": null,
+    "reservationStatus": "OWNER_COPY_PASTE_CORRECTION_8_APPLIED_AWAITING_GALA_REVIEW"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "batchId": "LRB-081",
+  "taskType": "OWNER_EXACT_COPY_PASTE_PROOF_REFRESH",
+  "proofRefreshId": "8A",
+  "sourceCommit": "95c024f241fe9cee190b138d6de771b5ca0c359d",
+  "ownerAuthorizationStatus": "APPROVED",
+  "verdict": "FAIL_REQUIRES_TECHNICAL_PROOF_REFRESH",
+  "linguisticReview": {
+    "rowsReviewed": "50/50",
+    "fullGalaCardsReviewed": "50/50",
+    "contentVerdict": "PASS",
+    "newLinguisticAnalysisRequired": false
+  },
+  "replacementCount": 2,
+  "replacements": [
+    {
+      "file": "reports/g2-a1-owner/batches-reviewed/LRB-081-anti-bulk-proof.json",
+      "path": "output_sha256",
+      "current": "a15e4894d5a7884d28c73111a1748f91cb73b11e01da1435474c1f564606722b",
+      "new": "f13a419c706601c1fb08638b504840ce9681c7a92a492ad1c75000ef872976d2",
+      "newValueSource": "SHA-256 of the post-repair reports/g2-a1-owner/batches-reviewed/LRB-081-decisions.csv at sourceCommit"
+    },
+    {
+      "file": "reports/g2-a1-owner/batches-reviewed/LRB-081-anti-bulk-proof.json",
+      "path": "manifest_sha256",
+      "current": "d856051270b6af0582fdcde7accb5842ae9df123e50db0827b60bf1414071e9c",
+      "new": "8f4ebd2120732142614ceb2ac4834f7de5dddcd03936deb7992ece8739d19ccf",
+      "newValueSource": "SHA-256 of the post-repair reports/g2-a1-owner/manifests/LRB-081-start.json at sourceCommit"
+    }
+  ],
+  "constraints": {
+    "currentExactMatchRequired": true,
+    "mismatchAction": "SKIP_TARGET_ONLY_AND_REPORT",
+    "changeOnlySpecifiedFields": true,
+    "newLinguisticAnalysis": false,
+    "ownerContentChanges": 0,
+    "ownerOverrideChanges": 0,
+    "galaCardChanges": 0,
+    "decisionCsvChanges": 0,
+    "manifestChanges": 0,
+    "checkpointChanges": 0,
+    "deChanges": 0,
+    "productionChanges": 0,
+    "crowdinChanges": 0,
+    "ingestApplyRuns": 0,
+    "executableScriptChanges": 0,
+    "galaPassAllowed": false
+  },
+  "requiredPostApplyState": {
+    "antiBulkProofOutputShaMatchesDecisionCsv": true,
+    "antiBulkProofManifestShaMatchesManifest": true,
+    "ANTI_BULK": "PASS",
+    "replacementResults": "2/2",
+    "CURRENT_VALUE_MISMATCH": 0,
+    "FAILED": 0,
+    "correctionRound": 8,
+    "galaPass": false,
+    "linguisticVerdict": null,
+    "reservationStatus": "OWNER_COPY_PASTE_CORRECTION_8_APPLIED_AWAITING_GALA_REVIEW"
+  }
+}

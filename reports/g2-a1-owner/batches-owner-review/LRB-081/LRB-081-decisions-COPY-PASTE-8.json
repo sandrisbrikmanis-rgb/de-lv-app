@@ -1,0 +1,130 @@
+{
+  "batchId": "LRB-081",
+  "correctionRound": 8,
+  "decisionType": "OWNER_EXACT_COPY_PASTE_TECHNICAL_ARTIFACT_REPAIR",
+  "sourceCommit": "7d215b6610e4c094fc3788b223631dab178021d6",
+  "ownerAuthorizationStatus": "APPROVED",
+  "linguisticReview": {
+    "rowsReviewed": "50/50",
+    "fullGalaCardsReviewed": "50/50",
+    "contentVerdict": "PASS",
+    "newLinguisticAnalysisRequired": false
+  },
+  "verdict": "FAIL_REQUIRES_TECHNICAL_COPY_PASTE_REPAIR",
+  "defectCount": 1,
+  "artifactReplacementCount": 6,
+  "defects": [
+    {
+      "auditId": "LRB081-0001",
+      "cardId": "wissen|idx:311",
+      "defect": "The mandatory top-level card identity field id is missing from ownerNew/owner_new in six derived artifacts, although it is present in the approved override and approvedGalaCard.",
+      "path": "ownerNew.id / owner_new.id",
+      "current": null,
+      "new": "a1-wissen",
+      "canonicalExpectedOwnerNew": {
+        "de": "wissen",
+        "lv": "saber",
+        "level": "A1",
+        "id": "a1-wissen",
+        "study": {
+          "id": "a1-wissen-study",
+          "layout": "standardStudy",
+          "translation": "saber",
+          "explanation": [
+            "Ideia principal: wissen significa saber um fato, uma resposta ou uma informação.",
+            "Refere-se principalmente a informações, fatos e respostas.",
+            "É usado frequentemente com respostas, dados e informações conhecidas.",
+            "Use wissen quando alguém sabe algo, como um fato, uma resposta ou uma informação."
+          ],
+          "examples": [
+            {
+              "de": "Ich weiß, wo er wohnt.",
+              "lv": "Eu sei onde ele mora."
+            },
+            {
+              "de": "Woher wissen Sie das?",
+              "lv": "Como sabe disso?"
+            },
+            {
+              "de": "Ich weiß die Antwort.",
+              "lv": "Eu sei a resposta."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wissen",
+              "meaning": "saber um fato ou uma informação",
+              "example": "Ich weiß, wo er wohnt. – Eu sei onde ele mora."
+            },
+            {
+              "word": "kennen",
+              "meaning": "conhecer uma pessoa, um lugar ou algo familiar",
+              "example": "Ich kenne die Stadt. – Eu conheço a cidade."
+            }
+          ],
+          "tip": [
+            "wissen = saber",
+            "Use wissen quando o contexto se referir a um fato ou a uma informação conhecida."
+          ],
+          "important": [
+            "wissen = saber.",
+            "Para pessoas, lugares e coisas familiares, usa-se kennen, não wissen.",
+            "Wissen é usado para fatos, respostas e informações."
+          ]
+        }
+      },
+      "targets": [
+        {
+          "file": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-gala-cards.json",
+          "selector": "cards[auditId=LRB081-0001].ownerNew.id"
+        },
+        {
+          "file": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-owner-decisions.md",
+          "selector": "LRB081-0001 NEW JSON top-level id"
+        },
+        {
+          "file": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-owner-view.md",
+          "selector": "LRB081-0001 **NEW:** JSON top-level id"
+        },
+        {
+          "file": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-owner-corrections.md",
+          "selector": "LRB081-0001 NEW JSON top-level id"
+        },
+        {
+          "file": "reports/g2-a1-owner/batches-reviewed/LRB-081-decisions.csv",
+          "selector": "LRB081-0001 owner_new JSON top-level id"
+        },
+        {
+          "file": "scripts/data/g2-a1-owner-pending/LRB-081-decisions.json",
+          "selector": "g2/a1/pt|wissen|idx:311|... owner_new JSON top-level id"
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "currentMissingFieldRequired": true,
+    "mismatchAction": "SKIP_TARGET_ONLY_AND_REPORT",
+    "newLinguisticAnalysis": false,
+    "changeOnlySpecifiedField": true,
+    "approvedOverrideChanges": 0,
+    "approvedGalaCardChanges": 0,
+    "deChanges": 0,
+    "productionChanges": 0,
+    "crowdinChanges": 0,
+    "ingestApplyRuns": 0,
+    "executableScriptChanges": 0,
+    "galaPassAllowed": false
+  },
+  "requiredPostApplyState": {
+    "OWNER_NEW_PARSEABLE": "50/50",
+    "OWNER_NEW_FULL_COMPOSITE_ALIGNMENT": "50/50",
+    "OWNER_NEW_MISSING_IDENTITY_FIELDS": 0,
+    "APPROVED_GALA_CARD_ALIGNMENT": "50/50",
+    "APPROVED_GALA_CARD_DRIFT": 0,
+    "CURRENT_VALUE_MISMATCH": 0,
+    "FAILED": 0,
+    "galaPass": false,
+    "linguisticVerdict": null,
+    "reservationStatus": "OWNER_COPY_PASTE_CORRECTION_8_APPLIED_AWAITING_GALA_REVIEW"
+  }
+}
