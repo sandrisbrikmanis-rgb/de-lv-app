@@ -1625,7 +1625,141 @@ const C1_WORDS = [
     "de_article": "die",
     "de_plural": "die Befangenheiten",
     "lv": "Rozpaky • Ostýchavost",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-befangenheit",
+      "layout": "standardStudy",
+      "translation": "Rozpaky • Ostýchavost",
+      "explanation": "Hlavní myšlenka: Befangenheit jsou rozpaky nebo ostýchavost před ostatními. Befangenheit popisuje nejistotu nebo nepříjemný pocit, který je vidět v chování nebo řeči.",
+      "examples": [
+        {
+          "de": "Seine Befangenheit war deutlich zu erkennen.",
+          "lv": "Jeho rozpaky byly zřetelně vidět."
+        },
+        {
+          "de": "Sie versuchte, ihre Befangenheit zu verbergen.",
+          "lv": "Snažila se skrýt své rozpaky."
+        },
+        {
+          "de": "Sie sprach mit Befangenheit.",
+          "lv": "Mluvila s ostýchavostí."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Befangenheit",
+          "meaning": "Rozpaky, Ostýchavost",
+          "example": "Seine Befangenheit war deutlich zu erkennen. = Jeho rozpaky byly zřetelně vidět."
+        },
+        {
+          "word": "Schüchternheit",
+          "meaning": "stydlivost",
+          "example": "Seine Schüchternheit fällt auf. = Jeho stydlivost je vidět."
+        }
+      ],
+      "tip": "Když je člověk před ostatními nejistý, mysli na Befangenheit.",
+      "important": "V soudní řeči Befangenheit může znamenat i podjatost.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Befangenheit"
+          ],
+          "purple": [
+            "Rozpaky",
+            "Ostýchavost",
+            "rozpaky"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rozpaky"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rozpaky"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ostýchavostí"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Befangenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Rozpaky",
+                "Ostýchavost"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Befangenheit"
+              ],
+              "purple": [
+                "rozpaky"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Schüchternheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stydlivost"
+              ]
+            },
+            "example": {
+              "red": [
+                "Schüchternheit"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Befangenheit"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Befangenheit"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "beglaubigen",
@@ -1721,7 +1855,130 @@ const C1_WORDS = [
     "de_article": "die",
     "de_plural": "die Berufungen",
     "lv": "Povolání • Odvolání se",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-berufung",
+      "layout": "standardStudy",
+      "translation": "Povolání • Odvolání se",
+      "explanation": "Hlavní myšlenka: Berufung je povolání nebo odvolání se na něco. Berufung als ... znamená povolání, poslání k profesi. Unter Berufung auf ... znamená odvolávat se na zákon nebo dokument.",
+      "examples": [
+        {
+          "de": "Sie sieht ihren Beruf als Berufung.",
+          "lv": "Svou profesi vnímá jako povolání."
+        },
+        {
+          "de": "Unter Berufung auf das Gesetz widersprach er.",
+          "lv": "S odvoláním na zákon namítl."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Berufung",
+          "meaning": "Povolání, Odvolání se",
+          "example": "Sie sieht ihren Beruf als Berufung. = Svou profesi vnímá jako povolání."
+        },
+        {
+          "word": "Beruf",
+          "meaning": "zaměstnání",
+          "example": "Mein Beruf ist Lehrer. = Povoláním jsem učitel."
+        }
+      ],
+      "tip": "Když následuje auf, mysli na odvolání se; u profese mysli na povolání.",
+      "important": "Berufung není totéž co Beruf (zaměstnání). Berufung je hlubší poslání.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Berufung"
+          ],
+          "purple": [
+            "Povolání",
+            "Odvolání se",
+            "povolání"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "povolání"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odvoláním"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Berufung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Povolání",
+                "Odvolání se"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Berufung"
+              ],
+              "purple": [
+                "povolání"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Beruf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zaměstnání"
+              ]
+            },
+            "example": {
+              "red": [
+                "Beruf"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "purple": [
+            "Povolání",
+            "Odvolání se",
+            "povolání"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Berufung"
+          ],
+          "red": [
+            "Beruf"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "Besatzungsmacht",
@@ -2236,7 +2493,126 @@ const C1_WORDS = [
   {
     "de": "festgesetzt",
     "lv": "Určený • Pevně daný",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-festgesetzt",
+      "layout": "standardStudy",
+      "translation": "Určený • Pevně daný",
+      "explanation": "Hlavní myšlenka: festgesetzt znamená určený nebo pevně daný. Festgesetzt je příčestí od festsetzen. Znamená, že cena, datum nebo poplatek jsou oficiálně stanoveny.",
+      "examples": [
+        {
+          "de": "Die Gebühr ist festgesetzt.",
+          "lv": "Poplatek je určený."
+        },
+        {
+          "de": "Der Prüfungstermin ist festgesetzt.",
+          "lv": "Termín zkoušky je pevně daný."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "festgesetzt",
+          "meaning": "Určený, Pevně daný",
+          "example": "Die Gebühr ist festgesetzt. = Poplatek je určený."
+        },
+        {
+          "word": "festgelegt",
+          "meaning": "stanovený",
+          "example": "Der Termin ist festgelegt. = Termín je stanovený."
+        }
+      ],
+      "tip": "Když je něco oficiálně stanoveno, mysli na festgesetzt.",
+      "important": "Festgesetzt není festgenommen (zadržený).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "festgesetzt"
+          ],
+          "purple": [
+            "Určený",
+            "Pevně daný",
+            "určený",
+            "pevně daný"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "určený"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pevně daný"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "festgesetzt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Určený",
+                "Pevně daný"
+              ]
+            },
+            "example": {
+              "blue": [
+                "festgesetzt"
+              ],
+              "purple": [
+                "určený"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "festgelegt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stanovený"
+              ]
+            },
+            "example": {
+              "red": [
+                "festgelegt"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "festgesetzt"
+          ]
+        },
+        "important": {
+          "blue": [
+            "festgesetzt"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "feuergefährlich",
@@ -2460,22 +2836,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "Někdy • Tu a tam",
-          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
+          "example": "Er kommt gelegentlich. = Chodí sem tu a tam."
         },
         {
           "word": "gelegentlich (Adj.)",
           "meaning": "Příležitostný • Občasný",
-          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
+          "example": "ein gelegentlicher Besuch = občasná návštěva"
         },
         {
           "word": "gelegentlich (+ Gen.)",
           "meaning": "U příležitosti",
-          "example": "gelegentlich des Festes = svētku sakarā"
+          "example": "gelegentlich des Festes = u příležitosti slavnosti"
         },
         {
           "word": "manchmal",
           "meaning": "Někdy",
-          "example": "Manchmal regnet es. = Reizēm līst."
+          "example": "Manchmal regnet es. = Někdy prší."
         }
       ],
       "tip": {
@@ -3563,7 +3939,140 @@ const C1_WORDS = [
   {
     "de": "verabschieden",
     "lv": "Rozloučit se",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-verabschieden",
+      "layout": "standardStudy",
+      "translation": "Rozloučit se",
+      "explanation": "Hlavní myšlenka: sich verabschieden znamená rozloučit se; verabschieden může znamenat i vyprovodit. Se sich: sie verabschiedet sich = ona se loučí. S jemanden: wir verabschieden den Gast = loučíme se s hostem.",
+      "examples": [
+        {
+          "de": "Sie verabschiedet sich von uns.",
+          "lv": "Loučí se s námi."
+        },
+        {
+          "de": "Wir verabschieden den Gast.",
+          "lv": "Loučíme se s hostem."
+        },
+        {
+          "de": "Jemanden in den Ruhestand verabschieden.",
+          "lv": "Rozloučit se s někým před odchodem do důchodu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verabschieden",
+          "meaning": "Rozloučit se",
+          "example": "Sie verabschiedet sich von uns. = Loučí se s námi."
+        },
+        {
+          "word": "begrüßen",
+          "meaning": "přivítat",
+          "example": "Wir begrüßen den Gast. = Vítáme hosta."
+        }
+      ],
+      "tip": "Když se někdo loučí sám, použij sich verabschieden.",
+      "important": "Jemanden verabschieden je i vyprovodit z funkce, například in den Ruhestand.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "verabschieden",
+            "verabschiedet sich"
+          ],
+          "purple": [
+            "Rozloučit se",
+            "Loučíme se"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verabschiedet sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Loučí se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschieden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Loučíme se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschieden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Rozloučit se"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verabschieden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Rozloučit se"
+              ]
+            },
+            "example": {
+              "blue": [
+                "verabschiedet sich"
+              ],
+              "purple": [
+                "Loučí se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "begrüßen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "přivítat"
+              ]
+            },
+            "example": {
+              "red": [
+                "begrüßen"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "verabschieden"
+          ]
+        },
+        "important": {
+          "blue": [
+            "verabschieden"
+          ]
+        }
+      }
+    }
   },
   {
     "de": "veränderlich",
@@ -3833,7 +4342,7 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "S volebním právem",
-          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+          "example": "Er ist wahlberechtigt. = Má volební právo."
         },
         {
           "word": "wählen",
@@ -3843,7 +4352,7 @@ const C1_WORDS = [
         {
           "word": "der Wähler",
           "meaning": "Volič",
-          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
+          "example": "Der Wähler geht zur Wahl. = Volič jde k volbám."
         }
       ],
       "tip": {
