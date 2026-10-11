@@ -17269,12 +17269,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich versehen",
-    "lv": "Forget • Equip with",
+    "lv": "Make a mistake • Provide with",
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
       "layout": "standardStudy",
-      "translation": "Forget • Equip with",
+      "translation": "Make a mistake • Provide with",
       "explanation": "Main idea: sich versehen means to make a mistake by overlooking or misreading something. Sich versehen is used when the mistake comes from carelessness. There is usually mich, dich or sich in the sentence.",
       "examples": [
         {
@@ -18887,10 +18887,6 @@ const B2_WORDS = [
         {
           "de": "Wir wechseln das Thema.",
           "lv": "We are changing the subject."
-        },
-        {
-          "de": "Ich wechsle die Schule.",
-          "lv": "I am changing schools."
         }
       ],
       "tip": [
@@ -18938,14 +18934,6 @@ const B2_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "wechsle"
-              ]
-            },
-            "lv": {}
           }
         ],
         "tip": [
@@ -18990,10 +18978,6 @@ const B2_WORDS = [
         {
           "de": "Darf ich Ihnen etwas anbieten?",
           "lv": "May I offer you something?"
-        },
-        {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "The school offers many courses."
         },
         {
           "de": "Die App bietet Sicherheit.",
@@ -19045,18 +19029,6 @@ const B2_WORDS = [
             "lv": {
               "purple": [
                 "offer"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "biete"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "offers"
               ]
             }
           },
@@ -19230,10 +19202,6 @@ const B2_WORDS = [
           "lv": "We demand greater transparency."
         },
         {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "She demands more money."
-        },
-        {
           "de": "Wir fordern mehr Sicherheit.",
           "lv": "We demand greater security."
         },
@@ -19284,18 +19252,6 @@ const B2_WORDS = [
             "lv": {
               "purple": [
                 "demand"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "forde"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "demands"
               ]
             }
           },
@@ -19368,10 +19324,6 @@ const B2_WORDS = [
           "lv": "Sport promotes health."
         },
         {
-          "de": "Sport fördert die Gesundheit.",
-          "lv": "Sport promotes health."
-        },
-        {
           "de": "In der Region wird Öl gefördert.",
           "lv": "Oil is extracted in the region."
         },
@@ -19400,18 +19352,6 @@ const B2_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "förde"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "promotes"
-              ]
-            }
-          },
           {
             "de": {
               "green": [

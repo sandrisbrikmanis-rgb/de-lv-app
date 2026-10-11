@@ -370,11 +370,11 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "They live in a single-family house."
+          "lv": "They live in a detached house."
         },
         {
           "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "The single-family house has a garden."
+          "lv": "The detached house has a garden."
         },
         {
           "de": "Nebenan steht ein Mehrfamilienhaus.",
@@ -384,8 +384,8 @@ const C1_WORDS = [
       "comparison": [
         {
           "word": "Einfamilienhaus",
-          "meaning": "single-family house",
-          "example": "Sie wohnen in einem Einfamilienhaus. = They live in a single-family house."
+          "meaning": "detached house",
+          "example": "Sie wohnen in einem Einfamilienhaus. = They live in a detached house."
         },
         {
           "word": "Mehrfamilienhaus",
@@ -413,7 +413,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "single-family"
+                "detached"
               ]
             }
           },
@@ -425,7 +425,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "single-family"
+                "detached"
               ]
             }
           },
@@ -451,7 +451,7 @@ const C1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "single-family house"
+                "detached house"
               ]
             },
             "example": {
@@ -459,7 +459,7 @@ const C1_WORDS = [
                 "Einfamilienhaus"
               ],
               "purple": [
-                "single-family"
+                "detached"
               ]
             }
           },
@@ -5363,11 +5363,7 @@ const C1_WORDS = [
           "lv": "We are not planning any change."
         },
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "He intends to finish the project."
-        },
-        {
-          "de": "beabsichtigen + zu + nenoteiksme",
+          "de": "beabsichtigen + zu + infinitive",
           "lv": "to intend to do something."
         }
       ],
@@ -5425,18 +5421,6 @@ const C1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "intends"
-              ]
-            }
           },
           {
             "de": {
@@ -5499,7 +5483,7 @@ const C1_WORDS = [
         },
         {
           "de": "unterstellen",
-          "lv": "unfounded blame; voraussetzen"
+          "lv": "unterstellen = to impute (unfounded blame); also to assume"
         }
       ],
       "tip": [
@@ -5508,7 +5492,6 @@ const C1_WORDS = [
       ],
       "important": [
         "unterstellen is emotionally negative: an unfounded accusation.",
-        "Incorrect: Wir unterstellen Grundkenntnisse. → Correct: Wir setzen Grundkenntnisse voraus.",
         "unterstellen → to impute, to attribute."
       ],
       "sectionAccents": {
@@ -5617,10 +5600,6 @@ const C1_WORDS = [
         {
           "de": "Wir setzen Grundkenntnisse voraus.",
           "lv": "We take basic knowledge as a prerequisite."
-        },
-        {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "We take basic knowledge as a prerequisite."
         }
       ],
       "tip": [
@@ -5643,10 +5622,6 @@ const C1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {},
-            "lv": {}
-          },
           {
             "de": {},
             "lv": {}
@@ -5689,10 +5664,6 @@ const C1_WORDS = [
           "lv": "They keep calm in the crisis."
         },
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "We preserve traditions."
-        },
-        {
           "de": "bewahren",
           "lv": "to protect/preserve; aufrechterhalten"
         }
@@ -5703,7 +5674,6 @@ const C1_WORDS = [
       ],
       "important": [
         "bewahren: Wertvolles bewahren: to protect what is valuable.",
-        "Incorrect: Wir bewahren den Frieden auf. → Correct: Wir erhalten den Frieden auf.",
         "bewahren → to protect, to preserve."
       ],
       "sectionAccents": {
@@ -5739,19 +5709,6 @@ const C1_WORDS = [
             "lv": {
               "purple": [
                 "keep"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahren"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "preserve"
               ]
             }
           },
@@ -5804,16 +5761,8 @@ const C1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "The state maintains order."
-        },
-        {
           "de": "Man muss den Betrieb aufrechterhalten.",
           "lv": "Operations must be kept going."
-        },
-        {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "The state maintains order."
         }
       ],
       "tip": [
@@ -5829,15 +5778,10 @@ const C1_WORDS = [
         "explanation": {
           "green": [
             "aufrechterhalten",
-            "erhält",
             "auf"
           ]
         },
         "examples": [
-          {
-            "de": {},
-            "lv": {}
-          },
           {
             "de": {
               "green": [
@@ -5845,10 +5789,6 @@ const C1_WORDS = [
                 "aufrechterhalten"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {},
             "lv": {}
           }
         ],

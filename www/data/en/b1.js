@@ -37184,12 +37184,12 @@ const B1_WORDS = [
     "de": "Kraftwerk",
     "de_article": "das",
     "de_plural": "die Kraftwerke",
-    "lv": "Power plant",
+    "lv": "Power station",
     "level": "B1",
     "study": {
       "id": "b1-kraftwerk",
       "layout": "standardStudy",
-      "translation": "Power plant",
+      "translation": "Power station",
       "explanation": "Main idea: das Kraftwerk is a power station — a plant that produces electricity. The word is not outdated; it is current and common in the press, in politics and in everyday life. Plural: die Kraftwerke.",
       "examples": [
         {
@@ -40113,10 +40113,6 @@ const B1_WORDS = [
           "lv": "That is very loud."
         },
         {
-          "de": "Der Laut ist schön.",
-          "lv": "The sound is beautiful."
-        },
-        {
           "de": "Ich höre einen Laut.",
           "lv": "I can hear a sound."
         }
@@ -40192,19 +40188,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "loud"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sound"
               ]
             }
           },
@@ -43107,7 +43090,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Nach langer Diskussion gab er nach.",
-          "lv": "after a long discussion he gave way."
+          "lv": "After a long discussion he gave way."
         },
         {
           "de": "Ich gebe dem Druck nicht nach.",
@@ -43115,7 +43098,7 @@ const B1_WORDS = [
         },
         {
           "de": "Der Boden gibt unter dem Gewicht nach.",
-          "lv": "the floor gives under the weight."
+          "lv": "The floor gives under the weight."
         }
       ],
       "comparison": [
@@ -43146,7 +43129,6 @@ const B1_WORDS = [
         "examples": [
           {
             "de": {
-              "blue": "gab nach",
               "green": "er"
             },
             "lv": {
@@ -43397,15 +43379,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er neigt zu schnellen Entscheidungen.",
-          "lv": "he tends to make quick decisions."
+          "lv": "He tends to make quick decisions."
         },
         {
           "de": "Sie neigt den Kopf leicht zur Seite.",
-          "lv": "she tilts her head slightly to one side."
+          "lv": "She tilts her head slightly to one side."
         },
         {
           "de": "Das Wetter neigt im April zu Extremen.",
-          "lv": "in April the weather tends to extremes."
+          "lv": "In April the weather tends to extremes."
         }
       ],
       "comparison": [
@@ -43525,15 +43507,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie hat eine Neigung zur Musik.",
-          "lv": "she has a liking for music."
+          "lv": "She has a liking for music."
         },
         {
           "de": "Seine Neigung zu Risiken ist bekannt.",
-          "lv": "his inclination towards risk is well known."
+          "lv": "His inclination towards risk is well known."
         },
         {
           "de": "Die Neigung des Daches ist stark.",
-          "lv": "the slope of the roof is steep."
+          "lv": "The slope of the roof is steep."
         }
       ],
       "comparison": [
@@ -43663,15 +43645,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Lärm nervt mich seit Stunden.",
-          "lv": "the noise has been annoying me for hours."
+          "lv": "The noise has been annoying me for hours."
         },
         {
           "de": "Seine ständigen Fragen nerven alle.",
-          "lv": "his constant questions annoy everyone."
+          "lv": "His constant questions annoy everyone."
         },
         {
           "de": "Hör bitte auf, du nervst!",
-          "lv": "please stop, you're getting on my nerves!"
+          "lv": "Please stop, you're getting on my nerves!"
         }
       ],
       "comparison": [
@@ -43814,15 +43796,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Baum liegt nieder.",
-          "lv": "the tree is lying on the ground."
+          "lv": "The tree is lying on the ground."
         },
         {
           "de": "Er schlug den Gegner nieder.",
-          "lv": "he knocked his opponent to the ground."
+          "lv": "He knocked his opponent to the ground."
         },
         {
           "de": "Sie ließ sich auf dem Stuhl nieder.",
-          "lv": "she sat down on the chair."
+          "lv": "She sat down on the chair."
         }
       ],
       "comparison": [
@@ -44014,15 +43996,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Viele Menschen leben in Not.",
-          "lv": "many people live in want."
+          "lv": "Many people live in want."
         },
         {
           "de": "In der Not hilft man einander.",
-          "lv": "in hard times people help one another."
+          "lv": "In hard times people help one another."
         },
         {
           "de": "Zur Not rufen wir ein Taxi.",
-          "lv": "if need be, we'll call a taxi."
+          "lv": "If need be, we'll call a taxi."
         }
       ],
       "comparison": [
@@ -44169,15 +44151,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Fahrer muss nüchtern sein.",
-          "lv": "the driver must be sober."
+          "lv": "The driver must be sober."
         },
         {
           "de": "Kommen Sie bitte nüchtern zur Untersuchung.",
-          "lv": "please come to the examination on an empty stomach."
+          "lv": "Please come to the examination on an empty stomach."
         },
         {
           "de": "Sie beurteilt die Lage nüchtern.",
-          "lv": "she judges the situation soberly."
+          "lv": "She judges the situation soberly."
         }
       ],
       "comparison": [
@@ -44307,11 +44289,11 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das ist von großem Nutzen.",
-          "lv": "that is of great benefit."
+          "lv": "That is of great benefit."
         },
         {
           "de": "Der Nutzen dieser App ist klar.",
-          "lv": "the benefit of this app is clear."
+          "lv": "The benefit of this app is clear."
         },
         {
           "de": "Ich nutze die Zeit zum Lernen.",
@@ -44319,7 +44301,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das bringt keinen Nutzen.",
-          "lv": "that brings no benefit."
+          "lv": "That brings no benefit."
         }
       ],
       "tip": [
@@ -44492,15 +44474,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Objekt wird verkauft.",
-          "lv": "the property is being sold."
+          "lv": "The property is being sold."
         },
         {
           "de": "Die Polizei beobachtet das Objekt.",
-          "lv": "the police are watching the building."
+          "lv": "The police are watching the building."
         },
         {
           "de": "Im Satz ist das ein Objekt.",
-          "lv": "in the sentence, that is the object."
+          "lv": "In the sentence, that is the object."
         }
       ],
       "comparison": [
@@ -44674,15 +44656,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie fiel plötzlich in Ohnmacht.",
-          "lv": "she suddenly fainted."
+          "lv": "She suddenly fainted."
         },
         {
           "de": "Nach dem Unfall war er kurz in Ohnmacht.",
-          "lv": "after the accident he was briefly unconscious."
+          "lv": "After the accident he was briefly unconscious."
         },
         {
           "de": "Er spürte Ohnmacht gegenüber der Situation.",
-          "lv": "he felt powerless in the face of the situation."
+          "lv": "He felt powerless in the face of the situation."
         }
       ],
       "comparison": [
@@ -44878,15 +44860,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er opfert viel Zeit für das Projekt.",
-          "lv": "he sacrifices a lot of time for the project."
+          "lv": "He sacrifices a lot of time for the project."
         },
         {
           "de": "Viele Menschen opfern ihre Freizeit für andere.",
-          "lv": "many people sacrifice their free time for others."
+          "lv": "Many people sacrifice their free time for others."
         },
         {
           "de": "Sie spendet Geld für einen guten Zweck.",
-          "lv": "she donates money to a good cause."
+          "lv": "She donates money to a good cause."
         }
       ],
       "comparison": [
@@ -45050,11 +45032,11 @@ const B1_WORDS = [
         },
         {
           "de": "Wir orientieren uns an den aktuellen Preisen.",
-          "lv": "we are guided by current prices."
+          "lv": "We are guided by current prices."
         },
         {
           "de": "Die Karte hilft mir, mich zu orientieren.",
-          "lv": "the map helps me to get my bearings."
+          "lv": "The map helps me to get my bearings."
         }
       ],
       "comparison": [
@@ -45426,15 +45408,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Diese Periode dauerte drei Jahre.",
-          "lv": "this period lasted three years."
+          "lv": "This period lasted three years."
         },
         {
           "de": "In dieser Periode gab es viele Veränderungen.",
-          "lv": "in this phase there were many changes."
+          "lv": "In this phase there were many changes."
         },
         {
           "de": "Sie hat ihre Periode.",
-          "lv": "she has her period."
+          "lv": "She has her period."
         }
       ],
       "comparison": [
@@ -45667,15 +45649,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie pflegt ihre Mutter zu Hause.",
-          "lv": "she looks after her mother at home."
+          "lv": "She looks after her mother at home."
         },
         {
           "de": "Man sollte die Haut regelmäßig pflegen.",
-          "lv": "the skin should be cared for regularly."
+          "lv": "The skin should be cared for regularly."
         },
         {
           "de": "Er pflegt früh aufzustehen.",
-          "lv": "he is in the habit of getting up early."
+          "lv": "He is in the habit of getting up early."
         }
       ],
       "comparison": [
@@ -45984,15 +45966,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Jemand pocht laut an die Tür.",
-          "lv": "someone is knocking loudly at the door."
+          "lv": "Someone is knocking loudly at the door."
         },
         {
           "de": "Mein Herz pocht schnell.",
-          "lv": "my heart is pounding."
+          "lv": "My heart is pounding."
         },
         {
           "de": "Sie pocht auf ihr Recht.",
-          "lv": "she insists on her right."
+          "lv": "She insists on her right."
         }
       ],
       "comparison": [
@@ -46243,15 +46225,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie bekam einen neuen Posten im Ministerium.",
-          "lv": "she got a new post at the ministry."
+          "lv": "She got a new post at the ministry."
         },
         {
           "de": "Der Soldat steht auf seinem Posten.",
-          "lv": "the soldier is standing at his post."
+          "lv": "The soldier is standing at his post."
         },
         {
           "de": "Dieser Posten im Budget ist zu hoch.",
-          "lv": "this item in the budget is too high."
+          "lv": "This item in the budget is too high."
         }
       ],
       "comparison": [
@@ -46463,15 +46445,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Probe war erfolgreich.",
-          "lv": "the test was successful."
+          "lv": "The test was successful."
         },
         {
           "de": "Der Arzt nimmt eine Probe vom Blut.",
-          "lv": "the doctor takes a blood sample."
+          "lv": "The doctor takes a blood sample."
         },
         {
           "de": "Die Probe für das Konzert beginnt um sechs.",
-          "lv": "the rehearsal for the concert begins at six."
+          "lv": "The rehearsal for the concert begins at six."
         }
       ],
       "comparison": [
@@ -46890,15 +46872,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er hat einen hohen Rang in der Armee.",
-          "lv": "he holds a high rank in the army."
+          "lv": "He holds a high rank in the army."
         },
         {
           "de": "Diese Frage hat hohen Rang.",
-          "lv": "this question is of great importance."
+          "lv": "This question is of great importance."
         },
         {
           "de": "Unsere Plätze sind im ersten Rang.",
-          "lv": "our seats are in the first circle."
+          "lv": "Our seats are in the first circle."
         }
       ],
       "comparison": [
@@ -47025,15 +47007,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Auto rast durch die Stadt.",
-          "lv": "the car races through the town."
+          "lv": "The car races through the town."
         },
         {
           "de": "Der Zug raste an uns vorbei.",
-          "lv": "the train raced past us."
+          "lv": "The train raced past us."
         },
         {
           "de": "Der Sturm rast die ganze Nacht.",
-          "lv": "the storm rages all night long."
+          "lv": "The storm rages all night long."
         }
       ],
       "comparison": [
@@ -47208,11 +47190,11 @@ const B1_WORDS = [
         },
         {
           "de": "Die monatliche Rate ist hoch.",
-          "lv": "the monthly instalment is high."
+          "lv": "The monthly instalment is high."
         },
         {
           "de": "Die letzte Rate ist im Juni fällig.",
-          "lv": "the last instalment is due in June."
+          "lv": "The last instalment is due in June."
         }
       ],
       "comparison": [
@@ -47384,27 +47366,27 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Polizei räumt die Straße.",
-          "lv": "the police clear the street."
+          "lv": "The police clear the street."
         },
         {
           "de": "Wir müssen die Wohnung räumen.",
-          "lv": "we have to move out of the flat."
+          "lv": "We have to move out of the flat."
         },
         {
           "de": "Bitte räum dein Zimmer auf.",
-          "lv": "please tidy up your room."
+          "lv": "Please tidy up your room."
         },
         {
           "de": "Wir räumen den Tisch.",
-          "lv": "we are clearing the table."
+          "lv": "We are clearing the table."
         },
         {
           "de": "Wir räumen den Schnee von der Straße.",
-          "lv": "we are clearing the snow from the street."
+          "lv": "We are clearing the snow from the street."
         },
         {
           "de": "Die Soldaten räumen das Gebiet.",
-          "lv": "the soldiers are evacuating the area."
+          "lv": "The soldiers are evacuating the area."
         }
       ],
       "comparison": [
@@ -47567,15 +47549,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er war im Rausch.",
-          "lv": "he was intoxicated."
+          "lv": "He was intoxicated."
         },
         {
           "de": "Der Rausch ließ langsam nach.",
-          "lv": "the intoxication slowly wore off."
+          "lv": "The intoxication slowly wore off."
         },
         {
           "de": "Sie erlebten einen Rausch der Gefühle.",
-          "lv": "they experienced an intoxicating rush of feelings."
+          "lv": "They experienced an intoxicating rush of feelings."
         }
       ],
       "comparison": [
@@ -47776,15 +47758,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir regeln das morgen.",
-          "lv": "we'll sort that out tomorrow."
+          "lv": "We'll sort that out tomorrow."
         },
         {
           "de": "Das Gesetz regelt diese Frage.",
-          "lv": "the law regulates this question."
+          "lv": "The law regulates this question."
         },
         {
           "de": "Der Thermostat regelt die Temperatur.",
-          "lv": "the thermostat regulates the temperature."
+          "lv": "The thermostat regulates the temperature."
         }
       ],
       "comparison": [
@@ -48048,15 +48030,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Seil reißt.",
-          "lv": "the rope snaps."
+          "lv": "The rope snaps."
         },
         {
           "de": "Er reißt das Papier in Stücke.",
-          "lv": "he tears the paper to pieces."
+          "lv": "He tears the paper to pieces."
         },
         {
           "de": "Der Wind reißt die Tür auf.",
-          "lv": "the wind tears the door open."
+          "lv": "The wind tears the door open."
         }
       ],
       "comparison": [
@@ -48187,15 +48169,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Rauch reizt die Augen.",
-          "lv": "the smoke irritates the eyes."
+          "lv": "The smoke irritates the eyes."
         },
         {
           "de": "Seine Worte reizten mich.",
-          "lv": "his words annoyed me."
+          "lv": "His words annoyed me."
         },
         {
           "de": "Diese Reise reizt mich sehr.",
-          "lv": "this trip really tempts me."
+          "lv": "This trip really tempts me."
         }
       ],
       "comparison": [
@@ -48491,15 +48473,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie richtet den Blick nach vorn.",
-          "lv": "she directs her gaze forwards."
+          "lv": "She directs her gaze forwards."
         },
         {
           "de": "Die Frage richtet sich an den Lehrer.",
-          "lv": "the question is addressed to the teacher."
+          "lv": "The question is addressed to the teacher."
         },
         {
           "de": "Der Richter richtet über den Fall.",
-          "lv": "the judge passes judgement on the case."
+          "lv": "The judge passes judgement on the case."
         }
       ],
       "comparison": [
@@ -48766,15 +48748,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Ball rollt über den Boden.",
-          "lv": "the ball rolls across the floor."
+          "lv": "The ball rolls across the floor."
         },
         {
           "de": "Sie rollt den Teppich zusammen.",
-          "lv": "she rolls up the carpet."
+          "lv": "She rolls up the carpet."
         },
         {
           "de": "Der Wagen rollt langsam los.",
-          "lv": "the car slowly starts to roll."
+          "lv": "The car slowly starts to roll."
         }
       ],
       "comparison": [
@@ -48919,7 +48901,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir rösten Kaffee.",
-          "lv": "we roast coffee."
+          "lv": "We roast coffee."
         },
         {
           "de": "Ich röste das Brot kurz.",
@@ -48927,7 +48909,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Nüsse werden im Ofen geröstet.",
-          "lv": "the nuts are roasted in the oven."
+          "lv": "The nuts are roasted in the oven."
         }
       ],
       "comparison": [
@@ -49157,11 +49139,11 @@ const B1_WORDS = [
         },
         {
           "de": "Der Ruf kam aus dem Wald.",
-          "lv": "the cry came from the forest."
+          "lv": "The cry came from the forest."
         },
         {
           "de": "Die Firma hat einen guten Ruf.",
-          "lv": "the company has a good reputation."
+          "lv": "The company has a good reputation."
         }
       ],
       "comparison": [
@@ -49275,15 +49257,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Nach der Arbeit ruht er sich aus.",
-          "lv": "he rests after work."
+          "lv": "He rests after work."
         },
         {
           "de": "Der See ruht still in der Sonne.",
-          "lv": "the lake lies still in the sun."
+          "lv": "The lake lies still in the sun."
         },
         {
           "de": "Das Verfahren ruht im Moment.",
-          "lv": "the proceedings are currently suspended."
+          "lv": "The proceedings are currently suspended."
         }
       ],
       "comparison": [
@@ -49474,15 +49456,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir rüsten uns für den Winter.",
-          "lv": "we are getting ready for winter."
+          "lv": "We are getting ready for winter."
         },
         {
           "de": "Das Land rüstet seine Armee aus.",
-          "lv": "the country is arming its army."
+          "lv": "The country is arming its army."
         },
         {
           "de": "Sie rüsten sich für eine lange Reise.",
-          "lv": "they are preparing for a long journey."
+          "lv": "They are preparing for a long journey."
         }
       ],
       "comparison": [
@@ -49620,15 +49602,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Saat geht auf.",
-          "lv": "the crop is sprouting."
+          "lv": "The crop is sprouting."
         },
         {
           "de": "Der Bauer bringt die Saat aus.",
-          "lv": "the farmer scatters the seed."
+          "lv": "The farmer scatters the seed."
         },
         {
           "de": "Die Saat steht gut.",
-          "lv": "the crop is growing well."
+          "lv": "The crop is growing well."
         }
       ],
       "comparison": [
@@ -49724,7 +49706,6 @@ const B1_WORDS = [
           "purple": "sown"
         },
         "important": {
-          "blue": "die Saat",
           "red": "der Samen"
         }
       }
@@ -49965,15 +49946,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Schale der Orange ist dick.",
-          "lv": "the peel of the orange is thick."
+          "lv": "The peel of the orange is thick."
         },
         {
           "de": "Die Nuss hat eine harte Schale.",
-          "lv": "the nut has a hard shell."
+          "lv": "The nut has a hard shell."
         },
         {
           "de": "Stell die Schale auf den Tisch.",
-          "lv": "put the bowl on the table."
+          "lv": "Put the bowl on the table."
         }
       ],
       "comparison": [
@@ -50220,7 +50201,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Auf dem Boden liegt eine Schicht Staub.",
-          "lv": "there is a layer of dust on the floor."
+          "lv": "There is a layer of dust on the floor."
         },
         {
           "de": "Ich arbeite heute in der Nachtschicht.",
@@ -50228,7 +50209,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Farbe bildet eine dünne Schicht.",
-          "lv": "the paint forms a thin layer."
+          "lv": "The paint forms a thin layer."
         }
       ],
       "comparison": [
@@ -50394,15 +50375,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "An der Wand ist Schimmel.",
-          "lv": "there is mould on the wall."
+          "lv": "There is mould on the wall."
         },
         {
           "de": "Schimmel in der Wohnung ist gefährlich.",
-          "lv": "mould in the flat is dangerous."
+          "lv": "Mould in the flat is dangerous."
         },
         {
           "de": "Der Schimmel läuft über die Wiese.",
-          "lv": "the grey horse is running across the meadow."
+          "lv": "The grey horse is running across the meadow."
         }
       ],
       "comparison": [
@@ -50581,15 +50562,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Schlag traf ihn am Arm.",
-          "lv": "the blow hit him on the arm."
+          "lv": "The blow hit him on the arm."
         },
         {
           "de": "Ein Schlag traf den Baum.",
-          "lv": "a bolt of lightning struck the tree."
+          "lv": "A bolt of lightning struck the tree."
         },
         {
           "de": "Die Uhr tut zwölf Schläge.",
-          "lv": "the clock strikes twelve."
+          "lv": "The clock strikes twelve."
         }
       ],
       "comparison": [
@@ -50768,15 +50749,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er schleift das Messer.",
-          "lv": "he is sharpening the knife."
+          "lv": "He is sharpening the knife."
         },
         {
           "de": "Wir schleifen den Tisch ab.",
-          "lv": "we are sanding down the table."
+          "lv": "We are sanding down the table."
         },
         {
           "de": "Das Kleid schleift über den Boden.",
-          "lv": "the dress trails along the floor."
+          "lv": "The dress trails along the floor."
         }
       ],
       "comparison": [
@@ -51009,7 +50990,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Schnee schmilzt in der Sonne.",
-          "lv": "the snow melts in the sun."
+          "lv": "The snow melts in the sun."
         },
         {
           "de": "Ich schmelze die Butter.",
@@ -51017,7 +50998,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das Eis ist geschmolzen.",
-          "lv": "the ice has melted."
+          "lv": "The ice has melted."
         }
       ],
       "comparison": [
@@ -51166,15 +51147,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie schmiert Butter aufs Brot.",
-          "lv": "she spreads butter on the bread."
+          "lv": "She spreads butter on the bread."
         },
         {
           "de": "Der Mechaniker schmiert die Kette.",
-          "lv": "the mechanic greases the chain."
+          "lv": "The mechanic greases the chain."
         },
         {
           "de": "Das Kind schmiert an die Wand.",
-          "lv": "the child scribbles on the wall."
+          "lv": "The child scribbles on the wall."
         }
       ],
       "comparison": [
@@ -51311,15 +51292,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir schmücken den Weihnachtsbaum.",
-          "lv": "we are decorating the Christmas tree."
+          "lv": "We are decorating the Christmas tree."
         },
         {
           "de": "Blumen schmücken den Tisch.",
-          "lv": "flowers decorate the table."
+          "lv": "Flowers decorate the table."
         },
         {
           "de": "Sie schmückt sich mit einer Kette.",
-          "lv": "she adorns herself with a necklace."
+          "lv": "She adorns herself with a necklace."
         }
       ],
       "comparison": [
@@ -51516,15 +51497,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Schnitt an der Hand ist tief.",
-          "lv": "the cut on his hand is deep."
+          "lv": "The cut on his hand is deep."
         },
         {
           "de": "Der Schnitt des Kleides ist modern.",
-          "lv": "the cut of the dress is modern."
+          "lv": "The cut of the dress is modern."
         },
         {
           "de": "Der Film hat einen schnellen Schnitt.",
-          "lv": "the film has fast editing."
+          "lv": "The film has fast editing."
         }
       ],
       "comparison": [
@@ -51807,11 +51788,11 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er ist schuldig.",
-          "lv": "he is guilty."
+          "lv": "He is guilty."
         },
         {
           "de": "Sie fühlt sich schuldig.",
-          "lv": "she feels guilty."
+          "lv": "She feels guilty."
         },
         {
           "de": "Ich bin dir noch zehn Euro schuldig.",
@@ -51996,15 +51977,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Jacke schützt vor Regen.",
-          "lv": "the jacket protects against rain."
+          "lv": "The jacket protects against rain."
         },
         {
           "de": "Wir schützen die Kinder.",
-          "lv": "we protect the children."
+          "lv": "We protect the children."
         },
         {
           "de": "Man muss sich vor der Sonne schützen.",
-          "lv": "you have to protect yourself from the sun."
+          "lv": "You have to protect yourself from the sun."
         }
       ],
       "comparison": [
@@ -52171,15 +52152,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Boot schwankt stark.",
-          "lv": "the boat is rocking heavily."
+          "lv": "The boat is rocking heavily."
         },
         {
           "de": "Die Preise schwanken stark.",
-          "lv": "prices are fluctuating strongly."
+          "lv": "Prices are fluctuating strongly."
         },
         {
           "de": "Er schwankt zwischen zwei Möglichkeiten.",
-          "lv": "he is wavering between two options."
+          "lv": "He is wavering between two options."
         }
       ],
       "comparison": [
@@ -52755,11 +52736,11 @@ const B1_WORDS = [
         },
         {
           "de": "Der Sender sendet ein Signal.",
-          "lv": "the transmitter is broadcasting a signal."
+          "lv": "The transmitter is broadcasting a signal."
         },
         {
           "de": "Die Sendung wird live gesendet.",
-          "lv": "the programme is being broadcast live."
+          "lv": "The programme is being broadcast live."
         }
       ],
       "comparison": [
@@ -52900,15 +52881,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Firma senkt die Preise.",
-          "lv": "the company is lowering prices."
+          "lv": "The company is lowering prices."
         },
         {
           "de": "Sie senkt den Kopf.",
-          "lv": "she lowers her head."
+          "lv": "She lowers her head."
         },
         {
           "de": "Bitte senken Sie die Stimme.",
-          "lv": "please lower your voice."
+          "lv": "Please lower your voice."
         }
       ],
       "comparison": [
@@ -53188,15 +53169,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das hat keinen Sinn.",
-          "lv": "there is no point in that."
+          "lv": "There is no point in that."
         },
         {
           "de": "Was ist der Sinn dieses Wortes?",
-          "lv": "what is the meaning of this word?"
+          "lv": "What is the meaning of this word?"
         },
         {
           "de": "Sie hat Sinn für Humor.",
-          "lv": "she has a sense of humour."
+          "lv": "She has a sense of humour."
         }
       ],
       "comparison": [
@@ -53330,15 +53311,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Sitz ist frei.",
-          "lv": "the seat is free."
+          "lv": "The seat is free."
         },
         {
           "de": "Bitte nehmen Sie auf diesem Sitz Platz.",
-          "lv": "please take this seat."
+          "lv": "Please take this seat."
         },
         {
           "de": "Die Firma hat ihren Sitz in Berlin.",
-          "lv": "the company has its headquarters in Berlin."
+          "lv": "The company has its headquarters in Berlin."
         }
       ],
       "comparison": [
@@ -53585,11 +53566,11 @@ const B1_WORDS = [
         },
         {
           "de": "Mach dir keine Sorgen um mich.",
-          "lv": "don't worry about me."
+          "lv": "Don't worry about me."
         },
         {
           "de": "Viele Eltern sorgen sich um ihre Kinder.",
-          "lv": "many parents worry about their children."
+          "lv": "Many parents worry about their children."
         }
       ],
       "comparison": [
@@ -53728,15 +53709,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir brauchen Milch sowie Brot.",
-          "lv": "we need milk as well as bread."
+          "lv": "We need milk as well as bread."
         },
         {
           "de": "Der Preis gilt für Erwachsene sowie Kinder.",
-          "lv": "the price applies to adults as well as children."
+          "lv": "The price applies to adults as well as children."
         },
         {
           "de": "Sowie ich Zeit habe, rufe ich dich an.",
-          "lv": "as soon as I have time, I will call you."
+          "lv": "As soon as I have time, I will call you."
         }
       ],
       "tip": "In a list sowie = as well as; in a time clause = as soon as.",
@@ -53778,13 +53759,9 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": "sowie"
-            },
+            "word": {},
             "meaning": {},
-            "example": {
-              "blue": "sowie"
-            }
+            "example": {}
           },
           {
             "word": {
@@ -55225,12 +55202,12 @@ const B1_WORDS = [
     "de": "Stellung",
     "de_article": "die",
     "de_plural": "die Stellungen",
-    "lv": "Condition",
+    "lv": "Position • Job",
     "level": "B1",
     "study": {
       "id": "b1-stellung",
       "layout": "standardStudy",
-      "translation": "Condition",
+      "translation": "Position • Job",
       "explanation": "Main idea: die Stellung means a position or posture. It is used for body posture, a job and a stance.",
       "examples": [
         {
@@ -66612,10 +66589,6 @@ const B1_WORDS = [
           "lv": "I am staying at home because I am ill."
         },
         {
-          "de": "Ich bleibe zu Hause, weil ich krank bin.",
-          "lv": "I am staying at home because I am ill."
-        },
-        {
           "de": "Ich lerne Deutsch, weil ich in Deutschland arbeite.",
           "lv": "I am learning German because I work in Germany."
         },
@@ -66644,19 +66617,6 @@ const B1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "weil",
-                "weil"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "because"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -66745,10 +66705,6 @@ const B1_WORDS = [
           "lv": "Since I am ill, I am staying at home."
         },
         {
-          "de": "Da ich krank bin, bleibe ich zu Hause.",
-          "lv": "Since I am ill, I am staying at home."
-        },
-        {
           "de": "Da du keine Zeit hast, machen wir es morgen.",
           "lv": "Since you have no time, we will do it tomorrow."
         },
@@ -66820,15 +66776,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "da",
-                "da"
-              ]
-            },
-            "lv": {}
           }
         ],
         "tip": [
@@ -66861,10 +66808,6 @@ const B1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Obwohl es müde bin, gehe ich spazieren.",
-          "lv": "Even though I am tired, I am going for a walk."
-        },
-        {
           "de": "Obwohl es regnet, gehen wir raus.",
           "lv": "Even though it is raining, we are going outside."
         },
@@ -66879,10 +66822,6 @@ const B1_WORDS = [
         {
           "de": "Obwohl es regnet, gehen wir.",
           "lv": "Even though it is raining, we are going."
-        },
-        {
-          "de": "Obwohl es regnet, gehen wir raus.",
-          "lv": "Even though it is raining, we are going outside."
         }
       ],
       "tip": [
@@ -66905,32 +66844,6 @@ const B1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "obwohl",
-                "obwohl"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Even though"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "obwohl",
-                "obwohl"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Even though"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -67032,10 +66945,6 @@ const B1_WORDS = [
         {
           "de": "Es regnet. Trotzdem gehen wir.",
           "lv": "It is raining. Nevertheless, we are going."
-        },
-        {
-          "de": "Es regnet. Trotzdem gehen wir raus.",
-          "lv": "It is raining. Nevertheless, we are going outside."
         }
       ],
       "tip": [
@@ -67058,19 +66967,6 @@ const B1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "trotzdem",
-                "trotzdem"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Nevertheless"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -68027,10 +67923,6 @@ const B1_WORDS = [
           "lv": "The storm caused serious damage."
         },
         {
-          "de": "Am Auto ist ein Schaden.",
-          "lv": "There is damage to the car."
-        },
-        {
           "de": "Wer zahlt den Schaden?",
           "lv": "Who is paying for the damage?"
         },
@@ -68050,7 +67942,6 @@ const B1_WORDS = [
       "important": [
         "der Schaden = noun (loss).",
         "schaden = verb (to harm) + dative.",
-        "Incorrect: Der Schaden schadet → Correct: Etwas schadet der Gesundheit.",
         "der Schaden = loss."
       ],
       "sectionAccents": {
@@ -68064,18 +67955,6 @@ const B1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "schaden"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "damage"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -68613,7 +68492,7 @@ const B1_WORDS = [
         "Often characterised by: preposition.",
         "der Trotz means defiance or stubbornness as a trait.",
         "trotz is a preposition and means in spite of something.",
-        "The preposition trotz must take the genitive: trotz des Regens, trotz des Wetters."
+        "The preposition trotz normally takes the genitive: trotz des Regens, trotz des Wetters (the dative is colloquial)."
       ],
       "examples": [
         {
@@ -68623,10 +68502,6 @@ const B1_WORDS = [
         {
           "de": "Trotz des Regens gehen wir spazieren.",
           "lv": "In spite of the rain, we are going for a walk."
-        },
-        {
-          "de": "Er macht es aus Trotz.",
-          "lv": "He does it out of defiance."
         },
         {
           "de": "Trotz des schlechten Wetters fahren wir.",
@@ -68648,8 +68523,8 @@ const B1_WORDS = [
       "important": [
         "der Trotz = noun (defiance).",
         "trotz = preposition (in spite of) + genitive.",
-        "trotz dem Regen is incorrect; the correct form is trotz des Regens.",
-        "Incorrect: Trotz dem Regen gehen wir. → Correct: Trotz des Regens gehen wir."
+        "trotz dem Regen is colloquial; in standard German use trotz des Regens.",
+        "Colloquial: Trotz dem Regen gehen wir. → Standard: Trotz des Regens gehen wir."
       ],
       "sectionAccents": {
         "explanation": {
@@ -68681,18 +68556,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "trotz"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "defiance"
-              ]
-            }
           },
           {
             "de": {
@@ -68761,13 +68624,9 @@ const B1_WORDS = [
         "Often characterised by: preposition.",
         "der Trotz means defiance or stubbornness as a trait.",
         "trotz is a preposition and means in spite of something.",
-        "The preposition trotz must take the genitive: trotz des Regens, trotz des Wetters."
+        "The preposition trotz normally takes the genitive: trotz des Regens, trotz des Wetters (the dative is colloquial)."
       ],
       "examples": [
-        {
-          "de": "Trotz des Regens gehen wir spazieren.",
-          "lv": "In spite of the rain, we are going for a walk."
-        },
         {
           "de": "Trotz des Regens gehen wir spazieren.",
           "lv": "In spite of the rain, we are going for a walk."
@@ -68796,8 +68655,8 @@ const B1_WORDS = [
       "important": [
         "der Trotz = noun (defiance).",
         "trotz = preposition (in spite of) + genitive.",
-        "trotz dem Regen is incorrect; the correct form is trotz des Regens.",
-        "Incorrect: Trotz dem Regen gehen wir. → Correct: Trotz des Regens gehen wir."
+        "trotz dem Regen is colloquial; in standard German use trotz des Regens.",
+        "Colloquial: Trotz dem Regen gehen wir. → Standard: Trotz des Regens gehen wir."
       ],
       "sectionAccents": {
         "explanation": {
@@ -68814,19 +68673,6 @@ const B1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "trotz",
-                "trotz"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "In spite of"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
