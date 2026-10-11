@@ -3349,27 +3349,27 @@ const A1_WORDS = [
         {
           "word": "bringen",
           "meaning": "Bring / take / deliver",
-          "example": "Ich bringe dir ein Buch. – Es tev atnesu grāmatu."
+          "example": "Ich bringe dir ein Buch. – I'm bringing you a book."
         },
         {
           "word": "bringen",
           "meaning": "To take / to take",
-          "example": "Ich bringe das Paket zur Post. – Es aiznesu paku uz pastu."
+          "example": "Ich bringe das Paket zur Post. – I take the parcel to the post office."
         },
         {
           "word": "bringen",
           "meaning": "Go after / fetch",
-          "example": "Ich bringe die Kinder zur Schule. – Es aizvedu bērnus uz skolu."
+          "example": "Ich bringe die Kinder zur Schule. – I take the children to school."
         },
         {
           "word": "bringen",
           "meaning": "Take away and bring",
-          "example": "Ich bringe dir ein Buch. – Es tev atnesu grāmatu."
+          "example": "Ich bringe dir ein Buch. – I'm taking a book to you."
         },
         {
           "word": "nehmen",
           "meaning": "to take",
-          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+          "example": "Ich nehme das Buch. – I'll take the book."
         }
       ],
       "tip": {
@@ -5457,17 +5457,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "You",
-          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          "example": "Ihr seid freundlich. – You are friendly."
         },
         {
           "word": "euch",
           "meaning": "You / to you",
-          "example": "Ich helfe euch. = Es jums palīdzu."
+          "example": "Ich helfe euch. – I'm helping you."
         },
         {
           "word": "euer",
           "meaning": "Yours",
-          "example": "Das ist euer Haus. = Tā ir jūsu māja."
+          "example": "Das ist euer Haus. – That is your house."
         }
       ],
       "info": [
@@ -5930,7 +5930,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Find / consider",
-          "example": "Ich finde das gut. = Man tas šķiet labi."
+          "example": "Ich finde das gut. – I think that's good."
         }
       ],
       "tip": {
@@ -7833,12 +7833,12 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "To be",
-          "example": "Ich bin hier. = Es esmu šeit."
+          "example": "Ich bin hier. – I am here."
         },
         {
           "word": "bekommen",
           "meaning": "To receive",
-          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          "example": "Ich bekomme ein Geschenk. – I'm getting a present."
         },
         {
           "word": "machen",
@@ -8063,17 +8063,17 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "To take",
-          "example": "Ich nehme die Tasche. = Es ņemu somu."
+          "example": "Ich nehme die Tasche. – I'll take the bag."
         },
         {
           "word": "anhalten",
           "meaning": "to stop • to bring to a stop",
-          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
+          "example": "Bitte halten Sie an. – Please stop."
         },
         {
           "word": "denken",
           "meaning": "To think",
-          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          "example": "Ich denke, das ist richtig. – I think that's right."
         }
       ],
       "tip": {
@@ -8395,12 +8395,12 @@ const A1_WORDS = [
         {
           "word": "nennen",
           "meaning": "To call / name",
-          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          "example": "Er nennt mich Tom. – He calls me Tom."
         },
         {
           "word": "bedeuten",
           "meaning": "Mean",
-          "example": "Was bedeutet das? = Ko tas nozīmē?"
+          "example": "Was bedeutet das? – What does that mean?"
         },
         {
           "word": "rufen",
@@ -10686,17 +10686,17 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Be able to / know",
-          "example": "Ich kann schwimmen. = Es protu peldēt."
+          "example": "Ich kann schwimmen. – I can swim."
         },
         {
           "word": "dürfen",
           "meaning": "To be allowed",
-          "example": "Darf ich gehen? = Vai drīkstu iet?"
+          "example": "Darf ich gehen? – May I go?"
         },
         {
           "word": "müssen",
           "meaning": "Need / be yes-",
-          "example": "Ich muss lernen. = Man jāmācās."
+          "example": "Ich muss lernen. – I have to study."
         },
         {
           "word": "wissen",
@@ -10919,22 +10919,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Pay (price) • How much",
-          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          "example": "Das kostet 5 Euro. – That costs 5 euros."
         },
         {
           "word": "bezahlen",
           "meaning": "Pay • Pay (money)",
-          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          "example": "Ich bezahle die Rechnung. – I'm paying the bill."
         },
         {
           "word": "zahlen",
           "meaning": "To pay • To pay",
-          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          "example": "Kann ich bar zahlen? – Can I pay cash?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "How much does it cost...?",
-          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+          "example": "Was kostet das Buch? – How much is the book?"
         }
       ],
       "tip": [
@@ -23490,12 +23490,12 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Watch TV",
-          "example": "Ich sehe fern. = Es skatos televīziju."
+          "example": "Ich sehe fern. – I'm watching TV."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Television (media)",
-          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          "example": "Im Fernsehen läuft ein Film. – There's a film on television."
         },
         {
           "word": "sehen",
