@@ -4675,11 +4675,11 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Formální registr: atribut ke zdroji, pravidelný příjem o důchodu/platu nebo stěhování do bytu.",
+        "Formální styl: odebírat (noviny, důchod, plat), nastěhovat se do bytu (eine Wohnung beziehen) nebo vztahovat se na něco (sich beziehen auf).",
         "Pokud kontext odpovídá tomuto významu, použijte beziehen / sich beziehen auf."
       ],
       "important": [
-        "Formální registr: atribut ke zdroji, pravidelný příjem o důchodu/platu nebo stěhování do bytu.",
+        "Formální styl: odebírat (noviny, důchod, plat), nastěhovat se do bytu (eine Wohnung beziehen) nebo vztahovat se na něco (sich beziehen auf + 4. pád).",
         "Beziehen / sich beziehen auf: před použitím zkontrolujte kontext a porovnejte s jinými slovy na kartě."
       ],
       "sectionAccents": {
@@ -4892,8 +4892,8 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Unterstellen = vytýkat",
-        "Používá unterstellen, když kontext vyhovuje tomuto významu."
+        "Unterstellen = podsouvat, přičítat bez podkladu",
+        "Použijte unterstellen, když kontext odpovídá tomuto významu."
       ],
       "important": [
         "Unterstellen je emocionálně negativní – neoprávněné obvinění.",
@@ -5090,8 +5090,8 @@ const C1_WORDS = [
         "Použijte bewahren, když kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Bewahren: Wertvolles bewahren - chránit cenné.",
-        "Špatně: Wir bewahren den Frieden auf. → Správně: Wir erhalten den Frieden auf.",
+        "Bewahren: Wertvolles bewahren = chránit cenné věci.",
+        "Špatně: Wir bewahren den Frieden auf. → Správně: Wir bewahren den Frieden.",
         "Bewahren → chránit, zachovat."
       ],
       "sectionAccents": {

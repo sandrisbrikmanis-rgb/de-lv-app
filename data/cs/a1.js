@@ -171,7 +171,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Klein = malý",
-        "Používá klein, když kontext vyhovuje tomuto významu."
+        "Použijte klein, když kontext odpovídá tomuto významu."
       ],
       "important": [
         "Klein = malý rozměr.",
@@ -1193,7 +1193,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Auch = také",
-        "Používá auch, když kontext vyhovuje tomuto významu."
+        "Použijte auch, když kontext odpovídá tomuto významu."
       ],
       "important": [
         "Ich auch wünsche Ihnen není správný slovosled.",
@@ -6083,9 +6083,9 @@ const A1_WORDS = [
         "text": "Pamatujte: věc → něco • míra → trochu."
       },
       "important": [
-        "Etwas není totéž co nichts: etwas znamená něco, ale nichts neznamená nic.",
+        "Etwas není totéž co nichts: etwas znamená něco, nichts znamená nic.",
         "V češtině se tvar mění podle pádu: etwas trinken = něco pít.",
-        "V češtině často lépe zní něco, spíše než nějaké, například: etwas trinken = něco pít."
+        "Etwas znamená také trochu: etwas Zeit = trochu času."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8992,9 +8992,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Držet • Zastavit",
       "explanation": [
-        "Hlavní myšlenka: halten nejčastěji znamená držet; u dopravy může znamenat zastavovat nebo stát.",
+        "Hlavní myšlenka: halten nejčastěji znamená držet; u dopravy může znamenat zastavovat.",
         "S předmětem v ruce je halten obvykle držet.",
-        "Autobusem, vlakem nebo autem, zastavit často znamená zastavit.",
+        "U autobusu, vlaku nebo auta znamená halten zastavit: Der Bus hält hier.",
         "V názorové větě ich halte das für... znamená považovat za."
       ],
       "examples": [
@@ -10095,9 +10095,9 @@ const A1_WORDS = [
         "Hlavní myšlenka: ihr má několik použití — jako oslovení více lidí znamená „vy“, jako dativ zájmena sie znamená „jí“ a jako přivlastňovací zájmeno může znamenat „její“.",
         "S malým ihr jako oslovením několika lidí se překládá jako vy (Kommt ihr mit? = Jdete spolu?).",
         "Ihr jako přivlastňovací zájmeno znamená její/jejich (ihr Buch = její kniha).",
-        "Ihr jako tvar dativu (od sie) znamená k ní (Ich gebe ihr das Buch. = dávám jí knihu.).",
+        "Ihr jako tvar dativu (od sie) znamená jí (Ich gebe ihr das Buch. = Dávám jí knihu.).",
         "Slovesný tvar (kommt, habt) ukazuje, že jde o vás – oslovení několika lidí.",
-        "Zdvořilá adresa je vždy Sie s velkým písmenem, nikoli ihr."
+        "Zdvořilé oslovení je vždy Sie s velkým písmenem, nikoli ihr."
       ],
       "examples": [
         {
@@ -10269,7 +10269,7 @@ const A1_WORDS = [
         "Plná forma: in dem (kde?, 3. pád).",
         "Používá se s podstatnými jmény mužského a středního rodu při odpovědi na otázku kde? — označuje umístění.",
         "S časem a ročními obdobími: v lednu, v létě, v zimě.",
-        "V praxi se téměř vždy používá im místo full in dem."
+        "V praxi se téměř vždy používá im místo in dem."
       ],
       "examples": [
         {
@@ -10318,7 +10318,7 @@ const A1_WORDS = [
         },
         {
           "word": "in",
-          "meaning": "V / do (žádný článek)",
+          "meaning": "V / do (bez členu)",
           "example": "in Berlin – V Berlíně"
         },
         {
@@ -10497,11 +10497,7 @@ const A1_WORDS = [
                 "in"
               ]
             },
-            "meaning": {
-              "purple": [
-                "žádný"
-              ]
-            },
+            "meaning": {},
             "example": {
               "green": [
                 "in Berlin"
@@ -10638,8 +10634,8 @@ const A1_WORDS = [
         "text": "Pamatujte: v/do → in."
       },
       "important": [
-        "In není vždy doslova „in“ • česky se často říká v Berlíně, ve škole, v kině.",
-        "Pokud jde o povrch, často potřebujete auf místo dovnitř."
+        "In není vždy doslova „in“ – česky se často říká v Berlíně, ve škole, v kině.",
+        "Pokud jde o povrch, často potřebujete místo in spíše auf."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13669,10 +13665,10 @@ const A1_WORDS = [
         "Der Laut = zvuk • laut = hlasitý"
       ],
       "important": [
-        "Laut je malá písmena a nemá žádný člen - je to přídavné jméno.",
-        "Der Laut s velkým písmenem a členem der je podstatné jméno.",
-        "Množné číslo: die Laute (zvuky jazyka, pípání).",
-        "Špatně: Der Laut ist sehr. → Správně: Das ist sehr laut."
+        "Laut s malým písmenem a bez členu je přídavné jméno (hlasitý).",
+        "Der Laut s velkým písmenem a členem der je podstatné jméno (hláska, zvuk).",
+        "Množné číslo: die Laute (hlásky, zvuky).",
+        "Špatně: Das ist sehr Laut. → Správně: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19951,8 +19947,8 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Povídání o knize nebo čtení → strana. Mluví o pozici, směru nebo vztahu → strana.",
-        "Strana X je vždy stránka v knize, ne polovina."
+        "Při čtení nebo v knize je Seite stránka (Seite 12 = strana 12).",
+        "U polohy, směru nebo vztahu je Seite strana (die linke Seite = levá strana)."
       ],
       "important": [
         "Die Seite = stránka NEBO strana - rozhoduje kontext.",
@@ -20044,22 +20040,8 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "Povídání"
-            ],
-            "green": [
-              "Povídání"
-            ]
-          },
-          {
-            "blue": [
-              "Povídání"
-            ],
-            "purple": [
-              "Povídání"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -20483,14 +20465,11 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ona • Oni • Ji",
       "explanation": [
-        "Hlavní myšlenka: Množné číslo – mluví o více než jedné osobě. Sloveso končí na -en: kochen, essen, gehen.",
-        "Malé sie může znamenat „ona“, „oni“ nebo „ji“; význam určuje kontext a tvar slovesa.",
-        "Často charakterizováno: sloveso jednotného čísla (-t).",
-        "Sie znamená hlavně: několik lidí.",
-        "Často charakterizováno: množné sloveso (-en).",
-        "Sie znamená hlavně: zdvořilá adresa.",
-        "Často popisováno: nutně s velkým S.",
-        "Malé sie jako podmět může znamenat „ona“ (Sie kocht = Ona vaří); jako předmět může znamenat „ji“."
+        "Hlavní myšlenka: malé sie může znamenat „ona“, „oni“ nebo „ji“; význam určuje kontext a tvar slovesa.",
+        "Sloveso ve 3. osobě jednotného čísla (-t) ukazuje na „ona“: Sie kocht = Ona vaří.",
+        "Sloveso končící na -en ukazuje na „oni“: Sie kochen = Oni vaří.",
+        "Jako předmět znamená sie „ji“ nebo „je“: Ich sehe sie. = Vidím ji / Vidím je.",
+        "Zdvořilé oslovení je Sie s velkým S (Sie kochen = Vy vaříte)."
       ],
       "examples": [
         {
@@ -20640,13 +20619,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Vy",
       "explanation": [
-        "Hlavní myšlenka: Zdvořilostní oslovení – vždy s velkým S. Česky: vy. Často se slovesem v množném čísle.",
+        "Hlavní myšlenka: zdvořilé oslovení – vždy s velkým S. Česky: vy.",
         "Velké Sie je zdvořilé „Vy“; malé sie může znamenat „ona“, „oni“ nebo „ji“.",
-        "Často charakterizováno: sloveso jednotného čísla (-t).",
-        "Sie znamená hlavně: několik lidí.",
-        "Často charakterizováno: množné sloveso (-en).",
-        "Sie znamená především: zdvořilá adresa.",
-        "Často popisováno: nutně s velkým S.",
+        "Sloveso je u zdvořilého Sie vždy v množném čísle (-en): Sie kommen.",
+        "Sie znamená hlavně: zdvořilé oslovení jedné nebo více osob.",
         "Malé sie jako podmět může znamenat „ona“ (Sie kocht = Ona vaří); jako předmět může znamenat „ji“."
       ],
       "examples": [
@@ -20676,7 +20652,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Zdvořilostní adresa - vždy s velkým S. Latviski: vy. Často se slovesem v množném čísle.",
+        "Zdvořilé oslovení – vždy s velkým S. Česky: vy. Sloveso je v množném čísle.",
         "Použijte Sie, když je kontext vhodný pro tento význam."
       ],
       "important": [
@@ -20760,11 +20736,7 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Zdvořilostní"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -22103,9 +22075,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Kolem • V (čas)",
       "explanation": [
-        "Hlavní myšlenka: um velmi často znamená hodiny s časem nebo kolem/kolem s místem.",
-        "S přesným časem um znamená „v“, například „v osm hodin“.",
-        "S místem, um znamená kolem nebo kolem.",
+        "Hlavní myšlenka: um velmi často znamená „v“ s přesným časem nebo „kolem“ s místem.",
+        "S přesným časem um znamená „v“, například „v osm hodin“ (um acht Uhr).",
+        "S místem znamená um „kolem“ (um den Tisch = kolem stolu).",
         "Ve frázi um ... zu pomáhá vyjádřit účel: aby."
       ],
       "examples": [
@@ -23605,12 +23577,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Was samo o sobě se nemění – v němčině má vždy stejný tvar • V češtině vyberte „kdo“ nebo „co“ podle části věty.",
-        "Rychlý trik: pokud lze na otázku odpovědět „Je to…“, použijte co • Pokud je was po slovese jako předmět, použijte co."
+        "Was samo o sobě se nemění – v němčině má vždy stejný tvar.",
+        "V češtině se was překládá jako „co“; na osoby se ptá wer (kdo).",
+        "Rychlý trik: pokud lze na otázku odpovědět „Je to…“, použijte co."
       ],
       "important": [
-        "Ptá se na věci, události a fakta – nikdy na osoby.",
-        "Lidé jsou dotázáni s wer (kdo/kdo), ne byl.",
+        "Was se ptá na věci, události a fakta – nikdy na osoby.",
+        "Na osoby se ptáme slovem wer (kdo), ne was.",
         "Was für (ein/eine) znamená „jaký/jaká“ a ptá se na vlastnost nebo typ (Was für ein Film ist das? = O jaký druh filmu jde?).",
         "Špatně: Wer ist passiert? → Správně: Was ist passiert?"
       ],
@@ -23714,8 +23687,7 @@ const A1_WORDS = [
           },
           {
             "purple": [
-              "Was",
-              "ko"
+              "Was"
             ]
           }
         ],
@@ -24475,7 +24447,7 @@ const A1_WORDS = [
       "translation": "Počasí",
       "explanation": [
         "Hlavní myšlenka: das Wetter znamená počasí – slunečno, deštivo, chladno nebo teplo.",
-        "České slovo „čas“ může znamenat jak počasí, tak čas na hodinách – v němčině je to jinak.",
+        "Počasí je v němčině das Wetter, čas na hodinách je die Zeit.",
         "O počasí se mluví s výrazem das Wetter: Wie ist das Wetter heute?",
         "Das Wetter se často používá ve větě spolu se slovy jako warm nebo kalt.",
         "Nezaměňovat s die Zeit – je to čas jako okamžik nebo příležitost (Ich habe keine Zeit)."
