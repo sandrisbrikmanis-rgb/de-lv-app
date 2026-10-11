@@ -45390,7 +45390,7 @@ const B1_WORDS = [
       "translation": "objekts",
       "explanation": [
         "Galvenā doma: das Objekt ir objekts — konkrēts apskates, pārdošanas vai apsargāšanas priekšmets: ēka, zeme, mākslas priekšmets (Immobilienobjekt, Kunstobjekt). Daudzskaitlis ir die Objekte, ģenitīvs des Objekts.",
-        "Gramatikā das Objekt ir teikuma papildinātājs: Akuzatīvobjekt (ko?), Datīvobjekt (kam?). Teikumā Ich sehe den Hund vārdi den Hund ir objekts.",
+        "Gramatikā das Objekt ir teikuma papildinātājs: Akkusativobjekt (ko?), Dativobjekt (kam?). Teikumā Ich sehe den Hund vārdi den Hund ir objekts.",
         "Pretstats ir das Subjekt (teikuma priekšmets, darītājs)."
       ],
       "examples": [
@@ -45415,7 +45415,7 @@ const B1_WORDS = [
         {
           "word": "das Subjekt",
           "meaning": "teikuma priekšmets",
-          "example": "Das Subjekt steht im Nominatīv. – Teikuma priekšmets stāv nominatīvā."
+          "example": "Das Subjekt steht im Nominativ. – Teikuma priekšmets stāv nominatīvā."
         },
         {
           "word": "der Gegenstand",
@@ -45444,8 +45444,8 @@ const B1_WORDS = [
             "des Objekts",
             "Objekt",
             "Subjekt",
-            "Akuzatīvobjekt",
-            "Datīvobjekt"
+            "Akkusativobjekt",
+            "Dativobjekt"
           ],
           "purple": [
             "objekts",
@@ -72589,7 +72589,7 @@ const B1_WORDS = [
           "example": "Ohne dass sie es merkt, nimmt er das Buch. – Viņai nemanot, viņš paņem grāmatu."
         },
         {
-          "word": "ohne (prievārds)",
+          "word": "ohne (Präposition)",
           "meaning": "bez",
           "example": "Er geht ohne Mantel. – Viņš iet bez mēteļa."
         },
@@ -72689,7 +72689,7 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "ohne (prievārds)"
+                "ohne (Präposition)"
               ]
             },
             "meaning": {

@@ -181,43 +181,60 @@ const C2_WORDS = [
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
       "translation": "Unit of weight",
-      "explanation": "Main idea: die Gewichtseinheit means a unit of weight. It is used when talking about kilograms, grams, tonnes and other units of weight/mass.",
+      "explanation": [
+        "Main idea: die Gewichtseinheit is a unit of weight, used for measuring weight: gram, kilogram, tonne, pound.",
+        "Feminine compound: die Gewichtseinheit, plural die Gewichtseinheiten. It consists of das Gewicht (weight) and die Einheit (unit).",
+        "The compound is technical and neutral; in everyday speech people use the specific units (Kilogramm, Gramm, Pfund)."
+      ],
       "examples": [
         {
-          "de": "Kilogramm ist eine Gewichtseinheit.",
+          "de": "Das Kilogramm ist eine Gewichtseinheit.",
           "lv": "The kilogram is a unit of weight."
         },
         {
-          "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "Which unit of weight should I use?"
+          "de": "Das Pfund ist eine alte Gewichtseinheit.",
+          "lv": "The pound is an old unit of weight."
         },
         {
-          "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "The gram and the tonne are units of weight."
+          "de": "Welche Gewichtseinheit wird in Deutschland verwendet?",
+          "lv": "Which unit of weight is used in Germany?"
         }
       ],
       "comparison": [
         {
-          "word": "Gewichtseinheit",
-          "meaning": "unit of weight",
-          "example": "Kilogramm ist eine Gewichtseinheit. = The kilogram is a unit of weight."
+          "word": "die Maßeinheit",
+          "meaning": "unit of measurement",
+          "example": "Der Meter ist eine Maßeinheit. – The metre is a unit of measurement."
         },
         {
-          "word": "Maßeinheit",
-          "meaning": "unit of measurement",
-          "example": "Meter ist eine Maßeinheit. = The metre is a unit of measurement."
+          "word": "die Längeneinheit",
+          "meaning": "unit of length",
+          "example": "Der Kilometer ist eine Längeneinheit. – The kilometre is a unit of length."
+        },
+        {
+          "word": "das Gewicht",
+          "meaning": "weight",
+          "example": "Das Gewicht beträgt zwei Kilo. – The weight is two kilos."
         }
       ],
-      "tip": "Gewicht means weight, Einheit means unit.",
-      "important": "Gewichtseinheit is only a unit of weight; in general, a unit of measurement is Maßeinheit.",
+      "tip": [
+        "A compound takes the article of its last element: die Einheit, therefore die Gewichtseinheit.",
+        "Similar compounds: Längeneinheit, Zeiteinheit, Volumeneinheit."
+      ],
+      "important": [
+        "In everyday speech Gewicht often means mass, but in physics weight and mass are different concepts."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Gewichtseinheit"
+            "die Gewichtseinheit",
+            "die Gewichtseinheiten",
+            "Gewichtseinheit",
+            "das Gewicht",
+            "die Einheit"
           ],
           "purple": [
-            "weight",
-            "unit"
+            "unit of weight"
           ]
         },
         "examples": [
@@ -229,8 +246,7 @@ const C2_WORDS = [
             },
             "lv": {
               "purple": [
-                "weight",
-                "unit"
+                "unit of weight"
               ]
             }
           },
@@ -242,21 +258,19 @@ const C2_WORDS = [
             },
             "lv": {
               "purple": [
-                "weight",
-                "unit"
+                "unit of weight"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Gewichtseinheiten"
+                "Gewichtseinheit"
               ]
             },
             "lv": {
               "purple": [
-                "weight",
-                "unit"
+                "unit of weight"
               ]
             }
           }
@@ -265,51 +279,47 @@ const C2_WORDS = [
           {
             "word": {
               "green": [
-                "Gewichtseinheit"
+                "die Maßeinheit"
               ]
             },
             "meaning": {
               "purple": [
-                "unit of weight"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Gewichtseinheit"
-              ],
-              "purple": [
-                "weight",
-                "unit"
+                "unit of measurement"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Maßeinheit"
+                "die Längeneinheit"
               ]
             },
             "meaning": {
               "purple": [
-                "unit"
+                "length"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gewicht"
               ]
             },
-            "example": {
-              "red": [
-                "Maßeinheit"
+            "meaning": {
+              "purple": [
+                "weight"
               ]
             }
           }
         ],
-        "tip": {},
-        "important": {
-          "blue": [
-            "Gewichtseinheit"
-          ],
-          "red": [
-            "Maßeinheit"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },

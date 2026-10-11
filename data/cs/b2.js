@@ -115,45 +115,70 @@ const B2_WORDS = [
       "id": "b2-angebracht",
       "layout": "standardStudy",
       "translation": "Vhodný • Příhodný",
-      "explanation": "Hlavní myšlenka: angebracht znamená vhodný nebo příhodný v dané situaci. Angebracht říká, že něco je na místě: tón, kritika nebo omluva. Často se používá s nicht nebo wäre.",
+      "explanation": [
+        "Hlavní myšlenka: angebracht je přídavné jméno (od anbringen) s významem vhodný, příhodný, na místě v dané situaci. Obvykle se užívá v přísudku se sein: Vorsicht ist angebracht.",
+        "Hodnotí se jím chování, poznámka nebo jednání: je vhodné, nebo nevhodné (nicht angebracht, unangebracht). Spojení: ein angebrachter Ton, eine angebrachte Bemerkung.",
+        "V doslovném významu je angebracht také upevněný: Das Schild ist an der Tür angebracht (cedule je upevněná na dveřích). Je to stejný tvar příčestí od anbringen (bringt an, brachte an, hat angebracht)."
+      ],
       "examples": [
         {
-          "de": "Dieser Ton ist nicht angebracht.",
-          "lv": "Takový tón není vhodný."
+          "de": "Hier ist Vorsicht angebracht.",
+          "lv": "Zde je na místě opatrnost."
         },
         {
-          "de": "Deine Kritik ist angebracht.",
-          "lv": "Tvá kritika je příhodná."
+          "de": "Seine Bemerkung war nicht angebracht.",
+          "lv": "Jeho poznámka nebyla na místě."
         },
         {
-          "de": "Eine Entschuldigung wäre angebracht.",
-          "lv": "Omluva by byla na místě."
+          "de": "Ein freundlicher Ton ist hier angebracht.",
+          "lv": "Přátelský tón je tu vhodný."
+        },
+        {
+          "de": "Ich halte das für angebracht.",
+          "lv": "Považuji to za vhodné."
+        },
+        {
+          "de": "Das Schild ist an der Tür angebracht.",
+          "lv": "Cedule je upevněna na dveřích."
         }
       ],
       "comparison": [
         {
-          "word": "angebracht",
-          "meaning": "Vhodný, Příhodný",
-          "example": "Dieser Ton ist nicht angebracht. = Takový tón není vhodný."
-        },
-        {
           "word": "passend",
           "meaning": "vhodný",
-          "example": "Das ist ein passendes Geschenk. = To je vhodný dárek."
+          "example": "Das ist ein passendes Geschenk. – To je vhodný dárek."
+        },
+        {
+          "word": "angemessen",
+          "meaning": "přiměřený",
+          "example": "Der Preis ist angemessen. – Cena je přiměřená."
+        },
+        {
+          "word": "unangebracht",
+          "meaning": "nevhodný",
+          "example": "Das war ein unangebrachter Witz. – To byl nevhodný vtip."
         }
       ],
-      "tip": "Když je něco v dané situaci na místě, použij angebracht.",
-      "important": "Angebracht ve všedním užití znamená spíš „na místě“, než „připevněný“.",
+      "tip": [
+        "Výrazem Das ist angebracht posuzuješ situaci; opakem je unangebracht.",
+        "Časté kolokace: Vorsicht ist angebracht, Zurückhaltung ist angebracht."
+      ],
+      "important": [
+        "Angebracht se obvykle užívá se sein; před podstatným jménem dostává koncovku: eine angebrachte Bemerkung.",
+        "Nepleť si to s angemessen: angebracht se týká místa a okamžiku, angemessen odpovídající míry."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "angebracht"
+            "angebracht",
+            "anbringen",
+            "unangebracht"
           ],
           "purple": [
-            "Vhodný",
-            "Příhodný",
             "vhodný",
-            "na místě"
+            "příhodný",
+            "na místě",
+            "upevněná"
           ]
         },
         "examples": [
@@ -165,19 +190,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vhodný"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "angebracht"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "příhodná"
+                "na místě"
               ]
             }
           },
@@ -192,30 +205,45 @@ const B2_WORDS = [
                 "na místě"
               ]
             }
-          }
-        ],
-        "comparison": [
+          },
           {
-            "word": {
-              "green": [
-                "angebracht"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vhodný",
-                "Příhodný"
-              ]
-            },
-            "example": {
+            "de": {
               "blue": [
                 "angebracht"
-              ],
+              ]
+            },
+            "lv": {
               "purple": [
                 "vhodný"
               ]
             }
           },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vhodné"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "upevněna"
+              ]
+            }
+          }
+        ],
+        "comparison": [
           {
             "word": {
               "green": [
@@ -226,27 +254,41 @@ const B2_WORDS = [
               "purple": [
                 "vhodný"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "angemessen"
+              ]
             },
-            "example": {
-              "red": [
-                "passendes"
+            "meaning": {
+              "purple": [
+                "přiměřený"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unangebracht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nevhodný"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "angebracht"
-          ],
-          "purple": [
-            "na místě"
-          ]
-        },
-        "important": {
-          "blue": [
-            "angebracht"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -385,18 +427,165 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-abfinden",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Smířit se s",
-      "rektion": "Mit + kam?",
-      "explanation": "Sich abfinden se pojí s předložkou mit + 3. pád (Dativ): sich mit etwas abfinden.",
-      "forms": "Mit + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich abfinden mit je zvratné sloveso, které znamená smířit se s něčím nepříjemným, co nelze změnit. Po mit následuje dativ: sich mit etwas abfinden.",
+        "Tvary: er findet sich ab, fand sich ab, hat sich abgefunden. Předpona ab- je odlučitelná: Ich finde mich damit ab. Pomocné sloveso v perfektu je haben a ge se vkládá mezi ab- a sloveso.",
+        "Bez zvratného zájmena znamená abfinden odškodnit: jemanden mit Geld abfinden (vyplatit někoho penězi)."
+      ],
+      "examples": [
+        {
+          "de": "Er kann sich nicht mit der Niederlage abfinden.",
+          "lv": "Nemůže se smířit s porážkou."
+        },
+        {
+          "de": "Sie hat sich mit ihrem Schicksal abgefunden.",
+          "lv": "Smířila se se svým osudem."
+        },
+        {
+          "de": "Wir müssen uns damit abfinden.",
+          "lv": "Musíme se s tím smířit."
+        },
+        {
+          "de": "Mit dem neuen Chef finde ich mich langsam ab.",
+          "lv": "S novým šéfem se pomalu smiřuji."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich gewöhnen an",
+          "meaning": "zvyknout si na",
+          "example": "Ich gewöhne mich an die Kälte. – Zvykám si na chlad."
+        },
+        {
+          "word": "akzeptieren",
+          "meaning": "přijmout, akceptovat",
+          "example": "Wir akzeptieren die Entscheidung. – Přijímáme rozhodnutí."
+        },
+        {
+          "word": "sich fügen",
+          "meaning": "podřídit se",
+          "example": "Er fügt sich dem Beschluss. – Podřizuje se rozhodnutí."
+        }
+      ],
+      "tip": [
+        "Po mit použij dativ: mit dem Verlust, mit der Situation. Se zájmenem se říká damit.",
+        "Chceš-li říct, že se nesmíříš, řekni Ich finde mich nicht damit ab."
+      ],
+      "important": [
+        "Nepleť si to s abfinden bez sich: to znamená odškodnit nebo vyplatit penězi.",
+        "Perfektum je sich abgefunden (s -ge- uprostřed), nikoli gabgefunden."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich abfinden"
+            "abfinden",
+            "abgefunden",
+            "findet",
+            "finde",
+            "fand"
+          ],
+          "purple": [
+            "smířit se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abfinden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "smířit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgefunden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Smířila se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abfinden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "smířit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "finde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "smiřuji"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich gewöhnen an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zvyknout si na"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "akzeptieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "přijmout"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich fügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podřídit se"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -408,47 +597,69 @@ const B2_WORDS = [
       "id": "b2-abgesehen",
       "layout": "standardStudy",
       "translation": "Kromě • Nehledě na",
-      "explanation": "Hlavní myšlenka: abgesehen von znamená kromě nebo nehledě na. Ve spojení abgesehen von následuje podstatné jméno v dativu. Ukazuje, že něco se nebere v úvahu.",
+      "explanation": [
+        "Hlavní myšlenka: abgesehen je příčestí, které se spolu s von chová jako předložka a znamená kromě nebo nehledě na: Abgesehen vom Wetter war alles gut.",
+        "Po abgesehen von následuje dativ: abgesehen von einem Fehler. Následuje-li celá věta, použije se abgesehen davon, dass … a sloveso stojí na konci vedlejší věty."
+      ],
       "examples": [
         {
-          "de": "Abgesehen von dir sind alle hier.",
-          "lv": "Kromě tebe jsou tu všichni."
+          "de": "Abgesehen vom Wetter war der Urlaub schön.",
+          "lv": "Kromě počasí byla dovolená krásná."
         },
         {
-          "de": "Abgesehen vom Wetter war alles gut.",
-          "lv": "Nehledě na počasí bylo všechno dobré."
+          "de": "Abgesehen davon, dass es teuer ist, gefällt es mir.",
+          "lv": "Nehledě na to, že je to drahé, líbí se mi to."
+        },
+        {
+          "de": "Abgesehen von einem Kratzer ist das Auto in Ordnung.",
+          "lv": "Kromě škrábance je auto v pořádku."
+        },
+        {
+          "de": "Abgesehen von ihr waren alle da.",
+          "lv": "Kromě ní tam byli všichni."
         }
       ],
       "comparison": [
         {
-          "word": "abgesehen",
-          "meaning": "Kromě, Nehledě na",
-          "example": "Abgesehen von dir sind alle hier. = Kromě tebe jsou tu všichni."
-        },
-        {
           "word": "außer",
           "meaning": "kromě",
-          "example": "Außer dir sind alle hier. = Kromě tebe jsou tu všichni."
+          "example": "Alle außer mir waren da. – Všichni kromě mě tam byli."
+        },
+        {
+          "word": "bis auf",
+          "meaning": "až na, kromě",
+          "example": "Bis auf einen Fehler war alles richtig. – Až na jednu chybu bylo všechno správně."
+        },
+        {
+          "word": "einschließlich",
+          "meaning": "včetně",
+          "example": "Der Preis gilt einschließlich Frühstück. – Cena platí včetně snídaně."
         }
       ],
-      "tip": "Když vidíš abgesehen, čekej von a dativ.",
-      "important": "Abgesehen von je vždy s von.",
+      "tip": [
+        "Po abgesehen vždy následuje von (nebo davon, dass): abgesehen von dir.",
+        "Častý začátek poznámky: Abgesehen davon … (Nehledě na to …)."
+      ],
+      "important": [
+        "Abgesehen se obvykle užívá spolu s von nebo davon, dass, aby bylo jasné, co se vynechává.",
+        "Po abgesehen von je podstatné jméno v dativu: abgesehen vom Preis (= von dem Preis)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "abgesehen",
-            "Abgesehen von"
+            "Abgesehen",
+            "abgesehen"
           ],
           "purple": [
-            "Kromě",
-            "Nehledě na"
+            "kromě",
+            "nehledě na"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Abgesehen von"
+                "Abgesehen"
               ]
             },
             "lv": {
@@ -460,7 +671,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "Abgesehen vom"
+                "Abgesehen"
               ]
             },
             "lv": {
@@ -468,30 +679,33 @@ const B2_WORDS = [
                 "Nehledě na"
               ]
             }
-          }
-        ],
-        "comparison": [
+          },
           {
-            "word": {
-              "green": [
-                "abgesehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Kromě",
-                "Nehledě na"
-              ]
-            },
-            "example": {
+            "de": {
               "blue": [
-                "Abgesehen von"
-              ],
+                "Abgesehen"
+              ]
+            },
+            "lv": {
               "purple": [
                 "Kromě"
               ]
             }
           },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kromě"
+              ]
+            }
+          }
+        ],
+        "comparison": [
           {
             "word": {
               "green": [
@@ -502,25 +716,41 @@ const B2_WORDS = [
               "purple": [
                 "kromě"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bis auf"
+              ]
             },
-            "example": {
-              "red": [
-                "Außer"
+            "meaning": {
+              "purple": [
+                "až na"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einschließlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "včetně"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "abgesehen"
-          ]
-        },
-        "important": {
-          "blue": [
-            "abgesehen",
-            "Abgesehen von"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -684,80 +914,120 @@ const B2_WORDS = [
       "id": "b2-abtragen",
       "layout": "standardStudy",
       "translation": "Odnést • Obnosit • Zbořit",
-      "explanation": "Hlavní myšlenka: abtragen význam určuje věta: odnést, obnosit nebo zbořit. S nádobím jde o odnést, s obuví obnosit, se zdí zbořit nebo odstranit po vrstvách.",
+      "explanation": [
+        "Hlavní myšlenka: abtragen je odlučitelné sloveso s několika významy: obnosit oděv, zbořit nebo odtěžit (budovu, kopec) a odnést (například talíře ze stolu). Tvary: trägt ab, trug ab, hat abgetragen.",
+        "Příčestí abgetragen často popisuje obnošené oblečení: abgetragene Schuhe. Ve stavebnictví abtragen znamená postupně rozebírat nebo odstraňovat: eine Mauer abtragen.",
+        "Dále abtragen znamená postupně splácet dluhy: Schulden abtragen. Ve všech významech se předpona ab- odlučuje: Er trägt die Teller ab."
+      ],
       "examples": [
         {
-          "de": "Das Geschirr abtragen.",
-          "lv": "Odnést nádobí ze stolu."
+          "de": "Die Schuhe sind schon stark abgetragen.",
+          "lv": "Boty jsou už hodně obnošené."
         },
         {
-          "de": "Schuhe abtragen.",
-          "lv": "Obnosit boty."
+          "de": "Man trägt die alte Mauer Stein für Stein ab.",
+          "lv": "Starou zeď rozebírají kámen po kameni."
         },
         {
-          "de": "Eine Mauer abtragen.",
-          "lv": "Zbořit zeď."
+          "de": "Die Kellnerin trägt die Teller ab.",
+          "lv": "Servírka odnáší talíře."
+        },
+        {
+          "de": "Er trägt seine Schulden in Raten ab.",
+          "lv": "Dluhy splácí po částech."
         }
       ],
       "comparison": [
         {
-          "word": "abtragen",
-          "meaning": "Odnést, Obnosit, Zbořit",
-          "example": "Das Geschirr abtragen. = Odnést nádobí ze stolu."
+          "word": "abreißen",
+          "meaning": "zbořit",
+          "example": "Man hat das alte Haus abgerissen. – Starý dům zbourali."
         },
         {
-          "word": "tragen",
-          "meaning": "nést",
-          "example": "Er trägt die Tasche. = Nese tašku."
+          "word": "abräumen",
+          "meaning": "uklidit (stůl)",
+          "example": "Sie räumt den Tisch ab. – Uklízí stůl."
+        },
+        {
+          "word": "verschleißen",
+          "meaning": "opotřebovat se",
+          "example": "Die Reifen verschleißen schnell. – Pneumatiky se rychle opotřebovávají."
         }
       ],
-      "tip": "Podívejte se na předmět: nádobí se odnáší, obuv se obnosí, zeď se zboří.",
-      "important": "Abtragen není totéž co tragen (nést, nosit).",
+      "tip": [
+        "Význam určuje kontext: u oblečení je abtragen obnosit, u zdi rozebrat, u jídla odnést.",
+        "V restauraci často uslyšíš abtragen ve smyslu uklidit stůl."
+      ],
+      "important": [
+        "Nepleť si abtragen s abreißen: abreißen je rychle zbořit celou budovu, abtragen je postupně odstranit.",
+        "Perfektum: hat abgetragen (s ge- mezi ab- a tragen)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "abtragen",
+            "trägt ab",
+            "trug ab",
+            "abgetragen",
             "abtragen"
           ],
           "purple": [
-            "Odnést",
-            "Obnosit",
-            "Zbořit"
+            "obnosit",
+            "zbořit",
+            "odnést",
+            "obnošené",
+            "splácet"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "abtragen"
+                "abgetragen"
               ]
             },
             "lv": {
               "purple": [
-                "Odnést"
+                "obnošené"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "abtragen"
+                "trägt",
+                "ab"
               ]
             },
             "lv": {
               "purple": [
-                "Obnosit"
+                "rozebírají"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "abtragen"
+                "trägt",
+                "ab"
               ]
             },
             "lv": {
               "purple": [
-                "Zbořit"
+                "odnáší"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "splácí"
               ]
             }
           }
@@ -766,52 +1036,48 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "abtragen"
+                "abreißen"
               ]
             },
             "meaning": {
               "purple": [
-                "Odnést",
-                "Obnosit",
-                "Zbořit"
-              ]
-            },
-            "example": {
-              "blue": [
-                "abtragen"
-              ],
-              "purple": [
-                "Odnést"
+                "zbořit"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "tragen"
+                "abräumen"
               ]
             },
             "meaning": {
               "purple": [
-                "nést"
+                "uklidit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verschleißen"
               ]
             },
-            "example": {
-              "red": [
-                "trägt"
+            "meaning": {
+              "purple": [
+                "opotřebovat se"
               ]
             }
           }
         ],
-        "tip": {},
-        "important": {
-          "blue": [
-            "abtragen"
-          ],
-          "red": [
-            "tragen"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -848,18 +1114,165 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-abwenden",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Odvrátit se od",
-      "rektion": "Von + kam?",
-      "explanation": "Sich abwenden se pojí s předložkou von + 3. pád (Dativ): sich von jemandem abwenden.",
-      "forms": "Von + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich abwenden je odlučitelné zvratné sloveso, které znamená odvrátit se: fyzicky otočit pohled či tělo, nebo v přeneseném významu opustit někoho či něco. Po von následuje dativ: sich von jemandem abwenden.",
+        "Tvary: wendet sich ab, wandte (méně často wendete) sich ab, hat sich abgewandt (méně často abgewendet). Předpona ab- se odlučuje: Sie wendet sich ab.",
+        "Bez zvratného zájmena znamená abwenden + akuzativ odvrátit: eine Gefahr abwenden (odvrátit nebezpečí). Tvary jsou pak pravidelné: wendete ab, hat abgewendet."
+      ],
+      "examples": [
+        {
+          "de": "Sie wandte sich vom Fenster ab.",
+          "lv": "Odvrátila se od okna."
+        },
+        {
+          "de": "Viele Wähler haben sich von der Partei abgewandt.",
+          "lv": "Mnoho voličů se od strany odvrátilo."
+        },
+        {
+          "de": "Er wendet sich von seinen Freunden ab.",
+          "lv": "Odvrací se od svých přátel."
+        },
+        {
+          "de": "Die Mutter wandte sich enttäuscht ab.",
+          "lv": "Matka se zklamaně odvrátila."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abwenden",
+          "meaning": "odvrátit (nebezpečí)",
+          "example": "Wir konnten die Katastrophe abwenden. – Katastrofu jsme dokázali odvrátit."
+        },
+        {
+          "word": "sich zuwenden",
+          "meaning": "obrátit se k",
+          "example": "Sie wendet sich dem Kind zu. – Obrací se k dítěti."
+        },
+        {
+          "word": "sich umdrehen",
+          "meaning": "otočit se",
+          "example": "Er dreht sich um. – Otáčí se."
+        }
+      ],
+      "tip": [
+        "Po von použij dativ: von der Politik, von den Freunden.",
+        "Zapamatuj si protiklad: sich abwenden (odvrátit se) a sich zuwenden (obrátit se k)."
+      ],
+      "important": [
+        "Sich abwenden a abwenden mají různé významy: zvratné vyjadřuje odvrácení se, kdežto abwenden + akuzativ odvrácení nebezpečí.",
+        "V perfektu se u sich abwenden častěji používá abgewandt než abgewendet."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich abwenden"
+            "abwenden"
+          ],
+          "purple": [
+            "odvrátit se",
+            "odvrátit"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "wandte",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Odvrátila se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgewandt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odvrátilo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wendet",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Odvrací se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wandte",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odvrátila"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abwenden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odvrátit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuwenden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obrátit se k"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "umdrehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "otočit se"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1029,31 +1442,54 @@ const B2_WORDS = [
       "id": "b2--u-erlichkeit",
       "layout": "standardStudy",
       "translation": "Povrchnost",
-      "explanation": "Hlavní myšlenka: Äußerlichkeit je povrchnost, něco vnějšího a nepodstatného. Äußerlichkeiten se používá v množném čísle, když jde o vnější vzhled nebo formálnosti, které nejsou podstatné.",
+      "explanation": [
+        "Hlavní myšlenka: die Äußerlichkeit je podstatné jméno rodu ženského. Znamená povrchnost, tedy vnější, povrchní věc, která není podstatná. Často se používá v množném čísle.",
+        "Množné číslo je die Äußerlichkeiten. Slovo se obvykle užívá kriticky: Er achtet nur auf Äußerlichkeiten (dbá jen na vnějšek).",
+        "Slovo je odvozeno od äußerlich (vnější); podstatné jméno die Äußerlichkeit označuje to, co je jen navenek, bez hloubky."
+      ],
       "examples": [
         {
-          "de": "Er legt viel Wert auf Äußerlichkeiten.",
-          "lv": "Klade velký důraz na vnějšek."
+          "de": "Ihm sind Äußerlichkeiten nicht wichtig.",
+          "lv": "Na vnějšku mu nezáleží."
         },
         {
-          "de": "Äußerlichkeiten sind ihm wichtiger als Charakter.",
-          "lv": "Vnějšek je pro něj důležitější než charakter."
+          "de": "Das ist nur eine Äußerlichkeit.",
+          "lv": "To je jen povrchnost."
+        },
+        {
+          "de": "Sie achtet zu sehr auf Äußerlichkeiten.",
+          "lv": "Příliš dbá na vnějšek."
+        },
+        {
+          "de": "Man sollte sich nicht von Äußerlichkeiten täuschen lassen.",
+          "lv": "Člověk by se neměl nechat zmást vnějškem."
         }
       ],
       "comparison": [
         {
-          "word": "Äußerlichkeit",
-          "meaning": "Povrchnost",
-          "example": "Er legt viel Wert auf Äußerlichkeiten. = Klade velký důraz na vnějšek."
+          "word": "das Äußere",
+          "meaning": "zevnějšek",
+          "example": "Sein Äußeres täuscht. – Jeho zevnějšek klame."
         },
         {
-          "word": "Aussehen",
+          "word": "die Oberflächlichkeit",
+          "meaning": "povrchnost",
+          "example": "Ich mag keine Oberflächlichkeit. – Nemám rád povrchnost."
+        },
+        {
+          "word": "das Aussehen",
           "meaning": "vzhled",
-          "example": "Sein Aussehen ist gepflegt. = Jeho vzhled je upravený."
+          "example": "Sein Aussehen hat sich verändert. – Jeho vzhled se změnil."
         }
       ],
-      "tip": "Když jde o vzhled, ne o obsah, mysli na Äußerlichkeiten.",
-      "important": "Äußerlichkeit je obvykle kritické slovo, ne neutrální „vzhled“.",
+      "tip": [
+        "Obvykle se užívá s auf (auf Äußerlichkeiten achten) nebo s nur: nur eine Äußerlichkeit.",
+        "Slovo často zní kriticky: naznačuje, že něco je jen povrchní."
+      ],
+      "important": [
+        "Množné číslo Äußerlichkeiten je mnohem častější než jednotné.",
+        "Äußerlichkeit není neutrální označení vzhledu: vzhled se řekne das Äußere."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -1061,7 +1497,8 @@ const B2_WORDS = [
             "Äußerlichkeiten"
           ],
           "purple": [
-            "Povrchnost"
+            "povrchnost",
+            "vnějšek"
           ]
         },
         "examples": [
@@ -1073,6 +1510,30 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
+                "vnějšku"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "povrchnost"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
                 "vnějšek"
               ]
             }
@@ -1085,7 +1546,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Vnějšek"
+                "vnějškem"
               ]
             }
           }
@@ -1094,51 +1555,48 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "Äußerlichkeit"
+                "das Äußere"
               ]
             },
             "meaning": {
               "purple": [
-                "Povrchnost"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Äußerlichkeiten"
-              ],
-              "purple": [
-                "vnějšek"
+                "zevnějšek"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Aussehen"
+                "die Oberflächlichkeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "povrchnost"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Aussehen"
               ]
             },
             "meaning": {
               "purple": [
                 "vzhled"
               ]
-            },
-            "example": {
-              "red": [
-                "Aussehen"
-              ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Äußerlichkeiten"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Äußerlichkeit"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1157,79 +1615,109 @@ const B2_WORDS = [
       "id": "b2-aussetzen",
       "layout": "standardStudy",
       "translation": "Vystavit • Podrobit • Namítat • Přestat fungovat",
-      "explanation": "Hlavní myšlenka: aussetzen význam určuje věta: vypsat, vystavit, namítat nebo na čas přestat. S odměnou jde o vypsání, s nebezpečím o vystavení. Ve spojení etwas auszusetzen haben znamená namítat. U motoru nebo tréninku znamená na čas přestat fungovat nebo přerušit.",
+      "explanation": [
+        "Hlavní myšlenka: aussetzen je odlučitelné sloveso s několika významy: vysadit nebo opustit (psa, dítě), vystavit či podrobit (chladu, nebezpečí), přestat fungovat či na chvíli vysadit (o motoru, práci) a ve spojení s an + dativ namítat.",
+        "Tvary: setzt aus, setzte aus, hat ausgesetzt. V případě vystavit se používá dativ: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. Příčestí ausgesetzt sein znamená být vystaven.",
+        "Ve významu namítat se používá vazba etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Zde se zu vkládá mezi předponu a kmen: auszusetzen."
+      ],
       "examples": [
         {
-          "de": "Eine Belohnung aussetzen.",
-          "lv": "Vypsat odměnu."
+          "de": "Sie setzten den Hund im Wald aus.",
+          "lv": "Vysadili psa v lese."
         },
         {
-          "de": "Jemanden einer Gefahr aussetzen.",
-          "lv": "Vystavit někoho nebezpečí."
+          "de": "Die Kinder sind der Kälte ausgesetzt.",
+          "lv": "Děti jsou vystaveny chladu."
         },
         {
-          "de": "Ich habe nichts daran auszusetzen.",
-          "lv": "Nemám proti tomu co namítat."
+          "de": "Der Motor setzte plötzlich aus.",
+          "lv": "Motor najednou vysadil."
         },
         {
-          "de": "Der Motor setzt aus.",
-          "lv": "Motor přestává fungovat."
+          "de": "Ich habe nichts an deinem Plan auszusetzen.",
+          "lv": "Proti tvému plánu nemám co namítat."
         },
         {
-          "de": "Wir setzen das Training für eine Woche aus.",
-          "lv": "Na týden přerušujeme trénink."
+          "de": "Du solltest dich nicht zu lange der Sonne aussetzen.",
+          "lv": "Neměl bys se příliš dlouho vystavovat slunci."
         }
       ],
       "comparison": [
         {
-          "word": "aussetzen",
-          "meaning": "Vystavit, Podrobit, Namítat",
-          "example": "Eine Belohnung aussetzen. = Vypsat odměnu."
-        },
-        {
           "word": "unterbrechen",
           "meaning": "přerušit",
-          "example": "Ich unterbreche die Arbeit. = Přerušuji práci."
+          "example": "Das Spiel wurde unterbrochen. – Hra byla přerušena."
+        },
+        {
+          "word": "kritisieren",
+          "meaning": "kritizovat",
+          "example": "Er kritisiert den Plan. – Kritizuje plán."
+        },
+        {
+          "word": "verlassen",
+          "meaning": "opustit",
+          "example": "Er hat seine Familie verlassen. – Opustil svou rodinu."
         }
       ],
-      "tip": "Když je ve větě Gefahr nebo Kritik, mysli na vystavit nebo namítat.",
-      "important": "Ich habe nichts daran auszusetzen znamená „nemám proti tomu co namítat“, ne něco vypsat.",
+      "tip": [
+        "Význam určuje kontext: zvíře nebo dítě znamená vysadit, slunce nebo nebezpečí vystavit, motor přestat fungovat.",
+        "Ve významu namítat se obvykle užívá záporný tvar: nichts auszusetzen haben."
+      ],
+      "important": [
+        "Ve významu vystavit následuje po aussetzen dativ (der Gefahr, dem Risiko), nikoli akuzativ.",
+        "Nepleť si ausgesetzt sein (být vystaven) s ausgestellt (vystavený nebo vydaný)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "aussetzen",
+            "setzt",
+            "setzte",
+            "ausgesetzt",
             "auszusetzen"
           ],
           "purple": [
-            "Vystavit",
-            "Namítat",
-            "Přestat fungovat",
-            "Vypsat",
-            "namítat"
+            "vysadit",
+            "vystavit",
+            "přestat fungovat",
+            "namítat",
+            "vystaven"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "aussetzen"
+                "setzten"
               ]
             },
             "lv": {
               "purple": [
-                "Vypsat"
+                "Vysadili"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "aussetzen"
+                "ausgesetzt"
               ]
             },
             "lv": {
               "purple": [
-                "Vystavit"
+                "vystaveny"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vysadil"
               ]
             }
           },
@@ -1248,52 +1736,17 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "setzt aus"
+                "aussetzen"
               ]
             },
             "lv": {
               "purple": [
-                "přestává fungovat"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "setzen",
-                "aus"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "přerušujeme"
+                "vystavovat"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "aussetzen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vystavit",
-                "Podrobit",
-                "Namítat"
-              ]
-            },
-            "example": {
-              "blue": [
-                "aussetzen"
-              ],
-              "purple": [
-                "Vypsat"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -1304,26 +1757,41 @@ const B2_WORDS = [
               "purple": [
                 "přerušit"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kritisieren"
+              ]
             },
-            "example": {
-              "red": [
-                "unterbreche"
+            "meaning": {
+              "purple": [
+                "kritizovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "opustit"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Vystavit",
-            "Namítat",
-            "namítat"
-          ]
-        },
-        "important": {
-          "blue": [
-            "auszusetzen"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1360,63 +1828,75 @@ const B2_WORDS = [
       "id": "b2-ausstr-men",
       "layout": "standardStudy",
       "translation": "Vytékat • Unikat • Vyzařovat",
-      "explanation": "Hlavní myšlenka: ausströmen význam určuje věta: vytékat, unikat nebo vyzařovat. S vodou jde o vytékat, s plynem unikat, s člověkem vyzařovat určitou vlastnost, například klid.",
+      "explanation": [
+        "Hlavní myšlenka: ausströmen znamená vytékat nebo unikat (o plynu, vzduchu, kapalině), v přeneseném významu vyzařovat, šířit kolem sebe (klid, teplo). Předpona aus- se odlučuje.",
+        "Tvary: strömt aus, strömte aus. Když něco uniká a jde o pohyb, je pomocné sloveso v perfektu sein: Das Gas ist ausgeströmt. S předmětem v akuzativu (Ruhe ausströmen) se používá haben: Sie hat Ruhe ausgeströmt.",
+        "Slovo je blízké strömen (proudit). Nejčastější použití je technické, o úniku plynu, a přenesené, o dojmu, který člověk působí."
+      ],
       "examples": [
         {
-          "de": "Wasser strömt aus dem Tank aus.",
-          "lv": "Voda vytéká z nádrže."
+          "de": "Aus dem Rohr strömt Gas aus.",
+          "lv": "Z potrubí uniká plyn."
         },
         {
-          "de": "Gas strömt aus dem Rohr aus.",
-          "lv": "Z potrubí uniká plyn."
+          "de": "Das Wasser ist aus dem Tank ausgeströmt.",
+          "lv": "Voda vytekla z nádrže."
         },
         {
           "de": "Sie strömt Ruhe aus.",
           "lv": "Vyzařuje klid."
+        },
+        {
+          "de": "Aus der Küche strömte ein feiner Duft aus.",
+          "lv": "Z kuchyně vycházela jemná vůně."
         }
       ],
       "comparison": [
         {
-          "word": "ausströmen",
-          "meaning": "Vytékat, Unikat, Vyzařovat",
-          "example": "Wasser strömt aus dem Tank aus. = Voda vytéká z nádrže."
+          "word": "ausfließen",
+          "meaning": "vytéci",
+          "example": "Das Öl fließt aus dem Tank aus. – Olej vytéká z nádrže."
         },
         {
-          "word": "fließen",
-          "meaning": "téct",
-          "example": "Das Wasser fließt. = Voda teče."
+          "word": "austreten",
+          "meaning": "unikat",
+          "example": "Aus dem Rohr tritt Gas aus. – Z potrubí uniká plyn."
+        },
+        {
+          "word": "ausstrahlen",
+          "meaning": "vyzařovat",
+          "example": "Er strahlt Freude aus. – Vyzařuje radost."
         }
       ],
-      "tip": "Když ven proudí voda nebo plyn, mysli na vytékat nebo unikat.",
-      "important": "Ausströmen u člověka znamená vyzařovat, ne vytékat.",
+      "tip": [
+        "Pro únik plynu se používá Gas strömt aus; obvykle to označuje nebezpečnou situaci.",
+        "Perfektum se tvoří se sein, když není uveden předmět: ist ausgeströmt."
+      ],
+      "important": [
+        "Pomocné sloveso v perfektu je sein, když něco uniká (ist ausgeströmt), a haben, je-li předmět (hat Ruhe ausgeströmt).",
+        "Ausströmen není totéž co ausschütten (vylít): to dělá člověk."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "ausströmen"
+            "ausströmen",
+            "strömt aus",
+            "strömte aus",
+            "ausgeströmt",
+            "strömen"
           ],
           "purple": [
-            "Vytékat",
-            "Unikat",
-            "Vyzařovat"
+            "vytékat",
+            "unikat",
+            "vyzařovat"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "strömt aus"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vytéká"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "strömt aus"
+                "strömt",
+                "aus"
               ]
             },
             "lv": {
@@ -1428,12 +1908,38 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "strömt"
+                "ausgeströmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vytekla"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömt",
+                "aus"
               ]
             },
             "lv": {
               "purple": [
                 "Vyzařuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömte",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vycházela"
               ]
             }
           }
@@ -1442,54 +1948,48 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "ausströmen"
+                "ausfließen"
               ]
             },
             "meaning": {
               "purple": [
-                "Vytékat",
-                "Unikat",
-                "Vyzařovat"
-              ]
-            },
-            "example": {
-              "blue": [
-                "strömt aus"
-              ],
-              "purple": [
-                "vytéká"
+                "vytéci"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "fließen"
+                "austreten"
               ]
             },
             "meaning": {
               "purple": [
-                "téct"
+                "unikat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausstrahlen"
               ]
             },
-            "example": {
-              "red": [
-                "fließt"
+            "meaning": {
+              "purple": [
+                "vyzařovat"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Vytékat",
-            "Unikat"
-          ]
-        },
-        "important": {
-          "blue": [
-            "ausströmen"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1511,123 +2011,122 @@ const B2_WORDS = [
       "id": "b2-austreten",
       "layout": "standardStudy",
       "translation": "Vyšlapat • Zašlápnout • Vystoupit",
-      "explanation": "Hlavní myšlenka: austreten význam určuje věta: vyšlapat, zašlápnout nebo vystoupit. S cestičkou jde o vyšlapat, s cigaretou zašlápnout. S Verein nebo Partei znamená vystoupit.",
+      "explanation": [
+        "Hlavní myšlenka: austreten je odlučitelné sloveso se dvěma hlavními skupinami významů: bez předmětu (se sein) vystoupit z organizace nebo uniknout; s akuzativem (s haben) vyšlapat či zašlápnout.",
+        "Tvary: tritt aus, trat aus. Vystoupení: Er ist aus dem Verein ausgetreten (aus + dativ). Únik: Gas ist ausgetreten. Zašlápnutí: Er hat die Zigarette ausgetreten (típl cigaretu nohou).",
+        "Příčestí ausgetreten jako přídavné jméno popisuje sešlapané, vyšlapané místo: ausgetretene Stufen (vyšlapané schody)."
+      ],
       "examples": [
         {
-          "de": "Einen Pfad austreten.",
-          "lv": "Vyšlapat stezku."
+          "de": "Er ist aus dem Verein ausgetreten.",
+          "lv": "Vystoupil ze spolku."
         },
         {
-          "de": "Eine Zigarette austreten.",
-          "lv": "Zašlápnout cigaretu."
+          "de": "Aus dem Tank ist Öl ausgetreten.",
+          "lv": "Z nádrže unikl olej."
         },
         {
-          "de": "Aus dem Verein austreten.",
-          "lv": "Vystoupit ze spolku."
+          "de": "Er hat die Zigarette auf dem Boden ausgetreten.",
+          "lv": "Zašlápl cigaretu na podlaze."
         },
         {
-          "de": "Aus einer Partei austreten.",
-          "lv": "Vystoupit ze strany."
+          "de": "Die alten Stufen sind schon ausgetreten.",
+          "lv": "Staré schody jsou už vyšlapané."
         }
       ],
       "comparison": [
         {
-          "word": "austreten",
-          "meaning": "Vyšlapat, Zašlápnout, Vystoupit",
-          "example": "Einen Pfad austreten. = Vyšlapat stezku."
-        },
-        {
           "word": "eintreten",
           "meaning": "vstoupit",
-          "example": "Er tritt in den Verein ein. = Vstupuje do spolku."
+          "example": "Er tritt in den Verein ein. – Vstupuje do spolku."
+        },
+        {
+          "word": "kündigen",
+          "meaning": "vypovědět",
+          "example": "Sie hat den Vertrag gekündigt. – Vypověděla smlouvu."
+        },
+        {
+          "word": "ausscheiden",
+          "meaning": "odejít (z funkce)",
+          "example": "Er scheidet aus dem Vorstand aus. – Odchází z představenstva."
         }
       ],
-      "tip": "Když je ve větě aus dem ..., mysli na vystoupit.",
-      "important": "Austreten není totéž co eintreten (vstoupit).",
+      "tip": [
+        "Pomocné sloveso rozlišuje význam: ist ausgetreten (vystoupit, uniknout), hat ausgetreten (zašlápnout nohou).",
+        "Vystoupení z organizace se vyjadřuje pomocí aus + dativ: aus der Kirche austreten."
+      ],
+      "important": [
+        "Austreten není totéž co eintreten: to znamená vstoupit nebo vstoupit do organizace.",
+        "V běžné řeči je ich muss mal austreten zdvořilý způsob, jak říct, že musíš na toaletu."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "austreten"
+            "austreten",
+            "ausgetreten",
+            "ausgetretene",
+            "tritt",
+            "trat"
           ],
           "purple": [
-            "Vyšlapat",
-            "Zašlápnout",
-            "Vystoupit"
+            "vystoupit",
+            "uniknout",
+            "zašlápnout",
+            "vyšlapat",
+            "vyšlapané"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "austreten"
+                "ausgetreten"
               ]
             },
             "lv": {
               "purple": [
-                "Vyšlapat"
+                "Vystoupil"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "austreten"
+                "ausgetreten"
               ]
             },
             "lv": {
               "purple": [
-                "Zašlápnout"
+                "unikl"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "austreten"
+                "ausgetreten"
               ]
             },
             "lv": {
               "purple": [
-                "Vystoupit"
+                "Zašlápl"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "austreten"
+                "ausgetreten"
               ]
             },
             "lv": {
               "purple": [
-                "Vystoupit"
+                "vyšlapané"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "austreten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vyšlapat",
-                "Zašlápnout",
-                "Vystoupit"
-              ]
-            },
-            "example": {
-              "blue": [
-                "austreten"
-              ],
-              "purple": [
-                "Vyšlapat"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -1638,28 +2137,41 @@ const B2_WORDS = [
               "purple": [
                 "vstoupit"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kündigen"
+              ]
             },
-            "example": {
-              "red": [
-                "tritt",
-                "ein"
+            "meaning": {
+              "purple": [
+                "vypovědět"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausscheiden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odejít"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Vystoupit"
-          ]
-        },
-        "important": {
-          "blue": [
-            "austreten"
-          ],
-          "red": [
-            "eintreten"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1866,51 +2378,79 @@ const B2_WORDS = [
       "id": "b2-bebauen",
       "layout": "standardStudy",
       "translation": "Obdělávat • Zastavět",
-      "explanation": "Hlavní myšlenka: bebauen znamená obdělávat půdu nebo zastavět pozemek. S Feld bebauen jde o obdělávat, s Grundstück zastavět. Význam určuje předmět.",
+      "explanation": [
+        "Hlavní myšlenka: bebauen je sloveso se dvěma významy: zastavět pozemek budovami a obdělávat půdu, pole k zemědělským účelům. Je neodlučitelné a pojí se s akuzativem.",
+        "Tvary: bebaut, bebaute, hat bebaut. Častým příčestím je přídavné jméno bebaut: dicht bebaut (hustě zastavěný), unbebaut (nezastavěný). U budov se říká mit Häusern bebauen.",
+        "U polí se používá také anbauen (pěstovat plodinu): Weizen anbauen; bebauen je širší a týká se obdělávání půdy obecně."
+      ],
       "examples": [
         {
-          "de": "Ein Feld bebauen.",
-          "lv": "Obdělávat pole."
+          "de": "Das Grundstück wird mit Wohnhäusern bebaut.",
+          "lv": "Pozemek se zastavuje obytnými domy."
         },
         {
-          "de": "Ein Grundstück bebauen.",
-          "lv": "Zastavět pozemek."
+          "de": "Die Bauern bebauen das Feld mit Weizen.",
+          "lv": "Rolníci obdělávají pole a sejí na něm pšenici."
+        },
+        {
+          "de": "Das Gelände darf nicht bebaut werden.",
+          "lv": "Toto území se nesmí zastavět."
+        },
+        {
+          "de": "Der Hang ist dicht bebaut.",
+          "lv": "Svah je hustě zastavěný."
         }
       ],
       "comparison": [
         {
-          "word": "bebauen",
-          "meaning": "Obdělávat, Zastavět",
-          "example": "Ein Feld bebauen. = Obdělávat pole."
-        },
-        {
           "word": "bauen",
           "meaning": "stavět",
-          "example": "Wir bauen ein Haus. = Stavíme dům."
+          "example": "Sie bauen ein Haus. – Stavějí dům."
+        },
+        {
+          "word": "anbauen",
+          "meaning": "pěstovat, přistavět",
+          "example": "Hier baut man Wein an. – Tady se pěstuje víno."
+        },
+        {
+          "word": "bearbeiten",
+          "meaning": "obdělávat, zpracovávat",
+          "example": "Er bearbeitet den Boden. – Obdělává půdu."
         }
       ],
-      "tip": "Když je ve větě pole, mysli na obdělávat; když pozemek, zastavět.",
-      "important": "Bebauen není totéž co bauen (stavět).",
+      "tip": [
+        "Ve významu budov se používá mit: mit Häusern bebauen; často se vyskytuje i v pasivu: bebaut werden.",
+        "Opakem je unbebaut, tedy nezastavěný."
+      ],
+      "important": [
+        "Bebauen není totéž co bauen: bauen je něco postavit, bebauen je pokrýt pozemek stavbami.",
+        "V zemědělství se pro pěstování rostlin častěji používá anbauen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bebauen"
+            "bebauen",
+            "bebaut",
+            "bebaute",
+            "unbebaut",
+            "anbauen"
           ],
           "purple": [
-            "Obdělávat",
-            "Zastavět"
+            "zastavět",
+            "obdělávat",
+            "zastavěný"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bebauen"
+                "bebaut"
               ]
             },
             "lv": {
               "purple": [
-                "Obdělávat"
+                "zastavuje"
               ]
             }
           },
@@ -1922,33 +2462,36 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zastavět"
+                "obdělávají"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zastavět"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zastavěný"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "bebauen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Obdělávat",
-                "Zastavět"
-              ]
-            },
-            "example": {
-              "blue": [
-                "bebauen"
-              ],
-              "purple": [
-                "Obdělávat"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -1959,28 +2502,41 @@ const B2_WORDS = [
               "purple": [
                 "stavět"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anbauen"
+              ]
             },
-            "example": {
-              "red": [
-                "bauen"
+            "meaning": {
+              "purple": [
+                "pěstovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bearbeiten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obdělávat"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Obdělávat",
-            "Zastavět"
-          ]
-        },
-        "important": {
-          "blue": [
-            "bebauen"
-          ],
-          "red": [
-            "bauen"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -2000,18 +2556,163 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-befassen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Řešit",
-      "rektion": "Mit + kam?",
-      "explanation": "Sich befassen se pojí s předložkou mit + 3. pád (Dativ): sich mit einem Thema befassen.",
-      "forms": "Mit + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich befassen je zvratné sloveso, které znamená zabývat se nějakou otázkou či tématem, řešit je, často písemně nebo odborně. Po mit následuje dativ: sich mit etwas befassen.",
+        "Tvary: befasst sich, befasste sich, hat sich befasst. Předpona be- je neodlučitelná, proto se netvoří ge-.",
+        "Slovo zní formálněji než sich beschäftigen; používá se o komisích, studiích, soudech a lidech, kteří zkoumají nějakou otázku."
+      ],
+      "examples": [
+        {
+          "de": "Ich befasse mich mit der Geschichte der Stadt.",
+          "lv": "Zabývám se historií města."
+        },
+        {
+          "de": "Der Ausschuss befasst sich mit dem Problem.",
+          "lv": "Výbor se touto problematikou zabývá."
+        },
+        {
+          "de": "Damit habe ich mich noch nie befasst.",
+          "lv": "Tím jsem se ještě nikdy nezabýval."
+        },
+        {
+          "de": "Die Studie befasst sich mit den Folgen des Klimawandels.",
+          "lv": "Studie se zabývá důsledky změny klimatu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beschäftigen mit",
+          "meaning": "zabývat se",
+          "example": "Er beschäftigt sich mit Musik. – Zabývá se hudbou."
+        },
+        {
+          "word": "sich auseinandersetzen mit",
+          "meaning": "ponořit se do, řešit",
+          "example": "Wir setzen uns mit dem Thema auseinander. – Ponořujeme se do tématu."
+        },
+        {
+          "word": "behandeln",
+          "meaning": "pojednávat, probírat",
+          "example": "Das Buch behandelt dieses Thema. – Kniha pojednává o tomto tématu."
+        }
+      ],
+      "tip": [
+        "Po mit použij dativ: mit dem Thema, mit der Frage.",
+        "Chceš-li mluvit jednodušeji, můžeš říct sich beschäftigen mit, což znamená totéž."
+      ],
+      "important": [
+        "Perfektum je hat sich befasst, nikoli hat sich gebefasst: be- je neodlučitelná předpona.",
+        "Sich befassen se víc vztahuje na přemýšlení a zkoumání než na fyzickou činnost."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich befassen"
+            "sich befassen",
+            "befasst sich"
+          ],
+          "purple": [
+            "zabývat se",
+            "řešit"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "befasse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zabývám se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zabývá"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nezabýval"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zabývá"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beschäftigen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zabývat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich auseinandersetzen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ponořit se do"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behandeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pojednávat"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -2050,18 +2751,163 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-begnuegen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Být spokojený s",
-      "rektion": "Mit + kam?",
-      "explanation": "Sich begnügen se pojí s předložkou mit + 3. pád (Dativ): sich mit wenig begnügen.",
-      "forms": "Mit + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich begnügen je zvratné sloveso, které znamená spokojit se s méně, než by člověk mohl chtít, tedy být spokojený s menším. Po mit následuje dativ: sich mit etwas begnügen.",
+        "Tvary: begnügt sich, begnügte sich, hat sich begnügt. Předpona be- je neodlučitelná, proto se netvoří ge-.",
+        "Po mit následuje podstatné jméno nebo zájmeno (damit), případně infinitivní vazba: sich damit begnügen, etwas zu tun (spokojit se s tím, že člověk něco dělá)."
+      ],
+      "examples": [
+        {
+          "de": "Er begnügt sich mit einem kleinen Gehalt.",
+          "lv": "Spokojí se s malým platem."
+        },
+        {
+          "de": "Wir mussten uns mit Brot und Wasser begnügen.",
+          "lv": "Museli jsme se spokojit s chlebem a vodou."
+        },
+        {
+          "de": "Sie begnügt sich nicht mit dem zweiten Platz.",
+          "lv": "S druhým místem se nespokojí."
+        },
+        {
+          "de": "Ich begnüge mich damit, zuzuschauen.",
+          "lv": "Spokojím se s tím, že se budu jen dívat."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zufrieden sein mit",
+          "meaning": "být spokojený s",
+          "example": "Ich bin mit dem Ergebnis zufrieden. – Jsem spokojený s výsledkem."
+        },
+        {
+          "word": "sich zufriedengeben",
+          "meaning": "spokojit se, smířit se",
+          "example": "Er gibt sich nicht zufrieden. – Nespokojí se s tím."
+        },
+        {
+          "word": "sich beschränken auf",
+          "meaning": "omezit se na",
+          "example": "Ich beschränke mich auf das Wichtigste. – Omezuji se na to nejdůležitější."
+        }
+      ],
+      "tip": [
+        "Po mit použij dativ: mit wenig, mit dem Ergebnis.",
+        "Častým protikladem je sich nicht begnügen, když někdo chce víc."
+      ],
+      "important": [
+        "Sich begnügen není totéž co zufrieden sein: vyjadřuje, že člověk snižuje své nároky.",
+        "Perfektum je hat sich begnügt (bez ge-)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich begnügen"
+            "begnügen",
+            "begnügt"
+          ],
+          "purple": [
+            "spokojit se",
+            "být spokojený"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "begnügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Spokojí se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnügen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "spokojit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nespokojí"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnüge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Spokojím se"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zufrieden sein mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "být spokojený s"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zufriedengeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spokojit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beschränken auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "omezit se na"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -2225,18 +3071,167 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-bemaechtigen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Zmocnit se • Zmocnit se",
-      "rektion": "+ 2. pád (genitiv)",
-      "explanation": "Sich bemächtigen se v moderní němčině používá s 2. pádem (Genitiv) bez předložky.",
-      "forms": "+ 2. pád (genitiv)",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich bemächtigen je formální zvratné sloveso, které znamená zmocnit se: věci, místa nebo moci, často silou, a v přeneseném významu o pocitech, které člověka ovládnou.",
+        "Po sich bemächtigen následuje genitiv: sich einer Sache bemächtigen. Tvary: bemächtigt sich, bemächtigte sich, hat sich bemächtigt. Předpona be- je neodlučitelná.",
+        "Slovo patří do psaného a literárního jazyka; v běžné řeči se místo něj říká etwas nehmen nebo ergreifen."
+      ],
+      "examples": [
+        {
+          "de": "Die Rebellen bemächtigten sich der Stadt.",
+          "lv": "Rebelové se zmocnili města."
+        },
+        {
+          "de": "Er bemächtigte sich des Autoschlüssels.",
+          "lv": "Zmocnil se klíčů od auta."
+        },
+        {
+          "de": "Große Angst bemächtigte sich seiner.",
+          "lv": "Zmocnil se ho velký strach."
+        },
+        {
+          "de": "Die Armee hat sich der Macht bemächtigt.",
+          "lv": "Armáda se zmocnila moci."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ergreifen",
+          "meaning": "uchopit, chopit se",
+          "example": "Er ergreift die Macht. – Chopil se moci."
+        },
+        {
+          "word": "sich aneignen",
+          "meaning": "přivlastnit si",
+          "example": "Er hat sich das Geld angeeignet. – Přivlastnil si peníze."
+        },
+        {
+          "word": "besetzen",
+          "meaning": "obsadit",
+          "example": "Die Soldaten besetzen die Stadt. – Vojáci obsazují město."
+        }
+      ],
+      "tip": [
+        "Pamatuj na genitiv: sich des Hauses bemächtigen, sich der Macht bemächtigen.",
+        "Toto slovo poznáš v historických textech, ve zprávách a v literatuře."
+      ],
+      "important": [
+        "Sich bemächtigen vyžaduje genitiv, nikoli akuzativ.",
+        "Nepleť si to s ermächtigen (zplnomocnit): je to jiné slovo."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich bemächtigen"
+            "sich bemächtigen",
+            "bemächtigt sich",
+            "bemächtigte sich",
+            "bemächtigt"
+          ],
+          "purple": [
+            "zmocnit se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bemächtigten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zmocnili"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zmocnil se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zmocnil se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zmocnila"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ergreifen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uchopit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich aneignen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "přivlastnit si"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obsadit"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -2310,18 +3305,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-berufen",
-      "layout": "minimalStudy",
-      "translation": "Odkazovat",
-      "rektion": "Auf + ko?",
-      "explanation": "Sich berufen se pojí s předložkou auf + 4. pád (Akkusativ): sich auf ein Gesetz berufen.",
-      "forms": "Auf + ko?",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Odvolávat se na",
+      "explanation": [
+        "Hlavní myšlenka: sich berufen auf je zvratné sloveso, které znamená odvolávat se na něco jako na základ argumentu: na zákon, smlouvu, zdroj nebo osobu. Po auf následuje akuzativ: sich auf etwas berufen.",
+        "Tvary: beruft sich, berief sich, hat sich berufen. Předpona be- je neodlučitelná.",
+        "Samostatné berufen (bez sich) znamená jmenovat do funkce: Er wurde zum Professor berufen. Tento význam je jiný než odvolávání se."
+      ],
+      "examples": [
+        {
+          "de": "Er beruft sich auf sein Recht.",
+          "lv": "Odvolává se na svá práva."
+        },
+        {
+          "de": "Der Politiker beruft sich auf eine Studie.",
+          "lv": "Politik se odvolává na studii."
+        },
+        {
+          "de": "Sie berief sich auf den Vertrag.",
+          "lv": "Odvolala se na smlouvu."
+        },
+        {
+          "de": "Dabei kann ich mich auf niemanden berufen.",
+          "lv": "V tom se nemohu na nikoho odvolávat."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verweisen auf",
+          "meaning": "odkázat na",
+          "example": "Er verweist auf den Artikel. – Odkazuje na článek."
+        },
+        {
+          "word": "sich stützen auf",
+          "meaning": "opírat se o",
+          "example": "Das Urteil stützt sich auf Beweise. – Rozsudek se opírá o důkazy."
+        },
+        {
+          "word": "zitieren",
+          "meaning": "citovat",
+          "example": "Sie zitiert den Autor. – Cituje autora."
+        }
+      ],
+      "tip": [
+        "Používej auf + akuzativ: auf das Gesetz, auf einen Zeugen.",
+        "V soudním a právním jazyce je sich berufen auf základní formulace."
+      ],
+      "important": [
+        "Sich berufen auf není totéž co berufen: bez sich to znamená jmenovat do funkce.",
+        "Perfektum je hat sich berufen (bez ge-)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich berufen"
+            "sich berufen",
+            "beruft sich",
+            "berief sich",
+            "berufen",
+            "berufen auf"
+          ],
+          "purple": [
+            "odvolávat se",
+            "jmenovat"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "beruft",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Odvolává se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beruft",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odvolává"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "berief",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Odvolala se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "berufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odvolávat"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odkázat na"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich stützen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "opírat se o"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zitieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "citovat"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -2345,51 +3491,64 @@ const B2_WORDS = [
       "id": "b2-besatzung",
       "layout": "standardStudy",
       "translation": "Posádka • Osádka • Obsluha • Okupační vojsko",
-      "explanation": "Hlavní myšlenka: Besatzung význam určuje věta: posádka, osádka, obsluha nebo okupační vojsko. U lodi nebo letadla jde o posádku nebo osádku. U skupiny lidí může jít o obsluhu. V kontextu války je to okupační vojsko.",
+      "explanation": [
+        "Hlavní myšlenka: die Besatzung je podstatné jméno rodu ženského se dvěma hlavními významy: posádka lodi nebo letadla (lidé, kteří na lodi pracují a obsluhují ji) a okupační vojsko nebo samotná okupace po válce.",
+        "Množné číslo je die Besatzungen. Složeniny: die Besatzung eines Schiffes (posádka lodi), die Besatzungsmacht (okupační mocnost), die Besatzungszone (okupační zóna). Příbuzné slovo je die Mannschaft (mužstvo, tým).",
+        "Význam určuje kontext: Flugzeug, Schiff znamená posádka; Krieg, Stadt, Land znamená okupace."
+      ],
       "examples": [
         {
-          "de": "Die Besatzung des Schiffes.",
-          "lv": "Posádka lodi."
+          "de": "Die Besatzung des Schiffes besteht aus zwanzig Mann.",
+          "lv": "Posádku lodi tvoří dvacet mužů."
         },
         {
-          "de": "Die Besatzung des Flugzeugs besteht aus drei Personen.",
-          "lv": "Posádka letadla se skládá ze tří osob."
+          "de": "Die Besatzung des Flugzeugs begrüßt die Passagiere.",
+          "lv": "Posádka letadla vítá cestující."
         },
         {
-          "de": "Die ganze Besatzung wurde gerettet.",
-          "lv": "Celá posádka byla zachráněna."
+          "de": "Nach dem Krieg stand die Stadt unter Besatzung.",
+          "lv": "Po válce bylo město pod okupací."
         },
         {
-          "de": "Die feindliche Besatzung verließ die Stadt.",
-          "lv": "Nepřátelské okupační vojsko opustilo město."
+          "de": "Die Besatzung zog nach zwei Jahren ab.",
+          "lv": "Okupační vojsko odešlo po dvou letech."
         }
       ],
       "comparison": [
         {
-          "word": "Besatzung",
-          "meaning": "Posádka, Osádka, Obsluha",
-          "example": "Die Besatzung des Schiffes. = Posádka lodi."
+          "word": "die Mannschaft",
+          "meaning": "mužstvo, tým",
+          "example": "Die Mannschaft gewinnt das Spiel. – Mužstvo vyhrává zápas."
         },
         {
-          "word": "Mannschaft",
-          "meaning": "tým",
-          "example": "Die Mannschaft gewinnt das Spiel. = Tým vyhrává zápas."
+          "word": "die Crew",
+          "meaning": "posádka",
+          "example": "Die Crew bereitet den Start vor. – Posádka připravuje start."
+        },
+        {
+          "word": "die Besetzung",
+          "meaning": "obsazení, okupace",
+          "example": "Die Besetzung des Films ist hervorragend. – Obsazení filmu je skvělé."
         }
       ],
-      "tip": "Dívej se na kontext: loď, letadlo nebo město s vojskem.",
-      "important": "Besatzung není totéž co Mannschaft u sportovního týmu.",
+      "tip": [
+        "Při letu se Besatzung vztahuje na piloty a letušky dohromady; cestující jsou Fluggäste.",
+        "V historickém významu se často používají složeniny s Besatzungs-."
+      ],
+      "important": [
+        "Nepleť si die Besatzung s die Besetzung: Besetzung je obsazení rolí nebo proces obsazení.",
+        "Množné číslo die Besatzungen znamená několik posádek nebo okupačních vojsk."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Besatzung"
+            "Besatzung",
+            "Besatzungen"
           ],
           "purple": [
-            "Posádka",
-            "Osádka",
-            "Obsluha",
-            "Okupační vojsko",
             "posádka",
-            "okupační vojsko"
+            "okupační vojsko",
+            "okupace"
           ]
         },
         "examples": [
@@ -2401,7 +3560,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Posádka"
+                "Posádku"
               ]
             }
           },
@@ -2425,7 +3584,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "posádka"
+                "okupací"
               ]
             }
           },
@@ -2437,7 +3596,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "okupační vojsko"
+                "Okupační vojsko"
               ]
             }
           }
@@ -2446,52 +3605,48 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "Besatzung"
+                "die Mannschaft"
               ]
             },
             "meaning": {
               "purple": [
-                "Posádka",
-                "Osádka",
-                "Obsluha"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Besatzung"
-              ],
-              "purple": [
-                "Posádka"
+                "mužstvo"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Mannschaft"
+                "die Crew"
               ]
             },
             "meaning": {
               "purple": [
-                "tým"
+                "posádka"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Besetzung"
               ]
             },
-            "example": {
-              "red": [
-                "Mannschaft"
+            "meaning": {
+              "purple": [
+                "obsazení"
               ]
             }
           }
         ],
-        "tip": {},
-        "important": {
-          "blue": [
-            "Besatzung"
-          ],
-          "red": [
-            "Mannschaft"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -2516,18 +3671,168 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-beschraenken",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Omezit se na",
-      "rektion": "Auf + ko?",
-      "explanation": "Sich beschränken se pojí s předložkou auf + 4. pád (Akkusativ): sich auf das Wesentliche beschränken.",
-      "forms": "Auf + ko?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich beschränken auf je zvratné sloveso, které znamená omezit se na něco, dělat jen určitou část a nepřekračovat ji. Po auf následuje akuzativ: sich auf etwas beschränken.",
+        "Tvary: beschränkt sich, beschränkte sich, hat sich beschränkt. Předpona be- je neodlučitelná, proto se netvoří ge-.",
+        "Bez sich znamená beschränken omezit někoho nebo něco jiného: die Zahl beschränken. O věcech, které se na něco omezují, se používá sich beschränken auf: Das Problem beschränkt sich auf …"
+      ],
+      "examples": [
+        {
+          "de": "Ich beschränke mich auf das Wichtigste.",
+          "lv": "Omezuji se na to nejdůležitější."
+        },
+        {
+          "de": "Der Redner beschränkte sich auf drei Punkte.",
+          "lv": "Řečník se omezil na tři body."
+        },
+        {
+          "de": "Wir müssen uns auf das Nötigste beschränken.",
+          "lv": "Musíme se omezit na to nejnutnější."
+        },
+        {
+          "de": "Das Problem beschränkt sich nicht auf Deutschland.",
+          "lv": "Problém se neomezuje jen na Německo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "begrenzen",
+          "meaning": "omezit",
+          "example": "Wir begrenzen die Zahl der Gäste. – Omezujeme počet hostů."
+        },
+        {
+          "word": "sich begnügen mit",
+          "meaning": "spokojit se s",
+          "example": "Er begnügt sich mit wenig. – Spokojí se s málem."
+        },
+        {
+          "word": "einschränken",
+          "meaning": "omezit, snížit",
+          "example": "Ich muss meinen Verbrauch einschränken. – Musím omezit svou spotřebu."
+        }
+      ],
+      "tip": [
+        "Po auf použij akuzativ: auf das Wesentliche, auf drei Punkte.",
+        "Ve větě často následuje jen, nur: Ich beschränke mich nur auf …"
+      ],
+      "important": [
+        "Pozor na předložku: sich beschränken auf, nikoli mit.",
+        "Sich beschränken není totéž co sich begnügen: první vyjadřuje omezení sebe sama, druhé spokojení se s málem."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich beschränken"
+            "sich beschränken",
+            "beschränkt sich",
+            "beschränkte sich",
+            "beschränkt"
+          ],
+          "purple": [
+            "omezit se",
+            "omezit"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "beschränke",
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Omezuji se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränkte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "omezil"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "omezit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränkt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neomezuje"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "begrenzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "omezit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich begnügen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spokojit se s"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einschränken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "omezit"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -2551,43 +3856,63 @@ const B2_WORDS = [
       "id": "b2-besessen",
       "layout": "standardStudy",
       "translation": "Posedlý • Okouzlený • Uchvácený",
-      "explanation": "Hlavní myšlenka: besessen znamená posedlý něčím. Besessen se používá s von. Může jít o ďábla, myšlenku nebo ctižádost: něco člověka zcela ovládne.",
+      "explanation": [
+        "Hlavní myšlenka: besessen je přídavné jméno (od besitzen), které znamená posedlý, okouzlený nebo uchvácený: člověk je myšlenkou či citem natolik zcela ovládnut, že to převládá nad jeho myšlením. Po besessen následuje von + dativ: besessen von etwas.",
+        "Používá se i o fanatickém zaujetí: von der Arbeit besessen sein, wie besessen arbeiten (pracovat jako posedlý).",
+        "Pozor: besessen je také příčestí od besitzen (vlastnit): Er hat ein Haus besessen. To je jiné užití; tato karta je o přídavném jménu posedlý."
+      ],
       "examples": [
         {
-          "de": "Er ist vom Teufel besessen.",
-          "lv": "Je posedlý ďáblem."
+          "de": "Er ist besessen von seiner Arbeit.",
+          "lv": "Je posedlý svou prací."
         },
         {
-          "de": "Er ist von dieser Idee besessen.",
-          "lv": "Je posedlý touto myšlenkou."
+          "de": "Sie ist von der Idee besessen, berühmt zu werden.",
+          "lv": "Je posedlá myšlenkou, že se stane slavnou."
         },
         {
-          "de": "Sie ist vom Ehrgeiz besessen.",
-          "lv": "Je posedlá ctižádostí."
+          "de": "Der Mann wirkte wie vom Teufel besessen.",
+          "lv": "Muž vypadal jako posedlý ďáblem."
+        },
+        {
+          "de": "Er arbeitet wie besessen.",
+          "lv": "Pracuje jako posedlý."
         }
       ],
       "comparison": [
         {
-          "word": "besessen",
-          "meaning": "Posedlý, Okouzlený, Uchvácený",
-          "example": "Er ist vom Teufel besessen. = Je posedlý ďáblem."
-        },
-        {
           "word": "besitzen",
           "meaning": "vlastnit",
-          "example": "Er besitzt ein Haus. = Vlastní dům."
+          "example": "Er besitzt ein Haus. – Vlastní dům."
+        },
+        {
+          "word": "fanatisch",
+          "meaning": "fanatický",
+          "example": "Er ist ein fanatischer Fan. – Je to fanatický fanoušek."
+        },
+        {
+          "word": "besetzt",
+          "meaning": "obsazený",
+          "example": "Der Platz ist besetzt. – Místo je obsazené."
         }
       ],
-      "tip": "Když něco člověka ovládne, mysli na besessen von.",
-      "important": "Besessen je příčestí od besitzen, ale ve všedním užití znamená posedlý.",
+      "tip": [
+        "Typická spojení: besessen von einer Idee, besessen von Macht, wie besessen.",
+        "V pozitivním významu může jít i o zapálení pro věc: ein besessener Sammler (zapálený sběratel)."
+      ],
+      "important": [
+        "Po besessen následuje von + dativ: besessen von der Arbeit.",
+        "Nepleť si besessen s besetzt: besetzt je obsazený (Der Platz ist besetzt)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "besessen"
           ],
           "purple": [
-            "Posedlý",
-            "posedlý"
+            "posedlý",
+            "okouzlený",
+            "uchvácený"
           ]
         },
         "examples": [
@@ -2611,6 +3936,18 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
+                "posedlá"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
                 "posedlý"
               ]
             }
@@ -2623,34 +3960,12 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "posedlá"
+                "posedlý"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "besessen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Posedlý",
-                "Okouzlený",
-                "Uchvácený"
-              ]
-            },
-            "example": {
-              "blue": [
-                "besessen"
-              ],
-              "purple": [
-                "posedlý"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -2661,27 +3976,41 @@ const B2_WORDS = [
               "purple": [
                 "vlastnit"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fanatisch"
+              ]
             },
-            "example": {
-              "red": [
-                "besitzt"
+            "meaning": {
+              "purple": [
+                "fanatický"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besetzt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obsazený"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "besessen"
-          ]
-        },
-        "important": {
-          "blue": [
-            "besessen"
-          ],
-          "red": [
-            "besitzen"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -2750,21 +4079,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-betaetigen",
-      "layout": "minimalStudy",
-      "translation": "Provozovat • Účastnit se",
-      "rektion": "In + kur?",
-      "explanation": "Sich betätigen se pojí s předložkou in + 3. pád (Dativ) nebo s als: sich in der Politik betätigen, sich als Helfer betätigen.",
-      "forms": "In + kur?",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Působit • Účastnit se",
+      "explanation": [
+        "Hlavní myšlenka: sich betätigen je zvratné sloveso, které znamená působit, být činný v nějaké oblasti nebo se účastnit nějaké činnosti. Často se používá s als nebo s příslovcem: sich sportlich betätigen, sich politisch betätigen.",
+        "Tvary: betätigt sich, betätigte sich, hat sich betätigt. Předpona be- je neodlučitelná, proto se netvoří ge-.",
+        "Bez zvratného zájmena znamená betätigen uvést v činnost: einen Schalter betätigen (stisknout vypínač), die Bremse betätigen (použít brzdu)."
+      ],
+      "examples": [
+        {
+          "de": "Er betätigt sich als Helfer im Verein.",
+          "lv": "Působí ve spolku jako pomocník."
+        },
+        {
+          "de": "Sie betätigt sich gern sportlich.",
+          "lv": "Ráda je sportovně činná."
+        },
+        {
+          "de": "Rentner können sich ehrenamtlich betätigen.",
+          "lv": "Důchodci mohou působit dobrovolně."
+        },
+        {
+          "de": "Wer hat den Notschalter betätigt?",
+          "lv": "Kdo stiskl nouzový vypínač?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beschäftigen",
+          "meaning": "zabývat se",
+          "example": "Er beschäftigt sich mit Musik. – Zabývá se hudbou."
+        },
+        {
+          "word": "teilnehmen",
+          "meaning": "účastnit se",
+          "example": "Sie nimmt am Kurs teil. – Účastní se kurzu."
+        },
+        {
+          "word": "mitmachen",
+          "meaning": "zapojit se (hovorově)",
+          "example": "Machst du mit? – Zapojíš se?"
+        }
+      ],
+      "tip": [
+        "Přidej příslovce, abys určil oblast: politisch, kreativ, ehrenamtlich, sportlich.",
+        "Ve významu působit jako někdo se používá als: sich als Künstler betätigen."
+      ],
+      "important": [
+        "Nezapomeň na sich: bez něj betätigen znamená uvést v činnost, nikoli působit.",
+        "Sich betätigen není totéž co arbeiten: vyjadřuje aktivní zapojení, nejen placenou práci."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich betätigen"
+            "sich betätigen",
+            "betätigt sich",
+            "betätigte sich",
+            "betätigt",
+            "betätigen"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "působit",
+            "účastnit",
+            "uvést v činnost"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "betätigt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Působí"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "činná"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "působit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stiskl"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beschäftigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zabývat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "teilnehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "účastnit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mitmachen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zapojit se"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -3616,45 +5093,66 @@ const B2_WORDS = [
       "id": "b2-darstellung",
       "layout": "standardStudy",
       "translation": "Ztvárnění • Zobrazení • Výklad",
-      "explanation": "Hlavní myšlenka: Darstellung znamená ztvárnění, zobrazení nebo výklad. U herce jde o ztvárnění, u krajiny zobrazení, u událostí výklad.",
+      "explanation": [
+        "Hlavní myšlenka: die Darstellung je podstatné jméno rodu ženského, odvozené od slovesa darstellen. Znamená zobrazení nebo výklad něčeho a také ztvárnění: to, co člověk řekne, napíše, nakreslí nebo zahraje.",
+        "Množné číslo je die Darstellungen. Významy: výklad (popis událostí slovy), zobrazení (na výkresu, ve schématu: grafische Darstellung), ztvárnění (herecké pojetí role).",
+        "Časté spojení: eine Darstellung geben (podat výklad), die Darstellung der Ereignisse (líčení událostí), die grafische Darstellung (grafické zobrazení)."
+      ],
       "examples": [
         {
-          "de": "Die Darstellung der Hauptfigur war überzeugend.",
-          "lv": "Ztvárnění hlavního hrdiny bylo přesvědčivé."
+          "de": "Die Darstellung des Unfalls war sehr genau.",
+          "lv": "Výklad nehody byl velmi přesný."
         },
         {
-          "de": "Eine Darstellung der Landschaft.",
-          "lv": "Zobrazení krajiny."
+          "de": "Die Zeitung gibt eine einseitige Darstellung der Ereignisse.",
+          "lv": "Noviny podávají jednostranný výklad událostí."
         },
         {
-          "de": "Eine klare Darstellung der Ereignisse.",
-          "lv": "Jasný výklad událostí."
+          "de": "Die Darstellung des Hamlet durch den jungen Schauspieler war beeindruckend.",
+          "lv": "Ztvárnění Hamleta mladým hercem bylo působivé."
+        },
+        {
+          "de": "Die grafische Darstellung zeigt die Entwicklung der Preise.",
+          "lv": "Grafické zobrazení ukazuje vývoj cen."
         }
       ],
       "comparison": [
         {
-          "word": "Darstellung",
-          "meaning": "Ztvárnění, Zobrazení, Výklad",
-          "example": "Die Darstellung der Hauptfigur war überzeugend. = Ztvárnění hlavního hrdiny bylo přesvědčivé."
+          "word": "die Beschreibung",
+          "meaning": "popis",
+          "example": "Die Beschreibung ist genau. – Popis je přesný."
         },
         {
-          "word": "Vorstellung",
-          "meaning": "představa",
-          "example": "Ich habe eine klare Vorstellung. = Mám jasnou představu."
+          "word": "der Bericht",
+          "meaning": "zpráva, hlášení",
+          "example": "Der Bericht ist kurz. – Zpráva je krátká."
+        },
+        {
+          "word": "die Schilderung",
+          "meaning": "líčení",
+          "example": "Seine Schilderung war lebendig. – Jeho líčení bylo živé."
         }
       ],
-      "tip": "Dívej se, co se zobrazuje (darstellen): role, krajina nebo události.",
-      "important": "Darstellung není totéž co Vorstellung (představa, představení).",
+      "tip": [
+        "Za Darstellung často následuje von nebo genitiv: die Darstellung des Problems, die Darstellung von Daten.",
+        "Pro diagram nebo schéma se říká grafische Darstellung."
+      ],
+      "important": [
+        "Darstellung není totéž co Beschreibung: Beschreibung je popis slovy, kdežto Darstellung může být i výkres, schéma nebo ztvárnění role.",
+        "Die Darstellung je rodu ženského, v množném čísle die Darstellungen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Darstellung"
+            "die Darstellung",
+            "Darstellung",
+            "Darstellungen",
+            "darstellen"
           ],
           "purple": [
-            "Ztvárnění",
-            "Zobrazení",
-            "Výklad",
-            "výklad"
+            "zobrazení",
+            "výklad",
+            "ztvárnění"
           ]
         },
         "examples": [
@@ -3666,19 +5164,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ztvárnění"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Darstellung"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Zobrazení"
+                "Výklad"
               ]
             }
           },
@@ -3693,58 +5179,78 @@ const B2_WORDS = [
                 "výklad"
               ]
             }
-          }
-        ],
-        "comparison": [
+          },
           {
-            "word": {
-              "green": [
-                "Darstellung"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Ztvárnění",
-                "Zobrazení",
-                "Výklad"
-              ]
-            },
-            "example": {
+            "de": {
               "blue": [
                 "Darstellung"
-              ],
+              ]
+            },
+            "lv": {
               "purple": [
                 "Ztvárnění"
               ]
             }
           },
           {
-            "word": {
-              "green": [
-                "Vorstellung"
+            "de": {
+              "blue": [
+                "Darstellung"
               ]
             },
-            "meaning": {
+            "lv": {
               "purple": [
-                "představa"
-              ]
-            },
-            "example": {
-              "red": [
-                "Vorstellung"
+                "zobrazení"
               ]
             }
           }
         ],
-        "tip": {},
-        "important": {
-          "blue": [
-            "Darstellung"
-          ],
-          "red": [
-            "Vorstellung"
-          ]
-        }
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Beschreibung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "popis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Bericht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zpráva"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schilderung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "líčení"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -3762,51 +5268,79 @@ const B2_WORDS = [
       "id": "b2-dasjenige",
       "layout": "standardStudy",
       "translation": "To",
-      "explanation": "Hlavní myšlenka: dasjenige je ukazovací zájmeno: to (, co). Dasjenige ve středním rodě zastupuje podstatné jméno a obvykle následuje vedlejší věta s das.",
+      "explanation": [
+        "Hlavní myšlenka: dasjenige je ukazovací zájmeno středního rodu, které znamená ten, který nebo to, co. Odkazuje na něco, co je dále upřesněno vztažnou větou: dasjenige, was/das …",
+        "Slovo se skloňuje: dasjenige (nominativ, akuzativ), desjenigen (genitiv), demjenigen (dativ). V mužském rodě je derjenige, v ženském diejenige, v množném čísle diejenigen. Skloňují se obě části (das + jenige).",
+        "Slovo je formální a častější v psaném textu; v mluvené řeči se obvykle říká das nebo das, was."
+      ],
       "examples": [
         {
-          "de": "Ich nehme dasjenige, das mir gefällt.",
-          "lv": "Vezmu si to, co se mi líbí."
+          "de": "Dasjenige, was er sagte, war richtig.",
+          "lv": "To, co řekl, bylo správné."
         },
         {
-          "de": "Von diesen Bildern gefällt mir dasjenige, das am Fenster hängt.",
-          "lv": "Z těchto obrazů se mi líbí ten, který visí u okna."
+          "de": "Ich nehme dasjenige Buch, das auf dem Tisch liegt.",
+          "lv": "Vezmu si tu knihu, která leží na stole."
+        },
+        {
+          "de": "Dasjenige Kind, das zuerst fertig ist, bekommt einen Preis.",
+          "lv": "To dítě, které bude hotové první, dostane cenu."
+        },
+        {
+          "de": "Mit demjenigen Auto, das du gekauft hast, bin ich zufrieden.",
+          "lv": "S tím autem, které jsi koupil, jsem spokojený."
         }
       ],
       "comparison": [
         {
-          "word": "dasjenige",
-          "meaning": "To",
-          "example": "Ich nehme dasjenige, das mir gefällt. = Vezmu si to, co se mi líbí."
+          "word": "derjenige / diejenige",
+          "meaning": "ten, ta",
+          "example": "Derjenige, der kommt, bekommt Kuchen. – Ten, kdo přijde, dostane koláč."
         },
         {
-          "word": "derjenige",
-          "meaning": "ten (m.)",
-          "example": "Derjenige, der kommt, bekommt einen Preis. = Ten, kdo přijde, dostane cenu."
+          "word": "das, was",
+          "meaning": "to, co",
+          "example": "Ich verstehe das, was du sagst. – Rozumím tomu, co říkáš."
+        },
+        {
+          "word": "dieses",
+          "meaning": "tento",
+          "example": "Dieses Buch gefällt mir. – Tato kniha se mi líbí."
         }
       ],
-      "tip": "Když následuje vedlejší věta s das, mysli na dasjenige.",
-      "important": "Dasjenige se používá jen pro střední rod.",
+      "tip": [
+        "Po dasjenige očekávej vztažnou větu s das nebo was; ve větě je lze nahradit jednodušším das.",
+        "Skloňují se obě části: mit demjenigen Auto, nikoli mit dasjenige."
+      ],
+      "important": [
+        "Dasjenige se bez vedlejší věty obvykle neužívá.",
+        "Nepleť si to s dieses (tento): dasjenige odkazuje na to, co je vzápětí upřesněno."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dasjenige"
+            "dasjenige",
+            "demjenigen",
+            "desjenigen",
+            "derjenige",
+            "diejenige",
+            "diejenigen"
           ],
           "purple": [
-            "To",
-            "to"
+            "ten, který",
+            "to, co"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "dasjenige"
+                "Dasjenige"
               ]
             },
             "lv": {
               "purple": [
-                "to"
+                "To, co"
               ]
             }
           },
@@ -3818,7 +5352,31 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ten"
+                "tu knihu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "To dítě"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "demjenigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "S tím autem"
               ]
             }
           }
@@ -3827,18 +5385,22 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "dasjenige"
+                "derjenige / diejenige"
               ]
             },
             "meaning": {
               "purple": [
-                "To"
+                "ten"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das, was"
               ]
             },
-            "example": {
-              "blue": [
-                "dasjenige"
-              ],
+            "meaning": {
               "purple": [
                 "to"
               ]
@@ -3847,31 +5409,24 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "derjenige"
+                "dieses"
               ]
             },
             "meaning": {
               "purple": [
-                "ten (m.)"
-              ]
-            },
-            "example": {
-              "red": [
-                "Derjenige"
+                "tento"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "dasjenige"
-          ]
-        },
-        "important": {
-          "blue": [
-            "dasjenige"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4165,39 +5720,62 @@ const B2_WORDS = [
       "id": "b2-dingen",
       "layout": "standardStudy",
       "translation": "Najmout • Sjednat",
-      "explanation": "Hlavní myšlenka: dingen znamená najmout nebo sjednat k práci. Dingen je staré, knižní slovo. Znamená domluvit se na práci nebo službě za odměnu.",
+      "explanation": [
+        "Hlavní myšlenka: dingen je řídké, zastaralé sloveso, které znamená najmout, sjednat si (člověka za odměnu k určité práci). Dnes je slyšet hlavně ve výrazu ein gedungener Mörder (najatý vrah) a v historických textech.",
+        "Tvary: dingt, dang, hat gedungen (existuje i pravidelný tvar dingte, gedingt). Typicky se najímají Söldner, Mörder, Führer. V běžné řeči se říká anheuern nebo engagieren.",
+        "Po dingen následuje akuzativ: jemanden dingen."
+      ],
       "examples": [
         {
-          "de": "Der Bauer dingte einen Arbeiter.",
-          "lv": "Rolník najal dělníka."
+          "de": "Der Graf dingte Söldner für den Krieg.",
+          "lv": "Hrabě najal žoldnéře do války."
         },
         {
-          "de": "Wir dingten einen Bergführer.",
-          "lv": "Sjednali jsme horského vůdce."
+          "de": "Sie dangen einen Führer für die Reise.",
+          "lv": "Najali si na cestu průvodce."
+        },
+        {
+          "de": "Die Polizei sucht einen gedungenen Mörder.",
+          "lv": "Policie hledá najatého vraha."
         }
       ],
       "comparison": [
         {
-          "word": "dingen",
-          "meaning": "Najmout, Sjednat",
-          "example": "Der Bauer dingte einen Arbeiter. = Rolník najal dělníka."
+          "word": "anheuern",
+          "meaning": "najmout (hovorově)",
+          "example": "Sie heuern einen Fahrer an. – Najímají řidiče."
         },
         {
-          "word": "anheuern",
-          "meaning": "najmout",
-          "example": "Der Kapitän heuert Matrosen an. = Kapitán najímá námořníky."
+          "word": "engagieren",
+          "meaning": "angažovat, najmout",
+          "example": "Wir engagieren einen Musiker. – Angažujeme hudebníka."
+        },
+        {
+          "word": "mieten",
+          "meaning": "pronajmout si",
+          "example": "Er mietet ein Auto. – Pronajímá si auto."
         }
       ],
-      "tip": "Když je někdo najímán k práci, mysli na dingen.",
-      "important": "Dingen se dnes používá zřídka; v běžné řeči se říká einstellen nebo anheuern.",
+      "tip": [
+        "Nejčastěji uvidíš frázi ein gedungener Mörder; jinak je slovo řídké.",
+        "V živé řeči dej přednost anheuern (najmout) nebo engagieren."
+      ],
+      "important": [
+        "Dingen je literární nebo historické slovo; v běžné řeči by znělo zvláštně.",
+        "Tvary kolísají (dang/gedungen a dingte/gedingt); základní je silný tvar."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dingen"
+            "dingen",
+            "dingte",
+            "dang",
+            "gedungen",
+            "gedungener"
           ],
           "purple": [
-            "Najmout",
-            "Sjednat"
+            "najmout",
+            "najatý"
           ]
         },
         "examples": [
@@ -4216,38 +5794,29 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "dingten"
+                "dangen"
               ]
             },
             "lv": {
               "purple": [
-                "Sjednali"
+                "Najali"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gedungenen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "najatého"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "dingen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Najmout",
-                "Sjednat"
-              ]
-            },
-            "example": {
-              "blue": [
-                "dingte"
-              ],
-              "purple": [
-                "najal"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -4258,28 +5827,41 @@ const B2_WORDS = [
               "purple": [
                 "najmout"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "engagieren"
+              ]
             },
-            "example": {
-              "red": [
-                "heuert",
-                "an"
+            "meaning": {
+              "purple": [
+                "angažovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pronajmout si"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "dingen"
-          ]
-        },
-        "important": {
-          "blue": [
-            "dingen"
-          ],
-          "red": [
-            "anheuern"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4358,47 +5940,67 @@ const B2_WORDS = [
       "id": "b2-donnern",
       "layout": "standardStudy",
       "translation": "Hřmět • Rachotit • Dunět",
-      "explanation": "Hlavní myšlenka: donnern význam určuje věta: hřmí, rachotí nebo duní. Es donnert znamená hřmí. U dopravy nebo děl donnern znamená rachotit nebo dunět.",
+      "explanation": [
+        "Hlavní myšlenka: donnern znamená hřmět, rachotit, dunět: o hromu (es donnert, hřmí), o hlučném zvuku těžké dopravy (vlak, nákladní auto, dělostřelectvo) nebo o hlasitém hlasu.",
+        "Tvary: donnert, donnerte, hat gedonnert. U hromu se používá neosobní es: Es donnert. Popisuje-li sloveso pohyb s hlukem, používá se v perfektu sein: Der Zug ist über die Brücke gedonnert.",
+        "V přeneseném významu donnern znamená hlasitě křičet: Der Chef donnerte los."
+      ],
       "examples": [
         {
-          "de": "Es donnert.",
-          "lv": "Hřmí."
+          "de": "Es blitzt und donnert.",
+          "lv": "Blýská se a hřmí."
         },
         {
-          "de": "Ein Lastwagen donnert über die Brücke.",
-          "lv": "Nákladní auto rachotí přes most."
+          "de": "Der Zug donnert über die Brücke.",
+          "lv": "Vlak duní přes most."
         },
         {
-          "de": "Die Kanonen donnern.",
-          "lv": "Děla duní."
+          "de": "Die Lastwagen donnerten über die Straße.",
+          "lv": "Nákladní auta rachotila ulicí."
+        },
+        {
+          "de": "Der Chef donnerte: „Raus hier!“",
+          "lv": "Šéf zahřměl: „Ven odsud!“"
         }
       ],
       "comparison": [
         {
-          "word": "donnern",
-          "meaning": "Hřmět, Rachotit, Dunět",
-          "example": "Es donnert. = Hřmí."
+          "word": "grollen",
+          "meaning": "dunět (z dálky)",
+          "example": "In der Ferne grollt es. – V dálce hluchě duní."
         },
         {
-          "word": "Donner",
-          "meaning": "hrom",
-          "example": "Ich höre den Donner. = Slyším hrom."
+          "word": "krachen",
+          "meaning": "praskat",
+          "example": "Das Eis kracht unter den Füßen. – Led praská pod nohama."
+        },
+        {
+          "word": "rumpeln",
+          "meaning": "drkotat, rachotit",
+          "example": "Der Wagen rumpelt über die Steine. – Vůz drkotá přes kameny."
         }
       ],
-      "tip": "Když je Es donnert, překládej hřmí.",
-      "important": "Donnern není totéž co Donner (hrom jako podstatné jméno).",
+      "tip": [
+        "Pro hrom se říká Es donnert, pro blesk Es blitzt.",
+        "Jde-li o hluk a pohyb, může mít donnern sein: ist gedonnert."
+      ],
+      "important": [
+        "Hrom: es donnert s hat gedonnert, nikoli s ist.",
+        "Donnern není jen o hromu: může jít i o těžká vozidla nebo rozzlobený hlas."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "donnern",
-            "donnert"
+            "donnert",
+            "donnerte",
+            "gedonnert",
+            "Es donnert"
           ],
           "purple": [
-            "Rachotit",
-            "Dunět",
-            "Hřmí",
-            "rachotí",
-            "duní"
+            "hřmět",
+            "rachotit",
+            "dunět"
           ]
         },
         "examples": [
@@ -4410,7 +6012,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hřmí"
+                "hřmí"
               ]
             }
           },
@@ -4422,19 +6024,31 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "rachotí"
+                "duní"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "donnern"
+                "donnerten"
               ]
             },
             "lv": {
               "purple": [
-                "duní"
+                "rachotila"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnerte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zahřměl"
               ]
             }
           }
@@ -4443,59 +6057,48 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "donnern"
+                "grollen"
               ]
             },
             "meaning": {
               "purple": [
-                "Hřmět",
-                "Rachotit",
-                "Dunět"
-              ]
-            },
-            "example": {
-              "blue": [
-                "donnert"
-              ],
-              "purple": [
-                "Hřmí"
+                "dunět"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Donner"
+                "krachen"
               ]
             },
             "meaning": {
               "purple": [
-                "hrom"
+                "praskat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "rumpeln"
               ]
             },
-            "example": {
-              "red": [
-                "Donner"
+            "meaning": {
+              "purple": [
+                "drkotat"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "donnert"
-          ],
-          "purple": [
-            "Hřmí"
-          ]
-        },
-        "important": {
-          "blue": [
-            "donnern"
-          ],
-          "red": [
-            "Donner"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4842,63 +6445,83 @@ const B2_WORDS = [
       "id": "b2-dunst",
       "layout": "standardStudy",
       "translation": "Pára • Výpar • Zplodiny • Dusno • Mlha • Opar",
-      "explanation": "Hlavní myšlenka: Dunst je pára, výpar nebo opar, podle věty. Může jít o páru z hrnce, výpary nad vodou, páru v kuchyni, dusno, mlhu nebo opar v horách.",
+      "explanation": [
+        "Hlavní myšlenka: der Dunst je podstatné jméno rodu mužského. Znamená páru, zamlžený vzduch nebo výpary: lehký opar, který činí vzduch kalným, nebo pach a výpary.",
+        "Množné číslo je die Dünste (s přehláskou) a používá se řídce, hlavně o výparech: giftige Dünste. V jednotném čísle se der Dunst často vztahuje na opar nad městem, jezerem nebo údolím.",
+        "Výraz keinen blassen Dunst von etwas haben znamená, že člověk nemá ani ponětí."
+      ],
       "examples": [
         {
-          "de": "Warmer Dunst steigt aus dem Topf.",
-          "lv": "Z hrnce stoupá teplá pára."
+          "de": "Über dem See lag ein feiner Dunst.",
+          "lv": "Nad jezerem ležel jemný opar."
         },
         {
-          "de": "Über dem heißen Wasser steigt Dunst auf.",
-          "lv": "Nad horkou vodou stoupají výpary."
+          "de": "In der Küche hing der Dunst von gebratenem Fleisch.",
+          "lv": "V kuchyni visela pára z pečeného masa."
         },
         {
-          "de": "Die Küche ist voller Dunst.",
-          "lv": "Kuchyně je plná páry."
+          "de": "Giftige Dünste stiegen aus dem Fass auf.",
+          "lv": "Z sudu stoupaly jedovaté výpary."
         },
         {
-          "de": "Stickiger Dunst hängt im Raum.",
-          "lv": "V místnosti je dusno."
-        },
-        {
-          "de": "Am Morgen liegt Dunst über dem See.",
-          "lv": "Ráno je nad jezerem mlha."
-        },
-        {
-          "de": "Die Berge verschwinden im Dunst.",
-          "lv": "Hory mizí v oparu."
+          "de": "Ich habe keinen blassen Dunst davon.",
+          "lv": "Nemám o tom ani ponětí."
         }
       ],
       "comparison": [
         {
-          "word": "Dunst",
-          "meaning": "Pára, Výpar, Zplodiny",
-          "example": "Warmer Dunst steigt aus dem Topf. = Z hrnce stoupá teplá pára."
+          "word": "der Nebel",
+          "meaning": "mlha",
+          "example": "Im Herbst gibt es oft Nebel. – Na podzim bývá často mlha."
         },
         {
-          "word": "Nebel",
-          "meaning": "mlha",
-          "example": "Am Morgen liegt Nebel über dem See. = Ráno je nad jezerem mlha."
+          "word": "der Dampf",
+          "meaning": "pára (horká)",
+          "example": "Dampf steigt aus dem Topf auf. – Z hrnce stoupá pára."
+        },
+        {
+          "word": "der Rauch",
+          "meaning": "kouř",
+          "example": "Rauch steigt aus dem Schornstein auf. – Z komína stoupá kouř."
         }
       ],
-      "tip": "Dívej se, kde je Dunst: v kuchyni (pára), venku (mlha, opar).",
-      "important": "Dunst není totéž co Nebel (mlha).",
+      "tip": [
+        "Dunst se používá, když je vzduch zamlžený nebo cítit výpary; pro hustou mlhu se říká Nebel.",
+        "Výraz keinen blassen Dunst haben je hovorový; používej ho v neformální řeči."
+      ],
+      "important": [
+        "Der Dunst není totéž co Dampf: Dampf je horká pára, Dunst je lehký opar nebo výpary.",
+        "Množné číslo die Dünste má přehlásku a používá se řídce."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Dunst"
+            "der Dunst",
+            "die Dünste",
+            "Dunst",
+            "Dünste",
+            "keinen blassen Dunst"
           ],
           "purple": [
-            "Pára",
-            "Výpar",
-            "Dusno",
-            "Opar",
-            "pára",
+            "opar",
+            "páru",
             "výpary",
-            "dusno"
+            "ani ponětí"
           ]
         },
         "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "opar"
+              ]
+            }
+          },
           {
             "de": {
               "blue": [
@@ -4914,7 +6537,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "Dunst"
+                "Dünste"
               ]
             },
             "lv": {
@@ -4931,43 +6554,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "páry"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Dunst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "dusno"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Dunst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mlha"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Dunst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "oparu"
+                "ani ponětí"
               ]
             }
           }
@@ -4976,20 +6563,22 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "Dunst"
+                "der Nebel"
               ]
             },
             "meaning": {
               "purple": [
-                "Pára",
-                "Výpar",
-                "Zplodiny"
+                "mlha"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Dampf"
               ]
             },
-            "example": {
-              "blue": [
-                "Dunst"
-              ],
+            "meaning": {
               "purple": [
                 "pára"
               ]
@@ -4998,41 +6587,24 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "Nebel"
+                "der Rauch"
               ]
             },
             "meaning": {
               "purple": [
-                "mlha"
-              ]
-            },
-            "example": {
-              "red": [
-                "Nebel"
+                "kouř"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Dunst"
-          ],
-          "purple": [
-            "Pára",
-            "Mlha",
-            "Opar",
-            "pára",
-            "mlha"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Dunst"
-          ],
-          "red": [
-            "Nebel"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -5408,66 +6980,70 @@ const B2_WORDS = [
       "id": "b2-eigenwillig",
       "layout": "standardStudy",
       "translation": "Svévolný • Umíněný • Tvrdohlavý • Svéhlavý",
-      "explanation": "Hlavní myšlenka: eigenwillig popisuje člověka nebo jednání, které se řídí vlastní vůlí. Podle věty může jít o svévolný, umíněný, tvrdohlavý nebo svéhlavý. Ve všech významech člověk neposlouchá ostatní.",
+      "explanation": [
+        "Hlavní myšlenka: eigenwillig je přídavné jméno, které popisuje člověka nebo věc s vlastní vůlí a stylem. Znamená svéhlavý, umíněný nebo tvrdohlavý, ale často také svérázný, originální, nenásledující ostatní.",
+        "O člověku obvykle znamená umíněný, plný vlastní vůle: ein eigenwilliges Kind. O stylu, interpretaci nebo vkusu znamená svérázný: ein eigenwilliger Stil, eine eigenwillige Interpretation.",
+        "Slovo je složeno z eigen (vlastní) a Wille (vůle), proto ho lze chápat jako mající vlastní vůli."
+      ],
       "examples": [
         {
-          "de": "Das war eine eigenwillige Entscheidung des Direktors.",
-          "lv": "To bylo svévolné rozhodnutí ředitele."
+          "de": "Sie ist ein eigenwilliges Kind.",
+          "lv": "Je to svéhlavé dítě."
         },
         {
-          "de": "Ein eigenwilliges Kind hört nicht auf seine Eltern.",
-          "lv": "Umíněné dítě neposlouchá rodiče."
+          "de": "Er hat eine eigenwillige Art, Probleme zu lösen.",
+          "lv": "Má svérázný způsob řešení problémů."
         },
         {
-          "de": "Er ist eigenwillig und gibt nicht nach.",
-          "lv": "Je tvrdohlavý a nepovolí."
+          "de": "Der Künstler ist für seinen eigenwilligen Stil bekannt.",
+          "lv": "Umělec je známý svým svérázným stylem."
         },
         {
-          "de": "Der Chef ist eigenwillig und setzt immer seinen Willen durch.",
-          "lv": "Šéf je svéhlavý a vždy prosadí svou."
+          "de": "Der alte Mann bleibt eigenwillig und lässt sich nichts sagen.",
+          "lv": "Starý muž zůstává umíněný a nenechá si nic říct."
         }
       ],
       "comparison": [
         {
-          "word": "eigenwillig",
-          "meaning": "Svévolný, Umíněný, Tvrdohlavý",
-          "example": "Das war eine eigenwillige Entscheidung des Direktors. = To bylo svévolné rozhodnutí ředitele."
+          "word": "eigensinnig",
+          "meaning": "umíněný",
+          "example": "Das Kind ist eigensinnig. – Dítě je umíněné."
         },
         {
           "word": "stur",
           "meaning": "tvrdohlavý",
-          "example": "Er ist stur. = Je tvrdohlavý."
+          "example": "Er bleibt stur bei seiner Meinung. – Tvrdohlavě trvá na svém názoru."
+        },
+        {
+          "word": "originell",
+          "meaning": "originální",
+          "example": "Das ist eine originelle Idee. – To je originální nápad."
         }
       ],
-      "tip": "Když člověk dělá po svém a nepovolí, mysli na eigenwillig.",
-      "important": "Eigenwillig často znamená tvrdohlavý, ne originální nebo zvláštní.",
+      "tip": [
+        "Význam určuje kontext: dítě nebo starý člověk je spíš umíněný, styl nebo nápad je spíš svérázný.",
+        "Slovo má koncovky jako všechna přídavná jména: ein eigenwilliger Mensch."
+      ],
+      "important": [
+        "Eigenwillig není totéž co willkürlich (svévolný ve smyslu libovolný, bez pravidel): popisuje vlastní vůli a styl člověka.",
+        "Slovo může být kritické i uznalé; záleží na větě."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "eigenwillig"
+            "eigenwillig",
+            "eigenwilliges",
+            "eigenwilliger",
+            "eigenwillige"
           ],
           "purple": [
-            "Svévolný",
-            "Umíněný",
-            "Tvrdohlavý",
-            "Svéhlavý",
+            "svéhlavý",
+            "umíněný",
             "tvrdohlavý",
-            "svéhlavý"
+            "svérázný"
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "eigenwillige"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "svévolné"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -5476,7 +7052,31 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Umíněné"
+                "svéhlavé"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "svérázný"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwilligen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "svérázným"
               ]
             }
           },
@@ -5488,19 +7088,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tvrdohlavý"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "eigenwillig"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "svéhlavý"
+                "umíněný"
               ]
             }
           }
@@ -5509,22 +7097,12 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "eigenwillig"
+                "eigensinnig"
               ]
             },
             "meaning": {
               "purple": [
-                "Svévolný",
-                "Umíněný",
-                "Tvrdohlavý"
-              ]
-            },
-            "example": {
-              "blue": [
-                "eigenwillige"
-              ],
-              "purple": [
-                "svévolné"
+                "umíněný"
               ]
             }
           },
@@ -5538,24 +7116,29 @@ const B2_WORDS = [
               "purple": [
                 "tvrdohlavý"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "originell"
+              ]
             },
-            "example": {
-              "red": [
-                "stur"
+            "meaning": {
+              "purple": [
+                "originální"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "eigenwillig"
-          ]
-        },
-        "important": {
-          "blue": [
-            "eigenwillig"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -5772,18 +7355,161 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-einlassen",
-      "layout": "minimalStudy",
-      "translation": "Vpustit dovnitř",
-      "rektion": "Auf + ko?",
-      "explanation": "Sich einlassen se pojí s předložkou auf + 4. pád (Akkusativ): sich auf ein Abenteuer einlassen.",
-      "forms": "Auf + ko?",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Pouštět se do",
+      "explanation": [
+        "Hlavní myšlenka: sich einlassen je odlučitelné zvratné sloveso, které znamená pustit se do něčeho, zaplést se do obchodu nebo vztahu, často rizikového. Používá se s auf + akuzativ (sich auf etwas einlassen) nebo s mit + dativ (sich mit jemandem einlassen).",
+        "Tvary: lässt sich ein, ließ sich ein, hat sich eingelassen. Předpona ein- se odlučuje: Ich lasse mich darauf nicht ein.",
+        "Bez zvratného zájmena znamená einlassen vpustit: jemanden einlassen (vpustit někoho do místnosti)."
+      ],
+      "examples": [
+        {
+          "de": "Ich lasse mich auf das Risiko nicht ein.",
+          "lv": "Do rizika se nepustím."
+        },
+        {
+          "de": "Auf solche Geschäfte sollte man sich nicht einlassen.",
+          "lv": "Do takových obchodů by se člověk neměl pouštět."
+        },
+        {
+          "de": "Sie hat sich mit dem Falschen eingelassen.",
+          "lv": "Zapletla se s nesprávným člověkem."
+        },
+        {
+          "de": "Er ließ sich auf eine Diskussion ein.",
+          "lv": "Pustil se do diskuse."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beteiligen an",
+          "meaning": "účastnit se",
+          "example": "Er beteiligt sich an der Diskussion. – Účastní se diskuse."
+        },
+        {
+          "word": "sich engagieren",
+          "meaning": "angažovat se",
+          "example": "Sie engagiert sich für den Umweltschutz. – Angažuje se v ochraně životního prostředí."
+        },
+        {
+          "word": "eingehen auf",
+          "meaning": "přistoupit na",
+          "example": "Er geht auf den Vorschlag ein. – Přistupuje na návrh."
+        }
+      ],
+      "tip": [
+        "Po auf použij akuzativ: auf ein Abenteuer, auf einen Kompromiss. Po mit dativ: mit jemandem.",
+        "Často se záporem: Darauf lasse ich mich nicht ein (Do toho se nepustím)."
+      ],
+      "important": [
+        "Sich einlassen mit jemandem často zní kriticky, jako by vztah byl nežádoucí.",
+        "Nepleť si to s einlassen bez sich: to znamená vpustit."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einlassen"
+            "einlassen",
+            "lässt",
+            "ließ",
+            "eingelassen",
+            "lasse"
+          ],
+          "purple": [
+            "pustit se",
+            "vpustit"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "lasse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einlassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pouštět"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingelassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zapletla se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ließ"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pustil se"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beteiligen an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "účastnit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich engagieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "angažovat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eingehen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "přistoupit na"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -5818,21 +7544,167 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-einpraegen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Zapamatovat si",
-      "rektion": "In + ko?",
-      "explanation": "Sich einprägen se obvykle používá bez pevné předložky: sich etwas einprägen = něco si zapamatovat.",
-      "forms": "In + ko?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich einprägen znamená zapamatovat si, vštípit si dobře do paměti. Obvykle se používá se zvratným zájmenem v dativu a předmětem v akuzativu: Ich präge mir die Nummer ein.",
+        "Tvary: prägt sich ein, prägte sich ein, hat sich eingeprägt. Předpona ein- se odlučuje: Ich präge mir das ein. V perfektu se ge- vkládá mezi ein- a sloveso.",
+        "Když se něco samo vryje do paměti, je sich v akuzativu: Das Bild hat sich mir eingeprägt (obraz se mi vryl do paměti)."
+      ],
+      "examples": [
+        {
+          "de": "Ich präge mir die Telefonnummer ein.",
+          "lv": "Zapamatuji si telefonní číslo."
+        },
+        {
+          "de": "Prägt euch diese Regel gut ein!",
+          "lv": "Dobře si zapamatujte toto pravidlo!"
+        },
+        {
+          "de": "Das Bild hat sich mir tief eingeprägt.",
+          "lv": "Ten obraz se mi hluboce vryl do paměti."
+        },
+        {
+          "de": "Diesen Namen sollte man sich einprägen.",
+          "lv": "Toto jméno by si člověk měl zapamatovat."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "auswendig lernen",
+          "meaning": "naučit se zpaměti",
+          "example": "Wir lernen das Gedicht auswendig. – Učíme se báseň zpaměti."
+        },
+        {
+          "word": "sich merken",
+          "meaning": "pamatovat si, všimnout si",
+          "example": "Merk dir das! – Zapamatuj si to!"
+        },
+        {
+          "word": "behalten",
+          "meaning": "uchovat v paměti",
+          "example": "Ich habe den Namen behalten. – Jméno jsem si uchoval v paměti."
+        }
+      ],
+      "tip": [
+        "Chceš-li se učit slovíčka, použij sich etwas einprägen nebo známější sich merken.",
+        "Zvratné zájmeno v dativu stojí za slovesem: mir, dir, sich, uns, euch."
+      ],
+      "important": [
+        "Zapamatuje-li si člověk něco sám, je zájmeno v dativu (mir, dir); vryje-li se něco do paměti, je sich v akuzativu a osoba v dativu (mir).",
+        "Perfektum je hat sich eingeprägt (s haben)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einprägen"
+            "einprägen",
+            "präge",
+            "prägt",
+            "prägte",
+            "eingeprägt"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "zapamatovat si",
+            "vštípit",
+            "vryl"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "präge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zapamatuji si"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prägt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zapamatujte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeprägt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vryl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einprägen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zapamatovat"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "auswendig lernen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "naučit se zpaměti"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich merken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pamatovat si"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uchovat v paměti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -5852,21 +7724,145 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-einschleichen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Vplížit se • Vplížit se",
-      "rektion": "In + ko?",
-      "explanation": "Sich einschleichen se pojí s předložkou in + 4. pád (Akkusativ): sich in ein Haus einschleichen.",
-      "forms": "In + ko?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich einschleichen znamená nepozorovaně, tajně se někam dostat (vplížit se), nebo o chybě, pochybnostech apod. – nepozorovaně se objevit (vkrást se).",
+        "Odlučitelná předpona: ich schleiche mich ein, schlich mich ein, habe mich eingeschlichen. Místo, kam se někdo vplíží, se uvádí předložkou in + akuzativ (in das Haus, ins Haus). V perfektu se používá hat, protože sloveso je zvratné."
+      ],
+      "examples": [
+        {
+          "de": "Der Dieb schleicht sich nachts ins Haus ein.",
+          "lv": "Zloděj se v noci vplížil do domu."
+        },
+        {
+          "de": "Ein Fehler hat sich in den Text eingeschlichen.",
+          "lv": "Do textu se vloudila chyba."
+        },
+        {
+          "de": "Er hat sich unbemerkt in den Saal eingeschlichen.",
+          "lv": "Nepozorovaně se vplížil do sálu."
+        },
+        {
+          "de": "Mit der Zeit schlichen sich Zweifel ein.",
+          "lv": "Časem se vkradly pochybnosti."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schleichen",
+          "meaning": "plížit se",
+          "example": "Die Katze schleicht durch den Garten. – Kočka se plíží zahradou."
+        },
+        {
+          "word": "eindringen",
+          "meaning": "vniknout",
+          "example": "Der Täter ist in die Wohnung eingedrungen. – Pachatel vnikl do bytu."
+        }
+      ],
+      "tip": [
+        "O chybách a pochybnostech se často říká: Ein Fehler hat sich eingeschlichen – vloudila se chyba.",
+        "Pamatuj na oddělení předpony: Er schleicht sich ein, ale Er hat sich eingeschlichen."
+      ],
+      "important": [
+        "Nezaměňuj se schleichen (plížit se, jít tiše): sich einschleichen vždy znamená dostat se někam.",
+        "Po in je místo v akuzativu, pokud vyjadřuje směr: sich in den Raum einschleichen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einschleichen"
+            "sich einschleichen",
+            "schleiche mich ein"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "vplížit se",
+            "vkrást se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schleicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vplížil"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeschlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vloudila"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeschlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vplížil"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vkradly"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schleichen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "plížit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eindringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vniknout"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -5883,18 +7879,167 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-einschraenken",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Omezit se",
-      "rektion": "Auf + ko?",
-      "explanation": "Sich einschränken se pojí s předložkou auf + 4. pád (Akkusativ): sich auf das Nötigste einschränken.",
-      "forms": "Auf + ko?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich einschränken znamená omezit se – utrácet, jíst nebo žít skromněji než obvykle, případně se omezit na něco konkrétního.",
+        "Tvary: ich schränke mich ein, schränkte mich ein, habe mich eingeschränkt. Předložka auf + akuzativ určuje, na co se někdo omezuje: sich auf das Nötigste einschränken. Bez doplnění často znamená šetřit na výdajích.",
+        "Bez sich je sloveso einschränken přechodné: etwas einschränken – omezit něco (dopravu, práva)."
+      ],
+      "examples": [
+        {
+          "de": "Wir müssen uns finanziell einschränken.",
+          "lv": "Musíme se finančně omezit."
+        },
+        {
+          "de": "Er schränkt sich auf das Nötigste ein.",
+          "lv": "Omezuje se na to nejnutnější."
+        },
+        {
+          "de": "Nach der Entlassung musste sich die Familie stark einschränken.",
+          "lv": "Po propuštění se musela rodina silně omezit."
+        },
+        {
+          "de": "Sie schränkt sich beim Essen ein, um abzunehmen.",
+          "lv": "Omezuje se v jídle, aby zhubla."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "einschränken",
+          "meaning": "omezit",
+          "example": "Die Stadt schränkt den Verkehr ein. – Město omezuje dopravu."
+        },
+        {
+          "word": "verzichten",
+          "meaning": "vzdát se",
+          "example": "Er verzichtet auf Zucker. – Vzdává se cukru."
+        },
+        {
+          "word": "sparen",
+          "meaning": "šetřit",
+          "example": "Wir sparen Strom. – Šetříme elektřinou."
+        }
+      ],
+      "tip": [
+        "Chceš-li říct, že začínáš šetřit, použij sich einschränken bez doplnění.",
+        "Pomocí auf + akuzativ uvedeš, na co se omezuješ."
+      ],
+      "important": [
+        "Odlučitelná předpona ein-: Ich schränke mich ein, nikoli Ich einschränke mich.",
+        "Nezaměňuj zvratné sich einschränken s přechodným einschränken (něco omezit)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einschränken"
+            "einschränken",
+            "schränke",
+            "eingeschränkt",
+            "ein"
+          ],
+          "purple": [
+            "omezit se",
+            "omezit"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "einschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "omezit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schränkt",
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Omezuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "omezit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schränkt",
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Omezuje"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "einschränken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "omezit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verzichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vzdát se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sparen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "šetřit"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6099,18 +8244,170 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-empfehlen",
-      "layout": "minimalStudy",
-      "translation": "Být doporučeno",
-      "rektion": "Zu + kam?",
-      "explanation": "Sich empfehlen se pojí s předložkou für + 4. pád (Akkusativ) nebo s als: sich für etwas empfehlen, sich als Lösung empfehlen.",
-      "forms": "Zu + kam?",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Doporučovat se • Být doporučeníhodný",
+      "explanation": [
+        "Hlavní myšlenka: sich empfehlen se v tomto významu používá téměř jen ve 3. osobě s es nebo s neurčitým podstatným jménem: es empfiehlt sich, … – doporučuje se, je vhodné něco udělat; něco je doporučeníhodné.",
+        "Tvary: empfiehlt sich, empfahl sich, hat sich empfohlen (e se mění na ie). Často následuje zu + Infinitiv nebo vedlejší věta s dass: Es empfiehlt sich, früh zu buchen.",
+        "V jiném, formálním významu znamená sich empfehlen také odejít, rozloučit se: Er empfahl sich früh."
+      ],
+      "examples": [
+        {
+          "de": "Es empfiehlt sich, früh zu buchen.",
+          "lv": "Doporučuje se rezervovat včas."
+        },
+        {
+          "de": "Bei Regen empfiehlt sich eine Jacke.",
+          "lv": "Za deště se doporučuje bunda."
+        },
+        {
+          "de": "Es empfiehlt sich, die Datei vorher zu speichern.",
+          "lv": "Doporučuje se soubor předem uložit."
+        },
+        {
+          "de": "Vor der Reise empfiehlt sich eine Impfung.",
+          "lv": "Před cestou se doporučuje očkování."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "empfehlen",
+          "meaning": "doporučit",
+          "example": "Ich empfehle dir dieses Restaurant. – Doporučuji ti tuto restauraci."
+        },
+        {
+          "word": "ratsam",
+          "meaning": "záhodno",
+          "example": "Es ist ratsam, einen Schirm mitzunehmen. – Je záhodno vzít si deštník."
+        },
+        {
+          "word": "sich verabschieden",
+          "meaning": "rozloučit se",
+          "example": "Wir verabschieden uns jetzt. – Teď se rozloučíme."
+        }
+      ],
+      "tip": [
+        "Schéma věty: Es empfiehlt sich + zu + Infinitiv – hodí se, když nechceš říkat, kdo to doporučuje.",
+        "Synonymum s jednodušší stavbou: Es ist ratsam."
+      ],
+      "important": [
+        "V tomto významu se používá téměř vždy ve 3. osobě (empfiehlt sich); tvary s ich nebo du se sem nehodí.",
+        "Nezaměňuj s empfehlen (někomu něco doporučit): Ich empfehle dir das Buch."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich empfehlen"
+            "sich empfehlen",
+            "empfiehlt sich",
+            "empfahl",
+            "empfohlen",
+            "zu"
+          ],
+          "purple": [
+            "doporučuje se",
+            "doporučeníhodné"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Doporučuje se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "doporučuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Doporučuje se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "doporučuje"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "empfehlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "doporučit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ratsam"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "záhodno"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verabschieden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozloučit se"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6130,18 +8427,160 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-empoeren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Zlobit se • Vzbouřit se",
-      "rektion": "Über + ko?",
-      "explanation": "Sich empören se pojí s předložkou über + 4. pád (Akkusativ): sich über etwas empören.",
-      "forms": "Über + ko?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich empören znamená silně se pobouřit, rozhořčeně reagovat na nespravedlnost nebo porušení pravidel (zlobit se, rozhořčit se). Méně často a knižněji také vzbouřit se proti moci (sich gegen jemanden empören).",
+        "Tvary: empört sich, empörte sich, hat sich empört. Čím je někdo pobouřen, se uvádí předložkou über + akuzativ: sich über die Lüge empören. Odpor vůči někomu se vyjadřuje předložkou gegen + akuzativ.",
+        "Odvozené přídavné jméno empört znamená pobouřený: Sie war empört."
+      ],
+      "examples": [
+        {
+          "de": "Alle empörten sich über die Entscheidung.",
+          "lv": "Všichni se rozhořčili nad rozhodnutím."
+        },
+        {
+          "de": "Sie hat sich über seine Lüge empört.",
+          "lv": "Rozhořčila se nad jeho lží."
+        },
+        {
+          "de": "Das Volk empörte sich gegen den Herrscher.",
+          "lv": "Lid se vzbouřil proti vládci."
+        },
+        {
+          "de": "Ich empöre mich über so viel Ungerechtigkeit.",
+          "lv": "Pobuřuje mě tolik nespravedlnosti."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich aufregen",
+          "meaning": "rozčilovat se",
+          "example": "Er regt sich über den Lärm auf. – Rozčiluje se kvůli hluku."
+        },
+        {
+          "word": "sich ärgern",
+          "meaning": "zlobit se",
+          "example": "Ich ärgere mich über den Stau. – Zlobím se kvůli zácpě."
+        },
+        {
+          "word": "empört",
+          "meaning": "pobouřený",
+          "example": "Sie war empört. – Byla pobouřená."
+        }
+      ],
+      "tip": [
+        "Zapamatuj si spojení sich über etwas empören (+ akuzativ).",
+        "sich empören je silnější než sich ärgern: vyjadřuje morální rozhořčení."
+      ],
+      "important": [
+        "Po über následuje akuzativ: über die Lüge, nikoli über der Lüge.",
+        "Ve významu vzbouřit se se používá gegen: sich gegen die Regierung empören."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich empören"
+            "empören",
+            "empört",
+            "empörte"
+          ],
+          "purple": [
+            "pobouřit",
+            "vzbouřit se",
+            "pobouřený"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "empörten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rozhořčili"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empört"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Rozhořčila"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empörte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vzbouřil"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empöre"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozčilovat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich ärgern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zlobit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "empört"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pobouřený"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6230,18 +8669,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-enthalten",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Zdržet se",
-      "rektion": "Von + kam?",
-      "explanation": "Sich enthalten se pojí s 2. pádem (Genitiv): sich der Stimme enthalten = zdržet se hlasování.",
-      "forms": "Von + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich enthalten znamená vědomě něčeho zdržet se – něco nedělat, nepožívat, nehlasovat. Jazyk je formální, knižní.",
+        "Následuje genitiv: sich der Stimme enthalten (zdržet se hlasování), sich jeden Kommentars enthalten. Tvary: enthält sich, enthielt sich, hat sich enthalten.",
+        "Bez sich znamená sloveso enthalten obsahovat: Das Getränk enthält Zucker."
+      ],
+      "examples": [
+        {
+          "de": "Bei der Abstimmung enthielten sich zwei Abgeordnete der Stimme.",
+          "lv": "Při hlasování se dva poslanci zdrželi hlasu."
+        },
+        {
+          "de": "Ich enthalte mich jedes Kommentars.",
+          "lv": "Zdržuji se jakéhokoli komentáře."
+        },
+        {
+          "de": "Sie hat sich des Alkohols enthalten.",
+          "lv": "Zdržela se alkoholu."
+        },
+        {
+          "de": "Er konnte sich kaum des Lachens enthalten.",
+          "lv": "Stěží se dokázal zdržet smíchu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "enthalten",
+          "meaning": "obsahovat",
+          "example": "Das Getränk enthält Zucker. – Nápoj obsahuje cukr."
+        },
+        {
+          "word": "verzichten",
+          "meaning": "vzdát se",
+          "example": "Er verzichtet auf Fleisch. – Vzdává se masa."
+        },
+        {
+          "word": "sich zurückhalten",
+          "meaning": "držet se zpátky",
+          "example": "Er hält sich bei Diskussionen zurück. – V diskusích se drží zpátky."
+        }
+      ],
+      "tip": [
+        "Znej obrat sich der Stimme enthalten – je to typická hlasovací fráze.",
+        "V běžné řeči se často říká jednodušeji: Ich verzichte auf …"
+      ],
+      "important": [
+        "Po sich enthalten následuje genitiv, nikoli předložka: sich des Alkohols enthalten.",
+        "Nezaměňuj s enthalten bez sich – to znamená obsahovat."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich enthalten"
+            "sich enthalten",
+            "enthalten",
+            "enthält"
+          ],
+          "purple": [
+            "zdržet se",
+            "obsahovat"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "enthielten",
+                "sich",
+                "Stimme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zdrželi"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "enthalte",
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zdržuji"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "enthalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zdržela"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "enthalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zdržet"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "enthalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obsahovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verzichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vzdát se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zurückhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "držet se zpátky"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6276,18 +8866,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-entledigen",
-      "layout": "minimalStudy",
-      "translation": "Zbavit se • Zbavit se",
-      "rektion": "+ 2. pád (genitiv)",
-      "explanation": "Sich entledigen se v moderní němčině používá s 2. pádem (Genitiv) bez předložky.",
-      "forms": "+ 2. pád (genitiv)",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Zbavit se • Oprostit se od",
+      "explanation": [
+        "Hlavní myšlenka: sich entledigen znamená zbavit se něčeho nežádoucího – oděvu, dluhů, povinnosti, zbraně. Slovo je formální a knižní.",
+        "Následuje genitiv: sich seines Mantels entledigen. Tvary: entledigt sich, entledigte sich, hat sich entledigt. V běžné řeči se častěji používá etwas loswerden.",
+        "Česky: zbavit se, oprostit se od něčeho; o oblečení – svléknout si, odložit."
+      ],
+      "examples": [
+        {
+          "de": "Er entledigte sich seines nassen Mantels.",
+          "lv": "Svlékl si svůj mokrý kabát."
+        },
+        {
+          "de": "Die Firma hat sich ihrer Schulden entledigt.",
+          "lv": "Firma se zbavila svých dluhů."
+        },
+        {
+          "de": "Sie wollte sich der lästigen Pflicht entledigen.",
+          "lv": "Chtěla se zbavit obtížné povinnosti."
+        },
+        {
+          "de": "Die Täter entledigten sich der Waffe.",
+          "lv": "Pachatelé se zbavili zbraně."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "loswerden",
+          "meaning": "zbavit se",
+          "example": "Ich werde die Erkältung nicht los. – Nemohu se zbavit nachlazení."
+        },
+        {
+          "word": "sich befreien",
+          "meaning": "osvobodit se",
+          "example": "Er befreit sich von den Fesseln. – Osvobozuje se z pout."
+        },
+        {
+          "word": "wegwerfen",
+          "meaning": "vyhodit",
+          "example": "Ich werfe alte Zeitungen weg. – Vyhazuji staré noviny."
+        }
+      ],
+      "tip": [
+        "V běžné řeči říkej etwas loswerden; sich entledigen zůstává pro úřední nebo literární styl.",
+        "Pamatuj na genitiv: sich der Sorgen entledigen."
+      ],
+      "important": [
+        "Po sich entledigen nestojí předložka, jen genitiv.",
+        "Slovo je formální; v hovorové řeči zní příliš vznešeně."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entledigen"
+            "sich entledigen",
+            "entledigte",
+            "entledigt",
+            "entledigen"
+          ],
+          "purple": [
+            "zbavit se",
+            "oprostit se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entledigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Svlékl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "entledigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zbavila"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "entledigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zbavit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entledigten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zbavili"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "loswerden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zbavit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich befreien"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "osvobodit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wegwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vyhodit"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6312,18 +9053,164 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-entruesten",
-      "layout": "minimalStudy",
-      "translation": "Zlobit se • Vzbouřit se",
-      "rektion": "Über + ko?",
-      "explanation": "Sich entrüsten se pojí s předložkou über + 4. pád (Akkusativ): sich über etwas entrüsten.",
-      "forms": "Über + ko?",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Rozhořčit se • Pobouřit se",
+      "explanation": [
+        "Hlavní myšlenka: sich entrüsten znamená rozhořčit se, vyjádřit silné rozhořčení nad nějakým činem nebo slovy. Jde o morální, emocionální pobouření.",
+        "Důvod rozhořčení se uvádí předložkou über + akuzativ: sich über die Frechheit entrüsten. Tvary: entrüstet sich, entrüstete sich, hat sich entrüstet. Přídavné jméno entrüstet znamená pobouřený.",
+        "Slovo je blízké slovesu sich empören, ale v běžné řeči je řidší a knižnější."
+      ],
+      "examples": [
+        {
+          "de": "Die Zuschauer entrüsteten sich über den Schiedsrichter.",
+          "lv": "Diváci se rozhořčili nad rozhodčím."
+        },
+        {
+          "de": "Sie entrüstete sich über die Frechheit.",
+          "lv": "Rozhořčila se nad drzostí."
+        },
+        {
+          "de": "Warum entrüstest du dich so?",
+          "lv": "Proč se tak rozhořčuješ?"
+        },
+        {
+          "de": "Viele haben sich über den Bericht entrüstet.",
+          "lv": "Mnozí se nad zprávou pobouřili."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich empören",
+          "meaning": "pobouřit se",
+          "example": "Wir empören uns über die Ungerechtigkeit. – Nespravedlnost nás pobuřuje."
+        },
+        {
+          "word": "sich aufregen",
+          "meaning": "rozčilovat se",
+          "example": "Reg dich nicht auf! – Nerozčiluj se!"
+        },
+        {
+          "word": "entrüstet",
+          "meaning": "rozhořčený",
+          "example": "Er sah mich entrüstet an. – Podíval se na mě rozhořčeně."
+        }
+      ],
+      "tip": [
+        "Zapamatuj si celé spojení: sich über etwas entrüsten (+ akuzativ).",
+        "Přídavné jméno entrüstet se často používá se sein nebo se slovesy: entrüstet reagieren."
+      ],
+      "important": [
+        "Po über následuje akuzativ.",
+        "V běžné řeči uslyšíš častěji sich aufregen nebo sich ärgern."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entrüsten"
+            "sich entrüsten",
+            "entrüstete sich"
+          ],
+          "purple": [
+            "rozhořčit se",
+            "rozhořčení",
+            "pobouřený"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entrüsteten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rozhořčili"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Rozhořčila"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstest"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rozhořčuješ"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pobouřili"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich empören"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pobouřit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozčilovat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "entrüstet"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozhořčený"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6343,18 +9230,165 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-entsinnen",
-      "layout": "minimalStudy",
-      "translation": "Pamatovat • Pamatovat si",
-      "rektion": "+ 2. pád (genitiv)",
-      "explanation": "Sich entsinnen se v moderní němčině používá s 2. pádem (Genitiv) bez předložky, například: Ich entsinne mich eines Fehlers.",
-      "forms": "+ 2. pád (genitiv)",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Vzpomenout si • Rozpomenout se",
+      "explanation": [
+        "Hlavní myšlenka: sich entsinnen znamená vzpomenout si, rozpomenout se na něco z minulosti. Slovo je knižní a trochu zastaralé.",
+        "Obvykle následuje genitiv (sich seiner entsinnen, sich der Worte entsinnen), dnes také an + akuzativ. Častá fráze: Soviel ich mich entsinne, … – pokud si vzpomínám, … Tvary: entsinnt sich, entsann sich, hat sich entsonnen."
+      ],
+      "examples": [
+        {
+          "de": "Ich entsinne mich seiner gut.",
+          "lv": "Dobře si ho pamatuji."
+        },
+        {
+          "de": "Kannst du dich an den Namen entsinnen?",
+          "lv": "Vzpomeneš si na to jméno?"
+        },
+        {
+          "de": "Sie entsann sich der Worte ihrer Mutter.",
+          "lv": "Rozpomněla se na slova své matky."
+        },
+        {
+          "de": "Soviel ich mich entsinne, war es ein Montag.",
+          "lv": "Pokud si vzpomínám, bylo to v pondělí."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich erinnern",
+          "meaning": "vzpomínat",
+          "example": "Ich erinnere mich an den Urlaub. – Vzpomínám si na dovolenou."
+        },
+        {
+          "word": "gedenken",
+          "meaning": "připomínat si",
+          "example": "Wir gedenken der Opfer. – Připomínáme si oběti."
+        },
+        {
+          "word": "vergessen",
+          "meaning": "zapomenout",
+          "example": "Ich habe seinen Namen vergessen. – Zapomněl jsem jeho jméno."
+        }
+      ],
+      "tip": [
+        "V běžné řeči se používá sich erinnern an + akuzativ; sich entsinnen zůstává pro psaný a vyšší styl.",
+        "Hotová fráze: Soviel ich mich entsinne."
+      ],
+      "important": [
+        "Tvary jsou neobvyklé: entsann, hat sich entsonnen.",
+        "Nezaměňuj sich entsinnen (vzpomenout si) s gedenken (připomínat si)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entsinnen"
+            "entsinnen",
+            "entsinne",
+            "entsann",
+            "entsonnen"
+          ],
+          "purple": [
+            "vzpomenout si",
+            "rozpomenout se",
+            "pokud si vzpomínám"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entsinne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pamatuji"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsinnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Vzpomeneš si"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Rozpomněla se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsinne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "si vzpomínám"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich erinnern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vzpomínat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gedenken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "připomínat si"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zapomenout"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6469,18 +9503,163 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-erbarmen",
-      "layout": "minimalStudy",
-      "translation": "Smilovat se • Smilovat se",
-      "rektion": "Über + ko?",
-      "explanation": "Sich erbarmen se nejčastěji pojí s 2. pádem (Genitiv): sich der Armen erbarmen; vzácněji s über + 4. pád (Akkusativ).",
-      "forms": "Über + ko?",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Smilovat se • Slitovat se",
+      "explanation": [
+        "Hlavní myšlenka: sich erbarmen znamená cítit soucit s trpícím a pomoci mu, smilovat se nad ním nebo se nad ním slitovat. Jazyk je vznešený, často náboženský nebo ironický.",
+        "Obvykle následuje genitiv: sich des Hundes erbarmen. Řidčeji se používá über + akuzativ. Tvary: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "V hovorové řeči žertovně: Wer erbarmt sich und …? – Kdo se slituje a …?"
+      ],
+      "examples": [
+        {
+          "de": "Der Richter erbarmte sich des Angeklagten.",
+          "lv": "Soudce se smiloval nad obžalovaným."
+        },
+        {
+          "de": "Erbarme dich meiner!",
+          "lv": "Smiluj se nade mnou!"
+        },
+        {
+          "de": "Endlich erbarmte sich jemand des hungrigen Hundes.",
+          "lv": "Konečně se někdo slitoval nad hladovým psem."
+        },
+        {
+          "de": "Wer erbarmt sich und holt mir einen Kaffee?",
+          "lv": "Kdo se slituje a přinese mi kávu?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "begnadigen",
+          "meaning": "omilostnit",
+          "example": "Der Präsident begnadigt den Häftling. – Prezident omilostňuje vězně."
+        },
+        {
+          "word": "Mitleid haben",
+          "meaning": "mít soucit",
+          "example": "Ich habe Mitleid mit ihr. – Je mi jí líto."
+        },
+        {
+          "word": "helfen",
+          "meaning": "pomáhat",
+          "example": "Er hilft dem Nachbarn. – Pomáhá sousedovi."
+        }
+      ],
+      "tip": [
+        "Po sich erbarmen použij genitiv: sich der Kinder erbarmen.",
+        "Typická prosba: Herr, erbarme dich!"
+      ],
+      "important": [
+        "Slovo je stylově vznešené; v běžné řeči se říká Mitleid haben nebo helfen.",
+        "Nezaměňuj s begnadigen (právně omilostnit, například odsouzeného)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erbarmen"
+            "sich erbarmen",
+            "erbarmt"
+          ],
+          "purple": [
+            "smilovat",
+            "slitovat"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erbarmte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "smiloval"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Erbarme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Smiluj se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erbarmte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "slitoval"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erbarmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "slituje"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "begnadigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "omilostnit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Mitleid haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mít soucit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pomáhat"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6559,18 +9738,182 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-ergeben",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Vyústit • Vzdát se",
-      "rektion": "Aus + kam?",
-      "explanation": "Sich ergeben ve významu vyplynout se pojí s aus + 3. pád (Dativ): Daraus ergibt sich ein Problem. Ve významu vzdát se: sich dem Feind ergeben.",
-      "forms": "Aus + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich ergeben má dva významy. S aus + dativ znamená vyplynout, vyústit, vzniknout jako důsledek: Aus dem Test ergibt sich ein Problem. Se samotným dativem znamená vzdát se, podrobit se: sich dem Feind ergeben.",
+        "Tvary: ergibt sich, ergab sich, hat sich ergeben. Ve významu vyplynout je podmětem obvykle věc (es, ein Problem, eine Chance), proto je sloveso ve 3. osobě.",
+        "Ve významu vzdát se je podmětem člověk: sich ergeben, sich in sein Schicksal ergeben (smířit se s osudem)."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem Gespräch ergab sich ein neues Projekt.",
+          "lv": "Z rozhovoru vyplynul nový projekt."
+        },
+        {
+          "de": "Daraus ergibt sich ein Problem.",
+          "lv": "Z toho vyplývá problém."
+        },
+        {
+          "de": "Die Soldaten ergaben sich dem Feind.",
+          "lv": "Vojáci se vzdali nepříteli."
+        },
+        {
+          "de": "Er hat sich in sein Schicksal ergeben.",
+          "lv": "Smířil se se svým osudem."
+        },
+        {
+          "de": "Ergib dich!",
+          "lv": "Vzdej se!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ergeben",
+          "meaning": "dávat výsledek",
+          "example": "Die Rechnung ergibt 50 Euro. – Součet dává 50 eur."
+        },
+        {
+          "word": "folgen",
+          "meaning": "vyplývat",
+          "example": "Daraus folgt nichts. – Z toho nic nevyplývá."
+        },
+        {
+          "word": "aufgeben",
+          "meaning": "vzdát se",
+          "example": "Er gibt nicht auf. – Nevzdává se."
+        }
+      ],
+      "tip": [
+        "Pro význam vyplynout si zapamatuj Daraus ergibt sich, dass … – z toho vyplývá, že …",
+        "Jde-li o podrobení se, často následuje dativ: sich dem Willen ergeben."
+      ],
+      "important": [
+        "Nezaměňuj s ergeben bez sich: to znamená dávat výsledek (Das ergibt Sinn).",
+        "Význam obvykle určuje podmět: věc – vyplývá, člověk – vzdává se."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich ergeben"
+            "ergeben",
+            "ergibt",
+            "ergab"
+          ],
+          "purple": [
+            "vyplynout",
+            "vyústit",
+            "vzdát se",
+            "smířit se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ergab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vyplynul"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergibt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vyplývá"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergaben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vzdali"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergeben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Smířil"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ergib"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Vzdej se"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ergeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dávat výsledek"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "folgen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vyplývat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufgeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vzdát se"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6681,18 +10024,165 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-erniedrigen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Pokořit se",
-      "rektion": "Vor + kam?",
-      "explanation": "Sich erniedrigen se často pojí s vor + 3. pád (Dativ): sich vor jemandem erniedrigen.",
-      "forms": "Vor + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich erniedrigen znamená pokořit se, ponížit se, jednat tak, že člověk ztrácí důstojnost – například žebrat nebo se před někým plazit.",
+        "Před kým se někdo ponižuje, se uvádí předložkou vor + dativ: sich vor dem Chef erniedrigen. Tvary: erniedrigt sich, erniedrigte sich, hat sich erniedrigt.",
+        "Bez sich znamená sloveso erniedrigen ponížit někoho jiného: Er erniedrigt seine Kollegen."
+      ],
+      "examples": [
+        {
+          "de": "Ich erniedrige mich nicht vor dem Chef.",
+          "lv": "Před šéfem se nepokořím."
+        },
+        {
+          "de": "Er hat sich erniedrigt, um Geld zu bitten.",
+          "lv": "Ponížil se tím, že prosil o peníze."
+        },
+        {
+          "de": "Sie erniedrigte sich nie vor anderen.",
+          "lv": "Nikdy se před jinými neponížila."
+        },
+        {
+          "de": "So tief würde ich mich nicht erniedrigen.",
+          "lv": "Tak hluboko bych se neponížil."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "demütigen",
+          "meaning": "ponižovat",
+          "example": "Er demütigt seinen Gegner vor allen. – Ponižuje svého protivníka před všemi."
+        },
+        {
+          "word": "sich unterwerfen",
+          "meaning": "podrobit se",
+          "example": "Er unterwirft sich dem Willen des Königs. – Podrobuje se vůli krále."
+        },
+        {
+          "word": "sich blamieren",
+          "meaning": "zesměšnit se",
+          "example": "Er hat sich vor allen blamiert. – Před všemi se zesměšnil."
+        }
+      ],
+      "tip": [
+        "Pomocí vor + dativ uvedeš, před kým se někdo ponižuje.",
+        "Rozlišuj: sich erniedrigen – ponižuje sám sebe; jemanden erniedrigen – ponižuje někoho jiného."
+      ],
+      "important": [
+        "Po vor následuje dativ: vor dem Chef, vor anderen.",
+        "Pasivní tvar erniedrigt werden znamená být ponižován."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erniedrigen"
+            "erniedrigen",
+            "erniedrigt",
+            "erniedrigte"
+          ],
+          "purple": [
+            "pokořit se",
+            "ponížit se",
+            "ponížit"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erniedrige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nepokořím"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ponížil se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neponížila"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neponížil"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "demütigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ponižovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich unterwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podrobit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich blamieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zesměšnit se"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6731,18 +10221,165 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-erregen",
-      "layout": "minimalStudy",
-      "translation": "Starat se o",
-      "rektion": "Über + ko?",
-      "explanation": "Sich erregen se pojí s předložkou über + 4. pád (Akkusativ): sich über etwas erregen.",
-      "forms": "Über + ko?",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Rozčilovat se kvůli • Znepokojovat se kvůli",
+      "explanation": [
+        "Hlavní myšlenka: sich erregen znamená rozčilovat se, znepokojovat se kvůli něčemu – emocionálně reagovat, často v hněvu. Důvod se uvádí předložkou über + akuzativ: sich über die Kosten erregen.",
+        "Tvary: erregt sich, erregte sich, hat sich erregt. V běžné řeči se v tomto významu častěji říká sich aufregen; sich erregen je knižnější.",
+        "Bez sich znamená sloveso erregen vzbuzovat: Aufmerksamkeit erregen – vzbuzovat pozornost."
+      ],
+      "examples": [
+        {
+          "de": "Er erregt sich über jede Kleinigkeit.",
+          "lv": "Rozčiluje se kvůli každé maličkosti."
+        },
+        {
+          "de": "Warum erregst du dich so über die Nachricht?",
+          "lv": "Proč se kvůli té zprávě tak rozčiluješ?"
+        },
+        {
+          "de": "Sie erregte sich über die ungerechte Note.",
+          "lv": "Rozčilovala se kvůli nespravedlivé známce."
+        },
+        {
+          "de": "Das Publikum hat sich über den Skandal erregt.",
+          "lv": "Publikum se kvůli skandálu pobouřilo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich aufregen",
+          "meaning": "rozčilovat se",
+          "example": "Er regt sich über den Lärm auf. – Rozčiluje se kvůli hluku."
+        },
+        {
+          "word": "erregen",
+          "meaning": "vzbuzovat",
+          "example": "Das Bild erregt Aufsehen. – Obraz vzbuzuje rozruch."
+        },
+        {
+          "word": "sich beruhigen",
+          "meaning": "uklidnit se",
+          "example": "Beruhige dich! – Uklidni se!"
+        }
+      ],
+      "tip": [
+        "V běžné řeči říkej Reg dich nicht auf!, v textu můžeš zvolit sich erregen.",
+        "Příčinu obvykle uvádíš předložkou über + akuzativ."
+      ],
+      "important": [
+        "Nezaměňuj s erregen (vzbuzovat, vzrušovat) bez sich.",
+        "Po über následuje akuzativ: über die Nachricht."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erregen"
+            "erregen",
+            "erregt",
+            "erregte"
+          ],
+          "purple": [
+            "rozčilovat se",
+            "znepokojovat se",
+            "vzbuzovat"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erregt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Rozčiluje se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rozčiluješ"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Rozčilovala"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pobouřilo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rozčilovat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vzbuzovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beruhigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uklidnit se"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6870,21 +10507,170 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-erweisen",
-      "layout": "minimalStudy",
-      "translation": "Ukázat být",
-      "rektion": "Als + kas?",
-      "explanation": "Sich erweisen se pojí s als: Das erweist sich als richtig.",
-      "forms": "Als + kas?",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Ukázat se jako • Prokázat se jako",
+      "explanation": [
+        "Hlavní myšlenka: sich erweisen als znamená ukázat se jako něco, prokázat se jako – časem se ukáže, jaký člověk nebo jaká věc ve skutečnosti je. Slovo po als stojí ve stejném pádě jako podmět, obvykle v nominativu: Das erwies sich als Fehler.",
+        "Tvary: erweist sich, erwies sich, hat sich erwiesen. Často se používá ve 3. osobě s věcí, ale může být i s osobou: Er erwies sich als zuverlässig.",
+        "Konstrukce je blízká výrazu sich herausstellen als; sich erweisen je o něco formálnější."
+      ],
+      "examples": [
+        {
+          "de": "Das Medikament erwies sich als sehr wirksam.",
+          "lv": "Lék se ukázal jako velmi účinný."
+        },
+        {
+          "de": "Er hat sich als zuverlässiger Partner erwiesen.",
+          "lv": "Prokázal se jako spolehlivý partner."
+        },
+        {
+          "de": "Die Information erwies sich als falsch.",
+          "lv": "Informace se ukázala jako nepravdivá."
+        },
+        {
+          "de": "Der Plan wird sich als Erfolg erweisen.",
+          "lv": "Plán se ukáže jako úspěšný."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich herausstellen",
+          "meaning": "ukázat se",
+          "example": "Es stellte sich heraus, dass er recht hatte. – Ukázalo se, že měl pravdu."
+        },
+        {
+          "word": "scheinen",
+          "meaning": "zdát se",
+          "example": "Das scheint richtig zu sein. – To se zdá správné."
+        },
+        {
+          "word": "beweisen",
+          "meaning": "dokázat",
+          "example": "Er beweist seinen Mut. – Dokazuje svou odvahu."
+        }
+      ],
+      "tip": [
+        "Používej schéma sich als + přídavné jméno / podstatné jméno erweisen.",
+        "Po als nestojí člen, je-li tam jen přídavné jméno: als wirksam."
+      ],
+      "important": [
+        "Podstatné jméno po als stojí obvykle ve stejném pádě jako podmět: Er erwies sich als guter Freund.",
+        "Nezaměňuj s erweisen bez sich (prokázat, projevit): einen Dienst erweisen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erweisen"
+            "sich erweisen",
+            "erwies",
+            "erweist",
+            "erwiesen",
+            "erweisen"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "ukázat se jako",
+            "prokázat se jako"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erwies",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ukázal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "erwiesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Prokázal se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erwies",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ukázala"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "erweisen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ukáže"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich herausstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ukázat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "scheinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zdát se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beweisen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dokázat"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7176,18 +10962,163 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-fassen",
-      "layout": "minimalStudy",
-      "translation": "Zmocnit se • Přijmout • Zadržet",
-      "rektion": "An + kam?",
-      "explanation": "Sich fassen se obvykle používá bez předložky: Fass dich! = Vzchop se!",
-      "forms": "An + kam?",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Vzchopit se • Sebrat se • Ovládnout se",
+      "explanation": [
+        "Hlavní myšlenka: sich fassen znamená vzchopit se, sebrat se, získat zpět klid po šoku nebo rozrušení – ovládnout se. Tvary: fasst sich, fasste sich, hat sich gefasst. Předložku nemá.",
+        "Ustálené spojení sich kurz fassen znamená vyjádřit se stručně: Fassen Sie sich bitte kurz! Bez sich znamená sloveso fassen chytit, uchopit (jemanden am Arm fassen) a také učinit rozhodnutí (einen Entschluss fassen)."
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Schock fasste sie sich schnell.",
+          "lv": "Po šoku se rychle vzchopila."
+        },
+        {
+          "de": "Fass dich kurz, ich habe wenig Zeit.",
+          "lv": "Vyjadřuj se stručně, mám málo času."
+        },
+        {
+          "de": "Er konnte sich vor Wut kaum fassen.",
+          "lv": "Vzteky se téměř nedokázal ovládnout."
+        },
+        {
+          "de": "Ich muss mich erst einmal fassen.",
+          "lv": "Nejdřív se musím sebrat."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fassen",
+          "meaning": "chytit",
+          "example": "Das Kind fasst die Hand der Mutter. – Dítě chytá matku za ruku."
+        },
+        {
+          "word": "sich beherrschen",
+          "meaning": "ovládat se",
+          "example": "Sie beherrscht sich trotz der Kritik. – Navzdory kritice se ovládá."
+        },
+        {
+          "word": "sich beruhigen",
+          "meaning": "uklidnit se",
+          "example": "Nach dem Streit beruhigt er sich langsam. – Po hádce se pomalu uklidňuje."
+        }
+      ],
+      "tip": [
+        "Po velké zprávě můžeš říct Ich muss mich erst fassen – musím se nejdřív sebrat.",
+        "Při žádosti o stručnost použij Fassen Sie sich kurz!"
+      ],
+      "important": [
+        "Nezaměňuj sich fassen (sebrat se) s fassen bez sich (chytit, pochopit).",
+        "Ve frázi sich kurz fassen zůstává kurz beze změny."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich fassen"
+            "sich fassen",
+            "fasst sich"
+          ],
+          "purple": [
+            "vzchopit se",
+            "sebrat se",
+            "ovládnout se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fasste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vzchopila"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stručně"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ovládnout"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sebrat"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "chytit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beherrschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ovládat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beruhigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uklidnit se"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7387,55 +11318,73 @@ const B2_WORDS = [
       "id": "b2-fleckig",
       "layout": "standardStudy",
       "translation": "Umazaný • Zašpiněný • Skvrnitý • Kropenatý • Strakatý",
-      "explanation": "Hlavní myšlenka: fleckig znamená se skvrnami nebo flíčky. U oblečení nebo ubrusu jde o umazaný nebo zašpiněný, u kůže skvrnitý, u zvířecí srsti kropenatý nebo strakatý.",
+      "explanation": [
+        "Hlavní myšlenka: fleckig je přídavné jméno, které popisuje povrch se skvrnami nebo flíčky – umazanou, zašpiněnou látku, kůži se skvrnami, strakatou či kropenatou srst zvířete.",
+        "Stupňování: fleckig, fleckiger, am fleckigsten. Používá se jak před podstatným jménem (ein fleckiges Hemd), tak po sein (Das Hemd ist fleckig). Základem je der Fleck (skvrna, flek), množné číslo die Flecken."
+      ],
       "examples": [
         {
           "de": "Die Tischdecke ist fleckig.",
           "lv": "Ubrus je umazaný."
         },
         {
-          "de": "Das Hemd ist fleckig.",
-          "lv": "Košile je zašpiněná."
+          "de": "Das Hemd ist nach dem Essen fleckig.",
+          "lv": "Košile je po jídle zašpiněná."
         },
         {
-          "de": "Die Haut ist fleckig.",
-          "lv": "Kůže je skvrnitá."
+          "de": "Seine Haut war rot und fleckig.",
+          "lv": "Jeho kůže byla červená a skvrnitá."
         },
         {
           "de": "Die Kuh hat ein fleckiges Fell.",
           "lv": "Kráva má kropenatou srst."
         },
         {
-          "de": "Das Fell des Pferdes ist fleckig.",
-          "lv": "Srst koně je strakatá."
+          "de": "Das Pferd hat ein braun-weißes, fleckiges Fell.",
+          "lv": "Kůň má hnědobílou, strakatou srst."
         }
       ],
       "comparison": [
         {
-          "word": "fleckig",
-          "meaning": "Umazaný, Zašpiněný, Skvrnitý",
-          "example": "Die Tischdecke ist fleckig. = Ubrus je umazaný."
+          "word": "gefleckt",
+          "meaning": "strakatý",
+          "example": "Der Hund ist schwarz-weiß gefleckt. – Pes je černobíle strakatý."
         },
         {
-          "word": "bunt",
-          "meaning": "barevný",
-          "example": "Das Bild ist bunt. = Obraz je barevný."
+          "word": "schmutzig",
+          "meaning": "špinavý",
+          "example": "Die Hose ist schmutzig. – Kalhoty jsou špinavé."
+        },
+        {
+          "word": "gestreift",
+          "meaning": "pruhovaný",
+          "example": "Er trägt ein gestreiftes Hemd. – Má na sobě pruhovanou košili."
         }
       ],
-      "tip": "Když jsou na povrchu skvrny, mysli na fleckig.",
-      "important": "Fleckig není totéž co bunt (barevný).",
+      "tip": [
+        "Mysli na der Fleck: fleckig je to, co má Flecken.",
+        "Přirozenou strakatost zvířat často vyjadřuje gefleckt."
+      ],
+      "important": [
+        "fleckig často vyjadřuje nežádoucí nebo nerovnoměrný vzhled (špinavé oblečení, červené skvrny na kůži).",
+        "Při skloňování nezapomeň na e: ein fleckiges Fell, eine fleckige Haut."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "fleckig"
+            "fleckig",
+            "Fleck",
+            "Flecken",
+            "fleckiges",
+            "fleckiger",
+            "fleckigsten"
           ],
           "purple": [
-            "Umazaný",
-            "Zašpiněný",
-            "Skvrnitý",
-            "Kropenatý",
-            "Strakatý",
-            "umazaný"
+            "umazanou",
+            "zašpiněnou",
+            "skvrnami",
+            "strakatou",
+            "kropenatou"
           ]
         },
         "examples": [
@@ -7490,12 +11439,12 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "fleckig"
+                "fleckiges"
               ]
             },
             "lv": {
               "purple": [
-                "strakatá"
+                "strakatou"
               ]
             }
           }
@@ -7504,56 +11453,48 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "fleckig"
+                "gefleckt"
               ]
             },
             "meaning": {
               "purple": [
-                "Umazaný",
-                "Zašpiněný",
-                "Skvrnitý"
-              ]
-            },
-            "example": {
-              "blue": [
-                "fleckig"
-              ],
-              "purple": [
-                "umazaný"
+                "strakatý"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "bunt"
+                "schmutzig"
               ]
             },
             "meaning": {
               "purple": [
-                "barevný"
+                "špinavý"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gestreift"
               ]
             },
-            "example": {
-              "red": [
-                "bunt"
+            "meaning": {
+              "purple": [
+                "pruhovaný"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "fleckig"
-          ]
-        },
-        "important": {
-          "blue": [
-            "fleckig"
-          ],
-          "red": [
-            "bunt"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7794,92 +11735,117 @@ const B2_WORDS = [
       "id": "b2-fristlos",
       "layout": "standardStudy",
       "translation": "Okamžitý • Bez výpovědní lhůty",
-      "explanation": "Hlavní myšlenka: fristlos znamená bez lhůty: okamžitý, s okamžitou platností. Fristlos se používá hlavně u výpovědi z pracovního poměru: eine fristlose Kündigung. Znamená výpověď bez výpovědní lhůty, s okamžitou platností.",
+      "explanation": [
+        "Hlavní myšlenka: fristlos znamená bez výpovědní lhůty, s okamžitou platností. Nejčastěji se říká o ukončení pracovní nebo nájemní smlouvy: eine fristlose Kündigung, jemandem fristlos kündigen.",
+        "Slovo se skládá z Frist (lhůta) + -los (bez). Je to přídavné jméno i příslovce: eine fristlose Kündigung, fristlos entlassen. Okamžitou výpověď lze obvykle dát jen z vážného důvodu (wichtiger Grund)."
+      ],
       "examples": [
         {
-          "de": "Eine fristlose Kündigung.",
-          "lv": "Výpověď s okamžitou platností."
+          "de": "Der Arbeitgeber kündigte ihm fristlos.",
+          "lv": "Zaměstnavatel mu dal výpověď bez výpovědní lhůty."
         },
         {
-          "de": "Fristlos kündigen.",
-          "lv": "Vypovědět smlouvu s okamžitou platností."
+          "de": "Die Firma hat den Mitarbeiter fristlos entlassen.",
+          "lv": "Firma zaměstnance okamžitě propustila."
+        },
+        {
+          "de": "Eine fristlose Kündigung ist nur aus wichtigem Grund möglich.",
+          "lv": "Okamžitá výpověď je možná jen z vážného důvodu."
+        },
+        {
+          "de": "Sie kündigte den Mietvertrag fristlos.",
+          "lv": "Nájemní smlouvu vypověděla bez výpovědní lhůty."
         }
       ],
       "comparison": [
         {
-          "word": "fristlos",
-          "meaning": "Okamžitý, Bez výpovědní lhůty",
-          "example": "Eine fristlose Kündigung. = Výpověď s okamžitou platností."
-        },
-        {
           "word": "sofort",
           "meaning": "okamžitě",
-          "example": "Wir beginnen sofort. = Začínáme okamžitě."
+          "example": "Komm bitte sofort! – Přijď prosím okamžitě!"
+        },
+        {
+          "word": "fristgerecht",
+          "meaning": "ve lhůtě",
+          "example": "Er kündigte fristgerecht. – Dal výpověď v řádné lhůtě."
+        },
+        {
+          "word": "kündigen",
+          "meaning": "vypovědět",
+          "example": "Sie kündigt ihre Wohnung. – Vypovídá nájem svého bytu."
         }
       ],
-      "tip": "Fristlos = ohne Frist, tedy bez lhůty.",
-      "important": "Fristlos neznamená obyčejné „rychle“; je to právní pojem u výpovědi.",
+      "tip": [
+        "Pamatuj na protiklad: fristlose Kündigung (okamžitá výpověď) × fristgerechte Kündigung (výpověď v řádné lhůtě).",
+        "Přípona -los podle vzoru: arbeitslos, sorglos, fristlos."
+      ],
+      "important": [
+        "fristlos se vztahuje na výpověď nebo propuštění, ne na každé naléhavé jednání; obecně spěch vyjadřuje sofort.",
+        "V pracovním právu vyžaduje okamžitá výpověď obvykle vážný důvod."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "fristlos",
             "fristlose",
-            "Fristlos"
+            "Frist",
+            "Kündigung"
           ],
           "purple": [
-            "Okamžitý",
-            "Bez výpovědní lhůty",
-            "okamžitou"
+            "bez výpovědní lhůty",
+            "okamžitou platností"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "fristlose"
+                "fristlos"
               ]
             },
             "lv": {
               "purple": [
-                "okamžitou"
+                "bez výpovědní lhůty"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Fristlos"
+                "fristlos"
               ]
             },
             "lv": {
               "purple": [
-                "okamžitou"
+                "okamžitě"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlose"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Okamžitá"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bez výpovědní lhůty"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "fristlos"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Okamžitý",
-                "Bez výpovědní lhůty"
-              ]
-            },
-            "example": {
-              "blue": [
-                "fristlose"
-              ],
-              "purple": [
-                "okamžitou"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -7890,26 +11856,41 @@ const B2_WORDS = [
               "purple": [
                 "okamžitě"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fristgerecht"
+              ]
             },
-            "example": {
-              "red": [
-                "sofort"
+            "meaning": {
+              "purple": [
+                "ve lhůtě"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vypovědět"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "fristlos",
-            "Fristlos"
-          ]
-        },
-        "important": {
-          "blue": [
-            "fristlos",
-            "Fristlos"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7949,21 +11930,172 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-fuegen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Přizpůsobovat • Poslouchat",
-      "rektion": "In + ko?",
-      "explanation": "Sich fügen se pojí s in + 4. pád (Akkusativ) nebo se 3. pádem: sich in sein Schicksal fügen, sich den Regeln fügen.",
-      "forms": "In + ko?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich fügen znamená podřídit se pravidlu, rozhodnutí nebo okolnostem a poslouchat (sich dem Beschluss fügen), nebo se zařadit do celku, přizpůsobit se (sich in die Gruppe fügen).",
+        "Tvary: fügt sich, fügte sich, hat sich gefügt. Ve významu podřídit se často následuje dativ (sich dem Willen fügen), ve významu přizpůsobit se nebo smířit se se pojí in + akuzativ (sich in sein Schicksal fügen).",
+        "Fráze Alles fügt sich znamená: všechno se postupně ukládá na své místo, všechno se vyřeší. Bez sich je fügen přechodné: Teile zusammenfügen – spojit části."
+      ],
+      "examples": [
+        {
+          "de": "Er fügte sich dem Beschluss des Vorstands.",
+          "lv": "Podřídil se rozhodnutí představenstva."
+        },
+        {
+          "de": "Sie musste sich in ihr Schicksal fügen.",
+          "lv": "Musela se smířit se svým osudem."
+        },
+        {
+          "de": "Das Kind fügt sich den Regeln.",
+          "lv": "Dítě se podřizuje pravidlům."
+        },
+        {
+          "de": "Neue Kollegen müssen sich in das Team fügen.",
+          "lv": "Noví kolegové se musí přizpůsobit týmu."
+        },
+        {
+          "de": "Alles fügte sich zum Guten.",
+          "lv": "Všechno se obrátilo k dobrému."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich anpassen",
+          "meaning": "přizpůsobit se",
+          "example": "Er passt sich dem Klima an. – Přizpůsobuje se podnebí."
+        },
+        {
+          "word": "gehorchen",
+          "meaning": "poslouchat",
+          "example": "Der Hund gehorcht seinem Herrn. – Pes poslouchá svého pána."
+        },
+        {
+          "word": "fügen",
+          "meaning": "spojit",
+          "example": "Er fügt zwei Teile zusammen. – Spojuje dvě části."
+        }
+      ],
+      "tip": [
+        "Chceš-li říct, že se někdo podřizuje rozhodnutí, použij sich dem Beschluss fügen.",
+        "Znej také rčení: sich in sein Schicksal fügen."
+      ],
+      "important": [
+        "Nezaměňuj s fügen bez sich (připojit, spojit).",
+        "Přímou poslušnost vůči rozkazu nebo rodičům obvykle vyjadřuje gehorchen, ne sich fügen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich fügen"
+            "fügen",
+            "fügt",
+            "fügte",
+            "gefügt"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "podřídit se",
+            "přizpůsobit se",
+            "poslouchat"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Podřídil se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "smířit se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "podřizuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich anpassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "přizpůsobit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gehorchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "poslouchat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spojit"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -8353,44 +12485,63 @@ const B2_WORDS = [
       "id": "b2-gelaunt",
       "layout": "standardStudy",
       "translation": "Naladěný",
-      "explanation": "Hlavní myšlenka: gelaunt se používá s gut nebo schlecht a vyjadřuje náladu. Gut gelaunt znamená dobře naladěný, schlecht gelaunt špatně naladěný. Samotné gelaunt se v běžné řeči nepoužívá.",
+      "explanation": [
+        "Hlavní myšlenka: gelaunt je přídavné jméno, které se používá jen spolu s příslovcem: gut gelaunt (dobře naladěný), schlecht gelaunt (špatně naladěný). Popisuje náladu člověka.",
+        "Samostatně bez příslovce se téměř nepoužívá. Stupňuje se příslovce: besser gelaunt, am besten gelaunt. Základem je die Laune (nálada), množné číslo die Launen."
+      ],
       "examples": [
         {
-          "de": "Er ist gut gelaunt.",
-          "lv": "Je dobře naladěný."
+          "de": "Er ist heute gut gelaunt.",
+          "lv": "Dnes je dobře naladěný."
         },
         {
-          "de": "Sie kam gut gelaunt ins Büro.",
-          "lv": "Přišla do kanceláře dobře naladěná."
+          "de": "Sie kam schlecht gelaunt ins Büro.",
+          "lv": "Do kanceláře přišla ve špatné náladě."
         },
         {
-          "de": "Der Chef ist heute schlecht gelaunt.",
-          "lv": "Šéf je dnes špatně naladěný."
+          "de": "Der Chef ist heute nicht besonders gut gelaunt.",
+          "lv": "Šéf dnes není nijak zvlášť dobře naladěn."
+        },
+        {
+          "de": "Wie ist er heute gelaunt?",
+          "lv": "Jakou má dnes náladu?"
         }
       ],
       "comparison": [
         {
-          "word": "gelaunt",
-          "meaning": "Naladěný",
-          "example": "Er ist gut gelaunt. = Je dobře naladěný."
+          "word": "die Laune",
+          "meaning": "nálada",
+          "example": "Er hat gute Laune. – Má dobrou náladu."
         },
         {
           "word": "gut drauf",
           "meaning": "v dobré náladě",
-          "example": "Er ist heute gut drauf. = Dnes je v dobré náladě."
+          "example": "Er ist heute gut drauf. – Dnes je v dobré náladě."
+        },
+        {
+          "word": "gestimmt",
+          "meaning": "naladěný",
+          "example": "Sie ist heiter gestimmt. – Je vesele naladěná."
         }
       ],
-      "tip": "Pamatuj si dvojice: gut gelaunt a schlecht gelaunt.",
-      "important": "Gelaunt se nepoužívá bez gut, schlecht nebo podobného slova.",
+      "tip": [
+        "Zapamatuj si hotová spojení: gut gelaunt, schlecht gelaunt, bestens gelaunt.",
+        "S Laune lze říct gute Laune haben."
+      ],
+      "important": [
+        "gelaunt stojí téměř vždy spolu s gut, schlecht, besser nebo jiným příslovcem.",
+        "Slovo není totéž co gestimmt (naladěný), i když je význam blízký."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "gelaunt",
             "gut gelaunt",
-            "schlecht gelaunt"
+            "schlecht gelaunt",
+            "Laune",
+            "Launen"
           ],
           "purple": [
-            "Naladěný",
             "dobře naladěný",
             "špatně naladěný"
           ]
@@ -8399,7 +12550,8 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "gut gelaunt"
+                "gut",
+                "gelaunt"
               ]
             },
             "lv": {
@@ -8411,24 +12563,38 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "gut gelaunt"
+                "schlecht",
+                "gelaunt"
               ]
             },
             "lv": {
               "purple": [
-                "dobře naladěná"
+                "špatné náladě"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "schlecht gelaunt"
+                "gut",
+                "gelaunt"
               ]
             },
             "lv": {
               "purple": [
-                "špatně naladěný"
+                "dobře naladěn"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "náladu"
               ]
             }
           }
@@ -8437,20 +12603,12 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "gelaunt"
+                "die Laune"
               ]
             },
             "meaning": {
               "purple": [
-                "Naladěný"
-              ]
-            },
-            "example": {
-              "blue": [
-                "gut gelaunt"
-              ],
-              "purple": [
-                "dobře naladěný"
+                "nálada"
               ]
             }
           },
@@ -8464,26 +12622,29 @@ const B2_WORDS = [
               "purple": [
                 "v dobré náladě"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gestimmt"
+              ]
             },
-            "example": {
-              "red": [
-                "gut drauf"
+            "meaning": {
+              "purple": [
+                "naladěný"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "gelaunt",
-            "gut gelaunt",
-            "schlecht gelaunt"
-          ]
-        },
-        "important": {
-          "blue": [
-            "gelaunt"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -8649,18 +12810,164 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-genieren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Stydět se",
-      "rektion": "Vor + kam?",
-      "explanation": "Sich genieren se často pojí s předložkou vor + 3. pád (Dativ): sich vor jemandem genieren.",
-      "forms": "Vor + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich genieren znamená stydět se, cítit se nepříjemně něco dělat před jinými lidmi. Výslovnost: g zní jako ž: [ʒeˈniːrən].",
+        "Lidé, před kterými se někdo stydí, se uvádějí předložkou vor + dativ: sich vor den Gästen genieren. Tvary: geniert sich, genierte sich, hat sich geniert. Často se používá v zákazu: Genieren Sie sich nicht! – Nestyďte se!"
+      ],
+      "examples": [
+        {
+          "de": "Er geniert sich vor fremden Leuten.",
+          "lv": "Stydí se před cizími lidmi."
+        },
+        {
+          "de": "Du brauchst dich nicht zu genieren.",
+          "lv": "Nemusíš se stydět."
+        },
+        {
+          "de": "Sie genierte sich, nach dem Weg zu fragen.",
+          "lv": "Styděla se zeptat na cestu."
+        },
+        {
+          "de": "Bitte genieren Sie sich nicht, greifen Sie zu!",
+          "lv": "Prosím, nestyďte se, posluhujte si!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich schämen",
+          "meaning": "stydět se",
+          "example": "Ich schäme mich für meinen Fehler. – Stydím se za svou chybu."
+        },
+        {
+          "word": "schüchtern",
+          "meaning": "stydlivý",
+          "example": "Er ist sehr schüchtern. – Je velmi stydlivý."
+        },
+        {
+          "word": "peinlich",
+          "meaning": "trapný",
+          "example": "Das ist mir peinlich. – To je mi trapné."
+        }
+      ],
+      "tip": [
+        "Pohostinná výzva: Genieren Sie sich nicht!",
+        "V situaci, kdy je ti něco nepříjemné, řekni také Das ist mir unangenehm."
+      ],
+      "important": [
+        "sich genieren vyjadřuje společenskou ostýchavost, kdežto sich schämen – stud za vlastní jednání.",
+        "Slovo je převzaté z francouzštiny, proto je výslovnost s ž důležitá."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich genieren"
+            "genieren",
+            "geniert",
+            "genierte",
+            "Genieren"
+          ],
+          "purple": [
+            "stydět se",
+            "Nestyďte se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "geniert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Stydí se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stydět"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Styděla se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nestyďte se"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schämen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stydět se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schüchtern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stydlivý"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "peinlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "trapný"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -8844,18 +13151,163 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-gesellen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Připojit se",
-      "rektion": "Zu + kam?",
-      "explanation": "Sich gesellen se pojí s předložkou zu + 3. pád (Dativ): sich zu jemandem gesellen.",
-      "forms": "Zu + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich gesellen znamená připojit se k člověku nebo ke skupině, přisednout si nebo se postavit vedle nich. Může vyjadřovat i to, že se k něčemu přidá ještě něco dalšího (Zu der Kälte gesellte sich Regen).",
+        "Předložkou zu + dativ se uvádí, k čemu se někdo připojuje: sich zu jemandem gesellen. Tvary: gesellt sich, gesellte sich, hat sich gesellt. Jazyk je mírně knižní.",
+        "Známé přísloví: Gleich und gleich gesellt sich gern. – Vrána k vráně sedá."
+      ],
+      "examples": [
+        {
+          "de": "Er gesellte sich zu uns an den Tisch.",
+          "lv": "Připojil se k nám u stolu."
+        },
+        {
+          "de": "Zu der Kälte gesellte sich noch Regen.",
+          "lv": "Ke chladu se přidal ještě déšť."
+        },
+        {
+          "de": "Darf ich mich zu Ihnen gesellen?",
+          "lv": "Smím se k vám připojit?"
+        },
+        {
+          "de": "Sie gesellte sich zu den anderen Gästen.",
+          "lv": "Připojila se k ostatním hostům."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich anschließen",
+          "meaning": "připojit se",
+          "example": "Ich schließe mich der Gruppe an. – Připojuji se ke skupině."
+        },
+        {
+          "word": "dazukommen",
+          "meaning": "přidat se",
+          "example": "Er kommt später dazu. – Přidá se později."
+        },
+        {
+          "word": "begleiten",
+          "meaning": "doprovodit",
+          "example": "Ich begleite dich nach Hause. – Doprovodím tě domů."
+        }
+      ],
+      "tip": [
+        "Po sich gesellen následuje zu + dativ: zu uns, zu ihm, zu den Gästen.",
+        "Sloveso se hodí, když se někdo připojí nenuceně, například ke stolu."
+      ],
+      "important": [
+        "Pro formální vstup do organizace se obvykle používá sich anschließen nebo beitreten, ne sich gesellen.",
+        "S sich gesellen souvisí slovo der Geselle (tovaryš, společník)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich gesellen"
+            "gesellen",
+            "gesellte",
+            "gesellt"
+          ],
+          "purple": [
+            "připojit se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Připojil se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "přidal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "připojit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Připojila se"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich anschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "připojit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dazukommen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "přidat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "begleiten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "doprovodit"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -8891,18 +13343,170 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-gestalten",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Formovat do",
-      "rektion": "Zu + kam?",
-      "explanation": "Sich gestalten se často pojí s předložkou zu + 3. pád (Dativ): sich zu einem Erfolg gestalten.",
-      "forms": "Zu + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich gestalten znamená utvářet se, vyvíjet se, nabývat určité podoby (formovat se do určité podoby) – o události, jednání nebo budoucnosti: jaká se ukáže. Obvykle následuje přídavné jméno (schwierig, positiv) nebo zu + dativ (zu einem Erfolg).",
+        "Tvary: gestaltet sich, gestaltete sich, hat sich gestaltet. Podmětem je zpravidla abstraktní slovo: Verhandlungen, Zukunft, Abend, Zusammenarbeit.",
+        "Bez sich znamená gestalten tvořit, upravovat (den Garten gestalten)."
+      ],
+      "examples": [
+        {
+          "de": "Die Verhandlungen gestalten sich schwierig.",
+          "lv": "Jednání se vyvíjí obtížně."
+        },
+        {
+          "de": "Der Abend gestaltete sich zu einem Erfolg.",
+          "lv": "Večer se vyvinul v úspěch."
+        },
+        {
+          "de": "Wie wird sich die Zukunft gestalten?",
+          "lv": "Jak se bude budoucnost utvářet?"
+        },
+        {
+          "de": "Das Treffen gestaltete sich anders als geplant.",
+          "lv": "Setkání proběhlo jinak, než se plánovalo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gestalten",
+          "meaning": "upravovat",
+          "example": "Wir gestalten den Garten neu. – Znovu upravujeme zahradu."
+        },
+        {
+          "word": "werden",
+          "meaning": "stát se",
+          "example": "Er wird Lehrer. – Stane se učitelem."
+        },
+        {
+          "word": "sich entwickeln",
+          "meaning": "vyvíjet se",
+          "example": "Das Kind entwickelt sich gut. – Dítě se dobře vyvíjí."
+        }
+      ],
+      "tip": [
+        "Častá kombinace: sich schwierig gestalten – vyvinout se obtížně.",
+        "V obchodním a úředním stylu: Die Zusammenarbeit gestaltet sich erfolgreich."
+      ],
+      "important": [
+        "sich gestalten se používá spíše ve formálním jazyce; v běžné řeči se jednodušeji řekne werden nebo verlaufen.",
+        "Podmětem většinou není osoba, ale událost nebo proces."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich gestalten"
+            "sich gestalten",
+            "gestalten",
+            "gestaltet",
+            "gestaltete"
+          ],
+          "purple": [
+            "utvářet se",
+            "vyvíjet se",
+            "formovat se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gestalten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vyvíjí"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gestaltete",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vyvinul"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "gestalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "utvářet"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gestaltete",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "proběhlo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gestalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "upravovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "werden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stát se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich entwickeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vyvíjet se"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -9175,44 +13779,64 @@ const B2_WORDS = [
       "id": "b2-glut",
       "layout": "standardStudy",
       "translation": "Vedro • Žár • Velký žár",
-      "explanation": "Hlavní myšlenka: Glut znamená vedro, žár nebo velký žár. U slunce jde o vedro, u ohně žár, u léta velký žár.",
+      "explanation": [
+        "Hlavní myšlenka: die Glut je podstatné jméno ženského rodu. Znamená žhnoucí uhlíky nebo žhavý žár dohořívajícího ohně, také velké vedro, úpal (die Glut der Sonne). V přeneseném významu je Glut i vášeň, zápal.",
+        "Množné číslo je vzácné (die Gluten), obvykle se používá jednotné číslo: die Glut. Časté fráze: die Glut anfachen (rozdmýchat žár), unter der Asche glimmt noch Glut (pod popelem ještě doutnají uhlíky)."
+      ],
       "examples": [
         {
-          "de": "Die Glut der Mittagssonne.",
-          "lv": "Žár poledního slunce."
+          "de": "Die Glut des Lagerfeuers wärmte uns noch.",
+          "lv": "Žár táborového ohně nás ještě hřál."
         },
         {
-          "de": "Die Glut des Feuers.",
-          "lv": "Žár ohně."
+          "de": "In der Glut der Mittagssonne ruhte das ganze Dorf.",
+          "lv": "V poledním žáru slunce odpočívala celá vesnice."
         },
         {
-          "de": "Die Glut des Sommers.",
-          "lv": "Velký žár léta."
+          "de": "Er blies in die Glut, bis wieder Flammen aufstiegen.",
+          "lv": "Foukal do žhnoucích uhlíků, až znovu vyšlehly plameny."
+        },
+        {
+          "de": "Mit großer Glut sprach sie über ihr Projekt.",
+          "lv": "S velkým zápalem mluvila o svém projektu."
         }
       ],
       "comparison": [
         {
-          "word": "Glut",
-          "meaning": "Vedro, Žár, Velký žár",
-          "example": "Die Glut der Mittagssonne. = Žár poledního slunce."
+          "word": "die Hitze",
+          "meaning": "horko",
+          "example": "Im Sommer ist die Hitze groß. – V létě je velké horko."
         },
         {
-          "word": "Hitze",
-          "meaning": "horko",
-          "example": "Im Sommer ist die Hitze groß. = V létě je velké horko."
+          "word": "die Asche",
+          "meaning": "popel",
+          "example": "Unter der Asche liegt noch Glut. – Pod popelem je ještě žár."
+        },
+        {
+          "word": "die Flamme",
+          "meaning": "plamen",
+          "example": "Die Flamme wird kleiner. – Plamen se zmenšuje."
         }
       ],
-      "tip": "Když jde o rozžhavené uhlíky nebo vedro, mysli na Glut.",
-      "important": "Glut není totéž co Hitze (horko v běžné řeči).",
+      "tip": [
+        "Glut znázorňuje trvalý červený žár ohně, kdežto Flamme viditelný plamen.",
+        "U ohně si zapamatuj: Feuer – oheň, Flamme – plamen, Glut – žhnoucí uhlíky."
+      ],
+      "important": [
+        "Glut se obvykle používá v jednotném čísle; množné číslo die Gluten je velmi vzácné.",
+        "K popisu běžného horka obvykle stačí die Hitze; Glut zní silněji, poeticky."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Glut"
+            "die Glut",
+            "Glut",
+            "Gluten"
           ],
           "purple": [
-            "Vedro",
-            "Žár",
-            "Velký žár"
+            "žár",
+            "vedro",
+            "žhnoucí uhlíky"
           ]
         },
         "examples": [
@@ -9236,7 +13860,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Žár"
+                "žáru"
               ]
             }
           },
@@ -9248,7 +13872,19 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Velký žár"
+                "uhlíků"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zápalem"
               ]
             }
           }
@@ -9257,59 +13893,48 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "Glut"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vedro",
-                "Žár",
-                "Velký žár"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Glut"
-              ],
-              "purple": [
-                "Žár"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "Hitze"
+                "die Hitze"
               ]
             },
             "meaning": {
               "purple": [
                 "horko"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Asche"
+              ]
             },
-            "example": {
-              "red": [
-                "Hitze"
+            "meaning": {
+              "purple": [
+                "popel"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Flamme"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "plamen"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Glut"
-          ],
-          "purple": [
-            "Vedro"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Glut"
-          ],
-          "red": [
-            "Hitze"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -9323,41 +13948,62 @@ const B2_WORDS = [
       "id": "b2-gnade",
       "layout": "standardStudy",
       "translation": "Milost • Omilostění",
-      "explanation": "Hlavní myšlenka: Gnade znamená milost nebo omilostění. Gnade se používá v náboženství a u soudu. Um Gnade bitten znamená prosit o milost.",
+      "explanation": [
+        "Hlavní myšlenka: die Gnade je podstatné jméno ženského rodu. Znamená milost, shovívavost – přízeň toho, kdo má moc, a také omilostnění, prominutí trestu.",
+        "Množné číslo se používá zřídka (die Gnaden). Častá spojení: um Gnade bitten (prosit o milost), Gnade walten lassen (prokázat milost), auf Gnade und Ungnade (zcela v něčí moci), die Gnade Gottes (Boží milost)."
+      ],
       "examples": [
         {
-          "de": "Er bat um Gnade.",
-          "lv": "Prosil o milost."
+          "de": "Der Verurteilte bat um Gnade.",
+          "lv": "Odsouzený prosil o milost."
         },
         {
-          "de": "Der Verurteilte hoffte auf Gnade.",
-          "lv": "Odsouzený doufal v omilostění."
+          "de": "Der Präsident ließ Gnade walten.",
+          "lv": "Prezident prokázal milost."
+        },
+        {
+          "de": "Wir sind ihm auf Gnade und Ungnade ausgeliefert.",
+          "lv": "Jsme mu vydáni na milost a nemilost."
+        },
+        {
+          "de": "Er verdankt sein Leben der Gnade des Königs.",
+          "lv": "Svůj život vděčí králově milosti."
         }
       ],
       "comparison": [
         {
-          "word": "Gnade",
-          "meaning": "Milost, Omilostění",
-          "example": "Er bat um Gnade. = Prosil o milost."
+          "word": "das Mitleid",
+          "meaning": "soucit",
+          "example": "Ich habe Mitleid mit ihm. – Je mi ho líto."
         },
         {
-          "word": "Mitleid",
-          "meaning": "soucit",
-          "example": "Ich habe Mitleid mit ihm. = Mám s ním soucit."
+          "word": "die Begnadigung",
+          "meaning": "omilostnění",
+          "example": "Die Begnadigung wurde abgelehnt. – Omilostnění bylo zamítnuto."
+        },
+        {
+          "word": "die Gunst",
+          "meaning": "přízeň",
+          "example": "Er genießt die Gunst des Chefs. – Těší se přízni šéfa."
         }
       ],
-      "tip": "Když někdo prosí o zmírnění trestu, mysli na Gnade.",
-      "important": "Gnade není totéž co Mitleid (soucit).",
+      "tip": [
+        "Zapamatuj si spojení um Gnade bitten (prosit o milost); předložka um vyžaduje akuzativ.",
+        "Spolu s walten lassen říkáme Gnade walten lassen – prokázat milost."
+      ],
+      "important": [
+        "Gnade se vztahuje na přízeň vyšší osoby nebo Boha; prosté politování druhého vyjadřuje Mitleid.",
+        "Nezaměňuj s Gunst (přízeň, příznivý postoj)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Gnade"
+            "Gnade",
+            "Gnaden"
           ],
           "purple": [
-            "Milost",
-            "Omilostění",
             "milost",
-            "omilostění"
+            "omilostnění"
           ]
         },
         "examples": [
@@ -9381,7 +14027,26 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "omilostění"
+                "milost"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "milosti"
               ]
             }
           }
@@ -9390,55 +14055,48 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "Gnade"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Milost",
-                "Omilostění"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Gnade"
-              ],
-              "purple": [
-                "milost"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "Mitleid"
+                "das Mitleid"
               ]
             },
             "meaning": {
               "purple": [
                 "soucit"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Begnadigung"
+              ]
             },
-            "example": {
-              "red": [
-                "Mitleid"
+            "meaning": {
+              "purple": [
+                "omilostnění"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gunst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "přízeň"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Gnade"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Gnade"
-          ],
-          "red": [
-            "Mitleid"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -9552,18 +14210,163 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-grauen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Bát se",
-      "rektion": "Vor + kam?",
-      "explanation": "Sich grauen se pojí s předložkou vor + 3. pád (Dativ): sich vor etwas grauen.",
-      "forms": "Vor + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich grauen znamená předem cítit strach, obavy, odpor nebo nechuť – bát se něčeho nepříjemného, co se blíží. Ve standardním jazyce se používá téměř vždy jako neosobní sloveso: Mir graut vor …, Es graut mir vor … (dativ).",
+        "Předložkou vor + dativ se uvádí, čeho se někdo bojí: Mir graut vor der Prüfung. Tvar se zvratným zájmenem (ich graue mich) se také ozývá, ale řidčeji. Perfektum: hat gegraut.",
+        "Slovo souvisí s das Grauen (hrůza) a s rčením der Tag graut (svítá)."
+      ],
+      "examples": [
+        {
+          "de": "Mir graut vor der Prüfung.",
+          "lv": "Ze zkoušky mám strach."
+        },
+        {
+          "de": "Es graut ihm vor dem Winter.",
+          "lv": "Zimy se děsí."
+        },
+        {
+          "de": "Mir graut davor, allein zu wohnen.",
+          "lv": "Bojím se bydlet sám."
+        },
+        {
+          "de": "Vor dem Montagmorgen graut es mir schon jetzt.",
+          "lv": "Z pondělního rána mám strach už teď."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich fürchten",
+          "meaning": "bát se",
+          "example": "Ich fürchte mich vor Spinnen. – Bojím se pavouků."
+        },
+        {
+          "word": "Angst haben",
+          "meaning": "mít strach",
+          "example": "Er hat Angst vor Hunden. – Má strach ze psů."
+        },
+        {
+          "word": "das Grauen",
+          "meaning": "hrůza",
+          "example": "Das Grauen packte ihn. – Zachvátila ho hrůza."
+        }
+      ],
+      "tip": [
+        "Toto sloveso používej jako neosobní konstrukci: Mir graut vor …",
+        "V běžné řeči je bezpečnější zvolit Angst haben vor + dativ nebo sich fürchten vor + dativ."
+      ],
+      "important": [
+        "Osoba, která se bojí, bývá ve dativu (mir, ihm), ne v nominativu.",
+        "Když řekneš Mir graut, nepřidávej zvratné zájmeno."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich grauen"
+            "grauen",
+            "graut"
+          ],
+          "purple": [
+            "bát se",
+            "strach"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "strach"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "děsí"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Bojím se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "strach"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich fürchten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bát se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Angst haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mít strach"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Grauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hrůza"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -9867,59 +14670,66 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Čepice • Kryt",
       "explanation": [
-        "Hlavní myšlenka: die Haube může znamenat čepici nebo kapuci, ale také kapotu nebo kryt – význam určuje kontext.",
-        "Na hlavě: die Haube = čepice, čepec (např. Nonne mit Haube).",
-        "Na autě: die Motorhaube nebo jednoduše die Haube = kapota motoru.",
-        "V kuchyni: die Dunsthaube = digestoř nad sporákem. V technice: kryt nad zařízením."
+        "Hlavní myšlenka: die Haube je podstatné jméno ženského rodu, množné číslo die Hauben. První význam – čepec, který zakrývá hlavu (starý dámský čepec, řádová pokrývka hlavy). Druhý – kryt, který zakrývá přístroj: Motorhaube (kapota motoru automobilu), Dunsthaube (digestoř nad sporákem).",
+        "Idiom unter die Haube kommen znamená v hovorové řeči vdát se nebo oženit se."
       ],
       "examples": [
         {
-          "de": "Sie trägt eine warme Haube.",
-          "lv": "Nosí teplou čepici."
-        },
-        {
-          "de": "Die Nonne trägt eine schwarze Haube.",
-          "lv": "Jeptiška nosí černou kápi."
+          "de": "Die Großmutter trug eine weiße Haube.",
+          "lv": "Babička nosila bílý čepec."
         },
         {
           "de": "Er öffnet die Haube des Autos.",
-          "lv": "Otevře kapotu auta."
-        },
-        {
-          "de": "Die Motorhaube ist kaputt.",
-          "lv": "Kapota je rozbitá."
+          "lv": "Otevírá kapotu auta."
         },
         {
           "de": "Über dem Herd hängt eine Dunsthaube.",
-          "lv": "Nad kamny je připevněn odsavač par."
+          "lv": "Nad sporákem visí digestoř."
         },
         {
-          "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "Nasaď na hrnec poklici jako kryt."
+          "de": "Meine Tante ist endlich unter die Haube gekommen.",
+          "lv": "Moje teta se konečně vdala."
+        },
+        {
+          "de": "Beim Friseur saß sie unter der Haube.",
+          "lv": "U kadeřníka seděla pod sušicí helmou."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Mütze",
+          "meaning": "čepice",
+          "example": "Im Winter trage ich eine Mütze. – V zimě nosím čepici."
+        },
+        {
+          "word": "der Deckel",
+          "meaning": "víko",
+          "example": "Der Deckel passt nicht auf den Topf. – Víko na hrnec nepasuje."
+        },
+        {
+          "word": "die Abdeckung",
+          "meaning": "kryt",
+          "example": "Die Abdeckung schützt das Gerät. – Kryt chrání přístroj."
         }
       ],
       "tip": [
-        "Jde o hlavu, jeptišku, klobouk → čepice / čepec.",
-        "Jde o auto, motor → kapota.",
-        "Jde o sporák, spotřebič → digestoř."
+        "V souvislosti s autem je Haube obvykle přední kapota motoru: die Motorhaube.",
+        "V složeninách dává podstatné jméno Haube význam krytu: Dunsthaube, Motorhaube."
       ],
       "important": [
-        "Die Haube = čepice / čepec NEBO kapota NEBO kryt – podle kontextu.",
-        "Pomáhají složeniny: Motorhaube (auto), Dunsthaube (kuchyň)."
+        "Haube není běžná čepice; čepici, kterou nosíš v zimě, se říká Mütze.",
+        "Rčení unter die Haube kommen je hovorové a mírně žertovné."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "die Haube"
+            "Haube",
+            "Hauben"
           ],
           "purple": [
-            "Hlavní",
-            "Hlavní",
-            "Hlavní"
-          ],
-          "green": [
-            "Motorhaube",
-            "Dunsthaube"
+            "čepec",
+            "kryt",
+            "kapota"
           ]
         },
         "examples": [
@@ -9931,7 +14741,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Nosí"
+                "čepec"
               ]
             }
           },
@@ -9943,43 +14753,19 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeptiška"
+                "kapotu"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Haube"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Otevře"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Motorhaube"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Kapota"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "Dunsthaube"
               ]
             },
             "lv": {
               "purple": [
-                "Nad"
+                "digestoř"
               ]
             }
           },
@@ -9989,8 +14775,70 @@ const B2_WORDS = [
                 "Haube"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vdala"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sušicí helmou"
+              ]
+            }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Mütze"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "čepice"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Deckel"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "víko"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Abdeckung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kryt"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -10170,18 +15018,167 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-herausbilden",
-      "layout": "minimalStudy",
-      "translation": "Formovat do",
-      "rektion": "Zu + kam?",
-      "explanation": "Sich herausbilden se často pojí s předložkou zu + 3. pád (Dativ): sich zu etwas herausbilden.",
-      "forms": "Zu + kam?",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Vyvinout se v • Vytvořit se jako",
+      "explanation": [
+        "Hlavní myšlenka: sich herausbilden znamená postupně se vytvořit, vyvinout se z něčeho dřívějšího – o stylu, zvyku, rolích, městě. Pomocí zu + dativ se uvádí, v co se někdo nebo něco vyvine.",
+        "Odlučitelná předpona heraus-: bildet sich heraus, bildete sich heraus, hat sich herausgebildet. Proces je postupný, proto je podmětem často abstraktní slovo."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem kleinen Dorf bildete sich eine große Stadt heraus.",
+          "lv": "Z malé vesnice se vyvinulo velké město."
+        },
+        {
+          "de": "Mit der Zeit hat sich ein neuer Stil herausgebildet.",
+          "lv": "Časem se vytvořil nový styl."
+        },
+        {
+          "de": "Der Junge hat sich zu einem guten Musiker herausgebildet.",
+          "lv": "Chlapec se vyvinul v dobrého hudebníka."
+        },
+        {
+          "de": "In der Gruppe bildeten sich schnell feste Rollen heraus.",
+          "lv": "Ve skupině se rychle vytvořily pevné role."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich entwickeln",
+          "meaning": "vyvíjet se",
+          "example": "Das Kind entwickelt sich gut. – Dítě se dobře vyvíjí."
+        },
+        {
+          "word": "entstehen",
+          "meaning": "vzniknout",
+          "example": "Hier entstand eine neue Siedlung. – Zde vznikla nová osada."
+        },
+        {
+          "word": "bilden",
+          "meaning": "tvořit",
+          "example": "Wir bilden eine Gruppe. – Tvoříme skupinu."
+        }
+      ],
+      "tip": [
+        "Pamatuj na oddělení předpony: Es bildet sich heraus, ale Es hat sich herausgebildet.",
+        "Častá dvojice: sich zu etwas herausbilden."
+      ],
+      "important": [
+        "sich herausbilden vyjadřuje postupný proces, ne jednorázovou událost.",
+        "Nezaměňuj s bilden (tvořit, vytvořit): je to přechodné sloveso."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich herausbilden"
+            "herausbilden",
+            "bildet sich heraus",
+            "bildete sich heraus",
+            "hat sich herausgebildet",
+            "heraus-"
+          ],
+          "purple": [
+            "vytvořit",
+            "vyvinout se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bildete",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vyvinulo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgebildet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vytvořil"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgebildet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vyvinul"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bildeten",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vytvořily"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich entwickeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vyvíjet se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "entstehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vzniknout"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bilden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tvořit"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -10196,18 +15193,165 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-heraushalten",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Drž se dál od",
-      "rektion": "Aus + kam?",
-      "explanation": "Sich heraushalten se pojí s předložkou aus + 3. pád (Dativ): sich aus einem Streit heraushalten.",
-      "forms": "Aus + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich heraushalten znamená nezasahovat, nezúčastnit se sporu nebo záležitosti, držet se stranou. Předložkou aus + dativ se uvádí, od čeho se někdo drží dál: sich aus dem Streit heraushalten.",
+        "Odlučitelná předpona heraus-: hält sich heraus, hielt sich heraus, hat sich herausgehalten. Rozkazovací způsob: Halt dich da heraus! Bez sich je heraushalten přechodné: jemanden aus etwas heraushalten – nezatahovat někoho do něčeho."
+      ],
+      "examples": [
+        {
+          "de": "Halt dich aus dem Streit heraus!",
+          "lv": "Drž se od sporu dál!"
+        },
+        {
+          "de": "Ich halte mich aus der Politik heraus.",
+          "lv": "Z politiky se držím stranou."
+        },
+        {
+          "de": "Er hat sich aus allem herausgehalten.",
+          "lv": "Ze všeho se držel stranou."
+        },
+        {
+          "de": "Die Eltern wollten sich aus der Entscheidung heraushalten.",
+          "lv": "Rodiče se chtěli držet stranou rozhodování."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich einmischen",
+          "meaning": "vměšovat se",
+          "example": "Misch dich nicht ein! – Nevměšuj se!"
+        },
+        {
+          "word": "sich zurückhalten",
+          "meaning": "držet se zpátky",
+          "example": "Bei Diskussionen halte ich mich zurück. – V diskusích se držím zpátky."
+        },
+        {
+          "word": "heraushalten",
+          "meaning": "nezatahovat",
+          "example": "Halt die Kinder aus dem Streit heraus. – Nezatahuj děti do sporu."
+        }
+      ],
+      "tip": [
+        "V rozkazu používej: Halt dich da heraus! – nevměšuj se!",
+        "Obvykle následuje aus + dativ: aus dem Konflikt, aus meinen Angelegenheiten."
+      ],
+      "important": [
+        "Po aus je podstatné jméno ve dativu: aus dem Streit.",
+        "Opakem je sich einmischen (vměšovat se)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich heraushalten"
+            "heraushalten",
+            "hält",
+            "hielt",
+            "herausgehalten",
+            "Halt"
+          ],
+          "purple": [
+            "držet se stranou",
+            "nezasahovat"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Halt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Drž se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "halte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "držím"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgehalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "držel"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "heraushalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "držet"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich einmischen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vměšovat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zurückhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "držet se zpátky"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "heraushalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nezatahovat"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -10222,21 +15366,163 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-herausstellen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Ukázat být",
-      "rektion": "Als + kas?",
-      "explanation": "Sich herausstellen se pojí s als: Das stellt sich als Fehler heraus.",
-      "forms": "Als + kas?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich herausstellen znamená ukázat se, vyjít najevo – vyjde najevo, jaký člověk nebo jaká věc ve skutečnosti je. S als + nominativ: Er stellte sich als Betrüger heraus. Typická fráze je Es stellte sich heraus, dass …",
+        "Odlučitelná předpona heraus-: stellt sich heraus, stellte sich heraus, hat sich herausgestellt. Podmětem je obvykle věc nebo informace, ale může to být i člověk."
+      ],
+      "examples": [
+        {
+          "de": "Es stellte sich heraus, dass er recht hatte.",
+          "lv": "Ukázalo se, že měl pravdu."
+        },
+        {
+          "de": "Der Verdacht stellte sich als falsch heraus.",
+          "lv": "Podezření se ukázalo jako liché."
+        },
+        {
+          "de": "Das Projekt hat sich als großer Erfolg herausgestellt.",
+          "lv": "Projekt se ukázal jako velký úspěch."
+        },
+        {
+          "de": "Wer der Täter ist, wird sich bald herausstellen.",
+          "lv": "Brzy se ukáže, kdo je pachatel."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich erweisen",
+          "meaning": "ukázat se",
+          "example": "Die Methode erwies sich als nützlich. – Metoda se ukázala jako užitečná."
+        },
+        {
+          "word": "sich zeigen",
+          "meaning": "projevit se",
+          "example": "Es zeigte sich, dass er müde war. – Projevilo se, že byl unavený."
+        },
+        {
+          "word": "herausfinden",
+          "meaning": "zjistit",
+          "example": "Ich finde das heraus. – Zjistím to."
+        }
+      ],
+      "tip": [
+        "Na začátku věty se hodí Es stellte sich heraus, dass … – ukázalo se, že …",
+        "Pomocí als uvedeš výsledek: sich als falsch herausstellen."
+      ],
+      "important": [
+        "Předpona heraus- se odděluje: Es stellt sich heraus, nikoli es herausstellt sich.",
+        "Nezaměňuj s herausstellen bez sich (vyzdvihnout, vystavit): etwas herausstellen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich herausstellen"
+            "herausstellen"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "ukázat se",
+            "vyjít najevo"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "stellte",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ukázalo se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stellte",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ukázalo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgestellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ukázal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ukáže"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erweisen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ukázat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zeigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "projevit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "herausfinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zjistit"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -10266,21 +15552,164 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-hervortun",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Vyčnívat",
-      "rektion": "In + kur?",
-      "explanation": "Sich hervortun se často pojí s als nebo s in + 3. pád (Dativ): sich als Redner hervortun, sich in Mathematik hervortun.",
-      "forms": "In + kur?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich hervortun znamená vyniknout mezi ostatními (vyčnívat) schopnostmi, úspěchy nebo vlastností. Oblast úspěchu se uvádí pomocí in + dativ, vlastnost pomocí durch + akuzativ, role pomocí als.",
+        "Odlučitelná předpona hervor-: tut sich hervor, tat sich hervor, hat sich hervorgetan. Jazyk je mírně formální, často se používá v popisech úspěchů.",
+        "Někdy může znamenat i snahu nápadně vyniknout, aby získal pozornost."
+      ],
+      "examples": [
+        {
+          "de": "Sie hat sich im Sport besonders hervorgetan.",
+          "lv": "Ve sportu obzvlášť vynikla."
+        },
+        {
+          "de": "Er tut sich durch Fleiß hervor.",
+          "lv": "Vyniká pílí."
+        },
+        {
+          "de": "Im Krieg tat sich der General als mutiger Anführer hervor.",
+          "lv": "Ve válce vynikl generál jako statečný velitel."
+        },
+        {
+          "de": "Wer sich hervortut, bekommt oft viel Aufmerksamkeit.",
+          "lv": "Kdo vyčnívá, často získává hodně pozornosti."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich auszeichnen",
+          "meaning": "vyznačovat se",
+          "example": "Er zeichnet sich durch Ehrlichkeit aus. – Vyznačuje se poctivostí."
+        },
+        {
+          "word": "hervorheben",
+          "meaning": "zdůraznit",
+          "example": "Der Lehrer hebt die Fehler hervor. – Učitel zdůrazňuje chyby."
+        },
+        {
+          "word": "auffallen",
+          "meaning": "být nápadný",
+          "example": "Sie fällt in der Menge auf. – V davu je nápadná."
+        }
+      ],
+      "tip": [
+        "Oblast úspěchu uveď pomocí in + dativ: sich in Mathe hervortun.",
+        "Chceš-li pojmenovat vlastnost, díky které je někdo výjimečný, použij durch: sich durch Mut hervortun."
+      ],
+      "important": [
+        "sich hervortun je odlučitelné: Er tut sich hervor, ale Er hat sich hervorgetan.",
+        "Nezaměňuj s hervorheben (zdůraznit, vyzdvihnout něco): je přechodné a nezvratné."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich hervortun"
+            "hervortun",
+            "tut sich hervor",
+            "hervorgetan"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "vyniknout",
+            "vyčnívat"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hervorgetan"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vynikla"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Vyniká"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vynikl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervortut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vyčnívá"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich auszeichnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vyznačovat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "hervorheben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zdůraznit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "auffallen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "být nápadný"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -10318,124 +15747,134 @@ const B2_WORDS = [
       "id": "b2-hetzen",
       "layout": "standardStudy",
       "translation": "Poštvat • Podněcovat • Honit • Hnát",
-      "explanation": "Hlavní myšlenka: hetzen význam určuje věta: poštvat, podněcovat, honit nebo hnát. Se psem jde o poštvat nebo hnát, s lidmi podněcovat, se zvěří honit.",
+      "explanation": [
+        "Hlavní myšlenka: hetzen je sloveso s několika významy. Znamená poštvat psy na někoho, štvát a honit zvěř; v přeneseném významu podněcovat k nenávisti (gegen jemanden hetzen). Bez předmětu se slovesem sein může znamenat i spěchat, hnát se: durch die Stadt hetzen.",
+        "Tvary: hetzt, hetzte, hat gehetzt (přechodné) nebo ist gehetzt (ve významu pohybu). Častá odvozenina: aufhetzen (poštvat), die Hetze (štvaní; spěch).",
+        "V hovorové řeči Hetz mich nicht! znamená: nepopohánět mě!"
+      ],
       "examples": [
         {
-          "de": "Einen Hund auf jemanden hetzen.",
-          "lv": "Poštvat psa na někoho."
+          "de": "Der Jäger hetzt die Hunde auf den Hirsch.",
+          "lv": "Myslivec poštval psy na jelena."
         },
         {
-          "de": "Die Menschen gegeneinander hetzen.",
-          "lv": "Podněcovat lidi proti sobě."
+          "de": "Er hetzt gegen Ausländer.",
+          "lv": "Podněcuje nenávist vůči cizincům."
         },
         {
-          "de": "Die Hunde hetzen den Hasen.",
-          "lv": "Psi honí zajíce."
+          "de": "Die Hunde hetzten den Hasen über das Feld.",
+          "lv": "Psi honili zajíce přes pole."
         },
         {
-          "de": "Den Hund durch den Garten hetzen.",
-          "lv": "Hnát psa zahradou."
+          "de": "Ich bin den ganzen Tag durch die Stadt gehetzt.",
+          "lv": "Celý den jsem se hnal po městě."
+        },
+        {
+          "de": "Hetz mich nicht!",
+          "lv": "Nepopoháněj mě!"
         }
       ],
       "comparison": [
         {
-          "word": "hetzen",
-          "meaning": "Poštvat, Podněcovat, Honit",
-          "example": "Einen Hund auf jemanden hetzen. = Poštvat psa na někoho."
-        },
-        {
           "word": "jagen",
           "meaning": "lovit",
-          "example": "Der Jäger jagt den Hasen. = Lovec loví zajíce."
+          "example": "Der Jäger jagt Rehe. – Myslivec loví srnce."
+        },
+        {
+          "word": "aufhetzen",
+          "meaning": "poštvat",
+          "example": "Er hetzt die Menge auf. – Poštvává dav."
+        },
+        {
+          "word": "eilen",
+          "meaning": "spěchat",
+          "example": "Ich eile zum Bahnhof. – Spěchám na nádraží."
         }
       ],
-      "tip": "Když je ve větě pes nebo zvěř, mysli na poštvat, honit nebo hnát.",
-      "important": "Se sich hetzen znamená i spěchat.",
+      "tip": [
+        "V politickém kontextu znamená hetzen gegen + akuzativ podněcovat nenávist proti někomu.",
+        "V loveckém kontextu často: Hunde hetzen den Hasen."
+      ],
+      "important": [
+        "Slovo hetzen bývá často negativní: podněcování nebo nepříjemný spěch.",
+        "Ve významu pohybu se perfektum tvoří se sein (ist gehetzt), jinak s haben."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "hetzen"
+            "hetzen",
+            "hetzt"
           ],
           "purple": [
-            "Poštvat",
-            "Podněcovat",
-            "Honit",
-            "Hnát"
+            "poštvat",
+            "podněcovat",
+            "honit",
+            "hnát"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "hetzen"
+                "hetzt"
               ]
             },
             "lv": {
               "purple": [
-                "Poštvat"
+                "poštval"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "hetzen"
+                "hetzt"
               ]
             },
             "lv": {
               "purple": [
-                "Podněcovat"
+                "Podněcuje"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "hetzen"
+                "hetzten"
               ]
             },
             "lv": {
               "purple": [
-                "honí"
+                "honili"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "hetzen"
+                "gehetzt"
               ]
             },
             "lv": {
               "purple": [
-                "Hnát"
+                "hnal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hetz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nepopoháněj"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "hetzen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Poštvat",
-                "Podněcovat",
-                "Honit"
-              ]
-            },
-            "example": {
-              "blue": [
-                "hetzen"
-              ],
-              "purple": [
-                "Poštvat"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -10446,26 +15885,41 @@ const B2_WORDS = [
               "purple": [
                 "lovit"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufhetzen"
+              ]
             },
-            "example": {
-              "red": [
-                "jagt"
+            "meaning": {
+              "purple": [
+                "poštvat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eilen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spěchat"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Poštvat",
-            "Honit",
-            "Hnát"
-          ]
-        },
-        "important": {
-          "blue": [
-            "hetzen"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -10510,21 +15964,168 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-hingeben",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Odevzdat se • Odevzdat se",
-      "rektion": "+ kam?",
-      "explanation": "Sich hingeben se pojí s 3. pádem (Dativ): sich der Musik hingeben = oddat se hudbě.",
-      "forms": "+ kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich hingeben znamená plně se oddat čemu – hudbě, snům, požitku, smutku nebo citům (odevzdat se něčemu). Následuje dativ: sich der Musik hingeben, sich seinen Träumen hingeben.",
+        "Odlučitelná předpona hin-: gibt sich hin, gab sich hin, hat sich hingegeben. Bez sich znamená etwas hingeben obětovat, odevzdat něco: sein Leben hingeben."
+      ],
+      "examples": [
+        {
+          "de": "Sie gab sich ganz der Musik hin.",
+          "lv": "Zcela se oddala hudbě."
+        },
+        {
+          "de": "Er gibt sich seinen Träumen hin.",
+          "lv": "Oddává se svým snům."
+        },
+        {
+          "de": "Wir haben uns dem Genuss hingegeben.",
+          "lv": "Oddali jsme se požitku."
+        },
+        {
+          "de": "Gib dich keinen falschen Hoffnungen hin!",
+          "lv": "Neoddávej se planým nadějím!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich widmen",
+          "meaning": "věnovat se",
+          "example": "Er widmet sich der Forschung. – Věnuje se výzkumu."
+        },
+        {
+          "word": "sich überlassen",
+          "meaning": "poddat se",
+          "example": "Er überlässt sich seinen Gedanken. – Poddává se svým myšlenkám."
+        },
+        {
+          "word": "sich ergeben",
+          "meaning": "vzdát se",
+          "example": "Der Soldat ergibt sich. – Voják se vzdává."
+        }
+      ],
+      "tip": [
+        "Po sich hingeben použij dativ: der Arbeit, dem Schmerz, den Erinnerungen.",
+        "Pamatuj na oddělení předpony: Sie gibt sich hin, ale Sie hat sich hingegeben."
+      ],
+      "important": [
+        "sich hingeben často vyjadřuje úplné pohroužení a zní vznešeně.",
+        "Nezaměňuj se sich ergeben (vzdát se, vyplynout): je to jiné sloveso."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich hingeben"
+            "hingeben",
+            "hingegeben",
+            "gab",
+            "gibt",
+            "hin"
           ],
-          "red": [
-            "Sich"
+          "purple": [
+            "oddat",
+            "odevzdat se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gab",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oddala"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gibt",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Oddává"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hingegeben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Oddali"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gib",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Neoddávej"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich widmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "věnovat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich überlassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "poddat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich ergeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vzdát se"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -10543,39 +16144,63 @@ const B2_WORDS = [
       "id": "b2-hinsicht",
       "layout": "standardStudy",
       "translation": "Ohled",
-      "explanation": "Hlavní myšlenka: Hinsicht je hledisko nebo ohled, ne zpráva jako informace. Nejčastější spojení je in dieser Hinsicht (v tomto ohledu). Říká, že jde o konkrétní hledisko.",
+      "explanation": [
+        "Hlavní myšlenka: die Hinsicht je podstatné jméno ženského rodu, které znamená hledisko, ohled, v jakém něco platí. Česky odpovídá spojením jako v tomto ohledu, v jistém ohledu, ve všech ohledech.",
+        "Obvykle se používá v předložkových spojeních: in dieser Hinsicht (v tomto ohledu), in gewisser Hinsicht (v jistém ohledu), in jeder Hinsicht (ve všech ohledech). Množné číslo die Hinsichten je vzácné. Formálně se říká také in Hinsicht auf + akuzativ (s ohledem na) nebo hinsichtlich + genitiv."
+      ],
       "examples": [
         {
           "de": "In dieser Hinsicht hast du recht.",
           "lv": "V tomto ohledu máš pravdu."
         },
         {
-          "de": "In dieser Hinsicht sind wir uns ähnlich.",
-          "lv": "V tomto ohledu jsme si podobní."
+          "de": "In gewisser Hinsicht ist das ein Vorteil.",
+          "lv": "V jistém ohledu je to výhoda."
+        },
+        {
+          "de": "Das Hotel war in jeder Hinsicht perfekt.",
+          "lv": "Hotel byl dokonalý ve všech ohledech."
+        },
+        {
+          "de": "In Hinsicht auf die Kosten gibt es noch Fragen.",
+          "lv": "S ohledem na náklady jsou ještě otázky."
         }
       ],
       "comparison": [
         {
-          "word": "Hinsicht",
-          "meaning": "Ohled",
-          "example": "In dieser Hinsicht hast du recht. = V tomto ohledu máš pravdu."
+          "word": "die Nachricht",
+          "meaning": "zpráva",
+          "example": "Ich habe eine Nachricht bekommen. – Dostal jsem zprávu."
         },
         {
-          "word": "Nachricht",
-          "meaning": "zpráva",
-          "example": "Ich habe eine Nachricht bekommen. = Dostal jsem zprávu."
+          "word": "der Bezug",
+          "meaning": "vztah",
+          "example": "In Bezug auf den Termin gibt es Fragen. – Ohledně termínu jsou otázky."
+        },
+        {
+          "word": "die Rücksicht",
+          "meaning": "ohleduplnost",
+          "example": "Er nimmt Rücksicht auf andere. – Bere ohled na ostatní."
         }
       ],
-      "tip": "Když česky můžeš říct „v tomto ohledu“, mysli na Hinsicht.",
-      "important": "Česká „zpráva“ jako informace je Nachricht, ne Hinsicht.",
+      "tip": [
+        "Zapamatuj si jako hotovou frázi: in dieser Hinsicht, in jeder Hinsicht.",
+        "Po in v těchto spojeních následuje dativ: in dieser Hinsicht, in jeder Hinsicht."
+      ],
+      "important": [
+        "Hinsicht neznamená zprávu jako informaci – té se říká Nachricht nebo Information.",
+        "Ve frázi hinsichtlich (s ohledem na) po něm následuje genitiv: hinsichtlich der Kosten."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Hinsicht"
+            "Hinsicht",
+            "Hinsichten",
+            "hinsichtlich"
           ],
           "purple": [
-            "Ohled",
-            "ohledu"
+            "ohled",
+            "hledisko"
           ]
         },
         "examples": [
@@ -10587,7 +16212,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ohledu"
+                "V tomto ohledu"
               ]
             }
           },
@@ -10599,32 +16224,36 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ohledu"
+                "V jistém ohledu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ve všech ohledech"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "S ohledem"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "Hinsicht"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Ohled"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Hinsicht"
-              ],
-              "purple": [
-                "ohledu"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -10635,30 +16264,41 @@ const B2_WORDS = [
               "purple": [
                 "zpráva"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Bezug"
+              ]
             },
-            "example": {
-              "red": [
-                "Nachricht"
+            "meaning": {
+              "purple": [
+                "vztah"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Rücksicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ohleduplnost"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Hinsicht"
-          ],
-          "purple": [
-            "ohledu"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Hinsicht"
-          ],
-          "red": [
-            "Nachricht"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -10764,49 +16404,63 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Přípitek \"ať žije!\"",
       "explanation": [
-        "Hlavní myšlenka: das Hoch s velkým písmenem a členem das je podstatné jméno - oslavný výkřik/přípitek (Ein Hoch auf...! = Ať žije...!) nebo za počasí - oblast vysokého tlaku.",
-        "Malé písmeno hoch je přídavné jméno - vysoký (der Berg ist hoch).",
-        "Fráze ein Hoch ausbringen znamená pozvednout přípitek.",
-        "V počasí znamená das Hoch anticyklonu, oblast vysokého tlaku vzduchu (opak: das Tief)."
+        "Hlavní myšlenka: das Hoch v tomto významu je zvolání při přípitku „ať žije!“, které se pronáší na něčí počest: ein Hoch auf das Brautpaar ausbringen. Je to podstatné jméno středního rodu, množné číslo die Hochs.",
+        "Stejné slovo v meteorologii označuje anticyklonu, tlakovou výši, která obvykle přináší jasné počasí: ein Hoch über Skandinavien. V přeneseném významu je ein Hoch také dobré, úspěšné období.",
+        "Přídavné jméno hoch (vysoký) je jiné slovo a píše se malým písmenem."
       ],
       "examples": [
         {
           "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
-          "lv": "Připíjíme na novomanžele."
+          "lv": "Pronášíme přípitek na novomanžele."
         },
         {
-          "de": "Ein Hoch auf dich!",
-          "lv": "Ať žiješ!"
+          "de": "Ein dreifaches Hoch auf den Jubilar!",
+          "lv": "Třikrát ať žije oslavenec!"
         },
         {
-          "de": "Morgen kommt ein Hoch.",
-          "lv": "Zítra se očekává tlaková výše."
+          "de": "Morgen bringt ein Hoch sonniges Wetter.",
+          "lv": "Zítra přinese anticyklóna slunečné počasí."
         },
         {
-          "de": "Der Berg ist sehr hoch.",
-          "lv": "Hora je velmi vysoká."
+          "de": "Nach dem Tief folgt ein Hoch.",
+          "lv": "Po cyklóně následuje anticyklóna."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Toast",
+          "meaning": "přípitek",
+          "example": "Er hält einen Toast. – Pronáší přípitek."
+        },
+        {
+          "word": "das Tief",
+          "meaning": "tlaková níže",
+          "example": "Das Tief bringt Regen. – Tlaková níže přináší déšť."
+        },
+        {
+          "word": "hoch",
+          "meaning": "vysoký",
+          "example": "Der Berg ist hoch. – Hora je vysoká."
         }
       ],
       "tip": [
-        "Das Hoch s velkým písmenem - oslavný pokřik nebo anticyklóna ve zprávách o počasí.",
-        "Malé písmeno hoch - vysoký (přídavné jméno)."
+        "Při přípitku použij spojení ein Hoch auf + akuzativ: auf den Gastgeber.",
+        "V předpovědi počasí je Hoch protikladem k Tief."
       ],
       "important": [
-        "Das Hoch = přípitek (\"ať žije!\") NEBO anticyklóna (počasí) - podstatné jméno.",
-        "Hoch = vysoký — přídavné jméno, bez členu.",
-        "Kontrast počasí: das Hoch ↔ das Tief."
+        "Podstatné jméno das Hoch se píše velkým písmenem, přídavné jméno hoch malým.",
+        "Množné číslo je die Hochs, nikoli die Höchen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Hoch"
+            "Hoch",
+            "hoch"
           ],
           "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "green": [
-            "hoch"
+            "přípitku",
+            "ať žije",
+            "anticyklonu"
           ]
         },
         "examples": [
@@ -10818,7 +16472,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Připíjíme"
+                "přípitek"
               ]
             }
           },
@@ -10830,7 +16484,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "žiješ"
+                "ať žije"
               ]
             }
           },
@@ -10842,51 +16496,68 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zítra"
+                "anticyklóna"
               ]
             }
           },
           {
             "de": {
+              "blue": [
+                "Hoch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "anticyklóna"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Toast"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "přípitek"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Tief"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tlaková níže"
+              ]
+            }
+          },
+          {
+            "word": {
               "green": [
                 "hoch"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Hora"
+                "vysoký"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "das Hoch"
-            ]
-          },
-          {
-            "green": [
-              "hoch"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "das Hoch"
-            ]
-          },
-          {
-            "green": [
-              "hoch"
-            ]
-          },
-          {
-            "blue": [
-              "das Tief"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -10947,56 +16618,61 @@ const B2_WORDS = [
       "id": "b2-hochwasser",
       "layout": "standardStudy",
       "translation": "Povodeň • Vysoká hladina vody",
-      "explanation": "Hlavní myšlenka: das Hochwasser znamená povodeň nebo velmi vysokou hladinu vody v řece, jezeře nebo moři. Množné číslo: die Hochwasser. Často se používá v tisku a varování.",
+      "explanation": [
+        "Hlavní myšlenka: das Hochwasser je podstatné jméno středního rodu. Znamená velmi vysokou hladinu vody v řece, moři nebo jezeře a povodeň, kterou způsobuje. Množné číslo je die Hochwasser (také Hochwässer).",
+        "Časté výrazy: Hochwasser führen (řeka má vysokou hladinu), vor Hochwasser warnen (varovat před povodní), vom Hochwasser betroffen sein (být postižen povodní). Opakem je das Niedrigwasser."
+      ],
       "examples": [
         {
           "de": "Nach dem Regen gibt es Hochwasser.",
-          "lv": "Po dešti je povodeň."
+          "lv": "Po dešti přichází povodeň."
         },
         {
-          "de": "Das Hochwasser bedroht die Stadt.",
-          "lv": "Vysoká hladina vody ohrožuje město."
+          "de": "Der Fluss führt Hochwasser.",
+          "lv": "Řeka má vysokou hladinu."
         },
         {
           "de": "Die Behörden warnen vor Hochwasser.",
-          "lv": "Úřady varují před povodněmi."
+          "lv": "Úřady varují před povodní."
+        },
+        {
+          "de": "Das Hochwasser hat mehrere Dörfer erreicht.",
+          "lv": "Povodeň zasáhla několik vesnic."
         }
       ],
       "comparison": [
         {
-          "word": "das Hochwasser",
-          "meaning": "Povodeň • Vysoká hladina vody",
-          "example": "Es gibt Hochwasser. = Je vysoká hladina vody."
-        },
-        {
           "word": "die Überschwemmung",
-          "meaning": "Povodeň (konkrétní)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Povodeň zničila domy."
+          "meaning": "záplava",
+          "example": "Die Überschwemmung zerstörte die Ernte. – Záplava zničila úrodu."
         },
         {
-          "word": "der Pegel",
-          "meaning": "Vodní hladina",
-          "example": "Der Pegel steigt. = Vodní hladina stoupá."
+          "word": "die Flut",
+          "meaning": "příliv",
+          "example": "Die Flut kommt am Abend. – Příliv přichází večer."
+        },
+        {
+          "word": "das Niedrigwasser",
+          "meaning": "nízká hladina vody",
+          "example": "Bei Niedrigwasser fahren weniger Schiffe. – Při nízké hladině vody pluje méně lodí."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Hoch = vysoký, Wasser = voda. Hochwasser = vysoká hladina vody, často znamená povodeň."
-          }
-        ]
-      },
-      "important": {
-        "text": "Das Hochwasser = povodeň nebo vysoká hladina vody. Množné číslo: die Hochwasser."
-      },
+      "tip": [
+        "Pamatuj na protiklad: Hochwasser – Niedrigwasser.",
+        "Ve zprávách uslyšíš Hochwasserwarnung, Hochwasserschutz."
+      ],
+      "important": [
+        "Hochwasser není totéž co Flut (mořský příliv).",
+        "V množném čísle je člen die, ale slovo zůstává beze změny: die Hochwasser."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Hochwasser"
+            "Hochwasser"
           ],
           "purple": [
-            "Hlavní",
-            "Hlavní"
+            "povodeň",
+            "vysokou hladinu vody"
           ]
         },
         "examples": [
@@ -11008,7 +16684,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "dešti"
+                "povodeň"
               ]
             }
           },
@@ -11020,7 +16696,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Vysoká"
+                "vysokou hladinu"
               ]
             }
           },
@@ -11032,10 +16708,68 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Úřady"
+                "povodní"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hochwasser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Povodeň"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Überschwemmung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "záplava"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Flut"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "příliv"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Niedrigwasser"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nízká hladina vody"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -11605,49 +17339,61 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Dlouhá a těžká nemoc",
       "explanation": [
-        "Hlavní myšlenka: das Leiden s velkým písmenem a členem das je podstatné jméno - utrpení, dlouhá/těžká nemoc.",
-        "Leiden s malým písmenem je sloveso - trpět.",
-        "Das Leiden se často používá v lékařském nebo literárním kontextu (ein schweres Leiden = těžká nemoc).",
-        "Množné číslo: die Leiden."
+        "Hlavní myšlenka: das Leiden je podstatné jméno středního rodu, které se používá dvojím způsobem: jako utrpení (das Leiden der Menschen) a jako dlouhá, často chronická nemoc (ein schweres Leiden). Množné číslo je die Leiden.",
+        "Slovo je substantivizací slovesa leiden (trpět). Typická spojení: ein chronisches Leiden, ein altes Leiden, nach langem, schwerem Leiden (v parte).",
+        "Oproti běžnému Krankheit zdůrazňuje slovo Leiden délku a závažnost nemoci."
       ],
       "examples": [
         {
           "de": "Er hat ein schweres Leiden.",
-          "lv": "Má vážnou nemoc."
+          "lv": "Trpí těžkou nemocí."
         },
         {
           "de": "Das Leiden der Patienten war groß.",
           "lv": "Utrpení pacientů bylo velké."
         },
         {
-          "de": "Er leidet an einer seltenen Krankheit.",
-          "lv": "Trpí vzácnou nemocí."
+          "de": "Nach langem Leiden ist er gestorben.",
+          "lv": "Po dlouhém utrpení zemřel."
         },
         {
-          "de": "Ihr Leiden dauerte Jahre.",
-          "lv": "Její nemoc trvala léta."
+          "de": "Ein chronisches Leiden begleitet ihn seit Jahren.",
+          "lv": "Chronická nemoc ho provází už léta."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Krankheit",
+          "meaning": "nemoc",
+          "example": "Eine Krankheit kann ansteckend sein. – Nemoc může být nakažlivá."
+        },
+        {
+          "word": "der Schmerz",
+          "meaning": "bolest",
+          "example": "Der Schmerz ist stark. – Bolest je silná."
+        },
+        {
+          "word": "leiden",
+          "meaning": "trpět",
+          "example": "Er leidet an Asthma. – Trpí astmatem."
         }
       ],
       "tip": [
-        "Das Leiden s velkým písmenem - podstatné jméno (utrpení, těžká nemoc).",
-        "Leiden s malým písmenem - sloveso (trpět)."
+        "Se slovesem leiden řekni: an einer Krankheit leiden (trpět nemocí).",
+        "V parte často přečteš: nach schwerem Leiden."
       ],
       "important": [
-        "Das Leiden = utrpení/těžká nemoc (podstatné jméno).",
-        "Leiden = trpět (sloveso).",
-        "Množné číslo: die Leiden."
+        "Leiden je podstatné jméno psané velkým písmenem, kdežto leiden je sloveso psané malým.",
+        "V běžné řeči se o krátkodobé nemoci říká Krankheit, ne Leiden."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Leiden"
+            "Leiden"
           ],
           "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "green": [
-            "leiden"
+            "utrpení",
+            "dlouhá, často chronická nemoc"
           ]
         },
         "examples": [
@@ -11659,7 +17405,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vážnou"
+                "těžkou nemocí"
               ]
             }
           },
@@ -11677,13 +17423,13 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "leidet"
+              "blue": [
+                "Leiden"
               ]
             },
             "lv": {
               "purple": [
-                "Trpí"
+                "utrpení"
               ]
             }
           },
@@ -11695,39 +17441,56 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Její"
+                "Chronická nemoc"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Krankheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nemoc"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Schmerz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bolest"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "leiden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "trpět"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "das Leiden"
-            ]
-          },
-          {
-            "green": [
-              "leiden"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "das Leiden"
-            ]
-          },
-          {
-            "green": [
-              "leiden"
-            ]
-          },
-          {
-            "blue": [
-              "die Leiden"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -12436,68 +18199,65 @@ const B2_WORDS = [
     "study": {
       "id": "b2-nachdruck",
       "layout": "standardStudy",
-      "translation": "Důraz • Dotisk",
+      "translation": "Důraz",
       "explanation": [
-        "Hlavní myšlenka: der Nachdruck může znamenat zdůraznění nebo dotisk knihy.",
-        "Nachdruck auf etwas legen = něco zdůraznit, na něčem trvat.",
-        "Der Nachdruck eines Buches = dotisk knihy.",
-        "Kontext (transakce/vyjednávání nebo zveřejnění) určuje správný význam."
+        "Hlavní myšlenka: der Nachdruck je podstatné jméno mužského rodu. Jeho hlavní význam je důraz, rozhodnost, naléhavost, s jakou někdo něco říká nebo dělá: mit Nachdruck (naléhavě, s důrazem), Nachdruck auf etwas legen (klást na něco důraz).",
+        "V tomto významu se používá jednotné číslo: der Nachdruck, des Nachdrucks. Druhý význam – v polygrafii dotisk nebo přetisk; pak je množné číslo die Nachdrucke. Na publikacích se často vidí: Nachdruck verboten!"
       ],
       "examples": [
         {
-          "de": "Er legt Nachdruck auf die Frist.",
-          "lv": "Zdůrazňuje termín."
+          "de": "Mit Nachdruck forderte sie eine Antwort.",
+          "lv": "Naléhavě požadovala odpověď."
         },
         {
-          "de": "Mit Nachdruck forderte sie eine Antwort.",
-          "lv": "Dožadovala se odpovědi."
+          "de": "Er legt besonderen Nachdruck auf die Qualität.",
+          "lv": "Klade zvláštní důraz na kvalitu."
         },
         {
           "de": "Der Nachdruck des Romans erschien im Frühjahr.",
           "lv": "Dotisk románu vyšel na jaře."
         },
         {
-          "de": "Dieses Buch ist bereits im Nachdruck.",
-          "lv": "Tato kniha je již v dotisku."
-        },
-        {
-          "de": "Der Verlag plant einen Nachdruck.",
-          "lv": "Vydavatel plánuje opětovné vydání."
+          "de": "Nachdruck verboten!",
+          "lv": "Přetisk zakázán!"
         }
       ],
       "comparison": [
         {
-          "word": "Nachdruck legen auf",
-          "meaning": "Zdůraznit, trvat na tom",
-          "example": "Er legt Nachdruck auf die Frist. = Klade důraz na lhůtu."
+          "word": "die Betonung",
+          "meaning": "přízvuk, důraz",
+          "example": "Die Betonung liegt auf der ersten Silbe. – Přízvuk je na první slabice."
         },
         {
-          "word": "der Nachdruck (Buch)",
-          "meaning": "Dotisk, přetisk",
-          "example": "Der Nachdruck erschien im Frühjahr. = Dotisk vyšel na jaře."
+          "word": "die Auflage",
+          "meaning": "náklad, vydání",
+          "example": "Das Buch erscheint in zweiter Auflage. – Kniha vychází ve druhém vydání."
         },
         {
-          "word": "der Druck",
-          "meaning": "Tlak / tisk",
-          "example": "Unter Druck stehen = Být pod tlakem"
+          "word": "nachdrücklich",
+          "meaning": "naléhavý",
+          "example": "Er bat nachdrücklich um Hilfe. – Naléhavě prosil o pomoc."
         }
       ],
       "tip": [
-        "V diskusích a požadavcích: Nachdruck = důraz.",
-        "V nakladatelství a knihách: Nachdruck = dotisk."
+        "Zapamatuj si dvě ustálená spojení: mit Nachdruck a Nachdruck verleihen.",
+        "Příbuzné přídavné jméno nachdrücklich znamená naléhavý, důrazný."
       ],
       "important": [
-        "Nachdruck auf etwas legen = zdůraznit.",
-        "Der Nachdruck eines Buches = dotisk."
+        "Nachdruck se v tomto významu používá v jednotném čísle; množné číslo die Nachdrucke se vztahuje na dotisky.",
+        "Nezaměňuj s Druck (tlak, tisk): to je jiný význam."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Nachdruck"
+            "der Nachdruck",
+            "Nachdruck",
+            "Nachdrucke"
           ],
           "purple": [
-            "Hlavní",
-            "Hlavní"
+            "důraz",
+            "dotisk",
+            "přetisk"
           ]
         },
         "examples": [
@@ -12509,7 +18269,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Zdůrazňuje"
+                "Naléhavě"
               ]
             }
           },
@@ -12521,13 +18281,13 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dožadovala"
+                "důraz"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Nachdruck"
               ]
             },
@@ -12539,28 +18299,62 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Nachdruck"
               ]
             },
             "lv": {
               "purple": [
-                "Tato"
+                "Přetisk"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Betonung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "přízvuk, důraz"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Nachdruck"
+                "die Auflage"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Vydavatel"
+                "náklad, vydání"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nachdrücklich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "naléhavý"
               ]
             }
           }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -12613,48 +18407,63 @@ const B2_WORDS = [
       "id": "b2-nachtr-glich",
       "layout": "standardStudy",
       "translation": "Pozdější • Dodatečný • Později",
-      "explanation": "Hlavní myšlenka: nachträglich znamená pozdější, dodatečný nebo později. S podstatným jménem je to pozdější nebo dodatečný, se slovesem později. Ve větě Alles Gute nachträglich! znamená přání po narozeninách.",
+      "explanation": [
+        "Hlavní myšlenka: nachträglich znamená dodatečně, až po hlavním jednání nebo termínu – později přidané nebo provedené. Je to přídavné jméno (eine nachträgliche Änderung) i příslovce (nachträglich ändern).",
+        "Častý je význam opožděnosti: nachträglich gratulieren – blahopřát dodatečně. Přídavné jméno vyjadřuje i dodatečný charakter: eine nachträgliche Zahlung (dodatečná platba)."
+      ],
       "examples": [
         {
-          "de": "Eine nachträgliche Änderung.",
-          "lv": "Dodatečná úprava."
+          "de": "Eine nachträgliche Änderung ist nicht mehr möglich.",
+          "lv": "Dodatečná změna už není možná."
         },
         {
-          "de": "Ich ändere den Text nachträglich.",
-          "lv": "Text upravím dodatečně."
+          "de": "Ich habe den Text nachträglich geändert.",
+          "lv": "Text jsem později změnil."
         },
         {
           "de": "Es gibt eine nachträgliche Zahlung.",
           "lv": "Je tu dodatečná platba."
         },
         {
-          "de": "Alles Gute nachträglich!",
-          "lv": "Všechno nejlepší dodatečně!"
+          "de": "Herzlichen Glückwunsch nachträglich!",
+          "lv": "Srdečně blahopřeji dodatečně!"
         }
       ],
       "comparison": [
         {
-          "word": "nachträglich",
-          "meaning": "Pozdější, Dodatečný, Později",
-          "example": "Eine nachträgliche Änderung. = Dodatečná úprava."
-        },
-        {
           "word": "später",
           "meaning": "později",
-          "example": "Wir kommen später. = Přijdeme později."
+          "example": "Wir sprechen später. – Promluvíme si později."
+        },
+        {
+          "word": "zusätzlich",
+          "meaning": "navíc",
+          "example": "Es gibt zusätzliche Kosten. – Vznikají další náklady."
+        },
+        {
+          "word": "nachher",
+          "meaning": "potom",
+          "example": "Ich rufe dich nachher an. – Zavolám ti potom."
         }
       ],
-      "tip": "Když se něco děje až potom, mysli na nachträglich.",
-      "important": "Nachträglich není totéž co später (prostě později).",
+      "tip": [
+        "Při opožděném blahopřání řekni nachträglich: Alles Gute nachträglich!",
+        "Na rozdíl od später nachträglich naznačuje, že se něco mělo udělat dříve."
+      ],
+      "important": [
+        "nachträglich se vztahuje na to, co následuje po již proběhlém, nikoli na jakýkoli pozdější čas v budoucnosti.",
+        "Přídavné jméno se skloňuje: nachträglicher, nachträgliche, nachträgliches."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "nachträglich"
+            "nachträglich",
+            "nachträgliche"
           ],
           "purple": [
-            "Pozdější",
-            "Dodatečný",
-            "Později"
+            "dodatečně",
+            "dodatečná platba",
+            "později"
           ]
         },
         "examples": [
@@ -12678,7 +18487,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "dodatečně"
+                "později"
               ]
             }
           },
@@ -12711,28 +18520,6 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "nachträglich"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Pozdější",
-                "Dodatečný",
-                "Později"
-              ]
-            },
-            "example": {
-              "blue": [
-                "nachträgliche"
-              ],
-              "purple": [
-                "Dodatečná"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "später"
               ]
             },
@@ -12740,27 +18527,41 @@ const B2_WORDS = [
               "purple": [
                 "později"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zusätzlich"
+              ]
             },
-            "example": {
-              "red": [
-                "später"
+            "meaning": {
+              "purple": [
+                "navíc"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nachher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "potom"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "nachträglich"
-          ]
-        },
-        "important": {
-          "blue": [
-            "nachträglich"
-          ],
-          "red": [
-            "später"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -13177,18 +18978,163 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-paaren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Pářit se s",
-      "rektion": "Mit + kam?",
-      "explanation": "Sich paaren se pojí s předložkou mit + 3. pád (Dativ): sich mit jemandem paaren.",
-      "forms": "Mit + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich paaren znamená pářit se – o zvířatech, když se rozmnožují. Partner se uvádí pomocí mit + dativ: Der Löwe paart sich mit der Löwin. V přeneseném významu se dvě vlastnosti nebo věci spojují: Mut paart sich mit Klugheit.",
+        "Tvary: paart sich, paarte sich, hat sich gepaart. Bez sich je paaren přechodné: Züchter paaren zwei Tiere – chovatelé spojují dvě zvířata do páru."
+      ],
+      "examples": [
+        {
+          "de": "Die Vögel paaren sich im Frühjahr.",
+          "lv": "Ptáci se páří na jaře."
+        },
+        {
+          "de": "Der Löwe paart sich mit der Löwin.",
+          "lv": "Lev se páří s lvicí."
+        },
+        {
+          "de": "Bei ihm paart sich Mut mit Klugheit.",
+          "lv": "U něj se odvaha pojí s chytrostí."
+        },
+        {
+          "de": "Hier paart sich Tradition mit Moderne.",
+          "lv": "Zde se tradice spojuje s moderností."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "paaren",
+          "meaning": "spářit",
+          "example": "Der Züchter paart zwei Hunde. – Chovatel spáří dva psy."
+        },
+        {
+          "word": "verbinden",
+          "meaning": "spojovat",
+          "example": "Das Hotel verbindet Komfort mit Natur. – Hotel spojuje pohodlí s přírodou."
+        },
+        {
+          "word": "sich vereinigen",
+          "meaning": "sjednotit se",
+          "example": "Die Gruppen vereinigen sich. – Skupiny se sjednocují."
+        }
+      ],
+      "tip": [
+        "Pro přenesený význam si zapamatuj hotový pár: Mut paart sich mit Klugheit.",
+        "Partnera uveď pomocí mit + dativ: mit dem Männchen, mit der Tradition."
+      ],
+      "important": [
+        "O lidech se toto sloveso používá zřídka, protože zní biologicky nebo hrubě.",
+        "Po mit následuje dativ."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich paaren"
+            "paaren",
+            "paart",
+            "paarte",
+            "gepaart"
+          ],
+          "purple": [
+            "pářit se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "paaren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "páří"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "páří"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pojí"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "spojuje"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "paaren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spářit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verbinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spojovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich vereinigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sjednotit se"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -13828,18 +19774,164 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-revanchieren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Odplatit • Pomstít se",
-      "rektion": "Bei + kam?",
-      "explanation": "Sich revanchieren se pojí s bei + 3. pád (Dativ) a für + 4. pád (Akkusativ): sich bei jemandem für etwas revanchieren.",
-      "forms": "Bei + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich revanchieren znamená odpovědět na čin někoho podobným činem. Nejčastěji je to pozitivní – odplatit (odvděčit se) za laskavost, pozvání nebo dárek, ale může znamenat i pomstít se za zlo. Výslovnost: [revɑ̃ˈʃiːrən], ch jako š.",
+        "Komu se odplácí, se uvádí pomocí bei + dativ, za co pomocí für + akuzativ, čím pomocí mit + dativ: sich bei jemandem für etwas mit etwas revanchieren. Tvary: revanchiert sich, revanchierte sich, hat sich revanchiert."
+      ],
+      "examples": [
+        {
+          "de": "Ich möchte mich bei dir für die Einladung revanchieren.",
+          "lv": "Chci se ti za pozvání odvděčit."
+        },
+        {
+          "de": "Er revanchierte sich mit einem Geschenk.",
+          "lv": "Odvděčil se dárkem."
+        },
+        {
+          "de": "Die Mannschaft revanchierte sich für die Niederlage.",
+          "lv": "Mužstvo se pomstilo za porážku."
+        },
+        {
+          "de": "Dafür werde ich mich noch revanchieren!",
+          "lv": "Za to se ještě odplatím!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich bedanken",
+          "meaning": "poděkovat",
+          "example": "Ich bedanke mich bei dir. – Děkuji ti."
+        },
+        {
+          "word": "sich rächen",
+          "meaning": "mstít se",
+          "example": "Er rächt sich an seinem Feind. – Mstí se svému nepříteli."
+        },
+        {
+          "word": "vergelten",
+          "meaning": "odplatit",
+          "example": "Man soll Gutes mit Gutem vergelten. – Dobro se má odplácet dobrem."
+        }
+      ],
+      "tip": [
+        "Po laskavém pozvání můžeš říct: Beim nächsten Mal revanchiere ich mich!",
+        "Význam určuje kontext: při poděkování je slovo pozitivní, ve sportu a sporech znamená pomstu."
+      ],
+      "important": [
+        "revanchieren neznamená vždy zlou pomstu; v běžné řeči se často odpovídá dobrým skutkem.",
+        "Po bei následuje dativ: bei dir, bei den Gästen; po für akuzativ."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich revanchieren"
+            "revanchieren",
+            "revanchiert",
+            "revanchierte"
+          ],
+          "purple": [
+            "odplatit",
+            "odvděčit se",
+            "pomstít se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "revanchieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odvděčit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Odvděčil se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pomstilo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "odplatím"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bedanken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "poděkovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "rächen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mstít se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergelten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odplatit"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -14163,18 +20255,167 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-scheren",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Pečovat o",
-      "rektion": "Um + ko?",
-      "explanation": "Sich scheren se pojí s předložkou um + 4. pád (Akkusativ): sich um etwas scheren.",
-      "forms": "Um + ko?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich scheren um je v tomto významu hovorový výraz ve smyslu starat se o něco, pečovat, ale téměř jen v záporu nebo v otázce: Er schert sich nicht um die Regeln – pravidla ho nezajímají.",
+        "Tvary: schert sich, scherte sich, hat sich geschert. Pomocí um + akuzativ se uvádí, o co se někdo stará. Řečnická otázka: Was schert mich das? – Co je mi po tom?",
+        "Hrubý rozkaz Scher dich weg! znamená vypadni! Bez zvratného zájmena sich znamená sloveso scheren stříhat, ostříhat (Schafe scheren)."
+      ],
+      "examples": [
+        {
+          "de": "Er schert sich nicht um die Regeln.",
+          "lv": "Nestará se o pravidla."
+        },
+        {
+          "de": "Was schert mich das Gerede der anderen?",
+          "lv": "Co je mi po řečech ostatních?"
+        },
+        {
+          "de": "Sie schert sich wenig um ihre Gesundheit.",
+          "lv": "O své zdraví se stará málo."
+        },
+        {
+          "de": "Scher dich weg!",
+          "lv": "Vypadni!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich kümmern",
+          "meaning": "starat se",
+          "example": "Ich kümmere mich um die Kinder. – Starám se o děti."
+        },
+        {
+          "word": "interessieren",
+          "meaning": "zajímat",
+          "example": "Das interessiert mich nicht. – To mě nezajímá."
+        },
+        {
+          "word": "scheren",
+          "meaning": "stříhat",
+          "example": "Der Bauer schert die Schafe. – Zemědělec stříhá ovce."
+        }
+      ],
+      "tip": [
+        "V běžné řeči se sich scheren um typicky slyší se záporem: Er schert sich nicht darum.",
+        "Chceš-li neutrálně říct starat se, zvol sich kümmern um + akuzativ."
+      ],
+      "important": [
+        "sich scheren um se obvykle používá v záporu; v kladné větě zní neobvykle.",
+        "Scher dich weg! je hrubé – nepoužívej v zdvořilém rozhovoru."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich scheren"
+            "scheren",
+            "schert",
+            "scherte",
+            "geschert",
+            "Scher"
+          ],
+          "purple": [
+            "starat se",
+            "pečovat",
+            "stříhat"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nestará se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Co je mi po"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "stará"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Scher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Vypadni"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich kümmern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "starat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "interessieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zajímat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "scheren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stříhat"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -14527,49 +20768,60 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Existence",
       "explanation": [
-        "Hlavní myšlenka: das Sein s velkým písmenem a členem das je podstatné jméno - existence, existence (filosofický pojem).",
-        "Sein s malým písmenem je sloveso - být.",
-        "Das Sein se často používá ve filozofickém nebo abstraktním kontextu (das menschliche Sein).",
-        "Substantivizace: sein → das Sein, jako können → das Können."
+        "Hlavní myšlenka: das Sein je podstatné jméno středního rodu odvozené od slovesa sein. Ve filozofii znamená bytí, existenci – to, že něco vůbec je. Opakem je das Nichts nebo das Nichtsein (nebytí).",
+        "Slovo je podstatné jméno jen v jednotném čísle (das Sein, des Seins), množné číslo nemá. Známá fráze: Sein oder Nichtsein (Hamletovo „Být, či nebýt“). Podstatné jméno Sein se píše velkým písmenem."
       ],
       "examples": [
         {
           "de": "Das menschliche Sein ist komplex.",
-          "lv": "Lidská existence je složitá."
+          "lv": "Lidské bytí je složité."
         },
         {
           "de": "Sein oder Nichtsein, das ist die Frage.",
-          "lv": "Být či nebýt, toť otázka."
-        },
-        {
-          "de": "Ich bin müde.",
-          "lv": "Jsem unavený"
+          "lv": "Být, či nebýt, to je otázka."
         },
         {
           "de": "Das Sein bestimmt das Bewusstsein.",
-          "lv": "Existence určuje vědomí."
+          "lv": "Bytí určuje vědomí."
+        },
+        {
+          "de": "Der Philosoph denkt über das Sein nach.",
+          "lv": "Filozof přemýšlí o bytí."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Dasein",
+          "meaning": "lidská existence",
+          "example": "Sein Dasein war schwer. – Jeho existence byla těžká."
+        },
+        {
+          "word": "das Wesen",
+          "meaning": "podstata",
+          "example": "Das Wesen der Sache ist einfach. – Podstata věci je jednoduchá."
+        },
+        {
+          "word": "die Existenz",
+          "meaning": "existence",
+          "example": "Er bezweifelt ihre Existenz. – Pochybuje o jejich existenci."
         }
       ],
       "tip": [
-        "Das Sein s velkým písmenem - podstatné jméno (existence, ve filozofickém smyslu).",
-        "Sein malé písmeno - sloveso (být)."
+        "Podstatné jméno Sein se často objevuje ve filozofii: das Sein und das Bewusstsein.",
+        "Něco jiného je přivlastňovací zájmeno sein (jeho), které se píše malým písmenem."
       ],
       "important": [
-        "Das Sein = existence (podstatné jméno, abstraktní/filosofické).",
-        "Sein = být (sloveso, každodenní).",
-        "Toto slovo je substantivizované sloveso, jako das Können."
+        "Das Sein není běžné slovo; v běžné řeči se říká das Leben nebo die Existenz.",
+        "Nezaměňuj podstatné jméno das Sein se slovesem sein (být) a se zájmenem sein (jeho)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Sein"
+            "Sein"
           ],
           "purple": [
-            "Hlavní",
-            "existence"
-          ],
-          "green": [
-            "sein"
+            "existenci",
+            "bytí"
           ]
         },
         "examples": [
@@ -14581,31 +20833,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Lidská"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Sein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Být"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "bin"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jsem"
+                "bytí"
               ]
             }
           },
@@ -14617,39 +20845,80 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Existence"
+                "Být"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Bytí"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bytí"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Dasein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lidská existence"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Wesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podstata"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Existenz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "existence"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "das Sein"
-            ]
-          },
-          {
-            "green": [
-              "sein"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "das Sein"
-            ]
-          },
-          {
-            "green": [
-              "sein"
-            ]
-          },
-          {
-            "blue": [
-              "das Können"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -14792,44 +21061,56 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Pokud • Za předpokladu, že",
       "explanation": [
-        "Hlavní myšlenka: sofern je podmínková spojka – znamená pokud, za předpokladu, že.",
-        "Sofern zavádí podmínkovou vedlejší větu, podobnou wenn, ale je formálnější a typická pro psaný styl.",
-        "Sofern NEZNAMENÁ „protože“ (příčinná spojka) – to se v němčině řekne da nebo weil.",
-        "Běžně se používá v právních a formálních textech (sofern nicht anders vereinbart = pokud není dohodnuto jinak)."
+        "Hlavní myšlenka: sofern je podřadicí spojka, která uvozuje podmínku: pokud, za předpokladu, že. Vyjadřuje, že něco platí nebo se stane jen tehdy, je-li podmínka splněna.",
+        "Po sofern následuje vedlejší věta, ve které je sloveso na konci: Ich komme, sofern ich Zeit habe. Vedlejší věta se odděluje čárkou. Spojka je stylisticky o něco úřednější než wenn a často se objevuje ve smlouvách a předpisech.",
+        "Lze ji použít i zkráceně: sofern möglich – pokud možno."
       ],
       "examples": [
         {
           "de": "Ich komme, sofern ich Zeit habe.",
-          "lv": "Přijdu, když mám čas."
+          "lv": "Přijdu, pokud budu mít čas."
         },
         {
           "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
-          "lv": "Není-li dohodnuto jinak, platí standardní cena."
+          "lv": "Pokud není dohodnuto jinak, platí standardní cena."
         },
         {
-          "de": "Sofern das Wetter gut ist, machen wir einen Ausflug.",
-          "lv": "Za příznivého počasí pojedeme na výlet."
-        },
-        {
-          "de": "Sofern möglich, bitte pünktlich sein.",
-          "lv": "Pokud možno, buďte prosím dochvilní."
+          "de": "Wir fahren morgen, sofern das Wetter gut ist.",
+          "lv": "Pojedeme zítra, pokud bude dobré počasí."
         },
         {
           "de": "Er hilft, sofern er kann.",
           "lv": "Pomáhá, pokud může."
         },
         {
-          "de": "Da es regnet, bleiben wir zu Hause.",
-          "lv": "Protože prší, zůstáváme doma."
+          "de": "Sofern es möglich ist, rufe ich dich an.",
+          "lv": "Pokud to bude možné, zavolám ti."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "wenn",
+          "meaning": "když",
+          "example": "Wenn es regnet, bleibe ich zu Hause. – Když prší, zůstanu doma."
+        },
+        {
+          "word": "falls",
+          "meaning": "v případě, že",
+          "example": "Falls du kommst, ruf an. – Pokud přijdeš, zavolej."
+        },
+        {
+          "word": "soweit",
+          "meaning": "pokud",
+          "example": "Soweit ich weiß, ist er krank. – Pokud vím, je nemocný."
         }
       ],
       "tip": [
-        "Pokud / za předpokladu, že (podmínka) – nezaměňovat s příčinou.",
-        "„Protože“ (příčina) se v němčině řekne da/weil, ne sofern."
+        "Spojku sofern použij, když chceš zdůraznit podmínku: Sofern keine Einwände bestehen, …",
+        "Pamatuj na slovosled: sofern + podmět + … + sloveso na konci."
       ],
       "important": [
-        "Pokud existuje podmíněná, nikoli příčinná souvislost.",
-        "Nesprávně: sofern = protože → Správně: da/weil = protože."
+        "Po sofern je sloveso na konci vedlejší věty, nikoli na druhém místě.",
+        "sofern není totéž co soweit (pokud, do té míry, jak): soweit označuje míru, sofern podmínku."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14837,12 +21118,8 @@ const B2_WORDS = [
             "sofern"
           ],
           "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "red": [
-            "da",
-            "weil"
+            "pokud",
+            "za předpokladu, že"
           ]
         },
         "examples": [
@@ -14854,7 +21131,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Přijdu"
+                "pokud"
               ]
             }
           },
@@ -14866,31 +21143,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Není"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Sofern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "příznivého"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Sofern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Prosím"
+                "Pokud"
               ]
             }
           },
@@ -14902,47 +21155,80 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Pomáhá"
+                "pokud"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "Da"
+              "blue": [
+                "sofern"
               ]
             },
             "lv": {
-              "red": [
-                "Protože"
+              "purple": [
+                "pokud"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pokud"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "když"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "falls"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "v případě, že"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "soweit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pokud"
               ]
             }
           }
         ],
         "tip": [
           {},
-          {
-            "red": [
-              "da",
-              "weil"
-            ]
-          }
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "Pokud"
-            ]
-          },
-          {
-            "red": [
-              "da",
-              "weil"
-            ],
-            "purple": [
-              "Nesprávně"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -15111,108 +21397,118 @@ const B2_WORDS = [
       "id": "b2-sprengen",
       "layout": "standardStudy",
       "translation": "Vyhodit do vzduchu • Kropit • Zalévat",
-      "explanation": "Hlavní myšlenka: sprengen význam určuje věta: vyhodit do vzduchu, kropit nebo zalévat. S mostem jde o vyhodit do vzduchu, s prádlem kropit, s trávníkem zalévat.",
+      "explanation": [
+        "Hlavní myšlenka: sprengen je přechodné sloveso s několika významy. První – vyhodit do vzduchu, odstřelit (eine Brücke sprengen), silou roztrhnout nebo rozlámat (der Frost sprengt Felsen). Druhý – kropit, postříkat vodou (Wäsche sprengen) a zalévat (den Rasen sprengen).",
+        "Tvary: sprengt, sprengte, hat gesprengt. Kořen je stejný, ale významy se liší; z kontextu poznáš, o co jde. V přeneseném významu die Grenzen sprengen – překročit hranice."
+      ],
       "examples": [
         {
-          "de": "Eine Brücke sprengen.",
-          "lv": "Vyhodit most do vzduchu."
+          "de": "Die Armee sprengte die Brücke.",
+          "lv": "Armáda vyhodila most do vzduchu."
         },
         {
-          "de": "Die Wäsche mit Wasser sprengen.",
-          "lv": "Kropit prádlo vodou."
+          "de": "Er sprengt jeden Abend den Rasen.",
+          "lv": "Každý večer zalévá trávník."
         },
         {
-          "de": "Den Rasen sprengen.",
-          "lv": "Zalévat trávník."
+          "de": "Vor dem Bügeln sprengt sie die Wäsche mit Wasser.",
+          "lv": "Před žehlením kropí prádlo vodou."
+        },
+        {
+          "de": "Der Frost sprengt die Felsen.",
+          "lv": "Mráz roztrhává skály."
         }
       ],
       "comparison": [
         {
-          "word": "sprengen",
-          "meaning": "Vyhodit do vzduchu, Kropit, Zalévat",
-          "example": "Eine Brücke sprengen. = Vyhodit most do vzduchu."
-        },
-        {
           "word": "gießen",
           "meaning": "zalévat",
-          "example": "Ich gieße die Blumen. = Zalévám květiny."
+          "example": "Ich gieße die Blumen. – Zalévám květiny."
+        },
+        {
+          "word": "explodieren",
+          "meaning": "explodovat",
+          "example": "Die Bombe explodiert. – Bomba exploduje."
+        },
+        {
+          "word": "sprühen",
+          "meaning": "stříkat",
+          "example": "Er sprüht Wasser auf die Pflanzen. – Stříká vodu na rostliny."
         }
       ],
-      "tip": "Dívej se na předmět: most (vyhodit), prádlo nebo trávník (kropit, zalévat).",
-      "important": "Sprengen není totéž co gießen (zalévat květiny).",
+      "tip": [
+        "V zahradním kontextu znamená den Rasen sprengen zalévat trávník hadicí nebo postřikovačem.",
+        "S Bombe, Brücke, Tür sprengen se myslí odstřelení nebo vyražení."
+      ],
+      "important": [
+        "Častá spojení: etwas in die Luft sprengen – vyhodit něco do vzduchu.",
+        "Význam určuje předmět: Brücke – odstřeluje se, Rasen – zalévá se, Wäsche – kropí se."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sprengen"
+            "sprengen",
+            "sprengt",
+            "sprengte",
+            "gesprengt"
           ],
           "purple": [
-            "Vyhodit do vzduchu",
-            "Kropit",
-            "Zalévat",
-            "Vyhodit"
+            "vyhodit do vzduchu",
+            "kropit",
+            "zalévat"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "sprengen"
+                "sprengte"
               ]
             },
             "lv": {
               "purple": [
-                "Vyhodit"
+                "vyhodila most do vzduchu"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "sprengen"
+                "sprengt"
               ]
             },
             "lv": {
               "purple": [
-                "Kropit"
+                "zalévá"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "sprengen"
+                "sprengt"
               ]
             },
             "lv": {
               "purple": [
-                "Zalévat"
+                "kropí"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "roztrhává"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "sprengen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vyhodit do vzduchu",
-                "Kropit",
-                "Zalévat"
-              ]
-            },
-            "example": {
-              "blue": [
-                "sprengen"
-              ],
-              "purple": [
-                "Vyhodit"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -15223,29 +21519,41 @@ const B2_WORDS = [
               "purple": [
                 "zalévat"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "explodieren"
+              ]
             },
-            "example": {
-              "red": [
-                "gieße"
+            "meaning": {
+              "purple": [
+                "explodovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sprühen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "stříkat"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Kropit",
-            "Zalévat",
-            "Vyhodit"
-          ]
-        },
-        "important": {
-          "blue": [
-            "sprengen"
-          ],
-          "red": [
-            "gießen"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -15776,128 +22084,117 @@ const B2_WORDS = [
       "id": "b2--berbringen",
       "layout": "standardStudy",
       "translation": "Předat zprávu • Blahopřání • Dopis • Dárek",
-      "explanation": "Hlavní myšlenka: überbringen znamená někomu doručit zprávu, dopis, dárek nebo blahopřání. Se zprávou nebo blahopřáním se používá předat, s dopisem nebo dárkem doručit. Je to formálnější slovo než bringen.",
+      "explanation": [
+        "Hlavní myšlenka: überbringen znamená doručit adresátovi zprávu, blahopřání, dopis nebo dárek – přinést a předat osobně. Komu se předává, stojí ve dativu: jemandem etwas überbringen.",
+        "Neodlučitelná předpona über-: überbringt, überbrachte, hat überbracht. V infinitivu stojí zu před slovesem: um die Nachricht zu überbringen. Slovo je mírně formální."
+      ],
       "examples": [
         {
-          "de": "Eine Nachricht überbringen.",
-          "lv": "Předat zprávu."
+          "de": "Er überbrachte uns die traurige Nachricht.",
+          "lv": "Přinesl nám smutnou zprávu."
         },
         {
-          "de": "Glückwünsche überbringen.",
-          "lv": "Předat blahopřání."
+          "de": "Der Botschafter überbringt die Glückwünsche des Präsidenten.",
+          "lv": "Velvyslanec předává blahopřání prezidenta."
         },
         {
-          "de": "Einen Brief überbringen.",
-          "lv": "Doručit dopis."
+          "de": "Der Bote hat den Brief persönlich überbracht.",
+          "lv": "Kurýr doručil dopis osobně."
         },
         {
-          "de": "Ein Geschenk überbringen.",
-          "lv": "Doručit dárek."
+          "de": "Sie überbrachte dem Jubilar ein Geschenk.",
+          "lv": "Předala oslavenci dárek."
         }
       ],
       "comparison": [
         {
-          "word": "überbringen",
-          "meaning": "Předat zprávu, Blahopřání, Dopis",
-          "example": "Eine Nachricht überbringen. = Předat zprávu."
-        },
-        {
           "word": "bringen",
           "meaning": "přinést",
-          "example": "Bring mir bitte ein Glas Wasser. = Přines mi, prosím, sklenici vody."
+          "example": "Bring mir bitte ein Glas Wasser. – Přines mi prosím sklenici vody."
+        },
+        {
+          "word": "übermitteln",
+          "meaning": "předat",
+          "example": "Ich übermittle Ihnen die Daten. – Předávám vám údaje."
+        },
+        {
+          "word": "ausrichten",
+          "meaning": "vyřídit",
+          "example": "Richte ihm Grüße aus. – Vyřiď mu pozdravy."
         }
       ],
-      "tip": "Když máš předat zprávu nebo pozdrav, použij überbringen.",
-      "important": "Überbringen je formálnější slovo než bringen.",
+      "tip": [
+        "Typické předměty: eine Nachricht, Grüße, Glückwünsche, ein Geschenk überbringen.",
+        "V hovoru se jednodušeji říká ausrichten (u pozdravů) nebo bringen."
+      ],
+      "important": [
+        "Předpona über- zde není odlučitelná: Er überbringt die Nachricht, nikoli er bringt die Nachricht über.",
+        "Komu se předává, stojí ve dativu: dem Chef, den Eltern."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "überbringen"
+            "überbringen",
+            "überbringt"
           ],
           "purple": [
-            "Blahopřání",
-            "Dopis",
-            "Dárek",
-            "Předat",
-            "Doručit"
-          ],
-          "red": [
-            "bringen"
+            "zprávu",
+            "blahopřání",
+            "dopis",
+            "dárek"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "überbringen"
+                "überbrachte"
               ]
             },
             "lv": {
               "purple": [
-                "Předat"
+                "zprávu"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "überbringen"
+                "überbringt"
               ]
             },
             "lv": {
               "purple": [
-                "Předat"
+                "blahopřání"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "überbringen"
+                "überbracht"
               ]
             },
             "lv": {
               "purple": [
-                "Doručit"
+                "dopis"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "überbringen"
+                "überbrachte"
               ]
             },
             "lv": {
               "purple": [
-                "Doručit"
+                "dárek"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "überbringen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Předat zprávu",
-                "Blahopřání",
-                "Dopis"
-              ]
-            },
-            "example": {
-              "blue": [
-                "überbringen"
-              ],
-              "purple": [
-                "Předat"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -15908,31 +22205,41 @@ const B2_WORDS = [
               "purple": [
                 "přinést"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "übermitteln"
+              ]
             },
-            "example": {
-              "red": [
-                "Bring"
+            "meaning": {
+              "purple": [
+                "předat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausrichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vyřídit"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "überbringen"
-          ],
-          "purple": [
-            "Předat zprávu",
-            "Předat"
-          ]
-        },
-        "important": {
-          "blue": [
-            "überbringen"
-          ],
-          "red": [
-            "bringen"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -16390,62 +22697,71 @@ const B2_WORDS = [
       "id": "b2-unterlage",
       "layout": "standardStudy",
       "translation": "Podložka • Rohož • Podstavec • Podpora • Podklady • Dokumentace",
-      "explanation": "Hlavní myšlenka: Unterlage význam určuje věta: podložka, podpora nebo dokumentace. V jednotném čísle jde často o něco, co se podkládá: podložka, podstavec nebo podpora. V množném čísle Unterlagen jsou podklady a dokumenty.",
+      "explanation": [
+        "Hlavní myšlenka: die Unterlage je podstatné jméno ženského rodu. V jednotném čísle je to něco, co leží pod něčím – podložka, rohož, podstavec, podpora (eine Unterlage zum Schreiben). V množném čísle die Unterlagen znamená dokumenty, podklady, dokumentaci.",
+        "Množné číslo je die Unterlagen a používá se velmi často: die Unterlagen einreichen (předložit dokumenty), Unterlagen anfordern (vyžádat si podklady). Význam jednotného a množného čísla se dost liší, proto sleduj kontext."
+      ],
       "examples": [
         {
           "de": "Als Unterlage verwenden wir ein Brett.",
-          "lv": "Jako podložku používáme prkno."
+          "lv": "Jako podložku použijeme prkno."
         },
         {
           "de": "Die Matte dient als Unterlage für die Übungen.",
-          "lv": "Rohož slouží jako podložka pro cvičení."
+          "lv": "Rohož slouží jako podložka při cvičení."
         },
         {
-          "de": "Der Topf steht auf einer Unterlage.",
-          "lv": "Hrnec stojí na podstavci."
+          "de": "Bitte reichen Sie die Unterlagen bis Freitag ein.",
+          "lv": "Prosím, předložte podklady do pátku."
+        },
+        {
+          "de": "Er hat alle Unterlagen für den Antrag gesammelt.",
+          "lv": "Shromáždil všechny dokumenty k žádosti."
         },
         {
           "de": "Eine feste Unterlage stützt das Werkstück.",
           "lv": "Pevná podpora drží obrobek."
-        },
-        {
-          "de": "Die Unterlagen enthalten technische Daten.",
-          "lv": "Podklady obsahují technické údaje."
-        },
-        {
-          "de": "Die technischen Unterlagen fehlen.",
-          "lv": "Chybí technická dokumentace."
         }
       ],
       "comparison": [
         {
-          "word": "Unterlage",
-          "meaning": "Podložka, Rohož, Podstavec",
-          "example": "Als Unterlage verwenden wir ein Brett. = Jako podložku používáme prkno."
+          "word": "das Dokument",
+          "meaning": "dokument",
+          "example": "Das Dokument ist wichtig. – Dokument je důležitý."
         },
         {
-          "word": "Dokument",
-          "meaning": "dokument",
-          "example": "Das Dokument fehlt. = Dokument chybí."
+          "word": "die Grundlage",
+          "meaning": "základ",
+          "example": "Das ist die Grundlage des Vertrags. – To je základ smlouvy."
+        },
+        {
+          "word": "der Untersetzer",
+          "meaning": "podtácek",
+          "example": "Stell das Glas auf den Untersetzer. – Postav sklenici na podtácek."
         }
       ],
-      "tip": "Když je Unterlagen v množném čísle, mysli na dokumenty.",
-      "important": "Unterlage a Unterlagen znamenají různé věci: podložka a dokumenty.",
+      "tip": [
+        "V souvislosti s papíry a kancelářemi se téměř vždy používá množné číslo: Unterlagen.",
+        "Co se dává pod předmět, je Unterlage; co se dává pod sklenici, je Untersetzer."
+      ],
+      "important": [
+        "Unterlagen není jeden dokument, ale soubor dokumentů; jeden dokument je das Dokument.",
+        "Nezaměňuj s Grundlage (základ, podklad): je to širší, abstraktnější slovo."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "die Unterlage",
             "Unterlage",
             "Unterlagen"
           ],
           "purple": [
-            "Podložka",
-            "Podstavec",
-            "Podpora",
-            "Podklady",
-            "Dokumentace",
             "podložka",
+            "rohož",
+            "podstavec",
             "podpora",
-            "dokumentace"
+            "podklady",
+            "dokumentaci"
           ]
         },
         "examples": [
@@ -16476,12 +22792,24 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "Unterlage"
+                "Unterlagen"
               ]
             },
             "lv": {
               "purple": [
-                "podstavci"
+                "podklady"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dokumenty"
               ]
             }
           },
@@ -16496,84 +22824,54 @@ const B2_WORDS = [
                 "podpora"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "Unterlagen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Podklady"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Unterlagen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "dokumentace"
-              ]
-            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "Unterlage"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Podložka",
-                "Rohož",
-                "Podstavec"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Unterlage"
-              ],
-              "purple": [
-                "podložku"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "Dokument"
+                "das Dokument"
               ]
             },
             "meaning": {
               "purple": [
                 "dokument"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Grundlage"
+              ]
             },
-            "example": {
-              "red": [
-                "Dokument"
+            "meaning": {
+              "purple": [
+                "základ"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Untersetzer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podtácek"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "Unterlagen"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Unterlage",
-            "Unterlagen"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -16786,18 +23084,164 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-vereinigen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Splynout s",
-      "rektion": "Mit + kam?",
-      "explanation": "Sich vereinigen se pojí s předložkou mit + 3. pád (Dativ): sich mit jemandem vereinigen.",
-      "forms": "Mit + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich vereinigen znamená sjednotit se, splynout, spojit se dohromady – o státech, stranách, podnicích, silách. Partner se uvádí pomocí mit + dativ: sich mit einer Gruppe vereinigen. Výsledek se uvádí pomocí zu + dativ: sich zu einer Union vereinigen.",
+        "Tvary: vereinigt sich, vereinigte sich, hat sich vereinigt. Bez sich je vereinigen přechodné: Länder vereinigen – sjednotit státy. Příklad v názvu: die Vereinigten Staaten."
+      ],
+      "examples": [
+        {
+          "de": "Die beiden Firmen vereinigten sich zu einem Konzern.",
+          "lv": "Obě firmy se spojily v jeden koncern."
+        },
+        {
+          "de": "Die Partei vereinigte sich mit einer kleineren Gruppe.",
+          "lv": "Strana se sloučila s menší skupinou."
+        },
+        {
+          "de": "Die Länder haben sich zu einer Union vereinigt.",
+          "lv": "Státy se sjednotily v unii."
+        },
+        {
+          "de": "Alle Kräfte vereinigten sich gegen den Gegner.",
+          "lv": "Všechny síly se spojily proti protivníkovi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vereinen",
+          "meaning": "spojovat",
+          "example": "Das Fest vereint alle Generationen. – Slavnost spojuje všechny generace."
+        },
+        {
+          "word": "sich zusammenschließen",
+          "meaning": "sloučit se",
+          "example": "Die Firmen schließen sich zusammen. – Firmy se slučují."
+        },
+        {
+          "word": "fusionieren",
+          "meaning": "fúzovat",
+          "example": "Zwei Banken fusionieren. – Dvě banky fúzují."
+        }
+      ],
+      "tip": [
+        "Častá spojení: sich zu etwas vereinigen (spojit se v něco).",
+        "V běžné řeči se často jednodušeji říká sich zusammenschließen."
+      ],
+      "important": [
+        "Blízké sloveso vereinen (spojovat) se obvykle vztahuje na lidi a pocity, kdežto vereinigen spíše na organizace a státy.",
+        "Po mit následuje dativ: mit der Partei, mit dem Nachbarn."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich vereinigen"
+            "vereinigen",
+            "vereinigt",
+            "vereinigte",
+            "Vereinigten"
+          ],
+          "purple": [
+            "sjednotit se",
+            "splynout"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "vereinigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "spojily"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sloučila"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sjednotily"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "spojily"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vereinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spojovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zusammenschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sloučit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fusionieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fúzovat"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -16847,43 +23291,66 @@ const B2_WORDS = [
       "id": "b2-verf-gen",
       "layout": "standardStudy",
       "translation": "Stanovit • Přikázat • Přidělit",
-      "explanation": "Hlavní myšlenka: verfügen význam určuje věta: stanovit, přikázat nebo nařídit. Verfügen je úřední slovo. Úřad nebo vedoucí s ním něco určí nebo přikáže.",
+      "explanation": [
+        "Hlavní myšlenka: verfügen je v tomto významu úřední sloveso: rozhodnutím moci nebo úřadu stanovit, nařídit (přikázat) nebo přidělit (eine Maßnahme verfügen). Podmětem je obvykle úřad, ředitel, soud nebo panovník.",
+        "Neodlučitelná předpona ver-: verfügt, verfügte, hat verfügt. Po něm může následovat akuzativ (eine Ausgangssperre verfügen) nebo vedlejší věta s dass.",
+        "Samostatná konstrukce verfügen über + akuzativ znamená mít k dispozici: über Erfahrung verfügen – mít zkušenosti."
+      ],
       "examples": [
         {
           "de": "Die Behörde verfügt eine Ausgangssperre.",
-          "lv": "Úřad stanoví zákaz vycházení."
+          "lv": "Úřad nařizuje zákaz vycházení."
         },
         {
-          "de": "Der König verfügt, dass das Tor geschlossen wird.",
-          "lv": "Král přikazuje zavřít bránu."
+          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "lv": "Král přikázal zavřít bránu."
         },
         {
-          "de": "Der Direktor verfügt, dass die Arbeiten sofort beginnen.",
-          "lv": "Ředitel nařizuje okamžité zahájení prací."
+          "de": "Der Direktor verfügte die sofortige Schließung des Werks.",
+          "lv": "Ředitel nařídil okamžité uzavření závodu."
+        },
+        {
+          "de": "Er verfügt über große Erfahrung.",
+          "lv": "Disponuje velkými zkušenostmi."
         }
       ],
       "comparison": [
         {
-          "word": "verfügen",
-          "meaning": "Stanovit, Přikázat, Přidělit",
-          "example": "Die Behörde verfügt eine Ausgangssperre. = Úřad stanoví zákaz vycházení."
-        },
-        {
           "word": "anordnen",
           "meaning": "nařídit",
-          "example": "Der Chef ordnet an, dass wir beginnen. = Šéf nařizuje, abychom začali."
+          "example": "Der Arzt ordnet Ruhe an. – Lékař nařizuje klid."
+        },
+        {
+          "word": "bestimmen",
+          "meaning": "stanovit",
+          "example": "Das Gesetz bestimmt die Frist. – Zákon stanoví lhůtu."
+        },
+        {
+          "word": "besitzen",
+          "meaning": "vlastnit",
+          "example": "Er besitzt ein Haus. – Vlastní dům."
         }
       ],
-      "tip": "Když úřad nebo vedoucí něco oficiálně stanoví, mysli na verfügen.",
-      "important": "Verfügen über etwas znamená disponovat něčím, to je jiný význam.",
+      "tip": [
+        "V úředním stylu verfügen označuje správní rozhodnutí, v běžné řeči se místo toho říká anordnen nebo bestimmen.",
+        "Fráze Er verfügt über … znamená má k dispozici … a používá se častěji než první význam."
+      ],
+      "important": [
+        "Nezaměňuj verfügen (stanovit) s verfügen über (disponovat, mít): předložka mění význam.",
+        "Když verfügen znamená stanovit, předložka über není potřeba."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "verfügen"
+            "verfügen",
+            "verfügt",
+            "verfügte"
           ],
           "purple": [
-            "Stanovit",
-            "Přikázat"
+            "stanovit",
+            "nařídit",
+            "přikázat",
+            "přidělit"
           ]
         },
         "examples": [
@@ -16895,58 +23362,48 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "stanoví"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "verfügt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "přikazuje"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "verfügt"
-              ]
-            },
-            "lv": {
-              "purple": [
                 "nařizuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "přikázal"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nařídil"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Disponuje"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "verfügen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Stanovit",
-                "Přikázat",
-                "Přidělit"
-              ]
-            },
-            "example": {
-              "blue": [
-                "verfügt"
-              ],
-              "purple": [
-                "stanoví"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -16957,27 +23414,41 @@ const B2_WORDS = [
               "purple": [
                 "nařídit"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmen"
+              ]
             },
-            "example": {
-              "red": [
-                "ordnet an"
+            "meaning": {
+              "purple": [
+                "stanovit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vlastnit"
               ]
             }
           }
         ],
-        "tip": {
-          "blue": [
-            "verfügen"
-          ],
-          "purple": [
-            "stanoví"
-          ]
-        },
-        "important": {
-          "blue": [
-            "verfügen"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -17248,14 +23719,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
-      "layout": "minimalStudy",
-      "translation": "Zapomenout • Vybavit se",
-      "rektion": "Mit + kam?",
-      "explanation": "Sich versehen znamená splést se, přehlédnout se; ve významu zásobit se se pojí s mit + 3. pád (Dativ): sich mit Vorräten versehen.",
-      "forms": "Mit + kam?",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Přehlédnout se",
+      "explanation": [
+        "Hlavní myšlenka: sich versehen znamená přehlédnout se, splést se – něco správně nevnímat nebo udělat chybu z nepozornosti (například v datu, v čísle). Tvary: versieht sich, versah sich, hat sich versehen.",
+        "Rozšířené výrazy: Wenn ich mich nicht versehe, … (pokud se nepletu, …) a ehe man sich versieht (než se člověk naděje). Bez sich znamená versehen opatřit, vybavit (mit etwas versehen)."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe mich beim Datum versehen.",
+          "lv": "V datu jsem se přehlédl."
+        },
+        {
+          "de": "Wenn ich mich nicht versehe, kommt dort Anna.",
+          "lv": "Pokud se nepletu, jde tam Anna."
+        },
+        {
+          "de": "Ehe man sich versieht, ist der Sommer vorbei.",
+          "lv": "Než se naděješ, léto je pryč."
+        },
+        {
+          "de": "Da hast du dich wohl versehen.",
+          "lv": "Tady ses asi přehlédl."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich irren",
+          "meaning": "mýlit se",
+          "example": "Ich habe mich geirrt. – Spletl jsem se."
+        },
+        {
+          "word": "sich verlesen",
+          "meaning": "přečíst se",
+          "example": "Ich habe mich verlesen. – Přečetl jsem se."
+        },
+        {
+          "word": "versehen",
+          "meaning": "opatřit",
+          "example": "Er versieht den Brief mit einer Marke. – Opatřuje dopis známkou."
+        }
+      ],
+      "tip": [
+        "Zvratné sich versehen vyjadřuje náhodnou chybu: Ich habe mich versehen.",
+        "Pomocí Wenn ich mich nicht versehe, … opatrně vyjádříš domněnku."
+      ],
+      "important": [
+        "sich versehen neznamená poškození očí, ale přehlédnutí nebo chybu.",
+        "Nezaměňuj sich versehen (přehlédnout se) s versehen mit (opatřit čím): to sich nemá."
+      ],
       "sectionAccents": {
-        "explanation": {}
+        "explanation": {
+          "blue": [
+            "sich versehen",
+            "versehen",
+            "versieht",
+            "versehe",
+            "versah"
+          ],
+          "purple": [
+            "přehlédnout se",
+            "splést se"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "mich",
+                "versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "přehlédl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mich",
+                "versehe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nepletu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "versieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "naděješ"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dich",
+                "versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "přehlédl"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich irren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mýlit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verlesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "přečíst se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "versehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "opatřit"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -17290,18 +23916,146 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-versoehnen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Smířit se s",
-      "rektion": "Mit + kam?",
-      "explanation": "Sich versöhnen se pojí s předložkou mit + 3. pád (Dativ): sich mit jemandem versöhnen.",
-      "forms": "Mit + kam?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich versöhnen znamená smířit se po hádce nebo konfliktu – obnovit dobré vztahy s někým.",
+        "Sloveso je zvratné: ich versöhne mich, er versöhnt sich; v préteritu er versöhnte sich, v perfektu er hat sich versöhnt. S kým se člověk smiřuje, vyjadřuje předložka mit + dativ: sich mit jemandem versöhnen.",
+        "Sloveso může být i přechodné: jemanden versöhnen – smířit někoho (s někým jiným)."
+      ],
+      "examples": [
+        {
+          "de": "Die Geschwister haben sich nach dem Streit versöhnt.",
+          "lv": "Sourozenci se po hádce smířili."
+        },
+        {
+          "de": "Ich möchte mich mit dir versöhnen.",
+          "lv": "Chci se s tebou smířit."
+        },
+        {
+          "de": "Er versöhnte sich mit seinem Vater.",
+          "lv": "Smířil se se svým otcem."
+        },
+        {
+          "de": "Wann versöhnt ihr euch endlich?",
+          "lv": "Kdy se konečně smíříte?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verzeihen",
+          "meaning": "odpustit",
+          "example": "Ich verzeihe dir. – Odpouštím ti."
+        },
+        {
+          "word": "sich vertragen",
+          "meaning": "vycházet spolu",
+          "example": "Die Kinder vertragen sich gut. – Děti spolu dobře vycházejí."
+        }
+      ],
+      "tip": [
+        "Zapamatuj si dvojici: sich versöhnen mit + dativ. Osoba, s níž se smiřujeme, vždy následuje po mit.",
+        "Smíření obvykle předchází spor: sich streiten → sich versöhnen."
+      ],
+      "important": [
+        "V tomto významu je zvratné sich povinné: ich versöhne mich, nikoli ich versöhne.",
+        "Perfektum se tvoří s haben: er hat sich versöhnt."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich versöhnen"
+            "versöhnen",
+            "versöhne",
+            "versöhnt"
+          ],
+          "purple": [
+            "smířit se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "versöhnt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "smířili"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "smířit"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Smířil se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "smíříte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verzeihen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odpustit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich vertragen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vycházet spolu"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -17336,18 +24090,146 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-verstellen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "Vydávat se za",
-      "rektion": "Als + ko?",
-      "explanation": "Sich verstellen znamená předstírat; v tomto významu se používá s als: sich als Freund verstellen.",
-      "forms": "Als + ko?",
-      "formsLabel": "Vazba:",
+      "explanation": [
+        "Hlavní myšlenka: sich verstellen znamená předstírat, měnit své chování, aby druzí neviděli skutečnou povahu nebo city. Člověk pak není přirozený.",
+        "Sloveso je zvratné: ich verstelle mich, er verstellt sich; v préteritu verstellte sich, v perfektu hat sich verstellt. Bez sich znamená verstellen také přestavit nebo zatarasit (den Weg verstellen – zatarasit cestu; den Sitz verstellen – nastavit sedadlo) a také měnit hlas (die Stimme verstellen).",
+        "Význam „vydávat se za“ přesněji vystihuje spojení sich ausgeben als (sich als Arzt ausgeben – vydávat se za lékaře); samotné sich verstellen obvykle znamená jen předstírat, hrát divadlo."
+      ],
+      "examples": [
+        {
+          "de": "Er verstellt sich vor den Gästen und tut freundlich.",
+          "lv": "Před hosty se přetvařuje a chová se přátelsky."
+        },
+        {
+          "de": "Du musst dich nicht verstellen.",
+          "lv": "Nemusíš se přetvařovat."
+        },
+        {
+          "de": "Sie verstellte ihre Stimme am Telefon.",
+          "lv": "Do telefonu změnila hlas."
+        },
+        {
+          "de": "Bei ihm weiß man nie, ob er sich verstellt.",
+          "lv": "U něj člověk nikdy neví, jestli se nepřetvařuje."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich ausgeben als",
+          "meaning": "vydávat se za",
+          "example": "Er gibt sich als Arzt aus. – Vydává se za lékaře."
+        },
+        {
+          "word": "so tun, als ob",
+          "meaning": "dělat, jako by",
+          "example": "Sie tut so, als ob sie schliefe. – Dělá, jako by spala."
+        }
+      ],
+      "tip": [
+        "Chceš-li říct vydávat se za někoho, použij sich ausgeben als; sich verstellen je obecnější: nebýt sám sebou.",
+        "Užitečná fráze: Du brauchst dich nicht zu verstellen – nemusíš se přetvařovat."
+      ],
+      "important": [
+        "Nezaměňuj s verstellen bez sich: Er verstellt den Weg znamená, že zatarasí cestu."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "verstellen",
+            "verstellt sich",
+            "verstelle mich",
             "sich verstellen"
+          ],
+          "purple": [
+            "předstírat",
+            "vydávat se za"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verstellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "přetvařuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "přetvařovat"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "změnila"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nepřetvařuje"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich ausgeben als"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vydávat se za"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "so tun, als ob"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dělat, jako by"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -17449,18 +24331,165 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-verwundern",
-      "layout": "minimalStudy",
-      "translation": "Divit se",
-      "rektion": "Über + ko?",
-      "explanation": "Sich verwundern se pojí s předložkou über + 4. pád (Akkusativ): sich über etwas verwundern.",
-      "forms": "Über + ko?",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Divit se něčemu • Podivovat se",
+      "explanation": [
+        "Hlavní myšlenka: sich verwundern znamená divit se – pociťovat překvapení nad něčím nečekaným nebo nepochopitelným.",
+        "Sloveso je zvratné a pojí se s předložkou über + akuzativ: sich über etwas verwundern. Tvary: ich verwundere mich, er verwundert sich, verwunderte sich, hat sich verwundert. Často následuje i vedlejší věta s dass: sich darüber verwundern, dass …",
+        "V hovorové řeči se častěji používá jednodušší sich wundern; sich verwundern zní formálněji a knižněji."
+      ],
+      "examples": [
+        {
+          "de": "Ich verwundere mich über seine Antwort.",
+          "lv": "Divím se jeho odpovědi."
+        },
+        {
+          "de": "Sie verwunderte sich darüber, dass niemand kam.",
+          "lv": "Podivila se tomu, že nikdo nepřišel."
+        },
+        {
+          "de": "Wir verwundern uns über das schlechte Wetter im Mai.",
+          "lv": "Divíme se špatnému počasí v květnu."
+        },
+        {
+          "de": "Er hat sich sehr über den Preis verwundert.",
+          "lv": "Velmi se podivil nad cenou."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich wundern",
+          "meaning": "divit se",
+          "example": "Ich wundere mich über ihn. – Divím se mu."
+        },
+        {
+          "word": "staunen",
+          "meaning": "žasnout",
+          "example": "Die Kinder staunen über den Zauberer. – Děti žasnou nad kouzelníkem."
+        },
+        {
+          "word": "überrascht sein",
+          "meaning": "být překvapený",
+          "example": "Ich bin überrascht. – Jsem překvapený."
+        }
+      ],
+      "tip": [
+        "Nauč se to jako celek: sich verwundern über + akuzativ (ne s dativem).",
+        "V běžné řeči řekni jednodušeji sich wundern; sich verwundern je jeho formálnější podoba."
+      ],
+      "important": [
+        "Nezaměňuj s verwunden (zranit) – je to jiné slovo s jiným významem."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verwundern"
+            "sich verwundern",
+            "über",
+            "verwundert",
+            "verwunderte",
+            "sich wundern",
+            "verwundere"
+          ],
+          "purple": [
+            "divit se",
+            "překvapení"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verwundere"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Divím se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwunderte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Podivila se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwundern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Divíme se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwundert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "podivil"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich wundern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "divit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "staunen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "žasnout"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "überrascht sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "překvapený"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -18069,19 +25098,23 @@ const B2_WORDS = [
       "id": "b2-wesen",
       "layout": "standardStudy",
       "translation": "Bytost • Tvor • Podstata • Povaha",
-      "explanation": "Hlavní myšlenka: Wesen význam určuje věta: bytost, tvor, podstata nebo povaha. U živého tvora jde o bytost nebo tvora, u problému o podstatu, u člověka o povahu.",
+      "explanation": [
+        "Hlavní myšlenka: das Wesen je heslové slovo s několika významy. Zaprvé živá bytost nebo tvor (ein fremdes Wesen), zadruhé podstata něčeho (das Wesen der Sache), zatřetí povaha člověka (ein freundliches Wesen).",
+        "Je to podstatné jméno středního rodu: das Wesen. Množné číslo je die Wesen (beze změny). Ve významu podstata se množné číslo obvykle netvoří.",
+        "Častý výraz: im Wesentlichen – v podstatě, převážně."
+      ],
       "examples": [
         {
-          "de": "Ein lebendes Wesen.",
-          "lv": "Živá bytost."
+          "de": "Im Märchen kommt ein fremdes Wesen vor.",
+          "lv": "V pohádce se objeví cizí bytost."
         },
         {
-          "de": "Ein seltsames Wesen.",
-          "lv": "Podivný tvor."
+          "de": "Der Mensch ist ein soziales Wesen.",
+          "lv": "Člověk je společenská bytost."
         },
         {
-          "de": "Das Wesen des Problems.",
-          "lv": "Podstata problému."
+          "de": "Das Wesen der Demokratie ist die Teilnahme aller.",
+          "lv": "Podstatou demokracie je účast všech."
         },
         {
           "de": "Sie hat ein freundliches Wesen.",
@@ -18090,31 +25123,43 @@ const B2_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Wesen",
-          "meaning": "Bytost, Tvor, Podstata",
-          "example": "Ein lebendes Wesen. = Živá bytost."
+          "word": "der Charakter",
+          "meaning": "povaha, charakter",
+          "example": "Er hat einen starken Charakter. – Má silný charakter."
         },
         {
-          "word": "Charakter",
-          "meaning": "charakter",
-          "example": "Er hat einen starken Charakter. = Má silný charakter."
+          "word": "das Lebewesen",
+          "meaning": "živý tvor, organismus",
+          "example": "Pflanzen sind Lebewesen. – Rostliny jsou živé organismy."
+        },
+        {
+          "word": "der Kern",
+          "meaning": "jádro, podstata",
+          "example": "Das ist der Kern des Problems. – To je jádro problému."
         }
       ],
-      "tip": "Když jde o lidskou povahu, mysli na povaha; u problému na podstata.",
-      "important": "Das Wesen des Problems je podstata problému; povaha je jen u člověka.",
+      "tip": [
+        "Zapamatuj si tři významy: bytost (to, co žije), podstata (to, co je něčemu základem), povaha (jaký člověk je).",
+        "Význam určuje kontext: s přídavným jménem freundlich nebo ruhig jde obvykle o povahu."
+      ],
+      "important": [
+        "Nezaměňuj s das Wesentliche (to hlavní, podstatné) – je to jiné podstatné jméno."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Wesen"
+            "das Wesen",
+            "die Wesen",
+            "Wesen",
+            "im Wesentlichen",
+            "das Wesen der Sache",
+            "ein fremdes Wesen"
           ],
           "purple": [
-            "Bytost",
-            "Tvor",
-            "Podstata",
-            "Povaha",
             "bytost",
             "tvor",
-            "povahu"
+            "podstata",
+            "povaha"
           ]
         },
         "examples": [
@@ -18138,7 +25183,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tvor"
+                "bytost"
               ]
             }
           },
@@ -18150,7 +25195,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Podstata"
+                "Podstatou"
               ]
             }
           },
@@ -18171,55 +25216,47 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "Wesen"
+                "der Charakter"
               ]
             },
             "meaning": {
               "purple": [
-                "Bytost",
-                "Tvor",
-                "Podstata"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Wesen"
-              ],
-              "purple": [
-                "bytost"
+                "povaha"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Charakter"
+                "das Lebewesen"
               ]
             },
             "meaning": {
               "purple": [
-                "charakter"
+                "živý tvor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Kern"
               ]
             },
-            "example": {
-              "red": [
-                "Charakter"
+            "meaning": {
+              "purple": [
+                "jádro"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "Podstata",
-            "Povaha",
-            "povahu"
-          ]
-        },
-        "important": {
-          "blue": [
-            "Wesen"
-          ]
-        }
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -18282,18 +25319,162 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-widersetzen",
-      "layout": "minimalStudy",
-      "translation": "Vzdorovat • Tvářit se",
-      "rektion": "+ kam?",
-      "explanation": "Sich widersetzen se pojí s 3. pádem (Dativ): sich dem Befehl widersetzen.",
-      "forms": "+ kam?",
-      "formsLabel": "Vazba:",
+      "layout": "standardStudy",
+      "translation": "Vzpírat se • Postavit se proti",
+      "explanation": [
+        "Hlavní myšlenka: sich widersetzen znamená vzpírat se někomu nebo něčemu, postavit se proti němu – nepodřídit se rozkazu, tlaku, rozhodnutí nebo osobě.",
+        "Sloveso je zvratné a pojí se s dativem: sich jemandem/etwas widersetzen. Tvary: widersetzt sich, widersetzte sich, hat sich widersetzt. Předpona wider- je neodlučitelná."
+      ],
+      "examples": [
+        {
+          "de": "Er widersetzte sich dem Befehl.",
+          "lv": "Vzepřel se rozkazu."
+        },
+        {
+          "de": "Die Bürger widersetzen sich der Entscheidung der Regierung.",
+          "lv": "Občané se vzpírají rozhodnutí vlády."
+        },
+        {
+          "de": "Sie hat sich dem Druck nicht widersetzt.",
+          "lv": "Tlaku se nevzepřela."
+        },
+        {
+          "de": "Niemand wagte es, sich dem Chef zu widersetzen.",
+          "lv": "Nikdo se neodvážil postavit se šéfovi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Widerstand leisten",
+          "meaning": "klást odpor",
+          "example": "Das Volk leistete Widerstand. – Lid kladl odpor."
+        },
+        {
+          "word": "sich wehren gegen",
+          "meaning": "bránit se proti",
+          "example": "Er wehrt sich gegen die Vorwürfe. – Brání se obviněním."
+        },
+        {
+          "word": "ablehnen",
+          "meaning": "odmítnout",
+          "example": "Sie lehnt das Angebot ab. – Odmítá nabídku."
+        }
+      ],
+      "tip": [
+        "Po sich widersetzen vždy následuje dativ: dem Befehl, dem Druck, dem Chef.",
+        "Hodí se do formálního nebo psaného stylu; v hovorové řeči se častěji říká sich wehren."
+      ],
+      "important": [
+        "Nepoužívej předložku: neříká se sich gegen etwas widersetzen, ale sich etwas widersetzen (dativ)."
+      ],
       "sectionAccents": {
         "explanation": {
-          "red": [
-            "Sich"
+          "blue": [
+            "sich widersetzen",
+            "widersetzt",
+            "widersetzte",
+            "dativem"
+          ],
+          "purple": [
+            "vzpírat se",
+            "postavit se proti"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "widersetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Vzepřel se"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vzpírají"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nevzepřela"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "postavit se"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Widerstand leisten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "klást odpor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich wehren gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bránit se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ablehnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odmítnout"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -18470,72 +25651,87 @@ const B2_WORDS = [
     "study": {
       "id": "b2-zuweisen",
       "layout": "standardStudy",
-      "translation": "Přiřadit • Přidělit",
-      "explanation": "Hlavní myšlenka: zuweisen znamená oficiálně přidělit – úkol, roli, zdroj nebo peníze konkrétní osobě nebo oddělení. Dělitelné: weise ... zu.",
+      "translation": "Přidělit • Určit",
+      "explanation": [
+        "Hlavní myšlenka: zuweisen znamená úředně někomu něco přidělit (místo, úkol, byt, prostředky) nebo někoho někam určit.",
+        "Odlučitelné sloveso: er weist zu, wies zu, hat zugewiesen. Obvykle s dativem (komu?) a akuzativem (co?): jemandem etwas zuweisen. Často se používá i pasivum: Mir wurde ein Platz zugewiesen.",
+        "Slovo je formální a používá se v jazyce úřadů, škol a firem."
+      ],
       "examples": [
         {
-          "de": "Der Chef weist ihm eine neue Aufgabe zu.",
-          "lv": "Šéf mu zadá nový úkol."
+          "de": "Die Schule weist den Kindern Klassenräume zu.",
+          "lv": "Škola přiděluje dětem třídy."
         },
         {
-          "de": "Die Mittel wurden dem Projekt zugewiesen.",
-          "lv": "Byly na projekt přiděleny finanční prostředky."
+          "de": "Der Chef wies mir eine neue Aufgabe zu.",
+          "lv": "Šéf mi zadal nový úkol."
         },
         {
-          "de": "Sie wurde einer anderen Abteilung zugewiesen.",
-          "lv": "Byla přidělena na jiné oddělení."
+          "de": "Dem Studenten wurde ein Platz im Wohnheim zugewiesen.",
+          "lv": "Studentovi bylo přiděleno místo na koleji."
+        },
+        {
+          "de": "Die Stadt hat der Familie eine Wohnung zugewiesen.",
+          "lv": "Město přidělilo rodině byt."
         }
       ],
       "comparison": [
         {
-          "word": "zuweisen",
-          "meaning": "Přiřadit • Přidělit",
-          "example": "Er weist die Aufgabe zu. = Přiděluje úkol."
+          "word": "zuteilen",
+          "meaning": "přidělit, rozdělit",
+          "example": "Man teilt uns die Arbeit zu. – Práci nám přidělují."
+        },
+        {
+          "word": "zuordnen",
+          "meaning": "přiřadit",
+          "example": "Ordne die Wörter den Bildern zu. – Přiřaď slova k obrázkům."
         },
         {
           "word": "geben",
-          "meaning": "Dát",
-          "example": "Er gibt mir die Arbeit. = Dává mi práci."
-        },
-        {
-          "word": "verteilen",
-          "meaning": "Rozdělit",
-          "example": "Er verteilt die Aufgaben. = Rozděluje úkoly."
+          "meaning": "dát",
+          "example": "Ich gebe dir das Buch. – Dám ti knihu."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Zuweisen klade důraz na formální zadání – v práci, administrativě, projektech."
-          }
-        ]
-      },
-      "important": {
-        "text": "Zuweisen = přidělit, přidělit úředně. Perfektum: zugewiesen. Odlučitelné sloveso: weist ... zu."
-      },
+      "tip": [
+        "Pamatuj na odlučování: Er weist mir etwas zu, ale ve vedlejší větě …, weil er mir etwas zuweist.",
+        "Dativ označuje příjemce: wem? – dem Studenten, der Familie."
+      ],
+      "important": [
+        "Příčestí minulé je zugewiesen – ge- se vkládá mezi zu a weisen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "zuweisen",
-            "weise",
-            "zu"
+            "weist zu"
           ],
           "purple": [
-            "Hlavní",
-            "Hlavní"
+            "přidělit",
+            "určit"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "weist",
-                "zu"
+                "weist"
               ]
             },
             "lv": {
               "purple": [
-                "Šéf"
+                "přiděluje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wies"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zadal"
               ]
             }
           },
@@ -18547,7 +25743,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Byly"
+                "přiděleno"
               ]
             }
           },
@@ -18557,8 +25753,57 @@ const B2_WORDS = [
                 "zugewiesen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "přidělilo"
+              ]
+            }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zuteilen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "přidělit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuordnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "přiřadit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dát"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -18577,65 +25822,71 @@ const B2_WORDS = [
     "study": {
       "id": "b2-zuwider",
       "layout": "standardStudy",
-      "translation": "Proti • V rozporu s • Nechuť",
-      "explanation": "Hlavní myšlenka: zuwider je slovo s více funkcemi. Jako příslovce / předložka se 3. pádem znamená „proti, v rozporu s“: mir zuwider. Ve výrazu jemandem zuwider sein/laufen znamená „být někomu odporný, jít proti někomu“. Nezaměňovat s wider (proti).",
+      "translation": "Proti • V rozporu s • Být proti mysli",
+      "explanation": [
+        "Hlavní myšlenka: zuwider se pojí s dativem ve dvou užitích. Se slovesem sein – etwas ist mir zuwider – znamená, že mi něco je proti mysli, je mi to odporné nebo se mi to příčí. Za podstatným jménem – dem Gesetz zuwider – znamená v rozporu s něčím.",
+        "V prvním významu je zuwider přídavné jméno a neskloňuje se: Das ist mir zuwider. Ve druhém významu stojí obvykle za podstatným jménem v dativu: dem Gesetz zuwider handeln. Často se používají odlučitelná slovesa zuwiderhandeln (jednat proti něčemu) a zuwiderlaufen (příčit se, odporovat): Das läuft dem Plan zuwider.",
+        "Je to formální, poněkud knižní slovo."
+      ],
       "examples": [
         {
-          "de": "Er handelte mir zuwider.",
-          "lv": "Jednal proti mé vůli."
+          "de": "Dieser Geruch ist mir zuwider.",
+          "lv": "Ten pach je mi odporný."
         },
         {
-          "de": "Sein Benehmen ist mir zuwider.",
-          "lv": "Jeho chování se mi nelíbí."
+          "de": "Lügen ist ihm zuwider.",
+          "lv": "Lhaní je mu odporné."
         },
         {
-          "de": "Das läuft mir zuwider.",
-          "lv": "Je mi to odporné."
+          "de": "Das läuft dem Gesetz zuwider.",
+          "lv": "To je v rozporu se zákonem."
+        },
+        {
+          "de": "Er handelte den Regeln zuwider.",
+          "lv": "Jednal v rozporu s pravidly."
         }
       ],
       "comparison": [
         {
-          "word": "zuwider (+ Dat.)",
-          "meaning": "Proti • Opak",
-          "example": "mir zuwider = proti mé mysli"
+          "word": "entgegen",
+          "meaning": "navzdory, na rozdíl od",
+          "example": "Entgegen der Vorhersage regnete es nicht. – Navzdory předpovědi nepršelo."
         },
         {
-          "word": "jemandem zuwider sein",
-          "meaning": "Být někomu odporný",
-          "example": "Es ist mir zuwider. = Je mi to odporné."
+          "word": "widerlich",
+          "meaning": "odporný",
+          "example": "Der Geruch ist widerlich. – Ten pach je odporný."
         },
         {
-          "word": "wider",
-          "meaning": "Proti (předložka)",
-          "example": "wider den Willen = proti vůli"
-        },
-        {
-          "word": "widersprechen",
-          "meaning": "Odporovat • Nesouhlasit",
-          "example": "Ich widerspreche. = Odporuji."
+          "word": "gegen",
+          "meaning": "proti",
+          "example": "Das ist gegen die Regeln. – To je proti pravidlům."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Základní význam: proti, v rozporu s (mir zuwider). Idiomaticky: jemandem zuwider sein = být někomu odporný; zuwiderlaufen = jít proti něčemu."
-          }
-        ]
-      },
-      "important": {
-        "text": "Zuwider + 3. pád = proti, v rozporu s. Zuwider sein = být odporný. Není to totéž jako wider."
-      },
+      "tip": [
+        "Zapamatuj si jednu frázi: Das ist mir zuwider. – To je mi odporné / hnusí se mi to.",
+        "Po zuwider vždy následuje dativ: mir, ihm, dem Gesetz."
+      ],
+      "important": [
+        "Po zuwider se nepoužívá akuzativ: ne mich zuwider, ale mir zuwider.",
+        "Ve významu v rozporu s stojí zuwider obvykle za podstatným jménem: dem Gesetz zuwider; entgegen obvykle stojí před ním: entgegen dem Gesetz."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "zuwider"
+            "zuwider",
+            "zuwiderhandeln",
+            "zuwiderlaufen",
+            "läuft",
+            "mir zuwider",
+            "dem Gesetz zuwider",
+            "Das ist mir zuwider"
           ],
           "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "green": [
-            "wider"
+            "proti mysli",
+            "odporné",
+            "příčí",
+            "v rozporu s"
           ]
         },
         "examples": [
@@ -18647,7 +25898,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jednal"
+                "odporný"
               ]
             }
           },
@@ -18659,7 +25910,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Jeho"
+                "odporné"
               ]
             }
           },
@@ -18669,8 +25920,70 @@ const B2_WORDS = [
                 "zuwider"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "v rozporu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "v rozporu"
+              ]
+            }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "entgegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "navzdory"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "widerlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "odporný"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "proti"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -18724,104 +26037,164 @@ const B2_WORDS = [
     "study": {
       "id": "b2-wechseln",
       "layout": "standardStudy",
-      "translation": "Vyměnit • Vyměnit",
+      "translation": "Vyměnit • Změnit",
       "explanation": [
-        "Hlavní myšlenka: Vyměnit nebo vyměnit něco za něco jiného – peníze, oblečení, práci, školu, předmět.",
-        "Wechseln v podstatě znamená: nahradit jiným.",
-        "Často charakterizováno: výměna / výměna.",
-        "Wechseln se používá, když něco měníte nebo měníte za něco jiného – peníze, oblečení, práci, školu nebo předmět."
+        "Hlavní myšlenka: wechseln znamená vyměnit jednu věc za jinou nebo rozměnit peníze: Geld wechseln, die Schule wechseln, den Reifen wechseln. Nepřechodně může znamenat i měnit se (Das Wetter wechselt).",
+        "Tvary: wechselt, wechselte, hat gewechselt. Přechodné sloveso se pojí s akuzativem: etwas wechseln. Změnu směru nebo cíle vyjadřují předložky in/auf/zu: Er wechselt zu einem anderen Verein.",
+        "Podstatné jméno je der Wechsel (změna, výměna). Jestliže se něco dělá jiným (a nenahrazuje se), častěji se používá ändern nebo sich verändern."
       ],
       "examples": [
         {
-          "de": "Ich wechsle die Schule.",
-          "lv": "Měním školu."
+          "de": "Ich muss noch Geld wechseln.",
+          "lv": "Ještě musím vyměnit peníze."
         },
         {
-          "de": "Ich muss Geld wechseln.",
-          "lv": "Potřebuji vyměnit peníze."
+          "de": "Sie wechselt die Schule im Sommer.",
+          "lv": "V létě mění školu."
         },
         {
-          "de": "Wir wechseln das Thema.",
-          "lv": "Změníme téma."
+          "de": "Können Sie mir zwanzig Euro wechseln?",
+          "lv": "Můžete mi rozměnit dvacet eur?"
         },
         {
-          "de": "Ich wechsle die Schule.",
-          "lv": "Měním školu."
+          "de": "Das Wetter wechselt oft.",
+          "lv": "Počasí se často mění."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ändern",
+          "meaning": "změnit (udělat jiným)",
+          "example": "Ich ändere meinen Plan. – Měním svůj plán."
+        },
+        {
+          "word": "tauschen",
+          "meaning": "vyměnit si",
+          "example": "Wir tauschen die Plätze. – Vyměňujeme si místa."
+        },
+        {
+          "word": "sich verändern",
+          "meaning": "změnit se",
+          "example": "Die Stadt hat sich verändert. – Město se změnilo."
         }
       ],
       "tip": [
-        "Vyměnit nebo vyměnit něco za něco jiného – peníze, oblečení, práci, školu, předmět.",
-        "Použijte wechseln, pokud kontext odpovídá tomuto významu."
+        "Pro výměnu peněz se používá Geld wechseln; drobné se žádá větou Können Sie mir das wechseln?",
+        "Když něco vyměníš za nové, je to wechseln: den Reifen, die Wohnung, den Beruf."
       ],
       "important": [
-        "Wechseln = vyměnit nebo vyměnit za jiné (Geld, Schule, Thema).",
-        "Peníze, škola, práce, téma: wechseln.",
-        "Vyměnit nebo vyměnit něco za něco jiného – peníze, oblečení, práci, školu, předmět."
+        "Nezaměňuj s ändern: wechseln znamená nahradit jiným, ändern – udělat jiným."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "wechseln"
+          "blue": [
+            "wechseln",
+            "wechselt",
+            "wechselte",
+            "gewechselt",
+            "der Wechsel",
+            "Geld wechseln"
           ],
           "purple": [
-            "Hlavní",
-            "Hlavní"
+            "vyměnit",
+            "rozměnit peníze",
+            "měnit se"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "wechsle"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "wechseln",
+              "blue": [
                 "wechseln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "vyměnit"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "wechseln",
+              "blue": [
+                "wechselt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mění"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "wechseln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "rozměnit"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "wechsle"
+              "blue": [
+                "wechselt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mění"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ändern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "změnit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "tauschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vyměnit si"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verändern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "změnit se"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Vyměnit"
-            ]
-          },
-          {
-            "purple": [
-              "Vyměnit"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "wechseln"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -18835,123 +26208,162 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Nabídnout • Poskytnout",
       "explanation": [
-        "Hlavní myšlenka: Nabídněte příležitosti, kurzy, služby nebo výhody – které místo nebo program poskytuje.",
-        "Bieten znamená hlavně: dát příležitost / prospěch.",
-        "Často popisuje: co místo/program poskytuje.",
-        "Bieten znamená hlavně: poskytnout příležitost.",
-        "Často charakterizováno: formálnější.",
-        "Bieten často popisuje, co místo, program nebo služba poskytuje (Die Schule bietet viele Kurse)."
+        "Hlavní myšlenka: bieten znamená nabídnout (cenu, možnost, pomoc) nebo poskytnout, zajistit (výhled, bezpečí, zábavu). Podmětem může být člověk, místo i instituce.",
+        "Silné sloveso: er bietet, bot, hat geboten. Obvykle s akuzativem a osobou v dativu: jemandem etwas bieten. Při nabízení ceny na aukci nebo při nákupu: Wie viel bietest du?",
+        "S odlučitelnou předponou anbieten označuje konkrétní nabídku někomu; prosté bieten často popisuje, co může místo nebo věc poskytnout."
       ],
       "examples": [
         {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "Škola nabízí mnoho kurzů."
+          "de": "Das Hotel bietet einen schönen Blick auf das Meer.",
+          "lv": "Hotel nabízí krásný výhled na moře."
         },
         {
-          "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Mohu vám něco nabídnout?"
+          "de": "Wie viel bietest du für das Auto?",
+          "lv": "Kolik nabízíš za to auto?"
         },
         {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "Škola nabízí mnoho kurzů."
+          "de": "Die Stadt bietet jungen Leuten viele Möglichkeiten.",
+          "lv": "Město poskytuje mladým lidem mnoho možností."
         },
         {
-          "de": "Die App bietet Sicherheit.",
-          "lv": "Aplikace poskytuje zabezpečení."
+          "de": "Das Museum bietet jeden Sonntag eine Führung.",
+          "lv": "Muzeum každou neděli nabízí prohlídku."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anbieten",
+          "meaning": "nabídnout někomu",
+          "example": "Darf ich Ihnen Tee anbieten? – Smím vám nabídnout čaj?"
         },
         {
-          "de": "bieten",
-          "lv": "Nabízet • Poskytovat"
+          "word": "gewähren",
+          "meaning": "poskytnout, přiznat",
+          "example": "Die Bank gewährt einen Kredit. – Banka poskytuje úvěr."
+        },
+        {
+          "word": "geben",
+          "meaning": "dát",
+          "example": "Ich gebe dir mein Wort. – Dávám ti své slovo."
         }
       ],
       "tip": [
-        "Nabídněte příležitosti, kurzy, služby nebo výhody – to, co místo nebo program poskytuje.",
-        "Použijte bieten, když kontext odpovídá tomuto významu."
+        "Když popisuješ, co místo nebo služba poskytuje, použij bieten: Das Hotel bietet WLAN.",
+        "Když někomu nabízíš konkrétní věc, častěji se používá anbieten."
       ],
       "important": [
-        "Bieten: Die Schule bietet Kurse. (neodlučitelné)",
-        "Co místo nebo program poskytuje: Kurse, Angebote, Möglichkeiten."
+        "Préteritum je bot (nikoli bietete): er bot, hat geboten."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bieten"
+            "bieten",
+            "bietet",
+            "bietest",
+            "bot",
+            "geboten",
+            "anbieten"
           ],
           "purple": [
-            "Hlavní",
-            "Hlavní"
+            "nabídnout",
+            "poskytnout",
+            "nabídku"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "Škola"
+                "nabízí"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "bietest"
               ]
             },
             "lv": {
               "purple": [
-                "Mohu"
+                "nabízíš"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "Škola"
+                "poskytuje"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "nabízí"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anbieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nabídnout"
+              ]
+            }
           },
           {
-            "de": {
-              "blue": [
-                "bieten",
-                "bieten"
+            "word": {
+              "green": [
+                "gewähren"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "poskytnout"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dát"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Nabídněte"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
-          {
-            "blue": [
-              "bieten"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -18964,98 +26376,164 @@ const B2_WORDS = [
       "id": "b2-anbieten",
       "layout": "standardStudy",
       "translation": "Nabídnout",
-      "explanation": "Hlavní myšlenka: anbieten znamená aktivně někomu nabídnout laskavost, drink, práci nebo službu. Rozdělitelné sloveso: ich biete an, er bietet an. Zdůrazňuje iniciativu ze strany nabízejícího.",
+      "explanation": [
+        "Hlavní myšlenka: anbieten znamená nabídnout někomu něco: nápoj, pomoc, práci, zboží nebo službu. Člověk sám rozhodne, zda nabídku přijme.",
+        "Odlučitelné sloveso: er bietet an, bot an, hat angeboten. Konstrukce: jemandem etwas anbieten. S infinitivem: Er bot an, mich zu fahren. Zvratné sich anbieten znamená nabízet se, být vhodný: Das bietet sich an.",
+        "Podstatné jméno je das Angebot (nabídka)."
+      ],
       "examples": [
         {
-          "de": "Ich biete dir meine Hilfe an.",
-          "lv": "Nabízím ti svou pomoc."
+          "de": "Darf ich Ihnen einen Kaffee anbieten?",
+          "lv": "Smím vám nabídnout kávu?"
         },
         {
-          "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "Mohu vám něco nabídnout?"
+          "de": "Die Firma bietet neue Produkte an.",
+          "lv": "Firma nabízí nové produkty."
         },
         {
-          "de": "Das Unternehmen bietet neue Stellen an.",
-          "lv": "Společnost nabízí nová pracovní místa."
+          "de": "Er bot mir an, mich nach Hause zu fahren.",
+          "lv": "Nabídl mi, že mě odveze domů."
+        },
+        {
+          "de": "Sie hat uns ihre Hilfe angeboten.",
+          "lv": "Nabídla nám svou pomoc."
         }
       ],
       "comparison": [
         {
-          "word": "anbieten",
-          "meaning": "Nabízet (aktivně)",
-          "example": "Ich biete Hilfe an. = Nabízím pomoc."
-        },
-        {
           "word": "bieten",
-          "meaning": "Nabídnout • Dát",
-          "example": "Er bietet viel Geld. = Nabízí hodně peněz."
+          "meaning": "nabízet, poskytovat",
+          "example": "Das Hotel bietet viel. – Hotel toho nabízí hodně."
         },
         {
           "word": "vorschlagen",
-          "meaning": "Navrhnout",
-          "example": "Ich schlage vor. = Navrhuji."
+          "meaning": "navrhnout",
+          "example": "Ich schlage vor, dass wir gehen. – Navrhuji, abychom šli."
+        },
+        {
+          "word": "empfehlen",
+          "meaning": "doporučit",
+          "example": "Ich empfehle dir das Buch. – Doporučuji ti tu knihu."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Anbieten zdůrazňuje, že někdo něco aktivně nabízí konkrétní osobě: Ich biete dir ... an."
-          }
-        ]
-      },
-      "important": {
-        "text": "Anbieten = nabízet aktivně. Odlučitelné sloveso: bietet ... an. Perfektum: angeboten."
-      },
+      "tip": [
+        "Pamatuj na odlučování: Er bietet mir Hilfe an, ale ve vedlejší větě …, weil er mir Hilfe anbietet.",
+        "Při odpovědi na nabídku lze říct: Danke, gern. nebo Nein, danke."
+      ],
+      "important": [
+        "Anbieten je nabídka konkrétnímu člověku; Angebot může být i zboží dostupné v obchodě."
+      ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "anbieten",
-            "biete",
-            "an"
+            "bietet an",
+            "bot an",
+            "angeboten",
+            "bietet",
+            "bot",
+            "Angebot"
           ],
           "purple": [
-            "Hlavní"
+            "nabídnout",
+            "nabídka",
+            "nabídku"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "biete",
-                "an"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Nabízím"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "anbieten"
               ]
             },
             "lv": {
               "purple": [
-                "Mohu"
+                "nabídnout"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "bietet",
-                "an"
+              "blue": [
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "Společnost"
+                "nabízí"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bot"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nabídl"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angeboten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nabídla"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "poskytovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vorschlagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "navrhnout"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "empfehlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "doporučit"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -19067,115 +26545,154 @@ const B2_WORDS = [
     "study": {
       "id": "b2-fordern",
       "layout": "standardStudy",
-      "translation": "Vyžadovat • Vyžadovat",
+      "translation": "Požadovat • Žádat",
       "explanation": [
-        "Hlavní myšlenka: Žádost o peníze, práva, změny nebo povinnosti – aktivní poptávka.",
-        "Fordern znamená hlavně: vyžadovat.",
-        "Fordern znamená hlavně: požadovat standard.",
-        "Fordern se používá, když někdo žádá o peníze, práva, změnu nebo závazek (Sie fordern mehr Geld)."
+        "Hlavní myšlenka: fordern znamená rozhodně požadovat nebo žádat něco, na co má člověk právo nebo co považuje za náležité. Obvykle je to silnější než bitten (prosit).",
+        "Pravidelné sloveso: er fordert, forderte, hat gefordert. Co se požaduje – akuzativ, od koho – von + dativ: etwas von jemandem fordern. Může následovat i věta s dass. V přeneseném významu může fordern znamenat vyžádat si oběti: Der Unfall forderte zwei Todesopfer.",
+        "Pozor na podobné slovo: fordern (požadovat) a fördern (podporovat) se liší přehláskou."
       ],
       "examples": [
         {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "Žádá více peněz."
+          "de": "Die Arbeiter fordern höhere Löhne.",
+          "lv": "Dělníci požadují vyšší mzdy."
         },
         {
-          "de": "Wir fordern mehr Transparenz.",
-          "lv": "Požadujeme větší transparentnost."
+          "de": "Der Lehrer fordert von uns mehr Disziplin.",
+          "lv": "Učitel od nás žádá větší disciplínu."
         },
         {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "Žádá o další peníze."
+          "de": "Der Unfall forderte zwei Todesopfer.",
+          "lv": "Nehoda si vyžádala dvě oběti."
         },
         {
-          "de": "Wir fordern mehr Sicherheit.",
-          "lv": "Požadujeme větší bezpečnost."
+          "de": "Sie forderte, dass er sich entschuldigt.",
+          "lv": "Požadovala, aby se omluvil."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fördern",
+          "meaning": "podporovat",
+          "example": "Sport fördert die Gesundheit. – Sport podporuje zdraví."
         },
         {
-          "de": "fordern",
-          "lv": "Požadovat • Vyžadovat"
+          "word": "verlangen",
+          "meaning": "žádat, požadovat",
+          "example": "Er verlangt die Rechnung. – Žádá účet."
+        },
+        {
+          "word": "bitten",
+          "meaning": "prosit",
+          "example": "Ich bitte dich um Hilfe. – Prosím tě o pomoc."
         }
       ],
       "tip": [
-        "Požadovat peníze, práva, změny nebo povinnosti – aktivní požadavek.",
-        "Použijte fordern, pokud kontext odpovídá tomuto významu."
+        "Když něco požaduješ od někoho: etwas von jemandem fordern (von + dativ).",
+        "Rozlišuj dvojici fordern – fördern: o bez přehlásky je požadovat, ö je podporovat."
       ],
       "important": [
-        "Fordern = požadovat (bez ö).",
-        "Požadovat, vymáhat: fordern (bez ö); podporovat: fördern (s ö).",
-        "Požadovat peníze, práva, změny nebo povinnosti – aktivní požadavek."
+        "Osoba, od níž se něco požaduje, se obvykle vyjadřuje předložkou von: etwas von jemandem fordern."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "fordern"
+            "fordern",
+            "fordert",
+            "forderte",
+            "gefordert",
+            "fördern",
+            "von"
           ],
           "purple": [
-            "Hlavní",
-            "Hlavní"
+            "požadovat",
+            "žádat",
+            "vyžádat si"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "forde"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Žádá"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fordern",
                 "fordern"
               ]
             },
             "lv": {
               "purple": [
-                "Požadujeme"
+                "požadují"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "forde"
+                "fordert"
               ]
             },
             "lv": {
               "purple": [
-                "Žádá"
+                "žádá"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forderte"
               ]
             },
             "lv": {
               "purple": [
-                "Požadujeme"
+                "vyžádala"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forderte"
               ]
             },
             "lv": {
               "purple": [
-                "Požadovat"
+                "Požadovala"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fördern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podporovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlangen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "žádat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bitten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prosit"
               ]
             }
           }
@@ -19185,11 +26702,7 @@ const B2_WORDS = [
           {}
         ],
         "important": [
-          {
-            "blue": [
-              "fordern"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -19201,96 +26714,154 @@ const B2_WORDS = [
     "study": {
       "id": "b2-foerdern",
       "layout": "standardStudy",
-      "translation": "Podporovat • Podporovat",
+      "translation": "Podporovat • Napomáhat",
       "explanation": [
-        "Hlavní myšlenka: podporovat rozvoj, podporovat osobu, projekt nebo proces.",
-        "Fördern znamená především: podporovat rozvoj.",
-        "Často se pojí s podporou a pokrokem.",
-        "Fördern znamená také: těžit nerosty.",
-        "Toto použití je typické pro průmysl.",
-        "Fördern znamená také: rozvíjet talent.",
-        "Toto použití je typické pro vzdělávání.",
-        "Fördern znamená podporovat rozvoj, podporovat osobu nebo projekt (Sport fördert die Gesundheit)."
+        "Hlavní myšlenka: fördern znamená podporovat, napomáhat, pomáhat něčemu rozvíjet se – talentu, zdraví, hospodářství, projektu. Často jde i o finanční podporu.",
+        "Pravidelné sloveso: er fördert, förderte, hat gefördert. Vždy s akuzativem: etwas/jemanden fördern. Podstatné jméno je die Förderung (podpora, podpoření).",
+        "Pozor: fördern (s ö) je jiné slovo než fordern (požadovat)."
       ],
       "examples": [
         {
-          "de": "Sport fördert die Gesundheit.",
-          "lv": "Sport podporuje zdraví."
+          "de": "Der Staat fördert erneuerbare Energien.",
+          "lv": "Stát podporuje obnovitelnou energii."
         },
         {
           "de": "Sport fördert die Gesundheit.",
           "lv": "Sport podporuje zdraví."
         },
         {
-          "de": "In der Region wird Öl gefördert.",
-          "lv": "V regionu se těží ropa."
+          "de": "Die Stiftung fördert junge Künstler.",
+          "lv": "Nadace podporuje mladé umělce."
         },
         {
-          "de": "Die Schule fördert begabte Kinder.",
-          "lv": "Škola podporuje nadané děti."
+          "de": "Gute Lehrer fördern die Talente der Kinder.",
+          "lv": "Dobří učitelé rozvíjejí talenty dětí."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fordern",
+          "meaning": "požadovat",
+          "example": "Die Arbeiter fordern mehr Geld. – Dělníci požadují více peněz."
+        },
+        {
+          "word": "unterstützen",
+          "meaning": "podporovat",
+          "example": "Ich unterstütze dich. – Podporuji tě."
+        },
+        {
+          "word": "helfen",
+          "meaning": "pomáhat",
+          "example": "Er hilft mir. – Pomáhá mi."
         }
       ],
       "tip": [
-        "Podporovat rozvoj, podporovat osobu, projekt nebo proces.",
-        "Použijte fördern, pokud kontext odpovídá tomuto významu."
+        "Když něco pomáhá k rozvoji, použij fördern: das Wachstum, die Gesundheit, die Kinder.",
+        "Podstatné jméno die Förderung: staatliche Förderung – státní podpora."
       ],
       "important": [
-        "Fördern = podporovat (s ö).",
-        "Podpora, propagace: fördern (s ö).",
-        "Podporovat rozvoj, podporovat osobu, projekt nebo proces."
+        "Fördern se pojí s akuzativem, nikoli s dativem (na rozdíl od helfen): Er fördert mich."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "fördern"
+          "blue": [
+            "fördern",
+            "fördert",
+            "förderte",
+            "gefördert",
+            "Förderung",
+            "fordern"
           ],
           "purple": [
-            "Hlavní",
-            "Hlavní"
+            "podporovat",
+            "napomáhat",
+            "podpora"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "Sport"
+                "podporuje"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "Sport"
+                "podporuje"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "gefördert"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "Škola"
+                "podporuje"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fördern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rozvíjejí"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "požadovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unterstützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "podporovat"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pomáhat"
               ]
             }
           }
@@ -19311,21 +26882,165 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-verlaufen",
-      "layout": "minimalStudy",
-      "translation": "Zmizte",
-      "explanation": "Sich verlaufen znamená zabloudit, ztratit se. Nemá pevnou předložku. Nesmí se zaměňovat se slovesem verlaufen (probíhat).",
+      "layout": "standardStudy",
+      "translation": "Zabloudit • Ztratit se",
+      "explanation": [
+        "Hlavní myšlenka: sich verlaufen znamená zabloudit, ztratit se při chůzi – sejít ze správné cesty a nevědět, kde člověk je.",
+        "Zvratné sloveso: ich verlaufe mich, er verläuft sich, verlief sich, hat sich verlaufen. Perfektum se tvoří s haben. Obvykle se užívá s místem: im Wald, in der Stadt, in den Bergen.",
+        "Pokud někdo zabloudí při jízdě dopravním prostředkem, říká se sich verfahren; sich verirren je obecnější a může znamenat i zatoulat se."
+      ],
+      "examples": [
+        {
+          "de": "Wir haben uns im Wald verlaufen.",
+          "lv": "Zabloudili jsme v lese."
+        },
+        {
+          "de": "Ich verlaufe mich in dieser Stadt ständig.",
+          "lv": "V tomto městě bloudím neustále."
+        },
+        {
+          "de": "Der Tourist hat sich in der Altstadt verlaufen.",
+          "lv": "Turista zabloudil ve starém městě."
+        },
+        {
+          "de": "Pass auf, dass du dich nicht verläufst!",
+          "lv": "Dávej pozor, ať nezabloudíš!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich verfahren",
+          "meaning": "zabloudit při jízdě",
+          "example": "Wir haben uns verfahren. – Zabloudili jsme při jízdě autem."
+        },
+        {
+          "word": "sich verirren",
+          "meaning": "zatoulat se",
+          "example": "Das Kind hat sich verirrt. – Dítě se zatoulalo."
+        },
+        {
+          "word": "verlaufen",
+          "meaning": "probíhat",
+          "example": "Die Prüfung verlief gut. – Zkouška proběhla dobře."
+        }
+      ],
+      "tip": [
+        "Když zabloudíš pěšky, je to sich verlaufen; když autem, sich verfahren.",
+        "Když zabloudíš, můžeš říct: Ich habe mich verlaufen. Können Sie mir helfen?"
+      ],
+      "important": [
+        "Nezaměňuj s verlaufen bez sich: Die Grenze verläuft entlang des Flusses má úplně jiný význam."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verlaufen"
+            "sich verlaufen",
+            "verlaufe",
+            "verläuft",
+            "verlief",
+            "verlaufen",
+            "verfahren"
           ],
           "purple": [
-            "Sich"
-          ],
-          "red": [
-            "verlaufen"
+            "zabloudit",
+            "ztratit se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Zabloudili"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bloudím"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zabloudil"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verläufst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nezabloudíš"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich verfahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "při jízdě"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verirren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zatoulat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "probíhat"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -19335,22 +27050,166 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-verlaufen",
-      "layout": "minimalStudy",
-      "translation": "Postupovat • Valit",
-      "explanation": "Verlaufen (bez sich) znamená probíhat, plynout (Der Kurs verläuft gut). Není synonymem pro sich verlaufen (zabloudit).",
+      "layout": "standardStudy",
+      "translation": "Probíhat • Plynout",
+      "explanation": [
+        "Hlavní myšlenka: verlaufen (bez sich) znamená probíhat, plynout určitým způsobem: Die Prüfung ist gut verlaufen. Popisuje, jak se něco vyvíjelo nebo skončilo v čase.",
+        "Tvary: es verläuft, es verlief, es ist verlaufen – perfektum se tvoří se sein. V prostorovém smyslu může verlaufen znamenat vést, táhnout se (o cestě, hranici, čáře): Die Grenze verläuft entlang des Flusses.",
+        "Se sich je to jiné slovo: sich verlaufen – zabloudit."
+      ],
+      "examples": [
+        {
+          "de": "Die Prüfung ist gut verlaufen.",
+          "lv": "Zkouška proběhla dobře."
+        },
+        {
+          "de": "Die Operation verlief ohne Probleme.",
+          "lv": "Operace proběhla bez problémů."
+        },
+        {
+          "de": "Die Grenze verläuft entlang des Flusses.",
+          "lv": "Hranice vede podél řeky."
+        },
+        {
+          "de": "Wie ist die Besprechung verlaufen?",
+          "lv": "Jak proběhla porada?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich verlaufen",
+          "meaning": "zabloudit",
+          "example": "Ich habe mich verlaufen. – Zabloudil jsem."
+        },
+        {
+          "word": "stattfinden",
+          "meaning": "konat se",
+          "example": "Die Feier findet morgen statt. – Oslava se bude konat zítra."
+        },
+        {
+          "word": "ablaufen",
+          "meaning": "probíhat, skončit",
+          "example": "Der Tag ist ruhig abgelaufen. – Den proběhl klidně."
+        }
+      ],
+      "tip": [
+        "Obvykle se přidává způsob: gut, schlecht, ruhig, ohne Probleme verlaufen.",
+        "V lékařství často popisuje průběh nemoci: Die Krankheit verläuft leicht."
+      ],
+      "important": [
+        "V perfektu se používá sein: ist verlaufen (nikoli hat verlaufen)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "verlaufen"
+            "verlaufen",
+            "verläuft",
+            "verlief",
+            "ist verlaufen",
+            "sich verlaufen"
           ],
           "purple": [
-            "Verlaufen",
-            "Verlaufen"
-          ],
-          "red": [
-            "sich verlaufen"
+            "probíhat",
+            "plynout",
+            "vést",
+            "táhnout se"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "proběhla"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlief"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "proběhla"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verläuft"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vede"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "proběhla"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich verlaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "zabloudit"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stattfinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "konat se"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ablaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "probíhat"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   }
