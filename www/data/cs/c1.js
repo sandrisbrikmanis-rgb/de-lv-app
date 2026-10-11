@@ -1277,7 +1277,7 @@ const C1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: zusammenfassen je sloveso – shromáždit nebo uspořádat informace do jednoho stručného prohlášení.",
         "Zusammenfassen se používá, když se z několika faktů, textů nebo myšlenek skládá krátký přehled.",
-        "Nezaměňovat s die Zusammenfassung - ten s velkým písmenem a členem die je podstatné jméno označující samotné shrnutí (výsledek, hotový text).",
+        "Nezaměňovat s die Zusammenfassung - ta s velkým písmenem a členem die je podstatné jméno označující samotné shrnutí (výsledek, hotový text).",
         "Zusammenfassen = proces/akce (shrnout, shrnout) • Die Zusammenfassung = výsledek (souhrn jako podstatné jméno).",
         "Podstatné jméno od slovesa zusammenfassen je die Zusammenfassung."
       ],
@@ -4542,7 +4542,7 @@ const C1_WORDS = [
         "Den Zuschlag erhalten (v aukcích) = vyhrát aukci/přijmout objednávku."
       ],
       "important": [
-        "Der Zuschlag = přirážka/přirážka, nikoli „příloha“ k dokumentu.",
+        "Der Zuschlag = přirážka, nikoli „příloha“ k dokumentu.",
         "Příloha k dokumentu v němčině je die Anlage/der Anhang."
       ],
       "sectionAccents": {
@@ -4664,9 +4664,8 @@ const C1_WORDS = [
       "translation": "Pobírat • Vztahovat se na",
       "explanation": [
         "Hlavní myšlenka: beziehen může znamenat pobírat důchod nebo plat či nastěhovat se do bytu; sich beziehen auf znamená vztahovat se na něco.",
-        "Příklady hledají typické každodenní použití.",
         "V případě pochybností zkontrolujte, zda se jedná o stav nebo akci.",
-        "Kontext a postup určují správnou volbu."
+        "Kontext a vazba určují správnou volbu."
       ],
       "examples": [
         {
@@ -4898,7 +4897,7 @@ const C1_WORDS = [
       "important": [
         "Unterstellen je emocionálně negativní – neoprávněné obvinění.",
         "Špatně: Wir unterstellen Grundkenntnisse. → Správně: Wir setzen Grundkenntnisse voraus.",
-        "Unterstellen → vina, atribut."
+        "Unterstellen = podsouvat, přisuzovat."
       ],
       "sectionAccents": {
         "explanation": {

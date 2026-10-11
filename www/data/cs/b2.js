@@ -2228,7 +2228,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Zmocnit se • Zmocnit se",
       "rektion": "+ 2. pád (genitiv)",
-      "explanation": "Sich bemächtigen se v moderní němčině používá s přivlastňovací formou bez předložky.",
+      "explanation": "Sich bemächtigen se v moderní němčině používá s 2. pádem (Genitiv) bez předložky.",
       "forms": "+ 2. pád (genitiv)",
       "formsLabel": "Vazba:",
       "sectionAccents": {
@@ -3643,7 +3643,7 @@ const B2_WORDS = [
           "example": "Ich habe eine klare Vorstellung. = Mám jasnou představu."
         }
       ],
-      "tip": "Dívej se, co se darstellt: role, krajina nebo události.",
+      "tip": "Dívej se, co se zobrazuje (darstellen): role, krajina nebo události.",
       "important": "Darstellung není totéž co Vorstellung (představa, představení).",
       "sectionAccents": {
         "explanation": {
@@ -6279,7 +6279,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Zbavit se • Zbavit se",
       "rektion": "+ 2. pád (genitiv)",
-      "explanation": "Sich entledigen se v moderní němčině používá s přivlastňovacím tvarem bez předložky.",
+      "explanation": "Sich entledigen se v moderní němčině používá s 2. pádem (Genitiv) bez předložky.",
       "forms": "+ 2. pád (genitiv)",
       "formsLabel": "Vazba:",
       "sectionAccents": {
@@ -6346,7 +6346,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Pamatovat • Pamatovat si",
       "rektion": "+ 2. pád (genitiv)",
-      "explanation": "Sich entsinnen se v moderní němčině používá s přivlastňovací formou bez předložky, například: Ich entsinne mich eines Fehlers.",
+      "explanation": "Sich entsinnen se v moderní němčině používá s 2. pádem (Genitiv) bez předložky, například: Ich entsinne mich eines Fehlers.",
       "forms": "+ 2. pád (genitiv)",
       "formsLabel": "Vazba:",
       "sectionAccents": {
@@ -10764,7 +10764,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Přípitek \"ať žije!\"",
       "explanation": [
-        "Hlavní myšlenka: das Hoch s velkým písmenem a článkem das je podstatné jméno - oslavný výkřik/přípitek (Ein Hoch auf...! = Ať žije...!) nebo za počasí - oblast vysokého tlaku.",
+        "Hlavní myšlenka: das Hoch s velkým písmenem a členem das je podstatné jméno - oslavný výkřik/přípitek (Ein Hoch auf...! = Ať žije...!) nebo za počasí - oblast vysokého tlaku.",
         "Malé písmeno hoch je přídavné jméno - vysoký (der Berg ist hoch).",
         "Fráze ein Hoch ausbringen znamená pozvednout přípitek.",
         "V počasí znamená das Hoch anticyklonu, oblast vysokého tlaku vzduchu (opak: das Tief)."
@@ -10793,7 +10793,7 @@ const B2_WORDS = [
       ],
       "important": [
         "Das Hoch = přípitek (\"ať žije!\") NEBO anticyklóna (počasí) - podstatné jméno.",
-        "Hoch = vysoký — přídavné jméno, bez článku.",
+        "Hoch = vysoký — přídavné jméno, bez členu.",
         "Kontrast počasí: das Hoch ↔ das Tief."
       ],
       "sectionAccents": {
@@ -12473,7 +12473,7 @@ const B2_WORDS = [
         },
         {
           "word": "der Nachdruck (Buch)",
-          "meaning": "Znovu vydat",
+          "meaning": "Dotisk, přetisk",
           "example": "Der Nachdruck erschien im Frühjahr. = Dotisk vyšel na jaře."
         },
         {
@@ -16875,7 +16875,7 @@ const B2_WORDS = [
         }
       ],
       "tip": "Když úřad nebo vedoucí něco oficiálně stanoví, mysli na verfügen.",
-      "important": "Se über (über etwas verfügen) verfügen znamená disponovat něčím, to je jiný význam.",
+      "important": "Verfügen über etwas znamená disponovat něčím, to je jiný význam.",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -18471,7 +18471,7 @@ const B2_WORDS = [
       "id": "b2-zuweisen",
       "layout": "standardStudy",
       "translation": "Přiřadit • Přidělit",
-      "explanation": "Hlavní myšlenka: zuweisen znamená oficiálně přidělit nebo přidělit – úkol, roli, zdroj nebo peníze konkrétní osobě nebo oddělení. Dělitelné: weise ... zu.",
+      "explanation": "Hlavní myšlenka: zuweisen znamená oficiálně přidělit – úkol, roli, zdroj nebo peníze konkrétní osobě nebo oddělení. Dělitelné: weise ... zu.",
       "examples": [
         {
           "de": "Der Chef weist ihm eine neue Aufgabe zu.",
@@ -18601,7 +18601,7 @@ const B2_WORDS = [
         },
         {
           "word": "jemandem zuwider sein",
-          "meaning": "Někomu se to nebude líbit",
+          "meaning": "Být někomu odporný",
           "example": "Es ist mir zuwider. = Je mi to odporné."
         },
         {
@@ -19070,10 +19070,8 @@ const B2_WORDS = [
       "translation": "Vyžadovat • Vyžadovat",
       "explanation": [
         "Hlavní myšlenka: Žádost o peníze, práva, změny nebo povinnosti – aktivní poptávka.",
-        "Fordern znamená hlavně: vyžadovat / vyžadovat.",
-        "Často se vyznačuje: aktivní poptávkou.",
+        "Fordern znamená hlavně: vyžadovat.",
         "Fordern znamená hlavně: požadovat standard.",
-        "Často charakterizováno: formální.",
         "Fordern se používá, když někdo žádá o peníze, práva, změnu nebo závazek (Sie fordern mehr Geld)."
       ],
       "examples": [
