@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "g2-a1-card-translation-hr-hu-is-source-chain-verification-v1",
+  "generatedAt": "2026-10-02T15:40:33.290Z",
+  "gate": {
+    "pass": true,
+    "failures": []
+  },
+  "finalStatus": {
+    "hr": "HR_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+    "hu": "HU_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+    "is": "IS_NOT_VERIFIED_DIGITIZED"
+  },
+  "reportSummary": {
+    "languageCount": 3,
+    "hrPrimarySourceIds": [
+      "mdz-bsb-sulek-de-hr-vol1-1860",
+      "mdz-bsb-sulek-de-hr-vol2-1860"
+    ],
+    "hrReverseSourceId": "ia-filipovic-hr-de-vol-a-o-1875",
+    "hrStatus": "HR_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+    "huPrimarySourceIds": [
+      "mek-24482-nemet-magyar-pdf-2023",
+      "mek-00072-de-hu-hu-de-html"
+    ],
+    "huSupplementId": "real-eod-nemet-magyar-zsebszotar-vol13-1838",
+    "huStatus": "HU_DIGITIZED_SOURCES_REGISTERED_PARTIAL",
+    "isStatus": "IS_NOT_VERIFIED_DIGITIZED",
+    "note": "hr un hu reģistrēti kā PARTIAL ar pilotā verificētām ķēdēm; is nav gatavs audita avots (LEXÍA nav pipeline-verificēta)."
+  }
+}
