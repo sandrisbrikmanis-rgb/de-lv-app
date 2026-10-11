@@ -43515,7 +43515,7 @@ const A2_WORDS = [
       "tip": "У Німеччині слово \"das Kennzeichen\" дуже часто використовується в розмовній мові та в установах.",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "де твій номерний знак"
         },
         {

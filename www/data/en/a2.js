@@ -45187,7 +45187,7 @@ const A2_WORDS = [
       "tip": "In Germany, the word \"das Kennzeichen\" is very often used colloquially and in institutions.",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Where is your licence plate"
         },
         {

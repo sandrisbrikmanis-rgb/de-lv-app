@@ -44279,7 +44279,7 @@ const A2_WORDS = [
       "tip": "Vokietijoje šnekamojoje kalboje ir įstaigose labai dažnai vartojamas žodis „das Kennzeichen“.",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Kur yra tavo valstybinis numeris?"
         },
         {

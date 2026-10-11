@@ -47282,7 +47282,7 @@ const A2_WORDS = [
       "tip": "Vācijā sarunvalodā un iestādēs ļoti bieži lieto vārdu \"das Kennzeichen\".",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Kur ir tava numura zīme?"
         },
         {

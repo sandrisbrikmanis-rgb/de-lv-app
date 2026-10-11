@@ -46964,7 +46964,7 @@ const A2_WORDS = [
       "tip": "Saksamaal kasutatakse kõnekeeles ja ametiasutustes väga sageli sõna \"das Kennzeichen\".",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Kus on sinu numbrimärk?"
         },
         {

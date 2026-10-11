@@ -45190,7 +45190,7 @@ const A2_WORDS = [
       "tip": "En Alemania, la palabra \"das Kennzeichen\" se utiliza con mucha frecuencia en el ámbito coloquial y en las instituciones.",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "¿Dónde está tu matrícula?"
         },
         {

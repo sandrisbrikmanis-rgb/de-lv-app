@@ -42542,7 +42542,7 @@ const A2_WORDS = [
       "tip": "V Německu se slovo „das Kennzeichen“ velmi často používá hovorově a v institucích.",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Kde máš SPZ?"
         },
         {

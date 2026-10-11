@@ -46800,7 +46800,7 @@ const A2_WORDS = [
       "tip": "Στη Γερμανία, η λέξη \"das Kennzeichen\" χρησιμοποιείται πολύ συχνά στην καθομιλουμένη και στις αρχές.",
       "examples": [
         {
-          "de": "Wo ir tavam Nummernschild?",
+          "de": "Wo ist dein Nummernschild?",
           "lv": "Πού είναι η πινακίδα σας • "
         },
         {
