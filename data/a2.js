@@ -1493,8 +1493,8 @@ const A2_WORDS = [
       "translation": "nolikt • novietot • atslēgt",
       "explanation": [
         "Galvenā doma: abstellen ir atdalāms darbības vārds ar nozīmi nolikt vai novietot (priekšmetu, auto, velosipēdu) un atslēgt (ūdeni, strāvu, ierīci): stellt ab, stellte ab, hat abgestellt. Seko akuzatīvs. Ab stāv teikuma beigās.",
-        "Vietu norāda ar in/vor/auf + datīvu vai akuzatīvu: das Auto vor dem Haus abstellen. Ierīci arī izslēdz ar abstellen, bet formālāk teiks ausschalten.",
-        "Šo vārdu bieži lieto par transporta līdzekļiem, kuru atstāj uz laiku."
+        "Vietu norāda ar in/vor/auf + datīvu vai akuzatīvu: das Auto vor dem Haus abstellen. Ierīci arī izslēdz ar abstellen, bet formālāk saka ausschalten.",
+        "Šo vārdu bieži lieto par transporta līdzekļiem, kurus atstāj uz laiku."
       ],
       "examples": [
         {
@@ -1503,7 +1503,7 @@ const A2_WORDS = [
         },
         {
           "de": "Stell bitte die Tasche dort ab.",
-          "lv": "Nolieci, lūdzu, somu tur."
+          "lv": "Noliec, lūdzu, somu tur."
         },
         {
           "de": "Die Stadtwerke stellen morgen das Wasser ab.",
@@ -1547,11 +1547,11 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "abstellen",
-            "stellt ab",
-            "stellte ab",
-            "hat abgestellt",
+            "stellt",
+            "ab",
+            "stellte",
             "abgestellt",
-            "ausschalten"
+            "Ab"
           ],
           "purple": [
             "nolikt",
@@ -1582,7 +1582,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Nolieci"
+                "Noliec"
               ]
             }
           },
@@ -1634,7 +1634,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "novietot (auto)"
+                "novietot"
               ]
             }
           },
@@ -4346,7 +4346,7 @@ const A2_WORDS = [
       "translation": "pacelt • atcelt • saglabāt",
       "explanation": [
         "Galvenā doma: aufheben ir atdalāms darbības vārds ar trim galvenajām nozīmēm: pacelt kaut ko no zemes, atcelt (likumu, aizliegumu, lēmumu) un saglabāt vai uzglabāt (čeku, vēstuli, atmiņu vēlākam laikam).",
-        "Formas: hebt auf, hob auf, hat aufgehoben. Visās nozīmēs ir akuzatīvs: etwas aufheben. Priedēklis auf- teikumā atdalās.",
+        "Formas: hebt auf, hob auf, hat aufgehoben (stiprais darbības vārds). Visās nozīmēs ir akuzatīvs: etwas aufheben. Priedēklis auf- teikumā atdalās.",
         "Izteiciens gut aufgehoben sein nozīmē būt drošās rokās vai labā vietā: Das Kind ist bei der Oma gut aufgehoben."
       ],
       "examples": [
@@ -4379,14 +4379,14 @@ const A2_WORDS = [
           "example": "Man hat die Todesstrafe abgeschafft. – Nāvessods ir atcelts."
         },
         {
-          "word": "bewahren",
+          "word": "aufbewahren",
           "meaning": "glabāt, saglabāt",
           "example": "Sie bewahrt die Briefe auf. – Viņa glabā vēstules."
         }
       ],
       "tip": [
         "Skaties, kas ir objekts: ar priekšmetu uz zemes aufheben ir pacelt, ar likumu vai aizliegumu atcelt, ar dokumentu saglabāt.",
-        "Atceries nepareizo darbības vārdu formu: hob auf, hat aufgehoben."
+        "Atceries stiprā darbības vārda formas: hob auf, hat aufgehoben."
       ],
       "important": [
         "Aufheben nav tas pats, kas heben: heben ir pacelt (smagumu uz augšu), aufheben ir pacelt no zemes vai atcelt.",
@@ -4396,14 +4396,15 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "aufheben",
-            "hebt",
-            "aufgehoben",
-            "auf"
+            "hebt auf",
+            "hob auf",
+            "aufgehoben"
           ],
           "purple": [
             "pacelt",
             "atcelt",
-            "saglabāt"
+            "saglabāt",
+            "uzglabāt"
           ]
         },
         "examples": [
@@ -4435,8 +4436,8 @@ const A2_WORDS = [
           {
             "de": {
               "blue": [
-                "heb",
-                "auf"
+                "auf",
+                "heb"
               ]
             },
             "lv": {
@@ -4486,7 +4487,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "bewahren"
+                "aufbewahren"
               ]
             },
             "meaning": {
@@ -8553,7 +8554,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Beinahe un fast ir gandrīz sinonīmi; ikdienā biežāk dzirdams fast.",
-        "Gandrīz notikušu, bet nenotikušu lietu apraksta ar Konjunktiv II: Ich wäre beinahe gefallen."
+        "Gandrīz notikušu, bet nenotikušu lietu bieži apraksta ar Konjunktiv II: Ich wäre beinahe gefallen."
       ],
       "important": [
         "Beinahe ir viens vārds, nevis bei nahe.",
@@ -9553,13 +9554,13 @@ const A2_WORDS = [
       "translation": "lūgums",
       "explanation": [
         "Galvenā doma: die Bitte ir sieviešu dzimtes lietvārds ar nozīmi lūgums: tas, ko kāds cilvēks lūdz no otra. Daudzskaitlis ir die Bitten.",
-        "Biežie savienojumi: eine Bitte haben (būt lūgumam), eine Bitte erfüllen (izpildīt lūgumu), eine Bitte an jemanden richten (vērsties pie kāda ar lūgumu), auf Bitte von + datīvs (pēc kāda lūguma), die Bitte um + akuzatīvs (lūgums pēc kaut kā).",
-        "Vārds bitte ar mazo burtu ir pieklājības vārds lūdzu. Tas nav lietvārds un nav jālieto vienkārši kā lūgums."
+        "Biežie savienojumi: eine Bitte haben (vēlēties kaut ko lūgt), eine Bitte erfüllen (izpildīt lūgumu), eine Bitte an jemanden richten (vērsties pie kāda ar lūgumu), auf Bitte + ģenitīvs (pēc kāda lūguma), die Bitte um + akuzatīvs (lūgums pēc kaut kā).",
+        "Vārds bitte ar mazo burtu ir pieklājības vārds lūdzu. Tas nav lietvārds: Komm bitte her! (Nāc, lūdzu, šurp!)."
       ],
       "examples": [
         {
           "de": "Ich habe eine Bitte an dich.",
-          "lv": "Man ir lūgums pie tevis."
+          "lv": "Man ir kāds lūgums tev."
         },
         {
           "de": "Er erfüllt ihre Bitte sofort.",
@@ -9607,7 +9608,9 @@ const A2_WORDS = [
             "bitte"
           ],
           "purple": [
-            "lūgums"
+            "lūgums",
+            "lūgumu",
+            "lūguma"
           ]
         },
         "examples": [
@@ -10733,7 +10736,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "degt",
       "explanation": [
-        "Galvenā doma: brennen ir neregulārs darbības vārds ar nozīmi degt: uguns, malka, gaisma un pat acis vai āda var degt. Tam nav tiešā objekta.",
+        "Galvenā doma: brennen ir neregulārs darbības vārds ar nozīmi degt: uguns, malka, gaisma un pat acis vai āda var degt. Pamatnozīmē tam nav tiešā objekta.",
         "Formas: brennt, brannte, hat gebrannt. Tas ir jauktais darbības vārds: sakne maina patskani (brennen – brannte), bet galotnes ir kā regulāriem darbības vārdiem (ich brannte, wir brannten).",
         "Pārnestā nozīmē brennen nozīmē arī dedzināt (par sāpēm vai sauli: Die Sonne brennt) un degt aiz entuziasma (für etwas brennen). Ar objektu brennen nozīmē ierakstīt (eine CD brennen) vai izdedzināt (Schnaps brennen)."
       ],
@@ -10777,8 +10780,8 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ar brennen nevajag objektu: Das Haus brennt. Ja kāds kaut ko dedzina, lieto anzünden vai verbrennen.",
-        "Atceries formu mainu: brennt – brannte – gebrannt."
+        "Pamatnozīmē brennen nevajag objektu: Das Haus brennt. Ja kāds kaut ko dedzina, lieto anzünden vai verbrennen.",
+        "Atceries formu maiņu: brennt – brannte – gebrannt."
       ],
       "important": [
         "Brennen un verbrennen nav viens un tas pats: verbrennen ir sadedzināt vai sadegt, brennen ir degt.",
@@ -10788,12 +10791,11 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "brennen",
-            "brennt",
-            "brannte",
-            "gebrannt"
+            "brennt"
           ],
           "purple": [
-            "degt"
+            "degt",
+            "dedzināt"
           ]
         },
         "examples": [
@@ -11442,7 +11444,7 @@ const A2_WORDS = [
       "translation": "ar to",
       "explanation": [
         "Galvenā doma: damit ir divējāds vārds. Kā apstākļa vārds tas nozīmē ar to (mit + šī lieta) un atsaucas uz jau minēto: Was machst du damit? Kā pakārtojuma saiklis tas ievada mērķa teikumu un nozīmē lai.",
-        "Saikļa damit teikumā darāmais vārds stāv teikuma beigās: Ich schreibe es auf, damit ich es nicht vergesse. Ja abos teikumos darbības veicējs ir viens un tas pats, bieži lieto arī um ... zu."
+        "Saikļa damit teikumā darbības vārds stāv teikuma beigās: Ich schreibe es auf, damit ich es nicht vergesse. Ja abos teikumos darbības veicējs ir viens un tas pats, bieži lieto arī um ... zu."
       ],
       "examples": [
         {
@@ -11475,10 +11477,10 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja pēc damit seko pilns teikums ar savu teikuma priekšmetu, tas ir mērķa saiklis lai; ja damit stāv pats par sevi, tas ir ar to."
+        "Ja damit ievada blakusteikumu (darbības vārds beigās), tas ir mērķa saiklis lai; ja damit stāv pats par sevi, tas ir ar to."
       ],
       "important": [
-        "Saikļa damit teikumā darāmais vārds ir teikuma beigās.",
+        "Saikļa damit teikumā darbības vārds ir teikuma beigās.",
         "damit nenozīmē tāpēc; cēloņa nozīmei lieto deshalb vai darum."
       ],
       "sectionAccents": {
@@ -12215,7 +12217,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ja darbības vārdam seko von, lietai aizstāj ar davon, jautājumā — wovon."
+        "Ja darbības vārdam seko von + lieta, to var aizstāt ar davon; jautājumā lieto wovon."
       ],
       "important": [
         "Cilvēkiem lieto von + vietniekvārds: Ich habe von ihm gehört.",
@@ -12224,8 +12226,7 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "davon",
-            "von"
+            "davon"
           ],
           "purple": [
             "no tā",
@@ -12291,7 +12292,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "par ko"
+                "no"
               ]
             }
           },
@@ -12303,7 +12304,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "par to"
+                "par"
               ]
             }
           }
@@ -14821,7 +14822,7 @@ const A2_WORDS = [
       "translation": "ieslēgt",
       "explanation": [
         "Galvenā doma: einschalten ir atdalāms darbības vārds, kas nozīmē ieslēgt (ierīci, gaismu, televizoru, datoru). Formas: schaltet ein, schaltete ein, hat eingeschaltet.",
-        "Ieslēdzamais ir Akuzatīvā: Ich schalte das Licht ein. Pretstats ir ausschalten (izslēgt). Sarunvalodā lieto arī anmachen."
+        "Objekts ir akuzatīvā: Ich schalte das Licht ein. Pretstats ir ausschalten (izslēgt). Sarunvalodā lieto arī anmachen."
       ],
       "examples": [
         {
@@ -14857,14 +14858,13 @@ const A2_WORDS = [
         "Pārim ein- un aus-: einschalten ↔ ausschalten."
       ],
       "important": [
-        "Daļiņa ein pāriet uz teikuma beigām: Ich schalte das Licht ein."
+        "Atdalāmais priedēklis ein pāriet uz teikuma beigām: Ich schalte das Licht ein."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "einschalten",
-            "schaltet",
-            "eingeschaltet"
+            "schaltet ein"
           ],
           "purple": [
             "ieslēgt"
@@ -23814,9 +23814,9 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "raidījums bērniem",
       "explanation": [
-        "Galvenā doma: der Kinderfunk ir vīriešu dzimtes lietvārds, kas nozīmē bērnu radio raidījumu, tas ir programmu vai raidījumu bērniem pa radio.",
-        "Vārds ir sastopams galvenokārt radio vēsturē un mediju kontekstā, mūsdienās to lieto reti; ikdienā parasti saka eine Kindersendung vai ein Hörspiel für Kinder. Daudzskaitlis gandrīz nelieto.",
-        "Sastāv no das Kind un der Funk (radio, radiosakari)."
+        "Galvenā doma: der Kinderfunk ir vīriešu dzimtes lietvārds, kas nozīmē bērnu radio raidījumu, proti, programmu vai raidījumu bērniem pa radio.",
+        "Vārds ir sastopams galvenokārt radio vēsturē un mediju kontekstā, mūsdienās to lieto reti; ikdienā parasti saka eine Kindersendung vai ein Hörspiel für Kinder. Daudzskaitli gandrīz nelieto.",
+        "Sastāv no Kinder (bērni) un der Funk (radio, radiosakari)."
       ],
       "examples": [
         {
@@ -23859,13 +23859,12 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Kinderfunk",
-            "Kinderfunk",
-            "Funk",
-            "Kindersendung"
+            "Kinderfunk"
           ],
           "purple": [
-            "bērnu radio raidījumu"
+            "radio",
+            "raidījumu",
+            "radiosakari"
           ]
         },
         "examples": [
@@ -23889,7 +23888,8 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "raidījumu"
+                "raidījumu",
+                "radio"
               ]
             }
           },
@@ -23913,6 +23913,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
+                "radio",
                 "raidījumiem"
               ]
             }
@@ -24128,7 +24129,7 @@ const A2_WORDS = [
       "translation": "bērnība",
       "explanation": [
         "Galvenā doma: die Kindheit ir sieviešu dzimtes lietvārds, kas nozīmē bērnību, dzīves posmu, kad cilvēks ir bērns.",
-        "Vārds parasti lieto vienskaitlī, daudzskaitlis die Kindheiten ir ļoti rets. Bieži lietojums: in meiner Kindheit (manā bērnībā), von Kindheit an (no bērnības), eine glückliche Kindheit (laimīga bērnība).",
+        "Vārdu parasti lieto vienskaitlī; daudzskaitlis die Kindheiten ir ļoti rets. Bieži lietojums: in meiner Kindheit (manā bērnībā), von Kindheit an (no bērnības), eine glückliche Kindheit (laimīga bērnība).",
         "Sufikss -heit veido sieviešu dzimtes vārdus no īpašības vārda vai lietvārda: das Kind, die Kindheit."
       ],
       "examples": [
@@ -24167,7 +24168,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Stāstot par bērnību, parasti lieto Präteritum: In meiner Kindheit spielte ich viel draußen.",
-        "Atceries beigas -heit: die Kindheit, die Jugend (jaunība), das Alter (vecums)."
+        "Atceries beigas -heit: die Kindheit, die Freiheit (brīvība), die Gesundheit (veselība)."
       ],
       "important": [
         "Die Kindheit ir sieviešu dzimtes lietvārds ar lielo burtu.",
@@ -24176,12 +24177,13 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "die Kindheit",
             "Kindheit",
-            "Kind"
+            "Kindheiten"
           ],
           "purple": [
             "bērnību",
+            "bērnībā",
+            "bērnības",
             "bērnība"
           ]
         },
@@ -24805,7 +24807,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "spilvens",
       "explanation": [
-        "Galvenā doma: das Kissen ir vidējās dzimtes lietvārds, kas nozīmē spilvenu, mīkstu somu, ko liek zem galvas gultā vai uz dīvāna.",
+        "Galvenā doma: das Kissen ir vidējās dzimtes lietvārds, kas nozīmē spilvenu – mīkstu, pildītu priekšmetu, ko liek zem galvas gultā vai uz dīvāna.",
         "Daudzskaitlis ir die Kissen (bez galotnes). Salikteņi: das Kopfkissen (spilvens gulēšanai), das Sofakissen (dīvāna spilvens), der Kissenbezug (spilvendrāna).",
         "Vietu norāda ar auf dem Kissen (uz spilvena), virzienu ar auf das Kissen."
       ],
@@ -24854,15 +24856,11 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Kissen",
-            "Kissen",
-            "Kopfkissen",
-            "Sofakissen",
-            "Kissenbezug"
+            "Kissen"
           ],
           "purple": [
             "spilvenu",
-            "spilvendrāna"
+            "spilvens"
           ]
         },
         "examples": [
@@ -26562,15 +26560,11 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "kurz",
-            "kurze",
-            "kurzer",
             "kürzer",
-            "kürzesten",
-            "Kurzem"
+            "kürzesten"
           ],
           "purple": [
             "īss",
-            "īsu",
             "īsi"
           ]
         },
@@ -27047,12 +27041,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Ar slimību parasti an + Datīv; ar traucējošu faktoru parasti unter + Datīv.",
+        "Ar slimību parasti an + datīvs; ar traucējošu faktoru parasti unter + datīvs.",
         "Mācies formas kopā: leiden – litt – gelitten, līdzīgi kā schneiden – schnitt – geschnitten."
       ],
       "important": [
         "Leiden ir stiprs darbības vārds: litt, gelitten, nevis leidete.",
-        "Ich kann ihn nicht leiden nozīmē Es viņu nevaru ciest; Ich leide nicht nozīmē Es necietu."
+        "Ich kann ihn nicht leiden nozīmē Es viņu nevaru ciest; Ich leide nicht nozīmē Es neciešu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27060,9 +27054,7 @@ const A2_WORDS = [
             "leiden",
             "leidet",
             "litt",
-            "gelitten",
-            "leiden an",
-            "leiden unter"
+            "gelitten"
           ],
           "purple": [
             "ciest"
@@ -28219,7 +28211,7 @@ const A2_WORDS = [
       "explanation": [
         "Galvenā doma: los ir īpašības vārds un partikula, kas rāda, ka kaut kas nav piestiprināts vai ir atbrīvots: brīvs, vaļā, atraisīts (Der Hund ist los, suns ir vaļā). Svarīgākā frāze ir Was ist los?, kas nozīmē Kas notiek?",
         "Lieto ar sein: los sein. Frāzē etwas los sein tas nozīmē tikt vaļā no kaut kā (Ich bin die Erkältung endlich los). Atsevišķi Los! ir uzaicinājums: Aiziet! Ātrāk!",
-        "Los attiecas arī uz daļām, kas atrakušās: Der Knopf ist los (poga ir vaļīga). Lietvārds das Los (loze, liktenis) ir cits vārds."
+        "Los attiecas arī uz daļām, kas ir kļuvušas vaļīgas: Der Knopf ist los (poga ir vaļīga). Lietvārds das Los (loze, liktenis) ir cits vārds."
       ],
       "examples": [
         {
@@ -28236,7 +28228,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Knopf an meiner Jacke ist los.",
-          "lv": "Poga manai jakai ir vaļīga."
+          "lv": "Manai jakai poga ir vaļīga."
         },
         {
           "de": "Ich bin meine Erkältung endlich los.",
@@ -28272,13 +28264,14 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "los",
-            "Los",
-            "Was ist los"
+            "Los"
           ],
           "purple": [
+            "brīvs",
             "vaļā",
             "atraisīts",
-            "Kas notiek"
+            "notiek",
+            "Aiziet"
           ]
         },
         "examples": [
@@ -38264,8 +38257,8 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "norunāta tikšanās • termiņš",
       "explanation": [
-        "Galvenā doma: der Termin ir norunāts laiks vai tikšanās (pie ārsta, frizieri, ar priekšnieku) un arī termiņš, līdz kuram kaut kas jāizdara. Latviski tas bieži ir „pieraksts” vai „tikšanās laiks”.",
-        "Daudzskaitlis: die Termine. Biežās frāzes: einen Termin haben (būt norunātai tikšanās), einen Termin vereinbaren (vienoties par laiku), einen Termin absagen (atcelt). Termiņam ir arī Abgabetermin (iesniegšanas termiņš)."
+        "Galvenā doma: der Termin ir norunāts laiks vai tikšanās (pie ārsta, friziera, ar priekšnieku) un arī termiņš, līdz kuram kaut kas jāizdara. Latviski tas bieži ir „pieraksts” vai „tikšanās laiks”.",
+        "Daudzskaitlis: die Termine. Biežās frāzes: einen Termin haben (man ir norunāta tikšanās), einen Termin vereinbaren (vienoties par laiku), einen Termin absagen (atcelt). Termiņu nozīmē arī Abgabetermin (iesniegšanas termiņš)."
       ],
       "examples": [
         {
@@ -38298,7 +38291,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Pie ārsta vai frizieri vienmēr saka Termin, nevis Treffen."
+        "Pie ārsta vai friziera saka Termin, nevis Treffen."
       ],
       "important": [
         "Der Termin ir norunāts laiks, nevis pati tikšanās vieta."
@@ -38306,14 +38299,12 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Termin",
             "Termin",
             "Termine"
           ],
           "purple": [
             "tikšanās",
-            "termiņš",
-            "pieraksts"
+            "termiņš"
           ]
         },
         "examples": [
@@ -38325,7 +38316,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "norunāta tikšanās"
+                "tikšanās"
               ]
             }
           },
@@ -38337,7 +38328,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "tikšanās laiku"
+                "tikšanās"
               ]
             }
           },
@@ -38370,7 +38361,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Frist"
+                "die Frist"
               ]
             },
             "meaning": {
@@ -38382,7 +38373,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "Verabredung"
+                "die Verabredung"
               ]
             },
             "meaning": {
@@ -40709,14 +40700,14 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "priekšā",
       "explanation": [
-        "Galvenā doma: vorn (sarunvalodā un bieži arī vorne) ir vietas apstākļa vārds, kas norāda uz priekšējo daļu: telpas, rindas, transportlīdzekļa vai kolonnas priekšā.",
+        "Galvenā doma: vorn (variants vorne) ir vietas apstākļa vārds, kas norāda uz priekšējo daļu: telpas, rindas, transportlīdzekļa vai kolonnas priekšā.",
         "Vārds atbild uz jautājumu wo? (kur?). Ja jānorāda virziens, lieto nach vorn (uz priekšu). Pretstats ir hinten (aizmugurē). Vārds nav lokāms.",
-        "Nejauc ar prievārdu vor (pirms, priekšā), kam vienmēr seko lietvārds: vor dem Haus. Vārds vorn stāv pats par sevi."
+        "Nejauc ar prievārdu vor (pirms, priekšā), kam seko lietvārds vai vietniekvārds: vor dem Haus. Vārds vorn stāv pats par sevi."
       ],
       "examples": [
         {
           "de": "Er sitzt vorn im Bus.",
-          "lv": "Viņš sēž autobusa priekšā."
+          "lv": "Viņš sēž autobusa priekšgalā."
         },
         {
           "de": "Vorn ist noch Platz.",
@@ -40728,7 +40719,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich möchte lieber vorn sitzen.",
-          "lv": "Es labāk vēlos sēdēt priekšā."
+          "lv": "Es labāk gribētu sēdēt priekšā."
         },
         {
           "de": "Schau bitte nach vorn!",
@@ -40758,22 +40749,17 @@ const A2_WORDS = [
       ],
       "important": [
         "vorn norāda vietu, bet vor ir prievārds ar lietvārdu (vor dem Haus).",
-        "vorn nav lokāms; vorne ir variants ar to pašu nozīmi, sarunvalodā ļoti bieži lietots."
+        "vorn nav lokāms; vorne ir variants ar to pašu nozīmi un tiek lietots tikpat bieži."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "vorn",
-            "vorne",
-            "nach vorn",
-            "hinten",
-            "vor",
-            "vor dem Haus"
+            "vorne"
           ],
           "purple": [
             "priekšā",
-            "uz priekšu",
-            "aizmugurē"
+            "priekšējo"
           ]
         },
         "examples": [
@@ -40785,7 +40771,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "priekšā"
+                "priekšgalā"
               ]
             }
           },
@@ -40920,7 +40906,7 @@ const A2_WORDS = [
         },
         {
           "de": "Er stellt sich dem Chef vor.",
-          "lv": "Viņš stādās priekšā priekšniekam."
+          "lv": "Viņš iepazīstina priekšnieku ar sevi."
         },
         {
           "de": "Ich kann mir das gut vorstellen.",
@@ -40957,16 +40943,23 @@ const A2_WORDS = [
         "Iedomāties: sich (Dat.) etwas vorstellen. Stell dir vor! ir bieža frāze (iedomājies!)."
       ],
       "important": [
-        "Ich stelle mich vor (iepazīstinu ar sevi), bet Ich stelle mir das vor (iedomājos to): sich ir akuzatīvā vai datīvā.",
+        "Ich stelle mich vor (iepazīstinu ar sevi; mich ir akuzatīvs), bet Ich stelle mir das vor (iedomājos to; mir ir datīvs).",
         "Perfekts veidojas ar haben: hat vorgestellt. Palīgteikumā priedēklis nav atdalīts: ..., dass er sich vorstellt."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "vorstellen"
+            "vorstellen",
+            "vor",
+            "stellt",
+            "stellte",
+            "vorgestellt",
+            "stelle"
           ],
           "purple": [
-            "iepazīstināt"
+            "iepazīstināt",
+            "iedomāties",
+            "prezentēt"
           ]
         },
         "examples": [
@@ -40991,8 +40984,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "stādās",
-                "priekšā"
+                "iepazīstina"
               ]
             }
           },
@@ -41062,7 +41054,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "einbilden"
+                "sich einbilden"
               ]
             },
             "meaning": {
@@ -44485,7 +44477,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "sagen lieto, kad min konkrētu saturu: ko tieši tika pateikts.",
+        "sagen lieto, kad min konkrētu saturu: kas tieši tiek pateikts.",
         "Atceries: jemandem etwas sagen, personai ir datīvs."
       ],
       "important": [
@@ -44496,16 +44488,11 @@ const A2_WORDS = [
         "explanation": {
           "blue": [
             "sagen",
-            "sagt",
-            "sagte",
-            "hat gesagt",
-            "gesagt",
-            "dass"
+            "sagt"
           ],
           "purple": [
             "teikt",
-            "pateikt",
-            "saka"
+            "pateikt"
           ]
         },
         "examples": [
@@ -44629,7 +44616,7 @@ const A2_WORDS = [
       "translation": "runāt",
       "explanation": [
         "Galvenā doma: sprechen nozīmē runāt, sarunāties vai prast valodu. Formas: spricht, sprach, hat gesprochen. Vienskaitļa 2. un 3. personā ir patskaņa maiņa e → i: du sprichst, er spricht.",
-        "Valodu nosauc bez prievārda: Ich spreche Deutsch. Par ko runā: sprechen über + Akuzatīv. Ar ko runā: sprechen mit + Datīv. Ar von + Datīv var stāstīt par kādu vai kaut ko.",
+        "Valodu nosauc bez prievārda: Ich spreche Deutsch. Par ko runā: sprechen über + akuzatīvs. Ar ko runā: sprechen mit + datīvs. Ar von + datīvs var stāstīt par kādu vai kaut ko.",
         "Telefonā vai birojā jemanden sprechen nozīmē runāt ar kādu: Kann ich Herrn Weber sprechen?"
       ],
       "examples": [
@@ -44643,7 +44630,7 @@ const A2_WORDS = [
         },
         {
           "de": "Kann ich bitte Frau Müller sprechen?",
-          "lv": "Vai varu runāt ar Müller kundzi?"
+          "lv": "Vai varu runāt ar Millera kundzi?"
         },
         {
           "de": "Er spricht mit dem Arzt.",
@@ -44685,14 +44672,12 @@ const A2_WORDS = [
             "sprechen",
             "spricht",
             "sprach",
-            "hat gesprochen",
-            "du sprichst",
-            "über",
-            "mit"
+            "gesprochen",
+            "sprichst",
+            "spreche"
           ],
           "purple": [
             "runāt",
-            "sarunāties",
             "runā"
           ]
         },
@@ -45584,7 +45569,7 @@ const A2_WORDS = [
         },
         {
           "de": "Schon als Kind spielte sie Klavier.",
-          "lv": "Jau bērnībā viņa spēlēja klavieri."
+          "lv": "Jau bērnībā viņa spēlēja klavieres."
         }
       ],
       "comparison": [
@@ -45595,7 +45580,7 @@ const A2_WORDS = [
         },
         {
           "word": "noch nicht",
-          "meaning": "vēl",
+          "meaning": "vēl ne",
           "example": "Ich bin noch nicht fertig. – Es vēl neesmu gatavs."
         },
         {
@@ -45606,22 +45591,19 @@ const A2_WORDS = [
       ],
       "tip": [
         "Pretstats schon ir noch (vēl): Bist du schon da? – Nein, noch nicht.",
-        "bereits ir formālāks par schon, nozīmē ir tā pati."
+        "bereits ir formālāks par schon, nozīme ir tā pati."
       ],
       "important": [
-        "Noliegumā schon nelieto: atbilde uz Bist du schon fertig? ir Nein, noch nicht.",
+        "Noliedzoša atbilde uz Bist du schon fertig? ir Nein, noch nicht, nevis schon nicht.",
         "schon un schön skan līdzīgi, bet nozīmē dažādas lietas: jau un skaists."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "schon",
-            "schön",
-            "Das wird schon gehen"
+            "schon"
           ],
           "purple": [
-            "jau",
-            "skaists"
+            "jau"
           ]
         },
         "examples": [
@@ -45692,22 +45674,12 @@ const A2_WORDS = [
               "green": [
                 "bereits"
               ]
-            },
-            "meaning": {
-              "purple": [
-                "jau"
-              ]
             }
           },
           {
             "word": {
               "green": [
                 "noch nicht"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "vēl"
               ]
             }
           },

@@ -2627,17 +2627,15 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "die Berufung",
             "Berufung",
-            "Berufungen",
-            "Berufung einlegen",
-            "unter Berufung auf",
-            "sich berufen auf"
+            "Berufungen"
           ],
           "purple": [
+            "Aicinājums",
             "aicinājums",
-            "atsaukšanās",
-            "apelācija"
+            "iecelšana",
+            "apelācija",
+            "apelāciju"
           ]
         },
         "examples": [

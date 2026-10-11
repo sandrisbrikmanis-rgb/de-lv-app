@@ -1464,7 +1464,7 @@ const B2_WORDS = [
         },
         {
           "de": "Man sollte sich nicht von Äußerlichkeiten täuschen lassen.",
-          "lv": "Nevajadzētu ļauties maldināties ārišķībām."
+          "lv": "Nevajadzētu ļaut sevi maldināt ārišķībām."
         }
       ],
       "comparison": [
@@ -1495,13 +1495,10 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "die Äußerlichkeit",
-            "Äußerlichkeiten",
             "Äußerlichkeit",
-            "äußerlich"
+            "Äußerlichkeiten"
           ],
           "purple": [
-            "ārišķībām",
             "ārišķību"
           ]
         },
@@ -2616,20 +2613,18 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich befassen",
-            "befasst sich",
-            "befasste sich",
-            "befasst"
+            "befasst sich"
           ],
           "purple": [
-            "nodarboties"
+            "nodarboties",
+            "aplūkot"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "befasse",
-                "mich"
+                "befasse"
               ]
             },
             "lv": {
@@ -2641,8 +2636,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "befasst",
-                "sich"
+                "befasst"
               ]
             },
             "lv": {
@@ -2666,8 +2660,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "befasst",
-                "sich"
+                "befasst"
               ]
             },
             "lv": {
@@ -7741,7 +7734,7 @@ const B2_WORDS = [
       "translation": "ielavīties • iezagties",
       "explanation": [
         "Galvenā doma: sich einschleichen nozīmē nemanāmi, slepus iekļūt kādā vietā (ielavīties) vai par kļūdu, šaubām u. tml. — nemanot parādīties (iezagties).",
-        "Atdalāms priedēklis: ich schleiche mich ein, schlich mich ein, habe mich eingeschlichen. Vieta, kurp kāds ielavās, seko ar in + Akuzatīvs (in das Haus, ins Haus). Perfektā lieto hat, jo darbības vārds ir atgriezenisks."
+        "Atdalāms priedēklis: ich schleiche mich ein, schlich mich ein, habe mich eingeschlichen. Vieta, kurp kāds ielavās, seko ar in + akuzatīvs (in das Haus, ins Haus). Perfektā lieto hat, jo darbības vārds ir atgriezenisks."
       ],
       "examples": [
         {
@@ -7779,14 +7772,13 @@ const B2_WORDS = [
       ],
       "important": [
         "Nejauc ar schleichen (lavīties, iet klusi): sich einschleichen vienmēr norāda uz iekļūšanu kaut kur.",
-        "Pēc in vieta ir Akuzatīvā, ja norāda virzienu: sich in den Raum einschleichen."
+        "Pēc in vieta ir akuzatīvā, ja norāda virzienu: sich in den Raum einschleichen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich einschleichen",
-            "schlich",
-            "eingeschlichen"
+            "schleiche mich ein"
           ],
           "purple": [
             "ielavīties",
@@ -7797,9 +7789,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "schleicht",
-                "sich",
-                "ein"
+                "schleicht"
               ]
             },
             "lv": {
@@ -7811,7 +7801,6 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "sich",
                 "eingeschlichen"
               ]
             },
@@ -7824,7 +7813,6 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "sich",
                 "eingeschlichen"
               ]
             },
@@ -7837,9 +7825,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "schlichen",
-                "sich",
-                "ein"
+                "schlichen"
               ]
             },
             "lv": {
@@ -9075,7 +9061,7 @@ const B2_WORDS = [
       "translation": "sašust",
       "explanation": [
         "Galvenā doma: sich entrüsten nozīmē sašust, izteikt stipru sašutumu par kādu rīcību vai vārdiem. Tas ir morāls, emocionāls sašutums.",
-        "Par ko sašutis, norāda ar über + akuzatīvs: sich über die Frechheit entrüsten. Formas: entrüstet sich, entrüstete sich, hat sich entrüstet. Īpašības vārds entrüstet nozīmē sašutis.",
+        "Iemeslu, par ko cilvēks sašūt, norāda ar über + akuzatīvs: sich über die Frechheit entrüsten. Formas: entrüstet sich, entrüstete sich, hat sich entrüstet. Īpašības vārds entrüstet nozīmē sašutis.",
         "Vārds ir tuvs vārdam sich empören, bet ikdienā tas ir retāks un literārāks."
       ],
       "examples": [
@@ -9124,13 +9110,12 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "entrüsten",
-            "entrüstet",
-            "entrüstete"
+            "sich entrüsten",
+            "entrüstete sich"
           ],
           "purple": [
             "sašust",
-            "sašutis"
+            "sašutumu"
           ]
         },
         "examples": [
@@ -9525,7 +9510,7 @@ const B2_WORDS = [
       "translation": "apžēloties • iežēloties",
       "explanation": [
         "Galvenā doma: sich erbarmen nozīmē just līdzjūtību pret cietēju un palīdzēt vai apžēloties par viņu. Valoda ir augsta, bieži reliģiska vai ironiska.",
-        "Pēc tā parasti nāk Ģenitīvs: sich des Hundes erbarmen. Retāk lieto über + Akuzatīvs. Formas: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "Pēc tā parasti nāk ģenitīvs: sich des Hundes erbarmen. Retāk lieto über + Akuzatīvs. Formas: erbarmt sich, erbarmte sich, hat sich erbarmt.",
         "Sarunvalodā jokojot: Wer erbarmt sich und …? — Kurš iežēlosies un …?"
       ],
       "examples": [
@@ -9564,7 +9549,7 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Pēc sich erbarmen liec Ģenitīvu: sich der Kinder erbarmen.",
+        "Pēc sich erbarmen liec ģenitīvu: sich der Kinder erbarmen.",
         "Tipisks lūgums: Herr, erbarme dich!"
       ],
       "important": [
@@ -9575,8 +9560,7 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich erbarmen",
-            "erbarmt",
-            "erbarmte"
+            "erbarmt"
           ],
           "purple": [
             "apžēloties"
@@ -9586,8 +9570,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "erbarmte",
-                "sich"
+                "erbarmte"
               ]
             },
             "lv": {
@@ -9599,8 +9582,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "Erbarme",
-                "dich"
+                "Erbarme"
               ]
             },
             "lv": {
@@ -9612,8 +9594,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "erbarmte",
-                "sich"
+                "erbarmte"
               ]
             },
             "lv": {
@@ -9625,8 +9606,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "erbarmt",
-                "sich"
+                "erbarmt"
               ]
             },
             "lv": {
@@ -10049,7 +10029,7 @@ const B2_WORDS = [
       "translation": "pazemoties",
       "explanation": [
         "Galvenā doma: sich erniedrigen nozīmē pazemot pašam sevi, rīkoties tā, ka zaudē cieņu — piemēram, ubagot vai zemoties kāda priekšā.",
-        "Priekšā, kam pazemojas, norāda ar vor + Datīv: sich vor dem Chef erniedrigen. Formas: erniedrigt sich, erniedrigte sich, hat sich erniedrigt.",
+        "Priekšā, kam pazemojas, norāda ar vor + datīvs: sich vor dem Chef erniedrigen. Formas: erniedrigt sich, erniedrigte sich, hat sich erniedrigt.",
         "Bez sich vārds erniedrigen nozīmē pazemot kādu citu: Er erniedrigt seine Kollegen."
       ],
       "examples": [
@@ -10088,31 +10068,30 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Ar vor + Datīv nosauc to, kura priekšā kāds pazemojas.",
+        "Ar vor + datīvs nosauc to, kura priekšā kāds pazemojas.",
         "Atšķiri: sich erniedrigen — pats pazemojas; jemanden erniedrigen — pazemo citu."
       ],
       "important": [
-        "Pēc vor seko Datīvs: vor dem Chef, vor anderen.",
+        "Pēc vor seko datīvs: vor dem Chef, vor anderen.",
         "Pasīvā forma erniedrigt werden nozīmē tikt pazemotam."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erniedrigen",
             "erniedrigen",
             "erniedrigt",
             "erniedrigte"
           ],
           "purple": [
-            "pazemot"
+            "pazemot",
+            "pazemojas"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "erniedrige",
-                "mich"
+                "erniedrige"
               ]
             },
             "lv": {
@@ -10124,7 +10103,6 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "sich",
                 "erniedrigt"
               ]
             },
@@ -10137,8 +10115,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "erniedrigte",
-                "sich"
+                "erniedrigte"
               ]
             },
             "lv": {
@@ -10150,7 +10127,6 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "mich",
                 "erniedrigen"
               ]
             },
@@ -10987,8 +10963,8 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "sagrābt • saņemties • savaldīties",
       "explanation": [
-        "Galvenā doma: sich fassen nozīmē saņemties, atgūt mieru pēc šoka vai satraukuma — savaldīties. Formas: fasst sich, fasste sich, hat sich gefasst. Rektijas prievārda nav.",
-        "Stabila frāze sich kurz fassen nozīmē izteikties īsi: Fassen Sie sich bitte kurz! Bez sich darbības vārds fassen nozīmē sagrābt, satvert (jemanden am Arm fassen) un arī ieņemt lēmumu (einen Entschluss fassen)."
+        "Galvenā doma: sich fassen nozīmē saņemties, atgūt mieru pēc šoka vai satraukuma — savaldīties. Formas: fasst sich, fasste sich, hat sich gefasst. Prievārda tam nav.",
+        "Stabila frāze sich kurz fassen nozīmē izteikties īsi: Fassen Sie sich bitte kurz! Bez sich darbības vārds fassen nozīmē sagrābt, satvert (jemanden am Arm fassen) un arī pieņemt lēmumu (einen Entschluss fassen)."
       ],
       "examples": [
         {
@@ -11037,23 +11013,18 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "sich fassen",
-            "fasst",
-            "fasste",
-            "fassen",
-            "gefasst"
+            "fasst sich"
           ],
           "purple": [
             "saņemties",
-            "savaldīties",
-            "sagrābt"
+            "savaldīties"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "fasste",
-                "sich"
+                "fasste"
               ]
             },
             "lv": {
@@ -11065,21 +11036,18 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "Fass",
-                "dich",
-                "kurz"
+                "Fass"
               ]
             },
             "lv": {
               "purple": [
-                "īsi"
+                "Izsakies"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "sich",
                 "fassen"
               ]
             },
@@ -11092,13 +11060,12 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "mich",
                 "fassen"
               ]
             },
             "lv": {
               "purple": [
-                "jāsaņemas"
+                "saņemas"
               ]
             }
           }
@@ -14016,7 +13983,7 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Pēc um Gnade bitten lieto Akuzatīvu: um Gnade, nevis um Gnaden.",
+        "Iegaumē savienojumu um Gnade bitten (lūgt apžēlošanu); prievārds um prasa akuzatīvu.",
         "Kopā ar walten lassen saka Gnade walten lassen — izrādīt žēlastību."
       ],
       "important": [
@@ -14026,13 +13993,13 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "die Gnade",
             "Gnade",
             "Gnaden"
           ],
           "purple": [
-            "žēlastība",
-            "apžēlošanu"
+            "žēlastību",
+            "apžēlošanu",
+            "žēlastība"
           ]
         },
         "examples": [
@@ -14063,13 +14030,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "Gnade",
-                "Ungnade"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viņa varā"
+                "Gnade"
               ]
             }
           },
@@ -15068,8 +15029,8 @@ const B2_WORDS = [
           "lv": "Laika gaitā ir izveidojies jauns stils."
         },
         {
-          "de": "Der Junge bildete sich zu einem guten Musiker heraus.",
-          "lv": "Zēns izveidojās par labu mūziķi."
+          "de": "Der Junge hat sich zu einem guten Musiker herausgebildet.",
+          "lv": "Zēns ir izveidojies par labu mūziķi."
         },
         {
           "de": "In der Gruppe bildeten sich schnell feste Rollen heraus.",
@@ -15104,15 +15065,15 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "bildet",
-            "bildete",
-            "herausgebildet",
             "herausbilden",
-            "heraus"
+            "bildet sich heraus",
+            "bildete sich heraus",
+            "hat sich herausgebildet",
+            "heraus-"
           ],
           "purple": [
             "izveidoties",
-            "izveidojas"
+            "izkristalizēties"
           ]
         },
         "examples": [
@@ -15144,13 +15105,12 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bildete",
-                "heraus"
+                "herausgebildet"
               ]
             },
             "lv": {
               "purple": [
-                "izveidojās"
+                "izveidojies"
               ]
             }
           },
@@ -20295,7 +20255,7 @@ const B2_WORDS = [
       "explanation": [
         "Galvenā doma: sich scheren um šajā nozīmē ir sarunvalodas izteiciens ar vārdu rūpēties par, bet gandrīz tikai noliegumā vai jautājumā: Er schert sich nicht um die Regeln — viņam nerūp noteikumi.",
         "Formas: schert sich, scherte sich, hat sich geschert. Ar um + akuzatīvs nosauc to, par ko rūpējas. Retorisks jautājums: Was schert mich das? — kāda man daļa par to?",
-        "Rupjš pavēles veids Scher dich weg! nozīmē vācies prom! Bez atgriezeniskā sich scheren nozīmē cirpt, apgriezt (Schafe scheren)."
+        "Rupjš pavēles veids Scher dich weg! nozīmē vācies prom! Bez atgriezeniskā vietniekvārda sich darbības vārds scheren nozīmē cirpt, apgriezt (Schafe scheren)."
       ],
       "examples": [
         {
@@ -20333,7 +20293,7 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Ikdienas valodā sich scheren um tipiski dzirdams ar nicht: Das schert mich nicht.",
+        "Ikdienas valodā sich scheren um tipiski dzirdams ar nicht: Er schert sich nicht darum.",
         "Ja gribi neitrāli teikt rūpēties, izvēlies sich kümmern um + akuzatīvs."
       ],
       "important": [
@@ -20346,10 +20306,15 @@ const B2_WORDS = [
             "scheren",
             "schert",
             "scherte",
+            "geschert",
             "Scher"
           ],
           "purple": [
-            "rūpēties"
+            "rūpēties",
+            "nerūp",
+            "rūpējas",
+            "daļa",
+            "vācies"
           ]
         },
         "examples": [
@@ -20406,7 +20371,7 @@ const B2_WORDS = [
           {
             "word": {
               "green": [
-                "kümmern"
+                "sich kümmern"
               ]
             },
             "meaning": {
@@ -23120,7 +23085,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "apvienoties ar",
       "explanation": [
-        "Galvenā doma: sich vereinigen nozīmē apvienoties, savienoties kopā — par valstīm, partijām, uzņēmumiem, spēkiem. Ar mit + Datīvs nosauc partneri: sich mit einer Gruppe vereinigen. Rezultātu norāda ar zu + Datīvs: sich zu einer Union vereinigen.",
+        "Galvenā doma: sich vereinigen nozīmē apvienoties, savienoties kopā — par valstīm, partijām, uzņēmumiem, spēkiem. Ar mit + datīvs nosauc partneri: sich mit einer Gruppe vereinigen. Rezultātu norāda ar zu + datīvs: sich zu einer Union vereinigen.",
         "Formas: vereinigt sich, vereinigte sich, hat sich vereinigt. Bez sich vereinigen ir pārejošs: Länder vereinigen — apvienot valstis. Piemērs nosaukumā: die Vereinigten Staaten."
       ],
       "examples": [
@@ -23164,15 +23129,15 @@ const B2_WORDS = [
       ],
       "important": [
         "Tuvs vārds vereinen (apvienot) parasti attiecas uz cilvēkiem un jūtām, bet vereinigen — biežāk uz organizācijām un valstīm.",
-        "Pēc mit seko Datīvs: mit der Partei, mit dem Nachbarn."
+        "Pēc mit seko datīvs: mit der Partei, mit dem Nachbarn."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich vereinigen",
-            "vereinigte",
+            "vereinigen",
             "vereinigt",
-            "vereinigen"
+            "vereinigte",
+            "Vereinigten"
           ],
           "purple": [
             "apvienoties",
@@ -23183,8 +23148,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "vereinigten",
-                "sich"
+                "vereinigten"
               ]
             },
             "lv": {
@@ -23196,8 +23160,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "vereinigte",
-                "sich"
+                "vereinigte"
               ]
             },
             "lv": {
@@ -23209,7 +23172,6 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "sich",
                 "vereinigt"
               ]
             },
@@ -23222,8 +23184,7 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "vereinigten",
-                "sich"
+                "vereinigten"
               ]
             },
             "lv": {
@@ -24173,17 +24134,14 @@ const B2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verstellen",
-            "verstellt",
-            "verstellte",
             "verstellen",
-            "verstelle",
-            "sich ausgeben als"
+            "verstellt sich",
+            "verstelle mich",
+            "sich verstellen"
           ],
           "purple": [
             "izlikties",
-            "uzdoties par",
-            "mainīt balsi"
+            "uzdoties par"
           ]
         },
         "examples": [
@@ -24219,7 +24177,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "mainīja balsi"
+                "mainīja"
               ]
             }
           },
@@ -24245,7 +24203,7 @@ const B2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uzdoties"
+                "uzdoties par"
               ]
             }
           },
@@ -25691,7 +25649,7 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "piešķirt • norīkot",
       "explanation": [
-        "Galvenā doma: zuweisen nozīmē oficiāli piešķirt vai norīkot kādam kaut ko — vietu, uzdevumu, dzīvokli, līdzekļus.",
+        "Galvenā doma: zuweisen nozīmē oficiāli piešķirt vai iedalīt kādam kaut ko (vietu, uzdevumu, dzīvokli, līdzekļus) vai norīkot cilvēku kādā vietā.",
         "Atdalāmais darbības vārds: er weist zu, wies zu, hat zugewiesen. Parasti ar datīvu (kam?) un akuzatīvu (ko?): jemandem etwas zuweisen. Bieži lieto arī pasīvu: Mir wurde ein Platz zugewiesen.",
         "Vārds ir formāls un tiek lietots iestāžu, skolu, uzņēmumu valodā."
       ],
@@ -25702,7 +25660,7 @@ const B2_WORDS = [
         },
         {
           "de": "Der Chef wies mir eine neue Aufgabe zu.",
-          "lv": "Priekšnieks man norīkoja jaunu uzdevumu."
+          "lv": "Priekšnieks man uzticēja jaunu uzdevumu."
         },
         {
           "de": "Dem Studenten wurde ein Platz im Wohnheim zugewiesen.",
@@ -25741,17 +25699,11 @@ const B2_WORDS = [
         "explanation": {
           "blue": [
             "zuweisen",
-            "weist",
-            "wies",
-            "zugewiesen",
-            "weist zu",
-            "wies zu",
-            "jemandem etwas zuweisen"
+            "weist zu"
           ],
           "purple": [
             "piešķirt",
-            "norīkot",
-            "piešķir"
+            "norīkot"
           ]
         },
         "examples": [
@@ -25775,7 +25727,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "norīkoja"
+                "uzticēja"
               ]
             }
           },
