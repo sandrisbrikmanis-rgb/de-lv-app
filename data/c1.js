@@ -370,15 +370,15 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "viņi dzīvo vienģimenes mājā."
+          "lv": "Viņi dzīvo vienģimenes mājā."
         },
         {
           "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "vienģimenes mājai ir dārzs."
+          "lv": "Vienģimenes mājai ir dārzs."
         },
         {
           "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "blakus atrodas daudzdzīvokļu māja."
+          "lv": "Blakus atrodas daudzdzīvokļu māja."
         }
       ],
       "comparison": [
@@ -488,7 +488,8 @@ const C1_WORDS = [
           ]
         }
       }
-    }},
+    }
+  },
   {
     "de": "Eisenbahnfahrt",
     "de_article": "die",
@@ -874,15 +875,15 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "sabiedrība reaģēja kritiski."
+          "lv": "Sabiedrība reaģēja kritiski."
         },
         {
           "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "lieta nonāca atklātībā."
+          "lv": "Lieta nonāca atklātībā."
         },
         {
           "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "sabiedrībai ir tiesības uz informāciju."
+          "lv": "Sabiedrībai ir tiesības uz informāciju."
         }
       ],
       "comparison": [
@@ -1003,7 +1004,8 @@ const C1_WORDS = [
           ]
         }
       }
-    }},
+    }
+  },
   {
     "de": "Parlament",
     "de_article": "das",
@@ -1025,15 +1027,15 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Diese Partei gewann die Wahl.",
-          "lv": "šī partija uzvarēja vēlēšanās."
+          "lv": "Šī partija uzvarēja vēlēšanās."
         },
         {
           "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "viņš jau gadiem ir partijas biedrs."
+          "lv": "Viņš jau gadiem ir partijas biedrs."
         },
         {
           "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "abām pusēm jāparaksta līgums."
+          "lv": "Abām pusēm jāparaksta līgums."
         }
       ],
       "comparison": [
@@ -1152,7 +1154,8 @@ const C1_WORDS = [
           ]
         }
       }
-    }},
+    }
+  },
   {
     "de": "Persönlichkeit",
     "de_article": "die",
@@ -1209,15 +1212,15 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "process ilgst vairākus mēnešus."
+          "lv": "Process ilgst vairākus mēnešus."
         },
         {
           "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "tiesas prāva sākas rīt."
+          "lv": "Tiesas prāva sākas rīt."
         },
         {
           "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "mēs uzlabojam visu procesu."
+          "lv": "Mēs uzlabojam visu procesu."
         }
       ],
       "comparison": [
@@ -1339,7 +1342,8 @@ const C1_WORDS = [
           ]
         }
       }
-    }},
+    }
+  },
   {
     "de": "Prozessor",
     "de_article": "der",
@@ -1740,27 +1744,27 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Können Sie den Text zusammenfassen?",
-          "lv": "vai jūs varat apkopot šo tekstu?"
+          "lv": "Vai jūs varat apkopot šo tekstu?"
         },
         {
           "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "es apkopoju svarīgākos punktus."
+          "lv": "Es apkopoju svarīgākos punktus."
         },
         {
           "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "viņš īsi rezumēja pārskatu."
+          "lv": "Viņš īsi rezumēja pārskatu."
         },
         {
           "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "apkopojot var sacīt, ka..."
+          "lv": "Apkopojot var sacīt, ka..."
         },
         {
           "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "es rakstu grāmatas kopsavilkumu."
+          "lv": "Es rakstu grāmatas kopsavilkumu."
         },
         {
           "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "kopsavilkums ir pārāk garš."
+          "lv": "Kopsavilkums ir pārāk garš."
         }
       ],
       "tip": [
@@ -1949,27 +1953,27 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Du hast die Wahl.",
-          "lv": "tev ir izvēle."
+          "lv": "Tev ir izvēle."
         },
         {
           "de": "Ich treffe meine Wahl morgen.",
-          "lv": "es izdaru savu izvēli rīt."
+          "lv": "Es izdaru savu izvēli rīt."
         },
         {
           "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "vēlēšanas notiek svētdien."
+          "lv": "Vēlēšanas notiek svētdien."
         },
         {
           "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "daudzi cilvēki dodas uz vēlēšanām."
+          "lv": "Daudzi cilvēki dodas uz vēlēšanām."
         },
         {
           "de": "Die freie Wahl ist wichtig.",
-          "lv": "brīva izvēle ir svarīga."
+          "lv": "Brīva izvēle ir svarīga."
         },
         {
           "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "vēlēšanās mēs balsojam."
+          "lv": "Vēlēšanās mēs balsojam."
         }
       ],
       "comparison": [
@@ -2126,7 +2130,8 @@ const C1_WORDS = [
           ]
         }
       }
-    }},
+    }
+  },
   {
     "de": "Herausforderung",
     "de_article": "die",
@@ -2366,7 +2371,8 @@ const C1_WORDS = [
             "Befangenheit"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "beglaubigen",
@@ -2583,7 +2589,8 @@ const C1_WORDS = [
             "Beruf"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Besatzungsmacht",
@@ -3218,7 +3225,8 @@ const C1_WORDS = [
             "festgesetzt"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "feuergefährlich",
@@ -3423,19 +3431,19 @@ const C1_WORDS = [
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
       "translation": "reizēm • gadījuma • sakarā ar",
-      "explanation": "Galvenā doma: gelegentlich ir vārds ar trim funkcijām. Īpašības vārds: gadījuma, nejaušs (ein gelegentlicher Besuch). Apstākļa vārds: reizēm, ik pa laikam (Er kommt gelegentlich). Prievārds + datīvs: sakarā ar (gelegentlich des Festes).",
+      "explanation": "Galvenā doma: gelegentlich ir vārds ar trim funkcijām. Īpašības vārds: gadījuma, nejaušs (ein gelegentlicher Besuch). Apstākļa vārds: reizēm, ik pa laikam (Er kommt gelegentlich). Prievārds + ģenitīvs: sakarā ar (gelegentlich des Festes).",
       "examples": [
         {
           "de": "Er kommt gelegentlich vorbei.",
-          "lv": "viņš reizēm iegriežas."
+          "lv": "Viņš reizēm iegriežas."
         },
         {
           "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "gadījuma apmeklējums pietiek."
+          "lv": "Gadījuma apmeklējums pietiek."
         },
         {
           "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "svētku sakarā tika teikta runa."
+          "lv": "Svētku sakarā tika teikta runa."
         }
       ],
       "comparison": [
@@ -4682,7 +4690,8 @@ const C1_WORDS = [
             "verabschieden"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "veränderlich",
@@ -4937,15 +4946,15 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "visi vēlētāji ar vēlēšanu tiesībām var balsot."
+          "lv": "Visi vēlētāji ar vēlēšanu tiesībām var balsot."
         },
         {
           "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "no 18 gadu vecuma ir vēlēšanu tiesības."
+          "lv": "No 18 gadu vecuma ir vēlēšanu tiesības."
         },
         {
           "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "ne visiem iedzīvotājiem ir vēlēšanu tiesības."
+          "lv": "Ne visiem iedzīvotājiem ir vēlēšanu tiesības."
         }
       ],
       "comparison": [
@@ -5128,23 +5137,23 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "par ICE vilcienu jāmaksā piemaksa."
+          "lv": "Par ICE vilcienu jāmaksā piemaksa."
         },
         {
           "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "piemaksa par nakts maiņu ir 20%."
+          "lv": "Piemaksa par nakts maiņu ir 20%."
         },
         {
           "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "viņa saņēma pasūtījumu (izsolē)."
+          "lv": "Viņa saņēma pasūtījumu (izsolē)."
         },
         {
           "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "par pārsvara bagāžu ir uzcenojums."
+          "lv": "Par pārsvara bagāžu ir uzcenojums."
         },
         {
           "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "cena ir bez piemaksām."
+          "lv": "Cena ir bez piemaksām."
         }
       ],
       "tip": [
@@ -5273,15 +5282,22 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "attiecināt • attiekties uz",
       "explanation": [
-        "Galvenā doma: Formāls reģistrs: attiecināt uz avotu, regulāru pensiju/algas saņemšanu vai ievākšanos dzīvoklī.",
-        "Piemēros meklē tipisku ikdienas lietojumu.",
-        "Ja šaubies, pārbaudi, vai runa ir par stāvokli vai darbību.",
-        "Konteksts un darbības virziens nosaka pareizo izvēli."
+        "Galvenā doma: beziehen ir formāls vārds: regulāri saņemt (pensiju, algu, laikrakstu), ievākties (dzīvoklī) vai attiecināt; sich beziehen auf = attiekties uz.",
+        "Piemēros meklē tipisku lietojumu.",
+        "Ja šaubies, pārbaudi, vai runa ir par saņemšanu, ievākšanos vai attiecināšanu."
       ],
       "examples": [
         {
-          "de": "beziehen / sich beziehen auf.",
-          "lv": "attiecināt • attiekties uz"
+          "de": "Er bezieht eine Rente.",
+          "lv": "Viņš saņem pensiju."
+        },
+        {
+          "de": "Sie bezieht eine neue Wohnung.",
+          "lv": "Viņa ievācas jaunā dzīvoklī."
+        },
+        {
+          "de": "Der Satz bezieht sich auf den Text.",
+          "lv": "Teikums attiecas uz tekstu."
         }
       ],
       "tip": [
@@ -5302,14 +5318,36 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
+                "bezieht"
               ]
             },
             "lv": {
               "purple": [
-                "attiecināt",
-                "attiekties uz"
+                "saņem"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ievācas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht sich auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "attiecas uz"
               ]
             }
           }
@@ -5351,15 +5389,11 @@ const C1_WORDS = [
         },
         {
           "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "ko jūs nodomājat ar šo pasākumu?"
+          "lv": "Ko jūs nodomājat ar šo pasākumu?"
         },
         {
           "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "mēs neplānojam izmaiņu."
-        },
-        {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "viņš nodomājis pabeigt projektu."
+          "lv": "Mēs neplānojam izmaiņu."
         },
         {
           "de": "beabsichtigen + zu + nenoteiksme",
@@ -5424,18 +5458,6 @@ const C1_WORDS = [
           {
             "de": {
               "green": [
-                "beabsichtigt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nodomājis"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
                 "beabsichtigen",
                 "beabsichtigen"
               ]
@@ -5486,23 +5508,19 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Man pārmet man sliktu nodomu."
+          "lv": "Man tiek piedēvēti slikti nodomi."
         },
         {
           "de": "Unterstellen Sie mir nichts!",
-          "lv": "nepārmetiet man neko!"
+          "lv": "Nepārmetiet man neko!"
         },
         {
           "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "nevienam nedrīkst nepamatoti pārmest nodevību."
+          "lv": "Nevienam nedrīkst nepamatoti pārmest nodevību."
         },
         {
           "de": "Ihm wird Untreue unterstellt.",
-          "lv": "viņam tiek pārmesta neuzticība."
-        },
-        {
-          "de": "unterstellen",
-          "lv": "nepamatota vaina; voraussetzen"
+          "lv": "Viņam tiek pārmesta neuzticība."
         }
       ],
       "tip": [
@@ -5511,7 +5529,6 @@ const C1_WORDS = [
       ],
       "important": [
         "unterstellen ir emocionāli negatīvs — nepamatota apsūdzība.",
-        "Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.",
         "unterstellen → pārmest, piedēvēt."
       ],
       "sectionAccents": {
@@ -5534,11 +5551,7 @@ const C1_WORDS = [
                 "unterstellt"
               ]
             },
-            "lv": {
-              "purple": [
-                "pārmet"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5573,15 +5586,6 @@ const C1_WORDS = [
                 "pārmest"
               ]
             }
-          },
-          {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
-              ]
-            },
-            "lv": {}
           }
         ],
         "tip": [
@@ -5620,10 +5624,6 @@ const C1_WORDS = [
         {
           "de": "Wir setzen Grundkenntnisse voraus.",
           "lv": "Mēs pieņemam pamatzināšanas kā priekšnoteikumu."
-        },
-        {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "mēs pieņemam pamatzināšanas kā priekšnoteikumu."
         }
       ],
       "tip": [
@@ -5646,10 +5646,6 @@ const C1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {},
-            "lv": {}
-          },
           {
             "de": {},
             "lv": {}
@@ -5689,15 +5685,7 @@ const C1_WORDS = [
         },
         {
           "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "viņi saglabā mieru krīzē."
-        },
-        {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "mēs saglabājam tradīcijas."
-        },
-        {
-          "de": "bewahren",
-          "lv": "pasargāt/saglabāt; aufrechterhalten"
+          "lv": "Viņi saglabā mieru krīzē."
         }
       ],
       "tip": [
@@ -5706,7 +5694,6 @@ const C1_WORDS = [
       ],
       "important": [
         "bewahren: Wertvolles bewahren — pasargāt vērtīgo.",
-        "Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.",
         "bewahren → aizsargāt, saglabāt."
       ],
       "sectionAccents": {
@@ -5742,33 +5729,6 @@ const C1_WORDS = [
             "lv": {
               "purple": [
                 "saglabā"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahren"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "saglabājam"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bewahren",
-                "bewahren"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pasargāt",
-                "saglabāt"
               ]
             }
           }
@@ -5807,16 +5767,12 @@ const C1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Der Staat erhält die Ordnung auf.",
+          "de": "Der Staat erhält die Ordnung aufrecht.",
           "lv": "Valsts uztur kārtību spēkā."
         },
         {
           "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "jāuztur darbība spēkā."
-        },
-        {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "valsts uztur kārtību spēkā."
+          "lv": "Jāuztur darbība spēkā."
         }
       ],
       "tip": [
@@ -5832,7 +5788,6 @@ const C1_WORDS = [
         "explanation": {
           "green": [
             "aufrechterhalten",
-            "erhält",
             "auf"
           ]
         },
@@ -5848,10 +5803,6 @@ const C1_WORDS = [
                 "aufrechterhalten"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {},
             "lv": {}
           }
         ],

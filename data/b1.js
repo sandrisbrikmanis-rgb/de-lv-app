@@ -127,15 +127,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir bauen im Garten Tomaten an.",
-          "lv": "mēs dārzā audzējam tomātus."
+          "lv": "Mēs dārzā audzējam tomātus."
         },
         {
           "de": "Viele Bauern bauen Kartoffeln an.",
-          "lv": "daudzi zemnieki audzē kartupeļus."
+          "lv": "Daudzi zemnieki audzē kartupeļus."
         },
         {
           "de": "Sie bauen ein neues Zimmer an.",
-          "lv": "viņi piebūvē jaunu istabu."
+          "lv": "Viņi piebūvē jaunu istabu."
         }
       ],
       "comparison": [
@@ -306,15 +306,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte geben Sie Ihre Adresse an.",
-          "lv": "lūdzu, norādiet savu adresi."
+          "lv": "Lūdzu, norādiet savu adresi."
         },
         {
           "de": "Er hat sein Alter falsch angegeben.",
-          "lv": "viņš nepareizi norādīja savu vecumu."
+          "lv": "Viņš nepareizi norādīja savu vecumu."
         },
         {
           "de": "Sie gibt mit ihrem neuen Auto an.",
-          "lv": "viņa lielās ar savu jauno auto."
+          "lv": "Viņa lielās ar savu jauno auto."
         }
       ],
       "comparison": [
@@ -522,15 +522,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir bringen das Schild an der Tür an.",
-          "lv": "mēs piestiprinām zīmi pie durvīm."
+          "lv": "Mēs piestiprinām zīmi pie durvīm."
         },
         {
           "de": "Der Handwerker bringt die Lampe an.",
-          "lv": "meistars piestiprina lampu."
+          "lv": "Meistars piestiprina lampu."
         },
         {
           "de": "Sie brachte einen guten Vorschlag an.",
-          "lv": "viņa izteica labu priekšlikumu."
+          "lv": "Viņa izteica labu priekšlikumu."
         }
       ],
       "comparison": [
@@ -715,19 +715,19 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sport hilft, Stress abzubauen.",
-          "lv": "sports palīdz mazināt stresu."
+          "lv": "Sports palīdz mazināt stresu."
         },
         {
           "de": "Die Firma baut Stellen ab.",
-          "lv": "uzņēmums samazina darba vietu skaitu."
+          "lv": "Uzņēmums samazina darba vietu skaitu."
         },
         {
           "de": "Wir bauen das Zelt ab.",
-          "lv": "mēs nojaucam telti."
+          "lv": "Mēs nojaucam telti."
         },
         {
           "de": "In dieser Region wird Kohle abgebaut.",
-          "lv": "šajā reģionā iegūst ogles."
+          "lv": "Šajā reģionā iegūst ogles."
         }
       ],
       "comparison": [
@@ -899,15 +899,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir mussten das Gespräch abbrechen.",
-          "lv": "mums nācās pārtraukt sarunu."
+          "lv": "Mums nācās pārtraukt sarunu."
         },
         {
           "de": "Sie hat das Studium abgebrochen.",
-          "lv": "viņa pārtrauca studijas."
+          "lv": "Viņa pārtrauca studijas."
         },
         {
           "de": "Ein Ast ist vom Baum abgebrochen.",
-          "lv": "no koka nolūza zars."
+          "lv": "No koka nolūza zars."
         }
       ],
       "comparison": [
@@ -1061,15 +1061,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte deck den Kuchen ab.",
-          "lv": "lūdzu, pārklāj kūku."
+          "lv": "Lūdzu, pārklāj kūku."
         },
         {
           "de": "Wir decken die Pflanzen nachts ab.",
-          "lv": "mēs naktī apsedzam augus."
+          "lv": "Mēs naktī apsedzam augus."
         },
         {
           "de": "Nach dem Essen deckt er den Tisch ab.",
-          "lv": "pēc ēšanas viņš novāc galdu."
+          "lv": "Pēc ēšanas viņš novāc galdu."
         }
       ],
       "comparison": [
@@ -1259,15 +1259,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Zug geht um acht Uhr ab.",
-          "lv": "vilciens atiet pulksten astoņos."
+          "lv": "Vilciens atiet pulksten astoņos."
         },
         {
           "de": "Er geht von der Schule ab.",
-          "lv": "viņš aiziet no skolas."
+          "lv": "Viņš aiziet no skolas."
         },
         {
           "de": "Die Party ging gut ab.",
-          "lv": "ballīte labi izvērtās."
+          "lv": "Ballīte labi izvērtās."
         }
       ],
       "comparison": [
@@ -1295,7 +1295,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Sarunvalodā abgehen var būt ļoti atkarīgs no konteksta; frontē drošāk mācīties pamata nozīmi aiziet."
+        "text": "Sarunvalodā abgehen var būt ļoti atkarīgs no konteksta; sākumā drošāk mācīties pamata nozīmi aiziet."
       },
       "sectionAccents": {
         "explanation": {
@@ -1436,15 +1436,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das hängt vom Wetter ab.",
-          "lv": "tas ir atkarīgs no laikapstākļiem."
+          "lv": "Tas ir atkarīgs no laikapstākļiem."
         },
         {
           "de": "Unsere Entscheidung hängt davon ab.",
-          "lv": "mūsu lēmums ir atkarīgs no tā."
+          "lv": "Mūsu lēmums ir atkarīgs no tā."
         },
         {
           "de": "Ich hänge das Bild ab.",
-          "lv": "es noņemu attēlu no sienas."
+          "lv": "Es noņemu attēlu no sienas."
         }
       ],
       "tip": {
@@ -1595,15 +1595,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte legen Sie den Mantel ab.",
-          "lv": "lūdzu, novelciet mēteli."
+          "lv": "Lūdzu, novelciet mēteli."
         },
         {
           "de": "Sie legt die Tasche ab.",
-          "lv": "viņa noliek somu."
+          "lv": "Viņa noliek somu."
         },
         {
           "de": "Er legt die Prüfung ab.",
-          "lv": "viņš kārto eksāmenu."
+          "lv": "Viņš kārto eksāmenu."
         }
       ],
       "comparison": [
@@ -1789,15 +1789,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Nimm bitte die Brille ab.",
-          "lv": "lūdzu, noņem brilles."
+          "lv": "Lūdzu, noņem brilles."
         },
         {
           "de": "Sie hat fünf Kilo abgenommen.",
-          "lv": "viņa ir nometusi piecus kilogramus."
+          "lv": "Viņa ir nometusi piecus kilogramus."
         },
         {
           "de": "Kannst du bitte abnehmen? Das Telefon klingelt.",
-          "lv": "vai vari pacelt telefonu? Telefons zvana."
+          "lv": "Vai vari pacelt telefonu? Telefons zvana."
         }
       ],
       "comparison": [
@@ -1961,19 +1961,19 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Lies bitte den zweiten Absatz.",
-          "lv": "lūdzu, izlasi otro rindkopu."
+          "lv": "Lūdzu, izlasi otro rindkopu."
         },
         {
           "de": "Der Absatz ist zu lang.",
-          "lv": "rindkopa ir pārāk gara."
+          "lv": "Rindkopa ir pārāk gara."
         },
         {
           "de": "Der Absatz des Schuhs ist kaputt.",
-          "lv": "kurpes papēdis ir salūzis."
+          "lv": "Kurpes papēdis ir salūzis."
         },
         {
           "de": "Der Absatz ist in diesem Jahr gestiegen.",
-          "lv": "noiets šogad ir pieaudzis."
+          "lv": "Noiets šogad ir pieaudzis."
         }
       ],
       "comparison": [
@@ -2146,15 +2146,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Abschluss des Projekts war erfolgreich.",
-          "lv": "projekta noslēgums bija veiksmīgs."
+          "lv": "Projekta noslēgums bija veiksmīgs."
         },
         {
           "de": "Sie hat einen guten Abschluss gemacht.",
-          "lv": "viņa ieguva labu diplomu."
+          "lv": "Viņa ieguva labu diplomu."
         },
         {
           "de": "Nach dem Abschluss sucht er Arbeit.",
-          "lv": "pēc absolvēšanas viņš meklē darbu."
+          "lv": "Pēc absolvēšanas viņš meklē darbu."
         }
       ],
       "comparison": [
@@ -2303,15 +2303,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Dieser Abschnitt ist schwer.",
-          "lv": "šis posms ir grūts."
+          "lv": "Šis posms ir grūts."
         },
         {
           "de": "Lies den nächsten Abschnitt.",
-          "lv": "izlasi nākamo teksta daļu."
+          "lv": "Izlasi nākamo teksta daļu."
         },
         {
           "de": "Der Abschnitt der Straße ist gesperrt.",
-          "lv": "šis ceļa posms ir slēgts."
+          "lv": "Šis ceļa posms ir slēgts."
         }
       ],
       "comparison": [
@@ -2478,15 +2478,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Setz bitte den Rucksack ab.",
-          "lv": "lūdzu, noliec mugursomu."
+          "lv": "Lūdzu, noliec mugursomu."
         },
         {
           "de": "Der Bus setzt die Kinder vor der Schule ab.",
-          "lv": "autobuss izlaiž bērnus pie skolas."
+          "lv": "Autobuss izlaiž bērnus pie skolas."
         },
         {
           "de": "Der Minister wurde abgesetzt.",
-          "lv": "ministrs tika atcelts no amata."
+          "lv": "Ministrs tika atcelts no amata."
         }
       ],
       "tip": {
@@ -2820,15 +2820,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Anlage funktioniert wieder.",
-          "lv": "iekārta atkal darbojas."
+          "lv": "Iekārta atkal darbojas."
         },
         {
           "de": "Die Firma baut eine neue Anlage.",
-          "lv": "uzņēmums būvē jaunu iekārtu."
+          "lv": "Uzņēmums būvē jaunu iekārtu."
         },
         {
           "de": "Diese Anlage bringt gute Zinsen.",
-          "lv": "šis ieguldījums dod labus procentus."
+          "lv": "Šis ieguldījums dod labus procentus."
         }
       ],
       "comparison": [
@@ -2994,15 +2994,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Mach bitte das Licht an.",
-          "lv": "lūdzu, ieslēdz gaismu."
+          "lv": "Lūdzu, ieslēdz gaismu."
         },
         {
           "de": "Kannst du den Fernseher anmachen?",
-          "lv": "vai vari ieslēgt televizoru?"
+          "lv": "Vai vari ieslēgt televizoru?"
         },
         {
           "de": "Sie macht den Salat mit Öl an.",
-          "lv": "viņa sagatavo salātus ar eļļu."
+          "lv": "Viņa sagatavo salātus ar eļļu."
         }
       ],
       "tip": {
@@ -3205,15 +3205,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bei dem Anschlag wurden viele Menschen verletzt.",
-          "lv": "atentātā tika ievainoti daudzi cilvēki."
+          "lv": "Atentātā tika ievainoti daudzi cilvēki."
         },
         {
           "de": "Die Polizei untersucht den Anschlag.",
-          "lv": "policija izmeklē atentātu."
+          "lv": "Policija izmeklē atentātu."
         },
         {
           "de": "Der Anschlag hängt am Eingang.",
-          "lv": "paziņojums karājas pie ieejas."
+          "lv": "Paziņojums karājas pie ieejas."
         }
       ],
       "comparison": [
@@ -3364,15 +3364,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Anschluss funktioniert nicht.",
-          "lv": "savienojums nedarbojas."
+          "lv": "Savienojums nedarbojas."
         },
         {
           "de": "Wir haben den Anschlusszug verpasst.",
-          "lv": "mēs nokavējām nākamo vilcienu."
+          "lv": "Mēs nokavējām nākamo vilcienu."
         },
         {
           "de": "Die Wohnung hat einen Internetanschluss.",
-          "lv": "dzīvoklī ir interneta pieslēgums."
+          "lv": "Dzīvoklī ir interneta pieslēgums."
         }
       ],
       "comparison": [
@@ -3532,15 +3532,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Ärztin hat ein hohes Ansehen.",
-          "lv": "ārstei ir augsta reputācija."
+          "lv": "Ārstei ir augsta reputācija."
         },
         {
           "de": "Sein Ansehen ist gestiegen.",
-          "lv": "viņa reputācija ir pieaugusi."
+          "lv": "Viņa reputācija ir pieaugusi."
         },
         {
           "de": "Das schadet dem Ansehen der Firma.",
-          "lv": "tas kaitē uzņēmuma reputācijai."
+          "lv": "Tas kaitē uzņēmuma reputācijai."
         }
       ],
       "comparison": [
@@ -3772,15 +3772,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich stelle einen Antrag auf Hilfe.",
-          "lv": "es iesniedzu pieteikumu palīdzības saņemšanai."
+          "lv": "Es iesniedzu pieteikumu palīdzības saņemšanai."
         },
         {
           "de": "Der Antrag wurde abgelehnt.",
-          "lv": "iesniegums tika noraidīts."
+          "lv": "Iesniegums tika noraidīts."
         },
         {
           "de": "Der Antrag kommt morgen zur Abstimmung.",
-          "lv": "priekšlikums rīt tiks nodots balsošanai."
+          "lv": "Priekšlikums rīt tiks nodots balsošanai."
         }
       ],
       "comparison": [
@@ -4147,15 +4147,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich habe einen wichtigen Auftrag bekommen.",
-          "lv": "es saņēmu svarīgu uzdevumu."
+          "lv": "Es saņēmu svarīgu uzdevumu."
         },
         {
           "de": "Die Firma hat einen großen Auftrag.",
-          "lv": "uzņēmumam ir liels pasūtījums."
+          "lv": "Uzņēmumam ir liels pasūtījums."
         },
         {
           "de": "Er arbeitet im Auftrag der Stadt.",
-          "lv": "viņš strādā pilsētas uzdevumā."
+          "lv": "Viņš strādā pilsētas uzdevumā."
         }
       ],
       "comparison": [
@@ -4306,15 +4306,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Aufwand ist zu groß.",
-          "lv": "pūles ir pārāk lielas."
+          "lv": "Pūles ir pārāk lielas."
         },
         {
           "de": "Das lohnt den Aufwand nicht.",
-          "lv": "tas nav šo pūļu vērts."
+          "lv": "Tas nav šo pūļu vērts."
         },
         {
           "de": "Wir müssen den Aufwand reduzieren.",
-          "lv": "mums jāsamazina ieguldītais darbs."
+          "lv": "Mums jāsamazina ieguldītais darbs."
         }
       ],
       "comparison": [
@@ -4476,15 +4476,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Theater führt ein neues Stück auf.",
-          "lv": "teātris uzved jaunu lugu."
+          "lv": "Teātris uzved jaunu lugu."
         },
         {
           "de": "Die Namen sind in der Liste aufgeführt.",
-          "lv": "vārdi ir norādīti sarakstā."
+          "lv": "Vārdi ir norādīti sarakstā."
         },
         {
           "de": "Bitte führen Sie alle Kosten auf.",
-          "lv": "lūdzu, norādiet visas izmaksas."
+          "lv": "Lūdzu, norādiet visas izmaksas."
         }
       ],
       "comparison": [
@@ -4644,15 +4644,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir halten uns im Garten auf.",
-          "lv": "mēs uzturamies dārzā."
+          "lv": "Mēs uzturamies dārzā."
         },
         {
           "de": "Wo hältst du dich gerade auf?",
-          "lv": "kur tu pašlaik uzturies?"
+          "lv": "Kur tu pašlaik uzturies?"
         },
         {
           "de": "Der Stau hat uns lange aufgehalten.",
-          "lv": "sastrēgums mūs ilgi aizkavēja."
+          "lv": "Sastrēgums mūs ilgi aizkavēja."
         }
       ],
       "comparison": [
@@ -4885,15 +4885,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Aussicht auf Erfolg ist gut.",
-          "lv": "izredzes uz panākumiem ir labas."
+          "lv": "Izredzes uz panākumiem ir labas."
         },
         {
           "de": "Von hier hat man eine schöne Aussicht.",
-          "lv": "no šejienes ir skaists skats."
+          "lv": "No šejienes ir skaists skats."
         },
         {
           "de": "Er hat gute Aussichten auf eine Stelle.",
-          "lv": "viņam ir labas izredzes dabūt darbu."
+          "lv": "Viņam ir labas izredzes dabūt darbu."
         }
       ],
       "comparison": [
@@ -5072,15 +5072,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Seine Aussprache ist sehr klar.",
-          "lv": "viņa izruna ir ļoti skaidra."
+          "lv": "Viņa izruna ir ļoti skaidra."
         },
         {
           "de": "Ich übe die deutsche Aussprache.",
-          "lv": "es vingrinos vācu izrunu."
+          "lv": "Es vingrinos vācu izrunu."
         },
         {
           "de": "Nach der Rede gab es eine Aussprache.",
-          "lv": "pēc runas notika atklāta domu apmaiņa."
+          "lv": "Pēc runas notika atklāta domu apmaiņa."
         }
       ],
       "comparison": [
@@ -5251,15 +5251,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Behörde stellt den Ausweis aus.",
-          "lv": "iestāde izsniedz apliecību."
+          "lv": "Iestāde izsniedz apliecību."
         },
         {
           "de": "Das Museum stellt moderne Kunst aus.",
-          "lv": "muzejs izstāda moderno mākslu."
+          "lv": "Muzejs izstāda moderno mākslu."
         },
         {
           "de": "Der Arzt stellt ein Attest aus.",
-          "lv": "ārsts izraksta izziņu."
+          "lv": "Ārsts izraksta izziņu."
         }
       ],
       "tip": {
@@ -5433,15 +5433,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie übt den Beruf seit zehn Jahren aus.",
-          "lv": "viņa strādā šajā profesijā jau desmit gadus."
+          "lv": "Viņa strādā šajā profesijā jau desmit gadus."
         },
         {
           "de": "Er übt Druck auf die Firma aus.",
-          "lv": "viņš izdara spiedienu uz uzņēmumu."
+          "lv": "Viņš izdara spiedienu uz uzņēmumu."
         },
         {
           "de": "Sport übt einen positiven Einfluss aus.",
-          "lv": "sports rada pozitīvu ietekmi."
+          "lv": "Sports rada pozitīvu ietekmi."
         }
       ],
       "comparison": [
@@ -5660,15 +5660,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich brauche einen Auszug aus dem Register.",
-          "lv": "man vajag izrakstu no reģistra."
+          "lv": "Man vajag izrakstu no reģistra."
         },
         {
           "de": "Der Auszug aus der Wohnung war anstrengend.",
-          "lv": "izvākšanās no dzīvokļa bija nogurdinoša."
+          "lv": "Izvākšanās no dzīvokļa bija nogurdinoša."
         },
         {
           "de": "Der Kontoauszug liegt auf dem Tisch.",
-          "lv": "konta izraksts ir uz galda."
+          "lv": "Konta izraksts ir uz galda."
         }
       ],
       "comparison": [
@@ -5978,15 +5978,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Bau der Brücke dauert lange.",
-          "lv": "tilta būvniecība ilgst ilgi."
+          "lv": "Tilta būvniecība ilgst ilgi."
         },
         {
           "de": "Der alte Bau steht am Marktplatz.",
-          "lv": "vecā celtne atrodas pie tirgus laukuma."
+          "lv": "Vecā celtne atrodas pie tirgus laukuma."
         },
         {
           "de": "Auf dem Bau arbeiten viele Leute.",
-          "lv": "būvlaukumā strādā daudz cilvēku."
+          "lv": "Būvlaukumā strādā daudz cilvēku."
         }
       ],
       "comparison": [
@@ -6227,15 +6227,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Becken im Schwimmbad ist tief.",
-          "lv": "baseins peldbaseinā ir dziļš."
+          "lv": "Baseins peldbaseinā ir dziļš."
         },
         {
           "de": "Leg das Gemüse in das Becken.",
-          "lv": "ieliec dārzeņus bļodā."
+          "lv": "Ieliec dārzeņus bļodā."
         },
         {
           "de": "Sie hat Schmerzen im Becken.",
-          "lv": "viņai sāp iegurnis."
+          "lv": "Viņai sāp iegurnis."
         }
       ],
       "comparison": [
@@ -6427,15 +6427,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das ist ein bedeutender Schritt.",
-          "lv": "tas ir nozīmīgs solis."
+          "lv": "Tas ir nozīmīgs solis."
         },
         {
           "de": "Sie ist eine bedeutende Ärztin.",
-          "lv": "viņa ir ievērojama ārste."
+          "lv": "Viņa ir ievērojama ārste."
         },
         {
           "de": "Heute geht es mir bedeutend besser.",
-          "lv": "šodien man ir ievērojami labāk."
+          "lv": "Šodien man ir ievērojami labāk."
         }
       ],
       "comparison": [
@@ -6603,15 +6603,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte bedienen Sie sich.",
-          "lv": "lūdzu, ņemiet paši."
+          "lv": "Lūdzu, ņemiet paši."
         },
         {
           "de": "Er bedient sich moderner Technik.",
-          "lv": "viņš izmanto modernu tehniku."
+          "lv": "Viņš izmanto modernu tehniku."
         },
         {
           "de": "Die Gäste bedienen sich am Buffet.",
-          "lv": "viesi paši apkalpojas pie bufetes."
+          "lv": "Viesi paši apkalpojas pie bufetes."
         }
       ],
       "comparison": [
@@ -6997,15 +6997,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Arzt behandelt den Patienten.",
-          "lv": "ārsts ārstē pacientu."
+          "lv": "Ārsts ārstē pacientu."
         },
         {
           "de": "Sie behandelt alle freundlich.",
-          "lv": "viņa pret visiem izturas draudzīgi."
+          "lv": "Viņa pret visiem izturas draudzīgi."
         },
         {
           "de": "Im Kurs behandeln wir dieses Thema.",
-          "lv": "kursā mēs apspriežam šo tēmu."
+          "lv": "Kursā mēs apspriežam šo tēmu."
         }
       ],
       "comparison": [
@@ -7343,15 +7343,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Platz ist schon belegt.",
-          "lv": "vieta jau ir aizņemta."
+          "lv": "Vieta jau ir aizņemta."
         },
         {
           "de": "Ich belege einen Deutschkurs.",
-          "lv": "es piesakos vācu valodas kursam."
+          "lv": "Es piesakos vācu valodas kursam."
         },
         {
           "de": "Die Zahlen belegen seine Aussage.",
-          "lv": "skaitļi pierāda viņa apgalvojumu."
+          "lv": "Skaitļi pierāda viņa apgalvojumu."
         }
       ],
       "comparison": [
@@ -7566,15 +7566,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich habe den Fehler sofort bemerkt.",
-          "lv": "es uzreiz pamanīju kļūdu."
+          "lv": "Es uzreiz pamanīju kļūdu."
         },
         {
           "de": "Sie bemerkte, dass die Tür offen war.",
-          "lv": "viņa pamanīja, ka durvis bija vaļā."
+          "lv": "Viņa pamanīja, ka durvis bija vaļā."
         },
         {
           "de": "Er bemerkte kurz, dass es schon spät ist.",
-          "lv": "viņš īsi piezīmēja, ka jau ir vēls."
+          "lv": "Viņš īsi piezīmēja, ka jau ir vēls."
         }
       ],
       "comparison": [
@@ -7754,15 +7754,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich bemühe mich, pünktlich zu sein.",
-          "lv": "es cenšos būt laikā."
+          "lv": "Es cenšos būt laikā."
         },
         {
           "de": "Sie bemüht sich um eine Lösung.",
-          "lv": "viņa cenšas atrast risinājumu."
+          "lv": "Viņa cenšas atrast risinājumu."
         },
         {
           "de": "Wir bemühen uns sehr um die Kunden.",
-          "lv": "mēs ļoti cenšamies klientu labā."
+          "lv": "Mēs ļoti cenšamies klientu labā."
         }
       ],
       "comparison": [
@@ -7964,15 +7964,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Ärztin berät den Patienten.",
-          "lv": "ārste konsultē pacientu."
+          "lv": "Ārste konsultē pacientu."
         },
         {
           "de": "Wir beraten über den Plan.",
-          "lv": "mēs apspriežam plānu."
+          "lv": "Mēs apspriežam plānu."
         },
         {
           "de": "Die Eltern beraten sich mit der Lehrerin.",
-          "lv": "vecāki apspriežas ar skolotāju."
+          "lv": "Vecāki apspriežas ar skolotāju."
         }
       ],
       "comparison": [
@@ -8182,15 +8182,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie arbeitet im sozialen Bereich.",
-          "lv": "viņa strādā sociālajā jomā."
+          "lv": "Viņa strādā sociālajā jomā."
         },
         {
           "de": "Dieser Bereich ist gesperrt.",
-          "lv": "šī zona ir slēgta."
+          "lv": "Šī zona ir slēgta."
         },
         {
           "de": "Im Bereich Gesundheit gibt es viele Jobs.",
-          "lv": "veselības jomā ir daudz darba vietu."
+          "lv": "Veselības jomā ir daudz darba vietu."
         }
       ],
       "comparison": [
@@ -8409,15 +8409,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Zeitung berichtet über den Unfall.",
-          "lv": "avīze ziņo par negadījumu."
+          "lv": "Avīze ziņo par negadījumu."
         },
         {
           "de": "Er berichtet von seiner Reise.",
-          "lv": "viņš stāsta par savu ceļojumu."
+          "lv": "Viņš stāsta par savu ceļojumu."
         },
         {
           "de": "Die Kollegin berichtet dem Chef von den Ergebnissen.",
-          "lv": "kolēģe ziņo priekšniekam par rezultātiem."
+          "lv": "Kolēģe ziņo priekšniekam par rezultātiem."
         }
       ],
       "comparison": [
@@ -8625,15 +8625,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Beruhig dich bitte.",
-          "lv": "lūdzu, nomierinies."
+          "lv": "Lūdzu, nomierinies."
         },
         {
           "de": "Nach ein paar Minuten beruhigte sie sich.",
-          "lv": "pēc dažām minūtēm viņa nomierinājās."
+          "lv": "Pēc dažām minūtēm viņa nomierinājās."
         },
         {
           "de": "Die Lage hat sich beruhigt.",
-          "lv": "situācija ir nomierinājusies."
+          "lv": "Situācija ir nomierinājusies."
         }
       ],
       "comparison": [
@@ -8792,15 +8792,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er träumt von Berühmtheit.",
-          "lv": "viņš sapņo par slavu."
+          "lv": "Viņš sapņo par slavu."
         },
         {
           "de": "Die Berühmtheit kam erst spät.",
-          "lv": "slava atnāca tikai vēlu."
+          "lv": "Slava atnāca tikai vēlu."
         },
         {
           "de": "Viele Berühmtheiten waren eingeladen.",
-          "lv": "tika uzaicinātas daudzas slavenības."
+          "lv": "Tika uzaicinātas daudzas slavenības."
         }
       ],
       "comparison": [
@@ -9000,15 +9000,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir haben beschlossen, umzuziehen.",
-          "lv": "mēs nolēmām pārvākties."
+          "lv": "Mēs nolēmām pārvākties."
         },
         {
           "de": "Der Rat beschließt neue Regeln.",
-          "lv": "padome pieņem jaunus noteikumus."
+          "lv": "Padome pieņem jaunus noteikumus."
         },
         {
           "de": "Die Rede beschloss den Abend.",
-          "lv": "runa noslēdza vakaru."
+          "lv": "Runa noslēdza vakaru."
         }
       ],
       "comparison": [
@@ -9192,15 +9192,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich möchte eine Beschwerde einreichen.",
-          "lv": "es vēlos iesniegt sūdzību."
+          "lv": "Es vēlos iesniegt sūdzību."
         },
         {
           "de": "Die Beschwerde wurde ernst genommen.",
-          "lv": "sūdzība tika uztverta nopietni."
+          "lv": "Sūdzība tika uztverta nopietni."
         },
         {
           "de": "Er hat Beschwerden im Rücken.",
-          "lv": "viņam ir muguras kaites."
+          "lv": "Viņam ir muguras kaites."
         }
       ],
       "comparison": [
@@ -9395,15 +9395,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich besorge die Tickets.",
-          "lv": "es sagādāšu biļetes."
+          "lv": "Es sagādāšu biļetes."
         },
         {
           "de": "Kannst du Milch besorgen?",
-          "lv": "vai vari nopirkt pienu?"
+          "lv": "Vai vari nopirkt pienu?"
         },
         {
           "de": "Wir müssen einen Handwerker besorgen.",
-          "lv": "mums jāatrod meistars."
+          "lv": "Mums jāatrod meistars."
         }
       ],
       "comparison": [
@@ -9605,19 +9605,19 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Problem besteht noch.",
-          "lv": "problēma vēl pastāv."
+          "lv": "Problēma vēl pastāv."
         },
         {
           "de": "Sie hat die Prüfung bestanden.",
-          "lv": "viņa nokārtoja eksāmenu."
+          "lv": "Viņa nokārtoja eksāmenu."
         },
         {
           "de": "Das Team besteht aus fünf Personen.",
-          "lv": "komanda sastāv no piecām personām."
+          "lv": "Komanda sastāv no piecām personām."
         },
         {
           "de": "Er besteht auf seiner Meinung.",
-          "lv": "viņš uzstāj uz savu viedokli."
+          "lv": "Viņš uzstāj uz savu viedokli."
         }
       ],
       "comparison": [
@@ -9789,15 +9789,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Arzt bestimmt die Dosis.",
-          "lv": "ārsts nosaka devu."
+          "lv": "Ārsts nosaka devu."
         },
         {
           "de": "Wir bestimmen morgen den Termin.",
-          "lv": "mēs rīt noteiksim termiņu."
+          "lv": "Mēs rīt noteiksim termiņu."
         },
         {
           "de": "Dieser Raum ist für Kinder bestimmt.",
-          "lv": "šī telpa ir paredzēta bērniem."
+          "lv": "Šī telpa ir paredzēta bērniem."
         }
       ],
       "comparison": [
@@ -10045,15 +10045,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Betrieb hat 50 Mitarbeiter.",
-          "lv": "uzņēmumā ir 50 darbinieku."
+          "lv": "Uzņēmumā ir 50 darbinieku."
         },
         {
           "de": "Die Maschine ist in Betrieb.",
-          "lv": "iekārta darbojas."
+          "lv": "Iekārta darbojas."
         },
         {
           "de": "Während des Betriebs wird die Tür geschlossen.",
-          "lv": "darbības laikā durvis tiek aizvērtas."
+          "lv": "Darbības laikā durvis tiek aizvērtas."
         }
       ],
       "comparison": [
@@ -10280,15 +10280,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte bewege den Tisch nicht.",
-          "lv": "lūdzu, nekustini galdu."
+          "lv": "Lūdzu, nekustini galdu."
         },
         {
           "de": "Ich muss mich mehr bewegen.",
-          "lv": "man vairāk jākustas."
+          "lv": "Man vairāk jākustas."
         },
         {
           "de": "Die Geschichte hat mich sehr bewegt.",
-          "lv": "stāsts mani ļoti aizkustināja."
+          "lv": "Stāsts mani ļoti aizkustināja."
         }
       ],
       "comparison": [
@@ -10518,15 +10518,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie bezieht eine kleine Rente.",
-          "lv": "viņa saņem nelielu pensiju."
+          "lv": "Viņa saņem nelielu pensiju."
         },
         {
           "de": "Wir beziehen nächste Woche die neue Wohnung.",
-          "lv": "mēs nākamnedēļ ievāksimies jaunajā dzīvoklī."
+          "lv": "Mēs nākamnedēļ ievāksimies jaunajā dzīvoklī."
         },
         {
           "de": "Die Regel bezieht sich auf alle Schüler.",
-          "lv": "noteikums attiecas uz visiem skolēniem."
+          "lv": "Noteikums attiecas uz visiem skolēniem."
         }
       ],
       "comparison": [
@@ -10746,15 +10746,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Bildschirm ist kaputt.",
-          "lv": "ekrāns ir salauzts."
+          "lv": "Ekrāns ir salauzts."
         },
         {
           "de": "Ich schaue auf den Bildschirm.",
-          "lv": "es skatos uz ekrānu."
+          "lv": "Es skatos uz ekrānu."
         },
         {
           "de": "Der Computer hat einen großen Bildschirm.",
-          "lv": "datoram ir liels ekrāns."
+          "lv": "Datoram ir liels ekrāns."
         }
       ],
       "comparison": [
@@ -10879,15 +10879,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Schule bietet viele Kurse an.",
-          "lv": "skola piedāvā daudz kursu."
+          "lv": "Skola piedāvā daudz kursu."
         },
         {
           "de": "Das Hotel bietet einen schönen Blick auf den See.",
-          "lv": "viesnīca sniedz skaistu skatu uz ezeru."
+          "lv": "Viesnīca sniedz skaistu skatu uz ezeru."
         },
         {
           "de": "Was bietest du mir dafür?",
-          "lv": "ko tu man par to piedāvā?"
+          "lv": "Ko tu man par to piedāvā?"
         }
       ],
       "comparison": [
@@ -11104,15 +11104,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich habe eine Blase am Fuß.",
-          "lv": "man uz pēdas ir tulzna."
+          "lv": "Man uz pēdas ir tulzna."
         },
         {
           "de": "Die Blase tut weh.",
-          "lv": "pūslis sāp."
+          "lv": "Pūslis sāp."
         },
         {
           "de": "Im Wasser steigen Blasen auf.",
-          "lv": "ūdenī ceļas burbuļi."
+          "lv": "Ūdenī ceļas burbuļi."
         }
       ],
       "comparison": [
@@ -11341,15 +11341,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich schreibe es in den Block.",
-          "lv": "es to pierakstu blociņā."
+          "lv": "Es to pierakstu blociņā."
         },
         {
           "de": "Der Unterricht ist in drei Blöcke geteilt.",
-          "lv": "nodarbība ir sadalīta trīs blokos."
+          "lv": "Nodarbība ir sadalīta trīs blokos."
         },
         {
           "de": "Ein Block Eis lag auf der Straße.",
-          "lv": "uz ielas gulēja ledus klucis."
+          "lv": "Uz ielas gulēja ledus klucis."
         }
       ],
       "comparison": [
@@ -11525,15 +11525,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das war bloß ein Witz.",
-          "lv": "tas bija tikai joks."
+          "lv": "Tas bija tikai joks."
         },
         {
           "de": "Ich habe bloß fünf Euro.",
-          "lv": "man ir tikai pieci eiro."
+          "lv": "Man ir tikai pieci eiro."
         },
         {
           "de": "Mit bloßen Händen ist das schwer.",
-          "lv": "ar kailām rokām tas ir grūti."
+          "lv": "Ar kailām rokām tas ir grūti."
         }
       ],
       "comparison": [
@@ -11674,7 +11674,6 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "tikai",
                   "kails/pliks"
                 ]
               }
@@ -11744,23 +11743,23 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Bogen ist aus Holz.",
-          "lv": "loks ir no koka."
+          "lv": "Loks ir no koka."
         },
         {
           "de": "Die Brücke hat einen schönen Bogen.",
-          "lv": "tiltam ir skaista arka."
+          "lv": "Tiltam ir skaista arka."
         },
         {
           "de": "Bitte füllen Sie den Bogen aus.",
-          "lv": "lūdzu, aizpildiet veidlapu."
+          "lv": "Lūdzu, aizpildiet veidlapu."
         },
         {
           "de": "Der Fluss macht einen Bogen.",
-          "lv": "upe met līkumu."
+          "lv": "Upe met līkumu."
         },
         {
           "de": "Ich brauche einen Bogen Papier.",
-          "lv": "man vajag vienu papīra loksni."
+          "lv": "Man vajag vienu papīra loksni."
         }
       ],
       "comparison": [
@@ -11788,7 +11787,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "der Bogen nav “likums”; šī nozīme frontē ir maldinoša."
+        "text": "der Bogen nav “likums”; šī nozīme sākumā ir maldinoša."
       },
       "sectionAccents": {
         "examples": [
@@ -11919,7 +11918,8 @@ const B1_WORDS = [
           ]
         }
       }
-    }},
+    }
+  },
   {
     "de": "Bohnenkaffee",
     "de_article": "der",
@@ -11981,15 +11981,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Botschaft ist heute geschlossen.",
-          "lv": "vēstniecība šodien ir slēgta."
+          "lv": "Vēstniecība šodien ir slēgta."
         },
         {
           "de": "Die Botschaft des Films ist klar.",
-          "lv": "filmas vēstījums ir skaidrs."
+          "lv": "Filmas vēstījums ir skaidrs."
         },
         {
           "de": "Ich habe einen Termin in der Botschaft.",
-          "lv": "man ir pieraksts vēstniecībā."
+          "lv": "Man ir pieraksts vēstniecībā."
         }
       ],
       "comparison": [
@@ -12171,15 +12171,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Brand wurde schnell gelöscht.",
-          "lv": "ugunsgrēks tika ātri nodzēsts."
+          "lv": "Ugunsgrēks tika ātri nodzēsts."
         },
         {
           "de": "Bei dem Brand wurde niemand verletzt.",
-          "lv": "ugunsgrēkā neviens netika ievainots."
+          "lv": "Ugunsgrēkā neviens netika ievainots."
         },
         {
           "de": "Der Brand an der Hand tat weh.",
-          "lv": "apdegums uz rokas sāpēja."
+          "lv": "Apdegums uz rokas sāpēja."
         }
       ],
       "comparison": [
@@ -12322,8 +12322,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "ugunsgrēks",
-                  "zīmols"
+                  "ugunsgrēks"
                 ]
               }
             }
@@ -12589,7 +12588,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Bund unterstützt die Länder.",
-          "lv": "federācija atbalsta zemes."
+          "lv": "Federācija atbalsta zemes."
         },
         {
           "de": "Deutschland ist ein Bund von Ländern.",
@@ -12597,7 +12596,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ein Bund Kräuter liegt auf dem Tisch.",
-          "lv": "uz galda ir garšaugu saišķis."
+          "lv": "Uz galda ir garšaugu saišķis."
         }
       ],
       "comparison": [
@@ -12939,15 +12938,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er hat viel gelernt. Dadurch hat er bestanden.",
-          "lv": "viņš daudz mācījās. Tādējādi viņš nokārtoja eksāmenu."
+          "lv": "Viņš daudz mācījās. Tādējādi viņš nokārtoja eksāmenu."
         },
         {
           "de": "Die Tür war offen. Dadurch kam kalte Luft hinein.",
-          "lv": "durvis bija vaļā. Tādēļ ienāca auksts gaiss."
+          "lv": "Durvis bija vaļā. Tādēļ ienāca auksts gaiss."
         },
         {
           "de": "Dadurch sparen wir Zeit.",
-          "lv": "tādējādi mēs ietaupām laiku."
+          "lv": "Tādējādi mēs ietaupām laiku."
         }
       ],
       "comparison": [
@@ -13096,15 +13095,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich bin dagegen.",
-          "lv": "es esmu pret to."
+          "lv": "Es esmu pret to."
         },
         {
           "de": "Er mag Tee, ich dagegen trinke Kaffee.",
-          "lv": "viņam patīk tēja, bet es turpretim dzeru kafiju."
+          "lv": "Viņam patīk tēja, bet es turpretim dzeru kafiju."
         },
         {
           "de": "Was kann man dagegen tun?",
-          "lv": "ko var darīt pret to?"
+          "lv": "Ko var darīt pret to?"
         }
       ],
       "comparison": [
@@ -13256,22 +13255,22 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Es regnet, daher bleiben wir zu Hause.",
-          "lv": "līst, tāpēc mēs paliekam mājās."
+          "lv": "Līst, tāpēc mēs paliekam mājās."
         },
         {
           "de": "Er war krank, daher kam er nicht.",
-          "lv": "viņš bija slims, tāpēc neatnāca."
+          "lv": "Viņš bija slims, tāpēc neatnāca."
         },
         {
           "de": "Die Idee kommt daher.",
-          "lv": "ideja nāk no turienes."
+          "lv": "Ideja nāk no turienes."
         }
       ],
       "comparison": [
         {
           "word": "daher",
           "meaning": "tāpēc / no turienes",
-          "example": "Es bin müde, daher gehe ich. = Esmu noguris, tāpēc eju."
+          "example": "Ich bin müde, daher gehe ich. = Esmu noguris, tāpēc eju."
         },
         {
           "word": "deshalb",
@@ -13292,7 +13291,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "daher kā “no turienes” ir retāks; frontē labāk mācīties “tāpēc”."
+        "text": "daher kā “no turienes” ir retāks; sākumā labāk mācīties “tāpēc”."
       },
       "sectionAccents": {
         "examples": [
@@ -13411,15 +13410,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe dahin.",
-          "lv": "es eju turp."
+          "lv": "Es eju turp."
         },
         {
           "de": "Stell die Tasche dahin.",
-          "lv": "noliec somu tur."
+          "lv": "Noliec somu tur."
         },
         {
           "de": "Meine Hoffnung ist dahin.",
-          "lv": "mana cerība ir pagalam."
+          "lv": "Mana cerība ir pagalam."
         }
       ],
       "comparison": [
@@ -13603,31 +13602,31 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Vielen Dank!",
-          "lv": "liels paldies!"
+          "lv": "Liels paldies!"
         },
         {
           "de": "Herzlichen Dank!",
-          "lv": "sirsnīgs paldies!"
+          "lv": "Sirsnīgs paldies!"
         },
         {
           "de": "Danke schön!",
-          "lv": "liels paldies!"
+          "lv": "Liels paldies!"
         },
         {
           "de": "Nein, danke.",
-          "lv": "nē, paldies."
+          "lv": "Nē, paldies."
         },
         {
           "de": "Ich danke Ihnen für die Hilfe.",
-          "lv": "es pateicos jums par palīdzību."
+          "lv": "Es pateicos jums par palīdzību."
         },
         {
           "de": "Ich danke dir für das Geschenk.",
-          "lv": "es pateicos tev par dāvanu."
+          "lv": "Es pateicos tev par dāvanu."
         },
         {
           "de": "Zum Schluss nochmals herzlichen Dank.",
-          "lv": "noslēgumā vēlreiz sirsnīgs paldies."
+          "lv": "Noslēgumā vēlreiz sirsnīgs paldies."
         }
       ],
       "comparison": [
@@ -13918,8 +13917,7 @@ const B1_WORDS = [
                   "danke"
                 ],
                 "purple": [
-                  "atbildei",
-                  "paldies"
+                  "atbildei"
                 ]
               }
             },
@@ -13989,15 +13987,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich denke daran.",
-          "lv": "es domāju par to."
+          "lv": "Es domāju par to."
         },
         {
           "de": "Wir arbeiten daran.",
-          "lv": "mēs pie tā strādājam."
+          "lv": "Mēs pie tā strādājam."
         },
         {
           "de": "Daran erinnere ich mich gut.",
-          "lv": "to es labi atceros."
+          "lv": "To es labi atceros."
         }
       ],
       "comparison": [
@@ -14176,15 +14174,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Grafik stellt die Zahlen dar.",
-          "lv": "grafiks attēlo skaitļus."
+          "lv": "Grafiks attēlo skaitļus."
         },
         {
           "de": "Der Film stellt das Leben im Dorf dar.",
-          "lv": "filma parāda dzīvi ciemā."
+          "lv": "Filma parāda dzīvi ciemā."
         },
         {
           "de": "Sie stellt eine Ärztin dar.",
-          "lv": "viņa tēlo ārsti."
+          "lv": "Viņa tēlo ārsti."
         }
       ],
       "comparison": [
@@ -14207,7 +14205,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Dati, grafiki, situācijas un lomas werden dargestellt; sevi vorstellen = iepazīstināties."
+            "text": "Datus, grafikus, situācijas un lomas attēlo (darstellen); sevi iepazīstināt = sich vorstellen."
           }
         ]
       },
@@ -14336,11 +14334,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "iepazīstināties"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -14366,15 +14360,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Viele Gäste kamen, darunter auch Kinder.",
-          "lv": "atnāca daudz viesu, tostarp arī bērni."
+          "lv": "Atnāca daudz viesu, tostarp arī bērni."
         },
         {
           "de": "Der Schlüssel liegt darunter.",
-          "lv": "atslēga atrodas zem tā."
+          "lv": "Atslēga atrodas zem tā."
         },
         {
           "de": "Es gibt viele Probleme, darunter die hohen Kosten.",
-          "lv": "ir daudz problēmu, tostarp augstās izmaksas."
+          "lv": "Ir daudz problēmu, tostarp augstās izmaksas."
         }
       ],
       "comparison": [
@@ -14553,15 +14547,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich decke den Tisch.",
-          "lv": "es klāju galdu."
+          "lv": "Es klāju galdu."
         },
         {
           "de": "Die Versicherung deckt die Kosten.",
-          "lv": "apdrošināšana sedz izmaksas."
+          "lv": "Apdrošināšana sedz izmaksas."
         },
         {
           "de": "Der Schnee deckt die Straße.",
-          "lv": "sniegs pārklāj ceļu."
+          "lv": "Sniegs pārklāj ceļu."
         }
       ],
       "comparison": [
@@ -14851,15 +14845,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Dieses Zimmer dient als Büro.",
-          "lv": "šī istaba kalpo kā birojs."
+          "lv": "Šī istaba kalpo kā birojs."
         },
         {
           "de": "Der Knopf dient zur Sicherheit.",
-          "lv": "poga kalpo drošībai."
+          "lv": "Poga kalpo drošībai."
         },
         {
           "de": "Er dient in der Armee.",
-          "lv": "viņš dien armijā."
+          "lv": "Viņš dien armijā."
         }
       ],
       "comparison": [
@@ -15265,7 +15259,8 @@ const B1_WORDS = [
             "drittens"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "drittens",
@@ -15305,15 +15300,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Druck im Reifen ist zu niedrig.",
-          "lv": "spiediens riepā ir pārāk zems."
+          "lv": "Spiediens riepā ir pārāk zems."
         },
         {
           "de": "Sie steht unter großem Druck.",
-          "lv": "viņa ir zem liela spiediena."
+          "lv": "Viņa ir zem liela spiediena."
         },
         {
           "de": "Der Druck des Buches dauert lange.",
-          "lv": "grāmatas drukāšana ilgst ilgi."
+          "lv": "Grāmatas drukāšana ilgst ilgi."
         }
       ],
       "comparison": [
@@ -15548,15 +15543,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich habe Durchfall.",
-          "lv": "man ir caureja."
+          "lv": "Man ir caureja."
         },
         {
           "de": "Bei Durchfall soll man viel trinken.",
-          "lv": "caurejas gadījumā jādzer daudz."
+          "lv": "Caurejas gadījumā jādzer daudz."
         },
         {
           "de": "Er ist durch die Prüfung gefallen.",
-          "lv": "viņš izgāzās eksāmenā."
+          "lv": "Viņš izgāzās eksāmenā."
         }
       ],
       "comparison": [
@@ -15708,15 +15703,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir führen eine Kontrolle durch.",
-          "lv": "mēs veicam pārbaudi."
+          "lv": "Mēs veicam pārbaudi."
         },
         {
           "de": "Die Firma führt die Reparatur durch.",
-          "lv": "uzņēmums veic remontu."
+          "lv": "Uzņēmums veic remontu."
         },
         {
           "de": "Das Experiment wurde im Labor durchgeführt.",
-          "lv": "eksperiments tika veikts laboratorijā."
+          "lv": "Eksperiments tika veikts laboratorijā."
         }
       ],
       "comparison": [
@@ -15970,15 +15965,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich würde eher zu Hause bleiben.",
-          "lv": "es drīzāk paliktu mājās."
+          "lv": "Es drīzāk paliktu mājās."
         },
         {
           "de": "Das ist eher schwierig.",
-          "lv": "tas ir drīzāk grūti."
+          "lv": "Tas ir drīzāk grūti."
         },
         {
           "de": "Kannst du eher kommen?",
-          "lv": "vai vari atnākt agrāk?"
+          "lv": "Vai vari atnākt agrāk?"
         }
       ],
       "comparison": [
@@ -16175,15 +16170,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Jeder hat seinen eigenen Stil.",
-          "lv": "katram ir savs stils."
+          "lv": "Katram ir savs stils."
         },
         {
           "de": "Sie hat ein eigenes Zimmer.",
-          "lv": "viņai ir sava istaba."
+          "lv": "Viņai ir sava istaba."
         },
         {
           "de": "Er hat einen ganz eigenen Humor.",
-          "lv": "viņam ir ļoti īpatnēja humora izjūta."
+          "lv": "Viņam ir ļoti īpatnēja humora izjūta."
         }
       ],
       "comparison": [
@@ -16414,15 +16409,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Diebe sind in das Haus eingebrochen.",
-          "lv": "zagļi ielauzās mājā."
+          "lv": "Zagļi ielauzās mājā."
         },
         {
           "de": "Das alte Dach ist eingebrochen.",
-          "lv": "vecais jumts ir iebrucis."
+          "lv": "Vecais jumts ir iebrucis."
         },
         {
           "de": "Die Nacht bricht früh ein.",
-          "lv": "nakts iestājas agri."
+          "lv": "Nakts iestājas agri."
         }
       ],
       "tip": {
@@ -16560,15 +16555,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Antwort ist eindeutig.",
-          "lv": "atbilde ir nepārprotama."
+          "lv": "Atbilde ir nepārprotama."
         },
         {
           "de": "Das Ergebnis zeigt eindeutig, was passiert ist.",
-          "lv": "rezultāts skaidri parāda, kas notika."
+          "lv": "Rezultāts skaidri parāda, kas notika."
         },
         {
           "de": "Die Aufgabe ist einfach, aber nicht eindeutig.",
-          "lv": "uzdevums ir vienkāršs, bet ne nepārprotams."
+          "lv": "Uzdevums ir vienkāršs, bet ne nepārprotams."
         }
       ],
       "tip": {
@@ -16705,15 +16700,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Film hat einen starken Eindruck gemacht.",
-          "lv": "filma atstāja spēcīgu iespaidu."
+          "lv": "Filma atstāja spēcīgu iespaidu."
         },
         {
           "de": "Ich habe den Eindruck, dass er müde ist.",
-          "lv": "man ir iespaids, ka viņš ir noguris."
+          "lv": "Man ir iespaids, ka viņš ir noguris."
         },
         {
           "de": "Der erste Eindruck ist wichtig.",
-          "lv": "pirmais iespaids ir svarīgs."
+          "lv": "Pirmais iespaids ir svarīgs."
         }
       ],
       "comparison": [
@@ -16882,15 +16877,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Mir ist das einerlei.",
-          "lv": "man tas ir vienalga."
+          "lv": "Man tas ir vienalga."
         },
         {
           "de": "Es ist einerlei, wer zuerst kommt.",
-          "lv": "nav svarīgi, kurš atnāk pirmais."
+          "lv": "Nav svarīgi, kurš atnāk pirmais."
         },
         {
           "de": "Im Alltag sagt man öfter: Das ist mir egal.",
-          "lv": "ikdienā biežāk saka: Man tas ir vienalga."
+          "lv": "Ikdienā biežāk saka: Man tas ir vienalga."
         }
       ],
       "comparison": [
@@ -17061,15 +17056,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Einerseits ist die Wohnung schön, andererseits ist sie teuer.",
-          "lv": "no vienas puses, dzīvoklis ir skaists, no otras puses, tas ir dārgs."
+          "lv": "No vienas puses, dzīvoklis ir skaists, no otras puses, tas ir dārgs."
         },
         {
           "de": "Einerseits möchte ich kommen, andererseits habe ich keine Zeit.",
-          "lv": "no vienas puses, es gribu nākt, no otras puses, man nav laika."
+          "lv": "No vienas puses, es gribu nākt, no otras puses, man nav laika."
         },
         {
           "de": "Einerseits verstehe ich dich.",
-          "lv": "no vienas puses, es tevi saprotu."
+          "lv": "No vienas puses, es tevi saprotu."
         }
       ],
       "comparison": [
@@ -17238,15 +17233,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte parken Sie nicht vor der Einfahrt.",
-          "lv": "lūdzu, nenovietojiet auto pie iebrauktuves."
+          "lv": "Lūdzu, nenovietojiet auto pie iebrauktuves."
         },
         {
           "de": "Die Einfahrt in den Tunnel ist gesperrt.",
-          "lv": "iebraukšana tunelī ir slēgta."
+          "lv": "Iebraukšana tunelī ir slēgta."
         },
         {
           "de": "Die Einfahrt ist sehr schmal.",
-          "lv": "iebrauktuve ir ļoti šaura."
+          "lv": "Iebrauktuve ir ļoti šaura."
         }
       ],
       "comparison": [
@@ -17422,15 +17417,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Mir fällt eine Idee ein.",
-          "lv": "man ienāk prātā ideja."
+          "lv": "Man ienāk prātā ideja."
         },
         {
           "de": "Sein Name fällt mir nicht ein.",
-          "lv": "viņa vārds man nenāk prātā."
+          "lv": "Viņa vārds man nenāk prātā."
         },
         {
           "de": "Die Decke ist eingefallen.",
-          "lv": "griesti ir iebrukuši."
+          "lv": "Griesti ir iebrukuši."
         }
       ],
       "tip": {
@@ -17573,15 +17568,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich suche ein einfarbiges Hemd.",
-          "lv": "es meklēju vienkrāsainu kreklu."
+          "lv": "Es meklēju vienkrāsainu kreklu."
         },
         {
           "de": "Die Wand ist einfarbig gestrichen.",
-          "lv": "siena ir nokrāsota vienā krāsā."
+          "lv": "Siena ir nokrāsota vienā krāsā."
         },
         {
           "de": "Das Kleid ist nicht bunt, sondern einfarbig.",
-          "lv": "kleita nav raiba, bet vienkrāsaina."
+          "lv": "Kleita nav raiba, bet vienkrāsaina."
         }
       ],
       "comparison": [
@@ -17759,15 +17754,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Wetter hat Einfluss auf unsere Pläne.",
-          "lv": "laikapstākļi ietekmē mūsu plānus."
+          "lv": "Laikapstākļi ietekmē mūsu plānus."
         },
         {
           "de": "Er hat großen Einfluss auf die Entscheidung.",
-          "lv": "viņam ir liela ietekme uz lēmumu."
+          "lv": "Viņam ir liela ietekme uz lēmumu."
         },
         {
           "de": "Soziale Medien üben Einfluss auf Jugendliche aus.",
-          "lv": "sociālie mediji ietekmē jauniešus."
+          "lv": "Sociālie mediji ietekmē jauniešus."
         }
       ],
       "comparison": [
@@ -17935,15 +17930,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Füge das Bild in das Dokument ein.",
-          "lv": "ievieto attēlu dokumentā."
+          "lv": "Ievieto attēlu dokumentā."
         },
         {
           "de": "Ich füge einen Satz in den Text ein.",
-          "lv": "es ievietoju teikumu tekstā."
+          "lv": "Es ievietoju teikumu tekstā."
         },
         {
           "de": "Das neue Teil fügt sich gut in das System ein.",
-          "lv": "jaunā daļa labi iekļaujas sistēmā."
+          "lv": "Jaunā daļa labi iekļaujas sistēmā."
         }
       ],
       "tip": {
@@ -18084,15 +18079,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Schule führt neue Regeln ein.",
-          "lv": "skola ievieš jaunus noteikumus."
+          "lv": "Skola ievieš jaunus noteikumus."
         },
         {
           "de": "Die Firma führt ein neues System ein.",
-          "lv": "uzņēmums ievieš jaunu sistēmu."
+          "lv": "Uzņēmums ievieš jaunu sistēmu."
         },
         {
           "de": "Das Land führt viel Kaffee ein.",
-          "lv": "valsts importē daudz kafijas."
+          "lv": "Valsts importē daudz kafijas."
         }
       ],
       "comparison": [
@@ -18115,7 +18110,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Noteikumus, sistēmu vai metodi führt man ein; preces arī var einführen = importēt."
+            "text": "Noteikumus, sistēmu vai metodi ievieš (einführen); preces arī var importēt (einführen)."
           }
         ]
       },
@@ -18290,15 +18285,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Einführung in das Thema war klar.",
-          "lv": "ievads tēmā bija skaidrs."
+          "lv": "Ievads tēmā bija skaidrs."
         },
         {
           "de": "Die Einführung des neuen Systems dauert lange.",
-          "lv": "jaunās sistēmas ieviešana ilgst ilgi."
+          "lv": "Jaunās sistēmas ieviešana ilgst ilgi."
         },
         {
           "de": "Im Buch gibt es eine kurze Einführung.",
-          "lv": "grāmatā ir īss ievads."
+          "lv": "Grāmatā ir īss ievads."
         }
       ],
       "comparison": [
@@ -18471,15 +18466,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich muss mich erst an die neue Arbeit eingewöhnen.",
-          "lv": "man vispirms jāpierod pie jaunā darba."
+          "lv": "Man vispirms jāpierod pie jaunā darba."
         },
         {
           "de": "Das Kind gewöhnt sich schnell in der Schule ein.",
-          "lv": "bērns ātri pierod skolā."
+          "lv": "Bērns ātri pierod skolā."
         },
         {
           "de": "Nach dem Umzug haben wir uns gut eingewöhnt.",
-          "lv": "pēc pārvākšanās mēs labi pieradām."
+          "lv": "Pēc pārvākšanās mēs labi pieradām."
         }
       ],
       "comparison": [
@@ -18502,7 +18497,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Jaunā darbā, skolā vai vietā cilvēks muss sich eingewöhnen."
+            "text": "Jaunā darbā, skolā vai vietā cilvēkam jāiedzīvojas (sich eingewöhnen)."
           }
         ]
       },
@@ -18658,15 +18653,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte halten Sie die Regeln ein.",
-          "lv": "lūdzu, ievērojiet noteikumus."
+          "lv": "Lūdzu, ievērojiet noteikumus."
         },
         {
           "de": "Wir müssen den Termin einhalten.",
-          "lv": "mums jāievēro termiņš."
+          "lv": "Mums jāievēro termiņš."
         },
         {
           "de": "Halten Sie bitte Abstand ein.",
-          "lv": "lūdzu, ievērojiet distanci."
+          "lv": "Lūdzu, ievērojiet distanci."
         }
       ],
       "comparison": [
@@ -18843,15 +18838,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die einheimische Bevölkerung kennt die Berge gut.",
-          "lv": "vietējie iedzīvotāji labi pazīst kalnus."
+          "lv": "Vietējie iedzīvotāji labi pazīst kalnus."
         },
         {
           "de": "Diese Pflanze ist hier einheimisch.",
-          "lv": "šis augs šeit ir vietējs."
+          "lv": "Šis augs šeit ir vietējs."
         },
         {
           "de": "Wir kaufen einheimische Produkte.",
-          "lv": "mēs pērkam vietējos produktus."
+          "lv": "Mēs pērkam vietējos produktus."
         }
       ],
       "comparison": [
@@ -19034,15 +19029,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die nächste Einheit beginnt morgen.",
-          "lv": "nākamā mācību vienība sākas rīt."
+          "lv": "Nākamā mācību vienība sākas rīt."
         },
         {
           "de": "Meter ist eine Einheit für Länge.",
-          "lv": "metrs ir garuma mērvienība."
+          "lv": "Metrs ir garuma mērvienība."
         },
         {
           "de": "Das Gerät besteht aus zwei Einheiten.",
-          "lv": "ierīce sastāv no divām vienībām."
+          "lv": "Ierīce sastāv no divām vienībām."
         }
       ],
       "comparison": [
@@ -19217,15 +19212,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Meter ist eine Längeneinheit.",
-          "lv": "metrs ir garuma mērvienība."
+          "lv": "Metrs ir garuma mērvienība."
         },
         {
           "de": "Welche Längeneinheit passt hier?",
-          "lv": "kura garuma mērvienība šeit der?"
+          "lv": "Kura garuma mērvienība šeit der?"
         },
         {
           "de": "Zentimeter und Kilometer sind Längeneinheiten.",
-          "lv": "centimetri un kilometri ir garuma mērvienības."
+          "lv": "Centimetri un kilometri ir garuma mērvienības."
         }
       ],
       "comparison": [
@@ -19393,15 +19388,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir brauchen einheitliche Regeln.",
-          "lv": "mums vajag vienotus noteikumus."
+          "lv": "Mums vajag vienotus noteikumus."
         },
         {
           "de": "Die Mitarbeiter tragen einheitliche Kleidung.",
-          "lv": "darbinieki valkā vienādu apģērbu."
+          "lv": "Darbinieki valkā vienādu apģērbu."
         },
         {
           "de": "Das Design ist einheitlich.",
-          "lv": "dizains ir vienots."
+          "lv": "Dizains ir vienots."
         }
       ],
       "tip": {
@@ -19539,15 +19534,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir holen Informationen ein.",
-          "lv": "mēs ievācam informāciju."
+          "lv": "Mēs ievācam informāciju."
         },
         {
           "de": "Ich muss eine Genehmigung einholen.",
-          "lv": "man jāsaņem atļauja."
+          "lv": "Man jāsaņem atļauja."
         },
         {
           "de": "Der Läufer holt den anderen ein.",
-          "lv": "skrējējs panāk otru."
+          "lv": "Skrējējs panāk otru."
         }
       ],
       "comparison": [
@@ -19570,7 +19565,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Informāciju, padomu vai atļauju holt man ein; skrējēju var einholen = panākt."
+            "text": "Informāciju, padomu vai atļauju iegūst (einholen); skrējēju var arī panākt (einholen)."
           }
         ]
       },
@@ -19835,15 +19830,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Einsatz moderner Technik spart Zeit.",
-          "lv": "modernas tehnikas izmantošana ietaupa laiku."
+          "lv": "Modernas tehnikas izmantošana ietaupa laiku."
         },
         {
           "de": "Die Feuerwehr ist seit zwei Stunden im Einsatz.",
-          "lv": "ugunsdzēsēji jau divas stundas ir izsaukumā."
+          "lv": "Ugunsdzēsēji jau divas stundas ir izsaukumā."
         },
         {
           "de": "Bei diesem Spiel ist der Einsatz zu hoch.",
-          "lv": "šajā spēlē likme ir pārāk augsta."
+          "lv": "Šajā spēlē likme ir pārāk augsta."
         }
       ],
       "comparison": [
@@ -20045,15 +20040,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir setzen moderne Technik im Unterricht ein.",
-          "lv": "mēs izmantojam modernu tehniku mācībās."
+          "lv": "Mēs izmantojam modernu tehniku mācībās."
         },
         {
           "de": "Der Trainer setzt den neuen Spieler ein.",
-          "lv": "treneris iesaista jauno spēlētāju."
+          "lv": "Treneris iesaista jauno spēlētāju."
         },
         {
           "de": "Am Abend setzte starker Regen ein.",
-          "lv": "vakarā sākās stiprs lietus."
+          "lv": "Vakarā sākās stiprs lietus."
         }
       ],
       "comparison": [
@@ -20255,15 +20250,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich stelle die Heizung auf 20 Grad ein.",
-          "lv": "es noregulēju apkuri uz 20 grādiem."
+          "lv": "Es noregulēju apkuri uz 20 grādiem."
         },
         {
           "de": "Die Firma stellt drei neue Mitarbeiter ein.",
-          "lv": "uzņēmums pieņem darbā trīs jaunus darbiniekus."
+          "lv": "Uzņēmums pieņem darbā trīs jaunus darbiniekus."
         },
         {
           "de": "Die Zeitung wurde nach 50 Jahren eingestellt.",
-          "lv": "avīzes izdošana pēc 50 gadiem tika pārtraukta."
+          "lv": "Avīzes izdošana pēc 50 gadiem tika pārtraukta."
         }
       ],
       "comparison": [
@@ -20471,15 +20466,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte treten Sie ein.",
-          "lv": "lūdzu, ienāciet."
+          "lv": "Lūdzu, ienāciet."
         },
         {
           "de": "Er tritt im Herbst in den Verein ein.",
-          "lv": "viņš rudenī iestājas biedrībā."
+          "lv": "Viņš rudenī iestājas biedrībā."
         },
         {
           "de": "Die gewünschte Wirkung tritt erst später ein.",
-          "lv": "vēlamā iedarbība iestājas tikai vēlāk."
+          "lv": "Vēlamā iedarbība iestājas tikai vēlāk."
         }
       ],
       "comparison": [
@@ -20502,7 +20497,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Telpā tritt man ein; organizācijā tritt man ein vai bei; sekas treten ein."
+            "text": "Telpā ienāk (eintreten); organizācijā iestājas (eintreten vai beitreten); sekas iestājas (treten ein)."
           }
         ]
       },
@@ -20680,15 +20675,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir ziehen morgen in die neue Wohnung ein.",
-          "lv": "mēs rīt ievācamies jaunajā dzīvoklī."
+          "lv": "Mēs rīt ievācamies jaunajā dzīvoklī."
         },
         {
           "de": "Die Bank zieht die monatliche Gebühr ein.",
-          "lv": "banka iekasē mēneša maksu."
+          "lv": "Banka iekasē mēneša maksu."
         },
         {
           "de": "Zieh den Bauch ein.",
-          "lv": "ievelc vēderu."
+          "lv": "Ievelc vēderu."
         }
       ],
       "comparison": [
@@ -20967,15 +20962,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir haben Ihre Nachricht empfangen.",
-          "lv": "mēs esam saņēmuši jūsu ziņu."
+          "lv": "Mēs esam saņēmuši jūsu ziņu."
         },
         {
           "de": "Die Ministerin empfängt die Gäste im Rathaus.",
-          "lv": "ministre uzņem viesus rātsnamā."
+          "lv": "Ministre uzņem viesus rātsnamā."
         },
         {
           "de": "Das Radio empfängt kein Signal.",
-          "lv": "radio neuztver signālu."
+          "lv": "Radio neuztver signālu."
         }
       ],
       "comparison": [
@@ -21211,15 +21206,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte entfernen Sie den Fleck sofort.",
-          "lv": "lūdzu, nekavējoties noņemiet traipu."
+          "lv": "Lūdzu, nekavējoties noņemiet traipu."
         },
         {
           "de": "Die Polizei entfernte das falsch geparkte Auto.",
-          "lv": "policija aizvāca nepareizi novietoto automašīnu."
+          "lv": "Policija aizvāca nepareizi novietoto automašīnu."
         },
         {
           "de": "Er entfernte sich langsam vom Haus.",
-          "lv": "viņš lēnām attālinājās no mājas."
+          "lv": "Viņš lēnām attālinājās no mājas."
         }
       ],
       "comparison": [
@@ -21414,15 +21409,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Getränk enthält viel Zucker.",
-          "lv": "dzēriens satur daudz cukura."
+          "lv": "Dzēriens satur daudz cukura."
         },
         {
           "de": "Der Preis enthält das Frühstück.",
-          "lv": "cenā ir iekļautas brokastis."
+          "lv": "Cenā ir iekļautas brokastis."
         },
         {
           "de": "Der Bericht enthält wichtige Informationen.",
-          "lv": "ziņojums ietver svarīgu informāciju."
+          "lv": "Ziņojums ietver svarīgu informāciju."
         }
       ],
       "comparison": [
@@ -21603,15 +21598,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Gefangene ist aus dem Gefängnis entkommen.",
-          "lv": "ieslodzītais izbēga no cietuma."
+          "lv": "Ieslodzītais izbēga no cietuma."
         },
         {
           "de": "Sie entkam der Polizei in der Nacht.",
-          "lv": "viņa naktī aizbēga no policijas."
+          "lv": "Viņa naktī aizbēga no policijas."
         },
         {
           "de": "Die Familie entkam dem Feuer nur knapp.",
-          "lv": "ģimene tikai knapi izglābās no ugunsgrēka."
+          "lv": "Ģimene tikai knapi izglābās no ugunsgrēka."
         }
       ],
       "comparison": [
@@ -21799,15 +21794,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Firma entlässt viele Mitarbeiter.",
-          "lv": "uzņēmums atlaiž daudz darbinieku."
+          "lv": "Uzņēmums atlaiž daudz darbinieku."
         },
         {
           "de": "Der Patient wurde aus dem Krankenhaus entlassen.",
-          "lv": "pacients tika izrakstīts no slimnīcas."
+          "lv": "Pacients tika izrakstīts no slimnīcas."
         },
         {
           "de": "Der Gefangene wurde aus dem Gefängnis entlassen.",
-          "lv": "ieslodzītais tika atbrīvots no cietuma."
+          "lv": "Ieslodzītais tika atbrīvots no cietuma."
         }
       ],
       "comparison": [
@@ -22020,15 +22015,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das entspricht den Regeln.",
-          "lv": "tas atbilst noteikumiem."
+          "lv": "Tas atbilst noteikumiem."
         },
         {
           "de": "Die Wohnung entspricht unseren Erwartungen.",
-          "lv": "dzīvoklis atbilst mūsu gaidām."
+          "lv": "Dzīvoklis atbilst mūsu gaidām."
         },
         {
           "de": "Das Ergebnis entspricht nicht der Wahrheit.",
-          "lv": "rezultāts neatbilst patiesībai."
+          "lv": "Rezultāts neatbilst patiesībai."
         }
       ],
       "comparison": [
@@ -22202,15 +22197,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Hier entsteht ein neues Gebäude.",
-          "lv": "šeit top jauna ēka."
+          "lv": "Šeit top jauna ēka."
         },
         {
           "de": "Durch den Fehler sind hohe Kosten entstanden.",
-          "lv": "kļūdas dēļ radās lielas izmaksas."
+          "lv": "Kļūdas dēļ radās lielas izmaksas."
         },
         {
           "de": "Aus dem Streit entstand ein Problem.",
-          "lv": "no strīda radās problēma."
+          "lv": "No strīda radās problēma."
         }
       ],
       "comparison": [
@@ -22540,15 +22535,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich habe Ihre Nachricht erhalten.",
-          "lv": "es saņēmu jūsu ziņu."
+          "lv": "Es saņēmu jūsu ziņu."
         },
         {
           "de": "Sie erhält jeden Monat Unterstützung.",
-          "lv": "viņa katru mēnesi saņem atbalstu."
+          "lv": "Viņa katru mēnesi saņem atbalstu."
         },
         {
           "de": "Wir müssen das alte Gebäude erhalten.",
-          "lv": "mums jāsaglabā vecā ēka."
+          "lv": "Mums jāsaglabā vecā ēka."
         }
       ],
       "comparison": [
@@ -22843,15 +22838,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Bank eröffnet ein neues Konto.",
-          "lv": "banka atver jaunu kontu."
+          "lv": "Banka atver jaunu kontu."
         },
         {
           "de": "Der Bürgermeister eröffnet die Ausstellung.",
-          "lv": "mērs atklāj izstādi."
+          "lv": "Mērs atklāj izstādi."
         },
         {
           "de": "Die Sitzung wird um neun Uhr eröffnet.",
-          "lv": "sēde tiek atklāta deviņos."
+          "lv": "Sēde tiek atklāta deviņos."
         }
       ],
       "comparison": [
@@ -22874,7 +22869,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Kontu, izstādi vai sēdi eröffnet man; durvis öffnet man."
+            "text": "Kontu, izstādi vai sēdi atklāj (eröffnen); durvis atver (öffnen)."
           }
         ]
       },
@@ -23063,15 +23058,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er erschien plötzlich im Zimmer.",
-          "lv": "viņš pēkšņi parādījās istabā."
+          "lv": "Viņš pēkšņi parādījās istabā."
         },
         {
           "de": "Das Buch erscheint im Herbst.",
-          "lv": "grāmata iznāks rudenī."
+          "lv": "Grāmata iznāks rudenī."
         },
         {
           "de": "Sie erschien nicht zum Termin.",
-          "lv": "viņa neieradās uz tikšanos."
+          "lv": "Viņa neieradās uz tikšanos."
         }
       ],
       "comparison": [
@@ -23255,15 +23250,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir müssen das alte Gerät ersetzen.",
-          "lv": "mums jāaizstāj vecā ierīce."
+          "lv": "Mums jāaizstāj vecā ierīce."
         },
         {
           "de": "Die Maschine ersetzt mehrere Arbeiter.",
-          "lv": "mašīna aizstāj vairākus strādniekus."
+          "lv": "Mašīna aizstāj vairākus strādniekus."
         },
         {
           "de": "Die Versicherung ersetzt den Schaden.",
-          "lv": "apdrošināšana atlīdzina zaudējumus."
+          "lv": "Apdrošināšana atlīdzina zaudējumus."
         }
       ],
       "comparison": [
@@ -23727,15 +23722,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie fasst mich am Arm.",
-          "lv": "viņa satver mani aiz rokas."
+          "lv": "Viņa satver mani aiz rokas."
         },
         {
           "de": "Ich kann diesen Gedanken nicht fassen.",
-          "lv": "es nespēju aptvert šo domu."
+          "lv": "Es nespēju aptvert šo domu."
         },
         {
           "de": "Der Saal fasst 200 Personen.",
-          "lv": "zālē ietilpst 200 cilvēku."
+          "lv": "Zālē ietilpst 200 cilvēku."
         }
       ],
       "comparison": [
@@ -23921,15 +23916,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er ist heute sehr faul.",
-          "lv": "viņš šodien ir ļoti slinks."
+          "lv": "Viņš šodien ir ļoti slinks."
         },
         {
           "de": "Die Äpfel sind faul.",
-          "lv": "āboli ir sapuvuši."
+          "lv": "Āboli ir sapuvuši."
         },
         {
           "de": "Sei nicht so faul und hilf mir bitte.",
-          "lv": "neesi tik slinks un, lūdzu, palīdzi man."
+          "lv": "Neesi tik slinks un, lūdzu, palīdzi man."
         }
       ],
       "comparison": [
@@ -24197,15 +24192,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Halte dich gut fest!",
-          "lv": "turies cieši!"
+          "lv": "Turies cieši!"
         },
         {
           "de": "Sie hält das Kind fest.",
-          "lv": "viņa cieši tur bērnu."
+          "lv": "Viņa cieši tur bērnu."
         },
         {
           "de": "Wir halten die Ergebnisse schriftlich fest.",
-          "lv": "mēs rakstiski fiksējam rezultātus."
+          "lv": "Mēs rakstiski fiksējam rezultātus."
         }
       ],
       "comparison": [
@@ -24374,15 +24369,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir legen den Termin fest.",
-          "lv": "mēs nosakām termiņu."
+          "lv": "Mēs nosakām termiņu."
         },
         {
           "de": "Der Preis wurde vertraglich festgelegt.",
-          "lv": "cena tika noteikta līgumā."
+          "lv": "Cena tika noteikta līgumā."
         },
         {
           "de": "Die Regeln sind klar festgelegt.",
-          "lv": "noteikumi ir skaidri noteikti."
+          "lv": "Noteikumi ir skaidri noteikti."
         }
       ],
       "comparison": [
@@ -24564,15 +24559,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Arzt stellt eine Krankheit fest.",
-          "lv": "ārsts konstatē slimību."
+          "lv": "Ārsts konstatē slimību."
         },
         {
           "de": "Wir haben einen Fehler im System festgestellt.",
-          "lv": "mēs sistēmā konstatējām kļūdu."
+          "lv": "Mēs sistēmā konstatējām kļūdu."
         },
         {
           "de": "Ich stelle fest, dass du recht hast.",
-          "lv": "es konstatēju, ka tev ir taisnība."
+          "lv": "Es konstatēju, ka tev ir taisnība."
         }
       ],
       "comparison": [
@@ -24595,7 +24590,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Faktu, kļūdu vai slimību stellt man fest; termiņu vai cenu legt man fest."
+            "text": "Faktu, kļūdu vai slimību konstatē (feststellen); termiņu vai cenu nosaka (festlegen)."
           }
         ]
       },
@@ -24977,15 +24972,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das war die Folge des Unfalls.",
-          "lv": "tās bija negadījuma sekas."
+          "lv": "Tās bija negadījuma sekas."
         },
         {
           "de": "Die Entscheidung hatte schwere Folgen.",
-          "lv": "lēmumam bija smagas sekas."
+          "lv": "Lēmumam bija smagas sekas."
         },
         {
           "de": "In der nächsten Folge passiert viel.",
-          "lv": "nākamajā sērijā notiek daudz kas."
+          "lv": "Nākamajā sērijā notiek daudz kas."
         }
       ],
       "comparison": [
@@ -25172,15 +25167,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sport fördert die Gesundheit.",
-          "lv": "sports veicina veselību."
+          "lv": "Sports veicina veselību."
         },
         {
           "de": "Die Schule fördert begabte Kinder.",
-          "lv": "skola atbalsta apdāvinātus bērnus."
+          "lv": "Skola atbalsta apdāvinātus bērnus."
         },
         {
           "de": "In der Region wird Öl gefördert.",
-          "lv": "reģionā iegūst naftu."
+          "lv": "Reģionā iegūst naftu."
         }
       ],
       "comparison": [
@@ -25390,15 +25385,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte fahren Sie fort.",
-          "lv": "lūdzu, turpiniet."
+          "lv": "Lūdzu, turpiniet."
         },
         {
           "de": "Wir fahren mit der Arbeit fort.",
-          "lv": "mēs turpinām darbu."
+          "lv": "Mēs turpinām darbu."
         },
         {
           "de": "Nach dem Streit fuhr er einfach fort.",
-          "lv": "pēc strīda viņš vienkārši aizbrauca prom."
+          "lv": "Pēc strīda viņš vienkārši aizbrauca prom."
         }
       ],
       "comparison": [
@@ -25646,15 +25641,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Hund frisst sein Futter.",
-          "lv": "suns ēd savu barību."
+          "lv": "Suns ēd savu barību."
         },
         {
           "de": "Die Katze frisst Fisch.",
-          "lv": "kaķis ēd zivi."
+          "lv": "Kaķis ēd zivi."
         },
         {
           "de": "Sag nicht, dass Menschen fressen.",
-          "lv": "nesaki, ka cilvēki “rij”."
+          "lv": "Nesaki, ka cilvēki “rij”."
         }
       ],
       "comparison": [
@@ -25962,16 +25957,16 @@ const B1_WORDS = [
       "explanation": "Galvenā doma: das Futter parasti nozīmē dzīvnieku barību. Apģērba kontekstā Futter nozīmē oderi jakā, mētelī vai somā.",
       "examples": [
         {
-          "de": "Das Futter für den Hund ist leer.",
-          "lv": "suņa barība ir beigusies."
+          "de": "Das Futter für den Hund ist aufgebraucht.",
+          "lv": "Suņa barība ir beigusies."
         },
         {
           "de": "Die Pferde bekommen frisches Futter.",
-          "lv": "zirgi saņem svaigu barību."
+          "lv": "Zirgi saņem svaigu barību."
         },
         {
           "de": "Die Jacke hat ein warmes Futter.",
-          "lv": "jakas odere ir silta."
+          "lv": "Jakas odere ir silta."
         }
       ],
       "comparison": [
@@ -26183,27 +26178,27 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir machen einen ganztägigen Ausflug.",
-          "lv": "mēs dodamies ekskursijā, kas ilgst visu dienu."
+          "lv": "Mēs dodamies ekskursijā, kas ilgst visu dienu."
         },
         {
           "de": "Das Seminar ist ganztägig.",
-          "lv": "seminārs ilgst visu dienu."
+          "lv": "Seminārs ilgst visu dienu."
         },
         {
           "de": "Sie arbeitet ganztägig.",
-          "lv": "viņa strādā visu dienu."
+          "lv": "Viņa strādā visu dienu."
         },
         {
           "de": "Die Veranstaltung dauert ganztägig.",
-          "lv": "pasākums ilgst visu dienu."
+          "lv": "Pasākums ilgst visu dienu."
         },
         {
           "de": "Ein ganztägiger Kurs beginnt um 9 Uhr.",
-          "lv": "kurss, kas ilgst visu dienu, sākas pulksten 9."
+          "lv": "Kurss, kas ilgst visu dienu, sākas pulksten 9."
         },
         {
           "de": "Der Laden ist rund um die Uhr geöffnet.",
-          "lv": "veikals ir atvērts diennakti (24 stundas)."
+          "lv": "Veikals ir atvērts diennakti (24 stundas)."
         }
       ],
       "tip": [
@@ -26440,15 +26435,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie arbeitet auf diesem Gebiet.",
-          "lv": "viņa strādā šajā jomā."
+          "lv": "Viņa strādā šajā jomā."
         },
         {
           "de": "Das Gebiet ist schwer zugänglich.",
-          "lv": "šī teritorija ir grūti pieejama."
+          "lv": "Šī teritorija ir grūti pieejama."
         },
         {
           "de": "Auf dem Gebiet der Medizin gibt es neue Regeln.",
-          "lv": "medicīnas jomā ir jauni noteikumi."
+          "lv": "Medicīnas jomā ir jauni noteikumi."
         }
       ],
       "comparison": [
@@ -26803,27 +26798,27 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sein Gehalt ist hoch.",
-          "lv": "viņa alga ir augsta."
+          "lv": "Viņa alga ir augsta."
         },
         {
           "de": "Die Gehälter steigen jedes Jahr.",
-          "lv": "algas katru gadu pieaug."
+          "lv": "Algas katru gadu pieaug."
         },
         {
           "de": "Der Gehalt des Briefes war wichtig.",
-          "lv": "vēstules saturs bija svarīgs."
+          "lv": "Vēstules saturs bija svarīgs."
         }
       ],
       "comparison": [
         {
           "word": "das Gehalt",
           "meaning": "alga • atalgojums",
-          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
+          "example": "Das Gehalt ist gut. = Alga ir laba. Daudzskaitlis: die Gehälter."
         },
         {
           "word": "der Gehalt",
           "meaning": "saturs • būtība",
-          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
+          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Daudzskaitlis: die Gehalte."
         },
         {
           "word": "der Verdienst",
@@ -26907,27 +26902,27 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Gehalt des Briefes war wichtig.",
-          "lv": "vēstules saturs bija svarīgs."
+          "lv": "Vēstules saturs bija svarīgs."
         },
         {
           "de": "Die Gehalte der Reden waren unterschiedlich.",
-          "lv": "runu saturs bija atšķirīgs."
+          "lv": "Runu saturs bija atšķirīgs."
         },
         {
           "de": "Sein Gehalt ist hoch.",
-          "lv": "viņa alga ir augsta."
+          "lv": "Viņa alga ir augsta."
         }
       ],
       "comparison": [
         {
           "word": "der Gehalt",
           "meaning": "saturs • būtība",
-          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
+          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Daudzskaitlis: die Gehalte."
         },
         {
           "word": "das Gehalt",
           "meaning": "alga • atalgojums",
-          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
+          "example": "Das Gehalt ist gut. = Alga ir laba. Daudzskaitlis: die Gehälter."
         },
         {
           "word": "der Inhalt",
@@ -27135,15 +27130,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Regel gilt ab Montag.",
-          "lv": "noteikums ir spēkā no pirmdienas."
+          "lv": "Noteikums ir spēkā no pirmdienas."
         },
         {
           "de": "Das Ticket gilt nur heute.",
-          "lv": "biļete ir derīga tikai šodien."
+          "lv": "Biļete ir derīga tikai šodien."
         },
         {
           "de": "Er gilt als Experte.",
-          "lv": "viņš tiek uzskatīts par ekspertu."
+          "lv": "Viņš tiek uzskatīts par ekspertu."
         }
       ],
       "comparison": [
@@ -27324,15 +27319,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das war wirklich gemein.",
-          "lv": "tas bija tiešām nekrietni."
+          "lv": "Tas bija tiešām nekrietni."
         },
         {
           "de": "Sei nicht so gemein zu deinem Bruder!",
-          "lv": "neesi tik ļauns pret savu brāli!"
+          "lv": "Neesi tik ļauns pret savu brāli!"
         },
         {
           "de": "Diese Bemerkung war ziemlich gemein.",
-          "lv": "šī piezīme bija diezgan nejauka."
+          "lv": "Šī piezīme bija diezgan nejauka."
         }
       ],
       "comparison": [
@@ -27591,15 +27586,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Gerät funktioniert nicht.",
-          "lv": "ierīce nedarbojas."
+          "lv": "Ierīce nedarbojas."
         },
         {
           "de": "Schalten Sie das Gerät bitte aus.",
-          "lv": "lūdzu, izslēdziet ierīci."
+          "lv": "Lūdzu, izslēdziet ierīci."
         },
         {
           "de": "Dieses Gerät misst den Blutdruck.",
-          "lv": "šī ierīce mēra asinsspiedienu."
+          "lv": "Šī ierīce mēra asinsspiedienu."
         }
       ],
       "comparison": [
@@ -27871,15 +27866,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte geben Sie Ihr Geschlecht an.",
-          "lv": "lūdzu, norādiet savu dzimumu."
+          "lv": "Lūdzu, norādiet savu dzimumu."
         },
         {
           "de": "Das grammatische Geschlecht ist maskulin.",
-          "lv": "gramatiskā dzimte ir vīriešu."
+          "lv": "Gramatiskā dzimte ir vīriešu."
         },
         {
           "de": "In der Statistik wird nach Geschlecht unterschieden.",
-          "lv": "statistikā atšķir pēc dzimuma."
+          "lv": "Statistikā atšķir pēc dzimuma."
         }
       ],
       "comparison": [
@@ -28051,15 +28046,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Gesellschaft verändert sich.",
-          "lv": "sabiedrība mainās."
+          "lv": "Sabiedrība mainās."
         },
         {
           "de": "Er arbeitet bei einer großen Gesellschaft.",
-          "lv": "viņš strādā lielā uzņēmumā."
+          "lv": "Viņš strādā lielā uzņēmumā."
         },
         {
           "de": "Ich war in guter Gesellschaft.",
-          "lv": "es biju labā kompānijā."
+          "lv": "Es biju labā kompānijā."
         }
       ],
       "comparison": [
@@ -28317,15 +28312,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Gewinn der Firma ist gestiegen.",
-          "lv": "uzņēmuma peļņa ir pieaugusi."
+          "lv": "Uzņēmuma peļņa ir pieaugusi."
         },
         {
           "de": "Nach Abzug der Kosten bleibt kaum Gewinn.",
-          "lv": "pēc izmaksu atskaitīšanas gandrīz nepaliek peļņa."
+          "lv": "Pēc izmaksu atskaitīšanas gandrīz nepaliek peļņa."
         },
         {
           "de": "Der Gewinn im Lotto war hoch.",
-          "lv": "laimests loterijā bija liels."
+          "lv": "Laimests loterijā bija liels."
         }
       ],
       "comparison": [
@@ -28498,23 +28493,23 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das ist gewiss richtig.",
-          "lv": "tas noteikti ir pareizi."
+          "lv": "Tas noteikti ir pareizi."
         },
         {
           "de": "Ein gewisses Risiko bleibt.",
-          "lv": "noteikts risks paliek."
+          "lv": "Noteikts risks paliek."
         },
         {
           "de": "Ich bin mir gewiss, dass es klappt.",
-          "lv": "es esmu pārliecināts, ka tas izdosies."
+          "lv": "Es esmu pārliecināts, ka tas izdosies."
         },
         {
           "de": "Ein gewisser Betrag.",
-          "lv": "noteikta summa."
+          "lv": "Noteikta summa."
         },
         {
           "de": "In gewisser Hinsicht hast du recht.",
-          "lv": "zināmā ziņā tev ir taisnība."
+          "lv": "Zināmā ziņā tev ir taisnība."
         }
       ],
       "comparison": [
@@ -28689,7 +28684,8 @@ const B1_WORDS = [
           ]
         }
       }
-    }},
+    }
+  },
   {
     "de": "Gewissen",
     "de_article": "das",
@@ -28721,15 +28717,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich gewöhne mich an die neue Arbeit.",
-          "lv": "es pierodu pie jaunā darba."
+          "lv": "Es pierodu pie jaunā darba."
         },
         {
           "de": "Sie hat sich schnell an die Stadt gewöhnt.",
-          "lv": "viņa ātri pierada pie pilsētas."
+          "lv": "Viņa ātri pierada pie pilsētas."
         },
         {
           "de": "Man muss sich daran gewöhnen.",
-          "lv": "pie tā jāpierod."
+          "lv": "Pie tā jāpierod."
         }
       ],
       "comparison": [
@@ -28930,15 +28926,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Vor dem Fenster ist ein Gitter.",
-          "lv": "pie loga ir režģis."
+          "lv": "Pie loga ir režģis."
         },
         {
           "de": "Der Hund steht hinter dem Gitter.",
-          "lv": "suns stāv aiz restēm."
+          "lv": "Suns stāv aiz restēm."
         },
         {
           "de": "Das Gitter am Balkon ist kaputt.",
-          "lv": "balkona režģis ir salūzis."
+          "lv": "Balkona režģis ir salūzis."
         }
       ],
       "comparison": [
@@ -28966,7 +28962,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Margarām biežāk lieto das Geländer; das Gitter nav vispārīgs vārds jebkurām margām."
+        "text": "Margām biežāk lieto das Geländer; das Gitter nav vispārīgs vārds jebkurām margām."
       },
       "sectionAccents": {
         "examples": [
@@ -29259,15 +29255,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie greift nach dem Glas.",
-          "lv": "viņa sniedzas pēc glāzes."
+          "lv": "Viņa sniedzas pēc glāzes."
         },
         {
           "de": "Der Polizist greift den Dieb am Arm.",
-          "lv": "policists satver zagli aiz rokas."
+          "lv": "Policists satver zagli aiz rokas."
         },
         {
           "de": "Wir müssen zu neuen Maßnahmen greifen.",
-          "lv": "mums jāķeras pie jauniem pasākumiem."
+          "lv": "Mums jāķeras pie jauniem pasākumiem."
         }
       ],
       "comparison": [
@@ -29469,15 +29465,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Griff der Tür ist locker.",
-          "lv": "durvju rokturis ir vaļīgs."
+          "lv": "Durvju rokturis ir vaļīgs."
         },
         {
           "de": "Halte den Griff gut fest.",
-          "lv": "turies cieši pie roktura."
+          "lv": "Turies cieši pie roktura."
         },
         {
           "de": "Beim Klettern braucht man einen sicheren Griff.",
-          "lv": "kāpjot vajag drošu tvērienu."
+          "lv": "Kāpjot vajag drošu tvērienu."
         }
       ],
       "comparison": [
@@ -29769,15 +29765,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Gut liegt außerhalb der Stadt.",
-          "lv": "muiža atrodas ārpus pilsētas."
+          "lv": "Muiža atrodas ārpus pilsētas."
         },
         {
           "de": "Er verlor sein ganzes Gut.",
-          "lv": "viņš zaudēja visu savu īpašumu."
+          "lv": "Viņš zaudēja visu savu īpašumu."
         },
         {
           "de": "Der Zug transportiert Güter.",
-          "lv": "vilciens pārvadā preces."
+          "lv": "Vilciens pārvadā preces."
         }
       ],
       "comparison": [
@@ -30118,15 +30114,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir müssen schnell handeln.",
-          "lv": "mums jārīkojas ātri."
+          "lv": "Mums jārīkojas ātri."
         },
         {
           "de": "Der Film handelt von einer Familie.",
-          "lv": "filma ir par kādu ģimeni."
+          "lv": "Filma ir par kādu ģimeni."
         },
         {
           "de": "Die Firma handelt mit Holz.",
-          "lv": "uzņēmums tirgojas ar koksni."
+          "lv": "Uzņēmums tirgojas ar koksni."
         }
       ],
       "comparison": [
@@ -30308,15 +30304,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Mit einem Handgriff war die Tür offen.",
-          "lv": "ar vienu paņēmienu durvis bija vaļā."
+          "lv": "Ar vienu paņēmienu durvis bija vaļā."
         },
         {
           "de": "Der Handgriff der Maschine ist kaputt.",
-          "lv": "mašīnas rokturis ir salūzis."
+          "lv": "Mašīnas rokturis ir salūzis."
         },
         {
           "de": "Diese Arbeit braucht nur wenige Handgriffe.",
-          "lv": "šim darbam vajag tikai dažas kustības."
+          "lv": "Šim darbam vajag tikai dažas kustības."
         }
       ],
       "comparison": [
@@ -30567,15 +30563,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er haut mit der Faust auf den Tisch.",
-          "lv": "viņš sit ar dūri pa galdu."
+          "lv": "Viņš sit ar dūri pa galdu."
         },
         {
           "de": "Der Arbeiter haut Holz.",
-          "lv": "strādnieks cērt malku."
+          "lv": "Strādnieks cērt malku."
         },
         {
           "de": "Hau ab!",
-          "lv": "pazūdi!"
+          "lv": "Pazūdi!"
         }
       ],
       "comparison": [
@@ -30752,15 +30748,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Vor dem Haus liegt ein Haufen Sand.",
-          "lv": "pie mājas ir smilšu kaudze."
+          "lv": "Pie mājas ir smilšu kaudze."
         },
         {
           "de": "Auf dem Tisch liegt ein Haufen Papier.",
-          "lv": "uz galda ir papīru čupa."
+          "lv": "Uz galda ir papīru čupa."
         },
         {
           "de": "Ein Haufen Kinder spielt im Hof.",
-          "lv": "pagalmā spēlējas bērnu bars."
+          "lv": "Pagalmā spēlējas bērnu bars."
         }
       ],
       "comparison": [
@@ -31178,15 +31174,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Verlag gibt ein neues Buch heraus.",
-          "lv": "izdevniecība izdod jaunu grāmatu."
+          "lv": "Izdevniecība izdod jaunu grāmatu."
         },
         {
           "de": "Die Zeitung wird täglich herausgegeben.",
-          "lv": "avīze tiek izdota katru dienu."
+          "lv": "Avīze tiek izdota katru dienu."
         },
         {
           "de": "Bitte geben Sie die Unterlagen heraus.",
-          "lv": "lūdzu, izsniedziet dokumentus."
+          "lv": "Lūdzu, izsniedziet dokumentus."
         }
       ],
       "comparison": [
@@ -31395,15 +31391,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Komm bitte mal her!",
-          "lv": "atnāc, lūdzu, šurp!"
+          "lv": "Atnāc, lūdzu, šurp!"
         },
         {
           "de": "Wo kommst du her?",
-          "lv": "no kurienes tu esi?"
+          "lv": "No kurienes tu esi?"
         },
         {
           "de": "Der Geruch kommt aus der Küche her.",
-          "lv": "smarža nāk no virtuves."
+          "lv": "Smarža nāk no virtuves."
         }
       ],
       "comparison": [
@@ -31634,15 +31630,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe kurz hinaus.",
-          "lv": "es uz brīdi izeju ārā."
+          "lv": "Es uz brīdi izeju ārā."
         },
         {
           "de": "Die Kinder gehen in den Garten hinaus.",
-          "lv": "bērni iziet dārzā."
+          "lv": "Bērni iziet dārzā."
         },
         {
           "de": "Das geht über meine Erfahrung hinaus.",
-          "lv": "tas pārsniedz manu pieredzi."
+          "lv": "Tas pārsniedz manu pieredzi."
         }
       ],
       "comparison": [
@@ -31859,15 +31855,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Danke für den Hinweis.",
-          "lv": "paldies par norādījumu."
+          "lv": "Paldies par norādījumu."
         },
         {
           "de": "Auf dem Schild steht ein wichtiger Hinweis.",
-          "lv": "uz zīmes ir svarīgs norādījums."
+          "lv": "Uz zīmes ir svarīgs norādījums."
         },
         {
           "de": "Der Hinweis hat mir sehr geholfen.",
-          "lv": "šis norādījums man ļoti palīdzēja."
+          "lv": "Šis norādījums man ļoti palīdzēja."
         }
       ],
       "comparison": [
@@ -32155,15 +32151,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich hole die Kinder von der Schule ab.",
-          "lv": "es paņemu bērnus no skolas."
+          "lv": "Es paņemu bērnus no skolas."
         },
         {
           "de": "Kannst du bitte Brot holen?",
-          "lv": "vai vari, lūdzu, atnest maizi?"
+          "lv": "Vai vari, lūdzu, atnest maizi?"
         },
         {
           "de": "Wir holen den Arzt.",
-          "lv": "mēs pasaucam ārstu."
+          "lv": "Mēs pasaucam ārstu."
         }
       ],
       "comparison": [
@@ -32423,15 +32419,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie horcht an der Tür.",
-          "lv": "viņa klausās pie durvīm."
+          "lv": "Viņa klausās pie durvīm."
         },
         {
           "de": "Die Kinder horchen auf die Geräusche.",
-          "lv": "bērni uzmanīgi klausās trokšņos."
+          "lv": "Bērni uzmanīgi klausās trokšņos."
         },
         {
           "de": "Er horcht heimlich mit.",
-          "lv": "viņš slepus noklausās."
+          "lv": "Viņš slepus noklausās."
         }
       ],
       "comparison": [
@@ -32641,23 +32637,23 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Mein Sohn geht nach der Schule in den Hort.",
-          "lv": "mans dēls pēc skolas dodas uz pagarinātās dienas grupu."
+          "lv": "Mans dēls pēc skolas dodas uz pagarinātās dienas grupu."
         },
         {
           "de": "Der Hort schließt um 17 Uhr.",
-          "lv": "bērnu dienas centrs slēdzas pulksten 17."
+          "lv": "Bērnu dienas centrs slēdzas pulksten 17."
         },
         {
           "de": "Im Hort machen die Kinder ihre Hausaufgaben.",
-          "lv": "pagarinātās dienas grupā bērni dara mājasdarbus."
+          "lv": "Pagarinātās dienas grupā bērni dara mājasdarbus."
         },
         {
           "de": "Meine Tochter ist noch im Kindergarten.",
-          "lv": "mana meita ir vēl bērnudārzā."
+          "lv": "Mana meita ir vēl bērnudārzā."
         },
         {
           "de": "Der Hort betreut Schulkinder am Nachmittag.",
-          "lv": "bērnu dienas centrs pieskata skolas bērnus pēcpusdienā."
+          "lv": "Bērnu dienas centrs pieskata skolas bērnus pēcpusdienā."
         }
       ],
       "tip": [
@@ -32884,15 +32880,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er hupt laut.",
-          "lv": "viņš skaļi signalizē ar tauri."
+          "lv": "Viņš skaļi signalizē ar tauri."
         },
         {
           "de": "Die Hupe des Autos ist kaputt.",
-          "lv": "automašīnas signāltaure ir salauzta."
+          "lv": "Automašīnas signāltaure ir salauzta."
         },
         {
           "de": "Das Schiff gibt ein Signal mit der Hupe.",
-          "lv": "kuģis dod signālu ar tauri."
+          "lv": "Kuģis dod signālu ar tauri."
         }
       ],
       "comparison": [
@@ -33007,15 +33003,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie hütet die Kinder am Nachmittag.",
-          "lv": "viņa pēcpusdienā pieskata bērnus."
+          "lv": "Viņa pēcpusdienā pieskata bērnus."
         },
         {
           "de": "Der Junge hütet die Schafe.",
-          "lv": "zēns gana aitas."
+          "lv": "Zēns gana aitas."
         },
         {
           "de": "Hüte dich vor falschen Versprechen.",
-          "lv": "sargies no nepatiesiem solījumiem."
+          "lv": "Sargies no nepatiesiem solījumiem."
         }
       ],
       "comparison": [
@@ -33413,15 +33409,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Innerhalb der Stadt darf man langsam fahren.",
-          "lv": "pilsētas robežās jābrauc lēni."
+          "lv": "Pilsētas robežās jābrauc lēni."
         },
         {
           "de": "Bitte antworten Sie innerhalb einer Woche.",
-          "lv": "lūdzu, atbildiet nedēļas laikā."
+          "lv": "Lūdzu, atbildiet nedēļas laikā."
         },
         {
           "de": "Das liegt innerhalb unserer Möglichkeiten.",
-          "lv": "tas ir mūsu iespēju robežās."
+          "lv": "Tas ir mūsu iespēju robežās."
         }
       ],
       "comparison": [
@@ -33739,15 +33735,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Da irrst du dich.",
-          "lv": "te tu kļūdies."
+          "lv": "Te tu kļūdies."
         },
         {
           "de": "Ich habe mich in der Adresse geirrt.",
-          "lv": "es kļūdījos adresē."
+          "lv": "Es kļūdījos adresē."
         },
         {
           "de": "Wir irren durch die Stadt.",
-          "lv": "mēs klīstam pa pilsētu."
+          "lv": "Mēs klīstam pa pilsētu."
         }
       ],
       "comparison": [
@@ -33968,15 +33964,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Im Herbst jagen viele Menschen Wild.",
-          "lv": "rudenī daudzi cilvēki medī savvaļas dzīvniekus."
+          "lv": "Rudenī daudzi cilvēki medī savvaļas dzīvniekus."
         },
         {
           "de": "Der Hund jagt die Katze.",
-          "lv": "suns dzen kaķi."
+          "lv": "Suns dzen kaķi."
         },
         {
           "de": "Er jagt von einem Termin zum nächsten.",
-          "lv": "viņš steidzas no vienas tikšanās uz nākamo."
+          "lv": "Viņš steidzas no vienas tikšanās uz nākamo."
         }
       ],
       "comparison": [
@@ -34203,15 +34199,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Dieser Wein ist Jahrgang 2018.",
-          "lv": "šis vīns ir 2018. gada raža."
+          "lv": "Šis vīns ir 2018. gada raža."
         },
         {
           "de": "Die Zeitschrift ist Jahrgang 2020.",
-          "lv": "žurnāls ir 2020. gada izlaidums."
+          "lv": "Žurnāls ir 2020. gada izlaidums."
         },
         {
           "de": "Er ist Jahrgang 1995.",
-          "lv": "viņš ir dzimis 1995. gadā."
+          "lv": "Viņš ir dzimis 1995. gadā."
         }
       ],
       "comparison": [
@@ -34497,23 +34493,23 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die zwölf Jünger folgten Jesus.",
-          "lv": "divpadsmit mācekļi sekoja Jēzum."
+          "lv": "Divpadsmit mācekļi sekoja Jēzum."
         },
         {
           "de": "Er ist ein treuer Jünger seines Lehrers.",
-          "lv": "viņš ir sava skolotāja uzticams sekotājs."
+          "lv": "Viņš ir sava skolotāja uzticams sekotājs."
         },
         {
           "de": "Sie gilt als Jüngerin dieser philosophischen Richtung.",
-          "lv": "viņa tiek uzskatīta par šī filozofiskā virziena sekotāju."
+          "lv": "Viņa tiek uzskatīta par šī filozofiskā virziena sekotāju."
         },
         {
           "de": "Die Jünger lernten viel von ihrem Meister.",
-          "lv": "mācekļi mācījās daudz no sava meistara."
+          "lv": "Mācekļi mācījās daudz no sava meistara."
         },
         {
           "de": "Er wurde zum Jünger des berühmten Künstlers.",
-          "lv": "viņš kļuva par slavenā mākslinieka mācekli."
+          "lv": "Viņš kļuva par slavenā mākslinieka mācekli."
         }
       ],
       "tip": [
@@ -34718,23 +34714,23 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Trainer wählt den Kader für das Spiel aus.",
-          "lv": "treneris izvēlas sastāvu spēlei."
+          "lv": "Treneris izvēlas sastāvu spēlei."
         },
         {
           "de": "Sie gehört zum Kader der besten Athleten.",
-          "lv": "viņa pieder pie labāko sportistu sastāva."
+          "lv": "Viņa pieder pie labāko sportistu sastāva."
         },
         {
           "de": "Der Kader des Unternehmens ist gut ausgebildet.",
-          "lv": "uzņēmuma kodols ir labi apmācīts."
+          "lv": "Uzņēmuma kodols ir labi apmācīts."
         },
         {
           "de": "Die Mannschaft hat einen breiten Kader.",
-          "lv": "komandai ir plašs sastāvs."
+          "lv": "Komandai ir plašs sastāvs."
         },
         {
           "de": "Er gehört zum militärischen Kader.",
-          "lv": "viņš pieder pie militārā kodola."
+          "lv": "Viņš pieder pie militārā kodola."
         }
       ],
       "tip": [
@@ -35153,15 +35149,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie kehrt den Hof.",
-          "lv": "viņa slauka pagalmu."
+          "lv": "Viņa slauka pagalmu."
         },
         {
           "de": "Der Hausmeister kehrt die Treppe.",
-          "lv": "sētnieks slauka kāpnes."
+          "lv": "Sētnieks slauka kāpnes."
         },
         {
           "de": "Er kehrt den Blick zur Tür.",
-          "lv": "viņš pavērš skatienu uz durvīm."
+          "lv": "Viņš pavērš skatienu uz durvīm."
         }
       ],
       "comparison": [
@@ -35392,15 +35388,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Apfel hat viele Kerne.",
-          "lv": "ābolam ir daudz sēkliņu."
+          "lv": "Ābolam ir daudz sēkliņu."
         },
         {
           "de": "Der Kern der Sache ist einfach.",
-          "lv": "lietas būtība ir vienkārša."
+          "lv": "Lietas būtība ir vienkārša."
         },
         {
           "de": "Im Kern hat er recht.",
-          "lv": "pēc būtības viņam ir taisnība."
+          "lv": "Pēc būtības viņam ir taisnība."
         }
       ],
       "comparison": [
@@ -35600,15 +35596,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Mein Kiefer tut weh.",
-          "lv": "man sāp žoklis."
+          "lv": "Man sāp žoklis."
         },
         {
           "de": "Der Zahnarzt untersucht den Kiefer.",
-          "lv": "zobārsts pārbauda žokli."
+          "lv": "Zobārsts pārbauda žokli."
         },
         {
           "de": "Die Kiefer wächst im Wald.",
-          "lv": "priede aug mežā."
+          "lv": "Priede aug mežā."
         }
       ],
       "comparison": [
@@ -35797,15 +35793,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Glas kippt um.",
-          "lv": "glāze apgāžas."
+          "lv": "Glāze apgāžas."
         },
         {
           "de": "Kipp den Stuhl nicht nach hinten.",
-          "lv": "nesasver krēslu atpakaļ."
+          "lv": "Nesasver krēslu atpakaļ."
         },
         {
           "de": "Die Stimmung kann schnell kippen.",
-          "lv": "noskaņojums var ātri mainīties uz slikto pusi."
+          "lv": "Noskaņojums var ātri mainīties uz slikto pusi."
         }
       ],
       "comparison": [
@@ -36020,15 +36016,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Hat alles geklappt?",
-          "lv": "vai viss izdevās?"
+          "lv": "Vai viss izdevās?"
         },
         {
           "de": "Der Plan klappt gut.",
-          "lv": "plāns labi izdodas."
+          "lv": "Plāns labi izdodas."
         },
         {
           "de": "Die Tür klappt zu.",
-          "lv": "durvis aizkrīt ciet."
+          "lv": "Durvis aizkrīt ciet."
         }
       ],
       "comparison": [
@@ -36365,15 +36361,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Zeit ist knapp.",
-          "lv": "laika ir maz."
+          "lv": "Laika ir maz."
         },
         {
           "de": "Das Geld wird knapp.",
-          "lv": "naudas sāk pietrūkt."
+          "lv": "Naudas sāk pietrūkt."
         },
         {
           "de": "Er hat knapp gewonnen.",
-          "lv": "viņš uzvarēja ar nelielu pārsvaru."
+          "lv": "Viņš uzvarēja ar nelielu pārsvaru."
         }
       ],
       "comparison": [
@@ -36693,15 +36689,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Soldat wartet auf das Kommando.",
-          "lv": "karavīrs gaida pavēli."
+          "lv": "Karavīrs gaida pavēli."
         },
         {
           "de": "Auf mein Kommando laufen alle los.",
-          "lv": "pēc manas komandas visi sāk skriet."
+          "lv": "Pēc manas komandas visi sāk skriet."
         },
         {
           "de": "Das Kommando übernimmt die Leitung.",
-          "lv": "vadības vienība pārņem vadību."
+          "lv": "Vadības vienība pārņem vadību."
         }
       ],
       "comparison": [
@@ -36912,19 +36908,19 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sein Können ist beeindruckend.",
-          "lv": "viņa prasme ir iespaidīga."
+          "lv": "Viņa prasme ir iespaidīga."
         },
         {
           "de": "Sie zeigte ihr ganzes Können.",
-          "lv": "viņa parādīja visu savu meistarību."
+          "lv": "Viņa parādīja visu savu meistarību."
         },
         {
           "de": "Ich kann gut kochen.",
-          "lv": "es labi protu gatavot ēst."
+          "lv": "Es labi protu gatavot ēst."
         },
         {
           "de": "Das Können der Musiker war großartig.",
-          "lv": "mūziķu prasme bija izcila."
+          "lv": "Mūziķu prasme bija izcila."
         }
       ],
       "tip": [
@@ -37201,15 +37197,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Kraftwerk produziert Strom.",
-          "lv": "spēkstacija ražo elektrību."
+          "lv": "Spēkstacija ražo elektrību."
         },
         {
           "de": "Das Atomkraftwerk wurde stillgelegt.",
-          "lv": "atomspēkstacija tika slēgta."
+          "lv": "Atomspēkstacija tika slēgta."
         },
         {
           "de": "Neue Kraftwerke nutzen erneuerbare Energie.",
-          "lv": "jaunās spēkstacijas izmanto atjaunojamo enerģiju."
+          "lv": "Jaunās spēkstacijas izmanto atjaunojamo enerģiju."
         }
       ],
       "comparison": [
@@ -37456,15 +37452,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir kreuzen die Straße.",
-          "lv": "mēs šķērsojam ielu."
+          "lv": "Mēs šķērsojam ielu."
         },
         {
           "de": "Die Wege kreuzen sich hier.",
-          "lv": "ceļi šeit krustojas."
+          "lv": "Ceļi šeit krustojas."
         },
         {
           "de": "Kreuze bitte die richtige Antwort an.",
-          "lv": "atzīmē, lūdzu, pareizo atbildi ar krustiņu."
+          "lv": "Atzīmē, lūdzu, pareizo atbildi ar krustiņu."
         }
       ],
       "comparison": [
@@ -37758,15 +37754,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Kunde bezahlt an der Kasse.",
-          "lv": "klients maksā pie kases."
+          "lv": "Klients maksā pie kases."
         },
         {
           "de": "Unsere Kunden sind zufrieden.",
-          "lv": "mūsu klienti ir apmierināti."
+          "lv": "Mūsu klienti ir apmierināti."
         },
         {
           "de": "Die Kunde verbreitete sich schnell.",
-          "lv": "vēsts ātri izplatījās."
+          "lv": "Vēsts ātri izplatījās."
         }
       ],
       "comparison": [
@@ -37900,15 +37896,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Kunde verbreitete sich schnell.",
-          "lv": "vēsts ātri izplatījās."
+          "lv": "Vēsts ātri izplatījās."
         },
         {
           "de": "Die Kunde kam aus dem Norden.",
-          "lv": "ziņa nāca no ziemeļiem."
+          "lv": "Ziņa nāca no ziemeļiem."
         },
         {
           "de": "Der Kunde bezahlt an der Kasse.",
-          "lv": "klients maksā pie kases."
+          "lv": "Klients maksā pie kases."
         }
       ],
       "comparison": [
@@ -38059,15 +38055,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich habe meinen Job gekündigt.",
-          "lv": "es uzteicu darbu."
+          "lv": "Es uzteicu darbu."
         },
         {
           "de": "Der Chef kündigt dem Mitarbeiter.",
-          "lv": "priekšnieks atlaiž darbinieku."
+          "lv": "Priekšnieks atlaiž darbinieku."
         },
         {
           "de": "Wir kündigen den Vertrag zum Monatsende.",
-          "lv": "mēs laužam līgumu mēneša beigās."
+          "lv": "Mēs laužam līgumu mēneša beigās."
         }
       ],
       "comparison": [
@@ -38259,15 +38255,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Maschine kuppelt die Wagen zusammen.",
-          "lv": "mašīna sakabina vagonus kopā."
+          "lv": "Mašīna sakabina vagonus kopā."
         },
         {
           "de": "Der Fahrer kuppelt den Anhänger an.",
-          "lv": "vadītājs piekabina piekabi."
+          "lv": "Vadītājs piekabina piekabi."
         },
         {
           "de": "Die beiden Systeme sind gekoppelt.",
-          "lv": "abas sistēmas ir savienotas."
+          "lv": "Abas sistēmas ir savienotas."
         }
       ],
       "comparison": [
@@ -38416,15 +38412,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich besuche einen Deutschkurs.",
-          "lv": "es apmeklēju vācu valodas kursu."
+          "lv": "Es apmeklēju vācu valodas kursu."
         },
         {
           "de": "Das Schiff hält Kurs nach Norden.",
-          "lv": "kuģis tur kursu uz ziemeļiem."
+          "lv": "Kuģis tur kursu uz ziemeļiem."
         },
         {
           "de": "Der Kurs der Aktie steigt.",
-          "lv": "akcijas kurss kāpj."
+          "lv": "Akcijas kurss kāpj."
         }
       ],
       "comparison": [
@@ -38571,15 +38567,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Kürze des Textes ist angenehm.",
-          "lv": "teksta īsums ir patīkams."
+          "lv": "Teksta īsums ir patīkams."
         },
         {
           "de": "Ich erkläre es in aller Kürze.",
-          "lv": "es to izskaidrošu pavisam īsi."
+          "lv": "Es to izskaidrošu pavisam īsi."
         },
         {
           "de": "Der Zug kommt in Kürze.",
-          "lv": "vilciens drīzumā pienāks."
+          "lv": "Vilciens drīzumā pienāks."
         }
       ],
       "comparison": [
@@ -38814,15 +38810,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir laden die Kisten ins Auto.",
-          "lv": "mēs iekraujam kastes mašīnā."
+          "lv": "Mēs iekraujam kastes mašīnā."
         },
         {
           "de": "Ich muss mein Handy laden.",
-          "lv": "man jāuzlādē telefons."
+          "lv": "Man jāuzlādē telefons."
         },
         {
           "de": "Sie lädt uns zum Essen ein.",
-          "lv": "viņa mūs ielūdz vakariņās."
+          "lv": "Viņa mūs ielūdz vakariņās."
         }
       ],
       "comparison": [
@@ -38987,15 +38983,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Waren liegen im Lager.",
-          "lv": "preces atrodas noliktavā."
+          "lv": "Preces atrodas noliktavā."
         },
         {
           "de": "Die Kinder fahren ins Ferienlager.",
-          "lv": "bērni brauc uz brīvdienu nometni."
+          "lv": "Bērni brauc uz brīvdienu nometni."
         },
         {
           "de": "Das Lager der Maschine ist kaputt.",
-          "lv": "mašīnas gultnis ir bojāts."
+          "lv": "Mašīnas gultnis ir bojāts."
         }
       ],
       "comparison": [
@@ -39142,15 +39138,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Hörer stellen viele Fragen.",
-          "lv": "klausītāji uzdod daudz jautājumu."
+          "lv": "Klausītāji uzdod daudz jautājumu."
         },
         {
           "de": "Der Moderator begrüßt die Hörer.",
-          "lv": "raidījuma vadītājs sveicina klausītājus."
+          "lv": "Raidījuma vadītājs sveicina klausītājus."
         },
         {
           "de": "Leg den Hörer bitte auf.",
-          "lv": "noliec, lūdzu, klausuli."
+          "lv": "Noliec, lūdzu, klausuli."
         }
       ],
       "comparison": [
@@ -39277,15 +39273,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Inhalt des Briefes ist wichtig.",
-          "lv": "vēstules saturs ir svarīgs."
+          "lv": "Vēstules saturs ir svarīgs."
         },
         {
           "de": "Bitte prüfen Sie den Inhalt der Tasche.",
-          "lv": "lūdzu, pārbaudiet somas saturu."
+          "lv": "Lūdzu, pārbaudiet somas saturu."
         },
         {
           "de": "Die Flasche hat einen Inhalt von einem Liter.",
-          "lv": "pudeles tilpums ir viens litrs."
+          "lv": "Pudeles tilpums ir viens litrs."
         }
       ],
       "comparison": [
@@ -39420,15 +39416,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Pass auf die scharfe Kante auf.",
-          "lv": "uzmanies no asās malas."
+          "lv": "Uzmanies no asās malas."
         },
         {
           "de": "Der Tisch hat eine runde Kante.",
-          "lv": "galdam ir apaļa mala."
+          "lv": "Galdam ir apaļa mala."
         },
         {
           "de": "Er stellt das Glas an die Kante.",
-          "lv": "viņš noliek glāzi pie malas."
+          "lv": "Viņš noliek glāzi pie malas."
         }
       ],
       "comparison": [
@@ -39559,15 +39555,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Vor dem Haus steht eine Kastanie.",
-          "lv": "pie mājas aug kastanis."
+          "lv": "Pie mājas aug kastanis."
         },
         {
           "de": "Das Kind sammelt Kastanien.",
-          "lv": "bērns lasa kastaņus."
+          "lv": "Bērns lasa kastaņus."
         },
         {
           "de": "Im Herbst fallen die Kastanien auf den Weg.",
-          "lv": "rudenī kastaņi krīt uz ceļa."
+          "lv": "Rudenī kastaņi krīt uz ceļa."
         }
       ],
       "comparison": [
@@ -39704,19 +39700,19 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Kosten sind sehr hoch.",
-          "lv": "izmaksas ir ļoti augstas."
+          "lv": "Izmaksas ir ļoti augstas."
         },
         {
           "de": "Wer trägt die Kosten?",
-          "lv": "kurš sedz izmaksas?"
+          "lv": "Kurš sedz izmaksas?"
         },
         {
           "de": "Das kostet 5 Euro.",
-          "lv": "tas maksā 5 eiro."
+          "lv": "Tas maksā 5 eiro."
         },
         {
           "de": "Ich reise auf eigene Kosten.",
-          "lv": "es ceļoju par savu naudu."
+          "lv": "Es ceļoju par savu naudu."
         }
       ],
       "tip": [
@@ -39849,15 +39845,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Flugzeug landet pünktlich.",
-          "lv": "lidmašīna nosēžas laikā."
+          "lv": "Lidmašīna nosēžas laikā."
         },
         {
           "de": "Das Boot landet am Ufer.",
-          "lv": "laiva piestāj krastā."
+          "lv": "Laiva piestāj krastā."
         },
         {
           "de": "Die E-Mail landet im Spamordner.",
-          "lv": "e-pasts nonāk surogātpasta mapē."
+          "lv": "E-pasts nonāk surogātpasta mapē."
         }
       ],
       "tip": "Lidmašīna vai kaut kas nonāk konkrētā vietā → landen.",
@@ -39909,16 +39905,9 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": "landen"
-            },
-            "meaning": {
-              "purple": "nosēsties"
-            },
-            "example": {
-              "blue": "landet",
-              "purple": "nosēžas"
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -39928,7 +39917,6 @@ const B1_WORDS = [
               "purple": "ierasties"
             },
             "example": {
-              "red": "kommt an",
               "purple": "ierodas"
             }
           },
@@ -39940,8 +39928,7 @@ const B1_WORDS = [
               "purple": "piestāt ar kuģi"
             },
             "example": {
-              "red": "legt",
-              "purple": "piestāj"
+              "red": "legt"
             }
           }
         ],
@@ -40103,13 +40090,8 @@ const B1_WORDS = [
       "translation": "skaņa",
       "explanation": [
         "Galvenā doma: Lietvārds ar artikulu der un lielo burtu. Nozīmē skaņu kā lietu, signālu vai valodas skaņu.",
-        "der Laut galvenokārt nozīmē: skaļa skaņa.",
-        "Bieži raksturo: īpašības vārds.",
-        "der Laut galvenokārt nozīmē: skaņas signāls.",
-        "Bieži raksturo: lietvārds (der).",
-        "laut ar mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaļa ir skaņa (Die Musik ist laut = mūzika ir skaļa).",
         "der Laut ar lielo burtu un artikulu der ir lietvārds — tas nozīmē skaņu kā lietu vai signālu (Der Laut ist schön = skaņa ir skaista).",
-        "Daudzskaitlī: die Laute."
+        "Nejauc ar laut (mazais l, īpašības vārds): skaļš. Daudzskaitlī: die Laute."
       ],
       "examples": [
         {
@@ -40117,24 +40099,8 @@ const B1_WORDS = [
           "lv": "Skaņa ir skaista."
         },
         {
-          "de": "Die Musik ist laut.",
-          "lv": "mūzika ir skaļa."
-        },
-        {
-          "de": "Sprich nicht so laut!",
-          "lv": "nerunā tik skaļi!"
-        },
-        {
-          "de": "Das ist sehr laut.",
-          "lv": "tas ir ļoti skaļi."
-        },
-        {
-          "de": "Der Laut ist schön.",
-          "lv": "skaņa ir skaista."
-        },
-        {
           "de": "Ich höre einen Laut.",
-          "lv": "es dzirdu kādu skaņu."
+          "lv": "Es dzirdu kādu skaņu."
         }
       ],
       "tip": [
@@ -40154,8 +40120,7 @@ const B1_WORDS = [
             "laut"
           ],
           "purple": [
-            "skaņa",
-            "skaņas"
+            "skaņa"
           ],
           "yellow": [
             "Laut",
@@ -40163,55 +40128,6 @@ const B1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "der Laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaņa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaļa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaļi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaļi"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -40425,15 +40341,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie leistet gute Arbeit.",
-          "lv": "viņa veic labu darbu."
+          "lv": "Viņa veic labu darbu."
         },
         {
           "de": "Wir leisten Hilfe.",
-          "lv": "mēs sniedzam palīdzību."
+          "lv": "Mēs sniedzam palīdzību."
         },
         {
           "de": "Das kann ich mir nicht leisten.",
-          "lv": "to es nevaru atļauties."
+          "lv": "To es nevaru atļauties."
         }
       ],
       "comparison": [
@@ -40569,15 +40485,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das war eine starke Leistung.",
-          "lv": "tas bija spēcīgs sniegums."
+          "lv": "Tas bija spēcīgs sniegums."
         },
         {
           "de": "Seine Leistung in der Prüfung war gut.",
-          "lv": "viņa sniegums eksāmenā bija labs."
+          "lv": "Viņa sniegums eksāmenā bija labs."
         },
         {
           "de": "Der Motor hat eine hohe Leistung.",
-          "lv": "motoram ir liela jauda."
+          "lv": "Motoram ir liela jauda."
         }
       ],
       "comparison": [
@@ -40930,15 +40846,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Schraube ist locker.",
-          "lv": "skrūve ir vaļīga."
+          "lv": "Skrūve ir vaļīga."
         },
         {
           "de": "Er trägt eine lockere Jacke.",
-          "lv": "viņš valkā brīvu jaku."
+          "lv": "Viņš valkā brīvu jaku."
         },
         {
           "de": "Nach ein paar Minuten wurde die Stimmung locker.",
-          "lv": "pēc dažām minūtēm noskaņa kļuva nepiespiesta."
+          "lv": "Pēc dažām minūtēm noskaņa kļuva nepiespiesta."
         }
       ],
       "comparison": [
@@ -41099,15 +41015,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Jeder Teilnehmer zieht ein Los.",
-          "lv": "katrs dalībnieks izvelk lozi."
+          "lv": "Katrs dalībnieks izvelk lozi."
         },
         {
           "de": "Mit diesem Los hat sie gewonnen.",
-          "lv": "ar šo lozi viņa laimēja."
+          "lv": "Ar šo lozi viņa laimēja."
         },
         {
           "de": "Er nahm sein Los an.",
-          "lv": "viņš pieņēma savu likteni."
+          "lv": "Viņš pieņēma savu likteni."
         }
       ],
       "comparison": [
@@ -41232,15 +41148,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Feuerwehr löscht den Brand.",
-          "lv": "ugunsdzēsēji dzēš ugunsgrēku."
+          "lv": "Ugunsdzēsēji dzēš ugunsgrēku."
         },
         {
           "de": "Bitte lösche die alte Datei.",
-          "lv": "lūdzu, izdzēs veco failu."
+          "lv": "Lūdzu, izdzēs veco failu."
         },
         {
           "de": "Ein Glas Wasser löscht den Durst.",
-          "lv": "glāze ūdens remdē slāpes."
+          "lv": "Glāze ūdens remdē slāpes."
         }
       ],
       "comparison": [
@@ -41362,19 +41278,19 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir müssen dieses Problem lösen.",
-          "lv": "mums jāatrisina šī problēma."
+          "lv": "Mums jāatrisina šī problēma."
         },
         {
           "de": "Sie löst vorsichtig den Knoten.",
-          "lv": "viņa uzmanīgi atraisa mezglu."
+          "lv": "Viņa uzmanīgi atraisa mezglu."
         },
         {
           "de": "Zucker löst sich im Tee.",
-          "lv": "cukurs izšķīst tējā."
+          "lv": "Cukurs izšķīst tējā."
         },
         {
           "de": "Ich löse am Automaten eine Fahrkarte.",
-          "lv": "es automātā pērku biļeti."
+          "lv": "Es automātā pērku biļeti."
         }
       ],
       "comparison": [
@@ -41511,15 +41427,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir suchen eine Lösung für das Problem.",
-          "lv": "mēs meklējam risinājumu problēmai."
+          "lv": "Mēs meklējam risinājumu problēmai."
         },
         {
           "de": "Diese Lösung spart Zeit.",
-          "lv": "šis risinājums ietaupa laiku."
+          "lv": "Šis risinājums ietaupa laiku."
         },
         {
           "de": "Im Labor steht eine chemische Lösung.",
-          "lv": "laboratorijā atrodas ķīmisks šķīdums."
+          "lv": "Laboratorijā atrodas ķīmisks šķīdums."
         }
       ],
       "comparison": [
@@ -41706,15 +41622,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Regierung hat viel Macht.",
-          "lv": "valdībai ir liela vara."
+          "lv": "Valdībai ir liela vara."
         },
         {
           "de": "Die Partei kam an die Macht.",
-          "lv": "partija nāca pie varas."
+          "lv": "Partija nāca pie varas."
         },
         {
           "de": "Wissen kann Macht bedeuten.",
-          "lv": "zināšanas var nozīmēt varu."
+          "lv": "Zināšanas var nozīmēt varu."
         }
       ],
       "comparison": [
@@ -42020,15 +41936,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Alles hat sein Maß.",
-          "lv": "visam ir savs mērs."
+          "lv": "Visam ir savs mērs."
         },
         {
           "de": "Seine Kritik ging über jedes Maß hinaus.",
-          "lv": "viņa kritika pārsniedza jebkādu mēru."
+          "lv": "Viņa kritika pārsniedza jebkādu mēru."
         },
         {
           "de": "Bitte schicken Sie mir die genauen Maße.",
-          "lv": "lūdzu, atsūtiet man precīzos izmērus."
+          "lv": "Lūdzu, atsūtiet man precīzos izmērus."
         }
       ],
       "comparison": [
@@ -42307,15 +42223,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir besuchen die Buchmesse in Frankfurt.",
-          "lv": "mēs apmeklējam grāmatu izstādi Frankfurtē."
+          "lv": "Mēs apmeklējam grāmatu izstādi Frankfurtē."
         },
         {
           "de": "Viele Firmen stellen ihre Produkte auf der Messe vor.",
-          "lv": "daudzi uzņēmumi izstādē prezentē savus produktus."
+          "lv": "Daudzi uzņēmumi izstādē prezentē savus produktus."
         },
         {
           "de": "Am Sonntag geht die Familie zur Messe.",
-          "lv": "svētdien ģimene iet uz misi."
+          "lv": "Svētdien ģimene iet uz misi."
         }
       ],
       "comparison": [
@@ -42870,15 +42786,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Nachdem ich gegessen hatte, ging ich schlafen.",
-          "lv": "pēc tam kad biju paēdis, es gāju gulēt."
+          "lv": "Pēc tam kad biju paēdis, es gāju gulēt."
         },
         {
           "de": "Nachdem der Kurs beendet war, gingen wir nach Hause.",
-          "lv": "pēc tam kad kurss bija beidzies, mēs devāmies mājās."
+          "lv": "Pēc tam kad kurss bija beidzies, mēs devāmies mājās."
         },
         {
           "de": "Je nachdem, wie das Wetter ist, fahren wir morgen los.",
-          "lv": "atkarībā no laikapstākļiem mēs rīt dosimies ceļā."
+          "lv": "Atkarībā no laikapstākļiem mēs rīt dosimies ceļā."
         }
       ],
       "comparison": [
@@ -43002,15 +42918,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Nachfrage nach Wohnungen ist groß.",
-          "lv": "pieprasījums pēc dzīvokļiem ir liels."
+          "lv": "Pieprasījums pēc dzīvokļiem ir liels."
         },
         {
           "de": "Bei hoher Nachfrage steigen die Preise.",
-          "lv": "ja pieprasījums ir liels, cenas kāpj."
+          "lv": "Ja pieprasījums ir liels, cenas kāpj."
         },
         {
           "de": "Vielen Dank für Ihre Nachfrage.",
-          "lv": "liels paldies par jūsu apvaicāšanos."
+          "lv": "Liels paldies par jūsu apvaicāšanos."
         }
       ],
       "comparison": [
@@ -43124,15 +43040,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Nach langer Diskussion gab er nach.",
-          "lv": "pēc ilgas diskusijas viņš piekāpās."
+          "lv": "Pēc ilgas diskusijas viņš piekāpās."
         },
         {
           "de": "Ich gebe dem Druck nicht nach.",
-          "lv": "es nepadodos spiedienam."
+          "lv": "Es nepadodos spiedienam."
         },
         {
           "de": "Der Boden gibt unter dem Gewicht nach.",
-          "lv": "grīda zem svara ieliecas."
+          "lv": "Grīda zem svara ieliecas."
         }
       ],
       "comparison": [
@@ -43163,7 +43079,6 @@ const B1_WORDS = [
         "examples": [
           {
             "de": {
-              "blue": "gab nach",
               "green": "er"
             },
             "lv": {
@@ -43414,15 +43329,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er neigt zu schnellen Entscheidungen.",
-          "lv": "viņam ir nosliece uz ātriem lēmumiem."
+          "lv": "Viņam ir nosliece uz ātriem lēmumiem."
         },
         {
           "de": "Sie neigt den Kopf leicht zur Seite.",
-          "lv": "viņa viegli noliec galvu uz sāniem."
+          "lv": "Viņa viegli noliec galvu uz sāniem."
         },
         {
           "de": "Das Wetter neigt im April zu Extremen.",
-          "lv": "aprīlī laikapstākļi mēdz būt galēji."
+          "lv": "Aprīlī laikapstākļi mēdz būt galēji."
         }
       ],
       "comparison": [
@@ -43542,15 +43457,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie hat eine Neigung zur Musik.",
-          "lv": "viņai ir tieksme uz mūziku."
+          "lv": "Viņai ir tieksme uz mūziku."
         },
         {
           "de": "Seine Neigung zu Risiken ist bekannt.",
-          "lv": "viņa nosliece uz risku ir zināma."
+          "lv": "Viņa nosliece uz risku ir zināma."
         },
         {
           "de": "Die Neigung des Daches ist stark.",
-          "lv": "jumta slīpums ir liels."
+          "lv": "Jumta slīpums ir liels."
         }
       ],
       "comparison": [
@@ -43680,15 +43595,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Lärm nervt mich seit Stunden.",
-          "lv": "troksnis mani kaitina jau vairākas stundas."
+          "lv": "Troksnis mani kaitina jau vairākas stundas."
         },
         {
           "de": "Seine ständigen Fragen nerven alle.",
-          "lv": "viņa nepārtrauktie jautājumi visus kaitina."
+          "lv": "Viņa nepārtrauktie jautājumi visus kaitina."
         },
         {
           "de": "Hör bitte auf, du nervst!",
-          "lv": "lūdzu, beidz, tu krīti uz nerviem!"
+          "lv": "Lūdzu, beidz, tu krīti uz nerviem!"
         }
       ],
       "comparison": [
@@ -43831,15 +43746,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Baum liegt nieder.",
-          "lv": "koks guļ zemē."
+          "lv": "Koks guļ zemē."
         },
         {
           "de": "Er schlug den Gegner nieder.",
-          "lv": "viņš nogāza pretinieku zemē."
+          "lv": "Viņš nogāza pretinieku zemē."
         },
         {
           "de": "Sie ließ sich auf dem Stuhl nieder.",
-          "lv": "viņa apsēdās uz krēsla."
+          "lv": "Viņa apsēdās uz krēsla."
         }
       ],
       "comparison": [
@@ -44031,15 +43946,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Viele Menschen leben in Not.",
-          "lv": "daudzi cilvēki dzīvo trūkumā."
+          "lv": "Daudzi cilvēki dzīvo trūkumā."
         },
         {
           "de": "In der Not hilft man einander.",
-          "lv": "grūtā brīdī cilvēki palīdz cits citam."
+          "lv": "Grūtā brīdī cilvēki palīdz cits citam."
         },
         {
           "de": "Zur Not rufen wir ein Taxi.",
-          "lv": "ja vajadzēs, izsauksim taksometru."
+          "lv": "Ja vajadzēs, izsauksim taksometru."
         }
       ],
       "comparison": [
@@ -44186,15 +44101,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Fahrer muss nüchtern sein.",
-          "lv": "vadītājam jābūt neiereibušam."
+          "lv": "Vadītājam jābūt neiereibušam."
         },
         {
           "de": "Kommen Sie bitte nüchtern zur Untersuchung.",
-          "lv": "lūdzu, nāciet uz izmeklējumu tukšā dūšā."
+          "lv": "Lūdzu, nāciet uz izmeklējumu tukšā dūšā."
         },
         {
           "de": "Sie beurteilt die Lage nüchtern.",
-          "lv": "viņa situāciju vērtē lietišķi."
+          "lv": "Viņa situāciju vērtē lietišķi."
         }
       ],
       "comparison": [
@@ -44324,19 +44239,19 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das ist von großem Nutzen.",
-          "lv": "tas dod lielu labumu."
+          "lv": "Tas dod lielu labumu."
         },
         {
           "de": "Der Nutzen dieser App ist klar.",
-          "lv": "šīs aplikācijas labums ir skaidrs."
+          "lv": "Šīs aplikācijas labums ir skaidrs."
         },
         {
           "de": "Ich nutze die Zeit zum Lernen.",
-          "lv": "es izmantoju laiku mācībām."
+          "lv": "Es izmantoju laiku mācībām."
         },
         {
           "de": "Das bringt keinen Nutzen.",
-          "lv": "tas nedod nekādu labumu."
+          "lv": "Tas nedod nekādu labumu."
         }
       ],
       "tip": [
@@ -44509,15 +44424,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Objekt wird verkauft.",
-          "lv": "objekts tiek pārdots."
+          "lv": "Objekts tiek pārdots."
         },
         {
           "de": "Die Polizei beobachtet das Objekt.",
-          "lv": "policija novēro objektu."
+          "lv": "Policija novēro objektu."
         },
         {
           "de": "Im Satz ist das ein Objekt.",
-          "lv": "teikumā tas ir papildinātājs."
+          "lv": "Teikumā tas ir papildinātājs."
         }
       ],
       "comparison": [
@@ -44691,15 +44606,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie fiel plötzlich in Ohnmacht.",
-          "lv": "viņa pēkšņi noģība."
+          "lv": "Viņa pēkšņi noģība."
         },
         {
           "de": "Nach dem Unfall war er kurz in Ohnmacht.",
-          "lv": "pēc negadījuma viņš īsu brīdi bija bezsamaņā."
+          "lv": "Pēc negadījuma viņš īsu brīdi bija bezsamaņā."
         },
         {
           "de": "Er spürte Ohnmacht gegenüber der Situation.",
-          "lv": "viņš juta bezspēcību šīs situācijas priekšā."
+          "lv": "Viņš juta bezspēcību šīs situācijas priekšā."
         }
       ],
       "comparison": [
@@ -44895,15 +44810,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er opfert viel Zeit für das Projekt.",
-          "lv": "viņš upurē daudz laika projektam."
+          "lv": "Viņš upurē daudz laika projektam."
         },
         {
           "de": "Viele Menschen opfern ihre Freizeit für andere.",
-          "lv": "daudzi cilvēki upurē savu brīvo laiku citu labā."
+          "lv": "Daudzi cilvēki upurē savu brīvo laiku citu labā."
         },
         {
           "de": "Sie spendet Geld für einen guten Zweck.",
-          "lv": "viņa ziedo naudu labam mērķim."
+          "lv": "Viņa ziedo naudu labam mērķim."
         }
       ],
       "comparison": [
@@ -45063,15 +44978,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich kann mich in der Stadt gut orientieren.",
-          "lv": "es labi orientējos pilsētā."
+          "lv": "Es labi orientējos pilsētā."
         },
         {
           "de": "Wir orientieren uns an den aktuellen Preisen.",
-          "lv": "mēs vadāmies pēc pašreizējām cenām."
+          "lv": "Mēs vadāmies pēc pašreizējām cenām."
         },
         {
           "de": "Die Karte hilft mir, mich zu orientieren.",
-          "lv": "karte palīdz man orientēties."
+          "lv": "Karte palīdz man orientēties."
         }
       ],
       "comparison": [
@@ -45173,8 +45088,7 @@ const B1_WORDS = [
           "blue": [
             "sich orientieren",
             "orientieren an"
-          ],
-          "purple": "vadīties"
+          ]
         },
         "important": {
           "blue": "orientiere mich",
@@ -45443,15 +45357,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Diese Periode dauerte drei Jahre.",
-          "lv": "šis periods ilga trīs gadus."
+          "lv": "Šis periods ilga trīs gadus."
         },
         {
           "de": "In dieser Periode gab es viele Veränderungen.",
-          "lv": "šajā posmā bija daudz pārmaiņu."
+          "lv": "Šajā posmā bija daudz pārmaiņu."
         },
         {
           "de": "Sie hat ihre Periode.",
-          "lv": "viņai ir mēnešreizes."
+          "lv": "Viņai ir mēnešreizes."
         }
       ],
       "comparison": [
@@ -45684,15 +45598,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie pflegt ihre Mutter zu Hause.",
-          "lv": "viņa mājās kopj savu māti."
+          "lv": "Viņa mājās kopj savu māti."
         },
         {
           "de": "Man sollte die Haut regelmäßig pflegen.",
-          "lv": "āda regulāri jākopj."
+          "lv": "Āda regulāri jākopj."
         },
         {
           "de": "Er pflegt früh aufzustehen.",
-          "lv": "viņš mēdz agri celties."
+          "lv": "Viņš mēdz agri celties."
         }
       ],
       "comparison": [
@@ -46001,15 +45915,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Jemand pocht laut an die Tür.",
-          "lv": "kāds skaļi klauvē pie durvīm."
+          "lv": "Kāds skaļi klauvē pie durvīm."
         },
         {
           "de": "Mein Herz pocht schnell.",
-          "lv": "mana sirds ātri pukst."
+          "lv": "Mana sirds ātri pukst."
         },
         {
           "de": "Sie pocht auf ihr Recht.",
-          "lv": "viņa uzstāj uz savām tiesībām."
+          "lv": "Viņa uzstāj uz savām tiesībām."
         }
       ],
       "comparison": [
@@ -46260,15 +46174,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie bekam einen neuen Posten im Ministerium.",
-          "lv": "viņa ieguva jaunu amatu ministrijā."
+          "lv": "Viņa ieguva jaunu amatu ministrijā."
         },
         {
           "de": "Der Soldat steht auf seinem Posten.",
-          "lv": "karavīrs stāv savā postenī."
+          "lv": "Karavīrs stāv savā postenī."
         },
         {
           "de": "Dieser Posten im Budget ist zu hoch.",
-          "lv": "šī budžeta pozīcija ir pārāk liela."
+          "lv": "Šī budžeta pozīcija ir pārāk liela."
         }
       ],
       "comparison": [
@@ -46480,15 +46394,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Probe war erfolgreich.",
-          "lv": "pārbaude bija veiksmīga."
+          "lv": "Pārbaude bija veiksmīga."
         },
         {
           "de": "Der Arzt nimmt eine Probe vom Blut.",
-          "lv": "ārsts paņem asins paraugu."
+          "lv": "Ārsts paņem asins paraugu."
         },
         {
           "de": "Die Probe für das Konzert beginnt um sechs.",
-          "lv": "koncerta mēģinājums sākas sešos."
+          "lv": "Koncerta mēģinājums sākas sešos."
         }
       ],
       "comparison": [
@@ -46907,15 +46821,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er hat einen hohen Rang in der Armee.",
-          "lv": "viņam armijā ir augsts rangs."
+          "lv": "Viņam armijā ir augsts rangs."
         },
         {
           "de": "Diese Frage hat hohen Rang.",
-          "lv": "šim jautājumam ir liela nozīme."
+          "lv": "Šim jautājumam ir liela nozīme."
         },
         {
           "de": "Unsere Plätze sind im ersten Rang.",
-          "lv": "mūsu vietas ir pirmajā balkonā."
+          "lv": "Mūsu vietas ir pirmajā balkonā."
         }
       ],
       "comparison": [
@@ -47042,15 +46956,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Auto rast durch die Stadt.",
-          "lv": "auto joņo cauri pilsētai."
+          "lv": "Auto joņo cauri pilsētai."
         },
         {
           "de": "Der Zug raste an uns vorbei.",
-          "lv": "vilciens aiztraucās mums garām."
+          "lv": "Vilciens aiztraucās mums garām."
         },
         {
           "de": "Der Sturm rast die ganze Nacht.",
-          "lv": "vētra plosās visu nakti."
+          "lv": "Vētra plosās visu nakti."
         }
       ],
       "comparison": [
@@ -47221,15 +47135,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich zahle das Auto in Raten.",
-          "lv": "es maksāju par auto pa daļām."
+          "lv": "Es maksāju par auto pa daļām."
         },
         {
           "de": "Die monatliche Rate ist hoch.",
-          "lv": "mēneša iemaksa ir liela."
+          "lv": "Mēneša iemaksa ir liela."
         },
         {
           "de": "Die letzte Rate ist im Juni fällig.",
-          "lv": "pēdējā iemaksa jāveic jūnijā."
+          "lv": "Pēdējā iemaksa jāveic jūnijā."
         }
       ],
       "comparison": [
@@ -47401,27 +47315,27 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Polizei räumt die Straße.",
-          "lv": "policija atbrīvo ielu."
+          "lv": "Policija atbrīvo ielu."
         },
         {
           "de": "Wir müssen die Wohnung räumen.",
-          "lv": "mums jāizvācas no dzīvokļa."
+          "lv": "Mums jāizvācas no dzīvokļa."
         },
         {
           "de": "Bitte räum dein Zimmer auf.",
-          "lv": "lūdzu, sakārto savu istabu."
+          "lv": "Lūdzu, sakārto savu istabu."
         },
         {
           "de": "Wir räumen den Tisch.",
-          "lv": "mēs novācam galdu."
+          "lv": "Mēs novācam galdu."
         },
         {
           "de": "Wir räumen den Schnee von der Straße.",
-          "lv": "mēs aizvācam sniegu no ielas."
+          "lv": "Mēs aizvācam sniegu no ielas."
         },
         {
           "de": "Die Soldaten räumen das Gebiet.",
-          "lv": "karavīri atstāj teritoriju."
+          "lv": "Karavīri atstāj teritoriju."
         }
       ],
       "comparison": [
@@ -47561,7 +47475,8 @@ const B1_WORDS = [
           "red": "aufräumen"
         }
       }
-    }},
+    }
+  },
   {
     "de": "Raumschiff",
     "de_article": "das",
@@ -47583,15 +47498,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er war im Rausch.",
-          "lv": "viņš bija reibumā."
+          "lv": "Viņš bija reibumā."
         },
         {
           "de": "Der Rausch ließ langsam nach.",
-          "lv": "reibums lēnām pārgāja."
+          "lv": "Reibums lēnām pārgāja."
         },
         {
           "de": "Sie erlebten einen Rausch der Gefühle.",
-          "lv": "viņi piedzīvoja jūtu apreibumu."
+          "lv": "Viņi piedzīvoja jūtu apreibumu."
         }
       ],
       "comparison": [
@@ -47792,15 +47707,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir regeln das morgen.",
-          "lv": "mēs to nokārtosim rīt."
+          "lv": "Mēs to nokārtosim rīt."
         },
         {
           "de": "Das Gesetz regelt diese Frage.",
-          "lv": "likums regulē šo jautājumu."
+          "lv": "Likums regulē šo jautājumu."
         },
         {
           "de": "Der Thermostat regelt die Temperatur.",
-          "lv": "termostats regulē temperatūru."
+          "lv": "Termostats regulē temperatūru."
         }
       ],
       "comparison": [
@@ -48064,15 +47979,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Seil reißt.",
-          "lv": "virve plīst."
+          "lv": "Virve plīst."
         },
         {
           "de": "Er reißt das Papier in Stücke.",
-          "lv": "viņš saplēš papīru gabalos."
+          "lv": "Viņš saplēš papīru gabalos."
         },
         {
           "de": "Der Wind reißt die Tür auf.",
-          "lv": "vējš strauji atrauj durvis vaļā."
+          "lv": "Vējš strauji atrauj durvis vaļā."
         }
       ],
       "comparison": [
@@ -48203,15 +48118,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Rauch reizt die Augen.",
-          "lv": "dūmi kairina acis."
+          "lv": "Dūmi kairina acis."
         },
         {
           "de": "Seine Worte reizten mich.",
-          "lv": "viņa vārdi mani aizkaitināja."
+          "lv": "Viņa vārdi mani aizkaitināja."
         },
         {
           "de": "Diese Reise reizt mich sehr.",
-          "lv": "šis ceļojums mani ļoti vilina."
+          "lv": "Šis ceļojums mani ļoti vilina."
         }
       ],
       "comparison": [
@@ -48507,15 +48422,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie richtet den Blick nach vorn.",
-          "lv": "viņa vērš skatienu uz priekšu."
+          "lv": "Viņa vērš skatienu uz priekšu."
         },
         {
           "de": "Die Frage richtet sich an den Lehrer.",
-          "lv": "jautājums ir adresēts skolotājam."
+          "lv": "Jautājums ir adresēts skolotājam."
         },
         {
           "de": "Der Richter richtet über den Fall.",
-          "lv": "tiesnesis tiesā šo lietu."
+          "lv": "Tiesnesis tiesā šo lietu."
         }
       ],
       "comparison": [
@@ -48782,15 +48697,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Ball rollt über den Boden.",
-          "lv": "bumba ripo pa grīdu."
+          "lv": "Bumba ripo pa grīdu."
         },
         {
           "de": "Sie rollt den Teppich zusammen.",
-          "lv": "viņa sarullē paklāju."
+          "lv": "Viņa sarullē paklāju."
         },
         {
           "de": "Der Wagen rollt langsam los.",
-          "lv": "auto lēni sāk ripot."
+          "lv": "Auto lēni sāk ripot."
         }
       ],
       "comparison": [
@@ -48935,15 +48850,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir rösten Kaffee.",
-          "lv": "mēs grauzdējam kafiju."
+          "lv": "Mēs grauzdējam kafiju."
         },
         {
           "de": "Ich röste das Brot kurz.",
-          "lv": "es īsi apgrauzdēju maizi."
+          "lv": "Es īsi apgrauzdēju maizi."
         },
         {
           "de": "Die Nüsse werden im Ofen geröstet.",
-          "lv": "rieksti tiek grauzdēti krāsnī."
+          "lv": "Rieksti tiek grauzdēti krāsnī."
         }
       ],
       "comparison": [
@@ -49169,15 +49084,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich hörte einen lauten Ruf.",
-          "lv": "es dzirdēju skaļu saucienu."
+          "lv": "Es dzirdēju skaļu saucienu."
         },
         {
           "de": "Der Ruf kam aus dem Wald.",
-          "lv": "sauciens nāca no meža."
+          "lv": "Sauciens nāca no meža."
         },
         {
           "de": "Die Firma hat einen guten Ruf.",
-          "lv": "uzņēmumam ir laba reputācija."
+          "lv": "Uzņēmumam ir laba reputācija."
         }
       ],
       "comparison": [
@@ -49291,15 +49206,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Nach der Arbeit ruht er sich aus.",
-          "lv": "pēc darba viņš atpūšas."
+          "lv": "Pēc darba viņš atpūšas."
         },
         {
           "de": "Der See ruht still in der Sonne.",
-          "lv": "ezers mierīgi guļ saulē."
+          "lv": "Ezers mierīgi guļ saulē."
         },
         {
           "de": "Das Verfahren ruht im Moment.",
-          "lv": "process pašlaik ir apturēts."
+          "lv": "Process pašlaik ir apturēts."
         }
       ],
       "comparison": [
@@ -49490,15 +49405,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir rüsten uns für den Winter.",
-          "lv": "mēs gatavojamies ziemai."
+          "lv": "Mēs gatavojamies ziemai."
         },
         {
           "de": "Das Land rüstet seine Armee aus.",
-          "lv": "valsts apbruņo savu armiju."
+          "lv": "Valsts apbruņo savu armiju."
         },
         {
           "de": "Sie rüsten sich für eine lange Reise.",
-          "lv": "viņi gatavojas garam ceļojumam."
+          "lv": "Viņi gatavojas garam ceļojumam."
         }
       ],
       "comparison": [
@@ -49636,15 +49551,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Saat geht auf.",
-          "lv": "sējums dīgst."
+          "lv": "Sējums dīgst."
         },
         {
           "de": "Der Bauer bringt die Saat aus.",
-          "lv": "zemnieks izsēj sēklu."
+          "lv": "Zemnieks izsēj sēklu."
         },
         {
           "de": "Die Saat steht gut.",
-          "lv": "sējums aug labi."
+          "lv": "Sējums aug labi."
         }
       ],
       "comparison": [
@@ -49740,7 +49655,6 @@ const B1_WORDS = [
           "purple": "iesētais"
         },
         "important": {
-          "blue": "die Saat",
           "red": "der Samen"
         }
       }
@@ -49981,15 +49895,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Schale der Orange ist dick.",
-          "lv": "apelsīna miza ir bieza."
+          "lv": "Apelsīna miza ir bieza."
         },
         {
           "de": "Die Nuss hat eine harte Schale.",
-          "lv": "riekstam ir cieta čaumala."
+          "lv": "Riekstam ir cieta čaumala."
         },
         {
           "de": "Stell die Schale auf den Tisch.",
-          "lv": "noliec bļodu uz galda."
+          "lv": "Noliec bļodu uz galda."
         }
       ],
       "comparison": [
@@ -50236,15 +50150,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Auf dem Boden liegt eine Schicht Staub.",
-          "lv": "uz grīdas ir putekļu slānis."
+          "lv": "Uz grīdas ir putekļu slānis."
         },
         {
           "de": "Ich arbeite heute in der Nachtschicht.",
-          "lv": "šodien strādāju nakts maiņā."
+          "lv": "Šodien strādāju nakts maiņā."
         },
         {
           "de": "Die Farbe bildet eine dünne Schicht.",
-          "lv": "krāsa veido plānu kārtu."
+          "lv": "Krāsa veido plānu kārtu."
         }
       ],
       "comparison": [
@@ -50410,15 +50324,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "An der Wand ist Schimmel.",
-          "lv": "uz sienas ir pelējums."
+          "lv": "Uz sienas ir pelējums."
         },
         {
           "de": "Schimmel in der Wohnung ist gefährlich.",
-          "lv": "pelējums dzīvoklī ir bīstams."
+          "lv": "Pelējums dzīvoklī ir bīstams."
         },
         {
           "de": "Der Schimmel läuft über die Wiese.",
-          "lv": "sirmais zirgs skrien pāri pļavai."
+          "lv": "Sirmais zirgs skrien pāri pļavai."
         }
       ],
       "comparison": [
@@ -50597,15 +50511,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Schlag traf ihn am Arm.",
-          "lv": "sitiens trāpīja viņam pa roku."
+          "lv": "Sitiens trāpīja viņam pa roku."
         },
         {
           "de": "Ein Schlag traf den Baum.",
-          "lv": "zibens spēriens trāpīja kokā."
+          "lv": "Zibens spēriens trāpīja kokā."
         },
         {
           "de": "Die Uhr tut zwölf Schläge.",
-          "lv": "pulkstenis nosit divpadsmit."
+          "lv": "Pulkstenis nosit divpadsmit."
         }
       ],
       "comparison": [
@@ -50784,15 +50698,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er schleift das Messer.",
-          "lv": "viņš asina nazi."
+          "lv": "Viņš asina nazi."
         },
         {
           "de": "Wir schleifen den Tisch ab.",
-          "lv": "mēs noslīpējam galdu."
+          "lv": "Mēs noslīpējam galdu."
         },
         {
           "de": "Das Kleid schleift über den Boden.",
-          "lv": "kleita velkas pa grīdu."
+          "lv": "Kleita velkas pa grīdu."
         }
       ],
       "comparison": [
@@ -51025,15 +50939,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Schnee schmilzt in der Sonne.",
-          "lv": "sniegs kūst saulē."
+          "lv": "Sniegs kūst saulē."
         },
         {
           "de": "Ich schmelze die Butter.",
-          "lv": "es kausēju sviestu."
+          "lv": "Es kausēju sviestu."
         },
         {
           "de": "Das Eis ist geschmolzen.",
-          "lv": "ledus ir izkusis."
+          "lv": "Ledus ir izkusis."
         }
       ],
       "comparison": [
@@ -51182,15 +51096,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie schmiert Butter aufs Brot.",
-          "lv": "viņa smērē sviestu uz maizes."
+          "lv": "Viņa smērē sviestu uz maizes."
         },
         {
           "de": "Der Mechaniker schmiert die Kette.",
-          "lv": "mehāniķis ieeļļo ķēdi."
+          "lv": "Mehāniķis ieeļļo ķēdi."
         },
         {
           "de": "Das Kind schmiert an die Wand.",
-          "lv": "bērns ķēpā pa sienu."
+          "lv": "Bērns ķēpā pa sienu."
         }
       ],
       "comparison": [
@@ -51327,15 +51241,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir schmücken den Weihnachtsbaum.",
-          "lv": "mēs rotājam Ziemassvētku eglīti."
+          "lv": "Mēs rotājam Ziemassvētku eglīti."
         },
         {
           "de": "Blumen schmücken den Tisch.",
-          "lv": "ziedi rotā galdu."
+          "lv": "Ziedi rotā galdu."
         },
         {
           "de": "Sie schmückt sich mit einer Kette.",
-          "lv": "viņa rotājas ar kaklarotu."
+          "lv": "Viņa rotājas ar kaklarotu."
         }
       ],
       "comparison": [
@@ -51532,15 +51446,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Schnitt an der Hand ist tief.",
-          "lv": "griezums rokā ir dziļš."
+          "lv": "Griezums rokā ir dziļš."
         },
         {
           "de": "Der Schnitt des Kleides ist modern.",
-          "lv": "kleitas piegriezums ir moderns."
+          "lv": "Kleitas piegriezums ir moderns."
         },
         {
           "de": "Der Film hat einen schnellen Schnitt.",
-          "lv": "filmai ir ātra montāža."
+          "lv": "Filmai ir ātra montāža."
         }
       ],
       "comparison": [
@@ -51823,15 +51737,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er ist schuldig.",
-          "lv": "viņš ir vainīgs."
+          "lv": "Viņš ir vainīgs."
         },
         {
           "de": "Sie fühlt sich schuldig.",
-          "lv": "viņa jūtas vainīga."
+          "lv": "Viņa jūtas vainīga."
         },
         {
           "de": "Ich bin dir noch zehn Euro schuldig.",
-          "lv": "es tev vēl esmu parādā desmit eiro."
+          "lv": "Es tev vēl esmu parādā desmit eiro."
         }
       ],
       "comparison": [
@@ -52012,15 +51926,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Jacke schützt vor Regen.",
-          "lv": "jaka aizsargā no lietus."
+          "lv": "Jaka aizsargā no lietus."
         },
         {
           "de": "Wir schützen die Kinder.",
-          "lv": "mēs aizsargājam bērnus."
+          "lv": "Mēs aizsargājam bērnus."
         },
         {
           "de": "Man muss sich vor der Sonne schützen.",
-          "lv": "ir jāaizsargājas no saules."
+          "lv": "Ir jāaizsargājas no saules."
         }
       ],
       "comparison": [
@@ -52187,15 +52101,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Boot schwankt stark.",
-          "lv": "laiva stipri šūpojas."
+          "lv": "Laiva stipri šūpojas."
         },
         {
           "de": "Die Preise schwanken stark.",
-          "lv": "cenas stipri svārstās."
+          "lv": "Cenas stipri svārstās."
         },
         {
           "de": "Er schwankt zwischen zwei Möglichkeiten.",
-          "lv": "viņš šaubās starp divām iespējām."
+          "lv": "Viņš šaubās starp divām iespējām."
         }
       ],
       "comparison": [
@@ -52402,12 +52316,12 @@ const B1_WORDS = [
   },
   {
     "de": "schwindeln",
-    "lv": "reibt • krāpšana • blēdība",
+    "lv": "reibt galva • krāpties • blēdīties",
     "level": "B1",
     "study": {
       "id": "b1-schwindeln",
       "layout": "standardStudy",
-      "translation": "reibt • krāpšana • blēdība",
+      "translation": "reibt galva • krāpties • blēdīties",
       "explanation": "Galvenā doma: schwindeln nozīmi parāda teikums: reibt galva vai krāpšanās. Ar mir kā papildinājumu Mir schwindelt nozīmē man reibst galva. Ja teikumā ir cilvēks, kas blēdās vai krāpjas, schwindeln nozīmē krāpšanu vai blēdību.",
       "examples": [
         {
@@ -52435,8 +52349,8 @@ const B1_WORDS = [
           "example": "Er lügt immer. = Viņš vienmēr melo."
         }
       ],
-      "tip": "Ja teikumā ir Mir/Mich un nav spēles vai dokumentu, domā par reibst.",
-      "important": "Schwindeln nenozīmē melot. Melot ir lügen.",
+      "tip": "Ja teikumā ir Mir/Mich un nav spēles vai dokumentu, domā par reibst galva.",
+      "important": "schwindeln var nozīmēt arī viegli nomelot vai blēdīties; stingri “melot” ir lügen.",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -52542,7 +52456,8 @@ const B1_WORDS = [
             "lügen"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "schwingen",
@@ -52767,15 +52682,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich sende dir eine Nachricht.",
-          "lv": "es tev sūtu ziņu."
+          "lv": "Es tev sūtu ziņu."
         },
         {
           "de": "Der Sender sendet ein Signal.",
-          "lv": "raidītājs raida signālu."
+          "lv": "Raidītājs raida signālu."
         },
         {
           "de": "Die Sendung wird live gesendet.",
-          "lv": "pārraide tiek raidīta tiešraidē."
+          "lv": "Pārraide tiek raidīta tiešraidē."
         }
       ],
       "comparison": [
@@ -52916,15 +52831,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Firma senkt die Preise.",
-          "lv": "uzņēmums pazemina cenas."
+          "lv": "Uzņēmums pazemina cenas."
         },
         {
           "de": "Sie senkt den Kopf.",
-          "lv": "viņa noliec galvu."
+          "lv": "Viņa noliec galvu."
         },
         {
           "de": "Bitte senken Sie die Stimme.",
-          "lv": "lūdzu, pieklusiniet balsi."
+          "lv": "Lūdzu, pieklusiniet balsi."
         }
       ],
       "comparison": [
@@ -53204,15 +53119,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das hat keinen Sinn.",
-          "lv": "tam nav jēgas."
+          "lv": "Tam nav jēgas."
         },
         {
           "de": "Was ist der Sinn dieses Wortes?",
-          "lv": "kāda ir šī vārda nozīme?"
+          "lv": "Kāda ir šī vārda nozīme?"
         },
         {
           "de": "Sie hat Sinn für Humor.",
-          "lv": "viņai ir humora izjūta."
+          "lv": "Viņai ir humora izjūta."
         }
       ],
       "comparison": [
@@ -53346,15 +53261,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Sitz ist frei.",
-          "lv": "sēdeklis ir brīvs."
+          "lv": "Sēdeklis ir brīvs."
         },
         {
           "de": "Bitte nehmen Sie auf diesem Sitz Platz.",
-          "lv": "lūdzu, apsēdieties šajā sēdvietā."
+          "lv": "Lūdzu, apsēdieties šajā sēdvietā."
         },
         {
           "de": "Die Firma hat ihren Sitz in Berlin.",
-          "lv": "uzņēmuma mītne ir Berlīnē."
+          "lv": "Uzņēmuma mītne ir Berlīnē."
         }
       ],
       "comparison": [
@@ -53597,15 +53512,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich sorge mich um meine Mutter.",
-          "lv": "es raizējos par savu mammu."
+          "lv": "Es raizējos par savu mammu."
         },
         {
           "de": "Mach dir keine Sorgen um mich.",
-          "lv": "neraizējies par mani."
+          "lv": "Neraizējies par mani."
         },
         {
           "de": "Viele Eltern sorgen sich um ihre Kinder.",
-          "lv": "daudzi vecāki raizējas par saviem bērniem."
+          "lv": "Daudzi vecāki raizējas par saviem bērniem."
         }
       ],
       "comparison": [
@@ -53744,15 +53659,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir brauchen Milch sowie Brot.",
-          "lv": "mums vajag pienu, kā arī maizi."
+          "lv": "Mums vajag pienu, kā arī maizi."
         },
         {
           "de": "Der Preis gilt für Erwachsene sowie Kinder.",
-          "lv": "cena attiecas uz pieaugušajiem, kā arī bērniem."
+          "lv": "Cena attiecas uz pieaugušajiem, kā arī bērniem."
         },
         {
           "de": "Sowie ich Zeit habe, rufe ich dich an.",
-          "lv": "tiklīdz man būs laiks, es tev piezvanīšu."
+          "lv": "Tiklīdz man būs laiks, es tev piezvanīšu."
         }
       ],
       "tip": "Sarakstā sowie = kā arī; laika teikumā = tiklīdz.",
@@ -53794,23 +53709,15 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": "sowie"
-            },
-            "meaning": {
-              "purple": "kā arī"
-            },
-            "example": {
-              "blue": "sowie"
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
               "green": "und"
             },
-            "meaning": {
-              "purple": "un"
-            },
+            "meaning": {},
             "example": {
               "red": "und"
             }
@@ -53819,9 +53726,7 @@ const B1_WORDS = [
             "word": {
               "green": "sobald"
             },
-            "meaning": {
-              "purple": "tiklīdz"
-            },
+            "meaning": {},
             "example": {
               "red": "Sobald"
             }
@@ -53892,15 +53797,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Spannung im Film war groß.",
-          "lv": "filmā bija liela spriedze."
+          "lv": "Filmā bija liela spriedze."
         },
         {
           "de": "Zwischen den beiden herrscht Spannung.",
-          "lv": "starp abiem valda spriedze."
+          "lv": "Starp abiem valda spriedze."
         },
         {
           "de": "Die Spannung beträgt 230 Volt.",
-          "lv": "spriegums ir 230 volti."
+          "lv": "Spriegums ir 230 volti."
         }
       ],
       "comparison": [
@@ -54064,15 +53969,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Speichere die Datei bitte.",
-          "lv": "lūdzu, saglabā failu."
+          "lv": "Lūdzu, saglabā failu."
         },
         {
           "de": "Das Handy speichert die Fotos automatisch.",
-          "lv": "telefons automātiski saglabā fotogrāfijas."
+          "lv": "Telefons automātiski saglabā fotogrāfijas."
         },
         {
           "de": "Der Körper speichert Energie.",
-          "lv": "ķermenis uzkrāj enerģiju."
+          "lv": "Ķermenis uzkrāj enerģiju."
         }
       ],
       "comparison": [
@@ -54243,15 +54148,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Polizei sperrt die Straße.",
-          "lv": "policija bloķē ielu."
+          "lv": "Policija bloķē ielu."
         },
         {
           "de": "Ich lasse meine Karte sperren.",
-          "lv": "es lieku bloķēt savu karti."
+          "lv": "Es lieku bloķēt savu karti."
         },
         {
           "de": "Der Eingang ist gesperrt.",
-          "lv": "ieeja ir slēgta."
+          "lv": "Ieeja ir slēgta."
         }
       ],
       "comparison": [
@@ -54404,15 +54309,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Spitze des Bleistifts ist abgebrochen.",
-          "lv": "zīmuļa smaile ir nolūzusi."
+          "lv": "Zīmuļa smaile ir nolūzusi."
         },
         {
           "de": "Wir standen auf der Spitze des Berges.",
-          "lv": "mēs stāvējām kalna virsotnē."
+          "lv": "Mēs stāvējām kalna virsotnē."
         },
         {
           "de": "Sie steht an der Spitze der Firma.",
-          "lv": "viņa ir uzņēmuma vadībā."
+          "lv": "Viņa ir uzņēmuma vadībā."
         }
       ],
       "comparison": [
@@ -54625,15 +54530,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Wasser spritzt auf den Boden.",
-          "lv": "ūdens šļakstās uz grīdas."
+          "lv": "Ūdens šļakstās uz grīdas."
         },
         {
           "de": "Der Gärtner spritzt die Pflanzen.",
-          "lv": "dārznieks apsmidzina augus."
+          "lv": "Dārznieks apsmidzina augus."
         },
         {
           "de": "Der Arzt spritzt das Medikament.",
-          "lv": "ārsts injicē zāles."
+          "lv": "Ārsts injicē zāles."
         }
       ],
       "comparison": [
@@ -54771,15 +54676,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Sprung war sehr weit.",
-          "lv": "lēciens bija ļoti tāls."
+          "lv": "Lēciens bija ļoti tāls."
         },
         {
           "de": "Im Glas ist ein Sprung.",
-          "lv": "glāzē ir plaisa."
+          "lv": "Glāzē ir plaisa."
         },
         {
           "de": "Der Sportler machte einen großen Sprung.",
-          "lv": "sportists veica lielu lēcienu."
+          "lv": "Sportists veica lielu lēcienu."
         }
       ],
       "comparison": [
@@ -55009,15 +54914,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wie ist der aktuelle Stand?",
-          "lv": "kāds ir pašreizējais stāvoklis?"
+          "lv": "Kāds ir pašreizējais stāvoklis?"
         },
         {
           "de": "Unser Stand ist in Halle 3.",
-          "lv": "mūsu stends ir 3. hallē."
+          "lv": "Mūsu stends ir 3. hallē."
         },
         {
           "de": "Der Wasserstand ist niedrig.",
-          "lv": "ūdens līmenis ir zems."
+          "lv": "Ūdens līmenis ir zems."
         }
       ],
       "comparison": [
@@ -55257,15 +55162,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Stellung des Körpers ist wichtig.",
-          "lv": "ķermeņa stāvoklis ir svarīgs."
+          "lv": "Ķermeņa stāvoklis ir svarīgs."
         },
         {
           "de": "Er sucht eine neue Stellung.",
-          "lv": "viņš meklē jaunu darba vietu."
+          "lv": "Viņš meklē jaunu darba vietu."
         },
         {
           "de": "Sie nimmt Stellung zu dem Problem.",
-          "lv": "viņa pauž nostāju par problēmu."
+          "lv": "Viņa pauž nostāju par problēmu."
         }
       ],
       "comparison": [
@@ -55482,15 +55387,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Hast du einen Stift?",
-          "lv": "vai tev ir zīmulis?"
+          "lv": "Vai tev ir zīmulis?"
         },
         {
           "de": "Ich schreibe mit einem Stift.",
-          "lv": "es rakstu ar pildspalvu."
+          "lv": "Es rakstu ar pildspalvu."
         },
         {
           "de": "Der Stift hält die Teile zusammen.",
-          "lv": "tapa satur detaļas kopā."
+          "lv": "Tapa satur detaļas kopā."
         }
       ],
       "comparison": [
@@ -55629,15 +55534,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Mutter stillt ihr Baby.",
-          "lv": "māte zīda savu bērnu."
+          "lv": "Māte zīda savu bērnu."
         },
         {
           "de": "Wasser stillt den Durst.",
-          "lv": "ūdens remdē slāpes."
+          "lv": "Ūdens remdē slāpes."
         },
         {
           "de": "Das Gespräch stillte ihre Neugier.",
-          "lv": "saruna apmierināja viņas ziņkāri."
+          "lv": "Saruna apmierināja viņas ziņkāri."
         }
       ],
       "comparison": [
@@ -55855,15 +55760,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte stoß mich nicht.",
-          "lv": "lūdzu, negrūd mani."
+          "lv": "Lūdzu, negrūd mani."
         },
         {
           "de": "Der Wagen stieß gegen die Mauer.",
-          "lv": "mašīna ietriecās sienā."
+          "lv": "Mašīna ietriecās sienā."
         },
         {
           "de": "Wir sind auf ein Problem gestoßen.",
-          "lv": "mēs uzdūrāmies problēmai."
+          "lv": "Mēs uzdūrāmies problēmai."
         }
       ],
       "comparison": [
@@ -56070,15 +55975,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir streichen diesen Punkt von der Liste.",
-          "lv": "mēs svītrojam šo punktu no saraksta."
+          "lv": "Mēs svītrojam šo punktu no saraksta."
         },
         {
           "de": "Am Wochenende streichen wir die Küche weiß.",
-          "lv": "nedēļas nogalē mēs krāsosim virtuvi baltu."
+          "lv": "Nedēļas nogalē mēs krāsosim virtuvi baltu."
         },
         {
           "de": "Sie streicht dem Kind über den Kopf.",
-          "lv": "viņa noglāsta bērnam galvu."
+          "lv": "Viņa noglāsta bērnam galvu."
         }
       ],
       "comparison": [
@@ -56289,15 +56194,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Strom ist ausgefallen.",
-          "lv": "elektrība ir pazudusi."
+          "lv": "Elektrība ir pazudusi."
         },
         {
           "de": "Dieses Gerät verbraucht viel Strom.",
-          "lv": "šī ierīce patērē daudz elektrības."
+          "lv": "Šī ierīce patērē daudz elektrības."
         },
         {
           "de": "Der Strom fließt ins Meer.",
-          "lv": "lielā upe ietek jūrā."
+          "lv": "Lielā upe ietek jūrā."
         }
       ],
       "comparison": [
@@ -56506,15 +56411,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er stürzte auf der Treppe.",
-          "lv": "viņš nokrita uz kāpnēm."
+          "lv": "Viņš nokrita uz kāpnēm."
         },
         {
           "de": "Der Sturm stürzte mehrere Bäume um.",
-          "lv": "vētra nogāza vairākus kokus."
+          "lv": "Vētra nogāza vairākus kokus."
         },
         {
           "de": "Die Regierung wurde gestürzt.",
-          "lv": "valdība tika gāzta."
+          "lv": "Valdība tika gāzta."
         }
       ],
       "comparison": [
@@ -56706,15 +56611,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Diese Szene im Film ist sehr stark.",
-          "lv": "šī aina filmā ir ļoti spēcīga."
+          "lv": "Šī aina filmā ir ļoti spēcīga."
         },
         {
           "de": "Mach bitte keine Szene.",
-          "lv": "lūdzu, netaisi skandālu."
+          "lv": "Lūdzu, netaisi skandālu."
         },
         {
           "de": "Er kennt die Berliner Musikszene gut.",
-          "lv": "viņš labi pazīst Berlīnes mūzikas vidi."
+          "lv": "Viņš labi pazīst Berlīnes mūzikas vidi."
         }
       ],
       "comparison": [
@@ -56904,15 +56809,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Tank ist fast leer.",
-          "lv": "tvertne ir gandrīz tukša."
+          "lv": "Tvertne ir gandrīz tukša."
         },
         {
           "de": "Ich fülle den Tank mit Benzin.",
-          "lv": "es piepildu tvertni ar benzīnu."
+          "lv": "Es piepildu tvertni ar benzīnu."
         },
         {
           "de": "Der Panzer rollt über die Straße.",
-          "lv": "tanks ripo pāri ielai."
+          "lv": "Tanks ripo pāri ielai."
         }
       ],
       "comparison": [
@@ -57123,15 +57028,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Am Morgen liegt Tau auf der Wiese.",
-          "lv": "no rīta pļavā ir rasa."
+          "lv": "No rīta pļavā ir rasa."
         },
         {
           "de": "Die Blätter sind nass vom Tau.",
-          "lv": "lapas ir mitras no rasas."
+          "lv": "Lapas ir mitras no rasas."
         },
         {
           "de": "Das Schiff liegt am Tau.",
-          "lv": "kuģis ir pie tauvas."
+          "lv": "Kuģis ir pie tauvas."
         }
       ],
       "comparison": [
@@ -57143,7 +57048,7 @@ const B1_WORDS = [
         {
           "word": "das Tau",
           "meaning": "kuģa tauva • virve",
-          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
+          "example": "Das Tau ist fest. = Tauva ir stingra. Daudzskaitlis: die Taue."
         },
         {
           "word": "der Nebel",
@@ -57154,7 +57059,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Par rasa uz zāles vai augiem — der Tau (bez daudzskaitļa). Par kuģa virvi — das Tau (die Taue)."
+            "text": "Par rasu uz zāles vai augiem — der Tau (bez daudzskaitļa). Par kuģa virvi — das Tau (die Taue)."
           }
         ]
       },
@@ -57228,22 +57133,22 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Schiff liegt am Tau.",
-          "lv": "kuģis ir pie tauvas."
+          "lv": "Kuģis ir pie tauvas."
         },
         {
           "de": "Die Taue sind fest gebunden.",
-          "lv": "tauvas ir cieši piesietas."
+          "lv": "Tauvas ir cieši piesietas."
         },
         {
           "de": "Am Morgen liegt Tau auf der Wiese.",
-          "lv": "no rīta pļavā ir rasa."
+          "lv": "No rīta pļavā ir rasa."
         }
       ],
       "comparison": [
         {
           "word": "das Tau",
           "meaning": "kuģa tauva • virve",
-          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
+          "example": "Das Tau ist fest. = Tauva ir stingra. Daudzskaitlis: die Taue."
         },
         {
           "word": "der Tau",
@@ -57259,7 +57164,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Par kuģa piesiešanu un virvēm — das Tau. Par rasa uz zāles — der Tau."
+            "text": "Par kuģa piesiešanu un virvēm — das Tau. Par rasu uz zāles — der Tau."
           }
         ]
       },
@@ -57343,15 +57248,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir tauchen im Meer.",
-          "lv": "mēs nirstam jūrā."
+          "lv": "Mēs nirstam jūrā."
         },
         {
           "de": "Der Taucher taucht bis zum Wrack.",
-          "lv": "nirējs ienirst līdz vrakam."
+          "lv": "Nirējs ienirst līdz vrakam."
         },
         {
           "de": "Sie taucht das Brot in die Suppe.",
-          "lv": "viņa iemērc maizi zupā."
+          "lv": "Viņa iemērc maizi zupā."
         }
       ],
       "comparison": [
@@ -57493,15 +57398,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Kind wird am Sonntag getauft.",
-          "lv": "bērnu kristīs svētdien."
+          "lv": "Bērnu kristīs svētdien."
         },
         {
           "de": "Der Pfarrer tauft das Baby.",
-          "lv": "mācītājs kristī bērnu."
+          "lv": "Mācītājs kristī bērnu."
         },
         {
           "de": "Sie tauften das Schiff auf den Namen Emma.",
-          "lv": "viņi nosauca kuģi vārdā Emma."
+          "lv": "Viņi nosauca kuģi vārdā Emma."
         }
       ],
       "comparison": [
@@ -57677,15 +57582,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich nehme an dem Kurs teil.",
-          "lv": "es piedalos kursā."
+          "lv": "Es piedalos kursā."
         },
         {
           "de": "Viele Schüler nehmen am Wettbewerb teil.",
-          "lv": "daudzi skolēni piedalās konkursā."
+          "lv": "Daudzi skolēni piedalās konkursā."
         },
         {
           "de": "Sie nimmt an der Besprechung teil.",
-          "lv": "viņa piedalās sapulcē."
+          "lv": "Viņa piedalās sapulcē."
         }
       ],
       "comparison": [
@@ -57944,15 +57849,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Titel des Buches ist kurz.",
-          "lv": "grāmatas nosaukums ir īss."
+          "lv": "Grāmatas nosaukums ir īss."
         },
         {
           "de": "Ich kenne den Titel des Liedes nicht.",
-          "lv": "es nezinu dziesmas nosaukumu."
+          "lv": "Es nezinu dziesmas nosaukumu."
         },
         {
           "de": "Er trägt den Titel Professor.",
-          "lv": "viņam ir profesora tituls."
+          "lv": "Viņam ir profesora tituls."
         }
       ],
       "comparison": [
@@ -58107,15 +58012,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Ton ist zu leise.",
-          "lv": "skaņa ir pārāk klusa."
+          "lv": "Skaņa ir pārāk klusa."
         },
         {
           "de": "Sprich bitte in einem ruhigen Ton.",
-          "lv": "lūdzu, runā mierīgā tonī."
+          "lv": "Lūdzu, runā mierīgā tonī."
         },
         {
           "de": "Dieser Ton passt gut zur Wandfarbe.",
-          "lv": "šis tonis labi piestāv sienas krāsai."
+          "lv": "Šis tonis labi piestāv sienas krāsai."
         }
       ],
       "comparison": [
@@ -58294,15 +58199,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich traue dir.",
-          "lv": "es tev uzticos."
+          "lv": "Es tev uzticos."
         },
         {
           "de": "Ich traue ihr diese Aufgabe zu.",
-          "lv": "es ticu, ka viņa spēj paveikt šo uzdevumu."
+          "lv": "Es ticu, ka viņa spēj paveikt šo uzdevumu."
         },
         {
           "de": "Er traut sich nicht, allein zu sprechen.",
-          "lv": "viņš neuzdrošinās runāt viens."
+          "lv": "Viņš neuzdrošinās runāt viens."
         }
       ],
       "comparison": [
@@ -58455,19 +58360,19 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Treffen findet um 18 Uhr statt.",
-          "lv": "tikšanās notiek pulksten 18."
+          "lv": "Tikšanās notiek pulksten 18."
         },
         {
           "de": "Wir organisieren ein Treffen.",
-          "lv": "mēs organizējam tikšanos."
+          "lv": "Mēs organizējam tikšanos."
         },
         {
           "de": "Ich treffe heute einen Freund.",
-          "lv": "es šodien satieku draugu."
+          "lv": "Es šodien satieku draugu."
         },
         {
           "de": "Das nächste Treffen ist am Montag.",
-          "lv": "nākamā tikšanās ir pirmdien."
+          "lv": "Nākamā tikšanās ir pirmdien."
         }
       ],
       "tip": [
@@ -58593,15 +58498,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er treibt viel Sport.",
-          "lv": "viņš daudz nodarbojas ar sportu."
+          "lv": "Viņš daudz nodarbojas ar sportu."
         },
         {
           "de": "Der Wind treibt das Boot aufs Meer.",
-          "lv": "vējš dzen laivu jūrā."
+          "lv": "Vējš dzen laivu jūrā."
         },
         {
           "de": "Was treibst du heute Abend?",
-          "lv": "ko tu šovakar dari?"
+          "lv": "Ko tu šovakar dari?"
         }
       ],
       "tip": {
@@ -58650,24 +58555,15 @@ const B1_WORDS = [
         ],
         "comparison": [
           {
-            "word": {
-              "green": "treiben"
-            },
-            "meaning": {
-              "purple": "nodarboties"
-            },
-            "example": {
-              "blue": "treiben",
-              "yellow": "Sport"
-            }
+            "word": {},
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
               "green": "machen"
             },
-            "meaning": {
-              "purple": "darīt"
-            },
+            "meaning": {},
             "example": {
               "red": "machst"
             }
@@ -58676,11 +58572,8 @@ const B1_WORDS = [
             "word": {
               "green": "antreiben"
             },
-            "meaning": {
-              "purple": "dzīt"
-            },
+            "meaning": {},
             "example": {
-              "red": "treibt",
               "green": "uns"
             }
           }
@@ -58721,15 +58614,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte trenne Papier und Plastik.",
-          "lv": "lūdzu, atdali papīru un plastmasu."
+          "lv": "Lūdzu, atdali papīru un plastmasu."
         },
         {
           "de": "Eine Wand trennt die beiden Zimmer.",
-          "lv": "siena atdala abas istabas."
+          "lv": "Siena atdala abas istabas."
         },
         {
           "de": "Sie haben sich nach zehn Jahren getrennt.",
-          "lv": "viņi šķīrās pēc desmit gadiem."
+          "lv": "Viņi šķīrās pēc desmit gadiem."
         }
       ],
       "comparison": [
@@ -58774,9 +58667,7 @@ const B1_WORDS = [
                 "Plastik"
               ]
             },
-            "lv": {
-              "purple": "šķiro"
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -59069,15 +58960,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich übergebe dir den Schlüssel.",
-          "lv": "es nododu tev atslēgu."
+          "lv": "Es nododu tev atslēgu."
         },
         {
           "de": "Die Ärztin übergibt dem Kollegen den Bericht.",
-          "lv": "ārste nodod kolēģim ziņojumu."
+          "lv": "Ārste nodod kolēģim ziņojumu."
         },
         {
           "de": "Ihm ist schlecht, er muss sich übergeben.",
-          "lv": "viņam ir slikti, viņam jāvemj."
+          "lv": "Viņam ir slikti, viņam jāvemj."
         }
       ],
       "comparison": [
@@ -59205,15 +59096,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Lkw überholt das Auto.",
-          "lv": "kravas auto apdzen automašīnu."
+          "lv": "Kravas auto apdzen automašīnu."
         },
         {
           "de": "Auf dieser Straße darf man nicht überholen.",
-          "lv": "uz šī ceļa nedrīkst apdzīt."
+          "lv": "Uz šī ceļa nedrīkst apdzīt."
         },
         {
           "de": "Die Werkstatt überholt den alten Motor.",
-          "lv": "darbnīca kapitāli remontē veco motoru."
+          "lv": "Darbnīca kapitāli remontē veco motoru."
         }
       ],
       "comparison": [
@@ -59246,8 +59137,7 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "überholen",
-          "purple": "apdzīt",
-          "red": "remontēt"
+          "purple": "apdzīt"
         },
         "examples": [
           {
@@ -59347,15 +59237,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich übernehme diese Aufgabe.",
-          "lv": "es pārņemu šo uzdevumu."
+          "lv": "Es pārņemu šo uzdevumu."
         },
         {
           "de": "Die Firma übernimmt die Kosten.",
-          "lv": "uzņēmums uzņemas izmaksas."
+          "lv": "Uzņēmums uzņemas izmaksas."
         },
         {
           "de": "Kannst du morgen meine Schicht übernehmen?",
-          "lv": "vai tu vari rīt pārņemt manu maiņu?"
+          "lv": "Vai tu vari rīt pārņemt manu maiņu?"
         }
       ],
       "comparison": [
@@ -59488,15 +59378,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich habe den Fehler übersehen.",
-          "lv": "es nepamanīju kļūdu."
+          "lv": "Es nepamanīju kļūdu."
         },
         {
           "de": "Von hier kann man die ganze Stadt übersehen.",
-          "lv": "no šejienes var pārredzēt visu pilsētu."
+          "lv": "No šejienes var pārredzēt visu pilsētu."
         },
         {
           "de": "Bitte übersieh diese Kleinigkeit nicht.",
-          "lv": "lūdzu, nepalaid garām šo sīkumu."
+          "lv": "Lūdzu, nepalaid garām šo sīkumu."
         }
       ],
       "comparison": [
@@ -59715,15 +59605,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er kann gut mit Kindern umgehen.",
-          "lv": "viņš prot labi apieties ar bērniem."
+          "lv": "Viņš prot labi apieties ar bērniem."
         },
         {
           "de": "Wir umgehen die Baustelle.",
-          "lv": "mēs apejam būvlaukumu."
+          "lv": "Mēs apejam būvlaukumu."
         },
         {
           "de": "Man darf die Regeln nicht umgehen.",
-          "lv": "nedrīkst apiet noteikumus."
+          "lv": "Nedrīkst apiet noteikumus."
         }
       ],
       "comparison": [
@@ -59889,15 +59779,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Brief liegt im Umschlag.",
-          "lv": "vēstule ir aploksnē."
+          "lv": "Vēstule ir aploksnē."
         },
         {
           "de": "Der Umschlag des Buches ist rot.",
-          "lv": "grāmatas vāks ir sarkans."
+          "lv": "Grāmatas vāks ir sarkans."
         },
         {
           "de": "Der Arzt macht einen kalten Umschlag.",
-          "lv": "ārsts uzliek aukstu kompresi."
+          "lv": "Ārsts uzliek aukstu kompresi."
         }
       ],
       "comparison": [
@@ -60237,15 +60127,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Film unterhält die Zuschauer.",
-          "lv": "filma izklaidē skatītājus."
+          "lv": "Filma izklaidē skatītājus."
         },
         {
           "de": "Wir haben uns lange über die Reise unterhalten.",
-          "lv": "mēs ilgi sarunājāmies par ceļojumu."
+          "lv": "Mēs ilgi sarunājāmies par ceļojumu."
         },
         {
           "de": "Er muss seine Familie unterhalten.",
-          "lv": "viņam jāuztur sava ģimene."
+          "lv": "Viņam jāuztur sava ģimene."
         }
       ],
       "comparison": [
@@ -60397,15 +60287,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die ärztliche Untersuchung dauert zehn Minuten.",
-          "lv": "ārsta izmeklēšana ilgst desmit minūtes."
+          "lv": "Ārsta izmeklēšana ilgst desmit minūtes."
         },
         {
           "de": "Die Polizei leitet eine Untersuchung ein.",
-          "lv": "policija sāk izmeklēšanu."
+          "lv": "Policija sāk izmeklēšanu."
         },
         {
           "de": "Die Untersuchung liefert neue Ergebnisse.",
-          "lv": "pētījums sniedz jaunus rezultātus."
+          "lv": "Pētījums sniedz jaunus rezultātus."
         }
       ],
       "comparison": [
@@ -60599,15 +60489,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die neue Regel verändert den Alltag.",
-          "lv": "jaunais noteikums maina ikdienu."
+          "lv": "Jaunais noteikums maina ikdienu."
         },
         {
           "de": "Der Umzug hat sein Leben verändert.",
-          "lv": "pārcelšanās mainīja viņa dzīvi."
+          "lv": "Pārcelšanās mainīja viņa dzīvi."
         },
         {
           "de": "Die Stadt verändert sich schnell.",
-          "lv": "pilsēta ātri mainās."
+          "lv": "Pilsēta ātri mainās."
         }
       ],
       "comparison": [
@@ -60754,15 +60644,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Ärztin legt einen Verband an.",
-          "lv": "ārste uzliek pārsēju."
+          "lv": "Ārste uzliek pārsēju."
         },
         {
           "de": "Der Verband muss trocken bleiben.",
-          "lv": "pārsējam jāpaliek sausam."
+          "lv": "Pārsējam jāpaliek sausam."
         },
         {
           "de": "Der Verband vertritt viele Sportvereine.",
-          "lv": "apvienība pārstāv daudzas sporta biedrības."
+          "lv": "Apvienība pārstāv daudzas sporta biedrības."
         }
       ],
       "comparison": [
@@ -60892,15 +60782,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Internetverbindung ist schlecht.",
-          "lv": "interneta savienojums ir slikts."
+          "lv": "Interneta savienojums ir slikts."
         },
         {
           "de": "Es gibt eine direkte Verbindung nach Berlin.",
-          "lv": "ir tiešs savienojums uz Berlīni."
+          "lv": "Ir tiešs savienojums uz Berlīni."
         },
         {
           "de": "Ich habe eine Verbindung zu dieser Firma.",
-          "lv": "man ir saikne ar šo uzņēmumu."
+          "lv": "Man ir saikne ar šo uzņēmumu."
         }
       ],
       "comparison": [
@@ -61063,15 +60953,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte verbrenne das Papier nicht.",
-          "lv": "lūdzu, nesadedzini papīru."
+          "lv": "Lūdzu, nesadedzini papīru."
         },
         {
           "de": "Das Holz verbrennt sehr schnell.",
-          "lv": "koksne ļoti ātri sadeg."
+          "lv": "Koksne ļoti ātri sadeg."
         },
         {
           "de": "Ich habe mir die Hand verbrannt.",
-          "lv": "es apdedzināju roku."
+          "lv": "Es apdedzināju roku."
         }
       ],
       "comparison": [
@@ -61206,15 +61096,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Regen verdirbt den Ausflug.",
-          "lv": "lietus sabojā izbraucienu."
+          "lv": "Lietus sabojā izbraucienu."
         },
         {
           "de": "Die Milch ist verdorben.",
-          "lv": "piens ir sabojājies."
+          "lv": "Piens ir sabojājies."
         },
         {
           "de": "Die schlechte Nachricht verdarb ihm die Stimmung.",
-          "lv": "sliktā ziņa viņam sabojāja noskaņojumu."
+          "lv": "Sliktā ziņa viņam sabojāja noskaņojumu."
         }
       ],
       "comparison": [
@@ -61370,15 +61260,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Polizei verfolgt den Täter.",
-          "lv": "policija vajā noziedznieku."
+          "lv": "Policija vajā noziedznieku."
         },
         {
           "de": "Ich verfolge die Nachrichten jeden Abend.",
-          "lv": "es katru vakaru sekoju līdzi ziņām."
+          "lv": "Es katru vakaru sekoju līdzi ziņām."
         },
         {
           "de": "Der Hund verfolgt die Katze.",
-          "lv": "suns dzenas pakaļ kaķim."
+          "lv": "Suns dzenas pakaļ kaķim."
         }
       ],
       "comparison": [
@@ -61552,15 +61442,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich habe ein gutes Verhältnis zu meinen Kollegen.",
-          "lv": "man ir labas attiecības ar kolēģiem."
+          "lv": "Man ir labas attiecības ar kolēģiem."
         },
         {
           "de": "Das Verhältnis von Preis und Leistung ist gut.",
-          "lv": "cenas un kvalitātes attiecība ir laba."
+          "lv": "Cenas un kvalitātes attiecība ir laba."
         },
         {
           "de": "Die politischen Verhältnisse haben sich geändert.",
-          "lv": "politiskie apstākļi ir mainījušies."
+          "lv": "Politiskie apstākļi ir mainījušies."
         }
       ],
       "comparison": [
@@ -61766,15 +61656,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Wir verlegen den Termin auf Freitag.",
-          "lv": "mēs pārceļam termiņu uz piektdienu."
+          "lv": "Mēs pārceļam termiņu uz piektdienu."
         },
         {
           "de": "Ich habe meinen Schlüssel verlegt.",
-          "lv": "es kaut kur noliku atslēgu un nevaru to atrast."
+          "lv": "Es kaut kur noliku atslēgu un nevaru to atrast."
         },
         {
           "de": "Der Verlag verlegt das Buch im Herbst.",
-          "lv": "izdevniecība izdod grāmatu rudenī."
+          "lv": "Izdevniecība izdod grāmatu rudenī."
         }
       ],
       "comparison": [
@@ -61907,15 +61797,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er hat sich beim Sport am Knie verletzt.",
-          "lv": "viņš sportojot savainoja ceļgalu."
+          "lv": "Viņš sportojot savainoja ceļgalu."
         },
         {
           "de": "Deine Worte haben sie verletzt.",
-          "lv": "tavi vārdi viņu aizvainoja."
+          "lv": "Tavi vārdi viņu aizvainoja."
         },
         {
           "de": "Der Fahrer hat die Verkehrsregeln verletzt.",
-          "lv": "vadītājs pārkāpa satiksmes noteikumus."
+          "lv": "Vadītājs pārkāpa satiksmes noteikumus."
         }
       ],
       "comparison": [
@@ -62124,15 +62014,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich versichere mein Auto.",
-          "lv": "es apdrošinu savu auto."
+          "lv": "Es apdrošinu savu auto."
         },
         {
           "de": "Er versicherte mir, dass alles in Ordnung ist.",
-          "lv": "viņš man apliecināja, ka viss ir kārtībā."
+          "lv": "Viņš man apliecināja, ka viss ir kārtībā."
         },
         {
           "de": "Das Haus ist gegen Feuer versichert.",
-          "lv": "māja ir apdrošināta pret ugunsgrēku."
+          "lv": "Māja ir apdrošināta pret ugunsgrēku."
         }
       ],
       "comparison": [
@@ -62358,15 +62248,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie vertritt die Firma auf der Messe.",
-          "lv": "viņa pārstāv uzņēmumu izstādē."
+          "lv": "Viņa pārstāv uzņēmumu izstādē."
         },
         {
           "de": "Ich vertrete heute meinen Kollegen.",
-          "lv": "es šodien aizvietoju kolēģi."
+          "lv": "Es šodien aizvietoju kolēģi."
         },
         {
           "de": "Er vertritt eine klare Meinung.",
-          "lv": "viņš aizstāv skaidru viedokli."
+          "lv": "Viņš aizstāv skaidru viedokli."
         }
       ],
       "comparison": [
@@ -62515,15 +62405,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er ist ein enger Verwandter.",
-          "lv": "viņš ir tuvs radinieks."
+          "lv": "Viņš ir tuvs radinieks."
         },
         {
           "de": "Meine Verwandten wohnen in Lettland.",
-          "lv": "mani radinieki dzīvo Latvijā."
+          "lv": "Mani radinieki dzīvo Latvijā."
         },
         {
           "de": "Sie ist eine entfernte Verwandte.",
-          "lv": "viņa ir tāla radiniece."
+          "lv": "Viņa ir tāla radiniece."
         }
       ],
       "comparison": [
@@ -62618,15 +62508,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Sie ist eine entfernte Verwandte.",
-          "lv": "viņa ir tāla radiniece."
+          "lv": "Viņa ir tāla radiniece."
         },
         {
           "de": "Meine Verwandten wohnen in Lettland.",
-          "lv": "mani radinieki dzīvo Latvijā."
+          "lv": "Mani radinieki dzīvo Latvijā."
         },
         {
           "de": "Er ist ein enger Verwandter.",
-          "lv": "viņš ir tuvs radinieks."
+          "lv": "Viņš ir tuvs radinieks."
         }
       ],
       "comparison": [
@@ -62865,15 +62755,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "So etwas kommt in der Praxis oft vor.",
-          "lv": "tādas lietas praksē bieži gadās."
+          "lv": "Tādas lietas praksē bieži gadās."
         },
         {
           "de": "Dieses Wort kommt im Text mehrmals vor.",
-          "lv": "šis vārds tekstā parādās vairākas reizes."
+          "lv": "Šis vārds tekstā parādās vairākas reizes."
         },
         {
           "de": "Das kommt mir seltsam vor.",
-          "lv": "tas man šķiet savādi."
+          "lv": "Tas man šķiet savādi."
         }
       ],
       "comparison": [
@@ -63096,15 +62986,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Vorstellung beginnt um acht Uhr.",
-          "lv": "izrāde sākas pulksten astoņos."
+          "lv": "Izrāde sākas pulksten astoņos."
         },
         {
           "de": "Ich habe keine klare Vorstellung davon.",
-          "lv": "man par to nav skaidra priekšstata."
+          "lv": "Man par to nav skaidra priekšstata."
         },
         {
           "de": "Die nächste Vorstellung ist ausverkauft.",
-          "lv": "nākamā izrāde ir izpārdota."
+          "lv": "Nākamā izrāde ir izpārdota."
         }
       ],
       "comparison": [
@@ -63247,15 +63137,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich ziehe Tee dem Kaffee vor.",
-          "lv": "es dodu priekšroku tējai, nevis kafijai."
+          "lv": "Es dodu priekšroku tējai, nevis kafijai."
         },
         {
           "de": "Wir ziehen den Termin auf Mittwoch vor.",
-          "lv": "mēs pārceļam termiņu uz trešdienu agrāk."
+          "lv": "Mēs pārceļam termiņu uz trešdienu agrāk."
         },
         {
           "de": "Sie zieht es vor, zu Hause zu bleiben.",
-          "lv": "viņa dod priekšroku palikt mājās."
+          "lv": "Viņa dod priekšroku palikt mājās."
         }
       ],
       "comparison": [
@@ -63413,15 +63303,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Wache steht vor dem Eingang.",
-          "lv": "sardze stāv pie ieejas."
+          "lv": "Sardze stāv pie ieejas."
         },
         {
           "de": "Er hat heute Nacht Wache.",
-          "lv": "viņam šonakt ir sardzes dežūra."
+          "lv": "Viņam šonakt ir sardzes dežūra."
         },
         {
           "de": "Die Polizei bringt ihn zur Wache.",
-          "lv": "policija viņu ved uz iecirkni."
+          "lv": "Policija viņu ved uz iecirkni."
         }
       ],
       "comparison": [
@@ -63544,15 +63434,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich wache die ganze Nacht.",
-          "lv": "es esmu nomodā visu nakti."
+          "lv": "Es esmu nomodā visu nakti."
         },
         {
           "de": "Der Hund wacht vor dem Haus.",
-          "lv": "suns sargā māju."
+          "lv": "Suns sargā māju."
         },
         {
           "de": "Ich wache um sieben Uhr auf.",
-          "lv": "es pamostos pulksten septiņos."
+          "lv": "Es pamostos pulksten septiņos."
         }
       ],
       "comparison": [
@@ -63708,19 +63598,19 @@ const B1_WORDS = [
       "id": "b1-wagen",
       "layout": "standardStudy",
       "translation": "automašīna • vagons",
-      "explanation": "Galvenā doma: der Wagen nozīmē transportlīdzekli — automašīnu, vagoku vai ratiņus. Daudzskaitlis ir die Wagen. Tas nav darbības vārds wagen (uzdrošināties).",
+      "explanation": "Galvenā doma: der Wagen nozīmē transportlīdzekli — automašīnu, vagonu vai ratiņus. Daudzskaitlis ir die Wagen. Tas nav darbības vārds wagen (uzdrošināties).",
       "examples": [
         {
           "de": "Der Wagen steht vor dem Haus.",
-          "lv": "automašīna stāv pie mājas."
+          "lv": "Automašīna stāv pie mājas."
         },
         {
           "de": "Wir fahren mit dem Wagen zur Stadt.",
-          "lv": "mēs braucam ar automašīnu uz pilsētu."
+          "lv": "Mēs braucam ar automašīnu uz pilsētu."
         },
         {
           "de": "Der Güterwagen ist schwer beladen.",
-          "lv": "kravas vagons ir smagi noslogots."
+          "lv": "Kravas vagons ir smagi noslogots."
         }
       ],
       "comparison": [
@@ -63758,7 +63648,6 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "der Wagen",
-          "purple": "automašīna",
           "red": "wagen"
         },
         "examples": [
@@ -64041,15 +63930,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Wechsel der Jahreszeiten ist schön.",
-          "lv": "gadalaiku maiņa ir skaista."
+          "lv": "Gadalaiku maiņa ir skaista."
         },
         {
           "de": "Ich brauche einen Wechsel der Perspektive.",
-          "lv": "man vajag skatpunkta maiņu."
+          "lv": "Man vajag skatpunkta maiņu."
         },
         {
           "de": "Der Wechselkurs ist heute niedrig.",
-          "lv": "valūtas kurss šodien ir zems."
+          "lv": "Valūtas kurss šodien ir zems."
         }
       ],
       "comparison": [
@@ -64178,15 +64067,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich trinke weder Kaffee noch Tee.",
-          "lv": "es nedzeru nedz kafiju, nedz tēju."
+          "lv": "Es nedzeru nedz kafiju, nedz tēju."
         },
         {
           "de": "Er ist weder müde noch krank.",
-          "lv": "viņš nav ne noguris, ne slims."
+          "lv": "Viņš nav ne noguris, ne slims."
         },
         {
           "de": "Weder Anna noch Max kommt heute.",
-          "lv": "ne Anna, ne Makss šodien nenāk."
+          "lv": "Ne Anna, ne Makss šodien nenāk."
         }
       ],
       "comparison": [
@@ -64469,15 +64358,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Welle war sehr hoch.",
-          "lv": "vilnis bija ļoti augsts."
+          "lv": "Vilnis bija ļoti augsts."
         },
         {
           "de": "Eine Welle von Protesten begann.",
-          "lv": "sākās protestu vilnis."
+          "lv": "Sākās protestu vilnis."
         },
         {
           "de": "Die Welle in der Maschine ist beschädigt.",
-          "lv": "mašīnas vārpsta ir bojāta."
+          "lv": "Mašīnas vārpsta ir bojāta."
         }
       ],
       "comparison": [
@@ -64633,15 +64522,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Bitte wenden Sie das Auto.",
-          "lv": "lūdzu, apgrieziet auto."
+          "lv": "Lūdzu, apgrieziet auto."
         },
         {
           "de": "Wenden Sie das Blatt.",
-          "lv": "apgrieziet lapu."
+          "lv": "Apgrieziet lapu."
         },
         {
           "de": "Sie wendet sich an den Arzt.",
-          "lv": "viņa vēršas pie ārsta."
+          "lv": "Viņa vēršas pie ārsta."
         }
       ],
       "comparison": [
@@ -64776,15 +64665,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Die Firma wirbt für ein neues Produkt.",
-          "lv": "uzņēmums reklamē jaunu produktu."
+          "lv": "Uzņēmums reklamē jaunu produktu."
         },
         {
           "de": "Die Partei wirbt um Stimmen.",
-          "lv": "partija cenšas iegūt balsis."
+          "lv": "Partija cenšas iegūt balsis."
         },
         {
           "de": "Der Verein wirbt neue Mitglieder.",
-          "lv": "biedrība piesaista jaunus biedrus."
+          "lv": "Biedrība piesaista jaunus biedrus."
         }
       ],
       "comparison": [
@@ -64911,15 +64800,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Werk des Autors ist bekannt.",
-          "lv": "autora darbs ir pazīstams."
+          "lv": "Autora darbs ir pazīstams."
         },
         {
           "de": "Dieses Werk wurde 1920 geschrieben.",
-          "lv": "šis darbs tika uzrakstīts 1920. gadā."
+          "lv": "Šis darbs tika uzrakstīts 1920. gadā."
         },
         {
           "de": "Er arbeitet in einem Werk.",
-          "lv": "viņš strādā rūpnīcā."
+          "lv": "Viņš strādā rūpnīcā."
         }
       ],
       "comparison": [
@@ -65188,15 +65077,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Kind bekommt heute sein Zeugnis.",
-          "lv": "bērns šodien saņem liecību."
+          "lv": "Bērns šodien saņem liecību."
         },
         {
           "de": "Ich brauche ein ärztliches Zeugnis.",
-          "lv": "man vajag ārsta izziņu."
+          "lv": "Man vajag ārsta izziņu."
         },
         {
           "de": "Der Zeuge gibt vor Gericht ein Zeugnis ab.",
-          "lv": "liecinieks tiesā sniedz liecību."
+          "lv": "Liecinieks tiesā sniedz liecību."
         }
       ],
       "comparison": [
@@ -65445,15 +65334,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich gebe zu, dass ich einen Fehler gemacht habe.",
-          "lv": "es atzīstu, ka pieļāvu kļūdu."
+          "lv": "Es atzīstu, ka pieļāvu kļūdu."
         },
         {
           "de": "Sie gab die Wahrheit zu.",
-          "lv": "viņa atzina patiesību."
+          "lv": "Viņa atzina patiesību."
         },
         {
           "de": "Gib noch etwas Salz dazu.",
-          "lv": "pievieno vēl mazliet sāls."
+          "lv": "Pievieno vēl mazliet sāls."
         }
       ],
       "comparison": [
@@ -65607,15 +65496,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er zündet die Kerze an.",
-          "lv": "viņš aizdedzina sveci."
+          "lv": "Viņš aizdedzina sveci."
         },
         {
           "de": "Das Feuerzeug zündet nicht.",
-          "lv": "šķiltavas neaizdegas."
+          "lv": "Šķiltavas neaizdegas."
         },
         {
           "de": "Die Idee hat sofort gezündet.",
-          "lv": "ideja uzreiz nostrādāja."
+          "lv": "Ideja uzreiz nostrādāja."
         }
       ],
       "comparison": [
@@ -65750,15 +65639,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich sehe keinen Zusammenhang.",
-          "lv": "es neredzu nekādu sakarību."
+          "lv": "Es neredzu nekādu sakarību."
         },
         {
           "de": "Das steht im Zusammenhang mit der Arbeit.",
-          "lv": "tas ir saistībā ar darbu."
+          "lv": "Tas ir saistībā ar darbu."
         },
         {
           "de": "Im Zusammenhang wird der Satz klar.",
-          "lv": "kontekstā teikums kļūst skaidrs."
+          "lv": "Kontekstā teikums kļūst skaidrs."
         }
       ],
       "comparison": [
@@ -66003,27 +65892,27 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Was bist du von Beruf?",
-          "lv": "kāda ir tava profesija?"
+          "lv": "Kāda ir tava profesija?"
         },
         {
           "de": "Mein Beruf ist Lehrer.",
-          "lv": "mana profesija ir skolotājs."
+          "lv": "Mana profesija ir skolotājs."
         },
         {
           "de": "Sie sucht einen neuen Beruf.",
-          "lv": "viņa meklē jaunu profesiju."
+          "lv": "Viņa meklē jaunu profesiju."
         },
         {
           "de": "Er liebt seinen Beruf.",
-          "lv": "viņš mīl savu profesiju."
+          "lv": "Viņš mīl savu profesiju."
         },
         {
           "de": "Ich habe heute viel Arbeit.",
-          "lv": "man šodien ir daudz darba."
+          "lv": "Man šodien ir daudz darba."
         },
         {
           "de": "Der Job ist gut bezahlt.",
-          "lv": "darbs ir labi apmaksāts."
+          "lv": "Darbs ir labi apmaksāts."
         }
       ],
       "comparison": [
@@ -66415,31 +66304,31 @@ const B1_WORDS = [
       "id": "b1-steuer",
       "layout": "standardStudy",
       "translation": "nodoklis",
-      "explanation": "Galvenā doma: die Steuer nozīmē nodokli. Daudzskaitlis ir die Steuern. Savukārt das Steuer nozīmē stūri vai stūres rata — kuģa vai automašīnas vadības ierīci.",
+      "explanation": "Galvenā doma: die Steuer nozīmē nodokli. Daudzskaitlis ir die Steuern. Savukārt das Steuer nozīmē stūri vai stūres ratu — kuģa vai automašīnas vadības ierīci.",
       "examples": [
         {
           "de": "Die Steuern sind hoch.",
-          "lv": "nodokļi ir augsti."
+          "lv": "Nodokļi ir augsti."
         },
         {
           "de": "Er zahlt viel Steuer.",
-          "lv": "viņš maksā daudz nodokļu."
+          "lv": "Viņš maksā daudz nodokļu."
         },
         {
           "de": "Er hält das Steuer fest.",
-          "lv": "viņš cieši tur stūri."
+          "lv": "Viņš cieši tur stūri."
         }
       ],
       "comparison": [
         {
           "word": "die Steuer",
           "meaning": "nodoklis",
-          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
+          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Daudzskaitlis: die Steuern."
         },
         {
           "word": "das Steuer",
           "meaning": "stūre • stūres rats",
-          "example": "Das Steuer ist fest. = Stūre ir stingra. Plural: die Steuer."
+          "example": "Das Steuer ist fest. = Stūre ir stingra. Daudzskaitlis: die Steuer."
         },
         {
           "word": "die Abgabe",
@@ -66520,31 +66409,31 @@ const B1_WORDS = [
       "id": "b1-steuer-2",
       "layout": "standardStudy",
       "translation": "stūre",
-      "explanation": "Galvenā doma: das Steuer nozīmē stūri vai stūres rata — kuģa vai automašīnas vadības ierīci. Daudzskaitlis ir die Steuer. Savukārt die Steuer nozīmē nodokli (die Steuern).",
+      "explanation": "Galvenā doma: das Steuer nozīmē stūri vai stūres ratu — kuģa vai automašīnas vadības ierīci. Daudzskaitlis ir die Steuer. Savukārt die Steuer nozīmē nodokli (die Steuern).",
       "examples": [
         {
           "de": "Er hält das Steuer fest.",
-          "lv": "viņš cieši tur stūri."
+          "lv": "Viņš cieši tur stūri."
         },
         {
-          "de": "Die Steuer des Schiffes ist groß.",
-          "lv": "kuģa stūre ir liela."
+          "de": "Das Steuer des Schiffes ist groß.",
+          "lv": "Kuģa stūre ir liela."
         },
         {
           "de": "Die Steuern sind hoch.",
-          "lv": "nodokļi ir augsti."
+          "lv": "Nodokļi ir augsti."
         }
       ],
       "comparison": [
         {
           "word": "das Steuer",
           "meaning": "stūre • stūres rats",
-          "example": "Das Steuer ist fest. = Stūre ir stingra. Plural: die Steuer."
+          "example": "Das Steuer ist fest. = Stūre ir stingra. Daudzskaitlis: die Steuer."
         },
         {
           "word": "die Steuer",
           "meaning": "nodoklis",
-          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
+          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Daudzskaitlis: die Steuern."
         },
         {
           "word": "das Lenkrad",
@@ -66645,20 +66534,16 @@ const B1_WORDS = [
           "lv": "Es palieku mājās, jo esmu slims."
         },
         {
-          "de": "Ich bleibe zu Hause, weil ich krank bin.",
-          "lv": "es palieku mājās, jo esmu slims."
-        },
-        {
           "de": "Ich lerne Deutsch, weil ich in Deutschland arbeite.",
-          "lv": "es mācos vācu valodu, jo strādāju Vācijā."
+          "lv": "Es mācos vācu valodu, jo strādāju Vācijā."
         },
         {
           "de": "Er kommt nicht, weil er müde ist.",
-          "lv": "viņš nenāk, jo ir noguris."
+          "lv": "Viņš nenāk, jo ir noguris."
         },
         {
           "de": "Ich bleibe, weil ich krank bin.",
-          "lv": "es palieku, jo esmu slims."
+          "lv": "Es palieku, jo esmu slims."
         }
       ],
       "tip": [
@@ -66677,19 +66562,6 @@ const B1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "weil",
-                "weil"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jo"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -66778,20 +66650,16 @@ const B1_WORDS = [
           "lv": "Tā kā esmu slims, es palieku mājās."
         },
         {
-          "de": "Da ich krank bin, bleibe ich zu Hause.",
-          "lv": "tā kā esmu slims, es palieku mājās."
-        },
-        {
           "de": "Da du keine Zeit hast, machen wir es morgen.",
-          "lv": "tā kā tev nav laika, mēs to darīsim rīt."
+          "lv": "Tā kā tev nav laika, mēs to darīsim rīt."
         },
         {
           "de": "Da das Wetter schlecht ist, fahren wir nicht.",
-          "lv": "tā kā laiks ir slikts, mēs nebraucam."
+          "lv": "Tā kā laiks ir slikts, mēs nebraucam."
         },
         {
           "de": "Da ich krank bin, bleibe ich.",
-          "lv": "tā kā esmu slims, es palieku."
+          "lv": "Tā kā esmu slims, es palieku."
         }
       ],
       "tip": [
@@ -66818,15 +66686,6 @@ const B1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "da",
-                "da"
-              ]
-            },
-            "lv": {}
-          },
           {
             "de": {
               "green": [
@@ -66894,28 +66753,24 @@ const B1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Obwohl es müde bin, gehe ich spazieren.",
+          "de": "Obwohl ich müde bin, gehe ich spazieren.",
           "lv": "Kaut gan esmu noguris, es eju pastaigā."
         },
         {
           "de": "Obwohl es regnet, gehen wir raus.",
-          "lv": "kaut gan līst, mēs izejam ārā."
+          "lv": "Kaut gan līst, mēs izejam ārā."
         },
         {
           "de": "Obwohl er krank ist, arbeitet er.",
-          "lv": "kaut gan viņš ir slims, viņš strādā."
+          "lv": "Kaut gan viņš ir slims, viņš strādā."
         },
         {
           "de": "Obwohl ich wenig Zeit habe, helfe ich dir.",
-          "lv": "kaut gan man ir maz laika, es tev palīdzu."
+          "lv": "Kaut gan man ir maz laika, es tev palīdzu."
         },
         {
           "de": "Obwohl es regnet, gehen wir.",
-          "lv": "kaut gan līst, mēs izejam."
-        },
-        {
-          "de": "Obwohl es regnet, gehen wir raus.",
-          "lv": "Kaut gan līst, mēs izejam ārā."
+          "lv": "Kaut gan līst, mēs izejam."
         }
       ],
       "tip": [
@@ -66938,19 +66793,6 @@ const B1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "obwohl",
-                "obwohl"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kaut gan"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -67052,23 +66894,19 @@ const B1_WORDS = [
         },
         {
           "de": "Es regnet. Trotzdem gehen wir raus.",
-          "lv": "līst. tomēr mēs izejam ārā."
+          "lv": "Līst. tomēr mēs izejam ārā."
         },
         {
           "de": "Er ist krank. Trotzdem arbeitet er.",
-          "lv": "viņš ir slims. tomēr viņš strādā."
+          "lv": "Viņš ir slims. tomēr viņš strādā."
         },
         {
           "de": "Ich habe wenig Zeit. Trotzdem helfe ich dir.",
-          "lv": "man ir maz laika. tomēr es tev palīdzu."
+          "lv": "Man ir maz laika. tomēr es tev palīdzu."
         },
         {
           "de": "Es regnet. Trotzdem gehen wir.",
-          "lv": "līst. tomēr mēs izejam."
-        },
-        {
-          "de": "Es regnet. Trotzdem gehen wir raus.",
-          "lv": "Līst. Tomēr mēs izejam ārā."
+          "lv": "Līst. tomēr mēs izejam."
         }
       ],
       "tip": [
@@ -67091,19 +66929,6 @@ const B1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "trotzdem",
-                "trotzdem"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tomēr"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -67201,7 +67026,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Anstatt zu warten, rufe ich an.",
-          "lv": "tā vietā lai gaidītu, es zvanu."
+          "lv": "Tā vietā lai gaidītu, es zvanu."
         }
       ],
       "tip": [
@@ -67263,7 +67088,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er ging, ohne sich zu verabschieden.",
-          "lv": "viņš aizgāja, neuzvadoties."
+          "lv": "Viņš aizgāja, neatvadoties."
         }
       ],
       "tip": [
@@ -67327,27 +67152,27 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Hotel befindet sich im Zentrum.",
-          "lv": "viesnīca atrodas centrā."
+          "lv": "Viesnīca atrodas centrā."
         },
         {
           "de": "Die Toilette befindet sich im ersten Stock.",
-          "lv": "tualete atrodas pirmajā stāvā."
+          "lv": "Tualete atrodas pirmajā stāvā."
         },
         {
           "de": "Der Eingang befindet sich links.",
-          "lv": "ieeja atrodas pa kreisi."
+          "lv": "Ieeja atrodas pa kreisi."
         },
         {
           "de": "Die Schule befindet sich neben dem Park.",
-          "lv": "skola atrodas blakus parkam."
+          "lv": "Skola atrodas blakus parkam."
         },
         {
           "de": "Ich fühle mich heute gut.",
-          "lv": "es šodien jūtos labi."
+          "lv": "Es šodien jūtos labi."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "grāmata atrodas uz galda."
+          "lv": "Grāmata atrodas uz galda."
         }
       ],
       "comparison": [
@@ -67746,27 +67571,27 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Er ist der Erbe seines Onkels.",
-          "lv": "viņš ir savas onkļa mantinieks."
+          "lv": "Viņš ir sava onkļa mantinieks."
         },
         {
           "de": "Die Erben teilen das Vermögen.",
-          "lv": "mantinieki sadala mantu."
+          "lv": "Mantinieki sadala mantu."
         },
         {
           "de": "Das Erbe besteht aus einem Haus.",
-          "lv": "mantojums sastāv no mājas."
+          "lv": "Mantojums sastāv no mājas."
         },
         {
           "de": "Sie hat ein großes Erbe bekommen.",
-          "lv": "viņa saņēma lielu mantojumu."
+          "lv": "Viņa saņēma lielu mantojumu."
         },
         {
           "de": "Wer ist der Erbe?",
-          "lv": "kas ir mantinieks?"
+          "lv": "Kas ir mantinieks?"
         },
         {
           "de": "Das Erbe wird geteilt.",
-          "lv": "mantojums tiek sadalīts."
+          "lv": "Mantojums tiek sadalīts."
         }
       ],
       "tip": [
@@ -67903,27 +67728,27 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das Erbe ist sehr groß.",
-          "lv": "mantojums ir ļoti liels."
+          "lv": "Mantojums ir ļoti liels."
         },
         {
           "de": "Er ist der Erbe seines Onkels.",
-          "lv": "viņš ir savas onkļa mantinieks."
+          "lv": "Viņš ir sava onkļa mantinieks."
         },
         {
           "de": "Das Erbe besteht aus einem Haus.",
-          "lv": "mantojums sastāv no mājas."
+          "lv": "Mantojums sastāv no mājas."
         },
         {
           "de": "Sie hat ein großes Erbe bekommen.",
-          "lv": "viņa saņēma lielu mantojumu."
+          "lv": "Viņa saņēma lielu mantojumu."
         },
         {
           "de": "Wer ist der Erbe?",
-          "lv": "kas ir mantinieks?"
+          "lv": "Kas ir mantinieks?"
         },
         {
           "de": "Das Erbe wird geteilt.",
-          "lv": "mantojums tiek sadalīts."
+          "lv": "Mantojums tiek sadalīts."
         }
       ],
       "tip": [
@@ -68058,27 +67883,23 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Am Auto ist ein Schaden.",
-          "lv": "automašīnai ir bojājums."
+          "lv": "Automašīnai ir bojājums."
         },
         {
           "de": "Der Sturm verursachte großen Schaden.",
-          "lv": "vētra radīja lielus zaudējumus."
-        },
-        {
-          "de": "Am Auto ist ein Schaden.",
-          "lv": "automašīnai ir bojājums."
+          "lv": "Vētra radīja lielus zaudējumus."
         },
         {
           "de": "Wer zahlt den Schaden?",
-          "lv": "kas maksā par zaudējumu?"
+          "lv": "Kas maksā par zaudējumu?"
         },
         {
           "de": "Der Schaden ist groß.",
-          "lv": "zaudējums ir liels."
+          "lv": "Zaudējums ir liels."
         },
         {
           "de": "Das schadet der Gesundheit.",
-          "lv": "tas kaitē veselībai."
+          "lv": "Tas kaitē veselībai."
         }
       ],
       "tip": [
@@ -68088,7 +67909,6 @@ const B1_WORDS = [
       "important": [
         "der Schaden = lietvārds (zaudējums).",
         "schaden = darbības vārds (kaitēt) + kam?.",
-        "Nepareizi: Der Schaden schadet → Pareizi: Etwas schadet der Gesundheit.",
         "der Schaden = zaudējums."
       ],
       "sectionAccents": {
@@ -68123,18 +67943,6 @@ const B1_WORDS = [
             "lv": {
               "purple": [
                 "zaudējumu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "schaden"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "bojājums"
               ]
             }
           },
@@ -68219,23 +68027,23 @@ const B1_WORDS = [
         },
         {
           "de": "Der Sturm verursachte großen Schaden.",
-          "lv": "vētra radīja lielus zaudējumus."
+          "lv": "Vētra radīja lielus zaudējumus."
         },
         {
           "de": "Am Auto ist ein Schaden.",
-          "lv": "automašīnai ir bojājums."
+          "lv": "Automašīnai ir bojājums."
         },
         {
           "de": "Wer zahlt den Schaden?",
-          "lv": "kas maksā par zaudējumu?"
+          "lv": "Kas maksā par zaudējumu?"
         },
         {
           "de": "Der Schaden ist groß.",
-          "lv": "zaudējums ir liels."
+          "lv": "Zaudējums ir liels."
         },
         {
           "de": "Das schadet der Gesundheit.",
-          "lv": "tas kaitē veselībai."
+          "lv": "Tas kaitē veselībai."
         }
       ],
       "tip": [
@@ -68362,23 +68170,23 @@ const B1_WORDS = [
         },
         {
           "de": "Ich habe Vertrauen zu meinem Arzt.",
-          "lv": "man ir uzticība savam ārstam."
+          "lv": "Man ir uzticība savam ārstam."
         },
         {
           "de": "Das Vertrauen ist wichtig.",
-          "lv": "uzticība ir svarīga."
+          "lv": "Uzticība ir svarīga."
         },
         {
           "de": "Kann ich dir vertrauen?",
-          "lv": "vai es varu tev uzticēties?"
+          "lv": "Vai es varu tev uzticēties?"
         },
         {
           "de": "Er hat mein Vertrauen verloren.",
-          "lv": "viņš zaudēja manu uzticību."
+          "lv": "Viņš zaudēja manu uzticību."
         },
         {
           "de": "Wir vertrauen unserem Lehrer.",
-          "lv": "mēs uzticamies savam skolotājam."
+          "lv": "Mēs uzticamies savam skolotājam."
         }
       ],
       "tip": [
@@ -68388,7 +68196,7 @@ const B1_WORDS = [
       "important": [
         "das Vertrauen = lietvārds (uzticība).",
         "vertrauen = darbības vārds (uzticēties) + kam?.",
-        "Nepareizi: Ich habe Vertrauen in dich. → Pareizi: Ich habe Vertrauen zu dir.",
+        "Pareizi abi varianti: Ich habe Vertrauen zu dir. / Ich habe Vertrauen in dich.",
         "das Vertrauen = uzticība."
       ],
       "sectionAccents": {
@@ -68519,23 +68327,23 @@ const B1_WORDS = [
         },
         {
           "de": "Ich habe Vertrauen zu meinem Arzt.",
-          "lv": "man ir uzticība savam ārstam."
+          "lv": "Man ir uzticība savam ārstam."
         },
         {
           "de": "Das Vertrauen ist wichtig.",
-          "lv": "uzticība ir svarīga."
+          "lv": "Uzticība ir svarīga."
         },
         {
           "de": "Kann ich dir vertrauen?",
-          "lv": "vai es varu tev uzticēties?"
+          "lv": "Vai es varu tev uzticēties?"
         },
         {
           "de": "Er hat mein Vertrauen verloren.",
-          "lv": "viņš zaudēja manu uzticību."
+          "lv": "Viņš zaudēja manu uzticību."
         },
         {
           "de": "Wir vertrauen unserem Lehrer.",
-          "lv": "mēs uzticamies savam skolotājam."
+          "lv": "Mēs uzticamies savam skolotājam."
         }
       ],
       "tip": [
@@ -68545,7 +68353,7 @@ const B1_WORDS = [
       "important": [
         "das Vertrauen = lietvārds (uzticība).",
         "vertrauen = darbības vārds (uzticēties) + kam?.",
-        "Nepareizi: Ich habe Vertrauen in dich. → Pareizi: Ich habe Vertrauen zu dir.",
+        "Pareizi abi varianti: Ich habe Vertrauen zu dir. / Ich habe Vertrauen in dich.",
         "das Vertrauen = uzticība."
       ],
       "sectionAccents": {
@@ -68659,32 +68467,28 @@ const B1_WORDS = [
         "Bieži raksturo: prievārds.",
         "der Trotz nozīmē spītu vai spītību kā īpašību.",
         "trotz ir prievārds un nozīmē neraugoties uz kaut ko.",
-        "Prievārdam trotz obligāti jābūt ģenitīvam: trotz des Regens, trotz des Wetters."
+        "Prievārdam trotz standartvalodā seko ģenitīvs: trotz des Regens, trotz des Wetters (sarunvalodā bieži lieto arī datīvu)."
       ],
       "examples": [
         {
           "de": "Er macht es aus Trotz.",
-          "lv": "viņš to dara spīta pēc."
+          "lv": "Viņš to dara spīta pēc."
         },
         {
           "de": "Trotz des Regens gehen wir spazieren.",
-          "lv": "neraugoties uz lietu, mēs ejam pastaigā."
-        },
-        {
-          "de": "Er macht es aus Trotz.",
-          "lv": "viņš to dara spīta pēc."
+          "lv": "Neraugoties uz lietu, mēs ejam pastaigā."
         },
         {
           "de": "Trotz des schlechten Wetters fahren wir.",
-          "lv": "neraugoties uz slikto laiku, mēs braucam."
+          "lv": "Neraugoties uz slikto laiku, mēs braucam."
         },
         {
           "de": "Sie hat viel Trotz.",
-          "lv": "viņai ir daudz spīta."
+          "lv": "Viņai ir daudz spīta."
         },
         {
           "de": "Trotz der Krankheit kommt er.",
-          "lv": "neraugoties uz slimību, viņš nāk."
+          "lv": "Neraugoties uz slimību, viņš nāk."
         }
       ],
       "tip": [
@@ -68694,8 +68498,8 @@ const B1_WORDS = [
       "important": [
         "der Trotz = lietvārds (spīts).",
         "trotz = prievārds (neraugoties uz) + piederības forma.",
-        "trotz dem Regen — nepareizi; pareizi: trotz des Regens.",
-        "Nepareizi: Trotz dem Regen gehen wir. → Pareizi: Trotz des Regens gehen wir."
+        "trotz dem Regen ir sarunvaloda; standartvalodā: trotz des Regens.",
+        "Sarunvalodā: Trotz dem Regen gehen wir. → Standartvalodā: Trotz des Regens gehen wir."
       ],
       "sectionAccents": {
         "explanation": {
@@ -68727,18 +68531,6 @@ const B1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "trotz"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "spīta"
-              ]
-            }
           },
           {
             "de": {
@@ -68807,7 +68599,7 @@ const B1_WORDS = [
         "Bieži raksturo: prievārds.",
         "der Trotz nozīmē spītu vai spītību kā īpašību.",
         "trotz ir prievārds un nozīmē neraugoties uz kaut ko.",
-        "Prievārdam trotz obligāti jābūt ģenitīvam: trotz des Regens, trotz des Wetters."
+        "Prievārdam trotz standartvalodā seko ģenitīvs: trotz des Regens, trotz des Wetters (sarunvalodā bieži lieto arī datīvu)."
       ],
       "examples": [
         {
@@ -68815,24 +68607,20 @@ const B1_WORDS = [
           "lv": "Neraugoties uz lietu, mēs ejam pastaigā."
         },
         {
-          "de": "Trotz des Regens gehen wir spazieren.",
-          "lv": "neraugoties uz lietu, mēs ejam pastaigā."
-        },
-        {
           "de": "Er macht es aus Trotz.",
-          "lv": "viņš to dara spīta pēc."
+          "lv": "Viņš to dara spīta pēc."
         },
         {
           "de": "Trotz des schlechten Wetters fahren wir.",
-          "lv": "neraugoties uz slikto laiku, mēs braucam."
+          "lv": "Neraugoties uz slikto laiku, mēs braucam."
         },
         {
           "de": "Sie hat viel Trotz.",
-          "lv": "viņai ir daudz spīta."
+          "lv": "Viņai ir daudz spīta."
         },
         {
           "de": "Trotz der Krankheit kommt er.",
-          "lv": "neraugoties uz slimību, viņš nāk."
+          "lv": "Neraugoties uz slimību, viņš nāk."
         }
       ],
       "tip": [
@@ -68842,8 +68630,8 @@ const B1_WORDS = [
       "important": [
         "der Trotz = lietvārds (spīts).",
         "trotz = prievārds (neraugoties uz) + piederības forma.",
-        "trotz dem Regen — nepareizi; pareizi: trotz des Regens.",
-        "Nepareizi: Trotz dem Regen gehen wir. → Pareizi: Trotz des Regens gehen wir."
+        "trotz dem Regen ir sarunvaloda; standartvalodā: trotz des Regens.",
+        "Sarunvalodā: Trotz dem Regen gehen wir. → Standartvalodā: Trotz des Regens gehen wir."
       ],
       "sectionAccents": {
         "explanation": {
@@ -68860,19 +68648,6 @@ const B1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "trotz",
-                "trotz"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "neraugoties uz"
-              ]
-            }
-          },
           {
             "de": {
               "green": [

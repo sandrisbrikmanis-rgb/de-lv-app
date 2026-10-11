@@ -246,7 +246,8 @@ const B2_WORDS = [
             "angebracht"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "angehen",
@@ -524,7 +525,8 @@ const B2_WORDS = [
             "Abgesehen von"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "abgespannt",
@@ -817,7 +819,8 @@ const B2_WORDS = [
             "tragen"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "abtreten",
@@ -1146,7 +1149,8 @@ const B2_WORDS = [
             "Äußerlichkeit"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Äußerung",
@@ -1330,7 +1334,8 @@ const B2_WORDS = [
             "auszusetzen"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "aussichtslos",
@@ -1495,7 +1500,8 @@ const B2_WORDS = [
             "ausströmen"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "austragen",
@@ -1668,7 +1674,8 @@ const B2_WORDS = [
             "eintreten"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "auswärtig",
@@ -1992,7 +1999,8 @@ const B2_WORDS = [
             "bauen"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "bedürfen",
@@ -2509,7 +2517,8 @@ const B2_WORDS = [
             "Mannschaft"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "beschämen",
@@ -2702,7 +2711,8 @@ const B2_WORDS = [
             "besitzen"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "besiedeln",
@@ -3763,7 +3773,8 @@ const B2_WORDS = [
             "Vorstellung"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Dasein",
@@ -3888,7 +3899,8 @@ const B2_WORDS = [
             "dasjenige"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Datei",
@@ -4295,7 +4307,8 @@ const B2_WORDS = [
             "anheuern"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Direktion",
@@ -4511,7 +4524,8 @@ const B2_WORDS = [
             "Donner"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "dopen",
@@ -5044,7 +5058,8 @@ const B2_WORDS = [
             "Nebel"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "durcharbeiten",
@@ -5565,7 +5580,8 @@ const B2_WORDS = [
             "eigenwillig"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Eilbote",
@@ -5831,17 +5847,14 @@ const B2_WORDS = [
       "id": "b2-sich-einpraegen",
       "layout": "minimalStudy",
       "translation": "iegaumēt",
-      "rektion": "in + ko?",
-      "explanation": "sich einprägen nepieciešams noteikts prievārds in + ko?.",
-      "forms": "in + ko?",
+      "rektion": "kam? + ko?",
+      "explanation": "sich einprägen lieto ar tiešo papildinājumu (ko?) un bieži ar personu datīvā (kam?): sich etwas einprägen = ko iegaumēt.",
+      "forms": "kam? + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich einprägen"
-          ],
-          "red": [
-            "in + ko?"
           ]
         }
       }
@@ -6252,17 +6265,14 @@ const B2_WORDS = [
       "id": "b2-sich-enthalten",
       "layout": "minimalStudy",
       "translation": "atturēties no",
-      "rektion": "von + kam?",
-      "explanation": "sich enthalten nepieciešams noteikts prievārds von + kam?.",
-      "forms": "von + kam?",
+      "rektion": "ģenitīvs (kā?)",
+      "explanation": "sich enthalten parasti lieto ar ģenitīvu: sich der Stimme enthalten = atturēties no balsošanas.",
+      "forms": "ģenitīvs (kā?)",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich enthalten"
-          ],
-          "red": [
-            "von + kam?"
           ]
         }
       }
@@ -6331,14 +6341,14 @@ const B2_WORDS = [
   },
   {
     "de": "sich entrüsten",
-    "lv": "sašust • sadumpoties",
+    "lv": "sašust",
     "level": "B2",
     "study": {
       "id": "b2-sich-entruesten",
       "layout": "minimalStudy",
-      "translation": "sašust • sadumpoties",
+      "translation": "sašust",
       "rektion": "über + ko?",
-      "explanation": "sich entrüsten nepieciešams noteikts prievārds über + ko?.",
+      "explanation": "sich entrüsten nepieciešams prievārds über + ko?: sich über etwas entrüsten = sašust par kaut ko.",
       "forms": "über + ko?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
@@ -7216,17 +7226,14 @@ const B2_WORDS = [
       "id": "b2-sich-fassen",
       "layout": "minimalStudy",
       "translation": "sagrābt • saņemties • savaldīties",
-      "rektion": "an + kam?",
-      "explanation": "sich fassen nepieciešams noteikts prievārds an + kam?.",
-      "forms": "an + kam?",
+      "rektion": "bez prievārda",
+      "explanation": "sich fassen nozīmē saņemties, savaldīties un parasti tiek lietots bez prievārda: Er fasste sich.",
+      "forms": "bez prievārda",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich fassen"
-          ],
-          "red": [
-            "an + kam?"
           ]
         }
       }
@@ -7593,7 +7600,8 @@ const B2_WORDS = [
             "bunt"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "fliederfarben",
@@ -7948,7 +7956,8 @@ const B2_WORDS = [
             "Fristlos"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "fromm",
@@ -8521,7 +8530,8 @@ const B2_WORDS = [
             "gelaunt"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Geldbuße",
@@ -9353,7 +9363,8 @@ const B2_WORDS = [
             "Hitze"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Gnade",
@@ -9479,7 +9490,8 @@ const B2_WORDS = [
             "Mitleid"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Gnadenbrot",
@@ -9910,34 +9922,34 @@ const B2_WORDS = [
       "translation": "cepurīte • pārsegs",
       "explanation": [
         "Galvenā doma: die Haube var nozīmēt galvas cepurīti/kapuci vai pārsegu/vāku — konteksts nosaka nozīmi.",
-        "Uz galvas: die Haube = cepurīte, kapuce vai autortehnika konkrētā kontekstā (z. B. Nonne mit Haube).",
+        "Uz galvas: die Haube = cepurīte, kapuce (piemēram, mūķenei: Nonne mit Haube).",
         "Pie automašīnas: die Motorhaube vai einfach die Haube = motora pārsegs.",
         "Virtuvē: die Dunsthaube = nosūcējs virs plīts. Tehnikā: pārsegs vai vāks virs iekārtas."
       ],
       "examples": [
         {
           "de": "Sie trägt eine warme Haube.",
-          "lv": "viņa valkā siltu cepurīti."
+          "lv": "Viņa valkā siltu cepurīti."
         },
         {
           "de": "Die Nonne trägt eine schwarze Haube.",
-          "lv": "mūķene valkā melnu kapuci."
+          "lv": "Mūķene valkā melnu kapuci."
         },
         {
           "de": "Er öffnet die Haube des Autos.",
-          "lv": "viņš atver automašīnas motora pārsegu."
+          "lv": "Viņš atver automašīnas motora pārsegu."
         },
         {
           "de": "Die Motorhaube ist kaputt.",
-          "lv": "motora pārsegs ir salauzts."
+          "lv": "Motora pārsegs ir salauzts."
         },
         {
           "de": "Über dem Herd hängt eine Dunsthaube.",
-          "lv": "virs plīts ir piestiprināts nosūcējs."
+          "lv": "Virs plīts ir piestiprināts nosūcējs."
         },
         {
           "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "uzliec vāku kā pārsegu uz katla."
+          "lv": "Uzliec vāku kā pārsegu uz katla."
         }
       ],
       "tip": [
@@ -10524,7 +10536,8 @@ const B2_WORDS = [
             "hetzen"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "heucheln",
@@ -10716,7 +10729,8 @@ const B2_WORDS = [
             "Nachricht"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "hinsichtlich",
@@ -10828,19 +10842,19 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
-          "lv": "mēs uzsaucam tostu jaunlaulātajiem."
+          "lv": "Mēs uzsaucam tostu jaunlaulātajiem."
         },
         {
           "de": "Ein Hoch auf dich!",
-          "lv": "lai dzīvo tu!"
+          "lv": "Lai dzīvo tu!"
         },
         {
           "de": "Morgen kommt ein Hoch.",
-          "lv": "rīt gaidāms anticiklons (augsts spiediens)."
+          "lv": "Rīt gaidāms anticiklons (augsts spiediens)."
         },
         {
           "de": "Der Berg ist sehr hoch.",
-          "lv": "kalns ir ļoti augsts."
+          "lv": "Kalns ir ļoti augsts."
         }
       ],
       "tip": [
@@ -11007,15 +11021,15 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Nach dem Regen gibt es Hochwasser.",
-          "lv": "pēc lietus ir plūdi."
+          "lv": "Pēc lietus ir plūdi."
         },
         {
           "de": "Das Hochwasser bedroht die Stadt.",
-          "lv": "augsts ūdens līmenis apdraud pilsētu."
+          "lv": "Augsts ūdens līmenis apdraud pilsētu."
         },
         {
           "de": "Die Behörden warnen vor Hochwasser.",
-          "lv": "iestādes brīdina par plūdiem."
+          "lv": "Iestādes brīdina par plūdiem."
         }
       ],
       "comparison": [
@@ -11669,19 +11683,19 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Er hat ein schweres Leiden.",
-          "lv": "viņam ir smaga slimība."
+          "lv": "Viņam ir smaga slimība."
         },
         {
           "de": "Das Leiden der Patienten war groß.",
-          "lv": "pacientu ciešanas bija lielas."
+          "lv": "Pacientu ciešanas bija lielas."
         },
         {
           "de": "Er leidet an einer seltenen Krankheit.",
-          "lv": "viņš cieš no retas slimības."
+          "lv": "Viņš cieš no retas slimības."
         },
         {
           "de": "Ihr Leiden dauerte Jahre.",
-          "lv": "viņas slimība ilga gadiem."
+          "lv": "Viņas slimība ilga gadiem."
         }
       ],
       "tip": [
@@ -12496,29 +12510,29 @@ const B2_WORDS = [
       "explanation": [
         "Galvenā doma: der Nachdruck var nozīmēt uzsvērumu vai grāmatas atkārtotu izdevumu.",
         "Nachdruck auf etwas legen = likt uzsvērumu uz kaut ko, uzstāt uz kaut ko.",
-        "Der Nachdruck eines Buches = grāmatas atkārtots izdevums (reprint).",
+        "Der Nachdruck eines Buches = grāmatas atkārtots izdevums (atkārtots iespiedums).",
         "Konteksts (darījumi/pārrunas vai izdevniecība) nosaka pareizo nozīmi."
       ],
       "examples": [
         {
           "de": "Er legt Nachdruck auf die Frist.",
-          "lv": "viņš uzsver termiņu."
+          "lv": "Viņš uzsver termiņu."
         },
         {
           "de": "Mit Nachdruck forderte sie eine Antwort.",
-          "lv": "viņa uzstājīgi pieprasīja atbildi."
+          "lv": "Viņa uzstājīgi pieprasīja atbildi."
         },
         {
           "de": "Der Nachdruck des Romans erschien im Frühjahr.",
-          "lv": "romāna atkārtotais izdevums iznāca pavasarī."
+          "lv": "Romāna atkārtotais izdevums iznāca pavasarī."
         },
         {
           "de": "Dieses Buch ist bereits im Nachdruck.",
-          "lv": "šī grāmata jau ir atkārtotā izdevumā."
+          "lv": "Šī grāmata jau ir atkārtotā izdevumā."
         },
         {
           "de": "Der Verlag plant einen Nachdruck.",
-          "lv": "izdevējs plāno atkārtotu izdevumu."
+          "lv": "Izdevējs plāno atkārtotu izdevumu."
         }
       ],
       "comparison": [
@@ -12818,7 +12832,8 @@ const B2_WORDS = [
             "später"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Nachweis",
@@ -14600,19 +14615,19 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Das menschliche Sein ist komplex.",
-          "lv": "cilvēka esamība ir sarežģīta."
+          "lv": "Cilvēka esamība ir sarežģīta."
         },
         {
           "de": "Sein oder Nichtsein, das ist die Frage.",
-          "lv": "būt vai nebūt, tāds ir jautājums."
+          "lv": "Būt vai nebūt, tāds ir jautājums."
         },
         {
           "de": "Ich bin müde.",
-          "lv": "es esmu noguris."
+          "lv": "Es esmu noguris."
         },
         {
           "de": "Das Sein bestimmt das Bewusstsein.",
-          "lv": "esamība nosaka apziņu."
+          "lv": "Esamība nosaka apziņu."
         }
       ],
       "tip": [
@@ -14865,27 +14880,27 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Ich komme, sofern ich Zeit habe.",
-          "lv": "es nāku, ja man ir laiks."
+          "lv": "Es nāku, ja man ir laiks."
         },
         {
           "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
-          "lv": "ja nav norunāts citādi, ir spēkā standarta cena."
+          "lv": "Ja nav norunāts citādi, ir spēkā standarta cena."
         },
         {
           "de": "Sofern das Wetter gut ist, machen wir einen Ausflug.",
-          "lv": "ar noteikumu, ka laiks būs labs, mēs dosimies ekskursijā."
+          "lv": "Ar noteikumu, ka laiks būs labs, mēs dosimies ekskursijā."
         },
         {
           "de": "Sofern möglich, bitte pünktlich sein.",
-          "lv": "ja iespējams, lūdzu, esiet precīzi."
+          "lv": "Ja iespējams, lūdzu, esiet precīzi."
         },
         {
           "de": "Er hilft, sofern er kann.",
-          "lv": "viņš palīdz, ja viņš var."
+          "lv": "Viņš palīdz, ja viņš var."
         },
         {
           "de": "Da es regnet, bleiben wir zu Hause.",
-          "lv": "tā kā līst, mēs paliekam mājās."
+          "lv": "Tā kā līst, mēs paliekam mājās."
         }
       ],
       "tip": [
@@ -15315,7 +15330,8 @@ const B2_WORDS = [
             "gießen"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Sprengstoff",
@@ -15997,7 +16013,8 @@ const B2_WORDS = [
             "bringen"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Übereinkommen",
@@ -16633,7 +16650,8 @@ const B2_WORDS = [
             "Unterlagen"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "unterlassen",
@@ -17042,7 +17060,8 @@ const B2_WORDS = [
             "verfügen"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Verfügung",
@@ -17422,7 +17441,8 @@ const B2_WORDS = [
             "vergessen"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "versetzen",
@@ -17506,17 +17526,14 @@ const B2_WORDS = [
       "id": "b2-sich-verstellen",
       "layout": "minimalStudy",
       "translation": "uzdoties par",
-      "rektion": "als + ko?",
-      "explanation": "sich verstellen nepieciešams noteikts prievārds als + ko?.",
-      "forms": "als + ko?",
+      "rektion": "als + kas?",
+      "explanation": "sich verstellen nepieciešams als + kas? (nominatīvs): sich als etwas verstellen = uzdoties par kaut ko.",
+      "forms": "als + kas?",
       "formsLabel": "Vadība:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich verstellen"
-          ],
-          "red": [
-            "als + ko?"
           ]
         }
       }
@@ -18390,7 +18407,8 @@ const B2_WORDS = [
             "Wesen"
           ]
         }
-      }}
+      }
+    }
   },
   {
     "de": "Wettlauf",
@@ -18647,15 +18665,15 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Der Chef weist ihm eine neue Aufgabe zu.",
-          "lv": "priekšnieks viņam piešķir jaunu uzdevumu."
+          "lv": "Priekšnieks viņam piešķir jaunu uzdevumu."
         },
         {
           "de": "Die Mittel wurden dem Projekt zugewiesen.",
-          "lv": "līdzekļi tika piešķirti projektam."
+          "lv": "Līdzekļi tika piešķirti projektam."
         },
         {
           "de": "Sie wurde einer anderen Abteilung zugewiesen.",
-          "lv": "viņu norīkoja uz citu nodaļu."
+          "lv": "Viņu norīkoja uz citu nodaļu."
         }
       ],
       "comparison": [
@@ -18758,15 +18776,15 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Er handelte mir zuwider.",
-          "lv": "viņš rīkojās pret manu gribu."
+          "lv": "Viņš rīkojās pret manu gribu."
         },
         {
           "de": "Sein Benehmen ist mir zuwider.",
-          "lv": "viņa uzvedība man nepatīk."
+          "lv": "Viņa uzvedība man nepatīk."
         },
         {
           "de": "Das läuft mir zuwider.",
-          "lv": "tas man nepatīk / tas mani apbēdina."
+          "lv": "Tas man nepatīk / tas mani apbēdina."
         }
       ],
       "comparison": [
@@ -18918,15 +18936,11 @@ const B2_WORDS = [
         },
         {
           "de": "Ich muss Geld wechseln.",
-          "lv": "man jāsamaina nauda."
+          "lv": "Man jāsamaina nauda."
         },
         {
           "de": "Wir wechseln das Thema.",
-          "lv": "mēs mainām tēmu."
-        },
-        {
-          "de": "Ich wechsle die Schule.",
-          "lv": "es mainu skolu."
+          "lv": "Mēs mainām tēmu."
         }
       ],
       "tip": [
@@ -18971,14 +18985,6 @@ const B2_WORDS = [
               "green": [
                 "wechseln",
                 "wechseln"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "wechsle"
               ]
             },
             "lv": {}
@@ -19028,20 +19034,8 @@ const B2_WORDS = [
           "lv": "Skola piedāvā daudz kursu."
         },
         {
-          "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "vai drīkstu jums kaut ko piedāvāt?"
-        },
-        {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "skola piedāvā daudz kursu."
-        },
-        {
           "de": "Die App bietet Sicherheit.",
-          "lv": "lietotne nodrošina drošību."
-        },
-        {
-          "de": "bieten",
-          "lv": "ko kaut kas sniedz; anbieten"
+          "lv": "Lietotne nodrošina drošību."
         }
       ],
       "tip": [
@@ -19078,48 +19072,10 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "piedāvāt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "biete"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "piedāvā"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
                 "biete"
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "bieten",
-                "bieten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sniedz"
-              ]
-            }
           }
         ],
         "tip": [
@@ -19156,15 +19112,15 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Ich biete dir meine Hilfe an.",
-          "lv": "es tev piedāvāju savu palīdzību."
+          "lv": "Es tev piedāvāju savu palīdzību."
         },
         {
           "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "vai drīkstu jums kaut ko piedāvāt?"
+          "lv": "Vai drīkstu jums kaut ko piedāvāt?"
         },
         {
           "de": "Das Unternehmen bietet neue Stellen an.",
-          "lv": "uzņēmums piedāvā jaunas darba vietas."
+          "lv": "Uzņēmums piedāvā jaunas darba vietas."
         }
       ],
       "comparison": [
@@ -19271,19 +19227,11 @@ const B2_WORDS = [
         },
         {
           "de": "Wir fordern mehr Transparenz.",
-          "lv": "mēs pieprasām lielāku caurskatāmību."
-        },
-        {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "viņa prasa vairāk naudas."
+          "lv": "Mēs pieprasām lielāku caurskatāmību."
         },
         {
           "de": "Wir fordern mehr Sicherheit.",
-          "lv": "mēs pieprasām lielāku drošību."
-        },
-        {
-          "de": "fordern",
-          "lv": "prasīt; fördern"
+          "lv": "Mēs pieprasām lielāku drošību."
         }
       ],
       "tip": [
@@ -19334,18 +19282,6 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "forde"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "prasa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
                 "fordern",
                 "fordern"
               ]
@@ -19353,19 +19289,6 @@ const B2_WORDS = [
             "lv": {
               "purple": [
                 "pieprasām"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fordern",
-                "fordern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "prasīt"
               ]
             }
           }
@@ -19416,16 +19339,12 @@ const B2_WORDS = [
           "lv": "Sports veicina veselību."
         },
         {
-          "de": "Sport fördert die Gesundheit.",
-          "lv": "sports veicina veselību."
-        },
-        {
           "de": "In der Region wird Öl gefördert.",
-          "lv": "reģionā iegūst naftu."
+          "lv": "Reģionā iegūst naftu."
         },
         {
           "de": "Die Schule fördert begabte Kinder.",
-          "lv": "skola atbalsta apdāvinātus bērnus."
+          "lv": "Skola atbalsta apdāvinātus bērnus."
         }
       ],
       "tip": [
@@ -19448,18 +19367,6 @@ const B2_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "förde"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "veicina"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
