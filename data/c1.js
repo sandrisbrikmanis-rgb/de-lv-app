@@ -380,9 +380,115 @@ const C1_WORDS = [
           "de": "Nebenan steht ein Mehrfamilienhaus.",
           "lv": "blakus atrodas daudzdzīvokļu māja."
         }
-      ]
-    }
-  },
+      ],
+      "comparison": [
+        {
+          "word": "Einfamilienhaus",
+          "meaning": "vienģimenes māja",
+          "example": "Sie wohnen in einem Einfamilienhaus. = viņi dzīvo vienģimenes mājā."
+        },
+        {
+          "word": "Mehrfamilienhaus",
+          "meaning": "daudzdzīvokļu māja",
+          "example": "Im Mehrfamilienhaus wohnen viele Familien. = Daudzdzīvokļu mājā dzīvo daudzas ģimenes."
+        }
+      ],
+      "tip": "Ein- un Mehr- rāda, cik ģimenēm māja paredzēta.",
+      "important": "Einfamilienhaus ir atsevišķa privātmāja, nevis dzīvoklis.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Einfamilienhaus"
+          ],
+          "purple": [
+            "daudzdzīvokļu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienģimenes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vienģimenes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Mehrfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "daudzdzīvokļu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Einfamilienhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vienģimenes māja"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Einfamilienhaus"
+              ],
+              "purple": [
+                "vienģimenes"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Mehrfamilienhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "daudzdzīvokļu māja"
+              ]
+            },
+            "example": {
+              "red": [
+                "Mehrfamilienhaus"
+              ]
+            }
+          }
+        ],
+        "tip": {},
+        "important": {
+          "blue": [
+            "Einfamilienhaus"
+          ]
+        }
+      }
+    }},
   {
     "de": "Eisenbahnfahrt",
     "de_article": "die",
@@ -778,9 +884,126 @@ const C1_WORDS = [
           "de": "Die Öffentlichkeit hat ein Recht auf Information.",
           "lv": "sabiedrībai ir tiesības uz informāciju."
         }
-      ]
-    }
-  },
+      ],
+      "comparison": [
+        {
+          "word": "Öffentlichkeit",
+          "meaning": "sabiedrība, atklātība",
+          "example": "Die Öffentlichkeit reagierte kritisch. = sabiedrība reaģēja kritiski."
+        },
+        {
+          "word": "Publikum",
+          "meaning": "publika",
+          "example": "Das Publikum klatscht. = Publika aplaudē."
+        }
+      ],
+      "tip": "Frāze an die Öffentlichkeit kommen nozīmē nonākt atklātībā.",
+      "important": "Öffentlichkeit ir plaša sabiedrība; Publikum ir konkrēta publika, piemēram, zālē.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Öffentlichkeit"
+          ],
+          "purple": [
+            "atklātībā"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sabiedrība"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atklātībā"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sabiedrībai"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Öffentlichkeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sabiedrība",
+                "atklātība"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Öffentlichkeit"
+              ],
+              "purple": [
+                "sabiedrība"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Publikum"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "publika"
+              ]
+            },
+            "example": {
+              "red": [
+                "Publikum"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Öffentlichkeit"
+          ],
+          "purple": [
+            "atklātībā"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Öffentlichkeit"
+          ],
+          "red": [
+            "Publikum"
+          ]
+        }
+      }
+    }},
   {
     "de": "Parlament",
     "de_article": "das",
@@ -812,9 +1035,124 @@ const C1_WORDS = [
           "de": "Beide Parteien müssen den Vertrag unterschreiben.",
           "lv": "abām pusēm jāparaksta līgums."
         }
-      ]
-    }
-  },
+      ],
+      "comparison": [
+        {
+          "word": "Partei",
+          "meaning": "partija, puse",
+          "example": "Diese Partei gewann die Wahl. = šī partija uzvarēja vēlēšanās."
+        },
+        {
+          "word": "Partie",
+          "meaning": "spēles partija",
+          "example": "Wir spielen eine Partie Schach. = Mēs spēlējam šaha partiju."
+        }
+      ],
+      "tip": "Ja runa ir par vēlēšanām, domā politiskā partija; ja par līgumu vai tiesu, domā puse.",
+      "important": "Partei nav tas pats, kas Partie (spēles partija).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Partei"
+          ],
+          "purple": [
+            "partija"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "partija"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "partijas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pusēm"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Partei"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "partija",
+                "puse"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Partei"
+              ],
+              "purple": [
+                "partija"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Partie"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "spēles partija"
+              ]
+            },
+            "example": {
+              "red": [
+                "Partie"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "purple": [
+            "partija",
+            "puse"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Partei"
+          ],
+          "red": [
+            "Partie"
+          ]
+        }
+      }
+    }},
   {
     "de": "Persönlichkeit",
     "de_article": "die",
@@ -881,9 +1219,127 @@ const C1_WORDS = [
           "de": "Wir verbessern den ganzen Prozess.",
           "lv": "mēs uzlabojam visu procesu."
         }
-      ]
-    }
-  },
+      ],
+      "comparison": [
+        {
+          "word": "Prozess",
+          "meaning": "process, prāva",
+          "example": "Der Prozess dauert mehrere Monate. = process ilgst vairākus mēnešus."
+        },
+        {
+          "word": "Verfahren",
+          "meaning": "procedūra",
+          "example": "Das Verfahren ist einfach. = Procedūra ir vienkārša."
+        }
+      ],
+      "tip": "Tiesā Prozess ir prāva, citur tas ir process vai norise.",
+      "important": "Prozess nav tas pats, kas Verfahren: Verfahren ir noteikta procedūra vai metode.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Prozess"
+          ],
+          "purple": [
+            "process"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "process"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "prāva"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "procesu"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Prozess"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "process",
+                "prāva"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Prozess"
+              ],
+              "purple": [
+                "process"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Verfahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "procedūra"
+              ]
+            },
+            "example": {
+              "red": [
+                "Verfahren"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Prozess"
+          ],
+          "purple": [
+            "process",
+            "prāva"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Prozess"
+          ],
+          "red": [
+            "Verfahren"
+          ]
+        }
+      }
+    }},
   {
     "de": "Prozessor",
     "de_article": "der",
@@ -1515,9 +1971,162 @@ const C1_WORDS = [
           "de": "Bei der Wahl stimmen wir ab.",
           "lv": "vēlēšanās mēs balsojam."
         }
-      ]
-    }
-  },
+      ],
+      "comparison": [
+        {
+          "word": "Wahl",
+          "meaning": "izvēle, vēlēšanas",
+          "example": "Du hast die Wahl. = tev ir izvēle."
+        },
+        {
+          "word": "Auswahl",
+          "meaning": "izvēles klāsts",
+          "example": "Es gibt eine große Auswahl. = Ir liela izvēle."
+        }
+      ],
+      "tip": "Ja runa ir par balsošanu, domā vēlēšanas; ja par lēmumu, domā izvēle.",
+      "important": "Die Wahl ir pati izvēle vai balsošana, bet Auswahl ir izvēles klāsts.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Wahl"
+          ],
+          "purple": [
+            "vēlēšanas",
+            "izvēli",
+            "vēlēšanām"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "izvēle"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "izvēli"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēlēšanas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēlēšanām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "izvēle"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vēlēšanās"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Wahl"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "izvēle",
+                "vēlēšanas"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Wahl"
+              ],
+              "purple": [
+                "izvēle"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Auswahl"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "izvēles klāsts"
+              ]
+            },
+            "example": {
+              "red": [
+                "Auswahl"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "purple": [
+            "izvēle",
+            "vēlēšanas"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Wahl"
+          ],
+          "red": [
+            "Auswahl"
+          ]
+        }
+      }
+    }},
   {
     "de": "Herausforderung",
     "de_article": "die",

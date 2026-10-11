@@ -11753,6 +11753,14 @@ const B1_WORDS = [
         {
           "de": "Bitte füllen Sie den Bogen aus.",
           "lv": "lūdzu, aizpildiet veidlapu."
+        },
+        {
+          "de": "Der Fluss macht einen Bogen.",
+          "lv": "upe met līkumu."
+        },
+        {
+          "de": "Ich brauche einen Bogen Papier.",
+          "lv": "man vajag vienu papīra loksni."
         }
       ],
       "comparison": [
@@ -11825,6 +11833,30 @@ const B1_WORDS = [
                 "veidlapu"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bogen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "līkumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bogen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "loksni"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -11887,8 +11919,7 @@ const B1_WORDS = [
           ]
         }
       }
-    }
-  },
+    }},
   {
     "de": "Bohnenkaffee",
     "de_article": "der",
@@ -28476,6 +28507,14 @@ const B1_WORDS = [
         {
           "de": "Ich bin mir gewiss, dass es klappt.",
           "lv": "es esmu pārliecināts, ka tas izdosies."
+        },
+        {
+          "de": "Ein gewisser Betrag.",
+          "lv": "noteikta summa."
+        },
+        {
+          "de": "In gewisser Hinsicht hast du recht.",
+          "lv": "zināmā ziņā tev ir taisnība."
         }
       ],
       "comparison": [
@@ -28554,6 +28593,30 @@ const B1_WORDS = [
                 "pārliecināts"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "gewisser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "noteikta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gewisser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zināmā ziņā"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -28626,8 +28689,7 @@ const B1_WORDS = [
           ]
         }
       }
-    }
-  },
+    }},
   {
     "de": "Gewissen",
     "de_article": "das",
@@ -47348,6 +47410,18 @@ const B1_WORDS = [
         {
           "de": "Bitte räum dein Zimmer auf.",
           "lv": "lūdzu, sakārto savu istabu."
+        },
+        {
+          "de": "Wir räumen den Tisch.",
+          "lv": "mēs novācam galdu."
+        },
+        {
+          "de": "Wir räumen den Schnee von der Straße.",
+          "lv": "mēs aizvācam sniegu no ielas."
+        },
+        {
+          "de": "Die Soldaten räumen das Gebiet.",
+          "lv": "karavīri atstāj teritoriju."
         }
       ],
       "comparison": [
@@ -47402,6 +47476,42 @@ const B1_WORDS = [
             "lv": {
               "red": "sakārto"
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "räumen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "novācam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "räumen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aizvācam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "räumen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atstāj"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -47451,8 +47561,7 @@ const B1_WORDS = [
           "red": "aufräumen"
         }
       }
-    }
-  },
+    }},
   {
     "de": "Raumschiff",
     "de_article": "das",
