@@ -178,7 +178,7 @@ const C1_WORDS = [
     "de": "Frauenrechtlerin",
     "de_article": "die",
     "de_plural": "die Frauenrechtlerinnen",
-    "lv": "A fighter for women's equality",
+    "lv": "Feminist • Women's rights campaigner",
     "level": "C1"
   },
   {
@@ -360,7 +360,7 @@ const C1_WORDS = [
     "de": "Einfamilienhaus",
     "de_article": "das",
     "de_plural": "die Einfamilienhäuser",
-    "lv": "Single family home",
+    "lv": "Detached house",
     "level": "C1",
     "study": {
       "id": "c1-einfamilienhaus",
@@ -792,7 +792,7 @@ const C1_WORDS = [
     "de": "Partei",
     "de_article": "die",
     "de_plural": "die Parteien",
-    "lv": "Party • Party",
+    "lv": "Party",
     "level": "C1",
     "study": {
       "id": "c1-partei",
@@ -974,7 +974,7 @@ const C1_WORDS = [
     "de": "Schneewittchen",
     "de_article": "das",
     "de_plural": "die Schneewittchen",
-    "lv": "Fairy tale character Snow White",
+    "lv": "Snow White",
     "level": "C1"
   },
   {
@@ -1268,7 +1268,7 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenfassen",
-    "lv": "Summarise • Summarise",
+    "lv": "Summarise",
     "level": "C1",
     "study": {
       "id": "c1-zusammenfassen",
@@ -1470,7 +1470,7 @@ const C1_WORDS = [
     "de": "Straßenkreuzung",
     "de_article": "die",
     "de_plural": "die Straßenkreuzungen",
-    "lv": "Street intersection",
+    "lv": "Crossroads • Junction",
     "level": "C1"
   },
   {
@@ -1740,7 +1740,7 @@ const C1_WORDS = [
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "Certificate • Certificate • Attestation • Certification",
+    "lv": "Certificate • Attestation • Certification",
     "level": "C1"
   },
   {
@@ -1809,7 +1809,7 @@ const C1_WORDS = [
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "Key person • Close person",
+    "lv": "Key person • Primary carer",
     "level": "C1"
   },
   {
@@ -2026,7 +2026,7 @@ const C1_WORDS = [
   },
   {
     "de": "ehrenhaft",
-    "lv": "Honest • Honorable • Respectable",
+    "lv": "Honest • Honourable • Respectable",
     "level": "C1"
   },
   {
@@ -2118,7 +2118,7 @@ const C1_WORDS = [
     "de": "Elektrizitätswerk",
     "de_article": "das",
     "de_plural": "die Elektrizitätswerke",
-    "lv": "Power plant",
+    "lv": "Power station",
     "level": "C1"
   },
   {
@@ -2217,14 +2217,14 @@ const C1_WORDS = [
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "Reserve player • Reserve player",
+    "lv": "Reserve player",
     "level": "C1"
   },
   {
     "de": "Erstaufführung",
     "de_article": "die",
     "de_plural": "die Erstaufführungen",
-    "lv": "Premiere • Premiere",
+    "lv": "Premiere",
     "level": "C1"
   },
   {
@@ -2367,7 +2367,7 @@ const C1_WORDS = [
     "de": "Gefrierpunkt",
     "de_article": "der",
     "de_plural": "die Gefrierpunkte",
-    "lv": "Freezing point • Zero point",
+    "lv": "Freezing point",
     "level": "C1"
   },
   {
@@ -2429,7 +2429,7 @@ const C1_WORDS = [
   },
   {
     "de": "gelegentlich",
-    "lv": "Sometimes • Occasion • Due to",
+    "lv": "Occasionally • Sometimes • On the occasion of",
     "level": "C1",
     "study": {
       "id": "c1-gelegentlich",
@@ -2659,7 +2659,7 @@ const C1_WORDS = [
   },
   {
     "de": "geschlechtsreif",
-    "lv": "Has reached sexual maturity",
+    "lv": "Sexually mature",
     "level": "C1"
   },
   {
@@ -2693,7 +2693,7 @@ const C1_WORDS = [
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "Horizon • Horizon",
+    "lv": "Horizon",
     "level": "C1"
   },
   {
@@ -2749,7 +2749,7 @@ const C1_WORDS = [
     "de": "Gütertransport",
     "de_article": "der",
     "de_plural": "die Gütertransporte",
-    "lv": "Transportation of goods",
+    "lv": "Freight transport • Goods transport",
     "level": "C1"
   },
   {
@@ -2902,7 +2902,7 @@ const C1_WORDS = [
     "de": "Intensivstation",
     "de_article": "die",
     "de_plural": "die Intensivstationen",
-    "lv": "Intensive care unit in the hospital",
+    "lv": "Intensive care unit",
     "level": "C1"
   },
   {
@@ -2927,7 +2927,7 @@ const C1_WORDS = [
     "de": "Kapitalverbrechen",
     "de_article": "das",
     "de_plural": "die Kapitalverbrechen",
-    "lv": "A particularly serious crime",
+    "lv": "Capital crime",
     "level": "C1"
   },
   {
@@ -3066,7 +3066,7 @@ const C1_WORDS = [
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "Cruise missile • Cruise missile",
+    "lv": "Cruise missile",
     "level": "C1"
   },
   {
@@ -3241,7 +3241,7 @@ const C1_WORDS = [
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "Accountability (for one's actions) • Responsibility",
+    "lv": "Accountability • Responsibility",
     "level": "C1"
   },
   {
@@ -3424,7 +3424,7 @@ const C1_WORDS = [
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "Record • Highest achievement • Tech. maximum power",
+    "lv": "Peak performance • Top performance",
     "level": "C1"
   },
   {
@@ -3481,7 +3481,7 @@ const C1_WORDS = [
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "Direct blood transfusion from one person to another",
+    "lv": "Transfusion • Blood transfusion",
     "level": "C1"
   },
   {
@@ -3558,12 +3558,12 @@ const C1_WORDS = [
   },
   {
     "de": "veränderlich",
-    "lv": "Changeable • Changeable",
+    "lv": "Changeable",
     "level": "C1"
   },
   {
     "de": "veranschlagen",
-    "lv": "Calculate • Calculate • Make an estimate",
+    "lv": "Calculate • Make an estimate",
     "level": "C1"
   },
   {
@@ -3582,7 +3582,7 @@ const C1_WORDS = [
     "de": "Verfassung",
     "de_article": "die",
     "de_plural": "die Verfassungen",
-    "lv": "Constitution • Constitution",
+    "lv": "Constitution",
     "level": "C1"
   },
   {
@@ -3678,7 +3678,7 @@ const C1_WORDS = [
   },
   {
     "de": "verschlossen",
-    "lv": "Locked • Closed • Figuratively, closed-off • Withdrawn",
+    "lv": "Locked • Closed • Withdrawn • Reserved",
     "level": "C1"
   },
   {
@@ -3799,7 +3799,7 @@ const C1_WORDS = [
   },
   {
     "de": "wahlberechtigt",
-    "lv": "One who has the right to vote",
+    "lv": "Eligible to vote",
     "level": "C1",
     "study": {
       "id": "c1-wahlberechtigt",
@@ -3918,7 +3918,7 @@ const C1_WORDS = [
     "de": "Wasserkraftwerk",
     "de_article": "das",
     "de_plural": "die Wasserkraftwerke",
-    "lv": "Hydroelectric power plant",
+    "lv": "Hydroelectric power station",
     "level": "C1"
   },
   {
@@ -4318,7 +4318,7 @@ const C1_WORDS = [
   },
   {
     "de": "unterstellen",
-    "lv": "Blame • Impute without foundation",
+    "lv": "Impute • Insinuate",
     "level": "C1",
     "study": {
       "id": "c1-unterstellen",
