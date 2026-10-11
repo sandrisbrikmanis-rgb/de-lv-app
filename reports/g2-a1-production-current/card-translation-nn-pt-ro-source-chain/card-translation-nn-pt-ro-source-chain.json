@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-card-translation-nn-pt-ro-source-chain-v1",
-  "generatedAt": "2026-10-03T09:31:52.303Z",
+  "generatedAt": "2026-10-03T10:06:07.367Z",
   "inputs": {
     "auditCatalog": "scripts/lib/data/g2-a1-card-translation-bilingual-audit-nn-pt-ro.json",
     "pilotVerification": "reports/g2-a1-production-current/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify/pdf-bilingual-dictionary-nn-pt-ro-pilot-verify.json",
