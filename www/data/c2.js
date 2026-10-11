@@ -185,15 +185,15 @@ const C2_WORDS = [
       "examples": [
         {
           "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "kilograms ir svara mērvienība."
+          "lv": "Kilograms ir svara mērvienība."
         },
         {
           "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "kuru svara mērvienību man lietot?"
+          "lv": "Kuru svara mērvienību man lietot?"
         },
         {
           "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "grams un tonna ir svara mērvienības."
+          "lv": "Grams un tonna ir svara mērvienības."
         }
       ],
       "comparison": [
@@ -311,7 +311,8 @@ const C2_WORDS = [
           ]
         }
       }
-    }},
+    }
+  },
   {
     "de": "Elementarkenntnisse",
     "de_article": "die",

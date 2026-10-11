@@ -696,15 +696,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
-          "lv": "es gribu nākt līdzi, bet man nav laika."
+          "lv": "Es gribu nākt līdzi, bet man nav laika."
         },
         {
           "de": "Das Essen war lecker, aber zu teuer.",
-          "lv": "ēdiens bija garšīgs, bet pārāk dārgs."
+          "lv": "Ēdiens bija garšīgs, bet pārāk dārgs."
         },
         {
           "de": "Er hat recht, aber ich sehe das anders.",
-          "lv": "viņam ir taisnība, taču es domāju citādi."
+          "lv": "Viņam ir taisnība, taču es domāju citādi."
         }
       ],
       "comparison": [
@@ -889,15 +889,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Es regnet, also bleibe ich zu Hause.",
-          "lv": "līst lietus, tāpēc es palieku mājās."
+          "lv": "Līst lietus, tāpēc es palieku mājās."
         },
         {
           "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-          "lv": "tu esi slims, tāpēc neej uz darbu."
+          "lv": "Tu esi slims, tāpēc neej uz darbu."
         },
         {
           "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
-          "lv": "es daudz esmu mācījies, tātad tagad saprotu."
+          "lv": "Es daudz esmu mācījies, tātad tagad saprotu."
         }
       ],
       "comparison": [
@@ -1288,15 +1288,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich stelle das Buch auf den Tisch.",
-          "lv": "es lieku grāmatu uz galda."
+          "lv": "Es lieku grāmatu uz galda."
         },
         {
           "de": "Wir fahren auf den Berg.",
-          "lv": "mēs braucam uz kalnu."
+          "lv": "Mēs braucam uz kalnu."
         },
         {
           "de": "Die Katze springt auf das Sofa.",
-          "lv": "kaķis lec uz dīvāna."
+          "lv": "Kaķis lec uz dīvāna."
         }
       ],
       "comparison": [
@@ -1499,15 +1499,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme aus Deutschland.",
-          "lv": "es esmu no Vācijas."
+          "lv": "Es esmu no Vācijas."
         },
         {
           "de": "Er geht aus dem Haus.",
-          "lv": "viņš iziet no mājas."
+          "lv": "Viņš iziet no mājas."
         },
         {
           "de": "Ich nehme das Buch aus der Tasche.",
-          "lv": "es izņemu grāmatu no somas."
+          "lv": "Es izņemu grāmatu no somas."
         }
       ],
       "comparison": [
@@ -1684,15 +1684,15 @@ const A1_WORDS = [
         },
         {
           "de": "Sie setzt sich aufs Sofa.",
-          "lv": "viņa apsēžas uz dīvāna."
+          "lv": "Viņa apsēžas uz dīvāna."
         },
         {
           "de": "Wir fahren aufs Land.",
-          "lv": "mēs braucam uz laukiem."
+          "lv": "Mēs braucam uz laukiem."
         },
         {
           "de": "Stell die Tasche aufs Bett.",
-          "lv": "noliec somu uz gultas."
+          "lv": "Noliec somu uz gultas."
         },
         {
           "de": "Er springt aufs Pferd.",
@@ -1708,7 +1708,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wir gehen aufs Fest.",
-          "lv": "mēs ejam uz svinībām."
+          "lv": "Mēs ejam uz svinībām."
         }
       ],
       "comparison": [
@@ -2071,15 +2071,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe baden.",
-          "lv": "es eju peldēties."
+          "lv": "Es eju peldēties."
         },
         {
           "de": "Wir gehen im See baden.",
-          "lv": "mēs ejam peldēties ezerā."
+          "lv": "Mēs ejam peldēties ezerā."
         },
         {
           "de": "Er schwimmt sehr gut.",
-          "lv": "viņš ļoti labi peld."
+          "lv": "Viņš ļoti labi peld."
         },
         {
           "de": "Ich schwimme jeden Montag.",
@@ -2291,12 +2291,6 @@ const A1_WORDS = [
             ]
           },
           {
-            "purple": [
-              "peldēt"
-            ],
-            "blue": [
-              "vācu valodā"
-            ],
             "red": [
               "situācijas"
             ]
@@ -2374,7 +2368,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin bei meinem Freund.",
-          "lv": "es esmu pie sava drauga."
+          "lv": "Es esmu pie sava drauga."
         },
         {
           "de": "Sie arbeitet bei Siemens.",
@@ -2382,7 +2376,7 @@ const A1_WORDS = [
         },
         {
           "de": "Bei Regen bleiben wir zu Hause.",
-          "lv": "lietus laikā mēs paliekam mājās."
+          "lv": "Lietus laikā mēs paliekam mājās."
         }
       ],
       "comparison": [
@@ -3005,15 +2999,15 @@ const A1_WORDS = [
         },
         {
           "de": "Bleib hier, bis ich zurückkomme.",
-          "lv": "paliec šeit, līdz es atgriezīšos."
+          "lv": "Paliec šeit, līdz es atgriezīšos."
         },
         {
           "de": "Ich lerne Deutsch bis zum Abend.",
-          "lv": "es mācos vācu valodu līdz vakaram."
+          "lv": "Es mācos vācu valodu līdz vakaram."
         },
         {
           "de": "Bis jetzt habe ich nichts verstanden.",
-          "lv": "līdz šim es neko neesmu sapratis."
+          "lv": "Līdz šim es neko neesmu sapratis."
         }
       ],
       "comparison": [
@@ -3113,10 +3107,6 @@ const A1_WORDS = [
           {
             "purple": [
               "bis"
-            ],
-            "green": [
-              "robežai",
-              "laika punktam"
             ]
           }
         ]
@@ -3502,19 +3492,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bleibe zu Hause.",
-          "lv": "es palieku mājās."
+          "lv": "Es palieku mājās."
         },
         {
           "de": "Bleib hier!",
-          "lv": "paliec šeit!"
+          "lv": "Paliec šeit!"
         },
         {
           "de": "Wir bleiben noch eine Stunde.",
-          "lv": "mēs paliekam vēl vienu stundu."
+          "lv": "Mēs paliekam vēl vienu stundu."
         },
         {
           "de": "Ich gehe nach Hause.",
-          "lv": "es eju mājās."
+          "lv": "Es eju mājās."
         }
       ],
       "comparison": [
@@ -4148,19 +4138,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Da ist mein Auto.",
-          "lv": "tur ir mana mašīna."
+          "lv": "Tur ir mana mašīna."
         },
         {
           "de": "Ich war da.",
-          "lv": "es biju tur."
+          "lv": "Es biju tur."
         },
         {
           "de": "Da kommt er.",
-          "lv": "te viņš nāk."
+          "lv": "Te viņš nāk."
         },
         {
           "de": "Komm mal da her!",
-          "lv": "nāc šeit!"
+          "lv": "Nāc šeit!"
         }
       ],
       "comparison": [
@@ -4413,15 +4403,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das ist mein Auto.",
-          "lv": "tas ir mans auto."
+          "lv": "Tas ir mans auto."
         },
         {
           "de": "Das ist gut.",
-          "lv": "tas ir labi."
+          "lv": "Tas ir labi."
         },
         {
           "de": "Das Buch, das ich lese, ist interessant.",
-          "lv": "grāmata, kuru es lasu, ir interesanta."
+          "lv": "Grāmata, kuru es lasu, ir interesanta."
         }
       ],
       "comparison": [
@@ -4563,15 +4553,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich weiß, dass du müde bist.",
-          "lv": "es zinu, ka tu esi noguris."
+          "lv": "Es zinu, ka tu esi noguris."
         },
         {
           "de": "Er sagt, dass er kommt.",
-          "lv": "viņš saka, ka viņš nāks."
+          "lv": "Viņš saka, ka viņš nāks."
         },
         {
           "de": "Ich glaube, dass das stimmt.",
-          "lv": "es domāju, ka tas ir pareizi."
+          "lv": "Es domāju, ka tas ir pareizi."
         }
       ],
       "comparison": [
@@ -4770,15 +4760,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Der Mann ist hier.",
-          "lv": "vīrietis ir šeit."
+          "lv": "Vīrietis ir šeit."
         },
         {
           "de": "Der Bus kommt.",
-          "lv": "autobuss brauc."
+          "lv": "Autobuss brauc."
         },
         {
           "de": "Der Lehrer spricht.",
-          "lv": "skolotājs runā."
+          "lv": "Skolotājs runā."
         }
       ],
       "tip": {
@@ -4876,15 +4866,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Die Frau ist hier.",
-          "lv": "sieviete ir šeit."
+          "lv": "Sieviete ir šeit."
         },
         {
           "de": "Die Katze schläft.",
-          "lv": "kaķene guļ."
+          "lv": "Kaķene guļ."
         },
         {
           "de": "Die Lehrerin erklärt.",
-          "lv": "skolotāja skaidro."
+          "lv": "Skolotāja skaidro."
         }
       ],
       "tip": {
@@ -4995,7 +4985,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Dieser Mann ist nett.",
-          "lv": "šis vīrietis ir jauks."
+          "lv": "Šis vīrietis ir jauks."
         },
         {
           "de": "Ich sehe diesen Hund.",
@@ -5003,7 +4993,7 @@ const A1_WORDS = [
         },
         {
           "de": "Dieser Stift ist neu.",
-          "lv": "šī pildspalva ir jauna."
+          "lv": "Šī pildspalva ir jauna."
         }
       ],
       "tip": {
@@ -5209,15 +5199,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
-          "lv": "kāds vīrietis gaida ārā."
+          "lv": "Kāds vīrietis gaida ārā."
         },
         {
           "de": "Ich habe ein Buch.",
-          "lv": "man ir viena grāmata."
+          "lv": "Man ir viena grāmata."
         },
         {
           "de": "Er sucht einen Stift.",
-          "lv": "viņš meklē kādu pildspalvu."
+          "lv": "Viņš meklē kādu pildspalvu."
         },
         {
           "de": "Ein Kind spielt.",
@@ -5320,8 +5310,7 @@ const A1_WORDS = [
               "ein"
             ],
             "purple": [
-              "viens",
-              "kāds"
+              "viens"
             ],
             "green": [
               "nekonkrēts"
@@ -5332,15 +5321,11 @@ const A1_WORDS = [
           {
             "blue": [
               "ein"
-            ],
-            "red": [
-              "noteiktais artikuls"
             ]
           },
           {
             "blue": [
               "der",
-              "die",
               "das"
             ],
             "green": [
@@ -5386,23 +5371,23 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich esse ein Eis.",
-          "lv": "es ēdu saldējumu."
+          "lv": "Es ēdu saldējumu."
         },
         {
           "de": "Möchtest du ein Eis?",
-          "lv": "vai tu gribi saldējumu?"
+          "lv": "Vai tu gribi saldējumu?"
         },
         {
           "de": "Im Winter liegt Eis auf dem See.",
-          "lv": "ziemā uz ezera ir ledus."
+          "lv": "Ziemā uz ezera ir ledus."
         },
         {
           "de": "Das Eis ist kalt.",
-          "lv": "ledus ir auksts."
+          "lv": "Ledus ir auksts."
         },
         {
           "de": "Ich nehme ein Eis mit Schokolade.",
-          "lv": "es ņemšu saldējumu ar šokolādi."
+          "lv": "Es ņemšu saldējumu ar šokolādi."
         }
       ],
       "comparison": [
@@ -5704,15 +5689,15 @@ const A1_WORDS = [
         },
         {
           "de": "Ich komme erst morgen.",
-          "lv": "es atbraukšu tikai rīt."
+          "lv": "Es atbraukšu tikai rīt."
         },
         {
           "de": "Er ist erst 18 Jahre alt.",
-          "lv": "viņam ir tikai 18 gadi."
+          "lv": "Viņam ir tikai 18 gadi."
         },
         {
           "de": "Wir essen erst um acht Uhr.",
-          "lv": "mēs ēdam tikai astoņos."
+          "lv": "Mēs ēdam tikai astoņos."
         }
       ],
       "comparison": [
@@ -5858,9 +5843,6 @@ const A1_WORDS = [
             "blue": [
               "erst"
             ],
-            "yellow": [
-              "nur"
-            ],
             "purple": [
               "tikai"
             ]
@@ -5872,9 +5854,6 @@ const A1_WORDS = [
             "green": [
               "laiku",
               "secību"
-            ],
-            "yellow": [
-              "nur"
             ],
             "purple": [
               "daudzumu"
@@ -6080,19 +6059,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich möchte etwas trinken.",
-          "lv": "es gribētu kaut ko dzert."
+          "lv": "Es gribētu kaut ko dzert."
         },
         {
           "de": "Hast du etwas Zeit?",
-          "lv": "vai tev ir nedaudz laika?"
+          "lv": "Vai tev ir nedaudz laika?"
         },
         {
           "de": "Ich bin etwas müde.",
-          "lv": "es esmu nedaudz noguris."
+          "lv": "Es esmu nedaudz noguris."
         },
         {
           "de": "Ich habe etwas für dich.",
-          "lv": "man tev ir kaut kas."
+          "lv": "Man tev ir kaut kas."
         },
         {
           "de": "Das ist etwas teuer.",
@@ -6205,11 +6184,7 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {
-              "purple": [
-                "nedaudz"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -6343,23 +6318,23 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich sehe euch.",
-          "lv": "es redzu jūs."
+          "lv": "Es redzu jūs."
         },
         {
           "de": "Ich helfe euch.",
-          "lv": "es jums palīdzu."
+          "lv": "Es jums palīdzu."
         },
         {
           "de": "Ich gebe euch das Buch.",
-          "lv": "es jums dodu grāmatu."
+          "lv": "Es jums dodu grāmatu."
         },
         {
           "de": "Ich danke euch.",
-          "lv": "es jums pateicos."
+          "lv": "Es jums pateicos."
         },
         {
           "de": "Ihr erinnert euch.",
-          "lv": "jūs atceraties."
+          "lv": "Jūs atceraties."
         }
       ],
       "comparison": [
@@ -6423,23 +6398,23 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "es braucu uz Berlīni."
+          "lv": "Es braucu uz Berlīni."
         },
         {
           "de": "Ich fahre mit dem Auto.",
-          "lv": "es braucu ar auto."
+          "lv": "Es braucu ar auto."
         },
         {
           "de": "Ich fahre meine Tochter zur Schule.",
-          "lv": "es vedu savu meitu uz skolu."
+          "lv": "Es vedu savu meitu uz skolu."
         },
         {
           "de": "Ich fahre dich nach Hause.",
-          "lv": "es tevi aizvedu mājās."
+          "lv": "Es tevi aizvedu mājās."
         },
         {
           "de": "Wir fahren morgen nach München.",
-          "lv": "mēs rīt braucam uz Minheni."
+          "lv": "Mēs rīt braucam uz Minheni."
         }
       ],
       "comparison": [
@@ -6863,7 +6838,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wie findest du den Film?",
-          "lv": "ko tu domā par filmu?"
+          "lv": "Ko tu domā par filmu?"
         }
       ],
       "comparison": [
@@ -6903,11 +6878,7 @@ const A1_WORDS = [
                 "finde"
               ]
             },
-            "lv": {
-              "purple": [
-                "atrast"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -6927,11 +6898,7 @@ const A1_WORDS = [
                 "finde"
               ]
             },
-            "lv": {
-              "purple": [
-                "šķiet"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -6992,11 +6959,7 @@ const A1_WORDS = [
                 "denken"
               ]
             },
-            "meaning": {
-              "purple": [
-                "domāt"
-              ]
-            },
+            "meaning": {},
             "example": {
               "green": [
                 "denke",
@@ -7012,8 +6975,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ticēt",
-                "domāt"
+                "ticēt"
               ]
             },
             "example": {
@@ -7145,27 +7107,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Sie ist eine nette Frau.",
-          "lv": "viņa ir jauka sieviete."
+          "lv": "Viņa ir jauka sieviete."
         },
         {
           "de": "Das ist meine Frau.",
-          "lv": "šī ir mana sieva."
+          "lv": "Šī ir mana sieva."
         },
         {
           "de": "Wie viele Frauen sind hier?",
-          "lv": "cik sieviešu ir šeit?"
+          "lv": "Cik sieviešu ir šeit?"
         },
         {
           "de": "Meine Frau arbeitet in Berlin.",
-          "lv": "mana sieva strādā Berlīnē."
+          "lv": "Mana sieva strādā Berlīnē."
         },
         {
           "de": "Die Frau trägt ein Kleid.",
-          "lv": "sieviete valkā kleitu."
+          "lv": "Sieviete valkā kleitu."
         },
         {
           "de": "Seine Frau ist Ärztin.",
-          "lv": "viņa sieva ir ārste."
+          "lv": "Viņa sieva ir ārste."
         }
       ],
       "tip": [
@@ -7416,27 +7378,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das ist für dich.",
-          "lv": "tas ir priekš tevis."
+          "lv": "Tas ir priekš tevis."
         },
         {
           "de": "Danke für die Hilfe.",
-          "lv": "paldies par palīdzību."
+          "lv": "Paldies par palīdzību."
         },
         {
           "de": "Ich kaufe ein Geschenk für meine Mutter.",
-          "lv": "es pērku dāvanu savai mātei."
+          "lv": "Es pērku dāvanu savai mātei."
         },
         {
           "de": "Was bezahlst du für das Auto?",
-          "lv": "cik tu maksā par auto?"
+          "lv": "Cik tu maksā par auto?"
         },
         {
           "de": "Das Buch ist für Kinder.",
-          "lv": "grāmata ir priekš bērniem."
+          "lv": "Grāmata ir priekš bērniem."
         },
         {
           "de": "Für heute ist das genug.",
-          "lv": "šodienai tas ir gana."
+          "lv": "Šodienai tas ir gana."
         }
       ],
       "tip": [
@@ -7589,15 +7551,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich spiele Fußball.",
-          "lv": "es spēlēju futbolu."
+          "lv": "Es spēlēju futbolu."
         },
         {
           "de": "Der Fußball liegt im Garten.",
-          "lv": "futbola bumba atrodas dārzā."
+          "lv": "Futbola bumba atrodas dārzā."
         },
         {
           "de": "Wir kaufen zwei Fußbälle.",
-          "lv": "mēs pērkam divas futbola bumbas."
+          "lv": "Mēs pērkam divas futbola bumbas."
         }
       ],
       "comparison": [
@@ -7638,19 +7600,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich arbeite den ganzen Tag.",
-          "lv": "es strādāju visu dienu."
+          "lv": "Es strādāju visu dienu."
         },
         {
           "de": "Das ganze Haus ist sauber.",
-          "lv": "visa māja ir tīra."
+          "lv": "Visa māja ir tīra."
         },
         {
           "de": "Das ist ganz sicher.",
-          "lv": "tas ir pilnīgi droši."
+          "lv": "Tas ir pilnīgi droši."
         },
         {
           "de": "Das Essen ist ganz gut.",
-          "lv": "ēdiens ir diezgan labs."
+          "lv": "Ēdiens ir diezgan labs."
         }
       ],
       "comparison": [
@@ -7713,19 +7675,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Gib mir bitte das Buch.",
-          "lv": "iedod man, lūdzu, grāmatu."
+          "lv": "Iedod man, lūdzu, grāmatu."
         },
         {
           "de": "Ich gebe dir meine Nummer.",
-          "lv": "es tev dodu savu numuru."
+          "lv": "Es tev dodu savu numuru."
         },
         {
           "de": "Ich nehme das Buch.",
-          "lv": "es paņemu grāmatu."
+          "lv": "Es paņemu grāmatu."
         },
         {
           "de": "Ich bekomme ein Geschenk.",
-          "lv": "es saņemu dāvanu."
+          "lv": "Es saņemu dāvanu."
         }
       ],
       "comparison": [
@@ -7979,15 +7941,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das gefällt mir.",
-          "lv": "man tas patīk."
+          "lv": "Man tas patīk."
         },
         {
           "de": "Gefällt dir das Kleid?",
-          "lv": "vai tev patīk kleita?"
+          "lv": "Vai tev patīk kleita?"
         },
         {
           "de": "Der Film gefällt uns.",
-          "lv": "mums patīk filma."
+          "lv": "Mums patīk filma."
         }
       ],
       "comparison": [
@@ -8066,15 +8028,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Er erzählt eine Geschichte.",
-          "lv": "viņš stāsta stāstu."
+          "lv": "Viņš stāsta stāstu."
         },
         {
           "de": "Ich lerne Geschichte.",
-          "lv": "es mācos vēsturi."
+          "lv": "Es mācos vēsturi."
         },
         {
           "de": "Das ist die Geschichte Deutschlands.",
-          "lv": "tā ir Vācijas vēsture."
+          "lv": "Tā ir Vācijas vēsture."
         }
       ],
       "comparison": [
@@ -8116,11 +8078,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich habe zwei Geschwister.",
-          "lv": "man ir divi brāļi vai māsas."
+          "lv": "Man ir divi brāļi vai māsas."
         },
         {
           "de": "Meine Geschwister wohnen in Berlin.",
-          "lv": "mani brāļi un māsas dzīvo Berlīnē."
+          "lv": "Mani brāļi un māsas dzīvo Berlīnē."
         }
       ],
       "comparison": [
@@ -8215,27 +8177,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme gleich.",
-          "lv": "es tūlīt nāku."
+          "lv": "Es tūlīt nāku."
         },
         {
           "de": "Wir haben die gleiche Farbe.",
-          "lv": "mums ir vienāda krāsa."
+          "lv": "Mums ir vienāda krāsa."
         },
         {
           "de": "Das Essen ist gleich fertig.",
-          "lv": "ēdiens tūlīt būs gatavs."
+          "lv": "Ēdiens tūlīt būs gatavs."
         },
         {
           "de": "Beide Wege sind gleich lang.",
-          "lv": "abi ceļi ir vienādi gari."
+          "lv": "Abi ceļi ir vienādi gari."
         },
         {
           "de": "Bis gleich!",
-          "lv": "tiekamies pēc brīža!"
+          "lv": "Tiekamies pēc brīža!"
         },
         {
           "de": "Sie sind gleich groß.",
-          "lv": "viņi ir vienāda auguma."
+          "lv": "Viņi ir vienāda auguma."
         }
       ],
       "tip": [
@@ -8411,7 +8373,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das Haus ist groß.",
-          "lv": "māja ir liela."
+          "lv": "Māja ir liela."
         },
         {
           "de": "Berlin ist eine große Stadt.",
@@ -8419,11 +8381,11 @@ const A1_WORDS = [
         },
         {
           "de": "Er ist groß.",
-          "lv": "viņš ir garš augumā."
+          "lv": "Viņš ir garš augumā."
         },
         {
           "de": "Das Zimmer ist groß.",
-          "lv": "istaba ir liela."
+          "lv": "Istaba ir liela."
         }
       ],
       "tip": [
@@ -8526,11 +8488,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Meine Großeltern wohnen auf dem Land.",
-          "lv": "mani vecvecāki dzīvo laukos."
+          "lv": "Mani vecvecāki dzīvo laukos."
         },
         {
           "de": "Ich besuche meine Großeltern.",
-          "lv": "es apciemoju savus vecvecākus."
+          "lv": "Es apciemoju savus vecvecākus."
         }
       ],
       "comparison": [
@@ -8622,27 +8584,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das Essen ist gut.",
-          "lv": "ēdiens ir labs."
+          "lv": "Ēdiens ir labs."
         },
         {
           "de": "Wie geht es dir? – Gut, danke!",
-          "lv": "kā tev iet? – labi, paldies!"
+          "lv": "Kā tev iet? – labi, paldies!"
         },
         {
           "de": "Er spricht gut Deutsch.",
-          "lv": "viņš labi runā vāciski."
+          "lv": "Viņš labi runā vāciski."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "labrīt!"
+          "lv": "Labrīt!"
         },
         {
           "de": "Das ist eine gute Idee.",
-          "lv": "tā ir laba ideja."
+          "lv": "Tā ir laba ideja."
         },
         {
           "de": "Alles ist gut.",
-          "lv": "viss ir kārtībā."
+          "lv": "Viss ir kārtībā."
         }
       ],
       "tip": [
@@ -8799,19 +8761,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich habe ein Auto.",
-          "lv": "man ir automašīna."
+          "lv": "Man ir automašīna."
         },
         {
           "de": "Hast du Zeit?",
-          "lv": "vai tev ir laiks?"
+          "lv": "Vai tev ir laiks?"
         },
         {
           "de": "Wir haben Hunger.",
-          "lv": "mēs esam izsalkuši."
+          "lv": "Mēs esam izsalkuši."
         },
         {
           "de": "Ich habe das gemacht.",
-          "lv": "es to izdarīju."
+          "lv": "Es to izdarīju."
         }
       ],
       "comparison": [
@@ -9048,19 +9010,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich halte die Tasche.",
-          "lv": "es turu somu."
+          "lv": "Es turu somu."
         },
         {
           "de": "Der Bus hält hier.",
-          "lv": "autobuss šeit pietur."
+          "lv": "Autobuss šeit pietur."
         },
         {
           "de": "Bitte halten Sie an.",
-          "lv": "lūdzu, apstājieties."
+          "lv": "Lūdzu, apstājieties."
         },
         {
           "de": "Ich halte das für richtig.",
-          "lv": "es to uzskatu par pareizu."
+          "lv": "Es to uzskatu par pareizu."
         }
       ],
       "comparison": [
@@ -9309,15 +9271,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich wasche meine Hände.",
-          "lv": "es mazgāju rokas."
+          "lv": "Es mazgāju rokas."
         },
         {
           "de": "Sie hält das Glas in der Hand.",
-          "lv": "viņa tur glāzi plaukstā."
+          "lv": "Viņa tur glāzi plaukstā."
         },
         {
           "de": "Mein Arm tut weh.",
-          "lv": "man sāp roka."
+          "lv": "Man sāp roka."
         }
       ],
       "comparison": [
@@ -9410,19 +9372,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich heiße Anna.",
-          "lv": "mani sauc Anna."
+          "lv": "Mani sauc Anna."
         },
         {
           "de": "Wie heißt du?",
-          "lv": "kā tevi sauc?"
+          "lv": "Kā tevi sauc?"
         },
         {
           "de": "Wie heißt das auf Deutsch?",
-          "lv": "kā tas saucas vāciski?"
+          "lv": "Kā tas saucas vāciski?"
         },
         {
           "de": "Was heißt das?",
-          "lv": "ko tas nozīmē?"
+          "lv": "Ko tas nozīmē?"
         }
       ],
       "comparison": [
@@ -9713,23 +9675,23 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Der Berg ist hoch.",
-          "lv": "kalns ir augsts."
+          "lv": "Kalns ir augsts."
         },
         {
           "de": "Das Regal ist zwei Meter hoch.",
-          "lv": "plaukts ir divus metrus augsts."
+          "lv": "Plaukts ir divus metrus augsts."
         },
         {
           "de": "Die Miete ist hoch.",
-          "lv": "īre ir augsta."
+          "lv": "Īre ir augsta."
         },
         {
           "de": "Die Mauer ist hoch.",
-          "lv": "siena ir augsta."
+          "lv": "Siena ir augsta."
         },
         {
           "de": "Die Preise sind hoch.",
-          "lv": "cenas ir augstas."
+          "lv": "Cenas ir augstas."
         }
       ],
       "tip": [
@@ -9872,11 +9834,11 @@ const A1_WORDS = [
         },
         {
           "de": "Die Kinder hören eine Geschichte.",
-          "lv": "bērni klausās stāstu."
+          "lv": "Bērni klausās stāstu."
         },
         {
           "de": "Ich höre dich.",
-          "lv": "es tevi dzirdu."
+          "lv": "Es tevi dzirdu."
         }
       ],
       "tip": [
@@ -10188,27 +10150,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Kommt ihr heute Abend?",
-          "lv": "vai jūs nākat šovakar?"
+          "lv": "Vai jūs nākat šovakar?"
         },
         {
           "de": "Ich gebe ihr das Buch.",
-          "lv": "es dodu viņai grāmatu."
+          "lv": "Es dodu viņai grāmatu."
         },
         {
           "de": "Wo wohnt ihr?",
-          "lv": "kur jūs dzīvojat?"
+          "lv": "Kur jūs dzīvojat?"
         },
         {
           "de": "Er schreibt ihr einen Brief.",
-          "lv": "viņš raksta viņai vēstuli."
+          "lv": "Viņš raksta viņai vēstuli."
         },
         {
           "de": "Habt ihr Zeit?",
-          "lv": "vai jums ir laiks?"
+          "lv": "Vai jums ir laiks?"
         },
         {
           "de": "Das ist ihr Auto.",
-          "lv": "tā ir viņas automašīna."
+          "lv": "Tā ir viņas automašīna."
         }
       ],
       "tip": [
@@ -10360,35 +10322,35 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin im Park.",
-          "lv": "es esmu parkā."
+          "lv": "Es esmu parkā."
         },
         {
           "de": "Wir wohnen im Zentrum.",
-          "lv": "mēs dzīvojam centrā."
+          "lv": "Mēs dzīvojam centrā."
         },
         {
           "de": "Im Sommer ist es warm.",
-          "lv": "vasarā ir silti."
+          "lv": "Vasarā ir silti."
         },
         {
           "de": "Er arbeitet im Büro.",
-          "lv": "viņš strādā birojā."
+          "lv": "Viņš strādā birojā."
         },
         {
           "de": "Das Kind spielt im Garten.",
-          "lv": "bērns spēlē dārzā."
+          "lv": "Bērns spēlē dārzā."
         },
         {
           "de": "Im Januar fahre ich nach Wien.",
-          "lv": "janvārī es braucu uz Vīni."
+          "lv": "Janvārī es braucu uz Vīni."
         },
         {
           "de": "Sie ist im Kino.",
-          "lv": "viņa ir kino."
+          "lv": "Viņa ir kino."
         },
         {
           "de": "Wir treffen uns im Restaurant.",
-          "lv": "mēs tiekamies restorānā."
+          "lv": "Mēs tiekamies restorānā."
         }
       ],
       "comparison": [
@@ -10705,19 +10667,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin in Berlin.",
-          "lv": "es esmu Berlīnē."
+          "lv": "Es esmu Berlīnē."
         },
         {
           "de": "Ich gehe in die Schule.",
-          "lv": "es eju uz skolu."
+          "lv": "Es eju uz skolu."
         },
         {
           "de": "Das Buch ist in der Tasche.",
-          "lv": "grāmata ir somā."
+          "lv": "Grāmata ir somā."
         },
         {
           "de": "Wir gehen ins Kino.",
-          "lv": "mēs ejam uz kino."
+          "lv": "Mēs ejam uz kino."
         }
       ],
       "tip": {
@@ -10870,35 +10832,35 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe ins Kino.",
-          "lv": "es eju uz kino."
+          "lv": "Es eju uz kino."
         },
         {
           "de": "Sie geht ins Bett.",
-          "lv": "viņa iet gulēt."
+          "lv": "Viņa iet gulēt."
         },
         {
           "de": "Wir fahren ins Ausland.",
-          "lv": "mēs braucam uz ārzemēm."
+          "lv": "Mēs braucam uz ārzemēm."
         },
         {
           "de": "Komm ins Haus!",
-          "lv": "nāc mājā!"
+          "lv": "Nāc mājā!"
         },
         {
           "de": "Er steckt das Geld in den Geldbeutel.",
-          "lv": "viņš ieliek naudu makā."
+          "lv": "Viņš ieliek naudu makā."
         },
         {
           "de": "Wir gehen ins Museum.",
-          "lv": "mēs ejam uz muzeju."
+          "lv": "Mēs ejam uz muzeju."
         },
         {
           "de": "Sie legt die Blumen ins Wasser.",
-          "lv": "viņa liek ziedus ūdenī."
+          "lv": "Viņa liek ziedus ūdenī."
         },
         {
           "de": "Fahr bitte ins Zentrum.",
-          "lv": "lūdzu, brauc uz centru."
+          "lv": "Lūdzu, brauc uz centru."
         }
       ],
       "comparison": [
@@ -11258,31 +11220,31 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Sie ist noch jung.",
-          "lv": "viņa ir vēl jauna."
+          "lv": "Viņa ir vēl jauna."
         },
         {
           "de": "Der Hund ist jung.",
-          "lv": "suns ir jauns."
+          "lv": "Suns ir jauns."
         },
         {
           "de": "Wir sind noch jung.",
-          "lv": "mēs esam vēl jauni."
+          "lv": "Mēs esam vēl jauni."
         },
         {
           "de": "Er sieht sehr jung aus.",
-          "lv": "viņš izskatās ļoti jauns."
+          "lv": "Viņš izskatās ļoti jauns."
         },
         {
           "de": "Das ist ein junges Paar.",
-          "lv": "tas ir jauns pāris."
+          "lv": "Tas ir jauns pāris."
         },
         {
           "de": "Die junge Frau lächelt.",
-          "lv": "jaunā sieviete smaida."
+          "lv": "Jaunā sieviete smaida."
         },
         {
           "de": "Mein Bruder ist jünger als ich.",
-          "lv": "mans brālis ir jaunāks nekā es."
+          "lv": "Mans brālis ir jaunāks nekā es."
         }
       ],
       "tip": [
@@ -11471,27 +11433,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich habe kein Geld.",
-          "lv": "man nav naudas."
+          "lv": "Man nav naudas."
         },
         {
           "de": "Es gibt keine Milch mehr.",
-          "lv": "piena vairs nav nemaz."
+          "lv": "Piena vairs nav nemaz."
         },
         {
           "de": "Kein Mensch war da.",
-          "lv": "neviens cilvēks tur nebija."
+          "lv": "Neviens cilvēks tur nebija."
         },
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "man nav laika."
+          "lv": "Man nav laika."
         },
         {
           "de": "Das ist kein Problem.",
-          "lv": "tā nav nekāda problēma."
+          "lv": "Tā nav nekāda problēma."
         },
         {
           "de": "Wir haben keine Kinder.",
-          "lv": "mums nav bērnu."
+          "lv": "Mums nav bērnu."
         }
       ],
       "tip": [
@@ -11648,19 +11610,11 @@ const A1_WORDS = [
         },
         {
           "de": "Kennen Sie diese Frau?",
-          "lv": "vai jūs pazīstat šo sievieti?"
+          "lv": "Vai jūs pazīstat šo sievieti?"
         },
         {
           "de": "Wo habt ihr euch kennengelernt?",
-          "lv": "kur jūs iepazināties?"
-        },
-        {
-          "de": "Ich kenne ihn.",
-          "lv": "es viņu pazīstu."
-        },
-        {
-          "de": "kennen",
-          "lv": "pazīt; wissen"
+          "lv": "Kur jūs iepazināties?"
         }
       ],
       "comparison": [
@@ -11724,31 +11678,6 @@ const A1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "kenne"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pazīstu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "kennen",
-                "kennen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pazīt"
-              ]
-            }
           }
         ],
         "tip": [
@@ -11790,11 +11719,11 @@ const A1_WORDS = [
         },
         {
           "de": "Woher wissen Sie das?",
-          "lv": "no kurienes jūs to zināt?"
+          "lv": "No kurienes jūs to zināt?"
         },
         {
           "de": "Ich weiß die Antwort.",
-          "lv": "es zinu atbildi."
+          "lv": "Es zinu atbildi."
         }
       ],
       "comparison": [
@@ -11930,19 +11859,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich kann Deutsch sprechen.",
-          "lv": "es protu runāt vāciski."
+          "lv": "Es protu runāt vāciski."
         },
         {
           "de": "Kannst du mir helfen?",
-          "lv": "vai tu vari man palīdzēt?"
+          "lv": "Vai tu vari man palīdzēt?"
         },
         {
           "de": "Wir können heute kommen.",
-          "lv": "mēs šodien varam atnākt."
+          "lv": "Mēs šodien varam atnākt."
         },
         {
           "de": "Er kann gut schwimmen.",
-          "lv": "viņš labi prot peldēt."
+          "lv": "Viņš labi prot peldēt."
         }
       ],
       "comparison": [
@@ -12171,35 +12100,35 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das kostet 5 Euro.",
-          "lv": "tas maksā 5 eiro."
+          "lv": "Tas maksā 5 eiro."
         },
         {
           "de": "Was kostet das?",
-          "lv": "cik tas maksā?"
+          "lv": "Cik tas maksā?"
         },
         {
           "de": "Wie viel kostet der Pullover?",
-          "lv": "cik maksā džemperis?"
+          "lv": "Cik maksā džemperis?"
         },
         {
           "de": "Das Essen kostet nicht viel.",
-          "lv": "ēdiens daudz nemaksā."
+          "lv": "Ēdiens daudz nemaksā."
         },
         {
           "de": "Ich bezahle die Rechnung.",
-          "lv": "es maksāju rēķinu."
+          "lv": "Es maksāju rēķinu."
         },
         {
           "de": "Kann ich bar bezahlen?",
-          "lv": "vai varu maksāt skaidrā naudā?"
+          "lv": "Vai varu maksāt skaidrā naudā?"
         },
         {
           "de": "Er zahlt mit Karte.",
-          "lv": "viņš maksā ar karti."
+          "lv": "Viņš maksā ar karti."
         },
         {
           "de": "Ich zahle gleich.",
-          "lv": "es samaksāšu tūlīt."
+          "lv": "Es samaksāšu tūlīt."
         }
       ],
       "comparison": [
@@ -12683,19 +12612,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe in den Laden.",
-          "lv": "es eju uz veikalu."
+          "lv": "Es eju uz veikalu."
         },
         {
           "de": "Der Laden ist geschlossen.",
-          "lv": "veikals ir slēgts."
+          "lv": "Veikals ir slēgts."
         },
         {
           "de": "Es gibt viele Läden hier.",
-          "lv": "šeit ir daudz veikalu."
+          "lv": "Šeit ir daudz veikalu."
         },
         {
           "de": "Ich muss mein Handy laden.",
-          "lv": "man jāuzlādē telefons."
+          "lv": "Man jāuzlādē telefons."
         }
       ],
       "tip": [
@@ -12831,15 +12760,15 @@ const A1_WORDS = [
         },
         {
           "de": "Ich komme aus einem kleinen Land.",
-          "lv": "es nāku no mazas valsts."
+          "lv": "Es nāku no mazas valsts."
         },
         {
           "de": "Wir fahren aufs Land.",
-          "lv": "mēs braucam uz laukiem."
+          "lv": "Mēs braucam uz laukiem."
         },
         {
           "de": "Auf dem Land ist es ruhig.",
-          "lv": "laukos ir mierīgi."
+          "lv": "Laukos ir mierīgi."
         }
       ],
       "comparison": [
@@ -13074,27 +13003,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Der Tisch ist sehr lang.",
-          "lv": "galds ir ļoti garš."
+          "lv": "Galds ir ļoti garš."
         },
         {
           "de": "Der Film war sehr lang.",
-          "lv": "filma bija ļoti ilga."
+          "lv": "Filma bija ļoti ilga."
         },
         {
           "de": "Wie lange dauert es?",
-          "lv": "cik ilgi tas ilgst?"
+          "lv": "Cik ilgi tas ilgst?"
         },
         {
           "de": "Sie hat lange Haare.",
-          "lv": "viņai ir gari mati."
+          "lv": "Viņai ir gari mati."
         },
         {
           "de": "Ich warte schon lange.",
-          "lv": "es gaidu jau ilgi."
+          "lv": "Es gaidu jau ilgi."
         },
         {
           "de": "Den ganzen Tag lang.",
-          "lv": "visu dienu (garumā)."
+          "lv": "Visu dienu (garumā)."
         }
       ],
       "tip": [
@@ -13249,19 +13178,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich lasse die Tasche hier.",
-          "lv": "es atstāju somu šeit."
+          "lv": "Es atstāju somu šeit."
         },
         {
           "de": "Lass das bitte auf dem Tisch.",
-          "lv": "atstāj to, lūdzu, uz galda."
+          "lv": "Atstāj to, lūdzu, uz galda."
         },
         {
           "de": "Meine Eltern lassen mich gehen.",
-          "lv": "vecāki ļauj man iet."
+          "lv": "Vecāki ļauj man iet."
         },
         {
           "de": "Lass mich in Ruhe!",
-          "lv": "liec mani mierā!"
+          "lv": "Liec mani mierā!"
         }
       ],
       "comparison": [
@@ -13483,19 +13412,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Er läuft sehr schnell.",
-          "lv": "viņš skrien ļoti ātri."
+          "lv": "Viņš skrien ļoti ātri."
         },
         {
           "de": "Die Kinder laufen im Park.",
-          "lv": "bērni skrien parkā."
+          "lv": "Bērni skrien parkā."
         },
         {
           "de": "Der Film läuft schon.",
-          "lv": "filma jau iet."
+          "lv": "Filma jau iet."
         },
         {
           "de": "Die Maschine läuft gut.",
-          "lv": "mašīna darbojas labi."
+          "lv": "Mašīna darbojas labi."
         }
       ],
       "comparison": [
@@ -13716,13 +13645,8 @@ const A1_WORDS = [
       "translation": "skaļš",
       "explanation": [
         "Galvenā doma: Īpašības vārds ar mazo burtu. Apraksta intensitāti — cik skaļa ir skaņa vai runa.",
-        "laut galvenokārt nozīmē: skaļa skaņa.",
-        "Bieži raksturo: īpašības vārds.",
-        "laut galvenokārt nozīmē: skaņas signāls.",
-        "Bieži raksturo: lietvārds (der).",
         "laut ar mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaļa ir skaņa (Die Musik ist laut = mūzika ir skaļa).",
-        "der Laut ar lielo burtu un artikulu der ir lietvārds — tas nozīmē skaņu kā lietu vai signālu (Der Laut ist schön = skaņa ir skaista).",
-        "Daudzskaitlī: die Laute."
+        "Nejauc ar der Laut (lielais L, lietvārds): skaņa vai valodas skaņa. Daudzskaitlī: die Laute."
       ],
       "examples": [
         {
@@ -13730,29 +13654,17 @@ const A1_WORDS = [
           "lv": "Mūzika ir skaļa."
         },
         {
-          "de": "Die Musik ist laut.",
-          "lv": "mūzika ir skaļa."
-        },
-        {
           "de": "Sprich nicht so laut!",
-          "lv": "nerunā tik skaļi!"
+          "lv": "Nerunā tik skaļi!"
         },
         {
           "de": "Das ist sehr laut.",
-          "lv": "tas ir ļoti skaļi."
-        },
-        {
-          "de": "Der Laut ist schön.",
-          "lv": "skaņa ir skaista."
-        },
-        {
-          "de": "Ich höre einen Laut.",
-          "lv": "es dzirdu kādu skaņu."
+          "lv": "Tas ir ļoti skaļi."
         }
       ],
       "tip": [
         "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-        "laut = skaņa"
+        "laut = skaļš"
       ],
       "important": [
         "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
@@ -13792,19 +13704,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skaļa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
                 "skaļi"
               ]
             }
@@ -13819,32 +13718,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "skaļi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaņa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaņu"
               ]
             }
           }
@@ -13878,13 +13751,8 @@ const A1_WORDS = [
       "translation": "skaņa",
       "explanation": [
         "Galvenā doma: Lietvārds ar artikulu der un lielo burtu. Nozīmē skaņu kā lietu, signālu vai valodas skaņu.",
-        "der Laut galvenokārt nozīmē: skaļa skaņa.",
-        "Bieži raksturo: īpašības vārds.",
-        "der Laut galvenokārt nozīmē: skaņas signāls.",
-        "Bieži raksturo: lietvārds (der).",
-        "laut ar mazo sākumburtu ir īpašības vārds — tas apraksta, cik skaļa ir skaņa (Die Musik ist laut = mūzika ir skaļa).",
         "der Laut ar lielo burtu un artikulu der ir lietvārds — tas nozīmē skaņu kā lietu vai signālu (Der Laut ist schön = skaņa ir skaista).",
-        "Daudzskaitlī: die Laute."
+        "Nejauc ar laut (mazais l, īpašības vārds): skaļš. Daudzskaitlī: die Laute."
       ],
       "examples": [
         {
@@ -13892,24 +13760,8 @@ const A1_WORDS = [
           "lv": "Skaņa ir skaista."
         },
         {
-          "de": "Die Musik ist laut.",
-          "lv": "mūzika ir skaļa."
-        },
-        {
-          "de": "Sprich nicht so laut!",
-          "lv": "nerunā tik skaļi!"
-        },
-        {
-          "de": "Das ist sehr laut.",
-          "lv": "tas ir ļoti skaļi."
-        },
-        {
-          "de": "Der Laut ist schön.",
-          "lv": "skaņa ir skaista."
-        },
-        {
           "de": "Ich höre einen Laut.",
-          "lv": "es dzirdu kādu skaņu."
+          "lv": "Es dzirdu kādu skaņu."
         }
       ],
       "tip": [
@@ -13929,8 +13781,7 @@ const A1_WORDS = [
             "laut"
           ],
           "purple": [
-            "skaņa",
-            "skaņas"
+            "skaņa"
           ],
           "yellow": [
             "Laut",
@@ -13938,55 +13789,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "der Laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaņa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaļa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaļi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "skaļi"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -14058,19 +13860,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "es nolieku grāmatu uz galda."
+          "lv": "Es nolieku grāmatu uz galda."
         },
         {
           "de": "Leg den Schlüssel hierhin.",
-          "lv": "noliec atslēgu šeit."
+          "lv": "Noliec atslēgu šeit."
         },
         {
           "de": "Sie legt das Kind ins Bett.",
-          "lv": "viņa noliek bērnu gultā."
+          "lv": "Viņa noliek bērnu gultā."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "grāmata atrodas uz galda."
+          "lv": "Grāmata atrodas uz galda."
         }
       ],
       "comparison": [
@@ -14358,16 +14160,12 @@ const A1_WORDS = [
           "lv": "Lūdzu, esi kluss."
         },
         {
-          "de": "Bitte sei leise.",
-          "lv": "lūdzu, esi kluss."
-        },
-        {
           "de": "Die Musik ist leise.",
-          "lv": "mūzika ir klusa."
+          "lv": "Mūzika ir klusa."
         },
         {
           "de": "Sprich bitte leise.",
-          "lv": "lūdzu, runā klusi."
+          "lv": "Lūdzu, runā klusi."
         }
       ],
       "tip": [
@@ -14392,19 +14190,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "leise",
-                "leise"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kluss"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -14525,19 +14310,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "grāmata atrodas uz galda."
+          "lv": "Grāmata atrodas uz galda."
         },
         {
           "de": "Mein Handy liegt im Auto.",
-          "lv": "mans telefons atrodas automašīnā."
+          "lv": "Mans telefons atrodas automašīnā."
         },
         {
           "de": "Er liegt im Bett.",
-          "lv": "viņš guļ gultā."
+          "lv": "Viņš guļ gultā."
         },
         {
           "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "es nolieku grāmatu uz galda."
+          "lv": "Es nolieku grāmatu uz galda."
         }
       ],
       "comparison": [
@@ -14860,19 +14645,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Was machst du?",
-          "lv": "ko tu dari?"
+          "lv": "Ko tu dari?"
         },
         {
           "de": "Ich mache Hausaufgaben.",
-          "lv": "es pildu mājasdarbus."
+          "lv": "Es pildu mājasdarbus."
         },
         {
           "de": "Wir machen Pizza.",
-          "lv": "mēs taisām picu."
+          "lv": "Mēs taisām picu."
         },
         {
           "de": "Das macht Spaß.",
-          "lv": "tas ir jautri."
+          "lv": "Tas ir jautri."
         }
       ],
       "tip": {
@@ -15054,19 +14839,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das erste Mal war schwer.",
-          "lv": "pirmo reizi bija grūti."
+          "lv": "Pirmo reizi bija grūti."
         },
         {
           "de": "Ich war schon zwei Mal in Berlin.",
-          "lv": "es jau divreiz biju Berlīnē."
+          "lv": "Es jau divreiz biju Berlīnē."
         },
         {
           "de": "Ein Mal reicht.",
-          "lv": "vienreiz pietiek."
+          "lv": "Vienreiz pietiek."
         },
         {
           "de": "Noch ein Mal, bitte!",
-          "lv": "vēl vienu reizi, lūdzu!"
+          "lv": "Vēl vienu reizi, lūdzu!"
         }
       ],
       "tip": {
@@ -15217,27 +15002,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Er ist ein netter Mann.",
-          "lv": "viņš ir jauks vīrietis."
+          "lv": "Viņš ir jauks vīrietis."
         },
         {
           "de": "Das ist mein Mann.",
-          "lv": "tas ir mans vīrs."
+          "lv": "Tas ir mans vīrs."
         },
         {
           "de": "Wie viele Männer sind hier?",
-          "lv": "cik vīriešu ir šeit?"
+          "lv": "Cik vīriešu ir šeit?"
         },
         {
           "de": "Mein Mann arbeitet in Berlin.",
-          "lv": "mans vīrs strādā Berlīnē."
+          "lv": "Mans vīrs strādā Berlīnē."
         },
         {
           "de": "Der Mann trägt einen Anzug.",
-          "lv": "vīrietis valkā uzvalku."
+          "lv": "Vīrietis valkā uzvalku."
         },
         {
           "de": "Ihr Mann ist Arzt.",
-          "lv": "viņas vīrs ir ārsts."
+          "lv": "Viņas vīrs ir ārsts."
         }
       ],
       "tip": [
@@ -15478,19 +15263,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme mit dir.",
-          "lv": "es nāku ar tevi."
+          "lv": "Es nāku ar tevi."
         },
         {
           "de": "Ich fahre mit dem Bus.",
-          "lv": "es braucu ar autobusu."
+          "lv": "Es braucu ar autobusu."
         },
         {
           "de": "Sie schreibt mit dem Stift.",
-          "lv": "viņa raksta ar pildspalvu."
+          "lv": "Viņa raksta ar pildspalvu."
         },
         {
           "de": "Kommst du mit?",
-          "lv": "vai tu nāksi līdzi?"
+          "lv": "Vai tu nāksi līdzi?"
         }
       ],
       "comparison": [
@@ -15743,19 +15528,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich mag Musik.",
-          "lv": "man patīk mūzika."
+          "lv": "Man patīk mūzika."
         },
         {
           "de": "Magst du Kaffee?",
-          "lv": "vai tev garšo kafija?"
+          "lv": "Vai tev garšo kafija?"
         },
         {
           "de": "Sie mag Kinder.",
-          "lv": "viņai patīk bērni."
+          "lv": "Viņai patīk bērni."
         },
         {
           "de": "Ich möchte einen Kaffee.",
-          "lv": "es gribētu kafiju."
+          "lv": "Es gribētu kafiju."
         }
       ],
       "comparison": [
@@ -15998,13 +15783,8 @@ const A1_WORDS = [
       "translation": "rīt",
       "explanation": [
         "Galvenā doma: Laika apstāklis ar mazo burtu. Nozīmē nākamo dienu — rīt.",
-        "morgen galvenokārt nozīmē: nākamajā dienā.",
-        "Bieži raksturo: laika apstāklis.",
-        "morgen galvenokārt nozīmē: dienas daļa.",
-        "Bieži raksturo: lietvārds (der).",
-        "morgen galvenokārt nozīmē: vairāki rīti.",
-        "Bieži raksturo: lietvārds (pl.).",
-        "morgen ar mazo sākumburtu nozīmē rīt — nākamajā dienā (Ich komme morgen = es nāku rīt, Bis morgen!"
+        "morgen ar mazo sākumburtu nozīmē rīt — nākamajā dienā (Ich komme morgen = es nāku rīt, Bis morgen!).",
+        "Nejauc ar der Morgen (lielais M, lietvārds): rīts."
       ],
       "examples": [
         {
@@ -16013,23 +15793,19 @@ const A1_WORDS = [
         },
         {
           "de": "Bis morgen!",
-          "lv": "līdz rīt!"
-        },
-        {
-          "de": "Ich komme morgen.",
-          "lv": "es nāku rīt."
+          "lv": "Līdz rīt!"
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "rīt ir pirmdiena."
+          "lv": "Rīt ir pirmdiena."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "labrīt!"
+          "lv": "Labrīt!"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "rīts ir skaists."
+          "lv": "Rīts ir skaists."
         }
       ],
       "tip": [
@@ -16052,19 +15828,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "morgen",
-                "morgen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "rīt"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -16160,13 +15923,8 @@ const A1_WORDS = [
       "translation": "rīts",
       "explanation": [
         "Galvenā doma: Lietvārds ar artikulu der un lielo burtu. Dienas daļa — rīts.",
-        "der Morgen galvenokārt nozīmē: nākamajā dienā.",
-        "Bieži raksturo: laika apstāklis.",
-        "der Morgen galvenokārt nozīmē: dienas daļa.",
-        "Bieži raksturo: lietvārds (der).",
-        "der Morgen galvenokārt nozīmē: vairāki rīti.",
-        "Bieži raksturo: lietvārds (pl.).",
-        "morgen ar mazo sākumburtu nozīmē rīt — nākamajā dienā (Ich komme morgen = es nāku rīt, Bis morgen!"
+        "der Morgen ar lielo burtu nozīmē rītu (Guten Morgen!, am Morgen).",
+        "Nejauc ar morgen (mazais m, laika apstāklis): rīt."
       ],
       "examples": [
         {
@@ -16175,23 +15933,19 @@ const A1_WORDS = [
         },
         {
           "de": "Bis morgen!",
-          "lv": "līdz rīt!"
+          "lv": "Līdz rīt!"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "es nāku rīt."
+          "lv": "Es nāku rīt."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "rīt ir pirmdiena."
-        },
-        {
-          "de": "Guten Morgen!",
-          "lv": "labrīt!"
+          "lv": "Rīt ir pirmdiena."
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "rīts ir skaists."
+          "lv": "Rīts ir skaists."
         }
       ],
       "tip": [
@@ -16211,8 +15965,7 @@ const A1_WORDS = [
             "morgen"
           ],
           "purple": [
-            "rīts",
-            "rīti"
+            "rīts"
           ],
           "yellow": [
             "Morgen"
@@ -16262,14 +16015,6 @@ const A1_WORDS = [
                 "rīt"
               ]
             }
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {}
           },
           {
             "de": {
@@ -16338,19 +16083,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich muss gehen.",
-          "lv": "man jāiet."
+          "lv": "Man jāiet."
         },
         {
           "de": "Du musst warten.",
-          "lv": "tev jāgaida."
+          "lv": "Tev jāgaida."
         },
         {
           "de": "Wir müssen lernen.",
-          "lv": "mums jāmācās."
+          "lv": "Mums jāmācās."
         },
         {
           "de": "Ich muss heute arbeiten.",
-          "lv": "man šodien jāstrādā."
+          "lv": "Man šodien jāstrādā."
         }
       ],
       "comparison": [
@@ -16587,19 +16332,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "es braucu uz Berlīni."
+          "lv": "Es braucu uz Berlīni."
         },
         {
           "de": "Wir gehen nach Hause.",
-          "lv": "mēs ejam uz mājām."
+          "lv": "Mēs ejam uz mājām."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "pēc ēšanas mēs ejam pastaigāties."
+          "lv": "Pēc ēšanas mēs ejam pastaigāties."
         },
         {
           "de": "Es ist zehn nach acht.",
-          "lv": "ir desmit pāri astoņiem."
+          "lv": "Ir desmit pāri astoņiem."
         }
       ],
       "comparison": [
@@ -16869,27 +16614,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Kommst du mit? – Natürlich!",
-          "lv": "vai nāc līdzi? – protams!"
+          "lv": "Vai nāc līdzi? – protams!"
         },
         {
           "de": "Das ist eine natürliche Reaktion.",
-          "lv": "tā ir dabiska reakcija."
+          "lv": "Tā ir dabiska reakcija."
         },
         {
           "de": "Natürlich helfe ich dir.",
-          "lv": "protams, es tev palīdzēšu."
+          "lv": "Protams, es tev palīdzēšu."
         },
         {
           "de": "Sie hat natürliche rote Haare.",
-          "lv": "viņai ir dabiski rudi mati."
+          "lv": "Viņai ir dabiski rudi mati."
         },
         {
           "de": "Natürlich kann ich das machen.",
-          "lv": "protams, es to varu izdarīt."
+          "lv": "Protams, es to varu izdarīt."
         },
         {
           "de": "Das ist ganz natürlich.",
-          "lv": "tas ir pilnīgi dabiski/normāli."
+          "lv": "Tas ir pilnīgi dabiski/normāli."
         }
       ],
       "tip": [
@@ -17034,19 +16779,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich nehme den Bus.",
-          "lv": "es braucu ar autobusu."
+          "lv": "Es braucu ar autobusu."
         },
         {
           "de": "Nimm das Buch!",
-          "lv": "paņem grāmatu!"
+          "lv": "Paņem grāmatu!"
         },
         {
           "de": "Ich bringe dir das Buch.",
-          "lv": "es tev atnesu grāmatu."
+          "lv": "Es tev atnesu grāmatu."
         },
         {
           "de": "Ich hole dich ab.",
-          "lv": "es tevi paņemšu."
+          "lv": "Es tevi paņemšu."
         }
       ],
       "comparison": [
@@ -17310,31 +17055,31 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Mein Handy ist neu.",
-          "lv": "mans telefons ir jauns."
+          "lv": "Mans telefons ir jauns."
         },
         {
           "de": "Wir haben ein neues Auto.",
-          "lv": "mums ir jauna automašīna."
+          "lv": "Mums ir jauna automašīna."
         },
         {
           "de": "Das ist meine neue Wohnung.",
-          "lv": "tas ir mans jaunais dzīvoklis."
+          "lv": "Tas ir mans jaunais dzīvoklis."
         },
         {
           "de": "Ich habe neue Schuhe gekauft.",
-          "lv": "es nopirku jaunas kurpes."
+          "lv": "Es nopirku jaunas kurpes."
         },
         {
           "de": "Das ist eine neue Idee.",
-          "lv": "tā ir jauna ideja."
+          "lv": "Tā ir jauna ideja."
         },
         {
           "de": "Er hat einen neuen Job.",
-          "lv": "viņam ir jauns darbs."
+          "lv": "Viņam ir jauns darbs."
         },
         {
           "de": "Was gibt es Neues?",
-          "lv": "kas jauns?"
+          "lv": "Kas jauns?"
         }
       ],
       "tip": [
@@ -17563,12 +17308,8 @@ const A1_WORDS = [
           "lv": "Es vēl esmu mājās."
         },
         {
-          "de": "Ich bin noch zu Hause.",
-          "lv": "es vēl esmu mājās."
-        },
-        {
           "de": "Bist du noch da?",
-          "lv": "vai tu vēl esi šeit?"
+          "lv": "Vai tu vēl esi šeit?"
         }
       ],
       "tip": [
@@ -17589,19 +17330,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "noch",
-                "noch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vēl"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -17691,20 +17419,16 @@ const A1_WORDS = [
           "lv": "Man ir tikai desmit eiro."
         },
         {
-          "de": "Ich habe nur zehn Euro.",
-          "lv": "man ir tikai desmit eiro."
-        },
-        {
           "de": "Nur du kannst mir helfen.",
-          "lv": "tikai tu vari man palīdzēt."
+          "lv": "Tikai tu vari man palīdzēt."
         },
         {
           "de": "Ich möchte nur Kaffee.",
-          "lv": "es gribu tikai kafiju."
+          "lv": "Es gribu tikai kafiju."
         },
         {
           "de": "Ich habe nur acht Euro.",
-          "lv": "man ir tikai astoņi eiro."
+          "lv": "Man ir tikai astoņi eiro."
         }
       ],
       "tip": [
@@ -17733,19 +17457,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "orange": [
-                "nur",
-                "nur"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tikai"
-              ]
-            }
-          },
           {
             "de": {
               "orange": [
@@ -17830,19 +17541,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "es nezinu, vai viņš nāks."
+          "lv": "Es nezinu, vai viņš nāks."
         },
         {
           "de": "Sie fragt, ob du Zeit hast.",
-          "lv": "viņa jautā, vai tev ir laiks."
+          "lv": "Viņa jautā, vai tev ir laiks."
         },
         {
           "de": "Sag mir, ob das stimmt.",
-          "lv": "pasaki man, vai tā ir taisnība."
+          "lv": "Pasaki man, vai tā ir taisnība."
         },
         {
           "de": "Kommst du heute oder morgen?",
-          "lv": "vai tu nāksi šodien vai rīt?"
+          "lv": "Vai tu nāksi šodien vai rīt?"
         }
       ],
       "comparison": [
@@ -18069,19 +17780,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Kaffee oder Tee?",
-          "lv": "kafiju vai tēju?"
+          "lv": "Kafiju vai tēju?"
         },
         {
           "de": "Heute oder morgen?",
-          "lv": "šodien vai rīt?"
+          "lv": "Šodien vai rīt?"
         },
         {
           "de": "Willst du Pizza oder Salat?",
-          "lv": "vai tu gribi picu vai salātus?"
+          "lv": "Vai tu gribi picu vai salātus?"
         },
         {
           "de": "Du kommst, oder?",
-          "lv": "tu nāksi, vai ne?"
+          "lv": "Tu nāksi, vai ne?"
         }
       ],
       "comparison": [
@@ -18380,19 +18091,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Die Jacke passt mir.",
-          "lv": "jaka man der."
+          "lv": "Jaka man der."
         },
         {
           "de": "Das Kleid passt gut.",
-          "lv": "kleita labi der."
+          "lv": "Kleita labi der."
         },
         {
           "de": "Die Farbe passt zu dir.",
-          "lv": "šī krāsa tev piestāv."
+          "lv": "Šī krāsa tev piestāv."
         },
         {
           "de": "Das passt.",
-          "lv": "tas der."
+          "lv": "Tas der."
         }
       ],
       "comparison": [
@@ -18697,19 +18408,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Probier mal die Suppe!",
-          "lv": "pagaršo zupu!"
+          "lv": "Pagaršo zupu!"
         },
         {
           "de": "Ich möchte den Kuchen probieren.",
-          "lv": "es gribu nogaršot kūku."
+          "lv": "Es gribu nogaršot kūku."
         },
         {
           "de": "Wir probieren eine neue Methode.",
-          "lv": "mēs izmēģinām jaunu metodi."
+          "lv": "Mēs izmēģinām jaunu metodi."
         },
         {
           "de": "Kann ich die Jacke anprobieren?",
-          "lv": "vai es varu pielaikot jaku?"
+          "lv": "Vai es varu pielaikot jaku?"
         }
       ],
       "comparison": [
@@ -19030,19 +18741,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Der Reis ist fertig.",
-          "lv": "rīsi ir gatavi."
+          "lv": "Rīsi ir gatavi."
         },
         {
           "de": "Ich esse Reis.",
-          "lv": "es ēdu rīsus."
+          "lv": "Es ēdu rīsus."
         },
         {
           "de": "Kochst du Reis?",
-          "lv": "vai tu gatavo rīsus?"
+          "lv": "Vai tu gatavo rīsus?"
         },
         {
           "de": "Der Reis schmeckt gut.",
-          "lv": "rīsi garšo labi."
+          "lv": "Rīsi garšo labi."
         }
       ],
       "tip": {
@@ -19168,7 +18879,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Was hast du gesagt?",
-          "lv": "ko tu pateici?"
+          "lv": "Ko tu pateici?"
         }
       ],
       "comparison": [
@@ -19273,11 +18984,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wir schauen aus dem Fenster.",
-          "lv": "mēs skatāmies pa logu."
-        },
-        {
-          "de": "Ich schaue fern.",
-          "lv": "es skatos televizoru."
+          "lv": "Mēs skatāmies pa logu."
         }
       ],
       "comparison": [
@@ -19333,14 +19040,6 @@ const A1_WORDS = [
                 "skatāmies"
               ]
             }
-          },
-          {
-            "de": {
-              "green": [
-                "schaue"
-              ]
-            },
-            "lv": {}
           }
         ],
         "tip": [
@@ -19431,7 +19130,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin schon zu Hause.",
-          "lv": "es jau esmu mājās."
+          "lv": "Es jau esmu mājās."
         }
       ],
       "tip": [
@@ -19558,19 +19257,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich schwimme gern.",
-          "lv": "man patīk peldēt."
+          "lv": "Man patīk peldēt."
         },
         {
           "de": "Er schwimmt sehr gut.",
-          "lv": "viņš ļoti labi peld."
+          "lv": "Viņš ļoti labi peld."
         },
         {
           "de": "Wir schwimmen im Schwimmbad.",
-          "lv": "mēs peldam baseinā."
+          "lv": "Mēs peldam baseinā."
         },
         {
           "de": "Ich gehe baden.",
-          "lv": "es eju peldēties."
+          "lv": "Es eju peldēties."
         }
       ],
       "comparison": [
@@ -19835,19 +19534,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich sehe dich.",
-          "lv": "es tevi redzu."
+          "lv": "Es tevi redzu."
         },
         {
           "de": "Siehst du das Auto?",
-          "lv": "vai tu redzi to auto?"
+          "lv": "Vai tu redzi to auto?"
         },
         {
           "de": "Ich sehe nichts.",
-          "lv": "es neko neredzu."
+          "lv": "Es neko neredzu."
         },
         {
           "de": "Wir schauen einen Film.",
-          "lv": "mēs skatāmies filmu."
+          "lv": "Mēs skatāmies filmu."
         }
       ],
       "comparison": [
@@ -20084,19 +19783,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin hier.",
-          "lv": "es esmu šeit."
+          "lv": "Es esmu šeit."
         },
         {
           "de": "Du bist müde.",
-          "lv": "tu esi noguris."
+          "lv": "Tu esi noguris."
         },
         {
           "de": "Er ist Lehrer.",
-          "lv": "viņš ir skolotājs."
+          "lv": "Viņš ir skolotājs."
         },
         {
           "de": "Wir sind zu Hause.",
-          "lv": "mēs esam mājās."
+          "lv": "Mēs esam mājās."
         }
       ],
       "comparison": [
@@ -20325,27 +20024,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Schlagt die Seite zwanzig auf.",
-          "lv": "atveriet divdesmito lappusi."
+          "lv": "Atveriet divdesmito lappusi."
         },
         {
           "de": "Auf der linken Seite ist ein Park.",
-          "lv": "kreisajā pusē ir parks."
+          "lv": "Kreisajā pusē ir parks."
         },
         {
           "de": "Die Webseite lädt langsam.",
-          "lv": "tīmekļa lappuse ielādējas lēni."
+          "lv": "Tīmekļa lappuse ielādējas lēni."
         },
         {
           "de": "Er steht auf meiner Seite.",
-          "lv": "viņš ir manā pusē."
+          "lv": "Viņš ir manā pusē."
         },
         {
           "de": "Das Buch hat 200 Seiten.",
-          "lv": "grāmatai ir 200 lappuses."
+          "lv": "Grāmatai ir 200 lappuses."
         },
         {
           "de": "Auf der anderen Seite der Straße.",
-          "lv": "otrā ielas pusē."
+          "lv": "Otrā ielas pusē."
         }
       ],
       "tip": [
@@ -20505,19 +20204,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Er wäscht sich.",
-          "lv": "viņš mazgājas."
+          "lv": "Viņš mazgājas."
         },
         {
           "de": "Ich setze mich.",
-          "lv": "es apsēžos."
+          "lv": "Es apsēžos."
         },
         {
           "de": "Sie freut sich.",
-          "lv": "viņa priecājas."
+          "lv": "Viņa priecājas."
         },
         {
           "de": "Ich wasche das Auto.",
-          "lv": "es mazgāju auto."
+          "lv": "Es mazgāju auto."
         }
       ],
       "comparison": [
@@ -20740,27 +20439,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ist das Wasser sicher?",
-          "lv": "vai ūdens ir drošs?"
+          "lv": "Vai ūdens ir drošs?"
         },
         {
           "de": "Kommst du morgen? – Sicher!",
-          "lv": "vai tu nāc rīt? – noteikti!"
+          "lv": "Vai tu nāc rīt? – noteikti!"
         },
         {
           "de": "Er ist sicher zu Hause.",
-          "lv": "viņš droši vien ir mājās."
+          "lv": "Viņš droši vien ir mājās."
         },
         {
           "de": "Das ist eine sichere Lösung.",
-          "lv": "tas ir drošs risinājums."
+          "lv": "Tas ir drošs risinājums."
         },
         {
           "de": "Ich bin mir sicher.",
-          "lv": "es esmu pārliecināts."
+          "lv": "Es esmu pārliecināts."
         },
         {
           "de": "Fahr sicher!",
-          "lv": "brauc droši!"
+          "lv": "Brauc droši!"
         }
       ],
       "tip": [
@@ -20910,23 +20609,15 @@ const A1_WORDS = [
         },
         {
           "de": "Sie kocht.",
-          "lv": "viņa gatavo."
+          "lv": "Viņa gatavo."
         },
         {
           "de": "Sie isst.",
-          "lv": "viņa ēd."
-        },
-        {
-          "de": "Sie kochen.",
-          "lv": "viņi gatavo."
+          "lv": "Viņa ēd."
         },
         {
           "de": "Sie spielen Fußball.",
-          "lv": "viņi spēlē futbolu."
-        },
-        {
-          "de": "Sie kochen, bitte.",
-          "lv": "jūs gatavojat, lūdzu."
+          "lv": "Viņi spēlē futbolu."
         }
       ],
       "tip": [
@@ -20936,7 +20627,6 @@ const A1_WORDS = [
       "important": [
         "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
         "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
         "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
       ],
       "sectionAccents": {
@@ -21002,31 +20692,6 @@ const A1_WORDS = [
                 "viņi"
               ]
             }
-          },
-          {
-            "de": {
-              "green": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viņi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jūs"
-              ]
-            }
           }
         ],
         "tip": [
@@ -21062,28 +20727,20 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Sie kochen, bitte.",
-          "lv": "Jūs gatavojat, lūdzu."
-        },
-        {
           "de": "Sie kocht.",
-          "lv": "viņa gatavo."
+          "lv": "Viņa gatavo."
         },
         {
           "de": "Sie isst.",
-          "lv": "viņa ēd."
+          "lv": "Viņa ēd."
         },
         {
           "de": "Sie kochen.",
-          "lv": "viņi gatavo."
+          "lv": "Viņi gatavo."
         },
         {
           "de": "Sie spielen Fußball.",
-          "lv": "viņi spēlē futbolu."
-        },
-        {
-          "de": "Sie kochen, bitte.",
-          "lv": "jūs gatavojat, lūdzu."
+          "lv": "Viņi spēlē futbolu."
         }
       ],
       "tip": [
@@ -21093,7 +20750,6 @@ const A1_WORDS = [
       "important": [
         "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
         "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
         "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
       ],
       "sectionAccents": {
@@ -21114,19 +20770,6 @@ const A1_WORDS = [
                 "sie"
               ]
             },
-            "lv": {
-              "purple": [
-                "jūs"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
             "lv": {}
           },
           {
@@ -21155,19 +20798,6 @@ const A1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jūs"
-              ]
-            }
           }
         ],
         "tip": [
@@ -21239,19 +20869,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich sitze am Tisch.",
-          "lv": "es sēžu pie galda."
+          "lv": "Es sēžu pie galda."
         },
         {
           "de": "Die Kinder sitzen im Bus.",
-          "lv": "bērni sēž autobusā."
+          "lv": "Bērni sēž autobusā."
         },
         {
           "de": "Er steht an der Tür.",
-          "lv": "viņš stāv pie durvīm."
+          "lv": "Viņš stāv pie durvīm."
         },
         {
           "de": "Die Katze liegt auf dem Sofa.",
-          "lv": "kaķis guļ uz dīvāna."
+          "lv": "Kaķis guļ uz dīvāna."
         }
       ],
       "comparison": [
@@ -21509,19 +21139,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Was soll ich machen?",
-          "lv": "ko man darīt?"
+          "lv": "Ko man darīt?"
         },
         {
           "de": "Du sollst kommen.",
-          "lv": "tev jāatnāk."
+          "lv": "Tev jāatnāk."
         },
         {
           "de": "Ich soll zu Hause bleiben.",
-          "lv": "man jāpaliek mājās."
+          "lv": "Man jāpaliek mājās."
         },
         {
           "de": "Ich muss jetzt gehen.",
-          "lv": "man tagad jāiet."
+          "lv": "Man tagad jāiet."
         }
       ],
       "comparison": [
@@ -21811,19 +21441,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich stehe an der Tür.",
-          "lv": "es stāvu pie durvīm."
+          "lv": "Es stāvu pie durvīm."
         },
         {
           "de": "Der Stuhl steht in der Küche.",
-          "lv": "krēsls stāv virtuvē."
+          "lv": "Krēsls stāv virtuvē."
         },
         {
           "de": "Er sitzt am Tisch.",
-          "lv": "viņš sēž pie galda."
+          "lv": "Viņš sēž pie galda."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "grāmata atrodas uz galda."
+          "lv": "Grāmata atrodas uz galda."
         }
       ],
       "comparison": [
@@ -22257,19 +21887,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "lampa karājas virs galda."
+          "lv": "Lampa karājas virs galda."
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "mēs runājam par laiku."
+          "lv": "Mēs runājam par laiku."
         },
         {
           "de": "Das Kind läuft über die Straße.",
-          "lv": "bērns skrien pāri ielai."
+          "lv": "Bērns skrien pāri ielai."
         },
         {
           "de": "Ich freue mich über das Geschenk.",
-          "lv": "es priecājos par dāvanu."
+          "lv": "Es priecājos par dāvanu."
         }
       ],
       "comparison": [
@@ -22522,19 +22152,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme um acht Uhr.",
-          "lv": "es atnākšu pulksten astoņos."
+          "lv": "Es atnākšu pulksten astoņos."
         },
         {
           "de": "Wir sitzen um den Tisch.",
-          "lv": "mēs sēžam ap galdu."
+          "lv": "Mēs sēžam ap galdu."
         },
         {
           "de": "Er geht um die Ecke.",
-          "lv": "viņš iet ap stūri."
+          "lv": "Viņš iet ap stūri."
         },
         {
           "de": "Ich lerne, um Deutsch zu sprechen.",
-          "lv": "es mācos, lai runātu vāciski."
+          "lv": "Es mācos, lai runātu vāciski."
         }
       ],
       "comparison": [
@@ -22786,19 +22416,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Die Tasche ist unter dem Tisch.",
-          "lv": "soma ir zem galda."
+          "lv": "Soma ir zem galda."
         },
         {
           "de": "Die Katze liegt unter dem Stuhl.",
-          "lv": "kaķis guļ zem krēsla."
+          "lv": "Kaķis guļ zem krēsla."
         },
         {
           "de": "Unter Freunden sagt man das so.",
-          "lv": "draugu starpā tā saka."
+          "lv": "Draugu starpā tā saka."
         },
         {
           "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "lampa karājas virs galda."
+          "lv": "Lampa karājas virs galda."
         }
       ],
       "comparison": [
@@ -23067,19 +22697,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich verstehe dich.",
-          "lv": "es tevi saprotu."
+          "lv": "Es tevi saprotu."
         },
         {
           "de": "Verstehst du Deutsch?",
-          "lv": "vai tu saproti vāciski?"
+          "lv": "Vai tu saproti vāciski?"
         },
         {
           "de": "Ich verstehe das nicht.",
-          "lv": "es to nesaprotu."
+          "lv": "Es to nesaprotu."
         },
         {
           "de": "Ich kann Deutsch sprechen.",
-          "lv": "es protu runāt vāciski."
+          "lv": "Es protu runāt vāciski."
         }
       ],
       "comparison": [
@@ -23363,35 +22993,35 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme vom Bahnhof.",
-          "lv": "es nāku no stacijas."
+          "lv": "Es nāku no stacijas."
         },
         {
           "de": "Das Geschenk ist vom Vater.",
-          "lv": "dāvana ir no tēva."
+          "lv": "Dāvana ir no tēva."
         },
         {
           "de": "Er kommt vom Arzt.",
-          "lv": "viņš nāk no ārsta."
+          "lv": "Viņš nāk no ārsta."
         },
         {
           "de": "Sie fährt vom Flughafen.",
-          "lv": "viņa brauc no lidostas."
+          "lv": "Viņa brauc no lidostas."
         },
         {
           "de": "Das ist vom Markt.",
-          "lv": "tas ir no tirgus."
+          "lv": "Tas ir no tirgus."
         },
         {
           "de": "Wir kommen vom Fest.",
-          "lv": "mēs nākam no svinībām."
+          "lv": "Mēs nākam no svinībām."
         },
         {
           "de": "Er holt Milch vom Bauern.",
-          "lv": "viņš paņem pienu no zemnieka."
+          "lv": "Viņš paņem pienu no zemnieka."
         },
         {
           "de": "Die Nachricht ist vom Chef.",
-          "lv": "ziņa ir no priekšnieka."
+          "lv": "Ziņa ir no priekšnieka."
         }
       ],
       "comparison": [
@@ -23702,19 +23332,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Vor dem Essen wasche ich die Hände.",
-          "lv": "pirms ēšanas es mazgāju rokas."
+          "lv": "Pirms ēšanas es mazgāju rokas."
         },
         {
           "de": "Das Auto steht vor dem Haus.",
-          "lv": "auto stāv mājas priekšā."
+          "lv": "Auto stāv mājas priekšā."
         },
         {
           "de": "Es ist fünf vor acht.",
-          "lv": "ir bez piecām astoņi."
+          "lv": "Ir bez piecām astoņi."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "pēc ēšanas mēs ejam pastaigāties."
+          "lv": "Pēc ēšanas mēs ejam pastaigāties."
         }
       ],
       "comparison": [
@@ -24241,19 +23871,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Wenn du Zeit hast, komm vorbei.",
-          "lv": "ja tev ir laiks, iegriezies."
+          "lv": "Ja tev ir laiks, iegriezies."
         },
         {
           "de": "Wenn es regnet, bleibe ich zu Hause.",
-          "lv": "ja līst, es palieku mājās."
+          "lv": "Ja līst, es palieku mājās."
         },
         {
           "de": "Wenn ich müde bin, trinke ich Kaffee.",
-          "lv": "kad esmu noguris, es dzeru kafiju."
+          "lv": "Kad esmu noguris, es dzeru kafiju."
         },
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "es nezinu, vai viņš nāks."
+          "lv": "Es nezinu, vai viņš nāks."
         }
       ],
       "comparison": [
@@ -24679,19 +24309,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich werde müde.",
-          "lv": "es kļūstu noguris."
+          "lv": "Es kļūstu noguris."
         },
         {
           "de": "Es wird kalt.",
-          "lv": "kļūst auksti."
+          "lv": "Kļūst auksti."
         },
         {
           "de": "Sie wird Ärztin.",
-          "lv": "viņa kļūst par ārsti."
+          "lv": "Viņa kļūst par ārsti."
         },
         {
           "de": "Ich bin müde.",
-          "lv": "es esmu noguris."
+          "lv": "Es esmu noguris."
         }
       ],
       "comparison": [
@@ -24911,27 +24541,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Wie ist das Wetter heute?",
-          "lv": "kāds laiks šodien?"
+          "lv": "Kāds laiks šodien?"
         },
         {
           "de": "Das Wetter ist schön.",
-          "lv": "laiks ir jauks."
+          "lv": "Laiks ir jauks."
         },
         {
           "de": "Das Wetter ist schlecht.",
-          "lv": "laiks ir slikts."
+          "lv": "Laiks ir slikts."
         },
         {
           "de": "Im Winter ist das Wetter oft kalt.",
-          "lv": "ziemā laiks bieži ir auksts."
+          "lv": "Ziemā laiks bieži ir auksts."
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "mēs runājam par laiku."
+          "lv": "Mēs runājam par laiku."
         },
         {
           "de": "Morgen wird das Wetter besser.",
-          "lv": "rīt laiks kļūs labāks."
+          "lv": "Rīt laiks kļūs labāks."
         }
       ],
       "comparison": [
@@ -25183,27 +24813,27 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Wie geht es dir?",
-          "lv": "kā tev iet?"
+          "lv": "Kā tev iet?"
         },
         {
           "de": "Wie heißt du?",
-          "lv": "kā tevi sauc?"
+          "lv": "Kā tevi sauc?"
         },
         {
           "de": "Wie viel kostet das?",
-          "lv": "cik tas maksā?"
+          "lv": "Cik tas maksā?"
         },
         {
           "de": "Wie alt bist du?",
-          "lv": "cik tev gadu?"
+          "lv": "Cik tev gadu?"
         },
         {
           "de": "Wie lange dauert der Film?",
-          "lv": "cik ilgi ilgst filma?"
+          "lv": "Cik ilgi ilgst filma?"
         },
         {
           "de": "Er ist so groß wie sein Vater.",
-          "lv": "viņš ir tikpat garš, kā viņa tēvs."
+          "lv": "Viņš ir tikpat garš, kā viņa tēvs."
         }
       ],
       "tip": [
@@ -25403,19 +25033,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe zum Arzt.",
-          "lv": "es eju pie ārsta."
+          "lv": "Es eju pie ārsta."
         },
         {
           "de": "Wir gehen zur Schule.",
-          "lv": "mēs ejam uz skolu."
+          "lv": "Mēs ejam uz skolu."
         },
         {
           "de": "Das ist zu teuer.",
-          "lv": "tas ir pārāk dārgi."
+          "lv": "Tas ir pārāk dārgi."
         },
         {
           "de": "Ich habe keine Zeit zu lernen.",
-          "lv": "man nav laika mācīties."
+          "lv": "Man nav laika mācīties."
         }
       ],
       "comparison": [
@@ -25655,19 +25285,19 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Der Zug kommt um acht Uhr.",
-          "lv": "vilciens pienāk pulksten astoņos."
+          "lv": "Vilciens pienāk pulksten astoņos."
         },
         {
           "de": "Ich fahre mit dem Zug.",
-          "lv": "es braucu ar vilcienu."
+          "lv": "Es braucu ar vilcienu."
         },
         {
           "de": "Der Zug ist voll.",
-          "lv": "vilciens ir pilns."
+          "lv": "Vilciens ir pilns."
         },
         {
           "de": "Der Bus kommt später.",
-          "lv": "autobuss pienāk vēlāk."
+          "lv": "Autobuss pienāk vēlāk."
         }
       ],
       "comparison": [
@@ -25886,35 +25516,35 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe zum Arzt.",
-          "lv": "es eju pie ārsta."
+          "lv": "Es eju pie ārsta."
         },
         {
           "de": "Wir fahren zum Bahnhof.",
-          "lv": "mēs braucam uz staciju."
+          "lv": "Mēs braucam uz staciju."
         },
         {
           "de": "Sie geht zum Supermarkt.",
-          "lv": "viņa iet uz veikalu."
+          "lv": "Viņa iet uz veikalu."
         },
         {
           "de": "Komm zum Essen!",
-          "lv": "nāc ēst!"
+          "lv": "Nāc ēst!"
         },
         {
           "de": "Er fährt zum Flughafen.",
-          "lv": "viņš brauc uz lidostu."
+          "lv": "Viņš brauc uz lidostu."
         },
         {
           "de": "Wir gehen zum Konzert.",
-          "lv": "mēs ejam uz koncertu."
+          "lv": "Mēs ejam uz koncertu."
         },
         {
           "de": "Das Geschenk ist zum Geburtstag.",
-          "lv": "dāvana ir dzimšanas dienai."
+          "lv": "Dāvana ir dzimšanas dienai."
         },
         {
           "de": "Ich gehe zum Friseur.",
-          "lv": "es eju pie friziera."
+          "lv": "Es eju pie friziera."
         }
       ],
       "comparison": [
@@ -26293,15 +25923,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich sehe heute Abend fern.",
-          "lv": "šovakar es skatos televīziju."
+          "lv": "Šovakar es skatos televīziju."
         },
         {
           "de": "Siehst du oft fern?",
-          "lv": "vai tu bieži skaties televīzoru?"
+          "lv": "Vai tu bieži skaties televīzoru?"
         },
         {
           "de": "Die Kinder sehen am Nachmittag fern.",
-          "lv": "bērni pēcpusdienā skatās televīzoru."
+          "lv": "Bērni pēcpusdienā skatās televīzoru."
         }
       ],
       "comparison": [
@@ -26413,20 +26043,16 @@ const A1_WORDS = [
           "lv": "Ko šodien rāda televīzijā?"
         },
         {
-          "de": "Was gibt es heute im Fernsehen?",
-          "lv": "ko šodien rāda televīzijā?"
-        },
-        {
           "de": "Im Fernsehen läuft ein Film.",
-          "lv": "televīzijā tiek rādīta filma."
+          "lv": "Televīzijā tiek rādīta filma."
         },
         {
           "de": "Das Fernsehen ist heute langweilig.",
-          "lv": "televīzijas programma šodien ir garlaicīga."
+          "lv": "Televīzijas programma šodien ir garlaicīga."
         },
         {
           "de": "Ich sehe heute Abend fern.",
-          "lv": "šovakar es skatos televīziju."
+          "lv": "Šovakar es skatos televīziju."
         },
         {
           "de": "Was gibt es im Fernsehen?",
@@ -26460,11 +26086,7 @@ const A1_WORDS = [
                 "fernsehen"
               ]
             },
-            "lv": {
-              "purple": [
-                "televīzija"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -26473,24 +26095,7 @@ const A1_WORDS = [
                 "fernsehen"
               ]
             },
-            "lv": {
-              "purple": [
-                "televīzija"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Fernsehen",
-                "fernsehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "televīzija"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -26520,11 +26125,7 @@ const A1_WORDS = [
                 "fernsehen"
               ]
             },
-            "lv": {
-              "purple": [
-                "televīzija"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -26562,12 +26163,8 @@ const A1_WORDS = [
           "lv": "Labu apetīti!"
         },
         {
-          "de": "Guten Appetit!",
-          "lv": "labu apetīti!"
-        },
-        {
           "de": "Ich habe keinen Appetit.",
-          "lv": "man nav apetītes."
+          "lv": "Man nav apetītes."
         }
       ],
       "tip": [
@@ -26595,18 +26192,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "appetit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apetīti"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -26661,8 +26246,6 @@ const A1_WORDS = [
         "Galvenā doma: Darbības vārds — ēst pārtiku.",
         "essen galvenokārt nozīmē: patērēt pārtiku.",
         "Bieži raksturo: darbību.",
-        "essen galvenokārt nozīmē: pārtika vai maltīte.",
-        "Bieži raksturo: lietu.",
         "essen nozīmē ēst.",
         "das Essen var nozīmēt ēdienu vai maltīti kopumā."
       ],
@@ -26673,23 +26256,11 @@ const A1_WORDS = [
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "ko jūs gribat ēst?"
+          "lv": "Ko jūs gribat ēst?"
         },
         {
           "de": "Wir essen um 12 Uhr.",
-          "lv": "mēs ēdam pulksten 12."
-        },
-        {
-          "de": "Das Essen ist fertig.",
-          "lv": "ēdiens ir gatavs."
-        },
-        {
-          "de": "Das Essen schmeckt sehr gut.",
-          "lv": "ēdiens ļoti labi garšo."
-        },
-        {
-          "de": "Das Essen schmeckt gut.",
-          "lv": "ēdiens garšo labi."
+          "lv": "Mēs ēdam pulksten 12."
         }
       ],
       "tip": [
@@ -26746,33 +26317,6 @@ const A1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "essen",
-                "essen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "essen",
-                "essen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "essen",
-                "essen"
-              ]
-            },
-            "lv": {}
           }
         ],
         "tip": [
@@ -26803,8 +26347,6 @@ const A1_WORDS = [
       "translation": "ēdiens • maltīte",
       "explanation": [
         "Galvenā doma: Lietvārds — ēdiens vai visa maltīte.",
-        "das Essen galvenokārt nozīmē: patērēt pārtiku.",
-        "Bieži raksturo: darbību.",
         "das Essen galvenokārt nozīmē: pārtika vai maltīte.",
         "Bieži raksturo: lietu.",
         "essen nozīmē ēst.",
@@ -26816,28 +26358,16 @@ const A1_WORDS = [
           "lv": "Ēdiens garšo labi."
         },
         {
-          "de": "Was wollt ihr essen?",
-          "lv": "ko jūs gribat ēst?"
-        },
-        {
-          "de": "Wir essen um 12 Uhr.",
-          "lv": "mēs ēdam pulksten 12."
-        },
-        {
           "de": "Das Essen ist fertig.",
-          "lv": "ēdiens ir gatavs."
+          "lv": "Ēdiens ir gatavs."
         },
         {
           "de": "Das Essen schmeckt sehr gut.",
-          "lv": "ēdiens ļoti labi garšo."
-        },
-        {
-          "de": "Das Essen schmeckt gut.",
-          "lv": "ēdiens garšo labi."
+          "lv": "Ēdiens ļoti labi garšo."
         }
       ],
       "tip": [
-        "das Essen = ēst",
+        "das Essen = ēdiens",
         "Izmanto das Essen, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
@@ -26861,35 +26391,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ēdiens"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "essen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "essen"
-              ]
-            },
-            "lv": {}
-          },
           {
             "de": {
               "yellow": [
@@ -26950,9 +26451,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "dārzeņi",
       "explanation": [
-        "Galvenā doma: Dārzeņi kopumā. Vācu valodā nav daudzskaitļa formas *die Gemüse.",
+        "Galvenā doma: Dārzeņi kopumā. Ikdienā das Gemüse lieto kā kopskaitļa vārdu vienskaitlī.",
         "das Gemüse galvenokārt nozīmē: dārzeņi kopumā.",
-        "Bieži raksturo: nekatrā dzimtē (tikai vienskaitlī)."
+        "Bieži raksturo: neitrāla dzimte (parasti vienskaitlī)."
       ],
       "examples": [
         {
@@ -26960,20 +26461,16 @@ const A1_WORDS = [
           "lv": "Es labprāt ēdu dārzeņus."
         },
         {
-          "de": "Ich esse gern Gemüse.",
-          "lv": "es labprāt ēdu dārzeņus."
-        },
-        {
           "de": "Das Gemüse ist frisch.",
-          "lv": "dārzeņi ir svaigi."
+          "lv": "Dārzeņi ir svaigi."
         },
         {
           "de": "Wir kaufen Gemüse auf dem Markt.",
-          "lv": "mēs pērkam dārzeņus tirgū."
+          "lv": "Mēs pērkam dārzeņus tirgū."
         },
         {
           "de": "Ich mag Obst und Gemüse.",
-          "lv": "man patīk augļi un dārzeņi."
+          "lv": "Man patīk augļi un dārzeņi."
         },
         {
           "de": "Ich esse Gemüse.",
@@ -26985,8 +26482,7 @@ const A1_WORDS = [
         "Izmanto das Gemüse, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Nav pareizi: die Gemüse, die Obsts.",
-        "Nepareizi: die Gemüse → Pareizi: das Gemüse",
+        "das Gemüse parasti lieto vienskaitlī kā kopskaitļa vārdu.",
         "das Gemüse = dārzeņi (kopumā)."
       ],
       "sectionAccents": {
@@ -27003,18 +26499,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "gemüse"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "dārzeņu"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -27110,16 +26594,12 @@ const A1_WORDS = [
           "lv": "Mēs ēdam daudz augļu."
         },
         {
-          "de": "Wir essen viel Obst.",
-          "lv": "mēs ēdam daudz augļu."
-        },
-        {
           "de": "Obst ist gesund.",
-          "lv": "augļi ir veselīgi."
+          "lv": "Augļi ir veselīgi."
         },
         {
           "de": "Ich mag Obst und Gemüse.",
-          "lv": "man patīk augļi un dārzeņi."
+          "lv": "Man patīk augļi un dārzeņi."
         },
         {
           "de": "Wir essen Obst.",
@@ -27148,18 +26628,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "obst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "augļu"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -27237,7 +26705,7 @@ const A1_WORDS = [
       "translation": "brīvdienas (skola)",
       "explanation": [
         "Galvenā doma: tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
-        "die Ferien galvenokārt nozīmē: skolas brīvlaiiks.",
+        "die Ferien galvenokārt nozīmē: skolas brīvlaiks.",
         "Bieži raksturo: tikai daudzskaitlis.",
         "die Ferien ir tikai daudzskaitlis — vienmēr daudzskaitlī (in den Ferien)."
       ],
@@ -27248,23 +26716,19 @@ const A1_WORDS = [
         },
         {
           "de": "In den Ferien habe ich viel Zeit.",
-          "lv": "brīvdienās man ir daudz laika."
+          "lv": "Brīvdienās man ir daudz laika."
         },
         {
           "de": "Was macht ihr in den Ferien?",
-          "lv": "ko jūs darāt brīvdienās?"
+          "lv": "Ko jūs darāt brīvdienās?"
         },
         {
           "de": "Die Schule ist in den Ferien zu.",
-          "lv": "skola brīvdienās ir slēgta."
-        },
-        {
-          "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "brīvdienās mēs braucam pie jūras."
+          "lv": "Skola brīvdienās ir slēgta."
         },
         {
           "de": "In den Ferien",
-          "lv": "brīvdienās (skola)."
+          "lv": "Brīvdienās (skola)."
         }
       ],
       "comparison": [
@@ -27275,7 +26739,7 @@ const A1_WORDS = [
         },
         {
           "word": "der Urlaub",
-          "meaning": "atvaļinājums no darba (tikai vsk.)",
+          "meaning": "atvaļinājums no darba (parasti vsk.)",
           "example": "Ich habe zwei Wochen Urlaub. – Man ir divas nedēļas atvaļinājuma."
         }
       ],
@@ -27284,7 +26748,7 @@ const A1_WORDS = [
         "Izmanto die Ferien, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Ferien vienmēr ar datīvu: in den Ferien.",
+        "Pēc in vārds Ferien stāv datīvā daudzskaitlī: in den Ferien.",
         "Nepareizi: in der Ferien → Pareizi: in den Ferien",
         "Skola: die Ferien (tikai daudzskaitlī).",
         "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī."
@@ -27342,18 +26806,6 @@ const A1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "brīvdienas (skola)"
-              ]
-            }
           }
         ],
         "tip": [
@@ -27376,10 +26828,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "atvaļinājums",
       "explanation": [
-        "Galvenā doma: tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
+        "Galvenā doma: parasti vienskaitlis. Atvaļinājums no darba — parasti vienskaitlī.",
         "der Urlaub galvenokārt nozīmē: brīvais laiks no darba.",
-        "Bieži raksturo: tikai vienskaitlis.",
-        "der Urlaub ir tikai vienskaitlis — atvaļinājums no darba (im Urlaub)."
+        "Bieži raksturo: parasti vienskaitlis.",
+        "der Urlaub ir parasti vienskaitlis — atvaļinājums no darba (im Urlaub)."
       ],
       "examples": [
         {
@@ -27387,16 +26839,12 @@ const A1_WORDS = [
           "lv": "Mans tēvs ir atvaļinājumā."
         },
         {
-          "de": "Mein Vater ist im Urlaub.",
-          "lv": "mans tēvs ir atvaļinājumā."
-        },
-        {
           "de": "Nächste Woche habe ich Urlaub.",
-          "lv": "nākamnedēļ man ir atvaļinājums."
+          "lv": "Nākamnedēļ man ir atvaļinājums."
         },
         {
           "de": "Wir machen Urlaub in Spanien.",
-          "lv": "mēs pavadām atvaļinājumu Spānijā."
+          "lv": "Mēs pavadām atvaļinājumu Spānijā."
         },
         {
           "de": "im Urlaub",
@@ -27406,7 +26854,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "der Urlaub",
-          "meaning": "atvaļinājums no darba (tikai vsk.)",
+          "meaning": "atvaļinājums no darba (parasti vsk.)",
           "example": "Mein Vater ist im Urlaub. – Mans tēvs ir atvaļinājumā."
         },
         {
@@ -27416,14 +26864,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
+        "parasti vienskaitlis. Atvaļinājums no darba — parasti vienskaitlī.",
         "Izmanto der Urlaub, kad konteksts atbilst šai nozīmei."
       ],
       "important": [
-        "Nav pareizi: die Ferie, der Urlaube (A1 līmenī).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Nepareizi: die Urlaube → Pareizi: der Urlaub",
-        "Darbs: der Urlaub (tikai vienskaitlī)."
+        "Darbs: der Urlaub (parasti vienskaitlī)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27439,18 +26885,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "atvaļinājumā"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -27553,20 +26987,8 @@ const A1_WORDS = [
           "lv": "Ir astoņi (pulksten astoņi)."
         },
         {
-          "de": "Es ist acht Uhr.",
-          "lv": "ir astoņi (pulksten astoņi)."
-        },
-        {
           "de": "Meine Uhr ist kaputt.",
-          "lv": "mans pulkstenis ir salūzis."
-        },
-        {
-          "de": "Es ist acht Uhr.",
-          "lv": "ir astoņi."
-        },
-        {
-          "de": "Es ist acht Uhr.",
-          "lv": "Ir astoņi (pulksten)."
+          "lv": "Mans pulkstenis ir salūzis."
         },
         {
           "de": "die Uhr",
@@ -27611,39 +27033,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pulksten"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "uhr"
-              ]
-            },
-            "lv": {
-              "purple": [
                 "pulkstenis"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "uhr"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "uhr"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pulksten"
               ]
             }
           },
@@ -27700,16 +27090,12 @@ const A1_WORDS = [
           "lv": "Man nav laika."
         },
         {
-          "de": "Ich habe keine Zeit.",
-          "lv": "man nav laika."
-        },
-        {
           "de": "Hast du Zeit?",
-          "lv": "vai tev ir laiks?"
+          "lv": "Vai tev ir laiks?"
         },
         {
           "de": "Die Zeit vergeht schnell.",
-          "lv": "laiks paiet ātri."
+          "lv": "Laiks paiet ātri."
         }
       ],
       "tip": [
@@ -27734,18 +27120,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "zeit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "laika"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -27818,10 +27192,6 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich war einmal in Berlin.",
-          "lv": "es reiz biju Berlīnē."
-        },
-        {
-          "de": "Ich war einmal in Berlin.",
           "lv": "Es reiz biju Berlīnē."
         }
       ],
@@ -27843,19 +27213,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "einmal",
-                "einmal"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "reiz"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -27909,12 +27266,8 @@ const A1_WORDS = [
           "lv": "Vēlreiz, lūdzu."
         },
         {
-          "de": "Noch mal, bitte.",
-          "lv": "vēlreiz, lūdzu."
-        },
-        {
           "de": "Sag das noch mal.",
-          "lv": "pasaki to vēlreiz."
+          "lv": "Pasaki to vēlreiz."
         }
       ],
       "tip": [
@@ -27932,19 +27285,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "yellow": [
-                "noch mal",
-                "noch mal"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vēlreiz"
-              ]
-            }
-          },
           {
             "de": {
               "yellow": [
