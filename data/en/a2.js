@@ -1008,10 +1008,6 @@ const A2_WORDS = [
         {
           "de": "Kannst du mich vom Bahnhof abholen?",
           "lv": "Can you pick me up from the station?"
-        },
-        {
-          "de": "Ich hole dich ab.",
-          "lv": "I'll pick you up."
         }
       ],
       "tip": [
@@ -1051,14 +1047,6 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "pick me up"
-              ]
-            }
-          },
-          {
-            "de": {},
-            "lv": {
-              "purple": [
-                "pick you up"
               ]
             }
           }
@@ -1103,10 +1091,6 @@ const A2_WORDS = [
         {
           "de": "Kannst du mich vom Bahnhof abholen?",
           "lv": "Can you pick me up from the station?"
-        },
-        {
-          "de": "Ich hole Wasser.",
-          "lv": "I'll fetch some water."
         }
       ],
       "tip": [
@@ -1146,18 +1130,6 @@ const A2_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "hole"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "fetch"
-              ]
-            }
           }
         ],
         "tip": [
@@ -1200,10 +1172,6 @@ const A2_WORDS = [
         {
           "de": "Wir bringen die Kuchen zur Party.",
           "lv": "We are bringing the cakes to the party."
-        },
-        {
-          "de": "Ich bringe das Buch.",
-          "lv": "I'm bringing the book."
         }
       ],
       "tip": [
@@ -1256,18 +1224,6 @@ const A2_WORDS = [
             "de": {
               "yellow": [
                 "bringen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "bringing"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "bringe"
               ]
             },
             "lv": {
@@ -15789,10 +15745,6 @@ const A2_WORDS = [
           "lv": "May I please ask something?"
         },
         {
-          "de": "Ich habe eine Bitte.",
-          "lv": "I have a request."
-        },
-        {
           "de": "Die Bitte ist wichtig.",
           "lv": "The request is important."
         }
@@ -15857,18 +15809,6 @@ const A2_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "request"
-              ]
-            }
           },
           {
             "de": {
@@ -38088,10 +38028,6 @@ const A2_WORDS = [
         {
           "de": "Je früher, desto besser.",
           "lv": "The sooner, the better."
-        },
-        {
-          "de": "Ich habe das noch nie je gesehen.",
-          "lv": "I have never seen that."
         }
       ],
       "tip": [
@@ -38164,21 +38100,6 @@ const A2_WORDS = [
               "red": [
                 "The",
                 "the"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "je"
-              ],
-              "purple": [
-                "nie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "never"
               ]
             }
           }
@@ -38390,7 +38311,7 @@ const A2_WORDS = [
         {
           "word": "Kaffeehaus",
           "meaning": "café",
-          "example": "Die Kaffeekanne ist voll. = The coffee pot is full."
+          "example": "Wir sitzen im Kaffeehaus. = We are sitting in the café."
         },
         {
           "word": "Café",
@@ -38473,14 +38394,6 @@ const A2_WORDS = [
             "meaning": {
               "purple": [
                 "café"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Kaffeekanne"
-              ],
-              "purple": [
-                "The coffee pot"
               ]
             }
           },
@@ -39414,10 +39327,6 @@ const A2_WORDS = [
           "lv": "Where did you meet?"
         },
         {
-          "de": "Ich kenne ihn.",
-          "lv": "I know him."
-        },
-        {
           "de": "kennen",
           "lv": "to know (be acquainted with); wissen"
         }
@@ -39480,18 +39389,6 @@ const A2_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "kenne"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "know"
-              ]
-            }
           },
           {
             "de": {
@@ -52985,7 +52882,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Wir besuchen ein altes Schloss.",
-          "lv": "we are visiting an old castle."
+          "lv": "We are visiting an old castle."
         },
         {
           "de": "Schloss Neuschwanstein ist sehr bekannt.",
@@ -52993,7 +52890,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Schloss an der Tür ist kaputt.",
-          "lv": "the door lock is broken."
+          "lv": "The door lock is broken."
         },
         {
           "de": "Ich brauche ein neues Fahrradschloss.",
@@ -53001,11 +52898,11 @@ const A2_WORDS = [
         },
         {
           "de": "Der Schlüssel passt nicht ins Schloss.",
-          "lv": "the key does not fit in the lock."
+          "lv": "The key does not fit in the lock."
         },
         {
           "de": "Im Schloss gibt es viele Zimmer.",
-          "lv": "there are many rooms in the castle."
+          "lv": "There are many rooms in the castle."
         }
       ],
       "comparison": [
@@ -53557,27 +53454,27 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das ist nicht meine Schuld.",
-          "lv": "it is not my fault."
+          "lv": "It is not my fault."
         },
         {
           "de": "Wer hat Schuld?",
-          "lv": "who is to blame?"
+          "lv": "Who is to blame?"
         },
         {
           "de": "Er gibt mir die Schuld.",
-          "lv": "he blames me."
+          "lv": "He blames me."
         },
         {
           "de": "Sie trägt keine Schuld.",
-          "lv": "she is not to blame."
+          "lv": "She is not to blame."
         },
         {
           "de": "Er hat viele Schulden.",
-          "lv": "he has a lot of debts."
+          "lv": "He has a lot of debts."
         },
         {
           "de": "Die Schuld liegt nicht bei dir.",
-          "lv": "the fault does not lie with you."
+          "lv": "The fault does not lie with you."
         }
       ],
       "comparison": [
@@ -54025,27 +53922,27 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Koffer ist sehr schwer.",
-          "lv": "the suitcase is very heavy."
+          "lv": "The suitcase is very heavy."
         },
         {
           "de": "Die Prüfung war schwer.",
-          "lv": "the exam was difficult."
+          "lv": "The exam was difficult."
         },
         {
           "de": "Das Buch ist schwer zu tragen.",
-          "lv": "the book is difficult (heavy) to carry."
+          "lv": "The book is difficult (heavy) to carry."
         },
         {
           "de": "Das ist eine schwere Frage.",
-          "lv": "that is a difficult question."
+          "lv": "That is a difficult question."
         },
         {
           "de": "Wie schwer bist du?",
-          "lv": "how much do you weigh?"
+          "lv": "How much do you weigh?"
         },
         {
           "de": "Er hatte eine schwere Kindheit.",
-          "lv": "he had a difficult childhood."
+          "lv": "He had a difficult childhood."
         }
       ],
       "tip": [
@@ -54324,19 +54221,19 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Hotel befindet sich im Zentrum.",
-          "lv": "the hotel is located in the centre."
+          "lv": "The hotel is located in the centre."
         },
         {
           "de": "Die Toilette befindet sich im ersten Stock.",
-          "lv": "the toilet is located on the first floor."
+          "lv": "The toilet is located on the first floor."
         },
         {
           "de": "Der Eingang befindet sich links.",
-          "lv": "the entrance is located on the left."
+          "lv": "The entrance is located on the left."
         },
         {
           "de": "Die Schule befindet sich neben dem Park.",
-          "lv": "the school is located next to the park."
+          "lv": "The school is located next to the park."
         },
         {
           "de": "Ich fühle mich heute gut.",
@@ -54344,7 +54241,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "the book is on the table."
+          "lv": "The book is on the table."
         }
       ],
       "comparison": [
@@ -54728,11 +54625,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Wir unterhalten uns über die Arbeit.",
-          "lv": "we are talking about work."
+          "lv": "We are talking about work."
         },
         {
           "de": "Sie unterhalten sich auf Deutsch.",
-          "lv": "they are talking in German."
+          "lv": "They are talking in German."
         },
         {
           "de": "Ich habe mich gut unterhalten.",
@@ -54740,15 +54637,15 @@ const A2_WORDS = [
         },
         {
           "de": "Die Kinder unterhalten sich im Garten.",
-          "lv": "the children are talking in the garden."
+          "lv": "The children are talking in the garden."
         },
         {
           "de": "Worüber unterhaltet ihr euch?",
-          "lv": "what are you talking about?"
+          "lv": "What are you talking about?"
         },
         {
           "de": "Der Film hat uns gut unterhalten.",
-          "lv": "the film kept us well entertained."
+          "lv": "The film kept us well entertained."
         }
       ],
       "comparison": [
@@ -55155,19 +55052,15 @@ const A2_WORDS = [
         },
         {
           "de": "Wo möchten Sie sitzen?",
-          "lv": "where would you like to sit?"
+          "lv": "Where would you like to sit?"
         },
         {
           "de": "Die Kinder sitzen im Wohnzimmer.",
-          "lv": "the children are sitting in the living room."
-        },
-        {
-          "de": "Ich sitze am Tisch.",
-          "lv": "I am sitting at the table."
+          "lv": "The children are sitting in the living room."
         },
         {
           "de": "Sie sitzt schon seit einer Stunde hier.",
-          "lv": "she has been sitting here for a whole hour."
+          "lv": "She has been sitting here for a whole hour."
         }
       ],
       "comparison": [
@@ -55244,14 +55137,6 @@ const A2_WORDS = [
               "blue": [
                 "sitzen",
                 "sitzen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "sitze"
               ]
             },
             "lv": {}
@@ -55408,15 +55293,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Sobald ich Zeit habe, rufe ich dich an.",
-          "lv": "as soon as I have time, I will call you."
+          "lv": "As soon as I have time, I will call you."
         },
         {
           "de": "Wir gehen los, sobald er kommt.",
-          "lv": "we will set off as soon as he arrives."
+          "lv": "We will set off as soon as he arrives."
         },
         {
           "de": "Sobald das Essen fertig ist, essen wir.",
-          "lv": "as soon as the food is ready, we will eat."
+          "lv": "As soon as the food is ready, we will eat."
         },
         {
           "de": "Ich sage dir Bescheid, sobald ich mehr weiß.",
@@ -55424,11 +55309,11 @@ const A2_WORDS = [
         },
         {
           "de": "Sobald du da bist, beginnen wir.",
-          "lv": "as soon as you are here, we will begin."
+          "lv": "As soon as you are here, we will begin."
         },
         {
           "de": "Sie schreibt mir, sobald sie zu Hause ist.",
-          "lv": "she will write to me as soon as she is at home."
+          "lv": "She will write to me as soon as she is at home."
         }
       ],
       "comparison": [
@@ -55897,23 +55782,23 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Beeil dich, sonst kommen wir zu spät.",
-          "lv": "hurry up, otherwise we will be late."
+          "lv": "Hurry up, otherwise we will be late."
         },
         {
           "de": "Nimm einen Schirm, sonst wirst du nass.",
-          "lv": "take an umbrella, otherwise you will get wet."
+          "lv": "Take an umbrella, otherwise you will get wet."
         },
         {
           "de": "Was machst du sonst am Wochenende?",
-          "lv": "what do you usually do at the weekend?"
+          "lv": "What do you usually do at the weekend?"
         },
         {
           "de": "Sonst geht es mir gut.",
-          "lv": "otherwise I am fine."
+          "lv": "Otherwise I am fine."
         },
         {
           "de": "Hast du sonst noch Fragen?",
-          "lv": "do you have any other questions?"
+          "lv": "Do you have any other questions?"
         },
         {
           "de": "Ich trinke sonst keinen Kaffee.",
@@ -56528,12 +56413,8 @@ const A2_WORDS = [
           "lv": "The bottle is standing on the table."
         },
         {
-          "de": "Die Flasche steht auf dem Tisch.",
-          "lv": "the bottle is standing on the table."
-        },
-        {
           "de": "Das Auto steht vor dem Haus.",
-          "lv": "the car is parked in front of the house."
+          "lv": "The car is parked in front of the house."
         }
       ],
       "comparison": [
@@ -56601,14 +56482,6 @@ const A2_WORDS = [
                 "steht"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "steht"
-              ]
-            },
             "lv": {
               "purple": [
                 "parked"
@@ -56655,7 +56528,7 @@ const A2_WORDS = [
         },
         {
           "de": "Darf ich eine Frage stellen?",
-          "lv": "may I ask a question?"
+          "lv": "May I ask a question?"
         },
         {
           "de": "Ich stelle die Flasche hin.",
@@ -56786,19 +56659,19 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Wir steigen die Treppe hinauf.",
-          "lv": "we are climbing up the stairs."
+          "lv": "We are climbing up the stairs."
         },
         {
           "de": "Die Preise steigen.",
-          "lv": "prices are rising."
+          "lv": "Prices are rising."
         },
         {
           "de": "Die Temperatur steigt langsam.",
-          "lv": "the temperature is rising slowly."
+          "lv": "The temperature is rising slowly."
         },
         {
           "de": "Das Wasser steigt.",
-          "lv": "the water level is rising."
+          "lv": "The water level is rising."
         },
         {
           "de": "Ich steige in den Bus ein.",
@@ -57176,7 +57049,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "An dieser Stelle darf man nicht parken.",
-          "lv": "you may not park at this spot."
+          "lv": "You may not park at this spot."
         },
         {
           "de": "Ich suche eine neue Stelle.",
@@ -57184,19 +57057,19 @@ const A2_WORDS = [
         },
         {
           "de": "Die Stelle ist gut bezahlt.",
-          "lv": "the job is well paid."
+          "lv": "The job is well paid."
         },
         {
           "de": "Lies diese Stelle im Text noch einmal.",
-          "lv": "read this passage in the text again."
+          "lv": "Read this passage in the text again."
         },
         {
           "de": "An dieser Stelle tut es weh.",
-          "lv": "it hurts at this spot."
+          "lv": "It hurts at this spot."
         },
         {
           "de": "Die offene Stelle ist im Internet ausgeschrieben.",
-          "lv": "the vacancy has been advertised on the internet."
+          "lv": "The vacancy has been advertised on the internet."
         }
       ],
       "comparison": [
@@ -57648,23 +57521,23 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das stimmt.",
-          "lv": "that is true."
+          "lv": "That is true."
         },
         {
           "de": "Deine Antwort stimmt.",
-          "lv": "your answer is correct."
+          "lv": "Your answer is correct."
         },
         {
           "de": "Die Zahlen stimmen nicht.",
-          "lv": "the figures do not add up."
+          "lv": "The figures do not add up."
         },
         {
           "de": "Wir stimmen über den Plan ab.",
-          "lv": "we are voting on the plan."
+          "lv": "We are voting on the plan."
         },
         {
           "de": "Der Musiker stimmt die Gitarre.",
-          "lv": "the musician is tuning the guitar."
+          "lv": "The musician is tuning the guitar."
         },
         {
           "de": "Ich stimme dir zu.",
@@ -58047,7 +57920,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Stoff ist weich.",
-          "lv": "the fabric is soft."
+          "lv": "The fabric is soft."
         },
         {
           "de": "Ich brauche Stoff für ein Kleid.",
@@ -58055,19 +57928,19 @@ const A2_WORDS = [
         },
         {
           "de": "Baumwolle ist ein natürlicher Stoff.",
-          "lv": "cotton is a natural material."
+          "lv": "Cotton is a natural material."
         },
         {
           "de": "Dieser Stoff ist giftig.",
-          "lv": "this substance is toxic."
+          "lv": "This substance is toxic."
         },
         {
           "de": "Der Stoff für die Prüfung ist schwer.",
-          "lv": "the exam content is difficult."
+          "lv": "The exam content is difficult."
         },
         {
           "de": "Aus welchem Stoff ist die Jacke?",
-          "lv": "what fabric is the jacket made of?"
+          "lv": "What fabric is the jacket made of?"
         }
       ],
       "comparison": [
@@ -58576,11 +58449,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Lehrer schreibt an die Tafel.",
-          "lv": "the teacher is writing on the blackboard."
+          "lv": "The teacher is writing on the blackboard."
         },
         {
           "de": "Bitte wisch die Tafel ab.",
-          "lv": "please wipe the blackboard."
+          "lv": "Please wipe the blackboard."
         },
         {
           "de": "Ich kaufe eine Tafel Schokolade.",
@@ -58588,15 +58461,15 @@ const A2_WORDS = [
         },
         {
           "de": "An der Wand hängt eine Informationstafel.",
-          "lv": "an information plaque hangs on the wall."
+          "lv": "An information plaque hangs on the wall."
         },
         {
           "de": "Die Tabelle steht im Buch.",
-          "lv": "the table is in the book."
+          "lv": "The table is in the book."
         },
         {
           "de": "Die Speisekarte liegt auf dem Tisch.",
-          "lv": "the menu is on the table."
+          "lv": "The menu is on the table."
         }
       ],
       "comparison": [
@@ -59046,11 +58919,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das ist nur ein Teil der Geschichte.",
-          "lv": "it is only part of the story."
+          "lv": "It is only part of the story."
         },
         {
           "de": "Ein Teil vom Auto ist kaputt.",
-          "lv": "one car part is broken."
+          "lv": "One car part is broken."
         },
         {
           "de": "Ich brauche ein Ersatzteil.",
@@ -59058,15 +58931,15 @@ const A2_WORDS = [
         },
         {
           "de": "Dieses Teil gehört zur Maschine.",
-          "lv": "this part belongs to the machine."
+          "lv": "This part belongs to the machine."
         },
         {
           "de": "Das ist ein schönes Teil.",
-          "lv": "that is a lovely piece / item."
+          "lv": "That is a lovely piece / item."
         },
         {
           "de": "Ein Teil davon ist richtig.",
-          "lv": "part of it is correct."
+          "lv": "Part of it is correct."
         }
       ],
       "comparison": [
@@ -59145,8 +59018,7 @@ const A2_WORDS = [
               "purple": [
                 "broken",
                 "part",
-                "one",
-                "auto"
+                "one"
               ]
             }
           },
@@ -59560,23 +59432,23 @@ const A2_WORDS = [
         },
         {
           "de": "Kann ich einen Termin machen?",
-          "lv": "can I make an appointment?"
+          "lv": "Can I make an appointment?"
         },
         {
           "de": "Der Termin ist um zehn Uhr.",
-          "lv": "the appointment is at ten o'clock."
+          "lv": "The appointment is at ten o'clock."
         },
         {
           "de": "Wir müssen den Termin verschieben.",
-          "lv": "we have to reschedule the appointment."
+          "lv": "We have to reschedule the appointment."
         },
         {
           "de": "Der Termin für die Abgabe ist Freitag.",
-          "lv": "the deadline for submission is Friday."
+          "lv": "The deadline for submission is Friday."
         },
         {
           "de": "Unser Treffen war sehr nett.",
-          "lv": "our meeting was very nice."
+          "lv": "Our meeting was very nice."
         }
       ],
       "comparison": [
@@ -59953,27 +59825,27 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der See ist tief.",
-          "lv": "the lake is deep."
+          "lv": "The lake is deep."
         },
         {
           "de": "Das Loch ist sehr tief.",
-          "lv": "the hole is very deep."
+          "lv": "The hole is very deep."
         },
         {
           "de": "Er hat eine tiefe Stimme.",
-          "lv": "he has a low (deep) voice."
+          "lv": "He has a low (deep) voice."
         },
         {
           "de": "Die Temperaturen sind tief.",
-          "lv": "the temperatures are low."
+          "lv": "The temperatures are low."
         },
         {
           "de": "Das Regal ist niedrig.",
-          "lv": "the shelf is low."
+          "lv": "The shelf is low."
         },
         {
           "de": "Der Berg ist hoch.",
-          "lv": "the mountain is high."
+          "lv": "The mountain is high."
         }
       ],
       "comparison": [
@@ -60371,27 +60243,27 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Konzert war toll!",
-          "lv": "the concert was great!"
+          "lv": "The concert was great!"
         },
         {
           "de": "Du siehst toll aus.",
-          "lv": "you look great."
+          "lv": "You look great."
         },
         {
           "de": "Wir hatten einen tollen Urlaub.",
-          "lv": "we had a wonderful holiday."
+          "lv": "We had a wonderful holiday."
         },
         {
           "de": "Toll, dass du kommst!",
-          "lv": "great that you're coming!"
+          "lv": "Great that you're coming!"
         },
         {
           "de": "Er hat eine tolle Idee.",
-          "lv": "he has a great idea."
+          "lv": "He has a great idea."
         },
         {
           "de": "Das Essen schmeckt toll.",
-          "lv": "the food tastes great."
+          "lv": "The food tastes great."
         }
       ],
       "tip": [
@@ -60585,15 +60457,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Kannst du die Tasche tragen?",
-          "lv": "can you carry the bag?"
+          "lv": "Can you carry the bag?"
         },
         {
           "de": "Er trägt das Kind auf dem Arm.",
-          "lv": "he is carrying the child in his arms."
+          "lv": "He is carrying the child in his arms."
         },
         {
           "de": "Sie trägt eine blaue Jacke.",
-          "lv": "she is wearing a blue jacket."
+          "lv": "She is wearing a blue jacket."
         },
         {
           "de": "Ich trage eine Brille.",
@@ -60601,11 +60473,11 @@ const A2_WORDS = [
         },
         {
           "de": "Der Tisch trägt viel Gewicht.",
-          "lv": "the table bears a great weight."
+          "lv": "The table bears a great weight."
         },
         {
           "de": "Was trägst du heute?",
-          "lv": "what are you wearing today?"
+          "lv": "What are you wearing today?"
         }
       ],
       "comparison": [
@@ -60817,27 +60689,27 @@ const A2_WORDS = [
         },
         {
           "de": "Wir treffen uns um sechs.",
-          "lv": "we are meeting at six."
+          "lv": "We are meeting at six."
         },
         {
           "de": "Der Schuss hat das Ziel getroffen.",
-          "lv": "the shot hit the target."
+          "lv": "The shot hit the target."
         },
         {
           "de": "Du hast den Nagel getroffen.",
-          "lv": "you hit the nail on the head."
+          "lv": "You hit the nail on the head."
         },
         {
           "de": "Wir müssen eine Entscheidung treffen.",
-          "lv": "we have to make a decision."
+          "lv": "We have to make a decision."
         },
         {
           "de": "Er hat die richtige Wahl getroffen.",
-          "lv": "he made the right choice."
+          "lv": "He made the right choice."
         },
         {
           "de": "Das trifft nicht zu.",
-          "lv": "that is not true / that is not correct."
+          "lv": "That is not true / that is not correct."
         }
       ],
       "comparison": [
@@ -61336,27 +61208,27 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Es ist noch etwas Geld übrig.",
-          "lv": "there is still a little money left."
+          "lv": "There is still a little money left."
         },
         {
           "de": "Vom Essen ist viel übrig geblieben.",
-          "lv": "a lot of the food was left over."
+          "lv": "A lot of the food was left over."
         },
         {
           "de": "Die übrigen Gäste kommen später.",
-          "lv": "the other guests will arrive later."
+          "lv": "The other guests will arrive later."
         },
         {
           "de": "Hast du noch Zeit übrig?",
-          "lv": "do you still have time left?"
+          "lv": "Do you still have time left?"
         },
         {
           "de": "Der Rest bleibt übrig.",
-          "lv": "the remainder is left over."
+          "lv": "The remainder is left over."
         },
         {
           "de": "Diese Frage ist unnötig.",
-          "lv": "this question is unnecessary."
+          "lv": "This question is unnecessary."
         }
       ],
       "comparison": [
@@ -61691,19 +61563,19 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Diese Übung ist leicht.",
-          "lv": "this exercise is easy."
+          "lv": "This exercise is easy."
         },
         {
           "de": "Mach bitte die Übung auf Seite zehn.",
-          "lv": "please do the exercise on page ten."
+          "lv": "Please do the exercise on page ten."
         },
         {
           "de": "Wir machen viele Übungen im Deutschkurs.",
-          "lv": "in the German course we do a lot of exercises."
+          "lv": "In the German course we do a lot of exercises."
         },
         {
           "de": "Übung macht den Meister.",
-          "lv": "practice makes perfect."
+          "lv": "Practice makes perfect."
         },
         {
           "de": "Ich muss mehr üben.",
@@ -61711,7 +61583,7 @@ const A2_WORDS = [
         },
         {
           "de": "Mit Übung wird es leichter.",
-          "lv": "it gets easier with practice."
+          "lv": "It gets easier with practice."
         }
       ],
       "comparison": [
@@ -62048,11 +61920,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Eintritt ist umsonst.",
-          "lv": "admission is free."
+          "lv": "Admission is free."
         },
         {
           "de": "Das Essen war umsonst.",
-          "lv": "the food was free."
+          "lv": "The food was free."
         },
         {
           "de": "Ich habe umsonst gewartet.",
@@ -62060,15 +61932,15 @@ const A2_WORDS = [
         },
         {
           "de": "Alle Mühe war umsonst.",
-          "lv": "all the effort was in vain."
+          "lv": "All the effort was in vain."
         },
         {
           "de": "Du bekommst das Ticket umsonst.",
-          "lv": "you get the ticket for free."
+          "lv": "You get the ticket for free."
         },
         {
           "de": "Er hat umsonst angerufen.",
-          "lv": "he phoned in vain."
+          "lv": "He phoned in vain."
         }
       ],
       "comparison": [
@@ -62524,10 +62396,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Holiday",
       "explanation": [
-        "Main idea: singular only. Holiday from work — always in the singular.",
+        "Main idea: usually singular. Holiday from work — usually singular.",
         "der Urlaub mainly means: time off from work.",
-        "It often describes: singular only.",
-        "der Urlaub is singular only — holiday from work (im Urlaub)."
+        "It often describes: usually singular.",
+        "der Urlaub is usually singular — holiday from work (im Urlaub)."
       ],
       "examples": [
         {
@@ -62535,16 +62407,12 @@ const A2_WORDS = [
           "lv": "My father is on holiday."
         },
         {
-          "de": "Mein Vater ist im Urlaub.",
-          "lv": "my father is on holiday."
-        },
-        {
           "de": "Nächste Woche habe ich Urlaub.",
           "lv": "I am on holiday next week."
         },
         {
           "de": "Wir machen Urlaub in Spanien.",
-          "lv": "we are spending our holiday in Spain."
+          "lv": "We are spending our holiday in Spain."
         },
         {
           "de": "im Urlaub",
@@ -62554,7 +62422,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "der Urlaub",
-          "meaning": "holiday from work (singular only)",
+          "meaning": "holiday from work (usually singular)",
           "example": "Mein Vater ist im Urlaub. – My father is on holiday."
         },
         {
@@ -62564,14 +62432,12 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "singular only. Holiday from work — always in the singular.",
+        "usually singular. Holiday from work — usually singular.",
         "Use der Urlaub when the context fits this meaning."
       ],
       "important": [
-        "Incorrect: die Ferie, der Urlaube (at A1 level).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Incorrect: die Urlaube → Correct: der Urlaub",
-        "Work: der Urlaub (singular only)."
+        "Work: der Urlaub (usually singular)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -62587,18 +62453,6 @@ const A2_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "on holiday"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -62682,19 +62536,19 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Die Brücke verbindet die zwei Stadtteile.",
-          "lv": "the bridge connects the two parts of the city."
+          "lv": "The bridge connects the two parts of the city."
         },
         {
           "de": "Kannst du mich mit dem Büro verbinden?",
-          "lv": "can you put me through to the office?"
+          "lv": "Can you put me through to the office?"
         },
         {
           "de": "Diese Straße verbindet zwei Dörfer.",
-          "lv": "this road connects two villages."
+          "lv": "This road connects two villages."
         },
         {
           "de": "Der Arzt verbindet die Wunde.",
-          "lv": "the doctor is bandaging the wound."
+          "lv": "The doctor is bandaging the wound."
         },
         {
           "de": "Ich verbinde Berlin mit guter Musik.",
@@ -63111,27 +62965,27 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Heute gibt es viel Verkehr.",
-          "lv": "there is heavy traffic today."
+          "lv": "There is heavy traffic today."
         },
         {
           "de": "Der Verkehr in der Stadt ist stark.",
-          "lv": "the traffic in the city is heavy."
+          "lv": "The traffic in the city is heavy."
         },
         {
           "de": "Öffentlicher Verkehr ist hier gut organisiert.",
-          "lv": "public transport here is well organised."
+          "lv": "Public transport here is well organised."
         },
         {
           "de": "Wegen des Verkehrs komme ich später.",
-          "lv": "because of the traffic I will arrive later."
+          "lv": "Because of the traffic I will arrive later."
         },
         {
           "de": "Die Firma hat viel Verkehr mit Kunden.",
-          "lv": "the company has a lot of contact with customers."
+          "lv": "The company has a lot of contact with customers."
         },
         {
           "de": "Der Verkehr auf der Straße ist laut.",
-          "lv": "the traffic on the street is loud."
+          "lv": "The traffic on the street is loud."
         }
       ],
       "comparison": [
@@ -63655,7 +63509,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ein Viertel der Pizza ist noch da.",
-          "lv": "a quarter of the pizza is left."
+          "lv": "A quarter of the pizza is left."
         },
         {
           "de": "Ich brauche ein Viertel Liter Milch.",
@@ -63663,11 +63517,11 @@ const A2_WORDS = [
         },
         {
           "de": "Es ist Viertel vor acht.",
-          "lv": "it is a quarter to eight."
+          "lv": "It is a quarter to eight."
         },
         {
           "de": "Wir treffen uns um Viertel nach sieben.",
-          "lv": "we are meeting at a quarter past seven."
+          "lv": "We are meeting at a quarter past seven."
         },
         {
           "de": "Ich wohne in einem ruhigen Viertel.",
@@ -63675,7 +63529,7 @@ const A2_WORDS = [
         },
         {
           "de": "Dieses Viertel ist sehr alt.",
-          "lv": "this neighbourhood is very old."
+          "lv": "This neighbourhood is very old."
         }
       ],
       "comparison": [
@@ -64188,7 +64042,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Darf ich dir meinen Freund vorstellen?",
-          "lv": "may I introduce you to my friend?"
+          "lv": "May I introduce you to my friend?"
         },
         {
           "de": "Ich möchte mich kurz vorstellen.",
@@ -64196,7 +64050,7 @@ const A2_WORDS = [
         },
         {
           "de": "Kannst du dir das vorstellen?",
-          "lv": "can you imagine that?"
+          "lv": "Can you imagine that?"
         },
         {
           "de": "Ich kann mir das nicht vorstellen.",
@@ -64204,11 +64058,11 @@ const A2_WORDS = [
         },
         {
           "de": "Der Chef stellt den neuen Plan vor.",
-          "lv": "the boss is presenting the new plan."
+          "lv": "The boss is presenting the new plan."
         },
         {
           "de": "Stellen Sie sich bitte vor.",
-          "lv": "please introduce yourselves."
+          "lv": "Please introduce yourselves."
         },
         {
           "de": "Ich habe mir das anders vorgestellt.",
@@ -64633,15 +64487,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Wagen steht vor dem Haus.",
-          "lv": "the car is parked in front of the house."
+          "lv": "The car is parked in front of the house."
         },
         {
           "de": "Wir fahren mit dem Wagen zur Stadt.",
-          "lv": "we are driving into town by car."
+          "lv": "We are driving into town by car."
         },
         {
           "de": "Der Güterwagen ist schwer beladen.",
-          "lv": "the goods wagon is heavily loaded."
+          "lv": "The goods wagon is heavily loaded."
         }
       ],
       "comparison": [
@@ -64781,23 +64635,23 @@ const A2_WORDS = [
         },
         {
           "de": "Welche Farbe wählst du?",
-          "lv": "which colour are you choosing?"
+          "lv": "Which colour are you choosing?"
         },
         {
           "de": "Wir wählen morgen den Präsidenten.",
-          "lv": "we are electing the president tomorrow."
+          "lv": "We are electing the president tomorrow."
         },
         {
           "de": "Viele Menschen wählen diese Partei.",
-          "lv": "many people vote for this party."
+          "lv": "Many people vote for this party."
         },
         {
           "de": "Wählen Sie bitte die Nummer.",
-          "lv": "please dial the number."
+          "lv": "Please dial the number."
         },
         {
           "de": "Sie hat den falschen Kurs gewählt.",
-          "lv": "she chose the wrong course."
+          "lv": "She chose the wrong course."
         }
       ],
       "comparison": [
@@ -65163,15 +65017,15 @@ const A2_WORDS = [
         },
         {
           "de": "Während ich koche, hört er Musik.",
-          "lv": "while I am cooking, he is listening to music."
+          "lv": "While I am cooking, he is listening to music."
         },
         {
           "de": "Sie telefoniert, während sie wartet.",
-          "lv": "she talks on the phone while she waits."
+          "lv": "She talks on the phone while she waits."
         },
         {
           "de": "Während des Films war es ruhig.",
-          "lv": "it was quiet during the film."
+          "lv": "It was quiet during the film."
         },
         {
           "de": "Ich lerne, während die Kinder schlafen.",
@@ -65572,23 +65426,23 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Er kommt wahrscheinlich später.",
-          "lv": "he will probably come later."
+          "lv": "He will probably come later."
         },
         {
           "de": "Das ist wahrscheinlich richtig.",
-          "lv": "that is most likely correct."
+          "lv": "That is most likely correct."
         },
         {
           "de": "Wahrscheinlich regnet es morgen.",
-          "lv": "it will probably rain tomorrow."
+          "lv": "It will probably rain tomorrow."
         },
         {
           "de": "Vielleicht kommt er später.",
-          "lv": "maybe he will come later."
+          "lv": "Maybe he will come later."
         },
         {
           "de": "Das ist sicher richtig.",
-          "lv": "that is definitely correct."
+          "lv": "That is definitely correct."
         },
         {
           "de": "Ich bin mir nicht sicher.",
@@ -65981,7 +65835,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sie wechselt die Schule.",
-          "lv": "she is changing school."
+          "lv": "She is changing school."
         },
         {
           "de": "Ich wechsle das Hemd.",
@@ -65989,7 +65843,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir wechseln das Thema.",
-          "lv": "we are changing the topic."
+          "lv": "We are changing the topic."
         },
         {
           "de": "Ich steige in Berlin um.",
@@ -65997,7 +65851,7 @@ const A2_WORDS = [
         },
         {
           "de": "Kann ich die Jacke umtauschen?",
-          "lv": "can I exchange the jacket?"
+          "lv": "Can I exchange the jacket?"
         }
       ],
       "comparison": [
@@ -66429,27 +66283,27 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Die Schule ist weit von hier.",
-          "lv": "the school is far from here."
+          "lv": "The school is far from here."
         },
         {
           "de": "Wie weit ist es bis zur Stadt?",
-          "lv": "how far is it to the town?"
+          "lv": "How far is it to the town?"
         },
         {
           "de": "Das Feld ist sehr weit.",
-          "lv": "the field is very wide."
+          "lv": "The field is very wide."
         },
         {
           "de": "Der Rock ist zu weit.",
-          "lv": "the skirt is too wide."
+          "lv": "The skirt is too wide."
         },
         {
           "de": "Von weitem sieht man das Meer.",
-          "lv": "from a distance you can see the sea."
+          "lv": "From a distance you can see the sea."
         },
         {
           "de": "Wir sind noch weit vom Ziel.",
-          "lv": "we are still far from the goal."
+          "lv": "We are still far from the goal."
         }
       ],
       "tip": [
@@ -66617,27 +66471,27 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das ist viel Geld wert.",
-          "lv": "that is worth a lot of money."
+          "lv": "That is worth a lot of money."
         },
         {
           "de": "Ist das den Preis wert?",
-          "lv": "is it worth the price?"
+          "lv": "Is it worth the price?"
         },
         {
           "de": "Der Film ist sehenswert.",
-          "lv": "the film is worth seeing."
+          "lv": "The film is worth seeing."
         },
         {
           "de": "Dieses Bild ist 100 Euro wert.",
-          "lv": "this picture is worth 100 euros."
+          "lv": "This picture is worth 100 euros."
         },
         {
           "de": "Das Auto ist teuer.",
-          "lv": "the car is expensive."
+          "lv": "The car is expensive."
         },
         {
           "de": "Der Wert des Hauses ist hoch.",
-          "lv": "the value of the house is high."
+          "lv": "The value of the house is high."
         }
       ],
       "comparison": [
@@ -66761,9 +66615,6 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "expensive"
-              ],
-              "yellow": [
-                "Auto"
               ]
             }
           },
@@ -67004,11 +66855,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Paket wiegt zwei Kilo.",
-          "lv": "the parcel weighs two kilograms."
+          "lv": "The parcel weighs two kilograms."
         },
         {
           "de": "Wie viel wiegst du?",
-          "lv": "how much do you weigh?"
+          "lv": "How much do you weigh?"
         },
         {
           "de": "Ich wiege das Mehl.",
@@ -67016,15 +66867,15 @@ const A2_WORDS = [
         },
         {
           "de": "Der Arzt wiegt das Baby.",
-          "lv": "the doctor is weighing the baby."
+          "lv": "The doctor is weighing the baby."
         },
         {
           "de": "Die Waage zeigt 70 Kilo.",
-          "lv": "the scales show 70 kilograms."
+          "lv": "The scales show 70 kilograms."
         },
         {
           "de": "Der Wagen steht draußen.",
-          "lv": "the car is parked outside."
+          "lv": "The car is parked outside."
         }
       ],
       "comparison": [
@@ -67418,31 +67269,31 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Zieh bitte die Tür zu.",
-          "lv": "please pull the door shut."
+          "lv": "Please pull the door shut."
         },
         {
           "de": "Er zieht den Wagen.",
-          "lv": "he is pulling the cart."
+          "lv": "He is pulling the cart."
         },
         {
           "de": "Wir ziehen nächste Woche nach Berlin.",
-          "lv": "we are moving to Berlin next week."
+          "lv": "We are moving to Berlin next week."
         },
         {
           "de": "Die Wolken ziehen nach Osten.",
-          "lv": "the clouds are moving east."
+          "lv": "The clouds are moving east."
         },
         {
           "de": "Es zieht hier.",
-          "lv": "there is a draught here."
+          "lv": "There is a draught here."
         },
         {
           "de": "Sie ziehen zwei Kinder groß.",
-          "lv": "they are bringing up two children."
+          "lv": "They are bringing up two children."
         },
         {
           "de": "Daraus kann man einen Schluss ziehen.",
-          "lv": "a conclusion can be drawn from that."
+          "lv": "A conclusion can be drawn from that."
         }
       ],
       "comparison": [
@@ -67935,23 +67786,23 @@ const A2_WORDS = [
         },
         {
           "de": "Der Verkehr nimmt zu.",
-          "lv": "traffic is increasing."
+          "lv": "Traffic is increasing."
         },
         {
           "de": "Die Preise nehmen weiter zu.",
-          "lv": "prices keep rising."
+          "lv": "Prices keep rising."
         },
         {
           "de": "Der Wind nimmt zu.",
-          "lv": "the wind is getting stronger."
+          "lv": "The wind is getting stronger."
         },
         {
           "de": "Die Zahl der Besucher hat zugenommen.",
-          "lv": "the number of visitors has grown."
+          "lv": "The number of visitors has grown."
         },
         {
           "de": "Der Druck nimmt langsam zu.",
-          "lv": "the pressure is slowly increasing."
+          "lv": "The pressure is slowly increasing."
         }
       ],
       "comparison": [
@@ -68351,11 +68202,11 @@ const A2_WORDS = [
         },
         {
           "de": "Wir haben zurzeit keine freien Zimmer.",
-          "lv": "we have no vacant rooms at present."
+          "lv": "We have no vacant rooms at present."
         },
         {
           "de": "Er ist zurzeit krank.",
-          "lv": "he is currently ill."
+          "lv": "He is currently ill."
         },
         {
           "de": "Zurzeit lerne ich Deutsch.",
@@ -68363,7 +68214,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Firma sucht zurzeit neue Mitarbeiter.",
-          "lv": "the company is currently looking for new employees."
+          "lv": "The company is currently looking for new employees."
         }
       ],
       "comparison": [
@@ -68913,11 +68764,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir schauen aus dem Fenster.",
-          "lv": "we are looking out of the window."
-        },
-        {
-          "de": "Ich schaue fern.",
-          "lv": "I am watching television."
+          "lv": "We are looking out of the window."
         }
       ],
       "comparison": [
@@ -68973,14 +68820,6 @@ const A2_WORDS = [
                 "looking"
               ]
             }
-          },
-          {
-            "de": {
-              "green": [
-                "schaue"
-              ]
-            },
-            "lv": {}
           }
         ],
         "tip": [
@@ -69017,7 +68856,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Schau dir das an!",
-          "lv": "have a look at this!"
+          "lv": "Have a look at this!"
         }
       ],
       "tip": [
@@ -69091,7 +68930,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Kinder hören eine Geschichte.",
-          "lv": "the children are listening to a story."
+          "lv": "The children are listening to a story."
         },
         {
           "de": "Ich höre dich.",
@@ -69186,7 +69025,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Was hast du gesagt?",
-          "lv": "what did you say?"
+          "lv": "What did you say?"
         }
       ],
       "comparison": [
@@ -69265,11 +69104,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir sprechen über die Arbeit.",
-          "lv": "we are talking about work."
-        },
-        {
-          "de": "Ich spreche Deutsch.",
-          "lv": "I speak German."
+          "lv": "We are talking about work."
         }
       ],
       "comparison": [
@@ -69325,18 +69160,6 @@ const A2_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "spreche"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "speak"
-              ]
-            }
           }
         ],
         "tip": [
@@ -69378,16 +69201,12 @@ const A2_WORDS = [
           "lv": "The house is big."
         },
         {
-          "de": "Das Haus ist groß.",
-          "lv": "the house is big."
-        },
-        {
           "de": "Er ist groß.",
-          "lv": "he is tall."
+          "lv": "He is tall."
         },
         {
           "de": "Das Zimmer ist groß.",
-          "lv": "the room is big."
+          "lv": "The room is big."
         }
       ],
       "tip": [
@@ -69412,19 +69231,6 @@ const A2_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "groß",
-                "groß"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "big"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -69500,10 +69306,6 @@ const A2_WORDS = [
           "lv": "The mountain is high."
         },
         {
-          "de": "Der Berg ist hoch.",
-          "lv": "The mountain is high."
-        },
-        {
           "de": "Die Miete ist hoch.",
           "lv": "The rent is high."
         },
@@ -69538,19 +69340,6 @@ const A2_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "hoch",
-                "hoch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "high"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -69643,10 +69432,6 @@ const A2_WORDS = [
           "lv": "The room is small."
         },
         {
-          "de": "Das Zimmer ist klein.",
-          "lv": "The room is small."
-        },
-        {
           "de": "Das Kind ist noch klein.",
           "lv": "The child is still small."
         },
@@ -69681,19 +69466,6 @@ const A2_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "klein",
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "small"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -69784,10 +69556,6 @@ const A2_WORDS = [
           "lv": "Please be quiet."
         },
         {
-          "de": "Bitte sei leise.",
-          "lv": "Please be quiet."
-        },
-        {
           "de": "Die Musik ist leise.",
           "lv": "The music is quiet."
         },
@@ -69818,19 +69586,6 @@ const A2_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "leise",
-                "leise"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "quiet"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -69978,10 +69733,6 @@ const A2_WORDS = [
           "lv": "I am still at home."
         },
         {
-          "de": "Ich bin noch zu Hause.",
-          "lv": "I am still at home."
-        },
-        {
           "de": "Bist du noch da?",
           "lv": "Are you still there?"
         }
@@ -70001,19 +69752,6 @@ const A2_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "noch",
-                "noch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "still"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -70082,10 +69820,6 @@ const A2_WORDS = [
           "lv": "I have only been here for an hour."
         },
         {
-          "de": "Es ist erst acht Uhr.",
-          "lv": "It is only eight o'clock."
-        },
-        {
           "de": "Er kommt erst morgen.",
           "lv": "He will not arrive until tomorrow."
         }
@@ -70109,19 +69843,6 @@ const A2_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "yellow": [
-                "erst",
-                "erst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "only"
-              ]
-            }
-          },
           {
             "de": {
               "yellow": [
@@ -70192,20 +69913,12 @@ const A2_WORDS = [
           "lv": "I have only ten euros."
         },
         {
-          "de": "Ich habe nur zehn Euro.",
-          "lv": "I have only ten euros."
-        },
-        {
           "de": "Nur du kannst mir helfen.",
           "lv": "You are the only one who can help me."
         },
         {
           "de": "Ich möchte nur Kaffee.",
           "lv": "I only want coffee."
-        },
-        {
-          "de": "Ich habe nur acht Euro.",
-          "lv": "I have only eight euros."
         },
         {
           "de": "Ich habe nur acht Euro.",
@@ -70235,32 +69948,6 @@ const A2_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "orange": [
-                "nur",
-                "nur"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "only"
-              ]
-            }
-          },
-          {
-            "de": {
-              "orange": [
-                "nur",
-                "nur"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "only"
-              ]
-            }
-          },
           {
             "de": {
               "orange": [
@@ -70356,10 +70043,6 @@ const A2_WORDS = [
           "lv": "The lamp hangs over the table."
         },
         {
-          "de": "Wir gehen über die Straße.",
-          "lv": "We are walking across the street."
-        },
-        {
           "de": "Er spricht über seine Arbeit.",
           "lv": "He is talking about his work."
         },
@@ -70411,19 +70094,6 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "over"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "über",
-                "über"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "across"
               ]
             }
           },
@@ -70572,10 +70242,6 @@ const A2_WORDS = [
         {
           "de": "Gleich beginnt der Film.",
           "lv": "The film is just about to start."
-        },
-        {
-          "de": "Die Farben sind gleich.",
-          "lv": "The colours are the same."
         }
       ],
       "tip": [
@@ -70662,19 +70328,6 @@ const A2_WORDS = [
                 "just about to"
               ]
             }
-          },
-          {
-            "de": {
-              "green": [
-                "gleich",
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "same"
-              ]
-            }
           }
         ],
         "tip": [
@@ -70719,10 +70372,6 @@ const A2_WORDS = [
           "lv": "I am coming too."
         },
         {
-          "de": "Ich komme auch.",
-          "lv": "I am coming too."
-        },
-        {
           "de": "Sie arbeitet auch hier.",
           "lv": "She works here too."
         }
@@ -70746,19 +70395,6 @@ const A2_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "auch",
-                "auch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "too"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [

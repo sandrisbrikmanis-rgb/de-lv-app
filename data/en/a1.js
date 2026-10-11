@@ -11362,10 +11362,6 @@ const A1_WORDS = [
           "lv": "Where did you meet?"
         },
         {
-          "de": "Ich kenne ihn.",
-          "lv": "I know him."
-        },
-        {
           "de": "kennen",
           "lv": "to know (be acquainted with); wissen"
         }
@@ -11431,18 +11427,6 @@ const A1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "kenne"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "know"
-              ]
-            }
           },
           {
             "de": {
@@ -12789,7 +12773,7 @@ const A1_WORDS = [
         },
         {
           "de": "Den ganzen Tag lang.",
-          "lv": "all day long."
+          "lv": "All day long."
         }
       ],
       "tip": [
@@ -13409,19 +13393,10 @@ const A1_WORDS = [
       "translation": "Loud",
       "explanation": [
         "Main idea: An adjective written with a lower-case letter. It describes intensity — how loud a sound or speech is.",
-        "laut mainly means: loud sound.",
-        "It often describes: an adjective.",
-        "laut mainly means: sound signal.",
-        "It often describes: a noun (der).",
         "laut with a lower-case initial is an adjective — it describes how loud a sound is (Die Musik ist laut = The music is loud).",
-        "der Laut with a capital letter and the article der is a noun — it means a sound as a thing or a signal (Der Laut ist schön = The sound is nice).",
-        "Plural: die Laute."
+        "Do not confuse it with der Laut (capital L, noun): a sound or a speech sound. Plural: die Laute."
       ],
       "examples": [
-        {
-          "de": "Die Musik ist laut.",
-          "lv": "The music is loud."
-        },
         {
           "de": "Die Musik ist laut.",
           "lv": "The music is loud."
@@ -13433,19 +13408,11 @@ const A1_WORDS = [
         {
           "de": "Das ist sehr laut.",
           "lv": "That is very loud."
-        },
-        {
-          "de": "Der Laut ist schön.",
-          "lv": "The sound is nice."
-        },
-        {
-          "de": "Ich höre einen Laut.",
-          "lv": "I hear a sound."
         }
       ],
       "tip": [
         "Lower-case laut = loud (adjective: ist laut). der Laut with a capital letter = sound (noun: ein Laut, der Laut).",
-        "laut = sound"
+        "laut = loud"
       ],
       "important": [
         "laut is written with a lower-case letter and without an article — it is an adjective.",
@@ -13485,19 +13452,6 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "loud"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
                 "loudly"
               ]
             }
@@ -13512,32 +13466,6 @@ const A1_WORDS = [
             "lv": {
               "purple": [
                 "loud"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sound"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sound"
               ]
             }
           }
@@ -13571,31 +13499,10 @@ const A1_WORDS = [
       "translation": "The sound",
       "explanation": [
         "Main idea: A noun with the article der and a capital letter. It means a sound as a thing, a signal or a speech sound.",
-        "der Laut mainly means: loud sound.",
-        "It often describes: an adjective.",
-        "der Laut mainly means: sound signal.",
-        "It often describes: a noun (der).",
-        "laut with a lower-case initial is an adjective — it describes how loud a sound is (Die Musik ist laut = The music is loud).",
         "der Laut with a capital letter and the article der is a noun — it means a sound as a thing or a signal (Der Laut ist schön = The sound is nice).",
-        "Plural: die Laute."
+        "Do not confuse it with laut (lower case, adjective): loud. Plural: die Laute."
       ],
       "examples": [
-        {
-          "de": "Der Laut ist schön.",
-          "lv": "The sound is nice."
-        },
-        {
-          "de": "Die Musik ist laut.",
-          "lv": "The music is loud."
-        },
-        {
-          "de": "Sprich nicht so laut!",
-          "lv": "Don't talk so loudly!"
-        },
-        {
-          "de": "Das ist sehr laut.",
-          "lv": "That is very loud."
-        },
         {
           "de": "Der Laut ist schön.",
           "lv": "The sound is nice."
@@ -13630,55 +13537,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "der Laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sound"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "loud"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "loudly"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "loud"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -14050,10 +13908,6 @@ const A1_WORDS = [
           "lv": "Please be quiet."
         },
         {
-          "de": "Bitte sei leise.",
-          "lv": "Please be quiet."
-        },
-        {
           "de": "Die Musik ist leise.",
           "lv": "The music is quiet."
         },
@@ -14084,19 +13938,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "leise",
-                "leise"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "quiet"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -15685,13 +15526,8 @@ const A1_WORDS = [
       "translation": "Tomorrow",
       "explanation": [
         "Main idea: An adverb of time written with a lower-case letter. It means the next day — tomorrow.",
-        "morgen mainly means: the next day.",
-        "It often describes: an adverb of time.",
-        "morgen mainly means: part of the day.",
-        "It often describes: a noun (der).",
-        "morgen mainly means: several mornings.",
-        "It often describes: a noun (pl.).",
-        "morgen with a lower-case initial means tomorrow — the next day (Ich komme morgen = I am coming tomorrow, Bis morgen!)"
+        "morgen with a lower-case initial means tomorrow — the next day (Ich komme morgen = I am coming tomorrow, Bis morgen!).",
+        "Do not confuse it with der Morgen (capital M, noun): the morning."
       ],
       "examples": [
         {
@@ -15701,10 +15537,6 @@ const A1_WORDS = [
         {
           "de": "Bis morgen!",
           "lv": "See you tomorrow!"
-        },
-        {
-          "de": "Ich komme morgen.",
-          "lv": "I am coming tomorrow."
         },
         {
           "de": "Morgen ist Montag.",
@@ -15739,19 +15571,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "morgen",
-                "morgen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tomorrow"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -15839,13 +15658,8 @@ const A1_WORDS = [
       "translation": "The morning",
       "explanation": [
         "Main idea: A noun with the article der and a capital letter. A part of the day — the morning.",
-        "der Morgen mainly means: the next day.",
-        "It often describes: an adverb of time.",
-        "der Morgen mainly means: part of the day.",
-        "It often describes: a noun (der).",
-        "der Morgen mainly means: several mornings.",
-        "It often describes: a noun (pl.).",
-        "morgen with a lower-case initial means tomorrow — the next day (Ich komme morgen = I am coming tomorrow, Bis morgen!)"
+        "der Morgen with a capital letter means the morning (Guten Morgen!, am Morgen).",
+        "Do not confuse it with morgen (lower case, adverb): tomorrow."
       ],
       "examples": [
         {
@@ -15863,10 +15677,6 @@ const A1_WORDS = [
         {
           "de": "Morgen ist Montag.",
           "lv": "Tomorrow is Monday."
-        },
-        {
-          "de": "Guten Morgen!",
-          "lv": "Good morning!"
         },
         {
           "de": "Der Morgen ist schön.",
@@ -15890,8 +15700,7 @@ const A1_WORDS = [
             "morgen"
           ],
           "purple": [
-            "morning",
-            "mornings"
+            "morning"
           ],
           "yellow": [
             "Morgen"
@@ -15941,14 +15750,6 @@ const A1_WORDS = [
                 "Tomorrow"
               ]
             }
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {}
           },
           {
             "de": {
@@ -17240,10 +17041,6 @@ const A1_WORDS = [
           "lv": "I am still at home."
         },
         {
-          "de": "Ich bin noch zu Hause.",
-          "lv": "I am still at home."
-        },
-        {
           "de": "Bist du noch da?",
           "lv": "Are you still here?"
         }
@@ -17266,19 +17063,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "noch",
-                "noch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "still"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -17368,10 +17152,6 @@ const A1_WORDS = [
           "lv": "I only have ten euros."
         },
         {
-          "de": "Ich habe nur zehn Euro.",
-          "lv": "I only have ten euros."
-        },
-        {
           "de": "Nur du kannst mir helfen.",
           "lv": "Only you can help me."
         },
@@ -17410,19 +17190,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "orange": [
-                "nur",
-                "nur"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "only"
-              ]
-            }
-          },
           {
             "de": {
               "orange": [
@@ -18951,10 +18718,6 @@ const A1_WORDS = [
         {
           "de": "Wir schauen aus dem Fenster.",
           "lv": "We are looking out of the window."
-        },
-        {
-          "de": "Ich schaue fern.",
-          "lv": "I am watching television."
         }
       ],
       "comparison": [
@@ -19010,14 +18773,6 @@ const A1_WORDS = [
                 "looking"
               ]
             }
-          },
-          {
-            "de": {
-              "green": [
-                "schaue"
-              ]
-            },
-            "lv": {}
           }
         ],
         "tip": [
@@ -20594,16 +20349,8 @@ const A1_WORDS = [
           "lv": "She is eating."
         },
         {
-          "de": "Sie kochen.",
-          "lv": "They are cooking."
-        },
-        {
           "de": "Sie spielen Fußball.",
           "lv": "They are playing football."
-        },
-        {
-          "de": "Sie kochen, bitte.",
-          "lv": "You (formal) are cooking, please."
         }
       ],
       "tip": [
@@ -20613,7 +20360,6 @@ const A1_WORDS = [
       "important": [
         "The polite form of address is always written with a capital S: Sie, not sie.",
         "She: Sie kocht. They: sie kochen. You: Sie kochen.",
-        "Wrong: sie kocht → Correct: Sie kocht",
         "Wrong: Sie kocht (they) → Correct: Sie kochen"
       ],
       "sectionAccents": {
@@ -20679,31 +20425,6 @@ const A1_WORDS = [
                 "They"
               ]
             }
-          },
-          {
-            "de": {
-              "green": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "They"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "You"
-              ]
-            }
           }
         ],
         "tip": [
@@ -20739,10 +20460,6 @@ const A1_WORDS = [
       ],
       "examples": [
         {
-          "de": "Sie kochen, bitte.",
-          "lv": "You are cooking, please."
-        },
-        {
           "de": "Sie kocht.",
           "lv": "She is cooking."
         },
@@ -20757,10 +20474,6 @@ const A1_WORDS = [
         {
           "de": "Sie spielen Fußball.",
           "lv": "They are playing football."
-        },
-        {
-          "de": "Sie kochen, bitte.",
-          "lv": "You are cooking, please."
         }
       ],
       "tip": [
@@ -20770,7 +20483,6 @@ const A1_WORDS = [
       "important": [
         "The polite form of address always has a capital S: Sie, not sie.",
         "She: Sie kocht. They: sie kochen. You: Sie kochen.",
-        "Incorrect: sie kocht → Correct: Sie kocht",
         "Incorrect: Sie kocht (they) → Correct: Sie kochen"
       ],
       "sectionAccents": {
@@ -20791,19 +20503,6 @@ const A1_WORDS = [
                 "sie"
               ]
             },
-            "lv": {
-              "purple": [
-                "You"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
             "lv": {}
           },
           {
@@ -20832,19 +20531,6 @@ const A1_WORDS = [
               ]
             },
             "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "You"
-              ]
-            }
           }
         ],
         "tip": [
@@ -26079,10 +25765,6 @@ const A1_WORDS = [
           "lv": "What's on TV today?"
         },
         {
-          "de": "Was gibt es heute im Fernsehen?",
-          "lv": "What's on TV today?"
-        },
-        {
           "de": "Im Fernsehen läuft ein Film.",
           "lv": "A film is on TV."
         },
@@ -26119,19 +25801,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "Fernsehen",
-                "fernsehen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "TV"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -26228,10 +25897,6 @@ const A1_WORDS = [
           "lv": "Enjoy your meal!"
         },
         {
-          "de": "Guten Appetit!",
-          "lv": "Enjoy your meal!"
-        },
-        {
           "de": "Ich habe keinen Appetit.",
           "lv": "I have no appetite."
         }
@@ -26261,14 +25926,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "appetit"
-              ]
-            },
-            "lv": {}
-          },
           {
             "de": {
               "blue": [
@@ -26482,10 +26139,6 @@ const A1_WORDS = [
         {
           "de": "Das Essen schmeckt sehr gut.",
           "lv": "The food tastes very good."
-        },
-        {
-          "de": "Das Essen schmeckt gut.",
-          "lv": "The food tastes good."
         }
       ],
       "tip": [
@@ -26567,19 +26220,6 @@ const A1_WORDS = [
                 "food"
               ]
             }
-          },
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "food"
-              ]
-            }
           }
         ],
         "tip": [
@@ -26602,15 +26242,11 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Vegetables",
       "explanation": [
-        "Main idea: Vegetables in general. There is no plural form *die Gemüse in German.",
+        "Main idea: Vegetables in general. In everyday German it is a collective noun, normally used in the singular: das Gemüse.",
         "das Gemüse mainly means: vegetables in general.",
         "Often characterised by: neuter gender (singular only)."
       ],
       "examples": [
-        {
-          "de": "Ich esse gern Gemüse.",
-          "lv": "I like eating vegetables."
-        },
         {
           "de": "Ich esse gern Gemüse.",
           "lv": "I like eating vegetables."
@@ -26637,8 +26273,7 @@ const A1_WORDS = [
         "Use das Gemüse when the context fits this meaning."
       ],
       "important": [
-        "Not correct: die Gemüse, die Obsts.",
-        "Incorrect: die Gemüse → Correct: das Gemüse",
+        "das Gemüse is normally used in the singular, as a collective noun.",
         "das Gemüse = vegetables (in general)."
       ],
       "sectionAccents": {
@@ -26655,18 +26290,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "gemüse"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vegetables"
-              ]
-            }
-          },
           {
             "de": {
               "blue": [
@@ -26762,10 +26385,6 @@ const A1_WORDS = [
           "lv": "We eat a lot of fruit."
         },
         {
-          "de": "Wir essen viel Obst.",
-          "lv": "We eat a lot of fruit."
-        },
-        {
           "de": "Obst ist gesund.",
           "lv": "Fruit is healthy."
         },
@@ -26800,18 +26419,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "obst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "fruit"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -26911,12 +26518,8 @@ const A1_WORDS = [
           "lv": "The school is closed during the holidays."
         },
         {
-          "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "In the holidays we go to the seaside."
-        },
-        {
           "de": "In den Ferien",
-          "lv": "in the holidays (school)."
+          "lv": "In the holidays (school)."
         }
       ],
       "comparison": [
@@ -26927,7 +26530,7 @@ const A1_WORDS = [
         },
         {
           "word": "der Urlaub",
-          "meaning": "holiday from work (singular only)",
+          "meaning": "holiday from work (usually singular)",
           "example": "Ich habe zwei Wochen Urlaub. – I have two weeks' holiday."
         }
       ],
@@ -26936,7 +26539,7 @@ const A1_WORDS = [
         "Use die Ferien when the context fits this meaning."
       ],
       "important": [
-        "Ferien is always used with the dative: in den Ferien.",
+        "After in, Ferien takes the dative plural: in den Ferien.",
         "Incorrect: in der Ferien → Correct: in den Ferien",
         "School: die Ferien (plural only).",
         "plural only. School or university holidays — always plural."
@@ -26955,14 +26558,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
           {
             "de": {
               "blue": [
@@ -27028,16 +26623,12 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Holiday",
       "explanation": [
-        "Main idea: singular only. Holiday from work — always singular.",
+        "Main idea: usually singular. Holiday from work — usually singular.",
         "der Urlaub mainly means: free time away from work.",
-        "Often characterised by: singular only.",
-        "der Urlaub is singular only — holiday from work (im Urlaub)."
+        "Often characterised by: usually singular.",
+        "der Urlaub is usually singular — holiday from work (im Urlaub)."
       ],
       "examples": [
-        {
-          "de": "Mein Vater ist im Urlaub.",
-          "lv": "My father is on holiday."
-        },
         {
           "de": "Mein Vater ist im Urlaub.",
           "lv": "My father is on holiday."
@@ -27058,7 +26649,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "der Urlaub",
-          "meaning": "holiday from work (singular only)",
+          "meaning": "holiday from work (usually singular)",
           "example": "Mein Vater ist im Urlaub. – My father is on holiday."
         },
         {
@@ -27068,14 +26659,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "singular only. Holiday from work — always singular.",
+        "usually singular. Holiday from work — usually singular.",
         "Use der Urlaub when the context fits this meaning."
       ],
       "important": [
-        "Not correct: die Ferie, der Urlaube (at A1 level).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Incorrect: die Urlaube → Correct: der Urlaub",
-        "Work: der Urlaub (singular only)."
+        "Work: der Urlaub (usually singular)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27091,18 +26680,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "holiday"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -27205,20 +26782,8 @@ const A1_WORDS = [
           "lv": "It is eight (eight o'clock)."
         },
         {
-          "de": "Es ist acht Uhr.",
-          "lv": "It is eight (eight o'clock)."
-        },
-        {
           "de": "Meine Uhr ist kaputt.",
           "lv": "My clock is broken."
-        },
-        {
-          "de": "Es ist acht Uhr.",
-          "lv": "It is eight."
-        },
-        {
-          "de": "Es ist acht Uhr.",
-          "lv": "It is eight (o'clock)."
         },
         {
           "de": "die Uhr",
@@ -27263,39 +26828,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "o'clock"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "uhr"
-              ]
-            },
-            "lv": {
-              "purple": [
                 "clock"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "uhr"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "uhr"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "o'clock"
               ]
             }
           },
@@ -27352,10 +26885,6 @@ const A1_WORDS = [
           "lv": "I have no time."
         },
         {
-          "de": "Ich habe keine Zeit.",
-          "lv": "I have no time."
-        },
-        {
           "de": "Hast du Zeit?",
           "lv": "Do you have time?"
         },
@@ -27386,18 +26915,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "zeit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "time"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -27471,10 +26988,6 @@ const A1_WORDS = [
         {
           "de": "Ich war einmal in Berlin.",
           "lv": "I was in Berlin once."
-        },
-        {
-          "de": "Ich war einmal in Berlin.",
-          "lv": "I was once in Berlin."
         }
       ],
       "tip": [
@@ -27495,18 +27008,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "green": [
-                "einmal"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "once"
-              ]
-            }
-          },
           {
             "de": {
               "green": [
@@ -27555,10 +27056,6 @@ const A1_WORDS = [
           "lv": "Again, please."
         },
         {
-          "de": "Noch mal, bitte.",
-          "lv": "Again, please."
-        },
-        {
           "de": "Sag das noch mal.",
           "lv": "Say that again."
         }
@@ -27578,18 +27075,6 @@ const A1_WORDS = [
           ]
         },
         "examples": [
-          {
-            "de": {
-              "yellow": [
-                "noch mal"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Again"
-              ]
-            }
-          },
           {
             "de": {
               "yellow": [
