@@ -1,0 +1,5340 @@
+{
+  "batchId": "LRB-101",
+  "sourceCommit": "0fbb381f061666248a8813a50d51979e3300f9c1",
+  "branch": "cursor/lrb-101-owner-review-pc2-3db2",
+  "pullRequest": 749,
+  "reviewer": "OWNER/GPT full individual linguistic audit under attached FULL_50_50 PDF standard",
+  "reviewCoverage": {
+    "rows": "50/50",
+    "individual": true,
+    "fullComposite": true,
+    "tr": 50
+  },
+  "verdictBeforeApply": "FAIL_REPAIR_REQUIRED",
+  "rules": {
+    "cursorMayReanalyse": false,
+    "exactCopyPasteOnly": true,
+    "deChanges": 0,
+    "productionChanges": 0,
+    "crowdinChanges": 0,
+    "ingestApply": false
+  },
+  "cards": [
+    {
+      "auditId": "LRB101-0001",
+      "cardId": "bleiben|idx:101",
+      "status": "LABOT",
+      "reason": "bleiben: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "kalmak",
+        "study.translation": "kalmak",
+        "study.explanation": [
+          "Ana fikir: bleiben, bir kişinin veya şeyin bulunduğu yerde ya da durumda kalmasını anlatır.",
+          "Ayrılmayı anlatan gehen ve fahren ile, beklemeyi anlatan warten’den farklıdır."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich bleibe zu Hause.",
+            "lv": "Evde kalıyorum."
+          },
+          {
+            "de": "Bleib hier!",
+            "lv": "Burada kal!"
+          },
+          {
+            "de": "Wir bleiben noch eine Stunde.",
+            "lv": "Bir saat daha kalıyoruz."
+          },
+          {
+            "de": "Ich gehe nach Hause.",
+            "lv": "Eve gidiyorum."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "bleiben",
+            "meaning": "kalmak",
+            "example": "Ich bleibe hier. – Burada kalıyorum."
+          },
+          {
+            "word": "gehen",
+            "meaning": "yürüyerek gitmek",
+            "example": "Ich gehe nach Hause. – Eve gidiyorum."
+          },
+          {
+            "word": "fahren",
+            "meaning": "araçla gitmek",
+            "example": "Ich fahre nach Hause. – Eve araçla gidiyorum."
+          },
+          {
+            "word": "warten",
+            "meaning": "beklemek",
+            "example": "Ich warte hier. – Burada bekliyorum."
+          }
+        ],
+        "study.tip": {
+          "text": "Ayrılmamak → bleiben; beklemek → warten."
+        },
+        "study.important": [
+          "bleiben = kalmak; warten = beklemek."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0002",
+      "cardId": "bringen|idx:111",
+      "status": "LABOT",
+      "reason": "bringen: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "getirmek • götürmek",
+        "study.translation": "getirmek • götürmek",
+        "study.explanation": [
+          "Ana fikir: bringen, bir şeyi bir kişiye veya belirli bir yere ulaştırmak demektir.",
+          "Türkçede yön ve bağlama göre getirmek, götürmek veya ulaştırmak diye çevrilir.",
+          "nehmen ise bir şeyi almak demektir."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich bringe dir ein Buch.",
+            "lv": "Sana bir kitap getiriyorum."
+          },
+          {
+            "de": "Ich bringe das Paket zur Post.",
+            "lv": "Paketi postaneye götürüyorum."
+          },
+          {
+            "de": "Ich bringe die Kinder zur Schule.",
+            "lv": "Çocukları okula götürüyorum."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "bringen",
+            "meaning": "getirmek",
+            "example": "Ich bringe dir ein Buch. – Sana bir kitap getiriyorum."
+          },
+          {
+            "word": "bringen",
+            "meaning": "götürmek",
+            "example": "Ich bringe das Paket zur Post. – Paketi postaneye götürüyorum."
+          },
+          {
+            "word": "bringen",
+            "meaning": "götürmek",
+            "example": "Ich bringe die Kinder zur Schule. – Çocukları okula götürüyorum."
+          },
+          {
+            "word": "bringen",
+            "meaning": "ulaştırmak",
+            "example": "Ich bringe dir ein Buch. – Sana bir kitap ulaştırıyorum."
+          },
+          {
+            "word": "nehmen",
+            "meaning": "almak",
+            "example": "Ich nehme das Buch. – Kitabı alıyorum."
+          }
+        ],
+        "study.tip": {
+          "text": "Bir şey başka bir kişiye veya yere ulaşıyorsa bringen kullanılır."
+        },
+        "study.important": [
+          "bringen yönü hedefe doğrudur; nehmen = almak."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0003",
+      "cardId": "da|idx:126",
+      "status": "LABOT",
+      "reason": "da: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "orada • burada",
+        "study.translation": "orada • burada",
+        "study.explanation": [
+          "Ana fikir: da, A1 düzeyinde genel bir yer sözcüğüdür ve çoğunlukla “orada”, bazen “burada” diye çevrilir.",
+          "hier belirli bir yakın yeri, dort daha uzaktaki bir yeri, dann ise zamanı veya sırayı belirtir."
+        ],
+        "study.examples": [
+          {
+            "de": "Da ist mein Auto.",
+            "lv": "Arabam orada."
+          },
+          {
+            "de": "Ich war da.",
+            "lv": "Oradaydım."
+          },
+          {
+            "de": "Da kommt er.",
+            "lv": "İşte o geliyor."
+          },
+          {
+            "de": "Komm mal da her!",
+            "lv": "Buraya gelsene!"
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "da",
+            "meaning": "orada / burada; genel yer",
+            "example": "Da ist mein Auto. – Arabam orada."
+          },
+          {
+            "word": "hier",
+            "meaning": "burada; belirli yakın yer",
+            "example": "Hier ist mein Auto. – Arabam burada."
+          },
+          {
+            "word": "dort",
+            "meaning": "orada; daha uzak yer",
+            "example": "Dort ist mein Auto. – Arabam orada."
+          },
+          {
+            "word": "dann",
+            "meaning": "sonra / o zaman",
+            "example": "Dann gehen wir nach Hause. – Sonra eve gidiyoruz."
+          }
+        ],
+        "study.tip": {
+          "text": "Genel yer → da; yakın ve belirli yer → hier; uzak yer → dort."
+        },
+        "study.important": [
+          "da bir yer sözcüğüdür; dann ile karıştırılmaz."
+        ],
+        "study.accents": {},
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0004",
+      "cardId": "das|idx:129",
+      "status": "LABOT",
+      "reason": "das: individual full-card repair of lv; study.translation; study.examples.lv; study.comparison; study.important; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "nötr belirli artikel",
+        "study.translation": "nötr belirli artikel",
+        "study.explanation": [
+          "Ana fikir: das, nötr isimlerin belirli artikelidir.",
+          "das ayrıca “bu” anlamında işaret zamiri veya ilgi zamiri olabilir; dass ise bağlaçtır."
+        ],
+        "study.examples": [
+          {
+            "de": "Das ist mein Auto.",
+            "lv": "Bu benim arabam."
+          },
+          {
+            "de": "Das ist gut.",
+            "lv": "Bu iyi."
+          },
+          {
+            "de": "Das Buch, das ich lese, ist interessant.",
+            "lv": "Okuduğum kitap ilginç."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "das",
+            "meaning": "bu; artikel veya zamir",
+            "example": "Das ist mein Auto. – Bu benim arabam."
+          },
+          {
+            "word": "dies",
+            "meaning": "bu; işaret sözcüğü",
+            "example": "Dies ist mein Auto. – Bu benim arabam."
+          },
+          {
+            "word": "welches",
+            "meaning": "hangi / -dığı; ilgi zamiri",
+            "example": "Das ist das Buch, welches ich lese. – Bu, okuduğum kitap."
+          }
+        ],
+        "study.tip": {
+          "text": "Nötr isim → das; yan cümle bağlacı → dass."
+        },
+        "study.important": [
+          "das ve dass farklı sözcüklerdir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0005",
+      "cardId": "dass|idx:130",
+      "status": "LABOT",
+      "reason": "dass: individual full-card repair of lv; study.examples.lv; study.comparison; study.important; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "-diğini/-dığını • ki",
+        "study.translation": "-diğini/-dığını • ki",
+        "study.explanation": [
+          "Ana fikir: dass, bir olguyu, düşünceyi veya söyleneni aktaran yan cümleyi başlatır.",
+          "dass yan cümlesinde çekimli fiil genellikle sonda bulunur."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich weiß, dass du müde bist.",
+            "lv": "Yorgun olduğunu biliyorum."
+          },
+          {
+            "de": "Er sagt, dass er kommt.",
+            "lv": "O, geleceğini söylüyor."
+          },
+          {
+            "de": "Ich glaube, dass das stimmt.",
+            "lv": "Bunun doğru olduğunu düşünüyorum."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "dass",
+            "meaning": "-diğini/-dığını; ki",
+            "example": "Ich weiß, dass er kommt. – Onun geleceğini biliyorum."
+          },
+          {
+            "word": "weil",
+            "meaning": "çünkü",
+            "example": "Ich bleibe zu Hause, weil es regnet. – Yağmur yağdığı için evde kalıyorum."
+          },
+          {
+            "word": "damit",
+            "meaning": "-mesi için",
+            "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Almanya’da çalışabilmek için Almanca öğreniyorum."
+          },
+          {
+            "word": "ob",
+            "meaning": "olup olmadığını",
+            "example": "Ich weiß nicht, ob er kommt. – Onun gelip gelmeyeceğini bilmiyorum."
+          }
+        ],
+        "study.tip": {
+          "text": "dass yan cümlesinde çekimli fiil sona gider."
+        },
+        "study.important": [
+          "dass bir bağlaçtır; das artikel veya zamir olabilir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0006",
+      "cardId": "der|idx:134",
+      "status": "LABOT",
+      "reason": "der: individual full-card repair of lv; study.translation; study.examples.lv; study.important; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "eril belirli artikel",
+        "study.translation": "eril belirli artikel",
+        "study.explanation": [
+          "Ana fikir: der, eril tekil isimlerin nominatif hâlde belirli artikelidir.",
+          "der daha ileri yapılarda zamir veya ilgi zamiri olarak da kullanılabilir."
+        ],
+        "study.examples": [
+          {
+            "de": "Der Mann ist hier.",
+            "lv": "Adam burada."
+          },
+          {
+            "de": "Der Bus kommt.",
+            "lv": "Otobüs geliyor."
+          },
+          {
+            "de": "Der Lehrer spricht.",
+            "lv": "Öğretmen konuşuyor."
+          }
+        ],
+        "study.tip": {
+          "text": "Eril tekil, Nominativ → der."
+        },
+        "study.important": [
+          "A1 düzeyinde önce der = eril belirli artikel olarak öğrenilir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0007",
+      "cardId": "die|idx:137",
+      "status": "LABOT",
+      "reason": "die: individual full-card repair of lv; study.translation; study.examples.lv; study.important; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "dişil belirli artikel",
+        "study.translation": "dişil belirli artikel",
+        "study.explanation": [
+          "Ana fikir: die, dişil tekil isimlerin belirli artikelidir.",
+          "die ayrıca bütün cinsiyetlerin çoğulunda kullanılır ve bazı yapılarda zamir olabilir."
+        ],
+        "study.examples": [
+          {
+            "de": "Die Frau ist hier.",
+            "lv": "Kadın burada."
+          },
+          {
+            "de": "Die Katze schläft.",
+            "lv": "Kedi uyuyor."
+          },
+          {
+            "de": "Die Lehrerin erklärt.",
+            "lv": "Kadın öğretmen açıklıyor."
+          }
+        ],
+        "study.tip": {
+          "text": "Dişil tekil ve bütün çoğullar → die."
+        },
+        "study.important": [
+          "die dişil tekili veya çoğulu gösterebilir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0008",
+      "cardId": "dieser|idx:139",
+      "status": "LABOT",
+      "reason": "dieser: individual full-card repair of lv; study.translation; study.examples.lv; study.important; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "bu",
+        "study.translation": "bu",
+        "study.explanation": [
+          "Ana fikir: dieser, belirli veya özellikle vurgulanan eril bir kişi ya da şeyi gösterir.",
+          "Biçimi cinsiyet, sayı ve hâle göre değişir: dieser, diese, dieses, diesen."
+        ],
+        "study.examples": [
+          {
+            "de": "Dieser Mann ist nett.",
+            "lv": "Bu adam nazik."
+          },
+          {
+            "de": "Ich sehe diesen Hund.",
+            "lv": "Bu köpeği görüyorum."
+          },
+          {
+            "de": "Dieser Stift ist neu.",
+            "lv": "Bu kalem yeni."
+          }
+        ],
+        "study.tip": {
+          "text": "Eril Nominativ → dieser; eril Akkusativ → diesen."
+        },
+        "study.important": [
+          "dieser çekimlenir; biçim ismin cinsiyetine ve hâline bağlıdır."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0009",
+      "cardId": "ein|idx:154",
+      "status": "LABOT",
+      "reason": "ein: individual full-card repair of study.explanation, study.translation; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "belirsiz artikel",
+        "study.translation": "belirsiz artikel",
+        "study.explanation": [
+          "Ana fikir: ein, eril ve nötr isimlerle kullanılan belirsiz artikeldir.",
+          "Dişil biçim eine, eril Akkusativ biçim einen olur.",
+          "ein her zaman sayı “bir” anlamını vurgulamaz."
+        ],
+        "study.examples": [
+          {
+            "de": "Ein Mann wartet draußen.",
+            "lv": "Dışarıda bir adam bekliyor."
+          },
+          {
+            "de": "Ich habe ein Buch.",
+            "lv": "Bir kitabım var."
+          },
+          {
+            "de": "Er sucht einen Stift.",
+            "lv": "Bir kalem arıyor."
+          },
+          {
+            "de": "Ein Kind spielt.",
+            "lv": "Bir çocuk oynuyor."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "ein Mann",
+            "meaning": "eril cinsiyet",
+            "example": "Ein Mann wartet draußen. – Dışarıda bir adam bekliyor."
+          },
+          {
+            "word": "eine Frau",
+            "meaning": "dişil cinsiyet",
+            "example": "eine Frau – bir kadın"
+          },
+          {
+            "word": "ein Buch",
+            "meaning": "nötr cinsiyet",
+            "example": "Ich habe ein Buch. – Bir kitabım var."
+          },
+          {
+            "word": "einen Mann",
+            "meaning": "eril Akkusativ",
+            "example": "einen Mann – bir adamı"
+          }
+        ],
+        "study.tip": {
+          "text": "ein yalnızca sayı değildir; çoğu zaman belirsiz artikeldir."
+        },
+        "study.important": [
+          "ein: eril/nötr; eine: dişil; einen: eril Akkusativ."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0010",
+      "cardId": "einmal|idx:700",
+      "status": "LABOT",
+      "reason": "einmal: individual full-card repair of lv/study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "bir kez • bir zamanlar",
+        "study.translation": "bir kez • bir zamanlar",
+        "study.explanation": [
+          "Ana fikir: einmal, bir olayın bir kez olduğunu veya geçmişte belirsiz bir zamanı anlatır.",
+          "Konuşma dilinde kısalmış biçimi mal olabilir."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich war einmal in Berlin.",
+            "lv": "Bir zamanlar Berlin’deydim."
+          },
+          {
+            "de": "Ich war einmal in Berlin.",
+            "lv": "Bir zamanlar Berlin’deydim."
+          }
+        ],
+        "study.tip": [
+          "Tekrar sayısı → bir kez; geçmişte belirsiz zaman → bir zamanlar."
+        ],
+        "study.important": [
+          "einmal = bir kez / bir zamanlar."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0011",
+      "cardId": "Eis|idx:157",
+      "status": "LABOT",
+      "reason": "Eis: individual full-card repair of study.translation, study.examples, study.comparison; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "buz • dondurma",
+        "study.translation": "buz • dondurma",
+        "study.explanation": [
+          "Ana fikir: das Eis hem donmuş suyu hem de dondurmayı ifade edebilir.",
+          "Yiyecek bağlamında dondurma, kış veya donmuş su bağlamında buz anlamına gelir."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich esse ein Eis.",
+            "lv": "Bir dondurma yiyorum."
+          },
+          {
+            "de": "Möchtest du ein Eis?",
+            "lv": "Dondurma ister misin?"
+          },
+          {
+            "de": "Im Winter liegt Eis auf dem See.",
+            "lv": "Kışın gölün üzerinde buz olur."
+          },
+          {
+            "de": "Das Eis ist kalt.",
+            "lv": "Buz soğuk."
+          },
+          {
+            "de": "Ich nehme ein Eis mit Schokolade.",
+            "lv": "Çikolatalı bir dondurma alıyorum."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "das Eis",
+            "meaning": "buz / dondurma",
+            "example": "Ich esse ein Eis. = Dondurma yiyorum."
+          },
+          {
+            "word": "der Schnee",
+            "meaning": "kar",
+            "example": "Der Schnee ist weiß. = Kar beyazdır."
+          },
+          {
+            "word": "kalt",
+            "meaning": "soğuk",
+            "example": "Das Wasser ist kalt. = Su soğuktur."
+          },
+          {
+            "word": "das Dessert",
+            "meaning": "tatlı",
+            "example": "Eis ist ein Dessert. = Dondurma bir tatlıdır."
+          }
+        ],
+        "study.tip": {
+          "text": "Yiyecek → dondurma; donmuş su → buz."
+        },
+        "study.important": [
+          "das Eis bağlama göre buz veya dondurma demektir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0012",
+      "cardId": "erst|idx:165",
+      "status": "LABOT",
+      "reason": "erst: individual full-card repair of study.examples, study.comparison; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "ancak • önce",
+        "study.translation": "ancak • önce",
+        "study.explanation": [
+          "Ana fikir: erst çoğunlukla “ancak / daha” anlamıyla beklenenden geç bir zamanı veya sınırlı bir sayıyı belirtir.",
+          "Sıralamada “önce” anlamına da gelebilir; zuerst özellikle ilk adımı, nur ise yalnızca miktar sınırlamasını anlatır."
+        ],
+        "study.examples": [
+          {
+            "de": "Erst lernen, dann spielen.",
+            "lv": "Önce ders çalış, sonra oyna."
+          },
+          {
+            "de": "Ich komme erst morgen.",
+            "lv": "Ancak yarın geleceğim."
+          },
+          {
+            "de": "Er ist erst 18 Jahre alt.",
+            "lv": "O daha 18 yaşında."
+          },
+          {
+            "de": "Wir essen erst um acht Uhr.",
+            "lv": "Ancak saat sekizde yemek yiyoruz."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "erst",
+            "meaning": "önce / ancak",
+            "example": "Erst lernen, dann spielen. – Önce ders çalış, sonra oyna."
+          },
+          {
+            "word": "zuerst",
+            "meaning": "ilk önce",
+            "example": "Zuerst frühstücken wir. = İlk önce kahvaltı yapıyoruz."
+          },
+          {
+            "word": "nur",
+            "meaning": "yalnızca",
+            "example": "Ich habe nur 5 Euro. = Yalnızca 5 avrom var."
+          },
+          {
+            "word": "dann",
+            "meaning": "sonra",
+            "example": "Dann gehen wir nach Hause. = Sonra eve gidiyoruz."
+          }
+        ],
+        "study.tip": {
+          "text": "Zaman veya ulaşılan nokta → erst; yalnızca miktar → nur."
+        },
+        "study.important": [
+          "erst ve zuerst tam eş anlamlı değildir."
+        ],
+        "study.accents": {},
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0013",
+      "cardId": "es|idx:167",
+      "status": "LABOT",
+      "reason": "es: individual full-card repair of study.translation, study.examples; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "o • bu • kişisiz zamir",
+        "study.translation": "o • bu • kişisiz zamir",
+        "study.explanation": [
+          "Ana fikir: es, nötr isimlerin yerini tutan veya kişisiz yapılarda kullanılan bir zamirdir.",
+          "Hava ve durum cümlelerinde Türkçeye ayrı bir sözcük olarak çevrilmeyebilir."
+        ],
+        "study.examples": [
+          {
+            "de": "Es regnet.",
+            "lv": "Yağmur yağıyor."
+          },
+          {
+            "de": "Es ist kalt.",
+            "lv": "Hava soğuk."
+          },
+          {
+            "de": "Das Kind schläft.",
+            "lv": "Çocuk uyuyor."
+          },
+          {
+            "de": "Es ist müde.",
+            "lv": "O yorgun."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "es",
+            "meaning": "o / bu; kişisiz biçim",
+            "example": "Es regnet. – Yağmur yağıyor."
+          },
+          {
+            "word": "ich",
+            "meaning": "ben; birinci kişi",
+            "example": "Ich lerne Deutsch. – Almanca öğreniyorum."
+          }
+        ],
+        "study.info": [
+          "Türkçedeki “ben” = Almanca ich",
+          "Almanca es = “o / bu” veya kişisiz yapı"
+        ],
+        "study.tip": {
+          "text": "Türkçedeki “ben” Almanca ich’tir; Almanca es değildir."
+        },
+        "study.important": [
+          "es ve ich aynı değildir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "info": [
+            {},
+            {}
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0014",
+      "cardId": "essen|idx:690",
+      "status": "LABOT",
+      "reason": "essen: individual full-card repair of lv; study.translation; study.explanation[]; study.examples[].lv; study.tip[]; study.important[]; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "yemek",
+        "study.translation": "yemek",
+        "study.explanation": [
+          "Ana fikir: essen, yiyecek tüketme eylemini anlatan fiildir.",
+          "Büyük harfle ve artikel ile das Essen ise yemek veya öğün anlamındaki isimdir."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich esse gern Pizza.",
+            "lv": "Pizza yemeyi severim."
+          },
+          {
+            "de": "Was wollt ihr essen?",
+            "lv": "Ne yemek istiyorsunuz?"
+          },
+          {
+            "de": "Wir essen um 12 Uhr.",
+            "lv": "Saat 12’de yemek yiyoruz."
+          },
+          {
+            "de": "Das Essen ist fertig.",
+            "lv": "Yemek hazır."
+          },
+          {
+            "de": "Das Essen schmeckt sehr gut.",
+            "lv": "Yemeğin tadı çok güzel."
+          },
+          {
+            "de": "Das Essen schmeckt gut.",
+            "lv": "Yemeğin tadı güzel."
+          }
+        ],
+        "study.tip": [
+          "Fiil → essen; isim → das Essen."
+        ],
+        "study.important": [
+          "essen artikelsiz fiildir; das Essen isimdir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0015",
+      "cardId": "Essen|idx:691",
+      "status": "LABOT",
+      "reason": "Essen: individual full-card repair of lv, study.translation, study.explanation, study.examples, study.tip, study.important; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "yemek • öğün",
+        "study.translation": "yemek • öğün",
+        "study.explanation": [
+          "Ana fikir: das Essen, yiyeceği veya bir öğünü anlatan isimdir.",
+          "essen küçük harfle yazılan “yemek” fiilidir."
+        ],
+        "study.examples": [
+          {
+            "de": "Das Essen schmeckt gut.",
+            "lv": "Yemeğin tadı güzel."
+          },
+          {
+            "de": "Was wollt ihr essen?",
+            "lv": "Ne yemek istiyorsunuz?"
+          },
+          {
+            "de": "Wir essen um 12 Uhr.",
+            "lv": "Saat 12’de yemek yiyoruz."
+          },
+          {
+            "de": "Das Essen ist fertig.",
+            "lv": "Yemek hazır."
+          },
+          {
+            "de": "Das Essen schmeckt sehr gut.",
+            "lv": "Yemeğin tadı çok güzel."
+          },
+          {
+            "de": "Das Essen schmeckt gut.",
+            "lv": "Yemeğin tadı güzel."
+          }
+        ],
+        "study.tip": [
+          "Yemek veya öğün → das Essen; eylem → essen."
+        ],
+        "study.important": [
+          "das Essen yalnızca isimdir; essen fiildir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0016",
+      "cardId": "euch|idx:170",
+      "status": "LABOT",
+      "reason": "euch: individual full-card repair of lv; study.translation; study.examples; study.comparison; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "sizi • size • kendinizi",
+        "study.translation": "sizi • size • kendinizi",
+        "study.explanation": [
+          "Ana fikir: euch, ihr zamirinin Akkusativ veya Dativ biçimi ve dönüşlü biçimidir.",
+          "Doğrudan nesnede “sizi”, dolaylı nesnede “size” diye çevrilir; dönüşlü kullanım Türkçede çoğu kez fiilin içinde doğal biçimde ifade edilir."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich sehe euch.",
+            "lv": "Sizi görüyorum."
+          },
+          {
+            "de": "Ich helfe euch.",
+            "lv": "Size yardım ediyorum."
+          },
+          {
+            "de": "Ich gebe euch das Buch.",
+            "lv": "Size kitabı veriyorum."
+          },
+          {
+            "de": "Ich danke euch.",
+            "lv": "Size teşekkür ediyorum."
+          },
+          {
+            "de": "Ihr erinnert euch.",
+            "lv": "Siz hatırlıyorsunuz."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "ihr",
+            "meaning": "siz; özne",
+            "example": "Ihr seid freundlich. = Siz arkadaş canlısısınız."
+          },
+          {
+            "word": "euch",
+            "meaning": "sizi / size / kendinizi",
+            "example": "Ich helfe euch. = Size yardım ediyorum."
+          },
+          {
+            "word": "euer",
+            "meaning": "sizin; iyelik",
+            "example": "Das ist euer Haus. = Bu sizin eviniz."
+          }
+        ],
+        "study.info": [
+          "ihr = siz; özne biçimi",
+          "euch = sizi / size; nesne biçimi",
+          "euer = sizin; iyelik biçimi"
+        ],
+        "study.tip": {
+          "text": "Özne → ihr; nesne → euch; iyelik → euer."
+        },
+        "study.important": [
+          "euch yalnızca birden fazla kişiye hitapta kullanılır."
+        ],
+        "study.accents": {},
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "info": [
+            {},
+            {},
+            {}
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0017",
+      "cardId": "fahren|idx:172",
+      "status": "LABOT",
+      "reason": "fahren: individual full-card repair of lv; study.translation; study.explanation; study.examples; study.comparison; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "gitmek • sürmek • götürmek",
+        "study.translation": "gitmek • sürmek • götürmek",
+        "study.explanation": [
+          "Ana fikir: fahren araçla gitmek veya araç sürmek; bir kişiyi nesne olarak aldığında götürmek demektir.",
+          "Yaya hareket için gehen veya laufen kullanılır."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich fahre nach Berlin.",
+            "lv": "Berlin’e gidiyorum."
+          },
+          {
+            "de": "Ich fahre mit dem Auto.",
+            "lv": "Arabayla gidiyorum."
+          },
+          {
+            "de": "Ich fahre meine Tochter zur Schule.",
+            "lv": "Kızımı okula götürüyorum."
+          },
+          {
+            "de": "Ich fahre dich nach Hause.",
+            "lv": "Seni eve götürüyorum."
+          },
+          {
+            "de": "Wir fahren morgen nach München.",
+            "lv": "Yarın Münih’e gidiyoruz."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "fahren",
+            "meaning": "araçla gitmek / sürmek",
+            "example": "Ich fahre mit dem Bus. – Otobüsle gidiyorum."
+          },
+          {
+            "word": "gehen",
+            "meaning": "yürüyerek gitmek",
+            "example": "Ich gehe nach Hause. – Eve yürüyorum."
+          },
+          {
+            "word": "laufen",
+            "meaning": "koşmak / yürümek",
+            "example": "Er läuft schnell. – O hızlı koşuyor."
+          },
+          {
+            "word": "bringen",
+            "meaning": "getirmek / ulaştırmak",
+            "example": "Ich bringe das Buch. – Kitabı getiriyorum."
+          },
+          {
+            "word": "mitnehmen",
+            "meaning": "yanına almak",
+            "example": "Ich nehme dich mit. – Seni yanıma alıyorum."
+          }
+        ],
+        "study.tip": {
+          "text": "Araçla hareket → fahren; yaya → gehen."
+        },
+        "study.important": {
+          "text": "fahren yalnızca “sürmek” değildir.",
+          "example": "Bağlama göre araçla gitmek, sürmek veya birini götürmek anlamına gelir."
+        },
+        "study.accents": {},
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": {}
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0018",
+      "cardId": "Ferien|idx:694",
+      "status": "LABOT",
+      "reason": "Ferien: individual full-card repair of lv, study.translation, study.explanation, study.examples, study.tip, study.important, study.comparison; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "okul tatili",
+        "study.translation": "okul tatili",
+        "study.explanation": [
+          "Ana fikir: die Ferien, okul veya öğrenim tatilini anlatır ve yalnızca çoğul kullanılır.",
+          "Yaygın kalıp in den Ferien’dir; işten izin için der Urlaub kullanılır."
+        ],
+        "study.examples": [
+          {
+            "de": "In den Ferien fahren wir ans Meer.",
+            "lv": "Okul tatilinde deniz kenarına gidiyoruz."
+          },
+          {
+            "de": "In den Ferien habe ich viel Zeit.",
+            "lv": "Okul tatilinde çok zamanım oluyor."
+          },
+          {
+            "de": "Was macht ihr in den Ferien?",
+            "lv": "Okul tatilinde ne yapıyorsunuz?"
+          },
+          {
+            "de": "Die Schule ist in den Ferien zu.",
+            "lv": "Okul tatilinde okul kapalıdır."
+          },
+          {
+            "de": "In den Ferien fahren wir ans Meer.",
+            "lv": "Okul tatilinde deniz kenarına gidiyoruz."
+          },
+          {
+            "de": "In den Ferien",
+            "lv": "okul tatilinde"
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "die Ferien",
+            "meaning": "okul/öğrenim tatili; çoğul",
+            "example": "In den Ferien fahren wir weg. – Okul tatilinde bir yere gidiyoruz."
+          },
+          {
+            "word": "der Urlaub",
+            "meaning": "işten izin/tatil; tekil",
+            "example": "Ich habe zwei Wochen Urlaub. – İki hafta iznim var."
+          }
+        ],
+        "study.tip": [
+          "Okul tatili → die Ferien; işten izin → der Urlaub."
+        ],
+        "study.important": [
+          "die Ferien yalnızca çoğuldur.",
+          "Doğru: in den Ferien; yanlış: in der Ferien."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0019",
+      "cardId": "fernsehen|idx:687",
+      "status": "LABOT",
+      "reason": "fernsehen: individual full-card repair of lv; study.translation; study.examples[].lv; study.comparison[].meaning; study.tip.leftBlocks[].text; study.important.text; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "televizyon izlemek",
+        "study.translation": "televizyon izlemek",
+        "study.explanation": "Ana fikir: fernsehen, televizyon izlemek anlamındaki ayrılabilen fiildir: ich sehe fern. das Fernsehen ise televizyonu yayın veya medya olarak anlatan isimdir.",
+        "study.examples": [
+          {
+            "de": "Ich sehe heute Abend fern.",
+            "lv": "Bu akşam televizyon izliyorum."
+          },
+          {
+            "de": "Siehst du oft fern?",
+            "lv": "Sık sık televizyon izler misin?"
+          },
+          {
+            "de": "Die Kinder sehen am Nachmittag fern.",
+            "lv": "Çocuklar öğleden sonra televizyon izliyor."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "fernsehen",
+            "meaning": "televizyon izlemek",
+            "example": "Ich sehe fern. = Televizyon izliyorum."
+          },
+          {
+            "word": "das Fernsehen",
+            "meaning": "televizyon; medya veya yayın",
+            "example": "Im Fernsehen läuft ein Film. = Televizyonda bir film gösteriliyor."
+          },
+          {
+            "word": "sehen",
+            "meaning": "görmek",
+            "example": "Ich sehe einen Film. = Bir film görüyorum."
+          }
+        ],
+        "study.tip": {
+          "leftBlocks": [
+            {
+              "text": "Eylem için fernsehen; televizyon medyası veya yayını için das Fernsehen kullanılır."
+            }
+          ]
+        },
+        "study.important": {
+          "text": "fernsehen fiildir; das Fernsehen tekil bir isimdir."
+        },
+        "study.sectionAccents": {
+          "explanation": {},
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": {}
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0020",
+      "cardId": "Fernsehen|idx:688",
+      "status": "LABOT",
+      "reason": "Fernsehen: individual full-card repair of study.translation; study.explanation[]; study.examples[].lv; study.tip[]; study.important[]; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "televizyon",
+        "study.translation": "televizyon",
+        "study.explanation": [
+          "Ana fikir: das Fernsehen, televizyonu medya veya yayınların bütünü olarak anlatan tekil isimdir.",
+          "fernsehen ise ayrılabilen “televizyon izlemek” fiilidir.",
+          "das Fernsehen’in çoğulu yoktur."
+        ],
+        "study.examples": [
+          {
+            "de": "Was gibt es heute im Fernsehen?",
+            "lv": "Bugün televizyonda ne var?"
+          },
+          {
+            "de": "Was gibt es heute im Fernsehen?",
+            "lv": "Bugün televizyonda ne var?"
+          },
+          {
+            "de": "Im Fernsehen läuft ein Film.",
+            "lv": "Televizyonda bir film gösteriliyor."
+          },
+          {
+            "de": "Das Fernsehen ist heute langweilig.",
+            "lv": "Bugünkü televizyon yayını sıkıcı."
+          },
+          {
+            "de": "Ich sehe heute Abend fern.",
+            "lv": "Bu akşam televizyon izliyorum."
+          },
+          {
+            "de": "Was gibt es im Fernsehen?",
+            "lv": "Televizyonda ne var?"
+          }
+        ],
+        "study.tip": [
+          "Eylem → fernsehen; medya veya yayın → das Fernsehen."
+        ],
+        "study.important": [
+          "fernsehen = fiil; das Fernsehen = tekil isim.",
+          "*die Fernsehen biçimi kullanılmaz."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0021",
+      "cardId": "finden|idx:187",
+      "status": "LABOT",
+      "reason": "finden: individual full-card repair of lv; study.translation; study.explanation; study.examples; study.comparison; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "bulmak • düşünmek",
+        "study.translation": "bulmak • düşünmek",
+        "study.explanation": [
+          "Ana fikir: finden, kayıp veya aranan bir şeyi bulmak demektir.",
+          "Görüş bildirirken “bir şeyi iyi/kötü bulmak” veya “hakkında ne düşünmek” anlamına gelir."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich finde meinen Schlüssel.",
+            "lv": "Anahtarımı buluyorum."
+          },
+          {
+            "de": "Ich finde das gut.",
+            "lv": "Bunu iyi buluyorum."
+          },
+          {
+            "de": "Wie findest du den Film?",
+            "lv": "Film hakkında ne düşünüyorsun?"
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "finden",
+            "meaning": "bulmak / bir görüşte olmak",
+            "example": "Ich finde das gut. = Bunu iyi buluyorum."
+          }
+        ],
+        "study.tip": {
+          "text": "Aranan şey → bulmak; görüş → bir şeyi iyi/kötü bulmak."
+        },
+        "study.important": [
+          "finden hem fiziksel olarak bulmayı hem de görüş bildirmeyi anlatabilir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0022",
+      "cardId": "Frau|idx:198",
+      "status": "LABOT",
+      "reason": "Frau: individual full-card repair of lv; study.translation; study.explanation; study.examples; study.comparison; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "kadın • eş",
+        "study.translation": "kadın • eş",
+        "study.explanation": [
+          "Ana fikir: die Frau bağlama göre yetişkin kadın veya eş anlamına gelir.",
+          "meine/deine/seine Frau gibi iyelikli kullanımlar genellikle eşi belirtir.",
+          "Çoğul: die Frauen."
+        ],
+        "study.examples": [
+          {
+            "de": "Sie ist eine nette Frau.",
+            "lv": "O nazik bir kadın."
+          },
+          {
+            "de": "Das ist meine Frau.",
+            "lv": "Bu benim eşim."
+          },
+          {
+            "de": "Wie viele Frauen sind hier?",
+            "lv": "Burada kaç kadın var?"
+          },
+          {
+            "de": "Meine Frau arbeitet in Berlin.",
+            "lv": "Eşim Berlin’de çalışıyor."
+          },
+          {
+            "de": "Die Frau trägt ein Kleid.",
+            "lv": "Kadın bir elbise giyiyor."
+          },
+          {
+            "de": "Seine Frau ist Ärztin.",
+            "lv": "Onun eşi doktordur."
+          }
+        ],
+        "study.tip": [
+          "İyelik sözcüğüyle Frau genellikle eş; eine/die Frau ise kadın demektir."
+        ],
+        "study.important": [
+          "die Frau = kadın veya eş; bağlam belirler.",
+          "Çoğul: die Frauen."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0023",
+      "cardId": "für|idx:216",
+      "status": "LABOT",
+      "reason": "für: individual full-card repair of lv; study.translation; study.explanation; study.examples; study.comparison; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "için",
+        "study.translation": "için",
+        "study.explanation": [
+          "Ana fikir: für, alıcıyı, amacı, nedeni, karşılığı veya bedeli belirten bir edattır.",
+          "für her zaman Akkusativ gerektirir."
+        ],
+        "study.examples": [
+          {
+            "de": "Das ist für dich.",
+            "lv": "Bu senin için."
+          },
+          {
+            "de": "Danke für die Hilfe.",
+            "lv": "Yardım için teşekkürler."
+          },
+          {
+            "de": "Ich kaufe ein Geschenk für meine Mutter.",
+            "lv": "Anneme bir hediye alıyorum."
+          },
+          {
+            "de": "Was bezahlst du für das Auto?",
+            "lv": "Araba için ne kadar ödüyorsun?"
+          },
+          {
+            "de": "Das Buch ist für Kinder.",
+            "lv": "Kitap çocuklar içindir."
+          },
+          {
+            "de": "Für heute ist das genug.",
+            "lv": "Bugünlük bu yeter."
+          }
+        ],
+        "study.tip": [
+          "für + Akkusativ: für mich, für dich, für das Kind."
+        ],
+        "study.important": [
+          "für her zaman Akkusativ ile kullanılır.",
+          "danke für / bezahlen für = bir şey için teşekkür etmek / ödemek."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0024",
+      "cardId": "Fußball|idx:218",
+      "status": "LABOT",
+      "reason": "Fußball: individual full-card repair of lv/study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "futbol • futbol topu",
+        "study.translation": "futbol • futbol topu",
+        "study.explanation": [
+          "Ana fikir: artikelsiz Fußball çoğunlukla futbol sporunu belirtir.",
+          "der/ein Fußball ve çoğul die Fußbälle ise futbol topunu/toplarını ifade eder."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich spiele Fußball.",
+            "lv": "Futbol oynuyorum."
+          },
+          {
+            "de": "Der Fußball liegt im Garten.",
+            "lv": "Futbol topu bahçede duruyor."
+          },
+          {
+            "de": "Wir kaufen zwei Fußbälle.",
+            "lv": "İki futbol topu satın alıyoruz."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "Fußball",
+            "meaning": "futbol sporu",
+            "example": "Ich spiele Fußball. – Futbol oynuyorum."
+          },
+          {
+            "word": "der Fußball",
+            "meaning": "futbol topu",
+            "example": "Der Fußball ist neu. – Futbol topu yeni."
+          }
+        ],
+        "study.tip": [
+          "spielen + Fußball → spor; ein/der Fußball → top."
+        ],
+        "study.important": [
+          "die Fußbälle = futbol topları; spor adı Fußball genellikle tekildir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0025",
+      "cardId": "ganz|idx:219",
+      "status": "LABOT",
+      "reason": "ganz: individual full-card repair of lv/study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "bütün • tamamen",
+        "study.translation": "bütün • tamamen",
+        "study.explanation": [
+          "Ana fikir: ganz isimle “bütün/tüm”, sıfat veya zarfla “tamamen” ya da “oldukça” anlamına gelir.",
+          "alles ise “her şey” anlamındaki zamirdir."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich arbeite den ganzen Tag.",
+            "lv": "Bütün gün çalışıyorum."
+          },
+          {
+            "de": "Das ganze Haus ist sauber.",
+            "lv": "Bütün ev temiz."
+          },
+          {
+            "de": "Das ist ganz sicher.",
+            "lv": "Bu tamamen kesin."
+          },
+          {
+            "de": "Das Essen ist ganz gut.",
+            "lv": "Yemek oldukça iyi."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "ganz",
+            "meaning": "bütün / tamamen",
+            "example": "der ganze Tag – bütün gün"
+          },
+          {
+            "word": "alles",
+            "meaning": "her şey",
+            "example": "Alles ist gut. – Her şey yolunda."
+          }
+        ],
+        "study.tip": [
+          "İsimden önce → bütün; sıfat veya zarftan önce → tamamen / oldukça."
+        ],
+        "study.important": [
+          "ganz ve alles aynı görevde değildir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0026",
+      "cardId": "geben|idx:223",
+      "status": "LABOT",
+      "reason": "geben: individual full-card repair of lv/study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "vermek",
+        "study.translation": "vermek",
+        "study.explanation": [
+          "Ana fikir: geben, bir şeyin bir kişiden başka bir kişiye geçmesini anlatır.",
+          "nehmen almak, bekommen bir şeyi alan olmak, bringen ise bir şeyi ulaştırmak demektir."
+        ],
+        "study.examples": [
+          {
+            "de": "Gib mir bitte das Buch.",
+            "lv": "Lütfen kitabı bana ver."
+          },
+          {
+            "de": "Ich gebe dir meine Nummer.",
+            "lv": "Sana numaramı veriyorum."
+          },
+          {
+            "de": "Ich nehme das Buch.",
+            "lv": "Kitabı alıyorum."
+          },
+          {
+            "de": "Ich bekomme ein Geschenk.",
+            "lv": "Bir hediye alıyorum."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "geben",
+            "meaning": "vermek",
+            "example": "Gib mir das Buch. – Kitabı bana ver."
+          },
+          {
+            "word": "nehmen",
+            "meaning": "almak",
+            "example": "Ich nehme das Buch. – Kitabı alıyorum."
+          },
+          {
+            "word": "bekommen",
+            "meaning": "elde etmek / almak",
+            "example": "Ich bekomme ein Geschenk. – Bir hediye alıyorum."
+          },
+          {
+            "word": "bringen",
+            "meaning": "getirmek",
+            "example": "Ich bringe dir das Buch. – Sana kitabı getiriyorum."
+          }
+        ],
+        "study.tip": {
+          "text": "Birine vermek → geben; kendine almak → nehmen."
+        },
+        "study.important": [
+          "geben ve nehmen zıt yönleri anlatır.",
+          "bekommen = almak/elde etmek."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0027",
+      "cardId": "gefallen|idx:225",
+      "status": "LABOT",
+      "reason": "gefallen: individual full-card repair of lv/study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "hoşuna gitmek",
+        "study.translation": "hoşuna gitmek",
+        "study.explanation": [
+          "Ana fikir: gefallen, bir şeyin bir kişinin hoşuna gitmesini anlatır.",
+          "Beğenilen şey özne, beğenen kişi Dativ olur: mir, dir, ihm, ihr, uns, euch, ihnen.",
+          "mögen yapısında ise beğenen kişi öznedir."
+        ],
+        "study.examples": [
+          {
+            "de": "Das gefällt mir.",
+            "lv": "Bu hoşuma gidiyor."
+          },
+          {
+            "de": "Gefällt dir das Kleid?",
+            "lv": "Elbise hoşuna gidiyor mu?"
+          },
+          {
+            "de": "Der Film gefällt uns.",
+            "lv": "Film hoşumuza gidiyor."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "gefallen",
+            "meaning": "hoşuna gitmek; kişi Dativ",
+            "example": "Das gefällt mir. – Bu hoşuma gidiyor."
+          },
+          {
+            "word": "mögen",
+            "meaning": "beğenmek / sevmek",
+            "example": "Ich mag das. – Bunu beğeniyorum."
+          }
+        ],
+        "study.tip": [
+          "Kalıp: Das gefällt mir."
+        ],
+        "study.important": [
+          "gefallen Dativ ile kullanılır: mir, dir, ihm, ihr, uns, euch, ihnen."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0028",
+      "cardId": "Gemüse|idx:692",
+      "status": "LABOT",
+      "reason": "Gemüse: individual full-card repair of lv, study.translation, study.explanation, study.examples, study.tip, study.important; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "sebze",
+        "study.translation": "sebze",
+        "study.explanation": [
+          "Ana fikir: das Gemüse, sebzeyi genel ve toplu bir kavram olarak belirtir.",
+          "Bu anlamda çoğunlukla tekil kullanılır; olağan çoğulu *die Gemüse değildir."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich esse gern Gemüse.",
+            "lv": "Sebze yemeyi severim."
+          },
+          {
+            "de": "Ich esse gern Gemüse.",
+            "lv": "Sebze yemeyi severim."
+          },
+          {
+            "de": "Das Gemüse ist frisch.",
+            "lv": "Sebze taze."
+          },
+          {
+            "de": "Wir kaufen Gemüse auf dem Markt.",
+            "lv": "Pazardan sebze alıyoruz."
+          },
+          {
+            "de": "Ich mag Obst und Gemüse.",
+            "lv": "Meyve ve sebzeyi severim."
+          },
+          {
+            "de": "Ich esse Gemüse.",
+            "lv": "Sebze yiyorum."
+          }
+        ],
+        "study.tip": [
+          "das Gemüse = genel anlamda sebze."
+        ],
+        "study.important": [
+          "Doğru genel kullanım: das Gemüse; *die Gemüse değil."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0029",
+      "cardId": "Geschichte|idx:233",
+      "status": "LABOT",
+      "reason": "Geschichte: individual full-card repair of lv/study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "hikâye • tarih",
+        "study.translation": "hikâye • tarih",
+        "study.explanation": [
+          "Ana fikir: die Geschichte bağlama göre hikâye veya tarih anlamına gelir.",
+          "Çoğul die Geschichten genellikle hikâyeleri; ders veya geçmiş bağlamındaki tekil Geschichte tarihi anlatır."
+        ],
+        "study.examples": [
+          {
+            "de": "Er erzählt eine Geschichte.",
+            "lv": "O bir hikâye anlatıyor."
+          },
+          {
+            "de": "Ich lerne Geschichte.",
+            "lv": "Tarih öğreniyorum."
+          },
+          {
+            "de": "Das ist die Geschichte Deutschlands.",
+            "lv": "Bu Almanya’nın tarihidir."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "eine Geschichte",
+            "meaning": "bir hikâye",
+            "example": "eine interessante Geschichte – ilginç bir hikâye"
+          },
+          {
+            "word": "Geschichte",
+            "meaning": "tarih",
+            "example": "Geschichte lernen – tarih öğrenmek"
+          }
+        ],
+        "study.tip": [
+          "eine/çoğul → hikâye; ders veya geçmiş → tarih."
+        ],
+        "study.important": [
+          "die Geschichten = hikâyeler; tarih anlamındaki Geschichte genellikle tekildir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0030",
+      "cardId": "Geschwister|idx:234",
+      "status": "LABOT",
+      "reason": "Geschwister: individual full-card repair of study.examples[0].lv; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "kardeşler",
+        "study.translation": "kardeşler",
+        "study.explanation": [
+          "Ana fikir: Geschwister, erkek ve kız kardeşleri birlikte belirten çoğul bir sözcüktür.",
+          "Tek kişi için Bruder veya Schwester kullanılır."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich habe zwei Geschwister.",
+            "lv": "İki kardeşim var."
+          },
+          {
+            "de": "Meine Geschwister wohnen in Berlin.",
+            "lv": "Kardeşlerim Berlin’de yaşıyor."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "Geschwister",
+            "meaning": "kardeşler",
+            "example": "Meine Geschwister – kardeşlerim"
+          },
+          {
+            "word": "Bruder",
+            "meaning": "erkek kardeş",
+            "example": "mein Bruder – erkek kardeşim"
+          },
+          {
+            "word": "Schwester",
+            "meaning": "kız kardeş",
+            "example": "meine Schwester – kız kardeşim"
+          }
+        ],
+        "study.tip": [
+          "Geschwister çoğuldur; tek kişi için Bruder veya Schwester kullanılır."
+        ],
+        "study.important": [
+          "A1 düzeyinde *ein Geschwister tekil biçimi kullanılmaz."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0031",
+      "cardId": "groß|idx:250",
+      "status": "LABOT",
+      "reason": "groß: individual full-card repair of study.examples[1].lv; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "büyük • uzun boylu",
+        "study.translation": "büyük • uzun boylu",
+        "study.explanation": [
+          "Ana fikir: groß nesnelerde büyük boyutu, şehirlerde genişliği/önemi, kişilerde uzun boyu anlatır."
+        ],
+        "study.examples": [
+          {
+            "de": "Das Haus ist groß.",
+            "lv": "Ev büyük."
+          },
+          {
+            "de": "Berlin ist eine große Stadt.",
+            "lv": "Berlin büyük bir şehirdir."
+          },
+          {
+            "de": "Er ist groß.",
+            "lv": "O uzun boylu."
+          },
+          {
+            "de": "Das Zimmer ist groß.",
+            "lv": "Oda büyük."
+          }
+        ],
+        "study.tip": [
+          "Nesne/yer → büyük; kişi → uzun boylu."
+        ],
+        "study.important": [
+          "Bir kişi için groß çoğunlukla “uzun boylu” demektir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0032",
+      "cardId": "haben|idx:261",
+      "status": "LABOT",
+      "reason": "haben: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "sahip olmak • var",
+        "study.translation": "sahip olmak • var",
+        "study.explanation": [
+          "Ana fikir: haben sahipliği, bir şeyin varlığını veya bir durumu ifade eder.",
+          "Almancada özne + haben + Akkusativ kullanılır: Ich habe ein Auto.",
+          "haben ayrıca Perfekt zamanda yardımcı fiildir."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich habe ein Auto.",
+            "lv": "Bir arabam var."
+          },
+          {
+            "de": "Hast du Zeit?",
+            "lv": "Vaktin var mı?"
+          },
+          {
+            "de": "Wir haben Hunger.",
+            "lv": "Acıktık."
+          },
+          {
+            "de": "Ich habe das gemacht.",
+            "lv": "Bunu yaptım."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "haben",
+            "meaning": "sahip olmak / var",
+            "example": "Ich habe Zeit. = Vaktim var."
+          },
+          {
+            "word": "sein",
+            "meaning": "olmak",
+            "example": "Ich bin hier. = Buradayım."
+          },
+          {
+            "word": "bekommen",
+            "meaning": "almak / elde etmek",
+            "example": "Ich bekomme ein Geschenk. = Bir hediye alıyorum."
+          },
+          {
+            "word": "machen",
+            "meaning": "yapmak",
+            "example": "Ich mache das. = Bunu yapıyorum."
+          }
+        ],
+        "study.tip": {
+          "text": "Ich habe... = benim ... var."
+        },
+        "study.important": [
+          "haben nesnesi çoğunlukla Akkusativ olur.",
+          "Perfekt: Ich habe gelernt."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0033",
+      "cardId": "halten|idx:265",
+      "status": "LABOT",
+      "reason": "halten: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "tutmak • durmak",
+        "study.translation": "tutmak • durmak",
+        "study.explanation": [
+          "Ana fikir: halten elde tutmak, bir aracın durması veya bir şeyi belirli saymak anlamına gelebilir.",
+          "anhalten ayrılabilen “durmak/durdurmak” fiilidir."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich halte die Tasche.",
+            "lv": "Çantayı tutuyorum."
+          },
+          {
+            "de": "Der Bus hält hier.",
+            "lv": "Otobüs burada duruyor."
+          },
+          {
+            "de": "Bitte halten Sie an.",
+            "lv": "Lütfen durun."
+          },
+          {
+            "de": "Ich halte das für richtig.",
+            "lv": "Bunun doğru olduğunu düşünüyorum."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "halten",
+            "meaning": "tutmak / durmak",
+            "example": "Der Bus hält. = Otobüs duruyor."
+          },
+          {
+            "word": "nehmen",
+            "meaning": "almak",
+            "example": "Ich nehme die Tasche. = Çantayı alıyorum."
+          },
+          {
+            "word": "anhalten",
+            "meaning": "durmak / durdurmak",
+            "example": "Bitte halten Sie an. = Lütfen durun."
+          },
+          {
+            "word": "denken",
+            "meaning": "düşünmek",
+            "example": "Ich denke, das ist richtig. = Bunun doğru olduğunu düşünüyorum."
+          }
+        ],
+        "study.tip": {
+          "text": "Eldeki nesne → tutmak; araç → durmak; für ile → ... olarak görmek."
+        },
+        "study.important": [
+          "Ich halte das für... = Bunu ... olarak görüyorum.",
+          "Bitte halten Sie an. resmî hitaptır."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0034",
+      "cardId": "Hand|idx:267",
+      "status": "LABOT",
+      "reason": "Hand: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "el",
+        "study.translation": "el",
+        "study.explanation": [
+          "Ana fikir: die Hand bilekten parmaklara kadar olan eldir.",
+          "der Arm ise omuzdan ele kadar olan koldur."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich wasche meine Hände.",
+            "lv": "Ellerimi yıkıyorum."
+          },
+          {
+            "de": "Sie hält das Glas in der Hand.",
+            "lv": "Bardağı elinde tutuyor."
+          },
+          {
+            "de": "Mein Arm tut weh.",
+            "lv": "Kolum ağrıyor."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "die Hand",
+            "meaning": "el",
+            "example": "in der Hand – elde"
+          },
+          {
+            "word": "der Arm",
+            "meaning": "kol",
+            "example": "Mein Arm tut weh. – Kolum ağrıyor."
+          }
+        ],
+        "study.tip": [
+          "Hand = el; Arm = kol."
+        ],
+        "study.important": [
+          "Almancada Hand ve Arm farklı sözcüklerdir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0035",
+      "cardId": "heißen|idx:276",
+      "status": "LABOT",
+      "reason": "heißen: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "adlandırılmak • anlamına gelmek",
+        "study.translation": "adlandırılmak • anlamına gelmek",
+        "study.explanation": [
+          "Ana fikir: heißen bir kişinin adını söylemek veya bir sözcüğün ne anlama geldiğini sormak için kullanılır.",
+          "Ich heiße... = Benim adım...; Was heißt das? = Bu ne anlama geliyor?"
+        ],
+        "study.examples": [
+          {
+            "de": "Ich heiße Anna.",
+            "lv": "Benim adım Anna."
+          },
+          {
+            "de": "Wie heißt du?",
+            "lv": "Adın ne?"
+          },
+          {
+            "de": "Wie heißt das auf Deutsch?",
+            "lv": "Buna Almanca ne denir?"
+          },
+          {
+            "de": "Was heißt das?",
+            "lv": "Bu ne anlama geliyor?"
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "heißen",
+            "meaning": "adlandırılmak / adı olmak",
+            "example": "Ich heiße Anna. = Benim adım Anna."
+          },
+          {
+            "word": "nennen",
+            "meaning": "adlandırmak",
+            "example": "Er nennt mich Tom. = Bana Tom diyor."
+          },
+          {
+            "word": "bedeuten",
+            "meaning": "anlamına gelmek",
+            "example": "Was bedeutet das? = Bu ne anlama geliyor?"
+          },
+          {
+            "word": "rufen",
+            "meaning": "seslenmek / çağırmak",
+            "example": "Ich rufe dich. = Sana sesleniyorum."
+          },
+          {
+            "word": "anrufen",
+            "meaning": "telefonla aramak",
+            "example": "Ich rufe dich an. = Seni telefonla arıyorum."
+          }
+        ],
+        "study.tip": {
+          "text": "Ich heiße... = Benim adım...; Wie heißt du? = Adın ne?"
+        },
+        "study.important": [
+          "heißen ad veya anlam sorabilir; anrufen telefonla aramaktır."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0036",
+      "cardId": "hoch|idx:285",
+      "status": "LABOT",
+      "reason": "hoch: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "yüksek",
+        "study.translation": "yüksek",
+        "study.explanation": [
+          "Ana fikir: hoch dikey yüksekliği ve ayrıca yüksek fiyat, kira veya düzeyi anlatır.",
+          "groß genel büyüklük veya kişi boyu için kullanılır; hoch yüksekliği ölçer."
+        ],
+        "study.examples": [
+          {
+            "de": "Der Berg ist hoch.",
+            "lv": "Dağ yüksek."
+          },
+          {
+            "de": "Das Regal ist zwei Meter hoch.",
+            "lv": "Raf iki metre yüksekliğinde."
+          },
+          {
+            "de": "Die Miete ist hoch.",
+            "lv": "Kira yüksek."
+          },
+          {
+            "de": "Die Mauer ist hoch.",
+            "lv": "Duvar yüksek."
+          },
+          {
+            "de": "Die Preise sind hoch.",
+            "lv": "Fiyatlar yüksek."
+          }
+        ],
+        "study.tip": [
+          "Dikey yükseklik, fiyat veya düzey → hoch."
+        ],
+        "study.important": [
+          "hoch yalnızca fiziksel yüksekliği değil, yüksek fiyat ve seviyeyi de anlatır."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0037",
+      "cardId": "hören|idx:287",
+      "status": "LABOT",
+      "reason": "hören: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "duymak • dinlemek",
+        "study.translation": "duymak • dinlemek",
+        "study.explanation": [
+          "Ana fikir: hören sesleri duymayı veya müzik ve anlatı dinlemeyi ifade eder.",
+          "Türkçede bağlama göre “duymak” ya da “dinlemek” diye çevrilir."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich höre Musik.",
+            "lv": "Müzik dinliyorum."
+          },
+          {
+            "de": "Die Kinder hören eine Geschichte.",
+            "lv": "Çocuklar bir hikâye dinliyor."
+          },
+          {
+            "de": "Ich höre dich.",
+            "lv": "Seni duyuyorum."
+          }
+        ],
+        "study.tip": [
+          "Ses kendiliğinden algılanıyorsa duymak; dikkatle takip ediliyorsa dinlemek."
+        ],
+        "study.important": [
+          "hören bağlama göre duymak veya dinlemek demektir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0038",
+      "cardId": "hübsch|idx:288",
+      "status": "LABOT",
+      "reason": "hübsch: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "güzel • hoş",
+        "study.translation": "güzel • hoş",
+        "study.explanation": [
+          "Ana fikir: hübsch bir kişinin, giysinin, odanın veya nesnenin güzel ve hoş görünüşünü anlatır.",
+          "schön daha geniş anlamda güzel; nett ise çoğunlukla nazik veya hoş karakter demektir."
+        ],
+        "study.examples": [
+          {
+            "de": "Sie trägt ein hübsches Kleid.",
+            "lv": "O güzel bir elbise giyiyor."
+          },
+          {
+            "de": "Das Zimmer ist hübsch.",
+            "lv": "Oda güzel."
+          },
+          {
+            "de": "Das ist ein hübsches Bild.",
+            "lv": "Bu güzel bir resim."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "hübsch",
+            "meaning": "güzel / hoş görünüşlü",
+            "example": "Das ist ein hübsches Kleid. – Bu güzel bir elbise."
+          },
+          {
+            "word": "schön",
+            "meaning": "güzel",
+            "example": "Der Garten ist schön. – Bahçe güzel."
+          },
+          {
+            "word": "nett",
+            "meaning": "nazik / hoş",
+            "example": "Sie ist sehr nett. – O çok nazik."
+          }
+        ],
+        "study.tip": {
+          "text": "Görünüş → hübsch; karakter veya davranış → nett."
+        },
+        "study.important": [
+          "hübsch ve nett aynı anlamda değildir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0039",
+      "cardId": "ihr|idx:292",
+      "status": "LABOT",
+      "reason": "ihr: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "siz • ona • onun",
+        "study.translation": "siz • ona • onun",
+        "study.explanation": [
+          "Ana fikir: ihr yazılışa ve görevine göre çoğul samimi “siz”, Dativ “ona” veya iyelik “onun” olabilir.",
+          "Fiil çekimi kommt/habt ise çoğunlukla siz; bir fiilden sonra Dativ ise ona; isimden önce iyelik ise onun anlamındadır.",
+          "Resmî hitap Sie büyük harfle yazılır."
+        ],
+        "study.examples": [
+          {
+            "de": "Kommt ihr heute Abend?",
+            "lv": "Bu akşam geliyor musunuz?"
+          },
+          {
+            "de": "Ich gebe ihr das Buch.",
+            "lv": "Ona kitabı veriyorum."
+          },
+          {
+            "de": "Wo wohnt ihr?",
+            "lv": "Nerede oturuyorsunuz?"
+          },
+          {
+            "de": "Er schreibt ihr einen Brief.",
+            "lv": "Ona bir mektup yazıyor."
+          },
+          {
+            "de": "Habt ihr Zeit?",
+            "lv": "Vaktiniz var mı?"
+          },
+          {
+            "de": "Das ist ihr Auto.",
+            "lv": "Bu onun arabası."
+          }
+        ],
+        "study.tip": [
+          "ihr + çoğul fiil → siz; Dativ ihr → ona; isimden önce ihr → onun."
+        ],
+        "study.important": [
+          "ihr bağlama göre siz, ona veya onun demektir.",
+          "Resmî siz = Sie."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0040",
+      "cardId": "im|idx:293",
+      "status": "LABOT",
+      "reason": "im: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "-de/-da • içinde",
+        "study.translation": "-de/-da • içinde",
+        "study.explanation": [
+          "Ana fikir: im, in + dem birleşimidir ve eril veya nötr tekil isimlerle Dativ kullanılır.",
+          "Bir yerde bulunmayı, ayrıca ayları ve mevsimleri belirtir; “nerede?” sorusuna cevap verir.",
+          "Yön için ins gibi Akkusativ biçimler kullanılır."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich bin im Park.",
+            "lv": "Parktayım."
+          },
+          {
+            "de": "Wir wohnen im Zentrum.",
+            "lv": "Merkezde oturuyoruz."
+          },
+          {
+            "de": "Im Sommer ist es warm.",
+            "lv": "Yazın hava sıcaktır."
+          },
+          {
+            "de": "Er arbeitet im Büro.",
+            "lv": "O ofiste çalışıyor."
+          },
+          {
+            "de": "Das Kind spielt im Garten.",
+            "lv": "Çocuk bahçede oynuyor."
+          },
+          {
+            "de": "Im Januar fahre ich nach Wien.",
+            "lv": "Ocak ayında Viyana’ya gidiyorum."
+          },
+          {
+            "de": "Sie ist im Kino.",
+            "lv": "O sinemada."
+          },
+          {
+            "de": "Wir treffen uns im Restaurant.",
+            "lv": "Restoranda buluşuyoruz."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "im",
+            "meaning": "-de/-da; in + dem",
+            "example": "im Park – parkta"
+          },
+          {
+            "word": "ins",
+            "meaning": "-e/-a; in + das",
+            "example": "ins Kino – sinemaya"
+          },
+          {
+            "word": "in",
+            "meaning": "-de/-da veya içinde",
+            "example": "in Berlin – Berlin’de"
+          },
+          {
+            "word": "am",
+            "meaning": "yanında; an + dem",
+            "example": "am Fenster – pencerenin yanında"
+          },
+          {
+            "word": "auf",
+            "meaning": "üzerinde",
+            "example": "auf dem Tisch – masanın üzerinde"
+          }
+        ],
+        "study.tip": [
+          "Yer “nerede?” → im; yön “nereye?” → ins."
+        ],
+        "study.important": [
+          "im = in dem ve Dativ gerektirir.",
+          "Dişil isimlerde in der kullanılır: in der Schule."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0041",
+      "cardId": "in|idx:295",
+      "status": "LABOT",
+      "reason": "in: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "-de/-da • -e/-a",
+        "study.translation": "-de/-da • -e/-a",
+        "study.explanation": [
+          "Ana fikir: in bir yerin içinde bulunmayı veya o yerin içine yönelmeyi anlatır.",
+          "Konumda Dativ, yönde Akkusativ kullanılır; Türkçe karşılık bağlama göre -de/-da veya -e/-a olur."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich bin in Berlin.",
+            "lv": "Berlin’deyim."
+          },
+          {
+            "de": "Ich gehe in die Schule.",
+            "lv": "Okula gidiyorum."
+          },
+          {
+            "de": "Das Buch ist in der Tasche.",
+            "lv": "Kitap çantanın içinde."
+          },
+          {
+            "de": "Wir gehen ins Kino.",
+            "lv": "Sinemaya gidiyoruz."
+          }
+        ],
+        "study.tip": {
+          "text": "Nerede? → in + Dativ; nereye? → in + Akkusativ."
+        },
+        "study.important": [
+          "in konum ve yön için farklı hâllerle kullanılır.",
+          "Yüzey için çoğu zaman auf kullanılır."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0042",
+      "cardId": "ins|idx:296",
+      "status": "LABOT",
+      "reason": "ins: individual full-card repair of lv, study.translation, study.explanation, study.examples; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "içine • -e/-a • nereye?",
+        "study.translation": "içine • -e/-a • nereye?",
+        "study.explanation": [
+          "Ana fikir: ins, in + das birleşimidir.",
+          "Nötr tekil isimle Akkusativ kullanılır ve içeri doğru yönü, yani “nereye?” sorusunu belirtir.",
+          "Konum için im = in dem kullanılır."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich gehe ins Kino.",
+            "lv": "Sinemaya gidiyorum."
+          },
+          {
+            "de": "Sie geht ins Bett.",
+            "lv": "O yatağa gidiyor."
+          },
+          {
+            "de": "Wir fahren ins Ausland.",
+            "lv": "Yurt dışına gidiyoruz."
+          },
+          {
+            "de": "Komm ins Haus!",
+            "lv": "Eve gir!"
+          },
+          {
+            "de": "Er steckt das Geld in den Geldbeutel.",
+            "lv": "Parayı cüzdana koyuyor."
+          },
+          {
+            "de": "Wir gehen ins Museum.",
+            "lv": "Müzeye gidiyoruz."
+          },
+          {
+            "de": "Sie legt die Blumen ins Wasser.",
+            "lv": "Çiçekleri suya koyuyor."
+          },
+          {
+            "de": "Fahr bitte ins Zentrum.",
+            "lv": "Lütfen merkeze gidin."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "ins",
+            "meaning": "içine / -e; in + das",
+            "example": "ins Kino – sinemaya"
+          },
+          {
+            "word": "im",
+            "meaning": "içinde; in + dem",
+            "example": "im Kino – sinemada"
+          },
+          {
+            "word": "in",
+            "meaning": "içine; başka artikel",
+            "example": "in die Stadt – şehre"
+          },
+          {
+            "word": "aufs",
+            "meaning": "üzerine; auf + das",
+            "example": "aufs Dach – çatıya"
+          },
+          {
+            "word": "zum",
+            "meaning": "bir kişiye/yere doğru",
+            "example": "zum Arzt – doktora"
+          }
+        ],
+        "study.tip": [
+          "Nereye? → ins; nerede? → im."
+        ],
+        "study.important": [
+          "ins = in das, nötr tekil Akkusativ."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0043",
+      "cardId": "jung|idx:304",
+      "status": "LABOT",
+      "reason": "jung: individual full-card repair of lv, study.translation, study.explanation, study.examples; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "genç",
+        "study.translation": "genç",
+        "study.explanation": [
+          "Ana fikir: jung insanların ve hayvanların genç yaşını anlatır.",
+          "Yeni üretilmiş veya edinilmiş nesneler için neu kullanılır.",
+          "Karşılaştırma biçimi jünger’dir."
+        ],
+        "study.examples": [
+          {
+            "de": "Sie ist noch jung.",
+            "lv": "O hâlâ genç."
+          },
+          {
+            "de": "Der Hund ist jung.",
+            "lv": "Köpek genç."
+          },
+          {
+            "de": "Wir sind noch jung.",
+            "lv": "Biz hâlâ genciz."
+          },
+          {
+            "de": "Er sieht sehr jung aus.",
+            "lv": "O çok genç görünüyor."
+          },
+          {
+            "de": "Das ist ein junges Paar.",
+            "lv": "Bu genç bir çift."
+          },
+          {
+            "de": "Die junge Frau lächelt.",
+            "lv": "Genç kadın gülümsüyor."
+          },
+          {
+            "de": "Mein Bruder ist jünger als ich.",
+            "lv": "Erkek kardeşim benden daha genç."
+          }
+        ],
+        "study.tip": [
+          "Yaş → jung; yeni nesne → neu."
+        ],
+        "study.important": [
+          "jung ve neu aynı değildir.",
+          "jünger = daha genç."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0044",
+      "cardId": "kein|idx:308",
+      "status": "LABOT",
+      "reason": "kein: individual full-card repair of lv, study.translation, study.explanation, study.examples; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "hiçbir • ... yok",
+        "study.translation": "hiçbir • ... yok",
+        "study.explanation": [
+          "Ana fikir: kein bir ismi olumsuzlar ve “hiçbir” ya da Türkçede “... yok” anlamını verir.",
+          "ein gibi çekimlenir: kein, keine, keinen, keinem.",
+          "nicht ise fiili, sıfatı veya tüm ifadeyi olumsuzlar."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich habe kein Geld.",
+            "lv": "Param yok."
+          },
+          {
+            "de": "Es gibt keine Milch mehr.",
+            "lv": "Hiç süt kalmadı."
+          },
+          {
+            "de": "Kein Mensch war da.",
+            "lv": "Orada hiç kimse yoktu."
+          },
+          {
+            "de": "Ich habe keine Zeit.",
+            "lv": "Vaktim yok."
+          },
+          {
+            "de": "Das ist kein Problem.",
+            "lv": "Bu bir sorun değil."
+          },
+          {
+            "de": "Wir haben keine Kinder.",
+            "lv": "Çocuğumuz yok."
+          }
+        ],
+        "study.tip": [
+          "İsmi olumsuzlamak → kein; fiil veya sıfatı olumsuzlamak → nicht."
+        ],
+        "study.important": [
+          "kein + isim, yokluk veya olumsuzluk bildirir.",
+          "Doğru: Ich habe kein Geld."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0045",
+      "cardId": "kennen|idx:310",
+      "status": "LABOT",
+      "reason": "kennen: individual full-card repair of lv, study.translation, study.explanation, study.examples; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "tanımak • bilmek",
+        "study.translation": "tanımak • bilmek",
+        "study.explanation": [
+          "Ana fikir: kennen bir kişiyi, yeri veya şeyi deneyimden tanımak ya da bilmek demektir.",
+          "Bir olguyu veya bilgiyi bilmek için wissen kullanılır."
+        ],
+        "study.examples": [
+          {
+            "de": "Ich kenne ihn.",
+            "lv": "Onu tanıyorum."
+          },
+          {
+            "de": "Kennen Sie diese Frau?",
+            "lv": "Bu kadını tanıyor musunuz?"
+          },
+          {
+            "de": "Wo habt ihr euch kennengelernt?",
+            "lv": "Nerede tanıştınız?"
+          },
+          {
+            "de": "Ich kenne ihn.",
+            "lv": "Onu tanıyorum."
+          },
+          {
+            "de": "kennen",
+            "lv": "tanımak; wissen = bir bilgiyi bilmek"
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "kennen",
+            "meaning": "bir kişiyi, yeri veya şeyi tanımak",
+            "example": "Ich kenne ihn. – Onu tanıyorum."
+          },
+          {
+            "word": "wissen",
+            "meaning": "bir gerçeği veya bilgiyi bilmek",
+            "example": "Ich weiß seinen Namen. – Adını biliyorum."
+          }
+        ],
+        "study.tip": [
+          "Tanışıklık → kennen; bilgi veya gerçek → wissen."
+        ],
+        "study.important": [
+          "kennen ve wissen aynı değildir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0046",
+      "cardId": "klein|idx:6",
+      "status": "LABOT",
+      "reason": "klein: individual full-card repair of lv, study.*; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "küçük",
+        "study.translation": "küçük",
+        "study.explanation": [
+          "Ana fikir: klein küçük boyutu, kapsamı veya yaşı anlatır.",
+          "İsimden önce sıfat sonu değişir: ein kleines Zimmer, eine kleine Tasche."
+        ],
+        "study.examples": [
+          {
+            "de": "Das Zimmer ist klein.",
+            "lv": "Oda küçük."
+          },
+          {
+            "de": "Das Kind ist noch klein.",
+            "lv": "Çocuk hâlâ küçük."
+          },
+          {
+            "de": "Ich habe eine kleine Tasche.",
+            "lv": "Küçük bir çantam var."
+          }
+        ],
+        "study.tip": [
+          "İsimden önce klein, cinsiyet ve hâle göre çekimlenir."
+        ],
+        "study.important": [
+          "klein = küçük."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0047",
+      "cardId": "leise|idx:368",
+      "status": "LABOT",
+      "reason": "leise: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "sessiz • alçak sesle",
+        "study.translation": "sessiz • alçak sesle",
+        "study.explanation": [
+          "Ana fikir: leise düşük ses düzeyini anlatır; sıfat olarak “sessiz”, zarf olarak “alçak sesle” demektir.",
+          "Karşıtı laut = gürültülü / yüksek sesle."
+        ],
+        "study.examples": [
+          {
+            "de": "Bitte sei leise.",
+            "lv": "Lütfen sessiz ol."
+          },
+          {
+            "de": "Bitte sei leise.",
+            "lv": "Lütfen sessiz ol."
+          },
+          {
+            "de": "Die Musik ist leise.",
+            "lv": "Müziğin sesi alçak."
+          },
+          {
+            "de": "Sprich bitte leise.",
+            "lv": "Lütfen alçak sesle konuş."
+          }
+        ],
+        "study.tip": [
+          "Kişi/ortam → sessiz; konuşma biçimi → alçak sesle."
+        ],
+        "study.important": [
+          "leise bir ses düzeyidir; “sessizlik” ismi değildir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": [
+            {}
+          ],
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0048",
+      "cardId": "liegen|idx:377",
+      "status": "LABOT",
+      "reason": "liegen: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "yatmak • bulunmak",
+        "study.translation": "yatmak • bulunmak",
+        "study.explanation": [
+          "Ana fikir: liegen bir kişinin yatmasını veya bir nesnenin yatay durumda bir yerde bulunmasını anlatır.",
+          "legen ise bir şeyi bir yere koyma hareketidir.",
+          "stehen dik durumda bulunmayı, sein genel bulunmayı anlatır."
+        ],
+        "study.examples": [
+          {
+            "de": "Das Buch liegt auf dem Tisch.",
+            "lv": "Kitap masanın üzerinde duruyor."
+          },
+          {
+            "de": "Mein Handy liegt im Auto.",
+            "lv": "Telefonum arabada duruyor."
+          },
+          {
+            "de": "Er liegt im Bett.",
+            "lv": "O yatakta yatıyor."
+          },
+          {
+            "de": "Ich lege das Buch auf den Tisch.",
+            "lv": "Kitabı masanın üzerine koyuyorum."
+          }
+        ],
+        "study.comparison": [
+          {
+            "word": "liegen",
+            "meaning": "yatmak / yatay durumda bulunmak",
+            "example": "Das Buch liegt hier. – Kitap burada duruyor."
+          },
+          {
+            "word": "legen",
+            "meaning": "koymak / yatırmak",
+            "example": "Ich lege das Buch hierhin. – Kitabı buraya koyuyorum."
+          },
+          {
+            "word": "stehen",
+            "meaning": "dik durmak",
+            "example": "Die Flasche steht auf dem Tisch. – Şişe masanın üzerinde dik duruyor."
+          },
+          {
+            "word": "sein",
+            "meaning": "olmak / bulunmak",
+            "example": "Ich bin hier. – Buradayım."
+          }
+        ],
+        "study.tip": {
+          "text": "Mevcut yatay durum → liegen; bir şeyi yerleştirme hareketi → legen."
+        },
+        "study.important": [
+          "liegen durum, legen hareket anlatır."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "comparison": [
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            },
+            {
+              "word": {},
+              "meaning": {},
+              "example": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0049",
+      "cardId": "machen|idx:386",
+      "status": "LABOT",
+      "reason": "machen: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "yapmak • hazırlamak",
+        "study.translation": "yapmak • hazırlamak",
+        "study.explanation": [
+          "Ana fikir: machen genel olarak bir işi yapmak, bir şey hazırlamak veya bir sonuca yol açmak demektir.",
+          "Türkçede kalıba göre doğal karşılık seçilir; Das macht Spaß = Bu eğlenceli."
+        ],
+        "study.examples": [
+          {
+            "de": "Was machst du?",
+            "lv": "Ne yapıyorsun?"
+          },
+          {
+            "de": "Ich mache Hausaufgaben.",
+            "lv": "Ödev yapıyorum."
+          },
+          {
+            "de": "Wir machen Pizza.",
+            "lv": "Pizza yapıyoruz."
+          },
+          {
+            "de": "Das macht Spaß.",
+            "lv": "Bu eğlenceli."
+          }
+        ],
+        "study.tip": {
+          "text": "machen geniş anlamlıdır; kalıbın doğal Türkçe karşılığını kullan."
+        },
+        "study.important": [
+          "machen bağlama göre yapmak veya hazırlamak demektir.",
+          "Das macht Spaß = Bu eğlenceli."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    },
+    {
+      "auditId": "LRB101-0050",
+      "cardId": "Mal|idx:390",
+      "status": "LABOT",
+      "reason": "Mal: individual full-card repair of lv, study; source structure, meaning, grammar and DE-target alignment restored.",
+      "new": {
+        "lv": "kez • defa",
+        "study.translation": "kez • defa",
+        "study.explanation": [
+          "Ana fikir: das Mal bir olayın kaçıncı veya kaç kez gerçekleştiğini anlatan isimdir.",
+          "Sayılarla ein Mal, zwei Mal; sıra sayısıyla das erste Mal denir.",
+          "Konuşma parçacığı mal, das Mal isminden farklı bir kullanımdır."
+        ],
+        "study.examples": [
+          {
+            "de": "Das erste Mal war schwer.",
+            "lv": "İlk sefer zordu."
+          },
+          {
+            "de": "Ich war schon zwei Mal in Berlin.",
+            "lv": "Berlin’de daha önce iki kez bulundum."
+          },
+          {
+            "de": "Ein Mal reicht.",
+            "lv": "Bir kez yeter."
+          },
+          {
+            "de": "Noch ein Mal, bitte!",
+            "lv": "Bir kez daha, lütfen!"
+          }
+        ],
+        "study.tip": {
+          "text": "das Mal = kez/defa; artikelsiz mal konuşma dilinde ayrı bir parçacık olabilir."
+        },
+        "study.important": [
+          "das Mal / die Male isimdir.",
+          "ein Mal, zwei Mal olay sayısını belirtir."
+        ],
+        "study.sectionAccents": {
+          "explanation": [
+            {},
+            {},
+            {}
+          ],
+          "examples": [
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            },
+            {
+              "de": {},
+              "lv": {}
+            }
+          ],
+          "tip": {},
+          "important": [
+            {},
+            {}
+          ]
+        }
+      },
+      "accentTerms": {
+        "explanation": [],
+        "examples": [
+          [],
+          [],
+          [],
+          []
+        ],
+        "comparison": [],
+        "tipImportant": []
+      }
+    }
+  ]
+}
