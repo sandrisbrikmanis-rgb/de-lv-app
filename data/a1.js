@@ -100,8 +100,7 @@ const A1_WORDS = [
             "gesprochen"
           ],
           "purple": [
-            "runāt",
-            "parunāt"
+            "runāt"
           ]
         },
         "examples": [
@@ -4974,23 +4973,23 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "der",
-          "meaning": "vīr. dz. / siev. dz. dat.",
+          "meaning": "vīriešu dzimte; sieviešu dzimte datīvā",
           "example": "Der Mann liest. – Vīrietis lasa."
         },
         {
           "word": "das",
-          "meaning": "vidus dz.",
+          "meaning": "vidējā dzimte",
           "example": "Das Kind lacht. – Bērns smejas."
         },
         {
           "word": "den",
-          "meaning": "daudzsk. dat.",
+          "meaning": "daudzskaitlis datīvā",
           "example": "Mit den Kindern spiele ich. – Es spēlējos ar bērniem."
         }
       ],
       "tip": [
-        "Sieviešu dzimtes Nominatīv un Akuzatīv ir vienādi: die Frau.",
-        "Daudzskaitlī artikuls vienmēr ir die, ja Nominatīv vai Akuzatīv."
+        "Sieviešu dzimtes nominatīvs un akuzatīvs ir vienādi: die Frau.",
+        "Daudzskaitlī artikuls nominatīvā un akuzatīvā vienmēr ir die."
       ],
       "important": [
         "Datīvā sieviešu dzimtei der: mit der Frau, nevis 'mit die Frau'.",
@@ -4999,17 +4998,11 @@ const A1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "die",
-            "Die",
-            "die Frau",
-            "die Kinder",
-            "der",
-            "den"
+            "die"
           ],
           "purple": [
             "sieviešu dzimtes",
-            "daudzskaitlī",
-            "artikuls"
+            "noteiktais"
           ]
         },
         "examples": [
@@ -5083,7 +5076,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vīr. dz. / siev. dz. dat."
+                "vīriešu"
               ]
             }
           },
@@ -5095,7 +5088,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "vidus dz."
+                "vidējā"
               ]
             }
           },
@@ -5107,7 +5100,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "daudzsk. dat."
+                "daudzskaitlis"
               ]
             }
           }
@@ -13255,7 +13248,7 @@ const A1_WORDS = [
       "explanation": [
         "Galvenā doma: der Laden ir vīriešu dzimtes lietvārds — mazs veikals, kur pērk preces. Daudzskaitlis ir die Läden (ar umlautu).",
         "Lieto: in den Laden gehen (iet uz veikalu), im Laden einkaufen. Salikteņos: Blumenladen (ziedu veikals), Bioladen, Schreibwarenladen. Lielveikalu sauc Supermarkt.",
-        "Der Fensterladen (daudzsk. die Fensterläden) ir logu slēģis. Verb laden (ielādēt, uzlādēt) raksta tāpat, bet tas ir darbības vārds: Ich lade mein Handy."
+        "Der Fensterladen (daudzsk. die Fensterläden) ir logu slēģis. Darbības vārds laden (ielādēt, uzlādēt) raksta tāpat, bet tas ir darbības vārds: Ich lade mein Handy."
       ],
       "examples": [
         {
@@ -13304,16 +13297,11 @@ const A1_WORDS = [
         "explanation": {
           "blue": [
             "Laden",
-            "der Laden",
-            "die Läden",
-            "Supermarkt",
-            "laden",
-            "Ich lade"
+            "Läden"
           ],
           "purple": [
             "veikals",
-            "slēģis",
-            "uzlādēt"
+            "veikalu"
           ]
         },
         "examples": [
@@ -14006,7 +13994,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "skriet • darboties",
       "explanation": [
-        "Galvenā doma: laufen nozīmē “skriet” vai “iet kājām”: Er läuft sehr schnell. Pārnestā nozīmē tas ir arī “darboties” un “notikt”: Die Maschine läuft gut, Der Film läuft schon (filma jau rāda).",
+        "Galvenā doma: laufen nozīmē “skriet” vai “iet kājām”: Er läuft sehr schnell. Pārnestā nozīmē tas ir arī “darboties” un “notikt”: Die Maschine läuft gut, Der Film läuft schon (filma jau tiek rādīta).",
         "Formas: ich laufe, du läufst, er läuft; lief, ist gelaufen. Palīgdarbības vārds ir sein: Er ist gelaufen. Jautā: Wie läuft’s? — Kā klājas?",
         "Ar virzienu laufen nozīmē iet kājām, nevis braukt: Wir laufen zur Schule. Ātru skrējienu bieži izsaka ar rennen."
       ],
@@ -14051,7 +14039,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Laufen vācu valodā bieži nozīmē arī “iet kājām”: Ich laufe zur Arbeit.",
-        "Uz jautājumu “kā klājas?” sarunvalodā atbild: Wie läuft’s? — Es läuft gut."
+        "Sarunvalodā jautā Wie läuft’s? (kā iet?) un atbild, piemēram: Es läuft gut."
       ],
       "important": [
         "Perfektā lieto sein: Ich bin gelaufen, nevis “habe gelaufen”.",
@@ -14062,16 +14050,13 @@ const A1_WORDS = [
           "blue": [
             "laufen",
             "läuft",
-            "läufst",
             "lief",
-            "gelaufen",
-            "ist gelaufen",
-            "rennen"
+            "gelaufen"
           ],
           "purple": [
             "skriet",
-            "darboties",
-            "iet kājām"
+            "iet kājām",
+            "darboties"
           ]
         },
         "examples": [
@@ -14131,7 +14116,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kājām"
+                "ejam"
               ]
             }
           }
@@ -14615,16 +14600,22 @@ const A1_WORDS = [
         "Iemācies trijotni: legen (nolikt guļus), stellen (nolikt stāvus), setzen (apsēdināt)."
       ],
       "important": [
-        "Legen (regulārs, hat gelegt) un liegen (neregulārs, lag, gelegen) nejauc.",
+        "Legen (regulārs, hat gelegt) un liegen (stiprais darbības vārds: lag, gelegen) nejauc.",
         "Pēc legen vieta ir akuzatīvā: auf den Tisch, nevis “auf dem Tisch”."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "legen"
+            "legen",
+            "lege",
+            "legt",
+            "legte",
+            "gelegt"
           ],
           "purple": [
-            "nolikt"
+            "nolikt",
+            "noguldīt",
+            "apgulties"
           ]
         },
         "examples": [
@@ -17079,8 +17070,8 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "uz • pēc",
       "explanation": [
-        "Galvenā doma: nach ir prievārds ar datīvu. Tas nozīmē 1) “uz” pilsētām, valstīm un nach Hause: Ich fahre nach Berlin; 2) “pēc” laikā: nach dem Essen (pēc ēdienas), zehn nach acht (desmit minūtes pāri astoņiem); 3) “pēc” kā “saskaņā ar”: nach meiner Meinung.",
-        "Pēc nach seko datīvs: nach dem Unterricht, nach der Arbeit. Pilsētām un valstīm bez artikula: nach Deutschland, nach Riga. Valstīm ar artikuli lieto in: in die Schweiz.",
+        "Galvenā doma: nach ir prievārds ar datīvu. Tas nozīmē 1) “uz” pilsētām, valstīm un nach Hause: Ich fahre nach Berlin; 2) “pēc” laikā: nach dem Essen (pēc ēšanas), zehn nach acht (desmit minūtes pāri astoņiem); 3) “pēc” kā “saskaņā ar”: meiner Meinung nach (pēc manām domām).",
+        "Pēc nach seko datīvs: nach dem Unterricht, nach der Arbeit. Pilsētām un valstīm bez artikula: nach Deutschland, nach Riga. Valstīm ar artikulu lieto in: in die Schweiz.",
         "Bieži: nach Hause gehen (iet mājās), nach links / nach rechts (pa kreisi / pa labi)."
       ],
       "examples": [
@@ -17113,7 +17104,7 @@ const A1_WORDS = [
         },
         {
           "word": "in",
-          "meaning": "uz (valsts ar artikuli)",
+          "meaning": "uz (valsts ar artikulu)",
           "example": "Wir fahren in die Schweiz. – Mēs braucam uz Šveici."
         },
         {
@@ -17133,16 +17124,11 @@ const A1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "nach",
-            "nach Berlin",
-            "nach Hause",
-            "nach dem Essen",
-            "zehn nach acht"
+            "nach"
           ],
           "purple": [
             "uz",
-            "pēc",
-            "mājās"
+            "pēc"
           ]
         },
         "examples": [
@@ -17202,7 +17188,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pa"
+                "pa kreisi"
               ]
             }
           }
@@ -22230,7 +22216,7 @@ const A1_WORDS = [
         {
           "word": "stellen",
           "meaning": "nolikt stāvus",
-          "example": "Ich stelle das Glas auf den Tisch. – Es noliku glāzi uz galda."
+          "example": "Ich stelle das Glas auf den Tisch. – Es nolieku glāzi uz galda."
         },
         {
           "word": "aufstehen",
@@ -22257,13 +22243,12 @@ const A1_WORDS = [
             "stehen",
             "steht",
             "stand",
-            "hat gestanden",
-            "stellen",
-            "aufstehen"
+            "gestanden",
+            "Stehen"
           ],
           "purple": [
-            "stāvus",
-            "piecelties"
+            "stāvokli",
+            "stāvus"
           ]
         },
         "examples": [
@@ -22325,7 +22310,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "nolikt stāvus"
+                "nolikt"
               ]
             }
           },
@@ -23154,7 +23139,7 @@ const A1_WORDS = [
       "translation": "saprast",
       "explanation": [
         "Galvenā doma: verstehen nozīmē saprast — gan valodu, gan nozīmi, gan cilvēku. Formas: versteht, verstand, hat verstanden. Priedēklis ver- ir neatdalāms, tāpēc perfektā nav ge-: hat verstanden.",
-        "Parasti seko akuzatīvs: Ich verstehe die Frage. Atgriezeniskais sich verstehen nozīmē sapieties, labi saprasties: Wir verstehen uns gut. Ar von tas var nozīmēt arī pārzināt: Er versteht viel von Autos.",
+        "Parasti seko akuzatīvs: Ich verstehe die Frage. Atgriezeniskais sich verstehen nozīmē saprasties: Wir verstehen uns gut. Ar von tas var nozīmēt arī pārzināt: Er versteht viel von Autos.",
         "Ja kāds neuztver skaņu, lieto hören; ja tas neaptver domu — nicht verstehen vai nicht begreifen."
       ],
       "examples": [
@@ -23202,7 +23187,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Verstehen nav tas pats, kas hören: Ich höre dich nicht nozīmē, ka tu neesi dzirdams, nevis ka tu neesi saprasts.",
-        "Verstehen nepārmet kāda izpratni; sich gut verstehen izsaka labas attiecības starp cilvēkiem."
+        "Sich gut verstehen (labi saprasties) izsaka labas attiecības starp cilvēkiem."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23210,13 +23195,12 @@ const A1_WORDS = [
             "verstehen",
             "versteht",
             "verstand",
-            "hat verstanden",
-            "sich verstehen",
+            "verstanden",
             "verstehe"
           ],
           "purple": [
             "saprast",
-            "sapieties",
+            "saprasties",
             "pārzināt"
           ]
         },
@@ -27006,7 +26990,7 @@ const A1_WORDS = [
         },
         {
           "de": "Mein Vater hat nächste Woche Urlaub.",
-          "lv": "Manam tēvam nākamnedēļ ir atvaļinājums."
+          "lv": "Manam tēvam nākamajā nedēļā ir atvaļinājums."
         },
         {
           "de": "Wie viele Tage Urlaub hast du noch?",
@@ -27045,10 +27029,12 @@ const A1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Urlaub"
+            "Urlaub",
+            "Urlaube"
           ],
           "purple": [
-            "atvaļinājumu"
+            "atvaļinājumu",
+            "atvaļinājumā"
           ]
         },
         "examples": [
