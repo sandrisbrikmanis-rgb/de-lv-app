@@ -566,14 +566,14 @@ const A2_WORDS = [
     "de": "Abfahrt",
     "de_article": "die",
     "de_plural": "die Abfahrten",
-    "lv": "Departure • Departure",
+    "lv": "Departure",
     "level": "A2"
   },
   {
     "de": "Abfall",
     "de_article": "der",
     "de_plural": "die Abfälle",
-    "lv": "Garbage",
+    "lv": "Rubbish • Waste",
     "level": "A2"
   },
   {
@@ -966,12 +966,12 @@ const A2_WORDS = [
   },
   {
     "de": "abholen",
-    "lv": "Take • Take out",
+    "lv": "Collect • Pick up",
     "level": "A2",
     "study": {
       "id": "a2-abholen",
       "layout": "standardStudy",
-      "translation": "Take • Take out",
+      "translation": "Collect • Pick up",
       "explanation": [
         "Main idea: Go after and pick up a person or pick up a package/order.",
         "Abholen basically means: to go after and take / remove from a place.",
@@ -1275,12 +1275,12 @@ const A2_WORDS = [
   },
   {
     "de": "absagen",
-    "lv": "Atcelt",
+    "lv": "Cancel",
     "level": "A2",
     "study": {
       "id": "a2-absagen",
       "layout": "standardStudy",
-      "translation": "Atcelt",
+      "translation": "Cancel",
       "explanation": "Main idea: absagen means to cancel an appointment or event or refuse participation. absagen means to cancel an arranged meeting, event or plan. It can also mean refusing participation or saying you can't come. With Termin, Treffen, Konzert or Einladung, the meaning is often 'cancel' or 'refuse'. It is not the same as nein sagen, because absagen usually refers to a prearranged matter. In English, check whether the event is canceled or if you refuse to participate.",
       "examples": [
         {
@@ -2052,7 +2052,7 @@ const A2_WORDS = [
     "de": "Abstand",
     "de_article": "der",
     "de_plural": "die Abstände",
-    "lv": "Distance • Distance",
+    "lv": "Distance",
     "level": "A2"
   },
   {
@@ -2062,12 +2062,12 @@ const A2_WORDS = [
   },
   {
     "de": "abstellen",
-    "lv": "Put down • Place • Off",
+    "lv": "Put down • Place • Switch off",
     "level": "A2",
     "study": {
       "id": "a2-abstellen",
       "layout": "standardStudy",
-      "translation": "Put down • Place • Off",
+      "translation": "Put down • Place • Switch off",
       "explanation": [
         "Main idea: the meaning of abstellen is determined by the object: park the car or bag, turn off the water or electricity, turn off the engine, fix the problem.",
         "With a car, bicycle, bag or box, abstellen means to place or put in a specific place.",
@@ -2522,7 +2522,7 @@ const A2_WORDS = [
     "de": "Abteil",
     "de_article": "das",
     "de_plural": "die Abteile",
-    "lv": "Coupe",
+    "lv": "Compartment",
     "level": "A2"
   },
   {
@@ -2532,14 +2532,14 @@ const A2_WORDS = [
   },
   {
     "de": "abwesend",
-    "lv": "Promising",
+    "lv": "Absent",
     "level": "A2"
   },
   {
     "de": "Achse",
     "de_article": "die",
     "de_plural": "die Achsen",
-    "lv": "Ass",
+    "lv": "Axle • Axis",
     "level": "A2"
   },
   {
@@ -2583,7 +2583,7 @@ const A2_WORDS = [
   },
   {
     "de": "aktiv",
-    "lv": "Active • Active",
+    "lv": "Active",
     "level": "A2"
   },
   {
@@ -2595,7 +2595,7 @@ const A2_WORDS = [
   },
   {
     "de": "aktuell",
-    "lv": "Current • Current",
+    "lv": "Current",
     "level": "A2"
   },
   {
@@ -2622,7 +2622,7 @@ const A2_WORDS = [
   },
   {
     "de": "ändern",
-    "lv": "Change • Change",
+    "lv": "Change",
     "level": "A2"
   },
   {
@@ -2658,12 +2658,12 @@ const A2_WORDS = [
   },
   {
     "de": "angewandt",
-    "lv": "Applied • Applied • Practical",
+    "lv": "Applied • Practical",
     "level": "A2",
     "study": {
       "id": "a2-angewandt",
       "layout": "standardStudy",
-      "translation": "Applied • Applied • Practical",
+      "translation": "Applied • Practical",
       "explanation": "Main Idea: angewandt means practically applied or applied. It is used when a theory, science or method is put into practise. In universities and science, angewandt often means applied, for example angewandte Mathematik. By method or law means applied. This is not the same as einfach nur praktisk, because angewandt emphasizes use in practise.",
       "examples": [
         {
@@ -5214,7 +5214,7 @@ const A2_WORDS = [
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "Hand",
+    "lv": "Arm",
     "level": "A2"
   },
   {
@@ -6051,12 +6051,12 @@ const A2_WORDS = [
   },
   {
     "de": "auf einmal",
-    "lv": "Suddenly • Suddenly",
+    "lv": "Suddenly",
     "level": "A2"
   },
   {
     "de": "auf jeden Fall",
-    "lv": "In each case",
+    "lv": "In any case • Definitely",
     "level": "A2"
   },
   {
@@ -6727,12 +6727,12 @@ const A2_WORDS = [
     "de": "Aufnahme",
     "de_article": "die",
     "de_plural": "die Aufnahmen",
-    "lv": "Recording • Recording • Photo",
+    "lv": "Recording • Photo",
     "level": "A2",
     "study": {
       "id": "a2-aufnahme",
       "layout": "standardStudy",
-      "translation": "Recording • Recording • Photo",
+      "translation": "Recording • Photo",
       "explanation": "Main idea: die Aufnahme means taking, recording, or taking a photo, depending on the context. With photo or video, it can be a photo or a recording. With people, it can mean admission to a school, hospital or group. With sound, it is an audio recording. The context determines whether it is an image, sound or human reception.",
       "examples": [
         {
@@ -7293,12 +7293,12 @@ const A2_WORDS = [
   },
   {
     "de": "aufrichtig",
-    "lv": "Sincere • Sincere • Open",
+    "lv": "Sincere • Open",
     "level": "A2",
     "study": {
       "id": "a2-aufrichtig",
       "layout": "standardStudy",
-      "translation": "Sincere • Sincere • Open",
+      "translation": "Sincere • Open",
       "explanation": "Main Idea: Aufrichtig means sincere, sincere, or open. It is used for apology, sympathy, wishes or a person's attitude. aufrichtig emphasizes that words or feelings come from the heart and are not acted upon. It is not the key word \"honest\" in the factual sense • Ehrlich is more commonly used for this. In comparison with ehrlich, herzlich and offen, one has to see whether it is not lying, warmth or openness.",
       "examples": [
         {
@@ -7799,7 +7799,7 @@ const A2_WORDS = [
     "de": "Aufstrich",
     "de_article": "der",
     "de_plural": "die Aufstriche",
-    "lv": "Smear",
+    "lv": "Spread",
     "level": "A2"
   },
   {
@@ -7809,12 +7809,12 @@ const A2_WORDS = [
   },
   {
     "de": "auftragen",
-    "lv": "To ask",
+    "lv": "Assign • Apply",
     "level": "A2",
     "study": {
       "id": "a2-auftragen",
       "layout": "standardStudy",
-      "translation": "To ask",
+      "translation": "Assign • Apply",
       "explanation": "Main idea: auftragen means to ask, apply, or present, depending on the object. auftragen is a verb with several everyday meanings. It can mean assigning a job or a task. This may mean applying paint, cream or glue to the surface. In the context of a restaurant or celebration, it can mean serving food. The meaning is determined by the object: Aufgabe, Farbe, Creme or Essen. Therefore, a simple translation of “to ask” is not enough.",
       "examples": [
         {
@@ -8553,12 +8553,12 @@ const A2_WORDS = [
   },
   {
     "de": "aufwenden",
-    "lv": "Dedicate",
+    "lv": "Spend • Expend",
     "level": "A2",
     "study": {
       "id": "a2-aufwenden",
       "layout": "standardStudy",
-      "translation": "Dedicate",
+      "translation": "Spend • Expend",
       "explanation": "Main idea: aufwenden means to devote or invest time, energy, or money to a cause. It is often used with Zeit, Mühe, Kraft or Geld. In English, it is not an ordinary \"spend\" card, because often the idea is about a conscious investment. With money, simply \"spending\" is more often than not ausgeben. With time, \"to spend\" is often verbinen.",
       "examples": [
         {
@@ -9447,7 +9447,7 @@ const A2_WORDS = [
   },
   {
     "de": "ausstrahlen",
-    "lv": "Radiating",
+    "lv": "Radiate",
     "level": "A2"
   },
   {
@@ -9885,12 +9885,12 @@ const A2_WORDS = [
     "de": "Ausweis",
     "de_article": "der",
     "de_plural": "die Ausweise",
-    "lv": "Certificate",
+    "lv": "ID card • Identity card",
     "level": "A2"
   },
   {
     "de": "auswendig",
-    "lv": "From the head",
+    "lv": "By heart",
     "level": "A2"
   },
   {
@@ -10263,7 +10263,7 @@ const A2_WORDS = [
     "de": "Autobahn",
     "de_article": "die",
     "de_plural": "die Autobahnen",
-    "lv": "Highway",
+    "lv": "Motorway",
     "level": "A2"
   },
   {
@@ -10296,7 +10296,7 @@ const A2_WORDS = [
     "de": "Autopanne",
     "de_article": "die",
     "de_plural": "die Autopannen",
-    "lv": "Car damage • Failure",
+    "lv": "Breakdown • Car breakdown",
     "level": "A2"
   },
   {
@@ -10364,7 +10364,7 @@ const A2_WORDS = [
     "de": "Badetuch",
     "de_article": "das",
     "de_plural": "die Badetücher",
-    "lv": "Swimming sheet",
+    "lv": "Bath towel",
     "level": "A2"
   },
   {
@@ -11069,12 +11069,12 @@ const A2_WORDS = [
     "de": "Bank",
     "de_article": "die",
     "de_plural": "die Banken",
-    "lv": "Bank • Bench",
+    "lv": "Bank",
     "level": "A2",
     "study": {
       "id": "a2-bank",
       "layout": "standardStudy",
-      "translation": "Bank • Bench",
+      "translation": "Bank",
       "explanation": "Main idea: die Bank means a bank, a bench, or a bank, depending on the situation. For finance, the plural is die Banken. For Sitzbank, the plural is die Bänke - with an umlaut! In a natural context, Sandbank means sand bank. Compounders help: Bankfiliale, Parkbank, Sandbank.",
       "examples": [
         {
@@ -11506,12 +11506,12 @@ const A2_WORDS = [
   },
   {
     "de": "bauen",
-    "lv": "Build • Build • Make",
+    "lv": "Build • Make",
     "level": "A2",
     "study": {
       "id": "a2-bauen",
       "layout": "standardStudy",
-      "translation": "Build • Build • Make",
+      "translation": "Build • Make",
       "explanation": "Main idea: bauen means to build, build, or make something practical. bauen is not just “build a house”. It is used when building or constructing buildings and bridges. In everyday life, bauen can also mean to make or make something with the hands. In agriculture, bauen can mean to grow, for example vegetables. In phrases with auf, it can mean to lean on something or rely on something.",
       "examples": [
         {
@@ -13120,7 +13120,7 @@ const A2_WORDS = [
   {
     "de": "Beginn",
     "de_article": "der",
-    "lv": "Beginning • Beginning",
+    "lv": "Beginning",
     "level": "A2"
   },
   {
@@ -13130,14 +13130,14 @@ const A2_WORDS = [
   },
   {
     "de": "begrüßen",
-    "lv": "Greet • Greet",
+    "lv": "Greet",
     "level": "A2"
   },
   {
     "de": "Begrüßung",
     "de_article": "die",
     "de_plural": "die Begrüßungen",
-    "lv": "Greeting • Greeting",
+    "lv": "Greeting",
     "level": "A2"
   },
   {
@@ -13952,7 +13952,7 @@ const A2_WORDS = [
   },
   {
     "de": "beißen",
-    "lv": "To bite • To bite • To bite",
+    "lv": "To bite",
     "level": "A2"
   },
   {
@@ -14371,12 +14371,12 @@ const A2_WORDS = [
   },
   {
     "de": "beliebt",
-    "lv": "favourite • favourite • Popular",
+    "lv": "favourite • Popular",
     "level": "A2"
   },
   {
     "de": "bellen",
-    "lv": "Sunset",
+    "lv": "Bark",
     "level": "A2"
   },
   {
@@ -14392,7 +14392,7 @@ const A2_WORDS = [
   {
     "de": "Benzin",
     "de_article": "das",
-    "lv": "Gasoline",
+    "lv": "Petrol",
     "level": "A2"
   },
   {
@@ -14431,7 +14431,7 @@ const A2_WORDS = [
   },
   {
     "de": "besitzen",
-    "lv": "To belong",
+    "lv": "Own • Possess",
     "level": "A2"
   },
   {
@@ -14443,7 +14443,7 @@ const A2_WORDS = [
   },
   {
     "de": "besonders",
-    "lv": "Especially • Especially • Especially",
+    "lv": "Especially",
     "level": "A2"
   },
   {
@@ -15192,7 +15192,7 @@ const A2_WORDS = [
   },
   {
     "de": "bewundern",
-    "lv": "Admiring",
+    "lv": "Admire",
     "level": "A2"
   },
   {
@@ -16584,7 +16584,7 @@ const A2_WORDS = [
     "de": "Bonbon",
     "de_article": "das",
     "de_plural": "die Bonbons",
-    "lv": "Candy",
+    "lv": "Sweet",
     "level": "A2"
   },
   {
@@ -17751,14 +17751,14 @@ const A2_WORDS = [
     "de": "Brei",
     "de_article": "der",
     "de_plural": "die Breie",
-    "lv": "Porridge • Porridge",
+    "lv": "Porridge",
     "level": "A2"
   },
   {
     "de": "Bremse",
     "de_article": "die",
     "de_plural": "die Bremsen",
-    "lv": "Brake • Thump",
+    "lv": "Brake • Horsefly",
     "level": "A2"
   },
   {
@@ -18081,7 +18081,7 @@ const A2_WORDS = [
     "de": "Briefkasten",
     "de_article": "der",
     "de_plural": "die Briefkästen",
-    "lv": "Mailbox • Letterbox",
+    "lv": "Postbox • Letterbox",
     "level": "A2"
   },
   {
@@ -18130,7 +18130,7 @@ const A2_WORDS = [
     "de": "Buchladen",
     "de_article": "der",
     "de_plural": "die Buchläden",
-    "lv": "Book store",
+    "lv": "Bookshop",
     "level": "A2"
   },
   {
@@ -18161,7 +18161,7 @@ const A2_WORDS = [
     "de": "Bürgersteig",
     "de_article": "der",
     "de_plural": "die Bürgersteige",
-    "lv": "Sidewalk • Pavement",
+    "lv": "Pavement",
     "level": "A2"
   },
   {
@@ -18189,7 +18189,7 @@ const A2_WORDS = [
     "de": "Chance",
     "de_article": "die",
     "de_plural": "die Chancen",
-    "lv": "Opportunity • Prospect • Opportunity",
+    "lv": "Opportunity • Prospect",
     "level": "A2"
   },
   {
@@ -19401,7 +19401,7 @@ const A2_WORDS = [
   },
   {
     "de": "danach",
-    "lv": "After that • After that",
+    "lv": "After that",
     "level": "A2"
   },
   {
@@ -19789,12 +19789,12 @@ const A2_WORDS = [
   },
   {
     "de": "darauf",
-    "lv": "On it • On it • After that",
+    "lv": "On it • After that",
     "level": "A2",
     "study": {
       "id": "a2-darauf",
       "layout": "standardStudy",
-      "translation": "On it • On it • After that",
+      "translation": "On it • After that",
       "explanation": [
         "Main idea: daraaf means on that, on that, or after, depending on the context.",
         "When it comes to the surface, daraf means on it.",
@@ -22438,17 +22438,17 @@ const A2_WORDS = [
   },
   {
     "de": "deshalb",
-    "lv": "Therefore • Therefore",
+    "lv": "Therefore",
     "level": "A2"
   },
   {
     "de": "deswegen",
-    "lv": "Therefore • Therefore",
+    "lv": "Therefore",
     "level": "A2"
   },
   {
     "de": "deutlich",
-    "lv": "Clear • Clear • Understandable",
+    "lv": "Clear • Understandable",
     "level": "A2"
   },
   {
@@ -23629,7 +23629,7 @@ const A2_WORDS = [
   },
   {
     "de": "doppelt",
-    "lv": "Double • Double • Double",
+    "lv": "Double",
     "level": "A2"
   },
   {
@@ -23641,7 +23641,7 @@ const A2_WORDS = [
   },
   {
     "de": "dorthin",
-    "lv": "To there • Next",
+    "lv": "There • Over there",
     "level": "A2"
   },
   {
@@ -23651,12 +23651,12 @@ const A2_WORDS = [
   },
   {
     "de": "drehen",
-    "lv": "To cut",
+    "lv": "Turn • Rotate",
     "level": "A2",
     "study": {
       "id": "a2-drehen",
       "layout": "standardStudy",
-      "translation": "To cut",
+      "translation": "Turn • Rotate",
       "explanation": [
         "Main idea: drehen means to turn or turn something around an axis, not to cut with a knife.",
         "It is used when something rotates or is turned.",
@@ -23927,7 +23927,7 @@ const A2_WORDS = [
   },
   {
     "de": "drüben",
-    "lv": "On the other side • Hold over",
+    "lv": "On the other side • Over there",
     "level": "A2"
   },
   {
@@ -24200,12 +24200,12 @@ const A2_WORDS = [
   },
   {
     "de": "dünn",
-    "lv": "Plan",
+    "lv": "Thin",
     "level": "A2",
     "study": {
       "id": "a2-dünn",
       "layout": "standardStudy",
-      "translation": "Plan",
+      "translation": "Thin",
       "explanation": [
         "Main idea: The meaning of dünn changes according to the case: a person is thin, paper is thin, hair can be sparse, soup can be runny.",
         "For a person or animal, dünn means thin.",
@@ -25913,7 +25913,7 @@ const A2_WORDS = [
   },
   {
     "de": "einander",
-    "lv": "Each other • Each other",
+    "lv": "Each other",
     "level": "A2"
   },
   {
@@ -26341,7 +26341,7 @@ const A2_WORDS = [
   },
   {
     "de": "einsam",
-    "lv": "Lonely • Lonely",
+    "lv": "Lonely",
     "level": "A2"
   },
   {
@@ -27727,7 +27727,7 @@ const A2_WORDS = [
   },
   {
     "de": "einverstanden",
-    "lv": "With peace",
+    "lv": "Agreed • In agreement",
     "level": "A2"
   },
   {
@@ -27794,7 +27794,7 @@ const A2_WORDS = [
   },
   {
     "de": "enden",
-    "lv": "Run out",
+    "lv": "End • Finish",
     "level": "A2"
   },
   {
@@ -27963,7 +27963,7 @@ const A2_WORDS = [
   },
   {
     "de": "entdecken",
-    "lv": "To reveal",
+    "lv": "Discover",
     "level": "A2"
   },
   {
@@ -27975,7 +27975,7 @@ const A2_WORDS = [
   },
   {
     "de": "entlang",
-    "lv": "Long",
+    "lv": "Along",
     "level": "A2"
   },
   {
@@ -27992,7 +27992,7 @@ const A2_WORDS = [
     "de": "Erdgeschoss",
     "de_article": "das",
     "de_plural": "die Erdgeschosse",
-    "lv": "First floor",
+    "lv": "Ground floor",
     "level": "A2"
   },
   {
@@ -28617,12 +28617,12 @@ const A2_WORDS = [
   },
   {
     "de": "erklären",
-    "lv": "Explain • Explain",
+    "lv": "Explain",
     "level": "A2"
   },
   {
     "de": "erlauben",
-    "lv": "Allow • Allow",
+    "lv": "Allow",
     "level": "A2"
   },
   {
@@ -28653,7 +28653,7 @@ const A2_WORDS = [
   },
   {
     "de": "erwärmen",
-    "lv": "To warm up • To warm up",
+    "lv": "To warm up",
     "level": "A2"
   },
   {
@@ -28663,7 +28663,7 @@ const A2_WORDS = [
   },
   {
     "de": "erzählen",
-    "lv": "To tell • To tell",
+    "lv": "To tell",
     "level": "A2"
   },
   {
@@ -29081,7 +29081,7 @@ const A2_WORDS = [
     "de": "Fabrik",
     "de_article": "die",
     "de_plural": "die Fabriken",
-    "lv": "Factory • Factory",
+    "lv": "Factory",
     "level": "A2"
   },
   {
@@ -29574,7 +29574,7 @@ const A2_WORDS = [
     "de": "Fahrer",
     "de_article": "der",
     "de_plural": "die Fahrer",
-    "lv": "Manager • Driver",
+    "lv": "Driver",
     "level": "A2"
   },
   {
@@ -29595,7 +29595,7 @@ const A2_WORDS = [
     "de": "Fahrt",
     "de_article": "die",
     "de_plural": "die Fahrten",
-    "lv": "Trip • Flight",
+    "lv": "Trip • Journey",
     "level": "A2"
   },
   {
@@ -30058,7 +30058,7 @@ const A2_WORDS = [
   },
   {
     "de": "fallen",
-    "lv": "To fall • To fall",
+    "lv": "To fall",
     "level": "A2"
   },
   {
@@ -30081,12 +30081,12 @@ const A2_WORDS = [
   },
   {
     "de": "fangen",
-    "lv": "To catch • To catch",
+    "lv": "To catch",
     "level": "A2"
   },
   {
     "de": "färben",
-    "lv": "To paint • To paint",
+    "lv": "To paint",
     "level": "A2"
   },
   {
@@ -30124,12 +30124,12 @@ const A2_WORDS = [
   },
   {
     "de": "fehlen",
-    "lv": "Missing",
+    "lv": "Be missing • Lack",
     "level": "A2",
     "study": {
       "id": "a2-fehlen",
       "layout": "standardStudy",
-      "translation": "Missing",
+      "translation": "Be missing • Lack",
       "explanation": "Main idea: fehlen means to lack, to lack, or to be absent. If there is a lack of an item or money, fehlen translates as lacking or lacking. If a person is absent from school or work, fehlen means to be absent. In the construction mir fehlt etwas, English often uses \"I'm missing something\". It is not the same as brauchen, because brauchen means to need.",
       "examples": [
         {
@@ -30468,7 +30468,7 @@ const A2_WORDS = [
     "de": "Feier",
     "de_article": "die",
     "de_plural": "die Feiern",
-    "lv": "Celebration • Celebration",
+    "lv": "Celebration",
     "level": "A2"
   },
   {
@@ -30848,12 +30848,12 @@ const A2_WORDS = [
     "de": "Feuer",
     "de_article": "das",
     "de_plural": "die Feuer",
-    "lv": "Fire • Fire",
+    "lv": "Fire",
     "level": "A2",
     "study": {
       "id": "a2-feuer",
       "layout": "standardStudy",
-      "translation": "Fire • Fire",
+      "translation": "Fire",
       "explanation": "Das Feuer can mean a controlled fire, such as a bonfire or a fire in a stove. It can also mean a fire if the fire is dangerous or out of control. Feuer is often associated with burning and flames. With Feuerwehr, it often means a fire that is put out. In a military or police context, Feuer can mean to shoot or open fire.",
       "examples": [
         {
@@ -31298,7 +31298,7 @@ const A2_WORDS = [
     "de": "Fichte",
     "de_article": "die",
     "de_plural": "die Fichten",
-    "lv": "Fir tree",
+    "lv": "Spruce",
     "level": "A2"
   },
   {
@@ -31328,7 +31328,7 @@ const A2_WORDS = [
   },
   {
     "de": "fischen",
-    "lv": "To fish • To fish",
+    "lv": "To fish",
     "level": "A2"
   },
   {
@@ -31366,14 +31366,14 @@ const A2_WORDS = [
   },
   {
     "de": "fleißig",
-    "lv": "Diligent • Diligent",
+    "lv": "Diligent",
     "level": "A2"
   },
   {
     "de": "Fliege",
     "de_article": "die",
     "de_plural": "die Fliegen",
-    "lv": "Fly • Butterfly",
+    "lv": "Fly • Bow tie",
     "level": "A2"
   },
   {
@@ -31789,12 +31789,12 @@ const A2_WORDS = [
   },
   {
     "de": "fort",
-    "lv": "Away • Away",
+    "lv": "Away",
     "level": "A2"
   },
   {
     "de": "fortgehen",
-    "lv": "Go away • Go away",
+    "lv": "Go away",
     "level": "A2"
   },
   {
@@ -31834,7 +31834,7 @@ const A2_WORDS = [
   },
   {
     "de": "fremd",
-    "lv": "Stranger • Unfamiliar",
+    "lv": "Foreign • Unfamiliar",
     "level": "A2"
   },
   {
@@ -31879,7 +31879,7 @@ const A2_WORDS = [
   },
   {
     "de": "frieren",
-    "lv": "Cold",
+    "lv": "Be cold • Freeze",
     "level": "A2"
   },
   {
@@ -31946,7 +31946,7 @@ const A2_WORDS = [
   },
   {
     "de": "fühlen",
-    "lv": "To feel • To feel",
+    "lv": "To feel",
     "level": "A2"
   },
   {
@@ -32385,7 +32385,7 @@ const A2_WORDS = [
   },
   {
     "de": "füllen",
-    "lv": "To fill • To fill",
+    "lv": "To fill",
     "level": "A2"
   },
   {
@@ -32402,7 +32402,7 @@ const A2_WORDS = [
   },
   {
     "de": "furchtbar",
-    "lv": "Terrible • Terrible",
+    "lv": "Terrible",
     "level": "A2"
   },
   {
@@ -32416,7 +32416,7 @@ const A2_WORDS = [
     "de": "Fußballspieler",
     "de_article": "der",
     "de_plural": "die Fußballspieler",
-    "lv": "Football player • Football player",
+    "lv": "Football player",
     "level": "A2"
   },
   {
@@ -32437,7 +32437,7 @@ const A2_WORDS = [
     "de": "Fußweg",
     "de_article": "der",
     "de_plural": "die Fußwege",
-    "lv": "Sidewalk • Footpath",
+    "lv": "Footpath",
     "level": "A2"
   },
   {
@@ -32456,12 +32456,12 @@ const A2_WORDS = [
     "de": "Gang",
     "de_article": "der",
     "de_plural": "die Gänge",
-    "lv": "Corridor • Course • Food round",
+    "lv": "Corridor • Gait • Course (of a meal)",
     "level": "A2",
     "study": {
       "id": "a2-gang",
       "layout": "standardStudy",
-      "translation": "Corridor • Course • Food round",
+      "translation": "Corridor • Gait • Course (of a meal)",
       "explanation": [
         "Main idea: The meaning of der Gang is determined by the context: in a room it is a hallway, in movement it is a course, in a menu it is a course of food.",
         "In a house, school or hotel, Gang very often means a hallway.",
@@ -32770,7 +32770,7 @@ const A2_WORDS = [
   {
     "de": "Gebäck",
     "de_article": "das",
-    "lv": "Cookies • Pastries",
+    "lv": "Biscuits • Pastries",
     "level": "A2"
   },
   {
@@ -32831,7 +32831,7 @@ const A2_WORDS = [
     "de": "Gegend",
     "de_article": "die",
     "de_plural": "die Gegenden",
-    "lv": "Locality • Neighborhood • Neighbourhood",
+    "lv": "Locality • Neighbourhood",
     "level": "A2"
   },
   {
@@ -33437,12 +33437,12 @@ const A2_WORDS = [
   },
   {
     "de": "gemeinsam",
-    "lv": "Common • Common",
+    "lv": "Common",
     "level": "A2"
   },
   {
     "de": "gemütlich",
-    "lv": "Cozy • Pleasant • Comfortable",
+    "lv": "Cosy • Pleasant • Comfortable",
     "level": "A2"
   },
   {
@@ -34380,7 +34380,7 @@ const A2_WORDS = [
     "de": "Geschmack",
     "de_article": "der",
     "de_plural": "die Geschmäcke",
-    "lv": "Taste • Taste",
+    "lv": "Taste",
     "level": "A2"
   },
   {
@@ -34787,12 +34787,12 @@ const A2_WORDS = [
   },
   {
     "de": "gießen",
-    "lv": "To water • Lit",
+    "lv": "Water • Pour",
     "level": "A2",
     "study": {
       "id": "a2-gießen",
       "layout": "standardStudy",
-      "translation": "To water • Lit",
+      "translation": "Water • Pour",
       "explanation": [
         "Main idea: gießen means to water plants or pour liquid.",
         "With flowers, plants and garden, gießen most often means to water.",
@@ -35650,7 +35650,7 @@ const A2_WORDS = [
     "de": "Grundschule",
     "de_article": "die",
     "de_plural": "die Grundschulen",
-    "lv": "Elementary school",
+    "lv": "Primary school",
     "level": "A2"
   },
   {
@@ -35724,21 +35724,21 @@ const A2_WORDS = [
   {
     "de": "Haferflocken",
     "de_article": "die",
-    "lv": "Oatmeal",
+    "lv": "Rolled oats • Porridge oats",
     "level": "A2"
   },
   {
     "de": "Hahn",
     "de_article": "der",
     "de_plural": "die Hähne",
-    "lv": "Rooster",
+    "lv": "Cockerel • Cock",
     "level": "A2"
   },
   {
     "de": "Hähnchen",
     "de_article": "das",
     "de_plural": "die Hähnchen",
-    "lv": "Chicken • Chicken",
+    "lv": "Chicken",
     "level": "A2"
   },
   {
@@ -35771,7 +35771,7 @@ const A2_WORDS = [
   },
   {
     "de": "halt!",
-    "lv": "Stand!",
+    "lv": "Stop!",
     "level": "A2"
   },
   {
@@ -35810,12 +35810,12 @@ const A2_WORDS = [
   },
   {
     "de": "hängen",
-    "lv": "Hang • Order",
+    "lv": "Hang",
     "level": "A2",
     "study": {
       "id": "a2-hängen",
       "layout": "standardStudy",
-      "translation": "Hang • Order",
+      "translation": "Hang",
       "explanation": [
         "Main idea: hängen means to hang or hang something on a wall, door, or other place.",
         "If the thing itself is on the wall or on a hook, in English it is usually said to hang.",
@@ -36244,7 +36244,7 @@ const A2_WORDS = [
     "de": "Hase",
     "de_article": "der",
     "de_plural": "die Hasen",
-    "lv": "Bunny",
+    "lv": "Hare",
     "level": "A2"
   },
   {
@@ -36318,7 +36318,7 @@ const A2_WORDS = [
   },
   {
     "de": "heilen",
-    "lv": "To treat",
+    "lv": "Heal • Cure",
     "level": "A2"
   },
   {
@@ -36433,7 +36433,7 @@ const A2_WORDS = [
   },
   {
     "de": "hin",
-    "lv": "Cont",
+    "lv": "There • Away",
     "level": "A2"
   },
   {
@@ -36823,14 +36823,14 @@ const A2_WORDS = [
     "de": "Hosenbein",
     "de_article": "das",
     "de_plural": "die Hosenbeine",
-    "lv": "Trouser beam",
+    "lv": "Trouser leg",
     "level": "A2"
   },
   {
     "de": "Hosenträger",
     "de_article": "die",
     "de_plural": "die Hosenträger",
-    "lv": "Suspenders",
+    "lv": "Braces",
     "level": "A2"
   },
   {
@@ -36850,7 +36850,7 @@ const A2_WORDS = [
   {
     "de": "Humor",
     "de_article": "der",
-    "lv": "Humor",
+    "lv": "Humour",
     "level": "A2"
   },
   {
@@ -36862,7 +36862,7 @@ const A2_WORDS = [
   {
     "de": "Hundegebell",
     "de_article": "das",
-    "lv": "The dog barks",
+    "lv": "Barking • Dog barking",
     "level": "A2"
   },
   {
@@ -36882,7 +36882,7 @@ const A2_WORDS = [
     "de": "Hunderasse",
     "de_article": "die",
     "de_plural": "die Hunderassen",
-    "lv": "A species of dog",
+    "lv": "Dog breed",
     "level": "A2"
   },
   {
@@ -36893,7 +36893,7 @@ const A2_WORDS = [
   },
   {
     "de": "hungern",
-    "lv": "Starving",
+    "lv": "Starve • Go hungry",
     "level": "A2"
   },
   {
@@ -36942,12 +36942,12 @@ const A2_WORDS = [
   },
   {
     "de": "indem",
-    "lv": "Doing",
+    "lv": "By • While",
     "level": "A2",
     "study": {
       "id": "a2-indem",
       "layout": "standardStudy",
-      "translation": "Doing",
+      "translation": "By • While",
       "explanation": [
         "Main idea: Indem explains the way something is done.",
         "In English, it is often translated as doing something.",
@@ -37194,7 +37194,7 @@ const A2_WORDS = [
     "de": "Insekt",
     "de_article": "das",
     "de_plural": "die Insekten",
-    "lv": "Insect • Insect",
+    "lv": "Insect",
     "level": "A2"
   },
   {
@@ -37206,7 +37206,7 @@ const A2_WORDS = [
   },
   {
     "de": "insgesamt",
-    "lv": "Together",
+    "lv": "In total • Altogether",
     "level": "A2"
   },
   {
@@ -37246,7 +37246,7 @@ const A2_WORDS = [
   },
   {
     "de": "irgendein",
-    "lv": "Someone",
+    "lv": "Any • Some",
     "level": "A2"
   },
   {
@@ -37296,12 +37296,12 @@ const A2_WORDS = [
   },
   {
     "de": "je",
-    "lv": "Ever • Pa",
+    "lv": "Ever • Each • Per",
     "level": "A2",
     "study": {
       "id": "a2-je",
       "layout": "standardStudy",
-      "translation": "Ever • Pa",
+      "translation": "Ever • Each • Per",
       "explanation": [
         "Main idea: je changes meaning according to sentence form and should often be seen together with other words.",
         "In questions and negatives, je often means ever.",
@@ -37460,7 +37460,7 @@ const A2_WORDS = [
   },
   {
     "de": "jemanden baden",
-    "lv": "Swim • Take a bath",
+    "lv": "Bathe someone • Give a bath",
     "level": "A2"
   },
   {
@@ -37470,7 +37470,7 @@ const A2_WORDS = [
   },
   {
     "de": "jetzig",
-    "lv": "The present",
+    "lv": "Current • Present",
     "level": "A2"
   },
   {
@@ -37576,7 +37576,7 @@ const A2_WORDS = [
     "de": "Kaffeepulver",
     "de_article": "das",
     "de_plural": "die Kaffeepulver",
-    "lv": "Instant coffee",
+    "lv": "Ground coffee",
     "level": "A2"
   },
   {
@@ -37913,7 +37913,7 @@ const A2_WORDS = [
     "de": "Kappe",
     "de_article": "die",
     "de_plural": "die Kappen",
-    "lv": "Hat with a nail",
+    "lv": "Cap",
     "level": "A2"
   },
   {
@@ -37930,13 +37930,13 @@ const A2_WORDS = [
     "de": "Karamelle",
     "de_article": "die",
     "de_plural": "die Karamellen",
-    "lv": "Caramels",
+    "lv": "Caramel • Toffee",
     "level": "A2"
   },
   {
     "de": "Karate",
     "de_article": "das",
-    "lv": "In karate",
+    "lv": "Karate",
     "level": "A2"
   },
   {
@@ -37957,7 +37957,7 @@ const A2_WORDS = [
     "de": "Kartoffelchips",
     "de_article": "die",
     "de_plural": "die Kartoffelchips",
-    "lv": "Potato chips",
+    "lv": "Crisps • Potato crisps",
     "level": "A2"
   },
   {
@@ -37971,7 +37971,7 @@ const A2_WORDS = [
     "de": "Käsekuchen",
     "de_article": "der",
     "de_plural": "die Käsekuchen",
-    "lv": "Cottage cheese bread",
+    "lv": "Cheesecake",
     "level": "A2"
   },
   {
@@ -38688,12 +38688,12 @@ const A2_WORDS = [
     "de": "Kinderarzt",
     "de_article": "der",
     "de_plural": "die Kinderärzte",
-    "lv": "Pediatrician",
+    "lv": "Paediatrician",
     "level": "A2",
     "study": {
       "id": "a2-kinderarzt",
       "layout": "minimalStudy",
-      "translation": "Pediatrician",
+      "translation": "Paediatrician",
       "accent": "blue",
       "variants": [
         {
@@ -38737,12 +38737,12 @@ const A2_WORDS = [
     "de": "Kinderwagen",
     "de_article": "der",
     "de_plural": "die Kinderwagen",
-    "lv": "Baby carriage",
+    "lv": "Pram • Pushchair",
     "level": "A2",
     "study": {
       "id": "a2-kinderwagen",
       "layout": "minimalStudy",
-      "translation": "Baby carriage",
+      "translation": "Pram • Pushchair",
       "accent": "blue",
       "variants": [
         {
@@ -39463,7 +39463,7 @@ const A2_WORDS = [
     "de": "Klebestift",
     "de_article": "der",
     "de_plural": "die Klebestifte",
-    "lv": "Glue pencil",
+    "lv": "Glue stick",
     "level": "A2"
   },
   {
@@ -39876,7 +39876,7 @@ const A2_WORDS = [
     "de": "Kleingeld",
     "de_article": "das",
     "de_plural": null,
-    "lv": "Petty cash",
+    "lv": "Small change • Loose change",
     "level": "A2"
   },
   {
@@ -39893,12 +39893,12 @@ const A2_WORDS = [
     "de": "Klingel",
     "de_article": "die",
     "de_plural": "die Klingeln",
-    "lv": "Call",
+    "lv": "Bell • Doorbell",
     "level": "A2"
   },
   {
     "de": "klingeln",
-    "lv": "To call",
+    "lv": "Ring",
     "level": "A2"
   },
   {
@@ -39927,7 +39927,7 @@ const A2_WORDS = [
   },
   {
     "de": "knien",
-    "lv": "To stand on one's knees",
+    "lv": "Kneel",
     "level": "A2"
   },
   {
@@ -39955,7 +39955,7 @@ const A2_WORDS = [
     "de": "Konfekt",
     "de_article": "das",
     "de_plural": "die Konfekte",
-    "lv": "Candy",
+    "lv": "Confectionery • Sweets",
     "level": "A2"
   },
   {
@@ -40258,7 +40258,7 @@ const A2_WORDS = [
     "de": "Kostüm",
     "de_article": "das",
     "de_plural": "die Kostüme",
-    "lv": "Women's costume",
+    "lv": "Women's suit",
     "level": "A2"
   },
   {
@@ -41237,7 +41237,7 @@ const A2_WORDS = [
   },
   {
     "de": "langweilen",
-    "lv": "Get bored",
+    "lv": "Bore",
     "level": "A2"
   },
   {
@@ -41255,7 +41255,7 @@ const A2_WORDS = [
   },
   {
     "de": "läuten",
-    "lv": "To call",
+    "lv": "Ring",
     "level": "A2"
   },
   {
@@ -41274,7 +41274,7 @@ const A2_WORDS = [
     "de": "Lebensmittelgeschäft",
     "de_article": "das",
     "de_plural": "die Lebensmittelgeschäfte",
-    "lv": "Grocery store",
+    "lv": "Grocer's shop • Grocery shop",
     "level": "A2"
   },
   {
@@ -41286,7 +41286,7 @@ const A2_WORDS = [
     "de": "Leder",
     "de_article": "das",
     "de_plural": "die Leder",
-    "lv": "Developed leather",
+    "lv": "Leather",
     "level": "A2"
   },
   {
@@ -41296,7 +41296,7 @@ const A2_WORDS = [
   },
   {
     "de": "leeren",
-    "lv": "Draining",
+    "lv": "Empty",
     "level": "A2"
   },
   {
@@ -41963,12 +41963,12 @@ const A2_WORDS = [
     "de": "Leiter",
     "de_article": "der",
     "de_plural": "die Leiter",
-    "lv": "Manager • Ladder",
+    "lv": "Manager • Head",
     "level": "A2",
     "study": {
       "id": "a2-leiter",
       "layout": "standardStudy",
-      "translation": "Manager • Ladder",
+      "translation": "Manager • Head",
       "explanation": [
         "Main Idea: Leiter is a homonym—meaning leader or ladder, depending on the family.",
         "Der Leiter (masculine) = leader, boss • Plural: die Leiter.",
@@ -42583,7 +42583,7 @@ const A2_WORDS = [
   },
   {
     "de": "lieber",
-    "lv": "Better",
+    "lv": "Rather • Preferably",
     "level": "A2"
   },
   {
@@ -42607,12 +42607,12 @@ const A2_WORDS = [
   },
   {
     "de": "liegen",
-    "lv": "To sleep • To be",
+    "lv": "Lie • Be located",
     "level": "A2",
     "study": {
       "id": "a2-liegen",
       "layout": "standardStudy",
-      "translation": "To sleep • To be",
+      "translation": "Lie • Be located",
       "explanation": [
         "Main idea: Condition: Something that is already lying down or horizontal.",
         "Liegen mainly means: state.",
@@ -42834,7 +42834,7 @@ const A2_WORDS = [
     "de": "Lippenstift",
     "de_article": "der",
     "de_plural": "die Lippenstifte",
-    "lv": "Lip pencil",
+    "lv": "Lipstick",
     "level": "A2"
   },
   {
@@ -42872,12 +42872,12 @@ const A2_WORDS = [
   },
   {
     "de": "los",
-    "lv": "Loose • Loose • What's going on",
+    "lv": "Loose • What's going on",
     "level": "A2",
     "study": {
       "id": "a2-los",
       "layout": "minimalStudy",
-      "translation": "Loose • Loose • What's going on",
+      "translation": "Loose • What's going on",
       "accent": "blue",
       "tip": "Often used colloquially to ask about a situation or to indicate that something has been let loose.",
       "examples": [
@@ -42917,7 +42917,7 @@ const A2_WORDS = [
     "de": "Lüge",
     "de_article": "die",
     "de_plural": "die Lügen",
-    "lv": "Lies",
+    "lv": "Lie",
     "level": "A2"
   },
   {
@@ -42928,7 +42928,7 @@ const A2_WORDS = [
   {
     "de": "Lust",
     "de_article": "die",
-    "lv": "The election",
+    "lv": "Desire • Wish",
     "level": "A2"
   },
   {
@@ -42949,7 +42949,7 @@ const A2_WORDS = [
     "de": "Make-up",
     "de_article": "das",
     "de_plural": "die Make-ups",
-    "lv": "Makeup",
+    "lv": "Make-up",
     "level": "A2"
   },
   {
@@ -43679,7 +43679,7 @@ const A2_WORDS = [
   },
   {
     "de": "mischen",
-    "lv": "To confuse",
+    "lv": "Mix",
     "level": "A2"
   },
   {
@@ -44015,7 +44015,7 @@ const A2_WORDS = [
     "de": "Möbel",
     "de_article": "das",
     "de_plural": "die Möbel",
-    "lv": "Furniture • Furniture",
+    "lv": "Furniture",
     "level": "A2"
   },
   {
@@ -44051,7 +44051,7 @@ const A2_WORDS = [
   },
   {
     "de": "monatlich",
-    "lv": "Monthly-",
+    "lv": "Monthly",
     "level": "A2"
   },
   {
@@ -44099,7 +44099,7 @@ const A2_WORDS = [
   {
     "de": "Müll",
     "de_article": "der",
-    "lv": "Garbage",
+    "lv": "Rubbish • Waste",
     "level": "A2"
   },
   {
@@ -44658,7 +44658,7 @@ const A2_WORDS = [
   },
   {
     "de": "niedlich",
-    "lv": "Nice",
+    "lv": "Cute",
     "level": "A2"
   },
   {
@@ -45760,7 +45760,7 @@ const A2_WORDS = [
     "de": "Öffnungszeit",
     "de_article": "die",
     "de_plural": "die Öffnungszeiten",
-    "lv": "Working hours",
+    "lv": "Opening time • Opening hours",
     "level": "A2"
   },
   {
@@ -45872,7 +45872,7 @@ const A2_WORDS = [
     "de": "Parfüm",
     "de_article": "das",
     "de_plural": "die Parfüms",
-    "lv": "Perfumes",
+    "lv": "Perfume",
     "level": "A2"
   },
   {
@@ -46186,7 +46186,7 @@ const A2_WORDS = [
   {
     "de": "Pech",
     "de_article": "das",
-    "lv": "Failure",
+    "lv": "Bad luck",
     "level": "A2"
   },
   {
@@ -46625,7 +46625,7 @@ const A2_WORDS = [
     "de": "Pille",
     "de_article": "die",
     "de_plural": "die Pillen",
-    "lv": "Tablet",
+    "lv": "Pill",
     "level": "A2"
   },
   {
@@ -46743,7 +46743,7 @@ const A2_WORDS = [
     "de": "Postamt",
     "de_article": "das",
     "de_plural": "die Postämter",
-    "lv": "Mail",
+    "lv": "Post office",
     "level": "A2"
   },
   {
@@ -46781,7 +46781,7 @@ const A2_WORDS = [
     "de": "Prozent",
     "de_article": "das",
     "de_plural": "die Prozente",
-    "lv": "Percentage",
+    "lv": "Per cent",
     "level": "A2"
   },
   {
@@ -46838,7 +46838,7 @@ const A2_WORDS = [
   {
     "de": "Quark",
     "de_article": "der",
-    "lv": "Cottage cheese",
+    "lv": "Quark",
     "level": "A2"
   },
   {
@@ -47015,7 +47015,7 @@ const A2_WORDS = [
   },
   {
     "de": "radieren",
-    "lv": "Erase with an eraser",
+    "lv": "Rub out • Erase",
     "level": "A2"
   },
   {
@@ -47028,7 +47028,7 @@ const A2_WORDS = [
   {
     "de": "Rahm",
     "de_article": "der",
-    "lv": "Cream sweet",
+    "lv": "Cream",
     "level": "A2"
   },
   {
@@ -47847,7 +47847,7 @@ const A2_WORDS = [
     "de": "Reißverschluss",
     "de_article": "der",
     "de_plural": "die Reißverschlüsse",
-    "lv": "Zipper",
+    "lv": "Zip",
     "level": "A2"
   },
   {
@@ -47866,7 +47866,7 @@ const A2_WORDS = [
     "de": "Rennen",
     "de_article": "das",
     "de_plural": "die Rennen",
-    "lv": "Race • Race",
+    "lv": "Race",
     "level": "A2"
   },
   {
@@ -47892,7 +47892,7 @@ const A2_WORDS = [
   },
   {
     "de": "reparieren",
-    "lv": "To correct",
+    "lv": "Repair • Mend",
     "level": "A2"
   },
   {
@@ -47923,7 +47923,7 @@ const A2_WORDS = [
     "de": "Rezeption",
     "de_article": "die",
     "de_plural": "die Rezeptionen",
-    "lv": "Reception • Reception",
+    "lv": "Reception",
     "level": "A2"
   },
   {
@@ -47935,12 +47935,12 @@ const A2_WORDS = [
   },
   {
     "de": "riechen",
-    "lv": "To smell • Ost",
+    "lv": "Smell",
     "level": "A2",
     "study": {
       "id": "a2-riechen",
       "layout": "standardStudy",
-      "translation": "To smell • Ost",
+      "translation": "Smell",
       "explanation": [
         "Main idea: riechen means to smell something or smell something.",
         "When the subject is a thing, riechen means to smell or ost.",
@@ -48250,7 +48250,7 @@ const A2_WORDS = [
   },
   {
     "de": "rodeln",
-    "lv": "Sledding down the hill",
+    "lv": "Sledge • Go sledging",
     "level": "A2"
   },
   {
@@ -48758,7 +48758,7 @@ const A2_WORDS = [
     "de": "Saal",
     "de_article": "der",
     "de_plural": "die Säle",
-    "lv": "Grass",
+    "lv": "Hall",
     "level": "A2"
   },
   {
@@ -48785,7 +48785,7 @@ const A2_WORDS = [
     "de": "Saison",
     "de_article": "die",
     "de_plural": "die Saisons",
-    "lv": "Some no. season",
+    "lv": "Season",
     "level": "A2"
   },
   {
@@ -49081,7 +49081,7 @@ const A2_WORDS = [
   },
   {
     "de": "satt",
-    "lv": "Fed up",
+    "lv": "Full • Not hungry",
     "level": "A2"
   },
   {
@@ -49601,7 +49601,7 @@ const A2_WORDS = [
   },
   {
     "de": "schade",
-    "lv": "Sorry",
+    "lv": "A pity • A shame",
     "level": "A2"
   },
   {
@@ -49618,7 +49618,7 @@ const A2_WORDS = [
   },
   {
     "de": "schälen",
-    "lv": "Peeling",
+    "lv": "Peel",
     "level": "A2"
   },
   {
@@ -50373,7 +50373,7 @@ const A2_WORDS = [
   },
   {
     "de": "scherzen",
-    "lv": "Kidding",
+    "lv": "Joke",
     "level": "A2"
   },
   {
@@ -50397,7 +50397,7 @@ const A2_WORDS = [
     "de": "Schild",
     "de_article": "das",
     "de_plural": "die Schilder",
-    "lv": "Signboard • Plate • Label on bottles • Notebooks, etc. etc",
+    "lv": "Signboard • Plate • Label (on bottles, notebooks, etc.)",
     "level": "A2"
   },
   {
@@ -50429,12 +50429,12 @@ const A2_WORDS = [
     "de": "Schlange",
     "de_article": "die",
     "de_plural": "die Schlangen",
-    "lv": "Snake • Row",
+    "lv": "Snake • Queue",
     "level": "A2",
     "study": {
       "id": "a2-schlange",
       "layout": "standardStudy",
-      "translation": "Snake • Row",
+      "translation": "Snake • Queue",
       "explanation": "Die Schlange means snake as an animal. In everyday life, it also very often means a line where people are waiting. The phrase in der Schlange stehen means to stand in line. The context usually shows the meaning immediately: forest and animal or shop and people. Both meanings are important for A2 everyday language.",
       "examples": [
         {
@@ -51709,7 +51709,7 @@ const A2_WORDS = [
     "de": "Schnuller",
     "de_article": "der",
     "de_plural": "die Schnuller",
-    "lv": "Baby pacifier",
+    "lv": "Dummy",
     "level": "A2"
   },
   {
@@ -52215,7 +52215,7 @@ const A2_WORDS = [
   },
   {
     "de": "schwanger",
-    "lv": "A pregnant woman",
+    "lv": "Pregnant",
     "level": "A2"
   },
   {
@@ -52406,7 +52406,7 @@ const A2_WORDS = [
   },
   {
     "de": "schwitzen",
-    "lv": "Sweating",
+    "lv": "Sweat",
     "level": "A2"
   },
   {
@@ -52426,7 +52426,7 @@ const A2_WORDS = [
   {
     "de": "Seilspringen",
     "de_article": "das",
-    "lv": "Skipping rope",
+    "lv": "Skipping • Rope skipping",
     "level": "A2"
   },
   {
@@ -52479,7 +52479,7 @@ const A2_WORDS = [
   },
   {
     "de": "servieren",
-    "lv": "Serve • Serve",
+    "lv": "Serve",
     "level": "A2"
   },
   {
@@ -53617,12 +53617,12 @@ const A2_WORDS = [
   },
   {
     "de": "sobald",
-    "lv": "As soon as • As soon as",
+    "lv": "As soon as",
     "level": "A2",
     "study": {
       "id": "a2-sobald",
       "layout": "standardStudy",
-      "translation": "As soon as • As soon as",
+      "translation": "As soon as",
       "explanation": "As soon as or as soon as. It introduces an auxiliary clause and in German the verb in this auxiliary clause usually comes at the end. as soon as shows that one action happens immediately after another. It is not the same as wenn, because wenn can mean 'when' or 'if'. English often sounds naturally as \"as soon as\".",
       "examples": [
         {
@@ -54037,7 +54037,7 @@ const A2_WORDS = [
     "de": "Sohle",
     "de_article": "die",
     "de_plural": "die Sohlen",
-    "lv": "Sole • Psole",
+    "lv": "Sole",
     "level": "A2"
   },
   {
@@ -54492,7 +54492,7 @@ const A2_WORDS = [
   },
   {
     "de": "sortieren",
-    "lv": "Sorting",
+    "lv": "Sort",
     "level": "A2"
   },
   {
@@ -54516,7 +54516,7 @@ const A2_WORDS = [
   },
   {
     "de": "spannend",
-    "lv": "Disturbing",
+    "lv": "Exciting • Thrilling",
     "level": "A2"
   },
   {
@@ -54575,7 +54575,7 @@ const A2_WORDS = [
     "de": "Spiegelei",
     "de_article": "das",
     "de_plural": "die Spiegeleier",
-    "lv": "Bull's eye",
+    "lv": "Fried egg",
     "level": "A2"
   },
   {
@@ -57088,7 +57088,7 @@ const A2_WORDS = [
     "de": "Tankstelle",
     "de_article": "die",
     "de_plural": "die Tankstellen",
-    "lv": "Gas tank",
+    "lv": "Petrol station",
     "level": "A2"
   },
   {
@@ -57102,7 +57102,7 @@ const A2_WORDS = [
     "de": "Tannenbaum",
     "de_article": "der",
     "de_plural": "die Tannenbäume",
-    "lv": "Christmas tree • Christmas tree",
+    "lv": "Christmas tree",
     "level": "A2"
   },
   {
@@ -57135,7 +57135,7 @@ const A2_WORDS = [
   },
   {
     "de": "tauschen",
-    "lv": "To change",
+    "lv": "Exchange • Swap",
     "level": "A2"
   },
   {
@@ -57163,7 +57163,7 @@ const A2_WORDS = [
     "de": "Teekanne",
     "de_article": "die",
     "de_plural": "die Teekannen",
-    "lv": "Kettle",
+    "lv": "Teapot",
     "level": "A2"
   },
   {
@@ -57661,12 +57661,12 @@ const A2_WORDS = [
     "de": "Termin",
     "de_article": "der",
     "de_plural": "die Termine",
-    "lv": "Agreed appointment • Term",
+    "lv": "Appointment • Deadline",
     "level": "A2",
     "study": {
       "id": "a2-termin",
       "layout": "standardStudy",
-      "translation": "Agreed appointment • Term",
+      "translation": "Appointment • Deadline",
       "explanation": "Main idea: der Termin is an agreed time at the doctor, in an institution, at work or a specific deadline. In everyday life, this often means an appointment or meeting at a certain time. With documents and deeds, Termin can mean deadline. It is not the same as das Treffen, because Treffen is the meeting itself, but Termin is the agreed time.",
       "examples": [
         {
@@ -59324,7 +59324,7 @@ const A2_WORDS = [
     "de": "Trommel",
     "de_article": "die",
     "de_plural": "die Trommeln",
-    "lv": "Drums",
+    "lv": "Drum",
     "level": "A2"
   },
   {
@@ -59371,7 +59371,7 @@ const A2_WORDS = [
     "de": "Tüte",
     "de_article": "die",
     "de_plural": "die Tüten",
-    "lv": "Tuta",
+    "lv": "Bag",
     "level": "A2"
   },
   {
@@ -59762,12 +59762,12 @@ const A2_WORDS = [
     "de": "Übung",
     "de_article": "die",
     "de_plural": "die Übungen",
-    "lv": "Exercise • Practise",
+    "lv": "Exercise • Practice",
     "level": "A2",
     "study": {
       "id": "a2-übung",
       "layout": "standardStudy",
-      "translation": "Exercise • Practise",
+      "translation": "Exercise • Practice",
       "explanation": "Main idea: die Übung means exercise or practical training. In school and language learning, it is usually a specific exercise. The meaning of the phrase Übung macht den Meister is practise or regular practise. The action is üben = to practise.",
       "examples": [
         {
@@ -60115,12 +60115,12 @@ const A2_WORDS = [
   },
   {
     "de": "umsonst",
-    "lv": "In vain • In vain",
+    "lv": "In vain",
     "level": "A2",
     "study": {
       "id": "a2-umsonst",
       "layout": "standardStudy",
-      "translation": "In vain • In vain",
+      "translation": "In vain",
       "explanation": "Umsonst is a very important word with two different meanings. It can mean for nothing or free of charge. It can also mean in vain or without result. The context shows whether it is a price or a result. kostenlos is a clearer word for free. vergeblich is a clearer word meaning vain.",
       "examples": [
         {
@@ -60484,7 +60484,7 @@ const A2_WORDS = [
   },
   {
     "de": "umsteigen",
-    "lv": "To change seat",
+    "lv": "Change (transport)",
     "level": "A2"
   },
   {
@@ -60570,19 +60570,19 @@ const A2_WORDS = [
   },
   {
     "de": "unterwegs",
-    "lv": "On the way • On the way",
+    "lv": "On the way",
     "level": "A2"
   },
   {
     "de": "Urlaub",
     "de_article": "der",
     "de_plural": "die Urlaube",
-    "lv": "Vacation",
+    "lv": "Holiday",
     "level": "A2",
     "study": {
       "id": "a2-urlaub-study",
       "layout": "standardStudy",
-      "translation": "Vacation",
+      "translation": "Holiday",
       "explanation": [
         "Main idea: singular only. Leave from work - always singular.",
         "Der Urlaub basically means: time off from work.",
@@ -61106,7 +61106,7 @@ const A2_WORDS = [
   },
   {
     "de": "verbringen",
-    "lv": "Accompany",
+    "lv": "Spend (time)",
     "level": "A2"
   },
   {
@@ -62110,12 +62110,12 @@ const A2_WORDS = [
     "de": "Vollkornbrot",
     "de_article": "das",
     "de_plural": "die Vollkornbrote",
-    "lv": "Whole wheat bread",
+    "lv": "Wholemeal bread",
     "level": "A2"
   },
   {
     "de": "vorbei",
-    "lv": "Miss",
+    "lv": "Past • Over",
     "level": "A2"
   },
   {
@@ -62132,12 +62132,12 @@ const A2_WORDS = [
     "de": "Vorhang",
     "de_article": "der",
     "de_plural": "die Vorhänge",
-    "lv": "Curtain • Curtain",
+    "lv": "Curtain",
     "level": "A2"
   },
   {
     "de": "vorlesen",
-    "lv": "Read ahead",
+    "lv": "Read aloud",
     "level": "A2"
   },
   {
@@ -64910,7 +64910,7 @@ const A2_WORDS = [
     "de": "Weste",
     "de_article": "die",
     "de_plural": "die Westen",
-    "lv": "Vest",
+    "lv": "Waistcoat",
     "level": "A2"
   },
   {
@@ -65305,7 +65305,7 @@ const A2_WORDS = [
   {
     "de": "Wild",
     "de_article": "das",
-    "lv": "Hunting",
+    "lv": "Game",
     "level": "A2"
   },
   {
@@ -65326,7 +65326,7 @@ const A2_WORDS = [
   },
   {
     "de": "winken",
-    "lv": "Nod",
+    "lv": "Wave",
     "level": "A2"
   },
   {
@@ -65801,7 +65801,7 @@ const A2_WORDS = [
     "de": "Zopf",
     "de_article": "der",
     "de_plural": "die Zöpfe",
-    "lv": "Braid",
+    "lv": "Plait",
     "level": "A2"
   },
   {
@@ -68031,12 +68031,12 @@ const A2_WORDS = [
   },
   {
     "de": "nur",
-    "lv": "Only • Only",
+    "lv": "Only",
     "level": "A2",
     "study": {
       "id": "a2-nur",
       "layout": "standardStudy",
-      "translation": "Only • Only",
+      "translation": "Only",
       "explanation": [
         "Main idea: Limits quantity, number of people, choice, or options.",
         "Nur primarily means: limited quantity or choice.",
@@ -68190,12 +68190,12 @@ const A2_WORDS = [
   },
   {
     "de": "über",
-    "lv": "Over • Over • For",
+    "lv": "Above • Over • About",
     "level": "A2",
     "study": {
       "id": "a2-ueber",
       "layout": "standardStudy",
-      "translation": "Over • Over • For",
+      "translation": "Above • Over • About",
       "explanation": [
         "Main idea: Can be above something, across something, or about a topic.",
         "Über primarily means: above something.",
