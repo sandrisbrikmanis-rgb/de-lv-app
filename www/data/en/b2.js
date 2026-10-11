@@ -7854,11 +7854,7 @@ const B2_WORDS = [
                 "Hochwasser"
               ]
             },
-            "lv": {
-              "purple": [
-                "high water level"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -14490,7 +14486,7 @@ const B2_WORDS = [
         {
           "word": "zuwider (+ Dat.)",
           "meaning": "Against • Contrary",
-          "example": "mir zuwider = pret manu gribu"
+          "example": "mir zuwider – against my will"
         },
         {
           "word": "jemandem zuwider sein",
@@ -14500,12 +14496,12 @@ const B2_WORDS = [
         {
           "word": "wider",
           "meaning": "Against (preposition)",
-          "example": "wider den Willen = pret gribu"
+          "example": "wider den Willen – against one's will"
         },
         {
           "word": "widersprechen",
           "meaning": "Oppose • Disagree",
-          "example": "Ich widerspreche. = Es iebilstu."
+          "example": "Ich widerspreche. – I object."
         }
       ],
       "tip": {
@@ -14764,11 +14760,7 @@ const B2_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "biete"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "offers"
@@ -14776,12 +14768,7 @@ const B2_WORDS = [
             }
           },
           {
-            "de": {
-              "blue": [
-                "bieten",
-                "bieten"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "Can"
@@ -14789,11 +14776,7 @@ const B2_WORDS = [
             }
           },
           {
-            "de": {
-              "blue": [
-                "biete"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "offers"
@@ -14801,11 +14784,7 @@ const B2_WORDS = [
             }
           },
           {
-            "de": {
-              "blue": [
-                "biete"
-              ]
-            },
+            "de": {},
             "lv": {}
           },
           {
@@ -14877,7 +14856,7 @@ const B2_WORDS = [
         {
           "word": "vorschlagen",
           "meaning": "Propose",
-          "example": "Ich schlage vor. = Es ierosinu."
+          "example": "Ich schlage vor. – I suggest it."
         }
       ],
       "tip": {
@@ -14995,11 +14974,7 @@ const B2_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "forde"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "She"
@@ -15020,11 +14995,7 @@ const B2_WORDS = [
             }
           },
           {
-            "de": {
-              "blue": [
-                "forde"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "She"
@@ -15130,11 +15101,7 @@ const B2_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "förde"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "Sport"
@@ -15142,11 +15109,7 @@ const B2_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "förde"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "Sport"
@@ -15162,11 +15125,7 @@ const B2_WORDS = [
             "lv": {}
           },
           {
-            "de": {
-              "green": [
-                "förde"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "The"
