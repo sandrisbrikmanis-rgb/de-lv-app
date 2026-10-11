@@ -1,0 +1,28 @@
+{
+  "batch_id": "LRB-087",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-13T14:01:00.000Z",
+  "linguisticVerdict": "LRB_087_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "antiBulkPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "ru": 28,
+    "sk": 22
+  },
+  "unique_target_cards": 45,
+  "full_study_cards": 39,
+  "overridesSha256": "7be5aadedcf9a54c1e8b9eb05fe532c459e2f58da4248f601165760935b3a25a",
+  "scope": "sagen..zumachen (28 RU) + ab..einmal (22 SK) — full-card COPY-PASTE remonts",
+  "productionSource": "data/ru/a1.js + data/sk/a1.js (read-only review)",
+  "lunaAuditScript": "scripts/temp-audit-lrb087-luna.js",
+  "lunaModel": "gpt-5.6-luna",
+  "lunaTokens": 30779,
+  "note": "OWNER copy/paste full-card remonts applied. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged."
+}
