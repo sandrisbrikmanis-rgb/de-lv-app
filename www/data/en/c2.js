@@ -142,7 +142,7 @@ const C2_WORDS = [
     "de": "Benzinverbrauch",
     "de_article": "der",
     "de_plural": "die Benzinverbräuche",
-    "lv": "Gasoline consumption",
+    "lv": "Petrol consumption",
     "level": "C2"
   },
   {
@@ -460,7 +460,7 @@ const C2_WORDS = [
     "de": "Straßenüberführung",
     "de_article": "die",
     "de_plural": "die Straßenüberführungen",
-    "lv": "Road overpass",
+    "lv": "Flyover • Road overpass",
     "level": "C2"
   },
   {
@@ -515,7 +515,7 @@ const C2_WORDS = [
     "de": "Windschutzscheibe",
     "de_article": "die",
     "de_plural": "die Windschutzscheiben",
-    "lv": "Car windshield",
+    "lv": "Car windscreen",
     "level": "C2"
   },
   {
@@ -912,7 +912,7 @@ const C2_WORDS = [
     "de": "Gelegenheitsarbeiter",
     "de_article": "der",
     "de_plural": "die Gelegenheitsarbeiter",
-    "lv": "Casual laborer",
+    "lv": "Casual labourer",
     "level": "C2"
   },
   {
@@ -1371,7 +1371,7 @@ const C2_WORDS = [
     "de": "Vaterschaftsklage",
     "de_article": "die",
     "de_plural": "die Vaterschaftsklagen",
-    "lv": "A lawsuit to establish paternity",
+    "lv": "Paternity suit",
     "level": "C2"
   },
   {
@@ -1451,7 +1451,7 @@ const C2_WORDS = [
     "de": "Karre",
     "de_article": "die",
     "de_plural": "die Karren",
-    "lv": "Cart",
+    "lv": "Wheelbarrow • Cart",
     "level": "C2"
   },
   {
