@@ -2724,8 +2724,191 @@ const A2_WORDS = [
   },
   {
     "de": "ändern",
-    "lv": "mainīt • izmainīt",
-    "level": "A2"
+    "lv": "mainīt • pārgrozīt • pārtaisīt • mainīties • pārmainīties • pārgrozīties",
+    "level": "A2",
+    "study": {
+      "id": "a2--ndern",
+      "layout": "standardStudy",
+      "translation": "mainīt • pārgrozīt • pārtaisīt • mainīties • pārmainīties • pārgrozīties",
+      "explanation": "Galvenā doma: ändern nozīmē mainīt; ar sich tas nozīmē mainīties. Bez sich ändern ir mainīt, pārgrozīt vai pārtaisīt kaut ko. Ar sich lietotas formas: sich ändern = mainīties, pārmainīties.",
+      "examples": [
+        {
+          "de": "Ich ändere den Plan.",
+          "lv": "Es mainu plānu."
+        },
+        {
+          "de": "Wir ändern die Regeln.",
+          "lv": "Mēs pārgrozām noteikumus."
+        },
+        {
+          "de": "Die Schneiderin ändert das Kleid.",
+          "lv": "Šuvēja pārtaisa kleitu."
+        },
+        {
+          "de": "Das Wetter ändert sich.",
+          "lv": "Laikapstākļi mainās."
+        },
+        {
+          "de": "Seine Einstellung hat sich geändert.",
+          "lv": "Viņa attieksme ir pārmainījusies."
+        },
+        {
+          "de": "Die Umstände haben sich geändert.",
+          "lv": "Apstākļi ir pārgrozījušies."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ändern",
+          "meaning": "mainīt, pārgrozīt, pārtaisīt",
+          "example": "Ich ändere den Plan. = Es mainu plānu."
+        },
+        {
+          "word": "wechseln",
+          "meaning": "nomainīt",
+          "example": "Ich wechsle die Schuhe. = Es nomainu apavus."
+        }
+      ],
+      "tip": "Ja kaut kas maina sevi pats, pievieno sich.",
+      "important": "Ändern nav tas pats, kas wechseln (nomainīt pret citu).",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ändern"
+          ],
+          "purple": [
+            "mainīt",
+            "pārgrozīt",
+            "pārtaisīt",
+            "mainīties",
+            "pārmainīties"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ändere"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mainu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ändern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārgrozām"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ändert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārtaisa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ändert sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mainās"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hat sich geändert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārmainījusies"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "haben sich geändert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pārgrozījušies"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ändern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mainīt",
+                "pārgrozīt",
+                "pārtaisīt"
+              ]
+            },
+            "example": {
+              "blue": [
+                "ändere"
+              ],
+              "purple": [
+                "mainu"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wechseln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nomainīt"
+              ]
+            },
+            "example": {
+              "red": [
+                "wechsle"
+              ]
+            }
+          }
+        ],
+        "tip": {},
+        "important": {
+          "blue": [
+            "ändern"
+          ],
+          "red": [
+            "wechseln"
+          ]
+        }
+      }}
   },
   {
     "de": "Änderung",
@@ -33655,7 +33838,160 @@ const A2_WORDS = [
     "de_article": "das",
     "de_plural": "die Gase",
     "lv": "gāze",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-gas",
+      "layout": "standardStudy",
+      "translation": "gāze",
+      "explanation": "Galvenā doma: Gas ir gāze. Daudzos salikteņos Gas norāda uz gāzi. Gas ir pamata vārds, un salikteņos tas parāda, ka lieta saistīta ar gāzi: Gashahn, Gasgeruch, Gasfeuerzeug, Gasableser.",
+      "examples": [
+        {
+          "de": "Der Gasableser kommt heute.",
+          "lv": "Gāzes skaitītāja rādījumu nolasītājs nāks šodien."
+        },
+        {
+          "de": "Das Gasfeuerzeug ist leer.",
+          "lv": "Gāzes šķiltavās beigusies gāze."
+        },
+        {
+          "de": "Ich bemerke Gasgeruch.",
+          "lv": "Es sajūtu gāzes smaku."
+        },
+        {
+          "de": "Der Gashahn ist geschlossen.",
+          "lv": "Gāzes krāns ir aizvērts."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Gas",
+          "meaning": "gāze",
+          "example": "Der Gasableser kommt heute. = Gāzes skaitītāja rādījumu nolasītājs nāks šodien."
+        },
+        {
+          "word": "Benzin",
+          "meaning": "benzīns",
+          "example": "Das Auto braucht Benzin. = Automašīnai vajag benzīnu."
+        }
+      ],
+      "tip": "Redzot Gas salikteņa sākumā, tulko gāzes un pievieno otro daļu.",
+      "important": "Gas ir gāze, nevis benzīns. Benzīns ir Benzin.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Gas",
+            "Gasableser",
+            "Gasfeuerzeug",
+            "Gasgeruch",
+            "Gashahn"
+          ],
+          "purple": [
+            "gāze"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gasableser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Gāzes skaitītāja rādījumu nolasītājs"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gasfeuerzeug"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Gāzes šķiltavās"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gasgeruch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gāzes smaku"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gashahn"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Gāzes krāns"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Gas"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gāze"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Gasableser"
+              ],
+              "purple": [
+                "Gāzes skaitītāja rādījumu nolasītājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Benzin"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "benzīns"
+              ]
+            },
+            "example": {
+              "red": [
+                "Benzin"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "Gas"
+          ]
+        },
+        "important": {
+          "blue": [
+            "Gas"
+          ],
+          "red": [
+            "Benzin"
+          ]
+        }
+      }}
   },
   {
     "de": "Gasse",
@@ -38739,7 +39075,153 @@ const A2_WORDS = [
     "de_article": "das",
     "de_plural": "die Kaffeehäuser",
     "lv": "kafejnīca",
-    "level": "A2"
+    "level": "A2",
+    "study": {
+      "id": "a2-kaffeehaus",
+      "layout": "standardStudy",
+      "translation": "kafejnīca",
+      "explanation": "Galvenā doma: Kaffeehaus ir kafejnīca, un Kaffee salikteņos norāda uz kafiju. Kaffeehaus ir vieta, kur dzer kafiju. Salikteņos Kaffee rāda, ka lieta saistīta ar kafiju: Kaffeekanne, Kaffeemaschine, Kaffeepulver, Kaffeesatz.",
+      "examples": [
+        {
+          "de": "Die Kaffeekanne ist voll.",
+          "lv": "Kafijas kanna ir pilna."
+        },
+        {
+          "de": "Die Kaffeemaschine ist kaputt.",
+          "lv": "Kafijas automāts ir salūzis."
+        },
+        {
+          "de": "Ich kaufe Kaffeepulver.",
+          "lv": "Es pērku maltu kafiju."
+        },
+        {
+          "de": "In der Tasse ist Kaffeesatz.",
+          "lv": "Krūzē ir kafijas biezumi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Kaffeehaus",
+          "meaning": "kafejnīca",
+          "example": "Die Kaffeekanne ist voll. = Kafijas kanna ir pilna."
+        },
+        {
+          "word": "Café",
+          "meaning": "kafejnīca",
+          "example": "Wir treffen uns im Café. = Mēs tiekamies kafejnīcā."
+        }
+      ],
+      "tip": "Redzot Kaffee salikteņa sākumā, tulko kafijas un pievieno otro daļu.",
+      "important": "Kaffeehaus ir kafejnīca; tas nav kafijas automāts.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Kaffeehaus",
+            "Kaffeekanne",
+            "Kaffeemaschine",
+            "Kaffeepulver",
+            "Kaffeesatz"
+          ],
+          "purple": [
+            "kafejnīca"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Kaffeekanne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kafijas kanna"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Kaffeemaschine"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Kafijas automāts"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Kaffeepulver"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "maltu kafiju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Kaffeesatz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kafijas biezumi"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Kaffeehaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kafejnīca"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Kaffeekanne"
+              ],
+              "purple": [
+                "Kafijas kanna"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Café"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kafejnīca"
+              ]
+            },
+            "example": {
+              "red": [
+                "Café"
+              ]
+            }
+          }
+        ],
+        "tip": {},
+        "important": {
+          "blue": [
+            "Kaffeehaus"
+          ]
+        }
+      }}
   },
   {
     "de": "Kaffeekanne",
@@ -38759,7 +39241,7 @@ const A2_WORDS = [
     "de": "Kaffeepulver",
     "de_article": "das",
     "de_plural": "die Kaffeepulver",
-    "lv": "šķīstošā kafija",
+    "lv": "maltā kafija",
     "level": "A2"
   },
   {
@@ -46171,7 +46653,7 @@ const A2_WORDS = [
     "de": "Nationalität",
     "de_article": "die",
     "de_plural": "die Nationalitäten",
-    "lv": "tautība",
+    "lv": "tautība • nacionalitāte",
     "level": "A2"
   },
   {
@@ -68559,7 +69041,7 @@ const A2_WORDS = [
   },
   {
     "de": "zuletzt",
-    "lv": "beidzot",
+    "lv": "beidzot • pēdējoreiz",
     "level": "A2"
   },
   {

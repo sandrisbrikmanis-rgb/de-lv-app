@@ -11753,6 +11753,14 @@ const B1_WORDS = [
         {
           "de": "Bitte füllen Sie den Bogen aus.",
           "lv": "lūdzu, aizpildiet veidlapu."
+        },
+        {
+          "de": "Der Fluss macht einen Bogen.",
+          "lv": "upe met līkumu."
+        },
+        {
+          "de": "Ich brauche einen Bogen Papier.",
+          "lv": "man vajag vienu papīra loksni."
         }
       ],
       "comparison": [
@@ -11825,6 +11833,30 @@ const B1_WORDS = [
                 "veidlapu"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bogen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "līkumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bogen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "loksni"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -11887,8 +11919,7 @@ const B1_WORDS = [
           ]
         }
       }
-    }
-  },
+    }},
   {
     "de": "Bohnenkaffee",
     "de_article": "der",
@@ -15108,8 +15139,133 @@ const B1_WORDS = [
   },
   {
     "de": "dritt",
-    "lv": "treškārt",
-    "level": "B1"
+    "lv": "trešais • trijatā",
+    "level": "B1",
+    "study": {
+      "id": "b1-dritt",
+      "layout": "standardStudy",
+      "translation": "trešais • trijatā",
+      "explanation": "Galvenā doma: dritt nozīmē trešais; zu dritt nozīmē trijatā. Dritt lieto kā kārtas skaitli (die dritte Tür) un frāzē zu dritt (trijatā).",
+      "examples": [
+        {
+          "de": "Das ist die dritte Tür.",
+          "lv": "Šīs ir trešās durvis."
+        },
+        {
+          "de": "Wir gehen zu dritt ins Kino.",
+          "lv": "Mēs ejam uz kino trijatā."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "dritt",
+          "meaning": "trešais, trijatā",
+          "example": "Das ist die dritte Tür. = Šīs ir trešās durvis."
+        },
+        {
+          "word": "drittens",
+          "meaning": "treškārt",
+          "example": "Drittens ist es zu teuer. = Treškārt, tas ir pārāk dārgi."
+        }
+      ],
+      "tip": "Ja ir zu dritt, tulko trijatā.",
+      "important": "Dritt nenozīmē treškārt. Treškārt ir drittens.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dritt",
+            "dritte",
+            "zu dritt"
+          ],
+          "purple": [
+            "trešais",
+            "trijatā"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dritte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "trešās"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu dritt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "trijatā"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "dritt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "trešais",
+                "trijatā"
+              ]
+            },
+            "example": {
+              "blue": [
+                "dritte"
+              ],
+              "purple": [
+                "trešās"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "drittens"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "treškārt"
+              ]
+            },
+            "example": {
+              "red": [
+                "Drittens"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "dritt",
+            "zu dritt"
+          ],
+          "purple": [
+            "trijatā"
+          ]
+        },
+        "important": {
+          "blue": [
+            "dritt"
+          ],
+          "red": [
+            "drittens"
+          ]
+        }
+      }}
   },
   {
     "de": "drittens",
@@ -28351,6 +28507,14 @@ const B1_WORDS = [
         {
           "de": "Ich bin mir gewiss, dass es klappt.",
           "lv": "es esmu pārliecināts, ka tas izdosies."
+        },
+        {
+          "de": "Ein gewisser Betrag.",
+          "lv": "noteikta summa."
+        },
+        {
+          "de": "In gewisser Hinsicht hast du recht.",
+          "lv": "zināmā ziņā tev ir taisnība."
         }
       ],
       "comparison": [
@@ -28429,6 +28593,30 @@ const B1_WORDS = [
                 "pārliecināts"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "gewisser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "noteikta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gewisser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "zināmā ziņā"
+              ]
+            }
           }
         ],
         "explanation": {
@@ -28501,8 +28689,7 @@ const B1_WORDS = [
           ]
         }
       }
-    }
-  },
+    }},
   {
     "de": "Gewissen",
     "de_article": "das",
@@ -36441,7 +36628,7 @@ const B1_WORDS = [
     "de": "Kollegbuch",
     "de_article": "das",
     "de_plural": "die Kollegbuche",
-    "lv": "studenta atzīmju grāmatiņa",
+    "lv": "lekciju pierakstu klade",
     "level": "B1"
   },
   {
@@ -45227,7 +45414,7 @@ const B1_WORDS = [
     "de": "Pendelbus",
     "de_article": "der",
     "de_plural": "die Pendelbuse",
-    "lv": "piepilsētas autobuss",
+    "lv": "šatlbuss • pārvadājumu autobuss",
     "level": "B1"
   },
   {
@@ -47223,6 +47410,18 @@ const B1_WORDS = [
         {
           "de": "Bitte räum dein Zimmer auf.",
           "lv": "lūdzu, sakārto savu istabu."
+        },
+        {
+          "de": "Wir räumen den Tisch.",
+          "lv": "mēs novācam galdu."
+        },
+        {
+          "de": "Wir räumen den Schnee von der Straße.",
+          "lv": "mēs aizvācam sniegu no ielas."
+        },
+        {
+          "de": "Die Soldaten räumen das Gebiet.",
+          "lv": "karavīri atstāj teritoriju."
         }
       ],
       "comparison": [
@@ -47277,6 +47476,42 @@ const B1_WORDS = [
             "lv": {
               "red": "sakārto"
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "räumen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "novācam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "räumen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aizvācam"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "räumen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "atstāj"
+              ]
+            }
           }
         ],
         "comparison": [
@@ -47326,8 +47561,7 @@ const B1_WORDS = [
           "red": "aufräumen"
         }
       }
-    }
-  },
+    }},
   {
     "de": "Raumschiff",
     "de_article": "das",
@@ -47548,12 +47782,12 @@ const B1_WORDS = [
   },
   {
     "de": "regeln",
-    "lv": "kārtot",
+    "lv": "kārtot • regulēt",
     "level": "B1",
     "study": {
       "id": "b1-regeln",
       "layout": "standardStudy",
-      "translation": "kārtot",
+      "translation": "kārtot • regulēt",
       "explanation": "Galvenā doma: regeln nozīmē nokārtot jautājumu vai sakārtot procesu. Tehniski tas var nozīmēt arī regulēt.",
       "examples": [
         {
@@ -51728,7 +51962,7 @@ const B1_WORDS = [
   },
   {
     "de": "schütten",
-    "lv": "[sa]bērt",
+    "lv": "[sa]bērt • liet",
     "level": "B1"
   },
   {
@@ -52168,8 +52402,147 @@ const B1_WORDS = [
   },
   {
     "de": "schwindeln",
-    "lv": "reibt",
-    "level": "B1"
+    "lv": "reibt • krāpšana • blēdība",
+    "level": "B1",
+    "study": {
+      "id": "b1-schwindeln",
+      "layout": "standardStudy",
+      "translation": "reibt • krāpšana • blēdība",
+      "explanation": "Galvenā doma: schwindeln nozīmi parāda teikums: reibt galva vai krāpšanās. Ar mir kā papildinājumu Mir schwindelt nozīmē man reibst galva. Ja teikumā ir cilvēks, kas blēdās vai krāpjas, schwindeln nozīmē krāpšanu vai blēdību.",
+      "examples": [
+        {
+          "de": "Mir schwindelt.",
+          "lv": "Man reibst galva."
+        },
+        {
+          "de": "Er schwindelt beim Kartenspiel.",
+          "lv": "Viņš blēdās kāršu spēlē."
+        },
+        {
+          "de": "Sie schwindelt bei der Steuererklärung.",
+          "lv": "Viņa krāpjas nodokļu deklarācijā."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schwindeln",
+          "meaning": "reibt, krāpšana, blēdība",
+          "example": "Mir schwindelt. = Man reibst galva."
+        },
+        {
+          "word": "lügen",
+          "meaning": "melot",
+          "example": "Er lügt immer. = Viņš vienmēr melo."
+        }
+      ],
+      "tip": "Ja teikumā ir Mir/Mich un nav spēles vai dokumentu, domā par reibst.",
+      "important": "Schwindeln nenozīmē melot. Melot ir lügen.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "schwindeln",
+            "schwindelt"
+          ],
+          "purple": [
+            "reibt",
+            "reibst",
+            "blēdās",
+            "krāpjas"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schwindelt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "reibst"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwindelt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "blēdās"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwindelt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "krāpjas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schwindeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "reibt",
+                "krāpšana",
+                "blēdība"
+              ]
+            },
+            "example": {
+              "blue": [
+                "schwindelt"
+              ],
+              "purple": [
+                "reibst"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "lügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "melot"
+              ]
+            },
+            "example": {
+              "red": [
+                "lügt"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "purple": [
+            "reibst"
+          ]
+        },
+        "important": {
+          "blue": [
+            "schwindeln"
+          ],
+          "red": [
+            "lügen"
+          ]
+        }
+      }}
   },
   {
     "de": "schwingen",
@@ -61382,11 +61755,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verlaufen",
-    "lv": "norisināties",
-    "level": "B1"
-  },
-  {
     "de": "verlegen",
     "lv": "pārcelt",
     "level": "B1",
@@ -66391,17 +66759,17 @@ const B1_WORDS = [
   },
   {
     "de": "da",
-    "lv": "jo • par cik",
+    "lv": "jo • tā kā",
     "level": "B1",
     "study": {
       "id": "b1-da",
       "layout": "standardStudy",
-      "translation": "jo • par cik",
+      "translation": "jo • tā kā",
       "explanation": [
         "Galvenā doma: Iemesla saiklis, kad iemesls jau ir zināms vai minēts. Pēc da darbības vārds ir teikuma beigās.",
         "da galvenokārt nozīmē: paskaidro zināmu iemeslu.",
         "Bieži raksturo: iemesls jau minēts.",
-        "da kā saikne nozīmē jo/par cik, kad iemesls jau ir zināms vai minēts iepriekš.",
+        "da kā saikne nozīmē jo/tā kā, kad iemesls jau ir zināms vai minēts iepriekš.",
         "Abi prasa darbības vārdu teikuma beigās."
       ],
       "examples": [
@@ -66443,7 +66811,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "jo",
-            "par cik"
+            "tā kā"
           ],
           "blue": [
             "da"

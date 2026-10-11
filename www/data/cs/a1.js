@@ -272,12 +272,12 @@ const A1_WORDS = [
   },
   {
     "de": "an",
-    "lv": "Na • Na povrchu • Na okraji",
+    "lv": "U",
     "level": "A1",
     "study": {
       "id": "a1-an",
       "layout": "standardStudy",
-      "translation": "Na • Na povrchu • Na okraji",
+      "translation": "U",
       "explanation": "Používá se, když je něco u stěny, okna, dveří, řeky, mořského pobřeží nebo jiné hrany či plochy.",
       "examples": [
         {
@@ -1481,12 +1481,12 @@ const A1_WORDS = [
   },
   {
     "de": "aus",
-    "lv": "Z • Zevnitř",
+    "lv": "Z",
     "level": "A1",
     "study": {
       "id": "a1-aus",
       "layout": "standardStudy",
-      "translation": "Z • Zevnitř",
+      "translation": "Z",
       "explanation": "Používá se, když něco přichází zevnitř, vychází nebo naznačuje původ.",
       "examples": [
         {
@@ -2356,7 +2356,7 @@ const A1_WORDS = [
   },
   {
     "de": "bei",
-    "lv": "Na",
+    "lv": "U",
     "level": "A1",
     "study": {
       "id": "a1-bei",
@@ -3755,12 +3755,12 @@ const A1_WORDS = [
   },
   {
     "de": "bringen",
-    "lv": "Přinést • Odnést",
+    "lv": "Přinést",
     "level": "A1",
     "study": {
       "id": "a1-bringen",
       "layout": "standardStudy",
-      "translation": "Přinést • Odnést",
+      "translation": "Přinést",
       "explanation": [
         "Hlavní myšlenka: bringen znamená přinést, odnést, odvést nebo doručit.",
         "Používá se, když se něco přesouvá na jiné místo nebo k jiné osobě.",
@@ -5662,12 +5662,12 @@ const A1_WORDS = [
   },
   {
     "de": "erst",
-    "lv": "Nejprve • Až / teprve",
+    "lv": "Teprve • Nejprve",
     "level": "A1",
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "Nejprve • Až / teprve",
+      "translation": "Teprve • Nejprve",
       "explanation": [
         "Hlavní myšlenka: erst nejčastěji znamená pouze. Avšak v určitém kontextu to může znamenat také nejdříve.",
         "erst často ukazuje, že se něco děje později, než se očekávalo.",
@@ -5874,12 +5874,12 @@ const A1_WORDS = [
   },
   {
     "de": "es",
-    "lv": "To • Ono • Neosobní podoba",
+    "lv": "To",
     "level": "A1",
     "study": {
       "id": "a1-es",
       "layout": "standardStudy",
-      "translation": "To • Ono • Neosobní podoba",
+      "translation": "To",
       "explanation": [
         "Hlavní myšlenka: es je německé zájmeno.",
         "Může znamenat „to“ nebo „ono“ a používá se také v neosobních větách."
@@ -6806,12 +6806,12 @@ const A1_WORDS = [
   },
   {
     "de": "finden",
-    "lv": "Najít • Myslet si",
+    "lv": "Najít • Považovat • Myslet si",
     "level": "A1",
     "study": {
       "id": "a1-finden",
       "layout": "standardStudy",
-      "translation": "Najít • Myslet si",
+      "translation": "Najít • Považovat • Myslet si",
       "explanation": [
         "Hlavní myšlenka: najít nejčastěji znamená najít.",
         "V konverzaci finden velmi často také znamená mít na něco názor nebo si něco myslet.",
@@ -14965,12 +14965,12 @@ const A1_WORDS = [
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Případ • Opakování",
+    "lv": "Krát",
     "level": "A1",
     "study": {
       "id": "a1-mal",
       "layout": "standardStudy",
-      "translation": "Případ • Opakování",
+      "translation": "Krát",
       "explanation": [
         "Hlavní myšlenka: das Mal označuje jeden případ nebo jedno opakování.",
         "Často se používá s čísly: ein Mal, zwei Mal, drei Mal.",
@@ -22112,12 +22112,12 @@ const A1_WORDS = [
   },
   {
     "de": "um",
-    "lv": "Kolem • V (čas) • Aby",
+    "lv": "Kolem • V (čas)",
     "level": "A1",
     "study": {
       "id": "a1-um",
       "layout": "standardStudy",
-      "translation": "Kolem • V (čas) • Aby",
+      "translation": "Kolem • V (čas)",
       "explanation": [
         "Hlavní myšlenka: um velmi často znamená hodiny s časem nebo kolem/kolem s místem.",
         "S přesným časem um znamená „v“, například „v osm hodin“.",
@@ -23292,12 +23292,12 @@ const A1_WORDS = [
   },
   {
     "de": "vor",
-    "lv": "Před • Za",
+    "lv": "Před • Před (místo)",
     "level": "A1",
     "study": {
       "id": "a1-vor",
       "layout": "standardStudy",
-      "translation": "Před • Za",
+      "translation": "Před • Před (místo)",
       "explanation": [
         "Hlavní myšlenka: vor znamená dříve v čase nebo před místem.",
         "Pokud jde o čas, vor znamená předtím.",
@@ -24976,12 +24976,12 @@ const A1_WORDS = [
   },
   {
     "de": "zu",
-    "lv": "Do • At",
+    "lv": "Do • K",
     "level": "A1",
     "study": {
       "id": "a1-zu",
       "layout": "standardStudy",
-      "translation": "K • Do • Příliš • Infinitiv",
+      "translation": "Do • K",
       "explanation": [
         "Hlavní myšlenka: zu často znamená k nebo do. Používá se také s infinitivem.",
         "U osob zu často znamená „k“ nebo „ke“. U některých institucí také „do“ nebo „na“.",

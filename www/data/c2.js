@@ -195,9 +195,123 @@ const C2_WORDS = [
           "de": "Gramm und Tonne sind Gewichtseinheiten.",
           "lv": "grams un tonna ir svara mērvienības."
         }
-      ]
-    }
-  },
+      ],
+      "comparison": [
+        {
+          "word": "Gewichtseinheit",
+          "meaning": "svara mērvienība",
+          "example": "Kilogramm ist eine Gewichtseinheit. = kilograms ir svara mērvienība."
+        },
+        {
+          "word": "Maßeinheit",
+          "meaning": "mērvienība",
+          "example": "Meter ist eine Maßeinheit. = Metrs ir mērvienība."
+        }
+      ],
+      "tip": "Gewicht ir svars, Einheit ir vienība.",
+      "important": "Gewichtseinheit ir tikai svara mērvienība; vispārīgi mērvienība ir Maßeinheit.",
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Gewichtseinheit"
+          ],
+          "purple": [
+            "svara",
+            "mērvienību"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "svara",
+                "mērvienība"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "svara",
+                "mērvienību"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "svara",
+                "mērvienības"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Gewichtseinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "svara mērvienība"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Gewichtseinheit"
+              ],
+              "purple": [
+                "svara",
+                "mērvienība"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Maßeinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mērvienība"
+              ]
+            },
+            "example": {
+              "red": [
+                "Maßeinheit"
+              ]
+            }
+          }
+        ],
+        "tip": {},
+        "important": {
+          "blue": [
+            "Gewichtseinheit"
+          ],
+          "red": [
+            "Maßeinheit"
+          ]
+        }
+      }
+    }},
   {
     "de": "Elementarkenntnisse",
     "de_article": "die",
@@ -415,7 +529,7 @@ const C2_WORDS = [
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "ragavu sliece",
+    "lv": "slidas asmens",
     "level": "C2"
   },
   {

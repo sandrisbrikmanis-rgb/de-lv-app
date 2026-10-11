@@ -54655,11 +54655,6 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "sich verlaufen",
-    "lv": "Gerçekleşmek",
-    "level": "B1"
-  },
-  {
     "de": "verlegen",
     "lv": "Taşınmak",
     "level": "B1",
