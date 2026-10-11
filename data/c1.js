@@ -368,7 +368,7 @@ const C1_WORDS = [
       "translation": "vienģimenes māja",
       "explanation": [
         "Galvenā doma: das Einfamilienhaus ir māja, kas paredzēta vienai ģimenei — brīvi stāvoša vai ar kaimiņiem, bet ar vienu dzīvokli un parasti ar savu dārzu.",
-        "Vidējā dzimuma lietvārds: das Einfamilienhaus, daudzskaitlis die Einfamilienhäuser. Sastāv no Ein- + Familie + Haus.",
+        "Vidējās dzimtes lietvārds: das Einfamilienhaus, daudzskaitlis die Einfamilienhäuser. Sastāv no Ein- + Familie + Haus.",
         "Pretstats ir das Mehrfamilienhaus (daudzdzīvokļu māja)."
       ],
       "examples": [
@@ -386,7 +386,7 @@ const C1_WORDS = [
         },
         {
           "de": "In dieser Siedlung stehen nur Einfamilienhäuser.",
-          "lv": "Šajā apbūvē ir tikai vienģimenes mājas."
+          "lv": "Šajā dzīvojamajā rajonā ir tikai vienģimenes mājas."
         }
       ],
       "comparison": [
@@ -407,7 +407,7 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Saliktenis tiek lasīts pa daļām: ein + Familie + Haus.",
+        "Salikteni var saprast pa daļām: ein + Familie + Haus.",
         "Biežs savienojums: ein Einfamilienhaus bauen / kaufen / mieten."
       ],
       "important": [
@@ -416,14 +416,10 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Einfamilienhaus",
-            "die Einfamilienhäuser",
-            "Mehrfamilienhaus"
+            "Einfamilienhaus"
           ],
           "purple": [
-            "vienai ģimenei",
-            "māja",
-            "daudzdzīvokļu"
+            "māja"
           ]
         },
         "examples": [
@@ -435,7 +431,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienģimenes mājā"
+                "vienģimenes"
               ]
             }
           },
@@ -447,7 +443,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Vienģimenes mājai"
+                "Vienģimenes"
               ]
             }
           },
@@ -459,7 +455,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienģimenes māju"
+                "vienģimenes"
               ]
             }
           },
@@ -471,7 +467,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vienģimenes mājas"
+                "vienģimenes"
               ]
             }
           }
@@ -1094,7 +1090,7 @@ const C1_WORDS = [
         },
         {
           "de": "Die Parteien verhandeln über eine Koalition.",
-          "lv": "Partijas vienojas par koalīciju."
+          "lv": "Partijas risina sarunas par koalīciju."
         },
         {
           "de": "Im Streit ergriff er Partei für seinen Bruder.",
@@ -1132,13 +1128,15 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "die Partei",
-            "die Parteien",
-            "Partei ergreifen"
+            "Partei",
+            "Parteien"
           ],
           "purple": [
             "partija",
-            "puse"
+            "puse",
+            "pusē",
+            "partiju",
+            "partijā"
           ]
         },
         "examples": [
@@ -1303,7 +1301,7 @@ const C1_WORDS = [
         },
         {
           "de": "Die Heilung ist ein langsamer Prozess.",
-          "lv": "Dziedināšanās ir lēns process."
+          "lv": "Dzīšana ir lēns process."
         },
         {
           "de": "Sie haben den Prozess gewonnen.",
@@ -1333,23 +1331,21 @@ const C1_WORDS = [
       ],
       "tip": [
         "Ja runa ir par tiesu, bieži sastopami darbības vārdi: einen Prozess führen / gewinnen / verlieren.",
-        "Tehniskā un zinātniskā nozīmē process ir viens: der Prozess der Herstellung."
+        "Process kā norise ir arī tehnisks un zinātnisks termins: der Prozess der Herstellung (ražošanas process)."
       ],
       "important": [
-        "Šajā nozīmē vārds nav vidējā dzimuma: der Prozess (nevis das)."
+        "Šajā nozīmē vārds nav vidējās dzimtes: der Prozess (nevis das Prozess)."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Prozess",
-            "die Prozesse",
             "Prozess",
-            "einen Prozess führen",
-            "kurzen Prozess machen"
+            "Prozesse"
           ],
           "purple": [
             "process",
-            "prāva"
+            "prāva",
+            "Prāvu"
           ]
         },
         "examples": [
@@ -1406,7 +1402,7 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "der Vorgang"
+                "Vorgang"
               ]
             },
             "meaning": {
@@ -1418,19 +1414,19 @@ const C1_WORDS = [
           {
             "word": {
               "green": [
-                "die Verhandlung"
+                "Verhandlung"
               ]
             },
             "meaning": {
               "purple": [
-                "sēde"
+                "tiesas"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "die Klage"
+                "Klage"
               ]
             },
             "meaning": {
@@ -5221,7 +5217,7 @@ const C1_WORDS = [
       "translation": "tāds, kam ir vēlēšanu tiesības",
       "explanation": [
         "Galvenā doma: wahlberechtigt ir īpašības vārds, kas apzīmē cilvēku, kuram ir vēlēšanu tiesības — kurš drīkst piedalīties vēlēšanās un balsot.",
-        "Kā pārējie īpašības vārdi tas var lokās: wahlberechtigte Bürger. No īpašības vārda var izveidot lietvārdu: der/die Wahlberechtigte, die Wahlberechtigten (balsstiesīgais).",
+        "Tāpat kā citi īpašības vārdi, tas tiek lokīts: wahlberechtigte Bürger. No īpašības vārda var izveidot lietvārdu: der/die Wahlberechtigte, die Wahlberechtigten (balsstiesīgais).",
         "Vārds sastāv no die Wahl (vēlēšanas) un berechtigt (tiesīgs)."
       ],
       "examples": [
@@ -5271,8 +5267,7 @@ const C1_WORDS = [
           "blue": [
             "wahlberechtigt",
             "wahlberechtigte",
-            "Wahlberechtigten",
-            "Wahlberechtigte"
+            "Wahlberechtigten"
           ],
           "purple": [
             "vēlēšanu tiesības",
@@ -5338,7 +5333,7 @@ const C1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tiesības"
+                "vēlēšanu"
               ]
             }
           },
@@ -5475,7 +5470,7 @@ const C1_WORDS = [
       "explanation": [
         "Galvenā doma: der Zuschlag ir piemaksa, ko pieskaita pamatsummai: uzcenojums, piemaksa par nakts darbu, par ātro vilcienu vai par papildu pakalpojumu.",
         "Vīriešu dzimtes lietvārds: der Zuschlag, daudzskaitlis die Zuschläge (ar umlautu). Otra svarīga nozīme izsolē vai konkursā: den Zuschlag erhalten — uzvarēt, tikt izvēlētam.",
-        "Bieži ar saliktenēm: Nachtzuschlag, Zugzuschlag, Gefahrenzuschlag."
+        "Bieži veido salikteņus: Nachtzuschlag, Zugzuschlag, Gefahrenzuschlag."
       ],
       "examples": [
         {
@@ -5513,7 +5508,7 @@ const C1_WORDS = [
         }
       ],
       "tip": [
-        "Meklē: Zuschlag bezahlen / erhalten. Pirmais nozīmē maksāt, otrais — izcīnīt konkursā.",
+        "Atceries divus lietojumus: einen Zuschlag bezahlen (maksāt piemaksu) un den Zuschlag erhalten (izsolē vai konkursā tikt izvēlētam).",
         "Pretstats: Zuschlag (pieskaitīts) un Abschlag (atskaitīts)."
       ],
       "important": [
@@ -5522,16 +5517,12 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Zuschlag",
-            "die Zuschläge",
             "Zuschlag",
-            "den Zuschlag erhalten",
-            "Nachtzuschlag"
+            "Zuschläge"
           ],
           "purple": [
             "piemaksa",
-            "uzcenojums",
-            "uzvarēt"
+            "uzcenojums"
           ]
         },
         "examples": [
@@ -5567,7 +5558,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ieguva tiesības"
+                "tiesības"
               ]
             }
           },
@@ -5981,7 +5972,7 @@ const C1_WORDS = [
       "translation": "pārmest • piedēvēt bez pamata",
       "explanation": [
         "Galvenā doma: jemandem etwas unterstellen nozīmē piedēvēt kādam kaut ko (nodomu, vārdus, ļaunu darbību), bieži bez pierādījumiem. Otra nozīme: pakļaut: Die Abteilung ist dem Direktor unterstellt.",
-        "Neatdalāmais darbības vārds, uzsvars uz -ter-: er unterstellt, unterstellte, hat unterstellt. Konstrukcija: jemandem etwas unterstellen (kam? ko?). Ja uzsvars ir uz unter-, tas ir cits, atdalāms vārds: Ich stelle das Auto unter — novietot zem jumta; sich unterstellen — patverties.",
+        "Neatdalāmais darbības vārds, uzsvars uz -stell-: er unterstellt, unterstellte, hat unterstellt. Konstrukcija: jemandem etwas unterstellen (kam? ko?). Ja uzsvars ir uz unter-, tas ir cits, atdalāms darbības vārds: Ich stelle das Auto unter — novietot zem jumta; sich unterstellen — patverties.",
         "Šajā nozīmē vārds izsaka aizdomas vai nepamatotu pārmetumu, tāpēc tas skan stingri."
       ],
       "examples": [
@@ -6031,13 +6022,12 @@ const C1_WORDS = [
           "blue": [
             "unterstellen",
             "unterstellt",
-            "unterstelle",
-            "unterstellte",
-            "sich unterstellen"
+            "unterstellte"
           ],
           "purple": [
             "piedēvēt",
-            "pakļaut"
+            "pakļaut",
+            "pārmetumu"
           ]
         },
         "examples": [
@@ -6057,11 +6047,6 @@ const C1_WORDS = [
             "de": {
               "blue": [
                 "unterstelle"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nepiedēvēju"
               ]
             }
           },
