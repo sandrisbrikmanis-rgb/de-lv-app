@@ -1,0 +1,40 @@
+{
+  "batch_id": "LRB-074",
+  "apply_mode": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+  "correction": 1,
+  "changes": {
+    "a1-es.study.examples": [
+      { "de": "Es regnet.", "lv": "Det regnar." },
+      { "de": "Es ist kalt.", "lv": "Det er kaldt." },
+      { "de": "Das Kind schläft.", "lv": "Barnet søv." },
+      { "de": "Es ist müde.", "lv": "Det er trøytt." }
+    ],
+    "einmal.study.examples": [
+      { "de": "Ich war einmal in Berlin.", "lv": "Eg var ein gong i Berlin." },
+      { "de": "Ich möchte das einmal versuchen.", "lv": "Eg vil prøve dette éin gong." }
+    ],
+    "Essen.study.examples": [
+      { "de": "Das Essen schmeckt gut.", "lv": "Maten smakar godt." },
+      { "de": "Was wollt ihr essen?", "lv": "Kva vil de ete?" },
+      { "de": "Wir essen um 12 Uhr.", "lv": "Vi et klokka tolv." },
+      { "de": "Das Essen ist fertig.", "lv": "Maten er ferdig." }
+    ],
+    "Fernsehen.study.examples": [
+      { "de": "Was gibt es heute im Fernsehen?", "lv": "Kva går på fjernsynet i dag?" },
+      { "de": "Im Fernsehen läuft ein Film.", "lv": "Det går ein film på fjernsynet." },
+      { "de": "Das Fernsehen ist heute langweilig.", "lv": "Fjernsynet er kjedeleg i dag." },
+      { "de": "Ich sehe heute Abend fern.", "lv": "Eg ser på fjernsyn i kveld." }
+    ],
+    "Gemüse.study.examples": [
+      { "de": "Ich esse gern Gemüse.", "lv": "Eg et gjerne grønsaker." },
+      { "de": "Das Gemüse ist frisch.", "lv": "Grønsakene er ferske." },
+      { "de": "Wir kaufen Gemüse auf dem Markt.", "lv": "Vi kjøper grønsaker på marknaden." },
+      { "de": "Ich mag Obst und Gemüse.", "lv": "Eg likar frukt og grønsaker." }
+    ],
+    "ein.study.comparison[0].example": "Ein Mann wartet draußen. – Ein mann ventar ute.",
+    "ein.study.comparison[1].example": "Eine Frau wartet draußen. – Ei kvinne ventar ute.",
+    "ein.study.comparison[2].example": "Ich habe ein Buch. – Eg har ei bok.",
+    "ein.study.comparison[3].example": "Ich sehe einen Mann. – Eg ser ein mann."
+  },
+  "metadata": { "rows": "50/50", "labot": 50, "nelabot": 0, "pending": 0, "unique_target_cards": 46 }
+}
