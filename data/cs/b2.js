@@ -388,16 +388,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Smířit se s",
       "rektion": "Mit + kam?",
-      "explanation": "Sich abfinden vyžaduje určitou předložku mit + kam?.",
+      "explanation": "Sich abfinden se pojí s předložkou mit + 3. pád (Dativ): sich mit etwas abfinden.",
       "forms": "Mit + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich abfinden"
-          ],
-          "red": [
-            "mit + kam?"
           ]
         }
       }
@@ -714,7 +711,7 @@ const B2_WORDS = [
           "example": "Er trägt die Tasche. = Nese tašku."
         }
       ],
-      "tip": "Dívej se, co se abgetragen: nádobí, obuv nebo zeď.",
+      "tip": "Podívejte se na předmět: nádobí se odnáší, obuv se obnosí, zeď se zboří.",
       "important": "Abtragen není totéž co tragen (nést, nosit).",
       "sectionAccents": {
         "explanation": {
@@ -854,16 +851,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Odvrátit se od",
       "rektion": "Von + kam?",
-      "explanation": "Sich abwenden vyžaduje určitou předložku von + kam?.",
+      "explanation": "Sich abwenden se pojí s předložkou von + 3. pád (Dativ): sich von jemandem abwenden.",
       "forms": "Von + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich abwenden"
-          ],
-          "red": [
-            "von + kam?"
           ]
         }
       }
@@ -2009,16 +2003,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Řešit",
       "rektion": "Mit + kam?",
-      "explanation": "Sich befassen vyžaduje určitou předložku mit + kam?.",
+      "explanation": "Sich befassen se pojí s předložkou mit + 3. pád (Dativ): sich mit einem Thema befassen.",
       "forms": "Mit + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich befassen"
-          ],
-          "red": [
-            "mit + kam?"
           ]
         }
       }
@@ -2062,16 +2053,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Být spokojený s",
       "rektion": "Mit + kam?",
-      "explanation": "Sich begnügen vyžaduje určitou předložku mit + kam?.",
+      "explanation": "Sich begnügen se pojí s předložkou mit + 3. pád (Dativ): sich mit wenig begnügen.",
       "forms": "Mit + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich begnügen"
-          ],
-          "red": [
-            "mit + kam?"
           ]
         }
       }
@@ -2325,16 +2313,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Odkazovat",
       "rektion": "Auf + ko?",
-      "explanation": "Sich berufen vyžaduje určitou předložku auf + ko?.",
+      "explanation": "Sich berufen se pojí s předložkou auf + 4. pád (Akkusativ): sich auf ein Gesetz berufen.",
       "forms": "Auf + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich berufen"
-          ],
-          "red": [
-            "auf + ko?"
           ]
         }
       }
@@ -2534,16 +2519,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Omezit se na",
       "rektion": "Auf + ko?",
-      "explanation": "Sich beschränken vyžaduje určitou předložku auf + ko?.",
+      "explanation": "Sich beschränken se pojí s předložkou auf + 4. pád (Akkusativ): sich auf das Wesentliche beschränken.",
       "forms": "Auf + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich beschränken"
-          ],
-          "red": [
-            "auf + ko?"
           ]
         }
       }
@@ -2771,7 +2753,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Provozovat • Účastnit se",
       "rektion": "In + kur?",
-      "explanation": "Sich betätigen vyžaduje určitou předložku v + kde?.",
+      "explanation": "Sich betätigen se pojí s předložkou in + 3. pád (Dativ) nebo s als: sich in der Politik betätigen, sich als Helfer betätigen.",
       "forms": "In + kur?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
@@ -5793,16 +5775,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Vpustit dovnitř",
       "rektion": "Auf + ko?",
-      "explanation": "Sich einlassen vyžaduje určitou předložku auf + ko?.",
+      "explanation": "Sich einlassen se pojí s předložkou auf + 4. pád (Akkusativ): sich auf ein Abenteuer einlassen.",
       "forms": "Auf + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich einlassen"
-          ],
-          "red": [
-            "auf + ko?"
           ]
         }
       }
@@ -5842,7 +5821,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Zapamatovat si",
       "rektion": "In + ko?",
-      "explanation": "Sich einprägen vyžaduje určitou předložku v + ko?.",
+      "explanation": "Sich einprägen se obvykle používá bez pevné předložky: sich etwas einprägen = něco si zapamatovat.",
       "forms": "In + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
@@ -5876,7 +5855,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Vplížit se • Vplížit se",
       "rektion": "In + ko?",
-      "explanation": "Sich einschleichen vyžaduje určitou předložku v + ko?.",
+      "explanation": "Sich einschleichen se pojí s předložkou in + 4. pád (Akkusativ): sich in ein Haus einschleichen.",
       "forms": "In + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
@@ -5907,16 +5886,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Omezit se",
       "rektion": "Auf + ko?",
-      "explanation": "Sich einschränken vyžaduje určitou předložku auf + ko?.",
+      "explanation": "Sich einschränken se pojí s předložkou auf + 4. pád (Akkusativ): sich auf das Nötigste einschränken.",
       "forms": "Auf + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich einschränken"
-          ],
-          "red": [
-            "auf + ko?"
           ]
         }
       }
@@ -6126,16 +6102,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Být doporučeno",
       "rektion": "Zu + kam?",
-      "explanation": "Sich empfehlen vyžaduje určitou předložku zu + kam?.",
+      "explanation": "Sich empfehlen se pojí s předložkou für + 4. pád (Akkusativ) nebo s als: sich für etwas empfehlen, sich als Lösung empfehlen.",
       "forms": "Zu + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich empfehlen"
-          ],
-          "red": [
-            "zu + kam?"
           ]
         }
       }
@@ -6160,16 +6133,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Zlobit se • Vzbouřit se",
       "rektion": "Über + ko?",
-      "explanation": "Sich empören vyžaduje určitou předložku über + ko?.",
+      "explanation": "Sich empören se pojí s předložkou über + 4. pád (Akkusativ): sich über etwas empören.",
       "forms": "Über + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich empören"
-          ],
-          "red": [
-            "über + ko?"
           ]
         }
       }
@@ -6263,16 +6233,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Zdržet se",
       "rektion": "Von + kam?",
-      "explanation": "Sich enthalten vyžaduje určitou předložku von + kam?.",
+      "explanation": "Sich enthalten se pojí s 2. pádem (Genitiv): sich der Stimme enthalten = zdržet se hlasování.",
       "forms": "Von + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich enthalten"
-          ],
-          "red": [
-            "von + kam?"
           ]
         }
       }
@@ -6348,16 +6315,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Zlobit se • Vzbouřit se",
       "rektion": "Über + ko?",
-      "explanation": "Sich entrüsten vyžaduje určitou předložku über + ko?.",
+      "explanation": "Sich entrüsten se pojí s předložkou über + 4. pád (Akkusativ): sich über etwas entrüsten.",
       "forms": "Über + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich entrüsten"
-          ],
-          "red": [
-            "über + ko?"
           ]
         }
       }
@@ -6508,16 +6472,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Smilovat se • Smilovat se",
       "rektion": "Über + ko?",
-      "explanation": "Sich erbarmen vyžaduje určitou předložku über + ko?.",
+      "explanation": "Sich erbarmen se nejčastěji pojí s 2. pádem (Genitiv): sich der Armen erbarmen; vzácněji s über + 4. pád (Akkusativ).",
       "forms": "Über + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich erbarmen"
-          ],
-          "red": [
-            "über + ko?"
           ]
         }
       }
@@ -6601,16 +6562,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Vyústit • Vzdát se",
       "rektion": "Aus + kam?",
-      "explanation": "Sich ergeben vyžaduje určitou předložku aus + kam?.",
+      "explanation": "Sich ergeben ve významu vyplynout se pojí s aus + 3. pád (Dativ): Daraus ergibt sich ein Problem. Ve významu vzdát se: sich dem Feind ergeben.",
       "forms": "Aus + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich ergeben"
-          ],
-          "red": [
-            "aus + kam?"
           ]
         }
       }
@@ -6726,16 +6684,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Pokořit se",
       "rektion": "Vor + kam?",
-      "explanation": "Sich erniedrigen vyžaduje určitou předložku vor + kam?.",
+      "explanation": "Sich erniedrigen se často pojí s vor + 3. pád (Dativ): sich vor jemandem erniedrigen.",
       "forms": "Vor + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich erniedrigen"
-          ],
-          "red": [
-            "vor + kam?"
           ]
         }
       }
@@ -6779,16 +6734,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Starat se o",
       "rektion": "Über + ko?",
-      "explanation": "Sich erregen vyžaduje určitou předložku über + ko?.",
+      "explanation": "Sich erregen se pojí s předložkou über + 4. pád (Akkusativ): sich über etwas erregen.",
       "forms": "Über + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich erregen"
-          ],
-          "red": [
-            "über + ko?"
           ]
         }
       }
@@ -6921,7 +6873,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Ukázat být",
       "rektion": "Als + kas?",
-      "explanation": "Sich erweisen vyžaduje určitou předložku als + what?.",
+      "explanation": "Sich erweisen se pojí s als: Das erweist sich als richtig.",
       "forms": "Als + kas?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
@@ -7227,16 +7179,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Zmocnit se • Přijmout • Zadržet",
       "rektion": "An + kam?",
-      "explanation": "Sich fassen vyžaduje určitou předložku an + kam?.",
+      "explanation": "Sich fassen se obvykle používá bez předložky: Fass dich! = Vzchop se!",
       "forms": "An + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich fassen"
-          ],
-          "red": [
-            "an + kam?"
           ]
         }
       }
@@ -8003,7 +7952,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Přizpůsobovat • Poslouchat",
       "rektion": "In + ko?",
-      "explanation": "Sich fügen vyžaduje určitou předložku v + ko?.",
+      "explanation": "Sich fügen se pojí s in + 4. pád (Akkusativ) nebo se 3. pádem: sich in sein Schicksal fügen, sich den Regeln fügen.",
       "forms": "In + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
@@ -8703,16 +8652,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Stydět se",
       "rektion": "Vor + kam?",
-      "explanation": "Sich genieren vyžaduje určitou předložku vor + kam?.",
+      "explanation": "Sich genieren se často pojí s předložkou vor + 3. pád (Dativ): sich vor jemandem genieren.",
       "forms": "Vor + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich genieren"
-          ],
-          "red": [
-            "vor + kam?"
           ]
         }
       }
@@ -8901,16 +8847,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Připojit se",
       "rektion": "Zu + kam?",
-      "explanation": "Sich gesellen vyžaduje určitou předložku zu + kam?.",
+      "explanation": "Sich gesellen se pojí s předložkou zu + 3. pád (Dativ): sich zu jemandem gesellen.",
       "forms": "Zu + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich gesellen"
-          ],
-          "red": [
-            "zu + kam?"
           ]
         }
       }
@@ -8951,16 +8894,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Formovat do",
       "rektion": "Zu + kam?",
-      "explanation": "Sich gestalten vyžaduje určitou předložku zu + kam?.",
+      "explanation": "Sich gestalten se často pojí s předložkou zu + 3. pád (Dativ): sich zu einem Erfolg gestalten.",
       "forms": "Zu + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich gestalten"
-          ],
-          "red": [
-            "zu + kam?"
           ]
         }
       }
@@ -9615,16 +9555,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Bát se",
       "rektion": "Vor + kam?",
-      "explanation": "Sich grauen vyžaduje určitou předložku vor + kam?.",
+      "explanation": "Sich grauen se pojí s předložkou vor + 3. pád (Dativ): sich vor etwas grauen.",
       "forms": "Vor + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich grauen"
-          ],
-          "red": [
-            "vor + kam?"
           ]
         }
       }
@@ -9930,10 +9867,10 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Čepice • Kryt",
       "explanation": [
-        "Hlavní myšlenka: die Haube může znamenat čepici/kapuci nebo kapuci/kryt – význam určuje kontext.",
-        "Na hlavě: die Haube = čepice, kapuce nebo autorská technika v konkrétním kontextu (z. B. Nonne mit Haube).",
-        "Na autě: die Motorhaube nebo einfach die Haube = kapota motoru.",
-        "V kuchyni: die Dunsthaube = digestoř nad sporákem. V technologii: kryt nebo kryt nad zařízením."
+        "Hlavní myšlenka: die Haube může znamenat čepici nebo kapuci, ale také kapotu nebo kryt – význam určuje kontext.",
+        "Na hlavě: die Haube = čepice, čepec (např. Nonne mit Haube).",
+        "Na autě: die Motorhaube nebo jednoduše die Haube = kapota motoru.",
+        "V kuchyni: die Dunsthaube = digestoř nad sporákem. V technice: kryt nad zařízením."
       ],
       "examples": [
         {
@@ -9962,13 +9899,13 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Povídání o hlavě, jeptišce, klobouku → čepice / kapuce.",
+        "Jde o hlavu, jeptišku, klobouk → čepice / čepec.",
         "Jde o auto, motor → kapota.",
-        "Mluvíme o sporáku, spotřebiči → digestoři nebo digestoři."
+        "Jde o sporák, spotřebič → digestoř."
       ],
       "important": [
-        "Die Haube = čepice/kapuce NEBO kapuce NEBO kapuce/kapota – v závislosti na kontextu.",
-        "Pomáhají směsi: Motorhaube (auto), Dunstaube (kuchyň)."
+        "Die Haube = čepice / čepec NEBO kapota NEBO kryt – podle kontextu.",
+        "Pomáhají složeniny: Motorhaube (auto), Dunsthaube (kuchyň)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9978,7 +9915,6 @@ const B2_WORDS = [
           "purple": [
             "Hlavní",
             "Hlavní",
-            "kapuce",
             "Hlavní"
           ],
           "green": [
@@ -10237,16 +10173,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Formovat do",
       "rektion": "Zu + kam?",
-      "explanation": "Sich herausbilden vyžaduje určitou předložku zu + kam?.",
+      "explanation": "Sich herausbilden se často pojí s předložkou zu + 3. pád (Dativ): sich zu etwas herausbilden.",
       "forms": "Zu + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich herausbilden"
-          ],
-          "red": [
-            "zu + kam?"
           ]
         }
       }
@@ -10266,16 +10199,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Drž se dál od",
       "rektion": "Aus + kam?",
-      "explanation": "Sich heraushalten vyžaduje určitou předložku aus + kam?.",
+      "explanation": "Sich heraushalten se pojí s předložkou aus + 3. pád (Dativ): sich aus einem Streit heraushalten.",
       "forms": "Aus + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich heraushalten"
-          ],
-          "red": [
-            "aus + kam?"
           ]
         }
       }
@@ -10295,7 +10225,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Ukázat být",
       "rektion": "Als + kas?",
-      "explanation": "Sich herausstellen vyžaduje určitou předložku als + what?.",
+      "explanation": "Sich herausstellen se pojí s als: Das stellt sich als Fehler heraus.",
       "forms": "Als + kas?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
@@ -10339,7 +10269,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Vyčnívat",
       "rektion": "In + kur?",
-      "explanation": "Sich hervortun vyžaduje určitou předložku v + kde?.",
+      "explanation": "Sich hervortun se často pojí s als nebo s in + 3. pád (Dativ): sich als Redner hervortun, sich in Mathematik hervortun.",
       "forms": "In + kur?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
@@ -10583,7 +10513,7 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Odevzdat se • Odevzdat se",
       "rektion": "+ kam?",
-      "explanation": "Sich hingeben vyžaduje + pro koho?.",
+      "explanation": "Sich hingeben se pojí s 3. pádem (Dativ): sich der Musik hingeben = oddat se hudbě.",
       "forms": "+ kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
@@ -13250,16 +13180,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Pářit se s",
       "rektion": "Mit + kam?",
-      "explanation": "Sich paaren vyžaduje určitou předložku mit + kam?.",
+      "explanation": "Sich paaren se pojí s předložkou mit + 3. pád (Dativ): sich mit jemandem paaren.",
       "forms": "Mit + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich paaren"
-          ],
-          "red": [
-            "mit + kam?"
           ]
         }
       }
@@ -13904,16 +13831,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Odplatit • Pomstít se",
       "rektion": "Bei + kam?",
-      "explanation": "Sich revanchieren vyžaduje určitou předložku bei + kam?.",
+      "explanation": "Sich revanchieren se pojí s bei + 3. pád (Dativ) a für + 4. pád (Akkusativ): sich bei jemandem für etwas revanchieren.",
       "forms": "Bei + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich revanchieren"
-          ],
-          "red": [
-            "bei + kam?"
           ]
         }
       }
@@ -14242,16 +14166,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Pečovat o",
       "rektion": "Um + ko?",
-      "explanation": "Sich scheren vyžaduje určitou předložku um + ko?.",
+      "explanation": "Sich scheren se pojí s předložkou um + 4. pád (Akkusativ): sich um etwas scheren.",
       "forms": "Um + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich scheren"
-          ],
-          "red": [
-            "um + ko?"
           ]
         }
       }
@@ -14871,10 +14792,10 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Pokud • Za předpokladu, že",
       "explanation": [
-        "Hlavní myšlenka: sofät je podmínková spojka - znamená kdyby/bylo to.",
-        "Sofè zavádí podmínkovou pomocnou klauzi, podobnou wenn, ale je formálnější a typická pro psaný styl.",
-        "Soufen NEZNAMENÁ 'protože' (příčinná spojka) - v němčině je to da nebo weil.",
-        "Běžně používané v právních/formálních textech (sofern nicht anders verfahrt = pokud není dohodnuto jinak)."
+        "Hlavní myšlenka: sofern je podmínková spojka – znamená pokud, za předpokladu, že.",
+        "Sofern zavádí podmínkovou vedlejší větu, podobnou wenn, ale je formálnější a typická pro psaný styl.",
+        "Sofern NEZNAMENÁ „protože“ (příčinná spojka) – to se v němčině řekne da nebo weil.",
+        "Běžně se používá v právních a formálních textech (sofern nicht anders vereinbart = pokud není dohodnuto jinak)."
       ],
       "examples": [
         {
@@ -14903,12 +14824,12 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Pokud/za předpokladu, že (podmínka) – nezaměňovat s příčinou.",
-        "'od' (příčina) v němčině je da/weil, ne soufen."
+        "Pokud / za předpokladu, že (podmínka) – nezaměňovat s příčinou.",
+        "„Protože“ (příčina) se v němčině řekne da/weil, ne sofern."
       ],
       "important": [
         "Pokud existuje podmíněná, nikoli příčinná souvislost.",
-        "Nesprávně: soufen = jako → Správně: da/weil = jako."
+        "Nesprávně: sofern = protože → Správně: da/weil = protože."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14999,12 +14920,7 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "Pokud/za",
-              "Pokud/za"
-            ]
-          },
+          {},
           {
             "red": [
               "da",
@@ -16873,16 +16789,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Splynout s",
       "rektion": "Mit + kam?",
-      "explanation": "Sich vereinigen vyžaduje určitou předložku mit + kam?.",
+      "explanation": "Sich vereinigen se pojí s předložkou mit + 3. pád (Dativ): sich mit jemandem vereinigen.",
       "forms": "Mit + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich vereinigen"
-          ],
-          "red": [
-            "mit + kam?"
           ]
         }
       }
@@ -17338,18 +17251,11 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Zapomenout • Vybavit se",
       "rektion": "Mit + kam?",
-      "explanation": "Sich verschein vyžaduje určitou předložku mit + kam?.",
+      "explanation": "Sich versehen znamená splést se, přehlédnout se; ve významu zásobit se se pojí s mit + 3. pád (Dativ): sich mit Vorräten versehen.",
       "forms": "Mit + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "Sich verschein"
-          ],
-          "red": [
-            "mit + kam?"
-          ]
-        }
+        "explanation": {}
       }
     }
   },
@@ -17387,16 +17293,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Smířit se s",
       "rektion": "Mit + kam?",
-      "explanation": "Sich versöhnen vyžaduje určitou předložku mit + kam?.",
+      "explanation": "Sich versöhnen se pojí s předložkou mit + 3. pád (Dativ): sich mit jemandem versöhnen.",
       "forms": "Mit + kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich versöhnen"
-          ],
-          "red": [
-            "mit + kam?"
           ]
         }
       }
@@ -17436,16 +17339,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Vydávat se za",
       "rektion": "Als + ko?",
-      "explanation": "Sich verstellen vyžaduje určitou předložku als + ko?.",
+      "explanation": "Sich verstellen znamená předstírat; v tomto významu se používá s als: sich als Freund verstellen.",
       "forms": "Als + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich verstellen"
-          ],
-          "red": [
-            "als + ko?"
           ]
         }
       }
@@ -17552,16 +17452,13 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Divit se",
       "rektion": "Über + ko?",
-      "explanation": "Sich verwundern vyžaduje určitou předložku über + ko?.",
+      "explanation": "Sich verwundern se pojí s předložkou über + 4. pád (Akkusativ): sich über etwas verwundern.",
       "forms": "Über + ko?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
           "blue": [
             "sich verwundern"
-          ],
-          "red": [
-            "über + ko?"
           ]
         }
       }
@@ -18388,14 +18285,11 @@ const B2_WORDS = [
       "layout": "minimalStudy",
       "translation": "Vzdorovat • Tvářit se",
       "rektion": "+ kam?",
-      "explanation": "Sich widesetzen vyžaduje + pro koho?.",
+      "explanation": "Sich widersetzen se pojí s 3. pádem (Dativ): sich dem Befehl widersetzen.",
       "forms": "+ kam?",
       "formsLabel": "Vazba:",
       "sectionAccents": {
         "explanation": {
-          "blue": [
-            "Sich widesetzen"
-          ],
           "red": [
             "Sich"
           ]
@@ -18617,7 +18511,7 @@ const B2_WORDS = [
         ]
       },
       "important": {
-        "text": "Zuweisen = přidělit nebo přidělit úředně. Perfektní: zadaný. Dělitelné: weise ... zu."
+        "text": "Zuweisen = přidělit, přidělit úředně. Perfektum: zugewiesen. Odlučitelné sloveso: weist ... zu."
       },
       "sectionAccents": {
         "explanation": {
@@ -18684,7 +18578,7 @@ const B2_WORDS = [
       "id": "b2-zuwider",
       "layout": "standardStudy",
       "translation": "Proti • V rozporu s • Nechuť",
-      "explanation": "Hlavní myšlenka: zuwider je slovo s více funkcemi. Jako předložka + dativ znamená „proti, proti“: mir zuwider. V rámci výrazu jemandem zuwider sein/laufen znamená „nemít někoho rád, být nepříjemný“. Nezaměňovat s širším (proti).",
+      "explanation": "Hlavní myšlenka: zuwider je slovo s více funkcemi. Jako příslovce / předložka se 3. pádem znamená „proti, v rozporu s“: mir zuwider. Ve výrazu jemandem zuwider sein/laufen znamená „být někomu odporný, jít proti někomu“. Nezaměňovat s wider (proti).",
       "examples": [
         {
           "de": "Er handelte mir zuwider.",
@@ -18724,12 +18618,12 @@ const B2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Základní význam: proti / proti (mir zuwider). Idiomaticky: jemandem zuwider sein/laufen = nemít někoho rád."
+            "text": "Základní význam: proti, v rozporu s (mir zuwider). Idiomaticky: jemandem zuwider sein = být někomu odporný; zuwiderlaufen = jít proti něčemu."
           }
         ]
       },
       "important": {
-        "text": "Zuwider + dativ = proti, protiklad. zuwider sein = nechuť. Není to stejné jako širší."
+        "text": "Zuwider + 3. pád = proti, v rozporu s. Zuwider sein = být odporný. Není to totéž jako wider."
       },
       "sectionAccents": {
         "explanation": {
@@ -18971,12 +18865,12 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Nabídněte příležitosti, kurzy, služby nebo výhody – které místo nebo program poskytuje.",
-        "Použijte řepu, když kontext odpovídá tomuto významu."
+        "Nabídněte příležitosti, kurzy, služby nebo výhody – to, co místo nebo program poskytuje.",
+        "Použijte bieten, když kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Bieten: Die Schule bietet Kurse. (nedělitelný)",
-        "Co místo/program poskytuje: Červená řepa."
+        "Bieten: Die Schule bietet Kurse. (neodlučitelné)",
+        "Co místo nebo program poskytuje: Kurse, Angebote, Möglichkeiten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19050,11 +18944,7 @@ const B2_WORDS = [
               "Nabídněte"
             ]
           },
-          {
-            "purple": [
-              "Nabídněte"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -19092,7 +18982,7 @@ const B2_WORDS = [
       "comparison": [
         {
           "word": "anbieten",
-          "meaning": "Nabídka (aktivní)",
+          "meaning": "Nabízet (aktivně)",
           "example": "Ich biete Hilfe an. = Nabízím pomoc."
         },
         {
@@ -19114,7 +19004,7 @@ const B2_WORDS = [
         ]
       },
       "important": {
-        "text": "Anbieten = nabízet aktivně. Dělitelné: řepa ... an. Perfektní: angeboten."
+        "text": "Anbieten = nabízet aktivně. Odlučitelné sloveso: bietet ... an. Perfektum: angeboten."
       },
       "sectionAccents": {
         "explanation": {
@@ -19209,13 +19099,13 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Vyžadovat peníze, práva, změny nebo povinnosti - aktivní pohledávka.",
-        "Používá jej fordern, pokud kontext odpovídá tomuto významu."
+        "Požadovat peníze, práva, změny nebo povinnosti – aktivní požadavek.",
+        "Použijte fordern, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Fordern = poptávka / požadavek (bez ö).",
-        "Poptávka, poptávka: fordern (bez ö).",
-        "Vyžadovat peníze, práva, změny nebo povinnosti - aktivní pohledávka."
+        "Fordern = požadovat (bez ö).",
+        "Požadovat, vymáhat: fordern (bez ö); podporovat: fördern (s ö).",
+        "Požadovat peníze, práva, změny nebo povinnosti – aktivní požadavek."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19293,16 +19183,8 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Vyžadovat"
-            ]
-          },
-          {
-            "purple": [
-              "Vyžadovat"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
@@ -19323,14 +19205,14 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "Podporovat • Podporovat",
       "explanation": [
-        "Hlavní myšlenka: Propagujte rozvoj, podporujte osobu, projekt nebo proces.",
+        "Hlavní myšlenka: podporovat rozvoj, podporovat osobu, projekt nebo proces.",
         "Fördern znamená především: podporovat rozvoj.",
-        "Často charakterizováno: podporou / pokrokem.",
-        "Fördern znamená hlavně: těžit nerosty.",
-        "Často charakterizováno: v průmyslu.",
-        "Fördern znamená především: rozvíjet talent.",
-        "Často charakterizováno: ve vzdělávání.",
-        "Fördern znamená podporovat rozvoj, podporovat osobu nebo projekt (Sport fördern die Gesundheit)."
+        "Často se pojí s podporou a pokrokem.",
+        "Fördern znamená také: těžit nerosty.",
+        "Toto použití je typické pro průmysl.",
+        "Fördern znamená také: rozvíjet talent.",
+        "Toto použití je typické pro vzdělávání.",
+        "Fördern znamená podporovat rozvoj, podporovat osobu nebo projekt (Sport fördert die Gesundheit)."
       ],
       "examples": [
         {
@@ -19351,13 +19233,13 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Propagujte rozvoj, podporujte osobu, projekt nebo proces.",
-        "Použijte förden, pokud kontext odpovídá tomuto významu."
+        "Podporovat rozvoj, podporovat osobu, projekt nebo proces.",
+        "Použijte fördern, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Förden = podporovat / podporovat (s ö).",
-        "Propagace, podpora: förden (s ö).",
-        "Propagujte rozvoj, podporujte osobu, projekt nebo proces."
+        "Fördern = podporovat (s ö).",
+        "Podpora, propagace: fördern (s ö).",
+        "Podporovat rozvoj, podporovat osobu, projekt nebo proces."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19416,23 +19298,11 @@ const B2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Propagujte"
-            ]
-          },
-          {
-            "purple": [
-              "Propagujte"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "Förden"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -19445,7 +19315,7 @@ const B2_WORDS = [
       "id": "b2-sich-verlaufen",
       "layout": "minimalStudy",
       "translation": "Zmizte",
-      "explanation": "Sich verlaufen znamená ztratit se. Nemá pevnou předložku. Nesmí být zaměňována s verlaufenem.",
+      "explanation": "Sich verlaufen znamená zabloudit, ztratit se. Nemá pevnou předložku. Nesmí se zaměňovat se slovesem verlaufen (probíhat).",
       "sectionAccents": {
         "explanation": {
           "blue": [
@@ -19469,7 +19339,7 @@ const B2_WORDS = [
       "id": "b2-verlaufen",
       "layout": "minimalStudy",
       "translation": "Postupovat • Valit",
-      "explanation": "Verlaufen (bez sich) znamená běžet nebo válet. Není synonymem pro sich verlaufen (ztratit se).",
+      "explanation": "Verlaufen (bez sich) znamená probíhat, plynout (Der Kurs verläuft gut). Není synonymem pro sich verlaufen (zabloudit).",
       "sectionAccents": {
         "explanation": {
           "blue": [

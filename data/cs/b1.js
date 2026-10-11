@@ -336,7 +336,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Ve tvaru angeben téměř vždy znamená naznačit."
+            "text": "Ve významu uvést se angeben používá, když někdo sděluje údaje: den Namen angeben = uvést jméno."
           }
         ]
       },
@@ -1986,7 +1986,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Abschnitt",
-          "meaning": "Období textu nebo času",
+          "meaning": "Úsek, oddíl textu nebo času",
           "example": "Dieser Abschnitt ist wichtig. = Tento úsek je důležitý."
         }
       ],
@@ -2086,11 +2086,7 @@ const B1_WORDS = [
                 "der Abschnitt"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Období"
-              ]
-            }
+            "meaning": {}
           }
         ],
         "tip": {
@@ -6602,7 +6598,7 @@ const B1_WORDS = [
         },
         {
           "word": "benutzen",
-          "meaning": "Použití",
+          "meaning": "Používat",
           "example": "Ich benutze den Computer. = Používám počítač."
         }
       ],
@@ -6717,11 +6713,7 @@ const B1_WORDS = [
                 "benutzen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Použití"
-              ]
-            }
+            "meaning": {}
           }
         ],
         "tip": {
@@ -11733,7 +11725,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Der Bogen není „zákon“ • Tento význam na přední straně je zavádějící."
+        "text": "Der Bogen může být oblouk, luk nebo list papíru: ein Bogen Papier."
       },
       "sectionAccents": {
         "examples": [
@@ -14755,7 +14747,7 @@ const B1_WORDS = [
       "id": "b1-dienen",
       "layout": "standardStudy",
       "translation": "Sloužit",
-      "explanation": "Hlavní myšlenka: Sloužit znamená sloužit nebo sloužit účelu. Als znamená „sloužit jako“.",
+      "explanation": "Hlavní myšlenka: dienen znamená sloužit někomu nebo něčemu. Dienen als znamená „sloužit jako“: Das Sofa dient als Bett.",
       "examples": [
         {
           "de": "Dieses Zimmer dient als Büro.",
@@ -16343,7 +16335,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Einbrechen obvykle znamená „vloupat se někam“, nikoli „vloupat se do objektu“. U částí budov znamená propadnout se nebo se zhroutit."
+        "text": "Einbrechen znamená vloupat se (do domu, do auta). Ve významu propadnout se nebo zhroutit se se používá u ledu, stropu či ceny: auf dem Eis einbrechen = probořit se ledem."
       },
       "sectionAccents": {
         "examples": [
@@ -16788,7 +16780,7 @@ const B1_WORDS = [
       "id": "b1-einerlei",
       "layout": "standardStudy",
       "translation": "Je mi to jedno",
-      "explanation": "Hlavní myšlenka: einerleii znamená „je mi to jedno“ nebo „nezáleží na tom“. Zní formálněji či staromódněji než běžné egal.",
+      "explanation": "Hlavní myšlenka: einerlei znamená „je mi to jedno“ nebo „nezáleží na tom“. Zní formálněji či staromódněji než běžné egal.",
       "examples": [
         {
           "de": "Mir ist das einerlei.",
@@ -17644,7 +17636,7 @@ const B1_WORDS = [
       "id": "b1-einfluss",
       "layout": "standardStudy",
       "translation": "Vliv",
-      "explanation": "Hlavní myšlenka: der Einfluss znamená vliv na člověka, rozhodnutí nebo situaci. Velmi častou konstrukcí je Einfluss auf + ko?.",
+      "explanation": "Hlavní myšlenka: der Einfluss znamená vliv na člověka, rozhodnutí nebo situaci. Velmi častou konstrukcí je Einfluss auf + 4. pád (Akkusativ).",
       "examples": [
         {
           "de": "Das Wetter hat Einfluss auf unsere Pläne.",
@@ -17679,7 +17671,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Pamatujte na konstrukci: Einfluss auf + ko?."
+            "text": "Pamatujte na konstrukci: Einfluss auf + 4. pád (Akkusativ)."
           }
         ]
       },
@@ -21424,7 +21416,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "entkommen",
-          "meaning": "Uniknout / uniknout se",
+          "meaning": "Uniknout / utéct",
           "example": "Er ist der Gefahr entkommen. = Unikl nebezpečí."
         },
         {
@@ -31145,7 +31137,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Her- zde ukazuje pohyb sem: Komm sem!"
+            "text": "Her- zde ukazuje pohyb směrem k mluvčímu: Komm her! = Pojď sem!"
           }
         ]
       },
@@ -31255,11 +31247,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "uz šejieni"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -32372,12 +32360,12 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Der Hort = pro děti školního věku (po škole).",
-        "Vhodné pro MŠ = předškolní děti (až do školy)."
+        "Der Hort = zařízení pro děti školního věku (po škole).",
+        "Kindergarten je pro předškolní děti (do nástupu do školy)."
       ],
       "important": [
-        "Der Hort ≠ školka (Kindergarten) - různé věkové skupiny.",
-        "Der Hort = rozšířená denní skupina/dětské denní centrum (po škole)."
+        "Der Hort ≠ školka (Kindergarten) – různé věkové skupiny.",
+        "Der Hort = školní družina / dětské denní centrum (po škole)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32440,18 +32428,11 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": []
-          },
-          {
-            "red": [
-              "Der"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
           {
-            "blue": [],
             "red": [
               "Kindergarten"
             ]
@@ -32590,7 +32571,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Hupe",
-          "meaning": "Roh • Roh",
+          "meaning": "Klakson • Houkačka",
           "example": "Die Hupe ist laut. = Klakson je hlasitý."
         },
         {
@@ -33903,7 +33884,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Jahrgang",
-          "meaning": "Promoce / skupina konkrétního ročníku",
+          "meaning": "Ročník (skupina lidí narozených nebo absolvujících ve stejném roce)",
           "example": "Er ist Jahrgang 1995. = Je ročník 1995."
         },
         {
@@ -34009,11 +33990,7 @@ const B1_WORDS = [
                 "der Jahrgang"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Promoce"
-              ]
-            }
+            "meaning": {}
           },
           {
             "word": {
@@ -34424,7 +34401,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Der Kader = squad/core (skupina lidí) - ve sportu, politice, organizacích.",
+        "Der Kader = kádr, jádro týmu (skupina lidí) – ve sportu, politice, organizacích.",
         "Český „rámeček“ (ve filmu) ≠ der Kader – filmový záběr je německy das Bild/die Einstellung."
       ],
       "important": [
@@ -35322,7 +35299,7 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Článek zde není maličkost • Der a die zcela změní význam slova."
+        "text": "Člen zde není maličkost – der a die zcela změní význam slova."
       },
       "sectionAccents": {
         "examples": [
@@ -35433,11 +35410,7 @@ const B1_WORDS = [
             }
           ]
         },
-        "important": {
-          "purple": [
-            "Článek"
-          ]
-        }
+        "important": {}
       }
     }
   },
@@ -36373,7 +36346,7 @@ const B1_WORDS = [
         },
         {
           "word": "der Befehl",
-          "meaning": "Zákaznice",
+          "meaning": "Rozkaz",
           "example": "Der Befehl kam vom Chef. = Rozkaz přišel od šéfa."
         },
         {
@@ -36442,9 +36415,7 @@ const B1_WORDS = [
             "word": {
               "green": "der Befehl"
             },
-            "meaning": {
-              "purple": "Příkaz"
-            },
+            "meaning": {},
             "example": {
               "red": "Befehl",
               "purple": "Der"
@@ -36564,7 +36535,7 @@ const B1_WORDS = [
       "translation": "Dovednost",
       "explanation": [
         "Hlavní myšlenka: das Können s velkým písmenem a členem das je podstatné jméno – dovednost, schopnost, mistrovství.",
-        "Können s malým písmenem je modální sloveso - umět/vědět.",
+        "Können s malým písmenem je modální sloveso – umět/moci.",
         "Das Können se často používá, když se mluví o něčích dovednostech obecně (sein Können unter Beweis stellen = prokázat svou dovednost).",
         "Substantivizace: sloveso + velké písmeno = podstatné jméno (können → das Können)."
       ],
@@ -38235,7 +38206,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "In Kürze = brzy",
-      "important": "Die Kürze by se neměla učit na přední straně",
+      "important": "Die Kürze je podstatné jméno ženského rodu: in aller Kürze = ve stručnosti.",
       "sectionAccents": {
         "explanation": {
           "blue": [],
@@ -38316,7 +38287,6 @@ const B1_WORDS = [
         },
         "important": {
           "blue": "die Kürze",
-          "red": "in Kürze",
           "purple": "Die"
         }
       }
@@ -38578,7 +38548,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Zboží je skladováno v → das Lager.",
-      "important": "skladištěm nebo táborem",
+      "important": "Das Lager může být sklad, tábor nebo ložisko – význam určuje kontext.",
       "sectionAccents": {
         "examples": [
           {
@@ -39041,7 +39011,7 @@ const B1_WORDS = [
       "id": "b1-kosten-study",
       "layout": "standardStudy",
       "translation": "Náklady",
-      "explanation": "na vlastní náklady",
+      "explanation": "Hlavní myšlenka: die Kosten znamená náklady, výdaje; slovo se obvykle používá v množném čísle: auf eigene Kosten = na vlastní náklady.",
       "examples": [
         {
           "de": "Die Kosten sind sehr hoch.",
@@ -39066,11 +39036,7 @@ const B1_WORDS = [
       ],
       "important": "kosten = stát (sloveso).",
       "sectionAccents": {
-        "explanation": {
-          "blue": [],
-          "purple": [],
-          "green": []
-        },
+        "explanation": {},
         "examples": [
           {
             "de": {
@@ -39363,7 +39329,7 @@ const B1_WORDS = [
       "id": "b1-laut-study",
       "layout": "standardStudy",
       "translation": "Zvuk",
-      "explanation": "Laut je přídavné jméno.",
+      "explanation": "Hlavní myšlenka: der Laut znamená zvuk, hlásku nebo tón. Neplést s laut (hlasitý), což je přídavné jméno.",
       "examples": [
         {
           "de": "Der Laut ist schön.",
@@ -39394,13 +39360,12 @@ const B1_WORDS = [
         "Malý laut = hlasitý (přídavné jméno: ist laut). der Laut s velkým písmenem = zvuk (podstatné jméno: ein Laut, der Laut).",
         "Der Laut = zvuk"
       ],
-      "important": "Laut se píše s malým písmenem a nemá člen",
+      "important": "Der Laut se píše s velkým písmenem a má člen der; laut s malým písmenem je přídavné jméno (hlasitý).",
       "sectionAccents": {
         "explanation": {
           "green": [
             "laut"
           ],
-          "purple": [],
           "yellow": [
             "Laut"
           ]
@@ -40169,7 +40134,7 @@ const B1_WORDS = [
       "id": "b1-los",
       "layout": "standardStudy",
       "translation": "Los",
-      "explanation": "Hlavní myšlenka: das Los je loterie, která se losuje nebo kupuje. Ve vážnějším, obrazném jazyce to může znamenat i osud člověka.",
+      "explanation": "Hlavní myšlenka: das Los je los, tedy lístek nebo předmět při losování. V přeneseném významu může znamenat i osud člověka.",
       "examples": [
         {
           "de": "Jeder Teilnehmer zieht ein Los.",
@@ -41921,7 +41886,7 @@ const B1_WORDS = [
           "example": "Sie gibt den Fehler zu. = Přiznává chybu."
         }
       ],
-      "tip": "Zatlačte a ustupte: nachgeben.",
+      "tip": "Pokud tlak nebo odpor povolí, nebo člověk ustoupí, použijte nachgeben.",
       "important": "Nachgeben není aufgeben. Nachgeben znamená v konkrétní situaci ustoupit, zatímco aufgeben znamená přestat se snažit.",
       "sectionAccents": {
         "explanation": {
@@ -41995,8 +41960,7 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "nachgeben",
-          "purple": "Zatlačte"
+          "blue": "nachgeben"
         },
         "important": {
           "blue": "nachgeben",
@@ -42211,7 +42175,7 @@ const B1_WORDS = [
           "example": "Er biegt den Draht. = Ohýbá drát."
         }
       ],
-      "tip": "Neigen zu + kam?: sklon k něčemu.",
+      "tip": "Neigen zu + 3. pád (Dativ): mít sklon k něčemu.",
       "important": "Neigen není sich nähern. Neigen označuje sklon nebo naklonění, sich nähern označuje přibližování.",
       "sectionAccents": {
         "explanation": {
@@ -42287,8 +42251,7 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "neigen zu",
-          "purple": "nosliece"
+          "blue": "neigen zu"
         },
         "important": {
           "blue": "neigen",
@@ -42339,7 +42302,7 @@ const B1_WORDS = [
           "example": "Der Hang ist steil. = Svah je strmý."
         }
       ],
-      "tip": "Směr dovnitř nebo tendence: die Neigung.",
+      "tip": "Die Neigung = sklon, náklonnost nebo tendence.",
       "important": "Die Neigung není jen Interesse. Neigung častěji označuje trvalou tendenci nebo sklon.",
       "sectionAccents": {
         "explanation": {
@@ -42413,8 +42376,7 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "die Neigung",
-          "purple": "nosliece"
+          "blue": "die Neigung"
         },
         "important": {
           "blue": "die Neigung",
@@ -45055,7 +45017,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Pozice nebo rozpočtová položka: der Posten • Pošta: die Post.",
-      "important": "Der Posten není die Post. Článek také mění význam.",
+      "important": "Der Posten není die Post. Člen také mění význam slova.",
       "sectionAccents": {
         "explanation": {
           "blue": "der Posten",
@@ -45837,7 +45799,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Pokud je rychlost příliš vysoká, často se hodí sloveso rasen.",
-      "important": "Rasen není neutrální k řízení • Slovo má nadměrnou rychlost nebo sílu.",
+      "important": "Rasen znamená uhánět, řítit se: slovo označuje nadměrnou rychlost. Der Rasen (podstatné jméno) je trávník.",
       "sectionAccents": {
         "explanation": {
           "blue": "rasen",
@@ -45913,8 +45875,7 @@ const B1_WORDS = [
           "red": ""
         },
         "important": {
-          "blue": "rasen",
-          "red": "braukt"
+          "blue": "rasen"
         }
       }
     }
@@ -46194,7 +46155,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Pokud musí prostor zůstat volný, přemýšlejte räumen.",
-      "important": "Räumen není jen zařídit. Uspořádat každý den je obvykle aufräumen.",
+      "important": "Räumen není jen uspořádat. Uklízet každý den je obvykle aufräumen.",
       "sectionAccents": {
         "explanation": {
           "blue": "räumen",
@@ -49151,7 +49112,7 @@ const B1_WORDS = [
         }
       ],
       "tip": "Stěna nebo jídlo: Schimmel = plíseň.",
-      "important": "Smysl koně existuje, ale v běžném životě je Schimmel nejčastěji plísní.",
+      "important": "Schimmel může znamenat také bělouše (kůň), ale v běžném životě je to nejčastěji plíseň.",
       "sectionAccents": {
         "explanation": {
           "blue": "der Schimmel",
@@ -49227,8 +49188,7 @@ const B1_WORDS = [
           "purple": ""
         },
         "important": {
-          "blue": "Schimmel",
-          "red": "Zirga"
+          "blue": "Schimmel"
         }
       }
     }
@@ -50749,7 +50709,7 @@ const B1_WORDS = [
           "example": "Er bewacht das Haus. = Hlídá dům."
         }
       ],
-      "tip": "Chrání před něčím: schützen vor + kam?.",
+      "tip": "Chrání před něčím: schützen vor + 3. pád (Dativ).",
       "important": "Schützen vor se používá s dativem: vor Regen, vor der Sonne.",
       "sectionAccents": {
         "explanation": {
@@ -50825,8 +50785,7 @@ const B1_WORDS = [
           }
         ],
         "tip": {
-          "blue": "schützen vor",
-          "red": "kam?"
+          "blue": "schützen vor"
         },
         "important": {
           "blue": "schützen vor",
@@ -55635,7 +55594,7 @@ const B1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "V autech a vybavení Tank = tank • Vojenský obvykle Panzer."
+            "text": "U auta a zařízení je Tank nádrž (Benzintank) • Vojenský tank je obvykle Panzer."
           }
         ]
       },
@@ -55713,7 +55672,6 @@ const B1_WORDS = [
         ],
         "tip": {
           "blue": "Tank",
-          "purple": "tvertne",
           "red": "Panzer"
         },
         "important": {
@@ -55918,7 +55876,7 @@ const B1_WORDS = [
       "id": "b1-tau-2",
       "layout": "standardStudy",
       "translation": "Lodní lano",
-      "explanation": "Hlavní myšlenka: das Tau znamená lodní vlek nebo silné lano. Množné číslo je die Taue. Der Tau na druhé straně znamená rasu a používá se pouze v jednotném čísle.",
+      "explanation": "Hlavní myšlenka: das Tau znamená silné lano, zejména lodní. Množné číslo je die Taue. Der Tau (mužský rod) znamená rosu a používá se pouze v jednotném čísle.",
       "examples": [
         {
           "de": "Das Schiff liegt am Tau.",
@@ -57405,11 +57363,11 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Oddělit",
       "explanation": [
-        "Hlavní myšlenka: Oddělit znamená oddělit – fyzicky nebo symbolicky oddělit jednu věc od druhé.",
-        "Trennen se často používá k třídění a rozdělování věcí: k oddělení papíru od plastu.",
-        "Zeď, bariéra nebo hranice, trenn znamená rozdělit prostor nebo území.",
-        "Reflexivní forma sich trennen znamená rozejít se — oddělit se nebo jít odděleně.",
-        "Rozlišovat podle znaků je obvykle verskeiden, ne trennen."
+        "Hlavní myšlenka: trennen znamená oddělit – fyzicky nebo symbolicky oddělit jednu věc od druhé.",
+        "Trennen se často používá při třídění: papír od plastu oddělujeme (Papier und Plastik trennen).",
+        "Zeď, bariéra nebo hranice odděluje (trennt) prostor nebo území.",
+        "Reflexivní forma sich trennen znamená rozejít se – oddělit se od partnera nebo jít každý svou cestou.",
+        "Rozlišovat podle znaků je obvykle unterscheiden, ne trennen."
       ],
       "examples": [
         {
@@ -57455,7 +57413,6 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "trennen",
-          "purple": "atdalīt",
           "red": "sich trennen"
         },
         "examples": [
@@ -62703,7 +62660,7 @@ const B1_WORDS = [
       "id": "b1-wechsel",
       "layout": "standardStudy",
       "translation": "Posun",
-      "explanation": "Hlavní myšlenka: der Wechsel znamená změna nebo změna. Ve speciálních frázích, jako je Směnný kurz, se význam stává specifickým.",
+      "explanation": "Hlavní myšlenka: der Wechsel znamená změna nebo výměna. Ve spojeních jako Wechselkurs (směnný kurz) má specifický význam.",
       "examples": [
         {
           "de": "Der Wechsel der Jahreszeiten ist schön.",
@@ -62721,7 +62678,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "der Wechsel",
-          "meaning": "Změnit, změnit",
+          "meaning": "Změna, výměna",
           "example": "Der Wechsel ist wichtig. = Změna je důležitá."
         },
         {
@@ -62743,12 +62700,11 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Der Směnný kurz znamená směnný kurz, nikoli pouze směnný proces."
+        "text": "Der Wechselkurs znamená směnný kurz, nikoli pouze směnu."
       },
       "sectionAccents": {
         "explanation": {
           "blue": "der Wechsel",
-          "purple": "maiņu",
           "red": "Wechselkurs"
         },
         "examples": [
@@ -62784,9 +62740,7 @@ const B1_WORDS = [
             "word": {
               "green": "der Wechsel"
             },
-            "meaning": {
-              "purple": "maiņa"
-            },
+            "meaning": {},
             "example": {
               "blue": "Wechsel"
             }
@@ -62819,8 +62773,7 @@ const B1_WORDS = [
           "purple": "nomainās"
         },
         "important": {
-          "blue": "Wechselkurs",
-          "red": "valūtas kursu"
+          "blue": "Wechselkurs"
         }
       }
     }
@@ -62840,7 +62793,7 @@ const B1_WORDS = [
       "id": "b1-weder",
       "layout": "standardStudy",
       "translation": "Ani",
-      "explanation": "Hlavní myšlenka: weder se používá s nochem. Stavební weder ... noch znamená ani ... ani nebo ne ... ne.",
+      "explanation": "Hlavní myšlenka: weder se používá společně s noch. Konstrukce weder ... noch znamená ani ... ani.",
       "examples": [
         {
           "de": "Ich trinke weder Kaffee noch Tee.",
@@ -62868,7 +62821,7 @@ const B1_WORDS = [
         },
         {
           "word": "sowohl ... als auch",
-          "meaning": "Oba... oba",
+          "meaning": "I ... i (jak ... tak)",
           "example": "Sowohl Tee als auch Kaffee. = Čaj i káva."
         }
       ],
@@ -62880,15 +62833,14 @@ const B1_WORDS = [
         ]
       },
       "important": {
-        "text": "Weder ... noch již tvoří negaci • Nepřidává ich zbytečně."
+        "text": "Weder ... noch již tvoří negaci • Nepřidávejte další nein nebo nicht."
       },
       "sectionAccents": {
         "explanation": {
           "blue": [
             "weder",
             "noch"
-          ],
-          "purple": "nedz"
+          ]
         },
         "examples": [
           {
@@ -62979,9 +62931,7 @@ const B1_WORDS = [
             "word": {
               "green": "sowohl ... als auch"
             },
-            "meaning": {
-              "purple": "gan"
-            },
+            "meaning": {},
             "example": {
               "red": [
                 "Sowohl",
@@ -64107,7 +64057,7 @@ const B1_WORDS = [
       "id": "b1-zugeben",
       "layout": "standardStudy",
       "translation": "Přiznat",
-      "explanation": "Hlavní myšlenka: zugeben znamená přiznat chybu nebo pravdu. U jídla nebo přísad bedeutet dazugeben přidat něco.",
+      "explanation": "Hlavní myšlenka: zugeben znamená přiznat chybu nebo pravdu. U jídla nebo přísad znamená dazugeben přidat něco.",
       "examples": [
         {
           "de": "Ich gebe zu, dass ich einen Fehler gemacht habe.",
@@ -64152,7 +64102,6 @@ const B1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": "zugeben",
-          "purple": "atzīt",
           "red": "dazugeben"
         },
         "examples": [
@@ -64731,7 +64680,7 @@ const B1_WORDS = [
       },
       "important": {
         "text": "Der Beruf není jen tak ledajaká činnost. Obvykle označuje profesi nebo pracovní oblast člověka.",
-        "example": "(Czech text required)"
+        "example": "Čím jste povoláním? = Was sind Sie von Beruf?"
       },
       "sectionAccents": {
         "examples": [
@@ -64944,7 +64893,6 @@ const B1_WORDS = [
                 "der Beruf"
               ],
               "purple": [
-                "profesija",
                 "Der"
               ],
               "red": [
@@ -64954,13 +64902,6 @@ const B1_WORDS = [
             "example": {
               "blue": [
                 "Beruf"
-              ],
-              "green": [
-                "Arbeit"
-              ],
-              "purple": [
-                "profesijas",
-                "darba"
               ]
             }
           }
@@ -65453,7 +65394,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Konjunkce rozumu, když je důvod již znám nebo zmíněn. Po da je sloveso na konci věty.",
+        "Spojka příčiny, když je důvod již znám nebo zmíněn. Po da je sloveso na konci věty.",
         "Použijte da, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
@@ -65545,10 +65486,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "I když • Ačkoli",
       "explanation": [
-        "Hlavní myšlenka: Zavádí opačný důvod v pomocné větě. Sloveso je na konci věty.",
-        "Obwohl znamená hlavně: opačný důvod.",
-        "Často charakterizováno: pomocnou větou.",
-        "Obwohl znamená ačkoli a zavádí pomocnou větu se slovesem na konci."
+        "Hlavní myšlenka: zavádí protikladný (ustupovací) důvod ve vedlejší větě. Sloveso je na konci věty.",
+        "Obwohl znamená hlavně: i když, ačkoli.",
+        "Často se používá s vedlejší větou: Obwohl es regnet, gehen wir spazieren.",
+        "Obwohl znamená ačkoli a zavádí vedlejší větu se slovesem na konci."
       ],
       "examples": [
         {
@@ -65577,14 +65518,14 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Zavádí opačný důvod v pomocné větě. Sloveso je na konci věty.",
+        "Zavádí protikladný důvod ve vedlejší větě. Sloveso je na konci věty.",
         "Použijte obwohl, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Obwohl zavádí pomocnou větu — sloveso na konci.",
+        "Obwohl zavádí vedlejší větu — sloveso na konci.",
         "Nesprávně: Obwohl ich bin müde, ... → Správně: Obwohl ich müde bin, ...",
-        "Obwohl = ačkoli (pomocná věta).",
-        "Zavádí opačný důvod v pomocné větě. Sloveso je na konci věty."
+        "Obwohl = ačkoli (vedlejší věta).",
+        "Zavádí protikladný důvod ve vedlejší větě. Sloveso je na konci věty."
       ],
       "sectionAccents": {
         "explanation": {
@@ -65925,13 +65866,13 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ohne ... zu = bez",
-        "Používá ohne ... zu, pokud kontext vyhovuje tomuto významu."
+        "Ohne ... zu = bez (dělání něčeho)",
+        "Použijte ohne ... zu, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Ohne + co? (žádný sýr) ≠ ohne ... zu (nedělá nic).",
-        "Ohne ... zu = bez (bez akce).",
-        "Neexistuje žádná akce. ohne + zu + nepravidelnost."
+        "Ohne + podstatné jméno (ohne Käse = bez sýra) ≠ ohne ... zu + infinitiv (ohne zu fragen = aniž by se zeptal).",
+        "Ohne ... zu = bez toho, aby (bez dané činnosti).",
+        "Za zu následuje infinitiv; u odlučitelných sloves stojí zu uvnitř slovesa: ohne einzukaufen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -66047,7 +65988,7 @@ const B1_WORDS = [
       },
       "important": {
         "text": "Sich befinden není o lidských pocitech na úrovni A2. Poloha je klíčová.",
-        "example": "(Czech text required)"
+        "example": "Hotel se nachází v centru. = Das Hotel befindet sich im Zentrum."
       },
       "sectionAccents": {
         "examples": [
@@ -66260,11 +66201,7 @@ const B1_WORDS = [
                 "Sich"
               ]
             },
-            "example": {
-              "blue": [],
-              "red": [],
-              "purple": []
-            }
+            "example": {}
           }
         ]
       },
@@ -66691,14 +66628,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Ztráta • Poškození",
       "explanation": [
-        "Hlavní myšlenka: Podstatné jméno - materiální, zdravotní nebo jiné škody.",
-        "Der Schaden především znamená: škoda jako věc.",
-        "Často popisuje: podstatné jméno (der).",
-        "Schaden znamená především: způsobit škodu.",
-        "Schaden jako sloveso znamená škodit nebo působit škodu.",
-        "Der Schaden znamená ztrátu, poškození nebo poškození.",
-        "Schaden znamená ublížit, ublížit.",
-        "S čím se musí použít sloveso schaden?"
+        "Hlavní myšlenka: der Schaden je podstatné jméno – škoda, poškození (materiální, zdravotní nebo jiné).",
+        "Der Schaden znamená ztrátu, poškození nebo újmu.",
+        "Množné číslo: die Schäden.",
+        "Neplést se slovesem schaden (škodit), které se píše s malým písmenem."
       ],
       "examples": [
         {
@@ -66727,8 +66660,8 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Pokud jde o poškození nebo ztrátu jako věc, používá se der Schaden. Pokud ke škodě, použijte schaden + kam?.",
-        "Podstatné jméno - materiální, zdravotní nebo jiné škody."
+        "Pokud jde o poškození nebo ztrátu jako věc, používá se podstatné jméno der Schaden.",
+        "Pokud jde o škodlivé působení, použijte sloveso schaden + 3. pád (jemandem schaden)."
       ],
       "important": [
         "Der Schaden = podstatné jméno (ztráta).",
@@ -66840,14 +66773,11 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Škodit",
       "explanation": [
-        "Hlavní myšlenka: Sloveso znamená škodit. Vazba vyžaduje dativ: jemandem schaden (škodit někomu).",
-        "Schaden primárně znamená: škoda jako věc.",
-        "Často popisuje: podstatné jméno (der).",
-        "Schaden znamená především: způsobit škodu.",
-        "Často popisuje: sloveso.",
-        "Der Schaden znamená ztrátu, poškození nebo poškození.",
-        "Schaden znamená ublížit, ublížit.",
-        "S čím se musí použít sloveso schaden?"
+        "Hlavní myšlenka: sloveso schaden znamená škodit. Vyžaduje 3. pád: jemandem schaden (škodit někomu).",
+        "Schaden s malým písmenem je sloveso, der Schaden s velkým písmenem je podstatné jméno.",
+        "Příklad: Rauchen schadet der Gesundheit. = Kouření škodí zdraví.",
+        "Der Schaden znamená ztrátu, poškození nebo újmu.",
+        "Jaký pád vyžaduje sloveso schaden? Dativ (3. pád)."
       ],
       "examples": [
         {
@@ -66876,8 +66806,8 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Pokud jde o poškození nebo ztrátu jako věc, používá se der Schaden. Pokud ke škodě, použijte schaden + kam?.",
-        "Sloveso - škodit. zeptat se koho? forma: jemandem schaden."
+        "Pokud jde o poškození nebo ztrátu jako věc, používá se der Schaden. Pokud jde o škodlivé působení, použijte sloveso schaden.",
+        "Sloveso schaden se pojí s 3. pádem (komu?): jemandem schaden."
       ],
       "important": [
         "Der Schaden = podstatné jméno (ztráta).",
@@ -66983,14 +66913,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Důvěra",
       "explanation": [
-        "Hlavní myšlenka: Podstatné jméno - důvěra, víra jako pocit.",
-        "Das Vertrauen znamená především: cit / vztah.",
-        "Často charakterizováno: podstatné jméno (das).",
-        "Vertrauen znamená hlavně: důvěřovat někomu.",
-        "Často popisuje: sloveso.",
-        "Das Vertrauen znamená důvěra jako stav citu nebo vztahu.",
-        "Vertrauen znamená někomu věřit.",
-        "Jaký pád vyžaduje sloveso vertrauen?"
+        "Hlavní myšlenka: das Vertrauen je podstatné jméno – důvěra, víra jako pocit.",
+        "Das Vertrauen znamená důvěru jako stav citu nebo vztahu.",
+        "Často se používá ve frázích: Vertrauen zu jemandem haben, jemandem Vertrauen schenken.",
+        "Neplést se slovesem vertrauen (důvěřovat), které se píše s malým písmenem."
       ],
       "examples": [
         {
@@ -67140,14 +67066,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Důvěřovat",
       "explanation": [
-        "Hlavní myšlenka: Sloveso – důvěřovat někomu. Vyžaduje 3. pád: jemandem vertrauen.",
-        "Vertrauen znamená hlavně: cit / vztah.",
-        "Často charakterizováno: podstatné jméno (das).",
-        "Vertrauen znamená hlavně: důvěřovat někomu.",
-        "Často popisuje: sloveso.",
-        "Das Vertrauen znamená důvěra jako stav citu nebo vztahu.",
-        "Vertrauen znamená někomu věřit.",
-        "Jaký pád vyžaduje sloveso vertrauen?"
+        "Hlavní myšlenka: sloveso vertrauen znamená důvěřovat někomu. Vyžaduje 3. pád: jemandem vertrauen.",
+        "Vertrauen auf + 4. pád znamená spoléhat na něco: auf Gott vertrauen.",
+        "Das Vertrauen s velkým písmenem je podstatné jméno (důvěra).",
+        "Příklad: Ich vertraue dir. = Věřím ti."
       ],
       "examples": [
         {
@@ -67176,13 +67098,13 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Pokud jde o důvěru jako pocit, použijte das Vertrauen. Pokud vyjadřujete důvěřování, použijte vertrauen + komu?",
-        "Sloveso věřit někomu. zeptat se koho? forma: jemandem vertrauen."
+        "Pokud jde o důvěru jako pocit, použijte das Vertrauen. Pokud vyjadřujete důvěřování, použijte sloveso vertrauen + 3. pád.",
+        "Sloveso věřit někomu: jemandem vertrauen."
       ],
       "important": [
         "Das Vertrauen = podstatné jméno (důvěra).",
-        "Vertrauen = sloveso (důvěřovat) + komu?.",
-        "Nesprávně: Ich habe Vertrauen in dich. → Správně: Ich habe Vertrauen zu dir.",
+        "Vertrauen = sloveso (důvěřovat) + 3. pád.",
+        "Správně: Ich habe Vertrauen zu dir. nebo Ich habe Vertrauen in dich.",
         "Das Vertrauen = důvěra."
       ],
       "sectionAccents": {
@@ -67289,14 +67211,11 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Vzdor • Tvrdohlavost",
       "explanation": [
-        "Hlavní myšlenka: Podstatné jméno — tvrdohlavost, tvrdohlavý postoj.",
-        "Der Trotz znamená hlavně: tvrdohlavý postoj.",
-        "Často popisuje: podstatné jméno (der).",
-        "Trotz znamená hlavně: navzdory.",
-        "Často charakterizováno: předložka.",
-        "Der Trotz znamená tvrdohlavost nebo tvrdohlavost jako vlastnost.",
-        "Trotz je předložka a znamená navzdory něčemu.",
-        "Předložka trotz musí být genitiv: trotz des Regens, trotz des Wetters."
+        "Hlavní myšlenka: der Trotz je podstatné jméno – vzdor, tvrdohlavost.",
+        "Der Trotz znamená hlavně: tvrdohlavý postoj, vzdor.",
+        "Příklad: Aus Trotz hat er nichts gesagt. = Ze vzdoru nic neřekl.",
+        "Neplést s předložkou trotz (navzdory), která se píše s malým písmenem.",
+        "Trotz jako předložka se obvykle pojí s 2. pádem (genitiv): trotz des Regens."
       ],
       "examples": [
         {
@@ -67437,14 +67356,10 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Navzdory",
       "explanation": [
-        "Hlavní myšlenka: Předložka – navzdory. Vyžaduje 2. pád (genitiv): trotz + genitiv.",
-        "Trotz znamená hlavně: tvrdohlavý postoj.",
-        "Často popisuje: podstatné jméno (der).",
-        "Trotz znamená hlavně: navzdory.",
-        "Často charakterizováno: předložka.",
-        "Der Trotz znamená tvrdohlavost nebo tvrdohlavost jako vlastnost.",
-        "Trotz je předložka a znamená navzdory něčemu.",
-        "Předložka trotz musí být genitiv: trotz des Regens, trotz des Wetters."
+        "Hlavní myšlenka: předložka trotz znamená navzdory. Obvykle se pojí s 2. pádem (genitiv): trotz des Regens. V hovorové řeči se někdy používá i 3. pád.",
+        "Trotz s malým písmenem je předložka, der Trotz s velkým písmenem je podstatné jméno (vzdor).",
+        "Příklady: trotz des Regens, trotz des Wetters = navzdory dešti, navzdory počasí.",
+        "Předložka trotz uvádí překážku, která výsledek nezměnila."
       ],
       "examples": [
         {
@@ -67473,8 +67388,8 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Když jde o tvrdohlavost nebo vzdor, použijte der Trotz. Když jde o význam „navzdory“, použijte trotz + genitiv.",
-        "Předložka - navzdory. Vyžaduje přivlastňovací formu: trotz + přivlastňovací formu."
+        "Když jde o tvrdohlavost nebo vzdor, použijte der Trotz. Když jde o význam „navzdory“, použijte trotz + 2. pád (genitiv).",
+        "Předložka – navzdory. Obvykle se pojí s 2. pádem: trotz + genitiv."
       ],
       "important": [
         "Der Trotz = podstatné jméno (vzdor, tvrdohlavost).",

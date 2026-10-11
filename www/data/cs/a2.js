@@ -755,7 +755,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Holen = jít pro něco a přinést to",
-        "Používá holen, když kontext vyhovuje tomuto významu."
+        "Použijte holen, když kontext odpovídá tomuto významu."
       ],
       "important": [
         "Holen = jít pro něco a přinést to.",
@@ -832,10 +832,10 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Přinést",
       "explanation": [
-        "Hlavní myšlenka: Něco sem přivézt nebo přinést.",
-        "Přinést hlavně znamená: přinést sem.",
-        "Často charakterizováno: dodáním na místo.",
-        "Přinést znamená přinést nebo doručit něco na určité místo."
+        "Hlavní myšlenka: bringen znamená něco přinést nebo odnést někam, případně někoho doprovodit.",
+        "Bringen se používá u pohybu předmětu nebo osoby k cíli: Ich bringe dir das Buch.",
+        "Směr určuje kontext: sem (her) = přinést, tam (hin) = odnést.",
+        "Nezaměňovat s holen (jít pro něco a přinést) a mitbringen (vzít s sebou)."
       ],
       "examples": [
         {
@@ -857,9 +857,9 @@ const A2_WORDS = [
       ],
       "tip": "Když kontext odpovídá tomuto významu, použijte bringen.",
       "important": [
-        "Přinést = přinést na konkrétní místo.",
-        "Přinést = přinést sem.",
-        "Přineste nebo doručte něco sem."
+        "Bringen = přinést nebo odnést někam, doručit.",
+        "Směr určuje kontext: bringen + her = přinést sem, bringen + hin = odnést tam.",
+        "Něco někomu přinést = jemandem etwas bringen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8942,7 +8942,7 @@ const A2_WORDS = [
             "text": "Pokud je člen das, Band obvykle znamená stuhu, pásku, pouto nebo pás."
           },
           {
-            "text": "Když je článek die, Band obvykle znamená hudební skupinu."
+            "text": "Když je člen die, Band obvykle znamená hudební skupinu."
           }
         ]
       },
@@ -9101,18 +9101,8 @@ const A2_WORDS = [
                 "blue": [
                   "Band"
                 ],
-                "green": [
-                  "saite"
-                ],
                 "yellow": [
-                  "artikuls",
-                  "josla",
-                  "lente",
-                  "saite",
                   "Band"
-                ],
-                "orange": [
-                  "lente"
                 ]
               }
             },
@@ -9121,13 +9111,8 @@ const A2_WORDS = [
                 "blue": [
                   "Band"
                 ],
-                "purple": [
-                  "hudební skupina"
-                ],
                 "yellow": [
-                  "artikuls",
                   "hudební",
-                  "grupa",
                   "Band"
                 ]
               }
@@ -10547,7 +10532,7 @@ const A2_WORDS = [
         },
         {
           "word": "benutzen",
-          "meaning": "Použití",
+          "meaning": "Používat",
           "example": "Ich benutze mein Handy. = Používám svůj mobil."
         },
         {
@@ -10702,11 +10687,7 @@ const A2_WORDS = [
                 "benutzen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Použití"
-              ]
-            },
+            "meaning": {},
             "example": {
               "green": [
                 "benutze"
@@ -34263,9 +34244,9 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Pokud můžete česky říci „...dělat něco“, indem se často používá v němčině.",
-        "Pokud se chcete zeptat jakým způsobem?, hledejte stavbu s indem.",
-        "Pokud je v češtině myšlenka while, zkontrolujte, zda nepotřebujete während v němčině."
+        "Pokud můžete česky říci „tím, že něco děláme“, indem se často používá v němčině.",
+        "Pokud se ptáte jakým způsobem?, hledejte konstrukci s indem.",
+        "Pokud je v češtině myšlenka „zatímco“, zkontrolujte, zda nepotřebujete während."
       ],
       "important": [
         "Indem obvykle neříká jednoduše zatímco.",
@@ -34435,8 +34416,7 @@ const A2_WORDS = [
           },
           {
             "red": [
-              "Pokud",
-              "während"
+              "Pokud"
             ]
           }
         ],
@@ -38765,7 +38745,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Pokud uvidíte leiden an, vzpomeňte si na nemoc nebo problém.",
-        "Pokud vidíte nicht leiden können, v překladu to nevydrží."
+        "Frázi nicht leiden können (nemít rád, nesnášet) nelze přeložit doslova."
       ],
       "important": [
         "Leiden neznamená ve všech případech jednoduše být nemocný.",
@@ -38988,9 +38968,6 @@ const A2_WORDS = [
           {
             "red": [
               "nicht leiden können"
-            ],
-            "purple": [
-              "Pokud"
             ]
           }
         ],
@@ -43374,7 +43351,7 @@ const A2_WORDS = [
         "U plánovaných akcí se častěji používá stattfinden než passieren."
       ],
       "important": [
-        "Passieren na úrovni A2 se má hlavně stát / stát.",
+        "Passieren na úrovni A2 znamená hlavně stát se.",
         "Koncert se koná = Das Konzert findet statt, ne Das Konzert passiert."
       ],
       "sectionAccents": {
@@ -44885,7 +44862,7 @@ const A2_WORDS = [
       "translation": "Počítat",
       "explanation": [
         "Hlavní myšlenka: rechnen znamená počítat nebo počítat matematicky.",
-        "S mit + kam? rechnen znamená počítat s něčím nebo něco očekávat.",
+        "S předložkou mit rechnen znamená počítat s něčím nebo něco očekávat.",
         "V matematice je rechnen jednoduché slovo, které znamená vypočítat.",
         "Fráze damit rechnen znamená počítat s tím.",
         "Kontext ukazuje, zda jde o matematiku nebo nadcházející situaci."
@@ -44929,9 +44906,6 @@ const A2_WORDS = [
           "purple": [
             "Hlavní",
             "Hlavní"
-          ],
-          "green": [
-            "mit + kam?"
           ],
           "yellow": [
             "matematice"
@@ -57928,10 +57902,9 @@ const A2_WORDS = [
         "Použijte der Urlaub, pokud kontext odpovídá tomuto významu."
       ],
       "important": [
-        "Nesprávně: die Ferien, die Urlaube (na úrovni A1).",
+        "Správně: der Urlaub (dovolená), die Ferien (prázdniny).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Nesprávně: die Urlaube → Správně: der Urlaub",
-        "Shrnutí: der Urlaub (pouze jednotné číslo)."
+        "Der Urlaub se běžně používá v jednotném čísle."
       ],
       "sectionAccents": {
         "explanation": {
@@ -58016,9 +57989,7 @@ const A2_WORDS = [
           }
         ],
         "important": [
-          {
-            "green": []
-          }
+          {}
         ]
       }
     }
