@@ -190,7 +190,7 @@ const A2_WORDS = [
         {
           "word": "abfahren",
           "meaning": "Leave / leave / set off",
-          "example": "Der Zug fährt ab. = Vilciens atiet."
+          "example": "Der Zug fährt ab. – The train is departing."
         },
         {
           "word": "wegfahren",
@@ -210,7 +210,7 @@ const A2_WORDS = [
         {
           "word": "fahren",
           "meaning": "Drive",
-          "example": "Ich fahre mit dem Zug. = Es braucu ar vilcienu."
+          "example": "Ich fahre mit dem Zug. – I am going by train."
         }
       ],
       "tip": {
@@ -224,7 +224,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "abfahren nav “take away”.",
+        "text": "abfahren does not mean “take away”.",
         "example": "Der Zug fährt ab = the train is leaving. Wir fahren ab = we are leaving. Eine Strecke abfahren = to drive a route."
       },
       "sectionAccents": {
@@ -444,15 +444,8 @@ const A2_WORDS = [
                 "blue": [
                   "abfahren"
                 ],
-                "green": [
-                  "atiet"
-                ],
                 "yellow": [
-                  "abfahren",
-                  "autobusa",
-                  "vilciena",
-                  "grafiku",
-                  "runa"
+                  "abfahren"
                 ]
               }
             },
@@ -461,18 +454,9 @@ const A2_WORDS = [
                 "blue": [
                   "abfahren"
                 ],
-                "orange": [
-                  "drive away"
-                ],
-                "red": [
-                  "to go on a journey"
-                ],
                 "yellow": [
-                  "to people",
                   "abfahren",
-                  "on a trip",
-                  "often",
-                  "runa"
+                  "often"
                 ]
               }
             }
@@ -519,44 +503,28 @@ const A2_WORDS = [
           "standardStudy",
           "drive away",
           "abfahren",
-          "autobusu",
           "route",
-          "drive off",
-          "specified",
-          "tramvaju",
-          "vilcienu",
           "mean",
-          "doties",
-          "atiet",
           "often",
-          "posmu",
-          "Name",
-          "on the way",
           "road"
         ],
         "green": [
-          "wegfahren",
-          "atiet",
-          "noiet"
+          "wegfahren"
         ],
         "yellow": [
-          "losfahren",
-          "drive off"
+          "losfahren"
         ],
         "orange": [
           "drive away"
         ],
         "purple": [
-          "to leave • to leave • to drive off • to set off",
           "leave / leave / set off",
           "drive away",
-          "atiet / noiet",
           "start driving",
           "drive",
           "fahren"
         ],
         "red": [
-          "to go on a journey",
           "abgehen"
         ]
       }
@@ -615,7 +583,7 @@ const A2_WORDS = [
         {
           "word": "abgeben",
           "meaning": "To give or give to another or to a certain place",
-          "example": "Ich gebe den Antrag ab. = Es iesniedzu pieteikumu."
+          "example": "Ich gebe den Antrag ab. – I hand in the application."
         },
         {
           "word": "geben",
@@ -630,7 +598,7 @@ const A2_WORDS = [
         {
           "word": "einreichen",
           "meaning": "Officially submit",
-          "example": "Ich reiche die Unterlagen ein. = Es iesniedzu dokumentus."
+          "example": "Ich reiche die Unterlagen ein. – I submit the documents."
         },
         {
           "word": "verkaufen",
@@ -640,7 +608,7 @@ const A2_WORDS = [
         {
           "word": "ausstrahlen",
           "meaning": "Radiating",
-          "example": "Die Lampe strahlt Wärme aus. = Lampa izstaro siltumu."
+          "example": "Die Lampe strahlt Wärme aus. – The lamp gives off warmth."
         }
       ],
       "tip": {
@@ -883,9 +851,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "abgeben"
-                ],
-                "purple": [
-                  "nodots or atdots"
                 ]
               }
             },
@@ -893,9 +858,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "abgeben"
-                ],
-                "purple": [
-                  "iesniegt"
                 ]
               }
             }
@@ -937,10 +899,7 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "abgeben",
-          "nodot",
-          "atdot",
-          "iesniegt"
+          "abgeben"
         ],
         "green": [
           "ausstrahlen"
@@ -949,12 +908,10 @@ const A2_WORDS = [
           "verkaufen"
         ],
         "purple": [
-          "Nodot • Atdot • Iesniegt",
           "to give or give to another or to a certain place",
           "officially submit",
           "give back",
-          "to sell",
-          "izstarot"
+          "to sell"
         ]
       }
     }
@@ -1113,12 +1070,7 @@ const A2_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "holen",
-                "holen"
-              ]
-            },
+            "de": {},
             "lv": {}
           },
           {
@@ -1454,7 +1406,6 @@ const A2_WORDS = [
             "example": {
               "blue": [
                 "Ich",
-                "I cancel",
                 "Termin",
                 "sage"
               ]
@@ -1559,11 +1510,7 @@ const A2_WORDS = [
                   "absagen"
                 ],
                 "yellow": [
-                  "koncertu",
-                  "the event",
-                  "the meeting",
-                  "absagen",
-                  "lieto"
+                  "absagen"
                 ]
               }
             },
@@ -1576,8 +1523,7 @@ const A2_WORDS = [
                   "proposal",
                   "offer",
                   "ablehnen",
-                  "more often",
-                  "lieto"
+                  "more often"
                 ]
               }
             }
@@ -1631,9 +1577,7 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "ierasties",
           "the event",
-          "would talk",
           "the meeting",
           "absagen",
           "refuse",
@@ -1641,17 +1585,12 @@ const A2_WORDS = [
           "mean",
           "say",
           "Treffen",
-          "atcelt",
           "membership",
-          "Termin",
-          "nevar",
-          "the plan"
+          "Termin"
         ],
         "green": [
           "cancel the reservation",
-          "terminate the contract",
-          "ablehnen",
-          "atcelt"
+          "ablehnen"
         ],
         "yellow": [
           "kündigen"
@@ -1659,11 +1598,9 @@ const A2_WORDS = [
         "orange": [
           "reject",
           "refuse",
-          "give notice",
           "cancel"
         ],
         "purple": [
-          "cancel • refuse • refuse membership",
           "cancel / cancel the reservation",
           "cancel / refuse membership",
           "terminate / cancel the contract",
@@ -1672,7 +1609,6 @@ const A2_WORDS = [
           "say no"
         ],
         "red": [
-          "opt out",
           "stornieren"
         ]
       }
@@ -1727,12 +1663,12 @@ const A2_WORDS = [
         {
           "word": "schließen",
           "meaning": "To close",
-          "example": "Ich schließe die Tür. = Es aizveru durvis."
+          "example": "Ich schließe die Tür. – I close the door."
         },
         {
           "word": "beenden",
           "meaning": "Finish",
-          "example": "Ich beende die Arbeit. = Es pabeidzu darbu."
+          "example": "Ich beende die Arbeit. – I finish the work."
         },
         {
           "word": "unterschreiben",
@@ -1938,10 +1874,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "abschließen",
-                  "the key",
-                  "often",
-                  "nevis",
-                  "tikai"
+                  "often"
                 ]
               }
             },
@@ -1955,11 +1888,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "abschließen",
-                  "projektu",
                   "conclude",
-                  "pabeigt",
-                  "contract",
-                  "runa"
+                  "contract"
                 ]
               }
             }
@@ -2010,18 +1940,11 @@ const A2_WORDS = [
           "standardStudy",
           "abschließen",
           "to lock",
-          "projektu",
           "conclude",
-          "objekta",
-          "pabeigt",
-          "durvis",
           "the door",
           "contract",
           "contract",
-          "is changing",
           "meaning",
-          "darbu",
-          "kursu",
           "Therefore",
           "auto"
         ],
@@ -2030,8 +1953,7 @@ const A2_WORDS = [
           "conclude"
         ],
         "yellow": [
-          "beenden",
-          "pabeigt"
+          "beenden"
         ],
         "orange": [
           "to lock"
@@ -2392,23 +2314,10 @@ const A2_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "novietot",
-                  "nolikt"
-                ],
-                "yellow": [
-                  "auto",
-                  "bicycle",
-                  "somu"
-                ]
-              }
+              "text": {}
             },
             {
               "text": {
-                "purple": [
-                  "disable"
-                ],
                 "yellow": [
                   "water",
                   "gas",
@@ -2427,7 +2336,6 @@ const A2_WORDS = [
                   "turn off"
                 ],
                 "yellow": [
-                  "motoru",
                   "alarm clock"
                 ]
               }
@@ -2437,13 +2345,8 @@ const A2_WORDS = [
                 "red": [
                   "ausschalten"
                 ],
-                "purple": [
-                  "turn off"
-                ],
                 "yellow": [
-                  "TV",
-                  "datoru",
-                  "gaismu"
+                  "TV"
                 ]
               }
             }
@@ -2485,20 +2388,15 @@ const A2_WORDS = [
           "abstellen"
         ],
         "purple": [
-          "nolikt",
-          "novietot",
           "disable",
           "turn off",
           "to prevent"
         ],
         "yellow": [
           "auto",
-          "a bicycle",
-          "soma",
           "water",
           "gas",
           "electricity",
-          "motors",
           "alarm clock"
         ],
         "red": [
@@ -2710,7 +2608,7 @@ const A2_WORDS = [
         {
           "word": "anwenden",
           "meaning": "Apply",
-          "example": "Ich wende die Regel an. = Es pielietoju noteikumu."
+          "example": "Ich wende die Regel an. – I apply the rule."
         }
       ],
       "tip": {
@@ -2899,13 +2797,8 @@ const A2_WORDS = [
                 "blue": [
                   "angewandt"
                 ],
-                "purple": [
-                  "practical"
-                ],
                 "green": [
-                  "science",
-                  "for research",
-                  "for studies"
+                  "science"
                 ]
               }
             },
@@ -2913,13 +2806,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "angewandt"
-                ],
-                "purple": [
-                  "pielietots"
-                ],
-                "green": [
-                  "metodi",
-                  "noteikumu"
                 ]
               }
             }
@@ -2957,19 +2843,10 @@ const A2_WORDS = [
           "angewandte",
           "angewandten"
         ],
-        "green": [
-          "pielietots",
-          "pielietota",
-          "pielietot",
-          "pielietoju"
-        ],
         "yellow": [
-          "practical",
-          "In business",
-          "in business"
+          "practical"
         ],
         "purple": [
-          "praktisks",
           "praktisch"
         ],
         "red": [
@@ -3057,7 +2934,6 @@ const A2_WORDS = [
           "angegriffen"
         ],
         "green": [
-          "uzbrukt",
           "attack"
         ],
         "yellow": [
@@ -3065,12 +2941,7 @@ const A2_WORDS = [
           "Kritik"
         ],
         "red": [
-          "beleidigen",
-          "apvaino"
-        ],
-        "purple": [
-          "aizskarta",
-          "sharply criticised"
+          "beleidigen"
         ]
       },
       "sectionAccents": {
@@ -3078,14 +2949,7 @@ const A2_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "blue": [
-                  "angreifen"
-                ],
-                "purple": [
-                  "uzbrukums"
-                ],
                 "green": [
-                  "fizisks",
                   "direct"
                 ]
               }
@@ -3094,12 +2958,6 @@ const A2_WORDS = [
               "text": {
                 "red": [
                   "beleidigen"
-                ],
-                "purple": [
-                  "apvaino"
-                ],
-                "green": [
-                  "words"
                 ]
               }
             }
@@ -3187,7 +3045,7 @@ const A2_WORDS = [
         {
           "word": "der Anhänger",
           "meaning": "Trailer / supporter / pendant",
-          "example": "Der Anhänger ist schwer. = Piekabe ir smaga."
+          "example": "Der Anhänger ist schwer. – The trailer is heavy."
         },
         {
           "word": "der Fan",
@@ -3223,22 +3081,14 @@ const A2_WORDS = [
         "blue": [
           "Anhänger"
         ],
-        "green": [
-          "piekabe",
-          "Piekabe"
-        ],
         "yellow": [
           "an adherent",
-          "I agreed",
           "supporter"
         ],
         "red": [
-          "Fan",
-          "fani"
+          "Fan"
         ],
         "purple": [
-          "kulons",
-          "kulonu",
           "Kette"
         ]
       },
@@ -3250,9 +3100,6 @@ const A2_WORDS = [
                 "blue": [
                   "Anhänger"
                 ],
-                "purple": [
-                  "piekabi"
-                ],
                 "green": [
                   "Auto",
                   "Lastwagen"
@@ -3261,13 +3108,6 @@ const A2_WORDS = [
             },
             {
               "text": {
-                "blue": [
-                  "Anhänger"
-                ],
-                "purple": [
-                  "I agreed",
-                  "kulonu"
-                ],
                 "green": [
                   "Partei",
                   "Idee",
@@ -3281,9 +3121,6 @@ const A2_WORDS = [
         "important": [
           {
             "text": {
-              "blue": [
-                "Anhänger"
-              ],
               "purple": [
                 "not",
                 "not",
@@ -3294,11 +3131,6 @@ const A2_WORDS = [
               "blue": [
                 "Autoanhänger",
                 "Anhänger"
-              ],
-              "purple": [
-                "not",
-                "not",
-                "not"
               ],
               "green": [
                 "Partei",
@@ -3359,7 +3191,7 @@ const A2_WORDS = [
         {
           "word": "anzünden",
           "meaning": "Set fire to",
-          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
+          "example": "Ich zünde die Kerze an. – I light the candle."
         },
         {
           "word": "verschärfen",
@@ -3387,19 +3219,8 @@ const A2_WORDS = [
           "heizen",
           "angeheizt"
         ],
-        "green": [
-          "iekurt",
-          "iekuram",
-          "iekuru"
-        ],
-        "yellow": [
-          "to fuel",
-          "uzkurina",
-          "fueled"
-        ],
         "red": [
           "aggravate",
-          "aggravated",
           "verschärfen"
         ],
         "purple": [
@@ -3417,10 +3238,6 @@ const A2_WORDS = [
                 "blue": [
                   "anheizen"
                 ],
-                "purple": [
-                  "iekurt",
-                  "to fuel"
-                ],
                 "yellow": [
                   "Ofen",
                   "Feuer",
@@ -3430,12 +3247,6 @@ const A2_WORDS = [
             },
             {
               "text": {
-                "blue": [
-                  "anheizen"
-                ],
-                "purple": [
-                  "aggravate"
-                ],
                 "green": [
                   "Stimmung",
                   "Diskussion",
@@ -3568,7 +3379,7 @@ const A2_WORDS = [
         {
           "word": "anlegen",
           "meaning": "Impose / invest / create",
-          "example": "Ich lege Geld an. = Es ieguldu naudu."
+          "example": "Ich lege Geld an. – I invest money."
         },
         {
           "word": "legen",
@@ -3578,12 +3389,12 @@ const A2_WORDS = [
         {
           "word": "investieren",
           "meaning": "To invest",
-          "example": "Ich investiere Geld. = Es ieguldu naudu."
+          "example": "Ich investiere Geld. – I invest money."
         },
         {
           "word": "erstellen",
           "meaning": "To create",
-          "example": "Ich erstelle ein Konto. = Es izveidoju kontu."
+          "example": "Ich erstelle ein Konto. – I create an account."
         }
       ],
       "tip": {
@@ -3794,10 +3605,8 @@ const A2_WORDS = [
                   "anlegen"
                 ],
                 "yellow": [
-                  "in context",
                   "to invest",
-                  "anlegen",
-                  "Naudas"
+                  "anlegen"
                 ]
               }
             },
@@ -3806,13 +3615,8 @@ const A2_WORDS = [
                 "blue": [
                   "anlegen"
                 ],
-                "red": [
-                  "izveidot"
-                ],
                 "yellow": [
-                  "izveidot",
                   "anlegen",
-                  "On the computer",
                   "Datei",
                   "Konto"
                 ]
@@ -3830,7 +3634,6 @@ const A2_WORDS = [
                 "Gurt",
                 "Gurt",
                 "anlegen",
-                "Konto",
                 "Gurt"
               ]
             },
@@ -3838,18 +3641,9 @@ const A2_WORDS = [
               "blue": [
                 "anlegen"
               ],
-              "green": [
-                "Gurt"
-              ],
-              "yellow": [
-                "Gurt"
-              ],
               "red": [
-                "Gurt",
-                "Gurt",
                 "anlegen",
                 "Konto",
-                "Gurt",
                 "Geld"
               ]
             }
@@ -3858,43 +3652,26 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "multifaceted",
           "standardStudy",
           "For clothing",
-          "actions",
-          "security",
           "to invest",
-          "izveidot",
-          "profilam",
           "anlegen",
-          "Failiem",
           "mean",
-          "pielikt",
-          "jostai",
-          "Naudai",
-          "uzlikt",
-          "folders",
-          "word"
+          "folders"
         ],
         "green": [
-          "uzlikt",
           "legen"
         ],
         "yellow": [
           "investieren",
           "to invest"
         ],
-        "orange": [
-          "pielikt"
-        ],
         "purple": [
-          "put on • impose • invest • create",
           "impose / invest / create",
           "to lay down"
         ],
         "red": [
-          "erstellen",
-          "izveidot"
+          "erstellen"
         ]
       }
     }
@@ -3945,7 +3722,7 @@ const A2_WORDS = [
         {
           "word": "anmelden",
           "meaning": "Apply / register / write down",
-          "example": "Ich melde mich an. = Es piesakos."
+          "example": "Ich melde mich an. – I am registering."
         },
         {
           "word": "sich anmelden",
@@ -4009,7 +3786,6 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "register",
                 "child"
               ]
             }
@@ -4059,8 +3835,7 @@ const A2_WORDS = [
             "lv": {
               "purple": [
                 "visit",
-                "in advance",
-                "announce"
+                "in advance"
               ]
             }
           },
@@ -4198,14 +3973,8 @@ const A2_WORDS = [
                 "blue": [
                   "anmelden"
                 ],
-                "orange": [
-                  "register"
-                ],
                 "yellow": [
-                  "anmelden",
-                  "the event",
-                  "kursu",
-                  "testu"
+                  "anmelden"
                 ]
               }
             },
@@ -4238,7 +4007,6 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "registered",
-                "anmelden",
                 "child",
                 "melde",
                 "Kind",
@@ -4252,38 +4020,28 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "events",
-          "to write down",
           "register",
           "anmelden",
           "register",
           "systems",
-          "people",
-          "kursiem",
           "mean",
           "to announce",
           "membership",
-          "skolai",
           "visit",
-          "doctor",
-          "lieto",
-          "lietu"
+          "doctor"
         ],
         "green": [
           "sich anmelden",
-          "to connect",
           "register"
         ],
         "yellow": [
-          "registrieren",
-          "to write down"
+          "registrieren"
         ],
         "orange": [
           "register",
-          "register",
-          "to report"
+          "register"
         ],
         "purple": [
-          "apply • register • write down • notify",
           "apply / register / write down",
           "apply / connect",
           "report / notify",
@@ -4365,7 +4123,7 @@ const A2_WORDS = [
         {
           "word": "anstecken",
           "meaning": "Pin / ignite / infect",
-          "example": "Ich stecke die Kerze an. = Es aizdedzinu sveci."
+          "example": "Ich stecke die Kerze an. – I light the candle."
         },
         {
           "word": "stecken",
@@ -4375,7 +4133,7 @@ const A2_WORDS = [
         {
           "word": "anzünden",
           "meaning": "Set fire to",
-          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
+          "example": "Ich zünde die Kerze an. – I light the candle."
         },
         {
           "word": "sich anstecken",
@@ -4408,7 +4166,6 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "pin",
                 "brooch"
               ]
             }
@@ -4582,13 +4339,9 @@ const A2_WORDS = [
                   "anstecken"
                 ],
                 "yellow": [
-                  "get infected",
                   "anstecken",
                   "diseases",
                   "to infect"
-                ],
-                "purple": [
-                  "get infected"
                 ]
               }
             },
@@ -4597,13 +4350,8 @@ const A2_WORDS = [
                 "blue": [
                   "anstecken"
                 ],
-                "orange": [
-                  "piespraust"
-                ],
                 "yellow": [
-                  "piespraust",
                   "anstecken",
-                  "mikrofonu",
                   "badge",
                   "brooch"
                 ]
@@ -4631,19 +4379,8 @@ const A2_WORDS = [
               "blue": [
                 "anstecken"
               ],
-              "green": [
-                "jemanden"
-              ],
-              "orange": [
-                "jemanden"
-              ],
-              "purple": [
-                "jemanden"
-              ],
               "red": [
                 "sich anstecken",
-                "jemanden",
-                "jemanden",
                 "anstecken",
                 "Brosche",
                 "brooch"
@@ -4658,22 +4395,15 @@ const A2_WORDS = [
           "set fire to",
           "different",
           "get infected",
-          "piespraust",
           "anstecken",
-          "cigareti",
           "In medicine",
           "several",
-          "clothing",
-          "diezgan",
           "to infect",
           "mean",
-          "for the word",
-          "sveci",
           "someone"
         ],
         "green": [
           "set fire to",
-          "atrasties",
           "stecken"
         ],
         "yellow": [
@@ -4681,12 +4411,10 @@ const A2_WORDS = [
           "to infect"
         ],
         "orange": [
-          "piespraust",
           "poke"
         ],
         "purple": [
           "pin / ignite / infect",
-          "pin • ignite • infect",
           "to poke / to be",
           "get infected"
         ],
@@ -4969,10 +4697,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "anstellen",
-                  "accept",
-                  "often",
-                  "at work",
-                  "darbu"
+                  "often"
                 ]
               }
             },
@@ -4985,11 +4710,7 @@ const A2_WORDS = [
                   "sich anstellen"
                 ],
                 "yellow": [
-                  "casual",
-                  "izteiciens",
-                  "for parking",
-                  "anstellen",
-                  "in line"
+                  "anstellen"
                 ]
               }
             }
@@ -5005,8 +4726,7 @@ const A2_WORDS = [
                 "anstellen",
                 "jemanden",
                 "Jemanden",
-                "Jemanden",
-                "such"
+                "Jemanden"
               ]
             },
             "example": {
@@ -5014,14 +4734,11 @@ const A2_WORDS = [
                 "anstellen"
               ],
               "yellow": [
-                "stand in line",
-                "jemanden"
+                "stand in line"
               ],
               "red": [
                 "sich anstellen",
                 "anstellen",
-                "jemanden",
-                "jemanden",
                 "etwas",
                 "in line"
               ]
@@ -5031,44 +4748,31 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "multifaceted",
           "standardStudy",
           "Colloquially",
           "anstellen",
-          "stand up",
-          "actions",
           "people",
           "turn on",
-          "to make",
           "mean",
-          "accept",
-          "apkuri",
-          "the device",
-          "at work",
-          "in line",
-          "word"
+          "in line"
         ],
         "green": [
           "to hire",
-          "einstellen",
-          "to set"
+          "einstellen"
         ],
         "yellow": [
           "stand in line",
-          "anschalten",
-          "to make"
+          "anschalten"
         ],
         "orange": [
           "turn on"
         ],
         "purple": [
-          "turn on • hire • line up • make",
           "hire / turn on / make",
           "recruit / set"
         ],
         "red": [
-          "sich anstellen",
-          "to make"
+          "sich anstellen"
         ]
       }
     }
@@ -5373,8 +5077,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "warm",
-                "live"
+                "warm"
               ]
             }
           }
@@ -5413,15 +5116,6 @@ const A2_WORDS = [
                 "blue": [
                   "die Art",
                   "Art"
-                ],
-                "purple": [
-                  "veids"
-                ],
-                "yellow": [
-                  "to think",
-                  "safe",
-                  "neesi",
-                  "vari"
                 ]
               }
             },
@@ -5432,7 +5126,6 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "andere",
-                  "In phrases",
                   "welche",
                   "diese"
                 ]
@@ -5452,66 +5145,20 @@ const A2_WORDS = [
                 "The"
               ]
             },
-            "example": {
-              "purple": [
-                "The"
-              ],
-              "red": [
-                "The",
-                "The",
-                "The",
-                "The",
-                "The",
-                "The"
-              ]
-            }
+            "example": {}
           }
         ]
       },
       "accents": {
         "blue": [
           "standardStudy",
-          "the solution",
-          "a drink",
           "die Art",
           "andere",
-          "intended",
-          "in phrases",
-          "to ask",
           "welche",
           "often",
-          "darbs",
           "diese",
-          "lieta",
-          "lieto",
-          "veida",
-          "Veids",
           "what",
           "Art"
-        ],
-        "green": [
-          "type of person",
-          "technique"
-        ],
-        "yellow": [
-          "der Typ",
-          "Typ"
-        ],
-        "orange": [
-          "tips"
-        ],
-        "purple": [
-          "type / human type",
-          "type / technique",
-          "die Weise",
-          "breed",
-          "Veids",
-          "Weise",
-          "suga"
-        ],
-        "red": [
-          "die Sorte",
-          "Sorte"
         ]
       }
     }
@@ -5577,7 +5224,7 @@ const A2_WORDS = [
         {
           "word": "der bestimmte Artikel",
           "meaning": "The definite article",
-          "example": "Der bestimmte Artikel ist „der“. = Noteiktais artikuls ir „der“."
+          "example": "Der bestimmte Artikel ist „der“. – The definite article is \"der\"."
         },
         {
           "word": "der Paragraph",
@@ -5844,14 +5491,8 @@ const A2_WORDS = [
                 "blue": [
                   "Artikel"
                 ],
-                "orange": [
-                  "raksts"
-                ],
                 "yellow": [
-                  "Artikel",
-                  "medijos",
-                  "Tekstos",
-                  "raksts"
+                  "Artikel"
                 ]
               }
             },
@@ -5860,17 +5501,9 @@ const A2_WORDS = [
                 "blue": [
                   "Artikel"
                 ],
-                "green": [
-                  "prece"
-                ],
                 "yellow": [
-                  "in grammar",
-                  "artikuls",
                   "Artikel",
-                  "In the store",
-                  "is changing",
-                  "meaning",
-                  "prece"
+                  "meaning"
                 ]
               }
             }
@@ -5923,18 +5556,12 @@ const A2_WORDS = [
           "on the internet",
           "Legal",
           "artikuls",
-          "artikulu",
-          "for example",
           "Artikel",
           "mean",
-          "In the store",
-          "in the magazine",
           "raksts",
-          "rakstu",
           "in the newspaper",
           "pants",
-          "prece",
-          "preci"
+          "prece"
         ],
         "green": [
           "der Zeitungsartikel",
@@ -5951,7 +5578,6 @@ const A2_WORDS = [
           "raksts"
         ],
         "purple": [
-          "raksts • prece • artikuls • pants",
           "definite article",
           "paragraph / article",
           "newspaper article",
@@ -6387,14 +6013,9 @@ const A2_WORDS = [
                 "blue": [
                   "aufheben"
                 ],
-                "orange": [
-                  "pacelt"
-                ],
                 "yellow": [
                   "aufheben",
-                  "pacelt",
-                  "often",
-                  "zemes"
+                  "often"
                 ]
               }
             },
@@ -6403,15 +6024,9 @@ const A2_WORDS = [
                 "blue": [
                   "aufheben"
                 ],
-                "green": [
-                  "atcelt"
-                ],
                 "yellow": [
-                  "noteikumu",
                   "aufheben",
-                  "atcelt",
-                  "decision",
-                  "runa"
+                  "decision"
                 ]
               }
             }
@@ -6459,40 +6074,28 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "aizliegumu",
           "different",
-          "noteikumu",
           "aufheben",
           "must be seen",
           "save",
           "meanings",
           "mean",
           "for later",
-          "atcelt",
-          "laikam",
           "decision",
-          "pacelt",
-          "therefore",
-          "word",
-          "zemes"
+          "word"
         ],
         "green": [
-          "atcelt",
           "heben"
         ],
         "yellow": [
           "save",
           "absagen"
         ],
-        "orange": [
-          "pacelt"
-        ],
         "purple": [
           "lift / cancel / save",
           "raise • cancel • save",
           "cancel the event",
-          "keep",
-          "celt"
+          "keep"
         ],
         "red": [
           "behalten"
@@ -6621,11 +6224,6 @@ const A2_WORDS = [
           "Circulation",
           "circulation"
         ],
-        "yellow": [
-          "Izdevums",
-          "izdevums",
-          "in the edition"
-        ],
         "red": [
           "Condition",
           "condition"
@@ -6645,8 +6243,7 @@ const A2_WORDS = [
                   "Auflage"
                 ],
                 "purple": [
-                  "circulation",
-                  "izdevumu"
+                  "circulation"
                 ],
                 "green": [
                   "Zeitung",
@@ -6657,14 +6254,10 @@ const A2_WORDS = [
             },
             {
               "text": {
-                "blue": [
-                  "Auflage"
-                ],
                 "purple": [
                   "condition"
                 ],
                 "green": [
-                  "Genehmigung",
                   "Vertrag",
                   "Behörde"
                 ]
@@ -6692,7 +6285,6 @@ const A2_WORDS = [
               ],
               "purple": [
                 "circulation",
-                "die",
                 "conditions"
               ]
             }
@@ -6764,12 +6356,12 @@ const A2_WORDS = [
         {
           "word": "die Aufnahme",
           "meaning": "Shooting / recording / photo",
-          "example": "Die Aufnahme ist gut. = Ieraksts ir labs."
+          "example": "Die Aufnahme ist gut. – The recording is good."
         },
         {
           "word": "das Foto",
           "meaning": "Photograph / photo",
-          "example": "Das Foto ist schön. = Foto ir skaists."
+          "example": "Das Foto ist schön. – The photo is lovely."
         },
         {
           "word": "das Bild",
@@ -6809,11 +6401,6 @@ const A2_WORDS = [
           "Admission",
           "admission"
         ],
-        "yellow": [
-          "Ieraksts",
-          "ierakstu",
-          "ieraksts"
-        ],
         "purple": [
           "Photo",
           "photo",
@@ -6832,12 +6419,9 @@ const A2_WORDS = [
                   "Aufnahme"
                 ],
                 "purple": [
-                  "photograph",
-                  "videoierakstu"
+                  "photograph"
                 ],
                 "yellow": [
-                  "Kamera",
-                  "Foto",
                   "Video"
                 ]
               }
@@ -6851,9 +6435,7 @@ const A2_WORDS = [
                   "admission"
                 ],
                 "green": [
-                  "skolu",
-                  "hospital",
-                  "kursu"
+                  "hospital"
                 ]
               }
             }
@@ -6882,12 +6464,10 @@ const A2_WORDS = [
               ],
               "purple": [
                 "photo",
-                "die",
                 "admission"
               ],
               "green": [
-                "Krankenhaus",
-                "die"
+                "Krankenhaus"
               ]
             }
           }
@@ -6934,7 +6514,7 @@ const A2_WORDS = [
         {
           "word": "aufnehmen",
           "meaning": "Record / record / accept",
-          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
+          "example": "Ich nehme ein Lied auf. – I record a song."
         },
         {
           "word": "nehmen",
@@ -7158,16 +6738,11 @@ const A2_WORDS = [
                 "green": [
                   "record"
                 ],
-                "orange": [
-                  "to admit"
-                ],
                 "yellow": [
                   "aufnehmen",
-                  "in context",
                   "audio",
                   "often",
-                  "Video",
-                  "foto"
+                  "Video"
                 ]
               }
             },
@@ -7178,10 +6753,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "aufnehmen",
-                  "to people",
                   "accept",
-                  "often",
-                  "in the group"
+                  "often"
                 ]
               }
             }
@@ -7209,16 +6782,11 @@ const A2_WORDS = [
               "green": [
                 "nehmen"
               ],
-              "orange": [
-                "ein"
-              ],
               "red": [
                 "aufnehmen",
                 "jemanden",
                 "Arbeit",
-                "ein",
-                "someone",
-                "ein"
+                "someone"
               ]
             }
           }
@@ -7229,20 +6797,13 @@ const A2_WORDS = [
           "standardStudy",
           "aufnehmen",
           "record",
-          "kontaktu",
-          "in the hospital",
           "people",
           "mean",
           "accept",
           "to admit",
-          "darbu",
-          "in the group",
           "sound",
-          "at school",
           "video",
-          "foto",
-          "to start",
-          "in himself"
+          "to start"
         ],
         "green": [
           "record",
@@ -7256,7 +6817,6 @@ const A2_WORDS = [
           "to admit"
         ],
         "purple": [
-          "admit • record • accept • begin",
           "record / record / accept",
           "to take"
         ],
@@ -7530,13 +7090,10 @@ const A2_WORDS = [
                   "aufrichtig"
                 ],
                 "purple": [
-                  "patiess",
                   "sincere"
                 ],
                 "green": [
-                  "An apology",
-                  "condolences",
-                  "wish"
+                  "condolences"
                 ]
               }
             },
@@ -7544,9 +7101,6 @@ const A2_WORDS = [
               "text": {
                 "red": [
                   "ehrlich"
-                ],
-                "purple": [
-                  "nemelo"
                 ]
               }
             }
@@ -7584,16 +7138,9 @@ const A2_WORDS = [
           "aufrichtiges",
           "aufrichtigen"
         ],
-        "green": [
-          "patiess",
-          "patiesa",
-          "patiesi",
-          "patiesajiem"
-        ],
         "yellow": [
           "sincere",
-          "sincere",
-          "Sincerely"
+          "sincere"
         ],
         "red": [
           "ehrlich",
@@ -7647,17 +7194,17 @@ const A2_WORDS = [
         {
           "word": "aufrufen",
           "meaning": "Call / open / invite",
-          "example": "Ich rufe die Seite auf. = Es atveru lapu."
+          "example": "Ich rufe die Seite auf. – I call up the page."
         },
         {
           "word": "rufen",
           "meaning": "To call",
-          "example": "Ich rufe dich. = Es tevi saucu."
+          "example": "Ich rufe dich. – I call you."
         },
         {
           "word": "öffnen",
           "meaning": "To open",
-          "example": "Ich öffne die Datei. = Es atveru failu."
+          "example": "Ich öffne die Datei. – I open the file."
         },
         {
           "word": "auffordern",
@@ -7685,18 +7232,12 @@ const A2_WORDS = [
           "ruft",
           "rufen"
         ],
-        "green": [
-          "Izsaukt",
-          "izsauc"
-        ],
         "yellow": [
           "Open",
-          "to open",
-          "atveriet"
+          "to open"
         ],
         "red": [
-          "Invite",
-          "aicina"
+          "Invite"
         ],
         "purple": [
           "Webseite",
@@ -7709,9 +7250,6 @@ const A2_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "blue": [
-                  "aufrufen"
-                ],
                 "purple": [
                   "to open"
                 ],
@@ -7724,17 +7262,12 @@ const A2_WORDS = [
             },
             {
               "text": {
-                "blue": [
-                  "aufrufen"
-                ],
                 "purple": [
-                  "izsaukt",
                   "invite"
                 ],
                 "green": [
                   "Namen",
-                  "Nummer",
-                  "zu + kam?"
+                  "Nummer"
                 ]
               }
             }
@@ -7743,9 +7276,6 @@ const A2_WORDS = [
         "important": [
           {
             "text": {
-              "blue": [
-                "aufrehen"
-              ],
               "purple": [
                 "Auspending"
               ],
@@ -7756,11 +7286,6 @@ const A2_WORDS = [
             "example": {
               "blue": [
                 "aufrehen"
-              ],
-              "purple": [
-                "auspending",
-                "auspending",
-                "auspending"
               ],
               "green": [
                 "Namen",
@@ -8073,15 +7598,9 @@ const A2_WORDS = [
                 "green": [
                   "to apply"
                 ],
-                "orange": [
-                  "uzdot"
-                ],
                 "yellow": [
                   "Aufgabe",
-                  "objektu",
-                  "Skaties",
-                  "Creme",
-                  "uzdot"
+                  "Creme"
                 ]
               }
             },
@@ -8092,14 +7611,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "auftragen",
-                  "in context",
-                  "pasniegt",
                   "Food",
-                  "closer",
-                  "nothing"
-                ],
-                "orange": [
-                  "uzdot"
+                  "closer"
                 ]
               }
             }
@@ -8150,20 +7663,10 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "auftragen",
-          "actions",
-          "pasniegt",
-          "important ones",
-          "uzdevumu",
-          "to several",
           "meanings",
           "mean",
-          "virsmas",
           "to apply",
-          "darbu",
-          "colour",
           "cream",
-          "uzdot",
-          "word",
           "glue"
         ],
         "green": [
@@ -8171,18 +7674,12 @@ const A2_WORDS = [
           "geben"
         ],
         "yellow": [
-          "anstreichen",
-          "pasniegt"
-        ],
-        "orange": [
-          "uzdot"
+          "anstreichen"
         ],
         "purple": [
           "ask / apply / present",
-          "ask • apply • serve",
           "serve food",
-          "paint the surface",
-          "dot"
+          "paint the surface"
         ],
         "red": [
           "servieren"
@@ -8444,32 +7941,19 @@ const A2_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "blue": [
-                  "auftreten"
-                ],
                 "yellow": [
-                  "auftreten",
                   "problem",
-                  "simptomu",
-                  "often",
-                  "lieto",
-                  "runa"
+                  "often"
                 ]
               }
             },
             {
               "text": {
-                "blue": [
-                  "auftreten"
-                ],
                 "green": [
                   "to perform"
                 ],
                 "yellow": [
-                  "auftreten",
-                  "to perform",
-                  "skatuvi",
-                  "runa"
+                  "to perform"
                 ]
               }
             }
@@ -8506,24 +7990,16 @@ const A2_WORDS = [
           "behave",
           "appear",
           "auftreten",
-          "in context",
           "to perform",
           "behaviour",
-          "specified",
           "problem",
-          "simptoms",
-          "skatuves",
           "Human",
           "mean",
-          "rasties",
-          "error",
-          "lieto",
-          "rodas"
+          "error"
         ],
         "green": [
           "perform a role",
           "erscheinen",
-          "ierasties",
           "to perform"
         ],
         "yellow": [
@@ -8531,11 +8007,9 @@ const A2_WORDS = [
           "spielen"
         ],
         "orange": [
-          "appear",
-          "to play"
+          "appear"
         ],
         "purple": [
-          "appear • perform • behave",
           "play / perform a role",
           "appear / arrive",
           "appear / perform"
@@ -8590,7 +8064,7 @@ const A2_WORDS = [
         {
           "word": "aufwenden",
           "meaning": "Devote / invest / consume",
-          "example": "Ich wende viel Zeit auf. = Es veltu daudz laika."
+          "example": "Ich wende viel Zeit auf. – I spend a lot of time on it."
         },
         {
           "word": "ausgeben",
@@ -8796,10 +8270,6 @@ const A2_WORDS = [
                 "blue": [
                   "aufwenden"
                 ],
-                "purple": [
-                  "dedicate",
-                  "to invest"
-                ],
                 "yellow": [
                   "Zeit",
                   "Mühe",
@@ -8861,28 +8331,17 @@ const A2_WORDS = [
           "aufgewendet",
           "wendet"
         ],
-        "green": [
-          "dedicate",
-          "velta",
-          "wasted",
-          "should be dedicated"
-        ],
         "yellow": [
           "to invest",
-          "invested",
-          "must be invested",
-          "we invest"
+          "invested"
         ],
         "red": [
           "ausgeben",
-          "to spend",
-          "spent"
+          "to spend"
         ],
         "purple": [
           "verbringen",
-          "accompany",
-          "investieren",
-          "to consume"
+          "investieren"
         ]
       }
     }
@@ -8926,7 +8385,7 @@ const A2_WORDS = [
         {
           "word": "aufzeichnen",
           "meaning": "Record / write down",
-          "example": "Ich zeichne das Video auf. = Es ierakstu video."
+          "example": "Ich zeichne das Video auf. – I'm recording the video."
         },
         {
           "word": "zeichnen",
@@ -8936,12 +8395,12 @@ const A2_WORDS = [
         {
           "word": "notieren",
           "meaning": "To write down",
-          "example": "Ich notiere die Adresse. = Es pierakstu adresi."
+          "example": "Ich notiere die Adresse. – I'm noting down the address."
         },
         {
           "word": "aufnehmen",
           "meaning": "Record / record",
-          "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
+          "example": "Ich nehme ein Lied auf. – I'm recording a song."
         }
       ],
       "tip": {
@@ -8965,14 +8424,10 @@ const A2_WORDS = [
           "zeichnen"
         ],
         "green": [
-          "record",
-          "we record",
-          "ieraksta"
+          "record"
         ],
         "yellow": [
-          "to write down",
-          "pieraksta",
-          "pierakstiet"
+          "to write down"
         ],
         "red": [
           "zeichnen",
@@ -8992,13 +8447,11 @@ const A2_WORDS = [
                   "aufzeichnen"
                 ],
                 "purple": [
-                  "record",
-                  "fix"
+                  "record"
                 ],
                 "yellow": [
                   "video",
-                  "sound",
-                  "datiem"
+                  "sound"
                 ]
               }
             },
@@ -9019,9 +8472,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "aufzeichnen"
-              ],
-              "red": [
-                "to draw"
               ]
             },
             "example": {
@@ -9336,26 +8786,15 @@ const A2_WORDS = [
                 "blue": [
                   "aussteigen"
                 ],
-                "orange": [
-                  "get off"
-                ],
                 "yellow": [
-                  "aussteigen",
-                  "transportu",
-                  "get off"
+                  "aussteigen"
                 ]
               }
             },
             {
               "text": {
-                "green": [
-                  "quit"
-                ],
                 "yellow": [
-                  "quit",
-                  "projektu",
-                  "contract",
-                  "grupu"
+                  "contract"
                 ]
               }
             }
@@ -9402,22 +8841,13 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "of the vehicle",
           "standardStudy",
           "aussteigen",
           "participation",
           "quit",
-          "to stop",
-          "autobusu",
-          "must be seen",
-          "Transferred",
-          "projekta",
-          "tramvaju",
-          "vilcienu",
           "mean",
           "get off",
           "Often",
-          "lieto",
           "auto"
         ],
         "green": [
@@ -9518,7 +8948,7 @@ const A2_WORDS = [
         {
           "word": "wählen",
           "meaning": "Choose / vote",
-          "example": "Ich wähle eine Partei. = Es balsoju par partiju."
+          "example": "Ich wähle eine Partei. – I vote for a party."
         },
         {
           "word": "aussuchen",
@@ -9756,35 +9186,19 @@ const A2_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "blue": [
-                  "auswählen"
-                ],
                 "yellow": [
-                  "auswählen",
-                  "suitable",
-                  "choose",
-                  "menus",
-                  "saraksta",
                   "word"
                 ]
               }
             },
             {
               "text": {
-                "blue": [
-                  "auswählen"
-                ],
                 "green": [
-                  "balsot",
                   "wählen"
                 ],
                 "yellow": [
-                  "in context",
-                  "politikas",
                   "mean",
-                  "balsot",
-                  "wählen",
-                  "therefore"
+                  "wählen"
                 ]
               }
             }
@@ -9832,25 +9246,15 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "to choose",
-          "the most suitable",
           "to choose",
           "auswählen",
           "candidate",
-          "sarakstos",
           "deliberately",
-          "possibilities",
-          "in the menus",
-          "to several",
-          "variantu",
-          "in questionnaires",
           "to select",
-          "in selection",
-          "often",
-          "lieto"
+          "often"
         ],
         "green": [
           "to select",
-          "balsot",
           "wählen"
         ],
         "yellow": [
@@ -9862,13 +9266,11 @@ const A2_WORDS = [
           "investigate"
         ],
         "purple": [
-          "choose • select • select",
           "investigate / select",
           "choose / select",
           "choose / vote",
           "markieren",
-          "to mark",
-          "izlemt"
+          "to mark"
         ],
         "red": [
           "entscheiden"
@@ -9932,12 +9334,12 @@ const A2_WORDS = [
         {
           "word": "ausziehen",
           "meaning": "Pull off / move out",
-          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
+          "example": "Ich ziehe die Schuhe aus. – I take off my shoes."
         },
         {
           "word": "anziehen",
           "meaning": "Put on",
-          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
+          "example": "Ich ziehe die Jacke an. – I put on my jacket."
         },
         {
           "word": "umziehen",
@@ -9961,7 +9363,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "ausziehen un umziehen nav viens un tas pats.",
+        "text": "ausziehen and umziehen are not the same thing.",
         "example": "ausziehen = move out. umziehen = to move to another place or to change clothes."
       },
       "sectionAccents": {
@@ -10150,13 +9552,8 @@ const A2_WORDS = [
                 "blue": [
                   "ausziehen"
                 ],
-                "orange": [
-                  "novilkt"
-                ],
                 "yellow": [
-                  "ausziehen",
-                  "Clothing",
-                  "novilkt"
+                  "ausziehen"
                 ]
               }
             },
@@ -10190,7 +9587,6 @@ const A2_WORDS = [
               "red": [
                 "ausziehen",
                 "umziehen",
-                "viens",
                 "Ausziehen"
               ]
             },
@@ -10210,7 +9606,6 @@ const A2_WORDS = [
                 "ausziehen",
                 "move out",
                 "umziehen",
-                "viens",
                 "ausziehen"
               ]
             }
@@ -10223,13 +9618,9 @@ const A2_WORDS = [
           "ausziehen",
           "move out",
           "apartment",
-          "to several",
           "clothing",
-          "novilkt",
           "meanings",
-          "nosaka",
           "Meaning",
-          "frequent",
           "word",
           "house"
         ],
@@ -10239,19 +9630,16 @@ const A2_WORDS = [
           "anziehen"
         ],
         "yellow": [
-          "umziehen",
-          "izvilkt"
+          "umziehen"
         ],
         "orange": [
-          "to move",
-          "novilkt"
+          "to move"
         ],
         "purple": [
           "pull off • move out",
           "move / change clothes",
           "pull off / move out",
-          "undress",
-          "uzvilkt"
+          "undress"
         ],
         "red": [
           "sich ausziehen"
@@ -10414,7 +9802,7 @@ const A2_WORDS = [
         {
           "word": "die Bahn",
           "meaning": "Railway / travelling by train",
-          "example": "Ich fahre mit der Bahn. = Es braucu ar vilcienu."
+          "example": "Ich fahre mit der Bahn. – I travel by train."
         },
         {
           "word": "der Zug",
@@ -10434,7 +9822,7 @@ const A2_WORDS = [
         {
           "word": "das Gleis",
           "meaning": "Track / platform",
-          "example": "Der Zug fährt von Gleis 3. = Vilciens atiet no 3. perona."
+          "example": "Der Zug fährt von Gleis 3. – The train leaves from platform 3."
         }
       ],
       "tip": {
@@ -10483,11 +9871,7 @@ const A2_WORDS = [
                 "Deutsche Bahn"
               ]
             },
-            "lv": {
-              "purple": [
-                "railway"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -10636,9 +10020,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "mit der Bahn fahren"
-                ],
-                "purple": [
-                  "drive ar vilcienu"
                 ]
               }
             },
@@ -10665,8 +10046,7 @@ const A2_WORDS = [
               ],
               "purple": [
                 "Die",
-                "Die",
-                "the particular train"
+                "Die"
               ]
             },
             "example": {
@@ -10710,13 +10090,8 @@ const A2_WORDS = [
         ],
         "purple": [
           "railway",
-          "vilciens",
-          "Vilciens",
-          "drive ar vilcienu",
           "a particular train",
-          "tramvajs",
           "railway station",
-          "perons",
           "track"
         ]
       }
@@ -10805,7 +10180,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "das Band un die Band nav viens un tas pats.",
+        "text": "das Band and die Band are not the same thing.",
         "example": "das Band = band / link. die Band = music group."
       },
       "sectionAccents": {
@@ -10945,18 +10320,8 @@ const A2_WORDS = [
                 "blue": [
                   "Band"
                 ],
-                "green": [
-                  "saite"
-                ],
                 "yellow": [
-                  "artikuls",
-                  "josla",
-                  "lente",
-                  "saite",
                   "Band"
-                ],
-                "orange": [
-                  "lente"
                 ]
               }
             },
@@ -10965,13 +10330,7 @@ const A2_WORDS = [
                 "blue": [
                   "Band"
                 ],
-                "purple": [
-                  "music group"
-                ],
                 "yellow": [
-                  "artikuls",
-                  "of music",
-                  "grupa",
                   "Band"
                 ]
               }
@@ -11021,43 +10380,17 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "to people",
           "technical",
           "das Band",
           "mean",
-          "a gift",
-          "tapes",
-          "saikni",
-          "joslu",
-          "lente",
-          "lenti",
-          "lieto",
-          "saite",
-          "saiti",
-          "starp",
-          "Band",
-          "matu"
-        ],
-        "green": [
-          "saite"
+          "Band"
         ],
         "yellow": [
           "das Förderband",
-          "Förderband",
-          "josla"
-        ],
-        "orange": [
-          "lente"
+          "Förderband"
         ],
         "purple": [
-          "lente / saite / josla",
-          "konveijera lente",
-          "music group",
-          "die Schleife",
-          "lente • saite",
-          "Schleife",
-          "saikne",
-          "bante"
+          "music group"
         ],
         "red": [
           "die Band"
@@ -11110,7 +10443,7 @@ const A2_WORDS = [
         {
           "word": "die Bank (Finanz)",
           "meaning": "Bank",
-          "example": "Ich gehe zur Bank. = Es eju uz banku. Plural: die Banken."
+          "example": "Ich gehe zur Bank. – I'm going to the bank. (plural: die Banken)"
         },
         {
           "word": "die Bank (Sitzbank)",
@@ -11318,15 +10651,9 @@ const A2_WORDS = [
                 "blue": [
                   "Bank"
                 ],
-                "orange": [
-                  "banka"
-                ],
                 "yellow": [
                   "payments",
-                  "kontu",
-                  "naudu",
-                  "Bank",
-                  "runa"
+                  "Bank"
                 ]
               }
             },
@@ -11335,15 +10662,9 @@ const A2_WORDS = [
                 "blue": [
                   "Bank"
                 ],
-                "green": [
-                  "sols"
-                ],
                 "yellow": [
                   "sitting",
-                  "ielas",
-                  "in the park",
-                  "Bank",
-                  "runa"
+                  "Bank"
                 ]
               }
             }
@@ -11384,41 +10705,20 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "in context",
-          "Composites",
           "die Bank",
-          "financial",
-          "institution",
-          "mean",
-          "helps",
-          "shoal",
           "sand",
           "a bench",
-          "banka",
-          "banku",
-          "Dabas",
-          "seed",
-          "water",
-          "Bank",
-          "kura",
-          "sols"
+          "Bank"
         ],
         "green": [
           "die Bankfiliale",
-          "Bankfiliale",
-          "sols"
+          "Bankfiliale"
         ],
         "yellow": [
           "die Parkbank",
-          "Parkbank",
-          "shoal"
-        ],
-        "orange": [
-          "banka"
+          "Parkbank"
         ],
         "purple": [
-          "bank / bench / bank",
-          "bank • bench • bank",
           "bank branch",
           "sandbank",
           "park bench",
@@ -11676,17 +10976,11 @@ const A2_WORDS = [
                 "blue": [
                   "bauen"
                 ],
-                "green": [
-                  "Celt"
-                ],
                 "orange": [
                   "Build"
                 ],
                 "yellow": [
-                  "konstrukciju",
-                  "bauen",
-                  "tiltu",
-                  "runa"
+                  "bauen"
                 ]
               }
             },
@@ -11698,16 +10992,10 @@ const A2_WORDS = [
                 "green": [
                   "rely on"
                 ],
-                "orange": [
-                  "lean on"
-                ],
                 "yellow": [
-                  "lean on",
                   "rely on",
                   "check",
-                  "meaning",
-                  "bauen",
-                  "redzi"
+                  "bauen"
                 ]
               }
             }
@@ -11751,49 +11039,29 @@ const A2_WORDS = [
         "blue": [
           "In agriculture",
           "standardStudy",
-          "Izgatavot",
           "for example",
           "mean",
           "to grow",
           "make",
-          "tiltus",
           "bauen",
           "Build",
-          "lieto",
           "hands",
-          "tikai",
           "is building",
-          "Celt",
           "buildings",
           "house"
         ],
         "green": [
-          "make general",
-          "rely on",
-          "Celt"
+          "rely on"
         ],
         "yellow": [
-          "auf etwas bauen",
-          "Izgatavot",
           "make"
         ],
         "orange": [
           "lean on",
-          "Build",
-          "to do",
-          "to produce"
+          "Build"
         ],
         "purple": [
-          "Build • Build • Make",
-          "do / make in general",
-          "rely / rely on",
-          "build • build • make",
-          "produce / make",
-          "herstellen",
           "to grow"
-        ],
-        "red": [
-          "machen"
         ]
       }
     }
@@ -12064,9 +11332,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "Bauer"
-                ],
-                "purple": [
-                  "zemnieks"
                 ]
               }
             },
@@ -12074,9 +11339,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "Bauer"
-                ],
-                "purple": [
-                  "bandinieks"
                 ],
                 "yellow": [
                   "chess"
@@ -12130,10 +11392,7 @@ const A2_WORDS = [
           "Spielstein"
         ],
         "purple": [
-          "zemnieks",
-          "bandinieks",
           "farm",
-          "lauksaimnieks",
           "figure",
           "the dice of the game"
         ]
@@ -12364,9 +11623,7 @@ const A2_WORDS = [
                 "Glas"
               ],
               "purple": [
-                "der",
-                "plastic cup",
-                "der"
+                "plastic cup"
               ]
             }
           }
@@ -12393,12 +11650,9 @@ const A2_WORDS = [
         ],
         "purple": [
           "cup",
-          "cups",
           "a glass",
           "a glass",
           "a cup",
-          "cups",
-          "a cardboard cup",
           "plastic cup"
         ]
       }
@@ -12455,7 +11709,7 @@ const A2_WORDS = [
         {
           "word": "benutzen",
           "meaning": "Use",
-          "example": "Ich benutze mein Handy. = Es lietoju telefonu."
+          "example": "Ich benutze mein Handy. – I use my mobile."
         },
         {
           "word": "helfen",
@@ -12686,9 +11940,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "bedienen"
-                ],
-                "purple": [
-                  "apkalpot"
                 ]
               }
             },
@@ -12696,10 +11947,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "bedienen"
-                ],
-                "purple": [
-                  "lietot",
-                  "to lead"
                 ]
               }
             }
@@ -12750,12 +11997,7 @@ const A2_WORDS = [
           "steuern"
         ],
         "purple": [
-          "apkalpot",
-          "apkalpo",
-          "lietot",
-          "lieto",
           "to lead",
-          "vada",
           "to help",
           "serve food"
         ]
@@ -13028,9 +12270,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "Bedienung"
-                ],
-                "purple": [
-                  "server"
                 ]
               }
             },
@@ -13065,7 +12304,6 @@ const A2_WORDS = [
                 "Bedienung"
               ],
               "purple": [
-                "server",
                 "service"
               ]
             }
@@ -13184,7 +12422,7 @@ const A2_WORDS = [
         {
           "word": "halten",
           "meaning": "Hold",
-          "example": "Ich halte die Tasche. = Es turu somu."
+          "example": "Ich halte die Tasche. – I'm holding the bag."
         },
         {
           "word": "sich merken",
@@ -13194,7 +12432,7 @@ const A2_WORDS = [
         {
           "word": "erinnern",
           "meaning": "Remember / remind",
-          "example": "Ich erinnere mich daran. = Es to atceros."
+          "example": "Ich erinnere mich daran. – I remember it."
         },
         {
           "word": "aufbewahren",
@@ -13449,7 +12687,6 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "information",
-                  "for numbers",
                   "behalten",
                   "words",
                   "often"
@@ -13504,25 +12741,17 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "subjects",
           "information",
           "to remember",
           "behalten",
-          "in possession",
           "mean",
           "keep",
-          "skaitli",
           "often",
           "in mind",
-          "sevis",
-          "therefore",
-          "tulko",
-          "word",
-          "in his own"
+          "word"
         ],
         "green": [
           "to remember",
-          "to remind",
           "halten"
         ],
         "yellow": [
@@ -13596,12 +12825,12 @@ const A2_WORDS = [
         {
           "word": "knapp",
           "meaning": "Barely / by a small margin",
-          "example": "Das war knapp. = Tas bija knapi."
+          "example": "Das war knapp. – That was close."
         },
         {
           "word": "kaum",
           "meaning": "Hardly / barely",
-          "example": "Ich kann kaum laufen. = Es tik tikko varu paiet."
+          "example": "Ich kann kaum laufen. – I can hardly walk."
         },
         {
           "word": "gerade noch",
@@ -13837,10 +13066,7 @@ const A2_WORDS = [
                 ],
                 "orange": [],
                 "yellow": [
-                  "nenotika",
-                  "beinahe",
-                  "notika",
-                  "lieto"
+                  "beinahe"
                 ]
               }
             },
@@ -13908,39 +13134,20 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "kontekstos",
-          "latviski",
-          "nenotika",
           "beinahe",
-          "notika",
-          "uzsver",
-          "for the word",
           "In some",
-          "tikko",
-          "however",
-          "fast",
-          "skan",
-          "tuvs",
-          "tuvu"
+          "fast"
         ],
         "green": [
           "by a small margin",
-          "tik tikko",
-          "tikko",
           "fast"
         ],
         "yellow": [
           "knapp"
         ],
-        "orange": [
-          "diez vai",
-          "knapi"
-        ],
         "purple": [
           "barely / by a small margin",
           "almost / barely",
-          "almost • barely",
-          "diez vai / tikko",
           "just barely",
           "gerade noch"
         ],
@@ -14028,7 +13235,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "bekannt is not the same as draugs.",
+        "text": "bekannt is not the same as “friend”.",
         "example": "bekannt = known / known. behrücht = famous. befreundet = in friends."
       },
       "sectionAccents": {
@@ -14242,7 +13449,6 @@ const A2_WORDS = [
                 "yellow": [
                   "information",
                   "bekannt",
-                  "faktiem",
                   "known"
                 ]
               }
@@ -14259,7 +13465,6 @@ const A2_WORDS = [
                   "known"
                 ],
                 "yellow": [
-                  "to people",
                   "known",
                   "bekannt",
                   "places",
@@ -14277,7 +13482,6 @@ const A2_WORDS = [
               ],
               "red": [
                 "bekannt",
-                "draugs",
                 "Bekannt"
               ]
             },
@@ -14290,8 +13494,7 @@ const A2_WORDS = [
                 "known"
               ],
               "orange": [
-                "known",
-                "draugs"
+                "known"
               ],
               "purple": [
                 "known / known",
@@ -14314,33 +13517,22 @@ const A2_WORDS = [
           "standardStudy",
           "information",
           "befreundet",
-          "relationship",
           "friendly",
           "known",
-          "raksturot",
           "bekannt",
           "a person",
           "people",
-          "slavens",
-          "citiem",
-          "known",
-          "fakts",
-          "faktu",
-          "vietu",
-          "pats"
+          "known"
         ],
         "green": [
-          "in a friendly relationship",
           "berühmt",
-          "ierasts",
           "known"
         ],
         "yellow": [
           "vertraut"
         ],
         "orange": [
-          "known",
-          "draugos"
+          "known"
         ],
         "purple": [
           "in friends / friendly relations",
@@ -14348,8 +13540,7 @@ const A2_WORDS = [
           "known / known",
           "familiar • known",
           "unbekannt",
-          "unknown",
-          "slavens"
+          "unknown"
         ],
         "red": [
           "befreundet"
@@ -14507,7 +13698,7 @@ const A2_WORDS = [
         {
           "word": "grüßen",
           "meaning": "Greet / convey greetings",
-          "example": "Grüß deine Mutter! = Pasveicini mammu!"
+          "example": "Grüß deine Mutter! – Give your mother my regards!"
         },
         {
           "word": "bearbeiten",
@@ -14565,11 +13756,7 @@ const A2_WORDS = [
                 "Kaffee"
               ]
             },
-            "lv": {
-              "purple": [
-                "order"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -14734,9 +13921,6 @@ const A2_WORDS = [
               "text": {
                 "green": [
                   "reservieren"
-                ],
-                "purple": [
-                  "to book"
                 ]
               }
             }
@@ -14767,7 +13951,6 @@ const A2_WORDS = [
                 "berbeiten"
               ],
               "purple": [
-                "to order",
                 "bestellen",
                 "process"
               ]
@@ -14803,9 +13986,7 @@ const A2_WORDS = [
           "order",
           "ordered",
           "to book",
-          "I booked",
-          "reserve a table",
-          "sveicienus"
+          "reserve a table"
         ]
       }
     }
@@ -14856,12 +14037,12 @@ const A2_WORDS = [
         {
           "word": "bestimmt",
           "meaning": "Definitely / determined / specific",
-          "example": "Das ist bestimmt richtig. = Tas noteikti ir pareizi."
+          "example": "Das ist bestimmt richtig. – That is definitely right."
         },
         {
           "word": "sicher",
           "meaning": "Sure / definitely",
-          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
+          "example": "Das ist sicher richtig. – That is surely right."
         },
         {
           "word": "konkret",
@@ -15119,10 +14300,6 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "blue": [
-                "bestimmt",
-                "bestimmt"
-              ],
               "green": [
                 "bestimmte",
                 "specific"
@@ -15155,8 +14332,7 @@ const A2_WORDS = [
           "certainly",
           "certain",
           "specific",
-          "probably",
-          "possible"
+          "probably"
         ]
       }
     }
@@ -15461,9 +14637,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "Birne"
-                ],
-                "purple": [
-                  "bumbieris"
                 ]
               }
             },
@@ -15471,13 +14644,6 @@ const A2_WORDS = [
               "text": {
                 "green": [
                   "Birne"
-                ],
-                "purple": [
-                  "spuldze"
-                ],
-                "yellow": [
-                  "lampu",
-                  "gaismu"
                 ]
               }
             }
@@ -15497,10 +14663,6 @@ const A2_WORDS = [
             "example": {
               "blue": [
                 "Birne"
-              ],
-              "purple": [
-                "die",
-                "die"
               ]
             }
           }
@@ -15522,14 +14684,6 @@ const A2_WORDS = [
           "Obst"
         ],
         "purple": [
-          "bumbieris",
-          "bumbieri",
-          "bumbierus",
-          "spuldze",
-          "Spuldze",
-          "spuldzi",
-          "lampa",
-          "Lampa",
           "fruits"
         ]
       }
@@ -15727,7 +14881,7 @@ const A2_WORDS = [
         {
           "word": "scharf",
           "meaning": "Sharp / spicy",
-          "example": "Die Suppe ist scharf. = Zupa ir asa."
+          "example": "Die Suppe ist scharf. – The soup is spicy."
         },
         {
           "word": "streng",
@@ -15764,11 +14918,7 @@ const A2_WORDS = [
                 "Kaffee"
               ]
             },
-            "lv": {
-              "purple": [
-                "taste"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -15966,8 +15116,7 @@ const A2_WORDS = [
                 "yellow": [
                   "bitter",
                   "taste",
-                  "bitter",
-                  "tulko"
+                  "bitter"
                 ]
               }
             },
@@ -15977,12 +15126,9 @@ const A2_WORDS = [
                   "bitter"
                 ],
                 "yellow": [
-                  "the truth",
                   "loss",
-                  "pieredzi",
                   "bitter",
-                  "often",
-                  "ass"
+                  "often"
                 ]
               }
             }
@@ -16024,38 +15170,28 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "loss",
-          "pieredzi",
           "chocolate",
           "mean",
           "words",
           "bitter",
-          "kafiju",
           "feeling",
-          "skarbs",
           "taste",
           "taste",
           "bitter",
-          "for medicines",
           "fierce"
         ],
         "green": [
-          "pikants",
           "sauer",
           "fierce"
         ],
         "yellow": [
-          "scharf",
-          "ass"
+          "scharf"
         ],
         "orange": [
-          "stingrs",
           "bitter"
         ],
         "purple": [
           "bitter / fierce / sharp",
-          "bitter • fierce • sharp",
-          "ass / pikants",
-          "stingrs / ass",
           "unpleasant",
           "unangenehm",
           "sour"
@@ -16196,7 +15332,7 @@ const A2_WORDS = [
         {
           "word": "die Erde",
           "meaning": "Land / soil",
-          "example": "Die Erde ist trocken. = Zeme ir sausa."
+          "example": "Die Erde ist trocken. – The soil is dry."
         },
         {
           "word": "der Grund",
@@ -16206,7 +15342,7 @@ const A2_WORDS = [
         {
           "word": "der Flaschenboden",
           "meaning": "The bottom of the bottle",
-          "example": "Der Flaschenboden ist dick. = Pudeles dibens ir biezs."
+          "example": "Der Flaschenboden ist dick. – The bottom of the bottle is thick."
         }
       ],
       "tip": {
@@ -16458,13 +15594,8 @@ const A2_WORDS = [
                 "blue": [
                   "Boden"
                 ],
-                "orange": [
-                  "the floor"
-                ],
                 "yellow": [
-                  "Boden",
-                  "the floor",
-                  "In the room"
+                  "Boden"
                 ]
               }
             },
@@ -16475,11 +15606,9 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "mean",
-                  "pudeles",
                   "Boden",
                   "In the garden",
-                  "in nature",
-                  "zemi"
+                  "in nature"
                 ]
               }
             }
@@ -16525,49 +15654,31 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "der Boden",
-          "Transferred",
           "mean",
-          "stabilu",
-          "augsne",
-          "augsni",
-          "dibens",
-          "pamats",
-          "pamatu",
           "often",
           "Boden",
           "the floor",
           "the floor",
-          "in the room",
-          "zeme",
-          "zemi"
+          "in the room"
         ],
         "green": [
           "der Fußboden",
-          "Fußboden",
-          "grunts",
-          "zeme"
+          "Fußboden"
         ],
         "yellow": [
           "die Erde",
-          "iemesls",
-          "augsne",
           "Erde"
         ],
         "orange": [
           "the floor"
         ],
         "purple": [
-          "floor • ground • soil • foundation • bottom",
-          "pamats / grunts / iemesls",
           "der Flaschenboden",
-          "pudeles dibens",
           "Flaschenboden",
-          "zeme / augsne",
           "floor in the room"
         ],
         "red": [
           "der Grund",
-          "pamats",
           "Grund"
         ]
       }
@@ -16642,7 +15753,7 @@ const A2_WORDS = [
         {
           "word": "geben",
           "meaning": "To give",
-          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
+          "example": "Ich gebe dir Geld. – I'm giving you money."
         },
         {
           "word": "zurückgeben",
@@ -16869,14 +15980,9 @@ const A2_WORDS = [
                 "blue": [
                   "borgen"
                 ],
-                "green": [
-                  "aizdot"
-                ],
                 "yellow": [
-                  "aizdot",
                   "borgen",
-                  "often",
-                  "citam"
+                  "often"
                 ]
               }
             }
@@ -16898,7 +16004,6 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "borrow",
-                "the",
                 "borge",
                 "etwas"
               ]
@@ -16910,24 +16015,14 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "borrow",
-          "latviski",
-          "personas",
-          "Virziens",
           "mean",
-          "skaidrs",
-          "aizdot",
           "borgen",
           "dative",
           "often",
-          "citam",
           "becomes",
-          "laiku",
-          "cita",
-          "dodu",
           "i take"
         ],
         "green": [
-          "aizdot",
           "leihen"
         ],
         "yellow": [
@@ -16940,8 +16035,7 @@ const A2_WORDS = [
           "lend / borrow",
           "borrow / lend",
           "borrow • lend",
-          "give back",
-          "dot"
+          "give back"
         ],
         "red": [
           "zurückgeben"
@@ -16993,7 +16087,7 @@ const A2_WORDS = [
         {
           "word": "schlecht",
           "meaning": "Bad",
-          "example": "Das Wetter ist schlecht. = Laiks ir slikts."
+          "example": "Das Wetter ist schlecht. – The weather is bad."
         },
         {
           "word": "zornig",
@@ -17224,9 +16318,6 @@ const A2_WORDS = [
                 ],
                 "blue": [
                   "böse"
-                ],
-                "purple": [
-                  "slikts"
                 ]
               }
             }
@@ -17239,7 +16330,6 @@ const A2_WORDS = [
                 "böse"
               ],
               "purple": [
-                "evil",
                 "angry"
               ],
               "green": [
@@ -17283,9 +16373,6 @@ const A2_WORDS = [
           "angry",
           "angry",
           "angry",
-          "slikts",
-          "slikta",
-          "nikns",
           "annoying",
           "sour"
         ]
@@ -17661,8 +16748,7 @@ const A2_WORDS = [
                 "brav"
               ],
               "purple": [
-                "obedient",
-                "nett"
+                "obedient"
               ],
               "green": [
                 "When",
@@ -17812,12 +16898,12 @@ const A2_WORDS = [
         {
           "word": "brennen",
           "meaning": "To burn / to burn / to hurt burningly",
-          "example": "Das Feuer brennt. = Uguns deg."
+          "example": "Das Feuer brennt. – The fire is burning."
         },
         {
           "word": "anzünden",
           "meaning": "Set fire to",
-          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
+          "example": "Ich zünde die Kerze an. – I light the candle."
         },
         {
           "word": "verbrennen",
@@ -17832,7 +16918,7 @@ const A2_WORDS = [
         {
           "word": "aufnehmen",
           "meaning": "Record / record",
-          "example": "Ich nehme ein Video auf. = Es ierakstu video."
+          "example": "Ich nehme ein Video auf. – I'm recording a video."
         }
       ],
       "tip": [
@@ -18001,9 +17087,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "brennen"
-              ],
-              "purple": [
-                "deg"
               ]
             }
           },
@@ -18014,7 +17097,6 @@ const A2_WORDS = [
                 "verbrennen"
               ],
               "purple": [
-                "kaut",
                 "burned"
               ]
             }
@@ -18301,7 +17383,7 @@ const A2_WORDS = [
         {
           "word": "dort",
           "meaning": "There",
-          "example": "Ich war dort. = Es biju tur."
+          "example": "Ich war dort. – I was there."
         },
         {
           "word": "außerdem",
@@ -18498,19 +17580,10 @@ const A2_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "blue": [
-                  "dabei"
-                ],
-                "green": [
-                  "along with"
-                ],
                 "yellow": [
-                  "latviski",
                   "say",
                   "German",
-                  "often",
-                  "along with",
-                  "vari"
+                  "often"
                 ]
               }
             },
@@ -18520,15 +17593,7 @@ const A2_WORDS = [
                   "dabei"
                 ],
                 "yellow": [
-                  "pievienotu",
-                  "in addition",
-                  "dabei",
-                  "lieto",
-                  "vienu",
-                  "doma"
-                ],
-                "red": [
-                  "pie tam"
+                  "dabei"
                 ]
               }
             }
@@ -18544,9 +17609,7 @@ const A2_WORDS = [
                 "da"
               ],
               "red": [
-                "dabei",
-                "Dabe",
-                "Dabe"
+                "dabei"
               ]
             },
             "example": {
@@ -18575,19 +17638,13 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "Colloquially",
           "simple",
-          "actions",
           "mean",
           "in addition",
-          "valodas",
           "often",
-          "frequent",
           "dabei",
           "along with",
-          "sevis",
           "Therefore",
-          "word",
           "someone",
           "present",
           "German"
@@ -18601,19 +17658,13 @@ const A2_WORDS = [
           "in addition"
         ],
         "orange": [
-          "together with",
-          "present",
-          "tur"
+          "present"
         ],
         "purple": [
-          "present • with • moreover • besides",
-          "present / with / besides",
-          "there / here / present",
-          "with / together with"
+          "present / with / besides"
         ],
         "red": [
-          "außerdem",
-          "pie tam"
+          "außerdem"
         ]
       }
     }
@@ -18679,7 +17730,7 @@ const A2_WORDS = [
         {
           "word": "dafür",
           "meaning": "For that / that / however",
-          "example": "Danke dafür. = Paldies par to."
+          "example": "Danke dafür. – Thanks for that."
         },
         {
           "word": "darum",
@@ -18694,7 +17745,7 @@ const A2_WORDS = [
         {
           "word": "dagegen",
           "meaning": "Against it",
-          "example": "Ich bin dagegen. = Es esmu pret to."
+          "example": "Ich bin dagegen. – I'm against it."
         },
         {
           "word": "für das",
@@ -18900,33 +17951,18 @@ const A2_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "blue": [
-                  "dafür"
-                ],
-                "orange": [
-                  "par to"
-                ],
                 "yellow": [
-                  "latviski",
                   "say",
                   "German",
-                  "often",
-                  "dafür",
-                  "vari"
+                  "often"
                 ]
               }
             },
             {
               "text": {
-                "blue": [
-                  "dafür"
-                ],
                 "yellow": [
-                  "contrast",
                   "in a sentence",
-                  "toties",
-                  "often",
-                  "dafür"
+                  "often"
                 ]
               }
             }
@@ -18951,21 +17987,12 @@ const A2_WORDS = [
               "blue": [
                 "dafür"
               ],
-              "green": [
-                "lai",
-                "tam"
-              ],
               "yellow": [
                 "damit"
               ],
-              "orange": [
-                "par to",
-                "ar to"
-              ],
               "red": [
                 "dafür",
-                "damit",
-                "esmu"
+                "damit"
               ]
             }
           }
@@ -18974,40 +18001,17 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "Colloquially",
-          "question",
           "mentioned",
-          "activity",
           "purpose",
-          "atbild",
-          "toties",
           "Often",
           "dafür",
-          "ideju",
-          "to someone",
-          "lieto",
-          "lietu",
-          "therefore",
-          "runa"
+          "therefore"
         ],
         "green": [
-          "dagegen",
-          "lai",
-          "tam"
+          "dagegen"
         ],
         "yellow": [
-          "toties",
           "damit"
-        ],
-        "orange": [
-          "par to",
-          "ar to"
-        ],
-        "purple": [
-          "for that • that • however • therefore",
-          "par to / tam / toties",
-          "ar to / lai",
-          "pret to"
         ],
         "red": [
           "deshalb",
@@ -19082,7 +18086,7 @@ const A2_WORDS = [
         {
           "word": "mit dem",
           "meaning": "With that particular thing",
-          "example": "Ich schreibe mit dem Stift. = Es rakstu ar to pildspalvu."
+          "example": "Ich schreibe mit dem Stift. – I write with the pen."
         },
         {
           "word": "um ... zu",
@@ -19285,10 +18289,7 @@ const A2_WORDS = [
                   "damit"
                 ],
                 "yellow": [
-                  "damit",
-                  "lieto",
-                  "lietu",
-                  "doma"
+                  "damit"
                 ]
               }
             },
@@ -19297,16 +18298,9 @@ const A2_WORDS = [
                 "blue": [
                   "damit"
                 ],
-                "green": [
-                  "lai"
-                ],
                 "yellow": [
-                  "notiktu",
-                  "purpose",
                   "often",
-                  "damit",
-                  "lieto",
-                  "doma"
+                  "damit"
                 ]
               }
             }
@@ -19317,9 +18311,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "damit"
-              ],
-              "green": [
-                "lai"
               ],
               "red": [
                 "Damit",
@@ -19359,39 +18350,20 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "the most important ones",
           "auxiliary clause",
-          "instrumentu",
-          "galvenie",
-          "must be separated",
-          "mean",
-          "in a sentence",
-          "words",
-          "purpose",
           "damit",
-          "lietu",
-          "Therefore",
-          "viens",
-          "divi",
-          "runa"
+          "Therefore"
         ],
         "green": [
           "dafür",
-          "lai",
-          "tam"
-        ],
-        "yellow": [
-          "weil"
+          "lai"
         ],
         "orange": [
           "par to",
           "ar to"
         ],
         "purple": [
-          "par to / tam",
-          "ar to / lai",
-          "ar to • lai",
-          "because"
+          "ar to / lai"
         ],
         "red": [
           "um ... zu"
@@ -19464,7 +18436,7 @@ const A2_WORDS = [
         {
           "word": "danken",
           "meaning": "To thank",
-          "example": "Ich danke dir. = Es tev pateicos."
+          "example": "Ich danke dir. – I thank you."
         },
         {
           "word": "Vielen Dank",
@@ -19474,7 +18446,7 @@ const A2_WORDS = [
         {
           "word": "bedanken (sich)",
           "meaning": "To thank formally",
-          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
+          "example": "Ich bedanke mich bei Ihnen. – I thank you."
         }
       ],
       "tip": {
@@ -19489,7 +18461,7 @@ const A2_WORDS = [
       },
       "important": {
         "text": "der Dank is a noun • danke is the answer • danken is a verb.",
-        "example": "Vielen Dank! = Liels paldies! Ich danke dir. = Es tev pateicos. Danke! = Paldies!"
+        "example": "Vielen Dank! = Thank you very much! Ich danke dir. = I thank you. Danke! = Thanks!"
       },
       "sectionAccents": {
         "explanation": {
@@ -19731,10 +18703,6 @@ const A2_WORDS = [
               "text": {
                 "green": [
                   "danke"
-                ],
-                "purple": [
-                  "atbildei",
-                  "paldies"
                 ]
               }
             },
@@ -19745,8 +18713,7 @@ const A2_WORDS = [
                   "danke Ihnen"
                 ],
                 "purple": [
-                  "more formal",
-                  "for gratitude"
+                  "more formal"
                 ]
               }
             }
@@ -19775,11 +18742,6 @@ const A2_WORDS = [
                 "Vielen Dank",
                 "danke",
                 "dir"
-              ],
-              "purple": [
-                "liels paldies",
-                "pateicos",
-                "paldies"
               ]
             }
           }
@@ -19836,7 +18798,7 @@ const A2_WORDS = [
         {
           "word": "darauf",
           "meaning": "On that / on that / after that",
-          "example": "Ich warte darauf. = Es gaidu uz to."
+          "example": "Ich warte darauf. – I'm waiting for it."
         },
         {
           "word": "auf das",
@@ -20036,11 +18998,8 @@ const A2_WORDS = [
                   "darauf"
                 ],
                 "yellow": [
-                  "actions",
-                  "Skaties",
                   "darauf",
-                  "warten",
-                  "word"
+                  "warten"
                 ]
               }
             },
@@ -20049,11 +19008,7 @@ const A2_WORDS = [
                 "blue": [
                   "darauf"
                 ],
-                "orange": [
-                  "uz to"
-                ],
                 "yellow": [
-                  "latviski",
                   "German",
                   "darauf",
                   "often"
@@ -20102,40 +19057,13 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "rely on",
-          "would mention",
-          "the situation",
-          "actions",
-          "in advance",
-          "Sometimes",
-          "words",
-          "darauf",
-          "for some",
-          "to wait",
-          "to react",
-          "lieto",
-          "lietu",
-          "domu",
-          "runa"
+          "darauf"
         ],
         "green": [
-          "par to",
-          "daran",
-          "from it",
           "on it"
         ],
         "yellow": [
-          "after that",
-          "davor"
-        ],
-        "orange": [
-          "in front",
-          "at that",
-          "uz to"
-        ],
-        "purple": [
-          "on it • on it • after that",
-          "at that / about that",
-          "pirms tam"
+          "after that"
         ],
         "red": [
           "danach"
@@ -20202,7 +19130,7 @@ const A2_WORDS = [
         {
           "word": "darauf",
           "meaning": "On that / on that / after that",
-          "example": "Ich warte darauf. = Es gaidu uz to."
+          "example": "Ich warte darauf. – I'm waiting for it."
         },
         {
           "word": "davon",
@@ -20396,30 +19324,17 @@ const A2_WORDS = [
                   "über"
                 ],
                 "yellow": [
-                  "of a pronoun",
-                  "actions",
                   "sprechen",
                   "reden",
-                  "word",
                   "über"
                 ]
               }
             },
             {
               "text": {
-                "blue": [
-                  "darüber"
-                ],
                 "yellow": [
-                  "location",
                   "above",
-                  "darüber",
-                  "above it",
-                  "vietu",
-                  "runa"
-                ],
-                "orange": [
-                  "virs"
+                  "above it"
                 ]
               }
             }
@@ -20438,20 +19353,11 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "blue": [
-                "darüber"
-              ],
               "yellow": [
                 "above it"
               ],
-              "orange": [
-                "darüber",
-                "darüber"
-              ],
               "red": [
                 "sprechen",
-                "darüber",
-                "darüber",
                 "hängt",
                 "Lampe",
                 "Lampe"
@@ -20463,44 +19369,20 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "information",
-          "nachdenken",
-          "actions",
           "sprechen",
           "darüber",
           "mean",
-          "words",
-          "sarunu",
           "often",
-          "thoughts",
-          "lieto",
           "reden",
-          "vietu",
-          "over",
-          "runa",
-          "virs"
+          "over"
         ],
         "green": [
           "over it",
           "darauf",
-          "at that",
-          "on it",
           "over"
         ],
         "yellow": [
-          "above it",
-          "daran"
-        ],
-        "orange": [
-          "par to",
-          "uz to",
-          "virs"
-        ],
-        "purple": [
-          "about it • over it • above it",
-          "for / over / over",
-          "about it / at it",
-          "to it / on it"
+          "above it"
         ],
         "red": [
           "über"
@@ -20577,7 +19459,7 @@ const A2_WORDS = [
         {
           "word": "dafür",
           "meaning": "For that / that / however",
-          "example": "Danke dafür. = Paldies par to."
+          "example": "Danke dafür. – Thanks for that."
         }
       ],
       "tip": {
@@ -20591,7 +19473,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "darum nav tikai “ap to”.",
+        "text": "darum does not only mean “about that”.",
         "example": "Darum bleibe ich zu Hause = That's why I stay at home. Darum geht es = That's what it's about. Mach dir darum keine Sorgen = Don't worry about it."
       },
       "sectionAccents": {
@@ -20780,16 +19662,9 @@ const A2_WORDS = [
                 "blue": [
                   "darum"
                 ],
-                "orange": [
-                  "therefore"
-                ],
                 "yellow": [
-                  "paskaidro",
-                  "iemeslu",
-                  "in a sentence",
                   "often",
-                  "darum",
-                  "sekas"
+                  "darum"
                 ]
               }
             },
@@ -20798,14 +19673,9 @@ const A2_WORDS = [
                 "blue": [
                   "darum"
                 ],
-                "orange": [
-                  "par to"
-                ],
                 "yellow": [
-                  "Izteiciens",
                   "darum",
-                  "geht",
-                  "runa"
+                  "geht"
                 ]
               }
             }
@@ -20848,41 +19718,18 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "paskaidrotu",
-          "Colloquially",
-          "formal",
-          "more naturally",
-          "iemeslu",
           "mean",
           "often",
           "darum",
-          "lieto",
-          "sekas",
           "therefore",
-          "therefore",
-          "vietu",
-          "nothing",
-          "runa",
-          "skan"
+          "therefore"
         ],
         "green": [
           "deshalb",
           "therefore"
         ],
-        "yellow": [
-          "darüber",
-          "ap to"
-        ],
         "orange": [
-          "par to",
           "therefore"
-        ],
-        "purple": [
-          "therefore • therefore • around it",
-          "uz to"
-        ],
-        "red": [
-          "darauf"
         ]
       }
     }
@@ -21078,9 +19925,6 @@ const A2_WORDS = [
           },
           {
             "text": {
-              "red": [
-                "you"
-              ],
               "purple": [
                 "topic of conversation"
               ]
@@ -21194,7 +20038,7 @@ const A2_WORDS = [
         {
           "word": "darauf",
           "meaning": "On that / after that",
-          "example": "Ich warte darauf. = Es gaidu uz to."
+          "example": "Ich warte darauf. – I'm waiting for it."
         }
       ],
       "tip": [
@@ -21391,12 +20235,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "davor"
-              ],
-              "purple": [
-                "the"
-              ],
-              "green": [
-                "the"
               ]
             }
           }
@@ -21490,12 +20328,12 @@ const A2_WORDS = [
         {
           "word": "dazu",
           "meaning": "To that / to that / present / moreover",
-          "example": "Was sagst du dazu? = Ko tu par to saki?"
+          "example": "Was sagst du dazu? – What do you say to that?"
         },
         {
           "word": "dafür",
           "meaning": "For that / that / however",
-          "example": "Danke dafür. = Paldies par to."
+          "example": "Danke dafür. – Thanks for that."
         },
         {
           "word": "dabei",
@@ -21699,10 +20537,6 @@ const A2_WORDS = [
               ],
               "yellow": [
                 "Was sagst du dazu?"
-              ],
-              "purple": [
-                "something",
-                "something"
               ]
             }
           }
@@ -21790,7 +20624,7 @@ const A2_WORDS = [
         {
           "word": "die Decke",
           "meaning": "Blanket / ceiling",
-          "example": "Die Decke ist warm. = Sega ir silta."
+          "example": "Die Decke ist warm. – The blanket is warm."
         },
         {
           "word": "die Bettdecke",
@@ -21800,12 +20634,12 @@ const A2_WORDS = [
         {
           "word": "die Zimmerdecke",
           "meaning": "The ceiling",
-          "example": "Die Zimmerdecke ist hoch. = Griesti ir augsti."
+          "example": "Die Zimmerdecke ist hoch. – The ceiling is high."
         },
         {
           "word": "das Dach",
           "meaning": "Roof",
-          "example": "Das Dach ist rot. = Jumts ir sarkans."
+          "example": "Das Dach ist rot. – The roof is red."
         },
         {
           "word": "die Wand",
@@ -22029,10 +20863,6 @@ const A2_WORDS = [
               ],
               "purple": [
                 "ceiling"
-              ],
-              "yellow": [
-                "lampu",
-                "istabu"
               ]
             }
           }
@@ -22146,7 +20976,7 @@ const A2_WORDS = [
         {
           "word": "denn",
           "meaning": "Because / then questions",
-          "example": "Was machst du denn? = Ko tad tu dari?"
+          "example": "Was machst du denn? – So what are you doing?"
         },
         {
           "word": "weil",
@@ -22165,11 +20995,11 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "In an affirmative sentence, denn is often translated as jo.",
+        "In an affirmative sentence, denn is often translated as “for” or “because”.",
         "In questions, denn is often English then: Was denn? = What then?"
       ],
       "important": [
-        "denn un dann nav viens un tas pats.",
+        "denn and dann are not the same thing.",
         "denn explains the reason or reinforces the question.",
         "dann indicates the sequence in time."
       ],
@@ -22348,9 +21178,6 @@ const A2_WORDS = [
               "blue": [
                 "denn"
               ],
-              "purple": [
-                "jo"
-              ],
               "green": [
                 "affirmative"
               ]
@@ -22360,9 +21187,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "denn"
-              ],
-              "purple": [
-                "affirmative"
               ],
               "yellow": [
                 "Was denn?"
@@ -22511,7 +21335,7 @@ const A2_WORDS = [
         {
           "word": "breit",
           "meaning": "Wide",
-          "example": "Die Straße ist breit. = Iela ir plata."
+          "example": "Die Straße ist breit. – The street is wide."
         },
         {
           "word": "stark",
@@ -22742,9 +21566,6 @@ const A2_WORDS = [
               ],
               "red": [
                 "offensive"
-              ],
-              "green": [
-                "subjects"
               ]
             }
           }
@@ -22882,7 +21703,7 @@ const A2_WORDS = [
         {
           "word": "aber",
           "meaning": "But",
-          "example": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
+          "example": "Ich will, aber ich kann nicht. – I want to, but I can't."
         },
         {
           "word": "trotzdem",
@@ -22892,7 +21713,7 @@ const A2_WORDS = [
         {
           "word": "ja",
           "meaning": "Already / but when the speaker takes something for granted",
-          "example": "Du weißt ja. = Tu jau zini."
+          "example": "Du weißt ja. – You know, of course."
         },
         {
           "word": "nein",
@@ -23157,15 +21978,8 @@ const A2_WORDS = [
                 "green": [
                   "however"
                 ],
-                "red": [
-                  "ja"
-                ],
                 "yellow": [
-                  "emocija",
-                  "in a sentence",
-                  "uzsvars",
                   "doch",
-                  "skan",
                   "German"
                 ]
               }
@@ -23175,14 +21989,9 @@ const A2_WORDS = [
                 "blue": [
                   "doch"
                 ],
-                "red": [
-                  "ja"
-                ],
                 "yellow": [
                   "affirmative",
-                  "denying",
                   "question",
-                  "atbilde",
                   "German",
                   "often"
                 ]
@@ -23193,15 +22002,11 @@ const A2_WORDS = [
         "important": [
           {
             "text": {
-              "blue": [
-                "doch"
-              ],
               "red": [
                 "But",
                 "But",
                 "But",
-                "But",
-                "doch"
+                "But"
               ]
             },
             "example": {
@@ -23230,26 +22035,16 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "the most important ones",
-          "for the previous one",
-          "sarunvalodas",
-          "contrary to that",
-          "Will answer",
           "mean",
-          "on the contrary",
           "words",
           "often",
-          "domai",
           "opposite",
           "however",
-          "viens",
           "doch",
-          "speaks",
           "however",
           "German"
         ],
         "green": [
-          "neskatoties uz to",
           "aber",
           "however"
         ],
@@ -23261,15 +22056,11 @@ const A2_WORDS = [
           "however"
         ],
         "purple": [
-          "yet • but • yet • however • contrary to that",
           "however / in spite of that",
           "nein",
-          "bet",
-          "jau",
           "no"
         ],
         "red": [
-          "gan",
           "ja"
         ]
       }
@@ -23337,7 +22128,7 @@ const A2_WORDS = [
         {
           "word": "der Titel",
           "meaning": "Title",
-          "example": "Doktor ist ein Titel. = Doktors ir tituls."
+          "example": "Doktor ist ein Titel. – Doctor is a title."
         },
         {
           "word": "die Praxis",
@@ -23563,8 +22354,7 @@ const A2_WORDS = [
                 "Doktor"
               ],
               "purple": [
-                "title",
-                "When"
+                "title"
               ]
             }
           }
@@ -23841,7 +22631,6 @@ const A2_WORDS = [
                 "schneiden"
               ],
               "purple": [
-                "the",
                 "scissors"
               ]
             }
@@ -24483,9 +23272,6 @@ const A2_WORDS = [
             "text": {
               "red": [
                 "dick"
-              ],
-              "purple": [
-                "Choose"
               ]
             }
           }
@@ -24869,7 +23655,7 @@ const A2_WORDS = [
         {
           "word": "flach",
           "meaning": "Flat",
-          "example": "Das Land ist flach. = Zeme ir plakana."
+          "example": "Das Land ist flach. – The land is flat."
         }
       ],
       "tip": {
@@ -24992,11 +23778,7 @@ const A2_WORDS = [
                 "eben"
               ]
             },
-            "lv": {
-              "purple": [
-                "think"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -25111,18 +23893,11 @@ const A2_WORDS = [
             {
               "text": {
                 "blue": [
-                  "nupat",
                   "eben"
-                ],
-                "red": [
-                  "tikko"
                 ],
                 "yellow": [
                   "often",
-                  "laiku",
-                  "tikko",
-                  "eben",
-                  "together"
+                  "eben"
                 ]
               }
             },
@@ -25131,16 +23906,10 @@ const A2_WORDS = [
                 "blue": [
                   "eben"
                 ],
-                "green": [
-                  "that's how it is"
-                ],
                 "yellow": [
-                  "attieksme",
                   "simply",
-                  "latviski",
                   "often",
-                  "eben",
-                  "skan"
+                  "eben"
                 ]
               }
             }
@@ -25181,44 +23950,27 @@ const A2_WORDS = [
           "multifaceted",
           "standardStudy",
           "Colloquially",
-          "properties",
-          "teikumos",
-          "Daudzos",
           "flat",
           "mean",
-          "izsaka",
           "often",
-          "gluds",
-          "laiku",
-          "nupat",
-          "directly",
-          "tikko",
           "word",
           "eben"
         ],
         "green": [
-          "that's how it is",
-          "gerade",
-          "taisns",
-          "gluds"
+          "gerade"
         ],
         "yellow": [
-          "gerade eben",
-          "directly"
+          "gerade eben"
         ],
         "orange": [
           "right now",
           "flat"
         ],
         "purple": [
-          "flat • smooth • exactly • just • just now",
-          "right now / straight",
-          "tikko / nupat",
-          "plakans"
+          "right now / straight"
         ],
         "red": [
-          "flach",
-          "tikko"
+          "flach"
         ]
       }
     }
@@ -25312,7 +24064,7 @@ const A2_WORDS = [
         {
           "word": "aufrichtig",
           "meaning": "Sincere / sincere / open",
-          "example": "Das war aufrichtig. = Tas bija patiesi."
+          "example": "Das war aufrichtig. – That was sincere."
         },
         {
           "word": "nett",
@@ -25523,10 +24275,6 @@ const A2_WORDS = [
               "red": [
                 "nett",
                 "freundlich"
-              ],
-              "purple": [
-                "the",
-                "the"
               ]
             }
           }
@@ -25634,7 +24382,7 @@ const A2_WORDS = [
         {
           "word": "wahr",
           "meaning": "True",
-          "example": "Das ist wahr. = Tas ir patiess."
+          "example": "Das ist wahr. – That is true."
         },
         {
           "word": "wirklich",
@@ -25843,8 +24591,7 @@ const A2_WORDS = [
                 "wahr"
               ],
               "purple": [
-                "the real thing",
-                "Colloquially"
+                "the real thing"
               ]
             }
           }
@@ -25986,7 +24733,7 @@ const A2_WORDS = [
         {
           "word": "einladen",
           "meaning": "Invite / load",
-          "example": "Ich lade dich ein. = Es tevi uzaicinu."
+          "example": "Ich lade dich ein. – I'm inviting you."
         },
         {
           "word": "laden",
@@ -25996,7 +24743,7 @@ const A2_WORDS = [
         {
           "word": "besuchen",
           "meaning": "To visit / to visit",
-          "example": "Ich besuche dich. = Es tevi apciemoju."
+          "example": "Ich besuche dich. – I'm visiting you."
         },
         {
           "word": "mitbringen",
@@ -26221,10 +24968,8 @@ const A2_WORDS = [
                   "to invite"
                 ],
                 "yellow": [
-                  "in context",
                   "to invite",
                   "einladen",
-                  "Personu",
                   "to invite"
                 ]
               }
@@ -26235,10 +24980,7 @@ const A2_WORDS = [
                   "einladen"
                 ],
                 "yellow": [
-                  "in context",
-                  "einladen",
-                  "iekraut",
-                  "Kravas"
+                  "einladen"
                 ]
               }
             }
@@ -26284,38 +25026,26 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "events",
-          "in context",
           "to invite",
-          "draugiem",
           "einladen",
           "people",
-          "iekraut",
           "mean",
-          "viesiem",
           "to invite",
-          "preces",
-          "kravu",
-          "laden",
-          "lieto",
-          "In another"
+          "laden"
         ],
         "green": [
-          "apciemot",
           "to invite",
           "laden",
           "charge"
         ],
         "yellow": [
-          "besuchen",
-          "iekraut"
+          "besuchen"
         ],
         "orange": [
           "to invite",
-          "to visit",
-          "kraut"
+          "to visit"
         ],
         "purple": [
-          "invite • invite • load",
           "to visit / to visit",
           "invite / load",
           "load / charge",
@@ -26665,22 +25395,16 @@ const A2_WORDS = [
           "einschalten",
           "institution",
           "solving",
-          "televizoru",
           "involve",
-          "problems",
           "people",
           "Sometimes",
           "turn on",
           "mean",
-          "datoru",
-          "gaismu",
           "the device",
-          "lieto",
           "radio"
         ],
         "green": [
           "ausschalten",
-          "colloquially",
           "involve"
         ],
         "yellow": [
@@ -26690,9 +25414,7 @@ const A2_WORDS = [
           "turn on"
         ],
         "purple": [
-          "turn on (colloquially",
           "turn on / involve",
-          "turn on • involve",
           "turn off"
         ],
         "red": [
@@ -26745,7 +25467,7 @@ const A2_WORDS = [
         {
           "word": "einschlafen",
           "meaning": "Fall asleep / numb",
-          "example": "Ich schlafe ein. = Es aizmiegu."
+          "example": "Ich schlafe ein. – I'm falling asleep."
         },
         {
           "word": "schlafen",
@@ -26755,7 +25477,7 @@ const A2_WORDS = [
         {
           "word": "aufwachen",
           "meaning": "Wake up",
-          "example": "Ich wache früh auf. = Es pamostos agri."
+          "example": "Ich wache früh auf. – I wake up early."
         },
         {
           "word": "taub werden",
@@ -27082,7 +25804,7 @@ const A2_WORDS = [
         {
           "word": "mitmachen",
           "meaning": "To participate",
-          "example": "Ich mache mit. = Es piedalos."
+          "example": "Ich mache mit. – I'm joining in."
         }
       ],
       "tip": {
@@ -27273,13 +25995,9 @@ const A2_WORDS = [
                 "blue": [
                   "einsteigen"
                 ],
-                "orange": [
-                  "get in"
-                ],
                 "yellow": [
                   "einsteigen",
-                  "In transport",
-                  "get in"
+                  "In transport"
                 ]
               }
             },
@@ -27288,18 +26006,11 @@ const A2_WORDS = [
                 "blue": [
                   "einsteigen"
                 ],
-                "green": [
-                  "get involved"
-                ],
                 "purple": [
                   "to participate"
                 ],
                 "yellow": [
-                  "get involved",
-                  "einsteigen",
-                  "In the project",
-                  "in the market",
-                  "to start"
+                  "einsteigen"
                 ]
               }
             }
@@ -27346,23 +26057,13 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "in the vehicle",
           "standardStudy",
           "get involved",
           "einsteigen",
-          "the plane",
-          "autobusu",
-          "Transferred",
           "in the project",
-          "vilcienu",
-          "in business",
           "Sometimes",
           "mean",
-          "get in",
-          "in a conversation",
-          "lieto",
-          "auto",
-          "to start"
+          "get in"
         ],
         "green": [
           "get involved",
@@ -27378,7 +26079,6 @@ const A2_WORDS = [
         ],
         "purple": [
           "get in / get involved",
-          "embark • engage",
           "get off / quit",
           "to participate",
           "to change seat"
@@ -27430,12 +26130,12 @@ const A2_WORDS = [
         {
           "word": "der Eintritt",
           "meaning": "Entry / entrance fee / entry",
-          "example": "Der Eintritt ist frei. = Ieeja ir bez maksas."
+          "example": "Der Eintritt ist frei. – Admission is free."
         },
         {
           "word": "der Eingang",
           "meaning": "Physical entrance",
-          "example": "Der Eingang ist links. = Ieeja ir pa kreisi."
+          "example": "Der Eingang ist links. – The entrance is on the left."
         },
         {
           "word": "die Eintrittskarte",
@@ -28296,7 +26996,7 @@ const A2_WORDS = [
         {
           "word": "sich erinnern",
           "meaning": "To remember",
-          "example": "Ich erinnere mich daran. = Es to atceros."
+          "example": "Ich erinnere mich daran. – I remember it."
         },
         {
           "word": "vergessen",
@@ -28538,9 +27238,6 @@ const A2_WORDS = [
               ],
               "purple": [
                 "to remind"
-              ],
-              "red": [
-                "sentence"
               ]
             }
           }
@@ -28758,7 +27455,7 @@ const A2_WORDS = [
         {
           "word": "etwa?",
           "meaning": "Or then / really in question",
-          "example": "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
+          "example": "Hast du das etwa vergessen? – Have you forgotten that, by any chance?"
         },
         {
           "word": "vielleicht",
@@ -29045,12 +27742,8 @@ const A2_WORDS = [
               "blue": [
                 "etwa"
               ],
-              "purple": [
-                "or tad"
-              ],
               "red": [
-                "vergessen",
-                "aizmirsi"
+                "vergessen"
               ]
             }
           }
@@ -29410,13 +28103,8 @@ const A2_WORDS = [
                 "green": [
                   "subject"
                 ],
-                "purple": [
-                  "subject of study"
-                ],
                 "yellow": [
                   "subject",
-                  "learning",
-                  "At school",
                   "Fach"
                 ]
               }
@@ -29431,10 +28119,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "compartment",
-                  "on the shelf",
-                  "In the closet",
-                  "Fach",
-                  "in the bag"
+                  "Fach"
                 ]
               }
             }
@@ -29476,9 +28161,7 @@ const A2_WORDS = [
                 "Fachgebiet",
                 "compartment",
                 "subject",
-                "Schulfach",
-                "Fach",
-                "Fach"
+                "Schulfach"
               ]
             }
           }
@@ -29501,15 +28184,7 @@ const A2_WORDS = [
           "subject",
           "das Fach",
           "mean",
-          "on the shelf",
-          "learning",
-          "nozare",
-          "nozari",
-          "in the closet",
-          "At school",
-          "Fach",
-          "in the bag",
-          "in the environment"
+          "Fach"
         ],
         "green": [
           "das Schulfach",
@@ -29518,8 +28193,7 @@ const A2_WORDS = [
         ],
         "yellow": [
           "das Schrankfach",
-          "Schrankfach",
-          "nozare"
+          "Schrankfach"
         ],
         "orange": [
           "specialty",
@@ -29527,12 +28201,10 @@ const A2_WORDS = [
         ],
         "purple": [
           "department / subject / industry",
-          "compartment • subject • industry",
           "specialty / industry",
           "subject of study",
           "cabinet compartment",
           "der Beruf",
-          "profesija",
           "Beruf"
         ],
         "red": [
@@ -29680,7 +28352,7 @@ const A2_WORDS = [
         {
           "word": "der Gerichtsfall",
           "meaning": "Court case",
-          "example": "Der Gerichtsfall dauert lange. = Tiesas lieta ilgst ilgi."
+          "example": "Der Gerichtsfall dauert lange. – The court case is taking a long time."
         }
       ],
       "tip": {
@@ -29937,10 +28609,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "diesem",
-                  "frequent",
                   "phrase",
-                  "Fall",
-                  "in this one"
+                  "Fall"
                 ]
               }
             },
@@ -29950,8 +28620,6 @@ const A2_WORDS = [
                   "Fall"
                 ],
                 "yellow": [
-                  "Gramatikas",
-                  "in context",
                   "inflection",
                   "Fall"
                 ]
@@ -30009,26 +28677,18 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "the most important ones",
-          "multi-purpose",
           "the situation",
           "der Fall",
           "case",
           "case",
-          "kritiens",
-          "kritienu",
           "inflection",
           "Physical",
           "mean",
-          "words",
           "often",
-          "lieta",
-          "viens",
           "Fall"
         ],
         "green": [
           "der Unfall",
-          "kritiens",
           "Unfall"
         ],
         "yellow": [
@@ -30040,18 +28700,15 @@ const A2_WORDS = [
           "case"
         ],
         "purple": [
-          "case • fall • inflection • case",
           "grammatical inflection",
           "der Gerichtsfall",
           "Gerichtsfall",
-          "tiesas lieta",
           "an accident",
           "the situation"
         ],
         "red": [
           "der Kasus",
-          "Kasus",
-          "lieta"
+          "Kasus"
         ]
       }
     }
@@ -30166,7 +28823,7 @@ const A2_WORDS = [
         {
           "word": "brauchen",
           "meaning": "To need",
-          "example": "Ich brauche Geld. = Man vajag naudu."
+          "example": "Ich brauche Geld. – I need money."
         },
         {
           "word": "vermissen",
@@ -30192,8 +28849,7 @@ const A2_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "missing",
-            "miss"
+            "missing"
           ]
         },
         "examples": [
@@ -30397,9 +29053,6 @@ const A2_WORDS = [
               ],
               "blue": [
                 "fehlen"
-              ],
-              "purple": [
-                "you"
               ]
             }
           }
@@ -30593,7 +29246,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "fest nav tikai “ciets”.",
+        "text": "fest does not only mean “hard”.",
         "example": "ein fester Termin = fixed term. eine feste Arbeit = constant work."
       },
       "sectionAccents": {
@@ -30720,11 +29373,8 @@ const A2_WORDS = [
                   "fest"
                 ],
                 "yellow": [
-                  "mezglu",
-                  "screw",
                   "often",
                   "fest",
-                  "runa",
                   "cover"
                 ]
               }
@@ -30741,12 +29391,8 @@ const A2_WORDS = [
                   "permanent"
                 ],
                 "yellow": [
-                  "deadline",
                   "often",
-                  "darbu",
-                  "the plan",
-                  "fest",
-                  "runa"
+                  "fest"
                 ]
               }
             }
@@ -30772,9 +29418,7 @@ const A2_WORDS = [
                 "fixed"
               ],
               "red": [
-                "fest",
                 "fixed",
-                "fest",
                 "Arbeit",
                 "fester",
                 "Termin",
@@ -30789,43 +29433,18 @@ const A2_WORDS = [
           "standardStudy",
           "material",
           "permanent",
-          "pievilkts",
-          "for example",
           "fixed",
           "mean",
-          "stingrs",
-          "mezgls",
           "screw",
-          "stiprs",
-          "virsmu",
           "often",
           "tight",
-          "ciets",
-          "fest",
-          "runa"
-        ],
-        "green": [
-          "certain",
-          "stingrs"
-        ],
-        "yellow": [
-          "stiprs"
+          "fest"
         ],
         "orange": [
-          "fixed",
-          "ciets"
-        ],
-        "purple": [
-          "hard • firm • strong • permanent",
-          "fixed / determined",
-          "ciets / stingrs",
-          "solid material",
-          "stabils",
-          "stabil"
+          "fixed"
         ],
         "red": [
-          "permanent",
-          "hart"
+          "permanent"
         ]
       }
     }
@@ -30885,7 +29504,7 @@ const A2_WORDS = [
         {
           "word": "das Feuer",
           "meaning": "Fire / fire",
-          "example": "Das Feuer brennt. = Uguns deg."
+          "example": "Das Feuer brennt. – The fire is burning."
         },
         {
           "word": "der Brand",
@@ -30895,7 +29514,7 @@ const A2_WORDS = [
         {
           "word": "die Flamme",
           "meaning": "Flame",
-          "example": "Die Flamme ist klein. = Liesma ir maza."
+          "example": "Die Flamme ist klein. – The flame is small."
         },
         {
           "word": "die Feuerwehr",
@@ -31154,15 +29773,9 @@ const A2_WORDS = [
                 "blue": [
                   "Feuer"
                 ],
-                "orange": [
-                  "uguns"
-                ],
                 "yellow": [
-                  "controlled",
                   "often",
-                  "Feuer",
-                  "tulko",
-                  "uguns"
+                  "Feuer"
                 ]
               }
             },
@@ -31182,8 +29795,7 @@ const A2_WORDS = [
                   "Feuerwehr",
                   "often",
                   "Feuer",
-                  "house",
-                  "runa"
+                  "house"
                 ]
               }
             }
@@ -31217,11 +29829,7 @@ const A2_WORDS = [
                 "die Flamme",
                 "Flamme"
               ],
-              "purple": [
-                "Feuer"
-              ],
               "red": [
-                "Feuer",
                 "clearer",
                 "Flamme",
                 "Brand",
@@ -31234,24 +29842,15 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "uncontrolled",
-          "would control",
           "fire",
           "fire",
           "das Feuer",
           "Feuerwehr",
-          "ugunskuru",
-          "for example",
           "dangerous",
-          "combustion",
           "flames",
           "mean",
-          "binds",
-          "in the oven",
           "often",
-          "Feuer",
-          "uguni",
-          "uguns"
+          "Feuer"
         ],
         "green": [
           "fire",
@@ -31262,16 +29861,11 @@ const A2_WORDS = [
           "die Flamme",
           "Flamme"
         ],
-        "orange": [
-          "uguns"
-        ],
         "purple": [
           "fire / fire",
-          "fire • fire",
           "open fire",
           "firefighters",
-          "Feuer geben",
-          "liesma"
+          "Feuer geben"
         ],
         "red": [
           "die Feuerwehr",
@@ -31474,7 +30068,7 @@ const A2_WORDS = [
         {
           "word": "folgen",
           "meaning": "Follow / follow",
-          "example": "Ich folge dir. = Es tev sekoju."
+          "example": "Ich folge dir. – I'm following you."
         },
         {
           "word": "verfolgen",
@@ -31710,7 +30304,6 @@ const A2_WORDS = [
                 "befolgen"
               ],
               "purple": [
-                "you",
                 "to 'obey"
               ]
             }
@@ -32274,7 +30867,6 @@ const A2_WORDS = [
                   "führen",
                   "often",
                   "road",
-                  "runa",
                   "lead"
                 ]
               }
@@ -32288,12 +30880,8 @@ const A2_WORDS = [
                   "to lead"
                 ],
                 "yellow": [
-                  "komandu",
                   "führen",
-                  "sarunu",
-                  "often",
-                  "firmu",
-                  "runa"
+                  "often"
                 ]
               }
             }
@@ -32311,20 +30899,14 @@ const A2_WORDS = [
               "blue": [
                 "führen"
               ],
-              "yellow": [
-                "Der"
-              ],
               "purple": [
-                "Der",
                 "führen zu"
               ],
               "red": [
                 "Gespräch",
                 "Führung",
-                "Der",
                 "führen",
-                "liegen",
-                "Der"
+                "liegen"
               ]
             }
           }
@@ -32333,27 +30915,17 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "on an excursion",
-          "to people",
           "for sale",
           "company",
-          "komandu",
           "mean",
-          "In the store",
           "führen",
-          "sarunu",
           "In sports",
-          "under the leadership",
-          "prece",
           "to lead",
           "road",
           "someone",
           "drive"
         ],
         "green": [
-          "lead to the goal",
-          "vest ar transportu",
-          "procesu",
           "leiten",
           "to lead"
         ],
@@ -32362,22 +30934,16 @@ const A2_WORDS = [
           "fahren"
         ],
         "orange": [
-          "lead the organisation",
-          "atnest",
           "drive",
           "drive"
         ],
         "purple": [
-          "to lead • to lead • to be in management • to be in sales",
           "bring / take to the goal",
-          "drive / vest ar transportu",
           "manage the organisation/process",
           "lead / lead / be led",
-          "novest pie",
           "führen zu"
         ],
         "red": [
-          "be on sale",
           "bringen"
         ]
       }
@@ -33134,7 +31700,7 @@ const A2_WORDS = [
         {
           "word": "gehören",
           "meaning": "Belong / fit in",
-          "example": "Das gehört mir. = Tas pieder man."
+          "example": "Das gehört mir. – That belongs to me."
         },
         {
           "word": "besitzen",
@@ -33144,12 +31710,12 @@ const A2_WORDS = [
         {
           "word": "passen",
           "meaning": "Fit / fit",
-          "example": "Das passt gut. = Tas labi der."
+          "example": "Das passt gut. – That fits well."
         },
         {
           "word": "brauchen",
           "meaning": "To need",
-          "example": "Du brauchst Zeit. = Tev vajag laiku."
+          "example": "Du brauchst Zeit. – You need time."
         }
       ],
       "tip": {
@@ -33343,8 +31909,7 @@ const A2_WORDS = [
             {
               "text": {
                 "yellow": [
-                  "gehört",
-                  "pieder"
+                  "gehört"
                 ]
               }
             },
@@ -33352,7 +31917,6 @@ const A2_WORDS = [
               "text": {
                 "yellow": [
                   "gehört",
-                  "pieder",
                   "part"
                 ]
               }
@@ -33374,7 +31938,6 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "gehört",
-                "gehören",
                 "part",
                 "dazu"
               ]
@@ -33385,38 +31948,25 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "Konstrukcija",
           "fit in",
-          "to acquiesce",
-          "we need",
           "to belong",
-          "teikumos",
           "gehören",
           "mean",
-          "nosaka",
           "Meaning",
-          "for the part",
-          "In some",
-          "in the group",
-          "instead of",
-          "in which"
+          "In some"
         ],
         "green": [
           "to be in possession of",
           "fit in",
-          "besitzen",
-          "atbilst"
+          "besitzen"
         ],
         "yellow": [
-          "to acquiesce",
           "passen"
         ],
         "orange": [
-          "to belong",
-          "to bet"
+          "to belong"
         ],
         "purple": [
-          "to belong • to fit in • to suit",
           "to own / to be in possession of",
           "belong / fit in",
           "fit / fit",
@@ -33563,8 +32113,7 @@ const A2_WORDS = [
                   "eben"
                 ],
                 "purple": [
-                  "right now",
-                  "tikko"
+                  "right now"
                 ]
               }
             }
@@ -33689,7 +32238,7 @@ const A2_WORDS = [
         {
           "word": "eben",
           "meaning": "Just now",
-          "example": "Ich war eben dort. = Es tikko tur biju."
+          "example": "Ich war eben dort. – I was just there."
         }
       ],
       "tip": [
@@ -33908,13 +32457,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "gerade"
-              ],
-              "purple": [
-                "taisns"
-              ],
-              "yellow": [
-                "formu",
-                "virzienu"
               ]
             }
           },
@@ -34007,17 +32549,17 @@ const A2_WORDS = [
         {
           "word": "das Geschäft",
           "meaning": "Store / company / transaction",
-          "example": "Ich gehe ins Geschäft. = Es eju uz veikalu."
+          "example": "Ich gehe ins Geschäft. – I'm going to the shop."
         },
         {
           "word": "der Laden",
           "meaning": "Shop",
-          "example": "Der Laden ist klein. = Veikals ir mazs."
+          "example": "Der Laden ist klein. – The shop is small."
         },
         {
           "word": "die Firma",
           "meaning": "Firm / company",
-          "example": "Die Firma ist groß. = Firma ir liela."
+          "example": "Die Firma ist groß. – The company is big."
         },
         {
           "word": "das Unternehmen",
@@ -34259,8 +32801,7 @@ const A2_WORDS = [
                   "Geschäft"
                 ],
                 "yellow": [
-                  "Geschäft",
-                  "veikalu"
+                  "Geschäft"
                 ]
               }
             },
@@ -34271,10 +32812,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Geschäft",
-                  "to do",
                   "machen",
-                  "gutes",
-                  "labu"
+                  "gutes"
                 ]
               }
             }
@@ -34320,20 +32859,14 @@ const A2_WORDS = [
           "standardStudy",
           "das Geschäft",
           "In the plural",
-          "doing",
           "Geschäfte",
-          "in context",
           "transaction",
           "transaction",
           "Geschäft",
           "company",
           "company",
-          "Biznesa",
           "mean",
-          "veikals",
-          "veikalu",
-          "often",
-          "firmu"
+          "often"
         ],
         "green": [
           "der Laden",
@@ -34345,12 +32878,8 @@ const A2_WORDS = [
           "transaction",
           "Firma"
         ],
-        "orange": [
-          "veikals"
-        ],
         "purple": [
           "store / company / transaction",
-          "store • company • transaction",
           "firm / company",
           "der Vertrag",
           "Vertrag",
@@ -34471,7 +33000,7 @@ const A2_WORDS = [
         {
           "word": "siegen",
           "meaning": "To win",
-          "example": "Die Mannschaft siegt. = Komanda uzvar."
+          "example": "Die Mannschaft siegt. – The team is winning."
         },
         {
           "word": "bekommen",
@@ -34708,10 +33237,6 @@ const A2_WORDS = [
             "text": {
               "purple": [
                 "to win"
-              ],
-              "yellow": [
-                "When",
-                "When"
               ]
             }
           }
@@ -34726,8 +33251,7 @@ const A2_WORDS = [
                 "Spiel"
               ],
               "yellow": [
-                "Spiel",
-                "in the game"
+                "Spiel"
               ]
             }
           },
@@ -35285,7 +33809,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Grund nav tikai iemesls.",
+        "text": "Grund does not only mean reason.",
         "example": "Grund des Problems = the cause of the problem. fester Grund = firm foundation. Grund des Sees = bottom of the lake."
       },
       "sectionAccents": {
@@ -35527,9 +34051,7 @@ const A2_WORDS = [
                   "Grund"
                 ],
                 "yellow": [
-                  "iemesla",
                   "diesem",
-                  "frequent",
                   "phrase",
                   "Grund"
                 ]
@@ -35542,11 +34064,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "mean",
-                  "pamatu",
-                  "ezeru",
                   "Grund",
-                  "house",
-                  "zemi"
+                  "house"
                 ]
               }
             }
@@ -35558,11 +34077,7 @@ const A2_WORDS = [
               "blue": [
                 "Grund"
               ],
-              "orange": [
-                "iemesls"
-              ],
               "red": [
-                "iemesls",
                 "Grund",
                 "Grund"
               ]
@@ -35574,16 +34089,12 @@ const A2_WORDS = [
               "green": [
                 "Grund"
               ],
-              "orange": [
-                "iemesls"
-              ],
               "purple": [
                 "Grund"
               ],
               "red": [
                 "problems",
                 "Problems",
-                "iemesls",
                 "Grund",
                 "Grund",
                 "fester",
@@ -35597,50 +34108,28 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "der Grund",
-          "iemesla",
-          "iemesls",
-          "iemeslu",
           "mean",
-          "dibens",
           "diesem",
-          "grunti",
-          "grunts",
-          "pamats",
-          "pamatu",
-          "A phrase",
           "Grund",
-          "In nature",
-          "standing",
-          "zemi"
+          "In nature"
         ],
         "green": [
-          "notikuma pamats",
           "die Ursache",
           "Ursache",
-          "pamats",
           "the floor"
         ],
         "yellow": [
           "der Anlass",
-          "Anlass",
-          "grunts"
-        ],
-        "orange": [
-          "iemesls",
-          "zeme"
+          "Anlass"
         ],
         "purple": [
-          "iemesls • pamats • grunts • dibens",
-          "iemesls / notikuma pamats",
           "der Seegrund",
-          "ezera dibens",
           "ground / floor",
           "Seegrund",
           "the cause"
         ],
         "red": [
           "der Boden",
-          "dibens",
           "Boden"
         ]
       }
@@ -35854,7 +34343,7 @@ const A2_WORDS = [
         {
           "word": "stellen",
           "meaning": "Put upright",
-          "example": "Ich stelle die Flasche auf den Tisch. = Es nolieku pudeli uz galda."
+          "example": "Ich stelle die Flasche auf den Tisch. – I stand the bottle on the table."
         },
         {
           "word": "legen",
@@ -36223,8 +34712,7 @@ const A2_WORDS = [
           },
           {
             "green": [
-              "difficult",
-              "For"
+              "difficult"
             ]
           }
         ],
@@ -36695,12 +35183,7 @@ const A2_WORDS = [
                   "Holz"
                 ],
                 "yellow": [
-                  "pieskarties",
-                  "for the material",
-                  "izgatavo",
-                  "lieto",
-                  "Holz",
-                  "vari"
+                  "Holz"
                 ]
               }
             },
@@ -36708,13 +35191,7 @@ const A2_WORDS = [
               "text": {
                 "yellow": [
                   "der Baum",
-                  "zariem",
-                  "alive",
-                  "pages",
-                  "lieto",
-                  "Baum",
-                  "koku",
-                  "runa"
+                  "Baum"
                 ]
               }
             }
@@ -36766,48 +35243,25 @@ const A2_WORDS = [
       },
       "accents": {
         "blue": [
-          "for timber",
           "standardStudy",
           "Timber",
           "material",
-          "galdiem",
-          "for furniture",
           "mean",
           "boards",
-          "Koksne",
-          "koksni",
-          "lieto",
-          "Malka",
-          "malku",
-          "Holz",
-          "Koks",
-          "koku",
-          "runa"
+          "Holz"
         ],
         "green": [
-          "material",
-          "Malka"
+          "material"
         ],
         "yellow": [
           "Timber",
           "der Baum",
           "Baum"
         ],
-        "orange": [
-          "Koks"
-        ],
         "purple": [
-          "wood / material",
           "a living tree",
-          "der Wald",
-          "Koksne",
-          "board",
           "forest",
           "Wald"
-        ],
-        "red": [
-          "das Brett",
-          "Brett"
         ]
       }
     }
@@ -37151,11 +35605,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "in what way"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -37329,11 +35779,11 @@ const A2_WORDS = [
       ],
       "tip": [
         "If you stand by price or quantity, think by or per unit.",
-        "If you see je ... desto, translate as jo ... jo."
+        "If you see je ... desto, translate it as “the ... the”."
       ],
       "important": [
         "je alone is not a common word for the meaning because.",
-        "jo ... jo is usually formed with je ... desto in German."
+        "“the ... the” is usually formed with je ... desto in German."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37428,8 +35878,7 @@ const A2_WORDS = [
         "tip": [
           {
             "purple": [
-              "per unit",
-              "jo ... jo"
+              "per unit"
             ]
           }
         ],
@@ -37821,13 +36270,10 @@ const A2_WORDS = [
                 "Kamm"
               ],
               "green": [
-                "Hahns",
-                "everyday",
-                "everyday"
+                "Hahns"
               ],
               "yellow": [
-                "Bergkamm",
-                "everyday"
+                "Bergkamm"
               ]
             }
           }
@@ -37841,32 +36287,18 @@ const A2_WORDS = [
         ],
         "purple": [
           "comb",
-          "comb",
-          "combing"
+          "comb"
         ],
         "green": [
           "Hahn",
           "Hahns",
-          "sekste",
-          "cock",
-          "Rooster",
-          "cock sext"
+          "Rooster"
         ],
         "yellow": [
           "Berg",
           "Berges",
           "Dach",
-          "Bergkamm",
-          "kalna kore",
-          "Kalna",
-          "kore",
-          "kori",
-          "kores"
-        ],
-        "red": [
-          "die Bürste",
-          "Bürste",
-          "suka"
+          "Bergkamm"
         ]
       }
     }
@@ -38105,7 +36537,7 @@ const A2_WORDS = [
         {
           "word": "gerade",
           "meaning": "Just / currently",
-          "example": "Ich bin gerade angekommen. = Es tikko ierados."
+          "example": "Ich bin gerade angekommen. – I've just arrived."
         },
         {
           "word": "sobald",
@@ -38308,11 +36740,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "almost"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -38467,12 +36895,7 @@ const A2_WORDS = [
             "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "kennen",
-                "kennen"
-              ]
-            },
+            "de": {},
             "lv": {}
           },
           {
@@ -39065,14 +37488,7 @@ const A2_WORDS = [
                   "klar"
                 ],
                 "yellow": [
-                  "instrukciju",
-                  "saprotams",
-                  "domu",
-                  "klar",
-                  "runa"
-                ],
-                "orange": [
-                  "skaidrs"
+                  "klar"
                 ]
               }
             },
@@ -39082,16 +37498,10 @@ const A2_WORDS = [
                   "klar"
                 ],
                 "yellow": [
-                  "Colloquially",
                   "alles klar",
                   "Alles",
                   "often",
-                  "klar",
-                  "viss"
-                ],
-                "orange": [
-                  "everything is fine",
-                  "skaidrs"
+                  "klar"
                 ]
               }
             }
@@ -39132,45 +37542,14 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "Colloquially",
-          "noteikumu",
-          "saprotams",
-          "the situation",
-          "in order",
           "mean",
-          "skaidrs",
-          "dzidrs",
           "Alles",
           "often",
-          "gaisu",
           "water",
-          "domu",
-          "klar",
-          "runa",
-          "viss"
-        ],
-        "green": [
-          "clearly visible",
-          "dzidrs"
+          "klar"
         ],
         "yellow": [
-          "alles klar",
-          "saprotams"
-        ],
-        "orange": [
-          "everything is fine",
-          "skaidri",
-          "skaidrs"
-        ],
-        "purple": [
-          "skaidrs • dzidrs • saprotams",
-          "clear / clearly visible",
-          "everything is fine / clear",
-          "skaidrs / saprotams",
-          "bereit",
-          "gatavs"
-        ],
-        "red": [
-          "deutlich"
+          "alles klar"
         ]
       }
     }
@@ -39356,15 +37735,10 @@ const A2_WORDS = [
                 "blue": [
                   "kleben"
                 ],
-                "orange": [
-                  "to glue"
-                ],
                 "yellow": [
                   "a person",
-                  "in a sentence",
                   "kleben",
-                  "often",
-                  "dara"
+                  "often"
                 ]
               }
             },
@@ -39373,13 +37747,7 @@ const A2_WORDS = [
                 "blue": [
                   "kleben"
                 ],
-                "green": [
-                  "pielipt"
-                ],
                 "yellow": [
-                  "a patch",
-                  "subjekts",
-                  "pirksti",
                   "kleben",
                   "a note",
                   "often"
@@ -39391,18 +37759,13 @@ const A2_WORDS = [
         "important": [
           {
             "text": {
-              "blue": [
-                "klebt"
-              ],
               "red": [
                 "Gossip",
-                "Gossip",
-                "klebt"
+                "Gossip"
               ]
             },
             "example": {
               "red": [
-                "gossip",
                 "Pflaster",
                 "Zettel",
                 "klebt",
@@ -39415,46 +37778,20 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "photograph",
           "patches",
           "stuck",
           "condition",
-          "pielipis",
           "action",
-          "pielipt",
           "stickers",
           "kleben",
           "paper",
           "sticks",
           "often",
-          "lieto",
           "to glue",
-          "Name",
-          "someone",
-          "in the glue"
-        ],
-        "green": [
-          "cling to",
-          "pielipt"
-        ],
-        "yellow": [
-          "to be stuck",
-          "ankleben"
+          "someone"
         ],
         "orange": [
-          "hold on",
           "to glue"
-        ],
-        "purple": [
-          "stick / be stuck",
-          "hold on / cling to",
-          "stick to something",
-          "stick with glue",
-          "leimen"
-        ],
-        "red": [
-          "to stick • to stick • to be stuck",
-          "haften"
         ]
       }
     }
@@ -39520,7 +37857,7 @@ const A2_WORDS = [
         {
           "word": "anziehen",
           "meaning": "To put on / to dress",
-          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
+          "example": "Ich ziehe die Jacke an. – I put on my jacket."
         },
         {
           "word": "tragen",
@@ -39747,14 +38084,10 @@ const A2_WORDS = [
                   "kleiden"
                 ],
                 "green": [
-                  "sich kleiden",
-                  "Dress up"
+                  "sich kleiden"
                 ],
                 "yellow": [
-                  "Get dressed",
-                  "to clothe",
-                  "kleiden",
-                  "nevis"
+                  "kleiden"
                 ]
               }
             },
@@ -39764,11 +38097,8 @@ const A2_WORDS = [
                   "kleiden"
                 ],
                 "yellow": [
-                  "subjekts",
                   "kleiden",
-                  "teikuma",
                   "often",
-                  "clothes",
                   "colour"
                 ]
               }
@@ -39794,13 +38124,9 @@ const A2_WORDS = [
               "green": [
                 "sich kleiden"
               ],
-              "yellow": [
-                "Diese"
-              ],
               "red": [
                 "more casual",
                 "anziehen",
-                "Diese",
                 "kleiden",
                 "word"
               ]
@@ -39811,21 +38137,15 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "to suit up",
           "Get dressed",
-          "specified",
           "clothing",
           "Dress up",
           "kleiden",
           "mean",
           "important",
-          "meaning",
           "Dress up",
           "colour",
-          "in style",
-          "citu",
-          "someone",
-          "labi"
+          "someone"
         ],
         "green": [
           "sich kleiden",
@@ -39836,11 +38156,9 @@ const A2_WORDS = [
           "Get dressed"
         ],
         "orange": [
-          "uzvilkt",
           "Dress up"
         ],
         "purple": [
-          "Dress up • Dress up • Get dressed",
           "to put on / to dress",
           "suits someone",
           "tragen",
@@ -40129,10 +38447,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "condition",
-                  "health",
-                  "human",
-                  "fizisko",
-                  "lieto"
+                  "health"
                 ]
               }
             },
@@ -40142,11 +38457,7 @@ const A2_WORDS = [
                   "Körper"
                 ],
                 "yellow": [
-                  "Tehniskos",
-                  "fizisko",
-                  "korpusu",
                   "mean",
-                  "tekstos",
                   "Körper"
                 ]
               }
@@ -40197,47 +38508,23 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "der Körper",
-          "subject",
-          "of an animal",
-          "in context",
           "the body",
           "condition",
           "Technical",
           "health",
           "human",
-          "fizisku",
-          "korpuss",
-          "movement",
           "the body",
           "mean",
-          "Körper",
-          "lieto"
+          "Körper"
         ],
         "green": [
-          "physical part",
-          "apvalks",
-          "korpuss",
-          "miesa"
-        ],
-        "yellow": [
-          "der geometrische Körper",
-          "geometrische Körper"
+          "physical part"
         ],
         "orange": [
           "the body"
         ],
         "purple": [
-          "body / physical part",
-          "geometric body",
-          "korpuss / apvalks",
-          "body • body",
-          "body / flesh",
-          "das Gehäuse",
-          "Gehäuse"
-        ],
-        "red": [
-          "der Leib",
-          "Leib"
+          "geometric body"
         ]
       }
     }
@@ -40441,12 +38728,8 @@ const A2_WORDS = [
                   "strength"
                 ],
                 "yellow": [
-                  "nogurumu",
-                  "ability",
-                  "fizisku",
                   "effort",
-                  "Kraft",
-                  "runa"
+                  "Kraft"
                 ]
               }
             },
@@ -40462,10 +38745,7 @@ const A2_WORDS = [
                   "in force"
                 ],
                 "yellow": [
-                  "izteicienu",
-                  "individual",
                   "learn",
-                  "A phrase",
                   "Kraft"
                 ]
               }
@@ -40478,13 +38758,9 @@ const A2_WORDS = [
               "blue": [
                 "Kraft"
               ],
-              "orange": [
-                "in force"
-              ],
               "red": [
                 "Kraft",
                 "Kraft",
-                "in force",
                 "Kraft"
               ]
             },
@@ -40520,49 +38796,29 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "die Kraft",
-          "in context",
           "energy",
           "energy",
           "endurance",
-          "stiprums",
           "Technical",
-          "fizisku",
           "mean",
           "effort",
-          "In a phrase",
           "Kraft",
-          "lieto",
           "in force",
           "strength",
           "strength"
         ],
         "green": [
-          "darbinieks",
-          "in Kraft",
-          "stiprums"
+          "in Kraft"
         ],
         "yellow": [
-          "die Fachkraft",
           "Fachkraft",
           "energy"
         ],
         "orange": [
-          "a specialist",
           "strength"
         ],
         "purple": [
-          "power • strength • energy",
-          "specialist / employee",
-          "power / energy",
-          "strength / strength",
-          "die Stärke",
-          "Stärke",
           "in force"
-        ],
-        "red": [
-          "die Energie",
-          "Energie"
         ]
       }
     }
@@ -40920,9 +39176,7 @@ const A2_WORDS = [
         "tip": [
           {
             "purple": [
-              "short",
-              "shortly before",
-              "shortly after"
+              "short"
             ]
           }
         ],
@@ -41009,7 +39263,7 @@ const A2_WORDS = [
         "When referring to a hotel, building or place in a city, Lage often means location."
       ],
       "important": [
-        "Lage nav tikai fiziska vieta.",
+        "Lage does not only mean a physical location.",
         "Politische Lage, wirtschaftliche Lage and schwierige Lage mean situation or condition."
       ],
       "sectionAccents": {
@@ -41186,8 +39440,7 @@ const A2_WORDS = [
         "tip": [
           {
             "purple": [
-              "condition",
-              "location"
+              "condition"
             ]
           }
         ],
@@ -41373,7 +39626,7 @@ const A2_WORDS = [
         {
           "word": "nicht leiden können",
           "meaning": "Not be able to tolerate",
-          "example": "Ich kann das nicht leiden. = Es to nevaru paciest."
+          "example": "Ich kann das nicht leiden. – I can't stand that."
         },
         {
           "word": "krank sein",
@@ -41633,7 +39886,7 @@ const A2_WORDS = [
         {
           "word": "leihen",
           "meaning": "Lend / borrow",
-          "example": "Leihst du mir den Stift? = Vai aizdosi man pildspalvu?"
+          "example": "Leihst du mir den Stift? – Will you lend me the pen?"
         },
         {
           "word": "borgen",
@@ -41707,8 +39960,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "borrows",
-                "book"
+                "borrows"
               ]
             }
           },
@@ -41854,14 +40106,9 @@ const A2_WORDS = [
                 "blue": [
                   "leihen"
                 ],
-                "orange": [
-                  "aizdot"
-                ],
                 "yellow": [
-                  "aizdot",
                   "Kannst",
-                  "leihen",
-                  "vari"
+                  "leihen"
                 ]
               }
             },
@@ -41912,41 +40159,27 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "borrow",
-          "get busy",
           "similar",
           "mean",
-          "aizdod",
-          "aizdot",
           "borgen",
-          "kam? forma",
           "leihen",
           "shows",
           "often",
           "laiku",
-          "lieta",
-          "lietu",
-          "receives",
-          "someone",
-          "tiek"
+          "someone"
         ],
         "green": [
-          "rent for a fee",
           "borrow",
           "borgen"
         ],
         "yellow": [
           "mieten"
         ],
-        "orange": [
-          "aizdot",
-          "to rent"
-        ],
         "purple": [
           "rent / lease for a fee",
           "lend / borrow",
           "borrow / lend",
-          "lend • borrow",
-          "pirkt"
+          "lend • borrow"
         ],
         "red": [
           "kaufen"
@@ -42440,9 +40673,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "Leitung",
-                  "under the leadership",
-                  "unter",
-                  "what"
+                  "unter"
                 ]
               }
             },
@@ -42453,10 +40684,8 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "electricity",
-                  "telefonu",
                   "Leitung",
-                  "water",
-                  "runa"
+                  "water"
                 ]
               }
             }
@@ -42515,22 +40744,13 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "die Leitung",
-          "elektrisko",
-          "in context",
           "people",
-          "tehnisku",
-          "Telefona",
-          "caurule",
           "Leitung",
           "mean",
           "line",
           "line",
           "management",
-          "management",
-          "darbu",
-          "vada",
-          "vads",
-          "vadu"
+          "management"
         ],
         "green": [
           "die Führung",
@@ -42539,25 +40759,20 @@ const A2_WORDS = [
         ],
         "yellow": [
           "das Kabel",
-          "Kabel",
-          "vads"
+          "Kabel"
         ],
         "orange": [
-          "kabelis",
           "management"
         ],
         "purple": [
-          "lead • line • wire • pipe",
           "die Wasserleitung",
           "telephone line",
-          "kabelis / vads",
           "water pipe",
           "Wasserleitung"
         ],
         "red": [
           "die Telefonleitung",
-          "Telefonleitung",
-          "caurule"
+          "Telefonleitung"
         ]
       }
     }
@@ -43234,9 +41449,6 @@ const A2_WORDS = [
               "text": {
                 "yellow": [
                   "for asking",
-                  "point of view",
-                  "meinst",
-                  "frequent",
                   "phrase"
                 ]
               }
@@ -43244,8 +41456,6 @@ const A2_WORDS = [
             {
               "text": {
                 "yellow": [
-                  "nopietni",
-                  "think",
                   "ernst"
                 ]
               }
@@ -43261,7 +41471,6 @@ const A2_WORDS = [
               "red": [
                 "Meinen",
                 "Meinen",
-                "think",
                 "meinen",
                 "Meinen",
                 "Meinen"
@@ -43269,11 +41478,9 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "meinen",
                 "think",
                 "dass",
-                "dich",
-                "meinen"
+                "dich"
               ]
             }
           }
@@ -43284,42 +41491,18 @@ const A2_WORDS = [
           "standardStudy",
           "specific",
           "said",
-          "to consider",
-          "viedokli",
-          "people",
           "mean",
-          "izsaka",
           "meinen",
           "meinst",
           "often",
           "to think",
-          "In a phrase",
-          "lieto",
-          "lietu",
-          "think",
-          "savu"
-        ],
-        "green": [
-          "to consider",
-          "denken"
+          "think"
         ],
         "yellow": [
-          "think concretely",
-          "glauben",
           "mean"
         ],
         "orange": [
-          "to think",
-          "to believe"
-        ],
-        "purple": [
-          "to think / consider / think concretely",
-          "think • consider • mean",
-          "believe / think",
-          "to think in mind"
-        ],
-        "red": [
-          "bedeuten"
+          "to think"
         ]
       }
     }
@@ -43423,7 +41606,7 @@ const A2_WORDS = [
         {
           "word": "erinnern",
           "meaning": "Remember / remind",
-          "example": "Ich erinnere mich. = Es atceros."
+          "example": "Ich erinnere mich. – I remember."
         },
         {
           "word": "behalten",
@@ -43625,8 +41808,7 @@ const A2_WORDS = [
         "tip": [
           {
             "purple": [
-              "to memorise",
-              "to notice"
+              "to memorise"
             ]
           }
         ],
@@ -43781,7 +41963,7 @@ const A2_WORDS = [
         {
           "word": "das Geld",
           "meaning": "Money",
-          "example": "Wir haben kein Geld. = Mums nav naudas."
+          "example": "Wir haben kein Geld. – We have no money."
         },
         {
           "word": "die Mittel",
@@ -44748,12 +42930,12 @@ const A2_WORDS = [
         {
           "word": "die Banknote",
           "meaning": "Banknote",
-          "example": "Die Banknote ist neu. = Banknote ir jauna."
+          "example": "Die Banknote ist neu. – The banknote is new."
         },
         {
           "word": "der Ton",
           "meaning": "Tone / sound",
-          "example": "Der Ton ist leise. = Tonis ir kluss."
+          "example": "Der Ton ist leise. – The sound is quiet."
         }
       ],
       "tip": {
@@ -45017,7 +43199,6 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "grade",
-                  "At school",
                   "Note"
                 ]
               }
@@ -45027,15 +43208,11 @@ const A2_WORDS = [
                 "blue": [
                   "Note"
                 ],
-                "green": [
-                  "nots"
-                ],
                 "yellow": [
                   "banknote",
                   "banknote",
                   "in music",
-                  "Note",
-                  "nots"
+                  "Note"
                 ]
               }
             }
@@ -45063,11 +43240,7 @@ const A2_WORDS = [
               ],
               "red": [
                 "bekommen",
-                "The",
-                "The",
-                "The",
                 "gute",
-                "The",
                 "Note"
               ]
             }
@@ -45077,11 +43250,8 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "in context",
           "banknote",
-          "banknoti",
           "die Note",
-          "Transferred",
           "overtone",
           "undertone",
           "mood",
@@ -45089,17 +43259,12 @@ const A2_WORDS = [
           "grade",
           "mark",
           "in music",
-          "Naudas",
-          "at school",
-          "Note",
-          "noti",
-          "nots"
+          "Note"
         ],
         "green": [
           "die Schulnote",
           "Schulnote",
-          "the sound",
-          "nots"
+          "the sound"
         ],
         "yellow": [
           "die Musiknote",
@@ -45107,11 +43272,9 @@ const A2_WORDS = [
           "banknote"
         ],
         "orange": [
-          "grade",
-          "tonis"
+          "grade"
         ],
         "purple": [
-          "mark • note • note • overtone",
           "mark / note / overtone",
           "school grade",
           "tone / sound",
@@ -45250,12 +43413,12 @@ const A2_WORDS = [
         {
           "word": "nutzen",
           "meaning": "Use / benefit from",
-          "example": "Ich nutze die Zeit. = Es izmantoju laiku."
+          "example": "Ich nutze die Zeit. – I'm making use of the time."
         },
         {
           "word": "benutzen",
           "meaning": "Use",
-          "example": "Ich benutze den Computer. = Es lietoju datoru."
+          "example": "Ich benutze den Computer. – I use the computer."
         },
         {
           "word": "verwenden",
@@ -46060,11 +44223,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "events"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -46113,7 +44272,7 @@ const A2_WORDS = [
         {
           "word": "der Patient",
           "meaning": "Patient (male)",
-          "example": "Der Patient ist krank. = Pacients ir slims."
+          "example": "Der Patient ist krank. – The patient is ill."
         },
         {
           "word": "die Patientin",
@@ -46480,14 +44639,9 @@ const A2_WORDS = [
                 "blue": [
                   "Pflaster"
                 ],
-                "orange": [
-                  "a patch"
-                ],
                 "yellow": [
-                  "a patch",
                   "Pflaster",
-                  "a wound",
-                  "runa"
+                  "a wound"
                 ]
               }
             },
@@ -46500,11 +44654,7 @@ const A2_WORDS = [
                   "pavement"
                 ],
                 "yellow": [
-                  "Pflaster",
-                  "laukumu",
-                  "walking",
-                  "ielu",
-                  "runa"
+                  "Pflaster"
                 ]
               }
             }
@@ -46549,41 +44699,20 @@ const A2_WORDS = [
           "standardStudy",
           "das Pflaster",
           "a patch",
-          "in context",
-          "patches",
-          "to stick",
           "in medicine",
           "Pflaster",
           "paved",
-          "skramba",
           "pavement",
-          "virsmu",
-          "pavements",
-          "a wound",
-          "Ielas",
-          "lieto",
-          "leather"
+          "a wound"
         ],
         "green": [
           "pavement"
-        ],
-        "yellow": [
-          "der Verband",
-          "Verband"
         ],
         "orange": [
           "a patch"
         ],
         "purple": [
-          "patch • pavement",
-          "pflastern",
-          "bandage",
-          "akmens",
-          "to pave"
-        ],
-        "red": [
-          "der Stein",
-          "Stein"
+          "patch • pavement"
         ]
       }
     }
@@ -46997,8 +45126,7 @@ const A2_WORDS = [
         "tip": [
           {
             "purple": [
-              "When",
-              "riding"
+              "When"
             ]
           }
         ],
@@ -47321,11 +45449,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "to guess"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -47413,7 +45537,7 @@ const A2_WORDS = [
         "If you see mit rechnen, you mean to reckon with something."
       ],
       "important": [
-        "rechnen un zählen nav viens un tas pats.",
+        "rechnen and zählen are not the same thing.",
         "rechnen = to calculate; zählen = to count."
       ],
       "sectionAccents": {
@@ -47478,11 +45602,7 @@ const A2_WORDS = [
                 "Damit"
               ]
             },
-            "lv": {
-              "purple": [
-                "count"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -47983,7 +46103,7 @@ const A2_WORDS = [
         {
           "word": "an etwas riechen",
           "meaning": "Smell something",
-          "example": "Der Hund riecht an der Tasche. = Suns osta somu."
+          "example": "Der Hund riecht an der Tasche. – The dog is sniffing the bag."
         },
         {
           "word": "nach etwas riechen",
@@ -47998,7 +46118,7 @@ const A2_WORDS = [
         {
           "word": "stinken",
           "meaning": "To smell",
-          "example": "Der Müll stinkt. = Atkritumi smird."
+          "example": "Der Müll stinkt. – The rubbish stinks."
         }
       ],
       "tip": [
@@ -48568,11 +46688,9 @@ const A2_WORDS = [
                   "Rolle"
                 ],
                 "yellow": [
-                  "meaning",
                   "spielen",
                   "to play",
-                  "Rolle",
-                  "lomu"
+                  "Rolle"
                 ]
               }
             },
@@ -48581,15 +46699,9 @@ const A2_WORDS = [
                 "blue": [
                   "Rolle"
                 ],
-                "green": [
-                  "rullis"
-                ],
                 "yellow": [
-                  "subject",
-                  "audumu",
                   "paper",
-                  "Rolle",
-                  "runa"
+                  "Rolle"
                 ]
               }
             }
@@ -48598,9 +46710,6 @@ const A2_WORDS = [
         "important": [
           {
             "text": {
-              "blue": [
-                "Rolle"
-              ],
               "purple": [
                 "role"
               ],
@@ -48609,7 +46718,6 @@ const A2_WORDS = [
                 "abstract",
                 "role",
                 "role",
-                "Rolle",
                 "role"
               ]
             },
@@ -48639,40 +46747,25 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "die Rolle",
-          "in the situation",
-          "for example",
           "important",
           "roller",
           "mean",
           "spielen",
-          "rullis",
           "to play",
           "often",
-          "at work",
-          "in the movie",
-          "A phrase",
-          "Rolle",
-          "rulli",
-          "loma",
-          "lomu"
+          "Rolle"
         ],
         "green": [
           "die Hauptrolle",
-          "Hauptrolle",
-          "rullis"
+          "Hauptrolle"
         ],
         "yellow": [
           "die Papierrolle",
           "Papierrolle"
         ],
-        "orange": [
-          "loma"
-        ],
         "purple": [
-          "loma / rullis",
           "a roll of paper",
           "the main role",
-          "loma • rullis",
           "der Teil",
           "meaning",
           "part",
@@ -49049,8 +47142,7 @@ const A2_WORDS = [
         "tip": [
           {
             "purple": [
-              "stored",
-              "get together"
+              "stored"
             ]
           }
         ],
@@ -49140,7 +47232,7 @@ const A2_WORDS = [
         {
           "word": "der Zinssatz",
           "meaning": "Interest rate",
-          "example": "Der Zinssatz steigt. = Procentu likme pieaug."
+          "example": "Der Zinssatz steigt. – The interest rate is rising."
         },
         {
           "word": "der Kaffeesatz",
@@ -49206,11 +47298,7 @@ const A2_WORDS = [
                 "Satz Reifen"
               ]
             },
-            "lv": {
-              "purple": [
-                "buy"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -49438,25 +47526,14 @@ const A2_WORDS = [
                 "blue": [
                   "Satz"
                 ],
-                "orange": [
-                  "teikums"
-                ],
                 "yellow": [
-                  "in context",
-                  "Valodas",
                   "Satz"
                 ]
               }
             },
             {
               "text": {
-                "green": [
-                  "komplekts",
-                  "nogulsnes",
-                  "likme"
-                ],
                 "yellow": [
-                  "specifiska",
                   "Kaffee",
                   "meaning",
                   "Reifen",
@@ -49515,27 +47592,20 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "komplekts",
-          "komplektu",
           "depending",
           "der Satz",
-          "for example",
           "jump",
           "jump",
           "mean",
           "teikums",
-          "teikumu",
           "In sports",
-          "tarifs",
-          "in the language",
           "riepu",
-          "Satz",
-          "setu"
+          "Satz"
         ],
         "green": [
           "der deutsche Satz",
           "deutsche Satz",
           "komplekts",
-          "nogulsnes",
           "likme"
         ],
         "yellow": [
@@ -49548,8 +47618,6 @@ const A2_WORDS = [
           "teikums"
         ],
         "purple": [
-          "sentence • set • leap • tariff",
-          "kafijas biezumi / nogulsnes",
           "riepu komplekts",
           "der Kaffeesatz",
           "procentu likme",
@@ -49558,8 +47626,7 @@ const A2_WORDS = [
         ],
         "red": [
           "der Zinssatz",
-          "Zinssatz",
-          "tarifs"
+          "Zinssatz"
         ]
       }
     }
@@ -49737,11 +47804,7 @@ const A2_WORDS = [
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "switch"
-            ]
-          },
+          {},
           {
             "green": [
               "einschalten"
@@ -50051,7 +48114,7 @@ const A2_WORDS = [
         {
           "word": "aussehen",
           "meaning": "To look",
-          "example": "Du siehst müde aus. = Tu izskaties noguris."
+          "example": "Du siehst müde aus. – You look tired."
         },
         {
           "word": "wirken",
@@ -50266,22 +48329,14 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "scheinen",
-                  "gaisma",
-                  "to shine",
-                  "Saule"
+                  "to shine"
                 ]
               }
             },
             {
               "text": {
-                "green": [
-                  "it seems"
-                ],
                 "yellow": [
-                  "the situation",
-                  "Man",
                   "scheint",
-                  "it seems",
                   "sein"
                 ]
               }
@@ -50305,9 +48360,7 @@ const A2_WORDS = [
             "example": {
               "red": [
                 "scheint",
-                "scheinen",
                 "Sonne",
-                "scheinen",
                 "müde",
                 "shining"
               ]
@@ -50318,26 +48371,17 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "Konstrukcija",
           "infinitive",
-          "iespaidu",
           "scheinen",
-          "people",
-          "likties",
           "mean",
           "scheint",
-          "gaismu",
-          "izsaka",
           "to shine",
           "often",
-          "sauli",
           "it seems",
-          "it seems",
-          "runa"
+          "it seems"
         ],
         "green": [
           "aussehen",
-          "starot",
           "it seems"
         ],
         "yellow": [
@@ -50466,7 +48510,7 @@ const A2_WORDS = [
         {
           "word": "die Schlange",
           "meaning": "Snake / line",
-          "example": "Die Schlange ist lang. = Rinda ir gara."
+          "example": "Die Schlange ist lang. – The queue is long."
         },
         {
           "word": "die Warteschlange",
@@ -50708,15 +48752,8 @@ const A2_WORDS = [
                 "blue": [
                   "Schlange"
                 ],
-                "green": [
-                  "rinda"
-                ],
                 "yellow": [
-                  "to people",
-                  "Schlange",
-                  "for tickets",
-                  "kases",
-                  "rinda"
+                  "Schlange"
                 ]
               }
             },
@@ -50729,11 +48766,8 @@ const A2_WORDS = [
                   "snake"
                 ],
                 "yellow": [
-                  "animal",
-                  "in context",
                   "Schlange",
-                  "snake",
-                  "Dabas"
+                  "snake"
                 ]
               }
             }
@@ -50776,7 +48810,6 @@ const A2_WORDS = [
           "standardStudy",
           "die Schlange",
           "animal",
-          "Konteksts",
           "Schlange",
           "people",
           "to stand",
@@ -50784,17 +48817,12 @@ const A2_WORDS = [
           "often",
           "snake",
           "snake",
-          "A phrase",
-          "gaida",
-          "rinda",
-          "in line",
-          "rindu"
+          "in line"
         ],
         "green": [
           "die Warteschlange",
           "Warteschlange",
-          "sequence",
-          "rinda"
+          "sequence"
         ],
         "yellow": [
           "die Reihe",
@@ -50807,7 +48835,6 @@ const A2_WORDS = [
           "waiting line",
           "row / sequence",
           "snake / line",
-          "snake • row",
           "reptile"
         ],
         "red": [
@@ -50856,7 +48883,7 @@ const A2_WORDS = [
         {
           "word": "schließen",
           "meaning": "Close / close / conclude",
-          "example": "Ich schließe die Tür. = Es aizveru durvis."
+          "example": "Ich schließe die Tür. – I close the door."
         },
         {
           "word": "abschließen",
@@ -50866,7 +48893,7 @@ const A2_WORDS = [
         {
           "word": "zumachen",
           "meaning": "Close (colloquial)",
-          "example": "Mach das Fenster zu. = Aiztaisi logu."
+          "example": "Mach das Fenster zu. – Shut the window."
         },
         {
           "word": "folgern",
@@ -50885,7 +48912,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "schließen un abschließen nav viens un tas pats.",
+        "text": "schließen and abschließen are not the same thing.",
         "example": "Tür schließen = close the door. Tür abschließen = to lock the door."
       },
       "sectionAccents": {
@@ -51077,9 +49104,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "schließen",
-                  "to close",
-                  "Durvis",
-                  "logi"
+                  "to close"
                 ]
               }
             },
@@ -51090,10 +49115,7 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "abschließen",
-                  "locking",
-                  "Schlüssel",
-                  "emphasise",
-                  "lieto"
+                  "Schlüssel"
                 ]
               }
             }
@@ -51142,24 +49164,16 @@ const A2_WORDS = [
           "standardStudy",
           "agreement",
           "Thinking",
-          "in context",
           "schließen",
           "to close",
           "conclude",
           "mean",
           "to conclude",
-          "Veikala",
-          "veikalu",
-          "durvis",
           "contract",
-          "darba",
-          "to close",
-          "logu"
+          "to close"
         ],
         "green": [
           "abschließen",
-          "colloquially",
-          "pabeigt",
           "to close"
         ],
         "yellow": [
@@ -51167,14 +49181,11 @@ const A2_WORDS = [
           "to conclude"
         ],
         "orange": [
-          "close up",
           "to lock",
           "to close"
         ],
         "purple": [
           "close / close / conclude",
-          "close • close • conclude",
-          "close (colloquially",
           "lock / complete"
         ],
         "red": [
@@ -51255,7 +49266,7 @@ const A2_WORDS = [
         {
           "word": "das Schloss",
           "meaning": "Castle / lock",
-          "example": "Das Schloss ist alt. = Pils ir veca."
+          "example": "Das Schloss ist alt. – The castle is old."
         },
         {
           "word": "die Burg",
@@ -51533,13 +49544,9 @@ const A2_WORDS = [
                 "blue": [
                   "Schloss"
                 ],
-                "orange": [
-                  "pils"
-                ],
                 "yellow": [
                   "Schloss",
-                  "In tourism",
-                  "pils"
+                  "In tourism"
                 ]
               }
             },
@@ -51554,9 +49561,7 @@ const A2_WORDS = [
                 "yellow": [
                   "bicycle",
                   "lock",
-                  "the key",
-                  "Schloss",
-                  "the door"
+                  "Schloss"
                 ]
               }
             }
@@ -51585,9 +49590,6 @@ const A2_WORDS = [
               "yellow": [
                 "Türschloss"
               ],
-              "orange": [
-                "The"
-              ],
               "purple": [
                 "bicycle lock",
                 "door lock"
@@ -51597,9 +49599,7 @@ const A2_WORDS = [
                 "Neuschwanstein",
                 "Türschloss",
                 "lock",
-                "Schloss",
-                "The",
-                "The"
+                "Schloss"
               ]
             }
           }
@@ -51612,19 +49612,12 @@ const A2_WORDS = [
           "das Schloss",
           "Türschloss",
           "bicycle",
-          "in context",
-          "Composites",
-          "keys",
           "lock",
           "the lock",
           "history",
           "mean",
           "Schloss",
-          "Tourism",
-          "Durvju",
-          "helps",
-          "pili",
-          "pils"
+          "Tourism"
         ],
         "green": [
           "die Burg",
@@ -51635,13 +49628,8 @@ const A2_WORDS = [
           "das Türschloss",
           "Türschloss"
         ],
-        "orange": [
-          "cietoksnis",
-          "pils"
-        ],
         "purple": [
           "bicycle lock",
-          "cietoksnis / pils",
           "door lock",
           "castle / lock",
           "castle • lock",
@@ -51851,7 +49839,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Schuld un Schulden nav viens un tas pats.",
+        "text": "Schuld and Schulden are not the same thing.",
         "example": "Ich habe Schuld = I am guilty. Ich habe Schulden = I have debts."
       },
       "sectionAccents": {
@@ -51919,11 +49907,7 @@ const A2_WORDS = [
                 "viele"
               ]
             },
-            "lv": {
-              "purple": [
-                "debt"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -52071,11 +50055,7 @@ const A2_WORDS = [
                 "yellow": [
                   "in the singular",
                   "responsibility",
-                  "Schuld",
-                  "vaina"
-                ],
-                "orange": [
-                  "vaina"
+                  "Schuld"
                 ]
               }
             },
@@ -52088,8 +50068,7 @@ const A2_WORDS = [
                   "in the plural",
                   "simply",
                   "Schulden",
-                  "debts",
-                  "nevis"
+                  "debts"
                 ]
               }
             }
@@ -52118,13 +50097,9 @@ const A2_WORDS = [
               "green": [
                 "Schulden"
               ],
-              "purple": [
-                "debt"
-              ],
               "red": [
                 "Schulden",
                 "guilty",
-                "debt",
                 "Schuld",
                 "Schuld"
               ]
@@ -52145,11 +50120,7 @@ const A2_WORDS = [
           "guilty",
           "debt",
           "Schuld",
-          "vainot",
-          "A phrase",
           "geben",
-          "vaina",
-          "vainu",
           "someone"
         ],
         "green": [
@@ -52161,9 +50132,6 @@ const A2_WORDS = [
           "die Verantwortung",
           "Verantwortung",
           "responsibility"
-        ],
-        "orange": [
-          "vaina"
         ],
         "purple": [
           "fault • debt • responsibility",
@@ -52597,7 +50565,7 @@ const A2_WORDS = [
             "text": "In maps, directions and descriptions, sich befinden means to be located."
           },
           {
-            "text": "Ja gribi pateikt “justies”, lieto sich fühlen, nevis sich befinden."
+            "text": "If you want to say “to feel”, use sich fühlen, not sich befinden."
           }
         ]
       },
@@ -52786,9 +50754,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "sich befinden"
-                ],
-                "purple": [
-                  "atrasties"
                 ]
               }
             },
@@ -52796,9 +50761,6 @@ const A2_WORDS = [
               "text": {
                 "red": [
                   "sich fühlen"
-                ],
-                "purple": [
-                  "justies"
                 ]
               }
             }
@@ -52854,9 +50816,6 @@ const A2_WORDS = [
           "fühle mich"
         ],
         "purple": [
-          "atrasties",
-          "atrodas",
-          "justies",
           "i feel",
           "location"
         ]
@@ -53067,11 +51026,7 @@ const A2_WORDS = [
                 "euch"
               ]
             },
-            "lv": {
-              "purple": [
-                "you talk"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -53190,16 +51145,9 @@ const A2_WORDS = [
             },
             {
               "text": {
-                "green": [
-                  "have fun"
-                ],
                 "yellow": [
-                  "have fun",
-                  "konteksts",
                   "event",
-                  "mean",
-                  "vakars",
-                  "filma"
+                  "mean"
                 ]
               }
             }
@@ -53216,7 +51164,6 @@ const A2_WORDS = [
             },
             "example": {
               "red": [
-                "The",
                 "having fun",
                 "unterhalten",
                 "unterhalte",
@@ -53235,15 +51182,9 @@ const A2_WORDS = [
           "unterhalten",
           "reflexive",
           "to talk",
-          "actions",
           "mean",
-          "accompany",
           "In some",
-          "laiku",
-          "lieto",
-          "word",
-          "euch",
-          "labi"
+          "euch"
         ],
         "green": [
           "have fun",
@@ -53257,7 +51198,6 @@ const A2_WORDS = [
         ],
         "purple": [
           "to talk / have fun",
-          "to talk • to have fun",
           "to talk / to talk",
           "to speak"
         ],
@@ -53913,30 +51853,17 @@ const A2_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "blue": [
-                  "sobald"
-                ],
                 "yellow": [
-                  "in the auxiliary clause",
-                  "actions",
-                  "sobald",
                   "often",
-                  "word",
                   "German"
                 ]
               }
             },
             {
               "text": {
-                "blue": [
-                  "sobald"
-                ],
                 "yellow": [
                   "action",
-                  "next",
-                  "sobald",
-                  "uzreiz",
-                  "begins"
+                  "next"
                 ]
               }
             }
@@ -53957,12 +51884,6 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "blue": [
-                "soundt"
-              ],
-              "green": [
-                "soundt"
-              ],
               "orange": [
                 "as soon as"
               ],
@@ -53971,8 +51892,6 @@ const A2_WORDS = [
               ],
               "red": [
                 "auxiliary clause",
-                "soundt",
-                "soundt",
                 "dich",
                 "rufe",
                 "Zeit"
@@ -53984,41 +51903,28 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "in the auxiliary clause",
           "auxiliary clause",
-          "actions",
           "as soon as",
           "at the end",
-          "ievada",
-          "co",
           "sobald",
-          "in the language",
           "word",
-          "viena",
           "shows",
-          "standing",
-          "in this one",
           "German"
         ],
         "green": [
           "once in the past",
-          "co",
-          "wenn",
-          "ja"
+          "wenn"
         ],
         "yellow": [
           "als"
         ],
         "orange": [
-          "as soon as",
-          "kad"
+          "as soon as"
         ],
         "purple": [
           "when (once in the past",
           "as soon as",
-          "as soon as • as soon as",
           "after when",
-          "kad / ja",
           "nachdem",
           "until"
         ],
@@ -54384,8 +52290,6 @@ const A2_WORDS = [
                 "red": [],
                 "yellow": [
                   "warning",
-                  "in a sentence",
-                  "sekas",
                   "sonst"
                 ]
               }
@@ -54397,10 +52301,8 @@ const A2_WORDS = [
                 ],
                 "red": [],
                 "yellow": [
-                  "ieradumu",
                   "mean",
-                  "sonst",
-                  "runa"
+                  "sonst"
                 ]
               }
             }
@@ -54412,11 +52314,7 @@ const A2_WORDS = [
               "blue": [
                 "sonst"
               ],
-              "orange": [
-                "otherwise"
-              ],
               "red": [
-                "otherwise",
                 "sonst",
                 "Sonst"
               ]
@@ -54443,21 +52341,12 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "ieradumiem",
-          "kontekstos",
-          "would warn",
-          "case",
           "mean",
-          "the opposite",
           "otherwise",
-          "notiks",
           "often",
           "In some",
-          "lieto",
           "consequences",
-          "sonst",
-          "cits",
-          "dari"
+          "sonst"
         ],
         "green": [
           "otherwise",
@@ -54465,15 +52354,13 @@ const A2_WORDS = [
           "ansonsten"
         ],
         "yellow": [
-          "andernfalls",
-          "bez tam"
+          "andernfalls"
         ],
         "orange": [
           "in addition",
           "otherwise"
         ],
         "purple": [
-          "otherwise • otherwise • besides • usually",
           "otherwise / otherwise / usually",
           "otherwise / otherwise",
           "in addition / besides",
@@ -55260,7 +53147,6 @@ const A2_WORDS = [
                   "up"
                 ],
                 "yellow": [
-                  "cenas",
                   "temperature",
                   "water level"
                 ]
@@ -55315,9 +53201,7 @@ const A2_WORDS = [
         ],
         "purple": [
           "climb",
-          "Celties",
           "to climb",
-          "celties",
           "rise up"
         ],
         "green": [
@@ -55389,12 +53273,12 @@ const A2_WORDS = [
         {
           "word": "der Ort",
           "meaning": "Place / settlement",
-          "example": "Der Ort ist schön. = Vieta ir skaista."
+          "example": "Der Ort ist schön. – The place is beautiful."
         },
         {
           "word": "der Arbeitsplatz",
           "meaning": "Workplace",
-          "example": "Mein Arbeitsplatz ist ruhig. = Mana darba vieta ir klusa."
+          "example": "Mein Arbeitsplatz ist ruhig. – My workplace is quiet."
         },
         {
           "word": "die Textstelle",
@@ -55657,10 +53541,8 @@ const A2_WORDS = [
                   "Stelle"
                 ],
                 "yellow": [
-                  "to search",
                   "Stelle",
-                  "suchen",
-                  "darba"
+                  "suchen"
                 ]
               }
             },
@@ -55673,7 +53555,6 @@ const A2_WORDS = [
                   "specific",
                   "dieser",
                   "Stelle",
-                  "vietu",
                   "Text"
                 ]
               }
@@ -55718,42 +53599,22 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "die Stelle",
-          "fragments",
-          "fragmentu",
-          "in context",
           "specific",
           "Body",
           "mean",
-          "traumas",
           "dieser",
           "Stelle",
-          "In the text",
-          "amatu",
-          "darba",
-          "A phrase",
-          "in the room",
-          "vieta",
-          "vietu"
+          "In the text"
         ],
         "green": [
-          "inhabited place",
-          "darba vieta",
           "der Ort",
           "Ort"
         ],
         "yellow": [
           "der Arbeitsplatz",
-          "Arbeitsplatz",
-          "fragments"
-        ],
-        "orange": [
-          "teksta vieta",
-          "vieta"
+          "Arbeitsplatz"
         ],
         "purple": [
-          "vieta / darba vieta / fragments",
-          "vieta • darba vieta • fragments",
-          "teksta vieta / fragments",
           "place / settlement",
           "die Wunde",
           "a wound",
@@ -56096,19 +53957,14 @@ const A2_WORDS = [
                   "Das stimmt"
                 ],
                 "purple": [
-                  "it is",
-                  "pareizi"
+                  "it is"
                 ]
               }
             },
             {
               "text": {
                 "green": [
-                  "zustimmen",
-                  "stimme zu"
-                ],
-                "purple": [
-                  "piekrist"
+                  "zustimmen"
                 ]
               }
             }
@@ -56136,9 +53992,7 @@ const A2_WORDS = [
                 "zustimmen"
               ],
               "purple": [
-                "it is",
-                "stimmen",
-                "stimmen"
+                "it is"
               ]
             }
           }
@@ -56152,10 +54006,6 @@ const A2_WORDS = [
         ],
         "purple": [
           "Agree",
-          "To be correct",
-          "Balsot",
-          "pareizi",
-          "balsojam",
           "I agree"
         ],
         "green": [
@@ -56255,7 +54105,7 @@ const A2_WORDS = [
         {
           "word": "das Thema",
           "meaning": "Subject",
-          "example": "Das Thema ist interessant. = Temats ir interesants."
+          "example": "Das Thema ist interessant. – The topic is interesting."
         }
       ],
       "tip": {
@@ -56269,7 +54119,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "der Stoff nav tikai audums.",
+        "text": "der Stoff does not only mean fabric.",
         "example": "Stoff für ein Kleid = fabric for a dress. ein poissenger Stoff = poisonous substance. Unterrichtsstoff = teaching material."
       },
       "sectionAccents": {
@@ -56481,12 +54331,7 @@ const A2_WORDS = [
                 "blue": [
                   "Stoff"
                 ],
-                "purple": [
-                  "audums"
-                ],
                 "yellow": [
-                  "for clothes",
-                  "aizkariem",
                   "sewing"
                 ]
               }
@@ -56495,12 +54340,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "Stoff"
-                ],
-                "purple": [
-                  "learning material"
-                ],
-                "green": [
-                  "skolu"
                 ]
               }
             }
@@ -56511,23 +54350,12 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "Stoff"
-              ],
-              "purple": [
-                "audums"
               ]
             },
             "example": {
               "blue": [
                 "Stoff",
                 "Unterrichtsstoff"
-              ],
-              "purple": [
-                "audums",
-                "der",
-                "der"
-              ],
-              "red": [
-                "der"
               ]
             }
           }
@@ -56539,16 +54367,11 @@ const A2_WORDS = [
           "Stoff"
         ],
         "purple": [
-          "Audums",
-          "Viela",
           "Material",
-          "audums",
-          "viela",
           "material"
         ],
         "green": [
-          "Baumwolle",
-          "skolu"
+          "Baumwolle"
         ],
         "yellow": [
           "Kleid",
@@ -57007,7 +54830,6 @@ const A2_WORDS = [
                   "die Speisekarte"
                 ],
                 "purple": [
-                  "tabulai",
                   "for the menu"
                 ]
               }
@@ -57489,7 +55311,6 @@ const A2_WORDS = [
                   "detail"
                 ],
                 "yellow": [
-                  "in context",
                   "Technical",
                   "detail",
                   "often",
@@ -57506,9 +55327,6 @@ const A2_WORDS = [
                   "part"
                 ],
                 "yellow": [
-                  "kopumu",
-                  "the story",
-                  "tekstu",
                   "part",
                   "Teil"
                 ]
@@ -57541,8 +55359,7 @@ const A2_WORDS = [
                 "Teil"
               ],
               "green": [
-                "object",
-                "detail"
+                "object"
               ],
               "yellow": [
                 "Ersatzteil",
@@ -57572,38 +55389,31 @@ const A2_WORDS = [
           "Colloquially",
           "Ersatzteil",
           "subject",
-          "in context",
           "Composites",
           "das Teil",
           "Technical",
           "clothing",
-          "bigger",
           "mean",
           "detail",
           "detail",
-          "gabals",
           "part",
           "part",
           "Teil"
         ],
         "green": [
-          "gramatiski der",
           "subject",
           "der Teil",
           "detail"
         ],
         "yellow": [
           "das Ersatzteil",
-          "Ersatzteil",
-          "gabals"
+          "Ersatzteil"
         ],
         "orange": [
-          "lieta",
           "part"
         ],
         "purple": [
           "part / detail / piece",
-          "part (grammatically fit",
           "part • detail • piece",
           "thing / subject",
           "spare part",
@@ -57937,16 +55747,8 @@ const A2_WORDS = [
           "leftBlocks": [
             {
               "text": {
-                "blue": [
-                  "Termin"
-                ],
-                "purple": [
-                  "pierakstu"
-                ],
                 "green": [
-                  "doctor",
-                  "friziera",
-                  "in the institution"
+                  "doctor"
                 ]
               }
             },
@@ -57968,9 +55770,6 @@ const A2_WORDS = [
         "important": [
           {
             "text": {
-              "blue": [
-                "Termin"
-              ],
               "red": [
                 "The"
               ]
@@ -57984,11 +55783,6 @@ const A2_WORDS = [
               ],
               "red": [
                 "Frist"
-              ],
-              "purple": [
-                "The",
-                "The",
-                "The"
               ]
             }
           }
@@ -58000,9 +55794,7 @@ const A2_WORDS = [
           "Termin"
         ],
         "purple": [
-          "Appointment arranged",
           "Deadline",
-          "pieraksts",
           "agreed time",
           "deadline"
         ],
@@ -58093,12 +55885,12 @@ const A2_WORDS = [
         {
           "word": "niedrig",
           "meaning": "Low in height or figure",
-          "example": "Das Regal ist niedrig. = Plaukts ir zems."
+          "example": "Das Regal ist niedrig. – The shelf is low."
         },
         {
           "word": "hoch",
           "meaning": "High",
-          "example": "Der Berg ist hoch. = Kalns ir augsts."
+          "example": "Der Berg ist hoch. – The mountain is high."
         },
         {
           "word": "flach",
@@ -58108,7 +55900,7 @@ const A2_WORDS = [
         {
           "word": "leise",
           "meaning": "Quiet",
-          "example": "Die Stimme ist leise. = Balss ir klusa."
+          "example": "Die Stimme ist leise. – The voice is quiet."
         }
       ],
       "tip": {
@@ -58343,13 +56135,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "tief"
-                ],
-                "purple": [
-                  "zems"
-                ],
-                "yellow": [
-                  "Balsij",
-                  "tonim"
                 ]
               }
             }
@@ -58370,13 +56155,8 @@ const A2_WORDS = [
                 "tiefer",
                 "tiefe"
               ],
-              "red": [
-                "niedrig"
-              ],
               "purple": [
-                "deep",
-                "tief",
-                "tief"
+                "deep"
               ],
               "yellow": [
                 "See",
@@ -58395,10 +56175,7 @@ const A2_WORDS = [
         ],
         "purple": [
           "Deep",
-          "Zems",
-          "deep",
-          "zems",
-          "zema"
+          "deep"
         ],
         "green": [
           "flach"
@@ -58693,12 +56470,12 @@ const A2_WORDS = [
         {
           "word": "tragen",
           "meaning": "Carry / carry / wear",
-          "example": "Ich trage eine Tasche. = Es nesu somu."
+          "example": "Ich trage eine Tasche. – I'm carrying a bag."
         },
         {
           "word": "anziehen",
           "meaning": "Put on",
-          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
+          "example": "Ich ziehe die Jacke an. – I put on my jacket."
         },
         {
           "word": "bringen",
@@ -58717,7 +56494,7 @@ const A2_WORDS = [
             "text": "Clothing is often \"worn\" with tragen in German: eine Jacke tragen."
           },
           {
-            "text": "Ja gribi pateikt “uzvilkt”, lieto anziehen; ja “atnest”, lieto bringen."
+            "text": "If you want to say “to put on”, use anziehen; if “to bring”, use bringen."
           }
         ]
       },
@@ -58732,15 +56509,9 @@ const A2_WORDS = [
           "trage",
           "trägst"
         ],
-        "green": [
-          "Nest",
-          "nest",
-          "nes"
-        ],
         "yellow": [
           "To wear",
-          "carry",
-          "brilles"
+          "carry"
         ],
         "red": [
           "Wear",
@@ -58760,9 +56531,6 @@ const A2_WORDS = [
                 "blue": [
                   "tragen"
                 ],
-                "purple": [
-                  "wearing"
-                ],
                 "yellow": [
                   "Clothing",
                   "Jacke"
@@ -58774,10 +56542,6 @@ const A2_WORDS = [
                 "red": [
                   "anziehen",
                   "bringen"
-                ],
-                "purple": [
-                  "uzvilkt",
-                  "atnest"
                 ]
               }
             }
@@ -58948,7 +56712,7 @@ const A2_WORDS = [
         {
           "word": "passen",
           "meaning": "Fit / fit",
-          "example": "Das passt. = Tas der."
+          "example": "Das passt. – That fits."
         }
       ],
       "tip": {
@@ -59188,14 +56952,8 @@ const A2_WORDS = [
                 "blue": [
                   "treffen"
                 ],
-                "orange": [
-                  "satikt"
-                ],
                 "yellow": [
-                  "in context",
-                  "A person",
                   "treffen",
-                  "satikt",
                   "often"
                 ]
               }
@@ -59208,10 +56966,7 @@ const A2_WORDS = [
                 "yellow": [
                   "to make a decision",
                   "Entscheidung",
-                  "in context",
-                  "accept",
-                  "treffen",
-                  "The decision"
+                  "treffen"
                 ]
               }
             }
@@ -59235,10 +56990,8 @@ const A2_WORDS = [
                 "to hit"
               ],
               "red": [
-                "Ich",
                 "treffen",
                 "to hit",
-                "Ich",
                 "Wahl",
                 "Ziel"
               ]
@@ -59249,26 +57002,18 @@ const A2_WORDS = [
       "accents": {
         "blue": [
           "standardStudy",
-          "satikties",
           "a person",
-          "to do",
-          "objekta",
           "accept",
           "treffen",
           "choice",
           "decision",
-          "is changing",
           "Meaning",
-          "satikt",
           "to hit",
           "often",
-          "goals",
           "someone"
         ],
         "green": [
           "sich treffen",
-          "to call",
-          "atbilst",
           "to hit"
         ],
         "yellow": [
@@ -59276,18 +57021,11 @@ const A2_WORDS = [
           "kennenlernen",
           "accept"
         ],
-        "orange": [
-          "sasniegt",
-          "satikt",
-          "to bet"
-        ],
         "purple": [
-          "meet • hit • decide",
           "meet / hit / accept",
           "reach / call",
           "fit / fit",
           "get acquainted",
-          "satikties",
           "passen"
         ],
         "red": [
@@ -59447,7 +57185,7 @@ const A2_WORDS = [
         {
           "word": "übrig",
           "meaning": "Left over / the rest",
-          "example": "Es ist Geld übrig. = Ir atlikusi nauda."
+          "example": "Es ist Geld übrig. – There is money left over."
         },
         {
           "word": "übrig bleiben",
@@ -59686,9 +57424,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "übrig"
-                ],
-                "purple": [
-                  "remains"
                 ]
               }
             },
@@ -59736,10 +57471,7 @@ const A2_WORDS = [
           "übrigen"
         ],
         "purple": [
-          "Atlicis",
           "The rest",
-          "atlicis",
-          "atlikusi",
           "the rest",
           "stay over"
         ],
@@ -59804,7 +57536,7 @@ const A2_WORDS = [
         {
           "word": "üben",
           "meaning": "To exercise",
-          "example": "Ich übe jeden Tag. = Es vingrinos katru dienu."
+          "example": "Ich übe jeden Tag. – I practise every day."
         },
         {
           "word": "das Training",
@@ -59833,7 +57565,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "die Übung un üben nav viens un tas pats.",
+        "text": "die Übung and üben are not the same thing.",
         "example": "die Übung = exercise. üben = to practice. das Training = training."
       },
       "sectionAccents": {
@@ -59874,11 +57606,7 @@ const A2_WORDS = [
                 "Deutschkurs"
               ]
             },
-            "lv": {
-              "purple": [
-                "exercise"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -60040,9 +57768,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "Übung"
-                ],
-                "purple": [
-                  "praksi"
                 ]
               }
             }
@@ -60085,9 +57810,7 @@ const A2_WORDS = [
         ],
         "purple": [
           "Exercise",
-          "Prakse",
-          "exercise",
-          "prakse"
+          "exercise"
         ],
         "green": [
           "Aufgabe"
@@ -60157,7 +57880,7 @@ const A2_WORDS = [
         {
           "word": "kostenlos",
           "meaning": "Free of charge",
-          "example": "Der Kurs ist kostenlos. = Kurss ir bez maksas."
+          "example": "Der Kurs ist kostenlos. – The course is free of charge."
         },
         {
           "word": "gratis",
@@ -60374,14 +58097,8 @@ const A2_WORDS = [
                 "blue": [
                   "umsonst"
                 ],
-                "orange": [
-                  "par velti"
-                ],
                 "yellow": [
-                  "umsonst",
-                  "velti",
-                  "cenu",
-                  "runa"
+                  "umsonst"
                 ]
               }
             },
@@ -60396,8 +58113,7 @@ const A2_WORDS = [
                 "yellow": [
                   "result",
                   "umsonst",
-                  "in vain",
-                  "runa"
+                  "in vain"
                 ]
               }
             }
@@ -60443,7 +58159,6 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "different",
-          "Konteksts",
           "kostenlos",
           "result",
           "result",
@@ -60452,13 +58167,8 @@ const A2_WORDS = [
           "important",
           "umsonst",
           "in vain",
-          "maksas",
-          "for two",
           "word",
-          "velti",
-          "cenu",
-          "shows",
-          "runa"
+          "shows"
         ],
         "green": [
           "kostenlos",
@@ -60467,13 +58177,8 @@ const A2_WORDS = [
         "yellow": [
           "gratis"
         ],
-        "orange": [
-          "par velti"
-        ],
         "purple": [
           "for nothing / in vain",
-          "in vain • in vain",
-          "bez maksas",
           "for free"
         ],
         "red": [
@@ -60762,7 +58467,7 @@ const A2_WORDS = [
         {
           "word": "verbinden",
           "meaning": "Connect / bind",
-          "example": "Die Brücke verbindet zwei Orte. = Tilts savieno divas vietas."
+          "example": "Die Brücke verbindet zwei Orte. – The bridge connects two places."
         },
         {
           "word": "sich verbinden mit",
@@ -60772,7 +58477,7 @@ const A2_WORDS = [
         {
           "word": "binden",
           "meaning": "Sieve",
-          "example": "Ich binde die Schuhe. = Es sienu kurpes."
+          "example": "Ich binde die Schuhe. – I'm tying my shoes."
         },
         {
           "word": "anschließen",
@@ -60864,11 +58569,7 @@ const A2_WORDS = [
                 "Wunde"
               ]
             },
-            "lv": {
-              "purple": [
-                "bandage"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -61020,7 +58721,6 @@ const A2_WORDS = [
                   "verbinden"
                 ],
                 "purple": [
-                  "related",
                   "together"
                 ]
               }
@@ -61075,11 +58775,8 @@ const A2_WORDS = [
           "verbinde"
         ],
         "purple": [
-          "Savienot",
           "Bandage",
-          "savienot",
-          "bandage",
-          "savieno"
+          "bandage"
         ],
         "green": [
           "Arzt",
@@ -61181,7 +58878,7 @@ const A2_WORDS = [
         {
           "word": "der Kontakt",
           "meaning": "Contact / communication",
-          "example": "Wir haben Kontakt mit Kunden. = Mums ir kontakti ar klientiem."
+          "example": "Wir haben Kontakt mit Kunden. – We have contact with customers."
         },
         {
           "word": "die Bewegung",
@@ -61200,7 +58897,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Verkehr nav tikai auto satiksme.",
+        "text": "Verkehr does not only mean car traffic.",
         "example": "starker Verkehr = heavy traffic. öffentlicher Verkehr = public transport. Verkehr mit Kunden = contact with customers."
       },
       "sectionAccents": {
@@ -61451,9 +59148,6 @@ const A2_WORDS = [
                 "blue": [
                   "Verkehr"
                 ],
-                "orange": [
-                  "satiksme"
-                ],
                 "yellow": [
                   "In the city",
                   "Verkehr",
@@ -61467,11 +59161,7 @@ const A2_WORDS = [
                   "Verkehr"
                 ],
                 "yellow": [
-                  "for companies",
-                  "klientiem",
-                  "kontaktus",
                   "mean",
-                  "sakarus",
                   "Verkehr"
                 ]
               }
@@ -61484,11 +59174,7 @@ const A2_WORDS = [
               "blue": [
                 "Verkehr"
               ],
-              "orange": [
-                "satiksme"
-              ],
               "red": [
-                "satiksme",
                 "Verkehr",
                 "Verkehr",
                 "Verkehr"
@@ -61498,9 +59184,6 @@ const A2_WORDS = [
               "blue": [
                 "Verkehr"
               ],
-              "orange": [
-                "satiksme"
-              ],
               "purple": [
                 "public transport"
               ],
@@ -61508,7 +59191,6 @@ const A2_WORDS = [
                 "öffentlicher",
                 "Verkehr",
                 "Verkehr",
-                "satiksme",
                 "starker",
                 "Verkehr"
               ]
@@ -61521,18 +59203,12 @@ const A2_WORDS = [
           "standardStudy",
           "information",
           "der Verkehr",
-          "satiksme",
-          "satiksmi",
-          "Biznesa",
           "people",
           "movement",
           "movement",
           "mean",
           "in the city",
-          "sakarus",
           "Verkehr",
-          "sakari",
-          "in the language",
           "goods",
           "road"
         ],
@@ -61543,18 +59219,11 @@ const A2_WORDS = [
         ],
         "yellow": [
           "der öffentliche Verkehr",
-          "öffentliche Verkehr",
-          "sakari"
-        ],
-        "orange": [
-          "kontakts",
-          "satiksme"
+          "öffentliche Verkehr"
         ],
         "purple": [
           "traffic / movement / communications",
-          "traffic • movement • communications",
           "public transport",
-          "kontakts / sakari",
           "road traffic",
           "die Bewegung",
           "Bewegung"
@@ -61697,7 +59366,7 @@ const A2_WORDS = [
         {
           "word": "die Hälfte",
           "meaning": "Side",
-          "example": "Die Hälfte ist weg. = Puse ir prom."
+          "example": "Die Hälfte ist weg. – Half of it is gone."
         },
         {
           "word": "das Drittel",
@@ -61963,7 +59632,6 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "a quarter",
-                  "daudzumu",
                   "Viertel"
                 ]
               }
@@ -61973,17 +59641,9 @@ const A2_WORDS = [
                 "blue": [
                   "Viertel"
                 ],
-                "green": [
-                  "stundas ceturksnis",
-                  "ceturksnis",
-                  "rajons"
-                ],
                 "yellow": [
-                  "ceturksnis",
-                  "pulksteni",
                   "quarter",
                   "city",
-                  "stundas",
                   "Viertel"
                 ]
               }
@@ -62027,30 +59687,17 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "das Viertel",
-          "izteicienos",
-          "ceturksnis",
           "a quarter",
           "a quarter",
-          "ceturksni",
-          "in context",
           "quarter",
           "quarter",
           "for example",
-          "Cities",
-          "veseluma",
-          "stundas",
           "Viertel",
-          "rajonu",
-          "Laika",
           "acht"
         ],
         "green": [
-          "stundas ceturksnis",
-          "ceturksnis",
           "die Hälfte",
-          "apkaime",
-          "Hälfte",
-          "rajons"
+          "Hälfte"
         ],
         "yellow": [
           "das Drittel",
@@ -62062,14 +59709,12 @@ const A2_WORDS = [
           "a quarter"
         ],
         "purple": [
-          "quarter • quarter of an hour • quarter",
           "quarter / quarter / quarter",
           "part of the city / district",
           "block / neighborhood",
           "das Quartier",
           "Quartier",
-          "a third",
-          "puse"
+          "a third"
         ],
         "red": [
           "der Stadtteil",
@@ -62365,11 +60010,7 @@ const A2_WORDS = [
                 "anders"
               ]
             },
-            "lv": {
-              "purple": [
-                "imagine"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -62495,8 +60136,6 @@ const A2_WORDS = [
                 "yellow": [
                   "stand in front of",
                   "vorstellen",
-                  "plant",
-                  "people",
                   "often"
                 ]
               }
@@ -62511,7 +60150,6 @@ const A2_WORDS = [
                 ],
                 "yellow": [
                   "vorstellen",
-                  "latviski",
                   "etwas"
                 ]
               }
@@ -62548,23 +60186,18 @@ const A2_WORDS = [
           "to imagine",
           "vorstellen",
           "to present",
-          "plant",
           "mean",
           "show",
           "in front",
-          "for the word",
           "etwas",
-          "ideju",
           "especially",
           "the plan",
-          "someone",
-          "sevi"
+          "someone"
         ],
         "green": [
           "sich vorstellen",
           "to imagine",
-          "to present",
-          "to consider"
+          "to present"
         ],
         "yellow": [
           "stand in front of",
@@ -62574,7 +60207,6 @@ const A2_WORDS = [
           "to introduce"
         ],
         "purple": [
-          "introduce • imagine • stand before",
           "stand in front / imagine",
           "introduce / present",
           "to think / consider",
@@ -62650,7 +60282,7 @@ const A2_WORDS = [
         {
           "word": "der Waggon",
           "meaning": "Wagon (train)",
-          "example": "Der Waggon ist voll. = Vagons ir pilns."
+          "example": "Der Waggon ist voll. – The carriage is full."
         },
         {
           "word": "das Auto",
@@ -62817,7 +60449,7 @@ const A2_WORDS = [
         {
           "word": "entscheiden",
           "meaning": "To decide",
-          "example": "Ich entscheide mich. = Es izlemju."
+          "example": "Ich entscheide mich. – I'm making up my mind."
         },
         {
           "word": "abstimmen",
@@ -63022,14 +60654,7 @@ const A2_WORDS = [
                 "blue": [
                   "wählen"
                 ],
-                "green": [
-                  "balsot"
-                ],
                 "yellow": [
-                  "candidate",
-                  "in context",
-                  "Partiju",
-                  "balsot",
                   "wählen"
                 ]
               }
@@ -63040,10 +60665,7 @@ const A2_WORDS = [
                   "wählen"
                 ],
                 "yellow": [
-                  "to compose",
-                  "telefona",
                   "Nummer",
-                  "numuru",
                   "wählen"
                 ]
               }
@@ -63076,9 +60698,6 @@ const A2_WORDS = [
                 "dial a number",
                 "wählen"
               ],
-              "orange": [
-                "to choose"
-              ],
               "red": [
                 "wählen",
                 "wählen",
@@ -63095,40 +60714,23 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "to choose",
-          "in context",
-          "Politikas",
-          "in the machine",
-          "possibilities",
-          "to compose",
-          "Telefona",
-          "the menu",
           "mean",
-          "balsot",
-          "On the computer",
-          "numuru",
-          "opciju",
-          "wählen",
-          "starp",
-          "to wish"
+          "wählen"
         ],
         "green": [
-          "auswählen",
-          "balsot"
+          "auswählen"
         ],
         "yellow": [
           "dial a number",
-          "entscheiden",
-          "to compose"
+          "entscheiden"
         ],
         "orange": [
           "to choose",
           "to select"
         ],
         "purple": [
-          "choose • vote • dial",
           "choose / vote / compose",
-          "to select / choose",
-          "izlemt"
+          "to select / choose"
         ],
         "red": [
           "abstimmen"
@@ -63445,11 +61047,8 @@ const A2_WORDS = [
                   "while"
                 ],
                 "yellow": [
-                  "actions",
-                  "teikums",
                   "während",
-                  "while",
-                  "word"
+                  "while"
                 ]
               }
             }
@@ -63469,9 +61068,6 @@ const A2_WORDS = [
               ]
             },
             "example": {
-              "blue": [
-                "während"
-              ],
               "green": [
                 "while"
               ],
@@ -63481,8 +61077,6 @@ const A2_WORDS = [
               "red": [
                 "i work",
                 "arbeite",
-                "Während",
-                "während",
                 "while",
                 "Tages"
               ]
@@ -63497,39 +61091,28 @@ const A2_WORDS = [
           "preposition",
           "actions",
           "genitive",
-          "saiklis",
           "während",
-          "ievada",
           "meaning",
-          "in the language",
           "often",
           "while",
           "during",
-          "Tages",
-          "word",
-          "seko",
-          "German"
+          "Tages"
         ],
         "green": [
           "while",
-          "bei",
-          "ja"
+          "bei"
         ],
         "yellow": [
           "wenn"
         ],
         "orange": [
           "during certain conditions",
-          "tik ilgi",
-          "during",
-          "kad"
+          "during"
         ],
         "purple": [
           "at / during certain conditions",
           "as long as",
-          "during / while",
-          "during • while",
-          "kad / ja"
+          "during / while"
         ],
         "red": [
           "solange"
@@ -63593,7 +61176,7 @@ const A2_WORDS = [
         {
           "word": "sicher",
           "meaning": "Sure / definitely",
-          "example": "Das ist sicher richtig. = Tas noteikti ir pareizi."
+          "example": "Das ist sicher richtig. – That is surely right."
         },
         {
           "word": "bestimmt",
@@ -63820,9 +61403,6 @@ const A2_WORDS = [
                 ],
                 "red": [
                   "vielleicht"
-                ],
-                "purple": [
-                  "probably"
                 ]
               }
             },
@@ -63860,7 +61440,6 @@ const A2_WORDS = [
               "purple": [
                 "probably",
                 "most likely",
-                "maybe",
                 "wahrscheinlich"
               ]
             }
@@ -63980,12 +61559,12 @@ const A2_WORDS = [
         {
           "word": "wechseln",
           "meaning": "To change / exchange",
-          "example": "Ich wechsle Geld. = Es samainu naudu."
+          "example": "Ich wechsle Geld. – I'm changing money."
         },
         {
           "word": "umtauschen",
           "meaning": "Exchange an item",
-          "example": "Ich tausche die Jacke um. = Es apmainu jaku."
+          "example": "Ich tausche die Jacke um. – I'm exchanging the jacket."
         },
         {
           "word": "tauschen",
@@ -64224,12 +61803,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "wechseln"
-                ],
-                "yellow": [
-                  "Naudai",
-                  "skolai",
-                  "darbam",
-                  "for the topic"
                 ]
               }
             },
@@ -64237,12 +61810,6 @@ const A2_WORDS = [
               "text": {
                 "red": [
                   "umtauschen"
-                ],
-                "purple": [
-                  "to exchange"
-                ],
-                "yellow": [
-                  "preces"
                 ]
               }
             }
@@ -64253,9 +61820,6 @@ const A2_WORDS = [
             "text": {
               "blue": [
                 "wechseln"
-              ],
-              "red": [
-                "to change"
               ]
             },
             "example": {
@@ -64977,7 +62541,7 @@ const A2_WORDS = [
         {
           "word": "wiegen",
           "meaning": "To weigh / to weigh",
-          "example": "Das Paket wiegt zwei Kilo. = Paka sver divus kilogramus."
+          "example": "Das Paket wiegt zwei Kilo. – The parcel weighs two kilos."
         },
         {
           "word": "die Waage",
@@ -65216,9 +62780,6 @@ const A2_WORDS = [
               "text": {
                 "blue": [
                   "wiegen"
-                ],
-                "purple": [
-                  "svaru"
                 ]
               }
             },
@@ -65226,9 +62787,6 @@ const A2_WORDS = [
               "text": {
                 "green": [
                   "die Waage"
-                ],
-                "purple": [
-                  "sver"
                 ]
               }
             }
@@ -65270,8 +62828,7 @@ const A2_WORDS = [
           "Weigh",
           "to weigh",
           "to weigh",
-          "sver",
-          "nosver"
+          "sver"
         ],
         "green": [
           "Waage",
@@ -65394,12 +62951,12 @@ const A2_WORDS = [
         {
           "word": "anziehen",
           "meaning": "Put on clothes / tighten",
-          "example": "Ich ziehe die Jacke an. = Es uzvelku jaku."
+          "example": "Ich ziehe die Jacke an. – I put on my jacket."
         },
         {
           "word": "ausziehen",
           "meaning": "Pull off / move out",
-          "example": "Ich ziehe die Schuhe aus. = Es novelku kurpes."
+          "example": "Ich ziehe die Schuhe aus. – I take off my shoes."
         },
         {
           "word": "ziehen lassen",
@@ -65418,7 +62975,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "ziehen nav tikai fiziski “vilkt”.",
+        "text": "ziehen does not only mean physically “to pull”.",
         "example": "Wir ziehen nach Berlin = We are moving to Berlin. I zieht = Pulling a draft. einen Schluss ziehen = draw a conclusion."
       },
       "sectionAccents": {
@@ -65663,21 +63220,16 @@ const A2_WORDS = [
                 "yellow": [
                   "moving",
                   "umziehen",
-                  "you will see",
                   "ziehen",
-                  "often",
-                  "runa"
+                  "often"
                 ]
               }
             },
             {
               "text": {
                 "yellow": [
-                  "draft",
                   "often",
-                  "redzi",
-                  "zieht",
-                  "velk"
+                  "zieht"
                 ]
               }
             }
@@ -65721,28 +63273,14 @@ const A2_WORDS = [
           "animals",
           "basic meaning",
           "to move",
-          "to bring up",
           "direction",
-          "for children",
-          "izvilkt",
           "mean",
-          "augiem",
-          "doties",
-          "ziehen",
-          "lieto",
-          "strength",
-          "vilkt",
-          "in which",
-          "roku",
-          "velk"
+          "ziehen"
         ],
         "green": [
           "change clothes",
-          "ievilkties",
           "move out",
-          "pievilkt",
-          "umziehen",
-          "izvilkt"
+          "umziehen"
         ],
         "yellow": [
           "to move",
@@ -65751,12 +63289,9 @@ const A2_WORDS = [
         ],
         "orange": [
           "put on clothes",
-          "let go",
-          "novilkt",
-          "vilkt"
+          "let go"
         ],
         "purple": [
-          "pull • pull out • move • go • bring up",
           "drag / move / move",
           "put on clothes / tighten",
           "let go / draw in",
@@ -65765,8 +63300,7 @@ const A2_WORDS = [
           "ziehen lassen"
         ],
         "red": [
-          "ausziehen",
-          "doties"
+          "ausziehen"
         ]
       }
     }
@@ -65892,7 +63426,7 @@ const A2_WORDS = [
         {
           "word": "zunehmen",
           "meaning": "Gain weight / grow",
-          "example": "Die Preise nehmen zu. = Cenas pieaug."
+          "example": "Die Preise nehmen zu. – Prices are rising."
         },
         {
           "word": "abnehmen",
@@ -65997,11 +63531,7 @@ const A2_WORDS = [
                 "Zahl"
               ]
             },
-            "lv": {
-              "purple": [
-                "visitor"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -66137,10 +63667,7 @@ const A2_WORDS = [
                   "gain weight"
                 ],
                 "yellow": [
-                  "to accept",
-                  "zunehmen",
-                  "in weight",
-                  "svaru"
+                  "zunehmen"
                 ]
               }
             },
@@ -66156,7 +63683,6 @@ const A2_WORDS = [
                   "intensity",
                   "for numbers",
                   "zunehmen",
-                  "pieaugt",
                   "prices"
                 ]
               }
@@ -66181,16 +63707,10 @@ const A2_WORDS = [
                 "decrease",
                 "abnehmen"
               ],
-              "orange": [
-                "zunehmen"
-              ],
               "red": [
-                "zunehmen",
                 "nehmen",
                 "Preise",
-                "zunehmen",
-                "nehme",
-                "zunehmen"
+                "nehme"
               ]
             }
           }
@@ -66201,19 +63721,10 @@ const A2_WORDS = [
           "increase",
           "standardStudy",
           "intensity",
-          "to accept",
-          "daudzumam",
           "problem",
           "zunehmen",
           "people",
           "mean",
-          "pieaugt",
-          "skaitam",
-          "troksni",
-          "in weight",
-          "svaru",
-          "tulko",
-          "cenu",
           "the wind"
         ],
         "green": [
@@ -66222,21 +63733,16 @@ const A2_WORDS = [
           "abnehmen"
         ],
         "yellow": [
-          "pieaugt",
           "wachsen"
         ],
         "orange": [
-          "gain weight",
-          "to lose weight",
-          "to climb"
+          "gain weight"
         ],
         "purple": [
-          "gain weight • increase • grow",
           "gain weight / grow",
           "to thin / decrease",
           "climb / rise",
-          "sich erhöhen",
-          "augt"
+          "sich erhöhen"
         ],
         "red": [
           "steigen"
@@ -66305,7 +63811,7 @@ const A2_WORDS = [
         {
           "word": "jetzt",
           "meaning": "Now",
-          "example": "Ich gehe jetzt. = Es tagad eju."
+          "example": "Ich gehe jetzt. – I'm going now."
         },
         {
           "word": "im Moment",
@@ -66571,9 +64077,7 @@ const A2_WORDS = [
                 "yellow": [
                   "current",
                   "temporary",
-                  "the situation",
-                  "zurzeit",
-                  "lieto"
+                  "zurzeit"
                 ]
               }
             },
@@ -66585,15 +64089,10 @@ const A2_WORDS = [
                 "green": [
                   "jetzt"
                 ],
-                "purple": [
-                  "tagad"
-                ],
                 "yellow": [
                   "zurzeit",
                   "often",
-                  "jetzt",
-                  "tagad",
-                  "directly"
+                  "jetzt"
                 ]
               }
             }
@@ -66647,12 +64146,8 @@ const A2_WORDS = [
         "blue": [
           "standardStudy",
           "current",
-          "to change",
           "the situation",
           "the situation",
-          "specified",
-          "patlaban",
-          "raksturo",
           "derzeit",
           "similar",
           "currently",
@@ -66660,7 +64155,6 @@ const A2_WORDS = [
           "zurzeit",
           "at the moment",
           "often",
-          "lieto",
           "later"
         ],
         "green": [
@@ -66668,20 +64162,17 @@ const A2_WORDS = [
           "jetzt"
         ],
         "yellow": [
-          "im Moment",
-          "patlaban"
+          "im Moment"
         ],
         "orange": [
           "currently"
         ],
         "purple": [
           "currently / at the moment / currently",
-          "at the moment • currently • currently",
           "currently / currently",
           "at the moment / currently",
           "at the moment / currently",
-          "momentan",
-          "tagad"
+          "momentan"
         ],
         "red": [
           "derzeit"
@@ -67583,12 +65074,7 @@ const A2_WORDS = [
             }
           },
           {
-            "de": {
-              "blue": [
-                "klein",
-                "klein"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "have"
@@ -68233,7 +65719,7 @@ const A2_WORDS = [
         "Use über when the context fits this meaning."
       ],
       "important": [
-        "Ich gehe über den Park nav pareizi, ja doma ir “caur parku”.",
+        "Ich gehe über den Park is not correct if you mean “through the park”.",
         "über can mean above, over, and about.",
         "über = over / over / about."
       ],
@@ -68438,7 +65924,7 @@ const A2_WORDS = [
         "Use gleich when the context corresponds to this meaning."
       ],
       "important": [
-        "Das ist mir gleich nav pareizi, ja doma ir “man vienalga”.",
+        "Das ist mir gleich means “I don’t mind” (it is all the same to me).",
         "gleich has two frequent meanings: equal and immediately.",
         "gleich = same / immediately."
       ],
@@ -68496,12 +65982,7 @@ const A2_WORDS = [
             }
           },
           {
-            "de": {
-              "green": [
-                "gleich",
-                "gleich"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "have"

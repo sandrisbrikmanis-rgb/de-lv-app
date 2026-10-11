@@ -2485,9 +2485,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "purple": [
-            "sometimes",
-            "casual",
-            "due to"
+            "sometimes"
           ]
         },
         "examples": [
@@ -2504,11 +2502,7 @@ const C1_WORDS = [
             }
           },
           {
-            "de": {
-              "blue": [
-                "gelegentlich"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "occasional"
@@ -3850,9 +3844,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "wahlberechtig",
-            "Wahl",
-            "behrechtig"
+            "Wahl"
           ]
         },
         "examples": [
@@ -4065,11 +4057,7 @@ const C1_WORDS = [
                 "Zuschlag"
               ]
             },
-            "lv": {
-              "purple": [
-                "order"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4162,12 +4150,7 @@ const C1_WORDS = [
                 "beziehen / sich beziehen auf"
               ]
             },
-            "lv": {
-              "purple": [
-                "Apply",
-                "Apply"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -4300,11 +4283,7 @@ const C1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "to think"
-            ]
-          }
+          {}
         ],
         "important": [
           {

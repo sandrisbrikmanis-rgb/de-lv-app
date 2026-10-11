@@ -1269,7 +1269,7 @@ const B1_WORDS = [
         {
           "word": "abgehen",
           "meaning": "Leave / leave",
-          "example": "Der Zug geht ab. = Vilciens atiet."
+          "example": "Der Zug geht ab. – The train departs."
         },
         {
           "word": "weggehen",
@@ -1614,7 +1614,7 @@ const B1_WORDS = [
         {
           "word": "ausziehen",
           "meaning": "To take off",
-          "example": "Ich ziehe die Jacke aus. = Es novelku jaku."
+          "example": "Ich ziehe die Jacke aus. – I take off my jacket."
         }
       ],
       "tip": {
@@ -2157,7 +2157,7 @@ const B1_WORDS = [
         {
           "word": "das Ende",
           "meaning": "The end",
-          "example": "Das Ende des Films war traurig. = Filmas beigas bija skumjas."
+          "example": "Das Ende des Films war traurig. – The end of the film was sad."
         },
         {
           "word": "die Prüfung",
@@ -2556,11 +2556,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "absetzen"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -3360,12 +3356,12 @@ const B1_WORDS = [
         {
           "word": "der Anschluss",
           "meaning": "Connection / connection",
-          "example": "Der Anschluss ist schlecht. = Savienojums ir slikts."
+          "example": "Der Anschluss ist schlecht. – The connection is bad."
         },
         {
           "word": "die Verbindung",
           "meaning": "Connection",
-          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
+          "example": "Die Verbindung ist stabil. – The connection is stable."
         },
         {
           "word": "der Zugang",
@@ -3538,7 +3534,7 @@ const B1_WORDS = [
         {
           "word": "ansehen",
           "meaning": "Watch",
-          "example": "Ich sehe mir den Film an. = Es skatos filmu."
+          "example": "Ich sehe mir den Film an. – I'm watching the film."
         }
       ],
       "tip": {
@@ -3775,7 +3771,7 @@ const B1_WORDS = [
         {
           "word": "das Formular",
           "meaning": "Form",
-          "example": "Füllen Sie das Formular aus. = Aizpildiet veidlapu."
+          "example": "Füllen Sie das Formular aus. – Fill in the form."
         }
       ],
       "tip": {
@@ -4138,7 +4134,7 @@ const B1_WORDS = [
         {
           "word": "der Auftrag",
           "meaning": "Task / order",
-          "example": "Ich erledige den Auftrag. = Es izpildu uzdevumu."
+          "example": "Ich erledige den Auftrag. – I'm carrying out the order."
         },
         {
           "word": "die Aufgabe",
@@ -4305,7 +4301,7 @@ const B1_WORDS = [
         {
           "word": "die Kosten",
           "meaning": "Costs",
-          "example": "Die Kosten sind hoch. = Izmaksas ir augstas."
+          "example": "Die Kosten sind hoch. – The costs are high."
         }
       ],
       "tip": {
@@ -4755,7 +4751,6 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "to stay",
                   "delay"
                 ]
               }
@@ -4976,12 +4971,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "izredzes",
-                  "skats"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -5039,7 +5029,7 @@ const B1_WORDS = [
         {
           "word": "die Diskussion",
           "meaning": "Discussion",
-          "example": "Die Diskussion war lang. = Diskusija bija gara."
+          "example": "Die Diskussion war lang. – The discussion was long."
         }
       ],
       "tip": {
@@ -5148,7 +5138,6 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izruna",
                   "exchange of ideas"
                 ]
               }
@@ -5286,8 +5275,6 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izsniegt",
-                  "write out",
                   "to exhibit"
                 ]
               }
@@ -5356,7 +5343,7 @@ const B1_WORDS = [
         {
           "word": "machen",
           "meaning": "To do",
-          "example": "Ich mache meine Arbeit. = Es daru savu darbu."
+          "example": "Ich mache meine Arbeit. – I do my work."
         },
         {
           "word": "beeinflussen",
@@ -5679,7 +5666,6 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "izraksts",
                   "moving out"
                 ]
               }
@@ -5978,9 +5964,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "construction",
-                  "celtne",
-                  "at the construction site"
+                  "construction"
                 ]
               }
             }
@@ -6214,8 +6198,7 @@ const B1_WORDS = [
                 "purple": [
                   "in the pool",
                   "pelvis",
-                  "container",
-                  "a bowl"
+                  "container"
                 ]
               }
             }
@@ -6399,8 +6382,7 @@ const B1_WORDS = [
               "text": {
                 "purple": [
                   "significant",
-                  "notable",
-                  "considerably"
+                  "notable"
                 ]
               }
             }
@@ -6451,7 +6433,7 @@ const B1_WORDS = [
         {
           "word": "benutzen",
           "meaning": "Use",
-          "example": "Ich benutze den Computer. = Es lietoju datoru."
+          "example": "Ich benutze den Computer. – I use the computer."
         }
       ],
       "tip": {
@@ -6854,11 +6836,7 @@ const B1_WORDS = [
                 "Patienten"
               ]
             },
-            "lv": {
-              "purple": [
-                "treat"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -7459,9 +7437,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "error",
-                  "changes",
-                  "faktu"
+                  "error"
                 ]
               }
             }
@@ -7908,12 +7884,12 @@ const B1_WORDS = [
         {
           "word": "das Gebiet",
           "meaning": "Territory / wider area",
-          "example": "Das Gebiet ist groß. = Teritorija ir liela."
+          "example": "Das Gebiet ist groß. – The area is large."
         },
         {
           "word": "die Branche",
           "meaning": "Industry",
-          "example": "Die Branche wächst. = Nozare aug."
+          "example": "Die Branche wächst. – The industry is growing."
         }
       ],
       "tip": {
@@ -8021,12 +7997,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "joma",
-                  "zona"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -8318,7 +8289,7 @@ const B1_WORDS = [
         {
           "word": "sich beruhigen",
           "meaning": "Calm down",
-          "example": "Ich beruhige mich. = Es nomierinos."
+          "example": "Ich beruhige mich. – I'm calming down."
         },
         {
           "word": "beruhigen",
@@ -8432,11 +8403,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "will calm down, calm"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -8796,8 +8763,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "decision",
-                  "to close"
+                  "decision"
                 ]
               }
             }
@@ -9314,11 +9280,7 @@ const B1_WORDS = [
                 "Meinung"
               ]
             },
-            "lv": {
-              "purple": [
-                "insist"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -9416,7 +9378,7 @@ const B1_WORDS = [
         {
           "word": "bestimmen",
           "meaning": "Determine / designate",
-          "example": "Der Preis wird neu bestimmt. = Cena tiek noteikta no jauna."
+          "example": "Der Preis wird neu bestimmt. – The price is being redetermined."
         },
         {
           "word": "entscheiden",
@@ -9771,8 +9733,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "company",
-                  "darbojas"
+                  "company"
                 ]
               }
             }
@@ -9871,12 +9832,12 @@ const B1_WORDS = [
         {
           "word": "bewegen",
           "meaning": "Move / touch",
-          "example": "Das bewegt mich. = Tas mani aizkustina."
+          "example": "Das bewegt mich. – That moves me."
         },
         {
           "word": "sich bewegen",
           "meaning": "To move",
-          "example": "Ich bewege mich viel. = Es daudz kustos."
+          "example": "Ich bewege mich viel. – I move around a lot."
         },
         {
           "word": "verschieben",
@@ -10166,8 +10127,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "to receive",
-            "move in"
+            "to receive"
           ]
         },
         "comparison": [
@@ -10320,12 +10280,12 @@ const B1_WORDS = [
         {
           "word": "der Monitor",
           "meaning": "Monitor (computer)",
-          "example": "Der Monitor ist neu. = Monitors ir jauns."
+          "example": "Der Monitor ist neu. – The monitor is new."
         },
         {
           "word": "das Display",
           "meaning": "Display",
-          "example": "Das Display ist klein. = Displejs ir mazs."
+          "example": "Das Display ist klein. – The display is small."
         }
       ],
       "tip": {
@@ -10455,7 +10415,7 @@ const B1_WORDS = [
         {
           "word": "geben",
           "meaning": "To give",
-          "example": "Ich gebe dir Geld. = Es tev dodu naudu."
+          "example": "Ich gebe dir Geld. – I'll give you money."
         }
       ],
       "tip": {
@@ -10652,7 +10612,7 @@ const B1_WORDS = [
         {
           "word": "der Ballon",
           "meaning": "Balloon",
-          "example": "Der Ballon ist rot. = Balons ir sarkans."
+          "example": "Der Ballon ist rot. – The balloon is red."
         }
       ],
       "tip": {
@@ -10869,7 +10829,7 @@ const B1_WORDS = [
         {
           "word": "der Klotz",
           "meaning": "Block",
-          "example": "Der Klotz ist schwer. = Klucis ir smags."
+          "example": "Der Klotz ist schwer. – The block is heavy."
         }
       ],
       "tip": {
@@ -10930,11 +10890,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "explanation": {
-          "purple": [
-            "pad"
-          ]
-        },
+        "explanation": {},
         "comparison": [
           {
             "word": {
@@ -10978,9 +10934,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "block",
-                  "notepad",
-                  "lump"
+                  "block"
                 ]
               }
             }
@@ -11230,12 +11184,12 @@ const B1_WORDS = [
         {
           "word": "der Bogen",
           "meaning": "Bow / arch / form",
-          "example": "Füllen Sie den Bogen aus. = Aizpildiet veidlapu."
+          "example": "Füllen Sie den Bogen aus. – Fill in the form."
         },
         {
           "word": "das Formular",
           "meaning": "Form",
-          "example": "Das Formular ist lang. = Veidlapa ir gara."
+          "example": "Das Formular ist lang. – The form is long."
         },
         {
           "word": "die Kurve",
@@ -11627,7 +11581,7 @@ const B1_WORDS = [
         {
           "word": "das Feuer",
           "meaning": "Fire",
-          "example": "Das Feuer brennt. = Uguns deg."
+          "example": "Das Feuer brennt. – The fire is burning."
         },
         {
           "word": "die Marke",
@@ -12472,11 +12426,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "dadurch"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -12513,12 +12463,12 @@ const B1_WORDS = [
         {
           "word": "dagegen",
           "meaning": "Against that / on the other hand",
-          "example": "Ich bin dagegen. = Es esmu pret to."
+          "example": "Ich bin dagegen. – I'm against it."
         },
         {
           "word": "dafür",
           "meaning": "About it",
-          "example": "Ich bin dafür. = Es esmu par to."
+          "example": "Ich bin dafür. – I'm in favour of it."
         },
         {
           "word": "hingegen",
@@ -12826,12 +12776,12 @@ const B1_WORDS = [
         {
           "word": "dahin",
           "meaning": "There / to there / gone",
-          "example": "Ich fahre dahin. = Es braucu turp."
+          "example": "Ich fahre dahin. – I'm driving there."
         },
         {
           "word": "dort",
           "meaning": "There, in that place",
-          "example": "Ich bin dort. = Es esmu tur."
+          "example": "Ich bin dort. – I'm there."
         },
         {
           "word": "daher",
@@ -13033,7 +12983,7 @@ const B1_WORDS = [
         {
           "word": "danken",
           "meaning": "To thank",
-          "example": "Ich danke dir. = Es tev pateicos."
+          "example": "Ich danke dir. – I thank you."
         },
         {
           "word": "Vielen Dank",
@@ -13043,7 +12993,7 @@ const B1_WORDS = [
         {
           "word": "bedanken (sich)",
           "meaning": "To thank formally",
-          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
+          "example": "Ich bedanke mich bei Ihnen. – I thank you."
         }
       ],
       "tip": {
@@ -13058,7 +13008,7 @@ const B1_WORDS = [
       },
       "important": {
         "text": "der Dank is a noun; danke is the answer; danken is a verb.",
-        "example": "Vielen Dank! = Liels paldies! Ich danke dir. = Es tev pateicos. Danke! = Paldies!"
+        "example": "Vielen Dank! = Thank you very much! Ich danke dir. = I thank you. Danke! = Thanks!"
       },
       "sectionAccents": {
         "explanation": {
@@ -13300,10 +13250,6 @@ const B1_WORDS = [
               "text": {
                 "green": [
                   "danke"
-                ],
-                "purple": [
-                  "atbildei",
-                  "paldies"
                 ]
               }
             },
@@ -13314,8 +13260,7 @@ const B1_WORDS = [
                   "danke Ihnen"
                 ],
                 "purple": [
-                  "more formal",
-                  "for gratitude"
+                  "more formal"
                 ]
               }
             }
@@ -13344,11 +13289,6 @@ const B1_WORDS = [
                 "Vielen Dank",
                 "danke",
                 "dir"
-              ],
-              "purple": [
-                "liels paldies",
-                "pateicos",
-                "paldies"
               ]
             }
           }
@@ -13393,7 +13333,7 @@ const B1_WORDS = [
         {
           "word": "darauf",
           "meaning": "To it / on it",
-          "example": "Ich warte darauf. = Es to gaidu."
+          "example": "Ich warte darauf. – I'm waiting for it."
         },
         {
           "word": "damit",
@@ -13728,7 +13668,7 @@ const B1_WORDS = [
         {
           "word": "unter",
           "meaning": "Under",
-          "example": "Der Ball liegt unter dem Tisch. = Bumba ir zem galda."
+          "example": "Der Ball liegt unter dem Tisch. – The ball is under the table."
         },
         {
           "word": "davon",
@@ -13977,11 +13917,7 @@ const B1_WORDS = [
                 "Schnee"
               ]
             },
-            "lv": {
-              "purple": [
-                "cover"
-              ]
-            }
+            "lv": {}
           }
         ],
         "explanation": {
@@ -14194,7 +14130,7 @@ const B1_WORDS = [
         {
           "word": "nutzen",
           "meaning": "To use / use",
-          "example": "Ich nutze das Programm. = Es izmantoju programmu."
+          "example": "Ich nutze das Programm. – I use the program."
         }
       ],
       "tip": {
@@ -14513,12 +14449,12 @@ const B1_WORDS = [
         {
           "word": "der Druck",
           "meaning": "Pressure / printing",
-          "example": "Der Druck ist hoch. = Spiediens ir augsts."
+          "example": "Der Druck ist hoch. – The pressure is high."
         },
         {
           "word": "die Belastung",
           "meaning": "Load",
-          "example": "Die Belastung ist groß. = Slodze ir liela."
+          "example": "Die Belastung ist groß. – The load is heavy."
         },
         {
           "word": "das Drucken",
@@ -14740,7 +14676,7 @@ const B1_WORDS = [
         {
           "word": "der Durchfall",
           "meaning": "Diarrhea",
-          "example": "Ich habe Durchfall. = Man ir caureja."
+          "example": "Ich habe Durchfall. – I have diarrhoea."
         },
         {
           "word": "durchfallen",
@@ -14904,7 +14840,7 @@ const B1_WORDS = [
         {
           "word": "machen",
           "meaning": "To do",
-          "example": "Ich mache die Arbeit. = Es daru darbu."
+          "example": "Ich mache die Arbeit. – I do the work."
         },
         {
           "word": "veranstalten",
@@ -15269,12 +15205,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "in the choice",
-                  "during"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -15352,12 +15283,12 @@ const B1_WORDS = [
         {
           "word": "selbst",
           "meaning": "Himself",
-          "example": "Ich mache das selbst. = Es to daru pats."
+          "example": "Ich mache das selbst. – I do that myself."
         },
         {
           "word": "allein",
           "meaning": "Alone",
-          "example": "Ich bin allein. = Es esmu viens pats."
+          "example": "Ich bin allein. – I am alone."
         }
       ],
       "tip": {
@@ -15825,7 +15756,7 @@ const B1_WORDS = [
         {
           "word": "die Meinung",
           "meaning": "Opinion",
-          "example": "Das ist meine Meinung. = Tas ir mans viedoklis."
+          "example": "Das ist meine Meinung. – That is my opinion."
         }
       ],
       "tip": {
@@ -15978,12 +15909,12 @@ const B1_WORDS = [
         {
           "word": "einerlei",
           "meaning": "Anyway / doesn't matter",
-          "example": "Mir ist das einerlei. = Man tas ir vienalga."
+          "example": "Mir ist das einerlei. – It's all the same to me."
         },
         {
           "word": "egal",
           "meaning": "Anyway",
-          "example": "Das ist mir egal. = Man tas ir vienalga."
+          "example": "Das ist mir egal. – I don't mind."
         },
         {
           "word": "gleichgültig",
@@ -16049,11 +15980,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "explanation": {
-          "purple": [
-            "doesn't matter"
-          ]
-        },
+        "explanation": {},
         "comparison": [
           {
             "word": {
@@ -16137,7 +16064,7 @@ const B1_WORDS = [
         {
           "word": "einerseits",
           "meaning": "On the one hand",
-          "example": "Einerseits ist das gut. = No vienas puses, tas ir labi."
+          "example": "Einerseits ist das gut. – On the one hand, that is good."
         },
         {
           "word": "andererseits",
@@ -16421,12 +16348,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "iebraukt",
-                  "izbraukt"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -17170,11 +17092,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "system"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -17380,7 +17298,7 @@ const B1_WORDS = [
         {
           "word": "sich gewöhnen an",
           "meaning": "Get used to something",
-          "example": "Ich gewöhne mich an das Klima. = Es pierodu pie klimata."
+          "example": "Ich gewöhne mich an das Klima. – I'm getting used to the climate."
         },
         {
           "word": "sich anpassen",
@@ -17654,11 +17572,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "frist"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -17937,8 +17851,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "unit",
-            "unit of measure"
+            "unit"
           ]
         },
         "comparison": [
@@ -17984,7 +17897,6 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "unit of study",
                   "unit of measure"
                 ]
               }
@@ -18145,7 +18057,6 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "garums",
                   "unit",
                   "unit of length"
                 ]
@@ -18780,7 +18691,7 @@ const B1_WORDS = [
         {
           "word": "benutzen",
           "meaning": "Use",
-          "example": "Ich benutze das Handy. = Es lietoju telefonu."
+          "example": "Ich benutze das Handy. – I use the mobile phone."
         },
         {
           "word": "beginnen",
@@ -19373,11 +19284,7 @@ const B1_WORDS = [
                 "Wohnung"
               ]
             },
-            "lv": {
-              "purple": [
-                "we are moving in"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -19415,11 +19322,7 @@ const B1_WORDS = [
             }
           }
         ],
-        "explanation": {
-          "purple": [
-            "collect"
-          ]
-        },
+        "explanation": {},
         "comparison": [
           {
             "word": {
@@ -19463,9 +19366,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "move in",
-                  "collect",
-                  "ievilkt"
+                  "move in"
                 ]
               }
             }
@@ -19609,12 +19510,12 @@ const B1_WORDS = [
         {
           "word": "bekommen",
           "meaning": "Receive in everyday situations",
-          "example": "Ich bekomme eine E-Mail. = I get an email."
+          "example": "Ich bekomme eine E-Mail. – I get an email."
         },
         {
           "word": "begrüßen",
           "meaning": "To greet",
-          "example": "Ich begrüße die Gäste. = Es sveicinu viesus."
+          "example": "Ich begrüße die Gäste. – I greet the guests."
         }
       ],
       "tip": {
@@ -19947,8 +19848,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "remove",
-                  "moves away"
+                  "remove"
                 ]
               }
             }
@@ -20016,7 +19916,7 @@ const B1_WORDS = [
         {
           "word": "halten",
           "meaning": "Hold",
-          "example": "Ich halte die Tasche. = Es turu somu."
+          "example": "Ich halte die Tasche. – I'm holding the bag."
         }
       ],
       "tip": {
@@ -20295,11 +20195,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "managed to escape"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -20707,7 +20603,7 @@ const B1_WORDS = [
         {
           "word": "passieren",
           "meaning": "Happen",
-          "example": "Was ist passiert? = Kas notika?"
+          "example": "Was ist passiert? – What happened?"
         }
       ],
       "tip": {
@@ -21126,12 +21022,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "to receive",
-                  "save"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -21296,7 +21187,7 @@ const B1_WORDS = [
         {
           "word": "öffnen",
           "meaning": "Physically open",
-          "example": "Ich öffne die Tür. = Es atveru durvis."
+          "example": "Ich öffne die Tür. – I open the door."
         },
         {
           "word": "beginnen",
@@ -22110,7 +22001,7 @@ const B1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "To understand",
-          "example": "Ich verstehe dich. = Es tevi saprotu."
+          "example": "Ich verstehe dich. – I understand you."
         }
       ],
       "tip": {
@@ -22535,7 +22426,7 @@ const B1_WORDS = [
         {
           "word": "halten",
           "meaning": "Hold",
-          "example": "Ich halte die Tasche. = Es turu somu."
+          "example": "Ich halte die Tasche. – I'm holding the bag."
         },
         {
           "word": "feststellen",
@@ -22987,7 +22878,6 @@ const B1_WORDS = [
                   "fact",
                   "error",
                   "disease",
-                  "deadline",
                   "price"
                 ]
               }
@@ -23252,7 +23142,7 @@ const B1_WORDS = [
         {
           "word": "die Folge",
           "meaning": "Consequence / episode",
-          "example": "Das hat Folgen. = Tam ir sekas."
+          "example": "Das hat Folgen. – That has consequences."
         },
         {
           "word": "die Konsequenz",
@@ -23370,11 +23260,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "series"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -23549,8 +23435,7 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "moves forward",
-                  "prasa"
+                  "moves forward"
                 ]
               }
             }
@@ -23615,7 +23500,7 @@ const B1_WORDS = [
         {
           "word": "fortfahren",
           "meaning": "Continue / drive away",
-          "example": "Fahren Sie fort. = Turpiniet."
+          "example": "Fahren Sie fort. – Carry on."
         },
         {
           "word": "weitermachen",
@@ -23732,12 +23617,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "turpiniet",
-                  "aizbraukt prom"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -23894,11 +23774,7 @@ const B1_WORDS = [
                 "Futter"
               ]
             },
-            "lv": {
-              "purple": [
-                "eat"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -23912,11 +23788,7 @@ const B1_WORDS = [
                 "Fisch"
               ]
             },
-            "lv": {
-              "purple": [
-                "eat"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -24161,7 +24033,7 @@ const B1_WORDS = [
         {
           "word": "die Nahrung",
           "meaning": "Nutrition",
-          "example": "Pflanzen brauchen Nahrung. = Augiem vajag uzturu."
+          "example": "Pflanzen brauchen Nahrung. – Plants need nourishment."
         }
       ],
       "tip": {
@@ -24713,12 +24585,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "joma",
-                  "teritorija"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -24951,12 +24818,12 @@ const B1_WORDS = [
         {
           "word": "das Gehalt",
           "meaning": "Salary • Remuneration",
-          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
+          "example": "Das Gehalt ist gut. – The salary is good. (plural: die Gehälter)"
         },
         {
           "word": "der Gehalt",
           "meaning": "Content • Substance",
-          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
+          "example": "Der Gehalt ist klar. – The content is clear. (plural: die Gehalte)"
         },
         {
           "word": "der Verdienst",
@@ -25050,17 +24917,17 @@ const B1_WORDS = [
         {
           "word": "der Gehalt",
           "meaning": "Content • Substance",
-          "example": "Der Gehalt ist klar. = Saturs ir skaidrs. Plural: die Gehalte."
+          "example": "Der Gehalt ist klar. – The content is clear. (plural: die Gehalte)"
         },
         {
           "word": "das Gehalt",
           "meaning": "Salary • Remuneration",
-          "example": "Das Gehalt ist gut. = Alga ir laba. Plural: die Gehälter."
+          "example": "Das Gehalt ist gut. – The salary is good. (plural: die Gehälter)"
         },
         {
           "word": "der Inhalt",
           "meaning": "Content (general)",
-          "example": "Der Inhalt ist interessant. = Saturs ir interesants."
+          "example": "Der Inhalt ist interessant. – The content is interesting."
         }
       ],
       "tip": {
@@ -25440,7 +25307,7 @@ const B1_WORDS = [
         {
           "word": "gemein",
           "meaning": "Wicked / mean / nasty",
-          "example": "Das ist gemein. = Tas ir nekrietni."
+          "example": "Das ist gemein. – That is mean."
         },
         {
           "word": "gemeinsam",
@@ -25450,7 +25317,7 @@ const B1_WORDS = [
         {
           "word": "gewöhnlich",
           "meaning": "Ordinary",
-          "example": "Das ist gewöhnlich. = Tas ir parasts."
+          "example": "Das ist gewöhnlich. – That is ordinary."
         }
       ],
       "tip": {
@@ -25806,11 +25673,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "tehniska funkcija"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -26072,7 +25935,6 @@ const B1_WORDS = [
             {
               "text": {
                 "purple": [
-                  "sex",
                   "gender"
                 ]
               }
@@ -26128,7 +25990,7 @@ const B1_WORDS = [
         {
           "word": "die Firma",
           "meaning": "Firm",
-          "example": "Die Firma wächst schnell. = Firma strauji aug."
+          "example": "Die Firma wächst schnell. – The company is growing quickly."
         },
         {
           "word": "die Gemeinschaft",
@@ -26234,11 +26096,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "konteksts"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -26387,7 +26245,7 @@ const B1_WORDS = [
         {
           "word": "der Preis",
           "meaning": "Price / prize",
-          "example": "Der Preis ist hoch. = Cena ir augsta."
+          "example": "Der Preis ist hoch. – The price is high."
         }
       ],
       "tip": {
@@ -26411,11 +26269,7 @@ const B1_WORDS = [
                 "Firma"
               ]
             },
-            "lv": {
-              "purple": [
-                "profit"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -26653,12 +26507,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "noteikti",
-                  "noteikts risks"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -27216,7 +27065,7 @@ const B1_WORDS = [
         {
           "word": "fassen",
           "meaning": "Grasp / encompass",
-          "example": "Fass meine Hand! = Satver manu roku!"
+          "example": "Fass meine Hand! – Take hold of my hand!"
         },
         {
           "word": "nehmen",
@@ -27687,7 +27536,7 @@ const B1_WORDS = [
         {
           "word": "die Güter",
           "meaning": "Goods / material values",
-          "example": "Der Zug bringt Güter. = Vilciens ved preces."
+          "example": "Der Zug bringt Güter. – The train carries goods."
         },
         {
           "word": "gut",
@@ -27797,11 +27646,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "artikula"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -28299,11 +28144,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "in the work process"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -29308,11 +29149,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "to here"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -29635,7 +29472,7 @@ const B1_WORDS = [
         {
           "word": "der Rat",
           "meaning": "Advice",
-          "example": "Danke für deinen Rat. = Paldies par tavu padomu."
+          "example": "Danke für deinen Rat. – Thank you for your advice."
         },
         {
           "word": "die Warnung",
@@ -29742,11 +29579,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "advises"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -29915,7 +29748,7 @@ const B1_WORDS = [
         {
           "word": "holen",
           "meaning": "Go get and bring",
-          "example": "Ich hole Brot. = Es atnesu maizi."
+          "example": "Ich hole Brot. – I'm fetching bread."
         },
         {
           "word": "bringen",
@@ -30036,12 +29869,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "leaving after",
-                  "delivery to someone"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -30449,11 +30277,7 @@ const B1_WORDS = [
               "der Hort"
             ]
           },
-          {
-            "red": [
-              "der"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -30828,13 +30652,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "supervision",
-                  "protection",
-                  "take care"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -31206,13 +31024,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "cities",
-                  "weeks",
-                  "opportunity"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -31513,11 +31325,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "to be wrong"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -31942,11 +31750,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "people"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -32795,8 +32599,7 @@ const B1_WORDS = [
         ],
         "explanation": {
           "purple": [
-            "to sweep",
-            "turn"
+            "to sweep"
           ]
         },
         "comparison": [
@@ -33135,7 +32938,7 @@ const B1_WORDS = [
         {
           "word": "die Kiefer",
           "meaning": "Pine tree",
-          "example": "Die Kiefer ist hoch. = Priede ir augsta."
+          "example": "Die Kiefer ist hoch. – The pine is tall."
         },
         {
           "word": "der Kiefernwald",
@@ -33523,7 +33326,7 @@ const B1_WORDS = [
         {
           "word": "funktionieren",
           "meaning": "To operate",
-          "example": "Der Drucker funktioniert. = Printeris darbojas."
+          "example": "Der Drucker funktioniert. – The printer is working."
         },
         {
           "word": "gelingen",
@@ -33845,7 +33648,7 @@ const B1_WORDS = [
         {
           "word": "knapp",
           "meaning": "Little / barely / with a small margin",
-          "example": "Die Zeit ist knapp. = Laika ir maz."
+          "example": "Die Zeit ist knapp. – Time is tight."
         },
         {
           "word": "eng",
@@ -34153,7 +33956,7 @@ const B1_WORDS = [
         {
           "word": "das Kommando",
           "meaning": "Order / command",
-          "example": "Warte auf mein Kommando. = Gaidi manu komandu."
+          "example": "Warte auf mein Kommando. – Wait for my command."
         },
         {
           "word": "der Befehl",
@@ -35196,7 +34999,7 @@ const B1_WORDS = [
         {
           "word": "der Kunde",
           "meaning": "Customer",
-          "example": "Der Kunde wartet. = Klients gaida."
+          "example": "Der Kunde wartet. – The customer is waiting."
         },
         {
           "word": "die Kundin",
@@ -35335,7 +35138,7 @@ const B1_WORDS = [
         {
           "word": "der Kunde",
           "meaning": "Customer",
-          "example": "Der Kunde wartet. = Klients gaida."
+          "example": "Der Kunde wartet. – The customer is waiting."
         },
         {
           "word": "die Nachricht",
@@ -35831,12 +35634,12 @@ const B1_WORDS = [
         {
           "word": "die Richtung",
           "meaning": "Direction",
-          "example": "Die Richtung stimmt. = Virziens ir pareizs."
+          "example": "Die Richtung stimmt. – The direction is right."
         },
         {
           "word": "der Unterricht",
           "meaning": "Lesson",
-          "example": "Der Unterricht dauert eine Stunde. = Stunda ilgst vienu stundu."
+          "example": "Der Unterricht dauert eine Stunde. – The lesson lasts an hour."
         }
       ],
       "tip": "Lessons, a ship’s course, or an exchange rate → der Kurs.",
@@ -36219,7 +36022,7 @@ const B1_WORDS = [
         {
           "word": "beladen",
           "meaning": "To load",
-          "example": "Der Lkw ist beladen. = Kravas auto ir piekrauts."
+          "example": "Der Lkw ist beladen. – The lorry is loaded."
         }
       ],
       "tip": "Items in a car or a battery being charged → laden.",
@@ -36381,7 +36184,7 @@ const B1_WORDS = [
         {
           "word": "das Camp",
           "meaning": "Camp",
-          "example": "Das Camp liegt am See. = Nometne ir pie ezera."
+          "example": "Das Camp liegt am See. – The camp is by the lake."
         }
       ],
       "tip": "The goods are stored in → das Lager.",
@@ -36657,7 +36460,7 @@ const B1_WORDS = [
         {
           "word": "der Inhalt",
           "meaning": "Content",
-          "example": "Der Inhalt ist klar. = Saturs ir skaidrs."
+          "example": "Der Inhalt ist klar. – The content is clear."
         },
         {
           "word": "das Thema",
@@ -36667,7 +36470,7 @@ const B1_WORDS = [
         {
           "word": "der Umfang",
           "meaning": "Volume",
-          "example": "Der Umfang ist groß. = Apjoms ir liels."
+          "example": "Der Umfang ist groß. – The volume is large."
         }
       ],
       "tip": "What is inside the text, bag or container → der Inhalt.",
@@ -36793,7 +36596,7 @@ const B1_WORDS = [
         {
           "word": "die Kante",
           "meaning": "Edge / facet",
-          "example": "Die Kante ist scharf. = Mala ir asa."
+          "example": "Die Kante ist scharf. – The edge is sharp."
         },
         {
           "word": "der Rand",
@@ -36929,7 +36732,7 @@ const B1_WORDS = [
         {
           "word": "die Kastanie",
           "meaning": "Chestnut / chestnut",
-          "example": "Die Kastanie blüht. = Kastanis zied."
+          "example": "Die Kastanie blüht. – The chestnut tree is in blossom."
         },
         {
           "word": "der Kastanienbaum",
@@ -36939,7 +36742,7 @@ const B1_WORDS = [
         {
           "word": "die Nuss",
           "meaning": "Nut",
-          "example": "Die Nuss ist hart. = Rieksts ir ciets."
+          "example": "Die Nuss ist hart. – The nut is hard."
         }
       ],
       "tip": "Tree or fruit? The context determines whether die Kastanie refers to the chestnut tree or the chestnut itself.",
@@ -37890,7 +37693,7 @@ const B1_WORDS = [
         {
           "word": "die Leistung",
           "meaning": "Performance / achievement / capacity",
-          "example": "Die Leistung war gut. = Sniegums bija labs."
+          "example": "Die Leistung war gut. – The performance was good."
         },
         {
           "word": "das Ergebnis",
@@ -38415,7 +38218,7 @@ const B1_WORDS = [
         {
           "word": "das Schicksal",
           "meaning": "Fate",
-          "example": "Das Schicksal war hart. = Liktenis bija skarbs."
+          "example": "Das Schicksal war hart. – Fate was harsh."
         }
       ],
       "tip": "In lottery and raffle: das Los = lot.",
@@ -38688,7 +38491,7 @@ const B1_WORDS = [
         {
           "word": "auflösen",
           "meaning": "Dissolve or terminate",
-          "example": "Die Gruppe löst sich auf. = Grupa izirst."
+          "example": "Die Gruppe löst sich auf. – The group is breaking up."
         },
         {
           "word": "löschen",
@@ -38732,11 +38535,7 @@ const B1_WORDS = [
               "blue": "löst sich",
               "yellow": "Zucker"
             },
-            "lv": {
-              "purple": [
-                "dissolve"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -38841,7 +38640,7 @@ const B1_WORDS = [
         {
           "word": "die Antwort",
           "meaning": "Answer to the question",
-          "example": "Die Antwort ist richtig. = Atbilde ir pareiza."
+          "example": "Die Antwort ist richtig. – The answer is correct."
         },
         {
           "word": "das Ergebnis",
@@ -40227,7 +40026,7 @@ const B1_WORDS = [
         {
           "word": "bevor",
           "meaning": "Before",
-          "example": "Bevor ich gehe, rufe ich an. = Pirms eju, es piezvanu."
+          "example": "Bevor ich gehe, rufe ich an. – Before I leave, I'll call."
         }
       ],
       "tip": "nachdem requires a whole clause; danach can stand alone.",
@@ -40487,7 +40286,7 @@ const B1_WORDS = [
         {
           "word": "aufgeben",
           "meaning": "Give up, stop trying",
-          "example": "Gib nicht auf! = Nepadodies!"
+          "example": "Gib nicht auf! – Don't give up!"
         },
         {
           "word": "zugeben",
@@ -40784,7 +40583,7 @@ const B1_WORDS = [
         {
           "word": "sich nähern",
           "meaning": "To approach",
-          "example": "Der Zug nähert sich dem Bahnhof. = Vilciens tuvojas stacijai."
+          "example": "Der Zug nähert sich dem Bahnhof. – The train is approaching the station."
         },
         {
           "word": "biegen",
@@ -41055,7 +40854,7 @@ const B1_WORDS = [
         {
           "word": "nerven",
           "meaning": "Annoy, get on your nerves",
-          "example": "Der Lärm nervt mich. = Troksnis mani kaitina."
+          "example": "Der Lärm nervt mich. – The noise annoys me."
         },
         {
           "word": "stören",
@@ -41065,7 +40864,7 @@ const B1_WORDS = [
         {
           "word": "ärgern",
           "meaning": "To anger, to annoy",
-          "example": "Das ärgert mich. = Tas mani sadusmo."
+          "example": "Das ärgert mich. – That annoys me."
         }
       ],
       "tip": "If something gets on your nerves, use nerven.",
@@ -42323,11 +42122,7 @@ const B1_WORDS = [
               "blue": "opfert",
               "yellow": "Zeit"
             },
-            "lv": {
-              "purple": [
-                "sacrifice"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -43910,7 +43705,7 @@ const B1_WORDS = [
         {
           "word": "das Muster",
           "meaning": "Sample, model",
-          "example": "Das Muster ist kostenlos. = Paraugs ir bez maksas."
+          "example": "Das Muster ist kostenlos. – The sample is free of charge."
         }
       ],
       "tip": "In a laboratory, a test, or a concert, die Probe can be used in different senses.",
@@ -44341,7 +44136,7 @@ const B1_WORDS = [
         {
           "word": "der Balkon",
           "meaning": "Balcony",
-          "example": "Der Balkon ist voll. = Balkons ir pilns."
+          "example": "Der Balkon ist voll. – The balcony is full."
         }
       ],
       "tip": "Hierarchy, importance or theatre balcony: der Rang.",
@@ -44655,12 +44450,12 @@ const B1_WORDS = [
         {
           "word": "die Rate",
           "meaning": "Contribution, part of payment",
-          "example": "Die Rate ist hoch. = Iemaksa ir liela."
+          "example": "Die Rate ist hoch. – The instalment is high."
         },
         {
           "word": "der Rat",
           "meaning": "Advice",
-          "example": "Danke für deinen Rat. = Paldies par tavu padomu."
+          "example": "Danke für deinen Rat. – Thank you for your advice."
         },
         {
           "word": "die Ratenzahlung",
@@ -44985,7 +44780,7 @@ const B1_WORDS = [
         {
           "word": "die Freude",
           "meaning": "Pleasure",
-          "example": "Die Freude war groß. = Prieks bija liels."
+          "example": "Die Freude war groß. – The joy was great."
         },
         {
           "word": "die Sucht",
@@ -45507,11 +45302,7 @@ const B1_WORDS = [
               "blue": "reißt",
               "yellow": "Papier"
             },
-            "lv": {
-              "purple": [
-                "tear"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -45619,7 +45410,7 @@ const B1_WORDS = [
         {
           "word": "nerven",
           "meaning": "To annoy colloquially",
-          "example": "Der Lärm nervt mich. = Troksnis mani kaitina."
+          "example": "Der Lärm nervt mich. – The noise gets on my nerves."
         },
         {
           "word": "locken",
@@ -45925,7 +45716,7 @@ const B1_WORDS = [
         {
           "word": "schicken",
           "meaning": "To send",
-          "example": "Ich schicke dir eine E-Mail. = I am sending you an email."
+          "example": "Ich schicke dir eine E-Mail. – I am sending you an email."
         },
         {
           "word": "urteilen",
@@ -46200,7 +45991,7 @@ const B1_WORDS = [
         {
           "word": "rollen",
           "meaning": "Roll, roll, roll",
-          "example": "Der Ball rollt. = Bumba ripo."
+          "example": "Der Ball rollt. – The ball is rolling."
         },
         {
           "word": "drehen",
@@ -46610,7 +46401,7 @@ const B1_WORDS = [
         {
           "word": "der Ruhm",
           "meaning": "Fame",
-          "example": "Ruhm ist nicht alles. = Slava nav viss."
+          "example": "Ruhm ist nicht alles. – Fame isn't everything."
         }
       ],
       "tip": "The cry or reputation of a voice: der Ruf.",
@@ -47115,11 +46906,7 @@ const B1_WORDS = [
               "blue": "Saat",
               "green": "Bauer"
             },
-            "lv": {
-              "purple": [
-                "sow"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -48254,7 +48041,7 @@ const B1_WORDS = [
         {
           "word": "schärfen",
           "meaning": "To sharpen",
-          "example": "Ich schärfe das Messer. = Es asinu nazi."
+          "example": "Ich schärfe das Messer. – I'm sharpening the knife."
         },
         {
           "word": "ziehen",
@@ -48520,11 +48307,7 @@ const B1_WORDS = [
               "blue": "schmilzt",
               "yellow": "Schnee"
             },
-            "lv": {
-              "purple": [
-                "melt"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -50149,11 +49932,7 @@ const B1_WORDS = [
               "blue": "sende",
               "yellow": "Nachricht"
             },
-            "lv": {
-              "purple": [
-                "send"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -51264,12 +51043,12 @@ const B1_WORDS = [
         {
           "word": "die Spannung",
           "meaning": "Tension • In electricity, voltage",
-          "example": "Die Spannung ist groß. = Spriedze ir liela."
+          "example": "Die Spannung ist groß. – The tension is great."
         },
         {
           "word": "der Stress",
           "meaning": "Stress, overload",
-          "example": "Ich habe viel Stress. = Man ir daudz stresa."
+          "example": "Ich habe viel Stress. – I'm under a lot of stress."
         },
         {
           "word": "die Kraft",
@@ -51493,11 +51272,7 @@ const B1_WORDS = [
               "blue": "speichert",
               "yellow": "Fotos"
             },
-            "lv": {
-              "purple": [
-                "save"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -51647,7 +51422,7 @@ const B1_WORDS = [
         {
           "word": "schließen",
           "meaning": "To close",
-          "example": "Ich schließe das Fenster. = Es aizveru logu."
+          "example": "Ich schließe das Fenster. – I close the window."
         }
       ],
       "tip": {
@@ -51809,17 +51584,17 @@ const B1_WORDS = [
         {
           "word": "die Spitze",
           "meaning": "Tip, peak, leadership",
-          "example": "Die Spitze ist scharf. = Smaile ir asa."
+          "example": "Die Spitze ist scharf. – The tip is sharp."
         },
         {
           "word": "der Gipfel",
           "meaning": "Mountain top",
-          "example": "Der Gipfel ist hoch. = Virsotne ir augsta."
+          "example": "Der Gipfel ist hoch. – The summit is high."
         },
         {
           "word": "das Ende",
           "meaning": "The end, the end",
-          "example": "Das Ende ist nah. = Beigas ir tuvu."
+          "example": "Das Ende ist nah. – The end is near."
         }
       ],
       "tip": {
@@ -52150,11 +51925,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "Splashes"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -52300,11 +52071,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "jump"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -52550,11 +52317,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "progresam"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -53332,7 +53095,7 @@ const B1_WORDS = [
         {
           "word": "schieben",
           "meaning": "Push in a longer motion",
-          "example": "Ich schiebe den Wagen. = Es stumju ratus."
+          "example": "Ich schiebe den Wagen. – I'm pushing the cart."
         },
         {
           "word": "treffen",
@@ -53783,7 +53546,7 @@ const B1_WORDS = [
         {
           "word": "der Fluss",
           "meaning": "The river",
-          "example": "Der Fluss ist breit. = Upe ir plata."
+          "example": "Der Fluss ist breit. – The river is wide."
         },
         {
           "word": "die Energie",
@@ -54425,12 +54188,12 @@ const B1_WORDS = [
         {
           "word": "der Behälter",
           "meaning": "Vessel, tank",
-          "example": "Der Behälter ist voll. = Trauks ir pilns."
+          "example": "Der Behälter ist voll. – The container is full."
         },
         {
           "word": "der Panzer",
           "meaning": "Military tank",
-          "example": "Der Panzer ist schwer. = Tanks ir smags."
+          "example": "Der Panzer ist schwer. – The tank is heavy."
         }
       ],
       "tip": {
@@ -54649,12 +54412,12 @@ const B1_WORDS = [
         {
           "word": "der Tau",
           "meaning": "dew",
-          "example": "Der Tau glitzert. = Rasa mirdz. Tikai vienskaitlis."
+          "example": "Der Tau glitzert. – The dew glistens. (singular only)"
         },
         {
           "word": "das Tau",
           "meaning": "Ship's tow • Rope",
-          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
+          "example": "Das Tau ist fest. – The rope is tight. (plural: die Taue)"
         },
         {
           "word": "der Nebel",
@@ -54746,17 +54509,17 @@ const B1_WORDS = [
         {
           "word": "das Tau",
           "meaning": "Ship's tow • Rope",
-          "example": "Das Tau ist fest. = Tauva ir stingra. Plural: die Taue."
+          "example": "Das Tau ist fest. – The rope is tight. (plural: die Taue)"
         },
         {
           "word": "der Tau",
           "meaning": "Dew",
-          "example": "Der Tau glitzert. = Rasa mirdz. Tikai vienskaitlis."
+          "example": "Der Tau glitzert. – The dew glistens. (singular only)"
         },
         {
           "word": "das Seil",
           "meaning": "A rope",
-          "example": "Das Seil ist lang. = Virve ir gara."
+          "example": "Das Seil ist lang. – The rope is long."
         }
       ],
       "tip": {
@@ -55488,7 +55251,7 @@ const B1_WORDS = [
         {
           "word": "die Überschrift",
           "meaning": "Title",
-          "example": "Die Überschrift ist groß. = Virsraksts ir liels."
+          "example": "Die Überschrift ist groß. – The headline is large."
         },
         {
           "word": "der Name",
@@ -55846,12 +55609,12 @@ const B1_WORDS = [
         {
           "word": "trauen",
           "meaning": "To trust, to believe in one's abilities",
-          "example": "Ich traue dir. = Es tev uzticos."
+          "example": "Ich traue dir. – I trust you."
         },
         {
           "word": "vertrauen",
           "meaning": "To trust more deeply",
-          "example": "Ich vertraue dir. = Es tev uzticos."
+          "example": "Ich vertraue dir. – I trust you."
         },
         {
           "word": "sich trauen",
@@ -56271,7 +56034,7 @@ const B1_WORDS = [
         {
           "word": "trennen",
           "meaning": "To separate",
-          "example": "Die Wand trennt die Zimmer. = Siena atdala istabas."
+          "example": "Die Wand trennt die Zimmer. – The wall separates the rooms."
         },
         {
           "word": "unterscheiden",
@@ -57183,11 +56946,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "not notice"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -57593,11 +57352,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "aploksne"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -58406,7 +58161,7 @@ const B1_WORDS = [
         {
           "word": "die Verbindung",
           "meaning": "Connection, connection",
-          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
+          "example": "Die Verbindung ist stabil. – The connection is stable."
         }
       ],
       "tip": {
@@ -58544,7 +58299,7 @@ const B1_WORDS = [
         {
           "word": "die Verbindung",
           "meaning": "Connection, connection",
-          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
+          "example": "Die Verbindung ist stabil. – The connection is stable."
         },
         {
           "word": "der Anschluss",
@@ -58731,12 +58486,12 @@ const B1_WORDS = [
         {
           "word": "brennen",
           "meaning": "To burn",
-          "example": "Das Feuer brennt. = Uguns deg."
+          "example": "Das Feuer brennt. – The fire is burning."
         },
         {
           "word": "anzünden",
           "meaning": "Set fire to",
-          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
+          "example": "Ich zünde die Kerze an. – I light the candle."
         }
       ],
       "tip": {
@@ -59053,7 +58808,7 @@ const B1_WORDS = [
         {
           "word": "folgen",
           "meaning": "To follow someone",
-          "example": "Ich folge dir. = Es sekoju tev."
+          "example": "Ich folge dir. – I'm following you."
         },
         {
           "word": "beobachten",
@@ -59146,11 +58901,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "follow up"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -59339,11 +59090,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "to people"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -59702,11 +59449,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "injure"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -60172,11 +59915,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "on behalf of"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -60585,7 +60324,7 @@ const B1_WORDS = [
         {
           "word": "passieren",
           "meaning": "Happen",
-          "example": "Was ist passiert? = Kas notika?"
+          "example": "Was ist passiert? – What happened?"
         },
         {
           "word": "scheinen",
@@ -60820,7 +60559,7 @@ const B1_WORDS = [
         {
           "word": "die Idee",
           "meaning": "Idea",
-          "example": "Ich habe eine Idee. = Man ir ideja."
+          "example": "Ich habe eine Idee. – I have an idea."
         },
         {
           "word": "die Aufführung",
@@ -60913,11 +60652,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "the show"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -61044,11 +60779,7 @@ const B1_WORDS = [
               ],
               "green": "Sie"
             },
-            "lv": {
-              "purple": [
-                "prefer"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -61147,7 +60878,7 @@ const B1_WORDS = [
         {
           "word": "die Wache",
           "meaning": "Guard, sentry, station",
-          "example": "Die Wache ist am Eingang. = Sardze ir pie ieejas."
+          "example": "Die Wache ist am Eingang. – The guard is at the entrance."
         },
         {
           "word": "der Wächter",
@@ -61287,7 +61018,7 @@ const B1_WORDS = [
         {
           "word": "aufwachen",
           "meaning": "Wake up",
-          "example": "Ich wache früh auf. = Es agri pamostos."
+          "example": "Ich wache früh auf. – I wake up early."
         },
         {
           "word": "bewachen",
@@ -61459,7 +61190,7 @@ const B1_WORDS = [
         {
           "word": "der Waggon",
           "meaning": "Wagon (train)",
-          "example": "Der Waggon ist voll. = Vagons ir pilns."
+          "example": "Der Waggon ist voll. – The carriage is full."
         },
         {
           "word": "das Auto",
@@ -61799,7 +61530,7 @@ const B1_WORDS = [
         {
           "word": "wechseln",
           "meaning": "To change",
-          "example": "Ich wechsle das Geld. = Es mainu naudu."
+          "example": "Ich wechsle das Geld. – I'm changing the money."
         }
       ],
       "tip": {
@@ -62224,7 +61955,7 @@ const B1_WORDS = [
         {
           "word": "die Welle",
           "meaning": "Wave • Shaft",
-          "example": "Die Welle ist hoch. = Vilnis ir augsts."
+          "example": "Die Welle ist hoch. – The wave is high."
         },
         {
           "word": "die Woge",
@@ -62323,11 +62054,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "vilnis"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -62399,7 +62126,7 @@ const B1_WORDS = [
         {
           "word": "wenden",
           "meaning": "To turn, to turn",
-          "example": "Wenden Sie das Auto. = Apgrieziet auto."
+          "example": "Wenden Sie das Auto. – Turn the car round."
         },
         {
           "word": "drehen",
@@ -62551,7 +62278,7 @@ const B1_WORDS = [
         {
           "word": "sich bewerben",
           "meaning": "Apply for a job or place",
-          "example": "Ich bewerbe mich. = Es piesakos."
+          "example": "Ich bewerbe mich. – I'm applying."
         },
         {
           "word": "reklamieren",
@@ -62648,11 +62375,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "advertises"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -63080,11 +62803,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "apliecina"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -63362,11 +63081,7 @@ const B1_WORDS = [
         "tip": {
           "leftBlocks": [
             {
-              "text": {
-                "purple": [
-                  "admits"
-                ]
-              }
+              "text": {}
             }
           ]
         },
@@ -63429,12 +63144,12 @@ const B1_WORDS = [
         {
           "word": "anzünden",
           "meaning": "Set fire to something",
-          "example": "Ich zünde die Kerze an. = Es aizdedzinu sveci."
+          "example": "Ich zünde die Kerze an. – I light the candle."
         },
         {
           "word": "brennen",
           "meaning": "To burn",
-          "example": "Die Kerze brennt. = Svece deg."
+          "example": "Die Kerze brennt. – The candle is burning."
         }
       ],
       "tip": {
@@ -63577,7 +63292,7 @@ const B1_WORDS = [
         {
           "word": "die Verbindung",
           "meaning": "Connection, connection",
-          "example": "Die Verbindung ist stabil. = Savienojums ir stabils."
+          "example": "Die Verbindung ist stabil. – The connection is stable."
         },
         {
           "word": "der Kontext",
@@ -63852,7 +63567,7 @@ const B1_WORDS = [
         {
           "word": "die Arbeit",
           "meaning": "Work",
-          "example": "Ich habe viel Arbeit. = Man ir daudz darba."
+          "example": "Ich habe viel Arbeit. – I have a lot of work."
         },
         {
           "word": "der Job",
@@ -63975,9 +63690,6 @@ const B1_WORDS = [
             "example": {
               "blue": [
                 "Beruf"
-              ],
-              "purple": [
-                "profession"
               ]
             }
           },
@@ -64070,9 +63782,6 @@ const B1_WORDS = [
               "text": {
                 "blue": [
                   "Beruf"
-                ],
-                "purple": [
-                  "profesiju"
                 ]
               }
             },
@@ -64080,9 +63789,6 @@ const B1_WORDS = [
               "text": {
                 "green": [
                   "Arbeit"
-                ],
-                "purple": [
-                  "darba"
                 ]
               }
             }
@@ -64110,8 +63816,7 @@ const B1_WORDS = [
                 "Arbeit"
               ],
               "purple": [
-                "profession",
-                "der"
+                "profession"
               ]
             }
           }
@@ -64135,14 +63840,7 @@ const B1_WORDS = [
           "Beschäftigung"
         ],
         "purple": [
-          "profesija",
-          "profesiju",
-          "amats",
-          "arods",
-          "darbs",
-          "darba",
-          "occupation",
-          "darba joma"
+          "occupation"
         ]
       }
     }
@@ -64251,7 +63949,7 @@ const B1_WORDS = [
         {
           "word": "die Steuer",
           "meaning": "Tax",
-          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
+          "example": "Die Steuer ist hoch. – The tax is high. (plural: die Steuern)"
         },
         {
           "word": "das Steuer",
@@ -64353,7 +64051,7 @@ const B1_WORDS = [
         {
           "word": "die Steuer",
           "meaning": "Tax",
-          "example": "Die Steuer ist hoch. = Nodoklis ir augsts. Plural: die Steuern."
+          "example": "Die Steuer ist hoch. – The tax is high. (plural: die Steuern)"
         },
         {
           "word": "das Lenkrad",
@@ -65057,11 +64755,11 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "ohne ... zu = bez",
+        "ohne ... zu = without",
         "Uses ohne ... zu when the context suits this meaning."
       ],
       "important": [
-        "ohne + ko? (bez siera) ≠ ohne ... zu (neko nedara).",
+        "ohne + what? (without something) ≠ ohne ... zu (without doing anything).",
         "ohne ... zu = without (no action).",
         "There is no action. ohne + zu + irregularity."
       ],
@@ -65362,9 +65060,6 @@ const B1_WORDS = [
               "text": {
                 "blue": [
                   "sich befinden"
-                ],
-                "purple": [
-                  "atrasties"
                 ]
               }
             },
@@ -65372,9 +65067,6 @@ const B1_WORDS = [
               "text": {
                 "red": [
                   "sich fühlen"
-                ],
-                "purple": [
-                  "justies"
                 ]
               }
             }
@@ -65430,9 +65122,6 @@ const B1_WORDS = [
           "fühle mich"
         ],
         "purple": [
-          "atrasties",
-          "atrodas",
-          "justies",
           "i feel",
           "location"
         ]
@@ -65647,11 +65336,7 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "mantinieks"
-            ]
-          }
+          {}
         ],
         "important": [
           {
@@ -65800,11 +65485,7 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "mantojums"
-            ]
-          }
+          {}
         ],
         "important": [
           {}
@@ -65937,11 +65618,7 @@ const B1_WORDS = [
             }
           },
           {
-            "de": {
-              "blue": [
-                "schade"
-              ]
-            },
+            "de": {},
             "lv": {}
           }
         ],
@@ -66025,11 +65702,7 @@ const B1_WORDS = [
         },
         "examples": [
           {
-            "de": {
-              "green": [
-                "schade"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "Smoking"
@@ -66073,11 +65746,7 @@ const B1_WORDS = [
             "lv": {}
           },
           {
-            "de": {
-              "green": [
-                "schade"
-              ]
-            },
+            "de": {},
             "lv": {
               "purple": [
                 "harmful"
@@ -66512,11 +66181,7 @@ const B1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "stubborn"
-            ]
-          }
+          {}
         ],
         "important": [
           {
