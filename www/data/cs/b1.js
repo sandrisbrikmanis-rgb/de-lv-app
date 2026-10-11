@@ -51105,7 +51105,7 @@ const B1_WORDS = [
   },
   {
     "de": "schwindeln",
-    "lv": "Mít závrať • Lhát • Klamat",
+    "lv": "Mít závrať • Podvádět • Švindlovat",
     "level": "B1"
   },
   {

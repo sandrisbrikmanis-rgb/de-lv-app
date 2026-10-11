@@ -1262,7 +1262,7 @@ const B2_WORDS = [
     "de": "Besatzung",
     "de_article": "die",
     "de_plural": "die Besatzungen",
-    "lv": "Posádka • Osádka • Obsluha • Okupační vojenské jednotky",
+    "lv": "Posádka • Osádka • Obsluha • Okupační vojsko",
     "level": "B2"
   },
   {
