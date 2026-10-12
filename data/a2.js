@@ -3881,8 +3881,8 @@ const A2_WORDS = [
           "lv": "Žurnālists raksta rakstu par klimata aizsardzību."
         },
         {
-          "de": "Im Deutschen gibt es drei Artikel: der, die, das.",
-          "lv": "Vācu valodā ir trīs artikuli: der, die, das."
+          "de": "Im Deutschen gibt es drei bestimmte Artikel: der, die, das.",
+          "lv": "Vācu valodā ir trīs noteiktie artikuli: der, die, das."
         },
         {
           "de": "Dieser Artikel ist leider ausverkauft.",
