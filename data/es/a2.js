@@ -34853,7 +34853,7 @@ const A2_WORDS = [
     "de": "Schnupfen",
     "de_article": "der",
     "de_plural": "die Schnupfen",
-    "lv": "resfriado",
+    "lv": "catarro • resfriado",
     "level": "A2"
   },
   {
@@ -35108,7 +35108,7 @@ const A2_WORDS = [
   {
     "de": "Schweinefleisch",
     "de_article": "das",
-    "lv": "cerdo",
+    "lv": "carne de cerdo",
     "level": "A2"
   },
   {

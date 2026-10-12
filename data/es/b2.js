@@ -2003,7 +2003,7 @@ const B2_WORDS = [
   },
   {
     "de": "austragen",
-    "lv": "llevar a término • entregar • ganar",
+    "lv": "repartir • entregar • disputar",
     "level": "B2"
   },
   {
@@ -12371,7 +12371,7 @@ const B2_WORDS = [
   {
     "de": "Gefallen",
     "de_article": "das",
-    "lv": "agrado • favor",
+    "lv": "agrado • gusto",
     "level": "B2"
   },
   {
@@ -18591,7 +18591,7 @@ const B2_WORDS = [
   },
   {
     "de": "namens",
-    "lv": "en nombre de",
+    "lv": "llamado • de nombre • en nombre de",
     "level": "B2"
   },
   {
@@ -24970,7 +24970,7 @@ const B2_WORDS = [
     "de": "Wehe",
     "de_article": "die",
     "de_plural": "die Wehen",
-    "lv": "ventisquero • montón de nieve",
+    "lv": "duna • ventisquero",
     "level": "B2"
   },
   {

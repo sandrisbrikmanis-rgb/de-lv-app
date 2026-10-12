@@ -725,7 +725,7 @@ const C2_WORDS = [
     "de": "Berufsbezeichnung",
     "de_article": "die",
     "de_plural": "die Berufsbezeichnungen",
-    "lv": "título profesional",
+    "lv": "denominación profesional",
     "level": "C2"
   },
   {
