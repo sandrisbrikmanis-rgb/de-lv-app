@@ -139,7 +139,7 @@ const B1_WORDS = [
         },
         {
           "de": "In dieser Region baut man viel Wein an.",
-          "lv": "A lot of wine is grown in this region."
+          "lv": "A lot of vines are grown in this region."
         },
         {
           "de": "Sie bauen eine Garage an das Haus an.",
@@ -147,7 +147,7 @@ const B1_WORDS = [
         },
         {
           "de": "Wir wollen noch ein Zimmer anbauen.",
-          "lv": "We still want to add a room."
+          "lv": "We want to add another room."
         }
       ],
       "comparison": [
@@ -4827,7 +4827,7 @@ const B1_WORDS = [
       "translation": "Effort",
       "explanation": [
         "Main idea: der Aufwand means the effort, time, money or resources needed to do something. It is a masculine noun and is normally used in the singular: der Aufwand.",
-        "Typical uses: viel Aufwand (a lot of effort), mit großem Aufwand (at great expense of effort), der Aufwand lohnt sich (the effort pays off), der Zeitaufwand (time required), der Kostenaufwand (expenditure).",
+        "Typical uses: viel Aufwand (a lot of effort), mit großem Aufwand (with great effort, at great expense), der Aufwand lohnt sich (the effort pays off), der Zeitaufwand (time required), der Kostenaufwand (expenditure).",
         "The word is neutral and describes effort and cost rather than diligence."
       ],
       "examples": [
@@ -4841,7 +4841,7 @@ const B1_WORDS = [
         },
         {
           "de": "Mit großem Aufwand renovierten sie das Haus.",
-          "lv": "They renovated the house at great effort."
+          "lv": "They renovated the house with great effort."
         },
         {
           "de": "Der Zeitaufwand ist gering.",
@@ -5352,12 +5352,12 @@ const B1_WORDS = [
     "de": "Aussicht",
     "de_article": "die",
     "de_plural": "die Aussichten",
-    "lv": "The odds",
+    "lv": "The prospect • The view",
     "level": "B1",
     "study": {
       "id": "b1-aussicht",
       "layout": "standardStudy",
-      "translation": "The odds",
+      "translation": "The prospect • The view",
       "explanation": [
         "Main idea: die Aussicht (often in the plural, die Aussichten) means prospects or chances, what one can expect in the future. In the singular, die Aussicht often also means the view from a window or balcony: eine schöne Aussicht (a lovely view).",
         "In this sense auf + accusative is used: die Aussicht auf Erfolg (the prospect of success), die Aussicht auf einen Job. Expressions: gute Aussichten haben (to have good prospects), etwas in Aussicht stellen (to promise something), in Aussicht haben (to have something in prospect).",
@@ -14138,7 +14138,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das dient nur der Sicherheit.",
-          "lv": "That serves only safety."
+          "lv": "That is only for safety."
         }
       ],
       "comparison": [
@@ -14234,7 +14234,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "serves"
+                "for safety"
               ]
             }
           }
@@ -16864,15 +16864,15 @@ const B1_WORDS = [
   },
   {
     "de": "einfallen",
-    "lv": "Come to mind",
+    "lv": "To come to mind",
     "level": "B1",
     "study": {
       "id": "b1-einfallen",
       "layout": "standardStudy",
-      "translation": "Come to mind",
+      "translation": "To come to mind",
       "explanation": [
         "Main idea: einfallen means to come to mind – of a thought, an idea or a word that suddenly appears. The person is expressed by the dative: Mir fällt der Name nicht ein. – The name does not come to me.",
-        "Forms: fällt ein, fiel ein, ist eingefallen (auxiliary sein). Common expressions: Was fällt dir ein? (What do you think you are doing?!), sich etwas einfallen lassen (to come up with something). Less often, einfallen also means “to invade” or “to fall (of light)”."
+        "Forms: fällt ein, fiel ein, ist eingefallen (auxiliary sein). Common expressions: Was fällt dir ein? (What do you think you are doing?!), sich etwas einfallen lassen (to come up with something). Less often, einfallen also means “to invade”, “to cave in” (Das Dach fiel ein) or “to fall (of light)”."
       ],
       "examples": [
         {
@@ -16919,7 +16919,7 @@ const B1_WORDS = [
       ],
       "important": [
         "The auxiliary is sein: es ist mir eingefallen.",
-        "Einfallen does not mean “to fall in”; for that use hineinfallen."
+        "In its everyday sense einfallen has nothing to do with falling into something; for that use hineinfallen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21452,12 +21452,12 @@ const B1_WORDS = [
   },
   {
     "de": "entsprechen",
-    "lv": "Corresponds to",
+    "lv": "To correspond to",
     "level": "B1",
     "study": {
       "id": "b1-entsprechen",
       "layout": "standardStudy",
-      "translation": "Corresponds to",
+      "translation": "To correspond to",
       "explanation": [
         "Main idea: entsprechen means to correspond to, to match – to agree with expectations, rules, a description or facts. It describes a match between two things.",
         "Forms: entspricht, entsprach, hat entsprochen. The verb takes the dative, not the accusative: Das Ergebnis entspricht den Erwartungen. The adjective entsprechend means “corresponding, appropriate”: ein entsprechender Antrag."
@@ -26679,12 +26679,12 @@ const B1_WORDS = [
   },
   {
     "de": "gemein",
-    "lv": "Dishonest",
+    "lv": "Mean",
     "level": "B1",
     "study": {
       "id": "b1-gemein",
       "layout": "standardStudy",
-      "translation": "Dishonest",
+      "translation": "Mean",
       "explanation": [
         "Main idea: gemein is an adjective describing a mean, nasty, dishonest or malicious act or person. Comparative forms: gemeiner, am gemeinsten.",
         "Colloquially Das ist gemein! is said when an action is unfair or hurtful. Less often, mainly in written language, gemein means common, shared: etwas mit jemandem gemein haben (to have something in common with someone)."
@@ -26700,7 +26700,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sei nicht so gemein zu ihr!",
-          "lv": "Do not be so mean to her!"
+          "lv": "Don't be so mean to her!"
         },
         {
           "de": "Mit ihm habe ich nichts gemein.",
@@ -28196,7 +28196,7 @@ const B1_WORDS = [
         },
         {
           "de": "Ein hohes Gitter schützt den Garten.",
-          "lv": "A tall metal grid protects the garden."
+          "lv": "A high metal railing protects the garden."
         },
         {
           "de": "Der Dieb landete hinter Gittern.",
@@ -28271,7 +28271,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "grid"
+                "railing"
               ]
             }
           },
@@ -29313,7 +29313,7 @@ const B1_WORDS = [
         },
         {
           "de": "Es handelt sich um ein Missverständnis.",
-          "lv": "It concerns a misunderstanding."
+          "lv": "It is a misunderstanding."
         },
         {
           "de": "Der Film handelt von einer großen Liebe.",
@@ -29397,7 +29397,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "concerns"
+                "It is"
               ]
             }
           },
@@ -29933,7 +29933,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "After ein Haufen the noun follows without 'von': ein Haufen Arbeit, ein Haufen Geld.",
+        "After ein Haufen the noun usually follows directly, without 'von': ein Haufen Arbeit, ein Haufen Geld.",
         "The expression über den Haufen werfen means to wreck (plans)."
       ],
       "important": [
@@ -30944,20 +30944,20 @@ const B1_WORDS = [
     "de": "Hinweis",
     "de_article": "der",
     "de_plural": "die Hinweise",
-    "lv": "Instruction",
+    "lv": "Hint • Pointer",
     "level": "B1",
     "study": {
       "id": "b1-hinweis",
       "layout": "standardStudy",
-      "translation": "Instruction",
+      "translation": "Hint • Pointer",
       "explanation": [
-        "Main idea: der Hinweis is a masculine noun meaning a pointer, instruction or hint: information that draws attention to something important or helps to find an answer. Plural: die Hinweise.",
+        "Main idea: der Hinweis is a masculine noun meaning a pointer, note or hint: information that draws attention to something important or helps to find an answer. Plural: die Hinweise.",
         "Used on packaging or signs (Sicherheitshinweis), in police appeals (Hinweise auf den Täter) and in conversation (einen Hinweis geben). It is followed by auf + accusative: Hinweis auf etwas."
       ],
       "examples": [
         {
           "de": "Bitte beachten Sie den Hinweis auf der Packung.",
-          "lv": "Please note the instruction on the packaging."
+          "lv": "Please note the information on the packaging."
         },
         {
           "de": "Die Polizei sucht Hinweise auf den Täter.",
@@ -31021,7 +31021,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "instruction"
+                "information"
               ]
             }
           },
@@ -31243,12 +31243,12 @@ const B1_WORDS = [
   },
   {
     "de": "holen",
-    "lv": "To bring",
+    "lv": "To fetch",
     "level": "B1",
     "study": {
       "id": "b1-holen",
       "layout": "standardStudy",
-      "translation": "To bring",
+      "translation": "To fetch",
       "explanation": [
         "Main idea: holen means to go and get something or someone and bring it back. Forms: holt, holte, hat geholt. The object is in the accusative.",
         "Typical uses: etwas holen (to fetch something), jemanden holen (to call or fetch someone), Hilfe holen (to get help). Colloquially also sich eine Krankheit holen — to catch an illness."
@@ -31840,28 +31840,28 @@ const B1_WORDS = [
     "de": "Hort",
     "de_article": "der",
     "de_plural": "die Horte",
-    "lv": "Extended day group • Children's day centre",
+    "lv": "After-school club",
     "level": "B1",
     "study": {
       "id": "b1-hort",
       "layout": "standardStudy",
-      "translation": "Extended day group • Children's day centre",
+      "translation": "After-school club",
       "explanation": [
-        "Main idea: der Hort is a masculine noun that in Germany means an extended day group or children's day centre, where school-age children (usually primary school) spend time after lessons while their parents work. Plural: die Horte.",
+        "Main idea: der Hort is a masculine noun that in Germany means an after-school club (after-school care centre), where school-age children (usually primary school) spend time after lessons while their parents work. Plural: die Horte.",
         "A Hort is not a school but a place for supervising children and their free time. Less often (in literary use) der Hort means a refuge or safe place: ein Hort der Freiheit."
       ],
       "examples": [
         {
           "de": "Nach der Schule geht Lena in den Hort.",
-          "lv": "After school Lena goes to the extended day group."
+          "lv": "After lessons Lena goes to the after-school club."
         },
         {
           "de": "Der Hort schließt um 17 Uhr.",
-          "lv": "The day centre closes at 5 p.m."
+          "lv": "The after-school club closes at 5 p.m."
         },
         {
           "de": "Viele Eltern brauchen einen Platz im Hort.",
-          "lv": "Many parents need a place in an extended day group."
+          "lv": "Many parents need a place at an after-school club."
         },
         {
           "de": "Die Stadt war ein Hort der Freiheit.",
@@ -31891,7 +31891,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Hort is not the same as Kindergarten: the age group is different.",
-        "There is no exact British equivalent; the nearest is an after-school club or children's day centre."
+        "There is no exact British equivalent; the nearest is an after-school club."
       ],
       "sectionAccents": {
         "explanation": {
@@ -31900,6 +31900,7 @@ const B1_WORDS = [
             "Horte"
           ],
           "purple": [
+            "after-school club",
             "school-age children",
             "refuge"
           ]
@@ -31913,7 +31914,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "extended day group"
+                "after-school club"
               ]
             }
           },
@@ -31925,7 +31926,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "day centre"
+                "after-school club"
               ]
             }
           },
@@ -31937,7 +31938,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "extended day group"
+                "after-school club"
               ]
             }
           },
@@ -32273,14 +32274,14 @@ const B1_WORDS = [
   },
   {
     "de": "hüten",
-    "lv": "To protect",
+    "lv": "To look after",
     "level": "B1",
     "study": {
       "id": "b1-hüten",
       "layout": "standardStudy",
-      "translation": "To protect",
+      "translation": "To look after",
       "explanation": [
-        "Main idea: hüten means to protect, guard or look after someone or something (children, livestock, a secret). Forms: hütet, hütete, hat gehütet. The object is in the accusative.",
+        "Main idea: hüten means to look after, guard or watch over someone or something (children, livestock, a secret). Forms: hütet, hütete, hat gehütet. The object is in the accusative.",
         "Reflexive: sich hüten vor + dative — to beware of (Hüte dich vor dem Hund!). The expression das Bett hüten means to stay in bed because of illness."
       ],
       "examples": [
@@ -32341,8 +32342,8 @@ const B1_WORDS = [
             "das Bett hüten"
           ],
           "purple": [
-            "protect",
             "look after",
+            "guard",
             "beware of"
           ]
         },
@@ -33038,7 +33039,7 @@ const B1_WORDS = [
         "Perfect: hat sich geirrt (with haben)."
       ],
       "important": [
-        "The reflexive sich irren means to be mistaken in one's judgement, not to make a mistake in an exercise (for that use einen Fehler machen).",
+        "The reflexive sich irren usually means being mistaken in one's judgement or about a fact; for an error in a piece of work, such as an exercise, einen Fehler machen is more usual.",
         "Do not confuse it with der Irrtum (mistake, error), which is a noun."
       ],
       "sectionAccents": {
@@ -33940,14 +33941,14 @@ const B1_WORDS = [
     "de": "Kader",
     "de_article": "der",
     "de_plural": "die Kader",
-    "lv": "Composition • Core",
+    "lv": "The squad • The core team",
     "level": "B1",
     "study": {
       "id": "b1-kader",
       "layout": "standardStudy",
-      "translation": "Composition • Core",
+      "translation": "The squad • The core team",
       "explanation": [
-        "Main idea: der Kader is a masculine noun meaning the basic composition, the core, of a team, organisation or company. Plural: die Kader. In sport it is the squad list from which the coach picks the team.",
+        "Main idea: der Kader is a masculine noun meaning the core group, the core team, of a team, organisation or company. Plural: die Kader. In sport it is the squad list from which the coach picks the team.",
         "In companies Kader can mean the senior staff. In Switzerland das Kader (neuter) is also used."
       ],
       "examples": [
@@ -34004,7 +34005,7 @@ const B1_WORDS = [
           "purple": [
             "core",
             "squad",
-            "composition"
+            "core team"
           ]
         },
         "examples": [
@@ -37523,7 +37524,7 @@ const B1_WORDS = [
       "translation": "To quit one’s job / to give notice",
       "explanation": [
         "Main idea: kündigen means to give notice on a job, contract or tenancy: to announce formally that a relationship will end. Forms: kündigt, kündigte, hat gekündigt (auxiliary verb haben).",
-        "With the accusative it takes the thing: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. With the dative it takes the person who is given notice: Der Chef kündigt dem Mitarbeiter (the boss dismisses the employee). Without an object, ich habe gekündigt means that I have resigned myself.",
+        "With the accusative it takes the thing: den Vertrag kündigen, die Wohnung kündigen, den Job kündigen. With the dative it takes the person who is given notice: Der Chef kündigt dem Mitarbeiter (the boss dismisses the employee). Without an object, ich habe gekündigt means that I myself have resigned (handed in my notice).",
         "Essentially kündigen is a formal step with a notice period (Kündigungsfrist); dismissal by a company is also described with entlassen."
       ],
       "examples": [
@@ -42323,7 +42324,7 @@ const B1_WORDS = [
       ],
       "important": [
         "The word das Maß is written with ß because the vowel is long.",
-        "The plural is die Maße (dimensions); the form Maßen occurs only in the expression über alle Maßen."
+        "The plural is die Maße (dimensions); the dative plural is den Maßen, a form also found in the fixed expression über alle Maßen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -43386,12 +43387,12 @@ const B1_WORDS = [
     "de": "Nachfrage",
     "de_article": "die",
     "de_plural": "die Nachfragen",
-    "lv": "Request",
+    "lv": "Demand • Enquiry",
     "level": "B1",
     "study": {
       "id": "b1-nachfrage",
       "layout": "standardStudy",
-      "translation": "Request",
+      "translation": "Demand • Enquiry",
       "explanation": [
         "Main idea: die Nachfrage is mainly demand in economics: how many people want to buy a product or service (Angebot und Nachfrage). The plural die Nachfragen is rarer.",
         "Another meaning is an enquiry or request for information: danke für Ihre Nachfrage; auf Nachfrage means on request, when someone asks.",
@@ -44707,14 +44708,14 @@ const B1_WORDS = [
     "de": "Not",
     "de_article": "die",
     "de_plural": "die Nöte",
-    "lv": "Deficiency",
+    "lv": "Need • Hardship",
     "level": "B1",
     "study": {
       "id": "b1-not",
       "layout": "standardStudy",
-      "translation": "Deficiency",
+      "translation": "Need • Hardship",
       "explanation": [
-        "Main idea: die Not is lack, deficiency and hardship: a distressing situation in which a person lacks the bare necessities (in Not leben, Not leiden). It is also an urgent need or emergency: in der Not, in Not geraten.",
+        "Main idea: die Not is need, distress and hardship: a distressing situation in which a person lacks the bare necessities (in Not leben, Not leiden). It is also an urgent need or emergency: in der Not, in Not geraten.",
         "The word is feminine. The plural die Nöte is very rare; the singular is normally used.",
         "Phrases: zur Not (if need be; if there is no other way), aus der Not eine Tugend machen (to make a virtue of necessity), Not macht erfinderisch (necessity is the mother of invention)."
       ],
@@ -44767,8 +44768,8 @@ const B1_WORDS = [
             "Not"
           ],
           "purple": [
-            "lack",
-            "deficiency",
+            "need",
+            "distress",
             "hardship"
           ]
         },
@@ -50419,7 +50420,7 @@ const B1_WORDS = [
         "A finished product can be described with the participle: geröstet."
       ],
       "important": [
-        "rösten is not braten: braten means to fry in oil or fat, rösten means to roast or toast.",
+        "rösten is not braten: braten means to fry or roast with fat (in a pan or in the oven), while rösten means to roast or toast dry or with very little fat.",
         "Do not confuse rösten with rostet (it rusts)."
       ],
       "sectionAccents": {
@@ -57427,14 +57428,14 @@ const B1_WORDS = [
     "de": "Stand",
     "de_article": "der",
     "de_plural": "die Stände",
-    "lv": "Condition",
+    "lv": "The state • The stand",
     "level": "B1",
     "study": {
       "id": "b1-stand",
       "layout": "standardStudy",
-      "translation": "Condition",
+      "translation": "The state • The stand",
       "explanation": [
-        "Main idea: der Stand is a masculine noun meaning the current state, condition, level or score of something (der aktuelle Stand, der Spielstand, der Wasserstand). It can also mean a stall at a market or exhibition, and a social class (rank).",
+        "Main idea: der Stand is a masculine noun meaning the current state, level or score of something (der aktuelle Stand, der Spielstand, der Wasserstand). It can also mean a stall at a market or exhibition, and a social class (rank).",
         "The plural is die Stände. Common phrases: auf dem neuesten Stand (up to date), der Stand der Dinge (the state of affairs), ein Stand auf dem Markt (a market stall), der Familienstand (marital status).",
         "It means a state as a moment or level, not the condition of a person's health or mood; that is expressed with Zustand."
       ],
@@ -57765,7 +57766,7 @@ const B1_WORDS = [
         "For a job, Stelle or Job are more common today; Stellung sounds more formal or old-fashioned."
       ],
       "important": [
-        "die Stellung and die Stelle are not the same: Stelle is a job or a place, Stellung a position or post.",
+        "Die Stellung and die Stelle are not the same: Stelle is a job or a place, Stellung a position or post.",
         "Stellung has many meanings: check whether it means posture, position, post or opinion."
       ],
       "sectionAccents": {
@@ -63003,15 +63004,15 @@ const B1_WORDS = [
   },
   {
     "de": "übersehen",
-    "lv": "Not notice",
+    "lv": "To overlook",
     "level": "B1",
     "study": {
       "id": "b1-übersehen",
       "layout": "standardStudy",
-      "translation": "Not notice",
+      "translation": "To overlook",
       "explanation": [
         "Main idea: übersehen means to overlook or miss something: to fail by accident to notice something right in front of you. Forms: übersieht, übersah, hat übersehen. The prefix über- is inseparable. The verb takes the accusative.",
-        "Its second meaning is to take in or grasp the extent of something: Wir können die Folgen noch nicht übersehen. If someone misses something by accident, übersehen is used; if they deliberately take no notice, you say ignorieren or wegsehen."
+        "Its second meaning is to take in or grasp the extent of something: Wir können die Folgen noch nicht übersehen. If someone misses something by accident, übersehen is used; if they deliberately take no notice, you usually say ignorieren or wegsehen, although übersehen can also mean to overlook a fault on purpose."
       ],
       "examples": [
         {
@@ -63057,7 +63058,7 @@ const B1_WORDS = [
         "The opposite is bemerken (to notice)."
       ],
       "important": [
-        "Übersehen is unintentional, ignorieren is deliberate.",
+        "Übersehen is usually unintentional, ignorieren is deliberate.",
         "There is no ge- in the perfect: hat übersehen."
       ],
       "sectionAccents": {
@@ -68884,12 +68885,12 @@ const B1_WORDS = [
   },
   {
     "de": "weder",
-    "lv": "Nor",
+    "lv": "Neither",
     "level": "B1",
     "study": {
       "id": "b1-weder",
       "layout": "standardStudy",
-      "translation": "Nor",
+      "translation": "Neither",
       "explanation": [
         "Main idea: weder … noch … is a two-part conjunction meaning neither … nor …. It negates both elements at once: Er hat weder Zeit noch Geld (he has neither time nor money).",
         "The sentence is already negative, so kein or nicht is not used: not Er hat weder keine Zeit noch ... The word order is normal: the verb is in second position. When weder … noch links two subjects, the verb is normally singular: Weder er noch sie kommt."
@@ -70748,12 +70749,12 @@ const B1_WORDS = [
     "de": "Zusammenhang",
     "de_article": "der",
     "de_plural": "die Zusammenhänge",
-    "lv": "Relationship",
+    "lv": "Connection • Context",
     "level": "B1",
     "study": {
       "id": "b1-zusammenhang",
       "layout": "standardStudy",
-      "translation": "Relationship",
+      "translation": "Connection • Context",
       "explanation": [
         "Main idea: der Zusammenhang is a masculine noun meaning a relationship or connection between phenomena, events or ideas, and also the context in which something stands.",
         "The plural is die Zusammenhänge. Typical expressions: ein Zusammenhang besteht zwischen … (there is a connection between …), im Zusammenhang mit + dative (in connection with), in diesem Zusammenhang (in this connection), aus dem Zusammenhang gerissen (taken out of context).",
@@ -72221,7 +72222,7 @@ const B1_WORDS = [
         {
           "word": "anstatt dass",
           "meaning": "instead of (different subject)",
-          "example": "Anstatt dass er hilft, schaut er zu. – Instead of helping, he just watches."
+          "example": "Anstatt dass er hilft, muss ich alles machen. – Instead of him helping, I have to do everything."
         },
         {
           "word": "ohne … zu",
@@ -72234,7 +72235,7 @@ const B1_WORDS = [
         "Statt … zu is the same and sounds slightly simpler; both forms are correct."
       ],
       "important": [
-        "Take care: if the subject changes, use anstatt dass: Anstatt dass er hilft, schaut er zu.",
+        "Take care: if the subject changes, use anstatt dass: Anstatt dass er hilft, muss ich alles machen.",
         "Do not confuse it with the preposition anstatt/statt + genitive (statt des Buches), which also means instead of."
       ],
       "sectionAccents": {
@@ -72552,7 +72553,7 @@ const B1_WORDS = [
         "Always add the reflexive pronoun: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden is not used in the sense of to find (finden) or to feel; it only gives a location or state.",
+        "Sich befinden does not mean to find (finden); in the sense of 'to feel' it occurs only in formal or dated phrases such as sich wohl befinden.",
         "The auxiliary in the perfect is haben (hat sich befunden), but in narrative the Präteritum is more common: befand sich."
       ],
       "sectionAccents": {

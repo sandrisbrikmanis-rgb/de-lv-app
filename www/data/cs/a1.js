@@ -875,7 +875,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "sondern",
-          "meaning": "nýbrž (po zápornému)",
+          "meaning": "nýbrž (po záporu)",
           "example": "Er ist nicht dumm, sondern faul. – Není hloupý, nýbrž líný."
         },
         {
@@ -978,7 +978,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "nýbrž (po zápornému)"
+                "nýbrž (po záporu)"
               ]
             }
           },
@@ -1411,7 +1411,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Auch dávej přímo před slovo, k němuž se vztahuje.",
+        "Auch obvykle stojí před slovem, k němuž se vztahuje.",
         "„Také ne“ se německy řekne auch nicht nebo auch kein."
       ],
       "important": [
@@ -3116,7 +3116,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Po bis jako spojce stojí sloveso na konci věty.",
-        "Bis nechce člen u času a měst: bis Montag, nikoli „bis den Montag“."
+        "U dnů a měst se bis obvykle používá bez členu: bis Montag, bis Berlin."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4591,7 +4591,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Za dass dej čárku a sloveso přesuň na konec.",
+        "Před dass dej čárku a sloveso přesuň na konec.",
         "Začíná-li dass větu, může vedlejší věta stát první: Dass du kommst, freut mich."
       ],
       "important": [
@@ -5877,7 +5877,7 @@ const A1_WORDS = [
         "Erst … dann = nejprve … pak."
       ],
       "important": [
-        "Erst a nur není totéž: nur se vztahuje k množství, erst k času.",
+        "Erst a nur není totéž: nur jen omezuje (jen tolik), erst zdůrazňuje, že je to zatím málo nebo brzy a že se čeká víc – obvykle u času (erst 8 Uhr), ale i u množství (erst drei Seiten – teprve tři strany).",
         "Erst a zuerst se nepřekrývají úplně: erst obvykle znamená „teprve“, zuerst „nejdřív“ při výčtu několika kroků."
       ],
       "sectionAccents": {
@@ -7830,7 +7830,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Koncovky jsou stejné jako u jiných přídavných jmen: der ganze Tag, ein ganzer Tag.",
-        "Ganz + přídavné jméno zesiluje: ganz gut, ganz neu."
+        "Ganz + přídavné jméno obvykle zesiluje: ganz neu (úplně nový); ganz gut ale často znamená jen docela dobře."
       ],
       "important": [
         "Jako přídavné jméno se ganz skloňuje (der ganze Tag), jako příslovce se nemění (ganz neu).",
@@ -9655,12 +9655,12 @@ const A1_WORDS = [
   },
   {
     "de": "haben",
-    "lv": "Mám",
+    "lv": "Mít",
     "level": "A1",
     "study": {
       "id": "a1-haben",
       "layout": "standardStudy",
-      "translation": "Mám",
+      "translation": "Mít",
       "explanation": [
         "Hlavní myšlenka: haben znamená „mít“, „něco vlastnit“: Ich habe einen Bruder (mám bratra), Wir haben Zeit. Pojí se s akuzativem.",
         "Tvary: ich habe, du hast, er hat, wir haben, ihr habt, sie haben; hatte, hat gehabt. Haben je také pomocné sloveso v perfektu: Ich habe das Buch gelesen.",
@@ -9710,7 +9710,7 @@ const A1_WORDS = [
         "V perfektu se u většiny sloves používá haben: ich habe gelesen."
       ],
       "important": [
-        "Na rozdíl od češtiny („mám 20 let“) se věk německy vyjadřuje pomocí sein: Ich bin 20, nikoli „Ich habe 20“.",
+        "Věk se německy vyjadřuje pomocí sein: Ich bin 20 (je mi 20 let), nikoli „Ich habe 20“.",
         "V záporu se používá kein: Ich habe kein Auto, nikoli „nicht ein Auto“."
       ],
       "sectionAccents": {
@@ -11915,7 +11915,7 @@ const A1_WORDS = [
         "Pamatuj na přehlásku: jung → jünger → am jüngsten."
       ],
       "important": [
-        "Nepoužívej jung o předmětech – řekni neu.",
+        "O běžných předmětech (auto, kniha) neříkej jung – řekni neu.",
         "Komparativ má vždy přehlásku: jünger, ne „junger“."
       ],
       "sectionAccents": {
@@ -12114,7 +12114,7 @@ const A1_WORDS = [
       ],
       "tip": [
         "Pokud by ve větě stálo „ein“ nebo žádný člen, zapři pomocí kein: Ich habe ein Auto → Ich habe kein Auto.",
-        "Když je ve větě sloveso, přídavné jméno nebo určitý člen (der, die), použij nicht."
+        "Když zapíráš sloveso, přídavné jméno nebo podstatné jméno s určitým členem (der, die), použij nicht."
       ],
       "important": [
         "Podstatné jméno s určitým členem se zapírá pomocí nicht: Ich sehe das Auto nicht.",
@@ -13421,7 +13421,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: das Land je podstatné jméno středního rodu s několika významy: země, stát (Deutschland ist ein Land), venkov na rozdíl od města (auf dem Land – na venkově) a území.",
         "Plurál: die Länder (státy); historicky též die Lande, ale to se používá zřídka. Výrazy: aufs Land fahren (jet na venkov), auf dem Land leben (žít na venkově), im Ausland / im Inland.",
-        "Das Bundesland je spolková země. Půdu nebo podlahu označuje der Boden, ne das Land."
+        "Das Bundesland je spolková země. Podlahu nebo půdu (zeminu) označuje obvykle der Boden; das Land může znamenat i pozemek nebo pevninu (an Land gehen – vystoupit na břeh)."
       ],
       "examples": [
         {
@@ -13468,7 +13468,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Das Land (území, venkov) a der Staat (stát jako instituce) nejsou synonyma.",
-        "V plurálu je přehláska: die Länder, ne „die Lande“."
+        "V běžném plurálu je přehláska: die Länder; tvar die Lande je zastaralý a knižní."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13609,7 +13609,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: lang znamená „dlouhý“ (o rozměru, čase, předmětu) – Der Tisch ist lang – a o čase také „dlouho trvající“: Der Film war sehr lang. S časovými jednotkami: zwei Stunden lang – dvě hodiny.",
         "Komparativ: länger (delší, déle), superlativ: am längsten. Příslovce lange znamená „dlouho“: Ich warte schon lange. Koncovky u podstatných jmen: eine lange Reise, lange Haare.",
-        "V otázce Wie lange dauert es? (Jak dlouho to trvá?) se používá lange, ne lang."
+        "V otázce Wie lange dauert es? (Jak dlouho to trvá?) se ve spisovné němčině používá lange; hovorově se říká i lang."
       ],
       "examples": [
         {
@@ -13655,7 +13655,7 @@ const A1_WORDS = [
         "O člověku se říká groß (vysoký postavou), ne lang."
       ],
       "important": [
-        "Lang a lange nezaměňuj: Ich warte lange (ne „lang“).",
+        "O trvání děje se ve spisovné němčině používá lange: Ich warte lange (hovorově i „lang“).",
         "Za podstatným jménem s údajem o čase zůstává lang bez koncovky: zwei Stunden lang."
       ],
       "sectionAccents": {
@@ -18458,7 +18458,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Nebo",
       "explanation": [
-        "Hlavní myšlenka: oder je slučovací spojka „nebo, či“ – nabízí výběr mezi možnostmi: Kaffee oder Tee? Spojuje slova, slovní spojení nebo věty a nemění slovosled.",
+        "Hlavní myšlenka: oder je vylučovací spojka „nebo, či“ – nabízí výběr mezi možnostmi: Kaffee oder Tee? Spojuje slova, slovní spojení nebo věty a nemění slovosled.",
         "Slovosled po oder se nemění: Ich gehe nach Hause, oder ich bleibe hier. Oder na konci věty v hovorové řeči tvoří potvrzovací otázku: Du kommst, oder? – Přijdeš, že jo?",
         "Pevná konstrukce: entweder … oder … – buď … nebo …."
       ],
@@ -20385,8 +20385,8 @@ const A1_WORDS = [
         "Sehen znamená také „chápat“ ve výrazech jako Ich sehe, was du meinst."
       ],
       "important": [
-        "Tvary sehst ani sehet neexistují: správně je du siehst, er sieht.",
-        "Když chceme říct, že se na něco díváme (film, obraz), obvykle se používá sich (Dat) + ansehen, ne samotné sehen."
+        "Tvar „du sehst“ neexistuje: správně je du siehst, er sieht.",
+        "Když chceme říct, že se na něco díváme (film, obraz), často se používá sich (Dat) + ansehen; sehen vyjadřuje spíš to, že jsme něco viděli (den Film gesehen)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20930,7 +20930,7 @@ const A1_WORDS = [
       "translation": "Se • Sebe",
       "explanation": [
         "Hlavní myšlenka: sich je zvratné zájmeno pro 3. osobu a pro zdvořilostní oslovení Sie: ukazuje, že se děj vztahuje na samotného konatele. V akuzativu i dativu má stejný tvar: sich.",
-        "Pro ostatní osoby se používají jiné tvary: ich – mich, du – dich, wir – uns, ihr – euch. Například er wäscht sich (myje se), ale ich wasche mich.",
+        "Pro ostatní osoby se používají jiné tvary: ich – mich/mir, du – dich/dir, wir – uns, ihr – euch. Například er wäscht sich (myje se), ale ich wasche mich, ich kaufe mir.",
         "Mnoho německých sloves je zvratných (sich freuen, sich setzen, sich vorstellen) a v češtině jim často odpovídá sloveso se zvratným se nebo si: radovat se, posadit se."
       ],
       "examples": [
@@ -20977,8 +20977,8 @@ const A1_WORDS = [
         "Zvratná slovesa se uč spolu se sich: sich freuen, sich setzen."
       ],
       "important": [
-        "Sich nelze použít s ich, du, wir, ihr – tam je třeba mich, dich, uns, euch.",
-        "V množném čísle může Sie sehen sich znamenat „vidí sami sebe“ i „vidí se navzájem“; rozhoduje kontext."
+        "Sich nelze použít s ich, du, wir, ihr – tam je třeba mich/mir, dich/dir, uns, euch.",
+        "V množném čísle může sie sehen sich znamenat „vidí sami sebe“ i „vidí se navzájem“; rozhoduje kontext."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22926,7 +22926,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: unter je předložka s hlavním významem pod. Ptáme-li se Wo?, následuje dativ (Die Katze schläft unter dem Tisch), ptáme-li se Wohin? – akuzativ (Er legt den Schlüssel unter die Zeitung).",
         "V přeneseném významu může unter znamenat mezi (unter Freunden – mezi přáteli), méně než (unter 18 Jahren – pod 18 let) a také pod něčím vlivem nebo za určitých podmínek.",
-        "Protiklad je über (nad), blízko místa a povrchu je také auf (na)."
+        "Opakem je über (nad); pro polohu na povrchu se používá auf (na)."
       ],
       "examples": [
         {
@@ -22968,7 +22968,7 @@ const A1_WORDS = [
         "Fráze unter uns znamená „mezi námi“ a používá se, když něco říkáme důvěrně."
       ],
       "important": [
-        "Unter není totéž co zwischen: unter odkazuje na skupinu či množinu (unter Freunden), zwischen na dvě konkrétní věci.",
+        "Unter není totéž co zwischen: unter odkazuje na skupinu či množinu (unter Freunden), zwischen na prostor mezi jednotlivými věcmi (mezi dvěma i více).",
         "Unter + číslo znamená „méně než“: unter 18 je mladší než 18."
       ],
       "sectionAccents": {
@@ -23810,11 +23810,11 @@ const A1_WORDS = [
       ],
       "tip": [
         "V otázce na věc začínej vždy was; v otázce na osobu wer, wen, wem.",
-        "Po alles, etwas, nichts se používá was, ne das."
+        "Po alles a nichts se používá was, ne das; po etwas je obvyklejší was."
       ],
       "important": [
         "Was se nepoužívá pro osobu: „Was ist er?“ znamená „Čím je (povoláním)?“, ne „Kdo je?“.",
-        "Po alles, nichts, etwas použij was: alles, was ..., ne alles, das ..."
+        "Po alles a nichts použij was: alles, was ..., ne alles, das ... Po etwas je možné i das, ale was je častější."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27323,7 +27323,7 @@ const A1_WORDS = [
       "translation": "Čas (okamžik / časový úsek)",
       "explanation": [
         "Hlavní myšlenka: die Zeit je podstatné jméno ženského rodu, množné číslo die Zeiten. Znamená čas jako okamžik, úsek nebo možnost: Ich habe keine Zeit. Zeit haben je mít volno, Zeit brauchen – potřebovat čas.",
-        "Časté fráze: zur Zeit / zurzeit (právě teď), die Zeit vergeht (čas plyne), Es ist Zeit (je čas). V množném čísle die Zeiten znamená doby či období: in schweren Zeiten.",
+        "Časté fráze: zurzeit (právě teď; odděleně zur Zeit = v době: zur Zeit der Römer), die Zeit vergeht (čas plyne), Es ist Zeit (je čas). V množném čísle die Zeiten znamená doby či období: in schweren Zeiten.",
         "Počasí se řekne das Wetter, ne die Zeit."
       ],
       "examples": [
@@ -27677,7 +27677,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: noch mal je hovorový výraz, který znamená znovu – zopakovat děj. Je to totéž co noch einmal, ale méně formální. Lze psát i nochmal.",
         "Používá se při žádosti o zopakování (Sag das bitte noch mal) nebo když říkáme, že něco děláme opakovaně: Ich lese den Text noch mal.",
-        "Na rozdíl od wieder (zase, nový případ) noch mal opakuje přesně totéž."
+        "Zatímco wieder (zase) často říká, že se něco děje opět, noch mal zdůrazňuje zopakování téhož děje."
       ],
       "examples": [
         {

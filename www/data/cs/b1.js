@@ -1403,7 +1403,7 @@ const B1_WORDS = [
       "translation": "Odejít",
       "explanation": [
         "Hlavní myšlenka: abgehen je odlučitelné sloveso: geht ab, ging ab, ist abgegangen (pomocné sloveso sein). Znamená odejít nebo odjít z místa; o vlaku, lodi – odjet.",
-        "Další významy: von der Schule abgehen – odejít ze školy; ein Weg geht ab – cesta odbočuje; ein Knopf geht ab – knoflík se utrhne. Ve konstrukci jemandem geht etwas ab znamená, že někomu něco chybí.",
+        "Další významy: von der Schule abgehen – odejít ze školy; ein Weg geht ab – cesta odbočuje; ein Knopf geht ab – knoflík se utrhne. V konstrukci jemandem geht etwas ab znamená, že někomu něco chybí.",
         "Odlučitelná předpona: Der Zug geht ab. Ve vedlejší větě: ..., wenn der Zug abgeht."
       ],
       "examples": [
@@ -5842,14 +5842,14 @@ const B1_WORDS = [
   },
   {
     "de": "ausüben",
-    "lv": "Provést",
+    "lv": "Vykonávat",
     "level": "B1",
     "study": {
       "id": "b1-ausüben",
       "layout": "standardStudy",
-      "translation": "Provést",
+      "translation": "Vykonávat",
       "explanation": [
-        "Hlavní myšlenka: ausüben znamená provádět nebo vykonávat povolání, činnost či zájem, tedy uplatňovat je v praxi. Je to odlučitelné sloveso: er übt den Beruf aus. Perfektum: hat ausgeübt. V češtině ho vystihuje „provést“ i „vykonat“.",
+        "Hlavní myšlenka: ausüben znamená vykonávat povolání nebo provozovat činnost či zájem, tedy uplatňovat je v praxi. Je to odlučitelné sloveso: er übt den Beruf aus. Perfektum: hat ausgeübt. V češtině ho vystihuje „vykonávat“ nebo „provozovat“.",
         "Ausüben vyjadřuje také uplatňování vlivu nebo moci: Druck ausüben (vyvíjet tlak), Einfluss ausüben (mít vliv), ein Amt ausüben (zastávat úřad). Po slovesu následuje akuzativ.",
         "Slovo působí poněkud formálně a je typické pro psaný a úřední jazyk."
       ],
@@ -5899,8 +5899,8 @@ const B1_WORDS = [
             "aus"
           ],
           "purple": [
-            "provádět",
             "vykonávat",
+            "provozovat",
             "zastávat"
           ]
         },
@@ -6318,12 +6318,12 @@ const B1_WORDS = [
     "de": "Bau",
     "de_article": "der",
     "de_plural": "die Bauten",
-    "lv": "Budova",
+    "lv": "Stavba",
     "level": "B1",
     "study": {
       "id": "b1-bau",
       "layout": "standardStudy",
-      "translation": "Budova",
+      "translation": "Stavba",
       "explanation": [
         "Hlavní myšlenka: der Bau znamená stavbu, budovu, která se staví nebo již stojí, a také samotné stavění jako proces. Množné číslo je die Bauten (stavby); ve významu stavebního procesu se slovo používá v jednotném čísle.",
         "Typicky: auf dem Bau arbeiten (pracovat na stavbě), im Bau sein (být ve výstavbě), der Neubau (novostavba), der Bau eines Hauses (stavba domu).",
@@ -7740,7 +7740,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich habe den Fehler sofort bemerkt.",
-          "lv": "Chybu jsem si hned všiml."
+          "lv": "Chyby jsem si hned všiml."
         },
         {
           "de": "Hast du bemerkt, dass er nicht da war?",
@@ -7764,7 +7764,7 @@ const B1_WORDS = [
         {
           "word": "auffallen",
           "meaning": "padnout do oka",
-          "example": "Der Fehler fällt mir auf. – Ta chyba mi padne do oka."
+          "example": "Der Fehler fällt mir auf. – Ta chyba mi padá do oka."
         }
       ],
       "tip": [
@@ -8079,15 +8079,15 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Der Verkäufer berät uns beim Kauf.",
-          "lv": "Prodavač nás při nákupu poradí."
+          "lv": "Prodavač nám při nákupu poradí."
         },
         {
           "de": "Die Bank berät ihre Kunden kostenlos.",
-          "lv": "Banka své klienty bezplatně poradí."
+          "lv": "Banka svým klientům bezplatně radí."
         },
         {
           "de": "Lassen Sie sich vom Anwalt beraten.",
-          "lv": "Nechte se poradit advokátem."
+          "lv": "Nechte si poradit od advokáta."
         },
         {
           "de": "Die Eltern beraten sich über die Schule.",
@@ -8147,7 +8147,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "poradí"
+                "radí"
               ]
             }
           },
@@ -8457,12 +8457,12 @@ const B1_WORDS = [
   },
   {
     "de": "berichten",
-    "lv": "Nahlásit",
+    "lv": "Podat zprávu",
     "level": "B1",
     "study": {
       "id": "b1-berichten",
       "layout": "standardStudy",
-      "translation": "Nahlásit",
+      "translation": "Podat zprávu",
       "explanation": [
         "Hlavní myšlenka: berichten znamená podat zprávu, vyprávět o tom, co se stalo, tedy sdělovat informace nebo hlásit. Je to neodlučitelné sloveso; perfektum: hat berichtet. Typická konstrukce je über + akuzativ nebo von + dativ.",
         "Například die Zeitung berichtet über den Unfall (noviny informují o nehodě) nebo er berichtet von seiner Reise (vypráví o své cestě). Lze říci i jemandem etwas berichten.",
@@ -8638,12 +8638,12 @@ const B1_WORDS = [
   },
   {
     "de": "sich beruhigen",
-    "lv": "Uklidni se",
+    "lv": "Uklidnit se",
     "level": "B1",
     "study": {
       "id": "b1-sich-beruhigen",
       "layout": "standardStudy",
-      "translation": "Uklidni se",
+      "translation": "Uklidnit se",
       "explanation": [
         "Hlavní myšlenka: sich beruhigen znamená uklidnit se, tedy stát se klidným po rozrušení, hněvu nebo neklidu. Je to zvratné neodlučitelné sloveso; perfektum: hat sich beruhigt.",
         "Bez sich znamená beruhigen uklidnit někoho jiného: Sie beruhigt das Baby. Uklidnit se může také situace či doba: Die Lage hat sich beruhigt (situace se uklidnila).",
@@ -9011,7 +9011,7 @@ const B1_WORDS = [
         },
         {
           "de": "Sie beschließt, die Stelle zu wechseln.",
-          "lv": "Rozhodla se změnit zaměstnání."
+          "lv": "Rozhodne se změnit zaměstnání."
         },
         {
           "de": "Die Regierung hat ein neues Gesetz beschlossen.",
@@ -9086,7 +9086,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Rozhodla se"
+                "Rozhodne se"
               ]
             }
           },
@@ -9565,7 +9565,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Pro vyjádření skládá se z použijte bestehen aus + dativ.",
-        "Zkouška se skládá pomocí bestehen, nikoli machen."
+        "Složit (úspěšně udělat) zkoušku je bestehen; eine Prüfung machen znamená jen zkoušku dělat, ne nutně ji složit."
       ],
       "important": [
         "Bestehen aus + dativ a bestehen auf + dativ jsou různé předložky s různými významy.",
@@ -11837,15 +11837,15 @@ const B1_WORDS = [
     "de": "Brand",
     "de_article": "der",
     "de_plural": "die Brände",
-    "lv": "Oheň",
+    "lv": "Požár",
     "level": "B1",
     "study": {
       "id": "b1-brand",
       "layout": "standardStudy",
-      "translation": "Oheň",
+      "translation": "Požár",
       "explanation": [
         "Hlavní myšlenka: der Brand je požár, tedy nekontrolované hoření, které poškozuje budovu nebo les; česky i oheň v širším smyslu. Množné číslo je die Brände.",
-        "Typicky: ein Brand bricht aus (vypukne požár), einen Brand löschen (uhasit požár), in Brand geraten (vzplanout), in Brand setzen (zapálit). Der Brand je neutrálnější než das Feuer.",
+        "Typicky: ein Brand bricht aus (vypukne požár), einen Brand löschen (uhasit požár), in Brand geraten (vzplanout), in Brand setzen (zapálit). Der Brand je konkrétnější než das Feuer: označuje právě požár.",
         "Das Feuer může být i kontrolovaný oheň (v krbu, u táboráku), ale der Brand je obvykle neštěstí nebo škoda."
       ],
       "examples": [
@@ -12545,14 +12545,14 @@ const B1_WORDS = [
   },
   {
     "de": "dadurch",
-    "lv": "Tedy",
+    "lv": "Díky tomu • Tím",
     "level": "B1",
     "study": {
       "id": "b1-dadurch",
       "layout": "standardStudy",
-      "translation": "Tedy",
+      "translation": "Díky tomu • Tím",
       "explanation": [
-        "Hlavní myšlenka: dadurch je příslovce ve významu tím, tímto způsobem, díky tomu; označuje příčinu nebo prostředek. Obvykle spojuje předchozí větu s důsledkem: Er hat viel geübt. Dadurch wurde er besser. V češtině mu často odpovídá tedy.",
+        "Hlavní myšlenka: dadurch je příslovce ve významu tím, tímto způsobem, díky tomu; označuje příčinu nebo prostředek. Obvykle spojuje předchozí větu s důsledkem: Er hat viel geübt. Dadurch wurde er besser. V češtině mu často odpovídá tím nebo díky tomu.",
         "Slovosled: po dadurch je sloveso na druhém místě: Dadurch wird alles einfacher. Dále dadurch dass jako spojka (tím, že) uvádí vedlejší větu se slovesem na konci.",
         "V místním významu je dadurch také skrz to, a pak je přízvuk na první slabice: Die Tür war offen, wir sind dadurch gegangen."
       ],
@@ -12583,7 +12583,7 @@ const B1_WORDS = [
         {
           "word": "somit",
           "meaning": "tedy",
-          "example": "Somit ist alles klar. – Tedy je všechno jasné."
+          "example": "Somit ist alles klar. – Tím je tedy všechno jasné."
         }
       ],
       "tip": [
@@ -12601,7 +12601,7 @@ const B1_WORDS = [
             "Dadurch"
           ],
           "purple": [
-            "tedy",
+            "díky tomu",
             "tím",
             "skrz to"
           ]
@@ -14529,7 +14529,7 @@ const B1_WORDS = [
       "translation": "Třetí • Ve třech",
       "explanation": [
         "Hlavní myšlenka: dritt je řadová číslovka „třetí“. Jako přídavné jméno má obvykle koncovku: der dritte Tag, die dritte Tür, das dritte Mal. Bez koncovky se objevuje ve spojení zu dritt – ve třech.",
-        "Při psaní číslicí: 3. = dritt-. V datech der dritte Mai, am dritten Mai. Na rozdíl od číslovky drei (tři) dritt vždy vyjadřuje pořadí, ne množství."
+        "Při psaní číslicí: 3. = dritt-. V datech der dritte Mai, am dritten Mai. Na rozdíl od číslovky drei (tři) vyjadřuje dritt pořadí, ne množství; výjimkou je spojení zu dritt."
       ],
       "examples": [
         {
@@ -16080,14 +16080,14 @@ const B1_WORDS = [
   },
   {
     "de": "eindeutig",
-    "lv": "Nezaměnitelný",
+    "lv": "Jednoznačný",
     "level": "B1",
     "study": {
       "id": "b1-eindeutig",
       "layout": "standardStudy",
-      "translation": "Nezaměnitelný",
+      "translation": "Jednoznačný",
       "explanation": [
-        "Hlavní myšlenka: eindeutig znamená jednoznačný, nepochybný, zřetelný, bez pochyb (v tomto smyslu také „nezaměnitelný“). Popisuje odpověď, výsledek, důkaz nebo výrok, který nemá dvojí výklad.",
+        "Hlavní myšlenka: eindeutig znamená jednoznačný, nepochybný, zřetelný, bez pochyb. Popisuje odpověď, výsledek, důkaz nebo výrok, který nemá dvojí výklad.",
         "Slovo je přídavné jméno i příslovce: eine eindeutige Antwort (jednoznačná odpověď), Das war eindeutig ein Fehler (to byla určitě chyba). Protikladem je mehrdeutig nebo zweideutig – víceznačný, dvojsmyslný."
       ],
       "examples": [
@@ -16135,7 +16135,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Eindeutig není totéž co einfach (jednoduše): eine eindeutige Frage – otázka s jediným významem.",
-        "Ve vyšších stupních se eindeutig obvykle nepoužívá."
+        "Eindeutig se obvykle nestupňuje (eindeutiger, am eindeutigsten jsou vzácné)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16448,14 +16448,14 @@ const B1_WORDS = [
   },
   {
     "de": "einerlei",
-    "lv": "Stejně",
+    "lv": "Lhostejný",
     "level": "B1",
     "study": {
       "id": "b1-einerlei",
       "layout": "standardStudy",
-      "translation": "Stejně",
+      "translation": "Lhostejný",
       "explanation": [
-        "Hlavní myšlenka: einerlei znamená jedno, lhostejné – nic to nemění, nezáleží na tom (česky také „stejně“ ve smyslu „je to jedno“). Slovo je nesklonné přídavné jméno: Das ist mir einerlei. – Je mi to jedno.",
+        "Hlavní myšlenka: einerlei znamená jedno, lhostejné – nic to nemění, nezáleží na tom. Slovo je nesklonné přídavné jméno: Das ist mir einerlei. – Je mi to jedno.",
         "Časté konstrukce: Es ist mir einerlei, ob/was/wie … a einerlei, wo/was/wer … (bez ohledu na to, kde/co/kdo …). V hovorové řeči se častěji používá egal, ale einerlei zní trochu knižněji."
       ],
       "examples": [
@@ -16512,8 +16512,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "jedno",
-            "lhostejné",
-            "stejně"
+            "lhostejné"
           ]
         },
         "examples": [
@@ -16827,7 +16826,7 @@ const B1_WORDS = [
         {
           "word": "die Ausfahrt",
           "meaning": "výjezd",
-          "example": "Nehmen Sie die nächste Ausfahrt. – Vyjeďte příští výjezdem."
+          "example": "Nehmen Sie die nächste Ausfahrt. – Použijte nejbližší výjezd."
         },
         {
           "word": "der Eingang",
@@ -16842,7 +16841,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Der, die, das: die Einfahrt, die Einfahrten – pamatuj si i s množným číslem.",
-        "Na značkách často uvidíš: Einfahrt freihalten – nezastavujte vjezd."
+        "Na značkách často uvidíš: Einfahrt freihalten – nechte vjezd volný."
       ],
       "important": [
         "Einfahrt je pro vozidla, Eingang pro chodce.",
@@ -16967,7 +16966,7 @@ const B1_WORDS = [
       "translation": "Přijít na mysl",
       "explanation": [
         "Hlavní myšlenka: einfallen znamená přijít na mysl, napadnout – o myšlence, nápadu nebo slovu, které se náhle objeví. Osoba se vyjadřuje dativem: Mir fällt der Name nicht ein. – Nemůžu si vzpomenout na to jméno.",
-        "Tvary: fällt ein, fiel ein, ist eingefallen (pomocné sloveso sein). Časté výrazy: Was fällt dir ein? (Co tě napadá?!), sich etwas einfallen lassen (vymyslet něco). Méně často einfallen znamená také „vpadnout“ nebo „proniknout (o světle)“."
+        "Tvary: fällt ein, fiel ein, ist eingefallen (pomocné sloveso sein). Časté výrazy: Was fällt dir ein? (Co si to dovoluješ?!), sich etwas einfallen lassen (vymyslet něco). Méně často einfallen znamená také „vpadnout“ nebo „proniknout (o světle)“."
       ],
       "examples": [
         {
@@ -16980,7 +16979,7 @@ const B1_WORDS = [
         },
         {
           "de": "Was fällt dir ein?",
-          "lv": "Co tě napadá?"
+          "lv": "Co si to dovoluješ?"
         },
         {
           "de": "Lass dir etwas einfallen!",
@@ -17351,7 +17350,7 @@ const B1_WORDS = [
         "Zkus ho použít se slovesem: Einfluss nehmen, Einfluss ausüben."
       ],
       "important": [
-        "Einfluss vyžaduje předložku auf + akuzativ.",
+        "Ve významu „vliv na něco“ se Einfluss pojí s předložkou auf + akuzativ.",
         "Der Einfluss je rodu mužského; množné číslo má přehlásku: Einflüsse."
       ],
       "sectionAccents": {
@@ -18460,7 +18459,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "V obchodech: einheimische Produkte – místní produkty.",
-        "O člověku řekni der/die Einheimische, ne einheimisch."
+        "Místního obyvatele jako osobu označíš podstatným jménem der/die Einheimische."
       ],
       "important": [
         "Einheimisch neznamená „rodný“ ve spojení rodný jazyk (to je Muttersprache).",
@@ -18805,7 +18804,7 @@ const B1_WORDS = [
         },
         {
           "de": "Welche Längeneinheit benutzt man in England?",
-          "lv": "Jakou jednotku délky se používá v Anglii?"
+          "lv": "Jaká jednotka délky se používá v Anglii?"
         }
       ],
       "comparison": [
@@ -18892,7 +18891,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jednotku délky"
+                "jednotka délky"
               ]
             }
           }
@@ -19688,7 +19687,7 @@ const B1_WORDS = [
         "Zasadit se o něco: sich für etwas einsetzen."
       ],
       "important": [
-        "Bez zvratného zájmena einsetzen neznamená „zasadit se“, ale vložit.",
+        "Bez zvratného zájmena einsetzen neznamená „zasadit se“, ale používat, nasadit, vložit nebo jmenovat.",
         "Nezaměňuj s einstellen (nastavit, přijmout do práce)."
       ],
       "sectionAccents": {
@@ -21545,12 +21544,12 @@ const B1_WORDS = [
   },
   {
     "de": "entsprechen",
-    "lv": "Odpovídá",
+    "lv": "Odpovídat",
     "level": "B1",
     "study": {
       "id": "b1-entsprechen",
       "layout": "standardStudy",
-      "translation": "Odpovídá",
+      "translation": "Odpovídat",
       "explanation": [
         "Hlavní myšlenka: entsprechen znamená odpovídat – shodovat se s očekáváním, pravidly, popisem nebo fakty. Popisuje shodu mezi dvěma věcmi.",
         "Tvary: entspricht, entsprach, hat entsprochen. Sloveso vyžaduje dativ, ne akuzativ: Das Ergebnis entspricht den Erwartungen. Přídavné jméno entsprechend znamená „odpovídající, příslušný“: ein entsprechender Antrag."
@@ -21777,7 +21776,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Když něco vzniká bez zásahu člověka, řekni entstehen; když to člověk vytváří – herstellen nebo schaffen.",
+        "Entstehen popisuje, že něco vzniká (podmět sám nic nevytváří); když člověk něco aktivně vyrábí nebo tvoří, řekni herstellen nebo schaffen.",
         "Perfektum: es ist entstanden."
       ],
       "important": [
@@ -22401,7 +22400,7 @@ const B1_WORDS = [
         },
         {
           "word": "aufmachen",
-          "meaning": "odemknout",
+          "meaning": "otevřít (hovorově)",
           "example": "Mach bitte das Fenster auf. – Otevři prosím okno."
         },
         {
@@ -22514,7 +22513,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "odemknout"
+                "otevřít"
               ]
             }
           },
@@ -22568,12 +22567,12 @@ const B1_WORDS = [
   },
   {
     "de": "erscheinen",
-    "lv": "Se objeví",
+    "lv": "Objevit se",
     "level": "B1",
     "study": {
       "id": "b1-erscheinen",
       "layout": "standardStudy",
-      "translation": "Se objeví",
+      "translation": "Objevit se",
       "explanation": [
         "Hlavní myšlenka: erscheinen znamená objevit se (na jevišti, na obloze, na místě schůzky) a vyjít (kniha, časopis). S dativem znamená také „zdát se“: Das erscheint mir sinnvoll.",
         "Tvary: erscheint, erschien, ist erschienen (pomocné sloveso sein); předpona er- není odlučitelná. U soudu a na úřadech zu + dativ: zum Termin erscheinen – dostavit se na schůzku."
@@ -23276,7 +23275,7 @@ const B1_WORDS = [
         "Pro kapacitu: Der Saal fasst … Personen."
       ],
       "important": [
-        "Význam závisí na předmětu: Arm – uchopit, Gedanke – pochopit, Saal – pojmout.",
+        "Význam závisí na kontextu: am Arm fassen – uchopit, es nicht fassen können – pochopit, der Saal fasst – pojmout.",
         "Fassen ve významu „uchopit“ vyžaduje akuzativ: den Ball fassen."
       ],
       "sectionAccents": {
@@ -23438,7 +23437,7 @@ const B1_WORDS = [
         },
         {
           "de": "Das ist doch nur eine faule Ausrede.",
-          "lv": "To je přece jen líná výmluva."
+          "lv": "To je přece jen chabá výmluva."
         },
         {
           "de": "Sonntags bin ich gern faul.",
@@ -23454,7 +23453,7 @@ const B1_WORDS = [
         {
           "word": "träge",
           "meaning": "malátný",
-          "example": "Die Hitze macht mich träge. – Horko mě dělá malátným."
+          "example": "Die Hitze macht mich träge. – Z horka jsem malátný."
         },
         {
           "word": "faulenzen",
@@ -23530,7 +23529,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "líná"
+                "chabá"
               ]
             }
           },
@@ -23697,12 +23696,12 @@ const B1_WORDS = [
   },
   {
     "de": "festhalten",
-    "lv": "Držte se pevně",
+    "lv": "Pevně držet",
     "level": "B1",
     "study": {
       "id": "b1-festhalten",
       "layout": "standardStudy",
-      "translation": "Držte se pevně",
+      "translation": "Pevně držet",
       "explanation": [
         "Hlavní myšlenka: festhalten je odlučitelné sloveso, které znamená pevně držet něco nebo někoho, aby to nespadlo nebo se to nepohnulo. Tvary: hält fest, hielt fest, hat festgehalten.",
         "V přeneseném významu festhalten an + dativ znamená trvat na svém rozhodnutí nebo názoru (Wir halten an dem Plan fest). Zvratné sich festhalten znamená držet se něčeho, přidržovat se. Také: zachytit, zaznamenat (na fotografii, písemně)."
@@ -25389,7 +25388,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Futter se nepoužívá pro jídlo lidí — znělo by to hrubě nebo směšně.",
-        "Nezaměňuj s das Futtermittel (krmná směs) — to je odborný termín."
+        "Das Futtermittel znamená krmivo obecně (krmnou látku) — je to odborný termín."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25522,12 +25521,12 @@ const B1_WORDS = [
   },
   {
     "de": "ganztägig",
-    "lv": "Celý den • Celý den",
+    "lv": "Celodenní",
     "level": "B1",
     "study": {
       "id": "b1-ganztaegig",
       "layout": "standardStudy",
-      "translation": "Celý den • Celý den",
+      "translation": "Celodenní",
       "explanation": [
         "Hlavní myšlenka: ganztägig je přídavné jméno a příslovce, které popisuje něco, co probíhá nebo je dostupné celý den, od rána do večera. Říká, že činnost nebo služba zabere celý den.",
         "Příklady: ganztägig geöffnet (otevřeno celý den), eine ganztägige Betreuung (celodenní péče), ein ganztägiger Ausflug (celodenní výlet). Před podstatným jménem má koncovku: ganztägige, ganztägiger."
@@ -31040,14 +31039,14 @@ const B1_WORDS = [
     "de": "Hinweis",
     "de_article": "der",
     "de_plural": "die Hinweise",
-    "lv": "Návod",
+    "lv": "Upozornění",
     "level": "B1",
     "study": {
       "id": "b1-hinweis",
       "layout": "standardStudy",
-      "translation": "Návod",
+      "translation": "Upozornění",
       "explanation": [
-        "Hlavní myšlenka: der Hinweis je podstatné jméno mužského rodu, které znamená upozornění, pokyn či nápovědu — informaci, která upozorňuje na něco důležitého nebo pomáhá najít odpověď (i návod na obalu). Množné číslo: die Hinweise.",
+        "Hlavní myšlenka: der Hinweis je podstatné jméno mužského rodu, které znamená upozornění, pokyn či nápovědu — informaci, která upozorňuje na něco důležitého nebo pomáhá najít odpověď. Množné číslo: die Hinweise.",
         "Používá se na obalech nebo značkách (Sicherheitshinweis), při pátrání policie (Hinweise auf den Täter) a v rozhovoru (einen Hinweis geben). Následuje auf + akuzativ: Hinweis auf etwas."
       ],
       "examples": [
@@ -31090,7 +31089,7 @@ const B1_WORDS = [
         "Častá spojení: ein wichtiger Hinweis, Hinweise beachten."
       ],
       "important": [
-        "Der Hinweis není totéž co die Anweisung (přísný příkaz) — Hinweis je mírnější.",
+        "Der Hinweis není totéž co die Anweisung (příkaz, instrukce) — Hinweis je mírnější.",
         "V množném čísle má koncovku -e: die Hinweise."
       ],
       "sectionAccents": {
@@ -31105,8 +31104,7 @@ const B1_WORDS = [
           "purple": [
             "upozornění",
             "pokyn",
-            "nápovědu",
-            "návod"
+            "nápovědu"
           ]
         },
         "examples": [
@@ -32202,14 +32200,14 @@ const B1_WORDS = [
     "de": "Hupe",
     "de_article": "die",
     "de_plural": "die Hupen",
-    "lv": "Roh • Roh",
+    "lv": "Klakson",
     "level": "B1",
     "study": {
       "id": "b1-hupe",
       "layout": "standardStudy",
-      "translation": "Roh • Roh",
+      "translation": "Klakson",
       "explanation": [
-        "Hlavní myšlenka: die Hupe je podstatné jméno ženského rodu, které znamená klakson, houkačku — zařízení v autě, na motocyklu nebo na kole, které vydává hlasitý zvuk (doslova výstražný roh). Množné číslo: die Hupen. Sloveso: hupen (troubit).",
+        "Hlavní myšlenka: die Hupe je podstatné jméno ženského rodu, které znamená klakson, houkačku — zařízení v autě, na motocyklu nebo na kole, které vydává hlasitý zvuk. Množné číslo: die Hupen. Sloveso: hupen (troubit).",
         "Používá se s drücken auf + akuzativ nebo betätigen: auf die Hupe drücken (stisknout klakson). Tím se varují ostatní účastníci provozu nebo se dává signál."
       ],
       "examples": [
@@ -32261,8 +32259,7 @@ const B1_WORDS = [
           "purple": [
             "klakson",
             "houkačku",
-            "troubit",
-            "roh"
+            "troubit"
           ]
         },
         "examples": [
@@ -33140,7 +33137,7 @@ const B1_WORDS = [
         "Perfektum: hat sich geirrt (haben)."
       ],
       "important": [
-        "Zvratné sich irren znamená „mýlit se v úsudku“, nikoli „udělat chybu v úkolu“ (k tomu Fehler machen).",
+        "Zvratné sich irren znamená hlavně „mýlit se v úsudku, splést se“; pro „udělat chybu“ (např. v úkolu) se obvykle říká einen Fehler machen.",
         "Nezaměňuj s der Irrtum (omyl, mylná představa) — to je podstatné jméno."
       ],
       "sectionAccents": {
@@ -34049,7 +34046,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Složení • Jádro",
       "explanation": [
-        "Hlavní myšlenka: der Kader je podstatné jméno mužského rodu, které znamená základní sestavu, jádro týmu, organizace nebo firmy (česky též kádr). Množné číslo: die Kader. Ve sportu — soupiska hráčů, z níž trenér vybírá sestavu.",
+        "Hlavní myšlenka: der Kader je podstatné jméno mužského rodu, které označuje skupinu vybraných lidí, kteří tvoří jádro týmu, organizace nebo firmy (česky též kádr). Množné číslo: die Kader. Ve sportu — soupiska hráčů, z níž trenér vybírá sestavu.",
         "Ve firmách může Kader znamenat vedoucí pracovníky. Ve Švýcarsku se používá i das Kader (střední rod)."
       ],
       "examples": [
@@ -34088,7 +34085,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Der Kader je základní sestava; die Mannschaft jsou hráči, kteří hrají konkrétní zápas.",
+        "Der Kader jsou všichni hráči na soupisce; z nich trenér vybírá sestavu (die Mannschaft) pro konkrétní zápas.",
         "Častá spojení: der Kader der Nationalmannschaft."
       ],
       "important": [
@@ -34104,7 +34101,6 @@ const B1_WORDS = [
             "das Kader"
           ],
           "purple": [
-            "základní sestavu",
             "jádro",
             "soupiska"
           ]
@@ -35666,14 +35662,14 @@ const B1_WORDS = [
   },
   {
     "de": "knapp",
-    "lv": "Nuzný",
+    "lv": "Těsný • Nedostatečný",
     "level": "B1",
     "study": {
       "id": "b1-knapp",
       "layout": "standardStudy",
-      "translation": "Nuzný",
+      "translation": "Těsný • Nedostatečný",
       "explanation": [
-        "Hlavní myšlenka: knapp je přídavné jméno a příslovce. O čase, penězích nebo zásobách znamená, že jich je málo, že jsou nuzné: Die Zeit ist knapp.",
+        "Hlavní myšlenka: knapp je přídavné jméno a příslovce. O čase, penězích nebo zásobách znamená, že jich je málo, že je jich nedostatek: Die Zeit ist knapp.",
         "Jako příslovce knapp znamená stěží, těsně, s malým náskokem (knapp gewinnen) nebo necelý (knapp zwei Stunden). O oblečení znamená příliš těsný, příliš malý.",
         "Stupňování: knapp, knapper, am knappsten. Před podstatným jménem se skloňuje: ein knapper Sieg, knappe Kassen."
       ],
@@ -35734,7 +35730,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "málo",
-            "nuzné",
+            "nedostatek",
             "stěží",
             "necelý"
           ]
@@ -36014,7 +36010,7 @@ const B1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: das Kommando je krátký rozkaz, kterým někdo někoho vyzve k jednání (Auf mein Kommando!). Také je to velení nad jednotkou nebo vojskem: das Kommando übernehmen – převzít velení.",
         "Množné číslo je die Kommandos. Tak se může říkat i malé jednotce zřízené pro zvláštní úkol: ein Kommando der Polizei. Při výcviku psa je Kommando také krátký pokyn psovi.",
-        "Slovo je středního rodu (das). Zní stručněji a ráznější než der Befehl."
+        "Slovo je středního rodu (das). Zní stručněji a rázněji než der Befehl."
       ],
       "examples": [
         {
@@ -37267,7 +37263,7 @@ const B1_WORDS = [
         },
         {
           "de": "Die Verkäuferin berät den Kunden.",
-          "lv": "Prodavačka zákazníka radí."
+          "lv": "Prodavačka radí zákazníkovi."
         },
         {
           "de": "Unsere Kunden sind sehr zufrieden.",
@@ -37339,7 +37335,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "zákazníka"
+                "zákazníkovi"
               ]
             }
           },
@@ -37634,7 +37630,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich habe gestern meinen Job gekündigt.",
-          "lv": "Včera jsem vypověděl svou práci."
+          "lv": "Včera jsem dal v práci výpověď."
         },
         {
           "de": "Der Chef hat dem Mitarbeiter fristlos gekündigt.",
@@ -37672,11 +37668,11 @@ const B1_WORDS = [
       ],
       "tip": [
         "Odcházíte-li sami, řekněte ich habe gekündigt; je-li vám dána výpověď, řekněte mir wurde gekündigt nebo ich wurde entlassen.",
-        "Výpověď se píše jako die Kündigung."
+        "Výpověď se německy řekne die Kündigung."
       ],
       "important": [
         "Člověku, jemuž se dává výpověď, se používá dativ (jemandem kündigen), věci akuzativ (etwas kündigen).",
-        "Kündigen neznamená jen odejít: je to právní krok, který končí smlouvu."
+        "Kündigen neznamená jen odejít: je to právní krok, který ukončuje smlouvu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -37705,7 +37701,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vypověděl"
+                "dal v práci výpověď"
               ]
             }
           },
@@ -37864,12 +37860,12 @@ const B1_WORDS = [
   },
   {
     "de": "kuppeln",
-    "lv": "Připojit se",
+    "lv": "Spojit",
     "level": "B1",
     "study": {
       "id": "b1-kuppeln",
       "layout": "standardStudy",
-      "translation": "Připojit se",
+      "translation": "Spojit",
       "explanation": [
         "Hlavní myšlenka: kuppeln znamená technicky spojit, připojit, například vagony nebo přívěs. Při řízení auta znamená sešlápnout spojku (die Kupplung) při řazení. Tvary: kuppelt, kuppelte, hat gekuppelt.",
         "V technickém významu se často používá s předponou: ankuppeln (připojit), abkuppeln (odpojit), zusammenkuppeln (spojit dohromady). Slovo je odvozeno od die Kupplung (spojka, spojení).",
@@ -40653,12 +40649,12 @@ const B1_WORDS = [
     "de": "Leistung",
     "de_article": "die",
     "de_plural": "die Leistungen",
-    "lv": "Úspěch",
+    "lv": "Výkon",
     "level": "B1",
     "study": {
       "id": "b1-leistung",
       "layout": "standardStudy",
-      "translation": "Úspěch",
+      "translation": "Výkon",
       "explanation": [
         "Hlavní myšlenka: die Leistung je to, co člověk nebo zařízení vykonalo – úspěch, výkon, výsledek práce. Množné číslo je die Leistungen.",
         "Ve škole a v práci je Leistung také hodnocený výkon (die Leistung in der Prüfung). V technice je to výkon (die Motorleistung). V sociální a pojišťovací oblasti jsou Leistungen služby nebo dávky (Sozialleistungen, Kassenleistungen).",
@@ -40667,7 +40663,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Das war eine starke Leistung.",
-          "lv": "To byl silný úspěch."
+          "lv": "To byl skvělý výkon."
         },
         {
           "de": "Seine Leistung in der Prüfung war gut.",
@@ -40732,7 +40728,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "úspěch"
+                "výkon"
               ]
             }
           },
@@ -41240,13 +41236,13 @@ const B1_WORDS = [
       "translation": "Los",
       "explanation": [
         "Hlavní myšlenka: das Los je los, tedy papírek nebo žeton, který se tahá, aby se zjistila výhra nebo aby se rozhodlo, kdo co udělá. Množné číslo je die Lose, genitiv des Loses.",
-        "V přeneseném významu je das Los osud, údělem, který člověku určil osud: ein schweres Los. Fráze das große Los ziehen znamená vyhrát hlavní výhru nebo mít velké štěstí.",
+        "V přeneseném významu je das Los osud, úděl, který člověku určil osud: ein schweres Los. Fráze das große Los ziehen znamená vyhrát hlavní výhru nebo mít velké štěstí.",
         "Doslova se losem rozhoduje: das Los entscheidet, durch das Los. Nezaměňujte s přídavným jménem lose (volný) a zvoláním los! (jdi!, hurá!)."
       ],
       "examples": [
         {
           "de": "Jeder Teilnehmer zieht ein Los.",
-          "lv": "Každý účastník táhne los."
+          "lv": "Každý účastník si vytáhne los."
         },
         {
           "de": "Mit diesem Los hat sie hundert Euro gewonnen.",
@@ -42387,7 +42383,7 @@ const B1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: das Maß je míra, tedy veličina, kterou se něco měří, nebo přípustná hranice. Množné číslo die Maße znamená rozměry (Länge, Breite, Höhe). Genitiv je des Maßes.",
         "Časté fráze: Maß nehmen (brát míru), nach Maß (na míru), Maß halten (zachovat míru), über alle Maßen (nesmírně), in hohem Maße (ve velké míře).",
-        "V jižním Německu je die Maß (ženský rod) také litrový půllitr piva; je to jiné slovo se stejným pravopisem."
+        "V jižním Německu je die Maß (ženský rod) také litr piva (litrový korbel); je to jiné slovo se stejným pravopisem."
       ],
       "examples": [
         {
@@ -42430,7 +42426,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Slovo das Maß se píše s ß, protože samohláska je dlouhá.",
-        "Množné číslo je die Maße (rozměry); tvar Maßen je jen ve výrazu über alle Maßen."
+        "Množné číslo je die Maße (rozměry); Maßen je dativ množného čísla, známý z výrazu über alle Maßen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -43493,12 +43489,12 @@ const B1_WORDS = [
     "de": "Nachfrage",
     "de_article": "die",
     "de_plural": "die Nachfragen",
-    "lv": "Žádost",
+    "lv": "Poptávka",
     "level": "B1",
     "study": {
       "id": "b1-nachfrage",
       "layout": "standardStudy",
-      "translation": "Žádost",
+      "translation": "Poptávka",
       "explanation": [
         "Hlavní myšlenka: die Nachfrage je především poptávka v ekonomice, tedy kolik lidí chce koupit zboží nebo službu (Angebot und Nachfrage). Množné číslo die Nachfragen je řidší.",
         "Druhý význam je dotaz, zeptání, žádost o informaci: danke für Ihre Nachfrage; auf Nachfrage – na vyžádání, když se někdo zeptá.",
@@ -43998,14 +43994,14 @@ const B1_WORDS = [
   },
   {
     "de": "neigen",
-    "lv": "Snažit se",
+    "lv": "Mít sklon",
     "level": "B1",
     "study": {
       "id": "b1-neigen",
       "layout": "standardStudy",
-      "translation": "Snažit se",
+      "translation": "Mít sklon",
       "explanation": [
-        "Hlavní myšlenka: neigen se zu + dativ znamená mít sklon k něčemu, tíhnout k něčemu, snažit se o něco: Er neigt zu schnellen Entscheidungen. Tvary: neigt, neigte, hat geneigt.",
+        "Hlavní myšlenka: neigen s předložkou zu + dativ znamená mít sklon k něčemu, tíhnout k něčemu: Er neigt zu schnellen Entscheidungen. Tvary: neigt, neigte, hat geneigt.",
         "V doslovném významu etwas neigen je naklonit (den Kopf neigen). Zvratné sich neigen znamená naklánět se nebo blížit se ke konci: Der Tag neigt sich dem Ende zu.",
         "Ze stejného kořene je utvořeno podstatné jméno die Neigung (sklon, náklonnost, náklon)."
       ],
@@ -45011,14 +45007,14 @@ const B1_WORDS = [
   },
   {
     "de": "nüchtern",
-    "lv": "Ne opilý",
+    "lv": "Střízlivý",
     "level": "B1",
     "study": {
       "id": "b1-nüchtern",
       "layout": "standardStudy",
-      "translation": "Ne opilý",
+      "translation": "Střízlivý",
       "explanation": [
-        "Hlavní myšlenka: nüchtern je přídavné jméno s několika významy. O člověku znamená nepodnapilý, střízlivý: Der Fahrer muss nüchtern sein. V medicíně znamená nalačno, před jídlem: nüchtern zur Blutabnahme kommen. Ne opilý je tedy základní význam.",
+        "Hlavní myšlenka: nüchtern je přídavné jméno s několika významy. O člověku znamená nepodnapilý, střízlivý: Der Fahrer muss nüchtern sein. V medicíně znamená nalačno, před jídlem: nüchtern zur Blutabnahme kommen.",
         "V přeneseném významu je nüchtern střízlivý, věcný, bez emocí, realistický (eine nüchterne Analyse). O místnosti nebo stylu může znamenat prostý, bez přepychu.",
         "Stupňování: nüchtern, nüchterner, am nüchternsten."
       ],
@@ -46118,7 +46114,7 @@ const B1_WORDS = [
       "examples": [
         {
           "de": "Ich kann mich in der Stadt gut orientieren.",
-          "lv": "V městě se dobře orientuji."
+          "lv": "Ve městě se dobře orientuji."
         },
         {
           "de": "Wir orientieren uns an den aktuellen Preisen.",
@@ -47711,14 +47707,14 @@ const B1_WORDS = [
     "de": "Probe",
     "de_article": "die",
     "de_plural": "die Proben",
-    "lv": "Inspekce",
+    "lv": "Zkouška",
     "level": "B1",
     "study": {
       "id": "b1-probe",
       "layout": "standardStudy",
-      "translation": "Inspekce",
+      "translation": "Zkouška",
       "explanation": [
-        "Hlavní myšlenka: die Probe je podstatné jméno ženského rodu s několika blízkými významy: zkouška, test, vzorek a nácvik (v divadle, ve sboru, v orchestru). Ve smyslu kontroly jakosti nebo kontrolního odběru vzorku se význam blíží české inspekci, ale běžný německý výraz pro inspekci je die Inspektion nebo die Kontrolle.",
+        "Hlavní myšlenka: die Probe je podstatné jméno ženského rodu s několika blízkými významy: zkouška, test, vzorek a nácvik (v divadle, ve sboru, v orchestru).",
         "Množné číslo je die Proben. Časté spojení: die Probe bestehen (obstát ve zkoušce), auf Probe (na zkoušku, na zkušební dobu), zur Probe (na zkoušku), die Blutprobe (vzorek krve).",
         "Nácvik koncertu nebo představení se nazývá die Probe; školní či úřední zkouška je die Prüfung a malý písemný test der Test."
       ],
@@ -47771,8 +47767,7 @@ const B1_WORDS = [
           "purple": [
             "zkouška",
             "test",
-            "vzorek",
-            "inspekci"
+            "vzorek"
           ]
         },
         "examples": [
@@ -48537,12 +48532,12 @@ const B1_WORDS = [
     "de": "Rate",
     "de_article": "die",
     "de_plural": "die Raten",
-    "lv": "Příspěvek",
+    "lv": "Splátka",
     "level": "B1",
     "study": {
       "id": "b1-rate",
       "layout": "standardStudy",
-      "translation": "Příspěvek",
+      "translation": "Splátka",
       "explanation": [
         "Hlavní myšlenka: die Rate je podstatné jméno ženského rodu a označuje jednu část celkové částky, která se platí postupně, například u úvěru nebo při koupi na splátky. Česky je to splátka, případně pravidelný příspěvek.",
         "Množné číslo je die Raten. Časté: in Raten zahlen (platit ve splátkách), die monatliche Rate (měsíční splátka).",
@@ -49988,12 +49983,12 @@ const B1_WORDS = [
   },
   {
     "de": "richten",
-    "lv": "Řídit",
+    "lv": "Zaměřit",
     "level": "B1",
     "study": {
       "id": "b1-richten",
       "layout": "standardStudy",
-      "translation": "Řídit",
+      "translation": "Zaměřit",
       "explanation": [
         "Hlavní myšlenka: richten znamená zaměřit, namířit něco určitým směrem nebo adresovat někomu: den Blick richten (zaměřit pohled), eine Frage an jemanden richten (položit někomu otázku).",
         "Tvary: er richtet, richtete, hat gerichtet. Se sich: sich richten an + Akk (být určen někomu), sich richten nach + Dat (řídit se čím, přizpůsobit se).",
@@ -50292,16 +50287,16 @@ const B1_WORDS = [
   },
   {
     "de": "rollen",
-    "lv": "Válet se",
+    "lv": "Kutálet se",
     "level": "B1",
     "study": {
       "id": "b1-rollen",
       "layout": "standardStudy",
-      "translation": "Válet se",
+      "translation": "Kutálet se",
       "explanation": [
-        "Hlavní myšlenka: rollen znamená kutálet se, valit se: pohybovat se na kolečkách nebo jako kolo, kulatý předmět se pohybuje po povrchu. S předmětem znamená také kutálet, válet nebo svinout. České válet se je s tím blízce příbuzné.",
+        "Hlavní myšlenka: rollen znamená kutálet se, valit se: pohybovat se na kolečkách nebo jako kolo, kulatý předmět se pohybuje po povrchu. S předmětem znamená také kutálet, válet nebo svinout.",
         "Tvary: rollt, rollte, ist gerollt (když se něco kutálí) a hat gerollt (když něco někdo kutálí). Například: Der Ball ist gerollt; Sie hat den Teppich gerollt.",
-        "Časté spojení: rollen über (valit se přes), zusammenrollen (svinout), losrollen (rozjet se), mit den Augen rollen – protáčet oči (podrážděně)."
+        "Časté spojení: rollen über (valit se přes), zusammenrollen (svinout), losrollen (rozjet se), mit den Augen rollen – koulet očima (podrážděně)."
       ],
       "examples": [
         {
@@ -50318,7 +50313,7 @@ const B1_WORDS = [
         },
         {
           "de": "Der Wagen rollt langsam los.",
-          "lv": "Vagon se pomalu rozjíždí."
+          "lv": "Vůz se pomalu rozjíždí."
         },
         {
           "de": "Die Tränen rollten ihr über die Wangen.",
@@ -50356,7 +50351,6 @@ const B1_WORDS = [
           "purple": [
             "kutálet se",
             "valit se",
-            "válet se",
             "svinout"
           ]
         },
@@ -51308,14 +51302,14 @@ const B1_WORDS = [
     "de": "Saat",
     "de_article": "die",
     "de_plural": "die Saaten",
-    "lv": "Semínko",
+    "lv": "Osivo",
     "level": "B1",
     "study": {
       "id": "b1-saat",
       "layout": "standardStudy",
-      "translation": "Semínko",
+      "translation": "Osivo",
       "explanation": [
-        "Hlavní myšlenka: die Saat je podstatné jméno ženského rodu a označuje semeno či osivo, které se vysévá na pole, i samotný osev, tedy mladé výhonky. V přeneseném smyslu je to počátek něčeho, co později přinese plody nebo následky. Česky odpovídá semínku, osivu.",
+        "Hlavní myšlenka: die Saat je podstatné jméno ženského rodu a označuje semeno či osivo, které se vysévá na pole, i samotný osev, tedy mladé výhonky. V přeneseném smyslu je to počátek něčeho, co později přinese plody nebo následky. Česky odpovídá osivu, setbě.",
         "Množné číslo je die Saaten, ale obvykle se používá jednotné číslo. Časté: die Saat ausbringen (vysévat osivo), die Saat geht auf (osev začíná klíčit), die Saat steht gut (osevy na polích jsou v dobrém stavu).",
         "Pro jedno jednotlivé semínko nebo semena obecně se často říká der Samen; die Saat je spíše zemědělský výraz."
       ],
@@ -51365,8 +51359,7 @@ const B1_WORDS = [
           "purple": [
             "semeno",
             "osivo",
-            "osev",
-            "semínku"
+            "osev"
           ]
         },
         "examples": [
@@ -52213,12 +52206,12 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Ve významu bílý kůň se der Schimmel obvykle uvádí s barvou: ein weißer Schimmel.",
+        "Ve významu bílý kůň je der Schimmel bílý už sám o sobě; spojení ein weißer Schimmel je známý pleonasmus (zbytečné zdvojení).",
         "U chleba a sýra řekni: Das Brot schimmelt nebo ist verschimmelt."
       ],
       "important": [
         "Der Schimmel jako plíseň i jako bílý kůň je totéž slovo se dvěma významy.",
-        "Nezaměňuj der Schimmel (plíseň) s der Pilz: Pilz je obvykle houba, kterou se sbírá v lese nebo jí."
+        "Nezaměňuj der Schimmel (plíseň) s der Pilz: Pilz je obvykle houba, kterou sbíráme v lese nebo jíme."
       ],
       "sectionAccents": {
         "explanation": {
@@ -53095,7 +53088,7 @@ const B1_WORDS = [
       "layout": "standardStudy",
       "translation": "Namazat",
       "explanation": [
-        "Hlavní myšlenka: schmieren znamená mazat, natírat nebo namazat: nanést na povrch hustou látku (máslo, olej, krém). V hovorové řeči znamená také čmárat nebo čmrdat a někdy podplácet.",
+        "Hlavní myšlenka: schmieren znamená mazat, natírat nebo namazat: nanést na povrch hustou látku (máslo, olej, krém). V hovorové řeči znamená také čmárat a někdy podplácet.",
         "Tvary: er schmiert, schmierte, hat geschmiert. Sloveso je přechodné: ein Brot schmieren (namazat chleba), die Kette schmieren (promazat řetěz). Se sich: sich etwas auf die Haut schmieren.",
         "Hovorově jemanden schmieren znamená někoho podplatit; das läuft wie geschmiert – jde to jako po másle."
       ],
@@ -55092,7 +55085,7 @@ const B1_WORDS = [
       "explanation": [
         "Hlavní myšlenka: senken znamená snížit nebo spustit dolů: způsobit, že cena, teplota, hladina nebo nějaký předmět je níže. Se sich: sich senken – klesat, snižovat se.",
         "Tvary: er senkt, senkte, hat gesenkt. Sloveso je přechodné a pojí se s akuzativem (koho? co?): die Preise senken, den Kopf senken, die Stimme senken.",
-        "Na rozdíl od sinken (klesat, tonout), které je nepravidelné a bez předmětu, senken ukazuje, že to někdo dělá záměrně."
+        "Na rozdíl od sinken (klesat, tonout), které je nepravidelné a bez předmětu, senken má předmět: někdo nebo něco (např. lék) způsobuje, že něco klesá."
       ],
       "examples": [
         {
@@ -55397,16 +55390,16 @@ const B1_WORDS = [
     "de": "Sinn",
     "de_article": "der",
     "de_plural": "die Sinne",
-    "lv": "Význam",
+    "lv": "Smysl",
     "level": "B1",
     "study": {
       "id": "b1-sinn",
       "layout": "standardStudy",
-      "translation": "Význam",
+      "translation": "Smysl",
       "explanation": [
         "Hlavní myšlenka: der Sinn je podstatné jméno mužského rodu a označuje smysl, účel nebo význam (der Sinn des Lebens – smysl života). Znamená také cit nebo schopnost něco vnímat (Sinn für Humor) a smysly (die fünf Sinne).",
         "Množné číslo je die Sinne. Časté: Das hat keinen Sinn (to nemá smysl), Es hat keinen Sinn, zu + Infinitiv (nemá smysl něco dělat), im Sinne von (ve smyslu).",
-        "Pro význam slova (jaký má slovo význam) se obvykle používá die Bedeutung, ale der Sinn zní, když jde o smysl nebo obsah."
+        "Pro význam slova (jaký má slovo význam) se obvykle používá die Bedeutung, ale der Sinn se používá, když jde o smysl nebo obsah."
       ],
       "examples": [
         {
@@ -57842,14 +57835,14 @@ const B1_WORDS = [
     "de": "Stellung",
     "de_article": "die",
     "de_plural": "die Stellungen",
-    "lv": "Stav",
+    "lv": "Poloha • Postavení",
     "level": "B1",
     "study": {
       "id": "b1-stellung",
       "layout": "standardStudy",
-      "translation": "Stav",
+      "translation": "Poloha • Postavení",
       "explanation": [
-        "Hlavní myšlenka: die Stellung je podstatné jméno ženského rodu a označuje polohu nebo stav, v jakém se něco nachází: tělesnou polohu (in einer bequemen Stellung), vojenskou pozici nebo něčí postavení v hierarchii (eine wichtige Stellung). Ve starším jazyce znamená také zaměstnání nebo místo.",
+        "Hlavní myšlenka: die Stellung je podstatné jméno ženského rodu a označuje polohu nebo pozici, v jaké se něco nachází: tělesnou polohu (in einer bequemen Stellung), vojenskou pozici nebo něčí postavení v hierarchii (eine wichtige Stellung). Ve starším jazyce znamená také zaměstnání nebo místo.",
         "Množné číslo je die Stellungen. Časté: Stellung nehmen zu (zaujmout stanovisko k), eine Stellung haben (zastávat místo), die Stellung halten (udržet pozici).",
         "Slovo souvisí se stellen (postavit, umístit), a proto vypovídá o tom, jak je něco umístěno nebo kde se někdo nachází v hierarchii."
       ],
@@ -57905,7 +57898,6 @@ const B1_WORDS = [
           ],
           "purple": [
             "polohu",
-            "stav",
             "pozici",
             "postavení",
             "stanovisko"
@@ -61122,12 +61114,12 @@ const B1_WORDS = [
     "de": "Titel",
     "de_article": "der",
     "de_plural": "die Titel",
-    "lv": "Jméno",
+    "lv": "Název",
     "level": "B1",
     "study": {
       "id": "b1-titel",
       "layout": "standardStudy",
-      "translation": "Jméno",
+      "translation": "Název",
       "explanation": [
         "Hlavní myšlenka: der Titel je podstatné jméno mužského rodu s významy: 1) název, tedy jméno knihy, filmu nebo písně, 2) titul (Doktortitel, Professor), 3) sportovní titul mistra. Množné číslo: die Titel.",
         "Časté spojení: der Titel eines Buches, den Titel tragen (nést titul), den Titel gewinnen/verteidigen (získat/obhájit titul). Pro název knihy se používá der Titel, pro nadpis článku v novinách die Überschrift."
@@ -61771,12 +61763,12 @@ const B1_WORDS = [
     "de": "Treffen",
     "de_article": "das",
     "de_plural": "die Treffen",
-    "lv": "Zasedání",
+    "lv": "Setkání",
     "level": "B1",
     "study": {
       "id": "b1-treffen-study",
       "layout": "standardStudy",
-      "translation": "Zasedání",
+      "translation": "Setkání",
       "explanation": [
         "Hlavní myšlenka: das Treffen je podstatné jméno středního rodu a znamená setkání či schůzku – když se lidé sejdou v určitý čas na určitém místě; může jít i o zasedání. Množné číslo: die Treffen (tvar se nemění).",
         "Slovo je odvozeno od slovesa treffen (potkat). Typická spojení: ein Treffen vereinbaren (domluvit setkání), das Treffen findet statt (setkání se koná), das Treffen absagen (zrušit). Používá se i pro sraz nebo soutěž: ein Familientreffen, das Klassentreffen."
@@ -61970,7 +61962,7 @@ const B1_WORDS = [
       "translation": "Provozovat",
       "explanation": [
         "Hlavní myšlenka: treiben znamená v jednom z nejčastějších významů provozovat něco, věnovat se něčemu (Sport treiben, Handel treiben, Unsinn treiben). Tvary: treibt, trieb, hat getrieben. Následuje akuzativ.",
-        "Základní význam je hnát, ohánět: Der Hirte treibt die Kühe auf die Weide. Když se něco nechá unášet proudem, je treiben nepřechodné a používá se sein: Das Boot ist ans Ufer getrieben. Otázka Was treibst du? znamená Čím se zabýváš?"
+        "Základní význam je hnát, pohánět: Der Hirte treibt die Kühe auf die Weide. Když se něco nechá unášet proudem, je treiben nepřechodné a používá se sein: Das Boot ist ans Ufer getrieben. Otázka Was treibst du? znamená Čím se zabýváš?"
       ],
       "examples": [
         {
@@ -63122,12 +63114,12 @@ const B1_WORDS = [
   },
   {
     "de": "übersehen",
-    "lv": "Nevšímat si",
+    "lv": "Přehlédnout",
     "level": "B1",
     "study": {
       "id": "b1-übersehen",
       "layout": "standardStudy",
-      "translation": "Nevšímat si",
+      "translation": "Přehlédnout",
       "explanation": [
         "Hlavní myšlenka: übersehen znamená přehlédnout, nevšimnout si – omylem nezaznamenat něco, co je přímo před očima. Tvary: übersieht, übersah, hat übersehen. Předpona über- je neodlučitelná. Po slovese následuje akuzativ.",
         "Druhý význam je odhadnout, domyslet do důsledků: Wir können die Folgen noch nicht übersehen. Když si někdo něčeho nevšimne omylem, je to übersehen; když si něčeho nevšímá záměrně, říká se ignorieren nebo wegsehen."
@@ -63176,7 +63168,7 @@ const B1_WORDS = [
         "Opakem je bemerken (všimnout si)."
       ],
       "important": [
-        "Übersehen je neúmyslné, ignorieren je záměrné.",
+        "Übersehen je obvykle neúmyslné, ignorieren je záměrné.",
         "V perfektu není ge-: hat übersehen."
       ],
       "sectionAccents": {
@@ -65458,14 +65450,14 @@ const B1_WORDS = [
   },
   {
     "de": "verfolgen",
-    "lv": "Následovat",
+    "lv": "Pronásledovat • Sledovat",
     "level": "B1",
     "study": {
       "id": "b1-verfolgen",
       "layout": "standardStudy",
-      "translation": "Následovat",
+      "translation": "Pronásledovat • Sledovat",
       "explanation": [
-        "Hlavní myšlenka: verfolgen znamená následovat někoho či něco, pronásledovat, ale také sledovat dění a sledovat cíle. Tvary: verfolgt, verfolgte, hat verfolgt. Po slovese následuje akuzativ: Die Polizei verfolgt den Dieb.",
+        "Hlavní myšlenka: verfolgen znamená pronásledovat někoho či něco, ale také sledovat dění a sledovat cíle. Tvary: verfolgt, verfolgte, hat verfolgt. Po slovese následuje akuzativ: Die Polizei verfolgt den Dieb.",
         "V přeneseném významu: die Nachrichten verfolgen (sledovat zprávy), ein Ziel verfolgen (sledovat cíl), politisch verfolgt werden (být politicky pronásledován). Sloveso folgen s dativem znamená prostě jít za někým: Ich folge dir."
       ],
       "examples": [
@@ -65522,7 +65514,6 @@ const B1_WORDS = [
             "verfolgt"
           ],
           "purple": [
-            "následovat",
             "pronásledovat",
             "sledovat"
           ]
@@ -65719,7 +65710,7 @@ const B1_WORDS = [
         },
         {
           "de": "Er wächst in einfachen Verhältnissen auf.",
-          "lv": "Vyrůstá v jednoduchých poměrech."
+          "lv": "Vyrůstá ve skromných poměrech."
         }
       ],
       "comparison": [
@@ -67636,12 +67627,12 @@ const B1_WORDS = [
     "de": "Vorstellung",
     "de_article": "die",
     "de_plural": "die Vorstellungen",
-    "lv": "Show",
+    "lv": "Představení",
     "level": "B1",
     "study": {
       "id": "b1-vorstellung",
       "layout": "standardStudy",
-      "translation": "Show",
+      "translation": "Představení",
       "explanation": [
         "Hlavní myšlenka: die Vorstellung je podstatné jméno ženského rodu, které nejčastěji znamená představení nebo show v divadle, kině či cirkuse. Množné číslo: die Vorstellungen.",
         "Další významy: seznámení, představování osob (die Vorstellung der neuen Kollegin) a představa nebo fantazie (Ich habe keine Vorstellung davon). Slovo je odvozeno od slovesa vorstellen (představit, představit si)."
@@ -68796,12 +68787,12 @@ const B1_WORDS = [
     "de": "Wechsel",
     "de_article": "der",
     "de_plural": "die Wechsel",
-    "lv": "Posun",
+    "lv": "Změna",
     "level": "B1",
     "study": {
       "id": "b1-wechsel",
       "layout": "standardStudy",
-      "translation": "Posun",
+      "translation": "Změna",
       "explanation": [
         "Hlavní myšlenka: der Wechsel je podstatné jméno mužského rodu, které znamená změnu, přechod od jedné věci k druhé, střídání nebo posun. Množné číslo: die Wechsel.",
         "Častá spojení: der Jobwechsel, der Spielerwechsel, der Wechsel der Jahreszeiten (střídání ročních období), im Wechsel (střídavě). Der Wechsel je také směnka (finanční dokument) a směna peněz (der Wechselkurs – směnný kurz, das Wechselgeld – drobné, vrácené peníze). Sloveso je wechseln."
@@ -69545,8 +69536,8 @@ const B1_WORDS = [
           "example": "Dreh das Foto um. – Obrať fotografii."
         },
         {
-          "word": "sich richten an",
-          "meaning": "obrátit se na",
+          "word": "etwas richten an",
+          "meaning": "adresovat něco někomu",
           "example": "Richten Sie Ihre Frage an den Chef. – Adresujte svou otázku šéfovi."
         }
       ],
@@ -69665,12 +69656,12 @@ const B1_WORDS = [
           {
             "word": {
               "green": [
-                "sich richten an"
+                "etwas richten an"
               ]
             },
             "meaning": {
               "purple": [
-                "obrátit se na"
+                "adresovat"
               ]
             }
           }
@@ -69888,15 +69879,15 @@ const B1_WORDS = [
     "de": "Werk",
     "de_article": "das",
     "de_plural": "die Werke",
-    "lv": "Práce",
+    "lv": "Dílo",
     "level": "B1",
     "study": {
       "id": "b1-werk",
       "layout": "standardStudy",
-      "translation": "Práce",
+      "translation": "Dílo",
       "explanation": [
         "Hlavní myšlenka: das Werk je podstatné jméno středního rodu. Může to být dílo (umělecké, literární nebo vědecké), továrna či podnik, ale také mechanismus (Uhrwerk). Množné číslo: die Werke.",
-        "Ve významu dílo jde obvykle o významný výsledek tvorby, tedy práce: ein Werk von Goethe, das Gesamtwerk (souborné dílo). Továrna se často nazývá Autowerk, Stahlwerk; městské služby zajišťují die Stadtwerke. Pro běžnou práci se používá die Arbeit."
+        "Ve významu dílo jde obvykle o významný výsledek tvorby: ein Werk von Goethe, das Gesamtwerk (souborné dílo). Továrna se často nazývá Autowerk, Stahlwerk; městské služby zajišťují die Stadtwerke. Pro běžnou práci se používá die Arbeit."
       ],
       "examples": [
         {
@@ -69953,8 +69944,7 @@ const B1_WORDS = [
           ],
           "purple": [
             "dílo",
-            "továrna",
-            "práce"
+            "továrna"
           ]
         },
         "examples": [
@@ -70875,12 +70865,12 @@ const B1_WORDS = [
     "de": "Zusammenhang",
     "de_article": "der",
     "de_plural": "die Zusammenhänge",
-    "lv": "Vztah",
+    "lv": "Souvislost",
     "level": "B1",
     "study": {
       "id": "b1-zusammenhang",
       "layout": "standardStudy",
-      "translation": "Vztah",
+      "translation": "Souvislost",
       "explanation": [
         "Hlavní myšlenka: der Zusammenhang je podstatné jméno rodu mužského. Označuje vztah nebo souvislost mezi jevy, událostmi či myšlenkami, a také kontext, v němž něco stojí.",
         "Množné číslo je die Zusammenhänge. Typická vyjádření: ein Zusammenhang besteht zwischen … (existuje souvislost mezi …), im Zusammenhang mit + dativ (v souvislosti s), in diesem Zusammenhang (v této souvislosti), aus dem Zusammenhang gerissen (vytržený z kontextu).",
@@ -71780,12 +71770,12 @@ const B1_WORDS = [
   },
   {
     "de": "weil",
-    "lv": "Protože • Protože",
+    "lv": "Protože",
     "level": "B1",
     "study": {
       "id": "b1-weil",
       "layout": "standardStudy",
-      "translation": "Protože • Protože",
+      "translation": "Protože",
       "explanation": [
         "Hlavní myšlenka: weil je podřadicí spojka, která uvozuje větu příčinnou a odpovídá na otázku warum? (proč?). Odpovídá českému protože.",
         "Slovosled: ve vedlejší větě s weil stojí časované sloveso na konci: Ich bleibe zu Hause, weil ich krank bin. Mezi větami se vždy píše čárka.",
@@ -72651,7 +72641,7 @@ const B1_WORDS = [
         "Není-li tam sloveso, stačí jednoduchá předložka: ohne Mantel (bez kabátu)."
       ],
       "important": [
-        "Ohne … zu už obsahuje logické zápor; nepřidávej další nicht: Er ging, ohne zu grüßen, nikoli ohne nicht zu grüßen.",
+        "Ohne … zu už obsahuje logický zápor; nepřidávej další nicht: Er ging, ohne zu grüßen, nikoli ohne nicht zu grüßen.",
         "Předložka ohne vyžaduje akuzativ, kdežto ohne … zu se pojí s infinitivem a pád neovlivňuje."
       ],
       "sectionAccents": {
@@ -72780,14 +72770,14 @@ const B1_WORDS = [
   },
   {
     "de": "sich befinden",
-    "lv": "Být lokalizován",
+    "lv": "Nacházet se",
     "level": "B1",
     "study": {
       "id": "b1-sich-befinden-study",
       "layout": "standardStudy",
-      "translation": "Být lokalizován",
+      "translation": "Nacházet se",
       "explanation": [
-        "Hlavní myšlenka: sich befinden je zvratné sloveso, které znamená nacházet se na nějakém místě nebo v nějakém stavu, tedy být umístěn či lokalizován. Je formálnější než sein a časté v textech, na cedulích a v úředním jazyce.",
+        "Hlavní myšlenka: sich befinden je zvratné sloveso, které znamená nacházet se na nějakém místě nebo v nějakém stavu, tedy být umístěn. Je formálnější než sein a časté v textech, na cedulích a v úředním jazyce.",
         "Tvary: er befindet sich, befand sich, hat sich befunden. Zvratné zájmeno je v akuzativu (ich befinde mich, wir befinden uns). Sloveso je neodlučitelné a používá se s určením místa: im Zentrum, im ersten Stock.",
         "Lze ho použít i v přeneseném významu: sich in einer Lage befinden (nacházet se v situaci). V běžné řeči často stačí ist, u předmětů lze použít také liegen a stehen."
       ],
@@ -72835,7 +72825,7 @@ const B1_WORDS = [
         "Vždy přidej zvratné zájmeno: er befindet sich, wir befinden uns."
       ],
       "important": [
-        "Sich befinden se nepoužívá ve významu najít (finden) ani cítit se; jen udává místo nebo stav.",
+        "Sich befinden nemá význam najít (finden); ve významu cítit se (Wie befinden Sie sich?) se používá jen zřídka a velmi formálně. Obvykle udává místo nebo stav.",
         "Pomocné sloveso v perfektu je haben (hat sich befunden), ve vyprávění se ale častěji používá préteritum: befand sich."
       ],
       "sectionAccents": {
@@ -73043,12 +73033,12 @@ const B1_WORDS = [
     "de": "Erbe",
     "de_article": "der",
     "de_plural": "die Erben",
-    "lv": "Dědicem",
+    "lv": "Dědic",
     "level": "B1",
     "study": {
       "id": "b1-erbe",
       "layout": "standardStudy",
-      "translation": "Dědicem",
+      "translation": "Dědic",
       "explanation": [
         "Hlavní myšlenka: der Erbe je podstatné jméno rodu mužského. Označuje dědice, tedy osobu, která dědí majetek nebo peníze. Žena je die Erbin.",
         "Slovo se skloňuje podle n-deklinace (slabého skloňování): der Erbe, den Erben, dem Erben, des Erben. Množné číslo je die Erben (také s koncovým n).",

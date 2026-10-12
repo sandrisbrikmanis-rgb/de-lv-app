@@ -1544,12 +1544,12 @@ const A1_WORDS = [
   },
   {
     "de": "auf",
-    "lv": "To",
+    "lv": "On",
     "level": "A1",
     "study": {
       "id": "a1-auf",
       "layout": "standardStudy",
-      "translation": "To",
+      "translation": "On",
       "explanation": [
         "Main idea: auf means 'on' the upper surface of something: auf dem Tisch (on the table), auf der Straße (in the street), auf dem Land (in the country). With motion towards certain places it corresponds to 'to': aufs Land fahren (to go to the country). It also expresses a language: auf Deutsch (in German).",
         "It is a two-way preposition: Wo? (where?) → dative (auf dem Tisch), Wohin? (where to?) → accusative (auf den Tisch). In the verb phrase warten auf + accusative it means 'to wait for someone or something'.",
@@ -1595,7 +1595,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "To wait is warten auf in German, and it is followed by the accusative.",
+        "To wait for is warten auf in German, and it is followed by the accusative.",
         "Write the name of a language after auf with a capital letter: auf Deutsch."
       ],
       "important": [
@@ -1964,12 +1964,12 @@ const A1_WORDS = [
   },
   {
     "de": "aufs",
-    "lv": "To • On • Where?",
+    "lv": "On • Onto • To",
     "level": "A1",
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "To • On • Where?",
+      "translation": "On • Onto • To",
       "explanation": [
         "Main idea: aufs is short for auf das and means 'on' or 'onto' (also 'to') before a neuter noun in answer to Wohin? (where to?): aufs Dach (onto the roof), aufs Bett (onto the bed), aufs Land (to the country).",
         "Aufs is an accusative form: auf + das Bett → aufs Bett. There is no dative form aufs for Wo? (where?); there you say auf dem Bett.",
@@ -6069,7 +6069,7 @@ const A1_WORDS = [
         "Refer to a neuter noun with es: das Auto → es."
       ],
       "important": [
-        "In an impersonal sentence es cannot be left out: you cannot say 'Regnet heute'.",
+        "With weather verbs and es gibt, es cannot be left out: you cannot say 'Regnet heute' (correct: Heute regnet es).",
         "For people es is used only with neuter words such as das Kind; otherwise it is er or sie."
       ],
       "sectionAccents": {
@@ -8597,7 +8597,7 @@ const A1_WORDS = [
       "explanation": [
         "Main idea: die Geschwister is a plural noun meaning brothers and sisters, that is, all the children in one family: Hast du Geschwister? There is practically no singular form.",
         "A single brother or sister is der Bruder or die Schwester. The article is die Geschwister, and the verb is plural: Meine Geschwister wohnen in Hamburg. Dative: mit meinen Geschwistern.",
-        "The word does not show gender: Ich habe zwei Geschwister can mean brothers, sisters or one of each. English has no exact equivalent; 'siblings' is the closest word."
+        "The word does not show gender: Ich habe zwei Geschwister can mean brothers, sisters or one of each. The English equivalent is 'siblings'."
       ],
       "examples": [
         {
@@ -9100,7 +9100,7 @@ const A1_WORDS = [
         "The comparative takes an umlaut: groß → größer."
       ],
       "important": [
-        "Groß is not used for a tall building: a tall building is ein hohes Haus.",
+        "For the height of a building hoch is more usual: a tall building is ein hohes Haus, while ein großes Haus is a big house.",
         "In Switzerland ß is not used and the word is written gross; elsewhere it is groß."
       ],
       "sectionAccents": {
@@ -9263,7 +9263,7 @@ const A1_WORDS = [
         },
         {
           "de": "Die Großeltern meiner Mutter leben in Riga.",
-          "lv": "My maternal grandparents live in Riga."
+          "lv": "My mother's grandparents live in Riga."
         }
       ],
       "comparison": [
@@ -9653,12 +9653,12 @@ const A1_WORDS = [
   },
   {
     "de": "haben",
-    "lv": "I have",
+    "lv": "To have",
     "level": "A1",
     "study": {
       "id": "a1-haben",
       "layout": "standardStudy",
-      "translation": "I have",
+      "translation": "To have",
       "explanation": [
         "Main idea: haben means 'to have, to possess': Ich habe einen Bruder (I have a brother), Wir haben Zeit. It takes the accusative.",
         "Forms: ich habe, du hast, er hat, wir haben, ihr habt, sie haben; hatte, hat gehabt. Haben is also an auxiliary verb in the perfect: Ich habe das Buch gelesen.",
@@ -11148,7 +11148,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Ihr (you, nominative) is written with a small letter in the middle of a sentence; the formal Ihr/Ihnen is always capitalised.",
-        "Don't use ihr for one person — one person is du, several people are ihr."
+        "Don't use ihr (you) to address one person — one person is du, several people are ihr. (The dative ihr = her and possessive ihr do refer to one woman.)"
       ],
       "sectionAccents": {
         "explanation": {
@@ -11652,12 +11652,12 @@ const A1_WORDS = [
   },
   {
     "de": "ins",
-    "lv": "In • Into • Where?",
+    "lv": "In • Into",
     "level": "A1",
     "study": {
       "id": "a1-ins",
       "layout": "standardStudy",
-      "translation": "In • Into • Where?",
+      "translation": "In • Into",
       "explanation": [
         "Main idea: ins is a contraction of in das — the preposition in plus the accusative article das. It answers “where to?” (wohin?): Ich gehe ins Kino — I am going to the cinema.",
         "It is used only with neuter nouns (das Kino, das Haus, das Bett). Masculine nouns take in den (in den Garten), feminine ones in die (in die Schule).",
@@ -13613,9 +13613,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Long",
       "explanation": [
-        "Main idea: lang means “long” (of size, time or an object) — Der Tisch ist lang — and “long” of time: Der Film war sehr lang. With units of time: zwei Stunden lang — for two hours.",
+        "Main idea: lang means “long” in space — Der Tisch ist lang — and in time: Der Film war sehr lang. With units of time: zwei Stunden lang — for two hours.",
         "Comparative: länger (longer), superlative: am längsten. The adverb lange means “for a long time”: Ich warte schon lange. With endings before nouns: eine lange Reise, lange Haare.",
-        "The question Wie lange dauert es? (How long does it take?) uses lange, not lang."
+        "The question Wie lange dauert es? (How long does it take?) normally uses lange; lang here is colloquial."
       ],
       "examples": [
         {
@@ -13661,7 +13661,7 @@ const A1_WORDS = [
         "For a person, say groß (tall), not lang."
       ],
       "important": [
-        "Don't mix up lang and lange: Ich warte lange (not “lang”).",
+        "Don't mix up lang and lange: in standard German, Ich warte lange (colloquially also “lang”).",
         "After a noun of time, lang stays without an ending: zwei Stunden lang."
       ],
       "sectionAccents": {
@@ -18162,7 +18162,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Nur = a limit; erst = “only now, only so far” about time: Es ist erst acht — it is only eight o'clock so far.",
+        "Nur = a limit; erst = “only now, only so far” about time: Es ist erst acht — it is only eight o'clock (it is still early).",
         "Put nur before the word it limits, since its position changes the meaning of the sentence."
       ],
       "important": [
@@ -19019,7 +19019,7 @@ const A1_WORDS = [
         "Mal adds friendliness: Probier mal! (Go on, try it!)."
       ],
       "important": [
-        "Probieren does not mean “to try to, to attempt”; that is versuchen.",
+        "For “to try to do something”, the usual verb is versuchen; probieren + zu-infinitive is only colloquial.",
         "The perfect has no ge-: hat probiert, not “hat geprobiert”."
       ],
       "sectionAccents": {
@@ -20931,15 +20931,15 @@ const A1_WORDS = [
   },
   {
     "de": "sich",
-    "lv": "Yourself • For yourself",
+    "lv": "Oneself • For oneself",
     "level": "A1",
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "Yourself • For yourself",
+      "translation": "Oneself • For oneself",
       "explanation": [
         "Main idea: sich is the reflexive pronoun for the third person and for the polite form Sie: it shows that the action refers back to the person doing it (himself, herself, itself, themselves, yourself). The accusative and dative forms are the same: sich.",
-        "Other persons use other forms: ich – mich, du – dich, wir – uns, ihr – euch. For example, er wäscht sich (he washes himself), but ich wasche mich.",
+        "Other persons use other forms: ich – mich (dative mir), du – dich (dative dir), wir – uns, ihr – euch. For example, er wäscht sich (he washes himself), but ich wasche mich.",
         "Many German verbs are reflexive (sich freuen, sich setzen, sich vorstellen), while their English equivalents often have no reflexive pronoun: to be pleased, to sit down, to introduce oneself."
       ],
       "examples": [
@@ -20986,7 +20986,7 @@ const A1_WORDS = [
         "Learn reflexive verbs together with sich: sich freuen, sich setzen."
       ],
       "important": [
-        "Sich cannot be used with ich, du, wir, ihr: those need mich, dich, uns, euch.",
+        "Sich cannot be used with ich, du, wir, ihr: those need mich/mir, dich/dir, uns, euch.",
         "In the plural, Sie sehen sich can mean either “they see themselves” or “they see each other”; context decides."
       ],
       "sectionAccents": {
@@ -22549,12 +22549,12 @@ const A1_WORDS = [
   },
   {
     "de": "über",
-    "lv": "Over • For",
+    "lv": "Over • About",
     "level": "A1",
     "study": {
       "id": "a1-über",
       "layout": "standardStudy",
-      "translation": "Over • For",
+      "translation": "Over • About",
       "explanation": [
         "Main idea: über is a preposition meaning over, above, across and (of a topic) about. In its local sense it takes the dative when you ask Wo? (Die Lampe hängt über dem Tisch) and the accusative when you ask Wohin? (Wir gehen über die Brücke).",
         "When it refers to a topic, über always takes the accusative: sprechen über, denken über, sich freuen über. With a number, über means “more than”: über eine Stunde.",
@@ -22979,7 +22979,7 @@ const A1_WORDS = [
         "The phrase unter uns means “between ourselves” and is used when saying something in confidence."
       ],
       "important": [
-        "Unter is not the same as zwischen: unter refers to a group or set (unter Freunden), zwischen to two specific things.",
+        "Unter is not the same as zwischen: unter refers to being among a group or set (unter Freunden), zwischen to a position between people or things.",
         "Unter + number means “less than”: unter 18 means younger than 18."
       ],
       "sectionAccents": {
@@ -23565,7 +23565,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wir essen vor dem Kino.",
-          "lv": "We are eating before the cinema."
+          "lv": "We are eating before the film."
         },
         {
           "de": "Vor einer Woche war ich in Berlin.",
@@ -23822,11 +23822,11 @@ const A1_WORDS = [
       ],
       "tip": [
         "In a question about a thing always start with was; in a question about a person, with wer, wen or wem.",
-        "After alles, etwas and nichts use was, not das."
+        "After alles and nichts use was, not das; after etwas, was is preferred."
       ],
       "important": [
         "Was cannot be used for a person: “Was ist er?” means “What does he do for a living?”, not “Who is he?”.",
-        "After alles, nichts and etwas use was: alles, was ..., not alles, das ..."
+        "After alles and nichts (and usually after etwas) use was: alles, was ..., not alles, das ..."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27335,7 +27335,7 @@ const A1_WORDS = [
       "translation": "Time (moment / period of time)",
       "explanation": [
         "Main idea: die Zeit is a feminine noun; the plural is die Zeiten. It means time as a moment, a period or an opportunity: Ich habe keine Zeit. Zeit haben means to be free, Zeit brauchen to need time.",
-        "Common phrases: zur Zeit / zurzeit (at the moment), die Zeit vergeht (time passes), Es ist Zeit (it is time). In the plural, die Zeiten means eras or periods: in schweren Zeiten.",
+        "Common phrases: zurzeit (at the moment; zur Zeit as two words means “at the time of”: zur Zeit Goethes), die Zeit vergeht (time passes), Es ist Zeit (it is time). In the plural, die Zeiten means eras or periods: in schweren Zeiten.",
         "The weather is called das Wetter, not die Zeit."
       ],
       "examples": [
@@ -27688,7 +27688,7 @@ const A1_WORDS = [
       "explanation": [
         "Main idea: noch mal is a widely used spoken expression meaning again: repeating an action. It is the same as noch einmal, but less formal. It can also be written nochmal.",
         "It is used to ask someone to repeat something (Sag das bitte noch mal) or to say that you are doing something once more: Ich lese den Text noch mal.",
-        "Unlike wieder (again, a new occurrence), noch mal repeats exactly the same thing."
+        "Compared with wieder (again, a new occurrence), noch mal stresses doing the same thing one more time."
       ],
       "examples": [
         {
@@ -27730,7 +27730,7 @@ const A1_WORDS = [
         "In writing, say noch einmal, which is more formal."
       ],
       "important": [
-        "Noch mal is not the same as wieder: wieder says that something is happening again, noch mal that it is being repeated.",
+        "Noch mal and wieder overlap, but wieder usually says that something is happening again, while noch mal stresses that it is being repeated once more.",
         "Noch mal is the colloquial variant; in an official text noch einmal is better."
       ],
       "sectionAccents": {

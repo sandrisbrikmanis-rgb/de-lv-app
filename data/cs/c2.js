@@ -193,7 +193,7 @@ const C2_WORDS = [
         },
         {
           "de": "Das Pfund ist eine alte Gewichtseinheit.",
-          "lv": "Pfund je stará jednotka hmotnosti."
+          "lv": "Libra je stará jednotka hmotnosti."
         },
         {
           "de": "Welche Gewichtseinheit wird in Deutschland verwendet?",
@@ -222,7 +222,7 @@ const C2_WORDS = [
         "Podobně se tvoří: Längeneinheit, Zeiteinheit, Volumeneinheit."
       ],
       "important": [
-        "V běžné řeči slovo Gewicht často označuje hmotnost, ale ve fyzice je tíha a hmotnost rozdílný pojem."
+        "V běžné řeči slovo Gewicht často označuje hmotnost, ale ve fyzice jsou tíha a hmotnost rozdílné pojmy."
       ],
       "sectionAccents": {
         "explanation": {
