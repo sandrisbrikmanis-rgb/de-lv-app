@@ -69227,10 +69227,8 @@ const B1_WORDS = [
     "level": "B1"
   },
   {
-    "de": "Weise",
-    "de_article": "die",
-    "de_plural": "die Weisen",
-    "lv": "Způsob",
+    "de": "weise",
+    "lv": "Moudrý",
     "level": "B1"
   },
   {
