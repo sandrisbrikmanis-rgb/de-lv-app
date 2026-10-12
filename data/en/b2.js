@@ -1399,7 +1399,7 @@ const B2_WORDS = [
         },
         {
           "de": "Das ist nur eine Äußerlichkeit.",
-          "lv": "That is only an outward appearance."
+          "lv": "That is merely a superficial detail."
         },
         {
           "de": "Sie achtet zu sehr auf Äußerlichkeiten.",
@@ -1466,7 +1466,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "outward appearance"
+                "superficial detail"
               ]
             }
           },
@@ -2269,12 +2269,12 @@ const B2_WORDS = [
   },
   {
     "de": "bebauen",
-    "lv": "Cultivate • Build on",
+    "lv": "To cultivate • To build on",
     "level": "B2",
     "study": {
       "id": "b2-bebauen",
       "layout": "standardStudy",
-      "translation": "Cultivate • Build on",
+      "translation": "To cultivate • To build on",
       "explanation": [
         "Main idea: bebauen is a verb with two meanings: to build on a plot of land, and to cultivate land, a field, for farming. It is inseparable and takes the accusative.",
         "Forms: bebaut, bebaute, hat bebaut. The participle bebaut is often used as an adjective: dicht bebaut (densely built-up), unbebaut (undeveloped). For buildings one says mit Häusern bebauen.",
@@ -2283,7 +2283,7 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Das Grundstück wird mit Wohnhäusern bebaut.",
-          "lv": "The plot is being built on with houses."
+          "lv": "Houses are being built on the plot."
         },
         {
           "de": "Die Bauern bebauen das Feld mit Weizen.",
@@ -2307,7 +2307,7 @@ const B2_WORDS = [
         {
           "word": "anbauen",
           "meaning": "to grow; to add on",
-          "example": "Hier baut man Wein an. – Wine is grown here."
+          "example": "Hier baut man Wein an. – Vines are grown here."
         },
         {
           "word": "bearbeiten",
@@ -6193,12 +6193,12 @@ const B2_WORDS = [
     "de": "Dunst",
     "de_article": "der",
     "de_plural": "die Dünste",
-    "lv": "Steam • Fumes • Fog • Haze",
+    "lv": "Haze • Fumes",
     "level": "B2",
     "study": {
       "id": "b2-dunst",
       "layout": "standardStudy",
-      "translation": "Steam • Fumes • Fog • Haze",
+      "translation": "Haze • Fumes",
       "explanation": [
         "Main idea: der Dunst is a masculine noun meaning vapour, hazy air or fumes: a light haze that makes the air cloudy, or smells and exhalations.",
         "The plural is die Dünste (with an umlaut), and it is rarely used, mainly for fumes: giftige Dünste. In the singular, der Dunst often refers to haze over a city, a lake or a valley.",
@@ -6240,7 +6240,7 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Use Dunst when the air is misty or steamy or there are fumes with a smell; for thick fog, say Nebel.",
+        "Use Dunst when the air is hazy or there are fumes with a smell; for thick fog, say Nebel, and for hot steam, Dampf.",
         "The expression keinen blassen Dunst haben is colloquial; use it in informal speech."
       ],
       "important": [
@@ -11467,8 +11467,8 @@ const B2_WORDS = [
         },
         {
           "word": "fristgerecht",
-          "meaning": "within the time limit",
-          "example": "Er kündigte fristgerecht. – He gave notice within the notice period."
+          "meaning": "with proper notice",
+          "example": "Er kündigte fristgerecht. – He gave the proper notice."
         },
         {
           "word": "kündigen",
@@ -11477,7 +11477,7 @@ const B2_WORDS = [
         }
       ],
       "tip": [
-        "Remember the contrast: fristlose Kündigung (termination without notice) versus fristgerechte Kündigung (termination within the notice period).",
+        "Remember the contrast: fristlose Kündigung (termination without notice) versus fristgerechte Kündigung (termination with proper notice).",
         "Words ending in -los follow the same model: arbeitslos, sorglos, fristlos."
       ],
       "important": [
@@ -11568,7 +11568,7 @@ const B2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "within the time limit"
+                "with proper notice"
               ]
             }
           },
@@ -19965,14 +19965,14 @@ const B2_WORDS = [
   },
   {
     "de": "sich scheren",
-    "lv": "Take care of",
+    "lv": "To care about",
     "level": "B2",
     "study": {
       "id": "b2-sich-scheren",
       "layout": "standardStudy",
-      "translation": "Take care of",
+      "translation": "To care about",
       "explanation": [
-        "Main idea: sich scheren um in this sense is a colloquial expression meaning to care about, to take care of something, but almost only in the negative or in a question: Er schert sich nicht um die Regeln — he doesn't care about the rules.",
+        "Main idea: sich scheren um in this sense is a colloquial expression meaning to care about, to bother about something, but almost only in the negative or in a question: Er schert sich nicht um die Regeln — he doesn't care about the rules.",
         "Forms: schert sich, scherte sich, hat sich geschert. Um + accusative names what is cared about. Rhetorical question: Was schert mich das? — what is that to me?",
         "The rude imperative Scher dich weg! means get lost! Without the reflexive pronoun sich, the verb scheren means to shear, to clip (Schafe scheren)."
       ],
@@ -20030,7 +20030,6 @@ const B2_WORDS = [
           ],
           "purple": [
             "care about",
-            "take care of",
             "get lost",
             "shear"
           ]
@@ -23430,12 +23429,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich versehen",
-    "lv": "Make a mistake • Provide with",
+    "lv": "To make a mistake",
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
       "layout": "standardStudy",
-      "translation": "Make a mistake • Provide with",
+      "translation": "To make a mistake",
       "explanation": [
         "Main idea: sich versehen means to make a mistake, to misread or misjudge — to get something wrong through carelessness (for example, in a date or a number). Forms: versieht sich, versah sich, hat sich versehen.",
         "Common expressions: Wenn ich mich nicht versehe, … (if I am not mistaken, …) and ehe man sich versieht (before you know it). Without sich, versehen means to provide, to supply (mit etwas versehen)."
@@ -23481,7 +23480,7 @@ const B2_WORDS = [
       ],
       "important": [
         "sich versehen does not mean damage to the eyes, but misreading or a mistake.",
-        "Do not confuse sich versehen (to make a mistake) with versehen mit (to provide with): the latter has no sich."
+        "Do not confuse sich versehen (to make a mistake) with etwas mit etwas versehen (to provide something with something)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23803,12 +23802,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich verstellen",
-    "lv": "Impersonate",
+    "lv": "To pretend",
     "level": "B2",
     "study": {
       "id": "b2-sich-verstellen",
       "layout": "standardStudy",
-      "translation": "Impersonate",
+      "translation": "To pretend",
       "explanation": [
         "Main idea: sich verstellen means to pretend, or to change your behaviour so that others cannot see your real character or feelings. The person is then not being natural.",
         "The verb is reflexive: ich verstelle mich, er verstellt sich; simple past verstellte sich, perfect hat sich verstellt. Without sich, verstellen also means to move or block (den Weg verstellen – to block the way; den Sitz verstellen – to adjust the seat) and to disguise your voice (die Stimme verstellen).",
@@ -26137,7 +26136,7 @@ const B2_WORDS = [
         "In reply to an offer you can say: Danke, gern. or Nein, danke."
       ],
       "important": [
-        "Anbieten means offering something to a specific person; a Angebot can also be an item on special offer in a shop."
+        "Anbieten means offering something to a specific person; an Angebot can also be an item on special offer in a shop."
       ],
       "sectionAccents": {
         "explanation": {

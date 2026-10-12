@@ -8,9 +8,9 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Občas",
       "explanation": [
-        "Hlavní myšlenka: ab und zu je ustálené příslovečné spojení, které znamená občas, tu a tam – ne často, ale ani nikdy. Nemění se a neskloňuje se.",
+        "Hlavní myšlenka: ab und zu je ustálené příslovečné spojení, které znamená občas, tu a tam – ne často, ale ne nikdy. Nemění se a neskloňuje se.",
         "Obvykle stojí uprostřed nebo na začátku věty: Ich rufe ab und zu meine Oma an; Ab und zu gehen wir ins Kino. Na začátku věty následuje hned sloveso (Ab und zu gehen wir ...).",
-        "Na stupnici četnosti stojí ab und zu mezi manchmal (někdy) a selten (zřídka)."
+        "Na stupnici četnosti stojí ab und zu přibližně mezi manchmal (někdy) a selten (zřídka); hranice mezi nimi nejsou ostré."
       ],
       "examples": [
         {
@@ -796,7 +796,7 @@ const A2_WORDS = [
         "Přinést si něco znamená sich etwas holen."
       ],
       "important": [
-        "Holen není totéž co kaufen: holen neznamená kupovat.",
+        "Holen není totéž co kaufen: holen zdůrazňuje, že pro věc dojdeš; zda ji kupuješ, vyplývá z kontextu (Brot beim Bäcker holen).",
         "Holen je pravidelné sloveso: holt, holte, hat geholt."
       ],
       "sectionAccents": {
@@ -2325,7 +2325,7 @@ const A2_WORDS = [
       "translation": "Přívěs",
       "explanation": [
         "Hlavní myšlenka: der Anhänger je podstatné jméno rodu mužského se třemi hlavními významy: přívěs (za automobilem), přívrženec nebo stoupenec (sportovního klubu, strany, myšlenky) a přívěsek (šperk na řetízku).",
-        "Množné číslo je die Anhänger (beze změny). Žena přívrženkyně je die Anhängerin. Význam se obvykle pozná z kontextu: u auta jde o přívěs, u klubu nebo strany o přívrženec, u náhrdelníku o přívěsek.",
+        "Množné číslo je die Anhänger (beze změny). Žena přívrženkyně je die Anhängerin. Význam se obvykle pozná z kontextu: u auta jde o přívěs, u klubu nebo strany o přívržence, u náhrdelníku o přívěsek.",
         "Slovo Anhänger je odvozeno od anhängen (připevnit, připojit), takže ve všech významech jde o něco, co je k něčemu připevněno nebo připojeno."
       ],
       "examples": [
@@ -2369,7 +2369,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Anhänger není totéž co Anhang (doprovod, příbuzní nebo příloha); der Anhang je jiné slovo.",
-        "Přívěs za osobním autem se běžně nazývá Autoanhänger nebo Pkw-Anhänger."
+        "Přívěs za osobním autem se obvykle nazývá prostě Anhänger, přesněji také Pkw-Anhänger."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2509,7 +2509,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Musik heizt die Stimmung an.",
-          "lv": "Hudba rozproudila náladu."
+          "lv": "Hudba rozproudí náladu."
         }
       ],
       "comparison": [
@@ -2594,7 +2594,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "rozproudila"
+                "rozproudí"
               ]
             }
           }
@@ -2864,12 +2864,12 @@ const A2_WORDS = [
   },
   {
     "de": "anmelden",
-    "lv": "Přihlásit se",
+    "lv": "Přihlásit",
     "level": "A2",
     "study": {
       "id": "a2-anmelden",
       "layout": "standardStudy",
-      "translation": "Přihlásit se",
+      "translation": "Přihlásit",
       "explanation": [
         "Hlavní myšlenka: anmelden znamená přihlásit nebo ohlásit někoho či něco (dítě do školy, návštěvu, bydliště, auto). Je to odlučitelné sloveso a následuje akuzativ.",
         "Tvary: meldet an, meldete an, hat angemeldet. Častější je zvratný tvar sich anmelden: přihlásit se nebo zaregistrovat se (na kurz, na webu, u lékaře).",
@@ -3251,7 +3251,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Nepleťte si anstellen s einstellen: einstellen také znamená zaměstnat, ale znamená i nastavit.",
-        "Pomocí anstellen se zapínají jen jednoduché věci (rádio, voda, kohoutek); bezpečnější je einschalten."
+        "Anstellen se u přístrojů používá hlavně hovorově (rádio, voda, topení); v obecném a formálním jazyce je bezpečnější einschalten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3882,8 +3882,8 @@ const A2_WORDS = [
           "lv": "Novinář píše článek o ochraně klimatu."
         },
         {
-          "de": "Im Deutschen gibt es drei Artikel: der, die, das.",
-          "lv": "V němčině existují tři členy: der, die, das."
+          "de": "Im Deutschen gibt es drei bestimmte Artikel: der, die, das.",
+          "lv": "V němčině existují tři určité členy: der, die, das."
         },
         {
           "de": "Dieser Artikel ist leider ausverkauft.",
@@ -6630,7 +6630,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Zkontrolujte perfektum: když se něco svléká, hat ausgezogen; když se někdo stěhuje, ist ausgezogen.",
-        "U oděvu je vždy třeba předmět (die Jacke), u stěhování bývá aus + dativ."
+        "Ve významu svléknout něco je předmět (die Jacke), zvratné sich ausziehen ho nepotřebuje; u stěhování bývá aus + dativ."
       ],
       "important": [
         "V perfektu nezaměňujte haben a sein: hat die Jacke ausgezogen, ale ist aus der Wohnung ausgezogen.",
@@ -7289,7 +7289,7 @@ const A2_WORDS = [
           "example": "Der Geldautomat ist außer Betrieb. – Bankomat je mimo provoz."
         },
         {
-          "word": "die Bank (sols)",
+          "word": "die Bank (Pl. Bänke)",
           "meaning": "lavička",
           "example": "Wir sitzen auf der Bank. – Sedíme na lavičce."
         }
@@ -7300,7 +7300,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (instituce) a die Bank (lavička) se píšou stejně, ale množná čísla se liší.",
-        "S příjmením nebo názvem se banky obvykle píší bez členu: Deutsche Bank."
+        "Názvy bank se obvykle používají se členem: die Deutsche Bank, bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7392,7 +7392,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die Bank (sols)"
+                "die Bank (Pl. Bänke)"
               ]
             },
             "meaning": {
@@ -9977,7 +9977,7 @@ const A2_WORDS = [
       "translation": "Podlaha",
       "explanation": [
         "Hlavní myšlenka: der Boden je podstatné jméno rodu mužského ve významu podlaha (v místnosti) a země či půda (kde něco roste). Množné číslo je die Böden (s přehláskou).",
-        "Další významy: dno (der Boden der Flasche – dno láhve) a půda neboli podkroví (regionálně, na jihu). Spojení auf dem Boden může znamenat na podlaze nebo na zemi.",
+        "Další významy: dno (der Boden der Flasche – dno láhve) a půda neboli podkroví (regionálně, hlavně na severu a východě Německa). Spojení auf dem Boden může znamenat na podlaze nebo na zemi.",
         "Složeniny: der Fußboden (podlaha), der Dachboden (půda, podkroví), der Waldboden (lesní půda), die Bodenheizung (podlahové topení)."
       ],
       "examples": [
@@ -17479,7 +17479,7 @@ const A2_WORDS = [
       ],
       "important": [
         "V perfektu se používá sein: ist gefolgt.",
-        "Folgen je také podstatné jméno die Folge (následek, následky)."
+        "Od folgen je odvozeno podstatné jméno die Folge (následek), množné číslo die Folgen (následky)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19181,7 +19181,7 @@ const A2_WORDS = [
       "translation": "Obchod",
       "explanation": [
         "Hlavní myšlenka: das Geschäft je podstatné jméno středního rodu, množné číslo die Geschäfte. Znamená obchod, prodejnu (Das Geschäft öffnet um neun Uhr) a obchod ve smyslu transakce (gute Geschäfte machen).",
-        "Der Laden je blízký synonymum obchodu. Geschäftlich znamená pracovně, služebně: Er ist geschäftlich unterwegs."
+        "Der Laden je blízké synonymum obchodu. Geschäftlich znamená pracovně, služebně: Er ist geschäftlich unterwegs."
       ],
       "examples": [
         {
@@ -19552,12 +19552,12 @@ const A2_WORDS = [
   },
   {
     "de": "gießen",
-    "lv": "Zalévat • Lit",
+    "lv": "Zalévat • Lít",
     "level": "A2",
     "study": {
       "id": "a2-gießen",
       "layout": "standardStudy",
-      "translation": "Zalévat • Lit",
+      "translation": "Zalévat • Lít",
       "explanation": [
         "Hlavní myšlenka: gießen je silné sloveso: gießt, goss, hat gegossen. Znamená zalévat (rostliny: Blumen gießen) a lít (tekutinu: Wasser ins Glas gießen).",
         "V neosobní větě es gießt znamená, že leje jako z konve: Es gießt in Strömen. Pro přelévání tekutiny se často používá schütten; nápoj se nalévá – einschenken."
@@ -20244,7 +20244,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: hängen jsou dvě různá slovesa. Nepřechodné hängen znamená viset (něco je zavěšené, třeba obraz na zdi), přechodné hängen znamená věšet, pověsit (někdo něco věší).",
         "Nepřechodné: hängen, hing, hat gehangen (na jihu často ist gehangen). Otázka Wo? a dativ: Das Bild hängt an der Wand. Přechodné je pravidelné: hängen, hängte, hat gehängt. Otázka Wohin? a akuzativ: Ich hänge das Bild an die Wand.",
-        "Podobně jako u dvojice liegen / legen se stav a děj nerozlišují infinitivem, ale tvary a pádem."
+        "Na rozdíl od dvojice liegen / legen se zde stav a děj nerozlišují infinitivem, ale tvary a pádem."
       ],
       "examples": [
         {
@@ -22311,7 +22311,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich habe kaum Zeit.",
-          "lv": "Mám sotva čas."
+          "lv": "Nemám skoro žádný čas."
         },
         {
           "de": "Man kann ihn kaum verstehen.",
@@ -22376,7 +22376,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "sotva"
+                "skoro žádný"
               ]
             }
           },
@@ -23522,12 +23522,12 @@ const A2_WORDS = [
     "de": "Keyboard",
     "de_article": "das",
     "de_plural": "die Keyboards",
-    "lv": "Klávesnice",
+    "lv": "Klávesový nástroj • Klávesnice",
     "level": "A2",
     "study": {
       "id": "a2-keyboard",
       "layout": "standardStudy",
-      "translation": "Klávesnice",
+      "translation": "Klávesový nástroj • Klávesnice",
       "explanation": [
         "Hlavní myšlenka: das Keyboard je přejaté slovo. V němčině nejčastěji označuje klávesový nástroj, elektronický hudební nástroj typu piana, někdy i počítačovou klávesnici (vlivem angličtiny).",
         "Množné číslo je die Keyboards. Slovo je středního rodu. Hudebník hraje na Keyboard: Er spielt Keyboard.",
@@ -24502,7 +24502,7 @@ const A2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: der Kiosk je podstatné jméno mužského rodu, které znamená malý stánek nebo budku (kiosek), kde se prodávají noviny, časopisy, nápoje, sladkosti a drobné zboží.",
         "Množné číslo je die Kioske. Místo se vyjadřuje předložkou am Kiosk (u stánku); am Kiosk kaufen (koupit ve stánku). Obvykle se říká am Kiosk, protože člověk stojí u okénka, ne uvnitř.",
-        "V některých regionech se kiosku říká také Büdchen nebo Trinkhalle, ale der Kiosk rozumí všude."
+        "V některých regionech se kiosku říká také Büdchen nebo Trinkhalle, ale slovu der Kiosk rozumí všude."
       ],
       "examples": [
         {
@@ -24670,7 +24670,7 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "Třešeň",
       "explanation": [
-        "Hlavní myšlenka: die Kirsche je podstatné jméno ženského rodu, které znamená třešeň jako plod: malý červený plod s peckou. Strom se v němčině jmenuje der Kirschbaum (česky také třešeň).",
+        "Hlavní myšlenka: die Kirsche je podstatné jméno ženského rodu, které znamená třešeň jako plod: malý červený plod s peckou. Strom se v němčině obvykle jmenuje der Kirschbaum (česky také třešeň).",
         "Množné číslo je die Kirschen. Čerstvé třešně se kupují: ein Kilo Kirschen. Složeniny: der Kirschkuchen (třešňový koláč), die Kirschtomate (cherry rajče), die Kirschblüte (třešňový květ).",
         "Sladké třešně se nazývají také die Süßkirsche, kyselé višně die Sauerkirsche."
       ],
@@ -24710,11 +24710,11 @@ const A2_WORDS = [
       ],
       "tip": [
         "Ve složeninách je první částí Kirsch-: der Kirschkuchen, der Kirschsaft, der Kirschbaum.",
-        "Před množným číslem uveď množství: ein Kilo Kirschen, eine Schale Kirschen."
+        "S množstvím: ein Kilo Kirschen, eine Schale Kirschen."
       ],
       "important": [
         "Die Kirsche je ženský rod: die Kirsche, die Kirschen.",
-        "Název plodu není název stromu: strom je der Kirschbaum."
+        "Pro strom se obvykle říká der Kirschbaum, i když die Kirsche může označovat i strom."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27399,12 +27399,12 @@ const A2_WORDS = [
     "de": "Leiter",
     "de_article": "der",
     "de_plural": "die Leiter",
-    "lv": "Vedoucí • Žebřík",
+    "lv": "Vedoucí",
     "level": "A2",
     "study": {
       "id": "a2-leiter",
       "layout": "standardStudy",
-      "translation": "Vedoucí • Žebřík",
+      "translation": "Vedoucí",
       "explanation": [
         "Hlavní myšlenka: der Leiter je podstatné jméno mužského rodu, které znamená vedoucího, člověka, který vede oddělení, školu, skupinu nebo projekt. Žena je die Leiterin.",
         "Množné číslo je die Leiter (muži) a die Leiterinnen (ženy). Často ve složeninách: der Abteilungsleiter (vedoucí oddělení), der Schulleiter (ředitel školy), der Teamleiter.",
@@ -34378,7 +34378,7 @@ const A2_WORDS = [
         "Řada lidí, kteří čekají, se nazývá Schlange; Reihe je spíš řada ve smyslu pořadí (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen je ustálená fráze: ne in der Schlange sein, ale Schlange stehen."
+        "Schlange stehen je ustálená fráze bez členu; říká se ale také in der Schlange stehen nebo sich in die Schlange stellen (zařadit se do fronty)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -34945,7 +34945,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wer hat Schuld an dem Unfall?",
-          "lv": "Kdo je vinen za nehodu?"
+          "lv": "Kdo je viníkem té nehody?"
         },
         {
           "de": "Er hat viele Schulden bei der Bank.",
@@ -34969,7 +34969,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Dluhy jsou vždy v množném čísle: Schulden haben, Schulden machen."
+        "Peněžní dluhy se obvykle vyjadřují množným číslem: Schulden haben, Schulden machen."
       ],
       "important": [
         "O dluhu se říká bei jemandem Schulden haben (dlužit někomu)."
@@ -35008,7 +35008,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vinen"
+                "viníkem"
               ]
             }
           },
@@ -35629,14 +35629,14 @@ const A2_WORDS = [
   },
   {
     "de": "sich unterhalten",
-    "lv": "Mluvit",
+    "lv": "Bavit se",
     "level": "A2",
     "study": {
       "id": "a2-sich-unterhalten",
       "layout": "standardStudy",
-      "translation": "Mluvit",
+      "translation": "Bavit se",
       "explanation": [
-        "Hlavní myšlenka: sich unterhalten znamená bavit se, mluvit si s někým, rozmlouvat, často volně nebo přátelsky. S mit + dativ se uvádí partner v rozhovoru, s über + akuzativ téma: sich mit jemandem über etwas unterhalten.",
+        "Hlavní myšlenka: sich unterhalten znamená bavit se, povídat si s někým, rozmlouvat, často volně nebo přátelsky. S mit + dativ se uvádí partner v rozhovoru, s über + akuzativ téma: sich mit jemandem über etwas unterhalten.",
         "Tvary: unterhält sich, unterhielt sich, hat sich unterhalten. Je to zvratné sloveso: ich unterhalte mich.",
         "Fráze sich gut unterhalten znamená také „dobře se bavit, příjemně trávit čas“."
       ],
@@ -35662,7 +35662,7 @@ const A2_WORDS = [
         {
           "word": "sprechen",
           "meaning": "mluvit",
-          "example": "Ich spreche mit dem Chef. – Mluvím s šéfem."
+          "example": "Ich spreche mit dem Chef. – Mluvím se šéfem."
         },
         {
           "word": "diskutieren",
@@ -35685,7 +35685,7 @@ const A2_WORDS = [
           ],
           "purple": [
             "bavit se",
-            "mluvit si",
+            "povídat si",
             "rozmlouvat"
           ]
         },
@@ -41574,13 +41574,13 @@ const A2_WORDS = [
         },
         {
           "word": "bis",
-          "meaning": "dokud",
+          "meaning": "dokud ne, až",
           "example": "Warte, bis ich komme. – Počkej, dokud nepřijdu."
         }
       ],
       "tip": [
         "Spojka: während ... Verb am Ende. Pokud po während následuje podstatné jméno, je to předložka a vyžaduje genitiv.",
-        "České dokud se v němčině nevyjadřuje slovem während, ale spojkou bis: Warte, bis ich komme."
+        "České dokud ne (až) se v němčině nevyjadřuje slovem während, ale spojkou bis: Warte, bis ich komme. Dokud ve smyslu po celou dobu je solange."
       ],
       "important": [
         "Po spojce während nikdy nedávejte sloveso na druhé místo: ..., während ich arbeite (ne während arbeite ich).",
@@ -42221,7 +42221,7 @@ const A2_WORDS = [
       "translation": "Daleko • Široký",
       "explanation": [
         "Hlavní myšlenka: weit je přídavné jméno a příslovce. O vzdálenosti znamená daleký, daleko: Die Schule ist weit. U oblečení, místností a polí znamená široký, volný, rozlehlý.",
-        "Stupňování: weit, weiter, am weitesten. Před stupněm přídavného jména weit znamená mnohem: weit besser (mnohem lepší).",
+        "Stupňování: weit, weiter, am weitesten. Před 2. stupněm přídavného jména weit znamená mnohem: weit besser (mnohem lepší).",
         "Časté fráze: wie weit? (jak daleko?), weit weg (daleko pryč), von weitem (zdaleka)."
       ],
       "examples": [
@@ -42268,7 +42268,7 @@ const A2_WORDS = [
         "Na vzdálenost se ptáme wie weit?, na čas wie lange? (jak dlouho?)."
       ],
       "important": [
-        "weit (daleký) a weiter (dále, dál) jsou různá slova: Geh weiter! – Jdi dál!",
+        "weiter je 2. stupeň od weit (dále, širší), ale často se používá i samostatně ve významu dál, dále: Geh weiter! – Jdi dál!",
         "U vzdálenosti se weit obvykle nepoužívá s číslem; číslo se používá s entfernt: drei Kilometer entfernt."
       ],
       "sectionAccents": {
@@ -45583,7 +45583,7 @@ const A2_WORDS = [
       "translation": "Již",
       "explanation": [
         "Hlavní myšlenka: schon je příslovce s významem již, už. Označuje, že se něco stalo dříve nebo rychleji, než se očekávalo, nebo že stav platí.",
-        "V časovém významu: Er ist schon da (už je tady). V významu zkušenosti: Ich war schon in Wien (už jsem ve Vídni byl).",
+        "V časovém významu: Er ist schon da (už je tady). Ve významu zkušenosti: Ich war schon in Wien (už jsem ve Vídni byl).",
         "V hovorové řeči schon zdůrazňuje přesvědčení: Das wird schon gehen (to už půjde). Nezaměňujte s přídavným jménem schön (krásný)."
       ],
       "examples": [
@@ -45626,7 +45626,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Protikladem schon je noch (ještě): Bist du schon da? – Nein, noch nicht.",
+        "Protikladem schon je noch nicht (ještě ne): Bist du schon da? – Nein, noch nicht.",
         "bereits je formálnější než schon, význam je stejný."
       ],
       "important": [
@@ -46171,7 +46171,7 @@ const A2_WORDS = [
         "bloß je hovorové synonymum."
       ],
       "important": [
-        "nur omezuje množství; pro časový údaj se používá erst: Es ist erst acht Uhr.",
+        "Nepleťte si nur a erst: Es ist erst acht Uhr (teprve osm), ale Ich habe nur acht Stunden geschlafen (jen osm hodin).",
         "nur se nemění."
       ],
       "sectionAccents": {

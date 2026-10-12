@@ -959,7 +959,7 @@ const B2_WORDS = [
         "V restauraci často uslyšíš abtragen ve smyslu uklidit stůl."
       ],
       "important": [
-        "Nepleť si abtragen s abreißen: abreißen je rychle zbořit celou budovu, abtragen je postupně odstranit.",
+        "Nepleť si abtragen s abreißen: abreißen znamená strhnout, zbourat (obvykle celou stavbu), abtragen spíše postupně rozebírat a odstraňovat.",
         "Perfektum: hat abgetragen (s ge- mezi ab- a tragen)."
       ],
       "sectionAccents": {
@@ -1436,14 +1436,14 @@ const B2_WORDS = [
     "de": "Äußerlichkeit",
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
-    "lv": "Povrchnost",
+    "lv": "Vnější stránka",
     "level": "B2",
     "study": {
       "id": "b2--u-erlichkeit",
       "layout": "standardStudy",
-      "translation": "Povrchnost",
+      "translation": "Vnější stránka",
       "explanation": [
-        "Hlavní myšlenka: die Äußerlichkeit je podstatné jméno rodu ženského. Znamená povrchnost, tedy vnější, povrchní věc, která není podstatná. Často se používá v množném čísle.",
+        "Hlavní myšlenka: die Äußerlichkeit je podstatné jméno rodu ženského. Znamená vnější stránku věci, tedy vnější, povrchní věc, která není podstatná. Často se používá v množném čísle.",
         "Množné číslo je die Äußerlichkeiten. Slovo se obvykle užívá kriticky: Er achtet nur auf Äußerlichkeiten (dbá jen na vnějšek).",
         "Slovo je odvozeno od äußerlich (vnější); podstatné jméno die Äußerlichkeit označuje to, co je jen navenek, bez hloubky."
       ],
@@ -1454,7 +1454,7 @@ const B2_WORDS = [
         },
         {
           "de": "Das ist nur eine Äußerlichkeit.",
-          "lv": "To je jen povrchnost."
+          "lv": "To je jen vnější detail."
         },
         {
           "de": "Sie achtet zu sehr auf Äußerlichkeiten.",
@@ -1497,7 +1497,7 @@ const B2_WORDS = [
             "Äußerlichkeiten"
           ],
           "purple": [
-            "povrchnost",
+            "vnější stránku",
             "vnějšek"
           ]
         },
@@ -1522,7 +1522,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "povrchnost"
+                "vnější detail"
               ]
             }
           },
@@ -1639,7 +1639,7 @@ const B2_WORDS = [
         },
         {
           "de": "Du solltest dich nicht zu lange der Sonne aussetzen.",
-          "lv": "Neměl bys se příliš dlouho vystavovat slunci."
+          "lv": "Neměl by ses příliš dlouho vystavovat slunci."
         }
       ],
       "comparison": [
@@ -3067,12 +3067,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich bemächtigen",
-    "lv": "Zmocnit se • Zmocnit se",
+    "lv": "Zmocnit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-bemaechtigen",
       "layout": "standardStudy",
-      "translation": "Zmocnit se • Zmocnit se",
+      "translation": "Zmocnit se",
       "explanation": [
         "Hlavní myšlenka: sich bemächtigen je formální zvratné sloveso, které znamená zmocnit se: věci, místa nebo moci, často silou, a v přeneseném významu o pocitech, které člověka ovládnou.",
         "Po sich bemächtigen následuje genitiv: sich einer Sache bemächtigen. Tvary: bemächtigt sich, bemächtigte sich, hat sich bemächtigt. Předpona be- je neodlučitelná.",
@@ -3100,7 +3100,7 @@ const B2_WORDS = [
         {
           "word": "ergreifen",
           "meaning": "uchopit, chopit se",
-          "example": "Er ergreift die Macht. – Chopil se moci."
+          "example": "Er ergreift die Macht. – Chopí se moci."
         },
         {
           "word": "sich aneignen",
@@ -3850,14 +3850,14 @@ const B2_WORDS = [
   },
   {
     "de": "besessen",
-    "lv": "Posedlý • Okouzlený • Uchvácený",
+    "lv": "Posedlý",
     "level": "B2",
     "study": {
       "id": "b2-besessen",
       "layout": "standardStudy",
-      "translation": "Posedlý • Okouzlený • Uchvácený",
+      "translation": "Posedlý",
       "explanation": [
-        "Hlavní myšlenka: besessen je přídavné jméno (od besitzen), které znamená posedlý, okouzlený nebo uchvácený: člověk je myšlenkou či citem natolik zcela ovládnut, že to převládá nad jeho myšlením. Po besessen následuje von + dativ: besessen von etwas.",
+        "Hlavní myšlenka: besessen je přídavné jméno (od besitzen), které znamená posedlý: člověk je myšlenkou či citem natolik ovládnut, že to převládá nad jeho myšlením. Po besessen následuje von + dativ: besessen von etwas.",
         "Používá se i o fanatickém zaujetí: von der Arbeit besessen sein, wie besessen arbeiten (pracovat jako posedlý).",
         "Pozor: besessen je také příčestí od besitzen (vlastnit): Er hat ein Haus besessen. To je jiné užití; tato karta je o přídavném jménu posedlý."
       ],
@@ -3910,9 +3910,7 @@ const B2_WORDS = [
             "besessen"
           ],
           "purple": [
-            "posedlý",
-            "okouzlený",
-            "uchvácený"
+            "posedlý"
           ]
         },
         "examples": [
@@ -5967,7 +5965,7 @@ const B2_WORDS = [
         {
           "word": "grollen",
           "meaning": "dunět (z dálky)",
-          "example": "In der Ferne grollt es. – V dálce hluchě duní."
+          "example": "In der Ferne grollt es. – V dálce hluše duní."
         },
         {
           "word": "krachen",
@@ -6439,12 +6437,12 @@ const B2_WORDS = [
     "de": "Dunst",
     "de_article": "der",
     "de_plural": "die Dünste",
-    "lv": "Pára • Výpar • Zplodiny • Dusno • Mlha • Opar",
+    "lv": "Opar • Výpary",
     "level": "B2",
     "study": {
       "id": "b2-dunst",
       "layout": "standardStudy",
-      "translation": "Pára • Výpar • Zplodiny • Dusno • Mlha • Opar",
+      "translation": "Opar • Výpary",
       "explanation": [
         "Hlavní myšlenka: der Dunst je podstatné jméno rodu mužského. Znamená páru, zamlžený vzduch nebo výpary: lehký opar, který činí vzduch kalným, nebo pach a výpary.",
         "Množné číslo je die Dünste (s přehláskou) a používá se řídce, hlavně o výparech: giftige Dünste. V jednotném čísle se der Dunst často vztahuje na opar nad městem, jezerem nebo údolím.",
@@ -6461,7 +6459,7 @@ const B2_WORDS = [
         },
         {
           "de": "Giftige Dünste stiegen aus dem Fass auf.",
-          "lv": "Z sudu stoupaly jedovaté výpary."
+          "lv": "Ze sudu stoupaly jedovaté výpary."
         },
         {
           "de": "Ich habe keinen blassen Dunst davon.",
@@ -6974,12 +6972,12 @@ const B2_WORDS = [
   },
   {
     "de": "eigenwillig",
-    "lv": "Svévolný • Umíněný • Tvrdohlavý • Svéhlavý",
+    "lv": "Umíněný • Tvrdohlavý • Svéhlavý",
     "level": "B2",
     "study": {
       "id": "b2-eigenwillig",
       "layout": "standardStudy",
-      "translation": "Svévolný • Umíněný • Tvrdohlavý • Svéhlavý",
+      "translation": "Umíněný • Tvrdohlavý • Svéhlavý",
       "explanation": [
         "Hlavní myšlenka: eigenwillig je přídavné jméno, které popisuje člověka nebo věc s vlastní vůlí a stylem. Znamená svéhlavý, umíněný nebo tvrdohlavý, ale často také svérázný, originální, nenásledující ostatní.",
         "O člověku obvykle znamená umíněný, plný vlastní vůle: ein eigenwilliges Kind. O stylu, interpretaci nebo vkusu znamená svérázný: ein eigenwilliger Stil, eine eigenwillige Interpretation.",
@@ -7720,12 +7718,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich einschleichen",
-    "lv": "Vplížit se • Vplížit se",
+    "lv": "Vplížit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-einschleichen",
       "layout": "standardStudy",
-      "translation": "Vplížit se • Vplížit se",
+      "translation": "Vplížit se",
       "explanation": [
         "Hlavní myšlenka: sich einschleichen znamená nepozorovaně, tajně se někam dostat (vplížit se), nebo o chybě, pochybnostech apod. – nepozorovaně se objevit (vkrást se).",
         "Odlučitelná předpona: ich schleiche mich ein, schlich mich ein, habe mich eingeschlichen. Místo, kam se někdo vplíží, se uvádí předložkou in + akuzativ (in das Haus, ins Haus). V perfektu se používá hat, protože sloveso je zvratné."
@@ -7733,7 +7731,7 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Der Dieb schleicht sich nachts ins Haus ein.",
-          "lv": "Zloděj se v noci vplížil do domu."
+          "lv": "Zloděj se v noci vplíží do domu."
         },
         {
           "de": "Ein Fehler hat sich in den Text eingeschlichen.",
@@ -7788,7 +7786,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "vplížil"
+                "vplíží"
               ]
             }
           },
@@ -8673,7 +8671,7 @@ const B2_WORDS = [
       "translation": "Zdržet se",
       "explanation": [
         "Hlavní myšlenka: sich enthalten znamená vědomě něčeho zdržet se – něco nedělat, nepožívat, nehlasovat. Jazyk je formální, knižní.",
-        "Následuje genitiv: sich der Stimme enthalten (zdržet se hlasování), sich jeden Kommentars enthalten. Tvary: enthält sich, enthielt sich, hat sich enthalten.",
+        "Následuje genitiv: sich der Stimme enthalten (zdržet se hlasování), sich jedes Kommentars enthalten. Tvary: enthält sich, enthielt sich, hat sich enthalten.",
         "Bez sich znamená sloveso enthalten obsahovat: Das Getränk enthält Zucker."
       ],
       "examples": [
@@ -11926,12 +11924,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich fügen",
-    "lv": "Přizpůsobovat • Poslouchat",
+    "lv": "Podřídit se • Přizpůsobit se",
     "level": "B2",
     "study": {
       "id": "b2-sich-fuegen",
       "layout": "standardStudy",
-      "translation": "Přizpůsobovat • Poslouchat",
+      "translation": "Podřídit se • Přizpůsobit se",
       "explanation": [
         "Hlavní myšlenka: sich fügen znamená podřídit se pravidlu, rozhodnutí nebo okolnostem a poslouchat (sich dem Beschluss fügen), nebo se zařadit do celku, přizpůsobit se (sich in die Gruppe fügen).",
         "Tvary: fügt sich, fügte sich, hat sich gefügt. Ve významu podřídit se často následuje dativ (sich dem Willen fügen), ve významu přizpůsobit se nebo smířit se se pojí in + akuzativ (sich in sein Schicksal fügen).",
@@ -13339,12 +13337,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich gestalten",
-    "lv": "Formovat do",
+    "lv": "Utvářet se",
     "level": "B2",
     "study": {
       "id": "b2-sich-gestalten",
       "layout": "standardStudy",
-      "translation": "Formovat do",
+      "translation": "Utvářet se",
       "explanation": [
         "Hlavní myšlenka: sich gestalten znamená utvářet se, vyvíjet se, nabývat určité podoby (formovat se do určité podoby) – o události, jednání nebo budoucnosti: jaká se ukáže. Obvykle následuje přídavné jméno (schwierig, positiv) nebo zu + dativ (zu einem Erfolg).",
         "Tvary: gestaltet sich, gestaltete sich, hat sich gestaltet. Podmětem je zpravidla abstraktní slovo: Verhandlungen, Zukunft, Abend, Zusammenarbeit.",
@@ -13773,14 +13771,14 @@ const B2_WORDS = [
     "de": "Glut",
     "de_article": "die",
     "de_plural": "die Gluten",
-    "lv": "Vedro • Žár • Velký žár",
+    "lv": "Vedro • Žár",
     "level": "B2",
     "study": {
       "id": "b2-glut",
       "layout": "standardStudy",
-      "translation": "Vedro • Žár • Velký žár",
+      "translation": "Vedro • Žár",
       "explanation": [
-        "Hlavní myšlenka: die Glut je podstatné jméno ženského rodu. Znamená žhnoucí uhlíky nebo žhavý žár dohořívajícího ohně, také velké vedro, úpal (die Glut der Sonne). V přeneseném významu je Glut i vášeň, zápal.",
+        "Hlavní myšlenka: die Glut je podstatné jméno ženského rodu. Znamená žhnoucí uhlíky nebo žhavý žár dohořívajícího ohně, také velké vedro, sluneční žár (die Glut der Sonne). V přeneseném významu je Glut i vášeň, zápal.",
         "Množné číslo je vzácné (die Gluten), obvykle se používá jednotné číslo: die Glut. Časté fráze: die Glut anfachen (rozdmýchat žár), unter der Asche glimmt noch Glut (pod popelem ještě doutnají uhlíky)."
       ],
       "examples": [
@@ -13942,12 +13940,12 @@ const B2_WORDS = [
     "de": "Gnade",
     "de_article": "die",
     "de_plural": "die Gnaden",
-    "lv": "Milost • Omilostění",
+    "lv": "Milost • Omilostnění",
     "level": "B2",
     "study": {
       "id": "b2-gnade",
       "layout": "standardStudy",
-      "translation": "Milost • Omilostění",
+      "translation": "Milost • Omilostnění",
       "explanation": [
         "Hlavní myšlenka: die Gnade je podstatné jméno ženského rodu. Znamená milost, shovívavost – přízeň toho, kdo má moc, a také omilostnění, prominutí trestu.",
         "Množné číslo se používá zřídka (die Gnaden). Častá spojení: um Gnade bitten (prosit o milost), Gnade walten lassen (prokázat milost), auf Gnade und Ungnade (zcela v něčí moci), die Gnade Gottes (Boží milost)."
@@ -14663,12 +14661,12 @@ const B2_WORDS = [
     "de": "Haube",
     "de_article": "die",
     "de_plural": "die Hauben",
-    "lv": "Čepice • Kryt",
+    "lv": "Čepec • Kryt",
     "level": "B2",
     "study": {
       "id": "b2-haube",
       "layout": "standardStudy",
-      "translation": "Čepice • Kryt",
+      "translation": "Čepec • Kryt",
       "explanation": [
         "Hlavní myšlenka: die Haube je podstatné jméno ženského rodu, množné číslo die Hauben. První význam – čepec, který zakrývá hlavu (starý dámský čepec, řádová pokrývka hlavy). Druhý – kryt, který zakrývá přístroj: Motorhaube (kapota motoru automobilu), Dunsthaube (digestoř nad sporákem).",
         "Idiom unter die Haube kommen znamená v hovorové řeči vdát se nebo oženit se."
@@ -14714,7 +14712,7 @@ const B2_WORDS = [
       ],
       "tip": [
         "V souvislosti s autem je Haube obvykle přední kapota motoru: die Motorhaube.",
-        "V složeninách dává podstatné jméno Haube význam krytu: Dunsthaube, Motorhaube."
+        "Ve složeninách dává podstatné jméno Haube význam krytu: Dunsthaube, Motorhaube."
       ],
       "important": [
         "Haube není běžná čepice; čepici, kterou nosíš v zimě, se říká Mütze.",
@@ -15189,12 +15187,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich heraushalten",
-    "lv": "Drž se dál od",
+    "lv": "Držet se stranou",
     "level": "B2",
     "study": {
       "id": "b2-sich-heraushalten",
       "layout": "standardStudy",
-      "translation": "Drž se dál od",
+      "translation": "Držet se stranou",
       "explanation": [
         "Hlavní myšlenka: sich heraushalten znamená nezasahovat, nezúčastnit se sporu nebo záležitosti, držet se stranou. Předložkou aus + dativ se uvádí, od čeho se někdo drží dál: sich aus dem Streit heraushalten.",
         "Odlučitelná předpona heraus-: hält sich heraus, hielt sich heraus, hat sich herausgehalten. Rozkazovací způsob: Halt dich da heraus! Bez sich je heraushalten přechodné: jemanden aus etwas heraushalten – nezatahovat někoho do něčeho."
@@ -15239,7 +15237,7 @@ const B2_WORDS = [
         "Obvykle následuje aus + dativ: aus dem Konflikt, aus meinen Angelegenheiten."
       ],
       "important": [
-        "Po aus je podstatné jméno ve dativu: aus dem Streit.",
+        "Po aus je podstatné jméno v dativu: aus dem Streit.",
         "Opakem je sich einmischen (vměšovat se)."
       ],
       "sectionAccents": {
@@ -15362,12 +15360,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich herausstellen",
-    "lv": "Ukázat být",
+    "lv": "Ukázat se",
     "level": "B2",
     "study": {
       "id": "b2-sich-herausstellen",
       "layout": "standardStudy",
-      "translation": "Ukázat být",
+      "translation": "Ukázat se",
       "explanation": [
         "Hlavní myšlenka: sich herausstellen znamená ukázat se, vyjít najevo – vyjde najevo, jaký člověk nebo jaká věc ve skutečnosti je. S als + nominativ: Er stellte sich als Betrüger heraus. Typická fráze je Es stellte sich heraus, dass …",
         "Odlučitelná předpona heraus-: stellt sich heraus, stellte sich heraus, hat sich herausgestellt. Podmětem je obvykle věc nebo informace, ale může to být i člověk."
@@ -15750,12 +15748,12 @@ const B2_WORDS = [
       "explanation": [
         "Hlavní myšlenka: hetzen je sloveso s několika významy. Znamená poštvat psy na někoho, štvát a honit zvěř; v přeneseném významu podněcovat k nenávisti (gegen jemanden hetzen). Bez předmětu se slovesem sein může znamenat i spěchat, hnát se: durch die Stadt hetzen.",
         "Tvary: hetzt, hetzte, hat gehetzt (přechodné) nebo ist gehetzt (ve významu pohybu). Častá odvozenina: aufhetzen (poštvat), die Hetze (štvaní; spěch).",
-        "V hovorové řeči Hetz mich nicht! znamená: nepopohánět mě!"
+        "V hovorové řeči Hetz mich nicht! znamená: nepopoháněj mě!"
       ],
       "examples": [
         {
           "de": "Der Jäger hetzt die Hunde auf den Hirsch.",
-          "lv": "Myslivec poštval psy na jelena."
+          "lv": "Myslivec štve psy na jelena."
         },
         {
           "de": "Er hetzt gegen Ausländer.",
@@ -15821,7 +15819,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "poštval"
+                "štve"
               ]
             }
           },
@@ -15960,14 +15958,14 @@ const B2_WORDS = [
   },
   {
     "de": "sich hingeben",
-    "lv": "Odevzdat se • Odevzdat se",
+    "lv": "Odevzdat se",
     "level": "B2",
     "study": {
       "id": "b2-sich-hingeben",
       "layout": "standardStudy",
-      "translation": "Odevzdat se • Odevzdat se",
+      "translation": "Odevzdat se",
       "explanation": [
-        "Hlavní myšlenka: sich hingeben znamená plně se oddat čemu – hudbě, snům, požitku, smutku nebo citům (odevzdat se něčemu). Následuje dativ: sich der Musik hingeben, sich seinen Träumen hingeben.",
+        "Hlavní myšlenka: sich hingeben znamená plně se oddat něčemu – hudbě, snům, požitku, smutku nebo citům (odevzdat se něčemu). Následuje dativ: sich der Musik hingeben, sich seinen Träumen hingeben.",
         "Odlučitelná předpona hin-: gibt sich hin, gab sich hin, hat sich hingegeben. Bez sich znamená etwas hingeben obětovat, odevzdat něco: sein Leben hingeben."
       ],
       "examples": [
@@ -19795,7 +19793,7 @@ const B2_WORDS = [
         },
         {
           "de": "Dafür werde ich mich noch revanchieren!",
-          "lv": "Za to se ještě odplatím!"
+          "lv": "Tohle ti ještě oplatím!"
         }
       ],
       "comparison": [
@@ -19881,7 +19879,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "odplatím"
+                "oplatím"
               ]
             }
           }
@@ -24086,12 +24084,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich verstellen",
-    "lv": "Vydávat se za",
+    "lv": "Přetvařovat se",
     "level": "B2",
     "study": {
       "id": "b2-sich-verstellen",
       "layout": "standardStudy",
-      "translation": "Vydávat se za",
+      "translation": "Přetvařovat se",
       "explanation": [
         "Hlavní myšlenka: sich verstellen znamená předstírat, měnit své chování, aby druzí neviděli skutečnou povahu nebo city. Člověk pak není přirozený.",
         "Sloveso je zvratné: ich verstelle mich, er verstellt sich; v préteritu verstellte sich, v perfektu hat sich verstellt. Bez sich znamená verstellen také přestavit nebo zatarasit (den Weg verstellen – zatarasit cestu; den Sitz verstellen – nastavit sedadlo) a také měnit hlas (die Stimme verstellen).",
@@ -25865,10 +25863,10 @@ const B2_WORDS = [
       ],
       "tip": [
         "Zapamatuj si jednu frázi: Das ist mir zuwider. – To je mi odporné / hnusí se mi to.",
-        "Po zuwider vždy následuje dativ: mir, ihm, dem Gesetz."
+        "zuwider se vždy pojí s dativem, který stojí před ním: mir zuwider, ihm zuwider, dem Gesetz zuwider."
       ],
       "important": [
-        "Po zuwider se nepoužívá akuzativ: ne mich zuwider, ale mir zuwider.",
+        "Se zuwider se nepoužívá akuzativ: ne mich zuwider, ale mir zuwider.",
         "Ve významu v rozporu s stojí zuwider obvykle za podstatným jménem: dem Gesetz zuwider; entgegen obvykle stojí před ním: entgegen dem Gesetz."
       ],
       "sectionAccents": {

@@ -367,7 +367,7 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "Rodinný dům",
       "explanation": [
-        "Hlavní myšlenka: das Einfamilienhaus je dům určený pro jednu rodinu – volně stojící nebo s sousedy, ale s jedním bytem a obvykle s vlastní zahradou.",
+        "Hlavní myšlenka: das Einfamilienhaus je dům určený pro jednu rodinu – volně stojící nebo se sousedy, ale s jedním bytem a obvykle s vlastní zahradou.",
         "Podstatné jméno středního rodu: das Einfamilienhaus, množné číslo die Einfamilienhäuser. Skládá se z Ein- + Familie + Haus.",
         "Opakem je das Mehrfamilienhaus (bytový dům)."
       ],
@@ -895,14 +895,14 @@ const C1_WORDS = [
     "de": "Öffentlichkeit",
     "de_article": "die",
     "de_plural": "die Öffentlichkeiten",
-    "lv": "Společnost • Otevřenost",
+    "lv": "Veřejnost",
     "level": "C1",
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "Společnost • Otevřenost",
+      "translation": "Veřejnost",
       "explanation": [
-        "Hlavní myšlenka: die Öffentlichkeit je veřejnost, tedy všichni lidé, kterým je něco přístupné nebo známé (v širokém smyslu též společnost), a zároveň otevřenost – stav, kdy něco není tajné.",
+        "Hlavní myšlenka: die Öffentlichkeit je veřejnost, tedy všichni lidé, kterým je něco přístupné nebo známé, a také veřejný charakter něčeho – stav, kdy něco není tajné (die Öffentlichkeit der Sitzung).",
         "Podstatné jméno ženského rodu: die Öffentlichkeit, množné číslo prakticky neexistuje. Časté výrazy: in der Öffentlichkeit (na veřejnosti), an die Öffentlichkeit gehen (zveřejnit), unter Ausschluss der Öffentlichkeit (bez účasti veřejnosti), die Öffentlichkeit informieren.",
         "České slovo společnost často odpovídá německému die Gesellschaft, ale to má jiný význam: die Gesellschaft je společnost jako uspořádání lidí nebo firma, zatímco die Öffentlichkeit je veřejnost."
       ],
@@ -960,7 +960,6 @@ const C1_WORDS = [
           "purple": [
             "veřejnost",
             "společnost",
-            "otevřenost",
             "na veřejnosti"
           ]
         },
@@ -1282,14 +1281,14 @@ const C1_WORDS = [
     "de": "Prozess",
     "de_article": "der",
     "de_plural": "die Prozesse",
-    "lv": "Proces • Žaloba",
+    "lv": "Proces • Soudní spor",
     "level": "C1",
     "study": {
       "id": "c1-prozess",
       "layout": "standardStudy",
-      "translation": "Proces • Žaloba",
+      "translation": "Proces • Soudní spor",
       "explanation": [
-        "Hlavní myšlenka: der Prozess má dva hlavní významy: proces, průběh (ein langsamer Prozess) a soudní řízení, soudní spor (ein Prozess gegen jemanden), v širším smyslu i žaloba.",
+        "Hlavní myšlenka: der Prozess má dva hlavní významy: proces, průběh (ein langsamer Prozess) a soudní řízení, soudní spor (ein Prozess gegen jemanden).",
         "Podstatné jméno mužského rodu: der Prozess, množné číslo die Prozesse. Soudní spor lze vést, zahájit, vyhrát nebo prohrát: einen Prozess führen, gewinnen, verlieren.",
         "Výraz kurzen Prozess machen znamená jednat bez dlouhého váhání, nelítostně."
       ],
@@ -1333,7 +1332,7 @@ const C1_WORDS = [
         "Proces jako průběh je také technický a vědecký termín: der Prozess der Herstellung (výrobní proces)."
       ],
       "important": [
-        "V tomto významu není slovo středního rodu: der Prozess (nikoli das Prozess)."
+        "Slovo je mužského rodu: der Prozess (nikoli das Prozess)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1829,16 +1828,16 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenfassen",
-    "lv": "Shrnout • Shrnout",
+    "lv": "Shrnout",
     "level": "C1",
     "study": {
       "id": "c1-zusammenfassen",
       "layout": "standardStudy",
-      "translation": "Shrnout • Shrnout",
+      "translation": "Shrnout",
       "explanation": [
         "Hlavní myšlenka: zusammenfassen znamená stručně shrnout to hlavní z textu, projevu nebo výsledků; také spojit několik věcí do jednoho celku.",
         "Odlučitelné sloveso: er fasst zusammen, fasste zusammen, hat zusammengefasst. Co se shrnuje – akuzativ: einen Text zusammenfassen. Často následuje in + dativ nebo zu + dativ: in einem Satz zusammenfassen. Podstatné jméno je die Zusammenfassung.",
-        "Na začátku věty se často používá zusammenfassend (shrnutí): Zusammenfassend lässt sich sagen …"
+        "Na začátku věty se často používá zusammenfassend (souhrnně, shrnuto): Zusammenfassend lässt sich sagen …"
       ],
       "examples": [
         {
@@ -2041,12 +2040,12 @@ const C1_WORDS = [
     "de": "Wahl",
     "de_article": "die",
     "de_plural": "die Wahlen",
-    "lv": "Volba • Volba",
+    "lv": "Volba",
     "level": "C1",
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "Volba • Volba",
+      "translation": "Volba",
       "explanation": [
         "Hlavní myšlenka: die Wahl znamená volbu (co si člověk vybírá z několika možností) a volby (zvolení lidí do funkce).",
         "Podstatné jméno ženského rodu: die Wahl, množné číslo die Wahlen. Ve významu volby se velmi často používá množné číslo: die Wahlen finden statt. Volba ve smyslu výběru je obvykle v jednotném čísle: die Wahl haben, keine andere Wahl haben.",
@@ -5625,14 +5624,14 @@ const C1_WORDS = [
   },
   {
     "de": "beziehen / sich beziehen auf",
-    "lv": "Aplikovat • Aplikovat na",
+    "lv": "Vztahovat • Vztahovat se na",
     "level": "C1",
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "Aplikovat • Aplikovat na",
+      "translation": "Vztahovat • Vztahovat se na",
       "explanation": [
-        "Hlavní myšlenka: etwas auf etwas beziehen znamená vztáhnout něco na něco nebo někoho, aplikovat to na něj; sich auf etwas beziehen znamená týkat se něčeho nebo odvolávat se na to.",
+        "Hlavní myšlenka: etwas auf etwas beziehen znamená vztáhnout něco na něco nebo někoho; sich auf etwas beziehen znamená týkat se něčeho nebo odvolávat se na to.",
         "Tvary: bezieht, bezog, hat bezogen. V obou konstrukcích následuje auf + akuzativ: etwas auf sich beziehen (vztahovat na sebe), sich auf einen Text beziehen (odkazovat na text).",
         "Kromě tohoto významu může beziehen znamenat také převléknout postel (das Bett beziehen), nastěhovat se (eine Wohnung beziehen) a pravidelně pobírat (ein Gehalt beziehen)."
       ],
@@ -5691,7 +5690,6 @@ const C1_WORDS = [
           ],
           "purple": [
             "vztáhnout",
-            "aplikovat",
             "týkat se",
             "odvolávat se na"
           ]
@@ -6295,12 +6293,12 @@ const C1_WORDS = [
   },
   {
     "de": "bewahren",
-    "lv": "Chránit • Chránit",
+    "lv": "Chránit",
     "level": "C1",
     "study": {
       "id": "c1-bewahren",
       "layout": "standardStudy",
-      "translation": "Chránit • Chránit",
+      "translation": "Chránit",
       "explanation": [
         "Hlavní myšlenka: bewahren znamená chránit, uchránit před něčím zlým (jemanden vor etwas bewahren) a zachovat něco hodnotného nebo neměnného (Ruhe, Traditionen, Erinnerungen).",
         "Pravidelné sloveso: er bewahrt, bewahrte, hat bewahrt. Uchránění: bewahren vor + dativ (koho? před čím?). Zachování: akuzativ – die Ruhe bewahren. Uchovat tajemství: ein Geheimnis bewahren.",

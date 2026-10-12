@@ -747,12 +747,12 @@ const A2_WORDS = [
   },
   {
     "de": "holen",
-    "lv": "Go after • Fetch",
+    "lv": "To fetch • To get",
     "level": "A2",
     "study": {
       "id": "a2-holen",
       "layout": "standardStudy",
-      "translation": "Go after • Fetch",
+      "translation": "To fetch • To get",
       "explanation": [
         "Main idea: holen means to fetch: to go and get something or someone and bring it back: holt, holte, hat geholt. It takes the accusative: Ich hole Brot. The movement goes from where you are to where the thing is, and back.",
         "Common combinations: Hilfe holen (to get help), den Arzt holen (to call the doctor), sich (Dat) etwas holen (to get something for oneself).",
@@ -2868,12 +2868,12 @@ const A2_WORDS = [
   },
   {
     "de": "anmelden",
-    "lv": "To apply",
+    "lv": "To register",
     "level": "A2",
     "study": {
       "id": "a2-anmelden",
       "layout": "standardStudy",
-      "translation": "To apply",
+      "translation": "To register",
       "explanation": [
         "Main idea: anmelden means to register or announce someone or something (a child at school, a visit, a place of residence, a car). It is a separable verb and takes the accusative.",
         "Forms: meldet an, meldete an, hat angemeldet. The reflexive form sich anmelden is even more common: to sign up or register (for a course, on a website, with a doctor).",
@@ -3383,12 +3383,12 @@ const A2_WORDS = [
   },
   {
     "de": "anstrengend",
-    "lv": "Exhausting • Tense",
+    "lv": "Exhausting • Tiring",
     "level": "A2",
     "study": {
       "id": "a2-anstrengend",
       "layout": "standardStudy",
-      "translation": "Exhausting • Tense",
+      "translation": "Exhausting • Tiring",
       "explanation": [
         "Main idea: anstrengend is an adjective meaning tiring: it describes something that takes a lot of effort: ein anstrengender Tag, eine anstrengende Arbeit. It is derived from sich anstrengen (to make an effort).",
         "It describes the cause, not the person's state: a tired person is müde, but a job or a day is anstrengend. Said of a person, anstrengend means that they wear others out with their behaviour.",
@@ -3892,8 +3892,8 @@ const A2_WORDS = [
           "lv": "The journalist is writing an article about climate protection."
         },
         {
-          "de": "Im Deutschen gibt es drei Artikel: der, die, das.",
-          "lv": "German has three articles: der, die, das."
+          "de": "Im Deutschen gibt es drei bestimmte Artikel: der, die, das.",
+          "lv": "German has three definite articles: der, die, das."
         },
         {
           "de": "Dieser Artikel ist leider ausverkauft.",
@@ -4349,12 +4349,12 @@ const A2_WORDS = [
   },
   {
     "de": "aufheben",
-    "lv": "Raise • Cancel • Save",
+    "lv": "To pick up • To cancel • To keep",
     "level": "A2",
     "study": {
       "id": "a2-aufheben",
       "layout": "standardStudy",
-      "translation": "Raise • Cancel • Save",
+      "translation": "To pick up • To cancel • To keep",
       "explanation": [
         "Main idea: aufheben is a separable verb with three main meanings: to pick up something from the ground, to cancel or abolish (a law, a ban, a decision) and to keep or save (a receipt, a letter, a memory) for later.",
         "Forms: hebt auf, hob auf, hat aufgehoben (a strong verb). In all meanings it takes the accusative: etwas aufheben. The prefix auf- separates in a main clause.",
@@ -5301,16 +5301,16 @@ const A2_WORDS = [
   },
   {
     "de": "aufrufen",
-    "lv": "Call • Open • Invite",
+    "lv": "To call out • To open • To call on",
     "level": "A2",
     "study": {
       "id": "a2-aufrufen",
       "layout": "standardStudy",
-      "translation": "Call • Open • Invite",
+      "translation": "To call out • To open • To call on",
       "explanation": [
         "Main idea: aufrufen is a separable verb meaning to call out by name (a pupil, a passenger, a number), to open on a computer (a web page, a file) and to call on or appeal (for a strike, for calm).",
         "Forms: ruft auf, rief auf, hat aufgerufen. When calling on someone to do something, use zu + dative: zum Streik aufrufen, zur Ruhe aufrufen. At school, aufrufen means that the teacher calls a pupil to answer.",
-        "In computing, aufrufen means to call up or open a page: eine Seite aufrufen (to open a page), ein Programm aufrufen (to launch a programme)."
+        "In computing, aufrufen means to call up or open a page: eine Seite aufrufen (to open a page), ein Programm aufrufen (to launch a program)."
       ],
       "examples": [
         {
@@ -7299,7 +7299,7 @@ const A2_WORDS = [
           "example": "Der Geldautomat ist außer Betrieb. – The cash machine is out of order."
         },
         {
-          "word": "die Bank (sols)",
+          "word": "die Bank (Pl. Bänke)",
           "meaning": "bench",
           "example": "Wir sitzen auf der Bank. – We are sitting on the bench."
         }
@@ -7310,7 +7310,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Bank (institution) and die Bank (bench) are spelt the same, but their plurals differ.",
-        "With a name, banks are normally written without an article: Deutsche Bank."
+        "Bank names are normally used with the article: bei der Deutschen Bank."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7402,7 +7402,7 @@ const A2_WORDS = [
           {
             "word": {
               "green": [
-                "die Bank (sols)"
+                "die Bank (Pl. Bänke)"
               ]
             },
             "meaning": {
@@ -7685,15 +7685,15 @@ const A2_WORDS = [
     "de": "Bauer",
     "de_article": "der",
     "de_plural": "die Bauern",
-    "lv": "A farmer",
+    "lv": "Farmer",
     "level": "A2",
     "study": {
       "id": "a2-bauer",
       "layout": "standardStudy",
-      "translation": "A farmer",
+      "translation": "Farmer",
       "explanation": [
         "Main idea: der Bauer is a masculine noun meaning farmer, someone who works in the fields and in agriculture. A woman is die Bäuerin.",
-        "The word belongs to the weak (n-) declension: in the singular the nominative is der Bauer, but all other cases take Bauern (den Bauern, dem Bauern, des Bauern). The plural is die Bauern.",
+        "The word belongs to the weak (n-) declension: in the singular the nominative is der Bauer, but all other cases take Bauern (den Bauern, dem Bauern, des Bauern; the genitive des Bauers is rare). The plural is die Bauern.",
         "In chess, der Bauer is the pawn. Das Bauer (neuter) means a birdcage, but this is rarer."
       ],
       "examples": [
@@ -7856,16 +7856,16 @@ const A2_WORDS = [
     "de": "Becher",
     "de_article": "der",
     "de_plural": "die Becher",
-    "lv": "Mug • Glass",
+    "lv": "Mug • Pot",
     "level": "A2",
     "study": {
       "id": "a2-becher",
       "layout": "standardStudy",
-      "translation": "Mug • Glass",
+      "translation": "Mug • Pot",
       "explanation": [
-        "Main idea: der Becher is a masculine noun. It is a mug or cup without a handle, or a tumbler, that you drink from: Pappbecher (paper cup), Plastikbecher (plastic cup). The plural is die Becher.",
+        "Main idea: der Becher is a masculine noun. It is a mug, beaker or tumbler that you drink from: Pappbecher (paper cup), Plastikbecher (plastic cup). The plural is die Becher.",
         "The word is also used for food packaging, for example ein Becher Joghurt (a pot of yoghurt) and ein Becher Eis (a tub of ice cream).",
-        "Unlike die Tasse (a cup with a handle) and das Glas (a glass), der Becher normally has no handle and is often made of plastic, paper, metal or ceramic."
+        "Unlike die Tasse (a classic cup with a handle, often with a saucer) and das Glas (a glass), der Becher is a simple, often taller vessel, frequently without a handle, made of plastic, paper, metal or ceramic."
       ],
       "examples": [
         {
@@ -7898,7 +7898,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "If the vessel has no handle and is meant for drinking or eating from, use Becher; if it has a handle, use die Tasse.",
+        "A simple drinking or food vessel, often without a handle (a mug, a paper cup, a pot of yoghurt), is a Becher; a classic cup with a handle and saucer is die Tasse.",
         "The plural is die Becher (the ending does not change)."
       ],
       "important": [
@@ -7912,7 +7912,6 @@ const A2_WORDS = [
           ],
           "purple": [
             "mug",
-            "cup",
             "tumbler",
             "pot",
             "tub"
@@ -9986,7 +9985,7 @@ const A2_WORDS = [
       "translation": "The floor",
       "explanation": [
         "Main idea: der Boden is a masculine noun meaning floor (in a room) and ground or soil (where things grow). The plural is die Böden (with an umlaut).",
-        "Other meanings: bottom (der Boden der Flasche, the bottom of the bottle) and loft or attic (regional, in the south). The phrase auf dem Boden can mean on the floor or on the ground.",
+        "Other meanings: bottom (der Boden der Flasche, the bottom of the bottle) and loft or attic (regional, mainly in northern and eastern Germany). The phrase auf dem Boden can mean on the floor or on the ground.",
         "Compounds: der Fußboden (floor), der Dachboden (attic), der Waldboden (forest floor), die Bodenheizung (underfloor heating)."
       ],
       "examples": [
@@ -10181,12 +10180,12 @@ const A2_WORDS = [
   },
   {
     "de": "borgen",
-    "lv": "Borrow • Lend",
+    "lv": "To borrow • To lend",
     "level": "A2",
     "study": {
       "id": "a2-borgen",
       "layout": "standardStudy",
-      "translation": "Borrow • Lend",
+      "translation": "To borrow • To lend",
       "explanation": [
         "Main idea: borgen is a verb with two opposite meanings: to borrow (sich etwas von jemandem borgen) and to lend (jemandem etwas borgen). It refers to money and objects for a limited time.",
         "Forms: borgt, borgte, hat geborgt. When borrowing, use a reflexive dative: Ich borge mir Geld von meinem Bruder. When lending, the person is in the dative: Ich borge dir mein Fahrrad.",
@@ -10229,7 +10228,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Watch the dative: jemandem etwas borgen is to lend, sich (dative) etwas von jemandem borgen is to borrow.",
-        "If it is unclear whether you mean giving or taking, use leihen or ausleihen."
+        "Leihen works the same way: jemandem etwas leihen (lend), sich etwas leihen (borrow)."
       ],
       "important": [
         "Borgen is colloquial; in writing and in formal style leihen is more common.",
@@ -11610,7 +11609,7 @@ const A2_WORDS = [
       "translation": "Gratitude",
       "explanation": [
         "Main idea: der Dank is a masculine noun meaning gratitude, the thanks you express to someone for help or a good deed. It is normally used in the singular.",
-        "Common phrases: Vielen Dank (thank you very much), jemandem Dank sagen (to thank someone), als Dank (as a thank-you), zum Dank. Dank is also a preposition: Dank deiner Hilfe (thanks to your help), usually followed by the genitive or dative."
+        "Common phrases: Vielen Dank (thank you very much), jemandem Dank sagen (to thank someone), als Dank (as a thank-you), zum Dank. dank (lower case) is also a preposition: dank deiner Hilfe (thanks to your help), usually followed by the genitive or dative."
       ],
       "examples": [
         {
@@ -13174,7 +13173,7 @@ const A2_WORDS = [
         {
           "word": "ja",
           "meaning": "yes (to an ordinary question)",
-          "example": "Hast du Hunger? – Ja. – Vai tu esi izsalcis? – Are you hungry? – Yes."
+          "example": "Hast du Hunger? – Ja. – Are you hungry? – Yes."
         },
         {
           "word": "trotzdem",
@@ -15514,7 +15513,7 @@ const A2_WORDS = [
       "translation": "Narrow • Tight",
       "explanation": [
         "Main idea: eng is an adjective meaning narrow (a street, a room), tight (clothes) and close (a friendship), and also cramped when there is too little room. Degrees of comparison: eng, enger, am engsten.",
-        "Of clothing, eng means too tight, fitting close to the body: Die Hose ist zu eng. Of relationships: eng befreundet (close friends)."
+        "Of clothing, eng means tight, fitting close to the body; zu eng means too tight: Die Hose ist zu eng. Of relationships: eng befreundet (close friends)."
       ],
       "examples": [
         {
@@ -15550,7 +15549,7 @@ const A2_WORDS = [
         "The opposite is weit (wide, loose) for clothes; breit describes width."
       ],
       "important": [
-        "For a narrow road or lane you usually say schmal; for a cramped space or tight clothing, eng."
+        "For a narrow road or lane you can say schmal or eng; for a cramped space or tight clothing, eng."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16925,14 +16924,14 @@ const A2_WORDS = [
   },
   {
     "de": "fest",
-    "lv": "Hard",
+    "lv": "Solid • Firm",
     "level": "A2",
     "study": {
       "id": "a2-fest",
       "layout": "standardStudy",
-      "translation": "Hard",
+      "translation": "Solid • Firm",
       "explanation": [
-        "Main idea: fest is an adjective and adverb. It means solid (not liquid): feste Nahrung; steady, permanent: ein fester Job, ein fester Termin; and firmly, tightly: fest halten, fest schlafen (to sleep soundly).",
+        "Main idea: fest is an adjective and adverb. It means solid (not liquid): feste Nahrung; steady, permanent: ein fester Job, ein fester Termin; and firmly, tightly: festhalten, fest schlafen (to sleep soundly).",
         "Degrees of comparison: fest, fester, am festesten. Before a noun it takes an ending: ein festes Dach."
       ],
       "examples": [
@@ -16956,7 +16955,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "hart",
-          "meaning": "hard to the touch; difficult",
+          "meaning": "hard to the touch; tough",
           "example": "Das Brot ist hart. – The bread is hard."
         },
         {
@@ -16971,7 +16970,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Solid as a state of matter: fest ↔ flüssig; hard as in difficult: hart."
+        "Solid as a state of matter: fest ↔ flüssig; hard to the touch: hart."
       ],
       "important": [
         "Do not confuse fest (solid, steady) with hart (hard to the touch, tough)."
@@ -17458,7 +17457,7 @@ const A2_WORDS = [
       ],
       "important": [
         "The perfect tense uses sein: ist gefolgt.",
-        "Folgen is also a plural noun: die Folge (consequence, result)."
+        "Folgen is also the plural of the noun die Folge (consequence, result)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18117,12 +18116,12 @@ const A2_WORDS = [
   },
   {
     "de": "gar",
-    "lv": "Altogether • Altogether (in negative sentences)",
+    "lv": "At all • Cooked",
     "level": "A2",
     "study": {
       "id": "a2-gar",
       "layout": "standardStudy",
-      "translation": "Altogether • Altogether (in negative sentences)",
+      "translation": "At all • Cooked",
       "explanation": [
         "Main idea: gar is most often an intensifier in negative statements: gar nicht (not at all), gar kein (none at all), gar nichts (nothing at all). It makes the negation stronger: Ich habe gar keine Zeit.",
         "Less often gar means done (cooked right through): Das Fleisch ist gar. Gar zu means far too."
@@ -18528,12 +18527,12 @@ const A2_WORDS = [
   },
   {
     "de": "gegenüber",
-    "lv": "Against • Versus • Compared to",
+    "lv": "Opposite • Towards • Compared with",
     "level": "A2",
     "study": {
       "id": "a2-gegenüber",
       "layout": "standardStudy",
-      "translation": "Against • Versus • Compared to",
+      "translation": "Opposite • Towards • Compared with",
       "explanation": [
         "Main idea: gegenüber is a preposition with the dative and means opposite: Gegenüber dem Bahnhof gibt es ein Café. It can come before or after the noun, but with a personal pronoun it usually follows it: mir gegenüber.",
         "In a figurative sense it means towards (an attitude): Er ist mir gegenüber freundlich; or compared with: Gegenüber dem Vorjahr ist der Preis gestiegen. As an adverb: Wir wohnen gegenüber (we live opposite)."
@@ -23025,7 +23024,7 @@ const A2_WORDS = [
         "To be acquainted with a person or place use kennen; to know a fact use wissen."
       ],
       "important": [
-        "Wissen rarely takes an accusative object and mainly only with pronouns: Ich weiß das, Ich weiß es; you cannot know a person with wissen.",
+        "Wissen takes an accusative object for facts and information: Ich weiß das, Ich weiß die Antwort; you cannot know a person with wissen.",
         "For an ability use können: Ich kann schwimmen, not Ich weiß schwimmen."
       ],
       "sectionAccents": {
@@ -24703,7 +24702,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche is feminine: die Kirsche, die Kirschen.",
-        "The name of the fruit is not the name of the tree: the tree is der Kirschbaum."
+        "The tree is usually called der Kirschbaum; die Kirsche normally means the fruit."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25691,12 +25690,12 @@ const A2_WORDS = [
   },
   {
     "de": "kleiden",
-    "lv": "Dress up",
+    "lv": "To dress",
     "level": "A2",
     "study": {
       "id": "a2-kleiden",
       "layout": "standardStudy",
-      "translation": "Dress up",
+      "translation": "To dress",
       "explanation": [
         "Main idea: kleiden means to dress, to put clothes on someone, and also sich kleiden, to dress in a certain way. The word sounds more formal than the everyday anziehen.",
         "Forms: kleidet, kleidete, hat gekleidet. It is a weak verb, transitive with the accusative: Sie kleidet das Kind. Reflexive: Er kleidet sich elegant. The participle is often used: gut gekleidet (well dressed).",
@@ -26096,7 +26095,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Der Körper is masculine: der Körper, die Körper.",
-        "When talking about a dead person, the body is die Leiche, not der Körper."
+        "When talking about a dead person, the usual word for the body is die Leiche."
       ],
       "sectionAccents": {
         "explanation": {
@@ -32450,12 +32449,12 @@ const A2_WORDS = [
   },
   {
     "de": "rechnen",
-    "lv": "To count",
+    "lv": "To calculate",
     "level": "A2",
     "study": {
       "id": "a2-rechnen",
       "layout": "standardStudy",
-      "translation": "To count",
+      "translation": "To calculate",
       "explanation": [
         "Main idea: rechnen means to do mathematical operations, that is, to calculate or work out sums. Without an object: Er kann gut rechnen. With numbers: Er rechnet im Kopf.",
         "Forms: rechnet, rechnete, hat gerechnet. With the preposition mit + dative it means \"to count on, to expect something\": Wir rechnen mit Regen.",
@@ -32464,7 +32463,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Kind kann schon gut rechnen.",
-          "lv": "The child can already count and calculate well."
+          "lv": "The child can already calculate well."
         },
         {
           "de": "Ich rechne im Kopf.",
@@ -34373,7 +34372,7 @@ const A2_WORDS = [
         "A line of people waiting is called a Schlange; Reihe is more a row or a sequence (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen is a fixed phrase: not in der Schlange sein, but Schlange stehen."
+        "To queue is normally the fixed phrase Schlange stehen (without an article); in der Schlange stehen means to be standing in the queue."
       ],
       "sectionAccents": {
         "explanation": {
@@ -34943,7 +34942,7 @@ const A2_WORDS = [
         },
         {
           "de": "Er hat viele Schulden bei der Bank.",
-          "lv": "He has a lot of debts at the bank."
+          "lv": "He has large debts with the bank."
         },
         {
           "de": "Sie gibt mir die Schuld für den Fehler.",
@@ -34963,7 +34962,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Debts are always plural: Schulden haben, Schulden machen."
+        "Debts are normally expressed in the plural: Schulden haben, Schulden machen."
       ],
       "important": [
         "To say you owe someone money, use bei jemandem Schulden haben."
@@ -37044,14 +37043,14 @@ const A2_WORDS = [
   },
   {
     "de": "steigen",
-    "lv": "Climb • Get up",
+    "lv": "To climb • To rise",
     "level": "A2",
     "study": {
       "id": "a2-steigen",
       "layout": "standardStudy",
-      "translation": "Climb • Get up",
+      "translation": "To climb • To rise",
       "explanation": [
-        "Main idea: steigen means to climb and to get up or in: to move upwards or into a vehicle. Of prices, temperatures and levels it means to rise.",
+        "Main idea: steigen means to climb and to get on or in: to move upwards or into a vehicle. Of prices, temperatures and levels it means to rise.",
         "Forms: steigt, stieg, ist gestiegen (auxiliary sein). Common constructions: auf einen Berg steigen (to climb a mountain), in den Bus steigen (to get on a bus), Die Preise steigen (prices are rising).",
         "With prefixes: einsteigen (to get on), aussteigen (to get off), umsteigen (to change)."
       ],
@@ -37100,7 +37099,7 @@ const A2_WORDS = [
           ],
           "purple": [
             "climb",
-            "get up",
+            "get on",
             "rise",
             "rising"
           ]
@@ -39315,7 +39314,7 @@ const A2_WORDS = [
         },
         {
           "de": "Es bleibt nichts übrig.",
-          "lv": "There is nothing else for it."
+          "lv": "There is nothing left."
         },
         {
           "de": "Die übrigen Gäste gehen nach Hause.",
@@ -39378,7 +39377,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "nothing else"
+                "nothing left"
               ]
             }
           },
@@ -43359,7 +43358,7 @@ const A2_WORDS = [
       "translation": "Currently",
       "explanation": [
         "Main idea: zurzeit is an adverb meaning currently or at the moment. It describes a state in the present period that may change later.",
-        "The written abbreviation is z. Z. The word does not change form. Synonyms are derzeit and im Moment.",
+        "The written abbreviation is zz. or zzt. (z. Z. stands for zur Zeit). The word does not change form. Synonyms are derzeit and im Moment.",
         "Spelling: written as one word, zurzeit means currently. Written as two words, zur Zeit + genitive means at the time of something (zur Zeit Goethes – in Goethe's time)."
       ],
       "examples": [
@@ -43549,12 +43548,12 @@ const A2_WORDS = [
     "de": "Zwilling",
     "de_article": "der",
     "de_plural": "die Zwillinge",
-    "lv": "Twins",
+    "lv": "Twin",
     "level": "A2",
     "study": {
       "id": "a2-zwilling",
       "layout": "standardStudy",
-      "translation": "Twins",
+      "translation": "Twin",
       "explanation": [
         "Main idea: der Zwilling is a masculine noun meaning twin, one of two children born at the same time. Plural: die Zwillinge.",
         "Zwillinge is also used for the two together: Sie hat Zwillinge bekommen. To stress the sex, say der Zwillingsbruder (twin brother) or die Zwillingsschwester (twin sister).",
@@ -45619,7 +45618,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "The opposite of schon is noch (still, yet): Bist du schon da? – Nein, noch nicht.",
+        "The opposite of schon is noch nicht (not yet): Bist du schon da? – Nein, noch nicht.",
         "bereits is more formal than schon; the meaning is the same."
       ],
       "important": [

@@ -369,7 +369,7 @@ const C1_WORDS = [
       "explanation": [
         "Main idea: das Einfamilienhaus is a house intended for one family – freestanding or attached to its neighbours, but with a single dwelling and usually its own garden.",
         "Neuter noun: das Einfamilienhaus, plural die Einfamilienhäuser. It is made up of Ein- + Familie + Haus.",
-        "The opposite is das Mehrfamilienhaus (block of flats). In British English it is often rendered as detached house, although a Einfamilienhaus can also be semi-detached."
+        "The opposite is das Mehrfamilienhaus (block of flats). In British English it is often rendered as detached house, although an Einfamilienhaus can also be semi-detached."
       ],
       "examples": [
         {
@@ -896,12 +896,12 @@ const C1_WORDS = [
     "de": "Öffentlichkeit",
     "de_article": "die",
     "de_plural": "die Öffentlichkeiten",
-    "lv": "Society • Openness",
+    "lv": "The public • Openness",
     "level": "C1",
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "Society • Openness",
+      "translation": "The public • Openness",
       "explanation": [
         "Main idea: die Öffentlichkeit is the public – everyone to whom something is accessible or known – and also openness, the state of something not being secret.",
         "Feminine noun: die Öffentlichkeit, with practically no plural. Common expressions: in der Öffentlichkeit (in public), an die Öffentlichkeit gehen (to go public), unter Ausschluss der Öffentlichkeit (with the public excluded), die Öffentlichkeit informieren.",
@@ -2568,12 +2568,12 @@ const C1_WORDS = [
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "Calling • Inclination • Appeal",
+    "lv": "Calling • Appointment • Appeal",
     "level": "C1",
     "study": {
       "id": "c1-berufung",
       "layout": "standardStudy",
-      "translation": "Calling • Inclination • Appeal",
+      "translation": "Calling • Appointment • Appeal",
       "explanation": [
         "Main idea: die Berufung has several meanings: a calling (an inner vocation for a profession), appointment to a post (especially at a university), reference to something (unter Berufung auf), and, in law, an appeal (Berufung einlegen).",
         "Feminine noun: die Berufung, plural die Berufungen. The related verb is berufen, and referring to something is expressed by sich berufen auf + accusative.",
@@ -2601,7 +2601,7 @@ const C1_WORDS = [
         {
           "word": "der Beruf",
           "meaning": "profession",
-          "example": "Mein Beruf ist Lehrer. – My profession is teacher."
+          "example": "Mein Beruf ist Lehrer. – I am a teacher by profession."
         },
         {
           "word": "der Einspruch",
@@ -4793,12 +4793,12 @@ const C1_WORDS = [
   },
   {
     "de": "verabschieden",
-    "lv": "Dismiss • Retire",
+    "lv": "To bid farewell • To pass (a law)",
     "level": "C1",
     "study": {
       "id": "c1-verabschieden",
       "layout": "standardStudy",
-      "translation": "Dismiss • Retire",
+      "translation": "To bid farewell • To pass (a law)",
       "explanation": [
         "Main idea: sich verabschieden means to say goodbye to someone: Ich verabschiede mich von dir. The person you part from follows with von + dative.",
         "Reflexive verb: ich verabschiede mich, er verabschiedet sich, verabschiedete sich, hat sich verabschiedet. Without sich, verabschieden can mean to see someone off formally, for instance to retire or dismiss them with a ceremony (der Direktor wurde in den Ruhestand verabschiedet), or to pass a law (ein Gesetz verabschieden).",
@@ -6458,12 +6458,12 @@ const C1_WORDS = [
   },
   {
     "de": "aufrechterhalten",
-    "lv": "Maintain in force",
+    "lv": "To maintain",
     "level": "C1",
     "study": {
       "id": "c1-aufrechterhalten",
       "layout": "standardStudy",
-      "translation": "Maintain in force",
+      "translation": "To maintain",
       "explanation": [
         "Main idea: aufrechterhalten means to maintain, to keep up: to keep something in force or in operation (order, contact, a claim, an offer).",
         "Separable verb: er hält aufrecht, hielt aufrecht, hat aufrechterhalten. What is maintained takes the accusative. With a zu-infinitive: aufrechtzuerhalten.",
