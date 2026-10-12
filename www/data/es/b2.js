@@ -81,7 +81,7 @@ const B2_WORDS = [
   },
   {
     "de": "anbelangen",
-    "lv": "referirse a",
+    "lv": "concernir • atañer",
     "level": "B2"
   },
   {
@@ -109,8 +109,187 @@ const B2_WORDS = [
   },
   {
     "de": "angebracht",
-    "lv": "adecuado • adecuado",
-    "level": "B2"
+    "lv": "adecuado • oportuno",
+    "level": "B2",
+    "study": {
+      "id": "b2-angebracht",
+      "layout": "standardStudy",
+      "translation": "adecuado • oportuno",
+      "explanation": [
+        "Idea principal: angebracht es un adjetivo (de anbringen) que significa adecuado, oportuno, apropiado en una situación concreta. Suele usarse como atributo con sein: Vorsicht ist angebracht.",
+        "Sirve para valorar un comportamiento, un comentario o una actuación: si es adecuado o no (nicht angebracht, unangebracht). Combinaciones: ein angebrachter Ton, eine angebrachte Bemerkung.",
+        "En sentido literal, angebracht también significa colocado o fijado: Das Schild ist an der Tür angebracht (el letrero está colocado en la puerta). Es la misma forma de participio de anbringen (bringt an, brachte an, hat angebracht)."
+      ],
+      "examples": [
+        {
+          "de": "Hier ist Vorsicht angebracht.",
+          "lv": "Aquí es aconsejable la prudencia."
+        },
+        {
+          "de": "Seine Bemerkung war nicht angebracht.",
+          "lv": "Su comentario no fue oportuno."
+        },
+        {
+          "de": "Ein freundlicher Ton ist hier angebracht.",
+          "lv": "Aquí lo adecuado es un tono amable."
+        },
+        {
+          "de": "Ich halte das für angebracht.",
+          "lv": "Me parece oportuno."
+        },
+        {
+          "de": "Das Schild ist an der Tür angebracht.",
+          "lv": "El letrero está colocado en la puerta."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "passend",
+          "meaning": "adecuado, apropiado",
+          "example": "Das ist ein passendes Geschenk. – Es un regalo apropiado."
+        },
+        {
+          "word": "angemessen",
+          "meaning": "adecuado, razonable",
+          "example": "Der Preis ist angemessen. – El precio es razonable."
+        },
+        {
+          "word": "unangebracht",
+          "meaning": "inoportuno, fuera de lugar",
+          "example": "Das war ein unangebrachter Witz. – Fue un chiste fuera de lugar."
+        }
+      ],
+      "tip": [
+        "La frase Das ist angebracht se usa para valorar una situación; para el caso contrario, lo adecuado es unangebracht.",
+        "Colocaciones frecuentes: Vorsicht ist angebracht, Zurückhaltung ist angebracht."
+      ],
+      "important": [
+        "Angebracht suele usarse con sein; delante de un sustantivo lleva terminación: eine angebrachte Bemerkung.",
+        "No lo confundas con angemessen: angebracht se refiere al lugar y al momento oportunos; angemessen, a lo proporcionado o justo."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "angebracht",
+            "anbringen",
+            "unangebracht"
+          ],
+          "purple": [
+            "adecuado",
+            "oportuno",
+            "colocado"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aconsejable"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oportuno"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "adecuado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oportuno"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "colocado"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "passend"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apropiado"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "angemessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "razonable"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unangebracht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "inoportuno"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "angehen",
@@ -156,7 +335,7 @@ const B2_WORDS = [
   },
   {
     "de": "anfreunden",
-    "lv": "hacer amigos",
+    "lv": "hacerse amigo",
     "level": "B2"
   },
   {
@@ -196,12 +375,12 @@ const B2_WORDS = [
   },
   {
     "de": "abblitzen",
-    "lv": "rechazar",
+    "lv": "ser rechazado • llevarse calabazas",
     "level": "B2"
   },
   {
     "de": "abbringen",
-    "lv": "disuadir • disuadir • desviar",
+    "lv": "disuadir • desviar",
     "level": "B2"
   },
   {
@@ -243,32 +422,339 @@ const B2_WORDS = [
   },
   {
     "de": "sich abfinden",
-    "lv": "soportar",
+    "lv": "resignarse • conformarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-abfinden",
-      "layout": "minimalStudy",
-      "translation": "resignarse a",
-      "rektion": "mit + kam?",
-      "explanation": "sich abfinden requiere la preposición definida mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "resignarse • conformarse",
+      "explanation": [
+        "Idea principal: sich abfinden mit es un verbo reflexivo que significa resignarse a algo desagradable que no se puede cambiar, o conformarse con ello. Después de mit va dativo: sich mit etwas abfinden.",
+        "Formas: er findet sich ab, fand sich ab, hat sich abgefunden. El prefijo ab- es separable: Ich finde mich damit ab. En el perfecto el auxiliar es haben, y ge se coloca entre ab- y el verbo.",
+        "Sin pronombre reflexivo, abfinden significa indemnizar: jemanden mit Geld abfinden (indemnizar a alguien con dinero)."
+      ],
+      "examples": [
+        {
+          "de": "Er kann sich nicht mit der Niederlage abfinden.",
+          "lv": "No consigue resignarse a la derrota."
+        },
+        {
+          "de": "Sie hat sich mit ihrem Schicksal abgefunden.",
+          "lv": "Se ha resignado a su destino."
+        },
+        {
+          "de": "Wir müssen uns damit abfinden.",
+          "lv": "Tenemos que conformarnos con ello."
+        },
+        {
+          "de": "Mit dem neuen Chef finde ich mich langsam ab.",
+          "lv": "Poco a poco me voy resignando al nuevo jefe."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich gewöhnen an",
+          "meaning": "acostumbrarse a",
+          "example": "Ich gewöhne mich an die Kälte. – Me acostumbro al frío."
+        },
+        {
+          "word": "akzeptieren",
+          "meaning": "aceptar",
+          "example": "Wir akzeptieren die Entscheidung. – Aceptamos la decisión."
+        },
+        {
+          "word": "sich fügen",
+          "meaning": "someterse, plegarse",
+          "example": "Er fügt sich dem Beschluss. – Se somete a la decisión."
+        }
+      ],
+      "tip": [
+        "Después de mit va dativo: mit dem Verlust, mit der Situation. Con un pronombre se dice damit.",
+        "Si quieres decir que no vas a ceder, di Ich finde mich nicht damit ab."
+      ],
+      "important": [
+        "No lo confundas con abfinden sin sich: significa indemnizar o compensar con dinero.",
+        "La forma del perfecto es sich abgefunden (con -ge- en medio), no gabgefunden."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich abfinden"
+            "abfinden",
+            "abgefunden",
+            "findet",
+            "finde",
+            "fand"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "resignarse",
+            "conformarse",
+            "indemnizar"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abfinden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resignarse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgefunden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resignado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abfinden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "conformarnos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "finde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resignando"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich gewöhnen an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "acostumbrarse a"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "akzeptieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aceptar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich fügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "someterse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "abgesehen",
     "lv": "aparte de • además de",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-abgesehen",
+      "layout": "standardStudy",
+      "translation": "aparte de • además de",
+      "explanation": [
+        "Idea principal: abgesehen es una forma de participio que funciona como preposición junto con von y significa aparte de, salvo o sin contar: Abgesehen vom Wetter war alles gut.",
+        "Después de abgesehen von va dativo: abgesehen von einem Fehler. Si sigue una oración completa, se usa abgesehen davon, dass …, y el verbo va al final de la subordinada. Abgesehen davon también sirve para añadir algo más, como el español aparte de eso o además."
+      ],
+      "examples": [
+        {
+          "de": "Abgesehen vom Wetter war der Urlaub schön.",
+          "lv": "Aparte del tiempo, las vacaciones fueron estupendas."
+        },
+        {
+          "de": "Abgesehen davon, dass es teuer ist, gefällt es mir.",
+          "lv": "Aparte de que es caro, me gusta."
+        },
+        {
+          "de": "Abgesehen von einem Kratzer ist das Auto in Ordnung.",
+          "lv": "Salvo por un arañazo, el coche está bien."
+        },
+        {
+          "de": "Abgesehen von ihr waren alle da.",
+          "lv": "Aparte de ella, estaban todos."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "außer",
+          "meaning": "excepto, salvo",
+          "example": "Alle außer mir waren da. – Estaban todos excepto yo."
+        },
+        {
+          "word": "bis auf",
+          "meaning": "excepto, salvo",
+          "example": "Bis auf einen Fehler war alles richtig. – Salvo un error, todo estaba bien."
+        },
+        {
+          "word": "einschließlich",
+          "meaning": "incluido",
+          "example": "Der Preis gilt einschließlich Frühstück. – El precio incluye el desayuno."
+        }
+      ],
+      "tip": [
+        "Después de abgesehen pon siempre von (o davon, dass): abgesehen von dir.",
+        "Comienzo frecuente de un comentario: Abgesehen davon … (Aparte de eso …)."
+      ],
+      "important": [
+        "Abgesehen suele usarse con von o davon, dass, para que quede claro qué se excluye.",
+        "Después de abgesehen von el sustantivo va en dativo: abgesehen vom Preis (= von dem Preis)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Abgesehen",
+            "abgesehen"
+          ],
+          "purple": [
+            "aparte de",
+            "salvo",
+            "además"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Aparte del"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Aparte de"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Salvo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Abgesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Aparte de"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "außer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "excepto"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bis auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "salvo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einschließlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "incluido"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "abgespannt",
@@ -294,7 +780,7 @@ const B2_WORDS = [
   },
   {
     "de": "abhören",
-    "lv": "escuchar a escondidas • escuchar a escondidas",
+    "lv": "escuchar a escondidas • interceptar",
     "level": "B2"
   },
   {
@@ -306,7 +792,7 @@ const B2_WORDS = [
     "de": "Abneigung",
     "de_article": "die",
     "de_plural": "die Abneigungen",
-    "lv": "disgusto • antipatía",
+    "lv": "aversión • antipatía",
     "level": "B2"
   },
   {
@@ -325,7 +811,7 @@ const B2_WORDS = [
   },
   {
     "de": "abrichten",
-    "lv": "entrenar a un animal",
+    "lv": "adiestrar • amaestrar",
     "level": "B2"
   },
   {
@@ -349,7 +835,7 @@ const B2_WORDS = [
   },
   {
     "de": "abschieben",
-    "lv": "alejar • desterrar",
+    "lv": "deportar • expulsar",
     "level": "B2"
   },
   {
@@ -425,7 +911,177 @@ const B2_WORDS = [
   {
     "de": "abtragen",
     "lv": "llevarse • desgastar • demoler",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-abtragen",
+      "layout": "standardStudy",
+      "translation": "llevarse • desgastar • demoler",
+      "explanation": [
+        "Idea principal: abtragen es un verbo con prefijo separable y varios significados: desgastar la ropa de tanto usarla, demoler o desmontar (un edificio, un muro) o allanar (una colina), y llevarse o retirar algo (por ejemplo, los platos de la mesa). Formas: trägt ab, trug ab, hat abgetragen.",
+        "El participio abgetragen describe a menudo ropa gastada: abgetragene Schuhe. En construcción, abtragen significa derribar o retirar poco a poco: eine Mauer abtragen.",
+        "Además, abtragen significa ir pagando deudas poco a poco: Schulden abtragen. En todos los significados el prefijo ab- se separa: Er trägt die Teller ab."
+      ],
+      "examples": [
+        {
+          "de": "Die Schuhe sind schon stark abgetragen.",
+          "lv": "Los zapatos ya están muy gastados."
+        },
+        {
+          "de": "Man trägt die alte Mauer Stein für Stein ab.",
+          "lv": "El viejo muro se derriba piedra a piedra."
+        },
+        {
+          "de": "Die Kellnerin trägt die Teller ab.",
+          "lv": "La camarera retira los platos."
+        },
+        {
+          "de": "Er trägt seine Schulden in Raten ab.",
+          "lv": "Va pagando sus deudas a plazos."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abreißen",
+          "meaning": "derribar, demoler",
+          "example": "Man hat das alte Haus abgerissen. – Derribaron la casa vieja."
+        },
+        {
+          "word": "abräumen",
+          "meaning": "recoger (la mesa)",
+          "example": "Sie räumt den Tisch ab. – Recoge la mesa."
+        },
+        {
+          "word": "verschleißen",
+          "meaning": "desgastarse",
+          "example": "Die Reifen verschleißen schnell. – Los neumáticos se desgastan rápido."
+        }
+      ],
+      "tip": [
+        "El contexto decide el significado: con ropa, abtragen es desgastar; con un muro, derribar; con la comida, retirar los platos.",
+        "En un restaurante oirás abtragen cuando se recoge la mesa."
+      ],
+      "important": [
+        "No confundas abtragen con abreißen: abreißen es derribar un edificio entero de golpe; abtragen, retirarlo poco a poco.",
+        "Perfecto: hat abgetragen (con ge- entre ab- y tragen)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "abtragen",
+            "trägt ab",
+            "trug ab",
+            "abgetragen",
+            "abtragen"
+          ],
+          "purple": [
+            "desgastar",
+            "demoler",
+            "retirar",
+            "gastada",
+            "pagando"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "abgetragen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gastados"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "derriba"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "retira"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "trägt",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pagando"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abreißen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "derribar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "abräumen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "recoger"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verschleißen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "desgastarse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "abtreten",
@@ -460,21 +1116,166 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-abwenden",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "alejarse de",
-      "rektion": "von + kam?",
-      "explanation": "sich abwenden requiere la preposición definida von + kam?.",
-      "forms": "von + kam?",
-      "formsLabel": "Gestión:",
+      "explanation": [
+        "Idea principal: sich abwenden es un verbo reflexivo con prefijo separable que significa apartarse o darse la vuelta: apartar físicamente la mirada o el cuerpo o, en sentido figurado, alejarse de alguien o de algo. Después de von va dativo: sich von jemandem abwenden.",
+        "Formas: wendet sich ab, wandte (con menos frecuencia wendete) sich ab, hat sich abgewandt (con menos frecuencia abgewendet). El prefijo ab- se separa: Sie wendet sich ab.",
+        "Sin pronombre reflexivo, abwenden + acusativo significa evitar o impedir: eine Gefahr abwenden (evitar un peligro), y en este caso suelen usarse las formas regulares: wendete ab, hat abgewendet."
+      ],
+      "examples": [
+        {
+          "de": "Sie wandte sich vom Fenster ab.",
+          "lv": "Se apartó de la ventana."
+        },
+        {
+          "de": "Viele Wähler haben sich von der Partei abgewandt.",
+          "lv": "Muchos votantes se han alejado del partido."
+        },
+        {
+          "de": "Er wendet sich von seinen Freunden ab.",
+          "lv": "Se aleja de sus amigos."
+        },
+        {
+          "de": "Die Mutter wandte sich enttäuscht ab.",
+          "lv": "La madre, decepcionada, se dio la vuelta."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "abwenden",
+          "meaning": "evitar, impedir",
+          "example": "Wir konnten die Katastrophe abwenden. – Pudimos evitar la catástrofe."
+        },
+        {
+          "word": "sich zuwenden",
+          "meaning": "volverse hacia, dedicarse a",
+          "example": "Sie wendet sich dem Kind zu. – Se vuelve hacia el niño."
+        },
+        {
+          "word": "sich umdrehen",
+          "meaning": "darse la vuelta",
+          "example": "Er dreht sich um. – Se da la vuelta."
+        }
+      ],
+      "tip": [
+        "Después de von va dativo: von der Politik, von den Freunden.",
+        "Recuerda los opuestos: sich abwenden (apartarse) y sich zuwenden (volverse hacia)."
+      ],
+      "important": [
+        "Sich abwenden y abwenden tienen significados distintos: el reflexivo expresa apartarse, y abwenden + acusativo, evitar un peligro.",
+        "En el perfecto de sich abwenden se usa más abgewandt que abgewendet."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich abwenden"
+            "abwenden"
           ],
-          "red": [
-            "von + kam?"
+          "purple": [
+            "apartarse",
+            "alejarse",
+            "evitar"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "wandte",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apartó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "abgewandt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "alejado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wendet",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aleja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wandte",
+                "ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se dio la vuelta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "abwenden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "evitar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuwenden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "volverse hacia"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "umdrehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "darse la vuelta"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -508,7 +1309,7 @@ const B2_WORDS = [
     "de": "Andeutung",
     "de_article": "die",
     "de_plural": "die Andeutungen",
-    "lv": "pista • indicación",
+    "lv": "insinuación • indicio",
     "level": "B2"
   },
   {
@@ -531,7 +1332,7 @@ const B2_WORDS = [
     "de": "Anorak",
     "de_article": "der",
     "de_plural": "die Anoraks",
-    "lv": "chaqueta deportiva con capucha",
+    "lv": "anorak",
     "level": "B2"
   },
   {
@@ -639,7 +1440,169 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
     "lv": "apariencia externa",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2--u-erlichkeit",
+      "layout": "standardStudy",
+      "translation": "apariencia externa",
+      "explanation": [
+        "Idea principal: die Äußerlichkeit es un sustantivo femenino que significa apariencia externa o detalle superficial: algo externo que no es esencial. Se usa a menudo en plural.",
+        "El plural es die Äußerlichkeiten. Normalmente se usa con matiz crítico: Er achtet nur auf Äußerlichkeiten (solo se fija en las apariencias).",
+        "La palabra deriva de äußerlich (externo); el sustantivo die Äußerlichkeit designa lo que solo es de cara afuera, sin profundidad."
+      ],
+      "examples": [
+        {
+          "de": "Ihm sind Äußerlichkeiten nicht wichtig.",
+          "lv": "Las apariencias no le importan."
+        },
+        {
+          "de": "Das ist nur eine Äußerlichkeit.",
+          "lv": "No es más que un detalle superficial."
+        },
+        {
+          "de": "Sie achtet zu sehr auf Äußerlichkeiten.",
+          "lv": "Se fija demasiado en las apariencias."
+        },
+        {
+          "de": "Man sollte sich nicht von Äußerlichkeiten täuschen lassen.",
+          "lv": "No hay que dejarse engañar por las apariencias."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Äußere",
+          "meaning": "aspecto exterior",
+          "example": "Sein Äußeres täuscht. – Su aspecto exterior engaña."
+        },
+        {
+          "word": "die Oberflächlichkeit",
+          "meaning": "superficialidad",
+          "example": "Ich mag keine Oberflächlichkeit. – No me gusta la superficialidad."
+        },
+        {
+          "word": "das Aussehen",
+          "meaning": "aspecto",
+          "example": "Sein Aussehen hat sich verändert. – Su aspecto ha cambiado."
+        }
+      ],
+      "tip": [
+        "Se usa normalmente con auf (auf Äußerlichkeiten achten) o con nur: nur eine Äußerlichkeit.",
+        "La palabra suele sonar crítica: indica que algo es solo superficial."
+      ],
+      "important": [
+        "El plural Äußerlichkeiten es mucho más frecuente que el singular.",
+        "Äußerlichkeit no es el aspecto en sentido neutro: el aspecto exterior se dice das Äußere."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Äußerlichkeit",
+            "Äußerlichkeiten"
+          ],
+          "purple": [
+            "apariencia externa",
+            "apariencias",
+            "superficial"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apariencias"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "superficial"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apariencias"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Äußerlichkeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apariencias"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Äußere"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aspecto exterior"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Oberflächlichkeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "superficialidad"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Aussehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aspecto"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Äußerung",
@@ -651,7 +1614,192 @@ const B2_WORDS = [
   {
     "de": "aussetzen",
     "lv": "exponer • someter • oponerse • abandonar",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-aussetzen",
+      "layout": "standardStudy",
+      "translation": "exponer • someter • oponerse • abandonar",
+      "explanation": [
+        "Idea principal: aussetzen es un verbo con prefijo separable y varios significados: abandonar (a un perro, a un niño), exponer o someter a algo (al frío, a un peligro), pararse o interrumpirse (un motor, una actividad) y, con an + dativo, poner reparos u oponerse.",
+        "Formas: setzt aus, setzte aus, hat ausgesetzt. Para expresar exposición se usa el dativo: jemanden/etwas einer Gefahr aussetzen; sich der Sonne aussetzen. La expresión ausgesetzt sein significa estar expuesto.",
+        "Con el sentido de poner reparos se usa la expresión etwas an jemandem/etwas auszusetzen haben: Ich habe nichts daran auszusetzen. Aquí zu se intercala entre el prefijo y la raíz: auszusetzen."
+      ],
+      "examples": [
+        {
+          "de": "Sie setzten den Hund im Wald aus.",
+          "lv": "Abandonaron al perro en el bosque."
+        },
+        {
+          "de": "Die Kinder sind der Kälte ausgesetzt.",
+          "lv": "Los niños están expuestos al frío."
+        },
+        {
+          "de": "Der Motor setzte plötzlich aus.",
+          "lv": "De repente, el motor se paró."
+        },
+        {
+          "de": "Ich habe nichts an deinem Plan auszusetzen.",
+          "lv": "No tengo nada que objetar a tu plan."
+        },
+        {
+          "de": "Du solltest dich nicht zu lange der Sonne aussetzen.",
+          "lv": "No deberías exponerte demasiado tiempo al sol."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "unterbrechen",
+          "meaning": "interrumpir",
+          "example": "Das Spiel wurde unterbrochen. – Se interrumpió el partido."
+        },
+        {
+          "word": "kritisieren",
+          "meaning": "criticar",
+          "example": "Er kritisiert den Plan. – Critica el plan."
+        },
+        {
+          "word": "verlassen",
+          "meaning": "abandonar, dejar",
+          "example": "Er hat seine Familie verlassen. – Abandonó a su familia."
+        }
+      ],
+      "tip": [
+        "El contexto decide el significado: un animal o un niño, abandonar; el sol o un peligro, exponer; un motor, pararse.",
+        "Con el sentido de poner reparos suele usarse en negativo: nichts auszusetzen haben."
+      ],
+      "important": [
+        "Con el sentido de exponer, aussetzen rige dativo (der Gefahr, dem Risiko), no acusativo.",
+        "No confundas ausgesetzt sein (estar expuesto) con ausgestellt (exhibido o expedido)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "aussetzen",
+            "setzt",
+            "setzte",
+            "ausgesetzt",
+            "auszusetzen"
+          ],
+          "purple": [
+            "abandonar",
+            "exponer",
+            "someter",
+            "pararse",
+            "poner reparos",
+            "oponerse",
+            "estar expuesto"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "setzten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Abandonaron"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "expuestos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se paró"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auszusetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "objetar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aussetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "exponerte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "unterbrechen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "interrumpir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kritisieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "criticar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "abandonar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "aussichtslos",
@@ -681,7 +1829,177 @@ const B2_WORDS = [
   {
     "de": "ausströmen",
     "lv": "fluir • emanar • irradiar",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-ausstr-men",
+      "layout": "standardStudy",
+      "translation": "fluir • emanar • irradiar",
+      "explanation": [
+        "Idea principal: ausströmen significa salir, escaparse o fluir hacia fuera (gas, aire, un líquido) o, en sentido figurado, irradiar o emanar algo (calma, calidez). El prefijo aus- se separa.",
+        "Formas: strömt aus, strömte aus. Cuando algo sale y hay movimiento, el auxiliar del perfecto es sein: Das Gas ist ausgeströmt. Con complemento en acusativo (Ruhe ausströmen) se usa haben: Sie hat Ruhe ausgeströmt.",
+        "La palabra está emparentada con strömen (fluir). Sus usos más frecuentes son técnicos, para fugas de gas, y figurados, para la impresión que causa una persona."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem Rohr strömt Gas aus.",
+          "lv": "Se escapa gas de la tubería."
+        },
+        {
+          "de": "Das Wasser ist aus dem Tank ausgeströmt.",
+          "lv": "El agua se ha salido del depósito."
+        },
+        {
+          "de": "Sie strömt Ruhe aus.",
+          "lv": "Irradia tranquilidad."
+        },
+        {
+          "de": "Aus der Küche strömte ein feiner Duft aus.",
+          "lv": "De la cocina salía un aroma delicado."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ausfließen",
+          "meaning": "salirse, derramarse",
+          "example": "Das Öl fließt aus dem Tank aus. – El aceite se sale del depósito."
+        },
+        {
+          "word": "austreten",
+          "meaning": "escaparse, salir",
+          "example": "Aus dem Rohr tritt Gas aus. – Sale gas de la tubería."
+        },
+        {
+          "word": "ausstrahlen",
+          "meaning": "irradiar",
+          "example": "Er strahlt Freude aus. – Irradia alegría."
+        }
+      ],
+      "tip": [
+        "Para una fuga de gas se dice Gas strömt aus; suele indicar una situación peligrosa.",
+        "El perfecto se forma con sein cuando no hay complemento: ist ausgeströmt."
+      ],
+      "important": [
+        "En el perfecto el auxiliar es sein si algo sale (ist ausgeströmt) y haben si hay complemento (hat Ruhe ausgeströmt).",
+        "Ausströmen no es lo mismo que ausschütten (verter, vaciar): eso lo hace una persona."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ausströmen",
+            "strömt aus",
+            "strömte aus",
+            "ausgeströmt",
+            "strömen"
+          ],
+          "purple": [
+            "fluir",
+            "escaparse",
+            "irradiar",
+            "emanar",
+            "fugas de gas"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "strömt",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "escapa"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgeströmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "salido"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömt",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Irradia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "strömte",
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "salía"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ausfließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "salirse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "austreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "escaparse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausstrahlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "irradiar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "austragen",
@@ -690,13 +2008,181 @@ const B2_WORDS = [
   },
   {
     "de": "austreiben",
-    "lv": "expulsar • destetar",
+    "lv": "expulsar • quitar la costumbre",
     "level": "B2"
   },
   {
     "de": "austreten",
-    "lv": "pisar • salir • abandonar",
-    "level": "B2"
+    "lv": "apagar pisando • desgastar • darse de baja",
+    "level": "B2",
+    "study": {
+      "id": "b2-austreten",
+      "layout": "standardStudy",
+      "translation": "apagar pisando • desgastar • darse de baja",
+      "explanation": [
+        "Idea principal: austreten es un verbo con prefijo separable con dos grupos principales de significados: sin complemento (con sein), darse de baja de una organización o escaparse (un líquido o un gas); con acusativo (con haben), apagar pisando o desgastar con los pies.",
+        "Formas: tritt aus, trat aus. Darse de baja: Er ist aus dem Verein ausgetreten (aus + dativo). Escaparse: Gas ist ausgetreten. Apagar pisando: Er hat die Zigarette ausgetreten.",
+        "El participio ausgetreten como adjetivo describe un lugar gastado por las pisadas: ausgetretene Stufen (escalones desgastados)."
+      ],
+      "examples": [
+        {
+          "de": "Er ist aus dem Verein ausgetreten.",
+          "lv": "Se dio de baja de la asociación."
+        },
+        {
+          "de": "Aus dem Tank ist Öl ausgetreten.",
+          "lv": "Del depósito se escapó aceite."
+        },
+        {
+          "de": "Er hat die Zigarette auf dem Boden ausgetreten.",
+          "lv": "Apagó el cigarrillo pisándolo en el suelo."
+        },
+        {
+          "de": "Die alten Stufen sind schon ausgetreten.",
+          "lv": "Los viejos escalones ya están desgastados."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eintreten",
+          "meaning": "entrar, afiliarse",
+          "example": "Er tritt in den Verein ein. – Se hace socio de la asociación."
+        },
+        {
+          "word": "kündigen",
+          "meaning": "rescindir, dar de baja",
+          "example": "Sie hat den Vertrag gekündigt. – Ha rescindido el contrato."
+        },
+        {
+          "word": "ausscheiden",
+          "meaning": "retirarse (de un cargo)",
+          "example": "Er scheidet aus dem Vorstand aus. – Deja la junta directiva."
+        }
+      ],
+      "tip": [
+        "El auxiliar decide el significado: ist ausgetreten (darse de baja, escaparse), hat ausgetreten (apagar pisando).",
+        "Para darse de baja de una organización se usa aus + dativo: aus der Kirche austreten."
+      ],
+      "important": [
+        "Austreten no es lo mismo que eintreten: entrar o afiliarse.",
+        "En el día a día, ich muss mal austreten es una forma educada de decir que hay que ir al servicio."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "austreten",
+            "ausgetreten",
+            "ausgetretene",
+            "tritt",
+            "trat"
+          ],
+          "purple": [
+            "darse de baja",
+            "escaparse",
+            "apagar pisando",
+            "desgastar",
+            "Darse de baja",
+            "desgastados"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dio de baja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "escapó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pisándolo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ausgetreten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "desgastados"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "eintreten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "entrar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rescindir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausscheiden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "retirarse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "auswärtig",
@@ -877,7 +2363,7 @@ const B2_WORDS = [
     "de": "Bauleiter",
     "de_article": "der",
     "de_plural": "die Bauleiter",
-    "lv": "gerente de construcción",
+    "lv": "jefe de obra",
     "level": "B2"
   },
   {
@@ -896,7 +2382,172 @@ const B2_WORDS = [
   {
     "de": "bebauen",
     "lv": "cultivar • construir en",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-bebauen",
+      "layout": "standardStudy",
+      "translation": "cultivar • construir en",
+      "explanation": [
+        "Idea principal: bebauen es un verbo con dos significados: construir en un terreno, urbanizarlo con edificios, y cultivar la tierra o un campo. Es inseparable y rige acusativo.",
+        "Formas: bebaut, bebaute, hat bebaut. El participio bebaut se usa mucho como adjetivo: dicht bebaut (densamente edificado), unbebaut (sin edificar). Para edificios se dice mit Häusern bebauen.",
+        "Para los campos también se usa anbauen (cultivar una planta concreta): Weizen anbauen; bebauen es más amplio y se refiere a trabajar la tierra en general."
+      ],
+      "examples": [
+        {
+          "de": "Das Grundstück wird mit Wohnhäusern bebaut.",
+          "lv": "En el solar se construirán viviendas."
+        },
+        {
+          "de": "Die Bauern bebauen das Feld mit Weizen.",
+          "lv": "Los campesinos cultivan trigo en el campo."
+        },
+        {
+          "de": "Das Gelände darf nicht bebaut werden.",
+          "lv": "En este terreno no se puede construir."
+        },
+        {
+          "de": "Der Hang ist dicht bebaut.",
+          "lv": "La ladera está densamente edificada."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bauen",
+          "meaning": "construir",
+          "example": "Sie bauen ein Haus. – Construyen una casa."
+        },
+        {
+          "word": "anbauen",
+          "meaning": "cultivar; ampliar (un edificio)",
+          "example": "Hier baut man Wein an. – Aquí se cultiva la vid."
+        },
+        {
+          "word": "bearbeiten",
+          "meaning": "trabajar, labrar",
+          "example": "Er bearbeitet den Boden. – Trabaja la tierra."
+        }
+      ],
+      "tip": [
+        "En el sentido de edificar se usa mit: mit Häusern bebauen; también es frecuente en pasiva: bebaut werden.",
+        "El contrario es unbebaut: sin edificar."
+      ],
+      "important": [
+        "Bebauen no es lo mismo que bauen: bauen es construir algo; bebauen, cubrir un terreno con construcciones.",
+        "En agricultura, para cultivar plantas se usa más anbauen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "bebauen",
+            "bebaut",
+            "bebaute",
+            "unbebaut",
+            "anbauen"
+          ],
+          "purple": [
+            "construir en",
+            "cultivar",
+            "edificado"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "construirán"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cultivan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "construir"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bebaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "edificada"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "construir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anbauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cultivar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bearbeiten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "trabajar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "bedürfen",
@@ -910,25 +2561,167 @@ const B2_WORDS = [
   },
   {
     "de": "sich befassen",
-    "lv": "tratar con",
+    "lv": "ocuparse de",
     "level": "B2",
     "study": {
       "id": "b2-sich-befassen",
-      "layout": "minimalStudy",
-      "translation": "tratar con",
-      "rektion": "mit + kam?",
-      "explanation": "sich befassen requiere la preposición definida mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "ocuparse de",
+      "explanation": [
+        "Idea principal: sich befassen es un verbo reflexivo que significa ocuparse de un asunto o tema, estudiarlo o tratarlo, a menudo por escrito o en un contexto profesional. Después de mit va dativo: sich mit etwas befassen.",
+        "Formas: befasst sich, befasste sich, hat sich befasst. El prefijo be- es inseparable, por eso no lleva ge-.",
+        "Suena más formal que sich beschäftigen; se usa para comisiones, estudios, tribunales y personas que investigan una cuestión."
+      ],
+      "examples": [
+        {
+          "de": "Ich befasse mich mit der Geschichte der Stadt.",
+          "lv": "Me ocupo de la historia de la ciudad."
+        },
+        {
+          "de": "Der Ausschuss befasst sich mit dem Problem.",
+          "lv": "La comisión se ocupa del problema."
+        },
+        {
+          "de": "Damit habe ich mich noch nie befasst.",
+          "lv": "Nunca me he ocupado de eso."
+        },
+        {
+          "de": "Die Studie befasst sich mit den Folgen des Klimawandels.",
+          "lv": "El estudio trata de las consecuencias del cambio climático."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beschäftigen mit",
+          "meaning": "ocuparse de, dedicarse a",
+          "example": "Er beschäftigt sich mit Musik. – Se dedica a la música."
+        },
+        {
+          "word": "sich auseinandersetzen mit",
+          "meaning": "analizar a fondo, enfrentarse a",
+          "example": "Wir setzen uns mit dem Thema auseinander. – Analizamos el tema a fondo."
+        },
+        {
+          "word": "behandeln",
+          "meaning": "tratar",
+          "example": "Das Buch behandelt dieses Thema. – El libro trata este tema."
+        }
+      ],
+      "tip": [
+        "Después de mit va dativo: mit dem Thema, mit der Frage.",
+        "Si hablas de forma más sencilla, puedes decir sich beschäftigen mit, que significa lo mismo."
+      ],
+      "important": [
+        "El perfecto es hat sich befasst, no hat sich gebefasst: be- es un prefijo inseparable.",
+        "Sich befassen se refiere más a pensar y analizar que a una actividad física."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich befassen"
+            "sich befassen",
+            "befasst sich"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "ocuparse de",
+            "tratarlo"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "befasse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ocupo de"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ocupa del"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ocupado de"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "befasst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "trata de"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beschäftigen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ocuparse de"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich auseinandersetzen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "analizar a fondo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behandeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tratar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -963,25 +2756,168 @@ const B2_WORDS = [
   },
   {
     "de": "sich begnügen",
-    "lv": "estar satisfecho con",
+    "lv": "conformarse con • contentarse con",
     "level": "B2",
     "study": {
       "id": "b2-sich-begnuegen",
-      "layout": "minimalStudy",
-      "translation": "estar satisfecho con",
-      "rektion": "mit + kam?",
-      "explanation": "sich begnügen requiere la preposición definida mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "conformarse con • contentarse con",
+      "explanation": [
+        "Idea principal: sich begnügen es un verbo reflexivo que significa conformarse o contentarse con menos de lo que se podría desear. Después de mit va dativo: sich mit etwas begnügen.",
+        "Formas: begnügt sich, begnügte sich, hat sich begnügt. El prefijo be- es inseparable, por eso no lleva ge-.",
+        "Después de mit va un sustantivo o un pronombre (damit), o bien una construcción de infinitivo: sich damit begnügen, etwas zu tun (limitarse a hacer algo)."
+      ],
+      "examples": [
+        {
+          "de": "Er begnügt sich mit einem kleinen Gehalt.",
+          "lv": "Se conforma con un sueldo modesto."
+        },
+        {
+          "de": "Wir mussten uns mit Brot und Wasser begnügen.",
+          "lv": "Tuvimos que conformarnos con pan y agua."
+        },
+        {
+          "de": "Sie begnügt sich nicht mit dem zweiten Platz.",
+          "lv": "No se conforma con el segundo puesto."
+        },
+        {
+          "de": "Ich begnüge mich damit, zuzuschauen.",
+          "lv": "Me limito a mirar."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zufrieden sein mit",
+          "meaning": "estar satisfecho con",
+          "example": "Ich bin mit dem Ergebnis zufrieden. – Estoy satisfecho con el resultado."
+        },
+        {
+          "word": "sich zufriedengeben",
+          "meaning": "darse por satisfecho",
+          "example": "Er gibt sich nicht zufrieden. – No se da por satisfecho."
+        },
+        {
+          "word": "sich beschränken auf",
+          "meaning": "limitarse a",
+          "example": "Ich beschränke mich auf das Wichtigste. – Me limito a lo más importante."
+        }
+      ],
+      "tip": [
+        "Después de mit va dativo: mit wenig, mit dem Ergebnis.",
+        "Contrario frecuente: sich nicht begnügen, cuando alguien quiere más."
+      ],
+      "important": [
+        "Sich begnügen no es lo mismo que zufrieden sein: expresa que alguien rebaja sus exigencias.",
+        "El perfecto es hat sich begnügt (sin ge-)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich begnügen"
+            "begnügen",
+            "begnügt"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "conformarse",
+            "contentarse",
+            "limitarse a hacer algo"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "begnügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "conforma"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnügen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "conformarnos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "conforma"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "begnüge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "limito"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zufrieden sein mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "estar satisfecho"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zufriedengeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "darse por satisfecho"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beschränken auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "limitarse a"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1078,7 +3014,7 @@ const B2_WORDS = [
     "de": "Fußbodenbelag",
     "de_article": "der",
     "de_plural": "die Fußbodenbeläge",
-    "lv": "recubrimiento de piso",
+    "lv": "revestimiento de suelo",
     "level": "B2"
   },
   {
@@ -1145,18 +3081,168 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-bemaechtigen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "apoderarse • tomar posesión de",
-      "rektion": "+ forma posesiva",
-      "explanation": "sich bemächtigen se utiliza en alemán moderno con la forma posesiva sin preposición.",
-      "forms": "+ forma posesiva",
-      "formsLabel": "Gestión:",
+      "explanation": [
+        "Idea principal: sich bemächtigen es un verbo reflexivo formal que significa apoderarse de algo o tomar posesión de ello: de un objeto, un lugar o el poder, a menudo por la fuerza; en sentido figurado se dice de los sentimientos que se apoderan de alguien.",
+        "Después de sich bemächtigen va genitivo: sich einer Sache bemächtigen. Formas: bemächtigt sich, bemächtigte sich, hat sich bemächtigt. El prefijo be- es inseparable.",
+        "Es una palabra de la lengua escrita y literaria; en el día a día se dice etwas nehmen o ergreifen."
+      ],
+      "examples": [
+        {
+          "de": "Die Rebellen bemächtigten sich der Stadt.",
+          "lv": "Los rebeldes se apoderaron de la ciudad."
+        },
+        {
+          "de": "Er bemächtigte sich des Autoschlüssels.",
+          "lv": "Se apoderó de la llave del coche."
+        },
+        {
+          "de": "Große Angst bemächtigte sich seiner.",
+          "lv": "Un gran miedo se apoderó de él."
+        },
+        {
+          "de": "Die Armee hat sich der Macht bemächtigt.",
+          "lv": "El ejército ha tomado el poder."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ergreifen",
+          "meaning": "tomar, hacerse con",
+          "example": "Er ergreift die Macht. – Toma el poder."
+        },
+        {
+          "word": "sich aneignen",
+          "meaning": "apropiarse de",
+          "example": "Er hat sich das Geld angeeignet. – Se apropió del dinero."
+        },
+        {
+          "word": "besetzen",
+          "meaning": "ocupar",
+          "example": "Die Soldaten besetzen die Stadt. – Los soldados ocupan la ciudad."
+        }
+      ],
+      "tip": [
+        "Recuerda el genitivo: sich des Hauses bemächtigen, sich der Macht bemächtigen. Puede ayudarte pensar en el español apoderarse de.",
+        "Reconocerás esta palabra en textos históricos, noticias y literatura."
+      ],
+      "important": [
+        "Sich bemächtigen rige genitivo, no acusativo.",
+        "No lo confundas con ermächtigen (autorizar): es otra palabra."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich bemächtigen"
+            "sich bemächtigen",
+            "bemächtigt sich",
+            "bemächtigte sich",
+            "bemächtigt"
+          ],
+          "purple": [
+            "apoderarse",
+            "tomar posesión"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bemächtigten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apoderaron"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apoderó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apoderó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bemächtigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tomado"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ergreifen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hacerse con"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich aneignen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apropiarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ocupar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1204,7 +3290,7 @@ const B2_WORDS = [
     "de": "Bergmann",
     "de_article": "der",
     "de_plural": "die Bergmänner",
-    "lv": "minero • minero de carbón",
+    "lv": "minero",
     "level": "B2"
   },
   {
@@ -1230,21 +3316,170 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-berufen",
-      "layout": "minimalStudy",
-      "translation": "invocar",
-      "rektion": "auf + ko?",
-      "explanation": "sich berufen requiere la preposición definida auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "referirse a",
+      "explanation": [
+        "Idea principal: sich berufen auf es un verbo reflexivo que significa remitirse o referirse a algo como base de un argumento: a una ley, un contrato, una fuente o una persona. Después de auf va acusativo: sich auf etwas berufen.",
+        "Formas: beruft sich, berief sich, hat sich berufen. El prefijo be- es inseparable.",
+        "Sin sich, berufen significa nombrar para un cargo: Er wurde zum Professor berufen. Este significado es distinto del de remitirse."
+      ],
+      "examples": [
+        {
+          "de": "Er beruft sich auf sein Recht.",
+          "lv": "Invoca su derecho."
+        },
+        {
+          "de": "Der Politiker beruft sich auf eine Studie.",
+          "lv": "El político se remite a un estudio."
+        },
+        {
+          "de": "Sie berief sich auf den Vertrag.",
+          "lv": "Se remitió al contrato."
+        },
+        {
+          "de": "Dabei kann ich mich auf niemanden berufen.",
+          "lv": "En esto no puedo remitirme a nadie."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verweisen auf",
+          "meaning": "remitir a, hacer referencia a",
+          "example": "Er verweist auf den Artikel. – Remite al artículo."
+        },
+        {
+          "word": "sich stützen auf",
+          "meaning": "basarse en",
+          "example": "Das Urteil stützt sich auf Beweise. – La sentencia se basa en pruebas."
+        },
+        {
+          "word": "zitieren",
+          "meaning": "citar",
+          "example": "Sie zitiert den Autor. – Cita al autor."
+        }
+      ],
+      "tip": [
+        "Se usa auf + acusativo: auf das Gesetz, auf einen Zeugen.",
+        "En el lenguaje jurídico, sich berufen auf es una fórmula básica."
+      ],
+      "important": [
+        "Sich berufen auf no es lo mismo que berufen: sin sich significa nombrar (para un cargo).",
+        "El perfecto es hat sich berufen (sin ge-)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich berufen"
+            "sich berufen",
+            "beruft sich",
+            "berief sich",
+            "berufen",
+            "berufen auf"
           ],
-          "red": [
-            "auf + ko?"
+          "purple": [
+            "remitirse",
+            "referirse",
+            "nombrar"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "beruft",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Invoca"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beruft",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "remite"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "berief",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "remitió"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "berufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "remitirme"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "remitir a"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich stützen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "basarse en"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zitieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "citar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1263,7 +3498,169 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Besatzungen",
     "lv": "tripulación • dotación • fuerzas de ocupación",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-besatzung",
+      "layout": "standardStudy",
+      "translation": "tripulación • dotación • fuerzas de ocupación",
+      "explanation": [
+        "Idea principal: die Besatzung es un sustantivo femenino con dos significados principales: la tripulación o dotación de un barco o un avión (las personas que trabajan a bordo) y las fuerzas de ocupación, o la propia ocupación tras una guerra.",
+        "El plural es die Besatzungen. Compuestos y combinaciones: die Besatzung eines Schiffes (la tripulación de un barco), die Besatzungsmacht (la potencia ocupante), die Besatzungszone (la zona de ocupación). Una palabra cercana es die Mannschaft (equipo, tripulación).",
+        "El contexto decide el significado: Flugzeug, Schiff, tripulación; Krieg, Stadt, Land, ocupación."
+      ],
+      "examples": [
+        {
+          "de": "Die Besatzung des Schiffes besteht aus zwanzig Mann.",
+          "lv": "La tripulación del barco está formada por veinte hombres."
+        },
+        {
+          "de": "Die Besatzung des Flugzeugs begrüßt die Passagiere.",
+          "lv": "La tripulación del avión da la bienvenida a los pasajeros."
+        },
+        {
+          "de": "Nach dem Krieg stand die Stadt unter Besatzung.",
+          "lv": "Después de la guerra, la ciudad estuvo bajo ocupación."
+        },
+        {
+          "de": "Die Besatzung zog nach zwei Jahren ab.",
+          "lv": "Las fuerzas de ocupación se retiraron al cabo de dos años."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Mannschaft",
+          "meaning": "equipo",
+          "example": "Die Mannschaft gewinnt das Spiel. – El equipo gana el partido."
+        },
+        {
+          "word": "die Crew",
+          "meaning": "tripulación",
+          "example": "Die Crew bereitet den Start vor. – La tripulación prepara el despegue."
+        },
+        {
+          "word": "die Besetzung",
+          "meaning": "reparto, ocupación",
+          "example": "Die Besetzung des Films ist hervorragend. – El reparto de la película es excelente."
+        }
+      ],
+      "tip": [
+        "Si se trata de un vuelo, Besatzung se refiere a los pilotos y los auxiliares de vuelo juntos; los pasajeros son Fluggäste.",
+        "En sentido histórico se usan mucho los compuestos con Besatzungs-."
+      ],
+      "important": [
+        "No confundas die Besatzung con die Besetzung: Besetzung es el reparto de actores o el proceso de ocupación.",
+        "El plural die Besatzungen designa varias tripulaciones o varias fuerzas de ocupación."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Besatzung",
+            "Besatzungen"
+          ],
+          "purple": [
+            "tripulación",
+            "dotación",
+            "fuerzas de ocupación"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tripulación"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tripulación"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ocupación"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besatzung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fuerzas de ocupación"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Mannschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "equipo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Crew"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tripulación"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Besetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "reparto"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "beschämen",
@@ -1282,25 +3679,173 @@ const B2_WORDS = [
   },
   {
     "de": "sich beschränken",
-    "lv": "limítate a",
+    "lv": "limitarse a",
     "level": "B2",
     "study": {
       "id": "b2-sich-beschraenken",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "limitarse a",
-      "rektion": "auf + ko?",
-      "explanation": "sich beschränken requiere la preposición definida auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Gestión:",
+      "explanation": [
+        "Idea principal: sich beschränken auf es un verbo reflexivo que significa limitarse a algo, hacer solo una parte determinada sin pasar de ahí. Después de auf va acusativo: sich auf etwas beschränken.",
+        "Formas: beschränkt sich, beschränkte sich, hat sich beschränkt. El prefijo be- es inseparable, por eso no lleva ge-.",
+        "Sin sich, beschränken significa limitar otra cosa: die Zahl beschränken. Para cosas que se circunscriben a algo se usa también sich beschränken auf: Das Problem beschränkt sich auf …"
+      ],
+      "examples": [
+        {
+          "de": "Ich beschränke mich auf das Wichtigste.",
+          "lv": "Me limito a lo más importante."
+        },
+        {
+          "de": "Der Redner beschränkte sich auf drei Punkte.",
+          "lv": "El orador se limitó a tres puntos."
+        },
+        {
+          "de": "Wir müssen uns auf das Nötigste beschränken.",
+          "lv": "Tenemos que limitarnos a lo imprescindible."
+        },
+        {
+          "de": "Das Problem beschränkt sich nicht auf Deutschland.",
+          "lv": "El problema no se limita a Alemania."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "begrenzen",
+          "meaning": "limitar",
+          "example": "Wir begrenzen die Zahl der Gäste. – Limitamos el número de invitados."
+        },
+        {
+          "word": "sich begnügen mit",
+          "meaning": "conformarse con",
+          "example": "Er begnügt sich mit wenig. – Se conforma con poco."
+        },
+        {
+          "word": "einschränken",
+          "meaning": "restringir, reducir",
+          "example": "Ich muss meinen Verbrauch einschränken. – Tengo que reducir mi consumo."
+        }
+      ],
+      "tip": [
+        "Después de auf va acusativo: auf das Wesentliche, auf drei Punkte.",
+        "A menudo se añade nur: Ich beschränke mich nur auf …"
+      ],
+      "important": [
+        "En alemán la preposición fija es auf, no mit: sich auf etwas beschränken, igual que en español se dice limitarse a algo.",
+        "Sich beschränken no es lo mismo que sich begnügen: el primero expresa que uno se pone límites; el segundo, que se conforma."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich"
+            "sich beschränken",
+            "beschränkt sich",
+            "beschränkte sich",
+            "beschränkt"
           ],
-          "red": [
-            "auf + ko?"
+          "purple": [
+            "limitarse a",
+            "limitar",
+            "circunscriben"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "beschränke",
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "limito"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränkte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "limitó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "limitarnos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beschränkt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "limita"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "begrenzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "limitar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich begnügen mit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "conformarse con"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "einschränken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "restringir"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1319,7 +3864,168 @@ const B2_WORDS = [
   {
     "de": "besessen",
     "lv": "obsesionado",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-besessen",
+      "layout": "standardStudy",
+      "translation": "obsesionado",
+      "explanation": [
+        "Idea principal: besessen es un adjetivo (procedente de besitzen) que significa obsesionado o poseído: dominado por una idea o un sentimiento hasta tal punto que este controla sus pensamientos. Después de von va dativo: besessen von etwas.",
+        "También se usa para una pasión fanática: von der Arbeit besessen sein, wie besessen arbeiten (trabajar como un poseso).",
+        "Cuidado: besessen es también el participio de besitzen (poseer): Er hat ein Haus besessen. Es otro uso; esta tarjeta trata del adjetivo obsesionado."
+      ],
+      "examples": [
+        {
+          "de": "Er ist besessen von seiner Arbeit.",
+          "lv": "Está obsesionado con su trabajo."
+        },
+        {
+          "de": "Sie ist von der Idee besessen, berühmt zu werden.",
+          "lv": "Está obsesionada con la idea de hacerse famosa."
+        },
+        {
+          "de": "Der Mann wirkte wie vom Teufel besessen.",
+          "lv": "El hombre parecía poseído por el diablo."
+        },
+        {
+          "de": "Er arbeitet wie besessen.",
+          "lv": "Trabaja como un poseso."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besitzen",
+          "meaning": "poseer, tener",
+          "example": "Er besitzt ein Haus. – Tiene una casa."
+        },
+        {
+          "word": "fanatisch",
+          "meaning": "fanático",
+          "example": "Er ist ein fanatischer Fan. – Es un hincha fanático."
+        },
+        {
+          "word": "besetzt",
+          "meaning": "ocupado",
+          "example": "Der Platz ist besetzt. – El sitio está ocupado."
+        }
+      ],
+      "tip": [
+        "Combinaciones características: besessen von einer Idee, besessen von Macht, wie besessen.",
+        "También puede tener un matiz positivo de pasión: ein besessener Sammler (un coleccionista apasionado)."
+      ],
+      "important": [
+        "Después de besessen va von + dativo: besessen von der Arbeit (en español, obsesionado con).",
+        "No confundas besessen con besetzt: besetzt significa ocupado (Der Platz ist besetzt)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besessen"
+          ],
+          "purple": [
+            "obsesionado",
+            "poseído",
+            "como un poseso"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "obsesionado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "obsesionada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "poseído"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besessen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "poseso"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "poseer"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fanatisch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fanático"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besetzt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ocupado"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "besiedeln",
@@ -1330,12 +4036,12 @@ const B2_WORDS = [
     "de": "Besinnung",
     "de_article": "die",
     "de_plural": "die Besinnungen",
-    "lv": "conciencia • conciencia",
+    "lv": "conocimiento • conciencia",
     "level": "B2"
   },
   {
     "de": "bespielen",
-    "lv": "reproducir • tocar",
+    "lv": "grabar",
     "level": "B2"
   },
   {
@@ -1347,12 +4053,12 @@ const B2_WORDS = [
   },
   {
     "de": "beständig",
-    "lv": "constante • constante",
+    "lv": "constante • estable",
     "level": "B2"
   },
   {
     "de": "bestärken",
-    "lv": "fortalecer • fortalecer • vigorizar",
+    "lv": "fortalecer • reafirmar • animar",
     "level": "B2"
   },
   {
@@ -1362,7 +4068,7 @@ const B2_WORDS = [
   },
   {
     "de": "bestechlich",
-    "lv": "comprable • sobornable",
+    "lv": "sobornable • corrupto",
     "level": "B2"
   },
   {
@@ -1372,7 +4078,7 @@ const B2_WORDS = [
   },
   {
     "de": "bestreiten",
-    "lv": "disputar • pagar • cubrir",
+    "lv": "negar • rebatir • costear",
     "level": "B2"
   },
   {
@@ -1382,25 +4088,173 @@ const B2_WORDS = [
   },
   {
     "de": "sich betätigen",
-    "lv": "operar • participar",
+    "lv": "dedicarse a • participar",
     "level": "B2",
     "study": {
       "id": "b2-sich-betaetigen",
-      "layout": "minimalStudy",
-      "translation": "dedicarse a",
-      "rektion": "in + kur?",
-      "explanation": "sich betätigen requiere la preposición definida en + ¿dónde?.",
-      "forms": "in + kur?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "dedicarse a • participar",
+      "explanation": [
+        "Idea principal: sich betätigen es un verbo reflexivo que significa dedicarse a algo, ser activo en un ámbito o participar en una actividad. Se usa a menudo con als o con un adverbio: sich sportlich betätigen, sich politisch betätigen.",
+        "Formas: betätigt sich, betätigte sich, hat sich betätigt. El prefijo be- es inseparable, por eso no lleva ge-.",
+        "Sin pronombre reflexivo, betätigen significa accionar: einen Schalter betätigen (pulsar un interruptor), die Bremse betätigen (accionar el freno)."
+      ],
+      "examples": [
+        {
+          "de": "Er betätigt sich als Helfer im Verein.",
+          "lv": "Colabora como ayudante en la asociación."
+        },
+        {
+          "de": "Sie betätigt sich gern sportlich.",
+          "lv": "Le gusta hacer deporte."
+        },
+        {
+          "de": "Rentner können sich ehrenamtlich betätigen.",
+          "lv": "Los jubilados pueden dedicarse al voluntariado."
+        },
+        {
+          "de": "Wer hat den Notschalter betätigt?",
+          "lv": "¿Quién ha accionado el interruptor de emergencia?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beschäftigen",
+          "meaning": "ocuparse de, dedicarse a",
+          "example": "Er beschäftigt sich mit Musik. – Se dedica a la música."
+        },
+        {
+          "word": "teilnehmen",
+          "meaning": "participar",
+          "example": "Sie nimmt am Kurs teil. – Participa en el curso."
+        },
+        {
+          "word": "mitmachen",
+          "meaning": "participar, apuntarse (coloquial)",
+          "example": "Machst du mit? – ¿Te apuntas?"
+        }
+      ],
+      "tip": [
+        "Añade un adverbio para indicar el ámbito: politisch, kreativ, ehrenamtlich, sportlich.",
+        "Para decir que alguien actúa en calidad de algo se usa als: sich als Künstler betätigen."
+      ],
+      "important": [
+        "No olvides sich: sin él, betätigen significa accionar, no dedicarse a algo.",
+        "Sich betätigen no es lo mismo que arbeiten: expresa una implicación activa, no solo un trabajo remunerado."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich"
+            "sich betätigen",
+            "betätigt sich",
+            "betätigte sich",
+            "betätigt",
+            "betätigen"
           ],
-          "red": [
-            "sich"
+          "purple": [
+            "dedicarse a",
+            "participar",
+            "accionar"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "betätigt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Colabora"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hacer deporte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dedicarse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "betätigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "accionado"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beschäftigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ocuparse de"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "teilnehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "participar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mitmachen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apuntarse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -1419,19 +4273,19 @@ const B2_WORDS = [
   {
     "de": "Betracht",
     "de_article": "der",
-    "lv": "consideración • consideración",
+    "lv": "consideración",
     "level": "B2"
   },
   {
     "de": "sich betragen",
-    "lv": "comportarse • comportarse",
+    "lv": "comportarse",
     "level": "B2"
   },
   {
     "de": "Betriebsrat",
     "de_article": "der",
     "de_plural": "die Betriebsräte",
-    "lv": "consejo de empresa",
+    "lv": "comité de empresa",
     "level": "B2"
   },
   {
@@ -1443,7 +4297,7 @@ const B2_WORDS = [
   },
   {
     "de": "beurlauben",
-    "lv": "conceder licencia • conceder permiso",
+    "lv": "conceder un permiso • suspender de empleo",
     "level": "B2"
   },
   {
@@ -1456,7 +4310,7 @@ const B2_WORDS = [
     "de": "Bewaffnung",
     "de_article": "die",
     "de_plural": "die Bewaffnungen",
-    "lv": "armamento • armamento",
+    "lv": "armamento",
     "level": "B2"
   },
   {
@@ -1466,7 +4320,7 @@ const B2_WORDS = [
   },
   {
     "de": "bewährt",
-    "lv": "probado • seguro • confiable",
+    "lv": "probado • fiable",
     "level": "B2"
   },
   {
@@ -1476,7 +4330,7 @@ const B2_WORDS = [
   },
   {
     "de": "bewandert",
-    "lv": "competente • competente",
+    "lv": "versado • competente",
     "level": "B2"
   },
   {
@@ -1502,7 +4356,7 @@ const B2_WORDS = [
     "de": "Bewusstsein",
     "de_article": "das",
     "de_plural": "die Bewusstseine",
-    "lv": "conciencia • conciencia",
+    "lv": "conocimiento • conciencia",
     "level": "B2"
   },
   {
@@ -1519,7 +4373,7 @@ const B2_WORDS = [
     "de": "Bezug",
     "de_article": "der",
     "de_plural": "die Bezüge",
-    "lv": "relación • conexión • tapa",
+    "lv": "relación • referencia • funda",
     "level": "B2"
   },
   {
@@ -1541,19 +4395,19 @@ const B2_WORDS = [
     "de": "Biegung",
     "de_article": "die",
     "de_plural": "die Biegungen",
-    "lv": "curvatura • curvatura",
+    "lv": "curva • curvatura",
     "level": "B2"
   },
   {
     "de": "bisweilen",
-    "lv": "a veces • a veces • a veces",
+    "lv": "a veces • de vez en cuando",
     "level": "B2"
   },
   {
     "de": "Bildhauer",
     "de_article": "der",
     "de_plural": "die Bildhauer",
-    "lv": "escultor • escultor",
+    "lv": "escultor",
     "level": "B2"
   },
   {
@@ -1577,7 +4431,7 @@ const B2_WORDS = [
     "de": "Bindung",
     "de_article": "die",
     "de_plural": "die Bindungen",
-    "lv": "vínculo • conexión • enlace químico • correas • vínculo emocional",
+    "lv": "vínculo • enlace • fijación",
     "level": "B2"
   },
   {
@@ -1666,7 +4520,7 @@ const B2_WORDS = [
   },
   {
     "de": "blenden",
-    "lv": "deslumbrar • deslumbrar • confundir • engañar",
+    "lv": "deslumbrar • cegar • engañar",
     "level": "B2"
   },
   {
@@ -1713,7 +4567,7 @@ const B2_WORDS = [
   },
   {
     "de": "blödsinnig",
-    "lv": "loco • tonto • tonto • estúpido",
+    "lv": "estúpido • absurdo • imbécil",
     "level": "B2"
   },
   {
@@ -1733,13 +4587,13 @@ const B2_WORDS = [
     "de": "Blutkonserve",
     "de_article": "die",
     "de_plural": "die Blutkonserven",
-    "lv": "sangre conservada",
+    "lv": "bolsa de sangre",
     "level": "B2"
   },
   {
     "de": "Blutalkohol",
     "de_article": "der",
-    "lv": "la cantidad de alcohol en la sangre",
+    "lv": "alcoholemia",
     "level": "B2"
   },
   {
@@ -1757,14 +4611,14 @@ const B2_WORDS = [
     "de": "Blutspender",
     "de_article": "der",
     "de_plural": "die Blutspender",
-    "lv": "donante",
+    "lv": "donante de sangre",
     "level": "B2"
   },
   {
     "de": "Blutsturz",
     "de_article": "der",
     "de_plural": "die Blutstürze",
-    "lv": "sangrado repentino de la boca o la nariz",
+    "lv": "hemorragia",
     "level": "B2"
   },
   {
@@ -1782,7 +4636,7 @@ const B2_WORDS = [
   },
   {
     "de": "bohnern",
-    "lv": "encerar el piso",
+    "lv": "encerar (el suelo)",
     "level": "B2"
   },
   {
@@ -1796,49 +4650,49 @@ const B2_WORDS = [
     "de": "Bootssteg",
     "de_article": "der",
     "de_plural": "die Bootsstege",
-    "lv": "muelle del barco",
+    "lv": "embarcadero • pantalán",
     "level": "B2"
   },
   {
     "de": "Bord",
     "de_article": "das",
     "de_plural": "die Borde",
-    "lv": "a bordo",
+    "lv": "borda",
     "level": "B2"
   },
   {
     "de": "Bordbuch",
     "de_article": "das",
     "de_plural": "die Bordbücher",
-    "lv": "cuaderno de bitácora del barco",
+    "lv": "cuaderno de bitácora",
     "level": "B2"
   },
   {
     "de": "Börse",
     "de_article": "die",
     "de_plural": "die Börsen",
-    "lv": "la bolsa de valores",
+    "lv": "bolsa (de valores)",
     "level": "B2"
   },
   {
     "de": "Borte",
     "de_article": "die",
     "de_plural": "die Borten",
-    "lv": "borde",
+    "lv": "ribete • galón",
     "level": "B2"
   },
   {
     "de": "Böschung",
     "de_article": "die",
     "de_plural": "die Böschungen",
-    "lv": "pendiente • pendiente • terraplén",
+    "lv": "pendiente • ladera • terraplén",
     "level": "B2"
   },
   {
     "de": "Bote",
     "de_article": "der",
     "de_plural": "die Boten",
-    "lv": "mensajero • mensajero • mensajero",
+    "lv": "mensajero • emisario",
     "level": "B2"
   },
   {
@@ -1850,7 +4704,7 @@ const B2_WORDS = [
     "de": "Brandschaden",
     "de_article": "der",
     "de_plural": "die Brandschäden",
-    "lv": "pérdida causada por un incendio",
+    "lv": "daños por incendio",
     "level": "B2"
   },
   {
@@ -1878,7 +4732,7 @@ const B2_WORDS = [
     "de": "Brandstifter",
     "de_article": "der",
     "de_plural": "die Brandstifter",
-    "lv": "un pirómano",
+    "lv": "incendiario • pirómano",
     "level": "B2"
   },
   {
@@ -1910,7 +4764,7 @@ const B2_WORDS = [
   {
     "de": "Brettsegeln",
     "de_article": "das",
-    "lv": "tabla a vela",
+    "lv": "windsurf",
     "level": "B2"
   },
   {
@@ -1922,7 +4776,7 @@ const B2_WORDS = [
   },
   {
     "de": "brillant",
-    "lv": "excelente • excelente",
+    "lv": "brillante • excelente",
     "level": "B2"
   },
   {
@@ -1941,7 +4795,7 @@ const B2_WORDS = [
     "de": "Buchführer",
     "de_article": "der",
     "de_plural": "die Buchführer",
-    "lv": "contador",
+    "lv": "contable",
     "level": "B2"
   },
   {
@@ -2051,7 +4905,7 @@ const B2_WORDS = [
   },
   {
     "de": "chartern",
-    "lv": "alquilar un avión o un barco para un viaje específico",
+    "lv": "fletar",
     "level": "B2"
   },
   {
@@ -2072,7 +4926,7 @@ const B2_WORDS = [
     "de": "Chefredakteur",
     "de_article": "der",
     "de_plural": "die Chefredakteure",
-    "lv": "editor gerente",
+    "lv": "redactor jefe",
     "level": "B2"
   },
   {
@@ -2106,7 +4960,7 @@ const B2_WORDS = [
     "de": "Chorleiter",
     "de_article": "der",
     "de_plural": "die Chorleiter",
-    "lv": "maestro del coro",
+    "lv": "director de coro",
     "level": "B2"
   },
   {
@@ -2158,7 +5012,7 @@ const B2_WORDS = [
   },
   {
     "de": "damalig",
-    "lv": "entonces • de ese tiempo",
+    "lv": "de entonces • de aquella época",
     "level": "B2"
   },
   {
@@ -2187,7 +5041,7 @@ const B2_WORDS = [
   },
   {
     "de": "dämpfen",
-    "lv": "silenciar • sofocar • cocinar al vapor • guisar",
+    "lv": "amortiguar • atenuar • cocer al vapor",
     "level": "B2"
   },
   {
@@ -2246,8 +5100,173 @@ const B2_WORDS = [
     "de": "Darstellung",
     "de_article": "die",
     "de_plural": "die Darstellungen",
-    "lv": "representación • esquema",
-    "level": "B2"
+    "lv": "representación • exposición",
+    "level": "B2",
+    "study": {
+      "id": "b2-darstellung",
+      "layout": "standardStudy",
+      "translation": "representación • exposición",
+      "explanation": [
+        "Idea principal: die Darstellung es un sustantivo femenino derivado del verbo darstellen. Significa la representación o la exposición de algo: lo que una persona cuenta, escribe, dibuja o interpreta.",
+        "El plural es die Darstellungen. Significados: exposición o versión (la descripción de unos hechos con palabras), representación (en un dibujo o esquema: grafische Darstellung), interpretación (de un papel por parte de un actor).",
+        "Combinaciones frecuentes: eine Darstellung geben (ofrecer una exposición), die Darstellung der Ereignisse (la versión de los hechos), die grafische Darstellung (la representación gráfica)."
+      ],
+      "examples": [
+        {
+          "de": "Die Darstellung des Unfalls war sehr genau.",
+          "lv": "El relato del accidente fue muy preciso."
+        },
+        {
+          "de": "Die Zeitung gibt eine einseitige Darstellung der Ereignisse.",
+          "lv": "El periódico ofrece una versión parcial de los hechos."
+        },
+        {
+          "de": "Die Darstellung des Hamlet durch den jungen Schauspieler war beeindruckend.",
+          "lv": "La interpretación de Hamlet a cargo del joven actor fue impresionante."
+        },
+        {
+          "de": "Die grafische Darstellung zeigt die Entwicklung der Preise.",
+          "lv": "La representación gráfica muestra la evolución de los precios."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Beschreibung",
+          "meaning": "descripción",
+          "example": "Die Beschreibung ist genau. – La descripción es precisa."
+        },
+        {
+          "word": "der Bericht",
+          "meaning": "informe",
+          "example": "Der Bericht ist kurz. – El informe es breve."
+        },
+        {
+          "word": "die Schilderung",
+          "meaning": "relato, narración viva",
+          "example": "Seine Schilderung war lebendig. – Su relato fue muy vivo."
+        }
+      ],
+      "tip": [
+        "Después de Darstellung suele ir von o un genitivo: die Darstellung des Problems, die Darstellung von Daten.",
+        "Para un diagrama o un esquema se dice grafische Darstellung."
+      ],
+      "important": [
+        "Darstellung no es lo mismo que Beschreibung: Beschreibung es una descripción con palabras; Darstellung puede ser también un dibujo, un esquema o la interpretación de un papel.",
+        "Die Darstellung es femenino; en plural, die Darstellungen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Darstellung",
+            "Darstellung",
+            "Darstellungen",
+            "darstellen"
+          ],
+          "purple": [
+            "representación",
+            "exposición",
+            "interpretación",
+            "versión"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "relato"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "versión"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "interpretación"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Darstellung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "representación"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Beschreibung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "descripción"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Bericht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "informe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schilderung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "relato"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Dasein",
@@ -2258,7 +5277,173 @@ const B2_WORDS = [
   {
     "de": "dasjenige",
     "lv": "eso",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-dasjenige",
+      "layout": "standardStudy",
+      "translation": "eso",
+      "explanation": [
+        "Idea principal: dasjenige es un pronombre demostrativo neutro que significa eso, aquello (lo que, el que). Normalmente remite a algo que se precisa a continuación con una oración de relativo: dasjenige, was/das …",
+        "Se declina: dasjenige (nominativo, acusativo), desjenigen (genitivo), demjenigen (dativo). En masculino es derjenige; en femenino, diejenige; en plural, diejenigen. Se declinan las dos partes (das + jenige).",
+        "Es una palabra formal y más frecuente por escrito; al hablar se suele decir das o das, was."
+      ],
+      "examples": [
+        {
+          "de": "Dasjenige, was er sagte, war richtig.",
+          "lv": "Lo que dijo era correcto."
+        },
+        {
+          "de": "Ich nehme dasjenige Buch, das auf dem Tisch liegt.",
+          "lv": "Me llevo el libro que está sobre la mesa."
+        },
+        {
+          "de": "Dasjenige Kind, das zuerst fertig ist, bekommt einen Preis.",
+          "lv": "El niño que termine primero recibe un premio."
+        },
+        {
+          "de": "Mit demjenigen Auto, das du gekauft hast, bin ich zufrieden.",
+          "lv": "Estoy contento con el coche que compraste."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "derjenige / diejenige",
+          "meaning": "el que, la que",
+          "example": "Derjenige, der kommt, bekommt Kuchen. – El que venga recibe pastel."
+        },
+        {
+          "word": "das, was",
+          "meaning": "lo que",
+          "example": "Ich verstehe das, was du sagst. – Entiendo lo que dices."
+        },
+        {
+          "word": "dieses",
+          "meaning": "este, esto",
+          "example": "Dieses Buch gefällt mir. – Este libro me gusta."
+        }
+      ],
+      "tip": [
+        "Después de dasjenige espera una oración de relativo con das o was; en la frase se puede sustituir por el simple das.",
+        "Se declinan las dos partes: mit demjenigen Auto, no mit dasjenigen."
+      ],
+      "important": [
+        "Dasjenige casi nunca se usa sin oración de relativo.",
+        "No lo confundas con dieses (este): dasjenige remite a algo que se va a precisar justo después."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dasjenige",
+            "demjenigen",
+            "desjenigen",
+            "derjenige",
+            "diejenige",
+            "diejenigen"
+          ],
+          "purple": [
+            "eso",
+            "aquello",
+            "lo que"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Lo que"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "el libro que"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dasjenige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "El niño que"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "demjenigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "el coche que"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "derjenige / diejenige"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "el que"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das, was"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lo que"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dieses"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "este"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Datei",
@@ -2271,7 +5456,7 @@ const B2_WORDS = [
     "de": "Datenspeicher",
     "de_article": "der",
     "de_plural": "die Datenspeicher",
-    "lv": "memoria de la computadora",
+    "lv": "memoria de datos • almacenamiento de datos",
     "level": "B2"
   },
   {
@@ -2299,7 +5484,7 @@ const B2_WORDS = [
     "de": "Dealer",
     "de_article": "der",
     "de_plural": "die Dealer",
-    "lv": "traficante de drogas ilegales",
+    "lv": "traficante de drogas • camello",
     "level": "B2"
   },
   {
@@ -2313,14 +5498,14 @@ const B2_WORDS = [
     "de": "Deck",
     "de_article": "das",
     "de_plural": "die Decks",
-    "lv": "la cubierta de un barco",
+    "lv": "cubierta",
     "level": "B2"
   },
   {
     "de": "Defekt",
     "de_article": "der",
     "de_plural": "die Defekte",
-    "lv": "deficiencia técnica • falla",
+    "lv": "defecto • avería",
     "level": "B2"
   },
   {
@@ -2342,7 +5527,7 @@ const B2_WORDS = [
   },
   {
     "de": "deinerseits",
-    "lv": "de tu lado",
+    "lv": "por tu parte",
     "level": "B2"
   },
   {
@@ -2420,7 +5605,7 @@ const B2_WORDS = [
   },
   {
     "de": "deuten",
-    "lv": "explicar • traducir • indicar",
+    "lv": "interpretar • señalar",
     "level": "B2"
   },
   {
@@ -2524,7 +5709,7 @@ const B2_WORDS = [
     "de": "Diele",
     "de_article": "die",
     "de_plural": "die Dielen",
-    "lv": "piso • tablero • vestíbulo",
+    "lv": "tabla del suelo • recibidor",
     "level": "B2"
   },
   {
@@ -2545,7 +5730,155 @@ const B2_WORDS = [
   {
     "de": "dingen",
     "lv": "contratar",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-dingen",
+      "layout": "standardStudy",
+      "translation": "contratar",
+      "explanation": [
+        "Idea principal: dingen es un verbo poco frecuente y anticuado que significa contratar (a una persona a cambio de un pago para un trabajo). Hoy se oye sobre todo en la expresión ein gedungener Mörder (un asesino a sueldo) y en textos históricos.",
+        "Formas: dingt, dang, hat gedungen (también existe la forma regular dingte, gedingt). Típicamente se contratan Söldner, Mörder, Führer. En el día a día se dice anheuern o engagieren.",
+        "Dingen rige acusativo: jemanden dingen."
+      ],
+      "examples": [
+        {
+          "de": "Der Graf dingte Söldner für den Krieg.",
+          "lv": "El conde contrató mercenarios para la guerra."
+        },
+        {
+          "de": "Sie dangen einen Führer für die Reise.",
+          "lv": "Contrataron a un guía para el viaje."
+        },
+        {
+          "de": "Die Polizei sucht einen gedungenen Mörder.",
+          "lv": "La policía busca a un asesino a sueldo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anheuern",
+          "meaning": "contratar, enrolar (coloquial)",
+          "example": "Sie heuern einen Fahrer an. – Contratan a un chófer."
+        },
+        {
+          "word": "engagieren",
+          "meaning": "contratar",
+          "example": "Wir engagieren einen Musiker. – Contratamos a un músico."
+        },
+        {
+          "word": "mieten",
+          "meaning": "alquilar",
+          "example": "Er mietet ein Auto. – Alquila un coche."
+        }
+      ],
+      "tip": [
+        "Lo más frecuente es que veas la frase ein gedungener Mörder; en el resto de la lengua la palabra es rara.",
+        "En la lengua actual, es preferible anheuern (contratar) o engagieren."
+      ],
+      "important": [
+        "Dingen es una palabra literaria o histórica; en el habla cotidiana sonaría extraña.",
+        "Las formas varían (dang/gedungen y dingte/gedingt); se usa sobre todo la forma fuerte."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dingen",
+            "dingte",
+            "dang",
+            "gedungen",
+            "gedungener"
+          ],
+          "purple": [
+            "contratar",
+            "asesino a sueldo"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "dingte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "contrató"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dangen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Contrataron"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gedungenen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "a sueldo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anheuern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "contratar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "engagieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "contratar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alquilar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Direktion",
@@ -2558,7 +5891,7 @@ const B2_WORDS = [
     "de": "Dirigent",
     "de_article": "der",
     "de_plural": "die Dirigenten",
-    "lv": "el conductor",
+    "lv": "director de orquesta",
     "level": "B2"
   },
   {
@@ -2597,7 +5930,7 @@ const B2_WORDS = [
     "de": "Dock",
     "de_article": "das",
     "de_plural": "die Docks",
-    "lv": "muelle",
+    "lv": "dique • dársena",
     "level": "B2"
   },
   {
@@ -2617,11 +5950,177 @@ const B2_WORDS = [
   {
     "de": "donnern",
     "lv": "tronar • retumbar • rugir",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-donnern",
+      "layout": "standardStudy",
+      "translation": "tronar • retumbar • rugir",
+      "explanation": [
+        "Idea principal: donnern significa tronar, retumbar o rugir: se dice del trueno (es donnert, truena), de un ruido fuerte (un tren, un camión, la artillería) o de una voz muy alta.",
+        "Formas: donnert, donnerte, hat gedonnert. Para el trueno se usa el impersonal es: Es donnert. Si el verbo describe un movimiento con estruendo, el perfecto se forma con sein: Der Zug ist über die Brücke gedonnert.",
+        "En sentido figurado, donnern es gritar con fuerza: Der Chef donnerte los."
+      ],
+      "examples": [
+        {
+          "de": "Es blitzt und donnert.",
+          "lv": "Relampaguea y truena."
+        },
+        {
+          "de": "Der Zug donnert über die Brücke.",
+          "lv": "El tren pasa retumbando por el puente."
+        },
+        {
+          "de": "Die Lastwagen donnerten über die Straße.",
+          "lv": "Los camiones pasaban con estruendo por la calle."
+        },
+        {
+          "de": "Der Chef donnerte: „Raus hier!“",
+          "lv": "El jefe rugió: «¡Fuera de aquí!»"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "grollen",
+          "meaning": "retumbar (a lo lejos)",
+          "example": "In der Ferne grollt es. – A lo lejos retumba el trueno."
+        },
+        {
+          "word": "krachen",
+          "meaning": "crujir, estallar",
+          "example": "Das Eis kracht unter den Füßen. – El hielo cruje bajo los pies."
+        },
+        {
+          "word": "rumpeln",
+          "meaning": "traquetear",
+          "example": "Der Wagen rumpelt über die Steine. – El carro traquetea sobre las piedras."
+        }
+      ],
+      "tip": [
+        "Para el trueno se dice Es donnert; para el relámpago, Es blitzt.",
+        "Si se habla de ruido y movimiento, donnern puede ir con sein: ist gedonnert."
+      ],
+      "important": [
+        "Trueno: es donnert con hat gedonnert, no con ist.",
+        "Donnern no se usa solo para el trueno: también para vehículos pesados o una voz furiosa."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "donnern",
+            "donnert",
+            "donnerte",
+            "gedonnert",
+            "Es donnert"
+          ],
+          "purple": [
+            "tronar",
+            "retumbar",
+            "rugir",
+            "truena"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "truena"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "retumbando"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnerten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "estruendo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "donnerte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rugió"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "grollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "retumbar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "krachen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "crujir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "rumpeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "traquetear"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "dopen",
-    "lv": "usar agentes dopantes",
+    "lv": "dopar • doparse",
     "level": "B2"
   },
   {
@@ -2652,12 +6151,12 @@ const B2_WORDS = [
   },
   {
     "de": "dornig",
-    "lv": "espinoso • espinoso",
+    "lv": "espinoso",
     "level": "B2"
   },
   {
     "de": "dörren",
-    "lv": "secar • secar",
+    "lv": "secar • deshidratar",
     "level": "B2"
   },
   {
@@ -2670,7 +6169,7 @@ const B2_WORDS = [
   {
     "de": "Dörrobst",
     "de_article": "das",
-    "lv": "frutos secos",
+    "lv": "fruta desecada • fruta deshidratada",
     "level": "B2"
   },
   {
@@ -2691,7 +6190,7 @@ const B2_WORDS = [
     "de": "Dosenmilch",
     "de_article": "die",
     "de_plural": "die Dosenmilche",
-    "lv": "leche condensada en latas",
+    "lv": "leche evaporada • leche condensada",
     "level": "B2"
   },
   {
@@ -2705,7 +6204,7 @@ const B2_WORDS = [
     "de": "Dosis",
     "de_article": "die",
     "de_plural": "die Dosen",
-    "lv": "dosis • dosis",
+    "lv": "dosis",
     "level": "B2"
   },
   {
@@ -2738,7 +6237,7 @@ const B2_WORDS = [
     "de": "Dramatiker",
     "de_article": "der",
     "de_plural": "die Dramatiker",
-    "lv": "dramaturgo • dramaturgo",
+    "lv": "dramaturgo",
     "level": "B2"
   },
   {
@@ -2757,7 +6256,7 @@ const B2_WORDS = [
     "de": "Dreck",
     "de_article": "der",
     "de_plural": "die Drecke",
-    "lv": "estiércol • tierra • barro • inmundicia",
+    "lv": "suciedad • mugre • barro",
     "level": "B2"
   },
   {
@@ -2796,7 +6295,7 @@ const B2_WORDS = [
   },
   {
     "de": "dreschen",
-    "lv": "trillar el grano • batir la clara de huevo",
+    "lv": "trillar",
     "level": "B2"
   },
   {
@@ -2829,7 +6328,7 @@ const B2_WORDS = [
     "de": "Drops",
     "de_article": "der",
     "de_plural": "die Drops",
-    "lv": "caramelos de frutas ácidas • piruletas",
+    "lv": "caramelos ácidos • caramelos de fruta",
     "level": "B2"
   },
   {
@@ -2928,7 +6427,7 @@ const B2_WORDS = [
     "de": "Düngemittel",
     "de_article": "das",
     "de_plural": "die Düngemittel",
-    "lv": "fertilizante • fertilizante mineral",
+    "lv": "fertilizante • abono",
     "level": "B2"
   },
   {
@@ -2949,15 +6448,181 @@ const B2_WORDS = [
   },
   {
     "de": "dünken",
-    "lv": "parecer • parecer",
+    "lv": "parecer",
     "level": "B2"
   },
   {
     "de": "Dunst",
     "de_article": "der",
     "de_plural": "die Dünste",
-    "lv": "vapor • humos • humos • vapor • niebla • neblina",
-    "level": "B2"
+    "lv": "vapor • bruma • neblina",
+    "level": "B2",
+    "study": {
+      "id": "b2-dunst",
+      "layout": "standardStudy",
+      "translation": "vapor • bruma • neblina",
+      "explanation": [
+        "Idea principal: der Dunst es un sustantivo masculino que significa vapor, bruma o neblina: una ligera calima que enturbia el aire, o bien olores y vapores que flotan en el ambiente.",
+        "El plural es die Dünste (con diéresis) y se usa poco, sobre todo para emanaciones: giftige Dünste. En singular, der Dunst se refiere a menudo a la bruma sobre una ciudad, un lago o un valle.",
+        "La expresión keinen blassen Dunst von etwas haben significa no tener ni idea de algo."
+      ],
+      "examples": [
+        {
+          "de": "Über dem See lag ein feiner Dunst.",
+          "lv": "Sobre el lago flotaba una fina neblina."
+        },
+        {
+          "de": "In der Küche hing der Dunst von gebratenem Fleisch.",
+          "lv": "En la cocina flotaba el olor a carne asada."
+        },
+        {
+          "de": "Giftige Dünste stiegen aus dem Fass auf.",
+          "lv": "Del barril salían vapores tóxicos."
+        },
+        {
+          "de": "Ich habe keinen blassen Dunst davon.",
+          "lv": "No tengo ni idea de eso."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Nebel",
+          "meaning": "niebla",
+          "example": "Im Herbst gibt es oft Nebel. – En otoño hay niebla a menudo."
+        },
+        {
+          "word": "der Dampf",
+          "meaning": "vapor (caliente)",
+          "example": "Dampf steigt aus dem Topf auf. – Sale vapor de la olla."
+        },
+        {
+          "word": "der Rauch",
+          "meaning": "humo",
+          "example": "Rauch steigt aus dem Schornstein auf. – Sale humo de la chimenea."
+        }
+      ],
+      "tip": [
+        "Dunst se usa cuando el aire está turbio o cargado de olores; para una niebla densa se dice Nebel.",
+        "La expresión keinen blassen Dunst haben es coloquial; úsala en conversaciones informales."
+      ],
+      "important": [
+        "Der Dunst no es lo mismo que Dampf: Dampf es vapor caliente; Dunst, una ligera bruma o emanación.",
+        "El plural die Dünste lleva diéresis y se usa poco."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Dunst",
+            "die Dünste",
+            "Dunst",
+            "Dünste",
+            "keinen blassen Dunst"
+          ],
+          "purple": [
+            "vapor",
+            "bruma",
+            "neblina",
+            "ni idea"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "neblina"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "olor"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dünste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vapores"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dunst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ni idea"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Nebel"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "niebla"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Dampf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vapor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Rauch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "humo"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "durcharbeiten",
@@ -2966,12 +6631,12 @@ const B2_WORDS = [
   },
   {
     "de": "durchaus",
-    "lv": "bastante • completamente • completamente",
+    "lv": "completamente • absolutamente",
     "level": "B2"
   },
   {
     "de": "durchbrechen",
-    "lv": "abrirse paso · abrirse paso · aparecer · abrirse paso",
+    "lv": "romper • abrirse paso • aparecer",
     "level": "B2"
   },
   {
@@ -2981,14 +6646,14 @@ const B2_WORDS = [
   },
   {
     "de": "durchbringen",
-    "lv": "superar • superar • lograr • curar • desperdiciar",
+    "lv": "sacar adelante • conseguir • despilfarrar",
     "level": "B2"
   },
   {
     "de": "Durchbruch",
     "de_article": "der",
     "de_plural": "die Durchbrüche",
-    "lv": "avance decisivo • brecha en una presa",
+    "lv": "avance decisivo • brecha",
     "level": "B2"
   },
   {
@@ -3023,7 +6688,7 @@ const B2_WORDS = [
   },
   {
     "de": "durchlaufen",
-    "lv": "correr a través de • fluir a través de",
+    "lv": "recorrer • atravesar",
     "level": "B2"
   },
   {
@@ -3052,17 +6717,17 @@ const B2_WORDS = [
   },
   {
     "de": "durchschauen",
-    "lv": "ver a través de • descubrir",
+    "lv": "calar • descubrir",
     "level": "B2"
   },
   {
     "de": "durchschlagen",
-    "lv": "colar • pasar por un colador • perforar • perforar un agujero",
+    "lv": "colar • perforar • atravesar",
     "level": "B2"
   },
   {
     "de": "durchsehen",
-    "lv": "examinar · examinar · mirar a través",
+    "lv": "revisar • examinar • mirar a través",
     "level": "B2"
   },
   {
@@ -3077,7 +6742,7 @@ const B2_WORDS = [
   },
   {
     "de": "dürr",
-    "lv": "seco • reseco • marchito • magro",
+    "lv": "seco • árido • flaco",
     "level": "B2"
   },
   {
@@ -3132,7 +6797,7 @@ const B2_WORDS = [
   },
   {
     "de": "edel",
-    "lv": "noble • sublime • noble",
+    "lv": "noble • sublime",
     "level": "B2"
   },
   {
@@ -3163,7 +6828,7 @@ const B2_WORDS = [
   },
   {
     "de": "ehelich",
-    "lv": "conyugal-",
+    "lv": "conyugal • matrimonial",
     "level": "B2"
   },
   {
@@ -3177,7 +6842,7 @@ const B2_WORDS = [
     "de": "Eheschließung",
     "de_article": "die",
     "de_plural": "die Eheschließungen",
-    "lv": "matrimonio • matrimonio",
+    "lv": "matrimonio • boda",
     "level": "B2"
   },
   {
@@ -3226,7 +6891,7 @@ const B2_WORDS = [
   },
   {
     "de": "ehrenvoll",
-    "lv": "honorable • honorable",
+    "lv": "honorable • honroso",
     "level": "B2"
   },
   {
@@ -3287,12 +6952,12 @@ const B2_WORDS = [
     "de": "Eifer",
     "de_article": "der",
     "de_plural": "die Eifer",
-    "lv": "diligencia • diligencia • pasión • ardor • afán",
+    "lv": "afán • celo • entusiasmo",
     "level": "B2"
   },
   {
     "de": "eifrig",
-    "lv": "diligente • diligente • diligente • ansioso",
+    "lv": "diligente • aplicado • afanoso",
     "level": "B2"
   },
   {
@@ -3326,13 +6991,178 @@ const B2_WORDS = [
   {
     "de": "eigenwillig",
     "lv": "voluntarioso • obstinado • independiente",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-eigenwillig",
+      "layout": "standardStudy",
+      "translation": "voluntarioso • obstinado • independiente",
+      "explanation": [
+        "Idea principal: eigenwillig es un adjetivo que describe a una persona o una cosa con voluntad y estilo propios: obstinada, testaruda, pero a menudo también original, peculiar, que no sigue a los demás.",
+        "Referido a personas, suele significar obstinado, que quiere hacer las cosas a su manera: ein eigenwilliges Kind. Referido a un estilo, una interpretación o un gusto, significa peculiar o personal: ein eigenwilliger Stil, eine eigenwillige Interpretation.",
+        "La palabra se compone de eigen (propio) y Wille (voluntad), por eso puede entenderse como con voluntad propia; de ahí también el matiz de independiente."
+      ],
+      "examples": [
+        {
+          "de": "Sie ist ein eigenwilliges Kind.",
+          "lv": "Es una niña muy obstinada."
+        },
+        {
+          "de": "Er hat eine eigenwillige Art, Probleme zu lösen.",
+          "lv": "Tiene una forma muy peculiar de resolver los problemas."
+        },
+        {
+          "de": "Der Künstler ist für seinen eigenwilligen Stil bekannt.",
+          "lv": "El artista es conocido por su estilo tan peculiar."
+        },
+        {
+          "de": "Der alte Mann bleibt eigenwillig und lässt sich nichts sagen.",
+          "lv": "El anciano sigue siendo testarudo y no deja que nadie le diga nada."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eigensinnig",
+          "meaning": "terco, obstinado",
+          "example": "Das Kind ist eigensinnig. – El niño es terco."
+        },
+        {
+          "word": "stur",
+          "meaning": "cabezota, tozudo",
+          "example": "Er bleibt stur bei seiner Meinung. – Se mantiene tozudo en su opinión."
+        },
+        {
+          "word": "originell",
+          "meaning": "original",
+          "example": "Das ist eine originelle Idee. – Es una idea original."
+        }
+      ],
+      "tip": [
+        "El contexto decide el significado: un niño o una persona mayor, más bien obstinado; un estilo o una idea, peculiar.",
+        "Lleva las terminaciones de todos los adjetivos: ein eigenwilliger Mensch."
+      ],
+      "important": [
+        "Eigenwillig no es lo mismo que willkürlich (arbitrario, sin reglas): habla de la voluntad y el estilo propios de una persona.",
+        "La palabra puede ser tanto crítica como elogiosa; depende de la frase."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "eigenwillig",
+            "eigenwilliges",
+            "eigenwilliger",
+            "eigenwillige"
+          ],
+          "purple": [
+            "obstinado",
+            "testaruda",
+            "peculiar",
+            "voluntad propia"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "eigenwilliges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "obstinada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peculiar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwilligen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "peculiar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eigenwillig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "testarudo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "eigensinnig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "terco"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stur"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tozudo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "originell"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "original"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Eilbote",
     "de_article": "der",
     "de_plural": "die Eilboten",
-    "lv": "mensajero • mensajero",
+    "lv": "mensajero • recadero",
     "level": "B2"
   },
   {
@@ -3344,7 +7174,7 @@ const B2_WORDS = [
   },
   {
     "de": "einäschern",
-    "lv": "cremar • quemar en un incendio",
+    "lv": "cremar • reducir a cenizas",
     "level": "B2"
   },
   {
@@ -3363,7 +7193,7 @@ const B2_WORDS = [
     "de": "Einbildung",
     "de_article": "die",
     "de_plural": "die Einbildungen",
-    "lv": "fantasía • imaginación • fantasía • presunción • presunción",
+    "lv": "imaginación • fantasía • presunción",
     "level": "B2"
   },
   {
@@ -3373,7 +7203,7 @@ const B2_WORDS = [
   },
   {
     "de": "einbüßen",
-    "lv": "sufrir pérdidas materiales",
+    "lv": "perder",
     "level": "B2"
   },
   {
@@ -3393,7 +7223,7 @@ const B2_WORDS = [
   },
   {
     "de": "einfassen",
-    "lv": "incluir • enmarcar • engastar",
+    "lv": "ribetear • enmarcar • engastar",
     "level": "B2"
   },
   {
@@ -3408,7 +7238,7 @@ const B2_WORDS = [
   },
   {
     "de": "einfrieren",
-    "lv": "congelar • congelar • detener",
+    "lv": "congelar • paralizar",
     "level": "B2"
   },
   {
@@ -3434,19 +7264,19 @@ const B2_WORDS = [
   },
   {
     "de": "eingebildet",
-    "lv": "engreído • engreído",
+    "lv": "engreído • presumido",
     "level": "B2"
   },
   {
     "de": "Eingebung",
     "de_article": "die",
     "de_plural": "die Eingebungen",
-    "lv": "inspiración • una idea repentina",
+    "lv": "inspiración • ocurrencia",
     "level": "B2"
   },
   {
     "de": "eingehen",
-    "lv": "entrar • llegar • entrar • entrar • encogerse • aceptar • apostar",
+    "lv": "llegar • encoger • aceptar",
     "level": "B2"
   },
   {
@@ -3503,19 +7333,19 @@ const B2_WORDS = [
     "de": "Eingriff",
     "de_article": "der",
     "de_plural": "die Eingriffe",
-    "lv": "intervención • cirugía",
+    "lv": "intervención • operación",
     "level": "B2"
   },
   {
     "de": "einhüllen",
-    "lv": "envolver • envolver • envolver",
+    "lv": "envolver",
     "level": "B2"
   },
   {
     "de": "Einigkeit",
     "de_article": "die",
     "de_plural": "die Einigkeiten",
-    "lv": "unidad • unidad • consenso",
+    "lv": "unidad • unanimidad",
     "level": "B2"
   },
   {
@@ -3527,35 +7357,176 @@ const B2_WORDS = [
     "de": "Einklang",
     "de_article": "der",
     "de_plural": "die Einklänge",
-    "lv": "acuerdo",
+    "lv": "armonía • consonancia",
     "level": "B2"
   },
   {
     "de": "einkleiden",
-    "lv": "vestir • vestir",
+    "lv": "vestir",
     "level": "B2"
   },
   {
     "de": "sich einlassen",
-    "lv": "dejar entrar",
+    "lv": "meterse en • involucrarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-einlassen",
-      "layout": "minimalStudy",
-      "translation": "involucrarse en",
-      "rektion": "auf + ko?",
-      "explanation": "sich einlassen requiere la preposición definida auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "meterse en • involucrarse",
+      "explanation": [
+        "Idea principal: sich einlassen es un verbo reflexivo con prefijo separable que significa meterse en algo, involucrarse en un negocio o en una relación, a menudo arriesgados. Se usa con auf + acusativo (sich auf etwas einlassen) o con mit + dativo (sich mit jemandem einlassen).",
+        "Formas: lässt sich ein, ließ sich ein, hat sich eingelassen. El prefijo ein- se separa: Ich lasse mich darauf nicht ein.",
+        "Sin pronombre reflexivo, einlassen significa dejar entrar: jemanden einlassen (dejar entrar a alguien en un lugar)."
+      ],
+      "examples": [
+        {
+          "de": "Ich lasse mich auf das Risiko nicht ein.",
+          "lv": "No me arriesgo a eso."
+        },
+        {
+          "de": "Auf solche Geschäfte sollte man sich nicht einlassen.",
+          "lv": "En negocios así no conviene meterse."
+        },
+        {
+          "de": "Sie hat sich mit dem Falschen eingelassen.",
+          "lv": "Se ha liado con quien no debía."
+        },
+        {
+          "de": "Er ließ sich auf eine Diskussion ein.",
+          "lv": "Se metió en una discusión."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich beteiligen an",
+          "meaning": "participar en",
+          "example": "Er beteiligt sich an der Diskussion. – Participa en el debate."
+        },
+        {
+          "word": "sich engagieren",
+          "meaning": "comprometerse, implicarse",
+          "example": "Sie engagiert sich für den Umweltschutz. – Se implica en la protección del medio ambiente."
+        },
+        {
+          "word": "eingehen auf",
+          "meaning": "aceptar, acceder a",
+          "example": "Er geht auf den Vorschlag ein. – Acepta la propuesta."
+        }
+      ],
+      "tip": [
+        "Después de auf va acusativo: auf ein Abenteuer, auf einen Kompromiss. Después de mit, dativo: mit jemandem.",
+        "A menudo con negación: Darauf lasse ich mich nicht ein (No pienso meterme en eso)."
+      ],
+      "important": [
+        "Sich mit jemandem einlassen suele sonar crítico, como si la relación no fuera deseable.",
+        "No lo confundas con einlassen sin sich: significa dejar entrar."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einlassen"
+            "einlassen",
+            "lässt",
+            "ließ",
+            "eingelassen",
+            "lasse"
           ],
-          "red": [
-            "auf + ko?"
+          "purple": [
+            "meterse en",
+            "involucrarse",
+            "dejar entrar"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "lasse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einlassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "meterse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingelassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "liado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ließ"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "metió"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich beteiligen an"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "participar en"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich engagieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "implicarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eingehen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aceptar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -3566,7 +7537,7 @@ const B2_WORDS = [
   },
   {
     "de": "einleuchten",
-    "lv": "ser entendido • ser claro",
+    "lv": "resultar evidente • convencer",
     "level": "B2"
   },
   {
@@ -3586,25 +7557,171 @@ const B2_WORDS = [
   },
   {
     "de": "sich einprägen",
-    "lv": "memorizar",
+    "lv": "grabarse en la memoria",
     "level": "B2",
     "study": {
       "id": "b2-sich-einpraegen",
-      "layout": "minimalStudy",
-      "translation": "memorizar",
-      "rektion": "in + ko?",
-      "explanation": "sich einprägen requiere la preposición definida en + ko?.",
-      "forms": "in + ko?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "grabarse en la memoria",
+      "explanation": [
+        "Idea principal: sich einprägen significa grabarse algo en la memoria, memorizarlo bien. Normalmente se usa con un pronombre en dativo y un complemento en acusativo: Ich präge mir die Nummer ein.",
+        "Formas: prägt sich ein, prägte sich ein, hat sich eingeprägt. El prefijo ein- se separa: Ich präge mir das ein. En el perfecto, ge- se coloca entre ein- y el verbo.",
+        "Cuando algo se graba por sí solo en la memoria, sich va en acusativo: Das Bild hat sich mir eingeprägt (la imagen se me ha quedado grabada en la memoria)."
+      ],
+      "examples": [
+        {
+          "de": "Ich präge mir die Telefonnummer ein.",
+          "lv": "Memorizo el número de teléfono."
+        },
+        {
+          "de": "Prägt euch diese Regel gut ein!",
+          "lv": "¡Grabaos bien esta regla!"
+        },
+        {
+          "de": "Das Bild hat sich mir tief eingeprägt.",
+          "lv": "Esa imagen se me quedó grabada en la memoria."
+        },
+        {
+          "de": "Diesen Namen sollte man sich einprägen.",
+          "lv": "Es un nombre que conviene recordar."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "auswendig lernen",
+          "meaning": "aprender de memoria",
+          "example": "Wir lernen das Gedicht auswendig. – Nos aprendemos el poema de memoria."
+        },
+        {
+          "word": "sich merken",
+          "meaning": "acordarse de, tomar nota",
+          "example": "Merk dir das! – ¡Acuérdate de eso!"
+        },
+        {
+          "word": "behalten",
+          "meaning": "retener (en la memoria)",
+          "example": "Ich habe den Namen behalten. – He retenido el nombre."
+        }
+      ],
+      "tip": [
+        "Si necesitas aprender vocabulario, usa sich etwas einprägen o el conocido sich merken.",
+        "El pronombre en dativo cambia según la persona: mir, dir, sich, uns, euch."
+      ],
+      "important": [
+        "Si es la persona quien memoriza, el pronombre va en dativo (mir, dir); si algo se graba en la memoria, sich va en acusativo y la persona en dativo (mir).",
+        "En el perfecto se usa hat sich eingeprägt (con haben)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einprägen"
+            "einprägen",
+            "präge",
+            "prägt",
+            "prägte",
+            "eingeprägt"
           ],
-          "red": [
-            "sich"
+          "purple": [
+            "grabarse algo en la memoria",
+            "memorizarlo",
+            "grabada en la memoria"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "präge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Memorizo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prägt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Grabaos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeprägt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "grabada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einprägen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "recordar"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "auswendig lernen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aprender de memoria"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich merken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "acordarse de"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "retener"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -3615,30 +7732,154 @@ const B2_WORDS = [
   },
   {
     "de": "einschläfern",
-    "lv": "poner a dormir • eutanasiar",
+    "lv": "adormecer • sacrificar",
     "level": "B2"
   },
   {
     "de": "sich einschleichen",
-    "lv": "colarse • colarse",
+    "lv": "colarse • infiltrarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-einschleichen",
-      "layout": "minimalStudy",
-      "translation": "colarse",
-      "rektion": "in + ko?",
-      "explanation": "sich einschleichen requiere la preposición definida en + ko?.",
-      "forms": "in + ko?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "colarse • infiltrarse",
+      "explanation": [
+        "Idea principal: sich einschleichen significa entrar en un lugar a escondidas, sin ser visto (colarse, infiltrarse), o, hablando de errores, dudas, etc., aparecer sin que nadie se dé cuenta (colarse, deslizarse).",
+        "Prefijo separable: ich schleiche mich ein, schlich mich ein, habe mich eingeschlichen. El lugar en el que alguien se cuela se indica con in + acusativo (in das Haus, ins Haus). En perfecto se usa hat, porque es un verbo reflexivo."
+      ],
+      "examples": [
+        {
+          "de": "Der Dieb schleicht sich nachts ins Haus ein.",
+          "lv": "El ladrón se cuela de noche en la casa."
+        },
+        {
+          "de": "Ein Fehler hat sich in den Text eingeschlichen.",
+          "lv": "Se ha colado un error en el texto."
+        },
+        {
+          "de": "Er hat sich unbemerkt in den Saal eingeschlichen.",
+          "lv": "Se coló en la sala sin que nadie lo viera."
+        },
+        {
+          "de": "Mit der Zeit schlichen sich Zweifel ein.",
+          "lv": "Con el tiempo se fueron colando las dudas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schleichen",
+          "meaning": "andar sigilosamente",
+          "example": "Die Katze schleicht durch den Garten. – El gato se desliza sigilosamente por el jardín."
+        },
+        {
+          "word": "eindringen",
+          "meaning": "penetrar, irrumpir",
+          "example": "Der Täter ist in die Wohnung eingedrungen. – El autor del delito irrumpió en la vivienda."
+        }
+      ],
+      "tip": [
+        "Con errores y dudas se dice a menudo: Ein Fehler hat sich eingeschlichen — se ha colado un error.",
+        "Recuerda la separación: Er schleicht sich ein, pero Er hat sich eingeschlichen."
+      ],
+      "important": [
+        "No lo confundas con schleichen (andar sigilosamente, moverse sin hacer ruido): sich einschleichen siempre indica que alguien o algo entra en algún sitio.",
+        "Después de in, el lugar va en acusativo cuando se indica dirección: sich in den Raum einschleichen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich einschleichen"
+            "sich einschleichen",
+            "schleiche mich ein"
           ],
-          "red": [
-            "sich"
+          "purple": [
+            "colarse",
+            "infiltrarse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schleicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se cuela"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeschlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "colado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eingeschlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "coló"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schlichen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "colando"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schleichen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "andar sigilosamente"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eindringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "penetrar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -3651,25 +7892,172 @@ const B2_WORDS = [
   },
   {
     "de": "sich einschränken",
-    "lv": "limítate",
+    "lv": "limitarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-einschraenken",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "limitarse",
-      "rektion": "auf + ko?",
-      "explanation": "sich einschränken requiere la preposición definida auf + ko?.",
-      "forms": "auf + ko?",
-      "formsLabel": "Gestión:",
+      "explanation": [
+        "Idea principal: sich einschränken significa limitarse, apretarse el cinturón: gastar, comer o vivir con más moderación de lo habitual, o reducirse a algo concreto.",
+        "Formas: ich schränke mich ein, schränkte mich ein, habe mich eingeschränkt. Con auf + acusativo se indica a qué se limita alguien: sich auf das Nötigste einschränken. Sin complemento suele significar recortar gastos.",
+        "Sin sich, einschränken es transitivo: etwas einschränken — restringir algo (el tráfico, los derechos)."
+      ],
+      "examples": [
+        {
+          "de": "Wir müssen uns finanziell einschränken.",
+          "lv": "Tenemos que reducir gastos."
+        },
+        {
+          "de": "Er schränkt sich auf das Nötigste ein.",
+          "lv": "Se limita a lo imprescindible."
+        },
+        {
+          "de": "Nach der Entlassung musste sich die Familie stark einschränken.",
+          "lv": "Tras el despido, la familia tuvo que apretarse mucho el cinturón."
+        },
+        {
+          "de": "Sie schränkt sich beim Essen ein, um abzunehmen.",
+          "lv": "Se controla con la comida para adelgazar."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "einschränken",
+          "meaning": "restringir, limitar",
+          "example": "Die Stadt schränkt den Verkehr ein. – El ayuntamiento restringe el tráfico."
+        },
+        {
+          "word": "verzichten",
+          "meaning": "renunciar",
+          "example": "Er verzichtet auf Zucker. – Él renuncia al azúcar."
+        },
+        {
+          "word": "sparen",
+          "meaning": "ahorrar",
+          "example": "Wir sparen Strom. – Ahorramos electricidad."
+        }
+      ],
+      "tip": [
+        "Si quieres decir que empiezas a ahorrar, usa sich einschränken sin complemento.",
+        "Con auf + acusativo nombras aquello a lo que te limitas."
+      ],
+      "important": [
+        "Prefijo separable ein-: Ich schränke mich ein, no Ich einschränke mich.",
+        "No confundas el reflexivo sich einschränken con el transitivo einschränken (restringir algo)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich"
+            "einschränken",
+            "schränke",
+            "eingeschränkt",
+            "ein"
           ],
-          "red": [
-            "auf + ko?"
+          "purple": [
+            "limitarse",
+            "se limita",
+            "restringir"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "einschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "reducir gastos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schränkt",
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se limita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einschränken"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apretarse mucho el cinturón"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schränkt",
+                "ein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se controla"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "einschränken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "restringir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verzichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "renunciar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sparen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ahorrar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -3677,12 +8065,12 @@ const B2_WORDS = [
     "de": "Einschreiben",
     "de_article": "das",
     "de_plural": "die Einschreiben",
-    "lv": "carta certificada o paquete",
+    "lv": "envío certificado • carta certificada",
     "level": "B2"
   },
   {
     "de": "einschulen",
-    "lv": "inscribir al niño en la escuela",
+    "lv": "escolarizar",
     "level": "B2"
   },
   {
@@ -3699,24 +8087,24 @@ const B2_WORDS = [
     "de": "Einspruch",
     "de_article": "der",
     "de_plural": "die Einsprüche",
-    "lv": "objeción • objeción • protesta",
+    "lv": "objeción • protesta",
     "level": "B2"
   },
   {
     "de": "Einstandsgeld",
     "de_article": "das",
     "de_plural": "die Einstandsgelder",
-    "lv": "tarifa de entrada",
+    "lv": "cuota de ingreso",
     "level": "B2"
   },
   {
     "de": "einstimmig",
-    "lv": "unánime • unánime",
+    "lv": "unánime",
     "level": "B2"
   },
   {
     "de": "einströmen",
-    "lv": "fluir en",
+    "lv": "afluir • entrar a raudales",
     "level": "B2"
   },
   {
@@ -3726,7 +8114,7 @@ const B2_WORDS = [
   },
   {
     "de": "eintönig",
-    "lv": "monótono • monótono • monótono",
+    "lv": "monótono",
     "level": "B2"
   },
   {
@@ -3737,7 +8125,7 @@ const B2_WORDS = [
   },
   {
     "de": "einträglich",
-    "lv": "rentable • rentable",
+    "lv": "rentable • lucrativo",
     "level": "B2"
   },
   {
@@ -3764,7 +8152,7 @@ const B2_WORDS = [
   },
   {
     "de": "einweihen",
-    "lv": "revelar solemnemente • confiar un secreto",
+    "lv": "inaugurar • poner al corriente",
     "level": "B2"
   },
   {
@@ -3813,7 +8201,7 @@ const B2_WORDS = [
   },
   {
     "de": "eisfrei",
-    "lv": "sin hielo • sin hielo",
+    "lv": "libre de hielo",
     "level": "B2"
   },
   {
@@ -3838,13 +8226,13 @@ const B2_WORDS = [
   },
   {
     "de": "eitel",
-    "lv": "engreído • engreído • engreído • superficial • vacío • ostentoso",
+    "lv": "vanidoso • superficial • vano",
     "level": "B2"
   },
   {
     "de": "Ekel",
     "de_article": "der",
-    "lv": "asco • asco",
+    "lv": "asco • repugnancia",
     "level": "B2"
   },
   {
@@ -3870,59 +8258,344 @@ const B2_WORDS = [
   },
   {
     "de": "sich empfehlen",
-    "lv": "ser recomendado",
+    "lv": "ser aconsejable • despedirse",
     "level": "B2",
     "study": {
       "id": "b2-sich-empfehlen",
-      "layout": "minimalStudy",
-      "translation": "ser recomendable",
-      "rektion": "zu + kam?",
-      "explanation": "sich empfehlen requiere la preposición definida zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "ser aconsejable • despedirse",
+      "explanation": [
+        "Idea principal: en este sentido, sich empfehlen se usa casi solo en tercera persona, con es o con un sustantivo: es empfiehlt sich, … — es aconsejable, conviene hacer algo.",
+        "Formas: empfiehlt sich, empfahl sich, hat sich empfohlen (la e cambia a ie). Suele ir seguido de zu + infinitivo o de una oración con dass: Es empfiehlt sich, früh zu buchen.",
+        "En otro sentido, formal, sich empfehlen también significa despedirse: Er empfahl sich früh."
+      ],
+      "examples": [
+        {
+          "de": "Es empfiehlt sich, früh zu buchen.",
+          "lv": "Es aconsejable reservar con antelación."
+        },
+        {
+          "de": "Bei Regen empfiehlt sich eine Jacke.",
+          "lv": "Si llueve, conviene llevar una chaqueta."
+        },
+        {
+          "de": "Es empfiehlt sich, die Datei vorher zu speichern.",
+          "lv": "Es aconsejable guardar antes el archivo."
+        },
+        {
+          "de": "Vor der Reise empfiehlt sich eine Impfung.",
+          "lv": "Antes del viaje se recomienda vacunarse."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "empfehlen",
+          "meaning": "recomendar",
+          "example": "Ich empfehle dir dieses Restaurant. – Te recomiendo este restaurante."
+        },
+        {
+          "word": "ratsam",
+          "meaning": "aconsejable",
+          "example": "Es ist ratsam, einen Schirm mitzunehmen. – Es aconsejable llevar un paraguas."
+        },
+        {
+          "word": "sich verabschieden",
+          "meaning": "despedirse",
+          "example": "Wir verabschieden uns jetzt. – Ahora nos despedimos."
+        }
+      ],
+      "tip": [
+        "Esquema de la frase: Es empfiehlt sich + zu + infinitivo; resulta práctico cuando no quieres decir quién lo recomienda.",
+        "Sinónimo con una estructura más sencilla: Es ist ratsam."
+      ],
+      "important": [
+        "Este sentido va casi siempre en tercera persona (empfiehlt sich); las formas con ich o du no encajan aquí.",
+        "No lo confundas con empfehlen (recomendar algo a alguien): Ich empfehle dir das Buch."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich empfehlen"
+            "sich empfehlen",
+            "empfiehlt sich",
+            "empfahl",
+            "empfohlen",
+            "zu"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "es aconsejable"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Es aconsejable"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "conviene"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Es aconsejable"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empfiehlt",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se recomienda"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "empfehlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "recomendar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ratsam"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aconsejable"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verabschieden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "despedirse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "empor",
-    "lv": "arriba • arriba",
+    "lv": "hacia arriba",
     "level": "B2"
   },
   {
     "de": "empören",
-    "lv": "causar indignación",
+    "lv": "indignar",
     "level": "B2"
   },
   {
     "de": "sich empören",
-    "lv": "enfadarse • rebelarse",
+    "lv": "indignarse • sublevarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-empoeren",
-      "layout": "minimalStudy",
-      "translation": "enfadarse • rebelarse",
-      "rektion": "über + ¿qué?",
-      "explanation": "sich empören requiere la preposición definida über + ko?.",
-      "forms": "über + ¿qué?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "indignarse • sublevarse",
+      "explanation": [
+        "Idea principal: sich empören significa indignarse, reaccionar con enfado ante una injusticia o una falta. En un uso menos frecuente y más culto significa sublevarse contra el poder (sich gegen jemanden empören).",
+        "Formas: empört sich, empörte sich, hat sich empört. El motivo de la indignación se indica con über + acusativo: sich über die Lüge empören. La rebelión contra alguien se expresa con gegen + acusativo.",
+        "El participio empört significa indignado: Sie war empört."
+      ],
+      "examples": [
+        {
+          "de": "Alle empörten sich über die Entscheidung.",
+          "lv": "Todos se indignaron por la decisión."
+        },
+        {
+          "de": "Sie hat sich über seine Lüge empört.",
+          "lv": "Se indignó por su mentira."
+        },
+        {
+          "de": "Das Volk empörte sich gegen den Herrscher.",
+          "lv": "El pueblo se sublevó contra el soberano."
+        },
+        {
+          "de": "Ich empöre mich über so viel Ungerechtigkeit.",
+          "lv": "Me indigna tanta injusticia."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich aufregen",
+          "meaning": "alterarse, ponerse nervioso",
+          "example": "Er regt sich über den Lärm auf. – Se pone nervioso por el ruido."
+        },
+        {
+          "word": "sich ärgern",
+          "meaning": "enfadarse",
+          "example": "Ich ärgere mich über den Stau. – Me enfado por el atasco."
+        },
+        {
+          "word": "empört",
+          "meaning": "indignado",
+          "example": "Sie war empört. – Estaba indignada."
+        }
+      ],
+      "tip": [
+        "Memoriza la combinación sich über etwas empören (+ acusativo).",
+        "sich empören es más fuerte que sich ärgern: expresa indignación moral."
+      ],
+      "important": [
+        "Después de über va acusativo: über die Lüge, no über der Lüge.",
+        "En el sentido de sublevarse se usa gegen: sich gegen die Regierung empören."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich empören"
+            "empören",
+            "empört",
+            "empörte"
           ],
-          "red": [
-            "sich"
+          "purple": [
+            "indignado"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "empörten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se indignaron"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empört"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se indignó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empörte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se sublevó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "empöre"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alterarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich ärgern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "enfadarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "empört"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "indignado"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -3945,7 +8618,7 @@ const B2_WORDS = [
   },
   {
     "de": "entbinden",
-    "lv": "liberar • liberar • dar a luz",
+    "lv": "eximir • dar a luz",
     "level": "B2"
   },
   {
@@ -3962,7 +8635,7 @@ const B2_WORDS = [
   },
   {
     "de": "enteignen",
-    "lv": "expropiar • expropiar",
+    "lv": "expropiar",
     "level": "B2"
   },
   {
@@ -4011,21 +8684,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-enthalten",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "abstenerse de",
-      "rektion": "von + kam?",
-      "explanation": "sich enthalten requiere la preposición definida von + kam?.",
-      "forms": "von + kam?",
-      "formsLabel": "Gestión:",
+      "explanation": [
+        "Idea principal: sich enthalten significa abstenerse conscientemente de algo: no hacerlo, no consumirlo, no votar. Es lenguaje formal, culto.",
+        "Va seguido de genitivo: sich der Stimme enthalten (abstenerse en una votación), sich jeden Kommentars enthalten. Formas: enthält sich, enthielt sich, hat sich enthalten.",
+        "Sin sich, enthalten significa contener: Das Getränk enthält Zucker."
+      ],
+      "examples": [
+        {
+          "de": "Bei der Abstimmung enthielten sich zwei Abgeordnete der Stimme.",
+          "lv": "En la votación, dos diputados se abstuvieron."
+        },
+        {
+          "de": "Ich enthalte mich jedes Kommentars.",
+          "lv": "Me abstengo de hacer cualquier comentario."
+        },
+        {
+          "de": "Sie hat sich des Alkohols enthalten.",
+          "lv": "Se abstuvo de beber alcohol."
+        },
+        {
+          "de": "Er konnte sich kaum des Lachens enthalten.",
+          "lv": "Apenas pudo contener la risa."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "enthalten",
+          "meaning": "contener",
+          "example": "Das Getränk enthält Zucker. – La bebida contiene azúcar."
+        },
+        {
+          "word": "verzichten",
+          "meaning": "renunciar",
+          "example": "Er verzichtet auf Fleisch. – Renuncia a la carne."
+        },
+        {
+          "word": "sich zurückhalten",
+          "meaning": "contenerse, moderarse",
+          "example": "Er hält sich bei Diskussionen zurück. – En los debates se muestra reservado."
+        }
+      ],
+      "tip": [
+        "Conviene conocer la expresión sich der Stimme enthalten: es la fórmula típica de las votaciones.",
+        "En el día a día se suele decir algo más sencillo: Ich verzichte auf …"
+      ],
+      "important": [
+        "Después de sich enthalten va genitivo, no una preposición, aunque en español digamos «abstenerse de»: sich des Alkohols enthalten.",
+        "No lo confundas con enthalten sin sich, que significa contener."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich enthalten"
+            "sich enthalten",
+            "enthalten",
+            "enthält"
           ],
-          "red": [
-            "von + kam?"
+          "purple": [
+            "abstenerse",
+            "contener"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "enthielten",
+                "sich",
+                "Stimme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se abstuvieron"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "enthalte",
+                "mich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Me abstengo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "enthalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se abstuvo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "enthalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "contener"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "enthalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "contener"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verzichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "renunciar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zurückhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "contenerse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4046,38 +8867,189 @@ const B2_WORDS = [
   },
   {
     "de": "entladen",
-    "lv": "descargar • descargar",
+    "lv": "descargar",
     "level": "B2"
   },
   {
     "de": "entlarven",
-    "lv": "exponer",
+    "lv": "desenmascarar",
     "level": "B2"
   },
   {
     "de": "sich entledigen",
-    "lv": "deshacerse de • deshacerse de",
+    "lv": "deshacerse de",
     "level": "B2",
     "study": {
       "id": "b2-sich-entledigen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "deshacerse de",
-      "rektion": "+ forma posesiva",
-      "explanation": "sich entledigen se utiliza en alemán moderno con la forma posesiva sin preposición.",
-      "forms": "+ forma posesiva",
-      "formsLabel": "Gestión:",
+      "explanation": [
+        "Idea principal: sich entledigen significa deshacerse de algo no deseado: de una prenda, de deudas, de una obligación, de un arma. Es una palabra formal y culta.",
+        "Va seguido de genitivo: sich seines Mantels entledigen. Formas: entledigt sich, entledigte sich, hat sich entledigt. En el lenguaje cotidiano es más frecuente etwas loswerden.",
+        "Según el contexto, en español equivale a deshacerse de o librarse de; si se trata de ropa, a quitarse."
+      ],
+      "examples": [
+        {
+          "de": "Er entledigte sich seines nassen Mantels.",
+          "lv": "Se quitó el abrigo mojado."
+        },
+        {
+          "de": "Die Firma hat sich ihrer Schulden entledigt.",
+          "lv": "La empresa se ha librado de sus deudas."
+        },
+        {
+          "de": "Sie wollte sich der lästigen Pflicht entledigen.",
+          "lv": "Quería quitarse de encima esa molesta obligación."
+        },
+        {
+          "de": "Die Täter entledigten sich der Waffe.",
+          "lv": "Los autores del delito se deshicieron del arma."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "loswerden",
+          "meaning": "librarse de, quitarse de encima",
+          "example": "Ich werde die Erkältung nicht los. – No consigo quitarme el resfriado."
+        },
+        {
+          "word": "sich befreien",
+          "meaning": "liberarse",
+          "example": "Er befreit sich von den Fesseln. – Se libera de las ataduras."
+        },
+        {
+          "word": "wegwerfen",
+          "meaning": "tirar",
+          "example": "Ich werfe alte Zeitungen weg. – Tiro los periódicos viejos."
+        }
+      ],
+      "tip": [
+        "En el día a día di etwas loswerden; sich entledigen queda para el estilo oficial o literario.",
+        "Recuerda el genitivo: sich der Sorgen entledigen."
+      ],
+      "important": [
+        "Después de sich entledigen no hay preposición, solo genitivo.",
+        "Es una palabra formal; en la conversación suena demasiado rebuscada."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entledigen"
+            "sich entledigen",
+            "entledigte",
+            "entledigt",
+            "entledigen"
+          ],
+          "purple": [
+            "deshacerse",
+            "librarse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entledigte",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se quitó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "entledigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "librado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "entledigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "quitarse de encima"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entledigten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se deshicieron"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "loswerden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "librarse de"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich befreien"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "liberarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wegwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tirar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
   {
     "de": "entlegen",
-    "lv": "remoto • remoto • distante",
+    "lv": "remoto • apartado",
     "level": "B2"
   },
   {
@@ -4087,30 +9059,172 @@ const B2_WORDS = [
   },
   {
     "de": "entnehmen",
-    "lv": "tomar · tomar · sacar · concluir",
+    "lv": "tomar • sacar • deducir",
     "level": "B2"
   },
   {
     "de": "sich entrüsten",
-    "lv": "enfadarse • rebelarse",
+    "lv": "indignarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-entruesten",
-      "layout": "minimalStudy",
-      "translation": "enfadarse • rebelarse",
-      "rektion": "über + ¿qué?",
-      "explanation": "sich entrüsten requiere la preposición definida über + ko?.",
-      "forms": "über + ¿qué?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "indignarse",
+      "explanation": [
+        "Idea principal: sich entrüsten significa indignarse, mostrar una fuerte indignación por un comportamiento o unas palabras. Es una indignación moral, emocional.",
+        "El motivo se indica con über + acusativo: sich über die Frechheit entrüsten. Formas: entrüstet sich, entrüstete sich, hat sich entrüstet. El adjetivo entrüstet significa indignado.",
+        "Es una palabra cercana a sich empören, pero en el día a día es menos frecuente y más literaria."
+      ],
+      "examples": [
+        {
+          "de": "Die Zuschauer entrüsteten sich über den Schiedsrichter.",
+          "lv": "Los espectadores se indignaron con el árbitro."
+        },
+        {
+          "de": "Sie entrüstete sich über die Frechheit.",
+          "lv": "Se indignó ante tanta desfachatez."
+        },
+        {
+          "de": "Warum entrüstest du dich so?",
+          "lv": "¿Por qué te indignas tanto?"
+        },
+        {
+          "de": "Viele haben sich über den Bericht entrüstet.",
+          "lv": "Muchos se indignaron por el informe."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich empören",
+          "meaning": "indignarse",
+          "example": "Wir empören uns über die Ungerechtigkeit. – Nos indigna la injusticia."
+        },
+        {
+          "word": "sich aufregen",
+          "meaning": "alterarse",
+          "example": "Reg dich nicht auf! – ¡No te alteres!"
+        },
+        {
+          "word": "entrüstet",
+          "meaning": "indignado",
+          "example": "Er sah mich entrüstet an. – Me miró indignado."
+        }
+      ],
+      "tip": [
+        "Memoriza la frase completa: sich über etwas entrüsten (+ acusativo).",
+        "El adjetivo entrüstet se usa a menudo con sein o con otros verbos: entrüstet reagieren."
+      ],
+      "important": [
+        "Después de über va acusativo.",
+        "En el día a día oirás más a menudo sich aufregen o sich ärgern."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entrüsten"
+            "sich entrüsten",
+            "entrüstete sich"
           ],
-          "red": [
-            "sich"
+          "purple": [
+            "indignarse",
+            "indignación"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entrüsteten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se indignaron"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se indignó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstest"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "te indignas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entrüstet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se indignaron"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich empören"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "indignarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alterarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "entrüstet"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "indignado"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4126,22 +9240,169 @@ const B2_WORDS = [
   },
   {
     "de": "sich entsinnen",
-    "lv": "recordar • recordar",
+    "lv": "recordar • acordarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-entsinnen",
-      "layout": "minimalStudy",
-      "translation": "recordar",
-      "rektion": "+ forma posesiva",
-      "explanation": "sich entsinnen se usa en alemán moderno con la forma posesiva sin preposición, por ejemplo: Ich entsinne mich eines Fehlers.",
-      "forms": "+ forma posesiva",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "recordar • acordarse",
+      "explanation": [
+        "Idea principal: sich entsinnen significa recordar, acordarse de algo del pasado. Es una palabra culta y algo anticuada.",
+        "Suele ir seguido de genitivo (sich seiner entsinnen, sich der Worte entsinnen), y hoy también de an + acusativo. Expresión frecuente: Soviel ich mich entsinne, … — que yo recuerde… Formas: entsinnt sich, entsann sich, hat sich entsonnen."
+      ],
+      "examples": [
+        {
+          "de": "Ich entsinne mich seiner gut.",
+          "lv": "Me acuerdo bien de él."
+        },
+        {
+          "de": "Kannst du dich an den Namen entsinnen?",
+          "lv": "¿Puedes acordarte del nombre?"
+        },
+        {
+          "de": "Sie entsann sich der Worte ihrer Mutter.",
+          "lv": "Recordó las palabras de su madre."
+        },
+        {
+          "de": "Soviel ich mich entsinne, war es ein Montag.",
+          "lv": "Que yo recuerde, era lunes."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich erinnern",
+          "meaning": "recordar, acordarse",
+          "example": "Ich erinnere mich an den Urlaub. – Me acuerdo de las vacaciones."
+        },
+        {
+          "word": "gedenken",
+          "meaning": "conmemorar, recordar a",
+          "example": "Wir gedenken der Opfer. – Recordamos a las víctimas."
+        },
+        {
+          "word": "vergessen",
+          "meaning": "olvidar",
+          "example": "Ich habe seinen Namen vergessen. – He olvidado su nombre."
+        }
+      ],
+      "tip": [
+        "En el lenguaje cotidiano se usa sich erinnern an + acusativo; sich entsinnen queda para la lengua escrita y el registro elevado.",
+        "Expresión hecha: Soviel ich mich entsinne."
+      ],
+      "important": [
+        "Las formas son irregulares: entsann, hat sich entsonnen.",
+        "No confundas sich entsinnen (recordar) con gedenken (conmemorar, honrar la memoria)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich entsinnen"
+            "entsinnen",
+            "entsinne",
+            "entsann",
+            "entsonnen"
+          ],
+          "purple": [
+            "recordar",
+            "recuerde",
+            "acordarse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "entsinne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Me acuerdo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsinnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "acordarte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Recordó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "entsinne"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "recuerde"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich erinnern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "recordar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gedenken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "conmemorar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergessen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "olvidar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4149,7 +9410,7 @@ const B2_WORDS = [
     "de": "Entspannung",
     "de_article": "die",
     "de_plural": "die Entspannungen",
-    "lv": "relajación • relajación • reducción de la tensión",
+    "lv": "relajación • distensión",
     "level": "B2"
   },
   {
@@ -4159,7 +9420,7 @@ const B2_WORDS = [
   },
   {
     "de": "entweichen",
-    "lv": "alejarse • escapar • retroceder • filtrarse",
+    "lv": "escaparse • fugarse • salirse",
     "level": "B2"
   },
   {
@@ -4171,7 +9432,7 @@ const B2_WORDS = [
     "de": "Entwerter",
     "de_article": "der",
     "de_plural": "die Entwerter",
-    "lv": "cancelador de billetes",
+    "lv": "máquina validadora • canceladora",
     "level": "B2"
   },
   {
@@ -4190,12 +9451,12 @@ const B2_WORDS = [
   },
   {
     "de": "entwurzeln",
-    "lv": "desarraigar • exterminar • erradicar por completo",
+    "lv": "desarraigar • erradicar",
     "level": "B2"
   },
   {
     "de": "entziehen",
-    "lv": "quitar • quitar • evitar • separarse • escapar",
+    "lv": "quitar • privar de • sustraerse",
     "level": "B2"
   },
   {
@@ -4205,7 +9466,7 @@ const B2_WORDS = [
   },
   {
     "de": "entzückend",
-    "lv": "maravilloso • encantador • encantador",
+    "lv": "encantador • precioso",
     "level": "B2"
   },
   {
@@ -4215,7 +9476,7 @@ const B2_WORDS = [
   },
   {
     "de": "entzünden",
-    "lv": "encender • encender • encender",
+    "lv": "encender",
     "level": "B2"
   },
   {
@@ -4227,7 +9488,7 @@ const B2_WORDS = [
     "de": "Entzündung",
     "de_article": "die",
     "de_plural": "die Entzündungen",
-    "lv": "ignición • ignición • inflamación",
+    "lv": "ignición • inflamación",
     "level": "B2"
   },
   {
@@ -4252,25 +9513,166 @@ const B2_WORDS = [
   },
   {
     "de": "sich erbarmen",
-    "lv": "tener piedad • tener piedad",
+    "lv": "apiadarse • compadecerse",
     "level": "B2",
     "study": {
       "id": "b2-sich-erbarmen",
-      "layout": "minimalStudy",
-      "translation": "tener piedad",
-      "rektion": "über + ¿qué?",
-      "explanation": "sich erbarmen requiere la preposición definida über + ko?.",
-      "forms": "über + ¿qué?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "apiadarse • compadecerse",
+      "explanation": [
+        "Idea principal: sich erbarmen significa apiadarse de alguien que sufre y ayudarle, tener compasión de él. Es lenguaje elevado, a menudo religioso o irónico.",
+        "Suele ir seguido de genitivo: sich des Hundes erbarmen. Con menos frecuencia se usa über + acusativo. Formas: erbarmt sich, erbarmte sich, hat sich erbarmt.",
+        "En la conversación, en broma: Wer erbarmt sich und …? — ¿Quién se apiada y…?"
+      ],
+      "examples": [
+        {
+          "de": "Der Richter erbarmte sich des Angeklagten.",
+          "lv": "El juez se apiadó del acusado."
+        },
+        {
+          "de": "Erbarme dich meiner!",
+          "lv": "¡Ten piedad de mí!"
+        },
+        {
+          "de": "Endlich erbarmte sich jemand des hungrigen Hundes.",
+          "lv": "Por fin alguien se apiadó del perro hambriento."
+        },
+        {
+          "de": "Wer erbarmt sich und holt mir einen Kaffee?",
+          "lv": "¿Quién se apiada de mí y me trae un café?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "begnadigen",
+          "meaning": "indultar",
+          "example": "Der Präsident begnadigt den Häftling. – El presidente indulta al preso."
+        },
+        {
+          "word": "Mitleid haben",
+          "meaning": "sentir compasión",
+          "example": "Ich habe Mitleid mit ihr. – Siento compasión por ella."
+        },
+        {
+          "word": "helfen",
+          "meaning": "ayudar",
+          "example": "Er hilft dem Nachbarn. – Ayuda al vecino."
+        }
+      ],
+      "tip": [
+        "Después de sich erbarmen pon genitivo: sich der Kinder erbarmen.",
+        "Súplica típica: Herr, erbarme dich!"
+      ],
+      "important": [
+        "Es una palabra de registro elevado; en el día a día se dice Mitleid haben o helfen.",
+        "No lo confundas con begnadigen (indultar en sentido jurídico, por ejemplo a un condenado)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erbarmen"
+            "sich erbarmen",
+            "erbarmt"
           ],
-          "red": [
-            "sich"
+          "purple": [
+            "apiadarse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erbarmte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se apiadó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Erbarme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ten piedad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erbarmte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se apiadó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erbarmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se apiada"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "begnadigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "indultar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Mitleid haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sentir compasión"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ayudar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4345,25 +9747,185 @@ const B2_WORDS = [
   },
   {
     "de": "sich ergeben",
-    "lv": "dar resultado • rendirse",
+    "lv": "resultar • rendirse",
     "level": "B2",
     "study": {
       "id": "b2-sich-ergeben",
-      "layout": "minimalStudy",
-      "translation": "resultar",
-      "rektion": "aus + kam?",
-      "explanation": "sich ergeben requiere la preposición definida aus + kam?.",
-      "forms": "aus + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "resultar • rendirse",
+      "explanation": [
+        "Idea principal: sich ergeben tiene dos significados. Con aus + dativo significa resultar, surgir como consecuencia: Aus dem Test ergibt sich ein Problem. Con dativo sin preposición significa rendirse, someterse: sich dem Feind ergeben.",
+        "Formas: ergibt sich, ergab sich, hat sich ergeben. En el sentido de resultar, el sujeto suele ser una cosa (es, ein Problem, eine Chance), por eso el verbo va en tercera persona.",
+        "En el sentido de rendirse, el sujeto es una persona: sich ergeben, sich in sein Schicksal ergeben (resignarse a su destino)."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem Gespräch ergab sich ein neues Projekt.",
+          "lv": "De la conversación surgió un nuevo proyecto."
+        },
+        {
+          "de": "Daraus ergibt sich ein Problem.",
+          "lv": "De ahí resulta un problema."
+        },
+        {
+          "de": "Die Soldaten ergaben sich dem Feind.",
+          "lv": "Los soldados se rindieron al enemigo."
+        },
+        {
+          "de": "Er hat sich in sein Schicksal ergeben.",
+          "lv": "Se ha resignado a su destino."
+        },
+        {
+          "de": "Ergib dich!",
+          "lv": "¡Ríndete!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ergeben",
+          "meaning": "dar como resultado",
+          "example": "Die Rechnung ergibt 50 Euro. – La cuenta da 50 euros."
+        },
+        {
+          "word": "folgen",
+          "meaning": "seguirse, deducirse",
+          "example": "Daraus folgt nichts. – De ahí no se deduce nada."
+        },
+        {
+          "word": "aufgeben",
+          "meaning": "rendirse, abandonar",
+          "example": "Er gibt nicht auf. – No se rinde."
+        }
+      ],
+      "tip": [
+        "Para el sentido de resultar, memoriza Daraus ergibt sich, dass … — de ello se deduce que…",
+        "Cuando se trata de someterse, suele seguir un dativo: sich dem Willen ergeben."
+      ],
+      "important": [
+        "No lo confundas con ergeben sin sich: significa dar como resultado (Das ergibt Sinn).",
+        "El significado suele depender del sujeto: si es una cosa, resulta; si es una persona, se rinde."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich ergeben"
+            "ergeben",
+            "ergibt",
+            "ergab"
           ],
-          "red": [
-            "aus + kam?"
+          "purple": [
+            "resultar",
+            "rendirse",
+            "resignarse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ergab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "surgió"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergibt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resulta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergaben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se rindieron"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ergeben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resignado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ergib"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ríndete"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ergeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dar como resultado"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "folgen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "deducirse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufgeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rendirse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4374,7 +9936,7 @@ const B2_WORDS = [
   },
   {
     "de": "ergrauen",
-    "lv": "volverse gris",
+    "lv": "encanecer",
     "level": "B2"
   },
   {
@@ -4440,12 +10002,12 @@ const B2_WORDS = [
   },
   {
     "de": "erleiden",
-    "lv": "sufrir · soportar · aguantar · ser derrotado",
+    "lv": "sufrir • padecer • soportar",
     "level": "B2"
   },
   {
     "de": "erlöschen",
-    "lv": "extinguirse • extinguirse • dejar de ser válido • caducar",
+    "lv": "extinguirse • caducar",
     "level": "B2"
   },
   {
@@ -4455,7 +10017,7 @@ const B2_WORDS = [
   },
   {
     "de": "ermäßigen",
-    "lv": "bajar",
+    "lv": "rebajar • reducir",
     "level": "B2"
   },
   {
@@ -4470,25 +10032,168 @@ const B2_WORDS = [
   },
   {
     "de": "sich erniedrigen",
-    "lv": "humíllate",
+    "lv": "humillarse • rebajarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-erniedrigen",
-      "layout": "minimalStudy",
-      "translation": "humillarse",
-      "rektion": "vor + kam?",
-      "explanation": "sich erniedrigen requiere la preposición definida vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "humillarse • rebajarse",
+      "explanation": [
+        "Idea principal: sich erniedrigen significa humillarse uno mismo, actuar de tal forma que se pierde la dignidad: por ejemplo, mendigar o rebajarse ante alguien.",
+        "Ante quién se humilla alguien se indica con vor + dativo: sich vor dem Chef erniedrigen. Formas: erniedrigt sich, erniedrigte sich, hat sich erniedrigt.",
+        "Sin sich, erniedrigen significa humillar a otra persona: Er erniedrigt seine Kollegen."
+      ],
+      "examples": [
+        {
+          "de": "Ich erniedrige mich nicht vor dem Chef.",
+          "lv": "No me voy a humillar ante el jefe."
+        },
+        {
+          "de": "Er hat sich erniedrigt, um Geld zu bitten.",
+          "lv": "Se rebajó a pedir dinero."
+        },
+        {
+          "de": "Sie erniedrigte sich nie vor anderen.",
+          "lv": "Nunca se humilló ante los demás."
+        },
+        {
+          "de": "So tief würde ich mich nicht erniedrigen.",
+          "lv": "Yo no me rebajaría tanto."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "demütigen",
+          "meaning": "humillar",
+          "example": "Er demütigt seinen Gegner vor allen. – Humilla a su rival delante de todos."
+        },
+        {
+          "word": "sich unterwerfen",
+          "meaning": "someterse",
+          "example": "Er unterwirft sich dem Willen des Königs. – Se somete a la voluntad del rey."
+        },
+        {
+          "word": "sich blamieren",
+          "meaning": "hacer el ridículo",
+          "example": "Er hat sich vor allen blamiert. – Hizo el ridículo delante de todos."
+        }
+      ],
+      "tip": [
+        "Con vor + dativo se nombra a la persona ante la cual alguien se humilla.",
+        "Distingue: sich erniedrigen — humillarse uno mismo; jemanden erniedrigen — humillar a otro."
+      ],
+      "important": [
+        "Después de vor va dativo: vor dem Chef, vor anderen.",
+        "La forma pasiva erniedrigt werden significa ser humillado."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erniedrigen"
+            "erniedrigen",
+            "erniedrigt",
+            "erniedrigte"
           ],
-          "red": [
-            "vor + kam?"
+          "purple": [
+            "humillarse",
+            "se humilla"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erniedrige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "humillar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se rebajó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se humilló"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erniedrigen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rebajaría"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "demütigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "humillar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich unterwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "someterse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich blamieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hacer el ridículo"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4518,30 +10223,173 @@ const B2_WORDS = [
   },
   {
     "de": "erregen",
-    "lv": "excitar • excitar • causar • causar • despertar",
+    "lv": "excitar • provocar • despertar",
     "level": "B2"
   },
   {
     "de": "sich erregen",
-    "lv": "preocuparse por",
+    "lv": "alterarse • indignarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-erregen",
-      "layout": "minimalStudy",
-      "translation": "excitarse",
-      "rektion": "über + ¿qué?",
-      "explanation": "sich erregen requiere la preposición definida über + ko?.",
-      "forms": "über + ¿qué?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "alterarse • indignarse",
+      "explanation": [
+        "Idea principal: sich erregen significa alterarse, irritarse por algo: reaccionar emocionalmente, a menudo con enfado. Aquello por lo que alguien se altera se indica con über + acusativo: sich über die Kosten erregen.",
+        "Formas: erregt sich, erregte sich, hat sich erregt. En el día a día, con este sentido se dice más bien sich aufregen; sich erregen es más culto.",
+        "Sin sich, erregen significa provocar, despertar: Aufmerksamkeit erregen — llamar la atención."
+      ],
+      "examples": [
+        {
+          "de": "Er erregt sich über jede Kleinigkeit.",
+          "lv": "Se altera por cualquier tontería."
+        },
+        {
+          "de": "Warum erregst du dich so über die Nachricht?",
+          "lv": "¿Por qué te alteras tanto con la noticia?"
+        },
+        {
+          "de": "Sie erregte sich über die ungerechte Note.",
+          "lv": "Se indignó por la nota injusta."
+        },
+        {
+          "de": "Das Publikum hat sich über den Skandal erregt.",
+          "lv": "El público se indignó por el escándalo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich aufregen",
+          "meaning": "alterarse, ponerse nervioso",
+          "example": "Er regt sich über den Lärm auf. – Se altera por el ruido."
+        },
+        {
+          "word": "erregen",
+          "meaning": "provocar, causar",
+          "example": "Das Bild erregt Aufsehen. – El cuadro causa sensación."
+        },
+        {
+          "word": "sich beruhigen",
+          "meaning": "calmarse",
+          "example": "Beruhige dich! – ¡Cálmate!"
+        }
+      ],
+      "tip": [
+        "En el día a día di Reg dich nicht auf!, pero por escrito puedes elegir sich erregen.",
+        "La causa se suele indicar con über + acusativo."
+      ],
+      "important": [
+        "No lo confundas con erregen sin sich (provocar, excitar).",
+        "Después de über va acusativo: über die Nachricht."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erregen"
+            "erregen",
+            "erregt",
+            "erregte"
           ],
-          "red": [
-            "sich"
+          "purple": [
+            "alterarse",
+            "se altera"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erregt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se altera"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "te alteras"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se indignó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erregt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se indignó"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich aufregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alterarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erregen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "provocar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beruhigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "calmarse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4566,12 +10414,12 @@ const B2_WORDS = [
     "de": "Erscheinung",
     "de_article": "die",
     "de_plural": "die Erscheinungen",
-    "lv": "fenómeno • apariencia • apariencia • apariencia",
+    "lv": "fenómeno • aparición • aspecto",
     "level": "B2"
   },
   {
     "de": "erschießen",
-    "lv": "disparar y matar",
+    "lv": "matar a tiros • fusilar",
     "level": "B2"
   },
   {
@@ -4591,7 +10439,7 @@ const B2_WORDS = [
   },
   {
     "de": "erschweren",
-    "lv": "hacer difícil • hacer más difícil",
+    "lv": "dificultar",
     "level": "B2"
   },
   {
@@ -4601,7 +10449,7 @@ const B2_WORDS = [
   },
   {
     "de": "ersparen",
-    "lv": "ahorrar • reservar • evitar • escatimar",
+    "lv": "ahorrar • evitar",
     "level": "B2"
   },
   {
@@ -4613,17 +10461,17 @@ const B2_WORDS = [
   },
   {
     "de": "erstarren",
-    "lv": "congelarse",
+    "lv": "entumecerse • quedarse paralizado • solidificarse",
     "level": "B2"
   },
   {
     "de": "ersticken",
-    "lv": "asfixiar · sofocar · sofocar · oprimir · oprimir · sofocar · sofocar",
+    "lv": "asfixiar • ahogar • sofocar",
     "level": "B2"
   },
   {
     "de": "sich erstrecken",
-    "lv": "extenderse • extenderse • extenderse",
+    "lv": "extenderse",
     "level": "B2"
   },
   {
@@ -4633,7 +10481,7 @@ const B2_WORDS = [
   },
   {
     "de": "ertönen",
-    "lv": "resonar • resonar",
+    "lv": "resonar • sonar",
     "level": "B2"
   },
   {
@@ -4643,7 +10491,7 @@ const B2_WORDS = [
   },
   {
     "de": "erträglich",
-    "lv": "tolerable • tolerable",
+    "lv": "soportable • tolerable",
     "level": "B2"
   },
   {
@@ -4660,7 +10508,7 @@ const B2_WORDS = [
   },
   {
     "de": "erweisen",
-    "lv": "mostrar • mostrar • hacer",
+    "lv": "demostrar • hacer (un favor)",
     "level": "B2"
   },
   {
@@ -4669,21 +10517,169 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-erweisen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "resultar ser",
-      "rektion": "als + kas?",
-      "explanation": "sich erweisen requiere la preposición definida als + ¿qué?.",
-      "forms": "als + kas?",
-      "formsLabel": "Gestión:",
+      "explanation": [
+        "Idea principal: sich erweisen als significa resultar ser algo: con el tiempo se aclara cómo es en realidad alguien o algo. Después de als, la palabra va en el mismo caso que el sujeto, normalmente en nominativo: Das erwies sich als Fehler.",
+        "Formas: erweist sich, erwies sich, hat sich erwiesen. Se usa a menudo en tercera persona con una cosa como sujeto, pero también con personas: Er erwies sich als zuverlässig.",
+        "La construcción es parecida a sich herausstellen als; sich erweisen es algo más formal."
+      ],
+      "examples": [
+        {
+          "de": "Das Medikament erwies sich als sehr wirksam.",
+          "lv": "El medicamento resultó ser muy eficaz."
+        },
+        {
+          "de": "Er hat sich als zuverlässiger Partner erwiesen.",
+          "lv": "Ha demostrado ser un socio fiable."
+        },
+        {
+          "de": "Die Information erwies sich als falsch.",
+          "lv": "La información resultó ser falsa."
+        },
+        {
+          "de": "Der Plan wird sich als Erfolg erweisen.",
+          "lv": "El plan resultará ser un éxito."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich herausstellen",
+          "meaning": "resultar, quedar claro",
+          "example": "Es stellte sich heraus, dass er recht hatte. – Resultó que tenía razón."
+        },
+        {
+          "word": "scheinen",
+          "meaning": "parecer",
+          "example": "Das scheint richtig zu sein. – Eso parece correcto."
+        },
+        {
+          "word": "beweisen",
+          "meaning": "demostrar",
+          "example": "Er beweist seinen Mut. – Demuestra su valor."
+        }
+      ],
+      "tip": [
+        "Usa el esquema sich als + adjetivo / sustantivo erweisen.",
+        "Después de als no hay artículo si solo va un adjetivo: als wirksam."
+      ],
+      "important": [
+        "Después de als, el sustantivo suele ir en el mismo caso que el sujeto: Er erwies sich als guter Freund.",
+        "No lo confundas con erweisen sin sich (prestar, mostrar): einen Dienst erweisen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich erweisen"
+            "sich erweisen",
+            "erwies",
+            "erweist",
+            "erwiesen",
+            "erweisen"
           ],
-          "red": [
-            "sich"
+          "purple": [
+            "resultar ser"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "erwies",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resultó ser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "erwiesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "demostrado ser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "erwies",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resultó ser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "erweisen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resultará ser"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich herausstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "resultar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "scheinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "parecer"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beweisen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "demostrar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4739,7 +10735,7 @@ const B2_WORDS = [
   },
   {
     "de": "europaweit",
-    "lv": "a escala paneuropea",
+    "lv": "a escala europea • en toda Europa",
     "level": "B2"
   },
   {
@@ -4751,14 +10747,14 @@ const B2_WORDS = [
   },
   {
     "de": "exekutieren",
-    "lv": "ejecutar la pena de muerte",
+    "lv": "ejecutar",
     "level": "B2"
   },
   {
     "de": "Exekutive",
     "de_article": "die",
     "de_plural": "die Exekutiven",
-    "lv": "órgano ejecutivo",
+    "lv": "poder ejecutivo",
     "level": "B2"
   },
   {
@@ -4784,7 +10780,7 @@ const B2_WORDS = [
     "de": "Exot",
     "de_article": "der",
     "de_plural": "die Exoten",
-    "lv": "persona exótica • planta • animal",
+    "lv": "persona exótica • especie exótica",
     "level": "B2"
   },
   {
@@ -4826,7 +10822,7 @@ const B2_WORDS = [
     "de": "Fabrikat",
     "de_article": "das",
     "de_plural": "die Fabrikate",
-    "lv": "producción industrial • producto",
+    "lv": "producto manufacturado • marca",
     "level": "B2"
   },
   {
@@ -4855,7 +10851,7 @@ const B2_WORDS = [
   },
   {
     "de": "fahnden",
-    "lv": "buscar intensivamente",
+    "lv": "buscar • rastrear",
     "level": "B2"
   },
   {
@@ -4869,7 +10865,7 @@ const B2_WORDS = [
     "de": "Fahrdamm",
     "de_article": "der",
     "de_plural": "die Fahrdämme",
-    "lv": "parte transitable de la calle • pavimento",
+    "lv": "calzada",
     "level": "B2"
   },
   {
@@ -4894,7 +10890,7 @@ const B2_WORDS = [
     "de": "Fallschirmturm",
     "de_article": "der",
     "de_plural": "die Fallschirmtürme",
-    "lv": "torre de paracaidista",
+    "lv": "torre de paracaidismo",
     "level": "B2"
   },
   {
@@ -4971,25 +10967,166 @@ const B2_WORDS = [
   },
   {
     "de": "sich fassen",
-    "lv": "apoderarse • recibir • restringir",
+    "lv": "serenarse • contenerse",
     "level": "B2",
     "study": {
       "id": "b2-sich-fassen",
-      "layout": "minimalStudy",
-      "translation": "recobrar la compostura",
-      "rektion": "an + kam?",
-      "explanation": "sich fassen requiere la preposición definida an + kam?.",
-      "forms": "an + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "serenarse • contenerse",
+      "explanation": [
+        "Idea principal: sich fassen significa serenarse, recuperar la calma tras un susto o una fuerte emoción; contenerse. Formas: fasst sich, fasste sich, hat sich gefasst. No lleva preposición.",
+        "La expresión fija sich kurz fassen significa ser breve: Fassen Sie sich bitte kurz! Sin sich, el verbo fassen significa agarrar, coger (jemanden am Arm fassen) y también tomar una decisión (einen Entschluss fassen)."
+      ],
+      "examples": [
+        {
+          "de": "Nach dem Schock fasste sie sich schnell.",
+          "lv": "Tras el susto, se serenó enseguida."
+        },
+        {
+          "de": "Fass dich kurz, ich habe wenig Zeit.",
+          "lv": "Sé breve, que tengo poco tiempo."
+        },
+        {
+          "de": "Er konnte sich vor Wut kaum fassen.",
+          "lv": "De la rabia, apenas podía contenerse."
+        },
+        {
+          "de": "Ich muss mich erst einmal fassen.",
+          "lv": "Primero tengo que serenarme."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fassen",
+          "meaning": "agarrar",
+          "example": "Das Kind fasst die Hand der Mutter. – El niño agarra la mano de su madre."
+        },
+        {
+          "word": "sich beherrschen",
+          "meaning": "dominarse, contenerse",
+          "example": "Sie beherrscht sich trotz der Kritik. – Se contiene a pesar de las críticas."
+        },
+        {
+          "word": "sich beruhigen",
+          "meaning": "calmarse",
+          "example": "Nach dem Streit beruhigt er sich langsam. – Después de la discusión se va calmando poco a poco."
+        }
+      ],
+      "tip": [
+        "Tras una gran noticia puedes decir Ich muss mich erst fassen — primero tengo que serenarme.",
+        "Para pedir a alguien que sea breve se usa Fassen Sie sich kurz!"
+      ],
+      "important": [
+        "No confundas sich fassen (serenarse) con fassen sin sich (agarrar, comprender).",
+        "En la expresión sich kurz fassen, la palabra kurz no cambia."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich fassen"
+            "sich fassen",
+            "fasst sich"
           ],
-          "red": [
-            "an + kam?"
+          "purple": [
+            "serenarse",
+            "contenerse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fasste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se serenó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Sé breve"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "contenerse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fassen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "serenarme"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "agarrar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beherrschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "contenerse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich beruhigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "calmarse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -4997,7 +11134,7 @@ const B2_WORDS = [
     "de": "Fassung",
     "de_article": "die",
     "de_plural": "die Fassungen",
-    "lv": "marco • carcasa • redacción",
+    "lv": "montura • versión • redacción",
     "level": "B2"
   },
   {
@@ -5082,7 +11219,7 @@ const B2_WORDS = [
     "de": "Festigkeit",
     "de_article": "die",
     "de_plural": "die Festigkeiten",
-    "lv": "dureza",
+    "lv": "firmeza • resistencia",
     "level": "B2"
   },
   {
@@ -5183,8 +11320,187 @@ const B2_WORDS = [
   },
   {
     "de": "fleckig",
-    "lv": "moteado",
-    "level": "B2"
+    "lv": "manchado • moteado",
+    "level": "B2",
+    "study": {
+      "id": "b2-fleckig",
+      "layout": "standardStudy",
+      "translation": "manchado • moteado",
+      "explanation": [
+        "Idea principal: fleckig es un adjetivo que describe una superficie con manchas: ropa sucia, piel con manchas, el pelaje moteado de un animal.",
+        "Grados: fleckig, fleckiger, am fleckigsten. Se usa tanto delante del sustantivo (ein fleckiges Hemd) como después de sein (Das Hemd ist fleckig). La raíz es der Fleck (mancha), plural die Flecken."
+      ],
+      "examples": [
+        {
+          "de": "Die Tischdecke ist fleckig.",
+          "lv": "El mantel está manchado."
+        },
+        {
+          "de": "Das Hemd ist nach dem Essen fleckig.",
+          "lv": "Después de comer, la camisa está manchada."
+        },
+        {
+          "de": "Seine Haut war rot und fleckig.",
+          "lv": "Tenía la piel roja y llena de manchas."
+        },
+        {
+          "de": "Die Kuh hat ein fleckiges Fell.",
+          "lv": "La vaca tiene el pelaje moteado."
+        },
+        {
+          "de": "Das Pferd hat ein braun-weißes, fleckiges Fell.",
+          "lv": "El caballo tiene un pelaje moteado, marrón y blanco."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefleckt",
+          "meaning": "moteado, con manchas",
+          "example": "Der Hund ist schwarz-weiß gefleckt. – El perro tiene manchas blancas y negras."
+        },
+        {
+          "word": "schmutzig",
+          "meaning": "sucio",
+          "example": "Die Hose ist schmutzig. – Los pantalones están sucios."
+        },
+        {
+          "word": "gestreift",
+          "meaning": "de rayas",
+          "example": "Er trägt ein gestreiftes Hemd. – Lleva una camisa de rayas."
+        }
+      ],
+      "tip": [
+        "Piensa en der Fleck: fleckig es lo que tiene Flecken.",
+        "Para describir las manchas naturales de un animal se usa a menudo gefleckt."
+      ],
+      "important": [
+        "fleckig suele expresar un aspecto indeseado o irregular (ropa sucia, manchas rojas en la piel).",
+        "Al añadir la terminación, recuerda la e: ein fleckiges Fell, eine fleckige Haut."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fleckig",
+            "Fleck",
+            "Flecken",
+            "fleckiges",
+            "fleckiger",
+            "fleckigsten"
+          ],
+          "purple": [
+            "moteado"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "manchado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "manchada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckig"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "llena de manchas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckiges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "moteado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fleckiges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "moteado"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gefleckt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "moteado"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schmutzig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sucio"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gestreift"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "de rayas"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "fliederfarben",
@@ -5326,7 +11642,7 @@ const B2_WORDS = [
   },
   {
     "de": "fortschreiten",
-    "lv": "desarrollarse más",
+    "lv": "avanzar • progresar",
     "level": "B2"
   },
   {
@@ -5367,7 +11683,7 @@ const B2_WORDS = [
     "de": "Fräser",
     "de_article": "der",
     "de_plural": "die Fräser",
-    "lv": "fresador • fresadora",
+    "lv": "fresador • fresa",
     "level": "B2"
   },
   {
@@ -5379,7 +11695,7 @@ const B2_WORDS = [
   },
   {
     "de": "freilich",
-    "lv": "por supuesto • sin duda • pero • sólo",
+    "lv": "por supuesto • sin embargo",
     "level": "B2"
   },
   {
@@ -5418,7 +11734,169 @@ const B2_WORDS = [
   {
     "de": "fristlos",
     "lv": "sin preaviso",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-fristlos",
+      "layout": "standardStudy",
+      "translation": "sin preaviso",
+      "explanation": [
+        "Idea principal: fristlos significa sin preaviso, con efecto inmediato. Se dice sobre todo de la rescisión de un contrato de trabajo o de alquiler: eine fristlose Kündigung, jemandem fristlos kündigen.",
+        "La palabra se compone de Frist (plazo) + -los (sin). Es adjetivo y adverbio: eine fristlose Kündigung, fristlos entlassen. Normalmente, un despido inmediato solo es posible por una causa grave (wichtiger Grund)."
+      ],
+      "examples": [
+        {
+          "de": "Der Arbeitgeber kündigte ihm fristlos.",
+          "lv": "El empleador lo despidió sin preaviso."
+        },
+        {
+          "de": "Die Firma hat den Mitarbeiter fristlos entlassen.",
+          "lv": "La empresa ha despedido al empleado de forma inmediata."
+        },
+        {
+          "de": "Eine fristlose Kündigung ist nur aus wichtigem Grund möglich.",
+          "lv": "Un despido sin preaviso solo es posible por una causa grave."
+        },
+        {
+          "de": "Sie kündigte den Mietvertrag fristlos.",
+          "lv": "Rescindió el contrato de alquiler sin preaviso."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sofort",
+          "meaning": "inmediatamente",
+          "example": "Komm bitte sofort! – ¡Ven inmediatamente, por favor!"
+        },
+        {
+          "word": "fristgerecht",
+          "meaning": "con el preaviso legal",
+          "example": "Er kündigte fristgerecht. – Rescindió el contrato respetando el plazo de preaviso."
+        },
+        {
+          "word": "kündigen",
+          "meaning": "rescindir, despedir",
+          "example": "Sie kündigt ihre Wohnung. – Rescinde el contrato de alquiler de su piso."
+        }
+      ],
+      "tip": [
+        "Recuerda el contraste: fristlose Kündigung (despido sin preaviso) frente a fristgerechte Kündigung (despido con preaviso).",
+        "Palabras con -los según el mismo modelo: arbeitslos, sorglos, fristlos."
+      ],
+      "important": [
+        "fristlos se refiere a una rescisión o un despido, no a cualquier acción urgente; la urgencia en general se expresa con sofort.",
+        "En derecho laboral, un despido inmediato suele exigir una causa grave."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "fristlos",
+            "fristlose",
+            "Frist",
+            "Kündigung"
+          ],
+          "purple": [
+            "sin preaviso",
+            "inmediato"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sin preaviso"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "de forma inmediata"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlose"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sin preaviso"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fristlos"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sin preaviso"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sofort"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "inmediatamente"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fristgerecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "con el preaviso legal"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kündigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rescindir"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "fromm",
@@ -5436,7 +11914,7 @@ const B2_WORDS = [
     "de": "Frostschaden",
     "de_article": "der",
     "de_plural": "die Frostschäden",
-    "lv": "daños causados ​​por las heladas",
+    "lv": "daños por heladas",
     "level": "B2"
   },
   {
@@ -5456,21 +11934,174 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-fuegen",
-      "layout": "minimalStudy",
-      "translation": "someterse",
-      "rektion": "in + ko?",
-      "explanation": "sich fügen requiere la preposición definida en + ko?.",
-      "forms": "in + ko?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "adaptarse • obedecer",
+      "explanation": [
+        "Idea principal: sich fügen significa someterse a una norma, una decisión o unas circunstancias, acatarlas u obedecerlas (sich dem Beschluss fügen), o integrarse en un conjunto, adaptarse (sich in die Gruppe fügen).",
+        "Formas: fügt sich, fügte sich, hat sich gefügt. En el sentido de sumisión suele seguir un dativo (sich dem Willen fügen); en el de adaptación o resignación, in + acusativo (sich in sein Schicksal fügen).",
+        "La expresión Alles fügt sich significa que todo va encajando poco a poco, que todo se arregla. Sin sich, fügen es transitivo: Teile zusammenfügen — unir piezas."
+      ],
+      "examples": [
+        {
+          "de": "Er fügte sich dem Beschluss des Vorstands.",
+          "lv": "Acató la decisión de la junta directiva."
+        },
+        {
+          "de": "Sie musste sich in ihr Schicksal fügen.",
+          "lv": "Tuvo que resignarse a su destino."
+        },
+        {
+          "de": "Das Kind fügt sich den Regeln.",
+          "lv": "El niño obedece las normas."
+        },
+        {
+          "de": "Neue Kollegen müssen sich in das Team fügen.",
+          "lv": "Los nuevos compañeros tienen que integrarse en el equipo."
+        },
+        {
+          "de": "Alles fügte sich zum Guten.",
+          "lv": "Al final, todo acabó saliendo bien."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich anpassen",
+          "meaning": "adaptarse",
+          "example": "Er passt sich dem Klima an. – Se adapta al clima."
+        },
+        {
+          "word": "gehorchen",
+          "meaning": "obedecer",
+          "example": "Der Hund gehorcht seinem Herrn. – El perro obedece a su amo."
+        },
+        {
+          "word": "fügen",
+          "meaning": "unir, juntar",
+          "example": "Er fügt zwei Teile zusammen. – Une dos piezas."
+        }
+      ],
+      "tip": [
+        "Para decir que alguien acata una decisión, elige sich dem Beschluss fügen.",
+        "Conoce también la expresión sich in sein Schicksal fügen."
+      ],
+      "important": [
+        "No lo confundas con fügen sin sich (añadir, unir).",
+        "La obediencia directa a una orden o a los padres se expresa normalmente con gehorchen, no con sich fügen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich fügen"
+            "fügen",
+            "fügt",
+            "fügte",
+            "gefügt"
           ],
-          "red": [
-            "sich"
+          "purple": [
+            "someterse",
+            "adaptarse",
+            "sumisión",
+            "adaptación",
+            "resignación"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "fügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Acató"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resignarse"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "obedece"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fügte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich anpassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "adaptarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gehorchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "obedecer"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fügen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "unir"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -5485,7 +12116,7 @@ const B2_WORDS = [
     "de": "Führerrolle",
     "de_article": "die",
     "de_plural": "die Führerrollen",
-    "lv": "papel principal",
+    "lv": "papel de líder • liderazgo",
     "level": "B2"
   },
   {
@@ -5531,14 +12162,14 @@ const B2_WORDS = [
     "de": "Funkverbindung",
     "de_article": "die",
     "de_plural": "die Funkverbindungen",
-    "lv": "comunicaciones por radio",
+    "lv": "conexión por radio • radiocomunicación",
     "level": "B2"
   },
   {
     "de": "Funktionär",
     "de_article": "der",
     "de_plural": "die Funktionäre",
-    "lv": "funcionario",
+    "lv": "dirigente • cargo • activista",
     "level": "B2"
   },
   {
@@ -5580,7 +12211,7 @@ const B2_WORDS = [
     "de": "Gage",
     "de_article": "die",
     "de_plural": "die Gagen",
-    "lv": "honorarios del artista",
+    "lv": "caché • honorarios",
     "level": "B2"
   },
   {
@@ -5658,7 +12289,7 @@ const B2_WORDS = [
     "de": "Gatte",
     "de_article": "der",
     "de_plural": "die Gatten",
-    "lv": "el marido",
+    "lv": "esposo • marido",
     "level": "B2"
   },
   {
@@ -5672,7 +12303,7 @@ const B2_WORDS = [
     "de": "Gattung",
     "de_article": "die",
     "de_plural": "die Gattungen",
-    "lv": "especie • raza",
+    "lv": "género • clase",
     "level": "B2"
   },
   {
@@ -5686,7 +12317,7 @@ const B2_WORDS = [
     "de": "Gebot",
     "de_article": "das",
     "de_plural": "die Gebote",
-    "lv": "comando • requisito • mandamiento",
+    "lv": "orden • precepto • mandamiento",
     "level": "B2"
   },
   {
@@ -5703,7 +12334,7 @@ const B2_WORDS = [
     "de": "Gedeck",
     "de_article": "das",
     "de_plural": "die Gedecke",
-    "lv": "servicio de mesa para una persona",
+    "lv": "cubierto",
     "level": "B2"
   },
   {
@@ -5752,7 +12383,7 @@ const B2_WORDS = [
     "de": "Gefäß",
     "de_article": "das",
     "de_plural": "die Gefäße",
-    "lv": "vaso • vaso sanguíneo",
+    "lv": "recipiente • vaso sanguíneo",
     "level": "B2"
   },
   {
@@ -5766,7 +12397,7 @@ const B2_WORDS = [
     "de": "Gefolge",
     "de_article": "das",
     "de_plural": "die Gefolge",
-    "lv": "séquito • asistentes",
+    "lv": "séquito • comitiva",
     "level": "B2"
   },
   {
@@ -5787,7 +12418,7 @@ const B2_WORDS = [
     "de": "Gegenmittel",
     "de_article": "das",
     "de_plural": "die Gegenmittel",
-    "lv": "contramedida • remedio",
+    "lv": "antídoto • remedio",
     "level": "B2"
   },
   {
@@ -5855,7 +12486,173 @@ const B2_WORDS = [
   {
     "de": "gelaunt",
     "lv": "de buen o mal humor",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-gelaunt",
+      "layout": "standardStudy",
+      "translation": "de buen o mal humor",
+      "explanation": [
+        "Idea principal: gelaunt es un adjetivo que se usa solo acompañado de un adverbio: gut gelaunt (de buen humor), schlecht gelaunt (de mal humor). Describe el estado de ánimo de una persona.",
+        "Solo, sin adverbio, apenas se usa. Los grados los forma el adverbio: besser gelaunt, am besten gelaunt. La palabra base es die Laune (humor, estado de ánimo), plural die Launen."
+      ],
+      "examples": [
+        {
+          "de": "Er ist heute gut gelaunt.",
+          "lv": "Hoy está de buen humor."
+        },
+        {
+          "de": "Sie kam schlecht gelaunt ins Büro.",
+          "lv": "Llegó a la oficina de mal humor."
+        },
+        {
+          "de": "Der Chef ist heute nicht besonders gut gelaunt.",
+          "lv": "El jefe hoy no está de muy buen humor."
+        },
+        {
+          "de": "Wie ist er heute gelaunt?",
+          "lv": "¿De qué humor está hoy?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Laune",
+          "meaning": "humor, estado de ánimo",
+          "example": "Er hat gute Laune. – Está de buen humor."
+        },
+        {
+          "word": "gut drauf",
+          "meaning": "de buen humor, animado",
+          "example": "Er ist heute gut drauf. – Hoy está muy animado."
+        },
+        {
+          "word": "gestimmt",
+          "meaning": "de cierto ánimo",
+          "example": "Sie ist heiter gestimmt. – Está de un humor alegre."
+        }
+      ],
+      "tip": [
+        "Memoriza combinaciones hechas: gut gelaunt, schlecht gelaunt, bestens gelaunt.",
+        "Con Laune puedes decir gute Laune haben."
+      ],
+      "important": [
+        "gelaunt casi siempre va con gut, schlecht, besser u otro adverbio.",
+        "La palabra no es lo mismo que gestimmt (de cierto ánimo, predispuesto), aunque el significado es parecido."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "gelaunt",
+            "gut gelaunt",
+            "schlecht gelaunt",
+            "Laune",
+            "Launen"
+          ],
+          "purple": [
+            "de buen humor",
+            "estado de ánimo"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gut",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "de buen humor"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schlecht",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "de mal humor"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gut",
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "de muy buen humor"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gelaunt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "humor"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Laune"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "humor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gut drauf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "de buen humor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ánimo"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Geldbuße",
@@ -5875,7 +12672,7 @@ const B2_WORDS = [
     "de": "Geldeinlage",
     "de_article": "die",
     "de_plural": "die Geldeinlagen",
-    "lv": "depósito de dinero • depósito",
+    "lv": "depósito • imposición",
     "level": "B2"
   },
   {
@@ -5939,7 +12736,7 @@ const B2_WORDS = [
   },
   {
     "de": "gemessen",
-    "lv": "equilibrado • considerado",
+    "lv": "mesurado • comedido",
     "level": "B2"
   },
   {
@@ -5959,14 +12756,14 @@ const B2_WORDS = [
   {
     "de": "Gemüsebau",
     "de_article": "der",
-    "lv": "cultivos de raíces • cultivos de hortalizas",
+    "lv": "horticultura",
     "level": "B2"
   },
   {
     "de": "Gemüt",
     "de_article": "das",
     "de_plural": "die Gemüter",
-    "lv": "carácter • naturaleza • pensamientos • mentes",
+    "lv": "ánimo • carácter • temperamento",
     "level": "B2"
   },
   {
@@ -6010,30 +12807,172 @@ const B2_WORDS = [
     "de": "Genick",
     "de_article": "das",
     "de_plural": "die Genicke",
-    "lv": "occipucio",
+    "lv": "nuca",
     "level": "B2"
   },
   {
     "de": "sich genieren",
-    "lv": "estar avergonzado",
+    "lv": "avergonzarse • cortarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-genieren",
-      "layout": "minimalStudy",
-      "translation": "estar avergonzado",
-      "rektion": "vor + kam?",
-      "explanation": "sich genieren requiere la preposición definida vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "avergonzarse • cortarse",
+      "explanation": [
+        "Idea principal: sich genieren significa avergonzarse, cortarse, sentir apuro al hacer algo delante de otros. En la pronunciación, la g suena como la j francesa: [ʒeˈniːrən].",
+        "Las personas ante las que alguien siente vergüenza se indican con vor + dativo: sich vor den Gästen genieren. Formas: geniert sich, genierte sich, hat sich geniert. Se usa mucho en negativo: Genieren Sie sich nicht! — ¡No se corte!"
+      ],
+      "examples": [
+        {
+          "de": "Er geniert sich vor fremden Leuten.",
+          "lv": "Se corta delante de gente desconocida."
+        },
+        {
+          "de": "Du brauchst dich nicht zu genieren.",
+          "lv": "No tienes por qué avergonzarte."
+        },
+        {
+          "de": "Sie genierte sich, nach dem Weg zu fragen.",
+          "lv": "Le daba vergüenza preguntar por el camino."
+        },
+        {
+          "de": "Bitte genieren Sie sich nicht, greifen Sie zu!",
+          "lv": "¡Por favor, no se corte, sírvase!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich schämen",
+          "meaning": "avergonzarse",
+          "example": "Ich schäme mich für meinen Fehler. – Me avergüenzo de mi error."
+        },
+        {
+          "word": "schüchtern",
+          "meaning": "tímido",
+          "example": "Er ist sehr schüchtern. – Es muy tímido."
+        },
+        {
+          "word": "peinlich",
+          "meaning": "embarazoso, violento",
+          "example": "Das ist mir peinlich. – Me da mucha vergüenza."
+        }
+      ],
+      "tip": [
+        "Invitación hospitalaria: Genieren Sie sich nicht!",
+        "En una situación incómoda también puedes decir Das ist mir unangenehm."
+      ],
+      "important": [
+        "sich genieren expresa timidez social, mientras que sich schämen expresa vergüenza por lo que uno ha hecho.",
+        "La palabra procede del francés, por eso es importante pronunciarla con [ʒ]."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich genieren"
+            "genieren",
+            "geniert",
+            "genierte",
+            "Genieren"
           ],
-          "red": [
-            "vor + kam?"
+          "purple": [
+            "avergonzarse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "geniert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se corta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "avergonzarte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vergüenza"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "genieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no se corte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schämen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "avergonzarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schüchtern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tímido"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "peinlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "embarazoso"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6041,14 +12980,14 @@ const B2_WORDS = [
     "de": "Genosse",
     "de_article": "der",
     "de_plural": "die Genossen",
-    "lv": "un miembro",
+    "lv": "camarada • compañero",
     "level": "B2"
   },
   {
     "de": "Genossin",
     "de_article": "die",
     "de_plural": "die Genossinnen",
-    "lv": "una miembro",
+    "lv": "camarada • compañera",
     "level": "B2"
   },
   {
@@ -6067,7 +13006,7 @@ const B2_WORDS = [
     "de": "Gepäcknetz",
     "de_article": "das",
     "de_plural": "die Gepäcknetze",
-    "lv": "red de equipaje",
+    "lv": "rejilla portaequipajes",
     "level": "B2"
   },
   {
@@ -6102,7 +13041,7 @@ const B2_WORDS = [
   },
   {
     "de": "gerinnen",
-    "lv": "coagular • cuajarse • solidificarse",
+    "lv": "coagularse • cuajarse",
     "level": "B2"
   },
   {
@@ -6142,7 +13081,7 @@ const B2_WORDS = [
     "de": "Geschehnis",
     "de_article": "das",
     "de_plural": "die Geschehnisse",
-    "lv": "evento • caso • incidente",
+    "lv": "suceso • acontecimiento • incidente",
     "level": "B2"
   },
   {
@@ -6156,7 +13095,7 @@ const B2_WORDS = [
     "de": "Geschöpf",
     "de_article": "das",
     "de_plural": "die Geschöpfe",
-    "lv": "criatura • criatura • ser",
+    "lv": "criatura • ser",
     "level": "B2"
   },
   {
@@ -6182,7 +13121,7 @@ const B2_WORDS = [
   },
   {
     "de": "geschweige",
-    "lv": "sin mencionar",
+    "lv": "y mucho menos • ni hablar de",
     "level": "B2"
   },
   {
@@ -6201,14 +13140,14 @@ const B2_WORDS = [
     "de": "Geschwür",
     "de_article": "das",
     "de_plural": "die Geschwüre",
-    "lv": "forúnculo • úlcera",
+    "lv": "úlcera • llaga",
     "level": "B2"
   },
   {
     "de": "Geselle",
     "de_article": "der",
     "de_plural": "die Gesellen",
-    "lv": "oficial • ayudante • muchacho • artesano que ha aprobado el examen tras su aprendizaje",
+    "lv": "oficial • ayudante • mozo",
     "level": "B2"
   },
   {
@@ -6217,21 +13156,164 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-gesellen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "unirse",
-      "rektion": "zu + kam?",
-      "explanation": "sich gesellen requiere la preposición definida zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Gestión:",
+      "explanation": [
+        "Idea principal: sich gesellen significa unirse a una persona o a un grupo, sentarse o ponerse con ellos. También puede expresar que a algo se une otra cosa más (Zu der Kälte gesellte sich Regen).",
+        "Con zu + dativo se nombra aquello a lo que uno se une: sich zu jemandem gesellen. Formas: gesellt sich, gesellte sich, hat sich gesellt. Es un registro algo culto.",
+        "Refrán conocido: Gleich und gleich gesellt sich gern. — Dios los cría y ellos se juntan."
+      ],
+      "examples": [
+        {
+          "de": "Er gesellte sich zu uns an den Tisch.",
+          "lv": "Se unió a nosotros en la mesa."
+        },
+        {
+          "de": "Zu der Kälte gesellte sich noch Regen.",
+          "lv": "Al frío se sumó además la lluvia."
+        },
+        {
+          "de": "Darf ich mich zu Ihnen gesellen?",
+          "lv": "¿Puedo unirme a ustedes?"
+        },
+        {
+          "de": "Sie gesellte sich zu den anderen Gästen.",
+          "lv": "Se unió a los demás invitados."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich anschließen",
+          "meaning": "unirse, sumarse",
+          "example": "Ich schließe mich der Gruppe an. – Me uno al grupo."
+        },
+        {
+          "word": "dazukommen",
+          "meaning": "sumarse",
+          "example": "Er kommt später dazu. – Se suma más tarde."
+        },
+        {
+          "word": "begleiten",
+          "meaning": "acompañar",
+          "example": "Ich begleite dich nach Hause. – Te acompaño a casa."
+        }
+      ],
+      "tip": [
+        "Después de sich gesellen va zu + dativo: zu uns, zu ihm, zu den Gästen.",
+        "La palabra es muy adecuada cuando alguien se une de manera informal, por ejemplo a una mesa."
+      ],
+      "important": [
+        "Para el ingreso oficial en una organización se usa normalmente sich anschließen o beitreten, no sich gesellen.",
+        "Con sich gesellen está emparentada la palabra der Geselle (oficial de un oficio artesano, o compañero)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich gesellen"
+            "gesellen",
+            "gesellte",
+            "gesellt"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "unirse",
+            "se une"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se unió"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se sumó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "unirme"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se unió"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich anschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "unirse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dazukommen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sumarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "begleiten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "acompañar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6263,25 +13345,174 @@ const B2_WORDS = [
   },
   {
     "de": "sich gestalten",
-    "lv": "formar en",
+    "lv": "configurarse • desarrollarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-gestalten",
-      "layout": "minimalStudy",
-      "translation": "tomar forma",
-      "rektion": "zu + kam?",
-      "explanation": "sich gestalten requiere la preposición definida zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "configurarse • desarrollarse",
+      "explanation": [
+        "Idea principal: sich gestalten significa configurarse, desarrollarse, resultar de una manera u otra; se dice de un acontecimiento, unas negociaciones o el futuro. Suele ir seguido de un adjetivo (schwierig, positiv) o de zu + dativo (zu einem Erfolg).",
+        "Formas: gestaltet sich, gestaltete sich, hat sich gestaltet. El sujeto suele ser un sustantivo abstracto: Verhandlungen, Zukunft, Abend, Zusammenarbeit.",
+        "Sin sich, gestalten significa diseñar, dar forma (den Garten gestalten)."
+      ],
+      "examples": [
+        {
+          "de": "Die Verhandlungen gestalten sich schwierig.",
+          "lv": "Las negociaciones resultan difíciles."
+        },
+        {
+          "de": "Der Abend gestaltete sich zu einem Erfolg.",
+          "lv": "La velada acabó siendo un éxito."
+        },
+        {
+          "de": "Wie wird sich die Zukunft gestalten?",
+          "lv": "¿Cómo será el futuro?"
+        },
+        {
+          "de": "Das Treffen gestaltete sich anders als geplant.",
+          "lv": "El encuentro se desarrolló de forma distinta a lo previsto."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gestalten",
+          "meaning": "diseñar, dar forma",
+          "example": "Wir gestalten den Garten neu. – Rediseñamos el jardín."
+        },
+        {
+          "word": "werden",
+          "meaning": "llegar a ser, hacerse",
+          "example": "Er wird Lehrer. – Va a ser profesor."
+        },
+        {
+          "word": "sich entwickeln",
+          "meaning": "desarrollarse",
+          "example": "Das Kind entwickelt sich gut. – El niño se desarrolla bien."
+        }
+      ],
+      "tip": [
+        "Combinación frecuente: sich schwierig gestalten — resultar complicado.",
+        "En estilo empresarial y oficial: Die Zusammenarbeit gestaltet sich erfolgreich."
+      ],
+      "important": [
+        "sich gestalten se usa sobre todo en lenguaje formal; en el día a día dirás simplemente werden o verlaufen.",
+        "El sujeto no suele ser una persona, sino un acontecimiento o un proceso."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich gestalten"
+            "sich gestalten",
+            "gestalten",
+            "gestaltet",
+            "gestaltete"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "desarrollarse",
+            "resultar",
+            "diseñar"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gestalten",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resultan difíciles"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gestaltete",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "acabó siendo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "gestalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "será"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gestaltete",
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se desarrolló"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gestalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "diseñar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "werden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "llegar a ser"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich entwickeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "desarrollarse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6357,7 +13588,7 @@ const B2_WORDS = [
     "de": "Gewalttat",
     "de_article": "die",
     "de_plural": "die Gewalttaten",
-    "lv": "violencia • un acto de violencia",
+    "lv": "acto de violencia • violencia",
     "level": "B2"
   },
   {
@@ -6444,14 +13675,14 @@ const B2_WORDS = [
     "de": "Gipsabdruck",
     "de_article": "der",
     "de_plural": "die Gipsabdrücke",
-    "lv": "impresión de yeso",
+    "lv": "vaciado de yeso • molde de yeso",
     "level": "B2"
   },
   {
     "de": "Gipsverband",
     "de_article": "der",
     "de_plural": "die Gipsverbände",
-    "lv": "vendaje de yeso",
+    "lv": "escayola • vendaje de yeso",
     "level": "B2"
   },
   {
@@ -6463,7 +13694,7 @@ const B2_WORDS = [
   },
   {
     "de": "gläsern",
-    "lv": "vidrio • vidrioso",
+    "lv": "de vidrio • vidrioso",
     "level": "B2"
   },
   {
@@ -6483,7 +13714,7 @@ const B2_WORDS = [
     "de": "Glasur",
     "de_article": "die",
     "de_plural": "die Glasuren",
-    "lv": "glaseado • glaseado",
+    "lv": "glaseado • esmalte",
     "level": "B2"
   },
   {
@@ -6497,7 +13728,7 @@ const B2_WORDS = [
     "de": "Stirnglatze",
     "de_article": "die",
     "de_plural": "die Stirnglatzen",
-    "lv": "calvicie frontal",
+    "lv": "entradas",
     "level": "B2"
   },
   {
@@ -6549,14 +13780,332 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Gluten",
     "lv": "rescoldo • resplandor • calor intenso",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-glut",
+      "layout": "standardStudy",
+      "translation": "rescoldo • resplandor • calor intenso",
+      "explanation": [
+        "Idea principal: die Glut es un sustantivo femenino. Significa brasas, el rescoldo de un fuego que se apaga, y también un calor intenso, abrasador (die Glut der Sonne), o el resplandor de lo que arde. En sentido figurado, Glut es también pasión, ardor.",
+        "El plural es raro (die Gluten); normalmente se usa el singular: die Glut. Expresiones frecuentes: die Glut anfachen (avivar las brasas), unter der Asche glimmt noch Glut (bajo la ceniza aún quedan rescoldos)."
+      ],
+      "examples": [
+        {
+          "de": "Die Glut des Lagerfeuers wärmte uns noch.",
+          "lv": "Las brasas de la hoguera aún nos daban calor."
+        },
+        {
+          "de": "In der Glut der Mittagssonne ruhte das ganze Dorf.",
+          "lv": "Bajo el calor abrasador del mediodía, todo el pueblo descansaba."
+        },
+        {
+          "de": "Er blies in die Glut, bis wieder Flammen aufstiegen.",
+          "lv": "Sopló sobre las brasas hasta que volvieron a salir llamas."
+        },
+        {
+          "de": "Mit großer Glut sprach sie über ihr Projekt.",
+          "lv": "Habló de su proyecto con gran pasión."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hitze",
+          "meaning": "calor",
+          "example": "Im Sommer ist die Hitze groß. – En verano hace mucho calor."
+        },
+        {
+          "word": "die Asche",
+          "meaning": "ceniza",
+          "example": "Unter der Asche liegt noch Glut. – Bajo la ceniza aún quedan brasas."
+        },
+        {
+          "word": "die Flamme",
+          "meaning": "llama",
+          "example": "Die Flamme wird kleiner. – La llama se hace más pequeña."
+        }
+      ],
+      "tip": [
+        "Glut designa el resplandor rojo que queda del fuego, mientras que Flamme es la llama visible.",
+        "En el contexto de una hoguera, memoriza: Feuer — fuego, Flamme — llama, Glut — brasas."
+      ],
+      "important": [
+        "Glut se usa normalmente en singular; el plural die Gluten es muy raro.",
+        "Para describir el calor del día a día suele bastar die Hitze; Glut suena más intenso, más poético."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Glut",
+            "Glut",
+            "Gluten"
+          ],
+          "purple": [
+            "abrasador",
+            "calor intenso",
+            "rescoldo"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "brasas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "calor abrasador"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "brasas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Glut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pasión"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Hitze"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "calor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Asche"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ceniza"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Flamme"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "llama"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Gnade",
     "de_article": "die",
     "de_plural": "die Gnaden",
     "lv": "misericordia • perdón",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-gnade",
+      "layout": "standardStudy",
+      "translation": "misericordia • perdón",
+      "explanation": [
+        "Idea principal: die Gnade es un sustantivo femenino. Significa misericordia, clemencia (la actitud benévola de quien tiene el poder) y también perdón, indulto o rebaja de una pena.",
+        "El plural se usa poco (die Gnaden). Combinaciones frecuentes: um Gnade bitten (pedir clemencia), Gnade walten lassen (tener clemencia), auf Gnade und Ungnade (totalmente a merced de alguien), die Gnade Gottes (la gracia de Dios)."
+      ],
+      "examples": [
+        {
+          "de": "Der Verurteilte bat um Gnade.",
+          "lv": "El condenado pidió clemencia."
+        },
+        {
+          "de": "Der Präsident ließ Gnade walten.",
+          "lv": "El presidente tuvo clemencia."
+        },
+        {
+          "de": "Wir sind ihm auf Gnade und Ungnade ausgeliefert.",
+          "lv": "Estamos totalmente a su merced."
+        },
+        {
+          "de": "Er verdankt sein Leben der Gnade des Königs.",
+          "lv": "Debe su vida a la clemencia del rey."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Mitleid",
+          "meaning": "compasión",
+          "example": "Ich habe Mitleid mit ihm. – Siento compasión por él."
+        },
+        {
+          "word": "die Begnadigung",
+          "meaning": "indulto",
+          "example": "Die Begnadigung wurde abgelehnt. – El indulto fue denegado."
+        },
+        {
+          "word": "die Gunst",
+          "meaning": "favor",
+          "example": "Er genießt die Gunst des Chefs. – Goza del favor del jefe."
+        }
+      ],
+      "tip": [
+        "Memoriza la combinación um Gnade bitten (pedir clemencia); la preposición um rige acusativo.",
+        "Con walten lassen se dice Gnade walten lassen — tener clemencia."
+      ],
+      "important": [
+        "Gnade se refiere a la benevolencia de alguien superior o de Dios; la simple compasión hacia otra persona se llama Mitleid.",
+        "No lo confundas con Gunst (favor, actitud favorable)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Gnade",
+            "Gnaden"
+          ],
+          "purple": [
+            "misericordia",
+            "perdón",
+            "gracia"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "clemencia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "clemencia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gnade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "clemencia"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Mitleid"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "compasión"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Begnadigung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "indulto"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gunst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "favor"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Gnadenbrot",
@@ -6601,7 +14150,7 @@ const B2_WORDS = [
     "de": "Goldwäscher",
     "de_article": "der",
     "de_plural": "die Goldwäscher",
-    "lv": "lavador de oro",
+    "lv": "buscador de oro",
     "level": "B2"
   },
   {
@@ -6649,7 +14198,7 @@ const B2_WORDS = [
     "de": "Grabung",
     "de_article": "die",
     "de_plural": "die Grabungen",
-    "lv": "excavaciones",
+    "lv": "excavación",
     "level": "B2"
   },
   {
@@ -6668,21 +14217,163 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-grauen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "tener miedo de",
-      "rektion": "vor + kam?",
-      "explanation": "sich grauen requiere la preposición definida vor + kam?.",
-      "forms": "vor + kam?",
-      "formsLabel": "Gestión:",
+      "explanation": [
+        "Idea principal: sich grauen significa sentir de antemano miedo, inquietud, repugnancia o rechazo: tener miedo de algo desagradable que se espera. En la lengua estándar se usa casi siempre en forma impersonal: Mir graut vor …, Es graut mir vor … (dativo).",
+        "Con vor + dativo se nombra aquello que se teme: Mir graut vor der Prüfung. La forma con pronombre reflexivo (ich graue mich) también se oye, pero es menos frecuente. Perfecto: hat gegraut.",
+        "La palabra está relacionada con das Grauen (horror) y con la expresión der Tag graut (amanece)."
+      ],
+      "examples": [
+        {
+          "de": "Mir graut vor der Prüfung.",
+          "lv": "Me da miedo el examen."
+        },
+        {
+          "de": "Es graut ihm vor dem Winter.",
+          "lv": "Le da miedo el invierno."
+        },
+        {
+          "de": "Mir graut davor, allein zu wohnen.",
+          "lv": "Me da miedo vivir solo."
+        },
+        {
+          "de": "Vor dem Montagmorgen graut es mir schon jetzt.",
+          "lv": "Ya me horroriza pensar en el lunes por la mañana."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich fürchten",
+          "meaning": "temer, tener miedo",
+          "example": "Ich fürchte mich vor Spinnen. – Tengo miedo a las arañas."
+        },
+        {
+          "word": "Angst haben",
+          "meaning": "tener miedo",
+          "example": "Er hat Angst vor Hunden. – Tiene miedo a los perros."
+        },
+        {
+          "word": "das Grauen",
+          "meaning": "horror",
+          "example": "Das Grauen packte ihn. – El horror se apoderó de él."
+        }
+      ],
+      "tip": [
+        "Esta palabra se usa como construcción impersonal: Mir graut vor …",
+        "En el día a día es más seguro elegir Angst haben vor + dativo o sich fürchten vor + dativo."
+      ],
+      "important": [
+        "La persona que tiene miedo suele ir en dativo (mir, ihm), no en nominativo, igual que en español «me da miedo».",
+        "Cuando dices Mir graut, no hace falta añadir un pronombre reflexivo."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich grauen"
+            "grauen",
+            "graut"
           ],
-          "red": [
-            "vor + kam?"
+          "purple": [
+            "tener miedo",
+            "miedo"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "miedo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "miedo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "miedo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "graut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "horroriza"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich fürchten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "temer"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Angst haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tener miedo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Grauen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "horror"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -6693,7 +14384,7 @@ const B2_WORDS = [
   },
   {
     "de": "gravierend",
-    "lv": "significativo",
+    "lv": "grave • de peso",
     "level": "B2"
   },
   {
@@ -6739,13 +14430,13 @@ const B2_WORDS = [
     "de": "Grenzbereich",
     "de_article": "der",
     "de_plural": "die Grenzbereiche",
-    "lv": "franja fronteriza • zona fronteriza • territorio a ambos lados de la frontera",
+    "lv": "zona fronteriza • franja fronteriza",
     "level": "B2"
   },
   {
     "de": "Grimm",
     "de_article": "der",
-    "lv": "gran ira • furia • ira",
+    "lv": "ira • furia",
     "level": "B2"
   },
   {
@@ -6796,14 +14487,14 @@ const B2_WORDS = [
     "de": "Grußwort",
     "de_article": "das",
     "de_plural": "die Grußworte",
-    "lv": "saludo oficial",
+    "lv": "palabras de bienvenida • discurso de saludo",
     "level": "B2"
   },
   {
     "de": "Gummizug",
     "de_article": "der",
     "de_plural": "die Gummizüge",
-    "lv": "banda elástica",
+    "lv": "goma elástica • elástico",
     "level": "B2"
   },
   {
@@ -6979,57 +14670,72 @@ const B2_WORDS = [
     "de": "Haube",
     "de_article": "die",
     "de_plural": "die Hauben",
-    "lv": "gorra • capucha",
+    "lv": "cofia • gorro • cubierta",
     "level": "B2",
     "study": {
       "id": "b2-haube",
       "layout": "standardStudy",
-      "translation": "capucha",
+      "translation": "cofia • gorro • cubierta",
       "explanation": [
-        "Idea principal: die Haube puede significar gorro/capucha o capucha/cubierta; el contexto determina el significado.",
-        "En la cabeza: die Haube = gorra, capucha o técnica del autor en un contexto específico (z. B. Nonne mit Haube).",
-        "En el coche: die Motorhaube o einfach die Haube = capó.",
-        "En la cocina: die Dunsthaube = campana extractora encima de la estufa. En tecnología: capota o funda sobre un dispositivo."
+        "Idea principal: die Haube es un sustantivo femenino, plural die Hauben. Primer sentido: cofia o gorro que cubre la cabeza (una cofia antigua de mujer, la toca de una monja). Segundo: cubierta que tapa un aparato: Motorhaube (capó del coche), Dunsthaube (campana extractora sobre la cocina).",
+        "La expresión coloquial unter die Haube kommen significa casarse, algo así como «pasar por la vicaría»."
       ],
       "examples": [
         {
-          "de": "Sie trägt eine warme Haube.",
-          "lv": "Ella usa un gorro abrigado."
-        },
-        {
-          "de": "Die Nonne trägt eine schwarze Haube.",
-          "lv": "La monja lleva una capucha negra."
+          "de": "Die Großmutter trug eine weiße Haube.",
+          "lv": "La abuela llevaba una cofia blanca."
         },
         {
           "de": "Er öffnet die Haube des Autos.",
           "lv": "Abre el capó del coche."
         },
         {
-          "de": "Die Motorhaube ist kaputt.",
-          "lv": "El capó está roto."
-        },
-        {
           "de": "Über dem Herd hängt eine Dunsthaube.",
-          "lv": "Encima de la estufa hay una campana extractora."
+          "lv": "Sobre la cocina hay una campana extractora."
         },
         {
-          "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "Pon la tapa a la olla."
+          "de": "Meine Tante ist endlich unter die Haube gekommen.",
+          "lv": "Mi tía por fin se ha casado."
+        },
+        {
+          "de": "Beim Friseur saß sie unter der Haube.",
+          "lv": "En la peluquería estaba sentada bajo el secador de casco."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Mütze",
+          "meaning": "gorro",
+          "example": "Im Winter trage ich eine Mütze. – En invierno llevo gorro."
+        },
+        {
+          "word": "der Deckel",
+          "meaning": "tapa",
+          "example": "Der Deckel passt nicht auf den Topf. – La tapa no encaja en la olla."
+        },
+        {
+          "word": "die Abdeckung",
+          "meaning": "cubierta, funda",
+          "example": "Die Abdeckung schützt das Gerät. – La cubierta protege el aparato."
         }
       ],
       "tip": [
-        "Hablando de cabeza, monja, sombrero → gorra/capucha.",
-        "Se trata de un coche, motor → capó.",
-        "Hablamos de una estufa, electrodoméstico → campana extractora o campana extractora."
+        "En el contexto del coche, Haube suele ser el capó delantero: die Motorhaube.",
+        "En las palabras compuestas, Haube aporta el sentido de cubierta: Dunsthaube, Motorhaube."
       ],
       "important": [
-        "die Haube = gorra/capucha O capucha O capucha/capó - dependiendo del contexto.",
-        "Ayuda compuesta: Motorhaube (coche), Dunstaube (cocina)."
+        "Haube no es un gorro corriente; al que se lleva en invierno se le llama Mütze.",
+        "La expresión unter die Haube kommen es coloquial y algo humorística."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Haube",
+            "Hauben"
+          ],
           "purple": [
-            "capucha"
+            "cofia",
+            "cubierta"
           ]
         },
         "examples": [
@@ -7041,7 +14747,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ella"
+                "cofia"
               ]
             }
           },
@@ -7049,30 +14755,6 @@ const B2_WORDS = [
             "de": {
               "blue": [
                 "Haube"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "monja"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Haube"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "abre"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Motorhaube"
               ]
             },
             "lv": {
@@ -7083,13 +14765,13 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Dunsthaube"
               ]
             },
             "lv": {
               "purple": [
-                "extractora"
+                "campana extractora"
               ]
             }
           },
@@ -7101,10 +14783,68 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Pon"
+                "se ha casado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Haube"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "secador de casco"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Mütze"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gorro"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Deckel"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tapa"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Abdeckung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cubierta"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -7151,14 +14891,14 @@ const B2_WORDS = [
     "de": "Heck",
     "de_article": "das",
     "de_plural": "die Hecke",
-    "lv": "la popa de un barco",
+    "lv": "popa • parte trasera",
     "level": "B2"
   },
   {
     "de": "Heckklappe",
     "de_article": "die",
     "de_plural": "die Heckklappen",
-    "lv": "puerta trasera del maletero del coche",
+    "lv": "portón trasero",
     "level": "B2"
   },
   {
@@ -7185,7 +14925,7 @@ const B2_WORDS = [
     "de": "Heilquelle",
     "de_article": "die",
     "de_plural": "die Heilquellen",
-    "lv": "fuente de curación",
+    "lv": "manantial medicinal",
     "level": "B2"
   },
   {
@@ -7231,7 +14971,7 @@ const B2_WORDS = [
     "de": "Heizöl",
     "de_article": "das",
     "de_plural": "die Heizöle",
-    "lv": "combustible líquido • fueloil",
+    "lv": "gasóleo de calefacción • fueloil",
     "level": "B2"
   },
   {
@@ -7280,25 +15020,171 @@ const B2_WORDS = [
   },
   {
     "de": "sich herausbilden",
-    "lv": "formar en",
+    "lv": "formarse • desarrollarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-herausbilden",
-      "layout": "minimalStudy",
-      "translation": "formarse",
-      "rektion": "zu + kam?",
-      "explanation": "sich herausbilden requiere la preposición definida zu + kam?.",
-      "forms": "zu + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "formarse • desarrollarse",
+      "explanation": [
+        "Idea principal: sich herausbilden significa formarse, desarrollarse poco a poco, cristalizar a partir de algo anterior; se dice de un estilo, una costumbre, unos papeles, una ciudad. Con zu + dativo se indica en qué se convierte alguien o algo.",
+        "Prefijo separable heraus-: bildet sich heraus, bildete sich heraus, hat sich herausgebildet. Es un proceso gradual, por eso el sujeto suele ser un sustantivo abstracto."
+      ],
+      "examples": [
+        {
+          "de": "Aus dem kleinen Dorf bildete sich eine große Stadt heraus.",
+          "lv": "El pequeño pueblo se convirtió en una gran ciudad."
+        },
+        {
+          "de": "Mit der Zeit hat sich ein neuer Stil herausgebildet.",
+          "lv": "Con el tiempo se ha formado un nuevo estilo."
+        },
+        {
+          "de": "Der Junge hat sich zu einem guten Musiker herausgebildet.",
+          "lv": "El chico ha llegado a ser un buen músico."
+        },
+        {
+          "de": "In der Gruppe bildeten sich schnell feste Rollen heraus.",
+          "lv": "En el grupo se formaron rápidamente unos papeles fijos."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich entwickeln",
+          "meaning": "desarrollarse",
+          "example": "Das Kind entwickelt sich gut. – El niño se desarrolla bien."
+        },
+        {
+          "word": "entstehen",
+          "meaning": "surgir, nacer",
+          "example": "Hier entstand eine neue Siedlung. – Aquí surgió una nueva urbanización."
+        },
+        {
+          "word": "bilden",
+          "meaning": "formar",
+          "example": "Wir bilden eine Gruppe. – Formamos un grupo."
+        }
+      ],
+      "tip": [
+        "Recuerda la separación: Es bildet sich heraus, pero Es hat sich herausgebildet.",
+        "Combinación frecuente: sich zu etwas herausbilden."
+      ],
+      "important": [
+        "sich herausbilden expresa un proceso gradual, no un hecho puntual.",
+        "No lo confundas con bilden (formar, crear): es un verbo transitivo."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich herausbilden"
+            "herausbilden",
+            "bildet sich heraus",
+            "bildete sich heraus",
+            "hat sich herausgebildet",
+            "heraus-"
           ],
-          "red": [
-            "zu + kam?"
+          "purple": [
+            "formarse",
+            "cristalizar"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bildete",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se convirtió"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgebildet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "formado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgebildet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "llegado a ser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bildeten",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se formaron"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich entwickeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "desarrollarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "entstehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "surgir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bilden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "formar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7309,25 +15195,170 @@ const B2_WORDS = [
   },
   {
     "de": "sich heraushalten",
-    "lv": "mantenerse alejado de",
+    "lv": "mantenerse al margen • no meterse",
     "level": "B2",
     "study": {
       "id": "b2-sich-heraushalten",
-      "layout": "minimalStudy",
-      "translation": "mantenerse alejado de",
-      "rektion": "aus + kam?",
-      "explanation": "sich heraushalten requiere una determinada preposición aus + kam?.",
-      "forms": "aus + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "mantenerse al margen • no meterse",
+      "explanation": [
+        "Idea principal: sich heraushalten significa no meterse, no intervenir en un conflicto o un asunto, mantenerse al margen. Con aus + dativo se nombra aquello de lo que uno se mantiene apartado: sich aus dem Streit heraushalten.",
+        "Prefijo separable heraus-: hält sich heraus, hielt sich heraus, hat sich herausgehalten. Imperativo: Halt dich da heraus! Sin sich, heraushalten es transitivo: jemanden aus etwas heraushalten — no implicar a alguien en algo."
+      ],
+      "examples": [
+        {
+          "de": "Halt dich aus dem Streit heraus!",
+          "lv": "¡No te metas en la pelea!"
+        },
+        {
+          "de": "Ich halte mich aus der Politik heraus.",
+          "lv": "Yo me mantengo al margen de la política."
+        },
+        {
+          "de": "Er hat sich aus allem herausgehalten.",
+          "lv": "Se mantuvo al margen de todo."
+        },
+        {
+          "de": "Die Eltern wollten sich aus der Entscheidung heraushalten.",
+          "lv": "Los padres querían mantenerse al margen de la decisión."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich einmischen",
+          "meaning": "meterse, entrometerse",
+          "example": "Misch dich nicht ein! – ¡No te metas!"
+        },
+        {
+          "word": "sich zurückhalten",
+          "meaning": "contenerse, mostrarse reservado",
+          "example": "Bei Diskussionen halte ich mich zurück. – En los debates prefiero no intervenir."
+        },
+        {
+          "word": "heraushalten",
+          "meaning": "no implicar",
+          "example": "Halt die Kinder aus dem Streit heraus. – Deja a los niños fuera de la pelea."
+        }
+      ],
+      "tip": [
+        "Para dar una orden se usa: Halt dich da heraus! — ¡no te metas!",
+        "Suele seguir aus + dativo: aus dem Konflikt, aus meinen Angelegenheiten."
+      ],
+      "important": [
+        "Después de aus, el sustantivo va en dativo: aus dem Streit.",
+        "Lo contrario es sich einmischen (meterse, entrometerse)."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich heraushalten"
+            "heraushalten",
+            "hält",
+            "hielt",
+            "herausgehalten",
+            "Halt"
           ],
-          "red": [
-            "aus + kam?"
+          "purple": [
+            "no meterse",
+            "mantenerse",
+            "no implicar"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Halt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "No te metas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "halte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "me mantengo al margen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgehalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se mantuvo al margen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "heraushalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantenerse al margen"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich einmischen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "meterse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zurückhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "contenerse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "heraushalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "no implicar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7342,21 +15373,162 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-herausstellen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "resultar ser",
-      "rektion": "als + kas?",
-      "explanation": "sich herausstellen requiere la preposición definida als + ¿qué?.",
-      "forms": "als + kas?",
-      "formsLabel": "Gestión:",
+      "explanation": [
+        "Idea principal: sich herausstellen significa resultar ser, descubrirse: queda claro cómo es en realidad alguien o algo. Con als + nominativo: Er stellte sich als Betrüger heraus. Una frase típica es Es stellte sich heraus, dass …",
+        "Prefijo separable heraus-: stellt sich heraus, stellte sich heraus, hat sich herausgestellt. El sujeto suele ser una cosa o una información, pero también puede ser una persona."
+      ],
+      "examples": [
+        {
+          "de": "Es stellte sich heraus, dass er recht hatte.",
+          "lv": "Resultó que tenía razón."
+        },
+        {
+          "de": "Der Verdacht stellte sich als falsch heraus.",
+          "lv": "La sospecha resultó ser infundada."
+        },
+        {
+          "de": "Das Projekt hat sich als großer Erfolg herausgestellt.",
+          "lv": "El proyecto ha resultado ser un gran éxito."
+        },
+        {
+          "de": "Wer der Täter ist, wird sich bald herausstellen.",
+          "lv": "Pronto se sabrá quién es el culpable."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich erweisen",
+          "meaning": "resultar ser",
+          "example": "Die Methode erwies sich als nützlich. – El método resultó ser útil."
+        },
+        {
+          "word": "sich zeigen",
+          "meaning": "mostrarse, verse",
+          "example": "Es zeigte sich, dass er müde war. – Se vio que estaba cansado."
+        },
+        {
+          "word": "herausfinden",
+          "meaning": "averiguar",
+          "example": "Ich finde das heraus. – Lo averiguaré."
+        }
+      ],
+      "tip": [
+        "Al principio de la frase resulta práctico Es stellte sich heraus, dass … — resultó que…",
+        "Con als se nombra el resultado: sich als falsch herausstellen."
+      ],
+      "important": [
+        "El prefijo heraus- se separa: Es stellt sich heraus, no es herausstellt sich.",
+        "No lo confundas con herausstellen sin sich (destacar, sacar fuera): etwas herausstellen."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich herausstellen"
+            "herausstellen"
           ],
-          "red": [
-            "sich"
+          "purple": [
+            "resultar ser"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "stellte",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Resultó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stellte",
+                "heraus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resultó ser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausgestellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resultado ser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "herausstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se sabrá"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erweisen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "resultar ser"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zeigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mostrarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "herausfinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "averiguar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7382,25 +15554,167 @@ const B2_WORDS = [
   },
   {
     "de": "sich hervortun",
-    "lv": "destacar",
+    "lv": "distinguirse • destacarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-hervortun",
-      "layout": "minimalStudy",
-      "translation": "destacar",
-      "rektion": "in + kur?",
-      "explanation": "sich hervortun requiere una preposición definida en + ¿dónde?.",
-      "forms": "in + kur?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "distinguirse • destacarse",
+      "explanation": [
+        "Idea principal: sich hervortun significa distinguirse, destacarse entre los demás por sus capacidades, sus logros o alguna cualidad. El ámbito del logro se indica con in + dativo; la cualidad, con durch + acusativo; el papel, con als.",
+        "Prefijo separable hervor-: tut sich hervor, tat sich hervor, hat sich hervorgetan. Es un registro algo formal; se usa a menudo al describir éxitos.",
+        "A veces también puede significar intentar destacar de forma llamativa para atraer la atención."
+      ],
+      "examples": [
+        {
+          "de": "Sie hat sich im Sport besonders hervorgetan.",
+          "lv": "Destacó especialmente en el deporte."
+        },
+        {
+          "de": "Er tut sich durch Fleiß hervor.",
+          "lv": "Se distingue por su diligencia."
+        },
+        {
+          "de": "Im Krieg tat sich der General als mutiger Anführer hervor.",
+          "lv": "En la guerra, el general se distinguió como un líder valiente."
+        },
+        {
+          "de": "Wer sich hervortut, bekommt oft viel Aufmerksamkeit.",
+          "lv": "Quien destaca suele recibir mucha atención."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich auszeichnen",
+          "meaning": "distinguirse",
+          "example": "Er zeichnet sich durch Ehrlichkeit aus. – Se distingue por su honradez."
+        },
+        {
+          "word": "hervorheben",
+          "meaning": "subrayar, resaltar",
+          "example": "Der Lehrer hebt die Fehler hervor. – El profesor resalta los errores."
+        },
+        {
+          "word": "auffallen",
+          "meaning": "llamar la atención",
+          "example": "Sie fällt in der Menge auf. – Llama la atención entre la multitud."
+        }
+      ],
+      "tip": [
+        "Indica el ámbito con in + dativo: sich in Mathe hervortun.",
+        "Si quieres nombrar la cualidad que hace destacar a alguien, usa durch: sich durch Mut hervortun."
+      ],
+      "important": [
+        "sich hervortun es separable: Er tut sich hervor, pero Er hat sich hervorgetan.",
+        "No lo confundas con hervorheben (subrayar, resaltar algo): es transitivo y no reflexivo."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich hervortun"
+            "hervortun",
+            "tut sich hervor",
+            "hervorgetan"
           ],
-          "red": [
-            "sich"
+          "purple": [
+            "distinguirse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hervorgetan"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Destacó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se distingue"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se distinguió"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hervortut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "destaca"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich auszeichnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "distinguirse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "hervorheben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "resaltar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "auffallen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "llamar la atención"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7433,7 +15747,186 @@ const B2_WORDS = [
   {
     "de": "hetzen",
     "lv": "azuzar • incitar • perseguir • apresurar",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-hetzen",
+      "layout": "standardStudy",
+      "translation": "azuzar • incitar • perseguir • apresurar",
+      "explanation": [
+        "Idea principal: hetzen es un verbo con varios significados. Significa azuzar a los perros contra alguien, perseguir y acosar a una presa; en sentido figurado, incitar al odio (gegen jemanden hetzen). Sin complemento y con sein también puede significar ir con prisas, correr: durch die Stadt hetzen.",
+        "Formas: hetzt, hetzte, hat gehetzt (transitivo) o ist gehetzt (con sentido de movimiento). Derivados frecuentes: aufhetzen (instigar), die Hetze (incitación al odio; prisa, ajetreo).",
+        "En la conversación, Hetz mich nicht! significa ¡no me metas prisa!, es decir, no me apresures."
+      ],
+      "examples": [
+        {
+          "de": "Der Jäger hetzt die Hunde auf den Hirsch.",
+          "lv": "El cazador azuza a los perros contra el ciervo."
+        },
+        {
+          "de": "Er hetzt gegen Ausländer.",
+          "lv": "Incita al odio contra los extranjeros."
+        },
+        {
+          "de": "Die Hunde hetzten den Hasen über das Feld.",
+          "lv": "Los perros persiguieron a la liebre por el campo."
+        },
+        {
+          "de": "Ich bin den ganzen Tag durch die Stadt gehetzt.",
+          "lv": "He ido todo el día corriendo de un lado a otro por la ciudad."
+        },
+        {
+          "de": "Hetz mich nicht!",
+          "lv": "¡No me metas prisa!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "jagen",
+          "meaning": "cazar",
+          "example": "Der Jäger jagt Rehe. – El cazador caza corzos."
+        },
+        {
+          "word": "aufhetzen",
+          "meaning": "instigar, soliviantar",
+          "example": "Er hetzt die Menge auf. – Solivianta a la multitud."
+        },
+        {
+          "word": "eilen",
+          "meaning": "apresurarse",
+          "example": "Ich eile zum Bahnhof. – Voy deprisa a la estación."
+        }
+      ],
+      "tip": [
+        "En el contexto político, hetzen gegen + acusativo significa incitar al odio contra alguien.",
+        "En el contexto de la caza es frecuente: Hunde hetzen den Hasen."
+      ],
+      "important": [
+        "La palabra hetzen suele ser negativa: incitación al odio o prisas desagradables.",
+        "En el sentido de movimiento, el perfecto se forma con sein (ist gehetzt); en los demás casos, con haben."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hetzen",
+            "hetzt"
+          ],
+          "purple": [
+            "azuzar",
+            "incitar",
+            "perseguir",
+            "acosar"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "azuza"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Incita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hetzten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "persiguieron"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gehetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "corriendo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hetz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "metas prisa"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "jagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cazar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufhetzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "instigar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "eilen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apresurarse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "heucheln",
@@ -7455,7 +15948,7 @@ const B2_WORDS = [
     "de": "Hilfsaktion",
     "de_article": "die",
     "de_plural": "die Hilfsaktionen",
-    "lv": "acción de ayuda",
+    "lv": "campaña de ayuda • operación de ayuda",
     "level": "B2"
   },
   {
@@ -7467,30 +15960,176 @@ const B2_WORDS = [
   },
   {
     "de": "hingeben",
-    "lv": "entregar • dedicarse",
+    "lv": "entregar • dar",
     "level": "B2"
   },
   {
     "de": "sich hingeben",
-    "lv": "rendirse • rendirse",
+    "lv": "entregarse • dedicarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-hingeben",
-      "layout": "minimalStudy",
-      "translation": "entregarse",
-      "rektion": "+ kam?",
-      "explanation": "sich hingeben prasa + kam?.",
-      "forms": "+ kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "entregarse • dedicarse",
+      "explanation": [
+        "Idea principal: sich hingeben significa entregarse o dedicarse por completo a algo: a la música, a los sueños, al placer, a la tristeza o a los sentimientos. Va seguido de dativo: sich der Musik hingeben, sich seinen Träumen hingeben.",
+        "Prefijo separable hin-: gibt sich hin, gab sich hin, hat sich hingegeben. Sin sich, etwas hingeben significa sacrificar, dar algo: sein Leben hingeben."
+      ],
+      "examples": [
+        {
+          "de": "Sie gab sich ganz der Musik hin.",
+          "lv": "Se entregó por completo a la música."
+        },
+        {
+          "de": "Er gibt sich seinen Träumen hin.",
+          "lv": "Se abandona a sus sueños."
+        },
+        {
+          "de": "Wir haben uns dem Genuss hingegeben.",
+          "lv": "Nos entregamos al placer."
+        },
+        {
+          "de": "Gib dich keinen falschen Hoffnungen hin!",
+          "lv": "¡No te hagas falsas ilusiones!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich widmen",
+          "meaning": "dedicarse",
+          "example": "Er widmet sich der Forschung. – Se dedica a la investigación."
+        },
+        {
+          "word": "sich überlassen",
+          "meaning": "abandonarse",
+          "example": "Er überlässt sich seinen Gedanken. – Se abandona a sus pensamientos."
+        },
+        {
+          "word": "sich ergeben",
+          "meaning": "rendirse",
+          "example": "Der Soldat ergibt sich. – El soldado se rinde."
+        }
+      ],
+      "tip": [
+        "Después de sich hingeben pon dativo: der Arbeit, dem Schmerz, den Erinnerungen.",
+        "Recuerda la separación: Sie gibt sich hin, pero Sie hat sich hingegeben."
+      ],
+      "important": [
+        "sich hingeben suele expresar una inmersión total y suena elevado.",
+        "No lo confundas con sich ergeben (rendirse, resultar): es otro verbo."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich hingeben"
+            "hingeben",
+            "hingegeben",
+            "gab",
+            "gibt",
+            "hin"
           ],
-          "red": [
-            "+ kam?"
+          "purple": [
+            "entregarse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gab",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se entregó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gibt",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se abandona"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hingegeben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nos entregamos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gib",
+                "hin"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "No te hagas falsas ilusiones"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich widmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dedicarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich überlassen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "abandonarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich ergeben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rendirse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -7504,7 +16143,167 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Hinsichten",
     "lv": "aspecto • respecto",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-hinsicht",
+      "layout": "standardStudy",
+      "translation": "aspecto • respecto",
+      "explanation": [
+        "Idea principal: die Hinsicht es un sustantivo femenino que significa aspecto, punto de vista: el sentido en el que algo es válido. En español equivale a «aspecto» o «respecto» en expresiones como en este aspecto, en cierto sentido, a este respecto.",
+        "Se usa normalmente en locuciones preposicionales: in dieser Hinsicht (en este aspecto), in gewisser Hinsicht (en cierto sentido), in jeder Hinsicht (en todos los aspectos). El plural die Hinsichten es raro. En registro formal también se dice in Hinsicht auf + acusativo (con respecto a) o hinsichtlich + genitivo."
+      ],
+      "examples": [
+        {
+          "de": "In dieser Hinsicht hast du recht.",
+          "lv": "En este aspecto tienes razón."
+        },
+        {
+          "de": "In gewisser Hinsicht ist das ein Vorteil.",
+          "lv": "En cierto sentido, es una ventaja."
+        },
+        {
+          "de": "Das Hotel war in jeder Hinsicht perfekt.",
+          "lv": "El hotel era perfecto en todos los aspectos."
+        },
+        {
+          "de": "In Hinsicht auf die Kosten gibt es noch Fragen.",
+          "lv": "Con respecto a los costes, aún hay preguntas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Nachricht",
+          "meaning": "noticia, mensaje",
+          "example": "Ich habe eine Nachricht bekommen. – He recibido un mensaje."
+        },
+        {
+          "word": "der Bezug",
+          "meaning": "relación, referencia",
+          "example": "In Bezug auf den Termin gibt es Fragen. – Con respecto a la fecha hay preguntas."
+        },
+        {
+          "word": "die Rücksicht",
+          "meaning": "consideración",
+          "example": "Er nimmt Rücksicht auf andere. – Tiene consideración con los demás."
+        }
+      ],
+      "tip": [
+        "Memorízalo como frase hecha: in dieser Hinsicht, in jeder Hinsicht.",
+        "Después de in, en estas combinaciones va dativo: in dieser Hinsicht, in jeder Hinsicht."
+      ],
+      "important": [
+        "No confundas Hinsicht con Ansicht (opinión) ni con Absicht (intención).",
+        "Con hinsichtlich (con respecto a) va genitivo: hinsichtlich der Kosten."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Hinsicht",
+            "Hinsichten",
+            "hinsichtlich"
+          ],
+          "purple": [
+            "aspecto"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "En este aspecto"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "En cierto sentido"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "en todos los aspectos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hinsicht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Con respecto a"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Nachricht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "noticia"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Bezug"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "relación"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Rücksicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "consideración"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "hinsichtlich",
@@ -7525,12 +16324,12 @@ const B2_WORDS = [
   },
   {
     "de": "hinterziehen",
-    "lv": "malversar dinero • no pagar impuestos",
+    "lv": "defraudar • evadir impuestos",
     "level": "B2"
   },
   {
     "de": "hinüberfahren",
-    "lv": "cruzar • cruzar",
+    "lv": "cruzar • pasar al otro lado",
     "level": "B2"
   },
   {
@@ -7563,7 +16362,7 @@ const B2_WORDS = [
   },
   {
     "de": "hitzig",
-    "lv": "caliente • ardiente • impetuoso • rápido para enojarse",
+    "lv": "acalorado • fogoso • irascible",
     "level": "B2"
   },
   {
@@ -7608,43 +16407,63 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "brindis \"¡viva!\"",
       "explanation": [
-        "Idea principal: das Hoch con mayúscula y el artículo das es un sustantivo - un grito/brindis de celebración (Ein Hoch auf...! = ¡Viva...!) o en el clima - un área de alta presión.",
-        "minúscula hoch es un adjetivo - alto (der Berg ist hoch).",
-        "La frase ein Hoch ausbringen significa hacer un brindis.",
-        "En términos meteorológicos, das Hoch significa anticiclón, una zona de alta presión de aire (opuesto: das Tief)."
+        "Idea principal: das Hoch, en este sentido, es un brindis, un «¡viva!» que se lanza en honor de alguien: ein Hoch auf das Brautpaar ausbringen. Es un sustantivo neutro, plural die Hochs.",
+        "La misma palabra significa en meteorología anticiclón, una zona de altas presiones que suele traer buen tiempo: ein Hoch über Skandinavien. En sentido figurado, ein Hoch es también una buena racha, una etapa de éxito.",
+        "El adjetivo hoch (alto) es otra palabra y se escribe con minúscula."
       ],
       "examples": [
         {
           "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
-          "lv": "Brindamos por los recién casados."
+          "lv": "Brindamos por los novios."
         },
         {
-          "de": "Ein Hoch auf dich!",
-          "lv": "¡Viva usted!"
+          "de": "Ein dreifaches Hoch auf den Jubilar!",
+          "lv": "¡Tres hurras por el homenajeado!"
         },
         {
-          "de": "Morgen kommt ein Hoch.",
-          "lv": "Mañana se espera un anticiclón (alta presión)."
+          "de": "Morgen bringt ein Hoch sonniges Wetter.",
+          "lv": "Mañana un anticiclón traerá tiempo soleado."
         },
         {
-          "de": "Der Berg ist sehr hoch.",
-          "lv": "La montaña es muy alta."
+          "de": "Nach dem Tief folgt ein Hoch.",
+          "lv": "Después de la borrasca llega un anticiclón."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Toast",
+          "meaning": "brindis",
+          "example": "Er hält einen Toast. – Pronuncia un brindis."
+        },
+        {
+          "word": "das Tief",
+          "meaning": "borrasca",
+          "example": "Das Tief bringt Regen. – La borrasca trae lluvia."
+        },
+        {
+          "word": "hoch",
+          "meaning": "alto",
+          "example": "Der Berg ist hoch. – La montaña es alta."
         }
       ],
       "tip": [
-        "das Hoch con mayúscula: un grito de celebración o un anticiclón en las noticias meteorológicas.",
-        "minúscula hoch - alto (adjetivo)."
+        "Para brindar por alguien se usa la combinación ein Hoch auf + acusativo: auf den Gastgeber.",
+        "En el parte meteorológico, Hoch se opone a Tief."
       ],
       "important": [
-        "das Hoch = brindis (\"¡larga vida!\") O anticiclón (clima) - sustantivo.",
-        "hoch = alto - adjetivo, sin artículo.",
-        "Contraste meteorológico: das Hoch ↔ das Tief."
+        "El sustantivo das Hoch se escribe con mayúscula; el adjetivo hoch, con minúscula.",
+        "El plural es die Hochs, no die Höchen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Hoch",
+            "hoch"
+          ],
           "purple": [
-            "Idea",
-            "Idea"
+            "brindis",
+            "anticiclón",
+            "¡viva!"
           ]
         },
         "examples": [
@@ -7656,7 +16475,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "brindamos"
+                "Brindamos"
               ]
             }
           },
@@ -7668,7 +16487,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "¡Viva"
+                "hurras"
               ]
             }
           },
@@ -7686,45 +16505,62 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "hoch"
+              "blue": [
+                "Hoch"
               ]
             },
             "lv": {
               "purple": [
-                "alta"
+                "anticiclón"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Toast"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "brindis"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Tief"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "borrasca"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alto"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "das Hoch"
-            ]
-          },
-          {
-            "green": [
-              "hoch"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "das Hoch"
-            ]
-          },
-          {
-            "green": [
-              "hoch"
-            ]
-          },
-          {
-            "blue": [
-              "das Tief"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -7785,52 +16621,62 @@ const B2_WORDS = [
       "id": "b2-hochwasser",
       "layout": "standardStudy",
       "translation": "inundación • nivel alto de agua",
-      "explanation": "Idea principal: das Hochwasser significa inundación o nivel muy alto de agua en un río, lago o mar. Plural: die Hochwasser. A menudo se utiliza en prensa y advertencias.",
+      "explanation": [
+        "Idea principal: das Hochwasser es un sustantivo neutro. Significa un nivel alto de agua en un río, el mar o un lago (una crecida) y las inundaciones que provoca. El plural es die Hochwasser (también Hochwässer).",
+        "Expresiones frecuentes: Hochwasser führen (dicho de un río: venir crecido), vor Hochwasser warnen (avisar de inundaciones), vom Hochwasser betroffen sein (estar afectado por las inundaciones). Lo contrario es das Niedrigwasser."
+      ],
       "examples": [
         {
           "de": "Nach dem Regen gibt es Hochwasser.",
-          "lv": "Después de la lluvia hay una inundación."
+          "lv": "Después de la lluvia hay inundaciones."
         },
         {
-          "de": "Das Hochwasser bedroht die Stadt.",
-          "lv": "Los altos niveles de agua amenazan la ciudad."
+          "de": "Der Fluss führt Hochwasser.",
+          "lv": "El río viene crecido."
         },
         {
           "de": "Die Behörden warnen vor Hochwasser.",
-          "lv": "Las autoridades advierten sobre inundaciones."
+          "lv": "Las autoridades avisan del riesgo de inundaciones."
+        },
+        {
+          "de": "Das Hochwasser hat mehrere Dörfer erreicht.",
+          "lv": "La inundación ha llegado a varios pueblos."
         }
       ],
       "comparison": [
         {
-          "word": "das Hochwasser",
-          "meaning": "inundación • nivel alto de agua",
-          "example": "Es gibt Hochwasser. = Hay una inundación."
-        },
-        {
           "word": "die Überschwemmung",
-          "meaning": "inundación (específica)",
-          "example": "Die Überschwemmung zerstörte Häuser. = La inundación destruyó casas."
+          "meaning": "inundación",
+          "example": "Die Überschwemmung zerstörte die Ernte. – La inundación destruyó la cosecha."
         },
         {
-          "word": "der Pegel",
-          "meaning": "presión / impresión",
-          "example": "Der Pegel steigt. = El nivel del agua está subiendo."
+          "word": "die Flut",
+          "meaning": "marea alta, pleamar",
+          "example": "Die Flut kommt am Abend. – La marea sube por la tarde."
+        },
+        {
+          "word": "das Niedrigwasser",
+          "meaning": "nivel bajo de agua, estiaje",
+          "example": "Bei Niedrigwasser fahren weniger Schiffe. – Con el nivel bajo del agua navegan menos barcos."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Hoch = alto, Wasser = agua. Hochwasser = nivel alto de agua, que a menudo significa inundación."
-          }
-        ]
-      },
-      "important": {
-        "text": "das Hochwasser = inundación o nivel alto de agua. Plural: die Hochwasser."
-      },
+      "tip": [
+        "Recuerda el contraste: Hochwasser — Niedrigwasser.",
+        "En las noticias oirás a menudo Hochwasserwarnung, Hochwasserschutz."
+      ],
+      "important": [
+        "Hochwasser no es lo mismo que Flut (marea alta).",
+        "En plural el artículo es die, pero la palabra no cambia: die Hochwasser."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Hochwasser"
+          ],
           "purple": [
-            "inundación"
+            "inundaciones",
+            "nivel alto de agua",
+            "crecida"
           ]
         },
         "examples": [
@@ -7842,7 +16688,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "inundación"
+                "inundaciones"
               ]
             }
           },
@@ -7854,7 +16700,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "altos niveles de agua"
+                "crecido"
               ]
             }
           },
@@ -7869,7 +16715,65 @@ const B2_WORDS = [
                 "inundaciones"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hochwasser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "inundación"
+              ]
+            }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Überschwemmung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "inundación"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Flut"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "marea alta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Niedrigwasser"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nivel bajo de agua"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -7933,7 +16837,7 @@ const B2_WORDS = [
   {
     "de": "Immobilien",
     "de_article": "die",
-    "lv": "bienes raíces",
+    "lv": "bienes inmuebles • propiedades",
     "level": "B2"
   },
   {
@@ -7962,7 +16866,7 @@ const B2_WORDS = [
     "de": "Innenpolitik",
     "de_article": "die",
     "de_plural": "die Innenpolitiken",
-    "lv": "política interna",
+    "lv": "política interior",
     "level": "B2"
   },
   {
@@ -7998,7 +16902,7 @@ const B2_WORDS = [
     "de": "Junkie",
     "de_article": "der",
     "de_plural": "die Junkies",
-    "lv": "un drogadicto",
+    "lv": "drogadicto • yonqui",
     "level": "B2"
   },
   {
@@ -8051,7 +16955,7 @@ const B2_WORDS = [
     "de": "Karrierefrau",
     "de_article": "die",
     "de_plural": "die Karrierefrauen",
-    "lv": "mujer de carrera",
+    "lv": "mujer centrada en su carrera • ejecutiva",
     "level": "B2"
   },
   {
@@ -8080,7 +16984,7 @@ const B2_WORDS = [
     "de": "Klappe",
     "de_article": "die",
     "de_plural": "die Klappen",
-    "lv": "válvula • válvula",
+    "lv": "tapa • trampilla • válvula",
     "level": "B2"
   },
   {
@@ -8092,7 +16996,7 @@ const B2_WORDS = [
   },
   {
     "de": "klassenlos",
-    "lv": "sin clase",
+    "lv": "sin clases",
     "level": "B2"
   },
   {
@@ -8146,7 +17050,7 @@ const B2_WORDS = [
   },
   {
     "de": "kompetent",
-    "lv": "competente • competente",
+    "lv": "competente • entendido",
     "level": "B2"
   },
   {
@@ -8244,7 +17148,7 @@ const B2_WORDS = [
     "de": "Laie",
     "de_article": "der",
     "de_plural": "die Laien",
-    "lv": "un diletante",
+    "lv": "profano • lego",
     "level": "B2"
   },
   {
@@ -8303,7 +17207,7 @@ const B2_WORDS = [
   },
   {
     "de": "langfristig",
-    "lv": "largo plazo • largo plazo",
+    "lv": "a largo plazo • duradero",
     "level": "B2"
   },
   {
@@ -8313,7 +17217,7 @@ const B2_WORDS = [
   },
   {
     "de": "lästig",
-    "lv": "gravoso",
+    "lv": "molesto • fastidioso",
     "level": "B2"
   },
   {
@@ -8337,7 +17241,7 @@ const B2_WORDS = [
     "de": "Laufmasche",
     "de_article": "die",
     "de_plural": "die Laufmaschen",
-    "lv": "punto corrido",
+    "lv": "carrera (en las medias)",
     "level": "B2"
   },
   {
@@ -8370,7 +17274,7 @@ const B2_WORDS = [
     "de": "Lawinenopfer",
     "de_article": "das",
     "de_plural": "die Lawinenopfer",
-    "lv": "una víctima de avalancha",
+    "lv": "víctima de una avalancha",
     "level": "B2"
   },
   {
@@ -8394,7 +17298,7 @@ const B2_WORDS = [
   },
   {
     "de": "leiblich",
-    "lv": "carnal",
+    "lv": "biológico • corporal",
     "level": "B2"
   },
   {
@@ -8408,7 +17312,7 @@ const B2_WORDS = [
     "de": "Leichenhalle",
     "de_article": "die",
     "de_plural": "die Leichenhallen",
-    "lv": "morgue",
+    "lv": "tanatorio • depósito de cadáveres",
     "level": "B2"
   },
   {
@@ -8432,50 +17336,69 @@ const B2_WORDS = [
     "de": "Leiden",
     "de_article": "das",
     "de_plural": "die Leiden",
-    "lv": "enfermedad larga y grave",
+    "lv": "sufrimiento • dolencia",
     "level": "B2",
     "study": {
       "id": "b2-leiden-study",
       "layout": "standardStudy",
       "translation": "sufrimiento • dolencia",
       "explanation": [
-        "Idea principal: das Leiden con mayúscula y el artículo das es un sustantivo: sufrimiento, enfermedad larga/grave.",
-        "Leiden en minúscula está el verbo - sufrir.",
-        "das Leiden se utiliza a menudo en un contexto médico o literario (ein schweres Leiden = enfermedad grave).",
-        "Plural: morir Leiden."
+        "Idea principal: das Leiden es un sustantivo neutro que se usa de dos maneras: como sufrimiento (das Leiden der Menschen) y como enfermedad duradera, a menudo crónica, es decir, una dolencia (ein schweres Leiden). El plural es die Leiden.",
+        "Es la sustantivación del verbo leiden (sufrir). Combinaciones típicas: ein chronisches Leiden, ein altes Leiden, nach langem, schwerem Leiden (en las esquelas).",
+        "Frente a la palabra corriente Krankheit, Leiden subraya la duración y la gravedad de la enfermedad."
       ],
       "examples": [
         {
           "de": "Er hat ein schweres Leiden.",
-          "lv": "Tiene una enfermedad grave."
+          "lv": "Padece una grave dolencia."
         },
         {
           "de": "Das Leiden der Patienten war groß.",
-          "lv": "El sufrimiento de los pacientes fue grande."
+          "lv": "El sufrimiento de los pacientes era grande."
         },
         {
-          "de": "Er leidet an einer seltenen Krankheit.",
-          "lv": "Sufre una enfermedad rara."
+          "de": "Nach langem Leiden ist er gestorben.",
+          "lv": "Falleció tras una larga enfermedad."
         },
         {
-          "de": "Ihr Leiden dauerte Jahre.",
-          "lv": "Su enfermedad duró años."
+          "de": "Ein chronisches Leiden begleitet ihn seit Jahren.",
+          "lv": "Una dolencia crónica lo acompaña desde hace años."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Krankheit",
+          "meaning": "enfermedad",
+          "example": "Eine Krankheit kann ansteckend sein. – Una enfermedad puede ser contagiosa."
+        },
+        {
+          "word": "der Schmerz",
+          "meaning": "dolor",
+          "example": "Der Schmerz ist stark. – El dolor es fuerte."
+        },
+        {
+          "word": "leiden",
+          "meaning": "sufrir, padecer",
+          "example": "Er leidet an Asthma. – Padece asma."
         }
       ],
       "tip": [
-        "das Leiden con mayúscula - sustantivo (sufrimiento, enfermedad grave).",
-        "leiden en minúscula - verbo (sufrir)."
+        "Con el verbo leiden se dice: an einer Krankheit leiden (padecer una enfermedad).",
+        "En las esquelas leerás a menudo: nach schwerem Leiden."
       ],
       "important": [
-        "das Leiden = sufrimiento/enfermedad grave (sustantivo).",
-        "leiden = sufrir (verbo).",
-        "Plural: morir Leiden."
+        "Leiden es un sustantivo y va con mayúscula; leiden es un verbo y va con minúscula.",
+        "En el día a día, para una enfermedad pasajera se dice Krankheit, no Leiden."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Leiden"
+          ],
           "purple": [
             "sufrimiento",
-            "enfermedad grave"
+            "dolencia",
+            "enfermedad"
           ]
         },
         "examples": [
@@ -8487,7 +17410,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "enfermedad"
+                "dolencia"
               ]
             }
           },
@@ -8505,13 +17428,13 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "leidet"
+              "blue": [
+                "Leiden"
               ]
             },
             "lv": {
               "purple": [
-                "sufre"
+                "larga enfermedad"
               ]
             }
           },
@@ -8523,39 +17446,56 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
+                "dolencia crónica"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Krankheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
                 "enfermedad"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Schmerz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dolor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "leiden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "padecer"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "das Leiden"
-            ]
-          },
-          {
-            "green": [
-              "leiden"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "das Leiden"
-            ]
-          },
-          {
-            "green": [
-              "leiden"
-            ]
-          },
-          {
-            "blue": [
-              "Plural"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -8590,7 +17530,7 @@ const B2_WORDS = [
     "de": "Lektor",
     "de_article": "der",
     "de_plural": "die Lektoren",
-    "lv": "profesor universitario",
+    "lv": "lector • editor",
     "level": "B2"
   },
   {
@@ -8602,7 +17542,7 @@ const B2_WORDS = [
   },
   {
     "de": "lesegeschützt",
-    "lv": "texto que solo se puede leer después de ingresar una contraseña",
+    "lv": "protegido contra lectura",
     "level": "B2"
   },
   {
@@ -8810,14 +17750,14 @@ const B2_WORDS = [
     "de": "Magensäure",
     "de_article": "die",
     "de_plural": "die Magensäuren",
-    "lv": "ácido del estómago",
+    "lv": "ácido gástrico",
     "level": "B2"
   },
   {
     "de": "Magister",
     "de_article": "der",
     "de_plural": "die Magister",
-    "lv": "magíster",
+    "lv": "máster",
     "level": "B2"
   },
   {
@@ -8929,7 +17869,7 @@ const B2_WORDS = [
     "de": "Maskenbildner",
     "de_article": "der",
     "de_plural": "die Maskenbildner",
-    "lv": "maquillador y peluquero profesional",
+    "lv": "maquillador • caracterizador",
     "level": "B2"
   },
   {
@@ -9064,7 +18004,7 @@ const B2_WORDS = [
   },
   {
     "de": "mildern",
-    "lv": "calmar el dolor • suavizar el juicio",
+    "lv": "mitigar • atenuar • suavizar",
     "level": "B2"
   },
   {
@@ -9109,7 +18049,7 @@ const B2_WORDS = [
   },
   {
     "de": "missachten",
-    "lv": "despreciar",
+    "lv": "ignorar • no respetar • despreciar",
     "level": "B2"
   },
   {
@@ -9124,7 +18064,7 @@ const B2_WORDS = [
   },
   {
     "de": "missfallen",
-    "lv": "no me gusta",
+    "lv": "desagradar • no gustar",
     "level": "B2"
   },
   {
@@ -9139,7 +18079,7 @@ const B2_WORDS = [
   },
   {
     "de": "misstrauen",
-    "lv": "no confiar",
+    "lv": "desconfiar",
     "level": "B2"
   },
   {
@@ -9149,7 +18089,7 @@ const B2_WORDS = [
   },
   {
     "de": "mittels",
-    "lv": "con la ayuda de algo",
+    "lv": "mediante • por medio de",
     "level": "B2"
   },
   {
@@ -9161,14 +18101,14 @@ const B2_WORDS = [
   },
   {
     "de": "mitwirken",
-    "lv": "participar • actuar juntos",
+    "lv": "participar • colaborar",
     "level": "B2"
   },
   {
     "de": "Mitwisser",
     "de_article": "der",
     "de_plural": "die Mitwisser",
-    "lv": "cómplice conocedor del secreto",
+    "lv": "cómplice • persona al corriente",
     "level": "B2"
   },
   {
@@ -9178,7 +18118,7 @@ const B2_WORDS = [
   },
   {
     "de": "moderieren",
-    "lv": "moderar",
+    "lv": "moderar • presentar",
     "level": "B2"
   },
   {
@@ -9221,12 +18161,12 @@ const B2_WORDS = [
   {
     "de": "Muße",
     "de_article": "die",
-    "lv": "tiempo libre • tiempo libre",
+    "lv": "ocio • tiempo libre",
     "level": "B2"
   },
   {
     "de": "müßig",
-    "lv": "inactivo • inactivo",
+    "lv": "ocioso • inútil",
     "level": "B2"
   },
   {
@@ -9252,76 +18192,76 @@ const B2_WORDS = [
     "de": "Nachbildung",
     "de_article": "die",
     "de_plural": "die Nachbildungen",
-    "lv": "imitación • imitación",
+    "lv": "imitación • réplica",
     "level": "B2"
   },
   {
     "de": "Nachdruck",
     "de_article": "der",
     "de_plural": "die Nachdrucke",
-    "lv": "Énfasis • Reedición",
+    "lv": "énfasis • reimpresión",
     "level": "B2",
     "study": {
       "id": "b2-nachdruck",
       "layout": "standardStudy",
       "translation": "énfasis • reimpresión",
       "explanation": [
-        "Idea principal: der Nachdruck puede significar un énfasis o una reimpresión de un libro.",
-        "Nachdruck auf etwas legen = enfatizar algo, insistir en algo.",
-        "Der Nachdruck eines Buches = reimpresión del libro.",
-        "El contexto (transacciones/negociaciones o publicación) determina el significado correcto."
+        "Idea principal: der Nachdruck es un sustantivo masculino. Su sentido principal es el énfasis, la firmeza, la insistencia con que se dice o se hace algo: mit Nachdruck (con insistencia, con énfasis), Nachdruck auf etwas legen (hacer hincapié en algo).",
+        "En este sentido se usa en singular: der Nachdruck, des Nachdrucks. El segundo sentido, en artes gráficas, es la reimpresión o reproducción de una obra; entonces el plural es die Nachdrucke. En las publicaciones se ve a menudo: Nachdruck verboten!"
       ],
       "examples": [
         {
-          "de": "Er legt Nachdruck auf die Frist.",
-          "lv": "Él enfatiza la fecha límite."
+          "de": "Mit Nachdruck forderte sie eine Antwort.",
+          "lv": "Exigió una respuesta con insistencia."
         },
         {
-          "de": "Mit Nachdruck forderte sie eine Antwort.",
-          "lv": "Ella exigió una respuesta con insistencia."
+          "de": "Er legt besonderen Nachdruck auf die Qualität.",
+          "lv": "Hace especial hincapié en la calidad."
         },
         {
           "de": "Der Nachdruck des Romans erschien im Frühjahr.",
-          "lv": "En la primavera salió una reimpresión de la novela."
+          "lv": "La reimpresión de la novela salió en primavera."
         },
         {
-          "de": "Dieses Buch ist bereits im Nachdruck.",
-          "lv": "Este libro ya está en reimpresión."
-        },
-        {
-          "de": "Der Verlag plant einen Nachdruck.",
-          "lv": "El editor está planeando una reedición."
+          "de": "Nachdruck verboten!",
+          "lv": "¡Prohibida la reproducción!"
         }
       ],
       "comparison": [
         {
-          "word": "Nachdruck legen auf",
-          "meaning": "enfatizar, insistir",
-          "example": "Er legt Nachdruck auf die Frist. = Hace hincapié en el plazo."
+          "word": "die Betonung",
+          "meaning": "acento, énfasis",
+          "example": "Die Betonung liegt auf der ersten Silbe. – El acento recae en la primera sílaba."
         },
         {
-          "word": "der Nachdruck (Buch)",
-          "meaning": "reedición",
-          "example": "Der Nachdruck erschien im Frühjahr. = La reedición apareció en primavera."
+          "word": "die Auflage",
+          "meaning": "edición, tirada",
+          "example": "Das Buch erscheint in zweiter Auflage. – El libro sale en segunda edición."
         },
         {
-          "word": "der Druck",
-          "meaning": "presión / impresión",
-          "example": "Unter Druck stehen = estar bajo presión."
+          "word": "nachdrücklich",
+          "meaning": "enérgico, insistente",
+          "example": "Er bat nachdrücklich um Hilfe. – Pidió ayuda con insistencia."
         }
       ],
       "tip": [
-        "En discusiones y demandas: Nachdruck = énfasis.",
-        "En publicaciones y libros: Nachdruck = reimpresión."
+        "Memoriza dos combinaciones fijas: mit Nachdruck y Nachdruck verleihen.",
+        "El adjetivo emparentado nachdrücklich significa enérgico, insistente."
       ],
       "important": [
-        "Nachdruck auf etwas legen = enfatizar.",
-        "der Nachdruck eines Buches = reimpresión."
+        "En este sentido Nachdruck va en singular; el plural die Nachdrucke se refiere a las reimpresiones.",
+        "No lo confundas con Druck (presión, impresión): es otro significado."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "der Nachdruck",
+            "Nachdruck",
+            "Nachdrucke"
+          ],
           "purple": [
-            "énfasis"
+            "énfasis",
+            "insistencia"
           ]
         },
         "examples": [
@@ -9333,7 +18273,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "enfatiza"
+                "con insistencia"
               ]
             }
           },
@@ -9345,53 +18285,87 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "ella"
+                "hincapié"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Nachdruck"
               ]
             },
             "lv": {
               "purple": [
-                "primavera"
+                "reimpresión"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Nachdruck"
               ]
             },
             "lv": {
               "purple": [
-                "este"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Nachdruck"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "reedición"
+                "reproducción"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Betonung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "acento"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Auflage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "edición"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nachdrücklich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "insistente"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "nachdrücklich",
-    "lv": "enfático • vigoroso • persuasivo • vigorosamente • persuasivo",
+    "lv": "enfático • enérgico • insistente",
     "level": "B2"
   },
   {
@@ -9426,13 +18400,173 @@ const B2_WORDS = [
   },
   {
     "de": "nachsitzen",
-    "lv": "quedarse en la escuela después del horario escolar como castigo",
+    "lv": "quedarse castigado después de clase",
     "level": "B2"
   },
   {
     "de": "nachträglich",
     "lv": "posterior • adicional • posteriormente",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-nachtr-glich",
+      "layout": "standardStudy",
+      "translation": "posterior • adicional • posteriormente",
+      "explanation": [
+        "Idea principal: nachträglich significa después, una vez realizada la acción principal o vencido el plazo: algo añadido o hecho posteriormente. Es tanto adjetivo (eine nachträgliche Änderung: un cambio posterior) como adverbio (nachträglich ändern: cambiar posteriormente).",
+        "Un sentido frecuente es el de retraso: nachträglich gratulieren — felicitar después del acontecimiento. El adjetivo también expresa un carácter adicional: eine nachträgliche Zahlung (un pago adicional)."
+      ],
+      "examples": [
+        {
+          "de": "Eine nachträgliche Änderung ist nicht mehr möglich.",
+          "lv": "Ya no es posible un cambio posterior."
+        },
+        {
+          "de": "Ich habe den Text nachträglich geändert.",
+          "lv": "He cambiado el texto posteriormente."
+        },
+        {
+          "de": "Es gibt eine nachträgliche Zahlung.",
+          "lv": "Hay un pago adicional."
+        },
+        {
+          "de": "Herzlichen Glückwunsch nachträglich!",
+          "lv": "¡Muchas felicidades, aunque sea con retraso!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "später",
+          "meaning": "más tarde",
+          "example": "Wir sprechen später. – Hablamos más tarde."
+        },
+        {
+          "word": "zusätzlich",
+          "meaning": "adicional",
+          "example": "Es gibt zusätzliche Kosten. – Hay costes adicionales."
+        },
+        {
+          "word": "nachher",
+          "meaning": "después",
+          "example": "Ich rufe dich nachher an. – Te llamo después."
+        }
+      ],
+      "tip": [
+        "Para felicitar con retraso, di nachträglich: Alles Gute nachträglich!",
+        "A diferencia de später, nachträglich indica que algo debería haberse hecho antes."
+      ],
+      "important": [
+        "nachträglich se refiere a lo que ocurre después de algo ya sucedido, no a cualquier momento futuro.",
+        "El adjetivo se declina: nachträglicher, nachträgliche, nachträgliches."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "nachträglich",
+            "nachträgliche"
+          ],
+          "purple": [
+            "posteriormente",
+            "adicional"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "posterior"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "posteriormente"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträgliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "adicional"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nachträglich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "con retraso"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "später"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "más tarde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zusätzlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "adicional"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nachher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "después"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Nachweis",
@@ -9471,7 +18605,7 @@ const B2_WORDS = [
     "de": "Narkosearzt",
     "de_article": "der",
     "de_plural": "die Narkoseärzte",
-    "lv": "médico anestesiólogo",
+    "lv": "anestesista",
     "level": "B2"
   },
   {
@@ -9498,7 +18632,7 @@ const B2_WORDS = [
     "de": "Nebelschwaden",
     "de_article": "der",
     "de_plural": "die Nebelschwaden",
-    "lv": "bancos de niebla",
+    "lv": "jirón de niebla • banco de niebla",
     "level": "B2"
   },
   {
@@ -9579,7 +18713,7 @@ const B2_WORDS = [
     "de": "Nichtbeachtung",
     "de_article": "die",
     "de_plural": "die Nichtbeachtungen",
-    "lv": "desatención",
+    "lv": "inobservancia • incumplimiento",
     "level": "B2"
   },
   {
@@ -9649,7 +18783,7 @@ const B2_WORDS = [
     "de": "Nutzeffekt",
     "de_article": "der",
     "de_plural": "die Nutzeffekte",
-    "lv": "ratio de eficiencia",
+    "lv": "rendimiento • eficiencia",
     "level": "B2"
   },
   {
@@ -9681,7 +18815,7 @@ const B2_WORDS = [
   {
     "de": "Obhut",
     "de_article": "die",
-    "lv": "protección",
+    "lv": "custodia • cuidado",
     "level": "B2"
   },
   {
@@ -9693,7 +18827,7 @@ const B2_WORDS = [
   },
   {
     "de": "observieren",
-    "lv": "rastrear • observar",
+    "lv": "vigilar • observar",
     "level": "B2"
   },
   {
@@ -9766,14 +18900,14 @@ const B2_WORDS = [
     "de": "Olympiasieger",
     "de_article": "der",
     "de_plural": "die Olympiasieger",
-    "lv": "ganador de los Juegos Olímpicos",
+    "lv": "campeón olímpico",
     "level": "B2"
   },
   {
     "de": "Operator",
     "de_article": "der",
     "de_plural": "die Operatoren",
-    "lv": "especialista en equipos informáticos grandes",
+    "lv": "operador informático",
     "level": "B2"
   },
   {
@@ -9787,7 +18921,7 @@ const B2_WORDS = [
     "de": "Order",
     "de_article": "die",
     "de_plural": "die Orders",
-    "lv": "orden • comando • tarea",
+    "lv": "orden • pedido",
     "level": "B2"
   },
   {
@@ -9801,7 +18935,7 @@ const B2_WORDS = [
     "de": "Organentnahme",
     "de_article": "die",
     "de_plural": "die Organentnahmen",
-    "lv": "extirpación de órganos",
+    "lv": "extracción de órganos",
     "level": "B2"
   },
   {
@@ -9832,7 +18966,7 @@ const B2_WORDS = [
   },
   {
     "de": "orten",
-    "lv": "localizar con la ayuda de herramientas",
+    "lv": "localizar • detectar",
     "level": "B2"
   },
   {
@@ -9843,25 +18977,169 @@ const B2_WORDS = [
   },
   {
     "de": "sich paaren",
-    "lv": "aparearse con",
+    "lv": "aparearse",
     "level": "B2",
     "study": {
       "id": "b2-sich-paaren",
-      "layout": "minimalStudy",
-      "translation": "aparearse con",
-      "rektion": "mit + kam?",
-      "explanation": "sich paaren requiere la preposición definida mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "aparearse",
+      "explanation": [
+        "Idea principal: sich paaren significa aparearse; se dice de los animales cuando se reproducen. Con mit + dativo se nombra a la pareja: Der Löwe paart sich mit der Löwin. En sentido figurado, dos cualidades o cosas se combinan, se unen: Mut paart sich mit Klugheit.",
+        "Formas: paart sich, paarte sich, hat sich gepaart. Sin sich, paaren es transitivo: Züchter paaren zwei Tiere — los criadores cruzan dos animales."
+      ],
+      "examples": [
+        {
+          "de": "Die Vögel paaren sich im Frühjahr.",
+          "lv": "Los pájaros se aparean en primavera."
+        },
+        {
+          "de": "Der Löwe paart sich mit der Löwin.",
+          "lv": "El león se aparea con la leona."
+        },
+        {
+          "de": "Bei ihm paart sich Mut mit Klugheit.",
+          "lv": "En él, el valor se une a la inteligencia."
+        },
+        {
+          "de": "Hier paart sich Tradition mit Moderne.",
+          "lv": "Aquí la tradición se combina con lo moderno."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "paaren",
+          "meaning": "cruzar, aparear",
+          "example": "Der Züchter paart zwei Hunde. – El criador cruza dos perros."
+        },
+        {
+          "word": "verbinden",
+          "meaning": "unir, combinar",
+          "example": "Das Hotel verbindet Komfort mit Natur. – El hotel combina comodidad y naturaleza."
+        },
+        {
+          "word": "sich vereinigen",
+          "meaning": "unirse",
+          "example": "Die Gruppen vereinigen sich. – Los grupos se unen."
+        }
+      ],
+      "tip": [
+        "Para el sentido figurado, memoriza la combinación hecha: Mut paart sich mit Klugheit.",
+        "Indica la pareja con mit + dativo: mit dem Männchen, mit der Tradition."
+      ],
+      "important": [
+        "Con personas se usa poco, porque suena biológico o grosero.",
+        "Después de mit va dativo."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich paaren"
+            "paaren",
+            "paart",
+            "paarte",
+            "gepaart"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "aparearse",
+            "se combina",
+            "cruzan"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "paaren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se aparean"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se aparea"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se une"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "paart"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se combina"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "paaren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cruzar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verbinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "combinar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich vereinigen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "unirse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -9869,7 +19147,7 @@ const B2_WORDS = [
     "de": "Pacht",
     "de_article": "die",
     "de_plural": "die Pachten",
-    "lv": "alquiler",
+    "lv": "arrendamiento • arriendo",
     "level": "B2"
   },
   {
@@ -9881,28 +19159,28 @@ const B2_WORDS = [
   },
   {
     "de": "pachten",
-    "lv": "alquilar",
+    "lv": "arrendar",
     "level": "B2"
   },
   {
     "de": "Palmsonntag",
     "de_article": "der",
     "de_plural": "die Palmsonntage",
-    "lv": "Domingo antes de Pascua • Domingo de Ramos",
+    "lv": "Domingo de Ramos",
     "level": "B2"
   },
   {
     "de": "Panzerglas",
     "de_article": "das",
     "de_plural": "die Panzergläser",
-    "lv": "vidrio blindado",
+    "lv": "cristal blindado",
     "level": "B2"
   },
   {
     "de": "Panzerschrank",
     "de_article": "der",
     "de_plural": "die Panzerschränke",
-    "lv": "caja fuerte • gabinete de hierro",
+    "lv": "caja fuerte",
     "level": "B2"
   },
   {
@@ -9916,12 +19194,12 @@ const B2_WORDS = [
     "de": "Parteibuch",
     "de_article": "das",
     "de_plural": "die Parteibücher",
-    "lv": "tarjeta de miembro del partido",
+    "lv": "carné del partido",
     "level": "B2"
   },
   {
     "de": "parteiisch",
-    "lv": "sesgado",
+    "lv": "parcial",
     "level": "B2"
   },
   {
@@ -9959,14 +19237,14 @@ const B2_WORDS = [
     "de": "Pater",
     "de_article": "der",
     "de_plural": "die Patres",
-    "lv": "un sacerdote católico • perteneciente a una orden",
+    "lv": "padre (religioso) • fraile",
     "level": "B2"
   },
   {
     "de": "Peepshow",
     "de_article": "die",
     "de_plural": "die Peepshows",
-    "lv": "programa erótico que se ve individualmente a través de una ventanilla",
+    "lv": "peep show • espectáculo erótico de cabina",
     "level": "B2"
   },
   {
@@ -9980,12 +19258,12 @@ const B2_WORDS = [
     "de": "Pendelverkehr",
     "de_article": "der",
     "de_plural": "die Pendelverkehre",
-    "lv": "tráfico de cercanías local",
+    "lv": "servicio de lanzadera • tráfico de cercanías",
     "level": "B2"
   },
   {
     "de": "penibel",
-    "lv": "pedante",
+    "lv": "meticuloso • quisquilloso",
     "level": "B2"
   },
   {
@@ -10006,7 +19284,7 @@ const B2_WORDS = [
     "de": "Pfahlbau",
     "de_article": "der",
     "de_plural": "die Pfahlbauten",
-    "lv": "vivienda sobre pilotes",
+    "lv": "palafito",
     "level": "B2"
   },
   {
@@ -10018,7 +19296,7 @@ const B2_WORDS = [
     "de": "Pfandschein",
     "de_article": "der",
     "de_plural": "die Pfandscheine",
-    "lv": "resguardo de prenda",
+    "lv": "papeleta de empeño",
     "level": "B2"
   },
   {
@@ -10030,7 +19308,7 @@ const B2_WORDS = [
   },
   {
     "de": "pfuschen",
-    "lv": "trabajar chapuceramente • trabajar de forma descuidada",
+    "lv": "chapucear • hacer chapuzas",
     "level": "B2"
   },
   {
@@ -10063,7 +19341,7 @@ const B2_WORDS = [
     "de": "Pilotfilm",
     "de_article": "der",
     "de_plural": "die Pilotfilme",
-    "lv": "la película de apertura de la serie",
+    "lv": "episodio piloto",
     "level": "B2"
   },
   {
@@ -10091,7 +19369,7 @@ const B2_WORDS = [
     "de": "Plädoyer",
     "de_article": "das",
     "de_plural": "die Plädoyers",
-    "lv": "un discurso de un fiscal o un abogado en el tribunal",
+    "lv": "alegato final • informe (del abogado)",
     "level": "B2"
   },
   {
@@ -10111,7 +19389,7 @@ const B2_WORDS = [
   {
     "de": "Porno",
     "de_article": "der",
-    "lv": "trabajo que contiene pornografía",
+    "lv": "porno • película porno",
     "level": "B2"
   },
   {
@@ -10130,12 +19408,12 @@ const B2_WORDS = [
     "de": "Possen",
     "de_article": "der",
     "de_plural": "die Possen",
-    "lv": "farsa • juego de broma • broma grosera",
+    "lv": "farsa • broma • payasada",
     "level": "B2"
   },
   {
     "de": "postlagernd",
-    "lv": "poste restante",
+    "lv": "en lista de correos",
     "level": "B2"
   },
   {
@@ -10219,13 +19497,13 @@ const B2_WORDS = [
     "de": "PS",
     "de_article": "das",
     "de_plural": "die PS",
-    "lv": "caballo de fuerza",
+    "lv": "caballo de vapor (CV)",
     "level": "B2"
   },
   {
     "de": "Psychoterror",
     "de_article": "der",
-    "lv": "psicoterror",
+    "lv": "terror psicológico",
     "level": "B2"
   },
   {
@@ -10237,7 +19515,7 @@ const B2_WORDS = [
   },
   {
     "de": "qualifizieren",
-    "lv": "calificar",
+    "lv": "cualificar • capacitar",
     "level": "B2"
   },
   {
@@ -10254,12 +19532,12 @@ const B2_WORDS = [
   },
   {
     "de": "querüber",
-    "lv": "transversalmente • de lado a lado",
+    "lv": "enfrente • al otro lado",
     "level": "B2"
   },
   {
     "de": "quittieren",
-    "lv": "firmar para recibir",
+    "lv": "firmar un recibo • acusar recibo",
     "level": "B2"
   },
   {
@@ -10286,7 +19564,7 @@ const B2_WORDS = [
   {
     "de": "Radioaktivität",
     "de_article": "die",
-    "lv": "radioactividad",
+    "lv": "radiactividad",
     "level": "B2"
   },
   {
@@ -10392,7 +19670,7 @@ const B2_WORDS = [
   },
   {
     "de": "redselig",
-    "lv": "hablador • hablador",
+    "lv": "hablador • parlanchín",
     "level": "B2"
   },
   {
@@ -10456,19 +19734,19 @@ const B2_WORDS = [
     "de": "Reifeprüfung",
     "de_article": "die",
     "de_plural": "die Reifeprüfungen",
-    "lv": "examen de madurez",
+    "lv": "examen de bachillerato",
     "level": "B2"
   },
   {
     "de": "Reifezeugnis",
     "de_article": "das",
     "de_plural": "die Reifezeugnisse",
-    "lv": "certificado de madurez",
+    "lv": "título de bachiller",
     "level": "B2"
   },
   {
     "de": "reizbar",
-    "lv": "fácilmente irritable",
+    "lv": "irritable",
     "level": "B2"
   },
   {
@@ -10497,25 +19775,168 @@ const B2_WORDS = [
   },
   {
     "de": "sich revanchieren",
-    "lv": "devolver el dinero • vengarse",
+    "lv": "corresponder • desquitarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-revanchieren",
-      "layout": "minimalStudy",
-      "translation": "devolver el favor • vengarse",
-      "rektion": "bei + kam?",
-      "explanation": "sich revanchieren requiere la preposición definida bei + kam?.",
-      "forms": "bei + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "corresponder • desquitarse",
+      "explanation": [
+        "Idea principal: sich revanchieren significa responder a lo que alguien ha hecho con una acción parecida. Lo más frecuente es el sentido positivo, corresponder a una amabilidad (una invitación, un regalo), pero también puede significar desquitarse, vengarse de un daño. Pronunciación: [revɑ̃ˈʃiːrən], con la ch pronunciada a la francesa, [ʃ].",
+        "A quién se le corresponde se indica con bei + dativo; por qué, con für + acusativo; con qué, con mit + dativo: sich bei jemandem für etwas mit etwas revanchieren. Formas: revanchiert sich, revanchierte sich, hat sich revanchiert."
+      ],
+      "examples": [
+        {
+          "de": "Ich möchte mich bei dir für die Einladung revanchieren.",
+          "lv": "Quiero devolverte la invitación."
+        },
+        {
+          "de": "Er revanchierte sich mit einem Geschenk.",
+          "lv": "Correspondió con un regalo."
+        },
+        {
+          "de": "Die Mannschaft revanchierte sich für die Niederlage.",
+          "lv": "El equipo se tomó la revancha por la derrota."
+        },
+        {
+          "de": "Dafür werde ich mich noch revanchieren!",
+          "lv": "¡Ya te lo devolveré!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich bedanken",
+          "meaning": "dar las gracias",
+          "example": "Ich bedanke mich bei dir. – Te doy las gracias."
+        },
+        {
+          "word": "sich rächen",
+          "meaning": "vengarse",
+          "example": "Er rächt sich an seinem Feind. – Se venga de su enemigo."
+        },
+        {
+          "word": "vergelten",
+          "meaning": "devolver, pagar",
+          "example": "Man soll Gutes mit Gutem vergelten. – Hay que pagar el bien con el bien."
+        }
+      ],
+      "tip": [
+        "Tras una invitación amable puedes decir: Beim nächsten Mal revanchiere ich mich!",
+        "El contexto lo decide: en una situación de agradecimiento la palabra es positiva; en el deporte y en las disputas, indica revancha."
+      ],
+      "important": [
+        "revanchieren no siempre significa una venganza malintencionada; en el día a día a menudo se responde con un favor.",
+        "Después de bei va dativo: bei dir, bei den Gästen; después de für, acusativo."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich revanchieren"
+            "revanchieren",
+            "revanchiert",
+            "revanchierte"
           ],
-          "red": [
-            "bei + kam?"
+          "purple": [
+            "corresponder",
+            "desquitarse",
+            "corresponde"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "revanchieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "devolverte la invitación"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Correspondió"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchierte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se tomó la revancha"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "revanchieren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "devolveré"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bedanken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dar las gracias"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "rächen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vengarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vergelten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pagar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -10599,7 +20020,7 @@ const B2_WORDS = [
   },
   {
     "de": "rühmen",
-    "lv": "alabar • glorificar • alardear • alardear de algo",
+    "lv": "alabar • elogiar • jactarse de",
     "level": "B2"
   },
   {
@@ -10647,7 +20068,7 @@ const B2_WORDS = [
   },
   {
     "de": "sächlich",
-    "lv": "género neutro",
+    "lv": "neutro",
     "level": "B2"
   },
   {
@@ -10820,7 +20241,7 @@ const B2_WORDS = [
   },
   {
     "de": "scheitern",
-    "lv": "fracasar • fracasar",
+    "lv": "fracasar • fallar",
     "level": "B2"
   },
   {
@@ -10835,25 +20256,172 @@ const B2_WORDS = [
   },
   {
     "de": "sich scheren",
-    "lv": "ocuparse de",
+    "lv": "preocuparse por • importar",
     "level": "B2",
     "study": {
       "id": "b2-sich-scheren",
-      "layout": "minimalStudy",
-      "translation": "preocuparse por",
-      "rektion": "um + ko?",
-      "explanation": "sich scheren requiere una preposición definida um + ko?.",
-      "forms": "um + ko?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "preocuparse por • importar",
+      "explanation": [
+        "Idea principal: sich scheren um, en este sentido, es una expresión coloquial que significa preocuparse por algo, importarle a uno, pero casi solo en negativo o en pregunta: Er schert sich nicht um die Regeln — no le importan las normas.",
+        "Formas: schert sich, scherte sich, hat sich geschert. Con um + acusativo se nombra aquello por lo que uno se preocupa. Pregunta retórica: Was schert mich das? — ¿a mí qué me importa eso?",
+        "La forma imperativa grosera Scher dich weg! significa ¡lárgate! Sin el pronombre reflexivo sich, el verbo scheren significa esquilar, cortar (Schafe scheren)."
+      ],
+      "examples": [
+        {
+          "de": "Er schert sich nicht um die Regeln.",
+          "lv": "Le traen sin cuidado las normas."
+        },
+        {
+          "de": "Was schert mich das Gerede der anderen?",
+          "lv": "¿A mí qué me importan los chismes de los demás?"
+        },
+        {
+          "de": "Sie schert sich wenig um ihre Gesundheit.",
+          "lv": "Se preocupa poco por su salud."
+        },
+        {
+          "de": "Scher dich weg!",
+          "lv": "¡Lárgate!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich kümmern",
+          "meaning": "ocuparse, cuidar",
+          "example": "Ich kümmere mich um die Kinder. – Me ocupo de los niños."
+        },
+        {
+          "word": "interessieren",
+          "meaning": "interesar",
+          "example": "Das interessiert mich nicht. – Eso no me interesa."
+        },
+        {
+          "word": "scheren",
+          "meaning": "esquilar",
+          "example": "Der Bauer schert die Schafe. – El campesino esquila las ovejas."
+        }
+      ],
+      "tip": [
+        "En el lenguaje cotidiano, sich scheren um se oye típicamente con nicht: Er schert sich nicht darum.",
+        "Si quieres decir preocuparse de forma neutra, elige sich kümmern um + acusativo."
+      ],
+      "important": [
+        "sich scheren um se usa normalmente en negativo; en afirmativo suena extraño.",
+        "Scher dich weg! es grosero: no lo uses en una conversación educada."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich scheren"
+            "scheren",
+            "schert",
+            "scherte",
+            "geschert",
+            "Scher"
           ],
-          "red": [
-            "um + ko?"
+          "purple": [
+            "preocuparse por",
+            "le importan",
+            "importa",
+            "lárgate"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sin cuidado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "importan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se preocupa poco"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Scher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Lárgate"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich kümmern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ocuparse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "interessieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "interesar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "scheren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "esquilar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -10888,7 +20456,7 @@ const B2_WORDS = [
     "de": "Schiffsverkehr",
     "de_article": "der",
     "de_plural": "die Schiffsverkehre",
-    "lv": "tráfico de barcos",
+    "lv": "tráfico marítimo • navegación",
     "level": "B2"
   },
   {
@@ -10905,7 +20473,7 @@ const B2_WORDS = [
   },
   {
     "de": "schlafwandeln",
-    "lv": "caminar dormido",
+    "lv": "ser sonámbulo • caminar dormido",
     "level": "B2"
   },
   {
@@ -10943,7 +20511,7 @@ const B2_WORDS = [
     "de": "Schlusswort",
     "de_article": "das",
     "de_plural": "die Schlussworte",
-    "lv": "palabra final",
+    "lv": "palabras finales • discurso de clausura",
     "level": "B2"
   },
   {
@@ -10969,7 +20537,7 @@ const B2_WORDS = [
     "de": "Schmerzensgeld",
     "de_article": "das",
     "de_plural": "die Schmerzensgelder",
-    "lv": "indemnización por daños y perjuicios",
+    "lv": "indemnización por daños morales",
     "level": "B2"
   },
   {
@@ -11031,7 +20599,7 @@ const B2_WORDS = [
   },
   {
     "de": "schroff",
-    "lv": "escarpado",
+    "lv": "escarpado • brusco • áspero",
     "level": "B2"
   },
   {
@@ -11066,7 +20634,7 @@ const B2_WORDS = [
     "de": "Schutzimpfung",
     "de_article": "die",
     "de_plural": "die Schutzimpfungen",
-    "lv": "vacunación protectora",
+    "lv": "vacunación preventiva",
     "level": "B2"
   },
   {
@@ -11097,7 +20665,7 @@ const B2_WORDS = [
     "de": "Schwarzarbeit",
     "de_article": "die",
     "de_plural": "die Schwarzarbeiten",
-    "lv": "Trabajo ilegal por el que no se pagan impuestos.",
+    "lv": "trabajo en negro • trabajo no declarado",
     "level": "B2"
   },
   {
@@ -11118,7 +20686,7 @@ const B2_WORDS = [
     "de": "Schwebebahn",
     "de_article": "die",
     "de_plural": "die Schwebebahnen",
-    "lv": "ferrocarril suspendido",
+    "lv": "monorraíl suspendido • tren colgante",
     "level": "B2"
   },
   {
@@ -11137,7 +20705,7 @@ const B2_WORDS = [
     "de": "Schwerathletik",
     "de_article": "die",
     "de_plural": "die Schwerathletiken",
-    "lv": "halterofilia",
+    "lv": "deportes de fuerza • halterofilia",
     "level": "B2"
   },
   {
@@ -11154,7 +20722,7 @@ const B2_WORDS = [
   },
   {
     "de": "schwinden",
-    "lv": "[disminuir] • [des]aparecer • desvanecerse",
+    "lv": "disminuir • desaparecer • desvanecerse",
     "level": "B2"
   },
   {
@@ -11206,10 +20774,8 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "existencia",
       "explanation": [
-        "Idea principal: das Sein con mayúscula y el artículo das es un sustantivo - existencia, existencia (concepto filosófico).",
-        "sein con una letra minúscula es un verbo - ser.",
-        "das Sein se utiliza a menudo en un contexto filosófico o abstracto (das menschliche Sein).",
-        "Sustantivación: sein → das Sein, como können → das Können."
+        "Idea principal: das Sein es un sustantivo neutro derivado del verbo sein; igual que «el ser» en español, es el infinitivo convertido en sustantivo. En filosofía significa el ser, la existencia: el hecho de que algo sea. Lo contrario es das Nichts o das Nichtsein (el no ser).",
+        "Es un sustantivo que solo se usa en singular (das Sein, des Seins); no tiene plural. Frase conocida: Sein oder Nichtsein (el «Ser o no ser» de Hamlet). El sustantivo Sein se escribe con mayúscula."
       ],
       "examples": [
         {
@@ -11221,28 +20787,47 @@ const B2_WORDS = [
           "lv": "Ser o no ser, esa es la cuestión."
         },
         {
-          "de": "Ich bin müde.",
-          "lv": "Estoy cansado."
+          "de": "Das Sein bestimmt das Bewusstsein.",
+          "lv": "El ser determina la conciencia."
         },
         {
-          "de": "Das Sein bestimmt das Bewusstsein.",
-          "lv": "La existencia determina la conciencia."
+          "de": "Der Philosoph denkt über das Sein nach.",
+          "lv": "El filósofo reflexiona sobre el ser."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Dasein",
+          "meaning": "existencia, vida",
+          "example": "Sein Dasein war schwer. – Su existencia fue dura."
+        },
+        {
+          "word": "das Wesen",
+          "meaning": "esencia",
+          "example": "Das Wesen der Sache ist einfach. – La esencia del asunto es sencilla."
+        },
+        {
+          "word": "die Existenz",
+          "meaning": "existencia",
+          "example": "Er bezweifelt ihre Existenz. – Duda de su existencia."
         }
       ],
       "tip": [
-        "das Sein con mayúscula: un sustantivo (existencia, en un sentido filosófico).",
-        "sein minúscula - verbo (ser)."
+        "El sustantivo Sein aparece a menudo en filosofía: das Sein und das Bewusstsein.",
+        "Otra cosa es el posesivo sein (su, de él), que se escribe con minúscula."
       ],
       "important": [
-        "das Sein = existencia (sustantivo, abstracto/filosófico).",
-        "sein = ser (verbo, cotidiano).",
-        "Esta palabra es un verbo sustantivizado, como das Können."
+        "Das Sein no es una palabra cotidiana; en el día a día se dice das Leben o die Existenz.",
+        "No confundas el sustantivo das Sein con el verbo sein (ser, estar) ni con el posesivo sein (su)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Sein"
+          ],
           "purple": [
             "existencia",
-            "existencia"
+            "el ser"
           ]
         },
         "examples": [
@@ -11260,25 +20845,13 @@ const B2_WORDS = [
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Sein"
               ]
             },
             "lv": {
               "purple": [
-                "ser"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "bin"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "esmu"
+                "Ser o no ser"
               ]
             }
           },
@@ -11290,39 +20863,68 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
+                "El ser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sein"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "el ser"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Dasein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "existencia"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Wesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "esencia"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Existenz"
+              ]
+            },
+            "meaning": {
+              "purple": [
                 "existencia"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "das Sein"
-            ]
-          },
-          {
-            "green": [
-              "sein"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "das Sein"
-            ]
-          },
-          {
-            "green": [
-              "sein"
-            ]
-          },
-          {
-            "blue": [
-              "Esta"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -11337,7 +20939,7 @@ const B2_WORDS = [
   {
     "de": "Selbstkosten",
     "de_article": "die",
-    "lv": "precio de costo",
+    "lv": "precio de coste",
     "level": "B2"
   },
   {
@@ -11410,7 +21012,7 @@ const B2_WORDS = [
   },
   {
     "de": "siegreich",
-    "lv": "coronado de victorias",
+    "lv": "victorioso",
     "level": "B2"
   },
   {
@@ -11465,49 +21067,65 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "si • siempre que",
       "explanation": [
-        "Idea principal: sofät es una conjunción condicional - significa si/siempre que eso.",
-        "sofè introduce una cláusula auxiliar condicional, similar a wenn, pero es más formal y típica del estilo escrito.",
-        "soufen NO significa \"porque\" (conjunción causativa); es da o weil en alemán.",
-        "Se usa comúnmente en textos legales/formales (sofern nicht anders verfahrt = a menos que se acuerde lo contrario)."
+        "Idea principal: sofern es una conjunción subordinante que introduce una condición: si, siempre que, con la condición de que. Expresa que algo es válido u ocurre solo si se cumple la condición.",
+        "Después de sofern empieza una oración subordinada en la que el verbo va al final: Ich komme, sofern ich Zeit habe. La subordinada se separa con coma. La conjunción es algo más formal que wenn y aparece a menudo en contratos y reglamentos. Ojo: en español, «siempre que» con este valor condicional exige subjuntivo.",
+        "También puede usarse de forma abreviada: sofern möglich — si es posible."
       ],
       "examples": [
         {
           "de": "Ich komme, sofern ich Zeit habe.",
-          "lv": "Vengo si tengo tiempo."
+          "lv": "Vendré si tengo tiempo."
         },
         {
           "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
-          "lv": "A menos que se acuerde lo contrario, se aplica el precio estándar."
+          "lv": "Siempre que no se haya acordado otra cosa, rige el precio estándar."
         },
         {
-          "de": "Sofern das Wetter gut ist, machen wir einen Ausflug.",
-          "lv": "Siempre que haga buen tiempo, haremos un recorrido."
-        },
-        {
-          "de": "Sofern möglich, bitte pünktlich sein.",
-          "lv": "Por favor, sea específico si es posible."
+          "de": "Wir fahren morgen, sofern das Wetter gut ist.",
+          "lv": "Mañana nos vamos, siempre que haga buen tiempo."
         },
         {
           "de": "Er hilft, sofern er kann.",
-          "lv": "Él ayuda si puede."
+          "lv": "Ayuda siempre que puede."
         },
         {
-          "de": "Da es regnet, bleiben wir zu Hause.",
-          "lv": "Si está lloviendo, nos quedamos en casa."
+          "de": "Sofern es möglich ist, rufe ich dich an.",
+          "lv": "Si es posible, te llamo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "wenn",
+          "meaning": "si, cuando",
+          "example": "Wenn es regnet, bleibe ich zu Hause. – Si llueve, me quedo en casa."
+        },
+        {
+          "word": "falls",
+          "meaning": "en caso de que",
+          "example": "Falls du kommst, ruf an. – En caso de que vengas, llama."
+        },
+        {
+          "word": "soweit",
+          "meaning": "hasta donde, por lo que",
+          "example": "Soweit ich weiß, ist er krank. – Por lo que yo sé, está enfermo."
         }
       ],
       "tip": [
-        "si/siempre que (condición) - no debe confundirse con causa.",
-        "'desde' (causa) en alemán es da/weil, ne soufen."
+        "Usa sofern cuando quieras subrayar la condición: Sofern keine Einwände bestehen, …",
+        "Recuerda el orden de las palabras: sofern + sujeto + … + verbo al final."
       ],
       "important": [
-        "si hay una conexión condicional, no causal.",
-        "Incorrecto: soufen = as → Correcto: da/weil = as."
+        "Después de sofern, el verbo va al final de la subordinada, no en segunda posición.",
+        "sofern no es lo mismo que soweit (en la medida en que, hasta donde): soweit indica grado; sofern, condición."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sofern"
+          ],
           "purple": [
-            "si"
+            "si",
+            "siempre que"
           ]
         },
         "examples": [
@@ -11519,43 +21137,19 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "Vengo"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Sofern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "menos"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Sofern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Siempre"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Sofern"
-              ]
-            },
-            "lv": {
-              "purple": [
                 "si"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Siempre que"
               ]
             }
           },
@@ -11567,43 +21161,80 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "si"
+                "siempre que"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "Da"
+              "blue": [
+                "sofern"
               ]
             },
             "lv": {
-              "red": [
-                "Como"
+              "purple": [
+                "siempre que"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sofern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Si"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "wenn"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "si"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "falls"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "en caso de que"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "soweit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hasta donde"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "si",
-              "si/siempre"
-            ]
-          },
-          {
-            "red": [
-              "da",
-              "weil"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "hay"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -11631,7 +21262,7 @@ const B2_WORDS = [
     "de": "Sonderausgabe",
     "de_article": "die",
     "de_plural": "die Sonderausgaben",
-    "lv": "edición especial de un libro • edición especial de un periódico • edición especial de sellos",
+    "lv": "edición especial • emisión especial",
     "level": "B2"
   },
   {
@@ -11695,7 +21326,7 @@ const B2_WORDS = [
   },
   {
     "de": "spärlich",
-    "lv": "escaso • tacaño • raro",
+    "lv": "escaso • exiguo • ralo",
     "level": "B2"
   },
   {
@@ -11733,7 +21364,7 @@ const B2_WORDS = [
   },
   {
     "de": "spionieren",
-    "lv": "espiar • espiar",
+    "lv": "espiar",
     "level": "B2"
   },
   {
@@ -11761,13 +21392,177 @@ const B2_WORDS = [
     "de": "Sprechanlage",
     "de_article": "die",
     "de_plural": "die Sprechanlagen",
-    "lv": "sistema de intercomunicación en casa",
+    "lv": "interfono • portero automático",
     "level": "B2"
   },
   {
     "de": "sprengen",
     "lv": "hacer explotar • rociar • regar",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-sprengen",
+      "layout": "standardStudy",
+      "translation": "hacer explotar • rociar • regar",
+      "explanation": [
+        "Idea principal: sprengen es un verbo transitivo con varios significados. El primero es hacer explotar, volar (eine Brücke sprengen), o romper, partir con fuerza (der Frost sprengt Felsen). El segundo es rociar, salpicar con agua (Wäsche sprengen) y regar (den Rasen sprengen).",
+        "Formas: sprengt, sprengte, hat gesprengt. La raíz es la misma, pero los significados son distintos; el contexto deja claro de qué se trata. En sentido figurado, die Grenzen sprengen — rebasar los límites."
+      ],
+      "examples": [
+        {
+          "de": "Die Armee sprengte die Brücke.",
+          "lv": "El ejército voló el puente."
+        },
+        {
+          "de": "Er sprengt jeden Abend den Rasen.",
+          "lv": "Riega el césped todas las tardes."
+        },
+        {
+          "de": "Vor dem Bügeln sprengt sie die Wäsche mit Wasser.",
+          "lv": "Antes de planchar, rocía la ropa con agua."
+        },
+        {
+          "de": "Der Frost sprengt die Felsen.",
+          "lv": "La helada parte las rocas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gießen",
+          "meaning": "regar",
+          "example": "Ich gieße die Blumen. – Riego las flores."
+        },
+        {
+          "word": "explodieren",
+          "meaning": "explotar",
+          "example": "Die Bombe explodiert. – La bomba explota."
+        },
+        {
+          "word": "sprühen",
+          "meaning": "pulverizar, rociar",
+          "example": "Er sprüht Wasser auf die Pflanzen. – Pulveriza agua sobre las plantas."
+        }
+      ],
+      "tip": [
+        "En el contexto del jardín, den Rasen sprengen significa regar el césped con una manguera o un aspersor.",
+        "Con Bombe, Brücke o Tür, sprengen se entiende como hacer explotar o forzar."
+      ],
+      "important": [
+        "Combinación frecuente: etwas in die Luft sprengen — volar algo por los aires.",
+        "El significado lo determina el complemento: Brücke — se vuela; Rasen — se riega; Wäsche — se rocía."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sprengen",
+            "sprengt",
+            "sprengte",
+            "gesprengt"
+          ],
+          "purple": [
+            "hacer explotar",
+            "volar",
+            "rociar",
+            "regar"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "sprengte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "voló"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Riega"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "rocía"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprengt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gießen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "regar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "explodieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "explotar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sprühen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pulverizar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Sprengstoff",
@@ -11787,14 +21582,14 @@ const B2_WORDS = [
     "de": "Spruch",
     "de_article": "der",
     "de_plural": "die Sprüche",
-    "lv": "expresión • aforismo • jur. juicio",
+    "lv": "dicho • aforismo • sentencia",
     "level": "B2"
   },
   {
     "de": "Spruchband",
     "de_article": "das",
     "de_plural": "die Spruchbande",
-    "lv": "transparente • cartel",
+    "lv": "pancarta",
     "level": "B2"
   },
   {
@@ -11806,14 +21601,14 @@ const B2_WORDS = [
   },
   {
     "de": "spurlos",
-    "lv": "sin dejar rastro • sin dejar rastro",
+    "lv": "sin dejar rastro",
     "level": "B2"
   },
   {
     "de": "Staatenlose",
     "de_article": "der",
     "de_plural": "die Staatenlosen",
-    "lv": "una persona apátrida",
+    "lv": "apátrida",
     "level": "B2"
   },
   {
@@ -11875,12 +21670,12 @@ const B2_WORDS = [
   },
   {
     "de": "starrköpfig",
-    "lv": "obstinado • obstinado",
+    "lv": "obstinado • testarudo",
     "level": "B2"
   },
   {
     "de": "starrsinnig",
-    "lv": "obstinado • obstinado",
+    "lv": "terco • obstinado",
     "level": "B2"
   },
   {
@@ -11901,7 +21696,7 @@ const B2_WORDS = [
     "de": "Steckbrief",
     "de_article": "der",
     "de_plural": "die Steckbriefe",
-    "lv": "descripción de la persona buscada por la policía",
+    "lv": "cartel de se busca • orden de busca y captura",
     "level": "B2"
   },
   {
@@ -11912,7 +21707,7 @@ const B2_WORDS = [
   {
     "de": "Steuergelder",
     "de_article": "die",
-    "lv": "todo el dinero que recibe el gobierno en impuestos",
+    "lv": "dinero de los contribuyentes • fondos públicos",
     "level": "B2"
   },
   {
@@ -11932,14 +21727,14 @@ const B2_WORDS = [
   {
     "de": "Stoßverkehr",
     "de_article": "der",
-    "lv": "hora punta • aumento del tráfico a una determinada hora del día",
+    "lv": "tráfico de hora punta • hora punta",
     "level": "B2"
   },
   {
     "de": "Strafanzeige",
     "de_article": "die",
     "de_plural": "die Strafanzeigen",
-    "lv": "presentar una denuncia penal contra alguien",
+    "lv": "denuncia penal",
     "level": "B2"
   },
   {
@@ -11949,18 +21744,18 @@ const B2_WORDS = [
   },
   {
     "de": "streben",
-    "lv": "luchar por algo",
+    "lv": "aspirar a • esforzarse por",
     "level": "B2"
   },
   {
     "de": "streitbar",
-    "lv": "discutidor",
+    "lv": "combativo • pendenciero",
     "level": "B2"
   },
   {
     "de": "Streitkräfte",
     "de_article": "die",
-    "lv": "todas las organizaciones militares y fuerzas militares del país.",
+    "lv": "fuerzas armadas",
     "level": "B2"
   },
   {
@@ -11992,7 +21787,7 @@ const B2_WORDS = [
     "de": "Strolch",
     "de_article": "der",
     "de_plural": "die Strolche",
-    "lv": "un vagabundo",
+    "lv": "vagabundo • granuja",
     "level": "B2"
   },
   {
@@ -12006,7 +21801,7 @@ const B2_WORDS = [
     "de": "Studiengebühr",
     "de_article": "die",
     "de_plural": "die Studiengebühren",
-    "lv": "tasas de matrícula en la universidad",
+    "lv": "tasa de matrícula",
     "level": "B2"
   },
   {
@@ -12025,7 +21820,7 @@ const B2_WORDS = [
     "de": "Suchaktion",
     "de_article": "die",
     "de_plural": "die Suchaktionen",
-    "lv": "búsqueda organizada por la policía",
+    "lv": "operación de búsqueda",
     "level": "B2"
   },
   {
@@ -12046,7 +21841,7 @@ const B2_WORDS = [
     "de": "Tagegeld",
     "de_article": "das",
     "de_plural": "die Tagegelder",
-    "lv": "viáticos de viaje de negocios",
+    "lv": "dietas",
     "level": "B2"
   },
   {
@@ -12096,7 +21891,7 @@ const B2_WORDS = [
     "de": "Testperson",
     "de_article": "die",
     "de_plural": "die Testpersonen",
-    "lv": "persona de prueba",
+    "lv": "sujeto de prueba • participante en un ensayo",
     "level": "B2"
   },
   {
@@ -12146,7 +21941,7 @@ const B2_WORDS = [
     "de": "Totalschaden",
     "de_article": "der",
     "de_plural": "die Totalschäden",
-    "lv": "Daños al vehículo que no pueden repararse después del accidente.",
+    "lv": "siniestro total",
     "level": "B2"
   },
   {
@@ -12170,7 +21965,7 @@ const B2_WORDS = [
     "de": "Trabant",
     "de_article": "der",
     "de_plural": "die Trabanten",
-    "lv": "satélite astronómico",
+    "lv": "satélite",
     "level": "B2"
   },
   {
@@ -12271,7 +22066,7 @@ const B2_WORDS = [
   },
   {
     "de": "trügerisch",
-    "lv": "engañoso • engañoso",
+    "lv": "engañoso • ilusorio",
     "level": "B2"
   },
   {
@@ -12290,18 +22085,180 @@ const B2_WORDS = [
   },
   {
     "de": "überbringen",
-    "lv": "entregar un mensaje • un saludo • una carta • un regalo",
-    "level": "B2"
+    "lv": "entregar • transmitir",
+    "level": "B2",
+    "study": {
+      "id": "b2--berbringen",
+      "layout": "standardStudy",
+      "translation": "entregar • transmitir",
+      "explanation": [
+        "Idea principal: überbringen significa hacer llegar a su destinatario, por encargo, una noticia, una felicitación, una carta o un regalo: llevarlo y entregarlo en persona, o transmitirlo. La persona que lo recibe va en dativo: jemandem etwas überbringen.",
+        "Prefijo inseparable über-: überbringt, überbrachte, hat überbracht. En la construcción de infinitivo, zu va delante del verbo: um die Nachricht zu überbringen. Es una palabra algo formal."
+      ],
+      "examples": [
+        {
+          "de": "Er überbrachte uns die traurige Nachricht.",
+          "lv": "Nos transmitió la triste noticia."
+        },
+        {
+          "de": "Der Botschafter überbringt die Glückwünsche des Präsidenten.",
+          "lv": "El embajador transmite las felicitaciones del presidente."
+        },
+        {
+          "de": "Der Bote hat den Brief persönlich überbracht.",
+          "lv": "El mensajero entregó la carta en persona."
+        },
+        {
+          "de": "Sie überbrachte dem Jubilar ein Geschenk.",
+          "lv": "Le entregó un regalo al homenajeado."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bringen",
+          "meaning": "traer, llevar",
+          "example": "Bring mir bitte ein Glas Wasser. – Tráeme un vaso de agua, por favor."
+        },
+        {
+          "word": "übermitteln",
+          "meaning": "transmitir, enviar",
+          "example": "Ich übermittle Ihnen die Daten. – Le transmito los datos."
+        },
+        {
+          "word": "ausrichten",
+          "meaning": "dar (un recado, recuerdos)",
+          "example": "Richte ihm Grüße aus. – Dale recuerdos de mi parte."
+        }
+      ],
+      "tip": [
+        "Complementos típicos: eine Nachricht, Grüße, Glückwünsche, ein Geschenk überbringen.",
+        "En la conversación se dice más sencillamente ausrichten (para saludos) o bringen."
+      ],
+      "important": [
+        "Aquí el prefijo über- es inseparable: Er überbringt die Nachricht, no er bringt die Nachricht über.",
+        "La persona a quien se entrega algo va en dativo: dem Chef, den Eltern."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "überbringen",
+            "überbringt"
+          ],
+          "purple": [
+            "felicitación",
+            "carta",
+            "regalo",
+            "entregar"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "überbrachte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "transmitió"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbringt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "transmite"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "entregó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "überbrachte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "entregó"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bringen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "traer"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "übermitteln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "transmitir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ausrichten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Übereinkommen",
     "de_article": "das",
-    "lv": "acuerdo • acuerdo",
+    "lv": "acuerdo • convenio",
     "level": "B2"
   },
   {
     "de": "überfahren",
-    "lv": "atropellar • cepillar ligeramente",
+    "lv": "atropellar • pasar por encima",
     "level": "B2"
   },
   {
@@ -12323,7 +22280,7 @@ const B2_WORDS = [
   },
   {
     "de": "überführen",
-    "lv": "transportar al otro lado • cruzar el río",
+    "lv": "trasladar • transportar • demostrar la culpabilidad",
     "level": "B2"
   },
   {
@@ -12357,7 +22314,7 @@ const B2_WORDS = [
   },
   {
     "de": "übermitteln",
-    "lv": "entregar • enviar una carta",
+    "lv": "transmitir • enviar",
     "level": "B2"
   },
   {
@@ -12379,7 +22336,7 @@ const B2_WORDS = [
   },
   {
     "de": "übersichtlich",
-    "lv": "transparente",
+    "lv": "claro • bien organizado",
     "level": "B2"
   },
   {
@@ -12389,17 +22346,17 @@ const B2_WORDS = [
   },
   {
     "de": "überstehen",
-    "lv": "soportar • soportar problemas",
+    "lv": "superar • sobrevivir",
     "level": "B2"
   },
   {
     "de": "übertragen",
-    "lv": "transferir • transmitir enfermedades contagiosas • transmitir por radio • traducir",
+    "lv": "transferir • transmitir • traducir",
     "level": "B2"
   },
   {
     "de": "übertreten",
-    "lv": "violar la ley • traspasar algo",
+    "lv": "infringir • traspasar",
     "level": "B2"
   },
   {
@@ -12427,12 +22384,12 @@ const B2_WORDS = [
     "de": "Umbruch",
     "de_article": "der",
     "de_plural": "die Umbrüche",
-    "lv": "un gran cambio en la política",
+    "lv": "cambio radical • transformación",
     "level": "B2"
   },
   {
     "de": "umdenken",
-    "lv": "cambiar de opinión dependiendo de la situación",
+    "lv": "replantearse • cambiar de mentalidad",
     "level": "B2"
   },
   {
@@ -12444,7 +22401,7 @@ const B2_WORDS = [
     "de": "Umfeld",
     "de_article": "das",
     "de_plural": "die Umfelder",
-    "lv": "entorno social • político",
+    "lv": "entorno",
     "level": "B2"
   },
   {
@@ -12454,14 +22411,14 @@ const B2_WORDS = [
   },
   {
     "de": "umhören, sich",
-    "lv": "preguntar por ahí",
+    "lv": "informarse • preguntar por ahí",
     "level": "B2"
   },
   {
     "de": "Umkreis",
     "de_article": "der",
     "de_plural": "die Umkreise",
-    "lv": "vecindario",
+    "lv": "alrededores • radio",
     "level": "B2"
   },
   {
@@ -12502,7 +22459,7 @@ const B2_WORDS = [
   },
   {
     "de": "umschulen",
-    "lv": "reciclarse profesionalmente • formar para otra profesión",
+    "lv": "readaptar profesionalmente • reciclar profesionalmente",
     "level": "B2"
   },
   {
@@ -12537,12 +22494,12 @@ const B2_WORDS = [
   },
   {
     "de": "umwandeln",
-    "lv": "convertir • convertir",
+    "lv": "convertir • transformar",
     "level": "B2"
   },
   {
     "de": "umwickeln",
-    "lv": "envolver • envolver",
+    "lv": "envolver • enrollar",
     "level": "B2"
   },
   {
@@ -12552,7 +22509,7 @@ const B2_WORDS = [
   },
   {
     "de": "unanständig",
-    "lv": "descortés • mal portado",
+    "lv": "indecente • grosero",
     "level": "B2"
   },
   {
@@ -12582,7 +22539,7 @@ const B2_WORDS = [
   },
   {
     "de": "unbegründet",
-    "lv": "infundado • infundado",
+    "lv": "infundado",
     "level": "B2"
   },
   {
@@ -12602,7 +22559,7 @@ const B2_WORDS = [
   },
   {
     "de": "unberechenbar",
-    "lv": "incalculable",
+    "lv": "imprevisible • incalculable",
     "level": "B2"
   },
   {
@@ -12642,7 +22599,7 @@ const B2_WORDS = [
   },
   {
     "de": "unerträglich",
-    "lv": "intolerable • intolerable",
+    "lv": "insoportable • intolerable",
     "level": "B2"
   },
   {
@@ -12659,14 +22616,14 @@ const B2_WORDS = [
   },
   {
     "de": "ungerade",
-    "lv": "no del todo recto • torcido • extraño",
+    "lv": "impar • torcido",
     "level": "B2"
   },
   {
     "de": "Union",
     "de_article": "die",
     "de_plural": "die Unionen",
-    "lv": "unión • unión",
+    "lv": "unión",
     "level": "B2"
   },
   {
@@ -12677,19 +22634,19 @@ const B2_WORDS = [
   },
   {
     "de": "unmenschlich",
-    "lv": "inhumano • inhumano",
+    "lv": "inhumano",
     "level": "B2"
   },
   {
     "de": "unnütz",
-    "lv": "inútil • innecesario • inútil",
+    "lv": "inútil • innecesario",
     "level": "B2"
   },
   {
     "de": "Unstimmigkeit",
     "de_article": "die",
     "de_plural": "die Unstimmigkeiten",
-    "lv": "desacuerdos",
+    "lv": "desacuerdo • discrepancia",
     "level": "B2"
   },
   {
@@ -12699,7 +22656,7 @@ const B2_WORDS = [
   },
   {
     "de": "unterdrücken",
-    "lv": "suprimir • suprimir",
+    "lv": "reprimir • suprimir",
     "level": "B2"
   },
   {
@@ -12718,7 +22675,7 @@ const B2_WORDS = [
     "de": "Untergrund",
     "de_article": "der",
     "de_plural": "die Untergründe",
-    "lv": "subterráneo",
+    "lv": "clandestinidad • subsuelo",
     "level": "B2"
   },
   {
@@ -12729,7 +22686,7 @@ const B2_WORDS = [
   },
   {
     "de": "unterirdisch",
-    "lv": "subterráneo-",
+    "lv": "subterráneo",
     "level": "B2"
   },
   {
@@ -12742,7 +22699,187 @@ const B2_WORDS = [
     "de_article": "die",
     "de_plural": "die Unterlagen",
     "lv": "base • alfombrilla • almohadilla • soporte • documentos",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-unterlage",
+      "layout": "standardStudy",
+      "translation": "base • alfombrilla • almohadilla • soporte • documentos",
+      "explanation": [
+        "Idea principal: die Unterlage es un sustantivo femenino. En singular es algo que se coloca debajo de otra cosa: una base, una alfombrilla, una almohadilla, un soporte (eine Unterlage zum Schreiben). En plural, die Unterlagen significa documentos, materiales, documentación.",
+        "El plural es die Unterlagen y se usa muchísimo: die Unterlagen einreichen (presentar los documentos), Unterlagen anfordern (solicitar documentación). El singular y el plural tienen significados bastante distintos, así que fíjate en el contexto."
+      ],
+      "examples": [
+        {
+          "de": "Als Unterlage verwenden wir ein Brett.",
+          "lv": "Usamos una tabla como soporte."
+        },
+        {
+          "de": "Die Matte dient als Unterlage für die Übungen.",
+          "lv": "La colchoneta sirve de base para los ejercicios."
+        },
+        {
+          "de": "Bitte reichen Sie die Unterlagen bis Freitag ein.",
+          "lv": "Por favor, presente la documentación antes del viernes."
+        },
+        {
+          "de": "Er hat alle Unterlagen für den Antrag gesammelt.",
+          "lv": "Ha reunido todos los documentos para la solicitud."
+        },
+        {
+          "de": "Eine feste Unterlage stützt das Werkstück.",
+          "lv": "Un soporte firme sujeta la pieza."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Dokument",
+          "meaning": "documento",
+          "example": "Das Dokument ist wichtig. – El documento es importante."
+        },
+        {
+          "word": "die Grundlage",
+          "meaning": "base, fundamento",
+          "example": "Das ist die Grundlage des Vertrags. – Esa es la base del contrato."
+        },
+        {
+          "word": "der Untersetzer",
+          "meaning": "posavasos",
+          "example": "Stell das Glas auf den Untersetzer. – Pon el vaso en el posavasos."
+        }
+      ],
+      "tip": [
+        "En el contexto de papeles y oficina casi siempre se usa el plural: Unterlagen.",
+        "Lo que se pone debajo de un objeto se llama Unterlage; lo que se pone debajo de un vaso, Untersetzer."
+      ],
+      "important": [
+        "Unterlagen no es un único documento, sino un conjunto de documentos; un solo documento se llama das Dokument.",
+        "No lo confundas con Grundlage (fundamento, base): es una palabra más amplia y abstracta."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Unterlage",
+            "Unterlage",
+            "Unterlagen"
+          ],
+          "purple": [
+            "base",
+            "alfombrilla",
+            "documentos",
+            "documentación",
+            "soporte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "soporte"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "base"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "documentación"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlagen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "documentos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Unterlage"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "soporte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Dokument"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "documento"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Grundlage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "base"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Untersetzer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "posavasos"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "unterlassen",
@@ -12756,7 +22893,7 @@ const B2_WORDS = [
   },
   {
     "de": "unterschlagen",
-    "lv": "apropiarse",
+    "lv": "malversar • desfalcar",
     "level": "B2"
   },
   {
@@ -12835,7 +22972,7 @@ const B2_WORDS = [
   },
   {
     "de": "üppig",
-    "lv": "abundante • regordete",
+    "lv": "abundante • exuberante",
     "level": "B2"
   },
   {
@@ -12878,7 +23015,7 @@ const B2_WORDS = [
   },
   {
     "de": "väterlich",
-    "lv": "paterno- • paternal",
+    "lv": "paterno • paternal",
     "level": "B2"
   },
   {
@@ -12895,7 +23032,7 @@ const B2_WORDS = [
     "de": "Veranlagung",
     "de_article": "die",
     "de_plural": "die Veranlagungen",
-    "lv": "talentos • habilidades",
+    "lv": "predisposición • aptitud",
     "level": "B2"
   },
   {
@@ -12922,7 +23059,7 @@ const B2_WORDS = [
     "de": "Verdienst",
     "de_article": "der",
     "de_plural": "die Verdienste",
-    "lv": "mérito",
+    "lv": "ganancias • mérito",
     "level": "B2"
   },
   {
@@ -12953,21 +23090,164 @@ const B2_WORDS = [
     "level": "B2",
     "study": {
       "id": "b2-sich-vereinigen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "fusionarse con",
-      "rektion": "mit + kam?",
-      "explanation": "sich vereinigen requiere la preposición definida mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Gestión:",
+      "explanation": [
+        "Idea principal: sich vereinigen significa unirse, fusionarse; se dice de países, partidos, empresas o fuerzas. Con mit + dativo se nombra al socio: sich mit einer Gruppe vereinigen (fusionarse con un grupo). El resultado se indica con zu + dativo: sich zu einer Union vereinigen.",
+        "Formas: vereinigt sich, vereinigte sich, hat sich vereinigt. Sin sich, vereinigen es transitivo: Länder vereinigen — unir países. Ejemplo en un nombre propio: die Vereinigten Staaten (los Estados Unidos)."
+      ],
+      "examples": [
+        {
+          "de": "Die beiden Firmen vereinigten sich zu einem Konzern.",
+          "lv": "Las dos empresas se fusionaron en un grupo empresarial."
+        },
+        {
+          "de": "Die Partei vereinigte sich mit einer kleineren Gruppe.",
+          "lv": "El partido se fusionó con un grupo más pequeño."
+        },
+        {
+          "de": "Die Länder haben sich zu einer Union vereinigt.",
+          "lv": "Los países se han unido para formar una unión."
+        },
+        {
+          "de": "Alle Kräfte vereinigten sich gegen den Gegner.",
+          "lv": "Todas las fuerzas se unieron contra el adversario."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vereinen",
+          "meaning": "unir, reunir",
+          "example": "Das Fest vereint alle Generationen. – La fiesta reúne a todas las generaciones."
+        },
+        {
+          "word": "sich zusammenschließen",
+          "meaning": "unirse, asociarse",
+          "example": "Die Firmen schließen sich zusammen. – Las empresas se unen."
+        },
+        {
+          "word": "fusionieren",
+          "meaning": "fusionarse",
+          "example": "Zwei Banken fusionieren. – Dos bancos se fusionan."
+        }
+      ],
+      "tip": [
+        "Combinación frecuente: sich zu etwas vereinigen (unirse para formar algo).",
+        "En el día a día suele decirse más sencillamente: sich zusammenschließen."
+      ],
+      "important": [
+        "La palabra cercana vereinen (unir, reunir) suele referirse a personas y sentimientos, mientras que vereinigen se usa más para organizaciones y países.",
+        "Después de mit va dativo: mit der Partei, mit dem Nachbarn."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich vereinigen"
+            "vereinigen",
+            "vereinigt",
+            "vereinigte",
+            "Vereinigten"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "fusionarse",
+            "unir"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "vereinigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se fusionaron"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se fusionó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se han unido"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vereinigten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se unieron"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vereinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "reunir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich zusammenschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "unirse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "fusionieren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fusionarse"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -12975,7 +23255,7 @@ const B2_WORDS = [
     "de": "Vereinigung",
     "de_article": "die",
     "de_plural": "die Vereinigungen",
-    "lv": "unión • sociedad • acoplamiento",
+    "lv": "unión • asociación • unificación",
     "level": "B2"
   },
   {
@@ -13012,7 +23292,170 @@ const B2_WORDS = [
   {
     "de": "verfügen",
     "lv": "determinar • ordenar • asignar",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-verf-gen",
+      "layout": "standardStudy",
+      "translation": "determinar • ordenar • asignar",
+      "explanation": [
+        "Idea principal: verfügen, en este sentido, es un verbo propio del lenguaje oficial: determinar, ordenar o asignar algo por decisión de una autoridad o de un organismo (eine Maßnahme verfügen). El sujeto suele ser una autoridad, un director, un tribunal o un soberano.",
+        "Prefijo inseparable ver-: verfügt, verfügte, hat verfügt. Puede ir seguido de acusativo (eine Ausgangssperre verfügen) o de una oración con dass.",
+        "La construcción aparte verfügen über + acusativo significa disponer de algo, tenerlo: über Erfahrung verfügen — tener experiencia."
+      ],
+      "examples": [
+        {
+          "de": "Die Behörde verfügt eine Ausgangssperre.",
+          "lv": "Las autoridades decretan un toque de queda."
+        },
+        {
+          "de": "Der König verfügte, dass das Tor geschlossen wird.",
+          "lv": "El rey ordenó que se cerrara la puerta."
+        },
+        {
+          "de": "Der Direktor verfügte die sofortige Schließung des Werks.",
+          "lv": "El director ordenó el cierre inmediato de la fábrica."
+        },
+        {
+          "de": "Er verfügt über große Erfahrung.",
+          "lv": "Dispone de una gran experiencia."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anordnen",
+          "meaning": "ordenar, prescribir",
+          "example": "Der Arzt ordnet Ruhe an. – El médico prescribe reposo."
+        },
+        {
+          "word": "bestimmen",
+          "meaning": "determinar, establecer",
+          "example": "Das Gesetz bestimmt die Frist. – La ley establece el plazo."
+        },
+        {
+          "word": "besitzen",
+          "meaning": "poseer",
+          "example": "Er besitzt ein Haus. – Posee una casa."
+        }
+      ],
+      "tip": [
+        "En estilo oficial, verfügen designa una decisión administrativa; en el día a día se dice anordnen o bestimmen.",
+        "La frase Er verfügt über … significa tiene…, dispone de…, y es más frecuente que el primer sentido."
+      ],
+      "important": [
+        "No confundas verfügen (ordenar, determinar) con verfügen über (disponer de, tener): la preposición cambia el significado.",
+        "Cuando verfügen significa ordenar, no hace falta la preposición über."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "verfügen",
+            "verfügt",
+            "verfügte"
+          ],
+          "purple": [
+            "determinar",
+            "ordenar",
+            "asignar"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "decretan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ordenó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ordenó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verfügt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Dispone de"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anordnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ordenar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "determinar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "poseer"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Verfügung",
@@ -13262,7 +23705,7 @@ const B2_WORDS = [
   },
   {
     "de": "verrechnen",
-    "lv": "calcular",
+    "lv": "compensar • liquidar",
     "level": "B2"
   },
   {
@@ -13272,30 +23715,178 @@ const B2_WORDS = [
   },
   {
     "de": "versagen",
-    "lv": "fallar • negarse • rechazar • no funcionar • negarse a servir • mostrarse cobarde e incapaz",
+    "lv": "fallar • negar • no funcionar",
     "level": "B2"
   },
   {
     "de": "sich versehen",
-    "lv": "olvidar • equipar con",
+    "lv": "equivocarse • confundirse",
     "level": "B2",
     "study": {
       "id": "b2-sich-versehen",
-      "layout": "minimalStudy",
-      "translation": "equivocarse • equiparse con",
-      "rektion": "mit + kam?",
-      "explanation": "sich verschein requiere la preposición definida mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "equivocarse • confundirse",
+      "explanation": [
+        "Idea principal: sich versehen significa equivocarse, confundirse: no percibir algo correctamente o cometer un error por descuido (por ejemplo, con una fecha o un número). Formas: versieht sich, versah sich, hat sich versehen.",
+        "Expresiones frecuentes: Wenn ich mich nicht versehe, … (si no me equivoco, …) y ehe man sich versieht (en un abrir y cerrar de ojos). Sin sich, versehen significa proveer, dotar (mit etwas versehen)."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe mich beim Datum versehen.",
+          "lv": "Me he equivocado con la fecha."
+        },
+        {
+          "de": "Wenn ich mich nicht versehe, kommt dort Anna.",
+          "lv": "Si no me equivoco, ahí viene Anna."
+        },
+        {
+          "de": "Ehe man sich versieht, ist der Sommer vorbei.",
+          "lv": "En un abrir y cerrar de ojos, el verano se ha acabado."
+        },
+        {
+          "de": "Da hast du dich wohl versehen.",
+          "lv": "Ahí te habrás confundido."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich irren",
+          "meaning": "equivocarse",
+          "example": "Ich habe mich geirrt. – Me he equivocado."
+        },
+        {
+          "word": "sich verlesen",
+          "meaning": "leer mal",
+          "example": "Ich habe mich verlesen. – Lo he leído mal."
+        },
+        {
+          "word": "versehen",
+          "meaning": "proveer, poner",
+          "example": "Er versieht den Brief mit einer Marke. – Pone un sello en la carta."
+        }
+      ],
+      "tip": [
+        "El reflexivo sich versehen expresa un error involuntario: Ich habe mich versehen.",
+        "Con Wenn ich mich nicht versehe, … expresas una suposición con cautela."
+      ],
+      "important": [
+        "sich versehen no tiene que ver con un problema de vista, sino con un despiste o un error.",
+        "No confundas sich versehen (equivocarse) con versehen mit (proveer de): este no lleva sich."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verschein"
+            "sich versehen",
+            "versehen",
+            "versieht",
+            "versehe",
+            "versah"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "equivocarse",
+            "confundirse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "mich",
+                "versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "equivocado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mich",
+                "versehe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "equivoco"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich",
+                "versieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "En un abrir y cerrar de ojos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dich",
+                "versehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "confundido"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich irren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "equivocarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verlesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "leer mal"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "versehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "proveer"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -13326,25 +23917,150 @@ const B2_WORDS = [
   },
   {
     "de": "sich versöhnen",
-    "lv": "soportar",
+    "lv": "reconciliarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-versoehnen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "reconciliarse",
-      "rektion": "mit + kam?",
-      "explanation": "sich versöhnen requiere la preposición definida mit + kam?.",
-      "forms": "mit + kam?",
-      "formsLabel": "Gestión:",
+      "explanation": [
+        "Idea principal: sich versöhnen significa reconciliarse después de una pelea o un conflicto, es decir, restablecer la buena relación con alguien.",
+        "Es un verbo reflexivo: ich versöhne mich, er versöhnt sich; en pretérito er versöhnte sich, en perfecto er hat sich versöhnt. La persona con la que uno se reconcilia se introduce con mit + dativo: sich mit jemandem versöhnen.",
+        "El verbo también puede ser transitivo: jemanden versöhnen, reconciliar a alguien (con otra persona)."
+      ],
+      "examples": [
+        {
+          "de": "Die Geschwister haben sich nach dem Streit versöhnt.",
+          "lv": "Los hermanos se reconciliaron después de la pelea."
+        },
+        {
+          "de": "Ich möchte mich mit dir versöhnen.",
+          "lv": "Quiero reconciliarme contigo."
+        },
+        {
+          "de": "Er versöhnte sich mit seinem Vater.",
+          "lv": "Se reconcilió con su padre."
+        },
+        {
+          "de": "Wann versöhnt ihr euch endlich?",
+          "lv": "¿Cuándo os vais a reconciliar por fin?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "verzeihen",
+          "meaning": "perdonar",
+          "example": "Ich verzeihe dir. – Te perdono."
+        },
+        {
+          "word": "sich vertragen",
+          "meaning": "llevarse bien",
+          "example": "Die Kinder vertragen sich gut. – Los niños se llevan bien."
+        }
+      ],
+      "tip": [
+        "Recuerda el par: sich versöhnen mit + dativo. La persona con la que uno se reconcilia va siempre detrás de mit.",
+        "Antes de la reconciliación suele haber una pelea: sich streiten → sich versöhnen."
+      ],
+      "important": [
+        "En este sentido el reflexivo sich es obligatorio: ich versöhne mich, no ich versöhne.",
+        "El perfecto se forma con haben: er hat sich versöhnt."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich versöhnen"
+            "versöhnen",
+            "versöhne",
+            "versöhnt"
           ],
-          "red": [
-            "mit + kam?"
+          "purple": [
+            "reconciliarse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "versöhnt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "reconciliaron"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "reconciliarme"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "reconcilió"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versöhnt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "reconciliar"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "verzeihen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "perdonar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich vertragen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "llevarse bien"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -13365,7 +24081,7 @@ const B2_WORDS = [
   },
   {
     "de": "verstauchen",
-    "lv": "torcer",
+    "lv": "torcerse • hacerse un esguince",
     "level": "B2"
   },
   {
@@ -13375,25 +24091,151 @@ const B2_WORDS = [
   },
   {
     "de": "sich verstellen",
-    "lv": "personificar",
+    "lv": "fingir • disimular",
     "level": "B2",
     "study": {
       "id": "b2-sich-verstellen",
-      "layout": "minimalStudy",
-      "translation": "fingir",
-      "rektion": "als + ko?",
-      "explanation": "sich verstellen requiere la preposición definida als + ko?.",
-      "forms": "als + ko?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "fingir • disimular",
+      "explanation": [
+        "Idea principal: sich verstellen significa fingir o disimular: cambiar el comportamiento o la actitud para que los demás no vean el verdadero carácter o los verdaderos sentimientos. La persona no se muestra natural.",
+        "Es un verbo reflexivo: ich verstelle mich, er verstellt sich; en pretérito verstellte sich, en perfecto hat sich verstellt. Sin sich, verstellen significa también cambiar de sitio o tapar (den Weg verstellen, cerrar el paso; den Sitz verstellen, regular el asiento), así como cambiar la voz (die Stimme verstellen).",
+        "Si lo que quieres decir es hacerse pasar por alguien, el alemán usa sich ausgeben als (sich als Arzt ausgeben, hacerse pasar por médico); sich verstellen significa simplemente fingir o disimular."
+      ],
+      "examples": [
+        {
+          "de": "Er verstellt sich vor den Gästen und tut freundlich.",
+          "lv": "Delante de los invitados finge y se muestra amable."
+        },
+        {
+          "de": "Du musst dich nicht verstellen.",
+          "lv": "No tienes que fingir."
+        },
+        {
+          "de": "Sie verstellte ihre Stimme am Telefon.",
+          "lv": "Cambió la voz al teléfono."
+        },
+        {
+          "de": "Bei ihm weiß man nie, ob er sich verstellt.",
+          "lv": "Con él nunca se sabe si está fingiendo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich ausgeben als",
+          "meaning": "hacerse pasar por",
+          "example": "Er gibt sich als Arzt aus. – Se hace pasar por médico."
+        },
+        {
+          "word": "so tun, als ob",
+          "meaning": "hacer como si",
+          "example": "Sie tut so, als ob sie schliefe. – Hace como si durmiera."
+        }
+      ],
+      "tip": [
+        "Si quieres decir hacerse pasar por alguien, usa sich ausgeben als; sich verstellen es más general: no ser uno mismo.",
+        "Frase útil: Du brauchst dich nicht zu verstellen, no tienes que fingir."
+      ],
+      "important": [
+        "No lo confundas con verstellen sin sich: Er verstellt den Weg significa que cierra el paso."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
+            "verstellen",
+            "verstellt sich",
+            "verstelle mich",
             "sich verstellen"
           ],
-          "red": [
-            "als + ko?"
+          "purple": [
+            "fingir",
+            "disimular",
+            "hacerse pasar por"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verstellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "finge"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fingir"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Cambió"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verstellt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fingiendo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich ausgeben als"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hacerse pasar por"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "so tun, als ob"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hacer como si"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -13401,7 +24243,7 @@ const B2_WORDS = [
     "de": "Verstorbene",
     "de_article": "der",
     "de_plural": "die Verstorbenen",
-    "lv": "los difuntos • el difunto",
+    "lv": "difunto • fallecido",
     "level": "B2"
   },
   {
@@ -13452,7 +24294,7 @@ const B2_WORDS = [
     "de": "Verweis",
     "de_article": "der",
     "de_plural": "die Verweise",
-    "lv": "reprimenda • reprimenda",
+    "lv": "reprimenda • amonestación",
     "level": "B2"
   },
   {
@@ -13469,7 +24311,7 @@ const B2_WORDS = [
   },
   {
     "de": "verwirren",
-    "lv": "confundir • confundir • confundir",
+    "lv": "confundir • enredar • desconcertar",
     "level": "B2"
   },
   {
@@ -13491,25 +24333,169 @@ const B2_WORDS = [
   },
   {
     "de": "sich verwundern",
-    "lv": "pensar en",
+    "lv": "asombrarse • extrañarse",
     "level": "B2",
     "study": {
       "id": "b2-sich-verwundern",
-      "layout": "minimalStudy",
-      "translation": "sorprenderse",
-      "rektion": "über + ¿qué?",
-      "explanation": "sich verwundern requiere la preposición definida über + ko?.",
-      "forms": "über + ¿qué?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "asombrarse • extrañarse",
+      "explanation": [
+        "Idea principal: sich verwundern significa asombrarse o extrañarse: sentir sorpresa ante algo inesperado o difícil de entender.",
+        "Es un verbo reflexivo con la preposición über + acusativo: sich über etwas verwundern. Formas: ich verwundere mich, er verwundert sich, verwunderte sich, hat sich verwundert. A menudo le sigue también una subordinada con dass: sich darüber verwundern, dass …",
+        "En la lengua hablada se usa más el sencillo sich wundern; sich verwundern suena más formal y literario."
+      ],
+      "examples": [
+        {
+          "de": "Ich verwundere mich über seine Antwort.",
+          "lv": "Me asombra su respuesta."
+        },
+        {
+          "de": "Sie verwunderte sich darüber, dass niemand kam.",
+          "lv": "Le extrañó que no viniera nadie."
+        },
+        {
+          "de": "Wir verwundern uns über das schlechte Wetter im Mai.",
+          "lv": "Nos asombra el mal tiempo que hace en mayo."
+        },
+        {
+          "de": "Er hat sich sehr über den Preis verwundert.",
+          "lv": "El precio le asombró mucho."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich wundern",
+          "meaning": "extrañarse, sorprenderse",
+          "example": "Ich wundere mich über ihn. – Él me sorprende."
+        },
+        {
+          "word": "staunen",
+          "meaning": "asombrarse, admirarse",
+          "example": "Die Kinder staunen über den Zauberer. – Los niños se asombran ante el mago."
+        },
+        {
+          "word": "überrascht sein",
+          "meaning": "estar sorprendido",
+          "example": "Ich bin überrascht. – Estoy sorprendido."
+        }
+      ],
+      "tip": [
+        "Apréndelo así: sich verwundern über + acusativo (no con dativo).",
+        "En el día a día di simplemente sich wundern; sich verwundern es su variante más formal."
+      ],
+      "important": [
+        "No lo confundas con verwunden (herir): es otra palabra con otro significado."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich verwundern"
+            "sich verwundern",
+            "über",
+            "verwundert",
+            "verwunderte",
+            "sich wundern",
+            "verwundere"
           ],
-          "red": [
-            "sich"
+          "purple": [
+            "asombrarse",
+            "sorpresa"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verwundere"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "asombra"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwunderte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "extrañó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwundern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "asombra"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verwundert"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "asombró"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich wundern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "extrañarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "staunen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "admirarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "überrascht sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sorprendido"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -13549,7 +24535,7 @@ const B2_WORDS = [
   },
   {
     "de": "verzweifelt",
-    "lv": "desesperado • desesperado • lleno de desesperación",
+    "lv": "desesperado",
     "level": "B2"
   },
   {
@@ -13625,7 +24611,7 @@ const B2_WORDS = [
     "de": "Volumen",
     "de_article": "das",
     "de_plural": "die Volumen",
-    "lv": "volumen • volumen",
+    "lv": "volumen",
     "level": "B2"
   },
   {
@@ -13659,7 +24645,7 @@ const B2_WORDS = [
   },
   {
     "de": "vorbestraft",
-    "lv": "con una condena previa",
+    "lv": "con antecedentes penales",
     "level": "B2"
   },
   {
@@ -13707,7 +24693,7 @@ const B2_WORDS = [
     "de": "Vorkehrung",
     "de_article": "die",
     "de_plural": "die Vorkehrungen",
-    "lv": "medidas de protección",
+    "lv": "medida preventiva • precaución",
     "level": "B2"
   },
   {
@@ -13719,7 +24705,7 @@ const B2_WORDS = [
   },
   {
     "de": "vornehmen",
-    "lv": "hacer • realizar • emprender • comprometerse con algo",
+    "lv": "realizar • efectuar • proponerse",
     "level": "B2"
   },
   {
@@ -13750,7 +24736,7 @@ const B2_WORDS = [
     "de": "Vorsprung",
     "de_article": "der",
     "de_plural": "die Vorsprünge",
-    "lv": "preeminencia • supremacía • superioridad",
+    "lv": "ventaja • saliente",
     "level": "B2"
   },
   {
@@ -13764,7 +24750,7 @@ const B2_WORDS = [
     "de": "Vorstrafe",
     "de_article": "die",
     "de_plural": "die Vorstrafen",
-    "lv": "antecedentes penales anteriores",
+    "lv": "antecedentes penales",
     "level": "B2"
   },
   {
@@ -13788,7 +24774,7 @@ const B2_WORDS = [
     "de": "Vorwahl",
     "de_article": "die",
     "de_plural": "die Vorwahlen",
-    "lv": "el código de otra ciudad o país en una conversación telefónica",
+    "lv": "prefijo telefónico",
     "level": "B2"
   },
   {
@@ -13854,7 +24840,7 @@ const B2_WORDS = [
     "de": "Wahlfach",
     "de_article": "das",
     "de_plural": "die Wahlfächer",
-    "lv": "asignatura optativa en la escuela o la universidad",
+    "lv": "asignatura optativa",
     "level": "B2"
   },
   {
@@ -13923,7 +24909,7 @@ const B2_WORDS = [
     "de": "Warnanlage",
     "de_article": "die",
     "de_plural": "die Warnanlagen",
-    "lv": "dispositivo de señalización",
+    "lv": "sistema de alarma",
     "level": "B2"
   },
   {
@@ -13951,7 +24937,7 @@ const B2_WORDS = [
     "de": "Wasserwerfer",
     "de_article": "der",
     "de_plural": "die Wasserwerfer",
-    "lv": "coche de policía - cañón de agua",
+    "lv": "cañón de agua • tanqueta antidisturbios",
     "level": "B2"
   },
   {
@@ -13984,7 +24970,7 @@ const B2_WORDS = [
     "de": "Wehe",
     "de_article": "die",
     "de_plural": "die Wehen",
-    "lv": "contracción del parto",
+    "lv": "ventisquero • montón de nieve",
     "level": "B2"
   },
   {
@@ -14017,7 +25003,7 @@ const B2_WORDS = [
     "de": "Weise",
     "de_article": "der",
     "de_plural": "die Weisen",
-    "lv": "el hombre sabio",
+    "lv": "sabio",
     "level": "B2"
   },
   {
@@ -14036,14 +25022,14 @@ const B2_WORDS = [
     "de": "Weltlage",
     "de_article": "die",
     "de_plural": "die Weltlagen",
-    "lv": "la situación internacional",
+    "lv": "situación mundial • situación internacional",
     "level": "B2"
   },
   {
     "de": "Weltmacht",
     "de_article": "die",
     "de_plural": "die Weltmächte",
-    "lv": "una gran potencia",
+    "lv": "potencia mundial",
     "level": "B2"
   },
   {
@@ -14091,7 +25077,7 @@ const B2_WORDS = [
     "de": "Werktätige",
     "de_article": "der",
     "de_plural": "die Werktätigen",
-    "lv": "persona trabajadora",
+    "lv": "trabajador",
     "level": "B2"
   },
   {
@@ -14113,7 +25099,172 @@ const B2_WORDS = [
     "de_article": "das",
     "de_plural": "die Wesen",
     "lv": "ser",
-    "level": "B2"
+    "level": "B2",
+    "study": {
+      "id": "b2-wesen",
+      "layout": "standardStudy",
+      "translation": "ser",
+      "explanation": [
+        "Idea principal: das Wesen es una palabra con varios significados. En primer lugar, un ser vivo o una criatura (ein fremdes Wesen); en segundo lugar, la esencia de algo (das Wesen der Sache); en tercer lugar, el carácter o la manera de ser de una persona (ein freundliches Wesen).",
+        "Es un sustantivo neutro: das Wesen. El plural es die Wesen (sin diéresis). En el sentido de esencia normalmente no tiene plural.",
+        "Expresión frecuente: im Wesentlichen, principalmente, en lo esencial."
+      ],
+      "examples": [
+        {
+          "de": "Im Märchen kommt ein fremdes Wesen vor.",
+          "lv": "En el cuento aparece un ser extraño."
+        },
+        {
+          "de": "Der Mensch ist ein soziales Wesen.",
+          "lv": "El ser humano es un ser social."
+        },
+        {
+          "de": "Das Wesen der Demokratie ist die Teilnahme aller.",
+          "lv": "La esencia de la democracia es la participación de todos."
+        },
+        {
+          "de": "Sie hat ein freundliches Wesen.",
+          "lv": "Tiene un carácter amable."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Charakter",
+          "meaning": "carácter",
+          "example": "Er hat einen starken Charakter. – Tiene un carácter fuerte."
+        },
+        {
+          "word": "das Lebewesen",
+          "meaning": "ser vivo",
+          "example": "Pflanzen sind Lebewesen. – Las plantas son seres vivos."
+        },
+        {
+          "word": "der Kern",
+          "meaning": "núcleo, esencia",
+          "example": "Das ist der Kern des Problems. – Ese es el núcleo del problema."
+        }
+      ],
+      "tip": [
+        "Recuerda los tres significados: ser (lo que vive), esencia (lo que está en la base de algo) y carácter (cómo es una persona).",
+        "El contexto decide el significado: con adjetivos como freundlich o ruhig suele tratarse del carácter."
+      ],
+      "important": [
+        "No lo confundas con das Wesentliche (lo esencial, lo principal): es otro sustantivo."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Wesen",
+            "die Wesen",
+            "Wesen",
+            "im Wesentlichen",
+            "das Wesen der Sache",
+            "ein fremdes Wesen"
+          ],
+          "purple": [
+            "ser vivo",
+            "criatura",
+            "esencia",
+            "carácter"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ser social"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "esencia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "carácter"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Charakter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "carácter"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Lebewesen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ser vivo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Kern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "núcleo"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Wettlauf",
@@ -14170,25 +25321,166 @@ const B2_WORDS = [
   },
   {
     "de": "sich widersetzen",
-    "lv": "resistir • cara",
+    "lv": "oponerse • resistirse",
     "level": "B2",
     "study": {
       "id": "b2-sich-widersetzen",
-      "layout": "minimalStudy",
-      "translation": "resistir • oponerse a",
-      "rektion": "+ kam?",
-      "explanation": "sich widersetzen prasa + kam?.",
-      "forms": "+ kam?",
-      "formsLabel": "Gestión:",
+      "layout": "standardStudy",
+      "translation": "oponerse • resistirse",
+      "explanation": [
+        "Idea principal: sich widersetzen significa oponerse o resistirse a alguien o a algo: no someterse a una orden, a una presión, a una decisión o a una persona.",
+        "Es un verbo reflexivo que rige dativo: sich jemandem/etwas widersetzen. Formas: widersetzt sich, widersetzte sich, hat sich widersetzt. El prefijo wider- no es separable."
+      ],
+      "examples": [
+        {
+          "de": "Er widersetzte sich dem Befehl.",
+          "lv": "Se opuso a la orden."
+        },
+        {
+          "de": "Die Bürger widersetzen sich der Entscheidung der Regierung.",
+          "lv": "Los ciudadanos se oponen a la decisión del Gobierno."
+        },
+        {
+          "de": "Sie hat sich dem Druck nicht widersetzt.",
+          "lv": "No se resistió a la presión."
+        },
+        {
+          "de": "Niemand wagte es, sich dem Chef zu widersetzen.",
+          "lv": "Nadie se atrevía a oponerse al jefe."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Widerstand leisten",
+          "meaning": "oponer resistencia",
+          "example": "Das Volk leistete Widerstand. – El pueblo opuso resistencia."
+        },
+        {
+          "word": "sich wehren gegen",
+          "meaning": "defenderse de",
+          "example": "Er wehrt sich gegen die Vorwürfe. – Se defiende de las acusaciones."
+        },
+        {
+          "word": "ablehnen",
+          "meaning": "rechazar",
+          "example": "Sie lehnt das Angebot ab. – Rechaza la oferta."
+        }
+      ],
+      "tip": [
+        "Después de sich widersetzen siempre va dativo: dem Befehl, dem Druck, dem Chef.",
+        "Es propio del estilo formal o escrito; en la lengua hablada se dice más sich wehren."
+      ],
+      "important": [
+        "No lleva preposición: no se dice sich gegen etwas widersetzen, sino sich etwas widersetzen (dativo), aunque en español sí decimos oponerse a algo."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich widersetzen"
+            "sich widersetzen",
+            "widersetzt",
+            "widersetzte",
+            "dativo"
           ],
-          "red": [
-            "+ kam?"
+          "purple": [
+            "oponerse",
+            "resistirse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "widersetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "opuso"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oponen"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "resistió"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "widersetzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "oponerse"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Widerstand leisten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "resistencia"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich wehren gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "defenderse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ablehnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "rechazar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
@@ -14196,7 +25488,7 @@ const B2_WORDS = [
     "de": "Widmung",
     "de_article": "die",
     "de_plural": "die Widmungen",
-    "lv": "dedicación",
+    "lv": "dedicatoria",
     "level": "B2"
   },
   {
@@ -14212,7 +25504,7 @@ const B2_WORDS = [
   },
   {
     "de": "wildern",
-    "lv": "participar en la caza furtiva",
+    "lv": "cazar furtivamente",
     "level": "B2"
   },
   {
@@ -14225,7 +25517,7 @@ const B2_WORDS = [
     "de": "Windbeutel",
     "de_article": "der",
     "de_plural": "die Windbeutel",
-    "lv": "buñuelo de viento",
+    "lv": "lionesa • profiterol",
     "level": "B2"
   },
   {
@@ -14235,14 +25527,14 @@ const B2_WORDS = [
   },
   {
     "de": "zielbewusst",
-    "lv": "orientado a objetivos",
+    "lv": "resuelto • decidido",
     "level": "B2"
   },
   {
     "de": "Zivildienst",
     "de_article": "der",
     "de_plural": "die Zivildienste",
-    "lv": "servicio civil en lugar de servicio militar",
+    "lv": "prestación social sustitutoria",
     "level": "B2"
   },
   {
@@ -14294,7 +25586,7 @@ const B2_WORDS = [
   },
   {
     "de": "zürnen",
-    "lv": "enojarse",
+    "lv": "estar enfadado • enfadarse",
     "level": "B2"
   },
   {
@@ -14341,7 +25633,7 @@ const B2_WORDS = [
   },
   {
     "de": "zutrauen",
-    "lv": "confiar en que alguien es capaz",
+    "lv": "creer capaz de",
     "level": "B2"
   },
   {
@@ -14360,67 +25652,75 @@ const B2_WORDS = [
   },
   {
     "de": "zuweisen",
-    "lv": "asignar • asignar",
+    "lv": "asignar • destinar",
     "level": "B2",
     "study": {
       "id": "b2-zuweisen",
       "layout": "standardStudy",
-      "translation": "asignar",
-      "explanation": "Idea principal: zuweisen significa asignar o asignar oficialmente una tarea, rol, recurso o dinero a una persona o departamento específico. Divisible: weise... zu.",
+      "translation": "asignar • destinar",
+      "explanation": [
+        "Idea principal: zuweisen significa asignar o adjudicar oficialmente algo a alguien (un sitio, una tarea, una vivienda, fondos) o destinar a una persona a un lugar.",
+        "Verbo con prefijo separable: er weist zu, wies zu, hat zugewiesen. Normalmente lleva dativo (¿a quién?) y acusativo (¿qué?): jemandem etwas zuweisen. También es frecuente en pasiva: Mir wurde ein Platz zugewiesen.",
+        "Es una palabra formal, propia del lenguaje de la administración, los centros educativos y las empresas."
+      ],
       "examples": [
         {
-          "de": "Der Chef weist ihm eine neue Aufgabe zu.",
-          "lv": "el jefe le asigna una nueva tarea."
+          "de": "Die Schule weist den Kindern Klassenräume zu.",
+          "lv": "El colegio asigna aulas a los niños."
         },
         {
-          "de": "Die Mittel wurden dem Projekt zugewiesen.",
-          "lv": "Se asignaron fondos al proyecto."
+          "de": "Der Chef wies mir eine neue Aufgabe zu.",
+          "lv": "El jefe me encomendó una nueva tarea."
         },
         {
-          "de": "Sie wurde einer anderen Abteilung zugewiesen.",
-          "lv": "fue asignado a otro departamento."
+          "de": "Dem Studenten wurde ein Platz im Wohnheim zugewiesen.",
+          "lv": "Al estudiante se le asignó una plaza en la residencia."
+        },
+        {
+          "de": "Die Stadt hat der Familie eine Wohnung zugewiesen.",
+          "lv": "El ayuntamiento le adjudicó una vivienda a la familia."
         }
       ],
       "comparison": [
         {
-          "word": "zuweisen",
-          "meaning": "asignar • asignar",
-          "example": "Er weist die Aufgabe zu. = Asigna la tarea."
+          "word": "zuteilen",
+          "meaning": "repartir, adjudicar",
+          "example": "Man teilt uns die Arbeit zu. – Nos reparten el trabajo."
+        },
+        {
+          "word": "zuordnen",
+          "meaning": "asociar, relacionar",
+          "example": "Ordne die Wörter den Bildern zu. – Relaciona las palabras con las imágenes."
         },
         {
           "word": "geben",
           "meaning": "dar",
-          "example": "Er gibt mir die Arbeit. = Me da el trabajo."
-        },
-        {
-          "word": "verteilen",
-          "meaning": "dividir",
-          "example": "Er verteilt die Aufgaben. = Reparte las tareas."
+          "example": "Ich gebe dir das Buch. – Te doy el libro."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "zuweisen enfatiza la asignación formal: en el trabajo, la administración, los proyectos."
-          }
-        ]
-      },
-      "important": {
-        "text": "zuweisen = asignar o asignar oficialmente. Perfecto: asignado. Divisible: weise... zu."
-      },
+      "tip": [
+        "Recuerda la separación: Er weist mir etwas zu, pero en subordinada …, weil er mir etwas zuweist.",
+        "El dativo es el destinatario: wem? → dem Studenten, der Familie."
+      ],
+      "important": [
+        "El participio es zugewiesen: el ge- se coloca entre zu y wiesen."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "zuweisen",
+            "weist zu"
+          ],
           "purple": [
             "asignar",
-            "asignar"
+            "destinar"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "weist",
-                "zu"
+                "weist"
               ]
             },
             "lv": {
@@ -14432,12 +25732,12 @@ const B2_WORDS = [
           {
             "de": {
               "blue": [
-                "zugewiesen"
+                "wies"
               ]
             },
             "lv": {
               "purple": [
-                "asignaron"
+                "encomendó"
               ]
             }
           },
@@ -14449,10 +25749,67 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "asignado"
+                "asignó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zugewiesen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "adjudicó"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zuteilen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "repartir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zuordnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "relacionar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "geben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -14466,64 +25823,76 @@ const B2_WORDS = [
   },
   {
     "de": "zuwider",
-    "lv": "en contra • contrario a • disgusto",
+    "lv": "contrario a • repugnante",
     "level": "B2",
     "study": {
       "id": "b2-zuwider",
       "layout": "standardStudy",
-      "translation": "contrario a • desagradable • no gustarle a alguien",
-      "explanation": "Idea principal: zuwider es una palabra con múltiples funciones. Como preposición + dativo, significa \"contra, en contra\": mir zuwider. Como parte de la expresión jemandem zuwider sein/laufen significa \"no gustarle a alguien, volverse desagradable\". No confundir con más ancho (en contra).",
+      "translation": "contrario a • repugnante",
+      "explanation": [
+        "Idea principal: zuwider se usa con dativo de dos maneras. Con el verbo sein (etwas ist mir zuwider) significa que algo me repugna, me resulta odioso o me desagrada. Detrás de un sustantivo (dem Gesetz zuwider) significa contrario a algo.",
+        "En el primer sentido zuwider es un adjetivo y no se declina: Das ist mir zuwider. En el segundo suele ir detrás de un sustantivo en dativo: dem Gesetz zuwider handeln. Ahí se usan a menudo los verbos con prefijo separable zuwiderhandeln (actuar en contra de) y zuwiderlaufen (ser contrario a): Das läuft dem Plan zuwider.",
+        "Es una palabra formal, algo literaria."
+      ],
       "examples": [
         {
-          "de": "Er handelte mir zuwider.",
-          "lv": "actuó en contra de mi voluntad."
+          "de": "Dieser Geruch ist mir zuwider.",
+          "lv": "Este olor me repugna."
         },
         {
-          "de": "Sein Benehmen ist mir zuwider.",
-          "lv": "No me gusta su comportamiento."
+          "de": "Lügen ist ihm zuwider.",
+          "lv": "Mentir le resulta odioso."
         },
         {
-          "de": "Das läuft mir zuwider.",
-          "lv": "Me resulta desagradable."
+          "de": "Das läuft dem Gesetz zuwider.",
+          "lv": "Eso es contrario a la ley."
+        },
+        {
+          "de": "Er handelte den Regeln zuwider.",
+          "lv": "Actuó en contra de las normas."
         }
       ],
       "comparison": [
         {
-          "word": "zuwider (+ Dat.)",
-          "meaning": "en contra • contrario",
-          "example": "mir zuwider = pret manu gribu"
+          "word": "entgegen",
+          "meaning": "en contra de, contrariamente a",
+          "example": "Entgegen der Vorhersage regnete es nicht. – Contrariamente a lo previsto, no llovió."
         },
         {
-          "word": "jemandem zuwider sein",
-          "meaning": "a alguien no le gustará",
-          "example": "Es ist mir zuwider. = Me resulta desagradable."
+          "word": "widerlich",
+          "meaning": "asqueroso, repugnante",
+          "example": "Der Geruch ist widerlich. – El olor es asqueroso."
         },
         {
-          "word": "wider",
-          "meaning": "contra (preposición)",
-          "example": "wider den Willen = pret gribu"
-        },
-        {
-          "word": "widersprechen",
-          "meaning": "disgustar • no estar de acuerdo",
-          "example": "Ich widerspreche. = Es iebilstu."
+          "word": "gegen",
+          "meaning": "contra",
+          "example": "Das ist gegen die Regeln. – Eso va contra las normas."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Significado básico: contra / opuesto (mir zuwider). Idiomáticamente: jemandem zuwider sein/laufen = no gustarle a alguien."
-          }
-        ]
-      },
-      "important": {
-        "text": "zuwider + dativo = contrario a, desagradable para alguien. zuwider sein = no gustarle a alguien. No es lo mismo que más ancho."
-      },
+      "tip": [
+        "Memoriza una frase: Das ist mir zuwider. Me repugna / no lo soporto.",
+        "Después de zuwider siempre va dativo: mir, ihm, dem Gesetz."
+      ],
+      "important": [
+        "Con zuwider no se usa acusativo: no mich zuwider, sino mir zuwider.",
+        "En el sentido de contrario a, zuwider suele ir detrás del sustantivo (dem Gesetz zuwider); entgegen suele ir delante (entgegen dem Gesetz)."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "zuwider",
+            "zuwiderhandeln",
+            "zuwiderlaufen",
+            "läuft",
+            "mir zuwider",
+            "dem Gesetz zuwider",
+            "Das ist mir zuwider"
+          ],
           "purple": [
-            "Idea",
-            "Idea"
+            "repugna",
+            "odioso",
+            "desagrada",
+            "contrario a"
           ]
         },
         "examples": [
@@ -14535,7 +25904,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "actuó"
+                "repugna"
               ]
             }
           },
@@ -14547,7 +25916,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "no me gusta"
+                "odioso"
               ]
             }
           },
@@ -14559,17 +25928,75 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "no me gusta"
+                "contrario"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zuwider"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "en contra de"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "entgegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "en contra de"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "widerlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "repugnante"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "contra"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "zwanglos",
-    "lv": "libre • no forzado",
+    "lv": "informal • espontáneo",
     "level": "B2"
   },
   {
@@ -14606,106 +26033,174 @@ const B2_WORDS = [
     "de": "Zwischenraum",
     "de_article": "der",
     "de_plural": "die Zwischenräume",
-    "lv": "espacio • interespacio",
+    "lv": "espacio intermedio • hueco",
     "level": "B2"
   },
   {
     "de": "wechseln",
-    "lv": "intercambiar • reemplazar",
+    "lv": "cambiar • sustituir",
     "level": "B2",
     "study": {
       "id": "b2-wechseln",
       "layout": "standardStudy",
-      "translation": "intercambiar • reemplazar",
+      "translation": "cambiar • sustituir",
       "explanation": [
-        "Idea principal: intercambiar o intercambiar algo por otra cosa: dinero, ropa, trabajo, escuela, materia.",
-        "wechseln básicamente significa: reemplazar por otro.",
-        "A menudo se caracteriza por: intercambio / intercambio.",
-        "wechseln se usa cuando cambias o cambias algo por otra cosa: dinero, ropa, trabajo, escuela o materia."
+        "Idea principal: wechseln significa cambiar una cosa por otra, sustituirla, o cambiar dinero: Geld wechseln, die Schule wechseln, den Reifen wechseln. Como intransitivo también puede significar variar (Das Wetter wechselt).",
+        "Formas: wechselt, wechselte, hat gewechselt. Como transitivo rige acusativo: etwas wechseln. Para indicar adónde se cambia se usan las preposiciones in/auf/zu: Er wechselt zu einem anderen Verein.",
+        "El sustantivo es der Wechsel (cambio). Si se transforma algo en lugar de sustituirlo, se usa más ändern o sich verändern."
       ],
       "examples": [
         {
-          "de": "Ich wechsle die Schule.",
-          "lv": "Cambio de escuela."
+          "de": "Ich muss noch Geld wechseln.",
+          "lv": "Todavía tengo que cambiar dinero."
         },
         {
-          "de": "Ich muss Geld wechseln.",
-          "lv": "Necesito cambiar dinero."
+          "de": "Sie wechselt die Schule im Sommer.",
+          "lv": "Ella se cambia de colegio en verano."
         },
         {
-          "de": "Wir wechseln das Thema.",
-          "lv": "Cambiamos de tema."
+          "de": "Können Sie mir zwanzig Euro wechseln?",
+          "lv": "¿Me puede cambiar veinte euros?"
         },
         {
-          "de": "Ich wechsle die Schule.",
-          "lv": "Cambio de escuela."
+          "de": "Das Wetter wechselt oft.",
+          "lv": "El tiempo cambia a menudo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ändern",
+          "meaning": "cambiar (modificar)",
+          "example": "Ich ändere meinen Plan. – Cambio mi plan."
+        },
+        {
+          "word": "tauschen",
+          "meaning": "intercambiar",
+          "example": "Wir tauschen die Plätze. – Nos cambiamos el sitio."
+        },
+        {
+          "word": "sich verändern",
+          "meaning": "cambiar, transformarse",
+          "example": "Die Stadt hat sich verändert. – La ciudad ha cambiado."
         }
       ],
       "tip": [
-        "Cambiar o intercambiar algo por otra cosa: dinero, ropa, trabajo, escuela, materia.",
-        "Utilice wechseln cuando el contexto se ajuste a este significado."
+        "Para cambiar dinero se dice Geld wechseln; para pedir cambio en monedas o billetes pequeños: Können Sie mir das wechseln?",
+        "Cuando sustituyes algo por algo nuevo, es wechseln: den Reifen, die Wohnung, den Beruf."
       ],
       "important": [
-        "wechseln = intercambiar o intercambiar por otro (Geld, Schule, Thema).",
-        "Dinero, escuela, trabajo, tema: wechseln.",
-        "Cambiar o intercambiar algo por otra cosa: dinero, ropa, trabajo, escuela, materia."
+        "No lo confundas con ändern: wechseln significa sustituir por otro; ändern, modificar. En español ambos se traducen a menudo por cambiar."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "wechseln",
+            "wechselt",
+            "wechselte",
+            "gewechselt",
+            "der Wechsel",
+            "Geld wechseln"
+          ],
           "purple": [
-            "intercambiar",
-            "reemplazar"
+            "cambiar una cosa por otra",
+            "cambiar dinero",
+            "variar"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "wechsle"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "wechseln",
+              "blue": [
                 "wechseln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "cambiar"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "wechseln",
+              "blue": [
+                "wechselt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cambia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "wechseln"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "cambiar"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "wechsle"
+              "blue": [
+                "wechselt"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "cambia"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ändern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "modificar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "tauschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "intercambiar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verändern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "transformarse"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "intercambiar"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "wechseln"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -14719,122 +26214,161 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "ofrecer • proporcionar",
       "explanation": [
-        "Idea principal: ofrecer oportunidades, cursos, servicios o beneficios que ofrece un lugar o programa.",
-        "bieten significa principalmente: dar oportunidad/beneficio.",
-        "A menudo describe: lo que ofrece el lugar/programa.",
-        "bieten significa principalmente: brindar una oportunidad.",
-        "A menudo se caracteriza por: más formal.",
-        "bieten a menudo describe lo que ofrece un lugar, programa o servicio (Die Schule bietet viele Kurse)."
+        "Idea principal: bieten significa ofrecer (un precio, una posibilidad, ayuda) o proporcionar, brindar (vistas, seguridad, entretenimiento). El sujeto puede ser una persona, pero también un lugar o una institución.",
+        "Es un verbo fuerte: er bietet, bot, hat geboten. Normalmente lleva acusativo, y la persona va en dativo: jemandem etwas bieten. Para pujar en una subasta o hacer una oferta al comprar: Wie viel bietest du?",
+        "Con prefijo separable, anbieten se refiere a una oferta concreta a alguien; el simple bieten describe a menudo lo que un lugar o una cosa puede dar."
       ],
       "examples": [
         {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "La escuela ofrece muchos cursos."
+          "de": "Das Hotel bietet einen schönen Blick auf das Meer.",
+          "lv": "El hotel ofrece unas bonitas vistas al mar."
         },
         {
-          "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "¿Puedo ofrecerte algo?"
+          "de": "Wie viel bietest du für das Auto?",
+          "lv": "¿Cuánto ofreces por el coche?"
         },
         {
-          "de": "Die Schule bietet viele Kurse.",
-          "lv": "La escuela ofrece muchos cursos."
+          "de": "Die Stadt bietet jungen Leuten viele Möglichkeiten.",
+          "lv": "La ciudad brinda muchas oportunidades a los jóvenes."
         },
         {
-          "de": "Die App bietet Sicherheit.",
-          "lv": "La aplicación proporciona seguridad."
+          "de": "Das Museum bietet jeden Sonntag eine Führung.",
+          "lv": "El museo ofrece una visita guiada todos los domingos."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "anbieten",
+          "meaning": "ofrecer a alguien",
+          "example": "Darf ich Ihnen Tee anbieten? – ¿Puedo ofrecerle un té?"
         },
         {
-          "de": "bieten",
-          "lv": "ofrecer algo"
+          "word": "gewähren",
+          "meaning": "conceder, otorgar",
+          "example": "Die Bank gewährt einen Kredit. – El banco concede un crédito."
+        },
+        {
+          "word": "geben",
+          "meaning": "dar",
+          "example": "Ich gebe dir mein Wort. – Te doy mi palabra."
         }
       ],
       "tip": [
-        "Ofrecer oportunidades, cursos, servicios o beneficios que ofrece la ubicación o el programa.",
-        "Utilice remolacha cuando el contexto se ajuste a este significado."
+        "Si describes lo que ofrece un lugar o un servicio, usa bieten: Das Hotel bietet WLAN.",
+        "Si ofreces algo concreto a una persona, es más frecuente anbieten."
       ],
       "important": [
-        "bieten: Die Schule bietet Kurse. (indivisible)",
-        "Ko vieta/programma sniedz: bieten."
+        "El pretérito es bot (no bietete): er bot, hat geboten."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "bieten",
+            "bietet",
+            "bietest",
+            "bot",
+            "geboten",
+            "anbieten"
+          ],
           "purple": [
-            "ofrecer"
+            "ofrecer",
+            "proporcionar"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "biete"
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "escuela"
+                "ofrece"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bieten",
-                "bieten"
+                "bietest"
               ]
             },
             "lv": {
+              "purple": [
+                "ofreces"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bietet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "brinda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bietet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ofrece"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "anbieten"
+              ]
+            },
+            "meaning": {
               "purple": [
                 "ofrecer"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "biete"
+            "word": {
+              "green": [
+                "gewähren"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "escuela"
+                "conceder"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "biete"
+            "word": {
+              "green": [
+                "geben"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "bieten",
-                "bieten"
-              ]
-            },
-            "lv": {
+            "meaning": {
               "purple": [
-                "sniedz"
+                "dar"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "ofrecer"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "bieten"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -14847,229 +26381,331 @@ const B2_WORDS = [
       "id": "b2-anbieten",
       "layout": "standardStudy",
       "translation": "ofrecer",
-      "explanation": "Idea principal: anbieten significa ofrecer activamente a alguien un favor, una bebida, un trabajo o un servicio. Verbo divisible: ich biete an, er bietet an. Destaca la iniciativa por parte del oferente.",
+      "explanation": [
+        "Idea principal: anbieten significa ofrecer algo a alguien: una bebida, ayuda, un trabajo, un producto o un servicio. La otra persona decide si acepta el ofrecimiento.",
+        "Verbo con prefijo separable: er bietet an, bot an, hat angeboten. Construcción: jemandem etwas anbieten. Con infinitivo: Er bot an, mich zu fahren. En forma reflexiva, sich anbieten significa ofrecerse o resultar adecuado: Das bietet sich an.",
+        "El sustantivo es das Angebot (oferta)."
+      ],
       "examples": [
         {
-          "de": "Ich biete dir meine Hilfe an.",
-          "lv": "Te ofrezco mi ayuda."
+          "de": "Darf ich Ihnen einen Kaffee anbieten?",
+          "lv": "¿Puedo ofrecerle un café?"
         },
         {
-          "de": "Darf ich Ihnen etwas anbieten?",
-          "lv": "¿Puedo ofrecerte algo?"
+          "de": "Die Firma bietet neue Produkte an.",
+          "lv": "La empresa ofrece nuevos productos."
         },
         {
-          "de": "Das Unternehmen bietet neue Stellen an.",
-          "lv": "La empresa ofrece nuevos puestos de trabajo."
+          "de": "Er bot mir an, mich nach Hause zu fahren.",
+          "lv": "Se ofreció a llevarme a casa."
+        },
+        {
+          "de": "Sie hat uns ihre Hilfe angeboten.",
+          "lv": "Nos ofreció su ayuda."
         }
       ],
       "comparison": [
         {
-          "word": "anbieten",
-          "meaning": "oferta (activa)",
-          "example": "Ich biete Hilfe an. = Ofrezco ayuda."
-        },
-        {
           "word": "bieten",
-          "meaning": "ofrecer • dar",
-          "example": "Er bietet viel Geld. = Ofrece mucho dinero."
+          "meaning": "ofrecer, proporcionar",
+          "example": "Das Hotel bietet viel. – El hotel ofrece mucho."
         },
         {
           "word": "vorschlagen",
           "meaning": "proponer",
-          "example": "Ich schlage vor. = Es ierosinu."
+          "example": "Ich schlage vor, dass wir gehen. – Propongo que nos vayamos."
+        },
+        {
+          "word": "empfehlen",
+          "meaning": "recomendar",
+          "example": "Ich empfehle dir das Buch. – Te recomiendo el libro."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "anbieten enfatiza que alguien está ofreciendo activamente algo a una persona específica: Ich biete dir... an."
-          }
-        ]
-      },
-      "important": {
-        "text": "anbieten = ofrecer activamente. Divisible: remolacha ... an. Perfecto: angeboten."
-      },
+      "tip": [
+        "Recuerda la separación: Er bietet mir Hilfe an, pero en subordinada …, weil er mir Hilfe anbietet.",
+        "Para responder a un ofrecimiento puedes decir: Danke, gern. o Nein, danke."
+      ],
+      "important": [
+        "Anbieten es un ofrecimiento a alguien concreto; Angebot también puede ser la oferta de productos de una tienda."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "anbieten",
+            "bietet an",
+            "bot an",
+            "angeboten",
+            "bietet",
+            "bot",
+            "Angebot"
+          ],
           "purple": [
-            "ofrecer"
+            "ofrecer",
+            "oferta"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "biete",
-                "an"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ofrezco"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "anbieten"
               ]
             },
             "lv": {
               "purple": [
-                "ofrecer"
+                "ofrecerle"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "bietet",
-                "an"
+              "blue": [
+                "bietet"
               ]
             },
             "lv": {
               "purple": [
-                "empresa"
+                "ofrece"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bot"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ofreció"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "angeboten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ofreció"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bieten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "proporcionar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vorschlagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "proponer"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "empfehlen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "recomendar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
   },
   {
     "de": "fordern",
-    "lv": "requerir • requerir",
+    "lv": "exigir • reclamar",
     "level": "B2",
     "study": {
       "id": "b2-fordern",
       "layout": "standardStudy",
       "translation": "exigir • reclamar",
       "explanation": [
-        "Idea principal: Pedir dinero, derechos, cambios u obligaciones: una demanda activa.",
-        "fordern significa principalmente: requerir / exigir.",
-        "A menudo se caracteriza por: demanda activa.",
-        "Fordern significa principalmente: exigir un estándar.",
-        "A menudo se caracteriza por: formal.",
-        "fordern se utiliza cuando alguien pide dinero, derechos, cambios o una obligación (Sie fordern mehr Geld)."
+        "Idea principal: fordern significa exigir o reclamar con firmeza algo a lo que uno tiene derecho o que considera justo. Normalmente es más fuerte que bitten (pedir).",
+        "Verbo regular: er fordert, forderte, hat gefordert. Lo que se exige va en acusativo; a quién, con von + dativo: etwas von jemandem fordern. También puede ir seguido de una subordinada con dass. En sentido figurado, fordern puede significar cobrarse víctimas: Der Unfall forderte zwei Todesopfer.",
+        "Cuidado con una palabra muy parecida: fordern (exigir) y fördern (promover) se distinguen solo por la diéresis."
       ],
       "examples": [
         {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "Ella exige más dinero."
+          "de": "Die Arbeiter fordern höhere Löhne.",
+          "lv": "Los trabajadores exigen salarios más altos."
         },
         {
-          "de": "Wir fordern mehr Transparenz.",
-          "lv": "Exigimos más transparencia."
+          "de": "Der Lehrer fordert von uns mehr Disziplin.",
+          "lv": "El profesor nos exige más disciplina."
         },
         {
-          "de": "Sie fordert mehr Geld.",
-          "lv": "Ella exige más dinero."
+          "de": "Der Unfall forderte zwei Todesopfer.",
+          "lv": "El accidente se cobró dos víctimas mortales."
         },
         {
-          "de": "Wir fordern mehr Sicherheit.",
-          "lv": "Exigimos más seguridad."
+          "de": "Sie forderte, dass er sich entschuldigt.",
+          "lv": "Exigió que él se disculpara."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fördern",
+          "meaning": "promover, fomentar",
+          "example": "Sport fördert die Gesundheit. – El deporte favorece la salud."
         },
         {
-          "de": "fordern",
-          "lv": "exigir"
+          "word": "verlangen",
+          "meaning": "pedir, exigir",
+          "example": "Er verlangt die Rechnung. – Pide la cuenta."
+        },
+        {
+          "word": "bitten",
+          "meaning": "pedir (por favor)",
+          "example": "Ich bitte dich um Hilfe. – Te pido ayuda."
         }
       ],
       "tip": [
-        "Exigir dinero, derechos, cambios u obligaciones: un reclamo activo.",
-        "Usado por los modernos cuando el contexto se ajusta a este significado."
+        "Para exigir algo a alguien: etwas von jemandem fordern (von + dativo).",
+        "Distingue el par fordern / fördern: la o sin diéresis es exigir; la ö es promover."
       ],
       "important": [
-        "fordern = demanda/requiere (sin ö).",
-        "Demanda, petición: fordern (sin ö).",
-        "Exigir dinero, derechos, cambios u obligaciones: un reclamo activo."
+        "A la persona a la que se exige algo se la introduce normalmente con von: etwas von jemandem fordern."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "fordern",
+            "fordert",
+            "forderte",
+            "gefordert",
+            "fördern",
+            "von"
+          ],
           "purple": [
-            "pedir"
+            "exigir",
+            "reclamar"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "forde"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Ella"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fordern",
                 "fordern"
               ]
             },
             "lv": {
               "purple": [
-                "exigimos"
+                "exigen"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "forde"
+                "fordert"
               ]
             },
             "lv": {
               "purple": [
-                "ella"
+                "exige"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forderte"
               ]
             },
             "lv": {
               "purple": [
-                "exigimos"
+                "se cobró"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fordern",
-                "fordern"
+                "forderte"
               ]
             },
             "lv": {
+              "purple": [
+                "Exigió"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fördern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "promover"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlangen"
+              ]
+            },
+            "meaning": {
               "purple": [
                 "exigir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bitten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pedir"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Exigir",
-              "Exigir"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "fordern"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -15083,146 +26719,498 @@ const B2_WORDS = [
       "layout": "standardStudy",
       "translation": "promover • apoyar",
       "explanation": [
-        "Idea principal: Promover el desarrollo, apoyar a una persona, proyecto o proceso.",
-        "fördern significa principalmente: promover el desarrollo.",
-        "A menudo se caracteriza por: apoyo/progreso.",
-        "fördern significa principalmente: extraer minerales.",
-        "A menudo se caracteriza por: en la industria.",
-        "fördern significa principalmente: desarrollar talento.",
-        "A menudo se caracteriza por: en educación.",
-        "fördern significa promover el desarrollo, apoyar a una persona o un proyecto (Sport fördern die Gesundheit)."
+        "Idea principal: fördern significa promover, apoyar, ayudar a que algo se desarrolle: un talento, la salud, la economía, un proyecto. A menudo se trata también de apoyo económico.",
+        "Verbo regular: er fördert, förderte, hat gefördert. Siempre con acusativo: etwas/jemanden fördern. El sustantivo es die Förderung (fomento, apoyo).",
+        "Cuidado: fördern (con ö) es una palabra distinta de fordern (exigir)."
       ],
       "examples": [
         {
-          "de": "Sport fördert die Gesundheit.",
-          "lv": "El deporte promueve la salud."
+          "de": "Der Staat fördert erneuerbare Energien.",
+          "lv": "El Estado apoya las energías renovables."
         },
         {
           "de": "Sport fördert die Gesundheit.",
-          "lv": "La inversión promueve el desarrollo económico."
+          "lv": "El deporte favorece la salud."
         },
         {
-          "de": "In der Region wird Öl gefördert.",
-          "lv": "En la región se extrae petróleo."
+          "de": "Die Stiftung fördert junge Künstler.",
+          "lv": "La fundación apoya a jóvenes artistas."
         },
         {
-          "de": "Die Schule fördert begabte Kinder.",
-          "lv": "la escuela apoya a niños superdotados."
+          "de": "Gute Lehrer fördern die Talente der Kinder.",
+          "lv": "Los buenos profesores fomentan el talento de los niños."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fordern",
+          "meaning": "exigir",
+          "example": "Die Arbeiter fordern mehr Geld. – Los trabajadores exigen más dinero."
+        },
+        {
+          "word": "unterstützen",
+          "meaning": "apoyar",
+          "example": "Ich unterstütze dich. – Te apoyo."
+        },
+        {
+          "word": "helfen",
+          "meaning": "ayudar",
+          "example": "Er hilft mir. – Me ayuda."
         }
       ],
       "tip": [
-        "Promover el desarrollo, apoyar a una persona, proyecto o proceso.",
-        "Utilice förden cuando el contexto se ajuste a este significado."
+        "Si algo ayuda a desarrollarse, usa fördern: das Wachstum, die Gesundheit, die Kinder.",
+        "Sustantivo die Förderung: staatliche Förderung, ayuda estatal."
       ],
       "important": [
-        "förden = promover / apoyar (con ö).",
-        "Promoción, apoyo: förden (con ö).",
-        "Promover el desarrollo, apoyar a una persona, proyecto o proceso."
+        "Fördern rige acusativo, no dativo (a diferencia de helfen): Er fördert mich."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "fördern",
+            "fördert",
+            "förderte",
+            "gefördert",
+            "Förderung",
+            "fordern"
+          ],
           "purple": [
             "promover",
-            "apoyar"
+            "apoyar",
+            "apoyo"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "deporte"
+                "apoya"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "deporte"
+                "favorece"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "gefördert"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "förde"
+              "blue": [
+                "fördert"
               ]
             },
             "lv": {
               "purple": [
-                "escuela"
+                "apoya"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fördern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fomentan"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "exigir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unterstützen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apoyar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "helfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ayudar"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "promover",
-              "apoyar"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "förden"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "sich verlaufen",
-    "lv": "Piérdase",
+    "lv": "perderse",
     "level": "B2",
     "study": {
       "id": "b2-sich-verlaufen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "perderse",
-      "explanation": "sich verlaufen significa perderse. No tiene preposición fija. No confundir con verlaufen.",
+      "explanation": [
+        "Idea principal: sich verlaufen significa perderse yendo a pie: salirse del camino correcto y no saber dónde se está.",
+        "Verbo reflexivo: ich verlaufe mich, er verläuft sich, verlief sich, hat sich verlaufen. El perfecto se forma con haben. Suele usarse con un lugar: im Wald, in der Stadt, in den Bergen.",
+        "Si uno se pierde con un vehículo, se dice sich verfahren; sich verirren es más general y puede significar extraviarse."
+      ],
+      "examples": [
+        {
+          "de": "Wir haben uns im Wald verlaufen.",
+          "lv": "Nos perdimos en el bosque."
+        },
+        {
+          "de": "Ich verlaufe mich in dieser Stadt ständig.",
+          "lv": "En esta ciudad me pierdo continuamente."
+        },
+        {
+          "de": "Der Tourist hat sich in der Altstadt verlaufen.",
+          "lv": "El turista se perdió en el casco antiguo."
+        },
+        {
+          "de": "Pass auf, dass du dich nicht verläufst!",
+          "lv": "¡Ten cuidado de no perderte!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich verfahren",
+          "meaning": "perderse conduciendo",
+          "example": "Wir haben uns verfahren. – Nos hemos perdido con el coche."
+        },
+        {
+          "word": "sich verirren",
+          "meaning": "extraviarse",
+          "example": "Das Kind hat sich verirrt. – El niño se ha extraviado."
+        },
+        {
+          "word": "verlaufen",
+          "meaning": "transcurrir",
+          "example": "Die Prüfung verlief gut. – El examen salió bien."
+        }
+      ],
+      "tip": [
+        "Si te has perdido a pie: sich verlaufen; si ibas en coche: sich verfahren.",
+        "Cuando te hayas perdido, puedes decir: Ich habe mich verlaufen. Können Sie mir helfen?"
+      ],
+      "important": [
+        "No lo confundas con verlaufen sin sich: Die Grenze verläuft entlang des Flusses tiene un significado totalmente distinto (la frontera discurre a lo largo del río)."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sich verlaufen",
+            "verlaufe",
+            "verläuft",
+            "verlief",
+            "verlaufen",
+            "verfahren"
+          ],
           "purple": [
-            "sich"
+            "perderse"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "perdimos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufe"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pierdo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "perdió"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verläufst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "perderte"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich verfahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "conduciendo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich verirren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "extraviarse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verlaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "transcurrir"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   },
   {
     "de": "verlaufen",
-    "lv": "proceder • rodar",
+    "lv": "transcurrir • desarrollarse",
     "level": "B2",
     "study": {
       "id": "b2-verlaufen",
-      "layout": "minimalStudy",
+      "layout": "standardStudy",
       "translation": "transcurrir • desarrollarse",
-      "explanation": "verlaufen (bez sich) significa correr o rodar. No es sinónimo de sich verlaufen (perderse).",
+      "explanation": [
+        "Idea principal: verlaufen (sin sich) significa transcurrir o desarrollarse de una determinada manera: Die Prüfung ist gut verlaufen. Describe cómo se desarrolló o terminó algo en el tiempo.",
+        "Formas: es verläuft, es verlief, es ist verlaufen; el perfecto se forma con sein. En sentido espacial, verlaufen puede significar extenderse, discurrir (un camino, una frontera, una línea): Die Grenze verläuft entlang des Flusses.",
+        "Con sich es otra palabra: sich verlaufen, perderse."
+      ],
+      "examples": [
+        {
+          "de": "Die Prüfung ist gut verlaufen.",
+          "lv": "El examen salió bien."
+        },
+        {
+          "de": "Die Operation verlief ohne Probleme.",
+          "lv": "La operación transcurrió sin problemas."
+        },
+        {
+          "de": "Die Grenze verläuft entlang des Flusses.",
+          "lv": "La frontera discurre a lo largo del río."
+        },
+        {
+          "de": "Wie ist die Besprechung verlaufen?",
+          "lv": "¿Qué tal fue la reunión?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sich verlaufen",
+          "meaning": "perderse",
+          "example": "Ich habe mich verlaufen. – Me he perdido."
+        },
+        {
+          "word": "stattfinden",
+          "meaning": "tener lugar, celebrarse",
+          "example": "Die Feier findet morgen statt. – La celebración tendrá lugar mañana."
+        },
+        {
+          "word": "ablaufen",
+          "meaning": "transcurrir, terminar",
+          "example": "Der Tag ist ruhig abgelaufen. – El día transcurrió tranquilo."
+        }
+      ],
+      "tip": [
+        "Normalmente se añade el modo: gut, schlecht, ruhig, ohne Probleme verlaufen.",
+        "En medicina describe a menudo la evolución de una enfermedad: Die Krankheit verläuft leicht."
+      ],
+      "important": [
+        "En perfecto se usa sein: ist verlaufen (no hat verlaufen)."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "verlaufen",
+            "verläuft",
+            "verlief",
+            "ist verlaufen",
+            "sich verlaufen"
+          ],
           "purple": [
-            "rodar"
+            "transcurrir",
+            "desarrollarse",
+            "discurrir"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "salió bien"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlief"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "transcurrió"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verläuft"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "discurre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verlaufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fue"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sich verlaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "perderse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stattfinden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tener lugar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ablaufen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "terminar"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
       }
     }
   }
