@@ -1828,12 +1828,12 @@ const B1_WORDS = [
   },
   {
     "de": "ablegen",
-    "lv": "dejar • quitarse • aprobar",
+    "lv": "dejar • quitarse • archivar",
     "level": "B1",
     "study": {
       "id": "b1-ablegen",
       "layout": "standardStudy",
-      "translation": "dejar • quitarse • aprobar",
+      "translation": "dejar • quitarse • archivar",
       "explanation": [
         "Idea principal: ablegen es un verbo con prefijo separable: legt ab, legte ab, hat abgelegt. Significa dejar algo que llevas o quitarte una prenda que llevabas puesta: Mantel, Tasche ablegen.",
         "Dokumente ablegen significa archivar documentos en una carpeta o en un archivo. Eine Prüfung ablegen significa hacer un examen, presentarse a él; aprobarlo, en sentido estricto, es bestehen. Referido a un barco, ablegen significa zarpar.",
@@ -12839,7 +12839,7 @@ const B1_WORDS = [
       "translation": "por lo tanto",
       "explanation": [
         "Idea principal: daher es un adverbio que expresa consecuencia: por lo tanto, por eso. Indica que algo ocurre por una razón determinada. Ich war krank, daher bin ich nicht gekommen.",
-        "Orden de las palabras: daher va al principio o en medio de la oración, y el verbo lo sigue inmediatamente: Daher bleibe ich zu Hause. La palabra no introduce una subordinada.",
+        "Orden de las palabras: si daher va al principio de la oración, el verbo lo sigue inmediatamente: Daher bleibe ich zu Hause. También puede ir en medio: Ich bleibe daher zu Hause. La palabra no introduce una subordinada.",
         "Daher también puede significar de ahí, desde allí: Von daher kommt das Geräusch. En este sentido la pregunta es woher? (¿de dónde?)."
       ],
       "examples": [
@@ -12874,7 +12874,7 @@ const B1_WORDS = [
       ],
       "tip": [
         "Daher, deshalb y darum suelen ser intercambiables.",
-        "Tras daher el verbo va en segunda posición."
+        "Si la oración empieza por daher, el verbo va justo después, en segunda posición."
       ],
       "important": [
         "Daher no es una conjunción: tras él el verbo no va al final.",
@@ -14500,7 +14500,7 @@ const B1_WORDS = [
       "translation": "tercero",
       "explanation": [
         "Idea principal: dritt es el numeral ordinal «tercero». Como adjetivo suele llevar terminación: der dritte Tag, die dritte Tür, das dritte Mal. Sin terminación aparece en la expresión zu dritt – entre tres, los tres juntos.",
-        "En cifras: 3. = dritt-. En las fechas, el alemán usa el ordinal: der dritte Mai, am dritten Mai (en español se dice el tres de mayo). A diferencia del cardinal drei (tres), dritt siempre expresa orden, no cantidad."
+        "En cifras: 3. = dritt-. En las fechas, el alemán usa el ordinal: der dritte Mai, am dritten Mai (en español se dice el tres de mayo). A diferencia del cardinal drei (tres), dritt expresa orden, no cantidad (salvo en la expresión zu dritt)."
       ],
       "examples": [
         {
@@ -23419,7 +23419,7 @@ const B1_WORDS = [
       "translation": "perezoso",
       "explanation": [
         "Idea principal: faul es un adjetivo con dos significados: perezoso, vago (una persona sin ganas de trabajar) y podrido (comida, huevos, madera). En sentido figurado, faule Ausrede es una excusa poco creíble.",
-        "Se declina: ein fauler Schüler, ein fauler Apfel. Comparativo y superlativo: fauler, faulst. Sustantivo: die Faulheit (pereza); verbo: faulenzen – holgazanear, no hacer nada."
+        "Se declina: ein fauler Schüler, ein fauler Apfel. Comparativo y superlativo: fauler, am faulsten. Sustantivo: die Faulheit (pereza); verbo: faulenzen – holgazanear, no hacer nada."
       ],
       "examples": [
         {
@@ -23745,7 +23745,7 @@ const B1_WORDS = [
         "Para el sentido figurado, recuerda la preposición: festhalten an etwas (aferrarse a algo)."
       ],
       "important": [
-        "No confundas festhalten (sujetar con fuerza) con festnehmen (detener): el primero solo significa sujetar; el segundo es una actuación policial.",
+        "No confundas festhalten (sujetar con fuerza, retener) con festnehmen (detener): festnehmen es una actuación policial.",
         "En sentido figurado se usa an + dativo, no acusativo: an dem Plan, no an den Plan."
       ],
       "sectionAccents": {
@@ -29428,7 +29428,7 @@ const B1_WORDS = [
         },
         {
           "word": "behandeln",
-          "meaning": "tratar, curar",
+          "meaning": "tratar",
           "example": "Der Arzt behandelt den Patienten. – El médico trata al paciente."
         }
       ],
@@ -29437,7 +29437,7 @@ const B1_WORDS = [
         "Los sustantivos die Handlung (acción) y der Handel (comercio) son de la misma familia."
       ],
       "important": [
-        "No confundas handeln (actuar, comerciar) con behandeln (tratar, curar) ni con verhandeln (negociar).",
+        "No confundas handeln (actuar, comerciar) con behandeln (tratar) ni con verhandeln (negociar).",
         "En el Perfekt: hat gehandelt."
       ],
       "sectionAccents": {
@@ -29543,7 +29543,7 @@ const B1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tratar, curar"
+                "tratar"
               ]
             }
           }
@@ -42427,7 +42427,7 @@ const B1_WORDS = [
       ],
       "important": [
         "Das Maß se escribe con ß porque la vocal es larga.",
-        "El plural es die Maße (medidas); la forma Maßen solo aparece en la expresión über alle Maßen."
+        "El plural es die Maße (medidas); Maßen es el dativo plural (mit den Maßen) y aparece en expresiones como über alle Maßen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -63084,7 +63084,7 @@ const B1_WORDS = [
       "translation": "pasar por alto",
       "explanation": [
         "Idea principal: übersehen significa pasar por alto: no ver algo sin querer, aunque lo tengas delante. Formas: übersieht, übersah, hat übersehen. El prefijo über- no es separable. El verbo lleva complemento en acusativo.",
-        "Un segundo significado es abarcar algo con la vista o calcular su alcance: Wir können die Folgen noch nicht übersehen. Cuando alguien no ve algo sin querer, se dice übersehen; si lo hace a propósito, se dice ignorieren o wegsehen."
+        "Un segundo significado es abarcar algo con la vista o calcular su alcance: Wir können die Folgen noch nicht übersehen. Cuando alguien no ve algo sin querer, se dice übersehen; si lo hace a propósito, se suele decir ignorieren o wegsehen (aunque übersehen también puede significar hacer la vista gorda)."
       ],
       "examples": [
         {
@@ -63130,7 +63130,7 @@ const B1_WORDS = [
         "Lo contrario es bemerken (notar, darse cuenta)."
       ],
       "important": [
-        "Übersehen es involuntario; ignorieren es intencionado.",
+        "Normalmente übersehen es involuntario; ignorieren es intencionado.",
         "En el perfecto no hay ge-: hat übersehen."
       ],
       "sectionAccents": {
@@ -71185,7 +71185,7 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Para decir a qué te dedicas no se usa la palabra Beruf: di Ich bin Lehrer o Ich arbeite als Lehrer.",
+        "Para decir a qué te dedicas basta con Ich bin Lehrer o Ich arbeite als Lehrer; también es correcto Ich bin Lehrer von Beruf.",
         "Para preguntar por la profesión se usa a menudo von Beruf: Was bist du von Beruf?"
       ],
       "important": [
@@ -72421,7 +72421,7 @@ const B1_WORDS = [
         {
           "word": "anstatt dass",
           "meaning": "en lugar de que (otro sujeto)",
-          "example": "Anstatt dass er hilft, schaut er zu. – En lugar de ayudar, se queda mirando."
+          "example": "Anstatt dass er hilft, mache ich alles allein. – En lugar de que él ayude, lo hago todo yo solo."
         },
         {
           "word": "ohne … zu",
@@ -72434,7 +72434,7 @@ const B1_WORDS = [
         "Statt … zu significa lo mismo y suena algo más sencillo; ambas formas son correctas."
       ],
       "important": [
-        "Cuidado: si cambia el sujeto, usa anstatt dass: Anstatt dass er hilft, schaut er zu.",
+        "Cuidado: si cambia el sujeto, usa anstatt dass: Anstatt dass er hilft, mache ich alles allein.",
         "No lo confundas con la preposición anstatt/statt + genitivo (statt des Buches), que significa en lugar de algo."
       ],
       "sectionAccents": {

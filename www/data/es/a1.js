@@ -4551,7 +4551,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: dass es la conjunción subordinante 'que', que introduce una oración completiva después de verbos como sagen, wissen, denken, hoffen y de expresiones como Es ist schön …: Ich weiß, dass du müde bist.",
         "Delante de dass siempre va coma. En la oración subordinada, el verbo conjugado va al final: …, dass er keine Zeit hat.",
-        "Dass se escribe con dos s. El artículo neutro y pronombre demostrativo das es otra palabra. A diferencia del español, después de dass nunca se necesita subjuntivo: Ich hoffe, dass es morgen nicht regnet (espero que mañana no llueva)."
+        "Dass se escribe con dos s. El artículo neutro y pronombre demostrativo das es otra palabra. A diferencia del español, después de dass normalmente no se usa subjuntivo (el Konjunktiv aparece sobre todo en el estilo indirecto): Ich hoffe, dass es morgen nicht regnet (espero que mañana no llueva)."
       ],
       "examples": [
         {
@@ -4593,7 +4593,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Detrás de dass pon coma y lleva el verbo al final.",
+        "Delante de dass pon coma y lleva el verbo al final.",
         "La subordinada con dass también puede ir en primer lugar: Dass du kommst, freut mich."
       ],
       "important": [
@@ -6069,7 +6069,7 @@ const A1_WORDS = [
         "Para referirte a un sustantivo neutro usa es: das Auto → es."
       ],
       "important": [
-        "En una oración impersonal no se puede omitir es: no se puede decir 'Regnet heute'.",
+        "Con verbos de tiempo atmosférico como regnen, es no se puede omitir: no se puede decir 'Regnet heute', sino Es regnet heute o Heute regnet es.",
         "Para personas, es solo se usa con palabras neutras como das Kind, das Mädchen; en los demás casos, er o sie."
       ],
       "sectionAccents": {
@@ -11917,7 +11917,7 @@ const A1_WORDS = [
         "Recuerda la diéresis: jung → jünger → am jüngsten."
       ],
       "important": [
-        "No uses jung para objetos: se dice neu.",
+        "Para objetos normalmente no se usa jung, sino neu (hay excepciones fijas como junger Wein).",
         "El comparativo siempre lleva diéresis: jünger, no “junger”."
       ],
       "sectionAccents": {
@@ -13610,7 +13610,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: lang significa «largo» referido al tamaño o a los objetos (Der Tisch ist lang) y también referido al tiempo, a algo que dura mucho: Der Film war sehr lang. Con unidades de tiempo: zwei Stunden lang — durante dos horas.",
         "Comparativo: länger (más largo, más tiempo); superlativo: am längsten. El adverbio lange significa «mucho tiempo»: Ich warte schon lange. Con terminación delante de un sustantivo: eine lange Reise, lange Haare.",
-        "En la pregunta Wie lange dauert es? (¿Cuánto tiempo dura?) se usa lange, no lang."
+        "En la pregunta Wie lange dauert es? (¿Cuánto tiempo dura?) se usa normalmente lange (lang es coloquial)."
       ],
       "examples": [
         {
@@ -13656,7 +13656,7 @@ const A1_WORDS = [
         "Para la estatura de una persona se dice groß (alto), no lang."
       ],
       "important": [
-        "No confundas lang y lange: Ich warte lange (no “lang”).",
+        "No confundas lang y lange: en la lengua estándar se dice Ich warte lange; lang como adverbio es coloquial.",
         "Detrás de una expresión de tiempo, lang va sin terminación: zwei Stunden lang."
       ],
       "sectionAccents": {
@@ -19018,7 +19018,7 @@ const A1_WORDS = [
         "Añade mal para suavizar: Probier mal! (¡pruébalo!)."
       ],
       "important": [
-        "Probieren no significa «intentar»; para eso está versuchen.",
+        "Para «intentar hacer algo» (con zu + infinitivo) se usa normalmente versuchen, no probieren.",
         "El perfecto no lleva ge-: hat probiert, no “hat geprobiert”."
       ],
       "sectionAccents": {
@@ -20943,7 +20943,7 @@ const A1_WORDS = [
       "translation": "se • sí mismo",
       "explanation": [
         "Idea principal: sich es el pronombre reflexivo de la 3.ª persona y de la forma de cortesía Sie: indica que la acción recae sobre el propio sujeto. En acusativo y en dativo la forma es la misma: sich.",
-        "Las demás personas tienen otras formas: ich – mich, du – dich, wir – uns, ihr – euch. Por ejemplo, er wäscht sich (él se lava), pero ich wasche mich (yo me lavo).",
+        "Las demás personas tienen otras formas: ich – mich/mir, du – dich/dir, wir – uns, ihr – euch. Por ejemplo, er wäscht sich (él se lava), pero ich wasche mich (yo me lavo).",
         "Muchos verbos alemanes son reflexivos (sich freuen, sich setzen, sich vorstellen) y en español suelen corresponder a verbos pronominales: alegrarse, sentarse, presentarse."
       ],
       "examples": [
@@ -20990,7 +20990,7 @@ const A1_WORDS = [
         "Aprende los verbos reflexivos junto con sich: sich freuen, sich setzen."
       ],
       "important": [
-        "Sich no se puede usar con ich, du, wir, ihr: ahí hacen falta mich, dich, uns, euch.",
+        "Sich no se puede usar con ich, du, wir, ihr: ahí hacen falta mich/mir, dich/dir, uns, euch.",
         "En plural, Sie sehen sich puede significar tanto \"se ven a sí mismos\" como \"se ven el uno al otro\"; lo aclara el contexto."
       ],
       "sectionAccents": {
@@ -22983,7 +22983,7 @@ const A1_WORDS = [
         "La expresión unter uns significa \"entre nosotros\" y se usa cuando se dice algo en confianza."
       ],
       "important": [
-        "Unter no es lo mismo que zwischen: unter se refiere a un conjunto o grupo (unter Freunden); zwischen, a dos cosas concretas.",
+        "Unter no es lo mismo que zwischen: unter se refiere a un conjunto o grupo (unter Freunden); zwischen, a la posición entre cosas o personas concretas (zwischen Tisch und Tür).",
         "Unter + número significa \"menos de\": unter 18 quiere decir menor de 18 años."
       ],
       "sectionAccents": {
@@ -27339,7 +27339,7 @@ const A1_WORDS = [
       "translation": "tiempo (momento / período de tiempo)",
       "explanation": [
         "Idea principal: die Zeit es un sustantivo femenino; plural die Zeiten. Significa el tiempo como momento, período u oportunidad: Ich habe keine Zeit. Zeit haben es tener tiempo, estar libre; Zeit brauchen, necesitar tiempo.",
-        "Frases frecuentes: zur Zeit / zurzeit (actualmente), die Zeit vergeht (el tiempo pasa), Es ist Zeit (es hora). En plural, die Zeiten significa épocas o períodos: in schweren Zeiten.",
+        "Frases frecuentes: zurzeit (actualmente; separado, zur Zeit + genitivo significa «en la época de»: zur Zeit Goethes), die Zeit vergeht (el tiempo pasa), Es ist Zeit (es hora). En plural, die Zeiten significa épocas o períodos: in schweren Zeiten.",
         "El tiempo atmosférico se dice das Wetter, no die Zeit, aunque en español ambos se llamen tiempo."
       ],
       "examples": [
@@ -27692,7 +27692,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: noch mal es una expresión muy frecuente en la lengua hablada que significa de nuevo, otra vez: repetir una acción. Es lo mismo que noch einmal, pero menos formal. También se puede escribir nochmal.",
         "Se usa para pedir que se repita algo (Sag das bitte noch mal) o para decir que se hace algo otra vez: Ich lese den Text noch mal.",
-        "A diferencia de wieder (otra vez, en una nueva ocasión), noch mal repite exactamente lo mismo. En español ambas ideas pueden expresarse con otra vez, pero en alemán se distinguen."
+        "A diferencia de wieder (otra vez, en una nueva ocasión), noch mal subraya que se repite la misma acción una vez más. En español ambas ideas pueden expresarse con otra vez; en alemán a menudo se intercambian, pero no siempre."
       ],
       "examples": [
         {
@@ -27731,10 +27731,10 @@ const A1_WORDS = [
       ],
       "tip": [
         "Si no has entendido algo, di: Noch mal, bitte!",
-        "Por escrito y en registro formal, di noch einmal."
+        "Por escrito y en registro formal, usa noch einmal."
       ],
       "important": [
-        "Noch mal no es lo mismo que wieder: wieder expresa que algo vuelve a ocurrir; noch mal, que se repite la misma acción.",
+        "Noch mal y wieder no siempre son intercambiables: wieder subraya que algo vuelve a ocurrir; noch mal, que se repite la misma acción una vez más.",
         "Noch mal es la variante coloquial; en un texto oficial es mejor usar noch einmal."
       ],
       "sectionAccents": {

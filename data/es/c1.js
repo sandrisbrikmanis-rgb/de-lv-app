@@ -946,7 +946,7 @@ const C1_WORDS = [
         "Un significado parecido tiene die Allgemeinheit (la gente en general)."
       ],
       "important": [
-        "Normalmente no se usa en plural: no existe die Öffentlichkeiten."
+        "Normalmente no se usa en plural; die Öffentlichkeiten solo aparece en textos especializados."
       ],
       "sectionAccents": {
         "explanation": {

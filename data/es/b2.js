@@ -14724,7 +14724,7 @@ const B2_WORDS = [
         "En las palabras compuestas, Haube aporta el sentido de cubierta: Dunsthaube, Motorhaube."
       ],
       "important": [
-        "Haube no es un gorro corriente; al que se lleva en invierno se le llama Mütze.",
+        "En alemán estándar, el gorro corriente de invierno se llama Mütze; en Austria y el sur de Alemania también se dice Haube.",
         "La expresión unter die Haube kommen es coloquial y algo humorística."
       ],
       "sectionAccents": {
