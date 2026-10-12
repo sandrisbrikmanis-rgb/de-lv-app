@@ -40,47 +40,65 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "hablar",
       "explanation": [
-        "Idea principal: Hablar, conversar o utilizar el lenguaje.",
-        "sprechen significa principalmente: hablar o conversar.",
-        "A menudo se caracteriza por: lenguaje/conversación.",
-        "sprechen describe hablar o usar el lenguaje."
+        "Idea principal: sprechen significa hablar, pronunciar palabras en voz alta, y también dominar un idioma (Deutsch sprechen — hablar alemán) o conversar con alguien.",
+        "Formas: er spricht (cambio vocálico e → i), sprach, hat gesprochen. Con sprechen el idioma va sin preposición; el tema se introduce con über + acusativo (hablar de algo) y el interlocutor, con mit + dativo (hablar con alguien).",
+        "Al teléfono o en un contexto formal, Kann ich Herrn Müller sprechen? significa '¿puedo hablar con el señor Müller?'."
       ],
       "examples": [
         {
-          "de": "Ich spreche Deutsch.",
-          "lv": "Hablo alemán."
+          "de": "Sprichst du Deutsch?",
+          "lv": "¿Hablas alemán?"
         },
         {
-          "de": "Wir sprechen über die Arbeit.",
-          "lv": "Estamos hablando de trabajo."
+          "de": "Ich spreche mit meiner Lehrerin.",
+          "lv": "Hablo con mi profesora."
         },
         {
-          "de": "Sie spricht mit ihrer Lehrerin.",
-          "lv": "hablo alemán"
+          "de": "Wir sprechen über das Wetter.",
+          "lv": "Hablamos del tiempo."
+        },
+        {
+          "de": "Er spricht sehr leise.",
+          "lv": "Habla muy bajo."
+        },
+        {
+          "de": "Kann ich bitte Herrn Müller sprechen?",
+          "lv": "¿Podría hablar con el señor Müller, por favor?"
         }
       ],
       "comparison": [
         {
-          "word": "sprechen",
-          "meaning": "hablar (proceso, lenguaje)",
-          "example": "Wir sprechen über die Arbeit. – Estamos hablando de trabajo."
+          "word": "sagen",
+          "meaning": "decir",
+          "example": "Er sagt Hallo. – Dice hola."
         },
         {
-          "word": "sagen",
-          "meaning": "decir (un texto específico)",
-          "example": "Sag mir die Wahrheit. – Dime la verdad."
+          "word": "reden",
+          "meaning": "hablar, conversar",
+          "example": "Wir reden den ganzen Abend. – Hablamos toda la noche."
+        },
+        {
+          "word": "erzählen",
+          "meaning": "contar, narrar",
+          "example": "Sie erzählt eine Geschichte. – Cuenta una historia."
         }
       ],
       "tip": [
-        "sprechen = hablar",
-        "Utiliza sprechen cuando el contexto se ajusta a este significado."
+        "Apréndelo junto con el cambio vocálico: ich spreche, du sprichst, er spricht.",
+        "El nombre del idioma va sin preposición: Ich spreche Englisch."
       ],
       "important": [
-        "sprechen = hablar.",
-        "Hablar, conversar o utilizar el lenguaje."
+        "Hablar de algo suele ser sprechen über + acusativo; sprechen von + dativo también es posible, pero más bien significa mencionar algo o a alguien, o contar cosas sobre ello.",
+        "El participio de este verbo fuerte es gesprochen, no “gesprecht”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sprechen",
+            "spricht",
+            "sprach",
+            "gesprochen"
+          ],
           "purple": [
             "hablar"
           ]
@@ -88,7 +106,19 @@ const A1_WORDS = [
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
+                "Sprichst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hablas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "spreche"
               ]
             },
@@ -100,38 +130,86 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "sprechen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Hablamos"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "spricht"
               ]
             },
             "lv": {
               "purple": [
-                "hablo"
+                "Habla"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sprechen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hablar"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sagen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "decir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "reden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hablar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erzählen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "contar"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "hablar"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "sprechen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -145,9 +223,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "pequeño",
       "explanation": [
-        "Idea principal: Pequeño en tamaño o alcance.",
-        "Klein significa principalmente: tamaño pequeño.",
-        "A menudo describe: el tamaño de una cosa/persona."
+        "Idea principal: klein describe lo que es pequeño por tamaño, estatura, volumen o edad: ein kleines Haus, ein kleines Kind, ein kleiner Mann (un hombre bajo).",
+        "Grados de comparación: klein, kleiner, am kleinsten. Delante de un sustantivo el adjetivo se declina: ein kleiner Tisch, eine kleine Wohnung, ein kleines Zimmer, kleine Kinder.",
+        "En sentido figurado, klein también puede indicar algo de poca importancia: ein kleines Problem (un pequeño problema)."
       ],
       "examples": [
         {
@@ -155,26 +233,61 @@ const A1_WORDS = [
           "lv": "La habitación es pequeña."
         },
         {
-          "de": "Das Kind ist noch klein.",
-          "lv": "La habitación es pequeña."
+          "de": "Sie hat eine kleine Schwester.",
+          "lv": "Tiene una hermana pequeña."
         },
         {
-          "de": "Ich habe eine kleine Tasche.",
-          "lv": "El niño aún es pequeño."
+          "de": "Ich wohne in einer kleinen Stadt.",
+          "lv": "Vivo en una ciudad pequeña."
+        },
+        {
+          "de": "Er ist kleiner als sein Bruder.",
+          "lv": "Es más bajo que su hermano."
+        },
+        {
+          "de": "Das ist nur ein kleiner Fehler.",
+          "lv": "Solo es un pequeño error."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "kurz",
+          "meaning": "corto",
+          "example": "Der Weg ist kurz. – El camino es corto."
+        },
+        {
+          "word": "wenig",
+          "meaning": "poco (cantidad)",
+          "example": "Ich habe wenig Zeit. – Tengo poco tiempo."
+        },
+        {
+          "word": "groß",
+          "meaning": "grande",
+          "example": "Das Haus ist groß. – La casa es grande."
         }
       ],
       "tip": [
-        "klein = pequeño",
-        "Utiliza klein cuando el contexto se adapta a este significado."
+        "Su contrario es groß (grande); aprende las dos palabras en pareja.",
+        "Si el adjetivo va detrás de sein/werden, no lleva terminación: Das Haus ist klein."
       ],
       "important": [
-        "klein = tamaño pequeño.",
-        "klein = mazs."
+        "Para la estatura de una persona se dice klein (bajo), pero para un tiempo o una distancia cortos se usa kurz.",
+        "Delante del sustantivo la terminación es obligatoria: ein kleines Auto, no 'ein klein Auto'."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "klein",
+            "kleiner",
+            "am kleinsten",
+            "kleines",
+            "kleine",
+            "kleiner Tisch"
+          ],
           "purple": [
-            "pequeño"
+            "pequeño",
+            "pequeño por tamaño",
+            "pequeño problema"
           ]
         },
         "examples": [
@@ -186,19 +299,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maza"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "maza"
+                "pequeña"
               ]
             }
           },
@@ -210,24 +311,92 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
+                "pequeña"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kleinen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pequeña"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kleiner"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "más bajo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kleiner"
+              ]
+            },
+            "lv": {
+              "purple": [
                 "pequeño"
               ]
             }
           }
         ],
-        "tip": [
+        "comparison": [
           {
-            "purple": [
-              "klein"
-            ]
+            "word": {
+              "green": [
+                "kurz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "corto"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wenig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "poco"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "groß"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "grande"
+              ]
+            }
           }
         ],
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "klein"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -266,39 +435,69 @@ const A1_WORDS = [
       "id": "a1-an",
       "layout": "standardStudy",
       "translation": "en • junto a • a",
-      "explanation": "Se usa cuando algo está cerca de una pared, ventana, puerta, río, orilla del mar u otro borde/superficie.",
+      "explanation": [
+        "Idea principal: an indica que algo está justo al lado de otra cosa o en contacto con una superficie vertical o un borde: an der Wand (en la pared), am Fenster (junto a la ventana), am Fluss (a orillas del río).",
+        "Pertenece a las preposiciones de doble régimen: con la pregunta Wo? (¿dónde?) rige dativo (an der Tür) y con Wohin? (¿adónde?), acusativo (an die Tür). Contracciones: an dem → am, an das → ans.",
+        "En expresiones de tiempo se usa con los días y las partes del día: am Montag (el lunes), am Abend (por la tarde). Muchos verbos rigen an + acusativo: an dich denken (pensar en ti)."
+      ],
       "examples": [
         {
-          "de": "an der Wand",
-          "lv": "junto a la pared / en la pared"
+          "de": "Das Bild hängt an der Wand.",
+          "lv": "El cuadro está colgado en la pared."
         },
         {
-          "de": "am Fenster",
-          "lv": "junto a la ventana"
+          "de": "Ich hänge das Bild an die Wand.",
+          "lv": "Cuelgo el cuadro en la pared."
         },
         {
-          "de": "am Meer",
-          "lv": "junto al mar"
+          "de": "Er steht am Fenster.",
+          "lv": "Está de pie junto a la ventana."
+        },
+        {
+          "de": "Am Montag habe ich Deutschkurs.",
+          "lv": "El lunes tengo clase de alemán."
+        },
+        {
+          "de": "Ich denke oft an dich.",
+          "lv": "Pienso mucho en ti."
         }
       ],
       "comparison": [
         {
-          "word": "an",
-          "meaning": "junto a una superficie o un borde",
-          "example": "an der Wand – en la pared"
-        },
-        {
           "word": "auf",
-          "meaning": "sobre una superficie horizontal",
-          "example": "auf dem Tisch – en la mesa"
+          "meaning": "sobre (una superficie)",
+          "example": "Das Buch liegt auf dem Tisch. – El libro está sobre la mesa."
         },
         {
           "word": "bei",
-          "meaning": "junto a personas o lugares",
-          "example": "beim Arzt – al médico"
+          "meaning": "en casa de (una persona), en (un lugar)",
+          "example": "Ich bin bei meiner Oma. – Estoy en casa de mi abuela."
+        },
+        {
+          "word": "in",
+          "meaning": "dentro de, en",
+          "example": "Das Heft ist in der Tasche. – El cuaderno está en el bolso."
         }
       ],
+      "tip": [
+        "Wo? → an + dativo; Wohin? → an + acusativo. Comprueba siempre la pregunta.",
+        "Con los días de la semana y las partes del día se usa am: am Dienstag, am Morgen."
+      ],
+      "important": [
+        "El español 'en' no siempre es an: estar en casa de alguien (de visita o viviendo allí) es bei.",
+        "an + acusativo suele equivaler a un complemento con 'en' sin idea de lugar (denken an, pensar en; glauben an, creer en)."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "an",
+            "ans"
+          ],
+          "purple": [
+            "en",
+            "junto a"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -308,8 +507,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pie",
-                "pie"
+                "en"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "an"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "en"
               ]
             }
           },
@@ -321,19 +531,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pie"
+                "junto a"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "am"
+                "Am"
               ]
             },
             "lv": {
               "purple": [
-                "junto"
+                "El lunes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "an"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "en"
               ]
             }
           }
@@ -342,30 +564,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "an"
-              ]
-            },
-            "example": {
-              "green": [
-                "an"
-              ],
-              "purple": [
-                "der"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "auf"
               ]
             },
-            "example": {
-              "yellow": [
-                "auf"
-              ],
+            "meaning": {
               "purple": [
-                "auf"
+                "sobre"
               ]
             }
           },
@@ -375,47 +579,34 @@ const A1_WORDS = [
                 "bei"
               ]
             },
-            "example": {
-              "red": [
-                "beim"
-              ],
+            "meaning": {
               "purple": [
-                "beim"
+                "en casa de"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "in"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dentro de"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "an"
-            ],
-            "purple": [
-              "Recuerda"
-            ],
-            "green": [
-              "sienas",
-              "loga",
-              "malas"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "en",
-              "cualquier"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "tip": {
-        "text": "Recuerda: junto a la pared/ventana/costa → an."
-      },
-      "important": [
-        "an no es cualquier 'en'. Esto suele significar al lado de una superficie, pared, ventana o borde.",
-        "Auf se suele utilizar sobre una superficie horizontal."
-      ]
+      }
     }
   },
   {
@@ -448,45 +639,87 @@ const A1_WORDS = [
       "id": "a1-ab",
       "layout": "standardStudy",
       "translation": "desde • a partir de",
-      "explanation": "Se utiliza cuando algo comienza desde un tiempo, lugar o punto específico. A menudo significa \"a partir de\".",
+      "explanation": [
+        "Idea principal: ab marca el punto de partida en el tiempo, en un precio o en un lugar y significa 'a partir de': ab Montag (a partir del lunes), ab 18 Uhr, ab 10 Euro.",
+        "La preposición rige dativo: ab nächstem Monat, ab dem 1. Mai. Con días y fechas suele ir sin artículo: ab Montag, ab morgen. Ab también es un prefijo separable: abfahren (salir, partir), abholen (recoger).",
+        "A diferencia de seit (desde, desde hace), ab mira hacia delante o hacia un punto de partida concreto, a menudo en el futuro."
+      ],
       "examples": [
         {
-          "de": "ab heute",
-          "lv": "desde hoy",
-          "level": "A1"
+          "de": "Ab Montag arbeite ich wieder.",
+          "lv": "A partir del lunes vuelvo a trabajar."
         },
         {
-          "de": "ab Montag",
-          "lv": "desde el lunes"
+          "de": "Die Preise beginnen ab 5 Euro.",
+          "lv": "Los precios empiezan desde 5 euros."
         },
         {
-          "de": "ab 8 Uhr",
-          "lv": "a partir de las 8"
+          "de": "Ab 18 Uhr ist das Büro geschlossen.",
+          "lv": "A partir de las 18:00 la oficina está cerrada."
         },
         {
-          "de": "ab Bahnhof",
-          "lv": "desde la estación"
+          "de": "Ab wann hast du frei?",
+          "lv": "¿A partir de qué hora estás libre?"
+        },
+        {
+          "de": "Kinder ab sechs Jahren dürfen mitkommen.",
+          "lv": "Los niños a partir de seis años pueden venir."
         }
       ],
       "comparison": [
         {
-          "word": "ab",
-          "meaning": "comenzando desde el punto/tiempo",
-          "example": "ab Montag – desde el lunes"
+          "word": "seit",
+          "meaning": "desde (hace)",
+          "example": "Ich lerne seit einem Jahr Deutsch. – Estudio alemán desde hace un año."
         },
         {
           "word": "von",
-          "meaning": "desde un lugar o una fecha • punto de partida",
-          "example": "von mir – de mí"
+          "meaning": "de (punto de origen)",
+          "example": "Das Geschenk ist von meiner Mutter. – El regalo es de mi madre."
         },
         {
           "word": "aus",
-          "meaning": "a partir de un lugar o momento",
-          "example": "aus dem Haus – desde la casa / fuera de la casa"
+          "meaning": "de (procedencia, desde dentro)",
+          "example": "Ich komme aus Lettland. – Soy de Letonia."
         }
       ],
+      "tip": [
+        "Recuerda: ab = 'a partir de'; puedes pensar en 'de este momento en adelante'.",
+        "Ab wann? es una pregunta útil cuando quieres saber a qué hora empieza algo."
+      ],
+      "important": [
+        "Ab no sirve para decir de dónde es alguien: para eso se usan aus o von.",
+        "Si la acción empezó en el pasado y continúa hasta ahora, normalmente se usa seit, no ab."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ab",
+            "Ab",
+            "ab Montag",
+            "ab 18 Uhr",
+            "ab 10 Euro",
+            "abfahren",
+            "abholen"
+          ],
+          "purple": [
+            "a partir de",
+            "desde"
+          ]
+        },
         "examples": [
+          {
+            "de": {
+              "blue": [
+                "Ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "A partir del lunes"
+              ]
+            }
+          },
           {
             "de": {
               "blue": [
@@ -502,12 +735,24 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "ab"
+                "Ab"
               ]
             },
             "lv": {
               "purple": [
-                "pirmdienas"
+                "A partir de"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ab"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "A partir de qué hora"
               ]
             }
           },
@@ -519,19 +764,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "plkst"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ab"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "stacijas"
+                "a partir de"
               ]
             }
           }
@@ -540,15 +773,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "ab"
+                "seit"
               ]
             },
-            "example": {
-              "green": [
-                "ab"
-              ],
+            "meaning": {
               "purple": [
-                "Montag"
+                "desde"
               ]
             }
           },
@@ -558,12 +788,9 @@ const A1_WORDS = [
                 "von"
               ]
             },
-            "example": {
-              "yellow": [
-                "von"
-              ],
+            "meaning": {
               "purple": [
-                "von"
+                "de"
               ]
             }
           },
@@ -573,46 +800,22 @@ const A1_WORDS = [
                 "aus"
               ]
             },
-            "example": {
-              "blue": [
-                "aus"
-              ],
+            "meaning": {
               "purple": [
                 "de"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "ab"
-            ],
-            "purple": [
-              "punto de partida"
-            ],
-            "green": [
-              "Recuerde",
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "punto de partida",
-              "muestra"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "tip": {
-        "text": "Recuerde: punto de partida en tiempo/lugar → ab."
-      },
-      "important": [
-        "ab muestra el punto de partida en el tiempo o lugar.",
-        "Si el pensamiento se origina o se mueve hacia afuera desde adentro, se usa más a menudo von o aus."
-      ]
+      }
     }
   },
   {
@@ -642,42 +845,69 @@ const A1_WORDS = [
       "id": "a1-aber",
       "layout": "standardStudy",
       "translation": "pero",
-      "explanation": "Se utiliza para introducir un contraste o expresar una objeción. A menudo significa \"pero\", \"sin embargo\" o \"pero\".",
+      "explanation": [
+        "Idea principal: aber es la conjunción 'pero', que contrapone dos ideas: Ich will kommen, aber ich habe keine Zeit.",
+        "No altera el orden de las palabras: aber ocupa la posición 0 y detrás el verbo va igual que en una oración normal. Delante de aber se suele poner coma.",
+        "En la lengua hablada aber también puede ser una partícula que refuerza la sorpresa: Das ist aber schön! (¡Qué bonito!). Como respuesta, Aber gern! significa '¡con mucho gusto!'."
+      ],
       "examples": [
         {
-          "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
-          "lv": "Quiero ir pero no tengo tiempo."
+          "de": "Ich möchte kommen, aber ich habe keine Zeit.",
+          "lv": "Me gustaría ir, pero no tengo tiempo."
         },
         {
-          "de": "Das Essen war lecker, aber zu teuer.",
-          "lv": "La comida era deliciosa pero cara."
+          "de": "Das Auto ist alt, aber es fährt gut.",
+          "lv": "El coche es viejo, pero funciona bien."
         },
         {
-          "de": "Er hat recht, aber ich sehe das anders.",
-          "lv": "Tiene razón pero pienso lo contrario."
+          "de": "Er ist klein, aber stark.",
+          "lv": "Es bajo, pero fuerte."
+        },
+        {
+          "de": "Das ist aber schön!",
+          "lv": "¡Qué bonito!"
+        },
+        {
+          "de": "Kann ich dir helfen? – Aber gern!",
+          "lv": "¿Puedo ayudarte? – ¡Con mucho gusto!"
         }
       ],
       "comparison": [
         {
-          "word": "aber",
-          "meaning": "opuesto • objeción • sin embargo",
-          "example": "Ich komme, aber später. – Iré, pero más tarde."
-        },
-        {
           "word": "sondern",
-          "meaning": "no • sino más bien",
-          "example": "Ich wollte keinen Tee, sondern Kaffee. – Quería té, no café."
+          "meaning": "sino (tras una negación)",
+          "example": "Er ist nicht dumm, sondern faul. – No es tonto, sino vago."
         },
         {
-          "word": "jedoch",
-          "meaning": "sin embargo",
-          "example": "Es ist kalt, jedoch sonnig. – Hace frío, pero hace sol."
+          "word": "doch",
+          "meaning": "sin embargo, no obstante",
+          "example": "Es regnet, doch wir gehen raus. – Llueve; sin embargo, salimos."
+        },
+        {
+          "word": "und",
+          "meaning": "y",
+          "example": "Ich lese und schreibe. – Leo y escribo."
         }
       ],
-      "tip": {
-        "text": "Recuerda: oposición u objeción → aber."
-      },
+      "tip": [
+        "Pon coma delante de aber cuando une dos oraciones o dos partes de una oración.",
+        "Aber no afecta a la posición del verbo: Aber ich habe keine Zeit."
+      ],
+      "important": [
+        "Si la primera parte es negativa y la segunda la corrige ('no X, sino Y'), se usa sondern, no aber; es la misma diferencia que entre 'sino' y 'pero' en español.",
+        "Aber también une dos oraciones independientes; si encabeza una oración, contrapone lo que se ha dicho antes."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "aber",
+            "Aber"
+          ],
+          "purple": [
+            "pero",
+            "Qué bonito"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -711,7 +941,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Tiene"
+                "pero"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aber"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Qué bonito"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Aber"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Con mucho gusto"
               ]
             }
           }
@@ -720,75 +974,49 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "aber"
+                "sondern"
               ]
             },
-            "example": {
-              "green": [
-                "aber"
-              ],
+            "meaning": {
               "purple": [
-                "pero"
+                "sino"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "sondern"
+                "doch"
               ]
             },
-            "example": {
-              "yellow": [
-                "sondern"
-              ],
+            "meaning": {
               "purple": [
-                "Ich"
+                "sin embargo"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "jedoch"
+                "und"
               ]
             },
-            "example": {
-              "red": [
-                "jedoch"
-              ],
+            "meaning": {
               "purple": [
-                "ist"
+                "y"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "green": [
-              "aber"
-            ],
-            "purple": [
-              "Recuerda",
-              "iebilde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "aber",
-              "aber",
-              "aber",
-              "aber"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "aber muestra lo contrario u oposición.",
-        "Cuando lo contrario es \"no..., pero...\", se suele utilizar sondern en alemán."
-      ]
+      }
     }
   },
   {
@@ -825,27 +1053,34 @@ const A1_WORDS = [
       "id": "a1-also",
       "layout": "standardStudy",
       "translation": "por lo tanto",
-      "explanation": "Se utiliza para sacar una conclusión o mostrar un resultado. Significa \"por lo tanto\", \"por lo tanto\".",
+      "explanation": [
+        "Idea principal: also expresa una conclusión: 'por lo tanto, así que, entonces'. Es regnet, also bleiben wir zu Hause.",
+        "Como palabra de conclusión, also suele ir al principio de la oración o detrás de una coma, y entonces el verbo va justo después: Also gehen wir. En la lengua hablada se usa mucho como palabra de arranque, 'pues, bueno': Also, wie war dein Tag?",
+        "La palabra also no es el inglés also ('también'); 'también' en alemán es auch."
+      ],
       "examples": [
         {
-          "de": "Es regnet, also bleibe ich zu Hause.",
-          "lv": "Está lloviendo así que me quedo en casa."
+          "de": "Es regnet, also bleiben wir zu Hause.",
+          "lv": "Llueve, así que nos quedamos en casa."
         },
         {
-          "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-          "lv": "Estás enfermo así que no vayas a trabajar."
+          "de": "Du bist müde, also geh ins Bett.",
+          "lv": "Estás cansado, así que vete a la cama."
         },
         {
-          "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
-          "lv": "He estudiado mucho y ahora lo entiendo."
+          "de": "Also, wie war dein Tag?",
+          "lv": "Bueno, ¿qué tal tu día?"
+        },
+        {
+          "de": "Ich denke, also bin ich.",
+          "lv": "Pienso, luego existo."
+        },
+        {
+          "de": "Also gut, dann bis morgen.",
+          "lv": "Bueno, pues hasta mañana."
         }
       ],
       "comparison": [
-        {
-          "word": "also",
-          "meaning": "entonces • por lo tanto",
-          "example": "Es regnet, also bleibe ich zu Hause. – Está lloviendo, así que me quedo en casa."
-        },
         {
           "word": "auch",
           "meaning": "también",
@@ -853,14 +1088,35 @@ const A1_WORDS = [
         },
         {
           "word": "deshalb",
-          "meaning": "por lo tanto",
-          "example": "Es regnet, deshalb bleibe ich zu Hause. – Está lloviendo, así que me quedo en casa."
+          "meaning": "por eso",
+          "example": "Es regnet, deshalb bleiben wir hier. – Llueve, por eso nos quedamos aquí."
+        },
+        {
+          "word": "dann",
+          "meaning": "luego, después, entonces",
+          "example": "Zuerst essen wir, dann gehen wir. – Primero comemos y luego nos vamos."
         }
       ],
-      "tip": {
-        "text": "Recuerda: conclusión → por lo tanto."
-      },
+      "tip": [
+        "Also = 'por lo tanto, así que': con él puedes introducir una conclusión o retomar una idea.",
+        "Al mostrar conformidad, Also gut! se entiende como 'bueno, vale'."
+      ],
+      "important": [
+        "Also no significa 'también': no lo confundas con el inglés; en alemán 'también' es auch.",
+        "En la lengua hablada also a menudo es solo una palabra de arranque y no hay que traducirlo literalmente."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "also",
+            "Also"
+          ],
+          "purple": [
+            "por lo tanto",
+            "conclusión",
+            "pues"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -870,7 +1126,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Está"
+                "así que"
               ]
             }
           },
@@ -882,7 +1138,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Estás"
+                "así que"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Also"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Bueno"
               ]
             }
           },
@@ -894,7 +1162,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "estudiado"
+                "luego"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Also"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Bueno"
               ]
             }
           }
@@ -903,28 +1183,10 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "also"
-              ]
-            },
-            "example": {
-              "green": [
-                "also"
-              ],
-              "purple": [
-                "regnet"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "auch"
               ]
             },
-            "example": {
-              "yellow": [
-                "auch"
-              ],
+            "meaning": {
               "purple": [
                 "también"
               ]
@@ -936,38 +1198,34 @@ const A1_WORDS = [
                 "deshalb"
               ]
             },
-            "example": {
-              "green": [
-                "deshalb"
-              ],
+            "meaning": {
               "purple": [
-                "regnet"
+                "por eso"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dann"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "luego"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "green": [
-              "Recuerda"
-            ],
-            "purple": [
-              "conclusión"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "conclusión"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "También muestra una conclusión: el siguiente pensamiento se deriva de lo dicho anteriormente.",
-        "El \"so\" letón a menudo también puede ser deshalb."
-      ]
+      }
     }
   },
   {
@@ -1092,7 +1350,7 @@ const A1_WORDS = [
     "de": "Ärztin",
     "de_article": "die",
     "de_plural": "die Ärztinnen",
-    "lv": "una doctora",
+    "lv": "médica • doctora",
     "level": "A1"
   },
   {
@@ -1109,10 +1367,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "también",
       "explanation": [
-        "Idea principal: El \"también\" más común y neutral.",
-        "auch básicamente significa: simple 'también'.",
-        "A menudo se caracteriza por: adición.",
-        "auch es la palabra más común para 'también'."
+        "Idea principal: auch significa 'también, igualmente': Ich komme auch. Añade otra persona, cosa o hecho a lo que ya se ha dicho.",
+        "Auch es invariable. Su posición en la oración determina a qué se refiere: Auch ich habe Hunger (también yo), Ich habe auch Hunger (también tengo hambre). Para la negación se usa auch nicht — 'tampoco'.",
+        "En la lengua hablada auch puede reforzar una pregunta o un reproche: Hast du auch daran gedacht? ('¿seguro que te has acordado?')."
       ],
       "examples": [
         {
@@ -1120,25 +1377,53 @@ const A1_WORDS = [
           "lv": "Yo también voy."
         },
         {
-          "de": "Sie arbeitet auch hier.",
-          "lv": "Yo también voy."
+          "de": "Er spricht Deutsch und auch Englisch.",
+          "lv": "Habla alemán y también inglés."
         },
         {
-          "de": "Ich wünsche Ihnen auch einen schönen Tag.",
-          "lv": "Ella también trabaja aquí."
+          "de": "Auch ich habe Hunger.",
+          "lv": "También yo tengo hambre."
+        },
+        {
+          "de": "Hast du auch Geschwister?",
+          "lv": "¿Tú también tienes hermanos?"
+        },
+        {
+          "de": "Ich mag keinen Fisch. – Ich auch nicht.",
+          "lv": "No me gusta el pescado. – A mí tampoco."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sogar",
+          "meaning": "incluso",
+          "example": "Sogar mein Opa kommt. – Incluso viene mi abuelo."
+        },
+        {
+          "word": "noch",
+          "meaning": "todavía, más, otro",
+          "example": "Ich möchte noch einen Kaffee. – Quisiera otro café."
+        },
+        {
+          "word": "also",
+          "meaning": "por lo tanto, así que",
+          "example": "Es regnet, also bleiben wir hier. – Llueve, así que nos quedamos aquí."
         }
       ],
       "tip": [
-        "auch = también",
-        "Se utiliza auch cuando el contexto se adapta a este significado."
+        "Coloca auch justo delante de la palabra a la que se refiere.",
+        "'Tampoco' en alemán es auch nicht o auch kein."
       ],
       "important": [
-        "Ich auch wünsche Ihnen no es el orden correcto de las palabras.",
-        "auch = también.",
-        "Incorrecto: Ich auch wünsche Ihnen einen schönen Tag."
+        "Si quieres decir 'otro, más' en sentido de cantidad, usa noch: noch ein Kaffee (otro café), no auch.",
+        "No confundas auch con also: also significa 'por lo tanto, así que'."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "auch",
+            "Auch"
+          ],
           "purple": [
             "también"
           ]
@@ -1171,6 +1456,18 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
+                "Auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "También"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "auch"
               ]
             },
@@ -1179,21 +1476,65 @@ const A1_WORDS = [
                 "también"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "auch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tampoco"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sogar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "incluso"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "noch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "todavía"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "also"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "por lo tanto"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "también"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "auch"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -1206,42 +1547,69 @@ const A1_WORDS = [
       "id": "a1-auf",
       "layout": "standardStudy",
       "translation": "sobre • en • a",
-      "explanation": "Se utiliza para indicar una dirección hacia un lugar o la parte superior de una superficie.",
+      "explanation": [
+        "Idea principal: auf significa 'sobre, encima de' una superficie: auf dem Tisch (sobre la mesa), auf der Straße (en la calle), auf dem Land (en el campo). También sirve para indicar el idioma: auf Deutsch (en alemán).",
+        "Es una preposición de doble régimen: Wo? (¿dónde?) → dativo (auf dem Tisch), Wohin? (¿adónde?) → acusativo (auf den Tisch). En la combinación warten auf + acusativo significa 'esperar a alguien o algo'.",
+        "Con el neutro das se contrae en aufs (auf das): aufs Land fahren (ir al campo)."
+      ],
       "examples": [
         {
-          "de": "Ich stelle das Buch auf den Tisch.",
-          "lv": "Dejo el libro sobre la mesa."
+          "de": "Das Buch liegt auf dem Tisch.",
+          "lv": "El libro está sobre la mesa."
         },
         {
-          "de": "Wir fahren auf den Berg.",
-          "lv": "Vamos a la montaña."
+          "de": "Ich lege das Buch auf den Tisch.",
+          "lv": "Pongo el libro sobre la mesa."
         },
         {
-          "de": "Die Katze springt auf das Sofa.",
-          "lv": "El gato salta sobre el sofá."
+          "de": "Wir warten auf den Bus.",
+          "lv": "Esperamos el autobús."
+        },
+        {
+          "de": "Wie sagt man das auf Deutsch?",
+          "lv": "¿Cómo se dice esto en alemán?"
+        },
+        {
+          "de": "Er wohnt auf dem Land.",
+          "lv": "Vive en el campo."
         }
       ],
       "comparison": [
         {
-          "word": "auf",
-          "meaning": "sobre/en (superficie o arriba)",
-          "example": "Ich stelle das Glas auf den Tisch. – Dejo el vaso sobre la mesa."
-        },
-        {
           "word": "an",
-          "meaning": "en una superficie horizontal",
-          "example": "Ich hänge das Bild an die Wand. – Cuelgo el cuadro en la pared."
+          "meaning": "junto a, en (superficie vertical)",
+          "example": "Das Bild hängt an der Wand. – El cuadro está colgado en la pared."
         },
         {
           "word": "in",
-          "meaning": "sobre una superficie",
-          "example": "Ich lege das Buch in die Tasche. – Puse el libro en mi bolso."
+          "meaning": "dentro de, en",
+          "example": "Das Buch ist in der Tasche. – El libro está en el bolso."
+        },
+        {
+          "word": "über",
+          "meaning": "encima de (sin contacto)",
+          "example": "Die Lampe hängt über dem Tisch. – La lámpara cuelga encima de la mesa."
         }
       ],
-      "tip": {
-        "text": "Recuerde: en la superficie/arriba → auf."
-      },
+      "tip": [
+        "'Esperar' en alemán es warten auf, y detrás va acusativo.",
+        "Tras auf, el nombre del idioma se escribe con mayúscula: auf Deutsch."
+      ],
+      "important": [
+        "La preposición española 'a' no siempre es auf: ir a Berlín es nach Berlin, no 'auf Berlin'.",
+        "Después de warten auf el sustantivo va en acusativo: auf den Bus."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "auf"
+          ],
+          "purple": [
+            "sobre",
+            "en alemán",
+            "en el campo"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -1251,7 +1619,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dejo"
+                "sobre"
               ]
             }
           },
@@ -1263,7 +1631,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "a"
+                "sobre"
               ]
             }
           },
@@ -1275,7 +1643,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "gato"
+                "Esperamos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "en alemán"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "auf"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "en el campo"
               ]
             }
           }
@@ -1284,28 +1676,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "auf"
-              ]
-            },
-            "example": {
-              "blue": [
-                "auf"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "an"
               ]
             },
-            "example": {
-              "green": [
-                "an",
-                "en"
+            "meaning": {
+              "purple": [
+                "junto a"
               ]
             }
           },
@@ -1315,40 +1691,34 @@ const A1_WORDS = [
                 "in"
               ]
             },
-            "example": {
-              "yellow": [
-                "in"
+            "meaning": {
+              "purple": [
+                "dentro de"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "über"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "encima de"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "auf"
-            ],
-            "purple": [
-              "Recuerde"
-            ],
-            "green": [
-              "Recuerde",
-              "arriba"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "a",
-              "en"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "auf no es un \"on\" cualquiera. A menudo significa moverse o estar en la superficie/arriba.",
-        "Si algo está cerca de una superficie vertical, a menudo necesitarás un; Si estás dentro, necesitas entrar."
-      ]
+      }
     }
   },
   {
@@ -1368,7 +1738,7 @@ const A1_WORDS = [
   },
   {
     "de": "aufwärts",
-    "lv": "arriba",
+    "lv": "hacia arriba",
     "level": "A1"
   },
   {
@@ -1399,46 +1769,79 @@ const A1_WORDS = [
       "id": "a1-aus",
       "layout": "standardStudy",
       "translation": "de • fuera de",
-      "explanation": "Se utiliza cuando algo sale de dentro, sale o indica origen.",
+      "explanation": [
+        "Idea principal: aus significa 'de, fuera de' (desde el interior) e indica procedencia, material o causa: aus dem Haus (fuera de la casa), aus Lettland (de Letonia), aus Holz (de madera).",
+        "La preposición siempre rige dativo: aus dem Haus, aus der Stadt, aus einem Buch.",
+        "Con valor causal, aus expresa un motivo emocional: aus Angst (por miedo), aus Liebe (por amor)."
+      ],
       "examples": [
         {
-          "de": "Ich komme aus Deutschland.",
-          "lv": "Soy de Alemania."
+          "de": "Ich komme aus Lettland.",
+          "lv": "Soy de Letonia."
         },
         {
-          "de": "Er geht aus dem Haus.",
-          "lv": "Él sale de la casa."
+          "de": "Er nimmt ein Heft aus der Tasche.",
+          "lv": "Saca un cuaderno del bolso."
         },
         {
-          "de": "Ich nehme das Buch aus der Tasche.",
-          "lv": "Saco el libro de mi bolso."
+          "de": "Der Tisch ist aus Holz.",
+          "lv": "La mesa es de madera."
+        },
+        {
+          "de": "Sie schweigt aus Angst.",
+          "lv": "Se calla por miedo."
+        },
+        {
+          "de": "Der Zug aus Berlin hat Verspätung.",
+          "lv": "El tren procedente de Berlín llega con retraso."
         }
       ],
       "comparison": [
         {
-          "word": "aus",
-          "meaning": "desde dentro, fuera de",
-          "example": "aus dem Haus – desde la casa"
-        },
-        {
           "word": "von",
-          "meaning": "desde el interior de un lugar; no se usa normalmente para superficies",
-          "example": "von meinem Freund – de mi amigo"
+          "meaning": "de (una persona, un punto)",
+          "example": "Ich habe einen Brief von meiner Mutter. – Tengo una carta de mi madre."
         },
         {
-          "word": "ab",
-          "meaning": "desde el interior o la procedencia de un lugar",
-          "example": "ab Montag – desde el lunes"
+          "word": "bei",
+          "meaning": "en casa de, junto a",
+          "example": "Ich bin bei meiner Oma. – Estoy en casa de mi abuela."
+        },
+        {
+          "word": "nach",
+          "meaning": "a (una ciudad, un país)",
+          "example": "Ich fahre nach Berlin. – Voy a Berlín."
         }
       ],
-      "tip": {
-        "text": "Recuerda: afuera desde adentro → aus."
-      },
+      "tip": [
+        "Aus = 'de dentro hacia fuera': Auto, Haus, Tasche. Su contrario es in.",
+        "Para indicar el país o la ciudad de origen se usa aus: Ich bin aus Riga."
+      ],
+      "important": [
+        "Después de aus siempre va dativo, nunca acusativo.",
+        "La persona de la que se recibe algo se introduce con von: ein Brief von Anna, no 'aus Anna'."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "aus",
+            "aus dem Haus",
+            "aus Lettland",
+            "aus Holz",
+            "aus Angst",
+            "aus Liebe"
+          ],
+          "purple": [
+            "de",
+            "de Letonia",
+            "de madera",
+            "por miedo"
+          ]
+        },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
                 "aus"
               ]
             },
@@ -1450,7 +1853,19 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
+              "blue": [
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "del"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "aus"
               ]
             },
@@ -1462,13 +1877,25 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "aus"
               ]
             },
             "lv": {
               "purple": [
-                "de"
+                "por miedo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "aus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "procedente de"
               ]
             }
           }
@@ -1477,77 +1904,54 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "aus"
+                "von"
               ]
             },
-            "example": {
-              "green": [
-                "aus"
-              ],
+            "meaning": {
               "purple": [
-                "aus"
+                "de"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "von"
+                "bei"
               ]
             },
-            "example": {
-              "green": [
-                "von"
-              ],
+            "meaning": {
               "purple": [
-                "von"
+                "en casa de"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "ab"
+                "nach"
               ]
             },
-            "example": {
-              "yellow": [
-                "ab"
-              ],
+            "meaning": {
               "purple": [
-                "Montag"
+                "a"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "green": [
-              "aus"
-            ],
-            "purple": [
-              "afuera desde adentro"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "afuera desde adentro",
-              "aus"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "aus generalmente muestra movimiento hacia afuera desde adentro o desde el origen.",
-        "Si se trata sólo de un punto de partida en el tiempo o el lugar, a menudo se utiliza ab."
-      ]
+      }
     }
   },
   {
     "de": "auf dem Boden",
-    "lv": "sobre el piso",
+    "lv": "en el suelo",
     "level": "A1"
   },
   {
@@ -1562,87 +1966,71 @@ const A1_WORDS = [
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "al • a la • sobre (contracción de auf das)",
+      "translation": "al • a la • sobre (dirección)",
       "explanation": [
-        "aufs es la contracción de la preposición auf y el artículo das.",
-        "La forma completa es auf das.",
-        "Se usa con sustantivos neutros para indicar movimiento hacia una superficie, un lugar o un acontecimiento.",
-        "Responde a wohin? (¿adónde?), no a wo? (¿dónde?).",
-        "En el uso corriente se prefiere aufs a la forma completa auf das."
+        "Idea principal: aufs es la contracción de auf das y significa 'a, sobre' (con movimiento) delante de un sustantivo neutro, con la pregunta Wohin? (¿adónde?): aufs Dach, aufs Bett, aufs Land.",
+        "Aufs es una forma de acusativo: auf + das Bett → aufs Bett. En dativo (Wo?) no existe la forma aufs: auf dem Bett.",
+        "También aparece en expresiones fijas: sich aufs Wochenende freuen (tener ganas de que llegue el fin de semana), aufs Beste (de la mejor manera). Como el español no tiene neutro, aufs se traduce por 'al' o 'a la' según el sustantivo: aufs Land (al campo), aufs Bett (a la cama)."
       ],
       "examples": [
         {
-          "de": "Ich gehe aufs Dach.",
-          "lv": "Subo al tejado."
+          "de": "Ich lege das Handy aufs Bett.",
+          "lv": "Dejo el móvil sobre la cama."
         },
         {
-          "de": "Sie setzt sich aufs Sofa.",
-          "lv": "Ella se sienta en el sofá."
+          "de": "Am Wochenende fahren wir aufs Land.",
+          "lv": "El fin de semana vamos al campo."
         },
         {
-          "de": "Wir fahren aufs Land.",
-          "lv": "Vamos al campo."
+          "de": "Die Katze springt aufs Sofa.",
+          "lv": "El gato salta al sofá."
         },
         {
-          "de": "Stell die Tasche aufs Bett.",
-          "lv": "Pon el bolso sobre la cama."
+          "de": "Er klettert aufs Dach.",
+          "lv": "Se sube al tejado."
         },
         {
-          "de": "Er springt aufs Pferd.",
-          "lv": "Él se sube de un salto al caballo."
-        },
-        {
-          "de": "Leg das Buch aufs Regal.",
-          "lv": "Pon el libro en la estantería."
-        },
-        {
-          "de": "Komm schnell aufs Boot!",
-          "lv": "¡Sube rápido al barco!"
-        },
-        {
-          "de": "Wir gehen aufs Fest.",
-          "lv": "Vamos a la fiesta."
+          "de": "Ich freue mich aufs Wochenende.",
+          "lv": "Tengo ganas de que llegue el fin de semana."
         }
       ],
       "comparison": [
         {
-          "word": "aufs",
-          "meaning": "al / a la / sobre, hacia una superficie o lugar neutro",
-          "example": "aufs Dach – al tejado"
+          "word": "auf das",
+          "meaning": "sobre (forma completa)",
+          "example": "Ich lege das Buch auf das Bett. – Pongo el libro sobre la cama."
         },
         {
-          "word": "auf",
-          "meaning": "a / sobre una superficie",
-          "example": "auf den Tisch – sobre la mesa"
+          "word": "auf dem",
+          "meaning": "sobre, en (dativo)",
+          "example": "Das Buch liegt auf dem Bett. – El libro está sobre la cama."
         },
         {
-          "word": "an",
-          "meaning": "hacia una superficie vertical",
-          "example": "an die Wand – a la pared"
-        },
-        {
-          "word": "ins",
-          "meaning": "hacia el interior",
-          "example": "ins Zimmer – a la habitación"
-        },
-        {
-          "word": "zum",
-          "meaning": "a una persona o institución",
-          "example": "zum Arzt – al médico"
+          "word": "auf den",
+          "meaning": "sobre (masculino)",
+          "example": "Ich lege das Buch auf den Tisch. – Pongo el libro sobre la mesa."
         }
       ],
       "tip": [
-        "auf + das → aufs; expresa destino o dirección.",
-        "Para una ubicación sin movimiento se usa auf + dativo."
+        "Aufs solo se usa con sustantivos neutros en acusativo: das Bett → aufs Bett.",
+        "Cuando das va acentuado, se escribe completo: auf das."
       ],
       "important": [
-        "aufs solo contrae auf + das y se usa con sustantivos neutros.",
-        "No lo confundas con an para una superficie vertical ni con ins para entrar en un espacio."
+        "Con masculino y femenino no se usa aufs: auf den Tisch, auf die Straße.",
+        "En reposo (Wo?) se dice auf dem Bett, no 'aufs Bett'."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "aufs"
+            "aufs",
+            "auf das",
+            "auf dem",
+            "aufs Bett",
+            "aufs Dach"
+          ],
+          "purple": [
+            "sobre",
+            "neutro"
           ]
         },
         "examples": [
@@ -1652,7 +2040,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "sobre"
+              ]
+            }
           },
           {
             "de": {
@@ -1660,7 +2052,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "al"
+              ]
+            }
           },
           {
             "de": {
@@ -1668,7 +2064,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "al"
+              ]
+            }
           },
           {
             "de": {
@@ -1676,7 +2076,11 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "al"
+              ]
+            }
           },
           {
             "de": {
@@ -1684,78 +2088,49 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
+            "lv": {
+              "purple": [
+                "Tengo ganas"
               ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {}
+            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "aufs"
+                "auf das"
               ]
             },
-            "meaning": {},
-            "example": {}
+            "meaning": {
+              "purple": [
+                "sobre"
+              ]
+            }
           },
           {
             "word": {
               "green": [
-                "auf"
+                "auf dem"
               ]
             },
-            "meaning": {},
-            "example": {}
+            "meaning": {
+              "purple": [
+                "sobre"
+              ]
+            }
           },
           {
             "word": {
               "green": [
-                "an"
+                "auf den"
               ]
             },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "ins"
+            "meaning": {
+              "purple": [
+                "sobre"
               ]
-            },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "zum"
-              ]
-            },
-            "meaning": {},
-            "example": {}
+            }
           }
         ],
         "tip": [
@@ -1787,7 +2162,7 @@ const A1_WORDS = [
     "de": "Auto",
     "de_article": "das",
     "de_plural": "die Autos",
-    "lv": "auto",
+    "lv": "coche",
     "level": "A1"
   },
   {
@@ -1827,62 +2202,72 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "bañarse • nadar",
       "explanation": [
-        "Idea principal: baden significa bañarse, estar en el agua o disfrutar del agua.",
-        "baden se utiliza cuando se trata de recreación en el agua, lago, mar o piscina.",
-        "baden también puede significar bañarse.",
-        "Cuando el énfasis está en el movimiento o el deporte de la natación en sí, schwimmen se usa más comúnmente en alemán."
+        "Idea principal: baden significa bañarse en la bañera o en el agua por placer: Im See baden (bañarse en el lago), in der Wanne baden (darse un baño en la bañera). Formas: er badet, badete, hat gebadet.",
+        "Es un verbo regular y se usa mucho con gehen: baden gehen (ir a bañarse). Como verbo transitivo significa 'bañar a alguien': das Baby baden (bañar al bebé).",
+        "Nadar como deporte o para recorrer una distancia se dice schwimmen, no baden; baden es más bien meterse en el agua y refrescarse, aunque en español coloquial se diga a veces 'ir a nadar' para ambas cosas."
       ],
       "examples": [
         {
-          "de": "Ich gehe baden.",
-          "lv": "voy a bañarme"
+          "de": "Im Sommer baden wir im See.",
+          "lv": "En verano nos bañamos en el lago."
         },
         {
-          "de": "Wir gehen im See baden.",
-          "lv": "vamos a bañarnos en el lago."
+          "de": "Abends bade ich gern in der Wanne.",
+          "lv": "Por las noches me gusta darme un baño en la bañera."
         },
         {
-          "de": "Er schwimmt sehr gut.",
-          "lv": "él se baña en el lago."
+          "de": "Sie badet das Baby.",
+          "lv": "Baña al bebé."
         },
         {
-          "de": "Ich schwimme jeden Montag.",
-          "lv": "Voy a bañarme todos los lunes."
+          "de": "Wollen wir morgen baden gehen?",
+          "lv": "¿Vamos a bañarnos mañana?"
+        },
+        {
+          "de": "Hier darf man nicht baden.",
+          "lv": "Aquí está prohibido bañarse."
         }
       ],
       "comparison": [
         {
-          "word": "baden",
-          "meaning": "nadar / estar en agua / lavar",
-          "example": "Ich gehe baden."
-        },
-        {
           "word": "schwimmen",
-          "meaning": "nadar como movimiento o deporte",
-          "example": "Er schwimmt sehr gut."
+          "meaning": "nadar",
+          "example": "Er schwimmt jeden Tag im Pool. – Nada todos los días en la piscina."
         },
         {
           "word": "duschen",
-          "meaning": "bañarse o tomar un baño",
-          "example": "Ich dusche am Morgen."
+          "meaning": "ducharse",
+          "example": "Ich dusche jeden Morgen. – Me ducho todas las mañanas."
         },
         {
-          "word": "schwimmen gehen",
-          "meaning": "irse nadando",
-          "example": "Ich gehe heute schwimmen."
+          "word": "sich waschen",
+          "meaning": "lavarse",
+          "example": "Ich wasche mich schnell. – Me lavo rápido."
         }
       ],
-      "tip": {
-        "text": "Recuerda: bañarse o estar en el agua → baden; nadar como movimiento → schwimmen."
-      },
+      "tip": [
+        "Baden gehen = ir a bañarse. Prueba a usar la expresión en verano.",
+        "Compáralo con schwimmen y duschen: no son sinónimos."
+      ],
       "important": [
-        "baden y schwimmen no son sinónimos.",
-        "En español a menudo se dice simplemente \"nadar\", pero en alemán hay que elegir según la situación."
+        "Baden no significa 'nadar' como deporte: para eso está schwimmen.",
+        "Ducharse es duschen, no baden."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "baden",
+            "badet",
+            "badete",
+            "gebadet",
+            "baden gehen",
+            "das Baby baden"
+          ],
           "purple": [
-            "estar en el agua"
+            "bañarse",
+            "darse un baño en la bañera",
+            "bañar",
+            "Nadar"
           ]
         },
         "examples": [
@@ -1894,7 +2279,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nadar"
+                "nos bañamos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bade"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "darme un baño"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "badet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Baña"
               ]
             }
           },
@@ -1902,38 +2311,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "baden"
-              ],
-              "green": [
-                "See"
               ]
             },
             "lv": {
               "purple": [
-                "nadar"
+                "bañarnos"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "schwimmt"
+              "blue": [
+                "baden"
               ]
             },
             "lv": {
-              "red": [
-                "nada"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "schwimme"
-              ]
-            },
-            "lv": {
-              "red": [
-                "voy a nadar"
+              "purple": [
+                "bañarse"
               ]
             }
           }
@@ -1942,38 +2336,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "baden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "nadar",
-                "nadar",
-                "lavar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "baden"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "schwimmen"
               ]
             },
             "meaning": {
               "purple": [
-                "nadar",
-                "movimiento",
-                "deporte"
-              ]
-            },
-            "example": {
-              "red": [
-                "schwimmt"
+                "nadar"
               ]
             }
           },
@@ -1985,53 +2353,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tomar una ducha"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "dusche"
+                "ducharse"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "schwimmen gehen"
+                "sich waschen"
               ]
             },
             "meaning": {
               "purple": [
-                "irse nadando"
-              ]
-            },
-            "example": {
-              "green": [
-                "schwimmen"
+                "lavarse"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "baden"
-            ],
-            "purple": [
-              "Recuerde"
-            ],
-            "red": [
-              "schwimmen",
-              "movimiento de natación"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "baden"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -2059,7 +2404,7 @@ const A1_WORDS = [
     "de": "Banane",
     "de_article": "die",
     "de_plural": "die Bananen",
-    "lv": "banana",
+    "lv": "plátano",
     "level": "A1"
   },
   {
@@ -2095,76 +2440,137 @@ const A1_WORDS = [
   },
   {
     "de": "bei",
-    "lv": "en",
+    "lv": "junto a • en casa de",
     "level": "A1",
     "study": {
       "id": "a1-bei",
       "layout": "standardStudy",
-      "translation": "en",
-      "explanation": "Se usa cuando algo está cerca de una persona, organización, lugar o sucede bajo algunas circunstancias.",
+      "translation": "junto a • en casa de",
+      "explanation": [
+        "Idea principal: bei indica que se está con una persona, en una empresa o cerca de un lugar: bei meiner Oma (en casa de mi abuela), bei der Bank (en el banco, junto al banco), beim Arzt (en el médico).",
+        "Solo rige dativo. Contracción: bei dem → beim. También indica durante qué actividad ocurre algo: beim Essen (comiendo, durante la comida), beim Lernen (estudiando).",
+        "Trabajar en una empresa: bei Siemens arbeiten. No expresa movimiento hacia alguien, solo estancia; para el movimiento se usa zu."
+      ],
       "examples": [
         {
-          "de": "Ich bin bei meinem Freund.",
-          "lv": "Estoy en casa de mi amigo."
+          "de": "Ich wohne bei meiner Tante.",
+          "lv": "Vivo en casa de mi tía."
         },
         {
-          "de": "Sie arbeitet bei Siemens.",
-          "lv": "ella trabaja para Siemens."
+          "de": "Sie arbeitet bei einer Bank.",
+          "lv": "Trabaja en un banco."
         },
         {
-          "de": "Bei Regen bleiben wir zu Hause.",
-          "lv": "Nos quedamos en casa cuando llueve."
+          "de": "Er ist beim Arzt.",
+          "lv": "Está en el médico."
+        },
+        {
+          "de": "Beim Essen spricht man nicht.",
+          "lv": "Mientras se come no se habla."
+        },
+        {
+          "de": "Das Hotel liegt bei dem Bahnhof.",
+          "lv": "El hotel está junto a la estación."
         }
       ],
       "comparison": [
         {
-          "word": "bei",
-          "meaning": "en una persona, empresa o bajo ciertas circunstancias",
-          "example": "Ich bin bei meiner Schwester. – Estoy con mi hermana."
+          "word": "zu",
+          "meaning": "a (casa de), hacia (¿adónde?)",
+          "example": "Ich gehe zu meiner Oma. – Voy a casa de mi abuela."
         },
         {
           "word": "an",
-          "meaning": "junto a una pared, un borde o la orilla",
-          "example": "Das Bild hängt an der Wand. – El cuadro está colgado en la pared."
+          "meaning": "junto a, en (superficie)",
+          "example": "Er steht am Fenster. – Está de pie junto a la ventana."
         },
         {
-          "word": "zu",
-          "meaning": "a (dirección)",
-          "example": "Ich gehe zu meinem Freund. – Voy a casa de mi amigo."
+          "word": "mit",
+          "meaning": "con",
+          "example": "Ich gehe mit Anna. – Voy con Anna."
         }
       ],
-      "tip": {
-        "text": "Recuerde: en persona/lugar/empresa → bei."
-      },
+      "tip": [
+        "Bei = estar con alguien, zu = ir hacia alguien: Ich bin beim Arzt, Ich gehe zum Arzt.",
+        "Beim + infinitivo sustantivado (beim Essen, beim Lernen) es una forma práctica de decir 'mientras se hace algo'."
+      ],
+      "important": [
+        "Bei siempre rige dativo, nunca acusativo.",
+        "Para la pregunta Wohin? (¿adónde?) bei no sirve: ahí se usan zu o nach."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "bei",
+            "beim",
+            "bei meiner Oma",
+            "bei der Bank",
+            "bei dem"
+          ],
+          "purple": [
+            "en casa de",
+            "en el médico",
+            "comiendo"
+          ]
+        },
         "examples": [
           {
-            "blue": [
-              "bei"
-            ],
             "de": {
               "blue": [
                 "bei"
               ]
-            }
-          },
-          {
-            "blue": [
-              "bei"
-            ],
-            "de": {
-              "blue": [
-                "bei"
+            },
+            "lv": {
+              "purple": [
+                "en casa de"
               ]
             }
           },
           {
-            "blue": [
-              "Bei"
-            ],
             "de": {
               "blue": [
-                "Bei"
+                "bei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "en"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "beim"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "en el médico"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Beim"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Mientras se come"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "junto a"
               ]
             }
           }
@@ -2172,13 +2578,13 @@ const A1_WORDS = [
         "comparison": [
           {
             "word": {
-              "purple": [
-                "bei"
+              "green": [
+                "zu"
               ]
             },
-            "example": {
+            "meaning": {
               "purple": [
-                "bei"
+                "a"
               ]
             }
           },
@@ -2188,49 +2594,34 @@ const A1_WORDS = [
                 "an"
               ]
             },
-            "example": {
-              "green": [
-                "an"
+            "meaning": {
+              "purple": [
+                "junto a"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "zu"
+                "mit"
               ]
             },
-            "example": {
-              "red": [
-                "zu"
+            "meaning": {
+              "purple": [
+                "con"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "purple": [
-              "bei"
-            ],
-            "green": [
-              "Recuerde",
-              "Recuerde",
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "bei"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "bei a menudo significa en una persona, en un lugar o en una empresa.",
-        "Cuando se trata de subir a la superficie, normalmente se necesita auf, no bei."
-      ]
+      }
     }
   },
   {
@@ -2288,60 +2679,73 @@ const A1_WORDS = [
     "study": {
       "id": "a1-besuch",
       "layout": "standardStudy",
-      "translation": "visita",
+      "translation": "una visita",
       "explanation": [
-        "Idea principal: der Besuch significa una visita a un lugar, a un evento o a una persona.",
-        "Besuch nombra la visita como hecho o acontecimiento, no a la persona que visita.",
-        "También puede referirse a una visita médica.",
-        "El plural es die Besuche."
+        "Idea principal: der Besuch es un sustantivo masculino con dos significados principales: la visita a un lugar (Besuch im Museum) y la visita en el sentido de invitados que llegan a casa (Wir haben Besuch).",
+        "El plural es die Besuche. Para referirse a los invitados se usa en singular y sin artículo: Wir bekommen Besuch (vamos a tener visita); estar de visita: zu Besuch sein.",
+        "A la persona que está de visita se la llama der Gast; der Besuch es el acto de visitar o el conjunto de personas que llegan, igual que en español 'tenemos visita'."
       ],
       "examples": [
         {
-          "de": "Der Besuch im Museum war interessant.",
-          "lv": "La visita al museo fue interesante."
+          "de": "Der Besuch im Museum dauert zwei Stunden.",
+          "lv": "La visita al museo dura dos horas."
         },
         {
-          "de": "Danke für deinen Besuch.",
-          "lv": "Gracias por tu visita."
+          "de": "Wir bekommen morgen Besuch aus Berlin.",
+          "lv": "Mañana tenemos visita de Berlín."
         },
         {
-          "de": "Der Arzt macht einen Besuch.",
-          "lv": "El médico hace una visita."
+          "de": "Ich freue mich auf deinen Besuch.",
+          "lv": "Tengo muchas ganas de que vengas de visita."
+        },
+        {
+          "de": "Meine Oma ist zu Besuch.",
+          "lv": "Mi abuela está de visita."
+        },
+        {
+          "de": "Nach dem Besuch beim Arzt gehe ich einkaufen.",
+          "lv": "Después de la visita al médico voy a hacer la compra."
         }
       ],
       "comparison": [
         {
-          "word": "der Besuch",
-          "meaning": "visita",
-          "example": "Danke für deinen Besuch. – Gracias por tu visita."
-        },
-        {
-          "word": "der Besucher",
-          "meaning": "visitante",
-          "example": "Der Besucher wartet draußen. – El visitante espera fuera."
+          "word": "der Gast",
+          "meaning": "invitado (persona)",
+          "example": "Er ist unser Gast. – Es nuestro invitado."
         },
         {
           "word": "besuchen",
           "meaning": "visitar",
-          "example": "Ich besuche meine Großeltern. – Visito a mis abuelos."
+          "example": "Ich besuche meine Oma. – Visito a mi abuela."
+        },
+        {
+          "word": "der Ausflug",
+          "meaning": "excursión",
+          "example": "Wir machen einen Ausflug. – Hacemos una excursión."
         }
       ],
-      "tip": {
-        "text": "Recuerda: Besuch es la visita; Besucher es la persona que visita."
-      },
+      "tip": [
+        "Para decir 'tenemos visita' usa Wir haben Besuch: sin artículo y sin plural.",
+        "Zu Besuch sein = estar de visita; zu Besuch kommen = venir de visita."
+      ],
       "important": [
-        "der Besuch puede ser una visita social, una visita a un lugar o una visita médica.",
-        "Plural: die Besuche."
+        "El plural Besuche significa varias visitas, no varios invitados.",
+        "Der Besuch no es lo mismo que der Gast: Gast es la persona."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "der Besuch",
-            "die Besuche"
+            "Besuch",
+            "die Besuche",
+            "Wir haben Besuch",
+            "zu Besuch sein",
+            "der Gast"
           ],
           "purple": [
             "visita",
-            "visita médica"
+            "invitados",
+            "de visita"
           ]
         },
         "examples": [
@@ -2349,17 +2753,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Besuch"
-              ],
-              "green": [
-                "Museum"
               ]
             },
             "lv": {
               "purple": [
                 "visita"
-              ],
-              "green": [
-                "museo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "visita"
               ]
             }
           },
@@ -2379,17 +2789,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Besuch"
-              ],
-              "green": [
-                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "de visita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
               ]
             },
             "lv": {
               "purple": [
                 "visita"
-              ],
-              "green": [
-                "médico"
               ]
             }
           }
@@ -2398,24 +2814,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "der Besuch"
+                "der Gast"
               ]
             },
             "meaning": {
               "purple": [
-                "visita"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "der Besucher"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "visitante"
+                "invitado"
               ]
             }
           },
@@ -2430,36 +2834,27 @@ const A1_WORDS = [
                 "visitar"
               ]
             }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Besuch"
-            ],
-            "purple": [
-              "visita"
-            ],
-            "green": [
-              "Besucher"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "der Besuch"
-            ],
-            "purple": [
-              "visita",
-              "visita médica"
-            ]
           },
           {
-            "blue": [
-              "die Besuche"
-            ]
+            "word": {
+              "green": [
+                "der Ausflug"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "excursión"
+              ]
+            }
           }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -2480,62 +2875,71 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "visitar",
       "explanation": [
-        "Idea principal: besuchen significa visitar a una persona, un lugar o un evento.",
-        "En alemán, besuchen se usa sin preposición y rige acusativo.",
-        "En español se usa visitar un lugar, pero visitar a una persona.",
-        "Según el contexto, para un curso o una escuela también puede equivaler a asistir a."
+        "Idea principal: besuchen significa visitar un lugar o ir a ver a una persona. Rige acusativo: Ich besuche meine Oma, Wir besuchen das Museum. Con un curso o un centro escolar: die Schule besuchen (ir al colegio), einen Kurs besuchen (asistir a un curso).",
+        "Formas: er besucht, besuchte, hat besucht. El prefijo be- es inseparable, por eso ich besuche, wir haben besucht; no lleva ge-.",
+        "Para ir a casa de alguien también se dice zu jemandem gehen, pero besuchen subraya que se trata de una visita intencionada."
       ],
       "examples": [
         {
-          "de": "Ich besuche das Museum.",
-          "lv": "Visito el museo."
+          "de": "Ich besuche meine Oma jeden Sonntag.",
+          "lv": "Visito a mi abuela todos los domingos."
         },
         {
-          "de": "Wir besuchen einen Deutschkurs.",
-          "lv": "Asistimos a un curso de alemán."
+          "de": "Wir besuchen morgen das Museum.",
+          "lv": "Mañana visitaremos el museo."
         },
         {
-          "de": "Ich besuche meine Großeltern.",
-          "lv": "Visito a mis abuelos."
+          "de": "Er besucht einen Deutschkurs.",
+          "lv": "Asiste a un curso de alemán."
+        },
+        {
+          "de": "Hast du ihn im Krankenhaus besucht?",
+          "lv": "¿Has ido a verlo al hospital?"
+        },
+        {
+          "de": "Sie besucht ihre Freundin in Berlin.",
+          "lv": "Visita a su amiga en Berlín."
         }
       ],
       "comparison": [
         {
-          "word": "besuchen",
-          "meaning": "visitar • asistir a",
-          "example": "Ich besuche meine Großeltern. – Visito a mis abuelos."
-        },
-        {
-          "word": "treffen",
-          "meaning": "encontrarse con • quedar con",
-          "example": "Ich treffe meinen Freund. – Me encuentro con mi amigo."
+          "word": "besichtigen",
+          "meaning": "visitar (como turista)",
+          "example": "Wir besichtigen das Schloss. – Visitamos el castillo."
         },
         {
           "word": "zu jemandem gehen",
           "meaning": "ir a casa de alguien",
-          "example": "Ich gehe zu meinem Freund. – Voy a casa de mi amigo."
+          "example": "Ich gehe zu Anna. – Voy a casa de Anna."
+        },
+        {
+          "word": "teilnehmen",
+          "meaning": "participar",
+          "example": "Er nimmt am Kurs teil. – Participa en el curso."
         }
       ],
-      "tip": {
-        "text": "Recuerda: besuchen no lleva preposición en alemán; la persona o el lugar va en acusativo."
-      },
+      "tip": [
+        "Besuchen rige acusativo sin preposición, aunque en español se diga 'visitar a alguien': jemanden besuchen, no 'zu jemandem besuchen'.",
+        "En pasado: hat besucht, no 'hat gebesucht'."
+      ],
       "important": [
-        "Ich besuche meine Freundin, no ich besuche zu meiner Freundin.",
-        "En español, delante de una persona normalmente se usa la a personal: Visito a mi amiga."
+        "Besuchen tiene un prefijo inseparable, por eso el participio no lleva ge-.",
+        "Con besuchen se puede hablar tanto de personas como de lugares o eventos."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "besuchen"
+            "besuchen",
+            "besucht",
+            "besuchte",
+            "hat besucht",
+            "die Schule besuchen",
+            "Ich besuche meine Oma"
           ],
           "purple": [
             "visitar",
-            "asistir a"
-          ],
-          "green": [
-            "persona",
-            "lugar",
-            "evento"
+            "ir a ver",
+            "asistir"
           ]
         },
         "examples": [
@@ -2543,17 +2947,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "besuche"
-              ],
-              "green": [
-                "Museum"
               ]
             },
             "lv": {
               "purple": [
                 "Visito"
-              ],
-              "green": [
-                "museo"
               ]
             }
           },
@@ -2561,35 +2959,47 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "besuchen"
-              ],
-              "green": [
-                "Deutschkurs"
               ]
             },
             "lv": {
               "purple": [
-                "Asistimos"
-              ],
-              "green": [
-                "curso de alemán"
+                "visitaremos"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "besuche"
-              ],
-              "green": [
-                "Großeltern"
+                "besucht"
               ]
             },
             "lv": {
               "purple": [
-                "Visito"
-              ],
-              "green": [
-                "abuelos"
+                "Asiste"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besucht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Has ido a verlo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besucht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Visita"
               ]
             }
           }
@@ -2598,34 +3008,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "besuchen"
+                "besichtigen"
               ]
             },
             "meaning": {
               "purple": [
-                "visitar",
-                "asistir a"
-              ]
-            },
-            "example": {
-              "blue": [
-                "besuche"
-              ],
-              "purple": [
-                "Visito"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "treffen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "encontrarse con",
-                "quedar con"
+                "visitar"
               ]
             }
           },
@@ -2640,39 +3028,27 @@ const A1_WORDS = [
                 "ir a casa de alguien"
               ]
             }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "besuchen"
-            ],
-            "purple": [
-              "sin preposición"
-            ],
-            "green": [
-              "acusativo"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "besuche"
-            ],
-            "purple": [
-              "no",
-              "zu"
-            ]
           },
           {
-            "green": [
-              "persona"
-            ],
-            "purple": [
-              "a personal"
-            ]
+            "word": {
+              "green": [
+                "teilnehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "participar"
+              ]
+            }
           }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -2692,133 +3068,172 @@ const A1_WORDS = [
       "id": "a1-bis",
       "layout": "standardStudy",
       "translation": "hasta",
-      "explanation": "Se refiere a un límite, punto en el tiempo o condición.",
+      "explanation": [
+        "Idea principal: bis marca el límite en el tiempo o en el espacio: hasta. Bis Montag (hasta el lunes), bis 18 Uhr (hasta las 18:00), bis Berlin (hasta Berlín).",
+        "Delante de días, horas y nombres de lugar, bis suele ir sin artículo y sin marca de caso: bis morgen, bis Freitag. Con lugares es frecuente bis zum Bahnhof (bis zu + dativo). Para indicar un intervalo se usa von … bis …: von 9 bis 17 Uhr (de 9 a 17 h).",
+        "Bis también puede ser conjunción, 'hasta que': Warte, bis ich komme — el verbo va al final de la oración. A diferencia del español, no exige subjuntivo: bis ich komme = hasta que yo venga."
+      ],
       "examples": [
         {
-          "de": "Ich warte bis zu deiner Ankunft.",
-          "lv": "Estoy esperando hasta que llegues."
+          "de": "Ich arbeite bis 17 Uhr.",
+          "lv": "Trabajo hasta las 17:00."
         },
         {
-          "de": "Bleib hier, bis ich zurückkomme.",
-          "lv": "Quédate aquí hasta que yo regrese."
+          "de": "Bis morgen!",
+          "lv": "¡Hasta mañana!"
         },
         {
-          "de": "Ich lerne Deutsch bis zum Abend.",
-          "lv": "Estudio alemán hasta la noche."
+          "de": "Fahren Sie bis zum Bahnhof.",
+          "lv": "Siga hasta la estación."
         },
         {
-          "de": "Bis jetzt habe ich nichts verstanden.",
-          "lv": "Hasta ahora no he entendido nada."
+          "de": "Warte hier, bis ich zurückkomme.",
+          "lv": "Espera aquí hasta que vuelva."
+        },
+        {
+          "de": "Der Zug fährt bis Berlin.",
+          "lv": "El tren va hasta Berlín."
         }
       ],
       "comparison": [
         {
-          "word": "bis",
-          "meaning": "hasta (se alcanza el punto de tiempo)",
-          "example": "Ich bleibe bis morgen. – Me quedaré hasta las 18:00."
+          "word": "von",
+          "meaning": "de, desde",
+          "example": "Von 9 bis 17 Uhr. – De 9 a 17 h."
         },
         {
-          "word": "bis zu",
-          "meaning": "hasta (hasta cierto tiempo)",
-          "example": "bis zum Bahnhof – Trabajo de 9 a 17."
+          "word": "ab",
+          "meaning": "a partir de",
+          "example": "Ab Montag arbeite ich wieder. – A partir del lunes vuelvo a trabajar."
         },
         {
-          "word": "bis jetzt",
-          "meaning": "hasta",
-          "example": "Bis jetzt habe ich nichts verstanden. – Estoy esperando que vengas."
+          "word": "während",
+          "meaning": "mientras, durante",
+          "example": "Während ich koche, liest er. – Mientras yo cocino, él lee."
         }
       ],
-      "tip": {
-        "text": "Recuerda: frontera en tiempo/condición → bis."
-      },
+      "tip": [
+        "Bis + zu + dativo se usa con lugares que llevan artículo: bis zum Bahnhof, bis zur Schule.",
+        "Bis bald! = ¡hasta pronto!"
+      ],
+      "important": [
+        "Cuando bis es conjunción, el verbo va al final de la oración.",
+        "Bis no lleva artículo con horas, días y ciudades: bis Montag, no 'bis den Montag'."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "bis",
+            "Bis"
+          ],
+          "purple": [
+            "hasta"
+          ]
+        },
         "examples": [
           {
-            "purple": [
-              "bis"
-            ]
+            "de": {
+              "blue": [
+                "bis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hasta"
+              ]
+            }
           },
           {
-            "purple": [
-              "bis"
-            ]
+            "de": {
+              "blue": [
+                "Bis"
+              ]
+            }
           },
           {
-            "purple": [
-              "bis"
-            ]
+            "de": {
+              "blue": [
+                "bis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hasta"
+              ]
+            }
           },
           {
-            "blue": [
-              "Bis jetzt"
-            ]
+            "de": {
+              "blue": [
+                "bis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hasta que"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hasta"
+              ]
+            }
           }
         ],
         "comparison": [
           {
             "word": {
-              "purple": [
-                "bis"
+              "green": [
+                "von"
               ]
             },
-            "example": {
+            "meaning": {
               "purple": [
-                "bis"
+                "de"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "bis zu"
+                "ab"
               ]
             },
-            "example": {
-              "green": [
-                "bis"
+            "meaning": {
+              "purple": [
+                "a partir de"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "bis jetzt"
+                "während"
               ]
             },
-            "example": {
-              "yellow": [
-                "bis dass"
+            "meaning": {
+              "purple": [
+                "mientras"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "purple": [
-              "bis"
-            ],
-            "green": [
-              "Recuerda",
-              "Recuerda",
-              "Recuerda"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "bis",
-              "bis",
-              "bis"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "bis = a un límite o punto en el tiempo.",
-        "bis jetzt = hasta ahora; bis dass = hasta.",
-        "bis jetzt significa hasta ahora."
-      ]
+      }
     }
   },
   {
@@ -2835,36 +3250,247 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "por favor",
       "explanation": [
-        "Idea principal: Palabra cortés en minúscula. Solía ​​​​ser educado, por favor.",
-        "bitte significa principalmente: cortesía.",
-        "A menudo describe: una palabra cortés."
+        "Idea principal: bitte ('por favor') es una palabra de cortesía que se usa para pedir algo (Kannst du mir bitte helfen?), para ofrecer (Bitte, nehmen Sie Platz) o para responder a un agradecimiento (Danke! – Bitte!).",
+        "La palabra es invariable. Bitte schön es una forma más cortés al ofrecer algo ('aquí tiene'), y bitte sehr, todavía más formal. Wie bitte? significa '¿cómo dice?' o '¿perdón?' cuando no has oído bien.",
+        "El sustantivo die Bitte, con mayúscula, significa 'petición, ruego': es otra palabra. Como respuesta a Danke, bitte equivale a 'de nada'."
       ],
       "examples": [
         {
-          "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "¡Por favor!"
+          "de": "Können Sie mir bitte helfen?",
+          "lv": "¿Me puede ayudar, por favor?"
         },
         {
-          "de": "Komm bitte herein.",
-          "lv": "¡Por favor!"
+          "de": "Bitte, nehmen Sie Platz.",
+          "lv": "Siéntese, por favor."
         },
         {
-          "de": "Bitte schön!",
-          "lv": "una taza de café, por favor."
+          "de": "Danke für das Geschenk! – Bitte!",
+          "lv": "¡Gracias por el regalo! – ¡De nada!"
+        },
+        {
+          "de": "Wie bitte?",
+          "lv": "¿Cómo dice?"
+        },
+        {
+          "de": "Bitte schön, hier ist Ihr Kaffee.",
+          "lv": "Tenga, aquí tiene su café."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "danke",
+          "meaning": "gracias",
+          "example": "Danke für deine Hilfe! – ¡Gracias por tu ayuda!"
+        },
+        {
+          "word": "die Bitte",
+          "meaning": "petición, ruego",
+          "example": "Ich habe eine Bitte. – Tengo una petición."
+        },
+        {
+          "word": "gern geschehen",
+          "meaning": "de nada",
+          "example": "Danke! – Gern geschehen! – ¡Gracias! – ¡De nada!"
         }
       ],
       "tip": [
-        "Little bitte = por favor (Bitte schön!, Kaffee, bitte). die Bitte con mayúscula = petición (eine Bitte, meine Bitte).",
-        "Cortesía en minúsculas. Solía ​​​​ser educado, por favor."
+        "Como respuesta a Danke se dice Bitte! o Gern geschehen!",
+        "Wie bitte? es una forma educada de pedir que te repitan algo."
       ],
       "important": [
-        "bitte está en minúscula: es una palabra educada, no un sustantivo.",
-        "die Bitte con mayúscula y el artículo die es un sustantivo.",
-        "Plural: die Bitten (solicitudes)."
+        "La petición como sustantivo es die Bitte (con mayúscula); bitte con minúscula es la palabra de cortesía.",
+        "En medio de la oración, bitte suele ir detrás del verbo o del pronombre: Kannst du bitte kommen?"
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "bitte",
+            "Bitte"
+          ],
           "purple": [
+            "por favor",
+            "de nada"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "por favor"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "por favor"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "De nada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Cómo dice"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aquí tiene"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "danke"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gracias"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "petición"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gern geschehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "de nada"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
+    }
+  },
+  {
+    "de": "Bitte",
+    "de_article": "die",
+    "de_plural": "die Bitten",
+    "lv": "petición • ruego",
+    "level": "A1",
+    "study": {
+      "id": "a1-bitte-study",
+      "layout": "standardStudy",
+      "translation": "petición • ruego",
+      "explanation": [
+        "Idea principal: die Bitte es un sustantivo femenino que significa petición o ruego: lo que alguien quiere conseguir de otra persona.",
+        "El plural es die Bitten. Combinaciones frecuentes: eine Bitte haben (tener una petición, querer pedir algo), eine Bitte an jemanden richten (dirigir una petición a alguien), eine Bitte erfüllen (atender una petición), die Bitte um Hilfe (la petición de ayuda).",
+        "La palabra bitte con minúscula es la fórmula de cortesía 'por favor', no un sustantivo; se usa al pedir algo y como respuesta a Danke."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe eine Bitte an dich.",
+          "lv": "Tengo una petición que hacerte."
+        },
+        {
+          "de": "Er erfüllt meine Bitte sofort.",
+          "lv": "Atiende mi petición enseguida."
+        },
+        {
+          "de": "Sie hat zwei Bitten an den Chef.",
+          "lv": "Tiene dos peticiones para el jefe."
+        },
+        {
+          "de": "Das ist meine letzte Bitte.",
+          "lv": "Es mi último ruego."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bitte",
+          "meaning": "por favor",
+          "example": "Kannst du bitte das Fenster öffnen? – ¿Puedes abrir la ventana, por favor?"
+        },
+        {
+          "word": "die Frage",
+          "meaning": "pregunta",
+          "example": "Ich habe eine Frage. – Tengo una pregunta."
+        },
+        {
+          "word": "der Wunsch",
+          "meaning": "deseo",
+          "example": "Mein Wunsch ist ein Hund. – Mi deseo es un perro."
+        }
+      ],
+      "tip": [
+        "Si la palabra lleva artículo o adjetivo (eine Bitte, meine Bitte), es el sustantivo 'petición'; si aparece sola en la oración (Komm bitte!), significa 'por favor'.",
+        "Como respuesta a Danke! se dice Bitte!: es una fórmula de cortesía ('de nada')."
+      ],
+      "important": [
+        "El sustantivo die Bitte se escribe con mayúscula y la palabra de cortesía bitte, con minúscula (a principio de oración, ambas con mayúscula).",
+        "Pedir algo en alemán se expresa normalmente con bitten um + acusativo: Ich bitte um Hilfe."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Bitte",
+            "die Bitten",
+            "bitte",
+            "Bitte"
+          ],
+          "purple": [
+            "petición",
             "por favor"
           ]
         },
@@ -2872,24 +3498,12 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "bitte"
+                "Bitte"
               ]
             },
             "lv": {
               "purple": [
-                "por favor"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "por favor"
+                "petición"
               ]
             }
           },
@@ -2901,158 +3515,82 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "por favor"
+                "petición"
               ]
             }
-          }
-        ],
-        "tip": {},
-        "important": [
+          },
           {
-            "blue": [
-              "bitte"
-            ]
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
+            "de": {
               "blue": [
-                "bitte"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "die Bitte"
-              ]
-            }
-          }
-        ]
-      },
-      "comparison": [
-        {
-          "word": "bitte",
-          "meaning": "por favor",
-          "example": "Komm bitte herein. – Entra, por favor."
-        },
-        {
-          "word": "die Bitte",
-          "meaning": "petición",
-          "example": "Ich habe eine Bitte. – Tengo una petición."
-        }
-      ]
-    }
-  },
-  {
-    "de": "Bitte",
-    "de_article": "die",
-    "de_plural": "die Bitten",
-    "lv": "una solicitud",
-    "level": "A1",
-    "study": {
-      "id": "a1-bitte-study",
-      "layout": "standardStudy",
-      "translation": "una solicitud",
-      "explanation": [
-        "Idea principal: Sustantivo con artículo die y mayúscula. Una petición o petición específica.",
-        "die Bitte significa principalmente: cortesía.",
-        "A menudo describe: una palabra cortés.",
-        "die Bitte significa básicamente: petición/solicitud."
-      ],
-      "examples": [
-        {
-          "de": "Ich habe eine Bitte.",
-          "lv": "Tengo una petición."
-        },
-        {
-          "de": "Er erfüllt meine Bitte.",
-          "lv": "¡Por favor!"
-        },
-        {
-          "de": "Sie hat zwei Bitten.",
-          "lv": "una taza de café, por favor."
-        }
-      ],
-      "tip": [
-        "Little bitte = por favor (Bitte schön!, Kaffee, bitte). die Bitte con mayúscula = petición (eine Bitte, meine Bitte).",
-        "Un sustantivo con el artículo morir y mayúscula. Una petición o petición específica."
-      ],
-      "important": [
-        "bitte está en minúscula: es una palabra educada, no un sustantivo.",
-        "die Bitte con mayúscula y el artículo die es un sustantivo.",
-        "Plural: die Bitten (solicitudes)."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "purple": [
-            "una solicitud"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "green": [
-                "Bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Tengo"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
                 "Bitten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "peticiones"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ruego"
+              ]
+            }
           }
-        ],
-        "tip": {},
-        "important": [
-          {}
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "die Bitte"
+                "bitte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "por favor"
               ]
             }
           },
           {
             "word": {
-              "blue": [
-                "bitte"
+              "green": [
+                "die Frage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pregunta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Wunsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "deseo"
               ]
             }
           }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
-      },
-      "comparison": [
-        {
-          "word": "die Bitte",
-          "meaning": "petición",
-          "example": "Ich habe eine Bitte. – Tengo una petición."
-        },
-        {
-          "word": "bitte",
-          "meaning": "por favor",
-          "example": "Komm bitte herein. – Entra, por favor."
-        }
-      ]
+      }
     }
   },
   {
@@ -3100,63 +3638,72 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "permanecer",
       "explanation": [
-        "Idea principal: bleiben significa quedarse.",
-        "bleiben se usa cuando una persona o cosa no desaparece y permanece en el mismo lugar o estado.",
-        "Es lo opuesto a gehen y fahren cuando se trata de irse.",
-        "Una frase muy común es Ich bleibe zu Hause."
+        "Idea principal: bleiben significa quedarse o permanecer en un lugar o en un estado: Ich bleibe zu Hause (me quedo en casa), Das Wetter bleibt schön (el tiempo sigue siendo bueno).",
+        "Formas: er bleibt, blieb, ist geblieben. En el Perfekt el auxiliar es sein, no haben: Ich bin zu Hause geblieben.",
+        "Detrás de bleiben puede ir un lugar o un adjetivo; con un infinitivo forma expresiones: stehen bleiben (pararse, detenerse), sitzen bleiben (quedarse sentado). En el uso diario, 'quedarse' es la traducción más natural; 'permanecer' es más formal."
       ],
       "examples": [
         {
-          "de": "Ich bleibe zu Hause.",
-          "lv": "Me quedo en casa."
+          "de": "Ich bleibe heute zu Hause.",
+          "lv": "Hoy me quedo en casa."
         },
         {
-          "de": "Bleib hier!",
-          "lv": "¡Quédate aquí!"
+          "de": "Wie lange bleibst du in Berlin?",
+          "lv": "¿Cuánto tiempo te quedas en Berlín?"
         },
         {
-          "de": "Wir bleiben noch eine Stunde.",
-          "lv": "Nos quedamos una hora más."
+          "de": "Das Wetter bleibt schön.",
+          "lv": "El tiempo sigue siendo bueno."
         },
         {
-          "de": "Ich gehe nach Hause.",
-          "lv": "Me quedo en casa."
+          "de": "Wir sind drei Tage geblieben.",
+          "lv": "Nos quedamos tres días."
+        },
+        {
+          "de": "Bleib bitte ruhig!",
+          "lv": "¡Mantén la calma, por favor!"
         }
       ],
       "comparison": [
         {
-          "word": "bleiben",
-          "meaning": "permanecer",
-          "example": "Ich bleibe hier."
-        },
-        {
-          "word": "gehen",
-          "meaning": "ir/salir a pie",
-          "example": "Ich gehe nach Hause."
-        },
-        {
-          "word": "fahren",
-          "meaning": "conducir / desplazarse en transporte",
-          "example": "Ich fahre nach Hause."
+          "word": "wohnen",
+          "meaning": "vivir, residir",
+          "example": "Ich wohne in Riga. – Vivo en Riga."
         },
         {
           "word": "warten",
           "meaning": "esperar",
-          "example": "Ich warte hier."
+          "example": "Ich warte auf den Bus. – Espero el autobús."
+        },
+        {
+          "word": "sein",
+          "meaning": "ser, estar",
+          "example": "Ich bin zu Hause. – Estoy en casa."
         }
       ],
-      "tip": {
-        "text": "Recuerda: no te vayas → bleiben; se va a pie → gehen."
-      },
+      "tip": [
+        "En el Perfekt di ist geblieben, no 'hat geblieben'.",
+        "Bleib! es el imperativo: Bleib hier!"
+      ],
       "important": [
-        "bleiben significa quedarse, no esperar.",
-        "Ich bleibe hier = me quedo aquí; Ich warte hier = Estoy esperando aquí."
+        "Bleiben es un verbo fuerte: blieb, ist geblieben.",
+        "No lo confundas con wohnen: donde vives es wohnen; donde estás una temporada, bleiben."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "bleiben",
+            "bleibt",
+            "blieb",
+            "ist geblieben",
+            "stehen bleiben",
+            "bleibe"
+          ],
           "purple": [
-            "permanece",
-            "Idea"
+            "permanecer",
+            "me quedo en casa",
+            "sigue siendo bueno",
+            "quedarse"
           ]
         },
         "examples": [
@@ -3168,7 +3715,43 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "quedo"
+                "me quedo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bleibst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "te quedas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bleibt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sigue siendo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "geblieben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Nos quedamos"
               ]
             }
           },
@@ -3180,31 +3763,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "quédate"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bleiben"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Nos"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "gehe"
-              ]
-            },
-            "lv": {
-              "red": [
-                "voy"
+                "Mantén"
               ]
             }
           }
@@ -3213,53 +3772,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bleiben"
+                "wohnen"
               ]
             },
             "meaning": {
               "purple": [
-                "permanecer"
-              ]
-            },
-            "example": {
-              "blue": [
-                "bleibe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "gehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ir",
-                "ir/salir"
-              ]
-            },
-            "example": {
-              "red": [
-                "gehe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "fahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "braukt",
-                "transportu"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "fahre"
+                "vivir"
               ]
             }
           },
@@ -3273,33 +3791,28 @@ const A1_WORDS = [
               "purple": [
                 "esperar"
               ]
-            },
-            "example": {
+            }
+          },
+          {
+            "word": {
               "green": [
-                "warte"
+                "sein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ser"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "bleiben"
-            ],
-            "purple": [
-              "Recuerda"
-            ],
-            "red": [
-              "gehen"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "bleiben"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -3327,7 +3840,7 @@ const A1_WORDS = [
     "de": "Boot",
     "de_article": "das",
     "de_plural": "die Boote",
-    "lv": "un barco",
+    "lv": "barca • bote",
     "level": "A1"
   },
   {
@@ -3356,7 +3869,7 @@ const A1_WORDS = [
     "de": "Brille",
     "de_article": "die",
     "de_plural": "die Brillen",
-    "lv": "anteojos",
+    "lv": "gafas",
     "level": "A1"
   },
   {
@@ -3368,81 +3881,81 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "traer • llevar",
       "explanation": [
-        "Idea principal: traer significa traer, llevar o entregar algo a alguien.",
-        "Bringen se usa cuando algo se traslada a otro lugar o a otra persona.",
-        "No es lo mismo que nehmen, porque nehmen significa tomar para uno mismo.",
-        "Holen significa ir tras y buscar o tomar.",
-        "La traducción depende del contexto."
+        "Idea principal: bringen significa traer, llevar o acompañar a alguien o algo a un lugar o a una persona: Ich bringe dir ein Glas Wasser, Ich bringe die Kinder zur Schule.",
+        "Formas: er bringt, brachte, hat gebracht. Normalmente lleva dos complementos: ¿a quién? (dativo) y ¿qué? (acusativo): Er bringt mir das Buch.",
+        "Donde el español distingue entre traer (hacia aquí) y llevar (hacia allí), el alemán usa en ambos casos bringen; la dirección la indican el contexto o una preposición (zu, nach)."
       ],
       "examples": [
         {
-          "de": "Ich bringe dir ein Buch.",
-          "lv": "Tráeme agua, por favor."
-        },
-        {
-          "de": "Ich bringe das Paket zur Post.",
-          "lv": "Te llevaré a casa."
+          "de": "Kannst du mir ein Glas Wasser bringen?",
+          "lv": "¿Me traes un vaso de agua?"
         },
         {
           "de": "Ich bringe die Kinder zur Schule.",
-          "lv": "Lleva el libro a la escuela."
+          "lv": "Llevo a los niños al colegio."
+        },
+        {
+          "de": "Der Kellner bringt die Rechnung.",
+          "lv": "El camarero trae la cuenta."
+        },
+        {
+          "de": "Sie bringt ihm das Buch.",
+          "lv": "Le trae el libro."
+        },
+        {
+          "de": "Er hat Blumen gebracht.",
+          "lv": "Ha traído flores."
         }
       ],
       "comparison": [
         {
-          "word": "bringen",
-          "meaning": "traer / tomar / entregar",
-          "example": "Ich bringe dir ein Buch. – Bring mir Wasser."
+          "word": "holen",
+          "meaning": "ir a buscar, traer",
+          "example": "Ich hole Brot. – Voy a por pan."
         },
         {
-          "word": "bringen",
-          "meaning": "tomar / tomar",
-          "example": "Ich bringe das Paket zur Post. – Ich nehme das Buch."
+          "word": "mitbringen",
+          "meaning": "traer consigo, llevar",
+          "example": "Bring bitte Brot mit! – ¡Trae pan, por favor!"
         },
         {
-          "word": "bringen",
-          "meaning": "ir tras / buscar",
-          "example": "Ich bringe die Kinder zur Schule. – Ich hole Wasser."
-        },
-        {
-          "word": "bringen",
-          "meaning": "quitar y traer",
-          "example": "Ich bringe dir ein Buch. – Bringst du Brot mit?"
-        },
-        {
-          "word": "nehmen",
-          "meaning": "tomar",
-          "example": "Ich nehme das Buch. – Cojo el libro."
+          "word": "tragen",
+          "meaning": "llevar (en brazos, puesto)",
+          "example": "Sie trägt eine Tasche. – Lleva un bolso."
         }
       ],
-      "tip": {
-        "text": "Recuerde: pasar a alguien → traer; tómalo para ti → nehmen."
-      },
+      "tip": [
+        "Bringen suele pedir un ¿a quién? (dativo) y un ¿qué? (acusativo): jemandem etwas bringen.",
+        "Si vas a buscar algo y lo traes, se usa holen (ir a buscar)."
+      ],
       "important": [
-        "Bringen muestra dirección a alguien o a un lugar.",
-        "nehmen significa tomar, pero no necesariamente entregar a otro.",
-        "La traducción al letón depende del contexto."
+        "En pasado es hat gebracht, no 'hat gebringt'.",
+        "No confundas bringen (traer, llevar a un sitio) con tragen (llevar encima, llevar puesto)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "bringen",
+            "bringt",
+            "brachte",
+            "gebracht"
+          ],
           "purple": [
             "traer",
-            "entregar"
+            "llevar",
+            "acompañar"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Bring"
-              ],
-              "yellow": [
-                "Wasser"
+                "bringen"
               ]
             },
             "lv": {
               "purple": [
-                "tráeme"
+                "traes"
               ]
             }
           },
@@ -3450,14 +3963,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "bringe"
-              ],
-              "green": [
-                "dich"
               ]
             },
             "lv": {
               "purple": [
-                "te llevaré"
+                "Llevo"
               ]
             }
           },
@@ -3465,32 +3975,35 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "bringt"
-              ],
-              "yellow": [
-                "Buch"
               ]
             },
             "lv": {
               "purple": [
-                "lleva"
+                "trae"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
+              "blue": [
+                "bringt"
               ]
             },
             "lv": {
-              "red": [
-                "tomo"
-              ],
-              "yellow": [
-                "libro"
+              "purple": [
+                "trae"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gebracht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ha traído"
               ]
             }
           }
@@ -3499,55 +4012,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "bringen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "traer",
-                "traer",
-                "entregar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Bring"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "nehmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "tomar",
-                "tomar"
-              ]
-            },
-            "example": {
-              "red": [
-                "nehme"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "holen"
               ]
             },
             "meaning": {
               "purple": [
-                "tras",
-                "tras"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "hole"
+                "ir a buscar"
               ]
             }
           },
@@ -3559,37 +4029,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "quitar",
-                "traer"
+                "traer consigo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "tragen"
               ]
             },
-            "example": {
-              "green": [
-                "mit"
+            "meaning": {
+              "purple": [
+                "llevar"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Recuerde"
-            ],
-            "purple": [
-              "Recuerde"
-            ],
-            "red": [
-              "nehmen",
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "dirección a alguien"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -3598,14 +4061,14 @@ const A1_WORDS = [
     "de": "Butterbrot",
     "de_article": "das",
     "de_plural": "die Butterbrote",
-    "lv": "un sándwich",
+    "lv": "pan con mantequilla",
     "level": "A1"
   },
   {
     "de": "Brötchen",
     "de_article": "das",
     "de_plural": "die Brötchen",
-    "lv": "un bollo",
+    "lv": "panecillo",
     "level": "A1"
   },
   {
@@ -3674,7 +4137,7 @@ const A1_WORDS = [
     "de": "Computer",
     "de_article": "der",
     "de_plural": "die Computer",
-    "lv": "computadora",
+    "lv": "ordenador",
     "level": "A1"
   },
   {
@@ -3693,65 +4156,77 @@ const A1_WORDS = [
   },
   {
     "de": "da",
-    "lv": "allá",
+    "lv": "ahí • allí",
     "level": "A1",
     "study": {
       "id": "a1-da",
       "layout": "standardStudy",
-      "translation": "allá",
+      "translation": "ahí • allí",
       "explanation": [
-        "Idea principal: da en el nivel A1 suele significar allí.",
-        "da indica un lugar o se refiere a algo ya mencionado.",
-        "Dependiendo de la situación también se puede traducir como aquí o aquí.",
-        "En el nivel A1 aprendemos principalmente da como palabra de lugar general."
+        "Idea principal: da como adverbio de lugar significa 'ahí, allí' (el lugar que se señala): Da ist mein Bus! En la lengua hablada da sein también significa 'estar presente, estar disponible': Ist Anna da?",
+        "Da también puede ser adverbio de tiempo, 'entonces' (Da kam er), y conjunción subordinante, 'como, ya que': Da es regnet, bleiben wir zu Hause — el verbo va al final de la oración.",
+        "Posición: si da va al principio de la oración, el verbo lo sigue inmediatamente: Da vorne ist die Bank."
       ],
       "examples": [
         {
-          "de": "Da ist mein Auto.",
-          "lv": "Ahí está mi auto."
+          "de": "Da ist mein Bus!",
+          "lv": "¡Ahí está mi autobús!"
         },
         {
-          "de": "Ich war da.",
-          "lv": "Yo estuve allí."
+          "de": "Ist Anna da? – Nein, sie ist nicht da.",
+          "lv": "¿Está Anna? – No, no está."
         },
         {
-          "de": "Da kommt er.",
-          "lv": "Aquí viene."
+          "de": "Da vorne ist die Bank.",
+          "lv": "Ahí delante está el banco."
         },
         {
-          "de": "Komm mal da her!",
-          "lv": "¡Ven aquí!"
+          "de": "Da es regnet, bleiben wir zu Hause.",
+          "lv": "Como llueve, nos quedamos en casa."
+        },
+        {
+          "de": "Ich bin gleich da.",
+          "lv": "Ahora mismo llego."
         }
       ],
       "comparison": [
         {
-          "word": "da",
-          "meaning": "allí • aquí • aquí (general)",
-          "example": "Da ist mein Auto."
+          "word": "dort",
+          "meaning": "allí (más lejos)",
+          "example": "Dort steht ein Haus. – Allí hay una casa."
         },
         {
           "word": "hier",
-          "meaning": "aquí (en un lugar específico)",
-          "example": "Hier ist mein Auto."
+          "meaning": "aquí",
+          "example": "Ich bin hier. – Estoy aquí."
         },
         {
-          "word": "dort",
-          "meaning": "allí (más)",
-          "example": "Dort ist mein Auto."
-        },
-        {
-          "word": "dann",
-          "meaning": "entonces",
-          "example": "Dann gehen wir nach Hause."
+          "word": "weil",
+          "meaning": "porque",
+          "example": "Ich bleibe, weil ich krank bin. – Me quedo porque estoy enfermo."
         }
       ],
-      "tip": {
-        "text": "Recuerda: en general, «da» significa «ahí» o «allí»."
-      },
+      "tip": [
+        "Ist noch Milch da? = ¿Queda leche? Da sein puede expresar disponibilidad.",
+        "Cuando da es conjunción, el verbo va al final."
+      ],
+      "important": [
+        "Da como conjunción es más formal que weil y suele ir al principio de la oración, como el 'como' causal del español.",
+        "A la pregunta Warum? se responde normalmente con weil, no con da."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "da",
+            "Da",
+            "da sein",
+            "Da es regnet"
+          ],
           "purple": [
-            "allí"
+            "ahí",
+            "presente",
+            "ya que",
+            "entonces"
           ]
         },
         "examples": [
@@ -3763,7 +4238,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ahí"
+                "Ahí"
               ]
             }
           },
@@ -3775,7 +4250,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "biju"
+                "Está"
               ]
             }
           },
@@ -3786,8 +4261,20 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "green": [
-                "aquí"
+              "purple": [
+                "Ahí"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Da"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Como"
               ]
             }
           },
@@ -3798,8 +4285,8 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "green": [
-                "aquí"
+              "purple": [
+                "llego"
               ]
             }
           }
@@ -3808,18 +4295,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "da"
+                "dort"
               ]
             },
             "meaning": {
               "purple": [
-                "allí",
-                "aquí"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Da"
+                "allí"
               ]
             }
           },
@@ -3833,96 +4314,30 @@ const A1_WORDS = [
               "purple": [
                 "aquí"
               ]
-            },
-            "example": {
-              "yellow": [
-                "Hier"
-              ]
             }
           },
           {
             "word": {
               "green": [
-                "dort"
+                "weil"
               ]
             },
             "meaning": {
               "purple": [
-                "allí"
-              ]
-            },
-            "example": {
-              "red": [
-                "Dort"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "dann"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "entonces"
-              ]
-            },
-            "example": {
-              "red": [
-                "Dann"
+                "porque"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "da"
-            ],
-            "purple": [
-              "Recuerda"
-            ],
-            "green": [
-              "te"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "topónimo",
-              "topónimo"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "accents": {
-        "blue": [
-          "da",
-          "Da"
-        ],
-        "purple": [
-          "allá",
-          "Tur"
-        ],
-        "green": [
-          "te",
-          "Te",
-          "aquí"
-        ],
-        "yellow": [
-          "hier"
-        ],
-        "red": [
-          "dort",
-          "dann"
-        ]
-      },
-      "important": [
-        "da es un topónimo general.",
-        "hier es concreto \"aquí\", dort es más \"allí\"."
-      ]
+      }
     }
   },
   {
@@ -3943,60 +4358,135 @@ const A1_WORDS = [
       "id": "a1-das",
       "layout": "standardStudy",
       "translation": "artículo definido neutro",
-      "explanation": "Se utiliza para sustantivos neutros. En algunas oraciones, \"eso\" también puede funcionar como pronombre o pronombre relativo.",
+      "explanation": [
+        "Idea principal: das es el artículo definido de los sustantivos neutros en nominativo y acusativo: das Kind, das Haus, das Auto. El español no tiene sustantivos neutros y el género alemán a menudo no coincide con el español (das Haus, pero 'la casa'), así que hay que aprender el género junto con cada palabra.",
+        "En los demás casos el neutro tiene dem (dativo) y des (genitivo); en plural todos los géneros llevan die.",
+        "Das también es pronombre demostrativo (Das ist mein Bruder — este es mi hermano) y pronombre relativo. No lo confundas con dass (que): se escribe con dos s y se usa en oraciones subordinadas."
+      ],
       "examples": [
         {
-          "de": "Das ist mein Auto.",
-          "lv": "Ese es mi coche."
+          "de": "Das Kind spielt im Garten.",
+          "lv": "El niño juega en el jardín."
         },
         {
-          "de": "Das ist gut.",
-          "lv": "Eso está bien."
+          "de": "Ich sehe das Haus.",
+          "lv": "Veo la casa."
         },
         {
-          "de": "Das Buch, das ich lese, ist interessant.",
-          "lv": "El libro que estoy leyendo es interesante."
+          "de": "Das ist mein Bruder.",
+          "lv": "Este es mi hermano."
+        },
+        {
+          "de": "Ich nehme das Auto.",
+          "lv": "Cojo el coche."
+        },
+        {
+          "de": "Das Buch auf dem Tisch ist neu.",
+          "lv": "El libro que está sobre la mesa es nuevo."
         }
       ],
       "comparison": [
         {
-          "word": "das",
-          "meaning": "eso (pronombre)",
-          "example": "Das ist mein Auto. – Ese es mi auto."
+          "word": "dass",
+          "meaning": "que (conjunción)",
+          "example": "Ich weiß, dass er kommt. – Sé que viene."
         },
         {
-          "word": "dies",
-          "meaning": "Éste",
-          "example": "Dies ist mein Auto. – Este es mi auto."
+          "word": "der",
+          "meaning": "artículo masculino",
+          "example": "Der Mann liest. – El hombre lee."
         },
         {
-          "word": "welches",
-          "meaning": "que • cuál • qué",
-          "example": "Das ist das Buch, welches ich lese. – Este es el libro que estoy leyendo."
+          "word": "die",
+          "meaning": "artículo femenino",
+          "example": "Die Frau liest. – La mujer lee."
         }
       ],
-      "tip": {
-        "text": "Recuerda: género neutro → das; que → dass."
-      },
+      "tip": [
+        "En los sustantivos neutros, el nominativo y el acusativo son iguales: das Kind (¿quién?, ¿qué?).",
+        "Aprende cada sustantivo con su artículo: das Haus, no solo Haus."
+      ],
+      "important": [
+        "Das (artículo o pronombre) y dass (conjunción 'que') no son la misma palabra.",
+        "En dativo el neutro lleva dem: mit dem Kind, no 'mit das Kind'."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das",
+            "Das",
+            "das Kind",
+            "das Haus",
+            "das Auto",
+            "dem",
+            "des",
+            "die",
+            "dass"
+          ],
+          "purple": [
+            "neutros",
+            "artículo",
+            "pronombre"
+          ]
+        },
         "examples": [
           {
-            "blue": [
-              "Das"
-            ]
+            "de": {
+              "blue": [
+                "Das"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "El niño"
+              ]
+            }
           },
           {
-            "blue": [
-              "Das"
-            ]
+            "de": {
+              "blue": [
+                "das"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "la casa"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
                 "Das"
-              ],
-              "yellow": [
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Este"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "das"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "el coche"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Das"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "El libro"
               ]
             }
           }
@@ -4005,70 +4495,49 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "das"
+                "dass"
               ]
             },
-            "example": {
-              "blue": [
-                "Das"
+            "meaning": {
+              "purple": [
+                "que"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "dies"
+                "der"
               ]
             },
-            "example": {
-              "green": [
-                "Dies"
+            "meaning": {
+              "purple": [
+                "artículo masculino"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "welches"
+                "die"
               ]
             },
-            "example": {
-              "blue": [
-                "Das",
-                "das"
-              ],
-              "yellow": [
-                "welches"
+            "meaning": {
+              "purple": [
+                "artículo femenino"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "das"
-            ],
-            "purple": [
-              "vidus género"
-            ],
-            "red": [
-              "dass"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "artículo",
-              "nivel"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "En el nivel A1, das se estudia primero como un artículo del género medio.",
-        "das no es lo mismo que dass: das puede ser un artículo o un pronombre, dass significa \"eso\"."
-      ]
+      }
     }
   },
   {
@@ -4080,9 +4549,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "que",
       "explanation": [
-        "dass introduce una oración subordinada que expresa un hecho, un pensamiento o algo dicho.",
-        "En español suele corresponder a la conjunción «que».",
-        "En la subordinada alemana introducida por dass, el verbo conjugado va al final."
+        "Idea principal: dass es la conjunción subordinante 'que', que introduce una oración completiva después de verbos como sagen, wissen, denken, hoffen y de expresiones como Es ist schön …: Ich weiß, dass du müde bist.",
+        "Delante de dass siempre va coma. En la oración subordinada, el verbo conjugado va al final: …, dass er keine Zeit hat.",
+        "Dass se escribe con dos s. El artículo neutro y pronombre demostrativo das es otra palabra. A diferencia del español, después de dass nunca se necesita subjuntivo: Ich hoffe, dass es morgen nicht regnet (espero que mañana no llueva)."
       ],
       "examples": [
         {
@@ -4090,47 +4559,56 @@ const A1_WORDS = [
           "lv": "Sé que estás cansado."
         },
         {
-          "de": "Er sagt, dass er kommt.",
-          "lv": "Él dice que viene."
+          "de": "Er sagt, dass er keine Zeit hat.",
+          "lv": "Dice que no tiene tiempo."
         },
         {
-          "de": "Ich glaube, dass das stimmt.",
-          "lv": "Creo que eso es verdad."
+          "de": "Es ist schön, dass du hier bist.",
+          "lv": "Es estupendo que estés aquí."
+        },
+        {
+          "de": "Ich hoffe, dass es morgen nicht regnet.",
+          "lv": "Espero que mañana no llueva."
+        },
+        {
+          "de": "Sie sagt, dass sie nach Berlin fährt.",
+          "lv": "Dice que se va a Berlín."
         }
       ],
       "comparison": [
         {
-          "word": "dass",
-          "meaning": "que",
-          "example": "Ich weiß, dass er kommt. – Sé que viene."
+          "word": "das",
+          "meaning": "artículo neutro",
+          "example": "Das Kind lacht. – El niño se ríe."
         },
         {
           "word": "weil",
-          "meaning": "porque / ya que",
-          "example": "Ich bleibe zu Hause, weil es regnet. – Me quedo en casa porque llueve."
-        },
-        {
-          "word": "damit",
-          "meaning": "para que",
-          "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Estudio alemán para poder trabajar en Alemania."
+          "meaning": "porque",
+          "example": "Ich bleibe, weil ich krank bin. – Me quedo porque estoy enfermo."
         },
         {
           "word": "ob",
-          "meaning": "si, en una pregunta indirecta",
-          "example": "Ich weiß nicht, ob er kommt. – No sé si viene."
+          "meaning": "si (pregunta indirecta)",
+          "example": "Ich weiß nicht, ob er kommt. – No sé si vendrá."
         }
       ],
-      "tip": {
-        "text": "La conjunción «que» → dass; el verbo alemán va al final de la subordinada."
-      },
+      "tip": [
+        "Detrás de dass pon coma y lleva el verbo al final.",
+        "La subordinada con dass también puede ir en primer lugar: Dass du kommst, freut mich."
+      ],
       "important": [
-        "dass significa «que» e introduce una subordinada.",
-        "No lo confundas con das, que puede ser artículo o pronombre."
+        "No confundas dass y das: das es artículo o pronombre; dass, conjunción.",
+        "Después de dass el verbo nunca va en segunda posición."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "dass"
+            "dass",
+            "das"
+          ],
+          "purple": [
+            "que",
+            "conjunción"
           ]
         },
         "examples": [
@@ -4140,7 +4618,11 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "que"
+              ]
+            }
           },
           {
             "de": {
@@ -4148,7 +4630,11 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "que"
+              ]
+            }
           },
           {
             "de": {
@@ -4156,18 +4642,49 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "que"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "que"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "dass"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "que"
+              ]
+            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "dass"
+                "das"
               ]
             },
-            "meaning": {},
-            "example": {}
+            "meaning": {
+              "purple": [
+                "artículo neutro"
+              ]
+            }
           },
           {
             "word": {
@@ -4175,17 +4692,11 @@ const A1_WORDS = [
                 "weil"
               ]
             },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "damit"
+            "meaning": {
+              "purple": [
+                "porque"
               ]
-            },
-            "meaning": {},
-            "example": {}
+            }
           },
           {
             "word": {
@@ -4193,13 +4704,17 @@ const A1_WORDS = [
                 "ob"
               ]
             },
-            "meaning": {},
-            "example": {}
+            "meaning": {
+              "purple": [
+                "si"
+              ]
+            }
           }
         ],
-        "tip": {
-          "left": {}
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
           {},
           {}
@@ -4216,7 +4731,7 @@ const A1_WORDS = [
   },
   {
     "de": "dein",
-    "lv": "tuyo",
+    "lv": "tu",
     "level": "A1"
   },
   {
@@ -4226,88 +4741,190 @@ const A1_WORDS = [
   },
   {
     "de": "der",
-    "lv": "el artículo definido masculino",
+    "lv": "el",
     "level": "A1",
     "study": {
       "id": "a1-der",
       "layout": "standardStudy",
-      "translation": "el artículo definido masculino",
-      "explanation": "Usado con sustantivos masculinos. En algunas oraciones, \"der\" también puede funcionar como pronombre o pronombre relativo.",
+      "translation": "el",
+      "explanation": [
+        "Idea principal: der es el artículo definido de los sustantivos masculinos en nominativo: der Mann, der Tisch, der Hund.",
+        "Der aparece también en otros casos: en el femenino en dativo y genitivo (der Frau) y en el plural de todos los géneros en genitivo (die Autos der Eltern). El masculino tiene den en acusativo, dem en dativo y des en genitivo.",
+        "El género alemán no siempre coincide con el español: der Tisch es masculino, pero 'mesa' es femenino. Por eso conviene aprender el género junto con cada palabra."
+      ],
       "examples": [
         {
-          "de": "Der Mann ist hier.",
-          "lv": "El hombre está aquí."
+          "de": "Der Mann liest Zeitung.",
+          "lv": "El hombre lee el periódico."
         },
         {
-          "de": "Der Bus kommt.",
-          "lv": "El autobús circula."
+          "de": "Der Tisch ist groß.",
+          "lv": "La mesa es grande."
         },
         {
-          "de": "Der Lehrer spricht.",
-          "lv": "El maestro está hablando."
+          "de": "Ich gebe der Frau das Buch.",
+          "lv": "Le doy el libro a la mujer."
+        },
+        {
+          "de": "Das Auto der Eltern ist neu.",
+          "lv": "El coche de los padres es nuevo."
+        },
+        {
+          "de": "Der Hund schläft im Garten.",
+          "lv": "El perro duerme en el jardín."
         }
       ],
-      "tip": {
-        "text": "Recuerda: masculino → der."
-      },
+      "comparison": [
+        {
+          "word": "den",
+          "meaning": "acusativo masculino",
+          "example": "Ich sehe den Mann. – Veo al hombre."
+        },
+        {
+          "word": "dem",
+          "meaning": "dativo",
+          "example": "Ich helfe dem Mann. – Ayudo al hombre."
+        },
+        {
+          "word": "des",
+          "meaning": "genitivo",
+          "example": "Das Auto des Mannes ist neu. – El coche del hombre es nuevo."
+        }
+      ],
+      "tip": [
+        "El nominativo masculino es der y el acusativo, den: der Hund, aber Ich sehe den Hund.",
+        "Aprende der junto con el sustantivo: der Tisch."
+      ],
+      "important": [
+        "Der no es solo masculino: el sustantivo femenino en dativo tiene la misma forma, der Frau.",
+        "No escribas 'ich sehe der Mann'; en acusativo tiene que ser den Mann."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der",
+            "Der",
+            "der Mann",
+            "den",
+            "dem",
+            "des",
+            "der Frau"
+          ],
+          "purple": [
+            "masculinos",
+            "artículo",
+            "femenino"
+          ]
+        },
         "examples": [
           {
-            "blue": [
-              "Der"
-            ]
+            "de": {
+              "blue": [
+                "Der"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "El hombre"
+              ]
+            }
           },
           {
-            "blue": [
-              "Der"
-            ]
+            "de": {
+              "blue": [
+                "Der"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "La mesa"
+              ]
+            }
           },
           {
-            "blue": [
-              "Der"
-            ]
+            "de": {
+              "blue": [
+                "der"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "a la mujer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "der"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "de los padres"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Der"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "El perro"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "den"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "acusativo masculino"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "dem"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dativo"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "des"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "genitivo"
+              ]
+            }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Recuerde"
-            ],
-            "purple": [
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "nivel"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "En el nivel A1, primero debes aprender como artículo masculino.",
-        "Los usos de pronombres y relativos vienen más tarde."
-      ]
+      }
     }
   },
   {
@@ -4323,100 +4940,183 @@ const A1_WORDS = [
   },
   {
     "de": "die",
-    "lv": "el artículo definido femenino",
+    "lv": "la",
     "level": "A1",
     "study": {
       "id": "a1-die",
       "layout": "standardStudy",
-      "translation": "el artículo definido femenino",
-      "explanation": "Usado con sustantivos femeninos. En algunas oraciones, \"morir\" también puede funcionar como pronombre o pronombre relativo.",
+      "translation": "la",
+      "explanation": [
+        "Idea principal: die es el artículo definido de los sustantivos femeninos en nominativo y acusativo: die Frau, die Lampe, die Stadt.",
+        "La misma forma die se usa en plural para todos los géneros en nominativo y acusativo: die Kinder, die Autos, die Tische. En dativo es der (femenino) y den (plural, con -n en el sustantivo).",
+        "Die también puede ser pronombre demostrativo o relativo: die Frau, die dort steht (la mujer que está allí). Recuerda que die no siempre equivale a 'la': die Kinder es 'los niños'."
+      ],
       "examples": [
         {
-          "de": "Die Frau ist hier.",
-          "lv": "La mujer está aquí."
+          "de": "Die Frau trinkt Tee.",
+          "lv": "La mujer bebe té."
         },
         {
-          "de": "Die Katze schläft.",
-          "lv": "La gatita está durmiendo."
+          "de": "Ich kenne die Stadt gut.",
+          "lv": "Conozco bien la ciudad."
         },
         {
-          "de": "Die Lehrerin erklärt.",
-          "lv": "Explica la profesora."
+          "de": "Die Kinder spielen im Park.",
+          "lv": "Los niños juegan en el parque."
+        },
+        {
+          "de": "Ich sehe die Autos.",
+          "lv": "Veo los coches."
+        },
+        {
+          "de": "Die Lampe ist neu.",
+          "lv": "La lámpara es nueva."
         }
       ],
-      "tip": {
-        "text": "Recuerda: femenino → die."
-      },
+      "comparison": [
+        {
+          "word": "der",
+          "meaning": "masculino; femenino en dativo",
+          "example": "Der Mann liest. – El hombre lee."
+        },
+        {
+          "word": "das",
+          "meaning": "neutro",
+          "example": "Das Kind lacht. – El niño se ríe."
+        },
+        {
+          "word": "den",
+          "meaning": "plural en dativo",
+          "example": "Mit den Kindern spiele ich. – Juego con los niños."
+        }
+      ],
+      "tip": [
+        "En femenino, el nominativo y el acusativo son iguales: die Frau.",
+        "En plural, el artículo en nominativo y acusativo es siempre die."
+      ],
+      "important": [
+        "En dativo, el femenino lleva der: mit der Frau, no 'mit die Frau'.",
+        "Die no indica solo femenino: también puede ser plural."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die"
+          ],
+          "purple": [
+            "femeninos",
+            "definido"
+          ]
+        },
         "examples": [
           {
-            "blue": [
-              "Die"
-            ]
+            "de": {
+              "blue": [
+                "Die"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "La mujer"
+              ]
+            }
           },
           {
-            "blue": [
-              "Die"
-            ]
+            "de": {
+              "blue": [
+                "die"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "la ciudad"
+              ]
+            }
           },
           {
-            "blue": [
-              "Die"
-            ]
+            "de": {
+              "blue": [
+                "Die"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Los niños"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "los coches"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Die"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "La lámpara"
+              ]
+            }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "der"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "masculino"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "das"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "neutro"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "den"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "plural"
+              ]
+            }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Recuerda"
-            ],
-            "purple": [
-              "Recuerda"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "artículo femenino"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "En el nivel A1, el troquel se estudia primero como artículo femenino.",
-        "El plural morir también se utiliza para todos los géneros."
-      ]
+      }
     }
   },
   {
@@ -4428,31 +5128,81 @@ const A1_WORDS = [
   },
   {
     "de": "dieser",
-    "lv": "Éste",
+    "lv": "este",
     "level": "A1",
     "study": {
       "id": "a1-dieser",
       "layout": "standardStudy",
-      "translation": "Éste",
-      "explanation": "Señala a una persona, cosa o animal cercano. Usado con un sustantivo masculino.",
+      "translation": "este",
+      "explanation": [
+        "Idea principal: dieser señala a una persona o cosa cercana: dieser Mann (este hombre), diese Frau (esta mujer), dieses Kind (este niño), diese Kinder (estos niños).",
+        "Se declina como el artículo definido der: nominativo dieser/diese/dieses, acusativo diesen (masculino), dativo diesem/dieser/diesem. En plural: diese, diesen. La forma neutra dieses Jahr significa 'este año'.",
+        "Dieser también se usa en lugar del sustantivo, con su terminación de caso, cuando está claro de qué se habla: Dieser gefällt mir (este me gusta)."
+      ],
       "examples": [
         {
-          "de": "Dieser Mann ist nett.",
-          "lv": "Este hombre es agradable."
+          "de": "Dieser Tisch ist neu.",
+          "lv": "Esta mesa es nueva."
         },
         {
-          "de": "Ich sehe diesen Hund.",
-          "lv": "Me gusta este perro."
+          "de": "Ich kaufe diese Jacke.",
+          "lv": "Me compro esta chaqueta."
         },
         {
-          "de": "Dieser Stift ist neu.",
-          "lv": "Este bolígrafo es nuevo."
+          "de": "Dieses Kind heißt Lena.",
+          "lv": "Esta niña se llama Lena."
+        },
+        {
+          "de": "Kennst du diesen Mann?",
+          "lv": "¿Conoces a este hombre?"
+        },
+        {
+          "de": "Mit diesem Auto fahre ich nicht.",
+          "lv": "En este coche no voy."
         }
       ],
-      "tip": {
-        "text": "Recuerda: este + masculino → dieser."
-      },
+      "comparison": [
+        {
+          "word": "jener",
+          "meaning": "aquel (más lejos)",
+          "example": "Jener Mann dort ist mein Chef. – Aquel hombre de allí es mi jefe."
+        },
+        {
+          "word": "der",
+          "meaning": "artículo definido",
+          "example": "Der Tisch ist neu. – La mesa es nueva."
+        },
+        {
+          "word": "dies",
+          "meaning": "esto, este (pronombre)",
+          "example": "Dies ist mein Bruder. – Este es mi hermano."
+        }
+      ],
+      "tip": [
+        "Dieser se declina como der: der Mann → dieser Mann, den Mann → diesen Mann.",
+        "Dieses Jahr = este año, diese Woche = esta semana."
+      ],
+      "important": [
+        "La terminación de dieser depende del género, el caso y el número del sustantivo: diesen Mann, diesem Mann.",
+        "Dieser señala algo cercano; para algo más lejano se puede usar jener (poco frecuente) o der/die/das acentuado. El alemán no distingue tres grados como el español (este, ese, aquel), así que dieser cubre a menudo también 'ese'."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dieser",
+            "diese",
+            "dieses",
+            "diesen",
+            "diesem",
+            "dieser Mann",
+            "dieses Jahr"
+          ],
+          "purple": [
+            "este",
+            "esta",
+            "este año"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -4462,7 +5212,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Éste"
+                "Esta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "diese"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "esta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Dieses"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Esta"
               ]
             }
           },
@@ -4474,66 +5248,70 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Éste"
+                "este"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Dieser"
+                "diesem"
               ]
             },
             "lv": {
               "purple": [
-                "Éste"
+                "este"
               ]
             }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "jener"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aquel"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "der"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "artículo definido"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "dies"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "esto"
+              ]
+            }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "dieser"
-            ],
-            "purple": [
-              "Recuerda"
-            ],
-            "green": [
-              "Recuerda"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "género"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "dieser, diese y dieses cambian según el género.",
-        "La forma plural es nuevamente diese."
-      ]
+      }
     }
   },
   {
@@ -4552,7 +5330,7 @@ const A1_WORDS = [
   },
   {
     "de": "dort",
-    "lv": "allá",
+    "lv": "allí",
     "level": "A1"
   },
   {
@@ -4618,52 +5396,102 @@ const A1_WORDS = [
   },
   {
     "de": "ein",
-    "lv": "artículo indefinido • uno • alguien",
+    "lv": "un • uno",
     "level": "A1",
     "study": {
       "id": "a1-ein",
       "layout": "standardStudy",
-      "translation": "artículo indefinido • uno • alguien",
+      "translation": "un • uno",
       "explanation": [
-        "Idea principal: ein es el artículo indefinido.",
-        "ein es el artículo indefinido para sustantivos masculinos y neutros en nominativo.",
-        "ein se usa en masculino: ein Mann.",
-        "ein se usa en neutro: ein Buch.",
-        "En femenino se usa: eine.",
-        "En acusativo masculino: einen."
+        "Idea principal: ein es el artículo indefinido: ein Mann, eine Frau, ein Kind. Indica que el sustantivo es nuevo en el discurso o no es concreto (un hombre, una mujer).",
+        "Masculino y neutro llevan ein; femenino, eine. En acusativo, el masculino es einen: Ich habe einen Bruder. En dativo: einem (masculino/neutro), einer (femenino). No hay artículo indefinido en plural (a diferencia del español 'unos, unas'); en la negación se usa kein.",
+        "Ein también es el numeral 'uno': Ich habe nur ein Kind. En ese caso se pronuncia acentuado."
       ],
       "examples": [
         {
-          "de": "Ein Mann wartet draußen.",
-          "lv": "Un hombre está esperando afuera."
+          "de": "Ich habe einen Bruder.",
+          "lv": "Tengo un hermano."
         },
         {
-          "de": "Ich habe ein Buch.",
-          "lv": "Tengo un libro."
+          "de": "Das ist eine gute Idee.",
+          "lv": "Es una buena idea."
         },
         {
-          "de": "Er sucht einen Stift.",
-          "lv": "Él está buscando un bolígrafo."
+          "de": "Er kauft ein Auto.",
+          "lv": "Se compra un coche."
         },
         {
-          "de": "Ein Kind spielt.",
-          "lv": "Un niño juega."
+          "de": "Ein Kind spielt im Garten.",
+          "lv": "Un niño juega en el jardín."
+        },
+        {
+          "de": "Ich habe keinen Hund.",
+          "lv": "No tengo perro."
         }
       ],
-      "tip": {
-        "text": "Recuerde: uno/alguien no específico → ein."
-      },
+      "comparison": [
+        {
+          "word": "kein",
+          "meaning": "ningún, no",
+          "example": "Ich habe kein Auto. – No tengo coche."
+        },
+        {
+          "word": "der",
+          "meaning": "artículo definido",
+          "example": "Der Mann kommt. – El hombre viene."
+        },
+        {
+          "word": "eins",
+          "meaning": "uno (al contar)",
+          "example": "Eins, zwei, drei. – Uno, dos, tres."
+        }
+      ],
+      "tip": [
+        "En plural no hay artículo indefinido: Ich habe Bücher (tengo libros).",
+        "En la negación se usa kein: kein Mann, keine Frau."
+      ],
+      "important": [
+        "Ein no es solo un artículo: acentuado significa 'uno'.",
+        "En acusativo, el sustantivo masculino lleva einen, no 'ein': Ich sehe einen Mann."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ein",
+            "eine",
+            "einen",
+            "einem",
+            "einer",
+            "kein"
+          ],
+          "purple": [
+            "indefinido",
+            "uno",
+            "artículo"
+          ]
+        },
         "examples": [
           {
             "de": {
               "blue": [
-                "Ein"
+                "einen"
               ]
             },
             "lv": {
               "purple": [
-                "hombre"
+                "un hermano"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "eine"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "una buena idea"
               ]
             }
           },
@@ -4675,112 +5503,82 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tengo"
+                "un coche"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "einen"
+                "Ein"
               ]
             },
             "lv": {
               "purple": [
-                "está"
+                "Un niño"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "keinen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "No tengo"
               ]
             }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "kein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ningún"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "der"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "artículo definido"
+              ]
+            }
           },
           {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
+            "word": {
+              "green": [
+                "eins"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "uno"
+              ]
+            }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "ein"
-            ],
-            "purple": [
-              "uno",
-              "alguien"
-            ],
-            "green": [
-              "no específico"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "ein"
-            ],
-            "red": [
-              "noteiktais artículo"
-            ]
-          },
-          {
-            "blue": [
-              "der",
-              "die",
-              "das"
-            ],
-            "green": [
-              "asunto"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "ein nav noteiktais artículo.",
-        "Si el asunto ya se conoce concretamente, a menudo se necesita der, die o das.",
-        "eine — femenino.",
-        "einen — acusativo."
-      ],
-      "comparison": [
-        {
-          "word": "ein Mann",
-          "meaning": "género masculino",
-          "example": "Ein Mann wartet draußen."
-        },
-        {
-          "word": "eine Frau",
-          "meaning": "género femenino",
-          "example": "eine Frau"
-        },
-        {
-          "word": "ein Buch",
-          "meaning": "género neutro",
-          "example": "Ich habe ein Buch."
-        },
-        {
-          "word": "einen Mann",
-          "meaning": "acusativo",
-          "example": "einen Mann"
-        }
-      ]
+      }
     }
   },
   {
@@ -4803,67 +5601,69 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "hielo • helado",
       "explanation": [
-        "Idea principal: das Eis puede significar hielo o helado.",
-        "Cuando se habla de agua congelada, significa hielo.",
-        "Cuando se habla de comida o postre, significa helado.",
-        "El contexto permite distinguir las dos acepciones.",
-        "Expresiones frecuentes: ein Eis essen y Eis auf dem See."
+        "Idea principal: das Eis es un sustantivo neutro con dos significados: hielo (agua congelada) y helado. Ich esse gern Eis; Im Winter bedeckt Eis den See.",
+        "En singular: das Eis. El plural es poco frecuente; al pedir se dice zwei Eis (dos helados). El contexto decide el significado.",
+        "En compuestos: der Eiswürfel (cubito de hielo), die Eiscreme (helado), das Eishockey (hockey sobre hielo)."
       ],
       "examples": [
         {
-          "de": "Ich esse ein Eis.",
-          "lv": "Como un helado."
+          "de": "Im Winter bedeckt Eis den See.",
+          "lv": "En invierno el hielo cubre el lago."
+        },
+        {
+          "de": "Ich esse gern Eis.",
+          "lv": "Me gusta comer helado."
         },
         {
           "de": "Möchtest du ein Eis?",
           "lv": "¿Quieres un helado?"
         },
         {
-          "de": "Im Winter liegt Eis auf dem See.",
-          "lv": "En invierno hay hielo en el lago."
+          "de": "Ein Eis mit Schokolade, bitte.",
+          "lv": "Un helado de chocolate, por favor."
         },
         {
-          "de": "Das Eis ist kalt.",
-          "lv": "El hielo está frío."
-        },
-        {
-          "de": "Ich nehme ein Eis mit Schokolade.",
-          "lv": "Tomo un helado de chocolate."
+          "de": "Das Eis auf dem Fluss ist dünn.",
+          "lv": "El hielo del río es fino."
         }
       ],
       "comparison": [
         {
-          "word": "das Eis",
-          "meaning": "hielo / helado",
-          "example": "Ich esse ein Eis. – Como un helado."
-        },
-        {
           "word": "der Schnee",
           "meaning": "nieve",
-          "example": "Der Schnee ist weiß. – La nieve es blanca."
+          "example": "Im Winter liegt Schnee. – En invierno hay nieve."
         },
         {
-          "word": "kalt",
-          "meaning": "frío",
-          "example": "Das Wasser ist kalt. – El agua está fría."
+          "word": "die Eiscreme",
+          "meaning": "helado (crema)",
+          "example": "Sie isst Eiscreme. – Ella come helado."
         },
         {
-          "word": "das Dessert",
-          "meaning": "postre",
-          "example": "Eis ist ein Dessert. – El helado es un postre."
+          "word": "der Eiswürfel",
+          "meaning": "cubito de hielo",
+          "example": "Ein Eiswürfel im Glas. – Un cubito de hielo en el vaso."
         }
       ],
-      "tip": {
-        "text": "Recuerda: comida → helado; agua congelada → hielo."
-      },
+      "tip": [
+        "Ein Eis suele significar una porción de helado.",
+        "El hielo de una bebida se menciona con mit: Wasser mit Eis (agua con hielo)."
+      ],
       "important": [
-        "En español, hielo y helado son palabras distintas; el alemán usa das Eis para ambas ideas.",
-        "El contexto determina si se trata de hielo o de helado."
+        "Das Eis es neutro: das Eis, no 'die Eis'.",
+        "En el día a día, al helado se le llama simplemente Eis; la misma palabra significa también hielo, así que el contexto decide el significado."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Eis"
+            "Eis",
+            "Eiswürfel",
+            "Eiscreme",
+            "Eishockey"
+          ],
+          "purple": [
+            "hielo",
+            "helado",
+            "helados"
           ]
         },
         "examples": [
@@ -4873,7 +5673,11 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "hielo"
+              ]
+            }
           },
           {
             "de": {
@@ -4881,7 +5685,11 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "helado"
+              ]
+            }
           },
           {
             "de": {
@@ -4889,7 +5697,11 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "helado"
+              ]
+            }
           },
           {
             "de": {
@@ -4897,7 +5709,11 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "helado"
+              ]
+            }
           },
           {
             "de": {
@@ -4905,50 +5721,55 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "hielo"
+              ]
+            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "das Eis"
+                "Schnee"
               ]
             },
-            "meaning": {},
-            "example": {}
+            "meaning": {
+              "purple": [
+                "nieve"
+              ]
+            }
           },
           {
             "word": {
               "green": [
-                "der Schnee"
+                "Eiscreme"
               ]
             },
-            "meaning": {},
-            "example": {}
+            "meaning": {
+              "purple": [
+                "helado"
+              ]
+            }
           },
           {
             "word": {
               "green": [
-                "kalt"
+                "Eiswürfel"
               ]
             },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "das Dessert"
+            "meaning": {
+              "purple": [
+                "cubito de hielo"
               ]
-            },
-            "meaning": {},
-            "example": {}
+            }
           }
         ],
-        "tip": {
-          "left": {}
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
           {},
           {}
@@ -4978,7 +5799,7 @@ const A1_WORDS = [
     "de": "Ende",
     "de_article": "das",
     "de_plural": "die Enden",
-    "lv": "el fin",
+    "lv": "fin • final",
     "level": "A1"
   },
   {
@@ -5002,118 +5823,151 @@ const A1_WORDS = [
   },
   {
     "de": "erst",
-    "lv": "primero • sólo",
+    "lv": "primero • solo",
     "level": "A1",
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "primero • sólo",
+      "translation": "primero • solo",
       "explanation": [
-        "Idea principal: erst frecuentemente significa solamente. Sin embargo, en cierto contexto también puede significar primero.",
-        "erst frecuentemente indica que algo ocurre más tarde de lo esperado.",
-        "Ich bin erst 18. — Tengo solamente 18 años.",
-        "Es ist erst Montag. — Es solamente lunes.",
-        "Erst lernen, dann spielen. — Primero aprende, luego juega."
+        "Idea principal: erst es un adverbio con dos significados principales: 'solo, no antes de', con valor temporal: Es ist erst 8 Uhr (solo son las 8), y 'primero': Erst essen wir, dann gehen wir.",
+        "Er kommt erst morgen significa 'no viene hasta mañana'. A diferencia de nur (solo, en cuanto a cantidad), erst subraya que algo todavía no ha ocurrido o no ha llegado a cierto momento; en español suele traducirse por 'no … hasta' o 'apenas'.",
+        "No lo confundas con erste (el primero, la primera), que es un numeral ordinal."
       ],
       "examples": [
         {
-          "de": "Erst lernen, dann spielen.",
-          "lv": "Primero beber y luego conducir."
+          "de": "Es ist erst acht Uhr.",
+          "lv": "Solo son las ocho."
         },
         {
-          "de": "Ich komme erst morgen.",
-          "lv": "No llegaré hasta mañana."
+          "de": "Er kommt erst morgen.",
+          "lv": "No viene hasta mañana."
         },
         {
-          "de": "Er ist erst 18 Jahre alt.",
-          "lv": "solo tiene 18 años."
+          "de": "Erst essen wir, dann gehen wir spazieren.",
+          "lv": "Primero comemos y luego vamos a dar un paseo."
         },
         {
-          "de": "Wir essen erst um acht Uhr.",
-          "lv": "Sólo comemos a las ocho."
+          "de": "Ich bin erst seit einer Woche hier.",
+          "lv": "Solo llevo una semana aquí."
+        },
+        {
+          "de": "Erst jetzt verstehe ich das.",
+          "lv": "Solo ahora lo entiendo."
         }
       ],
       "comparison": [
         {
-          "word": "erst",
-          "meaning": "primero • sólo",
-          "example": "Erst lernen, dann spielen. – Primeros árbitros, luego pausa. = Trabaja primero, luego haz una pausa."
+          "word": "nur",
+          "meaning": "solo (cantidad)",
+          "example": "Ich habe nur einen Euro. – Solo tengo un euro."
         },
         {
           "word": "zuerst",
-          "meaning": "primero • al principio",
-          "example": "Zuerst frühstücken wir. – Primero desayunamos."
+          "meaning": "primero, al principio",
+          "example": "Zuerst lese ich, dann schreibe ich. – Primero leo y luego escribo."
         },
         {
-          "word": "nur",
-          "meaning": "solo",
-          "example": "Ich habe nur 5 Euro. – Solo tengo 5 euros."
-        },
-        {
-          "word": "dann",
-          "meaning": "entonces",
-          "example": "Dann gehen wir nach Hause. – Después nos vamos a casa."
+          "word": "schon",
+          "meaning": "ya",
+          "example": "Es ist schon acht Uhr. – Ya son las ocho."
         }
       ],
-      "tip": {
-        "text": "Recuerda: tiempo/cantidad → erst; cantidad → nur."
-      },
-      "accents": {
-        "blue": [
-          "erst",
-          "Erst"
-        ],
-        "green": [
-          "zuerst",
-          "Zuerst"
-        ],
-        "yellow": [
-          "nur"
-        ],
-        "red": [
-          "dann",
-          "Dann"
-        ]
-      },
+      "tip": [
+        "Erst + tiempo = 'solo, tan tarde o tan poco': erst um 8, erst morgen.",
+        "Erst … dann = primero … luego."
+      ],
+      "important": [
+        "Erst no es lo mismo que nur: nur se refiere a la cantidad; erst, al tiempo.",
+        "Erst no coincide del todo con zuerst: zuerst suele significar 'al principio, primero' dentro de una serie de pasos."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "erst",
+            "Erst",
+            "erste",
+            "Es ist erst 8 Uhr",
+            "Erst essen wir"
+          ],
+          "purple": [
+            "solo",
+            "primero",
+            "no … hasta"
+          ]
+        },
         "examples": [
           {
-            "blue": [
-              "Erst"
-            ],
-            "red": [
-              "dann"
-            ]
+            "de": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Solo"
+              ]
+            }
           },
           {
-            "blue": [
-              "erst"
-            ]
+            "de": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "No viene hasta"
+              ]
+            }
           },
           {
-            "blue": [
-              "erst"
-            ]
+            "de": {
+              "blue": [
+                "Erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Primero"
+              ]
+            }
           },
           {
-            "blue": [
-              "erst"
-            ]
+            "de": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Solo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Erst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Solo"
+              ]
+            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "erst"
+                "nur"
               ]
             },
-            "example": {
-              "blue": [
-                "Primeros"
-              ],
-              "red": [
-                "Primeros"
+            "meaning": {
+              "purple": [
+                "solo"
               ]
             }
           },
@@ -5123,72 +5977,39 @@ const A1_WORDS = [
                 "zuerst"
               ]
             },
-            "example": {
-              "green": [
-                "Zuerst"
+            "meaning": {
+              "purple": [
+                "primero"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "nur"
+                "schon"
               ]
             },
-            "example": {
-              "yellow": [
-                "nur"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "dann"
-              ]
-            },
-            "example": {
-              "red": [
-                "Dann"
+            "meaning": {
+              "purple": [
+                "ya"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "erst"
-            ],
-            "yellow": [
-              "nur"
-            ],
-            "green": [
-              "laiks",
-              "Recuerda"
-            ],
-            "purple": [
-              "Recuerda"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "solo"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "erst y nur pueden sonar como \"solo\" pero no son lo mismo.",
-        "erst suele hablar de tiempo, secuencia o aún por llegar a un punto; nur limita la cantidad.",
-        "zuerst frecuentemente significa: primero."
-      ]
+      }
     }
   },
   {
     "de": "erste",
-    "lv": "la primera",
+    "lv": "primero",
     "level": "A1"
   },
   {
@@ -5200,65 +6021,85 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "ello • pronombre impersonal",
       "explanation": [
-        "Idea principal: es es un pronombre neutro alemán.",
-        "Puede referirse a un sustantivo neutro o funcionar como sujeto formal en construcciones impersonales.",
-        "En español, muchas construcciones impersonales con es no traducen el pronombre de forma expresa."
+        "Idea principal: es es el pronombre personal de tercera persona para el neutro (equivale a 'él', 'ella' o 'ello', según el sustantivo): Das Kind weint. Es ist müde. En acusativo es igual: Ich sehe es; en dativo, ihm.",
+        "Es también se usa en oraciones impersonales sin un sujeto concreto: Es regnet (llueve), Es ist kalt (hace frío), Wie geht es dir? (¿qué tal estás?), Es gibt … (hay, existe).",
+        "Es sustituye a sustantivos neutros (das Buch → es); para masculinos y femeninos se usan er y sie. A diferencia del español, donde el sujeto se omite ('llueve', 'está cansado'), en alemán el sujeto es obligatorio."
       ],
       "examples": [
         {
-          "de": "Es regnet.",
-          "lv": "Llueve."
+          "de": "Das Buch ist alt, aber ich lese es gern.",
+          "lv": "El libro es viejo, pero me gusta leerlo."
         },
         {
-          "de": "Es ist kalt.",
-          "lv": "Hace frío."
+          "de": "Es regnet heute.",
+          "lv": "Hoy llueve."
         },
         {
-          "de": "Das Kind schläft.",
-          "lv": "El niño duerme."
+          "de": "Wie geht es dir?",
+          "lv": "¿Qué tal estás?"
         },
         {
-          "de": "Es ist müde.",
-          "lv": "Está cansado."
+          "de": "Es gibt hier ein Café.",
+          "lv": "Aquí hay una cafetería."
+        },
+        {
+          "de": "Wie spät ist es? – Es ist acht Uhr.",
+          "lv": "¿Qué hora es? – Son las ocho."
         }
       ],
       "comparison": [
         {
-          "word": "es",
-          "meaning": "ello / pronombre impersonal",
-          "example": "Es regnet. – Llueve."
+          "word": "er",
+          "meaning": "él (masculino)",
+          "example": "Der Tisch ist neu. Er ist groß. – La mesa es nueva. Es grande."
         },
         {
-          "word": "ich",
-          "meaning": "yo",
-          "example": "Ich lerne Deutsch. – Estudio alemán."
+          "word": "sie",
+          "meaning": "ella (femenino)",
+          "example": "Die Lampe ist neu. Sie ist schön. – La lámpara es nueva. Es bonita."
+        },
+        {
+          "word": "das",
+          "meaning": "esto, eso (demostrativo)",
+          "example": "Das ist mein Bruder. – Este es mi hermano."
         }
       ],
-      "tip": {
-        "text": "Recuerda: el alemán es puede ser neutro o impersonal; no equivale a ich."
-      },
-      "important": [
-        "es e ich no son el mismo pronombre.",
-        "En expresiones meteorológicas, es suele omitirse al traducir al español."
+      "tip": [
+        "Aprende Wie geht es dir? y Es gibt … como frases hechas.",
+        "Para referirte a un sustantivo neutro usa es: das Auto → es."
       ],
-      "info": [
-        "es = pronombre neutro o sujeto formal",
-        "ich = yo"
+      "important": [
+        "En una oración impersonal no se puede omitir es: no se puede decir 'Regnet heute'.",
+        "Para personas, es solo se usa con palabras neutras como das Kind, das Mädchen; en los demás casos, er o sie."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "es"
+            "es",
+            "Es",
+            "ihm",
+            "Es regnet",
+            "Wie geht es dir",
+            "Es gibt"
+          ],
+          "purple": [
+            "ello",
+            "llueve",
+            "neutro"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Es"
+                "es"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "leerlo"
+              ]
+            }
           },
           {
             "de": {
@@ -5266,11 +6107,23 @@ const A1_WORDS = [
                 "Es"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "llueve"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "es"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "estás"
+              ]
+            }
           },
           {
             "de": {
@@ -5278,32 +6131,67 @@ const A1_WORDS = [
                 "Es"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "hay"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "es"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Son las ocho"
+              ]
+            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "es"
+                "er"
               ]
             },
-            "meaning": {},
-            "example": {}
+            "meaning": {
+              "purple": [
+                "él"
+              ]
+            }
           },
           {
             "word": {
               "green": [
-                "ich"
+                "sie"
               ]
             },
-            "meaning": {},
-            "example": {}
+            "meaning": {
+              "purple": [
+                "ella"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "esto"
+              ]
+            }
           }
         ],
-        "tip": {
-          "left": {}
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
           {},
           {}
@@ -5327,66 +6215,69 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "algo • un poco",
       "explanation": [
-        "Idea principal: etwas significa algo o un poco según el contexto.",
-        "Si etwas reemplaza algo desconocido, el español suele decir algo.",
-        "Cuando etwas está delante de un adjetivo o cantidad, a menudo significa un poco."
+        "Idea principal: etwas es un pronombre indefinido, 'algo': Ich möchte etwas trinken, Hast du etwas Neues? Es invariable y funciona como singular neutro.",
+        "Detrás de etwas, el adjetivo se escribe como sustantivo, con mayúscula y la terminación -es: etwas Neues (algo nuevo), etwas Gutes (algo bueno); la excepción es etwas anderes (otra cosa).",
+        "Etwas también puede significar 'un poco': etwas Zeit (un poco de tiempo), etwas müde (un poco cansado)."
       ],
       "examples": [
         {
           "de": "Ich möchte etwas trinken.",
-          "lv": "Me gustaría algo de beber."
+          "lv": "Me gustaría beber algo."
         },
         {
-          "de": "Hast du etwas Zeit?",
-          "lv": "¿Tienes un poco de tiempo?"
+          "de": "Hast du etwas Neues?",
+          "lv": "¿Tienes algo nuevo?"
         },
         {
-          "de": "Ich bin etwas müde.",
-          "lv": "Estoy un poco cansado."
+          "de": "Das ist etwas anderes.",
+          "lv": "Eso es otra cosa."
         },
         {
-          "de": "Ich habe etwas für dich.",
-          "lv": "Tengo algo para ti."
+          "de": "Kannst du mir etwas Zeit geben?",
+          "lv": "¿Me puedes dar un poco de tiempo?"
         },
         {
-          "de": "Das ist etwas teuer.",
-          "lv": "es un poco caro."
+          "de": "Das Wasser ist etwas kalt.",
+          "lv": "El agua está un poco fría."
         }
       ],
       "comparison": [
         {
-          "word": "etwas",
-          "meaning": "algo / un poco",
-          "example": "Ich brauche etwas. – Necesito algo."
-        },
-        {
-          "word": "was",
-          "meaning": "algo (coloquial)",
-          "example": "Willst du was trinken? = ¿Quieres beber algo?"
-        },
-        {
-          "word": "ein bisschen",
-          "meaning": "un poco",
-          "example": "Ich bin ein bisschen müde. – Estoy un poco cansado."
-        },
-        {
           "word": "nichts",
           "meaning": "nada",
-          "example": "Ich brauche nichts. = No necesito nada."
+          "example": "Ich habe nichts gesehen. – No he visto nada."
+        },
+        {
+          "word": "alles",
+          "meaning": "todo",
+          "example": "Er weiß alles. – Lo sabe todo."
+        },
+        {
+          "word": "jemand",
+          "meaning": "alguien",
+          "example": "Jemand ist an der Tür. – Hay alguien en la puerta."
         }
       ],
-      "tip": {
-        "text": "Recuerda: cosa → algo; grado → ligeramente."
-      },
+      "tip": [
+        "Después de etwas, el adjetivo se sustantiva: etwas Schönes, no 'etwas schönes'.",
+        "Etwas es lo contrario de nichts (nada)."
+      ],
       "important": [
-        "etwas no es lo mismo que nichts: etwas significa algo, pero nichts no significa nada.",
-        "En español, algo suena mejor que algo, por ejemplo: etwas trinken = beber algo.",
-        "En letón a veces suena mejor algo, en lugar de algo, por ejemplo: etwas trinken = beber algo."
+        "Etwas no se declina: mit etwas, für etwas.",
+        "Etwas no cambia con el género y el verbo va en singular: Etwas ist passiert."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "etwas",
+            "etwas Neues",
+            "etwas Gutes",
+            "etwas anderes",
+            "etwas Zeit"
+          ],
           "purple": [
-            "algo"
+            "algo",
+            "un poco"
           ]
         },
         "examples": [
@@ -5398,7 +6289,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "gustaría"
+                "algo"
               ]
             }
           },
@@ -5410,7 +6301,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nedaudz"
+                "algo"
               ]
             }
           },
@@ -5422,7 +6313,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nedaudz"
+                "otra cosa"
               ]
             }
           },
@@ -5434,7 +6325,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "man"
+                "un poco"
               ]
             }
           },
@@ -5455,64 +6346,6 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "etwas"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "kaut",
-                "nedaudz"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Necesito"
-              ],
-              "purple": [
-                "algo"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "was"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "algo"
-              ]
-            },
-            "example": {
-              "green": [
-                "was"
-              ],
-              "purple": [
-                "kaut ko"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ein bisschen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "un poco"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "ein bisschen"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "nichts"
               ]
             },
@@ -5520,106 +6353,226 @@ const A1_WORDS = [
               "purple": [
                 "nada"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "alles"
+              ]
             },
-            "example": {
-              "red": [
-                "nichts",
-                "neko"
+            "meaning": {
+              "purple": [
+                "todo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "jemand"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alguien"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "purple": [
-              "algo",
-              "Recuerda"
-            ],
-            "yellow": [
-              "cosa"
-            ],
-            "green": [
-              "grado"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "algo",
-              "algo"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "euch",
-    "lv": "os • os",
+    "lv": "os • vosotros",
     "level": "A1",
     "study": {
       "id": "a1-euch",
       "layout": "standardStudy",
-      "translation": "os • os",
-      "explanation": "“euch” es un pronombre de segunda persona del plural. Se utiliza tanto como complemento directo (¿dónde?) - \"tú\" como como complemento indirecto (¿a quién?) - \"a ti\".",
+      "translation": "os • vosotros",
+      "explanation": [
+        "Idea principal: euch es la forma de acusativo y dativo del pronombre personal ihr (vosotros: a varios amigos, niños, familiares): Ich sehe euch (os veo), Ich gebe euch das Buch (os doy el libro).",
+        "Euch también es el pronombre reflexivo de ihr: Setzt euch! (¡sentaos!), Freut ihr euch auf die Ferien? Para dirigirse a varias personas de usted se usan Sie, Ihnen, no euch.",
+        "El nominativo es ihr; el genitivo, poco frecuente, euer. Detrás de preposición, euch corresponde a 'vosotros': mit euch (con vosotros), für euch (para vosotros)."
+      ],
       "examples": [
         {
-          "de": "Ich sehe euch.",
-          "lv": "Os veo."
+          "de": "Ich sehe euch morgen.",
+          "lv": "Mañana os veo."
         },
         {
-          "de": "Ich helfe euch.",
-          "lv": "Os ayudo."
+          "de": "Ich gebe euch die Schlüssel.",
+          "lv": "Os doy las llaves."
         },
         {
-          "de": "Ich gebe euch das Buch.",
-          "lv": "Os regalo un libro."
+          "de": "Wir danken euch für die Hilfe.",
+          "lv": "Os agradecemos la ayuda."
         },
         {
-          "de": "Ich danke euch.",
-          "lv": "Os doy las gracias."
+          "de": "Setzt euch bitte!",
+          "lv": "¡Sentaos, por favor!"
         },
         {
-          "de": "Ihr erinnert euch.",
-          "lv": "Vosotros recordáis."
+          "de": "Freut ihr euch auf die Ferien?",
+          "lv": "¿Tenéis ganas de que lleguen las vacaciones?"
         }
       ],
       "comparison": [
         {
           "word": "ihr",
-          "meaning": "vosotros",
-          "example": "Ihr seid freundlich. = Sois amables."
+          "meaning": "vosotros (nominativo)",
+          "example": "Ihr seid nett. – Sois muy majos."
         },
         {
-          "word": "euch",
-          "meaning": "vosotros/a vosotros",
-          "example": "Ich helfe euch. = Os ayudo."
+          "word": "Ihnen",
+          "meaning": "le, les, a usted (formal)",
+          "example": "Ich helfe Ihnen. – Le ayudo."
         },
         {
-          "word": "euer",
-          "meaning": "vuestro",
-          "example": "Das ist euer Haus. = Esta es vuestra casa."
+          "word": "dich",
+          "meaning": "te",
+          "example": "Ich sehe dich. – Te veo."
         }
       ],
-      "info": [
-        "ihr = tú (forma subjetiva de la oración)",
-        "euch = tú (¿dónde? forma) / tú (¿quién? forma)",
-        "euer = tu (forma posesiva)"
+      "tip": [
+        "Usa euch cuando tuteas a varias personas: ihr → euch.",
+        "En el imperativo con verbo reflexivo: Beeilt euch! (¡daos prisa!)."
       ],
-      "tip": {
-        "text": "«Euch» responde a la pregunta «¿a quién?» o es el complemento directo en oraciones con «vosotros».",
-        "example": "Yo te ayudo. = Ich helpe euch. te veo = Ich sehe euch. Te lo digo. = Ich erzähle euch."
-      },
-      "accents": {
-        "blue": [
-          "ihr"
+      "important": [
+        "Euch es tanto acusativo como dativo: Ich sehe euch (acusativo), Ich helfe euch (dativo); la forma es la misma, igual que 'os' en español.",
+        "En el tratamiento de usted no se usa euch, sino Sie / Ihnen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "euch",
+            "ihr",
+            "Setzt euch",
+            "Sie",
+            "Ihnen",
+            "euer"
+          ],
+          "purple": [
+            "os",
+            "vosotros"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "euch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "os"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "euch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Os"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "euch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Os"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "euch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Sentaos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "euch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Tenéis ganas"
+              ]
+            }
+          }
         ],
-        "yellow": [
-          "euch"
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ihr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vosotros"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Ihnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "le"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "dich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "te"
+              ]
+            }
+          }
         ],
-        "green": [
-          "euer"
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -5638,174 +6591,132 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "conducir • viajar • llevar",
       "explanation": [
-        "Idea principal: fahren significa conducir un vehículo y en algunas frases también llevar o llevarse a alguien.",
-        "fahren se utiliza cuando se viaja en coche, autobús, tren, bicicleta u otro vehículo.",
-        "Cuando la oración tiene a una persona como objeto, fahren puede significar conducir o quitar.",
-        "Si el movimiento es a pie se suele utilizar gehen o laufen."
+        "Idea principal: fahren significa ir o viajar en un medio de transporte: Wir fahren mit dem Bus, Er fährt nach Berlin. También puede significar 'conducir' un vehículo: Sie fährt einen Mercedes, y 'llevar' a alguien en coche: Ich fahre dich nach Hause.",
+        "Formas: du fährst, er fährt (a → ä), fuhr, ist gefahren. Si no hay complemento directo, el auxiliar es sein: Ich bin nach Wien gefahren. Si hay acusativo (se conduce un vehículo o se lleva a alguien), se usa haben: Ich habe das Auto gefahren.",
+        "Para el destino (¿adónde?) se usa nach (ciudad, país), zu (persona, lugar) o in + acusativo; para el medio de transporte, mit + dativo: mit dem Bus."
       ],
       "examples": [
         {
-          "de": "Ich fahre nach Berlin.",
-          "lv": "Me voy a Berlín."
+          "de": "Wir fahren mit dem Bus.",
+          "lv": "Vamos en autobús."
         },
         {
-          "de": "Ich fahre mit dem Auto.",
-          "lv": "Voy en coche."
+          "de": "Er fährt nach Berlin.",
+          "lv": "Va a Berlín."
         },
         {
-          "de": "Ich fahre meine Tochter zur Schule.",
-          "lv": "Llevo a mi hija al colegio."
+          "de": "Wohin fährst du im Sommer?",
+          "lv": "¿Adónde vas este verano?"
         },
         {
-          "de": "Ich fahre dich nach Hause.",
-          "lv": "te llevaré a casa"
+          "de": "Sie ist gestern nach Wien gefahren.",
+          "lv": "Ayer se fue a Viena."
         },
         {
-          "de": "Wir fahren morgen nach München.",
-          "lv": "Mañana nos vamos a Múnich."
+          "de": "Der Zug fährt sehr schnell.",
+          "lv": "El tren va muy rápido."
         }
       ],
       "comparison": [
         {
-          "word": "fahren",
-          "meaning": "viajar en un vehículo",
-          "example": "Ich fahre mit dem Bus."
+          "word": "gehen",
+          "meaning": "ir (a pie)",
+          "example": "Ich gehe zu Fuß. – Voy andando."
         },
         {
-          "word": "gehen",
-          "meaning": "continuar yendo",
-          "example": "Ich gehe nach Hause."
+          "word": "fliegen",
+          "meaning": "volar",
+          "example": "Wir fliegen nach Rom. – Volamos a Roma."
         },
         {
           "word": "laufen",
-          "meaning": "correr / caminar",
-          "example": "Er läuft schnell."
-        },
-        {
-          "word": "bringen",
-          "meaning": "traer / entregar",
-          "example": "Ich bringe das Buch."
-        },
-        {
-          "word": "mitnehmen",
-          "meaning": "llévate contigo",
-          "example": "Ich nehme dich mit."
+          "meaning": "correr, andar",
+          "example": "Er läuft schnell. – Corre rápido."
         }
       ],
-      "tip": {
-        "text": "Recuerde: vehículo → fahren; a pie → gehen."
-      },
-      "important": {
-        "text": "fahren ≠ solo «conducir»",
-        "example": "En alemán, el mismo verbo suele significar: conducir • conducir • llevarse, según el contexto."
-      },
-      "accents": {
-        "blue": [
-          "fahren",
-          "fahre"
-        ],
-        "purple": [
-          "conducir",
-          "braucu",
-          "vest",
-          "vedu",
-          "aizvest"
-        ],
-        "green": [
-          "transportu",
-          "vehículo",
-          "auto",
-          "autobusu",
-          "vilcienu",
-          "bicicleta"
-        ],
-        "yellow": [
-          "gehen",
-          "laufen"
-        ],
-        "red": [
-          "bringen",
-          "mitnehmen"
-        ]
-      },
+      "tip": [
+        "Aprende las formas con cambio vocálico: ich fahre, du fährst, er fährt.",
+        "El participio gefahren va con sein si hay movimiento y con haben si hay un acusativo."
+      ],
+      "important": [
+        "Fahren no sirve para ir a pie: para eso está gehen.",
+        "Fahren no es 'volar': en avión, en alemán se dice fliegen."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "fahren",
+            "fährt",
+            "fährst",
+            "fuhr",
+            "gefahren",
+            "mit dem Bus",
+            "nach Berlin"
+          ],
           "purple": [
-            "conducir"
+            "ir o viajar",
+            "conducir",
+            "llevar"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "fahre"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "voy"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fahre"
-              ],
-              "green": [
-                "Auto"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "braucu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fahre"
-              ],
-              "green": [
-                "Tochter",
-                "Schule"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vedu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fahre"
-              ],
-              "green": [
-                "dich",
-                "Hause"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "te llevaré"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
                 "fahren"
-              ],
-              "green": [
-                "München"
               ]
             },
             "lv": {
               "purple": [
-                "mañana"
+                "Vamos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fährt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Va"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fährst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gefahren"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se fue"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fährt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "va"
               ]
             }
           }
@@ -5814,34 +6725,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "fahren"
+                "gehen"
               ]
             },
             "meaning": {
               "purple": [
-                "transportu"
-              ]
-            },
-            "example": {
-              "blue": [
-                "fahre"
+                "ir"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "gehen"
+                "fliegen"
               ]
             },
             "meaning": {
               "purple": [
-                "continuar yendo"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "gehe"
+                "volar"
               ]
             }
           },
@@ -5853,88 +6754,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "skriet",
-                "skriet"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "lauft"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bringen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "traer",
-                "entregar"
-              ]
-            },
-            "example": {
-              "red": [
-                "bringe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "mitnehmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "llévate contigo"
-              ]
-            },
-            "example": {
-              "red": [
-                "nehme",
-                "mit"
+                "correr"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "fahren"
-            ],
-            "yellow": [
-              "gehen"
-            ],
-            "green": [
-              "vehículo",
-              "a pie"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "text": {
-              "blue": [
-                "fahren"
-              ],
-              "purple": [
-                "conducir"
-              ]
-            },
-            "example": {
-              "blue": [
-                "fahren"
-              ],
-              "purple": [
-                "conducir",
-                "fahren",
-                "fahren"
-              ]
-            }
-          }
+          {},
+          {}
         ]
       }
     }
@@ -6011,7 +6842,7 @@ const A1_WORDS = [
   },
   {
     "de": "fett",
-    "lv": "gordo",
+    "lv": "graso • gordo",
     "level": "A1"
   },
   {
@@ -6037,46 +6868,71 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "encontrar • considerar",
       "explanation": [
-        "Idea principal: finden suele significar encontrar.",
-        "En una conversación, finden muchas veces también significa considerar o pensar en algo.",
-        "Si se trata de algo perdido, se traduce como hallazgo.",
-        "Si se trata de una opinión, se traduce como pensar o parecer."
+        "Idea principal: finden significa encontrar (Ich finde meinen Schlüssel nicht) y también expresar una opinión, considerar o parecerle algo a uno: Ich finde den Film gut, Ich finde, dass das eine gute Idee ist.",
+        "Formas: er findet, fand, hat gefunden. Con el sentido de opinión, finden pide un acusativo y un adjetivo: den Film gut finden (parecerle a uno buena la película).",
+        "Finden es encontrar algo concreto o por casualidad; el proceso de buscar es suchen."
       ],
       "examples": [
         {
-          "de": "Ich finde meinen Schlüssel.",
-          "lv": "no puedo encontrar mi llave"
-        },
-        {
-          "de": "Ich finde das gut.",
-          "lv": "¿Encontraste tu teléfono?"
+          "de": "Ich finde meinen Schlüssel nicht.",
+          "lv": "No encuentro mi llave."
         },
         {
           "de": "Wie findest du den Film?",
-          "lv": "me parece bien."
+          "lv": "¿Qué te parece la película?"
+        },
+        {
+          "de": "Ich finde das Essen lecker.",
+          "lv": "La comida me parece deliciosa."
+        },
+        {
+          "de": "Ich finde, das ist eine gute Idee.",
+          "lv": "Creo que es una buena idea."
+        },
+        {
+          "de": "Wir haben ein Hotel gefunden.",
+          "lv": "Hemos encontrado un hotel."
         }
       ],
       "comparison": [
         {
-          "word": "finden",
-          "meaning": "encontrar / considerar",
-          "example": "Ich finde das gut. = Me parece bien."
+          "word": "suchen",
+          "meaning": "buscar",
+          "example": "Ich suche meinen Schlüssel. – Busco mi llave."
+        },
+        {
+          "word": "denken",
+          "meaning": "pensar",
+          "example": "Ich denke an dich. – Pienso en ti."
+        },
+        {
+          "word": "glauben",
+          "meaning": "creer, pensar",
+          "example": "Ich glaube, er kommt. – Creo que viene."
         }
       ],
-      "tip": {
-        "text": "Recuerda: cosa perdida → encontrada; opinión → ich finde..."
-      },
+      "tip": [
+        "Wie findest du …? es la pregunta cotidiana para pedir una opinión ('¿qué te parece…?').",
+        "En la oración de opinión: finden + acusativo + adjetivo."
+      ],
       "important": [
-        "finden no es solo \"encontrar\".",
-        "Ich finde das gut significa \"lo encuentro bueno\", no \"lo encuentro bueno\"."
+        "Gefunden es el participio correcto, no 'gefindet'.",
+        "Finden ≠ suchen: se busca con suchen y se encuentra con finden."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "finden",
+            "findet",
+            "fand",
+            "gefunden",
+            "Ich finde",
+            "den Film gut finden"
+          ],
           "purple": [
             "encontrar",
             "considerar",
-            "pensar",
-            "parece"
+            "opinión"
           ]
         },
         "examples": [
@@ -6088,31 +6944,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "encontrar"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "gefunden"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "atradi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "finde"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "parece"
+                "encuentro"
               ]
             }
           },
@@ -6124,33 +6956,48 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "¿Qué"
+                "te parece"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "finde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "me parece"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "finde"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Creo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gefunden"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Hemos encontrado"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "finden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "encontrar",
-                "considerar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "finde"
-              ],
-              "purple": [
-                "parece"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -6160,12 +7007,6 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "buscar"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "suche",
-                "Buscando"
               ]
             }
           },
@@ -6179,12 +7020,6 @@ const A1_WORDS = [
               "purple": [
                 "pensar"
               ]
-            },
-            "example": {
-              "green": [
-                "Pienso",
-                "Pienso"
-              ]
             }
           },
           {
@@ -6195,36 +7030,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "creer",
-                "pensar"
-              ]
-            },
-            "example": {
-              "red": [
-                "glaube",
-                "Ich"
+                "creer"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "finde"
-            ],
-            "purple": [
-              "Recuerda",
-              "opinión"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "finden",
-              "finden"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -6305,51 +7122,69 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "mujer • esposa",
       "explanation": [
-        "Idea principal: die Frau puede significar mujer (género) o esposa (cónyuge).",
-        "Si se trata simplemente de una cuestión de género o de persona, die Frau = mujer.",
-        "En el caso de un cónyuge, die Frau = esposa (meine Frau = mi esposa).",
-        "El pronombre posesivo (meine/deine/seine Frau) casi siempre significa esposa - cónyuge.",
-        "Plural: die Frauen.",
-        "La forma masculina der Mann tiene el mismo doble significado: hombre Y marido."
+        "Idea principal: die Frau es un sustantivo femenino que significa mujer, señora (Frau Schmidt) y esposa (meine Frau). El plural es die Frauen.",
+        "Delante del apellido, Frau significa 'señora': Guten Tag, Frau Berger! La expresión meine Frau suele significar 'mi mujer, mi esposa' cuando se habla de la familia.",
+        "En singular la palabra Frau no cambia; solo cambia el artículo: die Frau, der Frau."
       ],
       "examples": [
         {
-          "de": "Sie ist eine nette Frau.",
-          "lv": "ella es una buena mujer."
+          "de": "Die Frau dort ist meine Lehrerin.",
+          "lv": "La mujer de allí es mi profesora."
         },
         {
-          "de": "Das ist meine Frau.",
-          "lv": "Esta es mi esposa."
+          "de": "Frau Schmidt ist Ärztin.",
+          "lv": "La señora Schmidt es médica."
         },
         {
-          "de": "Wie viele Frauen sind hier?",
-          "lv": "¿Cuántas mujeres hay aquí?"
+          "de": "Meine Frau arbeitet in Riga.",
+          "lv": "Mi mujer trabaja en Riga."
         },
         {
-          "de": "Meine Frau arbeitet in Berlin.",
-          "lv": "Mi esposa trabaja en Berlín."
+          "de": "Zwei Frauen warten vor dem Haus.",
+          "lv": "Dos mujeres esperan delante de la casa."
         },
         {
-          "de": "Die Frau trägt ein Kleid.",
-          "lv": "una mujer lleva un vestido."
+          "de": "Guten Tag, Frau Berger!",
+          "lv": "¡Buenos días, señora Berger!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Mann",
+          "meaning": "hombre",
+          "example": "Der Mann liest. – El hombre lee."
         },
         {
-          "de": "Seine Frau ist Ärztin.",
-          "lv": "su esposa es doctora."
+          "word": "die Dame",
+          "meaning": "señora, dama",
+          "example": "Die Dame wartet. – La señora espera."
+        },
+        {
+          "word": "das Mädchen",
+          "meaning": "niña, chica",
+          "example": "Das Mädchen lacht. – La niña se ríe."
         }
       ],
       "tip": [
-        "El pronombre posesivo (meine/deine/seine Frau) casi siempre significa esposa.",
-        "Sin posesivo (die Frau, eine Frau) suele significar una mujer."
+        "En el tratamiento formal se usa Frau + apellido, no solo el nombre de pila.",
+        "Die Frau, die Frauen: el plural se forma con -en."
       ],
       "important": [
-        "die Frau = mujer O esposa, según el contexto.",
-        "meine Frau = mi esposa (no 'mi mujer').",
-        "Plural: die Frauen."
+        "Frau delante del apellido no indica que la mujer esté casada; es simplemente la forma de cortesía.",
+        "Fräulein (señorita) está anticuado; hoy se usa Frau para todas."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "die Frau",
+            "Frau",
+            "Frauen",
+            "meine Frau",
+            "Frau Schmidt"
+          ],
           "purple": [
+            "mujer",
+            "señora",
             "esposa"
           ]
         },
@@ -6362,43 +7197,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ella"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "meine Frau"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Frauen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "¿Cuántas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Meine Frau"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "esposa"
+                "mujer"
               ]
             }
           },
@@ -6410,37 +7209,92 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "una"
+                "señora"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Seine Frau"
+              "blue": [
+                "Frau"
               ]
             },
             "lv": {
               "purple": [
-                "esposa"
+                "mujer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Frauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mujeres"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Frau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "señora"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Mann"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hombre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Dame"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "señora"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Mädchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "niña"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "esposa"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "die",
-              "esposa"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -6468,7 +7322,7 @@ const A1_WORDS = [
     "de": "Freundin",
     "de_article": "die",
     "de_plural": "die Freundinnen",
-    "lv": "novia",
+    "lv": "amiga • novia",
     "level": "A1"
   },
   {
@@ -6542,57 +7396,77 @@ const A1_WORDS = [
   },
   {
     "de": "für",
-    "lv": "para • para",
+    "lv": "para • por",
     "level": "A1",
     "study": {
       "id": "a1-fuer",
       "layout": "standardStudy",
       "translation": "para • por",
       "explanation": [
-        "Idea principal: für es una preposición que siempre rige el caso acusativo, normalmente for o for en letón.",
-        "Cuando se habla de destinatario o intención, für = para (für dich = para ti).",
-        "Cuando se habla de cambio, tarifa o motivo, für = para (danke für das Geschenk = gracias por el regalo).",
-        "für siempre requiere el acusativo, independientemente del significado."
+        "Idea principal: für es una preposición que indica el destinatario, la finalidad o un período de tiempo: Das Geschenk ist für dich (el regalo es para ti), für zwei Wochen (para dos semanas), Danke für die Hilfe (gracias por la ayuda).",
+        "Für siempre rige acusativo: für mich, für den Plan, für die Kinder. En la expresión ich bin für … significa 'estoy a favor de…'. En la pregunta Was für ein …? significa '¿qué tipo de…?'.",
+        "Für corresponde casi siempre a 'para' o 'por', pero no es una equivalencia exacta: el 'por' de causa o de lugar se expresa con otras preposiciones (wegen, durch)."
       ],
       "examples": [
         {
-          "de": "Das ist für dich.",
-          "lv": "es para ti."
+          "de": "Das Geschenk ist für dich.",
+          "lv": "El regalo es para ti."
         },
         {
-          "de": "Danke für die Hilfe.",
-          "lv": "Gracias por tu ayuda."
+          "de": "Ich kaufe Blumen für meine Mutter.",
+          "lv": "Compro flores para mi madre."
         },
         {
-          "de": "Ich kaufe ein Geschenk für meine Mutter.",
-          "lv": "Estoy comprando un regalo para mi madre."
+          "de": "Danke für deine Hilfe!",
+          "lv": "¡Gracias por tu ayuda!"
         },
         {
-          "de": "Was bezahlst du für das Auto?",
-          "lv": "¿Cuánto pagas por un coche?"
+          "de": "Wir fahren für zwei Wochen nach Spanien.",
+          "lv": "Nos vamos dos semanas a España."
         },
         {
-          "de": "Das Buch ist für Kinder.",
-          "lv": "el libro es para niños."
+          "de": "Ich bin für diesen Plan.",
+          "lv": "Estoy a favor de este plan."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gegen",
+          "meaning": "contra",
+          "example": "Ich bin gegen den Plan. – Estoy en contra del plan."
         },
         {
-          "de": "Für heute ist das genug.",
-          "lv": "eso es suficiente por hoy."
+          "word": "um",
+          "meaning": "para (+ infinitivo) / alrededor de",
+          "example": "Er geht, um Brot zu kaufen. – Sale para comprar pan."
+        },
+        {
+          "word": "seit",
+          "meaning": "desde (hace)",
+          "example": "Ich lerne seit einem Jahr Deutsch. – Estudio alemán desde hace un año."
         }
       ],
       "tip": [
-        "für siempre + acusativo - independientemente del significado.",
-        "Destinatario/intención → para; cambio/motivo/tarifa → por."
+        "Después de für solo va acusativo: für mich, no 'für mir'.",
+        "Danke für + acusativo: Danke für das Essen."
       ],
       "important": [
-        "für + Akkusativ siempre, por ejemplo für mich, für dich, für das Kind.",
-        "danke für / bezahlen für = 'para', no 'antes'."
+        "Für con expresiones de tiempo indica la duración prevista (für zwei Wochen); una acción que dura hasta ahora se expresa con seit.",
+        "Ir a ver a alguien no es für, sino zu: Ich gehe zum Arzt."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "für",
+            "für dich",
+            "für die Hilfe",
+            "für zwei Wochen",
+            "Was für ein"
+          ],
           "purple": [
-            "para",
-            "para"
+            "para ti",
+            "por",
+            "para dos semanas"
           ]
         },
         "examples": [
@@ -6604,85 +7478,104 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
+                "para ti"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "für"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "para mi madre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "für"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "por"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "für"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dos semanas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "für"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "a favor de"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "gegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "contra"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "um"
+              ]
+            },
+            "meaning": {
+              "purple": [
                 "para"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "für"
+                "seit"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Gracias"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "für"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Estoy"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "für"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "¿cuanto"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "für"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "para"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Für"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "por hoy"
+                "desde"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "para",
-              "para"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "für"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -6703,106 +7596,379 @@ const A1_WORDS = [
     "study": {
       "id": "a1-fussball-study",
       "layout": "standardStudy",
-      "translation": "fútbol • balón de fútbol",
+      "translation": "fútbol",
       "explanation": [
-        "Idea principal: Fußball normalmente significa fútbol como deporte.",
-        "Con artículo y en uso contable, der Fußball también puede significar un balón de fútbol.",
-        "El plural die Fußbälle significa balones de fútbol, no varios deportes."
+        "Idea principal: der Fußball es un sustantivo masculino que significa fútbol (el deporte) y también balón de fútbol. El plural die Fußbälle se refiere a los balones.",
+        "Con el sentido de deporte se usa sin artículo: Ich spiele Fußball (juego al fútbol). Para el balón el artículo es necesario: der Fußball liegt im Garten.",
+        "En compuestos: das Fußballspiel (partido de fútbol), der Fußballplatz (campo de fútbol)."
       ],
       "examples": [
         {
-          "de": "Ich spiele Fußball.",
-          "lv": "Juego al fútbol."
+          "de": "Ich spiele jeden Samstag Fußball.",
+          "lv": "Juego al fútbol todos los sábados."
+        },
+        {
+          "de": "Mein Bruder liebt Fußball.",
+          "lv": "A mi hermano le encanta el fútbol."
         },
         {
           "de": "Der Fußball liegt im Garten.",
-          "lv": "El balón de fútbol está en el jardín."
+          "lv": "El balón está en el jardín."
         },
         {
-          "de": "Wir kaufen zwei Fußbälle.",
-          "lv": "Compramos dos balones de fútbol."
+          "de": "Er hat einen neuen Fußball bekommen.",
+          "lv": "Ha recibido un balón de fútbol nuevo."
+        },
+        {
+          "de": "Fußball ist ein beliebter Sport.",
+          "lv": "El fútbol es un deporte muy popular."
         }
       ],
       "comparison": [
         {
-          "word": "Fußball",
-          "meaning": "fútbol como deporte",
-          "example": "Ich spiele Fußball. – Juego al fútbol."
+          "word": "der Ball",
+          "meaning": "pelota, balón",
+          "example": "Der Ball ist rund. – La pelota es redonda."
         },
         {
-          "word": "der Fußball",
-          "meaning": "balón de fútbol",
-          "example": "Der Fußball ist neu. – El balón de fútbol es nuevo."
+          "word": "der Handball",
+          "meaning": "balonmano",
+          "example": "Er spielt Handball. – Juega al balonmano."
+        },
+        {
+          "word": "der Basketball",
+          "meaning": "baloncesto",
+          "example": "Wir spielen Basketball. – Jugamos al baloncesto."
         }
       ],
       "tip": [
-        "Sin artículo, Fußball en spielen Fußball normalmente se refiere al deporte.",
-        "En uso contable, ein Fußball y die Fußbälle significan un balón y varios balones de fútbol."
+        "Después de spielen, el nombre del deporte va sin artículo: Fußball spielen (frente al español 'jugar al fútbol').",
+        "Der Fußball es el balón; Fußball sin artículo, el deporte."
       ],
       "important": [
-        "die Fußbälle significa balones de fútbol.",
-        "El deporte Fußball normalmente se usa en singular."
-      ]
+        "Si te refieres al deporte, Fußball no se usa en plural; die Fußbälle son varios balones.",
+        "En alemán el fútbol no se llama 'Football': esa es la palabra inglesa."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Fußball",
+            "Fußball",
+            "Fußbälle",
+            "Fußballspiel",
+            "Fußballplatz"
+          ],
+          "purple": [
+            "fútbol",
+            "balón de fútbol",
+            "balones"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Fußball"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fútbol"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fußball"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fútbol"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fußball"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "balón"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fußball"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "balón"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Fußball"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fútbol"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Ball"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pelota"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Handball"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "balonmano"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Basketball"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "baloncesto"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
     "de": "ganz",
-    "lv": "todo",
+    "lv": "entero • completo",
     "level": "A1",
     "study": {
       "id": "a1-ganz-study",
       "layout": "standardStudy",
-      "translation": "entero • todo • completamente • bastante",
+      "translation": "entero • completo",
       "explanation": [
-        "Idea principal: ganz delante de un sustantivo significa entero o todo.",
-        "Delante de un adjetivo o adverbio, ganz puede significar completamente o bastante.",
-        "ganz no es lo mismo que el pronombre alles."
+        "Idea principal: ganz como adjetivo significa entero, todo, completo: der ganze Tag (todo el día), die ganze Familie (toda la familia), das ganze Buch (el libro entero). Se declina como un adjetivo normal.",
+        "Como adverbio, ganz significa 'completamente, totalmente, bastante': ganz neu (completamente nuevo), ganz einfach (muy sencillo), ganz gut (bastante bien).",
+        "Delante de nombres de lugar sin artículo, ganz no cambia: ganz Europa (toda Europa), ganz Lettland (toda Letonia)."
       ],
       "examples": [
         {
-          "de": "Ich arbeite den ganzen Tag.",
-          "lv": "Trabajo todo el día."
+          "de": "Ich habe den ganzen Tag gearbeitet.",
+          "lv": "He trabajado todo el día."
         },
         {
-          "de": "Das ganze Haus ist sauber.",
-          "lv": "Toda la casa está limpia."
+          "de": "Sie isst die ganze Pizza.",
+          "lv": "Se come la pizza entera."
         },
         {
-          "de": "Das ist ganz sicher.",
-          "lv": "Eso es completamente seguro."
+          "de": "Das ist ganz einfach.",
+          "lv": "Es muy sencillo."
         },
         {
-          "de": "Das Essen ist ganz gut.",
-          "lv": "La comida está bastante bien."
+          "de": "Die ganze Familie kommt zum Fest.",
+          "lv": "Toda la familia viene a la fiesta."
+        },
+        {
+          "de": "Das Buch ist ganz neu.",
+          "lv": "El libro es completamente nuevo."
         }
       ],
       "comparison": [
         {
-          "word": "ganz",
-          "meaning": "entero • todo • completamente • bastante",
-          "example": "der ganze Tag – todo el día"
+          "word": "alle",
+          "meaning": "todos",
+          "example": "Alle Kinder spielen. – Todos los niños juegan."
         },
         {
-          "word": "alles",
-          "meaning": "todo como pronombre",
-          "example": "Alles ist gut. – Todo está bien."
+          "word": "voll",
+          "meaning": "lleno",
+          "example": "Das Glas ist voll. – El vaso está lleno."
+        },
+        {
+          "word": "halb",
+          "meaning": "medio",
+          "example": "Das Glas ist halb leer. – El vaso está medio vacío."
         }
       ],
       "tip": [
-        "Delante de un sustantivo, ganz suele significar entero o todo.",
-        "Delante de un adjetivo, ganz suele significar completamente o bastante."
+        "Las terminaciones son las mismas que las de otros adjetivos: der ganze Tag, ein ganzer Tag.",
+        "Ganz + adjetivo intensifica: ganz gut, ganz neu."
       ],
       "important": [
-        "der ganze Tag = todo el día.",
-        "alles = todo como pronombre."
-      ]
+        "Como adjetivo, ganz se declina (der ganze Tag); como adverbio, no cambia (ganz neu).",
+        "Delante de nombres de países y ciudades, ganz no se declina: ganz Europa, no 'ganze Europa'."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ganz",
+            "der ganze Tag",
+            "die ganze Familie",
+            "das ganze Buch",
+            "ganz neu",
+            "ganz einfach",
+            "ganz Europa",
+            "ganz Lettland"
+          ],
+          "purple": [
+            "entero",
+            "todo el día",
+            "completamente nuevo"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ganzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "todo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ganze"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "entera"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ganz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "muy"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ganze"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Toda"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ganz"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "completamente"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "alle"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "todos"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "voll"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lleno"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "halb"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "medio"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
     "de": "Garage",
     "de_article": "die",
     "de_plural": "die Garagen",
-    "lv": "cochera",
+    "lv": "garaje",
     "level": "A1"
   },
   {
@@ -6828,128 +7994,132 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "dar",
       "explanation": [
-        "Idea principal: geben significa dar.",
-        "geben se usa cuando alguien le da algo a otra persona.",
-        "Esta es la dirección opuesta a nehmen.",
-        "bekommen significa recibir, es decir, ser el que recibe algo."
+        "Idea principal: geben significa dar algo a alguien. Estructura típica: jemandem (dativo, ¿a quién?) etwas (acusativo, ¿qué?): Ich gebe dir das Buch.",
+        "Formas: du gibst, er gibt (e → i), gab, hat gegeben. La expresión es gibt + acusativo significa 'hay, existe': Es gibt hier ein Café.",
+        "También: eine Antwort geben (dar una respuesta), Hausaufgaben geben (poner deberes), die Hand geben (dar la mano)."
       ],
       "examples": [
         {
-          "de": "Gib mir bitte das Buch.",
-          "lv": "Dame el libro, por favor."
+          "de": "Ich gebe dir das Buch.",
+          "lv": "Te doy el libro."
         },
         {
-          "de": "Ich gebe dir meine Nummer.",
-          "lv": "Te doy mi número."
+          "de": "Gibst du mir bitte den Zucker?",
+          "lv": "¿Me pasas el azúcar, por favor?"
         },
         {
-          "de": "Ich nehme das Buch.",
-          "lv": "Doy el libro."
+          "de": "Es gibt hier viele Restaurants.",
+          "lv": "Aquí hay muchos restaurantes."
         },
         {
-          "de": "Ich bekomme ein Geschenk.",
-          "lv": "Doy un regalo."
+          "de": "Der Lehrer gibt den Kindern Hausaufgaben.",
+          "lv": "El profesor les pone deberes a los niños."
+        },
+        {
+          "de": "Was gibt es heute zum Essen?",
+          "lv": "¿Qué hay hoy de comer?"
         }
       ],
       "comparison": [
         {
-          "word": "geben",
-          "meaning": "dar",
-          "example": "Gib mir das Buch."
+          "word": "schenken",
+          "meaning": "regalar",
+          "example": "Er schenkt ihr Blumen. – Le regala flores."
         },
         {
           "word": "nehmen",
-          "meaning": "tomar",
-          "example": "Ich nehme das Buch."
+          "meaning": "coger, tomar",
+          "example": "Ich nehme den Kaffee. – Tomo el café."
         },
         {
           "word": "bekommen",
-          "meaning": "recibir / obtener",
-          "example": "Ich bekomme ein Geschenk."
-        },
-        {
-          "word": "bringen",
-          "meaning": "traer / entregar",
-          "example": "Ich bringe dir das Buch."
+          "meaning": "recibir",
+          "example": "Ich bekomme ein Geschenk. – Recibo un regalo."
         }
       ],
-      "tip": {
-        "text": "Recuerde: regalar → geben; tómalo para ti → nehmen."
-      },
+      "tip": [
+        "Pon primero a la persona en dativo y luego la cosa en acusativo: Ich gebe dem Kind einen Apfel.",
+        "Es gibt va siempre con acusativo: Es gibt einen Park."
+      ],
       "important": [
-        "geben y nehmen son direcciones opuestas.",
-        "bekommen significa recibir, no dar."
+        "En tercera persona del singular es er gibt (no 'er gebt'); gebt es la forma de ihr.",
+        "Es gibt no significa 'ello da': es una frase hecha que significa 'hay'."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "geben",
+            "gibt",
+            "gibst",
+            "gab",
+            "gegeben",
+            "Es gibt",
+            "die Hand geben"
+          ],
           "purple": [
-            "dar"
+            "dar",
+            "hay",
+            "dar la mano"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Gib"
-              ],
-              "yellow": [
-                "Buch"
+                "gebe"
               ]
             },
             "lv": {
               "purple": [
-                "dame"
+                "doy"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "gebe"
-              ],
-              "yellow": [
-                "Nummer"
+                "Gibst"
               ]
             },
             "lv": {
               "purple": [
-                "dodu"
+                "pasas"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
+              "blue": [
+                "gibt"
               ]
             },
             "lv": {
-              "red": [
-                "tomo"
-              ],
-              "yellow": [
-                "libro"
+              "purple": [
+                "hay"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "bekomme"
-              ],
-              "yellow": [
-                "Geschenk"
+              "blue": [
+                "gibt"
               ]
             },
             "lv": {
-              "red": [
-                "recibo"
-              ],
-              "yellow": [
-                "un regalo"
+              "purple": [
+                "pone"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gibt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hay"
               ]
             }
           }
@@ -6958,17 +8128,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "geben"
+                "schenken"
               ]
             },
             "meaning": {
               "purple": [
-                "dar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Gib"
+                "regalar"
               ]
             }
           },
@@ -6980,13 +8145,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tomar",
-                "tomar"
-              ]
-            },
-            "example": {
-              "red": [
-                "nehme"
+                "coger"
               ]
             }
           },
@@ -6998,56 +8157,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "recibir",
                 "recibir"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "bekomme"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bringen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "traer",
-                "entregar"
-              ]
-            },
-            "example": {
-              "green": [
-                "bringe"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "geben"
-            ],
-            "purple": [
-              "Recuerde"
-            ],
-            "red": [
-              "nehmen",
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "direcciones opuestas",
-              "geben"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -7066,44 +8187,179 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "gustar",
       "explanation": [
-        "Idea principal: gefallen significa gustar y su estructura se parece a la del verbo español gustar.",
-        "La cosa que gusta es el sujeto de la oración alemana.",
-        "La persona a quien le gusta algo va en dativo: mir, dir, ihm, ihr, uns, euch, ihnen."
+        "Idea principal: gefallen significa gustar, y su estructura es la misma que en español: lo que gusta es el sujeto (en nominativo) y la persona a quien le gusta va en dativo: Das Buch gefällt mir (me gusta el libro).",
+        "Formas: es gefällt, gefiel, hat gefallen. Si gustan varias cosas, el verbo va en plural: Die Schuhe gefallen mir (me gustan los zapatos).",
+        "Gefallen expresa una impresión inmediata (aspecto, experiencia); para una preferencia duradera (comida, personas) se usa más mögen."
       ],
       "examples": [
         {
-          "de": "Das gefällt mir.",
-          "lv": "Eso me gusta."
+          "de": "Das Buch gefällt mir.",
+          "lv": "Me gusta el libro."
         },
         {
-          "de": "Gefällt dir das Kleid?",
-          "lv": "¿Te gusta el vestido?"
+          "de": "Wie gefällt dir die Stadt?",
+          "lv": "¿Qué te parece la ciudad?"
         },
         {
-          "de": "Der Film gefällt uns.",
-          "lv": "Nos gusta la película."
+          "de": "Die Schuhe gefallen ihr sehr.",
+          "lv": "Los zapatos le gustan mucho."
+        },
+        {
+          "de": "Gefällt Ihnen das Hotel?",
+          "lv": "¿Le gusta el hotel?"
+        },
+        {
+          "de": "Das Lied hat mir nicht gefallen.",
+          "lv": "La canción no me ha gustado."
         }
       ],
       "comparison": [
         {
-          "word": "gefallen",
-          "meaning": "gustar • persona en dativo",
-          "example": "Das gefällt mir. – Eso me gusta."
+          "word": "mögen",
+          "meaning": "gustar (en general)",
+          "example": "Ich mag Kaffee. – Me gusta el café."
         },
         {
-          "word": "mögen",
-          "meaning": "gustar • querer",
-          "example": "Ich mag das. – Eso me gusta."
+          "word": "gern haben",
+          "meaning": "tener cariño, apreciar",
+          "example": "Ich habe ihn gern. – Le tengo cariño."
+        },
+        {
+          "word": "lieben",
+          "meaning": "querer, amar",
+          "example": "Ich liebe meine Familie. – Quiero a mi familia."
         }
       ],
       "tip": [
-        "Recuerda el patrón: Das gefällt mir.",
-        "La estructura alemana es muy parecida a Eso me gusta."
+        "La persona a la que le gusta algo va en dativo: mir, dir, ihm, ihr.",
+        "El sujeto es lo que gusta: Der Film gefällt mir."
       ],
       "important": [
-        "gefallen se usa con dativo: mir, dir, ihm, ihr, uns, euch, ihnen.",
-        "Das gefällt mir = Eso me gusta."
-      ]
+        "Gefallen no se usa con acusativo: no digas 'Ich gefalle den Film'.",
+        "Ich gefalle ihm significa 'le gusto (a él)', no 'le quiero'."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "gefallen",
+            "Gefallen",
+            "gefällt",
+            "gefiel"
+          ],
+          "purple": [
+            "gusta",
+            "gustar"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "gefällt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gusta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gefällt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "te parece"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gefallen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gustan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gefällt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gusta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gefallen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gustado"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "mögen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gustar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gern haben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tener cariño"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "lieben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "querer"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -7146,101 +8402,372 @@ const A1_WORDS = [
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "historia • historia",
+    "lv": "historia • relato",
     "level": "A1",
     "study": {
       "id": "a1-geschichte-study",
       "layout": "standardStudy",
       "translation": "historia • relato",
       "explanation": [
-        "Idea principal: Geschichte puede significar una historia o la historia como disciplina y pasado de un país o una sociedad.",
-        "El plural die Geschichten normalmente se refiere a historias o relatos.",
-        "Cuando significa historia como asignatura o disciplina, Geschichte suele usarse en singular."
+        "Idea principal: die Geschichte es un sustantivo femenino que significa historia en el sentido de relato, narración de unos hechos: Opa erzählt eine Geschichte. El plural es die Geschichten.",
+        "También significa historia como disciplina o como pasado: Geschichte lernen (estudiar historia), die Geschichte Europas. Igual que con el español 'historia', el contexto decide el significado.",
+        "Combinaciones frecuentes: eine Geschichte erzählen (contar una historia), eine Geschichte lesen (leer un cuento, un relato)."
       ],
       "examples": [
         {
-          "de": "Er erzählt eine Geschichte.",
-          "lv": "Él cuenta una historia."
+          "de": "Opa erzählt eine Geschichte.",
+          "lv": "El abuelo cuenta una historia."
         },
         {
-          "de": "Ich lerne Geschichte.",
-          "lv": "Estudio historia."
+          "de": "Das ist eine lange Geschichte.",
+          "lv": "Es una historia larga."
         },
         {
-          "de": "Das ist die Geschichte Deutschlands.",
-          "lv": "Esa es la historia de Alemania."
+          "de": "Ich lese gern Geschichten.",
+          "lv": "Me gusta leer relatos."
+        },
+        {
+          "de": "Die Kinder hören eine Geschichte vor dem Schlafen.",
+          "lv": "Los niños escuchan un cuento antes de dormir."
+        },
+        {
+          "de": "In der Schule lerne ich Geschichte.",
+          "lv": "En el colegio estudio historia."
         }
       ],
       "comparison": [
         {
-          "word": "eine Geschichte",
-          "meaning": "una historia • un relato",
-          "example": "eine interessante Geschichte – una historia interesante"
+          "word": "das Märchen",
+          "meaning": "cuento de hadas",
+          "example": "Sie liest ein Märchen. – Lee un cuento de hadas."
         },
         {
-          "word": "Geschichte",
-          "meaning": "historia",
-          "example": "Geschichte lernen – estudiar historia"
+          "word": "die Erzählung",
+          "meaning": "narración, relato",
+          "example": "Die Erzählung ist kurz. – La narración es corta."
+        },
+        {
+          "word": "die Vergangenheit",
+          "meaning": "pasado",
+          "example": "Das gehört der Vergangenheit an. – Eso pertenece al pasado."
         }
       ],
       "tip": [
-        "Con eine y en plural, Geschichte normalmente significa una historia o un relato.",
-        "Como asignatura escolar, Geschichte significa historia."
+        "Contar una historia = eine Geschichte erzählen.",
+        "Geschichte también es una asignatura: Geschichte (historia)."
       ],
       "important": [
-        "die Geschichten = historias o relatos.",
-        "Geschichte con el sentido de historia suele usarse en singular."
-      ]
+        "Die Geschichte no significa 'cuento de hadas': eso es das Märchen.",
+        "El plural es die Geschichten, no 'Geschichtes'."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Geschichte",
+            "Geschichte",
+            "Geschichten",
+            "eine Geschichte erzählen"
+          ],
+          "purple": [
+            "relato",
+            "historia"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Geschichte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "historia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschichte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "historia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschichten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "relatos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschichte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cuento"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschichte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "historia"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Märchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cuento de hadas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Erzählung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "narración"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Vergangenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasado"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "hermanos y hermanas",
+    "lv": "hermanos",
     "level": "A1",
     "study": {
       "id": "a1-geschwister-study",
       "layout": "standardStudy",
       "translation": "hermanos",
       "explanation": [
-        "Idea principal: Geschwister significa hermanos y hermanas como grupo.",
-        "Esta palabra normalmente se usa solo en plural.",
-        "Para una sola persona se usa Bruder o Schwester."
+        "Idea principal: die Geschwister es un sustantivo plural que significa hermanos y hermanas, es decir, todos los hijos de una familia: Hast du Geschwister? Prácticamente no tiene singular.",
+        "Un hermano o una hermana se dice der Bruder o die Schwester. El artículo es die Geschwister y el verbo va en plural: Meine Geschwister wohnen in Hamburg. En dativo: mit meinen Geschwistern.",
+        "La palabra no indica el sexo: Ich habe zwei Geschwister pueden ser hermanos, hermanas o uno de cada, igual que el plural español 'hermanos'. En cambio, Brüder son solo hermanos varones."
       ],
       "examples": [
         {
-          "de": "Ich habe zwei Geschwister.",
-          "lv": "Tengo dos hermanos."
+          "de": "Hast du Geschwister?",
+          "lv": "¿Tienes hermanos?"
         },
         {
-          "de": "Meine Geschwister wohnen in Berlin.",
-          "lv": "Mis hermanos viven en Berlín."
+          "de": "Ich habe drei Geschwister.",
+          "lv": "Tengo tres hermanos."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Hamburg.",
+          "lv": "Mis hermanos viven en Hamburgo."
+        },
+        {
+          "de": "Sie hat keine Geschwister.",
+          "lv": "No tiene hermanos."
+        },
+        {
+          "de": "Er spielt gern mit seinen Geschwistern.",
+          "lv": "Le gusta jugar con sus hermanos."
         }
       ],
       "comparison": [
         {
-          "word": "Geschwister",
-          "meaning": "hermanos y hermanas",
-          "example": "Meine Geschwister – mis hermanos"
-        },
-        {
-          "word": "Bruder",
+          "word": "der Bruder",
           "meaning": "hermano",
-          "example": "mein Bruder – mi hermano"
+          "example": "Mein Bruder heißt Tom. – Mi hermano se llama Tom."
         },
         {
-          "word": "Schwester",
+          "word": "die Schwester",
           "meaning": "hermana",
-          "example": "meine Schwester – mi hermana"
+          "example": "Meine Schwester ist Ärztin. – Mi hermana es médica."
+        },
+        {
+          "word": "die Eltern",
+          "meaning": "padres",
+          "example": "Meine Eltern arbeiten. – Mis padres trabajan."
         }
       ],
       "tip": [
-        "Geschwister normalmente se usa en plural.",
-        "Para una sola persona, elige Bruder o Schwester."
+        "Si preguntas por la familia, di Hast du Geschwister?",
+        "Aprende la palabra como plural: die Geschwister, mit den Geschwistern."
       ],
       "important": [
-        "En el nivel A1 no se usa normalmente ein Geschwister como forma singular."
-      ]
+        "Geschwister no se usa para un solo hermano o una sola hermana.",
+        "El verbo va en plural: Die Geschwister sind klein."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Geschwister",
+            "Geschwister",
+            "Geschwistern",
+            "der Bruder",
+            "die Schwester"
+          ],
+          "purple": [
+            "hermanos y hermanas",
+            "hermano o una hermana"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Geschwister"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hermanos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschwister"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hermanos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschwister"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hermanos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschwister"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hermanos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Geschwistern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hermanos"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Bruder"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hermano"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schwester"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hermana"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Eltern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "padres"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -7257,7 +8784,7 @@ const A1_WORDS = [
   },
   {
     "de": "gesund",
-    "lv": "saludable",
+    "lv": "sano • saludable",
     "level": "A1"
   },
   {
@@ -7301,10 +8828,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "inmediatamente • igual",
       "explanation": [
-        "Idea principal: gleich temporalmente significa inmediatamente, comparativamente significa igual.",
-        "Cuando se trata de tiempo, gleich = inmediatamente/en un momento (Ich komme gleich. = ya voy enseguida).",
-        "En comparación, gleich = igual/igual (die gleiche Farbe = el mismo color).",
-        "gleich también se puede usar como preposición con el dativo, que significa como (gleich mir = como yo)."
+        "Idea principal: gleich como adverbio significa 'enseguida, inmediatamente, dentro de un momento': Ich komme gleich, Der Film beginnt gleich. Indica un futuro muy próximo, a menudo sin hora exacta.",
+        "Como adjetivo, gleich significa 'igual, el mismo': Die Kinder sind gleich alt. La expresión Das ist mir gleich significa 'me da igual'.",
+        "Con indicaciones de lugar, gleich significa 'justo': gleich nebenan (justo al lado), gleich hier (justo aquí)."
       ],
       "examples": [
         {
@@ -7312,39 +8838,60 @@ const A1_WORDS = [
           "lv": "Voy enseguida."
         },
         {
-          "de": "Wir haben die gleiche Farbe.",
-          "lv": "Tenemos el mismo color."
+          "de": "Der Film beginnt gleich.",
+          "lv": "La película empieza enseguida."
         },
         {
-          "de": "Das Essen ist gleich fertig.",
-          "lv": "La comida estará lista pronto."
+          "de": "Moment, ich bin gleich fertig.",
+          "lv": "Un momento, enseguida termino."
         },
         {
-          "de": "Beide Wege sind gleich lang.",
-          "lv": "Ambos caminos tienen la misma longitud."
+          "de": "Die Kinder sind gleich alt.",
+          "lv": "Los niños tienen la misma edad."
         },
         {
-          "de": "Bis gleich!",
-          "lv": "¡Nos vemos pronto!"
+          "de": "Das ist mir gleich.",
+          "lv": "Me da igual."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sofort",
+          "meaning": "inmediatamente, en el acto",
+          "example": "Komm sofort her! – ¡Ven aquí inmediatamente!"
         },
         {
-          "de": "Sie sind gleich groß.",
-          "lv": "Son de la misma altura."
+          "word": "bald",
+          "meaning": "pronto",
+          "example": "Bis bald! – ¡Hasta pronto!"
+        },
+        {
+          "word": "ähnlich",
+          "meaning": "parecido",
+          "example": "Die Brüder sind ähnlich. – Los hermanos se parecen."
         }
       ],
       "tip": [
-        "En un rato (en un momento) → ahora.",
-        "A modo de comparación (igual) → igual."
+        "Gleich significa 'dentro de un momento'; si quieres subrayar 'sin demora', usa sofort.",
+        "Gleich nebenan sirve para decir 'justo al lado'."
       ],
       "important": [
-        "gleich = inmediatamente (tiempo) O igual (comparación).",
-        "Bis gleich! = ¡hasta pronto! - una frase de despedida común."
+        "Gleich también es el adjetivo 'igual', así que el contexto decide el significado.",
+        "Quien dice gleich suele referirse a unos minutos, no a una hora."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "gleich",
+            "gleich nebenan",
+            "gleich hier",
+            "Das ist mir gleich"
+          ],
           "purple": [
-            "inmediatamente",
-            "igual"
+            "enseguida",
+            "igual",
+            "me da igual",
+            "justo"
           ]
         },
         "examples": [
@@ -7356,19 +8903,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Voy"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleiche"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tenemos"
+                "enseguida"
               ]
             }
           },
@@ -7380,19 +8915,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "comida"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ambos"
+                "enseguida"
               ]
             }
           },
@@ -7404,42 +8927,80 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "¡nos"
+                "enseguida"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "gleich"
               ]
             },
             "lv": {
               "purple": [
-                "son"
+                "la misma"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gleich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Me da igual"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sofort"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "inmediatamente"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bald"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pronto"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ähnlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "parecido"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "rato"
-            ]
-          },
-          {
-            "green": [
-              "igual"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "inmediatamente",
-              "igual"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -7447,7 +9008,7 @@ const A1_WORDS = [
   {
     "de": "Glück",
     "de_article": "das",
-    "lv": "felicidad",
+    "lv": "suerte • felicidad",
     "level": "A1"
   },
   {
@@ -7473,7 +9034,7 @@ const A1_WORDS = [
     "de": "Gras",
     "de_article": "das",
     "de_plural": "die Gräser",
-    "lv": "césped",
+    "lv": "hierba",
     "level": "A1"
   },
   {
@@ -7490,9 +9051,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "grande",
       "explanation": [
-        "Idea principal: Grande en tamaño o para una persona, alta en altura.",
-        "groß significa principalmente: tamaño grande.",
-        "A menudo se caracteriza por: tamaño total."
+        "Idea principal: groß significa grande: describe un tamaño grande, una estatura alta, mucho tiempo o importancia: ein großes Haus, ein großer Mann (un hombre alto), eine große Stadt, ein großer Fehler.",
+        "Grados de comparación: groß, größer, am größten. Delante del sustantivo se declina: ein großer Tisch, eine große Stadt, ein großes Zimmer.",
+        "Referido a la estatura de una persona, groß significa 'alto': Er ist 1,90 Meter groß (mide 1,90 m)."
       ],
       "examples": [
         {
@@ -7500,30 +9061,61 @@ const A1_WORDS = [
           "lv": "La casa es grande."
         },
         {
-          "de": "Berlin ist eine große Stadt.",
-          "lv": "La casa es grande."
+          "de": "Er ist sehr groß, fast zwei Meter.",
+          "lv": "Es muy alto, casi dos metros."
         },
         {
-          "de": "Er ist groß.",
-          "lv": "Él es alto."
+          "de": "Wir wohnen in einer großen Stadt.",
+          "lv": "Vivimos en una ciudad grande."
         },
         {
-          "de": "Das Zimmer ist groß.",
-          "lv": "La habitación es grande."
+          "de": "Meine Schwester ist größer als ich.",
+          "lv": "Mi hermana es más alta que yo."
+        },
+        {
+          "de": "Das war ein großer Fehler.",
+          "lv": "Fue un gran error."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "klein",
+          "meaning": "pequeño",
+          "example": "Das Zimmer ist klein. – La habitación es pequeña."
+        },
+        {
+          "word": "hoch",
+          "meaning": "alto (edificios, objetos)",
+          "example": "Der Turm ist hoch. – La torre es alta."
+        },
+        {
+          "word": "riesig",
+          "meaning": "enorme",
+          "example": "Das Haus ist riesig. – La casa es enorme."
         }
       ],
       "tip": [
-        "groß = liels",
-        "Utilice groß cuando el contexto se ajuste a este significado."
+        "Su contrario es klein: groß – klein.",
+        "El comparativo lleva diéresis: groß → größer."
       ],
       "important": [
-        "Para una persona, Er ist groß significa alto.",
-        "groß = liels."
+        "Para un edificio alto no se usa groß sino hoch: ein hohes Haus.",
+        "En Suiza no se usa la ß y se escribe gross; en los demás países, groß."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "groß",
+            "größer",
+            "am größten",
+            "großes Haus",
+            "großer Mann",
+            "1,90 Meter groß"
+          ],
           "purple": [
-            "grande"
+            "grande",
+            "alto",
+            "estatura"
           ]
         },
         "examples": [
@@ -7535,19 +9127,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "casa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "große"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "casa"
+                "grande"
               ]
             }
           },
@@ -7557,34 +9137,94 @@ const A1_WORDS = [
                 "groß"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "alto"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "groß"
+                "großen"
               ]
             },
             "lv": {
               "purple": [
-                "liela"
+                "grande"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "größer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "más alta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "großer"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gran"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "klein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pequeño"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "hoch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alto"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "riesig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "enorme"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "groß"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "groß"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -7599,9 +9239,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "abuelos",
       "explanation": [
-        "Idea principal: Großeltern significa abuela y abuelo como grupo.",
-        "Esta palabra se usa en plural.",
-        "En singular se usa Großmutter o Großvater."
+        "Idea principal: die Großeltern es un sustantivo plural que significa abuelos, es decir, la abuela y el abuelo juntos: Meine Großeltern wohnen auf dem Land.",
+        "Por separado: der Großvater (abuelo), die Großmutter (abuela); en la lengua familiar, der Opa y die Oma. Großeltern no tiene forma de singular.",
+        "En dativo plural la forma no cambia (la palabra ya termina en -n): bei den Großeltern, mit den Großeltern."
       ],
       "examples": [
         {
@@ -7609,34 +9249,165 @@ const A1_WORDS = [
           "lv": "Mis abuelos viven en el campo."
         },
         {
-          "de": "Ich besuche meine Großeltern.",
-          "lv": "Visito a mis abuelos."
+          "de": "Wir besuchen am Sonntag unsere Großeltern.",
+          "lv": "El domingo visitamos a nuestros abuelos."
+        },
+        {
+          "de": "Hast du noch Großeltern?",
+          "lv": "¿Todavía tienes abuelos?"
+        },
+        {
+          "de": "Er verbringt die Ferien bei den Großeltern.",
+          "lv": "Pasa las vacaciones en casa de los abuelos."
+        },
+        {
+          "de": "Die Großeltern meiner Mutter leben in Riga.",
+          "lv": "Los abuelos de mi madre viven en Riga."
         }
       ],
       "comparison": [
         {
-          "word": "Großeltern",
-          "meaning": "abuelos",
-          "example": "meine Großeltern – mis abuelos"
+          "word": "die Eltern",
+          "meaning": "padres",
+          "example": "Meine Eltern arbeiten. – Mis padres trabajan."
         },
         {
-          "word": "Großmutter",
-          "meaning": "abuela",
-          "example": "meine Großmutter – mi abuela"
-        },
-        {
-          "word": "Großvater",
+          "word": "der Opa",
           "meaning": "abuelo",
-          "example": "mein Großvater – mi abuelo"
+          "example": "Mein Opa liest gern. – A mi abuelo le gusta leer."
+        },
+        {
+          "word": "die Oma",
+          "meaning": "abuela",
+          "example": "Meine Oma kocht gut. – Mi abuela cocina bien."
         }
       ],
       "tip": [
-        "Großeltern es una palabra plural.",
-        "Para una sola persona, usa Großmutter o Großvater."
+        "Oma y Opa son las formas familiares de abuela y abuelo.",
+        "Großeltern es plural, así que el verbo va en plural: Die Großeltern kommen."
       ],
       "important": [
-        "die Großeltern = los abuelos."
-      ]
+        "Großeltern no es lo mismo que Eltern: los padres son Eltern.",
+        "Para una sola abuela o un solo abuelo no se usa Großeltern, sino Großmutter o Großvater."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Großeltern"
+          ],
+          "purple": [
+            "abuelos"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "abuelos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "abuelos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "abuelos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "abuelos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "abuelos"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Eltern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "padres"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Opa"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "abuelo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Oma"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "abuela"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -7686,57 +9457,78 @@ const A1_WORDS = [
   },
   {
     "de": "gut",
-    "lv": "bien",
+    "lv": "bueno • bien",
     "level": "A1",
     "study": {
       "id": "a1-gut-study",
       "layout": "standardStudy",
-      "translation": "bien",
+      "translation": "bueno • bien",
       "explanation": [
-        "Idea principal: gut es un adjetivo/adverbio: bueno, exitoso, está bien.",
-        "gut describe la calidad, la salud o cómo va algo (Es geht mir gut. = Estoy bien).",
-        "En la frase educada guten Tag/Abend/Morgen gut cambia la terminación después de la inflexión.",
-        "Si gut describe un verbo, es un adverbio (gut schwimmen = nadar bien).",
-        "No debe confundirse con das Gut: es un sustantivo (propiedad, mansión) con letra mayúscula y artículo."
+        "Idea principal: gut significa bueno: ein guter Freund, eine gute Idee, ein gutes Buch. Como adverbio significa 'bien': Er spricht gut Deutsch.",
+        "Los grados de comparación son irregulares: gut, besser, am besten. Delante del sustantivo: ein guter Mann, eine gute Frau, ein gutes Kind.",
+        "En frases hechas: Guten Tag! (buenos días), Gute Nacht! (buenas noches), Mir geht es gut (estoy bien). A diferencia del español, que distingue entre 'bueno' y 'bien', el alemán usa la misma forma gut para ambos."
       ],
       "examples": [
         {
           "de": "Das Essen ist gut.",
-          "lv": "La comida es buena."
-        },
-        {
-          "de": "Wie geht es dir? – Gut, danke!",
-          "lv": "¿Cómo estás? ¡Bien, gracias!"
+          "lv": "La comida está buena."
         },
         {
           "de": "Er spricht gut Deutsch.",
           "lv": "Habla bien alemán."
         },
         {
-          "de": "Guten Morgen!",
-          "lv": "¡Buen día!"
-        },
-        {
           "de": "Das ist eine gute Idee.",
-          "lv": "Esa es una buena idea."
+          "lv": "Es una buena idea."
         },
         {
-          "de": "Alles ist gut.",
-          "lv": "Todo está bien."
+          "de": "Mir geht es gut, danke.",
+          "lv": "Estoy bien, gracias."
+        },
+        {
+          "de": "Gute Nacht!",
+          "lv": "¡Buenas noches!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schön",
+          "meaning": "bonito, agradable",
+          "example": "Das Wetter ist schön. – Hace buen tiempo."
+        },
+        {
+          "word": "besser",
+          "meaning": "mejor",
+          "example": "Heute geht es mir besser. – Hoy me encuentro mejor."
+        },
+        {
+          "word": "toll",
+          "meaning": "estupendo, genial",
+          "example": "Das ist toll! – ¡Es genial!"
         }
       ],
       "tip": [
-        "gut sin artículo es un adjetivo/adverbio - bueno/bien.",
-        "das Gut con mayúscula y artículo es una palabra completamente diferente: un sustantivo (propiedad, mansión)."
+        "Gut es a la vez adjetivo y adverbio, con la misma forma.",
+        "Aprende besser y am besten por separado: no son formas regulares."
       ],
       "important": [
-        "gut = bueno/bien (adjetivo/adjetivo).",
-        "das Gut = propiedad/mansión (sustantivo) - no debe confundirse con gut.",
-        "Guten Tag/Morgen/Abend: cambios intestinales que terminan después de la inflexión."
+        "En el comparativo no digas 'gutter'; lo correcto es besser.",
+        "Gut no significa 'bonito': bonito o agradable es schön."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "gut",
+            "gute",
+            "guter",
+            "gutes",
+            "besser",
+            "am besten",
+            "Guten Tag",
+            "Gute Nacht"
+          ],
           "purple": [
+            "bueno",
             "bien"
           ]
         },
@@ -7749,19 +9541,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "comida"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Gut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "¿Cómo"
+                "buena"
               ]
             }
           },
@@ -7773,19 +9553,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "habla"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Guten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "buen día"
+                "bien"
               ]
             }
           },
@@ -7797,7 +9565,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "esa"
+                "buena"
               ]
             }
           },
@@ -7809,41 +9577,68 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "todo"
+                "bien"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gute"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Buenas"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bonito"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besser"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mejor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "toll"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "estupendo"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "gut"
-            ]
-          },
-          {
-            "green": [
-              "das Gut"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "gut"
-            ]
-          },
-          {
-            "green": [
-              "das Gut"
-            ]
-          },
-          {
-            "blue": [
-              "Guten Tag",
-              "Morgen",
-              "Abend"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -7857,69 +9652,76 @@ const A1_WORDS = [
   },
   {
     "de": "haben",
-    "lv": "tengo",
+    "lv": "tener",
     "level": "A1",
     "study": {
       "id": "a1-haben",
       "layout": "standardStudy",
       "translation": "tener",
       "explanation": [
-        "Idea principal: haben significa que alguien tiene o tiene acceso a algo.",
-        "La construcción dativa letona \"yo tengo/tú tienes\" en alemán es nominativo + haben: Ich habe..., Du hast..., Er hat... — no *mir habe.",
-        "A Haben le sigue el acusativo: Ich habe ein Auto. = Tengo un auto.",
-        "haben también se utiliza como verbo auxiliar en perfecto: Ich habe gelernt."
+        "Idea principal: haben significa tener, poseer algo: Ich habe einen Bruder (tengo un hermano), Wir haben Zeit. Rige acusativo.",
+        "Formas: ich habe, du hast, er hat, wir haben, ihr habt, sie haben; hatte, hat gehabt. Haben también es el verbo auxiliar del Perfekt, como 'haber' en español: Ich habe das Buch gelesen (he leído el libro).",
+        "En muchas expresiones haben describe un estado, igual que 'tener' en español: Hunger haben (tener hambre), Durst haben (tener sed), Angst haben (tener miedo), Recht haben (tener razón)."
       ],
       "examples": [
         {
-          "de": "Ich habe ein Auto.",
-          "lv": "Tengo un auto."
+          "de": "Ich habe einen Bruder.",
+          "lv": "Tengo un hermano."
         },
         {
-          "de": "Hast du Zeit?",
-          "lv": "¿Tienes tiempo?"
+          "de": "Wir haben heute Zeit.",
+          "lv": "Hoy tenemos tiempo."
         },
         {
-          "de": "Wir haben Hunger.",
-          "lv": "Tenemos hambre."
+          "de": "Hast du Hunger?",
+          "lv": "¿Tienes hambre?"
         },
         {
-          "de": "Ich habe das gemacht.",
-          "lv": "Lo tengo."
+          "de": "Sie hat ein neues Auto.",
+          "lv": "Tiene un coche nuevo."
+        },
+        {
+          "de": "Er hat das Buch gelesen.",
+          "lv": "Ha leído el libro."
         }
       ],
       "comparison": [
         {
-          "word": "haben",
-          "meaning": "tengo",
-          "example": "Ich habe Zeit. = Tengo tiempo."
+          "word": "sein",
+          "meaning": "ser, estar",
+          "example": "Ich bin müde. – Estoy cansado."
         },
         {
-          "word": "sein",
-          "meaning": "ser",
-          "example": "Ich bin hier. = Estoy aquí."
+          "word": "besitzen",
+          "meaning": "poseer",
+          "example": "Er besitzt ein Haus. – Posee una casa."
         },
         {
           "word": "bekommen",
           "meaning": "recibir",
-          "example": "Ich bekomme ein Geschenk. = Recibo un regalo."
-        },
-        {
-          "word": "machen",
-          "meaning": "hacer",
-          "example": "Ich mache das. = Yo lo hago."
+          "example": "Ich bekomme ein Geschenk. – Recibo un regalo."
         }
       ],
-      "tip": {
-        "text": "Recuerda: Ich habe → tengo."
-      },
+      "tip": [
+        "Haben + sustantivo en acusativo: Ich habe einen Hund, Ich habe keinen Hund.",
+        "En el Perfekt, la mayoría de los verbos usan haben: ich habe gelesen."
+      ],
       "important": [
-        "Letón \"tengo\" = alemán Ich habe + acusativo. No utilizar el caso dativo: incorrecto *mir habe.",
-        "Con sein y dativo: Mir ist kalt. = Tengo frío. (¡no es haben!)",
-        "Perfecto: Ich habe gelernt = he aprendido."
+        "La edad se expresa con sein: Ich bin 20, no 'Ich habe 20', aunque en español se diga 'tengo 20 años'.",
+        "En la negación se usa kein: Ich habe kein Auto, no 'nicht ein Auto'."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "haben",
+            "habe",
+            "Haben",
+            "hast",
+            "hat",
+            "hatte"
+          ],
           "purple": [
+            "tener",
             "tengo"
           ]
         },
@@ -7932,7 +9734,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tengo"
+                "Tengo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "haben"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tenemos"
               ]
             }
           },
@@ -7944,56 +9758,36 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tev ir"
+                "Tienes"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "haben"
+                "hat"
               ]
             },
             "lv": {
               "purple": [
-                "tenemos hambre"
+                "Tiene"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "habe"
+                "hat"
               ]
             },
             "lv": {
               "purple": [
-                "hice"
+                "Ha leído"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "haben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "tengo"
-              ]
-            },
-            "example": {
-              "blue": [
-                "habe"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -8004,11 +9798,17 @@ const A1_WORDS = [
               "purple": [
                 "ser"
               ]
-            },
-            "example": {
+            }
+          },
+          {
+            "word": {
               "green": [
-                "Estoy",
-                "Estoy"
+                "besitzen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "poseer"
               ]
             }
           },
@@ -8022,49 +9822,16 @@ const A1_WORDS = [
               "purple": [
                 "recibir"
               ]
-            },
-            "example": {
-              "yellow": [
-                "Recibiré",
-                "recibo"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "machen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "hacer"
-              ]
-            },
-            "example": {
-              "red": [
-                "mache",
-                "daru"
-              ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Ich habe"
-            ],
-            "purple": [
-              "Recuerda"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "tengo"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -8090,83 +9857,91 @@ const A1_WORDS = [
   },
   {
     "de": "halten",
-    "lv": "mantener • detener",
+    "lv": "sujetar • sostener • parar",
     "level": "A1",
     "study": {
       "id": "a1-halten",
       "layout": "standardStudy",
-      "translation": "mantener • detener",
+      "translation": "sujetar • sostener • parar",
       "explanation": [
-        "Idea principal: detener significa sostener, pero con transporte o movimiento puede significar detenerse o detenerse.",
-        "Con un objeto en la mano, detenerse suele ser sostener.",
-        "En autobús, tren o coche, detener a menudo significa detenerse.",
-        "En la frase de opinión ich halte das für... significa considerar como."
+        "Idea principal: halten significa sujetar o sostener algo con la mano: Sie hält ein Baby im Arm. También significa parar o detenerse (Der Zug hält), considerar (etwas für gut halten) y pronunciar un discurso (eine Rede halten).",
+        "Formas: du hältst, er hält (a → ä), hielt, hat gehalten. Considerar: jemanden/etwas für + acusativo halten.",
+        "Halt! como orden significa '¡alto!', pero Halt die Tür! significa '¡sujeta la puerta!'."
       ],
       "examples": [
         {
-          "de": "Ich halte die Tasche.",
-          "lv": "Sostengo la bolsa."
+          "de": "Sie hält ein Baby im Arm.",
+          "lv": "Sostiene a un bebé en brazos."
         },
         {
-          "de": "Der Bus hält hier.",
-          "lv": "El autobús para aquí."
+          "de": "Der Zug hält in Hamburg.",
+          "lv": "El tren para en Hamburgo."
         },
         {
-          "de": "Bitte halten Sie an.",
-          "lv": "Por favor, para."
+          "de": "Ich halte das für eine gute Idee.",
+          "lv": "Lo considero una buena idea."
         },
         {
-          "de": "Ich halte das für richtig.",
-          "lv": "Considero que es correcto."
+          "de": "Er hält eine Rede.",
+          "lv": "Pronuncia un discurso."
+        },
+        {
+          "de": "Halt bitte die Tür!",
+          "lv": "¡Sujeta la puerta, por favor!"
         }
       ],
       "comparison": [
         {
-          "word": "halten",
-          "meaning": "mantener / detener",
-          "example": "Der Bus hält. = El autobús se detiene."
+          "word": "tragen",
+          "meaning": "llevar",
+          "example": "Sie trägt eine Tasche. – Lleva un bolso."
         },
         {
           "word": "nehmen",
-          "meaning": "tomar",
-          "example": "Ich nehme die Tasche. = Cojo la bolsa."
+          "meaning": "coger, tomar",
+          "example": "Ich nehme das Buch. – Cojo el libro."
         },
         {
           "word": "anhalten",
-          "meaning": "parar",
-          "example": "Bitte halten Sie an. = Por favor, deténgase."
-        },
-        {
-          "word": "denken",
-          "meaning": "pensar",
-          "example": "Ich denke, das ist richtig. = Creo que eso es correcto."
+          "meaning": "parar, detener",
+          "example": "Der Fahrer hält den Bus an. – El conductor para el autobús."
         }
       ],
-      "tip": {
-        "text": "Recuerda: en la mano → sostener; transporte → se detiene."
-      },
+      "tip": [
+        "Para trenes y autobuses, halten significa 'parar en una parada': Der Bus hält hier.",
+        "Considerar = halten für + acusativo."
+      ],
       "important": [
-        "detener no es sólo \"mantener\". En el caso del transporte, esto a menudo significa detenerse.",
-        "Ich halte das für... es una frase de opinión: \"Lo considero como...\".",
-        "Bitte halten Sie an utiliza el verbo separable anhalten."
+        "Halten es un verbo fuerte: hielt, hat gehalten.",
+        "Halten no significa 'esperar': para eso está warten."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "halten",
+            "hält",
+            "hältst",
+            "hielt",
+            "gehalten",
+            "Halt"
+          ],
           "purple": [
-            "sostener",
-            "considerar como"
+            "sujetar",
+            "considerar",
+            "Considerar",
+            "sujeta"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "halte"
+                "hält"
               ]
             },
             "lv": {
               "purple": [
-                "turu"
+                "Sostiene"
               ]
             }
           },
@@ -8178,19 +9953,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "autobús"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "halten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "por"
+                "para"
               ]
             }
           },
@@ -8202,7 +9965,26 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uzskatu"
+                "considero"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hält"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Pronuncia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Halt"
               ]
             }
           }
@@ -8211,21 +9993,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "halten"
+                "tragen"
               ]
             },
             "meaning": {
               "purple": [
-                "mantener",
-                "mantener"
-              ]
-            },
-            "example": {
-              "blue": [
-                "detiene"
-              ],
-              "purple": [
-                "se detiene"
+                "llevar"
               ]
             }
           },
@@ -8237,13 +10010,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tomar"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "nehme",
-                "tomo"
+                "coger"
               ]
             }
           },
@@ -8257,56 +10024,16 @@ const A1_WORDS = [
               "purple": [
                 "parar"
               ]
-            },
-            "example": {
-              "red": [
-                "Stoppen",
-                "Apturiet"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pensar"
-              ]
-            },
-            "example": {
-              "green": [
-                "Creo",
-                "Creo"
-              ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Recuerde",
-              "detener"
-            ],
-            "purple": [
-              "en la mano",
-              "Recuerde"
-            ],
-            "green": [
-              "transporte"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "mantener",
-              "detener",
-              "detener"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -8322,50 +10049,189 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "mano (palma)",
+    "lv": "mano",
     "level": "A1",
     "study": {
       "id": "a1-hand-study",
       "layout": "standardStudy",
       "translation": "mano",
       "explanation": [
-        "Idea principal: die Hand significa mano.",
-        "En alemán, Arm y Hand son dos palabras diferentes.",
-        "der Arm significa brazo, mientras que die Hand significa mano."
+        "Idea principal: die Hand es un sustantivo femenino que significa mano, desde la muñeca hasta la punta de los dedos: Ich wasche mir die Hände. El plural es die Hände (con diéresis).",
+        "Igual que en español, Hand es solo la mano; el brazo entero, desde el hombro, es der Arm. Además, Hand es femenino, como 'la mano'.",
+        "Expresiones frecuentes: die Hand geben (dar la mano), in der Hand (en la mano), mit der Hand (a mano)."
       ],
       "examples": [
         {
-          "de": "Ich wasche meine Hände.",
+          "de": "Gib mir deine Hand!",
+          "lv": "¡Dame la mano!"
+        },
+        {
+          "de": "Ich wasche mir die Hände.",
           "lv": "Me lavo las manos."
         },
         {
-          "de": "Sie hält das Glas in der Hand.",
-          "lv": "Ella sostiene el vaso en la mano."
+          "de": "Er hat eine Tasche in der Hand.",
+          "lv": "Lleva un bolso en la mano."
         },
         {
-          "de": "Mein Arm tut weh.",
-          "lv": "Me duele el brazo."
+          "de": "Sie gibt dem Chef die Hand.",
+          "lv": "Le da la mano al jefe."
+        },
+        {
+          "de": "Meine Hände sind kalt.",
+          "lv": "Tengo las manos frías."
         }
       ],
       "comparison": [
         {
-          "word": "die Hand",
-          "meaning": "mano",
-          "example": "in der Hand – en la mano"
-        },
-        {
           "word": "der Arm",
           "meaning": "brazo",
           "example": "Mein Arm tut weh. – Me duele el brazo."
+        },
+        {
+          "word": "der Finger",
+          "meaning": "dedo",
+          "example": "Ich habe einen Finger verletzt. – Me he hecho daño en un dedo."
+        },
+        {
+          "word": "die Faust",
+          "meaning": "puño",
+          "example": "Er ballt die Faust. – Aprieta el puño."
         }
       ],
       "tip": [
-        "Hand = mano.",
-        "Arm = brazo, desde el hombro hasta la mano."
+        "En plural se añade diéresis: die Hand → die Hände.",
+        "Para lavarse las manos se dice sich die Hände waschen: Ich wasche mir die Hände."
       ],
       "important": [
-        "En alemán, Hand y Arm no significan lo mismo."
-      ]
+        "No confundas Hand con Arm: Arm es el brazo, del hombro a la muñeca.",
+        "El plural es die Hände, no 'die Hands'."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Hand",
+            "Hand",
+            "Hände",
+            "die Hand geben",
+            "in der Hand",
+            "mit der Hand",
+            "der Arm"
+          ],
+          "purple": [
+            "mano",
+            "dar la mano"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Hand"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mano"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hände"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "manos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hand"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mano"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hand"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mano"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Hände"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "manos"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Arm"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "brazo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Finger"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dedo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Faust"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "puño"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -8422,17 +10288,16 @@ const A1_WORDS = [
   },
   {
     "de": "heißen",
-    "lv": "ser llamado • significar",
+    "lv": "llamarse • significar",
     "level": "A1",
     "study": {
       "id": "a1-heißen",
       "layout": "standardStudy",
-      "translation": "ser llamado • significar",
+      "translation": "llamarse • significar",
       "explanation": [
-        "Idea principal: heißen se usa con mayor frecuencia para decir cómo se llama alguien.",
-        "La frase Ich heiße... significa \"mi nombre es...\".",
-        "Con palabras o expresiones, heißen también puede significar malo.",
-        "En el nivel A1, la frase más importante es Wie heißt du?"
+        "Idea principal: heißen significa «llamarse»: sirve para decir cómo se llama alguien o algo. Ich heiße Anna equivale literalmente a «me llamo Anna», igual que en español.",
+        "Formas: heißt, hieß, hat geheißen. Tras heißen, el nombre va en nominativo: Er heißt Paul. En preguntas: Wie heißt du? (¿Cómo te llamas?), Wie heißt das auf Deutsch? (¿Cómo se dice eso en alemán?).",
+        "El segundo significado es «significar»: Was heißt “Danke” auf Spanisch? — ¿Qué significa «Danke» en español?"
       ],
       "examples": [
         {
@@ -8441,54 +10306,58 @@ const A1_WORDS = [
         },
         {
           "de": "Wie heißt du?",
-          "lv": "cómo te llamas"
+          "lv": "¿Cómo te llamas?"
+        },
+        {
+          "de": "Das Kind heißt Lukas.",
+          "lv": "El niño se llama Lukas."
         },
         {
           "de": "Wie heißt das auf Deutsch?",
-          "lv": "¿Cómo se llama en alemán?"
+          "lv": "¿Cómo se dice eso en alemán?"
         },
         {
-          "de": "Was heißt das?",
-          "lv": "¿qué significa eso?"
+          "de": "Was heißt “Danke” auf Lettisch?",
+          "lv": "¿Qué significa «Danke» en letón?"
         }
       ],
       "comparison": [
         {
-          "word": "heißen",
-          "meaning": "ser llamado / significar",
-          "example": "Ich heiße Anna. = Me llamo Anna."
-        },
-        {
           "word": "nennen",
-          "meaning": "llamarse / nombrar",
-          "example": "Er nennt mich Tom. = Él me llama Tom."
+          "meaning": "llamar (dar un nombre)",
+          "example": "Er nennt mich Tom. – Me llama Tom."
         },
         {
           "word": "bedeuten",
           "meaning": "significar",
-          "example": "Was bedeutet das? – ¿Qué significa eso?"
+          "example": "Was bedeutet das Wort? – ¿Qué significa la palabra?"
         },
         {
           "word": "rufen",
-          "meaning": "llamar / llamar",
-          "example": "Ich rufe dich. = Te llamo."
-        },
-        {
-          "word": "anrufen",
-          "meaning": "llamar",
-          "example": "Ich rufe dich an. = Te llamo."
+          "meaning": "llamar (para que alguien venga)",
+          "example": "Ich rufe dich. – Te llamo."
         }
       ],
-      "tip": {
-        "text": "Recuerda: Ich heiße... → me llamo..."
-      },
+      "tip": [
+        "Apréndelo como un bloque: Ich heiße … = Me llamo …; Wie heißt du? = ¿Cómo te llamas?",
+        "Para preguntar el nombre, di Wie heißt du?, no “Wie bist du?”."
+      ],
       "important": [
-        "Wie heißt du? significa \"¿Cómo te llamas?\", no literalmente \"¿cómo te llamas?\".",
-        "Was heißt das? a menudo significa \"¿Qué significa?\"."
+        "El nombre que sigue a heißen va en nominativo (Ich heiße Anna), no en acusativo.",
+        "El verbo heißen es fuerte: hieß, no “heißte”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "heißen",
+            "heißt",
+            "hieß",
+            "geheißen",
+            "Ich heiße",
+            "Wie heißt du"
+          ],
           "purple": [
+            "llamarse",
             "significar"
           ]
         },
@@ -8501,7 +10370,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mani sauc"
+                "llamo"
               ]
             }
           },
@@ -8513,7 +10382,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "cómo"
+                "llamas"
               ]
             }
           },
@@ -8525,7 +10394,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "¿Cómo"
+                "llama"
               ]
             }
           },
@@ -8537,7 +10406,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "¿qué"
+                "en alemán"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "heißt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "significa"
               ]
             }
           }
@@ -8546,39 +10427,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "heißen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ser",
-                "significar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "heiße"
-              ],
-              "purple": [
-                "sauc"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "nennen"
               ]
             },
             "meaning": {
               "purple": [
-                "saukt"
-              ]
-            },
-            "example": {
-              "green": [
-                "nennt",
-                "nennt"
+                "llamar"
               ]
             }
           },
@@ -8592,12 +10446,6 @@ const A1_WORDS = [
               "purple": [
                 "significar"
               ]
-            },
-            "example": {
-              "yellow": [
-                "bedeutet",
-                "¿Era"
-              ]
             }
           },
           {
@@ -8608,40 +10456,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "llamar",
                 "llamar"
-              ]
-            },
-            "example": {
-              "red": [
-                "rufe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "anrufen"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Ich heiße"
-            ],
-            "purple": [
-              "mani sauc"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "cómo te llamas"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -8691,7 +10517,7 @@ const A1_WORDS = [
   },
   {
     "de": "hinter",
-    "lv": "detrás",
+    "lv": "detrás de",
     "level": "A1"
   },
   {
@@ -8703,43 +10529,68 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "alto",
       "explanation": [
-        "Idea principal: Alto verticalmente, nivel o altura.",
-        "hoch significa principalmente: grande en altura.",
-        "A menudo se caracteriza por: altura vertical."
+        "Idea principal: hoch es el adjetivo «alto»: se usa para objetos, edificios y montañas, y también para precios, temperaturas y niveles.",
+        "Importante: cuando hoch va delante de un sustantivo y se declina, pierde la c: ein hoher Berg, ein hohes Haus, die hohen Preise. El comparativo es höher y el superlativo, am höchsten.",
+        "Para la estatura de una persona se suele decir groß (grande, alto), no hoch."
       ],
       "examples": [
         {
-          "de": "Der Berg ist hoch.",
-          "lv": "La montaña es alta."
+          "de": "Der Berg ist sehr hoch.",
+          "lv": "La montaña es muy alta."
         },
         {
-          "de": "Das Regal ist zwei Meter hoch.",
-          "lv": "La montaña es alta."
+          "de": "Das ist ein hoher Turm.",
+          "lv": "Es una torre alta."
         },
         {
-          "de": "Die Miete ist hoch.",
-          "lv": "el alquiler es alto."
+          "de": "Die Preise sind zu hoch.",
+          "lv": "Los precios son demasiado altos."
         },
         {
-          "de": "Die Mauer ist hoch.",
-          "lv": "La pared es alta."
+          "de": "Das Haus ist zehn Meter hoch.",
+          "lv": "La casa mide diez metros de alto."
         },
         {
-          "de": "Die Preise sind hoch.",
-          "lv": "Los precios son altos."
+          "de": "Heute ist die Temperatur höher als gestern.",
+          "lv": "Hoy la temperatura es más alta que ayer."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "groß",
+          "meaning": "grande; alto (personas)",
+          "example": "Mein Bruder ist 1,90 m groß. – Mi hermano mide 1,90 m."
+        },
+        {
+          "word": "niedrig",
+          "meaning": "bajo",
+          "example": "Die Decke ist niedrig. – El techo es bajo."
+        },
+        {
+          "word": "tief",
+          "meaning": "profundo",
+          "example": "Der See ist tief. – El lago es profundo."
         }
       ],
       "tip": [
-        "hoch = augsts",
-        "Utilice hoch cuando el contexto se ajuste a este significado."
+        "No lo olvides: hoch → hoher/hohe/hohes (sin c), pero en función predicativa se mantiene hoch: Der Turm ist hoch.",
+        "Contrarios: hoch ≠ niedrig (altura) y hoch ≠ tief (profundidad)."
       ],
       "important": [
-        "Hoch se utiliza a menudo para precios y niveles.",
-        "hoch = augsts.",
-        "Alto verticalmente, nivel o altura."
+        "Escribir “hocher” es un error: lo correcto es hoher.",
+        "Para la estatura de una persona no se suele usar hoch; se dice groß."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "hoch",
+            "hoher",
+            "hohes",
+            "hohen",
+            "höher",
+            "am höchsten",
+            "groß"
+          ],
           "purple": [
             "alto"
           ]
@@ -8747,78 +10598,110 @@ const A1_WORDS = [
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
                 "hoch"
               ]
             },
             "lv": {
               "purple": [
-                "Kalns"
+                "alta"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "hoch"
+              "blue": [
+                "hoher"
               ]
             },
             "lv": {
               "purple": [
-                "kalns"
+                "alta"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "hoch"
               ]
             },
             "lv": {
               "purple": [
-                "alquiler"
+                "altos"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "hoch"
               ]
             },
             "lv": {
               "purple": [
-                "augsta"
+                "de alto"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "hoch"
+              "blue": [
+                "höher"
               ]
             },
             "lv": {
               "purple": [
-                "augsta"
+                "más alta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "groß"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alto"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "niedrig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bajo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "tief"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "profundo"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "hoch"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "hoch"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -8837,10 +10720,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "oír • escuchar",
       "explanation": [
-        "Idea principal: Escuchar sonido o escuchar música.",
-        "hören significa principalmente: percibir el sonido.",
-        "A menudo se caracteriza por: sonidos.",
-        "hören se utiliza para sonidos, música y lo que se escucha."
+        "Idea principal: hören significa «oír» (percibir un sonido) y también «escuchar» (prestar atención a algo, como la música o la radio). Ich höre Musik — escucho música.",
+        "Formas: hört, hörte, hat gehört; con acusativo: etwas hören. Con von: von jemandem hören — tener noticias de alguien (Ich habe lange nichts von ihm gehört).",
+        "Para escuchar a una persona, es decir, prestarle atención, se usa zuhören con dativo: Ich höre dir zu."
       ],
       "examples": [
         {
@@ -8848,27 +10730,63 @@ const A1_WORDS = [
           "lv": "Escucho música."
         },
         {
-          "de": "Die Kinder hören eine Geschichte.",
-          "lv": "los niños escuchan la historia."
+          "de": "Hörst du das Geräusch?",
+          "lv": "¿Oyes ese ruido?"
         },
         {
-          "de": "Ich höre dich.",
-          "lv": "Te oigo."
+          "de": "Ich höre dich nicht gut.",
+          "lv": "No te oigo bien."
+        },
+        {
+          "de": "Wir hören jeden Morgen Radio.",
+          "lv": "Escuchamos la radio todas las mañanas."
+        },
+        {
+          "de": "Ich habe lange nichts von ihm gehört.",
+          "lv": "Hace mucho que no tengo noticias de él."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zuhören",
+          "meaning": "escuchar (a alguien)",
+          "example": "Er hört mir nicht zu. – No me escucha."
+        },
+        {
+          "word": "anhören",
+          "meaning": "escuchar (algo entero)",
+          "example": "Ich höre mir das Lied an. – Escucho la canción."
+        },
+        {
+          "word": "aufhören",
+          "meaning": "terminar, dejar de",
+          "example": "Wir hören um fünf auf. – Terminamos a las cinco."
         }
       ],
       "tip": [
-        "Escuche un sonido o escuche música.",
-        "Utilice hören cuando el contexto se ajuste a este significado."
+        "Distingue: oír o escuchar algo = hören; escuchar a una persona (prestarle atención) = jemandem zuhören.",
+        "Hören se usa mucho al teléfono: Hören Sie mich? — ¿Me oye?"
       ],
       "important": [
-        "hören = oír/escuchar un sonido.",
-        "Escuche un sonido o escuche música."
+        "Después de zuhören siempre va dativo: Ich höre dir zu, no “dich”.",
+        "Hören y aufhören son palabras distintas: aufhören (dejar de, terminar) es un verbo con prefijo separable."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "hören",
+            "hört",
+            "hörte",
+            "gehört",
+            "etwas hören",
+            "von jemandem hören",
+            "zuhören"
+          ],
           "purple": [
+            "oír",
             "escuchar",
-            "escuchar"
+            "escucho",
+            "noticias"
           ]
         },
         "examples": [
@@ -8878,16 +10796,23 @@ const A1_WORDS = [
                 "höre"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Escucho"
+              ]
+            }
           },
           {
             "de": {
               "blue": [
-                "hören",
-                "hören"
+                "Hörst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Oyes"
+              ]
+            }
           },
           {
             "de": {
@@ -8897,25 +10822,80 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dzirdu"
+                "oigo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hören"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Escuchamos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gehört"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "noticias"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zuhören"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "escuchar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "anhören"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "escuchar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "aufhören"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "terminar"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Escuche",
-              "Escuche"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "hören"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -8927,66 +10907,64 @@ const A1_WORDS = [
     "study": {
       "id": "a1-huebsch",
       "layout": "standardStudy",
-      "translation": "bonito • atractivo",
+      "translation": "bonito",
       "explanation": [
-        "Idea principal: hübsch significa bonito o atractivo por su aspecto.",
-        "hübsch suele describir el aspecto de una persona, una prenda, una habitación o un objeto.",
-        "Para el carácter amable de una persona, en alemán normalmente se usa nett.",
-        "schön es más amplio y puede significar bonito, hermoso o agradable."
+        "Idea principal: hübsch es el adjetivo «bonito, mono, guapo»: se usa para el aspecto de las personas, la ropa, las casas y las cosas agradables a la vista. Es más suave que schön (bello, precioso).",
+        "Delante de un sustantivo, hübsch se declina como cualquier adjetivo: ein hübsches Kleid, eine hübsche Frau, hübsche Blumen. Comparativo: hübscher; superlativo: am hübschesten.",
+        "En la lengua coloquial, ganz hübsch también puede significar «bastante, considerablemente»: Das war ganz hübsch teuer (eso salió bastante caro)."
       ],
       "examples": [
         {
-          "de": "Sie trägt ein hübsches Kleid.",
-          "lv": "Ella lleva un vestido bonito."
+          "de": "Sie ist ein hübsches Mädchen.",
+          "lv": "Es una chica muy guapa."
         },
         {
-          "de": "Das Zimmer ist hübsch.",
-          "lv": "La habitación es bonita."
+          "de": "Das Kleid ist wirklich hübsch.",
+          "lv": "El vestido es realmente bonito."
         },
         {
-          "de": "Das ist ein hübsches Bild.",
-          "lv": "Ese es un cuadro bonito."
+          "de": "Was für ein hübsches Haus!",
+          "lv": "¡Qué casa tan bonita!"
+        },
+        {
+          "de": "Du siehst heute hübsch aus.",
+          "lv": "Hoy estás muy guapa."
         }
       ],
       "comparison": [
         {
-          "word": "hübsch",
-          "meaning": "bonito • atractivo",
-          "example": "Das ist ein hübsches Kleid. – Ese es un vestido bonito."
-        },
-        {
           "word": "schön",
-          "meaning": "bonito • hermoso • agradable",
-          "example": "Der Garten ist schön. – El jardín es bonito."
+          "meaning": "bello, precioso",
+          "example": "Das Wetter ist schön. – Hace un tiempo precioso."
         },
         {
-          "word": "nett",
-          "meaning": "simpático • amable",
-          "example": "Sie ist sehr nett. – Ella es muy simpática."
+          "word": "süß",
+          "meaning": "mono; dulce",
+          "example": "Das Baby ist süß. – El bebé es muy mono."
+        },
+        {
+          "word": "schick",
+          "meaning": "elegante",
+          "example": "Du siehst schick aus. – Vas muy elegante."
         }
       ],
-      "tip": {
-        "text": "Recuerda: hübsch describe principalmente un aspecto bonito o atractivo; nett describe con más frecuencia a una persona simpática o un comportamiento amable."
-      },
+      "tip": [
+        "Hübsch se usa como un cumplido suave; schön, como uno más intenso.",
+        "Añade la terminación cuando la palabra va delante del sustantivo: ein hübsches Kleid, pero Das Kleid ist hübsch."
+      ],
       "important": [
-        "hübsch no es una traducción universal de simpático o amable.",
-        "Para el carácter o el comportamiento amable de una persona, normalmente se usa nett."
+        "Para un hombre, hübsch se usa menos; es más frecuente decir gut aussehend o attraktiv.",
+        "Hübsch es muy común en el habla cotidiana, pero no es lo mismo que schön: schön es más general e intenso."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "hübsch"
+            "hübsch",
+            "hübsches"
           ],
           "purple": [
             "bonito",
-            "atractivo"
-          ],
-          "green": [
-            "aspecto"
-          ],
-          "yellow": [
-            "nett",
-            "schön"
+            "guapo"
           ]
         },
         "examples": [
@@ -8994,17 +10972,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "hübsches"
-              ],
-              "green": [
-                "Kleid"
               ]
             },
             "lv": {
               "purple": [
-                "bonito"
-              ],
-              "green": [
-                "vestido"
+                "guapa"
               ]
             }
           },
@@ -9012,6 +10984,18 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bonito"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
               ]
             },
             "lv": {
@@ -9023,12 +11007,12 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "hübsches"
+                "hübsch"
               ]
             },
             "lv": {
               "purple": [
-                "bonito"
+                "guapa"
               ]
             }
           }
@@ -9037,89 +11021,47 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "hübsch"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "bonito",
-                "atractivo"
-              ]
-            },
-            "example": {
-              "blue": [
-                "hübsches"
-              ],
-              "purple": [
-                "bonito"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "schön"
               ]
             },
             "meaning": {
               "purple": [
-                "bonito",
-                "hermoso",
-                "agradable"
+                "bello"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "nett"
+                "süß"
               ]
             },
             "meaning": {
               "purple": [
-                "simpático",
-                "amable"
+                "mono"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schick"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "elegante"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "hübsch"
-            ],
-            "purple": [
-              "aspecto bonito",
-              "aspecto atractivo"
-            ],
-            "yellow": [
-              "nett"
-            ],
-            "green": [
-              "persona simpática",
-              "comportamiento amable"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "hübsch"
-            ],
-            "purple": [
-              "bonito",
-              "atractivo"
-            ]
-          },
-          {
-            "yellow": [
-              "nett"
-            ],
-            "purple": [
-              "simpático",
-              "amable"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -9141,72 +11083,86 @@ const A1_WORDS = [
   },
   {
     "de": "ihr",
-    "lv": "ustedes • ella • su",
+    "lv": "vosotros • ella • su",
     "level": "A1",
     "study": {
       "id": "a1-ihr",
       "layout": "standardStudy",
-      "translation": "ustedes • ella • su",
+      "translation": "vosotros • ella • su",
       "explanation": [
-        "Idea principal: ihr son dos pronombres diferentes con la misma ortografía: dirigidos a varias personas (tú) y la forma dativo del pronombre sie (ella/ella).",
-        "Con minúscula ihr como dirección a varias personas se traduce como tú (Kommt ihr mit? = ¿Vienes?).",
-        "ihr como pronombre posesivo significa ella (ihr Buch = su libro).",
-        "ihr como forma dativa (de sie) significa para ella (Ich gebe ihr das Buch. = Le doy un libro).",
-        "La forma verbal (kommt, habt) muestra que se trata de ti, dirigiéndose a varias personas.",
-        "La dirección cortés es siempre Sie con mayúscula, no ihr."
+        "Idea principal: ihr es una palabra corta con varios significados. 1) Pronombre personal en nominativo: ihr = vosotros (varias personas a las que se tutea): Ihr seid nett. 2) Dativo de sie (ella): Ich helfe ihr — la ayudo (a ella). 3) Posesivo: ihr Bruder — su hermano (de ella o de ellos).",
+        "El posesivo ihr se declina como ein: ihr Buch, ihre Mutter, ihren Vater, ihrem Kind. Puede significar «su» de ella (una mujer) o «su» de ellos o ellas (varias personas).",
+        "Diferencia: ihr (vosotros, varias personas a las que se tutea) ≠ Sie (usted o ustedes, tratamiento de cortesía, siempre con mayúscula) ≠ Ihr/Ihnen (formas de cortesía: su; le, les)."
       ],
       "examples": [
         {
-          "de": "Kommt ihr heute Abend?",
-          "lv": "¿Venís esta noche?"
+          "de": "Ihr seid heute spät.",
+          "lv": "Hoy llegáis tarde."
+        },
+        {
+          "de": "Kommt ihr morgen zur Party?",
+          "lv": "¿Venís mañana a la fiesta?"
         },
         {
           "de": "Ich gebe ihr das Buch.",
           "lv": "Le doy el libro."
         },
         {
-          "de": "Wo wohnt ihr?",
-          "lv": "dónde vive"
+          "de": "Ich helfe ihr beim Kochen.",
+          "lv": "La ayudo a cocinar."
         },
         {
-          "de": "Er schreibt ihr einen Brief.",
-          "lv": "él le escribe una carta."
+          "de": "Ihr Bruder wohnt in Riga.",
+          "lv": "Su hermano vive en Riga."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "du",
+          "meaning": "tú (una persona)",
+          "example": "Kommst du mit? – ¿Vienes conmigo?"
         },
         {
-          "de": "Habt ihr Zeit?",
-          "lv": "¿Tienen tiempo?"
+          "word": "Sie",
+          "meaning": "usted (cortesía)",
+          "example": "Wie heißen Sie? – ¿Cómo se llama usted?"
         },
         {
-          "de": "Das ist ihr Auto.",
-          "lv": "es su auto."
+          "word": "Ihnen",
+          "meaning": "le, a usted (cortesía)",
+          "example": "Ich helfe Ihnen gern. – Le ayudo con mucho gusto."
         }
       ],
       "tip": [
-        "ihr con el verbo dsk. forma (kommt, habt) = tú; ihr junto a una palabra como dativo o posesivo = ella/ella.",
-        "Verificar: ¿Habt ihr...? / Kommt ihr...? = tú; Ich gebe ihr... / ihr Buch = para ella/ella."
+        "Si tuteas a dos o más personas, di ihr + verbo terminado en -t: ihr habt, ihr kommt.",
+        "El ihr de dativo se reconoce por el verbo: helfen, geben, danken y gehören rigen dativo."
       ],
       "important": [
-        "ihr = usted (dirección a varios) O ella (dativo) O ella (posesivo) - dependiendo del contexto.",
-        "La dirección cortés es siempre Sie con mayúscula, no ihr.",
-        "Incorrecto: Ihr (educado) → Correcto: Sie."
+        "Ihr (vosotros, nominativo) se escribe con minúscula en medio de la frase; el Ihr/Ihnen de cortesía, siempre con mayúscula.",
+        "No uses ihr para «tú»: a una persona se le dice du; a varias, ihr."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "ihr",
+            "Ihr"
+          ],
           "purple": [
-            "tú",
-            "le"
+            "vosotros",
+            "ella",
+            "su"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "ihr"
+                "Ihr"
               ]
             },
             "lv": {
               "purple": [
-                "¿vienes"
+                "llegáis"
               ]
             }
           },
@@ -9218,7 +11174,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "le"
+                "Venís"
               ]
             }
           },
@@ -9230,7 +11186,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dónde"
+                "Le"
               ]
             }
           },
@@ -9242,53 +11198,68 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "le"
+                "La"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ihr"
-              ]
-            },
-            "lv": {
-              "purple": []
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ihr"
+                "Ihr"
               ]
             },
             "lv": {
               "purple": [
-                "auto"
+                "Su"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "du"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tú"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Sie"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "usted"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Ihnen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "a usted"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "ihr"
-            ]
-          },
-          {
-            "blue": [
-              "ihr"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "ihr",
-              "ihr",
-              "ihr"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -9302,87 +11273,73 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "en el • dentro del",
       "explanation": [
-        "im es la abreviatura de la preposición in y el artículo dem.",
-        "Forma completa: en dem (¿a quién?).",
-        "Se usa con sustantivos masculinos y sustantivos de cualquier género al responder la pregunta ¿dónde? - ubicación.",
-        "Con tiempo y estaciones: im Januar, im Sommer, im Winter.",
-        "En la práctica, casi siempre se utiliza im en lugar del full in dem."
+        "Idea principal: im es la contracción de in dem: la preposición in con el artículo dativo dem. Equivale a «en el» o «dentro del» y responde a la pregunta «¿dónde?» (wo?): im Haus — en la casa, im Zimmer — en la habitación.",
+        "Se usa con sustantivos masculinos y neutros: im Garten (der Garten), im Hotel (das Hotel). Con los femeninos se dice in der (in der Küche) y en plural, in den.",
+        "Im también se usa para el tiempo: im Sommer (en verano), im Juli (en julio), im Jahr 2020; sobre todo con meses y estaciones del año."
       ],
       "examples": [
         {
-          "de": "Ich bin im Park.",
-          "lv": "estoy en el parque"
+          "de": "Das Kind ist im Zimmer.",
+          "lv": "El niño está en la habitación."
         },
         {
-          "de": "Wir wohnen im Zentrum.",
-          "lv": "vivimos en el centro."
+          "de": "Die Milch steht im Kühlschrank.",
+          "lv": "La leche está en el frigorífico."
         },
         {
-          "de": "Im Sommer ist es warm.",
-          "lv": "hace calor en verano."
+          "de": "Im Winter ist es kalt.",
+          "lv": "En invierno hace frío."
         },
         {
-          "de": "Er arbeitet im Büro.",
-          "lv": "trabaja en una oficina."
+          "de": "Wir fahren im Juli nach Berlin.",
+          "lv": "En julio vamos a Berlín."
         },
         {
-          "de": "Das Kind spielt im Garten.",
-          "lv": "el niño está jugando en el jardín."
-        },
-        {
-          "de": "Im Januar fahre ich nach Wien.",
-          "lv": "Fui a Viena en enero."
-        },
-        {
-          "de": "Sie ist im Kino.",
-          "lv": "ella está en el cine."
-        },
-        {
-          "de": "Wir treffen uns im Restaurant.",
-          "lv": "Nos encontramos en un restaurante."
+          "de": "Er arbeitet im Krankenhaus.",
+          "lv": "Trabaja en el hospital."
         }
       ],
       "comparison": [
         {
-          "word": "im",
-          "meaning": "en el • dentro del (¿dónde?)",
-          "example": "im Park – en el parque"
-        },
-        {
           "word": "ins",
-          "meaning": "hacia dentro, ¿adónde? (según el contexto)",
-          "example": "ins Kino – al cine"
+          "meaning": "¿adónde? (in das)",
+          "example": "Ich gehe ins Zimmer. – Entro en la habitación."
         },
         {
-          "word": "in",
-          "meaning": "en / a (sin artículo)",
-          "example": "in Berlin – en Berlín"
+          "word": "in der",
+          "meaning": "¿dónde? (femenino)",
+          "example": "Sie ist in der Küche. – Está en la cocina."
         },
         {
           "word": "am",
-          "meaning": "¿En dónde? (¿En quién?)",
-          "example": "am Fenster – en la ventana"
-        },
-        {
-          "word": "auf",
-          "meaning": "sobre una superficie",
-          "example": "auf dem Tisch – en la mesa"
+          "meaning": "junto a; con días",
+          "example": "Am Montag arbeite ich. – El lunes trabajo."
         }
       ],
       "tip": [
-        "Recuerda: in + dem → im (kam?, kur?).",
-        "¿Dónde? → ins; ¿dónde? → soy - ¡no confundas a estos dos!"
+        "Im = ¿dónde? (sin movimiento), ins = ¿adónde? (con movimiento): Ich bin im Kino — Ich gehe ins Kino.",
+        "Con meses y estaciones, siempre im: im Mai, im Herbst."
       ],
       "important": [
-        "im = in dem, solo con sustantivo masculino o neutro ¿para quién? en inflexión.",
-        "¿Respuestas a dónde?, ¿no a dónde? – ubicación, no movimiento.",
-        "Con meses y estaciones: im März, im Herbst.",
-        "Para las mujeres: in der Schule, no im Schule."
+        "Im es in + dem (¿dónde?); in das se contrae en ins (¿adónde?), así que no confundas im con ins.",
+        "Con días y partes del día se usa am (am Montag, am Abend), no im."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "im",
+            "in dem",
+            "in der",
+            "im Haus",
+            "im Zimmer",
+            "im Sommer",
+            "im Juli"
+          ],
           "purple": [
-            "abreviatura"
+            "en el",
+            "dentro del",
+            "en verano",
+            "en julio"
           ]
         },
         "examples": [
@@ -9394,7 +11351,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "en el parque"
+                "en la habitación"
               ]
             }
           },
@@ -9406,7 +11363,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "en el centro"
+                "en el frigorífico"
               ]
             }
           },
@@ -9418,7 +11375,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hace"
+                "En invierno"
               ]
             }
           },
@@ -9430,7 +11387,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "trabaja"
+                "En julio"
               ]
             }
           },
@@ -9442,43 +11399,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "en el jardin"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Im"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "en enero"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "im"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ella"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "im"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "en un restaurante"
+                "en el hospital"
               ]
             }
           }
@@ -9487,53 +11408,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "im"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "¿Dentro",
-                "¿Dentro"
-              ]
-            },
-            "example": {
-              "blue": [
-                "im Park"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "ins"
               ]
             },
             "meaning": {
               "purple": [
-                "hacia adentro",
-                "hacia"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "ins Kino"
+                "¿adónde?"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "in"
+                "in der"
               ]
             },
             "meaning": {
               "purple": [
-                "sin"
-              ]
-            },
-            "example": {
-              "green": [
-                "in Berlin"
+                "¿dónde?"
               ]
             }
           },
@@ -9545,46 +11437,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
-              ]
-            },
-            "example": {
-              "green": [
-                "am Fenster"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "auf"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "uz virsmas"
-              ]
-            },
-            "example": {
-              "red": [
-                "auf dem Tisch"
+                "junto a"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "kur?"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "in dem"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -9603,349 +11467,131 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "en",
       "explanation": [
-        "Idea principal: in suele significar en o hacia un lugar, cuando se refiere a un espacio, país, ciudad o edificio.",
-        "Con ubicación, in se suele traducir como in o in: en Berlín = en Berlín.",
-        "Con el movimiento in significa hacia adentro: ins Kino = al cine.",
-        "La traducción al letón cambia según el contexto."
+        "Idea principal: in es una preposición que indica lugar, «dentro de» (¿dónde?), o dirección, «a, hacia dentro» (¿adónde?). En español suele corresponder a «en» o «a»: in Riga — en Riga; ins Kino — al cine.",
+        "Con dativo — ¿dónde? (wo?): Ich bin in der Schule. Con acusativo — ¿adónde? (wohin?): Ich gehe in die Schule.",
+        "Con ciudades y países sin artículo se suele usar in para el lugar y nach para la dirección: Ich wohne in Berlin, ich fahre nach Berlin. Referido al tiempo, in también significa «dentro de»: in einer Stunde (dentro de una hora)."
       ],
       "examples": [
         {
-          "de": "Ich bin in Berlin.",
-          "lv": "Estoy en Berlín."
+          "de": "Ich wohne in Riga.",
+          "lv": "Vivo en Riga."
         },
         {
-          "de": "Ich gehe in die Schule.",
-          "lv": "Voy a la escuela."
+          "de": "Das Buch liegt in der Tasche.",
+          "lv": "El libro está en el bolso."
         },
         {
-          "de": "Das Buch ist in der Tasche.",
-          "lv": "el libro está en la bolsa."
+          "de": "Wir gehen in die Schule.",
+          "lv": "Vamos al colegio."
         },
         {
-          "de": "Wir gehen ins Kino.",
-          "lv": "vamos al cine."
-        }
-      ],
-      "tip": {
-        "text": "Recuerda: in significa «en» o «dentro de»."
-      },
-      "important": [
-        "in no siempre es literalmente “in”; Se dice letón a menudo en Berlín, en la escuela, en el cine.",
-        "Cuando se trata de superficie, a menudo se necesita auf en lugar de adentro."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "purple": [
-            "adentro",
-            "a"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "in"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "en berlín"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "in"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uz skolu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "in"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "libro"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ins"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vamos"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Recuerde"
-            ],
-            "purple": [
-              "Recuerde",
-              "Recuerde"
-            ]
-          }
-        },
-        "important": [
-          {
-            "purple": [
-              "en berlín",
-              "en la escuela"
-            ]
-          }
-        ]
-      }
-    }
-  },
-  {
-    "de": "ins",
-    "lv": "al • dentro del",
-    "level": "A1",
-    "study": {
-      "id": "a1-ins",
-      "layout": "standardStudy",
-      "translation": "al • dentro del",
-      "explanation": [
-        "ins es una abreviatura de la preposición in y del artículo das.",
-        "Forma completa: en das (¿dónde?).",
-        "Se usa con sustantivos de cualquier género al responder la pregunta ¿dónde? - movimiento hacia adentro.",
-        "A menudo con verbos: gehen, fahren, kommen, legen, stecken.",
-        "En la práctica, casi siempre se utiliza ins en lugar de indas completo."
-      ],
-      "examples": [
-        {
-          "de": "Ich gehe ins Kino.",
-          "lv": "Voy al cine."
+          "de": "Sie legt das Buch in die Tasche.",
+          "lv": "Mete el libro en el bolso."
         },
         {
-          "de": "Sie geht ins Bett.",
-          "lv": "ella se va a dormir."
-        },
-        {
-          "de": "Wir fahren ins Ausland.",
-          "lv": "nos vamos al extranjero."
-        },
-        {
-          "de": "Komm ins Haus!",
-          "lv": "ven a la casa!"
-        },
-        {
-          "de": "Er steckt das Geld in den Geldbeutel.",
-          "lv": "pone el dinero en su billetera."
-        },
-        {
-          "de": "Wir gehen ins Museum.",
-          "lv": "vamos al museo."
-        },
-        {
-          "de": "Sie legt die Blumen ins Wasser.",
-          "lv": "ella pone las flores en el agua."
-        },
-        {
-          "de": "Fahr bitte ins Zentrum.",
-          "lv": "por favor ve al centro."
+          "de": "In einer Stunde bin ich da.",
+          "lv": "Dentro de una hora estoy allí."
         }
       ],
       "comparison": [
         {
-          "word": "ins",
-          "meaning": "hacia dentro, ¿adónde? (según el contexto)",
-          "example": "ins Kino – al cine"
-        },
-        {
           "word": "im",
-          "meaning": "¿Dentro de dónde? (¿A quién?)",
-          "example": "im Kino – en el cine"
+          "meaning": "¿dónde? (in dem)",
+          "example": "Ich bin im Büro. – Estoy en la oficina."
         },
         {
-          "word": "in",
-          "meaning": "en / a (con artículo independiente)",
-          "example": "in die Stadt – a la ciudad"
+          "word": "ins",
+          "meaning": "¿adónde? (in das)",
+          "example": "Wir gehen ins Büro. – Vamos a la oficina."
         },
         {
-          "word": "aufs",
-          "meaning": "hacia una superficie (acusativo)",
-          "example": "aufs Dach – hacia el tejado"
-        },
-        {
-          "word": "zum",
-          "meaning": "a / hacia (¿a quién?)",
-          "example": "zum Arzt – al médico"
+          "word": "nach",
+          "meaning": "a (ciudad, país)",
+          "example": "Ich fahre nach Berlin. – Voy a Berlín."
         }
       ],
       "tip": [
-        "Recuerda: in + das → ins (kurp?, kurp?).",
-        "¿Dónde? → ins; ¿dónde? → im - ¡este es el principal punto de diferencia!"
+        "Pregúntate: ¿dónde? (wo?) → dativo; ¿adónde? (wohin?) → acusativo.",
+        "Normalmente se contrae: in dem → im, in das → ins."
       ],
       "important": [
-        "ins = en das, sólo con un sustantivo de cualquier género ¿dónde? en inflexión.",
-        "¿Respuestas a dónde?, ¿no a dónde? – movimiento, no ubicación.",
-        "Para el género masculino: in den Wald; de las mujeres: en die Schule.",
-        "No confundir: ins Kino gehen (al cine) vs. im Kino sein (estar en el cine)."
+        "Con ciudades y países, para indicar dirección se suele usar nach, no in: nach Deutschland, nach Riga.",
+        "Con los países que llevan artículo se usa in: in die Schweiz, in die USA."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "in",
+            "ins"
+          ],
           "purple": [
-            "adentro",
-            "hacia adentro"
+            "en",
+            "dentro de"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "ins"
+                "in"
               ]
             },
             "lv": {
               "purple": [
-                "uz kino"
+                "en"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ins"
+                "in"
               ]
             },
             "lv": {
               "purple": [
-                "dormir"
+                "en el bolso"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ins"
+                "in"
               ]
             },
             "lv": {
               "purple": [
-                "nos"
+                "al colegio"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ins"
+                "in"
               ]
             },
             "lv": {
               "purple": [
-                "ven"
+                "en el bolso"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "in den"
+                "In"
               ]
             },
             "lv": {
               "purple": [
-                "pone",
-                "pone",
-                "pone"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ins"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vamos"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ins"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ella"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ins"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "por"
+                "Dentro de"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "ins"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "hacia adentro",
-                "hacia"
-              ]
-            },
-            "example": {
-              "blue": [
-                "ins Kino"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -9954,85 +11600,225 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "¿Dentro",
-                "¿Dentro"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "im Kino"
+                "¿dónde?"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "in"
+                "ins"
               ]
             },
             "meaning": {
               "purple": [
-                "con",
-                "a",
-                "artículo independiente"
-              ]
-            },
-            "example": {
-              "green": [
-                "in die Stadt"
+                "¿adónde?"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "aufs"
+                "nach"
               ]
             },
             "meaning": {
               "purple": [
-                "uz virsmu"
-              ]
-            },
-            "example": {
-              "green": [
-                "aufs Dach"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zum"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pie",
-                "pie"
-              ]
-            },
-            "example": {
-              "red": [
-                "zum Arzt"
+                "a"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "kurp?"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
+          {},
+          {}
+        ]
+      }
+    }
+  },
+  {
+    "de": "ins",
+    "lv": "al • a la",
+    "level": "A1",
+    "study": {
+      "id": "a1-ins",
+      "layout": "standardStudy",
+      "translation": "al • a la",
+      "explanation": [
+        "Idea principal: ins es la contracción de in das: la preposición in con el artículo acusativo das. Responde a la pregunta «¿adónde?» (wohin?): Ich gehe ins Kino — voy al cine.",
+        "Solo se usa con sustantivos neutros (das Kino, das Haus, das Bett). Con los masculinos se dice in den (in den Garten) y con los femeninos, in die (in die Schule). Que en español digamos «al» o «a la» depende del género de la palabra española, no de la alemana: ins Kino — al cine, ins Bett — a la cama.",
+        "Aparece mucho en expresiones: ins Bett gehen (irse a la cama), ins Ausland fahren (ir al extranjero), ins Wasser springen (tirarse al agua)."
+      ],
+      "examples": [
+        {
+          "de": "Wir gehen ins Kino.",
+          "lv": "Vamos al cine."
+        },
+        {
+          "de": "Er legt das Buch ins Regal.",
+          "lv": "Pone el libro en la estantería."
+        },
+        {
+          "de": "Sie fährt ins Ausland.",
+          "lv": "Se va al extranjero."
+        },
+        {
+          "de": "Die Kinder springen ins Wasser.",
+          "lv": "Los niños se tiran al agua."
+        },
+        {
+          "de": "Ich gehe jetzt ins Bett.",
+          "lv": "Ahora me voy a la cama."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "im",
+          "meaning": "¿dónde? (in dem)",
+          "example": "Ich bin im Kino. – Estoy en el cine."
+        },
+        {
+          "word": "in die",
+          "meaning": "¿adónde? (femenino)",
+          "example": "Wir gehen in die Stadt. – Vamos a la ciudad."
+        },
+        {
+          "word": "in den",
+          "meaning": "¿adónde? (masculino)",
+          "example": "Er geht in den Garten. – Va al jardín."
+        }
+      ],
+      "tip": [
+        "Movimiento → ins (¿adónde?); reposo → im (¿dónde?): ins Kino gehen, im Kino sein.",
+        "Ins solo se usa con palabras que llevan das: comprueba el género."
+      ],
+      "important": [
+        "Con masculinos y femeninos no existe ins: hay que decir in den Garten, in die Schule.",
+        "Si se quiere recalcar das, se puede usar la forma completa: Ich gehe in das Haus, nicht in die Garage."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ins",
+            "in das"
+          ],
+          "purple": [
+            "al",
+            "a la",
+            "¿adónde?"
+          ]
+        },
+        "examples": [
           {
-            "purple": [
-              "ins",
-              "ins"
-            ]
+            "de": {
+              "blue": [
+                "ins"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "al cine"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ins"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "en la estantería"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ins"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "al extranjero"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ins"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "al agua"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ins"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "a la cama"
+              ]
+            }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "im"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "¿dónde?"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "in die"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "¿adónde?"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "in den"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "¿adónde?"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -10050,12 +11836,12 @@ const A1_WORDS = [
   },
   {
     "de": "jawohl",
-    "lv": "sí",
+    "lv": "exacto • sí, señor",
     "level": "A1"
   },
   {
     "de": "jeder",
-    "lv": "cada persona",
+    "lv": "cada • cada uno",
     "level": "A1"
   },
   {
@@ -10076,63 +11862,76 @@ const A1_WORDS = [
   },
   {
     "de": "jung",
-    "lv": "joven (personas, animales y cosas)",
+    "lv": "joven",
     "level": "A1",
     "study": {
       "id": "a1-jung",
       "layout": "standardStudy",
-      "translation": "joven (personas, animales y cosas)",
+      "translation": "joven",
       "explanation": [
-        "Idea principal: jung significa joven en edad; se usa para personas y animales, no para cosas.",
-        "jung describe vecumu — pretstats ir alt (vecs).",
-        "En español, la palabra joven tiene dos significados: joven de edad (jung) y joven/de reciente creación (neu).",
-        "Para cosas creadas o adquiridas recientemente, utilice neu, ne jung.",
-        "jung también se usa en sentido figurado: una nueva generación, una pareja joven, gente joven.",
-        "También está el sustantivo die Jugend (juventud)."
+        "Idea principal: jung significa «joven» y se refiere a la edad de personas, animales o plantas: mi hermano es joven. Para objetos (un libro, un coche) se usa neu (nuevo).",
+        "El comparativo es jünger (con diéresis) y el superlativo, am jüngsten: Er ist jünger als ich. Delante de un sustantivo: ein junger Mann, eine junge Frau, junge Leute.",
+        "Contrario: alt (viejo, mayor). El sustantivo der Junge (plural die Jungen) significa «chico», no «joven»."
       ],
       "examples": [
         {
-          "de": "Sie ist noch jung.",
-          "lv": "ella todavía es joven."
+          "de": "Meine Schwester ist noch jung.",
+          "lv": "Mi hermana todavía es joven."
         },
         {
-          "de": "Der Hund ist jung.",
-          "lv": "El perro es joven."
+          "de": "Das ist ein junger Mann.",
+          "lv": "Es un hombre joven."
         },
         {
-          "de": "Wir sind noch jung.",
-          "lv": "todavía somos jóvenes."
+          "de": "Er ist jünger als ich.",
+          "lv": "Es más joven que yo."
         },
         {
-          "de": "Er sieht sehr jung aus.",
-          "lv": "parece muy joven."
+          "de": "Die jungen Leute tanzen.",
+          "lv": "Los jóvenes bailan."
         },
         {
-          "de": "Das ist ein junges Paar.",
-          "lv": "Es una pareja joven."
+          "de": "Als junge Frau lebte sie in Riga.",
+          "lv": "De joven vivía en Riga."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "neu",
+          "meaning": "nuevo (objetos)",
+          "example": "Das Auto ist neu. – El coche es nuevo."
         },
         {
-          "de": "Die junge Frau lächelt.",
-          "lv": "la joven sonríe."
+          "word": "alt",
+          "meaning": "viejo, mayor",
+          "example": "Mein Opa ist alt. – Mi abuelo es mayor."
         },
         {
-          "de": "Mein Bruder ist jünger als ich.",
-          "lv": "mi hermano es menor que yo."
+          "word": "klein",
+          "meaning": "pequeño",
+          "example": "Das Kind ist noch klein. – El niño todavía es pequeño."
         }
       ],
       "tip": [
-        "jung se refiere a la edad (personas, animales); cuando se habla de cosas que se han creado recientemente, use neu.",
-        "Contraste: jung ↔ alt (joven ↔ viejo)."
+        "Jung = personas, animales; neu = cosas, novedades: ein junger Hund, ein neues Handy.",
+        "Recuerda la diéresis: jung → jünger → am jüngsten."
       ],
       "important": [
-        "jung describe vecumu, ne lietas jaunumu.",
-        "Para cosas nuevas (teléfono, automóvil, casa), use neu en lugar de jung.",
-        "Incorrecto: Mein Handy ist jung. → Correcto: Mein Handy ist neu."
+        "No uses jung para objetos: se dice neu.",
+        "El comparativo siempre lleva diéresis: jünger, no “junger”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "jung",
+            "junger",
+            "junge",
+            "jünger",
+            "am jüngsten",
+            "alt"
+          ],
           "purple": [
-            "Idea"
+            "joven"
           ]
         },
         "examples": [
@@ -10144,62 +11943,14 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ella"
+                "joven"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "jung"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jauns"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "jung"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "todavía"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "jung"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "parece"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "junge"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "una"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "junge"
+                "junger"
               ]
             },
             "lv": {
@@ -10216,40 +11967,80 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hermano"
+                "más joven"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "jungen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jóvenes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "junge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "joven"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "neu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nuevo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "alt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mayor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "klein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pequeño"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "alt"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "jung"
-            ]
-          },
-          {
-            "green": [
-              "neu"
-            ],
-            "blue": [
-              "jung"
-            ]
-          },
-          {
-            "blue": [
-              "jung"
-            ],
-            "green": [
-              "neu"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -10280,98 +12071,92 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "ningún • ninguna",
       "explanation": [
-        "Idea principal: kein es un artículo de negación que niega un sustantivo: letón, según el contexto, nadie o nada.",
-        "kein se declina como ein (kein/keine/keinen...) y se sitúa delante de un sustantivo.",
-        "En el caso de los sustantivos contables (personas), kein a menudo se traduce como nadie (kein Mensch = ningún ser humano).",
-        "En el caso de sustantivos no vinculantes o abstractos, kein a menudo se traduce como nada/nada en absoluto (kein Geld = sin dinero/sin dinero).",
-        "kein niega un sustantivo completo, no sólo un verbo (compárese con nicht)."
+        "Idea principal: kein es la negación de los sustantivos que llevarían el artículo indeterminado ein o que van sin artículo. En español equivale a «ningún, ninguna» o, muy a menudo, simplemente a «no»: Ich habe kein Auto — no tengo coche; Er hat keine Zeit — no tiene tiempo.",
+        "Kein se declina como ein: kein Mann, keine Frau, kein Kind; en plural, keine Kinder. En acusativo: keinen Mann; en dativo: keinem Kind.",
+        "Se usa mucho con haben y es gibt: Es gibt keinen Zucker. Los verbos, los adjetivos y los adverbios se niegan con nicht, no con kein."
       ],
       "examples": [
-        {
-          "de": "Ich habe kein Geld.",
-          "lv": "No tengo dinero."
-        },
-        {
-          "de": "Es gibt keine Milch mehr.",
-          "lv": "Ya no hay nada de leche."
-        },
-        {
-          "de": "Kein Mensch war da.",
-          "lv": "no había nadie allí."
-        },
         {
           "de": "Ich habe keine Zeit.",
           "lv": "No tengo tiempo."
         },
         {
+          "de": "Er hat keinen Hund.",
+          "lv": "No tiene perro."
+        },
+        {
           "de": "Das ist kein Problem.",
-          "lv": "no es ningún problema."
+          "lv": "No es ningún problema."
         },
         {
           "de": "Wir haben keine Kinder.",
-          "lv": "no tenemos hijos."
+          "lv": "No tenemos hijos."
+        },
+        {
+          "de": "Heute gibt es keinen Kaffee.",
+          "lv": "Hoy no hay café."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "nicht",
+          "meaning": "no (verbos, adjetivos)",
+          "example": "Ich arbeite nicht. – No trabajo."
+        },
+        {
+          "word": "nichts",
+          "meaning": "nada",
+          "example": "Ich sehe nichts. – No veo nada."
+        },
+        {
+          "word": "niemand",
+          "meaning": "nadie",
+          "example": "Niemand ist hier. – Aquí no hay nadie."
         }
       ],
       "tip": [
-        "kein niega un sustantivo (kein + sustantivo), nicht niega un verbo o cláusula.",
-        "kein se declina como ein: kein/keine/keinen/keiner."
+        "Si la frase llevaría “ein” o ningún artículo, niega con kein: Ich habe ein Auto → Ich habe kein Auto.",
+        "Si niegas un verbo, un adjetivo o un sustantivo con artículo determinado (der, die), usa nicht."
       ],
       "important": [
-        "kein + sustantivo = 'no hay/no hay X', no 'nicht ein X'.",
-        "Incorrecto: Ich habe nicht ein Geld. → Correcto: Ich habe kein Geld."
+        "Un sustantivo con artículo determinado se niega con nicht: Ich sehe das Auto nicht.",
+        "Error típico: “Ich bin kein müde” es incorrecto; debe ser Ich bin nicht müde."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "kein",
+            "keine",
+            "keinen",
+            "keinem"
+          ],
           "purple": [
-            "nadie"
+            "ningún",
+            "ninguna"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "kein"
+                "keine"
               ]
             },
             "lv": {
               "purple": [
-                "nav"
+                "No"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "keine"
+                "keinen"
               ]
             },
             "lv": {
               "purple": [
-                "nav nemaz"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Kein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nadie"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "keine"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nav"
+                "No"
               ]
             }
           },
@@ -10395,40 +12180,68 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tenemos"
+                "No"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "keinen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no hay"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "nicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "no"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nichts"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nada"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "niemand"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "nadie"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "kein"
-            ],
-            "green": [
-              "nicht"
-            ]
-          },
-          {
-            "blue": [
-              "kein/keine/keinen/keiner"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "kein"
-            ]
-          },
-          {
-            "red": [
-              "nicht ein Geld"
-            ],
-            "blue": [
-              "kein Geld"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -10450,58 +12263,71 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "conocer",
       "explanation": [
-        "Idea principal: Conocer a una persona, lugar o cosa por experiencia.",
-        "Kennen significa principalmente: conocido personal.",
-        "A menudo describe: personas, lugares.",
-        "Kennen se utiliza cuando se conoce a una persona, lugar o cosa por experiencia personal."
+        "Idea principal: kennen significa «conocer»: estar familiarizado con una persona, un lugar o una cosa, no saber un dato. Ich kenne Anna — conozco a Anna.",
+        "Formas: kennt, kannte, hat gekannt. Siempre con acusativo: jemanden/etwas kennen. En pasado cambia la vocal: kennen → kannte (con a).",
+        "Diferencia con wissen: kennen es conocer a una persona o un lugar; wissen es saber un dato: Ich kenne ihn, pero Ich weiß, dass er Arzt ist. El español hace la misma distinción entre «conocer» y «saber»."
       ],
       "examples": [
         {
-          "de": "Ich kenne ihn.",
-          "lv": "Lo conozco."
+          "de": "Ich kenne diesen Mann nicht.",
+          "lv": "No conozco a este hombre."
         },
         {
-          "de": "Kennen Sie diese Frau?",
-          "lv": "¿Conoces a esta mujer?"
+          "de": "Kennst du Berlin?",
+          "lv": "¿Conoces Berlín?"
         },
         {
-          "de": "Wo habt ihr euch kennengelernt?",
-          "lv": "¿Dónde os conocisteis?"
+          "de": "Wir kennen uns seit drei Jahren.",
+          "lv": "Nos conocemos desde hace tres años."
         },
         {
-          "de": "Ich kenne ihn.",
-          "lv": "lo conozco"
+          "de": "Er kennt die Regeln.",
+          "lv": "Conoce las reglas."
         },
         {
-          "de": "kennen",
-          "lv": "conocer, conocías"
+          "de": "Sie kannte viele Leute in der Stadt.",
+          "lv": "Conocía a mucha gente en la ciudad."
         }
       ],
       "comparison": [
         {
-          "word": "kennen",
-          "meaning": "conocer (persona, lugar, cosa)",
-          "example": "Ich kenne ihn. – Lo conozco."
+          "word": "wissen",
+          "meaning": "saber (un dato)",
+          "example": "Ich weiß die Antwort. – Sé la respuesta."
         },
         {
-          "word": "wissen",
-          "meaning": "saber (hecho, información)",
-          "example": "Ich weiß seinen Namen. – Sé su nombre."
+          "word": "können",
+          "meaning": "poder, saber hacer",
+          "example": "Ich kann Deutsch. – Sé alemán."
+        },
+        {
+          "word": "kennenlernen",
+          "meaning": "conocer (por primera vez)",
+          "example": "Wir lernen ihn kennen. – Lo estamos conociendo."
         }
       ],
       "tip": [
-        "Kennen = saber",
-        "Utilice kennen cuando el contexto se ajuste a este significado."
+        "Kennen = conocer a una persona o un lugar; wissen = saber un dato o una respuesta.",
+        "Aprende juntas las formas básicas: kennen – kannte – gekannt."
       ],
       "important": [
-        "kennen = conocer una persona/lugar.",
-        "kennen = saber.",
-        "Conocer una persona, lugar o cosa por experiencia."
+        "Kennen no se usa con una subordinada con dass: “Ich kenne, dass…” es incorrecto; hay que usar wissen.",
+        "Kennen y können se pronuncian y se escriben de forma parecida: no los confundas."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "kennen",
+            "kennt",
+            "kannte",
+            "gekannt",
+            "wissen",
+            "Ich kenne ihn"
+          ],
           "purple": [
-            "Idea"
+            "conocer",
+            "conozco",
+            "saber"
           ]
         },
         "examples": [
@@ -10520,60 +12346,97 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "kennen",
-                "kennen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "kennen",
-                "kennen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "kenne"
+                "Kennst"
               ]
             },
             "lv": {
               "purple": [
-                "conozco"
+                "Conoces"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "kennen",
                 "kennen"
               ]
             },
             "lv": {
               "purple": [
+                "conocemos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kennt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Conoce"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kannte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Conocía"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "wissen"
+              ]
+            },
+            "meaning": {
+              "purple": [
                 "saber"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "können"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "saber hacer"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "kennenlernen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "conocer"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "saber"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "kennen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -10588,88 +12451,179 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "saber",
       "explanation": [
-        "Idea principal: Conocer un hecho, respuesta o información.",
-        "wissen significa principalmente: información/hecho.",
-        "A menudo se caracteriza por: respuestas, datos.",
-        "wissen se utiliza cuando se conoce un hecho, respuesta o información."
+        "Idea principal: wissen significa «saber» un dato, una información o una respuesta que se ha aprendido o averiguado. Ich weiß die Antwort — sé la respuesta.",
+        "Las formas son irregulares: ich weiß, du weißt, er/sie/es weiß, wir wissen; pasado wusste, perfecto hat gewusst. Se usa a menudo con una subordinada con dass o con una palabra interrogativa: Ich weiß, dass… / Weißt du, wo…?",
+        "Diferencia con kennen: wissen se refiere a un dato; kennen, a conocer a una persona o un lugar."
       ],
       "examples": [
         {
-          "de": "Ich weiß, wo er wohnt.",
-          "lv": "Sé dónde vive."
+          "de": "Ich weiß die Antwort nicht.",
+          "lv": "No sé la respuesta."
         },
         {
-          "de": "Woher wissen Sie das?",
-          "lv": "¿cómo sabes eso?"
+          "de": "Weißt du, wo er wohnt?",
+          "lv": "¿Sabes dónde vive?"
         },
         {
-          "de": "Ich weiß die Antwort.",
-          "lv": "Sé la respuesta."
+          "de": "Er weiß alles über Autos.",
+          "lv": "Sabe todo sobre coches."
+        },
+        {
+          "de": "Wir wissen es schon.",
+          "lv": "Ya lo sabemos."
+        },
+        {
+          "de": "Ich wusste nicht, dass du hier bist.",
+          "lv": "No sabía que estabas aquí."
         }
       ],
       "comparison": [
         {
-          "word": "wissen",
-          "meaning": "saber (hecho, información)",
-          "example": "Ich weiß, wo er wohnt. – Sé dónde vive."
+          "word": "kennen",
+          "meaning": "conocer",
+          "example": "Ich kenne ihn. – Lo conozco."
         },
         {
-          "word": "kennen",
-          "meaning": "conocer (persona, lugar, cosa)",
-          "example": "Ich kenne die Stadt. – Conozco la ciudad."
+          "word": "können",
+          "meaning": "poder, saber hacer",
+          "example": "Er kann schwimmen. – Sabe nadar."
+        },
+        {
+          "word": "erfahren",
+          "meaning": "enterarse",
+          "example": "Ich habe es gestern erfahren. – Me enteré ayer."
         }
       ],
       "tip": [
-        "saber = saber",
-        "Utilice wissen cuando el contexto se ajuste a este significado."
+        "Ich weiß: la 1.ª y la 3.ª persona no llevan terminación (no “ich wisse”); apréndelo como una forma especial.",
+        "¿Weißt o kennst? Si sigue a quién o qué conoces (una persona, un lugar) → kennen; si sigue un dato → wissen."
       ],
       "important": [
-        "wissen = conocer el hecho.",
-        "saber = saber.",
-        "Conocer un hecho, respuesta o información."
+        "Presente irregular: weiß, no “wisse”/“wisst” (wisst solo es la forma de ihr).",
+        "Después de wissen suele venir una subordinada con dass, ob, wo o was, y en ella el verbo va al final."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "wissen",
+            "weiß",
+            "weißt",
+            "wusste",
+            "gewusst",
+            "kennen"
+          ],
           "purple": [
-            "Idea"
+            "saber",
+            "sé"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "weiß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sé"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "wissen",
+              "blue": [
+                "Weißt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Sabes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "weiß"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Sabe"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "wissen"
               ]
             },
             "lv": {
               "purple": [
-                "sabes"
+                "sabemos"
               ]
             }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "wusste"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sabía"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "kennen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "conocer"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "können"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "saber hacer"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erfahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "enterarse"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "saber"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "wissen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -10699,7 +12653,7 @@ const A1_WORDS = [
     "de": "Kindergarten",
     "de_article": "der",
     "de_plural": "die Kindergärten",
-    "lv": "kindergarten",
+    "lv": "guardería • jardín de infancia",
     "level": "A1"
   },
   {
@@ -10721,69 +12675,81 @@ const A1_WORDS = [
   },
   {
     "de": "können",
-    "lv": "ser capaz de • saber",
+    "lv": "poder • saber",
     "level": "A1",
     "study": {
       "id": "a1-können",
       "layout": "standardStudy",
-      "translation": "ser capaz de • saber",
+      "translation": "poder • saber",
       "explanation": [
-        "Idea principal: können significa poder o saber hacer algo.",
-        "Cuando se trata de habilidad o destreza, el español suele decir saber.",
-        "Cuando se trata de posibilidades, se suele decir que se puede.",
-        "können es un verbo modal, por lo que el segundo verbo suele ir al final."
+        "Idea principal: können (poder, saber) es un verbo modal. Expresa capacidad (Er kann schwimmen — sabe nadar), posibilidad (Wir können heute kommen — podemos venir hoy) y petición (Kannst du mir helfen? — ¿Puedes ayudarme?).",
+        "Formas: ich kann, du kannst, er/sie/es kann, wir können, ihr könnt, sie können; pasado konnte, perfecto hat gekonnt. El segundo verbo va en infinitivo al final de la frase: Ich kann heute nicht kommen.",
+        "Para hablar de idiomas y habilidades, können puede ir sin otro verbo: Ich kann Deutsch (sé alemán). Por eso en español unas veces corresponde a «poder» y otras a «saber»."
       ],
       "examples": [
         {
           "de": "Ich kann Deutsch sprechen.",
-          "lv": "puedo hablar alemán"
+          "lv": "Sé hablar alemán."
         },
         {
           "de": "Kannst du mir helfen?",
-          "lv": "me puedes ayudar"
+          "lv": "¿Puedes ayudarme?"
         },
         {
           "de": "Wir können heute kommen.",
-          "lv": "podemos venir hoy."
+          "lv": "Hoy podemos venir."
         },
         {
           "de": "Er kann gut schwimmen.",
-          "lv": "él puede nadar bien."
+          "lv": "Sabe nadar bien."
+        },
+        {
+          "de": "Sie kann leider nicht kommen.",
+          "lv": "Lamentablemente, no puede venir."
         }
       ],
       "comparison": [
         {
-          "word": "können",
-          "meaning": "poder / saber",
-          "example": "Ich kann schwimmen. – Sé nadar."
-        },
-        {
           "word": "dürfen",
-          "meaning": "ser permitido",
-          "example": "Darf ich gehen? – ¿Puedo irme?"
+          "meaning": "poder (tener permiso)",
+          "example": "Hier darf man nicht rauchen. – Aquí no se puede fumar."
         },
         {
           "word": "müssen",
-          "meaning": "ser capaz de / poder",
-          "example": "Ich muss lernen. – Tengo que estudiar."
+          "meaning": "tener que, deber",
+          "example": "Ich muss arbeiten. – Tengo que trabajar."
         },
         {
-          "word": "wissen",
-          "meaning": "saber",
-          "example": "Ich weiß das. = Yo lo sé."
+          "word": "kennen",
+          "meaning": "conocer",
+          "example": "Ich kenne ihn. – Lo conozco."
         }
       ],
-      "tip": {
-        "text": "Recuerde: habilidad/capacidad → können."
-      },
+      "tip": [
+        "Ich kann, er kann: la 1.ª y la 3.ª persona del singular no llevan terminación.",
+        "Para saber hacer algo (un idioma, un juego) no hace falta otro verbo: Kannst du Schach? — ¿Sabes jugar al ajedrez?"
+      ],
       "important": [
-        "können no es lo mismo que dürfen. können = poder/saber, dürfen = estar permitido.",
-        "En una oración con können, el segundo verbo suele ir al final: Ich kann schwimmen."
+        "No confundas können y kennen: können — poder, saber hacer; kennen — conocer.",
+        "En el perfecto de los verbos modales se suele usar la forma sustitutiva: Ich habe nicht kommen können (infinitivo al final)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "können",
+            "kann",
+            "Kannst",
+            "kannst",
+            "könnt",
+            "konnte",
+            "gekonnt"
+          ],
           "purple": [
-            "poder"
+            "poder",
+            "saber",
+            "sabe",
+            "podemos",
+            "Puedes"
           ]
         },
         "examples": [
@@ -10795,7 +12761,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "puedo"
+                "Sé"
               ]
             }
           },
@@ -10807,7 +12773,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "puedes"
+                "Puedes"
               ]
             }
           },
@@ -10831,7 +12797,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "puede"
+                "Sabe"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kann"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no puede"
               ]
             }
           }
@@ -10840,39 +12818,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "können"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "poder",
-                "poder"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Puedo"
-              ],
-              "purple": [
-                "Puedo"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "dürfen"
               ]
             },
             "meaning": {
               "purple": [
-                "ser permitido"
-              ]
-            },
-            "example": {
-              "red": [
-                "Darf",
-                "puedo"
+                "tener permiso"
               ]
             }
           },
@@ -10884,52 +12835,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "necesitar"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Debo",
-                "Debo aprender"
+                "tener que"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "wissen"
+                "kennen"
               ]
             },
             "meaning": {
               "purple": [
-                "saber"
-              ]
-            },
-            "example": {
-              "green": [
-                "weiß",
-                "zinu"
+                "conocer"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "können"
-            ],
-            "purple": [
-              "habilidad",
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "poder"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -10943,16 +12872,14 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "costar",
       "explanation": [
-        "Idea principal: kosten significa pagar tal o cual cosa; habla del precio de una cosa.",
-        "Esta palabra se usa cuando se pregunta o dice cuánto cuesta algo, no cuando una persona realiza un pago.",
-        "Una pregunta sobre precios en alemán suele empezar con Was kostet...?",
-        "La palabra letona pagar es correcta en este contexto: Das kostet 5 Euro. = Cuesta 5 euros.",
-        "Cuando una persona da dinero por un bien o servicio, en alemán se utiliza bezahlen o zahlen."
+        "Idea principal: kosten significa «costar»: indica el precio de un producto o de un servicio. Das kostet fünf Euro — cuesta cinco euros. El sujeto es la cosa, no la persona.",
+        "Formas: kostet, kostete, hat gekostet. Para preguntar el precio: Was kostet das? (¿Cuánto cuesta?), Wie viel kostet der Pullover? En plural: Die Schuhe kosten 60 Euro.",
+        "La persona a la que le cuesta algo va en acusativo: Das kostet mich zehn Euro. En sentido figurado, kosten también puede significar «llevar, exigir» tiempo o esfuerzo: Das kostet viel Zeit."
       ],
       "examples": [
         {
-          "de": "Das kostet 5 Euro.",
-          "lv": "Cuesta 5 euros."
+          "de": "Das kostet fünf Euro.",
+          "lv": "Cuesta cinco euros."
         },
         {
           "de": "Was kostet das?",
@@ -10960,63 +12887,55 @@ const A1_WORDS = [
         },
         {
           "de": "Wie viel kostet der Pullover?",
-          "lv": "¿Cuánto cuesta un suéter?"
+          "lv": "¿Cuánto cuesta el jersey?"
         },
         {
-          "de": "Das Essen kostet nicht viel.",
-          "lv": "la comida no cuesta mucho."
+          "de": "Die Schuhe kosten sechzig Euro.",
+          "lv": "Los zapatos cuestan sesenta euros."
         },
         {
-          "de": "Ich bezahle die Rechnung.",
-          "lv": "Pago la cuenta."
-        },
-        {
-          "de": "Kann ich bar bezahlen?",
-          "lv": "¿Cuánto cuesta?"
-        },
-        {
-          "de": "Er zahlt mit Karte.",
-          "lv": "Cuesta cinco euros."
-        },
-        {
-          "de": "Ich zahle gleich.",
-          "lv": "Costará más mañana."
+          "de": "Das kostet mich viel Zeit.",
+          "lv": "Eso me lleva mucho tiempo."
         }
       ],
       "comparison": [
         {
-          "word": "kosten",
-          "meaning": "costar (precio) • cuánto",
-          "example": "Das kostet 5 Euro. – Cuesta 5 euros."
-        },
-        {
           "word": "bezahlen",
-          "meaning": "costar • tener un precio",
-          "example": "Ich bezahle die Rechnung. – Pago la factura."
+          "meaning": "pagar (algo)",
+          "example": "Ich bezahle die Rechnung. – Pago la cuenta."
         },
         {
           "word": "zahlen",
-          "meaning": "costar • tener un precio",
-          "example": "Kann ich bar zahlen? – ¿Puedo pagar en efectivo?"
+          "meaning": "pagar (alguien)",
+          "example": "Wir zahlen bar. – Pagamos en efectivo."
         },
         {
-          "word": "Was kostet...?",
-          "meaning": "¿Cuánto cuesta...?",
-          "example": "Was kostet das Buch? – ¿Cuánto cuesta el libro?"
+          "word": "kaufen",
+          "meaning": "comprar",
+          "example": "Ich kaufe ein Brot. – Compro una barra de pan."
         }
       ],
       "tip": [
-        "Recuerde: pregunta sobre el precio → kosten (Was kostet das?).",
-        "Recuerde: realizar un pago → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+        "Kosten — el precio de una cosa; zahlen/bezahlen — una persona paga: Der Kaffee kostet drei Euro, ich bezahle ihn.",
+        "Para preguntar el precio: Was kostet…? o Wie viel kostet…?"
       ],
       "important": [
-        "kosten y bezahlen no son sinónimos: kosten = cuánto cuesta; bezahlen = pagar dinero.",
-        "En español se suele utilizar la remuneración en ambos casos, pero en alemán la elección debe hacerse en función de la situación."
+        "El sustantivo die Kosten (plural) significa «gastos, costes»; el verbo kosten significa «costar».",
+        "Kosten también puede significar «probar» (Willst du die Suppe kosten?), pero en el día a día se usa probieren."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "kosten",
+            "kostet",
+            "kostete",
+            "gekostet",
+            "Was kostet das?"
+          ],
           "purple": [
-            "pagar"
+            "costar",
+            "cuesta",
+            "exigir"
           ]
         },
         "examples": [
@@ -11040,7 +12959,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Cuánto"
+                "cuesta"
               ]
             }
           },
@@ -11052,7 +12971,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "¿cuanto"
+                "cuesta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "kosten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cuestan"
               ]
             }
           },
@@ -11064,55 +12995,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "comida"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "bezahle"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Pago"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "bezahlen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pagar"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "zahlt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "paga"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "zahle"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pagaré"
+                "lleva"
               ]
             }
           }
@@ -11121,43 +13004,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "kosten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pagar",
-                "pagar",
-                "pagar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Cuesta"
-              ],
-              "purple": [
-                "Cuesta"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "bezahlen"
               ]
             },
             "meaning": {
               "purple": [
-                "pagar",
                 "pagar"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "bezahle"
-              ],
-              "purple": [
-                "Ich"
               ]
             }
           },
@@ -11169,15 +13021,6 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pagar",
-                "pagar"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "zahlen"
-              ],
-              "purple": [
                 "pagar"
               ]
             }
@@ -11185,40 +13028,23 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "Was kostet"
+                "kaufen"
               ]
             },
             "meaning": {
               "purple": [
-                "Cuánto cuesta"
-              ]
-            },
-            "example": {
-              "blue": [
-                "kostet"
-              ],
-              "purple": [
-                "¿Era"
+                "comprar"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Recuerde",
-              "Recuerde"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "Cuánto cuesta",
-              "pagar",
-              "pagar"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -11256,7 +13082,7 @@ const A1_WORDS = [
     "de": "Huhn",
     "de_article": "das",
     "de_plural": "die Hühner",
-    "lv": "pollo",
+    "lv": "gallina • pollo",
     "level": "A1"
   },
   {
@@ -11311,7 +13137,7 @@ const A1_WORDS = [
     "de": "Kartoffel",
     "de_article": "die",
     "de_plural": "die Kartoffeln",
-    "lv": "papa",
+    "lv": "patata",
     "level": "A1"
   },
   {
@@ -11372,7 +13198,7 @@ const A1_WORDS = [
     "de": "Kraftwagen",
     "de_article": "der",
     "de_plural": "die Kraftwagen",
-    "lv": "auto",
+    "lv": "automóvil",
     "level": "A1"
   },
   {
@@ -11400,7 +13226,7 @@ const A1_WORDS = [
     "de": "Kühlschrank",
     "de_article": "der",
     "de_plural": "die Kühlschränke",
-    "lv": "refrigerador",
+    "lv": "frigorífico • nevera",
     "level": "A1"
   },
   {
@@ -11421,10 +13247,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "tienda",
       "explanation": [
-        "Idea principal: der Laden está en mayúscula y el artículo der es un sustantivo: una pequeña tienda.",
-        "cargado es un verbo en minúscula: cargar o cargar.",
-        "Der Laden a menudo se refiere a una pequeña tienda en la vida cotidiana (im Laden einkaufen = comprar en una tienda).",
-        "Plural: die Läden."
+        "Idea principal: der Laden es un sustantivo masculino: una tienda pequeña donde se compran productos. El plural es die Läden (con diéresis).",
+        "Usos: in den Laden gehen (ir a la tienda), im Laden einkaufen. En compuestos: Blumenladen (floristería), Bioladen (tienda ecológica), Schreibwarenladen (papelería). Un supermercado se llama Supermarkt.",
+        "Der Fensterladen (plural die Fensterläden) es la contraventana. El verbo laden (cargar) se escribe igual, aunque con minúscula, pero es un verbo: Ich lade mein Handy."
       ],
       "examples": [
         {
@@ -11432,31 +13257,51 @@ const A1_WORDS = [
           "lv": "Voy a la tienda."
         },
         {
-          "de": "Der Laden ist geschlossen.",
-          "lv": "La tienda está cerrada."
+          "de": "Der Laden ist heute geschlossen.",
+          "lv": "La tienda está cerrada hoy."
         },
         {
-          "de": "Es gibt viele Läden hier.",
-          "lv": "Hay muchas tiendas aquí."
+          "de": "In dieser Straße gibt es viele Läden.",
+          "lv": "En esta calle hay muchas tiendas."
         },
         {
-          "de": "Ich muss mein Handy laden.",
-          "lv": "Necesito ir a la tienda."
+          "de": "Der Blumenladen öffnet um neun Uhr.",
+          "lv": "La floristería abre a las nueve."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Geschäft",
+          "meaning": "tienda; negocio",
+          "example": "Das Geschäft ist groß. – La tienda es grande."
+        },
+        {
+          "word": "der Supermarkt",
+          "meaning": "supermercado",
+          "example": "Der Supermarkt ist billig. – El supermercado es barato."
+        },
+        {
+          "word": "der Kiosk",
+          "meaning": "quiosco",
+          "example": "Am Kiosk gibt es Zeitungen. – En el quiosco hay periódicos."
         }
       ],
       "tip": [
-        "der Laden en mayúscula - sustantivo (tienda).",
-        "minúscula cargada - verbo (cargar/cargar)."
+        "Der Laden es una palabra cotidiana y coloquial; das Geschäft es más neutra.",
+        "Pregunta: Wo ist der nächste Laden? — ¿Dónde está la tienda más cercana?"
       ],
       "important": [
-        "der Laden = tienda (sustantivo).",
-        "cargado = cargar/cargar (verbo).",
-        "Plural: die Läden."
+        "Der Laden (masculino, die Läden) y laden (verbo) son palabras distintas.",
+        "En plural siempre lleva diéresis: die Läden, no “die Laden”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Laden",
+            "Läden"
+          ],
           "purple": [
-            "Idea"
+            "tienda"
           ]
         },
         "examples": [
@@ -11468,7 +13313,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "veikalu"
+                "tienda"
               ]
             }
           },
@@ -11492,51 +13337,68 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hay"
+                "tiendas"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "laden"
+              "blue": [
+                "Blumenladen"
               ]
             },
             "lv": {
               "purple": [
-                "Necesito"
+                "floristería"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Geschäft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tienda"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Supermarkt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "supermercado"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Kiosk"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "quiosco"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "der Laden"
-            ]
-          },
-          {
-            "green": [
-              "laden"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "der Laden"
-            ]
-          },
-          {
-            "green": [
-              "cargado"
-            ]
-          },
-          {
-            "blue": [
-              "Plural"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -11559,62 +13421,71 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "país • tierra",
       "explanation": [
-        "Idea principal: das Land suele significar campo o tierra fuera de la ciudad.",
-        "Si se trata de Alemania, Letonia u otro territorio con fronteras, se traduce como país.",
-        "Cuando se habla de campo o tierra en contraposición a ciudad, se traduce como campo o tierra.",
-        "El contexto determina si nos referimos a país, campo o tierra."
+        "Idea principal: das Land es un sustantivo neutro con varios significados: país (Deutschland ist ein Land), el campo frente a la ciudad (auf dem Land — en el campo) y tierra (como territorio).",
+        "Plural: die Länder (países); existe también la forma histórica die Lande, pero se usa poco. Expresiones: aufs Land fahren (ir al campo), auf dem Land leben (vivir en el campo), im Ausland / im Inland (en el extranjero / en el propio país).",
+        "En Alemania, das Bundesland es un estado federado. El suelo, tanto la tierra que se cultiva como el de una habitación, se llama der Boden, no das Land."
       ],
       "examples": [
         {
           "de": "Deutschland ist ein schönes Land.",
-          "lv": "Alemania es un país hermoso."
+          "lv": "Alemania es un país bonito."
         },
         {
-          "de": "Ich komme aus einem kleinen Land.",
-          "lv": "Vengo de un país pequeño."
-        },
-        {
-          "de": "Wir fahren aufs Land.",
-          "lv": "nos vamos al campo."
+          "de": "Lettland ist ein kleines Land.",
+          "lv": "Letonia es un país pequeño."
         },
         {
           "de": "Auf dem Land ist es ruhig.",
-          "lv": "es tranquilo en el campo."
+          "lv": "En el campo se está tranquilo."
+        },
+        {
+          "de": "Wir fahren am Wochenende aufs Land.",
+          "lv": "El fin de semana vamos al campo."
+        },
+        {
+          "de": "Welche Länder kennst du schon?",
+          "lv": "¿Qué países conoces ya?"
         }
       ],
       "comparison": [
         {
-          "word": "das Land",
-          "meaning": "país / tierra / campo",
-          "example": "Deutschland ist ein Land."
+          "word": "der Staat",
+          "meaning": "Estado (como institución)",
+          "example": "Der Staat zahlt die Schule. – El Estado paga la escuela."
+        },
+        {
+          "word": "der Boden",
+          "meaning": "suelo; tierra",
+          "example": "Der Boden ist nass. – El suelo está mojado."
         },
         {
           "word": "die Stadt",
           "meaning": "ciudad",
-          "example": "Ich wohne in der Stadt."
-        },
-        {
-          "word": "das Dorf",
-          "meaning": "aldea",
-          "example": "Er lebt in einem Dorf."
-        },
-        {
-          "word": "die Erde",
-          "meaning": "tierra / planeta",
-          "example": "Die Erde ist rund."
+          "example": "Ich wohne in der Stadt. – Vivo en la ciudad."
         }
       ],
-      "tip": {
-        "text": "Recuerde: país → das Land; ciudad → die Stadt."
-      },
+      "tip": [
+        "Recuerda: das Land – die Länder; auf dem Land es «en el campo», pero in einem Land es «en un país».",
+        "Contrario de la ciudad: die Stadt ≠ das Land."
+      ],
       "important": [
-        "aufs Land significa \"al campo\", no \"al campo\".",
-        "das Land no es lo mismo que die Stadt."
+        "Das Land (territorio, campo) y der Staat (el Estado como institución) no son sinónimos.",
+        "El plural lleva diéresis: die Länder, no “die Lande”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Land",
+            "das Land",
+            "die Länder",
+            "auf dem Land",
+            "aufs Land",
+            "Bundesland"
+          ],
           "purple": [
-            "país"
+            "país",
+            "en el campo",
+            "tierra"
           ]
         },
         "examples": [
@@ -11622,9 +13493,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Land"
-              ],
-              "green": [
-                "Deutschland"
               ]
             },
             "lv": {
@@ -11653,19 +13521,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nos"
+                "En el campo"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Land"
+                "aufs Land"
               ]
             },
             "lv": {
               "purple": [
-                "tranquilo"
+                "al campo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Länder"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "países"
               ]
             }
           }
@@ -11674,19 +13554,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "das Land"
+                "der Staat"
               ]
             },
             "meaning": {
               "purple": [
-                "valsts",
-                "valsts",
-                "lauki"
+                "Estado"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Boden"
               ]
             },
-            "example": {
-              "blue": [
-                "Land"
+            "meaning": {
+              "purple": [
+                "suelo"
               ]
             }
           },
@@ -11700,69 +13585,16 @@ const A1_WORDS = [
               "purple": [
                 "ciudad"
               ]
-            },
-            "example": {
-              "yellow": [
-                "Stadt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "das Dorf"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "aldea"
-              ]
-            },
-            "example": {
-              "green": [
-                "Dorf"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "die Erde"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "tierra",
-                "planeta"
-              ]
-            },
-            "example": {
-              "red": [
-                "Erde"
-              ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "das Land"
-            ],
-            "purple": [
-              "país"
-            ],
-            "yellow": [
-              "die Stadt",
-              "ciudad"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "aufs"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -11776,11 +13608,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "largo • mucho tiempo",
       "explanation": [
-        "Idea principal: lang espacialmente significa largo, temporalmente largo.",
-        "Cuando se trata de tamaño o distancia, lang = largo (ein langer Tisch = mesa larga).",
-        "Si se habla de duración, lang = largo (ein langer Tag = un día largo).",
-        "En la frase den ganzen Tag lang significa todo el día (en longitud).",
-        "El español 'garš' e 'ilgs' son dos palabras diferentes, pero el idioma alemán cubre ambos significados."
+        "Idea principal: lang significa «largo» referido al tamaño o a los objetos (Der Tisch ist lang) y también referido al tiempo, a algo que dura mucho: Der Film war sehr lang. Con unidades de tiempo: zwei Stunden lang — durante dos horas.",
+        "Comparativo: länger (más largo, más tiempo); superlativo: am längsten. El adverbio lange significa «mucho tiempo»: Ich warte schon lange. Con terminación delante de un sustantivo: eine lange Reise, lange Haare.",
+        "En la pregunta Wie lange dauert es? (¿Cuánto tiempo dura?) se usa lange, no lang."
       ],
       "examples": [
         {
@@ -11788,39 +13618,60 @@ const A1_WORDS = [
           "lv": "La mesa es muy larga."
         },
         {
-          "de": "Der Film war sehr lang.",
-          "lv": "La película fue muy larga."
-        },
-        {
-          "de": "Wie lange dauert es?",
-          "lv": "¿Cuánto tiempo dura?"
+          "de": "Der Film war zwei Stunden lang.",
+          "lv": "La película duró dos horas."
         },
         {
           "de": "Sie hat lange Haare.",
-          "lv": "Ella tiene el pelo largo."
+          "lv": "Tiene el pelo largo."
         },
         {
-          "de": "Ich warte schon lange.",
-          "lv": "Llevo mucho tiempo esperando."
+          "de": "Das Seil ist drei Meter lang.",
+          "lv": "La cuerda mide tres metros de largo."
         },
         {
-          "de": "Den ganzen Tag lang.",
-          "lv": "todo el día (en duración)"
+          "de": "Wir warten schon lange.",
+          "lv": "Llevamos mucho tiempo esperando."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "kurz",
+          "meaning": "corto",
+          "example": "Der Weg ist kurz. – El camino es corto."
+        },
+        {
+          "word": "groß",
+          "meaning": "grande; alto (personas)",
+          "example": "Er ist sehr groß. – Es muy alto."
+        },
+        {
+          "word": "lange",
+          "meaning": "mucho tiempo",
+          "example": "Er schläft lange. – Duerme mucho."
         }
       ],
       "tip": [
-        "Por tamaño o distancia (pelo, camino, mesa) → largo.",
-        "Ya era hora (día, espera, película) → largo."
+        "Lang (adjetivo) describe la longitud o la duración; lange (adverbio), cuánto tiempo dura una acción.",
+        "Para la estatura de una persona se dice groß (alto), no lang."
       ],
       "important": [
-        "lang = long (tamaño) O long (tiempo), según el contexto.",
-        "wie lange = cuánto tiempo (cuestión de tiempo, no de tamaño)."
+        "No confundas lang y lange: Ich warte lange (no “lang”).",
+        "Detrás de una expresión de tiempo, lang va sin terminación: zwei Stunden lang."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "lang",
+            "lange",
+            "länger",
+            "am längsten",
+            "Wie lange dauert es?"
+          ],
           "purple": [
             "largo",
-            "ilgs"
+            "mucho tiempo",
+            "más largo"
           ]
         },
         "examples": [
@@ -11838,25 +13689,13 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "lang"
               ]
             },
             "lv": {
               "purple": [
-                "película"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "lange"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "cik"
+                "duró"
               ]
             }
           },
@@ -11868,19 +13707,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ella"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "lange"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "gaidu"
+                "largo"
               ]
             }
           },
@@ -11892,30 +13719,68 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "todo"
+                "de largo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "lange"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mucho tiempo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "kurz"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "corto"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "groß"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "alto"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "lange"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mucho tiempo"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "largo"
-            ]
-          },
-          {
-            "green": [
-              "Por"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "lang",
-              "lang"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -11944,63 +13809,68 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "dejar • permitir",
       "explanation": [
-        "Idea principal: lassen significa dejar algo o dejar que algo suceda.",
-        "Si algo permanece en su lugar, lassen se traduce como licencia.",
-        "Si le das permiso a alguien, lassen se traduce como dejar.",
-        "Una forma muy frecuente en la conversación es ¡Lass mich! = ¡Déjame en paz! o ¡Déjame!"
+        "Idea principal: lassen es un verbo con varios significados: 1) dejar (algo en un sitio): Ich lasse die Tasche hier; 2) dejar, permitir: Meine Eltern lassen mich gehen; 3) hacer que se haga algo, normalmente encargándoselo a otra persona: Ich lasse das Auto reparieren.",
+        "Formas: ich lasse, du lässt, er lässt; pasado ließ, perfecto hat gelassen. Con otro infinitivo, el perfecto es hat lassen (no gelassen): Er hat mich gehen lassen. Imperativo: Lass! / Lasst uns! (¡vamos a…!).",
+        "Con acusativo: etwas lassen; con infinitivo (sin zu): jemanden etwas tun lassen. Muy frecuente: Lass mich in Ruhe! — ¡Déjame en paz!"
       ],
       "examples": [
         {
           "de": "Ich lasse die Tasche hier.",
-          "lv": "Dejé la bolsa aquí."
+          "lv": "Dejo el bolso aquí."
         },
         {
           "de": "Lass das bitte auf dem Tisch.",
-          "lv": "Déjalo en la mesa, por favor."
+          "lv": "Deja eso en la mesa, por favor."
         },
         {
           "de": "Meine Eltern lassen mich gehen.",
-          "lv": "Mis padres me dejaron ir."
+          "lv": "Mis padres me dejan ir."
         },
         {
           "de": "Lass mich in Ruhe!",
           "lv": "¡Déjame en paz!"
+        },
+        {
+          "de": "Er lässt sein Auto reparieren.",
+          "lv": "Lleva su coche a reparar."
         }
       ],
       "comparison": [
         {
-          "word": "lassen",
-          "meaning": "dejar / permitir",
-          "example": "Ich lasse das hier."
-        },
-        {
-          "word": "bleiben",
-          "meaning": "dejar algo en un lugar",
-          "example": "Ich bleibe hier."
+          "word": "verlassen",
+          "meaning": "abandonar, irse de",
+          "example": "Er verlässt die Stadt. – Abandona la ciudad."
         },
         {
           "word": "erlauben",
           "meaning": "permitir",
-          "example": "Sie erlaubt mir das."
+          "example": "Mein Vater erlaubt es. – Mi padre lo permite."
         },
         {
-          "word": "geben",
-          "meaning": "hacer que alguien haga algo",
-          "example": "Gib mir das Buch."
+          "word": "zurücklassen",
+          "meaning": "dejar (atrás)",
+          "example": "Er lässt den Hund zurück. – Deja atrás al perro."
         }
       ],
-      "tip": {
-        "text": "Recuerda: algo queda → lassen; a alguien se le permite → lassen."
-      },
+      "tip": [
+        "Formas básicas: lassen – ließ – hat gelassen; en 2.ª y 3.ª persona, lässt.",
+        "Lassen + infinitivo expresa «hacer que alguien haga algo» o «dejar hacer»: Ich lasse mir die Haare schneiden — me corto el pelo (en la peluquería)."
+      ],
       "important": [
-        "lassen no es sólo \"irse\". También suele significar \"dejar\".",
-        "¡Lass mich en Ruhe! hay una frase muy común: \"¡Déjame en paz!\""
+        "Lassen y verlassen son distintos: lassen — dejar, permitir; verlassen — abandonar (un lugar o a una persona).",
+        "Si lassen va con otro infinitivo, en el perfecto se usa hat lassen (el llamado Ersatzinfinitiv), no hat gelassen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "lassen",
+            "lasse",
+            "Lass",
+            "Lasst"
+          ],
           "purple": [
             "dejar",
-            "Déjame en paz"
+            "permitir"
           ]
         },
         "examples": [
@@ -12012,7 +13882,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dejé"
+                "Dejo"
               ]
             }
           },
@@ -12024,7 +13894,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Déjalo"
+                "Deja"
               ]
             }
           },
@@ -12036,19 +13906,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mis"
+                "dejan"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Lass mich"
+                "Lass"
               ]
             },
             "lv": {
               "purple": [
-                "Déjame en paz"
+                "Déjame"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "lässt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Lleva"
               ]
             }
           }
@@ -12057,35 +13939,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "lassen"
+                "verlassen"
               ]
             },
             "meaning": {
               "purple": [
-                "dejar",
-                "dejar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "lasse"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bleiben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "permanecer"
-              ]
-            },
-            "example": {
-              "green": [
-                "bleibe"
+                "abandonar"
               ]
             }
           },
@@ -12099,49 +13958,28 @@ const A1_WORDS = [
               "purple": [
                 "permitir"
               ]
-            },
-            "example": {
-              "yellow": [
-                "erlaubt"
-              ]
             }
           },
           {
             "word": {
               "green": [
-                "geben"
+                "zurücklassen"
               ]
             },
             "meaning": {
               "purple": [
-                "dar"
-              ]
-            },
-            "example": {
-              "red": [
-                "Gib"
+                "dejar"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "lassen"
-            ],
-            "purple": [
-              "Recuerda",
-              "permite"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "dejar",
-              "lassen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -12155,10 +13993,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "correr • funcionar",
       "explanation": [
-        "Idea principal: laufen significa ejecutar, pero con dispositivos puede significar ejecutar.",
-        "Para una persona o un animal, laufen suele significar correr o caminar a paso rápido.",
-        "Para una película, máquina o programa, laufen significa que se está ejecutando o sucediendo.",
-        "Para el movimiento de piernas en el nivel A1, lo más frecuente es comparar gehen y laufen."
+        "Idea principal: laufen significa «correr» o «ir a pie»: Er läuft sehr schnell. En sentido figurado también significa «funcionar» y «estar en marcha»: Die Maschine läuft gut, Der Film läuft schon (la película ya ha empezado).",
+        "Formas: ich laufe, du läufst, er läuft; lief, ist gelaufen. El verbo auxiliar es sein: Er ist gelaufen. Pregunta: Wie läuft’s? — ¿Qué tal va?",
+        "Con un destino, laufen significa ir a pie, no en un vehículo: Wir laufen zur Schule. Para una carrera rápida se suele usar rennen."
       ],
       "examples": [
         {
@@ -12167,50 +14004,58 @@ const A1_WORDS = [
         },
         {
           "de": "Die Kinder laufen im Park.",
-          "lv": "Los niños corren en el parque."
+          "lv": "Los niños corren por el parque."
         },
         {
           "de": "Der Film läuft schon.",
-          "lv": "La película ya está en marcha."
+          "lv": "La película ya ha empezado."
         },
         {
           "de": "Die Maschine läuft gut.",
           "lv": "La máquina funciona bien."
+        },
+        {
+          "de": "Wir laufen zur Schule.",
+          "lv": "Vamos andando al colegio."
         }
       ],
       "comparison": [
         {
-          "word": "laufen",
-          "meaning": "correr / funcionar",
-          "example": "Er läuft schnell."
+          "word": "rennen",
+          "meaning": "correr (deprisa)",
+          "example": "Er rennt zum Bus. – Corre hacia el autobús."
         },
         {
           "word": "gehen",
-          "meaning": "continuar yendo",
-          "example": "Ich gehe nach Hause."
-        },
-        {
-          "word": "fahren",
-          "meaning": "caminar o correr",
-          "example": "Ich fahre mit dem Bus."
+          "meaning": "ir, andar",
+          "example": "Ich gehe nach Hause. – Me voy a casa."
         },
         {
           "word": "funktionieren",
           "meaning": "funcionar",
-          "example": "Das funktioniert gut."
+          "example": "Das Radio funktioniert nicht. – La radio no funciona."
         }
       ],
-      "tip": {
-        "text": "Recuerde: pies rápidos → laufen; transporte → fahren."
-      },
+      "tip": [
+        "En alemán, laufen también significa a menudo «ir a pie»: Ich laufe zur Arbeit.",
+        "En el habla coloquial se pregunta Wie läuft’s? (¿qué tal va?) y se responde, por ejemplo: Es läuft gut."
+      ],
       "important": [
-        "laufen no es sólo \"correr\". Para una película o dispositivo, puede significar \"ir\" o \"actuar\".",
-        "Ich laufe significa moverse a pie, no en coche."
+        "En el perfecto se usa sein: Ich bin gelaufen, no “habe gelaufen”.",
+        "Ich laufe, pero du läufst, er läuft: la 2.ª y la 3.ª persona llevan diéresis."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "laufen",
+            "läuft",
+            "lief",
+            "gelaufen"
+          ],
           "purple": [
-            "correr"
+            "correr",
+            "ir a pie",
+            "funcionar"
           ]
         },
         "examples": [
@@ -12222,7 +14067,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "corre"
+                "Corre"
               ]
             }
           },
@@ -12234,7 +14079,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "los"
+                "corren"
               ]
             }
           },
@@ -12246,7 +14091,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "filma"
+                "ha empezado"
               ]
             }
           },
@@ -12258,7 +14103,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "máquina"
+                "funciona"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "laufen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "andando"
               ]
             }
           }
@@ -12267,18 +14124,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "laufen"
+                "rennen"
               ]
             },
             "meaning": {
               "purple": [
-                "skriet",
-                "darboties"
-              ]
-            },
-            "example": {
-              "blue": [
-                "lauft"
+                "correr"
               ]
             }
           },
@@ -12290,29 +14141,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "continuar"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "gehe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "fahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "braukt"
-              ]
-            },
-            "example": {
-              "red": [
-                "fahre"
+                "ir"
               ]
             }
           },
@@ -12324,106 +14153,102 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "darboties"
-              ]
-            },
-            "example": {
-              "green": [
-                "funktioniert"
+                "funcionar"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "laufen"
-            ],
-            "purple": [
-              "pies rápidos"
-            ],
-            "red": [
-              "fahren",
-              "transporte"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "correr",
-              "ir"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "laut",
-    "lv": "alto",
+    "lv": "ruidoso • fuerte",
     "level": "A1",
     "study": {
       "id": "a1-laut",
       "layout": "standardStudy",
-      "translation": "alto",
+      "translation": "ruidoso • fuerte",
       "explanation": [
-        "Idea principal: Adjetivo en minúscula. Describe el volumen: qué tan fuerte es un sonido o un habla.",
-        "laut significa principalmente: sonido fuerte.",
-        "A menudo describe: adjetivo.",
-        "laut significa básicamente: señal sonora.",
-        "A menudo describe: sustantivo (der).",
-        "Laut minúscula es un adjetivo que describe qué tan fuerte es el sonido (Die Musik ist laut = la música está alta).",
-        "der Laut con mayúscula y el artículo der es un sustantivo, significa sonido como cosa o señal (Der Laut ist schön = el sonido es hermoso).",
-        "Plural: die Laute."
+        "Idea principal: laut es adjetivo y adverbio: «ruidoso, fuerte» y «alto, en voz alta»: Die Musik ist laut. Describe un sonido, un lugar con mucho ruido o una voz: Sprich nicht so laut!",
+        "Comparativo: lauter (más fuerte); superlativo: am lautesten. Delante de un sustantivo: ein lauter Knall, laute Musik. El contrario es leise.",
+        "Laut también es una preposición, «según» (laut Gesetz — según la ley), pero es otra palabra; el sustantivo der Laut significa «sonido»."
       ],
       "examples": [
         {
-          "de": "Die Musik ist laut.",
-          "lv": "La música está alta."
-        },
-        {
-          "de": "Die Musik ist laut.",
-          "lv": "la música está alta."
+          "de": "Die Musik ist zu laut.",
+          "lv": "La música está demasiado alta."
         },
         {
           "de": "Sprich nicht so laut!",
-          "lv": "¡no hables tan alto!"
+          "lv": "¡No hables tan alto!"
         },
         {
-          "de": "Das ist sehr laut.",
-          "lv": "es muy ruidoso."
+          "de": "In der Stadt ist es sehr laut.",
+          "lv": "En la ciudad hay mucho ruido."
         },
         {
-          "de": "Der Laut ist schön.",
-          "lv": "El sonido es muy fuerte."
+          "de": "Er lacht laut.",
+          "lv": "Se ríe muy fuerte."
         },
         {
-          "de": "Ich höre einen Laut.",
-          "lv": "Escucho un sonido muy fuerte."
+          "de": "Die Nachbarn sind heute laut.",
+          "lv": "Hoy los vecinos son muy ruidosos."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "leise",
+          "meaning": "bajo, silencioso",
+          "example": "Sei bitte leise! – ¡No hagas ruido, por favor!"
+        },
+        {
+          "word": "der Lärm",
+          "meaning": "ruido",
+          "example": "Der Lärm stört mich. – El ruido me molesta."
+        },
+        {
+          "word": "ruhig",
+          "meaning": "tranquilo",
+          "example": "Die Straße ist ruhig. – La calle es tranquila."
         }
       ],
       "tip": [
-        "Pequeño laut = fuerte (adjetivo: ist laut). der Laut en mayúscula = sonido (sustantivo: ein Laut, der Laut).",
-        "laut = sonido"
+        "Laut y leise son contrarios: laut = alto, fuerte; leise = bajo, en voz baja.",
+        "Laut también se usa como adverbio: Er lacht laut — se ríe muy fuerte."
       ],
       "important": [
-        "laut está en minúscula y no tiene artículo: es un adjetivo.",
-        "der Laut con mayúscula y el artículo der es un sustantivo.",
-        "Plural: die Laute (sonidos del lenguaje, pitidos).",
-        "Incorrecto: Der Laut ist sehr. → Correcto: Das ist sehr laut."
+        "Laut (preposición, «según») y laut («ruidoso») se escriben igual, pero significan cosas distintas.",
+        "No confundas laut y Laut: laut — ruidoso; der Laut — sonido."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "laut",
+            "lauter",
+            "am lautesten",
+            "leise",
+            "Laut"
+          ],
           "purple": [
-            "alta"
+            "ruidoso",
+            "fuerte",
+            "en voz alta",
+            "sonido"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "laut",
                 "laut"
               ]
             },
@@ -12436,82 +14261,97 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "laut",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "alta"
+                "alto"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "laut",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "¡no"
+                "ruido"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "laut",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "muy"
+                "fuerte"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "laut",
                 "laut"
               ]
             },
             "lv": {
               "purple": [
-                "el sonido"
+                "ruidosos"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "leise"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "silencioso"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "laut",
-                "laut"
+            "word": {
+              "green": [
+                "der Lärm"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "sonido"
+                "ruido"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ruhig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tranquilo"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Pequeño"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "laut"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -12527,124 +14367,109 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "el sonido",
       "explanation": [
-        "Idea principal: Un sustantivo con artículo encaja y está en mayúscula. Significa sonido como una cosa, una señal o el sonido del lenguaje.",
-        "der Laut significa principalmente: sonido fuerte.",
-        "A menudo describe: adjetivo.",
-        "der Laut significa principalmente: señal sonora.",
-        "A menudo describe: sustantivo (der).",
-        "Laut minúscula es un adjetivo que describe qué tan fuerte es el sonido (Die Musik ist laut = la música está alta).",
-        "der Laut con mayúscula y el artículo der es un sustantivo, significa sonido como cosa o señal (Der Laut ist schön = el sonido es hermoso).",
-        "Plural: die Laute."
+        "Idea principal: der Laut es un sustantivo masculino: sonido, el que emite una persona o un animal, y también un sonido de la lengua (vocal, consonante). El plural es die Laute.",
+        "Expresiones: keinen Laut von sich geben (no decir ni pío), ein Laut der Überraschung (una exclamación de sorpresa). En lingüística: Vokale und Konsonanten sind Laute.",
+        "Diferencia con laut: laut es el adjetivo «ruidoso»; Laut, el sustantivo «sonido». El tono musical y el ruido se llaman Ton y Geräusch."
       ],
       "examples": [
         {
-          "de": "Der Laut ist schön.",
-          "lv": "El sonido es hermoso."
+          "de": "Ich höre keinen Laut.",
+          "lv": "No oigo ningún sonido."
         },
         {
-          "de": "Die Musik ist laut.",
-          "lv": "La música produce un sonido fuerte."
+          "de": "Das Kind gibt keinen Laut von sich.",
+          "lv": "El niño no dice ni pío."
         },
         {
-          "de": "Sprich nicht so laut!",
-          "lv": "Oigo un sonido muy fuerte."
+          "de": "Das Wort “Hand” hat vier Laute.",
+          "lv": "La palabra «Hand» tiene cuatro sonidos."
         },
         {
-          "de": "Das ist sehr laut.",
-          "lv": "Es un sonido muy fuerte."
+          "de": "Der Laut kam aus dem Wald.",
+          "lv": "El sonido venía del bosque."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Ton",
+          "meaning": "tono; sonido (en música)",
+          "example": "Der Ton ist zu hoch. – El tono es demasiado alto."
         },
         {
-          "de": "Der Laut ist schön.",
-          "lv": "el sonido es hermoso."
+          "word": "das Geräusch",
+          "meaning": "ruido",
+          "example": "Ich höre ein Geräusch. – Oigo un ruido."
         },
         {
-          "de": "Ich höre einen Laut.",
-          "lv": "escucho un sonido"
+          "word": "der Klang",
+          "meaning": "timbre, sonoridad",
+          "example": "Der Klang ist schön. – El sonido es bonito."
         }
       ],
       "tip": [
-        "Pequeño laut = fuerte (adjetivo: ist laut). der Laut en mayúscula = sonido (sustantivo: ein Laut, der Laut).",
-        "der Laut = sonido"
+        "Der Laut – die Laute: plural en -e, sin diéresis.",
+        "Para los sonidos de la lengua: Vokal (vocal), Konsonant (consonante); ambos son Laute."
       ],
       "important": [
-        "laut está en minúscula y no tiene artículo: es un adjetivo.",
-        "der Laut con mayúscula y el artículo der es un sustantivo.",
-        "Plural: die Laute (sonidos del lenguaje, pitidos).",
-        "Incorrecto: Der Laut ist sehr. → Correcto: Das ist sehr laut."
+        "No confundas der Laut (sonido) con laut (ruidoso), aunque solo se diferencian en la mayúscula.",
+        "Para el sonido musical se usa más Ton que Laut."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Laut",
+            "der Laut",
+            "die Laute",
+            "laut",
+            "Ton",
+            "Geräusch"
+          ],
           "purple": [
-            "el sonido"
+            "sonido",
+            "ruidoso"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "der Laut",
-                "laut"
+              "blue": [
+                "Laut"
               ]
             },
             "lv": {
               "purple": [
-                "el sonido"
+                "sonido"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "laut"
+              "blue": [
+                "Laut"
               ]
             },
             "lv": {
               "purple": [
-                "alta"
+                "ni pío"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "laut"
+              "blue": [
+                "Laute"
               ]
             },
             "lv": {
               "purple": [
-                "¡no"
+                "sonidos"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "muy"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "der Laut",
-                "laut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "el sonido"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "laut"
+              "blue": [
+                "Laut"
               ]
             },
             "lv": {
@@ -12654,14 +14479,50 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": [
+        "comparison": [
           {
-            "purple": [
-              "Pequeño"
-            ]
+            "word": {
+              "green": [
+                "der Ton"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tono"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Geräusch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ruido"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Klang"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "timbre"
+              ]
+            }
           }
         ],
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
+          {},
           {}
         ]
       }
@@ -12691,64 +14552,70 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "poner",
       "explanation": [
-        "Idea principal: legen significa colocar algo en el suelo o en posición horizontal.",
-        "legen se usa cuando usted mismo mueve la cosa y la coloca sobre una mesa, cama u otra superficie.",
-        "Se diferencia de liegen, que significa que algo ya miente o miente.",
-        "En el nivel A1, la diferencia más importante es: legen = acostarse, liegen = acostarse."
+        "Idea principal: legen significa «poner, colocar» algo en posición horizontal, «tumbar»: Ich lege das Buch auf den Tisch. Responde a la pregunta wohin? y el lugar va en acusativo: auf den Tisch, ins Regal, in die Tasche.",
+        "Formas: legt, legte, hat gelegt (regular). Reflexivo: sich legen — tumbarse, acostarse: Ich lege mich ins Bett. A veces también «poner (huevos)»: Die Henne legt Eier.",
+        "Diferencia con liegen: legen expresa una acción (¿adónde?); liegen, un estado (¿dónde?): Ich lege das Buch auf den Tisch, pero Das Buch liegt auf dem Tisch."
       ],
       "examples": [
         {
           "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "Pongo el libro sobre la mesa."
-        },
-        {
-          "de": "Leg den Schlüssel hierhin.",
-          "lv": "Pon la llave aquí."
+          "lv": "Pongo el libro en la mesa."
         },
         {
           "de": "Sie legt das Kind ins Bett.",
-          "lv": "ella acuesta al bebé."
+          "lv": "Acuesta al niño en la cama."
         },
         {
-          "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "Pongo el libro sobre la mesa."
+          "de": "Leg den Schlüssel bitte hierhin.",
+          "lv": "Pon la llave aquí, por favor."
+        },
+        {
+          "de": "Die Henne legt jeden Tag ein Ei.",
+          "lv": "La gallina pone un huevo cada día."
+        },
+        {
+          "de": "Ich lege mich kurz hin.",
+          "lv": "Me voy a tumbar un rato."
         }
       ],
       "comparison": [
         {
-          "word": "legen",
-          "meaning": "poner",
-          "example": "Ich lege das Buch auf den Tisch."
-        },
-        {
           "word": "liegen",
-          "meaning": "estar / dormir",
-          "example": "Das Buch liegt auf dem Tisch."
+          "meaning": "estar tumbado, estar (en un sitio)",
+          "example": "Das Buch liegt auf dem Tisch. – El libro está en la mesa."
         },
         {
           "word": "stellen",
-          "meaning": "poner en posición vertical",
-          "example": "Ich stelle die Flasche auf den Tisch."
+          "meaning": "poner (de pie)",
+          "example": "Ich stelle die Flasche auf den Tisch. – Pongo la botella en la mesa."
         },
         {
           "word": "setzen",
-          "meaning": "sentarse / sentarse",
-          "example": "Ich setze mich."
+          "meaning": "sentar, poner",
+          "example": "Sie setzt das Kind auf den Stuhl. – Sienta al niño en la silla."
         }
       ],
-      "tip": {
-        "text": "Recuerda: tú colocas algo → legen; algo ya está en un lugar → liegen."
-      },
+      "tip": [
+        "Legen (¿adónde? – acusativo): hat gelegt; liegen (¿dónde? – dativo): hat gelegen.",
+        "Aprende el trío: legen (poner tumbado), stellen (poner de pie), setzen (sentar)."
+      ],
       "important": [
-        "legen y liegen no son lo mismo.",
-        "Ich lege das Buch = Dejé el libro. Das Buch liegt = el libro miente."
+        "No confundas legen (regular, hat gelegt) con liegen (verbo fuerte: lag, gelegen).",
+        "Después de legen, el lugar va en acusativo: auf den Tisch, no “auf dem Tisch”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "legen",
+            "lege",
+            "legt",
+            "legte",
+            "gelegt"
+          ],
           "purple": [
-            "Idea",
-            "Idea",
-            "Idea"
+            "poner",
+            "colocar",
+            "tumbarse"
           ]
         },
         "examples": [
@@ -12756,15 +14623,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "lege"
-              ],
-              "yellow": [
-                "Buch",
-                "Tisch"
               ]
             },
             "lv": {
               "purple": [
-                "Dejo"
+                "Pongo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "legt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Acuesta"
               ]
             }
           },
@@ -12772,9 +14647,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Leg"
-              ],
-              "yellow": [
-                "Schlüssel"
               ]
             },
             "lv": {
@@ -12787,37 +14659,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "legt"
-              ],
-              "green": [
-                "Kind"
-              ],
-              "yellow": [
-                "Bett"
               ]
             },
             "lv": {
               "purple": [
-                "ella"
+                "pone"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "liegt"
-              ],
-              "yellow": [
-                "Buch",
-                "Tisch"
+              "blue": [
+                "lege"
               ]
             },
             "lv": {
-              "red": [
-                "libro"
-              ],
-              "yellow": [
-                "libro",
-                "libro"
+              "purple": [
+                "tumbar"
               ]
             }
           }
@@ -12826,35 +14684,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "legen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "poner"
-              ]
-            },
-            "example": {
-              "blue": [
-                "lege"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "liegen"
               ]
             },
             "meaning": {
               "purple": [
-                "estar",
-                "dormir"
-              ]
-            },
-            "example": {
-              "red": [
-                "liegt"
+                "estar tumbado"
               ]
             }
           },
@@ -12866,12 +14701,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "poner"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "stelle"
+                "de pie"
               ]
             }
           },
@@ -12883,36 +14713,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sentarse"
-              ]
-            },
-            "example": {
-              "green": [
-                "setze"
+                "sentar"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "legen"
-            ],
-            "purple": [
-              "noliec"
-            ],
-            "red": [
-              "liegen",
-              "atrodas"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "legen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -12921,19 +14733,19 @@ const A1_WORDS = [
     "de": "Lehrer",
     "de_article": "der",
     "de_plural": "die Lehrer",
-    "lv": "el maestro",
+    "lv": "profesor • maestro",
     "level": "A1"
   },
   {
     "de": "Lehrerin",
     "de_article": "die",
     "de_plural": "die Lehrerinnen",
-    "lv": "una maestra",
+    "lv": "profesora • maestra",
     "level": "A1"
   },
   {
     "de": "leicht",
-    "lv": "fácil",
+    "lv": "ligero • fácil",
     "level": "A1"
   },
   {
@@ -12950,111 +14762,158 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "silencioso",
       "explanation": [
-        "Idea principal: Silencio o bajo volumen.",
-        "Leise básicamente significa: volumen bajo.",
-        "A menudo describe: sonido/voz/música.",
-        "leise describe un volumen bajo o una voz/sonido tranquilo."
+        "Idea principal: leise significa «silencioso, en voz baja», es decir, con poco sonido o ruido: Sei leise! Sprich leise! Se usa para voces, música o pasos. El contrario es laut.",
+        "Grados de comparación: leiser (más bajo), am leisesten. Delante de un sustantivo lleva terminación: eine leise Stimme, leise Musik. Se usa mucho como adverbio: Die Kinder sprechen leise.",
+        "En sentido figurado, leise también puede significar «leve, ligero»: ein leiser Zweifel — una leve duda."
       ],
       "examples": [
         {
-          "de": "Bitte sei leise.",
-          "lv": "Por favor, habla más bajo."
+          "de": "Bitte sei leise!",
+          "lv": "¡No hagas ruido, por favor!"
         },
         {
-          "de": "Bitte sei leise.",
-          "lv": "Por favor, guarda silencio."
-        },
-        {
-          "de": "Die Musik ist leise.",
-          "lv": "La música está baja."
+          "de": "Die Musik ist zu leise.",
+          "lv": "La música está demasiado baja."
         },
         {
           "de": "Sprich bitte leise.",
-          "lv": "Por favor, habla en voz baja."
+          "lv": "Habla bajo, por favor."
+        },
+        {
+          "de": "Das Baby schläft, wir müssen leise sein.",
+          "lv": "El bebé está durmiendo, tenemos que estar en silencio."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "laut",
+          "meaning": "ruidoso, fuerte",
+          "example": "Die Musik ist laut. – La música está alta."
+        },
+        {
+          "word": "still",
+          "meaning": "silencioso, quieto",
+          "example": "Es ist still im Raum. – En la sala hay silencio."
+        },
+        {
+          "word": "ruhig",
+          "meaning": "tranquilo",
+          "example": "Er bleibt ruhig. – Se mantiene tranquilo."
         }
       ],
       "tip": [
-        "leise = silencioso",
-        "Utilice leise cuando el contexto se ajuste a este significado."
+        "Leise se refiere al volumen del sonido (voz, música); still, al silencio en general (sin ruido).",
+        "Contrario: leise ≠ laut."
       ],
       "important": [
-        "leise = silencio en el sonido.",
-        "leise = volumen.",
-        "Volumen bajo o silencioso."
+        "Leise también es adverbio: Er geht leise — camina sin hacer ruido.",
+        "Leise no es lo mismo que still: still significa a menudo «sin movimiento ni sonido» (stille Nacht)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "leise"
+          ],
           "purple": [
-            "tranquilo"
+            "silencioso",
+            "en voz baja"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "leise",
+              "blue": [
                 "leise"
               ]
             },
             "lv": {
               "purple": [
-                "Por"
+                "No hagas ruido"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "leise",
+              "blue": [
                 "leise"
               ]
             },
             "lv": {
               "purple": [
-                "por"
+                "baja"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "leise",
+              "blue": [
                 "leise"
               ]
             },
             "lv": {
               "purple": [
-                "música"
+                "bajo"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "leise",
+              "blue": [
                 "leise"
               ]
             },
             "lv": {
               "purple": [
-                "por"
+                "en silencio"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "laut"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ruidoso"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "still"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "quieto"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ruhig"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tranquilo"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "leise"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "leise"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -13084,7 +14943,7 @@ const A1_WORDS = [
   },
   {
     "de": "lieb",
-    "lv": "estimado",
+    "lv": "querido • cariñoso",
     "level": "A1"
   },
   {
@@ -13114,62 +14973,70 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "estar tumbado • estar situado",
       "explanation": [
-        "Idea principal: Liegen significa mentir o yacer horizontalmente.",
-        "Para una persona, mentir suele significar dormir.",
-        "Porque una cosa liegen significa que está en alguna parte.",
-        "Se diferencia de legen, que significa dejar algo."
+        "Idea principal: liegen significa «estar tumbado» (una persona o una cosa en posición horizontal) y «estar situado» (un lugar): Das Buch liegt auf dem Tisch, Riga liegt an der Düna. Responde a la pregunta wo?, por eso el lugar va en dativo.",
+        "Formas: liegt, lag, hat gelegen (en el sur, también ist gelegen). En sentido figurado: Es liegt an dir — depende de ti.",
+        "Diferencia con legen: liegen es un estado (¿dónde?); legen, una acción (¿adónde?): Ich lege das Buch auf den Tisch. En español solemos decir simplemente «estar»: el libro está en la mesa."
       ],
       "examples": [
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "El libro está sobre la mesa."
+          "lv": "El libro está en la mesa."
         },
         {
           "de": "Mein Handy liegt im Auto.",
-          "lv": "Mi teléfono está en el auto."
+          "lv": "Mi móvil está en el coche."
         },
         {
-          "de": "Er liegt im Bett.",
-          "lv": "Él está tumbado en la cama."
+          "de": "Er liegt noch im Bett.",
+          "lv": "Todavía está en la cama."
         },
         {
-          "de": "Ich lege das Buch auf den Tisch.",
-          "lv": "El libro está sobre la mesa."
+          "de": "Riga liegt an der Düna.",
+          "lv": "Riga está a orillas del Daugava."
+        },
+        {
+          "de": "Das Dorf liegt in den Bergen.",
+          "lv": "El pueblo está en la montaña."
         }
       ],
       "comparison": [
         {
-          "word": "liegen",
-          "meaning": "estar tumbado / estar situado",
-          "example": "Das Buch liegt hier."
-        },
-        {
           "word": "legen",
           "meaning": "poner",
-          "example": "Ich lege das Buch hierhin."
+          "example": "Ich lege das Buch auf den Tisch. – Pongo el libro en la mesa."
         },
         {
           "word": "stehen",
-          "meaning": "estar de pie / estar de pie",
-          "example": "Die Flasche steht auf dem Tisch."
+          "meaning": "estar de pie",
+          "example": "Die Flasche steht auf dem Tisch. – La botella está en la mesa."
         },
         {
-          "word": "sein",
-          "meaning": "ser",
-          "example": "Ich bin hier."
+          "word": "sitzen",
+          "meaning": "estar sentado",
+          "example": "Er sitzt auf dem Stuhl. – Está sentado en la silla."
         }
       ],
-      "tip": {
-        "text": "Recuerde: la cosa ya está en su lugar → liegen; lo bajas → legen."
-      },
+      "tip": [
+        "Liegen = ¿dónde? (dativo); legen = ¿adónde? (acusativo): liegen – lag – gelegen; legen – legte – gelegt.",
+        "Para describir la posición: liegen (tumbado), stehen (de pie), sitzen (sentado)."
+      ],
       "important": [
-        "liegen muestra un estado o ubicación.",
-        "legen muestra una acción: alguien deja algo."
+        "El perfecto estándar es hat gelegen; en el sur también ist gelegen.",
+        "Con liegen el lugar no va en acusativo: Das Buch liegt auf dem Tisch (dativo), no “auf den Tisch”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "liegen",
+            "liegt",
+            "lag",
+            "gelegen",
+            "legen"
+          ],
           "purple": [
-            "dormir"
+            "estar tumbado",
+            "estar situado",
+            "estar"
           ]
         },
         "examples": [
@@ -13177,15 +15044,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "liegt"
-              ],
-              "yellow": [
-                "Buch",
-                "Tisch"
               ]
             },
             "lv": {
               "purple": [
-                "libro"
+                "está"
               ]
             }
           },
@@ -13193,15 +15056,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "liegt"
-              ],
-              "yellow": [
-                "Handy",
-                "Auto"
               ]
             },
             "lv": {
               "purple": [
-                "teléfono"
+                "está"
               ]
             }
           },
@@ -13209,57 +15068,40 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "liegt"
-              ],
-              "green": [
-                "Bett"
               ]
             },
             "lv": {
               "purple": [
-                "durmiendo"
+                "está en la cama"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "lege"
-              ],
-              "yellow": [
-                "Buch",
-                "Tisch"
+              "blue": [
+                "liegt"
               ]
             },
             "lv": {
-              "red": [
-                "Dejo"
-              ],
-              "yellow": [
-                "libro",
-                "Dejo"
+              "purple": [
+                "está"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "liegt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "está"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "liegen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "estar",
-                "dormir"
-              ]
-            },
-            "example": {
-              "blue": [
-                "liegt"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -13269,11 +15111,6 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "poner"
-              ]
-            },
-            "example": {
-              "red": [
-                "lege"
               ]
             }
           },
@@ -13287,51 +15124,28 @@ const A1_WORDS = [
               "purple": [
                 "estar de pie"
               ]
-            },
-            "example": {
-              "yellow": [
-                "steht"
-              ]
             }
           },
           {
             "word": {
               "green": [
-                "sein"
+                "sitzen"
               ]
             },
             "meaning": {
               "purple": [
-                "ser"
-              ]
-            },
-            "example": {
-              "green": [
-                "bin"
+                "estar sentado"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "liegen"
-            ],
-            "purple": [
-              "está en su lugar"
-            ],
-            "red": [
-              "legen",
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "ubicación"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -13372,13 +15186,160 @@ const A1_WORDS = [
       "id": "a1-liter",
       "layout": "standardStudy",
       "translation": "litro",
-      "explanation": "En Alemania se suele decir 'der Liter', pero en Austria y Suiza también se puede escuchar 'das Liter'. La forma plural permanece sin cambios: 'die Liter'.",
+      "explanation": [
+        "Idea principal: der Liter es una unidad de volumen: el litro. Se usa para hablar de líquidos: Milch, Wasser, Benzin.",
+        "Plural: die Liter (sin terminación). Detrás de un número la unidad no cambia, y el sustantivo que sigue va sin preposición, a diferencia del español «litros de»: zwei Liter Milch (dos litros de leche), drei Liter Wasser. Der Liter es masculino; en la lengua coloquial a veces se usa también das Liter.",
+        "Abreviatura l: 1 l = 1000 Milliliter (ml, mililitros)."
+      ],
+      "examples": [
+        {
+          "de": "Ich kaufe zwei Liter Milch.",
+          "lv": "Compro dos litros de leche."
+        },
+        {
+          "de": "Wie viele Liter Wasser trinkst du am Tag?",
+          "lv": "¿Cuántos litros de agua bebes al día?"
+        },
+        {
+          "de": "Das Auto braucht acht Liter auf hundert Kilometer.",
+          "lv": "El coche gasta ocho litros a los cien kilómetros."
+        },
+        {
+          "de": "Die Flasche hat einen Liter Inhalt.",
+          "lv": "La botella tiene una capacidad de un litro."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Meter",
+          "meaning": "metro",
+          "example": "Der Tisch ist zwei Meter lang. – La mesa mide dos metros de largo."
+        },
+        {
+          "word": "das Kilo",
+          "meaning": "kilo",
+          "example": "Ich kaufe ein Kilo Äpfel. – Compro un kilo de manzanas."
+        },
+        {
+          "word": "der Milliliter",
+          "meaning": "mililitro",
+          "example": "Ich brauche 200 Milliliter Milch. – Necesito 200 mililitros de leche."
+        }
+      ],
+      "tip": [
+        "Detrás de un número la unidad no cambia: zwei Liter (incorrecto: “zwei Liters”).",
+        "El nombre del líquido va sin preposición: ein Liter Wasser (no “ein Liter von Wasser”), aunque en español digamos «un litro de agua»."
+      ],
+      "important": [
+        "Der Liter, die Liter: en plural no cambia.",
+        "Medio litro se dice ein halber Liter (500 ml)."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Liter"
+          ],
           "purple": [
-            "die Liter"
+            "litro",
+            "litros"
           ]
-        }
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Liter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "litros"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Liter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "litros"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Liter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "litros"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Liter"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "litro"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Meter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "metro"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Kilo"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "kilo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Milliliter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mililitro"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -13403,26 +15364,25 @@ const A1_WORDS = [
   },
   {
     "de": "machen",
-    "lv": "hacer • hacer",
+    "lv": "hacer",
     "level": "A1",
     "study": {
       "id": "a1-machen",
       "layout": "standardStudy",
-      "translation": "hacer • fabricar",
+      "translation": "hacer",
       "explanation": [
-        "Idea principal: machen es una palabra muy común que significa hacer o hacer.",
-        "Si se trata de acción en general, se traduce en cómo hacer.",
-        "Si se hace o prepara algo se traduce como hacer o cocinar.",
-        "En muchas frases, machen se traduce de forma natural en español, no literalmente."
+        "Idea principal: machen es un verbo muy frecuente que significa «hacer» y también «preparar»: Was machst du? (¿Qué haces?), Wir machen Pizza (hacemos pizza), Ich mache Hausaufgaben (hago los deberes).",
+        "Formas: macht, machte, hat gemacht. Con acusativo: etwas machen. Forma muchas expresiones fijas: Spaß machen (ser divertido), eine Pause machen (hacer una pausa), Sport machen (hacer deporte), Urlaub machen (irse de vacaciones).",
+        "En una cuenta, machen significa «ser, sumar»: Das macht zehn Euro — son diez euros en total."
       ],
       "examples": [
         {
-          "de": "Was machst du?",
-          "lv": "¿Qué haces?"
+          "de": "Was machst du heute?",
+          "lv": "¿Qué haces hoy?"
         },
         {
-          "de": "Ich mache Hausaufgaben.",
-          "lv": "Hago mi tarea."
+          "de": "Ich mache meine Hausaufgaben.",
+          "lv": "Hago mis deberes."
         },
         {
           "de": "Wir machen Pizza.",
@@ -13431,20 +15391,47 @@ const A1_WORDS = [
         {
           "de": "Das macht Spaß.",
           "lv": "Es divertido."
+        },
+        {
+          "de": "Das macht zusammen zwölf Euro.",
+          "lv": "Son doce euros en total."
         }
       ],
-      "tip": {
-        "text": "Recuerda: Was machst du? = ¿Qué haces?"
-      },
+      "comparison": [
+        {
+          "word": "tun",
+          "meaning": "hacer (en general)",
+          "example": "Was tust du da? – ¿Qué haces ahí?"
+        },
+        {
+          "word": "herstellen",
+          "meaning": "fabricar, producir",
+          "example": "Die Firma stellt Autos her. – La empresa fabrica coches."
+        },
+        {
+          "word": "kochen",
+          "meaning": "cocinar, hervir",
+          "example": "Ich koche Suppe. – Preparo una sopa."
+        }
+      ],
+      "tip": [
+        "Machen se combina con muchos sustantivos: Sport, Urlaub, Fehler, Pause, Lärm, Spaß machen.",
+        "La frase Mach’s gut! significa «¡Que te vaya bien!»."
+      ],
       "important": [
-        "machen es una palabra muy amplia, pero el español a menudo debe traducirse de forma natural según la situación.",
-        "Das macht Spaß significa \"es divertido\", no literalmente \"es divertido\"."
+        "Las combinaciones fijas hay que aprenderlas como un bloque: Fehler machen (cometer errores), no “Fehler tun”.",
+        "Machen es un verbo regular: machte, gemacht."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "machen",
+            "mache",
+            "macht"
+          ],
           "purple": [
             "hacer",
-            "hacer"
+            "preparar"
           ]
         },
         "examples": [
@@ -13456,7 +15443,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dari"
+                "haces"
               ]
             }
           },
@@ -13464,9 +15451,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "mache"
-              ],
-              "yellow": [
-                "Hausaufgaben"
               ]
             },
             "lv": {
@@ -13479,69 +15463,84 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "machen"
-              ],
-              "yellow": [
-                "Pizza"
               ]
             },
             "lv": {
               "purple": [
-                "hacemos"
+                "Hacemos"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "macht Spaß"
+                "macht"
               ]
             },
             "lv": {
               "purple": [
-                "ir jautri"
+                "divertido"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "macht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Son"
               ]
             }
           }
         ],
         "comparison": [
           {
-            "word": {},
-            "meaning": {},
-            "example": {}
+            "word": {
+              "green": [
+                "tun"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hacer"
+              ]
+            }
           },
           {
-            "word": {},
-            "meaning": {},
-            "example": {}
+            "word": {
+              "green": [
+                "herstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fabricar"
+              ]
+            }
           },
           {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
+            "word": {
+              "green": [
+                "kochen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cocinar"
+              ]
+            }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Was machst du"
-            ],
-            "purple": [
-              "ko tu dari"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "machen",
-              "machen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -13577,10 +15576,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "vez",
       "explanation": [
-        "Idea principal: das Mal significa una vez como evento u ocasión.",
-        "Se utiliza a menudo con números: ein Mal, zwei Mal, drei Mal.",
-        "Con número ordinal: das erste Mal, das zweite Mal.",
-        "No hables con la partícula coloquial mal (¡Komm mal her!), Este es un significado diferente."
+        "Idea principal: das Mal es un sustantivo neutro que significa «vez», cada ocasión en que ocurre algo: das erste Mal (la primera vez), jedes Mal (cada vez), beim nächsten Mal (la próxima vez).",
+        "Detrás de un número, Mal suele quedarse en singular y se escribe separado o junto: zwei Mal / zweimal, drei Mal / dreimal. El plural die Male se usa poco, por ejemplo en mehrere Male.",
+        "Mal también es una partícula coloquial (en minúscula): Komm mal her! — ¡Ven aquí! Es otro uso, que suaviza la orden."
       ],
       "examples": [
         {
@@ -13588,51 +15586,78 @@ const A1_WORDS = [
           "lv": "La primera vez fue difícil."
         },
         {
-          "de": "Ich war schon zwei Mal in Berlin.",
-          "lv": "Ya he estado en Berlín dos veces."
+          "de": "Ich war schon zweimal in Berlin.",
+          "lv": "Ya he estado dos veces en Berlín."
         },
         {
-          "de": "Ein Mal reicht.",
-          "lv": "Una vez es suficiente."
+          "de": "Jedes Mal vergesse ich es.",
+          "lv": "Cada vez se me olvida."
         },
         {
-          "de": "Noch ein Mal, bitte!",
-          "lv": "¡Una vez más, por favor!"
+          "de": "Beim nächsten Mal komme ich früher.",
+          "lv": "La próxima vez vendré antes."
+        },
+        {
+          "de": "Noch einmal, bitte!",
+          "lv": "¡Otra vez, por favor!"
         }
       ],
-      "tip": {
-        "text": "Recuerde: das Mal = vez (sustantivo); mal = mal (adverbio o adjetivo)."
-      },
+      "comparison": [
+        {
+          "word": "einmal",
+          "meaning": "una vez",
+          "example": "Ich war einmal in Wien. – Una vez estuve en Viena."
+        },
+        {
+          "word": "mal",
+          "meaning": "partícula (suaviza)",
+          "example": "Komm mal her! – ¡Ven aquí!"
+        },
+        {
+          "word": "die Zeit",
+          "meaning": "tiempo",
+          "example": "Ich habe keine Zeit. – No tengo tiempo."
+        }
+      ],
+      "tip": [
+        "Combinaciones útiles: zum ersten Mal (por primera vez), diesmal (esta vez), jedes Mal (cada vez).",
+        "El número de veces se expresa con -mal: einmal, zweimal, dreimal."
+      ],
       "important": [
-        "das Mal / die Male - sustantivo con artículo.",
-        "ein Mal, zwei Mal — contar veces.",
-        "mal sin artículo (Komm mal her!) no es lo mismo que das Mal."
+        "Das Mal también significa «marca, mancha»: das Muttermal (lunar), das Denkmal (monumento).",
+        "Detrás de un número, el compuesto se escribe con minúscula: zweimal, no “Zweimal”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Mal",
+            "zweimal",
+            "dreimal",
+            "Male",
+            "mal"
+          ],
           "purple": [
-            "Idea",
-            "Idea",
-            "Idea"
+            "vez",
+            "la próxima vez"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "erste Mal"
+                "Mal"
               ]
             },
             "lv": {
               "purple": [
-                "primera"
+                "vez"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "zwei Mal"
+                "zweimal"
               ]
             },
             "lv": {
@@ -13644,41 +15669,85 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Ein Mal"
+                "Mal"
               ]
             },
             "lv": {
               "purple": [
-                "vienreiz"
+                "vez"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "ein Mal"
+                "Mal"
               ]
             },
             "lv": {
               "purple": [
-                "una"
+                "La próxima vez"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einmal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vez"
               ]
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "sustantivo",
-            "partícula"
-          ]
-        },
-        "important": [
+        "comparison": [
           {
-            "purple": [
-              "das",
-              "das Mal"
-            ]
+            "word": {
+              "green": [
+                "einmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "una vez"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "partícula"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Zeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tiempo"
+              ]
+            }
           }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -13711,17 +15780,14 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "hombre • marido",
       "explanation": [
-        "Idea principal: der Mann puede significar hombre (género) o marido (cónyuge).",
-        "Si se trata simplemente de una cuestión de género o de persona, der Mann = hombre.",
-        "Para un cónyuge, der Mann = marido (mein Mann = mi marido).",
-        "El pronombre posesivo (mein/dein/ihr Mann) casi siempre significa marido - cónyuge.",
-        "Plural: die Männer.",
-        "La forma femenina die Frau tiene el mismo doble significado: mujer Y esposa."
+        "Idea principal: der Mann es un sustantivo masculino con dos significados: hombre (Er ist ein netter Mann) y marido (Mein Mann arbeitet in Berlin).",
+        "Plural: die Männer (con diéresis). Genitivo: des Mannes; dativo plural: den Männern. En compuestos: Ehemann (marido), Geschäftsmann (hombre de negocios; plural Geschäftsleute).",
+        "Diferencia con man: man («se», «uno») es un pronombre y se escribe con minúscula y una sola n. Para «ser humano, persona» en general se dice der Mensch."
       ],
       "examples": [
         {
           "de": "Er ist ein netter Mann.",
-          "lv": "Es un buen hombre."
+          "lv": "Es un hombre simpático."
         },
         {
           "de": "Das ist mein Mann.",
@@ -13732,32 +15798,51 @@ const A1_WORDS = [
           "lv": "¿Cuántos hombres hay aquí?"
         },
         {
-          "de": "Mein Mann arbeitet in Berlin.",
-          "lv": "Mi marido trabaja en Berlín."
+          "de": "Der Mann dort ist Arzt.",
+          "lv": "El hombre de allí es médico."
         },
         {
-          "de": "Der Mann trägt einen Anzug.",
-          "lv": "El hombre viste un traje."
+          "de": "Mein Mann kocht heute Abend.",
+          "lv": "Mi marido cocina esta noche."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Herr",
+          "meaning": "señor",
+          "example": "Der Herr wartet draußen. – El señor espera fuera."
         },
         {
-          "de": "Ihr Mann ist Arzt.",
-          "lv": "Su marido es médico."
+          "word": "der Ehemann",
+          "meaning": "marido, esposo",
+          "example": "Ihr Ehemann ist Arzt. – Su marido es médico."
+        },
+        {
+          "word": "der Mensch",
+          "meaning": "ser humano, persona",
+          "example": "Jeder Mensch braucht Wasser. – Todas las personas necesitan agua."
         }
       ],
       "tip": [
-        "El pronombre posesivo (mein/dein/ihr Mann) casi siempre significa marido (cónyuge).",
-        "Sin posesivo (der Mann, ein Mann) suele significar un hombre."
+        "Mein Mann, dein Mann: con un posesivo, der Mann significa «marido».",
+        "Plural con diéresis: der Mann → die Männer."
       ],
       "important": [
-        "der Mann = hombre O marido - dependiendo del contexto.",
-        "mein Mann = mi marido (no 'mi hombre').",
-        "Plural: die Männer."
+        "No confundas der Mann con man: man significa «se, uno» (Man kann hier parken).",
+        "Der Mann no significa «ser humano» en general; para eso está der Mensch."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Mann",
+            "der Mann",
+            "die Männer",
+            "man",
+            "Mensch"
+          ],
           "purple": [
-            "Idea",
-            "Idea"
+            "hombre",
+            "marido"
           ]
         },
         "examples": [
@@ -13769,19 +15854,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "buen"
+                "hombre"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "mein Mann"
+              "blue": [
+                "Mann"
               ]
             },
             "lv": {
               "purple": [
-                "este"
+                "marido"
               ]
             }
           },
@@ -13793,19 +15878,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "cuantos"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Mein Mann"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "marido"
+                "hombres"
               ]
             }
           },
@@ -13823,8 +15896,8 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "Ihr Mann"
+              "blue": [
+                "Mann"
               ]
             },
             "lv": {
@@ -13834,20 +15907,51 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": [
+        "comparison": [
           {
-            "purple": [
-              "un hombre"
-            ]
+            "word": {
+              "green": [
+                "der Herr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "señor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Ehemann"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "esposo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Mensch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "persona"
+              ]
+            }
           }
         ],
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "der",
-              "der"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -13946,15 +16050,14 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "con",
       "explanation": [
-        "Idea principal: mit suele significar con.",
-        "mit se usa cuando una persona está con alguien o haciendo algo con una cosa.",
-        "Por transporte mit suele significarse ir en autobús, tren o coche.",
-        "En el nivel A1, las frases más frecuentes son mit dem Bus, mit dem Auto y mit dir."
+        "Idea principal: mit es una preposición con dativo que significa «con». Indica compañía (mit dir — contigo), medio de transporte (mit dem Bus — en autobús), instrumento (mit dem Stift — con el lápiz) y acompañamiento (Kaffee mit Milch — café con leche). Ojo: con los medios de transporte, el español dice «en».",
+        "Después de mit siempre va dativo: mit dem Mann, mit der Frau, mit dem Kind, mit den Freunden. El dativo plural suele llevar -n.",
+        "Como prefijo separable, mit aparece en muchos verbos: mitkommen (venir con alguien), mitnehmen (llevarse): Kommst du mit?"
       ],
       "examples": [
         {
           "de": "Ich komme mit dir.",
-          "lv": "voy contigo"
+          "lv": "Voy contigo."
         },
         {
           "de": "Ich fahre mit dem Bus.",
@@ -13962,82 +16065,68 @@ const A1_WORDS = [
         },
         {
           "de": "Sie schreibt mit dem Stift.",
-          "lv": "ella escribe con un bolígrafo."
+          "lv": "Escribe con el lápiz."
         },
         {
           "de": "Kommst du mit?",
-          "lv": "¿vendrás conmigo?"
+          "lv": "¿Te vienes?"
+        },
+        {
+          "de": "Ich möchte Kaffee mit Milch.",
+          "lv": "Quería un café con leche."
         }
       ],
       "comparison": [
         {
-          "word": "mit",
-          "meaning": "con / junto con",
-          "example": "Ich komme mit dir."
-        },
-        {
           "word": "ohne",
           "meaning": "sin",
-          "example": "Ich komme ohne dich."
+          "example": "Kaffee ohne Zucker. – Café sin azúcar."
         },
         {
           "word": "bei",
-          "meaning": "en / en alguien",
-          "example": "Ich bin bei Anna."
+          "meaning": "en casa de, junto a",
+          "example": "Ich wohne bei meinen Eltern. – Vivo en casa de mis padres."
         },
         {
-          "word": "zu",
-          "meaning": "a / en",
-          "example": "Ich gehe zum Arzt."
+          "word": "zusammen",
+          "meaning": "juntos",
+          "example": "Wir lernen zusammen. – Estudiamos juntos."
         }
       ],
-      "tip": {
-        "text": "Recuerde: junto con alguien o con transporte → mit."
-      },
+      "tip": [
+        "Mit + dativo, siempre: mit mir, mit dir, mit ihm, mit uns.",
+        "Los medios de transporte se expresan con mit (en español, «en»): mit dem Zug, mit dem Auto; pero «a pie» es zu Fuß."
+      ],
       "important": [
-        "mit requiere el dativo: mit dem Bus, mit der Mutter, mit dir.",
-        "¿Dónde vive? significa \"¿vendrás conmigo?\""
+        "Mit nunca rige acusativo: mit dem Bus (no “mit den Bus”).",
+        "Kommst du mit? significa «¿te vienes?, ¿vienes con nosotros?»: mitkommen es un verbo con prefijo separable."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "mit",
+            "mit dir",
+            "mit dem Bus",
+            "mit dem Mann",
+            "mitkommen",
+            "mitnehmen"
+          ],
           "purple": [
-            "con"
+            "con",
+            "contigo",
+            "en autobús"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "mit dir"
+                "mit"
               ]
             },
             "lv": {
               "purple": [
-                "voy"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "mit dem Bus"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ar autobusu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "mit dem Stift"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ella"
+                "contigo"
               ]
             }
           },
@@ -14049,30 +16138,48 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "¿vendrás"
+                "en autobús"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "con"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Te vienes"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "con"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "mit"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "con",
-                "junto con"
-              ]
-            },
-            "example": {
-              "blue": [
-                "mit dir"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -14082,11 +16189,6 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "sin"
-              ]
-            },
-            "example": {
-              "red": [
-                "ohne dich"
               ]
             }
           },
@@ -14098,51 +16200,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "en"
-              ]
-            },
-            "example": {
-              "green": [
-                "bei Anna"
+                "en casa de"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "zu"
+                "zusammen"
               ]
             },
             "meaning": {
               "purple": [
-                "pie",
-                "pie"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "zum Arzt"
+                "juntos"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "mit"
-            ],
-            "purple": [
-              "junto con",
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "dativo"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -14163,7 +16244,7 @@ const A1_WORDS = [
     "de": "Mittagessen",
     "de_article": "das",
     "de_plural": "die Mittagessen",
-    "lv": "almuerzo",
+    "lv": "comida",
     "level": "A1"
   },
   {
@@ -14182,10 +16263,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "gustar",
       "explanation": [
-        "Idea principal: mögen suele significar que le guste algo.",
-        "Ich mag... suele ser \"Me gusta...\" en letón.",
-        "möchte es otra forma utilizada para el deseo cortés: me gustaría.",
-        "En el nivel A1, la frase más importante es Ich mag das."
+        "Idea principal: mögen significa «gustar, tener aprecio» cuando se habla de personas, comida, música o cosas: Ich mag Musik — me gusta la música. En alemán, lo que gusta es el complemento en acusativo y la persona a la que le gusta es el sujeto: Ich mag dich.",
+        "Formas: ich mag, du magst, er/sie/es mag, wir mögen, ihr mögt, sie mögen; mochte, hat gemocht. Es un verbo modal, pero a menudo va solo, con un complemento en acusativo.",
+        "Para pedir algo con cortesía se usa möchte: Ich möchte einen Kaffee — quería un café (viene de mögen, pero funciona como una forma aparte)."
       ],
       "examples": [
         {
@@ -14194,51 +16274,61 @@ const A1_WORDS = [
         },
         {
           "de": "Magst du Kaffee?",
-          "lv": "¿te gusta el café?"
+          "lv": "¿Te gusta el café?"
         },
         {
-          "de": "Sie mag Kinder.",
-          "lv": "a ella le gustan los niños."
+          "de": "Sie mag Kinder sehr.",
+          "lv": "Le gustan mucho los niños."
         },
         {
-          "de": "Ich möchte einen Kaffee.",
-          "lv": "Me gustaría un café."
+          "de": "Er mag keinen Fisch.",
+          "lv": "No le gusta el pescado."
+        },
+        {
+          "de": "Wir mögen unseren Lehrer.",
+          "lv": "Nos gusta nuestro profesor."
         }
       ],
       "comparison": [
         {
-          "word": "mögen",
-          "meaning": "gustar",
-          "example": "Ich mag Musik."
-        },
-        {
-          "word": "möchte",
-          "meaning": "quisiera",
-          "example": "Ich möchte Kaffee."
-        },
-        {
-          "word": "wollen",
-          "meaning": "quiero",
-          "example": "Ich will nach Hause."
+          "word": "gefallen",
+          "meaning": "gustar (con dativo)",
+          "example": "Das Kleid gefällt mir. – El vestido me gusta."
         },
         {
           "word": "lieben",
-          "meaning": "amar",
-          "example": "Ich liebe dich."
+          "meaning": "querer, amar",
+          "example": "Ich liebe dich. – Te quiero."
+        },
+        {
+          "word": "möchte",
+          "meaning": "me gustaría, quería",
+          "example": "Ich möchte Tee. – Me gustaría un té."
         }
       ],
-      "tip": {
-        "text": "Recuerda: Ich mag... = Me gusta..."
-      },
+      "tip": [
+        "Mögen: lo que te gusta o aprecias en general (Musik, Kaffee, Menschen); gefallen: lo que te gusta a la vista o a primera impresión.",
+        "En la conversación se usa mucho gern: Ich trinke gern Tee = Ich mag Tee."
+      ],
       "important": [
-        "mögen no es un sustantivo para 'me gustaría' cortés. Para ello se suele utilizar Möchte.",
-        "Ich mag Kaffee significa \"Me gusta el café\"."
+        "El español «me gusta» se construye como gefallen, con la persona en dativo (Das gefällt mir); con mögen, en cambio, la persona es el sujeto y lo que gusta va en acusativo: Ich mag den Hund.",
+        "Möchte es claramente una petición; mag expresa una actitud o preferencia."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "mögen",
+            "mag",
+            "magst",
+            "mochte",
+            "gemocht",
+            "möchte",
+            "Ich mag"
+          ],
           "purple": [
+            "gustar",
             "me gusta",
-            "me gustaría"
+            "quería"
           ]
         },
         "examples": [
@@ -14274,22 +16364,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ella"
+                "gustan"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "möchte"
+              "blue": [
+                "mag"
               ]
             },
             "lv": {
-              "red": [
-                "gustaria"
-              ],
-              "yellow": [
-                "gustaria"
+              "purple": [
+                "gusta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "mögen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "gusta"
               ]
             }
           }
@@ -14298,51 +16397,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "mögen"
+                "gefallen"
               ]
             },
             "meaning": {
               "purple": [
                 "gustar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "mag"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "möchte"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "quisiera"
-              ]
-            },
-            "example": {
-              "red": [
-                "möchte"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "wollen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "quiero"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "will"
               ]
             }
           },
@@ -14356,32 +16416,28 @@ const A1_WORDS = [
               "purple": [
                 "amar"
               ]
-            },
-            "example": {
+            }
+          },
+          {
+            "word": {
               "green": [
-                "liebe"
+                "möchte"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "me gustaría"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Ich mag"
-            ],
-            "purple": [
-              "me gusta"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "mögen",
-              "mögen",
-              "mögen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -14416,62 +16472,75 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "mañana",
       "explanation": [
-        "Idea principal: El adverbio de tiempo está en minúscula. Significa el día siguiente - mañana.",
-        "morgen significa principalmente: el día siguiente.",
-        "A menudo se caracteriza por: el clima.",
-        "morgen significa principalmente: parte del día.",
-        "A menudo describe: sustantivo (der).",
-        "morgen significa básicamente: varias mañanas.",
-        "A menudo caracterizado por: sustantivo (pl.).",
-        "morgen con una letra inicial minúscula significa mañana - el día siguiente (Ich komme morgen = vengo mañana, Bis morgen!"
+        "Idea principal: morgen es un adverbio que significa «mañana», el día siguiente: Ich komme morgen. Se escribe con minúscula y no se declina.",
+        "Combinaciones frecuentes: morgen früh (mañana por la mañana), morgen Abend (mañana por la noche), bis morgen (hasta mañana), übermorgen (pasado mañana). Las partes del día que siguen a morgen se escriben con mayúscula: morgen Nachmittag.",
+        "Diferencia con Morgen: der Morgen es el sustantivo «la mañana» y morgen, el adverbio «mañana». Al principio de la frase solo se distinguen por el significado. El español usa la misma palabra para ambos sentidos."
       ],
       "examples": [
         {
           "de": "Ich komme morgen.",
-          "lv": "Voy mañana."
+          "lv": "Vengo mañana."
         },
         {
           "de": "Bis morgen!",
           "lv": "¡Hasta mañana!"
         },
         {
-          "de": "Ich komme morgen.",
-          "lv": "Voy a llegar mañana."
-        },
-        {
           "de": "Morgen ist Montag.",
           "lv": "Mañana es lunes."
         },
         {
-          "de": "Guten Morgen!",
-          "lv": "¡Buen día!"
+          "de": "Morgen früh fahre ich nach Hamburg.",
+          "lv": "Mañana por la mañana voy a Hamburgo."
         },
         {
-          "de": "Der Morgen ist schön.",
-          "lv": "Mañana será un día hermoso."
+          "de": "Was machst du morgen Abend?",
+          "lv": "¿Qué haces mañana por la noche?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "heute",
+          "meaning": "hoy",
+          "example": "Heute regnet es. – Hoy llueve."
+        },
+        {
+          "word": "gestern",
+          "meaning": "ayer",
+          "example": "Gestern war ich zu Hause. – Ayer estuve en casa."
+        },
+        {
+          "word": "übermorgen",
+          "meaning": "pasado mañana",
+          "example": "Übermorgen kommt Anna. – Pasado mañana viene Anna."
         }
       ],
       "tip": [
-        "Little morgen = mañana (Ich komme morgen). der Morgen con mayúscula = mañana (Guten Morgen!, am Morgen).",
-        "morgen = mañana"
+        "Si lleva artículo (der Morgen) o decimos am Morgen, es el sustantivo «la mañana»; si significa «el día siguiente», es morgen.",
+        "Guten Morgen! contiene el sustantivo der Morgen; para «hasta mañana» di bis morgen."
       ],
       "important": [
-        "morgen está en minúscula: es un adverbio de tiempo (mañana).",
-        "der Morgen con mayúscula y el artículo der es un sustantivo (mañana).",
-        "¡Buen día! — siempre con M mayúscula (mañana, no mañana).",
-        "Incorrecto: Guten morgen! → Correcto: Guten Morgen!"
+        "Morgen früh ≠ heute Morgen: lo primero es «mañana por la mañana»; lo segundo, «esta mañana».",
+        "La parte del día que sigue a morgen se escribe con mayúscula: morgen Abend, morgen Nachmittag."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "morgen",
+            "Morgen",
+            "morgen früh",
+            "bis morgen",
+            "übermorgen"
+          ],
           "purple": [
-            "mañana"
+            "mañana",
+            "pasado mañana"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
               ]
             },
@@ -14484,7 +16553,6 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
               ]
             },
@@ -14497,7 +16565,30 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "morgen",
+                "Morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Mañana"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Mañana"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "morgen"
               ]
             },
@@ -14506,60 +16597,53 @@ const A1_WORDS = [
                 "mañana"
               ]
             }
-          },
+          }
+        ],
+        "comparison": [
           {
-            "de": {
-              "blue": [
-                "morgen",
-                "morgen"
+            "word": {
+              "green": [
+                "heute"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "mañana"
+                "hoy"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "morgen",
-                "morgen"
+            "word": {
+              "green": [
+                "gestern"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "¡buen"
+                "ayer"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "morgen",
-                "morgen"
+            "word": {
+              "green": [
+                "übermorgen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "mañana"
+                "pasado mañana"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "mañana"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "morgen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -14575,132 +16659,179 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "la mañana",
       "explanation": [
-        "Idea principal: Un sustantivo con artículo encaja y está en mayúscula. Parte del día - mañana.",
-        "der Morgen significa principalmente: el día siguiente.",
-        "A menudo se caracteriza por: el clima.",
-        "der Morgen significa principalmente: parte del día.",
-        "A menudo describe: sustantivo (der).",
-        "Der Morgen significa básicamente: varias mañanas.",
-        "A menudo caracterizado por: sustantivo (pl.).",
-        "morgen con una letra inicial minúscula significa mañana - el día siguiente (Ich komme morgen = vengo mañana, Bis morgen!"
+        "Idea principal: der Morgen es un sustantivo masculino: la mañana, el comienzo del día. El plural die Morgen se usa poco. Expresiones más frecuentes: Guten Morgen! (¡Buenos días!), am Morgen (por la mañana), heute Morgen (esta mañana).",
+        "Am Morgen (am = an dem) significa «por la mañana». Para algo que se repite se usa el adverbio morgens (por las mañanas, todas las mañanas): Ich stehe morgens um sechs auf.",
+        "Diferencia con morgen: morgen (con minúscula) es «mañana», el día siguiente; der Morgen es «la mañana». Como el español usa la misma palabra para ambos, fíjate en la mayúscula y el artículo."
       ],
       "examples": [
         {
           "de": "Guten Morgen!",
-          "lv": "Por la mañana."
+          "lv": "¡Buenos días!"
         },
         {
-          "de": "Bis morgen!",
-          "lv": "Por la mañana."
+          "de": "Am Morgen trinke ich Kaffee.",
+          "lv": "Por la mañana tomo café."
         },
         {
-          "de": "Ich komme morgen.",
-          "lv": "Voy a llegar por la mañana."
+          "de": "Heute Morgen war es kalt.",
+          "lv": "Esta mañana hacía frío."
         },
         {
-          "de": "Morgen ist Montag.",
-          "lv": "Mañana es lunes."
-        },
-        {
-          "de": "Guten Morgen!",
-          "lv": "¡Buen día!"
+          "de": "Jeden Morgen gehe ich spazieren.",
+          "lv": "Todas las mañanas salgo a pasear."
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "La mañana es hermosa."
+          "lv": "La mañana es bonita."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "morgen",
+          "meaning": "mañana (el día siguiente)",
+          "example": "Morgen komme ich. – Mañana vengo."
+        },
+        {
+          "word": "der Vormittag",
+          "meaning": "mañana (antes del mediodía)",
+          "example": "Am Vormittag lerne ich. – Por la mañana estudio."
+        },
+        {
+          "word": "der Abend",
+          "meaning": "tarde, noche",
+          "example": "Am Abend lese ich. – Por la noche leo."
         }
       ],
       "tip": [
-        "Little morgen = mañana (Ich komme morgen). der Morgen con mayúscula = mañana (Guten Morgen!, am Morgen).",
-        "der Morgen = mañana"
+        "Guten Morgen! se usa más o menos hasta el mediodía; después, Guten Tag!",
+        "Morgens (por las mañanas, habitualmente) se escribe con minúscula; am Morgen, con M mayúscula."
       ],
       "important": [
-        "morgen está en minúscula: es un adverbio de tiempo (mañana).",
-        "der Morgen con mayúscula y el artículo der es un sustantivo (mañana).",
-        "¡Buen día! — siempre con M mayúscula (mañana, no mañana).",
-        "Incorrecto: Guten morgen! → Correcto: Guten Morgen!"
+        "No confundas der Morgen (la mañana) y morgen (mañana): Ich komme morgen ≠ Ich komme am Morgen.",
+        "Heute Morgen, con M mayúscula; morgen früh, con m minúscula."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Morgen",
+            "der Morgen",
+            "am Morgen",
+            "Guten Morgen",
+            "heute Morgen",
+            "morgens",
+            "morgen"
+          ],
           "purple": [
+            "la mañana",
             "mañana"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
+              "blue": [
+                "Morgen"
               ]
             },
             "lv": {
+              "purple": [
+                "Buenos días"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Por la mañana"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Esta mañana"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mañanas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "La mañana"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "morgen"
+              ]
+            },
+            "meaning": {
               "purple": [
                 "mañana"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "morgen"
+                "der Vormittag"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "mañana"
+                "antes del mediodía"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "morgen"
+                "der Abend"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Mañana"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "der Morgen",
-                "morgen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "la mañana"
+                "noche"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Little"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
+          {},
           {}
         ]
       }
@@ -14738,15 +16869,14 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "tener que • deber",
       "explanation": [
-        "Idea principal: müssen significa hacer algo.",
-        "En español, müssen a menudo se traduce como \"yo sí...\", \"tú sí...\", \"nosotros sí...\".",
-        "En una frase alemana, el segundo verbo suele ir al final.",
-        "En el nivel A1, la forma más importante es Ich muss..."
+        "Idea principal: müssen es un verbo modal que significa «tener que, deber»: Ich muss gehen — tengo que irme. Expresa necesidad u obligación.",
+        "Formas: ich muss, du musst, er/sie/es muss, wir müssen, ihr müsst, sie müssen; musste, hat gemusst. El segundo verbo va en infinitivo al final de la frase: Ich muss heute arbeiten.",
+        "Importante: nicht müssen significa «no tener que, no hacer falta», no «estar prohibido»: Du musst nicht kommen — no tienes que venir. «No se puede, está prohibido» es nicht dürfen."
       ],
       "examples": [
         {
-          "de": "Ich muss gehen.",
-          "lv": "Tengo que irme."
+          "de": "Ich muss jetzt gehen.",
+          "lv": "Ahora tengo que irme."
         },
         {
           "de": "Du musst warten.",
@@ -14754,98 +16884,116 @@ const A1_WORDS = [
         },
         {
           "de": "Wir müssen lernen.",
-          "lv": "Tenemos que aprender."
+          "lv": "Tenemos que estudiar."
         },
         {
           "de": "Ich muss heute arbeiten.",
-          "lv": "Tengo que trabajar hoy."
+          "lv": "Hoy tengo que trabajar."
+        },
+        {
+          "de": "Du musst nicht kommen.",
+          "lv": "No tienes que venir."
         }
       ],
       "comparison": [
         {
-          "word": "müssen",
-          "meaning": "tener que / deber",
-          "example": "Ich muss gehen."
-        },
-        {
-          "word": "können",
-          "meaning": "poder / saber",
-          "example": "Ich kann kommen."
-        },
-        {
-          "word": "wollen",
-          "meaning": "quiero",
-          "example": "Ich will nach Hause."
+          "word": "sollen",
+          "meaning": "deber (indicación, consejo)",
+          "example": "Du sollst mehr schlafen. – Deberías dormir más."
         },
         {
           "word": "dürfen",
-          "meaning": "ser permitido",
-          "example": "Darf ich gehen?"
+          "meaning": "poder (tener permiso)",
+          "example": "Hier darf man nicht rauchen. – Aquí no se puede fumar."
+        },
+        {
+          "word": "brauchen",
+          "meaning": "necesitar",
+          "example": "Ich brauche Hilfe. – Necesito ayuda."
         }
       ],
-      "tip": {
-        "text": "Recuerde: Ich muss... = Debo..."
-      },
+      "tip": [
+        "Muss es más fuerte que sollen: muss = obligatorio; soll = indicación de otra persona.",
+        "Para decir «no hace falta», usa nicht müssen o nicht brauchen zu."
+      ],
       "important": [
-        "müssen es un verbo modal.",
-        "El segundo verbo suele ir al final de la frase: Ich muss heute arbeiten."
+        "Nicht müssen ≠ nicht dürfen: Du musst nicht gehen (no es obligatorio) ≠ Du darfst nicht gehen (está prohibido).",
+        "Müssen no va con zu, aunque en español digamos «tener que»: Ich muss gehen, no “Ich muss zu gehen”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "muss",
+            "musst",
+            "musste",
+            "müssen",
+            "müsst"
+          ],
           "purple": [
-            "sí"
+            "tener que",
+            "deber",
+            "tengo que",
+            "no tienes que"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "muss",
-                "gehen"
+                "muss"
               ]
             },
             "lv": {
               "purple": [
-                "tengo que ir"
+                "tengo que"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "musst",
-                "warten"
+                "musst"
               ]
             },
             "lv": {
               "purple": [
-                "tienes"
+                "Tienes que"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "müssen",
-                "lernen"
+                "müssen"
               ]
             },
             "lv": {
               "purple": [
-                "tenemos"
+                "Tenemos que"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "muss",
-                "arbeiten"
+                "muss"
               ]
             },
             "lv": {
               "purple": [
-                "tengo que trabajar"
+                "tengo que"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "musst"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "No tienes que"
               ]
             }
           }
@@ -14854,53 +17002,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "müssen"
+                "sollen"
               ]
             },
             "meaning": {
               "purple": [
-                "necesitar",
-                "necesitar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "muss"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "können"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "poder",
-                "poder"
-              ]
-            },
-            "example": {
-              "green": [
-                "kann"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "wollen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "quiero"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "will"
+                "deber"
               ]
             }
           },
@@ -14912,33 +17019,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ser permitido"
+                "tener permiso"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "brauchen"
               ]
             },
-            "example": {
-              "red": [
-                "Darf"
+            "meaning": {
+              "purple": [
+                "necesitar"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Ich muss"
-            ],
-            "purple": [
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "verbo modal",
-              "müssen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -14959,22 +17063,21 @@ const A1_WORDS = [
   },
   {
     "de": "nach",
-    "lv": "a • después",
+    "lv": "a • después de",
     "level": "A1",
     "study": {
       "id": "a1-nach",
       "layout": "standardStudy",
-      "translation": "a • después",
+      "translation": "a • después de",
       "explanation": [
-        "Idea principal: nach significa con lugares y después con tiempo o secuencia.",
-        "Con ciudades y países sin el artículo nach a menudo significa.",
-        "Con el tiempo nach significa después.",
-        "En la frase nach Hause significa hogar."
+        "Idea principal: nach es una preposición con dativo. Significa 1) «a» con ciudades, países y nach Hause: Ich fahre nach Berlin; 2) «después de» referido al tiempo: nach dem Essen (después de comer), zehn nach acht (las ocho y diez); 3) «según»: meiner Meinung nach (en mi opinión).",
+        "Después de nach va dativo: nach dem Unterricht, nach der Arbeit. Con ciudades y países sin artículo: nach Deutschland, nach Riga. Con los países que llevan artículo se usa in: in die Schweiz.",
+        "Muy frecuente: nach Hause gehen (irse a casa), nach links / nach rechts (a la izquierda / a la derecha)."
       ],
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "Me voy a Berlín."
+          "lv": "Voy a Berlín."
         },
         {
           "de": "Wir gehen nach Hause.",
@@ -14982,47 +17085,51 @@ const A1_WORDS = [
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "Después de comer salimos a caminar."
+          "lv": "Después de comer salimos a pasear."
         },
         {
           "de": "Es ist zehn nach acht.",
           "lv": "Son las ocho y diez."
+        },
+        {
+          "de": "Gehen Sie nach links.",
+          "lv": "Gire a la izquierda."
         }
       ],
       "comparison": [
         {
-          "word": "nach",
-          "meaning": "a / después",
-          "example": "Ich fahre nach Berlin."
-        },
-        {
           "word": "zu",
-          "meaning": "a / junto a",
-          "example": "Ich gehe zum Arzt."
+          "meaning": "a (personas, instituciones)",
+          "example": "Ich gehe zum Arzt. – Voy al médico."
         },
         {
           "word": "in",
-          "meaning": "en / al lugar con el artículo",
-          "example": "Ich gehe in die Schule."
+          "meaning": "a (países con artículo)",
+          "example": "Wir fahren in die Schweiz. – Vamos a Suiza."
         },
         {
-          "word": "vor",
-          "meaning": "antes / delante de",
-          "example": "Vor dem Essen wasche ich die Hände."
+          "word": "nachdem",
+          "meaning": "después de que",
+          "example": "Nachdem ich gegessen hatte, ging ich. – Después de haber comido, me fui."
         }
       ],
-      "tip": {
-        "text": "Recuerde: nach Hause = a casa; nach Berlin = a Berlín; nach dem Essen = después de comer."
-      },
+      "tip": [
+        "Nach + ciudad o país sin artículo: nach Berlin, nach Lettland; con personas o instituciones, zu: zum Arzt.",
+        "Nach de tiempo = después de: nach der Schule; nach de lugar = a."
+      ],
       "important": [
-        "nach no se usa en todos los lugares.",
-        "A la escuela generalmente es in die Schule, no nach Schule."
+        "Nach + dativo, no acusativo: nach dem Essen, nach der Arbeit.",
+        "Nach no se usa con un edificio concreto: Ich gehe in die Schule, no “nach die Schule”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "nach"
+          ],
           "purple": [
             "a",
-            "después"
+            "después de",
+            "según"
           ]
         },
         "examples": [
@@ -15030,9 +17137,6 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "nach"
-              ],
-              "green": [
-                "Berlin"
               ]
             },
             "lv": {
@@ -15044,7 +17148,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "nach Hause"
+                "nach"
               ]
             },
             "lv": {
@@ -15057,14 +17161,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Nach"
-              ],
-              "yellow": [
-                "Essen"
               ]
             },
             "lv": {
               "purple": [
-                "después"
+                "Después de"
               ]
             }
           },
@@ -15076,7 +17177,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "son"
+                "y diez"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nach"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "a la izquierda"
               ]
             }
           }
@@ -15085,36 +17198,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "nach"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "a",
-                "después"
-              ]
-            },
-            "example": {
-              "blue": [
-                "nach"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "zu"
               ]
             },
             "meaning": {
               "purple": [
-                "pie",
-                "pie"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "zum Arzt"
+                "a"
               ]
             }
           },
@@ -15126,62 +17215,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "lugar"
-              ]
-            },
-            "example": {
-              "green": [
-                "in die Schule"
+                "a"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "vor"
+                "nachdem"
               ]
             },
             "meaning": {
               "purple": [
-                "antes",
-                "antes"
-              ]
-            },
-            "example": {
-              "red": [
-                "Vor"
+                "después de que"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "nach Hause",
-              "Recuerde"
-            ],
-            "purple": [
-              "después de comer"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "nach"
-            ],
-            "red": [
-              "nach"
-            ]
-          },
-          {
-            "green": [
-              "in die Schule"
-            ],
-            "red": [
-              "nach Schule"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -15214,7 +17271,7 @@ const A1_WORDS = [
   },
   {
     "de": "nass",
-    "lv": "húmedo",
+    "lv": "mojado",
     "level": "A1"
   },
   {
@@ -15232,50 +17289,65 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "por supuesto • natural",
       "explanation": [
-        "Idea principal: natürlich como adverbio significa por supuesto, como adjetivo significa natural.",
-        "En una conversación, confirmar algo, natürlich = por supuesto (Kommst du mit? – Natürlich! = ¿Vienes? – ¡Por supuesto!).",
-        "Cuando se habla de naturaleza, origen o cualidades, natürlich = natural (natürliche Schönheit = belleza natural).",
-        "El contexto (respuesta/confirmación o descripción) muestra el significado correcto."
+        "Idea principal: natürlich es adverbio y adjetivo. Como respuesta, natürlich significa «por supuesto, claro»: Kommst du mit? – Natürlich! Como adjetivo significa «natural»: natürliche Haare, eine natürliche Reaktion.",
+        "El adjetivo lleva terminaciones: eine natürliche Farbe, ein natürliches Verhalten. Comparativo: natürlicher; superlativo: am natürlichsten.",
+        "Contrario: künstlich (artificial)."
       ],
       "examples": [
         {
           "de": "Kommst du mit? – Natürlich!",
-          "lv": "¿Vienes conmigo? - ¡Por supuesto!"
+          "lv": "¿Te vienes? – ¡Por supuesto!"
+        },
+        {
+          "de": "Natürlich helfe ich dir.",
+          "lv": "Por supuesto que te ayudo."
         },
         {
           "de": "Das ist eine natürliche Reaktion.",
           "lv": "Es una reacción natural."
         },
         {
-          "de": "Natürlich helfe ich dir.",
-          "lv": "Por supuesto que te ayudaré."
-        },
-        {
           "de": "Sie hat natürliche rote Haare.",
-          "lv": "Ella tiene el pelo rojo natural."
+          "lv": "Tiene el pelo rojo natural."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "klar",
+          "meaning": "claro",
+          "example": "Klar, ich komme. – Claro, voy."
         },
         {
-          "de": "Natürlich kann ich das machen.",
-          "lv": "Por supuesto que puedo hacer eso."
+          "word": "selbstverständlich",
+          "meaning": "por supuesto, desde luego",
+          "example": "Selbstverständlich helfe ich. – Desde luego que ayudo."
         },
         {
-          "de": "Das ist ganz natürlich.",
-          "lv": "Esto es completamente natural/normal."
+          "word": "künstlich",
+          "meaning": "artificial",
+          "example": "Das ist künstliches Licht. – Es luz artificial."
         }
       ],
       "tip": [
-        "Como palabra aparte, confirmando o respondiendo → claro.",
-        "Junto a un sustantivo, que describe un origen o cualidad → natural."
+        "Natürlich! es una de las formas más frecuentes de decir «por supuesto».",
+        "Natürlich puede ir al principio o en medio de la frase: Natürlich komme ich. / Ich helfe dir natürlich."
       ],
       "important": [
-        "natürlich = por supuesto (adverbio, afirmación) O natural (adjetivo).",
-        "¡Naturalmente! como exclamación aparte siempre = ¡claro!"
+        "Natürlich y künstlich son contrarios.",
+        "Atención: natürlich en el sentido de «natural» lleva terminación delante de un sustantivo."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "natürlich",
+            "Natürlich",
+            "natürliche",
+            "künstlich"
+          ],
           "purple": [
-            "Idea",
-            "Idea"
+            "por supuesto",
+            "natural",
+            "claro"
           ]
         },
         "examples": [
@@ -15287,19 +17359,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "¿vienes"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "natürliche"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "una"
+                "Por supuesto"
               ]
             }
           },
@@ -15311,66 +17371,80 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Por"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "natürliche"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ella"
+                "Por supuesto"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Natürlich"
+                "natürliche"
               ]
             },
             "lv": {
               "purple": [
-                "Por"
+                "natural"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "natürlich"
+              "blue": [
+                "natürliche"
               ]
             },
             "lv": {
               "purple": [
-                "Esto"
+                "natural"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "klar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "claro"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "selbstverständlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "desde luego"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "künstlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "artificial"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "Como"
-            ]
-          },
-          {
-            "green": [
-              "Como"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "natürlich",
-              "natürlich"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -15382,70 +17456,79 @@ const A1_WORDS = [
   },
   {
     "de": "nehmen",
-    "lv": "tomar • tomar",
+    "lv": "tomar • coger",
     "level": "A1",
     "study": {
       "id": "a1-nehmen",
       "layout": "standardStudy",
-      "translation": "tomar • tomar",
+      "translation": "tomar • coger",
       "explanation": [
-        "Idea principal: nehmen significa tomar o tomar.",
-        "nehmen se usa cuando tomas algo para ti o eliges.",
-        "No es lo mismo que traer, porque traer significa traer o llevar a alguien.",
-        "Holen significa ir tras y buscar/tomar."
+        "Idea principal: nehmen significa «coger, tomar» (algo con la mano, para uno mismo) y también «elegir»: Ich nehme den Bus (cojo el autobús), Ich nehme einen Kaffee (tomaré un café). También se usa con medicamentos: Tabletten nehmen (tomar pastillas).",
+        "Formas: ich nehme, du nimmst, er nimmt; nahm, hat genommen. Imperativo: Nimm! (con i, no “nehm”). Siempre con acusativo.",
+        "Derivados con prefijo separable: mitnehmen (llevarse), wegnehmen (quitar), annehmen (aceptar), zunehmen (engordar)."
       ],
       "examples": [
         {
           "de": "Ich nehme den Bus.",
-          "lv": "Tomo el autobús."
+          "lv": "Cojo el autobús."
         },
         {
           "de": "Nimm das Buch!",
-          "lv": "¡Toma el libro!"
+          "lv": "¡Coge el libro!"
         },
         {
-          "de": "Ich bringe dir das Buch.",
-          "lv": "Tomé un libro."
+          "de": "Sie nimmt ein Stück Kuchen.",
+          "lv": "Coge un trozo de tarta."
         },
         {
-          "de": "Ich hole dich ab.",
-          "lv": "Te llevaré."
+          "de": "Ich nehme einen Kaffee, bitte.",
+          "lv": "Tomaré un café, por favor."
+        },
+        {
+          "de": "Er nimmt jeden Tag Tabletten.",
+          "lv": "Toma pastillas todos los días."
         }
       ],
       "comparison": [
         {
-          "word": "nehmen",
-          "meaning": "tomar / tomar",
-          "example": "Nimm das Buch!"
-        },
-        {
           "word": "bringen",
-          "meaning": "traer / tomar / entregar",
-          "example": "Ich bringe dir das Buch."
+          "meaning": "traer, llevar",
+          "example": "Ich bringe dir das Buch. – Te traigo el libro."
         },
         {
           "word": "holen",
-          "meaning": "ir tras / buscar",
-          "example": "Ich hole Wasser."
+          "meaning": "ir a buscar, traer",
+          "example": "Ich hole Brot. – Voy a por pan."
         },
         {
-          "word": "mitnehmen",
-          "meaning": "llévate contigo",
-          "example": "Ich nehme dich mit."
+          "word": "geben",
+          "meaning": "dar",
+          "example": "Gib mir das Buch! – ¡Dame el libro!"
         }
       ],
-      "tip": {
-        "text": "Recuerda: toma para ti → nehmen; traer a alguien → traer."
-      },
+      "tip": [
+        "Nehmen – nahm – genommen: aprende las formas básicas junto con nimmt.",
+        "Con medios de transporte: den Bus/den Zug nehmen — coger el autobús o el tren."
+      ],
       "important": [
-        "Ich nehme den Bus significa \"yo conduzco el autobús\" en letón.",
-        "nehmen no es lo mismo que bringen."
+        "El imperativo es Nimm!, no “Nehm!”.",
+        "No confundas nehmen y bringen: nehmen — coger para uno mismo; bringen — llevar o traer algo a otra persona."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "nehmen",
+            "nehme",
+            "nimmt",
+            "nimmst",
+            "nahm",
+            "genommen",
+            "Nimm"
+          ],
           "purple": [
+            "coger",
             "tomar",
-            "tomar"
+            "elegir"
           ]
         },
         "examples": [
@@ -15453,14 +17536,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "nehme"
-              ],
-              "yellow": [
-                "Bus"
               ]
             },
             "lv": {
               "purple": [
-                "braucu"
+                "Cojo"
               ]
             }
           },
@@ -15468,50 +17548,47 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Nimm"
-              ],
-              "yellow": [
-                "Buch"
               ]
             },
             "lv": {
               "purple": [
-                "¡toma"
+                "Coge"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "bringe"
-              ],
-              "yellow": [
-                "Buch"
+              "blue": [
+                "nimmt"
               ]
             },
             "lv": {
-              "red": [
-                "traje"
-              ],
-              "yellow": [
-                "libro"
+              "purple": [
+                "Coge"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "hole"
-              ],
-              "green": [
-                "dich"
+              "blue": [
+                "nehme"
               ]
             },
             "lv": {
-              "red": [
-                "llevaré"
-              ],
-              "green": [
-                "llevaré"
+              "purple": [
+                "Tomaré"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "nimmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Toma"
               ]
             }
           }
@@ -15520,37 +17597,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "nehmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "tomar",
-                "tomar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Nimm"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "bringen"
               ]
             },
             "meaning": {
               "purple": [
-                "traer",
-                "traer",
-                "entregar"
-              ]
-            },
-            "example": {
-              "red": [
-                "bringe"
+                "traer"
               ]
             }
           },
@@ -15562,55 +17614,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tras",
-                "tras"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "hole"
+                "ir a buscar"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "mitnehmen"
+                "geben"
               ]
             },
             "meaning": {
               "purple": [
-                "llévate contigo"
-              ]
-            },
-            "example": {
-              "green": [
-                "nehme",
-                "mit"
+                "dar"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "nehmen"
-            ],
-            "purple": [
-              "Recuerda"
-            ],
-            "red": [
-              "Recuerda",
-              "traer a alguien"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "Ich"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -15627,7 +17654,7 @@ const A1_WORDS = [
   },
   {
     "de": "nett",
-    "lv": "lindo",
+    "lv": "simpático • amable",
     "level": "A1"
   },
   {
@@ -15639,56 +17666,66 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "nuevo (sobre cosas)",
       "explanation": [
-        "Idea principal: neu significa nuevo en términos de algo: creado recientemente, comprado o usado por primera vez.",
-        "neu describe cosas, dispositivos, ropa, casas, ideas, etc., no la edad humana o animal.",
-        "En español, la palabra joven tiene dos significados: joven de edad (jung) y joven/de reciente creación (neu).",
-        "Para la edad de una persona o de un animal se utiliza jung, no neu.",
-        "neu también se usa en sentido figurado: nuevo trabajo, nueva información, nuevo comienzo.",
-        "Lo opuesto es alt (viejo); el sustantivo das Neue significa nuevo."
+        "Idea principal: neu significa «nuevo» referido a cosas y fenómenos que han surgido o se han comprado hace poco: ein neues Handy, eine neue Wohnung, neue Schuhe. Para la edad de una persona se usa jung.",
+        "Delante de un sustantivo, neu se declina: ein neuer Tisch, eine neue Jacke, ein neues Auto, neue Freunde. Comparativo: neuer; superlativo: am neuesten. Después de sein va sin terminación: Mein Handy ist neu.",
+        "Referido a personas, neu significa «recién llegado, nuevo en el trabajo o en la clase»: ein neuer Kollege, eine neue Lehrerin."
       ],
       "examples": [
         {
           "de": "Mein Handy ist neu.",
-          "lv": "Mi teléfono es nuevo."
+          "lv": "Mi móvil es nuevo."
         },
         {
           "de": "Wir haben ein neues Auto.",
-          "lv": "Tenemos un auto nuevo."
+          "lv": "Tenemos un coche nuevo."
         },
         {
           "de": "Das ist meine neue Wohnung.",
-          "lv": "Este es mi nuevo apartamento."
+          "lv": "Este es mi piso nuevo."
         },
         {
           "de": "Ich habe neue Schuhe gekauft.",
-          "lv": "Compré unos zapatos nuevos."
+          "lv": "Me he comprado zapatos nuevos."
         },
         {
-          "de": "Das ist eine neue Idee.",
-          "lv": "Es una idea nueva."
+          "de": "Wir haben einen neuen Kollegen.",
+          "lv": "Tenemos un compañero nuevo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "jung",
+          "meaning": "joven (personas)",
+          "example": "Meine Tante ist jung. – Mi tía es joven."
         },
         {
-          "de": "Er hat einen neuen Job.",
-          "lv": "Tiene un nuevo trabajo."
+          "word": "alt",
+          "meaning": "viejo",
+          "example": "Das Haus ist alt. – La casa es vieja."
         },
         {
-          "de": "Was gibt es Neues?",
-          "lv": "¿Qué hay de nuevo?"
+          "word": "modern",
+          "meaning": "moderno",
+          "example": "Das Büro ist modern. – La oficina es moderna."
         }
       ],
       "tip": [
-        "neu trata sobre cosas, dispositivos y noticias; cuando hables de la edad de una persona, usa jung.",
-        "Contraste: neu ↔ alt (nuevo ↔ viejo)."
+        "Contrarios: neu ≠ alt (nuevo ≠ viejo); jung ≠ alt (joven ≠ mayor, para personas).",
+        "Neu se combina con participios y verbos: neu eröffnet (recién inaugurado), neu bauen (construir de nuevo)."
       ],
       "important": [
-        "neu describe cosas y noticias, ni la edad de una persona o un animal.",
-        "Para la edad de una persona o de un animal, utilice jung en lugar de neu.",
-        "Incorrecto: Meine Schwester ist neu. → Correcto: Meine Schwester ist jung."
+        "Para la edad de una persona se dice jung, no neu.",
+        "Neu (nuevo) y neun (nueve) son palabras distintas."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "neu",
+            "neues",
+            "neuer"
+          ],
           "purple": [
-            "Idea"
+            "nuevo"
           ]
         },
         "examples": [
@@ -15700,7 +17737,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jauns"
+                "nuevo"
               ]
             }
           },
@@ -15712,7 +17749,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tenemos"
+                "nuevo"
               ]
             }
           },
@@ -15724,7 +17761,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "este"
+                "nuevo"
               ]
             }
           },
@@ -15736,19 +17773,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jaunas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "neue"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "una"
+                "nuevos"
               ]
             }
           },
@@ -15760,52 +17785,56 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "tiene"
+                "nuevo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "jung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "joven"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Neues"
+            "word": {
+              "green": [
+                "alt"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "jauns"
+                "viejo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "modern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "moderno"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "alt"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "neu"
-            ]
-          },
-          {
-            "green": [
-              "jung"
-            ],
-            "blue": [
-              "neu"
-            ]
-          },
-          {
-            "blue": [
-              "neu"
-            ],
-            "green": [
-              "jung"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -15874,10 +17903,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "todavía",
       "explanation": [
-        "Idea principal: Algo todavía está en marcha o aún no ha terminado.",
-        "noch significa principalmente: algo todavía está sucediendo.",
-        "A menudo describe: continuación o estado inacabado.",
-        "noch significa todavía: algo que todavía está sucediendo o que aún no ha terminado."
+        "Idea principal: noch es un adverbio que significa «todavía, aún». Expresa que algo continúa (Ich bin noch zu Hause — todavía estoy en casa) o que se añade algo más (Möchtest du noch einen Kaffee? — ¿quieres otro café?).",
+        "Combinaciones frecuentes: noch nicht (todavía no), noch einmal (otra vez), noch ein/eine (otro/otra más), immer noch (todavía, aún). El adverbio no se declina.",
+        "Contrarios: noch nicht ≠ schon (ya); nicht mehr (ya no)."
       ],
       "examples": [
         {
@@ -15885,82 +17913,171 @@ const A1_WORDS = [
           "lv": "Todavía estoy en casa."
         },
         {
-          "de": "Ich bin noch zu Hause.",
-          "lv": "Todavía estoy en casa"
+          "de": "Bist du noch da?",
+          "lv": "¿Todavía estás ahí?"
         },
         {
-          "de": "Bist du noch da?",
-          "lv": "¿Todavía estás aquí?"
+          "de": "Möchtest du noch einen Kaffee?",
+          "lv": "¿Quieres otro café?"
+        },
+        {
+          "de": "Er ist noch nicht da.",
+          "lv": "Todavía no ha llegado."
+        },
+        {
+          "de": "Es regnet immer noch.",
+          "lv": "Sigue lloviendo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "schon",
+          "meaning": "ya",
+          "example": "Ich habe schon gegessen. – Ya he comido."
+        },
+        {
+          "word": "nicht mehr",
+          "meaning": "ya no",
+          "example": "Er wohnt nicht mehr hier. – Ya no vive aquí."
+        },
+        {
+          "word": "auch",
+          "meaning": "también",
+          "example": "Ich komme auch. – Yo también voy."
         }
       ],
       "tip": [
-        "Algo todavía está sucediendo o aún no ha terminado.",
-        "Utilice noch cuando el contexto se ajuste a este significado."
+        "Noch nicht (todavía no) es lo contrario de schon: Hast du schon gegessen? – Nein, noch nicht.",
+        "Noch ein/eine/einen = otro, otra más: noch einen Kaffee."
       ],
       "important": [
-        "noch = todavía.",
-        "Algo todavía está sucediendo o aún no ha terminado."
+        "Noch nicht significa «todavía no», no «ya no»; para eso está nicht mehr.",
+        "Noch también refuerza el comparativo: noch größer (aún más grande)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "noch",
+            "noch nicht",
+            "noch einmal",
+            "noch ein",
+            "immer noch",
+            "nicht mehr",
+            "schon"
+          ],
           "purple": [
-            "todavía"
+            "todavía",
+            "aún",
+            "ya no"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "noch",
+              "blue": [
                 "noch"
               ]
             },
             "lv": {
               "purple": [
-                "todavía"
+                "Todavía"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "noch",
+              "blue": [
                 "noch"
               ]
             },
             "lv": {
               "purple": [
-                "todavía"
+                "Todavía"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "noch",
+              "blue": [
                 "noch"
               ]
             },
             "lv": {
               "purple": [
-                "todavía"
+                "otro"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Todavía no"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "noch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Sigue"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schon"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ya"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nicht mehr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ya no"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "auch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "también"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "todavía"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "noch"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -15992,23 +18109,18 @@ const A1_WORDS = [
   },
   {
     "de": "nur",
-    "lv": "sólo • sólo",
+    "lv": "solo • únicamente",
     "level": "A1",
     "study": {
       "id": "a1-nur-study",
       "layout": "standardStudy",
-      "translation": "solo • solamente",
+      "translation": "solo • únicamente",
       "explanation": [
-        "Idea principal: Limita la cantidad, el número de personas, la elección o las opciones.",
-        "nur significa principalmente: cantidad o elección limitada.",
-        "A menudo describe: cuántos, exactamente o quién es el único.",
-        "nur significa sólo, únicamente, nada más: limita la cantidad o la elección."
+        "Idea principal: nur es un adverbio que significa «solo, únicamente» e indica una limitación: Ich habe nur zehn Euro (solo tengo diez euros). No se declina y va junto a la palabra que limita.",
+        "En cuanto a la posición, nur suele ir justo delante de la palabra que limita: Nur du kannst mir helfen (solo tú puedes ayudarme), Ich möchte nur Kaffee. Con nicht: nicht nur … sondern auch (no solo… sino también).",
+        "En el habla coloquial, nur puede reforzar una pregunta: Wie ist das nur möglich? — ¿Pero cómo es posible?"
       ],
       "examples": [
-        {
-          "de": "Ich habe nur zehn Euro.",
-          "lv": "Solo tengo diez euros."
-        },
         {
           "de": "Ich habe nur zehn Euro.",
           "lv": "Solo tengo diez euros."
@@ -16019,69 +18131,105 @@ const A1_WORDS = [
         },
         {
           "de": "Ich möchte nur Kaffee.",
-          "lv": "Solo quiero café."
+          "lv": "Solo quiero un café."
         },
         {
-          "de": "Ich habe nur acht Euro.",
-          "lv": "Sólo tengo ocho euros."
+          "de": "Das kostet nur fünf Euro.",
+          "lv": "Solo cuesta cinco euros."
+        },
+        {
+          "de": "Er spricht nicht nur Deutsch, sondern auch Englisch.",
+          "lv": "No solo habla alemán, sino también inglés."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erst",
+          "meaning": "solo, apenas (tiempo, cantidad)",
+          "example": "Es ist erst acht Uhr. – Solo son las ocho."
+        },
+        {
+          "word": "einzig",
+          "meaning": "único",
+          "example": "Das ist der einzige Weg. – Es el único camino."
+        },
+        {
+          "word": "bloß",
+          "meaning": "solo (coloquial)",
+          "example": "Ich wollte dich bloß fragen. – Solo quería preguntarte."
         }
       ],
       "tip": [
-        "Limita la cantidad, el número de personas, la elección u opciones.",
-        "Se utiliza sólo cuando el contexto corresponde a este significado."
+        "Nur = limitación; erst = «solo, apenas» referido al tiempo: Es ist erst acht — solo son las ocho.",
+        "Coloca nur delante de la palabra que limita, porque su posición cambia el sentido de la frase."
       ],
       "important": [
-        "\"Sólo\" letón en alemán no siempre es nur.",
-        "nur = sólo / exclusivamente."
+        "Nur y nun (ahora) se diferencian en una sola letra: no los confundas.",
+        "Nicht nur … sondern auch es una construcción fija."
       ],
       "sectionAccents": {
         "explanation": {
-          "orange": [
+          "blue": [
             "nur",
-            "nur"
+            "nicht nur … sondern auch"
           ],
-          "green": [
-            "solo"
-          ],
-          "red": [
-            "Idea"
-          ],
-          "yellow": [
+          "purple": [
             "solo",
-            "solo"
+            "únicamente"
           ]
         },
         "examples": [
           {
             "de": {
-              "orange": [
-                "nur",
+              "blue": [
                 "nur"
               ]
             },
             "lv": {
               "purple": [
-                "Man"
+                "Solo"
               ]
             }
           },
           {
             "de": {
-              "orange": [
-                "nur",
+              "blue": [
+                "Nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Solo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "nur"
               ]
             },
             "lv": {
               "purple": [
-                "man"
+                "Solo"
               ]
             }
           },
           {
             "de": {
-              "orange": [
-                "nur",
+              "blue": [
+                "nur"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Solo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "nur"
               ]
             },
@@ -16090,28 +18238,40 @@ const A1_WORDS = [
                 "solo"
               ]
             }
-          },
+          }
+        ],
+        "comparison": [
           {
-            "de": {
-              "orange": [
-                "nur",
-                "nur"
+            "word": {
+              "green": [
+                "erst"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "gribu"
+                "solo"
               ]
             }
           },
           {
-            "de": {
-              "orange": [
-                "nur",
-                "nur"
+            "word": {
+              "green": [
+                "einzig"
               ]
             },
-            "lv": {
+            "meaning": {
+              "purple": [
+                "único"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bloß"
+              ]
+            },
+            "meaning": {
               "purple": [
                 "solo"
               ]
@@ -16123,11 +18283,8 @@ const A1_WORDS = [
           {}
         ],
         "important": [
-          {
-            "orange": [
-              "nur"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -16141,10 +18298,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "si",
       "explanation": [
-        "Idea principal: ob introduce una pregunta indirecta y en español suele significar o.",
-        "ob se usa después de palabras como fragen, wissen, sehen, sagen cuando no hay una pregunta directa.",
-        "Ob no suele utilizarse en una pregunta directa en alemán.",
-        "En el nivel A1 es importante distinguir ob de oder."
+        "Idea principal: ob es una conjunción subordinante, «si», que introduce una pregunta indirecta (de sí o no): Ich weiß nicht, ob er kommt — no sé si viene.",
+        "Orden de palabras: después de ob, el verbo va al final de la oración: Sie fragt, ob du Zeit hast. Delante de ob siempre hay coma. Verbos típicos: fragen, wissen, nicht wissen, sich fragen, sagen.",
+        "Ob solo se usa cuando la respuesta es «sí» o «no». Si la pregunta lleva una palabra interrogativa (wo, wann), no hace falta ob: Ich weiß, wo er wohnt. Ojo: el «si» condicional del español es wenn, no ob."
       ],
       "examples": [
         {
@@ -16153,52 +18309,50 @@ const A1_WORDS = [
         },
         {
           "de": "Sie fragt, ob du Zeit hast.",
-          "lv": "Ella pregunta si tienes tiempo."
+          "lv": "Pregunta si tienes tiempo."
         },
         {
           "de": "Sag mir, ob das stimmt.",
-          "lv": "Dime si esto es cierto."
+          "lv": "Dime si es verdad."
         },
         {
-          "de": "Kommst du heute oder morgen?",
-          "lv": "No sé si vienes hoy o mañana."
+          "de": "Ich frage mich, ob es morgen regnet.",
+          "lv": "Me pregunto si mañana lloverá."
         }
       ],
       "comparison": [
         {
-          "word": "ob",
-          "meaning": "si en una pregunta indirecta",
-          "example": "Ich weiß nicht, ob er kommt."
-        },
-        {
-          "word": "oder",
-          "meaning": "o para elegir entre opciones",
-          "example": "Kaffee oder Tee? = ¿Café o té?"
-        },
-        {
           "word": "wenn",
-          "meaning": "si / cuando",
-          "example": "Wenn du Zeit hast..."
+          "meaning": "si (condicional); cuando",
+          "example": "Wenn es regnet, bleibe ich zu Hause. – Si llueve, me quedo en casa."
         },
         {
           "word": "dass",
-          "meaning": "eso",
-          "example": "Ich weiß, dass er kommt."
+          "meaning": "que",
+          "example": "Ich weiß, dass er kommt. – Sé que viene."
+        },
+        {
+          "word": "oder",
+          "meaning": "o (alternativa)",
+          "example": "Kaffee oder Tee? – ¿Café o té?"
         }
       ],
-      "tip": {
-        "text": "Recuerda: no sé si... → ob; café o té → oder."
-      },
+      "tip": [
+        "Ob = si (en preguntas indirectas), wenn = si (condición), dass = que: apréndelos como un trío.",
+        "Después de ob, el verbo va al final: …, ob er morgen kommt."
+      ],
       "important": [
-        "ob no es la forma habitual de elección \"o\" entre dos cosas.",
-        "¿Café o té? utiliza oder, no ob."
+        "No confundas ob y oder: ob es una conjunción subordinante; oder ofrece una alternativa entre palabras u oraciones.",
+        "Ob no expresa condición; el «si» condicional es wenn."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "ob",
+            "Ob"
+          ],
           "purple": [
-            "o",
-            "pregunta indirecta",
-            "En una pregunta directa"
+            "si"
           ]
         },
         "examples": [
@@ -16210,7 +18364,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vendrá"
+                "si"
               ]
             }
           },
@@ -16222,7 +18376,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ella"
+                "si"
               ]
             }
           },
@@ -16234,19 +18388,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "dime"
+                "si"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "oder"
+              "blue": [
+                "ob"
               ]
             },
             "lv": {
-              "red": [
-                "o"
+              "purple": [
+                "si"
               ]
             }
           }
@@ -16255,54 +18409,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "ob"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "o",
-                "en una pregunta indirecta"
-              ]
-            },
-            "example": {
-              "blue": [
-                "ob"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "oder"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "o",
-                "elegir"
-              ]
-            },
-            "example": {
-              "red": [
-                "oder"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "wenn"
               ]
             },
             "meaning": {
               "purple": [
-                "kad",
-                "kad"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Wenn"
+                "si (condicional)"
               ]
             }
           },
@@ -16314,44 +18426,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "eso"
+                "que"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "oder"
               ]
             },
-            "example": {
-              "green": [
-                "dass"
+            "meaning": {
+              "purple": [
+                "o"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "ob"
-            ],
-            "purple": [
-              "Recuerda"
-            ],
-            "red": [
-              "oder",
-              "cafe o te"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "ob"
-            ]
-          },
-          {
-            "red": [
-              "oder"
-            ],
-            "blue": [
-              "ob"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -16370,62 +18468,67 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "o",
       "explanation": [
-        "Idea principal: oder une alternativas y significa o.",
-        "Se usa para elegir entre dos o más posibilidades.",
-        "No debe confundirse con ob, que introduce una pregunta indirecta.",
-        "Al final de una oración, oder? puede equivaler a ¿verdad? o ¿no?"
+        "Idea principal: oder es una conjunción coordinante, «o», que ofrece una elección entre opciones: Kaffee oder Tee? Une palabras, grupos de palabras u oraciones y no cambia el orden de las palabras.",
+        "Después de oder, el orden no cambia: Ich gehe nach Hause, oder ich bleibe hier. Oder, colocado al final de la frase, forma en el habla coloquial una pregunta de confirmación: Du kommst, oder? — Vienes, ¿verdad?",
+        "Construcción fija: entweder … oder … — o bien… o bien…."
       ],
       "examples": [
         {
-          "de": "Kaffee oder Tee?",
-          "lv": "¿Café o té?"
+          "de": "Möchtest du Kaffee oder Tee?",
+          "lv": "¿Quieres café o té?"
         },
         {
-          "de": "Heute oder morgen?",
-          "lv": "¿Hoy o mañana?"
+          "de": "Kommst du heute oder morgen?",
+          "lv": "¿Vienes hoy o mañana?"
         },
         {
           "de": "Willst du Pizza oder Salat?",
           "lv": "¿Quieres pizza o ensalada?"
         },
         {
-          "de": "Du kommst, oder?",
+          "de": "Du kommst doch, oder?",
           "lv": "Vienes, ¿no?"
+        },
+        {
+          "de": "Wir fahren entweder nach Berlin oder nach Hamburg.",
+          "lv": "Vamos o bien a Berlín o bien a Hamburgo."
         }
       ],
       "comparison": [
         {
-          "word": "oder",
-          "meaning": "o, entre alternativas",
-          "example": "Kaffee oder Tee? – ¿Café o té?"
-        },
-        {
-          "word": "ob",
-          "meaning": "si, en una pregunta indirecta",
-          "example": "Ich weiß nicht, ob er kommt. – No sé si viene."
-        },
-        {
           "word": "und",
           "meaning": "y",
-          "example": "Kaffee und Kuchen. – Café y pastel."
+          "example": "Kaffee und Tee – café y té"
         },
         {
           "word": "aber",
           "meaning": "pero",
-          "example": "Ich komme, aber später. – Voy, pero más tarde."
+          "example": "Ich möchte kommen, aber ich habe keine Zeit. – Me gustaría ir, pero no tengo tiempo."
+        },
+        {
+          "word": "ob",
+          "meaning": "si (pregunta indirecta)",
+          "example": "Ich weiß nicht, ob er kommt. – No sé si viene."
         }
       ],
-      "tip": {
-        "text": "Recuerda: elección entre alternativas → oder; pregunta indirecta → ob."
-      },
+      "tip": [
+        "Oder = elección, und = suma, aber = contraste: café o té / café y té / café, pero sin azúcar.",
+        "Du kommst, oder? es una forma muy habitual de pedir confirmación."
+      ],
       "important": [
-        "oder se usa para expresar una elección.",
-        "El si de una pregunta indirecta se expresa con ob."
+        "Oder (o) y ob (si, en preguntas indirectas) no son intercambiables: Ich weiß nicht, ob er kommt oder bleibt.",
+        "Después de oder, el verbo no cambia de posición: Ich gehe oder ich bleibe."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "oder"
+            "oder",
+            "Oder",
+            "entweder … oder"
+          ],
+          "purple": [
+            "o",
+            "o bien"
           ]
         },
         "examples": [
@@ -16435,7 +18538,11 @@ const A1_WORDS = [
                 "oder"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "o"
+              ]
+            }
           },
           {
             "de": {
@@ -16443,7 +18550,11 @@ const A1_WORDS = [
                 "oder"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "o"
+              ]
+            }
           },
           {
             "de": {
@@ -16451,7 +18562,11 @@ const A1_WORDS = [
                 "oder"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "o"
+              ]
+            }
           },
           {
             "de": {
@@ -16459,36 +18574,37 @@ const A1_WORDS = [
                 "oder"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "¿no?"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "oder"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "o bien"
+              ]
+            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "oder"
-              ]
-            },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "ob"
-              ]
-            },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
                 "und"
               ]
             },
-            "meaning": {},
-            "example": {}
+            "meaning": {
+              "purple": [
+                "y"
+              ]
+            }
           },
           {
             "word": {
@@ -16496,13 +18612,29 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "meaning": {},
-            "example": {}
+            "meaning": {
+              "purple": [
+                "pero"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ob"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "si"
+              ]
+            }
           }
         ],
-        "tip": {
-          "left": {}
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
           {},
           {}
@@ -16561,7 +18693,7 @@ const A1_WORDS = [
     "de": "Paar",
     "de_article": "das",
     "de_plural": "die Paare",
-    "lv": "una pareja",
+    "lv": "par • pareja",
     "level": "A1"
   },
   {
@@ -16587,10 +18719,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "quedar bien • servir",
       "explanation": [
-        "Idea principal: passen significa servir, quedar bien o ser adecuado.",
-        "Con ropa suele indicar que la talla va bien.",
-        "Con colores o estilo puede significar combinar o quedar bien.",
-        "Das passt. significa «Eso sirve» o «Eso está bien»."
+        "Idea principal: passen significa «quedar bien» por talla, forma o estilo, y también «venir bien, servir», por ejemplo una hora o una fecha: Die Jacke passt mir — la chaqueta me queda bien. La persona va en dativo: Der Termin passt mir nicht.",
+        "Formas: passt, passte, hat gepasst. Con zu + dativo significa «pegar, combinar»: Die Farbe passt zu dir (ese color te queda bien), Das passt zusammen (eso combina bien).",
+        "Por sí sola, la frase Das passt! significa «¡Me viene bien!» o «¡Perfecto!»: expresa acuerdo."
       ],
       "examples": [
         {
@@ -16599,79 +18730,136 @@ const A1_WORDS = [
         },
         {
           "de": "Das Kleid passt gut.",
-          "lv": "El vestido queda bien."
+          "lv": "El vestido queda muy bien."
         },
         {
           "de": "Die Farbe passt zu dir.",
-          "lv": "El color te queda bien."
+          "lv": "Ese color te queda bien."
         },
         {
-          "de": "Das passt.",
-          "lv": "Eso está bien."
+          "de": "Der Termin passt mir nicht.",
+          "lv": "Esa hora no me viene bien."
+        },
+        {
+          "de": "Das passt!",
+          "lv": "¡Perfecto!"
         }
       ],
       "comparison": [
         {
-          "word": "passen",
-          "meaning": "servir / quedar bien",
-          "example": "Die Jacke passt mir. – La chaqueta me queda bien."
+          "word": "gefallen",
+          "meaning": "gustar",
+          "example": "Das Kleid gefällt mir. – El vestido me gusta."
         },
         {
           "word": "stehen",
-          "meaning": "sentar bien (color o estilo)",
-          "example": "Rot steht dir gut. – El rojo te sienta bien."
+          "meaning": "sentar bien (ropa)",
+          "example": "Das Kleid steht dir gut. – El vestido te sienta bien."
         },
         {
-          "word": "geeignet sein",
-          "meaning": "ser adecuado",
-          "example": "Das ist geeignet. – Eso es adecuado."
-        },
-        {
-          "word": "funktionieren",
-          "meaning": "funcionar",
-          "example": "Das funktioniert. – Eso funciona."
+          "word": "aufpassen",
+          "meaning": "tener cuidado",
+          "example": "Pass auf! – ¡Cuidado!"
         }
       ],
-      "tip": {
-        "text": "Recuerda: Das passt. = Eso sirve / Eso está bien."
-      },
+      "tip": [
+        "Passen + dativo: Die Hose passt mir (no “mich”).",
+        "Con Das passt! das tu conformidad a una hora, una solución o una talla."
+      ],
       "important": [
-        "passen no se limita a la ropa.",
-        "También puede indicar que una hora, un plan o una solución resultan adecuados."
+        "Passen (quedar bien) y aufpassen (tener cuidado) son verbos distintos: aufpassen tiene prefijo separable.",
+        "Con passen, la persona siempre va en dativo: mir, dir, ihm, ihr, igual que en español «me queda bien»."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "passen"
+            "passen",
+            "passt",
+            "passte",
+            "gepasst",
+            "zu dir"
+          ],
+          "purple": [
+            "quedar bien",
+            "servir",
+            "venir bien",
+            "me queda bien"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "passt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "queda bien"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "passt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "queda"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "passt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "queda bien"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "passt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "viene bien"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "passt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Perfecto"
+              ]
+            }
           }
         ],
         "comparison": [
           {
             "word": {
               "green": [
-                "passen"
+                "gefallen"
               ]
             },
-            "meaning": {},
-            "example": {}
+            "meaning": {
+              "purple": [
+                "gustar"
+              ]
+            }
           },
           {
             "word": {
@@ -16679,31 +18867,29 @@ const A1_WORDS = [
                 "stehen"
               ]
             },
-            "meaning": {},
-            "example": {}
+            "meaning": {
+              "purple": [
+                "sentar bien"
+              ]
+            }
           },
           {
             "word": {
               "green": [
-                "geeignet sein"
+                "aufpassen"
               ]
             },
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "funktionieren"
+            "meaning": {
+              "purple": [
+                "tener cuidado"
               ]
-            },
-            "meaning": {},
-            "example": {}
+            }
           }
         ],
-        "tip": {
-          "left": {}
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
           {},
           {}
@@ -16781,17 +18967,16 @@ const A1_WORDS = [
   },
   {
     "de": "probieren",
-    "lv": "probar • probar",
+    "lv": "probar • degustar",
     "level": "A1",
     "study": {
       "id": "a1-probieren",
       "layout": "standardStudy",
-      "translation": "probar • intentar",
+      "translation": "probar • degustar",
       "explanation": [
-        "Idea principal: probieren significa probar o saborear.",
-        "Cuando se trata de comida o bebida, probieren a menudo significa probar.",
-        "Cuando se trata de una acción, método o cosa, probieren significa intentar.",
-        "No es lo mismo que prüfen, que significa comprobar más cuidadosamente."
+        "Idea principal: probieren significa «probar» algo nuevo y también «probar, degustar» una comida o una bebida: Probier mal die Suppe! Ich möchte den Kuchen probieren.",
+        "Formas: probiert, probierte, hat probiert (sin ge-, porque termina en -ieren). Siempre con acusativo: etwas probieren. Derivado con prefijo separable: anprobieren (probarse ropa).",
+        "Con mal suena más amable: Probier mal! — ¡Pruébalo!"
       ],
       "examples": [
         {
@@ -16800,11 +18985,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich möchte den Kuchen probieren.",
-          "lv": "Quiero probar el pastel."
+          "lv": "Me gustaría probar la tarta."
         },
         {
           "de": "Wir probieren eine neue Methode.",
-          "lv": "Estamos probando un nuevo método."
+          "lv": "Probamos un método nuevo."
         },
         {
           "de": "Kann ich die Jacke anprobieren?",
@@ -16813,37 +18998,41 @@ const A1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "probieren",
-          "meaning": "probar / saborear",
-          "example": "Probier mal die Suppe! = ¡Prueba la sopa!"
-        },
-        {
           "word": "versuchen",
-          "meaning": "intentarlo",
-          "example": "Ich versuche es."
+          "meaning": "intentar",
+          "example": "Ich versuche zu schlafen. – Intento dormirme."
         },
         {
-          "word": "prüfen",
-          "meaning": "comprobar",
-          "example": "Ich prüfe die Rechnung."
+          "word": "kosten",
+          "meaning": "probar; costar",
+          "example": "Kosten Sie bitte den Wein. – Pruebe el vino, por favor."
         },
         {
           "word": "anprobieren",
-          "meaning": "probarse",
-          "example": "Ich probiere die Jacke an."
+          "meaning": "probarse (ropa)",
+          "example": "Ich probiere die Schuhe an. – Me pruebo los zapatos."
         }
       ],
-      "tip": {
-        "text": "Recuerda: comida → probieren = probar o saborear."
-      },
+      "tip": [
+        "Probieren — probar una comida o algo nuevo; versuchen — intentar hacer algo: Ich versuche zu kommen.",
+        "Añade mal para suavizar: Probier mal! (¡pruébalo!)."
+      ],
       "important": [
-        "probieren no es la palabra principal para examen formal.",
-        "Normalmente es prudente comprobar un documento o una factura."
+        "Probieren no significa «intentar»; para eso está versuchen.",
+        "El perfecto no lleva ge-: hat probiert, no “hat geprobiert”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "probieren",
+            "probiert",
+            "probierte",
+            "anprobieren"
+          ],
           "purple": [
-            "comprobar"
+            "probar",
+            "degustar",
+            "Pruébalo"
           ]
         },
         "examples": [
@@ -16851,14 +19040,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Probier"
-              ],
-              "yellow": [
-                "Suppe"
               ]
             },
             "lv": {
               "purple": [
-                "¡Prueba"
+                "Prueba"
               ]
             }
           },
@@ -16866,14 +19052,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "probieren"
-              ],
-              "yellow": [
-                "Kuchen"
               ]
             },
             "lv": {
               "purple": [
-                "Quiero"
+                "probar"
               ]
             }
           },
@@ -16881,32 +19064,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "probieren"
-              ],
-              "yellow": [
-                "Methode"
               ]
             },
             "lv": {
               "purple": [
-                "Estamos"
+                "Probamos"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "anprobieren"
-              ],
-              "yellow": [
-                "Jacke"
               ]
             },
             "lv": {
-              "green": [
-                "pielaikot"
-              ],
-              "yellow": [
-                "jaku"
+              "purple": [
+                "probarme"
               ]
             }
           }
@@ -16915,52 +19089,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "probieren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "probar",
-                "probar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Probier"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "versuchen"
               ]
             },
             "meaning": {
               "purple": [
-                "intentarlo"
-              ]
-            },
-            "example": {
-              "green": [
-                "versuche"
+                "intentar"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "prüfen"
+                "kosten"
               ]
             },
             "meaning": {
               "purple": [
-                "comprobar"
-              ]
-            },
-            "example": {
-              "red": [
-                "prüfe"
+                "probar"
               ]
             }
           },
@@ -16972,36 +19118,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pielaikot"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "probiere",
-                "an"
+                "probarse"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "probieren"
-            ],
-            "yellow": [
-              "Recuerda"
-            ],
-            "purple": [
-              "al gusto"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "probieren"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -17024,7 +19152,7 @@ const A1_WORDS = [
     "de": "Pullover",
     "de_article": "der",
     "de_plural": "die Pullover",
-    "lv": "suéter",
+    "lv": "jersey",
     "level": "A1"
   },
   {
@@ -17041,14 +19169,14 @@ const A1_WORDS = [
   },
   {
     "de": "Rad fahren",
-    "lv": "andar en bicicleta",
+    "lv": "ir en bicicleta • montar en bicicleta",
     "level": "A1"
   },
   {
     "de": "Radiergummi",
     "de_article": "der",
     "de_plural": "die Radiergummis",
-    "lv": "borrador",
+    "lv": "goma de borrar",
     "level": "A1"
   },
   {
@@ -17081,7 +19209,7 @@ const A1_WORDS = [
   },
   {
     "de": "regnen",
-    "lv": "Está lloviendo",
+    "lv": "llover",
     "level": "A1"
   },
   {
@@ -17093,36 +19221,64 @@ const A1_WORDS = [
       "id": "a1-reis",
       "layout": "standardStudy",
       "translation": "arroz",
-      "explanation": "En alemán, la palabra \"der Reis\" sólo se usa en singular, por lo que el verbo en la oración debe estar en forma singular (por ejemplo, \"ist\", no \"sind\"). Los letones, sin embargo, suelen decir \"arroz\".",
+      "explanation": [
+        "Idea principal: der Reis es un sustantivo masculino: el arroz, como cereal y como alimento. Es un sustantivo incontable que va en singular, igual que en español: Der Reis ist fertig (el arroz está listo).",
+        "Normalmente no se usa en plural; si hace falta, se habla de variedades: Reissorten. En nombres de platos: Reis mit Gemüse (arroz con verduras), Milchreis (arroz con leche), Reiskocher (arrocera).",
+        "Reis y Reise (viaje) son palabras distintas."
+      ],
       "examples": [
         {
           "de": "Der Reis ist fertig.",
           "lv": "El arroz está listo."
         },
         {
-          "de": "Ich esse Reis.",
-          "lv": "Yo como arroz."
+          "de": "Ich esse gern Reis mit Gemüse.",
+          "lv": "Me gusta comer arroz con verduras."
         },
         {
-          "de": "Kochst du Reis?",
-          "lv": "¿Cocinas arroz?"
+          "de": "Kochst du heute Reis?",
+          "lv": "¿Haces arroz hoy?"
         },
         {
           "de": "Der Reis schmeckt gut.",
-          "lv": "El arroz sabe bien."
+          "lv": "El arroz está bueno."
         }
       ],
-      "tip": {
-        "text": "Recuerde: der Reis es singular en alemán, pero normalmente se dice arroz en español."
-      },
+      "comparison": [
+        {
+          "word": "die Nudeln",
+          "meaning": "pasta, fideos",
+          "example": "Ich koche Nudeln. – Hago pasta."
+        },
+        {
+          "word": "die Kartoffeln",
+          "meaning": "patatas",
+          "example": "Wir essen Kartoffeln. – Comemos patatas."
+        },
+        {
+          "word": "das Brot",
+          "meaning": "pan",
+          "example": "Ich kaufe Brot. – Compro pan."
+        }
+      ],
+      "tip": [
+        "Der Reis se usa sin plural y sin artículo cuando se habla del alimento en general: Ich esse Reis.",
+        "Distingue Reis (arroz) de Reise (viaje): Reise termina en -e."
+      ],
       "important": [
-        "der Reis - en alemán sólo en singular (Der Reis ist..., nicht *sind).",
-        "En la traducción al letón se suele utilizar el plural: el arroz está listo."
+        "Reis va en singular, como «arroz»; no le añadas -e para formar un plural: die Reise es «el viaje».",
+        "Der Reis, no “die Reis”."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Reis",
+            "der Reis",
+            "Reissorten",
+            "Milchreis",
+            "Reise"
+          ],
           "purple": [
-            "en singular",
             "arroz"
           ]
         },
@@ -17130,8 +19286,31 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "Reis",
-                "ist"
+                "Reis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arroz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Reis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "arroz"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Reis"
               ]
             },
             "lv": {
@@ -17153,12 +19332,52 @@ const A1_WORDS = [
             }
           }
         ],
-        "tip": {
-          "purple": [
-            "singular",
-            "arroz"
-          ]
-        }
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Nudeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pasta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Kartoffeln"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "patatas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Brot"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "pan"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
       }
     }
   },
@@ -17205,7 +19424,7 @@ const A1_WORDS = [
     "de": "Saft",
     "de_article": "der",
     "de_plural": "die Säfte",
-    "lv": "jugo",
+    "lv": "zumo",
     "level": "A1"
   },
   {
@@ -17217,62 +19436,177 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "decir",
       "explanation": [
-        "Idea principal: Cuenta una idea, palabra u oración específica.",
-        "sagen significa principalmente: hacer un punto específico.",
-        "A menudo describe: palabras/oraciones.",
-        "sagen se utiliza para un texto determinado específico."
+        "Idea principal: sagen significa «decir»: expresar con palabras algo o una opinión: Was hast du gesagt? Er sagt die Wahrheit. Wie sagt man das auf Deutsch?",
+        "Formas: sagt, sagte, hat gesagt. La persona a la que se dice algo va en dativo y lo que se dice, en acusativo: Ich sage dir die Wahrheit. A menudo va con una subordinada con dass: Sie sagt, dass sie müde ist.",
+        "En estilo directo: Er sagt: „Ich komme.“ Diferencia con sprechen: sagen es decir un contenido concreto; sprechen, hablar (un idioma, con alguien)."
       ],
       "examples": [
         {
           "de": "Was hast du gesagt?",
-          "lv": "¿Qué dijiste?"
+          "lv": "¿Qué has dicho?"
+        },
+        {
+          "de": "Er sagt immer die Wahrheit.",
+          "lv": "Siempre dice la verdad."
+        },
+        {
+          "de": "Wie sagt man das auf Deutsch?",
+          "lv": "¿Cómo se dice eso en alemán?"
+        },
+        {
+          "de": "Sag mir bitte deinen Namen!",
+          "lv": "¡Dime tu nombre, por favor!"
+        },
+        {
+          "de": "Sie sagt, dass sie müde ist.",
+          "lv": "Dice que está cansada."
         }
       ],
       "comparison": [
         {
-          "word": "sagen",
-          "meaning": "decir (un texto específico)",
-          "example": "Was hast du gesagt? – ¿Qué dijiste?"
+          "word": "sprechen",
+          "meaning": "hablar",
+          "example": "Ich spreche Deutsch. – Hablo alemán."
         },
         {
-          "word": "sprechen",
-          "meaning": "hablar (un idioma o conversar)",
-          "example": "Ich spreche Deutsch. – Hablo alemán."
+          "word": "erzählen",
+          "meaning": "contar",
+          "example": "Er erzählt eine Geschichte. – Cuenta una historia."
+        },
+        {
+          "word": "meinen",
+          "meaning": "opinar, querer decir",
+          "example": "Was meinst du? – ¿Tú qué opinas?"
         }
       ],
       "tip": [
-        "sagen = decir",
-        "Utilice sagen cuando el contexto se ajuste a este significado."
+        "Sagen + dativo (¿a quién?) + acusativo (¿qué?): Ich sage dir etwas.",
+        "Después de sagen suele venir una subordinada con dass o el estilo directo."
       ],
       "important": [
-        "sagen = decir.",
-        "Para transmitir un pensamiento, palabra u oración específica."
+        "No confundas sagen (decir) con sprechen (hablar un idioma o con alguien): Ich spreche Deutsch, no “Ich sage Deutsch”.",
+        "Sagen es regular: sagte, gesagt."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sagen",
+            "sagt",
+            "sagte",
+            "gesagt",
+            "sprechen"
+          ],
           "purple": [
-            "Idea"
+            "decir"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "gesagt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dicho"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sagt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "dice"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sagt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se dice"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Dime"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sagt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Dice"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sprechen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hablar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erzählen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "contar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "meinen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "opinar"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "sagen"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "sagen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -17312,95 +19646,180 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "mirar",
       "explanation": [
-        "Idea principal: Mirar o mirar activamente.",
-        "Schauen significa principalmente: observar activamente.",
-        "A menudo describe: acción.",
-        "Schauen significa mirar activamente."
+        "Idea principal: schauen significa «mirar, echar un vistazo», es decir, dirigir la vista hacia algo: Wir schauen aus dem Fenster. En el sur de Alemania, en Austria y en Suiza se usa muchísimo; en el norte se prefiere gucken o sehen.",
+        "Formas: schaut, schaute, hat geschaut. Va a menudo con preposiciones: auf + acusativo (Er schaut auf die Uhr), aus dem Fenster (por la ventana), nach + dativo (Sie schaut nach dem Kind — cuida del niño). Imperativo: Schau mal! — ¡Mira!",
+        "La frase Ich schaue fern significa «veo la tele»."
       ],
       "examples": [
         {
           "de": "Ich schaue fern.",
-          "lv": "Veo la televisión."
+          "lv": "Veo la tele."
         },
         {
           "de": "Wir schauen aus dem Fenster.",
           "lv": "Miramos por la ventana."
         },
         {
-          "de": "Ich schaue fern.",
-          "lv": "Veo la televisión."
+          "de": "Schau mal, wer da kommt!",
+          "lv": "¡Mira quién viene!"
+        },
+        {
+          "de": "Er schaut auf die Uhr.",
+          "lv": "Mira el reloj."
+        },
+        {
+          "de": "Sie schaut nach dem Kind.",
+          "lv": "Cuida del niño."
         }
       ],
       "comparison": [
         {
-          "word": "schauen",
-          "meaning": "mirar (activamente)",
-          "example": "Ich schaue aus dem Fenster. – Estoy mirando por la ventana."
+          "word": "sehen",
+          "meaning": "ver",
+          "example": "Ich sehe einen Vogel. – Veo un pájaro."
         },
         {
-          "word": "sehen",
-          "meaning": "ver (sin intención)",
-          "example": "Ich sehe dich. – Te veo."
+          "word": "ansehen",
+          "meaning": "mirar con atención, ver (una película)",
+          "example": "Ich sehe mir den Film an. – Veo la película."
+        },
+        {
+          "word": "gucken",
+          "meaning": "mirar (coloquial)",
+          "example": "Guck mal! – ¡Mira!"
         }
       ],
       "tip": [
-        "schauen = mirar",
-        "Utilice schauen cuando el contexto se ajuste a este significado."
+        "Schau mal! y Guck mal! son formas coloquiales de llamar la atención.",
+        "Schauen auf + acusativo: mirar algo concreto."
       ],
       "important": [
-        "schauen = mirar.",
-        "Observa o mira activamente."
+        "Schauen y sehen: sehen es ver (la capacidad); schauen, mirar de forma consciente, como la diferencia entre «ver» y «mirar».",
+        "En el norte de Alemania se dice más sehen o gucken; en el sur, schauen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "schauen",
+            "schaut",
+            "schaute",
+            "geschaut",
+            "Schau mal",
+            "gucken"
+          ],
           "purple": [
-            "mirar"
+            "mirar",
+            "echar un vistazo",
+            "cuida"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
                 "schaue"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "schauen",
-                "schauen"
               ]
             },
             "lv": {
               "purple": [
-                "miramos"
+                "Veo"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "schaue"
+              "blue": [
+                "schauen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Miramos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Schau"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Mira"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Mira"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schaut"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Cuida"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "sehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ver"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ansehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ver"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gucken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "mirar"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "mirar"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "schauen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -17424,7 +19843,7 @@ const A1_WORDS = [
     "de": "Schlüssel",
     "de_article": "der",
     "de_plural": "die Schlüssel",
-    "lv": "la clave",
+    "lv": "llave",
     "level": "A1"
   },
   {
@@ -17445,7 +19864,7 @@ const A1_WORDS = [
   },
   {
     "de": "schneien",
-    "lv": "Está nevando",
+    "lv": "nevar",
     "level": "A1"
   },
   {
@@ -17468,40 +19887,164 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "ya",
       "explanation": [
-        "Idea principal: Algo ya ha sucedido o ya está en vigor.",
-        "schon significa principalmente: algo ya ha sucedido o está en vigor.",
-        "A menudo describe: un hecho que sucedió o un estado existente.",
-        "schon significa ya: algo ya ha sucedido o ya está en vigor."
+        "Idea principal: schon es un adverbio que significa «ya»: indica que algo ha ocurrido antes o más deprisa de lo esperado: Ich bin schon zu Hause. Hast du schon gegessen?",
+        "Suele ir detrás del verbo o delante de la palabra que se resalta. En el habla coloquial, schon también puede ser una partícula que confirma o tranquiliza: Das ist schon gut (sí que está bien), Es wird schon gehen (ya saldrá bien).",
+        "Contrario: noch nicht — todavía no."
       ],
       "examples": [
         {
           "de": "Ich bin schon zu Hause.",
-          "lv": "Ya estoy en casa"
+          "lv": "Ya estoy en casa."
+        },
+        {
+          "de": "Hast du schon gegessen?",
+          "lv": "¿Ya has comido?"
+        },
+        {
+          "de": "Es ist schon spät.",
+          "lv": "Ya es tarde."
+        },
+        {
+          "de": "Wie lange wohnst du schon hier?",
+          "lv": "¿Cuánto tiempo llevas viviendo aquí?"
+        },
+        {
+          "de": "Es wird schon gehen.",
+          "lv": "Ya saldrá bien."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "noch",
+          "meaning": "todavía",
+          "example": "Ich bin noch nicht fertig. – Todavía no estoy listo."
+        },
+        {
+          "word": "erst",
+          "meaning": "solo, apenas (tiempo)",
+          "example": "Es ist erst acht Uhr. – Solo son las ocho."
+        },
+        {
+          "word": "bereits",
+          "meaning": "ya (formal)",
+          "example": "Er ist bereits abgereist. – Ya se ha marchado."
         }
       ],
       "tip": [
-        "Algo ya ha sucedido o ya está en vigor.",
-        "Utilice schon cuando el contexto se ajuste a este significado."
+        "Noch nicht = todavía no; schon = ya: Hast du schon gegessen? – Nein, noch nicht.",
+        "Schon en una pregunta suele esperar un «sí» como respuesta."
       ],
       "important": [
-        "schon = ya.",
-        "Algo ya ha sucedido o ya está en vigor."
+        "Schon no significa «bonito»; «bonito» es schön: se escriben y se pronuncian de forma distinta.",
+        "Si algo ocurre más tarde de lo esperado, se dice erst: Er kommt erst um zehn."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "schon",
+            "noch nicht",
+            "Es wird schon gehen"
+          ],
           "purple": [
-            "ya"
+            "ya",
+            "todavía no",
+            "ya saldrá bien"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "schon",
                 "schon"
               ]
             },
             "lv": {
+              "purple": [
+                "Ya"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ya"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ya"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "llevas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ya saldrá bien"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "noch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "todavía"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "erst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apenas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bereits"
+              ]
+            },
+            "meaning": {
               "purple": [
                 "ya"
               ]
@@ -17509,18 +20052,12 @@ const A1_WORDS = [
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "ya"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "schon"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -17560,7 +20097,7 @@ const A1_WORDS = [
     "de": "Schüler",
     "de_article": "der",
     "de_plural": "die Schüler",
-    "lv": "un estudiante",
+    "lv": "alumno",
     "level": "A1"
   },
   {
@@ -17591,62 +20128,70 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "nadar",
       "explanation": [
-        "Idea principal: schwimmen significa nadar como movimiento o deporte.",
-        "Schwimmen se utiliza cuando una persona nada en el agua con un movimiento de nado.",
-        "Cuando se trata de relajarse en el agua o nadar, se suele utilizar baden.",
-        "En el nivel A1 es importante distinguir: schwimmen = nadar, baden = bañarse."
+        "Idea principal: schwimmen significa «nadar»: desplazarse por el agua o mantenerse a flote: Ich schwimme gern. Wir schwimmen im Schwimmbad.",
+        "Formas: schwimmt, schwamm, ist geschwommen (verbo fuerte). Cuando hay dirección, el perfecto lleva ist: Sie ist über den See geschwommen; también para la actividad en sí se usa mucho ist en la lengua estándar (Ich bin gestern geschwommen), y a veces hat.",
+        "El español distingue entre «nadar» y «bañarse»; en alemán, bañarse en el mar o en un lago se dice normalmente baden: Wir baden im Meer."
       ],
       "examples": [
         {
           "de": "Ich schwimme gern.",
-          "lv": "Me gusta nadar"
+          "lv": "Me gusta nadar."
         },
         {
           "de": "Er schwimmt sehr gut.",
-          "lv": "Él nada muy bien."
+          "lv": "Nada muy bien."
         },
         {
           "de": "Wir schwimmen im Schwimmbad.",
           "lv": "Nadamos en la piscina."
         },
         {
-          "de": "Ich gehe baden.",
-          "lv": "Voy a nadar"
+          "de": "Sie ist über den See geschwommen.",
+          "lv": "Cruzó el lago a nado."
+        },
+        {
+          "de": "Kannst du schon schwimmen?",
+          "lv": "¿Ya sabes nadar?"
         }
       ],
       "comparison": [
         {
-          "word": "schwimmen",
-          "meaning": "nadar como movimiento o deporte",
-          "example": "Er schwimmt sehr gut."
-        },
-        {
           "word": "baden",
-          "meaning": "nadar / estar en el agua",
-          "example": "Ich gehe baden."
+          "meaning": "bañarse; darse un baño",
+          "example": "Wir baden im Meer. – Nos bañamos en el mar."
         },
         {
-          "word": "schwimmen gehen",
-          "meaning": "irse nadando",
-          "example": "Wir gehen schwimmen."
+          "word": "tauchen",
+          "meaning": "bucear, sumergirse",
+          "example": "Er taucht tief. – Bucea a mucha profundidad."
         },
         {
-          "word": "duschen",
-          "meaning": "tomar una ducha",
-          "example": "Ich dusche morgens."
+          "word": "segeln",
+          "meaning": "navegar a vela",
+          "example": "Wir segeln im Sommer. – En verano navegamos a vela."
         }
       ],
-      "tip": {
-        "text": "Recuerde: movimiento de natación → schwimmen; descansar en agua → baden."
-      },
+      "tip": [
+        "Schwimmen – schwamm – geschwommen: aprende las tres formas juntas.",
+        "Nadar = schwimmen; bañarse, disfrutar del agua = baden."
+      ],
       "important": [
-        "schwimmen y baden no son lo mismo.",
-        "En español se suele decir \"nadar\", pero en alemán hay que comprobar si se trata de movimiento o de baño."
+        "En el perfecto, schwimmen suele llevar ist geschwommen, no “hat”.",
+        "El sustantivo das Schwimmen significa «la natación» (el deporte)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "schwimmen",
+            "schwimmt",
+            "schwamm",
+            "geschwommen",
+            "ist geschwommen",
+            "baden"
+          ],
           "purple": [
-            "nadar"
+            "nadar",
+            "bañarse"
           ]
         },
         "examples": [
@@ -17670,7 +20215,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nada"
+                "Nada"
               ]
             }
           },
@@ -17678,25 +20223,34 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "schwimmen"
-              ],
-              "green": [
-                "Schwimmbad"
               ]
             },
             "lv": {
               "purple": [
-                "nadamos"
+                "Nadamos"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "baden"
+              "blue": [
+                "geschwommen"
               ]
             },
             "lv": {
-              "red": [
+              "purple": [
+                "a nado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwimmen"
+              ]
+            },
+            "lv": {
+              "purple": [
                 "nadar"
               ]
             }
@@ -17706,95 +20260,47 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "schwimmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "nadar",
-                "movimiento",
-                "deporte"
-              ]
-            },
-            "example": {
-              "blue": [
-                "schwimmt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "baden"
               ]
             },
             "meaning": {
               "purple": [
-                "nadar",
-                "nadar"
-              ]
-            },
-            "example": {
-              "red": [
-                "baden"
+                "bañarse"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "schwimmen gehen"
+                "tauchen"
               ]
             },
             "meaning": {
               "purple": [
-                "irse nadando"
-              ]
-            },
-            "example": {
-              "green": [
-                "schwimmen"
+                "bucear"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "duschen"
+                "segeln"
               ]
             },
             "meaning": {
               "purple": [
-                "tomar una ducha"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "dusche"
+                "navegar a vela"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "schwimmen"
-            ],
-            "purple": [
-              "movimiento de natación"
-            ],
-            "red": [
-              "baden",
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "schwimmen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -17843,63 +20349,69 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "ver",
       "explanation": [
-        "Idea principal: sehen significa ver con los ojos.",
-        "Si se trata de lo que los ojos perciben, usa sehen.",
-        "Mirar deliberadamente es a menudo schauen o ansehen.",
-        "Una frase muy común es Ich sehe dich. = Te veo."
+        "Idea principal: sehen significa ver con los ojos, es decir, percibir lo que hay alrededor o delante. Es un verbo fuerte: ich sehe, du siehst, er sieht (la e cambia a ie); pretérito sah, perfecto hat gesehen.",
+        "Normalmente lleva un complemento en acusativo: Ich sehe einen Hund. En la forma reflexiva, sich sehen significa verse o encontrarse con alguien: Wir sehen uns morgen.",
+        "Cuando se mira de forma consciente, durante un rato o hacia algo concreto, se suele usar schauen o ansehen; sehen expresa más bien el simple hecho de ver."
       ],
       "examples": [
         {
-          "de": "Ich sehe dich.",
-          "lv": "Te veo."
+          "de": "Ich sehe einen Vogel im Garten.",
+          "lv": "Veo un pájaro en el jardín."
         },
         {
-          "de": "Siehst du das Auto?",
-          "lv": "¿Ves ese coche?"
+          "de": "Siehst du das Haus dort?",
+          "lv": "¿Ves esa casa de allí?"
         },
         {
-          "de": "Ich sehe nichts.",
-          "lv": "No veo nada."
+          "de": "Ohne Brille sieht er schlecht.",
+          "lv": "Sin gafas ve mal."
         },
         {
-          "de": "Wir schauen einen Film.",
-          "lv": "estamos viendo una película."
+          "de": "Wir sehen uns morgen.",
+          "lv": "Nos vemos mañana."
+        },
+        {
+          "de": "Hast du gestern den Film gesehen?",
+          "lv": "¿Viste ayer la película?"
         }
       ],
       "comparison": [
         {
-          "word": "sehen",
-          "meaning": "ver",
-          "example": "Ich sehe dich."
-        },
-        {
           "word": "schauen",
           "meaning": "mirar",
-          "example": "Ich schaue auf das Bild."
+          "example": "Schau mal, der Hund! – ¡Mira, el perro!"
         },
         {
           "word": "ansehen",
-          "meaning": "ver / mirar",
-          "example": "Ich sehe mir den Film an."
+          "meaning": "mirar con atención, contemplar",
+          "example": "Ich sehe mir das Bild an. – Miro el cuadro con atención."
         },
         {
-          "word": "hören",
-          "meaning": "escuchar",
-          "example": "Ich höre Musik."
+          "word": "blicken",
+          "meaning": "mirar, dirigir la mirada",
+          "example": "Sie blickt aus dem Fenster. – Ella mira por la ventana."
         }
       ],
-      "tip": {
-        "text": "Recuerda: los ojos perciben → sehen; mirar conscientemente → schauen/ansehen."
-      },
+      "tip": [
+        "Memoriza las formas du siehst / er sieht: es uno de los errores más frecuentes, porque la e cambia a ie.",
+        "Sehen también significa \"entender\" en expresiones como Ich sehe, was du meinst."
+      ],
       "important": [
-        "sehen no es lo mismo que anschauen.",
-        "Te veo = veo; veo la película = miro la película."
+        "No se dice sehst ni sehet: lo correcto es du siehst, er sieht.",
+        "Para decir que se mira algo con atención (una película, una foto) se suele usar sich (Dat) + ansehen, no solo sehen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sehen",
+            "sehe",
+            "siehst",
+            "sieht",
+            "sah",
+            "gesehen"
+          ],
           "purple": [
-            "ver",
-            "ojos"
+            "ver"
           ]
         },
         "examples": [
@@ -17910,7 +20422,9 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": []
+              "purple": [
+                "Veo"
+              ]
             }
           },
           {
@@ -17921,51 +20435,48 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "redzi"
+                "Ves"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "sehe"
+                "sieht"
               ]
             },
             "lv": {
-              "purple": []
+              "purple": [
+                "ve"
+              ]
             }
           },
           {
             "de": {
-              "red": [
-                "schauen"
+              "blue": [
+                "sehen"
               ]
             },
             "lv": {
-              "red": [
-                "estamos"
+              "purple": [
+                "vemos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "gesehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Viste"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "sehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ver"
-              ]
-            },
-            "example": {
-              "blue": [
-                "sehe"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -17975,11 +20486,6 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "mirar"
-              ]
-            },
-            "example": {
-              "red": [
-                "schaue"
               ]
             }
           },
@@ -17991,55 +20497,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "ver",
-                "mirar"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "sehe",
-                "an"
+                "mirar con atención"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "hören"
+                "blicken"
               ]
             },
             "meaning": {
               "purple": [
-                "escuchar"
-              ]
-            },
-            "example": {
-              "green": [
-                "Escucho"
+                "dirigir la mirada"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "sehen"
-            ],
-            "purple": [
-              "Recuerda"
-            ],
-            "red": [
-              "schauen",
-              "ansehen"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "sehen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -18065,63 +20546,72 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "ser",
       "explanation": [
-        "Idea principal: sein significa ser.",
-        "sein es uno de los verbos alemanes más importantes.",
-        "En el nivel A1, las formas particularmente importantes son ich bin, du bist, er ist y wir sind.",
-        "sein también se usa en muchas oraciones locativas o características."
+        "Idea principal: sein es el verbo básico del alemán y equivale tanto a ser como a estar. Es irregular: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind; pretérito war, perfecto ist gewesen.",
+        "Se usa para decir quién o qué es alguien (Er ist Arzt), cómo es algo (Das Haus ist groß), dónde está alguien (Wir sind hier) y cuántos años tiene (Ich bin 20 Jahre alt). En alemán sein nunca se omite: no se puede decir \"Ich Lehrer\".",
+        "Sein es también verbo auxiliar del perfecto con verbos de movimiento y de cambio de estado (ich bin gefahren, ich bin gewesen)."
       ],
       "examples": [
         {
-          "de": "Ich bin hier.",
-          "lv": "Estoy aquí"
+          "de": "Ich bin müde.",
+          "lv": "Estoy cansado."
         },
         {
-          "de": "Du bist müde.",
-          "lv": "Estás cansado."
+          "de": "Er ist Arzt.",
+          "lv": "Es médico."
         },
         {
-          "de": "Er ist Lehrer.",
-          "lv": "Él es un maestro."
+          "de": "Wir sind heute zu Hause.",
+          "lv": "Hoy estamos en casa."
         },
         {
-          "de": "Wir sind zu Hause.",
-          "lv": "Estamos en casa."
+          "de": "Gestern war das Wetter schön.",
+          "lv": "Ayer hizo buen tiempo."
+        },
+        {
+          "de": "Seid ihr schon lange hier?",
+          "lv": "¿Hace mucho que estáis aquí?"
         }
       ],
       "comparison": [
         {
-          "word": "sein",
-          "meaning": "ser",
-          "example": "Ich bin hier."
-        },
-        {
           "word": "haben",
-          "meaning": "tengo",
-          "example": "Ich habe Zeit."
+          "meaning": "tener",
+          "example": "Ich habe Hunger. – Tengo hambre."
         },
         {
           "word": "werden",
-          "meaning": "convertirse en",
-          "example": "Ich werde müde."
+          "meaning": "llegar a ser, hacerse",
+          "example": "Er wird Arzt. – Va a ser médico."
         },
         {
           "word": "bleiben",
-          "meaning": "permanecer",
-          "example": "Ich bleibe hier."
+          "meaning": "quedarse",
+          "example": "Wir bleiben hier. – Nos quedamos aquí."
         }
       ],
-      "tip": {
-        "text": "Recuerda: ich bin = yo soy/estoy; du bist = tú eres/estás."
-      },
+      "tip": [
+        "Aprende las formas bin – bist – ist – sind – seid – sind como una serie; se usan muchísimo.",
+        "La profesión se dice sin artículo, igual que en español (soy profesor): Ich bin Lehrer."
+      ],
       "important": [
-        "Las formas sein deben aprenderse por separado: bin, bist, ist, sind.",
-        "Ich bin significa «yo soy/estoy», no «yo ser/estar»."
+        "La edad se dice con sein: Ich bin 20 Jahre alt (no con \"habe\", aunque en español se use tener).",
+        "El hambre y la sed se expresan con haben: Ich habe Hunger, Ich habe Durst."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sein",
+            "bin",
+            "bist",
+            "ist",
+            "sind",
+            "seid",
+            "war",
+            "ist gewesen"
+          ],
           "purple": [
             "ser",
-            "característica"
+            "estar"
           ]
         },
         "examples": [
@@ -18133,19 +20623,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "estoy"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bist"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "cansado"
+                "Estoy"
               ]
             }
           },
@@ -18157,7 +20635,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "maestro"
+                "Es"
               ]
             }
           },
@@ -18172,26 +20650,33 @@ const A1_WORDS = [
                 "estamos"
               ]
             }
-          }
-        ],
-        "comparison": [
+          },
           {
-            "word": {
-              "green": [
-                "sein"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ser"
-              ]
-            },
-            "example": {
+            "de": {
               "blue": [
-                "bin"
+                "war"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hizo"
               ]
             }
           },
+          {
+            "de": {
+              "blue": [
+                "Seid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "estáis"
+              ]
+            }
+          }
+        ],
+        "comparison": [
           {
             "word": {
               "green": [
@@ -18200,12 +20685,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "tengo"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "habe"
+                "tener"
               ]
             }
           },
@@ -18217,12 +20697,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "convertirse en"
-              ]
-            },
-            "example": {
-              "green": [
-                "werde"
+                "llegar a ser"
               ]
             }
           },
@@ -18234,34 +20709,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "permanecer"
-              ]
-            },
-            "example": {
-              "red": [
-                "bleibe"
+                "quedarse"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "ich bin",
-              "du bist"
-            ],
-            "purple": [
-              "yo soy/estoy",
-              "tú eres/estás"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "Las"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -18282,51 +20741,72 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "página • lado",
       "explanation": [
-        "Idea principal: die Seite puede significar la página de un libro/documento o el lado/borde de algo.",
-        "En un libro, revista o sitio web die Seite = página (Página 5 = página 5).",
-        "En el sentido espacial, die Seite = lado (auf der linken Seite = a la izquierda).",
-        "En sentido figurado, die Seite también puede significar un lado en conflicto o pensamientos (auf meiner Seite = de mi lado).",
-        "El contexto (libro/lectura o posición/relación) muestra el significado correcto.",
-        "Plural para ambos significados: die Seiten."
+        "Idea principal: die Seite es un sustantivo femenino; plural die Seiten. Tiene varios significados: página de un libro o cuaderno (Seite 5), lado (linke Seite, el lado izquierdo), página web y aspecto de algo (eine gute Seite, un lado bueno).",
+        "La página se indica con auf Seite + número, sin artículo: auf Seite 20. Cuando se habla de una posición se usa auf der Seite (Dat): auf der rechten Seite.",
+        "La hoja de papel como objeto suelto se llama das Blatt, no die Seite."
       ],
       "examples": [
         {
-          "de": "Schlagt die Seite zwanzig auf.",
-          "lv": "Abra la página veinte."
+          "de": "Bitte öffnen Sie das Buch auf Seite 20.",
+          "lv": "Por favor, abran el libro por la página 20."
         },
         {
-          "de": "Auf der linken Seite ist ein Park.",
-          "lv": "A la izquierda hay un parque."
+          "de": "Die Bank ist auf der anderen Seite der Straße.",
+          "lv": "El banco está al otro lado de la calle."
         },
         {
-          "de": "Die Webseite lädt langsam.",
-          "lv": "La página web se carga lentamente."
+          "de": "Auf der linken Seite steht ein Baum.",
+          "lv": "En el lado izquierdo hay un árbol."
         },
         {
-          "de": "Er steht auf meiner Seite.",
-          "lv": "Él está de mi lado."
+          "de": "Diese Seite lädt sehr langsam.",
+          "lv": "Esta página carga muy despacio."
         },
         {
-          "de": "Das Buch hat 200 Seiten.",
-          "lv": "El libro tiene 200 páginas."
+          "de": "Er hat auch gute Seiten.",
+          "lv": "También tiene sus lados buenos."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Blatt",
+          "meaning": "hoja",
+          "example": "Ich brauche ein Blatt Papier. – Necesito una hoja de papel."
         },
         {
-          "de": "Auf der anderen Seite der Straße.",
-          "lv": "Al otro lado de la calle."
+          "word": "die Richtung",
+          "meaning": "dirección",
+          "example": "In welche Richtung gehst du? – ¿En qué dirección vas?"
+        },
+        {
+          "word": "die Webseite",
+          "meaning": "página web, sitio web",
+          "example": "Die Webseite ist neu. – La página web es nueva."
         }
       ],
       "tip": [
-        "Hablar de un libro o leer → página. Habla de posición, dirección o relación → lado.",
-        "La página X es siempre una página de un libro, no la mitad."
+        "Recuerda el par: auf Seite 5 (página) y auf der Seite (lado); el artículo solo aparece en el segundo caso.",
+        "La palabra es femenina: die Seite, eine Seite."
       ],
       "important": [
-        "die Seite = página O lado - el contexto decide.",
-        "Plural para ambos significados: die Seiten."
+        "Una hoja de papel suelta no se llama die Seite, sino das Blatt.",
+        "El plural die Seiten siempre termina en -n."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "die Seite",
+            "Seite",
+            "Seiten",
+            "auf Seite",
+            "auf der Seite",
+            "das Blatt"
+          ],
           "purple": [
-            "lado"
+            "página",
+            "lado",
+            "página web",
+            "aspecto"
           ]
         },
         "examples": [
@@ -18338,43 +20818,43 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "lappusi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Seite"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "izquierda"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Webseite"
-              ]
-            },
-            "lv": {
-              "purple": [
                 "página"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Seite"
               ]
             },
             "lv": {
               "purple": [
-                "está"
+                "lado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Seite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Seite"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "página"
               ]
             }
           },
@@ -18386,36 +20866,56 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "libro"
+                "lados"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Blatt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hoja"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Seite"
+                "die Richtung"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "otro"
+                "dirección"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Webseite"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sitio web"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Hablar"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "lado"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -18435,71 +20935,78 @@ const A1_WORDS = [
   },
   {
     "de": "sich",
-    "lv": "usted mismo • para usted mismo",
+    "lv": "se • sí mismo",
     "level": "A1",
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "se • a sí mismo",
+      "translation": "se • sí mismo",
       "explanation": [
-        "Idea principal: esto muestra que la acción se refiere al propio hacedor.",
-        "En español, a menudo se traduce como uno mismo o uno mismo.",
-        "En algunos verbos alemanes, sich es una parte obligatoria, como por ejemplo sich waschen.",
-        "Importante tener en cuenta en el nivel A1: ich wasche mich, er wäscht sich."
+        "Idea principal: sich es el pronombre reflexivo de la 3.ª persona y de la forma de cortesía Sie: indica que la acción recae sobre el propio sujeto. En acusativo y en dativo la forma es la misma: sich.",
+        "Las demás personas tienen otras formas: ich – mich, du – dich, wir – uns, ihr – euch. Por ejemplo, er wäscht sich (él se lava), pero ich wasche mich (yo me lavo).",
+        "Muchos verbos alemanes son reflexivos (sich freuen, sich setzen, sich vorstellen) y en español suelen corresponder a verbos pronominales: alegrarse, sentarse, presentarse."
       ],
       "examples": [
         {
-          "de": "Er wäscht sich.",
-          "lv": "él se está bañando."
+          "de": "Er wäscht sich jeden Morgen.",
+          "lv": "Se lava todas las mañanas."
         },
         {
-          "de": "Ich setze mich.",
-          "lv": "Me siento."
+          "de": "Sie freut sich auf das Wochenende.",
+          "lv": "Está deseando que llegue el fin de semana."
         },
         {
-          "de": "Sie freut sich.",
-          "lv": "Ella se lava."
+          "de": "Die Kinder setzen sich auf das Sofa.",
+          "lv": "Los niños se sientan en el sofá."
         },
         {
-          "de": "Ich wasche das Auto.",
-          "lv": "Me lavo."
+          "de": "Er kauft sich ein neues Handy.",
+          "lv": "Se compra un móvil nuevo."
+        },
+        {
+          "de": "Sie stellt sich kurz vor.",
+          "lv": "Se presenta brevemente."
         }
       ],
       "comparison": [
         {
-          "word": "sich",
-          "meaning": "se / a sí mismo",
-          "example": "Er wäscht sich."
-        },
-        {
           "word": "mich",
-          "meaning": "me / a mí mismo con ich",
-          "example": "Ich wasche mich."
+          "meaning": "me (a mí mismo)",
+          "example": "Ich wasche mich. – Me lavo."
         },
         {
-          "word": "dich",
-          "meaning": "te / a ti mismo con du",
-          "example": "Du wäschst dich."
+          "word": "uns",
+          "meaning": "nos (a nosotros mismos)",
+          "example": "Wir freuen uns. – Nos alegramos."
         },
         {
-          "word": "ihn",
-          "meaning": "a él",
-          "example": "Ich sehe ihn."
+          "word": "einander",
+          "meaning": "el uno al otro, mutuamente",
+          "example": "Sie helfen einander. – Se ayudan mutuamente."
         }
       ],
-      "tip": {
-        "text": "Recuerda: acción sobre uno mismo → sich/mich/dich."
-      },
+      "tip": [
+        "También con la forma de cortesía Sie se usa sich en minúscula: Setzen Sie sich!",
+        "Aprende los verbos reflexivos junto con sich: sich freuen, sich setzen."
+      ],
       "important": [
-        "sich no es un sustantivo independiente.",
-        "Cambia según la persona: ich → mich, du → dich, er/sie/es → sich."
+        "Sich no se puede usar con ich, du, wir, ihr: ahí hacen falta mich, dich, uns, euch.",
+        "En plural, Sie sehen sich puede significar tanto \"se ven a sí mismos\" como \"se ven el uno al otro\"; lo aclara el contexto."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sich",
+            "mich",
+            "dich",
+            "uns",
+            "euch",
+            "wäscht sich"
+          ],
           "purple": [
-            "Idea",
-            "se",
-            "Idea"
+            "reflexivo",
+            "acción",
+            "propio sujeto"
           ]
         },
         "examples": [
@@ -18511,19 +21018,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "está"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "mich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "siento"
+                "Se lava"
               ]
             }
           },
@@ -18535,25 +21030,43 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "es feliz"
+                "deseando"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "wasche"
-              ],
-              "yellow": [
-                "Auto"
+              "blue": [
+                "sich"
               ]
             },
             "lv": {
-              "red": [
-                "lavo"
-              ],
-              "yellow": [
-                "auto"
+              "purple": [
+                "se sientan"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se compra"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sich"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se presenta"
               ]
             }
           }
@@ -18562,103 +21075,47 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "sich"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sevi",
-                "sev"
-              ]
-            },
-            "example": {
-              "blue": [
-                "sich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "mich"
               ]
             },
             "meaning": {
               "purple": [
-                "mani",
-                "sevi"
-              ]
-            },
-            "example": {
-              "green": [
-                "mich"
+                "me"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "dich"
+                "uns"
               ]
             },
             "meaning": {
               "purple": [
-                "tevi",
-                "sevi"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "lavas"
+                "nos"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "ihn"
+                "einander"
               ]
             },
             "meaning": {
               "purple": [
-                "a él"
-              ]
-            },
-            "example": {
-              "red": [
-                "ihn"
+                "el uno al otro"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "sich"
-            ],
-            "purple": [
-              "acción sobre uno mismo"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "sich"
-            ],
-            "red": [
-              "sustantivo"
-            ]
-          },
-          {
-            "green": [
-              "mich",
-              "dich"
-            ],
-            "blue": [
-              "sich"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -18672,103 +21129,76 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "seguro • ciertamente",
       "explanation": [
-        "Idea principal: sicher como adjetivo significa seguro, como adverbio significa ciertamente/probablemente.",
-        "Cuando se habla de un lugar, situación o persona, sicher = seguro (ein sicherer Ort = lugar seguro).",
-        "Como confirmación o seguridad en una oración, sicher = ciertamente/por supuesto (Das ist sicher wahr. = Es ciertamente cierto).",
-        "¡con seguridad! como respuesta separada significa ¡por supuesto!/probablemente!"
+        "Idea principal: sicher es adjetivo y adverbio. Como adjetivo significa seguro (sin peligro: ein sicherer Weg) o convencido (Ich bin sicher). Como adverbio significa seguramente o ciertamente: Er kommt sicher.",
+        "La expresión sich (Dat) sicher sein significa estar seguro de algo: Ich bin mir sicher. Comparativo y superlativo: sicherer, am sichersten; el sustantivo es die Sicherheit.",
+        "Al principio de la frase, Sicher! puede ser también una respuesta: ¡Claro!"
       ],
       "examples": [
         {
-          "de": "Ist das Wasser sicher?",
-          "lv": "¿El agua es segura?"
+          "de": "Der Weg ist nachts nicht sicher.",
+          "lv": "De noche el camino no es seguro."
         },
         {
-          "de": "Kommst du morgen? – Sicher!",
-          "lv": "¿Vienes mañana? ¡Definitivamente!"
+          "de": "Ich bin mir ganz sicher.",
+          "lv": "Estoy completamente seguro."
         },
         {
-          "de": "Er ist sicher zu Hause.",
-          "lv": "Seguramente esté en casa."
+          "de": "Er kommt sicher heute noch.",
+          "lv": "Seguro que viene hoy mismo."
         },
         {
-          "de": "Das ist eine sichere Lösung.",
-          "lv": "Es una solución segura."
+          "de": "Das Kind fährt schon sicher Fahrrad.",
+          "lv": "El niño ya monta en bici con seguridad."
         },
         {
-          "de": "Ich bin mir sicher.",
-          "lv": "Estoy seguro"
+          "de": "Sicher, ich helfe dir gern.",
+          "lv": "Claro, te ayudo con mucho gusto."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "bestimmt",
+          "meaning": "seguro, sin duda",
+          "example": "Er kommt bestimmt. – Viene sin duda."
         },
         {
-          "de": "Fahr sicher!",
-          "lv": "¡Conduce con cuidado!"
+          "word": "vielleicht",
+          "meaning": "quizá, tal vez",
+          "example": "Vielleicht kommt er. – Quizá venga."
+        },
+        {
+          "word": "gefährlich",
+          "meaning": "peligroso",
+          "example": "Der Weg ist gefährlich. – El camino es peligroso."
         }
       ],
       "tip": [
-        "Sobre un lugar o situación (seguridad) → seguro.",
-        "Como creencia o confirmación en una oración → definitivamente/probablemente."
+        "Con sicher sein se suele usar mir/dir: Ich bin mir sicher suena más natural que solo Ich bin sicher.",
+        "Recuerda el contrario: sicher – unsicher (inseguro)."
       ],
       "important": [
-        "sicher = seguro (adjetivo) O seguramente/probablemente (adverbio).",
-        "sich sicher sein = sin duda."
+        "Sicher como adverbio expresa una gran probabilidad, pero no siempre certeza absoluta.",
+        "No confundas sicher con vielleicht: vielleicht significa solo \"quizá\"."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sicher",
+            "Ich bin mir sicher",
+            "die Sicherheit",
+            "Sicher"
+          ],
           "purple": [
-            "seguro"
+            "seguro",
+            "convencido",
+            "ciertamente",
+            "Claro"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "sicher"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "segura"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Sicher"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "definitivamente"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "sicher"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "probablemente"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sichere"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "segura"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
                 "sicher"
               ]
             },
@@ -18786,31 +21216,92 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "¡Conduce"
+                "seguro"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Seguro"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "con seguridad"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sicher"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Claro"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sin duda"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "vielleicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "quizá"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "gefährlich"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "peligroso"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "seguro"
-            ]
-          },
-          {
-            "green": [
-              "definitivamente",
-              "probablemente"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "seguro",
-              "probablemente"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -18824,64 +21315,92 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "ellos / ella",
       "explanation": [
-        "Idea principal: Plural - habla de más de una persona. El verbo termina en -en: kochen, essen, gehen.",
-        "sie significa principalmente: una mujer.",
-        "A menudo se caracteriza por: verbo singular (-t).",
-        "sie significa principalmente: varias personas.",
-        "A menudo se caracteriza por: verbo plural (-en).",
-        "sie significa principalmente: dirección cortés.",
-        "A menudo descrito: necesariamente con S mayúscula.",
-        "La minúscula sie significa ella cuando el verbo está en singular (Sie kocht = ella cocina)."
+        "Idea principal: sie es un pronombre de 3.ª persona. En singular significa ella (sie ist); en plural, ellos o ellas (sie sind). La terminación del verbo indica de cuál se trata: sie kommt (ella) y sie kommen (ellos).",
+        "Casos: acusativo sie (ich sehe sie), dativo singular ihr, plural ihnen. Si se habla de una cosa con artículo femenino, también se sustituye por sie: die Tasche – sie, aunque en español la palabra sea masculina (el bolso).",
+        "Sie con mayúscula es el tratamiento de cortesía \"usted/ustedes\"; al principio de la frase ayudan a distinguirlo el contexto y la forma verbal."
       ],
       "examples": [
         {
-          "de": "Sie kochen.",
-          "lv": "Ellos cocinan."
+          "de": "Sie ist meine Lehrerin.",
+          "lv": "Ella es mi profesora."
         },
         {
-          "de": "Sie kocht.",
-          "lv": "Ella cocina."
+          "de": "Sie wohnen in Riga.",
+          "lv": "Ellos viven en Riga."
         },
         {
-          "de": "Sie isst.",
-          "lv": "Ella come"
+          "de": "Ich sehe sie jeden Tag.",
+          "lv": "La veo todos los días."
         },
         {
-          "de": "Sie kochen.",
-          "lv": "Ellos cocinan."
+          "de": "Sie sind noch zu Hause.",
+          "lv": "Ellos todavía están en casa."
         },
         {
-          "de": "Sie spielen Fußball.",
-          "lv": "Ellos juegan al fútbol."
+          "de": "Ich gebe ihr das Buch.",
+          "lv": "Le doy el libro."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "er",
+          "meaning": "él",
+          "example": "Er arbeitet. – Él trabaja."
         },
         {
-          "de": "Sie kochen, bitte.",
-          "lv": "Por favor, cocinen."
+          "word": "es",
+          "meaning": "ello, lo (neutro)",
+          "example": "Es regnet. – Llueve."
+        },
+        {
+          "word": "Sie",
+          "meaning": "usted (de cortesía)",
+          "example": "Wie heißen Sie? – ¿Cómo se llama usted?"
         }
       ],
       "tip": [
-        "Plural: se refiere a más de una persona. El verbo termina en -en: kochen, essen, gehen.",
-        "Utilice sie cuando el contexto se ajuste a este significado."
+        "Fíjate en el verbo: sie macht = ella hace, sie machen = ellos hacen.",
+        "Recuerda el dativo: ihr (a ella, le) e ihnen (a ellos, les)."
       ],
       "important": [
-        "Cortesía siempre con S mayúscula: Sie, no sie.",
-        "Ella: Sie kocht. Ellos: sie kochen. Tú: Sie kochen.",
-        "Incorrecto: sie kocht → Correcto: Sie kocht",
-        "Incorrecto: Sie kocht (ellos) → Correcto: Sie kochen"
+        "Sie con mayúscula en mitad de la frase siempre es el \"usted/ustedes\" de cortesía.",
+        "Al principio de la frase, Sie kommen puede ser tanto \"ellos vienen\" como \"ustedes vienen\"; se entiende por el contexto."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sie",
+            "sie ist",
+            "sie sind",
+            "sie kommt",
+            "sie kommen",
+            "ihr",
+            "ihnen",
+            "Sie"
+          ],
           "purple": [
-            "a él",
-            "Idea"
+            "ella",
+            "ellos",
+            "ellas"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "sie",
-                "sie"
+              "blue": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Ella"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sie"
               ]
             },
             "lv": {
@@ -18893,77 +21412,85 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "sie",
                 "sie"
               ]
             },
             "lv": {
               "purple": [
-                "ella"
+                "La"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "sie",
-                "sie"
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "ella"
+                "Ellos"
               ]
             }
           },
           {
             "de": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Le"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
               "green": [
-                "sie",
-                "sie"
+                "er"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "ellos"
+                "él"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "sie",
-                "sie"
+                "es"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "ellos"
+                "ello, lo"
               ]
             }
           },
           {
-            "de": {
-              "yellow": [
-                "sie"
+            "word": {
+              "green": [
+                "Sie"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "cocinas"
+                "usted"
               ]
             }
           }
         ],
         "tip": [
+          {},
           {}
         ],
         "important": [
-          {
-            "green": [
-              "sie"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -18977,134 +21504,183 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "usted",
       "explanation": [
-        "Idea principal: Dirección de cortesía, siempre con S mayúscula. en español: tú. A menudo con un verbo en plural.",
-        "Sie básicamente significa: una mujer.",
-        "A menudo se caracteriza por: verbo singular (-t).",
-        "Sie significa principalmente: varias personas.",
-        "A menudo se caracteriza por: verbo plural (-en).",
-        "Sie significa principalmente: dirección cortés.",
-        "A menudo descrito: necesariamente con S mayúscula.",
-        "La minúscula sie significa ella cuando el verbo está en singular (Sie kocht = ella cocina)."
+        "Idea principal: Sie con mayúscula es la forma de tratamiento de cortesía, para una o varias personas a las que se trata de usted. El verbo va en 3.ª persona del plural: Sie sind, Sie haben, Sie kommen. Por eso equivale tanto a usted como a ustedes.",
+        "Casos: acusativo Sie, dativo Ihnen, posesivo Ihr/Ihre (también con mayúscula): Ich danke Ihnen für Ihre Hilfe.",
+        "Sie se usa con desconocidos, en el trabajo, en organismos oficiales y en las tiendas. A los amigos, a la familia y a los niños se les dice du (a varios, ihr, como vosotros)."
       ],
       "examples": [
         {
-          "de": "Sie kochen, bitte.",
-          "lv": "Por favor, cocine."
+          "de": "Wie heißen Sie?",
+          "lv": "¿Cómo se llama usted?"
         },
         {
-          "de": "Sie kocht.",
-          "lv": "Usted cocina."
+          "de": "Können Sie mir bitte helfen?",
+          "lv": "¿Puede usted ayudarme, por favor?"
         },
         {
-          "de": "Sie isst.",
-          "lv": "Usted come."
+          "de": "Woher kommen Sie?",
+          "lv": "¿De dónde es usted?"
         },
         {
-          "de": "Sie kochen.",
-          "lv": "Usted cocina."
+          "de": "Ich danke Ihnen für Ihre Hilfe.",
+          "lv": "Le agradezco su ayuda."
         },
         {
-          "de": "Sie spielen Fußball.",
-          "lv": "Usted juega al fútbol."
+          "de": "Darf ich Sie etwas fragen?",
+          "lv": "¿Puedo preguntarle algo?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "du",
+          "meaning": "tú",
+          "example": "Hast du Zeit? – ¿Tienes tiempo?"
         },
         {
-          "de": "Sie kochen, bitte.",
-          "lv": "Por favor, cocine."
+          "word": "ihr",
+          "meaning": "vosotros",
+          "example": "Habt ihr Zeit? – ¿Tenéis tiempo?"
+        },
+        {
+          "word": "sie",
+          "meaning": "ellos / ella",
+          "example": "Sie haben Zeit. – Ellos tienen tiempo."
         }
       ],
       "tip": [
-        "Dirección de cortesía - siempre con S mayúscula. en español: usted. A menudo con un verbo en plural.",
-        "Utilice Sie cuando el contexto sea apropiado para este significado."
+        "Si no sabes cómo dirigirte a un adulto desconocido, usa Sie: es la opción más segura.",
+        "Recuerda: Sie, Ihnen, Ihr se escriben siempre con mayúscula."
       ],
       "important": [
-        "Cortesía siempre con S mayúscula: Sie, no sie.",
-        "Ella: Sie kocht. Ellos: sie kochen. Tú: Sie kochen.",
-        "Incorrecto: sie kocht → Correcto: Sie kocht",
-        "Incorrecto: Sie kocht (ellos) → Correcto: Sie kochen"
+        "Sie y sie son palabras distintas: Sie = usted/ustedes, sie = ella/ellos.",
+        "Con la forma de cortesía el verbo va en plural, aunque te dirijas a una sola persona (en español, en cambio, usted lleva el verbo en singular)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Sie",
+            "Ihnen",
+            "Ihr",
+            "Ihre",
+            "Sie sind",
+            "du",
+            "ihr"
+          ],
           "purple": [
-            "tú"
+            "usted",
+            "cortesía",
+            "tratamiento"
           ]
         },
         "examples": [
           {
             "de": {
-              "yellow": [
-                "Sie",
-                "sie"
+              "blue": [
+                "Sie"
               ]
             },
             "lv": {
+              "purple": [
+                "usted"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "usted"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "usted"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ihnen",
+                "Ihre"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Le",
+                "su"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sie"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "preguntarle"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "du"
+              ]
+            },
+            "meaning": {
               "purple": [
                 "tú"
               ]
             }
           },
           {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
+            "word": {
+              "green": [
+                "ihr"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {
+            "meaning": {
               "purple": [
-                "cocinas"
+                "vosotros"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sie"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ellos / ella"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Dirección"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "yellow": [
-              "Sie"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -19146,72 +21722,130 @@ const A1_WORDS = [
   },
   {
     "de": "sitzen",
-    "lv": "sentarse",
+    "lv": "estar sentado",
     "level": "A1",
     "study": {
       "id": "a1-sitzen",
       "layout": "standardStudy",
       "translation": "estar sentado",
       "explanation": [
-        "Idea principal: sitzen significa sentarse.",
-        "sitzen se utiliza para sentar a una persona o un animal.",
-        "A veces sitzen también significa estar en un lugar determinado, pero en A1 el significado principal es sentarse.",
-        "Es importante distinguir: sitzen = sentarse, stehen = pararse, liegen = acostarse."
+        "Idea principal: sitzen expresa un estado: alguien está sentado. Formas: sitzt, saß, hat gesessen (en el sur también es frecuente ist gesessen). La pregunta es Wo?, por eso el lugar va en dativo: auf dem Stuhl, am Tisch, im Zug.",
+        "La acción de \"sentarse\" se expresa con sich setzen, y \"sentar a alguien\", con setzen. Estos verbos responden a la pregunta Wohin? y rigen acusativo.",
+        "El par sitzen – setzen funciona igual que liegen – legen y stehen – stellen."
       ],
       "examples": [
         {
-          "de": "Ich sitze am Tisch.",
-          "lv": "Estoy sentado a la mesa."
+          "de": "Der Mann sitzt auf dem Stuhl.",
+          "lv": "El hombre está sentado en la silla."
         },
         {
-          "de": "Die Kinder sitzen im Bus.",
-          "lv": "Los niños están sentados en el autobús."
+          "de": "Wir sitzen im Zug nach Berlin.",
+          "lv": "Vamos sentados en el tren a Berlín."
         },
         {
-          "de": "Er steht an der Tür.",
-          "lv": "Él está sentado en la puerta."
+          "de": "Sie sitzt am Tisch und liest.",
+          "lv": "Está sentada a la mesa leyendo."
         },
         {
-          "de": "Die Katze liegt auf dem Sofa.",
-          "lv": "El gato está sentado en el sofá."
+          "de": "Wo sitzt du im Kino?",
+          "lv": "¿Dónde te sientas en el cine?"
+        },
+        {
+          "de": "Ich sitze den ganzen Tag am Computer.",
+          "lv": "Me paso el día entero sentado delante del ordenador."
         }
       ],
       "comparison": [
         {
-          "word": "sitzen",
+          "word": "sich setzen",
           "meaning": "sentarse",
-          "example": "Ich sitze am Tisch."
-        },
-        {
-          "word": "stehen",
-          "meaning": "estar de pie",
-          "example": "Er steht an der Tür."
-        },
-        {
-          "word": "liegen",
-          "meaning": "dormir / acostarse",
-          "example": "Die Katze liegt dort."
+          "example": "Setz dich bitte! – ¡Siéntate, por favor!"
         },
         {
           "word": "setzen",
-          "meaning": "sentarse / sentarse",
-          "example": "Ich setze mich."
+          "meaning": "sentar (a alguien)",
+          "example": "Ich setze das Kind auf den Stuhl. – Siento al niño en la silla."
+        },
+        {
+          "word": "liegen",
+          "meaning": "estar tumbado, estar (en horizontal)",
+          "example": "Das Buch liegt auf dem Tisch. – El libro está sobre la mesa."
         }
       ],
-      "tip": {
-        "text": "Recuerde: sentado → sitzen; de pie → stehen; acostado → liegen."
-      },
+      "tip": [
+        "Si preguntas Wo?, usa sitzen con dativo; si preguntas Wohin?, usa sich setzen con acusativo.",
+        "Aprende juntas las formas sitzen – saß – gesessen."
+      ],
       "important": [
-        "sitzen muestra el estado de \"sentado\".",
-        "Sentarse es sich setzen, no sitzen."
+        "No confundas sitzen con sich setzen: Ich sitze (estoy sentado) e Ich setze mich (me siento).",
+        "Después de sitzen el lugar va en dativo: auf dem Stuhl, no auf den Stuhl."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sitzen",
+            "sitzt",
+            "saß",
+            "hat gesessen",
+            "sich setzen",
+            "setzen",
+            "Wo?",
+            "Wohin?"
+          ],
           "purple": [
+            "sentado",
             "sentarse"
           ]
         },
         "examples": [
+          {
+            "de": {
+              "blue": [
+                "sitzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "está sentado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sitzen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sentados"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sitzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "sentada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "sitzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "te sientas"
+              ]
+            }
+          },
           {
             "de": {
               "blue": [
@@ -19220,46 +21854,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Estoy"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sitzen"
-              ],
-              "green": [
-                "Kinder"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "los"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "steht"
-              ]
-            },
-            "lv": {
-              "red": [
-                "está"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "liegt"
-              ]
-            },
-            "lv": {
-              "yellow": [
-                "durmiendo"
+                "sentado"
               ]
             }
           }
@@ -19268,52 +21863,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "sitzen"
+                "sich setzen"
               ]
             },
             "meaning": {
               "purple": [
                 "sentarse"
-              ]
-            },
-            "example": {
-              "blue": [
-                "sitze"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "stehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "estar de pie"
-              ]
-            },
-            "example": {
-              "red": [
-                "steht"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "liegen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "dormir",
-                "acostarse"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "liegt"
               ]
             }
           },
@@ -19325,38 +21880,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "sentarse"
+                "sentar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "liegen"
               ]
             },
-            "example": {
-              "green": [
-                "setze"
+            "meaning": {
+              "purple": [
+                "estar tumbado"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "sitzen"
-            ],
-            "purple": [
-              "sentado"
-            ],
-            "red": [
-              "stehen"
-            ],
-            "yellow": [
-              "liegen"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "sitzen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -19394,121 +21941,122 @@ const A1_WORDS = [
   },
   {
     "de": "sollen",
-    "lv": "debería",
+    "lv": "deber",
     "level": "A1",
     "study": {
       "id": "a1-sollen",
       "layout": "standardStudy",
-      "translation": "debería",
+      "translation": "deber",
       "explanation": [
-        "Idea principal: sollen significa que alguien debe o debe hacer algo según las instrucciones.",
-        "sollen se usa a menudo cuando alguien más te dice qué hacer.",
-        "No es tan fuerte como el müssen.",
-        "Una frase muy común es Was soll ich machen? = ¿Qué debo hacer?"
+        "Idea principal: sollen es un verbo modal que expresa que alguien (otra persona, una norma, el médico) quiere o exige que algo ocurra; equivale a deber en el sentido de una obligación que viene de fuera. Formas: ich soll, du sollst, er soll, wir sollen; pretérito sollte, perfecto hat gesollt (con infinitivo: hat ... sollen).",
+        "El segundo verbo va en infinitivo al final de la frase: Du sollst mehr Wasser trinken. La forma de subjuntivo sollte expresa un consejo: Du solltest schlafen (deberías dormir).",
+        "Con la pregunta Soll ich ...? se pregunta si el otro quiere que uno haga algo; en español suele equivaler a \"¿quieres que ...?\"."
       ],
       "examples": [
         {
-          "de": "Was soll ich machen?",
-          "lv": "Qué tengo que hacer"
+          "de": "Der Arzt sagt, ich soll mehr Wasser trinken.",
+          "lv": "El médico dice que debo beber más agua."
         },
         {
-          "de": "Du sollst kommen.",
-          "lv": "debes venir"
+          "de": "Soll ich das Fenster öffnen?",
+          "lv": "¿Quieres que abra la ventana?"
         },
         {
-          "de": "Ich soll zu Hause bleiben.",
-          "lv": "tengo que quedarme en casa"
+          "de": "Du solltest früher ins Bett gehen.",
+          "lv": "Deberías acostarte más temprano."
         },
         {
-          "de": "Ich muss jetzt gehen.",
-          "lv": "me tengo que ir ahora"
+          "de": "Wir sollen um acht Uhr da sein.",
+          "lv": "Tenemos que estar allí a las ocho."
         }
       ],
       "comparison": [
         {
-          "word": "sollen",
-          "meaning": "debería / debería hacer lo que se le indica",
-          "example": "Was soll ich machen? = ¿Qué debo hacer?"
-        },
-        {
           "word": "müssen",
-          "meaning": "absolutamente necesario",
-          "example": "Ich muss gehen."
+          "meaning": "tener que",
+          "example": "Ich muss arbeiten. – Tengo que trabajar."
         },
         {
-          "word": "können",
-          "meaning": "poder",
-          "example": "Ich kann kommen."
+          "word": "dürfen",
+          "meaning": "poder (tener permiso)",
+          "example": "Darf ich gehen? – ¿Puedo irme?"
         },
         {
           "word": "wollen",
-          "meaning": "quiero",
-          "example": "Ich will bleiben."
+          "meaning": "querer",
+          "example": "Ich will schlafen. – Quiero dormir."
         }
       ],
-      "tip": {
-        "text": "Recuerde: alguien dice qué hacer → sollen; hay que hacerlo → müssen."
-      },
+      "tip": [
+        "Sollen se usa cuando la exigencia viene de otra persona: Der Lehrer sagt, wir sollen lesen.",
+        "Cuando quieras dar un consejo, usa sollte: Du solltest mehr schlafen."
+      ],
       "important": [
-        "¿Era soll ich machen? es una frase muy común.",
-        "sollen y müssen no son exactamente lo mismo."
+        "Nicht sollen suele significar \"no hay que\" o \"no se debe\": Du sollst nicht lügen.",
+        "Sollen no es lo mismo que müssen: müssen expresa necesidad; sollen, la voluntad de otra persona o una norma."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "sollen",
+            "soll",
+            "sollst",
+            "sollte",
+            "solltest",
+            "hat gesollt",
+            "Soll ich"
+          ],
           "purple": [
-            "instrucciones"
+            "deber",
+            "consejo"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "soll",
-                "machen"
+                "soll"
               ]
             },
             "lv": {
               "purple": [
-                "Qué tengo que hacer"
+                "debo"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "sollst",
-                "kommen"
+                "Soll"
               ]
             },
             "lv": {
               "purple": [
-                "debes venir"
+                "Quieres que abra"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "soll",
-                "bleiben"
+                "solltest"
               ]
             },
             "lv": {
               "purple": [
-                "tengo"
+                "Deberías"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "muss",
-                "gehen"
+              "blue": [
+                "sollen"
               ]
             },
             "lv": {
-              "red": [
-                "tengo que ir"
+              "purple": [
+                "Tenemos que estar"
               ]
             }
           }
@@ -19517,52 +22065,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "sollen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "debería",
-                "debería"
-              ]
-            },
-            "example": {
-              "blue": [
-                "soll"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "müssen"
               ]
             },
             "meaning": {
               "purple": [
-                "absolutamente"
-              ]
-            },
-            "example": {
-              "red": [
-                "muss"
+                "tener que"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "können"
+                "dürfen"
               ]
             },
             "meaning": {
               "purple": [
                 "poder"
-              ]
-            },
-            "example": {
-              "green": [
-                "kann"
               ]
             }
           },
@@ -19574,44 +22094,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "quiero"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "will"
+                "querer"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "sollen"
-            ],
-            "purple": [
-              "alguien dice"
-            ],
-            "red": [
-              "mussen",
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "¿Era"
-            ]
-          },
-          {
-            "blue": [
-              "sollen"
-            ],
-            "red": [
-              "mussen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -19694,62 +22188,64 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "estar de pie",
       "explanation": [
-        "Idea principal: stehen significa estar de pie o estar de pie.",
-        "Para una persona, stehen significa estar de pie.",
-        "Para un objeto, stehen significa que está parado o en un lugar determinado.",
-        "Es importante distinguir: stehen = estar de pie, sitzen = sentarse, liegen = acostarse."
+        "Idea principal: stehen expresa un estado: alguien o algo está de pie, en posición vertical, o simplemente se encuentra en un sitio. Formas: steht, stand, hat gestanden (en el sur es frecuente ist gestanden). El lugar se indica con dativo: auf dem Tisch, an der Haltestelle.",
+        "Stehen se usa también para un texto escrito (Das steht in der Zeitung, lo pone el periódico) y para el aspecto: Das Kleid steht dir gut (el vestido te queda bien).",
+        "La acción de \"colocar de pie\" se expresa con stellen y acusativo; \"levantarse\" es aufstehen."
       ],
       "examples": [
         {
-          "de": "Ich stehe an der Tür.",
-          "lv": "Estoy parado en la puerta."
+          "de": "Das Glas steht auf dem Tisch.",
+          "lv": "El vaso está sobre la mesa."
         },
         {
-          "de": "Der Stuhl steht in der Küche.",
-          "lv": "La silla está en la cocina."
+          "de": "Wir stehen an der Haltestelle und warten.",
+          "lv": "Estamos en la parada esperando."
         },
         {
-          "de": "Er sitzt am Tisch.",
-          "lv": "Él está de pie junto a la mesa."
+          "de": "Das steht in der Zeitung.",
+          "lv": "Lo pone en el periódico."
         },
         {
-          "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "El libro está sobre la mesa."
+          "de": "Die Kinder stehen schon vor der Tür.",
+          "lv": "Los niños ya están delante de la puerta."
         }
       ],
       "comparison": [
         {
-          "word": "stehen",
-          "meaning": "estar de pie / estar de pie",
-          "example": "Ich stehe hier."
+          "word": "stellen",
+          "meaning": "colocar (de pie)",
+          "example": "Ich stelle das Glas auf den Tisch. – Pongo el vaso en la mesa."
         },
         {
-          "word": "sitzen",
-          "meaning": "sentarse",
-          "example": "Er sitzt am Tisch."
+          "word": "aufstehen",
+          "meaning": "levantarse",
+          "example": "Ich stehe um sechs Uhr auf. – Me levanto a las seis."
         },
         {
           "word": "liegen",
-          "meaning": "dormir / acostarse",
-          "example": "Das Buch liegt dort."
-        },
-        {
-          "word": "stellen",
-          "meaning": "poner en posición vertical",
-          "example": "Ich stelle die Flasche hin."
+          "meaning": "estar tumbado",
+          "example": "Das Buch liegt auf dem Tisch. – El libro está sobre la mesa."
         }
       ],
-      "tip": {
-        "text": "Recuerde: de pie → stehen; sentado → sitzen; acostado → liegen."
-      },
+      "tip": [
+        "Aprende el par stehen (wo?, dativo) – stellen (wohin?, acusativo).",
+        "Memoriza las formas stand y gestanden como una serie."
+      ],
       "important": [
-        "Stehen muestra un estado, no la acción de \"rebajar\".",
-        "Poner un objeto en posición vertical es stellen, no stehen."
+        "En el perfecto se suele usar hat gestanden; ist gestanden se oye en el sur.",
+        "Aufstehen no es lo mismo que stehen: aufstehen expresa un movimiento hacia arriba (levantarse)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "stehen",
+            "steht",
+            "stand",
+            "gestanden",
+            "Stehen"
+          ],
           "purple": [
-            "estar de pie",
+            "estado",
             "de pie"
           ]
         },
@@ -19757,12 +22253,24 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "stehe"
+                "steht"
               ]
             },
             "lv": {
               "purple": [
-                "Estoy"
+                "está"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "stehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Estamos"
               ]
             }
           },
@@ -19770,38 +22278,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "steht"
-              ],
-              "yellow": [
-                "Stuhl"
               ]
             },
             "lv": {
               "purple": [
-                "silla"
+                "pone"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "sitzt"
+              "blue": [
+                "stehen"
               ]
             },
             "lv": {
-              "red": [
-                "está"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "liegt"
-              ]
-            },
-            "lv": {
-              "red": [
-                "libro"
+              "purple": [
+                "están"
               ]
             }
           }
@@ -19810,35 +22303,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "stehen"
+                "stellen"
               ]
             },
             "meaning": {
               "purple": [
-                "estar de pie",
-                "de pie"
-              ]
-            },
-            "example": {
-              "blue": [
-                "stehe"
+                "colocar"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "sitzen"
+                "aufstehen"
               ]
             },
             "meaning": {
               "purple": [
-                "sentarse"
-              ]
-            },
-            "example": {
-              "red": [
-                "sitzt"
+                "levantarse"
               ]
             }
           },
@@ -19850,56 +22332,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "dormir",
-                "acostarse"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "liegt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "stellen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "poner en posición vertical"
-              ]
-            },
-            "example": {
-              "green": [
-                "stelle"
+                "estar tumbado"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "stehen"
-            ],
-            "purple": [
-              "de pie"
-            ],
-            "red": [
-              "sitzen"
-            ],
-            "yellow": [
-              "liegen"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "Stehen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -20116,62 +22560,69 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "sobre • encima de • acerca de",
       "explanation": [
-        "Idea principal: über significa arriba o sobre dependiendo del contexto.",
-        "Cuando se trata de ubicación, über suele significar arriba.",
-        "Cuando se trata de una conversación, texto o tema, über significa acerca de.",
-        "En movimiento, über puede significar terminado."
+        "Idea principal: über es una preposición que significa encima de, por encima de, al otro lado y, referido a un tema, sobre o acerca de. En sentido local rige dativo si se pregunta Wo? (Die Lampe hängt über dem Tisch) y acusativo si se pregunta Wohin? (Wir gehen über die Brücke).",
+        "Referido a un tema, über siempre rige acusativo: sprechen über, denken über, sich freuen über. Con números, über significa \"más de\": über eine Stunde.",
+        "Este sentido de \"sobre\" no es lo mismo que von: über + Akk suele expresar el tema de una conversación o de una reflexión."
       ],
       "examples": [
         {
           "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "Una lámpara cuelga encima de la mesa."
+          "lv": "La lámpara cuelga encima de la mesa."
+        },
+        {
+          "de": "Wir gehen über die Brücke.",
+          "lv": "Cruzamos el puente."
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "Estamos hablando del tiempo."
+          "lv": "Hablamos sobre el tiempo."
         },
         {
-          "de": "Das Kind läuft über die Straße.",
-          "lv": "El niño cruza la calle corriendo."
+          "de": "Ich habe ein Buch über Lettland gelesen.",
+          "lv": "He leído un libro sobre Letonia."
         },
         {
-          "de": "Ich freue mich über das Geschenk.",
-          "lv": "Estoy feliz con el regalo."
+          "de": "Ich warte schon über eine Stunde.",
+          "lv": "Llevo más de una hora esperando."
         }
       ],
       "comparison": [
         {
-          "word": "über",
-          "meaning": "sobre / sobre / a través",
-          "example": "Wir sprechen über das Wetter. = Hablamos sobre el clima."
-        },
-        {
           "word": "auf",
-          "meaning": "sobre una superficie",
-          "example": "Das Buch liegt auf dem Tisch. = El libro está sobre la mesa."
-        },
-        {
-          "word": "unter",
-          "meaning": "bajo",
-          "example": "Die Tasche ist unter dem Tisch. = La bolsa está bajo la mesa."
+          "meaning": "sobre, en (con contacto)",
+          "example": "Das Buch liegt auf dem Tisch. – El libro está sobre la mesa."
         },
         {
           "word": "von",
-          "meaning": "de / acerca de alguna fuente",
-          "example": "Ich höre von dir. = Me entero de ti."
+          "meaning": "de, sobre",
+          "example": "Er erzählt von seiner Reise. – Habla de su viaje."
+        },
+        {
+          "word": "unter",
+          "meaning": "debajo de",
+          "example": "Die Katze schläft unter dem Tisch. – El gato duerme debajo de la mesa."
         }
       ],
-      "tip": {
-        "text": "Recuerde: tema de conversación → über; encima de la mesa → über."
-      },
+      "tip": [
+        "Hazte la pregunta: Wo? → dativo, Wohin? → acusativo; pero después de sprechen über, denken über siempre se usa acusativo.",
+        "Aprende juntos el par über – unter (encima de – debajo de)."
+      ],
       "important": [
-        "über no es sólo el nombre de un lugar.",
-        "sprechen über significa \"hablar de\"."
+        "Über no es lo mismo que auf: über significa encima sin contacto; auf, directamente sobre la superficie (en español, sobre sirve para ambos casos).",
+        "Tras über, el tema va en acusativo: über das Wetter, no über dem Wetter."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "über",
+            "über dem Tisch",
+            "über die Brücke"
+          ],
           "purple": [
-            "arriba"
+            "encima de",
+            "al otro lado",
+            "sobre",
+            "acerca de"
           ]
         },
         "examples": [
@@ -20179,14 +22630,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "über"
-              ],
-              "yellow": [
-                "Tisch"
               ]
             },
             "lv": {
               "purple": [
-                "una"
+                "encima de"
               ]
             }
           },
@@ -20194,14 +22642,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "über"
-              ],
-              "green": [
-                "Wetter"
               ]
             },
             "lv": {
               "purple": [
-                "Estamos"
+                "Cruzamos"
               ]
             }
           },
@@ -20209,14 +22654,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "über"
-              ],
-              "yellow": [
-                "Straße"
               ]
             },
             "lv": {
               "purple": [
-                "niño"
+                "sobre"
               ]
             }
           },
@@ -20224,14 +22666,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "über"
-              ],
-              "yellow": [
-                "Geschenk"
               ]
             },
             "lv": {
               "purple": [
-                "Estoy"
+                "sobre"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "über"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "más de"
               ]
             }
           }
@@ -20240,53 +22691,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "über"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sobre",
-                "sobre",
-                "sobre"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Wir"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "auf"
               ]
             },
             "meaning": {
               "purple": [
-                "uz virsmas"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "auf"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "unter"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "bajo"
-              ]
-            },
-            "example": {
-              "red": [
-                "unter"
+                "en (con contacto)"
               ]
             }
           },
@@ -20298,33 +22708,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "de"
+                "de, sobre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "unter"
               ]
             },
-            "example": {
-              "green": [
-                "von"
+            "meaning": {
+              "purple": [
+                "debajo de"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Recuerde"
-            ],
-            "purple": [
-              "tema",
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "über"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -20341,69 +22748,72 @@ const A1_WORDS = [
   },
   {
     "de": "um",
-    "lv": "alrededor • en punto",
+    "lv": "alrededor de • a (las)",
     "level": "A1",
     "study": {
       "id": "a1-um",
       "layout": "standardStudy",
-      "translation": "alrededor • en punto",
+      "translation": "alrededor de • a (las)",
       "explanation": [
-        "Idea principal: um muy a menudo significa reloj con tiempo o alrededor con lugar.",
-        "Con la hora exacta, um significa en punto.",
-        "Con un lugar, um significa alrededor o alrededor.",
-        "En la frase um...zu, ayuda expresar la intención: a."
+        "Idea principal: um es una preposición que siempre rige acusativo. En sentido temporal indica la hora exacta: um acht Uhr (a las ocho). En sentido local indica un movimiento o una posición alrededor de algo: um den Tisch (alrededor de la mesa), um die Ecke (a la vuelta de la esquina).",
+        "La pregunta por la hora es Um wie viel Uhr ...? (¿a qué hora?). A diferencia del español, con la hora no se pone artículo: um 8 Uhr, y nunca in 8 Uhr.",
+        "Con zu + infinitivo, um expresa finalidad: Er lernt, um zu verstehen (estudia para entender)."
       ],
       "examples": [
         {
-          "de": "Ich komme um acht Uhr.",
-          "lv": "Vendré a las ocho."
+          "de": "Der Unterricht beginnt um acht Uhr.",
+          "lv": "La clase empieza a las ocho."
         },
         {
           "de": "Wir sitzen um den Tisch.",
           "lv": "Estamos sentados alrededor de la mesa."
         },
         {
-          "de": "Er geht um die Ecke.",
-          "lv": "Él da la vuelta a la esquina."
+          "de": "Die Bank ist gleich um die Ecke.",
+          "lv": "El banco está justo a la vuelta de la esquina."
         },
         {
-          "de": "Ich lerne, um Deutsch zu sprechen.",
-          "lv": "Estoy aprendiendo alemán para poder hablarlo."
+          "de": "Um wie viel Uhr kommst du?",
+          "lv": "¿A qué hora vienes?"
         }
       ],
       "comparison": [
         {
-          "word": "um",
-          "meaning": "a las / alrededor de / para",
-          "example": "Ich komme um acht. = Vengo a las ocho."
-        },
-        {
-          "word": "am",
-          "meaning": "por día / a las",
-          "example": "Am Montag komme ich. = El lunes vengo."
-        },
-        {
           "word": "gegen",
-          "meaning": "a tiempo / contra",
-          "example": "Ich komme gegen acht. = Vengo alrededor de las ocho."
+          "meaning": "hacia, sobre (aproximadamente)",
+          "example": "Ich komme gegen acht Uhr. – Llegaré hacia las ocho."
         },
         {
-          "word": "für",
-          "meaning": "por / a favor de",
-          "example": "Das ist für dich. = Esto es para ti."
+          "word": "bis",
+          "meaning": "hasta",
+          "example": "Ich bleibe bis acht Uhr. – Me quedo hasta las ocho."
+        },
+        {
+          "word": "in",
+          "meaning": "en, dentro de",
+          "example": "In einer Woche fahre ich ab. – Me voy dentro de una semana."
         }
       ],
-      "tip": {
-        "text": "Recuerde: um acht = ocho en punto."
-      },
+      "tip": [
+        "La hora exacta se dice con um: um 7 Uhr, um halb acht.",
+        "La hora aproximada se dice con gegen: gegen 7 Uhr."
+      ],
       "important": [
-        "um con la hora normalmente es \"o'clock\".",
-        "um... zu a menudo significa \"a...\"."
+        "Después de um siempre va acusativo: um den Tisch, um die Ecke.",
+        "No se dice \"in 8 Uhr\": lo correcto es um 8 Uhr."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "um",
+            "um acht Uhr",
+            "um den Tisch",
+            "um die Ecke"
+          ],
           "purple": [
-            "alrededor"
+            "a las ocho",
+            "alrededor de",
+            "a la vuelta de la esquina"
           ]
         },
         "examples": [
@@ -20411,14 +22821,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "um"
-              ],
-              "yellow": [
-                "acht Uhr"
               ]
             },
             "lv": {
               "purple": [
-                "Vendré"
+                "a las ocho"
               ]
             }
           },
@@ -20426,14 +22833,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "um"
-              ],
-              "yellow": [
-                "Tisch"
               ]
             },
             "lv": {
               "purple": [
-                "estamos"
+                "alrededor de"
               ]
             }
           },
@@ -20441,27 +22845,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "um"
-              ],
-              "yellow": [
-                "Ecke"
               ]
             },
             "lv": {
               "purple": [
-                "vuelta"
+                "a la vuelta de la esquina"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "um",
-                "zu"
+                "Um"
               ]
             },
             "lv": {
               "purple": [
-                "Estoy"
+                "A qué hora"
               ]
             }
           }
@@ -20470,93 +22870,47 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "um"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pulksten",
-                "ap",
-                "lai"
-              ]
-            },
-            "example": {
-              "blue": [
-                "um"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "am"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "por dia",
-                "por"
-              ]
-            },
-            "example": {
-              "green": [
-                "Am"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "gegen"
               ]
             },
             "meaning": {
               "purple": [
-                "ap laiku",
-                "laiku"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "gegen"
+                "hacia"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "für"
+                "bis"
               ]
             },
             "meaning": {
               "purple": [
-                "por"
+                "hasta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "in"
               ]
             },
-            "example": {
-              "red": [
-                "para"
+            "meaning": {
+              "purple": [
+                "dentro de"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "um acht"
-            ],
-            "purple": [
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "pulksten",
-              "lai"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -20573,7 +22927,7 @@ const A1_WORDS = [
   },
   {
     "de": "unten",
-    "lv": "en la parte inferior",
+    "lv": "abajo",
     "level": "A1"
   },
   {
@@ -20585,63 +22939,66 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "bajo",
       "explanation": [
-        "Idea principal: unter significa debajo o entre según el contexto.",
-        "Si hay algo debajo de una mesa, silla u otro objeto, use unter.",
-        "Cuando se habla de un grupo de personas, unter puede significar entre.",
-        "Es lo opuesto a über cuando se refiere a la dirección arriba/abajo."
+        "Idea principal: unter es una preposición cuyo significado básico es bajo o debajo de. Si se pregunta Wo?, va seguida de dativo (Die Katze schläft unter dem Tisch); si se pregunta Wohin?, de acusativo (Er legt den Schlüssel unter die Zeitung).",
+        "En sentido figurado, unter puede significar entre (unter Freunden, entre amigos), menos de (unter 18 Jahren, menores de 18 años) y bajo la influencia o en determinadas condiciones.",
+        "Su contrario es über (encima de); para la posición sobre una superficie se usa auf."
       ],
       "examples": [
         {
-          "de": "Die Tasche ist unter dem Tisch.",
-          "lv": "La bolsa está debajo de la mesa."
+          "de": "Die Katze schläft unter dem Tisch.",
+          "lv": "El gato duerme debajo de la mesa."
         },
         {
-          "de": "Die Katze liegt unter dem Stuhl.",
-          "lv": "El gato duerme debajo de la silla."
+          "de": "Er legt den Schlüssel unter die Zeitung.",
+          "lv": "Pone la llave debajo del periódico."
         },
         {
-          "de": "Unter Freunden sagt man das so.",
-          "lv": "Entre amigos se dice."
+          "de": "Unter uns gesagt, ich mag ihn nicht.",
+          "lv": "Entre nosotros, no me cae bien."
         },
         {
-          "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "Una lámpara cuelga debajo de la mesa."
+          "de": "Kinder unter sechs Jahren fahren kostenlos.",
+          "lv": "Los niños menores de seis años viajan gratis."
         }
       ],
       "comparison": [
         {
-          "word": "unter",
-          "meaning": "debajo / entre",
-          "example": "Die Tasche ist unter dem Tisch. = La bolsa está bajo la mesa."
-        },
-        {
           "word": "über",
-          "meaning": "encima / sobre",
-          "example": "Die Lampe hängt über dem Tisch. = La lámpara cuelga sobre la mesa."
+          "meaning": "encima de",
+          "example": "Die Lampe hängt über dem Tisch. – La lámpara cuelga encima de la mesa."
         },
         {
           "word": "zwischen",
-          "meaning": "entre dos cosas",
-          "example": "Zwischen den Häusern. = Entre las casas."
+          "meaning": "entre",
+          "example": "Der Stuhl steht zwischen Tisch und Tür. – La silla está entre la mesa y la puerta."
         },
         {
-          "word": "auf",
-          "meaning": "sobre una superficie",
-          "example": "Auf dem Tisch. = Sobre la mesa."
+          "word": "hinter",
+          "meaning": "detrás de",
+          "example": "Der Garten ist hinter dem Haus. – El jardín está detrás de la casa."
         }
       ],
-      "tip": {
-        "text": "Recuerda: debajo de la mesa → unter dem Tisch."
-      },
+      "tip": [
+        "Wo? → unter dem Tisch; Wohin? → unter den Tisch. Apréndelo junto con las demás preposiciones de dativo y acusativo.",
+        "La expresión unter uns significa \"entre nosotros\" y se usa cuando se dice algo en confianza."
+      ],
       "important": [
-        "unter también puede significar \"entre\", especialmente con personas o grupos.",
-        "unter y über son a menudo opuestos en el sentido de lugar."
+        "Unter no es lo mismo que zwischen: unter se refiere a un conjunto o grupo (unter Freunden); zwischen, a dos cosas concretas.",
+        "Unter + número significa \"menos de\": unter 18 quiere decir menor de 18 años."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "unter",
+            "unter dem Tisch",
+            "unter die Zeitung",
+            "unter 18"
+          ],
           "purple": [
             "bajo",
-            "entre"
+            "debajo de",
+            "entre",
+            "menos de"
           ]
         },
         "examples": [
@@ -20649,14 +23006,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "unter"
-              ],
-              "yellow": [
-                "Tisch"
               ]
             },
             "lv": {
               "purple": [
-                "soma"
+                "debajo de"
               ]
             }
           },
@@ -20664,14 +23018,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "unter"
-              ],
-              "yellow": [
-                "Stuhl"
               ]
             },
             "lv": {
               "purple": [
-                "bajo"
+                "debajo del"
               ]
             }
           },
@@ -20679,32 +23030,23 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Unter"
-              ],
-              "green": [
-                "Freunden"
               ]
             },
             "lv": {
               "purple": [
-                "entre"
+                "Entre"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "über"
-              ],
-              "yellow": [
-                "Tisch"
+              "blue": [
+                "unter"
               ]
             },
             "lv": {
-              "red": [
-                "una"
-              ],
-              "yellow": [
-                "una"
+              "purple": [
+                "menores de"
               ]
             }
           }
@@ -20713,36 +23055,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "unter"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "zem",
-                "zem"
-              ]
-            },
-            "example": {
-              "blue": [
-                "unter"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "über"
               ]
             },
             "meaning": {
               "purple": [
-                "virs",
-                "par"
-              ]
-            },
-            "example": {
-              "red": [
-                "lámpara"
+                "encima de"
               ]
             }
           },
@@ -20756,47 +23074,28 @@ const A1_WORDS = [
               "purple": [
                 "entre"
               ]
-            },
-            "example": {
-              "green": [
-                "Zwischen"
-              ]
             }
           },
           {
             "word": {
               "green": [
-                "auf"
+                "hinter"
               ]
             },
             "meaning": {
               "purple": [
-                "uz virsmas"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Auf"
+                "detrás de"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "unter dem Tisch"
-            ],
-            "purple": [
-              "zem galda"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "entre"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -20839,62 +23138,70 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "entender",
       "explanation": [
-        "Idea principal: verstehen significa entender.",
-        "Se utiliza cuando se comprende un idioma, persona, texto o situación.",
-        "Por lo general, aquí no es necesario \"saber\" ni \"enseñar\" letón; son más a menudo können.",
-        "Una frase muy común es Ich verstehe. = Lo entiendo."
+        "Idea principal: verstehen significa entender: un idioma, un significado o a una persona. Formas: versteht, verstand, hat verstanden. El prefijo ver- es inseparable, por eso el participio no lleva ge-: hat verstanden.",
+        "Normalmente va seguido de acusativo: Ich verstehe die Frage. El reflexivo sich verstehen significa entenderse, llevarse bien: Wir verstehen uns gut. Con von puede significar también saber mucho de algo: Er versteht viel von Autos.",
+        "Si alguien no percibe el sonido, se usa hören; si no capta la idea, nicht verstehen o nicht begreifen."
       ],
       "examples": [
         {
-          "de": "Ich verstehe dich.",
-          "lv": "Te entiendo."
+          "de": "Ich verstehe die Frage nicht.",
+          "lv": "No entiendo la pregunta."
         },
         {
           "de": "Verstehst du Deutsch?",
           "lv": "¿Entiendes alemán?"
         },
         {
-          "de": "Ich verstehe das nicht.",
-          "lv": "No lo entiendo."
+          "de": "Ich habe Sie leider nicht verstanden.",
+          "lv": "Lo siento, no le he entendido."
         },
         {
-          "de": "Ich kann Deutsch sprechen.",
-          "lv": "Puedo entender alemán."
+          "de": "Meine Schwester und ich verstehen uns sehr gut.",
+          "lv": "Mi hermana y yo nos entendemos muy bien."
+        },
+        {
+          "de": "Er versteht viel von Autos.",
+          "lv": "Sabe mucho de coches."
         }
       ],
       "comparison": [
         {
-          "word": "verstehen",
-          "meaning": "entender",
-          "example": "Ich verstehe dich. = Te entiendo."
+          "word": "begreifen",
+          "meaning": "comprender, captar",
+          "example": "Ich begreife das nicht. – No lo comprendo."
         },
         {
-          "word": "können",
-          "meaning": "poder / saber",
-          "example": "Ich kann schwimmen. = Puedo nadar."
-        },
-        {
-          "word": "wissen",
-          "meaning": "conoce el hecho",
-          "example": "Ich weiß das. = Sé eso."
+          "word": "hören",
+          "meaning": "oír",
+          "example": "Ich höre dich nicht. – No te oigo."
         },
         {
           "word": "kennen",
-          "meaning": "saber",
-          "example": "Ich kenne ihn. = Lo conozco."
+          "meaning": "conocer",
+          "example": "Ich kenne ihn. – Lo conozco."
         }
       ],
-      "tip": {
-        "text": "Recuerde: entender el texto/persona → verstehen; saber hacer algo → können."
-      },
+      "tip": [
+        "En el perfecto se dice hat verstanden, no \"hat geverstanden\": el prefijo ver- es inseparable.",
+        "Si no has entendido lo que te dicen, di: Ich habe das nicht verstanden o Ich verstehe das nicht."
+      ],
       "important": [
-        "verstehen no es la raíz de la palabra \"comprender\".",
-        "Ich verstehe Deutsch significa \"entiendo alemán\"."
+        "Verstehen no es lo mismo que hören: Ich höre dich nicht significa que no se te oye, no que no se te entienda.",
+        "Sich gut verstehen (entenderse bien) expresa una buena relación entre personas."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "verstehen",
+            "versteht",
+            "verstand",
+            "verstanden",
+            "verstehe"
+          ],
           "purple": [
-            "entender"
+            "entender",
+            "entenderse",
+            "saber mucho de algo"
           ]
         },
         "examples": [
@@ -20906,7 +23213,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "saprotu"
+                "entiendo"
               ]
             }
           },
@@ -20918,31 +23225,43 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "¿Entiendes"
+                "Entiendes"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "verstehe"
+                "verstanden"
               ]
             },
             "lv": {
               "purple": [
-                "nesaprotu"
+                "entendido"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "kann"
+              "blue": [
+                "verstehen"
               ]
             },
             "lv": {
-              "red": [
-                "puedo"
+              "purple": [
+                "nos entendemos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "versteht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Sabe mucho"
               ]
             }
           }
@@ -20951,52 +23270,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "verstehen"
+                "begreifen"
               ]
             },
             "meaning": {
               "purple": [
-                "entender"
-              ]
-            },
-            "example": {
-              "blue": [
-                "verstehe"
+                "comprender"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "können"
+                "hören"
               ]
             },
             "meaning": {
               "purple": [
-                "poder",
-                "poder"
-              ]
-            },
-            "example": {
-              "red": [
-                "kann"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "wissen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "conoce"
-              ]
-            },
-            "example": {
-              "green": [
-                "weiß"
+                "oír"
               ]
             }
           },
@@ -21008,36 +23299,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "saber"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "kenne"
+                "conocer"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "verstehen"
-            ],
-            "purple": [
-              "entender"
-            ],
-            "red": [
-              "können",
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "verstehen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -21106,94 +23379,71 @@ const A1_WORDS = [
   },
   {
     "de": "vom",
-    "lv": "de",
+    "lv": "del",
     "level": "A1",
     "study": {
       "id": "a1-vom",
       "layout": "standardStudy",
-      "translation": "de",
+      "translation": "del",
       "explanation": [
-        "vom es la abreviatura de la preposición von y el artículo dem.",
-        "Forma completa: von dem (¿a quién?).",
-        "Se usa con sustantivos masculinos y neutros para indicar origen o dirección de qué.",
-        "¿Responde preguntas de quién? o de donde?",
-        "En la práctica, casi siempre se utiliza vom en lugar del von dem completo."
+        "Idea principal: vom es la contracción de von + dem, es decir, von con dativo en masculino o neutro, algo parecido a la contracción española del (de + el). Significa de o desde (origen, punto de partida, autor): vom Arzt, vom Bahnhof, vom Montag bis Freitag.",
+        "En femenino y en plural no hay contracción: von der Frau, von den Kindern. Vom es solo von dem.",
+        "Cuando hay que destacar el artículo se escribe von dem; en el habla y en la escritura corrientes se usa vom."
       ],
       "examples": [
         {
-          "de": "Ich komme vom Bahnhof.",
-          "lv": "Vengo de la estación."
+          "de": "Das Geschenk ist vom Opa.",
+          "lv": "El regalo es del abuelo."
         },
         {
-          "de": "Das Geschenk ist vom Vater.",
-          "lv": "El regalo es del padre."
+          "de": "Wir kommen gerade vom Arzt.",
+          "lv": "Venimos ahora mismo del médico."
         },
         {
-          "de": "Er kommt vom Arzt.",
-          "lv": "Él viene del médico."
+          "de": "Der Zug vom Gleis drei fährt gleich ab.",
+          "lv": "El tren del andén tres sale enseguida."
         },
         {
-          "de": "Sie fährt vom Flughafen.",
-          "lv": "Ella está conduciendo desde el aeropuerto."
-        },
-        {
-          "de": "Das ist vom Markt.",
-          "lv": "Es del mercado."
-        },
-        {
-          "de": "Wir kommen vom Fest.",
-          "lv": "Venimos de una celebración."
-        },
-        {
-          "de": "Er holt Milch vom Bauern.",
-          "lv": "Toma leche del granjero."
-        },
-        {
-          "de": "Die Nachricht ist vom Chef.",
-          "lv": "El mensaje es del jefe."
+          "de": "Vom Montag bis Freitag arbeite ich.",
+          "lv": "De lunes a viernes trabajo."
         }
       ],
       "comparison": [
         {
-          "word": "vom",
-          "meaning": "de (algo específico, ¿de quién?)",
-          "example": "vom Bahnhof – desde la estación"
-        },
-        {
           "word": "von",
-          "meaning": "de (generales)",
-          "example": "von mir – de mí"
+          "meaning": "de",
+          "example": "Das Buch ist von der Lehrerin. – El libro es de la profesora."
         },
         {
           "word": "aus",
-          "meaning": "desde dentro / origen",
-          "example": "aus Deutschland – de Alemania"
+          "meaning": "de (desde dentro / un país)",
+          "example": "Er kommt aus dem Haus. – Sale de casa."
         },
         {
-          "word": "ab",
-          "meaning": "comenzando en (hora/lugar)",
-          "example": "ab Montag – desde el lunes"
-        },
-        {
-          "word": "zu",
-          "meaning": "a / en (dirección opuesta)",
-          "example": "zum Arzt – al médico"
+          "word": "zum",
+          "meaning": "a (casa de, hacia)",
+          "example": "Ich gehe zum Arzt. – Voy al médico."
         }
       ],
       "tip": [
-        "Recuerda: von + dem → vom (kam?).",
-        "En el habla coloquial, casi nunca se dice von dem: use vom."
+        "Vom solo se usa con palabras masculinas y neutras: vom Mann, vom Kind.",
+        "En femenino se dice von der: von der Schule, von der Arbeit."
       ],
       "important": [
-        "vom = von dem, sólo con sustantivo masculino o neutro ¿para quién? en inflexión.",
-        "Indica el origen, fuente o dirección de algo específico.",
-        "Para el género femenino: von der Mutter, no vom Mutter.",
-        "No confundir con aus (país de origen) o ab (punto de partida)."
+        "Vom = von + dem, no von + den.",
+        "El país o la ciudad de donde se viene se indica con aus, no con vom."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "vom",
+            "von dem",
+            "von der",
+            "von den"
+          ],
           "purple": [
-            "de"
+            "del",
+            "dativo"
           ]
         },
         "examples": [
@@ -21205,7 +23455,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vengo"
+                "del"
               ]
             }
           },
@@ -21217,7 +23467,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "del padre"
+                "del"
               ]
             }
           },
@@ -21229,89 +23479,24 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "viene"
+                "del"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "vom"
+                "Vom"
               ]
             },
             "lv": {
               "purple": [
-                "ella"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "no tirgus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Venimos"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "toma"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "del jefe"
+                "De"
               ]
             }
           }
         ],
         "comparison": [
-          {
-            "word": {
-              "green": [
-                "vom"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "de"
-              ]
-            },
-            "example": {
-              "blue": [
-                "vom Bahnhof"
-              ]
-            }
-          },
           {
             "word": {
               "green": [
@@ -21321,11 +23506,6 @@ const A1_WORDS = [
             "meaning": {
               "purple": [
                 "de"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "von mir"
               ]
             }
           },
@@ -21337,64 +23517,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "desde"
-              ]
-            },
-            "example": {
-              "green": [
-                "aus Deutschland"
+                "de (desde dentro / un país)"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "ab"
+                "zum"
               ]
             },
             "meaning": {
               "purple": [
-                "comenzando"
-              ]
-            },
-            "example": {
-              "green": [
-                "ab Montag"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zu"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "a",
-                "en"
-              ]
-            },
-            "example": {
-              "red": [
-                "zum Arzt"
+                "a (casa de, hacia)"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "von dem"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "von dem"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -21413,93 +23559,102 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "antes • delante de",
       "explanation": [
-        "Idea principal: vor significa antes en el tiempo o delante del lugar.",
-        "Cuando se trata de tiempo, vor significa antes.",
-        "Cuando se trata de lugar, vor significa delante de o en.",
-        "En tiempo de reloj, vor significa 'hasta', por ejemplo, fünf vor acht."
+        "Idea principal: vor es una preposición con los significados delante de y antes de. En sentido local, si se pregunta Wo?, va seguida de dativo (Das Auto steht vor dem Haus); si se pregunta Wohin?, de acusativo (Stell den Stuhl vor das Fenster).",
+        "En sentido temporal, vor con dativo significa antes de: vor dem Essen (antes de comer), o hace: vor einer Woche (hace una semana). También expresa miedo: Angst vor Hunden, tener miedo a los perros.",
+        "Su contrario es nach (después de) en el tiempo y hinter (detrás de) en el espacio."
       ],
       "examples": [
         {
-          "de": "Vor dem Essen wasche ich die Hände.",
-          "lv": "Me lavo las manos antes de comer."
-        },
-        {
           "de": "Das Auto steht vor dem Haus.",
-          "lv": "El coche está aparcado delante de la casa."
+          "lv": "El coche está delante de la casa."
         },
         {
-          "de": "Es ist fünf vor acht.",
-          "lv": "Son las ocho menos cinco."
+          "de": "Wir essen vor dem Kino.",
+          "lv": "Comemos antes del cine."
         },
         {
-          "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "Después de comer salimos a pasear."
+          "de": "Vor einer Woche war ich in Berlin.",
+          "lv": "Hace una semana estuve en Berlín."
+        },
+        {
+          "de": "Stell den Stuhl vor das Fenster.",
+          "lv": "Pon la silla delante de la ventana."
+        },
+        {
+          "de": "Ich habe Angst vor Hunden.",
+          "lv": "Tengo miedo a los perros."
         }
       ],
       "comparison": [
         {
-          "word": "vor",
-          "meaning": "antes / delante de",
-          "example": "Vor dem Essen... = Antes de la comida..."
-        },
-        {
           "word": "nach",
-          "meaning": "después / a",
-          "example": "Nach dem Essen... = Después de la comida..."
-        },
-        {
-          "word": "neben",
-          "meaning": "junto a",
-          "example": "Neben dem Haus. = Al lado de la casa."
+          "meaning": "después de",
+          "example": "Nach dem Essen trinken wir Tee. – Después de comer tomamos té."
         },
         {
           "word": "hinter",
-          "meaning": "detrás",
-          "example": "Hinter dem Haus. = Detrás de la casa."
+          "meaning": "detrás de",
+          "example": "Der Garten ist hinter dem Haus. – El jardín está detrás de la casa."
+        },
+        {
+          "word": "seit",
+          "meaning": "desde, desde hace",
+          "example": "Ich wohne seit einem Jahr hier. – Vivo aquí desde hace un año."
         }
       ],
-      "tip": {
-        "text": "Recuerda: antes de tiempo, delante de lugar → vor."
-      },
+      "tip": [
+        "En sentido temporal, vor significa hace o antes de: vor zwei Tagen (hace dos días), vor dem Essen (antes de comer).",
+        "Memoriza la expresión Angst haben vor + Dativ."
+      ],
       "important": [
-        "vor puede ser tanto tiempo como lugar.",
-        "vor dem Essen = antes de comer; vor dem Haus = frente a la casa."
+        "Vor + unidad de tiempo indica cuánto hace que ocurrió algo (vor zwei Tagen); la duración hasta ahora se expresa con seit.",
+        "Con vor en sentido local, elige dativo (Wo?) o acusativo (Wohin?)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "vor"
+          ],
           "purple": [
-            "antes",
-            "hasta"
+            "delante de",
+            "antes de",
+            "hace"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
+                "vor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "delante de"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "vor"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "antes del"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "Vor"
-              ],
-              "yellow": [
-                "Essen"
               ]
             },
             "lv": {
               "purple": [
-                "antes"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "vor"
-              ],
-              "yellow": [
-                "Haus"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "coche"
+                "Hace"
               ]
             }
           },
@@ -21511,25 +23666,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "son"
+                "delante de"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "Nach"
-              ],
-              "yellow": [
-                "Essen"
+              "blue": [
+                "Angst"
               ]
             },
             "lv": {
-              "red": [
-                "Después"
-              ],
-              "yellow": [
-                "Después"
+              "purple": [
+                "miedo"
               ]
             }
           }
@@ -21538,53 +23687,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "vor"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "antes",
-                "antes"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Vor"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "nach"
               ]
             },
             "meaning": {
               "purple": [
-                "después",
-                "a"
-              ]
-            },
-            "example": {
-              "red": [
-                "Nach"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "neben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "junto a"
-              ]
-            },
-            "example": {
-              "green": [
-                "Neben"
+                "después de"
               ]
             }
           },
@@ -21596,35 +23704,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "detrás"
+                "detrás de"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "seit"
               ]
             },
-            "example": {
-              "yellow": [
-                "Hinter"
+            "meaning": {
+              "purple": [
+                "desde hace"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "vor"
-            ],
-            "purple": [
-              "antes",
-              "Recuerda"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "lugar",
-              "vor",
-              "vor"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -21647,7 +23750,7 @@ const A1_WORDS = [
     "de": "Wand",
     "de_article": "die",
     "de_plural": "die Wände",
-    "lv": "muro",
+    "lv": "pared",
     "level": "A1"
   },
   {
@@ -21679,58 +23782,68 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "qué",
       "explanation": [
-        "Idea principal: qué es una palabra interrogativa sobre cosas y eventos; en español es qué o qué, según la parte de la oración.",
-        "Se pregunta sobre cosas, acontecimientos y hechos, no sobre personas.",
-        "En alemán, was no cambia después de la inflexión: siempre parece was.",
-        "Si was es el sujeto de la oración, se traduce como kas (Was ist das? = ¿Qué es?) en letón.",
-        "Si was es el complemento (objeto) del verbo, se traduce como ko (Was machst du? = ¿Qué estás haciendo?) en letón.",
-        "A la gente se le pregunta wer (quién/quién), no fue."
+        "Idea principal: was es el pronombre interrogativo para cosas y acontecimientos. Equivale al español qué, tanto en nominativo (Was ist das?) como en acusativo (Was machst du?). No tiene género ni plural.",
+        "Con was für ein se pregunta por el tipo o la clase: Was für ein Auto hast du? Was también se usa como pronombre relativo después de alles, etwas, nichts, das: Alles, was du sagst, ist richtig.",
+        "Por las personas se pregunta con wer; por las cosas, con was."
       ],
       "examples": [
         {
           "de": "Was ist das?",
-          "lv": "¿Qué es?"
+          "lv": "¿Qué es esto?"
         },
         {
-          "de": "Was ist passiert?",
-          "lv": "¿Qué pasó?"
+          "de": "Was machst du am Wochenende?",
+          "lv": "¿Qué haces el fin de semana?"
         },
         {
-          "de": "Was machst du gerade?",
-          "lv": "¿Qué haces ahora?"
+          "de": "Was für ein Auto hast du?",
+          "lv": "¿Qué coche tienes?"
         },
         {
-          "de": "Was möchtest du trinken?",
-          "lv": "¿Qué quieres beber?"
+          "de": "Ich weiß nicht, was er will.",
+          "lv": "No sé qué quiere."
         },
         {
-          "de": "Was bedeutet dieses Wort?",
-          "lv": "¿Qué significa esta palabra?"
+          "de": "Alles, was du sagst, ist richtig.",
+          "lv": "Todo lo que dices es correcto."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "wer",
+          "meaning": "quién",
+          "example": "Wer ist das? – ¿Quién es?"
         },
         {
-          "de": "Was ist dein Lieblingsessen?",
-          "lv": "¿Cuál es tu comida favorita?"
+          "word": "welcher",
+          "meaning": "cuál, qué",
+          "example": "Welches Buch liest du? – ¿Qué libro estás leyendo?"
         },
         {
-          "de": "Was hast du gesagt?",
-          "lv": "qué dijiste"
+          "word": "wie",
+          "meaning": "cómo",
+          "example": "Wie heißt du? – ¿Cómo te llamas?"
         }
       ],
       "tip": [
-        "El fue en sí mismo no cambia; en alemán siempre fue; En español, elige quién o qué según la parte de la frase.",
-        "Truco rápido: si la pregunta se puede responder con 'Es...', utiliza quién; si la respuesta viene después del verbo como complemento, use ko."
+        "Cuando preguntes por una cosa, empieza siempre con was; si preguntas por una persona, con wer, wen, wem.",
+        "Después de alles, etwas, nichts se usa was, no das."
       ],
       "important": [
-        "Se pregunta sobre cosas, acontecimientos y hechos, nunca sobre personas.",
-        "A la gente se le pregunta wer (quién/quién), no fue.",
-        "was für (ein/eine) significa alguien/qué pasa y pregunta sobre una calidad o tipo (Was für ein Film ist das? = ¿Qué tipo de película es?).",
-        "Incorrecto: Wer ist passiert? → Correcto: Was ist passiert?"
+        "Was no se usa para preguntar por una persona: \"Was ist er?\" significa \"¿a qué se dedica?\", no \"¿quién es?\".",
+        "Después de alles, nichts, etwas se usa was: alles, was ..., no alles, das ..."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "was",
+            "Was",
+            "was für ein",
+            "wer"
+          ],
           "purple": [
-            "kas",
-            "ko"
+            "qué",
+            "cosas"
           ]
         },
         "examples": [
@@ -21742,7 +23855,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "¿Qué"
+                "Qué"
               ]
             }
           },
@@ -21754,62 +23867,26 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kas"
+                "Qué"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Was"
+                "Was für ein"
               ]
             },
             "lv": {
               "purple": [
-                "Ko"
+                "Qué coche"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Was"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "que"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Was"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "¿Qué"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Was"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "¿Cuál"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Was"
+                "was"
               ]
             },
             "lv": {
@@ -21817,36 +23894,65 @@ const A1_WORDS = [
                 "qué"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "was"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lo que"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "wer"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "quién"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "welcher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cuál"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wie"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cómo"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "ko"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "pregunta"
-            ]
-          },
-          {
-            "blue": [
-              "wer"
-            ]
-          },
-          {
-            "blue": [
-              "was"
-            ]
-          },
-          {
-            "blue": [
-              "was"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -21916,115 +24022,112 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "si • cuando",
       "explanation": [
-        "Idea principal: wenn significa si o cuándo dependiendo de la situación.",
-        "Si es una condición, traduce como si.",
-        "Si se trata de tiempo repetido o general, traducir como cuando.",
-        "Después de wenn, el verbo suele terminar en una frase alemana."
+        "Idea principal: wenn es una conjunción subordinante que introduce una oración condicional o de acción repetida. En la subordinada el verbo va al final: Wenn es regnet, bleibe ich zu Hause.",
+        "En español puede traducirse por si (condición: wenn du willst) o por cuando (repetición o momento futuro: immer wenn, wenn ich Zeit habe). Si la subordinada va primero, en la oración principal el verbo va justo detrás de la coma.",
+        "Un hecho único del pasado no se expresa con wenn, sino con als: Als ich klein war ..."
       ],
       "examples": [
-        {
-          "de": "Wenn du Zeit hast, komm vorbei.",
-          "lv": "Si tienes tiempo, pásate."
-        },
         {
           "de": "Wenn es regnet, bleibe ich zu Hause.",
           "lv": "Si llueve, me quedo en casa."
         },
         {
-          "de": "Wenn ich müde bin, trinke ich Kaffee.",
-          "lv": "Cuando estoy cansado, tomo café."
+          "de": "Wenn ich Zeit habe, rufe ich dich an.",
+          "lv": "Cuando tenga tiempo, te llamo."
         },
         {
-          "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "No sé si vendrá."
+          "de": "Immer wenn er kommt, bringt er Blumen.",
+          "lv": "Siempre que viene, trae flores."
+        },
+        {
+          "de": "Wenn du willst, können wir ins Kino gehen.",
+          "lv": "Si quieres, podemos ir al cine."
         }
       ],
       "comparison": [
         {
-          "word": "wenn",
-          "meaning": "si / cuando",
-          "example": "Wenn du Zeit hast... = Si tienes tiempo..."
-        },
-        {
-          "word": "ob",
-          "meaning": "o en una pregunta indirecta",
-          "example": "Ich weiß nicht, ob... = No sé si..."
+          "word": "als",
+          "meaning": "cuando (una vez en el pasado)",
+          "example": "Als ich klein war, wohnte ich in Riga. – Cuando era pequeño, vivía en Riga."
         },
         {
           "word": "wann",
-          "meaning": "cuándo en una pregunta",
-          "example": "Wann kommst du? = ¿Cuándo vienes?"
+          "meaning": "cuándo (pregunta)",
+          "example": "Wann kommst du? – ¿Cuándo vienes?"
         },
         {
-          "word": "weil",
-          "meaning": "porque",
-          "example": "Ich bleibe, weil ich krank bin. = Me quedo porque estoy enfermo."
+          "word": "ob",
+          "meaning": "si (en preguntas indirectas)",
+          "example": "Ich weiß nicht, ob er kommt. – No sé si viene."
         }
       ],
-      "tip": {
-        "text": "Recuerde: condición → wenn; la pregunta «¿cuándo?» → wann."
-      },
+      "tip": [
+        "Después de una oración con Wenn ..., el verbo de la principal va en primer lugar: Wenn es regnet, bleibe ich ...",
+        "Para expresar una condición (\"si\") puedes decir wenn o falls (en caso de que)."
+      ],
       "important": [
-        "wenn y wann no son lo mismo.",
-        "¿Cuándo vienes? hay una pregunta. Wenn du kommst... es una condición/tiempo."
+        "Para un hecho único del pasado se usa als, no wenn.",
+        "Wenn no es una palabra interrogativa; para preguntar \"¿cuándo?\" se usa wann."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "wenn",
+            "Wenn",
+            "als"
+          ],
           "purple": [
             "si",
             "cuando",
-            "condición"
+            "condicional"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Wenn",
-                "hast"
+                "Wenn"
               ]
             },
             "lv": {
               "purple": [
-                "tev"
+                "Si"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wenn",
-                "regnet"
+                "Wenn"
               ]
             },
             "lv": {
               "purple": [
-                "si"
+                "Cuando"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wenn",
-                "bin"
+                "wenn"
               ]
             },
             "lv": {
               "purple": [
-                "kad"
+                "Siempre que"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "ob"
+              "blue": [
+                "Wenn"
               ]
             },
             "lv": {
-              "red": [
-                "vendrá"
+              "purple": [
+                "Si"
               ]
             }
           }
@@ -22033,35 +24136,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "wenn"
+                "als"
               ]
             },
             "meaning": {
               "purple": [
-                "kad",
-                "kad"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Wenn"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ob"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "o"
-              ]
-            },
-            "example": {
-              "red": [
-                "ob"
+                "cuando (una vez en el pasado)"
               ]
             }
           },
@@ -22073,64 +24153,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "cuando"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Wann"
+                "cuándo (pregunta)"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "weil"
+                "ob"
               ]
             },
             "meaning": {
               "purple": [
-                "porque"
-              ]
-            },
-            "example": {
-              "green": [
-                "weil"
+                "si (en preguntas indirectas)"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "wenn"
-            ],
-            "purple": [
-              "condición"
-            ],
-            "yellow": [
-              "wenn",
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "blue": [
-              "wenn"
-            ],
-            "yellow": [
-              "wann"
-            ]
-          },
-          {
-            "yellow": [
-              "¿Cuándo"
-            ],
-            "blue": [
-              "Wenn du kommst"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -22144,12 +24190,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "quién",
       "explanation": [
-        "Idea principal: wer es una palabra interrogativa sobre la identidad de una persona; en español es quién o quién.",
-        "Estamos preguntando por personas, no por cosas o acontecimientos.",
-        "Las cosas y los acontecimientos se preguntan con fue, no con wer.",
-        "wer en alemán suele ser el sujeto de una oración (nominativo): Wer ist das? = ¿Qué es?",
-        "Cuando se pregunta cuál de varias personas, wer se usa a menudo con von (wer von euch = cuál de ustedes).",
-        "wer cambia de forma según la inflexión: wen (acusativo), wem (dativo), wessen (genitivo); es precisamente la forma wer la más común en el nivel A1."
+        "Idea principal: wer es el pronombre interrogativo para personas. Casos: wer (nominativo), wen (acusativo), wem (dativo), wessen (genitivo). Por ejemplo: Wer kommt? Wen siehst du? Mit wem sprichst du?",
+        "El verbo después de wer suele ir en 3.ª persona del singular: Wer hat das gemacht? Para preguntar por cosas y acontecimientos se usa was.",
+        "Wer también puede introducir una subordinada: Ich weiß nicht, wer das ist (no sé quién es)."
       ],
       "examples": [
         {
@@ -22157,45 +24200,61 @@ const A1_WORDS = [
           "lv": "¿Quién es?"
         },
         {
-          "de": "Wer bist du?",
-          "lv": "¿Quién eres?"
+          "de": "Wer kommt heute zur Party?",
+          "lv": "¿Quién viene hoy a la fiesta?"
         },
         {
-          "de": "Wer kommt heute?",
-          "lv": "¿Quién viene hoy?"
+          "de": "Wen rufst du an?",
+          "lv": "¿A quién llamas?"
         },
         {
-          "de": "Wer ist deine Lehrerin?",
-          "lv": "¿Quién es tu maestro?"
+          "de": "Mit wem sprichst du?",
+          "lv": "¿Con quién hablas?"
         },
         {
-          "de": "Wer von euch spricht Deutsch?",
-          "lv": "¿Quién de ustedes habla alemán?"
+          "de": "Wessen Tasche ist das?",
+          "lv": "¿De quién es este bolso?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "was",
+          "meaning": "qué (cosa)",
+          "example": "Was ist das? – ¿Qué es esto?"
         },
         {
-          "de": "Wer hat das gesagt?",
-          "lv": "¿Quién dijo eso?"
+          "word": "welcher",
+          "meaning": "cuál, qué",
+          "example": "Welcher Mann ist das? – ¿Qué hombre es ese?"
         },
         {
-          "de": "Wer möchte Kaffee?",
-          "lv": "¿Quién quiere café?"
+          "word": "wie",
+          "meaning": "cómo",
+          "example": "Wie heißt du? – ¿Cómo te llamas?"
         }
       ],
       "tip": [
-        "wer pregunta sobre personas (quién/quién) - sobre cosas y eventos, usamos was.",
-        "Para preguntar sobre una elección entre varias personas, utilice wer von... (cuál de...)."
+        "Repite wer, wen, wem, wessen como una serie de cuatro formas.",
+        "Elige el caso según lo que pide el verbo: anrufen + Akk – Wen?, helfen + Dat – Wem?"
       ],
       "important": [
-        "Sólo preguntamos por personas, nunca por cosas.",
-        "Las cosas y los acontecimientos se preguntan con fue, no con wer.",
-        "wer cambia de forma por inflexión: wen, wem, wessen, pero la forma básica es wer.",
-        "Incorrecto: Wer ist passiert? → Correcto: Was ist passiert?"
+        "Wer se refiere a personas; por las cosas se pregunta con was.",
+        "En español \"a quién\" puede corresponder a wen o a wem: depende del caso que rija el verbo alemán (Wen rufst du an?, Wem hilfst du?)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "wer",
+            "Wer",
+            "wen",
+            "Wen",
+            "wem",
+            "wessen",
+            "was"
+          ],
           "purple": [
-            "Las",
-            "Idea"
+            "personas",
+            "quién"
           ]
         },
         "examples": [
@@ -22207,7 +24266,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "¿Qué"
+                "Quién"
               ]
             }
           },
@@ -22219,105 +24278,92 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Kas"
+                "Quién"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wer"
+                "Wen"
               ]
             },
             "lv": {
               "purple": [
-                "¿Qué"
+                "A quién"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wer"
+                "wem"
               ]
             },
             "lv": {
               "purple": [
-                "quien"
+                "Con quién"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wer"
+                "Wessen"
               ]
             },
             "lv": {
               "purple": [
-                "¿Quién"
+                "De quién"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "was"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "qué (cosa)"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Wer"
+            "word": {
+              "green": [
+                "welcher"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "Kas"
+                "cuál"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Wer"
+            "word": {
+              "green": [
+                "wie"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "¿Quién"
+                "cómo"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "cual de"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "Sólo"
-            ]
-          },
-          {
-            "green": [
-              "Las"
-            ],
-            "blue": [
-              "wer"
-            ]
-          },
-          {
-            "blue": [
-              "wer"
-            ]
-          },
-          {
-            "blue": [
-              "Wer"
-            ],
-            "green": [
-              "Was"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -22331,67 +24377,112 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "convertirse en",
       "explanation": [
-        "Idea principal: werden en A1 suele significar convertirse.",
-        "Se utiliza cuando algo cambia o se vuelve diferente.",
-        "En alemán posterior, werden también se usa para el futuro y el pasivo.",
-        "En el nivel A1, la frase más importante es Ich werde müde. = Me estoy cansando."
+        "Idea principal: werden es un verbo irregular: ich werde, du wirst, er wird, wir werden; pretérito wurde, perfecto ist geworden. Tiene tres usos: convertirse en o volverse (Es wird kalt), futuro (Ich werde kommen) y pasiva (Das Haus wird gebaut).",
+        "Cuando alguien llega a ser algo, la profesión va sin artículo: Sie wird Ärztin. En el perfecto de la pasiva se usa worden (ist gebaut worden), no geworden.",
+        "Convertirse no es lo mismo que recibir: convertirse en = werden, recibir = bekommen."
       ],
       "examples": [
         {
-          "de": "Ich werde müde.",
-          "lv": "Me estoy cansando."
-        },
-        {
-          "de": "Es wird kalt.",
-          "lv": "Hace frío."
+          "de": "Es wird dunkel.",
+          "lv": "Se hace de noche."
         },
         {
           "de": "Sie wird Ärztin.",
-          "lv": "Ella se convierte en doctora."
+          "lv": "Va a ser médica."
         },
         {
-          "de": "Ich bin müde.",
-          "lv": "Estoy cansado."
+          "de": "Das Essen wird kalt.",
+          "lv": "La comida se enfría."
+        },
+        {
+          "de": "Ich werde nächste Woche nach Hamburg fahren.",
+          "lv": "La semana que viene iré a Hamburgo."
+        },
+        {
+          "de": "Das Brot wird jeden Tag frisch gebacken.",
+          "lv": "El pan se hornea fresco todos los días."
         }
       ],
       "comparison": [
         {
-          "word": "werden",
-          "meaning": "convertirse en",
-          "example": "Ich werde müde. = Me estoy cansando."
+          "word": "sein",
+          "meaning": "ser, estar",
+          "example": "Er ist Arzt. – Es médico."
         },
         {
-          "word": "sein",
-          "meaning": "ser",
-          "example": "Ich bin müde. = Estoy cansado."
+          "word": "bekommen",
+          "meaning": "recibir",
+          "example": "Ich bekomme ein Geschenk. – Recibo un regalo."
         },
         {
           "word": "bleiben",
-          "meaning": "permanecer",
-          "example": "Ich bleibe hier. = Me quedo aquí."
-        },
-        {
-          "word": "machen",
-          "meaning": "hacer / hacer",
-          "example": "Ich mache das. = Hago eso."
+          "meaning": "quedarse",
+          "example": "Wir bleiben zu Hause. – Nos quedamos en casa."
         }
       ],
-      "tip": {
-        "text": "Recuerde: el cambio/estado se vuelve diferente → werden."
-      },
+      "tip": [
+        "Aprende los tres usos: werden + adjetivo, werden + infinitivo, werden + participio.",
+        "Las profesiones se dicen sin artículo: Er wird Lehrer."
+      ],
       "important": [
-        "werden no es lo mismo que sein.",
-        "Ich werde müde = me estoy cansando; Ich bin müde = estoy cansado."
+        "Werden no es bekommen: Ich werde ein Buch significaría \"me convierto en un libro\", no \"recibo un libro\".",
+        "En el perfecto de la pasiva se usa worden: Das Haus ist gebaut worden."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "werden",
+            "werde",
+            "wirst",
+            "wird",
+            "wurde",
+            "ist geworden",
+            "worden"
+          ],
           "purple": [
-            "Idea",
-            "Idea",
-            "Idea"
+            "convertirse en",
+            "volverse",
+            "futuro",
+            "pasiva"
           ]
         },
         "examples": [
+          {
+            "de": {
+              "blue": [
+                "wird"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se hace"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wird"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Va a ser"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wird"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se enfría"
+              ]
+            }
+          },
           {
             "de": {
               "blue": [
@@ -22400,7 +24491,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "estoy"
+                "iré"
               ]
             }
           },
@@ -22412,31 +24503,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "hace"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "wird"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "se convierte"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "bin"
-              ]
-            },
-            "lv": {
-              "red": [
-                "esmu"
+                "se hornea"
               ]
             }
           }
@@ -22445,34 +24512,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "werden"
+                "sein"
               ]
             },
             "meaning": {
               "purple": [
-                "convertirse en"
-              ]
-            },
-            "example": {
-              "blue": [
-                "werde"
+                "ser, estar"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "sein"
+                "bekommen"
               ]
             },
             "meaning": {
               "purple": [
-                "ser"
-              ]
-            },
-            "example": {
-              "red": [
-                "bin"
+                "recibir"
               ]
             }
           },
@@ -22484,51 +24541,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "permanecer"
-              ]
-            },
-            "example": {
-              "green": [
-                "bleibe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "machen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "hacer",
-                "hacer"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "mache"
+                "quedarse"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "werden"
-            ],
-            "purple": [
-              "Recuerde",
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "werden"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -22543,32 +24567,22 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "tiempo (clima)",
       "explanation": [
-        "Idea principal: das Wetter significa el tiempo: soleado, lluvioso, frío o cálido.",
-        "La palabra letona \"laiks\" puede significar tanto el tiempo como la hora del reloj; en alemán es diferente.",
-        "Habla sobre el tiempo en la naturaleza con das Wetter: Wie ist das Wetter heute?",
-        "Das Wetter se usa a menudo en una oración junto con palabras como cálido o kalt.",
-        "No debe confundirse con die Zeit: es el tiempo como momento u oportunidad (Ich habe keine Zeit)."
+        "Idea principal: das Wetter es un sustantivo neutro que designa el tiempo atmosférico: la lluvia, el sol, el viento, la temperatura. El plural die Wetter prácticamente no se usa; se emplea el singular: das Wetter ist schön.",
+        "La pregunta es Wie ist das Wetter? Combinaciones frecuentes: gutes/schlechtes Wetter (buen/mal tiempo), der Wetterbericht (el parte meteorológico).",
+        "En español tiempo significa tanto el tiempo atmosférico como el tiempo que pasa; en alemán son dos palabras distintas: das Wetter y die Zeit."
       ],
       "examples": [
         {
-          "de": "Wie ist das Wetter heute?",
-          "lv": "¿Qué tiempo hace hoy?"
+          "de": "Das Wetter ist heute schön.",
+          "lv": "Hoy hace buen tiempo."
         },
         {
-          "de": "Das Wetter ist schön.",
-          "lv": "Hace buen tiempo."
+          "de": "Wie ist das Wetter in Riga?",
+          "lv": "¿Qué tiempo hace en Riga?"
         },
         {
-          "de": "Das Wetter ist schlecht.",
-          "lv": "Hace mal tiempo."
-        },
-        {
-          "de": "Im Winter ist das Wetter oft kalt.",
-          "lv": "El clima suele ser frío en invierno."
-        },
-        {
-          "de": "Wir sprechen über das Wetter.",
-          "lv": "Estamos hablando del tiempo."
+          "de": "Wenn das Wetter schlecht ist, bleiben wir zu Hause.",
+          "lv": "Si hace mal tiempo, nos quedamos en casa."
         },
         {
           "de": "Morgen wird das Wetter besser.",
@@ -22577,38 +24591,39 @@ const A1_WORDS = [
       ],
       "comparison": [
         {
-          "word": "Wetter",
-          "meaning": "condiciones climáticas",
-          "example": "Das Wetter ist schön. = El clima es hermoso."
+          "word": "die Zeit",
+          "meaning": "tiempo (que pasa)",
+          "example": "Ich habe keine Zeit. – No tengo tiempo."
         },
         {
-          "word": "Zeit",
-          "meaning": "tiempo (momento)",
-          "example": "Ich habe keine Zeit. = No tengo tiempo."
+          "word": "das Klima",
+          "meaning": "clima",
+          "example": "Das Klima in Lettland ist kühl. – El clima de Letonia es fresco."
         },
         {
-          "word": "Regen",
+          "word": "der Regen",
           "meaning": "lluvia",
-          "example": "Es gibt viel Regen. = Hay mucha lluvia."
-        },
-        {
-          "word": "Sonne",
-          "meaning": "el sol",
-          "example": "Die Sonne scheint. = Brilla el sol."
+          "example": "Der Regen hört auf. – Deja de llover."
         }
       ],
       "tip": [
-        "Cuando hable del sol, la lluvia o la temperatura exterior, utilice das Wetter.",
-        "Recuerde: ¿Wie ist das Wetter? = ¿Qué hora es? (no un reloj)."
+        "Pregunta Wie ist das Wetter? y responde con Es ist sonnig / Es regnet.",
+        "Forma la palabra compuesta: das Wetter + Bericht = der Wetterbericht."
       ],
       "important": [
-        "das Wetter = el tiempo, no la hora en el reloj.",
-        "die Zeit = tiempo como momento u oportunidad - otra carta A1."
+        "Das Wetter es un sustantivo singular: das Wetter ist, no \"die Wetter sind\".",
+        "No confundas das Wetter con die Zeit: Wetter se refiere al tiempo atmosférico; Zeit, al tiempo que pasa."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "das Wetter",
+            "Wetter",
+            "der Wetterbericht"
+          ],
           "purple": [
-            "Idea"
+            "tiempo atmosférico",
+            "tiempo"
           ]
         },
         "examples": [
@@ -22620,7 +24635,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "¿qué"
+                "tiempo"
               ]
             }
           },
@@ -22632,7 +24647,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laiks"
+                "tiempo"
               ]
             }
           },
@@ -22644,22 +24659,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "laiks"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wetter"
-              ],
-              "yellow": [
-                "Winter"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "clima"
+                "tiempo"
               ]
             }
           },
@@ -22671,22 +24671,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Estamos"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wetter"
-              ],
-              "green": [
-                "besser"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Mañana"
+                "tiempo"
               ]
             }
           }
@@ -22695,90 +24680,47 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "Wetter"
+                "die Zeit"
               ]
             },
             "meaning": {
               "purple": [
-                "condiciones climáticas"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Wetter"
+                "tiempo (que pasa)"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Zeit"
+                "das Klima"
               ]
             },
             "meaning": {
               "purple": [
-                "tiempo"
-              ]
-            },
-            "example": {
-              "green": [
-                "Zeit"
+                "clima"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "Regen"
+                "der Regen"
               ]
             },
             "meaning": {
               "purple": [
                 "lluvia"
               ]
-            },
-            "example": {
-              "green": [
-                "Regen"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "Sonne"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "el sol"
-              ]
-            },
-            "example": {
-              "green": [
-                "Sonne"
-              ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "Wetter"
-            ]
-          },
-          {
-            "blue": [
-              "Wetter"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "das"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -22797,52 +24739,70 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "cómo • cuánto",
       "explanation": [
-        "Idea principal: wie pregunta sobre tipo o calidad (cómo) y sobre cantidad o número (cuánto), según el contexto.",
-        "wie alone (¿Wie geht's?) pregunta sobre el camino - en español cómo.",
-        "wie + adjetivo (wie viel, wie alt, wie lange) pregunta sobre la cantidad, edad o duración - cuánto en letón.",
-        "wie viel(e) significa cuánto; wie alt significa cuántos años tiene; wie lange significa cuánto tiempo.",
-        "En comparaciones, wie significa como (así que groß wie = tan grande como)."
+        "Idea principal: wie es una palabra interrogativa que pregunta por el modo (¿cómo?) y por la medida (¿cuánto?): Wie heißt du? Wie alt bist du? Wie lange dauert das? También forma comparaciones de igualdad con so ... wie (tan ... como): Er ist so groß wie sein Vater.",
+        "Para preguntar por el grado o la cantidad se combina con otra palabra: wie viel (cuánto), wie lange (cuánto tiempo), wie oft (con qué frecuencia), wie alt (qué edad).",
+        "En las comparaciones de desigualdad se usa als, no wie: Er ist größer als ich."
       ],
       "examples": [
-        {
-          "de": "Wie geht es dir?",
-          "lv": "¿Cómo estás?"
-        },
         {
           "de": "Wie heißt du?",
           "lv": "¿Cómo te llamas?"
         },
         {
-          "de": "Wie viel kostet das?",
-          "lv": "¿Cuánto cuesta?"
+          "de": "Wie geht es dir?",
+          "lv": "¿Qué tal estás?"
         },
         {
-          "de": "Wie alt bist du?",
-          "lv": "¿Cuántos años tienes?"
-        },
-        {
-          "de": "Wie lange dauert der Film?",
-          "lv": "¿Cuánto dura la película?"
+          "de": "Wie lange wohnst du schon hier?",
+          "lv": "¿Cuánto tiempo llevas viviendo aquí?"
         },
         {
           "de": "Er ist so groß wie sein Vater.",
           "lv": "Es tan alto como su padre."
+        },
+        {
+          "de": "Wie viel kostet das?",
+          "lv": "¿Cuánto cuesta esto?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "als",
+          "meaning": "que (en comparaciones)",
+          "example": "Er ist größer als ich. – Es más alto que yo."
+        },
+        {
+          "word": "wo",
+          "meaning": "dónde",
+          "example": "Wo wohnst du? – ¿Dónde vives?"
+        },
+        {
+          "word": "was",
+          "meaning": "qué",
+          "example": "Was machst du? – ¿Qué haces?"
         }
       ],
       "tip": [
-        "wie por sí mismo = cómo (camino); wie + adjetivo (viel/alt/lange) = cuánto (cantidad).",
-        "En comparación, entonces... wie = como... como."
+        "Wie se combina con otras palabras para formar preguntas frecuentes: wie viel, wie lange, wie oft, wie alt.",
+        "\"Tan ... como\" se dice con so ... wie; \"más ... que\", con comparativo + als."
       ],
       "important": [
-        "wie viel(e) = cuánto; wie alt = cuántos años tiene; wie lange = cuánto tiempo.",
-        "wie alone (Wie...?) generalmente = cómo, no cuánto.",
-        "Incorrecto: ¿Cuántos años tienes? → Correcto: ¿Cómo estás? (¿Cómo es el de geht?)"
+        "Después de un comparativo no se usa wie: größer als, no \"größer wie\".",
+        "Wie pregunta por el modo y la medida; por el lugar se pregunta con wo."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "wie",
+            "Wie",
+            "so ... wie",
+            "wie viel",
+            "wie lange"
+          ],
           "purple": [
             "cómo",
-            "cuánto"
+            "cuánto",
+            "tan ... como"
           ]
         },
         "examples": [
@@ -22854,7 +24814,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "cómo"
+                "Cómo"
               ]
             }
           },
@@ -22866,43 +24826,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "cómo"
+                "Qué tal"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wie"
+                "Wie lange"
               ]
             },
             "lv": {
               "purple": [
-                "cuánto"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "cik"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "cik"
+                "Cuánto tiempo"
               ]
             }
           },
@@ -22914,29 +24850,68 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "cómo"
+                "como"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wie viel"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Cuánto"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "als"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "que (en comparaciones)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wo"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dónde"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "was"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "qué"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "cómo",
-              "cuánto",
-              "cómo"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "cik daudz",
-              "cik vecs",
-              "cik ilgi",
-              "wie"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -22995,10 +24970,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "a • en",
       "explanation": [
-        "Idea principal: zu muy a menudo significa a o en, pero también tiene un papel con el infinitivo.",
-        "Con personas e instituciones, zu a menudo significa en o hacia.",
-        "Con adjetivos, zu puede significar también.",
-        "En la construcción zu + indefinido, ayuda a formar lo indefinido: zu lernen, zu gehen."
+        "Idea principal: zu es una preposición que siempre rige dativo e indica dirección hacia una persona o un lugar: zu meiner Oma, zum Arzt, zur Schule. Estar en casa (¿dónde?) se dice zu Hause; ir a casa (¿adónde?), nach Hause.",
+        "Zu expresa también finalidad (zum Essen, para comer), exceso (zu heiß, demasiado caliente) y es la partícula del infinitivo: Ich habe keine Lust, zu arbeiten.",
+        "Contracciones: zu dem = zum, zu der = zur."
       ],
       "examples": [
         {
@@ -23006,101 +24980,120 @@ const A1_WORDS = [
           "lv": "Voy al médico."
         },
         {
-          "de": "Wir gehen zur Schule.",
-          "lv": "Vamos a la escuela."
+          "de": "Wir fahren zu meiner Oma.",
+          "lv": "Vamos a casa de mi abuela."
         },
         {
-          "de": "Das ist zu teuer.",
-          "lv": "Es demasiado caro."
+          "de": "Er geht zu Fuß zur Schule.",
+          "lv": "Va andando al colegio."
         },
         {
-          "de": "Ich habe keine Zeit zu lernen.",
-          "lv": "No tengo tiempo para estudiar."
+          "de": "Der Kaffee ist zu heiß.",
+          "lv": "El café está demasiado caliente."
+        },
+        {
+          "de": "Sie ist zu Hause.",
+          "lv": "Está en casa."
         }
       ],
       "comparison": [
         {
-          "word": "zu",
-          "meaning": "a / en / demasiado / infinitivo",
-          "example": "Ich gehe zum Arzt. = Voy al médico."
-        },
-        {
           "word": "nach",
-          "meaning": "a ciudades/países",
-          "example": "Ich fahre nach Berlin. = Voy a Berlín."
-        },
-        {
-          "word": "in",
-          "meaning": "en / a un lugar",
-          "example": "Ich gehe in die Schule. = Voy a la escuela."
+          "meaning": "a (ciudad / país)",
+          "example": "Ich fahre nach Berlin. – Voy a Berlín."
         },
         {
           "word": "bei",
-          "meaning": "a alguien / al trabajo",
-          "example": "Ich bin bei Anna."
+          "meaning": "en casa de, en (estancia)",
+          "example": "Ich bin beim Arzt. – Estoy en el médico."
+        },
+        {
+          "word": "in",
+          "meaning": "en, a (hacia dentro)",
+          "example": "Ich gehe in den Supermarkt. – Voy al supermercado."
         }
       ],
-      "tip": {
-        "text": "Recuerde: al médico → zum Arzt; demasiado caro → zu teuer."
-      },
+      "tip": [
+        "Recuerda: zu = ¿adónde? (dirección), bei = ¿dónde? (estar en casa de alguien o en un sitio).",
+        "Con personas se usa zu: zu mir, zu dir, zu uns."
+      ],
       "important": [
-        "zu tiene muchos usos, así que fíjate siempre en la construcción.",
-        "zu teuer significa \"demasiado caro\", no \"demasiado caro\"."
+        "Zu solo rige dativo: zu meinem Freund, zu der Schule.",
+        "Con ciudades y países se usa nach, no zu: nach Berlin."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "zu",
+            "zum",
+            "zur",
+            "zu Hause",
+            "nach Hause"
+          ],
           "purple": [
             "a",
             "en",
-            "también"
+            "demasiado"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "zum Arzt"
+                "zum"
               ]
             },
             "lv": {
               "purple": [
-                "Voy"
+                "al"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "zur Schule"
+                "zu"
               ]
             },
             "lv": {
               "purple": [
-                "vamos"
+                "a casa de"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "zu teuer"
+                "zur"
               ]
             },
             "lv": {
               "purple": [
-                "demasiado caro"
+                "al"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "zu lernen"
+                "zu"
               ]
             },
             "lv": {
               "purple": [
-                "tengo"
+                "demasiado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "zu"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "en casa"
               ]
             }
           }
@@ -23109,55 +25102,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "zu"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "a",
-                "en",
-                "también",
-                "infinitivo"
-              ]
-            },
-            "example": {
-              "blue": [
-                "zum Arzt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "nach"
               ]
             },
             "meaning": {
               "purple": [
-                "a"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "nach Berlin"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "in"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "lugar",
-                "lugar"
-              ]
-            },
-            "example": {
-              "green": [
-                "in die Schule"
+                "a (ciudad / país)"
               ]
             }
           },
@@ -23169,34 +25119,30 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "en"
+                "en casa de, en (estancia)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "in"
               ]
             },
-            "example": {
-              "red": [
-                "bei Anna"
+            "meaning": {
+              "purple": [
+                "en, a (hacia dentro)"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "zum Arzt",
-              "zu teuer"
-            ],
-            "purple": [
-              "Recuerde",
-              "demasiado caro"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "tiene"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -23223,63 +25169,68 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "el tren",
       "explanation": [
-        "Idea principal: der Zug en el nivel A1 suele significar tren.",
-        "Se utiliza en situaciones cotidianas sobre conducir, llegar y salir.",
-        "En algunos otros significados, Zug puede ser una marcha, un borrador o una característica, pero estos no son los significados principales de A1.",
-        "Frases muy comunes son mit dem Zug fahren y Der Zug kommt."
+        "Idea principal: der Zug es un sustantivo masculino que significa tren. El plural es die Züge (con diéresis). Con preposiciones se usa así: mit dem Zug (en tren), im Zug (en el tren), in den Zug einsteigen (subir al tren).",
+        "La palabra Zug tiene también otros significados: jugada (en un juego), corriente de aire (der Zug), trago o rasgo. Esta tarjeta trata el sentido de tren.",
+        "Muy cerca está die Bahn, que designa el ferrocarril o el tren en general."
       ],
       "examples": [
         {
-          "de": "Der Zug kommt um acht Uhr.",
-          "lv": "El tren llega a las ocho."
+          "de": "Der Zug nach Hamburg fährt um neun Uhr ab.",
+          "lv": "El tren a Hamburgo sale a las nueve."
         },
         {
-          "de": "Ich fahre mit dem Zug.",
-          "lv": "Viajo en tren."
+          "de": "Ich fahre mit dem Zug zur Arbeit.",
+          "lv": "Voy al trabajo en tren."
         },
         {
-          "de": "Der Zug ist voll.",
-          "lv": "El tren está lleno."
+          "de": "Der Zug hat zehn Minuten Verspätung.",
+          "lv": "El tren lleva diez minutos de retraso."
         },
         {
-          "de": "Der Bus kommt später.",
-          "lv": "El autobús llega más tarde."
+          "de": "Wir sind in den falschen Zug gestiegen.",
+          "lv": "Nos hemos subido al tren equivocado."
+        },
+        {
+          "de": "Die Züge sind heute voll.",
+          "lv": "Hoy los trenes van llenos."
         }
       ],
       "comparison": [
         {
-          "word": "der Zug",
-          "meaning": "el tren",
-          "example": "Der Zug kommt. = Llega el tren."
-        },
-        {
           "word": "die Bahn",
-          "meaning": "ferrocarril / viajar en tren",
-          "example": "Ich fahre mit der Bahn. = Viajo en tren."
-        },
-        {
-          "word": "der Bus",
-          "meaning": "autobús",
-          "example": "Der Bus kommt. = Llega el autobús."
+          "meaning": "ferrocarril / tren",
+          "example": "Ich fahre mit der Bahn. – Voy en tren."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "tranvía",
-          "example": "Die Straßenbahn ist hier. = El tranvía está aquí."
+          "example": "Die Straßenbahn kommt gleich. – El tranvía llega enseguida."
+        },
+        {
+          "word": "der Bus",
+          "meaning": "autobús",
+          "example": "Der Bus fährt um acht. – El autobús sale a las ocho."
         }
       ],
-      "tip": {
-        "text": "Recuerde: tren específico → der Zug."
-      },
+      "tip": [
+        "Recuerda los pares mit dem Zug (en tren) e im Zug (en el tren): en ambos casos der Zug va en dativo.",
+        "En el plural die Züge la u se convierte en ü."
+      ],
       "important": [
-        "der Zug en el título debería leerse como \"tren\".",
-        "Los significados más raros no son necesarios en el título principal A1."
+        "La palabra es masculina: der Zug, no \"die Zug\".",
+        "Der Zug también puede significar corriente de aire, así que fíjate en el contexto."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "der Zug",
+            "Zug",
+            "Züge",
+            "die Züge",
+            "mit dem Zug"
+          ],
           "purple": [
-            "Idea",
-            "Idea"
+            "tren"
           ]
         },
         "examples": [
@@ -23291,19 +25242,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "el tren"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "mit dem Zug"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ar vilcienu"
+                "tren"
               ]
             }
           },
@@ -23315,19 +25254,43 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vilciens"
+                "en tren"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "Bus"
+              "blue": [
+                "Zug"
               ]
             },
             "lv": {
-              "red": [
-                "autobús"
+              "purple": [
+                "tren"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zug"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tren"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Züge"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "trenes"
               ]
             }
           }
@@ -23336,52 +25299,12 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "der Zug"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "el tren"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Zug"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "die Bahn"
               ]
             },
             "meaning": {
               "purple": [
-                "ferrocarril",
-                "ferrocarril"
-              ]
-            },
-            "example": {
-              "green": [
-                "Bahn"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "der Bus"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "autobús"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Bus"
+                "ferrocarril / tren"
               ]
             }
           },
@@ -23395,126 +25318,105 @@ const A1_WORDS = [
               "purple": [
                 "tranvía"
               ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Bus"
+              ]
             },
-            "example": {
-              "red": [
-                "Straßenbahn"
+            "meaning": {
+              "purple": [
+                "autobús"
               ]
             }
           }
         ],
-        "tip": {
-          "left": {
-            "blue": [
-              "der Zug"
-            ],
-            "purple": [
-              "Recuerde"
-            ]
-          }
-        },
+        "tip": [
+          {},
+          {}
+        ],
         "important": [
-          {
-            "purple": [
-              "der",
-              "der"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "zum",
-    "lv": "a • en",
+    "lv": "al",
     "level": "A1",
     "study": {
       "id": "a1-zum",
       "layout": "standardStudy",
-      "translation": "a • en",
+      "translation": "al",
       "explanation": [
-        "zum es una abreviatura de la preposición zu y del artículo dem.",
-        "Forma completa: zu dem (¿a quién?).",
-        "Se usa con sustantivos masculinos y neutros para indicar dirección o propósito.",
-        "A menudo significa para algo o alguien: al médico, a la estación, a un amigo.",
-        "En la práctica, casi siempre se utiliza zum en lugar de zu dem completo."
+        "Idea principal: zum es la contracción de zu + dem, es decir, zu con dativo ante una palabra masculina o neutra, de forma parecida a la contracción española al (a + el). Significa a o hacia (dirección): zum Bahnhof, zum Bäcker; también expresa finalidad u ocasión: zum Frühstück, zum Geburtstag.",
+        "En femenino se usa zur (zu der), y en plural, zu den. Con un infinitivo sustantivado, zum expresa finalidad: zum Lesen (para leer).",
+        "Zum Frühstück significa \"en el desayuno\" o \"para desayunar\", según el contexto."
       ],
       "examples": [
         {
-          "de": "Ich gehe zum Arzt.",
-          "lv": "Voy al médico."
+          "de": "Ich gehe zum Bahnhof.",
+          "lv": "Voy a la estación."
         },
         {
-          "de": "Wir fahren zum Bahnhof.",
-          "lv": "Vamos a la estación."
+          "de": "Er geht zum Bäcker.",
+          "lv": "Va a la panadería."
         },
         {
-          "de": "Sie geht zum Supermarkt.",
-          "lv": "Ella va a la tienda."
+          "de": "Was möchtest du zum Frühstück?",
+          "lv": "¿Qué quieres para desayunar?"
         },
         {
-          "de": "Komm zum Essen!",
-          "lv": "¡Ven a comer!"
+          "de": "Zum Geburtstag wünsche ich dir alles Gute.",
+          "lv": "Por tu cumpleaños te deseo todo lo mejor."
         },
         {
-          "de": "Er fährt zum Flughafen.",
-          "lv": "Él va al aeropuerto."
-        },
-        {
-          "de": "Wir gehen zum Konzert.",
-          "lv": "vamos a un concierto."
-        },
-        {
-          "de": "Das Geschenk ist zum Geburtstag.",
-          "lv": "El regalo es para un cumpleaños."
-        },
-        {
-          "de": "Ich gehe zum Friseur.",
-          "lv": "Voy a la peluquería."
+          "de": "Das Haus steht zum Verkauf.",
+          "lv": "La casa está en venta."
         }
       ],
       "comparison": [
         {
-          "word": "zum",
-          "meaning": "a / hacia (¿a quién?)",
-          "example": "zum Arzt – al médico"
-        },
-        {
           "word": "zur",
-          "meaning": "a / hacia (género femenino: zu der)",
-          "example": "zur Schule – a la escuela"
+          "meaning": "a la (femenino)",
+          "example": "Ich gehe zur Schule. – Voy a la escuela."
         },
         {
-          "word": "zu",
-          "meaning": "a / en",
-          "example": "zu Hause – en casa"
+          "word": "beim",
+          "meaning": "en casa de, en (estancia)",
+          "example": "Ich bin beim Arzt. – Estoy en el médico."
         },
         {
           "word": "nach",
-          "meaning": "a (ciudades/países)",
-          "example": "nach Berlin – a Berlín"
-        },
-        {
-          "word": "bei",
-          "meaning": "en (ubicación)",
-          "example": "beim Arzt – al médico"
+          "meaning": "a (ciudad)",
+          "example": "Ich fahre nach Berlin. – Voy a Berlín."
         }
       ],
       "tip": [
-        "Recuerda: zu + dem → zum (kam?).",
-        "Para palabras femeninas: zu + der → zur."
+        "Zum solo se usa con palabras que llevan der o das: zum Mann, zum Kind; con femeninas, zur Frau.",
+        "En la expresión zum Beispiel (por ejemplo), zum es una forma fija."
       ],
       "important": [
-        "zum = zu dem, sólo con un sustantivo masculino o sin género ¿para quién? en inflexión.",
-        "Indica la dirección u objetivo: al médico, a la estación, a un amigo.",
-        "Para el género femenino se utiliza zur: zur Bank, zur Post.",
-        "No confundir con bei (ubicado en) o nach (a ciudades sin artículo)."
+        "Zum = zu dem, no zu den.",
+        "Zum no se usa con palabras femeninas: no se dice \"zum Schule\", sino zur Schule."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "zum",
+            "zur",
+            "zu den",
+            "zum Bahnhof"
+          ],
           "purple": [
+            "al",
             "a",
-            "en"
+            "hacia",
+            "finalidad"
           ]
         },
         "examples": [
@@ -23526,7 +25428,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Voy"
+                "a"
               ]
             }
           },
@@ -23538,7 +25440,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vamos"
+                "a"
               ]
             }
           },
@@ -23550,7 +25452,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ella"
+                "para desayunar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Por tu cumpleaños"
               ]
             }
           },
@@ -23562,55 +25476,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "comer"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "zum"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "aeropuerto"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "zum"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vamos"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "zum"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "para un cumpleaños"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "zum"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pie friziera"
+                "en venta"
               ]
             }
           }
@@ -23619,55 +25485,24 @@ const A1_WORDS = [
           {
             "word": {
               "green": [
-                "zum"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pie",
-                "pie"
-              ]
-            },
-            "example": {
-              "blue": [
-                "zum Arzt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
                 "zur"
               ]
             },
             "meaning": {
               "purple": [
-                "pie",
-                "pie"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "zur Schule"
+                "a la (femenino)"
               ]
             }
           },
           {
             "word": {
               "green": [
-                "zu"
+                "beim"
               ]
             },
             "meaning": {
               "purple": [
-                "a",
-                "en",
-                "también"
-              ]
-            },
-            "example": {
-              "green": [
-                "zu Hause"
+                "en casa de, en (estancia)"
               ]
             }
           },
@@ -23679,53 +25514,18 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "a"
-              ]
-            },
-            "example": {
-              "green": [
-                "nach Berlin"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bei"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "en"
-              ]
-            },
-            "example": {
-              "red": [
-                "beim Arzt"
+                "a (ciudad)"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "zum"
-            ]
-          },
-          {
-            "yellow": [
-              "zur"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "zu dem",
-              "zum",
-              "en"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -23810,94 +25610,159 @@ const A1_WORDS = [
       "id": "a1-fernsehen",
       "layout": "standardStudy",
       "translation": "ver la televisión",
-      "explanation": "Idea principal: fernsehen es un verbo dividido: ich sehe fern, du siehst fern. Esto significa mirar televisión. No confundir con el sustantivo das Fernsehen (la televisión como medio).",
+      "explanation": [
+        "Idea principal: fernsehen es un verbo con prefijo separable: ich sehe fern, du siehst fern, er sieht fern; pretérito sah fern, perfecto hat ferngesehen. Infinitivo con zu: fernzusehen.",
+        "En la oración, fern va al final: Ich sehe abends fern. Significa ver la televisión o los programas de televisión, normalmente sin complemento.",
+        "Para ver una película o un programa concreto se suele usar ansehen: Wir sehen uns einen Film an."
+      ],
       "examples": [
         {
-          "de": "Ich sehe heute Abend fern.",
-          "lv": "Estoy viendo la televisión esta noche."
+          "de": "Ich sehe abends gern fern.",
+          "lv": "Por la noche me gusta ver la televisión."
         },
         {
-          "de": "Siehst du oft fern?",
-          "lv": "¿Ves televisión a menudo?"
+          "de": "Die Kinder sehen jeden Tag eine Stunde fern.",
+          "lv": "Los niños ven la televisión una hora al día."
         },
         {
-          "de": "Die Kinder sehen am Nachmittag fern.",
-          "lv": "Los niños ven la televisión por la tarde."
+          "de": "Wir haben gestern lange ferngesehen.",
+          "lv": "Ayer estuvimos mucho rato viendo la televisión."
+        },
+        {
+          "de": "Er hat keine Lust fernzusehen.",
+          "lv": "No le apetece ver la televisión."
         }
       ],
       "comparison": [
         {
-          "word": "fernsehen",
-          "meaning": "ver la televisión",
-          "example": "Ich sehe fern. – Veo la televisión."
-        },
-        {
           "word": "das Fernsehen",
-          "meaning": "televisión (medios de comunicación)",
-          "example": "Im Fernsehen läuft ein Film. – En la televisión ponen una película."
+          "meaning": "televisión",
+          "example": "Das Fernsehen berichtet darüber. – La televisión informa sobre ello."
         },
         {
-          "word": "sehen",
-          "meaning": "ver",
-          "example": "Ich sehe einen Film. – Veo una película."
+          "word": "der Fernseher",
+          "meaning": "televisor",
+          "example": "Der Fernseher ist neu. – El televisor es nuevo."
+        },
+        {
+          "word": "ansehen",
+          "meaning": "ver, mirar (algo concreto)",
+          "example": "Wir sehen einen Film an. – Vemos una película."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Fernsehen (ich sehe fern) se utiliza para la acción. Das Fernsehen se utiliza para un programa o medio de televisión."
-          }
-        ]
-      },
-      "important": {
-        "text": "fernsehen = verbo (ich sehe fern). das Fernsehen = sustantivo, solo singular."
-      },
+      "tip": [
+        "Recuerda: fern va al final de la frase: Ich sehe heute Abend fern.",
+        "En el perfecto se escribe todo junto: ferngesehen."
+      ],
+      "important": [
+        "No se puede decir \"Ich fernsehe\": lo correcto es Ich sehe fern.",
+        "Como sustantivo (das Fernsehen) significa la televisión; como verbo, ver la televisión."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "fernsehen",
+            "sehe fern"
+          ],
           "purple": [
-            "Idea"
+            "ver la televisión"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "sehe",
-                "fern"
+                "sehe"
               ]
             },
             "lv": {
               "purple": [
-                "Estoy"
+                "ver la televisión"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Siehst",
-                "fern"
+                "sehen"
               ]
             },
             "lv": {
               "purple": [
-                "¿Ves"
+                "ven la televisión"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "sehen",
-                "fern"
+                "ferngesehen"
               ]
             },
             "lv": {
               "purple": [
-                "Los"
+                "viendo la televisión"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "fernzusehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ver la televisión"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Fernsehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "televisión"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Fernseher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "televisor"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ansehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ver, mirar (algo concreto)"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
         ]
       }
     }
@@ -23912,65 +25777,71 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "televisión",
       "explanation": [
-        "Idea principal: Sustantivo, solo singular. Describe la televisión como un medio o transmisión en general.",
-        "das Fernsehen significa básicamente: ver una emisión.",
-        "A menudo describe: acción.",
-        "das Fernsehen significa principalmente: La televisión como medio.",
-        "A menudo describe: un sustantivo (sólo en singular).",
-        "fernsehen es un verbo que se puede dividir: ich sehe fern, du siehst fern.",
-        "das Fernsehen es un sustantivo y sólo singular: no tiene forma plural."
+        "Idea principal: das Fernsehen es un sustantivo neutro que designa la televisión como medio de comunicación o como conjunto de programas. Prácticamente no tiene plural: se usa en singular. Suele ir con im: im Fernsehen (en la televisión), beim Fernsehen (trabajando en la televisión).",
+        "Es el sustantivo del verbo fernsehen (ver la televisión). El aparato se llama der Fernseher, y la actividad, fernsehen.",
+        "El sustantivo se escribe con mayúscula; como verbo, fernsehen tiene prefijo separable."
       ],
       "examples": [
         {
-          "de": "Was gibt es heute im Fernsehen?",
-          "lv": "¿Qué hay en la televisión hoy?"
+          "de": "Das Fernsehen berichtet über den Unfall.",
+          "lv": "La televisión informa sobre el accidente."
         },
         {
-          "de": "Was gibt es heute im Fernsehen?",
-          "lv": "¿Qué hay en la televisión hoy?"
+          "de": "Der Film läuft heute im Fernsehen.",
+          "lv": "La película la echan hoy en la televisión."
         },
         {
-          "de": "Im Fernsehen läuft ein Film.",
-          "lv": "Se está proyectando una película en la televisión."
+          "de": "Mein Vater arbeitet beim Fernsehen.",
+          "lv": "Mi padre trabaja en la televisión."
         },
         {
-          "de": "Das Fernsehen ist heute langweilig.",
-          "lv": "El programa de televisión de hoy es aburrido."
+          "de": "Das Programm im Fernsehen ist langweilig.",
+          "lv": "La programación de la televisión es aburrida."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Fernseher",
+          "meaning": "televisor",
+          "example": "Der Fernseher ist kaputt. – El televisor está roto."
         },
         {
-          "de": "Ich sehe heute Abend fern.",
-          "lv": "Estoy viendo la televisión esta noche."
+          "word": "fernsehen",
+          "meaning": "ver la televisión",
+          "example": "Ich sehe gern fern. – Me gusta ver la televisión."
         },
         {
-          "de": "Was gibt es im Fernsehen?",
-          "lv": "¿Qué se muestra en la televisión?"
+          "word": "das Radio",
+          "meaning": "radio",
+          "example": "Das Radio läuft. – La radio está puesta."
         }
       ],
       "tip": [
-        "Fernsehen (ich sehe fern) se utiliza cuando se habla de una acción. Cuando hable de un programa de televisión o de un medio de comunicación, utilice das Fernsehen.",
-        "Sustantivo, sólo singular. Describe la televisión como un medio o transmisión en general."
+        "Di im Fernsehen cuando algo sale en la televisión.",
+        "Der Fernseher (el aparato) y das Fernsehen (el medio) son dos palabras distintas."
       ],
       "important": [
-        "fernsehen es divisible: sehen + helecho.",
-        "das Fernsehen no es plural, no *die Fernsehen.",
-        "Incorrecto: die Fernsehen → Correcto: das Fernsehen",
-        "Acción: fernsehen → ich sehe helecho."
+        "Das Fernsehen es neutro, por eso das Fernsehen.",
+        "No confundas das Fernsehen con der Fernseher: el primero es el medio; el segundo, el aparato."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "Fernsehen"
+          "blue": [
+            "das Fernsehen",
+            "Fernsehen",
+            "im Fernsehen",
+            "der Fernseher"
           ],
-          "yellow": [
-            "Fernsehen"
+          "purple": [
+            "televisión",
+            "medio de comunicación"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "Fernsehen",
-                "fernsehen"
+              "blue": [
+                "Fernsehen"
               ]
             },
             "lv": {
@@ -23981,9 +25852,8 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "Fernsehen",
-                "fernsehen"
+              "blue": [
+                "Fernsehen"
               ]
             },
             "lv": {
@@ -23994,9 +25864,8 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "Fernsehen",
-                "fernsehen"
+              "blue": [
+                "Fernsehen"
               ]
             },
             "lv": {
@@ -24007,9 +25876,8 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "das Fernsehen",
-                "fernsehen"
+              "blue": [
+                "Fernsehen"
               ]
             },
             "lv": {
@@ -24017,38 +25885,53 @@ const A1_WORDS = [
                 "televisión"
               ]
             }
-          },
+          }
+        ],
+        "comparison": [
           {
-            "de": {},
-            "lv": {
+            "word": {
+              "green": [
+                "der Fernseher"
+              ]
+            },
+            "meaning": {
               "purple": [
-                "televisión"
+                "televisor"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Fernsehen",
                 "fernsehen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "televisión"
+                "ver la televisión"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Radio"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "radio"
               ]
             }
           }
         ],
         "tip": [
+          {},
           {}
         ],
         "important": [
-          {
-            "green": [
-              "fernsehen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -24063,48 +25946,72 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "apetito",
       "explanation": [
-        "Idea principal: La sensación de querer comer. Sólo singular, no plural.",
-        "der Appetit significa básicamente: ganas de comer.",
-        "A menudo describe: sentimiento (sólo en singular).",
-        "der Appetit es sólo singular: apetito.",
-        "En el nivel A1 suelen venir juntos, por ejemplo: Guten Appetit!"
+        "Idea principal: der Appetit es un sustantivo masculino que designa el apetito, las ganas de comer. Prácticamente no se usa en plural. La combinación más frecuente es Appetit haben (tener apetito): Ich habe keinen Appetit.",
+        "Guten Appetit! es lo que se dice antes de comer, como el español \"¡que aproveche!\" o \"¡buen provecho!\". Si se tienen ganas de una comida concreta, se dice Appetit auf + acusativo: Appetit auf Eis.",
+        "Der Appetit es una palabra cercana a der Hunger, pero el apetito son las ganas de comer, mientras que el hambre es una necesidad física."
       ],
       "examples": [
         {
-          "de": "Guten Appetit!",
-          "lv": "¡Buen apetito!"
+          "de": "Ich habe heute keinen Appetit.",
+          "lv": "Hoy no tengo apetito."
         },
         {
           "de": "Guten Appetit!",
-          "lv": "¡Buen provecho!"
+          "lv": "¡Que aproveche!"
         },
         {
-          "de": "Ich habe keinen Appetit.",
-          "lv": "No tengo apetito."
+          "de": "Das Kind hat großen Appetit auf Eis.",
+          "lv": "El niño tiene muchas ganas de helado."
+        },
+        {
+          "de": "Der Appetit kommt beim Essen.",
+          "lv": "El apetito viene comiendo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Hunger",
+          "meaning": "hambre",
+          "example": "Ich habe Hunger. – Tengo hambre."
+        },
+        {
+          "word": "die Lust",
+          "meaning": "ganas",
+          "example": "Ich habe Lust auf Pizza. – Me apetece una pizza."
+        },
+        {
+          "word": "der Durst",
+          "meaning": "sed",
+          "example": "Ich habe Durst. – Tengo sed."
         }
       ],
       "tip": [
-        "der Appetit = apetito",
-        "Utiliza der Appetit cuando el contexto se adapta a este significado."
+        "El apetito se expresa con haben: Ich habe Appetit.",
+        "Como respuesta a Guten Appetit! se suele decir Danke, gleichfalls! (gracias, igualmente)."
       ],
       "important": [
-        "der Appetit es sólo singular.",
-        "Incorrecto: die Appetite → Correcto: der Appetit",
-        "Incorrecto: Ich bin Appetit. → Correcto: Ich habe Appetit.",
-        "Sentir: el apetito."
+        "Appetit no es femenino: der Appetit.",
+        "Para las ganas de una comida concreta se usa Appetit auf + acusativo."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "der Appetit",
+            "Appetit",
+            "Guten Appetit",
+            "Appetit haben",
+            "Appetit auf"
+          ],
           "purple": [
             "apetito",
-            "Appetit"
+            "ganas de comer"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "appetit"
+                "Appetit"
               ]
             },
             "lv": {
@@ -24116,41 +26023,85 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "appetit"
+                "Appetit"
               ]
             },
             "lv": {
               "purple": [
-                "¡Buen"
+                "Que aproveche"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "appetit"
+                "Appetit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ganas"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Appetit"
               ]
             },
             "lv": {
               "purple": [
                 "apetito"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Hunger"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hambre"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Lust"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ganas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Durst"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sed"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "apetito"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "der Appetit"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -24164,70 +26115,79 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "comer",
       "explanation": [
-        "Idea principal: Verbo - comer.",
-        "essen significa principalmente: consumir alimentos.",
-        "A menudo describe: acción.",
-        "essen significa básicamente: alimento o comida.",
-        "A menudo describe: lluvia.",
-        "essen significa comer.",
-        "das Essen puede significar comida o comida en general."
+        "Idea principal: essen es un verbo fuerte que significa comer. Formas: ich esse, du isst, er isst, wir essen; pretérito aß, perfecto hat gegessen. Normalmente va seguido de acusativo: Ich esse Brot.",
+        "Las comidas del día se expresan con zu: zu Mittag essen (comer, almorzar), zu Abend essen (cenar). También se puede usar essen sin complemento para referirse a la comida en general: Wir essen um sieben.",
+        "Si quien come es un animal, se usa fressen; para la comida como sustantivo se escribe das Essen."
       ],
       "examples": [
         {
-          "de": "Ich esse gern Pizza.",
-          "lv": "Me gusta comer pizza."
+          "de": "Ich esse gern Fisch.",
+          "lv": "Me gusta comer pescado."
         },
         {
-          "de": "Was wollt ihr essen?",
-          "lv": "¿Qué quieres comer?"
+          "de": "Was isst du zum Frühstück?",
+          "lv": "¿Qué desayunas?"
         },
         {
-          "de": "Wir essen um 12 Uhr.",
-          "lv": "Comemos a las 12 en punto."
+          "de": "Er hat noch nichts gegessen.",
+          "lv": "Todavía no ha comido nada."
         },
         {
-          "de": "Das Essen ist fertig.",
-          "lv": "La comida está lista."
+          "de": "Wir essen heute im Restaurant.",
+          "lv": "Hoy comemos en el restaurante."
         },
         {
-          "de": "Das Essen schmeckt sehr gut.",
-          "lv": "La comida sabe muy bien."
+          "de": "Meine Schwester isst kein Fleisch.",
+          "lv": "Mi hermana no come carne."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "fressen",
+          "meaning": "comer (un animal)",
+          "example": "Die Katze frisst Fisch. – El gato come pescado."
         },
         {
-          "de": "Das Essen schmeckt gut.",
-          "lv": "La comida sabe bien."
+          "word": "trinken",
+          "meaning": "beber",
+          "example": "Ich trinke Tee. – Bebo té."
+        },
+        {
+          "word": "das Essen",
+          "meaning": "comida",
+          "example": "Das Essen ist fertig. – La comida está lista."
         }
       ],
       "tip": [
-        "essen = comer",
-        "Utilice essen cuando el contexto se ajuste a este significado."
+        "Recuerda la forma irregular du isst / er isst: no se dice essest ni esst.",
+        "La cena y el almuerzo se expresan con zu Abend essen y zu Mittag essen."
       ],
       "important": [
-        "essen es un verbo sin artículo.",
-        "das Essen no es lo mismo que essen.",
-        "Acción: essen.",
-        "Caso/comida: das Essen."
+        "Las personas comen (essen); los animales, normalmente fressen.",
+        "Essen como verbo se escribe con minúscula; como sustantivo, das Essen, con mayúscula."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "essen",
+            "esse",
+            "isst",
+            "aß",
+            "hat gegessen",
+            "gegessen",
+            "das Essen",
+            "fressen"
+          ],
           "purple": [
-            "comer"
+            "comer",
+            "comida"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
                 "esse"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "essen",
-                "essen"
               ]
             },
             "lv": {
@@ -24238,182 +26198,85 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "essen",
-                "essen"
+              "blue": [
+                "isst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "desayunas"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "essen",
-                "essen"
+              "blue": [
+                "gegessen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "comido"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "essen",
+              "blue": [
                 "essen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "comemos"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "essen",
-                "essen"
+              "blue": [
+                "isst"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "come"
+              ]
+            }
           }
         ],
-        "tip": [
+        "comparison": [
           {
-            "purple": [
-              "comer"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "green": [
-              "essen"
-            ]
-          }
-        ]
-      }
-    }
-  },
-  {
-    "de": "Essen",
-    "de_article": "das",
-    "lv": "comida • comer",
-    "level": "A1",
-    "study": {
-      "id": "a1-essen-study",
-      "layout": "standardStudy",
-      "translation": "comida • comer",
-      "explanation": [
-        "Idea principal: Sustantivo: comida o comida completa.",
-        "das Essen significa principalmente: consumir alimentos.",
-        "A menudo describe: acción.",
-        "das Essen significa básicamente: alimento o comida.",
-        "A menudo describe: lluvia.",
-        "essen significa comer.",
-        "das Essen puede significar comida o comida en general."
-      ],
-      "examples": [
-        {
-          "de": "Das Essen schmeckt gut.",
-          "lv": "La comida sabe bien."
-        },
-        {
-          "de": "Was wollt ihr essen?",
-          "lv": "¿Qué quieres comer?"
-        },
-        {
-          "de": "Wir essen um 12 Uhr.",
-          "lv": "Comemos a las 12 en punto."
-        },
-        {
-          "de": "Das Essen ist fertig.",
-          "lv": "La comida está lista."
-        },
-        {
-          "de": "Das Essen schmeckt sehr gut.",
-          "lv": "La comida sabe muy bien."
-        },
-        {
-          "de": "Das Essen schmeckt gut.",
-          "lv": "La comida sabe bien."
-        }
-      ],
-      "tip": [
-        "das Essen = comer",
-        "Utilice das Essen cuando el contexto se ajuste a este significado."
-      ],
-      "important": [
-        "essen es un verbo sin artículo.",
-        "das Essen no es lo mismo que essen.",
-        "Acción: essen.",
-        "Caso/comida: das Essen."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "purple": [
-            "alimento"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+            "word": {
+              "green": [
+                "fressen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "comida"
+                "comer (un animal)"
               ]
             }
           },
           {
-            "de": {
-              "yellow": [
-                "essen"
+            "word": {
+              "green": [
+                "trinken"
               ]
             },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "essen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
+            "meaning": {
               "purple": [
-                "comida"
+                "beber"
               ]
             }
           },
           {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+            "word": {
+              "green": [
+                "das Essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "comida"
-              ]
-            }
-          },
-          {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
+            "meaning": {
               "purple": [
                 "comida"
               ]
@@ -24425,6 +26288,176 @@ const A1_WORDS = [
           {}
         ],
         "important": [
+          {},
+          {}
+        ]
+      }
+    }
+  },
+  {
+    "de": "Essen",
+    "de_article": "das",
+    "lv": "comida",
+    "level": "A1",
+    "study": {
+      "id": "a1-essen-study",
+      "layout": "standardStudy",
+      "translation": "comida",
+      "explanation": [
+        "Idea principal: das Essen es un sustantivo neutro. Significa la comida que se prepara o se come (Das Essen ist fertig) y también la comida como acto, el momento de comer (Nach dem Essen ...). El plural die Essen es muy raro; para varios platos se dice Gerichte o Mahlzeiten.",
+        "Combinaciones frecuentes: zum Essen (a comer, a la mesa), nach dem Essen (después de comer), das Essen kochen (hacer la comida).",
+        "El sustantivo se escribe con mayúscula; con minúscula, essen es el verbo \"comer\"."
+      ],
+      "examples": [
+        {
+          "de": "Das Essen ist fertig!",
+          "lv": "¡La comida está lista!"
+        },
+        {
+          "de": "Nach dem Essen trinken wir Tee.",
+          "lv": "Después de comer tomamos té."
+        },
+        {
+          "de": "Das Essen in dieser Kantine schmeckt gut.",
+          "lv": "La comida de este comedor está buena."
+        },
+        {
+          "de": "Zum Essen kommen alle um sieben Uhr.",
+          "lv": "Todos vienen a comer a las siete."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "essen",
+          "meaning": "comer",
+          "example": "Ich esse gern Fisch. – Me gusta comer pescado."
+        },
+        {
+          "word": "die Mahlzeit",
+          "meaning": "comida (del día)",
+          "example": "Wir haben drei Mahlzeiten am Tag. – Hacemos tres comidas al día."
+        },
+        {
+          "word": "das Gericht",
+          "meaning": "plato (concreto)",
+          "example": "Dieses Gericht ist scharf. – Este plato es picante."
+        }
+      ],
+      "tip": [
+        "Para un plato concreto con nombre se suele usar das Gericht.",
+        "Preparar la comida se dice con kochen: das Essen kochen."
+      ],
+      "important": [
+        "Das Essen es neutro, no masculino: no se dice \"der Essen\".",
+        "Das Essen y essen se escriben con las mismas letras, pero el sustantivo va con mayúscula."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "das Essen",
+            "Essen",
+            "nach dem Essen",
+            "zum Essen",
+            "essen"
+          ],
+          "purple": [
+            "comida"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "comida"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Después de comer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "comida"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Essen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "a comer"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "essen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "comer"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Mahlzeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "comida (del día)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gericht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "plato (concreto)"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
           {}
         ]
       }
@@ -24440,47 +26473,61 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "verduras",
       "explanation": [
-        "Idea principal: Verduras en general. El alemán no tiene forma plural para *die Gemüse.",
-        "das Gemüse significa principalmente: verduras en general.",
-        "A menudo descrito: en cualquier género (solo singular)."
+        "Idea principal: das Gemüse es un sustantivo neutro que en alemán suele funcionar como singular colectivo: das Gemüse ist gesund, aunque en español se diga en plural (las verduras son sanas). El plural die Gemüse es raro.",
+        "Cada verdura tiene su propio nombre: die Karotte, die Gurke, der Kohl. Es muy habitual decir frisches Gemüse, Gemüse kaufen, Gemüse anbauen.",
+        "Su pareja es das Obst (la fruta); ambas palabras se usan en singular."
       ],
       "examples": [
         {
-          "de": "Ich esse gern Gemüse.",
-          "lv": "Me gusta comer verduras."
+          "de": "Frisches Gemüse ist gesund.",
+          "lv": "Las verduras frescas son sanas."
         },
         {
-          "de": "Ich esse gern Gemüse.",
-          "lv": "Me gusta comer verduras."
+          "de": "Ich kaufe Gemüse auf dem Markt.",
+          "lv": "Compro verdura en el mercado."
         },
         {
-          "de": "Das Gemüse ist frisch.",
-          "lv": "Las verduras están frescas."
+          "de": "Zum Mittagessen gibt es Fleisch mit Gemüse.",
+          "lv": "Para comer hay carne con verduras."
         },
         {
-          "de": "Wir kaufen Gemüse auf dem Markt.",
-          "lv": "Compramos verduras en el mercado."
+          "de": "Meine Oma baut Gemüse im Garten an.",
+          "lv": "Mi abuela cultiva verduras en el huerto."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Obst",
+          "meaning": "fruta",
+          "example": "Das Obst ist frisch. – La fruta está fresca."
         },
         {
-          "de": "Ich mag Obst und Gemüse.",
-          "lv": "Me gustan las frutas y verduras."
+          "word": "der Salat",
+          "meaning": "ensalada, lechuga",
+          "example": "Der Salat ist frisch. – La lechuga está fresca."
         },
         {
-          "de": "Ich esse Gemüse.",
-          "lv": "Yo como verduras."
+          "word": "die Kartoffel",
+          "meaning": "patata",
+          "example": "Die Kartoffel ist gekocht. – La patata está cocida."
         }
       ],
       "tip": [
-        "das Gemüse = verduras",
-        "Utilice das Gemüse cuando el contexto corresponda a este significado."
+        "Di das Gemüse ist ... (en singular), no \"die Gemüse sind\".",
+        "Para los distintos tipos de verdura puedes usar Gemüsesorten."
       ],
       "important": [
-        "Incorrecto: die Gemüse, die Obsts.",
-        "Incorrecto: die Gemüse → Correcto: das Gemüse",
-        "das Gemüse = verduras (en general)."
+        "Das Gemüse es neutro y normalmente va en singular.",
+        "El español \"las verduras\" suele corresponder al singular alemán Gemüse."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "das Gemüse",
+            "Gemüse",
+            "frisches Gemüse",
+            "das Obst"
+          ],
           "purple": [
             "verduras"
           ]
@@ -24489,7 +26536,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "gemüse"
+                "Gemüse"
               ]
             },
             "lv": {
@@ -24501,7 +26548,19 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "gemüse"
+                "Gemüse"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "verdura"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gemüse"
               ]
             },
             "lv": {
@@ -24513,8 +26572,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "das Gemüse",
-                "gemüse"
+                "Gemüse"
               ]
             },
             "lv": {
@@ -24522,52 +26580,52 @@ const A1_WORDS = [
                 "verduras"
               ]
             }
-          },
+          }
+        ],
+        "comparison": [
           {
-            "de": {
-              "blue": [
-                "gemüse"
+            "word": {
+              "green": [
+                "das Obst"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "verduras"
+                "fruta"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "gemüse"
+            "word": {
+              "green": [
+                "der Salat"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "verduras"
+                "lechuga"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "gemüse"
+            "word": {
+              "green": [
+                "die Kartoffel"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "verduras"
+                "patata"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "verduras"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
+          {},
           {}
         ]
       }
@@ -24583,42 +26641,61 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "frutas",
       "explanation": [
-        "Idea principal: Frutas en general. El alemán no tiene forma plural *die Obsts.",
-        "das Obst significa principalmente: fruta en general.",
-        "A menudo descrito: en cualquier género (solo singular)."
+        "Idea principal: das Obst es un sustantivo neutro que en alemán es un singular colectivo, como el español la fruta: das Obst ist frisch. Designa las frutas comestibles y las bayas en conjunto (Äpfel, Birnen, Beeren). No se usa en plural.",
+        "Una fruta suelta se llama die Frucht o por su nombre concreto: der Apfel, die Birne. Lo habitual es decir Obst essen, Obst kaufen.",
+        "Su pareja es das Gemüse (la verdura); ambas palabras se usan en singular."
       ],
       "examples": [
         {
-          "de": "Wir essen viel Obst.",
-          "lv": "Comemos mucha fruta."
+          "de": "Ich esse jeden Tag Obst.",
+          "lv": "Como fruta todos los días."
         },
         {
-          "de": "Wir essen viel Obst.",
-          "lv": "Comemos mucha fruta."
+          "de": "Das Obst auf dem Markt ist frisch.",
+          "lv": "La fruta del mercado está fresca."
         },
         {
-          "de": "Obst ist gesund.",
-          "lv": "Las frutas son saludables."
+          "de": "Äpfel und Birnen sind Obst.",
+          "lv": "Las manzanas y las peras son frutas."
         },
         {
-          "de": "Ich mag Obst und Gemüse.",
-          "lv": "Me gustan las frutas y verduras."
+          "de": "Zum Nachtisch gibt es frisches Obst.",
+          "lv": "De postre hay fruta fresca."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Frucht",
+          "meaning": "fruta (una)",
+          "example": "Der Apfel ist eine Frucht. – La manzana es una fruta."
         },
         {
-          "de": "Wir essen Obst.",
-          "lv": "Comemos fruta."
+          "word": "das Gemüse",
+          "meaning": "verdura",
+          "example": "Das Gemüse ist gesund. – La verdura es sana."
+        },
+        {
+          "word": "die Beere",
+          "meaning": "baya",
+          "example": "Die Beere ist süß. – La baya es dulce."
         }
       ],
       "tip": [
-        "das Obst = frutas",
-        "Utilice das Obst cuando el contexto se ajuste a este significado."
+        "Obst es una palabra colectiva; para una sola fruta se usa Frucht o el nombre de la fruta.",
+        "Der Apfel y die Birne son Obst, pero Möhre es Gemüse."
       ],
       "important": [
-        "Incorrecto: die Obsts → Correcto: das Obst",
-        "das Obst = frutas (en general)."
+        "Das Obst es neutro y singular: das Obst ist, no \"die Obst sind\".",
+        "El plural \"Früchte\" pertenece a la palabra Frucht, no a Obst."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "das Obst",
+            "Obst",
+            "die Frucht",
+            "das Gemüse"
+          ],
           "purple": [
             "frutas"
           ]
@@ -24626,8 +26703,8 @@ const A1_WORDS = [
         "examples": [
           {
             "de": {
-              "green": [
-                "obst"
+              "blue": [
+                "Obst"
               ]
             },
             "lv": {
@@ -24638,8 +26715,8 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "obst"
+              "blue": [
+                "Obst"
               ]
             },
             "lv": {
@@ -24650,8 +26727,8 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "obst"
+              "blue": [
+                "Obst"
               ]
             },
             "lv": {
@@ -24662,42 +26739,62 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "obst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "frutas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "obst"
+              "blue": [
+                "Obst"
               ]
             },
             "lv": {
               "purple": [
                 "fruta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Frucht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fruta (una)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gemüse"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "verdura"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Beere"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "baya"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "frutas"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "das Obst"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -24712,123 +26809,154 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "vacaciones (escuela)",
       "explanation": [
-        "Idea principal: solo plural. Vacaciones escolares o de estudio - siempre en plural.",
-        "die Ferien significa básicamente: vacaciones escolares.",
-        "A menudo se caracteriza por: solo plural.",
-        "die Ferien es sólo plural, siempre en plural (in den Ferien)."
+        "Idea principal: die Ferien es un sustantivo que solo existe en plural y significa las vacaciones del colegio, de la universidad o de los tribunales: Die Ferien beginnen. No tiene singular, por eso se dice die Ferien sind, no \"die Ferie\".",
+        "Combinaciones frecuentes: Sommerferien, Winterferien, in den Ferien (en vacaciones), Ferien haben. Los escolares y los estudiantes tienen Ferien; quien trabaja tiene Urlaub, aunque en español ambas cosas se llamen vacaciones.",
+        "El artículo en plural es die, y en dativo, den: in den Ferien."
       ],
       "examples": [
         {
-          "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "Durante las vacaciones vamos al mar."
+          "de": "Die Ferien beginnen nächste Woche.",
+          "lv": "Las vacaciones empiezan la semana que viene."
         },
         {
-          "de": "In den Ferien habe ich viel Zeit.",
-          "lv": "Tengo mucho tiempo durante las vacaciones."
+          "de": "In den Sommerferien fahren wir ans Meer.",
+          "lv": "En las vacaciones de verano vamos a la playa."
         },
         {
-          "de": "Was macht ihr in den Ferien?",
-          "lv": "¿Qué haces en vacaciones?"
+          "de": "Ich habe in den Ferien viel gelesen.",
+          "lv": "En vacaciones leí mucho."
         },
         {
-          "de": "Die Schule ist in den Ferien zu.",
-          "lv": "La escuela está cerrada durante las vacaciones escolares."
-        },
-        {
-          "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "Durante las vacaciones escolares vamos al mar."
-        },
-        {
-          "de": "In den Ferien",
-          "lv": "en vacaciones (escuela)."
+          "de": "Die Kinder haben zwei Wochen Ferien.",
+          "lv": "Los niños tienen dos semanas de vacaciones."
         }
       ],
       "comparison": [
         {
-          "word": "die Ferien",
-          "meaning": "vacaciones escolares (solo para estudiantes)",
-          "example": "In den Ferien fahren wir weg. – Los fines de semana vamos a algún lado."
+          "word": "der Urlaub",
+          "meaning": "vacaciones (del trabajo)",
+          "example": "Ich habe nächste Woche Urlaub. – La semana que viene estoy de vacaciones."
         },
         {
-          "word": "der Urlaub",
-          "meaning": "vacaciones laborales (para trabajadores)",
-          "example": "Ich habe zwei Wochen Urlaub. – Tengo dos semanas de vacaciones."
+          "word": "der Feiertag",
+          "meaning": "día festivo",
+          "example": "Der 1. Mai ist ein Feiertag. – El 1 de mayo es festivo."
+        },
+        {
+          "word": "das Wochenende",
+          "meaning": "fin de semana",
+          "example": "Am Wochenende schlafe ich lange. – El fin de semana duermo hasta tarde."
         }
       ],
       "tip": [
-        "plural solamente. Vacaciones escolares o de estudio - siempre en plural.",
-        "Utilice die Ferien cuando el contexto se ajuste a este significado."
+        "Las vacaciones escolares se dicen Ferien; las de quien trabaja, Urlaub.",
+        "En dativo plural se dice in den Ferien."
       ],
       "important": [
-        "Ferien siempre con dativo: in den Ferien.",
-        "Incorrecto: in der Ferien → Correcto: in den Ferien",
-        "Escuela: die Ferien (solo plural).",
-        "plural solamente. Vacaciones escolares o de estudio - siempre en plural."
+        "Ferien no tiene singular: no se puede decir \"eine Ferie\".",
+        "Ferien suele referirse a las vacaciones escolares, no a las vacaciones del trabajo."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Idea"
+          "blue": [
+            "Ferien",
+            "Ferie"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
+                "Ferien"
               ]
             },
             "lv": {
               "purple": [
-                "vacaciones (escuela)"
+                "vacaciones"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Sommerferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vacaciones de verano"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vacaciones"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Ferien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vacaciones"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Urlaub"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vacaciones (del trabajo)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Feiertag"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "festivo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Wochenende"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fin de semana"
               ]
             }
           }
         ],
         "tip": [
+          {},
           {}
         ],
         "important": [
+          {},
           {}
         ]
       }
@@ -24845,57 +26973,63 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "vacaciones",
       "explanation": [
-        "Idea principal: solo singular. Salir del trabajo es siempre singular.",
-        "Der Urlaub significa básicamente: tiempo libre en el trabajo.",
-        "A menudo se caracteriza por: solo singular.",
-        "der Urlaub es sólo singular: vacaciones del trabajo (im Urlaub)."
+        "Idea principal: der Urlaub es un sustantivo masculino que significa las vacaciones del trabajo, es decir, los días libres de un trabajador. El plural die Urlaube es raro. Se dice Urlaub haben, Urlaub nehmen, Urlaub machen (irse de vacaciones), im Urlaub sein, in den Urlaub fahren.",
+        "Se refiere a quienes trabajan; los escolares y estudiantes tienen die Ferien. En español ambos se traducen por vacaciones, pero en alemán no son intercambiables.",
+        "Urlaub también puede designar en general el tiempo pasado de vacaciones: Wir machen Urlaub in Italien."
       ],
       "examples": [
         {
-          "de": "Mein Vater ist im Urlaub.",
-          "lv": "Mi padre está de vacaciones."
+          "de": "Ich nehme im August Urlaub.",
+          "lv": "En agosto me cojo vacaciones."
         },
         {
-          "de": "Mein Vater ist im Urlaub.",
-          "lv": "Mi padre está de vacaciones."
+          "de": "Wir machen Urlaub in Italien.",
+          "lv": "Pasamos las vacaciones en Italia."
         },
         {
-          "de": "Nächste Woche habe ich Urlaub.",
-          "lv": "Tengo vacaciones la próxima semana."
+          "de": "Mein Vater hat nächste Woche Urlaub.",
+          "lv": "Mi padre está de vacaciones la semana que viene."
         },
         {
-          "de": "Wir machen Urlaub in Spanien.",
-          "lv": "Estamos de vacaciones en España."
+          "de": "Wie viele Tage Urlaub hast du noch?",
+          "lv": "¿Cuántos días de vacaciones te quedan?"
         },
         {
-          "de": "im Urlaub",
-          "lv": "De vacaciones (por trabajo)."
+          "de": "Sie ist im Urlaub.",
+          "lv": "Está de vacaciones."
         }
       ],
       "comparison": [
         {
-          "word": "der Urlaub",
-          "meaning": "vacaciones laborales (para trabajadores)",
-          "example": "Mein Vater ist im Urlaub. – Mi padre está de vacaciones."
+          "word": "die Ferien",
+          "meaning": "vacaciones (escolares)",
+          "example": "Die Ferien beginnen. – Empiezan las vacaciones."
         },
         {
-          "word": "die Ferien",
-          "meaning": "vacaciones escolares (solo para estudiantes)",
-          "example": "Die Kinder haben Ferien. – Los niños tienen vacaciones."
+          "word": "die Reise",
+          "meaning": "viaje",
+          "example": "Die Reise war lang. – El viaje fue largo."
+        },
+        {
+          "word": "der Feierabend",
+          "meaning": "fin de la jornada laboral",
+          "example": "Nach Feierabend gehe ich schwimmen. – Después del trabajo voy a nadar."
         }
       ],
       "tip": [
-        "singular únicamente. Salir del trabajo es siempre singular.",
-        "Utilice der Urlaub cuando el contexto se ajuste a este significado."
+        "Recuerda: im Urlaub sein, in den Urlaub fahren, Urlaub nehmen.",
+        "Urlaub suele usarse sin artículo: Urlaub haben, Urlaub nehmen."
       ],
       "important": [
-        "Incorrecto: die Ferie, der Urlabe (en el nivel A1).",
-        "Vacaciones: estar de vacaciones / tomar vacaciones.",
-        "Incorrecto: die Urlaube → Correcto: der Urlaub",
-        "Obra: der Urlaub (sólo en singular)."
+        "Para los escolares se suele decir Ferien, no Urlaub.",
+        "Urlaub no es lo mismo que Reise: Reise es el viaje; Urlaub, el tiempo libre del trabajo."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Urlaub",
+            "Urlaube"
+          ],
           "purple": [
             "vacaciones"
           ]
@@ -24903,32 +27037,8 @@ const A1_WORDS = [
         "examples": [
           {
             "de": {
-              "green": [
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "de vacaciones"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "urlaub"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "de vacaciones"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "urlaub"
+              "blue": [
+                "Urlaub"
               ]
             },
             "lv": {
@@ -24939,8 +27049,8 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "urlaub"
+              "blue": [
+                "Urlaub"
               ]
             },
             "lv": {
@@ -24951,30 +27061,86 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "urlaub"
+              "blue": [
+                "Urlaub"
               ]
             },
             "lv": {
               "purple": [
                 "de vacaciones"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vacaciones"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Urlaub"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "de vacaciones"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Ferien"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vacaciones (escolares)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Reise"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "viaje"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Feierabend"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jornada laboral"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "singular"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "der Urlabe"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -24990,7 +27156,7 @@ const A1_WORDS = [
     "de": "Staat",
     "de_article": "der",
     "de_plural": "die Staaten",
-    "lv": "país",
+    "lv": "estado",
     "level": "A1"
   },
   {
@@ -25004,80 +27170,69 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "reloj",
       "explanation": [
-        "Idea principal: Reloj o reloj de pulsera. También la hora en el reloj: Es ist acht Uhr.",
-        "die Uhr significa básicamente: dispositivo o tiempo en un reloj.",
-        "A menudo se caracteriza por: un momento específico.",
-        "die Uhr significa reloj, un dispositivo o la hora en un reloj (Es ist acht Uhr, meine Uhr)."
+        "Idea principal: die Uhr es un sustantivo femenino; plural die Uhren. Significa reloj como objeto (Armbanduhr, Wanduhr). Con un número, Uhr indica la hora: um acht Uhr (a las ocho); en este sentido Uhr no cambia de forma.",
+        "Para preguntar la hora: Wie viel Uhr ist es? o Wie spät ist es? La duración en horas se expresa con die Stunde: zwei Stunden.",
+        "Uhr indica un punto en el tiempo (um acht Uhr), y Stunde, una duración (acht Stunden); no hay que confundirlos."
       ],
       "examples": [
         {
-          "de": "Es ist acht Uhr.",
-          "lv": "Son las ocho (las ocho en punto)."
+          "de": "Die Uhr an der Wand geht falsch.",
+          "lv": "El reloj de la pared va mal."
         },
         {
-          "de": "Es ist acht Uhr.",
-          "lv": "Son las ocho (las ocho en punto)."
+          "de": "Ich trage eine neue Uhr.",
+          "lv": "Llevo un reloj nuevo."
         },
         {
-          "de": "Meine Uhr ist kaputt.",
-          "lv": "Mi reloj está roto."
+          "de": "Wie viel Uhr ist es?",
+          "lv": "¿Qué hora es?"
         },
         {
-          "de": "Es ist acht Uhr.",
-          "lv": "Son las ocho."
+          "de": "Der Film beginnt um acht Uhr.",
+          "lv": "La película empieza a las ocho."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Zeit",
+          "meaning": "tiempo",
+          "example": "Ich habe keine Zeit. – No tengo tiempo."
         },
         {
-          "de": "Es ist acht Uhr.",
-          "lv": "Son las ocho (en punto)."
+          "word": "die Stunde",
+          "meaning": "hora (duración)",
+          "example": "Der Film dauert zwei Stunden. – La película dura dos horas."
         },
         {
-          "de": "die Uhr",
-          "lv": "dispositivo que indica la hora; la hora"
+          "word": "die Armbanduhr",
+          "meaning": "reloj de pulsera",
+          "example": "Meine Armbanduhr ist kaputt. – Mi reloj de pulsera está roto."
         }
       ],
       "tip": [
-        "Reloj o reloj de pulsera. También la hora en el reloj: Es ist acht Uhr.",
-        "Utilice die Uhr cuando el contexto se ajuste a este significado."
+        "La hora se dice con um + número + Uhr: um sieben Uhr.",
+        "Para la duración se usa die Stunde, no Uhr: zwei Stunden."
       ],
       "important": [
-        "die Uhr: dispositivo (meine Uhr) o tiempo (acht Uhr).",
-        "die Uhr: verifique el contexto antes de usarlo."
+        "Con la hora, Uhr no cambia de forma: drei Uhr, no \"drei Uhren\".",
+        "Die Uhr y die Stunde son distintos: el primero es el aparato o un punto en el tiempo; el segundo, una duración."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Uhr",
+            "Uhren"
+          ],
           "purple": [
-            "reloj"
+            "reloj",
+            "hora"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "uhr"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Son"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "uhr"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "son"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "uhr"
+                "Uhr"
               ]
             },
             "lv": {
@@ -25089,50 +27244,85 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "uhr"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "uhr"
+                "Uhr"
               ]
             },
             "lv": {
               "purple": [
-                "Son"
+                "reloj"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "die Uhr",
-                "uhr"
+                "Uhr"
               ]
             },
             "lv": {
               "purple": [
-                "en el reloj"
+                "hora"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Uhr"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "a las ocho"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Zeit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tiempo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Stunde"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "hora (duración)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Armbanduhr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "reloj de pulsera"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "reloj"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "die Uhr"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -25148,85 +27338,76 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "tiempo (momento / período de tiempo)",
       "explanation": [
-        "Idea principal: El tiempo como concepto: un momento, una oportunidad, un período de tiempo.",
-        "die Zeit significa principalmente: momento, oportunidad.",
-        "A menudo se caracteriza por: un concepto abstracto.",
-        "die Zeit es un concepto abstracto: tiempo, momento u oportunidad (Ich habe keine Zeit)."
+        "Idea principal: die Zeit es un sustantivo femenino; plural die Zeiten. Significa el tiempo como momento, período u oportunidad: Ich habe keine Zeit. Zeit haben es tener tiempo, estar libre; Zeit brauchen, necesitar tiempo.",
+        "Frases frecuentes: zur Zeit / zurzeit (actualmente), die Zeit vergeht (el tiempo pasa), Es ist Zeit (es hora). En plural, die Zeiten significa épocas o períodos: in schweren Zeiten.",
+        "El tiempo atmosférico se dice das Wetter, no die Zeit, aunque en español ambos se llamen tiempo."
       ],
       "examples": [
         {
-          "de": "Ich habe keine Zeit.",
-          "lv": "No tengo tiempo."
+          "de": "Ich habe heute keine Zeit.",
+          "lv": "Hoy no tengo tiempo."
         },
         {
-          "de": "Ich habe keine Zeit.",
-          "lv": "No tengo tiempo."
+          "de": "Wie viel Zeit brauchst du?",
+          "lv": "¿Cuánto tiempo necesitas?"
         },
         {
-          "de": "Hast du Zeit?",
-          "lv": "¿Tienes tiempo?"
+          "de": "Zurzeit wohne ich in Riga.",
+          "lv": "Actualmente vivo en Riga."
         },
         {
-          "de": "Die Zeit vergeht schnell.",
-          "lv": "El tiempo pasa rápido."
+          "de": "In schweren Zeiten helfen Freunde.",
+          "lv": "En los tiempos difíciles, los amigos ayudan."
+        },
+        {
+          "de": "Es ist Zeit zu gehen.",
+          "lv": "Es hora de irse."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "das Wetter",
+          "meaning": "tiempo (atmosférico)",
+          "example": "Das Wetter ist schön. – Hace buen tiempo."
+        },
+        {
+          "word": "das Mal",
+          "meaning": "vez",
+          "example": "Das ist das erste Mal. – Es la primera vez."
+        },
+        {
+          "word": "die Uhr",
+          "meaning": "reloj",
+          "example": "Die Uhr geht falsch. – El reloj va mal."
         }
       ],
       "tip": [
-        "El tiempo como concepto: un momento, una oportunidad, un período de tiempo.",
-        "Utilice die Zeit cuando el contexto se ajuste a este significado."
+        "Zeit haben es \"tener tiempo, estar libre\"; Zeit brauchen, \"necesitar tiempo\".",
+        "Zurzeit se escribe junto."
       ],
       "important": [
-        "die Zeit: Verifique el contexto antes de usarlo.",
-        "die Zeit: Verifique el contexto antes de usarlo."
+        "Zeit no es lo mismo que Wetter: el tiempo atmosférico es das Wetter.",
+        "El número de veces se expresa con Mal, no con Zeit: zum ersten Mal."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "die Zeit",
+            "Zeit",
+            "Zeiten",
+            "zurzeit",
+            "das Wetter"
+          ],
           "purple": [
-            "Idea"
+            "tiempo",
+            "épocas"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "zeit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "laika"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "zeit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "laika"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "zeit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "laiks"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "die Zeit",
-                "zeit"
+              "blue": [
+                "Zeit"
               ]
             },
             "lv": {
@@ -25234,21 +27415,101 @@ const A1_WORDS = [
                 "tiempo"
               ]
             }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tiempo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zurzeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Actualmente"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zeiten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "tiempos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hora"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Wetter"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tiempo (atmosférico)"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Mal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vez"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Uhr"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "reloj"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "tiempo"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "die Zeit"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -25262,77 +27523,160 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "una vez",
       "explanation": [
-        "Idea principal: Hace referencia a una época o pasado (una vez fui...).",
-        "einmal básicamente significa: una vez/en el pasado.",
-        "A menudo se caracteriza por: condiciones climáticas.",
-        "einmal se refiere a un tiempo o al pasado (una vez yo...)."
+        "Idea principal: einmal es un adverbio que significa una vez (Einmal pro Woche) o un momento indeterminado: alguna vez, en una ocasión. Al principio de los cuentos, Es war einmal ... equivale al español \"érase una vez ...\".",
+        "Usos: einmal + pro Tag/Woche/Monat (una vez al día/a la semana/al mes), schon einmal (ya alguna vez), noch einmal (otra vez), nicht einmal (ni siquiera).",
+        "En la lengua hablada, einmal se acorta a menudo en mal: Komm mal her! No tiene un equivalente directo en español y sirve para suavizar la orden."
       ],
       "examples": [
         {
-          "de": "Ich war einmal in Berlin.",
-          "lv": "Una vez estuve en Berlín."
+          "de": "Ich war schon einmal in Wien.",
+          "lv": "Ya he estado una vez en Viena."
         },
         {
-          "de": "Ich war einmal in Berlin.",
-          "lv": "Estuve en Berlín una vez."
+          "de": "Einmal pro Woche gehe ich schwimmen.",
+          "lv": "Una vez a la semana voy a nadar."
+        },
+        {
+          "de": "Es war einmal ein König.",
+          "lv": "Érase una vez un rey."
+        },
+        {
+          "de": "Komm doch einmal vorbei!",
+          "lv": "¡Pásate por aquí algún día!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zweimal",
+          "meaning": "dos veces",
+          "example": "Ich war zweimal dort. – Estuve allí dos veces."
+        },
+        {
+          "word": "noch einmal",
+          "meaning": "otra vez",
+          "example": "Sag es noch einmal. – Dilo otra vez."
+        },
+        {
+          "word": "mal",
+          "meaning": "partícula (suaviza)",
+          "example": "Komm mal her! – ¡Ven aquí!"
         }
       ],
       "tip": [
-        "einmal = una vez",
-        "Utilice einmal cuando el contexto se ajuste a este significado."
+        "El número de veces se dice con -mal: einmal, zweimal, dreimal.",
+        "Para pedir algo con suavidad, añade mal: Sag mal!"
       ],
       "important": [
-        "einmal = una vez o una vez en el pasado.",
-        "Hace referencia a un tiempo o pasado (una vez fui...)."
+        "El adverbio einmal se escribe junto; ein Mal, con mayúscula, es el sustantivo \"una vez\" (ein einziges Mal, una sola vez).",
+        "Al principio de los cuentos, einmal significa \"una vez, en cierta ocasión\", no se refiere al número de veces."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "einmal",
+            "Einmal"
+          ],
           "purple": [
-            "Idea"
+            "una vez",
+            "alguna vez",
+            "érase una vez"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "einmal",
+              "blue": [
                 "einmal"
               ]
             },
             "lv": {
               "purple": [
-                "Una"
+                "una vez"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "einmal",
+              "blue": [
+                "Einmal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Una vez"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "einmal"
               ]
             },
             "lv": {
               "purple": [
-                "Una"
+                "Érase una vez"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "einmal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "algún día"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zweimal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "dos veces"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "noch einmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "otra vez"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "mal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "partícula"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "vienreiz",
-              "reiz"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "einmal"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -25346,42 +27690,96 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "de nuevo",
       "explanation": [
-        "Idea principal: Significa otra vez: repetir una acción o pedir que se repita."
+        "Idea principal: noch mal es una expresión muy frecuente en la lengua hablada que significa de nuevo, otra vez: repetir una acción. Es lo mismo que noch einmal, pero menos formal. También se puede escribir nochmal.",
+        "Se usa para pedir que se repita algo (Sag das bitte noch mal) o para decir que se hace algo otra vez: Ich lese den Text noch mal.",
+        "A diferencia de wieder (otra vez, en una nueva ocasión), noch mal repite exactamente lo mismo. En español ambas ideas pueden expresarse con otra vez, pero en alemán se distinguen."
       ],
       "examples": [
         {
-          "de": "Noch mal, bitte.",
-          "lv": "De nuevo, por favor."
+          "de": "Kannst du das bitte noch mal sagen?",
+          "lv": "¿Puedes repetirlo, por favor?"
         },
         {
-          "de": "Noch mal, bitte.",
-          "lv": "Otra vez, por favor."
+          "de": "Ich muss den Text noch mal lesen.",
+          "lv": "Tengo que leer el texto otra vez."
         },
         {
-          "de": "Sag das noch mal.",
-          "lv": "Dilo de nuevo."
+          "de": "Noch mal danke für die Hilfe!",
+          "lv": "¡Gracias de nuevo por la ayuda!"
+        },
+        {
+          "de": "Wir probieren es noch mal.",
+          "lv": "Lo intentamos otra vez."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "noch einmal",
+          "meaning": "otra vez (más formal)",
+          "example": "Bitte sagen Sie es noch einmal. – Por favor, dígalo otra vez."
+        },
+        {
+          "word": "wieder",
+          "meaning": "otra vez, de nuevo",
+          "example": "Er ist wieder krank. – Vuelve a estar enfermo."
+        },
+        {
+          "word": "zurück",
+          "meaning": "de vuelta, atrás",
+          "example": "Ich komme gleich zurück. – Vuelvo enseguida."
         }
       ],
       "tip": [
-        "Utilice noj mal cuando el contexto se ajuste a este significado.",
-        "Utilice noj mal cuando el contexto se ajuste a este significado."
+        "Si no has entendido algo, di: Noch mal, bitte!",
+        "Por escrito y en registro formal, di noch einmal."
       ],
       "important": [
-        "De nuevo significa repetir una acción o pedir una repetición.",
-        "noch mal: verifique el contexto antes de usarlo."
+        "Noch mal no es lo mismo que wieder: wieder expresa que algo vuelve a ocurrir; noch mal, que se repite la misma acción.",
+        "Noch mal es la variante coloquial; en un texto oficial es mejor usar noch einmal."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "noch mal",
+            "noch einmal",
+            "wieder",
+            "nochmal"
+          ],
           "purple": [
-            "Idea"
+            "de nuevo",
+            "otra vez",
+            "repetir"
           ]
         },
         "examples": [
           {
             "de": {
-              "yellow": [
-                "noch mal",
+              "blue": [
                 "noch mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "repetirlo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "noch mal"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "otra vez"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Noch mal"
               ]
             },
             "lv": {
@@ -25392,35 +27790,61 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "yellow": [
-                "noch mal",
+              "blue": [
                 "noch mal"
               ]
             },
             "lv": {
               "purple": [
-                "otra"
+                "otra vez"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "noch einmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "otra vez (más formal)"
               ]
             }
           },
           {
-            "de": {
-              "yellow": [
-                "noch mal",
-                "noch mal"
+            "word": {
+              "green": [
+                "wieder"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "de nuevo"
+                "otra vez, de nuevo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zurück"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "de vuelta"
               ]
             }
           }
         ],
         "tip": [
+          {},
           {}
         ],
         "important": [
+          {},
           {}
         ]
       }

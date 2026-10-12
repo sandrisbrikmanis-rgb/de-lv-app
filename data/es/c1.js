@@ -120,7 +120,7 @@ const C1_WORDS = [
     "de": "Abart",
     "de_article": "die",
     "de_plural": "die Abarten",
-    "lv": "desviación • aberración",
+    "lv": "variante • variedad • aberración",
     "level": "C1"
   },
   {
@@ -139,12 +139,12 @@ const C1_WORDS = [
     "de": "Affekt",
     "de_article": "der",
     "de_plural": "die Affekte",
-    "lv": "un estallido de emoción",
+    "lv": "arrebato emocional",
     "level": "C1"
   },
   {
     "de": "ächten",
-    "lv": "excluir • excluir socialmente",
+    "lv": "proscribir • condenar al ostracismo",
     "level": "C1"
   },
   {
@@ -157,7 +157,7 @@ const C1_WORDS = [
   {
     "de": "Flugwetter",
     "de_article": "das",
-    "lv": "condiciones climáticas para volar",
+    "lv": "condiciones meteorológicas de vuelo",
     "level": "C1"
   },
   {
@@ -178,7 +178,7 @@ const C1_WORDS = [
     "de": "Frauenrechtlerin",
     "de_article": "die",
     "de_plural": "die Frauenrechtlerinnen",
-    "lv": "una luchadora por la igualdad de las mujeres",
+    "lv": "feminista",
     "level": "C1"
   },
   {
@@ -199,7 +199,7 @@ const C1_WORDS = [
     "de": "Kindesmisshandlung",
     "de_article": "die",
     "de_plural": "die Kindesmisshandlungen",
-    "lv": "violencia contra los niños",
+    "lv": "maltrato infantil",
     "level": "C1"
   },
   {
@@ -304,7 +304,7 @@ const C1_WORDS = [
     "de": "Autobahnbrücke",
     "de_article": "die",
     "de_plural": "die Autobahnbrücken",
-    "lv": "paso elevado de carretera",
+    "lv": "puente de autopista • paso elevado",
     "level": "C1"
   },
   {
@@ -348,7 +348,7 @@ const C1_WORDS = [
   },
   {
     "de": "durchschnittlich",
-    "lv": "de término medio",
+    "lv": "medio • por término medio",
     "level": "C1"
   },
   {
@@ -366,21 +366,158 @@ const C1_WORDS = [
       "id": "c1-einfamilienhaus",
       "layout": "standardStudy",
       "translation": "casa unifamiliar",
-      "explanation": "Idea principal: das Einfamilienhaus es una casa para una familia. Por lo general, esto significa una casa unifamiliar, no un edificio de apartamentos.",
+      "explanation": [
+        "Idea principal: das Einfamilienhaus es una casa pensada para una sola familia, aislada o pegada a otras, pero con una sola vivienda y normalmente con jardín propio.",
+        "Sustantivo neutro: das Einfamilienhaus, plural die Einfamilienhäuser. Se compone de Ein- + Familie + Haus.",
+        "Lo contrario es das Mehrfamilienhaus (edificio de viviendas)."
+      ],
       "examples": [
         {
-          "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "Viven en una casa unifamiliar."
+          "de": "Sie wohnen in einem Einfamilienhaus am Stadtrand.",
+          "lv": "Viven en una casa unifamiliar en las afueras."
         },
         {
-          "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "La casa unifamiliar tiene jardín."
+          "de": "Das Einfamilienhaus hat einen kleinen Garten.",
+          "lv": "La casa unifamiliar tiene un pequeño jardín."
         },
         {
-          "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "Hay un edificio de apartamentos al lado."
+          "de": "Sie träumen von einem eigenen Einfamilienhaus.",
+          "lv": "Sueñan con tener su propia casa unifamiliar."
+        },
+        {
+          "de": "In dieser Siedlung stehen nur Einfamilienhäuser.",
+          "lv": "En esta urbanización solo hay casas unifamiliares."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "das Mehrfamilienhaus",
+          "meaning": "edificio de viviendas",
+          "example": "Im Mehrfamilienhaus wohnen zehn Familien. – En el edificio de viviendas viven diez familias."
+        },
+        {
+          "word": "das Reihenhaus",
+          "meaning": "casa adosada",
+          "example": "Das Reihenhaus steht zwischen zwei anderen. – La casa adosada está entre otras dos."
+        },
+        {
+          "word": "das Hochhaus",
+          "meaning": "torre, edificio alto",
+          "example": "Im Hochhaus gibt es einen Aufzug. – En la torre hay ascensor."
+        }
+      ],
+      "tip": [
+        "El compuesto se entiende por partes: ein + Familie + Haus.",
+        "Combinación frecuente: ein Einfamilienhaus bauen / kaufen / mieten."
+      ],
+      "important": [
+        "Einfamilienhaus no es lo mismo que Villa: puede ser también una casa muy sencilla."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Einfamilienhaus"
+          ],
+          "purple": [
+            "casa"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "unifamiliar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "unifamiliar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "unifamiliar"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Einfamilienhäuser"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "unifamiliares"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Mehrfamilienhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "viviendas"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Reihenhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "adosada"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Hochhaus"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "torre"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -413,7 +550,7 @@ const C1_WORDS = [
     "de": "Gartenerdbeere",
     "de_article": "die",
     "de_plural": "die Gartenerdbeeren",
-    "lv": "fresa de jardín",
+    "lv": "fresón",
     "level": "C1"
   },
   {
@@ -452,14 +589,14 @@ const C1_WORDS = [
     "de": "Gemüsegarten",
     "de_article": "der",
     "de_plural": "die Gemüsegärten",
-    "lv": "huerta",
+    "lv": "huerto",
     "level": "C1"
   },
   {
     "de": "Gepäckträger",
     "de_article": "der",
     "de_plural": "die Gepäckträger",
-    "lv": "maletero",
+    "lv": "portaequipajes • mozo de equipajes",
     "level": "C1"
   },
   {
@@ -639,7 +776,7 @@ const C1_WORDS = [
     "de": "Kostenanschlag",
     "de_article": "der",
     "de_plural": "die Kostenanschläge",
-    "lv": "estimación de gastos",
+    "lv": "presupuesto",
     "level": "C1"
   },
   {
@@ -677,7 +814,7 @@ const C1_WORDS = [
     "de": "Mehrwertsteuer",
     "de_article": "die",
     "de_plural": "die Mehrwertsteuern",
-    "lv": "impuesto al valor agregado",
+    "lv": "impuesto sobre el valor añadido",
     "level": "C1"
   },
   {
@@ -711,7 +848,7 @@ const C1_WORDS = [
     "de": "Modezeitschrift",
     "de_article": "die",
     "de_plural": "die Modezeitschriften",
-    "lv": "revista de modas",
+    "lv": "revista de moda",
     "level": "C1"
   },
   {
@@ -744,41 +881,184 @@ const C1_WORDS = [
     "de": "Notar",
     "de_article": "der",
     "de_plural": "die Notare",
-    "lv": "notario público",
+    "lv": "notario",
     "level": "C1"
   },
   {
     "de": "Notarzt",
     "de_article": "der",
     "de_plural": "die Notärzte",
-    "lv": "medico de urgencias",
+    "lv": "médico de urgencias",
     "level": "C1"
   },
   {
     "de": "Öffentlichkeit",
     "de_article": "die",
     "de_plural": "die Öffentlichkeiten",
-    "lv": "sociedad • apertura",
+    "lv": "público • opinión pública",
     "level": "C1",
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "esfera pública",
-      "explanation": "Idea principal: die Öffentlichkeit significa sociedad como espacio público o personas en su conjunto. En la frase an die Öffentlichkeit kommen, significa salir a la luz.",
+      "translation": "público • opinión pública",
+      "explanation": [
+        "Idea principal: die Öffentlichkeit es el público, la sociedad entendida como el conjunto de personas que tienen acceso a algo o lo conocen; abarca también la opinión pública y el carácter público de algo, es decir, que no es secreto.",
+        "Sustantivo femenino: die Öffentlichkeit, prácticamente sin plural. Expresiones frecuentes: in der Öffentlichkeit (en público), an die Öffentlichkeit gehen (hacer algo público), unter Ausschluss der Öffentlichkeit (a puerta cerrada), die Öffentlichkeit informieren.",
+        "No lo confundas con die Gesellschaft (la sociedad como sistema): Öffentlichkeit se refiere al público, no a la estructura social."
+      ],
       "examples": [
         {
-          "de": "Die Öffentlichkeit reagierte kritisch.",
-          "lv": "El público reaccionó críticamente."
+          "de": "Der Politiker trat vor die Öffentlichkeit.",
+          "lv": "El político compareció ante la opinión pública."
         },
         {
-          "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "El caso salió a la luz."
+          "de": "In der Öffentlichkeit darf man hier nicht rauchen.",
+          "lv": "Aquí no se puede fumar en lugares públicos."
         },
         {
-          "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "El público tiene derecho a la información."
+          "de": "Die Verhandlung fand unter Ausschluss der Öffentlichkeit statt.",
+          "lv": "La vista se celebró a puerta cerrada."
+        },
+        {
+          "de": "Die Firma will den Skandal nicht an die Öffentlichkeit bringen.",
+          "lv": "La empresa no quiere hacer público el escándalo."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Gesellschaft",
+          "meaning": "sociedad (como sistema)",
+          "example": "Die Gesellschaft verändert sich. – La sociedad cambia."
+        },
+        {
+          "word": "das Publikum",
+          "meaning": "público (espectadores)",
+          "example": "Das Publikum klatscht. – El público aplaude."
+        },
+        {
+          "word": "die Bevölkerung",
+          "meaning": "población",
+          "example": "Die Bevölkerung wächst. – La población crece."
+        }
+      ],
+      "tip": [
+        "Úsalo con preposiciones: in der Öffentlichkeit (¿dónde?), an die Öffentlichkeit (¿adónde?).",
+        "Un significado parecido tiene die Allgemeinheit (la gente en general)."
+      ],
+      "important": [
+        "Normalmente no se usa en plural: no existe die Öffentlichkeiten."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Öffentlichkeit",
+            "in der Öffentlichkeit",
+            "an die Öffentlichkeit gehen",
+            "unter Ausschluss der Öffentlichkeit",
+            "Gesellschaft"
+          ],
+          "purple": [
+            "público",
+            "opinión pública",
+            "en público"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "opinión pública"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "lugares públicos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "a puerta cerrada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hacer público"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Gesellschaft"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sociedad"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Publikum"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "espectadores"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Bevölkerung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "población"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -792,27 +1072,167 @@ const C1_WORDS = [
     "de": "Partei",
     "de_article": "die",
     "de_plural": "die Parteien",
-    "lv": "fiesta • fiesta",
+    "lv": "partido • parte",
     "level": "C1",
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "partido político • parte",
-      "explanation": "Idea principal: die Partei suele ser un partido político. En lenguaje legal o de conflictos, también puede significar una parte.",
+      "translation": "partido • parte",
+      "explanation": [
+        "Idea principal: die Partei es un partido político (die CDU ist eine Partei), pero también una parte en una disputa, un juicio o un contrato: die Streitparteien, die Vertragsparteien.",
+        "Sustantivo femenino: die Partei, plural die Parteien. La expresión Partei ergreifen für jemanden significa ponerse de parte de alguien.",
+        "En contexto político se usa a menudo: eine Partei gründen (fundar un partido), in eine Partei eintreten (afiliarse a un partido), die Regierungspartei (el partido del Gobierno)."
+      ],
       "examples": [
         {
-          "de": "Diese Partei gewann die Wahl.",
-          "lv": "Este partido ganó las elecciones."
+          "de": "Sie ist Mitglied einer Partei.",
+          "lv": "Es miembro de un partido."
         },
         {
-          "de": "Er ist seit Jahren Mitglied einer Partei.",
-          "lv": "Ha sido miembro del partido durante años."
+          "de": "Die Parteien verhandeln über eine Koalition.",
+          "lv": "Los partidos negocian una coalición."
         },
         {
-          "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "Ambas partes deben firmar el contrato."
+          "de": "Im Streit ergriff er Partei für seinen Bruder.",
+          "lv": "En la discusión se puso de parte de su hermano."
+        },
+        {
+          "de": "Beide Parteien haben den Vertrag unterschrieben.",
+          "lv": "Ambas partes han firmado el contrato."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Seite",
+          "meaning": "lado",
+          "example": "Auf welcher Seite stehst du? – ¿De qué lado estás?"
+        },
+        {
+          "word": "der Verein",
+          "meaning": "asociación, club",
+          "example": "Er ist im Sportverein. – Está en un club deportivo."
+        },
+        {
+          "word": "die Gruppe",
+          "meaning": "grupo",
+          "example": "Die Gruppe trifft sich heute. – El grupo se reúne hoy."
+        }
+      ],
+      "tip": [
+        "Partei ergreifen (ponerse de parte de alguien) es una expresión útil para describir conflictos.",
+        "En política se dice eine Partei wählen o für eine Partei stimmen."
+      ],
+      "important": [
+        "Die Partei y die Party (fiesta) suenan parecido, pero no tienen relación."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Partei",
+            "Parteien"
+          ],
+          "purple": [
+            "partido",
+            "parte",
+            "de parte de"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "partido"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "partidos"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Partei"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "de parte de"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Parteien"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "partes"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Seite"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "lado"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Verein"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "club"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Gruppe"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "grupo"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -866,22 +1286,162 @@ const C1_WORDS = [
     "study": {
       "id": "c1-prozess",
       "layout": "standardStudy",
-      "translation": "proceso • juicio",
-      "explanation": "Idea principal: der Prozess es un proceso o procedimiento. En los tribunales, der Prozess significa juicio.",
+      "translation": "proceso • demanda",
+      "explanation": [
+        "Idea principal: der Prozess tiene dos significados principales: proceso, desarrollo (ein langsamer Prozess) y juicio o pleito ante un tribunal (ein Prozess gegen jemanden); en este segundo sentido equivale también a demanda o litigio.",
+        "Sustantivo masculino: der Prozess, plural die Prozesse. Un pleito se puede llevar, iniciar, ganar o perder: einen Prozess führen, gewinnen, verlieren.",
+        "La expresión kurzen Prozess machen significa actuar sin miramientos, de forma expeditiva."
+      ],
       "examples": [
         {
-          "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "El proceso dura varios meses."
+          "de": "Der Prozess gegen den Angeklagten dauert Monate.",
+          "lv": "El juicio contra el acusado dura meses."
         },
         {
-          "de": "Der Prozess vor Gericht beginnt morgen.",
-          "lv": "El juicio comienza mañana."
+          "de": "Die Heilung ist ein langsamer Prozess.",
+          "lv": "La curación es un proceso lento."
         },
         {
-          "de": "Wir verbessern den ganzen Prozess.",
-          "lv": "Mejoramos todo el proceso."
+          "de": "Sie haben den Prozess gewonnen.",
+          "lv": "Han ganado el pleito."
+        },
+        {
+          "de": "Die Firma machte kurzen Prozess und kündigte ihm.",
+          "lv": "La empresa no se anduvo con rodeos y lo despidió."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "der Vorgang",
+          "meaning": "proceso, desarrollo",
+          "example": "Der Vorgang dauert eine Stunde. – El proceso dura una hora."
+        },
+        {
+          "word": "die Verhandlung",
+          "meaning": "vista (oral)",
+          "example": "Die Verhandlung beginnt um neun. – La vista empieza a las nueve."
+        },
+        {
+          "word": "die Klage",
+          "meaning": "demanda",
+          "example": "Er reichte eine Klage ein. – Presentó una demanda."
+        }
+      ],
+      "tip": [
+        "Cuando se habla de tribunales, son frecuentes los verbos: einen Prozess führen / gewinnen / verlieren.",
+        "Prozess en el sentido de proceso es también un término técnico y científico: der Prozess der Herstellung (el proceso de fabricación)."
+      ],
+      "important": [
+        "Ojo con el género: der Prozess es masculino (no das Prozess)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Prozess",
+            "Prozesse"
+          ],
+          "purple": [
+            "proceso",
+            "juicio",
+            "pleito"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "juicio"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "proceso"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "pleito"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Prozess"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "no se anduvo con rodeos"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Vorgang"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "desarrollo"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Verhandlung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "vista"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "Klage"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "demanda"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -922,7 +1482,7 @@ const C1_WORDS = [
   {
     "de": "Reparaturkosten",
     "de_article": "die",
-    "lv": "costos de reparación",
+    "lv": "costes de reparación",
     "level": "C1"
   },
   {
@@ -962,7 +1522,7 @@ const C1_WORDS = [
     "de": "Schlussverkauf",
     "de_article": "der",
     "de_plural": "die Schlussverkäufe",
-    "lv": "Venta de productos al final de la temporada a precios reducidos.",
+    "lv": "rebajas de fin de temporada",
     "level": "C1"
   },
   {
@@ -974,7 +1534,7 @@ const C1_WORDS = [
     "de": "Schneewittchen",
     "de_article": "das",
     "de_plural": "die Schneewittchen",
-    "lv": "personaje de cuento de hadas Blancanieves",
+    "lv": "Blancanieves",
     "level": "C1"
   },
   {
@@ -1088,7 +1648,7 @@ const C1_WORDS = [
     "de": "Terminkalender",
     "de_article": "der",
     "de_plural": "die Terminkalender",
-    "lv": "calendario de citas",
+    "lv": "agenda",
     "level": "C1"
   },
   {
@@ -1241,7 +1801,7 @@ const C1_WORDS = [
     "de": "Vorgesetzte",
     "de_article": "der",
     "de_plural": "die Vorgesetzten",
-    "lv": "el jefe",
+    "lv": "superior • jefe",
     "level": "C1"
   },
   {
@@ -1253,7 +1813,7 @@ const C1_WORDS = [
     "de": "Wettbewerb",
     "de_article": "der",
     "de_plural": "die Wettbewerbe",
-    "lv": "competencia",
+    "lv": "concurso • competencia",
     "level": "C1"
   },
   {
@@ -1268,90 +1828,92 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenfassen",
-    "lv": "resumir • resumir",
+    "lv": "resumir • sintetizar",
     "level": "C1",
     "study": {
       "id": "c1-zusammenfassen",
       "layout": "standardStudy",
-      "translation": "resumir",
+      "translation": "resumir • sintetizar",
       "explanation": [
-        "Idea principal: zusammenfassen es un verbo: recopilar u organizar información en una declaración concisa.",
-        "zusammenfassen se utiliza cuando varios hechos, textos o pensamientos se resumen en una breve descripción.",
-        "No confundir con die Zusammenfassung: el que tiene una letra mayúscula y el artículo die es un sustantivo que denota el resumen en sí (resultado, texto terminado).",
-        "zusammenfassen = proceso/acción (resumir, resumir); die Zusammenfassung = resultado (resumen como sustantivo).",
-        "Como muchos verbos alemanes, zusammenfassen puede convertirse en un sustantivo en mayúscula y en un artículo: zusammenfassen → die Zusammenfassen (sustanciación)."
+        "Idea principal: zusammenfassen significa resumir brevemente lo esencial de un texto, un discurso o unos resultados; también reunir varias cosas en un todo.",
+        "Verbo con prefijo separable: er fasst zusammen, fasste zusammen, hat zusammengefasst. Lo que se resume va en acusativo: einen Text zusammenfassen. A menudo le sigue in + dativo o zu + dativo: in einem Satz zusammenfassen. El sustantivo es die Zusammenfassung.",
+        "Al principio de la frase se usa a menudo zusammenfassend (en resumen): Zusammenfassend lässt sich sagen …"
       ],
       "examples": [
         {
-          "de": "Können Sie den Text zusammenfassen?",
-          "lv": "¿Puedes resumir este texto?"
+          "de": "Fasst bitte den Text in drei Sätzen zusammen.",
+          "lv": "Resumid el texto en tres frases, por favor."
         },
         {
-          "de": "Ich fasse die wichtigsten Punkte zusammen.",
-          "lv": "Resumo los puntos más importantes."
+          "de": "Der Redner fasste die Ergebnisse kurz zusammen.",
+          "lv": "El orador resumió brevemente los resultados."
         },
         {
-          "de": "Er hat den Bericht kurz zusammengefasst.",
-          "lv": "resumió brevemente la reseña."
+          "de": "Wir haben die Vorschläge in einer Liste zusammengefasst.",
+          "lv": "Hemos reunido las propuestas en una lista."
         },
         {
-          "de": "Zusammenfassend kann man sagen, dass...",
-          "lv": "Resumiendo, se puede decir que..."
+          "de": "Kannst du den Film kurz zusammenfassen?",
+          "lv": "¿Puedes resumir brevemente la película?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "zusammenstellen",
+          "meaning": "elaborar, compilar",
+          "example": "Ich stelle eine Liste zusammen. – Elaboro una lista."
         },
         {
-          "de": "Ich schreibe eine Zusammenfassung des Buches.",
-          "lv": "Estoy escribiendo un resumen de un libro."
+          "word": "kürzen",
+          "meaning": "acortar",
+          "example": "Wir kürzen den Text. – Acortamos el texto."
         },
         {
-          "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "El resumen es demasiado largo."
+          "word": "wiederholen",
+          "meaning": "repetir",
+          "example": "Wiederhole den Satz. – Repite la frase."
         }
       ],
       "tip": [
-        "zusammenfassen (verbo) = proceso - resumir/resumir.",
-        "die Zusammenfassung (sustantivo, en mayúscula y artículo die) = resultado - el resumen mismo."
+        "Recuerda la separación: Ich fasse den Text zusammen, pero en subordinada …, weil ich den Text zusammenfasse.",
+        "Después de zusammenfassen suele ir in einem Satz / in drei Punkten."
       ],
       "important": [
-        "zusammenfassen = resumir/resumir (verbo).",
-        "die Zusammenfassung = resumen (sustantivo, sustantivado de zusammenfassen).",
-        "Incorrecto: die zusammenfassen → Correcto: die Zusammenfassen (sustantivo siempre en mayúscula)."
+        "El participio es zusammengefasst (con -ge- entre zusammen y fasst).",
+        "No lo confundas con zusammenstellen: significa elaborar o compilar, no resumir."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "zusammenfassen",
+            "zusammenfassend",
+            "fasst zusammen",
+            "fasste zusammen",
+            "zusammengefasst",
+            "Zusammenfassung"
+          ],
           "purple": [
-            "resumir"
+            "resumir",
+            "reunir"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "zusammenfassen"
+                "Fasst"
               ]
             },
             "lv": {
               "purple": [
-                "¿Puedes"
+                "Resumid"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "fasse",
-                "zusammen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Resumo"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "zusammengefasst"
+                "fasste"
               ]
             },
             "lv": {
@@ -1363,71 +1925,73 @@ const C1_WORDS = [
           {
             "de": {
               "blue": [
-                "Zusammenfassend"
+                "zusammengefasst"
               ]
             },
             "lv": {
               "purple": [
-                "Resumiendo"
+                "reunido"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Zusammenfassung"
+              "blue": [
+                "zusammenfassen"
               ]
             },
             "lv": {
               "purple": [
-                "Estoy"
+                "resumir"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "zusammenstellen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "compilar"
               ]
             }
           },
           {
-            "de": {
+            "word": {
               "green": [
-                "Zusammenfassung"
+                "kürzen"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "resumen"
+                "acortar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wiederholen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "repetir"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "zusammenfassen"
-            ]
-          },
-          {
-            "green": [
-              "die Zusammenfassung"
-            ]
-          },
-          {
-            "green": [
-              "die zusammenfassen"
-            ],
-            "red": [
-              "die zusammenfassen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -1476,46 +2040,177 @@ const C1_WORDS = [
     "de": "Wahl",
     "de_article": "die",
     "de_plural": "die Wahlen",
-    "lv": "elección • elección",
+    "lv": "elección • elecciones",
     "level": "C1",
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
       "translation": "elección • elecciones",
-      "explanation": "die Wahl puede significar una elección entre opciones. En el contexto de la política, Wahl significa elección. También puede significar votar en sí. La frase eine Wahl treffen significa tomar una decisión. zur Wahl gehen significa ir a las urnas. El contexto de una política o decisión personal muestra el significado correcto.",
+      "explanation": [
+        "Idea principal: die Wahl significa elección (lo que se escoge entre varias posibilidades) y elecciones (la votación para cubrir un cargo).",
+        "Sustantivo femenino: die Wahl, plural die Wahlen. En el sentido de elecciones se usa muy a menudo en plural, igual que en español: die Wahlen finden statt. En el sentido de elección suele ir en singular: die Wahl haben, keine andere Wahl haben.",
+        "Combinaciones: die Wahl treffen (hacer una elección), zur Wahl gehen (ir a votar), die Wahl gewinnen (ganar las elecciones)."
+      ],
       "examples": [
         {
-          "de": "Du hast die Wahl.",
-          "lv": "Tienes una opción."
+          "de": "Du hast die Wahl zwischen Tee und Kaffee.",
+          "lv": "Puedes elegir entre té o café."
         },
         {
-          "de": "Ich treffe meine Wahl morgen.",
-          "lv": "Mañana hago mi elección."
+          "de": "Die Wahlen finden im Herbst statt.",
+          "lv": "Las elecciones se celebran en otoño."
         },
         {
-          "de": "Die Wahl findet am Sonntag statt.",
-          "lv": "Las elecciones se celebran el domingo."
+          "de": "Er hatte keine andere Wahl.",
+          "lv": "No tenía otra opción."
         },
         {
-          "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "Mucha gente va a las urnas."
-        },
-        {
-          "de": "Die freie Wahl ist wichtig.",
-          "lv": "La libre elección es importante."
-        },
-        {
-          "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "Votamos en las elecciones."
+          "de": "Die Wahl des Bürgermeisters ist am Sonntag.",
+          "lv": "La elección del alcalde es el domingo."
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Auswahl",
+          "meaning": "surtido, selección",
+          "example": "Im Laden gibt es eine große Auswahl. – En la tienda hay un gran surtido."
+        },
+        {
+          "word": "die Entscheidung",
+          "meaning": "decisión",
+          "example": "Das ist meine Entscheidung. – Es mi decisión."
+        },
+        {
+          "word": "die Abstimmung",
+          "meaning": "votación",
+          "example": "Die Abstimmung ist morgen. – La votación es mañana."
+        }
+      ],
+      "tip": [
+        "Fíjate en el contexto: Wahl en singular suele ser elección; die Wahlen, elecciones.",
+        "El verbo es wählen (votar, elegir)."
+      ],
+      "important": [
+        "No confundas die Wahl con die Auswahl: Auswahl es la oferta entre la que se elige."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Wahl",
+            "die Wahlen",
+            "Wahlen",
+            "Wahl",
+            "zur Wahl gehen",
+            "die Wahl treffen"
+          ],
+          "purple": [
+            "elección",
+            "elecciones"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "elegir"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahlen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "elecciones"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "opción"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Wahl"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "elección"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Auswahl"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "surtido"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Entscheidung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "decisión"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Abstimmung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "votación"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
     "de": "Herausforderung",
     "de_article": "die",
     "de_plural": "die Herausforderungen",
-    "lv": "un desafío",
+    "lv": "desafío • reto",
     "level": "C1"
   },
   {
@@ -1598,19 +2293,19 @@ const C1_WORDS = [
   },
   {
     "de": "beanspruchen",
-    "lv": "requerir • reclamar • estar ocupado",
+    "lv": "requerir • reclamar • ocupar",
     "level": "C1"
   },
   {
     "de": "Bedarfsartikel",
     "de_article": "der",
     "de_plural": "die Bedarfsartikel",
-    "lv": "artículos de primera necesidad",
+    "lv": "artículo de consumo",
     "level": "C1"
   },
   {
     "de": "bedingungslos",
-    "lv": "incondicional • incondicional • sin reservas • sin condiciones",
+    "lv": "incondicional • sin reservas",
     "level": "C1"
   },
   {
@@ -1618,11 +2313,172 @@ const C1_WORDS = [
     "de_article": "die",
     "de_plural": "die Befangenheiten",
     "lv": "turbación • embarazo",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-befangenheit",
+      "layout": "standardStudy",
+      "translation": "turbación • embarazo",
+      "explanation": [
+        "Idea principal: die Befangenheit es turbación o embarazo, una torpeza tímida que surge en una situación extraña o delante de otras personas. En el ámbito jurídico significa también parcialidad, por ejemplo la falta de imparcialidad de un juez o de un perito.",
+        "Sustantivo femenino: die Befangenheit, normalmente sin plural. El adjetivo es befangen (cohibido, parcial). En español, embarazo con este sentido es culto; lo habitual es decir apuro o turbación.",
+        "En los tribunales, la expresión Besorgnis der Befangenheit expresa dudas sobre la imparcialidad del juez; de ahí viene Befangenheitsantrag (recusación)."
+      ],
+      "examples": [
+        {
+          "de": "Seine Befangenheit war deutlich zu spüren.",
+          "lv": "Se notaba claramente su turbación."
+        },
+        {
+          "de": "Sie sprach ohne jede Befangenheit vor der Gruppe.",
+          "lv": "Habló delante del grupo sin ningún apuro."
+        },
+        {
+          "de": "Vor Fremden hatte das Kind eine gewisse Befangenheit.",
+          "lv": "Delante de desconocidos el niño se mostraba algo cohibido."
+        },
+        {
+          "de": "Der Anwalt stellte einen Antrag wegen Befangenheit des Richters.",
+          "lv": "El abogado presentó una recusación por parcialidad del juez."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Verlegenheit",
+          "meaning": "apuro, vergüenza",
+          "example": "Er lachte aus Verlegenheit. – Se rio por apuro."
+        },
+        {
+          "word": "die Voreingenommenheit",
+          "meaning": "prejuicio, parcialidad",
+          "example": "Ihre Voreingenommenheit stört mich. – Su parcialidad me molesta."
+        },
+        {
+          "word": "die Schüchternheit",
+          "meaning": "timidez",
+          "example": "Seine Schüchternheit verschwand. – Su timidez desapareció."
+        }
+      ],
+      "tip": [
+        "Si en un juicio se habla de Befangenheit, el significado es parcialidad, no turbación.",
+        "En el sentido de turbación la palabra es culta; en el día a día se dice más verlegen sein."
+      ],
+      "important": [
+        "Lo contrario es Unbefangenheit (naturalidad, desenvoltura) u Objektivität (objetividad)."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Befangenheit",
+            "Befangenheit",
+            "befangen",
+            "Befangenheitsantrag"
+          ],
+          "purple": [
+            "turbación",
+            "parcialidad"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "turbación"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apuro"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "cohibido"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Befangenheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "parcialidad"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Verlegenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apuro"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voreingenommenheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "prejuicio"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Schüchternheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "timidez"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "beglaubigen",
-    "lv": "certificar oficialmente • notarizar",
+    "lv": "certificar • compulsar • legalizar",
     "level": "C1"
   },
   {
@@ -1644,12 +2500,12 @@ const C1_WORDS = [
   },
   {
     "de": "beispielhaft",
-    "lv": "ejemplar • ejemplar",
+    "lv": "ejemplar • modélico",
     "level": "C1"
   },
   {
     "de": "beklagen",
-    "lv": "lamentar • afligirse • llorar la pérdida de alguien • lamentarse • quejarse",
+    "lv": "lamentar • llorar la pérdida de",
     "level": "C1"
   },
   {
@@ -1699,7 +2555,7 @@ const C1_WORDS = [
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "consulta de orientación profesional",
+    "lv": "orientación profesional",
     "level": "C1"
   },
   {
@@ -1714,7 +2570,167 @@ const C1_WORDS = [
     "de_article": "die",
     "de_plural": "die Berufungen",
     "lv": "vocación • inclinación • recurso",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-berufung",
+      "layout": "standardStudy",
+      "translation": "vocación • inclinación • recurso",
+      "explanation": [
+        "Idea principal: die Berufung es una palabra con varios significados: vocación o inclinación (llamada interior hacia una profesión), nombramiento para un cargo (sobre todo en la universidad), referencia a algo (unter Berufung auf) y, en derecho, recurso de apelación (Berufung einlegen).",
+        "Sustantivo femenino: die Berufung, plural die Berufungen. El verbo correspondiente es berufen, pero la idea de remitirse a algo se expresa con sich berufen auf + acusativo.",
+        "El significado suele depender de la combinación: Berufung einlegen, presentar un recurso de apelación; unter Berufung auf, invocando o remitiéndose a."
+      ],
+      "examples": [
+        {
+          "de": "Sie spürt die Berufung zur Ärztin.",
+          "lv": "Siente la vocación de ser médica."
+        },
+        {
+          "de": "Die Anwältin legte gegen das Urteil Berufung ein.",
+          "lv": "La abogada interpuso un recurso de apelación contra la sentencia."
+        },
+        {
+          "de": "Er lehnte die Fragen unter Berufung auf das Datenschutzgesetz ab.",
+          "lv": "Rechazó las preguntas invocando la ley de protección de datos."
+        },
+        {
+          "de": "Seine Berufung an die Universität kam überraschend.",
+          "lv": "Su nombramiento en la universidad fue una sorpresa."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Beruf",
+          "meaning": "profesión",
+          "example": "Mein Beruf ist Lehrer. – Mi profesión es profesor."
+        },
+        {
+          "word": "der Einspruch",
+          "meaning": "oposición, reclamación",
+          "example": "Er legte Einspruch ein. – Presentó una reclamación."
+        },
+        {
+          "word": "die Revision",
+          "meaning": "casación",
+          "example": "Die Revision wurde abgelehnt. – El recurso de casación fue desestimado."
+        }
+      ],
+      "tip": [
+        "Memoriza dos combinaciones fijas: Berufung einlegen (apelar, recurrir) y unter Berufung auf (invocando).",
+        "Der Beruf (profesión) y die Berufung (vocación) están emparentados, pero significan cosas distintas."
+      ],
+      "important": [
+        "La apelación en el sistema jurídico alemán (Berufung) no es lo mismo que la Revision, que solo examina la aplicación del derecho."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Berufung",
+            "Berufungen"
+          ],
+          "purple": [
+            "vocación",
+            "nombramiento",
+            "recurso de apelación"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vocación"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "recurso de apelación"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "invocando"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Berufung"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "nombramiento"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Beruf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "profesión"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Einspruch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "reclamación"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Revision"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "casación"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "Besatzungsmacht",
@@ -1739,7 +2755,7 @@ const C1_WORDS = [
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "constancia • certificado • atestación",
+    "lv": "certificado • justificante",
     "level": "C1"
   },
   {
@@ -1761,7 +2777,7 @@ const C1_WORDS = [
   },
   {
     "de": "beträchtlich",
-    "lv": "considerable • bastante grande • considerable",
+    "lv": "considerable • notable",
     "level": "C1"
   },
   {
@@ -1801,7 +2817,7 @@ const C1_WORDS = [
   },
   {
     "de": "bewerben, sich",
-    "lv": "postularse • presentar una candidatura",
+    "lv": "presentar una candidatura • solicitar un puesto",
     "level": "C1"
   },
   {
@@ -1870,7 +2886,7 @@ const C1_WORDS = [
     "de": "Dachgepäckträger",
     "de_article": "der",
     "de_plural": "die Dachgepäckträger",
-    "lv": "portaequipajes para el techo del coche",
+    "lv": "baca",
     "level": "C1"
   },
   {
@@ -1894,7 +2910,7 @@ const C1_WORDS = [
   },
   {
     "de": "dazwischenkommen",
-    "lv": "interponerse",
+    "lv": "surgir (un imprevisto) • interponerse",
     "level": "C1"
   },
   {
@@ -1995,7 +3011,7 @@ const C1_WORDS = [
     "de": "Dirigentenstab",
     "de_article": "der",
     "de_plural": "die Dirigentenstäbe",
-    "lv": "batuta de director",
+    "lv": "batuta",
     "level": "C1"
   },
   {
@@ -2063,12 +3079,12 @@ const C1_WORDS = [
   },
   {
     "de": "einreden",
-    "lv": "persuadir",
+    "lv": "hacer creer • meter en la cabeza",
     "level": "C1"
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "adular",
+    "lv": "congraciarse",
     "level": "C1"
   },
   {
@@ -2082,7 +3098,7 @@ const C1_WORDS = [
     "de": "Einspruchsrecht",
     "de_article": "das",
     "de_plural": "die Einspruchsrechte",
-    "lv": "derecho de objeción",
+    "lv": "derecho de veto",
     "level": "C1"
   },
   {
@@ -2131,7 +3147,7 @@ const C1_WORDS = [
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "ley básica",
+    "lv": "regla básica",
     "level": "C1"
   },
   {
@@ -2160,7 +3176,7 @@ const C1_WORDS = [
   },
   {
     "de": "entschädigen",
-    "lv": "compensar • compensar",
+    "lv": "compensar • indemnizar",
     "level": "C1"
   },
   {
@@ -2189,7 +3205,7 @@ const C1_WORDS = [
     "de": "Entziehungskur",
     "de_article": "die",
     "de_plural": "die Entziehungskuren",
-    "lv": "curso de tratamiento para alcohólicos o drogadictos",
+    "lv": "cura de desintoxicación",
     "level": "C1"
   },
   {
@@ -2209,27 +3225,190 @@ const C1_WORDS = [
   {
     "de": "Erntearbeiten",
     "de_article": "die",
-    "lv": "operaciones de cosecha",
+    "lv": "faenas de la cosecha",
     "level": "C1"
   },
   {
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "jugador reserva • jugador reserva",
+    "lv": "jugador suplente • reserva",
     "level": "C1"
   },
   {
     "de": "Erstaufführung",
     "de_article": "die",
     "de_plural": "die Erstaufführungen",
-    "lv": "estreno • estreno",
+    "lv": "estreno",
     "level": "C1"
   },
   {
     "de": "festgesetzt",
     "lv": "determinado • establecido",
-    "level": "C1"
+    "level": "C1",
+    "study": {
+      "id": "c1-festgesetzt",
+      "layout": "standardStudy",
+      "translation": "determinado • establecido",
+      "explanation": [
+        "Idea principal: festgesetzt es el participio de festsetzen y significa fijado, establecido o determinado oficialmente (un plazo, un precio, una pena). Describe algo que se ha fijado con carácter vinculante.",
+        "Verbo con prefijo separable: er setzt fest, setzte fest, hat festgesetzt. Como adjetivo se declina: der festgesetzte Termin, die festgesetzte Frist. En pasiva: wurde festgesetzt.",
+        "En el ámbito jurídico y policial, festsetzen puede significar también detener a una persona: Die Täter wurden festgesetzt."
+      ],
+      "examples": [
+        {
+          "de": "Der Termin ist auf den 5. Mai festgesetzt.",
+          "lv": "La fecha está fijada para el 5 de mayo."
+        },
+        {
+          "de": "Die Preise wurden vom Staat festgesetzt.",
+          "lv": "Los precios los fijó el Estado."
+        },
+        {
+          "de": "Die Strafe wurde auf zwei Jahre festgesetzt.",
+          "lv": "La pena se fijó en dos años."
+        },
+        {
+          "de": "Die festgesetzte Frist läuft morgen ab.",
+          "lv": "El plazo establecido vence mañana."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "festgelegt",
+          "meaning": "fijado (de común acuerdo)",
+          "example": "Der Plan ist festgelegt. – El plan está fijado."
+        },
+        {
+          "word": "beschlossen",
+          "meaning": "decidido, acordado",
+          "example": "Das wurde beschlossen. – Eso se decidió."
+        },
+        {
+          "word": "bestimmt",
+          "meaning": "determinado, previsto",
+          "example": "Der Ort ist bestimmt. – El lugar está determinado."
+        }
+      ],
+      "tip": [
+        "Se usa a menudo con Frist, Termin, Preis, Strafe, Höhe: auf einen Betrag festgesetzt.",
+        "En la lengua hablada se dice más festgelegt; festgesetzt suena más oficial."
+      ],
+      "important": [
+        "Fíjate en el contexto: festgesetzt significa detenido solo en un contexto policial o judicial."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "festgesetzt",
+            "festsetzen",
+            "setzt fest",
+            "setzte fest",
+            "festgesetzte",
+            "hat festgesetzt"
+          ],
+          "purple": [
+            "establecido",
+            "detener"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fijada"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fijó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "fijó"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "festgesetzte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "establecido"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "festgelegt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "fijado"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschlossen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "decidido"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "bestimmt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "previsto"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "feuergefährlich",
@@ -2331,7 +3510,7 @@ const C1_WORDS = [
   {
     "de": "Gebrauchtwaren",
     "de_article": "die",
-    "lv": "bienes usados",
+    "lv": "artículos de segunda mano",
     "level": "C1"
   },
   {
@@ -2428,65 +3607,71 @@ const C1_WORDS = [
   },
   {
     "de": "gelegentlich",
-    "lv": "a veces • ocasión • debido a",
+    "lv": "ocasional • a veces • con motivo de",
     "level": "C1",
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "a veces • ocasionalmente • con motivo de",
-      "explanation": "Idea principal: gelegentlich es una palabra con tres funciones. Adjetivo: casual (ein gelegentlicher Besuch). Adverbio: a veces, de vez en cuando (Er kommt gelegentlich). Preposición + dativo: debido a (gelegentlich des Festes).",
+      "translation": "ocasional • a veces • con motivo de",
+      "explanation": [
+        "Idea principal: gelegentlich es sobre todo un adverbio que significa a veces, de vez en cuando: algo que no ocurre con regularidad, sino de cuando en cuando. Como adjetivo significa ocasional o aislado: gelegentliche Schauer, chubascos ocasionales.",
+        "Más raramente, y en registro formal, gelegentlich es una preposición con genitivo que significa con motivo de: gelegentlich seines Geburtstags, con motivo de su cumpleaños. Hoy este uso suena muy oficial o anticuado.",
+        "Como adverbio gelegentlich no se declina; como adjetivo recibe terminaciones."
+      ],
       "examples": [
         {
-          "de": "Er kommt gelegentlich vorbei.",
-          "lv": "A veces pasa por aquí."
+          "de": "Wir treffen uns gelegentlich auf einen Kaffee.",
+          "lv": "De vez en cuando quedamos para tomar un café."
         },
         {
-          "de": "Ein gelegentlicher Besuch reicht.",
-          "lv": "una visita ocasional es suficiente."
+          "de": "Er raucht nur gelegentlich.",
+          "lv": "Solo fuma ocasionalmente."
         },
         {
-          "de": "Gelegentlich des Festes gab es eine Rede.",
-          "lv": "se pronunció un discurso con motivo de la festividad."
+          "de": "Gelegentliche Schauer sind möglich.",
+          "lv": "Son posibles chubascos ocasionales."
+        },
+        {
+          "de": "Gelegentlich seines Geburtstags hielt er eine Rede.",
+          "lv": "Con motivo de su cumpleaños pronunció un discurso."
         }
       ],
       "comparison": [
         {
-          "word": "gelegentlich (Adv.)",
-          "meaning": "a veces • de vez en cuando",
-          "example": "Er kommt gelegentlich. = Viene de vez en cuando."
-        },
-        {
-          "word": "gelegentlich (Adj.)",
-          "meaning": "ocasional • fortuito",
-          "example": "ein gelegentlicher Besuch = una visita ocasional"
-        },
-        {
-          "word": "gelegentlich (+ Gen.)",
-          "meaning": "con motivo de",
-          "example": "gelegentlich des Festes = con motivo de la festividad"
-        },
-        {
           "word": "manchmal",
           "meaning": "a veces",
-          "example": "Manchmal regnet es. = A veces llueve."
+          "example": "Manchmal gehe ich laufen. – A veces salgo a correr."
+        },
+        {
+          "word": "ab und zu",
+          "meaning": "de vez en cuando",
+          "example": "Ab und zu rufe ich ihn an. – De vez en cuando lo llamo."
+        },
+        {
+          "word": "selten",
+          "meaning": "raramente, pocas veces",
+          "example": "Er kommt selten. – Viene pocas veces."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "La posición en una oración ayuda: antes del sustantivo = adjetivo; después del verbo = adverbio; + genitivo = preposición."
-          }
-        ]
-      },
-      "important": {
-        "text": "Adj.: ocasional. Adv.: a veces. Prep.: con motivo de. El contexto determina el significado."
-      },
+      "tip": [
+        "Si quieres decir a veces, pero no con regularidad, usa gelegentlich o ab und zu.",
+        "En el día a día oirás más manchmal; gelegentlich es más cuidado y más propio de la lengua escrita."
+      ],
+      "important": [
+        "Gelegentlich no significa ocasión ni oportunidad: para eso existe die Gelegenheit."
+      ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "gelegentlich",
+            "gelegentliche",
+            "gelegentlich seines Geburtstags"
+          ],
           "purple": [
             "a veces",
-            "casual",
-            "debido a"
+            "ocasional",
+            "con motivo de",
+            "ocasionales"
           ]
         },
         "examples": [
@@ -2498,7 +3683,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "a veces"
+                "De vez en cuando"
               ]
             }
           },
@@ -2510,7 +3695,19 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "una"
+                "ocasionalmente"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gelegentliche"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ocasionales"
               ]
             }
           },
@@ -2522,10 +3719,55 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pronunció"
+                "Con motivo de"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "manchmal"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "a veces"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "ab und zu"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "de vez en cuando"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "selten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "raramente"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
@@ -2580,14 +3822,14 @@ const C1_WORDS = [
   },
   {
     "de": "genmanipuliert",
-    "lv": "con genes modificados",
+    "lv": "modificado genéticamente • transgénico",
     "level": "C1"
   },
   {
     "de": "Gepäckschein",
     "de_article": "der",
     "de_plural": "die Gepäckscheine",
-    "lv": "recibo de equipaje",
+    "lv": "resguardo de equipaje",
     "level": "C1"
   },
   {
@@ -2618,7 +3860,7 @@ const C1_WORDS = [
   },
   {
     "de": "geringschätzig",
-    "lv": "desdeñoso • desdeñoso • desdeñoso",
+    "lv": "desdeñoso • despectivo",
     "level": "C1"
   },
   {
@@ -2639,7 +3881,7 @@ const C1_WORDS = [
     "de": "Gesandtschaft",
     "de_article": "die",
     "de_plural": "die Gesandtschaften",
-    "lv": "embajada",
+    "lv": "legación",
     "level": "C1"
   },
   {
@@ -2685,7 +3927,7 @@ const C1_WORDS = [
   },
   {
     "de": "gesetzwidrig",
-    "lv": "contra la ley",
+    "lv": "ilegal • contrario a la ley",
     "level": "C1"
   },
   {
@@ -2720,7 +3962,7 @@ const C1_WORDS = [
   },
   {
     "de": "gleichberechtigt",
-    "lv": "iguales • con iguales derechos",
+    "lv": "con igualdad de derechos • equiparado",
     "level": "C1"
   },
   {
@@ -2741,7 +3983,7 @@ const C1_WORDS = [
     "de": "Grundgesetz",
     "de_article": "das",
     "de_plural": "die Grundgesetze",
-    "lv": "ley básica • constitución",
+    "lv": "ley fundamental • constitución",
     "level": "C1"
   },
   {
@@ -2780,7 +4022,7 @@ const C1_WORDS = [
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "duración de conservación",
+    "lv": "vida útil • periodo de conservación",
     "level": "C1"
   },
   {
@@ -2822,7 +4064,7 @@ const C1_WORDS = [
     "de": "Haushaltshilfe",
     "de_article": "die",
     "de_plural": "die Haushaltshilfen",
-    "lv": "ayuda remunerada en el hogar",
+    "lv": "empleada de hogar • asistenta",
     "level": "C1"
   },
   {
@@ -2862,7 +4104,7 @@ const C1_WORDS = [
   {
     "de": "Industrieabgase",
     "de_article": "die",
-    "lv": "gases de escape industriales",
+    "lv": "emisiones industriales • gases residuales industriales",
     "level": "C1"
   },
   {
@@ -2901,7 +4143,7 @@ const C1_WORDS = [
     "de": "Intensivstation",
     "de_article": "die",
     "de_plural": "die Intensivstationen",
-    "lv": "unidad de cuidados intensivos en el hospital",
+    "lv": "unidad de cuidados intensivos • UCI",
     "level": "C1"
   },
   {
@@ -2926,14 +4168,14 @@ const C1_WORDS = [
     "de": "Kapitalverbrechen",
     "de_article": "das",
     "de_plural": "die Kapitalverbrechen",
-    "lv": "un delito particularmente grave",
+    "lv": "delito grave • crimen capital",
     "level": "C1"
   },
   {
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "prenda • fianza • depósito de garantía • garantía",
+    "lv": "fianza • depósito de garantía",
     "level": "C1"
   },
   {
@@ -2959,7 +4201,7 @@ const C1_WORDS = [
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "persona discapacitada por la guerra",
+    "lv": "mutilado de guerra • inválido de guerra",
     "level": "C1"
   },
   {
@@ -2973,7 +4215,7 @@ const C1_WORDS = [
     "de": "Kabinettskrise",
     "de_article": "die",
     "de_plural": "die Kabinettskrisen",
-    "lv": "crisis del gabinete",
+    "lv": "crisis de Gobierno",
     "level": "C1"
   },
   {
@@ -2987,7 +4229,7 @@ const C1_WORDS = [
     "de": "Lebenserwartung",
     "de_article": "die",
     "de_plural": "die Lebenserwartungen",
-    "lv": "esperanza de vida promedio",
+    "lv": "esperanza de vida",
     "level": "C1"
   },
   {
@@ -3037,7 +4279,7 @@ const C1_WORDS = [
   {
     "de": "Linksextremismus",
     "de_article": "der",
-    "lv": "extremismo de izquierda",
+    "lv": "extremismo de izquierdas",
     "level": "C1"
   },
   {
@@ -3058,7 +4300,7 @@ const C1_WORDS = [
     "de": "Magnetstreifen",
     "de_article": "der",
     "de_plural": "die Magnetstreifen",
-    "lv": "banda magnética (en una tarjeta de crédito)",
+    "lv": "banda magnética",
     "level": "C1"
   },
   {
@@ -3089,7 +4331,7 @@ const C1_WORDS = [
   },
   {
     "de": "menschenfeindlich",
-    "lv": "hostil a la gente",
+    "lv": "misántropo • inhumano",
     "level": "C1"
   },
   {
@@ -3101,7 +4343,7 @@ const C1_WORDS = [
     "de": "Nachschlagewerk",
     "de_article": "das",
     "de_plural": "die Nachschlagewerke",
-    "lv": "literatura de referencia • diccionario • enciclopedia",
+    "lv": "obra de consulta • obra de referencia",
     "level": "C1"
   },
   {
@@ -3208,7 +4450,7 @@ const C1_WORDS = [
   {
     "de": "Produktionskosten",
     "de_article": "die",
-    "lv": "costo de producción",
+    "lv": "costes de producción",
     "level": "C1"
   },
   {
@@ -3234,7 +4476,7 @@ const C1_WORDS = [
     "de": "Raumausstatter",
     "de_article": "der",
     "de_plural": "die Raumausstatter",
-    "lv": "un diseñador de interiores",
+    "lv": "decorador de interiores • tapicero",
     "level": "C1"
   },
   {
@@ -3252,7 +4494,7 @@ const C1_WORDS = [
     "de": "Regenbogenpresse",
     "de_article": "die",
     "de_plural": "die Regenbogenpressen",
-    "lv": "prensa sensacionalista",
+    "lv": "prensa del corazón • prensa rosa",
     "level": "C1"
   },
   {
@@ -3318,7 +4560,7 @@ const C1_WORDS = [
     "de": "Scheidungsgrund",
     "de_article": "der",
     "de_plural": "die Scheidungsgründe",
-    "lv": "motivo del divorcio",
+    "lv": "causa de divorcio • motivo de divorcio",
     "level": "C1"
   },
   {
@@ -3337,7 +4579,7 @@ const C1_WORDS = [
     "de": "Anklageschrift",
     "de_article": "die",
     "de_plural": "die Anklageschriften",
-    "lv": "acusación",
+    "lv": "escrito de acusación",
     "level": "C1"
   },
   {
@@ -3357,12 +4599,12 @@ const C1_WORDS = [
     "de": "Selbstverwaltung",
     "de_article": "die",
     "de_plural": "die Selbstverwaltungen",
-    "lv": "autogestión",
+    "lv": "autogobierno • autonomía administrativa",
     "level": "C1"
   },
   {
     "de": "selbstzufrieden",
-    "lv": "complacido consigo mismo",
+    "lv": "satisfecho de sí mismo • engreído",
     "level": "C1"
   },
   {
@@ -3462,25 +4704,25 @@ const C1_WORDS = [
     "de": "Studienbewerber",
     "de_article": "der",
     "de_plural": "die Studienbewerber",
-    "lv": "solicitante universitario",
+    "lv": "aspirante universitario • candidato a una plaza universitaria",
     "level": "C1"
   },
   {
     "de": "synchronisieren",
-    "lv": "sincronizar",
+    "lv": "doblar • sincronizar",
     "level": "C1"
   },
   {
     "de": "Tageseinnahmen",
     "de_article": "die",
-    "lv": "ganancias diarias",
+    "lv": "ingresos diarios • recaudación diaria",
     "level": "C1"
   },
   {
     "de": "Transfusion",
     "de_article": "die",
     "de_plural": "die Transfusionen",
-    "lv": "transfusión de sangre directa de una persona a otra",
+    "lv": "transfusión",
     "level": "C1"
   },
   {
@@ -3499,12 +4741,12 @@ const C1_WORDS = [
     "de": "Überbleibsel",
     "de_article": "das",
     "de_plural": "die Überbleibsel",
-    "lv": "excedente • restos",
+    "lv": "resto • vestigio",
     "level": "C1"
   },
   {
     "de": "übereinstimmen",
-    "lv": "estar de acuerdo • estar de acuerdo con alguien",
+    "lv": "coincidir • estar de acuerdo",
     "level": "C1"
   },
   {
@@ -3542,7 +4784,7 @@ const C1_WORDS = [
     "de": "Unterschätzung",
     "de_article": "die",
     "de_plural": "die Unterschätzungen",
-    "lv": "subestimación • subestimación",
+    "lv": "subestimación • infravaloración",
     "level": "C1"
   },
   {
@@ -3552,17 +4794,180 @@ const C1_WORDS = [
   },
   {
     "de": "verabschieden",
-    "lv": "despedir • jubilar",
-    "level": "C1"
+    "lv": "despedir • aprobar (una ley)",
+    "level": "C1",
+    "study": {
+      "id": "c1-verabschieden",
+      "layout": "standardStudy",
+      "translation": "despedir • aprobar (una ley)",
+      "explanation": [
+        "Idea principal: sich verabschieden significa despedirse de alguien: Ich verabschiede mich von dir. La persona de la que uno se despide se introduce con von + dativo.",
+        "Verbo reflexivo: ich verabschiede mich, er verabschiedet sich, verabschiedete sich, hat sich verabschiedet. Sin sich, verabschieden puede significar despedir a alguien (der Direktor wurde in den Ruhestand verabschiedet) o aprobar una ley (ein Gesetz verabschieden).",
+        "El sustantivo es die Verabschiedung (despedida, aprobación de una ley)."
+      ],
+      "examples": [
+        {
+          "de": "Ich verabschiede mich von meinen Kollegen.",
+          "lv": "Me despido de mis compañeros."
+        },
+        {
+          "de": "Sie verabschiedete sich und ging nach Hause.",
+          "lv": "Se despidió y se fue a casa."
+        },
+        {
+          "de": "Das Parlament hat das Gesetz verabschiedet.",
+          "lv": "El Parlamento ha aprobado la ley."
+        },
+        {
+          "de": "Der Direktor wurde nach dreißig Jahren in den Ruhestand verabschiedet.",
+          "lv": "Tras treinta años, despidieron al director con un acto solemne por su jubilación."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Abschied nehmen",
+          "meaning": "despedirse",
+          "example": "Er nahm Abschied von seiner Heimat. – Se despidió de su tierra."
+        },
+        {
+          "word": "beschließen",
+          "meaning": "decidir, aprobar",
+          "example": "Der Rat beschließt das Budget. – El consejo aprueba el presupuesto."
+        },
+        {
+          "word": "winken",
+          "meaning": "saludar con la mano",
+          "example": "Sie winkt zum Abschied. – Dice adiós con la mano."
+        }
+      ],
+      "tip": [
+        "Al despedirte en el día a día puedes decir: Ich verabschiede mich, tschüss! o Auf Wiedersehen!",
+        "Para decir de quién te despides, usa siempre von + dativo."
+      ],
+      "important": [
+        "Las leyes se aprueban (verabschieden) en el Parlamento; este no es el sentido cotidiano de despedirse."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sich verabschieden",
+            "verabschiede",
+            "verabschiedete",
+            "verabschiedet",
+            "von",
+            "Verabschiedung"
+          ],
+          "purple": [
+            "despedirse",
+            "aprobar una ley"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "verabschiede"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "despido"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedete"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "despidió"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "aprobado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "verabschiedet"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "despidieron"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "Abschied nehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "despedirse"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beschließen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "aprobar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "winken"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "saludar con la mano"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
+    }
   },
   {
     "de": "veränderlich",
-    "lv": "cambiable • cambiable",
+    "lv": "variable • cambiante",
     "level": "C1"
   },
   {
     "de": "veranschlagen",
-    "lv": "calcular • calcular • hacer una estimación",
+    "lv": "calcular • presupuestar • estimar",
     "level": "C1"
   },
   {
@@ -3574,14 +4979,14 @@ const C1_WORDS = [
     "de": "Verfallsdatum",
     "de_article": "das",
     "de_plural": "die Verfallsdaten",
-    "lv": "fecha de expiración",
+    "lv": "fecha de caducidad",
     "level": "C1"
   },
   {
     "de": "Verfassung",
     "de_article": "die",
     "de_plural": "die Verfassungen",
-    "lv": "constitución • constitución",
+    "lv": "constitución",
     "level": "C1"
   },
   {
@@ -3591,7 +4996,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich vergewissern",
-    "lv": "Cerciorarse",
+    "lv": "cerciorarse • asegurarse",
     "level": "C1"
   },
   {
@@ -3692,7 +5097,7 @@ const C1_WORDS = [
   },
   {
     "de": "verschweigen",
-    "lv": "retener • no revelar",
+    "lv": "callar • ocultar",
     "level": "C1"
   },
   {
@@ -3733,7 +5138,7 @@ const C1_WORDS = [
   },
   {
     "de": "vervielfältigen",
-    "lv": "multiplicar",
+    "lv": "reproducir • copiar • multiplicar",
     "level": "C1"
   },
   {
@@ -3769,12 +5174,12 @@ const C1_WORDS = [
     "de": "Vollversammlung",
     "de_article": "die",
     "de_plural": "die Vollversammlungen",
-    "lv": "pleno • asamblea general • asamblea general",
+    "lv": "pleno • asamblea general",
     "level": "C1"
   },
   {
     "de": "voreingenommen",
-    "lv": "parcializado • parcializado",
+    "lv": "parcial • lleno de prejuicios",
     "level": "C1"
   },
   {
@@ -3798,72 +5203,93 @@ const C1_WORDS = [
   },
   {
     "de": "wahlberechtigt",
-    "lv": "aquel que tiene derecho a votar",
+    "lv": "con derecho a voto",
     "level": "C1",
     "study": {
       "id": "c1-wahlberechtigt",
       "layout": "standardStudy",
-      "translation": "aquel que tiene derecho a votar",
-      "explanation": "Idea principal: wahlberechtig es un adjetivo que significa que una persona tiene derecho a participar en una elección: votar o presentarse a las elecciones. Compuesto: Wahl (elección) + behrechtig (titulado).",
+      "translation": "con derecho a voto",
+      "explanation": [
+        "Idea principal: wahlberechtigt es un adjetivo que describe a una persona con derecho a voto, es decir, que puede participar en unas elecciones y votar.",
+        "Como los demás adjetivos, se declina: wahlberechtigte Bürger. A partir del adjetivo se forma un sustantivo: der/die Wahlberechtigte, die Wahlberechtigten (el elector, la electora).",
+        "La palabra se compone de die Wahl (elecciones) y berechtigt (con derecho)."
+      ],
       "examples": [
         {
-          "de": "Alle wahlberechtigten Bürger können wählen.",
-          "lv": "todos los votantes elegibles pueden votar."
+          "de": "Alle Bürger ab 18 Jahren sind wahlberechtigt.",
+          "lv": "Todos los ciudadanos mayores de 18 años tienen derecho a voto."
         },
         {
-          "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "A partir de los 18 años tienen derecho a votar."
+          "de": "Nur wahlberechtigte Personen dürfen abstimmen.",
+          "lv": "Solo pueden votar las personas con derecho a voto."
         },
         {
-          "de": "Nicht alle Einwohner sind wahlberechtigt.",
-          "lv": "No todos los ciudadanos tienen derecho a votar."
+          "de": "Wer ist in dieser Stadt wahlberechtigt?",
+          "lv": "¿Quién tiene derecho a voto en esta ciudad?"
+        },
+        {
+          "de": "Die Zahl der Wahlberechtigten ist gestiegen.",
+          "lv": "El número de electores ha aumentado."
         }
       ],
       "comparison": [
         {
-          "word": "wahlberechtigt",
-          "meaning": "con derecho a votar",
-          "example": "Er ist wahlberechtigt. = Tiene derecho a votar."
+          "word": "das Wahlrecht",
+          "meaning": "derecho de voto, sufragio",
+          "example": "Das Wahlrecht ist ein Grundrecht. – El derecho de voto es un derecho fundamental."
         },
         {
-          "word": "wählen",
-          "meaning": "tener derecho a votar",
-          "example": "Ich wähle heute. = Es šodien balsoju."
+          "word": "wählbar",
+          "meaning": "elegible",
+          "example": "Er ist wählbar. – Es elegible."
         },
         {
-          "word": "der Wähler",
-          "meaning": "votante",
-          "example": "Der Wähler geht zur Wahl. = El votante va a votar."
+          "word": "stimmberechtigt",
+          "meaning": "con derecho a voto (en una votación)",
+          "example": "Alle Mitglieder sind stimmberechtigt. – Todos los socios tienen derecho a voto."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Wahl = elección, berechtigt = con derecho. Común en prensa y textos legales."
-          }
-        ]
-      },
-      "important": {
-        "text": "wahlberechtigt = con derecho a voto. Lo contrario: nicht wahlberechtigt."
-      },
+      "tip": [
+        "Distingue: wahlberechtigt (puede votar) y wählbar (puede ser elegido).",
+        "En cifras se usa: die Zahl der Wahlberechtigten, el número de electores."
+      ],
+      "important": [
+        "Wahlberechtigt no significa que la persona vote: es solo un derecho, no una acción."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "wahlberechtig",
-            "Wahl",
-            "behrechtig"
+            "wahlberechtigt",
+            "wahlberechtigte",
+            "Wahlberechtigten"
+          ],
+          "purple": [
+            "derecho a voto",
+            "elector"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "wahlberechtigten"
+                "wahlberechtigt"
               ]
             },
             "lv": {
               "purple": [
-                "todos"
+                "derecho a voto"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "wahlberechtigte"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "derecho a voto"
               ]
             }
           },
@@ -3875,29 +5301,74 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "partir"
+                "derecho a voto"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "wahlberechtigt"
+                "Wahlberechtigten"
               ]
             },
             "lv": {
               "purple": [
-                "todos"
+                "electores"
               ]
             }
           }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "das Wahlrecht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sufragio"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wählbar"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "elegible"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "stimmberechtigt"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "derecho a voto"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
         ]
       }
     }
   },
   {
     "de": "wahrhaft",
-    "lv": "realmente • realmente",
+    "lv": "verdadero • verdaderamente",
     "level": "C1"
   },
   {
@@ -3944,7 +5415,7 @@ const C1_WORDS = [
     "de": "Weidenkätzchen",
     "de_article": "das",
     "de_plural": "die Weidenkätzchen",
-    "lv": "sauce cabruno",
+    "lv": "amento de sauce • candelilla",
     "level": "C1"
   },
   {
@@ -3957,7 +5428,7 @@ const C1_WORDS = [
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "lv": "resplandor de tormenta",
+    "lv": "relámpago lejano • fucilazo",
     "level": "C1"
   },
   {
@@ -3967,7 +5438,7 @@ const C1_WORDS = [
   },
   {
     "de": "wiederherstellen",
-    "lv": "restaurar • restaurar",
+    "lv": "restablecer • restaurar",
     "level": "C1"
   },
   {
@@ -3984,53 +5455,68 @@ const C1_WORDS = [
     "de": "Zuschlag",
     "de_article": "der",
     "de_plural": "die Zuschläge",
-    "lv": "prima • margen de beneficio",
+    "lv": "suplemento • recargo",
     "level": "C1",
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "recargo • suplemento",
+      "translation": "suplemento • recargo",
       "explanation": [
-        "Idea principal: der Zuschlag significa una prima o margen: una cantidad adicional agregada al precio base.",
-        "En el contexto de viajes/transporte, der Zuschlag es un cargo adicional por un tren más rápido, un mejor asiento, etc.",
-        "No confundir con der Anhang/die Beilage (el anexo del documento), que es una palabra diferente.",
-        "En las subastas, den Zuschlag erhalten significa ganar la subasta/recibir el pedido."
+        "Idea principal: der Zuschlag es una cantidad que se añade al importe básico: un suplemento o recargo, por ejemplo por trabajo nocturno, por un tren rápido o por un servicio adicional.",
+        "Sustantivo masculino: der Zuschlag, plural die Zuschläge (con diéresis). Otro significado importante aparece en subastas y concursos: den Zuschlag erhalten, ganar, ser el adjudicatario.",
+        "Forma a menudo compuestos: Nachtzuschlag, Zugzuschlag, Gefahrenzuschlag."
       ],
       "examples": [
         {
-          "de": "Für den ICE muss man einen Zuschlag zahlen.",
-          "lv": "Hay un recargo por el tren ICE."
+          "de": "Für Nachtarbeit gibt es einen Zuschlag.",
+          "lv": "Por el trabajo nocturno se cobra un plus."
         },
         {
-          "de": "Der Zuschlag für die Nachtschicht beträgt 20%.",
-          "lv": "El recargo por turno de noche es del 20%."
+          "de": "Im Zug musste ich einen Zuschlag bezahlen.",
+          "lv": "En el tren tuve que pagar un suplemento."
         },
         {
-          "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "recibió la adjudicación (en la subasta)."
+          "de": "Die Firma erhielt den Zuschlag für den Bau.",
+          "lv": "La empresa obtuvo la adjudicación de la obra."
         },
         {
-          "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "Hay un recargo por exceso de equipaje."
+          "de": "Das Hotel verlangt einen Zuschlag für Haustiere.",
+          "lv": "El hotel cobra un suplemento por las mascotas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Aufpreis",
+          "meaning": "sobreprecio, recargo",
+          "example": "Für Leder zahlt man einen Aufpreis. – Por la piel se paga un recargo."
         },
         {
-          "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "El precio es sin recargos."
+          "word": "die Gebühr",
+          "meaning": "tasa",
+          "example": "Die Gebühr beträgt zehn Euro. – La tasa es de diez euros."
+        },
+        {
+          "word": "der Rabatt",
+          "meaning": "descuento",
+          "example": "Sie bekommen einen Rabatt. – Usted obtiene un descuento."
         }
       ],
       "tip": [
-        "der Zuschlag = piemaksa/uzcenojums (papildu maksa), ne dokumenta pielikums.",
-        "den Zuschlag erhalten (en las subastas) = ​​ganar la subasta/recibir el pedido."
+        "Recuerda los dos usos: einen Zuschlag bezahlen (pagar un suplemento) y den Zuschlag erhalten (ser el elegido en una subasta o un concurso).",
+        "Lo contrario: Zuschlag (se suma) y Abschlag (se resta)."
       ],
       "important": [
-        "der Zuschlag = piemaksa/uzcenojums, ne 'pielikums' dokumentam.",
-        "El anexo del documento en alemán es die Anlage/der Anhang."
+        "En plural se dice die Zuschläge, no die Zuschlägen."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "Zuschlag",
+            "Zuschläge"
+          ],
           "purple": [
-            "Idea",
-            "Idea"
+            "suplemento",
+            "recargo"
           ]
         },
         "examples": [
@@ -4042,7 +5528,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hay"
+                "plus"
               ]
             }
           },
@@ -4054,130 +5540,249 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "recargo"
+                "suplemento"
               ]
             }
           },
           {
             "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "adjudicación"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Zuschlag"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "suplemento"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
               "green": [
-                "Zuschlag"
+                "der Aufpreis"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "recibió"
+                "sobreprecio"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschlag"
+            "word": {
+              "green": [
+                "die Gebühr"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "hay"
+                "tasa"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "Zuschläge"
+            "word": {
+              "green": [
+                "der Rabatt"
               ]
             },
-            "lv": {
+            "meaning": {
               "purple": [
-                "recargos"
+                "descuento"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "piemaksa",
-              "uzcenojums"
-            ]
-          },
-          {
-            "green": [
-              "den Zuschlag erhalten"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "piemaksa",
-              "uzcenojums"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "beziehen / sich beziehen auf",
-    "lv": "aplicar • aplicar a",
+    "lv": "relacionar con • referirse a",
     "level": "C1",
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "obtener • referirse a",
+      "translation": "relacionar con • referirse a",
       "explanation": [
-        "Idea principal: Registro formal: atribuir a la fuente, recibo regular de pensión/salario o mudanza a un apartamento.",
-        "Los ejemplos buscan el uso diario típico.",
-        "En caso de duda, compruebe si se trata de un estado o una acción.",
-        "El contexto y el curso de acción determinan la elección correcta."
+        "Idea principal: etwas auf etwas beziehen significa relacionar algo con algo o con alguien, aplicárselo; sich auf etwas beziehen significa referirse a algo o remitirse a ello.",
+        "Formas: bezieht, bezog, hat bezogen. En ambas construcciones sigue auf + acusativo: etwas auf sich beziehen (tomárselo como algo personal), sich auf einen Text beziehen (referirse a un texto).",
+        "Además, beziehen puede significar poner la ropa de cama (das Bett beziehen), instalarse en una vivienda (eine Wohnung beziehen) y percibir regularmente (ein Gehalt beziehen)."
       ],
       "examples": [
         {
-          "de": "beziehen / sich beziehen auf.",
-          "lv": "obtener • referirse a"
+          "de": "Du darfst das nicht auf dich beziehen.",
+          "lv": "No tienes que tomártelo como algo personal."
+        },
+        {
+          "de": "Meine Frage bezieht sich auf den letzten Absatz.",
+          "lv": "Mi pregunta se refiere al último párrafo."
+        },
+        {
+          "de": "Er bezieht sich in seinem Brief auf unser Gespräch.",
+          "lv": "En su carta hace referencia a nuestra conversación."
+        },
+        {
+          "de": "Sie bezog die Aussage auf ihren Bruder.",
+          "lv": "Ella relacionó la afirmación con su hermano."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "betreffen",
+          "meaning": "afectar, concernir",
+          "example": "Das betrifft uns alle. – Esto nos afecta a todos."
+        },
+        {
+          "word": "verweisen auf",
+          "meaning": "remitir a",
+          "example": "Er verweist auf das Gesetz. – Remite a la ley."
+        },
+        {
+          "word": "sich handeln um",
+          "meaning": "tratarse de",
+          "example": "Es handelt sich um einen Fehler. – Se trata de un error."
         }
       ],
       "tip": [
-        "Registro formal: atribuir a la fuente, recibo regular de pensión/salario o mudanza a un apartamento.",
-        "Utilice beziehen / sich beziehen auf cuando el contexto se ajuste a este significado."
+        "Recuerda: sich beziehen auf + acusativo. La preposición es siempre auf.",
+        "Para decir tomarse algo como algo personal: etwas auf sich beziehen."
       ],
       "important": [
-        "Registro formal: atribuir a la fuente, recibo regular de pensión/salario o mudanza a un apartamento.",
-        "beziehen / sich beziehen auf: antes de usar, verifique el contexto y compárelo con otras palabras de la tarjeta."
+        "Beziehen es una palabra polisémica: el contexto decide si se habla de relacionar algo, de la cama o del sueldo.",
+        "Betreffen es transitivo, sin preposición: Das betrifft mich."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "beziehen",
+            "sich beziehen",
+            "bezieht",
+            "bezog",
+            "bezogen",
+            "auf"
+          ],
           "purple": [
-            "atribuir"
+            "relacionar",
+            "referirse a",
+            "remitirse"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "beziehen / sich beziehen auf",
-                "beziehen / sich beziehen auf"
+                "beziehen"
               ]
             },
             "lv": {
               "purple": [
-                "aplicar",
-                "aplicar"
+                "tomártelo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se refiere"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezieht"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "hace referencia"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "bezog"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "relacionó"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "betreffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "afectar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "verweisen auf"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "remitir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sich handeln um"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "tratarse de"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "atribuir"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
+          {},
           {}
         ]
       }
@@ -4192,179 +5797,232 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "tener la intención • planear",
       "explanation": [
-        "Idea principal: Intención consciente de realizar una acción en el futuro. No sobre la relación, sino sobre el plan.",
-        "beabsichtigen significa principalmente: intención consciente.",
-        "A menudo se caracteriza por: plan/intención.",
-        "beabsichtigen significa básicamente: planificar una acción.",
-        "A menudo se caracteriza por: registro oficial.",
-        "beabsichtigen significa intentar o planificar deliberadamente una acción, no una relación, sino una intención."
+        "Idea principal: beabsichtigen significa tener la intención de hacer algo, proponérselo o planear; es un propósito consciente. Suena más formal que vorhaben.",
+        "Verbo regular: er beabsichtigt, beabsichtigte, hat beabsichtigt. Le sigue o bien un acusativo (etwas beabsichtigen), o bien un infinitivo con zu: Ich beabsichtige, im Herbst umzuziehen. El sustantivo es die Absicht (intención).",
+        "El participio beabsichtigt se usa como adjetivo: eine beabsichtigte Wirkung (un efecto buscado)."
       ],
       "examples": [
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Tenía la intención de terminar el proyecto."
+          "de": "Ich beabsichtige, im Herbst umzuziehen.",
+          "lv": "Tengo la intención de mudarme en otoño."
         },
         {
-          "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "¿Qué pretendes conseguir con este evento?"
+          "de": "Die Firma beabsichtigt, ein neues Werk zu bauen.",
+          "lv": "La empresa planea construir una nueva fábrica."
         },
         {
-          "de": "Wir beabsichtigen keine Änderung.",
-          "lv": "No estamos planeando un cambio."
+          "de": "Das war nicht beabsichtigt.",
+          "lv": "Eso no fue intencionado."
         },
         {
-          "de": "Er beabsichtigt, das Projekt zu beenden.",
-          "lv": "Tenía la intención de terminar el proyecto."
+          "de": "Was beabsichtigst du damit?",
+          "lv": "¿Qué pretendes con eso?"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorhaben",
+          "meaning": "tener previsto",
+          "example": "Ich habe vor, morgen zu kommen. – Tengo previsto venir mañana."
         },
         {
-          "de": "beabsichtigen + zu + nenoteiksme",
-          "lv": "pretender hacer algo."
+          "word": "planen",
+          "meaning": "planear",
+          "example": "Wir planen eine Reise. – Planeamos un viaje."
+        },
+        {
+          "word": "wollen",
+          "meaning": "querer",
+          "example": "Ich will schlafen. – Quiero dormir."
         }
       ],
       "tip": [
-        "Cuando se trata de relaciones, fuentes o recibos regulares, beziehen. Si se trata de un plan deliberado, beabsichtigen.",
-        "beabsichtigen = pensar"
+        "Después de beabsichtigen lo más frecuente es zu + infinitivo, separado por coma: …, zu bauen.",
+        "En el día a día también puedes decir vorhaben o planen; beabsichtigen es más formal."
       ],
       "important": [
-        "beabsichtigen + zu + nenoteiksme: Er beabsichtigt zu gehen.",
-        "beabsichtigen no puede ser reemplazado por beziehen: es una intención, no una relación.",
-        "beabsichtigen → intención, plan.",
-        "Intención consciente de realizar una acción en el futuro. No sobre la relación, sino sobre el plan."
+        "El participio es beabsichtigt (sin ge-), porque el prefijo be- es inseparable."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "beabsichtigen",
+            "beabsichtigt",
+            "beabsichtigte",
+            "vorhaben",
+            "Absicht"
+          ],
           "purple": [
-            "Idea",
-            "Idea"
+            "tener la intención",
+            "planear",
+            "intención"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
+                "beabsichtige"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "intención"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "Tenía"
+                "planea"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "¿Qué"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "beabsichtigt"
               ]
             },
             "lv": {
               "purple": [
-                "Tenía"
+                "intencionado"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "beabsichtigen",
-                "beabsichtigen"
+              "blue": [
+                "beabsichtigst"
               ]
             },
             "lv": {
               "purple": [
-                "pretender"
+                "pretendes"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorhaben"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "previsto"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "planen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "planear"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "wollen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "querer"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "pensar"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "beabsichtigen"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "unterstellen",
-    "lv": "culpar • imputar sin fundamento",
+    "lv": "imputar • atribuir sin fundamento",
     "level": "C1",
     "study": {
       "id": "c1-unterstellen",
       "layout": "standardStudy",
-      "translation": "culpar • imputar sin fundamento",
+      "translation": "imputar • atribuir sin fundamento",
       "explanation": [
-        "Idea principal: Atribuir injustificadamente culpa, motivo o intención a otro.",
-        "unterstellen significa principalmente: atribuir sin fundamento.",
-        "A menudo se caracteriza por: acusación/atracción.",
-        "jemandem etwas unterstellen significa imputar o culpar injustamente."
+        "Idea principal: jemandem etwas unterstellen significa atribuir o imputar a alguien algo (una intención, unas palabras, un acto malintencionado), a menudo sin pruebas. Segundo significado: subordinar: Die Abteilung ist dem Direktor unterstellt.",
+        "Es un verbo inseparable, con el acento en -stell-: er unterstellt, unterstellte, hat unterstellt. Construcción: jemandem etwas unterstellen (¿a quién? ¿qué?). Si el acento recae en unter-, se trata de otro verbo, con prefijo separable: Ich stelle das Auto unter, dejar el coche a cubierto; sich unterstellen, resguardarse.",
+        "En este sentido la palabra expresa sospecha o un reproche infundado, por eso suena dura."
       ],
       "examples": [
         {
-          "de": "Man unterstellt mir schlechte Absichten.",
-          "lv": "Me acusan de malas intenciones."
+          "de": "Er unterstellt mir böse Absichten.",
+          "lv": "Me atribuye malas intenciones."
         },
         {
-          "de": "Unterstellen Sie mir nichts!",
-          "lv": "¡No me atribuyas cosas sin fundamento!"
+          "de": "Das unterstelle ich dir nicht.",
+          "lv": "Yo no te atribuyo eso."
         },
         {
-          "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "Nadie debería ser acusado injustamente de traición."
+          "de": "Man unterstellte ihr, dass sie gelogen habe.",
+          "lv": "Le imputaron haber mentido."
         },
         {
-          "de": "Ihm wird Untreue unterstellt.",
-          "lv": "Se le atribuye desconfianza."
+          "de": "Die Abteilung ist direkt dem Direktor unterstellt.",
+          "lv": "El departamento depende directamente del director."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "vorwerfen",
+          "meaning": "reprochar",
+          "example": "Er wirft mir Faulheit vor. – Me reprocha mi pereza."
         },
         {
-          "de": "unterstellen",
-          "lv": "imputar sin fundamento; presuponer"
+          "word": "beschuldigen",
+          "meaning": "acusar",
+          "example": "Sie beschuldigt ihn des Diebstahls. – Lo acusa de robo."
+        },
+        {
+          "word": "behaupten",
+          "meaning": "afirmar",
+          "example": "Er behauptet, krank zu sein. – Afirma que está enfermo."
         }
       ],
       "tip": [
-        "unterstellen = reprochar",
-        "Utiliza unterstellen cuando el contexto se adapta a este significado."
+        "Recuerda: unterstellen = atribuir algo negativo, a menudo sin fundamento.",
+        "Con unterstellen la persona va en dativo: Er unterstellt mir …"
       ],
       "important": [
-        "unterstellen es emocionalmente negativo: una acusación injustificada.",
-        "Nepareizi: Wir unterstellen Grundkenntnisse. → Pareizi: Wir setzen Grundkenntnisse voraus.",
-        "unterstellen → culpa, atributo."
+        "El unterstellen inseparable (atribuir, subordinar) no es lo mismo que el unterstellen con prefijo separable (dejar a cubierto, resguardarse)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "unterstellen",
+            "unterstellt",
+            "unterstellte"
+          ],
           "purple": [
-            "culpa"
+            "atribuir",
+            "imputar",
+            "subordinar",
+            "reproche"
           ]
         },
         "examples": [
@@ -4376,29 +6034,26 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "acusan"
+                "atribuye"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstelle"
               ]
-            },
-            "lv": {}
+            }
           },
           {
             "de": {
               "blue": [
-                "unterstellen",
-                "unterstellen"
+                "unterstellte"
               ]
             },
             "lv": {
               "purple": [
-                "nadie"
+                "imputaron"
               ]
             }
           },
@@ -4410,96 +6065,223 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "acusa"
+                "depende"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "vorwerfen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "reprochar"
               ]
             }
           },
           {
-            "de": {
-              "blue": [
-                "unterstellen",
-                "unterstellen"
+            "word": {
+              "green": [
+                "beschuldigen"
               ]
             },
-            "lv": {}
+            "meaning": {
+              "purple": [
+                "acusar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behaupten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "afirmar"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "unterstellen"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
-          {
-            "blue": [
-              "unterstellen"
-            ]
-          }
+          {}
         ]
       }
     }
   },
   {
     "de": "voraussetzen",
-    "lv": "tomar como requisito previo",
+    "lv": "presuponer • dar por sentado",
     "level": "C1",
     "study": {
       "id": "c1-voraussetzen",
       "layout": "standardStudy",
-      "translation": "tomar como requisito previo",
+      "translation": "presuponer • dar por sentado",
       "explanation": [
-        "Idea principal: Asumir que algo ya se sabe o existe como base.",
-        "Voraussetzen significa principalmente: considerar como base.",
-        "A menudo se caracteriza por: una premisa lógica.",
-        "etwas voraussetzen significa dar por sentado un presupuesto que ya existe."
+        "Idea principal: voraussetzen significa presuponer, dar por sentado algo como conocido o evidente, o bien exigir algo como requisito previo: Der Kurs setzt gute Kenntnisse voraus.",
+        "Verbo con prefijo separable: er setzt voraus, setzte voraus, hat vorausgesetzt. Lo que se presupone va en acusativo. El sustantivo es die Voraussetzung (requisito, condición previa).",
+        "El participio vorausgesetzt, seguido de coma, significa siempre que, a condición de que: Vorausgesetzt, es regnet nicht, grillen wir."
       ],
       "examples": [
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Aceptamos conocimientos básicos como requisito previo."
+          "de": "Der Kurs setzt gute Deutschkenntnisse voraus.",
+          "lv": "El curso requiere buenos conocimientos de alemán."
         },
         {
-          "de": "Wir setzen Grundkenntnisse voraus.",
-          "lv": "Aceptamos conocimientos básicos como requisito previo."
+          "de": "Ich habe vorausgesetzt, dass du Bescheid weißt.",
+          "lv": "Di por sentado que estabas al tanto."
+        },
+        {
+          "de": "Diese Stelle setzt ein Studium voraus.",
+          "lv": "Para este puesto se requieren estudios universitarios."
+        },
+        {
+          "de": "Vorausgesetzt, es regnet nicht, grillen wir.",
+          "lv": "Siempre que no llueva, haremos una barbacoa."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erfordern",
+          "meaning": "requerir, exigir",
+          "example": "Die Aufgabe erfordert Geduld. – La tarea requiere paciencia."
+        },
+        {
+          "word": "annehmen",
+          "meaning": "suponer",
+          "example": "Ich nehme an, dass er kommt. – Supongo que vendrá."
+        },
+        {
+          "word": "die Voraussetzung",
+          "meaning": "requisito",
+          "example": "Das ist keine Voraussetzung. – Eso no es un requisito."
         }
       ],
       "tip": [
-        "voraussetzen = asumir un requisito previo",
-        "Utilice voraussetzen cuando el contexto se ajuste a este significado."
+        "Recuerda la separación: Das setzt Mühe voraus, pero …, weil das Mühe voraussetzt.",
+        "Combinación frecuente: etwas als bekannt voraussetzen."
       ],
       "important": [
-        "voraussetzen es neutro: una preposición.",
-        "voraussetzen → tomar como base.",
-        "Suponer que algo ya se sabe o existe como base."
+        "El participio es vorausgesetzt: el ge- se coloca entre voraus y setzt."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "voraussetzen",
+            "setzt voraus",
+            "setzte voraus",
+            "vorausgesetzt",
+            "Voraussetzung"
+          ],
           "purple": [
-            "Idea"
+            "presuponer",
+            "dar por sentado",
+            "requisito"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "requiere"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Di por sentado"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "setzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "se requieren"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Vorausgesetzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Siempre que"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erfordern"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "requerir"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "annehmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "suponer"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Voraussetzung"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "requisito"
+              ]
+            }
           }
         ],
         "tip": [
+          {},
           {}
         ],
         "important": [
-          {
-            "green": [
-              "voraussetzen"
-            ]
-          }
+          {}
         ]
       }
     }
@@ -4513,112 +6295,164 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "proteger • preservar",
       "explanation": [
-        "Idea principal: Proteger de pérdidas, daños o destrucción: valor, tradición, paz.",
-        "bewahren significa principalmente: proteger de la pérdida.",
-        "A menudo se caracteriza por: preservación de valores.",
-        "bewahren significa preservar de daño, pérdida o alteración."
+        "Idea principal: bewahren significa proteger de algo malo (jemanden vor etwas bewahren) y preservar o conservar algo valioso o sin cambios (Ruhe, Traditionen, Erinnerungen).",
+        "Verbo regular: er bewahrt, bewahrte, hat bewahrt. Proteger: bewahren vor + dativo (¿a quién? ¿de qué?). Conservar: acusativo, como en die Ruhe bewahren. Guardar un secreto: ein Geheimnis bewahren.",
+        "La palabra es de un registro más elevado que behalten (quedarse con algo) o aufheben (guardar)."
       ],
       "examples": [
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Mantenemos las tradiciones."
+          "de": "Bitte bewahren Sie Ruhe!",
+          "lv": "¡Por favor, mantengan la calma!"
         },
         {
-          "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "Mantienen la calma en una crisis."
+          "de": "Der Helm hat ihn vor Schlimmerem bewahrt.",
+          "lv": "El casco lo libró de algo peor."
         },
         {
-          "de": "Wir bewahren die Traditionen.",
-          "lv": "Mantenemos las tradiciones."
+          "de": "Er bewahrte das Geheimnis jahrelang.",
+          "lv": "Guardó el secreto durante años."
         },
         {
-          "de": "bewahren",
-          "lv": "proteger o preservar"
+          "de": "Wir wollen diese Tradition bewahren.",
+          "lv": "Queremos conservar esta tradición."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "aufbewahren",
+          "meaning": "guardar",
+          "example": "Bewahre die Quittung auf! – ¡Guarda el recibo!"
+        },
+        {
+          "word": "schützen",
+          "meaning": "proteger",
+          "example": "Der Zaun schützt vor dem Wind. – La valla protege del viento."
+        },
+        {
+          "word": "behalten",
+          "meaning": "quedarse con",
+          "example": "Du kannst das Buch behalten. – Puedes quedarte con el libro."
         }
       ],
       "tip": [
-        "bewahren = proteger",
-        "Utilice bewahren cuando el contexto se ajuste a este significado."
+        "Memoriza la frase hecha: Ruhe bewahren, mantener la calma.",
+        "Proteger de algo: bewahren vor + dativo (vor Schaden, vor Gefahr)."
       ],
       "important": [
-        "bewahren: Wertvolles bewahren - proteger lo valioso.",
-        "Nepareizi: Wir bewahren den Frieden auf. → Pareizi: Wir erhalten den Frieden auf.",
-        "bewahren → proteger, preservar."
+        "Bewahren no es lo mismo que aufbewahren: este se refiere a guardar algo físicamente; bewahren, a conservar o proteger.",
+        "El participio es bewahrt (sin ge-)."
       ],
       "sectionAccents": {
         "explanation": {
+          "blue": [
+            "bewahren",
+            "bewahrt",
+            "bewahrte",
+            "behalten",
+            "vor",
+            "Ruhe bewahren"
+          ],
           "purple": [
-            "proteger"
+            "proteger",
+            "preservar",
+            "Guardar"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
               "purple": [
-                "Mantenemos"
+                "mantengan"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrt"
               ]
             },
             "lv": {
               "purple": [
-                "mantienen"
+                "libró"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
-                "bewahren"
+                "bewahrte"
               ]
             },
             "lv": {
               "purple": [
-                "Mantenemos"
+                "Guardó"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "bewahren",
                 "bewahren"
               ]
             },
             "lv": {
+              "purple": [
+                "conservar"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "aufbewahren"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "guardar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schützen"
+              ]
+            },
+            "meaning": {
               "purple": [
                 "proteger"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "behalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "quedarse con"
               ]
             }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "proteger"
-            ]
-          },
+          {},
           {}
         ],
         "important": [
-          {
-            "blue": [
-              "bewahren"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -4632,72 +6466,159 @@ const C1_WORDS = [
       "layout": "standardStudy",
       "translation": "mantener en vigor",
       "explanation": [
-        "Idea principal: Garantizar que un estado, orden o relación seguirá existiendo.",
-        "aufrechterhalten significa principalmente: asegurar la continuación.",
-        "A menudo se caracteriza por: mantenimiento de la condición.",
-        "aufrechterhalten significa mantener vigente un estado, sistema o relación, asegurar la continuidad."
+        "Idea principal: aufrechterhalten significa mantener, no dejar que algo se pierda: conservar algo en vigor o en funcionamiento (el orden, el contacto, una afirmación, una oferta).",
+        "Verbo con prefijo separable: er hält aufrecht, hielt aufrecht, hat aufrechterhalten. Lo que se mantiene va en acusativo. Con infinitivo con zu: aufrechtzuerhalten.",
+        "Muy frecuente con Ordnung, Kontakt, Verbindung, Behauptung, Forderung."
       ],
       "examples": [
         {
-          "de": "Der Staat erhält die Ordnung auf.",
+          "de": "Der Staat hält die Ordnung aufrecht.",
           "lv": "El Estado mantiene el orden."
         },
         {
-          "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "Deberá mantener vigente la acción."
+          "de": "Sie haben den Kontakt über Jahre aufrechterhalten.",
+          "lv": "Han mantenido el contacto durante años."
         },
         {
-          "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "El Estado mantiene el orden."
+          "de": "Wir können dieses Angebot nicht länger aufrechterhalten.",
+          "lv": "No podemos mantener esta oferta por más tiempo."
+        },
+        {
+          "de": "Er hielt seine Behauptung aufrecht.",
+          "lv": "Se mantuvo en su afirmación."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "erhalten",
+          "meaning": "conservar",
+          "example": "Wir erhalten das Gebäude. – Conservamos el edificio."
+        },
+        {
+          "word": "beibehalten",
+          "meaning": "mantener sin cambios",
+          "example": "Wir behalten den Plan bei. – Mantenemos el plan."
+        },
+        {
+          "word": "pflegen",
+          "meaning": "cultivar, cuidar",
+          "example": "Sie pflegt Kontakte. – Cultiva sus contactos."
         }
       ],
       "tip": [
-        "aufrechterhalten = mantener en vigor",
-        "Utilice aufrechterhalten cuando el contexto se ajuste a este significado."
+        "Recuerda la separación: Er hält die Ordnung aufrecht, pero …, dass er die Ordnung aufrechterhält.",
+        "Para el contacto se dice: den Kontakt aufrechterhalten (o pflegen)."
       ],
       "important": [
-        "aufrechterhalten: Ordnung/Frieden/Stabilität aufrechterhalten.",
-        "aufrechterhalten → mantener en vigor.",
-        "Para garantizar que un estado, orden o relación seguirá existiendo."
+        "En perfecto, aufrechterhalten es una sola palabra, sin ge- añadido: hat aufrechterhalten."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "aufrechterhalten"
+          "blue": [
+            "aufrechterhalten",
+            "hält aufrecht",
+            "hielt aufrecht",
+            "aufrechtzuerhalten"
+          ],
+          "purple": [
+            "mantener",
+            "conservar"
           ]
         },
         "examples": [
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "hält"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantiene"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
-                "aufrechterhalten",
+              "blue": [
                 "aufrechterhalten"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "mantenido"
+              ]
+            }
           },
           {
-            "de": {},
-            "lv": {}
+            "de": {
+              "blue": [
+                "aufrechterhalten"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "mantener"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hielt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Se mantuvo"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "erhalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "conservar"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "beibehalten"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sin cambios"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "pflegen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "cultivar"
+              ]
+            }
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "mantener en vigor"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "aufrechterhalten"
-            ]
-          }
+          {}
         ]
       }
     }

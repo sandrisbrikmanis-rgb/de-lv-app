@@ -45,7 +45,7 @@ const C2_WORDS = [
   {
     "de": "Sorgfaltspflicht",
     "de_article": "die",
-    "lv": "deber de cuidado",
+    "lv": "deber de diligencia",
     "level": "C2"
   },
   {
@@ -116,7 +116,7 @@ const C2_WORDS = [
     "de": "Mitgliedsbeitrag",
     "de_article": "der",
     "de_plural": "die Mitgliedsbeiträge",
-    "lv": "cuota de membresía",
+    "lv": "cuota de socio",
     "level": "C2"
   },
   {
@@ -128,14 +128,14 @@ const C2_WORDS = [
     "de": "Benzingutschein",
     "de_article": "der",
     "de_plural": "die Benzingutscheine",
-    "lv": "cupón de gasolina",
+    "lv": "vale de gasolina",
     "level": "C2"
   },
   {
     "de": "Benzinkanister",
     "de_article": "der",
     "de_plural": "die Benzinkanister",
-    "lv": "lata de gasolina",
+    "lv": "bidón de gasolina",
     "level": "C2"
   },
   {
@@ -149,7 +149,7 @@ const C2_WORDS = [
     "de": "Bequemlichkeit",
     "de_article": "die",
     "de_plural": "die Bequemlichkeiten",
-    "lv": "conveniencia",
+    "lv": "comodidad",
     "level": "C2"
   },
   {
@@ -181,21 +181,147 @@ const C2_WORDS = [
       "id": "c2-gewichtseinheit",
       "layout": "standardStudy",
       "translation": "unidad de peso",
-      "explanation": "Idea principal: die Gewichtseinheit significa unidad de peso. Se utiliza cuando se habla de kilogramos, gramos, toneladas y otras unidades de peso/masa.",
+      "explanation": [
+        "Idea principal: die Gewichtseinheit es una unidad de peso, es decir, la que se utiliza para medir el peso: gramo, kilogramo, tonelada, libra.",
+        "Compuesto femenino: die Gewichtseinheit, plural die Gewichtseinheiten. Se forma con das Gewicht (peso) y die Einheit (unidad).",
+        "El compuesto es técnico y neutro; en el día a día se usan las unidades concretas (Kilogramm, Gramm, Pfund)."
+      ],
       "examples": [
         {
-          "de": "Kilogramm ist eine Gewichtseinheit.",
+          "de": "Das Kilogramm ist eine Gewichtseinheit.",
           "lv": "El kilogramo es una unidad de peso."
         },
         {
-          "de": "Welche Gewichtseinheit soll ich benutzen?",
-          "lv": "¿Qué unidad de peso debo usar?"
+          "de": "Das Pfund ist eine alte Gewichtseinheit.",
+          "lv": "La libra es una antigua unidad de peso."
         },
         {
-          "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "El gramo y la tonelada son unidades de peso."
+          "de": "Welche Gewichtseinheit wird in Deutschland verwendet?",
+          "lv": "¿Qué unidad de peso se usa en Alemania?"
         }
-      ]
+      ],
+      "comparison": [
+        {
+          "word": "die Maßeinheit",
+          "meaning": "unidad de medida",
+          "example": "Der Meter ist eine Maßeinheit. – El metro es una unidad de medida."
+        },
+        {
+          "word": "die Längeneinheit",
+          "meaning": "unidad de longitud",
+          "example": "Der Kilometer ist eine Längeneinheit. – El kilómetro es una unidad de longitud."
+        },
+        {
+          "word": "das Gewicht",
+          "meaning": "peso",
+          "example": "Das Gewicht beträgt zwei Kilo. – El peso es de dos kilos."
+        }
+      ],
+      "tip": [
+        "El artículo de un compuesto es el de su último elemento: die Einheit, por tanto die Gewichtseinheit.",
+        "Se forman igual: Längeneinheit, Zeiteinheit, Volumeneinheit."
+      ],
+      "important": [
+        "En el día a día Gewicht suele designar la masa, pero en física peso y masa son conceptos distintos."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "die Gewichtseinheit",
+            "die Gewichtseinheiten",
+            "Gewichtseinheit",
+            "das Gewicht",
+            "die Einheit"
+          ],
+          "purple": [
+            "unidad de peso",
+            "unidad"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "unidad de peso"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "unidad de peso"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Gewichtseinheit"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "unidad de peso"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Maßeinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "unidad de medida"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "die Längeneinheit"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "longitud"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Gewicht"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "peso"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {}
+        ]
+      }
     }
   },
   {
@@ -206,14 +332,14 @@ const C2_WORDS = [
   },
   {
     "de": "entgegenkommen",
-    "lv": "ceder",
+    "lv": "salir al encuentro • hacer concesiones",
     "level": "C2"
   },
   {
     "de": "Gebrauchtwagen",
     "de_article": "der",
     "de_plural": "die Gebrauchtwagen",
-    "lv": "auto usado",
+    "lv": "coche de segunda mano",
     "level": "C2"
   },
   {
@@ -248,14 +374,14 @@ const C2_WORDS = [
     "de": "Gepäckaufbewahrung",
     "de_article": "die",
     "de_plural": "die Gepäckaufbewahrungen",
-    "lv": "almacenamiento de equipaje",
+    "lv": "consigna",
     "level": "C2"
   },
   {
     "de": "Geschäftsführer",
     "de_article": "der",
     "de_plural": "die Geschäftsführer",
-    "lv": "gerente de la empresa",
+    "lv": "gerente • director general",
     "level": "C2"
   },
   {
@@ -290,7 +416,7 @@ const C2_WORDS = [
     "de": "Inhaltsverzeichnis",
     "de_article": "das",
     "de_plural": "die Inhaltsverzeichnisse",
-    "lv": "tabla de contenido",
+    "lv": "índice",
     "level": "C2"
   },
   {
@@ -317,14 +443,14 @@ const C2_WORDS = [
     "de": "Kostenerstattung",
     "de_article": "die",
     "de_plural": "die Kostenerstattungen",
-    "lv": "reembolso de costos",
+    "lv": "reembolso de gastos",
     "level": "C2"
   },
   {
     "de": "Kostensteigerung",
     "de_article": "die",
     "de_plural": "die Kostensteigerungen",
-    "lv": "aumento de los costos",
+    "lv": "aumento de costes",
     "level": "C2"
   },
   {
@@ -373,21 +499,21 @@ const C2_WORDS = [
     "de": "Nebelscheinwerfer",
     "de_article": "der",
     "de_plural": "die Nebelscheinwerfer",
-    "lv": "faro antiniebla para coches",
+    "lv": "faro antiniebla",
     "level": "C2"
   },
   {
     "de": "Personenkraftwagen",
     "de_article": "der",
     "de_plural": "die Personenkraftwagen",
-    "lv": "automóvil de pasajeros",
+    "lv": "turismo • automóvil",
     "level": "C2"
   },
   {
     "de": "Reisebeschreibung",
     "de_article": "die",
     "de_plural": "die Reisebeschreibungen",
-    "lv": "descripción del viaje",
+    "lv": "relato de viaje • libro de viajes",
     "level": "C2"
   },
   {
@@ -467,7 +593,7 @@ const C2_WORDS = [
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "paso subterráneo bajo la carretera",
+    "lv": "paso subterráneo",
     "level": "C2"
   },
   {
@@ -508,14 +634,14 @@ const C2_WORDS = [
     "de": "Wettervorhersage",
     "de_article": "die",
     "de_plural": "die Wettervorhersagen",
-    "lv": "pronóstico del tiempo",
+    "lv": "previsión del tiempo",
     "level": "C2"
   },
   {
     "de": "Windschutzscheibe",
     "de_article": "die",
     "de_plural": "die Windschutzscheiben",
-    "lv": "parabrisas del coche",
+    "lv": "parabrisas",
     "level": "C2"
   },
   {
@@ -529,14 +655,14 @@ const C2_WORDS = [
     "de": "Abenteuergeschichte",
     "de_article": "die",
     "de_plural": "die Abenteuergeschichten",
-    "lv": "historia de una aventura",
+    "lv": "relato de aventuras",
     "level": "C2"
   },
   {
     "de": "Abgeordnetenhaus",
     "de_article": "das",
     "de_plural": "die Abgeordnetenhäuser",
-    "lv": "parlamento",
+    "lv": "cámara de diputados",
     "level": "C2"
   },
   {
@@ -564,7 +690,7 @@ const C2_WORDS = [
     "de": "Baugenossenschaft",
     "de_article": "die",
     "de_plural": "die Baugenossenschaften",
-    "lv": "cooperativa de construcción de apartamentos",
+    "lv": "cooperativa de viviendas",
     "level": "C2"
   },
   {
@@ -655,14 +781,14 @@ const C2_WORDS = [
     "de": "Computersimulation",
     "de_article": "die",
     "de_plural": "die Computersimulationen",
-    "lv": "simulación por computadora",
+    "lv": "simulación por ordenador",
     "level": "C2"
   },
   {
     "de": "Computerwissenschaft",
     "de_article": "die",
     "de_plural": "die Computerwissenschaften",
-    "lv": "ciencias de la computación • informática",
+    "lv": "informática",
     "level": "C2"
   },
   {
@@ -675,14 +801,14 @@ const C2_WORDS = [
     "de": "Sittlichkeitsdelikt",
     "de_article": "das",
     "de_plural": "die Sittlichkeitsdelikte",
-    "lv": "violación de las normas morales",
+    "lv": "delito sexual • delito contra la moral",
     "level": "C2"
   },
   {
     "de": "Rauschgiftdezernat",
     "de_article": "das",
     "de_plural": "die Rauschgiftdezernate",
-    "lv": "división de narcóticos",
+    "lv": "brigada de estupefacientes",
     "level": "C2"
   },
   {
@@ -715,28 +841,28 @@ const C2_WORDS = [
     "de": "Durchschnittsalter",
     "de_article": "das",
     "de_plural": "die Durchschnittsalter",
-    "lv": "edad promedio",
+    "lv": "edad media",
     "level": "C2"
   },
   {
     "de": "Durchschnittsverdienst",
     "de_article": "der",
     "de_plural": "die Durchschnittsverdienste",
-    "lv": "ganancias promedio",
+    "lv": "salario medio • ingresos medios",
     "level": "C2"
   },
   {
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "rendimiento promedio",
+    "lv": "rendimiento medio",
     "level": "C2"
   },
   {
     "de": "Durchschnittsmensch",
     "de_article": "der",
     "de_plural": "die Durchschnittsmenschen",
-    "lv": "una persona promedio",
+    "lv": "persona corriente • hombre de la calle",
     "level": "C2"
   },
   {
@@ -790,7 +916,7 @@ const C2_WORDS = [
     "de": "Erfrischungsraum",
     "de_article": "der",
     "de_plural": "die Erfrischungsräume",
-    "lv": "sala de refrigerios",
+    "lv": "cafetería • cantina",
     "level": "C2"
   },
   {
@@ -880,14 +1006,14 @@ const C2_WORDS = [
     "de": "Gefängnisaufseher",
     "de_article": "der",
     "de_plural": "die Gefängnisaufseher",
-    "lv": "guardia de prisión",
+    "lv": "funcionario de prisiones • carcelero",
     "level": "C2"
   },
   {
     "de": "Gefängnisinsasse",
     "de_article": "der",
     "de_plural": "die Gefängnisinsassen",
-    "lv": "un prisionero",
+    "lv": "recluso • preso",
     "level": "C2"
   },
   {
@@ -961,7 +1087,7 @@ const C2_WORDS = [
     "de": "Genossenschaft",
     "de_article": "die",
     "de_plural": "die Genossenschaften",
-    "lv": "cooperativa • artel",
+    "lv": "cooperativa",
     "level": "C2"
   },
   {
@@ -1070,14 +1196,14 @@ const C2_WORDS = [
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "pago de ganancias",
+    "lv": "pago de premios",
     "level": "C2"
   },
   {
     "de": "Gipfelkonferenz",
     "de_article": "die",
     "de_plural": "die Gipfelkonferenzen",
-    "lv": "conferencia al más alto nivel",
+    "lv": "cumbre • conferencia en la cumbre",
     "level": "C2"
   },
   {
@@ -1112,7 +1238,7 @@ const C2_WORDS = [
     "de": "Haushaltsausschuss",
     "de_article": "der",
     "de_plural": "die Haushaltsausschüsse",
-    "lv": "comisión de presupuesto",
+    "lv": "comisión de presupuestos",
     "level": "C2"
   },
   {
@@ -1175,7 +1301,7 @@ const C2_WORDS = [
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "coste de vida",
+    "lv": "coste de la vida",
     "level": "C2"
   },
   {
@@ -1189,14 +1315,14 @@ const C2_WORDS = [
     "de": "Leistungsfähigkeit",
     "de_article": "die",
     "de_plural": "die Leistungsfähigkeiten",
-    "lv": "capacidad de rendimiento",
+    "lv": "rendimiento • capacidad de trabajo",
     "level": "C2"
   },
   {
     "de": "Mannschaftskampf",
     "de_article": "der",
     "de_plural": "die Mannschaftskämpfe",
-    "lv": "competencia por equipos",
+    "lv": "competición por equipos",
     "level": "C2"
   },
   {
@@ -1236,7 +1362,7 @@ const C2_WORDS = [
     "de": "Mutterschaftsurlaub",
     "de_article": "der",
     "de_plural": "die Mutterschaftsurlaube",
-    "lv": "licencia de maternidad",
+    "lv": "baja por maternidad • permiso de maternidad",
     "level": "C2"
   },
   {
@@ -1294,14 +1420,14 @@ const C2_WORDS = [
     "de": "Satellitenübertragung",
     "de_article": "die",
     "de_plural": "die Satellitenübertragungen",
-    "lv": "transmisión de televisión por satélite",
+    "lv": "transmisión vía satélite",
     "level": "C2"
   },
   {
     "de": "Scheidungsprozess",
     "de_article": "der",
     "de_plural": "die Scheidungsprozesse",
-    "lv": "trámites de divorcio",
+    "lv": "proceso de divorcio",
     "level": "C2"
   },
   {
@@ -1329,14 +1455,14 @@ const C2_WORDS = [
     "de": "Selbsterhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Selbsterhaltungstriebe",
-    "lv": "el instinto de autoconservación",
+    "lv": "instinto de conservación",
     "level": "C2"
   },
   {
     "de": "Selbstverteidigung",
     "de_article": "die",
     "de_plural": "die Selbstverteidigungen",
-    "lv": "un conjunto de técnicas de autodefensa",
+    "lv": "defensa personal • autodefensa",
     "level": "C2"
   },
   {
@@ -1371,7 +1497,7 @@ const C2_WORDS = [
     "de": "Vaterschaftsklage",
     "de_article": "die",
     "de_plural": "die Vaterschaftsklagen",
-    "lv": "una demanda para establecer la paternidad",
+    "lv": "demanda de paternidad",
     "level": "C2"
   },
   {
@@ -1409,7 +1535,7 @@ const C2_WORDS = [
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "en la base",
+    "lv": "como base • en la base",
     "level": "C2"
   },
   {
@@ -1429,12 +1555,12 @@ const C2_WORDS = [
   },
   {
     "de": "instand",
-    "lv": "en orden",
+    "lv": "en buen estado • en condiciones",
     "level": "C2"
   },
   {
     "de": "in Stand",
-    "lv": "en orden",
+    "lv": "en buen estado • en condiciones",
     "level": "C2"
   },
   {
