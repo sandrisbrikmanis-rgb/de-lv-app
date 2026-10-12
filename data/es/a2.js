@@ -6632,7 +6632,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "Comprueba el perfecto: si te quitas algo, hat ausgezogen; si te mudas, ist ausgezogen.",
-        "Con la ropa siempre hace falta un objeto (die Jacke); con la mudanza suele aparecer aus + dativo."
+        "Con la ropa suele aparecer un objeto (die Jacke) o la forma reflexiva sich ausziehen; con la mudanza suele aparecer aus + dativo."
       ],
       "important": [
         "En el perfecto no confundas haben y sein: hat die Jacke ausgezogen, pero ist aus der Wohnung ausgezogen.",
@@ -7720,11 +7720,11 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Recuerda: en todas las formas excepto el nominativo singular la palabra termina en -n: den Bauern, dem Bauern.",
+        "Recuerda: en todas las formas excepto el nominativo singular la palabra termina normalmente en -n: den Bauern, dem Bauern.",
         "La forma femenina es die Bäuerin (con diéresis)."
       ],
       "important": [
-        "Declinación en -n: ich sehe den Bauern, no den Bauer.",
+        "Declinación en -n: ich sehe den Bauern; la forma den Bauer existe, pero es poco frecuente.",
         "Der Bauer en el ajedrez no es un campesino, sino un peón."
       ],
       "sectionAccents": {
@@ -9983,7 +9983,7 @@ const A2_WORDS = [
       "translation": "suelo",
       "explanation": [
         "Idea principal: der Boden es un sustantivo masculino que significa suelo (de una habitación) y también tierra o suelo en el que crece algo. El plural es die Böden (con diéresis).",
-        "Otros significados: fondo (der Boden der Flasche – el fondo de la botella) y desván (en algunas regiones, sobre todo del sur). La combinación auf dem Boden puede significar en el suelo o en la tierra.",
+        "Otros significados: fondo (der Boden der Flasche – el fondo de la botella) y desván (en algunas regiones, sobre todo del norte y del este). La combinación auf dem Boden puede significar en el suelo o en la tierra.",
         "Compuestos: der Fußboden (suelo, piso de una habitación), der Dachboden (desván), der Waldboden (suelo del bosque), die Bodenheizung (suelo radiante)."
       ],
       "examples": [
@@ -16114,7 +16114,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Weg dauert etwa zehn Minuten.",
-          "lv": "El camino dura aproximadamente diez minutos."
+          "lv": "El trayecto dura aproximadamente diez minutos."
         },
         {
           "de": "Etwa die Hälfte der Klasse ist krank.",
@@ -24698,7 +24698,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Die Kirsche es femenino: die Kirsche, die Kirschen.",
-        "El nombre del fruto no es el del árbol: el árbol es der Kirschbaum."
+        "El árbol se llama normalmente der Kirschbaum, aunque die Kirsche puede designar también el árbol o su madera."
       ],
       "sectionAccents": {
         "explanation": {
@@ -34370,7 +34370,7 @@ const A2_WORDS = [
         "La cola en la que espera la gente se llama Schlange; Reihe es más bien una fila o un orden (Du bist an der Reihe)."
       ],
       "important": [
-        "Schlange stehen es una expresión fija: no in der Schlange sein, sino Schlange stehen."
+        "Schlange stehen es una expresión fija sin artículo: Wir stehen Schlange. También es correcto in der Schlange stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -34959,7 +34959,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Las deudas, siempre en plural: Schulden haben, Schulden machen."
+        "Las deudas de dinero suelen ir en plural: Schulden haben, Schulden machen."
       ],
       "important": [
         "Para hablar de una deuda se dice bei jemandem Schulden haben (deberle dinero a alguien)."
@@ -43358,7 +43358,7 @@ const A2_WORDS = [
       "translation": "actualmente",
       "explanation": [
         "Idea principal: zurzeit es un adverbio que significa actualmente, en este momento. Describe una situación de un periodo presente que más adelante puede cambiar.",
-        "Su abreviatura escrita es z. Z. La palabra es invariable. Sinónimos: derzeit e im Moment.",
+        "Su abreviatura escrita es zz. o zzt. La palabra es invariable. Sinónimos: derzeit e im Moment.",
         "Ortografía: zurzeit, en una sola palabra, significa actualmente. En dos palabras, zur Zeit + genitivo significa en tiempos de: zur Zeit Goethes (en tiempos de Goethe)."
       ],
       "examples": [
@@ -45247,10 +45247,10 @@ const A2_WORDS = [
       ],
       "tip": [
         "Delante del sustantivo, klein se declina: ein kleiner Tisch, eine kleine Stadt, ein kleines Kind.",
-        "klein es tamaño; wenig es cantidad: kleines Auto, pero wenig Geld."
+        "klein describe sobre todo el tamaño; wenig, la cantidad de algo no contable: kleines Auto, pero wenig Geld."
       ],
       "important": [
-        "klein no expresa cantidad: poco tiempo es wenig Zeit, no kleine Zeit.",
+        "Con sustantivos no contables se usa wenig, no klein: poco tiempo es wenig Zeit, no kleine Zeit (pero sí eine kleine Menge).",
         "Cuando en español decimos pequeño de un niño, en alemán puede ser klein o jung, según el contexto."
       ],
       "sectionAccents": {
@@ -45618,7 +45618,7 @@ const A2_WORDS = [
         }
       ],
       "tip": [
-        "Lo contrario de schon es noch (todavía): Bist du schon da? – Nein, noch nicht.",
+        "Lo contrario de schon es noch nicht (todavía no): Bist du schon da? – Nein, noch nicht.",
         "bereits es más formal que schon; el significado es el mismo."
       ],
       "important": [
