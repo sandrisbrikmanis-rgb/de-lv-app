@@ -1802,7 +1802,7 @@ const B1_WORDS = [
     "de": "Abitur",
     "de_article": "das",
     "de_plural": "die Abiture",
-    "lv": "título de bachillerato",
+    "lv": "examen final de bachillerato",
     "level": "B1"
   },
   {
@@ -3245,7 +3245,7 @@ const B1_WORDS = [
   },
   {
     "de": "anknüpfen",
-    "lv": "establecer contacto",
+    "lv": "anudar • entablar • retomar",
     "level": "B1"
   },
   {
@@ -4052,7 +4052,7 @@ const B1_WORDS = [
   },
   {
     "de": "anschreiben",
-    "lv": "escribir a",
+    "lv": "apuntar • anotar • escribir a",
     "level": "B1"
   },
   {
@@ -7507,7 +7507,7 @@ const B1_WORDS = [
     "de": "Bekanntschaft",
     "de_article": "die",
     "de_plural": "die Bekanntschaften",
-    "lv": "conocido",
+    "lv": "conocimiento • conocido",
     "level": "B1"
   },
   {
@@ -34018,7 +34018,7 @@ const B1_WORDS = [
     "de": "Kabelkanal",
     "de_article": "der",
     "de_plural": "die Kabelkanäle",
-    "lv": "canaleta para cables",
+    "lv": "canal de televisión por cable",
     "level": "B1"
   },
   {
@@ -55752,14 +55752,14 @@ const B1_WORDS = [
     "de": "Slalom",
     "de_article": "der",
     "de_plural": "die Slaloms",
-    "lv": "slalom",
+    "lv": "eslalon",
     "level": "B1"
   },
   {
     "de": "Slalomlauf",
     "de_article": "der",
     "de_plural": "die Slalomläufe",
-    "lv": "slalom",
+    "lv": "eslalon",
     "level": "B1"
   },
   {
@@ -62416,7 +62416,7 @@ const B1_WORDS = [
     "de": "Truppe",
     "de_article": "die",
     "de_plural": "die Truppen",
-    "lv": "tropa",
+    "lv": "compañía teatral • tropa",
     "level": "B1"
   },
   {
