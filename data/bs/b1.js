@@ -29264,7 +29264,7 @@ const B1_WORDS = [
   },
   {
     "de": "hageln",
-    "lv": "pada grad",
+    "lv": "padati (grad)",
     "level": "B1"
   },
   {
@@ -29784,7 +29784,7 @@ const B1_WORDS = [
   },
   {
     "de": "hassen",
-    "lv": "mrzeti",
+    "lv": "mrziti",
     "level": "B1"
   },
   {
@@ -31920,7 +31920,7 @@ const B1_WORDS = [
     "de": "Hörspiel",
     "de_article": "das",
     "de_plural": "die Hörspiele",
-    "lv": "radio-drama • radio predstava",
+    "lv": "radiodrama • radiopredstava",
     "level": "B1"
   },
   {
@@ -32143,7 +32143,7 @@ const B1_WORDS = [
     "de": "Hühnerzucht",
     "de_article": "die",
     "de_plural": "die Hühnerzuchten",
-    "lv": "uzgoj peradi",
+    "lv": "uzgoj kokoši",
     "level": "B1"
   },
   {
@@ -32963,7 +32963,7 @@ const B1_WORDS = [
   },
   {
     "de": "insofern",
-    "lv": "u toj meri",
+    "lv": "u toj mjeri",
     "level": "B1"
   },
   {
@@ -35849,7 +35849,7 @@ const B1_WORDS = [
   },
   {
     "de": "kneten",
-    "lv": "mesiti",
+    "lv": "mijesiti",
     "level": "B1"
   },
   {
@@ -42654,7 +42654,7 @@ const B1_WORDS = [
   },
   {
     "de": "melken",
-    "lv": "muzti",
+    "lv": "musti",
     "level": "B1"
   },
   {
@@ -43149,7 +43149,7 @@ const B1_WORDS = [
   {
     "de": "Motorsport",
     "de_article": "der",
-    "lv": "motorni sportovi",
+    "lv": "motorni sport",
     "level": "B1"
   },
   {
@@ -46724,7 +46724,7 @@ const B1_WORDS = [
     "de": "Pfarrer",
     "de_article": "der",
     "de_plural": "die Pfarrer",
-    "lv": "sveštenik",
+    "lv": "svećenik",
     "level": "B1"
   },
   {
@@ -48114,21 +48114,21 @@ const B1_WORDS = [
     "de": "Radioapparat",
     "de_article": "der",
     "de_plural": "die Radioapparate",
-    "lv": "radio aparat",
+    "lv": "radioaparat",
     "level": "B1"
   },
   {
     "de": "Radioamateur",
     "de_article": "der",
     "de_plural": "die Radioamateurs",
-    "lv": "radio amater",
+    "lv": "radioamater",
     "level": "B1"
   },
   {
     "de": "Radiosendung",
     "de_article": "die",
     "de_plural": "die Radiosendungen",
-    "lv": "radio emisija",
+    "lv": "radioemisija",
     "level": "B1"
   },
   {
@@ -51568,7 +51568,7 @@ const B1_WORDS = [
     "de": "Sauerstoff",
     "de_article": "der",
     "de_plural": "die Sauerstoffe",
-    "lv": "kiseonik",
+    "lv": "kisik",
     "level": "B1"
   },
   {
@@ -53667,7 +53667,7 @@ const B1_WORDS = [
   },
   {
     "de": "schnurren",
-    "lv": "prediti",
+    "lv": "presti",
     "level": "B1"
   },
   {
@@ -54729,7 +54729,7 @@ const B1_WORDS = [
     "de": "Seegang",
     "de_article": "der",
     "de_plural": null,
-    "lv": "talasi mora",
+    "lv": "valovitost mora",
     "level": "B1"
   },
   {
@@ -59487,7 +59487,7 @@ const B1_WORDS = [
     "de": "Sülze",
     "de_article": "die",
     "de_plural": "die Sülzen",
-    "lv": "galert",
+    "lv": "hladetina",
     "level": "B1"
   },
   {
@@ -59719,7 +59719,7 @@ const B1_WORDS = [
   },
   {
     "de": "tadellos",
-    "lv": "besprekoran",
+    "lv": "besprijekoran",
     "level": "B1"
   },
   {
@@ -68728,7 +68728,7 @@ const B1_WORDS = [
     "de": "Wassersport",
     "de_article": "der",
     "de_plural": "die Wassersporte",
-    "lv": "sportovi na vodi",
+    "lv": "vodeni sport",
     "level": "B1"
   },
   {
@@ -72955,7 +72955,7 @@ const B1_WORDS = [
   },
   {
     "de": "sich entschuldigen",
-    "lv": "izvinuti se",
+    "lv": "izviniti se",
     "level": "B1"
   },
   {

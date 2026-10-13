@@ -376,7 +376,7 @@ const B2_WORDS = [
   },
   {
     "de": "abblitzen",
-    "lv": "odbiti",
+    "lv": "biti odbijen",
     "level": "B2"
   },
   {
@@ -5453,7 +5453,7 @@ const B2_WORDS = [
     "de": "Datenträger",
     "de_article": "der",
     "de_plural": "die Datenträger",
-    "lv": "nosilac podataka",
+    "lv": "nosač podataka",
     "level": "B2"
   },
   {
@@ -7283,7 +7283,7 @@ const B2_WORDS = [
   },
   {
     "de": "eingerechnet",
-    "lv": "uračunato • pripisano • dodano",
+    "lv": "uračunat • pripisan • dodan",
     "level": "B2"
   },
   {
@@ -8131,7 +8131,7 @@ const B2_WORDS = [
   },
   {
     "de": "einwandfrei",
-    "lv": "besprekoran",
+    "lv": "besprijekoran",
     "level": "B2"
   },
   {
@@ -8185,7 +8185,7 @@ const B2_WORDS = [
     "de": "Eisengießerei",
     "de_article": "die",
     "de_plural": "die Eisengießereien",
-    "lv": "livnica livenog gvožđa",
+    "lv": "ljevaonica željeza",
     "level": "B2"
   },
   {
@@ -12125,7 +12125,7 @@ const B2_WORDS = [
     "de": "Funker",
     "de_article": "der",
     "de_plural": "die Funker",
-    "lv": "radio-operater • radiotelegrafista",
+    "lv": "radiooperater • radiotelegrafista",
     "level": "B2"
   },
   {
@@ -12139,7 +12139,7 @@ const B2_WORDS = [
     "de": "Funkstation",
     "de_article": "die",
     "de_plural": "die Funkstationen",
-    "lv": "radio-stanica",
+    "lv": "radiostanica",
     "level": "B2"
   },
   {
@@ -12153,7 +12153,7 @@ const B2_WORDS = [
     "de": "Funkverbindung",
     "de_article": "die",
     "de_plural": "die Funkverbindungen",
-    "lv": "radio-veza",
+    "lv": "radioveza",
     "level": "B2"
   },
   {
@@ -12449,7 +12449,7 @@ const B2_WORDS = [
     "de": "Geistliche",
     "de_article": "der",
     "de_plural": "die Geistlichen",
-    "lv": "sveštenik • duhovno lice",
+    "lv": "svećenik • duhovnik",
     "level": "B2"
   },
   {
@@ -14649,7 +14649,7 @@ const B2_WORDS = [
   },
   {
     "de": "härten",
-    "lv": "kaliti • očvrsćivati",
+    "lv": "kaliti • očvršćivati",
     "level": "B2"
   },
   {
@@ -15356,7 +15356,7 @@ const B2_WORDS = [
   },
   {
     "de": "herausstellen",
-    "lv": "izložiti • istaknuti",
+    "lv": "pokazati se • istaknuti",
     "level": "B2"
   },
   {
@@ -24670,7 +24670,7 @@ const B2_WORDS = [
   },
   {
     "de": "vordringen",
-    "lv": "probiti naprijed",
+    "lv": "probiti se naprijed",
     "level": "B2"
   },
   {

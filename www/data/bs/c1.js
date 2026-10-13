@@ -821,7 +821,7 @@ const C1_WORDS = [
     "de": "Meinungsumfrage",
     "de_article": "die",
     "de_plural": "die Meinungsumfragen",
-    "lv": "ispitivanje javnog mnjenja",
+    "lv": "ispitivanje javnog mnijenja",
     "level": "C1"
   },
   {
@@ -1457,7 +1457,7 @@ const C1_WORDS = [
     "de": "Radioübertragung",
     "de_article": "die",
     "de_plural": "die Radioübertragungen",
-    "lv": "radio emisija",
+    "lv": "radioemisija",
     "level": "C1"
   },
   {
@@ -1529,7 +1529,7 @@ const C1_WORDS = [
   },
   {
     "de": "schmerzhaft",
-    "lv": "bolno",
+    "lv": "bolan",
     "level": "C1"
   },
   {
@@ -2557,7 +2557,7 @@ const C1_WORDS = [
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "konsultacije o profesionalnoj orijentaciji",
+    "lv": "profesionalno savjetovanje",
     "level": "C1"
   },
   {
@@ -2913,7 +2913,7 @@ const C1_WORDS = [
   },
   {
     "de": "dazwischenkommen",
-    "lv": "isprijećiti se • desiti se • umiješati se",
+    "lv": "ispriječiti se • desiti se • umiješati se",
     "level": "C1"
   },
   {
@@ -2984,7 +2984,7 @@ const C1_WORDS = [
   },
   {
     "de": "dienstpflichtig",
-    "lv": "obavezan služiti vojni rok • vojni obveznik",
+    "lv": "vojnoobavezan • obavezan služiti vojni rok",
     "level": "C1"
   },
   {
@@ -3189,7 +3189,7 @@ const C1_WORDS = [
   },
   {
     "de": "entschlossen",
-    "lv": "odlučan • rješen • nepokolebljiv",
+    "lv": "odlučan • riješen • nepokolebljiv",
     "level": "C1"
   },
   {
@@ -3581,7 +3581,7 @@ const C1_WORDS = [
   },
   {
     "de": "geistesabwesend",
-    "lv": "rasejan",
+    "lv": "rasijan",
     "level": "C1"
   },
   {

@@ -527,7 +527,7 @@ const C2_WORDS = [
     "de": "Rundfunkempfänger",
     "de_article": "der",
     "de_plural": "die Rundfunkempfänger",
-    "lv": "radio-prijemnik",
+    "lv": "radioprijemnik",
     "level": "C2"
   },
   {
@@ -593,7 +593,7 @@ const C2_WORDS = [
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "podzemni prolaz • podvožnjak",
+    "lv": "podzemni prolaz",
     "level": "C2"
   },
   {
@@ -902,7 +902,7 @@ const C2_WORDS = [
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "odlučnost • rješenost • nepokolebljivost",
+    "lv": "odlučnost • riješenost • nepokolebljivost",
     "level": "C2"
   },
   {
