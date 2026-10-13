@@ -69260,32 +69260,32 @@ const B1_WORDS = [
     "de": "Welle",
     "de_article": "die",
     "de_plural": "die Wellen",
-    "lv": "talas",
+    "lv": "val",
     "level": "B1",
     "study": {
       "id": "b1-welle",
       "layout": "standardStudy",
-      "translation": "talas",
+      "translation": "val",
       "explanation": [
-        "Glavna ideja: die Welle je imenica ženskog roda koja znači talas, val – talas vode, zvuka, svjetlosti ili radija. Množina: die Wellen.",
-        "U prenesenom značenju die Welle je i pojava koja naglo raste: eine Welle der Hilfsbereitschaft (talas spremnosti na pomoć), die zweite Welle (drugi talas). Često se koristi u složenicama: Radiowelle, Hitzewelle (toplotni talas), Dauerwelle (trajna ondulacija)."
+        "Glavna ideja: die Welle je imenica ženskog roda koja znači val – val vode, zvuka, svjetlosti ili radija. Množina: die Wellen.",
+        "U prenesenom značenju die Welle je i pojava koja naglo raste: eine Welle der Hilfsbereitschaft (val spremnosti na pomoć), die zweite Welle (drugi val). Često se koristi u složenicama: Radiowelle, Hitzewelle (toplotni val), Dauerwelle (trajna ondulacija)."
       ],
       "examples": [
         {
           "de": "Die Wellen sind heute besonders hoch.",
-          "lv": "Talasi su danas posebno visoki."
+          "lv": "Valovi su danas posebno visoki."
         },
         {
           "de": "Eine Welle schlug über das Boot.",
-          "lv": "Jedan talas je prešao preko čamca."
+          "lv": "Jedan val je prešao preko čamca."
         },
         {
           "de": "Die zweite Welle der Grippe kommt im Winter.",
-          "lv": "Drugi talas gripe dolazi zimi."
+          "lv": "Drugi val gripe dolazi zimi."
         },
         {
           "de": "In Südeuropa gibt es eine Hitzewelle.",
-          "lv": "U južnoj Evropi je toplotni talas."
+          "lv": "U južnoj Evropi je toplotni val."
         },
         {
           "de": "Sie hat von Natur aus Wellen im Haar.",
@@ -69295,7 +69295,7 @@ const B1_WORDS = [
       "comparison": [
         {
           "word": "die Woge",
-          "meaning": "val, talas (poetski)",
+          "meaning": "val (poetski)",
           "example": "Eine Woge der Freude erfasste ihn. – Obuzeo ga je val radosti."
         },
         {
@@ -69310,11 +69310,11 @@ const B1_WORDS = [
         }
       ],
       "tip": [
-        "Na radiju die Welle znači frekvenciju, val: der Kurzwellensender (kratkotalasni predajnik), die Langwelle.",
-        "Zamisli more: Wellen schlagen ans Ufer – talasi udaraju o obalu."
+        "Na radiju die Welle znači frekvenciju, val: der Kurzwellensender (kratkovalni predajnik), die Langwelle.",
+        "Zamisli more: Wellen schlagen ans Ufer – valovi udaraju o obalu."
       ],
       "important": [
-        "Die Welle (talas) nije die Wolle (vuna).",
+        "Die Welle (val) nije die Wolle (vuna).",
         "Množina je die Wellen."
       ],
       "sectionAccents": {
@@ -69326,7 +69326,7 @@ const B1_WORDS = [
             "Hitzewelle"
           ],
           "purple": [
-            "talas"
+            "val"
           ]
         },
         "examples": [
@@ -69338,7 +69338,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Talasi"
+                "Valovi"
               ]
             }
           },
@@ -69350,7 +69350,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "talas"
+                "val"
               ]
             }
           },
@@ -69362,7 +69362,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "talas"
+                "val"
               ]
             }
           },
@@ -69374,7 +69374,7 @@ const B1_WORDS = [
             },
             "lv": {
               "purple": [
-                "talas"
+                "val"
               ]
             }
           },
