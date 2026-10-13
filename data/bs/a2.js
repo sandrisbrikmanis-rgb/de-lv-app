@@ -23839,12 +23839,12 @@ const A2_WORDS = [
   {
     "de": "Kinderfunk",
     "de_article": "der",
-    "lv": "dječiji radio-program",
+    "lv": "dječiji radioprogram",
     "level": "A2",
     "study": {
       "id": "a2-kinderfunk",
       "layout": "standardStudy",
-      "translation": "dječiji radio-program",
+      "translation": "dječiji radioprogram",
       "explanation": [
         "Glavna ideja: der Kinderfunk je imenica muškog roda i znači dječiji radio-program, tj. program ili emisiju za djecu na radiju.",
         "Riječ se uglavnom sreće u historiji radija i u kontekstu medija, a danas se rijetko koristi; u svakodnevici se obično kaže eine Kindersendung ili ein Hörspiel für Kinder. Množina se gotovo ne koristi.",
@@ -26992,7 +26992,7 @@ const A2_WORDS = [
   },
   {
     "de": "ledig",
-    "lv": "neoženjen • neudata",
+    "lv": "neoženjen • slobodan",
     "level": "A2"
   },
   {
@@ -29041,7 +29041,7 @@ const A2_WORDS = [
     "de": "Mikrowellenherd",
     "de_article": "der",
     "de_plural": "die Mikrowellenherde",
-    "lv": "mikrotalasna pećnica",
+    "lv": "mikrovalna pećnica",
     "level": "A2"
   },
   {
