@@ -23846,9 +23846,9 @@ const A2_WORDS = [
       "layout": "standardStudy",
       "translation": "dječiji radioprogram",
       "explanation": [
-        "Glavna ideja: der Kinderfunk je imenica muškog roda i znači dječiji radio-program, tj. program ili emisiju za djecu na radiju.",
+        "Glavna ideja: der Kinderfunk je imenica muškog roda i znači dječiji radioprogram, tj. program ili emisiju za djecu na radiju.",
         "Riječ se uglavnom sreće u historiji radija i u kontekstu medija, a danas se rijetko koristi; u svakodnevici se obično kaže eine Kindersendung ili ein Hörspiel für Kinder. Množina se gotovo ne koristi.",
-        "Sastoji se od Kinder (djeca) i der Funk (radio, radio-veza)."
+        "Sastoji se od Kinder (djeca) i der Funk (radio, radioveza)."
       ],
       "examples": [
         {
@@ -23865,7 +23865,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sie arbeitet beim Kinderfunk.",
-          "lv": "Ona radi u dječijem radio-programu."
+          "lv": "Ona radi u dječijem radioprogramu."
         }
       ],
       "comparison": [
@@ -23882,7 +23882,7 @@ const A2_WORDS = [
       ],
       "tip": [
         "U današnjem razgovoru češće ćeš čuti die Kindersendung (dječija emisija).",
-        "Der Funk sam za sebe znači radio-vezu; der Kinderfunk je dječiji program na radiju."
+        "Der Funk sam za sebe znači radiovezu; der Kinderfunk je dječiji program na radiju."
       ],
       "important": [
         "Der Kinderfunk je muškog roda.",
@@ -23896,7 +23896,7 @@ const A2_WORDS = [
           "purple": [
             "radio",
             "program",
-            "radio-veza"
+            "radioveza"
           ]
         },
         "examples": [
@@ -23945,7 +23945,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "radio-programu"
+                "radioprogramu"
               ]
             }
           }
