@@ -23381,7 +23381,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "From",
       "explanation": [
-        "Main idea: vom is a contraction of von + dem, so it is von with the dative of a masculine or neuter noun. It means from (origin, starting point) or by (the author): vom Arzt, vom Bahnhof, vom Montag bis Freitag.",
+        "Main idea: vom is a contraction of von + dem, so it is von with the dative of a masculine or neuter noun. It means from (origin, starting point) or by (the author): vom Arzt, vom Bahnhof, vom ersten Tag an.",
         "There is no such contraction for feminine and plural nouns: von der Frau, von den Kindern. Vom is only von dem.",
         "When the article needs to be stressed, von dem is written out; in everyday speech and in writing, vom is normally used."
       ],
@@ -23399,8 +23399,8 @@ const A1_WORDS = [
           "lv": "The train from platform three is about to leave."
         },
         {
-          "de": "Vom Montag bis Freitag arbeite ich.",
-          "lv": "I work from Monday to Friday."
+          "de": "Vom ersten Tag an arbeite ich hier.",
+          "lv": "I have worked here from the first day."
         }
       ],
       "comparison": [

@@ -23371,7 +23371,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Z",
       "explanation": [
-        "Hlavní myšlenka: vom je zkrácené von + dem, tedy von s dativem mužského nebo středního rodu. Znamená od, z (původ, výchozí bod, autor): vom Arzt, vom Bahnhof, vom Montag bis Freitag.",
+        "Hlavní myšlenka: vom je zkrácené von + dem, tedy von s dativem mužského nebo středního rodu. Znamená od, z (původ, výchozí bod, autor): vom Arzt, vom Bahnhof, vom ersten Tag an.",
         "V ženském rodě a v množném čísle takové zkrácení neexistuje: von der Frau, von den Kindern. Vom je pouze von dem.",
         "Když je třeba zdůraznit člen, píše se von dem; v běžné řeči i v textech se obvykle používá vom."
       ],
@@ -23389,8 +23389,8 @@ const A1_WORDS = [
           "lv": "Vlak z nástupiště tři za chvíli odjíždí."
         },
         {
-          "de": "Vom Montag bis Freitag arbeite ich.",
-          "lv": "Od pondělí do pátku pracuji."
+          "de": "Vom ersten Tag an arbeite ich hier.",
+          "lv": "Od prvního dne tu pracuji."
         }
       ],
       "comparison": [

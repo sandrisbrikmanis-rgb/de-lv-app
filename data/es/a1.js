@@ -23386,7 +23386,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "del",
       "explanation": [
-        "Idea principal: vom es la contracción de von + dem, es decir, von con dativo en masculino o neutro, algo parecido a la contracción española del (de + el). Significa de o desde (origen, punto de partida, autor): vom Arzt, vom Bahnhof, vom Montag bis Freitag.",
+        "Idea principal: vom es la contracción de von + dem, es decir, von con dativo en masculino o neutro, algo parecido a la contracción española del (de + el). Significa de o desde (origen, punto de partida, autor): vom Arzt, vom Bahnhof, vom ersten Tag an.",
         "En femenino y en plural no hay contracción: von der Frau, von den Kindern. Vom es solo von dem.",
         "Cuando hay que destacar el artículo se escribe von dem; en el habla y en la escritura corrientes se usa vom."
       ],
@@ -23404,8 +23404,8 @@ const A1_WORDS = [
           "lv": "El tren del andén tres sale enseguida."
         },
         {
-          "de": "Vom Montag bis Freitag arbeite ich.",
-          "lv": "De lunes a viernes trabajo."
+          "de": "Vom ersten Tag an arbeite ich hier.",
+          "lv": "Desde el primer día trabajo aquí."
         }
       ],
       "comparison": [
@@ -23491,7 +23491,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "De"
+                "Desde"
               ]
             }
           }
